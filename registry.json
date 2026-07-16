@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "description": "100xSystems Registry — index of all available learning systems",
+  "systems": [
+    {
+      "slug": "claude-code",
+      "title": "Claude Code",
+      "repo": "github.com/100xsystems/claude-code",
+      "description": "Build an AI-powered coding agent that operates directly in your terminal",
+      "version": "1.0.0",
+      "tracks": ["TypeScript", "Java"]
+    },
+    {
+      "slug": "microservices",
+      "title": "Microservices",
+      "repo": "github.com/100xsystems/microservices",
+      "description": "Master distributed systems architecture and real-world production patterns",
+      "version": "1.0.0",
+      "tracks": ["Spring Boot", "NestJS"]
+    }
+  ]
+}
