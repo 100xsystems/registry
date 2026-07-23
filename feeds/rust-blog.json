@@ -1,0 +1,95 @@
+{
+  "feedId": "rust-blog",
+  "feedName": "Rust Blog",
+  "feedSiteUrl": "https://blog.rust-lang.org",
+  "feedRssUrl": "https://blog.rust-lang.org/feed.xml",
+  "tags": [
+    "systems-programming",
+    "compiler",
+    "performance"
+  ],
+  "updatedAt": "2026-07-23T11:02:12.721Z",
+  "items": [
+    {
+      "guid": "rust-blog::https://blog.rust-lang.org/2026/07/16/Rust-1.97.1/",
+      "title": "Announcing Rust 1.97.1",
+      "link": "https://blog.rust-lang.org/2026/07/16/Rust-1.97.1/",
+      "summary": "The Rust team has published a new point release of Rust, 1.97.1. Rust is a programming language that is empowering everyone to build reliable and efficient software.\nIf you have a previous version of Rust installed via rustup, getting Rust 1.97.1 is as easy as:\nrustup update stable\nIf you don't…",
+      "author": "The Rust Release Team",
+      "publishedAt": "2026-07-16T00:00:00.000Z"
+    },
+    {
+      "guid": "rust-blog::https://blog.rust-lang.org/2026/07/13/crates-io-development-update/",
+      "title": "crates.io: development update",
+      "link": "https://blog.rust-lang.org/2026/07/13/crates-io-development-update/",
+      "summary": "Another six months have passed since our last development update, and the crates.io team has been busy. Here's a summary of the most notable changes and improvements made to crates.io since then.\n\nSource Code Viewer\nCrate pages now have a \"Code\" tab that lets you browse the contents of published…",
+      "author": "Tobias Bieniek",
+      "publishedAt": "2026-07-13T00:00:00.000Z"
+    },
+    {
+      "guid": "rust-blog::https://blog.rust-lang.org/2026/07/09/Rust-1.97.0/",
+      "title": "Announcing Rust 1.97.0",
+      "link": "https://blog.rust-lang.org/2026/07/09/Rust-1.97.0/",
+      "summary": "The Rust team is happy to announce a new version of Rust, 1.97.0. Rust is a programming language empowering everyone to build reliable and efficient software.\nIf you have a previous version of Rust installed via rustup, you can get 1.97.0 with:\n$ rustup update stable\nIf you don't have it already,…",
+      "author": "The Rust Release Team",
+      "publishedAt": "2026-07-09T00:00:00.000Z"
+    },
+    {
+      "guid": "rust-blog::https://blog.rust-lang.org/2026/06/30/Rust-1.96.1/",
+      "title": "Announcing Rust 1.96.1",
+      "link": "https://blog.rust-lang.org/2026/06/30/Rust-1.96.1/",
+      "summary": "The Rust team has published a new point release of Rust, 1.96.1. Rust is a programming language that is empowering everyone to build reliable and efficient software.\nIf you have a previous version of Rust installed via rustup, getting Rust 1.96.1 is as easy as:\nrustup update stable\nIf you don't…",
+      "author": "The Rust Release Team",
+      "publishedAt": "2026-06-30T00:00:00.000Z"
+    },
+    {
+      "guid": "rust-blog::https://blog.rust-lang.org/2026/06/25/vision-doc-journeys-to-learning-rust/",
+      "title": "The many journeys of learning Rust",
+      "link": "https://blog.rust-lang.org/2026/06/25/vision-doc-journeys-to-learning-rust/",
+      "summary": "This is another post in our series covering what we learned through the Vision Doc process. We previously described the overall approach and what we learned about doing user research, we explored what people love about Rust, dug into what it takes to ship safety-crticial Rust, and described some of…",
+      "author": "Pete LeVasseur",
+      "publishedAt": "2026-06-25T00:00:00.000Z"
+    },
+    {
+      "guid": "rust-blog::https://blog.rust-lang.org/2026/06/02/launching-the-rust-foundation-maintainers-fund/",
+      "title": "Launching the Rust Foundation Maintainers Fund",
+      "link": "https://blog.rust-lang.org/2026/06/02/launching-the-rust-foundation-maintainers-fund/",
+      "summary": "If you want to financially support the development of Rust, please consider donating to the Rust Foundation Maintainers Fund.\nA few months ago, the Rust Foundation announced the Rust Foundation Maintainers Fund (RFMF). Since then, the Rust Project has been closely cooperating with the Rust…",
+      "author": "Funding team",
+      "publishedAt": "2026-06-02T00:00:00.000Z"
+    },
+    {
+      "guid": "rust-blog::https://blog.rust-lang.org/2026/05/28/Rust-1.96.0/",
+      "title": "Announcing Rust 1.96.0",
+      "link": "https://blog.rust-lang.org/2026/05/28/Rust-1.96.0/",
+      "summary": "The Rust team is happy to announce a new version of Rust, 1.96.0. Rust is a programming language empowering everyone to build reliable and efficient software.\nIf you have a previous version of Rust installed via rustup, you can get 1.96.0 with:\n$ rustup update stable\nIf you don't have it already,…",
+      "author": "The Rust Release Team",
+      "publishedAt": "2026-05-28T00:00:00.000Z"
+    },
+    {
+      "guid": "rust-blog::https://blog.rust-lang.org/2026/05/25/cve-2026-5223/",
+      "title": "Security Advisory for Cargo (CVE-2026-5223)",
+      "link": "https://blog.rust-lang.org/2026/05/25/cve-2026-5223/",
+      "summary": "The Rust Security Response Team was notified that Cargo incorrectly handled\nsymlinks inside of crate tarballs downloaded from third-party registries,\nallowing a malicious crate to override the source code of another crate from the\nsame registry.\nThis vulnerability is tracked as CVE-2026-5223. The…",
+      "author": "Rust Security Response Team",
+      "publishedAt": "2026-05-25T00:00:00.000Z"
+    },
+    {
+      "guid": "rust-blog::https://blog.rust-lang.org/2026/05/25/cve-2026-5222/",
+      "title": "Security Advisory for Cargo (CVE-2026-5222)",
+      "link": "https://blog.rust-lang.org/2026/05/25/cve-2026-5222/",
+      "summary": "The Rust Security Response Team was notified that Cargo incorrectly normalized\nthe URLs of third-party registries using the sparse index protocol. If a\nhosting provider allowed multiple registries to be hosted with arbitrary names\nwithin the same domain, an attacker able to publish crates in a…",
+      "author": "Rust Security Response Team",
+      "publishedAt": "2026-05-25T00:00:00.000Z"
+    },
+    {
+      "guid": "rust-blog::https://blog.rust-lang.org/2026/05/18/project-goals-2026-04/",
+      "title": "Project goals update — April 2026 (end of 2025H2)",
+      "link": "https://blog.rust-lang.org/2026/05/18/project-goals-2026-04/",
+      "summary": "The 2025H2 Project Goal period has now concluded. Over these months, the Rust Project pursued 41 Project Goals, 13 of which were designated as Flagship Goals. This post contains curated updates on our progress since the last post and the final status for each of the goals (many of which continue as…",
+      "author": "Nurzhan Saken",
+      "publishedAt": "2026-05-18T00:00:00.000Z"
+    }
+  ],
+  "totalIndexed": 10
+}

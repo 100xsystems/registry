@@ -1,0 +1,255 @@
+{
+  "feedId": "postgresql",
+  "feedName": "PostgreSQL Blog",
+  "feedSiteUrl": "https://www.postgresql.org/blog",
+  "feedRssUrl": "https://planet.postgresql.org/rss20.xml",
+  "tags": [
+    "databases",
+    "sql",
+    "open-source"
+  ],
+  "updatedAt": "2026-07-23T11:12:47.074Z",
+  "items": [
+    {
+      "guid": "https://postgr.es/p/9qj",
+      "title": "Christophe Pettus: All Your GUCs in a Row: from_collapse_limit",
+      "link": "https://postgr.es/p/9qj",
+      "summary": "Subqueries in FROM clauses get flattened into the outer query by default—but only if the resulting join problem stays small enough.",
+      "author": null,
+      "publishedAt": "2026-07-23T02:30:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9qd",
+      "title": "Christophe Pettus: All Your GUCs in a Row: file_extend_method",
+      "link": "https://postgr.es/p/9qd",
+      "summary": "file_extend_method is an escape hatch wearing the costume of a tuning knob. It exists for one purpose: to let you turn off a PostgreSQL 16 optimization on the filesystems where that optimization turned out to misbehave.\nWhen a table grows, PostgreSQL has to extend its data file, and there are two…",
+      "author": null,
+      "publishedAt": "2026-07-22T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9q7",
+      "title": "Cornelia Biacsics: Building The OAPE PostgreSQL Certification",
+      "link": "https://postgr.es/p/9q7",
+      "summary": "Building the OAPE PostgreSQL Certification\nI’m one of the founders of the Open Alliance for PostgreSQL Education (OAPE).\nOver the past two years, I’ve had a front-row seat to watching an idea become a community, and a community become a movement.\nThis is the story of how the idea of an open,…",
+      "author": null,
+      "publishedAt": "2026-07-21T08:33:25.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9q5",
+      "title": "Cornelia Biacsics: Contributions for week 28",
+      "link": "https://postgr.es/p/9q5",
+      "summary": "On 15 July 2026, the Prairie Postgres Meetup Group met, organized by Henrietta Dombrovskaya and Carlos Aranibar.\nSpeakers: \nZach Paden\nAnna Bailliekova\nOn 18 July 2026, Alicja Kucharczyk, Pavlo Golub, Denys Holub & Anastasia Golub staffed the PostgreSQL booth at WAWTech Summer. \nThe PostgreSQL…",
+      "author": null,
+      "publishedAt": "2026-07-21T06:38:49.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9q8",
+      "title": "Abhisek Goswami: PostgreSQL vs Destructive Time Travel: The Year 2038 Problem",
+      "link": "https://postgr.es/p/9q8",
+      "summary": "Time, Physics, Mathematics, and Databases\nPhysics treats time as one of the fundamental dimensions of the universe. Mathematics transforms time into measurable values, equations, intervals, and limits. Databases quietly preserve time as operational reality. Every login, transaction, API call,…",
+      "author": null,
+      "publishedAt": "2026-07-21T05:00:58.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9q4",
+      "title": "Christophe Pettus: All Your GUCs in a Row: file_copy_method",
+      "link": "https://postgr.es/p/9q4",
+      "summary": "PostgreSQL 18's `file_copy_method = clone` can copy a terabyte database in half a second on copy-on-write filesystems. Here's when and why you should use it.",
+      "author": null,
+      "publishedAt": "2026-07-21T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9qe",
+      "title": "Paul Jungwirth: TQuel Paper",
+      "link": "https://postgr.es/p/9qe",
+      "summary": "With UPDATE/DELETE FOR PORTION OF looking like it will land in Postgres 19, I’ve been thinking about next steps. I read a very helpful paper on temporal relational algebra last May by Richard Snodgrass. Here are some notes on it.\nThe paper was “An Overview of TQuel”. It’s Chapter 6 in Temporal…",
+      "author": null,
+      "publishedAt": "2026-07-21T00:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9q6",
+      "title": "Regina Obe: PostGIS 3.7.0beta1",
+      "link": "https://postgr.es/p/9q6",
+      "summary": "The PostGIS Team is pleased to release PostGIS 3.7.0beta1!\nBest Served with PostgreSQL 19 Beta2\nand GEOS 3.15.0beta2.\nThis version requires PostgreSQL 14 - 19beta2, GEOS 3.10 or higher, and Proj 6.1+.\nTo take advantage of all features, GEOS 3.15+ is needed.\nTo take advantage of all SFCGAL features…",
+      "author": null,
+      "publishedAt": "2026-07-21T00:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9q2",
+      "title": "Hans-Juergen Schoenig: Moving to pg_hardstorage without changing your recovery strategy",
+      "link": "https://postgr.es/p/9q2",
+      "summary": "Changing a PostgreSQL backup solution involves much more than installing a new binary. Backup repositories, retention policies, recovery procedures, operational runbooks, and compliance requirements have all been built over time. Any migration needs to fit into that operational landscape while…",
+      "author": null,
+      "publishedAt": "2026-07-20T04:00:06.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9q1",
+      "title": "Christophe Pettus: All Your GUCs in a Row: extra_float_digits",
+      "link": "https://postgr.es/p/9q1",
+      "summary": "extra_float_digits is the setting whose job changed out from under it. For most of PostgreSQL’s history it forced a choice between floating-point output that was easy to read and output that was exactly right, and you could not have both. Since PostgreSQL 12 you no longer have to choose, which is…",
+      "author": null,
+      "publishedAt": "2026-07-20T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9q0",
+      "title": "Henrietta Dombrovskaya: Prairie Postgres July Meetup: Proudly Sourced at Midwest!",
+      "link": "https://postgr.es/p/9q0",
+      "summary": "On July 15, we hosted the second meetup at our new location, the Chicago Innovations Center. The CIC is evolving, and we like it more and more! I will probably stop saying it at some point, but for now, I want to repeat it one more time: we hope it will be our permanent home!\n\n\n\n\n\n\n\n\nWe keep…",
+      "author": null,
+      "publishedAt": "2026-07-19T16:27:03.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9p_",
+      "title": "Andrei Lepikhov: Openness or Oblivion",
+      "link": "https://postgr.es/p/9p_",
+      "summary": "I wonder what we can confidently say about how AI is changing the way our community works.\nMy hunch is that, as usual, we are held captive by our own experience and use AI in the ways we're accustomed to. Text chat, for example, remains the primary way of interacting with AI in software development…",
+      "author": null,
+      "publishedAt": "2026-07-19T10:25:44.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9pZ",
+      "title": "Christophe Pettus: All Your GUCs in a Row: external_pid_file",
+      "link": "https://postgr.es/p/9pZ",
+      "summary": "Write a second PID file to a custom location—useful when your cluster manager expects PostgreSQL's PID at a specific path like `/run/postgresql/postgresql.pid`.",
+      "author": null,
+      "publishedAt": "2026-07-19T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9pY",
+      "title": "Christophe Pettus: All Your GUCs in a Row: extension_control_path",
+      "link": "https://postgr.es/p/9pY",
+      "summary": "PostgreSQL 18 lets you store extensions anywhere with `extension_control_path`, ending the requirement to install them into the system directory.",
+      "author": null,
+      "publishedAt": "2026-07-18T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9pX",
+      "title": "Shaun Thomas: Looking Forward to Postgres 19: Checkpoint Control",
+      "link": "https://postgr.es/p/9pX",
+      "summary": "Postgres 19 is just a smorgasbord of new functionality; it's genuinely hard to believe they packed all these new features into a single release. To that laundry-list of new capabilities, it adds something I almost missed. We all know and love the Postgres Write Ahead Log (WAL), where all writes…",
+      "author": null,
+      "publishedAt": "2026-07-17T06:05:23.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9pW",
+      "title": "Christophe Pettus: All Your GUCs in a Row: exit_on_error",
+      "link": "https://postgr.es/p/9pW",
+      "summary": "PostgreSQL's `exit_on_error` GUC promotes every error to a session-terminating event—but this fail-fast illusion masks a destructive truth.",
+      "author": null,
+      "publishedAt": "2026-07-17T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9pV",
+      "title": "Antony Pegg: Spock 6: The Only Logical Choice",
+      "link": "https://postgr.es/p/9pV",
+      "summary": "Spock 6 has landed in Beta. pgEdge's multi-master replication extension now runs on PostgreSQL 16, 17, 18, and 19, tracks replication progress in shared memory instead of a catalog table, spills oversized replay queues to disk, and reports conflict statistics per subscription. Spock 5 was already…",
+      "author": null,
+      "publishedAt": "2026-07-16T20:16:33.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9pU",
+      "title": "Christopher Winslett: Postgres 19 Compression: from pglz to LZ4",
+      "link": "https://postgr.es/p/9pU",
+      "summary": "Postgres 19 is planning to change the default TOAST compression from pglz to LZ4, so let's look at how Postgres compresses data in table storage and indexes. Postgres uses a single, unified compression framework for table (heap), TOAST, and indexes. In heap and TOAST, compression is automatic and…",
+      "author": null,
+      "publishedAt": "2026-07-16T12:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9pT",
+      "title": "SHRIDHAR KHANAL: Upgrading PostgreSQL 9.6 to 17 with pg_upgrade",
+      "link": "https://postgr.es/p/9pT",
+      "summary": "When you are upgrading across major PostgreSQL versions, there are a few ways to go. Dump and restore is the simplest to reason about, but downtime scales directly with database size, so for anything multi-terabyte, it is off the table. Logical replication gets you near-zero downtime, but it only…",
+      "author": null,
+      "publishedAt": "2026-07-16T09:35:50.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9pS",
+      "title": "Hans-Juergen Schoenig: Philosophy behind pg_hardstorage",
+      "link": "https://postgr.es/p/9pS",
+      "summary": "Six months ago we started writing the PostgreSQL backup tool we kept wishing existed. Now pg_hardstorage has shipped, and you can read every line of it on GitHub before you trust it with your WAL stream.\nWhy another backup tool?\nAt CYBERTEC we have spent more than two decades helping organisations…",
+      "author": null,
+      "publishedAt": "2026-07-16T04:00:36.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9pI",
+      "title": "Christophe Pettus: All Your GUCs in a Row: event_triggers",
+      "link": "https://postgr.es/p/9pI",
+      "summary": "Event triggers fire on DDL and login events, not rows—and a buggy one can lock out every user, even superusers.",
+      "author": null,
+      "publishedAt": "2026-07-16T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9pR",
+      "title": "Karen Jex: How much do you really need to know about databases?",
+      "link": "https://postgr.es/p/9pR",
+      "summary": "Slides and transcript from How much do you really need to know about databases?\n  at EuroPython 2026 in Kraków, Poland\n  on 15 July 2026.\n\nI will add a link to the recording once it's available.\n\n\n\n  I've included just very brief alt-text for each slide image, \n  but I've also added any links or…",
+      "author": null,
+      "publishedAt": "2026-07-15T22:32:21.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9pH",
+      "title": "Jimmy Angelakos: LISTEN Carefully: How NOTIFY Can Trip Up Your Database",
+      "link": "https://postgr.es/p/9pH",
+      "summary": "POSETTE: An Event for Postgres 2026 is an online event for PostgreSQL, brought to us by the Postgres team at Microsoft, which took place on June 16-18, 2026. I'll always have a soft spot for in-person conferences, but POSETTE is probably the best-run online event in our community, and I was…",
+      "author": null,
+      "publishedAt": "2026-07-15T12:37:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9pF",
+      "title": "Christophe Pettus: All Your GUCs in a Row: event_source",
+      "link": "https://postgr.es/p/9pF",
+      "summary": "Windows PostgreSQL logs messages to the Event Log under a name you choose with `event_source`—but Windows won't understand that name until you register it with…",
+      "author": null,
+      "publishedAt": "2026-07-15T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9pE",
+      "title": "Regina Obe: Replacing pgAgent with pg_timetable: Part 2 - Installing pg_timetable as a service in Linux",
+      "link": "https://postgr.es/p/9pE",
+      "summary": "As stated in Part 1, pgAgent is going away, so I'm focussing on setting up pg_timetable as similar to pgAgent that I can.\nFor this second part, I'm going to go over how to configure pg_timetable as a service on Linux.\n\n\nA heads up, i really loved the pgAgent UI in pgAdmin so I'm working on one for…",
+      "author": null,
+      "publishedAt": "2026-07-14T20:07:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9pD",
+      "title": "Jimmy Angelakos: LinkedIn Live: Fixing Bad SQL in PostgreSQL with Jimmy Angelakos",
+      "link": "https://postgr.es/p/9pD",
+      "summary": "Back on Friday, April 3rd, I ran a live, hands-on LinkedIn Live session on fixing bad SQL in PostgreSQL. My apologies for the delay in sharing the recording: for various reasons I couldn't post it earlier, but here it is.\nThe session was based on Chapter 2 of my book, PostgreSQL Mistakes and How to…",
+      "author": null,
+      "publishedAt": "2026-07-14T12:37:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9pC",
+      "title": "Hans-Juergen Schoenig: How SQL/PGQ Rewrites to Joins on PostgreSQL 19",
+      "link": "https://postgr.es/p/9pC",
+      "summary": "This post is about what PostgreSQL actually does when you write \n\t\t\tGRAPH_TABLE syntax. It turns out the database rewrites your graph query into ordinary joins against the underlying tables, then plans them with the regular optimizer. This has three practical consequences you'll notice right away.…",
+      "author": null,
+      "publishedAt": "2026-07-14T05:00:40.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9pB",
+      "title": "Christophe Pettus: All Your GUCs in a Row: escape_string_warning",
+      "link": "https://postgr.es/p/9pB",
+      "summary": "A twenty-year-old warning that stays silent on modern PostgreSQL—until it spots a real problem hiding in your connection settings.",
+      "author": null,
+      "publishedAt": "2026-07-14T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9pz",
+      "title": "Cornelia Biacsics: Contributions for week 26 & 27",
+      "link": "https://postgr.es/p/9pz",
+      "summary": "On 2 July, 2026, the PostgreSQL Istanbul Meetup met for the first time, organized by Devrim Gündüz, Gülçin Yıldırım Jelínek & Bilge Korkmaz Erdim.\nSpeakers:\nViktoriia Hrechukha\nPavlo Golub\nOn 2 July 2026, the PostgreSQL User Group Estonia met, organized by Ervin Weber\nSpeakers:\nHenrietta (Hettie)…",
+      "author": null,
+      "publishedAt": "2026-07-13T15:43:57.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9pq",
+      "title": "Jimmy Angelakos: PostgresEDI July 2026 Meetup — Public Speaking, AI Compliance",
+      "link": "https://postgr.es/p/9pq",
+      "summary": "Actual sunshine ☀️ in Edinburgh 😲 and a room full of Postgres people catching up over pizza: July was good to us. 🐘\n\nThursday, July 9th brought us to Paterson's Land at the University of Edinburgh, and to a wonderfully diverse pair of talks: one on finding your voice in the community, and one on…",
+      "author": null,
+      "publishedAt": "2026-07-13T12:37:00.000Z"
+    }
+  ],
+  "totalIndexed": 30
+}

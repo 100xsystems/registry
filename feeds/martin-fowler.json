@@ -1,0 +1,256 @@
+{
+  "feedId": "martin-fowler",
+  "feedName": "Martin Fowler",
+  "feedSiteUrl": "https://martinfowler.com",
+  "feedRssUrl": "https://martinfowler.com/feed.atom",
+  "tags": [
+    "architecture",
+    "patterns",
+    "refactoring",
+    "design"
+  ],
+  "updatedAt": "2026-07-23T11:00:34.279Z",
+  "items": [
+    {
+      "guid": "martin-fowler::https://martinfowler.com/fragments/2026-07-21.html",
+      "title": "Fragments: July 21",
+      "link": "https://martinfowler.com/fragments/2026-07-21.html",
+      "summary": "With this post, I’ll wrap up my notes from  the second Future of Software Development Retreat. But before I do, I should note that the full Thoughtworks report on the retreat is now available. They have five headline findings:\nCode generation is no longer the bottleneck — verification is.\n‘Harness…",
+      "author": "Martin Fowler",
+      "publishedAt": "2026-07-21T13:13:00.000Z"
+    },
+    {
+      "guid": "martin-fowler::https://martinfowler.com/articles/archaeologist-copilot.html",
+      "title": "The Archaeologist’s Copilot",
+      "link": "https://martinfowler.com/articles/archaeologist-copilot.html",
+      "summary": "When people think of legacy modernization, most folks aren't imagining\n      the target environment will be Java 8. But this was the challenge facing\n      Nik Malykhin when he needed to run a Java 1.5 codebase on\n      today's hardware. His early use of LLMs gave plausible answers that did…",
+      "author": "Martin Fowler",
+      "publishedAt": "2026-07-16T13:25:00.000Z"
+    },
+    {
+      "guid": "martin-fowler::https://martinfowler.com/articles/llm-and-dsls.html",
+      "title": "DSLs Enable Reliable Use of LLMs",
+      "link": "https://martinfowler.com/articles/llm-and-dsls.html",
+      "summary": "LLMs generate code incredibly fast, but to ensure they generate\n      exactly what is intended, they need clear boundaries. Abstractions and\n      Domain-Specific Languages (DSLs) provide a strong harness that guides LLMs\n      right from the start. Unmesh Joshi describes how the example\n      of…",
+      "author": "Martin Fowler",
+      "publishedAt": "2026-07-14T12:51:00.000Z"
+    },
+    {
+      "guid": "martin-fowler::https://martinfowler.com/fragments/2026-07-13.html",
+      "title": "Fragments: July 13",
+      "link": "https://martinfowler.com/fragments/2026-07-13.html",
+      "summary": "Some more of my notes from Thoughtworks Future of Software Development Retreat.\nWhen we had our first retreat in Utah early this year, nobody had heard of Harness Engineering. This time we had a whole session on it.\nWhen comes to the guide side of harnesses, most of the discussion is about context…",
+      "author": "Martin Fowler",
+      "publishedAt": "2026-07-13T12:51:00.000Z"
+    },
+    {
+      "guid": "martin-fowler::https://martinfowler.com/articles/exploring-gen-ai/local-models-for-coding-experiences.html",
+      "title": "Experiences with local models for coding",
+      "link": "https://martinfowler.com/articles/exploring-gen-ai/local-models-for-coding-experiences.html",
+      "summary": "Birgitta Böckeler now reports on her recent experiences\n      trying local LLMs for coding. She compares them using two standard\n      tasks, and tries out the most promising model for day-to-day use.\nmore…",
+      "author": "Martin Fowler",
+      "publishedAt": "2026-07-08T11:57:00.000Z"
+    },
+    {
+      "guid": "martin-fowler::https://martinfowler.com/articles/exploring-gen-ai/local-models-for-coding-factors.html",
+      "title": "Viability of local models for coding",
+      "link": "https://martinfowler.com/articles/exploring-gen-ai/local-models-for-coding-factors.html",
+      "summary": "Birgitta Böckeler recently spent some time trying out\n      running local LLMs for some programming tasks. In this memo she outlines the factors that\n      influence how viable they are for the job.\nmore…",
+      "author": "Martin Fowler",
+      "publishedAt": "2026-07-07T12:34:00.000Z"
+    },
+    {
+      "guid": "martin-fowler::https://martinfowler.com/fragments/2026-07-06.html",
+      "title": "Fragments: July  6",
+      "link": "https://martinfowler.com/fragments/2026-07-06.html",
+      "summary": "Last week, Thoughtworks ran a second Future of Software Development Retreat, this time in Europe. As with the previous event, I’ll be sharing some fragmentary thoughts on this. There were five parallel streams, so I could, at best, only attend ⅕ of sessions. This isn’t an event that forms…",
+      "author": "Martin Fowler",
+      "publishedAt": "2026-07-06T12:53:00.000Z"
+    },
+    {
+      "guid": "martin-fowler::https://martinfowler.com/articles/reliable-llm-bayer.html",
+      "title": "Building Reliable Agentic AI Systems",
+      "link": "https://martinfowler.com/articles/reliable-llm-bayer.html",
+      "summary": "One of the most interesting projects my colleagues have done with LLMs\n      has been building a system with Bayer to allow pharmaceutical researchers to query\n      decades of information about studies buried in PDF reports. Sarang\n      Sanjay Kulkarni describes its evolution from keyword-based…",
+      "author": "Martin Fowler",
+      "publishedAt": "2026-06-16T12:11:00.000Z"
+    },
+    {
+      "guid": "martin-fowler::https://martinfowler.com/fragments/2026-06-16.html",
+      "title": "Fragments: June 16",
+      "link": "https://martinfowler.com/fragments/2026-06-16.html",
+      "summary": "“Prag Dave” Thomas (co-author of the outstanding “Pragmatic Programmer”) has loved programming since he was young.\nProgramming was how I could express myself. I wasn’t an artist. When I sing, dogs howl. When I draw, friends say, “Very nice. What is it?” I didn’t connect particularly well with…",
+      "author": "Martin Fowler",
+      "publishedAt": "2026-06-16T15:44:00.000Z"
+    },
+    {
+      "guid": "martin-fowler::https://martinfowler.com/fragments/2026-06-02.html",
+      "title": "Fragments: June  2",
+      "link": "https://martinfowler.com/fragments/2026-06-02.html",
+      "summary": "Greg Wilson has noticed that lots of folks are using dodgy metrics to figure out if AI tools are worth their costs.\nWould you measure lines of code generated, or tickets closed? Or would you send out a survey asking whether developers feel more productive? Each of those approaches is flawed in a…",
+      "author": "Martin Fowler",
+      "publishedAt": "2026-06-02T18:21:00.000Z"
+    },
+    {
+      "guid": "martin-fowler::https://martinfowler.com/fragments/2026-05-27.html",
+      "title": "Fragments: May 27",
+      "link": "https://martinfowler.com/fragments/2026-05-27.html",
+      "summary": "At the GOTO Conference in Copenhagen in 2025, Kent Beck and I spent some time on stage talking and answering questions from the audience - a format I refer to as “two old geezers on a park bench”. We talk about our experiences with LLM-augmented programming (at that point - October 2025), we show…",
+      "author": "Martin Fowler",
+      "publishedAt": "2026-05-27T19:40:00.000Z"
+    },
+    {
+      "guid": "martin-fowler::https://martinfowler.com/articles/sensors-for-coding-agents.html#TheTestSuiteAsARegressionSensor",
+      "title": "The test suite as a regression sensor",
+      "link": "https://martinfowler.com/articles/sensors-for-coding-agents.html#TheTestSuiteAsARegressionSensor",
+      "summary": "Birgitta Böckeler finishes her post on sensors for\n      coding agents by examining the role of a test suite as a regression\n      sensor, focusing on the role mutation testing can play.\nmore…",
+      "author": "Martin Fowler",
+      "publishedAt": "2026-05-27T15:01:00.000Z"
+    },
+    {
+      "guid": "martin-fowler::https://martinfowler.com/articles/vibesec-reckoning.html",
+      "title": "The VibeSec Reckoning",
+      "link": "https://martinfowler.com/articles/vibesec-reckoning.html",
+      "summary": "Vibe coding has significantly accelerated software prototyping but AI\n      agents frequently recommend insecure configurations, creating security\n      problems. Gautam Koul, Lucian Moss, Neil Drew-Lopez, and Daberechi\n      Ruth Edeokoh share their experience while building applications\n      for…",
+      "author": "Martin Fowler",
+      "publishedAt": "2026-05-27T14:03:00.000Z"
+    },
+    {
+      "guid": "martin-fowler::https://martinfowler.com/bliki/VibeCoding.html",
+      "title": "Bliki: Vibe Coding",
+      "link": "https://martinfowler.com/bliki/VibeCoding.html",
+      "summary": "Vibe coding is building a software application by prompting an LLM, telling it\n  what to build, trying it out, prompting for changes - but without looking at\n  any of the code that the LLM generates. This technique can be used by people\n  without any knowledge of programming. However the resulting…",
+      "author": "Martin Fowler",
+      "publishedAt": "2026-05-21T11:49:00.000Z"
+    },
+    {
+      "guid": "martin-fowler::https://martinfowler.com/articles/sensors-for-coding-agents.html#StaticCodeAnalysisDependencyRules",
+      "title": "Three more static code analysis sensors",
+      "link": "https://martinfowler.com/articles/sensors-for-coding-agents.html#StaticCodeAnalysisDependencyRules",
+      "summary": "Birgitta Böckeler adds discussion of three more\n      sensors for static code analysis, focusing on checking and enforcing\n      better modularity. Computational sensors for dependency checks were good\n      at enforcing rules, but the rules were limited. Building a computational\n      sensor for…",
+      "author": "Martin Fowler",
+      "publishedAt": "2026-05-20T14:27:00.000Z"
+    },
+    {
+      "guid": "martin-fowler::https://martinfowler.com/articles/sensors-for-coding-agents.html",
+      "title": "Maintainability sensors for coding agents",
+      "link": "https://martinfowler.com/articles/sensors-for-coding-agents.html",
+      "summary": "In her recent article about harness engineering for coding agent users,\n      Birgitta Böckeler laid out a mental model for expanding a\n      coding agent harness: a system of guides and sensors that increase the\n      probability of good agent outputs and enable self-correction before issues…",
+      "author": "Martin Fowler",
+      "publishedAt": "2026-05-19T16:38:00.000Z"
+    },
+    {
+      "guid": "martin-fowler::https://martinfowler.com/fragments/2026-05-14.html",
+      "title": "Fragments: May 14",
+      "link": "https://martinfowler.com/fragments/2026-05-14.html",
+      "summary": "Last week I spent a day at The Orchard Retreat, hosted by Mechanical Orchard. that brought together several people working in software development to talk about the profession’s future with the rise of agentic programming. The event was help under the Chatham House Rule, so I can’t attribute the…",
+      "author": "Martin Fowler",
+      "publishedAt": "2026-05-14T21:52:00.000Z"
+    },
+    {
+      "guid": "martin-fowler::https://martinfowler.com/bliki/InterrogatoryLLM.html",
+      "title": "Bliki: Interrogatory LLM",
+      "link": "https://martinfowler.com/bliki/InterrogatoryLLM.html",
+      "summary": "When we need an LLM to perform a complex task, we often need to feed it a\n  lot of context. Coming up with a design for a new feature requires\n  descriptions of how we want the feature to appear to the user, guidelines on\n  how it should be implemented, information on external systems to consult,…",
+      "author": "Martin Fowler",
+      "publishedAt": "2026-05-14T15:04:00.000Z"
+    },
+    {
+      "guid": "martin-fowler::https://martinfowler.com/articles/what-is-code.html",
+      "title": "What is Code",
+      "link": "https://martinfowler.com/articles/what-is-code.html",
+      "summary": "Increasingly humans delegate writing code to agents. Will there even be\n      source code in the future? To wrestle with this question, we have to\n      understand what code is. Unmesh Joshi sees code as having\n      two distinct but intertwined purposes: instructions to a machine and a…",
+      "author": "Martin Fowler",
+      "publishedAt": "2026-05-12T13:30:00.000Z"
+    },
+    {
+      "guid": "martin-fowler::https://martinfowler.com/fragments/2026-05-05.html",
+      "title": "Fragments: May  5",
+      "link": "https://martinfowler.com/fragments/2026-05-05.html",
+      "summary": "Over the last couple of months Rahul Garg published a series of posts here on how to reduce the friction in AI-assisted programming. To make it easier to put these ideas into practice he’s now built an open-source framework to operationalize these patterns.\nAI coding assistants jump straight to…",
+      "author": "Martin Fowler",
+      "publishedAt": "2026-05-05T16:23:00.000Z"
+    },
+    {
+      "guid": "martin-fowler::https://martinfowler.com/bliki/MythicalManMonth.html",
+      "title": "Bliki: Mythical Man Month",
+      "link": "https://martinfowler.com/bliki/MythicalManMonth.html",
+      "summary": "In the early 1960s, Fred Brooks managed the development of IBM's System/360\n  computer systems. After it was done he penned his thoughts in the book The\n  Mythical Man-Month which became one of the most influential books on software\n  development after its publication in 1975. Reading it in 2026,…",
+      "author": "Martin Fowler",
+      "publishedAt": "2026-05-05T16:18:00.000Z"
+    },
+    {
+      "guid": "martin-fowler::https://martinfowler.com/fragments/2026-04-29.html",
+      "title": "Fragments: April 29",
+      "link": "https://martinfowler.com/fragments/2026-04-29.html",
+      "summary": "Chris Parsons has updated his guide on using AI to code. This is his third update, what I like about it is that he gives a lot of concrete information about how he uses AI, with sufficient detail that we can learn from him. His advice also resonates with the better advice I’ve seen out there, so…",
+      "author": "Martin Fowler",
+      "publishedAt": "2026-04-29T13:23:00.000Z"
+    },
+    {
+      "guid": "martin-fowler::https://martinfowler.com/articles/structured-prompt-driven/",
+      "title": "Structured-Prompt-Driven Development (SPDD)",
+      "link": "https://martinfowler.com/articles/structured-prompt-driven/",
+      "summary": "LLM programming assistants have demonstrated considerable value, but\n      mostly with individual developers. The internal IT organization in\n      Thoughtworks has been using them for their teams and have developed a\n      method and workflow called Structured Prompt-Driven Development (SPDD).…",
+      "author": "Martin Fowler",
+      "publishedAt": "2026-04-28T13:02:00.000Z"
+    },
+    {
+      "guid": "martin-fowler::https://martinfowler.com/fragments/2026-04-21.html",
+      "title": "Fragments: April 21",
+      "link": "https://martinfowler.com/fragments/2026-04-21.html",
+      "summary": "Last week Thoughtworks released the 34th volume of our Technology Radar. This radar is our biannual survey of our experience of the technology scene, highlighting tools, techniques, platforms, and languages that we’ve used or otherwise caught our eye. This edition contains 118 blips, each briefly…",
+      "author": "Martin Fowler",
+      "publishedAt": "2026-04-21T23:34:00.000Z"
+    },
+    {
+      "guid": "martin-fowler::https://martinfowler.com/articles/202604-turing.html",
+      "title": "Alan Turing play in Cambridge MA",
+      "link": "https://martinfowler.com/articles/202604-turing.html",
+      "summary": "Last night I saw Central Square Theater’s excellent production of Breaking the Code. It’s about Alan Turing, who made a monumental contribution to both my profession and the fate of free democracies. Well worth seeing if you’re in the Boston area this month.",
+      "author": "Martin Fowler",
+      "publishedAt": "2026-04-11T13:01:00.000Z"
+    },
+    {
+      "guid": "martin-fowler::https://martinfowler.com/articles/reduce-friction-ai/feedback-flywheel.html",
+      "title": "Feedback Flywheel",
+      "link": "https://martinfowler.com/articles/reduce-friction-ai/feedback-flywheel.html",
+      "summary": "Rahul Garg finishes his\n      series on reducing the friction in AI-Assisted Development. He\n      proposes a structured feedback practice that harvests learnings from AI\n      sessions and feeds them back into the team's shared artifacts, turning\n      individual experience into collective…",
+      "author": "Martin Fowler",
+      "publishedAt": "2026-04-08T13:28:00.000Z"
+    },
+    {
+      "guid": "martin-fowler::https://martinfowler.com/articles/mechanical-sympathy-principles.html",
+      "title": "Principles of Mechanical Sympathy",
+      "link": "https://martinfowler.com/articles/mechanical-sympathy-principles.html",
+      "summary": "Modern hardware is remarkably fast, but software often fails to\n      leverage it. Caer Sanders has found it valuable to guide\n      their work with mechanical sympathy - the practice of creating\n      software that is sympathetic to its underlying hardware. They distill this\n      practice into…",
+      "author": "Martin Fowler",
+      "publishedAt": "2026-04-07T13:39:00.000Z"
+    },
+    {
+      "guid": "martin-fowler::https://martinfowler.com/articles/harness-engineering.html",
+      "title": "Harness engineering for coding agent users",
+      "link": "https://martinfowler.com/articles/harness-engineering.html",
+      "summary": "Last month Birgitta Böckeler wrote some initial\n      thoughts about the recently developed notion of Harness Engineering. She's\n      been researching and thinking more about this in the weeks since and has now\n      written a thoughtful mental model for understanding harness\n      engineering…",
+      "author": "Martin Fowler",
+      "publishedAt": "2026-04-02T13:10:00.000Z"
+    },
+    {
+      "guid": "martin-fowler::https://martinfowler.com/articles/reduce-friction-ai/encoding-team-standards.html",
+      "title": "Encoding Team Standards",
+      "link": "https://martinfowler.com/articles/reduce-friction-ai/encoding-team-standards.html",
+      "summary": "AI coding assistants respond to whoever is prompting, and the quality\n      of what they produce depends on how well the prompter articulates team\n      standards. Rahul Garg proposes treating the instructions\n      that govern AI interactions (generation, refactoring, security, review) as…",
+      "author": "Martin Fowler",
+      "publishedAt": "2026-03-31T15:20:00.000Z"
+    },
+    {
+      "guid": "martin-fowler::https://martinfowler.com/bliki/ArchitectureDecisionRecord.html",
+      "title": "Bliki: Architecture Decision Record",
+      "link": "https://martinfowler.com/bliki/ArchitectureDecisionRecord.html",
+      "summary": "An Architecture Decision Record (ADR) is a short document that captures and\n  explains a single decision relevant to a product or ecosystem. Documents\n  should be short, just a couple of pages, and contain the decision, the context\n  for making it, and significant ramifications. They should not be…",
+      "author": "Martin Fowler",
+      "publishedAt": "2026-03-24T13:50:00.000Z"
+    }
+  ],
+  "totalIndexed": 30
+}

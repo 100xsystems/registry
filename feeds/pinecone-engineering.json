@@ -1,0 +1,2983 @@
+{
+  "feedId": "pinecone-engineering",
+  "feedName": "Pinecone Engineering",
+  "feedSiteUrl": "https://www.pinecone.io/blog",
+  "feedRssUrl": "https://www.pinecone.io/rss",
+  "tags": [
+    "ai",
+    "vector-databases",
+    "infrastructure"
+  ],
+  "updatedAt": "2026-07-23T11:30:13.481Z",
+  "items": [
+    {
+      "guid": "https://www.pinecone.io/blog/behind-the-benchmarking-pipeline/",
+      "title": "Behind the Benchmarking Pipeline",
+      "link": "https://www.pinecone.io/blog/behind-the-benchmarking-pipeline/",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2026-07-16T17:31:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/text-match-filters/",
+      "title": "Text match filters for agents",
+      "link": "https://www.pinecone.io/blog/text-match-filters/",
+      "summary": "Semantic search returns results close in meaning, not results that answer what you meant. See how Pinecone's text match filters fix unstated query context, no pre-labeling required.",
+      "author": null,
+      "publishedAt": "2026-07-13T13:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/sparse-v3/",
+      "title": "Sparse V3: how Pinecone's sparse index learned to skip",
+      "link": "https://www.pinecone.io/blog/sparse-v3/",
+      "summary": "Pinecone's sparse index V3 groups posting data by term instead of document range, cutting disk I/O up to 1,428x and latency up to 119x, with no loss in recall.",
+      "author": null,
+      "publishedAt": "2026-07-09T11:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/pinecone-nexus-public-preview/",
+      "title": "Pinecone Nexus Is Now in Public Preview",
+      "link": "https://www.pinecone.io/blog/pinecone-nexus-public-preview/",
+      "summary": "Pinecone Nexus, the knowledge engine for AI agents, is now in Public Preview. Compile enterprise knowledge once; query it from any agent.",
+      "author": null,
+      "publishedAt": "2026-07-01T12:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/generating-test-data-for-pinecone/",
+      "title": "Generating Test Data for Pinecone",
+      "link": "https://www.pinecone.io/blog/generating-test-data-for-pinecone/",
+      "summary": "A repeatable workflow for building large, realistic vector test datasets: CC News to Parquet to local embeddings to Pinecone bulk import.",
+      "author": null,
+      "publishedAt": "2026-06-29T18:49:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/pinecone-indexing-algorithms/",
+      "title": "What Indexing Algorithms Does Pinecone Use?",
+      "link": "https://www.pinecone.io/learn/pinecone-indexing-algorithms/",
+      "summary": "How Pinecone indexes vectors: the algorithms it uses (Ananas, PQFS, and IVF), how it selects one per slab automatically by size, and why it has never used HNSW.",
+      "author": null,
+      "publishedAt": "2026-06-14T12:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/customers/jenova/",
+      "title": "Pinecone-Powered Knowledge Infrastructure Helps Jenova's Agent Platform Quickly Reach $1M ARR and 200,000+ Signups",
+      "link": "https://www.pinecone.io/customers/jenova/",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2026-06-10T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/open-source-monitoring-stack/",
+      "title": "Full Observability for Pinecone: Introducing an Open-Source Monitoring Stack for SaaS and BYOC",
+      "link": "https://www.pinecone.io/blog/open-source-monitoring-stack/",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2026-06-09T12:44:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/nexus-ea-benchmarks/",
+      "title": "Nexus in the Wild: Real Results from Our Early Access Customers",
+      "link": "https://www.pinecone.io/blog/nexus-ea-benchmarks/",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2026-06-05T12:22:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/newsroom/microsoft-onelake-nexus/",
+      "title": "Pinecone Nexus Now Integrates with Microsoft OneLake, Bringing AI Agents Directly to Enterprise Data",
+      "link": "https://www.pinecone.io/newsroom/microsoft-onelake-nexus/",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2026-06-03T14:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/inside-askdata/",
+      "title": "Inside AskData: How We Slashed Token Consumption by Over 90%",
+      "link": "https://www.pinecone.io/blog/inside-askdata/",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2026-06-02T14:24:05.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/bulk-import-promo/",
+      "title": "The Import Tax Is Gone",
+      "link": "https://www.pinecone.io/blog/bulk-import-promo/",
+      "summary": "Bulk import is now free up to 1 TB on Standard and Enterprise plans. Starting June 1, a $250 credit is applied automatically — and the rate drops to $0.25/GB after that, down from $1/GB.",
+      "author": null,
+      "publishedAt": "2026-06-01T16:45:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/turn-azure-data-into-an-ai-ready-knowledge-base/",
+      "title": "Turn Azure Data into an AI-Ready Knowledge Base",
+      "link": "https://www.pinecone.io/blog/turn-azure-data-into-an-ai-ready-knowledge-base/",
+      "summary": "Learn how to turn Azure Blob Storage data into an AI-ready knowledge base using Pinecone. A deployable template automates the full ingestion pipeline—parsing, chunking, embedding, and indexing—so your documents are searchable in minutes.",
+      "author": null,
+      "publishedAt": "2026-05-27T15:02:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/searching-for-birds-pinecone-full-text-search/",
+      "title": "Searching for Birds with Pinecone Full-Text Search",
+      "link": "https://www.pinecone.io/learn/searching-for-birds-pinecone-full-text-search/",
+      "summary": "Learn how Pinecone full-text search uses BM25 scoring and Lucene syntax for exact match, boolean, and phrase queries — and how to combine it with vector search.",
+      "author": null,
+      "publishedAt": "2026-05-11T13:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/research/Nearly-Optimal-Attention-Coresets/",
+      "title": "Nearly Optimal Attention Coresets",
+      "link": "https://www.pinecone.io/research/Nearly-Optimal-Attention-Coresets/",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2026-05-08T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/how-knowledge-engines-work/",
+      "title": "How a Knowledge Engine Works: From Artifacts to Agent-Ready Answers",
+      "link": "https://www.pinecone.io/learn/how-knowledge-engines-work/",
+      "summary": "A knowledge engine is the data infrastructure category that lets agents query trusted, compiled knowledge instead of brute-forcing retrieval over raw data. How one is built, how agents query it, and how it compares to RAG, vector databases, and semantic layers.",
+      "author": null,
+      "publishedAt": "2026-05-07T20:31:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/full-text-search/",
+      "title": "Full Text Search in Pinecone, Now in Public Preview",
+      "link": "https://www.pinecone.io/blog/full-text-search/",
+      "summary": "Full text search in Pinecone, built for agents and RAG. Lucene queries, BM25, 17-language tokenization, and text-match filters in a single query alongside vectors.",
+      "author": null,
+      "publishedAt": "2026-05-07T07:01:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/full-text-search-architecture/",
+      "title": "Full Text Search: Architecture and Design",
+      "link": "https://www.pinecone.io/blog/full-text-search-architecture/",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2026-05-07T07:01:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/builder-plan/",
+      "title": "Builder Plan: for the stage between prototype and scale",
+      "link": "https://www.pinecone.io/blog/builder-plan/",
+      "summary": "Builder Plan is Pinecone’s $20/month flat-rate pricing tier built for builders who’ve outgrown Starter but aren’t ready for usage-based pricing. It adds capacity for dev/staging/production workflows, multi-tenant apps, and growing user demand—without surprise bills.",
+      "author": null,
+      "publishedAt": "2026-05-06T07:01:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/marketplace/",
+      "title": "Introducing Pinecone Marketplace:  Getting to Production in Minutes",
+      "link": "https://www.pinecone.io/blog/marketplace/",
+      "summary": "Stop answering the same questions. Turn docs into a \"system of knowledge\" with Marketplace. No-code RAG for support, legal, and onboarding with cited answers.",
+      "author": null,
+      "publishedAt": "2026-05-05T07:01:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/newsroom/Pinecone-Expands-in-Europe-with-New-Frankfurt-Cloud-Region/",
+      "title": "Pinecone Expands in Europe with New Frankfurt Cloud Region, Delivering the Knowledge Infrastructure for AI to Central European Enterprises",
+      "link": "https://www.pinecone.io/newsroom/Pinecone-Expands-in-Europe-with-New-Frankfurt-Cloud-Region/",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2026-05-05T03:00:21.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/newsroom/Pinecone-Launches-First-Serverless-Region-in-Asia/",
+      "title": "Pinecone Launches First Serverless Region in Asia with New Singapore Cloud Region, Bringing the Knowledge Infrastructure for AI to the Asia-Pacific Market",
+      "link": "https://www.pinecone.io/newsroom/Pinecone-Launches-First-Serverless-Region-in-Asia/",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2026-05-04T21:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/introducing-nexus-knowledge-engine/",
+      "title": "Better Models Won’t Save Your Agent",
+      "link": "https://www.pinecone.io/blog/introducing-nexus-knowledge-engine/",
+      "summary": "Most agent failures are data failures, not model failures. Pinecone Nexus is a Knowledge Engine that compiles enterprise data into structured artifacts agents can query in one step.",
+      "author": null,
+      "publishedAt": "2026-05-04T08:01:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/knowledge-infrastructure-for-agents/",
+      "title": "Pinecone Nexus: The Knowledge Engine for Agents",
+      "link": "https://www.pinecone.io/blog/knowledge-infrastructure-for-agents/",
+      "summary": "Pinecone Nexus is a knowledge engine for the agentic AI era, moving reasoning from retrieval to compilation — with KnowQL as the standard query language for agents.",
+      "author": null,
+      "publishedAt": "2026-05-04T07:01:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/skills-mcp-cli-plugins-oh-my/",
+      "title": "Skills and MCP and CLI, oh my!",
+      "link": "https://www.pinecone.io/learn/skills-mcp-cli-plugins-oh-my/",
+      "summary": "An article about all the different ways to customize coding agents.",
+      "author": null,
+      "publishedAt": "2026-04-22T15:23:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/newsroom/zoominfo-pinecone-drn/",
+      "title": "ZoomInfo and Pinecone Bring Real-Time, AI-Powered Contact Recommendations to Go-to-Market Teams",
+      "link": "https://www.pinecone.io/newsroom/zoominfo-pinecone-drn/",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2026-04-15T04:01:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/dedicated-read-nodes-ga-features/",
+      "title": "Four New GA Features for Dedicated Read Nodes That Give Teams More Control and Observability",
+      "link": "https://www.pinecone.io/blog/dedicated-read-nodes-ga-features/",
+      "summary": "Pinecone Dedicated Read Nodes are now GA with four new capabilities: per-query performance vs. recall tuning, shard-level CPU metrics for your observability stack, a web console for day-2 operations, and multi-namespace support for multi-tenant workloads.",
+      "author": null,
+      "publishedAt": "2026-04-15T04:01:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/dedicated-read-nodes-ga/",
+      "title": "Pinecone Dedicated Read Nodes: Now Generally Available",
+      "link": "https://www.pinecone.io/blog/dedicated-read-nodes-ga/",
+      "summary": "Pinecone Dedicated Read Nodes are now GA — dedicated read capacity with always-hot data, no rate limits, and fixed pricing. Production workloads cut costs by up to 97%.",
+      "author": null,
+      "publishedAt": "2026-04-15T04:01:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/customers/zoominfo/",
+      "title": "ZoomInfo Delivers High-quality, Real-time Contact Recommendations for GTM Teams with Pinecone, Driving a 50% Increase in User Engagement",
+      "link": "https://www.pinecone.io/customers/zoominfo/",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2026-04-15T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/load-balancing/",
+      "title": "Load Balancing AI Services for Availability and Speed",
+      "link": "https://www.pinecone.io/blog/load-balancing/",
+      "summary": "How Pinecone built a service-aware load balancer for Pinecone Assistant that routes across embeddings, rerankers, and LLMs in real time. Covers the tradeoffs of common load balancing strategies — least loaded, latency-aware, consistent hashing, round-robin — and explains why the power of two…",
+      "author": null,
+      "publishedAt": "2026-04-14T13:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/assistant-managed-knowledge-layer/",
+      "title": "Pinecone Assistant: A Managed Knowledge Layer for Production AI Applications",
+      "link": "https://www.pinecone.io/blog/assistant-managed-knowledge-layer/",
+      "summary": "Pinecone Assistant has evolved from a chat tool into a managed knowledge layer for production AI apps,  with fully usage-based pricing with no per-assistant fees, multimodal support, and multi-model flexibility.",
+      "author": null,
+      "publishedAt": "2026-04-02T15:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/n8n-multi-domain-rag-knowledge-base/",
+      "title": "Multi-domain RAG in n8n: why one knowledge base is not enough",
+      "link": "https://www.pinecone.io/learn/n8n-multi-domain-rag-knowledge-base/",
+      "summary": "Learn how to build a multi-domain RAG workflow in n8n using Pinecone Assistants. Route queries to domain-specific knowledge bases to improve retrieval accuracy, simplify debugging, and scale without complexity.",
+      "author": null,
+      "publishedAt": "2026-03-27T17:57:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/customers/allspice/",
+      "title": "Allspice Transforms the Culinary Experience with Semantic Search Powered by Pinecone",
+      "link": "https://www.pinecone.io/customers/allspice/",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2026-03-25T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/pinecone-assistant-vs-pinecone-vector-store-node-n8n/",
+      "title": "Building RAG workflows in n8n: choosing the right Pinecone node",
+      "link": "https://www.pinecone.io/learn/pinecone-assistant-vs-pinecone-vector-store-node-n8n/",
+      "summary": "For most n8n builders, the Pinecone Assistant node is the right starting point. When you hit a real limitation — specialized content that needs custom chunking, a domain-specific embedding model, advanced retrieval techniques — the Pinecone Vector Store node gives you the control to go deeper. This…",
+      "author": null,
+      "publishedAt": "2026-03-10T17:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/series/beyond-retrieval/knowledge-needs-meta-knowledge/",
+      "title": "Knowledge needs a meta-knowledge layer",
+      "link": "https://www.pinecone.io/learn/series/beyond-retrieval/knowledge-needs-meta-knowledge/",
+      "summary": "The second post in the Beyond Retrieval series. Introduces the knowledge base manifest — a machine-readable specification that describes what a knowledge base is for, what inputs it requires, how to query it, and where its boundaries are. Shows how a meta-knowledge layer, paired with a router or…",
+      "author": null,
+      "publishedAt": "2026-03-09T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/janitor/",
+      "title": "Garbage Day: How Pinecone Safely Deletes Billions of Objects at Scale",
+      "link": "https://www.pinecone.io/blog/janitor/",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2026-03-05T13:39:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/performance-as-a-measurement/",
+      "title": "When \"Performance\" Means Two Different Things",
+      "link": "https://www.pinecone.io/blog/performance-as-a-measurement/",
+      "summary": "> Stop talking about \"AI Performance\" as a single metric. To build successful RAG applications, teams must distinguish between Infrastructure Performance (latency, throughput, cost) and Result Quality (accuracy, relevance). This post explores why these two \"scoreboards\" often move in opposite…",
+      "author": null,
+      "publishedAt": "2026-03-03T08:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/byoc/",
+      "title": "Pinecone BYOC: Pinecone in your AWS, GCP, or Azure account, no vendor access",
+      "link": "https://www.pinecone.io/blog/byoc/",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2026-02-19T16:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/series/beyond-retrieval/rag-applicability-problem/",
+      "title": "True, Relevant, and Wrong: The Applicability Problem in RAG",
+      "link": "https://www.pinecone.io/learn/series/beyond-retrieval/rag-applicability-problem/",
+      "summary": "RAG systems can retrieve correct, well-cited information and still get the answer wrong. Not because the source is bad, but because it doesn't govern the case at hand. This post names the problem and maps the ways it fractures at scale.",
+      "author": null,
+      "publishedAt": "2026-02-12T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/pinecone-plugin-for-claude-code/",
+      "title": "Use the Pinecone Plugin for Claude Code to develop AI Applications Faster",
+      "link": "https://www.pinecone.io/blog/pinecone-plugin-for-claude-code/",
+      "summary": "An article on our new plugin for Claude Code, designed to help developers interact with their Pinecone indexes and Assistants using agents.",
+      "author": null,
+      "publishedAt": "2026-02-11T17:16:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/millions-at-stake-melange/",
+      "title": "Millions at Stake: How Melange's High-Recall Retrieval Prevents Litigation Collapse",
+      "link": "https://www.pinecone.io/blog/millions-at-stake-melange/",
+      "summary": "Melange, a patent analytics company, chose Pinecone's serverless vector database to overcome scalability and reliability issues with their previous self-hosted Milvus cluster. Melange's core business relies on \"high-recall retrieval\" to accurately find 6-10 critical \"prior art\" documents out of…",
+      "author": null,
+      "publishedAt": "2026-02-09T16:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/customers/melange/",
+      "title": "Powering High-stakes Patent Search at Scale: How Melange Built a Reliable AI System on Pinecone",
+      "link": "https://www.pinecone.io/customers/melange/",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2026-02-09T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/pinecone-assistant-node/",
+      "title": "Pinecone Assistant Node in n8n: Turn Any Data Source Into Knowledge",
+      "link": "https://www.pinecone.io/blog/pinecone-assistant-node/",
+      "summary": "Introducing the Pinecone Assistant node in n8n. Connect Pinecone Assistant to any n8n integration and start building knowledgeable AI workflows that understand your data.",
+      "author": null,
+      "publishedAt": "2026-01-28T14:58:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/rag-access-control/",
+      "title": "RAG with Access Control",
+      "link": "https://www.pinecone.io/learn/rag-access-control/",
+      "summary": "In this post, we’ll cover how SpiceDB works, how to model permissions, and how to apply access control both before and after retrieval in a RAG pipeline built with Pinecone and OpenAI embeddings.",
+      "author": null,
+      "publishedAt": "2026-01-08T15:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/dedicated-read-nodes/",
+      "title": "Pinecone Dedicated Read Nodes are now in Public Preview",
+      "link": "https://www.pinecone.io/blog/dedicated-read-nodes/",
+      "summary": "Pinecone Dedicated Read Nodes, now in Public Preview, delivers predictable cost and low-latency for billion-vector semantic search and high-QPS recommendation workloads.",
+      "author": null,
+      "publishedAt": "2025-12-01T08:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/slab-architecture/",
+      "title": "Inside Pinecone: Slab Architecture",
+      "link": "https://www.pinecone.io/learn/slab-architecture/",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2025-11-04T14:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/update-delete-and-fetch-by-metadata/",
+      "title": "New Bulk Data Operations: Update, Delete, and Fetch by Metadata",
+      "link": "https://www.pinecone.io/blog/update-delete-and-fetch-by-metadata/",
+      "summary": "Pinecone introduces three new bulk data operations—Update, Delete, and Fetch by Metadata—enabling developers to manage vector database records at scale using metadata filters instead of collecting IDs manually. These operations simplify common tasks like bulk updates, GDPR compliance, and data…",
+      "author": null,
+      "publishedAt": "2025-10-30T13:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/hidden-cost-of-building-aquant/",
+      "title": "The Hidden Cost of Building: Lessons from Aquant",
+      "link": "https://www.pinecone.io/blog/hidden-cost-of-building-aquant/",
+      "summary": "This blog post, \"The Hidden Cost of Building: Lessons from Aquant,\" discusses the challenges and hidden costs associated with building and maintaining in-house AI infrastructure, particularly vector databases. It highlights how what initially seems like a cost-effective solution can become a…",
+      "author": null,
+      "publishedAt": "2025-10-22T20:06:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/simplifying-vector-embeddings-with-pinecone-integrated-inference/",
+      "title": "Simplifying Vector Embeddings with Pinecone Integrated Inference Capabilities",
+      "link": "https://www.pinecone.io/blog/simplifying-vector-embeddings-with-pinecone-integrated-inference/",
+      "summary": "This article explores Pinecone’s integrated inference capabilities for generating vector embeddings directly within your Pinecone workflow. It walks through how integrated inference simplifies embedding pipelines by removing the need for separate model hosting or API calls, and explains a…",
+      "author": null,
+      "publishedAt": "2025-10-09T18:07:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/pinecone-joins-microsoft-marketplace-as-a-launch-partner/",
+      "title": "Pinecone joins Microsoft Marketplace as a Launch Partner",
+      "link": "https://www.pinecone.io/blog/pinecone-joins-microsoft-marketplace-as-a-launch-partner/",
+      "summary": "We are excited to join the new Microsoft Marketplace and be a featured partner in the AI Apps and Agents category. If you’re already on Azure or leveraging Azure’s OpenAI Service, you can now quickly add Pinecone to your AI stack with just a few clicks.",
+      "author": null,
+      "publishedAt": "2025-09-25T13:29:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/gtm-engineering-clay-pinecone-for-ai-powered-sales-outbound/",
+      "title": "GTM Engineering:  Clay + Pinecone for AI-powered Sales Outbound",
+      "link": "https://www.pinecone.io/blog/gtm-engineering-clay-pinecone-for-ai-powered-sales-outbound/",
+      "summary": "Learn how to build AI-powered sales outreach using Clay and Pinecone. Automate personalized emails with vector search, web crawling, and contextual case studies for GTM teams.",
+      "author": null,
+      "publishedAt": "2025-09-17T15:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/build-an-ai-knowledge-assistant-with-google-docs-and-pinecone/",
+      "title": "Build an AI knowledge assistant with Google Docs and Pinecone",
+      "link": "https://www.pinecone.io/blog/build-an-ai-knowledge-assistant-with-google-docs-and-pinecone/",
+      "summary": "Build an AI knowledge assistant with your Googld Docs in minutes with Pinecone Assistant. Ask natural language questions and surface hidden knowledge in seconds.",
+      "author": null,
+      "publishedAt": "2025-09-17T13:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/growing-ai-ambitions/",
+      "title": "Moving Pinecone forward with Ash Ashutosh as CEO and Edo spearheading our growing AI ambitions as Chief Scientist",
+      "link": "https://www.pinecone.io/blog/growing-ai-ambitions/",
+      "summary": "Pinecone welcomes Ash Ashutosh as CEO and Edo Liberty as Chief Scientist, accelerating the company’s mission to advance knowledgeable AI and next-generation search. Discover how Pinecone’s leadership and innovative technology are shaping the future of AI infrastructure and intelligent discovery.",
+      "author": null,
+      "publishedAt": "2025-09-08T15:24:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/newsroom/next-chapter/",
+      "title": "Pinecone Founder Edo Liberty to Spearhead Pinecone’s Growing AI Ambitions; Appoints Ash Ashutosh as CEO to Expand Vector Database Market Leadership",
+      "link": "https://www.pinecone.io/newsroom/next-chapter/",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2025-09-08T12:31:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/customers/delphi/",
+      "title": "Fast, Accurate Retrieval for Creators at Scale: Delphi’s Path Toward a Million Conversational Agents with Pinecone",
+      "link": "https://www.pinecone.io/customers/delphi/",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2025-08-21T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/announcing-pinecone-pioneers-program/",
+      "title": "Announcing Pinecone Pioneers: A Program for Builders, Organizers, and Community Leaders",
+      "link": "https://www.pinecone.io/blog/announcing-pinecone-pioneers-program/",
+      "summary": "We’ve launched Pinecone Pioneers: a program for developers, educators, and collaborators making AI knowledgeable with Pinecone. Learn how to get involved.",
+      "author": null,
+      "publishedAt": "2025-08-07T12:57:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/context-engineering/",
+      "title": "What is Context Engineering?",
+      "link": "https://www.pinecone.io/learn/context-engineering/",
+      "summary": "Learn about context engineering and how to apply it to your AI Applications.",
+      "author": null,
+      "publishedAt": "2025-07-15T16:26:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/chunking-strategies/",
+      "title": "Chunking Strategies for LLM Applications",
+      "link": "https://www.pinecone.io/learn/chunking-strategies/",
+      "summary": "In the context of building LLM-related applications, chunking is the process of breaking down large pieces of text into smaller segments. It’s an essential technique that helps optimize the relevance of the content we get back from a vector database once we use the LLM to embed content. In this…",
+      "author": null,
+      "publishedAt": "2025-06-28T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/rag-2025/",
+      "title": "Beyond the hype: Why RAG remains essential for modern AI",
+      "link": "https://www.pinecone.io/learn/rag-2025/",
+      "summary": "With AI agents handling more complex use cases, RAG is not just relevant in 2025. It’s critical for building accurate, relevant, and responsible AI applications that go beyond information retrieval.",
+      "author": null,
+      "publishedAt": "2025-06-25T15:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/customers/obviant/",
+      "title": "Obviant Makes 30% More Accurate Defense Acquisition Recommendations Combining Sparse and Dense Retrieval with Pinecone",
+      "link": "https://www.pinecone.io/customers/obviant/",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2025-06-24T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/assistant-new-llms/",
+      "title": "Build more knowledgeable AI applications with new LLMs and greater control in Pinecone Assistant",
+      "link": "https://www.pinecone.io/blog/assistant-new-llms/",
+      "summary": "Pinecone Assistant now has support for new OpenAI (gpt-4.1, o4-mini) and Anthropic (claude-3-7-sonnet) models, as well as Gemini (gemini-2.5-pro). In addition to the new selection of models, Pinecone Assistant now gives developers more control by exposing the temperature parameter for the chosen…",
+      "author": null,
+      "publishedAt": "2025-06-18T15:30:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/a16z-nytechweek-2025/",
+      "title": "#NYTECHWEEK 2025",
+      "link": "https://www.pinecone.io/blog/a16z-nytechweek-2025/",
+      "summary": "Pinecone sponsored and attended events across Tech Week by A16Z",
+      "author": null,
+      "publishedAt": "2025-06-17T04:16:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/retrieval-augmented-generation/",
+      "title": "Retrieval-Augmented Generation (RAG)",
+      "link": "https://www.pinecone.io/learn/retrieval-augmented-generation/",
+      "summary": "Explore the limitations of foundation models and how retrieval-augmented generation (RAG) can address these limitations so chat, search, and agentic workflows can all benefit.",
+      "author": null,
+      "publishedAt": "2025-06-12T18:57:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/research/accurate-and-efficient-metadata-filtering-in-pinecones-serverless-vector-database/",
+      "title": "Accurate and Efficient Metadata Filtering in Pinecone’s Serverless Vector Database",
+      "link": "https://www.pinecone.io/research/accurate-and-efficient-metadata-filtering-in-pinecones-serverless-vector-database/",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2025-06-12T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/customers/terminal-x/",
+      "title": "Terminal X AI Agents, Powered by Pinecone, Turn Complex Financial Data Into Production-grade Insights at Scale",
+      "link": "https://www.pinecone.io/customers/terminal-x/",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2025-06-09T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/customers/aquant/",
+      "title": "Aquant Delivers Scalable, Expert-level Service Intelligence with Pinecone",
+      "link": "https://www.pinecone.io/customers/aquant/",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2025-06-04T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/cascading-retrieval-with-multi-vector-representations/",
+      "title": "Cascading retrieval with multi-vector representations: balancing efficiency and effectiveness",
+      "link": "https://www.pinecone.io/blog/cascading-retrieval-with-multi-vector-representations/",
+      "summary": "This blog post explores how multi-vector retrieval improves search accuracy by capturing rich query-document interactions, while addressing its scalability challenges. It introduces a practical, staged retrieval pipeline that balances speed and effectiveness, starting with fast retrieval, refining…",
+      "author": null,
+      "publishedAt": "2025-05-28T17:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/vector-databases-not-just-for-large-enterprise-ai/",
+      "title": "Vector databases aren't just for large-scale enterprise AI",
+      "link": "https://www.pinecone.io/blog/vector-databases-not-just-for-large-enterprise-ai/",
+      "summary": "We recently partnered with the School of Code during their AI Week. The students used Pinecone to build working AI applications in just a few days. A short video captures their projects and impressions. While the apps are indeed beginner-level, they show that even newcomers can build practical AI…",
+      "author": null,
+      "publishedAt": "2025-05-26T13:27:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/research/unveiling-dime-reproducibility-scalability-and-formal-analysis-of-dimension-importance-estimation-for-dense-retrieval/",
+      "title": "Unveiling DIME: Reproducibility, Scalability, and Formal Analysis of Dimension Importance Estimation for Dense Retrieval",
+      "link": "https://www.pinecone.io/research/unveiling-dime-reproducibility-scalability-and-formal-analysis-of-dimension-importance-estimation-for-dense-retrieval/",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2025-05-09T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/research/fast-and-effective-early-termination-for-simple-ranking-functions/",
+      "title": "Fast and Effective Early Termination for Simple Ranking Functions",
+      "link": "https://www.pinecone.io/research/fast-and-effective-early-termination-for-simple-ranking-functions/",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2025-05-07T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/customers/customgpt-ai/",
+      "title": "Domain-specific AI Agents at Scale: CustomGPT.ai Serves 10,000+ Customers with Pinecone",
+      "link": "https://www.pinecone.io/customers/customgpt-ai/",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2025-05-06T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/pinecone-async-fastapi/",
+      "title": "Using Pinecone asynchronously with FastAPI",
+      "link": "https://www.pinecone.io/learn/pinecone-async-fastapi/",
+      "summary": "Building high-performance vector search applications requires frameworks and tools that can handle concurrent operations effectively. In this article, we'll explore the benefits of using Pinecone's Python SDK with FastAPI, a web framework for building high performance APIs in Python and asyncio.",
+      "author": null,
+      "publishedAt": "2025-05-01T17:01:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/research/a-flexible-resource-for-top-weighted-comparisons-between-sets-and-rankings/",
+      "title": "A Flexible Resource for Top-Weighted Comparisons Between Sets and Rankings",
+      "link": "https://www.pinecone.io/research/a-flexible-resource-for-top-weighted-comparisons-between-sets-and-rankings/",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2025-05-01T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/secure-agentic-workflows-rubrik/",
+      "title": "Build secure, scalable agentic AI workflows with Rubrik Annapurna and Pinecone",
+      "link": "https://www.pinecone.io/blog/secure-agentic-workflows-rubrik/",
+      "summary": "As AI systems become agentic and more autonomous, enterprises need infrastructure that delivers secure data access, real-time retrieval, and production-grade performance. Rubrik Annapurna, powered by Pinecone’s vector database, provides the infrastructure to deploy generative AI at scale, with RAG…",
+      "author": null,
+      "publishedAt": "2025-04-24T15:58:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/first-MCPs/",
+      "title": "Tool up: Pinecone’s first MCP servers are here",
+      "link": "https://www.pinecone.io/blog/first-MCPs/",
+      "summary": "We are releasing our first three MCP servers: Pinecone Assistant MCP (remote), Pinecone Assistant MCP (local), and Pinecone Developer MCP (local). Together, the three support the following use cases: Providing structured context for agents (remote and local Pinecone Assistant MCP servers as well as…",
+      "author": null,
+      "publishedAt": "2025-04-22T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/assistant-MCP/",
+      "title": "Add context to your agent with Pinecone Assistant MCP remote server",
+      "link": "https://www.pinecone.io/blog/assistant-MCP/",
+      "summary": "Pinecone has launched the first remote MCP server to bring knowledge to agentic workflows. Starting today, every Pinecone Assistant is now also an MCP server! Users can now connect their Assistant as a context tool in their agents and AI applications. This means that developers can now combine the…",
+      "author": null,
+      "publishedAt": "2025-04-22T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/research/e2rank-efficient-and-effective-layer-wise-reranking/",
+      "title": "E2Rank: Efficient and Effective Layer-wise Reranking",
+      "link": "https://www.pinecone.io/research/e2rank-efficient-and-effective-layer-wise-reranking/",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2025-04-10T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/research/colbert-serve-efficient-multi-stage-memory-mapped-scoring/",
+      "title": "ColBERT-serve: Efficient Multi-Stage Memory-Mapped Scoring",
+      "link": "https://www.pinecone.io/research/colbert-serve-efficient-multi-stage-memory-mapped-scoring/",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2025-04-07T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/research/efficient-constant-space-multi-vector-retrieval/",
+      "title": "Efficient Constant-Space Multi-Vector Retrieval",
+      "link": "https://www.pinecone.io/research/efficient-constant-space-multi-vector-retrieval/",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2025-04-07T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/customers/vanguard/",
+      "title": "How Vanguard Worked with Pinecone to Boost Customer Support with Faster Calls and 12% More Accurate Responses",
+      "link": "https://www.pinecone.io/customers/vanguard/",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2025-03-25T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/newsroom/pinecone-named-to-fast-companys-annual-list-of-the-world-s-most-innovative-companies-of-2025/",
+      "title": "Pinecone Named to Fast Company's Annual List of the World's Most Innovative Companies of 2025",
+      "link": "https://www.pinecone.io/newsroom/pinecone-named-to-fast-companys-annual-list-of-the-world-s-most-innovative-companies-of-2025/",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2025-03-18T18:08:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/launch-week-march-2025/",
+      "title": "Launch Week: Pinecone for agents, search, recommendations, and more",
+      "link": "https://www.pinecone.io/blog/launch-week-march-2025/",
+      "summary": "We're rolling out new features each day this week (March 17-21). Stay tuned for updates!",
+      "author": null,
+      "publishedAt": "2025-03-17T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/optimizing-pinecone/",
+      "title": "Optimizing Pinecone for agents (and more)",
+      "link": "https://www.pinecone.io/blog/optimizing-pinecone/",
+      "summary": "This post describes what we mean by agentic workloads, their patterns, and how our new system optimizes for them. We also describe how we've improved performance for our search and recommendation systems workloads.",
+      "author": null,
+      "publishedAt": "2025-03-17T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/optimizing-retrieval-inference/",
+      "title": "Retrieval Inference for scale and performance",
+      "link": "https://www.pinecone.io/blog/optimizing-retrieval-inference/",
+      "summary": "Explore how our optimized embedding and reranking inference uniquely enhances retrieval quality, simplifies the developer experience, and reduces the operational footprint of modern retrieval applications.",
+      "author": null,
+      "publishedAt": "2025-03-12T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/customers/1up/",
+      "title": "How 1up Turns Sales Reps Into Product Experts with Pinecone",
+      "link": "https://www.pinecone.io/customers/1up/",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2025-03-06T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/sparse-retrieval/",
+      "title": "Don’t be dense: Launching sparse indexes in Pinecone",
+      "link": "https://www.pinecone.io/learn/sparse-retrieval/",
+      "summary": "A deep dive into building with sparse-only serverless indexes in Pinecone.",
+      "author": null,
+      "publishedAt": "2025-03-05T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/learn-pinecone-sparse/",
+      "title": "Unlock High-Precision Keyword Search with pinecone-sparse-english-v0",
+      "link": "https://www.pinecone.io/learn/learn-pinecone-sparse/",
+      "summary": "Learn about sparse retrieval and pinecone-sparse-english-v0, Pinecone's sparse model available on our platform.",
+      "author": null,
+      "publishedAt": "2025-03-05T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/evolving-pinecone-for-knowledgeable-ai/",
+      "title": "Evolving Pinecone's architecture to meet the demands of Knowledgeable AI",
+      "link": "https://www.pinecone.io/blog/evolving-pinecone-for-knowledgeable-ai/",
+      "summary": "A deep dive into the latest advancements behind Pinecone’s next-generation serverless vector database architecture.",
+      "author": null,
+      "publishedAt": "2025-02-25T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/pinecone-assistant-citation-highlights/",
+      "title": "Pinpoint references faster with citation highlights in Pinecone Assistant",
+      "link": "https://www.pinecone.io/learn/pinecone-assistant-citation-highlights/",
+      "summary": "With citation highlights, Pinecone Assistant can now pinpoint the exact section or sentence used to generate a response. This technical guide shows you how to get started with Pinecone Assistant and leverage citation highlights.",
+      "author": null,
+      "publishedAt": "2025-02-24T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/byoc-early-access/",
+      "title": "Bringing the leading vector database to your cloud",
+      "link": "https://www.pinecone.io/blog/byoc-early-access/",
+      "summary": "Pinecone’s BYOC offering for AWS is now in early access. Contact us for more information.",
+      "author": null,
+      "publishedAt": "2025-02-20T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/nvidia-for-pinecone-inference/",
+      "title": "Getting started with llama-text-embed-v2",
+      "link": "https://www.pinecone.io/learn/nvidia-for-pinecone-inference/",
+      "summary": "Nvidia's llama-text-embed-2 embedding model delivers remarkable retrieval quality at low latency, and is now available in Pinecone Inference.",
+      "author": null,
+      "publishedAt": "2025-02-19T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/research/natural-language-counterfactual-explanations-for-graphs-using-large-language-models/",
+      "title": "Natural Language Counterfactual Explanations for Graphs Using Large Language Models",
+      "link": "https://www.pinecone.io/research/natural-language-counterfactual-explanations-for-graphs-using-large-language-models/",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2025-01-27T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/pinecone-assistant-generally-available/",
+      "title": "Easily build knowledgeable chat and agent-based applications in minutes with Pinecone Assistant, now generally available",
+      "link": "https://www.pinecone.io/blog/pinecone-assistant-generally-available/",
+      "summary": "Pinecone Assistant is now generally available for all users. Expanded functionality makes it even easier to build knowledgeable AI assistants in just minutes.",
+      "author": null,
+      "publishedAt": "2025-01-22T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/pinecone-assistant/",
+      "title": "How to build an agentic, chat or RAG knowledge system using Pinecone Assistant",
+      "link": "https://www.pinecone.io/learn/pinecone-assistant/",
+      "summary": "This technical guide will help you understand Pinecone Assistant's core functionality, use cases, and workflows. It also includes insights into optimizing Assistant's performance.",
+      "author": null,
+      "publishedAt": "2025-01-22T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/series/unlock-real-time-data-for-ai-with-estuary-flow-and-pinecone/real-time-rag-pinecone-estuary-flow/",
+      "title": "Real-time RAG with Pinecone and Estuary Flow",
+      "link": "https://www.pinecone.io/learn/series/unlock-real-time-data-for-ai-with-estuary-flow-and-pinecone/real-time-rag-pinecone-estuary-flow/",
+      "summary": "Real-Time Retrieval-Augmented Generation (RAG) is revolutionizing how AI applications access and utilize vast datasets by combining large language models (LLMs) with efficient retrieval systems. This guide explores building a real-time RAG system using tools like Estuary Flow and Pinecone to…",
+      "author": null,
+      "publishedAt": "2024-12-18T20:11:11.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/series/unlock-real-time-data-for-ai-with-estuary-flow-and-pinecone/bigquery-pinecone-real-time-estuary-flow/",
+      "title": "BigQuery to Pinecone in Real-Time with Estuary Flow",
+      "link": "https://www.pinecone.io/learn/series/unlock-real-time-data-for-ai-with-estuary-flow-and-pinecone/bigquery-pinecone-real-time-estuary-flow/",
+      "summary": "In today’s fast-paced digital landscape, the ability to perform real-time analytics is critical for businesses aiming to stay ahead. By combining Google BigQuery’s robust data analytics capabilities with Pinecone’s cutting-edge vector search, you can unlock advanced AI applications such as…",
+      "author": null,
+      "publishedAt": "2024-12-18T20:09:25.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/customers/stravito/",
+      "title": "Stravito Turns Market and Consumer Data Into Actionable Insights with Pinecone Inference",
+      "link": "https://www.pinecone.io/customers/stravito/",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2024-12-17T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/pinecone-local/",
+      "title": "Accelerate prototyping and development with Pinecone Local",
+      "link": "https://www.pinecone.io/blog/pinecone-local/",
+      "summary": "With Pinecone Local, you can now prototype, test, and develop AI applications locally while seamlessly integrating workflow testing into CI/CD pipelines.",
+      "author": null,
+      "publishedAt": "2024-12-06T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/newsroom/first-of-its-kind-pinecone-knowledge-platform-to-power-best-in-class-retrieval-for-customers/",
+      "title": "First-of-its-kind Pinecone Knowledge Platform to Power Best-in-class Retrieval for Customers",
+      "link": "https://www.pinecone.io/newsroom/first-of-its-kind-pinecone-knowledge-platform-to-power-best-in-class-retrieval-for-customers/",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2024-12-03T18:45:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/integrated-inference/",
+      "title": "Introducing integrated inference: Embed, rerank, and retrieve your data with a single API",
+      "link": "https://www.pinecone.io/blog/integrated-inference/",
+      "summary": "Announcing expanded inference capabilities alongside our core vector database to make it even easier and faster to build high-quality, knowledgeable AI applications with Pinecone.",
+      "author": null,
+      "publishedAt": "2024-12-02T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/strengthening-security-and-control/",
+      "title": "Strengthening security and increasing control with CMEK and API key roles",
+      "link": "https://www.pinecone.io/blog/strengthening-security-and-control/",
+      "summary": "A deep dive into how Pinecone supports two new security features, 1) Customer-managed encryption keys (CMEK) and 2) Role-Based Access Control (RBAC) with API key roles",
+      "author": null,
+      "publishedAt": "2024-12-02T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/pinecone-rerank-v0-announcement/",
+      "title": "Introducing Pinecone Rerank V0",
+      "link": "https://www.pinecone.io/blog/pinecone-rerank-v0-announcement/",
+      "summary": "Enhancing retrieval augmented generation (RAG) and enterprise search with pinecone-rerank-v0",
+      "author": null,
+      "publishedAt": "2024-12-02T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/cascading-retrieval/",
+      "title": "Introducing cascading retrieval: Unifying dense and sparse with reranking",
+      "link": "https://www.pinecone.io/blog/cascading-retrieval/",
+      "summary": "New cascading retrieval capabilities make it seamless to combine dense retrieval and sparse retrieval and reranking into a unified search pipeline, delivering unparalleled precision, performance, and ease of use.",
+      "author": null,
+      "publishedAt": "2024-12-02T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/pinecone-assistant-accelerates-business/",
+      "title": "From Idea to Action: How Pinecone Assistant Meaningfully Accelerates AI Business",
+      "link": "https://www.pinecone.io/blog/pinecone-assistant-accelerates-business/",
+      "summary": "How to use Pinecone Assistant to accelerate businesses that build RAG systems. Case study AI RAG",
+      "author": null,
+      "publishedAt": "2024-11-21T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/building-ai-apps-on-azure-with-pinecone-just-got-a-lot-easier/",
+      "title": "Building AI apps on Azure with Pinecone just got a lot easier",
+      "link": "https://www.pinecone.io/blog/building-ai-apps-on-azure-with-pinecone-just-got-a-lot-easier/",
+      "summary": "At Microsoft Ignite, Microsoft announced that Pinecone is one of their first GenAI Azure Native Integration partners. This follows their recent announcement at GitHub Universe of Pinecone as one of the providers in their new AI App Template Gallery. Why is this great news? In short, both of those…",
+      "author": null,
+      "publishedAt": "2024-11-19T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/datadog-prometheus-for-serverless/",
+      "title": "Unlock enhanced performance and usage monitoring with Datadog and new Prometheus endpoints",
+      "link": "https://www.pinecone.io/blog/datadog-prometheus-for-serverless/",
+      "summary": "We've updated our Datadog integration and Prometheus endpoints for expanded performance and usage monitoring.",
+      "author": null,
+      "publishedAt": "2024-11-06T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/building-reliable-curated-accurate-rag/",
+      "title": "Building a reliable, curated, and accurate RAG system with Cleanlab and Pinecone",
+      "link": "https://www.pinecone.io/learn/building-reliable-curated-accurate-rag/",
+      "summary": "In this post we detail a comprehensive guide to building a reliable and scalable Retrieval-Augmented Generation (RAG) system using Cleanlab's Trustworthy Language Model (TLM) and Pinecone.",
+      "author": null,
+      "publishedAt": "2024-10-25T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/assistant-api-deep-dive/",
+      "title": "Four features of the Assistant API you aren't using - but should",
+      "link": "https://www.pinecone.io/learn/assistant-api-deep-dive/",
+      "summary": "In this guide, we explore four exciting features Pinecone's Assistant API you may not yet know about. We cover how these features can be useful in real-world AI applications.",
+      "author": null,
+      "publishedAt": "2024-10-15T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/series/vector-databases-in-production-for-busy-engineers/pinecone-iac/",
+      "title": "Deploying Pinecone with Infrastructure as Code (IaC)",
+      "link": "https://www.pinecone.io/learn/series/vector-databases-in-production-for-busy-engineers/pinecone-iac/",
+      "summary": "Infrastructure as Code (IaC) is a programming paradigm that declares your cloud infrastructure. IaC tools read this declaration to reconcile your desired state with cloud provider APIs to create reproducible deployments across teams.\n\nPinecone supports the two most popular IaC providers, Terraform…",
+      "author": null,
+      "publishedAt": "2024-10-02T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/series/vector-databases-in-production-for-busy-engineers/cicd-pinecone-local/",
+      "title": "Streamlining CI/CD with Pinecone Local",
+      "link": "https://www.pinecone.io/learn/series/vector-databases-in-production-for-busy-engineers/cicd-pinecone-local/",
+      "summary": "Pinecone Local is an in-memory Pinecone Vector Database emulator that is available as a Docker image. It provides developers with a powerful tool for local development and testing, particularly in CI/CD environments.",
+      "author": null,
+      "publishedAt": "2024-10-02T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/september-2024-product-update/",
+      "title": "September 2024 Product Update",
+      "link": "https://www.pinecone.io/blog/september-2024-product-update/",
+      "summary": "In September Pinecone serverless added an evaluation API to evaluate RAG and the ability to choose the LLM, among other updates.",
+      "author": null,
+      "publishedAt": "2024-10-01T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/research/results-of-the-big-ann-neurips-23-competition/",
+      "title": "Results of the Big ANN: NeurIPS'23 competition",
+      "link": "https://www.pinecone.io/research/results-of-the-big-ann-neurips-23-competition/",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2024-09-25T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/import-from-object-storage/",
+      "title": "Introducing import from object storage for more efficient data transfer to Pinecone serverless",
+      "link": "https://www.pinecone.io/blog/import-from-object-storage/",
+      "summary": "Introducing the ability to bulk import from object storage for Pinecone’s serverless infrastructure. This new capability makes ingesting large amounts of data more efficient for developers building accurate, secure, and scalable AI applications.",
+      "author": null,
+      "publishedAt": "2024-09-24T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/pinecone-assistant-for-all/",
+      "title": "Simplify, enhance, and evaluate RAG development with Pinecone Assistant, now in public preview",
+      "link": "https://www.pinecone.io/blog/pinecone-assistant-for-all/",
+      "summary": "Pinecone Assistant is now available in public preview, including new features like a built-in evaluation framework, expanded LLM support, and more.",
+      "author": null,
+      "publishedAt": "2024-09-18T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/vectors-and-graphs-better-together/",
+      "title": "Vectors and Graphs: Better Together",
+      "link": "https://www.pinecone.io/learn/vectors-and-graphs-better-together/",
+      "summary": "Making sense of complex, interconnected information is a major challenge across many fields. This article introduces a new AI approach that tackles this problem head-on. By enhancing how machines understand and explore data, it opens up new possibilities for insight discovery in areas ranging from…",
+      "author": null,
+      "publishedAt": "2024-09-06T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/customers/deep-talk/",
+      "title": "Pinecone Helps Deep Talk Deliver World-Class AI Assistants with  Lower Engineering Overhead",
+      "link": "https://www.pinecone.io/customers/deep-talk/",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2024-09-03T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/customers/assembled/",
+      "title": "Assembled Delivers Better, Faster AI- Driven Support with Pinecone",
+      "link": "https://www.pinecone.io/customers/assembled/",
+      "summary": "In our latest RAG Brag episode, we had the pleasure of speaking with John Wang, Co-founder and CTO of Assembled, who shared valuable insights into how Assembled Assist, the company's latest AI-powered tool, is transforming the world of customer support.",
+      "author": null,
+      "publishedAt": "2024-09-03T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/august-2024-product-update/",
+      "title": "August 2024 Product Update",
+      "link": "https://www.pinecone.io/blog/august-2024-product-update/",
+      "summary": "In August Pinecone serverless became generally available to Google Cloud Platform (GCP) and Microsoft Azure and embedding and reranking were added to the Pinecone API.",
+      "author": null,
+      "publishedAt": "2024-09-03T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/langgraph-ollama-llama/",
+      "title": "Llama 3.1 Agent using LangGraph and Ollama",
+      "link": "https://www.pinecone.io/learn/langgraph-ollama-llama/",
+      "summary": "Learn how to use LangGraph to build local AI Agents with Ollama and Llama 3.1.",
+      "author": null,
+      "publishedAt": "2024-09-02T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/azure-serverless-ga/",
+      "title": "Build knowledgeable AI with Pinecone serverless, now generally available on Microsoft Azure",
+      "link": "https://www.pinecone.io/blog/azure-serverless-ga/",
+      "summary": "Pinecone serverless is generally available (GA) on Microsoft Azure. Along with AWS and GCP, you can now build with serverless on the cloud and region that suits you best.",
+      "author": null,
+      "publishedAt": "2024-08-27T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/gcp-serverless-ga/",
+      "title": "Pinecone serverless is now generally available on Google Cloud, adding knowledge to AI assistants and other applications",
+      "link": "https://www.pinecone.io/blog/gcp-serverless-ga/",
+      "summary": "Pinecone serverless is generally available (GA) on Google Cloud and Google Cloud Marketplace. Along with AWS and Azure, you can now build with serverless on the cloud and region that suits you best.",
+      "author": null,
+      "publishedAt": "2024-08-27T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/legal-semantic-search/",
+      "title": "Accelerating Legal Discovery and Analysis with Pinecone and Voyage AI",
+      "link": "https://www.pinecone.io/learn/legal-semantic-search/",
+      "summary": "Pinecone's Legal semantic search app leverages Voyage AI's embedding model and helps developers quickly implement advanced legal research tools. \n\nThis article explores how the app, which can be set up in under a minute, uses vector search and legal-specific language models to streamline document…",
+      "author": null,
+      "publishedAt": "2024-08-21T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/research/bridging-dense-and-sparse-maximum-inner-product-search/",
+      "title": "Bridging Dense and Sparse Maximum Inner Product Search",
+      "link": "https://www.pinecone.io/research/bridging-dense-and-sparse-maximum-inner-product-search/",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2024-08-19T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/refine-with-rerank/",
+      "title": "Refine Retrieval Quality with Pinecone Rerank",
+      "link": "https://www.pinecone.io/learn/refine-with-rerank/",
+      "summary": "In this article, learn about Pinecone Rerank and how to use rerankers to increase the quality of results in vector search and retrieval augmented generation applications.",
+      "author": null,
+      "publishedAt": "2024-08-15T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/introducing-reranking-to-pinecone-inference/",
+      "title": "Introducing reranking to Pinecone Inference to simplify building accurate AI",
+      "link": "https://www.pinecone.io/blog/introducing-reranking-to-pinecone-inference/",
+      "summary": "Reranking capabilities are now available with Pinecone Inference, an API that provides instant access to fully managed models hosted on Pinecone’s infrastructure.",
+      "author": null,
+      "publishedAt": "2024-08-15T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/july-2024-product-update/",
+      "title": "July 2024 Product Update",
+      "link": "https://www.pinecone.io/blog/july-2024-product-update/",
+      "summary": "This month we expanded Pinecone serverless to Google Cloud Platform (GCP) and Microsoft Azure, launched Pinecone Inference, and introduced API versioning.",
+      "author": null,
+      "publishedAt": "2024-08-01T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/connect-to-pinecone-within-your-platform/",
+      "title": "Connect to Pinecone within your platform to enable a seamless AI development experience",
+      "link": "https://www.pinecone.io/blog/connect-to-pinecone-within-your-platform/",
+      "summary": "Today, we’re announcing the general availability of Pinecone Connect. Pinecone Connect is an integration that allows developers to manage Pinecone resources directly from another platform via a simple authentication flow.",
+      "author": null,
+      "publishedAt": "2024-07-24T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/introducing-pinecone-api-versioning/",
+      "title": "Introducing Pinecone API Versioning",
+      "link": "https://www.pinecone.io/blog/introducing-pinecone-api-versioning/",
+      "summary": "Pinecone will release a new stable and a release candidate of the API on a quarterly basis, starting in July.",
+      "author": null,
+      "publishedAt": "2024-07-18T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/rag-brag-inkeep/",
+      "title": "RAG Brag with Inkeep Co-Founder Nick Gomez",
+      "link": "https://www.pinecone.io/blog/rag-brag-inkeep/",
+      "summary": "In a recent RAG Brag episode, Nick Gomez, Co-founder and CEO of Inkeep, shared insights about his journey and the inspiration behind starting a company focused on helping companies with technical products, improve self-help experiences with AI, and machine learning. He shared his background and the…",
+      "author": null,
+      "publishedAt": "2024-07-17T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/langgraph-research-agent/",
+      "title": "LangGraph and Research Agents",
+      "link": "https://www.pinecone.io/learn/langgraph-research-agent/",
+      "summary": "LangGraph is a graph-based agentic framework that allows us to build more flexible and controllable AI agents. Here, we'll see how to build an AI Research Agent with LangGraph.",
+      "author": null,
+      "publishedAt": "2024-07-11T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/pinecone-inference/",
+      "title": "Introducing Pinecone Inference to streamline your AI workflow",
+      "link": "https://www.pinecone.io/blog/pinecone-inference/",
+      "summary": "Pinecone Inference provides easy and low-latency access to embedding and reranking models hosted on Pinecone’s infrastructure, and is now available in public preview.",
+      "author": null,
+      "publishedAt": "2024-07-09T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/privacy-aware-software/",
+      "title": "Build Privacy-aware AI software using Pinecone",
+      "link": "https://www.pinecone.io/learn/privacy-aware-software/",
+      "summary": "GenAI creates personalized web experiences by combining proprietary data with the knowledge of individual users. How can we ensure this knowledge is handled safely per security compliance standards",
+      "author": null,
+      "publishedAt": "2024-07-03T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/june-2024-product-update/",
+      "title": "June 2024 Product Update",
+      "link": "https://www.pinecone.io/blog/june-2024-product-update/",
+      "summary": "This month, we launched Pinecone Assistant in beta and many other new features. Watch our latest Quarterly Pinecone Summary (QPS) for product highlights in Q2 and also get a glimpse into our Q3 roadmap.",
+      "author": null,
+      "publishedAt": "2024-07-01T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/pinecone-assistant/",
+      "title": "Introducing Pinecone Assistant in Beta",
+      "link": "https://www.pinecone.io/blog/pinecone-assistant/",
+      "summary": "Pinecone Assistant, an API service for answering complex questions about your proprietary data, accurately and securely, within your applications, is now in public preview.",
+      "author": null,
+      "publishedAt": "2024-06-25T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/ai-assistant-quality/",
+      "title": "Benchmarking AI Assistants",
+      "link": "https://www.pinecone.io/blog/ai-assistant-quality/",
+      "summary": "A look into where existing evaluation metrics fall short, the metric we propose for evaluating AI assistants, and how Pinecone Assistant performs across three benchmark datasets.",
+      "author": null,
+      "publishedAt": "2024-06-25T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/the-practitioners-guide-to-e5/",
+      "title": "The Practitioner's Guide To E5",
+      "link": "https://www.pinecone.io/learn/the-practitioners-guide-to-e5/",
+      "summary": "Learn how to use the Pinecone Inference API along with the multilingual E5 model in this article. The article covers why the E5 model was selected, how it was trained, and how to use it within a worked out example notebook.",
+      "author": null,
+      "publishedAt": "2024-06-24T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/research/foundations-of-vector-retrieval/",
+      "title": "Foundations of Vector Retrieval",
+      "link": "https://www.pinecone.io/research/foundations-of-vector-retrieval/",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2024-06-15T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/rag-brag-myaskai/",
+      "title": "RAG Brag with My AskAI founders, Mike Heap and Alex Rainey",
+      "link": "https://www.pinecone.io/blog/rag-brag-myaskai/",
+      "summary": "In a recent episode of RAG Brag, Mike Heap and Alex Rainey, founders of My AskAI, shared how they use LLMs and other modern AI tech to empower SaaS businesses to create AI customer support agents using their own documentation to reduce customer support volumes and gather actionable feedback for…",
+      "author": null,
+      "publishedAt": "2024-06-14T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/series/vector-databases-in-production-for-busy-engineers/rag-pipeline-design/",
+      "title": "Designing a RAG Pipeline (Interactive)",
+      "link": "https://www.pinecone.io/learn/series/vector-databases-in-production-for-busy-engineers/rag-pipeline-design/",
+      "summary": "Building a Retrieval-Augmented Generation (RAG) pipeline can be complex due to many interdependent factors. Our interactive questionnaire provides tailored recommendations to help you get started efficiently and effectively.",
+      "author": null,
+      "publishedAt": "2024-06-06T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/glasp/",
+      "title": "Glasp achieves 5X cost savings in knowledge access for millions of users with Pinecone",
+      "link": "https://www.pinecone.io/blog/glasp/",
+      "summary": "In a recent conversation with Glasp, we explored the pivotal role Pinecone plays in plays in supporting Glasp’s mission to democratize access to learning and experiences with semantic search and retrieval of information.",
+      "author": null,
+      "publishedAt": "2024-06-05T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/newsroom/pinecone-grows-with-tech-leaders-lauren-nemeth-as-new-coo-and-bob-muglia-as-fifth-board-member/",
+      "title": "Pinecone Grows with Tech Leaders Lauren Nemeth as New COO and Bob Muglia as Fifth Board Member",
+      "link": "https://www.pinecone.io/newsroom/pinecone-grows-with-tech-leaders-lauren-nemeth-as-new-coo-and-bob-muglia-as-fifth-board-member/",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2024-06-03T17:43:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/welcome-lauren-nemeth-and-bob-muglia/",
+      "title": "Welcome Lauren Nemeth and Bob Muglia",
+      "link": "https://www.pinecone.io/blog/welcome-lauren-nemeth-and-bob-muglia/",
+      "summary": "Lauren Nemeth and Bob Muglia have joined Pinecone as chief operating officer (COO) and board member, respectively.",
+      "author": null,
+      "publishedAt": "2024-06-03T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/may2024-monthly-product-update/",
+      "title": "May Monthly Product Update",
+      "link": "https://www.pinecone.io/blog/may2024-monthly-product-update/",
+      "summary": "This month, we welcomed the general availability of Pinecone serverless on AWS, the public preview of Private Endpoints for AWS PrivateLink, and a fast-growing list of new integrations.",
+      "author": null,
+      "publishedAt": "2024-06-03T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/research/rank-biased-quality-measurement-for-sets-and-rankings/",
+      "title": "Rank-Biased Quality Measurement for Sets and Rankings",
+      "link": "https://www.pinecone.io/research/rank-biased-quality-measurement-for-sets-and-rankings/",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2024-06-01T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/research/deeperimpact-optimizing-sparse-learned-index-structures/",
+      "title": "DeeperImpact: Optimizing Sparse Learned Index Structures",
+      "link": "https://www.pinecone.io/research/deeperimpact-optimizing-sparse-learned-index-structures/",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2024-05-27T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/newsroom/pinecone-makes-accurate-fast-scalable-generative-ai-accessible-to-organizations-large-and-small-with-launch-of-its-serverless-vector-database/",
+      "title": "Pinecone Makes Accurate, Fast, Scalable Generative AI Accessible to Organizations Large and Small with Launch of its Serverless Vector Database",
+      "link": "https://www.pinecone.io/newsroom/pinecone-makes-accurate-fast-scalable-generative-ai-accessible-to-organizations-large-and-small-with-launch-of-its-serverless-vector-database/",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2024-05-21T17:40:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/private-endpoints/",
+      "title": "Introducing Private Endpoints for Pinecone serverless",
+      "link": "https://www.pinecone.io/blog/private-endpoints/",
+      "summary": "Private Endpoints for AWS PrivateLink is now in public preview for Pinecone serverless. Connect securely from your VPC to Pinecone without exposing traffic to the public Internet.",
+      "author": null,
+      "publishedAt": "2024-05-21T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/serverless-generally-available/",
+      "title": "Pinecone serverless on AWS is generally available",
+      "link": "https://www.pinecone.io/blog/serverless-generally-available/",
+      "summary": "Since the public preview announcement, more than 20,000 companies have started building with Pinecone serverless. Today, we’re announcing the general availability of Pinecone serverless on AWS.",
+      "author": null,
+      "publishedAt": "2024-05-21T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/the-ultimate-developer-toolkit-for-genai/",
+      "title": "Expanding AI Development with Pinecone, GitHub CoPilot, and Azure OpenAI",
+      "link": "https://www.pinecone.io/blog/the-ultimate-developer-toolkit-for-genai/",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2024-05-21T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/research/optimistic-query-routing-in-clustering-based-approximate-maximum-inner-product-search/",
+      "title": "Optimistic Query Routing in Clustering-based Approximate Maximum Inner Product Search",
+      "link": "https://www.pinecone.io/research/optimistic-query-routing-in-clustering-based-approximate-maximum-inner-product-search/",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2024-05-20T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/tokenization/",
+      "title": "Interactive Introduction to Tokenization",
+      "link": "https://www.pinecone.io/learn/tokenization/",
+      "summary": "Tokenization is the process of converting words from human languages into numerical representations, or IDs, from a specific vocabulary.",
+      "author": null,
+      "publishedAt": "2024-05-17T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/a-developers-guide-to-ann-algorithms/",
+      "title": "A Developer’s Guide to Approximate Nearest Neighbor (ANN) Algorithms",
+      "link": "https://www.pinecone.io/learn/a-developers-guide-to-ann-algorithms/",
+      "summary": "This article will give an overview of the vector indexing landscape and analyses of a few popular algorithms.",
+      "author": null,
+      "publishedAt": "2024-05-15T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/build-better-rag-applications-with-pinecone-and-vectorize/",
+      "title": "Build Better RAG Applications with Pinecone and Vectorize",
+      "link": "https://www.pinecone.io/blog/build-better-rag-applications-with-pinecone-and-vectorize/",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2024-05-14T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/customers/taskus/",
+      "title": "TaskUs Partners with Pinecone to Enhance Customer Service Satisfaction",
+      "link": "https://www.pinecone.io/customers/taskus/",
+      "summary": "CX leader gains more robust vector database technology to meet increased demands with minimal latency.",
+      "author": null,
+      "publishedAt": "2024-05-10T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/series/vector-databases-in-production-for-busy-engineers/rag-evaluation/",
+      "title": "RAG Evaluation: Don’t let customers tell you first",
+      "link": "https://www.pinecone.io/learn/series/vector-databases-in-production-for-busy-engineers/rag-evaluation/",
+      "summary": "RAG Evaluation tells you how your pipeline is performing, before your customers have a bad experience and complain. By implementing these information retrieval metrics and leveraging open-source or proprietary frameworks, you can ensure your Retrieval Augmented Generation workflows always meet your…",
+      "author": null,
+      "publishedAt": "2024-05-07T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/series/vector-databases-in-production-for-busy-engineers/ci-cd/",
+      "title": "Integrating cloud-based vector databases with CI/CD Pipelines",
+      "link": "https://www.pinecone.io/learn/series/vector-databases-in-production-for-busy-engineers/ci-cd/",
+      "summary": "Continuous integration and continuous delivery are software engineering best practices, but integrating cloud-based services into your CI/CD pipelines involves a number of important considerations. Learn the best patterns for success and use our companion repository to quickly set up CI/CD for your…",
+      "author": null,
+      "publishedAt": "2024-05-03T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/research/faster-learned-sparse-retrieval-with-block-max-pruning/",
+      "title": "Faster Learned Sparse Retrieval with Block-Max Pruning",
+      "link": "https://www.pinecone.io/research/faster-learned-sparse-retrieval-with-block-max-pruning/",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2024-05-02T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/april-2024-product-update/",
+      "title": "April Monthly Product Update",
+      "link": "https://www.pinecone.io/blog/april-2024-product-update/",
+      "summary": "This month, we continued expanding our serverless service and improving your experience building with Pinecone.",
+      "author": null,
+      "publishedAt": "2024-05-01T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/global-api/",
+      "title": "Going Global: Building the Global Control Plane API",
+      "link": "https://www.pinecone.io/blog/global-api/",
+      "summary": "The Global Control Plane API makes it even easier to build and scale with Pinecone. Learn more about the engineering motivations and efforts behind the new API.",
+      "author": null,
+      "publishedAt": "2024-04-22T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/series/vector-databases-in-production-for-busy-engineers/vector-database-multi-tenancy/",
+      "title": "Multi-Tenancy in Vector Databases",
+      "link": "https://www.pinecone.io/learn/series/vector-databases-in-production-for-busy-engineers/vector-database-multi-tenancy/",
+      "summary": "This post explores the mechanisms you can use to manage your tenants in Pinecone, including namespaces and metadata filtering.",
+      "author": null,
+      "publishedAt": "2024-04-18T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/pinecone-vs-pgvector/",
+      "title": "Pinecone vs. Postgres pgvector: For vector search, easy isn’t so easy",
+      "link": "https://www.pinecone.io/blog/pinecone-vs-pgvector/",
+      "summary": "When it comes to vector search, easy is far from simple. Learn why in our deep dive on Pinecone vs. Postgres pgvector.",
+      "author": null,
+      "publishedAt": "2024-04-17T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/serverless-free/",
+      "title": "Free plan gets 3x more capacity with serverless upgrade",
+      "link": "https://www.pinecone.io/blog/serverless-free/",
+      "summary": "The Pinecone Starter (free) plan has become integral to the AI journey for hundreds of thousands of developers looking to build remarkably better AI applications. Starting today, the free plan gets 3x more capacity with Pinecone serverless.",
+      "author": null,
+      "publishedAt": "2024-04-17T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/newsroom/pinecone-launches-partner-program-to-bring-more-companies-into-the-ai-stack/",
+      "title": "Pinecone Launches Partner Program to Bring More Companies Into the AI Stack",
+      "link": "https://www.pinecone.io/newsroom/pinecone-launches-partner-program-to-bring-more-companies-into-the-ai-stack/",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2024-04-08T17:38:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/introducing-the-pinecone-partner-program/",
+      "title": "Introducing the Pinecone Partner Program: Integrate and Grow with Pinecone",
+      "link": "https://www.pinecone.io/blog/introducing-the-pinecone-partner-program/",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2024-04-08T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/sixfold/",
+      "title": "Sixfold's Transformation of Insurance Underwriting with Pinecone",
+      "link": "https://www.pinecone.io/blog/sixfold/",
+      "summary": "In a recent conversation with Sixfold, we explored the pivotal role Pinecone plays in enhancing insurance underwriting processes, leveraging hybrid search that combines semantic and keyword search for more relevant results to underwriters queries.",
+      "author": null,
+      "publishedAt": "2024-04-05T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/hallucination-free-llm/",
+      "title": "Introducing the First Hallucination-Free LLM",
+      "link": "https://www.pinecone.io/blog/hallucination-free-llm/",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2024-04-01T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/Marchproductupdate/",
+      "title": "March Monthly Product Update",
+      "link": "https://www.pinecone.io/blog/Marchproductupdate/",
+      "summary": "We had a productive March, including updated SDKs, new features, and improvements to our console. Check out some of the highlights below.",
+      "author": null,
+      "publishedAt": "2024-04-01T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/structured-data/",
+      "title": "Your Guide to Vectorizing Structured Text",
+      "link": "https://www.pinecone.io/learn/structured-data/",
+      "summary": "Strategies, tips, and tricks to imposing structure in vector space.",
+      "author": null,
+      "publishedAt": "2024-03-26T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/structured-data/",
+      "title": "Your Guide to Vectorizing Structured Text",
+      "link": "https://www.pinecone.io/blog/structured-data/",
+      "summary": "Strategies, tips, and tricks to imposing structure in vector space.",
+      "author": null,
+      "publishedAt": "2024-03-26T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/research/improved-learned-sparse-retrieval-with-corpus-specific-vocabularies/",
+      "title": "Improved Learned Sparse Retrieval with Corpus-specific Vocabularies",
+      "link": "https://www.pinecone.io/research/improved-learned-sparse-retrieval-with-corpus-specific-vocabularies/",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2024-03-23T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/advanced-rag-techniques/",
+      "title": "Advanced RAG Techniques",
+      "link": "https://www.pinecone.io/learn/advanced-rag-techniques/",
+      "summary": "We explore several advanced RAG techniques and demonstrate an implementation that draws on the lessons learned from each.",
+      "author": null,
+      "publishedAt": "2024-03-21T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/confluent-apache-flink-service/",
+      "title": "Simplify Stream Processing For GenAI Applications With Confluent Cloud for Apache Flink®",
+      "link": "https://www.pinecone.io/blog/confluent-apache-flink-service/",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2024-03-19T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/rag-brag-with-shortwave/",
+      "title": "RAG Brag with Shortwave CEO Andrew Lee",
+      "link": "https://www.pinecone.io/blog/rag-brag-with-shortwave/",
+      "summary": "RAG Brag is a new livestream event series where we invite leading AI founders and innovators to share their experiences of building with AI. During our first session, Andrew Lee, CEO of Shortwave, provides insights into the benefits and challenges of building with AI.",
+      "author": null,
+      "publishedAt": "2024-03-14T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/customers/inpharmd/",
+      "title": "InpharmD Redefines Evidence-Based Healthcare with Pinecone",
+      "link": "https://www.pinecone.io/customers/inpharmd/",
+      "summary": "Pinecone empowers InpharmD to efficiently retrieve relevant medical information during clinical inquiries, resulting in a 4X improvement in query response time.",
+      "author": null,
+      "publishedAt": "2024-03-11T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/series/rag/ragas/",
+      "title": "Metrics-Driven Agent Development",
+      "link": "https://www.pinecone.io/learn/series/rag/ragas/",
+      "summary": "By using evaluation frameworks like RAGAS we can use a metrics-driven approach to developing AI applications. Here we see how to integrate RAGAS with LangChain agents and Pinecone.",
+      "author": null,
+      "publishedAt": "2024-02-23T21:43:14.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/canopy-azureopenai/",
+      "title": "Azure OpenAI, meet Canopy",
+      "link": "https://www.pinecone.io/blog/canopy-azureopenai/",
+      "summary": "Overview of Canopy's new integration with Azure OpenAI Studio.",
+      "author": null,
+      "publishedAt": "2024-02-15T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/the-new-ai-stack/",
+      "title": "Winning in AI means mastering the new stack",
+      "link": "https://www.pinecone.io/blog/the-new-ai-stack/",
+      "summary": "Over the past few years, our teams have collectively worked with thousands of companies that transform their businesses with AI. We want to share our insights on what separates those who succeed from those who struggle. Most companies understandably struggle because AI is evolving too rapidly to…",
+      "author": null,
+      "publishedAt": "2024-02-15T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/memory-for-open-source-llms/",
+      "title": "Memory for Open-Source LLMs",
+      "link": "https://www.pinecone.io/blog/memory-for-open-source-llms/",
+      "summary": "Giving large language models the ability to remember unlocks a lot of new potential, from being able to anticipate what a customer wants based on past experience, to being a more helpful friend by remembering what’s important to you like real friends do. Let’s talk about how you can enable this…",
+      "author": null,
+      "publishedAt": "2024-02-14T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/series/kubernetes/scaling-ai-apps-ingestion/",
+      "title": "Scaling AI Applications with Pinecone and Kubernetes - Ingestion Microservices",
+      "link": "https://www.pinecone.io/learn/series/kubernetes/scaling-ai-apps-ingestion/",
+      "summary": "In this chapter, we delve deeper into the architecture and code of the ingestion pipeline. We explore the roles and functions of microservices and how they collaborate. We'll discuss the use of Kafka for parallel data processing and its role in different parts of the application. We also examine…",
+      "author": null,
+      "publishedAt": "2024-02-07T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/read-units/",
+      "title": "Manage Serverless Costs with Read Units",
+      "link": "https://www.pinecone.io/learn/read-units/",
+      "summary": "Gain a deeper understanding of how Read Units (RUs) are calculated.",
+      "author": null,
+      "publishedAt": "2024-02-01T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/why-serverless/",
+      "title": "5 reasons to build with Pinecone serverless",
+      "link": "https://www.pinecone.io/blog/why-serverless/",
+      "summary": "We recently announced Pinecone serverless in public preview. This blog shares five reasons to start building with Pinecone serverless today.",
+      "author": null,
+      "publishedAt": "2024-01-29T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/openai-embeddings-v3/",
+      "title": "OpenAI's Text Embeddings v3",
+      "link": "https://www.pinecone.io/learn/openai-embeddings-v3/",
+      "summary": "OpenAI's text-embedding-3-large and text-embedding-3-small are the latest state-of-the-art models for embeddings, a critical component of Retrieval Augmented Generation (RAG) and the AI ecosystem.",
+      "author": null,
+      "publishedAt": "2024-01-25T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/vectors-as-ai-data-primitives/",
+      "title": "Vectors as AI Data Primitives",
+      "link": "https://www.pinecone.io/blog/vectors-as-ai-data-primitives/",
+      "summary": "Vector embeddings have a very different query behavior than what most databases were built for. Rather than finding something in rows and columns or document-oriented indexing, we are trying to find vectors in highly geometric, dimensional spaces. This type of data's query, write, and search paths…",
+      "author": null,
+      "publishedAt": "2024-01-24T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/scaling-pinecone-serverless/",
+      "title": "Test Pinecone Serverless at Scale with the AWS Reference Architecture",
+      "link": "https://www.pinecone.io/learn/scaling-pinecone-serverless/",
+      "summary": "The Pinecone AWS Reference Architecture is a production-ready example system that can be deployed in 10 minutes. \n\nThis post demonstrates how to use a deployed Reference Architecture to test Pinecone Serverless at an arbitrary scale.",
+      "author": null,
+      "publishedAt": "2024-01-23T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/customers/disco/",
+      "title": "DISCO Revolutionizes Legal Technology with Pinecone",
+      "link": "https://www.pinecone.io/customers/disco/",
+      "summary": "DISCO transitions to high-performance Pinecone serverless",
+      "author": null,
+      "publishedAt": "2024-01-22T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/series/rag/embedding-models-rundown/",
+      "title": "Choosing an Embedding Model",
+      "link": "https://www.pinecone.io/learn/series/rag/embedding-models-rundown/",
+      "summary": "Choosing the correct embedding model depends on your preference between proprietary or open-source, vector dimensionality, embedding latency, cost, and much more. Here, we compare some of the best models available from the Hugging Face MTEB leaderboards to OpenAI's Ada 002.",
+      "author": null,
+      "publishedAt": "2024-01-17T14:37:12.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/newsroom/pinecone-reinvents-the-vector-database-to-let-companies-build-knowledgeable-ai/",
+      "title": "Pinecone reinvents the vector database to let companies build knowledgeable AI",
+      "link": "https://www.pinecone.io/newsroom/pinecone-reinvents-the-vector-database-to-let-companies-build-knowledgeable-ai/",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2024-01-16T18:36:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/serverless-architecture/",
+      "title": "Reimagining the vector database to enable knowledgeable AI",
+      "link": "https://www.pinecone.io/blog/serverless-architecture/",
+      "summary": "With Pinecone serverless, we set out to build the future of vector databases, and what we have created is an entirely novel solution to the problem of knowledge in the AI era. This article will describe why and how we rebuilt Pinecone, the results of more than a year of active development, and…",
+      "author": null,
+      "publishedAt": "2024-01-16T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/serverless/",
+      "title": "Introducing Pinecone Serverless",
+      "link": "https://www.pinecone.io/blog/serverless/",
+      "summary": "We are announcing Pinecone serverless, a completely reinvented vector database that lets you easily build fast and accurate GenAI applications.",
+      "author": null,
+      "publishedAt": "2024-01-16T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/serverless-launch-partners/",
+      "title": "How Pinecone and its partners are transforming GenAI with serverless",
+      "link": "https://www.pinecone.io/blog/serverless-launch-partners/",
+      "summary": "Pinecone has integrated with other best-in-class GenAI solutions to provide a serverless experience for developers that is the easiest to use.",
+      "author": null,
+      "publishedAt": "2024-01-16T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/rag-study/",
+      "title": "RAG makes LLMs better and equal",
+      "link": "https://www.pinecone.io/blog/rag-study/",
+      "summary": "We investigated the impact of using Retrieval-Augmented Generation (RAG) to enhance Large Language Models (LLMs) with abundant data for GenAI applications. Our research shows that RAG with more data significantly improves the results of GenAI applications. Read the full study to learn more about…",
+      "author": null,
+      "publishedAt": "2024-01-16T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/customers/gong/",
+      "title": "Revolutionizing Revenue Intelligence: Gong's Strategic Partnership with Pinecone",
+      "link": "https://www.pinecone.io/customers/gong/",
+      "summary": "Gong partners with Pinecone to revolutionize revenue intelligence, enabling precise concept tracking in customer conversations with Smart Trackers.",
+      "author": null,
+      "publishedAt": "2024-01-16T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/wikipedia-chatbot/",
+      "title": "Build a Wikipedia chatbot, minus hallucinations",
+      "link": "https://www.pinecone.io/learn/wikipedia-chatbot/",
+      "summary": "RAG applications benefit from leveraging big datasets - the more information available to the application, the higher the likelihood to produce accurate answers to the users’ queries. But handling big datasets comes with a set of challenges, which we’ll explore in this post. We'll walk through…",
+      "author": null,
+      "publishedAt": "2024-01-15T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/pinecone-algorithms-set-new-records-for-bigann/",
+      "title": "Pinecone algorithms set new records for BigANN",
+      "link": "https://www.pinecone.io/blog/pinecone-algorithms-set-new-records-for-bigann/",
+      "summary": "As organizers, we could not participate ourselves.  Nevertheless, we invested in creating new algorithms and optimizing known techniques to measure ourselves against the other participants. We are delighted to report that our methods dominate in all four tracks, with performance that is up to 2x…",
+      "author": null,
+      "publishedAt": "2024-01-11T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/working-at-scale/",
+      "title": "Practical Tips for Working with Pinecone at Scale",
+      "link": "https://www.pinecone.io/blog/working-at-scale/",
+      "summary": "Pinecone best practices for writing code in production environments.",
+      "author": null,
+      "publishedAt": "2023-12-20T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/mixtral-8x7b/",
+      "title": "Getting Started with Mixtral 8X7B",
+      "link": "https://www.pinecone.io/learn/mixtral-8x7b/",
+      "summary": "Mixtral 8X7B is Mistral AI's new state-of-the-art LLM. Using a Mixture of Experts (MoE) architecture the LLM is able to exceed GPT-3.5 performance at a fraction of the computational cost. Here we learn how to deploy Mixtral as an AI Agent.",
+      "author": null,
+      "publishedAt": "2023-12-20T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/series/kubernetes/scaling-ai-apps-kubernetes-and-pinecone-intro/",
+      "title": "Scaling AI Applications with Kubernetes and Pinecone - Introduction",
+      "link": "https://www.pinecone.io/learn/series/kubernetes/scaling-ai-apps-kubernetes-and-pinecone-intro/",
+      "summary": "In this chapter, we'll introduce the scope of challenges when building a scalable AI application, and review a tangible use case that demonstrate solutions to those challenges.",
+      "author": null,
+      "publishedAt": "2023-12-08T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/series/langchain/langchain-expression-language/",
+      "title": "LangChain Expression Language Explained",
+      "link": "https://www.pinecone.io/learn/series/langchain/langchain-expression-language/",
+      "summary": "In this LangChain Expression Language (LCEL) tutorial we learn what LCEL is, how exactly the pipe operator syntax works, and how we can use runnables like RunnableParallel and RunnableLambdas.",
+      "author": null,
+      "publishedAt": "2023-12-04T05:46:29.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/research/efficient-and-effective-tree-based-and-neural-learning-to-rank/",
+      "title": "Efficient and Effective Tree-based and Neural Learning to Rank",
+      "link": "https://www.pinecone.io/research/efficient-and-effective-tree-based-and-neural-learning-to-rank/",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2023-12-01T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/aws-reference-architecture/",
+      "title": "Launch production-grade architectures using Pinecone's vector database in minutes with the AWS Reference Architecture",
+      "link": "https://www.pinecone.io/blog/aws-reference-architecture/",
+      "summary": "The Pinecone AWS Reference Architecture is the fastest way to go to production with high-scale use-cases that leverage Pinecone's vector database.",
+      "author": null,
+      "publishedAt": "2023-11-27T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/aws-reference-architecture/",
+      "title": "Exploring the Pinecone AWS Reference Architecture",
+      "link": "https://www.pinecone.io/learn/aws-reference-architecture/",
+      "summary": "The Pinecone AWS Reference Architecture is the fastest way to go to production with high-scale uses cases leveraging Pinecone's vector database. \n\nIn this technical walkthrough post, we examine the components of the Reference Architecture and how they work together to create a distributed system…",
+      "author": null,
+      "publishedAt": "2023-11-27T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/research/enhancing-sparse-retrieval-via-unsupervised-learning/",
+      "title": "Enhancing Sparse Retrieval via Unsupervised Learning",
+      "link": "https://www.pinecone.io/research/enhancing-sparse-retrieval-via-unsupervised-learning/",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2023-11-26T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/pinecone-most-popular-vector-database-and-fortune-2023-50-ai-innovator-finalist/",
+      "title": "Pinecone recognized as the most popular vector database",
+      "link": "https://www.pinecone.io/blog/pinecone-most-popular-vector-database-and-fortune-2023-50-ai-innovator-finalist/",
+      "summary": "Pinecone is named the most popular and most used vector database across industry reports. We are also the only vector database on the inaugural Fortune 2023 50 AI Innovator list.",
+      "author": null,
+      "publishedAt": "2023-11-21T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/assistants-api-canopy/",
+      "title": "OpenAI Assistants API vs Canopy: A Quick Comparison",
+      "link": "https://www.pinecone.io/learn/assistants-api-canopy/",
+      "summary": "A quick comparison of OpenAI's new Assistants API and Canopy, a RAG framework and context engine powered by Pinecone.",
+      "author": null,
+      "publishedAt": "2023-11-09T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/research/an-approximate-algorithm-for-maximum-inner-product-search-over-streaming-sparse-vectors/",
+      "title": "An Approximate Algorithm for Maximum Inner Product Search over Streaming Sparse Vectors",
+      "link": "https://www.pinecone.io/research/an-approximate-algorithm-for-maximum-inner-product-search-over-streaming-sparse-vectors/",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2023-11-08T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/canopy-rag-framework/",
+      "title": "Introducing Canopy: An easy, free, and flexible RAG framework powered by Pinecone",
+      "link": "https://www.pinecone.io/blog/canopy-rag-framework/",
+      "summary": "Canopy lets you build and host your own production-ready chat assistant in under an hour. Learn more and start building today.",
+      "author": null,
+      "publishedAt": "2023-11-08T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/azure-marketplace/",
+      "title": "Pinecone is now available on the Azure Marketplace",
+      "link": "https://www.pinecone.io/blog/azure-marketplace/",
+      "summary": "With this milestone, users already on Azure can quickly add Pinecone to their AI stack with just a few clicks.",
+      "author": null,
+      "publishedAt": "2023-10-30T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/series/rag/rerankers/",
+      "title": "Rerankers and Two-Stage Retrieval",
+      "link": "https://www.pinecone.io/learn/series/rag/rerankers/",
+      "summary": "Learn how to build better retrieval augmented generation (RAG) pipelines for LLMs, search, and recommendation. In this chapter we explore two-stage retrieval and the incredible accuracy of reranker models.",
+      "author": null,
+      "publishedAt": "2023-10-27T11:36:56.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/hnsw-not-enough/",
+      "title": "Great Algorithms Are Not Enough",
+      "link": "https://www.pinecone.io/blog/hnsw-not-enough/",
+      "summary": "Compared to bolt-on vector databases, Pinecone is thoughtfully designed to meet the escalating demands of GenAI applications, ensuring enhanced performance and scalability.",
+      "author": null,
+      "publishedAt": "2023-10-27T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/newsroom/pinecone-appoints-chuck-fontana-as-vp-of-business-development/",
+      "title": "Pinecone Appoints Chuck Fontana as VP of Business Development",
+      "link": "https://www.pinecone.io/newsroom/pinecone-appoints-chuck-fontana-as-vp-of-business-development/",
+      "summary": "Former SentinelOne, Okta, and Cisco executive joins Pinecone to capitalize on industry rush to partner with the market-leading vector database",
+      "author": null,
+      "publishedAt": "2023-10-19T17:35:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/series/airbyte/airbyte-postgres-to-pinecone/",
+      "title": "Postgres to Pinecone Syncing",
+      "link": "https://www.pinecone.io/learn/series/airbyte/airbyte-postgres-to-pinecone/",
+      "summary": "In this chapter, we'll learn how to leverage the Pinecone Airbyte connector to synchronize a Postgres database with a Pinecone index.",
+      "author": null,
+      "publishedAt": "2023-10-11T16:25:38.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/hipaa/",
+      "title": "Pinecone is now HIPAA compliant",
+      "link": "https://www.pinecone.io/blog/hipaa/",
+      "summary": "Pinecone is now HIPAA compliant across Amazon Web Services (AWS), Azure, and Google Cloud Provider (GCP).",
+      "author": null,
+      "publishedAt": "2023-10-11T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/codiumai-pinecone-similar-issues/",
+      "title": "Making it easier to maintain open-source projects with CodiumAI and Pinecone",
+      "link": "https://www.pinecone.io/learn/codiumai-pinecone-similar-issues/",
+      "summary": "In this post, we’ll explain how CodiumAI's PR-agent project for GitHub reduces the maintenance overhead for open-source maintainers, how it uses semantic search to automatically find and link issues related to new issues opened by community members, and how the Pinecone vector database powers this…",
+      "author": null,
+      "publishedAt": "2023-09-27T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/newsroom/pinecone-working-with-aws-to-solve-generative-ai-hallucination-challenges/",
+      "title": "Pinecone working with AWS to solve Generative AI hallucination challenges",
+      "link": "https://www.pinecone.io/newsroom/pinecone-working-with-aws-to-solve-generative-ai-hallucination-challenges/",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2023-09-13T17:31:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/fast-retrieval-augmented-generation/",
+      "title": "Making Retrieval Augmented Generation Fast",
+      "link": "https://www.pinecone.io/learn/fast-retrieval-augmented-generation/",
+      "summary": "Retrieval Augmented Generation (RAG) is the go-to method for adding external knowledge to Large Language Models (LLMs). RAG with agents can be slow, but we can make it much faster using NVIDIA NeMo Guardrails. We explain how here.",
+      "author": null,
+      "publishedAt": "2023-09-13T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/amazon-bedrock-integration/",
+      "title": "Pinecone as a Knowledge Base for Amazon Bedrock",
+      "link": "https://www.pinecone.io/blog/amazon-bedrock-integration/",
+      "summary": "Pinecone as a Knowledge Base for Amazon Bedrock is currently available in private preview.",
+      "author": null,
+      "publishedAt": "2023-09-13T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/an-opinionated-checklist-to-choose-a-vector-database/",
+      "title": "An (Opinionated) Checklist to Choose a Vector Database",
+      "link": "https://www.pinecone.io/learn/an-opinionated-checklist-to-choose-a-vector-database/",
+      "summary": "AI is estimated to deliver trillions of dollars across many business use cases. To make a holistic evaluation, review these three categories: technology, developer experience, and enterprise readiness.",
+      "author": null,
+      "publishedAt": "2023-09-13T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/an-opinionated-checklist-to-choose-a-vector-database/",
+      "title": "An (Opinionated) Checklist to Choose a Vector Database",
+      "link": "https://www.pinecone.io/blog/an-opinionated-checklist-to-choose-a-vector-database/",
+      "summary": "AI is estimated to deliver trillions of dollars across many business use cases. To make a holistic evaluation, review these three categories: technology, developer experience, and enterprise readiness.",
+      "author": null,
+      "publishedAt": "2023-09-13T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/langchain-pinecone-upsert-faster/",
+      "title": "LangChain's Pinecone upsert speed increased by 5X",
+      "link": "https://www.pinecone.io/blog/langchain-pinecone-upsert-faster/",
+      "summary": "In release v0.0.281 of the LangChain Python client, we’ve increased the speed of upserts to Pinecone indexes by up to 5 times, using asynchronous calls to reduce the time required to process large batches of vectors. \n\nWe made a few other quality-of-life improvements, too.",
+      "author": null,
+      "publishedAt": "2023-09-12T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/falcon-180b/",
+      "title": "Falcon 180B: Model Overview",
+      "link": "https://www.pinecone.io/learn/falcon-180b/",
+      "summary": "Falcon 180B is an Open Access high-performance Large Language Model (LLM) with comparable performance to LLMs like Google's PaLM 2 (that powers Bard) and close to GPT-4 level performance.",
+      "author": null,
+      "publishedAt": "2023-09-07T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/llm-ecosystem/",
+      "title": "LLMs Are Not All You Need",
+      "link": "https://www.pinecone.io/learn/llm-ecosystem/",
+      "summary": "A walk through the large language models (LLMs) ecosystem. Covering things like deploying open access LLMs, quantization, hallucination, retrieval augmented generation (RAG), conversational memory, agents, and more.",
+      "author": null,
+      "publishedAt": "2023-09-06T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/pain-poetry-python/",
+      "title": "The Pain and the Poetry of Python",
+      "link": "https://www.pinecone.io/blog/pain-poetry-python/",
+      "summary": "The ecosystem of tools for packaging, testing, distributing, and testing Python projects is overwhelming, especially if you’re coming to Python from other languages. \n\nIn this post, we’ll survey the evolution of Python tooling from its inception in 1991 through the present day, touching on…",
+      "author": null,
+      "publishedAt": "2023-08-31T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/series/airbyte/airbyte-and-pinecone-intro/",
+      "title": "Introduction to Airbyte and the Pinecone connector",
+      "link": "https://www.pinecone.io/learn/series/airbyte/airbyte-and-pinecone-intro/",
+      "summary": "The Pinecone connector for Airbyte is all about leveraging the extensive range of Airbyte's source connectors and bringing them together with Pinecone's capabilities. In this chapter you'll take the first steps using the connector using a simple CSV file as its source.",
+      "author": null,
+      "publishedAt": "2023-08-29T21:35:25.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/fine-tune-gpt-3.5/",
+      "title": "Fine-Tuning OpenAI's GPT 3.5 Turbo",
+      "link": "https://www.pinecone.io/learn/fine-tune-gpt-3.5/",
+      "summary": "Fine-tuning for GPT-3.5 turbo is finally here! The latest update gives OpenAI users the ability to create their own custom GPT-3.5 model that has been tuned towards a particular dataset. We'll learn how to apply it to create a model fine-tuned for LangChain conversational agents.",
+      "author": null,
+      "publishedAt": "2023-08-28T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/sagemaker-rag/",
+      "title": "Deploying Open Source LLMs for RAG with SageMaker",
+      "link": "https://www.pinecone.io/learn/sagemaker-rag/",
+      "summary": "Learn how to build Retrieval Augmented Generation (RAG) pipelines with open source LLMs like Flan T5 and Llama 2. We deploy LLMs using AWS SageMaker and implement RAG with sentence transformers and the Pinecone vector database.",
+      "author": null,
+      "publishedAt": "2023-08-23T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/jupyter-notebooks/",
+      "title": "How to use Jupyter Notebooks for Machine Learning and AI Tasks",
+      "link": "https://www.pinecone.io/learn/jupyter-notebooks/",
+      "summary": "Jupyter Notebooks are files that combine text and images with executable Python code. They are ideal for combining sample code with explanations in order to teach or demonstrate data science and AI techniques. \n\nThis tutorial explains how to get started using Jupyter Notebooks to learn the latest…",
+      "author": null,
+      "publishedAt": "2023-08-23T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/options-for-solving-hallucinations-in-generative-ai/",
+      "title": "Options for Solving Hallucinations in Generative AI",
+      "link": "https://www.pinecone.io/learn/options-for-solving-hallucinations-in-generative-ai/",
+      "summary": "In this article, we’ll explain what AI hallucination is, the main solutions for this problem, and why RAG is the preferred approach in terms of scalability, cost-efficacy, and performance.",
+      "author": null,
+      "publishedAt": "2023-08-21T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/research/an-analysis-of-fusion-functions-for-hybrid-retrieval/",
+      "title": "An Analysis of Fusion Functions for Hybrid Retrieval",
+      "link": "https://www.pinecone.io/research/an-analysis-of-fusion-functions-for-hybrid-retrieval/",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2023-08-18T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/javascript-ai/",
+      "title": "AI-powered and built with... JavaScript?",
+      "link": "https://www.pinecone.io/learn/javascript-ai/",
+      "summary": "Projecting several years ahead, digital builders will unlock some of the most exciting innovations. Six technology trends are positioning JavaScript developers to reap the rewards of a society increasingly hungry for AI applications.",
+      "author": null,
+      "publishedAt": "2023-08-11T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/nemo-guardrails-intro/",
+      "title": "NeMo Guardrails: The Missing Manual",
+      "link": "https://www.pinecone.io/learn/nemo-guardrails-intro/",
+      "summary": "In this guide we explain all there is to know about Nvidia's NeMo Guardrails library for building better conversational AI. Learn how to apply guardrails for more controllable, user-friendly chatbots.",
+      "author": null,
+      "publishedAt": "2023-08-11T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/image-search-in-typescript/",
+      "title": "Image Search in Typescript",
+      "link": "https://www.pinecone.io/learn/image-search-in-typescript/",
+      "summary": "In this tutorial, we'll learn how to build an image search engine using Pinecone and the CLIP model. We'll use a small dataset of images (included in this repository) and show how to embed and index them in Pinecone. We'll then show how to query the index to find similar images.",
+      "author": null,
+      "publishedAt": "2023-08-08T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/research/yggdrasil-decision-forests-a-fast-and-extensible-decision-forests-library/",
+      "title": "Yggdrasil Decision Forests: A Fast and Extensible Decision Forests Library",
+      "link": "https://www.pinecone.io/research/yggdrasil-decision-forests-a-fast-and-extensible-decision-forests-library/",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2023-08-04T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/newsroom/pinecone-and-datadog-collaborate-to-deliver-enterprise-grade-observability-and-monitoring-to-vector-databases-and-generative-ai-applications/",
+      "title": "Pinecone and Datadog collaborate to deliver enterprise-grade observability and monitoring to vector databases and Generative AI applications",
+      "link": "https://www.pinecone.io/newsroom/pinecone-and-datadog-collaborate-to-deliver-enterprise-grade-observability-and-monitoring-to-vector-databases-and-generative-ai-applications/",
+      "summary": "Collaboration expands Pinecone's rapidly growing ecosystem of partners and developer experience leadership",
+      "author": null,
+      "publishedAt": "2023-08-03T17:26:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/datadog-integration/",
+      "title": "Monitor Pinecone with Datadog",
+      "link": "https://www.pinecone.io/blog/datadog-integration/",
+      "summary": "Pinecone users can now easily view and monitor usage and performance for AI applications in a single place with Datadog’s new integration for Pinecone.",
+      "author": null,
+      "publishedAt": "2023-08-03T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/the-first-pinecone-hackathon/",
+      "title": "A Look Back at Pinecone's First Hackathon",
+      "link": "https://www.pinecone.io/blog/the-first-pinecone-hackathon/",
+      "summary": "In this post, we take a look back at Pinecone's inaugural virtual hackathon. Learn more about the innovative solutions developed by participants and explore the potential real-world impact of these AI applications.",
+      "author": null,
+      "publishedAt": "2023-08-03T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/llama-2/",
+      "title": "Llama 2: AI Developers Handbook",
+      "link": "https://www.pinecone.io/learn/llama-2/",
+      "summary": "Llama 2 is the latest Large Language Model (LLM) from Meta AI. It has been released as an open-access model, enabling unrestricted access to corporations and open-source hackers alike. Here we learn how to use it with Hugging Face, LangChain, and as a conversational agent.",
+      "author": null,
+      "publishedAt": "2023-07-24T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/why-use-retrieval-instead-of-larger-context/",
+      "title": "Less is More: Why Use Retrieval Instead of Larger Context Windows",
+      "link": "https://www.pinecone.io/blog/why-use-retrieval-instead-of-larger-context/",
+      "summary": "The idea of a large context window seems appealing at first — just give the model all your data and let it figure it out. However, Research shows that LLMs provide the best results when given fewer, more relevant documents in the context, rather than large numbers of unfiltered documents.",
+      "author": null,
+      "publishedAt": "2023-07-20T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/context-aware-chatbot-with-vercel-ai-sdk/",
+      "title": "Retrieval Augmented Generation (RAG) with Pinecone and Vercel's AI SDK",
+      "link": "https://www.pinecone.io/learn/context-aware-chatbot-with-vercel-ai-sdk/",
+      "summary": "In this tutorial, we're going to build a full-stack application that uses Retrieval Augmented Generation (RAG) to deliver accurate and contextually relevant responses in a chatbot, leveraging the Vercel AI SDK.",
+      "author": null,
+      "publishedAt": "2023-07-19T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/newsroom/pinecone-to-speed-up-generative-ai-for-microsoft-azure-and-azure-openai-service-customers/",
+      "title": "Pinecone to Speed Up Generative AI for Microsoft Azure and Azure OpenAI Service Customers",
+      "link": "https://www.pinecone.io/newsroom/pinecone-to-speed-up-generative-ai-for-microsoft-azure-and-azure-openai-service-customers/",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2023-07-13T17:11:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/azure/",
+      "title": "Run Pinecone on Azure",
+      "link": "https://www.pinecone.io/blog/azure/",
+      "summary": "Pinecone on Azure is now available. Learn more and start building today.",
+      "author": null,
+      "publishedAt": "2023-07-13T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/ai-hallucinations/",
+      "title": "Understanding Hallucinations in AI: A Comprehensive Guide",
+      "link": "https://www.pinecone.io/learn/ai-hallucinations/",
+      "summary": "Explore the intriguing world of hallucinations in AI language models in our comprehensive guide. Uncover the causes, implications, and future trends in AI hallucinations, shedding light on this uncharted frontier of artificial intelligence research.",
+      "author": null,
+      "publishedAt": "2023-07-13T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/gcp-starter/",
+      "title": "Start now, then take your time: Removing the Pinecone waitlist and inactivity policy",
+      "link": "https://www.pinecone.io/blog/gcp-starter/",
+      "summary": "Over the coming weeks, we will be opening up instant sign ups for all users, and allowing new users to keep their free indexes indefinitely. Learn more about the changes we are making to the Starter (free) plan.",
+      "author": null,
+      "publishedAt": "2023-07-12T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/audio-recommendation-openai/",
+      "title": "Audio Recommendation with OpenAI and Vector DBs",
+      "link": "https://www.pinecone.io/learn/audio-recommendation-openai/",
+      "summary": "Explore the creation of an audio recommendation system using Python in this step-by-step guide. The article covers the basics of recommendation systems, their importance in the era of audio streaming, and helps users discover new, relevant content.",
+      "author": null,
+      "publishedAt": "2023-07-10T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/series/image-search/zero-shot-object-detection-clip/",
+      "title": "Zero Shot Object Detection with OpenAI's CLIP",
+      "link": "https://www.pinecone.io/learn/series/image-search/zero-shot-object-detection-clip/",
+      "summary": "How to apply CLIP to object detection in a zero-shot setting.",
+      "author": null,
+      "publishedAt": "2023-06-30T18:57:51.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/series/image-search/zero-shot-image-classification-clip/",
+      "title": "Zero-shot Image Classification with OpenAI's CLIP",
+      "link": "https://www.pinecone.io/learn/series/image-search/zero-shot-image-classification-clip/",
+      "summary": "A deep dive on OpenAI's CLIP for zero-shot image classification.",
+      "author": null,
+      "publishedAt": "2023-06-30T18:54:52.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/series/image-search/clip/",
+      "title": "Multi-modal ML with OpenAI's CLIP",
+      "link": "https://www.pinecone.io/learn/series/image-search/clip/",
+      "summary": "Multi-modality and the future of computer vision with OpenAI's CLIP.",
+      "author": null,
+      "publishedAt": "2023-06-30T18:54:39.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/series/image-search/vision-transformers/",
+      "title": "Vision Transformers (ViT) Explained",
+      "link": "https://www.pinecone.io/learn/series/image-search/vision-transformers/",
+      "summary": "A deep dive into the unification of NLP and computer vision with the Vision Transformer (ViT).",
+      "author": null,
+      "publishedAt": "2023-06-30T18:52:32.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/series/image-search/cnn/",
+      "title": "Visual Guide to Applied Convolution Neural Networks",
+      "link": "https://www.pinecone.io/learn/series/image-search/cnn/",
+      "summary": "A visual tour of the long reigning champions of computer vision.",
+      "author": null,
+      "publishedAt": "2023-06-30T18:51:13.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/series/image-search/imagenet/",
+      "title": "AlexNet and ImageNet: The Birth of Deep Learning",
+      "link": "https://www.pinecone.io/learn/series/image-search/imagenet/",
+      "summary": "How ImageNet and AlexNet kickstarted the deep learning era of computer vision.",
+      "author": null,
+      "publishedAt": "2023-06-30T18:50:29.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/series/image-search/bag-of-visual-words/",
+      "title": "Bag of Visual Words",
+      "link": "https://www.pinecone.io/learn/series/image-search/bag-of-visual-words/",
+      "summary": "Content-based information retrieval and classification with visual words.",
+      "author": null,
+      "publishedAt": "2023-06-30T18:48:29.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/series/image-search/color-histograms/",
+      "title": "Color Histograms in Image Retrieval",
+      "link": "https://www.pinecone.io/learn/series/image-search/color-histograms/",
+      "summary": "A look at one of the earliest content-based embedding methods.",
+      "author": null,
+      "publishedAt": "2023-06-30T18:47:27.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/series/langchain/langchain-tools/",
+      "title": "Building Custom Tools for LLM Agents",
+      "link": "https://www.pinecone.io/learn/series/langchain/langchain-tools/",
+      "summary": "Agents are one of the most powerful and fascinating approaches to using Large Language Models (LLMs). The explosion of interest in LLMs has made agents incredibly prevalent in AI-powered use cases.",
+      "author": null,
+      "publishedAt": "2023-06-30T15:31:28.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/series/langchain/langchain-agents/",
+      "title": "Superpower LLMs with Conversational Agents",
+      "link": "https://www.pinecone.io/learn/series/langchain/langchain-agents/",
+      "summary": "Large Language Models (LLMs) are incredibly powerful, yet they lack particular abilities that the “dumbest” computer programs can handle with ease. Logic, calculation, and search are examples of where computers typically excel, but LLMs struggle.",
+      "author": null,
+      "publishedAt": "2023-06-30T15:29:05.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/series/langchain/langchain-retrieval-augmentation/",
+      "title": "Fixing Hallucination with Knowledge Bases",
+      "link": "https://www.pinecone.io/learn/series/langchain/langchain-retrieval-augmentation/",
+      "summary": "Large Language Models (LLMs) have a data freshness problem. Even some of the most powerful models, like GPT-4, have no idea about recent events. Let's learn how to fix this.",
+      "author": null,
+      "publishedAt": "2023-06-30T15:26:09.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/series/langchain/langchain-conversational-memory/",
+      "title": "Conversational Memory for LLMs with Langchain",
+      "link": "https://www.pinecone.io/learn/series/langchain/langchain-conversational-memory/",
+      "summary": "Conversational memory is how a chatbot can respond to multiple queries in a chat-like manner. It enables a coherent conversation, and without it, every query would be treated as an entirely independent input without considering past interactions.",
+      "author": null,
+      "publishedAt": "2023-06-30T15:20:18.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/series/langchain/langchain-prompt-templates/",
+      "title": "Prompt Engineering and LLMs with Langchain",
+      "link": "https://www.pinecone.io/learn/series/langchain/langchain-prompt-templates/",
+      "summary": "We have always relied on different models for different tasks in machine learning. With the introduction of multi-modality and Large Language Models (LLMs), this has changed.",
+      "author": null,
+      "publishedAt": "2023-06-30T15:17:19.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/series/langchain/langchain-intro/",
+      "title": "LangChain: Introduction and Getting Started",
+      "link": "https://www.pinecone.io/learn/series/langchain/langchain-intro/",
+      "summary": "At its core, LangChain is a framework built around LLMs. We can use it for chatbots, Generative Question-Answering (GQA), summarization, and much more. The core idea of the library is that we can “chain” together different components to create more advanced use cases around LLMs.",
+      "author": null,
+      "publishedAt": "2023-06-30T14:48:46.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/series/faiss/composite-indexes/",
+      "title": "Facebook AI and the Index Factory",
+      "link": "https://www.pinecone.io/learn/series/faiss/composite-indexes/",
+      "summary": "In the world of vector search, there are many indexing methods and vector processing techniques that allow us to prioritize between recall, latency, and memory usage. Using specific methods such as IVF, PQ, or HNSW, we can often return good results. But for best performance we will usually want to…",
+      "author": null,
+      "publishedAt": "2023-06-30T14:26:42.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/series/faiss/hnsw/",
+      "title": "Hierarchical Navigable Small Worlds (HNSW)",
+      "link": "https://www.pinecone.io/learn/series/faiss/hnsw/",
+      "summary": "Hierarchical Navigable Small World (HNSW) graphs are among the top-performing indexes for vector similarity search. HNSW is a hugely popular technology that time and time again produces state-of-the-art performance with super fast search speeds and fantastic recall.",
+      "author": null,
+      "publishedAt": "2023-06-30T14:07:18.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/series/faiss/product-quantization/",
+      "title": "Product Quantization: Compressing high-dimensional vectors by 97%",
+      "link": "https://www.pinecone.io/learn/series/faiss/product-quantization/",
+      "summary": "Product quantization (PQ) is a popular method for dramatically compressing high-dimensional vectors to use 97% less memory, and for making nearest-neighbor search speeds 5.5x faster in our tests.",
+      "author": null,
+      "publishedAt": "2023-06-30T14:02:06.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/series/faiss/locality-sensitive-hashing-random-projection/",
+      "title": "Random Projection for Locality Sensitive Hashing",
+      "link": "https://www.pinecone.io/learn/series/faiss/locality-sensitive-hashing-random-projection/",
+      "summary": "Locality sensitive hashing (LSH) is a widely popular technique used in approximate similarity search. The solution to efficient similarity search is a profitable one — it is at the core of several billion (and even trillion) dollar companies.",
+      "author": null,
+      "publishedAt": "2023-06-30T13:59:19.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/series/faiss/locality-sensitive-hashing/",
+      "title": "Locality Sensitive Hashing (LSH): The Illustrated Guide",
+      "link": "https://www.pinecone.io/learn/series/faiss/locality-sensitive-hashing/",
+      "summary": "Locality sensitive hashing (LSH) is a widely popular technique used in approximate nearest neighbor (ANN) search. The solution to efficient similarity search is a profitable one — it is at the core of several billion (and even trillion) dollar companies.",
+      "author": null,
+      "publishedAt": "2023-06-30T13:36:43.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/series/faiss/vector-indexes/",
+      "title": "Nearest Neighbor Indexes for Similarity Search",
+      "link": "https://www.pinecone.io/learn/series/faiss/vector-indexes/",
+      "summary": "Vector similarity search is a game-changer in the world of search. It allows us to efficiently search a huge range of media, from GIFs to articles — with incredible accuracy in sub-second timescales for billion+ size datasets.",
+      "author": null,
+      "publishedAt": "2023-06-30T13:11:46.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/series/faiss/faiss-tutorial/",
+      "title": "Introduction to Facebook AI Similarity Search (Faiss)",
+      "link": "https://www.pinecone.io/learn/series/faiss/faiss-tutorial/",
+      "summary": "Facebook AI Similarity Search (Faiss) is one of the most popular implementations of efficient similarity search, but what is it — and how can we use it? What is it that makes Faiss special? How do we make the best use of this incredible tool?",
+      "author": null,
+      "publishedAt": "2023-06-30T13:08:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/series/wild/nyckel-ml-automation/",
+      "title": "How Nyckel Built An API for Semantic Image Search",
+      "link": "https://www.pinecone.io/learn/series/wild/nyckel-ml-automation/",
+      "summary": "Businesses that accumulate large amounts of data eventually run into problems with information retrieval – especially if they’re working with image data. While information retrieval for text is mostly a solved problem, the same cannot be said for images. Recent advances in deep neural networks and…",
+      "author": null,
+      "publishedAt": "2023-06-30T07:57:45.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/series/wild/expel-alert-similarity/",
+      "title": "Detecting Similar Security Alerts at Expel",
+      "link": "https://www.pinecone.io/learn/series/wild/expel-alert-similarity/",
+      "summary": "Here’s a detailed look at how we approached the creation of Alert Similarity. If you’re interested in trying to develop a similar feature for your own security operations center (SOC), or learning about how to bring research to production, then read on for tips and advice.",
+      "author": null,
+      "publishedAt": "2023-06-30T07:55:28.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/series/wild/mem-semantic-search/",
+      "title": "Building the Self-Organizing Workspace at Mem",
+      "link": "https://www.pinecone.io/learn/series/wild/mem-semantic-search/",
+      "summary": "At Mem, we are building a world in which every person has access to the information they need when they need it. We leverage AI technology to create a self-organizing workspace that automatically organizes all of the information in your work life and proactively surfaces relevant knowledge.",
+      "author": null,
+      "publishedAt": "2023-06-30T07:44:57.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/series/wild/spotify-podcast-search/",
+      "title": "How Spotify Uses Semantic Search for Podcasts",
+      "link": "https://www.pinecone.io/learn/series/wild/spotify-podcast-search/",
+      "summary": "Want to add audio search to your applications just like Spotify? You’ll need a vector database like Pinecone. Try it now for free.",
+      "author": null,
+      "publishedAt": "2023-06-30T07:44:11.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/series/nlp/gpl/",
+      "title": "Domain Adaptation with Generative Pseudo-Labeling (GPL)",
+      "link": "https://www.pinecone.io/learn/series/nlp/gpl/",
+      "summary": "This futuristic vision had seemed to be utterly infeasible, but, in recent years, has become much more than a dream. Thanks to techniques like Generative Pseudo-Labeling (GPL) that allow us to fine-tune new or existing models in previously inaccessible domains, machines are ever closer to…",
+      "author": null,
+      "publishedAt": "2023-06-30T06:03:55.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/series/nlp/genq/",
+      "title": "Unsupervised Training of Retrievers Using GenQ",
+      "link": "https://www.pinecone.io/learn/series/nlp/genq/",
+      "summary": "Fine-tuning effective dense retrieval models is challenging. Bi-encoders (sentence transformers) are the current best models for dense retrieval in semantic search. Unfortunately, they’re also notoriously data-hungry models that typically require a particular type of labeled training data.",
+      "author": null,
+      "publishedAt": "2023-06-30T05:55:03.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/series/nlp/domain-transfer/",
+      "title": "Making the Most of Data: Domain Transfer with BERT",
+      "link": "https://www.pinecone.io/learn/series/nlp/domain-transfer/",
+      "summary": "When building language models, we can spend months optimizing training and model parameters, but it’s useless if we don’t have the correct data.",
+      "author": null,
+      "publishedAt": "2023-06-30T05:52:55.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/series/nlp/data-augmentation/",
+      "title": "Making the Most of Data: Augmentation with BERT",
+      "link": "https://www.pinecone.io/learn/series/nlp/data-augmentation/",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2023-06-30T05:41:38.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/series/nlp/reader-models/",
+      "title": "Reader Models for Open Domain Question-Answering",
+      "link": "https://www.pinecone.io/learn/series/nlp/reader-models/",
+      "summary": "Open-domain question-answering (ODQA) is a wildly popular pipeline of databases and language models that allow us to ask a machine human-like questions and return comprehensible and even intelligent answers.",
+      "author": null,
+      "publishedAt": "2023-06-30T05:34:42.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/series/nlp/retriever-models/",
+      "title": "Retriever Models for Open Domain Question-Answering",
+      "link": "https://www.pinecone.io/learn/series/nlp/retriever-models/",
+      "summary": "It’s a sci-fi staple. A vital component of the legendary Turing test. The dream of many across the world. And, until recently, impossible. We are talking about the ability to ask a machine a question and receive a genuinely intelligent, insightful answer. Until recently, technology like this…",
+      "author": null,
+      "publishedAt": "2023-06-30T05:27:26.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/series/nlp/question-answering/",
+      "title": "An Introduction to Open Domain Question-Answering",
+      "link": "https://www.pinecone.io/learn/series/nlp/question-answering/",
+      "summary": "Search is a crucial functionality in many applications and companies globally. Whether in manufacturing, finance, healthcare, or almost any other industry, organizations have vast internal information and document repositories.",
+      "author": null,
+      "publishedAt": "2023-06-30T05:13:04.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/series/nlp/unsupervised-training-sentence-transformers/",
+      "title": "Unsupervised Training for Sentence Transformers",
+      "link": "https://www.pinecone.io/learn/series/nlp/unsupervised-training-sentence-transformers/",
+      "summary": "Language represents a way for us to communicate abstract ideas and concepts. It has evolved as a human-only form of interaction for the best part of the past 100 million years. Translating that into something a machine can understand is (unsurprisingly) difficult.",
+      "author": null,
+      "publishedAt": "2023-06-30T05:10:20.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/series/nlp/multilingual-transformers/",
+      "title": "Tomayto, Tomahto, Transformer: Multilingual Sentence Transformers",
+      "link": "https://www.pinecone.io/learn/series/nlp/multilingual-transformers/",
+      "summary": "We’ve learned about how sentence transformers can be used to create high-quality vector representations of text. We can then use these vectors to find similar vectors, which can be used for many applications such as semantic search or topic modeling.",
+      "author": null,
+      "publishedAt": "2023-06-30T05:07:51.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/series/nlp/fine-tune-sentence-transformers-mnr/",
+      "title": "Next-Gen Sentence Embeddings with Multiple Negatives Ranking Loss",
+      "link": "https://www.pinecone.io/learn/series/nlp/fine-tune-sentence-transformers-mnr/",
+      "summary": "Transformer-produced sentence embeddings have come a long way in a very short time. Starting with the slow but accurate similarity prediction of BERT cross-encoders, the world of sentence embeddings was ignited with the introduction of SBERT in 2019.",
+      "author": null,
+      "publishedAt": "2023-06-30T04:34:33.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/search-with-pinecone/",
+      "title": "Semantic search with Pinecone",
+      "link": "https://www.pinecone.io/learn/search-with-pinecone/",
+      "summary": "Unlike keyword-based search, semantic search uses the meaning of the search query. It finds relevant results even if they don’t exactly match the query. This works by combining the power of Large Language Models (LLMs) to generate vector embeddings with the long-term memory of a vector database.",
+      "author": null,
+      "publishedAt": "2023-06-30T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/embeddings-identify-fake-news/",
+      "title": "Embeddings to Identify Fake News",
+      "link": "https://www.pinecone.io/learn/embeddings-identify-fake-news/",
+      "summary": "Fake documents and articles contain attributes and linguistic signs that can be used to reveal patterns. Considering their textual components, features like author, context, and writing style can help in identifying fake news.",
+      "author": null,
+      "publishedAt": "2023-06-30T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/offline-evaluation/",
+      "title": "Evaluation Measures in Information Retrieval",
+      "link": "https://www.pinecone.io/learn/offline-evaluation/",
+      "summary": "Evaluation of information retrieval (IR) systems is critical to making well-informed design decisions. From search to recommendations, evaluation measures are paramount to understanding what does and does not work in retrieval.",
+      "author": null,
+      "publishedAt": "2023-06-30T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/softmax-activation/",
+      "title": "Softmax Activation Function: Everything You Need to Know",
+      "link": "https://www.pinecone.io/learn/softmax-activation/",
+      "summary": "Have you ever trained a neural network to solve the problem of multiclass classification? If yes, you know that the raw outputs of the neural network are often very difficult to interpret. The softmax activation function simplifies this for you by making the neural network’s outputs easier to…",
+      "author": null,
+      "publishedAt": "2023-06-30T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/openai-gen-qa/",
+      "title": "Generative Question-Answering with Long-Term Memory",
+      "link": "https://www.pinecone.io/learn/openai-gen-qa/",
+      "summary": "Generative AI sparked several “wow” moments in 2022. From generative art tools like OpenAI’s DALL-E 2, Midjourney, and Stable Diffusion, to the next generation of Large Language Models like OpenAI’s GPT-3.5 generation models, BLOOM, and chatbots like LaMDA and ChatGPT.",
+      "author": null,
+      "publishedAt": "2023-06-30T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/vector-embeddings/",
+      "title": "What are Vector Embeddings",
+      "link": "https://www.pinecone.io/learn/vector-embeddings/",
+      "summary": "Vector embeddings are one of the most fascinating and useful concepts in machine learning. They are central to many NLP, recommendation, and search algorithms. If you’ve ever used things like recommendation engines, voice assistants, language translators, you’ve come across systems that rely on…",
+      "author": null,
+      "publishedAt": "2023-06-30T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/hybrid-search-intro/",
+      "title": "Getting Started with Hybrid Search",
+      "link": "https://www.pinecone.io/learn/hybrid-search-intro/",
+      "summary": "Today, we will learn how to take our search to a new level. Taking both vector and traditional search and merging them via Pinecone’s new hybrid search.",
+      "author": null,
+      "publishedAt": "2023-06-30T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/cross-entropy-loss/",
+      "title": "Cross-Entropy Loss: Make Predictions with Confidence",
+      "link": "https://www.pinecone.io/learn/cross-entropy-loss/",
+      "summary": "In classification problems, the model predicts the class label of an input. In such problems, you need metrics beyond accuracy. While accuracy tells the model whether or not a particular prediction is correct, cross-entropy loss gives information on how correct a particular prediction is. When…",
+      "author": null,
+      "publishedAt": "2023-06-30T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/k-nearest-neighbor/",
+      "title": "K-Nearest Neighbor (KNN) Explained",
+      "link": "https://www.pinecone.io/learn/k-nearest-neighbor/",
+      "summary": "One Machine Learning algorithm that relies on the concepts of proximity and similarity is K-Nearest Neighbor (KNN). KNN is a supervised learning algorithm capable of performing both classification and regression tasks.",
+      "author": null,
+      "publishedAt": "2023-06-30T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/classifier-train-vector-search/",
+      "title": "Optimize Classifier Training with Vector Search",
+      "link": "https://www.pinecone.io/learn/classifier-train-vector-search/",
+      "summary": "Pretrained models dominate the world of machine learning. Very few ML projects begin by training a new model from scratch. Instead, people often start by taking an off-the-shelf model like Resnet or BERT and fine-tuning it for another domain, or using an existing in-house model for the same purpose.",
+      "author": null,
+      "publishedAt": "2023-06-30T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/nlp-financial-services/",
+      "title": "How Language Embedding Models Will Change Financial Services",
+      "link": "https://www.pinecone.io/learn/nlp-financial-services/",
+      "summary": "Alternative data refers to non-traditional data that can provide an indication of future performance of a company outside of traditional sources. You can think of examples like records from credit card transactions, web-scraped data, geolocation data from cell phones, satellite images and weather…",
+      "author": null,
+      "publishedAt": "2023-06-30T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/haystack-lfqa/",
+      "title": "Long Form Question Answering in Haystack",
+      "link": "https://www.pinecone.io/learn/haystack-lfqa/",
+      "summary": "Question-Answering (QA) has exploded as a subdomain of Natural Language Processing (NLP) in the last few years. QA is a widely applicable use case in NLP yet was out of reach until the introduction of transformer models in 2017.",
+      "author": null,
+      "publishedAt": "2023-06-30T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/gif-search/",
+      "title": "Using Semantic Search to Find GIFs",
+      "link": "https://www.pinecone.io/learn/gif-search/",
+      "summary": "In this article, we will use vector search applied to language, called semantic search, to build a GIF search engine. Unlike more traditional search where we rely on keyword matching, semantic search enables search based on the human meaning behind text and images. That means we can find highly…",
+      "author": null,
+      "publishedAt": "2023-06-30T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/time-series-vectors/",
+      "title": "Time Series Analysis Through Vectorization",
+      "link": "https://www.pinecone.io/learn/time-series-vectors/",
+      "summary": "A time series is a sequence of observations of data points measured over a time interval. The concept is not new, but we are witnessing an explosion of this type of data as the world gets increasingly measured.",
+      "author": null,
+      "publishedAt": "2023-06-30T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/k-means-clustering/",
+      "title": "Introduction to K-Means Clustering",
+      "link": "https://www.pinecone.io/learn/k-means-clustering/",
+      "summary": "Under unsupervised learning, all the objects in the same group (cluster) should be more similar to each other than to those in other clusters; data points from different clusters should be as different as possible. Clustering allows you to find and organize data into groups that have been formed…",
+      "author": null,
+      "publishedAt": "2023-06-30T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/vector-search-filtering/",
+      "title": "The Missing WHERE Clause in Vector Search",
+      "link": "https://www.pinecone.io/learn/vector-search-filtering/",
+      "summary": "Vector similarity search makes massive datasets searchable in fractions of a second. Yet despite the brilliance and utility of this technology, often what seem to be the most straightforward problems are the most difficult to solve. Such as filtering.",
+      "author": null,
+      "publishedAt": "2023-06-30T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/clip-image-search/",
+      "title": "Text-to-Image and Image-to-Image Search Using CLIP",
+      "link": "https://www.pinecone.io/learn/clip-image-search/",
+      "summary": "CLIP is a neural network trained on about 400 million (text and image) pairs. Training uses a contrastive learning approach that aims to unify text and images, allowing tasks like image classification to be done with text-image similarity.",
+      "author": null,
+      "publishedAt": "2023-06-30T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/metarank/",
+      "title": "Hybrid Search and Learning-to-Rank with Metarank",
+      "link": "https://www.pinecone.io/learn/metarank/",
+      "summary": "As more advanced Large Language Models (LLMs) are released, the dream of an accurate semantic search comes closer to reality. But a classical term search is still hard to beat, even with the largest LLMs. So what if you don’t need to choose between two approaches and combine them within a single…",
+      "author": null,
+      "publishedAt": "2023-06-30T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/transfer-learning/",
+      "title": "Introduction to Transfer Learning",
+      "link": "https://www.pinecone.io/learn/transfer-learning/",
+      "summary": "Transfer Learning (TL) is a Machine Learning method where a model developed for a task is reused as the starting point for a model in another task.",
+      "author": null,
+      "publishedAt": "2023-06-30T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/openai-whisper/",
+      "title": "Fixing YouTube Search with OpenAI's Whisper",
+      "link": "https://www.pinecone.io/learn/openai-whisper/",
+      "summary": "OpenAI’s Whisper is a new state-of-the-art (SotA) model in speech-to-text. It is able to almost flawlessly transcribe speech across dozens of languages and even handle poor audio quality or excessive background noise.",
+      "author": null,
+      "publishedAt": "2023-06-30T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/vector-embeddings-for-developers/",
+      "title": "Vector Embeddings for Developers: The Basics",
+      "link": "https://www.pinecone.io/learn/vector-embeddings-for-developers/",
+      "summary": "You might not know it yet, but vector embeddings are everywhere. They are the building blocks of many machine learning and deep learning algorithms used by applications ranging from search to AI assistants. If you’re considering building your own application in this space, you will likely run into…",
+      "author": null,
+      "publishedAt": "2023-06-30T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/pinecone-vision-app/",
+      "title": "Building a Image Recognition App in Javascript using Pinecone, Hugging Face, and Vercel",
+      "link": "https://www.pinecone.io/learn/pinecone-vision-app/",
+      "summary": "The world of AI is rapidly expanding, and now the JavaScript/TypeScript ecosystem is joining in. With the emergence of tools like Pinecone, HuggingFace, OpenAI, Cohere, and many others, JavaScript developers can create AI applications more quickly, addressing new challenges that were once exclusive…",
+      "author": null,
+      "publishedAt": "2023-06-30T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/transformers/",
+      "title": "Transformers Are All You Need",
+      "link": "https://www.pinecone.io/learn/transformers/",
+      "summary": "Transformers represent new architectures of Artificial Neural Networks (ANN) that generalize to many NLP tasks with incredible results. Transformers have improved the performance of language models in a substantial way, significantly extending the model’s contextual processing.",
+      "author": null,
+      "publishedAt": "2023-06-30T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/semantic-search/",
+      "title": "Semantic Search: Measuring Meaning From Jaccard to Bert",
+      "link": "https://www.pinecone.io/learn/semantic-search/",
+      "summary": "Similarity search is one of the fastest-growing domains in AI and machine learning. At its core, it is the process of matching relevant pieces of information together.",
+      "author": null,
+      "publishedAt": "2023-06-30T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/weight-initialization/",
+      "title": "Weight Initialization Techniques in Neural Networks",
+      "link": "https://www.pinecone.io/learn/weight-initialization/",
+      "summary": "This tutorial will discuss the early approaches to weight initialization and the limitations of zero, constant, and random initializations. We’ll then learn better weight initialization strategies based on the number of neurons in each layer, choice of activation functions, and more.",
+      "author": null,
+      "publishedAt": "2023-06-30T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/ml-life-sciences/",
+      "title": "How Machine Learning is Accelerating Life Sciences",
+      "link": "https://www.pinecone.io/learn/ml-life-sciences/",
+      "summary": "Massive data volumes plus improved computation have eased the path to ML models that can solve new challenges in Life Sciences.",
+      "author": null,
+      "publishedAt": "2023-06-30T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/what-is-similarity-search/",
+      "title": "What is Similarity Search?",
+      "link": "https://www.pinecone.io/learn/what-is-similarity-search/",
+      "summary": "With similarity search, we can work with semantic representations of our data and find similar items fast. And in the sections below we will discuss how exactly it works.",
+      "author": null,
+      "publishedAt": "2023-06-30T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/regularization-in-neural-networks/",
+      "title": "Regularization in Neural Networks",
+      "link": "https://www.pinecone.io/learn/regularization-in-neural-networks/",
+      "summary": "Regularization techniques help improve a neural network’s generalization ability by reducing overfitting. They do this by minimizing needless complexity and exposing the network to more diverse data.",
+      "author": null,
+      "publishedAt": "2023-06-30T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/faster-stable-diffusion/",
+      "title": "Making Stable Diffusion Faster with Intelligent Caching",
+      "link": "https://www.pinecone.io/learn/faster-stable-diffusion/",
+      "summary": "It’s safe to say that diffusers are here to stay. Yet, since diffusion requires many generations and plenty of prompt tweaking to produce good results — stable diffusion is simply out of reach for most people unless we find a way to make it more efficient.",
+      "author": null,
+      "publishedAt": "2023-06-30T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/databricks-streaming/",
+      "title": "Streaming Embedding Generation with Databricks and Pinecone",
+      "link": "https://www.pinecone.io/learn/databricks-streaming/",
+      "summary": "Combining Databricks and Pinecone provides us with the perfect pipeline to answer these challenges. Databricks offers Structured streaming and Delta Live Tables as means to create a streaming pipeline. Pinecone provides the best solution for storing the embeddings produced in Databricks for…",
+      "author": null,
+      "publishedAt": "2023-06-30T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/javascript-chatbot/",
+      "title": "Building a Multi-User Chatbot with Langchain and Pinecone in Next.JS",
+      "link": "https://www.pinecone.io/learn/javascript-chatbot/",
+      "summary": "Read our step-by-step guide and learn how to build a multi-user langchain chatbot with Langchain and Pinecone in Next.JS.\n\nIn this example, we’ll imagine that our chatbot needs to answer questions about the content of a website. To do that, we’ll need a way to store and access that information when…",
+      "author": null,
+      "publishedAt": "2023-06-30T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/plagiarism-detection/",
+      "title": "Plagiarism Detection Using Transformers",
+      "link": "https://www.pinecone.io/learn/plagiarism-detection/",
+      "summary": "In this conceptual blog, we will explain how to use transformer-based models to tackle these two challenges in an innovative way. First of all, we will walk you through the analytical approach describing the entire workflow, from data collection to performance analysis. Then, we will dive into the…",
+      "author": null,
+      "publishedAt": "2023-06-30T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/youtube-search/",
+      "title": "Making YouTube Search Better with NLP",
+      "link": "https://www.pinecone.io/learn/youtube-search/",
+      "summary": "Technology and culture have advanced and become ever more entangled. Some of the most significant technological breakthroughs are integrated so tightly into our culture that we never even notice they’re there. One of those is AI-powered search. It powers your Google results, Netflix…",
+      "author": null,
+      "publishedAt": "2023-06-30T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/bert-search-speed/",
+      "title": "Ludicrous BERT Search Speeds",
+      "link": "https://www.pinecone.io/learn/bert-search-speed/",
+      "summary": "BERT is a popular word embedding model because its pretrained versions provide high-quality embeddings without any additional training. However, those embeddings are high-dimensional (768 in our experiment), making it unbearably slow to search with k-nearest-neighbor (KNN) algorithms.",
+      "author": null,
+      "publishedAt": "2023-06-30T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/vector-similarity/",
+      "title": "Vector Similarity Explained",
+      "link": "https://www.pinecone.io/learn/vector-similarity/",
+      "summary": "Vector embeddings have proven to be an effective tool in a variety of fields, including natural language processing and computer vision. Comparing vector embeddings and determining their similarity is an essential part of semantic search, recommendation systems, anomaly detection, and much more.",
+      "author": null,
+      "publishedAt": "2023-06-30T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/testing-p2-collections-scaling/",
+      "title": "Testing p2 Pods, Vertical Scaling, and Collections",
+      "link": "https://www.pinecone.io/learn/testing-p2-collections-scaling/",
+      "summary": "Today, vector search just became up to 10x faster, easier to set up, and vertically scalable. In this article, we will show you how you can get started with the latest features in Pinecone.",
+      "author": null,
+      "publishedAt": "2023-06-30T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/class-activation-maps/",
+      "title": "How to Explain ConvNet Predictions Using Class Activation Maps",
+      "link": "https://www.pinecone.io/learn/class-activation-maps/",
+      "summary": "In this tutorial, you’ll learn how class activation maps (CAM) and their generalizations, Grad-CAM and Grad-CAM++, can be used to explain a ConvNet. You’ll then learn how to generate class activation maps in PyTorch.",
+      "author": null,
+      "publishedAt": "2023-06-30T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/splade/",
+      "title": "SPLADE for Sparse Vector Search Explained",
+      "link": "https://www.pinecone.io/learn/splade/",
+      "summary": "This article will cover the latest in learnable sparse embeddings with SPLADE — the Sparse Lexical and Expansion model.",
+      "author": null,
+      "publishedAt": "2023-06-30T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/dimensionality-reduction/",
+      "title": "Straightforward Guide to Dimensionality Reduction",
+      "link": "https://www.pinecone.io/learn/dimensionality-reduction/",
+      "summary": "There is a golden rule in Machine Learning that states: the more data, the better. This rule is a double-edged sword. An indiscriminate addition of data might introduce noise, reduce model performance, and slow down its training process. In this case, more data can hurt model performance, so it’s…",
+      "author": null,
+      "publishedAt": "2023-06-30T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/series/nlp/train-sentence-transformers-softmax/",
+      "title": "Training Sentence Transformers the OG Way (with Softmax Loss)",
+      "link": "https://www.pinecone.io/learn/series/nlp/train-sentence-transformers-softmax/",
+      "summary": "The original way of training sentence transformers like SBERT for semantic search.",
+      "author": null,
+      "publishedAt": "2023-06-28T07:27:36.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/series/nlp/sentence-embeddings/",
+      "title": "Sentence Transformers: Meanings in Disguise",
+      "link": "https://www.pinecone.io/learn/series/nlp/sentence-embeddings/",
+      "summary": "Once you learn about and generate sentence embeddings, combine them with the Pinecone vector database to easily build applications like semantic search, deduplication, and multi-modal search. Try it now for free.",
+      "author": null,
+      "publishedAt": "2023-06-28T00:54:21.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/series/nlp/dense-vector-embeddings-nlp/",
+      "title": "Dense Vectors: Capturing Meaning with Code",
+      "link": "https://www.pinecone.io/learn/series/nlp/dense-vector-embeddings-nlp/",
+      "summary": "Pinecone is a vector database for storing and searching through dense vectors. Why would you ever want to do that? Keep reading to find out, then try Pinecone for free.",
+      "author": null,
+      "publishedAt": "2023-06-28T00:36:24.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/chatbots-with-pinecone/",
+      "title": "Chatbots with Pinecone",
+      "link": "https://www.pinecone.io/learn/chatbots-with-pinecone/",
+      "summary": "Chatbots trained on the latest AI models have access to an extensive worldview, and when paired with the long-term memory of a vector database like Pinecone, they can generate and provide highly relevant, grounded responses.",
+      "author": null,
+      "publishedAt": "2023-06-23T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/batch-layer-normalization/",
+      "title": "Build Better Deep Learning Models with Batch and Layer Normalization",
+      "link": "https://www.pinecone.io/learn/batch-layer-normalization/",
+      "summary": "Batch and layer normalization are two strategies for training neural networks faster, without having to be overly cautious with initialization and other regularization techniques.",
+      "author": null,
+      "publishedAt": "2023-06-23T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/bertopic/",
+      "title": "Advanced Topic Modeling with BERTopic",
+      "link": "https://www.pinecone.io/learn/bertopic/",
+      "summary": "BERTopic takes advantage of the superior language capabilities of (not yet sentient) transformer models and uses some other ML magic like UMAP and HDBSCAN to produce what is one of the most advanced techniques in language topic modeling today.",
+      "author": null,
+      "publishedAt": "2023-06-23T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/vector-search-basics/",
+      "title": "What is Vector Search? 2024 Guide for Developers",
+      "link": "https://www.pinecone.io/learn/vector-search-basics/",
+      "summary": "What is vector search? We explain everything developers should know about vector indexes, embeddings, and how to use them effectively with Pinecone.\nFor many developers, the present problem is vector similarity search. The solution is Pinecone.",
+      "author": null,
+      "publishedAt": "2023-06-22T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/learn/vector-database/",
+      "title": "What is a Vector Database & How Does it Work? Use Cases + Examples",
+      "link": "https://www.pinecone.io/learn/vector-database/",
+      "summary": "Discover Vector Databases: How They Work, Examples, Use Cases, Pros & Cons, Selection and Implementation. They have combined capabilities of traditional databases and standalone vector indexes while specializing for vector embeddings.",
+      "author": null,
+      "publishedAt": "2023-05-03T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/research/exact-pps-sampling-w-bounded-sample-size/",
+      "title": "Exact PPS Sampling w/ Bounded Sample Size",
+      "link": "https://www.pinecone.io/research/exact-pps-sampling-w-bounded-sample-size/",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2023-05-01T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/newsroom/pinecone-raises-usd100m-in-series-b-funding-to-provide-long-term-memory-for-ai/",
+      "title": "Pinecone Raises $100M in Series B Funding to Provide Long-Term Memory for AI",
+      "link": "https://www.pinecone.io/newsroom/pinecone-raises-usd100m-in-series-b-funding-to-provide-long-term-memory-for-ai/",
+      "summary": "The creator and leader of the vector database market will capitalize on its hypergrowth of paying customers amidst the rise of generative AI.",
+      "author": null,
+      "publishedAt": "2023-04-27T17:09:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/series-b/",
+      "title": "Announcing Our $100M Series B Funding to Build Long-Term Memory for AI",
+      "link": "https://www.pinecone.io/blog/series-b/",
+      "summary": "Dear Pinecone Community,   I am thrilled to share some exciting news with you all. We raised $100 million in Series B funding, led by Andreessen Horowitz, with participation from ICONIQ Growth, and our existing investors Menlo Ventures and Wing Venture Capital. This funding brings our valuation to…",
+      "author": null,
+      "publishedAt": "2023-04-26T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/updated-free-plan/",
+      "title": "Opening up our free plan",
+      "link": "https://www.pinecone.io/blog/updated-free-plan/",
+      "summary": "Since launching the Starter (free) plan two years ago, we’ve learned a lot about how people use it. Whether building a personal project or testing a prototype before upgrading, it turns out 99.1% of users utilize less than 20% of the capacity on their free account. In other words, while one p1 pod…",
+      "author": null,
+      "publishedAt": "2023-04-26T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/free-plan-update/",
+      "title": "Supporting our growing number of free users",
+      "link": "https://www.pinecone.io/blog/free-plan-update/",
+      "summary": "Over the past few weeks, the level of excitement around Pinecone has been astounding. There are now over 10,000 daily signups for our free plan, and growing fast. As a managed infrastructure provider, keeping a service running smoothly at enormous scales is exactly the kind of challenge we love to…",
+      "author": null,
+      "publishedAt": "2023-04-14T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/customers/chipper-cash/",
+      "title": "Chipper Cash Thwarts Fraudsters in Real-time with Pinecone",
+      "link": "https://www.pinecone.io/customers/chipper-cash/",
+      "summary": "Chipper Cash is a financial technology company on a mission to unlock barriers to banking in Africa. Providing a frictionless way to send and receive money cross-border and offering financial inclusivity, Chipper Cash has revolutionized money transfers for more than five million customers in Africa…",
+      "author": null,
+      "publishedAt": "2023-04-12T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/research/lower-bounds-for-pseudo-deterministic-counting-in-a-stream/",
+      "title": "Lower Bounds for Pseudo-Deterministic Counting in a Stream",
+      "link": "https://www.pinecone.io/research/lower-bounds-for-pseudo-deterministic-counting-in-a-stream/",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2023-03-23T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/single-sign-on/",
+      "title": "Introducing Single Sign-On (SSO) for Pinecone",
+      "link": "https://www.pinecone.io/blog/single-sign-on/",
+      "summary": "Some of the world’s largest enterprises trust Pinecone to store their data and power their critical applications, and as we continue to innovate and improve our product, security remains at the center. We are excited to add support for Single Sign-On (SSO) for all Enterprise users to enable more…",
+      "author": null,
+      "publishedAt": "2023-03-21T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/march-1-2023-incident/",
+      "title": "March 1st Partial Database Outage",
+      "link": "https://www.pinecone.io/blog/march-1-2023-incident/",
+      "summary": "Post-mortem: What happened and what we're doing after the March 1st partial database outage.",
+      "author": null,
+      "publishedAt": "2023-03-09T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/newsroom/amid-massive-growth-in-2022-pinecone-names-bob-wiederhold-as-president-and-coo/",
+      "title": "Amid Massive Growth in 2022, Pinecone names Bob Wiederhold as President & COO",
+      "link": "https://www.pinecone.io/newsroom/amid-massive-growth-in-2022-pinecone-names-bob-wiederhold-as-president-and-coo/",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2023-02-28T18:07:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/2022-growth-welcome-bob/",
+      "title": "Welcome Vector Databases, Welcome Bob",
+      "link": "https://www.pinecone.io/blog/2022-growth-welcome-bob/",
+      "summary": "Pinecone's amazing year of growth, and new President & COO to help us grow even more.",
+      "author": null,
+      "publishedAt": "2023-02-28T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/sparse-dense/",
+      "title": "Introducing support for sparse-dense embeddings for better search result",
+      "link": "https://www.pinecone.io/blog/sparse-dense/",
+      "summary": "Index support for any sparse-dense embeddings now available in public preview for all users. Read announcement to learn more.",
+      "author": null,
+      "publishedAt": "2023-02-23T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/usage-dashboards/",
+      "title": "New usage insights to plan, test, and grow with confidence",
+      "link": "https://www.pinecone.io/blog/usage-dashboards/",
+      "summary": "New usage dashboards to enable you to plan, test, and grow with confidence.",
+      "author": null,
+      "publishedAt": "2023-02-14T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/newsroom/pinecone-appoints-michael-proia-as-vice-president-of-sales/",
+      "title": "Pinecone Appoints Michael Proia as Vice President of Sales",
+      "link": "https://www.pinecone.io/newsroom/pinecone-appoints-michael-proia-as-vice-president-of-sales/",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2023-02-08T18:06:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/newsroom/pinecone-now-available-on-aws-marketplace-and-gcp-marketplace/",
+      "title": "Pinecone now available on AWS Marketplace and GCP Marketplace",
+      "link": "https://www.pinecone.io/newsroom/pinecone-now-available-on-aws-marketplace-and-gcp-marketplace/",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2023-02-06T18:05:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/pinecone-aws-marketplace/",
+      "title": "Pinecone is now available on the AWS Marketplace",
+      "link": "https://www.pinecone.io/blog/pinecone-aws-marketplace/",
+      "summary": "Start building faster with Pinecone through the AWS Marketplace",
+      "author": null,
+      "publishedAt": "2023-02-06T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/2022-highlights/",
+      "title": "History in the making: A year of learning, growing, and connecting together",
+      "link": "https://www.pinecone.io/blog/2022-highlights/",
+      "summary": "This has been an exciting year for vector search and vector databases. Embedding models got better and more accessible, the use cases for vector search expanded, and new applications powered by vector search generated a lot of buzz. While a lot happened over the past twelve months, we wanted to…",
+      "author": null,
+      "publishedAt": "2022-12-23T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/pinecone-gcp-marketplace/",
+      "title": "Pinecone is now available on the Google Cloud Marketplace",
+      "link": "https://www.pinecone.io/blog/pinecone-gcp-marketplace/",
+      "summary": "We are excited to announce that Pinecone is now available on the Google Cloud Platform (GCP) Marketplace (and as the first vector database, no less). With Pinecone, you can build AI-powered search into your applications without needing to manage your own or modify legacy infrastructures.",
+      "author": null,
+      "publishedAt": "2022-12-22T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/pods-for-performance/",
+      "title": "High-throughput vector indexes now generally available and free",
+      "link": "https://www.pinecone.io/blog/pods-for-performance/",
+      "summary": "P2 pods are now generally available to all users, dot product compatible, and 50% lower in cost.",
+      "author": null,
+      "publishedAt": "2022-12-08T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/organizations/",
+      "title": "Organizations: New access controls to makes vector search a company-wide capability",
+      "link": "https://www.pinecone.io/blog/organizations/",
+      "summary": "With organizations, users and teams can now collaborate across projects in a way that works best for them.",
+      "author": null,
+      "publishedAt": "2022-12-07T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/newsroom/pinecone-launches-world-s-most-advanced-hybrid-search-functionality/",
+      "title": "Pinecone launches world's most advanced hybrid search functionality",
+      "link": "https://www.pinecone.io/newsroom/pinecone-launches-world-s-most-advanced-hybrid-search-functionality/",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2022-10-31T17:59:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/hybrid-search/",
+      "title": "Introducing the hybrid index to enable keyword-aware semantic search",
+      "link": "https://www.pinecone.io/blog/hybrid-search/",
+      "summary": "New approach to hybrid search leads to more relevant results",
+      "author": null,
+      "publishedAt": "2022-10-31T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/public-collections/",
+      "title": "Explore the power of Pinecone with public collections",
+      "link": "https://www.pinecone.io/blog/public-collections/",
+      "summary": "Start your vector-database journey with a click.",
+      "author": null,
+      "publishedAt": "2022-09-16T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/rust-rewrite/",
+      "title": "Rewriting a high performance vector database in Rust",
+      "link": "https://www.pinecone.io/blog/rust-rewrite/",
+      "summary": "Rewriting a high performance vector database in Rust",
+      "author": null,
+      "publishedAt": "2022-09-14T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/inside-the-pinecone/",
+      "title": "Inside the Pinecone",
+      "link": "https://www.pinecone.io/blog/inside-the-pinecone/",
+      "summary": "Edo Liberty, Pinecone CEO, provides a glimpse into the journey behind building a database company, including some insights into the latest innovations around the product and vector search.",
+      "author": null,
+      "publishedAt": "2022-08-22T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/newsroom/pinecone-announces-new-features-to-lower-the-barrier-of-entry-for-vector-search/",
+      "title": "Pinecone announces new features to lower the barrier of entry for vector search",
+      "link": "https://www.pinecone.io/newsroom/pinecone-announces-new-features-to-lower-the-barrier-of-entry-for-vector-search/",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2022-08-17T16:58:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/faster-easier-scalable/",
+      "title": "Vector search just got up to 10x faster, easier to set up, and vertically scalable",
+      "link": "https://www.pinecone.io/blog/faster-easier-scalable/",
+      "summary": "Announcing new features and performance improvements to make it easier and more cost-effective than ever for engineers to start and scale a vector database in production.",
+      "author": null,
+      "publishedAt": "2022-08-16T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/sigit-2022/",
+      "title": "Pinecone sponsors the 45th annual SIGIR conference",
+      "link": "https://www.pinecone.io/blog/sigit-2022/",
+      "summary": "Pinecone was a proud sponsor for the conference and for the Reaching Efficiency in Neural Information Retrieval (ReNeuIR) workshop, co-led by our very own Sebastian Bruch, Staff Research Scientist at Pinecone.",
+      "author": null,
+      "publishedAt": "2022-07-22T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/research/sdr-efficient-neural-re-ranking-using-succinct-document-representation/",
+      "title": "SDR: Efficient Neural Re-ranking using Succinct Document Representation",
+      "link": "https://www.pinecone.io/research/sdr-efficient-neural-re-ranking-using-succinct-document-representation/",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2022-05-31T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/enterprise-plan/",
+      "title": "Introducing the Enterprise Plan for Mission-Critical Applications",
+      "link": "https://www.pinecone.io/blog/enterprise-plan/",
+      "summary": "Introducing the Enterprise plan for mission-critical applications.",
+      "author": null,
+      "publishedAt": "2022-04-06T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/newsroom/pinecone-announces-usd28m-series-a-financing-to-bring-search-into-ai-age/",
+      "title": "Pinecone Announces $28M Series A Financing to Bring Search into AI Age",
+      "link": "https://www.pinecone.io/newsroom/pinecone-announces-usd28m-series-a-financing-to-bring-search-into-ai-age/",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2022-03-29T16:57:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/funding-search-ai-age/",
+      "title": "$28M to Bring Search into the AI Age",
+      "link": "https://www.pinecone.io/blog/funding-search-ai-age/",
+      "summary": "Pinecone raised $28M in Series A funding to bring search into the AI age.",
+      "author": null,
+      "publishedAt": "2022-03-29T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/predict-perform-control/",
+      "title": "February Release: Performance at Scale, Predictability, and Control",
+      "link": "https://www.pinecone.io/blog/predict-perform-control/",
+      "summary": "Latest version of the Pinecone gives you greater performance, predictability, and control of your vector search applications.",
+      "author": null,
+      "publishedAt": "2022-02-16T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/advisors/",
+      "title": "Former Snowflake CEO Bob Muglia and Couchbase CEO Bob Wiederhold Bet on Pinecone",
+      "link": "https://www.pinecone.io/blog/advisors/",
+      "summary": "We are ushering in a new era of search.",
+      "author": null,
+      "publishedAt": "2021-12-20T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/newsroom/former-snowflake-ceo-bob-muglia-and-couchbase-ceo-bob-wiederhold-bet-on-pinecone/",
+      "title": "Former Snowflake CEO Bob Muglia and Couchbase CEO Bob Wiederhold Bet on Pinecone",
+      "link": "https://www.pinecone.io/newsroom/former-snowflake-ceo-bob-muglia-and-couchbase-ceo-bob-wiederhold-bet-on-pinecone/",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2021-12-15T17:54:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/research/relative-error-streaming-quantiles/",
+      "title": "Relative Error Streaming Quantiles",
+      "link": "https://www.pinecone.io/research/relative-error-streaming-quantiles/",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2021-12-07T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/research/projective-clustering-product-quantization/",
+      "title": "Projective Clustering Product Quantization",
+      "link": "https://www.pinecone.io/research/projective-clustering-product-quantization/",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2021-12-03T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/welcome-ram/",
+      "title": "Meet Pinecone’s New VP of Engineering, Dr. Ram Sriharsha",
+      "link": "https://www.pinecone.io/blog/welcome-ram/",
+      "summary": "Our new VP of Engineering, Dr. Ram Sriharsha, brings a wealth of knowledge to our team and is uniquely positioned to help execute on our lofty vision.",
+      "author": null,
+      "publishedAt": "2021-11-22T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/newsroom/pinecone-recognized-as-a-2021-gartner-r-cool-vendor-in-artificial-intelligence-and-machine-learning/",
+      "title": "Pinecone Recognized as a 2021 Gartner® Cool Vendor in Artificial Intelligence and Machine Learning",
+      "link": "https://www.pinecone.io/newsroom/pinecone-recognized-as-a-2021-gartner-r-cool-vendor-in-artificial-intelligence-and-machine-learning/",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2021-10-28T16:52:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/cool-vendor-2021/",
+      "title": "Pinecone Recognized as a 2021 Gartner® Cool Vendor",
+      "link": "https://www.pinecone.io/blog/cool-vendor-2021/",
+      "summary": "Pinecone created the category of Vector Databases to bring the power of vector similarity search to all companies. We are excited today to announce that Pinecone has been named a Gartner Cool Vendor in the October 2021 Gartner Cool Vendors™ in Data for Artificial Intelligence and Machine Learning.",
+      "author": null,
+      "publishedAt": "2021-10-28T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/v2-pricing/",
+      "title": "Pinecone 2.0 is Available and Free",
+      "link": "https://www.pinecone.io/blog/v2-pricing/",
+      "summary": "Every use case comes with its own requirements for performance, number of vectors, and throughput. Our new pricing gives you the choice to optimize Pinecone to meet your needs and pay (less) as you go.",
+      "author": null,
+      "publishedAt": "2021-10-04T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/newsroom/pinecone-2-0-launches-to-take-vector-search-from-lab-into-production/",
+      "title": "Pinecone 2.0 Launches to Take Vector Search From Lab into Production",
+      "link": "https://www.pinecone.io/newsroom/pinecone-2-0-launches-to-take-vector-search-from-lab-into-production/",
+      "summary": "Pinecone offers enterprise-grade metadata filtering, enabling companies to power their search and recommendation systems with Deep Learning",
+      "author": null,
+      "publishedAt": "2021-09-14T16:51:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/pinecone-v2/",
+      "title": "Pinecone 2.0: Take Vector Search from the Lab to Production",
+      "link": "https://www.pinecone.io/blog/pinecone-v2/",
+      "summary": "Pinecone 2.0 helps companies move vector similarity search from R&D labs to production applications.",
+      "author": null,
+      "publishedAt": "2021-09-14T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/rise-vector-data/",
+      "title": "The Rise of Vector Data",
+      "link": "https://www.pinecone.io/blog/rise-vector-data/",
+      "summary": "In Machine Learning, transformer models — or more generally “embedding models” — serve the role of converting raw data into vector embeddings. They generate vector data.",
+      "author": null,
+      "publishedAt": "2021-05-21T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/newsroom/pinecone-leaves-stealth-with-usd10m-launches-first-serverless-vector-database-for-machine-learning/",
+      "title": "Pinecone leaves stealth with $10M, launches first serverless vector database for machine learning",
+      "link": "https://www.pinecone.io/newsroom/pinecone-leaves-stealth-with-usd10m-launches-first-serverless-vector-database-for-machine-learning/",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2021-01-27T17:46:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/announcing-vector-database/",
+      "title": "Announcing the Pinecone Vector Database and $10M in Seed Funding",
+      "link": "https://www.pinecone.io/blog/announcing-vector-database/",
+      "summary": "Machine Learning (ML) represents everything as vectors, from documents, to videos, to user behaviors. This representation makes it possible to accurately search, retrieve, rank, and classify different items by similarity and relevance. This is useful in many applications such as product…",
+      "author": null,
+      "publishedAt": "2021-01-27T00:00:00.000Z"
+    }
+  ],
+  "totalIndexed": 371
+}

@@ -1,0 +1,255 @@
+{
+  "feedId": "sourcegraph",
+  "feedName": "Sourcegraph Blog",
+  "feedSiteUrl": "https://about.sourcegraph.com/blog",
+  "feedRssUrl": "https://about.sourcegraph.com/blog/rss.xml",
+  "tags": [
+    "developer-tools",
+    "code-search",
+    "platform"
+  ],
+  "updatedAt": "2026-07-23T11:02:40.690Z",
+  "items": [
+    {
+      "guid": "sourcegraph::http://localhost:5174/blog/vulnerability-remediation-at-codebase-scale",
+      "title": "Three places enterprise security breaks down at codebase scale (and why your current tools don't cover them)",
+      "link": "http://localhost:5174/blog/vulnerability-remediation-at-codebase-scale",
+      "summary": "Vulnerability remediation breaks down at codebase scale: AI code without context, detection coverage gaps, and fixes that take weeks across 10,000 repos.",
+      "author": "Matt Tanner",
+      "publishedAt": "2026-07-13T00:00:00.000Z"
+    },
+    {
+      "guid": "sourcegraph::http://localhost:5174/blog/detection-in-one-repo-isnt-a-security-posture",
+      "title": "Detection in one repo isn't a security posture",
+      "link": "http://localhost:5174/blog/detection-in-one-repo-isnt-a-security-posture",
+      "summary": "A finding in one repo is a fact. A security posture means knowing whether that same problem exists everywhere else, and fixing it before it spreads.",
+      "author": "Justin Dorfman",
+      "publishedAt": "2026-07-10T00:00:00.000Z"
+    },
+    {
+      "guid": "sourcegraph::http://localhost:5174/blog/agentic-batch-changes-public-beta",
+      "title": "Agentic Batch Changes is now in public beta",
+      "link": "http://localhost:5174/blog/agentic-batch-changes-public-beta",
+      "summary": "Agentic Batch Changes is now in public beta: an AI agent that scopes, executes, and ships large-scale code migrations across hundreds of repositories until every PR is mergeable.",
+      "author": "Graham McBain",
+      "publishedAt": "2026-06-30T00:00:00.000Z"
+    },
+    {
+      "guid": "sourcegraph::http://localhost:5174/blog/owning-a-codebase",
+      "title": "On owning a codebase, and why it may be the hardest job in software",
+      "link": "http://localhost:5174/blog/owning-a-codebase",
+      "summary": "AI coding agents are producing more code than ever, but the world still runs on massive, decades-old codebases. Why owning and understanding them may be the hardest job in software.",
+      "author": "Dan Adler",
+      "publishedAt": "2026-06-26T00:00:00.000Z"
+    },
+    {
+      "guid": "sourcegraph::http://localhost:5174/blog/why-your-migration-tools-are-failing-your-engineers",
+      "title": "Why your migration tools are failing your engineers",
+      "link": "http://localhost:5174/blog/why-your-migration-tools-are-failing-your-engineers",
+      "summary": "The bottleneck in most large-scale migrations is not the engineers or the plan. It is that the tools cannot see the whole codebase.",
+      "author": "Graham McBain",
+      "publishedAt": "2026-06-24T00:00:00.000Z"
+    },
+    {
+      "guid": "sourcegraph::http://localhost:5174/blog/sourcegraph-mcp-and-a-cheaper-model-beat-a-mythos-class-model-alone",
+      "title": "Sourcegraph MCP server and a cheaper model beat a Mythos-class model alone",
+      "link": "http://localhost:5174/blog/sourcegraph-mcp-and-a-cheaper-model-beat-a-mythos-class-model-alone",
+      "summary": "On nine CodeScaleBench tasks designed to evaluate agent effectiveness in large codebases, Claude Sonnet 4.6 with the Sourcegraph MCP server outscored Fable 5, winning six of nine at roughly half the cost for each point of quality.",
+      "author": "Stephanie Jarmak",
+      "publishedAt": "2026-06-16T00:00:00.000Z"
+    },
+    {
+      "guid": "sourcegraph::http://localhost:5174/blog/the-hidden-cost-of-code-that-nobody-touches",
+      "title": "The hidden cost of code that nobody touches",
+      "link": "http://localhost:5174/blog/the-hidden-cost-of-code-that-nobody-touches",
+      "summary": "Every engineering org has the files nobody wants to open. Here's what that actually costs.",
+      "author": "Graham McBain",
+      "publishedAt": "2026-06-16T00:00:00.000Z"
+    },
+    {
+      "guid": "sourcegraph::http://localhost:5174/blog/automating-security-triage-hackerone-deep-search",
+      "title": "Automating Security Triage with HackerOne and Deep Search",
+      "link": "http://localhost:5174/blog/automating-security-triage-hackerone-deep-search",
+      "summary": "How Sourcegraph uses HackerOne webhooks and Deep Search to automatically validate, triage, and investigate vulnerability reports before engineers start their day.",
+      "author": "Carter Brainerd",
+      "publishedAt": "2026-06-05T00:00:00.000Z"
+    },
+    {
+      "guid": "sourcegraph::http://localhost:5174/blog/from-slack-ops-to-programmatic-siem-triage",
+      "title": "Security Automation Evolved: From SlackOps to Programmatic SIEM Triage (Part 1/2)",
+      "link": "http://localhost:5174/blog/from-slack-ops-to-programmatic-siem-triage",
+      "summary": "How Sourcegraph's security team evolved from a Slack-based triage bot to programmatic SIEM detection with expression-based auto-close rules.",
+      "author": "Vincent Ruijter",
+      "publishedAt": "2026-05-28T00:00:00.000Z"
+    },
+    {
+      "guid": "sourcegraph::http://localhost:5174/blog/dependency-prefix-supply-chain-risk",
+      "title": "Dependency prefixes are a supply chain risk: let's fix them",
+      "link": "http://localhost:5174/blog/dependency-prefix-supply-chain-risk",
+      "summary": "Dependency prefixes like ^ and ~ make updates easy, but the version ranges they create widen the path a compromised package can take into production.",
+      "author": "Justin Dorfman",
+      "publishedAt": "2026-05-22T00:00:00.000Z"
+    },
+    {
+      "guid": "sourcegraph::http://localhost:5174/blog/slack-bot-supply-chain-incident-response",
+      "title": "How we're using Sourcegraph and a Slack bot to detect vulnerabilities and react quickly",
+      "link": "http://localhost:5174/blog/slack-bot-supply-chain-incident-response",
+      "summary": "A Slack bot triages every GitHub advisory, posts a rocket-to-trigger ask in the channel, and on one human reaction runs the full content pipeline: detection queries, blog scaffold, social drafts, a 35-second auto-cut demo. The operator's remaining job is to read the drafts and decide whether…",
+      "author": "Stephanie Jarmak",
+      "publishedAt": "2026-05-13T00:00:00.000Z"
+    },
+    {
+      "guid": "sourcegraph::http://localhost:5174/blog/why-coding-agents-fail-large-codebases",
+      "title": "Why coding agents fail in large codebases (and what to do about it)",
+      "link": "http://localhost:5174/blog/why-coding-agents-fail-large-codebases",
+      "summary": "Data from 1,281 agent runs across 40+ large open source repos reveals five repeatable failure patterns in coding agents, and the infrastructure fixes for each.",
+      "author": "Stephanie Jarmak",
+      "publishedAt": "2026-05-08T00:00:00.000Z"
+    },
+    {
+      "guid": "sourcegraph::http://localhost:5174/blog/deep-search-slack-agent-lessons",
+      "title": "Lessons on UX, security, and scale when building an enterprise-grade Slack agent",
+      "link": "http://localhost:5174/blog/deep-search-slack-agent-lessons",
+      "summary": "We built a Deep Search Slack agent for large companies. Here is what we learned about user experience, enterprise security, and Redis-backed rate limiting.",
+      "author": "Julia Xu",
+      "publishedAt": "2026-05-04T00:00:00.000Z"
+    },
+    {
+      "guid": "sourcegraph::http://localhost:5174/blog/the-right-tool-at-the-right-time-using-sourcegraph-search-effectively",
+      "title": "Code Search, Deep Search, or MCP: When to Use Each",
+      "link": "http://localhost:5174/blog/the-right-tool-at-the-right-time-using-sourcegraph-search-effectively",
+      "summary": "AI added new ways to search code, but not all of them apply to every problem. Here’s how to choose between Code Search, Deep Search, and MCP.",
+      "author": "Jon Galindo",
+      "publishedAt": "2026-04-22T00:00:00.000Z"
+    },
+    {
+      "guid": "sourcegraph::http://localhost:5174/blog/what-it-actually-takes-to-run-code-intelligence-in-house",
+      "title": "What it actually takes to run code intelligence in-house",
+      "link": "http://localhost:5174/blog/what-it-actually-takes-to-run-code-intelligence-in-house",
+      "summary": "We audited what it would take to build a Sourcegraph equivalent internally, mapped the platform to 90 engineering requirements across 10 categories, and modeled 3-year costs for different environment sizes.",
+      "author": "Stephanie Jarmak",
+      "publishedAt": "2026-04-21T00:00:00.000Z"
+    },
+    {
+      "guid": "sourcegraph::http://localhost:5174/blog/detecting-supply-chain-attacks-at-scale-with-deep-search",
+      "title": "Detecting supply chain attacks at scale with Deep Search",
+      "link": "http://localhost:5174/blog/detecting-supply-chain-attacks-at-scale-with-deep-search",
+      "summary": "Poisoned LiteLLM packages on PyPI started stealing credentials. Using Deep Search and Code Search, we traced which public repos were protected by version pinning and which were left exposed. Here's how—and how you can do the same for any supply chain incident.",
+      "author": "Stephanie Jarmak",
+      "publishedAt": "2026-03-26T00:00:00.000Z"
+    },
+    {
+      "guid": "sourcegraph::http://localhost:5174/blog/the-future-of-scip",
+      "title": "The future of SCIP",
+      "link": "http://localhost:5174/blog/the-future-of-scip",
+      "summary": "We are excited to announce our transition to a community-driven open source project. While making this change, we reaffirm our deep commitment to remaining active members of the community.",
+      "author": "Justin Dorfman",
+      "publishedAt": "2026-03-25T00:00:00.000Z"
+    },
+    {
+      "guid": "sourcegraph::http://localhost:5174/blog/mcp-stories-from-the-field",
+      "title": "MCP stories from the field",
+      "link": "http://localhost:5174/blog/mcp-stories-from-the-field",
+      "summary": "While direct API calls seem cheaper and easier, they lack the safety layer large organizations rely on. Tool connection protocols aren't dead; they remain vital for security, governance, and centralized control in big teams.",
+      "author": "Dan Adler",
+      "publishedAt": "2026-03-20T00:00:00.000Z"
+    },
+    {
+      "guid": "sourcegraph::http://localhost:5174/blog/codescalebench-testing-coding-agents-on-large-codebases-and-multi-repo-software-engineering-tasks",
+      "title": "CodeScaleBench: Testing coding agents on large codebases and multi-repo software engineering tasks",
+      "link": "http://localhost:5174/blog/codescalebench-testing-coding-agents-on-large-codebases-and-multi-repo-software-engineering-tasks",
+      "summary": "The initial findings from CodeScaleBench, a new benchmark designed to evaluate coding agents against the true complexity of enterprise software development, including large codebases and multi-repository tasks.",
+      "author": "Stephanie Jarmak",
+      "publishedAt": "2026-03-03T00:00:00.000Z"
+    },
+    {
+      "guid": "sourcegraph::http://localhost:5174/blog/a-new-era-for-sourcegraph-the-intelligence-layer-for-ai-coding-agents-and-developers",
+      "title": "A new era for Sourcegraph: The intelligence layer for AI coding agents and developers",
+      "link": "http://localhost:5174/blog/a-new-era-for-sourcegraph-the-intelligence-layer-for-ai-coding-agents-and-developers",
+      "summary": "Today, we're announcing Sourcegraph 7.0, a release that marks the beginning of a new chapter for our company and product.",
+      "author": "Graham Mcbain",
+      "publishedAt": "2026-02-25T00:00:00.000Z"
+    },
+    {
+      "guid": "sourcegraph::http://localhost:5174/blog/building-databot-our-always-on-data-assistant",
+      "title": "Building DataBot: Our always-on data assistant",
+      "link": "http://localhost:5174/blog/building-databot-our-always-on-data-assistant",
+      "summary": "The hidden cost of being a data-driven company is context-switching for analysts due to \"quick questions.\" DataBot allows the data team to focus on auditing analysis instead of performing it.",
+      "author": "Aditya Kalia",
+      "publishedAt": "2026-02-06T00:00:00.000Z"
+    },
+    {
+      "guid": "sourcegraph::http://localhost:5174/blog/how-our-support-engineers-use-deep-search-to-investigate-customer-issues-faster",
+      "title": "How our support engineers use Deep Search to investigate customer issues faster",
+      "link": "http://localhost:5174/blog/how-our-support-engineers-use-deep-search-to-investigate-customer-issues-faster",
+      "summary": "Deep Search empowers our Support Engineers to bypass initial escalations, enabling them to dive directly into investigating the root cause of issues.",
+      "author": "Michael Bali",
+      "publishedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "guid": "sourcegraph::http://localhost:5174/blog/cross-repository-code-navigation",
+      "title": "Cross-repository code navigation",
+      "link": "http://localhost:5174/blog/cross-repository-code-navigation",
+      "summary": "Cross-repo search provides semantic code understanding across repositories.",
+      "author": "Graham Mcbain",
+      "publishedAt": "2026-01-21T00:00:00.000Z"
+    },
+    {
+      "guid": "sourcegraph::http://localhost:5174/blog/introducing-the-new-sourcegraph-changelog",
+      "title": "Introducing the new Sourcegraph changelog",
+      "link": "http://localhost:5174/blog/introducing-the-new-sourcegraph-changelog",
+      "summary": "Introducing the new Sourcegraph changelog, rolling out with the release of Sourcegraph 6.12 to better highlight exciting new improvements and features. Learn more about the new changelog and the future of Sourcegraph updates.",
+      "author": "Robert Lin",
+      "publishedAt": "2026-01-13T00:00:00.000Z"
+    },
+    {
+      "guid": "sourcegraph::http://localhost:5174/blog/tools-for-companies-that-dont-need-sourcegraph",
+      "title": "Tools for companies that don't need Sourcegraph",
+      "link": "http://localhost:5174/blog/tools-for-companies-that-dont-need-sourcegraph",
+      "summary": "Sourcegraph is only for companies who face \"big code\" problems. What are \"big code\" problems you ask?",
+      "author": "Graham Mcbain",
+      "publishedAt": "2026-01-07T00:00:00.000Z"
+    },
+    {
+      "guid": "sourcegraph::http://localhost:5174/blog/weekly-updates-are-coming-to-sourcegraph-cloud",
+      "title": "Weekly updates are coming to Sourcegraph Cloud",
+      "link": "http://localhost:5174/blog/weekly-updates-are-coming-to-sourcegraph-cloud",
+      "summary": "We're excited to share that starting on February 25 2026, we will be transitioning to shipping exciting weekly product updates for Sourcegraph Cloud customers.",
+      "author": "Robert Lin",
+      "publishedAt": "2026-01-05T00:00:00.000Z"
+    },
+    {
+      "guid": "sourcegraph::http://localhost:5174/blog/episode-3-revenge-of-the-react-vulnerabilities",
+      "title": "Episode III: Revenge of the React vulnerabilities",
+      "link": "http://localhost:5174/blog/episode-3-revenge-of-the-react-vulnerabilities",
+      "summary": "The React Server Components vulnerability was more persistent than initially anticipated, but the latest patch has eliminated the React2Shell exploit.",
+      "author": "Justin Dorfman",
+      "publishedAt": "2025-12-12T00:00:00.000Z"
+    },
+    {
+      "guid": "sourcegraph::http://localhost:5174/blog/why-code-search-at-scale-is-essential-when-you-grow-beyond-one-repository",
+      "title": "Why code search at scale is essential when you grow beyond one repository",
+      "link": "http://localhost:5174/blog/why-code-search-at-scale-is-essential-when-you-grow-beyond-one-repository",
+      "summary": "Your AI coding assistant can write code, but can it tell you where that endpoint is called across your 500 microservices spread out across dozens of repositories?",
+      "author": "Graham Mcbain",
+      "publishedAt": "2025-12-10T00:00:00.000Z"
+    },
+    {
+      "guid": "sourcegraph::http://localhost:5174/blog/fix-and-track-affected-code-react-server-components-cve-2025-55182-part-2",
+      "title": "Fixing the React2Shell vulnerability in large and complex enterprise codebases (part 2)",
+      "link": "http://localhost:5174/blog/fix-and-track-affected-code-react-server-components-cve-2025-55182-part-2",
+      "summary": "Automate the fix and full remediation for the critical React Server Components vulnerability across your codebase using Sourcegraph's Batch Changes, MCP server, and Deep Search.",
+      "author": "Stephanie Jarmak",
+      "publishedAt": "2025-12-09T00:00:00.000Z"
+    },
+    {
+      "guid": "sourcegraph::http://localhost:5174/blog/agentic-coding-is-creating-more-code-more-code-is-creating-a-bigger-need-for-code-search",
+      "title": "Agentic coding is creating more code. More code is creating a bigger need for Code Search",
+      "link": "http://localhost:5174/blog/agentic-coding-is-creating-more-code-more-code-is-creating-a-bigger-need-for-code-search",
+      "summary": "AI coding tools are generating code faster than ever, making strong code search and intelligence like Sourcegraph a critical tool for managing the resulting growth and complexity of enterprise codebases.",
+      "author": "Graham Mcbain",
+      "publishedAt": "2025-12-05T00:00:00.000Z"
+    }
+  ],
+  "totalIndexed": 30
+}

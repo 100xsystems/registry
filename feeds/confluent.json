@@ -1,0 +1,95 @@
+{
+  "feedId": "confluent",
+  "feedName": "Confluent Blog",
+  "feedSiteUrl": "https://www.confluent.io/blog",
+  "feedRssUrl": "https://www.confluent.io/feed",
+  "tags": [
+    "distributed-systems",
+    "streaming",
+    "kafka"
+  ],
+  "updatedAt": "2026-07-23T11:30:14.960Z",
+  "items": [
+    {
+      "guid": "https://www.confluent.io/blog/announcing-upvest-as-confluents-2026-emea-data-streaming-startup-of-the-year/",
+      "title": "Announcing Upvest as Confluent’s 2026 EMEA Data Streaming Startup of the Year",
+      "link": "https://www.confluent.io/blog/announcing-upvest-as-confluents-2026-emea-data-streaming-startup-of-the-year/",
+      "summary": "Confluent for Startups provides an easy on-ramp to Confluent Cloud for early stage startups with great data streaming use cases.",
+      "author": "Tim Graczewski",
+      "publishedAt": "2026-07-16T00:07:01.000Z"
+    },
+    {
+      "guid": "https://www.confluent.io/blog/tableflow-kafka-iceberg/",
+      "title": "Tableflow: Turn Kafka Topics into Iceberg Tables",
+      "link": "https://www.confluent.io/blog/tableflow-kafka-iceberg/",
+      "summary": "Learn how Confluent Tableflow turns Kafka topics into Iceberg tables for zero-ETL analytics with automatic schema evolution and open catalog access.",
+      "author": "Mohtasham Sayeed Mohiuddin",
+      "publishedAt": "2026-07-10T15:36:14.000Z"
+    },
+    {
+      "guid": "https://www.confluent.io/blog/kafka-authentication-sasl-plain-scram-config-hot-reload/",
+      "title": "Deep Dive into SASL PLAIN and SCRAM in Kafka: Login Modules and Config Hot-Reload",
+      "link": "https://www.confluent.io/blog/kafka-authentication-sasl-plain-scram-config-hot-reload/",
+      "summary": "Deep Dive into SASL PLAIN and SCRAM in Kafka: Login Modules and Config Hot-Reload",
+      "author": "Pratul Yadav",
+      "publishedAt": "2026-07-06T09:43:40.000Z"
+    },
+    {
+      "guid": "https://www.confluent.io/blog/building-secure-resilient-and-compliant-fraud-detection-with-confluent-cloud/",
+      "title": "Building Secure, Resilient, and Compliant Fraud Detection With Confluent Cloud",
+      "link": "https://www.confluent.io/blog/building-secure-resilient-and-compliant-fraud-detection-with-confluent-cloud/",
+      "summary": "Learn how Confluent Cloud powers real-time fraud detection with, multi-layered encryption, and built-in financial compliance",
+      "author": "Saurabh Ghelani",
+      "publishedAt": "2026-06-29T15:58:55.000Z"
+    },
+    {
+      "guid": "https://www.confluent.io/blog/stream-governance-making-compliance-a-property-of-data-in-motion/",
+      "title": "Stream Governance: Making Compliance a Property of Data in Motion",
+      "link": "https://www.confluent.io/blog/stream-governance-making-compliance-a-property-of-data-in-motion/",
+      "summary": "Bridge the governance gap in real-time streaming. Learn how Confluent Stream Governance makes compliance an inherent property of data in motion.",
+      "author": "Saurabh Ghelani",
+      "publishedAt": "2026-06-29T15:58:33.000Z"
+    },
+    {
+      "guid": "https://www.confluent.io/blog/meeting-data-and-analytics-engineers-where-they-are-introducing-the-dbt-adapter-for-confluent-cloud/",
+      "title": "Meeting Data (and Analytics) Engineers Where They Are: Introducing the dbt Adapter for Confluent Cloud",
+      "link": "https://www.confluent.io/blog/meeting-data-and-analytics-engineers-where-they-are-introducing-the-dbt-adapter-for-confluent-cloud/",
+      "summary": "The dbt-confluent adapter brings dbt's familiar workflow to Confluent Cloud for Apache Flink, enabling data engineers to build and test streaming pipelines with the tools they already use.",
+      "author": "Zander Matheson",
+      "publishedAt": "2026-06-18T22:09:35.000Z"
+    },
+    {
+      "guid": "https://www.confluent.io/blog/architectural-decision-guide-when-to-use-apache-kafka-and-when-you-shouldnt/",
+      "title": "Architectural Decision Guide: When to Use Apache Kafka (And When You Shouldn't)",
+      "link": "https://www.confluent.io/blog/architectural-decision-guide-when-to-use-apache-kafka-and-when-you-shouldnt/",
+      "summary": "Discover when to use Apache Kafka and when to avoid it. Learn the core differences between event streaming and task queues to scale your systems reliably.",
+      "author": "Mohtasham Sayeed Mohiuddin",
+      "publishedAt": "2026-06-12T18:05:15.000Z"
+    },
+    {
+      "guid": "https://www.confluent.io/blog/confluent-different-apache-kafka/",
+      "title": "What is Confluent? How It's Different from Apache Kafka",
+      "link": "https://www.confluent.io/blog/confluent-different-apache-kafka/",
+      "summary": "Confluent is a data streaming platform built on Apache Kafka that adds the enterprise tooling, managed infrastructure, and ecosystem integrations that Kafka alone doesn't include.",
+      "author": "Laasya Krupa B",
+      "publishedAt": "2026-06-12T17:23:40.000Z"
+    },
+    {
+      "guid": "https://www.confluent.io/blog/apache-kafka-4-3-release/",
+      "title": "Apache Kafka 4.3.0 Release Announcement",
+      "link": "https://www.confluent.io/blog/apache-kafka-4-3-release/",
+      "summary": "Apache Kafka 4.3, a release powered by 25 new KIPs. Apache Kafka 4.3 includes first-class support for preserving record headers in Kafka Streams",
+      "author": "Mickael Maison",
+      "publishedAt": "2026-06-01T17:13:13.000Z"
+    },
+    {
+      "guid": "https://www.confluent.io/blog/customer-intelligence-hub/",
+      "title": "Customer Intelligence Hub: A Single Pane of Glass for Customer Insight and Action",
+      "link": "https://www.confluent.io/blog/customer-intelligence-hub/",
+      "summary": "Unify customer data with AI-powered insights. Customer Intelligence Hub helps GTM teams detect risk, uncover growth, and act faster with real-time context.",
+      "author": "Vidya Peri",
+      "publishedAt": "2026-05-28T22:49:56.000Z"
+    }
+  ],
+  "totalIndexed": 10
+}

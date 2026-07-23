@@ -1,0 +1,255 @@
+{
+  "feedId": "sentry",
+  "feedName": "Sentry Blog",
+  "feedSiteUrl": "https://blog.sentry.io",
+  "feedRssUrl": "https://blog.sentry.io/feed.xml",
+  "tags": [
+    "observability",
+    "debugging",
+    "performance"
+  ],
+  "updatedAt": "2026-07-23T11:14:17.708Z",
+  "items": [
+    {
+      "guid": "https://blog.sentry.io/godot-dotnet-ga/",
+      "title": ".NET support for Godot is now generally available",
+      "link": "https://blog.sentry.io/godot-dotnet-ga/",
+      "summary": "Sentry's Godot Engine SDK 2.0.0 brings C#/.NET error reporting and application metrics to general availability.",
+      "author": null,
+      "publishedAt": "2026-07-22T09:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.sentry.io/structure-a-log/",
+      "title": "How to structure a log",
+      "link": "https://blog.sentry.io/structure-a-log/",
+      "summary": "A practical guide to writing structured, queryable, lint-enforceable logs with consistent event names, attributes, severity, and schema checks.",
+      "author": null,
+      "publishedAt": "2026-07-21T09:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.sentry.io/mongodb-query-tracing-dotnet-sentry/",
+      "title": "MongoDB Query Tracing in .NET with Sentry + OTLP",
+      "link": "https://blog.sentry.io/mongodb-query-tracing-dotnet-sentry/",
+      "summary": "Trace MongoDB queries in .NET using OpenTelemetry and Sentry's OTLP ingestion. See spans, query data, and error correlation in Sentry.",
+      "author": null,
+      "publishedAt": "2026-07-20T09:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.sentry.io/seer-agent-page-context/",
+      "title": "Your agent should understand what you see",
+      "link": "https://blog.sentry.io/seer-agent-page-context/",
+      "summary": "How Sentry replaced ASCII page snapshots with structured semantic context to make Seer Agent faster, cheaper, and ready for agentic actions.",
+      "author": null,
+      "publishedAt": "2026-07-16T09:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.sentry.io/logging-best-practices/",
+      "title": "When and what should I be logging?",
+      "link": "https://blog.sentry.io/logging-best-practices/",
+      "summary": "Learn logging best practices: what to log, how to structure messages, and what to avoid. Practical tips with Sentry's structured logging.",
+      "author": null,
+      "publishedAt": "2026-07-09T09:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.sentry.io/apple-update-breaks-app/",
+      "title": "Any Apple update can break our app. Here's how we find out first.",
+      "link": "https://blog.sentry.io/apple-update-breaks-app/",
+      "summary": "How the Usage app uses Sentry to catch crashes, silent errors, and build regressions before 1.6 million users notice.",
+      "author": null,
+      "publishedAt": "2026-07-02T09:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.sentry.io/spot-checking-ai-agents/",
+      "title": "Reading the agent traces is how you make the call your eval can't",
+      "link": "https://blog.sentry.io/spot-checking-ai-agents/",
+      "summary": "I gave the free tier a cheaper model and it invented conference speakers who don't exist. What that taught me about model tradeoffs, evals, and reading agent traces.",
+      "author": null,
+      "publishedAt": "2026-07-01T09:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.sentry.io/nextjs-export-traces-opentelemetry/",
+      "title": "Next.js already traces your requests. Here's how to export them with OpenTelemetry.",
+      "link": "https://blog.sentry.io/nextjs-export-traces-opentelemetry/",
+      "summary": "Next.js creates OpenTelemetry traces automatically. Learn how to export them to Sentry or any OTLP backend with @vercel/otel.",
+      "author": null,
+      "publishedAt": "2026-06-29T09:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.sentry.io/enhancing-issue-grouping/",
+      "title": "Better, faster, less wrong: Enhancing issue grouping",
+      "link": "https://blog.sentry.io/enhancing-issue-grouping/",
+      "summary": "Sentry's new AI grouping model prevents 20% more duplicate issues while cutting incorrect merges in half. Here's how we trained and deployed it.",
+      "author": null,
+      "publishedAt": "2026-06-12T09:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.sentry.io/snapshots-available-beta/",
+      "title": "Catch visual regressions with Snapshots, now in beta",
+      "link": "https://blog.sentry.io/snapshots-available-beta/",
+      "summary": "Sentry Snapshots is now in beta. Get screenshot diffing in CI to catch unintended visual changes on every commit, for any platform with a frontend.",
+      "author": null,
+      "publishedAt": "2026-06-11T09:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.sentry.io/ai-bug-reproduction/",
+      "title": "Works on my machine: how we use AI to reproduce reported bugs",
+      "link": "https://blog.sentry.io/ai-bug-reproduction/",
+      "summary": "How Sentry's SDK team built a Claude skill to auto-reproduce bug reports, reducing triage time across 159 packages.",
+      "author": null,
+      "publishedAt": "2026-06-08T09:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.sentry.io/errors-traces-logs-metrics-when-to-reach-for-what/",
+      "title": "Errors, traces, logs, metrics: when to reach for what",
+      "link": "https://blog.sentry.io/errors-traces-logs-metrics-when-to-reach-for-what/",
+      "summary": "Errors, traces, logs, and metrics overlap enough that it's hard to know which to use. Here's when to reach for each signal, with a real debugging walkthrough.",
+      "author": null,
+      "publishedAt": "2026-06-05T09:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.sentry.io/cut-build-times-delete-cms/",
+      "title": "How we cut build times by two-thirds by deleting our CMS",
+      "link": "https://blog.sentry.io/cut-build-times-delete-cms/",
+      "summary": "Sentry replaced its CMS with Astro, Markdown, and Claude Code skills — cutting build times from 14 to under 4 minutes and eliminating API failures.",
+      "author": null,
+      "publishedAt": "2026-05-28T09:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.sentry.io/sentry-opentelemetry-work-together/",
+      "title": "You don’t need to pick one: how Sentry and OpenTelemetry work together",
+      "link": "https://blog.sentry.io/sentry-opentelemetry-work-together/",
+      "summary": "Use Sentry on the frontend, keep OpenTelemetry on the backend, and choose direct OTLP or Collector forwarding for OTLP events.",
+      "author": null,
+      "publishedAt": "2026-05-27T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.sentry.io/agents-need-production-context/",
+      "title": "Your agent can't fix what it can't see",
+      "link": "https://blog.sentry.io/agents-need-production-context/",
+      "summary": "Agents can't fix bugs they can't see. Learn how Sentry MCP and CLI give coding agents the production context to diagnose and fix issues automatically.",
+      "author": null,
+      "publishedAt": "2026-05-26T16:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.sentry.io/product-analytics-you-already-have/",
+      "title": "The product analytics you already have",
+      "link": "https://blog.sentry.io/product-analytics-you-already-have/",
+      "summary": "Your Sentry traces, logs, and metrics already answer most product analytics questions. Learn how to query existing telemetry for product insights.",
+      "author": null,
+      "publishedAt": "2026-05-21T09:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.sentry.io/dashboard-updates/",
+      "title": "New ways to agentically build and edit dashboards",
+      "link": "https://blog.sentry.io/dashboard-updates/",
+      "summary": "Create and edit Sentry dashboards with AI agents, the Sentry CLI, or pre-built templates you can clone and customize for your monitoring needs.",
+      "author": null,
+      "publishedAt": "2026-05-14T09:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.sentry.io/nextjs-supabase-observability/",
+      "title": "From vibe code to production-ready: observability for Next.js and Supabase apps",
+      "link": "https://blog.sentry.io/nextjs-supabase-observability/",
+      "summary": "Instrument Next.js and Supabase with Sentry to get unified errors, distributed traces, logs, performance insights, and AI-assisted fixes.",
+      "author": null,
+      "publishedAt": "2026-05-11T09:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.sentry.io/unreal-engine-performance-metrics/",
+      "title": "Monitor Unreal Engine Game Performance with Application Metrics",
+      "link": "https://blog.sentry.io/unreal-engine-performance-metrics/",
+      "summary": "The Unreal SDK now auto-instruments FPS, frame time, network health, and game stats, giving your team real player performance data in production.",
+      "author": null,
+      "publishedAt": "2026-05-08T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.sentry.io/fixing-javascript-observability/",
+      "title": "Fixing JavaScript observability, one library at a time",
+      "link": "https://blog.sentry.io/fixing-javascript-observability/",
+      "summary": "Sentry is adding TracingChannel support to 44 JavaScript libraries upstream, replacing fragile monkey-patching with native observability that works across all runtimes.",
+      "author": null,
+      "publishedAt": "2026-05-07T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.sentry.io/debugging-expo-react-native-sdk/",
+      "title": "Improved debugging for Expo apps with the React Native SDK",
+      "link": "https://blog.sentry.io/debugging-expo-react-native-sdk/",
+      "summary": "Sentry's React Native SDK now gives Expo apps OTA update context, emergency launch detection, EAS build hooks, and navigation performance spans.",
+      "author": null,
+      "publishedAt": "2026-05-06T09:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.sentry.io/introducing-application-metrics/",
+      "title": "Introducing Application Metrics: Track the signal, see the spike, jump to the trace",
+      "link": "https://blog.sentry.io/introducing-application-metrics/",
+      "summary": "We just launched Application Metrics, a new way to track critical signals in your application. It lets you understand your users with context and catch problems before they become errors.",
+      "author": null,
+      "publishedAt": "2026-05-05T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.sentry.io/sentry-stripe-projects/",
+      "title": "Two commands to Sentry: now on Stripe Projects",
+      "link": "https://blog.sentry.io/sentry-stripe-projects/",
+      "summary": "Sentry is now a provider in Stripe Projects. Provision error monitoring, upgrade plans, and open your dashboard from the CLI or from your coding agent.",
+      "author": null,
+      "publishedAt": "2026-04-29T07:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.sentry.io/perforce-integration-ga/",
+      "title": "Sentry's integration with Perforce is now generally available",
+      "link": "https://blog.sentry.io/perforce-integration-ga/",
+      "summary": "Sentry's Perforce P4 integration is now GA, bringing stack trace linking, suspect commits, and on-demand source context to game dev and VFX teams.",
+      "author": null,
+      "publishedAt": "2026-04-29T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.sentry.io/introducing-seer-agent/",
+      "title": "Introducing Seer Agent: The answer is already in Sentry. Now you can ask for it.",
+      "link": "https://blog.sentry.io/introducing-seer-agent/",
+      "summary": "Most AI debugging tools start from whatever you paste in. Seer Agent starts from everything Sentry already knows about your app. Now in open beta.",
+      "author": null,
+      "publishedAt": "2026-04-28T07:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.sentry.io/two-years-without-cookies-on-the-site/",
+      "title": "Two years without cookies on the site, here's where we ended up",
+      "link": "https://blog.sentry.io/two-years-without-cookies-on-the-site/",
+      "summary": "Two years after removing all advertising cookies from sentry.io, here's what changed: roughly 70% of our growth budget now goes to awareness, and new activated users have been growing exponentially.",
+      "author": null,
+      "publishedAt": "2026-04-27T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.sentry.io/scaling-observability-for-multi-agent-ai-systems/",
+      "title": "When agents orchestrate agents, who's watching?",
+      "link": "https://blog.sentry.io/scaling-observability-for-multi-agent-ai-systems/",
+      "summary": "Multi-agent AI systems fail silently. Learn what proper observability looks like when agents orchestrate agents, and how Sentry keeps you in control.",
+      "author": null,
+      "publishedAt": "2026-04-23T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.sentry.io/observability-with-tracing-channels/",
+      "title": "No more monkey-patching: Better observability with tracing channels",
+      "link": "https://blog.sentry.io/observability-with-tracing-channels/",
+      "summary": "Find out how Node.js Tracing Channels enable libraries to emit their own telemetry, replacing monkey-patching and fixing ESM observability.",
+      "author": null,
+      "publishedAt": "2026-04-21T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.sentry.io/debugging-multi-agent-ai-when-the-failure-is-in-the-space-between-agents/",
+      "title": "Debugging multi-agent AI: When the failure is in the space between agents",
+      "link": "https://blog.sentry.io/debugging-multi-agent-ai-when-the-failure-is-in-the-space-between-agents/",
+      "summary": "Multi-agent observability is exponentially harder than single-agent monitoring. Here's how to trace, debug, and monitor AI systems where agents orchestrate other agents.",
+      "author": null,
+      "publishedAt": "2026-04-16T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.sentry.io/native-crash-postmortems-via-android-tombstones/",
+      "title": "Grave improvements: Native crash postmortems via Android tombstones",
+      "link": "https://blog.sentry.io/native-crash-postmortems-via-android-tombstones/",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2026-04-15T00:00:00.000Z"
+    }
+  ],
+  "totalIndexed": 30
+}

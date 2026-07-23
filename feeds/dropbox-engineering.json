@@ -1,0 +1,95 @@
+{
+  "feedId": "dropbox-engineering",
+  "feedName": "Dropbox Engineering",
+  "feedSiteUrl": "https://dropbox.tech",
+  "feedRssUrl": "https://dropbox.tech/feed",
+  "tags": [
+    "distributed-systems",
+    "storage",
+    "infrastructure"
+  ],
+  "updatedAt": "2026-07-23T11:02:17.136Z",
+  "items": [
+    {
+      "guid": "https://dropbox.tech/infrastructure/how-our-universal-content-processing-platform-riviera-evolved-for-ai-and-beyond",
+      "title": "How our universal content processing platform Riviera evolved for AI and beyond",
+      "link": "https://dropbox.tech/infrastructure/how-our-universal-content-processing-platform-riviera-evolved-for-ai-and-beyond",
+      "summary": "Riviera is the Dropbox content processing platform that’s been iteratively improving content transformation in our products for roughly a decade.",
+      "author": "\r\n                            Andrew Cheung,Binoy Dash\r\n            \t\t\t",
+      "publishedAt": "2026-07-20T15:00:00.000Z"
+    },
+    {
+      "guid": "https://dropbox.tech/machine-learning/how-we-turned-ai-evaluations-into-better-responses-in-dash-chat",
+      "title": "How we used DSPy to turn AI evaluations into better responses in Dash chat",
+      "link": "https://dropbox.tech/machine-learning/how-we-turned-ai-evaluations-into-better-responses-in-dash-chat",
+      "summary": "We used DSPy to improve LLM judges and optimize our chat experience, creating an evaluation-driven feedback loop that produced better outputs.",
+      "author": "\r\n                            Andrew Cheung,Binoy Dash,Simran Jumani,Dmitriy Meyerzon\r\n            \t\t\t",
+      "publishedAt": "2026-06-25T16:30:00.000Z"
+    },
+    {
+      "guid": "https://dropbox.tech/security/dropbox-mcp-dash-design-code-security",
+      "title": "How Dropbox uses MCP and Dash to close the design-to-code security gap",
+      "link": "https://dropbox.tech/security/dropbox-mcp-dash-design-code-security",
+      "summary": "Using an agentic AI system to surface threat models during code review and spot gaps between security requirements and implementation.",
+      "author": "\r\n                            Andrew Cheung,Binoy Dash,Simran Jumani,Dmitriy Meyerzon,Mark Breitenbach,Ishan Mishra\r\n            \t\t\t",
+      "publishedAt": "2026-06-12T18:00:00.000Z"
+    },
+    {
+      "guid": "https://dropbox.tech/culture/beyond-code-generation-rethinking-engineering-productivity-in-the-age-of-ai-agents",
+      "title": "Beyond code generation: rethinking engineering productivity in the age of AI agents",
+      "link": "https://dropbox.tech/culture/beyond-code-generation-rethinking-engineering-productivity-in-the-age-of-ai-agents",
+      "summary": "How Dropbox is moving from AI tools that assist engineers to agentic systems that can execute scoped tasks, and how we’re building platforms to support those workflows.",
+      "author": "\r\n                            Andrew Cheung,Binoy Dash,Simran Jumani,Dmitriy Meyerzon,Mark Breitenbach,Ishan Mishra,Kazuaki Okumura\r\n            \t\t\t",
+      "publishedAt": "2026-05-28T18:00:00.000Z"
+    },
+    {
+      "guid": "https://dropbox.tech/machine-learning/introducing-nova-our-internal-platform-for-coding-agents",
+      "title": "Introducing Nova, our internal platform for coding agents",
+      "link": "https://dropbox.tech/machine-learning/introducing-nova-our-internal-platform-for-coding-agents",
+      "summary": "Nova lets engineers run multiple coding sessions in parallel and lets internal systems use AI agents as part of automated workflows.",
+      "author": "\r\n                            Andrew Cheung,Binoy Dash,Simran Jumani,Dmitriy Meyerzon,Mark Breitenbach,Ishan Mishra,Kazuaki Okumura,Mike White,Kevin Altschuler\r\n            \t\t\t",
+      "publishedAt": "2026-05-21T16:00:00.000Z"
+    },
+    {
+      "guid": "https://dropbox.tech/infrastructure/improving-storage-efficiency-in-magic-pocket-our-immutable-blob-store",
+      "title": "Improving storage efficiency in Magic Pocket, our immutable blob store",
+      "link": "https://dropbox.tech/infrastructure/improving-storage-efficiency-in-magic-pocket-our-immutable-blob-store",
+      "summary": "By turning compaction into a layered, adaptive pipeline and strengthening our monitoring and controls, we made Magic Pocket more resilient to workload changes.",
+      "author": "\r\n                            Andrew Cheung,Binoy Dash,Simran Jumani,Dmitriy Meyerzon,Mark Breitenbach,Ishan Mishra,Kazuaki Okumura,Mike White,Kevin Altschuler,Facundo Agriel\r\n            \t\t\t",
+      "publishedAt": "2026-04-02T17:00:00.000Z"
+    },
+    {
+      "guid": "https://dropbox.tech/infrastructure/reducing-our-monorepo-size-to-improve-developer-velocity",
+      "title": "Reducing our monorepo size to improve developer velocity",
+      "link": "https://dropbox.tech/infrastructure/reducing-our-monorepo-size-to-improve-developer-velocity",
+      "summary": "Monorepos will continue to grow as products evolve, but growth doesn’t have to mean friction.",
+      "author": "\r\n                            Andrew Cheung,Binoy Dash,Simran Jumani,Dmitriy Meyerzon,Mark Breitenbach,Ishan Mishra,Kazuaki Okumura,Mike White,Kevin Altschuler,Facundo Agriel,Ishan Mishra\r\n            \t\t\t",
+      "publishedAt": "2026-03-25T17:00:00.000Z"
+    },
+    {
+      "guid": "https://dropbox.tech/machine-learning/optimizing-dropbox-dash-relevance-judge-with-dspy",
+      "title": "How we optimized Dash's relevance judge with DSPy",
+      "link": "https://dropbox.tech/machine-learning/optimizing-dropbox-dash-relevance-judge-with-dspy",
+      "summary": "We used DSPy to turn prompt engineering for our relevance judge into a measurable, automated optimization loop, improving task performance, cost, and how reliably it works in production.",
+      "author": "\r\n                            Andrew Cheung,Binoy Dash,Simran Jumani,Dmitriy Meyerzon,Mark Breitenbach,Ishan Mishra,Kazuaki Okumura,Mike White,Kevin Altschuler,Facundo Agriel,Ishan Mishra,Eric Wang,Dmitriy Meyerzon\r\n            \t\t\t",
+      "publishedAt": "2026-03-17T17:00:00.000Z"
+    },
+    {
+      "guid": "https://dropbox.tech/machine-learning/llm-human-labeling-improving-search-relevance-dropbox-dash",
+      "title": "Using LLMs to amplify human labeling and improve Dash search relevance",
+      "link": "https://dropbox.tech/machine-learning/llm-human-labeling-improving-search-relevance-dropbox-dash",
+      "summary": "How we train Dash's search ranking models with a mix of human and LLM-assisted labeling.",
+      "author": "\r\n                            Andrew Cheung,Binoy Dash,Simran Jumani,Dmitriy Meyerzon,Mark Breitenbach,Ishan Mishra,Kazuaki Okumura,Mike White,Kevin Altschuler,Facundo Agriel,Ishan Mishra,Eric Wang,Dmitriy Meyerzon,Dmitriy Meyerzon\r\n            \t\t\t",
+      "publishedAt": "2026-02-26T17:00:00.000Z"
+    },
+    {
+      "guid": "https://dropbox.tech/machine-learning/how-low-bit-inference-enables-efficient-ai",
+      "title": "How low-bit inference enables efficient AI",
+      "link": "https://dropbox.tech/machine-learning/how-low-bit-inference-enables-efficient-ai",
+      "summary": "Making products like Dropbox Dash accessible to individuals and businesses means tackling new challenges around efficiency and resource use.",
+      "author": "\r\n                            Andrew Cheung,Binoy Dash,Simran Jumani,Dmitriy Meyerzon,Mark Breitenbach,Ishan Mishra,Kazuaki Okumura,Mike White,Kevin Altschuler,Facundo Agriel,Ishan Mishra,Eric Wang,Dmitriy Meyerzon,Dmitriy Meyerzon,Hicham Badri,Appu Shaji\r\n            \t\t\t",
+      "publishedAt": "2026-02-12T18:00:00.000Z"
+    }
+  ],
+  "totalIndexed": 10
+}

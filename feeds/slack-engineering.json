@@ -1,0 +1,79 @@
+{
+  "feedId": "slack-engineering",
+  "feedName": "Slack Engineering",
+  "feedSiteUrl": "https://slack.engineering",
+  "feedRssUrl": "https://slack.engineering/feed",
+  "tags": [
+    "backend",
+    "infrastructure",
+    "real-time"
+  ],
+  "updatedAt": "2026-07-23T11:00:39.805Z",
+  "items": [
+    {
+      "guid": "https://slack.engineering/?p=17832",
+      "title": "Shipyard: How We Built Slack’s Next-Generation EC2 Platform",
+      "link": "https://slack.engineering/shipyard-how-we-built-slacks-next-generation-ec2-platform/",
+      "summary": "Over the past few years, we’ve been on a journey to modernise how we run Amazon Elastic Compute Cloud (EC2) instances at Slack. In our first post, Advancing Our Chef Infrastructure, we shared how we moved from a single Chef stack to a resilient, multi-stack setup with versioned cookbook deployments…",
+      "author": "Archie Gunasekara",
+      "publishedAt": "2026-07-14T16:10:08.000Z"
+    },
+    {
+      "guid": "https://slack.engineering/?p=17854",
+      "title": "Agentic Testing: Where Agents Fit in the E2E Testing Stack",
+      "link": "https://slack.engineering/agentic-testing-where-agents-fit-in-the-e2e-testing-stack/",
+      "summary": "Abstract Agent-driven end-to-end (E2E) tests add a new exploratory layer to testing, but should they replace traditional deterministic tests? We ran more than 200 agentic E2E workflows using the Playwright MCP, Playwright CLI, and agent-generated Playwright tests in test workspaces using…",
+      "author": "Sergii Gorbachov",
+      "publishedAt": "2026-06-11T14:15:28.000Z"
+    },
+    {
+      "guid": "https://slack.engineering/?p=17812",
+      "title": "Slack AI: The Path to Multi-Cloud",
+      "link": "https://slack.engineering/slack-ai-the-path-to-multi-cloud/",
+      "summary": "In early 2023, Slack faced a foundational challenge: serving Large Language Models (LLMs) at enterprise scale with the security, reliability, and performance our customers expect. Over three years, we evolved from basic infrastructure to orchestrating a sophisticated multi-cloud architecture. We…",
+      "author": "Shaurya Kethireddy",
+      "publishedAt": "2026-05-28T14:15:20.000Z"
+    },
+    {
+      "guid": "https://slack.engineering/?p=17774",
+      "title": "From SSH to REST: A Security-Driven Modernization of Slack’s EMR Data Pipelines",
+      "link": "https://slack.engineering/from-ssh-to-rest-a-security-driven-modernization-of-slacks-emr-data-pipelines/",
+      "summary": "Excerpt By 2024, Slack’s data platform had accumulated 700+ SSH-based operators orchestrating critical data pipelines. We’re talking daily search indexing that processed terabytes of data, analytics jobs powering business intelligence, the whole shebang. Every single one of these jobs required…",
+      "author": "Mahendran Vasagam",
+      "publishedAt": "2026-05-05T14:00:01.000Z"
+    },
+    {
+      "guid": "https://slack.engineering/?p=17752",
+      "title": "Managing context in long-run agentic applications",
+      "link": "https://slack.engineering/managing-context-in-long-run-agentic-applications/",
+      "summary": "Excerpt In complex, long-running agentic systems, maintaining alignment and coherent reasoning between agents requires careful design. In this second article of our series, we explore these challenges and the mechanisms we built to keep teams of agents working productively over long time spans. We…",
+      "author": "Dominic Marks",
+      "publishedAt": "2026-04-13T17:17:16.000Z"
+    },
+    {
+      "guid": "https://slack.engineering/?p=17732",
+      "title": "From Custom to Open: Scalable Network Probing and HTTP/3 Readiness with Prometheus",
+      "link": "https://slack.engineering/from-custom-to-open-scalable-network-probing-and-http-3-readiness-with-prometheus/",
+      "summary": "The Problem: Legacy Tooling and Its Limitations Currently, Slack utilizes a hybrid approach to network measurement, incorporating both internal (such as traffic between AWS Availability Zones) and external (monitoring traffic from the public internet into Slack’s infrastructure) solutions. These…",
+      "author": "Carlo Preciado",
+      "publishedAt": "2026-03-31T17:00:39.000Z"
+    },
+    {
+      "guid": "https://slack.engineering/?p=17695",
+      "title": "How Slack Rebuilt Notifications 📣",
+      "link": "https://slack.engineering/how-slack-rebuilt-notifications/",
+      "summary": "Introduction 🔔  At Slack, notifications are how teams stay in the loop, but they can also become overwhelming when not designed with intention. Our goal was to make staying informed feel effortless. We set out to rebuild one of Slack’s most complicated systems from the ground up by bringing calm,…",
+      "author": "Frances Coronel",
+      "publishedAt": "2026-03-19T19:00:54.000Z"
+    },
+    {
+      "guid": "https://slack.engineering/?p=17645",
+      "title": "Streamlining Security Investigations with Agents",
+      "link": "https://slack.engineering/streamlining-security-investigations-with-agents/",
+      "summary": "Slack’s Security Engineering team is responsible for protecting Slack’s core infrastructure and services. Our security event ingestion pipeline handles billions of events per day from a diverse array of data sources. Reviewing alerts produced by our security detection system is our primary…",
+      "author": "Dominic Marks",
+      "publishedAt": "2025-12-01T16:00:42.000Z"
+    }
+  ],
+  "totalIndexed": 8
+}

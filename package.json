@@ -1,0 +1,20 @@
+{
+  "name": "100xsystems-registry-feeds",
+  "version": "1.0.0",
+  "private": true,
+  "description": "100xSystems Registry — RSS feed metadata index. Stores only article metadata (title, link, summary, publishedAt). Never stores article content.",
+  "scripts": {
+    "update-feeds": "tsx scripts/update-feeds.ts",
+    "historical-import": "tsx scripts/update-feeds.ts --historical --limit=500",
+    "crawl-sitemap": "tsx scripts/crawl-sitemap.ts"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^5.2.0",
+    "rss-parser": "^3.13.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  }
+}

@@ -1,0 +1,415 @@
+{
+  "feedId": "redis-blog",
+  "feedName": "Redis Engineering",
+  "feedSiteUrl": "https://redis.io/blog",
+  "feedRssUrl": "https://redis.io/blog/feed",
+  "tags": [
+    "databases",
+    "caching",
+    "performance"
+  ],
+  "updatedAt": "2026-07-23T11:12:48.911Z",
+  "items": [
+    {
+      "guid": "https://redis.io/blog/context-assembly-building-the-prompt-the-model-sees/",
+      "title": "Context assembly: building the prompt the model actually sees",
+      "link": "https://redis.io/blog/context-assembly-building-the-prompt-the-model-sees/",
+      "summary": "The prompt a production LLM receives is almost never something a person wrote. By the time a request reaches the model, your app has stitched together system instructions, retrieved documents, conversation history, tool schemas, and stored memories in...",
+      "author": "Jeff Mills",
+      "publishedAt": "2026-07-22T00:00:00.000Z"
+    },
+    {
+      "guid": "https://redis.io/blog/mcp-vs-a2a-which-protocol-do-you-need/",
+      "title": "Model Context Protocol (MCP) vs. Agent2Agent (A2A): which protocol do you need?",
+      "link": "https://redis.io/blog/mcp-vs-a2a-which-protocol-do-you-need/",
+      "summary": "Somewhere around your third agent, someone in a design review asks, \"Shouldn't we be using A2A for this?\" It's a fair question that most teams can't answer well, because the two big agent protocols keep getting lumped together when they solve differen...",
+      "author": "Jeff Mills",
+      "publishedAt": "2026-07-22T00:00:00.000Z"
+    },
+    {
+      "guid": "https://redis.io/blog/5-agent-architectures-mcp-a2a-protocol-guide/",
+      "title": "5 agent architecture scenarios: assess MCP vs. A2A",
+      "link": "https://redis.io/blog/5-agent-architectures-mcp-a2a-protocol-guide/",
+      "summary": "We've watched enterprise teams go from vague \"we might do agent stuff\" conversations to full internal agent environments in a matter of months, and the same protocol question comes up in almost every one: does the design need the Model Context Protoco...",
+      "author": "Jeff Mills",
+      "publishedAt": "2026-07-22T00:00:00.000Z"
+    },
+    {
+      "guid": "https://redis.io/blog/rag-debugging-guide-retrieval-errors/",
+      "title": "RAG debugging guide: fast ways to reduce retrieval errors",
+      "link": "https://redis.io/blog/rag-debugging-guide-retrieval-errors/",
+      "summary": "Your RAG-backed support assistant just told a customer the refund window is 30 days. It's 14. The retrieval logs look clean: chunks came back, latency was normal, nothing errored. That's what makes RAG failures slippery. The pipeline still returns an ...",
+      "author": "Jeff Mills",
+      "publishedAt": "2026-07-21T00:00:00.000Z"
+    },
+    {
+      "guid": "https://redis.io/blog/cache-consistency-strategies/",
+      "title": "Cache consistency: strategies to keep data fresh",
+      "link": "https://redis.io/blog/cache-consistency-strategies/",
+      "summary": "A cache that has drifted from your database will happily serve wrong prices, expired permissions, or phantom inventory, and it won't feel a shred of guilt about it. Cache consistency is the discipline behind keeping that drift small, so cached values ...",
+      "author": "Jeff Mills",
+      "publishedAt": "2026-07-20T00:00:00.000Z"
+    },
+    {
+      "guid": "https://redis.io/blog/real-time-context-ai-agents-fresh-inputs/",
+      "title": "Real-time context: keeping agent inputs fresh on every step",
+      "link": "https://redis.io/blog/real-time-context-ai-agents-fresh-inputs/",
+      "summary": "Your AI agent issued the refund. It read the customer's tier, checked the return window, confirmed the policy, and processed it in seconds. The problem: the return window had closed four minutes earlier when a batch job updated the order status, and t...",
+      "author": "Jeff Mills",
+      "publishedAt": "2026-07-15T00:00:00.000Z"
+    },
+    {
+      "guid": "https://redis.io/blog/ceo-rowan-trollopes-organizational-announcement-to-redis-employees/",
+      "title": "CEO Rowan Trollope’s organizational announcement to Redis employees",
+      "link": "https://redis.io/blog/ceo-rowan-trollopes-organizational-announcement-to-redis-employees/",
+      "summary": "Today, we are announcing an organizational change at Redis, including a reduction of approximately 200 roles globally and a realignment of roles, teams, and priorities across the company.\n\nThis is a difficult decision because it affects people who hav...",
+      "author": "Rowan Trollope",
+      "publishedAt": "2026-07-15T00:00:00.000Z"
+    },
+    {
+      "guid": "https://redis.io/blog/agent-interoperability-complete-integration-guide/",
+      "title": "Agent interoperability: a complete explainer",
+      "link": "https://redis.io/blog/agent-interoperability-complete-integration-guide/",
+      "summary": "You built a research AI agent in the LangGraph framework. Another team shipped a customer-service agent in CrewAI. A third team wired up tools through the OpenAI Agents SDK. Now leadership asks: can these things work together? For most teams, the hone...",
+      "author": "Jeff Mills",
+      "publishedAt": "2026-07-14T00:00:00.000Z"
+    },
+    {
+      "guid": "https://redis.io/blog/vector-embeddings-explained/",
+      "title": "Vector embeddings explained: from theory to real-world use",
+      "link": "https://redis.io/blog/vector-embeddings-explained/",
+      "summary": "Type \"songs for a rainy Sunday morning\" into a music app and you'll get results that match the mood, even though none of those words appear in the track titles. That kind of result is often powered by vector embeddings, numerical representations of me...",
+      "author": "Jeff Mills",
+      "publishedAt": "2026-07-13T00:00:00.000Z"
+    },
+    {
+      "guid": "https://redis.io/blog/dynamic-chunking-rag-real-time-optimization/",
+      "title": "Dynamic chunking for RAG: building context infrastructure that adapts",
+      "link": "https://redis.io/blog/dynamic-chunking-rag-real-time-optimization/",
+      "summary": "Most teams pick a chunk size once and never touch it again. Copy the settings a tutorial used (usually 512-token chunks with 50 tokens of overlap between them), and ship it. Then the corpus grows, the queries get stranger, and that early choice quietl...",
+      "author": "Jeff Mills",
+      "publishedAt": "2026-07-11T00:00:00.000Z"
+    },
+    {
+      "guid": "https://redis.io/blog/best-databases-for-agent-memory/",
+      "title": "Best databases for agent memory: Redis vs. Pinecone vs. MongoDB vs. Weaviate",
+      "link": "https://redis.io/blog/best-databases-for-agent-memory/",
+      "summary": "AI agents don't have one memory requirement. They have three: recalling what happened seconds ago, retrieving what they learned weeks ago, and tracking what they're doing right now. Most databases handle one of those patterns well, which is why so man...",
+      "author": "Jeff Mills",
+      "publishedAt": "2026-07-10T00:00:00.000Z"
+    },
+    {
+      "guid": "https://redis.io/blog/multi-step-ai-agents/",
+      "title": "Multi-step AI agents: what they are & how they work",
+      "link": "https://redis.io/blog/multi-step-ai-agents/",
+      "summary": "You ask a chatbot to summarize a long email thread, and it hands back a tidy paragraph. Useful, but that's a single-step system—one prompt, one response, done. A multi-step AI agent works differently. Ask it the same question, and it can check your or...",
+      "author": "Jim Allen Wallace",
+      "publishedAt": "2026-07-07T00:00:00.000Z"
+    },
+    {
+      "guid": "https://redis.io/blog/whats-new-in-two-june-2026-edition/",
+      "title": "What’s new in two: June 2026 edition",
+      "link": "https://redis.io/blog/whats-new-in-two-june-2026-edition/",
+      "summary": "Welcome back to “What’s new in two,” your quick hit of Redis releases you might’ve missed over the last month. Summer might be here, but product releases apparently don't take vacations. We're covering the biggest updates from June and expanding on wh...",
+      "author": "Talon Miller",
+      "publishedAt": "2026-07-06T00:00:00.000Z"
+    },
+    {
+      "guid": "https://redis.io/blog/does-quantization-speed-up-inference/",
+      "title": "Does quantization speed up inference?",
+      "link": "https://redis.io/blog/does-quantization-speed-up-inference/",
+      "summary": "Running a large language model isn't cheap. Every response burns GPU time, memory, and money, and those costs grow as your app grows. Quantization is one of the most common tricks for making models cheaper and faster to run, which is why you'll see it...",
+      "author": "Jim Allen Wallace",
+      "publishedAt": "2026-07-05T00:00:00.000Z"
+    },
+    {
+      "guid": "https://redis.io/blog/agentic-ai-testing-guide-methods-best-practices/",
+      "title": "Agentic AI testing guide: methods & best practices",
+      "link": "https://redis.io/blog/agentic-ai-testing-guide-methods-best-practices/",
+      "summary": "It's 3 AM and your agent is confidently booking the wrong flight, calling a deprecated API, and burning through tokens on a retry loop no one wrote. It passed every staging test last week. That gap between \"works in staging\" and \"survives production\" ...",
+      "author": "Jim Allen Wallace",
+      "publishedAt": "2026-07-04T00:00:00.000Z"
+    },
+    {
+      "guid": "https://redis.io/blog/tail-latency-why-slowest-requests-matter-most/",
+      "title": "Tail latency: why the slowest requests matter most",
+      "link": "https://redis.io/blog/tail-latency-why-slowest-requests-matter-most/",
+      "summary": "Tail latency is the handful of requests that take far longer than the rest, hiding inside an average that looks perfectly fine. Your dashboard shows a 50ms average, everyone seems happy, and then support tickets start piling up about the app feeling s...",
+      "author": "Jim Allen Wallace",
+      "publishedAt": "2026-07-04T00:00:00.000Z"
+    },
+    {
+      "guid": "https://redis.io/blog/cache-layer-architecture-guide/",
+      "title": "Cache layer architecture: a practical guide to speed & scale",
+      "link": "https://redis.io/blog/cache-layer-architecture-guide/",
+      "summary": "Your app works fine with a thousand users. Then traffic spikes, requests hammer the same database systems, and response times crawl. A cache layer sits between your app and your slower data stores to absorb that load. Done well, it turns slow database...",
+      "author": "Jim Allen Wallace",
+      "publishedAt": "2026-07-04T00:00:00.000Z"
+    },
+    {
+      "guid": "https://redis.io/blog/semantic-overload-ai-agents-facts-relationships/",
+      "title": "Semantic overload: why AI agents get facts wrong",
+      "link": "https://redis.io/blog/semantic-overload-ai-agents-facts-relationships/",
+      "summary": "Your AI agent confidently tells a user that the company's parental leave policy is 12 weeks. It's been 16 for the past year. The old HR handbook, the updated one, and the Slack announcement that changed it are all sitting in the retrieval index. The a...",
+      "author": "Jim Allen Wallace",
+      "publishedAt": "2026-07-02T00:00:00.000Z"
+    },
+    {
+      "guid": "https://redis.io/blog/llm-router-architecture-best-practices/",
+      "title": "LLM router architecture: best practices for 2026",
+      "link": "https://redis.io/blog/llm-router-architecture-best-practices/",
+      "summary": "You picked GPT-5 for every LLM call in your app because it was the safe call: chat, autocomplete, classification, summarization, all of it. Then the bill arrived, and you traced part of it back to queries like \"what are your business hours?\" getting r...",
+      "author": "Jim Allen Wallace",
+      "publishedAt": "2026-07-01T00:00:00.000Z"
+    },
+    {
+      "guid": "https://redis.io/blog/token-efficiency-signal-context-window/",
+      "title": "Token efficiency: getting more signal into the context window",
+      "link": "https://redis.io/blog/token-efficiency-signal-context-window/",
+      "summary": "You've probably hit this counterintuitive moment: you give your model more context to work with, expecting better answers, and the answers get worse. More tokens were supposed to mean more information, more grounding, fewer hallucinations. Instead, yo...",
+      "author": "Jim Allen Wallace",
+      "publishedAt": "2026-07-01T00:00:00.000Z"
+    },
+    {
+      "guid": "https://redis.io/blog/best-open-source-vector-databases-comparison/",
+      "title": "Comparing the best open source vector databases",
+      "link": "https://redis.io/blog/best-open-source-vector-databases-comparison/",
+      "summary": "Open source vector databases come in two flavors: specialized tools that handle vectors and nothing else, or unified platforms that combine vector search with operational data and caching. Many teams end up managing three systems: a vector database, a...",
+      "author": "James Tessier",
+      "publishedAt": "2026-07-01T00:00:00.000Z"
+    },
+    {
+      "guid": "https://redis.io/blog/build-smarter-ai-agents-manage-short-term-and-long-term-memory-with-redis/",
+      "title": "Build AI agents with short-term & long-term memory in Redis",
+      "link": "https://redis.io/blog/build-smarter-ai-agents-manage-short-term-and-long-term-memory-with-redis/",
+      "summary": "AI agent memory is the system that lets an agent store, retrieve, and reuse information across interactions instead of starting over on every request. Getting there is one of the trickier parts of building AI agents. Large language models (LLMs) are s...",
+      "author": "Jim Allen Wallace",
+      "publishedAt": "2026-07-01T00:00:00.000Z"
+    },
+    {
+      "guid": "https://redis.io/blog/knowledge-graph-rag-structured-retrieval-ai-agents/",
+      "title": "Knowledge graph retrieval-augmented generation (RAG): structured retrieval for AI agents",
+      "link": "https://redis.io/blog/knowledge-graph-rag-structured-retrieval-ai-agents/",
+      "summary": "A user asks your support agent: \"is the slow-sync bug from my last ticket fixed in the version you told me to upgrade to?\" Answering means connecting three documents: the customer's earlier ticket, the new release notes, and the engineering issue the ...",
+      "author": "Jim Allen Wallace",
+      "publishedAt": "2026-06-24T00:00:00.000Z"
+    },
+    {
+      "guid": "https://redis.io/blog/context-engineering-vs-prompt-engineering/",
+      "title": "Context engineering vs prompt engineering: the real difference",
+      "link": "https://redis.io/blog/context-engineering-vs-prompt-engineering/",
+      "summary": "A customer asks your support agent whether their refund went through. The agent checks, says yes, and cites a confirmation number. The refund actually bounced back twenty minutes ago, but the lookup the agent ran hit a store that only syncs overnight....",
+      "author": "Jim Allen Wallace",
+      "publishedAt": "2026-06-23T00:00:00.000Z"
+    },
+    {
+      "guid": "https://redis.io/blog/sub-agents-splitting-context-specialized-ai-agents/",
+      "title": "Sub-agents: splitting context across specialized AI agents",
+      "link": "https://redis.io/blog/sub-agents-splitting-context-specialized-ai-agents/",
+      "summary": "If you've ever watched a single AI agent lose the plot on a complex task, you've probably wondered whether splitting the work across multiple agents would help. It can. But the split comes with its own headaches. Agents lose track of each other's work...",
+      "author": "Jim Allen Wallace",
+      "publishedAt": "2026-06-22T00:00:00.000Z"
+    },
+    {
+      "guid": "https://redis.io/blog/dynamic-batching-guide/",
+      "title": "Dynamic batching: a practical how-to guide",
+      "link": "https://redis.io/blog/dynamic-batching-guide/",
+      "summary": "You're load-testing a new inference endpoint before rollout. Traffic looks healthy on the client side, but your GPU dashboard tells a different story: utilization stuck at low single digits while requests arrive one at a time. That gap between what yo...",
+      "author": "Jim Allen Wallace",
+      "publishedAt": "2026-06-21T00:00:00.000Z"
+    },
+    {
+      "guid": "https://redis.io/blog/why-bigger-context-window-wont-fix-agent-memory/",
+      "title": "Why a bigger context window won't fix your agent's memory",
+      "link": "https://redis.io/blog/why-bigger-context-window-wont-fix-agent-memory/",
+      "summary": "Context windows have grown fast. Models that once capped out at a few thousand tokens now advertise hundreds of thousands, and the natural assumption was that the agent memory problem would shrink as the window grew. Stuff more into the prompt, the th...",
+      "author": "Jim Allen Wallace",
+      "publishedAt": "2026-06-17T00:00:00.000Z"
+    },
+    {
+      "guid": "https://redis.io/blog/ai-agent-memory-vs-retrieval/",
+      "title": "Retrieval vs. memory in AI agents: why context layers need both",
+      "link": "https://redis.io/blog/ai-agent-memory-vs-retrieval/",
+      "summary": "A returning user asks your agent why their bill doubled this month. The agent greets them by name, pulls up last week's billing dispute, and references the workaround your team suggested. Then it confidently quotes a pricing policy that was retired th...",
+      "author": "Jim Allen Wallace",
+      "publishedAt": "2026-06-17T00:00:00.000Z"
+    },
+    {
+      "guid": "https://redis.io/blog/faq-real-time-context-engine-agent-memory-and-retrieval/",
+      "title": "FAQ: Real-time context engine, agent memory, and retrieval",
+      "link": "https://redis.io/blog/faq-real-time-context-engine-agent-memory-and-retrieval/",
+      "summary": "AI agents are getting better at reasoning, planning, and using tools. But even the smartest model can give a bad answer if it has the wrong context, stale data, or too much irrelevant information.\n\nThat is why context engineering is becoming a critica...",
+      "author": "Simba Khadder",
+      "publishedAt": "2026-06-17T00:00:00.000Z"
+    },
+    {
+      "guid": "https://redis.io/blog/ai-agent-context-limit-recovery-playbook/",
+      "title": "Your agent hit the context limit. Here's the playbook",
+      "link": "https://redis.io/blog/ai-agent-context-limit-recovery-playbook/",
+      "summary": "Your agent was humming along, then it stopped mid-task and declared the job done when it wasn't. One common cause is the AI context limit, a hard ceiling on how many tokens a model can hold in its working memory at once. The frustrating part: this oft...",
+      "author": "Jim Allen Wallace",
+      "publishedAt": "2026-06-15T00:00:00.000Z"
+    },
+    {
+      "guid": "https://redis.io/blog/context-engineering-principles-production-ai-agents/",
+      "title": "Five context-engineering principles that survive production",
+      "link": "https://redis.io/blog/context-engineering-principles-production-ai-agents/",
+      "summary": "Your agent passes every test you throw at it. The demo is clean, the eval suite is green, and you ship. Then a week later, the support tickets start: agents looping, costs spiking, responses that confidently cite facts that were never true. The model ...",
+      "author": "Jim Allen Wallace",
+      "publishedAt": "2026-06-14T00:00:00.000Z"
+    },
+    {
+      "guid": "https://redis.io/blog/ai-agent-access-control/",
+      "title": "AI agent access control: a practical guide",
+      "link": "https://redis.io/blog/ai-agent-access-control/",
+      "summary": "Picture a support agent that's authorized to read customer tickets, summarize them, and draft replies. A user asks it to \"pull up everything related to account 4471's billing dispute.\" The agent authenticates fine, queries the vector store, and return...",
+      "author": "Jim Allen Wallace",
+      "publishedAt": "2026-06-12T00:00:00.000Z"
+    },
+    {
+      "guid": "https://redis.io/blog/what-model-context-protocol-gives-your-agents/",
+      "title": "What Model Context Protocol gives your agents & what it leaves to you",
+      "link": "https://redis.io/blog/what-model-context-protocol-gives-your-agents/",
+      "summary": "If you've shipped an AI agent that connects to tools, you've probably felt the relief of having one standard way to wire it all up. Model Context Protocol (MCP) handles that part well. But there's a gap that catches a lot of teams off guard: your agen...",
+      "author": "Jim Allen Wallace",
+      "publishedAt": "2026-06-12T00:00:00.000Z"
+    },
+    {
+      "guid": "https://redis.io/blog/connect-your-redis-index-to-ai-agents-with-redisvl-mcp/",
+      "title": "Connect Your Redis index to AI agents with RedisVL MCP",
+      "link": "https://redis.io/blog/connect-your-redis-index-to-ai-agents-with-redisvl-mcp/",
+      "summary": "If you already use Redis for search, retrieval, or application memory, the RedisVL MCP is a practical next step: making that data available to agents without rebuilding your integration for every framework.\n\nAs teams connect indexed data to agents, th...",
+      "author": "Vishal Bala",
+      "publishedAt": "2026-06-11T00:00:00.000Z"
+    },
+    {
+      "guid": "https://redis.io/blog/real-time-fraud-detection/",
+      "title": "Real-time fraud detection for financial transactions",
+      "link": "https://redis.io/blog/real-time-fraud-detection/",
+      "summary": "When a customer taps \"pay,\" a clock starts that your fraud system can't pause. The payment authorization resolves in a fixed window whether your model has scored the transaction or not. If it hasn't, the payment either gets declined or clears without ...",
+      "author": "Jim Allen Wallace",
+      "publishedAt": "2026-06-10T00:00:00.000Z"
+    },
+    {
+      "guid": "https://redis.io/blog/context-window-ai/",
+      "title": "Context windows in AI: why every token is a budget decision",
+      "link": "https://redis.io/blog/context-window-ai/",
+      "summary": "Some of today's most capable LLMs now support very large context windows. That doesn't mean you should fill them. Context windows have grown fast, but the underlying cost and quality tradeoffs haven't gone away. They've just gotten easier to ignore.\n\n...",
+      "author": "Jim Allen Wallace",
+      "publishedAt": "2026-06-10T00:00:00.000Z"
+    },
+    {
+      "guid": "https://redis.io/blog/connecting-to-redis-cloud-with-aws-privatelink-vs-vpc-peering/",
+      "title": "Connecting to Redis Cloud with AWS PrivateLink vs. VPC peering",
+      "link": "https://redis.io/blog/connecting-to-redis-cloud-with-aws-privatelink-vs-vpc-peering/",
+      "summary": "AWS PrivateLink resource endpoints are now generally available across all Redis Cloud Pro subscription types, including Redis Flex and Active-Active deployments. That means you can connect apps to Redis Cloud through a private, scoped endpoint without...",
+      "author": "Jonathan Salomon, Paulo Sousa",
+      "publishedAt": "2026-06-10T00:00:00.000Z"
+    },
+    {
+      "guid": "https://redis.io/blog/ai-agent-context/",
+      "title": "Context engineering for AI agents: the infrastructure behind every decision",
+      "link": "https://redis.io/blog/ai-agent-context/",
+      "summary": "Your agent is only as good as the information it can see at decision time. The data sitting in your infrastructure doesn't count, and neither does what the model learned in training months ago. What counts is the specific tokens loaded into its contex...",
+      "author": "Jim Allen Wallace",
+      "publishedAt": "2026-06-09T00:00:00.000Z"
+    },
+    {
+      "guid": "https://redis.io/blog/redis-data-integration-in-redis-cloud-is-now-ga-in-aws/",
+      "title": "Redis Data Integration in Redis Cloud is now GA in AWS",
+      "link": "https://redis.io/blog/redis-data-integration-in-redis-cloud-is-now-ga-in-aws/",
+      "summary": "Today, we’re announcing the general availability of Redis Data Integration (RDI) in Redis Cloud on AWS.\n\nRDI in Redis Cloud is our fully-managed service for moving operational and analytical data into Redis in near real time and keeping Redis continuo...",
+      "author": "Pieter Cailliau, Mirko Ortensi",
+      "publishedAt": "2026-06-08T00:00:00.000Z"
+    },
+    {
+      "guid": "https://redis.io/blog/quality-context-ai-agents/",
+      "title": "AI context windows: Why context quality beats context size",
+      "link": "https://redis.io/blog/quality-context-ai-agents/",
+      "summary": "Your AI agent has a 128K token context window. You're adding in retrieved documents, conversation history, tool outputs, and system instructions. But the answers are getting worse.\n\nYou're not alone. Most agent failures in production today are context...",
+      "author": "Jim Allen Wallace",
+      "publishedAt": "2026-06-07T00:00:00.000Z"
+    },
+    {
+      "guid": "https://redis.io/blog/redis-vs-memorystore/",
+      "title": "Redis vs Memorystore: key differences in 2026",
+      "link": "https://redis.io/blog/redis-vs-memorystore/",
+      "summary": "If you're building on Google Cloud and need an in-memory data store, you've probably looked at Memorystore in the console. It's right there, a few clicks to provision, and it speaks the Redis protocol you already know. But the architectural difference...",
+      "author": "Jim Allen Wallace",
+      "publishedAt": "2026-06-06T00:00:00.000Z"
+    },
+    {
+      "guid": "https://redis.io/blog/ai-reasoning-explained-context-matters/",
+      "title": "AI reasoning explained: smarter models still need context",
+      "link": "https://redis.io/blog/ai-reasoning-explained-context-matters/",
+      "summary": "Every few months, a new AI model drops with higher benchmark scores, and the reaction is predictable: \"This one finally reasons.\" The leaderboard shuffles. And teams building production AI systems still watch their agents hallucinate or mishandle ques...",
+      "author": "Jim Allen Wallace",
+      "publishedAt": "2026-06-03T00:00:00.000Z"
+    },
+    {
+      "guid": "https://redis.io/blog/semantic-layer-vs-context-layer/",
+      "title": "Semantic layer vs context layer: where BI modeling ends & AI grounding begins",
+      "link": "https://redis.io/blog/semantic-layer-vs-context-layer/",
+      "summary": "Your BI semantic layer solved a hard problem: getting every team, dashboard, and report to agree on what shared metrics like \"revenue,\" \"active customer,\" or \"customer acquisition cost\" actually mean. Those governed definitions won't be enough to grou...",
+      "author": "Jim Allen Wallace",
+      "publishedAt": "2026-06-03T00:00:00.000Z"
+    },
+    {
+      "guid": "https://redis.io/blog/why-ai-misses-business-context/",
+      "title": "Why your AI doesn't understand your business (& how teams fix it)",
+      "link": "https://redis.io/blog/why-ai-misses-business-context/",
+      "summary": "Your AI can summarize documents and answer questions about almost anything on the internet. But ask it about your business, and things fall apart. It pulls stale pricing, ignores internal policies, or hallucinates details that sound plausible but don'...",
+      "author": "Jim Allen Wallace",
+      "publishedAt": "2026-06-02T00:00:00.000Z"
+    },
+    {
+      "guid": "https://redis.io/blog/diving-deep-into-rediss-new-array-data-type/",
+      "title": "Diving deep into Redis’s new array data type",
+      "link": "https://redis.io/blog/diving-deep-into-rediss-new-array-data-type/",
+      "summary": "The most popular data types in Redis are strings, lists, hashes, sets, and sorted sets. Each is purpose-built around a specific way of organizing data, enabling developers to solve a wide range of technical problems. What none of them offer is effecti...",
+      "author": "Ricardo Ferreira",
+      "publishedAt": "2026-06-02T00:00:00.000Z"
+    },
+    {
+      "guid": "https://redis.io/blog/redis-88-performance-improvements-faster-mget-mset-streams-and-more/",
+      "title": "Redis 8.8 performance improvements: Faster MGET, MSET, streams, & more",
+      "link": "https://redis.io/blog/redis-88-performance-improvements-faster-mget-mset-streams-and-more/",
+      "summary": "Every Redis release continues a simple commitment: the same command, on the same hardware, should do more work. Redis 8.6 delivered a step change for vector workloads, sorted sets, and GET-dominated caching paths. Redis 8.8 carries that cadence forwar...",
+      "author": "Lior Kogan, Filipe Oliveira, Paulo Sousa",
+      "publishedAt": "2026-06-02T00:00:00.000Z"
+    },
+    {
+      "guid": "https://redis.io/blog/announcing-redis-8-8/",
+      "title": "Announcing Redis 8.8: New array data structure, rate limiter, performance improvements, & more",
+      "link": "https://redis.io/blog/announcing-redis-8-8/",
+      "summary": "Redis 8.8 in Redis Open Source is now available, bringing performance improvements alongside a set of powerful new features. Highlights include array - a new general-purpose data structure, a window counter rate limiter, streams message NACKing, subke...",
+      "author": "Lior Kogan",
+      "publishedAt": "2026-06-02T00:00:00.000Z"
+    },
+    {
+      "guid": "https://redis.io/blog/context-graphs-vs-vector-search/",
+      "title": "Context graphs: when nearest-neighbor search isn't enough",
+      "link": "https://redis.io/blog/context-graphs-vs-vector-search/",
+      "summary": "Your retrieval-augmented generation (RAG) pipeline works well on simple questions. You embedded your documents, built a vector index, and retrieval does its job. Then someone asks something that requires distributed facts, and the whole thing falls ap...",
+      "author": "Jim Allen Wallace",
+      "publishedAt": "2026-05-31T00:00:00.000Z"
+    },
+    {
+      "guid": "https://redis.io/blog/whats-new-in-two-may-2026-edition/",
+      "title": "What’s new in two: May 2026 edition",
+      "link": "https://redis.io/blog/whats-new-in-two-may-2026-edition/",
+      "summary": "Welcome back to “What’s new in two,” your quick hit of Redis releases you might’ve missed over the last month. If your backlog has been winning lately, no worries—we’ve got the recap. We’re covering the biggest updates from May and expanding on what I...",
+      "author": "Talon Miller",
+      "publishedAt": "2026-05-29T00:00:00.000Z"
+    },
+    {
+      "guid": "https://redis.io/blog/how-crdts-power-active-active-database-replication/",
+      "title": "How Conflict-free Replicated Data Types power active-active database replication",
+      "link": "https://redis.io/blog/how-crdts-power-active-active-database-replication/",
+      "summary": "Your application runs in three regions. A customer in Tokyo buys the last unit of a product at the exact moment a customer in Frankfurt buys the same SKU. Both writes succeed locally. Both replicas decrement inventory. Which region's view is correct, ...",
+      "author": "Jim Allen Wallace",
+      "publishedAt": "2026-05-27T00:00:00.000Z"
+    }
+  ],
+  "totalIndexed": 50
+}

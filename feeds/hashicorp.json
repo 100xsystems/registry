@@ -1,0 +1,175 @@
+{
+  "feedId": "hashicorp",
+  "feedName": "HashiCorp Blog",
+  "feedSiteUrl": "https://www.hashicorp.com/blog",
+  "feedRssUrl": "https://www.hashicorp.com/blog/feed.xml",
+  "tags": [
+    "cloud-native",
+    "infrastructure",
+    "devops"
+  ],
+  "updatedAt": "2026-07-23T11:02:21.952Z",
+  "items": [
+    {
+      "guid": "hashicorp::https://www.hashicorp.com/blog/one-service-many-doors-multi-port-services-in-consul",
+      "title": "One service, many doors: Multi-port services in Consul",
+      "link": "https://www.hashicorp.com/blog/one-service-many-doors-multi-port-services-in-consul",
+      "summary": "Modern applications rarely expose just one port. A single service might serve user-facing API traffic on one port, publish metrics on another, and keep an admin or gRPC endpoint on a third. \nThat is ordinary application design. Until now, it was not always ordinary service discovery. \nConsul now…",
+      "author": "Sanika Chavan",
+      "publishedAt": "2026-07-22T07:09:00.000Z"
+    },
+    {
+      "guid": "hashicorp::https://www.hashicorp.com/blog/autonomous-infrastructure-managing-complexity-in-agentic-workflows",
+      "title": "Autonomous infrastructure: Managing complexity in agentic workflows",
+      "link": "https://www.hashicorp.com/blog/autonomous-infrastructure-managing-complexity-in-agentic-workflows",
+      "summary": "As AI becomes embedded across the enterprise, infrastructure operations are entering a new era. Organizations are no longer simply automating repetitive tasks or accelerating existing workflows. Increasingly, AI agents are beginning to participate directly in infrastructure operations —…",
+      "author": "Mitchell Ross",
+      "publishedAt": "2026-07-21T16:00:00.000Z"
+    },
+    {
+      "guid": "hashicorp::https://www.hashicorp.com/blog/ai-speeds-software-development-is-your-secret-security-keeping-up",
+      "title": "AI speeds software development. Is your secret security keeping up?",
+      "link": "https://www.hashicorp.com/blog/ai-speeds-software-development-is-your-secret-security-keeping-up",
+      "summary": "Developers are no longer manually writing every line of code. They are prompting AI assistants, generating applications from natural language, creating infrastructure through templates, and assembling prototypes in hours instead of weeks. AI has dramatically reduced the friction between idea and…",
+      "author": "David Mills",
+      "publishedAt": "2026-07-21T07:09:00.000Z"
+    },
+    {
+      "guid": "hashicorp::https://www.hashicorp.com/blog/understanding-vault-performance-benchmarks-from-real-world-workloads",
+      "title": "Understanding Vault performance: Benchmarks from real-world workloads",
+      "link": "https://www.hashicorp.com/blog/understanding-vault-performance-benchmarks-from-real-world-workloads",
+      "summary": "Vault deployments often begin with a small number of services retrieving secrets or issuing certificates. As adoption grows, more systems start depending on Vault for authentication, secret retrieval, and certificate management. \nCI pipelines retrieve secrets during builds, machines request SSH…",
+      "author": "Shalini Thomas",
+      "publishedAt": "2026-07-16T17:30:00.000Z"
+    },
+    {
+      "guid": "hashicorp::https://www.hashicorp.com/blog/introducing-tfpolicy-a-declarative-policy-workflow-built-for-terraform",
+      "title": "Introducing tfpolicy: A declarative policy workflow built for Terraform",
+      "link": "https://www.hashicorp.com/blog/introducing-tfpolicy-a-declarative-policy-workflow-built-for-terraform",
+      "summary": "As infrastructure estates continue to expand across hybrid cloud environments, platform teams are no longer managing individual resources in isolation. They're managing systems that span public cloud providers, SaaS platforms, on-premises infrastructure, and internal platforms, often with many…",
+      "author": "Mitchell Ross",
+      "publishedAt": "2026-07-16T16:00:00.000Z"
+    },
+    {
+      "guid": "hashicorp::https://www.hashicorp.com/blog/preparing-for-the-post-quantum-era-discover-and-prioritize-now",
+      "title": "Preparing for the post-quantum era: Discover and prioritize now",
+      "link": "https://www.hashicorp.com/blog/preparing-for-the-post-quantum-era-discover-and-prioritize-now",
+      "summary": "When forming a post-quantum strategy, organizations should take a holistic approach and consider discovery, prioritization, and crypto agility first. A critical step toward successful migration to post-quantum cryptography is focusing on discovery and gaining visibility into all cryptographic…",
+      "author": "Rich DuBose",
+      "publishedAt": "2026-07-13T07:00:00.000Z"
+    },
+    {
+      "guid": "hashicorp::https://www.hashicorp.com/blog/announcing-the-public-beta-of-vault-kubernetes-key-management",
+      "title": "Announcing the public beta of Vault Kubernetes key management",
+      "link": "https://www.hashicorp.com/blog/announcing-the-public-beta-of-vault-kubernetes-key-management",
+      "summary": "Kubernetes has become the standard platform for running modern applications, but securing sensitive data inside Kubernetes remains a persistent challenge. \nApplications depend on secrets to function. Kubernetes stores that data in etcd, and historically, Kubernetes Secrets have often been discussed…",
+      "author": "Rich DuBose",
+      "publishedAt": "2026-07-10T14:00:00.000Z"
+    },
+    {
+      "guid": "hashicorp::https://www.hashicorp.com/blog/building-resiliency-into-boundary-session-recording",
+      "title": "Building resiliency into Boundary session recording",
+      "link": "https://www.hashicorp.com/blog/building-resiliency-into-boundary-session-recording",
+      "summary": "In modern enterprise security, privileged access management (PAM) is a core compliance and cybersecurity mandate. At its center lies session recording — the continuous ingestion of an immutable, cryptographically verifiable ledger of privileged activity. This record serves as the definitive source…",
+      "author": "Krishnan Ramachandran",
+      "publishedAt": "2026-07-09T07:09:00.000Z"
+    },
+    {
+      "guid": "hashicorp::https://www.hashicorp.com/blog/discover-govern-and-scale-azure-infrastructure-in-the-ai-era",
+      "title": "Discover, govern, and scale Azure infrastructure in the AI era",
+      "link": "https://www.hashicorp.com/blog/discover-govern-and-scale-azure-infrastructure-in-the-ai-era",
+      "summary": "Organizations are rapidly building AI applications, deploying AI agents, and scaling Azure environments faster than ever before. \n As AI initiatives accelerate and the volume of code expands, many organizations discover they have lost visibility into the infrastructure supporting those workloads.…",
+      "author": "Mike Doheny",
+      "publishedAt": "2026-06-30T16:00:00.000Z"
+    },
+    {
+      "guid": "hashicorp::https://www.hashicorp.com/blog/hcp-terraform-powered-by-infragraph-limited-availability-launch",
+      "title": "HCP Terraform powered by Infragraph is now in limited availability",
+      "link": "https://www.hashicorp.com/blog/hcp-terraform-powered-by-infragraph-limited-availability-launch",
+      "summary": "Migrating to the cloud was supposed to make infrastructure easier to provision and manage. For many enterprises, the reality has become much more complicated. New pain points emerged that undermine the cloud’s speed, security, and scale.\nTake the “normal” state for organizations now: infrastructure…",
+      "author": "Tom O’Connell",
+      "publishedAt": "2026-06-30T07:00:00.000Z"
+    },
+    {
+      "guid": "hashicorp::https://www.hashicorp.com/blog/terraform-mcp-server-four-real-world-ai-infrastructure-patterns",
+      "title": "Terraform MCP server: Four real-world AI infrastructure patterns",
+      "link": "https://www.hashicorp.com/blog/terraform-mcp-server-four-real-world-ai-infrastructure-patterns",
+      "summary": "AI is rapidly becoming the new operational interface for infrastructure. What once required deep expertise in Terraform, cloud platforms, security policies, and operational workflows can now begin with a simple prompt. Platform engineering and DevOps teams are increasingly experimenting with AI…",
+      "author": "YuZhao Zhang",
+      "publishedAt": "2026-06-26T16:00:00.000Z"
+    },
+    {
+      "guid": "hashicorp::https://www.hashicorp.com/blog/deploy-boundary-on-kubernetes-with-official-helm-charts",
+      "title": "Deploy Boundary on Kubernetes with official Helm charts",
+      "link": "https://www.hashicorp.com/blog/deploy-boundary-on-kubernetes-with-official-helm-charts",
+      "summary": "Deploying HashiCorp Boundary on Kubernetes has, until now, required teams to build and maintain their own orchestration from scratch. That means hand-crafting deployments, services, config maps, and lifecycle automation for every environment, then keeping it all consistent over time. \nTo officially…",
+      "author": "Aman Buddaraju",
+      "publishedAt": "2026-06-25T22:00:00.000Z"
+    },
+    {
+      "guid": "hashicorp::https://www.hashicorp.com/blog/boundary-1-releases-with-rdp-session-recording-and-improved-management",
+      "title": "Boundary 1.0 releases RDP session recording and improved management",
+      "link": "https://www.hashicorp.com/blog/boundary-1-releases-with-rdp-session-recording-and-improved-management",
+      "summary": "Today, we are thrilled to announce the release of Boundary 1.0, a milestone that marks the evolution from an initial concept to a fully robust and scalable solution for modern privilege access management (PAM), now proven across many production environments. Like other HashiCorp 1.0 releases, this…",
+      "author": "Van Phan",
+      "publishedAt": "2026-06-25T07:09:00.000Z"
+    },
+    {
+      "guid": "hashicorp::https://www.hashicorp.com/blog/scaling-without-friction-aliases-at-project-scope-in-boundary",
+      "title": "Scaling without friction: Aliases at project scope in Boundary",
+      "link": "https://www.hashicorp.com/blog/scaling-without-friction-aliases-at-project-scope-in-boundary",
+      "summary": "In Boundary, a target alias is a simple, powerful tool. It lets you connect to infrastructure using a memorable name instead of a random, generated ID. It gives developers something intuitive to work with. But those aliases lived exclusively at the global scope. They must be globally unique across…",
+      "author": "Saptaparni Nandy",
+      "publishedAt": "2026-06-25T07:00:00.000Z"
+    },
+    {
+      "guid": "hashicorp::https://www.hashicorp.com/blog/hcp-vault-dedicated-introduces-cluster-disaster-recovery-public-preview",
+      "title": "HCP Vault Dedicated introduces cluster disaster recovery (public preview)",
+      "link": "https://www.hashicorp.com/blog/hcp-vault-dedicated-introduces-cluster-disaster-recovery-public-preview",
+      "summary": "HCP Vault Dedicated is a fully managed secrets management solution that organizations rely on for authentication, dynamic secrets, and encryption workflows. As a core piece of security infrastructure, the cost of downtime is too high to leave recovery to chance. HCP Vault Dedicated already supports…",
+      "author": "Isabela Palanca Aureus",
+      "publishedAt": "2026-06-25T04:13:00.000Z"
+    },
+    {
+      "guid": "hashicorp::https://www.hashicorp.com/blog/advancing-ai-agent-security-in-vault",
+      "title": "Advancing AI agent security in Vault",
+      "link": "https://www.hashicorp.com/blog/advancing-ai-agent-security-in-vault",
+      "summary": "A few weeks ago, we announced native support for AI agents in HashiCorp Vault through an early access program. We’re now making these capabilities available to all Vault Enterprise customers in public preview.\nAs organizations deploy AI agents, one of the biggest challenges is controlling what…",
+      "author": "Violet Hynes",
+      "publishedAt": "2026-06-24T04:12:00.000Z"
+    },
+    {
+      "guid": "hashicorp::https://www.hashicorp.com/blog/introducing-tfctl-the-cli-for-hcp-terraform-and-tfe",
+      "title": "Introducing tfctl: The CLI for HCP Terraform and TFE",
+      "link": "https://www.hashicorp.com/blog/introducing-tfctl-the-cli-for-hcp-terraform-and-tfe",
+      "summary": "For years, automating HCP Terraform platform operations meant building and maintaining custom tooling on top of the API. Today, we're changing that with tfctl, the first dedicated CLI for HCP Terraform and Terraform Enterprise, now available on GitHub. \nThe missing interface \nHCP Terraform and…",
+      "author": "Roshan Chandna",
+      "publishedAt": "2026-06-16T20:00:00.000Z"
+    },
+    {
+      "guid": "hashicorp::https://www.hashicorp.com/blog/whats-new-with-terraform-ansible",
+      "title": "What’s new with Terraform + Ansible",
+      "link": "https://www.hashicorp.com/blog/whats-new-with-terraform-ansible",
+      "summary": "Last year, we introduced Terraform actions and outlined our vision for deeper integration between Terraform and Ansible. As organizations increasingly rely on hybrid and multi-cloud environments, infrastructure teams need automation that spans the entire infrastructure lifecycle — from Day 0…",
+      "author": "Mitchell Ross",
+      "publishedAt": "2026-06-16T16:00:00.000Z"
+    },
+    {
+      "guid": "hashicorp::https://www.hashicorp.com/blog/implementing-workload-identity-with-hashicorp-vault-and-spiffe",
+      "title": "Implementing workload identity with HashiCorp Vault and SPIFFE",
+      "link": "https://www.hashicorp.com/blog/implementing-workload-identity-with-hashicorp-vault-and-spiffe",
+      "summary": "Modern workloads are making machine identity strategy harder, not easier. Teams want a standard way to name and verify workloads, but they also need a realistic path from identity to access control. That is where a recent customer conversation became useful. They wanted to adopt the open-source…",
+      "author": "Dinesh Gawande",
+      "publishedAt": "2026-06-15T16:00:00.000Z"
+    },
+    {
+      "guid": "hashicorp::https://www.hashicorp.com/blog/terraform-mcp-server-is-now-generally-available",
+      "title": "Terraform MCP server is now generally available",
+      "link": "https://www.hashicorp.com/blog/terraform-mcp-server-is-now-generally-available",
+      "summary": "Terraform MCP server enables AI assistants like GitHub Copilot, IBM Bob, Claude Code  etc. to interact with Terraform through the Model Context Protocol (MCP). By connecting AI to your infrastructure workflows, teams reduce manual effort, eliminate context switching between tools, and accelerate…",
+      "author": "Vishnu Ravindra",
+      "publishedAt": "2026-06-11T18:00:00.000Z"
+    }
+  ],
+  "totalIndexed": 20
+}

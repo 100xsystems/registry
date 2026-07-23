@@ -1,0 +1,136 @@
+{
+  "feedId": "tailscale-blog",
+  "feedName": "Tailscale Blog",
+  "feedSiteUrl": "https://tailscale.com/blog",
+  "feedRssUrl": "https://tailscale.com/blog/index.xml",
+  "tags": [
+    "networking",
+    "security",
+    "vpn",
+    "wireguard"
+  ],
+  "updatedAt": "2026-07-23T11:00:43.349Z",
+  "items": [
+    {
+      "guid": "https://tailscale.com/blog/welcome-mike-shaver",
+      "title": "Engineering quality compounds",
+      "link": "https://tailscale.com/blog/welcome-mike-shaver",
+      "summary": "Mike Shaver joins Tailscale to scale engineering quality.",
+      "author": "Mike Shaver, Avery Pennarun",
+      "publishedAt": "2026-07-21T13:00:00.000Z"
+    },
+    {
+      "guid": "https://tailscale.com/blog/aperture-ai-passthrough-subscription-costs",
+      "title": "What a $20 coding subscription actually buys",
+      "link": "https://tailscale.com/blog/aperture-ai-passthrough-subscription-costs",
+      "summary": "Someone's subsidizing your coding agent. Aperture shows whether it's you.",
+      "author": "Kevin Purdy",
+      "publishedAt": "2026-07-17T16:00:00.000Z"
+    },
+    {
+      "guid": "https://tailscale.com/blog/remotely-access-home-assistant",
+      "title": "Remotely access Home Assistant via Tailscale for free",
+      "link": "https://tailscale.com/blog/remotely-access-home-assistant",
+      "summary": "Take Home Assistant beyond your home network with Tailscale.",
+      "author": "Kevin Purdy",
+      "publishedAt": "2026-07-16T20:00:00.000Z"
+    },
+    {
+      "guid": "https://tailscale.com/blog/aperture-audit-AI-agents",
+      "title": "How to audit what your AI agents are accessing",
+      "link": "https://tailscale.com/blog/aperture-audit-AI-agents",
+      "summary": "AI agents do a lot. Aperture keeps the audit trail.",
+      "author": "Kevin Purdy",
+      "publishedAt": "2026-06-30T14:00:00.000Z"
+    },
+    {
+      "guid": "https://tailscale.com/blog/agents-are-coming",
+      "title": "A no-nonsense explainer to Agentic AI",
+      "link": "https://tailscale.com/blog/agents-are-coming",
+      "summary": "Cut through the buzzwords with a clear explanation of the agentic AI stack.",
+      "author": "Alex Kretzschmar",
+      "publishedAt": "2026-06-26T17:00:00.000Z"
+    },
+    {
+      "guid": "https://tailscale.com/blog/border0-free-trial",
+      "title": "Stop sharing access secrets—try Border0 + Tailscale for free",
+      "link": "https://tailscale.com/blog/border0-free-trial",
+      "summary": "Border0 ties every connection to a real person, securing databases, Kubernetes, SSH, and more.",
+      "author": "Kevin Purdy",
+      "publishedAt": "2026-06-25T14:00:00.000Z"
+    },
+    {
+      "guid": "https://tailscale.com/blog/azure-blob-storage-streaming",
+      "title": "Send Tailscale logs to Azure Blob Storage",
+      "link": "https://tailscale.com/blog/azure-blob-storage-streaming",
+      "summary": "Keep Tailscale logs with the rest of your security data.",
+      "author": "Jillian Murphy",
+      "publishedAt": "2026-06-17T17:00:00.000Z"
+    },
+    {
+      "guid": "https://tailscale.com/blog/ai-without-lock-in",
+      "title": "Aperture: Accelerate AI adoption without the lock-in",
+      "link": "https://tailscale.com/blog/ai-without-lock-in",
+      "summary": "Avoid AI lock-in with Aperture’s flexible, identity-aware AI stack",
+      "author": "Remy Guercio",
+      "publishedAt": "2026-06-16T13:00:00.000Z"
+    },
+    {
+      "guid": "https://tailscale.com/blog/jailbroken-kindle-proxy-tun-modes",
+      "title": "More Tailscale tricks for your jailbroken Kindle",
+      "link": "https://tailscale.com/blog/jailbroken-kindle-proxy-tun-modes",
+      "summary": "Tailscale on jailbroken Kindles now supports proxies and SSH. And a plugin supports Kobos and Pocket Readers, too.",
+      "author": "Kevin Purdy",
+      "publishedAt": "2026-06-12T15:45:00.000Z"
+    },
+    {
+      "guid": "https://tailscale.com/blog/hp-remote-system-controller-tailscale-integration",
+      "title": "Redundancy only matters if you can reach it",
+      "link": "https://tailscale.com/blog/hp-remote-system-controller-tailscale-integration",
+      "summary": "HP is integrating Tailscale into Remote System Controller, giving administrators secure access to out-of-band management devices through their existing tailnet.",
+      "author": "Lee Briggs",
+      "publishedAt": "2026-06-09T16:45:00.000Z"
+    },
+    {
+      "guid": "https://tailscale.com/blog/funnel-fridge",
+      "title": "Fixing my ridiculous fridge with a tiny Funnel site",
+      "link": "https://tailscale.com/blog/funnel-fridge",
+      "summary": "I built a tiny transit dashboard for my fridge. Tailscale Funnel made it easy to share—and reminded me what belongs on the public internet.",
+      "author": "Kevin Purdy",
+      "publishedAt": "2026-06-02T15:30:00.000Z"
+    },
+    {
+      "guid": "https://tailscale.com/blog/bill-c22-canada",
+      "title": "Canada’s Bill C-22 and the security cost of collecting more data",
+      "link": "https://tailscale.com/blog/bill-c22-canada",
+      "summary": "Bill C-22 would push secure services to collect more data, retain more metadata, and build new access paths. That’s bad for privacy, and bad for security.",
+      "author": "Avery Pennarun",
+      "publishedAt": "2026-05-26T21:30:00.000Z"
+    },
+    {
+      "guid": "https://tailscale.com/blog/aperture-cli-AI-experimentation",
+      "title": "Introducing: Aperture CLI",
+      "link": "https://tailscale.com/blog/aperture-cli-AI-experimentation",
+      "summary": "Aperture CLI makes AI coding-agent experiments easier.",
+      "author": "Remy Guercio",
+      "publishedAt": "2026-05-20T14:15:00.000Z"
+    },
+    {
+      "guid": "https://tailscale.com/blog/tailscale-up-agenda-five-picks",
+      "title": "Five TailscaleUp sessions I’d attend if I didn’t work here",
+      "link": "https://tailscale.com/blog/tailscale-up-agenda-five-picks",
+      "summary": "I work at Tailscale, so I’m not neutral. But these are the five TailscaleUp sessions I’d still choose first.",
+      "author": "Kevin Purdy",
+      "publishedAt": "2026-05-19T14:00:00.000Z"
+    },
+    {
+      "guid": "https://tailscale.com/blog/bambuddy-bambu-lab-3d-printer-access",
+      "title": "Bambuddy: self-hosted 3D printing beyond the vendor cloud",
+      "link": "https://tailscale.com/blog/bambuddy-bambu-lab-3d-printer-access",
+      "summary": "Bambuddy helps 3D printer owners keep control local, while Tailscale makes that setup reachable from anywhere.",
+      "author": "Kevin Purdy",
+      "publishedAt": "2026-05-13T13:00:30.000Z"
+    }
+  ],
+  "totalIndexed": 15
+}

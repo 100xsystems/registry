@@ -1,0 +1,1303 @@
+{
+  "feedId": "istio",
+  "feedName": "Istio Blog",
+  "feedSiteUrl": "https://istio.io/latest/blog",
+  "feedRssUrl": "https://istio.io/latest/blog/feed.xml",
+  "tags": [
+    "networking",
+    "cloud-native",
+    "service-mesh"
+  ],
+  "updatedAt": "2026-07-23T11:01:09.591Z",
+  "items": [
+    {
+      "guid": "https://istio.io/latest/blog/2026/traffic-extension-api/",
+      "title": "Introducing the TrafficExtension API",
+      "link": "https://istio.io/latest/blog/2026/traffic-extension-api/",
+      "summary": "Mesh extensibility has always been a core tenet of Istio’s design. By allowing users to inject custom logic directly into the data plane, Istio enables a wide range of use cases for performing custom authentication, collecting specialized telemetry, or transforming requests and responses…",
+      "author": null,
+      "publishedAt": "2026-05-18T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2026/egress-dynamic-dns/",
+      "title": "Simplifying Egress Routing to Wildcard Destinations",
+      "link": "https://istio.io/latest/blog/2026/egress-dynamic-dns/",
+      "summary": "Overview\nControlling egress traffic is a common requirement in service mesh deployments. Many organizations configure their mesh to allow only explicitly registered external services by setting:\nmeshConfig.outboundTrafficPolicy.mode = REGISTRY_ONLY\nWith this configuration, any external destination…",
+      "author": null,
+      "publishedAt": "2026-04-09T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2026/steering-election-results/",
+      "title": "Istio Project Announces 2026 Steering Committee",
+      "link": "https://istio.io/latest/blog/2026/steering-election-results/",
+      "summary": "The Istio Steering Committee oversees the administrative aspects of the project, including governance, branding, marketing, and working with the CNCF.\nEvery year, we estimate the proportion of the hundreds of companies that have contributed to Istio in the past year, and use that metric to…",
+      "author": null,
+      "publishedAt": "2026-03-27T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2026/retirement-of-gcr.io/",
+      "title": "Istio is Migrating Container Registries",
+      "link": "https://istio.io/latest/blog/2026/retirement-of-gcr.io/",
+      "summary": "Due to changes in Istio’s funding model, Istio images will no longer be available at gcr.io/istio-release starting January 1st, 2027.\nThat is, clusters that reference images hosted on gcr.io/istio-release might fail to create new pods in 2027.\nIn fact, we are fully migrating all Istio artifacts out…",
+      "author": null,
+      "publishedAt": "2026-03-23T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2026/security-considerations-on-namespace-based-multi-tenancy/",
+      "title": "Security Considerations on Istio's CRDs with Namespace-based Multi-Tenancy",
+      "link": "https://istio.io/latest/blog/2026/security-considerations-on-namespace-based-multi-tenancy/",
+      "summary": "The Istio project wants to address a possible Man-in-the-Middle (MITM) attack scenario in which a VirtualService can redirect or intercept traffic within the service mesh. This affects namespace-based multi-tenancy clusters where tenants have the permissions to deploy Istio resources…",
+      "author": null,
+      "publishedAt": "2026-03-21T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2026/kubecon-eu/",
+      "title": "Istio at KubeCon Europe 2026: Let’s Connect in Amsterdam!",
+      "link": "https://istio.io/latest/blog/2026/kubecon-eu/",
+      "summary": "Get ready for a packed agenda of Istio activities at KubeCon + CloudNativeCon Europe 2026, including Cloud Native Theater Istio sessions featuring amazing speakers, hands-on experiences, and chances to meet maintainers and fellow community members in person.\n\n\nIstio highlights at KubeCon EU 2026…",
+      "author": null,
+      "publishedAt": "2026-02-23T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2026/ambient-multinetwork-multicluster-beta/",
+      "title": "Ambient multi-network multicluster support is now Beta",
+      "link": "https://istio.io/latest/blog/2026/ambient-multinetwork-multicluster-beta/",
+      "summary": "Our team of contributors has been busy throughout the transition to 2026. A lot of work was done to get the multi-network multicluster for ambient to production ready state. Improvements were made in areas from our internal tests, up to the most popular multi-network multicluster asks in ambient,…",
+      "author": null,
+      "publishedAt": "2026-02-18T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2026/steering-election/",
+      "title": "Announcing Istio's 2026 Steering Committee Elections",
+      "link": "https://istio.io/latest/blog/2026/steering-election/",
+      "summary": "The Istio Steering Committee oversees the administrative aspects of the project, including governance, branding, marketing, and working with the CNCF.\nEvery year, the leaders in the Istio project estimate the proportion of the hundreds of companies that have contributed to Istio in the past year,…",
+      "author": null,
+      "publishedAt": "2026-02-16T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2025/istio-at-kubecon-na/",
+      "title": "Istio at KubeCon + CloudNativeCon North America 2025: A Week of Momentum, Community, and Milestones",
+      "link": "https://istio.io/latest/blog/2025/istio-at-kubecon-na/",
+      "summary": "Istio at KubeCon NA 2025\n\nKubeCon + CloudNativeCon North America 2025 lit up Atlanta from November 10–13, bringing together one of the largest gatherings of open-source practitioners, platform engineers, and maintainers across the cloud native ecosystem. For the Istio community, the week was…",
+      "author": null,
+      "publishedAt": "2025-11-25T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2025/kubecon-na/",
+      "title": "Istio at KubeCon North America 2025: Let’s Connect in Atlanta!",
+      "link": "https://istio.io/latest/blog/2025/kubecon-na/",
+      "summary": "Get ready for a packed agenda of Istio activities at KubeCon + CloudNativeCon North America 2025, including Istio Day sessions on AI-ready service meshes, multicluster Ambient Mesh, hands-on workshops, contributor opportunities, and chances to meet maintainers and fellow community members in…",
+      "author": null,
+      "publishedAt": "2025-11-07T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2025/toc-election-results/",
+      "title": "Istio Project Announces 2025 Technical Oversight Committee Election Results",
+      "link": "https://istio.io/latest/blog/2025/toc-election-results/",
+      "summary": "Last year we announced that Istio would transform from an indefinitely-appointed Technical Oversight Committee to a regularly elected body, with members serving two-year terms.\nEach year, three of the six seats are elected. To bootstrap the process, we announced the 2025 election would cover the…",
+      "author": null,
+      "publishedAt": "2025-08-19T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2025/ambient-multicluster/",
+      "title": "Introducing multicluster support for ambient mode (alpha)",
+      "link": "https://istio.io/latest/blog/2025/ambient-multicluster/",
+      "summary": "Multicluster has been one of the most requested features of ambient -— and as of Istio 1.27, it is available in alpha status!\nWe sought to capture the benefits and avoid the complications of multicluster architectures while using the same modular design that ambient users love.\nThis release brings…",
+      "author": null,
+      "publishedAt": "2025-08-04T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2025/inference-extension-support/",
+      "title": "Bringing AI-Aware Traffic Management to Istio: Gateway API Inference Extension Support",
+      "link": "https://istio.io/latest/blog/2025/inference-extension-support/",
+      "summary": "The world of AI inference on Kubernetes presents unique challenges that traditional traffic-routing architectures weren’t designed to handle. While Istio has long excelled at managing microservice traffic with sophisticated load balancing, security, and observability features, the demands of Large…",
+      "author": null,
+      "publishedAt": "2025-07-28T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2025/roadmap/",
+      "title": "Istio Roadmap for 2025-2026",
+      "link": "https://istio.io/latest/blog/2025/roadmap/",
+      "summary": "Over the next 12 months, we will focus on improving parity between sidecar mode and ambient mode, providing a supported path for sidecar users to migrate to the ambient data plane when they are ready.  We will also revamp our contributor experience, simplifying the process for proposing and…",
+      "author": null,
+      "publishedAt": "2025-07-25T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2025/istio-at-kubecon-eu/",
+      "title": "Istio at KubeCon Europe 2025",
+      "link": "https://istio.io/latest/blog/2025/istio-at-kubecon-eu/",
+      "summary": "The open source and cloud native community gathered from the 1st to 4th of April in London for the first KubeCon of 2025. The four-day conference, organized by the Cloud Native Computing Foundation, was “big” for Istio, as our presence was seen almost everywhere - from the keynotes to the project…",
+      "author": null,
+      "publishedAt": "2025-04-25T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2025/ztunnel-security-assessment/",
+      "title": "Istio publishes results of ztunnel security audit",
+      "link": "https://istio.io/latest/blog/2025/ztunnel-security-assessment/",
+      "summary": "Istio’s ambient mode splits the service mesh into two distinct layers: Layer 7 processing (the “waypoint proxy”), which remains powered by the traditional Envoy proxy; and a secure overlay (the “zero-trust tunnel” or “ztunnel”), which is a new codebase, written from the ground up in Rust.\nIt is our…",
+      "author": null,
+      "publishedAt": "2025-04-18T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2025/sail-operator-ga/",
+      "title": "Sail Operator 1.0.0 released: manage Istio with an operator",
+      "link": "https://istio.io/latest/blog/2025/sail-operator-ga/",
+      "summary": "The Sail Operator is a community project launched by Red Hat to build a modern operator for Istio. First announced in August 2024, we are pleased to announce Sail Operator is now GA with a clear mission: to simplify and streamline Istio management in your cluster.\nSimplified deployment & management…",
+      "author": null,
+      "publishedAt": "2025-04-03T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2025/kubecon-eu/",
+      "title": "Istio at KubeCon Europe, See you soon in London!",
+      "link": "https://istio.io/latest/blog/2025/kubecon-eu/",
+      "summary": "An amazing lineup of Istio activities awaits you in London at KubeCon + CloudNativeCon Europe 2025!\nJoin for the Istio Project Meeting hosted at the Maintainer Summit.\n\n    \n\n\nCome to the Istio Day co-located event.\n\n    \n\n\nAttend the Istio Maintainers’ Track session: Istio: The Past, Present and…",
+      "author": null,
+      "publishedAt": "2025-03-25T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2025/ambient-performance/",
+      "title": "Istio: The Highest-Performance Solution for Network Security",
+      "link": "https://istio.io/latest/blog/2025/ambient-performance/",
+      "summary": "Encryption in transit is a baseline requirement for almost all Kubernetes environments today, and forms the foundation of a zero-trust security posture.\nHowever, the challenge with security is that it doesn’t come without a cost: it often involves a trade-off between complexity, user experience,…",
+      "author": null,
+      "publishedAt": "2025-03-06T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2025/steering-election-results/",
+      "title": "Istio Project Announces 2025 Steering Committee",
+      "link": "https://istio.io/latest/blog/2025/steering-election-results/",
+      "summary": "The Istio Steering Committee oversees the administrative aspects of the project, including governance, branding, marketing, and working with the CNCF.\nEvery year, we estimate the proportion of the hundreds of companies that have contributed to Istio in the past year, and uses that metric to…",
+      "author": null,
+      "publishedAt": "2025-03-05T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2025/steering-election/",
+      "title": "Announcing Istio's 2025 Steering Committee Elections",
+      "link": "https://istio.io/latest/blog/2025/steering-election/",
+      "summary": "The Istio Steering Committee oversees the administrative aspects of the project, including governance, branding, marketing, and working with the CNCF.\nEvery year, the leaders in the Istio project estimate the proportion of the hundreds of companies that have contributed to Istio in the past year,…",
+      "author": null,
+      "publishedAt": "2025-02-13T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2024/authz-policy-with-kyverno/",
+      "title": "Policy based authorization using Kyverno",
+      "link": "https://istio.io/latest/blog/2024/authz-policy-with-kyverno/",
+      "summary": "Istio supports integration with many different projects.  The Istio blog recently featured a post on L7 policy functionality with OpenPolicyAgent. Kyverno is a similar project, and today we will dive how Istio and the Kyverno Authz Server can be used together to enforce Layer 7 policies in your…",
+      "author": null,
+      "publishedAt": "2024-11-25T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2024/istio-phippy-book/",
+      "title": "A new Phippy and Friends story: Izzy Saves the Birthday",
+      "link": "https://istio.io/latest/blog/2024/istio-phippy-book/",
+      "summary": "Earlier this year, we added Izzy Dolphin, the Indo-Pacific Bottlenose to the CNCF “Phippy and Friends” family. Ever since then, Istio lovers worldwide have been eagerly awaiting the first children’s book featuring our cute dolphin.\nAnd here it is!\n\n\nThe Istio project is excited to unveil Izzy’s…",
+      "author": null,
+      "publishedAt": "2024-11-12T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2024/ambient-reaches-ga/",
+      "title": "Fast, Secure, and Simple: Istio’s Ambient Mode Reaches General Availability in v1.24",
+      "link": "https://istio.io/latest/blog/2024/ambient-reaches-ga/",
+      "summary": "We are proud to announce that Istio’s ambient data plane mode has reached General Availability, with the ztunnel, waypoints and APIs being marked as Stable by the Istio TOC. This marks the final stage in Istio’s feature phase progression, signaling that ambient mode is fully ready for broad…",
+      "author": null,
+      "publishedAt": "2024-11-07T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2024/kubecon-na/",
+      "title": "Istio in Salt Lake City!",
+      "link": "https://istio.io/latest/blog/2024/kubecon-na/",
+      "summary": "An amazing lineup of Istio activities awaits you in Salt Lake City, Utah at KubeCon + CloudNativeCon North America 2024!\n\n\n\n\nCome to the Istio Day co-located event.\nAttend the Istio Maintainers’ Track session: Life of a Packet: Ambient Edition\nDrop by the Istio Contribfest session: Sidecarless…",
+      "author": null,
+      "publishedAt": "2024-11-05T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2024/ambient-vs-cilium/",
+      "title": "Scaling in the Clouds: Istio Ambient vs. Cilium",
+      "link": "https://istio.io/latest/blog/2024/ambient-vs-cilium/",
+      "summary": "A common question from prospective Istio users is “how does Istio compare to Cilium?”  While Cilium originally only provided L3/L4 functionality, including network policy, recent releases have added service mesh functionality using Envoy, as well as WireGuard encryption. Like Istio, Cilium is a…",
+      "author": null,
+      "publishedAt": "2024-10-21T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2024/toc-charter-elections/",
+      "title": "More community leadership: Regularly electing the Istio Technical Oversight Committee",
+      "link": "https://istio.io/latest/blog/2024/toc-charter-elections/",
+      "summary": "Like many Open Source foundations and projects, the Istio project has two governance groups: a Steering Committee, that oversees the administrative and marketing aspects of the project, and a Technical Oversight Committee (TOC), responsible for cross-cutting product and design decisions.\nThe…",
+      "author": null,
+      "publishedAt": "2024-10-17T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2024/l7-policy-with-opa/",
+      "title": "Can Your Platform Do Policy? Accelerate Teams With Platform L7 Policy Functionality",
+      "link": "https://istio.io/latest/blog/2024/l7-policy-with-opa/",
+      "summary": "Shared computing platforms offer resources and shared functionality to tenant teams so that they don’t need to build everything from scratch themselves. While it can sometimes be hard to balance all the requests from tenants, it’s important that platform teams ask the question: what’s the highest…",
+      "author": null,
+      "publishedAt": "2024-10-14T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2024/link-the-istio-service-mesh-for-people-who-have-stuff-to-do/",
+      "title": "External post: The Istio Service Mesh for People Who Have Stuff to Do",
+      "link": "https://istio.io/latest/blog/2024/link-the-istio-service-mesh-for-people-who-have-stuff-to-do/",
+      "summary": "I recently made a small contribution to Istio, an open-source service mesh project. My contribution involved adding a few tests for one of the Istio CLI commands. If you want to check out the details, you can find the pull request here. It wasn’t a huge change, but it was a great learning…",
+      "author": null,
+      "publishedAt": "2024-10-10T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2024/introducing-sail-operator/",
+      "title": "Introducing the Sail Operator: a new way to manage Istio",
+      "link": "https://istio.io/latest/blog/2024/introducing-sail-operator/",
+      "summary": "With the recent announcement of the In-Cluster IstioOperator deprecation in Istio 1.23 and its subsequent deletion for Istio 1.24, we want to build awareness of a\nnew operator that the team at Red Hat have been developing to manage Istio as part of the istio-ecosystem organization.\nThe Sail…",
+      "author": null,
+      "publishedAt": "2024-08-19T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2024/in-cluster-operator-deprecation-announcement/",
+      "title": "Istio has deprecated its In-Cluster Operator",
+      "link": "https://istio.io/latest/blog/2024/in-cluster-operator-deprecation-announcement/",
+      "summary": "Istio’s In-Cluster Operator has been deprecated in Istio 1.23.  Users leveraging the operator — which we estimate to be fewer than 10% of our user base — will need to migrate to other install and upgrade mechanisms in order to upgrade to Istio 1.24 or above. Read on to learn why we are making this…",
+      "author": null,
+      "publishedAt": "2024-08-14T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2024/happy-7th-birthday/",
+      "title": "Happy 7th Birthday, Istio!",
+      "link": "https://istio.io/latest/blog/2024/happy-7th-birthday/",
+      "summary": "On this day in 2017, Google and IBM announced the launch of the Istio service mesh. Istio\nis an open technology that enables developers to seamlessly connect, manage, and secure networks of different\nservices — regardless of platform, source, or vendor. We can hardly believe that Istio turns seven…",
+      "author": null,
+      "publishedAt": "2024-05-24T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2024/ambient-reaches-beta/",
+      "title": "Say goodbye to your sidecars: Istio's ambient mode reaches Beta in v1.22",
+      "link": "https://istio.io/latest/blog/2024/ambient-reaches-beta/",
+      "summary": "Today, Istio’s revolutionary new ambient data plane mode has reached Beta.\nAmbient mode is designed for simplified operations, broader application compatibility, and reduced infrastructure cost.\nIt gives you a sidecar-less data plane that’s integrated into your infrastructure,\nall while maintaining…",
+      "author": null,
+      "publishedAt": "2024-05-13T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2024/v1-apis/",
+      "title": "Introducing Istio v1 APIs",
+      "link": "https://istio.io/latest/blog/2024/v1-apis/",
+      "summary": "Istio provides networking, security and telemetry APIs that are crucial for ensuring the robust security, seamless connectivity, and effective observability of services within the service mesh. These APIs are used on thousands of clusters across the world, securing and enhancing critical…",
+      "author": null,
+      "publishedAt": "2024-05-13T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2024/gateway-mesh-ga/",
+      "title": "Gateway API Mesh Support Promoted To Stable",
+      "link": "https://istio.io/latest/blog/2024/gateway-mesh-ga/",
+      "summary": "We are thrilled to announce that Service Mesh support in the Gateway API is now officially “Stable”!\nWith this release (part of Gateway API v1.1 and Istio v1.22), users can make use of the next-generation traffic management APIs for both ingress (“north-south”) and service mesh use cases…",
+      "author": null,
+      "publishedAt": "2024-05-13T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2024/istio-phippy/",
+      "title": "Istio joins Phippy and friends — Welcome Izzy!",
+      "link": "https://istio.io/latest/blog/2024/istio-phippy/",
+      "summary": "Having sailed into, and proudly graduated within the Cloud Native Computing Foundation in 2023, it is now time for Istio to join the CNCF Phippy family’s mission to demystify and simplify cloud native computing.\nThe Istio Steering Committee is excited to unveil Izzy Dolphin, the Istio Indo-Pacific…",
+      "author": null,
+      "publishedAt": "2024-03-08T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2024/steering-results/",
+      "title": "Istio's Steering Committee for 2024",
+      "link": "https://istio.io/latest/blog/2024/steering-results/",
+      "summary": "The Istio Steering Committee oversees the administrative aspects of the project, including governance, branding, marketing, and working with the CNCF.\nEvery year, the leaders in the Istio project estimate the proportion of the hundreds of companies that have contributed to Istio in the past year,…",
+      "author": null,
+      "publishedAt": "2024-02-15T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2024/inpod-traffic-redirection-ambient/",
+      "title": "Maturing Istio Ambient: Compatibility Across Various Kubernetes Providers and CNIs",
+      "link": "https://istio.io/latest/blog/2024/inpod-traffic-redirection-ambient/",
+      "summary": "The Istio project announced ambient mesh - its new sidecar-less dataplane mode in 2022,\nand released an alpha implementation in early 2023.\nOur alpha was focused on proving out the value of the ambient data plane mode under limited configurations and environments.\nHowever, the conditions were quite…",
+      "author": null,
+      "publishedAt": "2024-01-29T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2024/kubecon-eu/",
+      "title": "Istio in Paris! See you at KubeCon Europe 2024",
+      "link": "https://istio.io/latest/blog/2024/kubecon-eu/",
+      "summary": "There will be lots of Istio-related activity at KubeCon + CloudNativeCon Europe in Paris! We’ll keep this page updated with more details as they are published.\n\n\n\n\nCome to the Istio Day co-located event.\nThe following KubeCon sessions will be based on Istio, add them to your schedule:\nKeynote:…",
+      "author": null,
+      "publishedAt": "2024-01-19T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2023/egress-sni/",
+      "title": "Routing egress traffic to wildcard destinations",
+      "link": "https://istio.io/latest/blog/2023/egress-sni/",
+      "summary": "If you are using Istio to handle application-originated traffic to destinations outside of the mesh, you’re probably familiar with the concept of egress gateways.\nEgress gateways can be used to monitor and forward traffic from mesh-internal applications to locations outside of the mesh.\nThis is a…",
+      "author": null,
+      "publishedAt": "2023-12-01T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2023/istio-at-kubecon-na/",
+      "title": "Istio at KubeCon North America 2023",
+      "link": "https://istio.io/latest/blog/2023/istio-at-kubecon-na/",
+      "summary": "The open source and cloud native community gathered from the 6th to the 9th of November in Chicago for the final KubeCon of 2023. The four-day conference, organized by the Cloud Native Computing Foundation, was “twice the fun” for Istio, as we grew from a half-day event in Europe in April to a full…",
+      "author": null,
+      "publishedAt": "2023-11-16T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2023/secure-apps-with-istio/",
+      "title": "Secure Application Communications with Mutual TLS and Istio",
+      "link": "https://istio.io/latest/blog/2023/secure-apps-with-istio/",
+      "summary": "One of the biggest reasons users adopt service mesh is to enable secure communication\namong applications using mutual TLS (mTLS) based on cryptographically verifiable\nidentities. In this blog, we’ll discuss the requirements of secure communication\namong applications, how mTLS enables and meets all…",
+      "author": null,
+      "publishedAt": "2023-10-17T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2023/istiocon-china/",
+      "title": "IstioCon China 2023 wrap-up",
+      "link": "https://istio.io/latest/blog/2023/istiocon-china/",
+      "summary": "It’s great to be able to safely get together in person again.  After two years of only running virtual events, we have filled the calendar for 2023. Istio Day Europe was held in April, and Istio Day North America is coming this November.\nIstioCon is committed to the industry-leading service mesh…",
+      "author": null,
+      "publishedAt": "2023-09-29T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2023/traffic-for-ambient-and-sidecar/",
+      "title": "Deep Dive into the Network Traffic Path of the Coexistence of Ambient and Sidecar",
+      "link": "https://istio.io/latest/blog/2023/traffic-for-ambient-and-sidecar/",
+      "summary": "Ambient mode now uses in-Pod redirection to redirect traffic between workload pods and ztunnel. The method described in this blog is no longer needed, and this post has been left for historical interest.\nThere are 2 deployment modes for Istio: ambient mode and sidecar mode. The former is still on…",
+      "author": null,
+      "publishedAt": "2023-09-18T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2023/steering-election-results/",
+      "title": "Istio Announces Winners of 2023 Steering Committee Election",
+      "link": "https://istio.io/latest/blog/2023/steering-election-results/",
+      "summary": "The Istio Steering Committee is pleased to announce the four winners of the 2023 election for Community Seats. The winners are:\nCraig Box, ARMO\nIris Ding, Intel\nLin Sun, Solo.io\nFaseela K, Ericsson Software Technology\nThe winners will serve on the Steering Committee for one year, starting on…",
+      "author": null,
+      "publishedAt": "2023-08-16T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2023/native-sidecars/",
+      "title": "Kubernetes Native Sidecars in Istio",
+      "link": "https://istio.io/latest/blog/2023/native-sidecars/",
+      "summary": "If you have heard anything about service meshes, it is that they work using the sidecar pattern: a proxy server is deployed alongside your application code.\nThe sidecar pattern is just that: a pattern.\nUp until this point, there has been no formal support for sidecar containers in Kubernetes at…",
+      "author": null,
+      "publishedAt": "2023-08-15T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2023/dlb-connection-balancing/",
+      "title": "Using Accelerated Offload Connection Load Balancing in Istio",
+      "link": "https://istio.io/latest/blog/2023/dlb-connection-balancing/",
+      "summary": "What is connection load balancing?\nLoad balancing is a core networking solution used to distribute traffic across multiple servers in a server farm.\nLoad balancers improve application availability and responsiveness and prevent server overload. Each load balancer\nsits between client devices and…",
+      "author": null,
+      "publishedAt": "2023-08-08T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2023/istio-graduates-within-cncf/",
+      "title": "Announcing Istio's graduation within the CNCF",
+      "link": "https://istio.io/latest/blog/2023/istio-graduates-within-cncf/",
+      "summary": "We are delighted to announce that Istio is now a graduated Cloud Native Computing Foundation (CNCF) project.\nWe would like to thank our TOC sponsors Emily Fox and Nikhita Raghunath, and everyone who has collaborated over the past six years on Istio’s design, development, and deployment.\nAs before,…",
+      "author": null,
+      "publishedAt": "2023-07-12T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2023/istioday-kubecon-na-cfp/",
+      "title": "Istio Day North America 2023, Twice The Fun!",
+      "link": "https://istio.io/latest/blog/2023/istioday-kubecon-na-cfp/",
+      "summary": "We all had a blast at Istio Day Europe in April. The event was incredibly well received, but organizers and attendees alike felt that a half-day was not enough to showcase all that Istio has to offer. Due to the overwhelming response, we are glad to share with all of you that Istio Day North…",
+      "author": null,
+      "publishedAt": "2023-06-16T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2023/istio-at-kubecon-eu/",
+      "title": "Istio at KubeCon Europe 2023",
+      "link": "https://istio.io/latest/blog/2023/istio-at-kubecon-eu/",
+      "summary": "The open source and cloud native community gathered from 18th to 21st April in Amsterdam for the first KubeCon of 2023. The four-day conference, organized by the Cloud Native Computing Foundation, was special for Istio, as we evolved from a participant at ServiceMeshCon to hosting our first…",
+      "author": null,
+      "publishedAt": "2023-04-27T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2023/network-security-splunk/",
+      "title": "Comprehensive Network Security at Splunk",
+      "link": "https://istio.io/latest/blog/2023/network-security-splunk/",
+      "summary": "With dozens of tools for securing your network available, it is easy to find tutorials and demonstrations illustrating how these individual tools make your network more secure by adding identity, policy, and observability to your traffic. What is often less clear is how these tools interoperate to…",
+      "author": null,
+      "publishedAt": "2023-04-03T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2023/waypoint-proxy-made-simple/",
+      "title": "Istio Ambient Waypoint Proxy Made Simple",
+      "link": "https://istio.io/latest/blog/2023/waypoint-proxy-made-simple/",
+      "summary": "Ambient splits Istio’s functionality into two distinct layers, a secure overlay layer and a\nLayer 7 processing layer. The waypoint proxy is an optional component that is Envoy-based\nand handles L7 processing for workloads it manages. Since the initial ambient launch in 2022,\nwe have made…",
+      "author": null,
+      "publishedAt": "2023-03-31T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2023/ambient-ebpf-redirection/",
+      "title": "Using eBPF for traffic redirection in Istio ambient mode",
+      "link": "https://istio.io/latest/blog/2023/ambient-ebpf-redirection/",
+      "summary": "Ambient mode now uses in-Pod redirection to redirect traffic between workload pods and ztunnel. The method described in this blog is no longer needed, and this post has been left for historical interest.\nIn Istio’s new ambient mode, the istio-cni component running on each Kubernetes worker node is…",
+      "author": null,
+      "publishedAt": "2023-03-29T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2023/experimental-dual-stack/",
+      "title": "Support for Dual Stack Kubernetes Clusters",
+      "link": "https://istio.io/latest/blog/2023/experimental-dual-stack/",
+      "summary": "Over the past year, both Intel and F5 have collaborated on an effort to bring support for\nKubernetes Dual-Stack networking to Istio.\nBackground\nThe journey has taken us longer than anticipated and we continue to have work to do. The team initially started with a design based\non a reference…",
+      "author": null,
+      "publishedAt": "2023-03-10T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2023/ambient-merged-istio-main/",
+      "title": "Istio Ambient Service Mesh Merged to Istio’s Main Branch",
+      "link": "https://istio.io/latest/blog/2023/ambient-merged-istio-main/",
+      "summary": "Istio ambient service mesh was launched in Sept 2022 in an experimental branch, introducing a new data plane mode for Istio without sidecars. Through collaboration with the Istio community, across Google, Solo.io, Microsoft, Intel, Aviatrix, Huawei, IBM and others, we are excited to announce that…",
+      "author": null,
+      "publishedAt": "2023-02-28T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2023/rust-based-ztunnel/",
+      "title": "Introducing Rust-Based Ztunnel for Istio Ambient Service Mesh",
+      "link": "https://istio.io/latest/blog/2023/rust-based-ztunnel/",
+      "summary": "The ztunnel (zero trust tunnel) component is a purpose-built per-node proxy for Istio ambient mesh. It is responsible for securely connecting and authenticating workloads within ambient mesh. Ztunnel is designed to focus on a small set of features for your workloads in ambient mesh such as mTLS,…",
+      "author": null,
+      "publishedAt": "2023-02-28T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2023/steering-contribution-seat-results/",
+      "title": "Announcing the Contribution Seat holders for 2023",
+      "link": "https://istio.io/latest/blog/2023/steering-contribution-seat-results/",
+      "summary": "The Istio Steering Committee consists of 9 Contribution Seats, proportionally allocated based on corporate contributions to the project, and 4 elected Community Seats.\nLast year, we elected four members to the community seats. It’s now time to announce the companies who fuel our growth by selecting…",
+      "author": null,
+      "publishedAt": "2023-02-06T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2023/ada-logics-security-assessment/",
+      "title": "Istio publishes results of 2022 security audit",
+      "link": "https://istio.io/latest/blog/2023/ada-logics-security-assessment/",
+      "summary": "Istio is a project that platform engineers trust to enforce security policy in their production Kubernetes environments. We pay a lot of care to security in our code, and maintain a robust vulnerability program. To validate our work, we periodically invite external review of the project, and we are…",
+      "author": null,
+      "publishedAt": "2023-01-30T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2023/istioday-kubecon-eu/",
+      "title": "Join us for Istio Day at KubeCon Europe 2023!",
+      "link": "https://istio.io/latest/blog/2023/istioday-kubecon-eu/",
+      "summary": "Istio is sailing up the canals this April! We are delighted to announce Istio Day Europe 2023, a “Day 0” event co-located with KubeCon + CloudNativeCon Europe 2023.\n\n\nIstio Day is the perfect opportunity to meet the Istio maintainers and contributors in person, and hear from users why Istio is…",
+      "author": null,
+      "publishedAt": "2023-01-27T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2022/getting-started-gtwapi/",
+      "title": "Getting started with the Kubernetes Gateway API",
+      "link": "https://istio.io/latest/blog/2022/getting-started-gtwapi/",
+      "summary": "Whether you’re running your Kubernetes application services using Istio, or any service mesh for that matter,\nor simply using ordinary services in a Kubernetes cluster, you need to provide access to your application services\nfor clients outside of the cluster. If you’re using plain Kubernetes…",
+      "author": null,
+      "publishedAt": "2022-12-14T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2022/steering-election-results/",
+      "title": "2022 Istio Steering Committee Election Results",
+      "link": "https://istio.io/latest/blog/2022/steering-election-results/",
+      "summary": "The Istio Steering Committee consists of 9 proportionally-allocated Contribution Seats, and 4 elected Community Seats. Our third annual election for our Community Seats has concluded, and we are pleased to announce the choice of our members:\nCraig Box (ARMO)\nIris Ding (Intel)\nFaseela K (Ericsson…",
+      "author": null,
+      "publishedAt": "2022-11-04T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2022/istio-accepted-into-cncf/",
+      "title": "Announcing Istio's acceptance as a CNCF project",
+      "link": "https://istio.io/latest/blog/2022/istio-accepted-into-cncf/",
+      "summary": "We are pleased to share that Istio is now an official incubating CNCF project.\nIn April, Istio applied to become a CNCF project. Today, the TOC announced they have voted to accept our application.\nThis journey began with Istio’s inception in 2016. We are grateful for all who have collaborated over…",
+      "author": null,
+      "publishedAt": "2022-09-28T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2022/ambient-security/",
+      "title": "Ambient Mode Security Deep Dive",
+      "link": "https://istio.io/latest/blog/2022/ambient-security/",
+      "summary": "We recently announced Istio’s new ambient mode, which is a sidecar-less data plane for Istio and the reference implementation of the ambient mesh pattern. As stated in the announcement blog, the top concerns we address with ambient mesh are simplified operations, broader application compatibility,…",
+      "author": null,
+      "publishedAt": "2022-09-07T15:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2022/get-started-ambient/",
+      "title": "Get Started with Istio Ambient Mesh",
+      "link": "https://istio.io/latest/blog/2022/get-started-ambient/",
+      "summary": "Refer to the latest getting started with ambient mesh doc for updated instructions.\nAmbient mesh is a new data plane mode for Istio introduced today. Following this getting started guide, you can experience how ambient mesh can simplify your application onboarding, help with ongoing operations, and…",
+      "author": null,
+      "publishedAt": "2022-09-07T14:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2022/introducing-ambient-mesh/",
+      "title": "Introducing Ambient Mesh",
+      "link": "https://istio.io/latest/blog/2022/introducing-ambient-mesh/",
+      "summary": "Ambient mode is now generally available!\nToday, we are excited to introduce “ambient mesh”, and its reference implementation: a new Istio data plane mode that’s designed for simplified operations, broader application compatibility, and reduced infrastructure cost. Ambient mesh gives users the…",
+      "author": null,
+      "publishedAt": "2022-09-07T13:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2022/gateway-api-beta/",
+      "title": "Extending Gateway API support in Istio",
+      "link": "https://istio.io/latest/blog/2022/gateway-api-beta/",
+      "summary": "Today we want to congratulate the Kubernetes SIG Network community on the beta release of the Gateway API specification. Alongside this milestone, we are pleased to announce that support for using the Gateway API in Istio ingress is being promoted to Beta, and our intention for the Gateway API to…",
+      "author": null,
+      "publishedAt": "2022-07-13T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2022/cryptomb-privatekeyprovider/",
+      "title": "CryptoMB - TLS handshake acceleration for Istio",
+      "link": "https://istio.io/latest/blog/2022/cryptomb-privatekeyprovider/",
+      "summary": "Cryptographic operations are among the most compute-intensive and critical operations when it comes to secured connections. Istio uses Envoy as the “gateways/sidecar” to handle secure connections and intercept the traffic.\nDepending upon use cases, when an ingress gateway must handle a large number…",
+      "author": null,
+      "publishedAt": "2022-06-15T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2022/istio-has-applied-to-join-the-cncf/",
+      "title": "Istio has applied to become a CNCF project",
+      "link": "https://istio.io/latest/blog/2022/istio-has-applied-to-join-the-cncf/",
+      "summary": "The Istio project is pleased to announce its intention to join the Cloud Native Computing Foundation (CNCF). With the support of the Istio Steering Committee, Google has submitted an application proposal for Istio to join the CNCF, the home of its companion projects Kubernetes and Envoy.\nIt is…",
+      "author": null,
+      "publishedAt": "2022-04-25T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2022/istioctl-proxy/",
+      "title": "Configuring istioctl for a remote cluster",
+      "link": "https://istio.io/latest/blog/2022/istioctl-proxy/",
+      "summary": "When using the istioctl CLI on a remote cluster of an\nexternal control plane or a multicluster\nIstio deployment, some of the commands will not work by default. For example, istioctl proxy-status requires access to\nthe istiod service to retrieve the status and configuration of the proxies it’s…",
+      "author": null,
+      "publishedAt": "2022-03-25T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2022/istiocon-register/",
+      "title": "Register now for IstioCon 2022!",
+      "link": "https://istio.io/latest/blog/2022/istiocon-register/",
+      "summary": "IstioCon is the annual user-centered event for Istio, the industry’s most popular service mesh. This event will take place April 25-29, it will be 100% virtual, and registrations are now open free of charge. If you are among the first 400 people to register to the conference, you are eligible to…",
+      "author": null,
+      "publishedAt": "2022-03-21T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2022/merbridge/",
+      "title": "Merbridge - Accelerate your mesh with eBPF",
+      "link": "https://istio.io/latest/blog/2022/merbridge/",
+      "summary": "The secret of Istio’s abilities in traffic management, security, observability and policy is all in the Envoy proxy. Istio uses Envoy as the “sidecar” to intercept service traffic, with the kernel’s netfilter packet filter functionality configured by iptables.\nThere are shortcomings in using…",
+      "author": null,
+      "publishedAt": "2022-03-07T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2022/istiocon-2022/",
+      "title": "Join us for IstioCon 2022!",
+      "link": "https://istio.io/latest/blog/2022/istiocon-2022/",
+      "summary": "IstioCon 2022, set for April 25-29, will be the second annual conference for Istio, the industry’s most popular service mesh. This year’s conference will again be 100% virtual, connecting community members across the globe with Istio’s ecosystem. Visit the conference website for all the information…",
+      "author": null,
+      "publishedAt": "2022-02-14T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2021/simple-vms/",
+      "title": "An easier way to add virtual machines to Istio service mesh",
+      "link": "https://istio.io/latest/blog/2021/simple-vms/",
+      "summary": "Some of the complexities involved with joining a virtual machine are due to the sheer number of features that a service mesh provides. But, what if you only need a subset of those features? For example, secure communication from your virtual machine to services running inside your service mesh.…",
+      "author": null,
+      "publishedAt": "2021-12-20T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2021/wasm-api-alpha/",
+      "title": "Announcing the alpha availability of WebAssembly Plugins",
+      "link": "https://istio.io/latest/blog/2021/wasm-api-alpha/",
+      "summary": "Istio 1.9 introduced experimental support for WebAssembly (Wasm) module distribution and a Wasm extensions ecosystem repository with canonical examples and use cases for extension development. Over the past 9 months, the Istio, Envoy, and Proxy-Wasm communities have continued our joint effort to…",
+      "author": null,
+      "publishedAt": "2021-12-16T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2021/proxyless-grpc/",
+      "title": "gRPC Proxyless Service Mesh",
+      "link": "https://istio.io/latest/blog/2021/proxyless-grpc/",
+      "summary": "Istio dynamically configures its Envoy sidecar proxies using a set of discovery APIs, collectively known as the\nxDS APIs.\nThese APIs aim to become a universal data-plane API.\nThe gRPC project has significant support for the xDS APIs, which means you can manage gRPC workloads\nwithout having to…",
+      "author": null,
+      "publishedAt": "2021-10-28T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2021/aeraki/",
+      "title": "Aeraki — Manage Any Layer-7 Protocol in Istio Service Mesh",
+      "link": "https://istio.io/latest/blog/2021/aeraki/",
+      "summary": "Aeraki [Air-rah-ki] is the Greek word for ‘breeze’. While Istio connects microservices in a service mesh, Aeraki provides a framework to allow Istio to support more layer-7 protocols other than just HTTP and gRPC. We hope this breeze can help Istio sail a little further.\nLack of Protocols Support…",
+      "author": null,
+      "publishedAt": "2021-09-28T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2021/extended-support/",
+      "title": "Announcing Extended Support for Istio 1.9",
+      "link": "https://istio.io/latest/blog/2021/extended-support/",
+      "summary": "In keeping with our 2021 theme of improving Day 2 Istio operations, the Istio team has been evaluating extending the support window for our releases to give users more time to upgrade.  For starters, we are extending the support window of Istio 1.9 by six weeks, to October 5, 2021.  We hope that…",
+      "author": null,
+      "publishedAt": "2021-09-03T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2021/ncc-security-assessment/",
+      "title": "Announcing the results of Istio’s first security assessment",
+      "link": "https://istio.io/latest/blog/2021/ncc-security-assessment/",
+      "summary": "The Istio service mesh has gained wide production adoption across a wide variety of\nindustries. The success of the project, and its critical usage for enforcing key\nsecurity policies in infrastructure warranted an open and neutral assessment of\nthe security risks associated with the project.\nTo…",
+      "author": null,
+      "publishedAt": "2021-07-13T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2021/istio-community-meetup-china/",
+      "title": "Join us at the Istio Community Meetup in China",
+      "link": "https://istio.io/latest/blog/2021/istio-community-meetup-china/",
+      "summary": "With the rapid popularization of cloud native technology in China, Istio has also gained popularity in this corner of the world. Almost all Chinese CSPs have creating and are running service mesh products based on Istio.\nWe welcomed thousands of Istio users and developers to the first IstioCon in…",
+      "author": null,
+      "publishedAt": "2021-07-06T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2021/steering-election/",
+      "title": "Steering and TOC updates",
+      "link": "https://istio.io/latest/blog/2021/steering-election/",
+      "summary": "Last year we introduced a new Steering Committee charter, which shares governance responsibilities between Contribution Seats, selected based on contributions to the project, and Community Seats, elected by the project members. We elected four members, with the committee representing seven…",
+      "author": null,
+      "publishedAt": "2021-06-29T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2021/external-locality-failover/",
+      "title": "Configuring failover for external services",
+      "link": "https://istio.io/latest/blog/2021/external-locality-failover/",
+      "summary": "Istio’s powerful APIs can be used to solve a variety of service mesh use cases. Many users know about its strong ingress and east-west capabilities but it also offers many features for egress (outgoing) traffic. This is especially useful when your application needs to talk to an external service -…",
+      "author": null,
+      "publishedAt": "2021-06-04T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2021/revision-tags/",
+      "title": "Safely upgrade the Istio control plane with revisions and tags",
+      "link": "https://istio.io/latest/blog/2021/revision-tags/",
+      "summary": "Like all security software, your service mesh should be kept up-to-date. The Istio community releases new versions every quarter, with regular patch releases for bug fixes and security vulnerabilities. The operator of a service mesh will need to upgrade the control plane and data plane components…",
+      "author": null,
+      "publishedAt": "2021-05-26T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2021/istio-4th-birthday/",
+      "title": "Happy Birthday, Istio!",
+      "link": "https://istio.io/latest/blog/2021/istio-4th-birthday/",
+      "summary": "Celebrating Istio’s 4th birthday\nFour years ago today, the Istio project was born to the open source world. To celebrate this anniversary,\nwe are hosting a week-long birthday celebration that focuses on contributions to the Istio project that\nstem from using Istio in production. Read on to learn…",
+      "author": null,
+      "publishedAt": "2021-05-24T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2021/direct-upgrade/",
+      "title": "Announcing Support for 1.8 to 1.10 Direct Upgrades",
+      "link": "https://istio.io/latest/blog/2021/direct-upgrade/",
+      "summary": "As Service Mesh technology moves from cutting edge to stable infrastructure, many users have expressed an interest in upgrading their service mesh less frequently, as qualifying a new minor release can take a lot of time. Upgrading can be especially difficult for users who don’t keep up with new…",
+      "author": null,
+      "publishedAt": "2021-05-24T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2021/statefulsets-made-easier/",
+      "title": "StatefulSets Made Easier With Istio 1.10",
+      "link": "https://istio.io/latest/blog/2021/statefulsets-made-easier/",
+      "summary": "Kubernetes StatefulSets are commonly used to manage stateful applications. In addition to managing the deployment and scaling of a set of Pods, StatefulSets provide guarantees about the ordering and uniqueness of those Pods. Common applications used with StatefulSets include ZooKeeper, Cassandra,…",
+      "author": null,
+      "publishedAt": "2021-05-19T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2021/patch-tuesdays/",
+      "title": "Updates to how Istio security releases are handled: Patch Tuesday, embargoes, and 0-days",
+      "link": "https://istio.io/latest/blog/2021/patch-tuesdays/",
+      "summary": "While most of the work in the Istio Product Security Working Group is done behind the scenes, we are listening\nto the community in setting expectations for security releases. We understand that it is difficult for mesh\nadministrators, operators and vendors to be aware of security bulletins and…",
+      "author": null,
+      "publishedAt": "2021-05-11T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2021/discovery-selectors/",
+      "title": "Use discovery selectors to configure namespaces for your Istio service mesh",
+      "link": "https://istio.io/latest/blog/2021/discovery-selectors/",
+      "summary": "As users move their services to run in the Istio service mesh, they are often surprised that the control plane watches and processes all of the Kubernetes resources, from all namespaces in the cluster, by default. This can be an issue for very large clusters with lots of namespaces and deployments,…",
+      "author": null,
+      "publishedAt": "2021-04-30T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2021/upcoming-networking-changes/",
+      "title": "Upcoming networking changes in Istio 1.10",
+      "link": "https://istio.io/latest/blog/2021/upcoming-networking-changes/",
+      "summary": "Background\nWhile Kubernetes networking is customizable, a typical pod’s network will look like this:\nA pod's network\n\nAn application may choose to bind to either the loopback interface lo (typically binding to 127.0.0.1), or the pods network interface eth0 (typically to the pod’s IP), or both…",
+      "author": null,
+      "publishedAt": "2021-04-15T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2021/wasm-progress/",
+      "title": "Istio and Envoy WebAssembly Extensibility, One Year On",
+      "link": "https://istio.io/latest/blog/2021/wasm-progress/",
+      "summary": "One year ago today, in the 1.5 release, we introduced WebAssembly-based extensibility to Istio.\nOver the course of the year, the Istio, Envoy, and Proxy-Wasm communities have continued our joint efforts to make WebAssembly (Wasm)\nextensibility stable, reliable, and easy to adopt. Let’s walk through…",
+      "author": null,
+      "publishedAt": "2021-03-05T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2021/migrate-alpha-policy/",
+      "title": "Migrate pre-Istio 1.4 Alpha security policy to the current APIs",
+      "link": "https://istio.io/latest/blog/2021/migrate-alpha-policy/",
+      "summary": "In versions of Istio prior to 1.4, security policy was configured using v1alpha1 APIs (MeshPolicy, Policy, ClusterRbacConfig, ServiceRole and ServiceRoleBinding). After consulting with our early adopters, we made major improvements to the policy system and released v1beta1 APIs along with Istio…",
+      "author": null,
+      "publishedAt": "2021-03-03T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2021/zero-config-istio/",
+      "title": "Zero Configuration Istio",
+      "link": "https://istio.io/latest/blog/2021/zero-config-istio/",
+      "summary": "When a new user encounters Istio for the first time, they are sometimes overwhelmed by the vast feature\nset it exposes. Unfortunately, this can give the impression that Istio is needlessly complex\nand not fit for small teams or clusters.\nOne great part about Istio, however, is that it aims to bring…",
+      "author": null,
+      "publishedAt": "2021-02-25T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2021/istiocon-2021-program/",
+      "title": "IstioCon 2021: Schedule Is Live!",
+      "link": "https://istio.io/latest/blog/2021/istiocon-2021-program/",
+      "summary": "IstioCon 2021 is a week-long, community-led, virtual conference starting on February 22.\nThis event provides an opportunity to hear the lessons learned from companies like Atlassian, Airbnb, FICO, eBay, T-Mobile and\nSalesforce running Istio in production, hands-on experiences from the Istio…",
+      "author": null,
+      "publishedAt": "2021-02-16T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2021/better-external-authz/",
+      "title": "Better External Authorization",
+      "link": "https://istio.io/latest/blog/2021/better-external-authz/",
+      "summary": "Background\nIstio’s authorization policy provides access control for services in the mesh. It is fast, powerful and a widely used\nfeature. We have made continuous improvements to make policy more flexible since its first release in Istio 1.4, including\nthe DENY action, exclusion semantics,…",
+      "author": null,
+      "publishedAt": "2021-02-09T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2020/proxying-legacy-services-using-egress-gateways/",
+      "title": "Proxying legacy services using Istio egress gateways",
+      "link": "https://istio.io/latest/blog/2020/proxying-legacy-services-using-egress-gateways/",
+      "summary": "At Deutsche Telekom Pan-Net, we have embraced Istio as the umbrella to cover our services. Unfortunately, there are services which have not yet been migrated to Kubernetes, or cannot be.\nWe can set Istio up as a proxy service for these upstream services. This allows us to benefit from capabilities…",
+      "author": null,
+      "publishedAt": "2020-12-16T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2020/show-source-ip/",
+      "title": "Proxy protocol on AWS NLB and Istio ingress gateway",
+      "link": "https://istio.io/latest/blog/2020/show-source-ip/",
+      "summary": "This blog presents my latest experience about how to configure and enable proxy protocol with stack of AWS NLB and Istio Ingress gateway. The Proxy Protocol was designed to chain proxies and reverse-proxies without losing the client information. The proxy protocol prevents the need for…",
+      "author": null,
+      "publishedAt": "2020-12-11T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2020/istiocon-2021/",
+      "title": "Join us for the first IstioCon in 2021!",
+      "link": "https://istio.io/latest/blog/2020/istiocon-2021/",
+      "summary": "IstioCon 2021 will be the inaugural conference for Istio, the industry’s most popular service mesh. In its inaugural year, IstioCon will be 100% virtual, connecting community members across the globe with Istio’s ecosystem. This conference will take place at the end of February.\n\n\nAll the…",
+      "author": null,
+      "publishedAt": "2020-12-08T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2020/docker-rate-limit/",
+      "title": "Handling Docker Hub rate limiting",
+      "link": "https://istio.io/latest/blog/2020/docker-rate-limit/",
+      "summary": "Since November 20th, 2020, Docker Hub has introduced rate limits on image pulls.\nBecause Istio uses Docker Hub as the default registry, usage on a large cluster may lead\nto pods failing to startup due to exceeding rate limits. This can be especially problematic for Istio, as there is typically\nthe…",
+      "author": null,
+      "publishedAt": "2020-12-07T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2020/dns-proxy/",
+      "title": "Expanding into New Frontiers - Smart DNS Proxying in Istio",
+      "link": "https://istio.io/latest/blog/2020/dns-proxy/",
+      "summary": "DNS resolution is a vital component of any application infrastructure\non Kubernetes. When your application code attempts to access another\nservice in the Kubernetes cluster or even a service on the internet,\nit has to first lookup the IP address corresponding to the hostname of\nthe service, before…",
+      "author": null,
+      "publishedAt": "2020-11-12T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2020/steering-election-results/",
+      "title": "2020 Steering Committee Election Results",
+      "link": "https://istio.io/latest/blog/2020/steering-election-results/",
+      "summary": "Last month, we announced a revision to our Steering Committee charter, opening up governance roles to more contributors and community members. The Steering Committee now consists of 9 proportionally-allocated Contribution Seats, and 4 elected Community Seats.\nWe have now concluded our inaugural…",
+      "author": null,
+      "publishedAt": "2020-09-29T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2020/large-scale-security-policy-performance-tests/",
+      "title": "Large Scale Security Policy Performance Tests",
+      "link": "https://istio.io/latest/blog/2020/large-scale-security-policy-performance-tests/",
+      "summary": "Overview\nIstio has a wide range of security policies which can be easily configured into systems of services. As the number of applied policies increases, it is important to understand the relationship of latency, memory usage, and CPU usage of the system.\nThis blog post goes over common security…",
+      "author": null,
+      "publishedAt": "2020-09-15T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2020/new-deployment-model/",
+      "title": "Deploying Istio Control Planes Outside the Mesh",
+      "link": "https://istio.io/latest/blog/2020/new-deployment-model/",
+      "summary": "Overview\nFrom experience working with various service mesh users and vendors, we believe there are 3 key personas for a typical service mesh:\nMesh Operator, who manages the service mesh control plane installation and upgrade.\nMesh Admin, often referred as Platform Owner, who owns the service mesh…",
+      "author": null,
+      "publishedAt": "2020-08-27T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2020/steering-changes/",
+      "title": "Introducing the new Istio steering committee",
+      "link": "https://istio.io/latest/blog/2020/steering-changes/",
+      "summary": "Today, the Istio project is pleased to announce a new revision to its steering charter, which opens up governance roles to more contributors and community members.  This revision solidifies our commitment to open governance, ensuring that the community around the project will always be able to…",
+      "author": null,
+      "publishedAt": "2020-08-24T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2020/mosn-proxy/",
+      "title": "Using MOSN with Istio: an alternative data plane",
+      "link": "https://istio.io/latest/blog/2020/mosn-proxy/",
+      "summary": "MOSN (Modular Open Smart Network) is a network proxy server written in Go. It was built at Ant Group as a sidecar/API Gateway/cloud-native Ingress/Layer 4 or Layer 7 load balancer etc. Over time, we’ve added extra features, like a multi-protocol framework, multi-process plug-in mechanism, a DSL,…",
+      "author": null,
+      "publishedAt": "2020-07-28T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2020/open-usage/",
+      "title": "Open and neutral: transferring our trademarks to the Open Usage Commons",
+      "link": "https://istio.io/latest/blog/2020/open-usage/",
+      "summary": "Since day one, the Istio project has believed in the importance of being contributor-run, open, transparent and available to all. In that spirit, Google is pleased to announce that it will be transferring ownership of the project’s trademarks to the new Open Usage Commons.\nIstio is an open source…",
+      "author": null,
+      "publishedAt": "2020-07-08T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2020/addon-rework/",
+      "title": "Reworking our Addon Integrations",
+      "link": "https://istio.io/latest/blog/2020/addon-rework/",
+      "summary": "Starting with Istio 1.6, we are introducing a new method for integration with telemetry addons, such as Grafana, Prometheus, Zipkin, Jaeger, and Kiali.\nIn previous releases, these addons were bundled as part of the Istio installation. This allowed users to quickly get started with Istio without any…",
+      "author": null,
+      "publishedAt": "2020-06-04T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2020/workload-entry/",
+      "title": "Introducing Workload Entries",
+      "link": "https://istio.io/latest/blog/2020/workload-entry/",
+      "summary": "Introducing Workload Entries: Bridging Kubernetes and VMs\nHistorically, Istio has provided great experience to workloads that run on Kubernetes, but it has been less smooth for other types of workloads, such as Virtual Machines (VMs) and bare metal. The gaps included the inability to declaratively…",
+      "author": null,
+      "publishedAt": "2020-05-21T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2020/multiple-control-planes/",
+      "title": "Safely Upgrade Istio using a Canary Control Plane Deployment",
+      "link": "https://istio.io/latest/blog/2020/multiple-control-planes/",
+      "summary": "Canary deployments are a core feature of Istio. Users rely on Istio’s traffic management features to safely control the rollout of new versions of their applications, while making use of Istio’s rich telemetry to compare the performance of canaries. However, when it came to upgrading Istio, there…",
+      "author": null,
+      "publishedAt": "2020-05-19T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2020/alb-ingress-gateway-iks/",
+      "title": "Direct encrypted traffic from IBM Cloud Kubernetes Service Ingress to Istio Ingress Gateway",
+      "link": "https://istio.io/latest/blog/2020/alb-ingress-gateway-iks/",
+      "summary": "In this blog post I show how to configure the Ingress Application Load Balancer (ALB)\non IBM Cloud Kubernetes Service (IKS) to direct traffic to the Istio\ningress gateway, while securing the traffic between them using mutual TLS authentication.\nWhen you use IKS without Istio, you may control your…",
+      "author": null,
+      "publishedAt": "2020-05-15T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2020/proxy-cert/",
+      "title": "Provision a certificate and key for an application without sidecars",
+      "link": "https://istio.io/latest/blog/2020/proxy-cert/",
+      "summary": "The following information describes an experimental feature, which is intended\nfor evaluation purposes only.\nIstio sidecars obtain their certificates using\nthe secret discovery service.\nA service in the service mesh may not need (or want) an Envoy sidecar\nto handle its traffic. In this case, the…",
+      "author": null,
+      "publishedAt": "2020-03-25T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2020/wasmhub-istio/",
+      "title": "Extended and Improved WebAssemblyHub to Bring the Power of WebAssembly to Envoy and Istio",
+      "link": "https://istio.io/latest/blog/2020/wasmhub-istio/",
+      "summary": "Originally posted on the Solo.io blog\nAs organizations adopt Envoy-based infrastructure like Istio to help solve challenges with microservices communication, they inevitably find themselves needing to customize some part of that infrastructure to fit within their organization’s constraints.…",
+      "author": null,
+      "publishedAt": "2020-03-25T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2020/istiod/",
+      "title": "Introducing istiod: simplifying the control plane",
+      "link": "https://istio.io/latest/blog/2020/istiod/",
+      "summary": "Microservices are a great pattern when they map services to disparate teams that deliver them, or when the value of independent rollout and the value of independent scale are greater than the cost of orchestration. We regularly talk to customers and teams running Istio in the real world, and they…",
+      "author": null,
+      "publishedAt": "2020-03-19T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2020/deploy-wasm-declarative/",
+      "title": "Declarative WebAssembly deployment for Istio",
+      "link": "https://istio.io/latest/blog/2020/deploy-wasm-declarative/",
+      "summary": "As outlined in the Istio 2020 trade winds blog and more recently announced with Istio 1.5, WebAssembly (Wasm) is now an (alpha) option for extending the functionality of the Istio service proxy (Envoy proxy). With Wasm, users can build support for new protocols, custom metrics, loggers, and other…",
+      "author": null,
+      "publishedAt": "2020-03-16T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2020/wasm-announce/",
+      "title": "Redefining extensibility in proxies - introducing WebAssembly to Envoy and Istio",
+      "link": "https://istio.io/latest/blog/2020/wasm-announce/",
+      "summary": "Since adopting Envoy in 2016, the Istio project has always wanted to\nprovide a platform on top of which a rich set of extensions could be built, to meet the diverse\nneeds of our users. There are many reasons to add capability to the data plane of a service\nmesh — to support newer protocols,…",
+      "author": null,
+      "publishedAt": "2020-03-05T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2020/tradewinds-2020/",
+      "title": "Istio in 2020 - Following the Trade Winds",
+      "link": "https://istio.io/latest/blog/2020/tradewinds-2020/",
+      "summary": "Istio solves real problems that people encounter running microservices. Even\nvery early pre-release versions\nhelped users debug the latency in their architecture, increase the reliability\nof services, and transparently secure traffic behind the firewall.\nLast year, the Istio project experienced…",
+      "author": null,
+      "publishedAt": "2020-03-03T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2020/istio-agent/",
+      "title": "Remove cross-pod unix domain sockets",
+      "link": "https://istio.io/latest/blog/2020/istio-agent/",
+      "summary": "In Istio versions before 1.5, during secret discovery service (SDS) execution,\nthe SDS client and the SDS server communicate through a cross-pod Unix domain\nsocket (UDS), which needs to be protected by Kubernetes pod security policies.\nWith Istio 1.5, Pilot Agent, Envoy, and Citadel Agent will be…",
+      "author": null,
+      "publishedAt": "2020-02-20T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2020/multi-cluster-mesh-automation/",
+      "title": "Multicluster Istio configuration and service discovery using Admiral",
+      "link": "https://istio.io/latest/blog/2020/multi-cluster-mesh-automation/",
+      "summary": "At Intuit, we read the blog post Multi-Mesh Deployments for Isolation and Boundary Protection and immediately related to some of the problems mentioned.\nWe realized that even though we wanted to configure a single multi-cluster mesh, instead of a federation of multiple meshes\nas described in the…",
+      "author": null,
+      "publishedAt": "2020-01-05T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2019/webhook/",
+      "title": "Secure Webhook Management",
+      "link": "https://istio.io/latest/blog/2019/webhook/",
+      "summary": "Istio has two webhooks: Galley and the sidecar injector.\nGalley validates Kubernetes resources and the sidecar injector injects sidecar\ncontainers into Istio.\nBy default, Galley and the sidecar injector manage their own webhook configurations.\nThis can pose a security risk if they are compromised,…",
+      "author": null,
+      "publishedAt": "2019-11-14T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2019/v1beta1-authorization-policy/",
+      "title": "Introducing the Istio v1beta1 Authorization Policy",
+      "link": "https://istio.io/latest/blog/2019/v1beta1-authorization-policy/",
+      "summary": "Istio 1.4 introduces the\nv1beta1 authorization policy,\nwhich is a major update to the previous v1alpha1 role-based access control\n(RBAC) policy. The new policy provides these improvements:\nAligns with Istio configuration model.\nImproves the user experience by simplifying the API.\nSupports more use…",
+      "author": null,
+      "publishedAt": "2019-11-14T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2019/introducing-istio-operator/",
+      "title": "Introducing the Istio Operator",
+      "link": "https://istio.io/latest/blog/2019/introducing-istio-operator/",
+      "summary": "Kubernetes operators provide\na pattern for encoding human operational knowledge in software and are a popular way to simplify\nthe administration of software infrastructure components. Istio is a natural candidate for an automated\noperator as it is challenging to administer.\nUp until now, Helm has…",
+      "author": null,
+      "publishedAt": "2019-11-14T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2019/introducing-istioctl-analyze/",
+      "title": "Introducing istioctl analyze",
+      "link": "https://istio.io/latest/blog/2019/introducing-istioctl-analyze/",
+      "summary": "Istio 1.4 introduces an experimental new tool to help you analyze and debug your clusters running Istio.\nistioctl analyze is a diagnostic tool that detects potential issues with your\nIstio configuration, as well as gives general insights to improve your configuration.\nIt can run against a live…",
+      "author": null,
+      "publishedAt": "2019-11-14T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2019/dns-cert/",
+      "title": "DNS Certificate Management",
+      "link": "https://istio.io/latest/blog/2019/dns-cert/",
+      "summary": "By default, Citadel manages the DNS certificates of the Istio control plane.\nCitadel is a large component that maintains its own private signing key, and acts as a Certificate Authority (CA).\nNew in Istio 1.4, we introduce a feature to securely provision and manage DNS certificates\nsigned by the…",
+      "author": null,
+      "publishedAt": "2019-11-14T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2019/announcing-istio-client-go/",
+      "title": "Announcing Istio client-go",
+      "link": "https://istio.io/latest/blog/2019/announcing-istio-client-go/",
+      "summary": "We are pleased to announce the initial release of the Istio\nclient go repository which enables developers\nto gain programmatic access to Istio APIs in a Kubernetes environment. The\ngenerated Kubernetes informers and client set in this repository makes it easy\nfor developers to create controllers…",
+      "author": null,
+      "publishedAt": "2019-11-14T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2019/proxy/",
+      "title": "Istio as a Proxy for External Services",
+      "link": "https://istio.io/latest/blog/2019/proxy/",
+      "summary": "The Control Ingress Traffic and the\nIngress Gateway without TLS Termination tasks describe\nhow to configure an ingress gateway to expose services inside the mesh to external traffic. The services can be HTTP or\nHTTPS. In the case of HTTPS, the gateway passes the traffic through, without terminating…",
+      "author": null,
+      "publishedAt": "2019-10-15T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2019/isolated-clusters/",
+      "title": "Multi-Mesh Deployments for Isolation and Boundary Protection",
+      "link": "https://istio.io/latest/blog/2019/isolated-clusters/",
+      "summary": "Various compliance standards require protection of sensitive data environments. Some of the important standards and the\ntypes of sensitive data they protect appear in the following table:\nStandard\n          Sensitive data\n      \nPCI DSS\n          payment card data\n      \nFedRAMP\n          federal…",
+      "author": null,
+      "publishedAt": "2019-10-02T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2019/monitoring-external-service-traffic/",
+      "title": "Monitoring Blocked and Passthrough External Service Traffic",
+      "link": "https://istio.io/latest/blog/2019/monitoring-external-service-traffic/",
+      "summary": "Understanding, controlling and securing your external service access is one\nof the key benefits that you get from a service mesh like Istio. From a security\nand operations point of view, it is critical to monitor what external service traffic\nis getting blocked as they might surface possible…",
+      "author": null,
+      "publishedAt": "2019-09-28T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2019/knative-activator-adapter/",
+      "title": "Mixer Adapter for Knative",
+      "link": "https://istio.io/latest/blog/2019/knative-activator-adapter/",
+      "summary": "This post demonstrates how you can use Mixer to push application logic\ninto Istio. It describes a Mixer adapter which implements the Knative scale-from-zero logic\nwith simple code and similar performance to the original implementation.\nKnative serving\nKnative Serving builds on Kubernetes to support…",
+      "author": null,
+      "publishedAt": "2019-09-18T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2019/app-identity-and-access-adapter/",
+      "title": "App Identity and Access Adapter",
+      "link": "https://istio.io/latest/blog/2019/app-identity-and-access-adapter/",
+      "summary": "If you are running your containerized applications on Kubernetes, you can benefit from using the App Identity and Access Adapter for an abstracted level of security with zero code changes or redeploys.\nWhether your computing environment is based on a single cloud provider, a combination of multiple…",
+      "author": null,
+      "publishedAt": "2019-09-18T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2019/trustworthy-jwt-sds/",
+      "title": "Change in Secret Discovery Service in Istio 1.3",
+      "link": "https://istio.io/latest/blog/2019/trustworthy-jwt-sds/",
+      "summary": "In Istio 1.3, we are taking advantage of improvements in Kubernetes to issue certificates for workload instances more securely.\nWhen a Citadel Agent sends a certificate signing request to Citadel to get a certificate for a workload instance,\nit includes the JWT that the Kubernetes API server issued…",
+      "author": null,
+      "publishedAt": "2019-09-10T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2019/evolving-istios-apis/",
+      "title": "The Evolution of Istio's APIs",
+      "link": "https://istio.io/latest/blog/2019/evolving-istios-apis/",
+      "summary": "One of Istio’s main goals has always been, and continues to be, enabling teams to develop abstractions that work best for their specific organization and workloads. Istio provides robust and powerful building blocks for service-to-service networking. Since Istio 0.1, the Istio team has been…",
+      "author": null,
+      "publishedAt": "2019-08-05T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2019/egress-traffic-control-in-istio-part-3/",
+      "title": "Secure Control of Egress Traffic in Istio, part 3",
+      "link": "https://istio.io/latest/blog/2019/egress-traffic-control-in-istio-part-3/",
+      "summary": "Welcome to part 3 in our series about secure control of egress traffic in Istio.\nIn the first part in the series, I presented the attacks involving\negress traffic and the requirements we collected for a secure control system for egress traffic.\nIn the second part in the series, I presented the…",
+      "author": null,
+      "publishedAt": "2019-07-22T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2019/egress-traffic-control-in-istio-part-2/",
+      "title": "Secure Control of Egress Traffic in Istio, part 2",
+      "link": "https://istio.io/latest/blog/2019/egress-traffic-control-in-istio-part-2/",
+      "summary": "Welcome to part 2 in our new series about secure control of egress traffic in Istio.\nIn the first part in the series, I presented the attacks involving\negress traffic and the requirements we collected for a secure control system for egress traffic.\nIn this installment, I describe the Istio way to…",
+      "author": null,
+      "publishedAt": "2019-07-10T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2019/performance-best-practices/",
+      "title": "Best Practices: Benchmarking Service Mesh Performance",
+      "link": "https://istio.io/latest/blog/2019/performance-best-practices/",
+      "summary": "Service meshes add a lot of functionality to application deployments, including traffic policies, observability, and secure communication. But adding a service mesh to your environment comes at a cost, whether that’s time (added latency) or resources (CPU cycles). To make an informed decision on…",
+      "author": null,
+      "publishedAt": "2019-07-09T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2019/root-transition/",
+      "title": "Extending Istio Self-Signed Root Certificate Lifetime",
+      "link": "https://istio.io/latest/blog/2019/root-transition/",
+      "summary": "Istio self-signed certificates have historically had a 1 year default lifetime.\nIf you are using Istio self-signed certificates,\nyou need to schedule regular root transitions before they expire.\nAn expiration of a root certificate may lead to an unexpected cluster-wide outage.\nThe issue affects new…",
+      "author": null,
+      "publishedAt": "2019-06-07T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2019/egress-traffic-control-in-istio-part-1/",
+      "title": "Secure Control of Egress Traffic in Istio, part 1",
+      "link": "https://istio.io/latest/blog/2019/egress-traffic-control-in-istio-part-1/",
+      "summary": "This is part 1 in a new series about secure control of egress traffic in Istio that I am going to publish.\nIn this installment, I explain why you should apply egress traffic control to your cluster, the attacks\ninvolving egress traffic you want to prevent, and the requirements for a system for…",
+      "author": null,
+      "publishedAt": "2019-05-22T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2019/istio1.1_perf/",
+      "title": "Architecting Istio 1.1 for Performance",
+      "link": "https://istio.io/latest/blog/2019/istio1.1_perf/",
+      "summary": "Hyper-scale, microservice-based cloud environments have been exciting to build but challenging to manage. Along came Kubernetes (container orchestration) in 2014, followed by Istio (container service management) in 2017. Both open-source projects enable developers to scale container-based…",
+      "author": null,
+      "publishedAt": "2019-03-19T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2019/multicluster-version-routing/",
+      "title": "Version Routing in a Multicluster Service Mesh",
+      "link": "https://istio.io/latest/blog/2019/multicluster-version-routing/",
+      "summary": "If you’ve spent any time looking at Istio, you’ve probably noticed that it includes a lot of features that\ncan be demonstrated with simple tasks and examples\nrunning on a single Kubernetes cluster.\nBecause most, if not all, real-world cloud and microservices-based applications are not that simple…",
+      "author": null,
+      "publishedAt": "2019-02-07T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2019/sail-the-blog/",
+      "title": "Sail the Blog!",
+      "link": "https://istio.io/latest/blog/2019/sail-the-blog/",
+      "summary": "Welcome to the Istio blog!\nTo make it easier to publish your content on our website, we\nupdated the content types guide.\nThe goal of the updated guide is to make sharing and finding content easier.\nWe want to make sharing timely information on Istio easy and the Istio blog\nis a good place to start.…",
+      "author": null,
+      "publishedAt": "2019-02-05T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2019/egress-performance/",
+      "title": "Egress Gateway Performance Investigation",
+      "link": "https://istio.io/latest/blog/2019/egress-performance/",
+      "summary": "The main objective of this investigation was to determine the impact on performance and resource utilization when an egress gateway is added in the service mesh to access an external service (MongoDB, in this case). The steps to configure an egress gateway for an external MongoDB are described in…",
+      "author": null,
+      "publishedAt": "2019-01-31T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2019/data-plane-setup/",
+      "title": "Demystifying Istio's Sidecar Injection Model",
+      "link": "https://istio.io/latest/blog/2019/data-plane-setup/",
+      "summary": "A simple overview of an Istio service-mesh architecture always starts with describing the control-plane and data-plane.\nFrom Istio’s documentation:\n\n        \nAn Istio service mesh is logically split into a data plane and a control plane.\nThe data plane is composed of a set of intelligent proxies…",
+      "author": null,
+      "publishedAt": "2019-01-31T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2019/appswitch/",
+      "title": "Sidestepping Dependency Ordering with AppSwitch",
+      "link": "https://istio.io/latest/blog/2019/appswitch/",
+      "summary": "We are going through an interesting cycle of application decomposition and recomposition.  While the microservice paradigm is driving monolithic applications to be broken into separate individual services, the service mesh approach is helping them to be connected back together into well-structured…",
+      "author": null,
+      "publishedAt": "2019-01-14T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2019/custom-ingress-gateway/",
+      "title": "Deploy a Custom Ingress Gateway Using Cert-Manager",
+      "link": "https://istio.io/latest/blog/2019/custom-ingress-gateway/",
+      "summary": "This post provides instructions to manually create a custom ingress gateway with automatic provisioning of certificates based on cert-manager.\nThe creation of custom ingress gateway could be used in order to have different loadbalancer in order to isolate traffic.\nBefore you begin\nSet up Istio by…",
+      "author": null,
+      "publishedAt": "2019-01-10T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2019/announcing-discuss.istio.io/",
+      "title": "Announcing discuss.istio.io",
+      "link": "https://istio.io/latest/blog/2019/announcing-discuss.istio.io/",
+      "summary": "We in the Istio community have been working to find the right medium for users to engage with other members of the community – to ask questions,\nto get help from other users, and to engage with developers working on the project.\nWe’ve tried several different avenues, but each has had some…",
+      "author": null,
+      "publishedAt": "2019-01-10T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2018/incremental-traffic-management/",
+      "title": "Incremental Istio Part 1, Traffic Management",
+      "link": "https://istio.io/latest/blog/2018/incremental-traffic-management/",
+      "summary": "Traffic management is one of the critical benefits provided by Istio. At the heart of Istio’s traffic management is the ability to decouple traffic flow and infrastructure scaling. This lets you control your traffic in ways that aren’t possible without a service mesh like Istio.\nFor example, let’s…",
+      "author": null,
+      "publishedAt": "2018-11-21T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2018/egress-mongo/",
+      "title": "Consuming External MongoDB Services",
+      "link": "https://istio.io/latest/blog/2018/egress-mongo/",
+      "summary": "In the Consuming External TCP Services blog post, I described how external services\ncan be consumed by in-mesh Istio applications via TCP. In this post, I demonstrate consuming external MongoDB services.\nYou use the Istio Bookinfo sample application, the version in which the book\nratings data is…",
+      "author": null,
+      "publishedAt": "2018-11-16T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2018/istio-twitch-stream/",
+      "title": "All Day Istio Twitch Stream",
+      "link": "https://istio.io/latest/blog/2018/istio-twitch-stream/",
+      "summary": "To celebrate the 1.0 release and to promote the software to a wider audience, the Istio community is hosting an all day live stream on Twitch on August 17th.\nWhat is Twitch?\nTwitch is a popular video gaming live streaming platform and recently has seen a lot of coding content showing up. The IBM…",
+      "author": null,
+      "publishedAt": "2018-08-03T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2018/hp/",
+      "title": "Istio a Game Changer for HP's FitStation Platform",
+      "link": "https://istio.io/latest/blog/2018/hp/",
+      "summary": "The FitStation team at HP strongly believes in the future of Kubernetes, BPF and service-mesh as the next standards in cloud infrastructure. We are also very happy to see Istio coming to its official Istio 1.0 release – thanks to the joint collaboration that started at Google, IBM and Lyft…",
+      "author": null,
+      "publishedAt": "2018-07-31T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2018/delayering-istio/",
+      "title": "Delayering Istio with AppSwitch",
+      "link": "https://istio.io/latest/blog/2018/delayering-istio/",
+      "summary": "All problems in computer science can be solved with another layer, except of course the problem of too many layers. – David Wheeler\nThe sidecar proxy approach enables a lot of awesomeness.  Squarely in the datapath between microservices, the sidecar can precisely tell what the application is trying…",
+      "author": null,
+      "publishedAt": "2018-07-30T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2018/istio-authorization/",
+      "title": "Micro-Segmentation with Istio Authorization",
+      "link": "https://istio.io/latest/blog/2018/istio-authorization/",
+      "summary": "Micro-segmentation is a security technique that creates secure zones in cloud deployments and allows organizations to\nisolate workloads from one another and secure them individually.\nIstio’s authorization feature, also known as Istio Role Based Access Control,\nprovides micro-segmentation for…",
+      "author": null,
+      "publishedAt": "2018-07-20T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2018/export-logs-through-stackdriver/",
+      "title": "Exporting Logs to BigQuery, GCS, Pub/Sub through Stackdriver",
+      "link": "https://istio.io/latest/blog/2018/export-logs-through-stackdriver/",
+      "summary": "This post shows how to direct Istio logs to Stackdriver\nand export those logs to various configured sinks such as such as\nBigQuery, Google Cloud Storage\nor Cloud Pub/Sub. At the end of this post you can perform\nanalytics on Istio data from your favorite places such as BigQuery, GCS or Cloud…",
+      "author": null,
+      "publishedAt": "2018-07-09T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2018/egress-monitoring-access-control/",
+      "title": "Monitoring and Access Policies for HTTP Egress Traffic",
+      "link": "https://istio.io/latest/blog/2018/egress-monitoring-access-control/",
+      "summary": "While Istio’s main focus is management of traffic between microservices inside a service mesh, Istio can also manage\ningress (from outside into the mesh) and egress (from the mesh outwards) traffic. Istio can uniformly enforce access\npolicies and aggregate telemetry data for mesh-internal, ingress…",
+      "author": null,
+      "publishedAt": "2018-06-22T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2018/v1alpha3-routing/",
+      "title": "Introducing the Istio v1alpha3 routing API",
+      "link": "https://istio.io/latest/blog/2018/v1alpha3-routing/",
+      "summary": "Up until now, Istio has provided a simple API for traffic management using four configuration resources:\nRouteRule, DestinationPolicy, EgressRule, and (Kubernetes) Ingress.\nWith this API, users have been able to easily manage the flow of traffic in an Istio service mesh.\nThe API has allowed users…",
+      "author": null,
+      "publishedAt": "2018-04-25T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2018/aws-nlb/",
+      "title": "Configuring Istio Ingress with AWS NLB",
+      "link": "https://istio.io/latest/blog/2018/aws-nlb/",
+      "summary": "This post was updated on January 16, 2019 to include some usage warnings.\nThis post provides instructions to use and configure ingress Istio with AWS Network Load Balancer.\nNetwork load balancer (NLB) could be used instead of classical load balancer. You can see the comparison between different AWS…",
+      "author": null,
+      "publishedAt": "2018-04-20T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2018/soft-multitenancy/",
+      "title": "Istio Soft Multi-Tenancy Support",
+      "link": "https://istio.io/latest/blog/2018/soft-multitenancy/",
+      "summary": "Multi-tenancy is commonly used in many environments across many different applications,\nbut the implementation details and functionality provided on a per tenant basis does not\nfollow one model in all environments.  The Kubernetes multi-tenancy working group\nis working to define the multi-tenant…",
+      "author": null,
+      "publishedAt": "2018-04-19T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2018/traffic-mirroring/",
+      "title": "Traffic Mirroring with Istio for Testing in Production",
+      "link": "https://istio.io/latest/blog/2018/traffic-mirroring/",
+      "summary": "Trying to enumerate all the possible combinations of test cases for testing services in non-production/test environments can be daunting. In some cases, you’ll find that all of the effort that goes into cataloging these use cases doesn’t match up to real production use cases. Ideally, we could use…",
+      "author": null,
+      "publishedAt": "2018-02-08T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2018/egress-tcp/",
+      "title": "Consuming External TCP Services",
+      "link": "https://istio.io/latest/blog/2018/egress-tcp/",
+      "summary": "This blog post was updated on July 23, 2018 to use the new\nv1alpha3 traffic management API. If you need to use the old version, follow these docs.\nIn my previous blog post, Consuming External Web Services, I described how external services\ncan be consumed by in-mesh Istio applications via HTTPS. In…",
+      "author": null,
+      "publishedAt": "2018-02-06T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2018/egress-https/",
+      "title": "Consuming External Web Services",
+      "link": "https://istio.io/latest/blog/2018/egress-https/",
+      "summary": "In many cases, not all the parts of a microservices-based application reside in a service mesh. Sometimes, the\nmicroservices-based applications use functionality provided by legacy systems that reside outside the mesh. You may want\nto migrate these systems to the service mesh gradually. Until these…",
+      "author": null,
+      "publishedAt": "2018-01-31T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2017/mixer-spof-myth/",
+      "title": "Mixer and the SPOF Myth",
+      "link": "https://istio.io/latest/blog/2017/mixer-spof-myth/",
+      "summary": "As Mixer is in the request path, it is natural to question how it impacts\noverall system availability and latency. A common refrain we hear when people first glance at Istio architecture diagrams is\n“Isn’t this just introducing a single point of failure?”\nIn this post, we’ll dig deeper and cover…",
+      "author": null,
+      "publishedAt": "2017-12-07T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2017/adapter-model/",
+      "title": "Mixer Adapter Model",
+      "link": "https://istio.io/latest/blog/2017/adapter-model/",
+      "summary": "Istio 0.2 introduced a new Mixer adapter model which is intended to increase Mixer’s flexibility to address a varied set of infrastructure backends. This post intends to put the adapter model in context and explain how it works.\nWhy adapters?\nInfrastructure backends provide support functionality…",
+      "author": null,
+      "publishedAt": "2017-11-03T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2017/0.1-using-network-policy/",
+      "title": "Using Network Policy with Istio",
+      "link": "https://istio.io/latest/blog/2017/0.1-using-network-policy/",
+      "summary": "The use of Network Policy to secure applications running on Kubernetes is a now a widely accepted industry best practice.  Given that Istio also supports policy, we want to spend some time explaining how Istio policy and Kubernetes Network Policy interact and support each other to deliver your…",
+      "author": null,
+      "publishedAt": "2017-08-10T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2017/0.1-canary/",
+      "title": "Canary Deployments using Istio",
+      "link": "https://istio.io/latest/blog/2017/0.1-canary/",
+      "summary": "This post was updated on May 16, 2018 to use the latest version of the traffic management model.\nOne of the benefits of the Istio project is that it provides the control needed to deploy canary services. The idea behind\ncanary deployment (or rollout) is to introduce a new version of a service by…",
+      "author": null,
+      "publishedAt": "2017-06-14T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2017/0.1-auth/",
+      "title": "Using Istio to Improve End-to-End Security",
+      "link": "https://istio.io/latest/blog/2017/0.1-auth/",
+      "summary": "Conventional network security approaches fail to address security threats to distributed applications deployed in dynamic production environments. Today, we describe how Istio authentication enables enterprises to transform their security posture from just protecting the edge to consistently…",
+      "author": null,
+      "publishedAt": "2017-05-25T00:00:00.000Z"
+    }
+  ],
+  "totalIndexed": 161
+}

@@ -1,0 +1,175 @@
+{
+  "feedId": "cloudflare-workers",
+  "feedName": "Cloudflare Workers Blog",
+  "feedSiteUrl": "https://blog.cloudflare.com/tag/workers",
+  "feedRssUrl": "https://blog.cloudflare.com/tag/workers/rss",
+  "tags": [
+    "serverless",
+    "edge-computing",
+    "javascript"
+  ],
+  "updatedAt": "2026-07-23T11:00:59.541Z",
+  "items": [
+    {
+      "guid": "1WYEYtVwQSo4H3jKHTcKmO",
+      "title": "Your Worker can now have its own cache in front of it",
+      "link": "https://blog.cloudflare.com/workers-cache/",
+      "summary": "We are launching Workers Cache, a regionally tiered cache that sits directly in front of your Worker entrypoints. Infinitely composable, configured via standard HTTP headers",
+      "author": "Dan Lapid",
+      "publishedAt": "2026-07-06T13:00:00.000Z"
+    },
+    {
+      "guid": "6BmERiKIIt4pIJoFmNy7Jn",
+      "title": "How we built saga rollbacks for Cloudflare Workflows",
+      "link": "https://blog.cloudflare.com/rollbacks-for-workflows/",
+      "summary": "Cloudflare Workflows, our durable execution engine for multi-step applications, now supports saga-style rollbacks, allowing developers to specify a compensating action for each step.do().",
+      "author": "Vaishnav Kavitha",
+      "publishedAt": "2026-06-25T13:00:00.000Z"
+    },
+    {
+      "guid": "5X4Vz9KDcjIBXgHIFSuJFZ",
+      "title": "How we found a bug in the hyper HTTP library",
+      "link": "https://blog.cloudflare.com/hyper-bug/",
+      "summary": "By rearchitecting the Images binding, we accidentally uncovered a bug that existed in the open-source hyper library across multiple major versions.",
+      "author": "Deanna Lam",
+      "publishedAt": "2026-06-22T18:00:00.000Z"
+    },
+    {
+      "guid": "2EKaG8rvH4FLnpEQVgvJ4I",
+      "title": "Temporary Cloudflare Accounts for AI agents",
+      "link": "https://blog.cloudflare.com/temporary-accounts/",
+      "summary": "The moment an agent needs to deploy something, it slams face-first into a wall built for humans. Today we're rolling out Temporary Accounts on Cloudflare Workers. Any agent can now run wrangler deploy — temporary and get a live Worker in seconds.",
+      "author": "Sid Chatterjee",
+      "publishedAt": "2026-06-19T13:00:00.000Z"
+    },
+    {
+      "guid": "48yPgdpb7RGTBdh4DPPCUF",
+      "title": "Bringing more agent harnesses and frameworks to Cloudflare, starting with Flue",
+      "link": "https://blog.cloudflare.com/agents-platform-flue-sdk/",
+      "summary": "The Agents SDK is now a runtime any agent framework can build on. Today we're opening up the Agents SDK primitives, with Flue as a first framework targeting Agents SDK, and rolling out agents in the dashboard",
+      "author": "Thomas Gauvin",
+      "publishedAt": "2026-06-17T19:35:00.000Z"
+    },
+    {
+      "guid": "2atb0Whie0RvOXQHBoBrKH",
+      "title": "Announcing Claude Managed Agents on Cloudflare",
+      "link": "https://blog.cloudflare.com/claude-managed-agents/",
+      "summary": "Cloudflare has integrated with Anthropic's Claude Managed Agents to provide a fast, isolated execution environment for autonomous code delivery. This means builders can scale agent workflows globally while strictly controlling access to private backends and easily customizing their agent’s tools…",
+      "author": "Mike Nomitch",
+      "publishedAt": "2026-05-19T13:00:00.000Z"
+    },
+    {
+      "guid": "6hwTzVHKEOlPBwzj6rWnRM",
+      "title": "Browser Run: now running on Cloudflare Containers, it’s faster and more scalable",
+      "link": "https://blog.cloudflare.com/browser-run-containers/",
+      "summary": "We’ve enabled higher usage limits, faster performance, better reliability, and increased shipping velocity for our Browser Run product by rebuilding on top of Cloudflare’s Containers. Here’s how.",
+      "author": "Ruskin Constant",
+      "publishedAt": "2026-05-13T13:00:00.000Z"
+    },
+    {
+      "guid": "4JZIrwtIvEd4qwAd4JAThB",
+      "title": "Introducing Dynamic Workflows: durable execution that follows the tenant",
+      "link": "https://blog.cloudflare.com/dynamic-workflows/",
+      "summary": "Dynamic Workflows is a library that lets you route durable execution to tenant-provided code on the fly. Built on Dynamic Workers, it enables platforms to serve millions of unique workflows at near-zero idle cost.",
+      "author": "Dan Lapid",
+      "publishedAt": "2026-05-01T13:00:00.000Z"
+    },
+    {
+      "guid": "AFvlhoSnkPLdXbRwjUsCU",
+      "title": "Agents can now create Cloudflare accounts, buy domains, and deploy",
+      "link": "https://blog.cloudflare.com/agents-stripe-projects/",
+      "summary": "Starting today, agents can now be Cloudflare customers. They can create a Cloudflare account, start a paid subscription, register a domain, and get back an API token to deploy code right away. Humans can be in the loop to grant permission, but there’s no need to go to the dashboard, copy and paste…",
+      "author": "Sid Chatterjee",
+      "publishedAt": "2026-04-30T13:00:00.000Z"
+    },
+    {
+      "guid": "2StUNK716oSircL9mJUjrg",
+      "title": "Making Rust Workers reliable: panic and abort recovery in wasm‑bindgen",
+      "link": "https://blog.cloudflare.com/making-rust-workers-reliable/",
+      "summary": "Panics in Rust Workers were historically fatal, poisoning the entire instance. By collaborating upstream on the wasm‑bindgen project, Rust Workers now support resilient critical error recovery, including panic unwinding using WebAssembly Exception Handling.",
+      "author": "Guy Bedford",
+      "publishedAt": "2026-04-22T13:00:00.000Z"
+    },
+    {
+      "guid": "4z7ZJ5ZbY3e3YwJtkg6NiD",
+      "title": "The AI engineering stack we built internally — on the platform we ship",
+      "link": "https://blog.cloudflare.com/internal-ai-engineering-stack/",
+      "summary": "We built our internal AI engineering stack on the same products we ship. That means 20 million requests routed through AI Gateway, 241 billion tokens processed, and inference running on Workers AI, serving more than 3,683 internal users. Here's how we did it.",
+      "author": "Ayush Thakur",
+      "publishedAt": "2026-04-20T13:00:00.000Z"
+    },
+    {
+      "guid": "25CSwW9eXDM4FJOdVPLf8f",
+      "title": "Building the agentic cloud: everything we launched during Agents Week 2026",
+      "link": "https://blog.cloudflare.com/agents-week-in-review/",
+      "summary": "Agents Week 2026 is a wrap. Let’s take a look at everything we announced, from compute and security to the agent toolbox, platform tools, and the emerging agentic web. Everything we shipped for the agentic cloud.",
+      "author": "Ming Lu",
+      "publishedAt": "2026-04-20T13:00:00.000Z"
+    },
+    {
+      "guid": "3d8fI4f0doBxr4ybfKEymB",
+      "title": "Introducing Flagship: feature flags built for the age of AI",
+      "link": "https://blog.cloudflare.com/flagship/",
+      "summary": "We are launching Flagship, a native feature flag service built on Cloudflare’s global network to eliminate the latency of third-party providers. By using KV and Durable Objects, Flagship allows for sub-millisecond flag evaluation.",
+      "author": "Rohan Mukherjee",
+      "publishedAt": "2026-04-17T13:00:00.000Z"
+    },
+    {
+      "guid": "2sshzOlmGVsrtBz2mgeceE",
+      "title": "Artifacts: versioned storage that speaks Git",
+      "link": "https://blog.cloudflare.com/artifacts-git-for-agents-beta/",
+      "summary": "Give your agents, developers, and automations a home for code and data. We’ve just launched Artifacts: Git-compatible versioned storage built for agents. Create tens of millions of repos, fork from any remote, and hand off a URL to any Git client.",
+      "author": "Dillon Mulroy",
+      "publishedAt": "2026-04-16T13:01:00.000Z"
+    },
+    {
+      "guid": "1IGJnHwj5QVRJm9iCdEqYV",
+      "title": "Deploy Postgres and MySQL databases with PlanetScale + Workers",
+      "link": "https://blog.cloudflare.com/deploy-planetscale-postgres-with-workers/",
+      "summary": "Learn how to deploy PlanetScale Postgres and MySQL databases via Cloudflare and connect Cloudflare Workers.",
+      "author": "Vy Ton",
+      "publishedAt": "2026-04-16T13:00:22.000Z"
+    },
+    {
+      "guid": "3r2ykMs0LTSPwVHmVWldCy",
+      "title": "Project Think: building the next generation of AI agents on Cloudflare",
+      "link": "https://blog.cloudflare.com/project-think/",
+      "summary": "Announcing a preview of the next edition of the Agents SDK — from lightweight primitives to a batteries-included platform for AI agents that think, act, and persist.",
+      "author": "Sunil Pai",
+      "publishedAt": "2026-04-15T13:01:00.000Z"
+    },
+    {
+      "guid": "5R3ZpKlSDaSxbIwmpXwWYJ",
+      "title": "Rearchitecting the Workflows control plane for the agentic era",
+      "link": "https://blog.cloudflare.com/workflows-v2/",
+      "summary": "Cloudflare Workflows, a durable execution engine for multi-step applications, now supports higher concurrency and creation rate limits through a rearchitectured control plane, helping scale to meet the use cases for durable background agents.",
+      "author": "Luís Duarte",
+      "publishedAt": "2026-04-15T13:00:00.000Z"
+    },
+    {
+      "guid": "1t4PF8FLpPMGpgBd6UjBBv",
+      "title": "Add voice to your agent",
+      "link": "https://blog.cloudflare.com/voice-agents/",
+      "summary": "An experimental voice pipeline for the Agents SDK enables real-time voice interactions over WebSockets. Developers can now build agents with continuous STT and TTS in just ~30 lines of server-side code.",
+      "author": "Sunil Pai",
+      "publishedAt": "2026-04-15T13:00:00.000Z"
+    },
+    {
+      "guid": "160lCssR1GA8lEUV718ev5",
+      "title": "Browser Run: give your agents a browser",
+      "link": "https://blog.cloudflare.com/browser-run-for-ai-agents/",
+      "summary": "Browser Rendering is now Browser Run, with Live View, Human in the Loop, CDP access, session recordings, and 4x higher concurrency limits for AI agents.",
+      "author": "Kathy Liao",
+      "publishedAt": "2026-04-15T13:00:00.000Z"
+    },
+    {
+      "guid": "73AaroR7GH8sXdbfIV99Fl",
+      "title": "Scaling MCP adoption: Our reference architecture for simpler, safer and cheaper enterprise deployments of MCP",
+      "link": "https://blog.cloudflare.com/enterprise-mcp/",
+      "summary": "We share Cloudflare's internal strategy for governing MCP using Access, AI Gateway, and MCP server portals. We also launch Code Mode to slash token costs and recommend new rules for detecting Shadow MCP in Cloudflare Gateway.",
+      "author": "Sharon Goldberg",
+      "publishedAt": "2026-04-14T13:00:10.000Z"
+    }
+  ],
+  "totalIndexed": 20
+}

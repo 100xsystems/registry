@@ -1,0 +1,85 @@
+name: Daily Feed Update
+
+on:
+  schedule:
+    # Runs every day at 00:00 UTC
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+    # Allows manual trigger from GitHub UI
+    inputs:
+      historical:
+        description: 'Run historical import (fetch up to 500 items per feed)'
+        type: boolean
+        default: false
+      limit:
+        description: 'Max items per feed'
+        type: number
+        default: 50
+      feed:
+        description: 'Single feed ID to update (empty = all feeds)'
+        type: string
+        required: false
+
+permissions:
+  contents: write
+
+jobs:
+  update-feeds:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          # We need the full history for the diff check
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: 'npm'
+          cache-dependency-path: package-lock.json
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run feed update
+        run: |
+          if [ "${{ github.event_name == 'workflow_dispatch' && inputs.historical }}" == "true" ]; then
+            FEED_FLAG=""
+            if [ -n "${{ inputs.feed }}" ]; then
+              FEED_FLAG="--feed=${{ inputs.feed }}"
+            fi
+            npm run update-feeds -- --historical --limit=${{ inputs.limit || 500 }} $FEED_FLAG
+          else
+            FEED_FLAG=""
+            if [ -n "${{ inputs.feed }}" ]; then
+              FEED_FLAG="--feed=${{ inputs.feed }}"
+            fi
+            npm run update-feeds -- --limit=${{ inputs.limit || 50 }} $FEED_FLAG
+          fi
+          # The update-feeds script now automatically writes daily/delta.json
+          # with only the new items from this run. This file is small (< 1KB)
+          # and is used by the website's ISR for incremental cache updates.
+
+      - name: Check for changes
+        id: git-check
+        run: |
+          git add .
+          if git diff --staged --quiet; then
+            echo "No changes — exiting"
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "Changes detected"
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit and push changes
+        if: steps.git-check.outputs.changed == 'true'
+        run: |
+          git config --local user.name "100xSystems Bot"
+          git config --local user.email "bot@100xsystems.dev"
+          git commit -m "chore(feeds): daily update — $(date +'%Y-%m-%d')"
+          git push
