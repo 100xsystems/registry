@@ -6,7 +6,9 @@
   "scripts": {
     "update-feeds": "tsx scripts/update-feeds.ts",
     "historical-import": "tsx scripts/update-feeds.ts --historical --limit=500",
-    "crawl-sitemap": "tsx scripts/crawl-sitemap.ts"
+    "crawl-sitemap": "tsx scripts/crawl-sitemap.ts",
+    "crawl-awesome": "tsx scripts/crawl-awesome.ts",
+    "crawl-wikidata": "tsx scripts/crawl-wikidata.ts"
   },
   "dependencies": {
     "fast-xml-parser": "^5.2.0",
