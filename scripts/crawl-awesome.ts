@@ -99,37 +99,88 @@ const AWESOME_DIR = path.resolve(path.dirname(new URL(import.meta.url).pathname)
  * These are hand-curated high-quality lists relevant to engineering.
  */
 const AWESOME_REPOS: Array<{ owner: string; repo: string }> = [
-  // Distributed Systems & Databases
-  { owner: 'dhamaniasad', repo: 'awesome-databases' },
-  { owner: 'danluu', repo: 'post-mortems' },
+  // ── The Original ─────────────────────────────────────────────────────
+  { owner: 'sindresorhus', repo: 'awesome' }, // The original (684+ links, 27 categories)
 
-  // Architecture & Design
-  { owner: 'binhnguyennus', repo: 'awesome-scalability' },
-  { owner: 'madd86', repo: 'awesome-system-design' },
+  // ── Systems & Low-Level ─────────────────────────────────────────────
+  { owner: 'rigtorp', repo: 'awesome-low-latency' }, // Low latency networking & systems
+  { owner: 'embedded-boston', repo: 'awesome-embedded-systems' }, // Embedded systems
+  { owner: 'jubalh', repo: 'awesome-os' }, // Operating systems development
 
-  // Programming Languages
-  { owner: 'sindresorhus', repo: 'awesome' }, // The original awesome list
+  // ── Languages ───────────────────────────────────────────────────────
   { owner: 'avelino', repo: 'awesome-go' },
   { owner: 'rust-unofficial', repo: 'awesome-rust' },
   { owner: 'vinta', repo: 'awesome-python' },
-
-  // DevOps & Infrastructure
-  { owner: 'veggiemonk', repo: 'awesome-docker' },
-  { owner: 'ramitsurana', repo: 'awesome-kubernetes' },
-
-  // Tools & Platforms
   { owner: 'fffaraz', repo: 'awesome-cpp' },
   { owner: 'akullpp', repo: 'awesome-java' },
+  { owner: 'sindresorhus', repo: 'awesome-nodejs' },
+  { owner: 'dzharii', repo: 'awesome-typescript' },
+  { owner: 'enaqx', repo: 'awesome-react' },
+  { owner: 'vuejs', repo: 'awesome-vue' },
+  { owner: 'PatrickJS', repo: 'awesome-angular' },
+  { owner: 'TheComputerM', repo: 'awesome-svelte' },
+  { owner: 'unicodeveloper', repo: 'awesome-nextjs' },
+  { owner: 'matteocrippa', repo: 'awesome-swift' },
+  { owner: 'mcxiaoke', repo: 'awesome-kotlin' },
+  { owner: 'markets', repo: 'awesome-ruby' },
+  { owner: 'lauris', repo: 'awesome-scala' },
+  { owner: 'h4cc', repo: 'awesome-elixir' },
+  { owner: 'LewisJEllis', repo: 'awesome-lua' },
   { owner: 'agile6v', repo: 'awesome-nginx' },
-  { owner: 'zoidbergwill', repo: 'awesome-ebpf' },
 
-  // Security
+  // ── Databases ───────────────────────────────────────────────────────
+  { owner: 'dhamaniasad', repo: 'awesome-databases' },
+  { owner: 'ramnes', repo: 'awesome-mongodb' },
+  { owner: 'chentsulin', repo: 'awesome-graphql' },
+  { owner: 'igorbarinov', repo: 'awesome-data-engineering' },
+
+  // ── DevOps & Cloud ──────────────────────────────────────────────────
+  { owner: 'veggiemonk', repo: 'awesome-docker' },
+  { owner: 'ramitsurana', repo: 'awesome-kubernetes' },
+  { owner: 'shuaibiyy', repo: 'awesome-terraform' },
+  { owner: 'nileshsimaria', repo: 'awesome-prometheus' },
+  { owner: 'rootsongjc', repo: 'awesome-cloud-native' },
+  { owner: 'anaibol', repo: 'awesome-serverless' },
+  { owner: 'jippi', repo: 'awesome-nomad' },
+  { owner: 'docker', repo: 'awesome-compose' },
+  { owner: 'festum', repo: 'awesome-servicemesh' },
+
+  // ── Architecture & Design ───────────────────────────────────────────
+  { owner: 'binhnguyennus', repo: 'awesome-scalability' },
+  { owner: 'madd86', repo: 'awesome-system-design' },
+  { owner: 'mfornos', repo: 'awesome-microservices' },
+  { owner: 'heynickc', repo: 'awesome-ddd' },
+  { owner: 'ashishps1', repo: 'awesome-system-design-resources' },
+
+  // ── Security ────────────────────────────────────────────────────────
   { owner: 'qazbnm456', repo: 'awesome-web-security' },
   { owner: 'paragonie', repo: 'awesome-appsec' },
+  { owner: 'sbilly', repo: 'awesome-security' },
+  { owner: 'rshipp', repo: 'awesome-malware-analysis' },
 
-  // AI / ML
+  // ── AI / ML ─────────────────────────────────────────────────────────
   { owner: 'josephmisiti', repo: 'awesome-machine-learning' },
   { owner: 'ChristosChristofidis', repo: 'awesome-deep-learning' },
+  { owner: 'academic', repo: 'awesome-datascience' },
+  { owner: 'jbhuang0604', repo: 'awesome-computer-vision' },
+  { owner: 'keon', repo: 'awesome-nlp' },
+
+  // ── Observability & Testing ─────────────────────────────────────────
+  { owner: 'adriannovegil', repo: 'awesome-observability' },
+  { owner: 'danluu', repo: 'post-mortems' },
+  { owner: 'atinfo', repo: 'awesome-test-automation' },
+
+  // ── Tools & Platforms ───────────────────────────────────────────────
+  { owner: 'zoidbergwill', repo: 'awesome-ebpf' },
+  { owner: 'rockerBOO', repo: 'awesome-neovim' },
+  { owner: 'viatsko', repo: 'awesome-vscode' },
+  { owner: 'herrbischoff', repo: 'awesome-cli-apps' },
+  { owner: 'alebcay', repo: 'awesome-shell' },
+
+  // ── Emerging & Specialized ──────────────────────────────────────────
+  { owner: 'aniftyco', repo: 'awesome-tailwindcss' },
+  { owner: 'phodal', repo: 'awesome-iot' },
+  { owner: 'jslee02', repo: 'awesome-robotics-libraries' },
 ];
 
 // ── GitHub API ────────────────────────────────────────────────────────
