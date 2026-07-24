@@ -2,13 +2,16 @@
   "name": "100xsystems-registry-feeds",
   "version": "1.0.0",
   "private": true,
-  "description": "100xSystems Registry — RSS feed metadata index. Stores only article metadata (title, link, summary, publishedAt). Never stores article content.",
+  "description": "100xSystems Registry \u2014 RSS feed metadata index. Stores only article metadata (title, link, summary, publishedAt). Never stores article content.",
   "scripts": {
     "update-feeds": "tsx scripts/update-feeds.ts",
     "historical-import": "tsx scripts/update-feeds.ts --historical --limit=500",
     "crawl-sitemap": "tsx scripts/crawl-sitemap.ts",
     "crawl-awesome": "tsx scripts/crawl-awesome.ts",
-    "crawl-knowledge": "tsx scripts/crawl-knowledge.ts"
+    "crawl-knowledge": "tsx scripts/crawl-knowledge.ts",
+    "fetch-yc": "tsx scripts/fetch-yc-data.ts",
+    "fetch-ph": "tsx scripts/fetch-ph-data.ts",
+    "daily-update": "npm run update-feeds && npm run fetch-yc && npm run fetch-ph"
   },
   "dependencies": {
     "fast-xml-parser": "^5.2.0",

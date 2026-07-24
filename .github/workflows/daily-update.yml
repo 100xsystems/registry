@@ -1,0 +1,70 @@
+name: Daily Registry Update
+
+on:
+  schedule:
+    # Run every day at 06:00 UTC
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+    # Allow manual trigger
+    inputs:
+      update_feeds:
+        description: 'Update RSS feeds'
+        type: boolean
+        default: true
+      update_yc:
+        description: 'Update YC data'
+        type: boolean
+        default: true
+      update_ph:
+        description: 'Update Product Hunt data'
+        type: boolean
+        default: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout registry repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Update RSS feeds (incremental)
+        if: ${{ !github.event.inputs || github.event.inputs.update_feeds != 'false' }}
+        run: npm run update-feeds
+        continue-on-error: true
+
+      - name: Fetch YC Combinator data
+        if: ${{ !github.event.inputs || github.event.inputs.update_yc != 'false' }}
+        run: npx tsx scripts/fetch-yc-data.ts
+        continue-on-error: true
+
+      - name: Fetch Product Hunt data
+        if: ${{ !github.event.inputs || github.event.inputs.update_ph != 'false' }}
+        run: npx tsx scripts/fetch-ph-data.ts
+        continue-on-error: true
+
+      - name: Commit and push changes
+        run: |
+          git config user.name '100xSystems Bot'
+          git config user.email 'bot@100xsystems.com'
+          git add -A
+          # Only commit if there are changes
+          if git diff --staged --quiet; then
+            echo 'No changes to commit'
+          else
+            git commit -m "chore: daily registry update - $(date +%Y-%m-%d)"
+            git push
+          fi
