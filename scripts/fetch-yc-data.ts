@@ -134,28 +134,9 @@ function main(): void {
       }
     }
 
-    // 3. Copy batch directories (individual company JSON files for detailed access)
-    const batchesDest = path.join(YC_CACHE_DIR, 'batches');
-    ensureDir(batchesDest);
-
-    const batchDirs = fs.readdirSync(batchesSrc, { withFileTypes: true }).filter(d => d.isDirectory());
-    let copiedBatches = 0;
-    for (const dir of batchDirs) {
-      const batchDirSrc = path.join(batchesSrc, dir.name);
-      const batchDirDest = path.join(batchesDest, dir.name);
-      fs.mkdirSync(batchDirDest, { recursive: true });
-
-      const batchFiles = fs.readdirSync(batchDirSrc).filter(f => f.endsWith('.json'));
-      for (const file of batchFiles.slice(0, 30)) {
-        try {
-          const raw = JSON.parse(fs.readFileSync(path.join(batchDirSrc, file), 'utf-8')) as Record<string, unknown>;
-          const slim = slimCompany(raw);
-          fs.writeFileSync(path.join(batchDirDest, file), JSON.stringify(slim), 'utf-8');
-        } catch { /* skip corrupt files */ }
-      }
-      copiedBatches++;
-    }
-    console.log(`  ✓ batches/ — ${copiedBatches} batch dirs copied (${batchDirs.length} total)`);
+    // 3. (Skipped — individual batch company files are not cached.
+    //    Only the aggregated featured.json is used by the website.
+    //    This keeps the cache lean for fast Vercel deployments.)
   }
 
   // 4. Write featured-companies.json (used by HomeYC component)
