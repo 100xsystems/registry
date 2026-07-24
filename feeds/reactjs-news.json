@@ -1,0 +1,93 @@
+{
+  "feedId": "reactjs-news",
+  "feedName": "ReactJS News",
+  "feedSiteUrl": "https://reactjsnews.com",
+  "feedRssUrl": "https://reactjsnews.com/feed.xml",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T07:06:07.880Z",
+  "items": [
+    {
+      "guid": "https://reactjsnews.com/proxies-with-redux-types",
+      "title": "Using Proxies with Redux Types",
+      "link": "https://reactjsnews.com/proxies-with-redux-types",
+      "summary": "One of the most common problems that I run into when using Redux is trying to figure out why an action is not being captured by a reducer.  For someone just getting starting with Redux, debugging this issue can be especially overwhelming because of how Redux manages data flow.  So before you start…",
+      "author": null,
+      "publishedAt": "2017-03-28T16:00:00.000Z"
+    },
+    {
+      "guid": "https://reactjsnews.com/component-kits-for-react-native",
+      "title": "Component Kits for React Native",
+      "link": "https://reactjsnews.com/component-kits-for-react-native",
+      "summary": "You won’t find as many styling solutions for React Native as you will for React JS. This stems from two simple realities:\nReact Native is a much smaller target for component libraries than traditional CSS frameworks. In other words, Bootstrap CSS can be used with any web framework, whereas…",
+      "author": null,
+      "publishedAt": "2017-03-07T17:00:00.000Z"
+    },
+    {
+      "guid": "https://reactjsnews.com/the-diverse-react-navigation-ecosystem",
+      "title": "The Diverse React Navigation Ecosystem",
+      "link": "https://reactjsnews.com/the-diverse-react-navigation-ecosystem",
+      "summary": "The routing ecosystem around React and React Native is quite different. One is characterized by a strong incumbent, and the other is plagued by rapid change.\nReact JS\nNo question about it, React Router (ReactTraining/react-router) is king here. They have the benefit of several years of active…",
+      "author": null,
+      "publishedAt": "2017-03-06T17:00:00.000Z"
+    },
+    {
+      "guid": "https://reactjsnews.com/react-js-with-cloudinary",
+      "title": "Leveraging React for Easy Image Management",
+      "link": "https://reactjsnews.com/react-js-with-cloudinary",
+      "summary": "React is a good tool when it comes to building flexible and reusable UI components. However, it’s “one of those libraries” that cannot handle all the tasks involved in building a full fleshed UI project. Other supporting tools - such as a recently announced React SDK from Cloudinary - are available…",
+      "author": null,
+      "publishedAt": "2017-01-17T17:00:00.000Z"
+    },
+    {
+      "guid": "https://reactjsnews.com/react-native-exponent-with-charlie-cheever",
+      "title": "Native's Exponent with Charlie Cheever",
+      "link": "https://reactjsnews.com/react-native-exponent-with-charlie-cheever",
+      "summary": "React Native continues on a development spree in late 2016.  With an ambitious two-week release cycle, the framework makes rapid progress towards feature and performance parity with its native Android and iOS equivalents.  At the same time, these quick release periods frequently introduce breaking…",
+      "author": null,
+      "publishedAt": "2016-11-22T17:00:00.000Z"
+    },
+    {
+      "guid": "https://reactjsnews.com/routing-in-react-native-with-jake-murzy",
+      "title": "Routing in React Native with Jake Murzy",
+      "link": "https://reactjsnews.com/routing-in-react-native-with-jake-murzy",
+      "summary": "Jake Murzy has been hard at work creating a new navigational library for React Native over the last couple of months.  While React JS has the benefit of the highly-regarded React Router, such a comprehensive routing solution doesn’t exist yet in the React Native community.  In fact, React Native’s…",
+      "author": null,
+      "publishedAt": "2016-09-28T17:00:00.000Z"
+    },
+    {
+      "guid": "https://reactjsnews.com/playing-with-react-and-d3",
+      "title": "Playing With React and D3",
+      "link": "https://reactjsnews.com/playing-with-react-and-d3",
+      "summary": "D3 is great at data visualizations, but it manipulates the DOM directly to display that data. Rendering DOM elements is where React shines. It uses a virtual representation of the DOM (virtual DOM) and a super performant diffing algorithm in order to determine the fastest way to update the DOM. We…",
+      "author": null,
+      "publishedAt": "2016-04-21T17:00:00.000Z"
+    },
+    {
+      "guid": "https://reactjsnews.com/how-to-make-your-react-apps-10x-faster",
+      "title": "How to Make Your React Apps 15x Faster",
+      "link": "https://reactjsnews.com/how-to-make-your-react-apps-10x-faster",
+      "summary": "Without any modifications, React is really fast as-is. There are, however, a few things that you can do to improve performance. While working at HelloSign, I discovered some quick fixes that made our apps incredibly snappy. With these simple changes, I was able to reduce render time from over 3000…",
+      "author": null,
+      "publishedAt": "2016-04-07T17:00:00.000Z"
+    },
+    {
+      "guid": "https://reactjsnews.com/redux-middleware",
+      "title": "Building Redux Middleware",
+      "link": "https://reactjsnews.com/redux-middleware",
+      "summary": "After writing my post a few months ago on building your own redux app, I have been asked a couple times to write a guide on creating redux middleware and how it works. This will be a quick post on how you can acheive anything with your own middleware!\n##Basic middleware\n\nconst customMiddleware =…",
+      "author": null,
+      "publishedAt": "2016-03-13T23:00:09.000Z"
+    },
+    {
+      "guid": "https://reactjsnews.com/webpack-in-production",
+      "title": "React Router & Webpack in Production",
+      "link": "https://reactjsnews.com/webpack-in-production",
+      "summary": "I’ve been working on a pretty large react-router codebase at work. Currently it has around 50~ code splits, which as you can imagine, is a lot of routes. This is going to be a post on the things I’ve learned throughout building out my development / production config and how we are using webpack in…",
+      "author": null,
+      "publishedAt": "2016-03-13T04:00:09.000Z"
+    }
+  ],
+  "totalIndexed": 10
+}

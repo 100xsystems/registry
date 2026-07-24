@@ -1,0 +1,93 @@
+{
+  "feedId": "hashrocket",
+  "feedName": "Hashrocket",
+  "feedSiteUrl": "https://hashrocket.com/blog",
+  "feedRssUrl": "https://hashrocket.com/blog.rss",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T06:51:06.611Z",
+  "items": [
+    {
+      "guid": "https://hashrocket.com/blog/posts/testing-readonly-models",
+      "title": "Testing Readonly Models",
+      "link": "https://hashrocket.com/blog/posts/testing-readonly-models",
+      "summary": "I was working with a readonly model in Rails the other day and ran into an issue whilst testing it. Here's what I ran into and the solution I came up with.\nReadonly models are a great way to signal that, well, you should only ever read them, not write them. Maybe you have some external system that…",
+      "author": "\n  ",
+      "publishedAt": "2026-03-17T13:00:00.000Z"
+    },
+    {
+      "guid": "https://hashrocket.com/blog/posts/crafting-code-building-a-ruby-pattern-generator-for-a-crochet-circle",
+      "title": "Crafting Code: Building a Ruby Pattern Generator for a Crochet Circle",
+      "link": "https://hashrocket.com/blog/posts/crafting-code-building-a-ruby-pattern-generator-for-a-crochet-circle",
+      "summary": "In my time as a developer, I have noticed that one of the most common ways my coworkers spend time coding outside of work is by developing little code snippets or apps that solve problems in their everyday lives. From household budgeting, to managing workouts on rowing machines, to generating a…",
+      "author": "\n  ",
+      "publishedAt": "2026-01-20T14:00:00.000Z"
+    },
+    {
+      "guid": "https://hashrocket.com/blog/posts/building-a-simple-search-with-rails-stimulus",
+      "title": "Building a (Very) Simple Responsive Search with Rails & Stimulus",
+      "link": "https://hashrocket.com/blog/posts/building-a-simple-search-with-rails-stimulus",
+      "summary": "Here's a simple and responsive search form I put together for a recent side project, using Hotwire's Stimulus framework and Rails with Turbo.\nThe Form\n\n\nHere's how the search input looks. It's a simple search form connected to a Stimulus controller. The input triggers the search function upon every…",
+      "author": "\n  ",
+      "publishedAt": "2025-12-09T14:00:00.000Z"
+    },
+    {
+      "guid": "https://hashrocket.com/blog/posts/creating-a-custom-mobile-integration-for-a-board-game-using-ruby-on-rails",
+      "title": "Creating a Custom Mobile Integration for a Board Game Using Ruby on Rails",
+      "link": "https://hashrocket.com/blog/posts/creating-a-custom-mobile-integration-for-a-board-game-using-ruby-on-rails",
+      "summary": "Picture this: you find a charming old board game at a garage sale, bring it home, gather some friends—and snap. The 50-year-old plastic components break instantly. You search the web for help to replace this fun and unique game mechanic but there’s nothing to be found. So naturally, you roll up…",
+      "author": "\n  ",
+      "publishedAt": "2025-12-04T14:00:00.000Z"
+    },
+    {
+      "guid": "https://hashrocket.com/blog/posts/why-ruby-is-the-best-language-for-advent-of-code",
+      "title": "Why Ruby is the Best Language for Advent of Code",
+      "link": "https://hashrocket.com/blog/posts/why-ruby-is-the-best-language-for-advent-of-code",
+      "summary": "It's the most wonderful time of the year - Christmas Advent of Code time! Advent of Code is an Advent Calendar style series of programming puzzles put out each year, starting on December 1st leading up to Christmas. The puzzles are super festive and ramp up in difficulty over the course of the…",
+      "author": "\n  ",
+      "publishedAt": "2025-12-02T14:00:00.000Z"
+    },
+    {
+      "guid": "https://hashrocket.com/blog/posts/how-to-rev-up-your-rails-development-with-mcp",
+      "title": "How To Rev Up Your Rails Development with MCP",
+      "link": "https://hashrocket.com/blog/posts/how-to-rev-up-your-rails-development-with-mcp",
+      "summary": "Shipping new features on legacy Rails applications requires deep codebase context. The rails-mcp-server gem closes the gap between AI agents and your Rails projects, enabling more relevant code analysis and context aware refactoring suggestions. Whether you're dealing with tech debt in a brownfield…",
+      "author": "\n  ",
+      "publishedAt": "2025-11-27T14:00:00.000Z"
+    },
+    {
+      "guid": "https://hashrocket.com/blog/posts/building-a-mcp-server-in-elixir",
+      "title": "Building a MCP Server in Elixir",
+      "link": "https://hashrocket.com/blog/posts/building-a-mcp-server-in-elixir",
+      "summary": "We’ve been working with MCP servers for a while, and this use case was a perfect opportunity to build out another one.\nWhat is an MCP Server?\n\n\nA very simple way to put it is that Model Context Protocol is an \"API\" that your AI tooling can use to get external data or perform actions by interacting…",
+      "author": "\n  ",
+      "publishedAt": "2025-11-25T14:00:00.000Z"
+    },
+    {
+      "guid": "https://hashrocket.com/blog/posts/speed-up-your-rails-app-by-squashing-n-1-queries",
+      "title": "Speed Up Your Rails App by Squashing N+1 Queries",
+      "link": "https://hashrocket.com/blog/posts/speed-up-your-rails-app-by-squashing-n-1-queries",
+      "summary": "N+1 queries are one of the most common performance killers in Rails apps, but also one of the easiest to fix. In this post, we'll see how a single line of code can reduce 1,101 database queries down to 3.\nN+1s occur in rails when you have associated ActiveRecord models, and iterate over one model…",
+      "author": "\n  ",
+      "publishedAt": "2025-11-20T14:00:00.000Z"
+    },
+    {
+      "guid": "https://hashrocket.com/blog/posts/some-thoughts-about-claude-code",
+      "title": "Some Thoughts About Claude Code",
+      "link": "https://hashrocket.com/blog/posts/some-thoughts-about-claude-code",
+      "summary": "Claude code is a powerful AI toolset that runs right in your terminal. While providing a lot of impressive utility, it also suffers from the issues that arise from similar AI toolings with the addition of an expensive pricing model.\nContext is Important\n\n\nTo me, the main selling point for Claude…",
+      "author": "\n  ",
+      "publishedAt": "2025-11-18T14:00:00.000Z"
+    },
+    {
+      "guid": "https://hashrocket.com/blog/posts/nativewind-speeding-up-styling-in-react-native",
+      "title": "Nativewind: Speeding up Styling in React Native",
+      "link": "https://hashrocket.com/blog/posts/nativewind-speeding-up-styling-in-react-native",
+      "summary": "How Nativewind can speed up your React Native Development\nIf you're anything like me, after working on a few web projects with Tailwind, it can feel like a drag to return to stacks that use other styling libraries. Tailwind has become, for myself, and many other developers, a standard styling…",
+      "author": "\n  ",
+      "publishedAt": "2025-11-13T14:00:00.000Z"
+    }
+  ],
+  "totalIndexed": 10
+}

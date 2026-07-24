@@ -1,0 +1,173 @@
+{
+  "feedId": "mozilla-hacks",
+  "feedName": "Mozilla Hacks",
+  "feedSiteUrl": "https://hacks.mozilla.org/",
+  "feedRssUrl": "https://hacks.mozilla.org/feed/",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T07:01:05.969Z",
+  "items": [
+    {
+      "guid": "https://hacks.mozilla.org/?p=48374",
+      "title": "PACT: Anonymous Credentials for the Web",
+      "link": "https://hacks.mozilla.org/2026/06/pact-anonymous-credentials-for-the-web/",
+      "summary": "This is the technical companion to our update on Distilled, “Keeping the web open and private in the bot era.” Here we take a deeper look at the problem space, the design we’re proposing, and the problems still left to solve. Bots (and privacy-preserving browsers) not welcome Browse a news site in…",
+      "author": "Dennis Jackson",
+      "publishedAt": "2026-06-23T15:29:52.000Z"
+    },
+    {
+      "guid": "https://hacks.mozilla.org/?p=48329",
+      "title": "Announcing Web Serial Support in Firefox",
+      "link": "https://hacks.mozilla.org/2026/05/web-serial-support-in-firefox/",
+      "summary": "Support for Web Serial in Firefox 151 for Desktop Firefox can now connect directly to microcontrollers, development boards, 3D printers, power meters, and other serial-connected hardware from the web. Starting in Firefox 151 for Desktop, support for the Web Serial API allows web applications to…",
+      "author": "Haik Aftandilian",
+      "publishedAt": "2026-05-21T18:00:05.000Z"
+    },
+    {
+      "guid": "https://hacks.mozilla.org/?p=48309",
+      "title": "Behind the Scenes Hardening Firefox with Claude Mythos Preview",
+      "link": "https://hacks.mozilla.org/2026/05/behind-the-scenes-hardening-firefox/",
+      "summary": "Two weeks ago we announced that we had identified and fixed an unprecedented number of latent security bugs in Firefox with the help of Claude Mythos Preview and other AI models. In this post, we’ll go into more detail about how we approached this work, what we found, and advice for other projects…",
+      "author": "Brian Grinstead",
+      "publishedAt": "2026-05-07T16:01:21.000Z"
+    },
+    {
+      "guid": "https://hacks.mozilla.org/?p=48312",
+      "title": "Trustworthy JavaScript for the Open Web",
+      "link": "https://hacks.mozilla.org/2026/05/trustworthy-javascript-for-the-open-web/",
+      "summary": "The open web is a critical platform for applications that handle highly sensitive data, from private communications to financial transactions and medical records. Traditionally, servers are trusted to deliver the appropriate code and resources for their web applications to browsers, who then…",
+      "author": "Firefox Security Team",
+      "publishedAt": "2026-05-05T15:49:11.000Z"
+    },
+    {
+      "guid": "https://hacks.mozilla.org/?p=48302",
+      "title": "Firefox Developer Edition and Beta: Try out Mozilla’s .rpm package!",
+      "link": "https://hacks.mozilla.org/2026/03/firefox-developer-edition-and-beta-try-out-mozillas-rpm-package/",
+      "summary": "In January, we introduced our Nightly package for RPM-based Linux distributions. Today, we are thrilled to announce it is now available for Firefox Beta! Firefox Beta is great for testing your sites in a version of Firefox that will reach regular users in the coming weeks. If you find any issues,…",
+      "author": "Bastien Orivel",
+      "publishedAt": "2026-03-25T16:17:11.000Z"
+    },
+    {
+      "guid": "https://hacks.mozilla.org/?p=48278",
+      "title": "Why is WebAssembly a second-class language on the web?",
+      "link": "https://hacks.mozilla.org/2026/02/making-webassembly-a-first-class-language-on-the-web/",
+      "summary": "This post is an expanded version of a presentation I gave at the 2025 WebAssembly CG meeting in Munich. WebAssembly has come a long way since its first release in 2017. The first version of WebAssembly was already a great fit for low-level languages like C and C++, and immediately enabled many new…",
+      "author": "Ryan Hunt",
+      "publishedAt": "2026-02-26T16:02:36.000Z"
+    },
+    {
+      "guid": "https://hacks.mozilla.org/?p=48258",
+      "title": "Goodbye innerHTML, Hello setHTML: Stronger XSS Protection in Firefox 148",
+      "link": "https://hacks.mozilla.org/2026/02/goodbye-innerhtml-hello-sethtml-stronger-xss-protection-in-firefox-148/",
+      "summary": "Cross-site scripting (XSS) remains one of the most prevalent vulnerabilities on the web. The new standardized Sanitizer API provides a straightforward way for web developers to sanitize untrusted HTML before inserting it into the DOM. Firefox 148 is the first browser to ship this standardized…",
+      "author": "Tom Schuster",
+      "publishedAt": "2026-02-24T13:00:02.000Z"
+    },
+    {
+      "guid": "https://hacks.mozilla.org/?p=48246",
+      "title": "Launching Interop 2026",
+      "link": "https://hacks.mozilla.org/2026/02/launching-interop-2026/",
+      "summary": "The Interop Project is a cross-browser initiative to improve web compatibility in areas that offer the most benefit to both users and developers. The group, including Apple, Google, Igalia, Microsoft, and Mozilla, takes proposals of features that are well defined in a sufficiently stable web…",
+      "author": "Jake Archibald",
+      "publishedAt": "2026-02-12T17:07:24.000Z"
+    },
+    {
+      "guid": "https://hacks.mozilla.org/?p=48231",
+      "title": "CRLite: Fast, private, and comprehensive certificate revocation checking in Firefox",
+      "link": "https://hacks.mozilla.org/2025/08/crlite-fast-private-and-comprehensive-certificate-revocation-checking-in-firefox/",
+      "summary": "Firefox is now the first and the only browser to deploy fast and comprehensive certificate revocation checking that does not reveal your browsing activity to anyone (not even to Mozilla). Tens of millions of TLS server certificates are issued each day to secure communications between browsers and…",
+      "author": "John Schanck",
+      "publishedAt": "2025-08-19T16:03:19.000Z"
+    },
+    {
+      "guid": "https://hacks.mozilla.org/?p=48223",
+      "title": "Improving Firefox Stability in the Enterprise by Reducing DLL Injection",
+      "link": "https://hacks.mozilla.org/2025/03/improving-firefox-stability-in-the-enterprise-by-reducing-dll-injection/",
+      "summary": "Beginning in version 138, Firefox will offer an alternative to DLL injection for Data Loss Prevention (DLP) deployments in enterprise environments. DLL Injection DLL injection into Firefox is a topic we’ve covered on the Hacks blog before. In 2023, we blogged about the Firefox capability to let…",
+      "author": "Haik Aftandilian",
+      "publishedAt": "2025-03-25T18:31:16.000Z"
+    },
+    {
+      "guid": "https://hacks.mozilla.org/?p=48216",
+      "title": "Launching Interop 2025",
+      "link": "https://hacks.mozilla.org/2025/02/interop-2025/",
+      "summary": "Interop 2025 continues the mission to make the web more consistent across browsers, building on 2024’s 95% interoperability score. This year, 19 focus areas target key developer needs and long-standing issues, including WebRTC improvements, Storage Access API, and CSS Zoom. \nThe post Launching…",
+      "author": "James Graham",
+      "publishedAt": "2025-02-13T16:59:13.000Z"
+    },
+    {
+      "guid": "https://hacks.mozilla.org/?p=48211",
+      "title": "Introducing Uniffi for React Native: Rust-Powered Turbo Modules",
+      "link": "https://hacks.mozilla.org/2024/12/introducing-uniffi-for-react-native-rust-powered-turbo-modules/",
+      "summary": "Mozilla and Filament have introduced Uniffi for React Native, a tool that allows developers to leverage the safety and performance benefits of Rust in cross-platform React Native apps.\nThe post Introducing Uniffi for React Native: Rust-Powered Turbo Modules appeared first on Mozilla Hacks - the Web…",
+      "author": "Mark Mayo",
+      "publishedAt": "2024-12-04T19:38:01.000Z"
+    },
+    {
+      "guid": "https://hacks.mozilla.org/?p=48203",
+      "title": "Llamafile v0.8.14: a new UI, performance gains, and more",
+      "link": "https://hacks.mozilla.org/2024/10/llamafile-v0-8-14-a-new-ui-performance-gains-and-more/",
+      "summary": "Discover the latest release of Llamafile 0.8.14, an open-source AI tool by Mozilla Builders. With a new command-line chat interface, enhanced performance, and support for powerful models, Llamafile makes it easy to run large language models (LLMs) on your own hardware. Learn more about the updates…",
+      "author": "Stephen Hood",
+      "publishedAt": "2024-10-16T13:32:30.000Z"
+    },
+    {
+      "guid": "https://hacks.mozilla.org/?p=48183",
+      "title": "0Din: A GenAI Bug Bounty Program – Securing Tomorrow’s AI Together",
+      "link": "https://hacks.mozilla.org/2024/08/0din-a-genai-bug-bounty-program-securing-tomorrows-ai-together/",
+      "summary": "As AI continues to evolve, so do the threats against it. As these GenAI systems become more sophisticated and widely adopted, ensuring their security and ethical use becomes paramount. 0Din is a groundbreaking GenAI bug bounty program dedicated specifically to help secure GenAI systems and beyond.…",
+      "author": "Marco Figueroa",
+      "publishedAt": "2024-08-08T18:39:13.000Z"
+    },
+    {
+      "guid": "https://hacks.mozilla.org/?p=48176",
+      "title": "Announcing Official Puppeteer Support for Firefox",
+      "link": "https://hacks.mozilla.org/2024/08/puppeteer-support-for-firefox/",
+      "summary": "We’re pleased to announce that, as of version 23, the Puppeteer browser automation library now has first-class support for Firefox. This means that it’s now easy to write automation and perform end-to-end testing using Puppeteer, and run against both Chrome and Firefox.\nThe post Announcing Official…",
+      "author": "James Graham",
+      "publishedAt": "2024-08-07T15:44:40.000Z"
+    },
+    {
+      "guid": "https://hacks.mozilla.org/?p=48167",
+      "title": "Snapshots for IPC Fuzzing",
+      "link": "https://hacks.mozilla.org/2024/06/snapshots-for-ipc-fuzzing/",
+      "summary": "Process separation remains one of the most important parts of the Firefox security model and securing our IPC (Inter-Process Communication) interfaces is crucial to keep privileges in the different processes separated. We take a more detailed look at our newest tool for finding vulnerabilities in…",
+      "author": "Christian Holler",
+      "publishedAt": "2024-06-27T16:18:49.000Z"
+    },
+    {
+      "guid": "https://hacks.mozilla.org/?p=48162",
+      "title": "Sponsoring sqlite-vec to enable more powerful Local AI applications",
+      "link": "https://hacks.mozilla.org/2024/06/sponsoring-sqlite-vec-to-enable-more-powerful-local-ai-applications/",
+      "summary": "Today we’re proud to announce the next Mozilla Builders project: sqlite-vec. Led by independent developer Alex Garcia, this project brings vector search functionality to the beloved SQLite embedded database. Alex has been working on this problem for a while, and we think his latest approach will…",
+      "author": "Stephen Hood",
+      "publishedAt": "2024-06-25T15:25:58.000Z"
+    },
+    {
+      "guid": "https://hacks.mozilla.org/?p=48155",
+      "title": "Experimenting with local alt text generation in Firefox Nightly",
+      "link": "https://hacks.mozilla.org/2024/05/experimenting-with-local-alt-text-generation-in-firefox-nightly/",
+      "summary": "Firefox 130 will introduce an experimental new capability to automatically generate alt-text for images using a fully private on-device AI model. The feature will be available as part of Firefox’s built-in PDF editor, and our end goal is to make it available in general browsing for users with…",
+      "author": "Tarek Ziadé",
+      "publishedAt": "2024-05-31T16:43:46.000Z"
+    },
+    {
+      "guid": "https://hacks.mozilla.org/?p=48149",
+      "title": "Llamafile’s progress, four months in",
+      "link": "https://hacks.mozilla.org/2024/04/llamafiles-progress-four-months-in/",
+      "summary": "When Mozilla’s Innovation group first launched the llamafile project late last year, we were thrilled by the immediate positive response from open source AI developers. It’s become one of Mozilla’s top three most-favorited repositories on GitHub, attracting a number of contributors, some excellent…",
+      "author": "Stephen Hood",
+      "publishedAt": "2024-04-25T15:34:08.000Z"
+    },
+    {
+      "guid": "https://hacks.mozilla.org/?p=48127",
+      "title": "Porting a cross-platform GUI application to Rust",
+      "link": "https://hacks.mozilla.org/2024/04/porting-a-cross-platform-gui-application-to-rust/",
+      "summary": "In this blog post, we delve into the motivations for choosing Rust for our crash reporter, outline the unique challenges of designing an application that operates when the main browser has failed, and discuss the new architecture we've implemented. We also share insights into the technical nuances…",
+      "author": "Alex Franchuk",
+      "publishedAt": "2024-04-23T19:08:08.000Z"
+    }
+  ],
+  "totalIndexed": 20
+}

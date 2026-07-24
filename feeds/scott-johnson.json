@@ -1,0 +1,413 @@
+{
+  "feedId": "scott-johnson",
+  "feedName": "Scott Johnson",
+  "feedSiteUrl": "http://www.fuzzyblog.io/blog/",
+  "feedRssUrl": "http://fuzzyblog.io/blog/feed.xml",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T07:09:02.002Z",
+  "items": [
+    {
+      "guid": "http://fuzzyblog.io/blog/rails/2022/07/27/testing-rails-apps-with-factorybot-and-minitest.html",
+      "title": "Testing Rails Apps with FactoryBot and MiniTest",
+      "link": "http://fuzzyblog.io/blog/rails/2022/07/27/testing-rails-apps-with-factorybot-and-minitest.html",
+      "summary": "Pizza courtesy of Pizza for Ukraine!\nDonate Now to Pizza for Ukraine\nThis blog post looks at testing rails apps with FactoryBot and MiniTest – the default test framework which ships with Rails.  It does not use RSpec and RSpec is NOT required for use with FactoryBot.\nNote: I believe that MiniTest…",
+      "author": null,
+      "publishedAt": "2022-07-27T10:58:00.000Z"
+    },
+    {
+      "guid": "http://fuzzyblog.io/blog/flow_analytics/2022/07/21/hardware-learning-01-leds-have-a-plus-side.html",
+      "title": "Hardware Learning 01 - LEDs have a plus side",
+      "link": "http://fuzzyblog.io/blog/flow_analytics/2022/07/21/hardware-learning-01-leds-have-a-plus-side.html",
+      "summary": "As part of the yet to be announced Flow Analytics startup, I have to learn quite a bit more about building hardware.  All of my learnings will be blogged for anyone who wants to follow along.\nTonight's learning is simple:\nLEDs have a plus and a minus side.\nThe plus side is denoted by a LONGER lead.…",
+      "author": null,
+      "publishedAt": "2022-07-21T03:32:00.000Z"
+    },
+    {
+      "guid": "http://fuzzyblog.io/blog/rails/2022/07/20/rails-tip-when-you-are-testing-model-files-without-a-database-table-delete-fixtures-file.html",
+      "title": "Rails Tip : When You Are Testing Model Files without a Database Table Delete Fixtures File",
+      "link": "http://fuzzyblog.io/blog/rails/2022/07/20/rails-tip-when-you-are-testing-model-files-without-a-database-table-delete-fixtures-file.html",
+      "summary": "I generate a lot of models without ActiveRecord backing.  The reason for this is I try and follow a fairly functional style of Ruby coding where I use class methods.  The reason I use models for this:\nI don't know what to call them other than a model\nThe models directly is auto loaded so I can…",
+      "author": null,
+      "publishedAt": "2022-07-20T14:02:00.000Z"
+    },
+    {
+      "guid": "http://fuzzyblog.io/blog/nushell/2022/07/20/maybe-i-can-stay-in-nushell.html",
+      "title": "Maybe I can Stay in NuShell -or- Living in a Diverse Land of Shells",
+      "link": "http://fuzzyblog.io/blog/nushell/2022/07/20/maybe-i-can-stay-in-nushell.html",
+      "summary": "I really, really like NuShell.  The realization that maybe I had to leave was, I'll admit, mildly crushing.  And then I just had the realization that maybe I don't have to leave NuShell and slink back to the dirty, byte infested corners of Bash and Zsh.  Here's what just happened:…",
+      "author": null,
+      "publishedAt": "2022-07-20T09:36:00.000Z"
+    },
+    {
+      "guid": "http://fuzzyblog.io/blog/rails/2022/07/18/running-multiple-rails-apps-concurrently-with-foreman-and-procfile-dev.html",
+      "title": "Running Multiple Rails Apps Concurrently with Foreman and Procfile.dev",
+      "link": "http://fuzzyblog.io/blog/rails/2022/07/18/running-multiple-rails-apps-concurrently-with-foreman-and-procfile-dev.html",
+      "summary": "Pizza courtesy of Pizza for Ukraine!\nDonate Now to Pizza for Ukraine\nAs I've said, I build a lot of side projects and I really, really like the model of having:\nALL MY APPS RUNNING CONCURRENTLY\nI may be a scattered, distracted developer trying to do too damn much but that's my damn right.  And I…",
+      "author": null,
+      "publishedAt": "2022-07-18T13:15:00.000Z"
+    },
+    {
+      "guid": "http://fuzzyblog.io/blog/nushell/2022/07/17/getting-nushell-usable-under-osx-for-myself.html",
+      "title": "Getting NuShell Usable Under OSX for Myself",
+      "link": "http://fuzzyblog.io/blog/nushell/2022/07/17/getting-nushell-usable-under-osx-for-myself.html",
+      "summary": "Pizza courtesy of Pizza for Ukraine!\nDonate Now to Pizza for Ukraine\nAs I've written, I'm acutely interested in using software written in Rust as my daily drivers.  What I've seen so far is that programs written in Rust, based on an admittedly tiny sample, seem to be higher quality than programs…",
+      "author": null,
+      "publishedAt": "2022-07-17T15:20:00.000Z"
+    },
+    {
+      "guid": "http://fuzzyblog.io/blog/startup/2022/07/15/value-statements-for-my-new-company.html",
+      "title": "Value Statements for My New Company",
+      "link": "http://fuzzyblog.io/blog/startup/2022/07/15/value-statements-for-my-new-company.html",
+      "summary": "Welp, it looks like I'm starting a new company after all.  Here are the values that I drafted for it.\nValues\nThese things we believe:\nEthics.  We will behave ethically in all situations.\nWriting Things Down.  We will work from home and be a distributed culture.  And in a distributed culture, things…",
+      "author": null,
+      "publishedAt": "2022-07-15T07:39:00.000Z"
+    },
+    {
+      "guid": "http://fuzzyblog.io/blog/zed/2022/07/12/modifying-zed-s-default-keystrokes.html",
+      "title": "Modifying Zed's Default Keystrokes",
+      "link": "http://fuzzyblog.io/blog/zed/2022/07/12/modifying-zed-s-default-keystrokes.html",
+      "summary": "I'm now deep into my week of using the Zed editor, a new code editor written in Rust.  In this blog post, I'll document how to change the default keystrokes.\nCommands\nThis happens from the Zed menu, the Preferences command.  There are two commands you need:\nOpen Default Key Bindings\nOpen Key…",
+      "author": null,
+      "publishedAt": "2022-07-12T15:54:00.000Z"
+    },
+    {
+      "guid": "http://fuzzyblog.io/blog/nushell/2022/07/09/nushell-when-bin-bash-curl-installs-fail.html",
+      "title": "NuShell - When /bin/bash curl installs fail",
+      "link": "http://fuzzyblog.io/blog/nushell/2022/07/09/nushell-when-bin-bash-curl-installs-fail.html",
+      "summary": "I've liked the concept of NuShell since I first heard about it.  I then liked it more when I discovered that Yehuda Katz was involved since I strongly believe in picking software based on the pedigree of the engineers involved (no I don't – yet – have engineer trading cards but I'm thinking about…",
+      "author": null,
+      "publishedAt": "2022-07-09T02:57:00.000Z"
+    },
+    {
+      "guid": "http://fuzzyblog.io/blog/osx/2022/07/09/fixing-a-hosed-homebrew-installation.html",
+      "title": "Fixing a Hosed HomeBrew Installation",
+      "link": "http://fuzzyblog.io/blog/osx/2022/07/09/fixing-a-hosed-homebrew-installation.html",
+      "summary": "NOTE: I'm not telling you to do this.  This blog post advocates bulk permission changing and that's risky but HomeBrew was entirely broken and brew doctor did not work.  And this solution did.  Use at your own risk.\nI have two primary machines – a Mac Desktop and a dual monitor Mac Laptop.  I use…",
+      "author": null,
+      "publishedAt": "2022-07-09T02:40:00.000Z"
+    },
+    {
+      "guid": "http://fuzzyblog.io/blog/rust/2022/07/08/rust-alternatives-to-textmate-2-the-agony-of-despair.html",
+      "title": "Rust Editors to Replace TextMate 2 - The Agony of Despair",
+      "link": "http://fuzzyblog.io/blog/rust/2022/07/08/rust-alternatives-to-textmate-2-the-agony-of-despair.html",
+      "summary": "Pizza courtesy of Pizza for Ukraine!\nDonate Now to Pizza for Ukraine\nNote: This has now appeared on Hacker News – thank you for the upvotes; I'm very flattered.  I got some good information on Lapce from - maybe - the author and I've updated that.\nChange Log\nUpdated: 2022-07-10 added Neovide, a…",
+      "author": null,
+      "publishedAt": "2022-07-08T12:59:00.000Z"
+    },
+    {
+      "guid": "http://fuzzyblog.io/blog/dns/2022/07/07/registering-a-domain-with-name-silo.html",
+      "title": "Registering a Domain with Name Silo",
+      "link": "http://fuzzyblog.io/blog/dns/2022/07/07/registering-a-domain-with-name-silo.html",
+      "summary": "So I needed to register a .IO domain today.  Amazon had .io domains at $71 per and Google had them at $60.  A quick check with my guru of cheapness, Nick Janetakis, said:\nNameSilo.com\nAnd he convinced me.  Here are some tips:\nDo not accept any of their options.\nJust the domain, Sir, just the…",
+      "author": null,
+      "publishedAt": "2022-07-07T13:12:00.000Z"
+    },
+    {
+      "guid": "http://fuzzyblog.io/blog/rails/2022/07/07/creating-a-rails-app-using-jumpstart-pro.html",
+      "title": "Creating a Rails App Using JumpStart Pro",
+      "link": "http://fuzzyblog.io/blog/rails/2022/07/07/creating-a-rails-app-using-jumpstart-pro.html",
+      "summary": "The view of the shelling of Kharkiv at 4 am\nDonate Now to Pizza for Ukraine\nThe following blog post is an excerpt from a series of articles I'm working on about JumpStart Pro.  I found myself referring to the steps below that I thought it might be generally useful for people.\nI'm going to walk you…",
+      "author": null,
+      "publishedAt": "2022-07-07T06:36:00.000Z"
+    },
+    {
+      "guid": "http://fuzzyblog.io/blog/startup/2022/07/07/surviving-polyphasic-sleeping.html",
+      "title": "Surviving Polyphasic Sleeping",
+      "link": "http://fuzzyblog.io/blog/startup/2022/07/07/surviving-polyphasic-sleeping.html",
+      "summary": "The fire and rescue crews got a pizza lunch in Kharkiv courtesy of Pizza for Ukraine!\nDonate Now to Pizza for Ukraine\nPolyphasic sleep is a bizarre, almost consciousness altered state where your approach to sleep varies widely from the human norm:\nBiphasic sleep (or diphasic, bifurcated, or bimodal…",
+      "author": null,
+      "publishedAt": "2022-07-07T01:59:00.000Z"
+    },
+    {
+      "guid": "http://fuzzyblog.io/blog/rails/2022/07/02/software-has-rework-too.html",
+      "title": "Software Has Rework Too -- Reworking a Rails App",
+      "link": "http://fuzzyblog.io/blog/rails/2022/07/02/software-has-rework-too.html",
+      "summary": "Read On - Yes there's a reason this picture is here …\nA loving tribute to [Oxide and Friends](https://feeds.transistor.fm/oxide-and-friends); Here there be dark corners of podcast specific in jokes ...\nIt is delightfully fun to actually learn something new.  And it is even more fun to translate…",
+      "author": null,
+      "publishedAt": "2022-07-02T09:36:00.000Z"
+    },
+    {
+      "guid": "http://fuzzyblog.io/blog/rust/2022/06/30/web-based-rust-development-tools.html",
+      "title": "Web Based Rust Development Tools",
+      "link": "http://fuzzyblog.io/blog/rust/2022/06/30/web-based-rust-development-tools.html",
+      "summary": "I am not, alas, a compiled languages guy.  I do find Rust absolutely fascinating because by inverting the common assumptions, a whole class of software errors are being avoided.  Given that we live in a constant shite show of software quality, any engineering practices that generate better code are…",
+      "author": null,
+      "publishedAt": "2022-06-30T05:52:00.000Z"
+    },
+    {
+      "guid": "http://fuzzyblog.io/blog/rails/2022/06/23/where-is-my-rails-7-master-key.html",
+      "title": "Where Is My Rails 7 Master Key",
+      "link": "http://fuzzyblog.io/blog/rails/2022/06/23/where-is-my-rails-7-master-key.html",
+      "summary": "Your Rails 7 master key is stored in:\n\nconfig/master.key",
+      "author": null,
+      "publishedAt": "2022-06-23T09:15:00.000Z"
+    },
+    {
+      "guid": "http://fuzzyblog.io/blog/startup/2022/06/23/an-startup-history-bibliography.html",
+      "title": "An Annotated Startup History Bibliography",
+      "link": "http://fuzzyblog.io/blog/startup/2022/06/23/an-startup-history-bibliography.html",
+      "summary": "I've been reading High Tech case studies now since the 80s – just after I entered the business.  Bryan Cantrill from Oxide Computer's podcast inspired me to get all my books out and order them on a rough historical basis.  I thought listing them here might be interesting to someone.  All of these…",
+      "author": null,
+      "publishedAt": "2022-06-23T08:43:00.000Z"
+    },
+    {
+      "guid": "http://fuzzyblog.io/blog/rails/2022/06/23/getting-past-strscan-gem-issues-in-rails.html",
+      "title": "Getting Past strscan Gem Issues in Rails",
+      "link": "http://fuzzyblog.io/blog/rails/2022/06/23/getting-past-strscan-gem-issues-in-rails.html",
+      "summary": "Yesterday I deployed a new thing via HatchBox and I was using the very, very latest – Rails 7.0.3. My deploy was textbook perfect and then I viewed it in Chrome and got that awful, awful message:\nWeb application could not be started\nInsert loud cursing here  I know the drill – it is a lower level…",
+      "author": null,
+      "publishedAt": "2022-06-23T07:51:00.000Z"
+    },
+    {
+      "guid": "http://fuzzyblog.io/blog/rails/2022/06/23/using-ssl-in-hatchbox-with-aws-route-53.html",
+      "title": "Using SSL in HatchBox with AWS Route 53",
+      "link": "http://fuzzyblog.io/blog/rails/2022/06/23/using-ssl-in-hatchbox-with-aws-route-53.html",
+      "summary": "HatchBox continues to be my favorite tool for Rails deployment hands down.  And this includes Dockarno – my own Bash based Docker deployment tool.  When something you pay for replaces something you wrote yourself, that's a sign of its very, very strong goodness.\nI just used HatchBox to support SSL…",
+      "author": null,
+      "publishedAt": "2022-06-23T07:01:00.000Z"
+    },
+    {
+      "guid": "http://fuzzyblog.io/blog/rails/2022/06/22/building-a-bootstrap-app-with-rails-7-and-scss-files.html",
+      "title": "Building a Bootstrap App with Rails 7 and SCSS Files",
+      "link": "http://fuzzyblog.io/blog/rails/2022/06/22/building-a-bootstrap-app-with-rails-7-and-scss-files.html",
+      "summary": "As is too often the case, I find that the initial aspect of getting a modern app (Bootstrap, Tailwind, React) initially setup to be the most frustrating aspect of Rails.  Given that I like to spin up new apps pretty regularly, well, I spend a lot of time being frustrated with an old man's grumbling…",
+      "author": null,
+      "publishedAt": "2022-06-22T06:12:00.000Z"
+    },
+    {
+      "guid": "http://fuzzyblog.io/blog/ruby/2022/06/15/declaring-ruby-bankruptcy-the-ruby-psych-3-1-issue-rvm-and-rbenv.html",
+      "title": "Declaring Ruby Bankruptcy, The Ruby Psych 3.1 Issue, RVM and RBEnv",
+      "link": "http://fuzzyblog.io/blog/ruby/2022/06/15/declaring-ruby-bankruptcy-the-ruby-psych-3-1-issue-rvm-and-rbenv.html",
+      "summary": "I had a bloody awful Sunday three days ago.  I had started work on a new application that had Ruby 3.1 set in its Gemfile and I blithely installed Ruby 3.1 using RVM.  And then my life began to suck slimy green toads with errors like this:…",
+      "author": null,
+      "publishedAt": "2022-06-15T06:35:00.000Z"
+    },
+    {
+      "guid": "http://fuzzyblog.io/blog/twitter/2022/06/11/learning-twitter-in-2022.html",
+      "title": "Learning Twitter in 2022",
+      "link": "http://fuzzyblog.io/blog/twitter/2022/06/11/learning-twitter-in-2022.html",
+      "summary": "Note: This is a work in progress.  Rather than finish it in one go, I'm updating it live as a draft document as I learn new things about Twitter.  Last update: 2022-06-15\nI am, at heart, a long form blogger.  Still – the cool kids, as they say – these days are all on twitter (and, yes, I know by…",
+      "author": null,
+      "publishedAt": "2022-06-11T01:57:00.000Z"
+    },
+    {
+      "guid": "http://fuzzyblog.io/blog/rails/2022/06/10/thinking-about-rails-database-objects-and-idempotency.html",
+      "title": "Thinking About Rails Database Objects and Idempotency",
+      "link": "http://fuzzyblog.io/blog/rails/2022/06/10/thinking-about-rails-database-objects-and-idempotency.html",
+      "summary": "I've been dealing with a new application with a lot of objects and one of my concerns is idempotency.  Idempotency is the idea that you can do the same thing over and over and only create a new object when\nIdempotence (UK: /ˌɪdɛmˈpoʊtəns/,[1] US: /ˈaɪdəm-/)[2] is the property of certain operations…",
+      "author": null,
+      "publishedAt": "2022-06-10T16:47:00.000Z"
+    },
+    {
+      "guid": "http://fuzzyblog.io/blog/2022/06/10/fixing-factorybot-validation-name-has-already-been-taken-controller-test-or-spec-errors.html",
+      "title": "Fixing FactoryBot Validation Name Has Already Been Taken Controller Test or Spec Errors",
+      "link": "http://fuzzyblog.io/blog/2022/06/10/fixing-factorybot-validation-name-has-already-been-taken-controller-test-or-spec-errors.html",
+      "summary": "So, last night, whilst pulling vampire hours on writing tests – always, always, always a bad idea – I encountered multiple variants on this bug:\n\n❯ bundle exec rails test test/controllers/links_controller_test.rb:44\nRunning 7 tests in a single process (parallelization threshold is 50)\nRun options:…",
+      "author": null,
+      "publishedAt": "2022-06-10T12:41:00.000Z"
+    },
+    {
+      "guid": "http://fuzzyblog.io/blog/rails/2022/06/10/rails-7-rodauth-bootrails-nested-resources-and-testing-controllers.html",
+      "title": "Rails 7, Rodauth, BootRails, Nested Resources and Testing Controllers",
+      "link": "http://fuzzyblog.io/blog/rails/2022/06/10/rails-7-rodauth-bootrails-nested-resources-and-testing-controllers.html",
+      "summary": "I'm working on a new project and, as I am front end challenged, I started by purchasing a copy of the BootRails framework as it seemed to have sensible defaults and an appearance that vastly outstrips my personal ability to manipulate Bootstrap.  Previously I've worked with the JumpStart framework…",
+      "author": null,
+      "publishedAt": "2022-06-10T08:12:00.000Z"
+    },
+    {
+      "guid": "http://fuzzyblog.io/blog/rails/2022/06/08/getting-font-awesome-working-on-rails-7-and-bootstrap-albeit-perhaps-poorly.html",
+      "title": "Getting Font Awesome Working On Rails 7 and Bootstrap albeit Perhaps Poorly",
+      "link": "http://fuzzyblog.io/blog/rails/2022/06/08/getting-font-awesome-working-on-rails-7-and-bootstrap-albeit-perhaps-poorly.html",
+      "summary": "I am not a front end engineer – but I'm on a project right now with heavy front end requirements.  This blog post documents how I got Font Awesome running on by application including the brands extension.  It is by no means a great way to do it and I know:\nI have more overhead than needed\nI did not…",
+      "author": null,
+      "publishedAt": "2022-06-08T17:27:00.000Z"
+    },
+    {
+      "guid": "http://fuzzyblog.io/blog/rails/2022/06/08/warning-in-rails-console-factory-bot-doesn-t-seem-to-reload-correctly.html",
+      "title": "Warning in Rails Console Factory Bot Doesn't Seem to reload! Correctly",
+      "link": "http://fuzzyblog.io/blog/rails/2022/06/08/warning-in-rails-console-factory-bot-doesn-t-seem-to-reload-correctly.html",
+      "summary": "I'm actively engaged in greenfield development once again and I'm learning / relearning things that I likely have known in the past.  I don't know if this is a known issue, a bug or maybe a design choice.  Either way, I found it useful to know this so I thought it was useful to document it.\nI spend…",
+      "author": null,
+      "publishedAt": "2022-06-08T12:13:00.000Z"
+    },
+    {
+      "guid": "http://fuzzyblog.io/blog/rails/2022/06/05/back-to-rails-test-putting-rspec-in-the-rear-view-test-examples.html",
+      "title": "Back to Rails Test - Putting Rspec in the Rear View - Test Examples",
+      "link": "http://fuzzyblog.io/blog/rails/2022/06/05/back-to-rails-test-putting-rspec-in-the-rear-view-test-examples.html",
+      "summary": "I find myself building a new application, Cartazzi, and since the \"template app\" I'm building from uses Rails Test not rspec, I'm back to the past using the native rails testing framework – something I probably last touched by in 2009.\nThis blog post summarizes different Rails testing examples and…",
+      "author": null,
+      "publishedAt": "2022-06-05T12:54:00.000Z"
+    },
+    {
+      "guid": "http://fuzzyblog.io/blog/rails/2022/06/04/another-day-another-missing-image-from-asset-pipeline.html",
+      "title": "Another Day, Another Missing Image from Asset Pipeline",
+      "link": "http://fuzzyblog.io/blog/rails/2022/06/04/another-day-another-missing-image-from-asset-pipeline.html",
+      "summary": "The asset pipeline is the component of Rails that I, well, let me quote myself from a recent email:\nI've been tracking down that crazy image related issue for an age now and I think I just got it.  Every single time it is always the damn asset pipeline (this is the one component in Rails that I…",
+      "author": null,
+      "publishedAt": "2022-06-04T09:21:00.000Z"
+    },
+    {
+      "guid": "http://fuzzyblog.io/blog/rails/2022/06/02/rails-7-madness-no-such-middleware-to-insert-before-actiondispatch-static.html",
+      "title": "Rails 7 Madness: No such middleware to insert before: ActionDispatch::Static",
+      "link": "http://fuzzyblog.io/blog/rails/2022/06/02/rails-7-madness-no-such-middleware-to-insert-before-actiondispatch-static.html",
+      "summary": "In tonight's category of \"Crazy Rails Errors that Even I haven't hit\", I was deploying a new app via HatchBox and I hit this one:\n\nNo such middleware to insert before: ActionDispatch::Static…",
+      "author": null,
+      "publishedAt": "2022-06-02T04:22:00.000Z"
+    },
+    {
+      "guid": "http://fuzzyblog.io/blog/startup/2022/06/01/keeping-your-sanity-as-a-solo-entrepreneur-01-make-everything-as-easy-as-possible.html",
+      "title": "Keeping Your Sanity as a Solo Entrepreneur 01 - Make Everything as Easy as Possible",
+      "link": "http://fuzzyblog.io/blog/startup/2022/06/01/keeping-your-sanity-as-a-solo-entrepreneur-01-make-everything-as-easy-as-possible.html",
+      "summary": "I've now been a solo entrepreneur longer than I've been anything.  Being a solo entrepreneur is a very different experience and it isn't one that is taught – you generally learn only by doing.  I've started this series of essays to talk about practical things I've learned over the years.  The…",
+      "author": null,
+      "publishedAt": "2022-06-01T23:13:00.000Z"
+    },
+    {
+      "guid": "http://fuzzyblog.io/blog/rails/2022/05/31/using-meilisearch-in-a-production-rails-environment.html",
+      "title": "Using MeiliSearch in a Production Rails Environment",
+      "link": "http://fuzzyblog.io/blog/rails/2022/05/31/using-meilisearch-in-a-production-rails-environment.html",
+      "summary": "I recently migrated JobHound from its original hosting (DigitalOcean with a custom Docker based deployer) to a new environment (also DigitalOcean but now with deploys managed via HatchBox).  In the traditional spirit of all IT migrations where you both get something good and lose something good, I…",
+      "author": null,
+      "publishedAt": "2022-05-31T11:31:00.000Z"
+    },
+    {
+      "guid": "http://fuzzyblog.io/blog/2022/05/31/specifying-ruby-version-for-hatchbox-deployment.html",
+      "title": "Specifying Ruby Version for HatchBox Deployment",
+      "link": "http://fuzzyblog.io/blog/2022/05/31/specifying-ruby-version-for-hatchbox-deployment.html",
+      "summary": "I recently had the situation where an application that I deployed to Hatchbox failed with a Ruby version conflict:\n\n\t-----> Installing gems...\n\t/home/deploy/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/bundler-1.17.3/lib/bundler/rubygems_integration.rb:200: warning: constant Gem::ConfigMap is…",
+      "author": null,
+      "publishedAt": "2022-05-31T11:13:00.000Z"
+    },
+    {
+      "guid": "http://fuzzyblog.io/blog/git/2022/05/31/git-error-failed-to-push-some-refs-to.html",
+      "title": "Git Error: failed to push some refs to",
+      "link": "http://fuzzyblog.io/blog/git/2022/05/31/git-error-failed-to-push-some-refs-to.html",
+      "summary": "So I was just stumbling through setting up a new project and getting it deployed when I hit this little gem:\n\n\t❯ git push -u origin main\n\terror: src refspec main does not match any\n\terror: failed to push some refs to 'github.com:fuzzygroup/cartazzi.git'\n\n\nI did the obligatory \"scratch my chin and…",
+      "author": null,
+      "publishedAt": "2022-05-31T04:34:00.000Z"
+    },
+    {
+      "guid": "http://fuzzyblog.io/blog/rails/2022/05/30/when-rvm-seems-insane-run-bundle-install.html",
+      "title": "When RVM Seems Insane Run bundle install",
+      "link": "http://fuzzyblog.io/blog/rails/2022/05/30/when-rvm-seems-insane-run-bundle-install.html",
+      "summary": "So I just had this disconcerting moment of weirdness:\n\n\t❯ rvm use 3.1.0\n\tUsing /Users/sjohnson/.rvm/gems/ruby-3.1.0\n\n\tcoding/rails/cartazzi via  v18.2.0 via 💎 v3.1.0 on ☁️  (us-west-2)\n\t❯ ruby -v\n\truby 3.1.0p0 (2021-12-25 revision fb4df44d16) [x86_64-darwin19]\n\n\tcoding/rails/cartazzi via …",
+      "author": null,
+      "publishedAt": "2022-05-30T15:31:00.000Z"
+    },
+    {
+      "guid": "http://fuzzyblog.io/blog/consulting/2022/05/29/that-bad-client-job-posting.html",
+      "title": "That Bad Client Job Posting",
+      "link": "http://fuzzyblog.io/blog/consulting/2022/05/29/that-bad-client-job-posting.html",
+      "summary": "I've gotten quite a bit of feedback on my Bad Client story and the underlying theme has been \"why the heck did you hang in so long?\".  There were a couple of reasons:\nI'm stubborn af.  That was definitely a part of it.\nLearning Matters.\nPoint 2, learning is what I want to focus on here.  What I…",
+      "author": null,
+      "publishedAt": "2022-05-29T12:41:00.000Z"
+    },
+    {
+      "guid": "http://fuzzyblog.io/blog/jobhound/2022/05/27/job-hound-is-back.html",
+      "title": "Job Hound is Back",
+      "link": "http://fuzzyblog.io/blog/jobhound/2022/05/27/job-hound-is-back.html",
+      "summary": "It is now 2022 and Job Hound has existed for 4 years now having happily served over 1,000 users to help apply for over 5,000 different jobs.\nJob Hound has been one of those bits of code that you write and it just runs happily in the background just plain working without fail.  Other than a few…",
+      "author": null,
+      "publishedAt": "2022-05-27T10:58:00.000Z"
+    },
+    {
+      "guid": "http://fuzzyblog.io/blog/podcasting/2022/05/16/improving-your-podcast-audio-quality.html",
+      "title": "Improving Your Podcast Audio Quality",
+      "link": "http://fuzzyblog.io/blog/podcasting/2022/05/16/improving-your-podcast-audio-quality.html",
+      "summary": "The quality of your recorded audio for an at home podcaster is a black art.  Audio is a fundamentally analog process and Once upon a time, in the antediluvian ages of podcasting (2005 / 2006), I was a podcaster.  And then, a decade later, my friend Nick Janetakis, a producer of online courses also…",
+      "author": null,
+      "publishedAt": "2022-05-16T18:35:00.000Z"
+    },
+    {
+      "guid": "http://fuzzyblog.io/blog/data_science/2022/05/13/miller-a-swiss-army-chainsaw-for-csv-data-data-science-and-data-munging.html",
+      "title": "Miller - A Swiss Army Chainsaw for CSV Data, Data Science and Data Munging",
+      "link": "http://fuzzyblog.io/blog/data_science/2022/05/13/miller-a-swiss-army-chainsaw-for-csv-data-data-science-and-data-munging.html",
+      "summary": "Every so often I run into a tool which just impresses me.  This time it is Miller.  And when I find such a tool, I write up a blog post to firm up my learnings.  Here is the official description:\nMiller is a command-line tool for querying, shaping, and reformatting data files in various formats…",
+      "author": null,
+      "publishedAt": "2022-05-13T16:54:00.000Z"
+    },
+    {
+      "guid": "http://fuzzyblog.io/blog/rails/2022/04/22/when-rails-7-doesn-t-process-application-js.html",
+      "title": "When Rails 7 Doesn't Process application.js",
+      "link": "http://fuzzyblog.io/blog/rails/2022/04/22/when-rails-7-doesn-t-process-application-js.html",
+      "summary": "This is more than a mildly embarrassing post to have to write but it is an interesting example of how habits can bite you hard – so, so hard.\nI recently wanted to start on an application and actually be current on everything: Rails, Bootstrap, etc.  I have long admitted to having issues with…",
+      "author": null,
+      "publishedAt": "2022-04-22T22:28:00.000Z"
+    },
+    {
+      "guid": "http://fuzzyblog.io/blog/postgres/2022/04/21/postgres-woes-on-osx-with-libicui18n-69-dylib.html",
+      "title": "Postgres Woes on OSX with libicui18n.69.dylib",
+      "link": "http://fuzzyblog.io/blog/postgres/2022/04/21/postgres-woes-on-osx-with-libicui18n-69-dylib.html",
+      "summary": "Perhaps it is me but I've found that homebrew seems to give more errors and take longer than it used it.  I just got hit with this error:\n\n\t/usr/local/opt/postgresql/bin/postgres -v\n\tdyld: Library not loaded: /usr/local/opt/icu4c/lib/libicui18n.69.dylib\n\t  Referenced from:…",
+      "author": null,
+      "publishedAt": "2022-04-21T13:33:00.000Z"
+    },
+    {
+      "guid": "http://fuzzyblog.io/blog/elixir/2022/04/01/and-now-for-starting-again-with-elixir-not-elm.html",
+      "title": "And Now For Starting Again with Elixir and Phoenix Not Elm",
+      "link": "http://fuzzyblog.io/blog/elixir/2022/04/01/and-now-for-starting-again-with-elixir-not-elm.html",
+      "summary": "In my last blog post, I dug into Elm and while I like a number of things conceptually about Elm, the process of implementing nothing more than a maybe 8 element HTML form left me hugely frustrated and annoyed.  I also didn't like the way that Elm bundles code and display into one thing.  I may be a…",
+      "author": null,
+      "publishedAt": "2022-04-01T15:57:00.000Z"
+    },
+    {
+      "guid": "http://fuzzyblog.io/blog/elm/2022/03/29/getting-started-with-elm-01-the-very-basics.html",
+      "title": "Getting Started with Elm 01 - The Very Basics",
+      "link": "http://fuzzyblog.io/blog/elm/2022/03/29/getting-started-with-elm-01-the-very-basics.html",
+      "summary": "Elm is an interesting new front end language technology based on a functional language that generates JavaScript transparently and has a focus on great documentation and ease of learning.  A good starting point is the Guide.\nIn this blog post, I'm going to walk through the initial steps.  Along the…",
+      "author": null,
+      "publishedAt": "2022-03-29T12:58:00.000Z"
+    },
+    {
+      "guid": "http://fuzzyblog.io/blog/consulting/2022/03/28/bad-clients-gordian-knots-and-transparency.html",
+      "title": "Bad Clients, Gordian Knots and Transparency",
+      "link": "http://fuzzyblog.io/blog/consulting/2022/03/28/bad-clients-gordian-knots-and-transparency.html",
+      "summary": "I have now been doing consulting professionally since 1988 (first client was the EPA) and despite that, bad clients, are always problematic. That's longer than my adult child has been alive, longer than I've ever been married, etc.  I'd like to think I'm excellent at consulting but no one, no…",
+      "author": null,
+      "publishedAt": "2022-03-28T17:01:00.000Z"
+    },
+    {
+      "guid": "http://fuzzyblog.io/blog/elixir/2022/03/22/upgrading-elix-on-osx-with-brew.html",
+      "title": "Upgrading Elix on OSX with Brew",
+      "link": "http://fuzzyblog.io/blog/elixir/2022/03/22/upgrading-elix-on-osx-with-brew.html",
+      "summary": "This is simple but I keep needing to look it up.\nFirst check your elixir version:\n\nelixir -v\n\n\nSecond confirm that you actually installed Elixir using brew:\n\nbrew list | grep elixir\n\n\nThird do the upgrade:\n\nbrew upgrade elixir\n\n\nNote: You are probably going to find more than just elixir itself is…",
+      "author": null,
+      "publishedAt": "2022-03-22T17:42:00.000Z"
+    },
+    {
+      "guid": "http://fuzzyblog.io/blog/bootstrap/2021/12/23/forcing-grid-stacking-with-bootstrap-on-mobile.html",
+      "title": "Forcing Grid Stacking with Bootstrap on Mobile",
+      "link": "http://fuzzyblog.io/blog/bootstrap/2021/12/23/forcing-grid-stacking-with-bootstrap-on-mobile.html",
+      "summary": "I recently had the situation where a Bootstrap application:\nWorked perfectly on a desktop with a side by side layout\nProperly wrapped on desktop when the window was resized down to a mobile like form factor\nFailed to ever wrap on mobile showing just a smaller version of the desktop\nI puzzled over…",
+      "author": null,
+      "publishedAt": "2021-12-23T17:33:00.000Z"
+    },
+    {
+      "guid": "http://fuzzyblog.io/blog/laravel/2021/12/22/why-master-blade-php-isn-t-processed-in-laravel.html",
+      "title": "Why master.blade.php Isn't Processed in Laravel",
+      "link": "http://fuzzyblog.io/blog/laravel/2021/12/22/why-master-blade-php-isn-t-processed-in-laravel.html",
+      "summary": "I had the situation earlier where commands like:\n\n@extends('layouts.master')\n@section('title', 'Order Submitter LegendBorne Products')\n@section('content')\n\n\nin my template weren't being processed and this led me to do the normal bit of Google fu, alas, to no avail.  And then I looked at the name of…",
+      "author": null,
+      "publishedAt": "2021-12-22T01:17:00.000Z"
+    },
+    {
+      "guid": "http://fuzzyblog.io/blog/rails/2021/12/18/rails-6-can-t-find-application-js.html",
+      "title": "Rails 6 - Can't Find Application.js",
+      "link": "http://fuzzyblog.io/blog/rails/2021/12/18/rails-6-can-t-find-application-js.html",
+      "summary": "So I started fiddling about with a new Rails project and after finding a likely starting point, I immediately ended up with this:\n\nWebpacker can't find application.js in\n\n\nI'm old school Rails and I find the whole asset compilation situation, honestly, perplexing.  The solution turned out to be:…",
+      "author": null,
+      "publishedAt": "2021-12-18T14:51:00.000Z"
+    },
+    {
+      "guid": "http://fuzzyblog.io/blog/laravel/2021/08/27/converting-a-laravel-app-to-a-shopify-app.html",
+      "title": "Converting a Laravel App to a Shopify App",
+      "link": "http://fuzzyblog.io/blog/laravel/2021/08/27/converting-a-laravel-app-to-a-shopify-app.html",
+      "summary": "This blog post tackles the odd topic of taking a Laravel application and converting it to a Shopify app.\nOverview\nShopify is an ecommerce platform for building hosted shopping sites.  With Shopify your whole ecommerce experience exists on a shopify url (whether the domain is .shopify.com or not;…",
+      "author": null,
+      "publishedAt": "2021-08-27T14:11:00.000Z"
+    }
+  ],
+  "totalIndexed": 50
+}

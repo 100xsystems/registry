@@ -8,7 +8,7 @@
     "code-search",
     "platform"
   ],
-  "updatedAt": "2026-07-23T11:02:40.690Z",
+  "updatedAt": "2026-07-24T06:38:56.994Z",
   "items": [
     {
       "guid": "sourcegraph::http://localhost:5174/blog/vulnerability-remediation-at-codebase-scale",
@@ -249,7 +249,15 @@
       "summary": "AI coding tools are generating code faster than ever, making strong code search and intelligence like Sourcegraph a critical tool for managing the resulting growth and complexity of enterprise codebases.",
       "author": "Graham Mcbain",
       "publishedAt": "2025-12-05T00:00:00.000Z"
+    },
+    {
+      "guid": "sourcegraph::http://localhost:5174/blog/code-finder-fast-code-search-for-agents",
+      "title": "Code Finder: fast, efficient code search for coding agents",
+      "link": "http://localhost:5174/blog/code-finder-fast-code-search-for-agents",
+      "summary": "Code Finder runs its own search loop and hands your coding agent the exact files and line ranges, faster and cheaper than the agent searching on its own.",
+      "author": "Stephanie Jarmak",
+      "publishedAt": "2026-07-23T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 30
+  "totalIndexed": 31
 }

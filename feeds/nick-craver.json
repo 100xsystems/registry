@@ -1,0 +1,93 @@
+{
+  "feedId": "nick-craver",
+  "feedName": "Nick Craver",
+  "feedSiteUrl": "https://nickcraver.com/blog/",
+  "feedRssUrl": "https://nickcraver.com/blog/feed.xml",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T07:01:25.731Z",
+  "items": [
+    {
+      "guid": "https://nickcraver.com/blog/2020/02/11/binding-redirects/",
+      "title": "Binding Redirects",
+      "link": "https://nickcraver.com/blog/2020/02/11/binding-redirects/",
+      "summary": "This isn’t part of the series on Stack Overflow’s architecture, but is a topic that has bitten us many times. Hopefully, some of this information helps you sort out issues you hit.\nYou’re probably here because of an error like this:\nCould not load file or assembly ‘System.<…>, Version=4.x.x.x,…",
+      "author": null,
+      "publishedAt": "2020-02-11T00:00:00.000Z"
+    },
+    {
+      "guid": "https://nickcraver.com/blog/2019/08/06/stack-overflow-how-we-do-app-caching/",
+      "title": "Stack Overflow: How We Do App Caching - 2019 Edition",
+      "link": "https://nickcraver.com/blog/2019/08/06/stack-overflow-how-we-do-app-caching/",
+      "summary": "This is #5 in a very long series of posts on Stack Overflow’s architecture.\nStack Overflow: How We Do Monitoring - 2018 Edition\nSo…caching. What is it? It’s a way to get a quick payoff by not re-calculating or fetching things over and over, resulting in performance and cost wins.\nThat’s even where…",
+      "author": null,
+      "publishedAt": "2019-08-06T00:00:00.000Z"
+    },
+    {
+      "guid": "https://nickcraver.com/blog/2018/11/29/stack-overflow-how-we-do-monitoring/",
+      "title": "Stack Overflow: How We Do Monitoring - 2018 Edition",
+      "link": "https://nickcraver.com/blog/2018/11/29/stack-overflow-how-we-do-monitoring/",
+      "summary": "This is #4 in a very long series of posts on Stack Overflow’s architecture.\nStack Overflow: How We Do Deployment - 2016 Edition\nWhat is monitoring? As far as I can tell, it means different things to different people.\nBut we more or less agree on the concept.\nI think. Maybe. Let’s find out!\nWhen…",
+      "author": null,
+      "publishedAt": "2018-11-29T00:00:00.000Z"
+    },
+    {
+      "guid": "https://nickcraver.com/blog/2017/05/22/https-on-stack-overflow/",
+      "title": "HTTPS on Stack Overflow: The End of a Long Road",
+      "link": "https://nickcraver.com/blog/2017/05/22/https-on-stack-overflow/",
+      "summary": "Today, we deployed HTTPS by default on Stack Overflow. \nAll traffic is now redirected to https:// and Google links will change over the next few weeks. \nThe activation of this is quite literally flipping a switch (feature flag), but getting to that point has taken years of work.\nAs of now, HTTPS is…",
+      "author": null,
+      "publishedAt": "2017-05-22T00:00:00.000Z"
+    },
+    {
+      "guid": "https://nickcraver.com/blog/2016/05/03/stack-overflow-how-we-do-deployment-2016-edition/",
+      "title": "Stack Overflow: How We Do Deployment - 2016 Edition",
+      "link": "https://nickcraver.com/blog/2016/05/03/stack-overflow-how-we-do-deployment-2016-edition/",
+      "summary": "This is #3 in a very long series of posts on Stack Overflow’s architecture.\nStack Overflow: The Hardware - 2016 Edition\nWe’ve talked about Stack Overflow’s architecture and the hardware behind it. The next most requested topic was Deployment. How do we get code a developer (or some random stranger)…",
+      "author": null,
+      "publishedAt": "2016-05-03T00:00:00.000Z"
+    },
+    {
+      "guid": "https://nickcraver.com/blog/2016/03/29/stack-overflow-the-hardware-2016-edition/",
+      "title": "Stack Overflow: The Hardware - 2016 Edition",
+      "link": "https://nickcraver.com/blog/2016/03/29/stack-overflow-the-hardware-2016-edition/",
+      "summary": "This is #2 in a very long series of posts on Stack Overflow’s architecture.\nStack Overflow: The Architecture - 2016 Edition\nStack Overflow: How We Do Deployment - 2016 Edition\nWho loves hardware? Well, I do and this is my blog so I win. If you don’t love hardware then I’d go ahead and close the…",
+      "author": null,
+      "publishedAt": "2016-03-29T00:00:00.000Z"
+    },
+    {
+      "guid": "https://nickcraver.com/blog/2016/02/17/stack-overflow-the-architecture-2016-edition/",
+      "title": "Stack Overflow: The Architecture - 2016 Edition",
+      "link": "https://nickcraver.com/blog/2016/02/17/stack-overflow-the-architecture-2016-edition/",
+      "summary": "This is #1 in a very long series of posts on Stack Overflow’s architecture. Welcome.\nPrevious post (#0): Stack Overflow: A Technical Deconstruction\nNext post (#2): Stack Overflow: The Hardware - 2016 Edition\nTo get an idea of what all of this stuff “does,” let me start off with an update on the…",
+      "author": null,
+      "publishedAt": "2016-02-17T00:00:00.000Z"
+    },
+    {
+      "guid": "https://nickcraver.com/blog/2016/02/03/stack-overflow-a-technical-deconstruction/",
+      "title": "Stack Overflow: A Technical Deconstruction",
+      "link": "https://nickcraver.com/blog/2016/02/03/stack-overflow-a-technical-deconstruction/",
+      "summary": "As new posts in the series appear, I’ll add them here to serve as a master list:\nStack Overflow: The Architecture - 2016 Edition\nStack Overflow: The Hardware - 2016 Edition\nStack Overflow: How We Do Deployment - 2016 Edition\nStack Overflow: How We Do Monitoring - 2018 Edition\nStack Overflow: How We…",
+      "author": null,
+      "publishedAt": "2016-02-03T00:00:00.000Z"
+    },
+    {
+      "guid": "https://nickcraver.com/blog/2015/07/27/why-you-should-wait-on-dotnet-46/",
+      "title": "Why you should wait on upgrading to .Net 4.6",
+      "link": "https://nickcraver.com/blog/2015/07/27/why-you-should-wait-on-dotnet-46/",
+      "summary": "Update (August 11th): A patch for this bug has been released by Microsoft. Here’s their update to the advisory:\nWe released an updated version of RyuJIT today, which resolves this advisory. The update was released as Microsoft Security Bulletin MS15-092 and is available on Windows Update or via…",
+      "author": null,
+      "publishedAt": "2015-07-27T00:00:00.000Z"
+    },
+    {
+      "guid": "https://nickcraver.com/talks/tiny/developers-and-dbas",
+      "title": "(tiny) Life At Stack Overflow: My Developers Are Smarter Than Your DBAs",
+      "link": "https://nickcraver.com/talks/tiny/developers-and-dbas",
+      "summary": "My Developers Are Smarter Than Your DBAs\nby @Nick_Craver\n  \nWhat would you say...you do here?\nLast month at Stack Overflow:\n1,468,389,303 Page Views\n5,183,954,727 HTTP Hits\n71,562,833,811,315 Bytes Sent\n3,202,505,376 CDN Hits\n54,400,000,000,000 CDN Bytes\n19,532,899,854 SQL Queries\n81,505,688,410…",
+      "author": null,
+      "publishedAt": "2015-07-24T00:00:00.000Z"
+    }
+  ],
+  "totalIndexed": 10
+}

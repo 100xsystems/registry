@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-07-23T11:12:47.074Z",
+  "updatedAt": "2026-07-24T06:37:19.852Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -249,7 +249,39 @@
       "summary": "Actual sunshine ☀️ in Edinburgh 😲 and a room full of Postgres people catching up over pizza: July was good to us. 🐘\n\nThursday, July 9th brought us to Paterson's Land at the University of Edinburgh, and to a wonderfully diverse pair of talks: one on finding your voice in the community, and one on…",
       "author": null,
       "publishedAt": "2026-07-13T12:37:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9qo",
+      "title": "Christophe Pettus: All Your GUCs in a Row: fsync",
+      "link": "https://postgr.es/p/9qo",
+      "summary": "fsync defaults to on and is the most dangerous setting in postgresql.conf—set it wrong and you risk unrecoverable data corruption, not just bad plans.",
+      "author": null,
+      "publishedAt": "2026-07-24T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9ql",
+      "title": "SHRIDHAR KHANAL: The Right Way to Give a Third-Party DBA Access to Your PostgreSQL Database",
+      "link": "https://postgr.es/p/9ql",
+      "summary": "Giving an external team access to your PostgreSQL database is one of those decisions that deserves a little thought. The easiest option is to hand over a superuser account, but it’s rarely the right one. A better approach is to create a dedicated role with only the privileges they actually need,…",
+      "author": null,
+      "publishedAt": "2026-07-23T15:55:44.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9qm",
+      "title": "Ahsan Hadi: Hybrid Search in PostgreSQL: BM25, Sparse Vectors, and Reciprocal Rank Fusion",
+      "link": "https://postgr.es/p/9qm",
+      "summary": "In my previous blog on the pgEdge Vectorizer and RAG Server, I showed how to build a semantic search pipeline using dense vector embeddings. The RAG Server already did hybrid search, combining vector similarity with BM25 keyword matching, but BM25 was handled at the application layer, not inside…",
+      "author": null,
+      "publishedAt": "2026-07-22T11:19:03.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9qk",
+      "title": "Floor Drees: Big Apple, Big PostgreSQL: EDB at Postgres Summit US 2026",
+      "link": "https://postgr.es/p/9qk",
+      "summary": "Postgres Summit US 2026 (formerly: PGConf NYC) will take place September 30 - October 2, at Convene, in New York. EDB is joining the event as a sponsor at the Gold-level. Our team of Postgres experts, core contributors, and innovators have secured a stellar lineup of sessions through the Call for…",
+      "author": null,
+      "publishedAt": "2026-07-21T08:28:59.000Z"
     }
   ],
-  "totalIndexed": 30
+  "totalIndexed": 34
 }

@@ -1,0 +1,93 @@
+{
+  "feedId": "curalate",
+  "feedName": "Curalate",
+  "feedSiteUrl": "http://engineering.curalate.com/",
+  "feedRssUrl": "http://engineering.curalate.com/feed.xml",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T06:47:27.798Z",
+  "items": [
+    {
+      "guid": "http://engineering.curalate.com/2019/05/30/gas-mask.html",
+      "title": "Safely Modifying Your Hosts File with Gas Mask",
+      "link": "http://engineering.curalate.com/2019/05/30/gas-mask.html",
+      "summary": "Sometimes the DNS for a specific domain on your machine needs to point somewhere else – at Curalate, we test changes microservices locally before shipping them, which could require redirecting requests to look at that local instance. One way to do this is by adding an entry like 127.0.0.1…",
+      "author": null,
+      "publishedAt": "2019-05-30T00:00:00.000Z"
+    },
+    {
+      "guid": "http://engineering.curalate.com/2019/03/27/scheduled-scala-spark-job.html",
+      "title": "How to Setup a Scheduled Scala Spark Job",
+      "link": "http://engineering.curalate.com/2019/03/27/scheduled-scala-spark-job.html",
+      "summary": "Have you written a Scala Spark job that processes a massive amount of data on an intimidating amount of RAM and you want to run it daily/weekly/monthly on a schedule on AWS?\nI had to do this recently, and couldn’t find a good tutorial on the full process to get the spark job running.\nIncluded in…",
+      "author": null,
+      "publishedAt": "2019-03-27T00:00:00.000Z"
+    },
+    {
+      "guid": "http://engineering.curalate.com/2018/12/31/holiday-load-prep.html",
+      "title": "Hey, you busy? I have thousands of questions to ask you.",
+      "link": "http://engineering.curalate.com/2018/12/31/holiday-load-prep.html",
+      "summary": "If you’re a brick-and-mortar business owner, you quickly identify patterns in your customer foot traffic,\nespecially around the holidays when achieving your sales goals depends on both timely and quality service.\nIf you’re an e-commerce business owner,\nlike many of Curalate’s 1,000+ customers,\nit’s…",
+      "author": null,
+      "publishedAt": "2018-12-31T17:00:00.000Z"
+    },
+    {
+      "guid": "http://engineering.curalate.com/2018/09/04/ec2-log-upload.html",
+      "title": "Uploading EC2 Logs to S3 on Shutdown",
+      "link": "http://engineering.curalate.com/2018/09/04/ec2-log-upload.html",
+      "summary": "If you’ve ever used an auto scaling group (ASG) on AWS, you’ve probably had an EC2 instance fail and get removed from the ASG.\nWhile great for redundancy (the ASG launches a new instance to start handling requests), it makes debugging the failure difficult since the ASG terminates the bad instance,…",
+      "author": null,
+      "publishedAt": "2018-09-04T08:56:00.000Z"
+    },
+    {
+      "guid": "http://engineering.curalate.com/2018/08/01/mxnet-case-study.html",
+      "title": "How Curalate uses MXNet on AWS for Deep Learning Magic",
+      "link": "http://engineering.curalate.com/2018/08/01/mxnet-case-study.html",
+      "summary": "This post was simultaneously published to Medium.\nAt Curalate, we use state of the art deep learning and computer vision to add a layer of magic to our products.\nIntelligent Product Tagging, for example, identifies our clients’ products in user-generated photos.\nBeing a startup, we need to build…",
+      "author": null,
+      "publishedAt": "2018-08-01T00:00:00.000Z"
+    },
+    {
+      "guid": "http://engineering.curalate.com/2018/05/16/productionalizing-ecs.html",
+      "title": "Productionalizing ECS",
+      "link": "http://engineering.curalate.com/2018/05/16/productionalizing-ecs.html",
+      "summary": "In January of last year we decided as a company to move towards containerization and began a migration to move onto AWS ECS.  We pushed to move to containers, and off of AMI based VM deployments, in order to speed up our deployments, simplify our build tooling (since it only has to work on…",
+      "author": null,
+      "publishedAt": "2018-05-16T09:45:39.000Z"
+    },
+    {
+      "guid": "http://engineering.curalate.com/2018/03/23/DL-lib-for-app-dev-and-prod.html",
+      "title": "Choosing a Deep Learning library for developing and deploying your App/Service",
+      "link": "http://engineering.curalate.com/2018/03/23/DL-lib-for-app-dev-and-prod.html",
+      "summary": "Interest in deep learning is growing and growing and, with it at peak hype right now, a lot of people are looking to find the best deep learning library to build their new app or bring their company into the modern age.\nThere are many deep learning toolkits to choose from ranging from the long…",
+      "author": null,
+      "publishedAt": "2018-03-23T10:11:36.000Z"
+    },
+    {
+      "guid": "http://engineering.curalate.com/2018/02/01/deep-metric-embedding.html",
+      "title": "R&D At Curalate: A Case Study of Deep Metric Embedding",
+      "link": "http://engineering.curalate.com/2018/02/01/deep-metric-embedding.html",
+      "summary": "At Curalate, we make social sell for hundreds of the world’s largest brands and retailers. Our\nFanreel product is a good example of this; it empowers brands to collect, curate, and publish social user-generated photos to their e-commerce site. A vital step in this pipeline is connecting the user…",
+      "author": null,
+      "publishedAt": "2018-02-01T10:11:36.000Z"
+    },
+    {
+      "guid": "http://engineering.curalate.com/2017/12/21/expected-traffic-load-testing.html",
+      "title": "Load Testing for Expected Increases in Traffic with Vegeta",
+      "link": "http://engineering.curalate.com/2017/12/21/expected-traffic-load-testing.html",
+      "summary": "At Curalate, our service and API traffic is fairly tightly coupled to e-commerce traffic, so any increase is reasonably predictable. We expect an increase in request rate towards the beginning of November each year, with traffic peaking at 10x our steady rate on Black Friday and Cyber Monday.\nWhy…",
+      "author": null,
+      "publishedAt": "2017-12-21T13:00:00.000Z"
+    },
+    {
+      "guid": "http://engineering.curalate.com/2017/09/26/tracing-services.html",
+      "title": "Tracing High Volume Services",
+      "link": "http://engineering.curalate.com/2017/09/26/tracing-services.html",
+      "summary": "We like to think that building a service ecosystem is like stacking building blocks.  You start with a function in your code. That function is hosted in a class. That class in a service. That service is hosted in a cluster. That cluster in a region. That region in a data center, etc. At each level…",
+      "author": null,
+      "publishedAt": "2017-09-26T12:11:36.000Z"
+    }
+  ],
+  "totalIndexed": 10
+}

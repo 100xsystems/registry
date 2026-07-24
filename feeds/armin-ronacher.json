@@ -1,0 +1,93 @@
+{
+  "feedId": "armin-ronacher",
+  "feedName": "Armin Ronacher",
+  "feedSiteUrl": "http://lucumr.pocoo.org/",
+  "feedRssUrl": "http://lucumr.pocoo.org/feed.atom",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T06:44:31.396Z",
+  "items": [
+    {
+      "guid": "armin-ronacher::https://lucumr.pocoo.org/2026/7/13/the-tower-keeps-rising/",
+      "title": "The Tower Keeps Rising",
+      "link": "https://lucumr.pocoo.org/2026/7/13/the-tower-keeps-rising/",
+      "summary": "I feel that some vibecoded software changes somewhat randomly and unexpectedly.\nThat made me think about Bruegel’s “The Tower of\nBabel” which shows\nan already quite chaotic depiction of the Tower of Babel.  The story is usually\ntold as one about pride and ambition and ultimately why people no…",
+      "author": "Armin Ronacher",
+      "publishedAt": "2026-07-13T00:00:00.000Z"
+    },
+    {
+      "guid": "armin-ronacher::https://lucumr.pocoo.org/2026/7/4/better-models-worse-tools/",
+      "title": "Better Models: Worse Tools",
+      "link": "https://lucumr.pocoo.org/2026/7/4/better-models-worse-tools/",
+      "summary": "A very strange Pi issue\nsent me down a rabbit hole over the last two days.  The short version is that\nnewer Claude models sometimes call Pi’s edit tool with extra, invented fields in\nthe nested edits[] array.  And not Haiku or some small model: Opus 4.8.  The\nedit itself is usually correct but the…",
+      "author": "Armin Ronacher",
+      "publishedAt": "2026-07-04T00:00:00.000Z"
+    },
+    {
+      "guid": "armin-ronacher::https://lucumr.pocoo.org/2026/6/23/the-coming-loop/",
+      "title": "The Coming Loop",
+      "link": "https://lucumr.pocoo.org/2026/6/23/the-coming-loop/",
+      "summary": "I don’t prompt Claude anymore. I have loops running that prompt Claude and\nfiguring out what to do. My job is to write loops.\n— Boris Cherny\nOver the last months I have watched more and more people build something on top\nof coding agents that feels meaningfully different from just using a coding…",
+      "author": "Armin Ronacher",
+      "publishedAt": "2026-06-23T00:00:00.000Z"
+    },
+    {
+      "guid": "armin-ronacher::https://lucumr.pocoo.org/2026/6/13/americans-only/",
+      "title": "Dangerous Technology For Americans Only",
+      "link": "https://lucumr.pocoo.org/2026/6/13/americans-only/",
+      "summary": "There is a bit of schadenfreude on Twitter right now about Anthropic being hit\nby the US government’s export control directive to suspend access to Fable and\nMythos.  Anthropic and\ntheir leadership have spent a lot of time and effort describing its own\ntechnology as dangerous and in need of strict…",
+      "author": "Armin Ronacher",
+      "publishedAt": "2026-06-13T00:00:00.000Z"
+    },
+    {
+      "guid": "armin-ronacher::https://lucumr.pocoo.org/2026/6/10/gaslighting/",
+      "title": "Gaslighting Openness",
+      "link": "https://lucumr.pocoo.org/2026/6/10/gaslighting/",
+      "summary": "I have been a staunch supporter of Open Source for a long time, including\nexperiments\nin\nfunding it.\nI’m a true believer in the idea that Open Source always wins in the long run,\nbut not automatically and not quickly.  Right now it is being stressed by AI\nslop, shifting contributor dynamics, the…",
+      "author": "Armin Ronacher",
+      "publishedAt": "2026-06-10T00:00:00.000Z"
+    },
+    {
+      "guid": "armin-ronacher::https://lucumr.pocoo.org/2026/6/6/communities-of-not/",
+      "title": "Communities of Not",
+      "link": "https://lucumr.pocoo.org/2026/6/6/communities-of-not/",
+      "summary": "There is a strange thing that happens in communities that gather around\nabstinence from something: identity from opposition.  At their best these\ncommunities are not just negative: childfree spaces can be about autonomy,\nchoice and acceptance, anti-car spaces about safer streets and transit, and…",
+      "author": "Armin Ronacher",
+      "publishedAt": "2026-06-06T00:00:00.000Z"
+    },
+    {
+      "guid": "armin-ronacher::https://lucumr.pocoo.org/2026/5/26/clankers/",
+      "title": "Clanker: A Word For The Machine",
+      "link": "https://lucumr.pocoo.org/2026/5/26/clankers/",
+      "summary": "In my last post I used the word “clanker1” as an\nalternative to “agent” quite consistently and probably excessively.  That choice\nended up attracting a lot more attention than I expected in the Hacker News\ncomment section of that post and a number of folks had a very strong reaction:\nto them it…",
+      "author": "Armin Ronacher",
+      "publishedAt": "2026-05-26T00:00:00.000Z"
+    },
+    {
+      "guid": "armin-ronacher::https://lucumr.pocoo.org/2026/5/24/pi-oss/",
+      "title": "Building Pi With Pi",
+      "link": "https://lucumr.pocoo.org/2026/5/24/pi-oss/",
+      "summary": "Pi is now part of Earendil, but in the important sense it is\nstill Mario’s project.  He has been living with its\nissue tracker longer than I have, and he has been exposed to the weirdness of\nthe new form of agent traffic in Open Source projects for longer too.  This post\nis mostly a reflection of…",
+      "author": "Armin Ronacher",
+      "publishedAt": "2026-05-24T00:00:00.000Z"
+    },
+    {
+      "guid": "armin-ronacher::https://lucumr.pocoo.org/2026/5/8/local-models/",
+      "title": "Pushing Local Models With Focus And Polish",
+      "link": "https://lucumr.pocoo.org/2026/5/8/local-models/",
+      "summary": "I really, really want local models to work.\nI want them to work in the very practical sense that I can open my coding agent,\npick a local model, and get something that feels competitive enough that I do\nnot immediately switch back to a hosted API after five minutes.  There are a lot\nof reasons why…",
+      "author": "Armin Ronacher",
+      "publishedAt": "2026-05-08T00:00:00.000Z"
+    },
+    {
+      "guid": "armin-ronacher::https://lucumr.pocoo.org/2026/5/4/content-for-contents-sake/",
+      "title": "Content for Content’s Sake",
+      "link": "https://lucumr.pocoo.org/2026/5/4/content-for-contents-sake/",
+      "summary": "Language is constantly evolving, particularly in some communities.  Not\neverybody is ready for it at all times.  I, for instance, cannot stand that my\ncommunity is now constantly “cooking” or “cooked”, that people in it are “locked\nin” or “cracked.”  I don’t like it, because the use of the words…",
+      "author": "Armin Ronacher",
+      "publishedAt": "2026-05-04T00:00:00.000Z"
+    }
+  ],
+  "totalIndexed": 10
+}

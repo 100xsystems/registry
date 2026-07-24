@@ -1,0 +1,213 @@
+{
+  "feedId": "srinivas-tamada",
+  "feedName": "Srinivas Tamada",
+  "feedSiteUrl": "https://www.9lessons.info/",
+  "feedRssUrl": "https://www.9lessons.info/feeds/posts/default",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T07:09:42.569Z",
+  "items": [
+    {
+      "guid": "tag:blogger.com,1999:blog-992226187759619576.post-113014105918782043",
+      "title": "Deploy a PHP Application on AWS Lambda Function Serverless",
+      "link": "http://www.9lessons.info/2023/06/deploy-php-application-on-aws-lambda.html",
+      "summary": "In this post, I will explain the steps to deploy a simple PHP email MX record validation application on AWS lambda function using Bref layers. AWS Lambda natively supports Java, Go, PowerShell, Node. js, C#, Python, and Ruby code, not PHP. You can deploy the lite weight PHP function to improve the…",
+      "author": "srinivas.tamada@gmail.com (Srinivas Tamada)",
+      "publishedAt": "2023-06-21T04:25:00.000Z"
+    },
+    {
+      "guid": "tag:blogger.com,1999:blog-992226187759619576.post-5773507927886200345",
+      "title": "Pocketbase Hosting on Apache or XAMPP",
+      "link": "http://www.9lessons.info/2022/10/pocketbase-hosting-on-apache-or-xampp.html",
+      "summary": "Pocketbase is an open-source application and alternative to Google Firebase. This is offering realtime database, authentication(including social), and file storage for your next web and mobile application. This article is about how to host the Pocketbase application server which usually runs at…",
+      "author": "srinivas.tamada@gmail.com (Srinivas Tamada)",
+      "publishedAt": "2022-10-30T22:06:00.000Z"
+    },
+    {
+      "guid": "tag:blogger.com,1999:blog-992226187759619576.post-3110994164581210636",
+      "title": "React Removing Unused CSS and Obfuscate JavaScript in Post Build Process",
+      "link": "http://www.9lessons.info/2022/10/react-removing-unused-css-obfuscate.html",
+      "summary": "This is continues of my previous post about how to remove unused CSS and convert unclear JavaScript to protect your source code in the post-build process.  If you are using CSS libraries like Bootstrap, Tailwind CSS, etc.. and sometimes multiple frameworks. But your application components are not…",
+      "author": "srinivas.tamada@gmail.com (Srinivas Tamada)",
+      "publishedAt": "2022-10-09T23:45:00.000Z"
+    },
+    {
+      "guid": "tag:blogger.com,1999:blog-992226187759619576.post-9222427694097751621",
+      "title": "Angular Removing Unused CSS and Obfuscate JavaScript in Post Build Process",
+      "link": "http://www.9lessons.info/2022/10/angular-remove-unused-css-obfu.html",
+      "summary": "Nowadays most applications are developed based on large CSS libraries like Bootstrap, Tailwind CSS, etc.. and sometimes multiple frameworks. But your application components are not using all of the styles and it adds more weight to the application performance. This post will explain the Angular…",
+      "author": "srinivas.tamada@gmail.com (Srinivas Tamada)",
+      "publishedAt": "2022-10-06T04:12:00.000Z"
+    },
+    {
+      "guid": "tag:blogger.com,1999:blog-992226187759619576.post-1806497836393985695",
+      "title": "Host a Website on Your Home Raspberry Pi",
+      "link": "http://www.9lessons.info/2022/06/host-website-on-your-home-raspberry-pi.html",
+      "summary": "The Raspberry Pi is a low cost device and it consumes low power. It can be used as a web server with your home internet and you will have complete freedom to implement ideas.  Nowadays popular cloud services are costing high for the same specifications and recently banned some websites for showing…",
+      "author": "srinivas.tamada@gmail.com (Srinivas Tamada)",
+      "publishedAt": "2022-06-27T00:34:00.000Z"
+    },
+    {
+      "guid": "tag:blogger.com,1999:blog-992226187759619576.post-2525191613806159956",
+      "title": "Cypress UI Automation End to End Testing",
+      "link": "http://www.9lessons.info/2021/11/cypress-ui-automation-end-to-end-testing.html",
+      "summary": "UI automation is the most important part of the CI/CD(continuous integration and continuous delivery) process. Integration testing helps you to avoid manual regression testing and  improve the application quality. In this post I will explain how to implement UI automation testing to existing…",
+      "author": "srinivas.tamada@gmail.com (Srinivas Tamada)",
+      "publishedAt": "2021-11-16T02:52:00.000Z"
+    },
+    {
+      "guid": "tag:blogger.com,1999:blog-992226187759619576.post-6937373437614162510",
+      "title": "Automated Deployment of PHP Application using Github Push.",
+      "link": "http://www.9lessons.info/2021/10/automated-deployment-php-application-github.html",
+      "summary": "Nowadays most of my side projects are managed with Github.  It has more advantages and flexibility to manage file versions.  I am following a different webhook system to automatically deploy my old PHP projects.  Not sure about the standards, but the following solution is an alternative approach…",
+      "author": "srinivas.tamada@gmail.com (Srinivas Tamada)",
+      "publishedAt": "2021-10-15T06:32:00.000Z"
+    },
+    {
+      "guid": "tag:blogger.com,1999:blog-992226187759619576.post-3641157567756004129",
+      "title": "Environment Variables in Apache and Xampp",
+      "link": "http://www.9lessons.info/2021/08/environment-variables-in-apache-xampp.html",
+      "summary": "Few days back one of my friend's project database credentials got exposed. After some investigation, we realized that it is because of the .git config commit. I would recommend configuring your sensitive credentials with operating system environment variables. This way you can protect information…",
+      "author": "srinivas.tamada@gmail.com (Srinivas Tamada)",
+      "publishedAt": "2021-08-08T18:46:00.000Z"
+    },
+    {
+      "guid": "tag:blogger.com,1999:blog-992226187759619576.post-2352379187611605616",
+      "title": "Setup SSH authentication with PEM RSA file without password on ubuntu/linux Raspberry Pi Server",
+      "link": "http://www.9lessons.info/2021/04/setup-ssh-authentication-with-pem-rsa.html",
+      "summary": "Recently I have been working with Raspberry PI and creating my own home server to host some of my demo projects. This post is about setting up SSH authentication with a PEM certificate file without password on ubuntu/linux server. Implement the following steps and improve the security.",
+      "author": "srinivas.tamada@gmail.com (Srinivas Tamada)",
+      "publishedAt": "2021-04-27T02:45:00.000Z"
+    },
+    {
+      "guid": "tag:blogger.com,1999:blog-992226187759619576.post-6925969891945252371",
+      "title": "Upload Files from Ionic Angular to Firebase Storage.",
+      "link": "http://www.9lessons.info/2020/12/upload-files-from-ionic-angular-to.html",
+      "summary": "Nowadays Google Firebase is my most favorite application. This is offering great web solutions like hosting, authentication, storage and database  in a simple way. This article  explains how to upload images(supports video) into Firebase storage with  Ionic and Angular applications.  This covers…",
+      "author": "srinivas.tamada@gmail.com (Srinivas Tamada)",
+      "publishedAt": "2020-12-20T01:29:00.000Z"
+    },
+    {
+      "guid": "tag:blogger.com,1999:blog-992226187759619576.post-4131363914516530603",
+      "title": "Publish an Ionic Android App to Google Play Store.",
+      "link": "http://www.9lessons.info/2020/10/publish-ionic-android-app-to-google.html",
+      "summary": "Ionic is a great component framework that can build both iOS and Android apps from the same source code using Capacitor. In this video I have explained how to generate a signed Android release APK version using Ionic application and publishing on Google play store. For this process you need a…",
+      "author": "srinivas.tamada@gmail.com (Srinivas Tamada)",
+      "publishedAt": "2020-10-28T05:46:00.000Z"
+    },
+    {
+      "guid": "tag:blogger.com,1999:blog-992226187759619576.post-2070232912735301597",
+      "title": "Angular Multiple Language Support using Internationalization (i18n)",
+      "link": "http://www.9lessons.info/2020/10/angular-internationalization-multi-langu.html",
+      "summary": "Modern web and mobile user experiences is a worldwide thing. Localization of your application (supporting multiple languages) will help you to reach worldwide people.  Angular is offering Internationalization(i18n) plugins to enrich your application with multiple languages. In this post I will…",
+      "author": "srinivas.tamada@gmail.com (Srinivas Tamada)",
+      "publishedAt": "2020-10-14T01:07:00.000Z"
+    },
+    {
+      "guid": "tag:blogger.com,1999:blog-992226187759619576.post-5976482951202565842",
+      "title": "Github Free Angular React Application Hosting",
+      "link": "http://www.9lessons.info/2020/08/github-free-angular-react-hosting.html",
+      "summary": "Developing and hosting your own Angular, React applications has never been easier, but now there are many options like Google Firebase, Heroku and etc. Github Pages is offering some great features with free of cost no credit card required and no bandwidth limitations. Just create a public…",
+      "author": "srinivas.tamada@gmail.com (Srinivas Tamada)",
+      "publishedAt": "2020-08-19T21:31:00.000Z"
+    },
+    {
+      "guid": "tag:blogger.com,1999:blog-992226187759619576.post-5986729444389626364",
+      "title": "PUBNUB: Making Engaging Realtime Experiences a Reality in India",
+      "link": "http://www.9lessons.info/2020/07/pubnub-making-engaging-realtime.html",
+      "summary": "Realtime Communication is providing enterprises with an innovative way to deliver better, more cost-effective customer service.",
+      "author": "srinivas.tamada@gmail.com (Srinivas Tamada)",
+      "publishedAt": "2020-07-21T12:46:00.000Z"
+    },
+    {
+      "guid": "tag:blogger.com,1999:blog-992226187759619576.post-2273874248142412261",
+      "title": "Deploy NodeJS Express Application to Firebase as Function.",
+      "link": "http://www.9lessons.info/2020/06/deploy-node-express-firebase-functions.html",
+      "summary": "Few days back I posted an article about how to implement restful apis using the Node Express and MySql. In this post I am going to discuss deploying NodeJS RESTful apis with Express framework to the Firebase functions. This is helpful when you deal with external endpoints which need  secret keys.…",
+      "author": "srinivas.tamada@gmail.com (Srinivas Tamada)",
+      "publishedAt": "2020-06-23T01:12:00.000Z"
+    },
+    {
+      "guid": "tag:blogger.com,1999:blog-992226187759619576.post-8829243118447417203",
+      "title": "Create Angular NPM Package and Publish",
+      "link": "http://www.9lessons.info/2020/05/create-angular-npm-package-and-publish.html",
+      "summary": "Are you interested to create and publish NPM packages/libraries to enrich Angular functionality? Take a quick look at this post.  You can share solutions with other developers.  A simple package can solve many problems and resolve the issue quickly. If you are working with multiple applications?…",
+      "author": "srinivas.tamada@gmail.com (Srinivas Tamada)",
+      "publishedAt": "2020-05-19T04:49:00.000Z"
+    },
+    {
+      "guid": "tag:blogger.com,1999:blog-992226187759619576.post-5315754323315269655",
+      "title": "Create a RESTful API using Node and Express with MySQL Database",
+      "link": "http://www.9lessons.info/2020/04/create-restful-api-using-node-and.html",
+      "summary": "Node Express web framework is a best solution to create RESTful APIs in quick time. Previously we published some concepts with different technologies like PHP and Java.  This article will explain to you a more simple way to use external plugins to enrich your project APIs.  Here you will find to…",
+      "author": "srinivas.tamada@gmail.com (Srinivas Tamada)",
+      "publishedAt": "2020-04-19T18:14:00.000Z"
+    },
+    {
+      "guid": "tag:blogger.com,1999:blog-992226187759619576.post-3918417786925122293",
+      "title": "Event Emitters Component Interactions in Angular Ionic",
+      "link": "http://www.9lessons.info/2020/03/event-emitters-component-interactions.html",
+      "summary": "This article is more about understanding the Event Emitters in Angular and Ionic. Data flow is the most important when you build an application to communicate with components. Event Emitters will help you to even bind using @Input @Output decorators. Here is a simple example to display and update…",
+      "author": "srinivas.tamada@gmail.com (Srinivas Tamada)",
+      "publishedAt": "2020-03-11T03:39:00.000Z"
+    },
+    {
+      "guid": "tag:blogger.com,1999:blog-992226187759619576.post-1602742535321941704",
+      "title": "New Ionic 5 Angular 8 Display, Update and Delete Records with RxJS",
+      "link": "http://www.9lessons.info/2019/11/ionic-angular-update-delete-rxjs.html",
+      "summary": "This post is about displaying the API records with delete and update actions using new Ionic and Angular reactive programming. This is a continuation of Ionic Angular series and it explains to you how to distribute the data between the components using RxJS method like BehaviorSubject. All of the…",
+      "author": "srinivas.tamada@gmail.com (Srinivas Tamada)",
+      "publishedAt": "2019-11-01T15:13:00.000Z"
+    },
+    {
+      "guid": "tag:blogger.com,1999:blog-992226187759619576.post-5927618950629996892",
+      "title": "Ionic 5 and Angular 8: Restful API User Authentication Login and Signup using Guard and Resolver",
+      "link": "http://www.9lessons.info/2019/09/ionic-5-and-angular-8-restful-api-user.html",
+      "summary": "This is a continuation of my previous article creating an Ionic Angular project with welcome and tabs home page. Today’s post explains how to implement login authentication system for your Ionic Angular application with guards and resolvers. It will show you how to log in with a user and store the…",
+      "author": "srinivas.tamada@gmail.com (Srinivas Tamada)",
+      "publishedAt": "2019-09-11T03:33:00.000Z"
+    },
+    {
+      "guid": "tag:blogger.com,1999:blog-992226187759619576.post-541279854641799220",
+      "title": "Mock REST Backend Server for Angular and React Applications.",
+      "link": "http://www.9lessons.info/2019/08/mock-rest-backend-server-for-angular.html",
+      "summary": "As I promised to continue the Angular/Ionic project series, as a developer perspective mock server is the most important to progress the development. We should not depend on the production or development  API for front-end development. This post is about creating a simple Node Express server with…",
+      "author": "srinivas.tamada@gmail.com (Srinivas Tamada)",
+      "publishedAt": "2019-08-27T04:31:00.000Z"
+    },
+    {
+      "guid": "tag:blogger.com,1999:blog-992226187759619576.post-7219596663220354644",
+      "title": "Ionic 5 and Angular 8: Create a Welcome Page with Tabs Home Pages.",
+      "link": "http://www.9lessons.info/2019/08/ionic-5-angular-8-welcome-page.html",
+      "summary": "I received lots of tutorial requests from my readers in that most of them asked me, how to use Ionic 5 to create a welcome page with login and signup pages. Ionic updated there code base with latest Angular 8 features. Now we can implement the routes and guards pretty easy way. Ionic is…",
+      "author": "srinivas.tamada@gmail.com (Srinivas Tamada)",
+      "publishedAt": "2019-08-19T01:20:00.000Z"
+    },
+    {
+      "guid": "tag:blogger.com,1999:blog-992226187759619576.post-7996545794395387010",
+      "title": "Microsoft Azure Virtual Machines Setup with Ubuntu and XAMPP PHP Server",
+      "link": "http://www.9lessons.info/2019/08/azure-virtual-machines-setup-xampp.html",
+      "summary": "Microsoft Azure is another great alternate cloud service and it is offering a  one-year free trial with $200 credit. This post is almost similar to my previous Cloud service article. This will explain to you how to set up a virtual machine instance with secure firewall rules and setting up a…",
+      "author": "srinivas.tamada@gmail.com (Srinivas Tamada)",
+      "publishedAt": "2019-08-07T03:04:00.000Z"
+    },
+    {
+      "guid": "tag:blogger.com,1999:blog-992226187759619576.post-3475278552702012082",
+      "title": "Google Cloud VM Instance Setup with Ubuntu and XAMPP PHP Server",
+      "link": "http://www.9lessons.info/2019/07/google-cloud-vm-instance-setup-with.html",
+      "summary": "Google cloud platform is a cloud computing service and a perfect alternate for Amazon Webservices. Nowadays most of the top companies are moving towards Google services for better results. Google cloud platform is offering a $300 free trial for one year. This post is about how to set up  VM…",
+      "author": "srinivas.tamada@gmail.com (Srinivas Tamada)",
+      "publishedAt": "2019-07-30T22:11:00.000Z"
+    },
+    {
+      "guid": "tag:blogger.com,1999:blog-992226187759619576.post-6572969799331869938",
+      "title": "Angular 8 Multi Tenants Architecture",
+      "link": "http://www.9lessons.info/2019/07/angular-multi-tenant-project.html",
+      "summary": "Multi-tenants is an architecture concept that can handle multiple projects in a single project container. If you look at popular sites like Nike.com or Mi.com, you will find out the project redirection based on the continent or country region. This post more about understanding the Angular 8…",
+      "author": "srinivas.tamada@gmail.com (Srinivas Tamada)",
+      "publishedAt": "2019-07-01T12:13:00.000Z"
+    }
+  ],
+  "totalIndexed": 25
+}

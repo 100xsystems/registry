@@ -1,0 +1,133 @@
+{
+  "feedId": "the-daily-wtf",
+  "feedName": "The Daily WTF",
+  "feedSiteUrl": "http://thedailywtf.com/",
+  "feedRssUrl": "https://syndication.thedailywtf.com/TheDailyWtf",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T07:11:30.887Z",
+  "items": [
+    {
+      "guid": "https://thedailywtf.com/articles/classic-wtf-my-many-girlfriends",
+      "title": "Classic WTF: My Many Girlfriends",
+      "link": "https://thedailywtf.com/articles/classic-wtf-my-many-girlfriends",
+      "summary": "Honestly, with the wildfire smoke and the oppressive heat, maybe it's time to find a nice quiet cave to hang out in. Something with no natural light and no natural ventilation. I wonder if anybody has a place like that… Original. --Remy\nIn the long ago, wild-west days of the late 90s, there was an…",
+      "author": "Remy Porter",
+      "publishedAt": "2026-07-23T06:30:00.000Z"
+    },
+    {
+      "guid": "https://thedailywtf.com/articles/classic-wtf-server-room-fans-and-more-fun",
+      "title": "Classic WTF: Server Room Fans and More Fun",
+      "link": "https://thedailywtf.com/articles/classic-wtf-server-room-fans-and-more-fun",
+      "summary": "It's been pretty hot lately. Probably should use a fan to cool off. Mind the trip hazards. Original. --Remy\n\"It's that time of year again,\" Robert Rossegger wrote, \"you know, when the underpowered air conditioner just can't cope with the non-winter weather? Fortunately, we have a solution for…",
+      "author": "Alex Papadimoulis",
+      "publishedAt": "2026-07-22T06:30:00.000Z"
+    },
+    {
+      "guid": "https://thedailywtf.com/articles/classic-wtf-fork-and-log",
+      "title": "CodeSOD: Classic WTF: Fork and Log",
+      "link": "https://thedailywtf.com/articles/classic-wtf-fork-and-log",
+      "summary": "We keep our summer break going. Today, there's something floating in the pool, and I don't think it's a Snickers bar. Original. --Remy\nA few years back, Adam C. was brought in to help with some performance problems that appeared while load testing a VXML Platform.  The project was already well…",
+      "author": "Mark Bowytz",
+      "publishedAt": "2026-07-21T06:30:00.000Z"
+    },
+    {
+      "guid": "https://thedailywtf.com/articles/classic-wtf-the-table-selector",
+      "title": "CodeSOD: Classic WTF: The Table Selector",
+      "link": "https://thedailywtf.com/articles/classic-wtf-the-table-selector",
+      "summary": "It's summer break time, which as always, means we dip back into classic articles. Today, we pick which table we want. Original. --Remy\n\"In my native language of German,\" writes Christian, \"the word quellcode is a pretty direct translation of 'source code'.\"\n\"Unfortunately, bad code seems to cross…",
+      "author": "Alex Papadimoulis",
+      "publishedAt": "2026-07-20T06:30:00.000Z"
+    },
+    {
+      "guid": "https://thedailywtf.com/articles/princess-pricing",
+      "title": "Error'd: Princess Pricing",
+      "link": "https://thedailywtf.com/articles/princess-pricing",
+      "summary": "Sam suggests this Error'd indicates \n\"Disney+ preparing the ground for usage-based billing.\" I'm intrigued by the idea that Disney might charge by the minute, but I suspect the reality is far more mundane.\n\n\n \n\n\nSilly prices at online shopping sites don't usually make it through the gauntlet here,…",
+      "author": "Lyle Seaman",
+      "publishedAt": "2026-07-17T06:30:00.000Z"
+    },
+    {
+      "guid": "https://thedailywtf.com/articles/wait-longer",
+      "title": "CodeSOD: Wait Longer",
+      "link": "https://thedailywtf.com/articles/wait-longer",
+      "summary": "Karen was maintaining some specification tests that were flaky. Not extremely flaky, but three or four times out of a thousand, the tests would just fail. The tests were complicated, and some of the operations were timing sensitive, so it wasn't precisely surprising- but the problem was that they…",
+      "author": "Remy Porter",
+      "publishedAt": "2026-07-16T06:30:00.000Z"
+    },
+    {
+      "guid": "https://thedailywtf.com/articles/the-error-check",
+      "title": "CodeSOD: The Error Check",
+      "link": "https://thedailywtf.com/articles/the-error-check",
+      "summary": "Today's submission is less a WTF and more a, \"Yeah, that'd annoy me too.\"\nStevie works in a code-base that's largely C, which means function return values are usually used to communicate to status codes. The standard:\nBOOL success = someFunc();\nif (!success) {// handle the error\n\nIf someFunc…",
+      "author": "Remy Porter",
+      "publishedAt": "2026-07-15T06:30:00.000Z"
+    },
+    {
+      "guid": "https://thedailywtf.com/articles/aayfn",
+      "title": "CodeSOD: AAYFN",
+      "link": "https://thedailywtf.com/articles/aayfn",
+      "summary": "Jason M sends us some Ruby code.\ndef bv(prop, tv=\"Yes\", fv=\"No\", nv=\"Not Specified\")\n  v = self.send(prop)\n  if v === true\n    tv\n  elsif v === false\n    fv\n  else\n    nv\n  end\n end\n\nThe obvious WTF here is the function name and parameter names. AAYFN(always abbreviate your function names) seems to…",
+      "author": "Remy Porter",
+      "publishedAt": "2026-07-14T06:30:00.000Z"
+    },
+    {
+      "guid": "https://thedailywtf.com/articles/the-easy-no",
+      "title": "The Easy No",
+      "link": "https://thedailywtf.com/articles/the-easy-no",
+      "summary": "There were thousand tickets in the backlog, and I was on the trail of a weird printer issue. I had a suspect, but that wasn't enough to close the ticket. I'm Anonymous. This is my story.\nWhenever you hit the Print button, a request launches into the ether. “Print one copy of this file,…",
+      "author": "Ellis Morning",
+      "publishedAt": "2026-07-13T06:30:00.000Z"
+    },
+    {
+      "guid": "https://thedailywtf.com/articles/einfach-so",
+      "title": "Error'd: Einfach so",
+      "link": "https://thedailywtf.com/articles/einfach-so",
+      "summary": "Do you say \"a FAQ\" or \"an eff eh cue\"?  Peter says eff eh cue I think.\n\"This is a test\"\nPeter G. harrumphed testily.\n\"Create an FAQ with exactly nine entries. Nine? Nine.\"\n\n\n \n\n\n\"I think I spent over $NaN?\" said an anonymous. \n\"This was an interesting offer on myminifactory.com with tight expiry…",
+      "author": "Lyle Seaman",
+      "publishedAt": "2026-07-10T06:30:00.000Z"
+    },
+    {
+      "guid": "https://thedailywtf.com/articles/flushed-out",
+      "title": "Flushed Out",
+      "link": "https://thedailywtf.com/articles/flushed-out",
+      "summary": "While a project manager is frequently called upon for their planning ability, the real skill we want from project managers is their ability to communicate. The job of a project manager is to align the team doing the work, with the organization goals driving the work, with the management and…",
+      "author": "Remy Porter",
+      "publishedAt": "2026-07-09T06:30:00.000Z"
+    },
+    {
+      "guid": "https://thedailywtf.com/articles/module-test",
+      "title": "CodeSOD: Module Test",
+      "link": "https://thedailywtf.com/articles/module-test",
+      "summary": "TJ inherited a NestJS project. The original developers left the team many years ago, but they've left their mark in the codebase.\n// ProjectsModule.ts\n@Module({\n  controllers: […],\n  providers: […],\n  exports: […],\n})\nexport class ProjectsModule {}\n\nNestJS is a dependency-injection oriented…",
+      "author": "Remy Porter",
+      "publishedAt": "2026-07-08T06:30:00.000Z"
+    },
+    {
+      "guid": "https://thedailywtf.com/articles/on-hold",
+      "title": "CodeSOD: On Hold",
+      "link": "https://thedailywtf.com/articles/on-hold",
+      "summary": "\"Dragoncoder\" supports a web application that has a \"wait time\" for access. I hate that that's a thing, but I recognize that there are real-world constraints where this might make sense. Still, I hate it. But that's not the WTF.\n      var minutes = parseInt( 12 , 10);\n      var time =…",
+      "author": "Remy Porter",
+      "publishedAt": "2026-07-07T06:30:00.000Z"
+    },
+    {
+      "guid": "https://thedailywtf.com/articles/classic-wtf-difficult-personality",
+      "title": "Best of…: Classic WTF: Difficult Personality",
+      "link": "https://thedailywtf.com/articles/classic-wtf-difficult-personality",
+      "summary": "As the US took this weekend to celebrate their complicated relationship with tyranny, we reach back through the archives for another story of tyrants. If you think about it, the Declaration of Independence is basically the same thing as quitting without notice. Original --Remy\nIt was Steve's first…",
+      "author": "Remy Porter",
+      "publishedAt": "2026-07-06T06:30:00.000Z"
+    },
+    {
+      "guid": "https://thedailywtf.com/articles/kaids-hen-2025",
+      "title": "Error'd: Kaids Hen 2025",
+      "link": "https://thedailywtf.com/articles/kaids-hen-2025",
+      "summary": "On the recurring transport\nbeat, this week brings us a handful of wtfs relating to\nmass transit. Nothing private.\n\"Thank you for traveling with Deutsche Bahn\" sneers \nPhilipp H. bitterly, explaining \n\"The German railroad company sadly is famous for often being\nlate and also has lots of other…",
+      "author": "Lyle Seaman",
+      "publishedAt": "2026-07-03T06:30:00.000Z"
+    }
+  ],
+  "totalIndexed": 15
+}

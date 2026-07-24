@@ -1,0 +1,93 @@
+{
+  "feedId": "marco-pivetta",
+  "feedName": "Marco Pivetta",
+  "feedSiteUrl": "http://ocramius.github.io/",
+  "feedRssUrl": "https://ocramius.github.io/atom.xml",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T06:59:58.973Z",
+  "items": [
+    {
+      "guid": "marco-pivetta::https://ocramius.github.io/blog/reviving-the-blog/",
+      "title": "Reviving the blog",
+      "link": "https://ocramius.github.io/blog/reviving-the-blog/",
+      "summary": "I'm back!\n\n\n\n    The last time I blogged was in 2017: a lot has changed since then, and after a decade of ignoring blogging,\n    I will attempt to put some regularity into it again.\n\n\n\n    The times call for it: having a personal space that is really \"our own\" is extremely important,\n    and it is…",
+      "author": null,
+      "publishedAt": "2026-02-22T00:00:00.000Z"
+    },
+    {
+      "guid": "marco-pivetta::https://ocramius.github.io/blog/roave-better-reflection-v2.0/",
+      "title": "BetterReflection version 2.0.0 released",
+      "link": "https://ocramius.github.io/blog/roave-better-reflection-v2.0/",
+      "summary": "Roave's\n    BetterReflection\n    2.0.0s\n    was released today!\n\n\n\n    I and James Titcumb started working on this\n    project back in 2015, and it is a pleasure to see it reaching maturity.\n\n\n\n    The initial idea was simple: James would implement all my wicked ideas, while I\n    would lay back…",
+      "author": null,
+      "publishedAt": "2017-09-18T00:00:00.000Z"
+    },
+    {
+      "guid": "marco-pivetta::https://ocramius.github.io/blog/eliminating-visual-debt/",
+      "title": "Eliminating Visual Debt",
+      "link": "https://ocramius.github.io/blog/eliminating-visual-debt/",
+      "summary": "Today we're talking about Visual debt in our code.\n\n\n\n    As an introduction, I suggest to watch\n    \n        this short tutorial\n    \n    about visual debt by\n    @jeffrey_way.\n\n\n\n    The concept is simple: let's take the example from Laracasts and re-visit\n    the steps taken to remove visual…",
+      "author": null,
+      "publishedAt": "2017-05-29T00:00:00.000Z"
+    },
+    {
+      "guid": "marco-pivetta::https://ocramius.github.io/blog/yubikey-for-ssh-gpg-git-and-local-login/",
+      "title": "YubiKey for SSH, Login, 2FA, GPG and Git Signing",
+      "link": "https://ocramius.github.io/blog/yubikey-for-ssh-gpg-git-and-local-login/",
+      "summary": "I've been using a\n    \n        YubiKey Neo\n    \n    for a bit over two years now, but its usage was limited to\n    2FA\n    and\n    U2F.\n\n\n\n    Last week, I received my new DELL XPS 15 9560, and since I am maintaining\n    some high impact open source projects, I wanted the setup to be well secured.…",
+      "author": null,
+      "publishedAt": "2017-04-15T00:00:00.000Z"
+    },
+    {
+      "guid": "marco-pivetta::https://ocramius.github.io/blog/on-aggregates-and-external-context-interactions/",
+      "title": "On Aggregates and Domain Service interaction",
+      "link": "https://ocramius.github.io/blog/on-aggregates-and-external-context-interactions/",
+      "summary": "Some time ago, I was asked where I put I/O operations when dealing with\n    aggregates.\n\n\n\nCQRS\n    and Event Sourced architecture, but in general, the approach that I prefer also applies to most\n    imperative ORM entity code (assuming a proper data-mapper is involved).\n\n\nScenario\nFeature: credit…",
+      "author": null,
+      "publishedAt": "2017-01-25T00:00:00.000Z"
+    },
+    {
+      "guid": "marco-pivetta::https://ocramius.github.io/blog/proxy-manager-2-0-0-release/",
+      "title": "ProxyManager 2.0.0 release and expected 2.x lifetime",
+      "link": "https://ocramius.github.io/blog/proxy-manager-2-0-0-release/",
+      "summary": "ProxyManager\n    2.0.0\n    was finally released today!\n\n\n\n    It took a bit more than a year to get here, but major improvements were included\n    in this release, along with exclusive PHP 7 support.\n\n\n\n    Most of the features that we planned to provide were indeed\n    implemented into this…",
+      "author": null,
+      "publishedAt": "2016-01-29T00:00:00.000Z"
+    },
+    {
+      "guid": "marco-pivetta::https://ocramius.github.io/blog/doctrine-orm-optimization-hydration/",
+      "title": "Doctrine ORM Hydration Performance Optimization",
+      "link": "https://ocramius.github.io/blog/doctrine-orm-optimization-hydration/",
+      "summary": "PRE-REQUISITE:\n    Please note that this article explains complexity in internal ORM operations with the Big-O\n    notation. Consider reading\n    this article, \n    if you are not familiar with the Big-O syntax.\n\n\nWhat is hydration?\nHydration when converting database\n    results into objects.…",
+      "author": null,
+      "publishedAt": "2015-04-13T00:00:00.000Z"
+    },
+    {
+      "guid": "marco-pivetta::https://ocramius.github.io/blog/when-to-declare-classes-final/",
+      "title": "When to declare classes final",
+      "link": "https://ocramius.github.io/blog/when-to-declare-classes-final/",
+      "summary": "TL;DR: \n        Make your classes always final, if they implement an interface, \n        and no other public methods are defined\n    \n\n\n\n    In the last month, I had a few discussions about the usage of the final marker on PHP classes.\n\n\n\n    The pattern is recurrent:\n\n\n\n    \nI ask for a newly…",
+      "author": null,
+      "publishedAt": "2015-01-06T00:00:00.000Z"
+    },
+    {
+      "guid": "marco-pivetta::https://ocramius.github.io/blog/proxy-manager-1-0-0-release/",
+      "title": "ProxyManager 1.0.0 release and expected 1.x lifetime",
+      "link": "https://ocramius.github.io/blog/proxy-manager-1-0-0-release/",
+      "summary": "Today I finally released version \n    1.0.0 of the \n    ProxyManager\n\n\nNoticeable improvements since 0.5.2:\n (Markdown documentation will be kept in sync)\n    \nPlanned maintenance schedule\nDecember 11, 2015\n    \nDecember 11, 2016\n    \nmaster branch will instead\n    become the development branch for…",
+      "author": null,
+      "publishedAt": "2014-12-12T00:00:00.000Z"
+    },
+    {
+      "guid": "marco-pivetta::https://ocramius.github.io/blog/roave-security-advisories-protect-against-composer-packages-with-security-issues/",
+      "title": "roave/security-advisories: Composer against Security Vulnerabilities",
+      "link": "https://ocramius.github.io/blog/roave-security-advisories-protect-against-composer-packages-with-security-issues/",
+      "summary": "Since it's almost christmas, it's also time to release a new project!\n\n\n\n    The Roave Team is pleased to announce the release of\n    roave/security-advisories, a package\n    that keeps known security issues out of your project.\n\n\n\n    Before telling you more, go grab it:\n\n\nmkdir…",
+      "author": null,
+      "publishedAt": "2014-12-11T00:00:00.000Z"
+    }
+  ],
+  "totalIndexed": 10
+}

@@ -1,0 +1,93 @@
+{
+  "feedId": "wealthfront",
+  "feedName": "Wealthfront",
+  "feedSiteUrl": "http://eng.wealthfront.com/",
+  "feedRssUrl": "https://eng.wealthfront.com/feed/",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T07:16:13.636Z",
+  "items": [
+    {
+      "guid": "https://eng.wealthfront.com/?p=4127",
+      "title": "Tuning Android build nodes for maximum throughput",
+      "link": "https://eng.wealthfront.com/2026/06/25/tuning-android-build-nodes-for-maximum-throughput/",
+      "summary": "Introduction Our Android team uses Gradle as our build tool of choice. Gradle offers lots of options for tuning its resource consumption, giving engineers an opportunity to optimize performance for running tasks on well-known hardware. In this post, we’ll explore how the team tuned our Gradle setup…",
+      "author": "Chris Mathew",
+      "publishedAt": "2026-06-25T15:29:45.000Z"
+    },
+    {
+      "guid": "https://eng.wealthfront.com/?p=4081",
+      "title": "Putting the Tech in Fintech: How We Use FIX to Execute Trades at Scale",
+      "link": "https://eng.wealthfront.com/2026/04/21/putting-the-tech-in-fintech-how-we-use-fix-to-execute-trades-at-scale/",
+      "summary": "At Wealthfront, the “tech” in financial technology isn’t just a buzzword—it’s the foundation of everything we build. Beneath the intuitive frontend our clients interact with lies a complex ecosystem of distributed systems. One of the most critical pieces of that backend architecture is the engine…",
+      "author": "Grace Sun",
+      "publishedAt": "2026-04-22T00:27:03.000Z"
+    },
+    {
+      "guid": "https://eng.wealthfront.com/?p=4068",
+      "title": "How we standardized MariaDB in our Integration Server",
+      "link": "https://eng.wealthfront.com/2026/03/26/how-we-standardized-mariadb-in-our-integration-server/",
+      "summary": "Engineering at Wealthfront is centered on the idea that code should be written to facilitate testing, not the other way around. Without a staging environment to fall back on, we maximize confidence through a sophisticated, multi-layered testing strategy. While unit tests provide our most rigorous…",
+      "author": "Eloy Gonzalez",
+      "publishedAt": "2026-03-26T18:59:43.000Z"
+    },
+    {
+      "guid": "https://eng.wealthfront.com/?p=4047",
+      "title": "XcodeGen and the quest to modularize the Wealthfront iOS app",
+      "link": "https://eng.wealthfront.com/2026/03/02/xcodegen-and-the-quest-to-modularize-the-wealthfront-ios-app/",
+      "summary": "Every iOS application starts as a monolith. Xcode’s default project structure places all source files, resources, and build configuration into a single module (or target, for all the iOS devs reading this). For small apps, this works fine. For a 10+ year old financial application with roughly 2,000…",
+      "author": "Matthew Bommer",
+      "publishedAt": "2026-03-02T17:56:41.000Z"
+    },
+    {
+      "guid": "https://eng.wealthfront.com/?p=3861",
+      "title": "New Leaders, New Perspectives: Why We Joined Wealthfront Engineering",
+      "link": "https://eng.wealthfront.com/2026/02/12/new-leaders-new-perspectives-why-we-joined-wealthfront-engineering/",
+      "summary": "At Wealthfront, our engineering culture is something you experience as soon as you join the organization, and new hires are regularly surprised by how quickly and fully they begin to contribute and drive impact. We sat down with two of our new engineering managers, Melissa and Sanjana, to hear how…",
+      "author": "Sanjana Kaundinya",
+      "publishedAt": "2026-02-12T23:10:24.000Z"
+    },
+    {
+      "guid": "https://eng.wealthfront.com/?p=3684",
+      "title": "The Hidden Cost of Convenience: Rethinking Old ORM Patterns for Scale",
+      "link": "https://eng.wealthfront.com/2025/12/08/the-hidden-cost-of-convenience-rethinking-old-orm-patterns-for-scale/",
+      "summary": "Ever been here before? Stuck with a job that needs to be continually revisited because its performance gets worse with every passing day, and each attempt at improving said performance yields diminishing returns? This is the situation we found ourselves in with the portfolio balance calculation…",
+      "author": "Andrew Houts",
+      "publishedAt": "2025-12-08T22:06:50.000Z"
+    },
+    {
+      "guid": "https://eng.wealthfront.com/?p=3649",
+      "title": "Automating Exhaustive Branch Coverage for Sealed Types in Kotlin",
+      "link": "https://eng.wealthfront.com/2025/11/20/sealed-tests/",
+      "summary": "We take code correctness and code quality seriously at Wealthfront. One of the most effective ways we ensure that our code is correct is through rigorous unit testing and strong typing. In Kotlin, sealed classes and sealed interfaces offer a powerful tool to model restricted class hierarchies. They…",
+      "author": "Sean Amos",
+      "publishedAt": "2025-11-20T16:33:33.000Z"
+    },
+    {
+      "guid": "https://eng.wealthfront.com/?p=3665",
+      "title": "ValidUntil: Ensuring compile-time data integrity in our investing system",
+      "link": "https://eng.wealthfront.com/2025/11/03/validuntil-ensuring-compile-time-data-integrity-in-our-investing-system/",
+      "summary": "As a financial services company, it is paramount that our investing system makes decisions based on accurate, up-to-date, and valid data. A single bad input can lead to disastrous outcomes, including costly trading mistakes and a loss of client trust. At Wealthfront, we built a system called…",
+      "author": "Thomas Fenaroli",
+      "publishedAt": "2025-11-03T22:02:29.000Z"
+    },
+    {
+      "guid": "https://eng.wealthfront.com/?p=3645",
+      "title": "Shipping Containers: How We Built an Easy to Use Jenkins Pipeline for ECR",
+      "link": "https://eng.wealthfront.com/2025/10/08/shipping-containers-how-we-built-an-easy-to-use-jenkins-pipeline-for-ecr/",
+      "summary": "The DevOps team at Wealthfront has been in the process of migrating services to run inside containers. As part of this process we need a way to build containers using our CI/CD tool, Jenkins. While we could write a Jenkinsfile for each container image we wanted to build, we identified this was a…",
+      "author": "Oliver Isaac",
+      "publishedAt": "2025-10-08T19:15:22.000Z"
+    },
+    {
+      "guid": "https://eng.wealthfront.com/?p=3600",
+      "title": "Going Edge-to-Edge: How Android SDK 35 Modernizes the Wealthfront App",
+      "link": "https://eng.wealthfront.com/2025/09/09/going-edge-to-edge-how-android-sdk-35-modernizes-the-wealthfront-app/",
+      "summary": "One of our core engineering principles at Wealthfront is maintaining a high standard of quality and platform infrastructure, and that includes keeping our platforms up to date on the latest releases. On Android, this means keeping our targetSdk up to date, which provides Wealthfront’s Android users…",
+      "author": "Cameron Greene",
+      "publishedAt": "2025-09-09T17:12:54.000Z"
+    }
+  ],
+  "totalIndexed": 10
+}

@@ -1,0 +1,413 @@
+{
+  "feedId": "mozilla-release-engineering",
+  "feedName": "Mozilla Release Engineering",
+  "feedSiteUrl": "https://planet.mozilla.org/releng/",
+  "feedRssUrl": "https://planet.mozilla.org/releng/atom.xml",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T07:01:07.241Z",
+  "items": [
+    {
+      "guid": "mozilla-release-engineering::https://armenzg.medium.com/making-pip-installations-faster-with-wheel-e41bed129993?source=rss-d4d8839a88ef------2",
+      "title": "Making pip installations faster with wheel",
+      "link": "https://armenzg.medium.com/making-pip-installations-faster-with-wheel-e41bed129993?source=rss-d4d8839a88ef------2",
+      "summary": "I recently noticed the following message in Sentry’s pip installation step:\nUpon some investigation, I noticed that the package  was not being installed. After making , I can now guarantee that our development environment installs it by default and it’s given us about 40–50% speed gain.wheelsome…",
+      "author": "Armen Zambrano",
+      "publishedAt": "2021-02-18T16:24:18.000Z"
+    },
+    {
+      "guid": "mozilla-release-engineering::https://armenzg.medium.com/making-big-sur-and-pyenv-play-nicely-a83d9d9f074a?source=rss-d4d8839a88ef------2",
+      "title": "Making Big Sur and pyenv play nicely",
+      "link": "https://armenzg.medium.com/making-big-sur-and-pyenv-play-nicely-a83d9d9f074a?source=rss-d4d8839a88ef------2",
+      "summary": "Soon after Big Sur came out, I received my new work laptop. I decided to upgrade to it. Unfortunately, I quickly discovered that the Python set up needed for  required some changes. Since it took me a bit of time to figure it out I decided to document it for anyone trying to solve the same…",
+      "author": "Armen Zambrano",
+      "publishedAt": "2021-02-03T22:09:15.000Z"
+    },
+    {
+      "guid": "mozilla-release-engineering::https://armenzg.medium.com/joining-sentry-cc0f37b6dda7?source=rss-d4d8839a88ef------2",
+      "title": "Joining Sentry",
+      "link": "https://armenzg.medium.com/joining-sentry-cc0f37b6dda7?source=rss-d4d8839a88ef------2",
+      "summary": "I’m happy to announce that at the end of 2020 I joined Sentry.io as their second Developer Productivity engineer \\o/\nI’m excited to say that it’s been a great fit and that I can make use of most of the knowledge I’ve gained in the last few years. I like the ambition of the company and that they…",
+      "author": "Armen Zambrano",
+      "publishedAt": "2021-01-19T17:14:23.000Z"
+    },
+    {
+      "guid": "mozilla-release-engineering::https://armenzg.medium.com/farewell-mozilla-5d52b7110194?source=rss-d4d8839a88ef------2",
+      "title": "Farewell, Mozilla",
+      "link": "https://armenzg.medium.com/farewell-mozilla-5d52b7110194?source=rss-d4d8839a88ef------2",
+      "summary": "The summer of 2020 marked the end of 12 years of working for Mozilla. My career with Mozilla began with an internship during the summer of 2008 when I worked from Building K in 1981 Landings Drive, Mountain View, CA.\nWriting this post is hard since Mozilla was such a great place to work at, not…",
+      "author": "Armen Zambrano",
+      "publishedAt": "2020-12-31T19:16:28.000Z"
+    },
+    {
+      "guid": "mozilla-release-engineering::https://coopcoopbware.tumblr.com/post/638316649394651136",
+      "title": "Wait and Hope",
+      "link": "https://coopcoopbware.tumblr.com/post/638316649394651136",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2020-12-23T17:56:34.000Z"
+    },
+    {
+      "guid": "mozilla-release-engineering::https://coopcoopbware.tumblr.com/post/636411382111272960",
+      "title": "Taskcluster: CI for Engineers",
+      "link": "https://coopcoopbware.tumblr.com/post/636411382111272960",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2020-12-02T17:13:09.000Z"
+    },
+    {
+      "guid": "mozilla-release-engineering::https://coopcoopbware.tumblr.com/post/628096276382269440",
+      "title": "Managing: team expectations",
+      "link": "https://coopcoopbware.tumblr.com/post/628096276382269440",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2020-09-01T22:28:06.000Z"
+    },
+    {
+      "guid": "mozilla-release-engineering::https://armenzg.medium.com/new-backfill-action-26788d0db81a?source=rss-d4d8839a88ef------2",
+      "title": "New backfill action",
+      "link": "https://armenzg.medium.com/new-backfill-action-26788d0db81a?source=rss-d4d8839a88ef------2",
+      "summary": "If you use Treeherder on repositories that are not Try, you might have used the backfill action. The backfill action takes a selected task and schedules it nine pushes back from the selected task. You can see the original work  and the follow up .herehere\nIn the screenshot above you can see that…",
+      "author": "Armen Zambrano",
+      "publishedAt": "2020-07-15T14:10:42.000Z"
+    },
+    {
+      "guid": "mozilla-release-engineering::https://armenzg.medium.com/in-filter-treeherder-jobs-by-test-or-manifest-path-i-describe-the-feature-2f2c6d04b3d3?source=rss-d4d8839a88ef------2",
+      "title": "In Filter Treeherder jobs by test or manifest path I describe the feature.",
+      "link": "https://armenzg.medium.com/in-filter-treeherder-jobs-by-test-or-manifest-path-i-describe-the-feature-2f2c6d04b3d3?source=rss-d4d8839a88ef------2",
+      "summary": "In  I describe the feature. In this post I will explain how it came about.Filter Treeherder jobs by test or manifest path\nI want to highlight the process between a conversation and a deployed feature. Many times, it is an unseen part of the development process that can be useful for contributors…",
+      "author": "Armen Zambrano",
+      "publishedAt": "2020-07-03T17:55:16.000Z"
+    },
+    {
+      "guid": "mozilla-release-engineering::https://armenzg.medium.com/filter-treeherder-jobs-by-test-or-manifest-path-af0e1ae74e61?source=rss-d4d8839a88ef------2",
+      "title": "Filter Treeherder jobs by test or manifest path",
+      "link": "https://armenzg.medium.com/filter-treeherder-jobs-by-test-or-manifest-path-af0e1ae74e61?source=rss-d4d8839a88ef------2",
+      "summary": "At the beginning of this year we landed a new feature on Treeherder. This feature helps our users to filter jobs using test paths or manifest paths.\nThis feature is useful for developers and code sheriffs because it permits them to determine whether or not a test that fails in one platform…",
+      "author": "Armen Zambrano",
+      "publishedAt": "2020-07-03T17:36:04.000Z"
+    },
+    {
+      "guid": "mozilla-release-engineering::https://armenzg.medium.com/treeherder-developer-ergonomics-fb2a8ef087eb?source=rss-d4d8839a88ef------2",
+      "title": "Treeherder developer ergonomics",
+      "link": "https://armenzg.medium.com/treeherder-developer-ergonomics-fb2a8ef087eb?source=rss-d4d8839a88ef------2",
+      "summary": "In the last few months I’ve worked with contributors who wanted to be selected to work on Treeherder during this year’s . The initial proposal was to improve various Treeherder developer ergonomics (read: make Treeherder development easier). I’ve had three very active contributors that have helped…",
+      "author": "Armen Zambrano",
+      "publishedAt": "2020-05-15T21:05:33.000Z"
+    },
+    {
+      "guid": "mozilla-release-engineering::https://armenzg.medium.com/join-mozillas-new-chat-rooms-328693ceddb0?source=rss-d4d8839a88ef------2",
+      "title": "Join Mozilla’s new chat rooms",
+      "link": "https://armenzg.medium.com/join-mozillas-new-chat-rooms-328693ceddb0?source=rss-d4d8839a88ef------2",
+      "summary": "For over a decade Mozilla has been using  to publicly chat with anyone interested to join the community. Recently, we’ve launched a replacement for it by creating a . I will be focusing on simply documenting what the process looks like to join in as a community member (without an LDAP…",
+      "author": "Armen Zambrano",
+      "publishedAt": "2020-01-31T19:22:35.000Z"
+    },
+    {
+      "guid": "mozilla-release-engineering::https://armenzg.medium.com/web-performance-issue-reoccurrence-8f2cb913cc0a?source=rss-d4d8839a88ef------2",
+      "title": "Web performance issue — reoccurrence",
+      "link": "https://armenzg.medium.com/web-performance-issue-reoccurrence-8f2cb913cc0a?source=rss-d4d8839a88ef------2",
+      "summary": "Web performance issue — reoccurrence\nIn June we discovered that Treeherder’s UI slowdowns were due to database slow downs (For full details you can read ). After a couple of months of investigations, we did various changes to the RDS set up. The changes that made the most significant impact were…",
+      "author": "Armen Zambrano",
+      "publishedAt": "2020-01-30T16:08:09.000Z"
+    },
+    {
+      "guid": "mozilla-release-engineering::https://johanlorenzo.github.io/blog/2019/10/24/taskgraph-is-now-deployed-to-the-biggest-mozilla-mobile-projects.html",
+      "title": "Taskgraph is now deployed to the biggest mozilla-mobile projects",
+      "link": "https://johanlorenzo.github.io/blog/2019/10/24/taskgraph-is-now-deployed-to-the-biggest-mozilla-mobile-projects.html",
+      "summary": "The 3-minute-video\nContext\nTaskgraph, the tour\nIntroduction to taskgraph\nWhat’s next?\nFurther reading\nNeed any help?\nSpecial thanks\nComments\nSee the , if it doesn’t display up here.video there\nIt’s a fairly common practice to build and test every time someone makes a change in the code. In the…",
+      "author": null,
+      "publishedAt": "2019-10-24T12:24:01.000Z"
+    },
+    {
+      "guid": "mozilla-release-engineering::https://coopcoopbware.tumblr.com/post/173126143130",
+      "title": "New to me: the Taskcluster team",
+      "link": "https://coopcoopbware.tumblr.com/post/173126143130",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2018-04-20T13:03:00.000Z"
+    },
+    {
+      "guid": "mozilla-release-engineering::https://coopcoopbware.tumblr.com/post/170952242320",
+      "title": "Experiments in productivity: the shared bug queue",
+      "link": "https://coopcoopbware.tumblr.com/post/170952242320",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2018-02-16T20:42:49.000Z"
+    },
+    {
+      "guid": "mozilla-release-engineering::https://coopcoopbware.tumblr.com/post/170418932165",
+      "title": "Welcome, Connor!",
+      "link": "https://coopcoopbware.tumblr.com/post/170418932165",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2018-02-02T14:46:08.000Z"
+    },
+    {
+      "guid": "mozilla-release-engineering::https://coopcoopbware.tumblr.com/post/167698994970",
+      "title": "Work Week Logistics, Revisited",
+      "link": "https://coopcoopbware.tumblr.com/post/167698994970",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2017-11-20T15:14:01.000Z"
+    },
+    {
+      "guid": "mozilla-release-engineering::https://coopcoopbware.tumblr.com/post/167553827650",
+      "title": "Introducing The Developer Workflow Team",
+      "link": "https://coopcoopbware.tumblr.com/post/167553827650",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2017-11-16T14:12:16.000Z"
+    },
+    {
+      "guid": "mozilla-release-engineering::https://coopcoopbware.tumblr.com/post/166781825770",
+      "title": "Code sheriffing @ Mozilla: Past, Present, and Future",
+      "link": "https://coopcoopbware.tumblr.com/post/166781825770",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2017-10-25T15:04:22.000Z"
+    },
+    {
+      "guid": "mozilla-release-engineering::https://johanlorenzo.github.io/blog/2017/06/13/part-4-how-mozilla-publishes-apks-onto-google-play-store-in-a-reasonably-secure-and-automated-way.html",
+      "title": "Part 4: How Mozilla publishes APKs onto Google Play Store, in a reasonably secure and automated way",
+      "link": "https://johanlorenzo.github.io/blog/2017/06/13/part-4-how-mozilla-publishes-apks-onto-google-play-store-in-a-reasonably-secure-and-automated-way.html",
+      "summary": "The Release Engineering team fully-automated the publication of Firefox for Android in version 53.0. Let’s see what was already there and how things have changed since version 53.0.\nThe initial publication was the first big step of the project. The next big one will be to expand the release…",
+      "author": null,
+      "publishedAt": "2017-06-13T08:56:29.000Z"
+    },
+    {
+      "guid": "mozilla-release-engineering::https://johanlorenzo.github.io/blog/2017/06/12/part-3-how-mozilla-publishes-apks-onto-google-play-store-in-a-reasonably-secure-and-automated-way.html",
+      "title": "Part 3: How Mozilla publishes APKs onto Google Play Store, in a reasonably secure and automated way",
+      "link": "https://johanlorenzo.github.io/blog/2017/06/12/part-3-how-mozilla-publishes-apks-onto-google-play-store-in-a-reasonably-secure-and-automated-way.html",
+      "summary": "The Release Engineering team fully-automated the publication of Firefox for Android in version 53.0. Let’s see what was already there and how things have changed since version 53.0.\nThis part is more oriented to personal takeaways and a couple of questions that remain unanswered.\nA few checks done…",
+      "author": null,
+      "publishedAt": "2017-06-12T09:17:32.000Z"
+    },
+    {
+      "guid": "mozilla-release-engineering::https://johanlorenzo.github.io/blog/2017/06/07/part-2-how-mozilla-publishes-apks-onto-google-play-store-in-a-reasonably-secure-and-automated-way.html",
+      "title": "Part 2: How Mozilla publishes APKs onto Google Play Store, in a reasonably secure and automated way",
+      "link": "https://johanlorenzo.github.io/blog/2017/06/07/part-2-how-mozilla-publishes-apks-onto-google-play-store-in-a-reasonably-secure-and-automated-way.html",
+      "summary": "The Release Engineering team fully-automated the publication of Firefox for Android in version 53.0. Let’s see what was already there and how things have changed since version 53.0.\nMozilla, and more specifically the Release Engineering team, uses  to implement the Firefox release workflow. The…",
+      "author": null,
+      "publishedAt": "2017-06-07T12:24:18.000Z"
+    },
+    {
+      "guid": "mozilla-release-engineering::https://johanlorenzo.github.io/blog/2017/06/06/part-1-how-mozilla-publishes-apks-onto-google-play-store-in-a-reasonably-secure-and-automated-way.html",
+      "title": "Part 1: How Mozilla publishes APKs onto Google Play Store, in a reasonably secure and automated way",
+      "link": "https://johanlorenzo.github.io/blog/2017/06/06/part-1-how-mozilla-publishes-apks-onto-google-play-store-in-a-reasonably-secure-and-automated-way.html",
+      "summary": "The Release Engineering team fully-automated the publication of Firefox for Android in version 53.0. Let’s see what was already there and how things have changed since version 53.0.\nThis is true for desktop (Windows, Linux, Mac) and Android. However, we don’t ship that often to every user. We have…",
+      "author": null,
+      "publishedAt": "2017-06-06T13:25:59.000Z"
+    },
+    {
+      "guid": "mozilla-release-engineering::http://relengofthenerds.blogspot.com/2017/05/new-blog-location.html",
+      "title": "New blog location",
+      "link": "http://relengofthenerds.blogspot.com/2017/05/new-blog-location.html",
+      "summary": null,
+      "author": "Kim Moir",
+      "publishedAt": "2017-05-17T21:12:00.000Z"
+    },
+    {
+      "guid": "mozilla-release-engineering::https://coopcoopbware.tumblr.com/post/158362146735",
+      "title": "Shameless self (release) promotion: Firefox 53.0b1 from TaskCluster",
+      "link": "https://coopcoopbware.tumblr.com/post/158362146735",
+      "summary": null,
+      "author": null,
+      "publishedAt": "2017-03-13T19:17:17.000Z"
+    },
+    {
+      "guid": "mozilla-release-engineering::http://relengofthenerds.blogspot.com/2016/09/beyond-code-2016-recap.html",
+      "title": "Beyond the Code 2016 recap",
+      "link": "http://relengofthenerds.blogspot.com/2016/09/beyond-code-2016-recap.html",
+      "summary": null,
+      "author": "Kim Moir",
+      "publishedAt": "2016-09-30T13:10:00.000Z"
+    },
+    {
+      "guid": "mozilla-release-engineering::http://relengofthenerds.blogspot.com/2016/07/ottawa-python-authors-meetup-artificial.html",
+      "title": "Ottawa Python Authors Meetup: Artificial Intelligence with Python",
+      "link": "http://relengofthenerds.blogspot.com/2016/07/ottawa-python-authors-meetup-artificial.html",
+      "summary": null,
+      "author": "Kim Moir",
+      "publishedAt": "2016-07-29T19:06:00.000Z"
+    },
+    {
+      "guid": "mozilla-release-engineering::http://relengofthenerds.blogspot.com/2016/07/eclipse-committer-emeritus.html",
+      "title": "Eclipse Committer Emeritus",
+      "link": "http://relengofthenerds.blogspot.com/2016/07/eclipse-committer-emeritus.html",
+      "summary": null,
+      "author": "Kim Moir",
+      "publishedAt": "2016-07-29T19:06:00.000Z"
+    },
+    {
+      "guid": "mozilla-release-engineering::http://relengofthenerds.blogspot.com/2016/06/submissions-for-releng-2016-due-by-july.html",
+      "title": "Submissions for Releng 2016: due by July 1, 2016",
+      "link": "http://relengofthenerds.blogspot.com/2016/06/submissions-for-releng-2016-due-by-july.html",
+      "summary": null,
+      "author": "Kim Moir",
+      "publishedAt": "2016-06-03T18:11:00.000Z"
+    },
+    {
+      "guid": "mozilla-release-engineering::http://relengofthenerds.blogspot.com/2016/06/devopsdays-toronto-recap.html",
+      "title": "DevOpsDays Toronto recap",
+      "link": "http://relengofthenerds.blogspot.com/2016/06/devopsdays-toronto-recap.html",
+      "summary": null,
+      "author": "Kim Moir",
+      "publishedAt": "2016-06-02T20:28:00.000Z"
+    },
+    {
+      "guid": "mozilla-release-engineering::http://relengofthenerds.blogspot.com/2016/05/welcome-mozilla-releng-summer-interns.html",
+      "title": "Welcome Mozilla Releng summer interns",
+      "link": "http://relengofthenerds.blogspot.com/2016/05/welcome-mozilla-releng-summer-interns.html",
+      "summary": null,
+      "author": "Kim Moir",
+      "publishedAt": "2016-05-13T15:20:00.000Z"
+    },
+    {
+      "guid": "mozilla-release-engineering::http://relengofthenerds.blogspot.com/2016/03/releng-relops-weekly-highlights-march-4.html",
+      "title": "RelEng & RelOps Weekly highlights - March 4, 2016",
+      "link": "http://relengofthenerds.blogspot.com/2016/03/releng-relops-weekly-highlights-march-4.html",
+      "summary": null,
+      "author": "Kim Moir",
+      "publishedAt": "2016-03-07T15:56:00.000Z"
+    },
+    {
+      "guid": "mozilla-release-engineering::http://relengofthenerds.blogspot.com/2016/02/releng-relops-weekly-highlights.html",
+      "title": "RelEng & RelOps Weekly highlights - February 26, 2016",
+      "link": "http://relengofthenerds.blogspot.com/2016/02/releng-relops-weekly-highlights.html",
+      "summary": null,
+      "author": "Kim Moir",
+      "publishedAt": "2016-02-29T20:22:00.000Z"
+    },
+    {
+      "guid": "mozilla-release-engineering::http://relengofthenerds.blogspot.com/2016/01/tips-from-resume-nerd.html",
+      "title": "Tips from a resume nerd",
+      "link": "http://relengofthenerds.blogspot.com/2016/01/tips-from-resume-nerd.html",
+      "summary": null,
+      "author": "Kim Moir",
+      "publishedAt": "2016-01-08T20:37:00.000Z"
+    },
+    {
+      "guid": "mozilla-release-engineering::https://ftangftang.wordpress.com/2015/12/11/updates-for-nightly-on-windows/",
+      "title": "Updates for Nightly on Windows",
+      "link": "https://ftangftang.wordpress.com/2015/12/11/updates-for-nightly-on-windows/",
+      "summary": "You may have noticed that Windows has had no updates for Nightly for the last week or so. We’ve had a few issues with signing the binaries as part of moving from a SHA-1 certificate to SHA-2. This needs to be done because Windows won’t accept SHA-1 signed binaries from January 1 2016 (this is…",
+      "author": "Nick Thomas",
+      "publishedAt": "2015-12-10T15:57:46.000Z"
+    },
+    {
+      "guid": "mozilla-release-engineering::http://relengofthenerds.blogspot.com/2015/11/usenix-release-engineering-summit-2015.html",
+      "title": "USENIX Release Engineering Summit 2015 recap",
+      "link": "http://relengofthenerds.blogspot.com/2015/11/usenix-release-engineering-summit-2015.html",
+      "summary": null,
+      "author": "Kim Moir",
+      "publishedAt": "2015-11-24T15:57:00.000Z"
+    },
+    {
+      "guid": "mozilla-release-engineering::https://ftangftang.wordpress.com/2015/11/17/the-latest-on-firefoxreleaseslatest/",
+      "title": "The latest on firefox/releases/latest",
+      "link": "https://ftangftang.wordpress.com/2015/11/17/the-latest-on-firefoxreleaseslatest/",
+      "summary": "The primary way to download Firefox is at , but Mozilla’s Release Engineering team has also maintained directories likewww.mozilla.org\nhttps://ftp.mozilla.org/pub/firefox/releases/latest/\nto provide a stable location for scripted downloads. There are similar links for  and . Read on to learn how…",
+      "author": "Nick Thomas",
+      "publishedAt": "2015-11-16T23:37:53.000Z"
+    },
+    {
+      "guid": "mozilla-release-engineering::https://ftangftang.wordpress.com/2015/10/23/updates-disabled-for-android-nightly-and-aurora/",
+      "title": "Updates disabled for Android Nightly and Aurora",
+      "link": "https://ftangftang.wordpress.com/2015/10/23/updates-disabled-for-android-nightly-and-aurora/",
+      "summary": "Due to  with the new ftp server we’ve had to disable updates fora bug\nThey’ll resume just as soon as we can get the fix landed.\n Updates are re-enabled, thanks to Mike Shal for the fix.Update (Oct 25th):\n\nFirefox for Android Nightly\nFirefox for Android Aurora",
+      "author": "Nick Thomas",
+      "publishedAt": "2015-10-23T08:39:55.000Z"
+    },
+    {
+      "guid": "mozilla-release-engineering::https://ftangftang.wordpress.com/2015/10/21/try-server-please-use-up-to-date-code-to-avoid-upload-failures/",
+      "title": "Try Server – please use up-to-date code to avoid upload failures",
+      "link": "https://ftangftang.wordpress.com/2015/10/21/try-server-please-use-up-to-date-code-to-avoid-upload-failures/",
+      "summary": "Today we started serving an important set of directories on ftp.mozilla.org using Amazon S3, more details on that over in . Some configuration changes landed in the tree to make that happen.the newsgroups\nPlease rebase your try pushes to use revision  or later, currently on mozilla-inbound.…",
+      "author": "Nick Thomas",
+      "publishedAt": "2015-10-21T10:02:40.000Z"
+    },
+    {
+      "guid": "mozilla-release-engineering::http://relengofthenerds.blogspot.com/2015/09/the-mystery-of-high-pending-counts-and.html",
+      "title": "The mystery of high pending counts",
+      "link": "http://relengofthenerds.blogspot.com/2015/09/the-mystery-of-high-pending-counts-and.html",
+      "summary": null,
+      "author": "Kim Moir",
+      "publishedAt": "2015-09-25T19:47:00.000Z"
+    },
+    {
+      "guid": "mozilla-release-engineering::http://relengofthenerds.blogspot.com/2015/07/learning-data-science-and-evidence.html",
+      "title": "Learning Data Science and evidence based teaching methods",
+      "link": "http://relengofthenerds.blogspot.com/2015/07/learning-data-science-and-evidence.html",
+      "summary": null,
+      "author": "Kim Moir",
+      "publishedAt": "2015-07-17T15:41:00.000Z"
+    },
+    {
+      "guid": "mozilla-release-engineering::http://relengofthenerds.blogspot.com/2015/06/test-reduction-by-numbers.html",
+      "title": "Test job reduction by the numbers",
+      "link": "http://relengofthenerds.blogspot.com/2015/06/test-reduction-by-numbers.html",
+      "summary": null,
+      "author": "Kim Moir",
+      "publishedAt": "2015-06-16T20:52:00.000Z"
+    },
+    {
+      "guid": "mozilla-release-engineering::http://relengofthenerds.blogspot.com/2015/04/less-testing-same-great-firefox-taste.html",
+      "title": "Less testing, same great Firefox taste!",
+      "link": "http://relengofthenerds.blogspot.com/2015/04/less-testing-same-great-firefox-taste.html",
+      "summary": null,
+      "author": "Kim Moir",
+      "publishedAt": "2015-04-28T18:47:00.000Z"
+    },
+    {
+      "guid": "mozilla-release-engineering::http://relengofthenerds.blogspot.com/2015/06/mozilla-pushes-may-2015.html",
+      "title": "Mozilla pushes - May 2015",
+      "link": "http://relengofthenerds.blogspot.com/2015/06/mozilla-pushes-may-2015.html",
+      "summary": null,
+      "author": "Kim Moir",
+      "publishedAt": "2015-06-12T19:28:00.000Z"
+    },
+    {
+      "guid": "mozilla-release-engineering::http://relengofthenerds.blogspot.com/2015/05/mozilla-pushes-april-2015.html",
+      "title": "Mozilla pushes - April 2015",
+      "link": "http://relengofthenerds.blogspot.com/2015/05/mozilla-pushes-april-2015.html",
+      "summary": null,
+      "author": "Kim Moir",
+      "publishedAt": "2015-05-01T16:44:00.000Z"
+    },
+    {
+      "guid": "mozilla-release-engineering::http://relengofthenerds.blogspot.com/2015/04/releng-2015-program-now-available.html",
+      "title": "Releng 2015 program now available",
+      "link": "http://relengofthenerds.blogspot.com/2015/04/releng-2015-program-now-available.html",
+      "summary": null,
+      "author": "Kim Moir",
+      "publishedAt": "2015-04-28T19:54:00.000Z"
+    },
+    {
+      "guid": "mozilla-release-engineering::https://ftangftang.wordpress.com/2015/04/21/changes-coming-to-ftp-mozilla-org/",
+      "title": "Changes coming to ftp.mozilla.org",
+      "link": "https://ftangftang.wordpress.com/2015/04/21/changes-coming-to-ftp-mozilla-org/",
+      "summary": "ftp.mozilla.org has been around for a long time in the world of Mozilla, dating back to original source release in 1998. Originally it was a single server, but it’s grown into a cluster storing more than 60TB of data, and serving more than a gigabit/s in traffic. Many projects store their files…",
+      "author": "Nick Thomas",
+      "publishedAt": "2015-04-21T02:47:45.000Z"
+    },
+    {
+      "guid": "mozilla-release-engineering::http://relengofthenerds.blogspot.com/2015/04/mozilla-pushes-march-2015.html",
+      "title": "Mozilla pushes - March 2015",
+      "link": "http://relengofthenerds.blogspot.com/2015/04/mozilla-pushes-march-2015.html",
+      "summary": null,
+      "author": "Kim Moir",
+      "publishedAt": "2015-04-15T14:18:00.000Z"
+    },
+    {
+      "guid": "mozilla-release-engineering::http://relengofthenerds.blogspot.com/2015/03/scaling-yosemite.html",
+      "title": "Scaling Yosemite",
+      "link": "http://relengofthenerds.blogspot.com/2015/03/scaling-yosemite.html",
+      "summary": null,
+      "author": "Kim Moir",
+      "publishedAt": "2015-03-20T18:50:00.000Z"
+    }
+  ],
+  "totalIndexed": 50
+}

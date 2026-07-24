@@ -1,0 +1,53 @@
+{
+  "feedId": "james-long",
+  "feedName": "James Long",
+  "feedSiteUrl": "http://jlongster.com/archive",
+  "feedRssUrl": "https://archive.jlongster.com/atom.xml",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T06:53:11.414Z",
+  "items": [
+    {
+      "guid": "james-long::https://archive.jlongster.com/how-one-word-postgresql-performance",
+      "title": "How one word in PostgreSQL unlocked a 9x performance improvement",
+      "link": "https://archive.jlongster.com/how-one-word-postgresql-performance",
+      "summary": "At the very heart of Actual is a custom syncing engine. Recently I implemented full end-to-end encryption (not released yet) and it inspired me to audit the performance of the whole process. In the future I'll blog more about using CRDTs for syncing, but for now I'd like to talk about a PostgreSQL…",
+      "author": null,
+      "publishedAt": "2020-05-26T00:00:00.000Z"
+    },
+    {
+      "guid": "james-long::https://archive.jlongster.com/case-study-complex-table-design",
+      "title": "A case study of complex table design",
+      "link": "https://archive.jlongster.com/case-study-complex-table-design",
+      "summary": "I just released a new version of Actual and a big change is a rewrite of the budget table. It might not look like much, but it pays down a lot of technical debt and is a big improvement in many ways. The previous design resulted in a poor user experience despite good intentions. This is a look at…",
+      "author": null,
+      "publishedAt": "2020-05-06T00:00:00.000Z"
+    },
+    {
+      "guid": "james-long::https://archive.jlongster.com/joining-stripe",
+      "title": "Joining Stripe",
+      "link": "https://archive.jlongster.com/joining-stripe",
+      "summary": "I made a big change recently: I joined Stripe as a developer on a team that works on the dashboard. Today is my first day!\nFirst, let me say that I'm really excited. I talked to Alex Sexton 5 years ago about joining Stripe, but the timing wasn't quite right. It's always been on my list of companies…",
+      "author": null,
+      "publishedAt": "2020-04-06T00:00:00.000Z"
+    },
+    {
+      "guid": "james-long::https://archive.jlongster.com/wonderful-sound-atomic-commit",
+      "title": "The wonderful sound of an atomic commit",
+      "link": "https://archive.jlongster.com/wonderful-sound-atomic-commit",
+      "summary": "There's a horrifying realization as you work with software of how fragile it is. Failures can happen almost anywhere, and a lot of code isn't equipped to deal with it.\nWe can at least assume, in JavaScript, that when your code is executing it will keep executing until it either ends or waits for…",
+      "author": null,
+      "publishedAt": "2020-02-11T00:00:00.000Z"
+    },
+    {
+      "guid": "james-long::https://archive.jlongster.com/thinking-growth-profit",
+      "title": "Thinking about growth and profit",
+      "link": "https://archive.jlongster.com/thinking-growth-profit",
+      "summary": "I posted a follow-up twitter thread with a final spreadsheet and learnings.\nIn my last post I showed my process for forecasting costs and profits for Actual based on various metrics. This helps me find much-needed answers to questions like \"how much cost for acquiring users can I afford?\"\nI'm new…",
+      "author": null,
+      "publishedAt": "2020-01-09T00:00:00.000Z"
+    }
+  ],
+  "totalIndexed": 5
+}

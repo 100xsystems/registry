@@ -1,0 +1,101 @@
+{
+  "feedId": "scott-hanselman",
+  "feedName": "Scott Hanselman",
+  "feedSiteUrl": "http://www.hanselman.com/blog/",
+  "feedRssUrl": "http://feeds.hanselman.com/ScottHanselman",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T07:08:58.701Z",
+  "items": [
+    {
+      "guid": "https://www.hanselman.com/blog/post/449e1a01-a1f1-49c3-96eb-4695a08ecef1",
+      "title": "Is the craft dead?",
+      "link": "http://feeds.hanselman.com/~/945480746/0/scotthanselman~Is-the-craft-dead",
+      "summary": "The Japanese are really good at woodworking. And I love watching the Yankee workshop, my dad makes Native American bows and arrows completely from scratch in his workshop with trees that he finds. \nThis is all different from the stuff you get at IKEA, but I’ve been coding now for money for 35 years…",
+      "author": "Scott Hanselman",
+      "publishedAt": "2026-02-09T05:50:59.000Z"
+    },
+    {
+      "guid": "https://www.hanselman.com/blog/post/18a2f0d8-2090-4b71-ac9c-c0d592583e22",
+      "title": "The danger of glamourizing one shots",
+      "link": "http://feeds.hanselman.com/~/945480803/0/scotthanselman~The-danger-of-glamourizing-one-shots",
+      "summary": "People should not be judging AI-augmented coding by “1 shots.” \nIf someone told you that their model did a “one shot of Minecraft” and they’re impressed by that, you need to consider how much semantic heavy lifting the word “Minecraft” is doing in that prompt. \nAsk them to one shot Minecraft…",
+      "author": "Scott Hanselman",
+      "publishedAt": "2026-02-04T05:53:00.000Z"
+    },
+    {
+      "guid": "https://www.hanselman.com/blog/post/e6ac5a6a-1d2a-4ad2-b116-71ff0508b5c3",
+      "title": "Automatically Signing a Windows EXE with Azure Trusted Signing, dotnet sign, and GitHub Actions",
+      "link": "http://feeds.hanselman.com/~/930373259/0/scotthanselman~Automatically-Signing-a-Windows-EXE-with-Azure-Trusted-Signing-dotnet-sign-and-GitHub-Actions",
+      "summary": "Mac Tahoe (in Beta as of the time of this writing) has this new feature called Edge Light that basically puts a bright picture of an Edge Light around your screen and basically uses the power of OLED to give you a virtual ring light. So I was like, why can't we also have nice things? I wrote…",
+      "author": "Scott Hanselman",
+      "publishedAt": "2025-11-28T19:31:25.000Z"
+    },
+    {
+      "guid": "https://www.hanselman.com/blog/post/03c0598d-681d-4fad-914b-83c801a54801",
+      "title": "Webcam randomly pausing in OBS, Discord, and websites - LSVCam and TikTok Studio",
+      "link": "http://feeds.hanselman.com/~/905963465/0/scotthanselman~Webcam-randomly-pausing-in-OBS-Discord-and-websites-LSVCam-and-TikTok-Studio",
+      "summary": "I use my webcam constantly for streaming and I'm pretty familiar with all the internals and how the camera model on Windows works. I also use OBS extensively, so I regularly use the OBS virtual camera and flow everything through Open Broadcasting Studio. \n For my podcast, I use Zencastr which is a…",
+      "author": "Scott Hanselman",
+      "publishedAt": "2024-10-09T19:32:28.000Z"
+    },
+    {
+      "guid": "https://www.hanselman.com/blog/post/ed4f5c94-07d3-465c-96f1-776ba41b0099",
+      "title": "Open Sourcing DOS 4",
+      "link": "http://feeds.hanselman.com/~/882544025/0/scotthanselman~Open-Sourcing-DOS",
+      "summary": "See the canonical version of this blog post at the Microsoft Open Source Blog!  \nTen years ago, Microsoft released the source for MS-DOS 1.25 and 2.0 to the Computer History Museum, and then later republished them for reference purposes. This code holds an important place in history and is a…",
+      "author": "Scott Hanselman",
+      "publishedAt": "2024-04-25T16:46:13.000Z"
+    },
+    {
+      "guid": "https://www.hanselman.com/blog/post/815e0b55-f583-49a5-b01c-bd38197343f9",
+      "title": "Updating to .NET 8, updating to IHostBuilder, and running Playwright Tests within NUnit headless or headed on any OS",
+      "link": "http://feeds.hanselman.com/~/873234002/0/scotthanselman~Updating-to-NET-updating-to-IHostBuilder-and-running-Playwright-Tests-within-NUnit-headless-or-headed-on-any-OS",
+      "summary": "I've been doing not just Unit Testing for my sites but full on Integration Testing and Browser Automation Testing as early as 2007 with Selenium. Lately, however, I've been using the faster and generally more compatible Playwright. It has one API and can test on Windows, Linux, Mac, locally, in a…",
+      "author": "Scott Hanselman",
+      "publishedAt": "2024-03-07T01:12:13.000Z"
+    },
+    {
+      "guid": "https://www.hanselman.com/blog/post/7fbeba21-edbe-4af4-b909-26b6ba644546",
+      "title": "Using WSL and Let's Encrypt to create Azure App Service SSL Wildcard Certificates",
+      "link": "http://feeds.hanselman.com/~/749206136/0/scotthanselman~Using-WSL-and-Lets-Encrypt-to-create-Azure-App-Service-SSL-Wildcard-Certificates",
+      "summary": "There are many let's encrypt automatic tools for azure but I also wanted to see if I could use certbot in wsl to generate a wildcard certificate for the azure Friday website and then upload the resulting certificates to azure app service. \n Azure app service ultimately needs a specific format…",
+      "author": "Scott Hanselman",
+      "publishedAt": "2023-06-27T17:17:25.000Z"
+    },
+    {
+      "guid": "https://www.hanselman.com/blog/post/aa1cc05f-3910-471d-8686-68c749ec90ff",
+      "title": "GitHub Copilot for CLI for PowerShell",
+      "link": "http://feeds.hanselman.com/~/737271731/0/scotthanselman~GitHub-Copilot-for-CLI-for-PowerShell",
+      "summary": "GitHub Next has this cool project that is basically Copilot for the CLI (command line interface). You can sign up for their waitlist at the Copilot for CLI site.\n  \nCopilot for CLI provides three shell commands: ??, git? and gh?\n \nThis is cool and all, but I use PowerShell. Turns out these ??…",
+      "author": "Scott Hanselman",
+      "publishedAt": "2023-04-25T15:31:49.000Z"
+    },
+    {
+      "guid": "https://www.hanselman.com/blog/post/0c9c9a66-f3db-4e58-a1f3-c692b8ad64af",
+      "title": "Use your own user @ domain for Mastodon discoverability with the WebFinger Protocol without hosting a server",
+      "link": "http://feeds.hanselman.com/~/722495722/0/scotthanselman~Use-your-own-user-domain-for-Mastodon-discoverability-with-the-WebFinger-Protocol-without-hosting-a-server",
+      "summary": "Mastodon is a free, open-source social networking service that is decentralized and distributed. It was created in 2016 as an alternative to centralized social media platforms such as Twitter and Facebook. \nOne of the key features of Mastodon is the use of the WebFinger protocol, which allows users…",
+      "author": "Scott Hanselman",
+      "publishedAt": "2022-12-18T22:16:30.000Z"
+    },
+    {
+      "guid": "https://www.hanselman.com/blog/post/aba7f282-e752-48e8-8bf5-3c2e8c33c0e6",
+      "title": "I got tired",
+      "link": "http://feeds.hanselman.com/~/722495724/0/scotthanselman~I-got-tired",
+      "summary": "I have been blogging here for the last 20 years. Every Tuesday and Thursday, quite consistently, for two decades. But last year, without planning it, I got tired and stopped. Not sure why. It didn't correspond with any life events. Nothing interesting or notable happened. I just stopped.\n I did…",
+      "author": "Scott Hanselman",
+      "publishedAt": "2022-12-18T18:27:11.000Z"
+    },
+    {
+      "guid": "https://www.hanselman.com/blog/post/9632ddf9-403c-4319-bba6-4cb98bc7932b",
+      "title": "Using Home Assistant to integrate a Unifi Protect G4 Doorbell and Amazon Alexa to announce visitors",
+      "link": "http://feeds.hanselman.com/~/676711904/0/scotthanselman~Using-Home-Assistant-to-integrate-a-Unifi-Protect-G-Doorbell-and-Amazon-Alexa-to-announce-visitors",
+      "summary": "I am not a Home Assistant expert, but it's clearly a massive and powerful ecosystem. I've interviewed the creator of Home Assistant on my podcast and I encourage you to check out that chat.\n Home Assistant can quickly become a hobby that overwhelms you. Every object (entity) in your house that is…",
+      "author": "Scott Hanselman",
+      "publishedAt": "2021-12-14T21:36:00.000Z"
+    }
+  ],
+  "totalIndexed": 11
+}

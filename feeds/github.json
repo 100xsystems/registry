@@ -1,0 +1,93 @@
+{
+  "feedId": "github",
+  "feedName": "GitHub",
+  "feedSiteUrl": "https://githubengineering.com/",
+  "feedRssUrl": "https://github.blog/engineering.atom",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T06:50:23.933Z",
+  "items": [
+    {
+      "guid": "github::https://github.blog/engineering/the-cost-of-saying-yes-has-changed/",
+      "title": "The cost of saying yes has changed",
+      "link": "https://github.blog/engineering/the-cost-of-saying-yes-has-changed/",
+      "summary": "The most expensive part of a small feature request used to be writing the code. Now it’s usually the meeting about whether or not to write the code.\nThat’s a real shift, and it quietly breaks a lot of engineering instincts. Engineers learn early that most “small asks” aren’t small: they need tests,…",
+      "author": "Dalia Abuadas",
+      "publishedAt": "2026-07-17T16:46:47.000Z"
+    },
+    {
+      "guid": "github::https://github.blog/ai-and-ml/github-copilot/better-tools-made-copilot-code-review-worse-heres-how-we-actually-improved-it/",
+      "title": "Better tools made Copilot code review worse. Here&#8217;s how we actually improved it.",
+      "link": "https://github.blog/ai-and-ml/github-copilot/better-tools-made-copilot-code-review-worse-heres-how-we-actually-improved-it/",
+      "summary": "Give an agent better tools and it should do better work. That’s the instinct, anyway.\nWhen you open a pull request, Copilot code review reads the diff and explores the surrounding code to find the problems that matter before they ship. To do that, it used its own code exploration tools. So when we…",
+      "author": "Napalys Klicius",
+      "publishedAt": "2026-07-10T15:57:47.000Z"
+    },
+    {
+      "guid": "github::https://github.blog/ai-and-ml/github-copilot/automating-cross-repo-documentation-with-github-agentic-workflows/",
+      "title": "Automating cross-repo documentation with GitHub Agentic Workflows",
+      "link": "https://github.blog/ai-and-ml/github-copilot/automating-cross-repo-documentation-with-github-agentic-workflows/",
+      "summary": "“Where are the docs?” It’s a question nobody on a product team enjoys answering. The honest reply is usually some variant of “behind.” A writer is staring at a closed pull request, trying to reverse-engineer what changed. The pull request’s author has already moved on. By the time the doc actually…",
+      "author": "David Pine",
+      "publishedAt": "2026-07-08T21:11:56.000Z"
+    },
+    {
+      "guid": "github::https://github.blog/engineering/architecture-optimization/from-latency-to-instant-modernizing-github-issues-navigation-performance/",
+      "title": "From latency to instant: Modernizing GitHub Issues navigation performance",
+      "link": "https://github.blog/engineering/architecture-optimization/from-latency-to-instant-modernizing-github-issues-navigation-performance/",
+      "summary": "When you’re working through a backlog—opening an issue, jumping to a linked thread, then back to the list—latency isn’t just a metric. It’s a context switch. Even small delays add up, and they hit hardest at the exact moments developers are trying to stay in flow. It’s not that GitHub Issues was…",
+      "author": "Natalie Guevara",
+      "publishedAt": "2026-05-14T16:00:00.000Z"
+    },
+    {
+      "guid": "github::https://github.blog/engineering/infrastructure/how-github-uses-ebpf-to-improve-deployment-safety/",
+      "title": "How GitHub uses eBPF to improve deployment safety",
+      "link": "https://github.blog/engineering/infrastructure/how-github-uses-ebpf-to-improve-deployment-safety/",
+      "summary": "Did you know that, at GitHub, we host all of our own source code on github.com? We do this because we’re our own biggest customer—testing out changes internally before they go to users. However, there’s one downside: If github.com were ever to go down, we wouldn’t be able to access our own source…",
+      "author": "Lawrence Gripper",
+      "publishedAt": "2026-04-16T16:00:00.000Z"
+    },
+    {
+      "guid": "github::https://github.blog/engineering/architecture-optimization/the-uphill-climb-of-making-diff-lines-performant/",
+      "title": "The uphill climb of making diff lines performant",
+      "link": "https://github.blog/engineering/architecture-optimization/the-uphill-climb-of-making-diff-lines-performant/",
+      "summary": "Pull requests are the beating heart of GitHub. As engineers, this is where we spend a good portion of our time. And at GitHub’s scale—where pull requests can range from tiny one-line fixes to changes spanning thousands of files and millions of lines—the pull request review experience has to stay…",
+      "author": "Luke Ghenco",
+      "publishedAt": "2026-04-03T16:00:00.000Z"
+    },
+    {
+      "guid": "github::https://github.blog/ai-and-ml/github-copilot/agent-driven-development-in-copilot-applied-science/",
+      "title": "Agent-driven development in Copilot Applied Science",
+      "link": "https://github.blog/ai-and-ml/github-copilot/agent-driven-development-in-copilot-applied-science/",
+      "summary": "I may have just automated myself into a completely different job…\nThis is a familiar pattern among software engineers, who often, through inspiration, frustration, or sometimes even laziness, build systems to remove toil and focus on more creative work. We then end up owning and maintaining those…",
+      "author": "Tyler McGoffin",
+      "publishedAt": "2026-03-31T16:00:00.000Z"
+    },
+    {
+      "guid": "github::https://github.blog/ai-and-ml/github-copilot/continuous-ai-for-accessibility-how-github-transforms-feedback-into-inclusion/",
+      "title": "Continuous AI for accessibility: How GitHub transforms feedback into inclusion",
+      "link": "https://github.blog/ai-and-ml/github-copilot/continuous-ai-for-accessibility-how-github-transforms-feedback-into-inclusion/",
+      "summary": "For years, accessibility feedback at GitHub didn’t have a clear place to go.\nUnlike typical product feedback, accessibility issues don’t belong to any single team—they cut across the entire ecosystem. For example, a screen reader user might report a broken workflow that touches navigation,…",
+      "author": "Carie Fisher",
+      "publishedAt": "2026-03-12T16:00:00.000Z"
+    },
+    {
+      "guid": "github::https://github.blog/engineering/architecture-optimization/how-we-rebuilt-the-search-architecture-for-high-availability-in-github-enterprise-server/",
+      "title": "How we rebuilt the search architecture for high availability in GitHub Enterprise Server",
+      "link": "https://github.blog/engineering/architecture-optimization/how-we-rebuilt-the-search-architecture-for-high-availability-in-github-enterprise-server/",
+      "summary": "So much of what you interact with on GitHub depends on search—obviously the search bars and filtering experiences like the GitHub Issues page, but it is also the core of the releases page, projects page, the counts for issues and pull requests, and more. Given that search is such a core part of the…",
+      "author": "David Tippett",
+      "publishedAt": "2026-03-03T18:45:09.000Z"
+    },
+    {
+      "guid": "github::https://github.blog/engineering/from-pixels-to-characters-the-engineering-behind-github-copilot-clis-animated-ascii-banner/",
+      "title": "From pixels to characters: The engineering behind GitHub Copilot CLI’s animated ASCII banner",
+      "link": "https://github.blog/engineering/from-pixels-to-characters-the-engineering-behind-github-copilot-clis-animated-ascii-banner/",
+      "summary": "Most people think ASCII art is simple, and a nostalgic remnant of the early internet. But when the GitHub Copilot CLI team asked for a small entrance banner for the new command-line experience, they discovered the opposite: An ASCII animation in a real-world terminal is one of the most constrained…",
+      "author": "Aaron Winston",
+      "publishedAt": "2026-01-28T17:00:00.000Z"
+    }
+  ],
+  "totalIndexed": 10
+}

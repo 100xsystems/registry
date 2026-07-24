@@ -9,7 +9,7 @@
     "edge-computing",
     "nextjs"
   ],
-  "updatedAt": "2026-07-23T11:00:51.894Z",
+  "updatedAt": "2026-07-24T06:37:05.145Z",
   "items": [
     {
       "guid": "vercel-blog::https://vercel.com/changelog/ai-gateway-now-supports-streaming-transcription",
@@ -4010,7 +4010,55 @@
       "summary": "Vercel Sandbox now supports Node.js version 24.\nTo run a Sandbox with Node.js 24, upgrade  to version  or above and set the  property to :@vercel/sandbox1.1.0runtimenode24\nRead our  to learn more.Sandbox documentation\nRead more",
       "author": "Andy Waller",
       "publishedAt": "2025-12-10T13:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/evaluation-metrics-for-vercel-flags",
+      "title": "Evaluation metrics for Vercel Flags",
+      "link": "https://vercel.com/changelog/evaluation-metrics-for-vercel-flags",
+      "summary": "now shows a live evaluation view on each flag's detail page. You can see evaluations per minute charted over time, with each flag version marked in the chart so you can tie evaluation shifts to specific configuration changes.Vercel Flags\nYou can group and filter evaluations by variant, reason,…",
+      "author": "Luis Meyer",
+      "publishedAt": "2026-07-23T00:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/connect-to-and-manage-sandboxes-from-the-dashboard",
+      "title": "Connect to and manage Sandboxes from the dashboard",
+      "link": "https://vercel.com/changelog/connect-to-and-manage-sandboxes-from-the-dashboard",
+      "summary": "You can now connect to any running Sandbox from the Vercel dashboard. Run commands, browse the filesystem, upload and download files, and inspect open ports without leaving the browser.\nFrom the same view, you can also manage the sandbox lifecycle: take snapshots, and stop or resume persistent…",
+      "author": "Tom Lienard",
+      "publishedAt": "2026-07-23T00:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/inspect-feature-flag-history-with-vercel-cli",
+      "title": "Inspect feature flag history with Vercel CLI",
+      "link": "https://vercel.com/changelog/inspect-feature-flag-history-with-vercel-cli",
+      "summary": "version history can now be inspected from the Vercel CLI with the new  command.Vercel Flagsvercel flags versions\nRun  to print the full revision history for a flag, with each revision's author, message, timestamp, and changed environments. Filter to a specific environment with , paginate with  and…",
+      "author": "Chris Widmaier",
+      "publishedAt": "2026-07-23T00:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/github-tools-eve-extension",
+      "title": "GitHub tools are now an installable eve extension",
+      "link": "https://vercel.com/changelog/github-tools-eve-extension",
+      "summary": "You can now add  to your eve agent as an .GitHub toolsextension\nAdd the package, drop one file in , and your agent gets all 42 tools with Vercel Connect auth, presets, and approval rules built in.agent/extensions/\n :Install@github-tools/eve-extension\n :Then register it from a file…",
+      "author": "Hugo Richard",
+      "publishedAt": "2026-07-23T00:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/ling-3-0-flash-is-now-available-on-ai-gateway",
+      "title": "Ling 3.0 Flash is now available on AI Gateway",
+      "link": "https://vercel.com/changelog/ling-3-0-flash-is-now-available-on-ai-gateway",
+      "summary": "from Ant Group is now available on AI Gateway.Ling 3.0 Flash\nThe model is free to use for the next three weeks, through August 3rd.\nLing 3.0 Flash is a Mixture-of-Experts model with 124B total parameters and about 5.1B active per token. It has a 256K token context window and runs in thinking and…",
+      "author": "Jerilyn Zheng",
+      "publishedAt": "2026-07-23T00:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/vercel-mcp-can-now-deploy-code",
+      "title": "Vercel MCP can now deploy code",
+      "link": "https://vercel.com/changelog/vercel-mcp-can-now-deploy-code",
+      "summary": "The Vercel MCP server can now deploy code directly to a new or existing project. When your AI assistant finishes building something, it can ship it to Vercel and hand back a shareable URL without leaving the chat.\nPoint the  tool at your files and Vercel creates the project, detects the framework,…",
+      "author": "Josh Souphanthong",
+      "publishedAt": "2026-07-23T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 500
+  "totalIndexed": 506
 }

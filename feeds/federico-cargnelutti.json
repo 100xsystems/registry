@@ -1,0 +1,93 @@
+{
+  "feedId": "federico-cargnelutti",
+  "feedName": "Federico Cargnelutti",
+  "feedSiteUrl": "https://blog.fedecarg.com/",
+  "feedRssUrl": "https://blog.fedecarg.com/feed/",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T06:49:58.088Z",
+  "items": [
+    {
+      "guid": "http://blog.fedecarg.com/?p=2190",
+      "title": "Intercepting class method invocations using metaclass programming in Python",
+      "link": "https://blog.fedecarg.com/2018/10/08/intercepting-class-method-invocations-using-metaclass-programming-in-python/",
+      "summary": "In Ruby, objects have a handy method called method_missing which allows one to handle method calls for methods that have not been defined. Most examples out there explain how to implement this in Python using __getattr__, however, none of them (honestly, none) explain how to intercept class method…",
+      "author": "Federico",
+      "publishedAt": "2018-10-08T19:52:00.000Z"
+    },
+    {
+      "guid": "http://blog.fedecarg.com/?p=2211",
+      "title": "API Development Tips",
+      "link": "https://blog.fedecarg.com/2018/06/18/api-development-tips/",
+      "summary": "Organisations who are paying attention already know they need to have an open web API, and many already have under development or in the wild. Make sure you haven’t been caught by the pitfalls of many early API releases. Multiple points of failure: The 5 tips Test it all Plan for future versions…",
+      "author": "Federico",
+      "publishedAt": "2018-06-18T12:45:00.000Z"
+    },
+    {
+      "guid": "http://blog.fedecarg.com/?p=2109",
+      "title": "Collective Wisdom from the Experts",
+      "link": "https://blog.fedecarg.com/2018/06/06/collective-wisdom-from-the-experts/",
+      "summary": "I’ve finally had a chance to read a book I bought a while ago called “97 Things Every Software Architect Should Know – Collective Wisdom from the Experts“. Not the shortest title for a book, but very descriptive. I bought this book at the OSCON Conference in Portland last year. It’s an interesting…",
+      "author": "Federico",
+      "publishedAt": "2018-06-06T23:06:00.000Z"
+    },
+    {
+      "guid": "http://blog.fedecarg.com/?p=2393",
+      "title": "How to create a Data Container Component in React",
+      "link": "https://blog.fedecarg.com/2018/03/24/react-data-container-component-pattern/",
+      "summary": "One pattern I’ve used quite a lot while working with React at the BBC and Discovery Channel is the Data Container pattern. It became popular in the last couple of years thanks to libraries like Redux and Komposer. The idea is simple. When you build UI components in React you feed data into them via…",
+      "author": "Federico",
+      "publishedAt": "2018-03-24T14:31:38.000Z"
+    },
+    {
+      "guid": "http://blog.fedecarg.com/?p=2555",
+      "title": "How to pass variables to a Docker container when building a Node app",
+      "link": "https://blog.fedecarg.com/2016/11/05/how-to-pass-variables-to-a-docker-container-when-building-a-node-app/",
+      "summary": "Environment variables are declared with the ENV statement and are notated in the Dockerfile either with $VARIABLE_NAME or ${VARIABLE_NAME}. Passing variables at build-time The ENV instruction sets the environment variable to the value. The environment variables set using ENV will persist when a…",
+      "author": "Federico",
+      "publishedAt": "2016-11-05T21:42:00.000Z"
+    },
+    {
+      "guid": "http://blog.fedecarg.com/?p=2353",
+      "title": "Website performance monitoring tool",
+      "link": "https://blog.fedecarg.com/2016/08/01/website-performance-monitoring-open-source-tool/",
+      "summary": "Monitoring systems allow you to monitor changes to your front-end code base over time, catching any regression issues and monitoring the ongoing effects of any performance optimisation changes. Easy to use dashboards are a must when it comes to monitoring the state of your web apps. Companies like…",
+      "author": "Federico",
+      "publishedAt": "2016-08-01T16:54:00.000Z"
+    },
+    {
+      "guid": "http://blog.fedecarg.com/?p=2288",
+      "title": "Node.js: How to mock the imports of an ES6 module",
+      "link": "https://blog.fedecarg.com/2016/07/18/node-js-how-to-mock-the-imports-of-an-es6-module/",
+      "summary": "The package mock-require is useful if you want to mock require statements in Node.js. It has a simple API that allows you to mock anything, from a single exported function to a standard library. Here’s an example: app/config.js app/services/content.js test/services/content_spec.js",
+      "author": "Federico",
+      "publishedAt": "2016-07-18T21:58:00.000Z"
+    },
+    {
+      "guid": "http://blog.fedecarg.com/?p=2610",
+      "title": "Recommender Systems: Content-based, Social recommendations and Collaborative filtering",
+      "link": "https://blog.fedecarg.com/2016/06/26/recommender-systems-content-based-social-recommendations-and-collaborative-filtering/",
+      "summary": "With the proliferation of video on-demand streaming services, viewers face a big challenge: finding content across multiple screens and apps. There may be quality information available online but it may be difficult to find. Traditionally, viewers resort to “app switching” which can be frustrating…",
+      "author": "Federico",
+      "publishedAt": "2016-06-26T13:50:00.000Z"
+    },
+    {
+      "guid": "http://kewnode.wordpress.com/?p=1217",
+      "title": "Geo Proximity Search: The Haversine Equation",
+      "link": "https://blog.fedecarg.com/2014/12/08/geo-proximity-search-the-haversine-equation/",
+      "summary": "I’m working on a project that requires Geo proximity search. Basically, what I’m doing is plotting a radius around a point on a map, which is defined by the distance between two points on the map given their latitudes and longitudes. To achieve this I’m using the Haversine formula (spherical…",
+      "author": "Federico",
+      "publishedAt": "2014-12-08T11:48:00.000Z"
+    },
+    {
+      "guid": "http://blog.fedecarg.com/?p=2233",
+      "title": "Installing multiple versions of Ruby using RVM",
+      "link": "https://blog.fedecarg.com/2014/08/26/installing-multiple-versions-of-ruby-using-rvm/",
+      "summary": "Ruby Version Manager (RVM) is a tool that allows you to install multiple versions of Ruby and have multiple versions of the same interpreter. Very handy for those who have to maintain different applications using different versions of Ruby. To start, download RVM and install the latest stable…",
+      "author": "Federico",
+      "publishedAt": "2014-08-26T23:26:22.000Z"
+    }
+  ],
+  "totalIndexed": 10
+}

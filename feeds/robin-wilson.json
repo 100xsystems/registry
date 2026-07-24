@@ -1,0 +1,93 @@
+{
+  "feedId": "robin-wilson",
+  "feedName": "Robin Wilson",
+  "feedSiteUrl": "http://blog.rtwilson.com/",
+  "feedRssUrl": "https://blog.rtwilson.com/feed/",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T07:07:39.648Z",
+  "items": [
+    {
+      "guid": "https://blog.rtwilson.com/?p=1014",
+      "title": "How to decorate a simple but effective child’s birthday cake",
+      "link": "https://blog.rtwilson.com/how-to-decorate-a-simple-but-effective-childs-birthday-cake/",
+      "summary": "Welcome to anyone coming here from April Cools! I usually blog about things like cool geospatial tools, books I’ve read, Python packages I’ve created and more. But today, time for something different… I quite like making decorated birthday cakes (I’ll show some of my favourites at the end of this…",
+      "author": "Robin Wilson",
+      "publishedAt": "2026-03-31T23:00:06.000Z"
+    },
+    {
+      "guid": "https://blog.rtwilson.com/?p=1013",
+      "title": "How to bypass SSL for PROJ reprojection",
+      "link": "https://blog.rtwilson.com/how-to-bypass-ssl-for-proj-reprojection/",
+      "summary": "A friend was using GDAL’s ogr2ogr command to import some data to PostGIS recently, and as part of the import they were doing a reprojection of the data. They got the following error: PROJ: Cannot open https://cdn.proj.org/uk_os_OSTN15_NTv2_OSGBtoETRS.tif: schannel: the certificate or certificate…",
+      "author": "Robin Wilson",
+      "publishedAt": "2026-03-23T16:23:36.000Z"
+    },
+    {
+      "guid": "https://blog.rtwilson.com/?p=1009",
+      "title": "Pharmacy late-night opening hours analysis featured in the Financial Times",
+      "link": "https://blog.rtwilson.com/pharmacy-late-night-opening-hours-analysis-featured-in-the-financial-times/",
+      "summary": "Some data analysis I’ve done has been featured in the Financial Times today – see this article (the link may not work any more unless you have a FT subscription – sorry). The brief story is that I had terrible back pain over Christmas, and spoke to an out-of-hours GP on the phone who prescribed […]",
+      "author": "Robin Wilson",
+      "publishedAt": "2026-02-04T14:10:37.000Z"
+    },
+    {
+      "guid": "https://blog.rtwilson.com/?p=1008",
+      "title": "How to fix osm2pgrouting error ‘relation “__waysXXXX” does not exist’ and speed up the import",
+      "link": "https://blog.rtwilson.com/how-to-fix-osm2pgrouting-error-relation-__waysxxxx-does-not-exist-and-speed-up-the-import/",
+      "summary": "I don’t seem to have time or energy for long posts these days, but here’s another quick post which might save you some time and frustration. Recently, I’ve been trying to import OpenStreetMap data into a PostGIS database to use with pgRouting. I wanted to import data for the whole of England –…",
+      "author": "Robin Wilson",
+      "publishedAt": "2026-01-31T10:33:00.000Z"
+    },
+    {
+      "guid": "https://blog.rtwilson.com/?p=1006",
+      "title": "Today I Learned – in 2024 and 2025",
+      "link": "https://blog.rtwilson.com/today-i-learned-in-2024-and-2025/",
+      "summary": "A Discord server I use has a channel called #til, standing for Today I Learned. It’s a place to post interesting or surprising things you recently learned. I took my posts to that channel from the last couple of years, tidied them up and have listed them below. Hopefully you’ll find something…",
+      "author": "Robin Wilson",
+      "publishedAt": "2026-01-08T10:50:55.000Z"
+    },
+    {
+      "guid": "https://blog.rtwilson.com/?p=1001",
+      "title": "Favourite books I read in 2025",
+      "link": "https://blog.rtwilson.com/favourite-books-i-read-in-2025/",
+      "summary": "I really haven’t got much time or energy at the moment (I spent most of the Christmas break with an extremely painful back, which was exhausting and frustrating), but I wanted to post a very brief list of books I read this year. I read a total of 44 books this year, which includes re-reads […]",
+      "author": "Robin Wilson",
+      "publishedAt": "2026-01-05T16:25:50.000Z"
+    },
+    {
+      "guid": "https://blog.rtwilson.com/?p=997",
+      "title": "More links – June 2025",
+      "link": "https://blog.rtwilson.com/more-links-june-2025/",
+      "summary": "I’ve got into a bit of a habit of writing occasional posts with links to interesting things I’ve found (probably because it’s a relatively easy blog post to write). This is another of those posts – this time, written in June 2025. So, let’s get on with some links: Why COUNT(*) can be slow in […]",
+      "author": "Robin Wilson",
+      "publishedAt": "2025-06-12T12:10:07.000Z"
+    },
+    {
+      "guid": "https://blog.rtwilson.com/?p=995",
+      "title": "Learning resources for GIS in Python with cloud-native geospatial, PostGIS and more",
+      "link": "https://blog.rtwilson.com/learning-resources-for-gis-in-python-with-cloud-native-geospatial-postgis-and-more/",
+      "summary": "I recently gave a careers talk to students at Solent University, and through that I got to know a MSc student there who had previous GIS experience and was now doing a Data Analytics and AI MSc course. Her GIS experience was mostly in the ESRI stack (ArcGIS and related tools) and she was keen […]",
+      "author": "Robin Wilson",
+      "publishedAt": "2025-03-28T19:34:35.000Z"
+    },
+    {
+      "guid": "https://blog.rtwilson.com/?p=990",
+      "title": "A load more links",
+      "link": "https://blog.rtwilson.com/a-load-more-links/",
+      "summary": "I did a post a while back which was just a lot of links to things I found interesting, mostly in the geospatial/data/programming sphere. Since then I’ve collected a lot more links – so here are some of them. The theme, such as there is, seems to be ‘this would have really helped me about […]",
+      "author": "Robin Wilson",
+      "publishedAt": "2025-03-17T10:30:44.000Z"
+    },
+    {
+      "guid": "https://blog.rtwilson.com/?p=988",
+      "title": "My talk at FOSS4G UK South West 2024",
+      "link": "https://blog.rtwilson.com/my-talk-at-foss4g-uk-south-west-2025/",
+      "summary": "As always, this post is very delayed – apologies. In fact, I was encouraged to write this by a friend who I see at PyData Southampton (Hi, if you’re reading this!). I mentioned my talk in passing to her, and she asked if I’d blogged about it yet. I admitted that I hadn’t, and promised […]",
+      "author": "Robin Wilson",
+      "publishedAt": "2025-03-14T20:41:24.000Z"
+    }
+  ],
+  "totalIndexed": 10
+}

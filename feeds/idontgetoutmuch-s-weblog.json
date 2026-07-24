@@ -1,0 +1,93 @@
+{
+  "feedId": "idontgetoutmuch-s-weblog",
+  "feedName": "Idontgetoutmuch's Weblog",
+  "feedSiteUrl": "https://idontgetoutmuch.wordpress.com/",
+  "feedRssUrl": "https://idontgetoutmuch.wordpress.com/feed/",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T06:51:35.981Z",
+  "items": [
+    {
+      "guid": "http://idontgetoutmuch.wordpress.com/?p=1129",
+      "title": "Stochastic Systems, Fokker-Planck and the Heat Equation via Haskell",
+      "link": "https://idontgetoutmuch.wordpress.com/2020/04/26/stochastic-systems-fokker-planck-and-the-heat-equation-via-haskell/",
+      "summary": "This is a short example of taking a stochastic system, using Fokker-Planck to convert it to a PDES and using SUNDIALS to solve a 2D partial differential equation in Haskell via the hmatrix-sundials library. The example is taken from the C examples that come with the SUNDIALS source. Here’s the full…",
+      "author": "Dominic Steinitz",
+      "publishedAt": "2020-04-26T14:20:10.000Z"
+    },
+    {
+      "guid": "http://idontgetoutmuch.wordpress.com/?p=1125",
+      "title": "One Dimensional Heat Equation via SUNDIALS and Haskell",
+      "link": "https://idontgetoutmuch.wordpress.com/2019/10/22/one-dimensional-heat-equation-via-sundials-and-haskell/",
+      "summary": "This is a short example of how to use SUNDIALS to solve a simple partial differential equation in Haskell via the hmatrix-sundials library. The example is taken from the C examples that come with the SUNDIALS source. Here’s the full blog. I’ll give a better URL soonish.",
+      "author": "Dominic Steinitz",
+      "publishedAt": "2019-10-22T09:45:32.000Z"
+    },
+    {
+      "guid": "http://idontgetoutmuch.wordpress.com/?p=1123",
+      "title": "Naperian Functors meet surface sea temperatures",
+      "link": "https://idontgetoutmuch.wordpress.com/2019/04/18/naperian-functors-meet-surface-sea-temperatures/",
+      "summary": "Blog post on my new site.",
+      "author": "Dominic Steinitz",
+      "publishedAt": "2019-04-18T09:48:35.000Z"
+    },
+    {
+      "guid": "http://idontgetoutmuch.wordpress.com/?p=1121",
+      "title": "Data Science in Haskell: An example using temperature data from Thailand and Myanmar",
+      "link": "https://idontgetoutmuch.wordpress.com/2019/04/04/data-science-in-haskell-an-example-using-temperature-data-from-thailand-and-myanmar/",
+      "summary": "Blog post on my new site.",
+      "author": "Dominic Steinitz",
+      "publishedAt": "2019-04-04T15:52:52.000Z"
+    },
+    {
+      "guid": "http://idontgetoutmuch.wordpress.com/?p=1116",
+      "title": "Estimating Parameters in Chaotic Systems",
+      "link": "https://idontgetoutmuch.wordpress.com/2018/07/15/estimating-parameters-in-chaotic-systems/",
+      "summary": "Post available from my new site. Sadly WordPress doesn’t allow me to render the html exported by a Jupyter notebook.",
+      "author": "Dominic Steinitz",
+      "publishedAt": "2018-07-15T14:28:31.000Z"
+    },
+    {
+      "guid": "http://idontgetoutmuch.wordpress.com/?p=1113",
+      "title": "Cartography in Haskell",
+      "link": "https://idontgetoutmuch.wordpress.com/2018/05/19/cartography-in-haskell/",
+      "summary": "Introduction This blog started off life as a blog post on how I use nix but somehow transformed itself into a “how I do data visualisation” blog post. The nix is still here though quietly doing its work in the background. Suppose you want to analyze your local election results and visualize them…",
+      "author": "Dominic Steinitz",
+      "publishedAt": "2018-05-19T11:18:39.000Z"
+    },
+    {
+      "guid": "http://idontgetoutmuch.wordpress.com/?p=1108",
+      "title": "Workshop on Numerical Programming in Functional Languages (NPFL)",
+      "link": "https://idontgetoutmuch.wordpress.com/2018/04/23/1108/",
+      "summary": "I’m the chair this year for the first(!) ACM SIGPLAN International Workshop on Numerical Programming in Functional Languages (NPFL), which will be co-located with ICFP this September in St. Louis, Missouri, USA. Please consider submitting something! All you have to do is submit between half a page…",
+      "author": "Dominic Steinitz",
+      "publishedAt": "2018-04-23T15:54:27.000Z"
+    },
+    {
+      "guid": "http://idontgetoutmuch.wordpress.com/?p=1106",
+      "title": "Implicit Runge Kutta and GNU Scientific Library",
+      "link": "https://idontgetoutmuch.wordpress.com/2018/03/04/implicit-runge-kutta-and-gnu-scientific-library/",
+      "summary": "Introduction These are some very hasty notes on Runge-Kutta methods and IRK2 in particular. I make no apologies for missing lots of details. I may try and put these in a more digestible form but not today. Some Uncomprehensive Theory In general, an implicit Runge-Kutta method is given by where and…",
+      "author": "Dominic Steinitz",
+      "publishedAt": "2018-03-04T13:59:17.000Z"
+    },
+    {
+      "guid": "http://idontgetoutmuch.wordpress.com/?p=1100",
+      "title": "Reproducibility and Old Faithful",
+      "link": "https://idontgetoutmuch.wordpress.com/2018/02/25/reproducibility-and-old-faithful/",
+      "summary": "Introduction For the blog post still being written on variatonal methods, I referred to the still excellent Bishop (2006) who uses as his example data, the data available in R for the geyser in Yellowstone National Park called “Old Faithful”. While explaining this to another statistician, they…",
+      "author": "Dominic Steinitz",
+      "publishedAt": "2018-02-25T09:49:10.000Z"
+    },
+    {
+      "guid": "http://idontgetoutmuch.wordpress.com/?p=1090",
+      "title": "Haskell for Numerics?",
+      "link": "https://idontgetoutmuch.wordpress.com/2017/06/02/1090/",
+      "summary": "Introduction Summary Back in January, a colleague pointed out to me that GHC did not produce very efficient code for performing floating point abs. I have yet to produce a write-up of my notes about hacking on GHC: in summary it wasn’t as difficult as I had feared and the #ghc folks were extremely…",
+      "author": "Dominic Steinitz",
+      "publishedAt": "2017-06-02T15:47:12.000Z"
+    }
+  ],
+  "totalIndexed": 10
+}

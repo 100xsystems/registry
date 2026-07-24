@@ -1,0 +1,93 @@
+{
+  "feedId": "jerry-gamblin",
+  "feedName": "Jerry Gamblin",
+  "feedSiteUrl": "https://jerrygamblin.com/",
+  "feedRssUrl": "https://jerrygamblin.com/feed/",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T06:53:34.180Z",
+  "items": [
+    {
+      "guid": "https://jerrygamblin.com/?p=3557",
+      "title": "Hydrate, Hack, Repeat: Security Summer Camp 2026",
+      "link": "https://jerrygamblin.com/2026/07/22/hydrate-hack-repeat-security-summer-camp-2026/",
+      "summary": "My schedule, a new role at Empirical Security, and the CVE and vulnerability talks worth your time. It is almost the first week of August, which means it is time to point myself at the desert one more time. BSides Las Vegas, Black Hat, and DEF CON all land back to back, and for me it is the same…",
+      "author": "jgamblin",
+      "publishedAt": "2026-07-22T21:34:54.000Z"
+    },
+    {
+      "guid": "https://jerrygamblin.com/?p=3528",
+      "title": "CVE Mid-Year 2026 Check-In: Volume Vertical, Exploitation Rare",
+      "link": "https://jerrygamblin.com/2026/07/01/3528/",
+      "summary": "We are halfway through 2026, so it is time for the mid-year CVE check-in. The short version: the volume curve has gone vertical while exploitation has not. This review covers everything published in the first half of 2026 (Jan 1 – Jun 30, 2026), the volume, the severity, what is actually being…",
+      "author": "jgamblin",
+      "publishedAt": "2026-07-01T15:47:10.000Z"
+    },
+    {
+      "guid": "https://jerrygamblin.com/?p=3521",
+      "title": "Good Data For Bad Golf",
+      "link": "https://jerrygamblin.com/2026/05/13/good-data-for-bad-golf/",
+      "summary": "I play golf. I am not good at golf. But I have a Garmin Approach R10 launch monitor, a Python interpreter, and too much free time, so naturally I spent way more time building a dashboard to analyze my swing data than I did actually swinging a club. The result is jgamblin/golf, a self-hosted…",
+      "author": "jgamblin",
+      "publishedAt": "2026-05-13T14:05:06.000Z"
+    },
+    {
+      "guid": "https://jerrygamblin.com/?p=3512",
+      "title": "Prioritizing What Matters: Bringing CVE Intelligence to Splunk",
+      "link": "https://jerrygamblin.com/2026/04/18/prioritizing-what-matters-bringing-cve-intelligence-to-splunk/",
+      "summary": "I spend a significant amount of my time thinking about EPSS, CVSS, and the inherent gaps in how we prioritize vulnerabilities. We all know the drill: a 9.8 CRITICAL that remains unexploited shouldn’t jump the line ahead of a 7.5 HIGH that is being actively used in the wild. Closing that gap between…",
+      "author": "jgamblin",
+      "publishedAt": "2026-04-18T23:50:46.000Z"
+    },
+    {
+      "guid": "https://jerrygamblin.com/?p=3505",
+      "title": "2025 CVE Data Review",
+      "link": "https://jerrygamblin.com/2026/01/01/2025-cve-data-review/",
+      "summary": "2025 set a new baseline with 48,185 published CVEs. While the sheer volume is climbing, the median CVSS score remained surprisingly stable. We are seeing a distinct shift toward web application flaws (specifically in the CMS ecosystem) and a wider distribution of vendors, proving that…",
+      "author": "jgamblin",
+      "publishedAt": "2026-01-01T18:38:43.000Z"
+    },
+    {
+      "guid": "https://jerrygamblin.com/?p=3498",
+      "title": "A New Era of Transparency for CVE Data Quality",
+      "link": "https://jerrygamblin.com/2025/08/14/a-new-era-of-transparency-for-cve-data-quality/",
+      "summary": "I’m incredibly excited to finally share something I’ve been pouring my heart into at RogoLabs. For those of you who caught my talk at BSidesLV, you got a sneak peek, but today it’s official: CNAScorecard.org is live! For years, the CVE program has been our shared language for identifying…",
+      "author": "jgamblin",
+      "publishedAt": "2025-08-14T00:43:12.000Z"
+    },
+    {
+      "guid": "https://jerrygamblin.com/?p=3486",
+      "title": "Vegas Bound for Security Summer Camp!",
+      "link": "https://jerrygamblin.com/2025/07/30/vegas-bound-for-security-summer-camp/",
+      "summary": "It’s that time of year again! The first week of August means my annual trip to the desert for “Security Summer Camp”—the whirlwind of BSides Las Vegas, Black Hat, and DEF CON. It’s always an exhausting but amazing week, and I can’t wait to dive in, catch up with everyone, and talk about what I’ve…",
+      "author": "jgamblin",
+      "publishedAt": "2025-07-30T18:05:00.000Z"
+    },
+    {
+      "guid": "http://54.226.178.109/?p=3458",
+      "title": "2024 CVE Data Review",
+      "link": "https://jerrygamblin.com/2025/01/05/2024-cve-data-review/",
+      "summary": "2024 brought unprecedented growth in CVE data, so I figured it would be appropriate to start the new year by exploring these statistics and highlighting some of the more intriguing data points. CVEs By The Numbers We ended 2024 with 40,009 published CVEs, up over 38% from the 28,818 CVEs published…",
+      "author": "jgamblin",
+      "publishedAt": "2025-01-05T00:04:57.000Z"
+    },
+    {
+      "guid": "http://54.226.178.109/?p=3453",
+      "title": "Celebrating 25 Years of CVE’s",
+      "link": "https://jerrygamblin.com/2024/10/30/celebrating-25-years-of-cves/",
+      "summary": "The Common Vulnerabilities and Exposures (CVE) program, launched in late October 1999, has not only marked its presence but has become a pivotal force in shaping how we perceive and manage cybersecurity threats. A Journey Through Time The CVE program emerged as a beacon, standardizing how…",
+      "author": "jgamblin",
+      "publishedAt": "2024-10-30T13:15:44.000Z"
+    },
+    {
+      "guid": "http://54.226.178.109/?p=3433",
+      "title": "Who Is Going To Enrich CVEs?",
+      "link": "https://jerrygamblin.com/2024/05/30/who-is-going-to-enrich-cves/",
+      "summary": "The Last 100+ Days The NVD posted the notice below on its webpage in mid-February. Since then, nearly 13,000 CVEs have not been enriched with CWE, CVSS, and CPE data.  The vulnerability management community was told that it would be addressed at Vulncon this year. At the conference, we were told…",
+      "author": "jgamblin",
+      "publishedAt": "2024-05-30T20:17:49.000Z"
+    }
+  ],
+  "totalIndexed": 10
+}

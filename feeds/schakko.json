@@ -1,0 +1,93 @@
+{
+  "feedId": "schakko",
+  "feedName": "Schakko",
+  "feedSiteUrl": "https://schakko.de",
+  "feedRssUrl": "https://www.schakko.de/feed/",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T07:08:53.318Z",
+  "items": [
+    {
+      "guid": "https://www.schakko.de/?p=3704",
+      "title": "Unknown status LTE_DIA_IP with FRITZ!Box 6850 LTE and Telekom MagentaMobil Business",
+      "link": "https://www.schakko.de/2025/05/21/unknown-status-lte_dia_ip-with-fritzbox-6850-lte-and-telekom-magentamobil-business/",
+      "summary": "This is one of those times when I feel pretty stupid.We booked the MagentaMobil Business Speedbox Flex tariff from Telekom for a company event. As the Speedbox wasn’t available and the event was taking place soon, we booked a FRITZ!Box 6850 LTE at short notice. After inserting the SIM card […]\nThe…",
+      "author": "Schakko",
+      "publishedAt": "2025-05-21T08:14:37.000Z"
+    },
+    {
+      "guid": "https://www.schakko.de/?p=3694",
+      "title": "Migrating from 2 TByte SSD with MBR to 4 TByte with GPT",
+      "link": "https://www.schakko.de/2024/12/19/migrating-from-2-tbyte-ssd-with-mbr-to-4-tbyte-with-gpt/",
+      "summary": "Yesterday I wanted to replace my 2 TByte SSD with a 4 TByte model as I was running out of hard drive space. My last upgrade two years ago from 1 TByte to 2 TByte went smoothly: I cloned the old SSD to the new SSD and then extended the […]\nThe post Migrating from 2 TByte SSD with MBR to 4 TByte with…",
+      "author": "Schakko",
+      "publishedAt": "2024-12-19T11:04:54.000Z"
+    },
+    {
+      "guid": "https://www.schakko.de/?p=3659",
+      "title": "Fixing “Guided Access app unavailable. Please contact your administrator” when using Microsoft Intune and Endpoint Manager",
+      "link": "https://www.schakko.de/2022/03/16/fixing-guided-access-app-unavailable-please-contact-your-administrator-when-using-microsoft-intune-and-endpoint-manager/",
+      "summary": "Another problem I had recently asked about, had been a failed iPhone MDM rollout. As in my previous blog post mentioned, the endpoints in the environment – including iPhones – are managed with Microsoft Endpoint Manager. During one of the iPhone deployments, the user received the error Guided…",
+      "author": "Schakko",
+      "publishedAt": "2022-03-16T15:30:43.000Z"
+    },
+    {
+      "guid": "https://www.schakko.de/?p=3644",
+      "title": "Distributing Adobe Acrobat DC with Microsoft Intune  and Endpoint Manager",
+      "link": "https://www.schakko.de/2021/12/07/distributing-adobe-acrobat-dc-with-microsoft-intune-and-endpoint-manager/",
+      "summary": "Lately, I had been asked to help out with the deployment Adobe Acrobat DC to Microsoft Intune-managed notebooks. Getting out of my system design/software architecture bubble turned out to be an interesting experience. First of all some background: All notebooks are managed by Microsoft Intune…",
+      "author": "Schakko",
+      "publishedAt": "2021-12-07T11:18:34.000Z"
+    },
+    {
+      "guid": "https://www.schakko.de/?p=3639",
+      "title": "Deploying PHP 8.0 applications with Azure App Service",
+      "link": "https://www.schakko.de/2021/09/08/deploying-php-8-0-applications-with-azure-app-service/",
+      "summary": "To be able to run PHP applications on Azure App Services which are using PHP 8.0 features, the Runtime Stack has to be changed. With the newer Runtime Stack, you also have to update the nginx.conf of the underlying Docker image. This article describes how you can achieve that. 2023-03-28: […]\nThe…",
+      "author": "Schakko",
+      "publishedAt": "2021-09-08T11:45:14.000Z"
+    },
+    {
+      "guid": "https://www.schakko.de/?p=3622",
+      "title": "Using GitHub Workflow with Maven dependencices from a private GitHub Package Registry",
+      "link": "https://www.schakko.de/2020/12/19/using-github-workflow-with-maven-dependencies-from-a-private-github-package-registry/",
+      "summary": "GitHhub Package Repository provides an easy way to share dependencies like Maven artifacts between GitHub projects. Publishing of new artifacts into GitHub Package Repository can be automated with GitHub Actions. In May 2019 GitHub introduced the GitHub Package Registry: an alternative to some…",
+      "author": "Schakko",
+      "publishedAt": "2020-12-19T11:08:46.000Z"
+    },
+    {
+      "guid": "https://www.schakko.de/?p=3616",
+      "title": "Diagnosing and fixing an ERR_CONNECTION_RESET error in WordPress",
+      "link": "https://www.schakko.de/2020/12/14/diagnosing-and-fixing-an-err_connection_reset-error-in-wordpress/",
+      "summary": "If you receive the error ERR_CONNECTION_RESET on one website only, it is highly likely that something went wrong on the server side. Receiving random ERR_CONNECTION_RESETs A few weeks ago one of my colleagues complained to me: Sometimes, when he was using the WordPress theme editor, he either…",
+      "author": "Schakko",
+      "publishedAt": "2020-12-14T19:37:31.000Z"
+    },
+    {
+      "guid": "https://www.schakko.de/?p=3572",
+      "title": "Fixing HTTP 401 Unauthorized when calling WooCommerce’s REST API",
+      "link": "https://www.schakko.de/2020/09/05/fixing-http-401-unauthorized-when-calling-woocommerces-rest-api/",
+      "summary": "WooCommerce returns an HTTP 401 error if you are not using HTTPS or the Authorization header is not parsed correctly by your webserver. Receiving HTTP 401 during authentication WooCommerce provides an extensive REST API with which you can automate your WordPress WooCommerce shop. WooCommerce uses a…",
+      "author": "Schakko",
+      "publishedAt": "2020-09-05T11:39:45.000Z"
+    },
+    {
+      "guid": "https://www.schakko.de/?p=3557",
+      "title": "My software developer’s journey of narrowing down thought constructs I believe in",
+      "link": "https://www.schakko.de/2020/08/30/my-software-developers-journey-of-narrowing-down-thought-constrcuts-i-believe-in/",
+      "summary": "If you are following me on Twitter, you might have seen a change of content in my tweets. It’s more about making money and value. There are a ton of reasons why this has happened and I’ll try to explain some of it. Before I get into it, a disclaimer: […]\nThe post My software developer’s journey of…",
+      "author": "Schakko",
+      "publishedAt": "2020-08-30T11:55:15.000Z"
+    },
+    {
+      "guid": "https://www.schakko.de/?p=3549",
+      "title": "Restrict SSH to rsync for deploying files with GitHub Actions",
+      "link": "https://www.schakko.de/2020/07/20/restrict-ssh-to-rsync-for-deploying-files-with-github-actions/",
+      "summary": "rsync access can be restricted with a custom wrapper script or an official script named “rrsync”. Access to your remote filesystem should always be restricted so you won’t leak any information in case of a security breach. I’ve used GitHub Actions a lot in the last few months. For web […]\nThe post…",
+      "author": "Schakko",
+      "publishedAt": "2020-07-20T07:32:08.000Z"
+    }
+  ],
+  "totalIndexed": 10
+}

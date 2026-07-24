@@ -1,0 +1,93 @@
+{
+  "feedId": "findmypast",
+  "feedName": "Findmypast",
+  "feedSiteUrl": "http://tech.findmypast.com/",
+  "feedRssUrl": "https://tech.findmypast.com/feed.xml",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T06:50:06.974Z",
+  "items": [
+    {
+      "guid": "https://tech.findmypast.com/how-spanners-implement-devops/",
+      "title": "DevOps at Findmypast: How Spanners implement DevOps Practices",
+      "link": "https://tech.findmypast.com/how-spanners-implement-devops/",
+      "summary": "Introduction\nThere are many ways to define DevOps and even more ways to implement its core principles within an organisation. To the Spanners team, DevOps is an iterative and collaborative approach to the development, testing, deployment and monitoring of software services. Overall, there is a…",
+      "author": null,
+      "publishedAt": "2023-08-21T17:30:00.000Z"
+    },
+    {
+      "guid": "https://tech.findmypast.com/postgres-database-upgrades/",
+      "title": "DevOps at Findmypast: Postgres Database Upgrades",
+      "link": "https://tech.findmypast.com/postgres-database-upgrades/",
+      "summary": "Introduction\nFindmypast and its sister site; the British Newspaper Archive (BNA), are served by a web of microservices operating across multiple Kubernetes clusters. A number of our microservices rely upon a back-end database, and although we do operate other database technologies (MSSQL, MongoDB…",
+      "author": null,
+      "publishedAt": "2022-11-17T11:30:00.000Z"
+    },
+    {
+      "guid": "https://tech.findmypast.com/datsci-tree-structure-analysis/",
+      "title": "Data Science at FMP: Tree Structure Analysis",
+      "link": "https://tech.findmypast.com/datsci-tree-structure-analysis/",
+      "summary": "Introduction\nA key part of our product is the ability to build family trees on our site.\nTo better understand how our customers are building and using the tree features we wanted to work out what sort of structure the trees generally have and answer questions like how many generations do users…",
+      "author": null,
+      "publishedAt": "2022-08-09T00:00:00.000Z"
+    },
+    {
+      "guid": "https://tech.findmypast.com/scaling-fmp-part-3/",
+      "title": "Scaling Findmypast for 1921 Census release - Part 3",
+      "link": "https://tech.findmypast.com/scaling-fmp-part-3/",
+      "summary": "Findmypast (FMP) released the 1921 Census of England & Wales at midnight on Jan 6th 2022 to an eager community of genealogists. The preparation of the census - preservation, digitisation and transcription took three years of hard work. Aside from the data preparation, we also had technical…",
+      "author": null,
+      "publishedAt": "2022-04-26T00:00:00.000Z"
+    },
+    {
+      "guid": "https://tech.findmypast.com/testing-libraray-byrole-performance-improvements/",
+      "title": "Testing Library ByRole Performance Improvements",
+      "link": "https://tech.findmypast.com/testing-libraray-byrole-performance-improvements/",
+      "summary": "We use Testing Library to test our React UI pages and components.\nFor example, we may have the following HelpFaqsTile component in a page:\n\nconst HelpFaqsTile = () => (\n  <CardWithStyleOverrides data-testid=\"help-faqs-tile\">\n    <DashboardImage…",
+      "author": null,
+      "publishedAt": "2022-04-13T00:00:00.000Z"
+    },
+    {
+      "guid": "https://tech.findmypast.com/team-diversity/",
+      "title": "Team Diversity",
+      "link": "https://tech.findmypast.com/team-diversity/",
+      "summary": "Team Diversity\nOn-line meetings have their advantages and disadvantages; I think most of us are feeling a little “zoomed out” through the Covid-19 lock downs. But, one useful feature is the ability to see all the faces of our Product and Design team, side-by-side on my screen each week for on our…",
+      "author": null,
+      "publishedAt": "2022-03-24T00:00:00.000Z"
+    },
+    {
+      "guid": "https://tech.findmypast.com/scaling-fmp-part-2/",
+      "title": "Scaling Findmypast for 1921 Census release - Part 2",
+      "link": "https://tech.findmypast.com/scaling-fmp-part-2/",
+      "summary": "Findmypast (FMP) released the 1921 Census of England & Wales at midnight on Jan 6th 2022 to an eager community of genealogists. The preparation of the census - preservation, digitisation and transcription took three years of hard work. Aside from the data preparation, we also had technical…",
+      "author": null,
+      "publishedAt": "2022-03-02T00:00:00.000Z"
+    },
+    {
+      "guid": "https://tech.findmypast.com/scaling-fmp-part-1/",
+      "title": "Scaling Findmypast for 1921 Census release - Part 1",
+      "link": "https://tech.findmypast.com/scaling-fmp-part-1/",
+      "summary": "Findmypast (FMP) released the 1921 Census of England & Wales at midnight on Jan 6th 2022 to an eager community of genealogists. The preparation of the census - preservation, digitisation and transcription took three years of hard work. Aside from the data preparation, we also had technical…",
+      "author": null,
+      "publishedAt": "2022-01-31T00:00:00.000Z"
+    },
+    {
+      "guid": "https://tech.findmypast.com/datsci-dataset-rec0/",
+      "title": "Data Science at FMP: Dataset Recommendation",
+      "link": "https://tech.findmypast.com/datsci-dataset-rec0/",
+      "summary": "Problem Outline\nOne of the problems we recently tackled in the data science team was how we could introduce our users to new datasets they may not be familiar with. We wanted these datasets to be personal to each user and relevant to their research areas. A recommendation system of some sort was…",
+      "author": null,
+      "publishedAt": "2021-12-23T00:00:00.000Z"
+    },
+    {
+      "guid": "https://tech.findmypast.com/datsci-network-science/",
+      "title": "Data Science at FMP: Network Science",
+      "link": "https://tech.findmypast.com/datsci-network-science/",
+      "summary": "Data Science at FMP\nFindmypast is at the forefront of facilitating historical, and in particular, genealogical research. This has been achieved by embracing advances in technology that have allowed us to digitise vast quantities of records and make these easily available online. The result is a…",
+      "author": null,
+      "publishedAt": "2021-08-23T00:00:00.000Z"
+    }
+  ],
+  "totalIndexed": 10
+}

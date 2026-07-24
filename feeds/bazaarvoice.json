@@ -1,0 +1,93 @@
+{
+  "feedId": "bazaarvoice",
+  "feedName": "Bazaarvoice",
+  "feedSiteUrl": "https://blog.developer.bazaarvoice.com/",
+  "feedRssUrl": "https://blog.developer.bazaarvoice.com/feed/",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T06:44:58.520Z",
+  "items": [
+    {
+      "guid": "https://blog.developer.bazaarvoice.com/?p=2005",
+      "title": "Connecting User Generated Content to Loyalty Engines",
+      "link": "https://blog.developer.bazaarvoice.com/2026/06/25/connecting-user-generated-content-to-loyalty-engines/",
+      "summary": "In the modern e-commerce stack, User-Generated Content (UGC) and Loyalty Programs are often treated as separate silos. One captures the voice of the customer (Ratings, Reviews, Q&A); the other manages the economy of retention. For brands and retailers, the challenge isn’t just “collecting…",
+      "author": "Govinda Vyas",
+      "publishedAt": "2026-06-25T15:50:07.000Z"
+    },
+    {
+      "guid": "https://blog.developer.bazaarvoice.com/?p=1996",
+      "title": "Crafting a Perfect Product Catalog",
+      "link": "https://blog.developer.bazaarvoice.com/2026/01/29/crafting-a-perfect-product-catalog/",
+      "summary": "Your product catalog is the definitive source of truth for your online presence, especially when managing User-Generated Content (UGC) like ratings and reviews. For Bazaarvoice clients, a meticulously maintained catalog is vital for seamless integration and flawless display. This post explores…",
+      "author": "Shashank Khatri",
+      "publishedAt": "2026-01-29T11:33:26.000Z"
+    },
+    {
+      "guid": "https://blog.developer.bazaarvoice.com/?p=1974",
+      "title": "BV Hosted Display – The New Baseline for CWV metrics",
+      "link": "https://blog.developer.bazaarvoice.com/2025/09/23/bv-hosted-display-the-new-baseline-for-cwv-metrics/",
+      "summary": "The Old Way vs. The Reality of Your Customers For years, the gold standard for benchmarking web performance, particularly for Google’s Core Web Vitals (CWV), has been a mobile device baseline—specifically, a throttled connection and CPU designed to simulate a Moto G4. This approach was established…",
+      "author": "Veda",
+      "publishedAt": "2025-09-23T07:51:42.000Z"
+    },
+    {
+      "guid": "https://blog.developer.bazaarvoice.com/?p=1961",
+      "title": "Optimizing Third-Party Content Delivery: A Deep Dive into Preconnect’s Performance and Call Cost Implications",
+      "link": "https://blog.developer.bazaarvoice.com/2025/09/23/optimizing-third-party-content-delivery-a-deep-dive-into-preconnects-performance-and-call-cost-implications/",
+      "summary": "This document details how preconnect improves web performance, especially for Bazaarvoice's third-party content, by accelerating connection setups and reducing LCP. Crucially, internal testing confirmed preconnect operations are not counted as API calls, validating a \"no count, low cost\" model—a…",
+      "author": "Veda",
+      "publishedAt": "2025-09-23T07:48:40.000Z"
+    },
+    {
+      "guid": "https://blog.developer.bazaarvoice.com/?p=1954",
+      "title": "How We Migrated Millions of UGC Records to Aurora MySQL",
+      "link": "https://blog.developer.bazaarvoice.com/2025/08/25/how-we-migrated-millions-of-ugc-records-to-aurora-mysql/",
+      "summary": "Discover how Bazaarvoice migrated millions of UGC records from RDS MySQL to AWS Aurora – at scale and with minimal user impact. Learn about the technical challenges, strategies, and outcomes that enabled this ambitious transformation in reliability, performance, and cost efficiency Bazaarvoice…",
+      "author": "Kovi",
+      "publishedAt": "2025-08-25T10:42:12.000Z"
+    },
+    {
+      "guid": "https://blog.developer.bazaarvoice.com/?p=1949",
+      "title": "Semantically Compress Text to Save On LLM Costs",
+      "link": "https://blog.developer.bazaarvoice.com/2024/10/28/semantically-compress-text-to-save-on-llm-costs/",
+      "summary": "Introduction Large language models are fantastic tools for unstructured text, but what if your text doesn’t fit in the context window? Bazaarvoice faced exactly this challenge when building our AI Review Summaries feature: millions of user reviews simply won’t fit into the context window of even…",
+      "author": "Lou Kratz",
+      "publishedAt": "2024-10-28T13:34:46.000Z"
+    },
+    {
+      "guid": "https://blog.developer.bazaarvoice.com/?p=1912",
+      "title": "How Bazaarvoice UGC APIs serve information to its brand & retailers",
+      "link": "https://blog.developer.bazaarvoice.com/2024/05/06/how-bazaarvoice-ugc-apis-serves-information-to-its-brand-retailers/",
+      "summary": "Bazaarvoice has thousands of clients including brands and retailers. Bazaarvoice has billions of records of product catalog and User Generated Content(UGC)from Bazaarvoice clients. When a shopper visits a brand or retailer site/app powered by Bazaarvoice, our APIs are triggered. In 2023,Bazaarvoice…",
+      "author": "Udayaram Kammara",
+      "publishedAt": "2024-05-06T11:57:33.000Z"
+    },
+    {
+      "guid": "https://blog.developer.bazaarvoice.com/?p=1926",
+      "title": "Cloud-Native Marvel: Driving 6 Million Daily Notifications!",
+      "link": "https://blog.developer.bazaarvoice.com/2024/04/24/cloud-native-marvel-driving-6-million-daily-notifications/",
+      "summary": "Bazaarvoice notification system stands as a testament to cutting-edge technology, designed to seamlessly dispatch transactional email messages (post-interaction email or PIE) on behalf of our clients. The heartbeat of our system lies in the constant influx of new content, driven by active content…",
+      "author": "Someswar Bhowmick",
+      "publishedAt": "2024-04-24T10:24:56.000Z"
+    },
+    {
+      "guid": "https://blog.developer.bazaarvoice.com/?p=1907",
+      "title": "My First 4 months at Bazaarvoice as a DevOps Engineer",
+      "link": "https://blog.developer.bazaarvoice.com/2024/03/18/my-first-4-months-at-bazaarvoice-as-a-devops-engineer/",
+      "summary": "I joined Bazaarvoice as a DevOps engineer into the Cloud engineering team in September 2023. It has been a very busy first 4 months learning a lot in terms of technical and soft skills. In this post I have highlighted my key learnings from my start at BV. Communication One of the key takeaways I […]",
+      "author": "Edward Davies",
+      "publishedAt": "2024-03-18T13:34:17.000Z"
+    },
+    {
+      "guid": "https://blog.developer.bazaarvoice.com/?p=1878",
+      "title": "Can You Keep a Secret?",
+      "link": "https://blog.developer.bazaarvoice.com/2024/01/17/can-you-keep-a-secret/",
+      "summary": "We all have secrets. Sometimes, these are guilty pleasures that we try to keep hidden, like watching cheesy reality TV or indulging in strange comfort food. We often worry: “How do we keep the secret safe?” “What could happen if someone finds out the secret?” “Who is keeping a secret?” “What…",
+      "author": "John McCloskey",
+      "publishedAt": "2024-01-17T07:25:58.000Z"
+    }
+  ],
+  "totalIndexed": 10
+}

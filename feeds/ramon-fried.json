@@ -1,0 +1,93 @@
+{
+  "feedId": "ramon-fried",
+  "feedName": "Ramon Fried",
+  "feedSiteUrl": "https://nativeguru.wordpress.com/",
+  "feedRssUrl": "https://nativeguru.wordpress.com/feed/",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T07:05:52.613Z",
+  "items": [
+    {
+      "guid": "http://nativeguru.wordpress.com/?p=124",
+      "title": "Bitwise – Terminal based bit manipulator",
+      "link": "https://nativeguru.wordpress.com/2019/05/02/bitwise-terminal-based-bit-manipulator/",
+      "summary": "I Recently complete a basic ncurses based terminal application for minglinng with bits. I’m working low level most of the times and need to tinker with bits, masks and to translate between number bases (hex to dec, and vice verse). As I’m working 99% of my time in a terminal, I found it very…",
+      "author": "Ramon",
+      "publishedAt": "2019-05-02T20:50:13.000Z"
+    },
+    {
+      "guid": "http://nativeguru.wordpress.com/?p=120",
+      "title": "Israeli websites hall of shame",
+      "link": "https://nativeguru.wordpress.com/2017/08/06/israeli-websites-hall-of-shame/",
+      "summary": "This is a list of Israeli websites that stores user password as plain text. For anyone who don’t understand why you should care see this. http://www.winwin.co.il http://www.am-oved.co.il A mail to the web admin was sent, I’ll update if they’ve changed their ways.",
+      "author": "Ramon",
+      "publishedAt": "2017-08-06T12:49:18.000Z"
+    },
+    {
+      "guid": "http://nativeguru.wordpress.com/?p=110",
+      "title": "DMA Survival guide – Linux kernel",
+      "link": "https://nativeguru.wordpress.com/2017/02/26/dma-survival-guide-linux-kernel/",
+      "summary": "Hi. I recently gave a talk in KernelTLV Meetup. The talk was uploaded to YouTube, so if you’re interested, go a head and watch it. The Talk is in Hebrew, but the slides are in English. The slides can be found here: DMA Survival Guide from Kernel TLV",
+      "author": "Ramon",
+      "publishedAt": "2017-02-26T06:40:13.000Z"
+    },
+    {
+      "guid": "http://nativeguru.wordpress.com/?p=102",
+      "title": "Automatically placing Gerrit’s commit-msg hook in every new git repository",
+      "link": "https://nativeguru.wordpress.com/2016/04/12/automatically-placing-gerrits-commit-msg-hook-in-every-new-git-repository/",
+      "summary": "Sadly, when cloning a repository from Gerrit. the Gerrit’s commit-msg hook is not populated in the local repository git hooks folder. Here’s a neat trick that I just learned that always puts that there. scp -p -P 29418 <GERRIT_SERVER>:hooks/commit-msg ./ sudo mv ./commit-msg…",
+      "author": "Ramon",
+      "publishedAt": "2016-04-12T06:42:58.000Z"
+    },
+    {
+      "guid": "http://nativeguru.wordpress.com/?p=80",
+      "title": "git pre-commit hook for code beautification",
+      "link": "https://nativeguru.wordpress.com/2016/01/30/git-pre-commit-hook-for-code-beautification/",
+      "summary": "Hi. In this post I will share a git pre-commit hook I created for aiding with code beautification. In Linux, I work in two different coding styles: User space and Kernel. The Linux kernel has a very specific coding style and every commit to kernel must adhere to that style. The Linux kernel…",
+      "author": "Ramon",
+      "publishedAt": "2016-01-30T20:22:19.000Z"
+    },
+    {
+      "guid": "http://nativeguru.wordpress.com/?p=73",
+      "title": "HOW TO SET LOCAL AOSP GERRIT SERVER – PART 3",
+      "link": "https://nativeguru.wordpress.com/2015/08/18/how-to-set-local-aosp-gerrit-server-part-3/",
+      "summary": "Hi there. This is the last post in the series of a local AOSP gerrit server setup. In this post, We’ll finalize the configuration of Gerrit, add new branches for development and see how to maintain the setup. In the last post, we’ve finished creating the project in Gerrit. When we develop locally,…",
+      "author": "Ramon",
+      "publishedAt": "2015-08-18T05:45:05.000Z"
+    },
+    {
+      "guid": "http://nativeguru.wordpress.com/?p=40",
+      "title": "HOW TO SET LOCAL AOSP GERRIT SERVER – PART 2",
+      "link": "https://nativeguru.wordpress.com/2015/06/29/how-to-set-local-aosp-gerrit-server-part-2/",
+      "summary": "Hi. This is part 2 of the “How to set local AOSP Gerrit server”, you might want to start with part 1 here. In part 1 we’ve downloaded all the necessary stuff and in this post we’re going to set it all up. First thing, let’s bootstrap Gerrit. Let’s create a Gerrit user: $ sudo […]",
+      "author": "Ramon",
+      "publishedAt": "2015-06-29T18:42:37.000Z"
+    },
+    {
+      "guid": "http://nativeguru.wordpress.com/?p=37",
+      "title": "How to set local AOSP Gerrit server – Part 1",
+      "link": "https://nativeguru.wordpress.com/2015/05/22/how-to-set-local-aosp-gerrit-server-part-1/",
+      "summary": "In this tutorial I’ll explain how to set a local gerrit server that hosts Android source code. After completing the tutorial you’ll have a fully runnable local AOSP mirror with local Gerrit server. First thing first. we need a Linux server. if you don’t have one available, you can use a…",
+      "author": "Ramon",
+      "publishedAt": "2015-05-22T17:16:56.000Z"
+    },
+    {
+      "guid": "http://nativeguru.wordpress.com/?p=32",
+      "title": "Ubuntu Server 15.04 Virtualbox Image",
+      "link": "https://nativeguru.wordpress.com/2015/05/09/ubuntu-server-15-04-virtualbox-image/",
+      "summary": "I created pre-installed Ubuntu Server 15.04 64bit Virtualbox image to be used for various server side setups. It can be freely downloaded and used by you. all packages were updated to the current date (9/5/15). openssh server was installed and set to default port File can be downloaded from here:…",
+      "author": "Ramon",
+      "publishedAt": "2015-05-09T19:43:06.000Z"
+    },
+    {
+      "guid": "http://nativeguru.wordpress.com/?p=24",
+      "title": "Linux Serviio start up script",
+      "link": "https://nativeguru.wordpress.com/2015/05/01/linux-serviio-start-up-script/",
+      "summary": "I created my own Serviio service script, I’m sharing it for reference and free usage here. If you don’t know Serviio and you need a Media Server in your home network, this is your best choice. check it out here. Actually, you only need to alter “/etc/default/serviio” with your username and path to…",
+      "author": "Ramon",
+      "publishedAt": "2015-05-01T02:02:35.000Z"
+    }
+  ],
+  "totalIndexed": 10
+}

@@ -1,0 +1,93 @@
+{
+  "feedId": "yegor-bugayenko",
+  "feedName": "Yegor Bugayenko",
+  "feedSiteUrl": "http://www.yegor256.com/",
+  "feedRssUrl": "https://www.yegor256.com/rss.xml",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T07:16:43.032Z",
+  "items": [
+    {
+      "guid": "yegor-bugayenko::https://www.yegor256.com/2026/07/12/rats-skills.html",
+      "title": "Rat’s Skills: Making Friends and Betraying Them",
+      "link": "https://www.yegor256.com/2026/07/12/rats-skills.html",
+      "summary": "How to get promoted?\nHow to get a salary raise?\nHow to stop writing code and start managing other losers who still write it?\nHow to become a team leader, a boss, a Vice President, a CTO, and a CEO?\nIs it a matter of luck, or can some tactics help you get to the top of the career ladder?\nLet me…",
+      "author": "Yegor Bugayenko",
+      "publishedAt": "2026-07-11T21:00:00.000Z"
+    },
+    {
+      "guid": "yegor-bugayenko::https://www.yegor256.com/2026/06/01/dont-blame-the-wheel.html",
+      "title": "Don’t Blame the Wheel for Missing a Turn",
+      "link": "https://www.yegor256.com/2026/06/01/dont-blame-the-wheel.html",
+      "summary": "Management gurus keep saying everyone must own the business result.\nBCG wants every company to build an “ownership mindset” at all levels.\nEach employee must feel responsible for the firm’s outcomes.\nPatrick Lencioni, in The Five Dysfunctions of a Team, calls\n  “inattention to results” the worst…",
+      "author": "Yegor Bugayenko",
+      "publishedAt": "2026-05-31T21:00:00.000Z"
+    },
+    {
+      "guid": "yegor-bugayenko::https://www.yegor256.com/2026/05/29/help-the-agent.html",
+      "title": "Help the Agent to Feel",
+      "link": "https://www.yegor256.com/2026/05/29/help-the-agent.html",
+      "summary": "Since the release of Opus 4.7 in April, I don’t write code by hand anymore.\nI only talk to Claude Code.\nNot because I’m lazy or don’t like coding, but because he is a better programmer than I.\nAlso faster and much cheaper.\nHowever, for most tasks I can’t let it fly solo in an “auto mode.”\nBecause…",
+      "author": "Yegor Bugayenko",
+      "publishedAt": "2026-05-28T21:00:00.000Z"
+    },
+    {
+      "guid": "yegor-bugayenko::https://www.yegor256.com/2026/05/24/monotonic-indentation.html",
+      "title": "Monotonic Indentation",
+      "link": "https://www.yegor256.com/2026/05/24/monotonic-indentation.html",
+      "summary": "People have been arguing about how to indent code for as long as there’s been code,\n  and nobody has settled it.\nJava’s Checkstyle aligns continuations under the open paren,\n  ESLint and Prettier each invent their own rules,\n  Go’s gofmt uses tabs and shrugs,\n  RuboCop hands you a menu,\n  Python’s…",
+      "author": "Yegor Bugayenko",
+      "publishedAt": "2026-05-23T21:00:00.000Z"
+    },
+    {
+      "guid": "yegor-bugayenko::https://www.yegor256.com/2026/05/03/no-mercy.html",
+      "title": "Couriers, Not Coders",
+      "link": "https://www.yegor256.com/2026/05/03/no-mercy.html",
+      "summary": "Someone submitted an issue to one of our open GitHub repositories a week ago,\n  suggesting a new feature.\nWe didn’t respond, since we\n  didn’t notice it.\nToday, someone else submitted an implementation of the feature in a pull request.\nI rejected it and explained that the feature request must first…",
+      "author": "Yegor Bugayenko",
+      "publishedAt": "2026-05-02T21:00:00.000Z"
+    },
+    {
+      "guid": "yegor-bugayenko::https://www.yegor256.com/2026/03/05/fast-software.html",
+      "title": "Fast Software: More Programmers, Not Fewer",
+      "link": "https://www.yegor256.com/2026/03/05/fast-software.html",
+      "summary": "When I was five years old, I inherited the shoes of my older brother.\nNot because our family was poor, but because the shoes were good.\nMy grandma told me that when she was a fiancée her dowry consisted of a few skirts.\nNot because she was poor.\nShe wasn’t.\nBecause the skirts were good and rather…",
+      "author": "Yegor Bugayenko",
+      "publishedAt": "2026-03-04T21:00:00.000Z"
+    },
+    {
+      "guid": "yegor-bugayenko::https://www.yegor256.com/2026/01/25/spa-vs-performance.html",
+      "title": "SPAs Are a Performance Dead End",
+      "link": "https://www.yegor256.com/2026/01/25/spa-vs-performance.html",
+      "summary": "It seems to be popular to design websites as Single Page Applications (SPA).\nInstead of showing a new HTML page on every click, an SPA sends a lightweight skeleton with JavaScript.\nThe JS makes HTTP requests, receives JSON, and injects data into the DOM.\nOn each user action, the page doesn’t…",
+      "author": "Yegor Bugayenko",
+      "publishedAt": "2026-01-24T21:00:00.000Z"
+    },
+    {
+      "guid": "yegor-bugayenko::https://www.yegor256.com/2026/01/11/no-documentation-comments.html",
+      "title": "Comments Considered Harmful in the Age of LLMs",
+      "link": "https://www.yegor256.com/2026/01/11/no-documentation-comments.html",
+      "summary": "Writing code documentation is a pain.\nNot writing it leads to even bigger pain—we can’t comprehend the code.\nHowever, writing it and then forgetting to update it causes the ultimate pain: it lies and confuses us.\nHow about we cure all three pains at once: prohibit all comments!\nHow do we know what…",
+      "author": "Yegor Bugayenko",
+      "publishedAt": "2026-01-10T21:00:00.000Z"
+    },
+    {
+      "guid": "yegor-bugayenko::https://www.yegor256.com/2025/12/28/fall-of-javascript.html",
+      "title": "The Fall of JavaScript",
+      "link": "https://www.yegor256.com/2025/12/28/fall-of-javascript.html",
+      "summary": "In 1995, Brendan Eich was hired by Netscape and asked to create a language for their HTML browser.\nRumors say, he designed Mocha in 10 days, later renamed to LiveScript, and then to JavaScript.\nIt was planned to make it similar to Scheme, a LISP-syntax language.\nInstead, to please the crowd of…",
+      "author": "Yegor Bugayenko",
+      "publishedAt": "2025-12-27T21:00:00.000Z"
+    },
+    {
+      "guid": "yegor-bugayenko::https://www.yegor256.com/2025/11/30/internal-vs-external-obstacles.html",
+      "title": "You Are the Low-Hanging Fruit",
+      "link": "https://www.yegor256.com/2025/11/30/internal-vs-external-obstacles.html",
+      "summary": "Let’s say, you are a startup founder, like myself.\nTry to hire a sales guy.\nOffer him a commission-only payment scheme.\nListen to his reaction: he will demand that you pay a fixed salary too, on top of commission.\nTry to convince him that commission-only is a more reasonable and motivating setup.…",
+      "author": "Yegor Bugayenko",
+      "publishedAt": "2025-11-29T21:00:00.000Z"
+    }
+  ],
+  "totalIndexed": 10
+}

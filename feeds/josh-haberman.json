@@ -1,0 +1,85 @@
+{
+  "feedId": "josh-haberman",
+  "feedName": "Josh Haberman",
+  "feedSiteUrl": "http://blog.reverberate.org/",
+  "feedRssUrl": "https://blog.reverberate.org/feed.xml",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T06:55:03.582Z",
+  "items": [
+    {
+      "guid": "https://blog.reverberate.org/2025/02/10/tail-call-updates.html",
+      "title": "A Tail Calling Interpreter For Python (And Other Updates)",
+      "link": "https://blog.reverberate.org/2025/02/10/tail-call-updates.html",
+      "summary": "It’s been nearly four years since I published Parsing Protobuf at 2+GB/s: How\nI Learned To Love Tail Calls in\nC.\nIn that article, I presented a technique I co-developed for how to write really\nfast interpreters through the use of tail calls and the musttail attribute.\nWhile the article focused on…",
+      "author": null,
+      "publishedAt": "2025-02-10T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.reverberate.org/2025/02/03/no-panic-rust.html",
+      "title": "No-Panic Rust: A Nice Technique for Systems Programming",
+      "link": "https://blog.reverberate.org/2025/02/03/no-panic-rust.html",
+      "summary": "Can Rust replace C? This is a question that has been on my mind for many years,\nas I created and now am tech lead for\nupb, a C library\nfor Protocol Buffers.  There is an understandable push to bring memory safety\n  to all\nparts of the software stack, and this would suggest a port of upb to Rust.…",
+      "author": null,
+      "publishedAt": "2025-02-03T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.reverberate.org/2025/01/27/an-ode-to-header-files.html",
+      "title": "An Ode to Header Files",
+      "link": "https://blog.reverberate.org/2025/01/27/an-ode-to-header-files.html",
+      "summary": "C and C++ have a somewhat distinctive feature that almost no language since has\ndecided to replicate, which is to put public API declarations into separate\nfiles called header files:\n\n// square.h: defines public API\n\nvoid SquareArray(int* p, size_t n);\n\n\n\n// square.c: defines implementation\n\n//…",
+      "author": null,
+      "publishedAt": "2025-01-27T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.reverberate.org/2021/12/19/arenas-and-rust.html",
+      "title": "Arenas and Rust",
+      "link": "https://blog.reverberate.org/2021/12/19/arenas-and-rust.html",
+      "summary": "For a while I’ve been wondering what it would be like to use\narenas in Rust.\nIn C and C++ I have been turning to arenas more and more as a fast alternative\nto heap allocation.  If you have a bunch of objects that share a common\nlifetime, arenas offer cheaper allocation and much cheaper deallocation…",
+      "author": null,
+      "publishedAt": "2021-12-19T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.reverberate.org/2021/12/18/thread-safety-cpp-rust.html",
+      "title": "Thread Safety in C++ and Rust",
+      "link": "https://blog.reverberate.org/2021/12/18/thread-safety-cpp-rust.html",
+      "summary": "Lately I’ve been experimenting with Rust, and I want to report some of what\nI’ve learned about thread-safety.  I am an enthusiastic dabbler in Rust: I\nspend most of my time in C and C++, but I’m always looking for an excuse to\nlearn more about Rust’s approach to the techniques I use every day in C…",
+      "author": null,
+      "publishedAt": "2021-12-18T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.reverberate.org/2021/04/21/musttail-efficient-interpreters.html",
+      "title": "Parsing Protobuf at 2+GB/s: How I Learned To Love Tail Calls in C",
+      "link": "https://blog.reverberate.org/2021/04/21/musttail-efficient-interpreters.html",
+      "summary": "[Note: there have been several developments in this space since this\narticle was published.  See A Tail Calling Interpreter For Python (And Other Updates) for the latest information about\nthis technique.]\nI just landed an exciting feature in the main branch of the Clang\ncompiler. Using the…",
+      "author": null,
+      "publishedAt": "2021-04-21T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.reverberate.org/2020/05/29/hoares-rebuttal-bubble-sorts-comeback.html",
+      "title": "Hoare’s Rebuttal and Bubble Sort’s Comeback",
+      "link": "https://blog.reverberate.org/2020/05/29/hoares-rebuttal-bubble-sorts-comeback.html",
+      "summary": "Editor’s note: For this blog entry I welcome my friend and colleague Gerben Stavenga\nas a guest author.\nRecently Andrei Alexandrescu published an interesting\npost about optimizing\nQuickSort using the Lomuto partition scheme. The essence of that post is that\nfor many situations the performance of…",
+      "author": null,
+      "publishedAt": "2020-05-29T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.reverberate.org/2020/05/12/optimizing-date-algorithms.html",
+      "title": "Optimizing UTC → Unix Time Conversion For Size And Speed",
+      "link": "https://blog.reverberate.org/2020/05/12/optimizing-date-algorithms.html",
+      "summary": "How do you convert a UTC timestamp to Unix\nTime (seconds since the\nepoch)?\n\n \"2020-04-29 04:48:15\" → 1588135695\n\n\nOf course the right answer is “you use a standard library function.”\nBut what if you don’t have one available? Or what if you’re the person\nimplementing that library?\nConverting the…",
+      "author": null,
+      "publishedAt": "2020-05-12T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.reverberate.org/2018/08/07/bloaty-1.0.html",
+      "title": "Bloaty McBloatface 1.0",
+      "link": "https://blog.reverberate.org/2018/08/07/bloaty-1.0.html",
+      "summary": "Today I am releasing Bloaty McBloatface 1.0.\nBloaty is a size profiler for binaries.  It helps you peek into\nELF/Mach-O binaries to see what is taking up space inside.\nBloaty has gotten lots new features, bugfixes, and overall improvements since\nI announced it in\n2016.\nI listed these changes…",
+      "author": null,
+      "publishedAt": "2018-08-07T00:00:00.000Z"
+    }
+  ],
+  "totalIndexed": 9
+}

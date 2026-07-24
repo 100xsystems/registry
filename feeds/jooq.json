@@ -1,0 +1,413 @@
+{
+  "feedId": "jooq",
+  "feedName": "jOOQ",
+  "feedSiteUrl": "https://blog.jooq.org/",
+  "feedRssUrl": "https://blog.jooq.org/feed/",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T06:55:00.773Z",
+  "items": [
+    {
+      "guid": "https://blog.jooq.org/?p=13351",
+      "title": "Simplifying ANTI JOIN with jOOQ Syntax",
+      "link": "https://blog.jooq.org/simplifying-anti-join-with-jooq-syntax/",
+      "summary": "ANTI JOIN is a very useful operator from relational algebra. Regrettably, only few dialects support it in terms of SQL syntax, as we’ve written earlier. In jOOQ, you can write it as follows: If your RDBMS supports this natively (e.g. ClickHouse, Databricks), then it is rendered as such. Otherwise,…",
+      "author": "lukaseder",
+      "publishedAt": "2026-05-07T11:26:46.000Z"
+    },
+    {
+      "guid": "https://blog.jooq.org/?p=13328",
+      "title": "Why JOIN USING Can Lead to Errors in SQL",
+      "link": "https://blog.jooq.org/why-join-using-can-lead-to-errors-in-sql/",
+      "summary": "Some SQL operators are as esoteric as they’re powerful. One of the oldest operator that you’ve likely hardly ever used in real world applications is NATURAL JOIN which is the default in relational algebra. We’ve covered a funky use-case for NATURAL JOIN earlier on this blog. The main reason why…",
+      "author": "lukaseder",
+      "publishedAt": "2026-05-04T14:02:39.000Z"
+    },
+    {
+      "guid": "https://blog.jooq.org/?p=13289",
+      "title": "Managing Sensitive Data in jOOQ 3.21+ Logs",
+      "link": "https://blog.jooq.org/managing-sensitive-data-in-jooq-3-21-logs/",
+      "summary": "One of jOOQ’s most popular feature is the out-of-the-box debug logging experience. jOOQ developers find this feature very useful when developing their applications. Assuming you run a jOOQ query and configure your logger to print DEBUG log output: When this query is executed, your log output might…",
+      "author": "lukaseder",
+      "publishedAt": "2026-03-27T12:45:19.000Z"
+    },
+    {
+      "guid": "https://blog.jooq.org/?p=13112",
+      "title": "Consider using JSON arrays instead of JSON objects for serialisation",
+      "link": "https://blog.jooq.org/consider-using-json-arrays-instead-of-json-objects-for-serialisation/",
+      "summary": "When implementing the awesome MULTISET operator in jOOQ, its implementation mostly relied on SQL/JSON support of various RDBMS. In short, while standard SQL supports nested collections via ARRAY or MULTISET operators like this: This is poorly supported in most RDBMS, so jOOQ emulates it using…",
+      "author": "lukaseder",
+      "publishedAt": "2025-08-11T12:43:10.000Z"
+    },
+    {
+      "guid": "https://blog.jooq.org/?p=12995",
+      "title": "When SQL Meets Lambda Expressions",
+      "link": "https://blog.jooq.org/when-sql-meets-lambda-expressions/",
+      "summary": "ARRAY types are a part of the ISO/IEC 9075 SQL standard. The standard specifies how to: But it is very unopinionated when it comes to function support. The ISO/IEC 9075-2:2023(E) 6.47 <array value expression> specifies concatenation of arrays, whereas the 6.48 <array value function> section lists a…",
+      "author": "lukaseder",
+      "publishedAt": "2025-03-27T13:04:44.000Z"
+    },
+    {
+      "guid": "https://blog.jooq.org/?p=12938",
+      "title": "Think About SQL MERGE in Terms of a RIGHT JOIN",
+      "link": "https://blog.jooq.org/think-about-sql-merge-in-terms-of-a-right-join/",
+      "summary": "RIGHT JOIN is an esoteric feature in the SQL language, and hardly ever seen in the real world, because almost every RIGHT JOIN can just be expressed as an equivalent LEFT JOIN. The following two statements are equivalent: It’s not unreasonable to expect these two statements to produce the same…",
+      "author": "lukaseder",
+      "publishedAt": "2025-03-13T14:45:53.000Z"
+    },
+    {
+      "guid": "https://blog.jooq.org/?p=12895",
+      "title": "Resisting the Urge to Document Everything Everywhere",
+      "link": "https://blog.jooq.org/resisting-the-urge-to-document-everything-everywhere/",
+      "summary": "Every product manager knows this situation: This is such a common pattern, and while it’s perfectly understandable for such a user to request this, it is so terribly wrong to give in to this user’s request. Why is it wrong? The features are unrelated Most of the time, the two features X1 and X2 are…",
+      "author": "lukaseder",
+      "publishedAt": "2025-02-28T10:39:07.000Z"
+    },
+    {
+      "guid": "https://blog.jooq.org/?p=12884",
+      "title": "jOOQ 3.20 released with ClickHouse, Databricks, and much more DuckDB support, new modules, Oracle type hierarchies, more spatial support, decfloat and synonym support, hidden columns, Scala 3, Kotlin 2, and much more",
+      "link": "https://blog.jooq.org/jooq-3-20-released-with-clickhouse-databricks-and-much-more-duckdb-support-new-modules-oracle-type-hierarchies-more-spatial-support-decfloat-and-synonym-support-hidden-columns-scala-3-kotlin/",
+      "summary": "New dialects: jOOQ 3.20 ships with 2 new experimental dialects: ClickHouse is a fast-moving SQL dialect with a historic vendor-specific syntax that is gradually migrated to a more standards compliant alternative, which is why our support is still experimental. A lot of behaviours differ from what…",
+      "author": "lukaseder",
+      "publishedAt": "2025-02-20T10:27:54.000Z"
+    },
+    {
+      "guid": "https://blog.jooq.org/?p=12635",
+      "title": "Emulating SQL FILTER with Oracle JSON Aggregate Functions",
+      "link": "https://blog.jooq.org/emulating-sql-filter-with-oracle-json-aggregate-functions/",
+      "summary": "A cool standard SQL:2003 feature is the aggregate FILTER clause, which is supported natively by at least these RDBMS: The following aggregate function computes the number of rows per group which satifsy the FILTER clause: This is useful for pivot style queries, where multiple aggregate values are…",
+      "author": "lukaseder",
+      "publishedAt": "2024-06-03T12:17:41.000Z"
+    },
+    {
+      "guid": "https://blog.jooq.org/?p=12538",
+      "title": "Getting Top 1 Values Per Group in Oracle",
+      "link": "https://blog.jooq.org/getting-top-1-values-per-group-in-oracle/",
+      "summary": "I’ve blogged about generic ways of getting top 1 or top n per category queries before on this blog. An Oracle specific version in that post used the arcane KEEP syntax: This is a bit difficult to read when you see it for the first time. Think of it as a complicated way to say … Continue reading…",
+      "author": "lukaseder",
+      "publishedAt": "2024-03-01T09:55:41.000Z"
+    },
+    {
+      "guid": "https://blog.jooq.org/?p=12478",
+      "title": "An Efficient Way to Check for Existence of Multiple Values in SQL",
+      "link": "https://blog.jooq.org/an-efficient-way-to-check-for-existence-of-multiple-values-in-sql/",
+      "summary": "In a previous blog post, we’ve advertised the use of SQL EXISTS rather than COUNT(*) to check for existence of a value in SQL. I.e. to check if in the Sakila database, actors called WAHLBERG have played in any films, instead of: Do this: (Depending on your dialect you may require a FROM DUAL…",
+      "author": "lukaseder",
+      "publishedAt": "2024-02-16T14:16:45.000Z"
+    },
+    {
+      "guid": "https://blog.jooq.org/?p=12332",
+      "title": "A Hidden Benefit of Implicit Joins: Join Elimination",
+      "link": "https://blog.jooq.org/a-hidden-benefit-of-implicit-joins-join-elimination/",
+      "summary": "One of jOOQ’s key features so far has always been to render pretty much exactly the SQL that users expect, without any surprises – unless some emulation is required to make a query work, of course. This means that while join elimination is a powerful feature of many RDBMS, it isn’t part of jOOQ’s…",
+      "author": "lukaseder",
+      "publishedAt": "2024-01-10T14:19:00.000Z"
+    },
+    {
+      "guid": "https://blog.jooq.org/?p=12345",
+      "title": "jOOQ 3.19’s new Explicit and Implicit to-many path joins",
+      "link": "https://blog.jooq.org/jooq-3-19s-new-explicit-and-implicit-to-many-path-joins/",
+      "summary": "jOOQ 3.19 finally delivers on a set of features that will greatly simplify your queries further, after jOOQ 3.11 introduced implicit to-one joins: What are these features? Many ORMs (e.g. JPA, Doctrine, jOOQ 3.11 and others) support “path joins” (they may have different names for this concept). A…",
+      "author": "lukaseder",
+      "publishedAt": "2023-12-28T14:35:14.000Z"
+    },
+    {
+      "guid": "https://blog.jooq.org/?p=12315",
+      "title": "Workaround for MySQL’s “can’t specify target table for update in FROM clause” Error",
+      "link": "https://blog.jooq.org/workaround-for-mysqls-cant-specify-target-table-for-update-in-from-clause-error/",
+      "summary": "In MySQL, you cannot do this: The UPDATE statement will raise an error as follows: SQL Error [1093] [HY000]: You can’t specify target table ‘t’ for update in FROM clause People have considered this to be a bug in MySQL for ages, as most other RDBMS can do this without any issues, including MySQL…",
+      "author": "lukaseder",
+      "publishedAt": "2023-12-20T14:20:29.000Z"
+    },
+    {
+      "guid": "https://blog.jooq.org/?p=12403",
+      "title": "jOOQ 3.19.0 Released with DuckDB, Trino, Oracle 23c support, join path improvements, an official gradle plugin, commercial maven repositories, policies, UDT paths, trigger meta data, hierarchies, and much more",
+      "link": "https://blog.jooq.org/jooq-3-19-0-released-with-duckdb-trino-oracle-23c-support-join-path-improvements-an-official-gradle-plugin-commercial-maven-repositories-policies-udt-paths-trigger-meta-data-hierarchies-and/",
+      "summary": "New Dialects It’s been a few releases since we’ve added support for new dialects, but finally some very interesting RDBMS of increasing popularity have joined the jOOQ family including: These dialects are available in all jOOQ editions. New dialect versions In addition to these entirely new…",
+      "author": "lukaseder",
+      "publishedAt": "2023-12-15T16:30:41.000Z"
+    },
+    {
+      "guid": "https://blog.jooq.org/?p=12288",
+      "title": "Maven Coordinates of the most popular JDBC Drivers",
+      "link": "https://blog.jooq.org/maven-coordinates-of-the-most-popular-jdbc-drivers/",
+      "summary": "Do you need to add a JDBC driver to your application, and don’t know its Maven coordinates? This blog post lists the most popular drivers from the jOOQ integration tests. Look up the latest versions directly on https://central.sonatype.com/ with parameters g:groupId a:artifactId, for example, the…",
+      "author": "lukaseder",
+      "publishedAt": "2023-12-13T11:25:44.000Z"
+    },
+    {
+      "guid": "https://blog.jooq.org/?p=12298",
+      "title": "To DAO or not to DAO",
+      "link": "https://blog.jooq.org/to-dao-or-not-to-dao/",
+      "summary": "jOOQ’s DAO API is one of jOOQ’s most controversial features. When it was first implemented, it was implemented merely: There’s a strong hint about the third bullet given how popular Spring Data’s repository “pattern” is. A lot of developers just want to quickly fetch and store data, without giving…",
+      "author": "lukaseder",
+      "publishedAt": "2023-12-06T13:41:52.000Z"
+    },
+    {
+      "guid": "https://blog.jooq.org/?p=12278",
+      "title": "JDBC Connection URLs of the Most Popular RDBMS",
+      "link": "https://blog.jooq.org/jdbc-connection-urls-of-the-most-popular-rdbms/",
+      "summary": "Need to connect to your RDBMS with JDBC and don’t have the JDBC connection URL or driver name at hand? No problem, just look up your RDBMS below:",
+      "author": "lukaseder",
+      "publishedAt": "2023-12-01T11:12:59.000Z"
+    },
+    {
+      "guid": "https://blog.jooq.org/?p=12178",
+      "title": "How to Generate Package Private Code with jOOQ’s Code Generator",
+      "link": "https://blog.jooq.org/how-to-generate-package-private-code-with-jooqs-code-generator/",
+      "summary": "Java’s package private visibility is an underrated feature. When you omit any visibility modifier in Java, then the default (for most objects) is package private, i.e. the object is visible only to types in the same package: In fact, a compilation unit (the .java file) can contain multiple such…",
+      "author": "lukaseder",
+      "publishedAt": "2023-06-28T15:54:18.000Z"
+    },
+    {
+      "guid": "https://blog.jooq.org/?p=12111",
+      "title": "How to Pass a Table Valued Parameter to a T-SQL Function with jOOQ",
+      "link": "https://blog.jooq.org/how-to-pass-a-table-valued-parameter-to-a-t-sql-function-with-jooq/",
+      "summary": "Microsoft T-SQL supports a language feature called table-valued parameter (TVP), which is a parameter of a table type that can be passed to a stored procedure or function. For example, you may write: This function takes a table-valued parameter (TVP), and produces a result set containing the cross…",
+      "author": "lukaseder",
+      "publishedAt": "2023-04-25T12:16:30.000Z"
+    },
+    {
+      "guid": "https://blog.jooq.org/?p=12025",
+      "title": "How to Turn a List of Flat Elements into a Hierarchy in Java, SQL, or jOOQ",
+      "link": "https://blog.jooq.org/how-to-turn-a-list-of-flat-elements-into-a-hierarchy-in-java-sql-or-jooq/",
+      "summary": "Occasionally, you want to write a SQL query and fetch a hierarchy of data, whose flat representation may look like this: The result might be: |id |parent_id|label | |---|---------|-------------------| |1 | |C: | |2 |1 |eclipse | |3 |2 |configuration | |4 |2 |dropins | |5 |2 |features | |7 |2…",
+      "author": "lukaseder",
+      "publishedAt": "2023-03-24T15:45:28.000Z"
+    },
+    {
+      "guid": "https://blog.jooq.org/?p=12001",
+      "title": "3.18.0 Release with Support for more Diagnostics, SQL/JSON, Oracle Associative Arrays, Multi dimensional Arrays, R2DBC 1.0",
+      "link": "https://blog.jooq.org/3-18-0-release-with-support-for-more-diagnostics-sql-json-oracle-associative-arrays-multi-dimensional-arrays-r2dbc-1-0/",
+      "summary": "DiagnosticsListener improvements A lot of additional diagnostics have been added, including the automated detection of pattern replacements, helping you lint your SQL queries irrespective of whether you’re using jOOQ to write your SQL, or if you’re using it as a JDBC / R2DBC proxy for an existing…",
+      "author": "lukaseder",
+      "publishedAt": "2023-03-08T16:34:56.000Z"
+    },
+    {
+      "guid": "https://blog.jooq.org/?p=11981",
+      "title": "How to use jOOQ’s Converters with UNION Operations",
+      "link": "https://blog.jooq.org/how-to-use-jooqs-converters-with-union-operations/",
+      "summary": "jOOQ 3.15 introduced the concept of an ad-hoc converter, a converter that is applied “ad-hoc” to a single query. It uses the same underlying mechanisms as any ordinary Converter that is attached to generated code for use in every query. An example of such an ad-hoc converter is this: While there…",
+      "author": "lukaseder",
+      "publishedAt": "2023-03-02T11:18:17.000Z"
+    },
+    {
+      "guid": "https://blog.jooq.org/?p=11963",
+      "title": "How to Write a Derived Table in jOOQ",
+      "link": "https://blog.jooq.org/how-to-write-a-derived-table-in-jooq/",
+      "summary": "One of the more frequent questions about jOOQ is how to write a derived table (or a CTE). The jOOQ manual shows a simple example of a derived table: In SQL: In jOOQ: And that’s pretty much it. The question usually arises from the fact that there’s a surprising lack of type safety when working ……",
+      "author": "lukaseder",
+      "publishedAt": "2023-02-24T09:18:48.000Z"
+    },
+    {
+      "guid": "https://blog.jooq.org/?p=11926",
+      "title": "The Performance Impact of SQL’s FILTER Clause",
+      "link": "https://blog.jooq.org/the-performance-impact-of-sqls-filter-clause/",
+      "summary": "I’ve found an interesting question on Twitter, recently. Is there any performance impact of using FILTER in SQL (PostgreSQL, specifically), or is it just syntax sugar for a CASE expression in an aggregate function? As a quick reminder, FILTER is an awesome standard SQL extension to filter out…",
+      "author": "lukaseder",
+      "publishedAt": "2023-02-06T07:51:38.000Z"
+    },
+    {
+      "guid": "https://blog.jooq.org/?p=11851",
+      "title": "Emulating Window Functions in MySQL 5.7",
+      "link": "https://blog.jooq.org/emulating-window-functions-in-mysql-5-7/",
+      "summary": "One of MySQL 8’s biggest improvements is the support of window functions. As I always said in conferences, there’s SQL before window functions and SQL after window functions. Once you start using them, you’ll use them everywhere. Some of you poor souls are unfortunate enough to be stuck on MySQL…",
+      "author": "lukaseder",
+      "publishedAt": "2023-01-20T11:07:00.000Z"
+    },
+    {
+      "guid": "https://blog.jooq.org/?p=11787",
+      "title": "Why You Should Execute jOOQ Queries With jOOQ",
+      "link": "https://blog.jooq.org/why-you-should-execute-jooq-queries-with-jooq/",
+      "summary": "Previously on this blog, I’ve written a post explaining why you should use jOOQ’s code generator, despite the possibility of using jOOQ without it. In a similar fashion, as I’ve answered numerous jOOQ questions on Stack Overflow, where someone used jOOQ to build a query, but then executed it…",
+      "author": "lukaseder",
+      "publishedAt": "2023-01-18T11:46:25.000Z"
+    },
+    {
+      "guid": "https://blog.jooq.org/?p=11771",
+      "title": "jOOQ’s R2DBC LoggingConnection to log all SQL statements",
+      "link": "https://blog.jooq.org/jooqs-r2dbc-loggingconnection-to-log-all-sql-statements/",
+      "summary": "jOOQ already has a LoggingConnection (see also the manual), which acts as a JDBC proxy Connection to log all SQL statements that are executed by any JDBC client (including Hibernate, MyBatis, JdbcTemplate, native JDBC, etc.). Starting from jOOQ 3.18.0, 3.17.7, and 3.16.13, a LoggingConnection is…",
+      "author": "lukaseder",
+      "publishedAt": "2023-01-17T10:12:05.000Z"
+    },
+    {
+      "guid": "https://blog.jooq.org/?p=11696",
+      "title": "When to Use jOOQ and When to Use Native SQL",
+      "link": "https://blog.jooq.org/when-to-use-jooq-and-when-to-use-native-sql/",
+      "summary": "A frequently encountered doubt people have when using jOOQ is to decide when a “complex” query should be written using jOOQ API vs. when it should be implemented using native SQL. The jOOQ manual is full of side by side examples of the same query, e.g. Using jOOQ: Using native SQL: In the native…",
+      "author": "lukaseder",
+      "publishedAt": "2022-12-08T13:53:02.000Z"
+    },
+    {
+      "guid": "https://blog.jooq.org/?p=11612",
+      "title": "LATERAL is Your Friend to Create Local Column Variables in SQL",
+      "link": "https://blog.jooq.org/lateral-is-your-friend-to-create-local-column-variables-in-sql/",
+      "summary": "The standard SQL WITH clause has been tremendously helpful in structuring SQL queries. Instead of nesting everything in unreadable derived tables like this: People have started moving the logic up front, just like in any other programming language, where we declare things first, lexically, then use…",
+      "author": "lukaseder",
+      "publishedAt": "2022-11-04T08:56:17.000Z"
+    },
+    {
+      "guid": "https://blog.jooq.org/?p=11588",
+      "title": "Calling Procedures with Default Parameters using JDBC or jOOQ",
+      "link": "https://blog.jooq.org/calling-procedures-with-default-parameters-using-jdbc-or-jooq/",
+      "summary": "Using jOOQ’s code generator to call stored procedures is a popular reason to use jOOQ. For example, when you have a procedure like the following Oracle PL/SQL procedure: jOOQ will generate code for you to call very simply, like this: This will execute the following, taking care of binding all IN…",
+      "author": "lukaseder",
+      "publishedAt": "2022-10-21T14:35:39.000Z"
+    },
+    {
+      "guid": "https://blog.jooq.org/?p=11493",
+      "title": "Using jOOQ’s Implicit Join From Within the JOIN .. ON Clause",
+      "link": "https://blog.jooq.org/using-jooqs-implicit-join-from-within-the-join-on-clause/",
+      "summary": "Starting with jOOQ 3.11, type safe implicit JOIN have been made available, and they’ve been enhanced to be supported also in DML statements in jOOQ 3.17. Today, I’d like to focus on a somewhat weird but really powerful use-case for implicit JOIN, when joining additional tables from within an…",
+      "author": "lukaseder",
+      "publishedAt": "2022-09-13T07:29:59.000Z"
+    },
+    {
+      "guid": "https://blog.jooq.org/?p=11416",
+      "title": "A Brief Overview over the Most Common jOOQ Types",
+      "link": "https://blog.jooq.org/a-brief-overview-over-the-most-common-jooq-types/",
+      "summary": "For new users working with jOOQ for the first time, the number of types in the jOOQ API can be overwhelming. The SQL language doesn’t have many such “visible” types, although if you think about SQL the way jOOQ does, then they’re there just the same, but hidden from users via an English style…",
+      "author": "lukaseder",
+      "publishedAt": "2022-09-06T12:30:37.000Z"
+    },
+    {
+      "guid": "https://blog.jooq.org/?p=11392",
+      "title": "How to Plot an ASCII Bar Chart with SQL",
+      "link": "https://blog.jooq.org/how-to-plot-an-ascii-bar-chart-with-sql/",
+      "summary": "No need for expensive Tableau subscriptions. Ditch Microsoft Excel. Just use native PostgreSQL to quickly visualise your data! Here’s an idea I had for a while. As you may know, jOOQ can produce fancy charts from your jOOQ results. But that requires you use jOOQ, and you may not be using jOOQ,…",
+      "author": "lukaseder",
+      "publishedAt": "2022-09-01T08:25:29.000Z"
+    },
+    {
+      "guid": "https://blog.jooq.org/?p=11371",
+      "title": "The Second Best Way to Fetch a Spring Data JPA DTO Projection",
+      "link": "https://blog.jooq.org/the-second-best-way-to-fetch-a-spring-data-jpa-dto-projection/",
+      "summary": "I’ve just stumbled upon this great post by Vlad Mihalcea, titled The Best Way to Fetch a Spring Data JPA DTO Projection. It got some nice traction on reddit, too. This is such a nice use-case and apt solution, I wanted to quickly show the second best way of doing the same, with jOOQ this … Continue…",
+      "author": "lukaseder",
+      "publishedAt": "2022-08-30T14:48:44.000Z"
+    },
+    {
+      "guid": "https://blog.jooq.org/?p=11358",
+      "title": "Cannot resolve symbol ‘VERSION_3_17’ in jOOQ generated code",
+      "link": "https://blog.jooq.org/cannot-resolve-symbol-version_3_17-in-jooq-generated-code/",
+      "summary": "Starting with jOOQ 3.16 and #12601, there may be a compilation error with a message like this in your jOOQ generated code: [ERROR] …/DefaultCatalog.java:[53,73] cannot find symbol[ERROR] symbol: variable VERSION_3_17[ERROR] location: class org.jooq.Constants Typically, this error is mixed with…",
+      "author": "lukaseder",
+      "publishedAt": "2022-08-30T06:56:20.000Z"
+    },
+    {
+      "guid": "https://blog.jooq.org/?p=11328",
+      "title": "jOOQ 3.17 Supports Implicit Join also in DML",
+      "link": "https://blog.jooq.org/jooq-3-17-supports-implicit-join-also-in-dml/",
+      "summary": "Since jOOQ 3.11, implicit joins have been supported. An implicit join is a JOIN (mostly a LEFT JOIN) that is generated implicitly because of the presence of a path expression. If SQL supported the syntax natively, it would look like this: All that is is convenience for a bunch of explicitly written…",
+      "author": "lukaseder",
+      "publishedAt": "2022-08-25T08:07:00.000Z"
+    },
+    {
+      "guid": "https://blog.jooq.org/?p=11305",
+      "title": "A Condition is a Field",
+      "link": "https://blog.jooq.org/a-condition-is-a-field/",
+      "summary": "Starting with jOOQ 3.17, the Condition type extends the Field<Boolean> type. Because, that’s what the SQL standard thinks it is, in sorts: The exact definition contains intermediate rules, but you get the idea. A <predicate> (which is a Condition in jOOQ) can be used wherever a <boolean value…",
+      "author": "lukaseder",
+      "publishedAt": "2022-08-24T09:09:11.000Z"
+    },
+    {
+      "guid": "https://blog.jooq.org/?p=11270",
+      "title": "The Many Ways to Return Data From SQL DML",
+      "link": "https://blog.jooq.org/the-many-ways-to-return-data-from-sql-dml/",
+      "summary": "Probably the hardest thing to standardise in SQL is RETURNING data from DML statements. In this article, we’ll look at various ways of doing that with jOOQ, in many of jOOQ’s supported dialects, and with JDBC directly. How to do it with jOOQ Assuming the usual table from the sakila database: jOOQ…",
+      "author": "lukaseder",
+      "publishedAt": "2022-08-23T15:02:04.000Z"
+    },
+    {
+      "guid": "https://blog.jooq.org/?p=11246",
+      "title": "How to Integration Test Stored Procedures with jOOQ",
+      "link": "https://blog.jooq.org/how-to-integration-test-stored-procedures-with-jooq/",
+      "summary": "When you write stored procedures and functions in your database, you want to ensure their correctness, just like with your Java code. In Java, this is done with unit tests, typically with JUnit. For example, if you have the following code in Java: Then, you might write a test like this: But how do…",
+      "author": "lukaseder",
+      "publishedAt": "2022-08-22T12:36:00.000Z"
+    },
+    {
+      "guid": "https://blog.jooq.org/?p=11214",
+      "title": "Using H2 as a Test Database Product with jOOQ",
+      "link": "https://blog.jooq.org/using-h2-as-a-test-database-product/",
+      "summary": "The H2 database is an immensely popular in-memory database product mostly used by Java developers for testing. If you check out the DB-Engines ranking, it ranks 50th, which is quite impressive, as this rank outperforms products like: CockroachDB Ignite Single Store (previously MemSQL) Interbase…",
+      "author": "lukaseder",
+      "publishedAt": "2022-08-19T07:25:43.000Z"
+    },
+    {
+      "guid": "https://blog.jooq.org/?p=11171",
+      "title": "The Best Way to Call Stored Procedures from Java: With jOOQ",
+      "link": "https://blog.jooq.org/the-best-way-to-call-stored-procedures-from-java-with-jooq/",
+      "summary": "jOOQ is mainly known for its powerful type safe, embedded, dynamic SQL capabilities that are made available through code generation. However, a secondary use case of code generation is to use it for stored procedures (possibly exclusively for stored procedures). Stored procedures are powerful ways…",
+      "author": "lukaseder",
+      "publishedAt": "2022-07-28T13:11:59.000Z"
+    },
+    {
+      "guid": "https://blog.jooq.org/?p=11100",
+      "title": "Create Dynamic Views with jOOQ 3.17’s new Virtual Client Side Computed Columns",
+      "link": "https://blog.jooq.org/create-dynamic-views-with-jooq-3-17s-new-virtual-client-side-computed-columns/",
+      "summary": "One of jOOQ 3.17‘s coolest new features are client side computed columns. jOOQ 3.16 already added support for server side computed columns, which many of you appreciate for various reasons. What’s a computed column? A computed column is a column that is derived (“computed”) from an expression. It…",
+      "author": "lukaseder",
+      "publishedAt": "2022-06-30T14:46:35.000Z"
+    },
+    {
+      "guid": "https://blog.jooq.org/?p=11082",
+      "title": "3.17.0 Release with Computed Columns, Audit Columns, Pattern Matching, Reactive Transactions and Kotlin Coroutine Support",
+      "link": "https://blog.jooq.org/3-17-0-release-with-computed-columns-audit-columns-pattern-matching-reactive-transactions-and-kotlin-coroutine-support/",
+      "summary": "This release contiues the work from previous releases around more sophisticated SQL transformation capabilities, including: Client side computed columns for both read and write operations Audit columns Pattern matching SQL transformations More implicit JOIN capabilities Client side computed columns…",
+      "author": "lukaseder",
+      "publishedAt": "2022-06-22T15:15:05.000Z"
+    },
+    {
+      "guid": "https://blog.jooq.org/?p=11013",
+      "title": "How to Filter a SQL Nested Collection by a Value",
+      "link": "https://blog.jooq.org/how-to-filter-a-sql-nested-collection-by-a-value/",
+      "summary": "I stumbled upon a very interesting question on Stack Overflow about how to use jOOQ’s MULTISET operator to nest a collection, and then filter the result by whether that nested collection contains a value. The question is jOOQ specific, but imagine, you have a query that nests collections using JSON…",
+      "author": "lukaseder",
+      "publishedAt": "2022-06-10T14:32:38.000Z"
+    },
+    {
+      "guid": "https://blog.jooq.org/?p=10916",
+      "title": "The Performance of Various To-Many Nesting Algorithms",
+      "link": "https://blog.jooq.org/the-performance-of-various-to-many-nesting-algorithms/",
+      "summary": "It’s been a while since jOOQ 3.15 has been released with its revolutionary standard SQL MULTISET emulation feature. A thing that has been long overdue and which I promised on twitter a few times is to run a few benchmarks comparing the performance of various approaches to nesting to-many…",
+      "author": "lukaseder",
+      "publishedAt": "2022-06-09T10:15:50.000Z"
+    },
+    {
+      "guid": "https://blog.jooq.org/?p=10836",
+      "title": "Changing SELECT .. FROM Into FROM .. SELECT Does Not “Fix” SQL",
+      "link": "https://blog.jooq.org/changing-select-from-into-from-select-does-not-fix-sql/",
+      "summary": "Every now and then, I see folks lament the SQL syntax’s peculiar disconnect between the lexical order of operations (SELECT .. FROM) the logical order of operations (FROM .. SELECT) Most recently here in a Youtube comment reply to a recent jOOQ/kotlin talk. Let’s look at why jOOQ didn’t fall into…",
+      "author": "lukaseder",
+      "publishedAt": "2022-05-31T08:39:55.000Z"
+    },
+    {
+      "guid": "https://blog.jooq.org/?p=10781",
+      "title": "The Many Different Ways to Fetch Data in jOOQ",
+      "link": "https://blog.jooq.org/the-many-different-ways-to-fetch-data-in-jooq/",
+      "summary": "The jOOQ API is all about convenience, and as such, an important operation (the most important one?) like fetch() must come with convenience, too. The default way to fetch data is this: It fetches the entire result set into memory and closes the underlying JDBC resources eagerly. But what other…",
+      "author": "lukaseder",
+      "publishedAt": "2022-05-19T07:29:09.000Z"
+    },
+    {
+      "guid": "https://blog.jooq.org/?p=10734",
+      "title": "Setting the JDBC Statement.setFetchSize() to 1 for Single Row Queries",
+      "link": "https://blog.jooq.org/setting-the-jdbc-statement-setfetchsize-to-1-for-single-row-queries/",
+      "summary": "An interesting hint by Vladimir Sitnikov has made me think about a new benchmark for jOOQ: The benchmark should check whether single row queries should have a JDBC Statement.setFetchSize(1) call made to them by default. The Javadoc of the method says: Gives the JDBC driver a hint as to the number…",
+      "author": "lukaseder",
+      "publishedAt": "2022-05-11T08:55:41.000Z"
+    },
+    {
+      "guid": "https://blog.jooq.org/?p=10708",
+      "title": "How to Typesafely Map a Nested SQL Collection into a Nested Java Map with jOOQ",
+      "link": "https://blog.jooq.org/how-to-typesafely-map-a-nested-sql-collection-into-a-nested-java-map-with-jooq/",
+      "summary": "A really cool, recent question on Stack Overflow was about how to map a nested collection into a Java Map with jOOQ. In the past, I’ve blogged about the powerful MULTISET operator many times, which allows for nesting collections in jOOQ. This time, instead of nesting data into a List<UserType>, why…",
+      "author": "lukaseder",
+      "publishedAt": "2022-05-09T10:06:51.000Z"
+    }
+  ],
+  "totalIndexed": 50
+}

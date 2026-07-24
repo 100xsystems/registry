@@ -1,0 +1,93 @@
+{
+  "feedId": "net",
+  "feedName": ".NET",
+  "feedSiteUrl": "https://blogs.msdn.microsoft.com/dotnet/",
+  "feedRssUrl": "https://devblogs.microsoft.com/dotnet/feed/",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T06:39:15.157Z",
+  "items": [
+    {
+      "guid": "https://devblogs.microsoft.com/dotnet/?p=60442",
+      "title": "Announcing .NET Modernization for Beginners",
+      "link": "https://devblogs.microsoft.com/dotnet/announcing-dotnet-modernization-for-beginners/",
+      "summary": "A free, open-source, hands-on course that walks you through modernizing a real legacy ASP.NET application all the way to .NET 10 using the GitHub Copilot modernization agent, step by step.\nThe post Announcing .NET Modernization for Beginners appeared first on .NET Blog.",
+      "author": "Pablo Lopes",
+      "publishedAt": "2026-07-16T17:07:06.000Z"
+    },
+    {
+      "guid": "https://devblogs.microsoft.com/dotnet/?p=60420",
+      "title": ".NET and .NET Framework July 2026 servicing releases updates",
+      "link": "https://devblogs.microsoft.com/dotnet/dotnet-and-dotnet-framework-july-2026-servicing-updates/",
+      "summary": "A recap of the latest servicing updates for .NET and .NET Framework for July 2026.\nThe post .NET and .NET Framework July 2026 servicing releases updates appeared first on .NET Blog.",
+      "author": "Rahul Bhandari (MSFT), Tara Overfield",
+      "publishedAt": "2026-07-14T18:55:00.000Z"
+    },
+    {
+      "guid": "https://devblogs.microsoft.com/dotnet/?p=60422",
+      "title": "CoreCLR Progress and the Mono Timeline for .NET MAUI",
+      "link": "https://devblogs.microsoft.com/dotnet/coreclr-progress-and-mono-timeline-dotnet-maui/",
+      "summary": "CoreCLR is now the only runtime for .NET MAUI mobile apps in .NET 11 Preview 6. Here is where we are, and why we need you to test today.\nThe post CoreCLR Progress and the Mono Timeline for .NET MAUI appeared first on .NET Blog.",
+      "author": "David Ortinau",
+      "publishedAt": "2026-07-14T18:30:00.000Z"
+    },
+    {
+      "guid": "https://devblogs.microsoft.com/dotnet/?p=60417",
+      "title": ".NET 11 Preview 6 is now available!",
+      "link": "https://devblogs.microsoft.com/dotnet/dotnet-11-preview-6/",
+      "summary": "Find out about the new features in .NET 11 Preview 6 across runtime, SDK, libraries, ASP.NET Core, .NET MAUI, C#, Entity Framework Core, F#, and container images.\nThe post .NET 11 Preview 6 is now available! appeared first on .NET Blog.",
+      "author": ".NET Team",
+      "publishedAt": "2026-07-14T17:45:00.000Z"
+    },
+    {
+      "guid": "https://devblogs.microsoft.com/dotnet/?p=60395",
+      "title": "Modernize .NET applications in the GitHub Copilot app",
+      "link": "https://devblogs.microsoft.com/dotnet/modernize-dotnet-in-github-copilot-app/",
+      "summary": "Modernize .NET applications in the GitHub Copilot app. Follow your upgrade from assessment through execution in an interactive upgrade canvas.\nThe post Modernize .NET applications in the GitHub Copilot app appeared first on .NET Blog.",
+      "author": "Mika Dumont",
+      "publishedAt": "2026-07-09T17:05:00.000Z"
+    },
+    {
+      "guid": "https://devblogs.microsoft.com/dotnet/?p=60361",
+      "title": "MCP Beyond the Chat Window: Build Diagnostics in CI",
+      "link": "https://devblogs.microsoft.com/dotnet/mcp-build-diagnostics-workflows/",
+      "summary": "A practical tour of the Model Context Protocol tools for .NET build diagnostics - the full Binlog MCP toolset, how those tools run inside a GitHub Actions workflow, and what the evaluation data says about the efficiency gains.\nThe post MCP Beyond the Chat Window: Build Diagnostics in CI appeared…",
+      "author": "Jan Krivanek, Yuliia Kovalova",
+      "publishedAt": "2026-06-30T17:00:00.000Z"
+    },
+    {
+      "guid": "https://devblogs.microsoft.com/dotnet/?p=60346",
+      "title": ".NET 8 and .NET 9 will reach End of Support on November 10, 2026",
+      "link": "https://devblogs.microsoft.com/dotnet/dotnet-8-9-end-of-support/",
+      "summary": ".NET 8 and .NET 9 will both reach end of support on November 10, 2026. Learn what this means and how to upgrade to .NET 10 (LTS).\nThe post .NET 8 and .NET 9 will reach End of Support on November 10, 2026 appeared first on .NET Blog.",
+      "author": "Rahul Bhandari (MSFT)",
+      "publishedAt": "2026-06-29T21:33:20.000Z"
+    },
+    {
+      "guid": "https://devblogs.microsoft.com/dotnet/?p=60339",
+      "title": "SkiaSharp 4.0 is here: announcing the first stable release",
+      "link": "https://devblogs.microsoft.com/dotnet/skiasharp-4-0-stable/",
+      "summary": "SkiaSharp 4.148.0 is the first stable release of SkiaSharp v4. Learn what is new, why you should be excited, and join the SkiaSharp live event on June 30.\nThe post SkiaSharp 4.0 is here: announcing the first stable release appeared first on .NET Blog.",
+      "author": "Matthew Leibowitz",
+      "publishedAt": "2026-06-29T21:00:00.000Z"
+    },
+    {
+      "guid": "https://devblogs.microsoft.com/dotnet/?p=60333",
+      "title": "Packaging and Package Identity for .NET apps with WinApp CLI on Windows",
+      "link": "https://devblogs.microsoft.com/dotnet/packaging-dotnet-apps-winapp/",
+      "summary": "Use the WinApp CLI to add identity to and package .NET desktop applications, enabling deeper integration to Windows and easier distribution.\nThe post Packaging and Package Identity for .NET apps with WinApp CLI on Windows appeared first on .NET Blog.",
+      "author": "Zachary Teutsch",
+      "publishedAt": "2026-06-29T17:00:00.000Z"
+    },
+    {
+      "guid": "https://devblogs.microsoft.com/dotnet/?p=60274",
+      "title": "AI-Powered MSBuild Investigation with the Microsoft Binlog MCP Server",
+      "link": "https://devblogs.microsoft.com/dotnet/msbuild-binlog-mcp-server/",
+      "summary": "Diagnose MSBuild build failures and performance issues with AI using the new Microsoft Binlog MCP Server - 15 specialized tools that let your AI assistant investigate binary logs.\nThe post AI-Powered MSBuild Investigation with the Microsoft Binlog MCP Server appeared first on .NET Blog.",
+      "author": "Yuliia Kovalova, Jan Krivanek",
+      "publishedAt": "2026-06-17T17:00:00.000Z"
+    }
+  ],
+  "totalIndexed": 10
+}

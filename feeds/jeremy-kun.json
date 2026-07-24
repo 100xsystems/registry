@@ -1,0 +1,413 @@
+{
+  "feedId": "jeremy-kun",
+  "feedName": "Jeremy Kun",
+  "feedSiteUrl": "https://jeremykun.com/",
+  "feedRssUrl": "https://www.jeremykun.com/index.xml",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T06:53:31.073Z",
+  "items": [
+    {
+      "guid": "https://www.jeremykun.com/2011/06/20/featured-posts/",
+      "title": "Featured Posts",
+      "link": "https://www.jeremykun.com/2011/06/20/featured-posts/",
+      "summary": "My next book will be Practical Math for Programmers A High-Level Overview of Fully Homomorphic Encryption Searching for Riemann Hypothesis Counterexamples Linear Programming and Healthy Diets Hybrid Images Bezier Curves and Picasso",
+      "author": null,
+      "publishedAt": "2011-06-20T18:31:45.000Z"
+    },
+    {
+      "guid": "https://www.jeremykun.com/shortform/2026-05-22-1528/",
+      "title": "More whimsical OEIS sequences",
+      "link": "https://www.jeremykun.com/shortform/2026-05-22-1528/",
+      "summary": "Here are some more whimsical OEIS sequences I came across.\nXKCD 2016 joked that “OEIS keeps rejecting my submissions,” including one that gives “Integers in increasing order of width when printed in Helvetica.” Well, two days after that comic was published (2018-07-09), Hugo Pfoertner published…",
+      "author": null,
+      "publishedAt": "2026-05-22T22:28:34.000Z"
+    },
+    {
+      "guid": "https://www.jeremykun.com/2026/04/29/ckks-polynomials-the-canonical-embedding-and-encoding/",
+      "title": "CKKS — Polynomials, the Canonical Embedding, and Encoding",
+      "link": "https://www.jeremykun.com/2026/04/29/ckks-polynomials-the-canonical-embedding-and-encoding/",
+      "summary": "Table of Contents\nIn this tutorial series, I will introduce the CKKS homomorphic encryption scheme from the ground up, in rather intricate detail. Each article in this series corresponds to a pull request on a GitHub repository. The code for this article is in this pull request. Follow along by…",
+      "author": null,
+      "publishedAt": "2026-04-29T12:25:44.000Z"
+    },
+    {
+      "guid": "https://www.jeremykun.com/shortform/2026-04-13-0700/",
+      "title": "Unusual uses of OEIS sequences on GitHub",
+      "link": "https://www.jeremykun.com/shortform/2026-04-13-0700/",
+      "summary": "I went hunting for references to the OEIS in open source code, and found some weird ones.\nThere are not one, but two live-coding music frameworks that use OEIS sequences as a source for “anything that can be sequenced” in music. I’m guessing that’s used for choosing pseudorandom melodies,…",
+      "author": null,
+      "publishedAt": "2026-04-13T14:00:00.000Z"
+    },
+    {
+      "guid": "https://www.jeremykun.com/shortform/2026-04-09-0556/",
+      "title": "The OEIS meta sequence and subway stations",
+      "link": "https://www.jeremykun.com/shortform/2026-04-09-0556/",
+      "summary": "A051070 is a sequence about OEIS sequences. a(n) is the n-th term in sequence A_n (or -1 if A_n doesn’t have enough terms).\nSo the first term in A051070 is 1 because A000001 is the number of groups of order n, and that sequence has 1 as its entry in index 1. A000002 is the Kolakoski sequence (what?…",
+      "author": null,
+      "publishedAt": "2026-04-09T13:55:17.000Z"
+    },
+    {
+      "guid": "https://www.jeremykun.com/2026/04/07/deterministic-miller-rabin/",
+      "title": "Deterministic Primality Testing for Limited Bit Width",
+      "link": "https://www.jeremykun.com/2026/04/07/deterministic-miller-rabin/",
+      "summary": "Problem: Determine if a 32-bit number is prime (deterministically)\nSolution: (in C++)\n// Bases to test. Using the first 4 prime bases makes the test deterministic // for all 32-bit integers. See https://oeis.org/A014233. int64_t bases[] = {2, 3, 5, 7}; inline int countTrailingZeros(uint64_t n) { if…",
+      "author": null,
+      "publishedAt": "2026-04-07T13:00:00.000Z"
+    },
+    {
+      "guid": "https://www.jeremykun.com/2026/04/01/irrational-decision-book-review/",
+      "title": "The Irrational Decision—A Book Review",
+      "link": "https://www.jeremykun.com/2026/04/01/irrational-decision-book-review/",
+      "summary": "It’s the 5th annual April Cools! Here are my previous April Cools articles This year it’s a book review of Ben Recht’s book, The Irrational Decision: How We Gave Computers the Power to Choose For us, released Mar 10, 2026.\nThe publishing industry has a stupid name for the subcategory of non-fiction…",
+      "author": null,
+      "publishedAt": "2026-04-01T07:00:00.000Z"
+    },
+    {
+      "guid": "https://www.jeremykun.com/2025/11/17/bicyclic-matrix-matrix-multiplication-in-fully-homomorphic-encryption/",
+      "title": "Bicyclic Matrix-Matrix Multiplication in Fully Homomorphic Encryption",
+      "link": "https://www.jeremykun.com/2025/11/17/bicyclic-matrix-matrix-multiplication-in-fully-homomorphic-encryption/",
+      "summary": "In an earlier article, I covered the basic technique for performing matrix-vector multiplication in fully homomorphic encryption (FHE), known as the Halevi-Shoup diagonal method. This article covers a more recent method for matrix-matrix multiplication known as the bicyclic method.\nThe code…",
+      "author": null,
+      "publishedAt": "2025-11-17T16:41:28.000Z"
+    },
+    {
+      "guid": "https://www.jeremykun.com/2025/10/19/isl-a-primer/",
+      "title": "Integer Set Library (ISL) - A Primer",
+      "link": "https://www.jeremykun.com/2025/10/19/isl-a-primer/",
+      "summary": "Polyhedral optimization is a tool used in compilers for optimizing loop nests. While the major compilers that use this implement polyhedral optimizations from scratch,1 there is a generally-applicable open source C library called the Integer Set Library (ISL) that implements the core algorithms…",
+      "author": null,
+      "publishedAt": "2025-10-19T20:14:22.000Z"
+    },
+    {
+      "guid": "https://www.jeremykun.com/shortform/2025-07-25-0956/",
+      "title": "FHE@PDX 2025",
+      "link": "https://www.jeremykun.com/shortform/2025-07-25-0956/",
+      "summary": "On Monday, July 14th 2025, I hosted a mini-workshop on homomorphic encryption at Google’s Portland, Oregon office.\nThough Portland is a small city, it’s becoming a hub for homomorphic encryption. Intel and Google both have a presence here, as well as the hardware startup Niobium, and a few…",
+      "author": null,
+      "publishedAt": "2025-07-25T16:56:45.000Z"
+    },
+    {
+      "guid": "https://www.jeremykun.com/frequently-asked-questions-about-fhe/",
+      "title": "Frequently Asked Questions about FHE",
+      "link": "https://www.jeremykun.com/frequently-asked-questions-about-fhe/",
+      "summary": "I work on homomorphic encryption (HE or FHE for “fully” homomorphic encryption) and I have written a lot about it on this blog (see the relevant tag). This article is a collection of short answers to questions I see on various threads and news aggregators discussing FHE.\nFacts If a service uses FHE…",
+      "author": null,
+      "publishedAt": "2025-07-18T17:31:49.000Z"
+    },
+    {
+      "guid": "https://www.jeremykun.com/shortform/2025-05-13-2107/",
+      "title": "Leibniz's Dream and Dijkstra's nightmare",
+      "link": "https://www.jeremykun.com/shortform/2025-05-13-2107/",
+      "summary": "I was inspired to browse some of Edsger Dijkstra’s essays today, and came across his speech, “Under the spell of Leibniz’s Dream”.\nIt’s the sort of personal history I love to read, which gives one person’s sense of the world over a period of change. One quote that immediately struck me was his view…",
+      "author": null,
+      "publishedAt": "2025-05-13T14:23:11.000Z"
+    },
+    {
+      "guid": "https://www.jeremykun.com/2025/05/12/my-graduate-career-in-math/",
+      "title": "My Graduate Career in Math",
+      "link": "https://www.jeremykun.com/2025/05/12/my-graduate-career-in-math/",
+      "summary": "Editor’s note: This essay was originally published on Medium on 2016-03-05. I have made minor edits in this republishing and added a few small retrospective notes.\n2010–2011 (Year 0)\nI had just switched my major at Cal Poly State University from computer science to math. I wanted to double major…",
+      "author": null,
+      "publishedAt": "2025-05-12T18:35:57.000Z"
+    },
+    {
+      "guid": "https://www.jeremykun.com/shortform/2025-04-15-1239/",
+      "title": "HEIR talk at FHE.org",
+      "link": "https://www.jeremykun.com/shortform/2025-04-15-1239/",
+      "summary": "Last month I gave a talk on the HEIR compiler project at the FHE.org conference in Sofia, Bulgaria.\nThe video is on YouTube now, and the slides are public.\nI plan to write more about HEIR in the coming months, because it’s been an exciting and fulfilling ride!",
+      "author": null,
+      "publishedAt": "2025-04-15T19:39:13.000Z"
+    },
+    {
+      "guid": "https://www.jeremykun.com/2025/04/01/does-baby-have-hat/",
+      "title": "Does Baby Have Hat",
+      "link": "https://www.jeremykun.com/2025/04/01/does-baby-have-hat/",
+      "summary": "It’s April Cools! Last year I wrote about parenting, in 2023 about friendship bracelets. and in 2022 about cocktails. This year it’s a bit of a meandering stroll through some ideas around mutual aid and self-reliance.\nMaternity wards If you walk around the maternity ward at Kaiser Permanente’s…",
+      "author": null,
+      "publishedAt": "2025-04-01T07:00:00.000Z"
+    },
+    {
+      "guid": "https://www.jeremykun.com/shortform/2025-02-23-1057/",
+      "title": "My 4-year-old declares 36 the best number",
+      "link": "https://www.jeremykun.com/shortform/2025-02-23-1057/",
+      "summary": "My four-year-old son has declared 36 to be the best number.\nHis reason: 36 is the only number (he knows of) that is both a square and a staircase number AND an up-and-down-staircase number.\n“Staircase numbers” are what he calls triangular numbers (numbers that are the sum of the first $n$…",
+      "author": null,
+      "publishedAt": "2025-02-23T18:57:48.000Z"
+    },
+    {
+      "guid": "https://www.jeremykun.com/shortform/2025-02-09-1947/",
+      "title": "Anyone know of an approachable proof of the Caratheodory-Fejer theorem?",
+      "link": "https://www.jeremykun.com/shortform/2025-02-09-1947/",
+      "summary": "A colleague of mine recently lent a hand implementing a polynomial approximation routine I could port to our compiler, though it wasn’t the method I was expecting.\nAs I had written about previously, I was studying the Remez algorithm and implementing a prototype in Python. Remez approximation…",
+      "author": null,
+      "publishedAt": "2025-02-10T03:47:59.000Z"
+    },
+    {
+      "guid": "https://www.jeremykun.com/shortform/2025-02-06-2124/",
+      "title": "Explainable Linear Programs",
+      "link": "https://www.jeremykun.com/shortform/2025-02-06-2124/",
+      "summary": "Back in 2020, when I worked in the supply chain side of Google, I had a fun and impactful side project related to human-level explanations of linear programs.\nA linear program is a mathematical model that defines some number of variables, linear constraints, and a linear objective function. When…",
+      "author": null,
+      "publishedAt": "2025-02-07T05:24:38.000Z"
+    },
+    {
+      "guid": "https://www.jeremykun.com/shortform/2025-01-07-1747/",
+      "title": "I'll be at the JMM",
+      "link": "https://www.jeremykun.com/shortform/2025-01-07-1747/",
+      "summary": "I’ll be at the Joint Mathematics Meeting in Seattle (starting tomorrow).\nIf you see me there, say hi! I will have a very light schedule, plenty of time for coffee chats.\nI’ll be attending many of the crypto sessions for the homomorphic encryption talks. And on Thursday at 3PM, I’ll be at the…",
+      "author": null,
+      "publishedAt": "2025-01-08T01:47:21.000Z"
+    },
+    {
+      "guid": "https://www.jeremykun.com/shortform/2025-01-04-1011/",
+      "title": "Epiphanies from Tape Measures",
+      "link": "https://www.jeremykun.com/shortform/2025-01-04-1011/",
+      "summary": "The Hyperfixed Podcast had a lovely episode recently about tape measures.\nIt started from “why does my tape measure seem to always be off a little bit” and went all the way to the inherent limitations of physical measurement at small scales.\nIn there is an awesome quote by Adam Savage, “I had…",
+      "author": null,
+      "publishedAt": "2025-01-04T18:11:54.000Z"
+    },
+    {
+      "guid": "https://www.jeremykun.com/fhe-and-the-public/",
+      "title": "Fully Homomorphic Encryption and the Public",
+      "link": "https://www.jeremykun.com/fhe-and-the-public/",
+      "summary": "In this living document, I will document reactions to uses of homomorphic encryption by members of the public. By “member of the public,” I mean people who may be technical, but are not directly involved in the development or deployment of homomorphic encryption systems. This includes journalists,…",
+      "author": null,
+      "publishedAt": "2025-01-03T07:00:00.000Z"
+    },
+    {
+      "guid": "https://www.jeremykun.com/shortform/2024-11-15-0831/",
+      "title": "The last few months in HEIR",
+      "link": "https://www.jeremykun.com/shortform/2024-11-15-0831/",
+      "summary": "In my little corner of the FHE world, things have been steadily heating up.\nFor those who don’t know, my main work project right now is HEIR (Homomorphic Encryption Intermediate Representation), a compiler toolchain for fully homomorphic encryption (FHE). For an extended introduction see this talk…",
+      "author": null,
+      "publishedAt": "2024-11-15T18:25:51.000Z"
+    },
+    {
+      "guid": "https://www.jeremykun.com/2019/03/26/attention-spans-for-math-and-stories/",
+      "title": "Attention spans for math and stories",
+      "link": "https://www.jeremykun.com/2019/03/26/attention-spans-for-math-and-stories/",
+      "summary": "Editor’s note: This essay was originally published in 2019. I have made minor edits in this republishing.\nThere was a MathOverflow thread about mathematically interesting games for 5–6 year olds. A lot of the discussion revolved around how young age 5 really is, and how we should temper…",
+      "author": null,
+      "publishedAt": "2024-11-15T16:28:26.000Z"
+    },
+    {
+      "guid": "https://www.jeremykun.com/2022/11/01/carnival-of-mathematics-233/",
+      "title": "Carnival of Mathematics #233",
+      "link": "https://www.jeremykun.com/2022/11/01/carnival-of-mathematics-233/",
+      "summary": "Welcome to the 233rd Carnival of Mathematics!\nWho can forget 233, the 6th Fibonacci prime? Hey, not all numbers are interesting. Don’t ask me about the smallest positive uninteresting number. You can’t make it interesting with your feeble mind tricks! Anyway, on to the fun.\nProvers and Shakers The…",
+      "author": null,
+      "publishedAt": "2024-11-01T07:00:00.000Z"
+    },
+    {
+      "guid": "https://www.jeremykun.com/2024/10/30/how-this-blog-does-indieweb/",
+      "title": "How This Blog Does IndieWeb",
+      "link": "https://www.jeremykun.com/2024/10/30/how-this-blog-does-indieweb/",
+      "summary": "This article will explain how the blog is organized at a technical level, and show how I implemented various IndieWeb features.\nTable of Contents:\nMotivation Structure and Deployment Static search index Running scripts via GitHub Actions Social media syndication and the “shortform” section Links to…",
+      "author": null,
+      "publishedAt": "2024-10-31T05:22:12.000Z"
+    },
+    {
+      "guid": "https://www.jeremykun.com/shortform/2024-10-15-1543/",
+      "title": "LWE Attack Benchmarking Project",
+      "link": "https://www.jeremykun.com/shortform/2024-10-15-1543/",
+      "summary": "Kristin Lauter and her colleagues at Facebook research recently announced a project to benchmark attacks against LWE.\nThe announcement was on the post-quanum crypto mailing list.\nThey state: “Our approach is motivated by the need to study more carefully the effect on security of using small secrets…",
+      "author": null,
+      "publishedAt": "2024-10-15T22:43:03.000Z"
+    },
+    {
+      "guid": "https://www.jeremykun.com/shortform/2024-09-12-1502/",
+      "title": "Dynamic Programming Fail",
+      "link": "https://www.jeremykun.com/shortform/2024-09-12-1502/",
+      "summary": "This is a story about a failure to apply dynamic programming to a woodworking project.\nI’ve been building a shed in my backyard, and for one section I decided to build the floor by laying 2x4 planks side by side. I didn’t feel the need to join them with tongue-and-groove, but I did notice that…",
+      "author": null,
+      "publishedAt": "2024-09-12T22:02:05.000Z"
+    },
+    {
+      "guid": "https://www.jeremykun.com/2024/09/06/packing-matrix-vector-multiplication-in-fhe/",
+      "title": "Packing Matrix-Vector Multiplication in Fully Homomorphic Encryption",
+      "link": "https://www.jeremykun.com/2024/09/06/packing-matrix-vector-multiplication-in-fhe/",
+      "summary": "In my recent overview of homomorphic encryption, I underemphasized the importance of data layout when working with arithmetic (SIMD-style) homomorphic encryption schemes. In the FHE world, the name given to data layout strategies is called “packing,” because it revolves around putting multiple…",
+      "author": null,
+      "publishedAt": "2024-09-07T04:18:09.000Z"
+    },
+    {
+      "guid": "https://www.jeremykun.com/2024/09/02/shift-networks/",
+      "title": "Shift Networks",
+      "link": "https://www.jeremykun.com/2024/09/02/shift-networks/",
+      "summary": "In my recent overview of homomorphic encryption, I underemphasized the importance of data layout when working with arithmetic (SIMD-style) homomorphic encryption schemes. In the FHE world, the name given to data layout strategies is called “packing,” because it revolves around putting multiple…",
+      "author": null,
+      "publishedAt": "2024-09-02T21:01:03.000Z"
+    },
+    {
+      "guid": "https://www.jeremykun.com/shortform/2024-08-07-1414/",
+      "title": "Webmentions and POSSE improvements",
+      "link": "https://www.jeremykun.com/shortform/2024-08-07-1414/",
+      "summary": "This blog now accepts webmentions.\nI used webmention.io and webmention.js for live rendering. You can see an example at the end of my old Bezier Curves post.\nAfter my initial experiments with POSSE, I’ve made a few improvements to the system. Now shortform posts are syndicated to Mastodon, Bluesky,…",
+      "author": null,
+      "publishedAt": "2024-08-07T21:14:00.000Z"
+    },
+    {
+      "guid": "https://www.jeremykun.com/2024/08/04/mlir-pdll/",
+      "title": "MLIR — Defining Patterns with PDLL",
+      "link": "https://www.jeremykun.com/2024/08/04/mlir-pdll/",
+      "summary": "Table of Contents\nIn this article I’ll show how to use PDLL, a tool for defining MLIR patterns, which itself is built with MLIR. PDLL is intended to be a replacement for defining patterns in tablegen, though there are few public examples of its use. In fact, the main impetus for PDLL is that…",
+      "author": null,
+      "publishedAt": "2024-08-04T14:00:00.000Z"
+    },
+    {
+      "guid": "https://www.jeremykun.com/shortform/2024-08-02-1551/",
+      "title": "Polynomial dialect and mlir-opt tutorial upstreamed",
+      "link": "https://www.jeremykun.com/shortform/2024-08-02-1551/",
+      "summary": "I’ve been upstreaming a bit of my compiler work to the MLIR project.\nYesterday, I merged in a tutorial on mlir-opt, the main debugging tool for running passes on MLIR code. This is roughly the upstreamable parts of my first MLIR tutorial entry, MLIR — Running and Testing a Lowering. Mehdi Amini…",
+      "author": null,
+      "publishedAt": "2024-08-02T22:51:23.000Z"
+    },
+    {
+      "guid": "https://www.jeremykun.com/fhe-in-production/",
+      "title": "Fully Homomorphic Encryption in Production Systems",
+      "link": "https://www.jeremykun.com/fhe-in-production/",
+      "summary": "In this living document, I will list all production systems I’m aware of that use fully homomorphic encryption (FHE). For background on FHE, see my overview of the field.\nIf you have any information about production FHE systems not in this list, or corrections to information in this list, please…",
+      "author": null,
+      "publishedAt": "2024-07-31T07:00:00.000Z"
+    },
+    {
+      "guid": "https://www.jeremykun.com/shortform/2024-07-27-1149/",
+      "title": "Ben Recht on Meehl's Philosophical Psychology",
+      "link": "https://www.jeremykun.com/shortform/2024-07-27-1149/",
+      "summary": "Ben Recht, a computer science professor at UC Berkeley, recently wrapped up a 3-month series of blog posts on Paul Meehl’s “Philosophical Psychology.”\nRecht has a table of contents for his blog series. It loosely tracks a set of lectures that Meehl gave in 1989 at the University of Minnesota. In…",
+      "author": null,
+      "publishedAt": "2024-07-27T18:49:42.000Z"
+    },
+    {
+      "guid": "https://www.jeremykun.com/shortform/2024-06-25-1534/",
+      "title": "Detecting field names with C++ metaprogramming",
+      "link": "https://www.jeremykun.com/shortform/2024-06-25-1534/",
+      "summary": "A quick note: you can use C++11 templates to detect struct fields by name and type, and statically branch on them. I first heard of this solution from breeze1990.\nSay I want to detect if a struct has a field size of type int. Create two template instantiations of the same name, here HasStaticSize…",
+      "author": null,
+      "publishedAt": "2024-06-25T22:34:59.000Z"
+    },
+    {
+      "guid": "https://www.jeremykun.com/shortform/2024-06-21-1107/",
+      "title": "Barycentric Lagrange Interpolation",
+      "link": "https://www.jeremykun.com/shortform/2024-06-21-1107/",
+      "summary": "In my studies of the Remez algorithm, I learned about the barycentric Lagrange interpolation formula.\nThe context is finding a polynomial of degree at most $n$ that passes through $n+1$ points $(x_0, y_0), \\dots, (x_n, y_n)$. The classical Lagrange interpolation formula is what you’d write down if…",
+      "author": null,
+      "publishedAt": "2024-06-21T18:07:50.000Z"
+    },
+    {
+      "guid": "https://www.jeremykun.com/shortform/2024-06-06-1158/",
+      "title": "Random life updates",
+      "link": "https://www.jeremykun.com/shortform/2024-06-06-1158/",
+      "summary": "I added Twitter syndication, and because I have nothing to test it with I’ll share some random life updates.\nMy daughter was born recently, which means I’m on paternity leave for a few months. Hopefully in the liminal hours of sleep training, I’ll have some time to work on my book. Or at least…",
+      "author": null,
+      "publishedAt": "2024-06-06T18:58:36.000Z"
+    },
+    {
+      "guid": "https://www.jeremykun.com/shortform/2024-05-17-1555/",
+      "title": "Math databases",
+      "link": "https://www.jeremykun.com/shortform/2024-05-17-1555/",
+      "summary": "Steven Clontz informed me of an effort he’s involved in called code4math.\nIt’s described as a professional organization for the advancement of mathematical research through building non-research software infrastructure. By that he means, for example, writing software packages like Macaulay2 or…",
+      "author": null,
+      "publishedAt": "2024-05-17T22:55:50.000Z"
+    },
+    {
+      "guid": "https://www.jeremykun.com/shortform/2024-05-12-2028/",
+      "title": "Experiments with POSSE",
+      "link": "https://www.jeremykun.com/shortform/2024-05-12-2028/",
+      "summary": "POSSE stands for Publish (on your) Own Site, Syndicate Elsewhere. I first heard about it from Cory Doctorow.\nI’m experimenting with automation to convert posts tagged shortform into Mastodon threads (I’m mathstodon.xyz/@j2kun). I’m using Hugo as a static site generator, with the source a (private)…",
+      "author": null,
+      "publishedAt": "2024-05-13T03:28:54.000Z"
+    },
+    {
+      "guid": "https://www.jeremykun.com/shortform/2024-05-06-1018/",
+      "title": "Remez and function approximations",
+      "link": "https://www.jeremykun.com/shortform/2024-05-06-1018/",
+      "summary": "I’ve been learning recently about how to approximate functions by low-degree polynomials.\nThis is useful in fully homomorphic encryption (FHE) in the context of “arithmetic FHE” (see my FHE overview article), where the computational model makes low-degree polynomials cheap to evaluate and…",
+      "author": null,
+      "publishedAt": "2024-05-06T17:18:29.000Z"
+    },
+    {
+      "guid": "https://www.jeremykun.com/2024/05/04/fhe-overview/",
+      "title": "A High-Level Technical Overview of Fully Homomorphic Encryption",
+      "link": "https://www.jeremykun.com/2024/05/04/fhe-overview/",
+      "summary": "About two years ago, I switched teams at Google to focus on fully homomorphic encryption (abbreviated FHE, or sometimes HE). Since then I’ve got to work on a lot of interesting projects, learning along the way about post-quantum cryptography, compiler design, and the ins and outs of fully…",
+      "author": null,
+      "publishedAt": "2024-05-04T15:30:00.000Z"
+    },
+    {
+      "guid": "https://www.jeremykun.com/2024/04/01/unusual-tips-for-parenting-toddlers/",
+      "title": "Unusual Tips for Parenting Toddlers",
+      "link": "https://www.jeremykun.com/2024/04/01/unusual-tips-for-parenting-toddlers/",
+      "summary": "It’s April Cools! Last year I wrote about friendship bracelets and the year before about cocktails. This year it’s parenting.\nParenting articles are a dime a dozen and always bury the lede behind a long story. I’ll skip that.\nHow to think about your child and your role as a parent These are framing…",
+      "author": null,
+      "publishedAt": "2024-04-01T07:00:00.000Z"
+    },
+    {
+      "guid": "https://www.jeremykun.com/2024/03/08/tabletop-games-based-on-math-problems/",
+      "title": "Tabletop Games Based on Math Problems",
+      "link": "https://www.jeremykun.com/2024/03/08/tabletop-games-based-on-math-problems/",
+      "summary": "There’s a family of tabletop games that are based directly on a nontrivial mathematics problem. As a casual and fun way to inaugurate my new blog (migrated from Wordpress to Hugo, after my work on getting better LaTeX mathmode support in Hugo), I thought I’d write a short listicle about them, so…",
+      "author": null,
+      "publishedAt": "2024-03-09T04:06:19.000Z"
+    },
+    {
+      "guid": "https://www.jeremykun.com/2023/11/15/mlir-a-global-optimization-and-dataflow-analysis/",
+      "title": "MLIR — A Global Optimization and Dataflow Analysis",
+      "link": "https://www.jeremykun.com/2023/11/15/mlir-a-global-optimization-and-dataflow-analysis/",
+      "summary": "Table of Contents\nIn this article we’ll implement a global optimization pass, and show how to use the dataflow analysis framework to verify the results of our optimization.\nThe code for this article is in this pull request, and as usual the commits are organized to be read in order.\nThe noisy…",
+      "author": null,
+      "publishedAt": "2023-11-15T11:20:52.000Z"
+    },
+    {
+      "guid": "https://www.jeremykun.com/2023/11/01/mlir-lowering-through-llvm/",
+      "title": "MLIR — Lowering through LLVM",
+      "link": "https://www.jeremykun.com/2023/11/01/mlir-lowering-through-llvm/",
+      "summary": "Table of Contents\nIn the last article we lowered our custom poly dialect to standard MLIR dialects. In this article we’ll continue lowering it to LLVM IR, exporting it out of MLIR to LLVM, and then compiling to x86 machine code.\nThe code for this article is in this pull request, and as usual the…",
+      "author": null,
+      "publishedAt": "2023-11-01T07:00:00.000Z"
+    },
+    {
+      "guid": "https://www.jeremykun.com/2023/10/23/mlir-dialect-conversion/",
+      "title": "MLIR — Dialect Conversion",
+      "link": "https://www.jeremykun.com/2023/10/23/mlir-dialect-conversion/",
+      "summary": "Table of Contents\nIn previous articles we defined a dialect, and wrote various passes to optimize and canonicalize a program using that dialect. However, one of the main tenets of MLIR is “incremental lowering,” the idea that there are lots of levels of IR granularity, and you incrementally lower…",
+      "author": null,
+      "publishedAt": "2023-10-23T06:00:00.000Z"
+    },
+    {
+      "guid": "https://www.jeremykun.com/2023/10/14/socks-a-matching-game-based-on-an-additive-combinatorics-problem/",
+      "title": "Socks, a matching game based on an additive combinatorics problem",
+      "link": "https://www.jeremykun.com/2023/10/14/socks-a-matching-game-based-on-an-additive-combinatorics-problem/",
+      "summary": "Can you find a set of cards among these six, such that the socks on the chosen cards can be grouped into matching pairs? (Duplicate pairs of the same sock are OK)\nSpoilers: If the cards are indexed as 1 2 3 4 5 6 Then the following three subsets work: $\\{ 1, 2, 4, 5, 6 \\}$, $\\{ 2, 3, 6 \\}$, and $\\{…",
+      "author": null,
+      "publishedAt": "2023-10-14T06:00:00.000Z"
+    },
+    {
+      "guid": "https://www.jeremykun.com/2023/09/20/mlir-canonicalizers-and-declarative-rewrite-patterns/",
+      "title": "MLIR — Canonicalizers and Declarative Rewrite Patterns",
+      "link": "https://www.jeremykun.com/2023/09/20/mlir-canonicalizers-and-declarative-rewrite-patterns/",
+      "summary": "Table of Contents\nIn a previous article we defined folding functions, and used them to enable some canonicalization and the sccp constant propagation pass for the poly dialect. This time we’ll see how to add more general canonicalization patterns.\nThe code for this article is in this pull request,…",
+      "author": null,
+      "publishedAt": "2023-09-20T08:00:00.000Z"
+    },
+    {
+      "guid": "https://www.jeremykun.com/2023/09/18/encoding-schemes-in-fhe/",
+      "title": "Encoding Schemes in FHE",
+      "link": "https://www.jeremykun.com/2023/09/18/encoding-schemes-in-fhe/",
+      "summary": "In cryptography, we need a distinction between a cleartext and a plaintext. A cleartext is a message in its natural form. A plaintext is a cleartext that is represented in a specific way to prepare it for encryption in a specific scheme. The process of taking a cleartext and turning it into a…",
+      "author": null,
+      "publishedAt": "2023-09-18T11:08:39.000Z"
+    },
+    {
+      "guid": "https://www.jeremykun.com/2023/09/13/mlir-verifiers/",
+      "title": "MLIR — Verifiers",
+      "link": "https://www.jeremykun.com/2023/09/13/mlir-verifiers/",
+      "summary": "Table of Contents\nLast time we defined folders and used them to enable some canonicalization and the sccp constant propagation pass for the poly dialect. This time we’ll add some additional safety checks to the dialect in the form of verifiers.\nThe code for this article is in this pull request, and…",
+      "author": null,
+      "publishedAt": "2023-09-13T09:00:00.000Z"
+    }
+  ],
+  "totalIndexed": 50
+}

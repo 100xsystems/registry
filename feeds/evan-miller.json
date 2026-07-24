@@ -1,0 +1,245 @@
+{
+  "feedId": "evan-miller",
+  "feedName": "Evan Miller",
+  "feedSiteUrl": "http://www.evanmiller.org/",
+  "feedRssUrl": "http://www.evanmiller.org/news.xml",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T06:49:49.392Z",
+  "items": [
+    {
+      "guid": "evanmiller.org/news/quantiles20240805",
+      "title": "Likelihood-ratio inference on differences in quantiles",
+      "link": "https://arxiv.org/abs/2401.10233",
+      "summary": "Quantiles can represent key operational and business metrics, but the computational challenges associated with inference has hampered their adoption in online experimentation. In a new paper, I present a two-sample difference-in-quantile hypothesis test and confidence interval based on a…",
+      "author": null,
+      "publishedAt": "2024-08-05T10:15:00.000Z"
+    },
+    {
+      "guid": "evanmiller.org/news/attention20230724",
+      "title": "Attention Is Off By One",
+      "link": "https://www.evanmiller.org/attention-is-off-by-one.html",
+      "summary": "Transformer has a mathematical bug that has been overlooked for 6+ years. I propose fixing its outliers with two new devices, Softmax One and QuietAttention: Attention Is Off By One",
+      "author": null,
+      "publishedAt": "2023-07-24T16:05:00.000Z"
+    },
+    {
+      "guid": "evanmiller.org/news/bootstrap20220909",
+      "title": "Formulas for Bootstrapping Sample Medians",
+      "link": "https://www.evanmiller.org/bootstrapping-sample-medians.html",
+      "summary": "A paper from Spotify on quantile estimation has been making the rounds. I take a stab at their critical conjecture, and uncover a few Formulas for Bootstrapping Sample Medians.",
+      "author": null,
+      "publishedAt": "2022-09-09T14:05:00.000Z"
+    },
+    {
+      "guid": "evanmiller.org/news/cuped20220714",
+      "title": "You Can’t Spell CUPED Without Frisch-Waugh-Lovell",
+      "link": "https://www.evanmiller.org/you-cant-spell-cuped-without-frisch-waugh-lovell.html",
+      "summary": "A/B tests run faster with CUPED. Here I explain the underlying math, and use it to invent an even better variance-reduction technique for online experiments: You Can’t Spell CUPED Without Frisch-Waugh-Lovell",
+      "author": null,
+      "publishedAt": "2022-07-15T00:35:00.000Z"
+    },
+    {
+      "guid": "evanmiller.org/news/floatingpoint20200713",
+      "title": "The Floppy Disk of Floating Point",
+      "link": "https://www.evanmiller.org/the-floppy-disk-of-floating-point.html",
+      "summary": "An essay that bids farewell to x87, a computing architecture too long for this world: The Floppy Disk of Floating Point",
+      "author": null,
+      "publishedAt": "2020-07-13T13:35:00.000Z"
+    },
+    {
+      "guid": "evanmiller.org/news/abtesting20200408",
+      "title": "Updated: Formulas for Bayesian A/B Testing",
+      "link": "https://www.evanmiller.org/bayesian-ab-testing.html",
+      "summary": "I’ve updated Formulas for Bayesian A/B Testing to include a new equation for analyzing four-pronged (A/B/C/D) tests.",
+      "author": null,
+      "publishedAt": "2020-04-08T11:15:00.000Z"
+    },
+    {
+      "guid": "evanmiller.org/news/slower20200206",
+      "title": "SlowerLogLog",
+      "link": "https://www.evanmiller.org/slower-log-log.html",
+      "summary": "What rolls down stairs and counts unique items imprecisely? HyperLogLog. Also SlowerLogLog",
+      "author": null,
+      "publishedAt": "2020-02-06T18:00:00.000Z"
+    },
+    {
+      "guid": "evanmiller.org/news/cather20190324",
+      "title": "Preface to A Lost Lady",
+      "link": "https://www.evanmiller.org/prefaces/a-lost-lady.html",
+      "summary": "A Lost Lady, a Willa Cather novel which entered the public domain this year, is a gentle study in decline on the former frontier. Read my Preface to A Lost Lady",
+      "author": null,
+      "publishedAt": "2019-03-24T18:55:00.000Z"
+    },
+    {
+      "guid": "evanmiller.org/news/huxley20190318",
+      "title": "Preface to Brave New World",
+      "link": "https://www.evanmiller.org/prefaces/brave-new-world.html",
+      "summary": "Brave New World reacquainted political philosophy with the prurient, after a two thousand year hiatus. Read my Preface to Brave New World",
+      "author": null,
+      "publishedAt": "2019-03-18T17:55:00.000Z"
+    },
+    {
+      "guid": "evanmiller.org/news/timemachine20190312",
+      "title": "Preface to The Time Machine",
+      "link": "https://www.evanmiller.org/prefaces/the-time-machine.html",
+      "summary": "The Time Machine is my favorite science fiction novella. What makes it special? Read my Preface to The Time Machine",
+      "author": null,
+      "publishedAt": "2019-03-12T19:55:00.000Z"
+    },
+    {
+      "guid": "evanmiller.org/news/frankenstein20190311",
+      "title": "Preface to Frankenstein",
+      "link": "https://www.evanmiller.org/prefaces/frankenstein.html",
+      "summary": "Frankenstein turned two hundred last year. Why is it still relevant? My very own Preface to Frankenstein",
+      "author": null,
+      "publishedAt": "2019-03-12T13:55:00.000Z"
+    },
+    {
+      "guid": "evanmiller.org/news/amex20190121",
+      "title": "The Amex EveryDay Bonus: A Stochastic Valuation Model",
+      "link": "https://www.evanmiller.org/amex-everyday-bonus-stochastic-valuation.html",
+      "summary": "How much is the EveryDay Bonus from American Express worth? A probabilistic investigation: The Amex EveryDay Bonus: A Stochastic Valuation Model",
+      "author": null,
+      "publishedAt": "2019-01-21T20:00:00.000Z"
+    },
+    {
+      "guid": "evanmiller.org/news/swift20181229",
+      "title": "Things That Bother Me About Swift",
+      "link": "https://www.evanmiller.org/things-that-bother-me-about-swift.html",
+      "summary": "I’m learning Swift. Some minor grievances I have with the language: Things That Bother Me About Swift",
+      "author": null,
+      "publishedAt": "2018-12-29T18:50:00.000Z"
+    },
+    {
+      "guid": "evanmiller.org/news/macos20181219",
+      "title": "Things That Bother Me About macOS",
+      "link": "https://www.evanmiller.org/things-that-bother-me-about-macos.html",
+      "summary": "In honor of the upcoming Festivus, I am sharing some Mac-related grievances: Things That Bother Me About macOS",
+      "author": null,
+      "publishedAt": "2018-12-20T01:36:00.000Z"
+    },
+    {
+      "guid": "evanmiller.org/news/perl20170813",
+      "title": "A Review of Perl 6",
+      "link": "https://www.evanmiller.org/a-review-of-perl-6.html",
+      "summary": "I spent a few weeks with Perl 6. Here’s what I think: A Review of Perl 6",
+      "author": null,
+      "publishedAt": "2017-08-13T18:05:00.000Z"
+    },
+    {
+      "guid": "evanmiller.org/news/perl20170725",
+      "title": "Why I’m Learning Perl 6",
+      "link": "https://www.evanmiller.org/why-im-learning-perl-6.html",
+      "summary": "The Perl 6 virtual machine is a promising piece of technology: Why I’m Learning Perl 6",
+      "author": null,
+      "publishedAt": "2017-07-25T14:50:00.000Z"
+    },
+    {
+      "guid": "evanmiller.org/news/adventure20170423",
+      "title": "Adventure Games and Eigenvalues",
+      "link": "https://www.evanmiller.org/adventure-games-and-eigenvalues.html",
+      "summary": "Identifying and quantifying dead ends, the bane of all adventure game players: Adventure Games and Eigenvalues",
+      "author": null,
+      "publishedAt": "2017-04-23T10:10:00.000Z"
+    },
+    {
+      "guid": "evanmiller.org/news/tablets20161204",
+      "title": "Big Tablets Are Coming",
+      "link": "https://www.evanmiller.org/big-tablets-are-coming.html",
+      "summary": "Reflections on the Microsoft Surface Studio and Apple’s inevitable giant iPad: Big Tablets Are Coming",
+      "author": null,
+      "publishedAt": "2016-12-05T06:10:00.000Z"
+    },
+    {
+      "guid": "evanmiller.org/news/c20160810",
+      "title": "Type Punning Functions in C",
+      "link": "https://www.evanmiller.org/type-punning-functions-in-c.html",
+      "summary": "Making C more flexible, with the help of x86_64 calling conventions: Type Punning Functions in C",
+      "author": null,
+      "publishedAt": "2016-08-10T15:20:00.000Z"
+    },
+    {
+      "guid": "evanmiller.org/news/elixir20160426",
+      "title": "Elixir RAM and the Template of Doom",
+      "link": "https://www.evanmiller.org/elixir-ram-and-the-template-of-doom.html",
+      "summary": "A systems-y look at HTML template rendering: Elixir RAM and the Template of Doom",
+      "author": null,
+      "publishedAt": "2016-04-26T14:20:00.000Z"
+    },
+    {
+      "guid": "evanmiller.org/news/splatoon20160216",
+      "title": "Splatoon’s Ranking System Is Still Broken",
+      "link": "https://www.evanmiller.org/splatoons-ranking-system-is-still-broken.html",
+      "summary": "Nintendo keeps trying to fix Splatoon’s ranking system. They won’t succeed without a solid understanding of linear algebra. Read more: Splatoon’s Ranking System Is Still Broken",
+      "author": null,
+      "publishedAt": "2016-02-16T18:25:00.000Z"
+    },
+    {
+      "guid": "evanmiller.org/news/abtesting20151013",
+      "title": "Simple Sequential A/B Testing",
+      "link": "https://www.evanmiller.org/sequential-ab-testing.html",
+      "summary": "Cut your A/B sample sizes in half, using this one weird trick: Simple Sequential A/B Testing",
+      "author": null,
+      "publishedAt": "2015-10-13T12:15:00.000Z"
+    },
+    {
+      "guid": "evanmiller.org/news/abtesting20151003",
+      "title": "Updated: Formulas for Bayesian A/B Testing",
+      "link": "https://www.evanmiller.org/bayesian-ab-testing.html",
+      "summary": "I’ve added several new formulas to “A Formula for A/B Testing” (now known as Formulas for Bayesian A/B Testing). In addition to including the count data formula on the page, I have extended both formulas to work with three-pronged tests, that is, A/B/C tests.",
+      "author": null,
+      "publishedAt": "2015-10-03T12:50:00.000Z"
+    },
+    {
+      "guid": "evanmiller.org/news/splatoon20150720",
+      "title": "Evaluating Splatoon’s Ranking System",
+      "link": "https://www.evanmiller.org/evaluating-splatoons-ranking-system.html",
+      "summary": "Evaluating Splatoon’s Ranking System — Using probability theory to uncover a subtle bug in Splatoon.",
+      "author": null,
+      "publishedAt": "2015-07-21T00:30:00.000Z"
+    },
+    {
+      "guid": "evanmiller.org/news/tweets20150714",
+      "title": "Inferring Tweet Quality From Retweets",
+      "link": "https://www.evanmiller.org/inferring-tweet-quality-from-retweets.html",
+      "summary": "Inferring Tweet Quality From Retweets — Modeling tweets, retweets, and the passage of time.",
+      "author": null,
+      "publishedAt": "2015-07-18T03:15:00.000Z"
+    },
+    {
+      "guid": "evanmiller.org/news/upvotes20150714",
+      "title": "Ranking News Items With Upvotes",
+      "link": "https://www.evanmiller.org/ranking-news-items-with-upvotes.html",
+      "summary": "Ranking News Items With Upvotes — A formula for social news websites.",
+      "author": null,
+      "publishedAt": "2015-07-14T19:15:00.000Z"
+    },
+    {
+      "guid": "evanmiller.org/news/reddit20150714",
+      "title": "Deriving the Reddit Formula",
+      "link": "https://www.evanmiller.org/deriving-the-reddit-formula.html",
+      "summary": "Deriving the Reddit Formula — What can expected-utility theory tell us about Reddit’s “hot” formula?",
+      "author": null,
+      "publishedAt": "2015-07-14T15:15:00.000Z"
+    },
+    {
+      "guid": "evanmiller.org/news/rust20150514",
+      "title": "A Taste of Rust",
+      "link": "https://www.evanmiller.org/a-taste-of-rust.html",
+      "summary": "A Taste of Rust — I tried Rust, and it was better than eating a bucket of nails.",
+      "author": null,
+      "publishedAt": "2015-05-14T17:25:00.000Z"
+    },
+    {
+      "guid": "evanmiller.org/news/go20150421",
+      "title": "Four Days of Go",
+      "link": "https://www.evanmiller.org/four-days-of-go.html",
+      "summary": "Four Days of Go — If you see the Go gopher, tell him I would like my pajamas back.",
+      "author": null,
+      "publishedAt": "2015-04-21T22:55:00.000Z"
+    }
+  ],
+  "totalIndexed": 29
+}

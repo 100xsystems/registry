@@ -1,0 +1,69 @@
+{
+  "feedId": "ian-hummel",
+  "feedName": "Ian Hummel",
+  "feedSiteUrl": "https://themodernlife.github.io/",
+  "feedRssUrl": "https://themodernlife.github.io/feed.xml",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T06:51:33.673Z",
+  "items": [
+    {
+      "guid": "http://themodernlife.net/scala/hadoop/hdfs/sclading/flink/streaming/realtime/emr/aws/2016/01/06/running-apache-flink-on-amazon-elastic-mapreduce/",
+      "title": "Running Apache Flink on Amazon Elastic Mapreduce",
+      "link": "http://themodernlife.net/scala/hadoop/hdfs/sclading/flink/streaming/realtime/emr/aws/2016/01/06/running-apache-flink-on-amazon-elastic-mapreduce/",
+      "summary": "I love really Amazon EMR.  Over the years it’s grown from being “Hadoop on-demand” to a full-fledged cluster management system for running OSS big-data apps (Hadoop MR of course, but also Spark, Hue, Hive, Pig, Oozie and more).\nWhile Hadoop out of the box supports reading from S3, EMR has a…",
+      "author": null,
+      "publishedAt": "2016-01-06T08:15:13.000Z"
+    },
+    {
+      "guid": "http://themodernlife.net/scala/hadoop/hdfs/sclading/flink/streaming/realtime/2015/12/20/running-scalding-jobs-on-apache-flink/",
+      "title": "Running Scalding jobs on Apache Flink",
+      "link": "http://themodernlife.net/scala/hadoop/hdfs/sclading/flink/streaming/realtime/2015/12/20/running-scalding-jobs-on-apache-flink/",
+      "summary": "My previous post showed a very simple Scalding workflow. Apache Flink is a real time streaming framework that’s very promising.  It also supports running Cascading workflows with very little modification.\nSurely there must be some way to run a Scalding job on top of Flink?  Turns out… YES!\nIn a…",
+      "author": null,
+      "publishedAt": "2015-12-20T08:15:13.000Z"
+    },
+    {
+      "guid": "http://themodernlife.net/scala/hadoop/hdfs/sclading/2015/12/20/getting-started-with-scalding/",
+      "title": "Getting started with Scalding",
+      "link": "http://themodernlife.net/scala/hadoop/hdfs/sclading/2015/12/20/getting-started-with-scalding/",
+      "summary": "I’ve been using Scalding for the last few years and really love how simple it makes writing scalalbe data processing jobs.  I think many of the issues beginners have with Scalding relate to project setup.  I hope this post simplifies things for people so they can started with less hassle.\nBuilding…",
+      "author": null,
+      "publishedAt": "2015-12-20T08:15:13.000Z"
+    },
+    {
+      "guid": "http://themodernlife.net/scala/spark/hadoop/hdfs/2014/09/28/spark-input-filename/",
+      "title": "Getting the current filename with Spark and HDFS",
+      "link": "http://themodernlife.net/scala/spark/hadoop/hdfs/2014/09/28/spark-input-filename/",
+      "summary": "It’s occasionally useful when writing map/reduce jobs to get a hold of the current filename that’s being processed.\nThere’s a few ways to do this, depending on the version of Spark that you’re using.\nSpark 1.1.0 introduced a new method on HadoopRDD\nthat makes this super easy:\nimport…",
+      "author": null,
+      "publishedAt": "2014-09-28T11:50:13.000Z"
+    },
+    {
+      "guid": "http://themodernlife.net/scala/validation/play/spark/2014/08/07/serlialization-validation-in-play-and-spark/",
+      "title": "Strange bedfellows: how a web-tier validation framework enables strongly typed, big data pipelines",
+      "link": "http://themodernlife.net/scala/validation/play/spark/2014/08/07/serlialization-validation-in-play-and-spark/",
+      "summary": "The other day I was talking with a colleague about data validation and the Play web framework came up.  Play has a nice API for validating HTML form and JSON submissions.  This works great when you’re processing small amounts of data from the web-tier of your application.  But could that same tech…",
+      "author": null,
+      "publishedAt": "2014-08-07T11:50:13.000Z"
+    },
+    {
+      "guid": "http://themodernlife.net/scala/intellij/2014/01/08/scala-unicode-arrows-in-intellij-idea/",
+      "title": "Scala Unicode Arrows in IntelliJ IDEA",
+      "link": "http://themodernlife.net/scala/intellij/2014/01/08/scala-unicode-arrows-in-intellij-idea/",
+      "summary": "Several of my colleagues love IntelliJ for coding in Scala.  I was pretty happy with Sublime Text 2 (and still use it for Ruby/Python/Shell/whatever) but the lack of code completion was really starting to affect my productivity.  I spent way too much time looping through the edit/compile/fix typo…",
+      "author": null,
+      "publishedAt": "2014-01-08T11:50:13.000Z"
+    },
+    {
+      "guid": "http://themodernlife.net/emr/hadoop/2014/01/02/making-local-hadoop-more-like-emr/",
+      "title": "Making Your Local Hadoop more like AWS Elastic MapReduce",
+      "link": "http://themodernlife.net/emr/hadoop/2014/01/02/making-local-hadoop-more-like-emr/",
+      "summary": "At MediaMath we’re big users of Elastic MapReduce.  EMR’s incredible flexibility makes it a great fit for our analytics jobs.\nAn extremely important best practice for any analytics project is to ensure your local dev and test environments match your production environment as much as possible.  This…",
+      "author": null,
+      "publishedAt": "2014-01-02T11:21:13.000Z"
+    }
+  ],
+  "totalIndexed": 7
+}

@@ -1,0 +1,413 @@
+{
+  "feedId": "mykhailo-kozik",
+  "feedName": "Mykhailo Kozik",
+  "feedSiteUrl": "http://mishadoff.com/",
+  "feedRssUrl": "http://feeds.feedburner.com/mishadoff",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T07:01:09.525Z",
+  "items": [
+    {
+      "guid": "mykhailo-kozik::http://mishadoff.com/blog/architecture-components/",
+      "title": "Architecture Components",
+      "link": "http://mishadoff.com/blog/architecture-components/",
+      "summary": "Thoughts on architecture components and software stability.\nSoftware Architecture is about drawing boxes and arrows.\nArchitecture Quality Challenge\nEvaluating software architecture is difficult. Unlike performance or test coverage, architecture lacks clear, objective metrics. Most assessments rely…",
+      "author": null,
+      "publishedAt": "2025-05-30T10:49:00.000Z"
+    },
+    {
+      "guid": "mykhailo-kozik::http://mishadoff.com/blog/idea-for-clojure/",
+      "title": "Mnemonics-based keymap for IntelliJ IDEA",
+      "link": "http://mishadoff.com/blog/idea-for-clojure/",
+      "summary": "Emacs is great for editing text, IntelliJ IDEA is great for navigation.\nRationale\nIf you can configure it, you will configure it\nEmacs is keyboard-driven editor, meaning all actions you can do without mouse or touchpad. It is a good part.\nThe bad part is it lacks rich navigation capabilities,…",
+      "author": null,
+      "publishedAt": "2018-09-25T14:00:00.000Z"
+    },
+    {
+      "guid": "mykhailo-kozik::http://mishadoff.com/blog/evolville-002/",
+      "title": "Evolville 0.0.2: Life and Death",
+      "link": "http://mishadoff.com/blog/evolville-002/",
+      "summary": "Evolville is an imaginary computer world, inhabited by creatures.\nIn previous post we’ve seen the origins of the World.\nIt looks pretty simple: white space inhabited by some creatures.\nAll those creatures just moving in random directions causing world look like\nboiling soup. Even it seems that some…",
+      "author": null,
+      "publishedAt": "2018-03-30T23:43:00.000Z"
+    },
+    {
+      "guid": "mykhailo-kozik::http://mishadoff.com/blog/evolville-001/",
+      "title": "Evolville 0.0.1: The Beginning",
+      "link": "http://mishadoff.com/blog/evolville-001/",
+      "summary": "Evolville is an imaginary computer world, inhabited by creatures.\nThis is going to be series of posts for simulation, \nstarting from scratch and test various evolution strategies. \nOur world will evolve, our creatures will evolve, our code will evolve.\nWelcome to Evolville!\nThe Beginning\nAt the…",
+      "author": null,
+      "publishedAt": "2018-03-19T14:48:00.000Z"
+    },
+    {
+      "guid": "mykhailo-kozik::http://mishadoff.com/blog/dfs-on-binary-tree-array/",
+      "title": "DFS on Binary Tree Array",
+      "link": "http://mishadoff.com/blog/dfs-on-binary-tree-array/",
+      "summary": "Implementing Depth-First Search for the Binary Tree without stack and recursion.\nBinary Tree Array\nThis is binary tree.\n\n0 is a root node.\n0 has two children: left 1 and right: 2.\nleaf nodes (3,4,5,6).\nThe number of edges between root and leaf nodes define tree height.\nThe tree above has the height…",
+      "author": null,
+      "publishedAt": "2017-09-10T11:52:00.000Z"
+    },
+    {
+      "guid": "mykhailo-kozik::http://mishadoff.com/blog/clojure-euler-problem-026/",
+      "title": "Clojure Euler: Problem 026",
+      "link": "http://mishadoff.com/blog/clojure-euler-problem-026/",
+      "summary": "Find the value of d < 1000 for which 1/d contains the longest recurring cycle in its decimal fraction part.\nPermalink: https://projecteuler.net/problem=26\n1/2 = 0.5\nAs you see for d from 2 to 10, the longest cycle length is 6, for d=7.\nLet’s start with a function, which finds the cycle length for…",
+      "author": null,
+      "publishedAt": "2017-05-09T12:19:00.000Z"
+    },
+    {
+      "guid": "mykhailo-kozik::http://mishadoff.com/blog/code-golf-new-year-tree/",
+      "title": "Code Golf: New Year Tree",
+      "link": "http://mishadoff.com/blog/code-golf-new-year-tree/",
+      "summary": "Let’s celebrate geeky New Year by drawing New Year Tree using Clojure!\nProblem\nWrite a program which prints New Year Tree to console.\nI came up with the following tree rules:\n\nStar. There is should be a star on top of the tree.\nTriangles. Tree body is a set of triangle levels. Let the number of…",
+      "author": null,
+      "publishedAt": "2016-01-07T14:05:00.000Z"
+    },
+    {
+      "guid": "mykhailo-kozik::http://mishadoff.com/blog/clojure-design-patterns/",
+      "title": "Clojure Design Patterns",
+      "link": "http://mishadoff.com/blog/clojure-design-patterns/",
+      "summary": "Quick overview of the classic Design Patterns in Clojure\nDisclaimer: Most patterns are easy to implement because\nwe use dynamic typing, functional programming and, of course,\nClojure. Some of them look wrong and ugly. It’s okay.\nAll characters are fake, coincidences are accidental.\nIndex\nIntro…",
+      "author": null,
+      "publishedAt": "2015-12-18T14:20:00.000Z"
+    },
+    {
+      "guid": "mykhailo-kozik::http://mishadoff.com/blog/littlepot-autofilled-cache/",
+      "title": "Littlepot: Autofilled Cache",
+      "link": "http://mishadoff.com/blog/littlepot-autofilled-cache/",
+      "summary": "Cook, little pot, cook!\n– The Magic Porridge Pot, Brothers Grimm\nI’ve just released littlepot, tiny library devoted to transform batched request into single element request.\nThe Problem\nImagine you develop a service which return one random image and some witty text below. As an image provider, you…",
+      "author": null,
+      "publishedAt": "2015-10-04T14:22:00.000Z"
+    },
+    {
+      "guid": "mykhailo-kozik::http://mishadoff.com/blog/spark-in-clojure/",
+      "title": "Spark in Clojure",
+      "link": "http://mishadoff.com/blog/spark-in-clojure/",
+      "summary": "Apache Spark is a fast and general engine for large-scale data processing.\n100 times faster than Hadoop.\nEveryone knows SQL.\nBut traditional databases are not good in hadling big amount of data.\nNevertheless, SQL is a good DSL for data processing and\nit is much easier to understand Spark if you…",
+      "author": null,
+      "publishedAt": "2015-06-14T19:42:00.000Z"
+    },
+    {
+      "guid": "mykhailo-kozik::http://mishadoff.com/blog/emacs-org-mode/",
+      "title": "Emacs: org mode",
+      "link": "http://mishadoff.com/blog/emacs-org-mode/",
+      "summary": "Emacs org-mode use cases, for non-programmers.\norg-mode\nOrg-mode is what makes emacs popular among non-programmers community.\nIt could replace your Notes, TODO, Calendar, Agenda, Project Management, Time Tracking, Spreadsheets and other apps.\nBut seems like most of org-mode tutorials are dedicated…",
+      "author": null,
+      "publishedAt": "2015-03-27T14:30:00.000Z"
+    },
+    {
+      "guid": "mykhailo-kozik::http://mishadoff.com/blog/code-golf-calculating-pi/",
+      "title": "Code Golf: Calculating PI",
+      "link": "http://mishadoff.com/blog/code-golf-calculating-pi/",
+      "summary": "Let’s celebrate Pi day in clojure!\nTweet\nExactly 140 characters to print 9 digits of $\\pi$ (3.141592654)\n\n(let[r reduce N(rest(range))t take](clojure.pprint/cl-format nil\"~11f\"\n(r +' -2(map #(/(r *' 2(t % N))(r *'(t %(take-nth 2 N))))(t 99 N)))9))\n\n\n“Sugared” version\nThere are two parts of a…",
+      "author": null,
+      "publishedAt": "2015-03-14T09:56:00.000Z"
+    },
+    {
+      "guid": "mykhailo-kozik::http://mishadoff.com/blog/java-magic-part-5-securitymanager/",
+      "title": "Java Magic. Part 5: SecurityManager",
+      "link": "http://mishadoff.com/blog/java-magic-part-5-securitymanager/",
+      "summary": "Pouring a bit light on SecurityManager and its use cases.\nIntro\nYou can do a terrible things in java using sun.misc.Unsafe class. Some really creepy examples were discussed in Java Magic. Part 5: sun.misc.Unsafe\nSecurityManager is a guard, which could help to prevent some sensitive actions (io,…",
+      "author": null,
+      "publishedAt": "2014-11-18T15:27:00.000Z"
+    },
+    {
+      "guid": "mykhailo-kozik::http://mishadoff.com/blog/clojurecup-2014-impressions/",
+      "title": "ClojureCup 2014: Impressions",
+      "link": "http://mishadoff.com/blog/clojurecup-2014-impressions/",
+      "summary": "Clojure Cup 2014 has finished and we’ve build clojure app in two days!\nfunstructor (pre-alpha)\nFunstructor\n\nFunstructor is a turn-based multiplayer card game for clojurists.\nYour goal is to make some clojure code snippet, function or expression, but instead\nof typing characters you must use cards.…",
+      "author": null,
+      "publishedAt": "2014-10-01T00:30:00.000Z"
+    },
+    {
+      "guid": "mykhailo-kozik::http://mishadoff.com/blog/clojure-euler-problem-025/",
+      "title": "Clojure Euler: Problem 025",
+      "link": "http://mishadoff.com/blog/clojure-euler-problem-025/",
+      "summary": "What is the first term in the Fibonacci sequence to contain 1000 digits?\nPermalink: https://projecteuler.net/problem=25\nWe’ve introduced Fibonacci sequence at Clojure Euler: Problem 002\nLazy sequence generates fibonacci numbers is dead simple:\n\n(defn fibonacci []\n  (->> [0 1]\n       (iterate (fn…",
+      "author": null,
+      "publishedAt": "2014-09-09T00:51:00.000Z"
+    },
+    {
+      "guid": "mykhailo-kozik::http://mishadoff.com/blog/clojure-euler-problem-024/",
+      "title": "Clojure Euler: Problem 024",
+      "link": "http://mishadoff.com/blog/clojure-euler-problem-024/",
+      "summary": "A permutation is an ordered arrangement of objects.\nFor example, 3124 is one possible permutation of the digits 1, 2, 3 and 4.\nIf all of the permutations are listed numerically or alphabetically, we call it lexicographic order.\nThe lexicographic permutations of 0, 1 and 2 are:\n012   021   102   120…",
+      "author": null,
+      "publishedAt": "2014-08-28T00:43:00.000Z"
+    },
+    {
+      "guid": "mykhailo-kozik::http://mishadoff.com/blog/effective-java/",
+      "title": "Effective Java",
+      "link": "http://mishadoff.com/blog/effective-java/",
+      "summary": "Recently, I’ve re-read awesome java book\nEffective Java\nby Joshua Bloch. The book contains 78 independent items, discussing various aspects of programming in java. Something like mini-design patterns with emphasis on their pros and cons.\nFew notes from each item as a refresher.\nItem 1: Consider…",
+      "author": null,
+      "publishedAt": "2014-08-07T13:54:00.000Z"
+    },
+    {
+      "guid": "mykhailo-kozik::http://mishadoff.com/blog/programming-digest-5/",
+      "title": "Programming Digest 5",
+      "link": "http://mishadoff.com/blog/programming-digest-5/",
+      "summary": "Programming Sucks.\n1. Programming Sucks\n…many of the programs you depend on are written by dicks and idiots\nFunny ranting about crazy programming life.\nEvery programmer occasionally, when nobody’s home, turns off the lights, pours a glass of scotch, puts on some light German electronica, and opens…",
+      "author": null,
+      "publishedAt": "2014-06-06T13:31:00.000Z"
+    },
+    {
+      "guid": "mykhailo-kozik::http://mishadoff.com/blog/clojure-pitfalls-part-1/",
+      "title": "Clojure Pitfalls: Part 1",
+      "link": "http://mishadoff.com/blog/clojure-pitfalls-part-1/",
+      "summary": "Clojure is a great language, and as every language,\nit has some unobvious and strange things, which seem confusing.\nSome of such things are gathered here.\nMost of them encountered by stupidity, docs misunderstanding,\nclojure specifics and procrastination.\n1. Anybody home?\n\n(contains? [10 20 30] 20)…",
+      "author": null,
+      "publishedAt": "2014-05-22T01:48:00.000Z"
+    },
+    {
+      "guid": "mykhailo-kozik::http://mishadoff.com/blog/clojure-euler-problem-023/",
+      "title": "Clojure Euler: Problem 023",
+      "link": "http://mishadoff.com/blog/clojure-euler-problem-023/",
+      "summary": "Find the sum of all the positive integers\nwhich cannot be written as the sum of two abundant numbers.\nPermalink: http://projecteuler.net/problem=23\nTo define abundant number let’s revisit sum-of-proper-divisors from the Clojure Euler: Problem 021\n\n(defn sum-of-proper-divisors [n]\n  (let [base…",
+      "author": null,
+      "publishedAt": "2014-05-10T18:11:00.000Z"
+    },
+    {
+      "guid": "mykhailo-kozik::http://mishadoff.com/blog/numberto-expressions/",
+      "title": "Numberto: Expressions",
+      "link": "http://mishadoff.com/blog/numberto-expressions/",
+      "summary": "Numberto has new features!\nIn previous post\nI wrote about simple clojure library numberto for experiments with numbers.\nNew version of numberto has a bunch of new features.\nExpressions\nExpressions package provides two functions: eval-infix to evaluate infix expression\nand infix->prefix to build…",
+      "author": null,
+      "publishedAt": "2014-03-29T00:25:00.000Z"
+    },
+    {
+      "guid": "mykhailo-kozik::http://mishadoff.com/blog/programming-digest-4/",
+      "title": "Programming Digest 4",
+      "link": "http://mishadoff.com/blog/programming-digest-4/",
+      "summary": "How to live in the Kingdom of Nouns, why mathematicians cry, filling gaps in algorithms, portion of clojure, STM, HTTP and more.\n1. Execution in the Kingdom of Nouns\nAnother great Steve Yegge’s post. Not a post, a tale about Javaland, a place where all verbs are owned by nouns. Accept it like an…",
+      "author": null,
+      "publishedAt": "2013-11-25T22:50:00.000Z"
+    },
+    {
+      "guid": "mykhailo-kozik::http://mishadoff.com/blog/clojure-euler-problem-022/",
+      "title": "Clojure Euler: Problem 022",
+      "link": "http://mishadoff.com/blog/clojure-euler-problem-022/",
+      "summary": "Using names.txt\na 46K text file containing over five-thousand first names,\nbegin by sorting it into alphabetical order. Then working out the alphabetical\nvalue for each name, multiply this value by its alphabetical\nposition in the list to obtain a name score.\nFor example, when the list is sorted…",
+      "author": null,
+      "publishedAt": "2013-10-20T13:22:00.000Z"
+    },
+    {
+      "guid": "mykhailo-kozik::http://mishadoff.com/blog/clojure-euler-problem-021/",
+      "title": "Clojure Euler: Problem 021",
+      "link": "http://mishadoff.com/blog/clojure-euler-problem-021/",
+      "summary": "Evaluate the sum of all the amicable numbers under 10000.\nPermalink: http://projecteuler.net/problem=21\nLet d(n) be defined as the sum of proper divisors of n\n(numbers less than n which divide evenly into n).\nIf d(a) = b and d(b) = a, where a != b, then a and b are an\namicable pair and each of a…",
+      "author": null,
+      "publishedAt": "2013-10-05T15:24:00.000Z"
+    },
+    {
+      "guid": "mykhailo-kozik::http://mishadoff.com/blog/announcing-numberto/",
+      "title": "Announcing numberto",
+      "link": "http://mishadoff.com/blog/announcing-numberto/",
+      "summary": "All you need to play with numbers!\nnumberto\nsimple clojure library with a bunch of functions operating on numbers.\nI created this project for two reasons:\nSolving problems on Project Euler, 4Clojure and just playground with numbers needed common functions. I just extracted them to separate util…",
+      "author": null,
+      "publishedAt": "2013-09-01T04:23:00.000Z"
+    },
+    {
+      "guid": "mykhailo-kozik::http://mishadoff.com/blog/code-golf-brainfuck-interpreter/",
+      "title": "Code Golf: Brainfuck Interpreter",
+      "link": "http://mishadoff.com/blog/code-golf-brainfuck-interpreter/",
+      "summary": "Brainfuck Interpreter in two tweets.\nPrevious article Code Golf: Game of Life raised some interest, and I decided to proceed. Today’s problem is a Brainfuck Interpreter.\nBrainfuck is an esoteric programming language, famous because of its small command set. It is based on array of cells (Turing…",
+      "author": null,
+      "publishedAt": "2013-08-09T17:44:00.000Z"
+    },
+    {
+      "guid": "mykhailo-kozik::http://mishadoff.com/blog/programming-digest-3/",
+      "title": "Programming Digest 3",
+      "link": "http://mishadoff.com/blog/programming-digest-3/",
+      "summary": "Why your software sucks and what is the “Secret Weapon”. Also,\nalgorithm complexities refresher, functional programming, including\nScala and Clojure, concurrency and lot of humor.\n1. Big Ball of Mud\nWhat does your programming day look like?\n\nThe article describes problems in software design and…",
+      "author": null,
+      "publishedAt": "2013-07-22T20:33:00.000Z"
+    },
+    {
+      "guid": "mykhailo-kozik::http://mishadoff.com/blog/clojure-euler-problem-020/",
+      "title": "Clojure Euler: Problem 020",
+      "link": "http://mishadoff.com/blog/clojure-euler-problem-020/",
+      "summary": "Find the sum of the digits in the number 100!\nPermalink: http://projecteuler.net/problem=20\nFirst of all we need to calculate factorial.\nWithout integer overflows, stack overflows and other caveats.\nPrevious article Fast Factorial has working solution\nthat we might use.\n\n(defn ! [n]\n  (reduce *'…",
+      "author": null,
+      "publishedAt": "2013-07-21T13:39:00.000Z"
+    },
+    {
+      "guid": "mykhailo-kozik::http://mishadoff.com/blog/clojure-euler-problem-019/",
+      "title": "Clojure Euler: Problem 019",
+      "link": "http://mishadoff.com/blog/clojure-euler-problem-019/",
+      "summary": "How many Sundays fell on the first of the month\nduring the twentieth century (1 Jan 1901 to 31 Dec 2000)?\nPermalink: http://projecteuler.net/problem=19\nProject Euler also gives following information:\n1 Jan 1900 was a Monday.\nA poem\nThirty days has September,\n\n  \nA leap year occurs on any year…",
+      "author": null,
+      "publishedAt": "2013-07-10T01:59:00.000Z"
+    },
+    {
+      "guid": "mykhailo-kozik::http://mishadoff.com/blog/randomorg-0-dot-1/",
+      "title": "randomorg-0.1",
+      "link": "http://mishadoff.com/blog/randomorg-0-dot-1/",
+      "summary": "randomorg-0.1 released!\nIf you use random numbers in your software you might be interested in\nbetter numbers distribution than Random.nextInt().\nSomeone solves this problem with hardware generators, few entropy sources and\neven books.\nBy the way, there is great service random.org\nwhich allows to…",
+      "author": null,
+      "publishedAt": "2013-07-06T15:33:00.000Z"
+    },
+    {
+      "guid": "mykhailo-kozik::http://mishadoff.com/blog/fast-factorial/",
+      "title": "Fast Factorial",
+      "link": "http://mishadoff.com/blog/fast-factorial/",
+      "summary": "Factorial function is simple enough. But there is still some fun about it.\nIn Stirling’s Approximation article\nwe’ve seen how to calculate good factorial approximation faster than exact value.\nBy the way, there is an algorithm to calculate exact value of factorial faster\nthan “by definition”.…",
+      "author": null,
+      "publishedAt": "2013-06-07T01:08:00.000Z"
+    },
+    {
+      "guid": "mykhailo-kozik::http://mishadoff.com/blog/clojure-euler-problem-018/",
+      "title": "Clojure Euler: Problem 018",
+      "link": "http://mishadoff.com/blog/clojure-euler-problem-018/",
+      "summary": "By starting at the top of the triangle below and moving to adjacent numbers on the row below, the maximum total from top to bottom is 23.\n\n       3\n      7 4\n     2 4 6\n    8 5 9 3\n\n\nThat is, 3 + 7 + 4 + 9 = 23.\nFind the maximum total from top to bottom of the triangle below:\n[Check out big…",
+      "author": null,
+      "publishedAt": "2013-05-17T00:26:00.000Z"
+    },
+    {
+      "guid": "mykhailo-kozik::http://mishadoff.com/blog/programming-digest-2/",
+      "title": "Programming Digest 2",
+      "link": "http://mishadoff.com/blog/programming-digest-2/",
+      "summary": "Why math is needed for developers, what is REST, how to become experienced\ndeveloper…in 10 years, “coding it’s just writing” and some practice:\nNaive Bayes Classifier, functional programming and Java 8.\n1. Math For Programmers\nAnother great post by Steve Yegge about math. Math for developers.\nAs…",
+      "author": null,
+      "publishedAt": "2013-04-22T14:43:00.000Z"
+    },
+    {
+      "guid": "mykhailo-kozik::http://mishadoff.com/blog/clojure-euler-problem-017/",
+      "title": "Clojure Euler: Problem 017",
+      "link": "http://mishadoff.com/blog/clojure-euler-problem-017/",
+      "summary": "If the numbers 1 to 5 are written out in words: one, two, three, four, five,\nthen there are 3 + 3 + 5 + 4 + 4 = 19 letters used in total.\nIf all the numbers from 1 to 1000 (one thousand) inclusive were written out in words, how many letters would be used?\nPermalink:…",
+      "author": null,
+      "publishedAt": "2013-04-09T21:13:00.000Z"
+    },
+    {
+      "guid": "mykhailo-kozik::http://mishadoff.com/blog/code-golf-game-of-life/",
+      "title": "Code Golf: Game of Life",
+      "link": "http://mishadoff.com/blog/code-golf-game-of-life/",
+      "summary": "Conway’s Game of Life in a tweet.\nRecently, my friend pointed out me an article Life in a tweet\nwhere Game of Life was implemented in one tweet\n(less than 140 characters) in Ruby and F#. I took this challenge.\nTweet\nHere is the final version in 137 characters of Clojure:\n\n(fn[g r](reduce(fn[i…",
+      "author": null,
+      "publishedAt": "2013-03-07T17:59:00.000Z"
+    },
+    {
+      "guid": "mykhailo-kozik::http://mishadoff.com/blog/clojure-euler-problem-016/",
+      "title": "Clojure Euler: Problem 016",
+      "link": "http://mishadoff.com/blog/clojure-euler-problem-016/",
+      "summary": "2^15 = 32768 and the sum of its digits is 3 + 2 + 7 + 6 + 8 = 26.\nWhat is the sum of the digits of the number 2^1000 ?\nPermalink: http://projecteuler.net/problem=16\nAre you kidding me?\nFind 1000th power of two\nSum its digits\nIn Clojure Euler: Problem 008 we\nlearned how to sum digits in the number.…",
+      "author": null,
+      "publishedAt": "2013-03-05T01:31:00.000Z"
+    },
+    {
+      "guid": "mykhailo-kozik::http://mishadoff.com/blog/java-magic-part-4-sun-dot-misc-dot-unsafe/",
+      "title": "Java Magic. Part 4: sun.misc.Unsafe",
+      "link": "http://mishadoff.com/blog/java-magic-part-4-sun-dot-misc-dot-unsafe/",
+      "summary": "Java is a safe programming language and prevents programmer\nfrom doing a lot of stupid mistakes, most of which based on memory management.\nBut, there is a way to do such mistakes intentionally, using Unsafe class.\nThis article is a quick overview of sun.misc.Unsafe public API and few\ninteresting…",
+      "author": null,
+      "publishedAt": "2013-02-26T02:37:00.000Z"
+    },
+    {
+      "guid": "mykhailo-kozik::http://mishadoff.com/blog/elephant-oriented-programming/",
+      "title": "Elephant-Oriented Programming",
+      "link": "http://mishadoff.com/blog/elephant-oriented-programming/",
+      "summary": "Have you heard about Elephant-Oriented Programming?\n1. Read very clever book with an elephant on cover.\n\n2. I bet you didn’t understand anything, so choose easy programming language with an elephant.\n\n3. What is IDE? We already have elephant text editor.\n\n4. For real life programming tasks we need…",
+      "author": null,
+      "publishedAt": "2013-02-26T00:58:00.000Z"
+    },
+    {
+      "guid": "mykhailo-kozik::http://mishadoff.com/blog/stirlings-approximation/",
+      "title": "Stirling's Approximation",
+      "link": "http://mishadoff.com/blog/stirlings-approximation/",
+      "summary": "Do you like factorials?\nProbably, you do. If no, whatever, read this post to know\nhow get rid of factorials.\nTL;DR\nIt is Stirling’s approximation\nor just Stirling’s formula.\nIt allows to replace factorials with their approximation.\nIf you not interested in math, skip to formula usage\nProof\nReplace…",
+      "author": null,
+      "publishedAt": "2013-02-23T01:38:00.000Z"
+    },
+    {
+      "guid": "mykhailo-kozik::http://mishadoff.com/blog/heisenberg-principle/",
+      "title": "Heisenberg Principle",
+      "link": "http://mishadoff.com/blog/heisenberg-principle/",
+      "summary": "It is so obvious, so I decided to write about it.\n\nHeisenberg principle\ncame from quantum mechanics and means that you can’t know exactly\nboth coordinates and speed of particle. If you improve accuracy of detecting\nposition, you lose accuracy in detecting speed and vice versa. Uncertain stuff.\nIn…",
+      "author": null,
+      "publishedAt": "2013-02-21T00:24:00.000Z"
+    },
+    {
+      "guid": "mykhailo-kozik::http://mishadoff.com/blog/clojure-euler-problem-015/",
+      "title": "Clojure Euler: Problem 015",
+      "link": "http://mishadoff.com/blog/clojure-euler-problem-015/",
+      "summary": "Starting in the top left corner of a 2 x 2 grid, there are 6 routes\n(without backtracking) to the bottom right corner.\nHow many routes are there through a 20 x 20 grid?\nPermalink: http://projecteuler.net/problem=15\n\nPicture is always a huge help to find correct the solution.\nLet’s see the pattern…",
+      "author": null,
+      "publishedAt": "2013-02-19T00:38:00.000Z"
+    },
+    {
+      "guid": "mykhailo-kozik::http://mishadoff.com/blog/standard-ml/",
+      "title": "Standard ML",
+      "link": "http://mishadoff.com/blog/standard-ml/",
+      "summary": "Last weekend I was hacking Standard ML a bit.\nCoursera\nThere are excellent course on coursera called Programming Languages\nCurrently, the first half is available, that explains basic and advanced functional programming constructions\nwith Standard ML as primary language. Later some idioms will be…",
+      "author": null,
+      "publishedAt": "2013-02-16T13:33:00.000Z"
+    },
+    {
+      "guid": "mykhailo-kozik::http://mishadoff.com/blog/clojure-euler-problem-014/",
+      "title": "Clojure Euler: Problem 014",
+      "link": "http://mishadoff.com/blog/clojure-euler-problem-014/",
+      "summary": "Which starting number, under one million, produces the longest Collatz chain?\nPermalink: http://projecteuler.net/problem=14\nThe following iterative sequence is defined for the set of positive integers:\nn → n/2 (n is even)\nn → 3n + 1 (n is odd)\nUsing the rule above and starting with 13, we generate…",
+      "author": null,
+      "publishedAt": "2013-02-16T01:08:00.000Z"
+    },
+    {
+      "guid": "mykhailo-kozik::http://mishadoff.com/blog/programming-digest-1/",
+      "title": "Programming Digest 1",
+      "link": "http://mishadoff.com/blog/programming-digest-1/",
+      "summary": "How to get job at Google, estimate complexity of your algorithm,\nwhat is Structural Immutability, why PHP is awful and Java is awesome, best programming jokes and lot more.\n1. Get that job at Google\n…it’s highly likely that someone on the loop will be unimpressed with you,\neven if you are Alan…",
+      "author": null,
+      "publishedAt": "2013-02-12T02:00:00.000Z"
+    },
+    {
+      "guid": "mykhailo-kozik::http://mishadoff.com/blog/programming-digest-announcement/",
+      "title": "Programming Digest Announcement",
+      "link": "http://mishadoff.com/blog/programming-digest-announcement/",
+      "summary": "Recently, I come up with idea to share my favorite articles I found\non the internet and give basic description for them.\nI do not plan this digest as periodical thing,\nso the first pattern I found appropriate is to publish this as soon\nas I have ten articles marked as favorite somewhere.\nThat’s the…",
+      "author": null,
+      "publishedAt": "2013-02-11T23:00:00.000Z"
+    },
+    {
+      "guid": "mykhailo-kozik::http://mishadoff.com/blog/data-analysis-facebook-hacker-cup/",
+      "title": "Data Analysis: Facebook Hacker Cup 2013",
+      "link": "http://mishadoff.com/blog/data-analysis-facebook-hacker-cup/",
+      "summary": "What programming language is most used?\nTo answer this question we use results from the qualification round\nof Facebook Hacker Cup 2013\nIf you only interested in statistics, skip!\n0. Intro\nAs you may know, Facebook Hacker Cup is a programming contest. You have programming\nproblem and you need to…",
+      "author": null,
+      "publishedAt": "2013-02-01T12:42:00.000Z"
+    },
+    {
+      "guid": "mykhailo-kozik::http://mishadoff.com/blog/clojure-euler-problem-013/",
+      "title": "Clojure Euler: Problem 013",
+      "link": "http://mishadoff.com/blog/clojure-euler-problem-013/",
+      "summary": "Work out the first ten digits of the sum of the following one-hundred 50-digit numbers.\nPermalink: http://projecteuler.net/problem=13\nAssume, here is a huge amount of digits. In any case, you can always find them in permalink.\nWhat is the problem to sum one-hundred numbers?\n\n(reduce + numbers)…",
+      "author": null,
+      "publishedAt": "2013-01-25T16:33:00.000Z"
+    },
+    {
+      "guid": "mykhailo-kozik::http://mishadoff.com/blog/clojure-euler-problem-012/",
+      "title": "Clojure Euler: Problem 012",
+      "link": "http://mishadoff.com/blog/clojure-euler-problem-012/",
+      "summary": "What is the value of the first triangle number to have over five hundred divisors?\nPermalink: http://projecteuler.net/problem=12\nThe sequence of triangle numbers is generated by adding the natural numbers. So the 7th triangle number would be 1 + 2 + 3 + 4 + 5 + 6 + 7 = 28.\nThe first ten terms would…",
+      "author": null,
+      "publishedAt": "2013-01-22T19:45:00.000Z"
+    },
+    {
+      "guid": "mykhailo-kozik::http://mishadoff.com/blog/critical-software-bugs-part-1/",
+      "title": "Critical Software Bugs: Part 1",
+      "link": "http://mishadoff.com/blog/critical-software-bugs-part-1/",
+      "summary": "Little journey through the history of most critical software bugs\nwith some code examples.\nDo not try to reproduce any of these!\nIntro\nEvery last bug is the last but one.\nBugs are bad. Some of them cause uncomfortable work, more actions\nthan expected, inconsistency, layout issues, etc.\nSome of them…",
+      "author": null,
+      "publishedAt": "2013-01-20T18:48:00.000Z"
+    },
+    {
+      "guid": "mykhailo-kozik::http://mishadoff.com/blog/clojure-euler-problem-011/",
+      "title": "Clojure Euler: Problem 011",
+      "link": "http://mishadoff.com/blog/clojure-euler-problem-011/",
+      "summary": "What is the greatest product of four adjacent numbers in the same\ndirection (up, down, left, right, or diagonally) in the 20 x 20 grid?\nPermalink: http://projecteuler.net/problem=11\nIn the 20 x 20 grid below, four numbers along a diagonal\nline have been enclosed into square brackets\n\n08 02 22 97 38…",
+      "author": null,
+      "publishedAt": "2013-01-18T13:45:00.000Z"
+    }
+  ],
+  "totalIndexed": 50
+}

@@ -1,0 +1,93 @@
+{
+  "feedId": "evan-hahn",
+  "feedName": "Evan Hahn",
+  "feedSiteUrl": "http://evanhahn.com/",
+  "feedRssUrl": "https://evanhahn.com/blog/index.xml",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T06:49:44.007Z",
+  "items": [
+    {
+      "guid": "https://evanhahn.com/prefer-strict-tables-in-sqlite/",
+      "title": "Prefer STRICT tables in SQLite",
+      "link": "https://evanhahn.com/prefer-strict-tables-in-sqlite/",
+      "summary": "In short: I prefer strict tables in SQLite because they avoid some datatype problems, such as putting text in number columns.\nSQLite has a feature that I think is underrated: strict tables. Strict tables help enforce rigid typing, preventing mistakes like putting text into integer columns. I like…",
+      "author": null,
+      "publishedAt": "2026-07-11T00:00:00.000Z"
+    },
+    {
+      "guid": "https://evanhahn.com/notes-from-june-2026/",
+      "title": "Notes from June 2026",
+      "link": "https://evanhahn.com/notes-from-june-2026/",
+      "summary": "Chicago’s weather is pretty lousy most of the year, but when it’s nice, it’s very nice. June blessed the city with dozens of idyllic days. But don’t worry—I still spent most of the time inside on the computer.\nThings I did\nI launched my first big project at Ghost: automations! It’s still in beta,…",
+      "author": null,
+      "publishedAt": "2026-06-30T00:00:00.000Z"
+    },
+    {
+      "guid": "https://evanhahn.com/sixteenth-of-a-year/",
+      "title": "\"Sixteenth of a year\", a 1.8 KiB art piece",
+      "link": "https://evanhahn.com/sixteenth-of-a-year/",
+      "summary": "As I write this, we’re about 7 sixteenths through 2026, and it’s about 14 sixteenths through the day.\nFor the sixteenth issue of the Taper online magazine, I split time into sixteenths to think about its passage in a different way.\nThe code, which had to be under 2048 bytes, isn’t terribly complex.…",
+      "author": null,
+      "publishedAt": "2026-06-03T00:00:00.000Z"
+    },
+    {
+      "guid": "https://evanhahn.com/notes-from-may-2026/",
+      "title": "Notes from May 2026",
+      "link": "https://evanhahn.com/notes-from-may-2026/",
+      "summary": "My blog turned 16 this month! I did nothing to celebrate, but made some little tools and clicked some links about tech ethics.\nThings from me this month\nI published four little tools this month:\nZIP Shrinker, a web app that shrinks ZIP files with higher compression ratios\nA command line tool to do…",
+      "author": null,
+      "publishedAt": "2026-05-30T00:00:00.000Z"
+    },
+    {
+      "guid": "https://evanhahn.com/make-zip-files-smaller-with-zip-shrinker/",
+      "title": "Make ZIP files smaller with ZIP Shrinker",
+      "link": "https://evanhahn.com/make-zip-files-smaller-with-zip-shrinker/",
+      "summary": "I built ZIP Shrinker, a little browser tool to shrink ZIP files. It also works with formats that are secretly ZIPs underneath, like EPUB, JAR, and many more.\nTry it out!\nHow does it work?\nAt a high level, this tool (1) re-compresses every file in the ZIP archive with higher compression (2) removes…",
+      "author": null,
+      "publishedAt": "2026-05-16T00:00:00.000Z"
+    },
+    {
+      "guid": "https://evanhahn.com/open-link-in-unloaded-tab-for-firefox/",
+      "title": "Open Link in Unloaded Tab, a little Firefox extension",
+      "link": "https://evanhahn.com/open-link-in-unloaded-tab-for-firefox/",
+      "summary": "In short: I just published Open Link in Unloaded Tab, a little Firefox extension that adds “Open Link in Unloaded Tab” to the right-click context menu.\nIn Firefox, you can unload tabs to save system resources. But there’s no way to open a new tab in the unloaded state…until now! I built a very…",
+      "author": null,
+      "publishedAt": "2026-05-13T00:00:00.000Z"
+    },
+    {
+      "guid": "https://evanhahn.com/png-cmp-is-cmp-but-for-pngs/",
+      "title": "png-cmp: like cmp for PNGs",
+      "link": "https://evanhahn.com/png-cmp-is-cmp-but-for-pngs/",
+      "summary": "png-cmp is a program I built that checks if two PNGs are visually equivalent. It’s inspired by the cmp command. Here’s how you use it:\npng-cmp a.png b.png\n\n\nLike cmp, it silently exits if the images are identical, and gives an error if they’re different.\nUnlike cmp, it checks pixel data, not binary…",
+      "author": null,
+      "publishedAt": "2026-05-03T00:00:00.000Z"
+    },
+    {
+      "guid": "https://evanhahn.com/offline-cli-translation-with-translategemma-and-ollama/",
+      "title": "Offline command line translation with TranslateGemma + Ollama",
+      "link": "https://evanhahn.com/offline-cli-translation-with-translategemma-and-ollama/",
+      "summary": "I wrote a simple script that translates text at the command line, completely offline. Here’s an example of how it works on my computer:\necho '¿Cómo estás?' | translate\n# => How are you?\n\n\nIt combines a few tools:\nTranslateGemma, a special-purpose language model for translation\nOllama, a tool for…",
+      "author": null,
+      "publishedAt": "2026-05-01T00:00:00.000Z"
+    },
+    {
+      "guid": "https://evanhahn.com/notes-from-april-2026/",
+      "title": "Notes from April 2026",
+      "link": "https://evanhahn.com/notes-from-april-2026/",
+      "summary": "After a busy March, April was a little quieter. But don’t worry, I still have a bunch of little links for you to click on.\nThings I published\nGitHub’s uptime hasn’t been great recently. Even though I dislike the Microsoft subsidiary, I wrote “In defense of GitHub’s poor uptime”, which argues that…",
+      "author": null,
+      "publishedAt": "2026-04-30T00:00:00.000Z"
+    },
+    {
+      "guid": "https://evanhahn.com/in-defense-of-githubs-poor-uptime/",
+      "title": "In defense of GitHub's poor uptime",
+      "link": "https://evanhahn.com/in-defense-of-githubs-poor-uptime/",
+      "summary": "In short: GitHub’s downtime is bad, but uptime numbers can be misleading. It’s not as bad as it looks; more like a D than an F.\n“Zero nines uptime”?\n99.99% uptime, or “four nines”, is a common industry standard. Four nines of uptime is equivalent to 1.008 minutes of downtime per week.\nGitHub is not…",
+      "author": null,
+      "publishedAt": "2026-04-10T00:00:00.000Z"
+    }
+  ],
+  "totalIndexed": 10
+}

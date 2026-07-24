@@ -1,0 +1,93 @@
+{
+  "feedId": "vlad-mihalcea",
+  "feedName": "Vlad Mihalcea",
+  "feedSiteUrl": "https://vladmihalcea.com/",
+  "feedRssUrl": "https://vladmihalcea.com/feed/",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T07:15:07.628Z",
+  "items": [
+    {
+      "guid": "https://vladmihalcea.com/?p=48905",
+      "title": "How to emulate LEFT JOIN FETCH using Record-based projections",
+      "link": "https://vladmihalcea.com/emulate-left-join-fetch-using-projections/",
+      "summary": "Introduction In this article, I’m going to show you how to emulate a LEFT JOIN FETCH between two root entities without fetching the intermediate child entity. I got the inspiration for this article by this comment thread on my blog. Domain Model Let’s assume we have the following entities: The Post…",
+      "author": "vladmihalcea",
+      "publishedAt": "2026-02-27T08:52:13.000Z"
+    },
+    {
+      "guid": "https://vladmihalcea.com/?p=49280",
+      "title": "The best way to replace the deprecated GenericGenerator",
+      "link": "https://vladmihalcea.com/replace-deprecated-genericgenerator/",
+      "summary": "Introduction In this article, I’m going to show you the best way to replace the deprecated @GenericGenerator when upgrading your application to Hibernate 7. Hibernate @GenericGenerator annotation The @GenericGenerator annotation has been available since Hibernate 3.5, as an alternative to the…",
+      "author": "vladmihalcea",
+      "publishedAt": "2025-12-02T08:23:12.000Z"
+    },
+    {
+      "guid": "https://vladmihalcea.com/?p=49060",
+      "title": "Book Review – Just Use Postgres!",
+      "link": "https://vladmihalcea.com/book-review-just-use-postgres/",
+      "summary": "Introduction My friend, Denis Magda, wrote a wonderful book called Just Use Postgres!, and I’m glad that I got the chance to read it. Audience This book is useful for any software developer who’s either using PostgreSQL or plans on using it because it covers a lot of features that are very useful…",
+      "author": "vladmihalcea",
+      "publishedAt": "2025-11-24T09:00:34.000Z"
+    },
+    {
+      "guid": "https://vladmihalcea.com/?p=48900",
+      "title": "The best way to clean up test data with Spring and Hibernate",
+      "link": "https://vladmihalcea.com/clean-up-test-data-spring/",
+      "summary": "Introduction In this article, I’m going to show you the best way to clean up test data when using Spring and Hibernate. While it’s very common to use the @DataJpaTest annotation when implementing integration tests, in this blog post, you will see why you are better off avoiding using this…",
+      "author": "vladmihalcea",
+      "publishedAt": "2025-11-11T08:05:24.000Z"
+    },
+    {
+      "guid": "https://vladmihalcea.com/?p=48716",
+      "title": "Book Review – Troubleshooting Java",
+      "link": "https://vladmihalcea.com/book-review-troubleshooting-java/",
+      "summary": "Introduction My friend, Laurentiu Spilca, has been working on the second edition of his Troubleshooting Java book, and when I was asked to review it, I was more than happy to do it since the book features a lot of topics that I’m also very interested in, such as performance tuning and query…",
+      "author": "vladmihalcea",
+      "publishedAt": "2025-10-15T08:28:01.000Z"
+    },
+    {
+      "guid": "https://vladmihalcea.com/?p=48650",
+      "title": "Twelve years of blogging",
+      "link": "https://vladmihalcea.com/twelve-years-of-blogging/",
+      "summary": "Twelve years later! Twelve years ago today, I decided to create this blog on WordPress.com to share whatever I was finding interesting while working as a software architect. Prior to starting this blog, I didn’t have any writing experience, which you can clearly see in the first article I’ve ever…",
+      "author": "vladmihalcea",
+      "publishedAt": "2025-09-30T11:35:44.000Z"
+    },
+    {
+      "guid": "https://vladmihalcea.com/?p=41087",
+      "title": "MySQL Query Optimization with Releem",
+      "link": "https://vladmihalcea.com/mysql-query-optimization-releem/",
+      "summary": "Introduction In this article, I’m going to show you how to optimize the queries executed by a Spring application running on MySQL using Releem. For a short introduction about Releem, check out this previous article, in which I explained how to set up Releem to collect metrics from your MySQL…",
+      "author": "vladmihalcea",
+      "publishedAt": "2025-05-12T18:46:00.000Z"
+    },
+    {
+      "guid": "https://vladmihalcea.com/?p=40827",
+      "title": "Foundations of AI and Machine Learning for Java Developers Course Review",
+      "link": "https://vladmihalcea.com/foundations-of-ai-and-ml-course-review/",
+      "summary": "Introduction In this article, I’m going to review the Foundations of AI and Machine Learning for Java Developers video course from my fellow Java Champion, Frank Greco. If you are new to AI and ML and want to get a great introduction to these topics, then you should definitely join watch the video…",
+      "author": "vladmihalcea",
+      "publishedAt": "2025-04-11T08:26:55.000Z"
+    },
+    {
+      "guid": "https://vladmihalcea.com/?p=40620",
+      "title": "How to map the Oracle TIMESTAMP WITH TIME ZONE with JPA",
+      "link": "https://vladmihalcea.com/oracle-timestamp-with-time-zone-jpa/",
+      "summary": "Introduction In this article, I’m going to explain how to map the Oracle TIMESTAMP WITH TIME ZONE with JPA and Hibernate. While the DATE and TIMESTAMP column types are suitable for mapping the LocalDateTime, the TIMESTAMP WITH TIME ZONE column type allows us to map both the ZonedDateTime and…",
+      "author": "vladmihalcea",
+      "publishedAt": "2025-03-18T16:21:37.000Z"
+    },
+    {
+      "guid": "https://vladmihalcea.com/?p=40357",
+      "title": "MySQL Performance Tuning with Releem",
+      "link": "https://vladmihalcea.com/mysql-performance-tuning-releem/",
+      "summary": "Introduction If your application uses MySQL and you’re interested in getting the best out of it via performance tuning and monitoring, then Releem is a very nice tool that can assist you in your endeavor. I discovered Releem from Roman Agabekov’s posts on social media. Roman is the founder of this…",
+      "author": "vladmihalcea",
+      "publishedAt": "2025-02-10T18:04:50.000Z"
+    }
+  ],
+  "totalIndexed": 10
+}

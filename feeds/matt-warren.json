@@ -1,0 +1,413 @@
+{
+  "feedId": "matt-warren",
+  "feedName": "Matt Warren",
+  "feedSiteUrl": "http://mattwarren.org/",
+  "feedRssUrl": "http://mattwarren.org/atom.xml",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T07:00:19.418Z",
+  "items": [
+    {
+      "guid": "matt-warren::http://www.mattwarren.org/2020/03/03/Analysing-.NET-Runtime-Startup-with-Flamegraphs/",
+      "title": "Analysing .NET start-up time with Flamegraphs",
+      "link": "http://www.mattwarren.org/2020/03/03/Analysing-.NET-Runtime-Startup-with-Flamegraphs/",
+      "summary": "Recently I gave a talk at the NYAN Conference called ‘From ‘dotnet run’ to ‘hello world’:\nIn the talk I demonstrate how you can use PerfView to analyse where the .NET Runtime is spending it’s time during start-up:\n \n  From 'dotnet run' to 'hello world'  from Matt Warren \nThis post is a step-by-step…",
+      "author": null,
+      "publishedAt": "2020-03-03T00:00:00.000Z"
+    },
+    {
+      "guid": "matt-warren::http://www.mattwarren.org/2020/02/19/Under-the-hood-of-Default-Interface-Methods/",
+      "title": "Under the hood of \"Default Interface Methods\"",
+      "link": "http://www.mattwarren.org/2020/02/19/Under-the-hood-of-Default-Interface-Methods/",
+      "summary": "Background\n‘Default Interface Methods’ (DIM) sometimes referred to as ‘Default Implementations in Interfaces’, appeared in C# 8. In case you’ve never heard of the feature, here’s some links to get you started:\nDefault implementations in interfaces (official announcement)\nDefault Interface Methods…",
+      "author": null,
+      "publishedAt": "2020-02-19T00:00:00.000Z"
+    },
+    {
+      "guid": "matt-warren::http://www.mattwarren.org/2019/10/25/Research-based-on-the-.NET-Runtime/",
+      "title": "Research based on the .NET Runtime",
+      "link": "http://www.mattwarren.org/2019/10/25/Research-based-on-the-.NET-Runtime/",
+      "summary": "Over the last few years, I’ve come across more and more research papers based, in some way, on the ‘Common Language Runtime’ (CLR).\nSo armed with Google Scholar and ably assisted by Semantic Scholar, I put together the list below.\nNote: I put the papers into the following categories to make them…",
+      "author": null,
+      "publishedAt": "2019-10-25T00:00:00.000Z"
+    },
+    {
+      "guid": "matt-warren::http://www.mattwarren.org/2019/09/26/Stubs-in-the-.NET-Runtime/",
+      "title": "\"Stubs\" in the .NET Runtime",
+      "link": "http://www.mattwarren.org/2019/09/26/Stubs-in-the-.NET-Runtime/",
+      "summary": "As the saying goes:\n“All problems in computer science can be solved by another level of indirection”\n- David Wheeler\nand it certainly seems like the ‘.NET Runtime’ Engineers took this advice to heart!\n‘Stubs’, as they’re known in the runtime (sometimes ‘Thunks’), provide a level of indirection…",
+      "author": null,
+      "publishedAt": "2019-09-26T00:00:00.000Z"
+    },
+    {
+      "guid": "matt-warren::http://www.mattwarren.org/2019/04/25/ASCII-Art-in-.NET-Code/",
+      "title": "ASCII Art in .NET Code",
+      "link": "http://www.mattwarren.org/2019/04/25/ASCII-Art-in-.NET-Code/",
+      "summary": "Who doesn’t like a nice bit of ‘ASCII Art’? I know I certainly do!\n\nTo see what Matt’s CLR was all about you can watch the recording of my talk ‘From ‘dotnet run’ to ‘Hello World!’’ (from about ~24:30 in)\nSo armed with a trusty regex /\\*(.*?)\\*/|//(.*?)\\r?\\n|\"((\\\\[^\\n]|[^\"\\n])*)\"|@(\"[^\"]*\")+, I set…",
+      "author": null,
+      "publishedAt": "2019-04-25T00:00:00.000Z"
+    },
+    {
+      "guid": "matt-warren::http://www.mattwarren.org/2019/03/01/Is-CSharp-a-low-level-language/",
+      "title": "Is C# a low-level language?",
+      "link": "http://www.mattwarren.org/2019/03/01/Is-CSharp-a-low-level-language/",
+      "summary": "I’m a massive fan of everything Fabien Sanglard does, I love his blog and I’ve read both his books cover-to-cover (for more info on his books, check out the recent Hansleminutes podcast).\nRecently he wrote an excellent post where he deciphered a postcard sized raytracer, un-packing the obfuscated…",
+      "author": null,
+      "publishedAt": "2019-03-01T00:00:00.000Z"
+    },
+    {
+      "guid": "matt-warren::http://www.mattwarren.org/2019/01/21/Stackwalking-in-the-.NET-Runtime/",
+      "title": "\"Stack Walking\" in the .NET Runtime",
+      "link": "http://www.mattwarren.org/2019/01/21/Stackwalking-in-the-.NET-Runtime/",
+      "summary": "What is ‘stack walking’, well as always the ‘Book of the Runtime’ (BotR) helps us, from the relevant page:\nThe CLR makes heavy use of a technique known as stack walking (or stack crawling). This involves iterating the sequence of call frames for a particular thread, from the most recent (the…",
+      "author": null,
+      "publishedAt": "2019-01-21T00:00:00.000Z"
+    },
+    {
+      "guid": "matt-warren::http://www.mattwarren.org/2018/12/13/Exploring-the-.NET-Core-Runtime/",
+      "title": "Exploring the .NET Core Runtime (in which I set myself a challenge)",
+      "link": "http://www.mattwarren.org/2018/12/13/Exploring-the-.NET-Core-Runtime/",
+      "summary": "It seems like this time of year anyone with a blog is doing some sort of ‘advent calendar’, i.e. 24 posts leading up to Christmas. For instance there’s a F# one which inspired a C# one (C# copying from F#, that never happens 😉)\nHowever, that’s a bit of a problem for me, I struggled to write 24…",
+      "author": null,
+      "publishedAt": "2018-12-13T00:00:00.000Z"
+    },
+    {
+      "guid": "matt-warren::http://www.mattwarren.org/2018/12/04/Open-Source-.Net-4-years-later",
+      "title": "Open Source .NET – 4 years later",
+      "link": "http://www.mattwarren.org/2018/12/04/Open-Source-.Net-4-years-later",
+      "summary": "A little over 4 years ago Microsoft announced that they were open sourcing large parts of the .NET framework and as this slide from New Features in .NET Core and ASP.NET Core 2.1 shows, the community has been contributing in a significant way:\n\nSide-note: This post forms part of an on-going series,…",
+      "author": null,
+      "publishedAt": "2018-12-04T00:00:00.000Z"
+    },
+    {
+      "guid": "matt-warren::http://www.mattwarren.org/2018/10/02/A-History-of-.NET-Runtimes/",
+      "title": "A History of .NET Runtimes",
+      "link": "http://www.mattwarren.org/2018/10/02/A-History-of-.NET-Runtimes/",
+      "summary": "Recently I was fortunate enough to chat with Chris Bacon who wrote DotNetAnywhere (an alternative .NET Runtime) and I quipped with him:\n.. you’re probably one of only a select group(*) of people who’ve written a .NET runtime, that’s pretty cool!\n* if you exclude people who were paid to work on one,…",
+      "author": null,
+      "publishedAt": "2018-10-02T00:00:00.000Z"
+    },
+    {
+      "guid": "matt-warren::http://www.mattwarren.org/2018/08/28/Fuzzing-the-.NET-JIT-Compiler/",
+      "title": "Fuzzing the .NET JIT Compiler",
+      "link": "http://www.mattwarren.org/2018/08/28/Fuzzing-the-.NET-JIT-Compiler/",
+      "summary": "I recently came across the excellent ‘Fuzzlyn’ project, created as part of the ‘Language-Based Security’ course at Aarhus University. As per the project description Fuzzlyn is a:\n… fuzzer which utilizes Roslyn to generate random C# programs\nAnd what is a ‘fuzzer’, from the Wikipedia page for…",
+      "author": null,
+      "publishedAt": "2018-08-28T00:00:00.000Z"
+    },
+    {
+      "guid": "matt-warren::http://www.mattwarren.org/2018/08/21/Monitoring-and-Observability-in-the-.NET-Runtime/",
+      "title": "Monitoring and Observability in the .NET Runtime",
+      "link": "http://www.mattwarren.org/2018/08/21/Monitoring-and-Observability-in-the-.NET-Runtime/",
+      "summary": ".NET is a managed runtime, which means that it provides high-level features that ‘manage’ your program for you, from Introduction to the Common Language Runtime (CLR) (written in 2007):\nThe runtime has many features, so it is useful to categorize them as follows:\nFundamental features – Features…",
+      "author": null,
+      "publishedAt": "2018-08-21T00:00:00.000Z"
+    },
+    {
+      "guid": "matt-warren::http://www.mattwarren.org/2018/07/12/Presentations-and-Talks-covering-.NET-Internals/",
+      "title": "Presentations and Talks covering '.NET Internals'",
+      "link": "http://www.mattwarren.org/2018/07/12/Presentations-and-Talks-covering-.NET-Internals/",
+      "summary": "I’m constantly surprised at just how popular resources related to ‘.NET Internals’ are, for instance take this tweet and the thread that followed:\nIf you like learning about '.NET Internals' here's a few talks/presentations I've watched that you might also like. First 'Writing High Performance Code…",
+      "author": null,
+      "publishedAt": "2018-07-12T00:00:00.000Z"
+    },
+    {
+      "guid": "matt-warren::http://www.mattwarren.org/2018/07/05/.NET-JIT-and-CLR-Joined-at-the-Hip/",
+      "title": ".NET JIT and CLR - Joined at the Hip",
+      "link": "http://www.mattwarren.org/2018/07/05/.NET-JIT-and-CLR-Joined-at-the-Hip/",
+      "summary": "I’ve been digging into .NET Internals for a while now, but never really looked closely at how the ‘Just-in-Time’ (JIT) compiler works. In my mind, the interaction between the .NET Runtime and the JIT has always looked like this:\n\nNice and straight-forward, the CLR asks the JIT to compile some…",
+      "author": null,
+      "publishedAt": "2018-07-05T00:00:00.000Z"
+    },
+    {
+      "guid": "matt-warren::http://www.mattwarren.org/2018/06/15/Tools-for-Exploring-.NET-Internals/",
+      "title": "Tools for Exploring .NET Internals",
+      "link": "http://www.mattwarren.org/2018/06/15/Tools-for-Exploring-.NET-Internals/",
+      "summary": "Whether you want to look at what your code is doing ‘under-the-hood’ or you’re trying to see what the ‘internals’ of the CLR look like, there is a whole range of tools that can help you out.\nTo give ‘credit where credit is due’, this post is based on a tweet, so thanks to everyone who contributed…",
+      "author": null,
+      "publishedAt": "2018-06-15T00:00:00.000Z"
+    },
+    {
+      "guid": "matt-warren::http://www.mattwarren.org/2018/06/07/CoreRT-.NET-Runtime-for-AOT/",
+      "title": "CoreRT - A .NET Runtime for AOT",
+      "link": "http://www.mattwarren.org/2018/06/07/CoreRT-.NET-Runtime-for-AOT/",
+      "summary": "Firstly, what exactly is CoreRT? From its GitHub repo:\n.. a .NET Core runtime optimized for AOT (ahead of time compilation) scenarios, with the accompanying .NET native compiler toolchain\nThe rest of this post will look at what that actually means.\nContents\nExisting .NET ‘AOT’ Implementations…",
+      "author": null,
+      "publishedAt": "2018-06-07T00:00:00.000Z"
+    },
+    {
+      "guid": "matt-warren::http://www.mattwarren.org/2018/04/06/Taking-a-look-at-the-ECMA-335-Standard-for-.NET/",
+      "title": "Taking a look at the ECMA-335 Standard for .NET",
+      "link": "http://www.mattwarren.org/2018/04/06/Taking-a-look-at-the-ECMA-335-Standard-for-.NET/",
+      "summary": "It turns out that the .NET Runtime has a technical standard (or specification), known by its full name ECMA-335 - Common Language Infrastructure (CLI) (not to be confused with ECMA-334 which is the ‘C# Language Specification’). The latest update is the 6th edition from June 2012.\nThe specification…",
+      "author": null,
+      "publishedAt": "2018-04-06T00:00:00.000Z"
+    },
+    {
+      "guid": "matt-warren::http://www.mattwarren.org/2018/03/23/Exploring-the-internals-of-the-.NET-Runtime/",
+      "title": "Exploring the internals of the .NET Runtime",
+      "link": "http://www.mattwarren.org/2018/03/23/Exploring-the-internals-of-the-.NET-Runtime/",
+      "summary": "I recently appeared on Herding Code and Stackify ‘Developer Things’ podcasts and in both cases, the first question asked was ‘how do you figure out the internals of the .NET runtime’?\nThis post is an attempt to articulate that process, in the hope that it might be useful to others.\nHere are my…",
+      "author": null,
+      "publishedAt": "2018-03-23T00:00:00.000Z"
+    },
+    {
+      "guid": "matt-warren::http://www.mattwarren.org/2018/03/02/How-generics-were-added-to-.NET/",
+      "title": "How generics were added to .NET",
+      "link": "http://www.mattwarren.org/2018/03/02/How-generics-were-added-to-.NET/",
+      "summary": "Discuss this post on HackerNews and /r/programming\nBefore we dive into the technical details, let’s start with a quick history lesson, courtesy of Don Syme who worked on adding generics to .NET and then went on to design and implement F#, which is a pretty impressive set of achievements!!…",
+      "author": null,
+      "publishedAt": "2018-03-02T00:00:00.000Z"
+    },
+    {
+      "guid": "matt-warren::http://www.mattwarren.org/2018/01/22/Resources-for-Learning-about-.NET-Internals/",
+      "title": "Resources for Learning about .NET Internals",
+      "link": "http://www.mattwarren.org/2018/01/22/Resources-for-Learning-about-.NET-Internals/",
+      "summary": "It all started with a tweet, which seemed to resonate with people:\nIf you like reading my posts on .NET internals, you'll like all these other blogs. So I've put them together in a thread for you!!\n— Matt Warren (@matthewwarren) January 12, 2018\n\n\nThe aim was to list blogs that specifically cover…",
+      "author": null,
+      "publishedAt": "2018-01-22T00:00:00.000Z"
+    },
+    {
+      "guid": "matt-warren::http://www.mattwarren.org/2017/12/31/A-look-back-at-2017/",
+      "title": "A look back at 2017",
+      "link": "http://www.mattwarren.org/2017/12/31/A-look-back-at-2017/",
+      "summary": "I’ve now been blogging consistently for over 2 years (~2 times per/month) and I decided it was time for my first ‘retrospective’ post.\nWarning this post contains a large amount of humble brags, if you’ve come here to read about ‘.NET internals’ you’d better check back in a few weeks, when normal…",
+      "author": null,
+      "publishedAt": "2017-12-31T00:00:00.000Z"
+    },
+    {
+      "guid": "matt-warren::http://www.mattwarren.org/2017/12/19/Open-Source-.Net-3-years-later",
+      "title": "Open Source .NET – 3 years later",
+      "link": "http://www.mattwarren.org/2017/12/19/Open-Source-.Net-3-years-later",
+      "summary": "A little over 3 years ago Microsoft announced that they were open sourcing large parts of the .NET framework and as Scott Hanselman said in his Connect 2016 keynote, the community has been contributing in a significant way:\n\nThis post forms part of an on-going series, if you want to see how things…",
+      "author": null,
+      "publishedAt": "2017-12-19T00:00:00.000Z"
+    },
+    {
+      "guid": "matt-warren::http://www.mattwarren.org/2017/12/15/How-does-.NET-JIT-a-method-and-Tiered-Compilation/",
+      "title": "A look at the internals of 'Tiered JIT Compilation' in .NET Core",
+      "link": "http://www.mattwarren.org/2017/12/15/How-does-.NET-JIT-a-method-and-Tiered-Compilation/",
+      "summary": "The .NET runtime (CLR) has predominantly used a just-in-time (JIT) compiler to convert your executable into machine code (leaving aside ahead-of-time (AOT) scenarios for the time being), as the official Microsoft docs say:\nAt execution time, a just-in-time (JIT) compiler translates the MSIL into…",
+      "author": null,
+      "publishedAt": "2017-12-15T00:00:00.000Z"
+    },
+    {
+      "guid": "matt-warren::http://www.mattwarren.org/2017/11/28/Exploring-the-BBC-microbit-Software-Stack/",
+      "title": "Exploring the BBC micro:bit Software Stack",
+      "link": "http://www.mattwarren.org/2017/11/28/Exploring-the-BBC-microbit-Software-Stack/",
+      "summary": "If you grew up in the UK and went to school during the 1980’s or 1990’s there’s a good chance that this picture brings back fond memories:\n\n(image courtesy of Classic Acorn)\nI’d imagine that for a large amount of computer programmers (currently in their 30’s) the BBC Micro was their first…",
+      "author": null,
+      "publishedAt": "2017-11-28T00:00:00.000Z"
+    },
+    {
+      "guid": "matt-warren::http://www.mattwarren.org/2017/11/14/Microsoft-and-Open-Source-a-Brave-New-World-CORESTART/",
+      "title": "Microsoft & Open Source a 'Brave New World' - CORESTART 2.0",
+      "link": "http://www.mattwarren.org/2017/11/14/Microsoft-and-Open-Source-a-Brave-New-World-CORESTART/",
+      "summary": "Recently I was fortunate enough to be invited to the CORESTART 2.0 conference to give a talk on Microsoft & Open Source a ‘Brave New World’. It was a great conference, well organised by Tomáš Herceg and the teams from .NET College and Riganti and I had a great time.\nI encourage you to attend next…",
+      "author": null,
+      "publishedAt": "2017-11-14T00:00:00.000Z"
+    },
+    {
+      "guid": "matt-warren::http://www.mattwarren.org/2017/11/08/A-DoS-Attack-against-the-C-Compiler/",
+      "title": "A DoS Attack against the C# Compiler",
+      "link": "http://www.mattwarren.org/2017/11/08/A-DoS-Attack-against-the-C-Compiler/",
+      "summary": "Generics in C# are certainly very useful and I find it amazing that we almost didn’t get them:\nWhat would the cost of inaction have been? What would the cost of failure have been? No generics in C# 2.0? No LINQ in C# 3.0? No TPL in C# 4.0? No Async in C# 5.0? No F#? Ultimately, an erasure model of…",
+      "author": null,
+      "publishedAt": "2017-11-08T00:00:00.000Z"
+    },
+    {
+      "guid": "matt-warren::http://www.mattwarren.org/2017/10/19/DotNetAnywhere-an-Alternative-.NET-Runtime/",
+      "title": "DotNetAnywhere: An Alternative .NET Runtime",
+      "link": "http://www.mattwarren.org/2017/10/19/DotNetAnywhere-an-Alternative-.NET-Runtime/",
+      "summary": "Recently I was listening to the excellent DotNetRocks podcast and they had Steven Sanderson (of Knockout.js fame) talking about ‘WebAssembly and Blazor’.\nIn case you haven’t heard about it, Blazor is an attempt to bring .NET to the browser, using the magic of WebAssembly. If you want more info,…",
+      "author": null,
+      "publishedAt": "2017-10-19T00:00:00.000Z"
+    },
+    {
+      "guid": "matt-warren::http://www.mattwarren.org/2017/10/12/Analysing-C-code-on-GitHub-with-BigQuery/",
+      "title": "Analysing C# code on GitHub with BigQuery",
+      "link": "http://www.mattwarren.org/2017/10/12/Analysing-C-code-on-GitHub-with-BigQuery/",
+      "summary": "Just over a year ago Google made all the open source code on GitHub available for querying within BigQuery and as if that wasn’t enough you can run a terabyte of queries each month for free!\nSo in this post I am going to be looking at all the C# source code on GitHub and what we can find out from…",
+      "author": null,
+      "publishedAt": "2017-10-12T00:00:00.000Z"
+    },
+    {
+      "guid": "matt-warren::http://www.mattwarren.org/2017/08/02/A-look-at-the-internals-of-boxing-in-the-CLR/",
+      "title": "A look at the internals of 'boxing' in the CLR",
+      "link": "http://www.mattwarren.org/2017/08/02/A-look-at-the-internals-of-boxing-in-the-CLR/",
+      "summary": "It’s a fundamental part of .NET and can often happen without you knowing, but how does it actually work? What is the .NET Runtime doing to make boxing possible?\nNote: this post won’t be discussing how to detect boxing, how it can affect performance or how to remove it (speak to Ben Adams about…",
+      "author": null,
+      "publishedAt": "2017-08-02T00:00:00.000Z"
+    },
+    {
+      "guid": "matt-warren::http://www.mattwarren.org/2017/07/10/Memory-Usage-Inside-the-CLR/",
+      "title": "Memory Usage Inside the CLR",
+      "link": "http://www.mattwarren.org/2017/07/10/Memory-Usage-Inside-the-CLR/",
+      "summary": "Have you ever wondered where and why the .NET Runtime (CLR) allocates memory? I don’t mean the ‘managed’ memory that your code allocates, e.g. via new MyClass(..) and the Garbage Collector (GC) then cleans up. I mean the memory that the CLR itself allocates, all the internal data structures that it…",
+      "author": null,
+      "publishedAt": "2017-07-10T00:00:00.000Z"
+    },
+    {
+      "guid": "matt-warren::http://www.mattwarren.org/2017/06/15/How-the-.NET-Rutime-loads-a-Type/",
+      "title": "How the .NET Runtime loads a Type",
+      "link": "http://www.mattwarren.org/2017/06/15/How-the-.NET-Rutime-loads-a-Type/",
+      "summary": "It is something we take for granted every time we run a .NET program, but it turns out that loading a Type or class is a fairly complex process.\nSo how does the .NET Runtime (CLR) actually load a Type?\nIf you want the tl;dr it’s done carefully, cautiously and step-by-step\nEnsuring Type Safety\nOne…",
+      "author": null,
+      "publishedAt": "2017-06-15T00:00:00.000Z"
+    },
+    {
+      "guid": "matt-warren::http://www.mattwarren.org/2017/05/25/Lowering-in-the-C-Compiler/",
+      "title": "Lowering in the C# Compiler (and what happens when you misuse it)",
+      "link": "http://www.mattwarren.org/2017/05/25/Lowering-in-the-C-Compiler/",
+      "summary": "Turns out that what I’d always thought of as “Compiler magic” or “Syntactic sugar” is actually known by the technical term ‘Lowering’ and the C# compiler (a.k.a Roslyn) uses it extensively.\nBut what is it? Well this quote from So You Want To Write Your Own Language? gives us some idea:\nLowering\nOne…",
+      "author": null,
+      "publishedAt": "2017-05-25T00:00:00.000Z"
+    },
+    {
+      "guid": "matt-warren::http://www.mattwarren.org/2017/05/19/Adding-a-new-Bytecode-Instruction-to-the-CLR/",
+      "title": "Adding a new Bytecode Instruction to the CLR",
+      "link": "http://www.mattwarren.org/2017/05/19/Adding-a-new-Bytecode-Instruction-to-the-CLR/",
+      "summary": "Now that the CoreCLR is open-source we can do fun things, for instance find out if it’s possible to add new IL (Intermediate Language) instruction to the runtime.\nTL;DR it turns out that it’s easier than you might think!! Here are the steps you need to go through:\nStep 0 - Introduction and…",
+      "author": null,
+      "publishedAt": "2017-05-19T00:00:00.000Z"
+    },
+    {
+      "guid": "matt-warren::http://www.mattwarren.org/2017/05/08/Arrays-and-the-CLR-a-Very-Special-Relationship/",
+      "title": "Arrays and the CLR - a Very Special Relationship",
+      "link": "http://www.mattwarren.org/2017/05/08/Arrays-and-the-CLR-a-Very-Special-Relationship/",
+      "summary": "A while ago I wrote about the ‘special relationship’ that exists between Strings and the CLR, well it turns out that Arrays and the CLR have an even deeper one, the type of closeness where you hold hands on your first meeting\n\nAs an aside, if you like reading about CLR internals you may find these…",
+      "author": null,
+      "publishedAt": "2017-05-08T00:00:00.000Z"
+    },
+    {
+      "guid": "matt-warren::http://www.mattwarren.org/2017/04/13/The-CLR-Thread-Pool-Thread-Injection-Algorithm/",
+      "title": "The CLR Thread Pool 'Thread Injection' Algorithm",
+      "link": "http://www.mattwarren.org/2017/04/13/The-CLR-Thread-Pool-Thread-Injection-Algorithm/",
+      "summary": "If you’re near London at the end of April, I’ll be speaking at ProgSCon 2017 on Microsoft and Open-Source – A ‘Brave New World’. ProgSCon is 1-day conference, with talks covering an eclectic range of topics, you’ll learn lots!!\nAs part of a never-ending quest to explore the CoreCLR source code I…",
+      "author": null,
+      "publishedAt": "2017-04-13T00:00:00.000Z"
+    },
+    {
+      "guid": "matt-warren::http://www.mattwarren.org/2017/03/30/The-.NET-IL-Interpreter/",
+      "title": "The .NET IL Interpreter",
+      "link": "http://www.mattwarren.org/2017/03/30/The-.NET-IL-Interpreter/",
+      "summary": "Whilst writing a previous blog post I stumbled across the .NET Interpreter, tucked away in the source code. Although, it I’d made even the smallest amount of effort to look for it, I’d have easily found it via the GitHub ‘magic’ file search:\n\nUsage Scenarios\nBefore we look at how to use it and what…",
+      "author": null,
+      "publishedAt": "2017-03-30T00:00:00.000Z"
+    },
+    {
+      "guid": "matt-warren::http://www.mattwarren.org/2017/03/23/Hitchhikers-Guide-to-the-CoreCLR-Source-Code/",
+      "title": "A Hitchhikers Guide to the CoreCLR Source Code",
+      "link": "http://www.mattwarren.org/2017/03/23/Hitchhikers-Guide-to-the-CoreCLR-Source-Code/",
+      "summary": "photo by Alan O’Rourke\nJust over 2 years ago Microsoft open-sourced the entire .NET framework, this posts attempts to provide a ‘Hitchhikers Guide’ to the source-code found in the CoreCLR GitHub repository.\nTo make it easier for you to get to the information you’re interested in, this post is split…",
+      "author": null,
+      "publishedAt": "2017-03-23T00:00:00.000Z"
+    },
+    {
+      "guid": "matt-warren::http://www.mattwarren.org/2017/02/07/The-68-things-the-CLR-does-before-executing-a-single-line-of-your-code/",
+      "title": "The 68 things the CLR does before executing a single line of your code (*)",
+      "link": "http://www.mattwarren.org/2017/02/07/The-68-things-the-CLR-does-before-executing-a-single-line-of-your-code/",
+      "summary": "Because the CLR is a managed environment there are several components within the runtime that need to be initialised before any of your code can be executed. This post will take a look at the EE (Execution Engine) start-up routine and examine the initialisation process in detail.\n(*) 68 is only a…",
+      "author": null,
+      "publishedAt": "2017-02-07T00:00:00.000Z"
+    },
+    {
+      "guid": "matt-warren::http://www.mattwarren.org/2017/01/25/How-do-.NET-delegates-work/",
+      "title": "How do .NET delegates work?",
+      "link": "http://www.mattwarren.org/2017/01/25/How-do-.NET-delegates-work/",
+      "summary": "Delegates are a fundamental part of the .NET runtime and whilst you rarely create them directly, they are there under-the-hood every time you use a lambda in LINQ (=>) or a Func<T>/Action<T> to make your code more functional. But how do they actually work and what’s going in the CLR when you use…",
+      "author": null,
+      "publishedAt": "2017-01-25T00:00:00.000Z"
+    },
+    {
+      "guid": "matt-warren::http://www.mattwarren.org/2017/01/13/Analysing-Pause-times-in-the-.NET-GC/",
+      "title": "Analysing Pause times in the .NET GC",
+      "link": "http://www.mattwarren.org/2017/01/13/Analysing-Pause-times-in-the-.NET-GC/",
+      "summary": "Over the last few months there have been several blog posts looking at GC pauses in different programming languages or runtimes. It all started with a post looking at the latency of the Haskell GC, next came a follow-up that compared Haskell, OCaml and Racket, followed by Go GC in Theory and…",
+      "author": null,
+      "publishedAt": "2017-01-13T00:00:00.000Z"
+    },
+    {
+      "guid": "matt-warren::http://www.mattwarren.org/2016/12/20/Why-Exceptions-should-be-Exceptional/",
+      "title": "Why Exceptions should be Exceptional",
+      "link": "http://www.mattwarren.org/2016/12/20/Why-Exceptions-should-be-Exceptional/",
+      "summary": "According to the NASA ‘Near Earth Object Program’ asteroid ‘101955 Bennu (1999 RQ36)’ has a Cumulative Impact Probability of 3.7e-04, i.e. there is a 1 in 2,700 (0.0370%) chance of Earth impact, but more reassuringly there is a 99.9630% chance the asteroid will miss the Earth completely!\nBut how…",
+      "author": null,
+      "publishedAt": "2016-12-20T00:00:00.000Z"
+    },
+    {
+      "guid": "matt-warren::http://www.mattwarren.org/2016/12/14/Why-is-Reflection-slow/",
+      "title": "Why is reflection slow?",
+      "link": "http://www.mattwarren.org/2016/12/14/Why-is-Reflection-slow/",
+      "summary": "It’s common knowledge that reflection in .NET is slow, but why is that the case? This post aims to figure that out by looking at what reflection does under-the-hood.\nCLR Type System Design Goals\nBut first it’s worth pointing out that part of the reason reflection isn’t fast is that it was never…",
+      "author": null,
+      "publishedAt": "2016-12-14T00:00:00.000Z"
+    },
+    {
+      "guid": "matt-warren::http://www.mattwarren.org/2016/12/12/Research-papers-in-the-.NET-source/",
+      "title": "Research papers in the .NET source",
+      "link": "http://www.mattwarren.org/2016/12/12/Research-papers-in-the-.NET-source/",
+      "summary": "This post is completely inspired by (or ‘copied from’ depending on your point of view) a recent post titled JAVA PAPERS (also see the HackerNews discussion). However, instead of looking at Java and the JVM, I’ll be looking at references to research papers in the .NET language, runtime and compiler…",
+      "author": null,
+      "publishedAt": "2016-12-12T00:00:00.000Z"
+    },
+    {
+      "guid": "matt-warren::http://www.mattwarren.org/2016/11/23/open-source-net-2-years-later/",
+      "title": "Open Source .NET – 2 years later",
+      "link": "http://www.mattwarren.org/2016/11/23/open-source-net-2-years-later/",
+      "summary": "A little over 2 years ago Microsoft announced that they were open sourcing large parts of the .NET framework and as Scott Hanselman said in his recent Connect keynote, the community has been contributing in a significant way:\n\nYou can see some more detail on this number in the talk ‘What’s New in…",
+      "author": null,
+      "publishedAt": "2016-11-23T00:00:00.000Z"
+    },
+    {
+      "guid": "matt-warren::http://www.mattwarren.org/2016/10/26/How-does-the-fixed-keyword-work/",
+      "title": "How does the 'fixed' keyword work?",
+      "link": "http://www.mattwarren.org/2016/10/26/How-does-the-fixed-keyword-work/",
+      "summary": "Well it turns out that it’s a really nice example of collaboration between the main parts of the .NET runtime, here’s a list of all the components involved:\nCompiler\nJITter\nCLR\nGarbage Collector (GC)\nNow you could argue that all of these are required to execute any C# code, but what’s interesting…",
+      "author": null,
+      "publishedAt": "2016-10-26T00:00:00.000Z"
+    },
+    {
+      "guid": "matt-warren::http://www.mattwarren.org/2016/10/03/Adding-a-verb-to-the-dotnet-CLI-tooling/",
+      "title": "Adding a verb to the dotnet CLI tooling",
+      "link": "http://www.mattwarren.org/2016/10/03/Adding-a-verb-to-the-dotnet-CLI-tooling/",
+      "summary": "The dotnet CLI tooling comes with several built-in cmds such as build, run and test, but it turns out it’s possible to add your own verb to that list.\nArbitrary cmds\nFrom Intro to .NET Core CLI - Design\nThe way the dotnet driver finds the command it is instructed to run using dotnet {command} is…",
+      "author": null,
+      "publishedAt": "2016-10-03T00:00:00.000Z"
+    },
+    {
+      "guid": "matt-warren::http://www.mattwarren.org/2016/09/29/Optimising-LINQ/",
+      "title": "Optimising LINQ",
+      "link": "http://www.mattwarren.org/2016/09/29/Optimising-LINQ/",
+      "summary": "What’s the problem with LINQ?\nAs outlined by Joe Duffy, LINQ introduces inefficiencies in the form of hidden allocations, from The ‘premature optimization is evil’ myth:\nTo take an example of a technology that I am quite supportive of, but that makes writing inefficient code very easy, let’s look…",
+      "author": null,
+      "publishedAt": "2016-09-29T00:00:00.000Z"
+    },
+    {
+      "guid": "matt-warren::http://www.mattwarren.org/2016/09/19/Compact-strings-in-the-CLR/",
+      "title": "Compact strings in the CLR",
+      "link": "http://www.mattwarren.org/2016/09/19/Compact-strings-in-the-CLR/",
+      "summary": "In the CLR strings are stored as a sequence of UTF-16 code units, i.e. an array of char items. So if we have the string ‘testing’, in memory it looks like this:\n\nBut look at all those zero’s, wouldn’t it be more efficient if it could be stored like this instead?\n\nNow this is a contrived example,…",
+      "author": null,
+      "publishedAt": "2016-09-19T00:00:00.000Z"
+    },
+    {
+      "guid": "matt-warren::http://www.mattwarren.org/2016/09/14/Subverting-.NET-Type-Safety-with-System.Runtime.CompilerServices.Unsafe/",
+      "title": "Subverting .NET Type Safety with 'System.Runtime.CompilerServices.Unsafe'",
+      "link": "http://www.mattwarren.org/2016/09/14/Subverting-.NET-Type-Safety-with-System.Runtime.CompilerServices.Unsafe/",
+      "summary": "In which we use System.Runtime.CompilerServices.Unsafe a generic API (“type-safe” but still “unsafe”) and mess with the C# Type System!\nThe post covers the following topics:\nWhat it is and why it’s useful\nHow it works\nCode samples\nTricks you can do with it\nUsing it safely\nWhat it is and why it’s…",
+      "author": null,
+      "publishedAt": "2016-09-14T00:00:00.000Z"
+    },
+    {
+      "guid": "matt-warren::http://www.mattwarren.org/2016/09/06/Analysing-.NET-Memory-Dumps-with-CLR-MD/",
+      "title": "Analysing .NET Memory Dumps with CLR MD",
+      "link": "http://www.mattwarren.org/2016/09/06/Analysing-.NET-Memory-Dumps-with-CLR-MD/",
+      "summary": "If you’ve ever spent time debugging .NET memory dumps in WinDBG you will be familiar with the commands shown below, which aren’t always the most straight-forward to work with!\n\nHowever back in May 2013 Microsoft released the CLR MD library, describing it as:\n… a set of advanced APIs for…",
+      "author": null,
+      "publishedAt": "2016-09-06T00:00:00.000Z"
+    }
+  ],
+  "totalIndexed": 50
+}

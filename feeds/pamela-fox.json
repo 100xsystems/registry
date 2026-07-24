@@ -1,0 +1,213 @@
+{
+  "feedId": "pamela-fox",
+  "feedName": "Pamela Fox",
+  "feedSiteUrl": "http://blog.pamelafox.org/",
+  "feedRssUrl": "http://blog.pamelafox.org/feeds/posts/default",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T07:02:05.219Z",
+  "items": [
+    {
+      "guid": "pamela-fox::http://blog.pamelafox.org/2026/05/pycon-2026-reflections.html",
+      "title": "My experience at PyCon US 2026",
+      "link": "http://blog.pamelafox.org/2026/05/pycon-2026-reflections.html",
+      "summary": "I'm writing this post on the flight back from PyCon US 2026 in Long Beach, California.\nIt was my second time attending PyCon, and it was a fantastic conference -\na cornocopia of Python knowledge, but more importantly, a coming-together of developers across the Python ecosystem.\n\n\n\nI'll recap my…",
+      "author": "Pamela Fox",
+      "publishedAt": "2026-05-20T05:41:47.331Z"
+    },
+    {
+      "guid": "pamela-fox::http://blog.pamelafox.org/2026/04/building-mcp-servers-with-entra-id-and.html",
+      "title": "Building MCP servers with Entra ID and pre-authorized clients",
+      "link": "http://blog.pamelafox.org/2026/04/building-mcp-servers-with-entra-id-and.html",
+      "summary": "The Model Context Protocol (MCP) gives AI agents a standard way to call external tools, but things get more complicated when those tools need to know who the user is. In this post, I’ll show how to build an MCP server with the Python FastMCP package that authenticates users with Microsoft Entra ID…",
+      "author": "Pamela Fox",
+      "publishedAt": "2026-04-02T23:44:00.000Z"
+    },
+    {
+      "guid": "pamela-fox::http://blog.pamelafox.org/2026/03/do-stricter-mcp-tool-schemas-increase.html",
+      "title": "Do stricter MCP tool schemas increase agent reliability?",
+      "link": "http://blog.pamelafox.org/2026/03/do-stricter-mcp-tool-schemas-increase.html",
+      "summary": "MCP servers contain tools, and each tool is described by its name, description, input parameters, and return type. When an agent is calling a tool, it formulates its call based on only that metadata; it does not know anything about the internals of a tool. For my PyAI talk last week, I investigated…",
+      "author": "Pamela Fox",
+      "publishedAt": "2026-03-17T06:13:00.000Z"
+    },
+    {
+      "guid": "pamela-fox::http://blog.pamelafox.org/2026/03/can-mcp-choose-my-outfit.html",
+      "title": "Can MCP choose my outfit?",
+      "link": "http://blog.pamelafox.org/2026/03/can-mcp-choose-my-outfit.html",
+      "summary": "When I was a kid, one of my first Java applets was a UI for choosing outfits by mixing and matching different articles of clothing. Now, with the advent of agents and MCP, I realized that I could make a modern, more dynamic version: an MCP server that can find relevant clothing based off a user…",
+      "author": "Pamela Fox",
+      "publishedAt": "2026-03-13T05:49:00.000Z"
+    },
+    {
+      "guid": "pamela-fox::http://blog.pamelafox.org/2026/03/learnings-from-pyai-conference.html",
+      "title": "Learnings from the PyAI conference",
+      "link": "http://blog.pamelafox.org/2026/03/learnings-from-pyai-conference.html",
+      "summary": "I recently spoke at the PyAI conference, put on by the good folks at Prefect and Pydantic, and I learnt so much from the talks I attended. Here are my top takeaways from the sessions that I watched:\nAI Evals Pitfalls\nHamel Husain\n📺 Watch the video recording | 📊 View slides\nHamel cautioned against…",
+      "author": "Pamela Fox",
+      "publishedAt": "2026-03-12T06:40:00.000Z"
+    },
+    {
+      "guid": "pamela-fox::http://blog.pamelafox.org/2026/01/using-on-behalf-of-flow-for-entra-based.html",
+      "title": "Using on-behalf-of flow for Entra-based MCP servers",
+      "link": "http://blog.pamelafox.org/2026/01/using-on-behalf-of-flow-for-entra-based.html",
+      "summary": "In December, we presented a series about MCP, culminating in a session about adding authentication to MCP servers.\nI demoed a Python MCP server that uses Microsoft Entra for authentication, requiring users to first login to the Microsoft tenant before they could use a tool.\nMany developers asked…",
+      "author": "Pamela Fox",
+      "publishedAt": "2026-01-16T20:34:00.000Z"
+    },
+    {
+      "guid": "pamela-fox::http://blog.pamelafox.org/2025/12/watch-recordings-from-my-python-mcp.html",
+      "title": "Watch the recordings from my Python + MCP series",
+      "link": "http://blog.pamelafox.org/2025/12/watch-recordings-from-my-python-mcp.html",
+      "summary": "MCP is one of the fastest growing technologies in the Generative AI space this year, and the first AI related standard that the industry has really embraced wholeheartedly. I just gave a three-part live stream series all about Python + MCP. I showed how to:\n\nBuild MCP servers in Python using…",
+      "author": "Pamela Fox",
+      "publishedAt": "2025-12-19T15:50:00.000Z"
+    },
+    {
+      "guid": "pamela-fox::http://blog.pamelafox.org/2025/10/watch-recordings-from-my-python-ai.html",
+      "title": "Watch the recordings from my Python + AI series",
+      "link": "http://blog.pamelafox.org/2025/10/watch-recordings-from-my-python-ai.html",
+      "summary": "My colleague and I just wrapped up a live series on Python + AI, a nine-part journey diving deep into how to use generative AI models from Python. I gave the english streams while my colleague Gwen gave the spanish streams (and I hung out in her live chat, working on my technical spanish!).\nThe…",
+      "author": "Pamela Fox",
+      "publishedAt": "2025-10-31T14:22:00.000Z"
+    },
+    {
+      "guid": "pamela-fox::http://blog.pamelafox.org/2025/09/filter-tools-from-mcp-servers.html",
+      "title": "Filter the tools from MCP servers",
+      "link": "http://blog.pamelafox.org/2025/09/filter-tools-from-mcp-servers.html",
+      "summary": "What I like about MCP servers: they give me lots of great tools that can make my agents more powerful, with very little work on my side. 🎉\nWhat I don't like about MCP servers: they give me TOO many tools! I usually only need a handful of tools for a task, but a server can expose dozens. 😿\nThe…",
+      "author": "Pamela Fox",
+      "publishedAt": "2025-09-18T17:35:00.000Z"
+    },
+    {
+      "guid": "pamela-fox::http://blog.pamelafox.org/2025/08/how-i-learn-about-generative-ai.html",
+      "title": "How I learn about generative AI",
+      "link": "http://blog.pamelafox.org/2025/08/how-i-learn-about-generative-ai.html",
+      "summary": "I do not consider myself an expert in generative AI, but I now know enough to build full-stack web applications on top of generative AI models, evaluate the quality of those applications, and decide whether new models or frameworks will be useful. These are the resources that I personally used for…",
+      "author": "Pamela Fox",
+      "publishedAt": "2025-08-19T05:59:00.000Z"
+    },
+    {
+      "guid": "pamela-fox::http://blog.pamelafox.org/2025/08/gpt-5-will-it-rag.html",
+      "title": "GPT-5: Will it RAG?",
+      "link": "http://blog.pamelafox.org/2025/08/gpt-5-will-it-rag.html",
+      "summary": "table.evalresults {\n  background: #FAFAFA; /* pale neutral for table body */\n  width: 100%;\n  border-collapse: collapse;\n}\ntable.evalresults th, table.evalresults td {\n  border: 1px solid #ddd;\n  padding: 8px;\n}\ntable.evalresults th {\n  background-color: #DDEAF2; /* accessible blue header */…",
+      "author": "Pamela Fox",
+      "publishedAt": "2025-08-11T18:40:00.000Z"
+    },
+    {
+      "guid": "pamela-fox::http://blog.pamelafox.org/2025/08/red-teaming-rag-app-what-happens.html",
+      "title": "Red-teaming a RAG app: gpt-4o-mini v. llama3.1 v. hermes3",
+      "link": "http://blog.pamelafox.org/2025/08/red-teaming-rag-app-what-happens.html",
+      "summary": "When we develop user-facing applications that are powered by LLMs, we're taking on a big risk that the LLM may produce output that is unsafe in some way - like responses that encourage violence, hate speech, or self-harm. How can we be confident that a troll won't get our app to say something…",
+      "author": "Pamela Fox",
+      "publishedAt": "2025-08-04T17:08:00.000Z"
+    },
+    {
+      "guid": "pamela-fox::http://blog.pamelafox.org/2025/07/automated-repo-maintenance-with-github.html",
+      "title": "Automated repo maintenance via GitHub Copilot coding agent",
+      "link": "http://blog.pamelafox.org/2025/07/automated-repo-maintenance-with-github.html",
+      "summary": "I have a problem: I'm addicted to making new repositories on GitHub. As part of my advocacy role at Microsoft, my goal is to show developers how to combine technology X with technology Y, and a repository is a great way to prove it. But that means I now have hundreds of repositories that I am…",
+      "author": "Pamela Fox",
+      "publishedAt": "2025-07-24T15:05:00.000Z"
+    },
+    {
+      "guid": "pamela-fox::http://blog.pamelafox.org/2025/07/to-mcp-or-not-to-mcp.html",
+      "title": "To MCP or not to MCP?",
+      "link": "http://blog.pamelafox.org/2025/07/to-mcp-or-not-to-mcp.html",
+      "summary": "When we're building automation tools in 2025, I see two main approaches:\nAgent + MCP: Point an LLM-powered Agent at MCP servers, give the Agent a detailed description of the task, and let the Agent decide which tools to use to complete the task. For this approach, we can use an existing Agent from…",
+      "author": "Pamela Fox",
+      "publishedAt": "2025-07-21T14:43:00.000Z"
+    },
+    {
+      "guid": "pamela-fox::http://blog.pamelafox.org/2025/07/mcp-bringing-mashups-back.html",
+      "title": "MCP: Bringing mashups back!",
+      "link": "http://blog.pamelafox.org/2025/07/mcp-bringing-mashups-back.html",
+      "summary": "In the summer of 2006, I discovered the blossoming world of web APIs: HTTP APIs like the Flickr API, JavaScript APIs like Google Maps API, and platform APIs like the iGoogle gadgets API. I spent my spare time making \"mashups\": programs that connected together multiple APIs to create new…",
+      "author": "Pamela Fox",
+      "publishedAt": "2025-07-18T14:12:00.000Z"
+    },
+    {
+      "guid": "pamela-fox::http://blog.pamelafox.org/2025/06/getting-hysterectomy-my-reasons-and.html",
+      "title": "Getting a hysterectomy: My reasons and recovery",
+      "link": "http://blog.pamelafox.org/2025/06/getting-hysterectomy-my-reasons-and.html",
+      "summary": "Back in 2014, I had a brush with cervical cancer. We fortunately caught it when it was stage 0, the point at which it's not even called cancer, and is called adenocarcinoma instead. I went in for surgery, a procedure called cervical conization, where the doctor basically scrapes the potentially…",
+      "author": "Pamela Fox",
+      "publishedAt": "2025-06-24T17:17:00.000Z"
+    },
+    {
+      "guid": "pamela-fox::http://blog.pamelafox.org/2025/06/proficient-python-free-interactive.html",
+      "title": "Proficient Python: A free interactive online course",
+      "link": "http://blog.pamelafox.org/2025/06/proficient-python-free-interactive.html",
+      "summary": "There are many ways to learn Python online, but there are also many people out there that want to learn Python for multiple reasons - so hey, why not add one more free Python course into the mix? I'm happy to finally release ProficientPython.com, my own approach to teaching introductory Python.\nThe…",
+      "author": "Pamela Fox",
+      "publishedAt": "2025-06-23T21:17:00.000Z"
+    },
+    {
+      "guid": "pamela-fox::http://blog.pamelafox.org/2025/06/teaching-python-with-codespaces.html",
+      "title": "Teaching Python with Codespaces",
+      "link": "http://blog.pamelafox.org/2025/06/teaching-python-with-codespaces.html",
+      "summary": "Whenever I am teaching Python workshops, tutorials, or classes, I love to use GitHub Codespaces. Any repository on GitHub can be opened inside a GitHub Codespace, which gives the student a full Python environment and a browser-based VS Code. Students spend less time setting up their environment and…",
+      "author": "Pamela Fox",
+      "publishedAt": "2025-06-01T15:14:00.000Z"
+    },
+    {
+      "guid": "pamela-fox::http://blog.pamelafox.org/2025/05/a-visual-exploration-of-vector.html",
+      "title": "A visual introduction to vector embeddings",
+      "link": "http://blog.pamelafox.org/2025/05/a-visual-exploration-of-vector.html",
+      "summary": "For Pycon 2025, I created a poster exploring vector embedding models, which you can download at full-size. \n  In this post, I'll translate that poster into words.\nVector embeddings\nA vector embedding is a mapping from an input (like a word, list of words, or image) into a list of floating point…",
+      "author": "Pamela Fox",
+      "publishedAt": "2025-05-28T20:10:00.000Z"
+    },
+    {
+      "guid": "pamela-fox::http://blog.pamelafox.org/2025/04/using-defaultazurecredential-across.html",
+      "title": "Using DefaultAzureCredential across multiple tenants",
+      "link": "http://blog.pamelafox.org/2025/04/using-defaultazurecredential-across.html",
+      "summary": "If you are using the DefaultAzureCredential class from the Azure Identity SDK while your user account is associated with multiple tenants, you may find yourself frequently running into API authentication errors (such as HTTP 401/Unauthorized). This post is for you!\nThese are your two options for…",
+      "author": "Pamela Fox",
+      "publishedAt": "2025-04-29T05:51:00.000Z"
+    },
+    {
+      "guid": "pamela-fox::http://blog.pamelafox.org/2025/04/how-to-use-any-python-ai-agent.html",
+      "title": "Use any Python AI agent framework with free GitHub Models",
+      "link": "http://blog.pamelafox.org/2025/04/how-to-use-any-python-ai-agent.html",
+      "summary": "I ❤️ when companies offer free tiers for developer services, since it gives everyone a way to learn new technologies without breaking the bank. Free tiers are especially important for students and people between jobs, where the desire to learn is high but the available cash is low.\n \n  \nThat's why…",
+      "author": "Pamela Fox",
+      "publishedAt": "2025-04-11T07:30:00.000Z"
+    },
+    {
+      "guid": "pamela-fox::http://blog.pamelafox.org/2025/04/building-streaming-deepseek-r1-app-on.html",
+      "title": "Building a streaming DeepSeek-R1 app on Azure",
+      "link": "http://blog.pamelafox.org/2025/04/building-streaming-deepseek-r1-app-on.html",
+      "summary": "Update: The approach has slightly changed (in a good way!). Read this Microsoft Learn article for an updated guide.\nThis year, we're seeing the rise in \"reasoning models\", models that include an additional thinking process in order to generate their answer. Reasoning models can produce more…",
+      "author": "Pamela Fox",
+      "publishedAt": "2025-04-02T18:15:00.000Z"
+    },
+    {
+      "guid": "pamela-fox::http://blog.pamelafox.org/2025/03/gpt-4o-mini-vs-gpt-35-turbo-for-rag.html",
+      "title": "Evaluating gpt-4o-mini vs. gpt-3.5-turbo for RAG applications",
+      "link": "http://blog.pamelafox.org/2025/03/gpt-4o-mini-vs-gpt-35-turbo-for-rag.html",
+      "summary": "The azure-search-openai-demo repository was first created in March 2023 and is now the most popular RAG sample solution for Azure. Since the world of generative AI changes so rapidly, we've made many upgrades to its underlying packages and technologies over the past two years. But we've never…",
+      "author": "Pamela Fox",
+      "publishedAt": "2025-03-06T08:22:00.000Z"
+    },
+    {
+      "guid": "pamela-fox::http://blog.pamelafox.org/2025/02/is-your-llm-powered-app-providing-safe.html",
+      "title": "Safety evaluations for LLM-powered apps",
+      "link": "http://blog.pamelafox.org/2025/02/is-your-llm-powered-app-providing-safe.html",
+      "summary": "When we build apps on top of Large Language Models, we need to evaluate the app responses for quality and safety.\n  When we evaluate the quality of an app, we're making sure that it provides answers that are coherent, clear, aligned to the user's needs, and in the case of many applications:…",
+      "author": "Pamela Fox",
+      "publishedAt": "2025-02-25T21:56:00.000Z"
+    },
+    {
+      "guid": "pamela-fox::http://blog.pamelafox.org/2025/01/observations-using-python-with-deepseek.html",
+      "title": "Observations: Using Python with DeepSeek-R1",
+      "link": "http://blog.pamelafox.org/2025/01/observations-using-python-with-deepseek.html",
+      "summary": "Everyone's going ga-ga for DeepSeek-R1, so I thought I'd try it out in a live stream today:\n\n\nI'll summarize my experience in this post.\nI tried Python through two different hosts, via the OpenAI Python SDK \nGitHub Models: Open to anyone with a GitHub account, free up to a certain number of…",
+      "author": "Pamela Fox",
+      "publishedAt": "2025-01-31T22:07:00.000Z"
+    }
+  ],
+  "totalIndexed": 25
+}

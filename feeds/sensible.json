@@ -1,0 +1,61 @@
+{
+  "feedId": "sensible",
+  "feedName": "Sensible",
+  "feedSiteUrl": "http://blog.sensible.io/",
+  "feedRssUrl": "https://blog.sensible.io/rss",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T07:09:03.525Z",
+  "items": [
+    {
+      "guid": "sensible::/2014/05/17/ssh-tunnel-local-and-remote-port-forwarding-explained-with-examples.html",
+      "title": "SSH Tunnel - Local and Remote Port Forwarding Explained With Examples",
+      "link": "https://blog.sensible.io/2014/05/17/ssh-tunnel-local-and-remote-port-forwarding-explained-with-examples.html",
+      "summary": "There are two ways to create an SSH tunnel, local and remote port\nforwarding (there’s also dynamic forwarding, but we won’t cover that\nhere). The best way to understand these is by an example, let’s start\nwith local port forwarding.\nImagine you’re on a private network which doesn’t allow…",
+      "author": "sensible.io team",
+      "publishedAt": "2014-05-17T17:57:00.000Z"
+    },
+    {
+      "guid": "sensible::/2014/05/09/supercharge-your-vim-into-ide-with-ctags.html",
+      "title": "Supercharge your VIM into IDE with CTags",
+      "link": "https://blog.sensible.io/2014/05/09/supercharge-your-vim-into-ide-with-ctags.html",
+      "summary": "CTags generates index file of all your classes, methods and all other identifiers.\nYou can use that index in your editor to jump straight to the methods you’re interested\nin. In this article, I’ll show you how to use them with Vim and Rails.\n\n\nInstallation\nYou need to install Exuberant CTags, on…",
+      "author": "sensible.io team",
+      "publishedAt": "2014-05-09T00:00:00.000Z"
+    },
+    {
+      "guid": "sensible::/2014/04/19/don-t-just-dump-code-into-your-models.html",
+      "title": "Don't just dump code into your models",
+      "link": "https://blog.sensible.io/2014/04/19/don-t-just-dump-code-into-your-models.html",
+      "summary": "A few years ago there used to be a motto saying Skinny controllers, fat\nmodels. It was good at the time, because people thought all of the\napplication code belonged into the controllers, and it helped them\nrealize that it’s good to have just a simple controller layer and push\nthings down. The…",
+      "author": "sensible.io team",
+      "publishedAt": "2014-04-19T16:05:00.000Z"
+    },
+    {
+      "guid": "sensible::/2014/03/07/getting-started-with-ember-app-kit.html",
+      "title": "Getting started with Ember App Kit",
+      "link": "https://blog.sensible.io/2014/03/07/getting-started-with-ember-app-kit.html",
+      "summary": "In the following tutorial we’ll create a simple Ember.js app for logging your\nwater intake. Besides learning the basics of Ember.js, you will also learn how\nto use Ember App Kit.\n\n\nYou can see the final application right below:\n\nLink to Demo\nAbout Ember App Kit\nEAK is the basic building block\nof…",
+      "author": "sensible.io team",
+      "publishedAt": "2014-03-07T00:00:00.000Z"
+    },
+    {
+      "guid": "sensible::/2013/08/26/4-tips-for-working-with-dates-in-postgresql.html",
+      "title": "4 Tips for Working with Dates in PostgreSQL",
+      "link": "https://blog.sensible.io/2013/08/26/4-tips-for-working-with-dates-in-postgresql.html",
+      "summary": "Those of us who come from Rails aren’t surprised when we see something like\n5.weeks.from_now or 3.days.ago + 2.hours, which makes working with dates\nmuch easier. But PostgreSQL got your back on this as well, you can just use the\nbuiltin functions and get most of the same functionality.\nCurrent…",
+      "author": "sensible.io team",
+      "publishedAt": "2013-08-26T11:47:00.000Z"
+    },
+    {
+      "guid": "sensible::/2013/08/24/postgresql-sequences-and-array-column-types.html",
+      "title": "PostgreSQL Sequences and Array Column Types",
+      "link": "https://blog.sensible.io/2013/08/24/postgresql-sequences-and-array-column-types.html",
+      "summary": "This article is a sequel to our PostgreSQL\nseries,\nwhich is aimed to teach you how to get the most out of your database.\nYou might have been led by Active Record (or Rails in general) that it\nis a good idea to completely abstract away the database, but that it’s\nhardly ever possible.\nIf you plan on…",
+      "author": "sensible.io team",
+      "publishedAt": "2013-08-24T14:21:00.000Z"
+    }
+  ],
+  "totalIndexed": 6
+}

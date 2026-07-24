@@ -1,0 +1,93 @@
+{
+  "feedId": "vinted",
+  "feedName": "Vinted",
+  "feedSiteUrl": "http://engineering.vinted.com/",
+  "feedRssUrl": "https://vinted.engineering//atom.xml",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T07:15:06.250Z",
+  "items": [
+    {
+      "guid": "vinted::https://vinted.engineering//2026/04/22/personalized-search-autocomplete/",
+      "title": "How Vinted Serves Personalised Search Autocomplete",
+      "link": "https://vinted.engineering//2026/04/22/personalized-search-autocomplete/",
+      "summary": "/* Scoped to this post: allow diagram-heavy figures to bleed beyond the 720px\n   column on wide viewports while collapsing back on narrow viewports. */\n.post__entry figure.wide { max-width: 100%; }\n@media (min-width: 1150px) {\n  .post__entry figure.wide {\n    max-width: 1100px;\n    width: 1100px;…",
+      "author": "Justina Bartulevičienė",
+      "publishedAt": "2026-04-22T00:00:00.000Z"
+    },
+    {
+      "guid": "vinted::https://vinted.engineering//2026/03/11/risk-based-testing/",
+      "title": "Test Smarter, Not Harder: Risk-Based Data Quality Without Pipeline Paralysis",
+      "link": "https://vinted.engineering//2026/03/11/risk-based-testing/",
+      "summary": "Upstream schema changes were breaking our finance pipelines daily. With monthly reporting deadlines looming, we needed to balance data quality with pipeline reliability. Here’s how we solved it without compromising either.\nWe obsessed over data quality. Why?\nIdeally, we’d like data to be pristine.…",
+      "author": "Jeremy Chia",
+      "publishedAt": "2026-03-11T00:00:00.000Z"
+    },
+    {
+      "guid": "vinted::https://vinted.engineering//2026/02/12/from-dagger-to-metro/",
+      "title": "From Dagger to Metro",
+      "link": "https://vinted.engineering//2026/02/12/from-dagger-to-metro/",
+      "summary": "Metro - modern and kotlin injection framework created by Zac Sweers.\nAnd we, Android developers at Vinted, officially and fully migrated to it! It was quite a bumpy ride for our huge codebase.\nOur story begins…\nEra before Metro\nWe have a huge codebase of a few hundreds Gradle modules, collected…",
+      "author": "Andrius Semionovas",
+      "publishedAt": "2026-02-12T00:00:00.000Z"
+    },
+    {
+      "guid": "vinted::https://vinted.engineering//2026/01/21/from-bash-to-bliss-scaling-vespa-operations-with-temporal/",
+      "title": "From Bash to Bliss: Scaling Vespa Operations with Temporal",
+      "link": "https://vinted.engineering//2026/01/21/from-bash-to-bliss-scaling-vespa-operations-with-temporal/",
+      "summary": "Growing platform - Growing maintenance\nKeeping the Lights On (KTLO) is an essential, yet often taxing, part of a platform engineer’s role. It represents the routine operational work required to keep the business running and the platform stable. For our team, this primarily involves maintenance on…",
+      "author": "Martynas Jakimčikas",
+      "publishedAt": "2026-01-21T00:00:00.000Z"
+    },
+    {
+      "guid": "vinted::https://vinted.engineering//2026/01/09/building-global-event-driven-platform-part-1/",
+      "title": "Building a Global, Event-Driven Platform: Our Ongoing Journey, Part 1",
+      "link": "https://vinted.engineering//2026/01/09/building-global-event-driven-platform-part-1/",
+      "summary": "A few years ago, our platform reached a point where the way we’d always built software simply wasn’t enough anymore. The monolith that powered our early success had served us well, but as the business expanded across the continent, it started showing real limits. Global growth forced us to confront…",
+      "author": "Dejan Menges",
+      "publishedAt": "2026-01-09T00:00:00.000Z"
+    },
+    {
+      "guid": "vinted::https://vinted.engineering//2026/01/09/building-global-event-driven-platform-part-2/",
+      "title": "Building a Global, Event-Driven Platform: Our Ongoing Journey, Part 2",
+      "link": "https://vinted.engineering//2026/01/09/building-global-event-driven-platform-part-2/",
+      "summary": "In the first part, we described how growth pushed us beyond the limits of the monolith and forced us to rethink our architecture from the ground up. We explored how Domain Driven Design helped us uncover clear boundaries, and how shifting from synchronous calls to events and sagas changed the way…",
+      "author": "Dejan Menges",
+      "publishedAt": "2026-01-09T00:00:00.000Z"
+    },
+    {
+      "guid": "vinted::https://vinted.engineering//2025/12/29/orchestrating-success/",
+      "title": "Orchestrating Success",
+      "link": "https://vinted.engineering//2025/12/29/orchestrating-success/",
+      "summary": "TL;DR: How Vinted standardizes large-scale decentralized data pipelines.\nWhen we started migrating Vinted’s data infrastructure to the cloud, we set out to create a decentralized way of working. The idea was simple: teams know their data best, so they should be fully empowered to build, own, and…",
+      "author": "Oscar Ligthart",
+      "publishedAt": "2025-12-29T00:00:00.000Z"
+    },
+    {
+      "guid": "vinted::https://vinted.engineering//2025/11/18/dense-retrieval/",
+      "title": "Dense Retrieval",
+      "link": "https://vinted.engineering//2025/11/18/dense-retrieval/",
+      "summary": "TL;DR: integrating embedding-based retrieval into the e-commerce search application is a significant undertaking.\nIntroduction\nThe low-recall aspect of the keyword-based search is challenging when dealing with the content which is both very visual and multilingual. Returning “no results” even when…",
+      "author": "Laurynas Jasiukėnas",
+      "publishedAt": "2025-11-18T00:00:00.000Z"
+    },
+    {
+      "guid": "vinted::https://vinted.engineering//2025/11/06/vespa-match-features/",
+      "title": "Teaching the Old Dog a New Trick",
+      "link": "https://vinted.engineering//2025/11/06/vespa-match-features/",
+      "summary": "TL:DR: When required data can be encoded with  match-features, Vespa can apply a new optimisation, which can be a lifesaver when data is frequently redistributed.\nUse-case\nWhen ranking, Vespa requires additional information that cannot be easily stored within the documents being ranked (e.g. the…",
+      "author": "Dainius Jocas",
+      "publishedAt": "2025-11-06T00:00:00.000Z"
+    },
+    {
+      "guid": "vinted::https://vinted.engineering//2025/07/15/clocksource-performance/",
+      "title": "Investigation: Identical Servers, Different Performance",
+      "link": "https://vinted.engineering//2025/07/15/clocksource-performance/",
+      "summary": "Inconsistent Redis performance was observed across a fleet of otherwise identical servers. After investigation, we discovered that differences in Linux system clocksource settings - specifically, servers running the slower HPET clocksource instead of the default TSC - led to significant increases…",
+      "author": "Simonas Rupšys",
+      "publishedAt": "2025-07-15T00:00:00.000Z"
+    }
+  ],
+  "totalIndexed": 10
+}

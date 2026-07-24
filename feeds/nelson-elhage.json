@@ -1,0 +1,413 @@
+{
+  "feedId": "nelson-elhage",
+  "feedName": "Nelson Elhage",
+  "feedSiteUrl": "https://blog.nelhage.com/",
+  "feedRssUrl": "https://blog.nelhage.com/atom.xml",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T07:01:14.812Z",
+  "items": [
+    {
+      "guid": "https://blog.nelhage.com/post/concurrent-error-handling/",
+      "title": "From error-handling to structured concurrency",
+      "link": "https://blog.nelhage.com/post/concurrent-error-handling/",
+      "summary": "How should we think about error-handling in concurrent programs?\nIn single-threaded programs, we’ve mostly converged on a standard pattern, with a diverse zoo of implementations and concrete patterns. When an error occurs, it is propagated up the stack until we find a stack frame which is prepared…",
+      "author": null,
+      "publishedAt": "2026-03-23T15:30:00.000Z"
+    },
+    {
+      "guid": "https://blog.nelhage.com/post/regex-crosswords-z3/",
+      "title": "Solving regex crosswords with Z3",
+      "link": "https://blog.nelhage.com/post/regex-crosswords-z3/",
+      "summary": "For a while now, I’ve been fascinated by Z3 and by SMT solving more broadly. While on pat leave recently, I was reminded of the existence of regular-expression crossword puzzles, and allowed myself to get nerdsniped by writing a Z3-backed solver.\nI expected to spend perhaps an afternoon cranking…",
+      "author": null,
+      "publishedAt": "2025-10-21T14:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.nelhage.com/post/ittage-branch-predictor/",
+      "title": "The ITTAGE indirect branch predictor",
+      "link": "https://blog.nelhage.com/post/ittage-branch-predictor/",
+      "summary": "While investigating the performance of the new Python 3.14 tail-calling interpreter, I learned (via this very informative comment from Sam Gross) new (to me) piece of performance trivia: Modern CPUs mostly no longer struggle to predict the bytecode-dispatch indirect jump inside a “conventional”…",
+      "author": null,
+      "publishedAt": "2025-07-04T21:30:00.000Z"
+    },
+    {
+      "guid": "https://blog.nelhage.com/post/cpython-tail-call/",
+      "title": "Performance of the Python 3.14 tail-call interpreter",
+      "link": "https://blog.nelhage.com/post/cpython-tail-call/",
+      "summary": "About a month ago, the CPython project merged a new implementation strategy for their bytecode interpreter. The initial headline results were very impressive, showing a 10-15% performance improvement on average across a wide range of benchmarks across a variety of platforms.\nUnfortunately, as I…",
+      "author": null,
+      "publishedAt": "2025-03-09T22:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.nelhage.com/post/personal-software-with-claude/",
+      "title": "Building personal software with Claude",
+      "link": "https://blog.nelhage.com/post/personal-software-with-claude/",
+      "summary": "Earlier this month, I used Claude to port (parts of) an Emacs package into Rust, shrinking the execution time by a factor of 1000 or more (in one concrete case: from 90s to about 15ms).\nThis is a variety of yak-shave that I do somewhat routinely, both professionally and in service of my personal…",
+      "author": null,
+      "publishedAt": "2025-01-27T20:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.nelhage.com/post/fuzzy-dedup/",
+      "title": "Finding near-duplicates with Jaccard similarity and MinHash",
+      "link": "https://blog.nelhage.com/post/fuzzy-dedup/",
+      "summary": "Suppose we have a large collection of documents, and we wish you identify which documents are approximately the same as each other. For instance, we may have crawled the web over some period of time, and expect to have fetched the “same page” several times, but to see slight differences in…",
+      "author": null,
+      "publishedAt": "2024-07-03T23:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.nelhage.com/post/stripe-dev-environment/",
+      "title": "Stripe's monorepo developer environment",
+      "link": "https://blog.nelhage.com/post/stripe-dev-environment/",
+      "summary": "I worked at Stripe for about seven years, from 2012 to 2019. Over that time, I used and contributed to many generations of Stripe’s developer environment – the tools that engineers used daily to write and test code. I think Stripe did a pretty good job designing and building that developer…",
+      "author": null,
+      "publishedAt": "2024-05-21T17:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.nelhage.com/post/profilers-seeing-the-invisible/",
+      "title": "Performance engineering, profilers, and seeing the invisible",
+      "link": "https://blog.nelhage.com/post/profilers-seeing-the-invisible/",
+      "summary": "I was recently introduced to the paper “Seeing the Invisible: Perceptual-Cognitive Aspects of Expertise” by Gary Klein and Robert Hoffman. It’s excellent and I recommend you read it when you have a chance.\nKlein and Hoffman discuss the ability of experts to “see what is not there”: in addition to…",
+      "author": null,
+      "publishedAt": "2023-12-18T16:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.nelhage.com/post/advent-of-templates/",
+      "title": "Advent of Code in C++ Template Metaprogramming",
+      "link": "https://blog.nelhage.com/post/advent-of-templates/",
+      "summary": "This December, the imp of the perverse struck me, and I decided to see how many days of Advent of Code I could do purely in compile-time C++ metaprogramming.\nAs of this writing, I’ve done two days, and I’m not sure I’ll make it any further. However, that’s one more day than I planned to do as of…",
+      "author": null,
+      "publishedAt": "2023-12-08T15:30:00.000Z"
+    },
+    {
+      "guid": "https://blog.nelhage.com/post/pickles-and-ml/",
+      "title": "What's with ML software and pickles?",
+      "link": "https://blog.nelhage.com/post/pickles-and-ml/",
+      "summary": "I have spent many years as an software engineer who was a total outsider to machine-learning, but with some curiosity and occasional peripheral interactions with it. During this time, a recurring theme for me was horror (and, to be honest, disdain) every time I encountered the widespread usage of…",
+      "author": null,
+      "publishedAt": "2023-11-08T05:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.nelhage.com/post/systems-at-capacity/",
+      "title": "Graceful behavior at capacity",
+      "link": "https://blog.nelhage.com/post/systems-at-capacity/",
+      "summary": "Suppose we’ve got a service. We’ll gloss over the details for now, but let’s stipulate that it accepts requests from the outside world, and takes some action in response. Maybe those requests are HTTP requests, or RPCs, or just incoming packets to be routed at the network layer. We can get more…",
+      "author": null,
+      "publishedAt": "2023-08-07T16:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.nelhage.com/post/efficiency-vs-resiliency/",
+      "title": "Efficiency trades off against resiliency",
+      "link": "https://blog.nelhage.com/post/efficiency-vs-resiliency/",
+      "summary": "What’s the “right” level of CPU utilization for a server? If you look at a monitoring dashboard from a well-designed and well-run service, what CPU utilization should we hope to see, averaged over a day or two?\nIt’s a very general question, and it’s not clear it should have a single answer. That…",
+      "author": null,
+      "publishedAt": "2023-04-15T23:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.nelhage.com/post/transformers-for-software-engineers/",
+      "title": "Transformers for software engineers",
+      "link": "https://blog.nelhage.com/post/transformers-for-software-engineers/",
+      "summary": "Ever since its introduction in the 2017 paper, Attention is All You Need, the Transformer model architecture has taken the deep-learning world by storm. Initially introduced for machine translation, it has become the tool of choice for a wide range of domains, including text, audio, video, and…",
+      "author": null,
+      "publishedAt": "2022-04-01T20:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.nelhage.com/post/a-cursed-bug/",
+      "title": "A Cursed Bug",
+      "link": "https://blog.nelhage.com/post/a-cursed-bug/",
+      "summary": "In my day job at Anthropic, we run relatively large distributed systems to train large language models. One of the joys of using a lot of computing resources, especially on somewhat niche software stacks, is that you spend a lot of time running into the long-tail of bugs which only happen rarely or…",
+      "author": null,
+      "publishedAt": "2022-02-23T03:03:48.000Z"
+    },
+    {
+      "guid": "https://blog.nelhage.com/post/distributed-builds-for-everyone/",
+      "title": "Distributed cloud builds for everyone",
+      "link": "https://blog.nelhage.com/post/distributed-builds-for-everyone/",
+      "summary": "CPU cycles are cheaper than they have ever been, and cloud computing has never been more ubiquitous. All the major cloud providers offer generous free tiers, and services like GitHub Actions offer free compute resources to open-source repositories. So why do so many developers still build software…",
+      "author": null,
+      "publishedAt": "2021-05-31T23:05:17.000Z"
+    },
+    {
+      "guid": "https://blog.nelhage.com/post/building-llvm-in-90s/",
+      "title": "Building LLVM in 90 seconds using Amazon Lambda",
+      "link": "https://blog.nelhage.com/post/building-llvm-in-90s/",
+      "summary": "Last week, Frederic Cambus wrote about building LLVM quickly on some very large machines, culminating in a 2m37s build on a 160-core ARM machine.\nI don’t have a giant ARM behemoth, but I have been working on a tool I call Llama, which lets you offload computational work – including C and C++ builds…",
+      "author": null,
+      "publishedAt": "2021-05-21T02:00:28.000Z"
+    },
+    {
+      "guid": "https://blog.nelhage.com/post/some-opinionated-sql-takes/",
+      "title": "Some opinionated thoughts on SQL databases",
+      "link": "https://blog.nelhage.com/post/some-opinionated-sql-takes/",
+      "summary": "People who work with me tend to realize that I have Opinions about databases, and SQL databases in particular. Last week, I wrote about a Postgres debugging story and tweeted about AWS’ policy ban on internal use of SQL databases, and had occasion to discuss and debate some of those feelings on…",
+      "author": null,
+      "publishedAt": "2021-03-30T17:32:31.000Z"
+    },
+    {
+      "guid": "https://blog.nelhage.com/post/solving-ultimate-ttt/",
+      "title": "Towards solving Ultimate Tic Tac Toe",
+      "link": "https://blog.nelhage.com/post/solving-ultimate-ttt/",
+      "summary": "Summary: Read about my efforts to solve the game of Ultimate Tic Tac Toe. It’s been a fun journey into interesting algorithms and high-performance parallel programming in Rust.\nBackstory Starting around the beginning of the COVID-19 lockdown, I’ve gotten myself deeply nerdsniped by an attempt to…",
+      "author": null,
+      "publishedAt": "2020-07-15T17:15:21.000Z"
+    },
+    {
+      "guid": "https://blog.nelhage.com/post/write-testable-code-by-writing-generic-code/",
+      "title": "Write testable code by writing generic code",
+      "link": "https://blog.nelhage.com/post/write-testable-code-by-writing-generic-code/",
+      "summary": "Alex Gaynor recently asked this question in an IRC channel I hang out in (a channel which contains several software engineers nearly as obsessed with software testing as I am):\nuhh, so I’m writing some code to handle an econnreset… how do I test this?\nThis is a good question! Testing ECONNRESET is…",
+      "author": null,
+      "publishedAt": "2020-03-12T01:30:17.000Z"
+    },
+    {
+      "guid": "https://blog.nelhage.com/post/test-suites-as-classifiers/",
+      "title": "Test suites as classifiers",
+      "link": "https://blog.nelhage.com/post/test-suites-as-classifiers/",
+      "summary": "Suppose we have some codebase we’re considering applying some patch to, and which has a robust and maintained test suite.\nConsidering the patch, we may ask, is this patch acceptable to apply and deploy. By this we mean to ask if the patch breaks any important functionality, violates any key…",
+      "author": null,
+      "publishedAt": "2020-03-01T20:34:00.000Z"
+    },
+    {
+      "guid": "https://blog.nelhage.com/post/systems-that-defy-understanding/",
+      "title": "Systems that defy detailed understanding",
+      "link": "https://blog.nelhage.com/post/systems-that-defy-understanding/",
+      "summary": "Last week, I wrote about the mindset that computer systems can be understood, and behaviors can be explained, if we’re willing to dig deep enough into the stack of abstractions our software is built atop. Some of the ensuing discussion on Twitter and elsewhere lead me to write this followup, in…",
+      "author": null,
+      "publishedAt": "2020-02-22T20:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.nelhage.com/post/computers-can-be-understood/",
+      "title": "Computers can be understood",
+      "link": "https://blog.nelhage.com/post/computers-can-be-understood/",
+      "summary": "Introduction This post attempts to describe a mindset I’ve come to realize I bring to essentially all of my work with software. I attempt to articulate this mindset, some of its implications and strengths, and some of the ways in which it’s lead me astray.\nSoftware can be understood I approach…",
+      "author": null,
+      "publishedAt": "2020-02-16T20:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.nelhage.com/post/reflections-on-performance/",
+      "title": "Reflections on software performance",
+      "link": "https://blog.nelhage.com/post/reflections-on-performance/",
+      "summary": "At this point in my career, I’ve worked on at least three projects where performance was a defining characteristic: Livegrep, Taktician, and Sorbet (I discussed sorbet in particular last time, and livegrep in an earlier post). I’ve also done a lot of other performance work on the tools I use, some…",
+      "author": null,
+      "publishedAt": "2020-02-03T01:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.nelhage.com/post/why-sorbet-is-fast/",
+      "title": "Why the Sorbet typechecker is fast",
+      "link": "https://blog.nelhage.com/post/why-sorbet-is-fast/",
+      "summary": "This is the second in an indefinite series of posts about things that I think went well in the Sorbet project. The previous one covered our testing approach.\nSorbet is fast. Numerous of our early users commented specifically on how fast it was, and how much they appreciated this speed. Our informal…",
+      "author": null,
+      "publishedAt": "2020-01-24T01:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.nelhage.com/post/testing-and-feedback-loops/",
+      "title": "Testing and feedback loops",
+      "link": "https://blog.nelhage.com/post/testing-and-feedback-loops/",
+      "summary": "Testing and feedback loops This post tries to set out one mental model I have for thinking about testing and the purpose testing serves in software engineering, and to explore some of the suggestions of this model.\nAs mentioned in an earlier post, I think a lot about working in long-lived software…",
+      "author": null,
+      "publishedAt": "2020-01-19T20:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.nelhage.com/post/record-replay-in-sorbet/",
+      "title": "Record/Replay testing in Sorbet",
+      "link": "https://blog.nelhage.com/post/record-replay-in-sorbet/",
+      "summary": "In 2017 and 2018, I (along with Paul Tarjan and Dmitry Petrashko) was a founding member of the Sorbet project at Stripe to build a gradual static typechecking system for Ruby, with the aim of enhancing productivity on Stripe’s millions of lines of Ruby, and eventually producing a useful open-source…",
+      "author": null,
+      "publishedAt": "2020-01-13T18:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.nelhage.com/post/two-kinds-of-testing/",
+      "title": "Two kinds of testing",
+      "link": "https://blog.nelhage.com/post/two-kinds-of-testing/",
+      "summary": "While talking about thinking about tests and testing in software engineering recently, I’ve come to the conclusion that there are (at least) two major ideas and goals that people have when they test or talk about testing. This post aims to outline what I see as these two schools, and explore some…",
+      "author": null,
+      "publishedAt": "2019-12-24T21:09:55.000Z"
+    },
+    {
+      "guid": "https://blog.nelhage.com/post/declarative-configuration-management/",
+      "title": "The architecture of declarative configuration management",
+      "link": "https://blog.nelhage.com/post/declarative-configuration-management/",
+      "summary": "With the ongoing move towards “infrastructure-as-code” and similar notions, there’s been an ongoing increase in the number and popularity of declarative configuration management tools. This post attempts to lay out my mental model of the conceptual architecture and internal layering of such tools,…",
+      "author": null,
+      "publishedAt": "2019-11-12T22:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.nelhage.com/post/a-go-c-polyglot/",
+      "title": "A Go/C Polyglot",
+      "link": "https://blog.nelhage.com/post/a-go-c-polyglot/",
+      "summary": "Writing a Go/C polyglot Someone on a Slack I’m on recently raised the question of how you might write a source file that’s both valid C and Go, commenting that it wasn’t immediately obvious if this was even possible. I got nerdsniped, and succeeded in producing one, which you can find here.\nI’ve…",
+      "author": null,
+      "publishedAt": "2019-09-05T23:42:28.000Z"
+    },
+    {
+      "guid": "https://blog.nelhage.com/post/rwlock-contention/",
+      "title": "Reader/reader blocking in reader/writer locks",
+      "link": "https://blog.nelhage.com/post/rwlock-contention/",
+      "summary": "Abstract In writer-priority reader/writer locks, as soon as a single writer enters the acquisition queue, all future accesses block behind any in-flight reads. Thus, if any readers hold the lock for extended periods of time, this can lead to extreme pauses and loss of throughput given even a very…",
+      "author": null,
+      "publishedAt": "2019-05-07T15:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.nelhage.com/post/apollo-bibliography/",
+      "title": "My Apollo Bibliography",
+      "link": "https://blog.nelhage.com/post/apollo-bibliography/",
+      "summary": "Over the last few years — perhaps not that unusually among the nerds I know — I’ve become increasingly fascinated by the Apollo program (and early space program more generally), and been reading my way through a growing number of books and documentaries written about it. At a party this weekend I…",
+      "author": null,
+      "publishedAt": "2019-04-09T03:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.nelhage.com/post/three-kinds-of-leaks/",
+      "title": "Three kinds of memory leaks",
+      "link": "https://blog.nelhage.com/post/three-kinds-of-leaks/",
+      "summary": "So, you’ve got a program that’s using more and more over time as it runs. Probably you can immediately identify this as a likely symptom of a memory leak.\nBut when we say “memory leak”, what do we actually mean? In my experience, apparent memory leaks divide into three broad categories, each with…",
+      "author": null,
+      "publishedAt": "2018-04-29T15:30:00.000Z"
+    },
+    {
+      "guid": "https://blog.nelhage.com/post/property-testing-like-afl/",
+      "title": "Property Testing Like AFL",
+      "link": "https://blog.nelhage.com/post/property-testing-like-afl/",
+      "summary": "In my last last post, I argued that property-based testing and fuzzing are essentially the same practice, or at least share a lot of commonality. In this followup post, I want to explore that idea a bit more: I’ll first detour into some of my frustrations and hesitations around typical…",
+      "author": null,
+      "publishedAt": "2017-10-24T16:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.nelhage.com/post/property-testing-is-fuzzing/",
+      "title": "Property-Based Testing Is Fuzzing",
+      "link": "https://blog.nelhage.com/post/property-testing-is-fuzzing/",
+      "summary": "“Property-based testing” refers to the idea of writing statements that should be true of your code (“properties”), and then using automated tooling to generate test inputs (typically, randomly-generated inputs of an appropriate type), and observe whether the properties hold for that input. If an…",
+      "author": null,
+      "publishedAt": "2017-10-03T16:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.nelhage.com/post/transparent-hugepages/",
+      "title": "Disable Transparent Hugepages",
+      "link": "https://blog.nelhage.com/post/transparent-hugepages/",
+      "summary": "tl;dr “Transparent Hugepages” is a Linux kernel feature intended to improve performance by making more efficient use of your processor’s memory-mapping hardware. It is enabled (\"enabled=always\") by default in most Linux distributions.\nTransparent Hugepages gives some applications a small…",
+      "author": null,
+      "publishedAt": "2017-07-10T21:15:00.000Z"
+    },
+    {
+      "guid": "https://blog.nelhage.com/post/end-to-end-principle/",
+      "title": "Two Perspectives on the End-to-End Principle",
+      "link": "https://blog.nelhage.com/post/end-to-end-principle/",
+      "summary": "Back when I was an undergraduate, as part of a class called “Computer Systems Engineering”, we read numerous classic papers of systems design. I enjoyed and learned a great deal from many of these papers, but one that paper that has stuck with me in particular was Saltzer et al’s “End-to-End…",
+      "author": null,
+      "publishedAt": "2017-06-11T20:42:01.000Z"
+    },
+    {
+      "guid": "https://blog.nelhage.com/post/tensorflow-on-aws/",
+      "title": "Running Tensorflow on AWS GPUs",
+      "link": "https://blog.nelhage.com/post/tensorflow-on-aws/",
+      "summary": "I’ve been spending some time learning deep learning and tensorflow recently, and as part of that project I wanted to be able to train models using GPUs on EC2. This post contains some notes on what it took to get that working. As many people have commented, the environment setup is often the…",
+      "author": null,
+      "publishedAt": "2017-02-26T23:41:27.000Z"
+    },
+    {
+      "guid": "https://blog.nelhage.com/post/kubernetes/",
+      "title": "Thoughts On Kubernetes",
+      "link": "https://blog.nelhage.com/post/kubernetes/",
+      "summary": "I spent a while the last week porting livegrep.com from running directly AWS to running on Kubernetes on Google’s Cloud Platform (specifically, the google container engine, which provisions and manages the cluster for me).\nI left this experience profoundly enthusiastic about the future of…",
+      "author": null,
+      "publishedAt": "2017-02-19T20:48:34.000Z"
+    },
+    {
+      "guid": "https://blog.nelhage.com/post/utilization/",
+      "title": "Measuring Capacity Through Utilization",
+      "link": "https://blog.nelhage.com/post/utilization/",
+      "summary": "(This post is cross-posted from Honeycomb’s instrumentation series).\nOne of my favorite concepts when thinking about instrumenting a system to understand its overall performance and capacity is what I call “time utilization”.\nBy this I mean: If you look at the behavior of a thread over some window…",
+      "author": null,
+      "publishedAt": "2017-01-08T20:09:09.000Z"
+    },
+    {
+      "guid": "https://blog.nelhage.com/2016/12/how-i-test/",
+      "title": "How I Write Tests",
+      "link": "https://blog.nelhage.com/2016/12/how-i-test/",
+      "summary": "The longer I spend as a software engineer, the more obsessive I get about testing. I fully subscribe to the definition of legacy code as “code without an automated test suite.” I’m convinced that the best thing you can do to encourage fast progress in a test suite is to design for testing and have…",
+      "author": null,
+      "publishedAt": "2016-12-29T19:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.nelhage.com/2016/03/design-for-testability/",
+      "title": "Design for Testability",
+      "link": "https://blog.nelhage.com/2016/03/design-for-testability/",
+      "summary": "When designing a new software project, one is often faced with a glut of choices about how to structure it. What should the core abstractions be? How should they interact with each other?\nIn this post, I want to argue for a design heuristic that I’ve found to be a useful guide to answering or…",
+      "author": null,
+      "publishedAt": "2016-03-06T10:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.nelhage.com/2015/11/what-mongodb-got-right/",
+      "title": "What MongoDB got Right",
+      "link": "https://blog.nelhage.com/2015/11/what-mongodb-got-right/",
+      "summary": "MongoDB is perhaps the most-widely-mocked piece of software out there right now.\nWhile some of the mockery is out-of-date or rooted in misunderstandings, much of it is well-deserved, and it’s difficult to disagree that much of MongoDB’s engineering is incredibly simplistic, inefficient, and…",
+      "author": null,
+      "publishedAt": "2015-11-01T10:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.nelhage.com/2015/08/indices-point-between-elements/",
+      "title": "Indices point between elements",
+      "link": "https://blog.nelhage.com/2015/08/indices-point-between-elements/",
+      "summary": "If you’re familiar with nearly any mainstream programming language, and I asked you to draw a diagram of an array, the array indices, and the array elements, odds are good you’d produce a diagram something like this:\nIn this post, I want to persuade you to replace that image, or, at least, to…",
+      "author": null,
+      "publishedAt": "2015-07-17T09:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.nelhage.com/2015/02/regular-expression-search-with-suffix-arrays/",
+      "title": "Regular Expression Search with Suffix Arrays",
+      "link": "https://blog.nelhage.com/2015/02/regular-expression-search-with-suffix-arrays/",
+      "summary": "Back in January of 2012, Russ Cox posted an excellent blog post detailing how Google Code Search had worked, using a trigram index.\nBy that point, I’d already implemented early versions of my own livegrep source-code search engine, using a different indexing approach that I developed independently,…",
+      "author": null,
+      "publishedAt": "2015-02-01T15:52:43.000Z"
+    },
+    {
+      "guid": "https://blog.nelhage.com/2014/08/new-reptyr-feature-tty-stealing/",
+      "title": "New reptyr feature: TTY-stealing",
+      "link": "https://blog.nelhage.com/2014/08/new-reptyr-feature-tty-stealing/",
+      "summary": "Ever since I wrote reptyr, I’ve been frustrated by a number of issues in reptyr that I fundamentally didn’t know how to solve within the reptyr model. Most annoyingly, reptyr fundamentally only worked on single processes, and could not attach processes with children, making it useless in a large…",
+      "author": null,
+      "publishedAt": "2014-08-20T08:41:34.000Z"
+    },
+    {
+      "guid": "https://blog.nelhage.com/2013/12/lightweight-linux-kernel-development-with-kvm/",
+      "title": "Lightweight Linux Kernel Development with KVM",
+      "link": "https://blog.nelhage.com/2013/12/lightweight-linux-kernel-development-with-kvm/",
+      "summary": "I don’t do a ton of Linux kernel development these days, but I’ve done a fair bit in the past, and picked up a number of useful techniques for doing kernel development in a relatively painless fashion. This blog post is a writeup of the tools and techniques I use when developing for the Linux…",
+      "author": null,
+      "publishedAt": "2013-12-30T02:11:45.000Z"
+    },
+    {
+      "guid": "https://blog.nelhage.com/2013/03/tracking-an-eventmachine-leak/",
+      "title": "Tracking down a memory leak in Ruby's EventMachine",
+      "link": "https://blog.nelhage.com/2013/03/tracking-an-eventmachine-leak/",
+      "summary": "At Stripe, we rely heavily on ruby and EventMachine to power various internal and external services. Over the last several months, we’ve known that one such service suffered from a gradual memory leak, that would cause its memory usage to gradually balloon from a normal ~50MB to multiple gigabytes.…",
+      "author": null,
+      "publishedAt": "2013-03-07T13:13:37.000Z"
+    },
+    {
+      "guid": "https://blog.nelhage.com/2012/03/why-node-js-is-cool/",
+      "title": "Why node.js is cool (it's not about performance)",
+      "link": "https://blog.nelhage.com/2012/03/why-node-js-is-cool/",
+      "summary": "For the past N months, it seems like there is no new technology stack that is either hotter or more controversial than node.js. node.js is cancer! node.js cures cancer! node.js is bad ass rock star tech!. I myself have given node.js a lot of shit, often involving the phrase “explicit…",
+      "author": null,
+      "publishedAt": "2012-03-12T11:36:35.000Z"
+    },
+    {
+      "guid": "https://blog.nelhage.com/2011/08/breaking-out-of-kvm/",
+      "title": "BlackHat/DEFCON 2011 talk: Breaking out of KVM",
+      "link": "https://blog.nelhage.com/2011/08/breaking-out-of-kvm/",
+      "summary": "I’ve posted the final slides from my talk this year at DEFCON and Black Hat, on breaking out of the KVM Kernel Virtual Machine on Linux.\nVirtunoid: Breaking out of KVM from Nelson Elhage [Edited 2011-08-11] The code is now available. It should be fairly well-commented, and include links to…",
+      "author": null,
+      "publishedAt": "2011-08-08T13:32:29.000Z"
+    },
+    {
+      "guid": "https://blog.nelhage.com/2011/03/exploiting-pickle/",
+      "title": "Exploiting misuse of Python's \"pickle\"",
+      "link": "https://blog.nelhage.com/2011/03/exploiting-pickle/",
+      "summary": "If you program in Python, you’re probably familiar with the pickle serialization library, which provides for efficient binary serialization and loading of Python datatypes. Hopefully, you’re also familiar with the warning printed prominently near the start of pickle’s documentation:\nWarning: The…",
+      "author": null,
+      "publishedAt": "2011-03-20T18:38:13.000Z"
+    }
+  ],
+  "totalIndexed": 50
+}

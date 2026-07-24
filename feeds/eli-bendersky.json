@@ -1,0 +1,53 @@
+{
+  "feedId": "eli-bendersky",
+  "feedName": "Eli Bendersky",
+  "feedSiteUrl": "http://eli.thegreenplace.net/",
+  "feedRssUrl": "https://eli.thegreenplace.net/feeds/all.atom.xml",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T06:49:26.981Z",
+  "items": [
+    {
+      "guid": "eli-bendersky::https://eli.thegreenplace.net/2026/notes-on-the-fourier-transform/",
+      "title": "Notes on the Fourier Transform",
+      "link": "https://eli.thegreenplace.net/2026/notes-on-the-fourier-transform/",
+      "summary": "The Fourier series is a great tool for analyzing periodic functions. But\nwhat about functions that don’t repeat? We’ve\nseen\nthat we can compute Fourier series for a non-periodic function defined\non a finite interval, as long as we don’t care about its behavior beyond\nthat interval.\nLet’s extend…",
+      "author": "Eli Bendersky",
+      "publishedAt": "2026-07-15T03:04:00.000Z"
+    },
+    {
+      "guid": "eli-bendersky::https://eli.thegreenplace.net/2026/dot-product-component-vs-geometric-definition/",
+      "title": "Dot product: Component vs. Geometric definition",
+      "link": "https://eli.thegreenplace.net/2026/dot-product-component-vs-geometric-definition/",
+      "summary": "The goal of this post is to answer a simple question: why are the\nfollowing two definitions of the vector dot product in Euclidean\nspace [1] equivalent for vectors \\vec{a} and \\vec{b}:\nComponent definition:\n\\vec{a}\\cdot\\vec{b}=\\sum_{i=1}^{n}a_i b_i\nGeometric definition:…",
+      "author": "Eli Bendersky",
+      "publishedAt": "2026-07-11T01:42:00.000Z"
+    },
+    {
+      "guid": "eli-bendersky::https://eli.thegreenplace.net/2026/summary-of-reading-april-june-2026/",
+      "title": "Summary of reading: April - June 2026",
+      "link": "https://eli.thegreenplace.net/2026/summary-of-reading-april-june-2026/",
+      "summary": "\"The Nuremberg Trial\" by John Tusa and Ann Tusa - a detailed, meticulously\nresearched account of the Nuremberg Trials. There's not a whole lot of side\nquesting in this book - it's all focused on the trials themselves. Interesting\nread overall, though somewhat dry and academic.\n\"Things Become Other…",
+      "author": "Eli Bendersky",
+      "publishedAt": "2026-07-01T01:52:00.000Z"
+    },
+    {
+      "guid": "eli-bendersky::https://eli.thegreenplace.net/2026/plugins-case-study-pluggy/",
+      "title": "Plugins case study: Pluggy",
+      "link": "https://eli.thegreenplace.net/2026/plugins-case-study-pluggy/",
+      "summary": "Recently I came upon Pluggy,\na Python library for developing plugin systems. It was originally developed\nas part of the pytest project - known for its rich plugin ecosystem - and\nlater extracted into a standalone library. You're supposed to reach out for\nPluggy if you want to add a plugin system to…",
+      "author": "Eli Bendersky",
+      "publishedAt": "2026-06-14T03:21:00.000Z"
+    },
+    {
+      "guid": "eli-bendersky::https://eli.thegreenplace.net/2026/thoughts-on-starting-new-projects-with-llm-agents/",
+      "title": "Thoughts on starting new projects with LLM agents",
+      "link": "https://eli.thegreenplace.net/2026/thoughts-on-starting-new-projects-with-llm-agents/",
+      "summary": "A few months ago I wrote about using LLM agents to help restructuring one of my\nPython projects.\nIt's worth beginning by saying that the\nrewrite has been successful by all reasonable measures; I've been able to\ncontinue maintaining that project since then without an issue.\nIn this post, I want to…",
+      "author": "Eli Bendersky",
+      "publishedAt": "2026-06-07T00:38:00.000Z"
+    }
+  ],
+  "totalIndexed": 5
+}

@@ -1,0 +1,157 @@
+{
+  "feedId": "the-coded-self",
+  "feedName": "The Coded Self",
+  "feedSiteUrl": "http://www.thecodedself.com",
+  "feedRssUrl": "https://www.thecodedself.com/feed.xml",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T07:11:27.968Z",
+  "items": [
+    {
+      "guid": "https://www.thecodedself.com/Perfect-Is-The-Enemy-Of-The-Good/",
+      "title": "Perfect is the Enemy of the Good",
+      "link": "https://www.thecodedself.com/Perfect-Is-The-Enemy-Of-The-Good/",
+      "summary": "How the Wrong Architecture Can Cripple Development\n\n\n\n\nA couple of years ago, I was working on a side project with a few friends. We thought that it would be the next big thing. We put our collective best efforts into it; I worked long, hard hours fleshing out the scaffolding of the perfect…",
+      "author": null,
+      "publishedAt": "2018-11-13T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.thecodedself.com/UI-Testing-The-Clean-Way/",
+      "title": "UI Testing the Clean Way",
+      "link": "https://www.thecodedself.com/UI-Testing-The-Clean-Way/",
+      "summary": "I write software, and sometimes I write bugs. But, when I do, I catch them early with testing.\nI do manual tests before I commit, I write unit tests as I write my code. Lately, I’ve also been getting into writing UI tests.\nOne critique of UI testing is how messy and brittle it can be. Building the…",
+      "author": null,
+      "publishedAt": "2018-10-23T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.thecodedself.com/macOS-action-button-swift/",
+      "title": "Creating a macOS Action (Gear) Button Programmatically in Swift",
+      "link": "https://www.thecodedself.com/macOS-action-button-swift/",
+      "summary": "For a list of actions on macOS, the standard control is an action button as defined in the macOS Human Interface Guidelines.\nHere’s the definition from that page:\nAn action button (often referred to as an action menu) is a specific type of pull-down button that operates like a contextual menu,…",
+      "author": null,
+      "publishedAt": "2018-07-17T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.thecodedself.com/autoresizing-masks/",
+      "title": "Autoresizing Masks and You",
+      "link": "https://www.thecodedself.com/autoresizing-masks/",
+      "summary": "You’re an Autolayout Wizard. You know Interface Builder like the back of your hand. Then, one day, you create a simple UIView, add it as a subview with some elegantly crafted constraints, and.. it blows up in your face. What gives?\nTake a look at this code example that tries to create a UILabel and…",
+      "author": null,
+      "publishedAt": "2018-01-23T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.thecodedself.com/functions-deserve-injection/",
+      "title": "Functions Deserve Injection, Too",
+      "link": "https://www.thecodedself.com/functions-deserve-injection/",
+      "summary": "Lately, I’ve been taking advantage of Swift’s functional abilities where it makes sense to help me write concise and clear code that’s easy to test. I’d like to share one technique that has helped me to eliminate repetition and breakages of encapsulation in tests: function injection.\nIn traditional…",
+      "author": null,
+      "publishedAt": "2017-11-28T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.thecodedself.com/cuckoo-and-code-generation/",
+      "title": "Staying Sane with Cuckoo and Code Generation",
+      "link": "https://www.thecodedself.com/cuckoo-and-code-generation/",
+      "summary": "Please note that this post won’t go over the basics of Cuckoo, as the README provides a great introduction to the library.\nDo you write unit tests? You should. Writing mocks for my tests seemed to be a lot easier in Objective-C. OCMock makes great use of Objective-C’s dynamic nature and it makes…",
+      "author": null,
+      "publishedAt": "2017-10-30T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.thecodedself.com/systems-thinking/",
+      "title": "Lessons learned from Systems Thinking",
+      "link": "https://www.thecodedself.com/systems-thinking/",
+      "summary": "I was lucky enough to attend my first meetup in Poland this month: Agile Poznan. The talk was on Systems Thinking, a topic that bored me in college but fascinated me when I entered the real world. Applying systems thinking can reveal the origins behind events and behaviors we see every day. Using…",
+      "author": null,
+      "publishedAt": "2017-09-20T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.thecodedself.com/iOS-Toast-View-Animation/",
+      "title": "iOS: Animating your own toast view",
+      "link": "https://www.thecodedself.com/iOS-Toast-View-Animation/",
+      "summary": "A toast view is a small, short-lived popup provides a small bite of information (see what I did there?) to the user. It’s an Android paradigm, but if you’re working on an iOS app that has an Android component, the chances are high that you have been or will be asked to implement one at some point.…",
+      "author": null,
+      "publishedAt": "2017-08-31T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.thecodedself.com/Swift-Send-Image-To-Server/",
+      "title": "iOS: Working with Images from a Server",
+      "link": "https://www.thecodedself.com/Swift-Send-Image-To-Server/",
+      "summary": "If you’re a mobile app developer, at some point in time you’re going to need to interact with a backend. One of the tasks you might need to do is to retrieve and display images from a server, or submit an image to that server. What format should the image be in when you’re submitting it? How do you…",
+      "author": null,
+      "publishedAt": "2017-07-04T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.thecodedself.com/Vim-Swift/",
+      "title": "Vim and Swift: Development in a post-apocalyptic world",
+      "link": "https://www.thecodedself.com/Vim-Swift/",
+      "summary": "Disclaimer: I don’t advocate using Vim seriously as your primary development environment. As powerful as it is, Vim remains a text editor, not an IDE.\nI ran into some Xcode problems the other day where I lost syntax highlighting and code completion in Swift files. What should we do when Xcode just…",
+      "author": null,
+      "publishedAt": "2017-06-22T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.thecodedself.com/Your-Other-Job/",
+      "title": "Your Other Job",
+      "link": "https://www.thecodedself.com/Your-Other-Job/",
+      "summary": "You are the CEO of a company.\nThere is no board of directors. The fate of the company lies solely on you.\nEvery day, you make decisions that determine the success of the company. Some days you might make good decisions, and some days you won’t.\nYou might have some trusted advisors that guide you in…",
+      "author": null,
+      "publishedAt": "2017-06-05T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.thecodedself.com/Half-Baked-Solutions-To-Common-RxSwift-Problems/",
+      "title": "Half-Baked Solutions to Common RxSwift Problems",
+      "link": "https://www.thecodedself.com/Half-Baked-Solutions-To-Common-RxSwift-Problems/",
+      "summary": "I’ve been using RxSwift in some of my latest iOS projects. While I feel that it’s provided elegant UI binding and a natural feel to asynchronous programming, I have to admit that it came with numerous growing pains. I struggled to find documented solutions to some of the challenges I was facing, as…",
+      "author": null,
+      "publishedAt": "2017-05-23T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.thecodedself.com/Lessons-Learned-From-The-Entelect-Way/",
+      "title": "Lessons Learned From The Entelect Way",
+      "link": "https://www.thecodedself.com/Lessons-Learned-From-The-Entelect-Way/",
+      "summary": "Software engineering and coding are two very different concepts. As a software engineer, I write code on a daily basis, but the value that a good software engineer provides to a business is so much more. This is emphasised by The Entelect Way.\nWhat is The Entelect Way?\nI’m a software engineer at…",
+      "author": null,
+      "publishedAt": "2017-05-08T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.thecodedself.com/Android-Development-Through-the-Eyes-of-an-iOS-Developer/",
+      "title": "Android Development Through the Eyes of an iOS Developer",
+      "link": "https://www.thecodedself.com/Android-Development-Through-the-Eyes-of-an-iOS-Developer/",
+      "summary": "I’ve recently dipped my toes into Android development to see the differences in environment and tooling as compared to iOS development. While I haven’t done much as of yet, I hope to ship some Android apps in the future alongside some iOS ones. I figured it was time to understand the platform so…",
+      "author": null,
+      "publishedAt": "2017-03-16T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.thecodedself.com/Using-Multiple-Author-Identities-With-Git/",
+      "title": "Using Multiple Author Identities With Git",
+      "link": "https://www.thecodedself.com/Using-Multiple-Author-Identities-With-Git/",
+      "summary": "How do you manage git credentials for different organizations? You may have some projects you work on at work that has a pre-push hook to ensure that your email is part of the correct domain. You might have your own personal projects, some of which might also use difference email addresses. Or,…",
+      "author": null,
+      "publishedAt": "2017-02-15T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.thecodedself.com/The-Difference-Between-an-Adapter-and-a-Wrapper/",
+      "title": "The Difference Between An Adapter And A Wrapper",
+      "link": "https://www.thecodedself.com/The-Difference-Between-an-Adapter-and-a-Wrapper/",
+      "summary": "The adapter pattern and wrappers each solve common but distinct problems. Their common usage and similarities in implementation, however, can lead to confusion. Both terms seem to be used interchangeably when in fact there are a few key differences. The adapter pattern and wrappers are two very…",
+      "author": null,
+      "publishedAt": "2017-01-30T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.thecodedself.com/Server-Side-Swift-With-Kitura-And-Bluemix/",
+      "title": "Server Side Swift With Kitura And Bluemix",
+      "link": "https://www.thecodedself.com/Server-Side-Swift-With-Kitura-And-Bluemix/",
+      "summary": "IBM Bluemix is a cloud Platform as a Service solution that enables you to concentrate on writing your application while Bluemix handles most of the DevOps-y stuff like the networks, servers, storage, and software dependencies. It supports several programming languages, including Swift. It’s also…",
+      "author": null,
+      "publishedAt": "2017-01-03T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.thecodedself.com/A-Caution-On-Superfluous-Code/",
+      "title": "A Caution On Superfluous Code",
+      "link": "https://www.thecodedself.com/A-Caution-On-Superfluous-Code/",
+      "summary": "The line of code that the developer can write the fastest, the line of code that the developer can maintain the cheapest, and the line of code that never breaks for the user, is the line of code that the developer never had to write.\n- Steve Jobs\nSuperfluous code is code that is written…",
+      "author": null,
+      "publishedAt": "2016-12-15T00:00:00.000Z"
+    }
+  ],
+  "totalIndexed": 18
+}

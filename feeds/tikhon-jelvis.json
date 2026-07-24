@@ -1,0 +1,93 @@
+{
+  "feedId": "tikhon-jelvis",
+  "feedName": "Tikhon Jelvis",
+  "feedSiteUrl": "http://jelv.is/blog/",
+  "feedRssUrl": "http://jelv.is/blog/rss.xml",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T07:12:40.667Z",
+  "items": [
+    {
+      "guid": "http://jelv.is/blog/Writing-Code-To-Be-Read-at-a-Glance",
+      "title": "Writing Code To Be Read at a Glance",
+      "link": "http://jelv.is/blog/Writing-Code-To-Be-Read-at-a-Glance",
+      "summary": "Code is read more than it is written, but it is skimmed more than it is read, so we should write code that is clear at a glance.",
+      "author": "Tikhon Jelvis",
+      "publishedAt": "2025-06-23T07:18:18.000Z"
+    },
+    {
+      "guid": "http://jelv.is/blog/Complexity-in-Software-is-a-Bad-Concept",
+      "title": "Complexity is Bad—as a Concept",
+      "link": "http://jelv.is/blog/Complexity-in-Software-is-a-Bad-Concept",
+      "summary": "I don't like talking about “compelxity” in software any more. People have radically different ideas of what “complexity” means, and “complexity” conflates several inherently distinct concepts.",
+      "author": "Tikhon Jelvis",
+      "publishedAt": "2025-05-25T09:27:59.000Z"
+    },
+    {
+      "guid": "http://jelv.is/blog/Letting-Experts-Be-Experts",
+      "title": "Letting Experts Be Experts",
+      "link": "http://jelv.is/blog/Letting-Experts-Be-Experts",
+      "summary": "Experts aren't just beginners with more knowledge, they operate in a fundamentally different way. How can we empower rather than hinder them?",
+      "author": "Tikhon Jelvis",
+      "publishedAt": "2025-04-01T10:26:46.000Z"
+    },
+    {
+      "guid": "http://jelv.is/blog/By-Looking",
+      "title": "By Looking",
+      "link": "http://jelv.is/blog/By-Looking",
+      "summary": "Years ago, I heard a stupid philosophy joke: a student taking an intro philosophy class asks the professor “but how do we know?”; then, when the professor gives an answer, the student asks “okay, but how do we know that?” This keeps on going until eventually the professor gets fed up and says “by…",
+      "author": "Tikhon Jelvis",
+      "publishedAt": "2025-02-21T16:43:13.000Z"
+    },
+    {
+      "guid": "http://jelv.is/blog/Three-Regimes-for-Resilience",
+      "title": "Three Regimes for Resilience",
+      "link": "http://jelv.is/blog/Three-Regimes-for-Resilience",
+      "summary": "A useful mental tool for designing resilient software: consider how the system will operate in three separate regimes:\nThe happy path. Everything is handled automatically with no manual intervention needed.\nSmall issues crop up requiring narrowly scoped—but not necessarily routine—human…",
+      "author": "Tikhon Jelvis",
+      "publishedAt": "2025-01-24T11:52:51.000Z"
+    },
+    {
+      "guid": "http://jelv.is/blog/Debugging-Haskell-Type-Errors",
+      "title": "Debugging Haskell Type Errors",
+      "link": "http://jelv.is/blog/Debugging-Haskell-Type-Errors",
+      "summary": "Fixing Haskell type errors can be hard. Learning how to understand and fix type errors was the first real obstacle I faced when I first picked up the language. I’ve seen the same tendency with every Haskell beginner I’ve taught.\nWith a bit of experience, I got so used to the quirks of GHC’s…",
+      "author": "Tikhon Jelvis",
+      "publishedAt": "2024-11-01T12:28:09.000Z"
+    },
+    {
+      "guid": "http://jelv.is/blog/Structure-your-Errors",
+      "title": "Structure your Errors",
+      "link": "http://jelv.is/blog/Structure-your-Errors",
+      "summary": "Recently, I’ve revisited how I represent errors in code.\nI’m working on a command-line tool used across multiple teams and I want to keep its error messages consistent and readable. As the codebase has grown, I’ve moved from ad hoc error strings throughout my code to a structured error type.\n\nI…",
+      "author": "Tikhon Jelvis",
+      "publishedAt": "2020-12-12T19:01:29.000Z"
+    },
+    {
+      "guid": "http://jelv.is/blog/Haskell-Monads-and-Purity",
+      "title": "Haskell, Monads and Purity",
+      "link": "http://jelv.is/blog/Haskell-Monads-and-Purity",
+      "summary": "I believe the notion that Haskell uses “monads” to enforce purity is rather misleading. It has certainly caused quite a bit of confusion! It’s very much like saying we use “rings to do arithmetic”. We don’t! We use numbers, which just happen to form a ring with arithmetic operations. The important…",
+      "author": "Tikhon Jelvis",
+      "publishedAt": "2014-10-01T14:45:44.000Z"
+    },
+    {
+      "guid": "http://jelv.is/blog/Lazy-Dynamic-Programming",
+      "title": "Lazy Dynamic Programming",
+      "link": "http://jelv.is/blog/Lazy-Dynamic-Programming",
+      "summary": "Dynamic programming is a method for efficiently solving complex problems with overlapping subproblems, covered in any introductory algorithms course. It is usually presented in a staunchly imperative manner, explicitly reading from and modifying a mutable array—a method that doesn’t neatly…",
+      "author": "Tikhon Jelvis",
+      "publishedAt": "2014-05-25T09:59:33.000Z"
+    },
+    {
+      "guid": "http://jelv.is/blog/Generating-Mazes-with-Inductive-Graphs",
+      "title": "Generating Mazes with Inductive Graphs",
+      "link": "http://jelv.is/blog/Generating-Mazes-with-Inductive-Graphs",
+      "summary": "A few years ago—back in high school—I spent a little while writing programs to automatically generate mazes. It was a fun exercise and helped me come to grips with recursion: the first time I implemented it (in Java), I couldn’t get the recursive version to work properly so ended up using a while…",
+      "author": "Tikhon Jelvis",
+      "publishedAt": "2014-04-09T11:15:11.000Z"
+    }
+  ],
+  "totalIndexed": 10
+}

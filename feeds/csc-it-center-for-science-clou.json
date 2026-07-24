@@ -1,0 +1,213 @@
+{
+  "feedId": "csc-it-center-for-science-clou",
+  "feedName": "CSC - IT Center For Science - Cloud Team",
+  "feedSiteUrl": "https://cloud.blog.csc.fi/",
+  "feedRssUrl": "https://cloud.blog.csc.fi/feeds/posts/default",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T06:47:26.614Z",
+  "items": [
+    {
+      "guid": "csc-it-center-for-science-clou::https://cloud.blog.csc.fi/2021/03/docker-hub-pull-rate-limits-hit-rahti.html",
+      "title": "Docker Hub pull rate limits hit Rahti",
+      "link": "https://cloud.blog.csc.fi/2021/03/docker-hub-pull-rate-limits-hit-rahti.html",
+      "summary": "November 2020 was an eventful month for Rahti. Our backend storage had incident that affected our production clusters image repository for many weeks. That event is well described in Allas downtime November 2020 - technical deep-dive.\nJust before our storage incident, 2nd of November, Docker…",
+      "author": "Unknown",
+      "publishedAt": "2021-03-04T08:59:00.000Z"
+    },
+    {
+      "guid": "csc-it-center-for-science-clou::https://cloud.blog.csc.fi/2020/12/allas-november-2020-incident-details.html",
+      "title": "Allas November 2020 incident details",
+      "link": "https://cloud.blog.csc.fi/2020/12/allas-november-2020-incident-details.html",
+      "summary": "Allas downtime November 2020 - technical deep-dive\n\nWe use Ceph (https://ceph.io/) to provide software defined storage in our Allas service. I'll try to speak some Ceph here. There may be a lot of unfamiliar terms for most readers here as we dive deep into a technology. I'll try to clarify where I…",
+      "author": "Kalle Happonen",
+      "publishedAt": "2020-12-22T12:31:00.002Z"
+    },
+    {
+      "guid": "csc-it-center-for-science-clou::https://cloud.blog.csc.fi/2020/02/centos8-images-published-in-pouta-as.html",
+      "title": "CentOS8 images published in Pouta as a tech preview",
+      "link": "https://cloud.blog.csc.fi/2020/02/centos8-images-published-in-pouta-as.html",
+      "summary": "There are now CentOS-8 images available in Pouta!\n\n\nThere are some minor issues with the upstream CentOS8 images, so, for now, they are considered to be in \"tech preview\".\ndocs.csc.fi\n\n\nOne issue is that /etc/resolv.conf sometimes has a nameserver defined from the build of the image. There is an…",
+      "author": "Unknown",
+      "publishedAt": "2020-02-17T05:48:00.002Z"
+    },
+    {
+      "guid": "csc-it-center-for-science-clou::https://cloud.blog.csc.fi/2019/12/ceph-object-storage-migraine-i-mean.html",
+      "title": "Ceph object storage migraine.. I mean migration",
+      "link": "https://cloud.blog.csc.fi/2019/12/ceph-object-storage-migraine-i-mean.html",
+      "summary": "We have released our new Allas object storage service. We firmly believe it will play a growing role for data management, at CSC and for the whole academic field in Finland. Alas, the road to Allas was not completely without pain.\nReplace cPouta object storage with Allas\nMake sure all the user data…",
+      "author": "Kalle Happonen",
+      "publishedAt": "2019-12-27T11:23:00.001Z"
+    },
+    {
+      "guid": "csc-it-center-for-science-clou::https://cloud.blog.csc.fi/2019/07/the-bastion-host-how-to-set-up-and.html",
+      "title": "The Bastion host: How to set up and benefits of using it.",
+      "link": "https://cloud.blog.csc.fi/2019/07/the-bastion-host-how-to-set-up-and.html",
+      "summary": "What is a bastion host\n\n\n\n\n\n\n\nThe benefit of using bastion hosts\n\n \n  \n  96\n \n\n\n\n \n  Normal\n  0\n  \n  \n  \n  \n  false\n  false\n  false\n  \n  EN-GB\n  X-NONE\n  X-NONE…",
+      "author": "Unknown",
+      "publishedAt": "2019-07-03T07:24:00.001Z"
+    },
+    {
+      "guid": "csc-it-center-for-science-clou::https://cloud.blog.csc.fi/2019/04/object-storage-use-cases-part-3-storing.html",
+      "title": "Object Storage Use Cases Part 3: Storing binary files in Object Storage instead of in your git repository",
+      "link": "https://cloud.blog.csc.fi/2019/04/object-storage-use-cases-part-3-storing.html",
+      "summary": "1. It's bad to store binary blobs in git. This is known [1]\n\n2. A great place to store binary files is in object storage\n\n3. Can we use CSC's Pouta Cloud Object Storage service for this?\n Why yes, yes you can!\nseries about different use cases for object storage. Others include for example hosting a…",
+      "author": "Unknown",
+      "publishedAt": "2019-04-29T09:06:00.000Z"
+    },
+    {
+      "guid": "csc-it-center-for-science-clou::https://cloud.blog.csc.fi/2019/02/cpouta-cloud-object-storage-service-has.html",
+      "title": "cPouta Cloud Object Storage Service has been updated to run CEPH Luminous!",
+      "link": "https://cloud.blog.csc.fi/2019/02/cpouta-cloud-object-storage-service-has.html",
+      "summary": "http://docs.ceph.com/docs/luminous/radosgw/s3/ and http://docs.ceph.com/docs/jewel/radosgw/s3/ these features* have gone from unsupported to supported:\nBucket Lifecycle Supported Removing expired files is supported\nBucket Website Supported  \nBucket Request Payment Supported  \n\nWhich got me a bit…",
+      "author": "Unknown",
+      "publishedAt": "2019-02-06T10:03:00.000Z"
+    },
+    {
+      "guid": "csc-it-center-for-science-clou::https://cloud.blog.csc.fi/2018/12/mount-volumes-and-when-not-to-mount.html",
+      "title": "Mount volumes and when not to mount volumes, that is the question",
+      "link": "https://cloud.blog.csc.fi/2018/12/mount-volumes-and-when-not-to-mount.html",
+      "summary": "\".. it's like attaching a USB drive to the instance. \" - Some Openstack trainer\nin most Linux based distributions I've seen, if you know other ways please comment below!) every time the server reboots is to put something like this into /etc/fstab:\n/dev/vdb1 /mnt ext4 defaults 0 0\n\n\nAll clear so far…",
+      "author": "Unknown",
+      "publishedAt": "2018-12-31T06:50:00.001Z"
+    },
+    {
+      "guid": "csc-it-center-for-science-clou::https://cloud.blog.csc.fi/2018/11/cpouta-flavour-pikkujoulu-2018.html",
+      "title": "cPouta Flavour Pikkujoulu 2018 Communiqué",
+      "link": "https://cloud.blog.csc.fi/2018/11/cpouta-flavour-pikkujoulu-2018.html",
+      "summary": "We are making some changes to the cPouta flavours offering\nYou won't be able to launch _new_ hpc-gen1.*core, hpc-gen2.2core, hpc-gen2.8core, hpc-gen2.16core flavours.\nWe are adding hpc.4 flavours.\nWe are adding a standard.xxlarge flavour.\nhpc.4.5core - 5 cores 22GB RAM - replacement for…",
+      "author": "Unknown",
+      "publishedAt": "2018-11-26T14:44:00.000Z"
+    },
+    {
+      "guid": "csc-it-center-for-science-clou::https://cloud.blog.csc.fi/2018/10/epouta-flavour-halloween-2018-communique.html",
+      "title": "ePouta Flavour Halloween 2018 Communiqué",
+      "link": "https://cloud.blog.csc.fi/2018/10/epouta-flavour-halloween-2018-communique.html",
+      "summary": "We are making some changes to our flavor offering . Here's a summary of the changes:\n\n\n\nWe now have even more GPUs in ePouta.\n\nThe gpu.2.1gpu flavor is now publicly available and each has one NVIDIA Tesla V100 via PCI pass through. This flavor was already added in July but could only be accessed…",
+      "author": "Unknown",
+      "publishedAt": "2018-10-19T10:51:00.000Z"
+    },
+    {
+      "guid": "csc-it-center-for-science-clou::https://cloud.blog.csc.fi/2018/10/ubuntu-1804-images-published-in-cpouta.html",
+      "title": "Ubuntu 18.04 images published in cPouta and ePouta",
+      "link": "https://cloud.blog.csc.fi/2018/10/ubuntu-1804-images-published-in-cpouta.html",
+      "summary": "Hello Ubuntu fan boys and girls!\n\nprovided by Canonical without any modifications. This means the user used to ssh in is now \"ubuntu\" instead of \"cloud-user\".\nIn any case, trying to ssh in as root will tell you which user to ssh in as\nhttp://cloud-images.ubuntu.com/ , select the release and fetch…",
+      "author": "Unknown",
+      "publishedAt": "2018-10-17T07:30:00.000Z"
+    },
+    {
+      "guid": "csc-it-center-for-science-clou::https://cloud.blog.csc.fi/2018/07/epouta-is-now-twice-as-large.html",
+      "title": "ePouta is now twice as large!",
+      "link": "https://cloud.blog.csc.fi/2018/07/epouta-is-now-twice-as-large.html",
+      "summary": "We are pleased to announce the immediate availability of new lovely VM flavors in ePouta backed by new server hardware!\n\n\n\n\n\n\n\n\nA summary of the changes: \n\n\nintroduced standard-flavors to ePouta; these are the most popular flavors in cPouta. \nintroduced a new generation of hpc-flavors which have…",
+      "author": "Unknown",
+      "publishedAt": "2018-07-03T09:23:00.000Z"
+    },
+    {
+      "guid": "csc-it-center-for-science-clou::https://cloud.blog.csc.fi/2018/05/object-storage-use-cases-part-2-storing.html",
+      "title": "Object Storage Use Cases Part 2: Storing your reveal.js presentation in Object Storage",
+      "link": "https://cloud.blog.csc.fi/2018/05/object-storage-use-cases-part-2-storing.html",
+      "summary": "This is part of a technical series of blog post where the CSC Pouta Cloud Team illustrates with words and sometimes figures how to do things with our object storage.\nNFS + ZFS + Encryption blog post\naws tool and reveal.js to upload a presentation at a nice…",
+      "author": "Unknown",
+      "publishedAt": "2018-05-09T11:00:00.000Z"
+    },
+    {
+      "guid": "csc-it-center-for-science-clou::https://cloud.blog.csc.fi/2018/04/object-storage-use-cases-part-1-nfs.html",
+      "title": "Object Storage Use Cases Part 1: NFS Server Backups to cPouta S3",
+      "link": "https://cloud.blog.csc.fi/2018/04/object-storage-use-cases-part-1-nfs.html",
+      "summary": "After releasing object storage in cPouta, we've been asked quite a lot about various use cases. Thus we're starting a blog series to showcase some of them.\nNFS which is used for file sharing within project network\nZFS which is used as encrypting file storage\nAnsible which is used for configuration…",
+      "author": "Jukka Nousiainen",
+      "publishedAt": "2018-04-24T11:20:00.001Z"
+    },
+    {
+      "guid": "csc-it-center-for-science-clou::https://cloud.blog.csc.fi/2018/03/customer-invisible-maintenance-of-csc.html",
+      "title": "Customer Invisible Maintenance of the CSC Object Storage Servers",
+      "link": "https://cloud.blog.csc.fi/2018/03/customer-invisible-maintenance-of-csc.html",
+      "summary": "Hello! It’s the CSC Pouta Cloud Team again! You may recognize us from other object storage films such as:\nhttp://pouta.blog.csc.fi/2018/02/admin-stories-implement-object-storage.html where we go through in excruciating detail how we configured CEPH RadosGW and why we configured it like we did…",
+      "author": "Unknown",
+      "publishedAt": "2018-03-14T07:36:00.002Z"
+    },
+    {
+      "guid": "csc-it-center-for-science-clou::https://cloud.blog.csc.fi/2018/02/admin-stories-implement-object-storage.html",
+      "title": "Admin Stories: Implement Object Storage in CSC's cPouta",
+      "link": "https://cloud.blog.csc.fi/2018/02/admin-stories-implement-object-storage.html",
+      "summary": "In our previous\nuser survey we found out that you were interested in \"OpenStack\nadmin stories\". This will be our first attempt in doing that.\nUser\nguide: https://research.csc.fi/pouta-user-guide\nWhile\nimplementing object storage we made a few decisions. This blog post\nis about highlighting the…",
+      "author": "Unknown",
+      "publishedAt": "2018-02-12T12:58:00.000Z"
+    },
+    {
+      "guid": "csc-it-center-for-science-clou::https://cloud.blog.csc.fi/2018/01/objectively-speaking-in-cpouta.html",
+      "title": "Objectively speaking, in cPouta",
+      "link": "https://cloud.blog.csc.fi/2018/01/objectively-speaking-in-cpouta.html",
+      "summary": "We're pleased to release one of the most sought after features in cPouta - object storage!\ndocumentation. \n\n\nThis cat lives in the cPouta object storage.\n\n\n\nWhat is Object Storage?\n You do not need to set up a virtual machine to serve or receive the data.\n\n The data can be accessed from anywhere…",
+      "author": "Kalle Happonen",
+      "publishedAt": "2018-01-31T11:32:00.000Z"
+    },
+    {
+      "guid": "csc-it-center-for-science-clou::https://cloud.blog.csc.fi/2018/01/spectre-and-meltdown-in-poutas.html",
+      "title": "Spectre and Meltdown in Poutas",
+      "link": "https://cloud.blog.csc.fi/2018/01/spectre-and-meltdown-in-poutas.html",
+      "summary": "Three serious CPU vulnerabilities were revealed last week, and they require immediate action. Both we as providers and you as customers are affected.\nUpdate the kernels on your virtual machines and reboot your virtual machines. \n2018-01-10 13:45: Ubuntu has released new kernel patches, which should…",
+      "author": "Kalle Happonen",
+      "publishedAt": "2018-01-09T13:36:00.001Z"
+    },
+    {
+      "guid": "csc-it-center-for-science-clou::https://cloud.blog.csc.fi/2018/01/epouta-user-guide-is-gone-long-live-new.html",
+      "title": "ePouta user guide is gone. Long Live the new ePouta User Guide!",
+      "link": "https://cloud.blog.csc.fi/2018/01/epouta-user-guide-is-gone-long-live-new.html",
+      "summary": "The ePouta and cPouta user guides have been combined on https://research.csc.fi/pouta-user-guide\nhttps://research.csc.fi/pouta-application page. While the flavors are in the normal flavor page.\nepouta.csc.fi login page with links to the user guide and to a FAQ entry about resetting passwords.",
+      "author": "Unknown",
+      "publishedAt": "2018-01-08T13:36:00.000Z"
+    },
+    {
+      "guid": "csc-it-center-for-science-clou::https://cloud.blog.csc.fi/2017/12/floating-ip-management.html",
+      "title": "Floating IP management",
+      "link": "https://cloud.blog.csc.fi/2017/12/floating-ip-management.html",
+      "summary": "IPv4 addresses are becoming more and more scarce. In the light of that, we'll start accounting for them in cPouta in the early 2018. We will inform our customers 1 month before we turn on the accounting. This change does not affect you if you have a contract with CSC for providing cPouta resources.…",
+      "author": "Kalle Happonen",
+      "publishedAt": "2017-12-14T10:39:00.000Z"
+    },
+    {
+      "guid": "csc-it-center-for-science-clou::https://cloud.blog.csc.fi/2017/09/new-gpgpu-flavors-in-cpouta.html",
+      "title": "New GPGPU flavors in cPouta",
+      "link": "https://cloud.blog.csc.fi/2017/09/new-gpgpu-flavors-in-cpouta.html",
+      "summary": "Today we're launching GPGPU (General Purpose Computing on Graphics Processing Units) flavors on cPouta!\nNVIDIA P100 Pascal cards - each! They are backed by tons of memory and two SSDs in RAID1. This ensures that you can get the most out of these power-packed cards. This hardware is being shared…",
+      "author": "Unknown",
+      "publishedAt": "2017-09-22T09:38:00.002Z"
+    },
+    {
+      "guid": "csc-it-center-for-science-clou::https://cloud.blog.csc.fi/2017/08/tech-preview-get-your-own-kubernetes.html",
+      "title": "Tech preview: Get your own Kubernetes container orchestration platform in cPouta",
+      "link": "https://cloud.blog.csc.fi/2017/08/tech-preview-get-your-own-kubernetes.html",
+      "summary": "Introduction\nthe container orchestration chapter of the Pouta user guide. This is a technology preview feature for now, so there are some limitations that you should be aware of. Those are listed at the end of the documentation page.\n\nAwesome-Kubernetes list of curated links about the topic. There…",
+      "author": "Unknown",
+      "publishedAt": "2017-08-18T11:26:00.000Z"
+    },
+    {
+      "guid": "csc-it-center-for-science-clou::https://cloud.blog.csc.fi/2017/07/new-io-flavors-in-epouta.html",
+      "title": "New I/O flavors in ePouta",
+      "link": "https://cloud.blog.csc.fi/2017/07/new-io-flavors-in-epouta.html",
+      "summary": "here.\nanti-affinity server group.",
+      "author": "Jukka Nousiainen",
+      "publishedAt": "2017-07-07T12:43:00.000Z"
+    },
+    {
+      "guid": "csc-it-center-for-science-clou::https://cloud.blog.csc.fi/2017/02/cpouta-now-with-haka.html",
+      "title": "cPouta - Now with Haka!",
+      "link": "https://cloud.blog.csc.fi/2017/02/cpouta-now-with-haka.html",
+      "summary": "Many times we've been asked\n\n\n\"How do I log in again?\"\n\n\nhttps://research.csc.fi/accounts-and-projects  \nhttps://pouta.csc.fi\n\nand log in to your heart's content.\n\nPlease note that Haka logins only work with the web interface for now. We're looking into the option of enabling this for API and…",
+      "author": "Kalle Happonen",
+      "publishedAt": "2017-02-17T12:32:00.002Z"
+    },
+    {
+      "guid": "csc-it-center-for-science-clou::https://cloud.blog.csc.fi/2016/12/storage-updates-revisited.html",
+      "title": "Storage updates, revisited",
+      "link": "https://cloud.blog.csc.fi/2016/12/storage-updates-revisited.html",
+      "summary": "Run of the Mill\nblogged about disabling the possibility to create older cPouta volume types. This was the first step on the path to a more streamlined cPouta storage backend. Continuing on this path, we have now migrated most detached HPC storage volumes to standard volumes, and contacted users…",
+      "author": "Jukka Nousiainen",
+      "publishedAt": "2016-12-13T13:19:00.000Z"
+    }
+  ],
+  "totalIndexed": 25
+}

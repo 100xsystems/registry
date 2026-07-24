@@ -1,0 +1,413 @@
+{
+  "feedId": "johannes-brodwall",
+  "feedName": "Johannes Brodwall",
+  "feedSiteUrl": "http://johannesbrodwall.com/",
+  "feedRssUrl": "http://johannesbrodwall.com/index.xml",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T06:54:46.538Z",
+  "items": [
+    {
+      "guid": "https://jhannes.github.io/about/",
+      "title": "About this website",
+      "link": "https://jhannes.github.io/about/",
+      "summary": "This is the personal blog of Johannes Brodwall where I write about programming in Java, JavaScript, C# and about Agile Software development. I try to think inside a bigger box\nWho am I?\nMy salary gets paid by Sopra Steria, Norway’s largest IT consultancy. I’m called a “principal software engineer”…",
+      "author": null,
+      "publishedAt": "2024-01-23T21:48:32.000Z"
+    },
+    {
+      "guid": "https://jhannes.github.io/2024/01/23/resurrected/",
+      "title": "Resurrected",
+      "link": "https://jhannes.github.io/2024/01/23/resurrected/",
+      "summary": "Resurrected! If you’re reading this, and you have visited my blog before, you are probably noticing changes. My blog was suffering from technical debt for years and I finally dealt with it.\nWhen I addressed the technical problems of my blog, I wanted to make something that could last without me…",
+      "author": null,
+      "publishedAt": "2024-01-23T07:53:13.000Z"
+    },
+    {
+      "guid": "https://jhannes.github.io/2024/01/16/under-construction/",
+      "title": "Under construction",
+      "link": "https://jhannes.github.io/2024/01/16/under-construction/",
+      "summary": "This site under construction I had a failure scenario with WordPress and PHP versions. As I think a static site should be created statically, I’ve decided to export the current content and create a new web site with Hugo.",
+      "author": null,
+      "publishedAt": "2024-01-16T07:53:13.000Z"
+    },
+    {
+      "guid": "https://jhannes.github.io/2019/03/01/openid-connect-3-slack-can-be-the-identity-hub-of-small-organizations/",
+      "title": "OpenID Connect 3: Slack can be the identity hub of small organizations",
+      "link": "https://jhannes.github.io/2019/03/01/openid-connect-3-slack-can-be-the-identity-hub-of-small-organizations/",
+      "summary": "(Technically, this is a blogpost about Oauth2 and not OpenID Connect)\nAre you using Slack as a central communication tool? Did you know that you can also use it as your identity provider for other apps you make or buy?\nFor informal organizations like user groups and volunteer based conferences,…",
+      "author": null,
+      "publishedAt": "2019-03-01T14:15:42.000Z"
+    },
+    {
+      "guid": "https://jhannes.github.io/2019/02/26/openid-connect-2-why-i-love-id-porten/",
+      "title": "OpenID Connect 2: Why I ❤ ID-porten",
+      "link": "https://jhannes.github.io/2019/02/26/openid-connect-2-why-i-love-id-porten/",
+      "summary": "The advantage of OpenID Connect is the fact that it’s standardized and widely adopted. This means that a library or tool designed to work with, e.g. Google accounts, can easily be adopted to work with e.g. Microsoft’s Active Directory or the Norwegian national ID provider ID-porten.\nDifferent…",
+      "author": null,
+      "publishedAt": "2019-02-25T22:40:00.000Z"
+    },
+    {
+      "guid": "https://jhannes.github.io/2019/02/25/openid-connect-1-microsoft-azure-active-directory/",
+      "title": "OpenID Connect 1: Microsoft Azure Active Directory",
+      "link": "https://jhannes.github.io/2019/02/25/openid-connect-1-microsoft-azure-active-directory/",
+      "summary": "The advantage of OpenID Connect is the fact that it’s standardized and widely adopted. This means that a library or tool designed to work with, e.g. Google accounts, can easily be adopted to work with e.g. Microsoft’s Active Directory or the Norwegian national ID provider ID-porten.\nDifferent…",
+      "author": null,
+      "publishedAt": "2019-02-25T09:58:53.000Z"
+    },
+    {
+      "guid": "https://jhannes.github.io/2018/10/04/were-not-good-enough-and-thats-okay-norwegian/",
+      "title": "We're not good enough - and that's okay (Norwegian)",
+      "link": "https://jhannes.github.io/2018/10/04/were-not-good-enough-and-thats-okay-norwegian/",
+      "summary": "This Norwegian language blog post summarizes my talk at Oslo Agile Meetup in the beginning of October.\nJeg tror ingen egentlig vet hvordan de skal få til bra utviklingsprosjektet. Selv når vi lykkes så er det veldig mye flaks. De fleste av oss tror vi kunne gjort mye bedre. For de fleste av oss…",
+      "author": null,
+      "publishedAt": "2018-10-04T19:39:43.000Z"
+    },
+    {
+      "guid": "https://jhannes.github.io/2018/07/01/dirty-code-monday/",
+      "title": "Dirty Code Monday!",
+      "link": "https://jhannes.github.io/2018/07/01/dirty-code-monday/",
+      "summary": "Lately I’ve been thinking about how easy it is to fall into the trap of not challenging our ideas about the code we’re working on. In order to challenge the default mindset of Clean Code, I recently proposed to institute Dirty Code Monday (a proposal that sort of got me into a bit of a big…",
+      "author": null,
+      "publishedAt": "2018-07-01T20:35:02.000Z"
+    },
+    {
+      "guid": "https://jhannes.github.io/2018/06/28/a-canonical-xml-test/",
+      "title": "A canonical XML test",
+      "link": "https://jhannes.github.io/2018/06/28/a-canonical-xml-test/",
+      "summary": "I recently did a few days of TDD training for a client. They asked me to help them test and refactor a class that created XML from an internal domain model. This gave me the opportunity to examine a bigger pattern.\nI wondered where the domain model came from. Looking through the code base, I found…",
+      "author": null,
+      "publishedAt": "2018-06-28T14:48:10.000Z"
+    },
+    {
+      "guid": "https://jhannes.github.io/2018/06/26/how-to-write-better-code/",
+      "title": "How to write better code",
+      "link": "https://jhannes.github.io/2018/06/26/how-to-write-better-code/",
+      "summary": "My previous blog post took off on Twitter. It pointed out a problem: Insisting on the obligation to follow certain rules at all times isn’t actually helping people work better. The most common question (or objection) I got to the blog post was: So how do we teach new coders how to code well. This…",
+      "author": null,
+      "publishedAt": "2018-06-26T14:35:54.000Z"
+    },
+    {
+      "guid": "https://jhannes.github.io/2018/06/24/forget-about-clean-code-lets-embrace-compassionate-code/",
+      "title": "Forget about Clean Code, let's embrace Compassionate Code",
+      "link": "https://jhannes.github.io/2018/06/24/forget-about-clean-code-lets-embrace-compassionate-code/",
+      "summary": "When your heroes start acting weird, you reexamine their influence on your life. I’ve long been learning, demonstrating and teaching clean code through TDD, patterns and so on. But when I look back, I am now worried that the ideas negatively influence my life and my work and that of others.\nMany…",
+      "author": null,
+      "publishedAt": "2018-06-24T19:03:49.000Z"
+    },
+    {
+      "guid": "https://jhannes.github.io/2018/05/29/bor-norge-eksportere-velferdstjenester-jeg-intervjuer-oslos-finansbyrad-neste-fredag/",
+      "title": "Bør Norge eksportere velferdstjenester? Jeg intervjuer Oslos finansbyråd neste fredag",
+      "link": "https://jhannes.github.io/2018/05/29/bor-norge-eksportere-velferdstjenester-jeg-intervjuer-oslos-finansbyrad-neste-fredag/",
+      "summary": "På grunn av sykdom ble intervjuet med mellom meg og Robert Steen 1. juni flyttet. Du kan istedet se oss live førstkommende fredag 22. juni.\nJeg ble først oppmerksom på finansbyråd Robert Steen når vi ba ham om å holde åpningsinnlegg på Dataforeningens Software 2018. Som han selv sa på scenen: Å…",
+      "author": null,
+      "publishedAt": "2018-05-29T12:45:33.000Z"
+    },
+    {
+      "guid": "https://jhannes.github.io/2018/05/24/teknologiledelse-handler-om-a-se-menneskene-jeg-intervjuer-it-direktor-torbjorn-larsen-i-nav/",
+      "title": "Teknologiledelse handler om å se menneskene - jeg intervjuer IT-direktør Torbjørn Larsen i NAV",
+      "link": "https://jhannes.github.io/2018/05/24/teknologiledelse-handler-om-a-se-menneskene-jeg-intervjuer-it-direktor-torbjorn-larsen-i-nav/",
+      "summary": "For nesten nøyaktig tre uker siden var jeg så heldig at jeg fikk lov å sette meg ned med Torbjørn Larsen, IT-direktøren i NAV og prate med ham på video om hvordan man fornyer en stor offentlig virksomhet. NAV har de siste årene blitt et av de mest ettertraktede fagmiljøene for IT-folk og jeg tror…",
+      "author": null,
+      "publishedAt": "2018-05-24T18:36:30.000Z"
+    },
+    {
+      "guid": "https://jhannes.github.io/2018/05/15/a-wicked-java-trick-to-make-the-jvm-forget-to-check-exceptions/",
+      "title": "A wicked Java trick to make the JVM forget to check exceptions",
+      "link": "https://jhannes.github.io/2018/05/15/a-wicked-java-trick-to-make-the-jvm-forget-to-check-exceptions/",
+      "summary": "I’ve long time been a critic of the mechanism of compiler checked exceptions in Java. Whether you love them or hate then, one thing is sure: There’s situations where you don’t want to have to deal with them. The solution in Java is to wrap a checked exception in new RuntimeException(e) but this…",
+      "author": null,
+      "publishedAt": "2018-05-15T13:45:19.000Z"
+    },
+    {
+      "guid": "https://jhannes.github.io/2017/12/31/fremtiden-vi-bygger-med-software/",
+      "title": "Fremtiden vi bygger med Software",
+      "link": "https://jhannes.github.io/2017/12/31/fremtiden-vi-bygger-med-software/",
+      "summary": "As the year comes to an end, I describe some gloomy clouds in our future. This Norwegian language article was first published on the web site of the Norwegian Computing Association.\nHvilken fremtid overlater vi til våre barn og barnebarn? Endringstakten i samfunnet ser ikke ut til å sakke ned og en…",
+      "author": null,
+      "publishedAt": "2017-12-31T10:55:33.000Z"
+    },
+    {
+      "guid": "https://jhannes.github.io/2017/11/17/the-same-risks-in-every-projects/",
+      "title": "The same risks in every projects",
+      "link": "https://jhannes.github.io/2017/11/17/the-same-risks-in-every-projects/",
+      "summary": "To avoid the big problems with projects, everybody recommends risk management. At the same time, I’ve rarely seen risk management practiced effectively. Do we identify the same risks and do we actually prepare to handle them? The ironic thing is that I think most projects have the same top four…",
+      "author": null,
+      "publishedAt": "2017-11-17T11:48:42.000Z"
+    },
+    {
+      "guid": "https://jhannes.github.io/2017/10/21/privacy-concerns-everywhere-but-dont-panic/",
+      "title": "Privacy concerns everywhere, but don't panic!",
+      "link": "https://jhannes.github.io/2017/10/21/privacy-concerns-everywhere-but-dont-panic/",
+      "summary": "Recently, my organization reached a big goal and we decided to celebrate by taking everyone out for dinner. What happened was a GDPR nightmare. Or was it?\nWe sent out a Google Form with three simple questions: 1. What’s your name, 2. Are you coming to the dinner? 3. Do you have any dietary…",
+      "author": null,
+      "publishedAt": "2017-10-21T09:03:21.000Z"
+    },
+    {
+      "guid": "https://jhannes.github.io/2017/09/28/using-trello-and-google-forms-to-organize-a-conference/",
+      "title": "Using Trello and Google Forms to organize a conference",
+      "link": "https://jhannes.github.io/2017/09/28/using-trello-and-google-forms-to-organize-a-conference/",
+      "summary": "We’re running Mobile Era for the second year on October 5th-6th and I’d like to share some experience on how we’re using scripts and Trello to help with the organization effort. If you’d like automating simple tools, this is the article for you.\nIf you haven’t signed up for Mobile Era yet, you can…",
+      "author": null,
+      "publishedAt": "2017-09-28T06:32:05.000Z"
+    },
+    {
+      "guid": "https://jhannes.github.io/2017/09/07/how-i-learned-to-love-gdpr-and-so-can-you/",
+      "title": "How I learned to love GDPR and so can you",
+      "link": "https://jhannes.github.io/2017/09/07/how-i-learned-to-love-gdpr-and-so-can-you/",
+      "summary": "If you are working with software development as a developer, manager or tester, then you will be impacted by the General Data Protection Regulation (GDPR) â€“ the new EU laws regarding data privacy. In many ways, the regulation is likely to have as big of an impact as the Y2K problem. But this time…",
+      "author": null,
+      "publishedAt": "2017-09-07T21:35:32.000Z"
+    },
+    {
+      "guid": "https://jhannes.github.io/2017/04/21/deliver-early-without-sleepless-nights/",
+      "title": "Deliver early without sleepless nights",
+      "link": "https://jhannes.github.io/2017/04/21/deliver-early-without-sleepless-nights/",
+      "summary": "Trailblazing the first delivery of a software system requires courage and conviction, especially on projects that replace existing business critical software. When Iâ€™ve been acting as system architect Iâ€™ve employed a number of tricks in order to structure functionality and technical solutions…",
+      "author": null,
+      "publishedAt": "2017-04-21T05:02:36.000Z"
+    },
+    {
+      "guid": "https://jhannes.github.io/2016/10/21/no-you-dont-understand/",
+      "title": "\"No - you don't understand...\"",
+      "link": "https://jhannes.github.io/2016/10/21/no-you-dont-understand/",
+      "summary": "On the futility of understanding\nIs true understanding actually possible? I use my fingers to tap out keys on a keyboard and the light from your screen hits our eyeballs, but is it reasonable to think that there is any correspondence between the patterns in my brain and the patterns that were just…",
+      "author": null,
+      "publishedAt": "2016-10-21T11:43:25.000Z"
+    },
+    {
+      "guid": "https://jhannes.github.io/2016/10/07/what-mobile-strategy-is-best-native-or-hybrid/",
+      "title": "What mobile strategy is best: Native or Hybrid?",
+      "link": "https://jhannes.github.io/2016/10/07/what-mobile-strategy-is-best-native-or-hybrid/",
+      "summary": "So: What is best? A native app or a hybrid app? And if you build a hybrid app, what’s the best framework to use?\nAs with most interesting questions, it turns out that the answer is “it depends”. I often get questions like “isn’t Xamarin (or Cordova) better than build a native app”. Weeeell, it’s…",
+      "author": null,
+      "publishedAt": "2016-10-07T06:18:36.000Z"
+    },
+    {
+      "guid": "https://jhannes.github.io/2016/10/04/welcome-to-the-mobile-era/",
+      "title": "Welcome to the Mobile Era",
+      "link": "https://jhannes.github.io/2016/10/04/welcome-to-the-mobile-era/",
+      "summary": "(Looks like I’m back in the conference organization game again! After a few years of lots of travel and then a few years of lots of family responsibilities, this year I co-funded the Mobile Era conference. It looks like it will be a blast!)\nIf your experience is anything like mine, most of the…",
+      "author": null,
+      "publishedAt": "2016-10-04T08:55:36.000Z"
+    },
+    {
+      "guid": "https://jhannes.github.io/2016/09/13/computer-vision-for-java-developers/",
+      "title": "Computer vision for Java developers",
+      "link": "https://jhannes.github.io/2016/09/13/computer-vision-for-java-developers/",
+      "summary": "At JavaZone this year, I gave the talk “Computer Vision for mobile Java developers”. Here, I live code finding conference badges in a picture. The coding is iterative and interactive and I use it to illustrate Haar cascades, Canny edge detection, Otsu thresholding, contour detection, erosion and…",
+      "author": null,
+      "publishedAt": "2016-09-13T08:50:49.000Z"
+    },
+    {
+      "guid": "https://jhannes.github.io/2016/02/11/hva-burde-egentlig-et-norsk-it-prosjekt-koste/",
+      "title": "Hva burde egentlig et norsk IT-prosjekt koste?",
+      "link": "https://jhannes.github.io/2016/02/11/hva-burde-egentlig-et-norsk-it-prosjekt-koste/",
+      "summary": "Er det noen som sammenligner omfang og kostnad på IT prosjekter i Norge? Jeg tror man kunne få noen interessante innsikter dersom man gjorde dette riktig.\n(Jeg må unnskylde at teksten i denne blogposten blir litt vag - jeg ønsker å si så lite som mulig om de aktuelle prosjektene for å unngå å…",
+      "author": null,
+      "publishedAt": "2016-02-11T18:56:52.000Z"
+    },
+    {
+      "guid": "https://jhannes.github.io/2015/10/09/er-it-prosjektenes-tid-forbi/",
+      "title": "Er IT-prosjektenes tid forbi?",
+      "link": "https://jhannes.github.io/2015/10/09/er-it-prosjektenes-tid-forbi/",
+      "summary": "Man kan lese fra moderne tanker på IT-utvikling at prosjekter er en avleggs arbeidsform. For de som har erfaring med utviklingsaktiviteter innen offentlig og privat sektor kan dette virke som en rar påstand. De aller fleste ser behovet for å unngå store prosjekter, men er prosjektet som arbeidsform…",
+      "author": null,
+      "publishedAt": "2015-10-09T18:24:57.000Z"
+    },
+    {
+      "guid": "https://jhannes.github.io/2015/06/10/are-you-getting-worked-up-over-code-duplication/",
+      "title": "Are you getting worked up over code duplication?",
+      "link": "https://jhannes.github.io/2015/06/10/are-you-getting-worked-up-over-code-duplication/",
+      "summary": "As programmers, we have long learned that Duplication is the Ultimate Sin of programming. Even considering to duplicate something is almost unthinkable.\nBut removing duplication introduces dependencies. If you and I use the reuse the same piece of code instead of duplicating it, changes I make may…",
+      "author": null,
+      "publishedAt": "2015-06-09T22:22:37.000Z"
+    },
+    {
+      "guid": "https://jhannes.github.io/2015/04/29/the-key-is-empowering-the-people-who-do-the-work/",
+      "title": "The key is empowering the people who do the work",
+      "link": "https://jhannes.github.io/2015/04/29/the-key-is-empowering-the-people-who-do-the-work/",
+      "summary": "I was humbled and encouraged to learn that I was nominated for Nordic Startup Awards category of Developer Hero for my contributions to the developer community. You can vote for me or one of the other great candidates here.\nFor the last ten years, I have felt that the main pain points of the…",
+      "author": null,
+      "publishedAt": "2015-04-29T20:04:44.000Z"
+    },
+    {
+      "guid": "https://jhannes.github.io/2015/04/15/planning-software-development-with-a-time-machine/",
+      "title": "Planning software development with a time machine",
+      "link": "https://jhannes.github.io/2015/04/15/planning-software-development-with-a-time-machine/",
+      "summary": "I have an amazing time machine that lets me think better about projects. This is part 3 in a series of blog posts exploring the use of a time machine.\nIn order to get a handle on how to build a feature for your next iteration, take a trip with your time machine to the future to watch how the…",
+      "author": null,
+      "publishedAt": "2015-04-15T09:25:35.000Z"
+    },
+    {
+      "guid": "https://jhannes.github.io/2015/04/08/getting-excited-about-your-project-with-a-news-headline-from-the-future/",
+      "title": "Getting excited about your project with a news headline from the future",
+      "link": "https://jhannes.github.io/2015/04/08/getting-excited-about-your-project-with-a-news-headline-from-the-future/",
+      "summary": "I have an amazing time machine that lets me think better about projects. This is part 2 in a series of blog posts exploring the use of a time machine.\nThis is a trick that I learned from my User Experience (UX) friends.\nIn many projects, the project members have a great feeling about the…",
+      "author": null,
+      "publishedAt": "2015-04-08T08:15:02.000Z"
+    },
+    {
+      "guid": "https://jhannes.github.io/2015/03/27/replanning-your-project-with-a-time-machine/",
+      "title": "Replanning your project with a time machine",
+      "link": "https://jhannes.github.io/2015/03/27/replanning-your-project-with-a-time-machine/",
+      "summary": "I have an amazing time machine that lets me think better about projects. This is part 1 in a series of blog posts exploring the use of a time machine.\nLet’s say that you have a project that has been running for a couple of months. Looking back at your issue tracker and other artifacts, you notice…",
+      "author": null,
+      "publishedAt": "2015-03-27T10:55:10.000Z"
+    },
+    {
+      "guid": "https://jhannes.github.io/2015/01/22/software-2015-i-regi-av-dnd/",
+      "title": "Software 2015 i regi av DND",
+      "link": "https://jhannes.github.io/2015/01/22/software-2015-i-regi-av-dnd/",
+      "summary": "Jeg sitter i styret i Dataforeningen Østlandet hvor jeg er med å arrangerer Software 2015. Software er en kryssfaglig IT-konferanse hvor vi samler spesialister innenfor forskjellige fagfelt for å få dem til å snakke sammen på tvers av fagområdene. På konferansen er det dagsaktuelle temaer og…",
+      "author": null,
+      "publishedAt": "2015-01-22T09:19:10.000Z"
+    },
+    {
+      "guid": "https://jhannes.github.io/2015/01/04/interactive-rest-hacking-with-sublime-text-and-rester/",
+      "title": "Interactive REST hacking with Sublime Text and RESTer",
+      "link": "https://jhannes.github.io/2015/01/04/interactive-rest-hacking-with-sublime-text-and-rester/",
+      "summary": "Do you ever miss a command line to a web application? If you’re lucky, you may use a REST API with appropriate tools for the same job.\nThis Christmas, I bought a Sonos system for our family. It’s a wireless speaker system that uses music streaming services. It supports both Spotify and Deezer, but…",
+      "author": null,
+      "publishedAt": "2015-01-04T21:32:38.000Z"
+    },
+    {
+      "guid": "https://jhannes.github.io/2014/12/02/promises-you-can-trust/",
+      "title": "Promises you can trust",
+      "link": "https://jhannes.github.io/2014/12/02/promises-you-can-trust/",
+      "summary": "JavaScript Promises provide a strong programming model for the future of JavaScript development.\nSo here I’m playing with promises.\nFirst I need a bit of a package.json file:\n{ \"name\": \"promises\", \"scripts\": { \"test\": \"node node\\_modules/mocha/bin/mocha\" }, \"devDependencies\": { \"chai\": \"^1.10.0\",…",
+      "author": null,
+      "publishedAt": "2014-12-02T07:02:04.000Z"
+    },
+    {
+      "guid": "https://jhannes.github.io/2014/10/10/the-reuse-dilemma/",
+      "title": "The reuse dilemma",
+      "link": "https://jhannes.github.io/2014/10/10/the-reuse-dilemma/",
+      "summary": "The first commandment that any young programmer learns is “Thou Shall Not Duplicate”. Thus instructed, whenever we see something that looks like it may be repeated code, we refactor. We create libraries and frameworks. But removing duplication doesn’t come for free.\nIf I refactor some code so that…",
+      "author": null,
+      "publishedAt": "2014-10-10T05:14:11.000Z"
+    },
+    {
+      "guid": "https://jhannes.github.io/2014/10/02/dead-simple-configuration/",
+      "title": "Dead simple configuration",
+      "link": "https://jhannes.github.io/2014/10/02/dead-simple-configuration/",
+      "summary": "Whole frameworks have been written with the purpose of handling the configuration of your application. I prefer a simpler way.\nIf by configuration we mean “everything that is likely to vary between deploys”, it follows that we should try and keep configuration simple. In Java, the simplest option…",
+      "author": null,
+      "publishedAt": "2014-10-02T05:09:21.000Z"
+    },
+    {
+      "guid": "https://jhannes.github.io/2014/08/06/turning-a-new-corner/",
+      "title": "Turning a new corner",
+      "link": "https://jhannes.github.io/2014/08/06/turning-a-new-corner/",
+      "summary": "This summer has been the most significant in my life. While I don’t often write about personal matters in this blog, I will make an exception.\nOn July 12th my son Leon was born. Healthy, happy and obviously, from the perspective a father, perfect.\nGoing through this fundamental life change has made…",
+      "author": null,
+      "publishedAt": "2014-08-06T07:34:23.000Z"
+    },
+    {
+      "guid": "https://jhannes.github.io/2014/07/30/the-lepidopterists-curse-playing-with-java-time/",
+      "title": "The lepidopterist's curse: Playing with java.time",
+      "link": "https://jhannes.github.io/2014/07/30/the-lepidopterists-curse-playing-with-java-time/",
+      "summary": "Pop quiz: What will be the output of this little program?\npublic class DateFun { public static void main(String[] args) { long hours = getHoursOfDay(LocalDate.now(), ZoneId.systemDefault()); System.out.println(hours); } private static long getHoursOfDay(LocalDate date, ZoneId zoneId) {…",
+      "author": null,
+      "publishedAt": "2014-07-30T08:10:13.000Z"
+    },
+    {
+      "guid": "https://jhannes.github.io/2014/07/26/c-tricks-securing-your-controllers/",
+      "title": "C# tricks: Securing your controllers",
+      "link": "https://jhannes.github.io/2014/07/26/c-tricks-securing-your-controllers/",
+      "summary": "This article is dedicated to the ExileOffice team - revolutionizing the way we run our business in Exilesoft.\nAs applications move more and more of their business logic to the client side, it falls upon us to simplify what’s left on the server to avoid distractions. My previous article shows how I…",
+      "author": null,
+      "publishedAt": "2014-07-26T11:47:36.000Z"
+    },
+    {
+      "guid": "https://jhannes.github.io/2014/07/10/the-madness-of-layered-architecture/",
+      "title": "The madness of layered architecture",
+      "link": "https://jhannes.github.io/2014/07/10/the-madness-of-layered-architecture/",
+      "summary": "I once visited a team that had fifteen layers in their code. That is: If you wanted to display some data in the database in a web page, that data passed through 15 classes in the application. What did these layers do? Oh, nothing much. They just copied data from one object to the next. Or sometimes…",
+      "author": null,
+      "publishedAt": "2014-07-10T07:39:32.000Z"
+    },
+    {
+      "guid": "https://jhannes.github.io/2014/07/03/a-canonical-web-test-in-nodejs/",
+      "title": "A canonical web test in NodeJS",
+      "link": "https://jhannes.github.io/2014/07/03/a-canonical-web-test-in-nodejs/",
+      "summary": "Working with web applications in NodeJS is great. Using the same language and libraries on the client and server simplified the thinking. And NodeJS has fast tests and restart for a super quick edit-verify cycle when you’re coding.\nI like to write tests to verify the server-side and client-side…",
+      "author": null,
+      "publishedAt": "2014-07-03T11:52:19.000Z"
+    },
+    {
+      "guid": "https://jhannes.github.io/2014/06/27/pair-programming-with-sankalpa/",
+      "title": "Pair programming with Sankalpa",
+      "link": "https://jhannes.github.io/2014/06/27/pair-programming-with-sankalpa/",
+      "summary": "One of my favorite ways to develop software is to do it together with others. Pair programming has always been a motivating and fun activity for me, but some pairings work better than others.\nWhen our team was formed we decided to pair program and rotate partners every day. I had lots of fun…",
+      "author": null,
+      "publishedAt": "2014-06-27T05:39:37.000Z"
+    },
+    {
+      "guid": "https://jhannes.github.io/2014/03/24/the-economics-of-reuse/",
+      "title": "The economics of reuse",
+      "link": "https://jhannes.github.io/2014/03/24/the-economics-of-reuse/",
+      "summary": "If need the same functionality in two projects, you should reuse code between them, right? Or should you? For as long as there has been a profession of software engineering, we have tried to achieve more reuse. But reuse has both a benefit and a cost. Too often, the cost is forgotten. In this…",
+      "author": null,
+      "publishedAt": "2014-03-24T07:28:55.000Z"
+    },
+    {
+      "guid": "https://jhannes.github.io/2014/03/17/estimation-by-stuffing-things-into-boxes/",
+      "title": "Estimation by stuffing things into boxes",
+      "link": "https://jhannes.github.io/2014/03/17/estimation-by-stuffing-things-into-boxes/",
+      "summary": "I’ve started using an approach for software project estimation that so far is proving to be fairly transparent, quick and reliable. I’ve observed that within a reasonable degree of variation, most teams seems to complete about one “user-relevant task” per developer per calendar week.\nThere are so…",
+      "author": null,
+      "publishedAt": "2014-03-17T07:48:56.000Z"
+    },
+    {
+      "guid": "https://jhannes.github.io/2014/02/07/c-tricks-slimming-down-your-controllers/",
+      "title": "C# Tricks: Slimming down your controllers",
+      "link": "https://jhannes.github.io/2014/02/07/c-tricks-slimming-down-your-controllers/",
+      "summary": "This blog post is dedicated to my colleague Seminda who has been experimenting with how to create simple and powerful web applications. Thank you for showing me your ideas and discussing improvements with me, Seminda.\nI find many C# applications have much unnecessary code. This is especially true…",
+      "author": null,
+      "publishedAt": "2014-02-07T06:42:19.000Z"
+    },
+    {
+      "guid": "https://jhannes.github.io/2014/02/01/horizontal-reuse-in-javascript-and-c/",
+      "title": "Horizontal reuse in JavaScript and C#",
+      "link": "https://jhannes.github.io/2014/02/01/horizontal-reuse-in-javascript-and-c/",
+      "summary": "In his article Horizontal Reuse: An Alternative to Inheritance Toby Inkster compares how to implement multiple inheritance or mixins in Java, Perl, PHP and Ruby. It’s a very interesting comparison of programming languages features and well worth the read.\nToby writes:\nIn class-based object-oriented…",
+      "author": null,
+      "publishedAt": "2014-02-01T21:27:01.000Z"
+    },
+    {
+      "guid": "https://jhannes.github.io/2013/12/13/using-pair-programming-to-combat-project-waste/",
+      "title": "Using pair programming to combat project waste",
+      "link": "https://jhannes.github.io/2013/12/13/using-pair-programming-to-combat-project-waste/",
+      "summary": "Less Overproduction (of unused functions in interface between team members) Less Waiting (for the only person who knows a particular area) Less Motion (as everyone gets more skilled) Fewer Defects (because two pair of eyes see better than one) Less Over-processing (from duplicate responsibility)…",
+      "author": null,
+      "publishedAt": "2013-12-13T06:51:35.000Z"
+    },
+    {
+      "guid": "https://jhannes.github.io/2013/12/09/why-i-stopped-using-spring/",
+      "title": "Why I stopped using Spring",
+      "link": "https://jhannes.github.io/2013/12/09/why-i-stopped-using-spring/",
+      "summary": "My post on DZone about Humble Architects sparked somewhat of a controversy, especially around my disparaging comments regarding Spring and Dependency Injection Frameworks. In this post, I expand on why I stopped using Spring.\nI was one of the earliest adopter of Spring in Norway. We developed a…",
+      "author": null,
+      "publishedAt": "2013-12-09T05:51:01.000Z"
+    },
+    {
+      "guid": "https://jhannes.github.io/2013/12/06/can-we-learn-to-restrict-our-work-to-a-budget/",
+      "title": "Can we learn to restrict our work to a budget?",
+      "link": "https://jhannes.github.io/2013/12/06/can-we-learn-to-restrict-our-work-to-a-budget/",
+      "summary": "I’ve previously talked about the idea of shifting from estimates to budgets.\nThe fundamental point of this article is that it’s more useful to control costs than to predict costs.\nThe problem of this argument is whether it’s possible to develop software in that way. How will the relationship…",
+      "author": null,
+      "publishedAt": "2013-12-06T06:17:57.000Z"
+    },
+    {
+      "guid": "https://jhannes.github.io/2013/12/02/lean-architecture/",
+      "title": "Lean architecture",
+      "link": "https://jhannes.github.io/2013/12/02/lean-architecture/",
+      "summary": "Lean thinking describes seven classical sources of waste ç„¡é§„:\nOverproduction: Making stuff that nobody buys Over-processing: Creating stuff that is more fancy than what the customer wants Transport: Moving stuff from one place to another in order to create it or give it to a customer Motion:…",
+      "author": null,
+      "publishedAt": "2013-12-02T06:13:34.000Z"
+    }
+  ],
+  "totalIndexed": 50
+}

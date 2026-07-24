@@ -1,0 +1,93 @@
+{
+  "feedId": "bohops",
+  "feedName": "Bohops",
+  "feedSiteUrl": "https://bohops.com/",
+  "feedRssUrl": "https://bohops.com/feed/",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T06:45:20.023Z",
+  "items": [
+    {
+      "guid": "http://bohops.com/?p=3320",
+      "title": "Abusing .NET Core CLR Diagnostic Features (+ CVE-2023-33127)",
+      "link": "https://bohops.com/2023/11/27/abusing-net-core-clr-diagnostic-features-cve-2023-33127/",
+      "summary": "Introduction Background .NET is an ecosystem of frameworks, runtimes, and languages for building and running a wide range of applications on a variety of platforms and devices. The .NET Framework was initially released in the early 2000s as Microsoft’s implementation of the Common Language…",
+      "author": "bohops",
+      "publishedAt": "2023-11-27T12:51:30.000Z"
+    },
+    {
+      "guid": "http://bohops.com/?p=3245",
+      "title": "No Alloc, No Problem: Leveraging Program Entry Points for Process Injection",
+      "link": "https://bohops.com/2023/06/09/no-alloc-no-problem-leveraging-program-entry-points-for-process-injection/",
+      "summary": "Introduction Process Injection is a popular technique used by Red Teams and threat actors for defense evasion, privilege escalation, and other interesting use cases. At the time of this publishing, MITRE ATT&CK includes 12 (remote) process injection sub-techniques. Of course, there are numerous…",
+      "author": "bohops",
+      "publishedAt": "2023-06-09T00:53:46.000Z"
+    },
+    {
+      "guid": "http://bohops.com/?p=3066",
+      "title": "Investigating .NET CLR Usage Log Tampering Techniques For EDR Evasion (Part 2)",
+      "link": "https://bohops.com/2022/08/22/investigating-net-clr-usage-log-tampering-techniques-for-edr-evasion-part-2/",
+      "summary": "Introduction Last year, I blogged about Investigating .NET CLR Usage Log Tampering Techniques For EDR Evasion. In that part 1 post, we covered: Recently, I revisited the research topic to close the loop on some outstanding research and figured I would share. In this post, we’ll recap .NET Usage…",
+      "author": "bohops",
+      "publishedAt": "2022-08-22T23:48:27.000Z"
+    },
+    {
+      "guid": "http://bohops.com/?p=3009",
+      "title": "Unmanaged Code Execution with .NET Dynamic PInvoke",
+      "link": "https://bohops.com/2022/04/02/unmanaged-code-execution-with-net-dynamic-pinvoke/",
+      "summary": "Yes, you read that correctly – “Dynamic Pinvoke” as in “Dynamic Platform Invoke” Background Recently, I was browsing through Microsoft documentation and other blogs to gain a better understanding of .NET dynamic types and objects. I’ve always found the topic very interesting mainly due to its…",
+      "author": "bohops",
+      "publishedAt": "2022-04-02T16:45:49.000Z"
+    },
+    {
+      "guid": "http://bohops.com/?p=2954",
+      "title": "Analyzing and Detecting a VMTools Persistence Technique",
+      "link": "https://bohops.com/2021/10/08/analyzing-and-detecting-a-vmtools-persistence-technique/",
+      "summary": "Introduction It is always fun to reexplore previously discovered techniques or pick back on old research that was put on the wayside in hopes to maybe finding something new or different. Recently, I stood up an ESXi server at home and decided to take a quick peak at the VMware directory structure…",
+      "author": "bohops",
+      "publishedAt": "2021-10-08T03:42:18.000Z"
+    },
+    {
+      "guid": "http://bohops.com/?p=2913",
+      "title": "CVE-2021-0090: Intel Driver & Support Assistant (DSA) Elevation of Privilege (EoP)",
+      "link": "https://bohops.com/2021/08/07/cve-2021-0090-intel-driver-support-assistant-dsa-elevation-of-privilege-eop/",
+      "summary": "TL;DR Intel Driver & Support Assistant (DSA) is a driver and software update utility for Intel components. DSA version 20.8.30.6 (and likely prior) is vulnerable to a local privilege escalation reparse point bug. An unprivileged user has nominal control over configuration settings within the…",
+      "author": "bohops",
+      "publishedAt": "2021-08-07T16:30:24.000Z"
+    },
+    {
+      "guid": "http://bohops.com/?p=2626",
+      "title": "Abusing and Detecting LOLBIN Usage of .NET Development Mode Features",
+      "link": "https://bohops.com/2021/05/30/abusing-and-detecting-lolbin-usage-of-net-development-mode-features/",
+      "summary": "Background As discussed in this previous post, Microsoft has provided valuable (explicit and implicit) insight into the inner workings of the functional components of the .NET ecosystem through online documentation and by open-sourcing .NET Core. .NET, in general, is a very powerful and capable…",
+      "author": "bohops",
+      "publishedAt": "2021-05-30T16:24:30.000Z"
+    },
+    {
+      "guid": "http://bohops.com/?p=2640",
+      "title": "Investigating .NET CLR Usage Log Tampering Techniques For EDR Evasion",
+      "link": "https://bohops.com/2021/03/16/investigating-net-clr-usage-log-tampering-techniques-for-edr-evasion/",
+      "summary": "Introduction In recent years, there have been numerous published techniques for evading endpoint security solutions and sources such as A/V, EDR and logging facilities. The methods deployed to achieve the desired result usually differ in sophistication and implementation, however, effectiveness is…",
+      "author": "bohops",
+      "publishedAt": "2021-03-16T04:08:58.000Z"
+    },
+    {
+      "guid": "http://bohops.com/?p=2530",
+      "title": "Exploring the WDAC Microsoft Recommended Block Rules (Part II): Wfc.exe, Fsi.exe, and FsiAnyCpu.exe",
+      "link": "https://bohops.com/2020/11/02/exploring-the-wdac-microsoft-recommended-block-rules-part-ii-wfc-fsi/",
+      "summary": "Introduction In Part One, I blogged about VisualUiaVerifyNative.exe, a LOLBIN that could be used to bypass Windows Defender Application Control (WDAC)/Device Guard. The technique used for circumventing WDAC was originally discovered by Lee Christensen, however, it was not previously disclosed like…",
+      "author": "bohops",
+      "publishedAt": "2020-11-02T00:43:57.000Z"
+    },
+    {
+      "guid": "http://bohops.com/?p=2410",
+      "title": "Exploring the WDAC Microsoft Recommended Block Rules: VisualUiaVerifyNative",
+      "link": "https://bohops.com/2020/10/15/exploring-the-wdac-microsoft-recommended-block-rules-visualuiaverifynative/",
+      "summary": "Introduction If you have followed this blog over the last few years, many of the posts focus on techniques for bypassing application control solutions such as Windows Defender Application Control (WDAC)/Device Guard and AppLocker. I have not been blogging as much lately but wanted to get back into…",
+      "author": "bohops",
+      "publishedAt": "2020-10-15T03:24:58.000Z"
+    }
+  ],
+  "totalIndexed": 10
+}

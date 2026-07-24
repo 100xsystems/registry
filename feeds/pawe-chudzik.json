@@ -1,0 +1,413 @@
+{
+  "feedId": "pawe-chudzik",
+  "feedName": "Paweł Chudzik",
+  "feedSiteUrl": "https://blog.pchudzik.com/",
+  "feedRssUrl": "https://blog.pchudzik.com/index.xml",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T07:02:14.087Z",
+  "items": [
+    {
+      "guid": "https://blog.pchudzik.com/202209/remote-docker/",
+      "title": "How to setup remote docker host",
+      "link": "https://blog.pchudzik.com/202209/remote-docker/",
+      "summary": "Not all docker images are available for ARM architecture (hopefully this will improve over time).\nRight now I’m working on a project where images for ARM are not available.\nEmulation works ok (but slow) most of the time.\nLately, I stumbled upon an interesting performance/startup issue when running…",
+      "author": null,
+      "publishedAt": "2022-09-26T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.pchudzik.com/202205/git-identities/",
+      "title": "Multiple GIT identities",
+      "link": "https://blog.pchudzik.com/202205/git-identities/",
+      "summary": "I have two GitLab accounts - \"work account\" and \"personal account\".\nOne is for my professional work, it is registered to my work email.\nThe second account is for my private/learning projects registered with my private email address.\nI want to keep those things separate and use two different…",
+      "author": null,
+      "publishedAt": "2022-05-12T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.pchudzik.com/202201/gson-fail/",
+      "title": "Gson failure in end-to-end tests",
+      "link": "https://blog.pchudzik.com/202201/gson-fail/",
+      "summary": "Using Gson in your e2e tests might result in tests passing even when contract is broken.\nGson is quite imprecise when it comes to deserializing objects from json.\nIs there any difference between an enum and a string?\nIs there any difference between s string and a number?\nUsing Java you might…",
+      "author": null,
+      "publishedAt": "2022-01-23T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.pchudzik.com/202005/circuit-breaker/",
+      "title": "Synchronous communication - circuit breaker and fallback",
+      "link": "https://blog.pchudzik.com/202005/circuit-breaker/",
+      "summary": "The circuit breaker is a communication pattern that helps to avoid cascading failure of the system and gives dependent services time to recover.\nAlong with fallback values defined by the developer, it gives a pretty wide safe net when communication channel is broken.\nRead more",
+      "author": null,
+      "publishedAt": "2020-05-07T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.pchudzik.com/202004/open-api-and-external-ref/",
+      "title": "Working with OpenAPI contract in multiple files",
+      "link": "https://blog.pchudzik.com/202004/open-api-and-external-ref/",
+      "summary": "Real-life OpenAPI specification files tend to go really big really fast.\nIn this post, I’ll try to explore how we can split single specification file into multiple files and don’t get crazy while scrolling up and down like a mad man.\nRead more",
+      "author": null,
+      "publishedAt": "2020-04-23T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.pchudzik.com/202004/python-and-collection-like-objects/",
+      "title": "Collection like objects in python",
+      "link": "https://blog.pchudzik.com/202004/python-and-collection-like-objects/",
+      "summary": "Collections are an important part of every programming language.\nIn python, there is a couple of built-in collections like list, set, dictionary but I’m not going to dig into them now.\nIn this post, I’ll explore what it takes to implement collection like objects on your own using collections…",
+      "author": null,
+      "publishedAt": "2020-04-15T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.pchudzik.com/202003/object-oriented-python/",
+      "title": "Object oriented programming in Python",
+      "link": "https://blog.pchudzik.com/202003/object-oriented-python/",
+      "summary": "Working with python is fun (as with any language you get hooked up on).\nYou can write simple scripts with it, or complex programs and utilities.\nThe most surprising thing for people coming from the java world might be that in this \"scripting\" language everything is an object.\nIn this post, I’ll…",
+      "author": null,
+      "publishedAt": "2020-03-25T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.pchudzik.com/202003/retries/",
+      "title": "Synchronous communication - connection settings and retries",
+      "link": "https://blog.pchudzik.com/202003/retries/",
+      "summary": "The simplest possible strategy that can help with communication issues is retrying to execute the request again.\nMaybe it was just a network glitch and it will work just fine when you try to call it again.\nIntroducing retries is a relatively simple step that can improve the stability of your…",
+      "author": null,
+      "publishedAt": "2020-03-17T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.pchudzik.com/202002/reliability/",
+      "title": "Synchronous services communication",
+      "link": "https://blog.pchudzik.com/202002/reliability/",
+      "summary": "At work, we are splitting the monolithic application into smaller services.\nFrom time to time we have some challenges in doing it the right way.\nLately, most of the splitting is focused on cutting out frontends to be outside of the monolith.\nIt gives solid results as we are getting logic and…",
+      "author": null,
+      "publishedAt": "2020-02-28T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.pchudzik.com/202002/blog-process/",
+      "title": "How this blog is build",
+      "link": "https://blog.pchudzik.com/202002/blog-process/",
+      "summary": "In this post, I’d like to show you how I’ve started with writing this blog.\nHow the process evolved during 3 years of writing.\nHow I’ve finally managed to set up everything in a way that works for me now.\nIf you don’t blog yet this might help you out with technical details on how you can start…",
+      "author": null,
+      "publishedAt": "2020-02-14T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.pchudzik.com/202001/log4j2/",
+      "title": "logv4j v2",
+      "link": "https://blog.pchudzik.com/202001/log4j2/",
+      "summary": "When I’ve first learned that there is something more than printing things to console log4j was state of the art solution.\nThen SLF4J joined the party and improved where log4j was lacking.\nThe new version of LOG4J is available for some time already and I didn’t have a chance to look at what if…",
+      "author": null,
+      "publishedAt": "2020-01-20T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.pchudzik.com/202001/toggable-cache/",
+      "title": "Toggable Cache",
+      "link": "https://blog.pchudzik.com/202001/toggable-cache/",
+      "summary": "Sometimes it’s good to have an option to try something out on the live environment.\nChecking things against production like traffic is the most reliable way to gather real-life metrics.\nIn this post, I’m going to try and set up spring cache with a toggle.\nIt’ll be possible to turn it off and on…",
+      "author": null,
+      "publishedAt": "2020-01-09T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.pchudzik.com/201912/skills-and-tools/",
+      "title": "Skills and tools that will not get you a new job",
+      "link": "https://blog.pchudzik.com/201912/skills-and-tools/",
+      "summary": "On almost every job interview there are questions about frameworks, programming principles, maybe some coding or whiteboard architecting.\nOn the other side, there is the way you work. Tools and skills you use on a daily basis which define how you work.\nNo one really asks about those things but I…",
+      "author": null,
+      "publishedAt": "2019-12-27T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.pchudzik.com/201912/microservices-are-hard/",
+      "title": "Microservices are hard",
+      "link": "https://blog.pchudzik.com/201912/microservices-are-hard/",
+      "summary": "At work, we are slowly breaking down the monolithic application into smaller manageable services.\nSome time ago we had a very interesting issue which proved that microservices are hard to implement.\nIt’s especially true if you are not there yet but somewhere in the middle.\nWhen you need to…",
+      "author": null,
+      "publishedAt": "2019-12-12T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.pchudzik.com/201911/read-from-replica/",
+      "title": "Use replica database for read-only transactions",
+      "link": "https://blog.pchudzik.com/201911/read-from-replica/",
+      "summary": "Some time ago we had a problem with performance caused by generating big reports for users.\nDuring one of the firehouse meetings, there was an idea to generate reports from the replica database.\nWe’ve solved the issue differently but the idea got me interested.\nIn this post, I’ll configure…",
+      "author": null,
+      "publishedAt": "2019-11-27T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.pchudzik.com/201911/transactional-errors/",
+      "title": "Error handling with @Transactional",
+      "link": "https://blog.pchudzik.com/201911/transactional-errors/",
+      "summary": "You probably already know that by default in spring transactions are rolled back only for runtime exceptions.\nWhen a checked exception is thrown from your code and you don’t explicitly tell spring that it should rollback the transaction then it get’s committed.\nIn this post, I’m going to create…",
+      "author": null,
+      "publishedAt": "2019-11-11T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.pchudzik.com/201910/asciidoc/",
+      "title": "asciidoc documentation",
+      "link": "https://blog.pchudzik.com/201910/asciidoc/",
+      "summary": "One thing that a lot of people hate to do is writing documentation.\nUsually, it’s postponed until development is finished and once it’s done there is rarely time to do it properly.\nIf you get past the struggle of writing it down there is always a problem of keeping it up to date.\nTo avoid those…",
+      "author": null,
+      "publishedAt": "2019-10-24T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.pchudzik.com/201910/awaitility/",
+      "title": "Awaitility",
+      "link": "https://blog.pchudzik.com/201910/awaitility/",
+      "summary": "If you are not working with multithreading programming and don’t have to test any asynchronous code\nthen this post will probably do you nothing good. But if you have ever struggled with testing some\nlogic running in multiple threads and you don’t know\nAwaitility. A small library helps testing…",
+      "author": null,
+      "publishedAt": "2019-10-10T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.pchudzik.com/201909/mockito-answers/",
+      "title": "Answers in mockito",
+      "link": "https://blog.pchudzik.com/201909/mockito-answers/",
+      "summary": "Mocking library is an important tool in every developer toolbox. Sometimes you want to do things\nthat at first glance look a bit more complex than returning number 42 from some method. Let’s see\nwhat stubbing techniques are available in Mockito out of the box and what they offer.\nRead more",
+      "author": null,
+      "publishedAt": "2019-09-22T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.pchudzik.com/201909/redis-template/",
+      "title": "Hands-on RedisTemplate",
+      "link": "https://blog.pchudzik.com/201909/redis-template/",
+      "summary": "We are improving cache in the project Im working on. In the code base I’ve found a method which\naccepted a collection of ids and returned collection of objects for those ids. My goal was to add\ncache on individual values returned by the method. Creation of items was IO heavy and time-consuming…",
+      "author": null,
+      "publishedAt": "2019-09-11T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.pchudzik.com/201908/archunit/",
+      "title": "ArchUnit",
+      "link": "https://blog.pchudzik.com/201908/archunit/",
+      "summary": "In the past, I’ve implemented couple of\ntests that aimed to verify naming conventions or some other practices team agreed upon. And\npresented a way how to ensure they are followed. When\nI’ve been writing those I was not aware that there is a library that aims to test architecture\nconventions -…",
+      "author": null,
+      "publishedAt": "2019-08-22T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.pchudzik.com/201908/the-kata/",
+      "title": "The Kata",
+      "link": "https://blog.pchudzik.com/201908/the-kata/",
+      "summary": "I’m learning python for some time now. I’ve made myself familiar with the syntax and then started\nlooking into other ways to increase my knowledge about language and learn its quirks. I’ve found a\nvery nice site that allows me to practice basics and strengthen different kind of muscles that I’m…",
+      "author": null,
+      "publishedAt": "2019-08-13T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.pchudzik.com/201907/testcontainers/",
+      "title": "Testcontainers",
+      "link": "https://blog.pchudzik.com/201907/testcontainers/",
+      "summary": "Recently I’ve found a very interesting project which allows to spin up docker containers for test\npurposes. Writing tests checking integration with external services is not an easy task. With\ntestcontainers library it gets simpler because you can have external\nservice up and running just for your…",
+      "author": null,
+      "publishedAt": "2019-07-18T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.pchudzik.com/201907/spock-extensions/",
+      "title": "Spock extensions",
+      "link": "https://blog.pchudzik.com/201907/spock-extensions/",
+      "summary": "Recently I had to set up some extra logic to be executed before running tests. I had two options -\ncreate yet another abstract class with some behavior or somehow extend Spock and introduce extra\nlogic to be executed just before actual test starts. As we already have enough of abstract classes I…",
+      "author": null,
+      "publishedAt": "2019-07-11T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.pchudzik.com/201906/code-style/",
+      "title": "Forcing conventions",
+      "link": "https://blog.pchudzik.com/201906/code-style/",
+      "summary": "When the whole team agrees on coding standards we tend to be optimistic. We think that from now on\neverything will be exactly as we decided. The truth is that usually after a couple of months you’ll\nreinstall IDE or system and forget about configuration or new people join and it’s the Wild West all…",
+      "author": null,
+      "publishedAt": "2019-06-27T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.pchudzik.com/201906/proxy-factory/",
+      "title": "ProxyFactory and ProxyFactoryBean in Spring",
+      "link": "https://blog.pchudzik.com/201906/proxy-factory/",
+      "summary": "Spring provides many easy to use abstractions and you use many of them without even knowing about them. You probably know that in order to have @Transactional or @Cacheable annotation work spring creates proxies for you (sometimes proxies on top of proxies…​), but have you ever wondered how it’s…",
+      "author": null,
+      "publishedAt": "2019-06-13T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.pchudzik.com/201905/maven-revision/",
+      "title": "Simplified application versioning with maven",
+      "link": "https://blog.pchudzik.com/201905/maven-revision/",
+      "summary": "Version management in maven (especially in multi-module projects) was not pleasant and required\nmultiple build steps, some magic commands and maybe bash script here and there. With version 3.5.0\nnew cool feature has been added to maven. From this\nversion you can easily customize your build number…",
+      "author": null,
+      "publishedAt": "2019-05-29T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.pchudzik.com/201905/maven-plugin/",
+      "title": "My first maven plugin",
+      "link": "https://blog.pchudzik.com/201905/maven-plugin/",
+      "summary": "In the past, I’ve been doing various things with maven. Some of them were standard, some were more\ncomplicated and a couple of them were complex. For those complex solutions, I felt like I needed a\nplugin but I’ve never had enough time to write it properly. In this post, I’m going to explore the…",
+      "author": null,
+      "publishedAt": "2019-05-10T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.pchudzik.com/201904/beandefinition/",
+      "title": "Spring internals - BeanDefinition",
+      "link": "https://blog.pchudzik.com/201904/beandefinition/",
+      "summary": "How beans are registered in spring and what is the base of beans creation, how to extend spring’s\ncontext to our needs? In this post, I’m going to dig into the foundation of many mechanics in spring\nframework - bean definition.\nRead more",
+      "author": null,
+      "publishedAt": "2019-04-29T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.pchudzik.com/201904/spring-properties-misconfiguration/",
+      "title": "Spring's properties misconfiguration dangers",
+      "link": "https://blog.pchudzik.com/201904/spring-properties-misconfiguration/",
+      "summary": "Some time ago I’ve faced a very interesting support issue. Long story short it turned out that one\nof our applications was not connecting to proper service and as a result, it’s been displaying\ninvalid data to users. After a bit of investigation, I’ve noticed that spring’s configuration\nmechanism…",
+      "author": null,
+      "publishedAt": "2019-04-11T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.pchudzik.com/201903/spring-factories/",
+      "title": "spring.factories",
+      "link": "https://blog.pchudzik.com/201903/spring-factories/",
+      "summary": "Have you ever wondered how it’s possible that spring-boot is able to pick up whatever you have on\nthe classpath and configure application context to your needs based on some conventions and bit of\nblack magic? In this post, I’m going to dig into spring.factories file on which most of the…",
+      "author": null,
+      "publishedAt": "2019-03-28T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.pchudzik.com/201903/test-names-conventions/",
+      "title": "Test naming convention",
+      "link": "https://blog.pchudzik.com/201903/test-names-conventions/",
+      "summary": "How to introduce automated checks that will guarantee that conventions are followed in an example of\ntest naming convention. I’m going to focus on creating automated process that will verify if test\nnames do match conventions. Automation will allow us to forget about the rule because the computer…",
+      "author": null,
+      "publishedAt": "2019-03-14T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.pchudzik.com/201902/beanpostprocessor/",
+      "title": "Spring internals - BeanPostProcessor",
+      "link": "https://blog.pchudzik.com/201902/beanpostprocessor/",
+      "summary": "Have you ever wondered how spring does things? How field annotated with @Autowired is populated?\nHow asynchronous or scheduled methods are discovered. In this post, I’m going to take a deeper look\nand scratch a bit on the surface of spring internals. I’ll focus on BeanPostProcessor interface\nwhich…",
+      "author": null,
+      "publishedAt": "2019-02-20T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.pchudzik.com/201902/gradle-deployment/",
+      "title": "Deployment with gradle",
+      "link": "https://blog.pchudzik.com/201902/gradle-deployment/",
+      "summary": "I’ve been working with gradle for some time but I’ve never needed to configure deployment from\ngradle to maven repository. In this post, I’m going to configure deployment of java based gradle\nproject to the nexus artifact repository. This will include uploading a signed jar itself with\njavadoc and…",
+      "author": null,
+      "publishedAt": "2019-02-06T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.pchudzik.com/201901/fluentxpath/",
+      "title": "Introducing fluentXPath",
+      "link": "https://blog.pchudzik.com/201901/fluentxpath/",
+      "summary": "Some time ago I’ve started working on updating automated tests written in selenium with java. After\nworking a bit with it I’ve noticed that from time to time constructing XPath expression can get\nugly. We are writing our tests in pure java and \"ugliness\" usually comes from string concatenation\nwhen…",
+      "author": null,
+      "publishedAt": "2019-01-22T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.pchudzik.com/201901/multiple-teams-in-monolith/",
+      "title": "Multiple teams and monolith",
+      "link": "https://blog.pchudzik.com/201901/multiple-teams-in-monolith/",
+      "summary": "At work I’m are engaged in the maintenance and development of a pretty big legacy monolithic\napplication. Some time ago team size basically doubled. To keep things simple and activate more\npeople we decided that we need to split the huge team into smaller more focused parties. Here is how\nwe are…",
+      "author": null,
+      "publishedAt": "2019-01-10T16:50:48.000Z"
+    },
+    {
+      "guid": "https://blog.pchudzik.com/201804/dependencies-bom/",
+      "title": "Dependencies BOM",
+      "link": "https://blog.pchudzik.com/201804/dependencies-bom/",
+      "summary": "Managing and versioning a bunch of connected libraries or services is hard. It doesn’t matter if\nyou are a consumer or a provider of it. In this post, I’m exploring two simple solutions which\nmight come in handy if you develop an ecosystem of libraries/services or when you are a consumer\nof those.…",
+      "author": null,
+      "publishedAt": "2018-04-18T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.pchudzik.com/201803/testing-randomness/",
+      "title": "Testing randomness",
+      "link": "https://blog.pchudzik.com/201803/testing-randomness/",
+      "summary": "While deep diving into the code I very often see people struggle when testing random\nchanging/things. There is a really simple solution for this and in this blog post, I’m going to show\nyou \"one simple trick\" that will fix this problem.\nRead more",
+      "author": null,
+      "publishedAt": "2018-03-20T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.pchudzik.com/201802/aws-nat-instance/",
+      "title": "NAT instance on AWS",
+      "link": "https://blog.pchudzik.com/201802/aws-nat-instance/",
+      "summary": "At work and in my private time I’m trying to get myself familiar with AWS cloud. Almost all of this\nis new for me. I know how to setup few things using AWS web console but infrastructure as a code was\ncalling to me and I wanted to give it a spin. My first task was to create VPC with two pairs of…",
+      "author": null,
+      "publishedAt": "2018-02-27T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.pchudzik.com/201802/dockerized-e2e/",
+      "title": "Dockerized e2e tests",
+      "link": "https://blog.pchudzik.com/201802/dockerized-e2e/",
+      "summary": "In my free time, I’m trying to learn something new and best of way learning is by doing. To avoid spinning my wheels in vain I’m helping to develop some product. In the previous post, I’ve described what we’ve decided to use for the UI and pointed out that I’m going to write integration tests. Here…",
+      "author": null,
+      "publishedAt": "2018-02-15T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.pchudzik.com/201801/testing-mvc-in-spring/",
+      "title": "Testing MVC in Spring",
+      "link": "https://blog.pchudzik.com/201801/testing-mvc-in-spring/",
+      "summary": "Most of java web applications is built on top of the Spring Framework. Spring has pretty good\nsupport for testing and it is a mistake not to take advantage of features it offers. I’ve been\ndeveloping various applications using Spring MVC for some time and I’ve noticed few patterns for\ntesting that…",
+      "author": null,
+      "publishedAt": "2018-01-30T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.pchudzik.com/201801/express-pug/",
+      "title": "From express and pug to HTML",
+      "link": "https://blog.pchudzik.com/201801/express-pug/",
+      "summary": "While working on private stuff I’ve encountered a moment when I was in need to create a web-based\nuser interface for the application I’ve been developing lately. In this post, I’m going to briefly\ndescribe why I’ve decided to use Node.js for generating HTML on the server side and how I’ve taken…",
+      "author": null,
+      "publishedAt": "2018-01-23T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.pchudzik.com/201801/dockerized-development-database/",
+      "title": "Dockerized dev database",
+      "link": "https://blog.pchudzik.com/201801/dockerized-development-database/",
+      "summary": "If because of reasons you have to run Maria/Postgres/Oracle on localhost for development and you\noften import database dumps into it you probably spend some time waiting for DB to be ready to use.\nIn this post, I’m going to show you how you can automate the whole process and save some time doing\nit…",
+      "author": null,
+      "publishedAt": "2018-01-09T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.pchudzik.com/201712/bisect-the-dragon/",
+      "title": "Bisect the dragon",
+      "link": "https://blog.pchudzik.com/201712/bisect-the-dragon/",
+      "summary": "It all started on Friday, like many of the bad things that can happen in software ;) We’ve been\nworking for some time and after being blocked with deployments for a long time (don’t ask, you don’t\nwant to know ;)) we were finally able to deploy a new version. Our last release was about week ago.\nDo…",
+      "author": null,
+      "publishedAt": "2017-12-21T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.pchudzik.com/201712/checklist-txt/",
+      "title": "Control your release",
+      "link": "https://blog.pchudzik.com/201712/checklist-txt/",
+      "summary": "Imagine the situation when you’ve just released something on production and deployment went fine.\nYou’ve just sent release notes and went out to grab a coffee. Once you are back you see an email\nwith information that feature team have been working on for past 3 sprints doesn’t work at all.\nTurns…",
+      "author": null,
+      "publishedAt": "2017-12-07T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.pchudzik.com/201711/kotlin-first-impressions/",
+      "title": "Kotlin first impressions",
+      "link": "https://blog.pchudzik.com/201711/kotlin-first-impressions/",
+      "summary": "Recently while starting work on a project we’ve (team of two ;)) decided to try something new and\nuse Kotlin. The project is far from ready and still under active development, but after writing some\ncode in Kotlin I’ve got few observations I’d like to share.\nRead more",
+      "author": null,
+      "publishedAt": "2017-11-29T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.pchudzik.com/201711/conversions-in-spring/",
+      "title": "Conversions in spring",
+      "link": "https://blog.pchudzik.com/201711/conversions-in-spring/",
+      "summary": "The story is really simple. I wanted to accept my class as rest controller method param. I decided\nthat I don’t want to convert a simple string to object every time and it would be faster if I do the\nconversion in the single place. After a quick research I’ve found\nConverter\ninterface which looked…",
+      "author": null,
+      "publishedAt": "2017-11-10T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.pchudzik.com/201710/databse-migrations/",
+      "title": "Database migrations",
+      "link": "https://blog.pchudzik.com/201710/databse-migrations/",
+      "summary": "Most of the application we are working on are built around the data. Since the information is the\ncore value of the application we store it in the persistent and reliable storage - database.\nApplications evolve in time so does the way we store the data. In this post, I’m going to present my…",
+      "author": null,
+      "publishedAt": "2017-10-31T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.pchudzik.com/201710/domain-events/",
+      "title": "Poor's man domain events",
+      "link": "https://blog.pchudzik.com/201710/domain-events/",
+      "summary": "While investigating @EventListeners in spring I’ve noticed very interesting annotation - @DomainEvents. In this post I’m going to check what can be achieved using @DomainEvents annotation and how to effectively use it with old good JPA.\nLet’s start with short introduction to domain event idea if…",
+      "author": null,
+      "publishedAt": "2017-10-16T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.pchudzik.com/201710/mock-verifications-in-spock/",
+      "title": "Mock verifications in spock",
+      "link": "https://blog.pchudzik.com/201710/mock-verifications-in-spock/",
+      "summary": "I do like to write tests in Spock. I’m not sure if I know every feature\navailable but until lately I felt comfortable with my knowledge. Obviously, I should not. There is\nalways something that can catch you off guard. The question is how long will it take to figure out\nwhat’s happen.\nRead more",
+      "author": null,
+      "publishedAt": "2017-10-09T00:00:00.000Z"
+    }
+  ],
+  "totalIndexed": 50
+}

@@ -1,0 +1,413 @@
+{
+  "feedId": "jake-yesbeck",
+  "feedName": "Jake Yesbeck",
+  "feedSiteUrl": "http://jakeyesbeck.com/",
+  "feedRssUrl": "http://jakeyesbeck.com/atom.xml",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T06:53:04.014Z",
+  "items": [
+    {
+      "guid": "jake-yesbeck::https://jakeyesbeck.com/2021/04/10/avoid-models-in-migrations/",
+      "title": "Why You Should Avoid Models in Rails Migrations",
+      "link": "https://jakeyesbeck.com/2021/04/10/avoid-models-in-migrations/",
+      "summary": "Humble Beginnings\nA simple Rails application exists with two models, Books and Authors.\nclass Book < ApplicationRecord\n  belongs_to :author\nend\n\nclass Author < ApplicationRecord\n  has_many :books\nend\n\nAfter some domestic success, this simple Rails app goes international. A new column\nis required on…",
+      "author": null,
+      "publishedAt": "2021-04-10T12:00:00.000Z"
+    },
+    {
+      "guid": "jake-yesbeck::https://jakeyesbeck.com/2020/07/19/making-rspec-tests-more-robust/",
+      "title": "Making RSpec Tests More Robust",
+      "link": "https://jakeyesbeck.com/2020/07/19/making-rspec-tests-more-robust/",
+      "summary": "RSpec is a popular framework for testing Ruby code. With an expect\nassertion, a developer can make sure their code calls the proper method or\nan acceptable result is returned. The expect().to receive matcher in a test\noverrides the default implementation and can cause some unintended side\neffects.…",
+      "author": null,
+      "publishedAt": "2020-07-19T12:00:00.000Z"
+    },
+    {
+      "guid": "jake-yesbeck::https://jakeyesbeck.com/2019/06/18/ruby-processes-and-threads/",
+      "title": "Ruby Processes and Threads - Configuring a Web Server",
+      "link": "https://jakeyesbeck.com/2019/06/18/ruby-processes-and-threads/",
+      "summary": "Multiple popular Ruby web servers exist. Each Ruby application is different and the ultimate tl;dr for configuring a web server is: it depends. This post will not prescribe one web server or configuration over another and will instead explain internal components most popular servers contain.\nIn…",
+      "author": null,
+      "publishedAt": "2019-06-18T12:00:00.000Z"
+    },
+    {
+      "guid": "jake-yesbeck::https://jakeyesbeck.com/2018/02/18/improving-remote-work-as-a-software-engineer/",
+      "title": "Improving Remote Work as a Software Engineer",
+      "link": "https://jakeyesbeck.com/2018/02/18/improving-remote-work-as-a-software-engineer/",
+      "summary": "After working in the Bay Area for many years, I decided that being able to\nafford a house was something I’d like to do. That and family led me back to the East\nCoast and a new chapter of my career began: Remote Software Engineering.\nTransitioning to working remotely in any profession has its…",
+      "author": null,
+      "publishedAt": "2018-02-18T12:00:00.000Z"
+    },
+    {
+      "guid": "jake-yesbeck::https://jakeyesbeck.com/2017/07/12/a-few-rspec-helpful-hints/",
+      "title": "A Few RSpec Helpful Hints",
+      "link": "https://jakeyesbeck.com/2017/07/12/a-few-rspec-helpful-hints/",
+      "summary": "Two main frameworks dominate the Ruby testing world: Rspec and MiniTest. RSpec\nis a very expressive testing framework with many great features and helpers to\nmake tests readable. When writing RSpec tests, here are just a few not so\nobvious hints that could make tests even easier to write, read, and…",
+      "author": null,
+      "publishedAt": "2017-07-12T12:00:00.000Z"
+    },
+    {
+      "guid": "jake-yesbeck::https://jakeyesbeck.com/2016/04/26/a-successful-year-of-commits/",
+      "title": "A Successful Year of Commits",
+      "link": "https://jakeyesbeck.com/2016/04/26/a-successful-year-of-commits/",
+      "summary": "At Rails Conf 2015, I met a lot of great people from the Ruby community. These people had a profound effect on me, instilling in me a new motivation to become part of something larger than myself. A year ago today, I embarked on a journey to better myself as a Software Engineer. I decided to commit…",
+      "author": null,
+      "publishedAt": "2016-04-26T12:00:00.000Z"
+    },
+    {
+      "guid": "jake-yesbeck::https://jakeyesbeck.com/2016/04/17/how-to-diagnose-ruby-on-rails-n-plus-1-query-problems/",
+      "title": "How to Diagnose Ruby on Rails N + 1 Query Problems",
+      "link": "https://jakeyesbeck.com/2016/04/17/how-to-diagnose-ruby-on-rails-n-plus-1-query-problems/",
+      "summary": "Diagnosing performance problems in a production Ruby on Rails application can be deceptively complex. When constructing a new application or expanding the features of an existing one, development environments that are not subject to typical production web traffic may not make performance issues…",
+      "author": null,
+      "publishedAt": "2016-04-17T12:00:00.000Z"
+    },
+    {
+      "guid": "jake-yesbeck::https://jakeyesbeck.com/2016/04/10/things-to-consider-when-metaprogramming-in-ruby/",
+      "title": "Things to Consider when Metaprogramming in Ruby",
+      "link": "https://jakeyesbeck.com/2016/04/10/things-to-consider-when-metaprogramming-in-ruby/",
+      "summary": "Metaprogramming in Ruby is a polarizing topic. The most common purpose of Ruby metaprogramming is for code to alter itself at runtime. Metaprogramming can be used to achieve terse and more flexible code. However, it is not without its cost. As with most things, nothing of value is free, even…",
+      "author": null,
+      "publishedAt": "2016-04-10T12:00:00.000Z"
+    },
+    {
+      "guid": "jake-yesbeck::https://jakeyesbeck.com/2016/04/03/how-to-deal-with-timezones-the-active-support-way/",
+      "title": "How to Deal with Timezones the Active Support Way",
+      "link": "https://jakeyesbeck.com/2016/04/03/how-to-deal-with-timezones-the-active-support-way/",
+      "summary": "“Well the code is bad because we had to…” is a phrase one might hear when discussing timezone offsets or daylight savings time considerations.\nUnless a developer is fortunate enough to work at a company whose userbase is entirely located in the UTC timezone, writing software aware of different…",
+      "author": null,
+      "publishedAt": "2016-04-03T12:00:00.000Z"
+    },
+    {
+      "guid": "jake-yesbeck::https://jakeyesbeck.com/2016/03/27/five-more-active-record-features-you-should-be-using/",
+      "title": "Five More Active Record Features You Should Be Using",
+      "link": "https://jakeyesbeck.com/2016/03/27/five-more-active-record-features-you-should-be-using/",
+      "summary": "In a previous post, I illustrated a few helpful ActiveRecord features. The entire API of ActiveRecord cannot possibly be contained within a single or even a handful of digestible posts; but, here are at least five more pieces of that massive API that some might find useful.\nJust like before, the…",
+      "author": null,
+      "publishedAt": "2016-03-27T12:00:00.000Z"
+    },
+    {
+      "guid": "jake-yesbeck::https://jakeyesbeck.com/2016/03/20/how-to-build-a-ruby-on-rails-engine/",
+      "title": "How to Build a Ruby on Rails Engine",
+      "link": "https://jakeyesbeck.com/2016/03/20/how-to-build-a-ruby-on-rails-engine/",
+      "summary": "Ruby on Rails Engines are miniature applications whose purpose is to supplement a larger Ruby on Rails application. If functionality can exist independent from a main application, an Engine can provide a wonderful degree of encapsulation.\nRecently, I created the and “gemified” the Passages Ruby on…",
+      "author": null,
+      "publishedAt": "2016-03-20T12:00:00.000Z"
+    },
+    {
+      "guid": "jake-yesbeck::https://jakeyesbeck.com/2016/03/13/the-power-of-arel/",
+      "title": "The Power of Arel",
+      "link": "https://jakeyesbeck.com/2016/03/13/the-power-of-arel/",
+      "summary": "Many modern web applications have at least a few overlapping responsibilities. One of these responsibilities deals with maintaining state. A common choice for storing this state is by way of a relational database. Ruby on Rails applications assume the presence of a database by default and…",
+      "author": null,
+      "publishedAt": "2016-03-13T12:00:00.000Z"
+    },
+    {
+      "guid": "jake-yesbeck::https://jakeyesbeck.com/2016/03/06/the-real-cost-of-technical-debt/",
+      "title": "The Real Cost of Technical Debt",
+      "link": "https://jakeyesbeck.com/2016/03/06/the-real-cost-of-technical-debt/",
+      "summary": "Writing software is an iterative process. Rarely is software written and then never revisited. When this iteration occurs, a software engineer is presented with multiple options. Usually, a single objectively correct option is present but may not be chosen due to time constraints or other outside…",
+      "author": null,
+      "publishedAt": "2016-03-06T12:00:00.000Z"
+    },
+    {
+      "guid": "jake-yesbeck::https://jakeyesbeck.com/2016/02/28/ruby-spaceship-operator/",
+      "title": "Ruby Spaceship <=> Operator",
+      "link": "https://jakeyesbeck.com/2016/02/28/ruby-spaceship-operator/",
+      "summary": "Adhering to the law of trichotomy, the <=> operator (sometimes called the “Spaceship Operator”) works by comparing two elements and returning a -1, 0, or 1. While the original mathematical criteria applies to only real numbers, many programming languages implement the law of trichotomy as a general…",
+      "author": null,
+      "publishedAt": "2016-02-28T12:00:00.000Z"
+    },
+    {
+      "guid": "jake-yesbeck::https://jakeyesbeck.com/2016/02/21/four-postgresql-tips/",
+      "title": "Four PostgreSQL Tips",
+      "link": "https://jakeyesbeck.com/2016/02/21/four-postgresql-tips/",
+      "summary": "PostgreSQL is an open source object-relational database used to power many production web applications. While many web applications interact with relational databases through Object Relational Mappers (ORM), direct SQL queries via a command line interface or graphical client are still common. When…",
+      "author": null,
+      "publishedAt": "2016-02-21T12:00:00.000Z"
+    },
+    {
+      "guid": "jake-yesbeck::https://jakeyesbeck.com/2016/02/14/ruby-threads-and-active-record-connections/",
+      "title": "Ruby Threads and ActiveRecord Connections",
+      "link": "https://jakeyesbeck.com/2016/02/14/ruby-threads-and-active-record-connections/",
+      "summary": "Processing large data sets is a common problem faced by many production web applications. One solution is to divide the work amongst multiple processes and have each responsible for a single or significantly smaller batch of data. However, this solution is not without its problems. Machine…",
+      "author": null,
+      "publishedAt": "2016-02-14T12:00:00.000Z"
+    },
+    {
+      "guid": "jake-yesbeck::https://jakeyesbeck.com/2016/02/07/how-to-remove-a-column-with-zero-downtime-in-ruby-on-rails/",
+      "title": "How to Remove a Column with Zero Downtime in Ruby on Rails",
+      "link": "https://jakeyesbeck.com/2016/02/07/how-to-remove-a-column-with-zero-downtime-in-ruby-on-rails/",
+      "summary": "For a production Ruby on Rails application, uptime is paramount. Altering the structure of an application’s persistence layer is an operation that competes directly with uptime. Specifically, removing a table column within a relational database causes issues with the ActiveRecord ORM (the default…",
+      "author": null,
+      "publishedAt": "2016-02-07T12:00:00.000Z"
+    },
+    {
+      "guid": "jake-yesbeck::https://jakeyesbeck.com/2016/01/30/nine-months-of-commits/",
+      "title": "Nine Months of Commits",
+      "link": "https://jakeyesbeck.com/2016/01/30/nine-months-of-commits/",
+      "summary": "It is hard to believe that already nine months have passed since the onset of my Year of Commits. In these past nine months, I have experienced a wide range of new aspects of open source development. This has truly been an eye opening experience, with many facets I doubt I would have experienced…",
+      "author": null,
+      "publishedAt": "2016-01-30T12:00:00.000Z"
+    },
+    {
+      "guid": "jake-yesbeck::https://jakeyesbeck.com/2016/01/24/ruby-private-class-methods/",
+      "title": "Ruby Private Class Methods",
+      "link": "https://jakeyesbeck.com/2016/01/24/ruby-private-class-methods/",
+      "summary": "In the Ruby programming language, defined methods come in two variants: instance methods and class methods. Instance methods are available after an object has been initialized, creating an instance. Class methods, on the other hand, are available without creating an instance of the class they are…",
+      "author": null,
+      "publishedAt": "2016-01-24T12:00:00.000Z"
+    },
+    {
+      "guid": "jake-yesbeck::https://jakeyesbeck.com/2016/01/17/contributing-to-open-source-in-7-steps/",
+      "title": "Contributing to Open Source in 7 Steps",
+      "link": "https://jakeyesbeck.com/2016/01/17/contributing-to-open-source-in-7-steps/",
+      "summary": "Making contributions to open source repositories is a great way to give back to the community. Open source software has a rich history and is a crucial component in many successful software applications. Most open source projects are maintained by either one or many developers for free. Since…",
+      "author": null,
+      "publishedAt": "2016-01-17T12:00:00.000Z"
+    },
+    {
+      "guid": "jake-yesbeck::https://jakeyesbeck.com/2016/01/10/how-to-parallelize-ruby-http-requests/",
+      "title": "How To Parallelize Ruby HTTP Requests",
+      "link": "https://jakeyesbeck.com/2016/01/10/how-to-parallelize-ruby-http-requests/",
+      "summary": "It turns out that managing web requests is quite important when doing web development. A web application backed by an external or internal API can issue a lot of requests when rendering a seemingly simple web page. How those requests are made and in what order is very important. With improper…",
+      "author": null,
+      "publishedAt": "2016-01-10T12:00:00.000Z"
+    },
+    {
+      "guid": "jake-yesbeck::https://jakeyesbeck.com/2016/01/03/passages/",
+      "title": "Passages Rails Engine",
+      "link": "https://jakeyesbeck.com/2016/01/03/passages/",
+      "summary": "Routing in the Ruby on Rails world can, at times, be a tad confusing. The official Rails guide is very helpful for the basics; but, as an application grows, it can become hard to remember specific details about every single route.\nExisting Routing Tools\nTo remedy the issue of route complexity, a…",
+      "author": null,
+      "publishedAt": "2016-01-03T12:00:00.000Z"
+    },
+    {
+      "guid": "jake-yesbeck::https://jakeyesbeck.com/2015/12/27/what-i-would-tell-myself-when-i-started-programming/",
+      "title": "Things I Wish I Knew When I Started Programming",
+      "link": "https://jakeyesbeck.com/2015/12/27/what-i-would-tell-myself-when-i-started-programming/",
+      "summary": "If by some magical event I could go back in time to the day before I started my first job as a software engineer, this is what I would say.\nDrive Slow\nI mentioned a similar message in a previous post and I believe it is worth repeating. When starting a new job or a new career, it is easy to place…",
+      "author": null,
+      "publishedAt": "2015-12-27T12:00:00.000Z"
+    },
+    {
+      "guid": "jake-yesbeck::https://jakeyesbeck.com/2015/12/20/rails-5-attributes/",
+      "title": "Introduction to Rails 5 Attributes",
+      "link": "https://jakeyesbeck.com/2015/12/20/rails-5-attributes/",
+      "summary": "Shortly after the tenth anniversary of Ruby on Rails 1.0, Rails 5.0 Beta has been announced. While the main character of this release was without a doubt ActionCable, other really great features have made their debut.\nTypes of Changes\nOne feature that particularly stood out is the introduction of…",
+      "author": null,
+      "publishedAt": "2015-12-20T12:00:00.000Z"
+    },
+    {
+      "guid": "jake-yesbeck::https://jakeyesbeck.com/2015/12/13/ruby-refinements/",
+      "title": "Ruby Refinements",
+      "link": "https://jakeyesbeck.com/2015/12/13/ruby-refinements/",
+      "summary": "The Ruby language provides many powerful tools for software engineers to utilize. For instance, classes that have been previously defined and evaluated can be reopened and changed. This is commonly referred to as “monkey patching”, a term which elicits almost universal disdain among Ruby…",
+      "author": null,
+      "publishedAt": "2015-12-13T12:00:00.000Z"
+    },
+    {
+      "guid": "jake-yesbeck::https://jakeyesbeck.com/2015/12/06/how-to-use-rails-strong-parameters/",
+      "title": "How to use Rails Strong Parameters",
+      "link": "https://jakeyesbeck.com/2015/12/06/how-to-use-rails-strong-parameters/",
+      "summary": "In the latest major version of Ruby on Rails, Strong Parameters were introduced. The intent of this addition was to enable consistent and reliable parameter checking. Using Strong Parameters is simple and intuitive. It provides a very clean method API to help keep controllers DRY.\nHowever, knowing…",
+      "author": null,
+      "publishedAt": "2015-12-06T12:00:00.000Z"
+    },
+    {
+      "guid": "jake-yesbeck::https://jakeyesbeck.com/2015/11/29/updated-validates-type/",
+      "title": "Validates Type 2.0",
+      "link": "https://jakeyesbeck.com/2015/11/29/updated-validates-type/",
+      "summary": "One of the first projects that I worked on during this Year of Commits was validates_type. In case that name is too obscure, validates_type is a gem for validating that a specific value is exactly the type it is expected to be. The validates_type library is compatible to ActiveModel style…",
+      "author": null,
+      "publishedAt": "2015-11-29T12:00:00.000Z"
+    },
+    {
+      "guid": "jake-yesbeck::https://jakeyesbeck.com/2015/11/22/how-to-write-futureproof-mocks/",
+      "title": "How to Write Future-proof Mocks in RSpec 3",
+      "link": "https://jakeyesbeck.com/2015/11/22/how-to-write-futureproof-mocks/",
+      "summary": "Tests are an important component in most software applications. Whether tests drive the development, or are strapped on after the fact, tests need to be reliable for future development to progress. An application’s complexity rises with time. During and after this increase, a rock solid test suite…",
+      "author": null,
+      "publishedAt": "2015-11-22T12:00:00.000Z"
+    },
+    {
+      "guid": "jake-yesbeck::https://jakeyesbeck.com/2015/11/15/five-active-record-features-you-should-be-using/",
+      "title": "Five Active Record Features You Should Be Using",
+      "link": "https://jakeyesbeck.com/2015/11/15/five-active-record-features-you-should-be-using/",
+      "summary": "Active Record is responsible for communicating with the persistence layer by default in Ruby on Rails applications. Using Active Record effectively and efficiently can greatly improve an application’s code.\nIn Ruby on Rails 4.0, some material changes have been made to Active Record. Understanding…",
+      "author": null,
+      "publishedAt": "2015-11-15T12:00:00.000Z"
+    },
+    {
+      "guid": "jake-yesbeck::https://jakeyesbeck.com/2015/11/08/ruby-delegate-class/",
+      "title": "Ruby DelegateClass",
+      "link": "https://jakeyesbeck.com/2015/11/08/ruby-delegate-class/",
+      "summary": "Objects are a big deal in Ruby. A previous post about Ruby Objects can corroborate: Ruby Objects are pretty cool.\nThere are many ways to work with Ruby Objects. Standard inheritance, module inheritance, decorators, and composition are all commonly found in a codebase. One class in particular seems…",
+      "author": null,
+      "publishedAt": "2015-11-08T12:00:00.000Z"
+    },
+    {
+      "guid": "jake-yesbeck::https://jakeyesbeck.com/2015/11/01/six-months-of-commits/",
+      "title": "Six Months of Commits",
+      "link": "https://jakeyesbeck.com/2015/11/01/six-months-of-commits/",
+      "summary": "Six months ago I started a challenge for myself. I wanted to contribute to open source software, a task that I had previously thought out of reach and intimidating. A plan that I had devised to overcome this mindset was to achieve consistency. For a full year, I made a commitment to make at least…",
+      "author": null,
+      "publishedAt": "2015-11-01T12:00:00.000Z"
+    },
+    {
+      "guid": "jake-yesbeck::https://jakeyesbeck.com/2015/10/25/how-to-traverse-foreign-ruby-code/",
+      "title": "How to Traverse Foreign Ruby Code",
+      "link": "https://jakeyesbeck.com/2015/10/25/how-to-traverse-foreign-ruby-code/",
+      "summary": "A Ruby on Rails project will most likely contain large amounts of third party software. Software written by other people can fluctuate greatly in terms of documentation. Even very well documented software might have pieces that are more shrouded than others.\nWhen these opaque pieces of code start…",
+      "author": null,
+      "publishedAt": "2015-10-25T12:00:00.000Z"
+    },
+    {
+      "guid": "jake-yesbeck::https://jakeyesbeck.com/2015/10/18/building-a-simple-web-server-with-ruby-2-part-2/",
+      "title": "Building a Simple Web Server with Ruby 2.0+ (Part 2)",
+      "link": "https://jakeyesbeck.com/2015/10/18/building-a-simple-web-server-with-ruby-2-part-2/",
+      "summary": "In a previous post, a very simple Ruby server was created to listen to HTTP requests. While great for a first step, this example server does nothing more than respond with “Hello World”. Greetings are nice and polite, but I think we can do better.\nPro-filing\nA reasonable feature for this simple…",
+      "author": null,
+      "publishedAt": "2015-10-18T12:00:00.000Z"
+    },
+    {
+      "guid": "jake-yesbeck::https://jakeyesbeck.com/2015/10/11/building-a-simple-web-server-with-ruby-2/",
+      "title": "Building a Simple Web Server with Ruby 2.0+",
+      "link": "https://jakeyesbeck.com/2015/10/11/building-a-simple-web-server-with-ruby-2/",
+      "summary": "The Ruby language can be utilized for a variety of different purposes. The most popular of these is as a web scripting language. The entry point to these applications, the web server, is not something that is usually built from the ground up. Most applications have the lines gem 'puma' or gem…",
+      "author": null,
+      "publishedAt": "2015-10-11T12:00:00.000Z"
+    },
+    {
+      "guid": "jake-yesbeck::https://jakeyesbeck.com/2015/10/04/someone-wrote-that-code-on-purpose/",
+      "title": "Someone Wrote that Code on Purpose",
+      "link": "https://jakeyesbeck.com/2015/10/04/someone-wrote-that-code-on-purpose/",
+      "summary": "One of the great misconceptions of software engineering is the belief that “any code written in the past is probably wrong”. For some reason, an accepted mindset (usually among junior developers) is that older code was written with haste or by someone who did not fully understand the problem at…",
+      "author": null,
+      "publishedAt": "2015-10-04T12:00:00.000Z"
+    },
+    {
+      "guid": "jake-yesbeck::https://jakeyesbeck.com/2015/09/27/how-to-create-a-custom-enumerable/",
+      "title": "How to Create a Custom Enumerable",
+      "link": "https://jakeyesbeck.com/2015/09/27/how-to-create-a-custom-enumerable/",
+      "summary": "Ruby is a wonderfully flexible language. An example of this flexibility is in the ability to define a custom collection class that acts as an Enumerable object. In Ruby, a collection that acts as an Enumerable is basically a class which holds a list of objects and exposes helpful methods for…",
+      "author": null,
+      "publishedAt": "2015-09-27T12:00:00.000Z"
+    },
+    {
+      "guid": "jake-yesbeck::https://jakeyesbeck.com/2015/09/20/rails-http-status-codes/",
+      "title": "Just learn Rails (Part 3) HTTP status codes",
+      "link": "https://jakeyesbeck.com/2015/09/20/rails-http-status-codes/",
+      "summary": "So you want to be a Rails superstar? To live large, big servers, requesting tars. Writing code all over the world, gotta make commits constantly. Great, I feel the same way.\nAssuming you have already had that “I should just learn Rails” moment, the idea of writing an API for a super awesome…",
+      "author": null,
+      "publishedAt": "2015-09-20T12:00:00.000Z"
+    },
+    {
+      "guid": "jake-yesbeck::https://jakeyesbeck.com/2015/09/13/rescue-groups/",
+      "title": "Rescue Groups Ruby Wrapper",
+      "link": "https://jakeyesbeck.com/2015/09/13/rescue-groups/",
+      "summary": "People need companions. We are a social species that enjoys surrounding itself with family and friends. But sometimes, and maybe more often than just sometimes, people crave companionship from something that cannot talk back. This is probably one of the reasons so many people like pets. A pet…",
+      "author": null,
+      "publishedAt": "2015-09-13T12:00:00.000Z"
+    },
+    {
+      "guid": "jake-yesbeck::https://jakeyesbeck.com/2015/09/06/stop-and-take-a-moment/",
+      "title": "Stop and Take a Moment",
+      "link": "https://jakeyesbeck.com/2015/09/06/stop-and-take-a-moment/",
+      "summary": "Someone in all our lives has offered up the advice: “Slow down”. It might have happened once or, if we are lucky, many people have said it. Regardless, the words did not sink in. At least not at first. And even to this day, maybe the words are yet to truly be absorbed and understood. But those…",
+      "author": null,
+      "publishedAt": "2015-09-06T12:00:00.000Z"
+    },
+    {
+      "guid": "jake-yesbeck::https://jakeyesbeck.com/2015/08/30/active-support-and-time/",
+      "title": "Active Support and Time",
+      "link": "https://jakeyesbeck.com/2015/08/30/active-support-and-time/",
+      "summary": "If a list was compiled of useful Ruby libraries, Active Support would be close to the top. Based on the documentation alone, it is apparent that a very large amount of time went into thinking about the roles Active Support should play and the functionality it should support. From string…",
+      "author": null,
+      "publishedAt": "2015-08-30T12:00:00.000Z"
+    },
+    {
+      "guid": "jake-yesbeck::https://jakeyesbeck.com/2015/08/23/ruby-objects/",
+      "title": "I, Object!",
+      "link": "https://jakeyesbeck.com/2015/08/23/ruby-objects/",
+      "summary": "I am lucky enough to work with wonderfully talented people every single day. This is a guest post by one of my magnificent coworkers, Kristján Pétursson. Thank you for allowing me to share this knowledge with everyone!\nThis post is adapted from my answer to this Stack Overflow question. If you want…",
+      "author": null,
+      "publishedAt": "2015-08-23T12:00:00.000Z"
+    },
+    {
+      "guid": "jake-yesbeck::https://jakeyesbeck.com/2015/08/16/gems-are-not-magic/",
+      "title": "Gems != Magic",
+      "link": "https://jakeyesbeck.com/2015/08/16/gems-are-not-magic/",
+      "summary": "Ruby gems can seem magical. Usually, one (or more accurately: thirty) solution to a problem exists in the form of a gem. Using gems is easy and intuitive. Simply add a line in the project root’s Gemfile and run bundle install. Then, either require the name of the gem or, if using Ruby on Rails,…",
+      "author": null,
+      "publishedAt": "2015-08-16T12:00:00.000Z"
+    },
+    {
+      "guid": "jake-yesbeck::https://jakeyesbeck.com/2015/08/09/how-to-process-large-data-sets-with-ruby/",
+      "title": "How to Process Large Data Sets with Ruby",
+      "link": "https://jakeyesbeck.com/2015/08/09/how-to-process-large-data-sets-with-ruby/",
+      "summary": "The need for data migrations in mature systems is real. At times, requests for these migrations can appear at random. One minute, a system is behaving as specified, happily fulfilling requests, and then bam! All the user objects suddenly need an extremely crucial attribute. Well that seems…",
+      "author": null,
+      "publishedAt": "2015-08-09T12:00:00.000Z"
+    },
+    {
+      "guid": "jake-yesbeck::https://jakeyesbeck.com/2015/08/02/test-only-what-matters/",
+      "title": "Faster Ruby Testing: Only Test What Matters",
+      "link": "https://jakeyesbeck.com/2015/08/02/test-only-what-matters/",
+      "summary": "Automated testing is important. Fast, exhaustive automated testing is even more important. Tests are responsible for ensuring the code you spend hours creating actually works. A great test suite can be a safeguard against bugs, a directional guide towards extending the code, and an accurate…",
+      "author": null,
+      "publishedAt": "2015-08-02T12:00:00.000Z"
+    },
+    {
+      "guid": "jake-yesbeck::https://jakeyesbeck.com/2015/07/26/ninety-days-of-commits/",
+      "title": "Ninety Days of Commits",
+      "link": "https://jakeyesbeck.com/2015/07/26/ninety-days-of-commits/",
+      "summary": "It has been ninety days since I started the Year of Commits initiative. The criteria behind this challenge was to make a commit to a public Github repository every day. Technically, a commit like the following satisfies that criteria:\n\nHowever, if I allowed this commit to be my sole contribution…",
+      "author": null,
+      "publishedAt": "2015-07-26T12:00:00.000Z"
+    },
+    {
+      "guid": "jake-yesbeck::https://jakeyesbeck.com/2015/07/19/just-learn-rails-part-2/",
+      "title": "Just learn Rails (Part 2)",
+      "link": "https://jakeyesbeck.com/2015/07/19/just-learn-rails-part-2/",
+      "summary": "In a previous post I explained how “just learning Rails” is not as straight forward as the phrase portrays. Even the novice programmer who learns Ruby on Rails in a methodical progression may still run into hardship. However, this is not entirely the fault of young programmer, he or she was simply…",
+      "author": null,
+      "publishedAt": "2015-07-19T12:00:00.000Z"
+    },
+    {
+      "guid": "jake-yesbeck::https://jakeyesbeck.com/2015/07/12/create-a-free-tech-blog/",
+      "title": "Create a Free Tech Blog",
+      "link": "https://jakeyesbeck.com/2015/07/12/create-a-free-tech-blog/",
+      "summary": "The Internet is wondrous technology. If anyone remembers Geocities and Personal Home Pages, you can appreciate just how much the Internet has evolved. This evolution has recently enabled creating a tech blog completely for free. When I say free, do I mean completely free? Yes, completely free! Even…",
+      "author": null,
+      "publishedAt": "2015-07-12T12:00:00.000Z"
+    },
+    {
+      "guid": "jake-yesbeck::https://jakeyesbeck.com/2015/07/05/composition-in-ruby/",
+      "title": "Modules in Ruby",
+      "link": "https://jakeyesbeck.com/2015/07/05/composition-in-ruby/",
+      "summary": "Currently, one hundred percent of Year of Commits’ commits have been to Ruby repositories. Ruby has many strengths and is a very malleable language. Ruby can be written functionally or object oriented. I tend to lean toward the latter and find myself using a few different patterns regularly. One…",
+      "author": null,
+      "publishedAt": "2015-07-05T12:00:00.000Z"
+    },
+    {
+      "guid": "jake-yesbeck::https://jakeyesbeck.com/2015/06/28/staying-motivated/",
+      "title": "Staying Motivated",
+      "link": "https://jakeyesbeck.com/2015/06/28/staying-motivated/",
+      "summary": "Motivation is the most important thing you can control. Only with proper motivation can one reach their full potential. A Year of Commits is a project that requires a decent amount of motivation. I, like nearly every human ever, am not always the defintion of a “driven individual”. It takes a large…",
+      "author": null,
+      "publishedAt": "2015-06-28T12:00:00.000Z"
+    },
+    {
+      "guid": "jake-yesbeck::https://jakeyesbeck.com/2015/06/21/validates-subset/",
+      "title": "Rails style subset validation",
+      "link": "https://jakeyesbeck.com/2015/06/21/validates-subset/",
+      "summary": "Do you suddenly wake up in a cold sweat, wondering if there is finally a way to validate that your data is a proper subset that you desire? I too have experienced this horror, and that is why I made a rails style subset validator.\nValidations über alles\nData validation is important. Having data you…",
+      "author": null,
+      "publishedAt": "2015-06-21T12:00:00.000Z"
+    }
+  ],
+  "totalIndexed": 50
+}

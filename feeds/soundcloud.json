@@ -1,0 +1,413 @@
+{
+  "feedId": "soundcloud",
+  "feedName": "Soundcloud",
+  "feedSiteUrl": "https://developers.soundcloud.com/blog/",
+  "feedRssUrl": "https://developers.soundcloud.com/blog/blog.rss",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T07:09:27.855Z",
+  "items": [
+    {
+      "guid": "https://developers.soundcloud.com/blog/less-is-more-why-soundcloud-low-passes-its-aac-transcodings",
+      "title": "Less Is More: Why Audio on SoundCloud Looks Different",
+      "link": "https://developers.soundcloud.com/blog/less-is-more-why-soundcloud-low-passes-its-aac-transcodings",
+      "summary": "Last year, SoundCloud upgraded its AAC encoder for the first time in over a decade. The new one (Fraunhofer’s libfdk_aac) delivers higher…",
+      "author": null,
+      "publishedAt": "2026-06-18T00:00:00.000Z"
+    },
+    {
+      "guid": "https://developers.soundcloud.com/blog/api-credentials-cli-openapi-github",
+      "title": "API Credentials from Your Terminal, and OpenAPI on GitHub",
+      "link": "https://developers.soundcloud.com/blog/api-credentials-cli-openapi-github",
+      "summary": "In May we opened self-service app registration for Artist Pro subscribers. That fixed the browser flow. Two requests kept coming up anyway…",
+      "author": null,
+      "publishedAt": "2026-06-16T00:00:00.000Z"
+    },
+    {
+      "guid": "https://developers.soundcloud.com/blog/vibe-coding-ai-agent-docs-self-serve-api-keys",
+      "title": "Vibe Coding with SoundCloud: Announcing New Docs for your Agents",
+      "link": "https://developers.soundcloud.com/blog/vibe-coding-ai-agent-docs-self-serve-api-keys",
+      "summary": "Have you ever had a brilliant idea for a music app, a custom playlist curator, or a unique way to discover underground tracks on SoundCloud…",
+      "author": null,
+      "publishedAt": "2026-05-18T00:00:00.000Z"
+    },
+    {
+      "guid": "https://developers.soundcloud.com/blog/api-streaming-urls",
+      "title": "Moving to Modern Streaming: Introducing AAC HLS on SoundCloud APIs [Deadline Extended]",
+      "link": "https://developers.soundcloud.com/blog/api-streaming-urls",
+      "summary": "At SoundCloud, we’re always looking for ways to improve the listening experience for our creators, partners, and listeners. One of the…",
+      "author": null,
+      "publishedAt": "2025-09-15T00:00:00.000Z"
+    },
+    {
+      "guid": "https://developers.soundcloud.com/blog/urn-num-to-string",
+      "title": "📣 Action required: Upcoming Update to SoundCloud API id fields",
+      "link": "https://developers.soundcloud.com/blog/urn-num-to-string",
+      "summary": "To all developers using SoundCloud’s public API — we’re introducing an important change that will affect how you reference resources like…",
+      "author": null,
+      "publishedAt": "2025-04-29T00:00:00.000Z"
+    },
+    {
+      "guid": "https://developers.soundcloud.com/blog/api-artist-metadata",
+      "title": "New artist name field on our API",
+      "link": "https://developers.soundcloud.com/blog/api-artist-metadata",
+      "summary": "A while ago we made an improvement to how track and artist information is displayed on SoundCloud, making it clearer and easier to…",
+      "author": null,
+      "publishedAt": "2025-04-03T00:00:00.000Z"
+    },
+    {
+      "guid": "https://developers.soundcloud.com/blog/access-token-changes",
+      "title": "Upcoming changes to SoundCloud Access Tokens",
+      "link": "https://developers.soundcloud.com/blog/access-token-changes",
+      "summary": "tl;dr: If your app doesn’t store SoundCloud access tokens outside of the context of a user’s client (i.e. a database) the following should…",
+      "author": null,
+      "publishedAt": "2024-12-02T00:00:00.000Z"
+    },
+    {
+      "guid": "https://developers.soundcloud.com/blog/oauth-migration",
+      "title": "Migration to Oauth 2.1",
+      "link": "https://developers.soundcloud.com/blog/oauth-migration",
+      "summary": "Earlier this year, we updated our API Guide to let developers know that SoundCloud authentication is now operating on the OAuth 2.1 protocol…",
+      "author": null,
+      "publishedAt": "2024-04-23T00:00:00.000Z"
+    },
+    {
+      "guid": "https://developers.soundcloud.com/blog/soundcloud-android-large-screen",
+      "title": "Android Large Screen Optimization",
+      "link": "https://developers.soundcloud.com/blog/soundcloud-android-large-screen",
+      "summary": "Large Screen Devices - The New Frontier SoundCloud large screen optimized Recently, the Android team at SoundCloud took on a project to…",
+      "author": null,
+      "publishedAt": "2023-07-31T00:00:00.000Z"
+    },
+    {
+      "guid": "https://developers.soundcloud.com/blog/an-empty-blogpost",
+      "title": "An update on our API: Changes to access for inactive apps",
+      "link": "https://developers.soundcloud.com/blog/an-empty-blogpost",
+      "summary": "We’re working on improving our API offering. In order to do that, a few changes are coming: We need to revoke access for some of you with…",
+      "author": null,
+      "publishedAt": "2023-06-02T00:00:00.000Z"
+    },
+    {
+      "guid": "https://developers.soundcloud.com/blog/sre-trainee",
+      "title": "What I Learned in One Year as an SRE Trainee",
+      "link": "https://developers.soundcloud.com/blog/sre-trainee",
+      "summary": "I recently celebrated my one year anniversary as a Site Reliability Engineering (SRE) trainee at SoundCloud. Looking back, I had very little…",
+      "author": null,
+      "publishedAt": "2023-01-06T00:00:00.000Z"
+    },
+    {
+      "guid": "https://developers.soundcloud.com/blog/new-with-soundcloud-november-22",
+      "title": "What's New with SoundCloud, November 2022",
+      "link": "https://developers.soundcloud.com/blog/new-with-soundcloud-november-22",
+      "summary": "We recently made updates to our SoundCloud iOS and Android apps to address key user experience (UX) fixes according to user feedback. We’ll…",
+      "author": null,
+      "publishedAt": "2022-11-11T00:00:00.000Z"
+    },
+    {
+      "guid": "https://developers.soundcloud.com/blog/bar-raiser",
+      "title": "Bar Raiser Interview",
+      "link": "https://developers.soundcloud.com/blog/bar-raiser",
+      "summary": "In an earlier blog post, we talked about how we changed the interview process during remote working as a way of improving our recruiting…",
+      "author": null,
+      "publishedAt": "2022-10-25T00:00:00.000Z"
+    },
+    {
+      "guid": "https://developers.soundcloud.com/blog/new-with-soundcloud-october-22",
+      "title": "What's New with SoundCloud, October 2022",
+      "link": "https://developers.soundcloud.com/blog/new-with-soundcloud-october-22",
+      "summary": "We recently made updates to our SoundCloud iOS and Android apps to address key user experience (UX) fixes according to user feedback. We’ll…",
+      "author": null,
+      "publishedAt": "2022-10-17T00:00:00.000Z"
+    },
+    {
+      "guid": "https://developers.soundcloud.com/blog/android-images-at-soundcloud",
+      "title": "Android Image Loading at SoundCloud",
+      "link": "https://developers.soundcloud.com/blog/android-images-at-soundcloud",
+      "summary": "The SoundCloud Android app recently got a significant makeover: a “new year, new me” type of thing. Our remarkable design team and…",
+      "author": null,
+      "publishedAt": "2022-10-13T00:00:00.000Z"
+    },
+    {
+      "guid": "https://developers.soundcloud.com/blog/soundcloud-echo-next-level-backstage",
+      "title": "SoundCloud Echo: Next-Level Humane Registry with Backstage",
+      "link": "https://developers.soundcloud.com/blog/soundcloud-echo-next-level-backstage",
+      "summary": "We’ve seen considerable adoption of our internal humane registry, Services Directory, since we sanitized ownership definition and introduced…",
+      "author": null,
+      "publishedAt": "2022-09-19T00:00:00.000Z"
+    },
+    {
+      "guid": "https://developers.soundcloud.com/blog/wine-workshop",
+      "title": "WINE Workshop",
+      "link": "https://developers.soundcloud.com/blog/wine-workshop",
+      "summary": "SoundCloud has a variety of resource groups, and one such group is called Women in Engineering, or WINE. The mission statement of the group…",
+      "author": null,
+      "publishedAt": "2022-08-02T00:00:00.000Z"
+    },
+    {
+      "guid": "https://developers.soundcloud.com/blog/pr-templates-for-effective-pull-requests",
+      "title": "PR Templates for Effective Pull Requests",
+      "link": "https://developers.soundcloud.com/blog/pr-templates-for-effective-pull-requests",
+      "summary": "The first step to any code review is understanding what the code does and why. Although the author is by far the most qualified person to…",
+      "author": null,
+      "publishedAt": "2022-07-12T00:00:00.000Z"
+    },
+    {
+      "guid": "https://developers.soundcloud.com/blog/learning-scala-at-soundcloud",
+      "title": "Learning Scala at SoundCloud",
+      "link": "https://developers.soundcloud.com/blog/learning-scala-at-soundcloud",
+      "summary": "I’m a backend developer who worked extensively writing code in Golang before joining SoundCloud. SoundCloud mostly uses Scala for its…",
+      "author": null,
+      "publishedAt": "2022-04-19T00:00:00.000Z"
+    },
+    {
+      "guid": "https://developers.soundcloud.com/blog/end-of-the-strangler",
+      "title": "The End of the Public API Strangler",
+      "link": "https://developers.soundcloud.com/blog/end-of-the-strangler",
+      "summary": "This is the story of how we used the Strangler pattern to migrate our public API from a monolithic codebase to a fully fledged BFF over the…",
+      "author": null,
+      "publishedAt": "2022-03-14T00:00:00.000Z"
+    },
+    {
+      "guid": "https://developers.soundcloud.com/blog/periskop-in-2022",
+      "title": "What Is New with Periskop in 2022",
+      "link": "https://developers.soundcloud.com/blog/periskop-in-2022",
+      "summary": "In a previous blog post, we explained how we built an internal pull-based exception monitoring service called Periskop — which is heavily…",
+      "author": null,
+      "publishedAt": "2022-02-01T00:00:00.000Z"
+    },
+    {
+      "guid": "https://developers.soundcloud.com/blog/obvious-ownership-humane-registry",
+      "title": "Obvious Ownership: A Sensible Humane Registry",
+      "link": "https://developers.soundcloud.com/blog/obvious-ownership-humane-registry",
+      "summary": "Imagine yourself as an engineer who just joined SoundCloud. Besides meeting your colleagues and getting your new laptop, badge, and that…",
+      "author": null,
+      "publishedAt": "2022-01-06T00:00:00.000Z"
+    },
+    {
+      "guid": "https://developers.soundcloud.com/blog/tiny-letter-from-kafka",
+      "title": "Tiny Letter from Kafka",
+      "link": "https://developers.soundcloud.com/blog/tiny-letter-from-kafka",
+      "summary": "This article discusses the powerful design choice of Apache Kafka, “an open-source distributed event streaming platform,” and gives a sneak…",
+      "author": null,
+      "publishedAt": "2021-10-13T00:00:00.000Z"
+    },
+    {
+      "guid": "https://developers.soundcloud.com/blog/service-architecture-3",
+      "title": "Service Architecture at SoundCloud — Part 3: Domain Gateways",
+      "link": "https://developers.soundcloud.com/blog/service-architecture-3",
+      "summary": "This article is the last part in a series of posts aiming to cast some light onto how service architecture has evolved at SoundCloud over…",
+      "author": null,
+      "publishedAt": "2021-09-17T00:00:00.000Z"
+    },
+    {
+      "guid": "https://developers.soundcloud.com/blog/service-architecture-2",
+      "title": "Service Architecture at SoundCloud — Part 2: Value-Added Services",
+      "link": "https://developers.soundcloud.com/blog/service-architecture-2",
+      "summary": "This article is part of a series of posts aiming to cast some light onto how service architecture has evolved at SoundCloud over the past…",
+      "author": null,
+      "publishedAt": "2021-08-20T00:00:00.000Z"
+    },
+    {
+      "guid": "https://developers.soundcloud.com/blog/service-architecture-1",
+      "title": "Service Architecture at SoundCloud — Part 1: Backends for Frontends",
+      "link": "https://developers.soundcloud.com/blog/service-architecture-1",
+      "summary": "This article is part of a series of posts aiming to cast some light onto how service architecture has evolved at SoundCloud over the past…",
+      "author": null,
+      "publishedAt": "2021-07-29T00:00:00.000Z"
+    },
+    {
+      "guid": "https://developers.soundcloud.com/blog/how-we-share-knowledge-as-a-web-collective",
+      "title": "How We Share Knowledge as a Web Collective",
+      "link": "https://developers.soundcloud.com/blog/how-we-share-knowledge-as-a-web-collective",
+      "summary": "There’s no single platform team that consists of only web engineers at SoundCloud, even though we consider ourselves to be part of the “Web…",
+      "author": null,
+      "publishedAt": "2021-07-14T00:00:00.000Z"
+    },
+    {
+      "guid": "https://developers.soundcloud.com/blog/security-updates-api",
+      "title": "Upcoming API Security Updates — Action Required",
+      "link": "https://developers.soundcloud.com/blog/security-updates-api",
+      "summary": "As part of our continuous effort toward making improvements to our API with the hope that we can relaunch API access to all developers, we…",
+      "author": null,
+      "publishedAt": "2021-07-01T00:00:00.000Z"
+    },
+    {
+      "guid": "https://developers.soundcloud.com/blog/did-i-break-you",
+      "title": "Did I Break You? Reverse Dependency Verification",
+      "link": "https://developers.soundcloud.com/blog/did-i-break-you",
+      "summary": "SoundCloud was founded 13 years ago, and throughout its history, the company and much of its tech stack has changed. We started with a…",
+      "author": null,
+      "publishedAt": "2021-05-25T00:00:00.000Z"
+    },
+    {
+      "guid": "https://developers.soundcloud.com/blog/high-tier-content-in-the-soundcloud-api",
+      "title": "High-Tier Content in the SoundCloud API",
+      "link": "https://developers.soundcloud.com/blog/high-tier-content-in-the-soundcloud-api",
+      "summary": "You can now retrieve metadata for our full SoundCloud catalog through our API by providing the new  filter in your request. Until recently…",
+      "author": null,
+      "publishedAt": "2021-05-06T00:00:00.000Z"
+    },
+    {
+      "guid": "https://developers.soundcloud.com/blog/the-journey-of-corpus",
+      "title": "The Journey of Corpus",
+      "link": "https://developers.soundcloud.com/blog/the-journey-of-corpus",
+      "summary": "It seems like a simple enough concept: You take data from how your users interact with your product, and you use it to make business and…",
+      "author": null,
+      "publishedAt": "2021-04-29T00:00:00.000Z"
+    },
+    {
+      "guid": "https://developers.soundcloud.com/blog/how-to-successfully-hand-over-systems",
+      "title": "How to Successfully Hand Over Systems",
+      "link": "https://developers.soundcloud.com/blog/how-to-successfully-hand-over-systems",
+      "summary": "In a product company, changes are inevitable so as to best support the strategy and the vision. Often during such a change, new teams are…",
+      "author": null,
+      "publishedAt": "2021-04-20T00:00:00.000Z"
+    },
+    {
+      "guid": "https://developers.soundcloud.com/blog/soundclouds-new-api-track-object",
+      "title": "SoundCloud’s New API Track Object",
+      "link": "https://developers.soundcloud.com/blog/soundclouds-new-api-track-object",
+      "summary": "As a part of our efforts to improve API use, we’re introducing a new  object that’s more up to date with our current data model. The…",
+      "author": null,
+      "publishedAt": "2021-03-16T00:00:00.000Z"
+    },
+    {
+      "guid": "https://developers.soundcloud.com/blog/building-a-healthy-on-call-culture",
+      "title": "Building a Healthy On-Call Culture",
+      "link": "https://developers.soundcloud.com/blog/building-a-healthy-on-call-culture",
+      "summary": "Paging Doctor Software In the past, on-call duty was often associated with doctors, but in recent years, it’s become common for software…",
+      "author": null,
+      "publishedAt": "2021-03-11T00:00:00.000Z"
+    },
+    {
+      "guid": "https://developers.soundcloud.com/blog/dependency-inversion-as-a-driver-to-scale-mobile-development",
+      "title": "Dependency Inversion as a Driver to Scale Mobile Development",
+      "link": "https://developers.soundcloud.com/blog/dependency-inversion-as-a-driver-to-scale-mobile-development",
+      "summary": "SoundCloud’s iOS codebase faced a radical change a couple of years ago. The team had decided to modularize the codebase into frameworks…",
+      "author": null,
+      "publishedAt": "2021-02-24T00:00:00.000Z"
+    },
+    {
+      "guid": "https://developers.soundcloud.com/blog/tests-under-the-magnifying-lens",
+      "title": "Tests Under the Magnifying Lens",
+      "link": "https://developers.soundcloud.com/blog/tests-under-the-magnifying-lens",
+      "summary": "Testing is at the heart of engineering practices at SoundCloud. We strive to build well-balanced test pyramids within our code repositories…",
+      "author": null,
+      "publishedAt": "2021-02-02T00:00:00.000Z"
+    },
+    {
+      "guid": "https://developers.soundcloud.com/blog/manager-weekly-newsletter-for-team-communication",
+      "title": "Leveraging a Manager Weekly Newsletter for Team Communication",
+      "link": "https://developers.soundcloud.com/blog/manager-weekly-newsletter-for-team-communication",
+      "summary": "I started my journey as an Engineering Manager at SoundCloud close to a year ago. This came after working as a Software Engineer for more…",
+      "author": null,
+      "publishedAt": "2020-11-25T00:00:00.000Z"
+    },
+    {
+      "guid": "https://developers.soundcloud.com/blog/testing-sql-for-bigquery",
+      "title": "Testing SQL for BigQuery",
+      "link": "https://developers.soundcloud.com/blog/testing-sql-for-bigquery",
+      "summary": "“To me, legacy code is simply code without tests.” — Michael Feathers If untested code is legacy code, why aren’t we testing data pipelines or ETLs (extract, transform, load)? In particular, data pipelines built in SQL are rarely tested. However, as software engineers, we know all our code should…",
+      "author": null,
+      "publishedAt": "2020-10-16T00:00:00.000Z"
+    },
+    {
+      "guid": "https://developers.soundcloud.com/blog/pagination-updates-on-our-api",
+      "title": "Pagination Updates on Our API",
+      "link": "https://developers.soundcloud.com/blog/pagination-updates-on-our-api",
+      "summary": "As part of our efforts to improve our APIs, we’re introducing updates on how we paginate over tracks. This only affects developers and apps…",
+      "author": null,
+      "publishedAt": "2020-09-21T00:00:00.000Z"
+    },
+    {
+      "guid": "https://developers.soundcloud.com/blog/breaking-loose-from-third-party-lock-in-with-custom-refactoring-tools",
+      "title": "Breaking Loose from Third-Party Lock-In with Custom Refactoring Tools",
+      "link": "https://developers.soundcloud.com/blog/breaking-loose-from-third-party-lock-in-with-custom-refactoring-tools",
+      "summary": "Code refactoring is an essential part of the job of software developers. As time goes on, technology evolves, product requirements change…",
+      "author": null,
+      "publishedAt": "2020-08-11T00:00:00.000Z"
+    },
+    {
+      "guid": "https://developers.soundcloud.com/blog/developerbridge-training-program",
+      "title": "DeveloperBridge: SoundCloud’s Program for Training People from Diverse Backgrounds to Become Engineers",
+      "link": "https://developers.soundcloud.com/blog/developerbridge-training-program",
+      "summary": "DeveloperBridge is a year-long, full-time, paid traineeship program where participants learn from and work with engineering teams at…",
+      "author": null,
+      "publishedAt": "2020-07-17T00:00:00.000Z"
+    },
+    {
+      "guid": "https://developers.soundcloud.com/blog/changing-interview-process-during-remote-working",
+      "title": "Changing the Interview Process during Remote Working",
+      "link": "https://developers.soundcloud.com/blog/changing-interview-process-during-remote-working",
+      "summary": "Please also see Part 1: Rethinking the Backend Engineering Interview Take-Home Challenge and Part 2: The Recruiting Perspective and Results…",
+      "author": null,
+      "publishedAt": "2020-06-30T00:00:00.000Z"
+    },
+    {
+      "guid": "https://developers.soundcloud.com/blog/backend-code-challenge-recruiting-perspective-and-results",
+      "title": "Technical Interview Reform, Part 2: The Recruiting Perspective and Results",
+      "link": "https://developers.soundcloud.com/blog/backend-code-challenge-recruiting-perspective-and-results",
+      "summary": "Please also see Part 1: Rethinking the Backend Engineering Interview Take-Home Challenge Among the engineering groups at SoundCloud, backend…",
+      "author": null,
+      "publishedAt": "2020-06-26T00:00:00.000Z"
+    },
+    {
+      "guid": "https://developers.soundcloud.com/blog/rethinking-the-backend-code-challenge",
+      "title": "Technical Interview Reform, Part 1: Rethinking the Backend Engineering Interview Take-Home Challenge",
+      "link": "https://developers.soundcloud.com/blog/rethinking-the-backend-code-challenge",
+      "summary": "Most SoundCloud backend engineers have good feelings about the old backend engineering take-home challenge. It’s commonly been characterized…",
+      "author": null,
+      "publishedAt": "2020-06-25T00:00:00.000Z"
+    },
+    {
+      "guid": "https://developers.soundcloud.com/blog/announcing-twinagle",
+      "title": "Announcing Twinagle: Twirp and Protobuf for Finagle",
+      "link": "https://developers.soundcloud.com/blog/announcing-twinagle",
+      "summary": "A previous post on this blog ended with the following paragraph: “We might also replace JSON with a more efficient serialization protocol…",
+      "author": null,
+      "publishedAt": "2020-06-12T00:00:00.000Z"
+    },
+    {
+      "guid": "https://developers.soundcloud.com/blog/stretch-opportunities-for-engineers",
+      "title": "Stretch Opportunities for Engineers",
+      "link": "https://developers.soundcloud.com/blog/stretch-opportunities-for-engineers",
+      "summary": "Stretch opportunities are tasks or projects that are a bit beyond your current skill or knowledge level and that allow you to improve and…",
+      "author": null,
+      "publishedAt": "2020-05-20T00:00:00.000Z"
+    },
+    {
+      "guid": "https://developers.soundcloud.com/blog/open-sourcing-intervene",
+      "title": "Open Sourcing Intervene",
+      "link": "https://developers.soundcloud.com/blog/open-sourcing-intervene",
+      "summary": "A little while back, the web team at SoundCloud got an urgent report that our upload page looked weird in the US. Web engineering is based…",
+      "author": null,
+      "publishedAt": "2020-05-05T00:00:00.000Z"
+    },
+    {
+      "guid": "https://developers.soundcloud.com/blog/periskop-exception-monitoring-service",
+      "title": "Periskop: Exception Monitoring Service",
+      "link": "https://developers.soundcloud.com/blog/periskop-exception-monitoring-service",
+      "summary": "Periskop is an exception monitoring service that we built here at SoundCloud. It was designed with microservice environments in mind, but it…",
+      "author": null,
+      "publishedAt": "2020-03-16T00:00:00.000Z"
+    },
+    {
+      "guid": "https://developers.soundcloud.com/blog/how-not-to-build-datasets-and-consume-data-at-your-company",
+      "title": "How (Not) to Build Datasets and Consume Data at Your Company",
+      "link": "https://developers.soundcloud.com/blog/how-not-to-build-datasets-and-consume-data-at-your-company",
+      "summary": "The topic of datasets is not new, and they have been successfully used at SoundCloud for analytics purposes for a long time. In this blog…",
+      "author": null,
+      "publishedAt": "2020-03-03T00:00:00.000Z"
+    },
+    {
+      "guid": "https://developers.soundcloud.com/blog/tuist-project-generation",
+      "title": "The Magic of Generating an Xcode Project",
+      "link": "https://developers.soundcloud.com/blog/tuist-project-generation",
+      "summary": "Planet Earth vs. Jupiter. There is the same order of magnitude between the ratio of these two planets and the amount of code that defined…",
+      "author": null,
+      "publishedAt": "2020-02-20T00:00:00.000Z"
+    }
+  ],
+  "totalIndexed": 50
+}

@@ -1,0 +1,173 @@
+{
+  "feedId": "miguel-quinones",
+  "feedName": "Miguel Quinones",
+  "feedSiteUrl": "https://www.miqu.me/",
+  "feedRssUrl": "https://www.miqu.me/atom.xml",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T07:00:41.981Z",
+  "items": [
+    {
+      "guid": "miguel-quinones::http://miqu.me/blog/2018/01/28/top-5-must-have-technical-books/",
+      "title": "My top 5 must-have technical books",
+      "link": "http://miqu.me/blog/2018/01/28/top-5-must-have-technical-books/",
+      "summary": "Quite recently a team member wanted to suggest interesting technical books to read for a junior engineer. I figured I might as well write my top 5\nbooks here, in no particular order. I believe every Software Engineer should own these books, but reading them is a very good start ;)\nThe Pragmatic…",
+      "author": null,
+      "publishedAt": "2018-01-28T19:06:09.000Z"
+    },
+    {
+      "guid": "miguel-quinones::http://miqu.me/blog/2017/06/16/fixing-autocompletion-on-mixed-objective-c-and-swift-projects/",
+      "title": "Fixing autocompletion on mixed Objective-C and Swift projects",
+      "link": "http://miqu.me/blog/2017/06/16/fixing-autocompletion-on-mixed-objective-c-and-swift-projects/",
+      "summary": "This year I had the privilege of attending WWDC for the first time. I knew the labs were very important, and I want to share a resolution to fix a problem for our big project at Peak: Autocompletion on Swift code was not working most of the time in the IDE, and with the help of an Apple engineer in…",
+      "author": null,
+      "publishedAt": "2017-06-16T22:55:27.000Z"
+    },
+    {
+      "guid": "miguel-quinones::http://miqu.me/blog/2017/05/21/automatic-bridging-from-swift-to-objective-c-using-sourcery/",
+      "title": "Automatic bridging from Swift to Objective-C using Sourcery",
+      "link": "http://miqu.me/blog/2017/05/21/automatic-bridging-from-swift-to-objective-c-using-sourcery/",
+      "summary": "I recently read a great post by Benjamin Encz about bridging Swift to Objective-C by creating bridging types that can be exposed to the older language. I wondered if his idea can be improved and automated using meta-programming with Sourcery by Krzystof Zablocki. The answer is a very impressive…",
+      "author": null,
+      "publishedAt": "2017-05-21T21:30:00.000Z"
+    },
+    {
+      "guid": "miguel-quinones::http://miqu.me/blog/2017/01/29/temporary-build-settings/",
+      "title": "Build settings depending on Xcode version",
+      "link": "http://miqu.me/blog/2017/01/29/temporary-build-settings/",
+      "summary": "This weekend I wanted to setup Precompiled Bridging Headers for my project. This setting is available in the new Xcode 8.3 beta.  Then building for latest official XCode (8.2.1) the code will not compile because the Swift compiler doesn’t recognize it. How do we use different build settings for…",
+      "author": null,
+      "publishedAt": "2017-01-29T23:26:54.000Z"
+    },
+    {
+      "guid": "miguel-quinones::http://miqu.me/blog/2017/01/22/reducing-the-pain-of-git-bisect-with-xcode/",
+      "title": "Reducing the pain of git bisect with Xcode",
+      "link": "http://miqu.me/blog/2017/01/22/reducing-the-pain-of-git-bisect-with-xcode/",
+      "summary": "There’s times when you need to investigate regressions in your project, and you don’t know have any clue as why something is happening. Git bisect is the best tool for this cases, but it can be painful to use in non small projects using CocoaPods and Xcode. I want to share what I’ve been doing to…",
+      "author": null,
+      "publishedAt": "2017-01-22T11:49:01.000Z"
+    },
+    {
+      "guid": "miguel-quinones::http://miqu.me/blog/2016/11/28/app-extensions-xcode-and-cocoapods-omg/",
+      "title": "App extensions, Xcode and Cocoapods, OMG!",
+      "link": "http://miqu.me/blog/2016/11/28/app-extensions-xcode-and-cocoapods-omg/",
+      "summary": "Have you encountered this error when upgrading to the latest CocoaPods (1.1.0), or sharing a library between your iOS App and your extension?\n\n\n\n1\n\n'sharedApplication' is unavailable: not available on iOS (App Extension) - Use view controller based solutions where appropriate instead.\n\n\n\n\n\n\nIf yes,…",
+      "author": null,
+      "publishedAt": "2016-11-28T09:44:54.000Z"
+    },
+    {
+      "guid": "miguel-quinones::http://miqu.me/blog/2016/11/19/easy-localizations-management-with-spreadsheets/",
+      "title": "Easy localization management with Google spreadsheets",
+      "link": "http://miqu.me/blog/2016/11/19/easy-localizations-management-with-spreadsheets/",
+      "summary": "Last thursday I gave a talk at NSLondon meetup called ‘Minimum Viable Tooling’. The topic was examples of approaching tooling and automation for small teams. I showed real examples of what we do at Peak, where I currently work. One of the things people showed interest in after the talk was how we…",
+      "author": null,
+      "publishedAt": "2016-11-19T16:50:18.000Z"
+    },
+    {
+      "guid": "miguel-quinones::http://miqu.me/blog/2016/10/26/controlling-time-in-the-app/",
+      "title": "Controlling time in the app",
+      "link": "http://miqu.me/blog/2016/10/26/controlling-time-in-the-app/",
+      "summary": "Today I want to share a small utility we’ve been using for a while at Peak, my current workplace, to control the system time inside the application and save time while testing or debugging.\nIn most application code you’ll eventually end up with tasks that need to execute periodically, or after some…",
+      "author": null,
+      "publishedAt": "2016-10-26T18:38:37.000Z"
+    },
+    {
+      "guid": "miguel-quinones::http://miqu.me/blog/2016/08/16/knowing-when-to-delete-code/",
+      "title": "Knowing when to delete code",
+      "link": "http://miqu.me/blog/2016/08/16/knowing-when-to-delete-code/",
+      "summary": "Much of the literature and writing related to sofware development focuses on the creation, new ideas, fresh ideas and things to improve in your next project. But when is it a good moment to delete the old stuff in an long term project? Here’s my short rant about this; I recently deleted a chunk of…",
+      "author": null,
+      "publishedAt": "2016-08-16T20:04:04.000Z"
+    },
+    {
+      "guid": "miguel-quinones::http://miqu.me/blog/2016/07/31/xcode-8-new-build-settings-and-analyzer-improvements/",
+      "title": "Xcode 8: New build settings and analyzer improvements",
+      "link": "http://miqu.me/blog/2016/07/31/xcode-8-new-build-settings-and-analyzer-improvements/",
+      "summary": "I always like to check the new build settings and analyzer improvements of every Xcode release. And this year’s main release includes a couple of goodies. Let’s check them out!\nAnalyzer improvements\nFrom the current Xcode 8 beta 3 release notes:\n‘Misuse of null’ or CLANG_ANALYZER_NONNULL\nThe static…",
+      "author": null,
+      "publishedAt": "2016-07-31T20:50:16.000Z"
+    },
+    {
+      "guid": "miguel-quinones::http://miqu.me/blog/2016/04/22/dear-sdk-developer/",
+      "title": "Dear SDK developer",
+      "link": "http://miqu.me/blog/2016/04/22/dear-sdk-developer/",
+      "summary": "As an application developer I get to use many third party code to integrate it into my current project. I want to share a checklist of things a user of an SDK really appreciates.\nDocumentation\nThis is the most important part of any SDK, be it open source or closed source. Users don’t need to…",
+      "author": null,
+      "publishedAt": "2016-04-22T11:50:32.000Z"
+    },
+    {
+      "guid": "miguel-quinones::http://miqu.me/blog/2016/01/21/xcode-7-dot-3-analyzer-improvements/",
+      "title": "Xcode 7.3 analyzer improvements",
+      "link": "http://miqu.me/blog/2016/01/21/xcode-7-dot-3-analyzer-improvements/",
+      "summary": "The latest xcode beta is available for downloading. There are many improvements, and the usual problems with stuff that stops working… Ah the love of Apple for it’s developers :). But I want to tell you about a feature that caught my attention: New analyzer settings!\nNew analyzer settings\nFrom the…",
+      "author": null,
+      "publishedAt": "2016-01-21T20:39:53.000Z"
+    },
+    {
+      "guid": "miguel-quinones::http://miqu.me/blog/2015/12/14/transitioning-ios-versions/",
+      "title": "Transitioning iOS versions",
+      "link": "http://miqu.me/blog/2015/12/14/transitioning-ios-versions/",
+      "summary": "Having worked in companies developing their own products, I’ve faced many times the problem developers encounter when building iOS applications: Your biggest 3rd party dependency - the OS SDK - is changing under you every year. How does your team deal with this in a maintainable way?\nLong-term…",
+      "author": null,
+      "publishedAt": "2015-12-14T20:00:25.000Z"
+    },
+    {
+      "guid": "miguel-quinones::http://miqu.me/blog/2015/12/05/building-swift-on-osx/",
+      "title": "Building Swift on OSX",
+      "link": "http://miqu.me/blog/2015/12/05/building-swift-on-osx/",
+      "summary": "Swift is finally open source! This is great because of many reasons, namely the transparency and chances to learn from the people responsible of building the foundational language you work on. I’ve been checking how easy was to build the runtime, REPL and compiler, and it turns out the team made an…",
+      "author": null,
+      "publishedAt": "2015-12-05T00:38:35.000Z"
+    },
+    {
+      "guid": "miguel-quinones::http://miqu.me/blog/2015/11/19/three-months-with-xvim/",
+      "title": "Three months with XVim",
+      "link": "http://miqu.me/blog/2015/11/19/three-months-with-xvim/",
+      "summary": "‘Know your key shortcuts’ is the mantra of the productive programmer. I’ve chosen to try using the same keybindings everywhere, investing time and learning Vim. And using xvim in Xcode. In this article I’m going to try to explain why I did this, and I’ll share my experience of the process.\nKnowing…",
+      "author": null,
+      "publishedAt": "2015-11-19T22:19:24.000Z"
+    },
+    {
+      "guid": "miguel-quinones::http://miqu.me/blog/2015/11/15/jumping-into-existing-codebases/",
+      "title": "Jumping into existing codebases",
+      "link": "http://miqu.me/blog/2015/11/15/jumping-into-existing-codebases/",
+      "summary": "I’ve recently changed workplace - we’re hiring! - and I’ve jumped into an existing codebase. This is a good time to review what I like to do when I start to work on a project in these circumstances.\nWhen you don’t start a greenfield project, which is most of the time for many developers, you need…",
+      "author": null,
+      "publishedAt": "2015-11-15T18:55:18.000Z"
+    },
+    {
+      "guid": "miguel-quinones::http://miqu.me/blog/2015/09/09/functional-programming-in-the-small-with-swift/",
+      "title": "Functional programming in the small, with Swift",
+      "link": "http://miqu.me/blog/2015/09/09/functional-programming-in-the-small-with-swift/",
+      "summary": "In a previous post, I wrote about the choice of paradigms that Swift presents for it’s target audience. I also gave my opinion on how people with different backgrounds might see and approach the Functional Programming paradigm.\nIn this post I want to share how I started to take advantage of FP with…",
+      "author": null,
+      "publishedAt": "2015-09-09T15:00:23.000Z"
+    },
+    {
+      "guid": "miguel-quinones::http://miqu.me/blog/2015/08/31/poor-mans-functional-programming/",
+      "title": "Poor man's functional programming",
+      "link": "http://miqu.me/blog/2015/08/31/poor-mans-functional-programming/",
+      "summary": "It’s a very exciting time to be an iOS or Mac developer. The platform moves very fast and we got a new toy (language) to play with: Swift. It’s the perfect time to reevaluate, learn and evolve as a programmer, because you will be forced to adopt this new language (yes, I think Swift is the future,…",
+      "author": null,
+      "publishedAt": "2015-08-31T20:00:00.000Z"
+    },
+    {
+      "guid": "miguel-quinones::http://miqu.me/blog/2015/08/20/freehand-drawing/",
+      "title": "Freehand Drawing",
+      "link": "http://miqu.me/blog/2015/08/20/freehand-drawing/",
+      "summary": "Yesterday my last post on the series ‘Let’s build Freehand Drawing for iOS’ has been published at Badoo Tech blog. It’s been a very good experience for me, and of course I recommend you visit the tutorials if you are interested.\nI divided the tutorials in 3 parts:\nPart 1: Introduces the feature and…",
+      "author": null,
+      "publishedAt": "2015-08-20T20:09:40.000Z"
+    },
+    {
+      "guid": "miguel-quinones::http://miqu.me/blog/2015/08/07/one-commit-a-day/",
+      "title": "One commit a day",
+      "link": "http://miqu.me/blog/2015/08/07/one-commit-a-day/",
+      "summary": "One commit a day. A lesson I’ve learned the hard way when dealing with long-term side projects.\nThe first push\nYou are starting a new side project. That new library, framework, cool app idea or just a hack you had in your mind for long time. Starting it is easy, as you find some spare time and kick…",
+      "author": null,
+      "publishedAt": "2015-08-07T20:22:22.000Z"
+    }
+  ],
+  "totalIndexed": 20
+}

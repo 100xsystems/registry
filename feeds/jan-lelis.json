@@ -1,0 +1,413 @@
+{
+  "feedId": "jan-lelis",
+  "feedName": "Jan Lelis",
+  "feedSiteUrl": "https://idiosyncratic-ruby.com/",
+  "feedRssUrl": "https://idiosyncratic-ruby.com/feed.xml",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T06:53:16.907Z",
+  "items": [
+    {
+      "guid": "jan-lelis::https://idiosyncratic-ruby.com/75-ruby-tricks-of-2018.html",
+      "title": "Ruby TRICKS of 2018",
+      "link": "https://idiosyncratic-ruby.com/75-ruby-tricks-of-2018.html",
+      "summary": "Ruby was initially designed to be a successor of the Perl programming language, which also means that it inherited a lot of Perl's expressiveness. To celebrate this, the TRIC¹ contest was invented:\nWrite the most Transcendental, Imbroglio Ruby program!\nIllustrate some of the subtleties (and design…",
+      "author": "Jan Lelis",
+      "publishedAt": "2020-08-24T00:00:00.000Z"
+    },
+    {
+      "guid": "jan-lelis::https://idiosyncratic-ruby.com/74-super-snakes.html",
+      "title": "Super Snakes",
+      "link": "https://idiosyncratic-ruby.com/74-super-snakes.html",
+      "summary": "Have you ever been confused by the __underscores__ required by some of __RUBY__'s features? You can get it right with this overview of all of \"super snake\" keywords and methods.\n\n\nThere are three different types of underscore-wrapped syntaxes in the Ruby core language:\nkeywords\nObject methods and…",
+      "author": "Jan Lelis",
+      "publishedAt": "2020-08-17T00:00:00.000Z"
+    },
+    {
+      "guid": "jan-lelis::https://idiosyncratic-ruby.com/73-unicode-version-mapping.html",
+      "title": "Unicode Version Mapping",
+      "link": "https://idiosyncratic-ruby.com/73-unicode-version-mapping.html",
+      "summary": "The Ruby core team cares a lot about Unicode, and this is why we have pretty good Unicode support in the language.\nEven though the Unicode standard evolves constantly - it gets updated at least once a year - Ruby's Unicode support is often only a little bit behind the current version of Unicode.…",
+      "author": "Jan Lelis",
+      "publishedAt": "2020-08-14T00:00:00.000Z"
+    },
+    {
+      "guid": "jan-lelis::https://idiosyncratic-ruby.com/72-clear-case-of-unclear-casing.html",
+      "title": "Clear Case of Unclear Casing",
+      "link": "https://idiosyncratic-ruby.com/72-clear-case-of-unclear-casing.html",
+      "summary": "Recent Ruby versions allow you to choose from a wide-range of uppercase letters - beyond just ASCII - to start a constant / class name:\n\n\nclass Österreich\n  # 00D6 ├─ Ö   ├─ LATIN CAPITAL LETTER O WITH DIAERESIS\nend\n# Syntax OK\n\nHowever, it is not possible to use just any Unicode character:\nclass ℻…",
+      "author": "Jan Lelis",
+      "publishedAt": "2020-08-12T00:00:00.000Z"
+    },
+    {
+      "guid": "jan-lelis::https://idiosyncratic-ruby.com/71-nothing-to-disable.html",
+      "title": "Nothing to Disable",
+      "link": "https://idiosyncratic-ruby.com/71-nothing-to-disable.html",
+      "summary": "Ruby's mode of operation can be altered with some --enable-* / --disable-* command-line switches.\n\n\nBy default, all of the following features are activated, except for the frozen strings and the JIT:\nFeature\n      CLI Option to Change\n      Description\n    \nRubyGems\n      --disable-gems…",
+      "author": "Jan Lelis",
+      "publishedAt": "2020-08-11T00:00:00.000Z"
+    },
+    {
+      "guid": "jan-lelis::https://idiosyncratic-ruby.com/70-nothing-to-escape.html",
+      "title": "Nothing to Escape",
+      "link": "https://idiosyncratic-ruby.com/70-nothing-to-escape.html",
+      "summary": "What is your wild guess: How many different ways does Ruby provide for inserting a NULL byte into a double-quoted string?\n\n\nThere are exactly 43 options¹! Here is the list, put together with some ideas from Episode 61: Meta Escape Control:\nDirectly embedded NULL byte\n      # => \"\\u0000\"\n    \n\"\\0\"…",
+      "author": "Jan Lelis",
+      "publishedAt": "2020-08-10T00:00:00.000Z"
+    },
+    {
+      "guid": "jan-lelis::https://idiosyncratic-ruby.com/69-nothing-to-compare.html",
+      "title": "Nothing to Compare",
+      "link": "https://idiosyncratic-ruby.com/69-nothing-to-compare.html",
+      "summary": "How does nothing (as in nil, null, or nan) compare to nothing?\n\n\nEquality Equality\n==\n      nil\n      0\n      0.0\n      0i\n      0r\n      NaN¹\n    \nnil\n      true\n      false\n      false\n      false\n      false\n      false\n    \n0\n      false\n      true\n      true\n      true\n      true\n      false…",
+      "author": "Jan Lelis",
+      "publishedAt": "2020-08-06T00:00:00.000Z"
+    },
+    {
+      "guid": "jan-lelis::https://idiosyncratic-ruby.com/68-assignments-in-style.html",
+      "title": "Assignments In-Style",
+      "link": "https://idiosyncratic-ruby.com/68-assignments-in-style.html",
+      "summary": "The introduction of pattern matching in Ruby 2.7 brought us a new style of multi-assigning local variables: The pattern assignment, or, how you could also call it, the assignment in-style.\n\n\nAfter you have deactivated the warnings for experimental features, try the following piece of code:\n[1, 2,…",
+      "author": "Jan Lelis",
+      "publishedAt": "2020-08-04T00:00:00.000Z"
+    },
+    {
+      "guid": "jan-lelis::https://idiosyncratic-ruby.com/67-warning-the-experiment.html",
+      "title": "Warning: The Experiment",
+      "link": "https://idiosyncratic-ruby.com/67-warning-the-experiment.html",
+      "summary": "Ruby's Warning module learned some new tricks in Ruby 2.7:\n\n\nSupport for muting different categories of compile warnings has been introduced. This is a mechanism on top of the warning level reflected by the $VERBOSE variable.\nYou can now silence deprecation warnings: These are aspects of the…",
+      "author": "Jan Lelis",
+      "publishedAt": "2020-08-03T00:00:00.000Z"
+    },
+    {
+      "guid": "jan-lelis::https://idiosyncratic-ruby.com/66-ruby-has-character.html",
+      "title": "Ruby has Character",
+      "link": "https://idiosyncratic-ruby.com/66-ruby-has-character.html",
+      "summary": "Ruby comes with good support for Unicode-related features. Read on if you want to learn more about important Unicode fundamentals and how to use them in Ruby…\n…or just watch my talk from RubyConf 2017:\n⑩ Unicode Characters You Should Know About as a 👩‍💻\n\n\n\nRuby ♡ Unicode\nCharacters in Unicode…",
+      "author": "Jan Lelis",
+      "publishedAt": "2018-05-31T00:00:00.000Z"
+    },
+    {
+      "guid": "jan-lelis::https://idiosyncratic-ruby.com/65-warning-the-module.html",
+      "title": "Warning: The Module",
+      "link": "https://idiosyncratic-ruby.com/65-warning-the-module.html",
+      "summary": "Starting with Ruby 2.5¹ it is possible to customize the behavior of Kernel#warn through the Warning module. Here is how:\n\n\ndef Warning.warn(w)\n  # super calls the original behavior, which is printing to $stderr\n  super \"\\e[31;1mRUBY WARNING: \\e[22m#{w.sub(/warning: /, '')}\\e[0m\"\nend\n\n# # #\n#…",
+      "author": "Jan Lelis",
+      "publishedAt": "2018-05-15T00:00:00.000Z"
+    },
+    {
+      "guid": "jan-lelis::https://idiosyncratic-ruby.com/64-what-the-regex.html",
+      "title": "What the Regex?",
+      "link": "https://idiosyncratic-ruby.com/64-what-the-regex.html",
+      "summary": "Regexes, the go-to-mechanism for string matching, must not only be written, but also need to be applied. This episode acts as a reference with some style advice for working with regular expressions in Ruby. If you are looking for resources on writing the actual regexes, take a look at the link…",
+      "author": "Jan Lelis",
+      "publishedAt": "2018-05-07T00:00:00.000Z"
+    },
+    {
+      "guid": "jan-lelis::https://idiosyncratic-ruby.com/63-instance-eval.html",
+      "title": "idiosyncratic_eval",
+      "link": "https://idiosyncratic-ruby.com/63-instance-eval.html",
+      "summary": "When you get farther upwards the steep hill that is Ruby mastery, you will come across some powerful, yet slightly evil methods: instance_eval and class_eval¹. They allow you to execute code and define methods tied to a specific class, at the same time giving you access to outer scope variables…",
+      "author": "Jan Lelis",
+      "publishedAt": "2018-05-02T00:00:00.000Z"
+    },
+    {
+      "guid": "jan-lelis::https://idiosyncratic-ruby.com/62-less-features-more-fun.html",
+      "title": "Less Feature-Rich, More Fun",
+      "link": "https://idiosyncratic-ruby.com/62-less-features-more-fun.html",
+      "summary": "Ruby was created in 1993 and has come a long way. The preferred style of coding has changed quite a lot and solid best practice has emerged (though, as always, one size does not fit all). At the same time, Ruby's tool support could be better, the language is still too complex. Maybe, the time has…",
+      "author": "Jan Lelis",
+      "publishedAt": "2016-05-31T00:00:00.000Z"
+    },
+    {
+      "guid": "jan-lelis::https://idiosyncratic-ruby.com/61-meta-escape-control.html",
+      "title": "Meta Escape Control",
+      "link": "https://idiosyncratic-ruby.com/61-meta-escape-control.html",
+      "summary": "Double-quoted strings can not only be used with interpolation, #{}, they also support various escape sequences, which are initiated with \\. Escape sequences allow you to embed raw byte and codepoint values. Furthermore, there are shortcuts for common formatting and control characters.\n\n\nByte…",
+      "author": "Jan Lelis",
+      "publishedAt": "2016-05-30T00:00:00.000Z"
+    },
+    {
+      "guid": "jan-lelis::https://idiosyncratic-ruby.com/60-escape-back-referencing.html",
+      "title": "Escape Back Referencing",
+      "link": "https://idiosyncratic-ruby.com/60-escape-back-referencing.html",
+      "summary": "Ruby has more than one way to access additional information about the most recent regex match, like captured groups. One way is using the special variables $`, $&, $', $1 - $9, $+, and also in the MatchData object $~. They become available after using a method that matched a regex, or when the…",
+      "author": "Jan Lelis",
+      "publishedAt": "2016-05-29T00:00:00.000Z"
+    },
+    {
+      "guid": "jan-lelis::https://idiosyncratic-ruby.com/59-big-data-without-end.html",
+      "title": "Big Data Without End",
+      "link": "https://idiosyncratic-ruby.com/59-big-data-without-end.html",
+      "summary": "Ruby's big DATA constant does more than you might expect!\n\n\nEverything after the __END__ keyword (at the beginning of the line) is not interpreted as Ruby, but can be retrieved with the big¹ DATA constant.² This is an example big-data.rb script:\np DATA.read\n__END__\nbig data\n\nBig DATA is a File…",
+      "author": "Jan Lelis",
+      "publishedAt": "2016-05-28T00:00:00.000Z"
+    },
+    {
+      "guid": "jan-lelis::https://idiosyncratic-ruby.com/58-magic-instructions.html",
+      "title": "Magic Instructions",
+      "link": "https://idiosyncratic-ruby.com/58-magic-instructions.html",
+      "summary": "Ruby supports magic comments (interpreter instructions) at the top of the source file, mostly known for setting a source files' Encoding. This is the most common use case, but there is more you can do.\n\n\nSource File Encoding\nThe default encoding of string literals in a Ruby file is UTF-8:\np…",
+      "author": "Jan Lelis",
+      "publishedAt": "2016-05-27T00:00:00.000Z"
+    },
+    {
+      "guid": "jan-lelis::https://idiosyncratic-ruby.com/57-what-the-time.html",
+      "title": "What the Time?",
+      "link": "https://idiosyncratic-ruby.com/57-what-the-time.html",
+      "summary": "%a\n%A\n%b\n%B\n%c\n%C\n%d\n%D\n%e\n%F\n%g\n%G\n%h\n%H\n%I\n%j\n%k\n%l\n%L\n%m\n%M\n%n\n%N\n%p\n%P\n%Q\n%r\n%R\n%s\n%S\n%t\n%T\n%u\n%U\n%v\n%V\n%w\n%W\n%x\n%X\n%y\n%Y\n%z\n%Z\n%+\n%%\n-\n_\n0\n^\n#\n:\nDate and time formatting is traditionally done with strftime. Not any different in Ruby, which includes a public domain based strftime implementation…",
+      "author": "Jan Lelis",
+      "publishedAt": "2016-05-26T00:00:00.000Z"
+    },
+    {
+      "guid": "jan-lelis::https://idiosyncratic-ruby.com/56-us-ascii-8bit.html",
+      "title": "US-ASCII-8BIT",
+      "link": "https://idiosyncratic-ruby.com/56-us-ascii-8bit.html",
+      "summary": "How come that Ruby has two ASCII encodings?\n\n\nEncoding.name_list.grep(/ASCII/)\n# => [\"ASCII-8BIT\", \"US-ASCII\"]\n\nWhich one is the normal one you should use for ASCII?\nAliases\nASCII-8BIT\n      US-ASCII\n    \nBINARY\n      ASCII\n    \n \n      ANSI_X3.4-1968\n    \n \n      646\n    \nSo, US-ASCII is aliased…",
+      "author": "Jan Lelis",
+      "publishedAt": "2016-05-25T00:00:00.000Z"
+    },
+    {
+      "guid": "jan-lelis::https://idiosyncratic-ruby.com/55-struggling-four-equality.html",
+      "title": "Struggling Four Equality",
+      "link": "https://idiosyncratic-ruby.com/55-struggling-four-equality.html",
+      "summary": "Another of Ruby's idiosyncrasies is equalness. It's not too complicated, but naming is an issue here.\n\n\nFour Concepts of Equalness\nequal? Object Identity Comparison\nThis one is easy. Two objects should be considered identical. Think: x.object_id == y.object_id\n== Equality Equality\nThis is the usual…",
+      "author": "Jan Lelis",
+      "publishedAt": "2016-05-24T00:00:00.000Z"
+    },
+    {
+      "guid": "jan-lelis::https://idiosyncratic-ruby.com/54-try-converting.html",
+      "title": "Try Converting",
+      "link": "https://idiosyncratic-ruby.com/54-try-converting.html",
+      "summary": "Similar to metaprogramming, Ruby's type conversion system has evolved over time. While the result functions, it is also a little inconsistent and suffers from poor naming. Let's put things in perspective:\n\n\nImplicit and Explicit Conversion\nRuby objects are usually converted to other classes/types…",
+      "author": "Jan Lelis",
+      "publishedAt": "2016-05-23T00:00:00.000Z"
+    },
+    {
+      "guid": "jan-lelis::https://idiosyncratic-ruby.com/53-the-constant-tree.html",
+      "title": "The Constant Tree",
+      "link": "https://idiosyncratic-ruby.com/53-the-constant-tree.html",
+      "summary": "Generated with Ruby 3.2.2, including RubyGems and DidYouMean:\nObject (Class)\n├─ARGF (ARGF.class)\n├─ARGV (Array)\n├─ArgumentError (Class)\n├─Array (Class)\n├─BasicObject (Class)\n│ └─BasicObject → BasicObject\n├─Binding (Class)\n├─CROSS_COMPILING (NilClass)\n├─Class (Class)\n├─ClosedQueueError (Class)…",
+      "author": "Jan Lelis",
+      "publishedAt": "2016-05-22T00:00:00.000Z"
+    },
+    {
+      "guid": "jan-lelis::https://idiosyncratic-ruby.com/52-constant-visibility.html",
+      "title": "Constant Visibility",
+      "link": "https://idiosyncratic-ruby.com/52-constant-visibility.html",
+      "summary": "It is less common, but similar to methods, constants have a visibility attached to them. You have the choice between private and public, and you can also mark a constant deprecated!\n\n\nLike with methods, the default visibility of a constant is public. Unlike methods, which have a lot of associated…",
+      "author": "Jan Lelis",
+      "publishedAt": "2016-05-21T00:00:00.000Z"
+    },
+    {
+      "guid": "jan-lelis::https://idiosyncratic-ruby.com/51-half-kilo-of-sha256.html",
+      "title": "½ Kilo of SHA256",
+      "link": "https://idiosyncratic-ruby.com/51-half-kilo-of-sha256.html",
+      "summary": "How many bytes (= ASCII characters) of Ruby code does it take to generate a SHA 256 hash sum of STDIN?\n\n\n500 Bytes¹\nq,z=[3,2].map{|t|i=l=1;(2..330).select{i-1<(l*=i)%i+=1}.map{|e|(e**t**-1*X=2**32).to_i&X-=1}}\ns=proc{|n,*m|a=0\nm.map{|e|a^=n>>e|n<<32-e}\na}\ni=$<.read.b<<128…",
+      "author": "Jan Lelis",
+      "publishedAt": "2016-05-20T00:00:00.000Z"
+    },
+    {
+      "guid": "jan-lelis::https://idiosyncratic-ruby.com/50-naming-too-good.html",
+      "title": "Naming Too Good",
+      "link": "https://idiosyncratic-ruby.com/50-naming-too-good.html",
+      "summary": "Some words should not be chosen as identifiers for variables, parameters and methods in Ruby, because they clash with core methods or keywords.\n\n\nAs long as you do not define a method with the name of a keyword, Ruby will not complain. Still, it is often better to avoid naming things like existing…",
+      "author": "Jan Lelis",
+      "publishedAt": "2016-05-19T00:00:00.000Z"
+    },
+    {
+      "guid": "jan-lelis::https://idiosyncratic-ruby.com/49-what-the-format.html",
+      "title": "What the Format?",
+      "link": "https://idiosyncratic-ruby.com/49-what-the-format.html",
+      "summary": "%a\n%A\n%b\n%B\n%c\n%d\n%e\n%E\n%f\n%g\n%G\n%i\n%o\n%p\n%s\n%u\n%x\n%X\n%%\n0\n$\n#\n+\n-\n*\nspace\nRuby comes with a structured alternative to classic string interpolation: This episode will explore format strings, also known as the sprintf syntax.\n\n\nRecall the normal way of interpolating variables into a string:\nv = 42…",
+      "author": "Jan Lelis",
+      "publishedAt": "2016-05-18T00:00:00.000Z"
+    },
+    {
+      "guid": "jan-lelis::https://idiosyncratic-ruby.com/48-ruby-tricks-of-2015.html",
+      "title": "Ruby TRICKS of 2015",
+      "link": "https://idiosyncratic-ruby.com/48-ruby-tricks-of-2015.html",
+      "summary": "Ruby was initially designed to be a successor of the Perl programming language, which also means that it inherited a lot of Perl's expressiveness. To celebrate this, the TRIC¹ contest was invented:\nWrite the most Transcendental, Imbroglio Ruby program!\nIllustrate some of the subtleties (and design…",
+      "author": "Jan Lelis",
+      "publishedAt": "2016-05-17T00:00:00.000Z"
+    },
+    {
+      "guid": "jan-lelis::https://idiosyncratic-ruby.com/47-ruby-tricks-of-2013.html",
+      "title": "Ruby TRICKS of 2013",
+      "link": "https://idiosyncratic-ruby.com/47-ruby-tricks-of-2013.html",
+      "summary": "Ruby was initially designed to be a successor of the Perl programming language, which also means that it inherited a lot of Perl's expressiveness. To celebrate this, the TRIC¹ contest was invented:\nWrite the most Transcendental, Imbroglio Ruby program!\nIllustrate some of the subtleties (and design…",
+      "author": "Jan Lelis",
+      "publishedAt": "2016-05-16T00:00:00.000Z"
+    },
+    {
+      "guid": "jan-lelis::https://idiosyncratic-ruby.com/46-the-art-of-arguments.html",
+      "title": "The Art of Arguments",
+      "link": "https://idiosyncratic-ruby.com/46-the-art-of-arguments.html",
+      "summary": "There is nothing easier than parsing the command-line arguments given to your Ruby program: It is an array found in the special variable $*:\n\n\n$ ruby -e 'p $*' -- some command line --arguments\n[\"some\", \"command\", \"line\", \"--arguments\"]\n\nThat is Too Easy!\nThe trouble begins with supporting common…",
+      "author": "Jan Lelis",
+      "publishedAt": "2016-05-15T00:00:00.000Z"
+    },
+    {
+      "guid": "jan-lelis::https://idiosyncratic-ruby.com/45-constant-shuffle.html",
+      "title": "Constant Shuffle",
+      "link": "https://idiosyncratic-ruby.com/45-constant-shuffle.html",
+      "summary": "Today, another snippet from the category don't try at home, might have unforeseeable consequences!\n\n\nConstant assignment¹ is not permanent in Ruby, so it is perfectly valid to do this:\nmodule A\nend\n\nclass B\n  def initialize\n    p 42\n  end\nend\n\nA, B = B, A\n# warning: already initialized constant A\n#…",
+      "author": "Jan Lelis",
+      "publishedAt": "2016-05-14T00:00:00.000Z"
+    },
+    {
+      "guid": "jan-lelis::https://idiosyncratic-ruby.com/44-top-level-binding.html",
+      "title": "Top Level Binding",
+      "link": "https://idiosyncratic-ruby.com/44-top-level-binding.html",
+      "summary": "In case you have wondered, what this top-level constant TOPLEVEL_BINDING is all about:\n\n\nIt is, as its name suggest, the Binding of your script's main scope:\na = 42\np binding.local_variable_defined?(:a) # => true\np TOPLEVEL_BINDING.local_variable_defined?(:a) # => true\n\ndef example_method\n  p…",
+      "author": "Jan Lelis",
+      "publishedAt": "2016-05-13T00:00:00.000Z"
+    },
+    {
+      "guid": "jan-lelis::https://idiosyncratic-ruby.com/43-new-ruby-startup.html",
+      "title": "New Ruby Startup",
+      "link": "https://idiosyncratic-ruby.com/43-new-ruby-startup.html",
+      "summary": "What happens when you invoke the Ruby interpreter, even before it executes your first line of code? Actually a lot! A few observations:\n\n\nInitial Load Path\nThese are all locations you can Kernel#require from:\n$ ruby --disable-all -e 'puts $LOAD_PATH.map{ |path| \"- #{path}\" }'…",
+      "author": "Jan Lelis",
+      "publishedAt": "2016-05-12T00:00:00.000Z"
+    },
+    {
+      "guid": "jan-lelis::https://idiosyncratic-ruby.com/42-ruby-config.html",
+      "title": "R(u)b(y)Config(uration)",
+      "link": "https://idiosyncratic-ruby.com/42-ruby-config.html",
+      "summary": "At some point when working with Ruby, you come across this mysterious RbConfig constant. A typical scenario is that you want to check which operating system your current program is executed on. You can do this with RbConfig::CONFIG['host_os'] or RbConfig::CONFIG['arch'], see the RubyGems source for…",
+      "author": "Jan Lelis",
+      "publishedAt": "2016-05-11T00:00:00.000Z"
+    },
+    {
+      "guid": "jan-lelis::https://idiosyncratic-ruby.com/41-proper-unicoding.html",
+      "title": "Proper Unicoding",
+      "link": "https://idiosyncratic-ruby.com/41-proper-unicoding.html",
+      "summary": "Ruby's Regexp engine has a powerful feature built in: It can match for Unicode character properties. But what exactly are properties you can match for?\n\n\nThe Unicode consortium not only assigns all codepoints, it also publishes additional data about their assigned characters. When searching through…",
+      "author": "Jan Lelis",
+      "publishedAt": "2016-05-10T00:00:00.000Z"
+    },
+    {
+      "guid": "jan-lelis::https://idiosyncratic-ruby.com/40-symbolic-validations.html",
+      "title": "Symbolic Validations",
+      "link": "https://idiosyncratic-ruby.com/40-symbolic-validations.html",
+      "summary": "When exactly don't you have to :\"escape\" a Ruby symbol?\n\n\nBecause this question is somehow related to the Ruby interpreter's internal usage of symbols, the rules are not the most obvious ones:\n: + Identifier¹, optionally appended by !, ?, or = (→ methods)\n:@ + Identifier¹ (→ instance variables)\n:@@…",
+      "author": "Jan Lelis",
+      "publishedAt": "2016-05-09T00:00:00.000Z"
+    },
+    {
+      "guid": "jan-lelis::https://idiosyncratic-ruby.com/39-fixed-numbers.html",
+      "title": "Fixed Numbers",
+      "link": "https://idiosyncratic-ruby.com/39-fixed-numbers.html",
+      "summary": "A quick reminder that number literals in Ruby can be pretty fancy!\n\n\n\n  \n    \nExample\n      Evaluates To\n      Class\n      Purpose\n    \n0x10\n      16\n      Integer\n      Integers in hexadecimal (0-16) format\n    \n0o10¹\n      8\n      Integer\n      Integers in octal (0-8) format\n    \n0b10\n      2…",
+      "author": "Jan Lelis",
+      "publishedAt": "2016-05-08T00:00:00.000Z"
+    },
+    {
+      "guid": "jan-lelis::https://idiosyncratic-ruby.com/38-sad-methods.html",
+      "title": "Sad Methods",
+      "link": "https://idiosyncratic-ruby.com/38-sad-methods.html",
+      "summary": "In general, Ruby's reflection capabilities are pretty powerful, although not always logical. However, when reflecting on a method's (or proc's) usage, you are sometimes stuck with sad methods.\n\n\nSad methods only work for code, that is written in Ruby itself. And Ruby itself (official MRI) is…",
+      "author": "Jan Lelis",
+      "publishedAt": "2016-05-07T00:00:00.000Z"
+    },
+    {
+      "guid": "jan-lelis::https://idiosyncratic-ruby.com/37-static-monkeys-vs-strong-ducks.html",
+      "title": "Static Monkeys vs. Strong Ducks",
+      "link": "https://idiosyncratic-ruby.com/37-static-monkeys-vs-strong-ducks.html",
+      "summary": "Programming languages have been, and will always be categorized by their typing system. Naturally, large parts of the Ruby community (including myself) have some kind of aversion against static typing. But while Ruby goes down the route of being dynamically typed that does not mean that you are not…",
+      "author": "Jan Lelis",
+      "publishedAt": "2016-05-06T00:00:00.000Z"
+    },
+    {
+      "guid": "jan-lelis::https://idiosyncratic-ruby.com/36-erb-render-standard.html",
+      "title": "ERB Render Standard",
+      "link": "https://idiosyncratic-ruby.com/36-erb-render-standard.html",
+      "summary": "ERB stands for <%# Embedded Ruby %> and is the templating engine included in the Ruby Standard Library. While there are more recent gems that provide a better templating experience (see tilt for an abstraction, and erubis/erbse for an updated ERB), it is also convenient to have basic support…",
+      "author": "Jan Lelis",
+      "publishedAt": "2016-05-05T00:00:00.000Z"
+    },
+    {
+      "guid": "jan-lelis::https://idiosyncratic-ruby.com/35-identification.html",
+      "title": "Identification",
+      "link": "https://idiosyncratic-ruby.com/35-identification.html",
+      "summary": "Is it a hash? Or is it a hash?\n\n\nhash = {\"Idiosyncratic\" => \"Ruby\"}\nhash[\"Idiosyncratic\"] # => \"Ruby\"\n\nhash.compare_by_identity\nidiosyncratic_in_variable = \"Idiosyncratic\"\nhash[idiosyncratic_in_variable] # => nil\nhash[\"Idiosyncratic\"] # => \"Ruby\"\n\nHash#compare_by_identity changes the semantics of…",
+      "author": "Jan Lelis",
+      "publishedAt": "2016-05-04T00:00:00.000Z"
+    },
+    {
+      "guid": "jan-lelis::https://idiosyncratic-ruby.com/34-utility-gems.html",
+      "title": "Utility Gems",
+      "link": "https://idiosyncratic-ruby.com/34-utility-gems.html",
+      "summary": "RubyGems is bundled with core Ruby since 1.9, which was first released in 2007. As long as you do not run Ruby with the $ ruby --disable-gems flag, it is available to you without having to install anything. This also means that you can use some of RubyGems' support utilities for free!\n\n\n1) Current…",
+      "author": "Jan Lelis",
+      "publishedAt": "2016-05-03T00:00:00.000Z"
+    },
+    {
+      "guid": "jan-lelis::https://idiosyncratic-ruby.com/33-too-expressive.html",
+      "title": "Too Expressive & * _ ?",
+      "link": "https://idiosyncratic-ruby.com/33-too-expressive.html",
+      "summary": "Ruby's syntax is so expressive — it utilizes every printable, non-alphanumeric ASCII character as much as it cans. Sometimes, this can be confusing for beginners.\n\n\nThe next sections show 4+ different meanings of every portrayed single character (not counting different meaning as custom string…",
+      "author": "Jan Lelis",
+      "publishedAt": "2016-05-02T00:00:00.000Z"
+    },
+    {
+      "guid": "jan-lelis::https://idiosyncratic-ruby.com/32-no-more-errors.html",
+      "title": "No More Errors",
+      "link": "https://idiosyncratic-ruby.com/32-no-more-errors.html",
+      "summary": "If you don't like errors in your code, you will have to fix them. This handy list of Ruby's errors will hopefully help you do so! (And welcome back for the second season of Idiosyncratic Ruby!)\n\n\nBuilt-in Exceptions\nException\n      Thrown by core Ruby when\n      Remarks\n    \nNoMemoryError\n      The…",
+      "author": "Jan Lelis",
+      "publishedAt": "2016-05-01T00:00:00.000Z"
+    },
+    {
+      "guid": "jan-lelis::https://idiosyncratic-ruby.com/31-roots-of-rubyism.html",
+      "title": "Roots of Rubyism",
+      "link": "https://idiosyncratic-ruby.com/31-roots-of-rubyism.html",
+      "summary": "This is a summary of reasons why you should still use Ruby:\nIt is a language with a terrific community (welcoming and always questioning itself) and ecosystem (a lot of problems already solved), which is beautiful (focus on productivity), a little conservative (in the sense that it is easy to work…",
+      "author": "Jan Lelis",
+      "publishedAt": "2015-05-31T00:00:00.000Z"
+    },
+    {
+      "guid": "jan-lelis::https://idiosyncratic-ruby.com/30-regex-with-class.html",
+      "title": "Regex with Class",
+      "link": "https://idiosyncratic-ruby.com/30-regex-with-class.html",
+      "summary": "Ruby's regex engine defines a lot of shortcut character classes. Besides the common meta characters (\\w, etc.), there is also the POSIX style expressions and the unicode property syntax. This is an overview of all character classes:\n\n\nMeta Chars\nChar\n      Negation\n      ASCII\n      Unicode\n    \n.…",
+      "author": "Jan Lelis",
+      "publishedAt": "2015-05-30T00:00:00.000Z"
+    },
+    {
+      "guid": "jan-lelis::https://idiosyncratic-ruby.com/29-limitations-of-language.html",
+      "title": "Limitations of Language",
+      "link": "https://idiosyncratic-ruby.com/29-limitations-of-language.html",
+      "summary": "If you take a closer look, you'll notice that Ruby's grammar has quite a few edge-case where its syntax is inconsistent or ambiguous:\n\n\nBinary Minus vs Minus taken as Unary Method Argument\n>> [1,3,4,5].size - 1\n# => 3\n\n>> [1,3,4,5].size -1\n# wrong number of arguments(1 for 0)\n\nNo Simple Rule, if a…",
+      "author": "Jan Lelis",
+      "publishedAt": "2015-05-29T00:00:00.000Z"
+    },
+    {
+      "guid": "jan-lelis::https://idiosyncratic-ruby.com/28-operating-nothing.html",
+      "title": "Operating Nothing",
+      "link": "https://idiosyncratic-ruby.com/28-operating-nothing.html",
+      "summary": "There is an operator in Ruby, that does nothing: The unary plus operator. It is part of the language for keeping symmetry with the unary minus operator!\n\n\nThis is awesome, an operator for free! How can we utilize it?\nUpdate: In Ruby 2.3, the plus operator got its first purpose: Create an unfrozen…",
+      "author": "Jan Lelis",
+      "publishedAt": "2015-05-28T00:00:00.000Z"
+    },
+    {
+      "guid": "jan-lelis::https://idiosyncratic-ruby.com/27-golfing-basics.html",
+      "title": "Golfing Basics",
+      "link": "https://idiosyncratic-ruby.com/27-golfing-basics.html",
+      "summary": "Code Golf is the art of writing the shortest program possible. The less bytes the better. And the competition is just ridiculously strong! Head over to Anarchy Golf if you want to see more!\n\n\nA good beginner's problem is printing out Pascal's Triangle: Spend a few days to get to 45 bytes. Spend a…",
+      "author": "Jan Lelis",
+      "publishedAt": "2015-05-27T00:00:00.000Z"
+    },
+    {
+      "guid": "jan-lelis::https://idiosyncratic-ruby.com/26-file-encoding-magic.html",
+      "title": "File Encoding Magic",
+      "link": "https://idiosyncratic-ruby.com/26-file-encoding-magic.html",
+      "summary": "Ruby has three default encodings. One of them is the default source encoding, which can be set using a magic comment in the file's first line, or in the second line if the first line is taken by a shebang.\n\n\nDefault source encoding (UTF-8):\np \"\".encoding #=> #<Encoding:UTF-8>\n\nWith encoding comment…",
+      "author": "Jan Lelis",
+      "publishedAt": "2015-05-26T00:00:00.000Z"
+    }
+  ],
+  "totalIndexed": 50
+}

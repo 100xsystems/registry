@@ -1,0 +1,109 @@
+{
+  "feedId": "nicolas-liochon",
+  "feedName": "Nicolas Liochon",
+  "feedSiteUrl": "http://blog.thislongrun.com/",
+  "feedRssUrl": "http://blog.thislongrun.com/feeds/posts/default",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T07:01:32.303Z",
+  "items": [
+    {
+      "guid": "nicolas-liochon::http://blog.thislongrun.com/2015/07/Forfeit-Partition-Tolerance-Distributed-System-CAP-Theorem.html",
+      "title": "You Do It Too: Forfeiting Network Partition Tolerance in Distributed Systems",
+      "link": "http://blog.thislongrun.com/2015/07/Forfeit-Partition-Tolerance-Distributed-System-CAP-Theorem.html",
+      "summary": "“64-node clusters ought to be enough for anybody.” Bill Gates, quoted from memory.\n\n\n\n\n\n\nThis post is part of the CAP theorem series. You may want to start by my post on ACID vs. CAP if you have a database background but have never really been exposed to the CAP theorem. The post discussing some…",
+      "author": "Nicolas Liochon",
+      "publishedAt": "2015-07-06T17:25:00.000Z"
+    },
+    {
+      "guid": "nicolas-liochon::http://blog.thislongrun.com/2015/06/real-time-CAP-theorem.html",
+      "title": "If CAP were real-time: adding timing requirements to the definition of availability",
+      "link": "http://blog.thislongrun.com/2015/06/real-time-CAP-theorem.html",
+      "summary": "“If you are not too long, I will wait here for you all my socketReadTimeout.” - Oscar Wilde, quoted from memory.\n\n\n\n\n\n\n\nThis post is part of the CAP theorem series. You may want to start by my post on ACID vs. CAP if you have a database background but have never really been exposed to the CAP…",
+      "author": "Nicolas Liochon",
+      "publishedAt": "2015-06-14T18:20:00.000Z"
+    },
+    {
+      "guid": "nicolas-liochon::http://blog.thislongrun.com/2015/05/CAP-theorem-partition-timeout-zookeeper.html",
+      "title": "CAP: if all you have is a timeout, everything looks like a partition",
+      "link": "http://blog.thislongrun.com/2015/05/CAP-theorem-partition-timeout-zookeeper.html",
+      "summary": "“I suppose it is tempting, if the only tool you have is a timeout, to treat everything as if it were a partition.” - Abraham Maslow, quoted from memory\n\n\n\n\n\nThis post is part of the CAP theorem series. You may want to start by my post on ACID vs. CAP if you have a database background but have never…",
+      "author": "Nicolas Liochon",
+      "publishedAt": "2015-05-25T17:42:00.001Z"
+    },
+    {
+      "guid": "nicolas-liochon::http://blog.thislongrun.com/2015/05/definition-eventual-consistency-durability.html",
+      "title": "Eventual Consistency and Durability",
+      "link": "http://blog.thislongrun.com/2015/05/definition-eventual-consistency-durability.html",
+      "summary": "“A son can bear with equanimity the loss of his father, but the loss of his data may drive him to despair.” (Machiavelli, quoted from memory)\n\n\n\nWhile traditional databases are ACID, with the ‘D’ meaning Durability, the NoSQL databases are mainly described by their memory model, i.e. Strong…",
+      "author": "Nicolas Liochon",
+      "publishedAt": "2015-05-12T15:51:00.002Z"
+    },
+    {
+      "guid": "nicolas-liochon::http://blog.thislongrun.com/2015/05/the-consistency-series.html",
+      "title": "The Consistency Series",
+      "link": "http://blog.thislongrun.com/2015/05/the-consistency-series.html",
+      "summary": "“Those are my consistency models, and if you don't like them... well, I have others.” - Groucho Marx, quoted from memory\n\n\n\nThe CAP theorem series is coming to an end. I have a few posts planned, but they will be mainly about wrapping things-up-- I hope these posts will be great, though.…",
+      "author": "Nicolas Liochon",
+      "publishedAt": "2015-05-12T15:43:00.000Z"
+    },
+    {
+      "guid": "nicolas-liochon::http://blog.thislongrun.com/2015/04/cap-availability-high-availability-and_16.html",
+      "title": "CAP, Availability, High-Availability and Big Data databases in a world of partitions",
+      "link": "http://blog.thislongrun.com/2015/04/cap-availability-high-availability-and_16.html",
+      "summary": "“Those who would give up Consistency, to purchase a little temporary Availability, deserve neither Consistency nor Availability.” (B. Franklin, quoted from memory)\n\n\n\n\n\n\n\nThis post is part of the CAP theorem series. You may want to start by my post on ACID vs. CAP if you have a database background…",
+      "author": "Nicolas Liochon",
+      "publishedAt": "2015-04-16T16:32:00.000Z"
+    },
+    {
+      "guid": "nicolas-liochon::http://blog.thislongrun.com/2015/04/the-unclear-cp-vs-ca-case-in-cap.html",
+      "title": "The unclear CP vs. CA case in CAP",
+      "link": "http://blog.thislongrun.com/2015/04/the-unclear-cp-vs-ca-case-in-cap.html",
+      "summary": "This post is part of the CAP theorem series. You may want to start by my post on ACID vs. CAP if you have a database background but have never really been exposed to the CAP theorem. The post discussing some traps in the ‘Availability’ and ‘Consistency’ definition of CAP should also be used as an…",
+      "author": "Nicolas Liochon",
+      "publishedAt": "2015-04-05T16:53:00.001Z"
+    },
+    {
+      "guid": "nicolas-liochon::http://blog.thislongrun.com/2015/03/the-confusing-cap-and-acid-wording.html",
+      "title": "The confusing CAP and ACID wording",
+      "link": "http://blog.thislongrun.com/2015/03/the-confusing-cap-and-acid-wording.html",
+      "summary": "CAP and ACID share a common vocabulary: Atomic, Consistent, and so on. But there is a catch: the words are the same but they mean totally different things. CAP comes from the distributed systems theory, while ACID belongs to database systems one.The  Distributed Databases use both CAP and ACID…",
+      "author": "Nicolas Liochon",
+      "publishedAt": "2015-03-26T15:30:00.000Z"
+    },
+    {
+      "guid": "nicolas-liochon::http://blog.thislongrun.com/2015/03/dont-use-cap-theorem-for-packet-losses.html",
+      "title": "Don't use the CAP theorem for packet losses",
+      "link": "http://blog.thislongrun.com/2015/03/dont-use-cap-theorem-for-packet-losses.html",
+      "summary": "In the previous post, we looked at this common saying: “nodes fail, network packets get lost, partitions happen so you need to use CAP to understand your trade-offs.” We saw that node failures were not partitions. What about packet losses? Most distributed applications use TCP or UDP on top of IP,…",
+      "author": "Nicolas Liochon",
+      "publishedAt": "2015-03-18T15:16:00.000Z"
+    },
+    {
+      "guid": "nicolas-liochon::http://blog.thislongrun.com/2015/03/dead-nodes-dont-bite.html",
+      "title": "Don't use the CAP theorem for node failures",
+      "link": "http://blog.thislongrun.com/2015/03/dead-nodes-dont-bite.html",
+      "summary": "\"Dead nodes don't bite.\" - Robert Louis Stevenson (quoted from memory)\n\n\nCAP is often described as a theorem you cannot avoid using. A common saying is “nodes fail, network packets get lost, partitions arise so you need to use CAP to choose the trade-offs.” Actually, the CAP scope is not that wide.…",
+      "author": "Nicolas Liochon",
+      "publishedAt": "2015-03-13T10:22:00.002Z"
+    },
+    {
+      "guid": "nicolas-liochon::http://blog.thislongrun.com/2015/03/comparing-eventually-consistent-and-cp-CAP.html",
+      "title": "Comparing Eventually Consistent and CP-as-in-CAP stores",
+      "link": "http://blog.thislongrun.com/2015/03/comparing-eventually-consistent-and-cp-CAP.html",
+      "summary": "Eventual Consistency (EC) is a well known concept. The CAP theorem, which defines Consistency, Availability and Partition tolerance is also well known. It describes some distributed systems such as CP, which has two properties: Consistency and Partition tolerance.\n\nIf we look at data stores just by…",
+      "author": "Nicolas Liochon",
+      "publishedAt": "2015-03-11T15:13:00.000Z"
+    },
+    {
+      "guid": "nicolas-liochon::http://blog.thislongrun.com/2015/03/the-cap-theorem-series.html",
+      "title": "The CAP theorem series",
+      "link": "http://blog.thislongrun.com/2015/03/the-cap-theorem-series.html",
+      "summary": "Let me introduce a new series of posts on the CAP theorem. CAP is a well known theorem conjectured and proven by recognized researchers in distributed systems, namely Eric Brewer, Seth Gilbert and Nancy Lynch.  It is also widely used to categorize distributed applications.\n\n\n\n\n\n\n\n\nWith CAP, do…",
+      "author": "Nicolas Liochon",
+      "publishedAt": "2015-03-10T15:10:00.000Z"
+    }
+  ],
+  "totalIndexed": 12
+}

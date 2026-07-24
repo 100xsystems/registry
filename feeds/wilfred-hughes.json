@@ -1,0 +1,93 @@
+{
+  "feedId": "wilfred-hughes",
+  "feedName": "Wilfred Hughes",
+  "feedSiteUrl": "http://www.wilfred.me.uk/",
+  "feedRssUrl": "http://www.wilfred.me.uk/rss.xml",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T07:16:19.299Z",
+  "items": [
+    {
+      "guid": "http://www.wilfred.me.uk/blog/2022/09/06/difftastic-the-fantastic-diff/",
+      "title": "Difftastic, the Fantastic Diff",
+      "link": "http://www.wilfred.me.uk/blog/2022/09/06/difftastic-the-fantastic-diff/",
+      "summary": "I’ve always wanted a structural diff tool, so I built\ndifftastic.\n\nThis has been the most fascinating, most frustrating, and most\nchallenging program I’ve ever written.\nHow Hard Could It Be?\nIf you write Lisp code for a while, you start to see code like\nJSON. Everything is basically a list.…",
+      "author": null,
+      "publishedAt": "2022-09-06T00:00:00.000Z"
+    },
+    {
+      "guid": "http://www.wilfred.me.uk/blog/2019/03/24/the-siren-song-of-little-languages/",
+      "title": "The Siren Song of Little Languages",
+      "link": "http://www.wilfred.me.uk/blog/2019/03/24/the-siren-song-of-little-languages/",
+      "summary": "Some programming languages languish due to obscurity. They lack\nbreathless blog posts exclaiming how much nicer they are to use.\nOther languages are too ambitious. They aspire to support so many\nfeatures that the original implementers struggle to get a first\nversion working. For example, the type…",
+      "author": null,
+      "publishedAt": "2019-03-24T00:00:00.000Z"
+    },
+    {
+      "guid": "http://www.wilfred.me.uk/blog/2019/03/04/how-high-are-your-tests/",
+      "title": "How High Are Your Tests?",
+      "link": "http://www.wilfred.me.uk/blog/2019/03/04/how-high-are-your-tests/",
+      "summary": "How big can a unit test be? How small can an integration test be?\nIt’s easy to argue about whether a test is a ‘true’ unit test or\nnot. If we test several classes together, is it still a unit test? If\nwe use a small external API, must we call it an integration test?\nThe problem is that testing is a…",
+      "author": null,
+      "publishedAt": "2019-03-04T00:00:00.000Z"
+    },
+    {
+      "guid": "http://www.wilfred.me.uk/blog/2018/06/22/helpful-one-year-on/",
+      "title": "Helpful: One Year On",
+      "link": "http://www.wilfred.me.uk/blog/2018/06/22/helpful-one-year-on/",
+      "summary": "It’s been a year since the first release of\nHelpful!\nIt’s gained a ton of new features, and I’d love to share the\nhighlights with you.\nTool Integration\n\nEmacs has some excellent built-in debugging tools that I wanted to\nexpose within Helpful. These tools missed the first release, but I’ve now\nhad…",
+      "author": null,
+      "publishedAt": "2018-06-22T00:00:00.000Z"
+    },
+    {
+      "guid": "http://www.wilfred.me.uk/blog/2018/01/06/the-emacs-guru-guide-to-key-bindings/",
+      "title": "The Emacs Guru Guide to Key Bindings",
+      "link": "http://www.wilfred.me.uk/blog/2018/01/06/the-emacs-guru-guide-to-key-bindings/",
+      "summary": "Imagine that you hold Control and type your name into Emacs. Can you\ndescribe what will happen?\n– The ‘Emacs Guru Test’\nEmacs shortcuts (known as ‘key bindings’) can seem ridiculous to\nbeginners. Some Emacs users even argue you should change them as soon\nas you start using Emacs.\nThey are wrong. In…",
+      "author": null,
+      "publishedAt": "2018-01-06T00:00:00.000Z"
+    },
+    {
+      "guid": "http://www.wilfred.me.uk/blog/2017/10/16/these-weeks-in-remacs-iii/",
+      "title": "These Weeks in Remacs III",
+      "link": "http://www.wilfred.me.uk/blog/2017/10/16/these-weeks-in-remacs-iii/",
+      "summary": "Time for another Remacs update: lots of contributions, a wide range of\nfeatures, and even a logo!\nContributing\nSince the last update,\nwe’ve seen contributions from lots of new people. We’ve added\n@brotzeit and @shanavas786, bringing us to seven wonderful people who\ncan approve your PRs.\nSpeaking of…",
+      "author": null,
+      "publishedAt": "2017-10-16T00:00:00.000Z"
+    },
+    {
+      "guid": "http://www.wilfred.me.uk/blog/2017/08/30/helpful-adding-contextual-help-to-emacs/",
+      "title": "Helpful: Adding Contextual Help to Emacs",
+      "link": "http://www.wilfred.me.uk/blog/2017/08/30/helpful-adding-contextual-help-to-emacs/",
+      "summary": "I’ve just released Helpful, a\nnew way of getting help in Emacs!\n\nThe *Help* built-in to Emacs is already pretty good. Helpful\ngoes a step further and includes lots of contextual info. Let’s take a\nlook.\nHave you ever wondered which major modes have a keybinding for a\nfunction? Helpful reports…",
+      "author": null,
+      "publishedAt": "2017-08-30T00:00:00.000Z"
+    },
+    {
+      "guid": "http://www.wilfred.me.uk/blog/2017/08/06/suggest-el-synthesising-constants/",
+      "title": "Suggest.el: Synthesising Constants",
+      "link": "http://www.wilfred.me.uk/blog/2017/08/06/suggest-el-synthesising-constants/",
+      "summary": "Suggest.el v0.4 is now out,\nand it offers some really interesting new ways of making suggestions.\nSupplying Constants\nSuppose the user gives us the input '(a b c d) and desired output\n'a. We would already suggest car, but that only gets the first\nelement of the list. They may have wanted elt or…",
+      "author": null,
+      "publishedAt": "2017-08-06T00:00:00.000Z"
+    },
+    {
+      "guid": "http://www.wilfred.me.uk/blog/2017/07/29/optimising-dash-el/",
+      "title": "Optimising Dash.el",
+      "link": "http://www.wilfred.me.uk/blog/2017/07/29/optimising-dash-el/",
+      "summary": "Dash.el is a lovely library, and one of the most popular on MELPA. If\nwe can squeeze every last drop of performance out of it, everyone\nbenefits.\nLet’s take a look at the black art of making elisp faster.\nMeasure First!\nChris Wellons has a\ngreat optimisation blog post that\ndiscusses the performance…",
+      "author": null,
+      "publishedAt": "2017-07-29T00:00:00.000Z"
+    },
+    {
+      "guid": "http://www.wilfred.me.uk/blog/2017/07/15/these-weeks-in-remacs-ii/",
+      "title": "These Weeks in Remacs II",
+      "link": "http://www.wilfred.me.uk/blog/2017/07/15/these-weeks-in-remacs-ii/",
+      "summary": "It’s been six months since the last Remacs update, and many new\nfeatures have landed!\nCommunity\nWe now have\na Gitter chat room! Do drop\nby if you have any questions or wish to discuss Remacs. There’s a\nlow traffic Remacs Subreddit too.\nWe’ve added @jeandudey and @birkenfeld to the GitHub…",
+      "author": null,
+      "publishedAt": "2017-07-15T00:00:00.000Z"
+    }
+  ],
+  "totalIndexed": 10
+}

@@ -1,0 +1,37 @@
+{
+  "feedId": "bandcamp",
+  "feedName": "Bandcamp",
+  "feedSiteUrl": "https://bandcamptech.wordpress.com/",
+  "feedRssUrl": "https://bandcamptech.wordpress.com/feed/",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T06:44:52.664Z",
+  "items": [
+    {
+      "guid": "http://bandcamptech.wordpress.com/?p=302",
+      "title": "Be careful how you rsyslog",
+      "link": "https://bandcamptech.wordpress.com/2015/04/28/be-careful-how-you-rsyslog/",
+      "summary": "Bandcamp was offline briefly yesterday due to what I like to call an unexpected single point of failure. Good systems design is all about addressing single points of failure, making sure you have redundancies in place, but sometimes you discover single points of failure that you didn’t realise you…",
+      "author": "Leigh Dyer",
+      "publishedAt": "2015-04-28T18:29:22.000Z"
+    },
+    {
+      "guid": "http://bandcamptech.wordpress.com/?p=7",
+      "title": "Expression Evaluators",
+      "link": "https://bandcamptech.wordpress.com/2010/02/07/expression-evaluators/",
+      "summary": "Bugs are fun but this time I want to talk about win. Recently I finished work on a recursive descent expression evaluator in the Bandcamp code. (That’s a mouthful and I enjoy slinging that whenever I can—it’s up there with binary space partitions.) An expression evaluator is something that can take…",
+      "author": "Joe Holt",
+      "publishedAt": "2010-02-07T02:54:35.000Z"
+    },
+    {
+      "guid": "http://bandcamptech.wordpress.com/?p=12",
+      "title": "How Not To Generate A CRC",
+      "link": "https://bandcamptech.wordpress.com/2010/01/21/how-not-to-generate-a-crc/",
+      "summary": "Yesterday we had a success disaster. An überpopular mashup album that mixed the Wu Tang Clan and The Beatles was released a few days ago and yesterday it got stumbled upon and boing boinged and tweeted to the four winds. Our downloads per minute went through the roof. We’ve dealt with big releases…",
+      "author": "Joe Holt",
+      "publishedAt": "2010-01-21T18:48:09.000Z"
+    }
+  ],
+  "totalIndexed": 3
+}

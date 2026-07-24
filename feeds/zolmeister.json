@@ -1,0 +1,93 @@
+{
+  "feedId": "zolmeister",
+  "feedName": "Zolmeister",
+  "feedSiteUrl": "https://zolmeister.com/",
+  "feedRssUrl": "https://zolmeister.com/feeds/posts/default",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T07:16:54.595Z",
+  "items": [
+    {
+      "guid": "zolmeister::https://zolmeister.com/2016/09/jwt-auth.html",
+      "title": "JWT Authentication",
+      "link": "https://zolmeister.com/2016/09/jwt-auth.html",
+      "summary": "Authentication models for hosting platforms require more considerations due to 3rd party api access.\nWe wanted to be able to issue user auth tokens for 3rd party apps (think OAuth), as well as be able to verify authentication of local native api calls (through our iframe native app hooks).\nOur…",
+      "author": "Zoli Kahan",
+      "publishedAt": "2016-09-26T05:00:00.000Z"
+    },
+    {
+      "guid": "zolmeister::https://zolmeister.com/2016/08/mysql-migrations.html",
+      "title": "MySQL Migrations",
+      "link": "https://zolmeister.com/2016/08/mysql-migrations.html",
+      "summary": "Migrating 17M rows with no downtime - Isotope\nScenario: 17M rows in a table, constant writes/reads, slave/master setup.\nIf you  try to run an ALTER TABLE (especially on older versions of MySQL), most operations will lock the table for writes for the entire run-time of the query. To avoid this, we…",
+      "author": "Zoli Kahan",
+      "publishedAt": "2016-08-27T05:00:00.000Z"
+    },
+    {
+      "guid": "zolmeister::https://zolmeister.com/2016/05/clay-io.html",
+      "title": "Clay.io - A Reflection",
+      "link": "https://zolmeister.com/2016/05/clay-io.html",
+      "summary": "Moving On\nAs of January I am no longer with Clay.\nI've learned so much over the past year and a half, more so than I could have ever imagined.\nEvery minute working on Clay was a joy, and without a doubt one of the most fulfilling experiences of my life.\nAs for my next adventure, stay tuned.\nLesson…",
+      "author": "Zoli Kahan",
+      "publishedAt": "2016-05-04T05:00:00.000Z"
+    },
+    {
+      "guid": "zolmeister::https://zolmeister.com/2015/05/zorium.html",
+      "title": "Zorium v1.0.0 (╯°□°)╯︵ ┻━┻",
+      "link": "https://zolmeister.com/2015/05/zorium.html",
+      "summary": "The CoffeeScript Web Framework\nZorium (source) is the web framework we use at Clay.io.\nThis has been one of the most challenging projects I've worked on, with many great lessons learned.\nWhat follows is how Zorium came to be what it is today, and an explanation of design decisions in the framework.…",
+      "author": "Zoli Kahan",
+      "publishedAt": "2015-05-24T05:00:00.000Z"
+    },
+    {
+      "guid": "zolmeister::https://zolmeister.com/2015/02/10x-service-discovery-at-clay-io.html",
+      "title": "10x: Service Discovery at Clay.io",
+      "link": "https://zolmeister.com/2015/02/10x-service-discovery-at-clay-io.html",
+      "summary": "Architecture\nService Oriented Architectures\ncan be one of the most iterable and available software configurations for building almost any product.\nThere are many challenges that come with these systems, probably the biggest of which is service discovery.\nThis is how your services will communicate…",
+      "author": "Zoli Kahan",
+      "publishedAt": "2015-02-17T06:00:00.000Z"
+    },
+    {
+      "guid": "zolmeister::https://zolmeister.com/2014/12/10x-docker-at-clay-io.html",
+      "title": "10x: Docker at Clay.io",
+      "link": "https://zolmeister.com/2014/12/10x-docker-at-clay-io.html",
+      "summary": "Intro\nAt Clay, our deploy process is fun. Seriously. Because we use Docker.\nDocker is a containerization tool that allows for easy application isolation and deployment.\nThe basic idea is that Docker runs your application in a virtualized isolated environment,\nsimilar to a virtual machine, but…",
+      "author": "Zoli Kahan",
+      "publishedAt": "2014-12-15T06:00:00.000Z"
+    },
+    {
+      "guid": "zolmeister::https://zolmeister.com/2014/10/10x-logging-at-clay-io.html",
+      "title": "10x: Logging at Clay.io",
+      "link": "https://zolmeister.com/2014/10/10x-logging-at-clay-io.html",
+      "summary": "Managing 20+ servers as a small team is no easy task, and when things go wrong\n(they always do) figuring out what happened quickly is essential. Of course\nwe can't ssh into each machine, that would take ages, so instead we use Logstash\nto aggregate our logs.\nThis is the second post in my 10x…",
+      "author": "Zoli Kahan",
+      "publishedAt": "2014-10-25T05:00:00.000Z"
+    },
+    {
+      "guid": "zolmeister::https://zolmeister.com/2014/10/10x-architecture-at-clay-io.html",
+      "title": "10x: Architecture at Clay.io",
+      "link": "https://zolmeister.com/2014/10/10x-architecture-at-clay-io.html",
+      "summary": "This is the first post in my new series 10x, where I share my experiences\nand how we do things at Clay.io to develop at scale with a small team.\nUpdate:\n10x: Logging at Clay.io\n10x: Docker at Clay.io\nThe Cloud\nCloudFlare\n\nCloudFlare handles all of our DNS, and acts as a distributed caching\nproxy…",
+      "author": "Zoli Kahan",
+      "publishedAt": "2014-10-01T05:00:00.000Z"
+    },
+    {
+      "guid": "zolmeister::https://zolmeister.com/2014/09/developing-on-linux.html",
+      "title": "Developing on Linux",
+      "link": "https://zolmeister.com/2014/09/developing-on-linux.html",
+      "summary": "dotfiles\ni3 - Tiling Window Manager\nA tiling window manager is a type of window manager that arranges your windows as tiles,\nusually in such a way that makes managing them more efficient via keyboard shortcuts.\ni3 is my window manager of choice, after having used xmonad\nfor a long time, i3 provides…",
+      "author": "Zoli Kahan",
+      "publishedAt": "2014-09-13T05:00:00.000Z"
+    },
+    {
+      "guid": "zolmeister::https://zolmeister.com/2014/09/Fuco-a-coloring-game.html",
+      "title": "Fuco - A Coloring Game",
+      "link": "https://zolmeister.com/2014/09/Fuco-a-coloring-game.html",
+      "summary": "Web |\nAndroid |\nChrome |\nAmazon |\nFirefox |\nSource\nWelcome, to Fuco (Source),\na coloring game! Fuco was made in 48 hours as part of the\nLudum Dare game compo.\nThe theme was Connected Worlds, which game me the inspiration for Fuco.\nOriginally I had an idea for a game that mixed game art styles…",
+      "author": "Zoli Kahan",
+      "publishedAt": "2014-09-01T05:00:00.000Z"
+    }
+  ],
+  "totalIndexed": 10
+}

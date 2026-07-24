@@ -1,0 +1,173 @@
+{
+  "feedId": "yahoo",
+  "feedName": "Yahoo",
+  "feedSiteUrl": "https://yahooeng.tumblr.com/",
+  "feedRssUrl": "https://yahooeng.tumblr.com/rss",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T07:16:39.889Z",
+  "items": [
+    {
+      "guid": "https://yahooeng.tumblr.com/post/183315480351",
+      "title": "Bullet Updates - Windowing, Apache Pulsar PubSub, Configuration-based Data Ingestion, and More",
+      "link": "https://yahooeng.tumblr.com/post/183315480351",
+      "summary": "yahoodevelopers:\n\nBy Akshay Sarma, Principal Engineer, Verizon Media & Brian Xiao, Software Engineer, Verizon Media\n\nThis is the first of an ongoing series of blog posts sharing releases and announcements for Bullet, an open-sourced lightweight, scalable, pluggable, multi-tenant query system.…",
+      "author": "rosaliebeevm-blog",
+      "publishedAt": "2019-03-08T17:12:50.000Z"
+    },
+    {
+      "guid": "https://yahooeng.tumblr.com/post/181461332311",
+      "title": "Announcing OpenTSDB 2.4.0: Rollup and Pre-Aggregation Storage, Histograms, Sketches, and More",
+      "link": "https://yahooeng.tumblr.com/post/181461332311",
+      "summary": "yahoodevelopers:\n\nBy Chris Larsen, Architect\n\n\nOpenTSDB is one of the first dedicated open source time series databases built on top of Apache HBase and the Hadoop Distributed File System. Today, we are proud to share that version 2.4.0 is now available and has many new features developed in-house…",
+      "author": "amberwilsonla-blog",
+      "publishedAt": "2018-12-27T17:01:17.000Z"
+    },
+    {
+      "guid": "https://yahooeng.tumblr.com/post/181089393751",
+      "title": "Vespa Product Updates, December 2018 - ONNX Import and Map Attribute Grouping",
+      "link": "https://yahooeng.tumblr.com/post/181089393751",
+      "summary": "yahoodevelopers:\n\nToday we’re kicking off a blog post series of need-to-know updates on Vespa, summarizing the features and fixes detailed in Github issues.\n\nWe welcome your contributions and feedback about any new features or improvements you’d like to see. \nFor December, we’re excited to share…",
+      "author": "amberwilsonla-blog",
+      "publishedAt": "2018-12-13T22:18:41.000Z"
+    },
+    {
+      "guid": "https://yahooeng.tumblr.com/post/180867271141",
+      "title": "A New Chapter for Omid",
+      "link": "https://yahooeng.tumblr.com/post/180867271141",
+      "summary": "yahoodevelopers:\n\nBy Ohad Shacham, Yonatan Gottesman, Edward Bortnikov\nScalable Systems Research, Verizon/Oath\nOmid, an open source transaction processing platform for Big Data, was born as a research project at Yahoo (now part of Verizon), and became an Apache Incubator project in 2015. Omid…",
+      "author": "amberwilsonla-blog",
+      "publishedAt": "2018-12-06T19:32:04.000Z"
+    },
+    {
+      "guid": "https://yahooeng.tumblr.com/post/179901430546",
+      "title": "Hadoop Contributors Meetup at Oath",
+      "link": "https://yahooeng.tumblr.com/post/179901430546",
+      "summary": "yahoodevelopers:\n\nBy Scott Bush, Director, Hadoop Software Engineering, Oath\n\nOn Tuesday, September 25, we hosted a special day-long Hadoop Contributors Meetup at our Sunnyvale, California campus. Much of the early Hadoop development work started at Yahoo, now part of Oath, and has continued over…",
+      "author": "amberwilsonla-blog",
+      "publishedAt": "2018-11-08T19:07:25.000Z"
+    },
+    {
+      "guid": "https://yahooeng.tumblr.com/post/179150583591",
+      "title": "Sharing Vespa (Open Source Big Data Serving Engine) at the SF Big Analytics Meetup",
+      "link": "https://yahooeng.tumblr.com/post/179150583591",
+      "summary": "yahoodevelopers:\n\nBy Jon Bratseth, Distinguished Architect, Oath\n\nI had the wonderful opportunity to present Vespa at the SF Big Analytics Meetup on September 26th, hosted by Amplitude. Several members of the Vespa team (Kim, Frode and Kristian) also attended. We all enjoyed meeting with members of…",
+      "author": "amberwilsonla-blog",
+      "publishedAt": "2018-10-17T17:02:27.000Z"
+    },
+    {
+      "guid": "https://yahooeng.tumblr.com/post/178738044351",
+      "title": "Open-Sourcing Panoptes, Oath’s distributed network telemetry collector",
+      "link": "https://yahooeng.tumblr.com/post/178738044351",
+      "summary": "yahoodevelopers:\n\nBy Ian Flint, Network Automation Architect and Varun Varma, Senior Principal Engineer\n\nThe Oath network automation team is proud to announce that we are open-sourcing Panoptes, a distributed system for collecting, enriching and distributing network telemetry.  \nWe developed…",
+      "author": "amberwilsonla-blog",
+      "publishedAt": "2018-10-04T20:59:00.000Z"
+    },
+    {
+      "guid": "https://yahooeng.tumblr.com/post/178450976346",
+      "title": "Apache Pulsar graduates to Top-Level Project",
+      "link": "https://yahooeng.tumblr.com/post/178450976346",
+      "summary": "yahoodevelopers:\n\nBy Joe Francis, Director, Storage & Messaging\nWe’re excited to share that The Apache Software Foundation announced today that Apache Pulsar has graduated from the incubator to a Top-Level Project. Apache Pulsar is an open-source distributed pub-sub messaging system, created by…",
+      "author": "amberwilsonla-blog",
+      "publishedAt": "2018-09-25T16:31:00.000Z"
+    },
+    {
+      "guid": "https://yahooeng.tumblr.com/post/178262468576",
+      "title": "Introducing HaloDB, a fast, embedded key-value storage engine written in Java",
+      "link": "https://yahooeng.tumblr.com/post/178262468576",
+      "summary": "yahoodevelopers:\n\nBy Arjun Mannaly, Senior Software Engineer \nAt Oath, multiple ad platforms use a high throughput, low latency distributed key-value database that runs in data centers all over the world. The database stores billions of records and handles millions of read and write requests per…",
+      "author": "amberwilsonla-blog",
+      "publishedAt": "2018-09-19T23:48:42.000Z"
+    },
+    {
+      "guid": "https://yahooeng.tumblr.com/post/178045294111",
+      "title": "Introducing Oak: an Open Source Scalable Key-Value Map for Big Data Analytics",
+      "link": "https://yahooeng.tumblr.com/post/178045294111",
+      "summary": "yahoodevelopers:\n\nBy Dmitry Basin, Edward Bortnikov, Anastasia Braginsky, Eshcar Hillel, Idit Keidar, Hagar Meir, Gali Sheffi\nReal-time analytics applications are on the rise. Modern decision support and machine intelligence engines strive to continuously ingest large volumes of data while…",
+      "author": "amberwilsonla-blog",
+      "publishedAt": "2018-09-13T16:04:58.000Z"
+    },
+    {
+      "guid": "https://yahooeng.tumblr.com/post/175238642656",
+      "title": "Innovating on Authentication Standards",
+      "link": "https://yahooeng.tumblr.com/post/175238642656",
+      "summary": "yahoodevelopers:\n\nBy George Fletcher and Lovlesh Chhabra \nWhen Yahoo and AOL came together a year ago as a part of the new Verizon subsidiary Oath,  we took on the challenge of unifying their identity platforms based on current identity standards. Identity standards have been a critical part of the…",
+      "author": "mikesefanov",
+      "publishedAt": "2018-06-25T13:59:44.000Z"
+    },
+    {
+      "guid": "https://yahooeng.tumblr.com/post/174023151641",
+      "title": "A Peek Behind the Mail Curtain",
+      "link": "https://yahooeng.tumblr.com/post/174023151641",
+      "summary": "USE IMAP TO ACCESS SOME UNIQUE FEATURES\nBy Libby Lin, Principal Product Manager\nWell, we actually won’t show you how we create the magic in our big OATH consumer mail factory. But nevertheless we wanted to share how interested developers could leverage some of our unique features we offer for our…",
+      "author": "marcelatoath",
+      "publishedAt": "2018-05-18T16:19:38.000Z"
+    },
+    {
+      "guid": "https://yahooeng.tumblr.com/post/173062946866",
+      "title": "Achieving Major Stability and Performance Improvements in Yahoo Mail with a Novel Redux Architecture",
+      "link": "https://yahooeng.tumblr.com/post/173062946866",
+      "summary": "yahoodevelopers:\n\nBy Mohit Goenka, Gnanavel Shanmugam, and Lance Welsh\nAt Yahoo Mail, we’re constantly striving to upgrade our product experience. We do this not only by adding new features based on our members’ feedback, but also by providing the best technical solutions to power the most engaging…",
+      "author": "mikesefanov",
+      "publishedAt": "2018-04-18T14:04:59.000Z"
+    },
+    {
+      "guid": "https://yahooeng.tumblr.com/post/172068649246",
+      "title": "Secure Images",
+      "link": "https://yahooeng.tumblr.com/post/172068649246",
+      "summary": "oath-postmaster:\n\nBy Marcel Becker\nThe mail team at OATH is busy  integrating  Yahoo and AOL technology to deliver an even better experience across all our consumer mail products. While privacy and security are top priority for us, we also want to improve the experience and remove unnecessary…",
+      "author": "marcelatoath",
+      "publishedAt": "2018-03-20T14:54:05.000Z"
+    },
+    {
+      "guid": "https://yahooeng.tumblr.com/post/170536010891",
+      "title": "Success at Apache: A Newbie’s Narrative",
+      "link": "https://yahooeng.tumblr.com/post/170536010891",
+      "summary": "yahoodevelopers:\n\nKuhu Shukla (bottom center) and team at the 2017 DataWorks Summit\n\nBy Kuhu Shukla\nThis post first appeared here on the Apache Software Foundation blog as part of ASF’s “Success at Apache” monthly blog series.\n\nAs I sit at my desk on a rather frosty morning with my coffee, looking…",
+      "author": "mikesefanov",
+      "publishedAt": "2018-02-05T14:43:07.000Z"
+    },
+    {
+      "guid": "https://yahooeng.tumblr.com/post/168508200981",
+      "title": "How to Make Your Web App More Reliable and Performant Using webpack: a Yahoo Mail Case Study",
+      "link": "https://yahooeng.tumblr.com/post/168508200981",
+      "summary": "yahoodevelopers:\n\n\nBy Murali Krishna Bachhu, Anurag Damle, and Utkarsh Shrivastava\n\nAs engineers on the Yahoo Mail team at Oath, we pride ourselves on the things that matter most to developers: faster development cycles, more reliability, and better performance. Users don’t necessarily see these…",
+      "author": "mikesefanov",
+      "publishedAt": "2017-12-13T18:27:36.000Z"
+    },
+    {
+      "guid": "https://yahooeng.tumblr.com/post/162320493306",
+      "title": "Yahoo Mail’s New Tech Stack, Built for Performance and Reliability",
+      "link": "https://yahooeng.tumblr.com/post/162320493306",
+      "summary": "By Suhas Sadanandan, Director of Engineering \nWhen it comes to performance and reliability, there is perhaps no application where this matters more than with email. Today, we announced a new Yahoo Mail experience for desktop based on a completely rewritten tech stack that embodies these fundamental…",
+      "author": "mikesefanov",
+      "publishedAt": "2017-06-27T15:51:49.000Z"
+    },
+    {
+      "guid": "https://yahooeng.tumblr.com/post/162320459636",
+      "title": "Speed and Stability: Yahoo Mail’s Forward-Thinking Continuous Integration and Delivery Pipeline",
+      "link": "https://yahooeng.tumblr.com/post/162320459636",
+      "summary": "By Mohit Goenka, Senior Engineering Manager\nBuilding the technology powering the best consumer email inbox in the world is no easy task. When you start on such a journey, it is important to consider how to deliver such an experience to the users. After all, any consumer feature we build can only…",
+      "author": "mikesefanov",
+      "publishedAt": "2017-06-27T15:50:35.000Z"
+    },
+    {
+      "guid": "https://yahooeng.tumblr.com/post/161855616651",
+      "title": "Open Sourcing Bullet, Yahoo’s Forward-Looking Query Engine for Streaming Data",
+      "link": "https://yahooeng.tumblr.com/post/161855616651",
+      "summary": "By Michael Natkovich, Akshai Sarma, Nathan Speidel, Marcus Svedman, and Cat Utah\nBig Data is no longer just Apache server logs. Nowadays, the data may be user engagement data, performance metrics, IoT (Internet of Things) data, or something else completely atypical. Regardless of the size of the…",
+      "author": "mikesefanov",
+      "publishedAt": "2017-06-15T15:55:29.000Z"
+    },
+    {
+      "guid": "https://yahooeng.tumblr.com/post/160987779296",
+      "title": "Open Sourcing Daytona: A Framework For Automated and Application-agnostic Performance Analysis",
+      "link": "https://yahooeng.tumblr.com/post/160987779296",
+      "summary": "By Sapan Panigrahi and Deepesh Mittal\n\nToday, we are pleased to offer Daytona, an open-source framework for automated performance testing and analysis, to the community. Daytona is an application-agnostic framework to conduct integrated performance testing and analysis with repeatable test…",
+      "author": "mikesefanov",
+      "publishedAt": "2017-05-23T16:00:06.000Z"
+    }
+  ],
+  "totalIndexed": 20
+}

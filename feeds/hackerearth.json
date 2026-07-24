@@ -1,0 +1,365 @@
+{
+  "feedId": "hackerearth",
+  "feedName": "HackerEarth",
+  "feedSiteUrl": "http://engineering.hackerearth.com/",
+  "feedRssUrl": "http://engineering.hackerearth.com/rss",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T06:50:57.461Z",
+  "items": [
+    {
+      "guid": "http://engineering.hackerearth.com/2023/09/17/building-a-relaible-global-benchmarking-platform",
+      "title": "Computing accurate skill percentile with DDSketch",
+      "link": "http://engineering.hackerearth.com/2023/09/17/building-a-relaible-global-benchmarking-platform/",
+      "summary": "Introduction\nHackerEarth has lots of candidates getting evaluated on a daily basis. We have a feature that benchmarks candidates across the platform. Benchmarking is the process of creating the profile of the ideal candidate for a position, and then measuring all candidates against that profile.\nTo…",
+      "author": null,
+      "publishedAt": "2023-09-17T00:00:00.000Z"
+    },
+    {
+      "guid": "http://engineering.hackerearth.com/2022/07/01/logging-millions-of-requests-reliably-with-our-new-data-ingestion-pipeline",
+      "title": "Logging millions of requests reliably with our new data ingestion pipeline",
+      "link": "http://engineering.hackerearth.com/2022/07/01/logging-millions-of-requests-reliably-with-our-new-data-ingestion-pipeline/",
+      "summary": "Introduction\nHackerEarth handles millions of requests every day. To understand the user access patterns, get the usage of any particular feature or a page, figure out the daily active users or users who have been active for the past 6 months, etc in near real time, it is important to stream that…",
+      "author": null,
+      "publishedAt": "2022-07-01T00:00:00.000Z"
+    },
+    {
+      "guid": "http://engineering.hackerearth.com/2022/06/17/building-a-reliable-asynchronous-job-pipeline",
+      "title": "Building a reliable asynchronous job pipeline",
+      "link": "http://engineering.hackerearth.com/2022/06/17/building-a-reliable-asynchronous-job-pipeline/",
+      "summary": "Asynchronous background jobs can dramatically improve the performance and scalability of web applications by offloading resource-intensive and time consuming processing from the request-response cycle of an application.\nLast year, in an effort to make our asynchronous flows more reliable, secure,…",
+      "author": null,
+      "publishedAt": "2022-06-17T00:00:00.000Z"
+    },
+    {
+      "guid": "http://engineering.hackerearth.com/2021/08/12/how-to-set-a-react-component-as-a-background-image",
+      "title": "How to set a React Component or dom element as a background image",
+      "link": "http://engineering.hackerearth.com/2021/08/12/how-to-set-a-react-component-as-a-background-image/",
+      "summary": "During my internship at HackerEarth, I faced an interesting problem. This blog is about that and how I solved it.\nProblem: To set a background image to the textarea element.\nMy initial impression on seeing the design was that it would be easy. I thought it’s a image but after exploring the code I…",
+      "author": null,
+      "publishedAt": "2021-08-12T00:00:00.000Z"
+    },
+    {
+      "guid": "http://engineering.hackerearth.com/2021/08/01/CI-CD-Journey",
+      "title": "Zero to One and Beyond: HackerEarth's journey to Continuous Delivery",
+      "link": "http://engineering.hackerearth.com/2021/08/01/CI-CD-Journey/",
+      "summary": "“Hey the deployment is broken again. Can you push this change again” \n\n\nThese voices soon grew louder and then we realised: Our Deployment is broken.\nEpilogue\nAt HackerEarth, we have always been good at embracing bleeding edge technologies. We have always taken pride at doing what is right and…",
+      "author": null,
+      "publishedAt": "2021-08-01T00:00:00.000Z"
+    },
+    {
+      "guid": "http://engineering.hackerearth.com/2020/07/17/how-i-built-my-first-search-component",
+      "title": "How I built my first search component in React",
+      "link": "http://engineering.hackerearth.com/2020/07/17/how-i-built-my-first-search-component/",
+      "summary": "In 2016, I was working to build a platform to help NGOs raise donations. The platform was supposed to be built using React. The beautiful designs were in place. I was excited to build some new features as well as to try out the new architecture using Redux on a larger scale.\nYes, this was the time…",
+      "author": null,
+      "publishedAt": "2020-07-17T00:00:00.000Z"
+    },
+    {
+      "guid": "http://engineering.hackerearth.com/2020/02/02/hassle-free-automated-assessments",
+      "title": "Hassle-free automated assessments",
+      "link": "http://engineering.hackerearth.com/2020/02/02/hassle-free-automated-assessments/",
+      "summary": "Our older test creation flow had several inherent problems associated with it:\n1. Profile driven\nEarlier to this, we had test creation based on job profiles (role-based), which was restrictive as the skills were tightly coupled to the roles and were not customizable by the recruiters. For example,…",
+      "author": null,
+      "publishedAt": "2020-02-02T00:00:00.000Z"
+    },
+    {
+      "guid": "http://engineering.hackerearth.com/2018/09/20/profiling-django-views-with-scooby",
+      "title": "Profiling Django views with Scooby profiler",
+      "link": "http://engineering.hackerearth.com/2018/09/20/profiling-django-views-with-scooby/",
+      "summary": "Earlier in 2016, I came up with the idea of creating a Python module which could provide functionality of profiling\nfunctions w.r.t. SQL queries and tell exactly at what lines of function, the queries were happening.\nI called that package Goofy and created it with the engineering of Python AST…",
+      "author": null,
+      "publishedAt": "2018-09-20T00:00:00.000Z"
+    },
+    {
+      "guid": "http://engineering.hackerearth.com/2018/07/19/what-you-see-is-what-you-get",
+      "title": "What you see is what you get!",
+      "link": "http://engineering.hackerearth.com/2018/07/19/what-you-see-is-what-you-get/",
+      "summary": "Introduction\nHackerEarth has grown into a platform that serves a huge number of customers for technical assessment. To make this possible, we try our best to make the platform as easy-to-use as it can get.\nAt several places in our Recruiter Dashboard, we used to have a Markdown editor to allow…",
+      "author": null,
+      "publishedAt": "2018-07-19T00:00:00.000Z"
+    },
+    {
+      "guid": "http://engineering.hackerearth.com/2018/07/07/introducing-nuskha",
+      "title": "Introducing Nuskha",
+      "link": "http://engineering.hackerearth.com/2018/07/07/introducing-nuskha/",
+      "summary": "History\nWe at HackerEarth created a single-page document with common and special CSS classes to make layouts, grids, buttons, inputs, tables, tooltips, and form elements in late 2017. That was our first attempt to develop on our own front-end framework.\nOld Nuskha screens:\n\nFramework is a platform,…",
+      "author": null,
+      "publishedAt": "2018-07-07T00:00:00.000Z"
+    },
+    {
+      "guid": "http://engineering.hackerearth.com/2017/04/03/streaming-android-apps-via-the-browser",
+      "title": "Streaming Android applications via the browser",
+      "link": "http://engineering.hackerearth.com/2017/04/03/streaming-android-apps-via-the-browser/",
+      "summary": "HackerEarth prides itself in its scalable & automated evaluation system. What was initially designed keeping standard programming problems in mind (check this post out), gradually evolved to accommodate a plethora of problem types across various tech domains.\nCurrently supported Problem Types…",
+      "author": null,
+      "publishedAt": "2017-04-03T00:00:00.000Z"
+    },
+    {
+      "guid": "http://engineering.hackerearth.com/2017/03/21/monitoring-and-alert-system-using-graphite-and-cabot",
+      "title": "Monitoring and alert system using Graphite and Cabot",
+      "link": "http://engineering.hackerearth.com/2017/03/21/monitoring-and-alert-system-using-graphite-and-cabot/",
+      "summary": "Introduction\nThe infrastructure that powers a product and all of the services that it provides can be huge and complex because the product is scaled to serve millions of users.\nIn most cases, each service might depend on various components for seamless functioning. With a product that houses a…",
+      "author": null,
+      "publishedAt": "2017-03-21T00:00:00.000Z"
+    },
+    {
+      "guid": "http://engineering.hackerearth.com/2017/03/07/leveraging-reactjs-in-hackerearth-assessment-environment",
+      "title": "Leveraging ReactJS in HackerEarth Assessment Environment",
+      "link": "http://engineering.hackerearth.com/2017/03/07/leveraging-reactjs-in-hackerearth-assessment-environment/",
+      "summary": "ReactJS, as the name suggests, helps create reactive (read interactive) UIs. If we have a UI with many interactive elements and on each interaction a bunch of elements change, ReactJS efficiently updates and renders the required elements. At HackerEarth, one such UI is the programming assessment…",
+      "author": null,
+      "publishedAt": "2017-03-07T00:00:00.000Z"
+    },
+    {
+      "guid": "http://engineering.hackerearth.com/2016/11/17/wtf-is-mvp",
+      "title": "WTF is MVP ?",
+      "link": "http://engineering.hackerearth.com/2016/11/17/wtf-is-mvp/",
+      "summary": "If you are here searching for answers about Minimum Viable Product or you are here as a result of watching the first episode of the first season of Silicon Valley, this might not be the blog you are looking for. If you are a software engineer and you develop apps (especially on Android), this is a…",
+      "author": null,
+      "publishedAt": "2016-11-17T00:00:00.000Z"
+    },
+    {
+      "guid": "http://engineering.hackerearth.com/2016/02/11/sending-emails-to-our-half-million-and-growing-user-community",
+      "title": "Sending emails to our half million and growing user community",
+      "link": "http://engineering.hackerearth.com/2016/02/11/sending-emails-to-our-half-million-and-growing-user-community/",
+      "summary": "At hackerearth we send emails to keep our users updated on upcoming challenges and\ntheir activities, for example, when a user successfully solves a problem,\nreceives test-invitation, updates on user comments. Basically whenever\nit is appropriate.\nArchitecture\nIt takes lot of computational power to…",
+      "author": null,
+      "publishedAt": "2016-02-11T00:00:00.000Z"
+    },
+    {
+      "guid": "http://engineering.hackerearth.com/2016/02/02/latex-support-using-MathJax",
+      "title": "Beautiful Math Symbols",
+      "link": "http://engineering.hackerearth.com/2016/02/02/latex-support-using-MathJax/",
+      "summary": "Introduction:\nBy nature HackerEarth has so many programming puzzles. These puzzles bound to have mathematical equations, statements and symbols. Problem Setters often requested us to add support for Latex.\nImplementation:\nThe obvious and easy solution for this is to implement Latex support for…",
+      "author": null,
+      "publishedAt": "2016-02-02T00:00:00.000Z"
+    },
+    {
+      "guid": "http://engineering.hackerearth.com/2016/02/02/analyzing-submissions-realtime-for-social-media-updates",
+      "title": "Analyzing submissions in real time for social media updates",
+      "link": "http://engineering.hackerearth.com/2016/02/02/analyzing-submissions-realtime-for-social-media-updates/",
+      "summary": "Objective\nIn Jan 2015, HackerEarth conducted nearly 10-12 hiring challenges, 5-6 coding challenges and numerous college challenges.\nHackerEarth has a decent social media presence and we wanted to inform our followers about the events at HackerEarth.\nOne of the main objectives of this project was to…",
+      "author": null,
+      "publishedAt": "2016-02-02T00:00:00.000Z"
+    },
+    {
+      "guid": "http://engineering.hackerearth.com/2016/02/01/profiling-django-views",
+      "title": "Profiling django views for SQL queries",
+      "link": "http://engineering.hackerearth.com/2016/02/01/profiling-django-views/",
+      "summary": "We at HackerEarth regularly conduct 24-hours internal hackathons usually once a\nmonth to boost ourselves to get familiar with new technologies and to come up\nwith great ideas and hacks to increase our productivity. A hackathon project\ncan be anything from creating a new product to creating some…",
+      "author": null,
+      "publishedAt": "2016-02-01T00:00:00.000Z"
+    },
+    {
+      "guid": "http://engineering.hackerearth.com/2016/01/29/smart-sugesstions-with-elasticsearch",
+      "title": "Smart suggestions with Django, Elasticsearch and Haystack",
+      "link": "http://engineering.hackerearth.com/2016/01/29/smart-sugesstions-with-elasticsearch/",
+      "summary": "Introduction\nOne of the primary issues when gathering information from users is suggesting the right options that they are looking for. At HackerEarth, we gather information from all our developers which help\nus provide them a better experience. So there came a time when we had to suggest very…",
+      "author": null,
+      "publishedAt": "2016-01-29T00:00:00.000Z"
+    },
+    {
+      "guid": "http://engineering.hackerearth.com/2016/01/29/managing-roles-and-access-control",
+      "title": "Managing roles and access control in a web application",
+      "link": "http://engineering.hackerearth.com/2016/01/29/managing-roles-and-access-control/",
+      "summary": "HackerEarth Recruit, is a platform for technical recruitment. Many companies use this platform for candidate assessments and interviewing.\nThere can be multiple admins for a company account. As teams grow in size, access control is a special concern for applications that deal with financial and…",
+      "author": null,
+      "publishedAt": "2016-01-29T00:00:00.000Z"
+    },
+    {
+      "guid": "http://engineering.hackerearth.com/2016/01/29/hackerearth-logging-javascript-errors-production",
+      "title": "Logging Javascript errors in production",
+      "link": "http://engineering.hackerearth.com/2016/01/29/hackerearth-logging-javascript-errors-production/",
+      "summary": "We had implemented a javascript logger to capture the pesky issues our users faced and had problems when using the site. When we came up with the idea, we thought it would be just a five minute job where we would just have to add a snippet and would be done, but as it is well know, nothing is…",
+      "author": null,
+      "publishedAt": "2016-01-29T00:00:00.000Z"
+    },
+    {
+      "guid": "http://engineering.hackerearth.com/2016/01/29/ab-testing-using-django",
+      "title": "A/B testing using Django",
+      "link": "http://engineering.hackerearth.com/2016/01/29/ab-testing-using-django/",
+      "summary": "Whenever we roll out an improvement on our platform, we at HackerEarth love to conduct A/B tests on the improvement to understand which iteration helps our users more in using the platform in a better way. Since the available third party libraries did not quite meet our needs, we wrote our own A/B…",
+      "author": null,
+      "publishedAt": "2016-01-29T00:00:00.000Z"
+    },
+    {
+      "guid": "http://engineering.hackerearth.com/2015/10/31/hackerearth-question-library-data-analysis-and-health",
+      "title": "HackerEarth Question Library: Stats, Usage Analysis and Health",
+      "link": "http://engineering.hackerearth.com/2015/10/31/hackerearth-question-library-data-analysis-and-health/",
+      "summary": "We, at HackerEarth, cater a huge number of questions in Assessment tool.\nRecruiters can choose from wide varieties of Multiple Choice and Programming/Coding questions to assess candidates.\nEvery week or two, new questions are added to the Questions Library.\nAs the time passed, thousands of…",
+      "author": null,
+      "publishedAt": "2015-10-31T00:00:00.000Z"
+    },
+    {
+      "guid": "http://engineering.hackerearth.com/2015/02/26/logging-millions-requests-what-it-takes",
+      "title": "Logging millions of requests everyday and what it takes",
+      "link": "http://engineering.hackerearth.com/2015/02/26/logging-millions-requests-what-it-takes/",
+      "summary": "HackerEarth’s web servers handle millions of requests every day. These request\nlogs can be analyzed to mine some highly useful insights as well as metrics\ncritical for the business, for example, no. of views per day, no. of views per\nsub product, most popular user navigation flow etc.\nInitial…",
+      "author": null,
+      "publishedAt": "2015-02-26T00:00:00.000Z"
+    },
+    {
+      "guid": "http://engineering.hackerearth.com/2015/02/14/django-sessions-patch",
+      "title": "Patching django sessions to control user sessions",
+      "link": "http://engineering.hackerearth.com/2015/02/14/django-sessions-patch/",
+      "summary": "###Introduction\nHackerEarth uses django framework at its heart. We use two third party django\npackages for the purpose of user authentication and session management:\ndjango-allauth: Provides pre-built modules for email-based as well as all popular social authentication mechanisms.…",
+      "author": null,
+      "publishedAt": "2015-02-14T00:00:00.000Z"
+    },
+    {
+      "guid": "http://engineering.hackerearth.com/2015/01/27/making-comments-more-powerful",
+      "title": "Building a powerful comment system",
+      "link": "http://engineering.hackerearth.com/2015/01/27/making-comments-more-powerful/",
+      "summary": "In this post, I am going to briefly descibe the challenges we faced while building a powerful\ncomment system.\nComments have become an integral part of our website. They are integrated almost everywhere - \nchallenges, problems, notes etc. and soon will be added to our new products. We have\nbeen…",
+      "author": null,
+      "publishedAt": "2015-01-27T00:00:00.000Z"
+    },
+    {
+      "guid": "http://engineering.hackerearth.com/2014/10/17/using-fluentd",
+      "title": "Aggregating Apache logs with Fluentd and Amazon S3",
+      "link": "http://engineering.hackerearth.com/2014/10/17/using-fluentd/",
+      "summary": "HackerEarth infrastructure is hosted on Amazon services. At any given point of time many\nwebservers are running concurrently serving thousands of requests. This\ngenerates tons of access and error logs on each server separately. The task\nhere was to  parse the logs on all these webservers and store…",
+      "author": null,
+      "publishedAt": "2014-10-17T00:00:00.000Z"
+    },
+    {
+      "guid": "http://engineering.hackerearth.com/2014/08/21/python-requests-module",
+      "title": "Using APIs with Python Requests Module",
+      "link": "http://engineering.hackerearth.com/2014/08/21/python-requests-module/",
+      "summary": "One of the most liked feature of the newly launched HackerEarth profile is the accounts\nconnections through which you can boast about your coding activity in various\nplatforms.\nGithub and StackOverflow provide their API to pull out various kinds of data.\nThe API documentation of Github and…",
+      "author": null,
+      "publishedAt": "2014-08-21T00:00:00.000Z"
+    },
+    {
+      "guid": "http://engineering.hackerearth.com/2014/06/18/hackerearth-streak-an-exciting-data-about-your-hackerearth-activity",
+      "title": "HackerEarth Streak: An exciting data about your HackerEarth activity",
+      "link": "http://engineering.hackerearth.com/2014/06/18/hackerearth-streak-an-exciting-data-about-your-hackerearth-activity/",
+      "summary": "We have been constantly adding features to our HackerEarth Developer Profile, making it better with every new update.\nHackerEarth Activity page.\nThis post explains how we process user data and compute such results. We split it into two parts:\nCode Streak:  Maximum number of unique problems solved…",
+      "author": null,
+      "publishedAt": "2014-06-18T00:00:00.000Z"
+    },
+    {
+      "guid": "http://engineering.hackerearth.com/2014/06/07/using-google-apis-in-django",
+      "title": "Using Google Data APIs with django apps",
+      "link": "http://engineering.hackerearth.com/2014/06/07/using-google-apis-in-django/",
+      "summary": "####Setting up a Google Project\nIn order to use any of the Google APIs for your application, first you need to\nset up a project in the Google Developer’s\nConsole. Enable all the APIs\nthat you want to use in the APIs tab under APIs and auth. Under the Credentials\ntab, create a Client ID and Client…",
+      "author": null,
+      "publishedAt": "2014-06-07T00:00:00.000Z"
+    },
+    {
+      "guid": "http://engineering.hackerearth.com/2014/01/27/big-outage-25-january",
+      "title": "Post-mortem: The big outage on January 25, 2014",
+      "link": "http://engineering.hackerearth.com/2014/01/27/big-outage-25-january/",
+      "summary": "25th January was a rather unfortunate day for us. The monthly challenge -\nJanuary Jackpot 2014 which\nwas scheduled at 9:30 PM that day was cancelled due to turn of events going\nwrong at the worst possible time. We regret once again for the incovenience\ncaused to you, and this is a postemortem of…",
+      "author": null,
+      "publishedAt": "2014-01-27T00:00:00.000Z"
+    },
+    {
+      "guid": "http://engineering.hackerearth.com/2014/01/22/programming-challenges-uptime-mistakes",
+      "title": "Programming challenges, uptime, and mistakes in 2013",
+      "link": "http://engineering.hackerearth.com/2014/01/22/programming-challenges-uptime-mistakes/",
+      "summary": "HackerEarth hosted more than thousand\ncontests in the year 2013 alone. Out of them, there were more than two\ndozen public programming contests by HackerEarth itself. They include our\nmonthly challenges and hiring challenges. There were over 200\ninternal and public contests by colleges in the…",
+      "author": null,
+      "publishedAt": "2014-01-22T00:00:00.000Z"
+    },
+    {
+      "guid": "http://engineering.hackerearth.com/2014/01/21/introducing-codeplayer",
+      "title": "Introducing CodePlayer - watch your code like a movie",
+      "link": "http://engineering.hackerearth.com/2014/01/21/introducing-codeplayer/",
+      "summary": "Ever thought of sharing solution of a coding problem in form of a video with\nsomeone, to teach them how you implemented the solution. Or, wanted to see\nwhat’s the thought process of a potential employee when he/she solves a difficult\nproblem. Ofcourse you have thought about it. But, it was not…",
+      "author": null,
+      "publishedAt": "2014-01-21T00:00:00.000Z"
+    },
+    {
+      "guid": "http://engineering.hackerearth.com/2013/11/21/scaling-python-django-application-apache-mod_wsgi",
+      "title": "Scaling Python/Django application with Apache and mod_wsgi",
+      "link": "http://engineering.hackerearth.com/2013/11/21/scaling-python-django-application-apache-mod_wsgi/",
+      "summary": "HackerEarth is primarily based on\nPython & Django. And we use Apache with\nmod_wsgi for hosting the application. There is a general complaint that Apache\nsucks when it comes to hosting Python web applications. It’s said that it’s\nslow, bloated, uses lots of memory and doesn’t perform very well. It’s…",
+      "author": null,
+      "publishedAt": "2013-11-21T00:00:00.000Z"
+    },
+    {
+      "guid": "http://engineering.hackerearth.com/2013/10/07/scaling-database-with-django-and-haproxy",
+      "title": "Scaling database with Django and HAProxy",
+      "link": "http://engineering.hackerearth.com/2013/10/07/scaling-database-with-django-and-haproxy/",
+      "summary": "###MySQL - Primary data store\nAt HackerEarth,\nwe use MySQL database as the primary data store. We have\nexperimented with a few NoSQL databases on the way, but the results have been\nlargely unsatisfactory. The distributed databases like MongoDB or CouchDB aren’t\nvery scalable or stable.\nRight now,…",
+      "author": null,
+      "publishedAt": "2013-10-07T00:00:00.000Z"
+    },
+    {
+      "guid": "http://engineering.hackerearth.com/2013/09/13/the-hackerearth-data-challenge",
+      "title": "The HackerEarth Data Challenge",
+      "link": "http://engineering.hackerearth.com/2013/09/13/the-hackerearth-data-challenge/",
+      "summary": "40,000+ programmers use HackerEarth. Everyday, people from all over India and\nother countries submit code on HackerEarth, solve problems and participate in\nonline coding tests. Our\nCodeFactory server \nhas processed over\n500,000 requests till now. There are different types of\nchallenges running…",
+      "author": null,
+      "publishedAt": "2013-09-13T00:00:00.000Z"
+    },
+    {
+      "guid": "http://engineering.hackerearth.com/2013/09/09/hackerearth-api-v2-asynchronous-callbacks",
+      "title": "HackerEarth API v2: Introducing asynchronous callbacks",
+      "link": "http://engineering.hackerearth.com/2013/09/09/hackerearth-api-v2-asynchronous-callbacks/",
+      "summary": "We had already published HackerEarth API v1 in February, 2012 at\nhttp://developer.hackerearth.com.\nThe API v1 was synchronous\nin nature. This means that your request kept hanging until the\ncode evaluation was done and response was received. This seriously\nlimited anyone from writing robust…",
+      "author": null,
+      "publishedAt": "2013-09-09T00:00:00.000Z"
+    },
+    {
+      "guid": "http://engineering.hackerearth.com/2013/08/05/continuous-deployment-system",
+      "title": "Continuous Deployment System",
+      "link": "http://engineering.hackerearth.com/2013/08/05/continuous-deployment-system/",
+      "summary": "This is one of the coolest and important thing we recently built at HackerEarth. \nWhat’s so cool about it? Just have a little patience, you will soon \nfind out. But make sure you read till the end :)\nI will try to make this post as resourceful, and clear so \nthat people who always wondered how to…",
+      "author": null,
+      "publishedAt": "2013-08-05T00:00:00.000Z"
+    },
+    {
+      "guid": "http://engineering.hackerearth.com/2013/06/05/scheduling-emails-with-celery-in-django",
+      "title": "Scheduling emails with celery in Django",
+      "link": "http://engineering.hackerearth.com/2013/06/05/scheduling-emails-with-celery-in-django/",
+      "summary": "After a long journey with Django, you come to a place where you feel the need to\nget some tasks done asynchronously without any supervision of human. Some tasks\nneed to be scheduled to run once at a particular time or after some time and\nsome tasks have to be run periodically like\ncrontab. One of…",
+      "author": null,
+      "publishedAt": "2013-06-05T00:00:00.000Z"
+    },
+    {
+      "guid": "http://engineering.hackerearth.com/2013/05/31/the-robust-realtime-server",
+      "title": "The Robust Realtime Server",
+      "link": "http://engineering.hackerearth.com/2013/05/31/the-robust-realtime-server/",
+      "summary": "This is going to be a long blog post but I promise you will find some interesting\npiece of engineering here, so stay till the end.\n\nThe realtime server manages the live update of webpages when the data changes\nin the data storage system (database or cache). We had a realtime server\nin-place but…",
+      "author": null,
+      "publishedAt": "2013-05-31T00:00:00.000Z"
+    },
+    {
+      "guid": "http://engineering.hackerearth.com/2013/03/20/hackerearth-technology-stack",
+      "title": "HackerEarth Technology Stack",
+      "link": "http://engineering.hackerearth.com/2013/03/20/hackerearth-technology-stack/",
+      "summary": "Originally posted as Quora answer.\n\nThis might take a while, so go grab some popcorn. You are going to enjoy this :)\nAt HackerEarth, we deeply believe in open-source.\nWhy not, our roots are in\nthere. We use open-source software, hack it according to our needs and create\nsomething amazing out of…",
+      "author": null,
+      "publishedAt": "2013-03-20T00:00:00.000Z"
+    },
+    {
+      "guid": "http://engineering.hackerearth.com/2013/03/13/challenges-analytics",
+      "title": "Analytics for Challenges",
+      "link": "http://engineering.hackerearth.com/2013/03/13/challenges-analytics/",
+      "summary": "First view the awesome charts and graph for [HackerEarth Practice Challenge] (http://www.hackerearth.com/hackerearth-practice-challenge/analytics/). I will\nexplain it’s implementation details later in the post.\n\nWhy bother for Challenge Analytics?\nWe thrive on challenge but challenge is no fun…",
+      "author": null,
+      "publishedAt": "2013-03-13T00:00:00.000Z"
+    },
+    {
+      "guid": "http://engineering.hackerearth.com/2013/03/12/100000-strong",
+      "title": "100,000 strong - CodeFactory server",
+      "link": "http://engineering.hackerearth.com/2013/03/12/100000-strong/",
+      "summary": "The Inception\nJanuary 2012 was an idyllic time for us. Three of us had just teamed up to build\nsomething\ncool. \nThere was no planning for the future, no sort of agreement - we\nwere just three geeks sitting in the dorm room who wanted to build a product.\nWe started working on MyCareerStack where…",
+      "author": null,
+      "publishedAt": "2013-03-12T00:00:00.000Z"
+    },
+    {
+      "guid": "http://engineering.hackerearth.com/2013/03/11/hackerearth-vim-plugin",
+      "title": "Vim plugin to compile/run code using API",
+      "link": "http://engineering.hackerearth.com/2013/03/11/hackerearth-vim-plugin/",
+      "summary": "tl;dr\nCheck out https://github.com/HackerEarth/hackerearth.vim\nI love Vim editor. And the idea of a plugin to compile and run code from my favorite\ncode editor sounded exciting. HackerEarth API\nmade it easier.\nOh man - this is going to be the coolest thing I have ever built. Whoa,\nwait a minute.…",
+      "author": null,
+      "publishedAt": "2013-03-11T00:00:00.000Z"
+    }
+  ],
+  "totalIndexed": 44
+}

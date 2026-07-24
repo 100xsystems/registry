@@ -1,0 +1,93 @@
+{
+  "feedId": "freeletics",
+  "feedName": "Freeletics",
+  "feedSiteUrl": "https://freeletics.engineering/",
+  "feedRssUrl": "https://freeletics.engineering/feed.xml",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T06:50:13.923Z",
+  "items": [
+    {
+      "guid": "freeletics::/2021/11/16/droidcon-berlin-2021.html",
+      "title": "droidcon Berlin 2021: impressions and trends",
+      "link": "https://freeletics.engineering/2021/11/16/droidcon-berlin-2021.html",
+      "summary": "Last month three Android engineers from Freeletics went to the first in a long time in-person conference - droidcon Berlin 2021. The conference was packed with interesting topics, this blog post is just a snapshot of topics we were most interested in.\nFull content of the conference can be found…",
+      "author": "Alexey Reznik",
+      "publishedAt": "2021-11-16T11:00:00.000Z"
+    },
+    {
+      "guid": "freeletics::/2021/04/20/my-five-years-learnings-at-freeletics.html",
+      "title": "My Five Years Learnings at Freeletics",
+      "link": "https://freeletics.engineering/2021/04/20/my-five-years-learnings-at-freeletics.html",
+      "summary": "It has been already more than one month since I left my last job at Freeletics. I am still enjoying the last days of my days off, before I start my new job very soon. But I have been planning since then to write about my interesting experience and learnings at this unique company, and finally the…",
+      "author": "Omar Qunsul",
+      "publishedAt": "2021-04-20T06:13:00.000Z"
+    },
+    {
+      "guid": "freeletics::/2021/01/26/scaling-authorized-content-access-in-microservice-architecture.html",
+      "title": "Scaling Authorized Content Access in microservice Architecture",
+      "link": "https://freeletics.engineering/2021/01/26/scaling-authorized-content-access-in-microservice-architecture.html",
+      "summary": "Background\nIn 2020, Freeletics had huge surge in traffic as users started to look for best digital health app to keep them fit during the COVID-19 lockdown.\nThis initially led to performance degradation of our servers, about which we were alerted from our monitoring services and user’s complain.\nWe…",
+      "author": "bishwa",
+      "publishedAt": "2021-01-26T00:00:00.000Z"
+    },
+    {
+      "guid": "freeletics::/2021/01/22/abstraction-text-resource.html",
+      "title": "Finding the right abstraction (when working with Strings on Android)",
+      "link": "https://freeletics.engineering/2021/01/22/abstraction-text-resource.html",
+      "summary": "Finding the right abstraction is hard.\nIn this blog post, I would like to share a technique that works well for us (my android teammates and me) when dealing with String resources on android.\nAn abstraction layer for Strings?\nWhy do we even need an abstraction to simply work with Strings on…",
+      "author": "Hannes Dorfmann",
+      "publishedAt": "2021-01-22T07:00:00.000Z"
+    },
+    {
+      "guid": "freeletics::/2020/06/29/state-layout.html",
+      "title": "How we manage UI states in Android",
+      "link": "https://freeletics.engineering/2020/06/29/state-layout.html",
+      "summary": "Our main Freeletics app like many other modern mobile applications often uses client-server communications. It means that the data should be loaded from the server before being shown to the user. Therefore, the most common pattern while building features is: \nshow progress indicator while we…",
+      "author": "Dmytro Khmelenko",
+      "publishedAt": "2020-06-29T07:00:00.000Z"
+    },
+    {
+      "guid": "freeletics::/2020/06/22/ios_tracking_coredata.html",
+      "title": "Implementing a Tracking System for iOS with CoreData",
+      "link": "https://freeletics.engineering/2020/06/22/ios_tracking_coredata.html",
+      "summary": "As iOS developers, we often need to implement tracking in our applications. There are many third-party frameworks that would allow us to implement tracking systems in our projects. But in this article, we are going to talk about how we have implemented our custom tracking infrastructure at…",
+      "author": "Emre Havan",
+      "publishedAt": "2020-06-22T06:00:00.000Z"
+    },
+    {
+      "guid": "freeletics::/2019/10/30/shared_login.html",
+      "title": "Shared login across Android apps",
+      "link": "https://freeletics.engineering/2019/10/30/shared_login.html",
+      "summary": "A little background\nOur two flagship Android apps - Bodyweight and Nutrition serve two very different needs but usually to the same target audience. An essential feature missing in the user experience so far was to share the login across the two apps so that users who were signed into one of these…",
+      "author": "Aditya Kushwaha",
+      "publishedAt": "2019-10-30T15:00:00.000Z"
+    },
+    {
+      "guid": "freeletics::/2019/10/18/continuous-integration-for-rails-project-using-github-actions.html",
+      "title": "Continuous Integration for Rails project using Github Actions",
+      "link": "https://freeletics.engineering/2019/10/18/continuous-integration-for-rails-project-using-github-actions.html",
+      "summary": "Intro\nWith the release of Github Actions, we experimented with it to replace our current Continuous Integration (CI) process.\nThis post describes the steps we took in order to do so.\nOur CI includes of 3 checks:\nspecs\nrubocop check\nlinter check for swagger docs\nThese checks run every time a…",
+      "author": "bishwa",
+      "publishedAt": "2019-10-18T10:00:00.000Z"
+    },
+    {
+      "guid": "freeletics::/2019/09/09/automating-your-github-routine.html",
+      "title": "Automating your GitHub routine",
+      "link": "https://freeletics.engineering/2019/09/09/automating-your-github-routine.html",
+      "summary": "Like many developers in the realm of Software Engineering, we are using git as our version control system. The most typical git workflow looks like the following:\nCreate a new branch for implementing a new feature\nCommit new changes and push them to the remote branch\nCreate a pull request and let…",
+      "author": "Dmytro Khmelenko",
+      "publishedAt": "2019-09-09T06:00:00.000Z"
+    },
+    {
+      "guid": "freeletics::/2019/06/03/ios_gps_testing.html",
+      "title": "A Comprehensive Guide to Testing iOS GPS Accuracy",
+      "link": "https://freeletics.engineering/2019/06/03/ios_gps_testing.html",
+      "summary": "Hundredths of a second typically separate Gold medalists and Silver medalists in an Olympic track race, and as such, precise timing measurements are critical.\nEven if you’re not training for the next Olympic Games, you probably want an accurate estimate of distance and time when you go for a run.…",
+      "author": "trevor",
+      "publishedAt": "2019-06-03T06:00:00.000Z"
+    }
+  ],
+  "totalIndexed": 10
+}

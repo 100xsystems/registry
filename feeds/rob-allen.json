@@ -1,0 +1,93 @@
+{
+  "feedId": "rob-allen",
+  "feedName": "Rob Allen",
+  "feedSiteUrl": "https://akrabat.com/",
+  "feedRssUrl": "https://akrabat.com/feed/",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T07:07:29.038Z",
+  "items": [
+    {
+      "guid": "https://akrabat.com/?p=7569",
+      "title": "Opening Sublime Text from the command line",
+      "link": "https://akrabat.com/opening-sublime-text-from-the-command-line/",
+      "summary": "I nearly always open Sublime Text from the command line using subl and have specific requirements for when it should open a new window or re-use one. If I'm opening a directory, then I would like it to re-use the same window if I have previously opened that directory. However if I open a random…",
+      "author": "Rob",
+      "publishedAt": "2026-06-30T10:00:00.000Z"
+    },
+    {
+      "guid": "https://akrabat.com/?p=7566",
+      "title": "Fixing two minor git irritations in my OSS fork workflow",
+      "link": "https://akrabat.com/fixing-two-minor-git-irritations-in-my-oss-fork-workflow/",
+      "summary": "For OSS work, I work with two git remotes: upstream: the canonical OSS project repository, where main is the default branch and is what gets released. origin: a personal fork. All my feature branches live here. I set up locally like this: Fork the project repo to my account. Clone my fork locally,…",
+      "author": "Rob",
+      "publishedAt": "2026-05-26T10:00:00.000Z"
+    },
+    {
+      "guid": "https://akrabat.com/?p=7557",
+      "title": "Create an HTML version of an OpenAPI spec",
+      "link": "https://akrabat.com/create-an-html-version-of-an-openapi-spec/",
+      "summary": "I have a new project where we will be integrating with a third party API that is currently being written. Due to Conway's Law, we are being sent new versions of the OpenAPI spec as a set of JSON files via email. I quite like seeing the HTML rendering of an OpenAPI spec when reading it and…",
+      "author": "Rob",
+      "publishedAt": "2026-03-17T11:00:00.000Z"
+    },
+    {
+      "guid": "https://akrabat.com/?p=7552",
+      "title": "PHPStan custom rules",
+      "link": "https://akrabat.com/phpstan-custom-rules/",
+      "summary": "Recently I discovered that this code passed our PHPStan level 10 checks: use http\\Exception\\InvalidArgumentException; // ... throw new InvalidArgumentException; I was surprised as http\\Exception\\InvalidArgumentException is not a class in our system. While cooling, I discovered that there's an http…",
+      "author": "Rob",
+      "publishedAt": "2026-03-03T11:00:00.000Z"
+    },
+    {
+      "guid": "https://akrabat.com/?p=7549",
+      "title": "Feelings",
+      "link": "https://akrabat.com/feelings/",
+      "summary": "Today has been a struggle entirely due to my own internal negative thoughts and feelings about impacting events that are outside my control. Navigating this to come out stronger rather than letting it consume my self-belief and confidence isn’t easy, especially at the time. I’m not worse at my job…",
+      "author": "Rob",
+      "publishedAt": "2026-02-27T22:16:58.000Z"
+    },
+    {
+      "guid": "https://akrabat.com/?p=7538",
+      "title": "Dad",
+      "link": "https://akrabat.com/dad/",
+      "summary": "I don't often post personal things here, however last weekend my dad died peacefully in his sleep and it feels important to acknowledge this. I have no words.",
+      "author": "Rob",
+      "publishedAt": "2026-01-22T15:00:00.000Z"
+    },
+    {
+      "guid": "https://akrabat.com/?p=7531",
+      "title": "2025 in pictures",
+      "link": "https://akrabat.com/2025-in-pictures/",
+      "summary": "As we reach the end of 2025, I take this opportunity to look back over the photos that I have taken and thing about the year. This year I published 1,064 photos to Flickr with, of course, at least one photo every day as part of my Project 365. The lovely thing is that my photos remind me what…",
+      "author": "Rob",
+      "publishedAt": "2025-12-31T17:52:04.000Z"
+    },
+    {
+      "guid": "https://akrabat.com/?p=7523",
+      "title": "IPTC export changed in Photos for macOS 26 Tahoe",
+      "link": "https://akrabat.com/iptc-export-changed-in-photos-for-macos-26-tahoe/",
+      "summary": "I've recently upgraded my MacBook Air to macOS 26 Tahoe and one thing I noticed was that Rodeo's rules were no longer working. With the help of exiftool, I worked out that when exporting to JPEG from Photos for macOS 26 Tahoe, the Object Name, Caption-Abstract and Keywords IPRC properties were no…",
+      "author": "Rob",
+      "publishedAt": "2025-11-11T11:00:00.000Z"
+    },
+    {
+      "guid": "https://akrabat.com/?p=7516",
+      "title": "Appending text to Obsidan via Shortcuts",
+      "link": "https://akrabat.com/appending-text-to-obsidan-via-shortcuts/",
+      "summary": "Sometimes it's helpful to add some text to my current Obsidian daily note without having to switch to Obsidian, find the daily note and then type my text. To do this, we can use the magic of Obsidian's obsidian:// URI schema and automate the text capture in Apple Shortcuts, with an assigned…",
+      "author": "Rob",
+      "publishedAt": "2025-10-14T10:00:00.000Z"
+    },
+    {
+      "guid": "https://akrabat.com/?p=7512",
+      "title": "mac-volume: A CLI to control device volume",
+      "link": "https://akrabat.com/mac-volume-a-cli-to-control-device-volume/",
+      "summary": "I've set my Mac up such that video calls such as Zoom use the microphone and earphones attached to my Behringer UMC204HD, which all other audio plays through the my normal speakers which are the default. One issue I have with this is that it's quite hard to change the volume when a call as the…",
+      "author": "Rob",
+      "publishedAt": "2025-10-07T10:00:00.000Z"
+    }
+  ],
+  "totalIndexed": 10
+}

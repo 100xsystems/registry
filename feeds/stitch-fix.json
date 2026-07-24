@@ -1,0 +1,93 @@
+{
+  "feedId": "stitch-fix",
+  "feedName": "Stitch Fix",
+  "feedSiteUrl": "http://multithreaded.stitchfix.com/blog/",
+  "feedRssUrl": "https://multithreaded.stitchfix.com/feed.xml",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T07:10:05.799Z",
+  "items": [
+    {
+      "guid": "https://multithreaded.stitchfix.com/blog/2023/09/19/towards-service-deployment-agility/",
+      "title": "Towards Service Deployment Agility",
+      "link": "https://multithreaded.stitchfix.com/blog/2023/09/19/towards-service-deployment-agility/",
+      "summary": "Introduction\nAt Stitch Fix, our data platform is designed to be self-service, with our users taking ownership of their own ETL, models, and microservices. To support this approach, the platform team prioritizes user autonomy and end-to-end tooling in their tooling designs, minimizing the…",
+      "author": null,
+      "publishedAt": "2023-09-19T15:00:00.000Z"
+    },
+    {
+      "guid": "https://multithreaded.stitchfix.com/blog/2023/06/13/ariadne-observability-ui-for-search/",
+      "title": "Ariadne: building a custom observability UI for personalized search",
+      "link": "https://multithreaded.stitchfix.com/blog/2023/06/13/ariadne-observability-ui-for-search/",
+      "summary": "In June 2022, Stitch Fix launched the Freestyle search feature, transforming how our clients \ndiscover styles that are tailored to their taste. Under the hood, personalized search is \nfulfilled by a pipeline of modular microservices. We designed the search system to be \ncomposable, making it easy…",
+      "author": null,
+      "publishedAt": "2023-06-13T01:00:00.000Z"
+    },
+    {
+      "guid": "https://multithreaded.stitchfix.com/blog/2023/06/08/distributed-model-training/",
+      "title": "Accelerating AI: Implementing Multi-GPU Distributed Training for Personalized Recommendations",
+      "link": "https://multithreaded.stitchfix.com/blog/2023/06/08/distributed-model-training/",
+      "summary": "Stitch Fix uses a cutting-edge multi-tiered recommender system stack to personalize styling recommendations at scale. This stack comprises several critical components, including feature generation, scoring, ranking, and inventory optimization techniques.\nOur scoring module is based on the Client…",
+      "author": null,
+      "publishedAt": "2023-06-08T09:00:00.000Z"
+    },
+    {
+      "guid": "https://multithreaded.stitchfix.com/blog/2023/03/06/expert-in-the-loop-generative-ai-at-stitch-fix/",
+      "title": "A New Era of Creativity: Expert-in-the-loop Generative AI at Stitch Fix",
+      "link": "https://multithreaded.stitchfix.com/blog/2023/03/06/expert-in-the-loop-generative-ai-at-stitch-fix/",
+      "summary": "Generative AI has been gaining attention and popularity in recent years. Made possible with advances in deep learning algorithms and trained with previously unimaginable amounts of data, generative AI has already contributed many real-world use cases, from creating realistic images with systems…",
+      "author": null,
+      "publishedAt": "2023-03-06T09:00:00.000Z"
+    },
+    {
+      "guid": "https://multithreaded.stitchfix.com/blog/2023/02/01/go-polymorphic-interfaces/",
+      "title": "Polymorphic, Recursive Interfaces Using Go Generics",
+      "link": "https://multithreaded.stitchfix.com/blog/2023/02/01/go-polymorphic-interfaces/",
+      "summary": "I did a bit of experimenting over the weekend in an attempt to\nfigure out how to write an interface that abstracted over methods whose\nreturn type was identical to the receiver’s type. This is frequently\na thing that one wants to do when abstracting over self-cloning\nobjects, or things that…",
+      "author": null,
+      "publishedAt": "2023-02-01T09:00:00.000Z"
+    },
+    {
+      "guid": "https://multithreaded.stitchfix.com/blog/2023/01/03/intern-post/",
+      "title": "2022 Intern Projects",
+      "link": "https://multithreaded.stitchfix.com/blog/2023/01/03/intern-post/",
+      "summary": "Earlier this year, we had four fantastic interns join our Algorithms team for 3 months to learn how we harness data science in our work at Stitch Fix. These four interns hail from across the country and spent their time exploring a specific project and advancing their skills in their unique…",
+      "author": null,
+      "publishedAt": "2023-01-03T09:00:00.000Z"
+    },
+    {
+      "guid": "https://multithreaded.stitchfix.com/blog/2022/12/14/plain-old-python-functions/",
+      "title": "Leveraging the Plain Old Python Function",
+      "link": "https://multithreaded.stitchfix.com/blog/2022/12/14/plain-old-python-functions/",
+      "summary": "table.plain-old-python-functions {\n  margin: 0 auto calc(0.5rem + 15px);\n  width: 100%;\n}\ntable.plain-old-python-functions th {\n  font-weight: normal;\n  text-align: right;\n}\ntable.plain-old-python-functions th div.MathJax_Display {\n  text-align: right !important;\n}\ntable.plain-old-python-functions…",
+      "author": null,
+      "publishedAt": "2022-12-14T09:00:00.000Z"
+    },
+    {
+      "guid": "https://multithreaded.stitchfix.com/blog/2022/10/14/client-time-series-model/",
+      "title": "Client Time Series Model: a Multi-Target Recommender System based on Temporally-Masked Encoders",
+      "link": "https://multithreaded.stitchfix.com/blog/2022/10/14/client-time-series-model/",
+      "summary": "Introduction\nThe foundation of our recommendation stack is a scoring model we call p(sale), which estimates the probability that any given client will purchase any given item. This model has gone through many iterations over the years, from a mixed effects model, to a matrix factorization model,…",
+      "author": null,
+      "publishedAt": "2022-10-14T06:00:00.000Z"
+    },
+    {
+      "guid": "https://multithreaded.stitchfix.com/blog/2022/09/29/alessya-algo-hour-announcement/",
+      "title": "Algo Hour - Large Scale Data & ML Monitoring with whylogs | Alessya Visnjic",
+      "link": "https://multithreaded.stitchfix.com/blog/2022/09/29/alessya-algo-hour-announcement/",
+      "summary": "Title:\nLarge Scale Data & ML Monitoring with whylogs\nTalk Abstract:\n\nIn the era of microservices, decentralized ML architectures and complex data pipelines, data quality has become a bigger challenge than ever. When data is involved in complex business processes and decisions, bad data can, and…",
+      "author": null,
+      "publishedAt": "2022-09-29T09:00:00.000Z"
+    },
+    {
+      "guid": "https://multithreaded.stitchfix.com/blog/2022/09/02/stylists-in-the-loop/",
+      "title": "Experts in-the-Loop at Stitch Fix",
+      "link": "https://multithreaded.stitchfix.com/blog/2022/09/02/stylists-in-the-loop/",
+      "summary": "Imagine your job is to personalize search results on an e-commerce site for returning customers, classify the presence or absence of pedestrians in street photos, or develop an app that translates languages. In all of these cases, a basic ingredient is a dataset of annotations provided by a human.…",
+      "author": null,
+      "publishedAt": "2022-09-02T09:00:00.000Z"
+    }
+  ],
+  "totalIndexed": 10
+}

@@ -1,0 +1,413 @@
+{
+  "feedId": "serverless",
+  "feedName": "Serverless",
+  "feedSiteUrl": "https://serverless.com/blog/",
+  "feedRssUrl": "https://www.serverless.com/blog/rss.xml",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T07:09:05.399Z",
+  "items": [
+    {
+      "guid": "https://www.serverless.com/blog/aws-lambda-microvms-sandboxes",
+      "title": "Easily Develop AWS Lambda MicroVM Sandbox Architectures",
+      "link": "https://www.serverless.com/blog/aws-lambda-microvms-sandboxes",
+      "summary": "AWS Lambda MicroVMs are a new compute primitive for running untrusted and agent-generated code in fully isolated Firecracker virtual machines. The Serverless Framework brings them into serverless.yml as Sandboxes, with one-command deploys and a full local MicroVMs emulator so you can build and test…",
+      "author": "Serverless Team",
+      "publishedAt": "2026-07-21T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.serverless.com/blog/aws-bedrock-agentcore-s3-file-mounts-python-install-improvements",
+      "title": "AWS Bedrock AgentCore, S3 File Mounts, Python & Install Improvements",
+      "link": "https://www.serverless.com/blog/aws-bedrock-agentcore-s3-file-mounts-python-install-improvements",
+      "summary": "Serverless Framework's May 2026 update covering built-in AWS Bedrock AgentCore support, S3 file system mounts for Lambda, faster Framework installs, Python improvements, bug fixes, and security updates.",
+      "author": "Serverless Team",
+      "publishedAt": "2026-05-27T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.serverless.com/blog/newsletter-managed-instances-durable-functions-core-integrations",
+      "title": "Newsletter: Managed Instances, Durable Functions, Core Integrations",
+      "link": "https://www.serverless.com/blog/newsletter-managed-instances-durable-functions-core-integrations",
+      "summary": "Serverless Framework's Q1 2026 newsletter covering Lambda managed instances, durable functions, native AppSync support, built-in pruning, AWS SSO login, and plugin-to-core integrations.",
+      "author": "Serverless Team",
+      "publishedAt": "2026-01-20T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.serverless.com/blog/use-new-aws-re-invent-features-today",
+      "title": "Newsletter: Use new AWS re:Invent features today",
+      "link": "https://www.serverless.com/blog/use-new-aws-re-invent-features-today",
+      "summary": "AWS re:Invent’s biggest serverless launches are already live in Serverless Framework v4, with new runtimes, streaming APIs, tenant isolation, enriched IAM and networking controls, and more - all ready to use today, alongside a livestream deep-dive and a limited-time subscription offer.",
+      "author": "Serverless Team",
+      "publishedAt": "2025-12-09T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.serverless.com/blog/newsletter-nov-2025-improved-python-support-merging-plugins-into-core-and-more",
+      "title": "Newsletter: Improved Python Support, Merging Plugins into Core, and more",
+      "link": "https://www.serverless.com/blog/newsletter-nov-2025-improved-python-support-merging-plugins-into-core-and-more",
+      "summary": "Serverless Framework is closing out the year with major updates—new Python support built in, improved reliability during upstream outages, key IAM changes, and upcoming features like OpenTelemetry configuration and expanded variable resolution—while also offering a limited-time 20% end-of-year…",
+      "author": "Serverless Team",
+      "publishedAt": "2025-11-18T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.serverless.com/blog/self-hosting-ai-agents-on-aws-with-serverless-container-framework-v2",
+      "title": "Self-Hosting AI Agents on AWS with Serverless Container Framework v2",
+      "link": "https://www.serverless.com/blog/self-hosting-ai-agents-on-aws-with-serverless-container-framework-v2",
+      "summary": "Serverless Container Framework v2 (SCF v2) makes it easy to deploy powerful AI agents on your own AWS infrastructure—integrating seamlessly with APIs, events, and Slack. Skip the PaaS limitations and build agents that actually fit your stack.",
+      "author": "Serverless Team",
+      "publishedAt": "2025-06-05T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.serverless.com/blog/introducing-the-serverless-mcp",
+      "title": "Introducing the Serverless MCP",
+      "link": "https://www.serverless.com/blog/introducing-the-serverless-mcp",
+      "summary": "The Serverless MCP is a powerful debugging tool that brings AWS Lambda, DynamoDB, and API Gateway state and logs directly into your IDE. Eliminate AWS console visits while troubleshooting serverless applications with AI-assisted diagnostics and resource monitoring.",
+      "author": "Serverless Team",
+      "publishedAt": "2025-04-17T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.serverless.com/blog/introducing-serverless-container-framework",
+      "title": "Introducing Serverless Container Framework",
+      "link": "https://www.serverless.com/blog/introducing-serverless-container-framework",
+      "summary": "A rich development and deployment experience for deploying containers to AWS Lambda and AWS Fargate, without rearchitecting. Serverless Container Framework gives you total flexibility.",
+      "author": "Serverless Team",
+      "publishedAt": "2025-02-04T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.serverless.com/blog/aws-ai-stack",
+      "title": "Introducing The AWS AI Stack",
+      "link": "https://www.serverless.com/blog/aws-ai-stack",
+      "summary": "Full-stack, serverless, boilerplate for AI applications on AWS, featuring Bedrock LLMs like Claude 3.5 Sonnet and Llama3.1, a React front-end, AWS Lambda back-end, built-in CI/CD and more.",
+      "author": "Serverless Team",
+      "publishedAt": "2024-09-11T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.serverless.com/blog/serverless-framework-axiom-integration",
+      "title": "Slash AWS Lambda Observability Costs with Serverless Framework’s Axiom Integration",
+      "link": "https://www.serverless.com/blog/serverless-framework-axiom-integration",
+      "summary": "Optimize AWS Lambda observability with Axiom and Serverless Framework. Save on costs compared to AWS CloudWatch while enjoying seamless logs, metrics, and traces integration. Simple setup, advanced configuration, and non-disruptive transition for efficient serverless deployments.",
+      "author": "Serverless Team",
+      "publishedAt": "2024-08-26T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.serverless.com/blog/serverless-framework-now-supports-aws-sam-cloudformation",
+      "title": "Serverless Framework Now Supports AWS SAM & Cloudformation",
+      "link": "https://www.serverless.com/blog/serverless-framework-now-supports-aws-sam-cloudformation",
+      "summary": "Serverless Framework 4.2.3 now supports AWS SAM and CloudFormation templates, simplifying AWS Lambda development. Deploy SAM/CF projects seamlessly, use Serverless Variables, and streamline your workflow. Perfect for organizations seeking to consolidate serverless tools and standardize development…",
+      "author": "Serverless Team",
+      "publishedAt": "2024-08-26T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.serverless.com/blog/serverless-framework-v4-general-availability",
+      "title": "Serverless Framework V4 Generally Available",
+      "link": "https://www.serverless.com/blog/serverless-framework-v4-general-availability",
+      "summary": "Discover the power of Serverless Framework V.4! Native TypeScript support, revamped Dev Mode, and seamless integration with HashiCorp Terraform and Vault. Enjoy faster development, enhanced security, and powerful new features like advanced AWS Lambda logging. Get started now via GitHub or npm.",
+      "author": "Serverless Team",
+      "publishedAt": "2024-06-13T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.serverless.com/blog/serverless-framework-v4-a-new-model",
+      "title": "Serverless Framework V4: A New Model",
+      "link": "https://www.serverless.com/blog/serverless-framework-v4-a-new-model",
+      "summary": "Serverless Framework V.4 will introduce revenue sharing w/ those extending the Framework & fees for orgs w/ $2M+ in annual revenue.",
+      "author": "Serverless Team",
+      "publishedAt": "2023-10-26T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.serverless.com/blog/serverless-cloud-spins-off-as-ampt",
+      "title": "Serverless Cloud spins off as Ampt",
+      "link": "https://www.serverless.com/blog/serverless-cloud-spins-off-as-ampt",
+      "summary": "Serverless Cloud spins off as Ampt while Serverless Inc. stays committed to the observability mission.",
+      "author": "Austen Collins",
+      "publishedAt": "2022-11-15T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.serverless.com/blog/serverless-console-v2",
+      "title": "Introducing Serverless Console V2",
+      "link": "https://www.serverless.com/blog/serverless-console-v2",
+      "summary": "Serverless Console V2 brings real-time spans, requests and responses in Dev Mode, plus enhanced AWS Lambda observability powered by the Telemetry API.",
+      "author": "Austen Collins",
+      "publishedAt": "2022-11-10T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.serverless.com/blog/2022-serverless-community-survey",
+      "title": "2022 Serverless Community Survey",
+      "link": "https://www.serverless.com/blog/2022-serverless-community-survey",
+      "summary": "Results of the 2022 Serverless Community Survey to explore how serverless is used by teams all over the industry.",
+      "author": "Matthieu Napoli",
+      "publishedAt": "2022-08-23T14:56:43.000Z"
+    },
+    {
+      "guid": "https://www.serverless.com/blog/how-to-send-transactional-emails-with-sendinblue-and-serverless-cloud",
+      "title": "How to send transactional emails with Sendinblue and Serverless Cloud",
+      "link": "https://www.serverless.com/blog/how-to-send-transactional-emails-with-sendinblue-and-serverless-cloud",
+      "summary": "This blog post explains how to setup a welcome email flow using Serverless Cloud and Sendinblue.",
+      "author": "Emrah Samdan",
+      "publishedAt": "2022-07-26T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.serverless.com/blog/may-17th-community-call-webinar-recap",
+      "title": "May 17th Community Call - Webinar Recap",
+      "link": "https://www.serverless.com/blog/may-17th-community-call-webinar-recap",
+      "summary": "The on-demand recap of our May 17th community call is now available to stream. We covered how to structure a Serverless Application and we were joined by Purple Technology who shared their serverless story.",
+      "author": "Richard Grant",
+      "publishedAt": "2022-06-22T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.serverless.com/blog/7-reasons-why-serverless-encourages-useful-engineering-practices",
+      "title": "7 Reasons Why Serverless Encourages Useful Engineering Practices",
+      "link": "https://www.serverless.com/blog/7-reasons-why-serverless-encourages-useful-engineering-practices",
+      "summary": "Serverless isn't just great for building stuff fast. It can also help point you in a direction that promotes some useful engineering practices. Anna shares with us 7 ways this happens!",
+      "author": "Anna Geller",
+      "publishedAt": "2022-06-02T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.serverless.com/blog/webinar-getting-started-with-serverless-framework",
+      "title": "Webinar: Getting Started With Serverless Framework",
+      "link": "https://www.serverless.com/blog/webinar-getting-started-with-serverless-framework",
+      "summary": "Sign up now! This webinar is for developers who are looking for a point of entry with Serverless Framework.",
+      "author": "Richard Grant",
+      "publishedAt": "2022-05-25T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.serverless.com/blog/deploying-pytorch-model-as-a-serverless-service",
+      "title": "Deploying PyTorch Model as a Serverless Service",
+      "link": "https://www.serverless.com/blog/deploying-pytorch-model-as-a-serverless-service",
+      "summary": "AI and Serverless work really well together. But not just for AI models. Serverless can also help you in deploying your models to make them available to your users.",
+      "author": "Anand Menon",
+      "publishedAt": "2022-05-19T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.serverless.com/blog/how-to-use-upstash-with-serverless-cloud",
+      "title": "How to Use Upstash with Serverless Cloud",
+      "link": "https://www.serverless.com/blog/how-to-use-upstash-with-serverless-cloud",
+      "summary": "This is a walkthrough on how easy it is to use both Serverless Cloud and Upstash together to easily and quickly offer your users the app performance they deserve.",
+      "author": "Eslam Hefnawy",
+      "publishedAt": "2022-05-18T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.serverless.com/blog/serverless-architecture",
+      "title": "A Guide to Serverless Architecture",
+      "link": "https://www.serverless.com/blog/serverless-architecture",
+      "summary": "In this article learn what serverless architecture is, 3 benefits to using it, and see examples of how it's being used.",
+      "author": "Gareth McCumskey",
+      "publishedAt": "2022-05-17T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.serverless.com/blog/week-of-java-part-5-testing-your-code",
+      "title": "Week of Java: Part 5 - Testing Your Code",
+      "link": "https://www.serverless.com/blog/week-of-java-part-5-testing-your-code",
+      "summary": "To wrap up the 5 part series, lets look more deeply into how to do automated testing of your Serverless application",
+      "author": "Juan Sebastián Urrego Escobar",
+      "publishedAt": "2022-05-13T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.serverless.com/blog/may-17th-community-call-structuring-a-serverless-application-purple-technology",
+      "title": "Structuring a Serverless Application & Purple Technology",
+      "link": "https://www.serverless.com/blog/may-17th-community-call-structuring-a-serverless-application-purple-technology",
+      "summary": "Come join our May Community Call! We'll be covering how to structure a Serverless Application and be joined by Purple Technology who share their serverless story.",
+      "author": "Richard Grant",
+      "publishedAt": "2022-05-12T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.serverless.com/blog/week-of-java-part-4-a-multi-layer-core-for-your-function",
+      "title": "Week of Java: Part 4 - A Multi-layer Core for Your Function",
+      "link": "https://www.serverless.com/blog/week-of-java-part-4-a-multi-layer-core-for-your-function",
+      "summary": "Part 4 of 5 with our series and its time to start implementing our architecture in code and configuration using some appropriate design patterns and following a Function as a Microservice style.",
+      "author": "Juan Sebastián Urrego Escobar",
+      "publishedAt": "2022-05-12T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.serverless.com/blog/week-of-java-part-3-designing-and-implementing-a-multi-tier-lambda-app",
+      "title": "Week of Java: Part 3 - Designing and Implementing a Multi-Tier Lambda App",
+      "link": "https://www.serverless.com/blog/week-of-java-part-3-designing-and-implementing-a-multi-tier-lambda-app",
+      "summary": "In this 3rd part of our 5 part series about Java and Serverless, we design our full architecture and look at all the pieces in preperation for our code.",
+      "author": "Juan Sebastián Urrego Escobar",
+      "publishedAt": "2022-05-11T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.serverless.com/blog/week-of-java-part-2-setting-up-your-local-development-environment",
+      "title": "Week of Java: Part 2 - Setting Up Your Local Development Environment",
+      "link": "https://www.serverless.com/blog/week-of-java-part-2-setting-up-your-local-development-environment",
+      "summary": "When building Java based Serverless applications, testing locally can be handy. In part 2 of the series we find out how.",
+      "author": "Juan Sebastián Urrego Escobar",
+      "publishedAt": "2022-05-10T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.serverless.com/blog/may-4th-community-call-webinar-recap",
+      "title": "May 4th Community Call - Webinar Recap",
+      "link": "https://www.serverless.com/blog/may-4th-community-call-webinar-recap",
+      "summary": "The on-demand recap of our May 4th community call is now available to stream.",
+      "author": "Richard Grant",
+      "publishedAt": "2022-05-10T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.serverless.com/blog/week-of-java-part-1-setting-up-the-project",
+      "title": "Week of Java: Part 1 - Setting Up the Project",
+      "link": "https://www.serverless.com/blog/week-of-java-part-1-setting-up-the-project",
+      "summary": "Serverless and Java (using Kotlin) can be a great match. Juan spends the time this week showing us how with part 1 being all about setting up.",
+      "author": "Juan Sebastián Urrego Escobar",
+      "publishedAt": "2022-05-09T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.serverless.com/blog/joot-machine-learning-serverless-framework",
+      "title": "Joot & Serverless: Machine Learning for Image Optimization on the Serverless Framework",
+      "link": "https://www.serverless.com/blog/joot-machine-learning-serverless-framework",
+      "summary": "Joot, a social media image optimization tool, needed to accelerate their development and deploy their application quickly. Serverless was an all-in-one solution for Joot.",
+      "author": "Richard Grant",
+      "publishedAt": "2022-05-04T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.serverless.com/blog/using-next-js-isr-with-serverless-cloud",
+      "title": "Using Next.js ISR with Serverless Cloud",
+      "link": "https://www.serverless.com/blog/using-next-js-isr-with-serverless-cloud",
+      "summary": "In this article I'll introduce you to an amazing feature of Next.js called Incremental Static Regeneration (ISR) and show you how to enable it in your Serverless Cloud Next.js applications.",
+      "author": "Russ Schick",
+      "publishedAt": "2022-04-28T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.serverless.com/blog/may-community-call-serverless-framework-compose-console-wair",
+      "title": "Framework Compose, Console & WAIR: Serverless Story",
+      "link": "https://www.serverless.com/blog/may-community-call-serverless-framework-compose-console-wair",
+      "summary": "Join our May Community Call! We'll be covering the release of Serverless Compose, early access to Console, and WAIR's Serverless Story",
+      "author": "Richard Grant",
+      "publishedAt": "2022-04-27T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.serverless.com/blog/flask-serverless-api-in-aws-lambda-the-easy-way",
+      "title": "Flask + Serverless — API in AWS Lambda the easy way",
+      "link": "https://www.serverless.com/blog/flask-serverless-api-in-aws-lambda-the-easy-way",
+      "summary": "Flask and Django are two popular WSGI frameworks to combine with Lambda. Michal shows us how to get up and running quickly, build your app and benefit from Lambda.",
+      "author": "Michal Haták",
+      "publishedAt": "2022-04-27T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.serverless.com/blog/how-aws-lambda-retry-really-works",
+      "title": "How AWS Lambda Retry really works",
+      "link": "https://www.serverless.com/blog/how-aws-lambda-retry-really-works",
+      "summary": "Dealing with retry mechanisms can sometimes be a little tricky. Enrico gives us some tips on making the most of this Serverless characteristic.",
+      "author": "Enrico Portolan",
+      "publishedAt": "2022-04-26T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.serverless.com/blog/handling-aws-lambda-python-dependencies",
+      "title": "Handling AWS Lambda Python Dependencies",
+      "link": "https://www.serverless.com/blog/handling-aws-lambda-python-dependencies",
+      "summary": "Ever wondered how to deal with Python dependencies when using the Serverless Framework? Dorian shows us how smple it can really be!",
+      "author": "Dorian Machado",
+      "publishedAt": "2022-04-21T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.serverless.com/blog/how-to-use-serverless-cloud-with-sveltekit",
+      "title": "How to use Serverless Cloud with SvelteKit",
+      "link": "https://www.serverless.com/blog/how-to-use-serverless-cloud-with-sveltekit",
+      "summary": "Serverless Cloud allows developers to build full-stack apps powered by SvelteKit and Serverless Cloud. Develop, build and deploy under a minute with Serverless Cloud",
+      "author": "Doug Moscrop",
+      "publishedAt": "2022-04-20T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.serverless.com/blog/serverless-framework-compose-multi-service-deployments",
+      "title": "Introducing multi-service deployments via Serverless Framework Compose",
+      "link": "https://www.serverless.com/blog/serverless-framework-compose-multi-service-deployments",
+      "summary": "We are excited to announce Serverless Framework Compose: a new feature enabling you to deploy multiple services in one command, in parallel, or ordered by dependencies!",
+      "author": "Matthieu Napoli",
+      "publishedAt": "2022-04-20T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.serverless.com/blog/why-many-engineers-dont-understand-serverless",
+      "title": "Why Many Engineers Don't Understand Serverless",
+      "link": "https://www.serverless.com/blog/why-many-engineers-dont-understand-serverless",
+      "summary": "Cold starts and other issues engineers new to Serverless hear about are not the problem you may think they are. Anna explains why and even how to mitigate them.",
+      "author": "Anna Geller",
+      "publishedAt": "2022-04-19T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.serverless.com/blog/react-js-on-aws-lambda",
+      "title": "React.js on AWS Lambda in 15 minutes or Less",
+      "link": "https://www.serverless.com/blog/react-js-on-aws-lambda",
+      "summary": "Get your own web app up and running in about 15 minutes. You'll only need a basic understanding of AWS Lambda and some proficiency in JavaScript/TypeScript.",
+      "author": "André Rabold",
+      "publishedAt": "2022-04-18T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.serverless.com/blog/aws-lambda-function-urls-with-serverless-framework",
+      "title": "AWS Lambda Function URLs with Serverless Framework",
+      "link": "https://www.serverless.com/blog/aws-lambda-function-urls-with-serverless-framework",
+      "summary": "AWS just released a brand new feature called \"Lambda Function URLs\", and we are happy to announce that Serverless Framework supports Lambda Function URLs immediately.",
+      "author": "Matthieu Napoli",
+      "publishedAt": "2022-04-06T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.serverless.com/blog/guest-interview-serverless-framework-cloud-explained",
+      "title": "ShreyTheCray Interview: Serverless Framework & Cloud Explained",
+      "link": "https://www.serverless.com/blog/guest-interview-serverless-framework-cloud-explained",
+      "summary": "ShreyTheCray interviews Gareth McCumskey as he walks through the purpose, use cases, and process of getting started with the Serverless framework",
+      "author": "Gareth McCumskey",
+      "publishedAt": "2022-03-31T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.serverless.com/blog/introducing-the-serverless-cloud-full-stack-experience",
+      "title": "Introducing the Serverless Cloud Full Stack Experience",
+      "link": "https://www.serverless.com/blog/introducing-the-serverless-cloud-full-stack-experience",
+      "summary": "Introducing our new “Full Stack” experience, making Serverless Cloud the most productive full-stack developer platform you'll ever use.",
+      "author": "Jeremy Daly",
+      "publishedAt": "2022-03-29T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.serverless.com/blog/introducing-atomic-counters-and-batch-sets-for-serverless-data",
+      "title": "Introducing Atomic Counters and Batch Sets for Serverless Data",
+      "link": "https://www.serverless.com/blog/introducing-atomic-counters-and-batch-sets-for-serverless-data",
+      "summary": "We’re happy to announce the addition of atomic counters and batch set operations, giving users even more capabilities to rapidly build modern applications in the cloud.",
+      "author": "Jeremy Daly",
+      "publishedAt": "2022-03-08T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.serverless.com/blog/making-a-discord-playlist-bot-with-serverless-cloud",
+      "title": "Making a Discord Playlist bot with Serverless Cloud",
+      "link": "https://www.serverless.com/blog/making-a-discord-playlist-bot-with-serverless-cloud",
+      "summary": "Learn how to set up a Discord app that automatically adds songs to a Spotify playlist using Serverless Cloud.",
+      "author": "Ben Miner",
+      "publishedAt": "2022-03-04T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.serverless.com/blog/prototype-faster-than-ever-before-with-serverless-cloud",
+      "title": "Prototype faster than ever before with Serverless Cloud",
+      "link": "https://www.serverless.com/blog/prototype-faster-than-ever-before-with-serverless-cloud",
+      "summary": "Learn how Serverless Cloud helps you create fully functional prototypes in no time, all without needing to configure complex cloud infrastructures.",
+      "author": "Emrah Samdan",
+      "publishedAt": "2022-02-25T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.serverless.com/blog/serverless-teams-webinar-recap",
+      "title": "Best Practices for Serverless Teams - Webinar Recap",
+      "link": "https://www.serverless.com/blog/serverless-teams-webinar-recap",
+      "summary": "This is a recap of our recent webinar for team leads",
+      "author": "Richard Grant",
+      "publishedAt": "2022-02-22T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.serverless.com/blog/how-to-use-sendgrid-with-serverless-cloud",
+      "title": "How to Use SendGrid with Serverless Cloud",
+      "link": "https://www.serverless.com/blog/how-to-use-sendgrid-with-serverless-cloud",
+      "summary": "Learn how SendGrid makes it super easy to send emails from your Serverless Cloud applications",
+      "author": "Eslam Hefnawy",
+      "publishedAt": "2022-02-17T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.serverless.com/blog/best-of-both-worlds-serverless-cloud-next-js",
+      "title": "Best of both worlds: Serverless Cloud + Next.js",
+      "link": "https://www.serverless.com/blog/best-of-both-worlds-serverless-cloud-next-js",
+      "summary": "Combining Next.js and Serverless Cloud is a great way to build highly scalable serverless applications that combine the best features of both platforms.",
+      "author": "Russ Schick",
+      "publishedAt": "2022-02-15T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.serverless.com/blog/introducing-serverless-cloud-events",
+      "title": "Introducing Serverless Cloud Events",
+      "link": "https://www.serverless.com/blog/introducing-serverless-cloud-events",
+      "summary": "Serverless Cloud Events is a new feature of Serverless Cloud that lets developers easily build event-driven serverless applications.",
+      "author": "Jeremy Daly",
+      "publishedAt": "2022-02-10T00:00:00.000Z"
+    }
+  ],
+  "totalIndexed": 50
+}

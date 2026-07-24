@@ -1,0 +1,93 @@
+{
+  "feedId": "crystal",
+  "feedName": "Crystal",
+  "feedSiteUrl": "https://crystal-lang.org/",
+  "feedRssUrl": "https://crystal-lang.org/feed.xml",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T06:47:24.595Z",
+  "items": [
+    {
+      "guid": "crystal::https://crystal-lang.org/2026/07/16/1.21.0-released/",
+      "title": "Crystal 1.21.0 is released!",
+      "link": "https://crystal-lang.org/2026/07/16/1.21.0-released/",
+      "summary": "We are announcing a new Crystal release 1.21.0 with several new features and bug\nfixes.\nPre-built packages are available on GitHub\nReleases and our\nofficial distribution channels. See\ncrystal-lang.org/install for installation\ninstructions.\nStats\n\n\n    \n    Section titled Stats\n  \n\n\nThis release…",
+      "author": "Johannes Müller",
+      "publishedAt": "2026-07-16T00:00:00.000Z"
+    },
+    {
+      "guid": "crystal::https://crystal-lang.org/2026/07/12/releasing-execution-contexts/",
+      "title": "Releasing Execution Contexts",
+      "link": "https://crystal-lang.org/2026/07/12/releasing-execution-contexts/",
+      "summary": "Two and a half years ago, with the\ninvaluable support from 84codes, we re-examined the multithreading model\ninherited from Crystal 0.28 (preview MT).\nThere are different ways to spread an application to multiple CPU cores. So far,\npreview MT proposed a simple solution, and it worked great for many…",
+      "author": "Julien Portalier",
+      "publishedAt": "2026-07-12T00:00:00.000Z"
+    },
+    {
+      "guid": "crystal::https://crystal-lang.org/2026/07/02/1.20.3-released/",
+      "title": "Crystal 1.20.3 is released!",
+      "link": "https://crystal-lang.org/2026/07/02/1.20.3-released/",
+      "summary": "We are announcing a new Crystal release 1.20.3 with fixes for two security\nvulnerabilities in the YAML parsers. We recommend upgrading as soon as\npossible if your application processes YAML files from unknown origins.\nSee the release notes of 1.20.0 for all the\nchanges introduced in Crystal 1.20.…",
+      "author": "Julien Portalier",
+      "publishedAt": "2026-07-02T00:00:00.000Z"
+    },
+    {
+      "guid": "crystal::https://crystal-lang.org/2026/05/26/http-request-smuggling-vulnerability-in-http-server/",
+      "title": "Post Mortem: HTTP Request Smuggling Vulnerability",
+      "link": "https://crystal-lang.org/2026/05/26/http-request-smuggling-vulnerability-in-http-server/",
+      "summary": "On 12 April 2026, we received a vulnerability report\nregarding an HTTP request smuggling vulnerability in HTTP::Server.\nThe issue was caused by the HTTP request parser prioritizing the\nContent-Length header over the Transfer-Encoding header, which can lead to\ndesynchronization when a proxy that…",
+      "author": "Julien Portalier",
+      "publishedAt": "2026-05-26T00:00:00.000Z"
+    },
+    {
+      "guid": "crystal::https://crystal-lang.org/2026/05/15/1.20.2-released/",
+      "title": "Crystal 1.20.2 is released!",
+      "link": "https://crystal-lang.org/2026/05/15/1.20.2-released/",
+      "summary": "We are announcing a new Crystal release 1.20.2 with a couple of regressions fixed.\nSee the release notes of 1.20.0 for all the\nchanges introduced in Crystal 1.20.\nPre-built packages are available on GitHub\nReleases and our\nofficial distribution channels. See\ncrystal-lang.org/install for…",
+      "author": "Johannes Müller",
+      "publishedAt": "2026-05-15T00:00:00.000Z"
+    },
+    {
+      "guid": "crystal::https://crystal-lang.org/2026/04/29/1.20.1-released/",
+      "title": "Crystal 1.20.1 is released!",
+      "link": "https://crystal-lang.org/2026/04/29/1.20.1-released/",
+      "summary": "We are announcing a new Crystal release 1.20.1 with a couple of regressions fixed.\nSee the release notes of 1.20.0 for all the\nchanges introduced in Crystal 1.20.\nPre-built packages are available on GitHub\nReleases and our\nofficial distribution channels. See\ncrystal-lang.org/install for…",
+      "author": "Johannes Müller",
+      "publishedAt": "2026-04-29T00:00:00.000Z"
+    },
+    {
+      "guid": "crystal::https://crystal-lang.org/2026/04/27/1.19.2-released/",
+      "title": "Crystal 1.19.2 is released!",
+      "link": "https://crystal-lang.org/2026/04/27/1.19.2-released/",
+      "summary": "We are announcing a new Crystal release 1.19.2 with two regressions fixed.\nSee the release notes of 1.19.0 for all the\nchanges introduced in Crystal 1.19.\nPre-built packages are available on GitHub\nReleases and our\nofficial distribution channels. See\ncrystal-lang.org/install for installation…",
+      "author": "Julien Portalier",
+      "publishedAt": "2026-04-27T00:00:00.000Z"
+    },
+    {
+      "guid": "crystal::https://crystal-lang.org/2026/04/16/1.20.0-released/",
+      "title": "Crystal 1.20.0 is released!",
+      "link": "https://crystal-lang.org/2026/04/16/1.20.0-released/",
+      "summary": "We are announcing a new Crystal release 1.20.0 with several new features and bug\nfixes.\nPre-built packages are available on GitHub\nReleases and our\nofficial distribution channels. See\ncrystal-lang.org/install for installation\ninstructions.\nStats\n\n\n    \n    Section titled Stats\n  \n\n\nThis release…",
+      "author": "Julien Portalier",
+      "publishedAt": "2026-04-16T00:00:00.000Z"
+    },
+    {
+      "guid": "crystal::https://crystal-lang.org/2026/04/07/official-linux-arm64-builds/",
+      "title": "Official Linux ARM64 builds",
+      "link": "https://crystal-lang.org/2026/04/07/official-linux-arm64-builds/",
+      "summary": "This has been a long awaited feature: how to run Crystal on ARM64 CPUs?\nCrystal has supported ARM64 as a tier 1 architecture for many years now, and\nwe already distribute an universal build for macOS, but still no ARM64 builds\nfor Linux.\nThe wait is over! During the development of Crystal 1.19 we…",
+      "author": "Julien Portalier",
+      "publishedAt": "2026-04-07T00:00:00.000Z"
+    },
+    {
+      "guid": "crystal::https://crystal-lang.org/2026/01/23/crystal-talk-fosdem/",
+      "title": "Crystal talk at FOSDEM 2026",
+      "link": "https://crystal-lang.org/2026/01/23/crystal-talk-fosdem/",
+      "summary": "I’m giving a talk about Crystal at FOSDEM 2026 in Brussels:\nCrystal: A language for humans and computers.\nIt’s in the Declarative and Minimalistic Computing track,\non Sunday, 1 February 2026 at 09:00 in room UB4.136.\nThe talk is going to be an introduction into some concepts of Crystals.\nIf you are…",
+      "author": "Johannes Müller",
+      "publishedAt": "2026-01-23T00:00:00.000Z"
+    }
+  ],
+  "totalIndexed": 10
+}

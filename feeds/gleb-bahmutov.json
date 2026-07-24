@@ -1,0 +1,253 @@
+{
+  "feedId": "gleb-bahmutov",
+  "feedName": "Gleb Bahmutov",
+  "feedSiteUrl": "https://glebbahmutov.com/blog/",
+  "feedRssUrl": "https://glebbahmutov.com/blog/atom.xml",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T06:50:27.579Z",
+  "items": [
+    {
+      "guid": "gleb-bahmutov::https://glebbahmutov.com/blog/when-it-reloads/",
+      "title": "When It Reloads",
+      "link": "https://glebbahmutov.com/blog/when-it-reloads/",
+      "summary": "Have you ever encountered end-to-end test error \"... failed because the page updated as a result of this command, but you tried to continue the command chain. The subject is no longer attached to the DOM\"?\n\nThe example above shows the test trying to click on the button, yet the command fails.\n\n\n1\n2…",
+      "author": null,
+      "publishedAt": "2026-06-17T04:00:00.000Z"
+    },
+    {
+      "guid": "gleb-bahmutov::https://glebbahmutov.com/blog/has-it-not-happened-yet/",
+      "title": "Has It Not Happened Yet",
+      "link": "https://glebbahmutov.com/blog/has-it-not-happened-yet/",
+      "summary": "Let me get back to the testing of negative states one more time. Recently, I have read a pretty good blog post How to test that cache works with Cypress by Walmyr.\n\nA piece of Cypress test syntax caught my eye:\n\n\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n\ncy.search(randomWord).then(() => {\n  expect(count,…",
+      "author": null,
+      "publishedAt": "2026-06-10T04:00:00.000Z"
+    },
+    {
+      "guid": "gleb-bahmutov::https://glebbahmutov.com/blog/dom-state-clarity-with-cy-depends/",
+      "title": "DOM State Clarity With cy.depends Command",
+      "link": "https://glebbahmutov.com/blog/dom-state-clarity-with-cy-depends/",
+      "summary": "Imagine a simple web application scenario: you click on a button. App tries to load some data. The data might load, or the backend might return an error. You write a Cypress test:\n\n\n1\n2\n3\n\ncy.visit('cypress/fetch-fails-sometimes.html')\ncy.contains('button', 'Fetch data').click()…",
+      "author": null,
+      "publishedAt": "2026-05-22T04:00:00.000Z"
+    },
+    {
+      "guid": "gleb-bahmutov::https://glebbahmutov.com/blog/cypress-prompt-vs-record-vs-code/",
+      "title": "Cypress cy.prompt Vs Recording Vs Coding",
+      "link": "https://glebbahmutov.com/blog/cypress-prompt-vs-record-vs-code/",
+      "summary": "Cypress-the-company is putting a lot of effort behind its cy.prompt command (which I recreated in cypress-think), so let's see if it is any good.\nI took a simple login form and tried to create a test using three different approaches:\n\ncoding in VSCode using \"update the test / Cypress reruns it /…",
+      "author": null,
+      "publishedAt": "2026-04-28T04:00:00.000Z"
+    },
+    {
+      "guid": "gleb-bahmutov::https://glebbahmutov.com/blog/upgrade-cypress-to-typescript-v6/",
+      "title": "Upgrade Cypress To TypeScript v6",
+      "link": "https://glebbahmutov.com/blog/upgrade-cypress-to-typescript-v6/",
+      "summary": "Finally, it has happened. Cypress v15.14 supports TypeScript v6. This is a big deal - TypeScript v6 is the last step before TypeScript v7 which is implemented in Go and is much faster. By the way, you can try TypeScript v7 beta today. So what do you need to switch your projects to use TS v6 with…",
+      "author": null,
+      "publishedAt": "2026-04-23T04:00:00.000Z"
+    },
+    {
+      "guid": "gleb-bahmutov::https://glebbahmutov.com/blog/testing-a11y/",
+      "title": "Testing A11y Using Cypress And wick-a11y Plugin",
+      "link": "https://glebbahmutov.com/blog/testing-a11y/",
+      "summary": "I have a little web app called Gametime I use to keep track of players during youth soccer matches. Recently I decided to add a11y testing to ensure the text is readable, inputs have labels, etc. Since I already had Cypress end-to-end tests covering all features of the app, I just needed 60 seconds…",
+      "author": null,
+      "publishedAt": "2026-04-07T04:00:00.000Z"
+    },
+    {
+      "guid": "gleb-bahmutov::https://glebbahmutov.com/blog/string-types-for-e2e-tests/",
+      "title": "String Types For E2E Tests",
+      "link": "https://glebbahmutov.com/blog/string-types-for-e2e-tests/",
+      "summary": "Every individual item sold on Mercari.com has an id that looks like m<number>. The item's id is visible in the URL, for example www.mercari.com/us/item/m73702188949/. If you buy several items from the same seller, you get a discount because you buy it as a bundle. Every bundle has its own unique id…",
+      "author": null,
+      "publishedAt": "2026-03-21T04:00:00.000Z"
+    },
+    {
+      "guid": "gleb-bahmutov::https://glebbahmutov.com/blog/cypress-expose-plugin/",
+      "title": "Public Environment Variables For Your Tests Using cypress-expose Plugin",
+      "link": "https://glebbahmutov.com/blog/cypress-expose-plugin/",
+      "summary": "Recently Cypress announced a change in how it will handle environment variables. Variables were always public and accessible to the application under test in the browser (via calling Cypress.env() method), but now you can have truly private values. I published a blog post Migrating From Cypress.env…",
+      "author": null,
+      "publishedAt": "2026-03-12T04:00:00.000Z"
+    },
+    {
+      "guid": "gleb-bahmutov::https://glebbahmutov.com/blog/cypress-expose/",
+      "title": "Migrating From Cypress.env To cy.env and Cypress.expose Methods",
+      "link": "https://glebbahmutov.com/blog/cypress-expose/",
+      "summary": "Cypress v15.10.0 has announced a big switch coming in v16 - the new way of dealing with environment values and secrets. Let's see why this change is necessary, what is means for your testing code, and what the best practices for handling secrets in your tests should be.\nFirst, let me say: Cypress…",
+      "author": null,
+      "publishedAt": "2026-03-07T05:00:00.000Z"
+    },
+    {
+      "guid": "gleb-bahmutov::https://glebbahmutov.com/blog/npm-publish-from-github/",
+      "title": "How To Publish To NPM From GitHub Actions",
+      "link": "https://glebbahmutov.com/blog/npm-publish-from-github/",
+      "summary": "At the end of 2025, NPM registry revoked all personal NPM tokens that I used to publish new NPM package releases. This change improves the security of the entire NPM publishing workflow, but has disrupted my CI process. For example, the new feature of cypress-timestamps has not been released,…",
+      "author": null,
+      "publishedAt": "2026-02-23T05:00:00.000Z"
+    },
+    {
+      "guid": "gleb-bahmutov::https://glebbahmutov.com/blog/check-every-box/",
+      "title": "Check Every Box In Cypress Tests Without Flake",
+      "link": "https://glebbahmutov.com/blog/check-every-box/",
+      "summary": "Imagine you are testing a TodoMVC application, and you need to complete all items. You simply click every checkbox and confirm the application preserves the \"0 todos left\" state. Normally everything goes well:\n\nBut sometimes a weird thing happens: one or more checkboxes remain unchecked!\n\n📺 Watch…",
+      "author": null,
+      "publishedAt": "2026-02-11T05:00:00.000Z"
+    },
+    {
+      "guid": "gleb-bahmutov::https://glebbahmutov.com/blog/cypress-dependencies-through-docker-image/",
+      "title": "Cypress Dependencies Through A Docker Image",
+      "link": "https://glebbahmutov.com/blog/cypress-dependencies-through-docker-image/",
+      "summary": "If you are testing a website, the DEV dependencies do not change very often. You might bump Cypress version once in a while, add or upgrade a Cypress plugin, but in general the Node dependencies are changed less frequently than the spec files. Thus running npm ci on every test job is bound to be…",
+      "author": null,
+      "publishedAt": "2026-01-08T05:00:00.000Z"
+    },
+    {
+      "guid": "gleb-bahmutov::https://glebbahmutov.com/blog/reclaiming-my-attention/",
+      "title": "Reclaiming My Attention",
+      "link": "https://glebbahmutov.com/blog/reclaiming-my-attention/",
+      "summary": "This year I am reclaiming my attention span away from my iPhone. Lately, I have noticed that while reading or working, I reach for my phone to check email / BlueSky every couple of minutes. I tried to force myself to focus on work / book by using a timer; do not touch the phone until the timer is…",
+      "author": null,
+      "publishedAt": "2026-01-07T05:00:00.000Z"
+    },
+    {
+      "guid": "gleb-bahmutov::https://glebbahmutov.com/blog/npm-install-and-copilot-instructions/",
+      "title": "NPM Install And Copilot Instructions",
+      "link": "https://glebbahmutov.com/blog/npm-install-and-copilot-instructions/",
+      "summary": "Here is something I have noticed about my projects and using Copilot lately. When I add a new NPM dependency, I also update the Copilot instructions file to include examples of how I want to use that dependency in my tests.\nFor example, let's say I need to test if item prices on the inventory page…",
+      "author": null,
+      "publishedAt": "2025-12-30T05:00:00.000Z"
+    },
+    {
+      "guid": "gleb-bahmutov::https://glebbahmutov.com/blog/testing-loading-skeletons/",
+      "title": "Testing Loading Skeletons",
+      "link": "https://glebbahmutov.com/blog/testing-loading-skeletons/",
+      "summary": "Loading skeletons are displayed while the real data is loading. For example, the login passwords are displayed after 1 second in the GIF below, and the loading skeleton is displayed first.\n\nThe skeleton itself is simple, just a DIV with some gradient CSS.\nsrc/pages/Login.jsx\n\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10…",
+      "author": null,
+      "publishedAt": "2025-12-26T05:00:00.000Z"
+    },
+    {
+      "guid": "gleb-bahmutov::https://glebbahmutov.com/blog/type-test-context/",
+      "title": "How To Type Function Mocha Context With Cypress Aliases",
+      "link": "https://glebbahmutov.com/blog/type-test-context/",
+      "summary": "In Cypress you can save values under aliases which is pretty handy. You can get the aliased value using the cy.get, or by using a cy.then(function () { ... }) callback, or (my favorite solution) using the alias in the next hook or test callback via this.[alias] property\n\n\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12…",
+      "author": null,
+      "publishedAt": "2025-12-11T05:00:00.000Z"
+    },
+    {
+      "guid": "gleb-bahmutov::https://glebbahmutov.com/blog/test-autohealing-is-a-red-flag/",
+      "title": "Test Auto-healing Is A Red Flag",
+      "link": "https://glebbahmutov.com/blog/test-autohealing-is-a-red-flag/",
+      "summary": "Well, I am happy to report Cypress-the-company is all in on test auto-healing in its new cy.prompt command (which I recreated locally as cypress-think plugin). Let's look at the screenshots Cypress put in the blog post:\n\nThe test shows Cypress auto-healing in practice. The test had a prompt like…",
+      "author": null,
+      "publishedAt": "2025-12-10T05:00:00.000Z"
+    },
+    {
+      "guid": "gleb-bahmutov::https://glebbahmutov.com/blog/branded-types/",
+      "title": "Branded Types",
+      "link": "https://glebbahmutov.com/blog/branded-types/",
+      "summary": "Let's say you need to specify a timeout or wait in your end-to-end Cypress tests. You would use milliseconds\n\n\n1\n2\n3\n4\n\n// try finding the \"selector\" elements for up to 1 second\ncy.get('selector', { timeout: 1_000 })\n  // then wait for 5 seconds\n  .wait(5_000)\n\n\nFor clarity, you could write a…",
+      "author": null,
+      "publishedAt": "2025-12-05T05:00:00.000Z"
+    },
+    {
+      "guid": "gleb-bahmutov::https://glebbahmutov.com/blog/cypress-vs-playwright-advent-calendar-2025/",
+      "title": "Cypress vs Playwright Advent Calendar 2025",
+      "link": "https://glebbahmutov.com/blog/cypress-vs-playwright-advent-calendar-2025/",
+      "summary": "This year I am producing \"Cypress vs Playwright Advent Calendar\" on my Cypress Tips newsletter.\n\nDay 1: global vs local variables\nDay 2: The difference in test command syntax\nDay 3: DOM Snapshots vs live application\nDay 4: Where do the end-to-end tests run?\nDay 5: Locators and selectors\nDay 6:…",
+      "author": null,
+      "publishedAt": "2025-12-01T05:00:00.000Z"
+    },
+    {
+      "guid": "gleb-bahmutov::https://glebbahmutov.com/blog/verify-then-control-the-data/",
+      "title": "Verify Then Control The Data",
+      "link": "https://glebbahmutov.com/blog/verify-then-control-the-data/",
+      "summary": "Imagine we are testing a web page that receives two numbers from the server and then shows their sum\n\nIn the Command Log you can see the two GET /random-digit calls the web page makes to the server. The server responds with {n: ...} JSON object. The page should add these two numbers and show the…",
+      "author": null,
+      "publishedAt": "2025-11-30T05:00:00.000Z"
+    },
+    {
+      "guid": "gleb-bahmutov::https://glebbahmutov.com/blog/copilot-instructions-example/",
+      "title": "Copilot Instructions Example",
+      "link": "https://glebbahmutov.com/blog/copilot-instructions-example/",
+      "summary": "I have described using Use Copilot Instructions And Page Objects to quickly develop end-to-end Cypress tests. This blog post gives another concrete example. You can find the source code in the repo bahmutov/copilot-instructions-example. First, I wrote a page object file to implement common TodoMVC…",
+      "author": null,
+      "publishedAt": "2025-10-09T04:00:00.000Z"
+    },
+    {
+      "guid": "gleb-bahmutov::https://glebbahmutov.com/blog/source-of-truth/",
+      "title": "Never Use The Page As The Source Of Truth",
+      "link": "https://glebbahmutov.com/blog/source-of-truth/",
+      "summary": "Imagine you are testing a web page showing the purchase receipt.\n\nWhen the user clicks on the \"View Summary\" button, a dialog pops up showing just the total amount paid\ncypress/e2e/receipt.cy.js\n\n1\n2\n3\n4\n5\n6\n\ndescribe('Receipt', () => {\n  it('shows the price on the receipt', () => {…",
+      "author": null,
+      "publishedAt": "2025-10-03T04:00:00.000Z"
+    },
+    {
+      "guid": "gleb-bahmutov::https://glebbahmutov.com/blog/cy-vs-pw-browser/",
+      "title": "Cypress vs Playwright; Browser Included",
+      "link": "https://glebbahmutov.com/blog/cy-vs-pw-browser/",
+      "summary": "Recently I watched a pretty good video Cypress vs Playwright side-by-side coding comparison. by Artem Bondar. While not as good as my Cypress vs Playwright course, the video is pretty solid. There is one point Artem makes in the beginning that he did not stress enough, but which determines how each…",
+      "author": null,
+      "publishedAt": "2025-09-30T04:00:00.000Z"
+    },
+    {
+      "guid": "gleb-bahmutov::https://glebbahmutov.com/blog/check-data-in-page-objects/",
+      "title": "Check Data Using Page Objects And Higher Order Functions",
+      "link": "https://glebbahmutov.com/blog/check-data-in-page-objects/",
+      "summary": "Testers and developers often use page objects to interact with their web applications via DOM elements. Let's create a page object for our TodoMVC app:\ncypress/e2e/todo.ts\n\n1\n2\n3\n4\n5\n6\n7\n8\n9\n\nexport const TodoMVC = {\n  addTodo(title: string) {\n    cy.get('.new-todo').type(`${title}{enter}`)\n  },…",
+      "author": null,
+      "publishedAt": "2025-09-28T04:00:00.000Z"
+    },
+    {
+      "guid": "gleb-bahmutov::https://glebbahmutov.com/blog/diff-feature-flags-before-testing/",
+      "title": "Diff Feature Flags Before Running Tests",
+      "link": "https://glebbahmutov.com/blog/diff-feature-flags-before-testing/",
+      "summary": "As I explained in my previous blog post on feature flags and testing, you need the flags to be the same to ensure consistent application behavior during end-to-end tests. If you want to test the specific feature, control the flag from the test. But sometimes the tests unexpectedly fail when one of…",
+      "author": null,
+      "publishedAt": "2025-09-23T04:00:00.000Z"
+    },
+    {
+      "guid": "gleb-bahmutov::https://glebbahmutov.com/blog/tell-copilot-where-to-find-test-selectors/",
+      "title": "Tell Copilot Where To Find Test Selectors",
+      "link": "https://glebbahmutov.com/blog/tell-copilot-where-to-find-test-selectors/",
+      "summary": "I have shown how to use Copilot instructions file to generate better end-to-end Cypress tests. In this blog post I will show a specific trick I use to make my test writing a lot more precise and much faster. When we are writing end-to-end tests, we constantly need to look up the best test selectors…",
+      "author": null,
+      "publishedAt": "2025-09-22T04:00:00.000Z"
+    },
+    {
+      "guid": "gleb-bahmutov::https://glebbahmutov.com/blog/type-local-storage-test-commands/",
+      "title": "Add Types To Your Local Storage During End-to-End Tests",
+      "link": "https://glebbahmutov.com/blog/type-local-storage-test-commands/",
+      "summary": "If your web application stores data locally in the localStorage object, you can easily set / verify the data from your Cypress end-to-end tests. For example:\ncypress/e2e/players.cy.js\n\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n32\n33\n34\n35\n36\n37\n38\n39…",
+      "author": null,
+      "publishedAt": "2025-09-16T04:00:00.000Z"
+    },
+    {
+      "guid": "gleb-bahmutov::https://glebbahmutov.com/blog/ai-picks-tests-to-run-on-a-bug/",
+      "title": "AI Picks Tests To Run On A Bug",
+      "link": "https://glebbahmutov.com/blog/ai-picks-tests-to-run-on-a-bug/",
+      "summary": "In the blog post Test Tag Suggestions Using AI I described a system to pick a testing tag based on a pull request's title and body text. In this blog post, I will make it useful. Whenever a user opens a GitHub issue and labels it a \"bug\", an automated workflow will pick an appropriate testing tag…",
+      "author": null,
+      "publishedAt": "2025-09-09T04:00:00.000Z"
+    },
+    {
+      "guid": "gleb-bahmutov::https://glebbahmutov.com/blog/copilot-instructions-and-page-objects/",
+      "title": "Use Copilot Instructions And Page Objects",
+      "link": "https://glebbahmutov.com/blog/copilot-instructions-and-page-objects/",
+      "summary": "Ask Copilot agent to write the full end-to-end test and it is likely to write nonsense. For example, let's test the \"zero teams / zero players\" message on my soccer web app.\n\nI can start a new test in the existing \"Teams\" spec file\ncypress/e2e/teams.cy.js\n\n1\n2\n3\n\ndescribe('Teams', () => {…",
+      "author": null,
+      "publishedAt": "2025-09-03T04:00:00.000Z"
+    },
+    {
+      "guid": "gleb-bahmutov::https://glebbahmutov.com/blog/useful-newsletters/",
+      "title": "Useful Newsletters",
+      "link": "https://glebbahmutov.com/blog/useful-newsletters/",
+      "summary": "Here are a couple of newsletters I subscribe to keep up-to-date on Node.js, JavaScript, front-end development, and testing.\n\nSmashing Magazine newsletter has high-quality front-end, CSS, and design articles\nWebTools weekly is a weekly round-up of apps, scripts, plugins, and other resources to help…",
+      "author": null,
+      "publishedAt": "2025-08-20T04:00:00.000Z"
+    }
+  ],
+  "totalIndexed": 30
+}

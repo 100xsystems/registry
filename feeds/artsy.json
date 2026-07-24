@@ -1,0 +1,93 @@
+{
+  "feedId": "artsy",
+  "feedName": "Artsy",
+  "feedSiteUrl": "http://artsy.github.io/",
+  "feedRssUrl": "http://artsy.github.io/feed",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T06:44:33.562Z",
+  "items": [
+    {
+      "guid": "https://artsy.github.io/blog/2026/01/09/artsy-mobile-2025-wrapped/",
+      "title": "Artsy Mobile 2025 Wrapped",
+      "link": "https://artsy.github.io/blog/2026/01/09/artsy-mobile-2025-wrapped/",
+      "summary": "The past year has been an exciting one for our mobile apps (Artsy, Folio and Palette Mobile) and we started to finally get closer to where we want to be: High-performing and developer-friendly React Native applications, enabling rapid feature iteration and a superior user experience.\nWe would like…",
+      "author": null,
+      "publishedAt": "2026-01-09T00:00:00.000Z"
+    },
+    {
+      "guid": "https://artsy.github.io/blog/2024/03/07/nextjs-at-artsy-retrospective/",
+      "title": "Two years of Next.js at Artsy: A Retrospective",
+      "link": "https://artsy.github.io/blog/2024/03/07/nextjs-at-artsy-retrospective/",
+      "summary": "Where to begin! Where to begin…\nLets start with a good measure of success, one that I think most engineers could\nagree on: a from-scratch rebuild of a complex, internal tools app. Success with\nrebuilds is often fleeting, as many can attest. There’s risk involved. Extending\nthe challenge further,…",
+      "author": null,
+      "publishedAt": "2024-03-07T00:00:00.000Z"
+    },
+    {
+      "guid": "https://artsy.github.io/blog/2023/09/13/deploying-a-scary-change/",
+      "title": "The Checklist for Deploying a Scary Change",
+      "link": "https://artsy.github.io/blog/2023/09/13/deploying-a-scary-change/",
+      "summary": "Lately, I’ve been getting involved with some sketchy stuff. You know what I’m\ntalking about–data migrations.\nI’ve been rolling out changes that have a significant risk of breaking our\nproduction environment for mission-critical services. It’s been exciting work\n(keep your eyes out for more posts on…",
+      "author": null,
+      "publishedAt": "2023-09-13T00:00:00.000Z"
+    },
+    {
+      "guid": "https://artsy.github.io/blog/2023/03/01/typescript-magic/",
+      "title": "TypeScript magic",
+      "link": "https://artsy.github.io/blog/2023/03/01/typescript-magic/",
+      "summary": "At Artsy, we love TypeScript. We use it in most of our node/web/mobile repos.\nToday, I want to talk about a specific case we found while trying to make our\ntypes more strict on palette-mobile,\nwhich is our Design System for React Native.\nCheck this out:\n\nconst welp: \"hello\" | \"world\" | string //…",
+      "author": null,
+      "publishedAt": "2023-03-01T00:00:00.000Z"
+    },
+    {
+      "guid": "https://artsy.github.io/blog/2023/02/10/mongo-geospatial-queries/",
+      "title": "Are you using the right Mongo geospatial query?",
+      "link": "https://artsy.github.io/blog/2023/02/10/mongo-geospatial-queries/",
+      "summary": "We recently got a report from one of our galleries in the Los Angeles area that\nthey weren’t showing up on our\nLos Angeles exhibition listings.\nI fielded the report and right away confirmed: when we asked our core API for\n/shows?near=<los angeles coordinates>, sure enough this gallery partner…",
+      "author": null,
+      "publishedAt": "2023-02-10T00:00:00.000Z"
+    },
+    {
+      "guid": "https://artsy.github.io/blog/2022/09/07/quick-tips-to-speed-up-ci/",
+      "title": "Parallelizing Jest and Cypress.io Tests on CircleCI",
+      "link": "https://artsy.github.io/blog/2022/09/07/quick-tips-to-speed-up-ci/",
+      "summary": "At Artsy, exploring ways to improve the developer experience is part of our\nmakeup. Whether it’s implementing hot-swapping for Express.js or\nintegrating the Rust-based SWC compiler into our front-end build\npipeline, we’re always trying to reduce the amount of time it takes for a code\ncycle to take…",
+      "author": null,
+      "publishedAt": "2022-09-07T00:00:00.000Z"
+    },
+    {
+      "guid": "https://artsy.github.io/blog/2022/08/23/getting-around-7-day-cookie/",
+      "title": "Hacking Around Safari's 7-day Cookie Limit",
+      "link": "https://artsy.github.io/blog/2022/08/23/getting-around-7-day-cookie/",
+      "summary": "Amongst the many, many things that organizations have to contend with around\ncookie consent laws is Apple’s very own browser, Safari. Did you know that\nSafari will only retain a client-side cookie for 7 days? This is in support of\nApple’s Intelligent Tracking Prevention (ITP) feature, designed to…",
+      "author": null,
+      "publishedAt": "2022-08-23T00:00:00.000Z"
+    },
+    {
+      "guid": "https://artsy.github.io/blog/2022/05/09/deprecating-kaws/",
+      "title": "Third Time's the Charm: Deprecating KAWS",
+      "link": "https://artsy.github.io/blog/2022/05/09/deprecating-kaws/",
+      "summary": "How do you tell when it’s time to deprecate a system? If something mostly works OK, is it worth spending time and\neffort replacing its functionality?\nAt Artsy, we realized several years ago that we needed to be able to group a bunch of artworks together. If we\nwanted to have a page with all of the…",
+      "author": null,
+      "publishedAt": "2022-05-09T00:00:00.000Z"
+    },
+    {
+      "guid": "https://artsy.github.io/blog/2022/04/13/stepping-out-of-the-knowledge-zone/",
+      "title": "Stepping Out Of The Knowledge Zone",
+      "link": "https://artsy.github.io/blog/2022/04/13/stepping-out-of-the-knowledge-zone/",
+      "summary": "As I am writing my first blog post for Artsy, here is a short introduction on who I am: My name is Kaja and I am an\nengineer in our Berlin entity. As a Ruby-born programmer I am calling myself a backend engineer, but that also may\nchange and is more about emotional identification and less about…",
+      "author": null,
+      "publishedAt": "2022-04-13T00:00:00.000Z"
+    },
+    {
+      "guid": "https://artsy.github.io/blog/2022/02/01/using-context-to-simplify-a-react-form/",
+      "title": "Using Context to Simplify a VERY Large React Form",
+      "link": "https://artsy.github.io/blog/2022/02/01/using-context-to-simplify-a-react-form/",
+      "summary": "For those unfamiliar, Artsy is a fine art marketplace. Knowing that, it follows logically to say that the form via\nwhich our partners list artworks for sale is an integral part of Artsy’s core systems. This form, known only as\n“The Artwork Form,” is whispered about in the halls of Arty’s New York…",
+      "author": null,
+      "publishedAt": "2022-02-01T00:00:00.000Z"
+    }
+  ],
+  "totalIndexed": 10
+}

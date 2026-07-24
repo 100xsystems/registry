@@ -1,0 +1,93 @@
+{
+  "feedId": "henrik-lau-eriksson",
+  "feedName": "Henrik Lau Eriksson",
+  "feedSiteUrl": "https://conductofcode.io/",
+  "feedRssUrl": "https://conductofcode.io/feed.xml",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T06:51:14.146Z",
+  "items": [
+    {
+      "guid": "henrik-lau-eriksson::https://conductofcode.io/post/creating-custom-powertoys-run-plugins/",
+      "title": "Creating custom PowerToys Run plugins",
+      "link": "https://conductofcode.io/post/creating-custom-powertoys-run-plugins/",
+      "summary": "PowerToys Run is a quick launcher for Windows. It is open-source and modular for additional plugins.\nOfficial plugins include:\nCalculator\nUnit Converter\nValue Generator\nWindows Search\nAt the time of writing, there are 20 plugins out of the box.\nIf you think the official plugins are not enough, you…",
+      "author": "{\"twitter\"=>\"hlaueriksson\"}",
+      "publishedAt": "2024-02-13T22:00:00.000Z"
+    },
+    {
+      "guid": "henrik-lau-eriksson::https://conductofcode.io/post/retry-flaky-tests-with-dotnet-test-and-powershell/",
+      "title": "Retry flaky tests with dotnet test and PowerShell",
+      "link": "https://conductofcode.io/post/retry-flaky-tests-with-dotnet-test-and-powershell/",
+      "summary": "At my current client, Nordic Leisure Travel Group , we have a large number of web tests that automates some of the QA effort.\nThe tests are written in Selenium and Playwright.\nThey run on a schedule in Jenkins and we get reports on email.\nThey take quite some time to run.\nUnfortunately some of the…",
+      "author": "{\"twitter\"=>\"hlaueriksson\"}",
+      "publishedAt": "2023-03-26T19:00:00.000Z"
+    },
+    {
+      "guid": "henrik-lau-eriksson::https://conductofcode.io/post/introducing-lofuunit/",
+      "title": "Introducing LoFuUnit",
+      "link": "https://conductofcode.io/post/introducing-lofuunit/",
+      "summary": "About a year ago I was experimenting with local functions and reflection, to improve my unit tests and the way to write BDD specs.\nI had been using Machine.Specifications and Machine.Fakes for years.\nMSpec has served me well, but the lack of async support made me look for alternatives.\nThe…",
+      "author": "{\"twitter\"=>\"hlaueriksson\"}",
+      "publishedAt": "2019-12-29T19:00:00.000Z"
+    },
+    {
+      "guid": "henrik-lau-eriksson::https://conductofcode.io/post/introducing-jekyll-url-shortener/",
+      "title": "Introducing Jekyll URL Shortener",
+      "link": "https://conductofcode.io/post/introducing-jekyll-url-shortener/",
+      "summary": "I felt the need to create my own URL Shortener. I ended up with a template repository for making URL Shorteners with Jekyll and GitHub Pages.\nIntroducing Jekyll URL Shortener - A template repository for making URL Shorteners with #Jekyll and #GitHubPageshttps://t.co/u9iutTiG2O@jekyllrb @github\n—…",
+      "author": "{\"twitter\"=>\"hlaueriksson\"}",
+      "publishedAt": "2018-11-01T06:00:00.000Z"
+    },
+    {
+      "guid": "henrik-lau-eriksson::https://conductofcode.io/post/easy-approach-to-requirements-syntax-and-the-segue-to-behavior-driven-development/",
+      "title": "Easy Approach to Requirements Syntax and the segue to Behavior Driven Development",
+      "link": "https://conductofcode.io/post/easy-approach-to-requirements-syntax-and-the-segue-to-behavior-driven-development/",
+      "summary": "I was attending a conference six months ago and listened to a talk about quality.\nDuring the talk, I was introduced to EARS — Easy Approach to Requirements Syntax.\nThis way of writing requirements struck a chord with me, given my prior experience reading and writing requirement specifications.\nWhen…",
+      "author": "{\"twitter\"=>\"hlaueriksson\"}",
+      "publishedAt": "2017-07-31T20:00:00.000Z"
+    },
+    {
+      "guid": "henrik-lau-eriksson::https://conductofcode.io/post/managing-content-for-a-jamstack-site-with-netlify-cms/",
+      "title": "Managing content for a JAMstack site with Netlify CMS",
+      "link": "https://conductofcode.io/post/managing-content-for-a-jamstack-site-with-netlify-cms/",
+      "summary": "Content for the modern web development architecture:\nHeadless CMS = Content Management System for JAMstack sites\nThis blog post covers:\nNetlify CMS for a JAMstack site built with Hugo + jQuery + Azure Functions\nThis blog post is part of a series:\nBuilding a JAMstack site with Hugo and Azure…",
+      "author": "{\"twitter\"=>\"hlaueriksson\"}",
+      "publishedAt": "2017-06-30T12:00:00.000Z"
+    },
+    {
+      "guid": "henrik-lau-eriksson::https://conductofcode.io/post/building-a-jamstack-site-with-hugo-and-azure-functions/",
+      "title": "Building a JAMstack site with Hugo and Azure Functions",
+      "link": "https://conductofcode.io/post/building-a-jamstack-site-with-hugo-and-azure-functions/",
+      "summary": "Modern web development architecture:\nStatic site generators + JavaScript + Serverless = JAMstack\nThis blog post covers:\nHugo + jQuery + Azure Functions = JAMstack\nThis blog post is part of a series:\nBuilding a JAMstack site with Hugo and Azure Functions (this post)\nManaging content for a JAMstack…",
+      "author": "{\"twitter\"=>\"hlaueriksson\"}",
+      "publishedAt": "2017-05-31T20:00:00.000Z"
+    },
+    {
+      "guid": "henrik-lau-eriksson::https://conductofcode.io/post/serverless-with-azure-functions/",
+      "title": "Serverless with Azure Functions",
+      "link": "https://conductofcode.io/post/serverless-with-azure-functions/",
+      "summary": "I set out to learn about Azure Functions and this is the knowledge I have gathered so far.\nTo have something to work with, I decided to migrate the ASP.NET Core Web API for “My latest online activities” to Azure Functions.\nAs background, refer to these related blog posts:\nGetting started with React…",
+      "author": "{\"twitter\"=>\"hlaueriksson\"}",
+      "publishedAt": "2017-04-30T10:00:00.000Z"
+    },
+    {
+      "guid": "henrik-lau-eriksson::https://conductofcode.io/post/secure-and-explore-aspnet-core-web-apis/",
+      "title": "Secure and explore ASP.NET Core Web APIs",
+      "link": "https://conductofcode.io/post/secure-and-explore-aspnet-core-web-apis/",
+      "summary": "How to create a ASP.NET Core Web API, secure it with JSON Web Tokens and explore it with Swagger UI and Postman.\nYou can view the example code in this post at https://github.com/hlaueriksson/ConductOfCode\nASP.NET Core Web API\nI installed the new Visual Studio 2017 and created a new ASP.NET Core Web…",
+      "author": "{\"twitter\"=>\"hlaueriksson\"}",
+      "publishedAt": "2017-03-31T21:00:00.000Z"
+    },
+    {
+      "guid": "henrik-lau-eriksson::https://conductofcode.io/post/automocking-and-the-dependency-inversion-principle/",
+      "title": "Automocking and the Dependency Inversion Principle",
+      "link": "https://conductofcode.io/post/automocking-and-the-dependency-inversion-principle/",
+      "summary": "I had reason to revisit the automocked base class from a previous blog post.\nI am working with another code base and have new opportunities for automocking.\nWe have a lot of internal classes.\nApproximately 30% of the classes are marked as internal.\nThe old approach did not work anymore.\nWith an…",
+      "author": "{\"twitter\"=>\"hlaueriksson\"}",
+      "publishedAt": "2017-02-28T20:00:00.000Z"
+    }
+  ],
+  "totalIndexed": 10
+}

@@ -1,0 +1,173 @@
+{
+  "feedId": "stefan-parker",
+  "feedName": "Stefan Parker",
+  "feedSiteUrl": "http://codebeforethehorse.tumblr.com/",
+  "feedRssUrl": "https://codebeforethehorse.tumblr.com/rss",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T07:09:55.679Z",
+  "items": [
+    {
+      "guid": "https://codebeforethehorse.tumblr.com/post/87306947716",
+      "title": "Converting a Project to XHP",
+      "link": "https://codebeforethehorse.tumblr.com/post/87306947716",
+      "summary": "Unless you’re starting from scratch, using XHP is most likely going to take some refactoring of old HTML-as-string code. The problem is that because of XHP’s auto-escaping to prevent XSS holes, you can’t include strings of HTML as children into XHP elements. Fortunately there’s something you can do…",
+      "author": null,
+      "publishedAt": "2014-05-30T16:15:00.000Z"
+    },
+    {
+      "guid": "https://codebeforethehorse.tumblr.com/post/82745109442",
+      "title": "Contexts Added to XHP",
+      "link": "https://codebeforethehorse.tumblr.com/post/82745109442",
+      "summary": "I just added a new feature to XHP to allow you pass data automatically through the hierarchy of an XHP tree being rendered. That’s kind of a mouthful, but what it means is that you can set context (which is just a map of key/value pairs) on some parent element, and that context will be available on…",
+      "author": null,
+      "publishedAt": "2014-04-15T01:25:00.000Z"
+    },
+    {
+      "guid": "https://codebeforethehorse.tumblr.com/post/80902252142",
+      "title": "Rendering ONLY Children in XHP",
+      "link": "https://codebeforethehorse.tumblr.com/post/80902252142",
+      "summary": "My last post, Rendering NULL in XHP, surprised a bunch of people by the use of extending :x:primitive to handle children rendering before the parent’s rendering. So I thought I’d quickly discuss another useful trick you can do by extending :x:primitive, this one deals with getting just the children…",
+      "author": null,
+      "publishedAt": "2014-03-27T19:54:00.000Z"
+    },
+    {
+      "guid": "https://codebeforethehorse.tumblr.com/post/80212486413",
+      "title": "Rendering as NULL in XHP",
+      "link": "https://codebeforethehorse.tumblr.com/post/80212486413",
+      "summary": "There are some at Facebook who have argued against returning null when rendering an XHP element. In fact, it’s actually against Facebook’s standards now. Personally, I prefer to structure my code to return null in XHP, but there definitely are pros and cons. I’ll cover the situations in which you…",
+      "author": null,
+      "publishedAt": "2014-03-21T00:17:00.000Z"
+    },
+    {
+      "guid": "https://codebeforethehorse.tumblr.com/post/79602499732",
+      "title": "Type Descriptors Added to Array Attributes in XHP",
+      "link": "https://codebeforethehorse.tumblr.com/post/79602499732",
+      "summary": "A new level of validation has been added to XHP which will allow you to type-check your array attribute keys and values. What this means is that while before this change you were only able to validate attribute types (bool, int, string, etc.), now if the attribute is an array type you can validate…",
+      "author": null,
+      "publishedAt": "2014-03-15T00:23:00.000Z"
+    },
+    {
+      "guid": "https://codebeforethehorse.tumblr.com/post/65461659692",
+      "title": "When and How to Use XHP Categories",
+      "link": "https://codebeforethehorse.tumblr.com/post/65461659692",
+      "summary": "I remember when we first added the children keyword to XHP. We had the problem that validating them was really cumbersome. Nearly every element was valid inside a <div> but not all (for instance <meta>). Listing out every valid child wasn’t very elegant and certainly would cause problems for custom…",
+      "author": null,
+      "publishedAt": "2013-10-29T21:23:00.000Z"
+    },
+    {
+      "guid": "https://codebeforethehorse.tumblr.com/post/52824249342",
+      "title": "Building a Good UI Framework with XHP",
+      "link": "https://codebeforethehorse.tumblr.com/post/52824249342",
+      "summary": "This is the article I wanted to write ever since I started this blog. XHP is a really powerful tool, but like any tool you need to know how to use it for it to be really effective. Facebook has built a very powerful UI framework on top of XHP, but we had to change the way we think about object…",
+      "author": null,
+      "publishedAt": "2013-06-12T23:23:00.000Z"
+    },
+    {
+      "guid": "https://codebeforethehorse.tumblr.com/post/41920380130",
+      "title": "Data- & Aria- Attribute Support Added to XHP",
+      "link": "https://codebeforethehorse.tumblr.com/post/41920380130",
+      "summary": "Last night I added data- and aria- attribute support into XHP. I baked it into :x:composable-element directly instead of relying on previous methods which only added it to :xhp:html-element. I did this for a few reasons. First, I didn’t like the idea of getAttribute() and setAttribute() not being…",
+      "author": null,
+      "publishedAt": "2013-01-31T03:47:00.000Z"
+    },
+    {
+      "guid": "https://codebeforethehorse.tumblr.com/post/41533588484",
+      "title": "Christina with my new horse, Handyman.",
+      "link": "https://codebeforethehorse.tumblr.com/post/41533588484",
+      "summary": "Christina with my new horse, Handyman.",
+      "author": null,
+      "publishedAt": "2013-01-26T17:44:00.000Z"
+    },
+    {
+      "guid": "https://codebeforethehorse.tumblr.com/post/36089777404",
+      "title": "Why Control Flows Should NOT Be In XHP",
+      "link": "https://codebeforethehorse.tumblr.com/post/36089777404",
+      "summary": "About every six to nine months or so, an engineer at Facebook tries to add a control structure into XHP. These usually come in up to four flavors per diff: <x:if>, <x:switch>, <x:for>, and <x:foreach> (and occasionally <x:map>, which really is just a different <x:foreach>). A diff is submitted and…",
+      "author": null,
+      "publishedAt": "2012-11-19T21:58:00.000Z"
+    },
+    {
+      "guid": "https://codebeforethehorse.tumblr.com/post/35419887698",
+      "title": "The Difference Between :x:element and :x:primitive",
+      "link": "https://codebeforethehorse.tumblr.com/post/35419887698",
+      "summary": "I was recently asked to clarify the differences between :x:element and :x:primitive, and when to use each one. It’s actually pretty simple; the basic rule of thumb is this: always use :x:element. If you’re only doing simple things in XHP you can stop reading now, but for the rest of you I’ll get…",
+      "author": null,
+      "publishedAt": "2012-11-10T18:16:00.000Z"
+    },
+    {
+      "guid": "https://codebeforethehorse.tumblr.com/post/35320693712",
+      "title": "XHP Upgraded to HTML5",
+      "link": "https://codebeforethehorse.tumblr.com/post/35320693712",
+      "summary": "I just checked in an upgraded list of the default HTML classes in XHP that conform to the latest working draft of HTML5. This might cause some backwards compatibility issues, so I’ve also included a new public method available to all XHP elements called forceAttribute(). The method allows you to…",
+      "author": null,
+      "publishedAt": "2012-11-09T04:30:09.000Z"
+    },
+    {
+      "guid": "https://codebeforethehorse.tumblr.com/post/18957929550",
+      "title": "Jumping my horse at the Sonoma Horse Show 1.05m class.",
+      "link": "https://codebeforethehorse.tumblr.com/post/18957929550",
+      "summary": "Jumping my horse at the Sonoma Horse Show 1.05m class.",
+      "author": null,
+      "publishedAt": "2012-03-08T19:40:00.000Z"
+    },
+    {
+      "guid": "https://codebeforethehorse.tumblr.com/post/11022211307",
+      "title": "Image Spriting in XHP",
+      "link": "https://codebeforethehorse.tumblr.com/post/11022211307",
+      "summary": "I want to share with you a quick XHP class you can build that will greatly abstract your image spriting. Image sprites are a great way to reduce the number of resources downloaded from your server, but they can be a hassle to maintain. If you already sprite your images then you might have a class…",
+      "author": null,
+      "publishedAt": "2011-10-04T15:28:00.000Z"
+    },
+    {
+      "guid": "https://codebeforethehorse.tumblr.com/post/8523495262",
+      "title": "Installing XHP on a Mac",
+      "link": "https://codebeforethehorse.tumblr.com/post/8523495262",
+      "summary": "XHP was built for Unix, and thus can run just fine on a Mac, but sometimes for whatever reason, XHP has a little trouble. Here are the steps to installation that seem to work if you’re getting unknown errors.\nFor Snow Leopard:\nInstall Xcode 3.2.6 (not 4.x)\nInstall Homebrew\nIn Terminal, run brew…",
+      "author": null,
+      "publishedAt": "2011-08-05T19:18:00.000Z"
+    },
+    {
+      "guid": "https://codebeforethehorse.tumblr.com/post/5875085342",
+      "title": "XHP Talk at the PHP Developers Conference",
+      "link": "https://codebeforethehorse.tumblr.com/post/5875085342",
+      "summary": "XHP Talk at the PHP Developers Conference: \nThe slides I used for the annual PHP Developers Conference in Amsterdam.",
+      "author": null,
+      "publishedAt": "2011-05-26T21:06:00.000Z"
+    },
+    {
+      "guid": "https://codebeforethehorse.tumblr.com/post/4792658458",
+      "title": "Add HTML5 Data Attribute Support to XHP",
+      "link": "https://codebeforethehorse.tumblr.com/post/4792658458",
+      "summary": "UPDATE: I’ve added data- and aria- attribute support into XHP by default. Downloading the latest source will get you this for free.\nXHP runs validation checks on all attribute sets and gets, but in the emerging world of HTML5, data attributes are validation-less. With a little bit of tweaking, you…",
+      "author": null,
+      "publishedAt": "2011-04-21T01:18:00.000Z"
+    },
+    {
+      "guid": "https://codebeforethehorse.tumblr.com/post/3516499743",
+      "title": "Jumping my horse Miss M after a week off from the rain.",
+      "link": "https://codebeforethehorse.tumblr.com/post/3516499743",
+      "summary": "Jumping my horse Miss M after a week off from the rain.",
+      "author": null,
+      "publishedAt": "2011-02-26T04:42:00.000Z"
+    },
+    {
+      "guid": "https://codebeforethehorse.tumblr.com/post/3504948746",
+      "title": "Abstracting CSS with XHP",
+      "link": "https://codebeforethehorse.tumblr.com/post/3504948746",
+      "summary": "A good site design uses a consistent palette and reusable styles, but the unavoidable pitfall is the developer will have to remember every classname for every color and format, or redeclare the same values for multiple CSS classes. There are many frameworks and scripts that try to simulate CSS…",
+      "author": null,
+      "publishedAt": "2011-02-25T17:11:00.000Z"
+    },
+    {
+      "guid": "https://codebeforethehorse.tumblr.com/post/3288864699",
+      "title": "Basic XHP Abstractions",
+      "link": "https://codebeforethehorse.tumblr.com/post/3288864699",
+      "summary": "On the surface XHP is nothing more than eye candy, but used correctly it can greatly simplify development. Creating good abstractions has always been smart programming, but it’s very difficult to do that for your HTML components without mucking up your rendering code. Enter XHP to the rescue. Here…",
+      "author": null,
+      "publishedAt": "2011-02-14T07:22:00.000Z"
+    }
+  ],
+  "totalIndexed": 20
+}

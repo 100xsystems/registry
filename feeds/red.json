@@ -1,0 +1,213 @@
+{
+  "feedId": "red",
+  "feedName": "Red",
+  "feedSiteUrl": "http://www.red-lang.org",
+  "feedRssUrl": "https://www.red-lang.org/feeds/posts/default",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T07:06:12.938Z",
+  "items": [
+    {
+      "guid": "red::https://www.red-lang.org/2026/06/static-linking-support.html",
+      "title": "Static linking support",
+      "link": "https://www.red-lang.org/2026/06/static-linking-support.html",
+      "summary": "We must free ourselves of the hope that the sea will ever rest.\n\nWe must\n    learn to sail in high winds.\n\n-Aristotle Onassis\n\n\nThe coding agents revolution is taking the world by storm and we are right in the middle of it. Like most of you, we have experimented with the agent's amazing (and…",
+      "author": "Nenad Rakocevic",
+      "publishedAt": "2026-06-29T18:39:33.829Z"
+    },
+    {
+      "guid": "red::https://www.red-lang.org/2025/04/multiple-monitors-support.html",
+      "title": "Multiple monitors support",
+      "link": "https://www.red-lang.org/2025/04/multiple-monitors-support.html",
+      "summary": "Here is a short blog entry just to explain the newly added multiple monitor\n  support to View engine.\n\nScreen faces\nsystem/view/screens list. You can check that all monitors have been detected\n  correctly using (two monitors in this case):\n\n    >> length? system/view/screens\n    == 2\n\n\n  Each…",
+      "author": "Nenad Rakocevic",
+      "publishedAt": "2025-04-15T09:08:00.002Z"
+    },
+    {
+      "guid": "red::https://www.red-lang.org/2025/03/066-memory-management-improvements.html",
+      "title": "0.6.6: Memory Management Improvements",
+      "link": "https://www.red-lang.org/2025/03/066-memory-management-improvements.html",
+      "summary": "This new milestone brings many low-level improvements to Red's memory\n  management and garbage collecting. Most of those are long-planned additions\n  needed to complete the internal memory model and make it robust enough for the\n  future stable Red v1.0.\n\nFirst, here is a simplified overview of the…",
+      "author": "Nenad Rakocevic",
+      "publishedAt": "2025-03-19T16:11:00.006Z"
+    },
+    {
+      "guid": "red::https://www.red-lang.org/2024/06/text-ui-view-backend.html",
+      "title": "Text-UI View backend",
+      "link": "https://www.red-lang.org/2024/06/text-ui-view-backend.html",
+      "summary": "Last year, qtxie worked\n  on a toy text backend project and submitted a PR for that. After some extra\n  additions and testing recently, it has now been merged even if it is still\n  incomplete, it is usable enough. So, in addition to the shiny GUI backends in\n  Red/View, now we have an old-school…",
+      "author": "Nenad Rakocevic",
+      "publishedAt": "2024-06-11T14:02:00.002Z"
+    },
+    {
+      "guid": "red::https://www.red-lang.org/2024/05/red-in-real-world.html",
+      "title": "Red in the real world",
+      "link": "https://www.red-lang.org/2024/05/red-in-real-world.html",
+      "summary": "We're often asked what Red can be used for, or what apps have been written in\nRed. Red can be used to write almost anything, but the sparse ecosystem and some\nmissing pieces limit certain use cases. It's used a lot for in-house data\nprocessing, custom DSLs, simple GUI apps, and more. We also used…",
+      "author": "Unknown",
+      "publishedAt": "2024-05-27T17:37:00.000Z"
+    },
+    {
+      "guid": "red::https://www.red-lang.org/2024/02/065-changelog.html",
+      "title": "0.6.5: Changelog",
+      "link": "https://www.red-lang.org/2024/02/065-changelog.html",
+      "summary": "Bumping up the version number was motivated by the breaking syntax change done recently. We do not offer specific builds for a given version number anymore since we provide automatic builds (with builds history) on each new master commit. Though, the changelog for new version number changes will…",
+      "author": "Nenad Rakocevic",
+      "publishedAt": "2024-02-19T15:22:00.003Z"
+    },
+    {
+      "guid": "red::https://www.red-lang.org/2024/02/important-change-switching-map-and.html",
+      "title": "Important Change! Switching map and construction syntax.",
+      "link": "https://www.red-lang.org/2024/02/important-change-switching-map-and.html",
+      "summary": "Sometimes deep changes take a huge amount of code. Sometimes they take a\n  lot of detailed explanation and consideration, leading to long discussions and\n  people taking sides. Rarely does an important syntactic change to a language\n  happen quickly, with universal agreement, simple implementation,…",
+      "author": "Unknown",
+      "publishedAt": "2024-02-11T14:37:00.004Z"
+    },
+    {
+      "guid": "red::https://www.red-lang.org/2023/11/tab-navigation.html",
+      "title": "Tab Navigation",
+      "link": "https://www.red-lang.org/2023/11/tab-navigation.html",
+      "summary": "We finally got\n  tab navigation\n  implemented! You might think it should have been an easy feature to add, but\n  achieving a consistent and controllable behavior across our different native\n  GUI backends is not that straightforward. So we opted for a mixed\n  implementation with a general…",
+      "author": "Nenad Rakocevic",
+      "publishedAt": "2023-11-22T22:00:00.001Z"
+    },
+    {
+      "guid": "red::https://www.red-lang.org/2023/08/subpixel-gui.html",
+      "title": "Subpixel GUI",
+      "link": "https://www.red-lang.org/2023/08/subpixel-gui.html",
+      "summary": "Maybe you didn't notice, but Red/View, our GUI engine, has subpixel precision\n  from the beginning! Unfortunately, that level of precision was not directly\n  accessible to end users, until now. \n\n\n  Actually, it would be more accurate to say that we had subpixel resolution only so far. The guilty…",
+      "author": "Nenad Rakocevic",
+      "publishedAt": "2023-08-09T13:32:00.003Z"
+    },
+    {
+      "guid": "red::https://www.red-lang.org/2023/06/dynamic-refinements-and-function.html",
+      "title": "Dynamic Refinements and Function Application",
+      "link": "https://www.red-lang.org/2023/06/dynamic-refinements-and-function.html",
+      "summary": "It's Time to Apply Yourself to Red\nRed has never had an\n    apply function, though we\n    knew it would come someday. In the meantime, some of us rolled our own.\n    Gregg's was simple, neither flexible nor efficient, and just a couple lines\n    of code. Boris made a much more capable version, but…",
+      "author": "Nenad Rakocevic",
+      "publishedAt": "2023-06-07T22:55:00.006Z"
+    },
+    {
+      "guid": "red::https://www.red-lang.org/2022/07/new-red-binaries.html",
+      "title": "New Red binaries",
+      "link": "https://www.red-lang.org/2022/07/new-red-binaries.html",
+      "summary": "Since many years, we are offering pre-built binaries for the Red toolchain, as a more convenient way to use Red, even if it is not strictly needed, as Red can be run from its sources, the toolchain being run by a Rebol2 interpreter. As the Red REPL and toolchain are not run by the same engine, the…",
+      "author": "Nenad Rakocevic",
+      "publishedAt": "2022-07-29T16:18:00.003Z"
+    },
+    {
+      "guid": "red::https://www.red-lang.org/2022/07/the-road-to-10.html",
+      "title": "The Road To 1.0",
+      "link": "https://www.red-lang.org/2022/07/the-road-to-10.html",
+      "summary": "You cannot have missed that in the last months (and even last years), our\n  overall progress has slowed down drastically. One of the main reasons is that\n  we have spread our limited resources chasing different objectives while making\n  little progress on the core language. That is not satisfying…",
+      "author": "Nenad Rakocevic",
+      "publishedAt": "2022-07-14T16:41:00.000Z"
+    },
+    {
+      "guid": "red::https://www.red-lang.org/2021/12/2021-winding-down.html",
+      "title": "2021 Winding Down",
+      "link": "https://www.red-lang.org/2021/12/2021-winding-down.html",
+      "summary": "Another quarter, another blog post. Seems almost rushed after the previous\n  drought. \n\n\n  To set the stage, I'll start with a bit of a rant about complexity. If you\n  just want the meat of what's happening in the Red world, feel free to skip the\n  introduction. \n\nComplexity Considerations: Part 1…",
+      "author": "Unknown",
+      "publishedAt": "2021-12-31T20:23:00.004Z"
+    },
+    {
+      "guid": "red::https://www.red-lang.org/2021/08/long-time-no-blog.html",
+      "title": "Long Time No Blog",
+      "link": "https://www.red-lang.org/2021/08/long-time-no-blog.html",
+      "summary": "It's been almost a year since our last blog post. Sorry about that. It's one of those things that falls off our radar without a person dedicated to it, and we run lean so don't have anyone filling that role right now. We know it's important, even if we have many other channels where people can get…",
+      "author": "Unknown",
+      "publishedAt": "2021-08-04T00:21:00.000Z"
+    },
+    {
+      "guid": "red::https://www.red-lang.org/2020/08/redsystem-new-features.html",
+      "title": "Red/System: New Features",
+      "link": "https://www.red-lang.org/2020/08/redsystem-new-features.html",
+      "summary": "In the past months, many new features were added to Red/System, the low-level\n  dialect embedded in Red. Here is a sum up if you missed them.\n\nSubroutines\nnew Red lexer, the need arised for intra-function factorization abilities to keep the\n  lexer code as\n  DRY\n  as possible. Subroutines were…",
+      "author": "Nenad Rakocevic",
+      "publishedAt": "2020-08-20T10:54:00.000Z"
+    },
+    {
+      "guid": "red::https://www.red-lang.org/2020/08/a-new-fast-and-flexible-lexer.html",
+      "title": "A New Fast and Flexible Lexer",
+      "link": "https://www.red-lang.org/2020/08/a-new-fast-and-flexible-lexer.html",
+      "summary": "A programming language lexer is the part in charge of converting textual code\n  representation into a structured memory representation. In Red, it is\n  accomplished by the\n  load function, which calls\n  the lower-level transcode\n  native. Until now, Red was relying on a lexer entirely written using…",
+      "author": "Nenad Rakocevic",
+      "publishedAt": "2020-08-03T12:06:00.002Z"
+    },
+    {
+      "guid": "red::https://www.red-lang.org/2020/03/gtk-fast-lexer-money-deep-testing-and.html",
+      "title": "GTK, fast lexer, money, deep testing, and our first commercial product",
+      "link": "https://www.red-lang.org/2020/03/gtk-fast-lexer-money-deep-testing-and.html",
+      "summary": "It's been a busy start to the year for the team. Work has continued on many fronts, and we have some new team members helping us to keep the momentum going. We announced in January that GTK and the Fast Lexer were close, and they are even closer now. The hard part about making announcements is that…",
+      "author": "Unknown",
+      "publishedAt": "2020-03-20T19:00:00.001Z"
+    },
+    {
+      "guid": "red::https://www.red-lang.org/2020/01/happy-new-year.html",
+      "title": "Happy New Year!",
+      "link": "https://www.red-lang.org/2020/01/happy-new-year.html",
+      "summary": "Hello and happy new year, friends of Red! We have some exciting projects we’ve been working on that will be available this year, including a new product. Let’s talk a little about what the team has been working on behind the scenes.\nnew product with Red in 2020...plus, a robust preliminary draft of…",
+      "author": "Unknown",
+      "publishedAt": "2020-01-01T07:23:00.000Z"
+    },
+    {
+      "guid": "red::https://www.red-lang.org/2019/12/november-2019-in-review.html",
+      "title": "November 2019 in Review",
+      "link": "https://www.red-lang.org/2019/12/november-2019-in-review.html",
+      "summary": "Welcome to December, friends of Red. It's an intent and focused time of year as we wind down 2019, and the core team is making important moves (sometimes literally!) to set us up for an ambitious 2020. But first, here are just a few things that happened in November.\nFirst and foremost, it's always…",
+      "author": "Unknown",
+      "publishedAt": "2019-12-04T22:07:00.002Z"
+    },
+    {
+      "guid": "red::https://www.red-lang.org/2019/11/editorial-brief-essay-on-lexical.html",
+      "title": "Editorial: A Brief Essay on Lexical Ambiguity by G. Irwin",
+      "link": "https://www.red-lang.org/2019/11/editorial-brief-essay-on-lexical.html",
+      "summary": "The original commentary was posted in Red's Gitter channel, here, by Gregg Irwin, one of our core team members, in response to various requests for the ability to create new datatypes in Red.\n\nAs a writer, Red has always appealed to me because of its flexibility; but, of course, \"the [lexicon]…",
+      "author": "Unknown",
+      "publishedAt": "2019-11-19T23:16:00.001Z"
+    },
+    {
+      "guid": "red::https://www.red-lang.org/2019/10/a-deeper-dive-into-fast-lexer-changes.html",
+      "title": "A Deeper Dive Into the Fast-Lexer Changes",
+      "link": "https://www.red-lang.org/2019/10/a-deeper-dive-into-fast-lexer-changes.html",
+      "summary": "What made the fast-lexer branch a priority?\n\n\nSeveral things. It started when @dockimbel looked into ticket #3606, which was impossible to fix currently, and we didn't want to give up on the auto-syncing between /text and /data facets. So he had to consider bigger options, including how to make the…",
+      "author": "Unknown",
+      "publishedAt": "2019-10-30T19:18:00.000Z"
+    },
+    {
+      "guid": "red::https://www.red-lang.org/2019/10/october-2019-in-review.html",
+      "title": "October 2019 In Review",
+      "link": "https://www.red-lang.org/2019/10/october-2019-in-review.html",
+      "summary": "Over the last few weeks the Red Lang core team drilled down to make some truly great progress on Red's fast-lexer branch--while we also gained valuable support from the contributions of Red doers and makers as they consolidate a world of useful information and resources.\n\n\n\nFast-Lexer Benchmarks…",
+      "author": "Unknown",
+      "publishedAt": "2019-10-25T06:14:00.000Z"
+    },
+    {
+      "guid": "red::https://www.red-lang.org/2019/09/the-latest-red-could-help-ai-be-more.html",
+      "title": "The Latest: Red could help AI be more precise; community stars; one CSV codec to rule them all?",
+      "link": "https://www.red-lang.org/2019/09/the-latest-red-could-help-ai-be-more.html",
+      "summary": "Hello to all the great makers, doers and creative people who are using Red, helping the Red Language grow and improve!\n\nAs always, there's a standing invitation for you to join us on Gitter, Telegram or Github (if you haven't already) to ask questions and tell us about your Red-powered projects.…",
+      "author": "Unknown",
+      "publishedAt": "2019-09-15T19:23:00.000Z"
+    },
+    {
+      "guid": "red::https://www.red-lang.org/2019/07/gpio-port-for-raspberry-pi.html",
+      "title": "GPIO port for Raspberry Pi",
+      "link": "https://www.red-lang.org/2019/07/gpio-port-for-raspberry-pi.html",
+      "summary": "As part of the R&D work on port! datatype in port-type branch, we have implemented a GPIO driver for Raspberry Pi boards, as a gpio:// scheme (no third-party library needed). This work helped define the low-level API for ports written in purely Red/System or a mix of Red and Red/System.…",
+      "author": "Nenad Rakocevic",
+      "publishedAt": "2019-07-18T16:08:00.000Z"
+    },
+    {
+      "guid": "red::https://www.red-lang.org/2019/07/red-wallet-040.html",
+      "title": "RED Wallet 0.4.0",
+      "link": "https://www.red-lang.org/2019/07/red-wallet-040.html",
+      "summary": "We are releasing today the version 0.4.0 of the RED Wallet with several major new features. As a reminder, the RED Wallet aims to be a simple and very secure wallet for the major cryptocurrencies (BTC, ETH, and ERC-20 tokens). Safety is enforced through the mandatory use of a hardware key (Ledger…",
+      "author": "Nenad Rakocevic",
+      "publishedAt": "2019-07-09T18:12:00.000Z"
+    }
+  ],
+  "totalIndexed": 25
+}

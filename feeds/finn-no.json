@@ -1,0 +1,413 @@
+{
+  "feedId": "finn-no",
+  "feedName": "Finn.no",
+  "feedSiteUrl": "http://tech.finn.no/",
+  "feedRssUrl": "http://tech.finn.no/atom.xml",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T06:50:09.475Z",
+  "items": [
+    {
+      "guid": "finn-no::https://tech.finn.no2018/10/18/haskell-at-finn-no/",
+      "title": "Haskell at FINN.no",
+      "link": "https://tech.finn.no2018/10/18/haskell-at-finn-no/",
+      "summary": "Favorites\nFINN has this feature where users can mark classified ads as a favorite, making it easy to come back to certain ads later. The feature has been around quite a while, and the systems involved, both frontend and backend were becoming quite hard to maintain. So the AdView-team set out to…",
+      "author": "Sjur Millidahl",
+      "publishedAt": "2018-10-18T09:00:00.000Z"
+    },
+    {
+      "guid": "finn-no::https://tech.finn.no2018/08/09/preparing-your-product-for-ml/",
+      "title": "Preparing your product for machine learning",
+      "link": "https://tech.finn.no2018/08/09/preparing-your-product-for-ml/",
+      "summary": "At many companies, there are few data scientists and many projects which may be very interesting for the business to\napply machine learning on. For most of these companies, starting greenfield projects with a data scientist on the team\nmight be either a difficult political battle (to get assigned…",
+      "author": "Joakim Rishaug",
+      "publishedAt": "2018-08-09T08:00:00.000Z"
+    },
+    {
+      "guid": "finn-no::https://tech.finn.no2018/06/28/hack-days-in-finn/",
+      "title": "5 learnings from Hack Days in FINN",
+      "link": "https://tech.finn.no2018/06/28/hack-days-in-finn/",
+      "summary": "<div type=\"html\"/>",
+      "author": "Vegard Storstad",
+      "publishedAt": "2018-06-28T08:00:00.000Z"
+    },
+    {
+      "guid": "finn-no::https://tech.finn.no2018/04/10/personalized-search/",
+      "title": "Personalized search with a custom Solr plugin",
+      "link": "https://tech.finn.no2018/04/10/personalized-search/",
+      "summary": "Background\nOn FINN.no people can search for classified ads, where the backend system is using Solr as the search engine. Default sorting on the vertical “torget” is by relevancy, which is based on Solr score. The Solr score for a document is again calculated from query relevance and the ad’s…",
+      "author": "Henrik Falch",
+      "publishedAt": "2018-04-10T06:00:00.000Z"
+    },
+    {
+      "guid": "finn-no::https://tech.finn.no2018/02/06/fagkveld/",
+      "title": "Åpen fagkveld hjemme hos FINN",
+      "link": "https://tech.finn.no2018/02/06/fagkveld/",
+      "summary": "Tradisjonen tro åpner vi også i år dørene hjemme hos oss i Grensen for å dele våre erfaringer rundt hvordan vi jobber med produktutvikling. Teknologi er i fokus, og vi gleder oss til å vise dere hvordan vi bygger - og holder et av Norges mest besøkte nettsteder vedlike.​​​​​​​ En kveld er dedikert…",
+      "author": "Gunn Skinderviken",
+      "publishedAt": "2018-02-06T14:14:30.000Z"
+    },
+    {
+      "guid": "finn-no::https://tech.finn.no2017/12/13/browser-statistics-december-2017/",
+      "title": "Browser statistics December 2017",
+      "link": "https://tech.finn.no2017/12/13/browser-statistics-december-2017/",
+      "summary": "Browser statistics, December 2017 at FINN.no#\nYuletide is coming real soon now, and we haven’t published browser statistics for 2017 yet! The 2016 edition is here if you want to compare.\nHow many visitors use a desktop or laptop?\nThe trend continues, a higher percentage of the traffic is coming…",
+      "author": "Henning Spjelkavik",
+      "publishedAt": "2017-12-13T10:02:32.000Z"
+    },
+    {
+      "guid": "finn-no::https://tech.finn.no2017/10/30/finn-wins-universal-design-award/",
+      "title": "FINN wins Universal Design Award",
+      "link": "https://tech.finn.no2017/10/30/finn-wins-universal-design-award/",
+      "summary": "Family and Equality Minister Solveig Horne handed out the award to FINN employees from the Accessibility Team, Product, Innovation and Technology. From left: Maiken Solberg Olsen, Solveig Horne, Lotte Johansen, Tor-Martin Storsletten, Karina Birkeland Lome, Ingrid Vestby Fredriksen, David Håsäther,…",
+      "author": "Lotte Johansen",
+      "publishedAt": "2017-10-30T11:19:07.000Z"
+    },
+    {
+      "guid": "finn-no::https://tech.finn.no2017/10/17/akka-workshop-finn-no/",
+      "title": "Akka workshop at Finn.no",
+      "link": "https://tech.finn.no2017/10/17/akka-workshop-finn-no/",
+      "summary": "Akka workshoppers hard at work!\n\n\nIn FINN.no we have experience in running distributed systems, and we often rely on asynchronous communication between our applications. Apache Kafka is the work-horse on the house, and it’s doing an excellent job for us.\nBut this doesn’t mean that we shouldn’t…",
+      "author": "Arild Nilsen",
+      "publishedAt": "2017-10-17T06:56:49.000Z"
+    },
+    {
+      "guid": "finn-no::https://tech.finn.no2017/09/08/NLP-based-recommenders-at-finn/",
+      "title": "Deep NLP-based Recommenders at Finn.no",
+      "link": "https://tech.finn.no2017/09/08/NLP-based-recommenders-at-finn/",
+      "summary": "During a hackathon at FINN.no, we figured we wanted to learn more about deep NLP-models. FINN.no has a large database with ads of people trying to sell stuff (around 1 million active ads at any time), and they are categorized into a category tree with three or four layers. For example, full…",
+      "author": "Joakim Rishaug",
+      "publishedAt": "2017-09-08T13:56:49.000Z"
+    },
+    {
+      "guid": "finn-no::https://tech.finn.no2017/08/08/summerinterns-2017/",
+      "title": "The summer interns of 2017",
+      "link": "https://tech.finn.no2017/08/08/summerinterns-2017/",
+      "summary": "The starting point\nIn a galaxy very very close by, there were 5 brave summer interns working for FINN.no. They came from the far north (NTNU) and the far south (UiO) of the cold and rainy plains of Norway. 4 of them were taught in the arts of the computer, and one in the teachings of the design.…",
+      "author": "Inga N. Søreide",
+      "publishedAt": "2017-08-08T10:56:49.000Z"
+    },
+    {
+      "guid": "finn-no::https://tech.finn.no2017/07/31/from-hadoop-and-cassandra-to-kafka-streams/",
+      "title": "From Hadoop and Cassandra to Kafka Streams",
+      "link": "https://tech.finn.no2017/07/31/from-hadoop-and-cassandra-to-kafka-streams/",
+      "summary": "Some context\nPeople who publish their classified ads on FINN.no get access to various statistics to see how their ads are performing. For a user it can look something like this:\nStatistics the owner of a realestate ad gets to see\n\n\nThe top left bar chart shows the repartition of the incoming…",
+      "author": "Nicolas Yann Couturier",
+      "publishedAt": "2017-07-31T12:00:00.000Z"
+    },
+    {
+      "guid": "finn-no::https://tech.finn.no2017/07/19/flappy-cat/",
+      "title": "Flappy Cat",
+      "link": "https://tech.finn.no2017/07/19/flappy-cat/",
+      "summary": "Why make a Flappy Cat game?\nThe Idea was to make a Flappy Bird with motion tracking control for our JavaZone stand. Some quick research told us it should be possible. Since cats are assosiated with FINN, it of course became a Flappy Cat game. Come and try it at JavaZone in September.\nMade by search…",
+      "author": "Pernille Celia Sethre, Gunn Skinderviken",
+      "publishedAt": "2017-07-19T16:58:36.000Z"
+    },
+    {
+      "guid": "finn-no::https://tech.finn.no2017/06/07/wai-aria-and-its-true-impact-on-assistive-technologies/",
+      "title": "WAI-ARIA and its true impact on assistive technologies",
+      "link": "https://tech.finn.no2017/06/07/wai-aria-and-its-true-impact-on-assistive-technologies/",
+      "summary": "1. Introduction\nThis article is intended for web developers who want to improve their understanding of the effect that WAI-ARIA has on assistive technologies. It will therefore be assumed that you already have basic knowledge about terms such as ARIA and screen readers.\n1.1. Generalize screen…",
+      "author": "Tor-Martin Storsletten",
+      "publishedAt": "2017-06-07T12:00:00.000Z"
+    },
+    {
+      "guid": "finn-no::https://tech.finn.no2017/03/10/unleash-your-features-gradually/",
+      "title": "Unleash Your Features Gradually",
+      "link": "https://tech.finn.no2017/03/10/unleash-your-features-gradually/",
+      "summary": "FINN.no is the largest online marketplace in Norway, and we take continuous deployment seriously. We are about one hundred developers deploying new code to production 978 times each week. That is 978 / 100 = 9.78 deployments to production per developer every week. In order to get to these numbers…",
+      "author": "Ivar Conradi Østhus",
+      "publishedAt": "2017-03-10T16:58:36.000Z"
+    },
+    {
+      "guid": "finn-no::https://tech.finn.no2017/02/09/fagkveld/",
+      "title": "Åpen fagkveld 7. mars",
+      "link": "https://tech.finn.no2017/02/09/fagkveld/",
+      "summary": "Åpen fagkveld 7. mars hjemme hos FINN - kl 15-20\nFor ett år siden åpnet vi dørene hjem til oss i Grensen for å dele våre erfaringer rundt hvordan vi jobber med produktutvikling. Vi fikk gode tilbakemeldinger på kvelden og nå ønsker vi å invitere til en ny fagkveld. Denne gangen blir agendaen mer…",
+      "author": "Gunn Skinderviken, Henning Spjelkavik",
+      "publishedAt": "2017-02-09T14:14:30.000Z"
+    },
+    {
+      "guid": "finn-no::https://tech.finn.no2017/02/02/category-guessing/",
+      "title": "Category guessing",
+      "link": "https://tech.finn.no2017/02/02/category-guessing/",
+      "summary": "The problem\nMaking it easy to fill out forms is essential for getting data into our system at FINN småjobber, which is a service to get help with tasks like house cleaning or renovation, where the user submits a job that non-professionals bid on.\nSubmitting a job is done by filling out a form with…",
+      "author": "Tor Arne Kvaløy",
+      "publishedAt": "2017-02-02T14:14:30.000Z"
+    },
+    {
+      "guid": "finn-no::https://tech.finn.no2016/12/15/programmatic/",
+      "title": "WTF er Programmatic?",
+      "link": "https://tech.finn.no2016/12/15/programmatic/",
+      "summary": "… og hvorfor trenger jeg å bry meg om det?\nFor å forstå programmatisk kjøp og salg av annonser, er det viktig å forstå hva vi legger i begrepene. Hva skiller det eksempelvis fra tradisjonelt merkevaresalg? Er det ene alternativet bedre enn det andre?\nI korte trekk er det viktig å forstå…",
+      "author": "Julie Lundgren og Tale Gjøvik",
+      "publishedAt": "2016-12-15T10:17:32.000Z"
+    },
+    {
+      "guid": "finn-no::https://tech.finn.no2016/11/01/working-for-another-sch-company/",
+      "title": "Hello world!",
+      "link": "https://tech.finn.no2016/11/01/working-for-another-sch-company/",
+      "summary": "As some of you may know, FINN is owned by Schibsted. What may not be that familiar, is that Schibsted has online classified solutions in several markets around the world, including Blocket in Sweden, Le Bon Coin in France and Vibbo in Spain. Schibsted has several hundreds of developers distributed…",
+      "author": "Per Jørgen Walstrøm",
+      "publishedAt": "2016-11-01T10:17:32.000Z"
+    },
+    {
+      "guid": "finn-no::https://tech.finn.no2016/10/18/open-student-night/",
+      "title": "Åpen studentkveld hjemme hos FINN",
+      "link": "https://tech.finn.no2016/10/18/open-student-night/",
+      "summary": "FINN.no skal ha en åpen studentkveld der vi forteller litt om hvordan vi jobber med fokus på teknologi, produkt og brukeropplevelse.\nDette vil skje den 3. november fra klokken 16:00 – 20:00, her i våre lokaler i Grensen 5-7 i Oslo.\nHvem kan melde seg på?\nAlle som studerer ved en relevant linje på…",
+      "author": "Nicolai Høge",
+      "publishedAt": "2016-10-18T00:00:00.000Z"
+    },
+    {
+      "guid": "finn-no::https://tech.finn.no2016/10/04/browser-statistics-october-2016/",
+      "title": "Browser statistics October 2016",
+      "link": "https://tech.finn.no2016/10/04/browser-statistics-october-2016/",
+      "summary": "Last year, we presented the browser statistics of FINN.no as of June 2015. It’s time for an update!\nHow many visitors use a desktop or laptop?\nOur first graph shows the share of our users using a mobile phone, tablet or a desktop computer to access FINN.no, regardless of whether they use our…",
+      "author": "Henning Spjelkavik",
+      "publishedAt": "2016-10-04T10:02:32.000Z"
+    },
+    {
+      "guid": "finn-no::https://tech.finn.no2016/08/26/down-to-business-with-prometheus/",
+      "title": "Getting down to business with Prometheus",
+      "link": "https://tech.finn.no2016/08/26/down-to-business-with-prometheus/",
+      "summary": "Having moved towards an architecture of microservices, FINN is already leveraging a number of technologies for identifying and dealing with service outages within this architectural style.\nWith each piece of functionality being comprised of a growing number of individual services, specialized tools…",
+      "author": "Håvard Nesvold",
+      "publishedAt": "2016-08-26T13:00:00.000Z"
+    },
+    {
+      "guid": "finn-no::https://tech.finn.no2016/08/12/summer-project-2016/",
+      "title": "Summer Project 2016: Customer Insight",
+      "link": "https://tech.finn.no2016/08/12/summer-project-2016/",
+      "summary": "This year’s summer intern team consisted of five technology students from UiO and NTNU and one in-house design intern. We have released continuously throughout an eight week period, and have ended with a final solution which is available to the public.\nThe problem presented for this year’s summer…",
+      "author": "Anne Cathrine Saarem",
+      "publishedAt": "2016-08-12T11:04:35.000Z"
+    },
+    {
+      "guid": "finn-no::https://tech.finn.no2016/06/22/splitting-up-a-storyboard/",
+      "title": "Splitting up a storyboard in an Objective-C/Swift mixed legacy project",
+      "link": "https://tech.finn.no2016/06/22/splitting-up-a-storyboard/",
+      "summary": "Splitting up a storyboard in an Objective-C/Swift mixed legacy project\nHow do you go about splitting up your storyboard into multiple smaller storyboards? And why would you? In this article I’ll tell you why we wanted to do this, what kind of problems we encountered along the way, and how we solved…",
+      "author": "Marius Waldal",
+      "publishedAt": "2016-06-22T11:19:07.000Z"
+    },
+    {
+      "guid": "finn-no::https://tech.finn.no2016/06/13/how-to-make-your-colleagues-think-accessibility/",
+      "title": "How to Make Your Colleagues Think Accessibility",
+      "link": "https://tech.finn.no2016/06/13/how-to-make-your-colleagues-think-accessibility/",
+      "summary": "What to do when your colleagues don't make accessible products.\n\n\nWhen developing a website which affects the life of almost every person in Norway, accessibility should be a main priority. Norwegians  who are not able to use FINN.no are unable to find a home without assistance. Accessibility…",
+      "author": "Tom Widerøe",
+      "publishedAt": "2016-06-13T11:19:07.000Z"
+    },
+    {
+      "guid": "finn-no::https://tech.finn.no2016/02/15/pen-fagkveld-presentasjoner/",
+      "title": "Åpen fagkveld, presentasjoner",
+      "link": "https://tech.finn.no2016/02/15/pen-fagkveld-presentasjoner/",
+      "summary": "Onsdag 10. februar så hadde vi 140 personer på besøk hos FINN. Vi fortale litt om hvordan vi jobber i FINN og serverte pølser og øl. Nedenfor kan du finne presentasjonene fra fagkvelden.\nProgrammet\n15:15 - 15:30\nVelkommen til FINN v/ adm.dir Sondre Gravir\n\n\n15:30 – 16:10\nBrukerorientering og…",
+      "author": "Jo Odland",
+      "publishedAt": "2016-02-15T22:04:17.000Z"
+    },
+    {
+      "guid": "finn-no::https://tech.finn.no2016/01/23/pen-fagkveld-hjemme-hos-finn/",
+      "title": "Åpen fagkveld hjemme hos FINN",
+      "link": "https://tech.finn.no2016/01/23/pen-fagkveld-hjemme-hos-finn/",
+      "summary": "Velkommen til åpen fagkveld onsdag 10. februar, fra kl 15-20 hjemme hos FINN i Grensen 5-7.\nLink til påmelding: (Beklager men arrangementet er fullt.)\nFør jul kom vi opp med en idé om å invitere til en fagkveld der vi skulle dele av våre FINNske erfaringer. Vi bestemte oss for å sjekke interessen…",
+      "author": "Jo Odland",
+      "publishedAt": "2016-01-23T20:27:47.000Z"
+    },
+    {
+      "guid": "finn-no::https://tech.finn.no2016/01/20/why-try-java-8-functional-programming/",
+      "title": "Why Try - Java 8 lambdas and checked Exceptions",
+      "link": "https://tech.finn.no2016/01/20/why-try-java-8-functional-programming/",
+      "summary": "Why won't this compile? (And why does riskyTask throw a PrinterException?!)\n\n\nOne does not have to use lambdas in Java 8 long before running into the obstacle of checked Exceptions. Because the PrinterException is checked, the compiler forces us to deal with it, even within a lambda:\nprivate void…",
+      "author": "Sjur Millidahl",
+      "publishedAt": "2016-01-20T07:13:00.000Z"
+    },
+    {
+      "guid": "finn-no::https://tech.finn.no2015/11/21/the-great-big-schibsted-programming-language-survey-2015/",
+      "title": "The great big Schibsted programming language survey 2015",
+      "link": "https://tech.finn.no2015/11/21/the-great-big-schibsted-programming-language-survey-2015/",
+      "summary": "During September, I collected answers on a survey about programming languages from people who work in one of the many companies that make up the Schibsted family. The survey is neither requested, sanctioned, approved or even suggested by anyone in management, in any Schibsted company. It is…",
+      "author": "Morten Lied Johansen",
+      "publishedAt": "2015-11-21T21:28:28.000Z"
+    },
+    {
+      "guid": "finn-no::https://tech.finn.no2015/10/16/javascript-from-callback-hell-to-heaven/",
+      "title": "Javascript: from callback hell to heaven",
+      "link": "https://tech.finn.no2015/10/16/javascript-from-callback-hell-to-heaven/",
+      "summary": "This blogpost explains how some nifty features in ES7 will make it easier to write asynchronous code, and how ES6 generators will pave the way for this.\nAsync/await\nMy main annoyance with javascript and Node has been the tedious asynchronous programming model of callbacks, leading to nested…",
+      "author": "Tor Arne Kvaløy",
+      "publishedAt": "2015-10-16T14:00:00.000Z"
+    },
+    {
+      "guid": "finn-no::https://tech.finn.no2015/09/25/setup-nginx-with-http2-for-local-development/",
+      "title": "Setup nginx with HTTP/2 for local development (OS X)",
+      "link": "https://tech.finn.no2015/09/25/setup-nginx-with-http2-for-local-development/",
+      "summary": "HTTP/2 became an official standard in May earlier this year, and support is starting to land in servers already. The most recent, and very welcome addition, is nginx 1.9.5 [1]. What makes nginx extra awesome is that it’s very easy to set up in front of any other HTTP 1.x server (or HTTP/2 for that…",
+      "author": "Gregers Rygg",
+      "publishedAt": "2015-09-25T21:57:00.000Z"
+    },
+    {
+      "guid": "finn-no::https://tech.finn.no2015/09/22/the-process-of-using-kafka/",
+      "title": "The Process of Using Kafka",
+      "link": "https://tech.finn.no2015/09/22/the-process-of-using-kafka/",
+      "summary": "Use and misuse\nActually, the title is a bit too broad. We’ll look at how different number of acks, async and timeouts will affect the reliability of your messages.\nAbstract / TL;DR\nKafka can be used in many ways, and there are also many options that you need to understand and decide upon before you…",
+      "author": "Henning Spjelkavik",
+      "publishedAt": "2015-09-22T13:58:41.000Z"
+    },
+    {
+      "guid": "finn-no::https://tech.finn.no2015/06/25/browser-statistics-june-2015/",
+      "title": "Browser statistics June 2015",
+      "link": "https://tech.finn.no2015/06/25/browser-statistics-june-2015/",
+      "summary": "In July 2013 more than 40% of the visits to FINN.no were from a tablet or a phone. Nearly one year later, in April 2014 - the share was 48%.\nWhat do you think has happened the last year?\nIn April, Google rolled out their “mobile-friendly update”, which boosts the ranking of sites that are mobile…",
+      "author": "Henning Spjelkavik",
+      "publishedAt": "2015-06-25T23:00:32.000Z"
+    },
+    {
+      "guid": "finn-no::https://tech.finn.no2015/06/15/removing-long-travels-in-the-flight-search/",
+      "title": "When flying from Oslo to London, you don't want to go via Moscow",
+      "link": "https://tech.finn.no2015/06/15/removing-long-travels-in-the-flight-search/",
+      "summary": "If you want to travel from Oslo to London, you may end up getting results which include layovers in far-away places. Do you really want to spend a night at the airport in Moscow if you only want to go from Oslo to London? Probably not, but nonetheless, some of the results we receive at the FINN…",
+      "author": "Per Jørgen Walstrøm",
+      "publishedAt": "2015-06-15T12:47:32.000Z"
+    },
+    {
+      "guid": "finn-no::https://tech.finn.no2015/04/28/Apache-Cassandra-in-a-Microservices-Enterprise-Platform/",
+      "title": "Apache Cassandra in a Microservices Enterprise Platform",
+      "link": "https://tech.finn.no2015/04/28/Apache-Cassandra-in-a-Microservices-Enterprise-Platform/",
+      "summary": "In this article we’ll explore how Apache Cassandra, the world’s most popular wide column store and 8th most popular database overall, will only grow as a cornerstone technology in a microservices platform. With a little theory to microservices, to some examples of microservices and underlying…",
+      "author": "mick",
+      "publishedAt": "2015-04-28T14:00:00.000Z"
+    },
+    {
+      "guid": "finn-no::https://tech.finn.no2015/04/27/finding-gold-in-big-data/",
+      "title": "Finding Gold in Big Data",
+      "link": "https://tech.finn.no2015/04/27/finding-gold-in-big-data/",
+      "summary": "In the previous article we introduced our own introduction into the world of Big Data, and explored what it meant for FINN. Here we’ll go into the technical depth about the implementation of our Big Data needs.\nrehashing the previous article\nFINN is a busy site, the busiest in Norway, and we…",
+      "author": "mick",
+      "publishedAt": "2015-04-27T09:00:00.000Z"
+    },
+    {
+      "guid": "finn-no::https://tech.finn.no2015/03/10/eric-evans-in-the-house/",
+      "title": "Eric Evans in the house",
+      "link": "https://tech.finn.no2015/03/10/eric-evans-in-the-house/",
+      "summary": "In our continuing quest to break up our old monolith and create a more flexible and scalable architecture, we have realized that we need to look at some new tools and methods. One of the more promising approaches was Domain Driven Design, a term coined by Eric Evans in his Big Blue Book\nQuite a few…",
+      "author": "Nicolai Høge",
+      "publishedAt": "2015-03-10T14:37:49.000Z"
+    },
+    {
+      "guid": "finn-no::https://tech.finn.no2015/02/26/javascript-is-evolving/",
+      "title": "JavaScript is evolving",
+      "link": "https://tech.finn.no2015/02/26/javascript-is-evolving/",
+      "summary": "As a die-hard java-developer for several years I was quite annoyed by the fact that Java as a language lagged several years behind C#. (E.g. Java got lambdas last year, 6 years after C#, so standards are nice for compatibility, but tends to be slow to evolve.)\nPolyfill\nNow, as a frontend-developer…",
+      "author": "Tor Arne Kvaløy",
+      "publishedAt": "2015-02-26T09:23:01.000Z"
+    },
+    {
+      "guid": "finn-no::https://tech.finn.no2015/02/16/java-8-workshop-at-finnno/",
+      "title": "Java 8 workshop at Finn.no",
+      "link": "https://tech.finn.no2015/02/16/java-8-workshop-at-finnno/",
+      "summary": "Pondering on the right lambda for the job\n\n\nWith Java 8 comes a whole new set of language features. It even challenges the imperative coding-style of the Java programmer.\nJava is a core language in Finn.no. More and more of our java-modules are being built with Java 8, adopting new features of the…",
+      "author": "Sjur Millidahl",
+      "publishedAt": "2015-02-16T07:50:16.000Z"
+    },
+    {
+      "guid": "finn-no::https://tech.finn.no2015/02/10/summit/",
+      "title": "Finn.no wanted to split up their monolith, you won't believe what happens next",
+      "link": "https://tech.finn.no2015/02/10/summit/",
+      "summary": "After working several years with (successfully) breaking up the legacy monolith, called iAD, Finn.no wanted to add structure to this process, and make sure that all 20 development teams work towards the same target.\nThe target is a microservices architecture with small-ish autonomous services,…",
+      "author": "Audun Fauchald Strand",
+      "publishedAt": "2015-02-10T11:00:00.000Z"
+    },
+    {
+      "guid": "finn-no::https://tech.finn.no2015/01/28/from-wordpress-to-jekyll/",
+      "title": "From Wordpress to Jekyll",
+      "link": "https://tech.finn.no2015/01/28/from-wordpress-to-jekyll/",
+      "summary": "Last year we decided to move our developer blog from Wordpress to Jekyll. One of the main reasons were the constant security vulnerabilities of Wordpress. We were hosting Wordpress on our own hardware. We pleased our operations team when they could shut down the service. Github provides hosting for…",
+      "author": "Andersos",
+      "publishedAt": "2015-01-28T13:40:36.000Z"
+    },
+    {
+      "guid": "finn-no::https://tech.finn.no2015/01/07/finnno-year-in-review-2014/",
+      "title": "Finn.no year in review 2014",
+      "link": "https://tech.finn.no2015/01/07/finnno-year-in-review-2014/",
+      "summary": "The data in this post was gathered by Hans-Erik Hallheim, Henrik Faller and Lene Kallum.\nThe three most popular ads in 2014 were Audi A6,\nWalkman wanted badly and\nSkis with crap boots, used twice\nWe had over 7,4 million sofa related searches in 2014 and around 7000 unique permutations containing…",
+      "author": "Andersos",
+      "publishedAt": "2015-01-07T10:30:17.000Z"
+    },
+    {
+      "guid": "finn-no::https://tech.finn.no2014/12/15/react-in-the-real-world/",
+      "title": "React in the Real World",
+      "link": "https://tech.finn.no2014/12/15/react-in-the-real-world/",
+      "summary": "At FINN oppdrag, a year ago we came to realize that our front-end code, written in JSP/jQuery, had become so large and complex that it affected our ability to produce features. We spent more time making sure the DOM manipulations were correct and did not break, than actually creating value for our…",
+      "author": "Tor Arne Kvaløy",
+      "publishedAt": "2014-12-15T12:36:31.000Z"
+    },
+    {
+      "guid": "finn-no::https://tech.finn.no2014/12/11/Nova-Hackathon/",
+      "title": "Nova Hackathon",
+      "link": "https://tech.finn.no2014/12/11/Nova-Hackathon/",
+      "summary": "We were invited by Nova for their first Nova Hackathon.\nA Hackathon is period of time where computer programmers collaborate intensively on a given task or multiple tasks. For the Nova Hackathon Challenge Finn was invited to make a task for the students along with 2 other companies.\nThe challenge…",
+      "author": "firiaati",
+      "publishedAt": "2014-12-11T17:00:00.000Z"
+    },
+    {
+      "guid": "finn-no::https://tech.finn.no2014/11/26/finn-techday-2014/",
+      "title": "FINN techday 2014",
+      "link": "https://tech.finn.no2014/11/26/finn-techday-2014/",
+      "summary": "One of the ways of getting inspired and educated about technology here at FINN is through our “Tech-dag”.\nThis year we have a packed program which consists of workshops, some talks and a bunch of lightning talks.\nLast time we posted about techday was in 2012.\nPresentations\nThroughout the day we had…",
+      "author": "Andersos",
+      "publishedAt": "2014-11-26T08:55:00.000Z"
+    },
+    {
+      "guid": "finn-no::https://tech.finn.no2014/11/25/apachecon-budapest/",
+      "title": "ApacheCon Budapest 2014",
+      "link": "https://tech.finn.no2014/11/25/apachecon-budapest/",
+      "summary": "Last week was Europe’s ApacheCon, held in Budapest.\nA refreshingly “laid-back and no-nonsense” conference free from the douchebaggery that comes from big sponsors and marketing. This year it was held in the awesome 5-star Corinthia Hotel, and consisted of a welcoming and cheerful vibe, a place for…",
+      "author": "mick",
+      "publishedAt": "2014-11-25T13:00:00.000Z"
+    },
+    {
+      "guid": "finn-no::https://tech.finn.no2014/11/21/email-providers-in-norway/",
+      "title": "Email providers in Norway",
+      "link": "https://tech.finn.no2014/11/21/email-providers-in-norway/",
+      "summary": "It all started with a simple tweet:\nEr det noen som har noe norsk statistikk på bruk av e-post (gmail vs. outlook vs. online vs. yahoo osv)? F.eks @labs_finn_no eller @NRKbeta?\n— Håvard Bergersen (@haavardb) March 7, 2014\n“Does anyone have any Norwegian statistics on the use of email (Gmail vs.…",
+      "author": "Andersos",
+      "publishedAt": "2014-11-21T18:00:00.000Z"
+    },
+    {
+      "guid": "finn-no::https://tech.finn.no2014/11/19/workshop-with-blindfolded-lunch/",
+      "title": "Workshop with blindfolded lunch",
+      "link": "https://tech.finn.no2014/11/19/workshop-with-blindfolded-lunch/",
+      "summary": "Workshop with blindfolded lunch in cooperation with The Norwegian Association of the Blind and Partially Sighted (NABP)\nAt FINN a grassroots group of developers and interaction designers launched an initiative to bring up awareness of accessibility. The law of accessibility was introduced July 1st…",
+      "author": "Lotte Johansen",
+      "publishedAt": "2014-11-19T18:00:00.000Z"
+    },
+    {
+      "guid": "finn-no::https://tech.finn.no2014/10/27/log4j2-bringing-together-the-dependencies/",
+      "title": "Log4j2 - dependencies",
+      "link": "https://tech.finn.no2014/10/27/log4j2-bringing-together-the-dependencies/",
+      "summary": "To make it easy for all our codebases, to automatically have all logging abstractions pointing towards log4j2 along with logstash configured, we have bundled together the dependencies via one library.\nThese dependencies look like:\n<!-- core libraries -->  \norg.apache.logging.log4j:log4j-api:2.0.2…",
+      "author": "mick",
+      "publishedAt": "2014-10-27T11:50:00.000Z"
+    },
+    {
+      "guid": "finn-no::https://tech.finn.no2014/07/01/log4j2-in-production-making-it-fly/",
+      "title": "Log4j2 in production – making it fly",
+      "link": "https://tech.finn.no2014/07/01/log4j2-in-production-making-it-fly/",
+      "summary": "log4j2 is the predominant logging framework in use at FINN.no why not share the good news with the world and try to provide a summary over the introduction of this exciting new technology into our platform.\nlet's just one logging framework\nIn beginning of September 2013 it became the responsibility…",
+      "author": "mick",
+      "publishedAt": "2014-07-01T22:17:00.000Z"
+    },
+    {
+      "guid": "finn-no::https://tech.finn.no2013/12/03/we-love-npm/",
+      "title": "We love npm",
+      "link": "https://tech.finn.no2013/12/03/we-love-npm/",
+      "summary": "What? Why is FINN.no donating to scale NPM? I thought you guys were a pure Java shop? It is true, we used to be a pure Java-shop. However over the past three years we have adopted new technologies to solve specific problems. We have used Ruby and Cucumber for some time to make a platform for…",
+      "author": "espen",
+      "publishedAt": "2013-12-03T10:38:00.000Z"
+    }
+  ],
+  "totalIndexed": 50
+}

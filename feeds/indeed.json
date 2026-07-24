@@ -1,0 +1,93 @@
+{
+  "feedId": "indeed",
+  "feedName": "Indeed",
+  "feedSiteUrl": "http://engineering.indeedblog.com/blog/",
+  "feedRssUrl": "https://engineering.indeedblog.com/feed/",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T06:51:45.429Z",
+  "items": [
+    {
+      "guid": "https://engineering.indeedblog.com/?p=4800",
+      "title": "Bootstrap Confidence Intervals for LLM Evaluation",
+      "link": "https://engineering.indeedblog.com/blog/2026/07/bootstrap-confidence-intervals-for-llm-evaluation/",
+      "summary": "Introduction As Large Language Models (LLMs) move from research prototypes to production systems, the developers of these systems need rigorous performance evaluation. In particular, we need confidence intervals around estimates of system accuracy. However, LLMs introduce a challenge that is…",
+      "author": "James Fiedler",
+      "publishedAt": "2026-07-08T14:30:02.000Z"
+    },
+    {
+      "guid": "https://engineering.indeedblog.com/?p=4779",
+      "title": "Distilling Long-Tail User Behavior into Scalable Embeddings for Job Search",
+      "link": "https://engineering.indeedblog.com/blog/2026/06/distilling-long-tail-user-behavior-into-scalable-embeddings-for-job-search/",
+      "summary": "Authors : Marsan Ma, Nikhil Lopes, Raj Amrit, Hong Lu, Dipankar Biswas, Trent KyonoLeadership: Iris Wang, Madhu Kurup Recommendation and ranking systems power many of the most important experiences on large internet platforms. Yet the models that run in production are rarely the largest models we…",
+      "author": "Marsan Ma",
+      "publishedAt": "2026-06-03T23:28:10.000Z"
+    },
+    {
+      "guid": "https://engineering.indeedblog.com/?p=4766",
+      "title": "Become Builders, Not Coders",
+      "link": "https://engineering.indeedblog.com/blog/2026/03/become-builders-not-coders/",
+      "summary": "Why agentic coding tools demand a new identity for software engineers After more than two decades of professional software engineering, I have arrived at a set of conclusions that I find very uncomfortable. The era of mostly manual coding has ended. IDEs, in their current form, are no longer…",
+      "author": "Michael Werle",
+      "publishedAt": "2026-03-06T15:07:10.000Z"
+    },
+    {
+      "guid": "https://engineering.indeedblog.com/?p=4757",
+      "title": "Bringing Lighthouse to the App: Building Performance Metrics for React Native",
+      "link": "https://engineering.indeedblog.com/blog/2026/03/bringing-lighthouse-to-the-app-building-performance-metrics-for-react-native/",
+      "summary": "At Indeed we’ve open sourced a new React Native repository which makes it simple to measure Lighthouse scores in your mobile apps. We think it will help other organizations better measure their app performance, especially for companies similar to Indeed who are transitioning from a web-first to an…",
+      "author": "Ben Cripps",
+      "publishedAt": "2026-03-03T19:13:53.000Z"
+    },
+    {
+      "guid": "https://engineering.indeedblog.com/?p=4739",
+      "title": "Normalized Entropy or Apply Rate? Evaluation Metrics for Online Modeling Experiments",
+      "link": "https://engineering.indeedblog.com/blog/2025/11/normalized-entropy-or-apply-rate-evaluation-metrics-for-online-modeling-experiments/",
+      "summary": "Introduction At Indeed, our mission is to help people get jobs. We connect job seekers with their next career opportunities and assist employers in finding the ideal candidates. This makes matching a fundamental problem in the products we develop.  The Ranking Models team is responsible for…",
+      "author": "Megan Chen",
+      "publishedAt": "2025-11-11T06:16:53.000Z"
+    },
+    {
+      "guid": "https://engineering.indeedblog.com/?p=4716",
+      "title": "The Agentic Identity Journey",
+      "link": "https://engineering.indeedblog.com/blog/2025/06/the-agentic-identity-journey/",
+      "summary": "Every so often, the web changes in a way that rewires how we live. In the early days, Web 1.0 let us read. It was a window into information — static pages, digital brochures, news sites. We were spectators peering into a new world. Then came Web 2.0, and we learned to write. We didn’t […]",
+      "author": "Ken Adler",
+      "publishedAt": "2025-06-03T21:53:51.000Z"
+    },
+    {
+      "guid": "https://engineering.indeedblog.com/?p=4693",
+      "title": "How Indeed Replaced Its CI Platform with Gitlab CI",
+      "link": "https://engineering.indeedblog.com/blog/2024/08/indeed-gitlab-ci-migration/",
+      "summary": "Here at Indeed, our mission is to help people get jobs. Indeed is the #1 job site in the world with over 580M+ Job Seeker Profiles. For Indeed’s Engineering Platform teams, we have a slightly different motto: “We help people to help people get jobs”. As part of a data-driven engineering culture…",
+      "author": "Carl Myers",
+      "publishedAt": "2024-08-06T15:03:51.000Z"
+    },
+    {
+      "guid": "https://engineering.indeedblog.com/?p=4681",
+      "title": "Secure Workload Identity with SPIRE and OIDC: A Guide for Kubernetes and Istio Users",
+      "link": "https://engineering.indeedblog.com/blog/2024/07/workload-identity-with-spire-oidc-for-k8s-istio/",
+      "summary": "Goal This blog is for engineering teams, architects, and leaders responsible for defining and implementing a workload identity platform and access controls rooted in Zero Trust principles to mitigate the risks from compromised services. It is relevant for companies using Kubernetes to manage…",
+      "author": "Nikhil Arora",
+      "publishedAt": "2024-07-03T15:52:26.000Z"
+    },
+    {
+      "guid": "https://engineering.indeedblog.com/?p=4638",
+      "title": "The Importance of Using a Composite Metric to Measure Performance",
+      "link": "https://engineering.indeedblog.com/blog/2024/01/composite-web-performance-metric/",
+      "summary": "In the past, Indeed has used a variety of metrics to evaluate our client-side performance, but we’ve tended to focus on one at a time. Traditionally, we chose a single performance metric and used it as the measuring stick for whether we were improving or degrading the user experience.  This made it…",
+      "author": "Ben Cripps",
+      "publishedAt": "2024-01-31T21:57:58.000Z"
+    },
+    {
+      "guid": "https://engineering.indeedblog.com/?p=4564",
+      "title": "SHAP Plots: The Crystal Ball for UI Test Ideas",
+      "link": "https://engineering.indeedblog.com/blog/2022/04/shap-plot/",
+      "summary": "Have you ever wanted a crystal ball that would predict the best A/B test to boost your product’s growth, or identify which part of your UI drives a target metric? With a statistical model and a SHAP decision plot, you can identify impactful A/B test ideas in bulk. The Indeed Interview team used…",
+      "author": "Vicky Zhang",
+      "publishedAt": "2022-04-28T15:40:29.000Z"
+    }
+  ],
+  "totalIndexed": 10
+}

@@ -1,0 +1,221 @@
+{
+  "feedId": "ipfs",
+  "feedName": "IPFS",
+  "feedSiteUrl": "https://ipfs.io/blog/",
+  "feedRssUrl": "https://blog.ipfs.tech/index.xml",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T06:52:48.858Z",
+  "items": [
+    {
+      "guid": "https://github.com/ipfs/kubo/releases/tag/v0.42.0",
+      "title": "Just released: Kubo 0.42.0!",
+      "link": "https://github.com/ipfs/kubo/releases/tag/v0.42.0",
+      "summary": "Just released: Kubo 0.42.0!",
+      "author": null,
+      "publishedAt": "2026-06-08T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.ipfs.tech/2026-05-optimistic-provide/",
+      "title": "Optimistic Provide: How We Made IPFS Content Publishing 10x Faster",
+      "link": "https://blog.ipfs.tech/2026-05-optimistic-provide/",
+      "summary": "How a statistical approach cut IPFS content publishing times by over one order of magnitude.",
+      "author": null,
+      "publishedAt": "2026-05-16T00:00:00.000Z"
+    },
+    {
+      "guid": "https://github.com/ipfs/kubo/releases/tag/v0.41.0",
+      "title": "Just released: Kubo 0.41.0!",
+      "link": "https://github.com/ipfs/kubo/releases/tag/v0.41.0",
+      "summary": "Just released: Kubo 0.41.0!",
+      "author": null,
+      "publishedAt": "2026-04-23T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.ipfs.tech/2026-03-reproducible-cids/",
+      "title": "IPIP-0499: Updating IPFS Standards for Consistent, Reproducible CIDs",
+      "link": "https://blog.ipfs.tech/2026-03-reproducible-cids/",
+      "summary": "IPIP-0499 makes IPFS CIDs deterministic and consistent across all implementations.",
+      "author": null,
+      "publishedAt": "2026-03-09T00:00:00.000Z"
+    },
+    {
+      "guid": "https://github.com/ipfs/kubo/releases/tag/v0.40.0",
+      "title": "Just released: Kubo 0.40.0!",
+      "link": "https://github.com/ipfs/kubo/releases/tag/v0.40.0",
+      "summary": "Just released: Kubo 0.40.0!",
+      "author": null,
+      "publishedAt": "2026-02-25T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.ipfs.tech/2026-01-ipld-2025-review/",
+      "title": "IPLD 2025 Review: From Monoliths to Modules",
+      "link": "https://blog.ipfs.tech/2026-01-ipld-2025-review/",
+      "summary": "The year that brought us modular Rust libraries, faster DAG-CBOR, stable multiformats, and a simpler on-ramp with DASL.",
+      "author": null,
+      "publishedAt": "2026-01-19T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.ipfs.tech/2026-01-year-in-review/",
+      "title": "Content-Addressing: A Year In Review",
+      "link": "https://blog.ipfs.tech/2026-01-year-in-review/",
+      "summary": "Let's take a look at what happened in content addressing in 2025 — it's a lot!",
+      "author": null,
+      "publishedAt": "2026-01-15T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.ipfs.tech/2026-fleek-migration/",
+      "title": "How to Migrate IPFS Websites from Fleek to Modular Infrastructure",
+      "link": "https://blog.ipfs.tech/2026-fleek-migration/",
+      "summary": "A how-to guide for future-proofing your content-addressed website hosting.",
+      "author": null,
+      "publishedAt": "2026-01-06T00:00:00.000Z"
+    },
+    {
+      "guid": "https://ipshipyard.com/blog/2025-shipyard-ipfs-year-in-review/",
+      "title": "Shipyard 2025: IPFS Year in Review",
+      "link": "https://ipshipyard.com/blog/2025-shipyard-ipfs-year-in-review/",
+      "summary": "Seven Kubo releases made self-hosted IPFS practical. Highlights: DHT Provide Sweep, AutoTLS, HTTP retrieval, and Helia for trustless browser retrieval.",
+      "author": null,
+      "publishedAt": "2025-12-19T00:00:00.000Z"
+    },
+    {
+      "guid": "https://github.com/ipfs/kubo/releases/tag/v0.39.0",
+      "title": "Just released: Kubo 0.39.0!",
+      "link": "https://github.com/ipfs/kubo/releases/tag/v0.39.0",
+      "summary": "Just released: Kubo 0.39.0!",
+      "author": null,
+      "publishedAt": "2025-11-27T00:00:00.000Z"
+    },
+    {
+      "guid": "https://ipshipyard.com/blog/2025-dht-provide-sweep/",
+      "title": "Provide Sweep: Solving the DHT Bottleneck for Self-Hosting IPFS at Scale",
+      "link": "https://ipshipyard.com/blog/2025-dht-provide-sweep/",
+      "summary": "Provide Sweep: Solving the DHT Bottleneck for Self-Hosting IPFS at Scale",
+      "author": null,
+      "publishedAt": "2025-11-26T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.ipfs.tech/2025-delegated-routing-caching/",
+      "title": "Faster Peer-to-Peer Retrieval in Browsers With Caching in the Delegated Routing HTTP Server",
+      "link": "https://blog.ipfs.tech/2025-delegated-routing-caching/",
+      "summary": "How caching and active peer probing in the Someguy, the Delegated Routing server accelerates peer-to-peer content retrieval in browsers and mobile applications.",
+      "author": null,
+      "publishedAt": "2025-09-05T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.ipfs.tech/2025-08-ed25519/",
+      "title": "Ed25519 Support in Chrome: Making the Web Faster and Safer",
+      "link": "https://blog.ipfs.tech/2025-08-ed25519/",
+      "summary": "Ed25519 is now supported in Chrome, finally joining the other browsers after much effort.",
+      "author": null,
+      "publishedAt": "2025-08-13T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.ipfs.tech/2025-js-libp2p-helia-devtools/",
+      "title": "Debugging Superpowers With the New js-libp2p Developer Tools",
+      "link": "https://blog.ipfs.tech/2025-js-libp2p-helia-devtools/",
+      "summary": "Discover the new js-libp2p developer tools from Shipyard that provide real-time debugging capabilities for js-libp2p and Helia nodes in both browsers and Node.js.",
+      "author": null,
+      "publishedAt": "2025-07-25T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.ipfs.tech/newsletter-205/",
+      "title": "🌳 IPFS Newsletter 205: HTTP, P2P in browsers, Kubo speedup & more",
+      "link": "https://blog.ipfs.tech/newsletter-205/",
+      "summary": "The IPFS Newsletter is back, with many exciting updates to share: HTTP support across the IPFS stack, P2P in browsers, Kubo speedup, and more.",
+      "author": null,
+      "publishedAt": "2025-05-23T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.ipfs.tech/2025-05-grants/",
+      "title": "Spring 2025 IPFS Utility Grantees",
+      "link": "https://blog.ipfs.tech/2025-05-grants/",
+      "summary": "We're delighted to announce the grantees for the Spring 2025 round of IPFS Utility Grants.",
+      "author": null,
+      "publishedAt": "2025-05-12T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.ipfs.tech/2025-03-static-web-manifesto/",
+      "title": "The Static Website Manifesto",
+      "link": "https://blog.ipfs.tech/2025-03-static-web-manifesto/",
+      "summary": "Building websites used to be fun. Let’s bring back the joy of putting your work online by using open protocols like IPFS.",
+      "author": null,
+      "publishedAt": "2025-03-06T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.ipfs.tech/2025-could-ipfs-prevent-bybit-hack/",
+      "title": "Could IPFS Have Prevented the Bybit Hack?",
+      "link": "https://blog.ipfs.tech/2025-could-ipfs-prevent-bybit-hack/",
+      "summary": "The Bybit hack revealed several security failures, this post examines whether IPFS could have helped prevent the hack and practical solutions for dapp developers.",
+      "author": null,
+      "publishedAt": "2025-02-28T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.ipfs.tech/2024-shipyard-improving-ipfs-on-the-web/",
+      "title": "IPFS on the Web in 2024: Update From Interplanetary Shipyard",
+      "link": "https://blog.ipfs.tech/2024-shipyard-improving-ipfs-on-the-web/",
+      "summary": "Update from Interplanetary Shipyard on our efforts to make IPFS work on the Web.",
+      "author": null,
+      "publishedAt": "2024-11-25T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.ipfs.tech/ipfs-check/",
+      "title": "Improved Debugging with IPFS Check",
+      "link": "https://blog.ipfs.tech/ipfs-check/",
+      "summary": "IPFS Check is a debugging tool for IPFS Mainnet. It helps you check if data is routable and retrievable by CID on IPFS Mainnet.",
+      "author": null,
+      "publishedAt": "2024-10-07T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.ipfs.tech/2024-brave-migration-guide/",
+      "title": "Migrating from Brave to IPFS Desktop",
+      "link": "https://blog.ipfs.tech/2024-brave-migration-guide/",
+      "summary": "Complete Guide to Migrating Your IPFS Data",
+      "author": null,
+      "publishedAt": "2024-08-26T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.ipfs.tech/newsletter-204/",
+      "title": "IPFS News Issue 204",
+      "link": "https://blog.ipfs.tech/newsletter-204/",
+      "summary": "Welcome to IPFS News 204! Featuring @helia/verified-fetch and the IPFS Camp 2024 track list.",
+      "author": null,
+      "publishedAt": "2024-04-30T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.ipfs.tech/verified-fetch/",
+      "title": "Verified IPFS Retrieval in Browsers with @helia/verified-fetch",
+      "link": "https://blog.ipfs.tech/verified-fetch/",
+      "summary": "Verified Fetch is a library streamlining verified retrieval of IPFS content in browsers and JS runtimes, with native support for IPNS, and DNSLink resolution",
+      "author": null,
+      "publishedAt": "2024-04-18T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.ipfs.tech/ipfs-camp-2024-track-list/",
+      "title": "Announcing the IPFS Camp 2024 Track List",
+      "link": "https://blog.ipfs.tech/ipfs-camp-2024-track-list/",
+      "summary": "To give you a taste of what kinds of topics IPFS Camp will cover this year, we’re excited to share the 2024 track list!",
+      "author": null,
+      "publishedAt": "2024-04-11T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.ipfs.tech/shipyard-hello-world/",
+      "title": "IPFS & libp2p Devs Go Independent: Meet Interplanetary Shipyard",
+      "link": "https://blog.ipfs.tech/shipyard-hello-world/",
+      "summary": "Meet the team behind Interplanetary Shipyard, the newly created entity of many core maintainers behind the most popular implementations of IPFS and libp2p.",
+      "author": null,
+      "publishedAt": "2024-04-08T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.ipfs.tech/newsletter-203/",
+      "title": "IPFS News Issue 203",
+      "link": "https://blog.ipfs.tech/newsletter-203/",
+      "summary": "Featuring more news about IPFS Camp 2024! 🏕️",
+      "author": null,
+      "publishedAt": "2024-03-28T00:00:00.000Z"
+    }
+  ],
+  "totalIndexed": 26
+}

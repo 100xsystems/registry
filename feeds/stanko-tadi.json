@@ -1,0 +1,413 @@
+{
+  "feedId": "stanko-tadi",
+  "feedName": "Stanko Tadić",
+  "feedSiteUrl": "https://muffinman.io",
+  "feedRssUrl": "https://muffinman.io/atom.xml",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T07:09:52.301Z",
+  "items": [
+    {
+      "guid": "stanko-tadi::https://muffinman.io/blog/spacedeck-x-july-devlog/",
+      "title": "SpaceDeck X July devlog: upgrades, backgrounds, and more",
+      "link": "https://muffinman.io/blog/spacedeck-x-july-devlog/",
+      "summary": "I've been developing SpaceDeck X since December last year. It started as me playing with a random framework I found fun, and it grew so much that I'm now working towards releasing it on Steam. I kept a devlog on Itch, but I feel like it is time to bring it to my own website. Especially considering…",
+      "author": "Stanko",
+      "publishedAt": "2026-07-23T00:00:00.000Z"
+    },
+    {
+      "guid": "stanko-tadi::https://muffinman.io/blog/spacedeck-x-on-arcade-cabinet/",
+      "title": "SpaceDeck X is coming to an arcade cabinet",
+      "link": "https://muffinman.io/blog/spacedeck-x-on-arcade-cabinet/",
+      "summary": "I want your coins!\nI'm making a game. It is called SpaceDeck X and you can try it online. But thanks to Amsterdam Indie Arcade, it will be available on a physical arcade cabinet at Blast Galaxy.\nIt will be released on the 14th of June with a small release party and hi-score tournament. If you are…",
+      "author": "Stanko",
+      "publishedAt": "2026-05-21T00:00:00.000Z"
+    },
+    {
+      "guid": "stanko-tadi::https://muffinman.io/art/birds/",
+      "title": "Birds • Art",
+      "link": "https://muffinman.io/art/birds/",
+      "summary": "I love everything about these. The process was so much fun and I'm super happy how the plots turned out.\nI got the idea while playing with vector fields and noticed that some shapes resembled a bird. I started tweaking the algorithm and after a lot of experimentation, made a tool that procedurally…",
+      "author": "Stanko",
+      "publishedAt": "2025-11-15T00:00:00.000Z"
+    },
+    {
+      "guid": "stanko-tadi::https://muffinman.io/blog/web-workers-promises/",
+      "title": "Promise based Web Worker Messaging",
+      "link": "https://muffinman.io/blog/web-workers-promises/",
+      "summary": "If you've ever used Web Workers (or any other event-based communication), you probably noticed that this kind of code can be hard to read and reason about. You also have to implement some kind of identifier for each message to recognize which worker response corresponds to which request.\nTo…",
+      "author": "Stanko",
+      "publishedAt": "2025-11-03T00:00:00.000Z"
+    },
+    {
+      "guid": "stanko-tadi::https://muffinman.io/art/moon-white/",
+      "title": "Moon • Art",
+      "link": "https://muffinman.io/art/moon-white/",
+      "summary": "After almost two years (life and other projects happened), I finally plotted something new. I resurrected the Moon project, cleaned it up and published it online. Using a technical pen allowed me to add more detail to the image. It reminded me why I love pen plotting so much, and I hope to plot…",
+      "author": "Stanko",
+      "publishedAt": "2025-10-23T00:00:00.000Z"
+    },
+    {
+      "guid": "stanko-tadi::https://muffinman.io/blog/invaders/",
+      "title": "How to draw a Space Invader",
+      "link": "https://muffinman.io/blog/invaders/",
+      "summary": "This is an interactive article. To fully experience it, you'll need to turn JavaScript on.\n\nI recently made the Space Invader Generator for Creative Coding Amsterdam code challenge. I made it for fun of course... and galactic domination too! You can see how it looks below and in this post I'll show…",
+      "author": "Stanko",
+      "publishedAt": "2025-08-15T00:00:00.000Z"
+    },
+    {
+      "guid": "stanko-tadi::https://muffinman.io/blog/css-only-counter/",
+      "title": "CSS only counter component",
+      "link": "https://muffinman.io/blog/css-only-counter/",
+      "summary": "Before we start, here is a demo of the counter (you can also check it out on CodePen):\n12345678910\n-\n+\n\nThis idea started with a space invaders generator I recently made. If you look at the randomize button, you'll notice the number on the dice changes from five to three when you hover over it. A…",
+      "author": "Stanko",
+      "publishedAt": "2025-08-05T00:00:00.000Z"
+    },
+    {
+      "guid": "stanko-tadi::https://muffinman.io/blog/origami-jumping-frog/",
+      "title": "Origami jumping frog",
+      "link": "https://muffinman.io/blog/origami-jumping-frog/",
+      "summary": "This is a simple origami frog that jumps when you press on it. I was taught to make it by my parents when I was really young, so it holds a very dear place in my heart.\nThere are other versions on the internet, but I think this one jumps better. It is actually simpler than the ones on the internet…",
+      "author": "Stanko",
+      "publishedAt": "2025-06-09T00:00:00.000Z"
+    },
+    {
+      "guid": "stanko-tadi::https://muffinman.io/blog/preserving-text-size-when-scaling-svgs/",
+      "title": "Preserving text size when scaling SVGs",
+      "link": "https://muffinman.io/blog/preserving-text-size-when-scaling-svgs/",
+      "summary": "SVGs support non-scaling strokes using the vector-effect attribute, which we can even use to draw non-scaling rectangles and circles.\nFor example, in graphs and charts, text can become too small or too large, so it would be really nice to make it non-scaling. But unfortunately, there is no native…",
+      "author": "Stanko",
+      "publishedAt": "2025-06-03T00:00:00.000Z"
+    },
+    {
+      "guid": "stanko-tadi::https://muffinman.io/blog/pwa-ios-status-bar-blur/",
+      "title": "Apply blur to iOS status bar in PWA",
+      "link": "https://muffinman.io/blog/pwa-ios-status-bar-blur/",
+      "summary": "On my current project, I'm making a Progressive Web App (PWA) and I was really annoyed that the status bar on iOS was completely transparentAlthough the option is called black-translucent. When the content scrolls behind it, it blends with the status bar elements, and it doesn't look great.\nI…",
+      "author": "Stanko",
+      "publishedAt": "2025-04-11T00:00:00.000Z"
+    },
+    {
+      "guid": "stanko-tadi::https://muffinman.io/blog/css-image-glitch/",
+      "title": "CSS-only glitch effect",
+      "link": "https://muffinman.io/blog/css-image-glitch/",
+      "summary": "Let me show you how I created a CSS-only image glitch effect. I was working on the robot poet and wanted my robotic bard to glitch - because it felt fitting given the quality of poetry it generates.\nHere's the final result:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe effect involves quite a bit of HTML and CSS but no…",
+      "author": "Stanko",
+      "publishedAt": "2025-04-03T00:00:00.000Z"
+    },
+    {
+      "guid": "stanko-tadi::https://muffinman.io/blog/make-regular-expressions-easier-to-read/",
+      "title": "Make regular expressions easier to read",
+      "link": "https://muffinman.io/blog/make-regular-expressions-easier-to-read/",
+      "summary": "This is a simple formatting trick I use to make regular expressions more readable. The secret? Break them into multiple lines.\nTo achieve this, format the regex as an array of strings and then concatenate the array into a single regex string.\nExample #\nCompare this example, written in a single…",
+      "author": "Stanko",
+      "publishedAt": "2025-03-31T00:00:00.000Z"
+    },
+    {
+      "guid": "stanko-tadi::https://muffinman.io/blog/image-comparison-slider/",
+      "title": "Image comparison slider in 6 lines of JavaScript",
+      "link": "https://muffinman.io/blog/image-comparison-slider/",
+      "summary": "While I was writing this post, I wanted to create an image comparison component. I made one with just a few lines of JavaScript, but I didn't include it in the post.\nHere is the finished slider, with images from the book Letters from Sarajevo. If you want to play with the code, you can find it on…",
+      "author": "Stanko",
+      "publishedAt": "2025-03-02T00:00:00.000Z"
+    },
+    {
+      "guid": "stanko-tadi::https://muffinman.io/blog/bunny-jumps-again/",
+      "title": "Bunny jumps again",
+      "link": "https://muffinman.io/blog/bunny-jumps-again/",
+      "summary": "I love 3D printing. It feels like magic - we are able to design and create physical things in a matter of hours, in our homes. I understand the underlying technology, but it still blows my mind when I think about it. It makes me a bit sad that more people aren't fascinated by it.\nLet's see what my…",
+      "author": "Stanko",
+      "publishedAt": "2025-02-23T00:00:00.000Z"
+    },
+    {
+      "guid": "stanko-tadi::https://muffinman.io/blog/the-tiny-book-of-great-joys/",
+      "title": "The Tiny Book of Great Joys",
+      "link": "https://muffinman.io/blog/the-tiny-book-of-great-joys/",
+      "summary": "If you are interested in how I over-engineered the process of making a tiny book for my wife, using AI, a pen plotter, a 3D printer, and a lot of time, you are in the right place. The book is titled The Tiny Book of Great JoysMala Knjiga Velikih Radosti in Serbian, and here is how it turned out:…",
+      "author": "Stanko",
+      "publishedAt": "2025-02-10T00:00:00.000Z"
+    },
+    {
+      "guid": "stanko-tadi::https://muffinman.io/blog/font-weight-based-on-dpi/",
+      "title": "Change font-weight based on the user's screen DPI",
+      "link": "https://muffinman.io/blog/font-weight-based-on-dpi/",
+      "summary": "A lot of us as developers have hi-DPI screens, and we can easily forget to test the websites we build on low-DPI screens. One common issue I noticed is that thin font weights can be hard to read on low-DPI screens. Since there are fewer pixels to render details, fine lines can appear blurry due to…",
+      "author": "Stanko",
+      "publishedAt": "2025-02-03T00:00:00.000Z"
+    },
+    {
+      "guid": "stanko-tadi::https://muffinman.io/blog/blog-question-challenge/",
+      "title": "Blog Questions Challenge",
+      "link": "https://muffinman.io/blog/blog-question-challenge/",
+      "summary": "I've seen this challenge on Herman's blog. I liked it, so I decided to do my own version, even though I'm not using the bear blog. For the same reason, I slightly adapted the original questions.\nWhy did you make the blog in the first place? #\nSince I first got online, I've wanted a personal website…",
+      "author": "Stanko",
+      "publishedAt": "2025-01-18T00:00:00.000Z"
+    },
+    {
+      "guid": "stanko-tadi::https://muffinman.io/blog/native-dual-range-input/",
+      "title": "Native dual-range input",
+      "link": "https://muffinman.io/blog/native-dual-range-input/",
+      "summary": "I just released @stanko/dual-range-input - a native dual-range input. Here is how it looks with the default styles:\n\n\n\nThe \"native\" part is somewhat open for discussion. I call it native because the library uses two native HTML range inputs. This means that all of the native interactions and…",
+      "author": "Stanko",
+      "publishedAt": "2024-11-18T00:00:00.000Z"
+    },
+    {
+      "guid": "stanko-tadi::https://muffinman.io/blog/css-fix-to-prevent-orphan-icons/",
+      "title": "CSS fix to prevent orphan icons dropping to a new line",
+      "link": "https://muffinman.io/blog/css-fix-to-prevent-orphan-icons/",
+      "summary": "When an HTML element becomes too narrow, its content starts to wrap into multiple lines. This is intended behavior and works well in many cases. However, for short text, it doesn't look great when the last word or icon drops to the next line, becoming an orphan.\nFor example, you might see something…",
+      "author": "Stanko",
+      "publishedAt": "2024-11-12T00:00:00.000Z"
+    },
+    {
+      "guid": "stanko-tadi::https://muffinman.io/blog/open-source-mac-apps-i-love/",
+      "title": "Open source mac apps I love",
+      "link": "https://muffinman.io/blog/open-source-mac-apps-i-love/",
+      "summary": "I want to share some really nice open-source applications I use on a daily basis. I did a similar post about six years ago, so I felt there is a need for an updated one. I focused on the apps that I feel are really convenient but less known.\nAll of the applications listed are free and open source.…",
+      "author": "Stanko",
+      "publishedAt": "2024-11-09T00:00:00.000Z"
+    },
+    {
+      "guid": "stanko-tadi::https://muffinman.io/blog/node-script-to-run-multiple-commands-in-parallel/",
+      "title": "Node.js script to run multiple commands in parallel",
+      "link": "https://muffinman.io/blog/node-script-to-run-multiple-commands-in-parallel/",
+      "summary": "If you encountered a case where you wanted to run multiple commands in parallel, the usual suggestion is to use the shell's & operator to send commands to the background. This approach kind of works, but it has its quirks.\nI often ended up with a process hanging in the background, multiple outputs…",
+      "author": "Stanko",
+      "publishedAt": "2024-06-13T00:00:00.000Z"
+    },
+    {
+      "guid": "stanko-tadi::https://muffinman.io/blog/html-inert-property/",
+      "title": "HTML inert property and React fallback",
+      "link": "https://muffinman.io/blog/html-inert-property/",
+      "summary": "HTML inert is a relatively new property, but it is supported in all major browsers since April this year.\nWhen you set inert on an element, the browser will ignore all user events on it, including tabbing into elements. It will also hide it from screen readers. I like to think of it as a \"reversed…",
+      "author": "Stanko",
+      "publishedAt": "2023-12-21T00:00:00.000Z"
+    },
+    {
+      "guid": "stanko-tadi::https://muffinman.io/art/moon/",
+      "title": "Moon Phases • Art",
+      "link": "https://muffinman.io/art/moon/",
+      "summary": "It is incredibly hard to take a good photo of these. Colors have metallic reflection which I wasn’t able to capture, but it is very prominent in person. They are plotted using five different color markers. I framed them separately and plan to take a better photo once they are on the wall.\nCode is…",
+      "author": "Stanko",
+      "publishedAt": "2023-11-25T00:00:00.000Z"
+    },
+    {
+      "guid": "stanko-tadi::https://muffinman.io/blog/css-animations-instead-of-js-timers/",
+      "title": "Using CSS animations instead of JavaScript timers",
+      "link": "https://muffinman.io/blog/css-animations-instead-of-js-timers/",
+      "summary": "What if I told you that we can make a timer without using setTimeout, setInterval or requestAnimationFrame? JavaScript is still necessary, but we can create the timer just by toggling some CSS classes.\nWhile I was working on an autoplay feature for a carousel, I thought to  myself - CSS animations…",
+      "author": "Stanko",
+      "publishedAt": "2023-08-04T00:00:00.000Z"
+    },
+    {
+      "guid": "stanko-tadi::https://muffinman.io/art/dreamy-little-towns-postcards/",
+      "title": "Dreamy little towns • Art",
+      "link": "https://muffinman.io/art/dreamy-little-towns-postcards/",
+      "summary": "I started drawing these little houses a while ago, but never finished the project. Meanwhile, I decided to participate in Plot Party postcard exchange. So, I came back to my houses and used them to generate little towns as postcards.\nAt the moment, they are on their way to five different countries,…",
+      "author": "Stanko",
+      "publishedAt": "2023-07-10T00:00:00.000Z"
+    },
+    {
+      "guid": "stanko-tadi::https://muffinman.io/blog/css-only-floating-input-labels/",
+      "title": "CSS only floating labels",
+      "link": "https://muffinman.io/blog/css-only-floating-input-labels/",
+      "summary": "I recently learned about the pseudo CSS class :placeholder-shown. Obviously, it is a class that is added only when input placeholder is shown. But what that also means is that the input is empty:\n/* Input is empty */\ninput:placeholder-shown\n\nBy negating it with :not() we can detect if the input has…",
+      "author": "Stanko",
+      "publishedAt": "2023-07-05T00:00:00.000Z"
+    },
+    {
+      "guid": "stanko-tadi::https://muffinman.io/blog/custom-giraffe-caret/",
+      "title": "Custom giraffe caret",
+      "link": "https://muffinman.io/blog/custom-giraffe-caret/",
+      "summary": "Recently, a colleague asked me if there is a way to customize an input caret using CSS. I knew you could change the color of it, but it got me thinking if we could completely replace it. The problem seemed interesting to solve.\nBut before we jump into the implementation, allow me to show you what I…",
+      "author": "Stanko",
+      "publishedAt": "2023-06-20T00:00:00.000Z"
+    },
+    {
+      "guid": "stanko-tadi::https://muffinman.io/blog/scrollbar-size-observer/",
+      "title": "Scrollbar width custom event",
+      "link": "https://muffinman.io/blog/scrollbar-size-observer/",
+      "summary": "Some operating systems and browsers are not showing scrollbars by default. That often results in developers forgetting about these pesky gray bars and the issues they can cause.\nI'll give you two quick examples:\nWhen setting overflow: hidden on the body element, if there was a scrollbar visible,…",
+      "author": "Stanko",
+      "publishedAt": "2023-06-19T00:00:00.000Z"
+    },
+    {
+      "guid": "stanko-tadi::https://muffinman.io/art/ten-years-of-work-and-co-v2/",
+      "title": "10 years of Work&Co, version 2 • Art",
+      "link": "https://muffinman.io/art/ten-years-of-work-and-co-v2/",
+      "summary": "The second plot for Work&Co's anniversary, and my personal favorite. The bumpy sphere is an allusion to the challenging period we've all experienced due to COVID-19.\n\nCreated: April 2023\nSize: 27x27cm\nPaper: Fabriano Bristol 250gsm\nPens: Molotow Blackliner",
+      "author": "Stanko",
+      "publishedAt": "2023-04-30T00:00:00.000Z"
+    },
+    {
+      "guid": "stanko-tadi::https://muffinman.io/art/ten-years-of-work-and-co/",
+      "title": "10 years of Work&Co • Art",
+      "link": "https://muffinman.io/art/ten-years-of-work-and-co/",
+      "summary": "To celebrate Work&Co's tenth anniversary, I'm excited to share this two-piece series. Both drawings are 3d scenes, hatched by my vector raytracer, Rayven, to get a hand drawn feel.\n\nCreated: April 2023\nSize: 31x30cm\nPaper: Fabriano Bristol 250gsm\nPens: Pigma Micron",
+      "author": "Stanko",
+      "publishedAt": "2023-04-30T00:00:00.000Z"
+    },
+    {
+      "guid": "stanko-tadi::https://muffinman.io/blog/nodejs-simple-colorful-logging/",
+      "title": "Simple colorful logging in Node.js",
+      "link": "https://muffinman.io/blog/nodejs-simple-colorful-logging/",
+      "summary": "When writing Node.js scripts, I often want to output information to the console in different colors. Usually, it is to get the user's attention and signalize success or error.\nI could reach for a battle-tested library like Chalk, but I usually don't need all of its features. Instead, I have a tiny…",
+      "author": "Stanko",
+      "publishedAt": "2023-04-08T00:00:00.000Z"
+    },
+    {
+      "guid": "stanko-tadi::https://muffinman.io/blog/sneak-peek-of-rayven/",
+      "title": "Sneak peek of Rayven",
+      "link": "https://muffinman.io/blog/sneak-peek-of-rayven/",
+      "summary": "I would like to give you a preview of my new project that I'm really excited about - Rayven. It renders 3D scenes as if they were line-hatched by hand:\n\nI've had this idea for a while and after researching, I found three projects that became my inspiration: Michael Fogleman's ln, Kushiro's Hatch…",
+      "author": "Stanko",
+      "publishedAt": "2023-03-22T00:00:00.000Z"
+    },
+    {
+      "guid": "stanko-tadi::https://muffinman.io/blog/draw-svg-rope-using-javascript/",
+      "title": "Draw SVG rope using JavaScript",
+      "link": "https://muffinman.io/blog/draw-svg-rope-using-javascript/",
+      "summary": "This is an interactive article. To fully experience it, you'll need to turn JavaScript on.\n\nToday, I'll take you through the process I came up with in regard to transforming an SVG path into a vector rope drawing.\nWe'll learn how to turn the path on the left into the rope on the right:\n\nThe problem…",
+      "author": "Stanko",
+      "publishedAt": "2022-12-23T00:00:00.000Z"
+    },
+    {
+      "guid": "stanko-tadi::https://muffinman.io/blog/get-lines-of-text-from-html-element/",
+      "title": "Get lines of text from an HTML element",
+      "link": "https://muffinman.io/blog/get-lines-of-text-from-html-element/",
+      "summary": "I was tasked with getting lines of text from an element many times. Usually it was to\ntruncate the textBefore line-clamp was a thing\nor to animate the text line by line.\nIt sounds easy, but I have encountered many edge cases in practice. After trying out multiple approaches, I finally have a…",
+      "author": "Stanko",
+      "publishedAt": "2022-12-22T00:00:00.000Z"
+    },
+    {
+      "guid": "stanko-tadi::https://muffinman.io/blog/css-blocky-people-making-waves/",
+      "title": "CSS blocky people making waves",
+      "link": "https://muffinman.io/blog/css-blocky-people-making-waves/",
+      "summary": "It all started with the code challenge in our office. The weekly theme was waves, and I tried to think outside of the box. After dropping a few ideas, I remembered the waves people do on stadiumsAccording to Wikipedia these are known as Mexican or stadium waves.\nSo I made waves using CSS only (code…",
+      "author": "Stanko",
+      "publishedAt": "2022-11-10T00:00:00.000Z"
+    },
+    {
+      "guid": "stanko-tadi::https://muffinman.io/blog/scrubbing-videos-using-javascript/",
+      "title": "Scrubbing videos using JavaScript",
+      "link": "https://muffinman.io/blog/scrubbing-videos-using-javascript/",
+      "summary": "JavaScript part is actually pretty easy, it is more about preparing the video file correctly. If you just want the code for converting videos using ffmpeg, jump to the last section.\nOtherwise, let's start scrolling down to see these two videos scrubbing:\nEvery 5 framesEvery 100 frames\nCode used…",
+      "author": "Stanko",
+      "publishedAt": "2022-10-21T00:00:00.000Z"
+    },
+    {
+      "guid": "stanko-tadi::https://muffinman.io/art/core/",
+      "title": "Core • Art",
+      "link": "https://muffinman.io/art/core/",
+      "summary": "I'll be honest, this one came out as an accident. I forgot to revert some old code and it just happened. To me, it resembles atmosphere or a cell. My favorite from the series so far.\nIt is plotted with pens of two different width, which gives it more depth, especially when you see it in person.…",
+      "author": "Stanko",
+      "publishedAt": "2022-07-13T00:00:00.000Z"
+    },
+    {
+      "guid": "stanko-tadi::https://muffinman.io/art/branches-02-untitled/",
+      "title": "Untitled • Art",
+      "link": "https://muffinman.io/art/branches-02-untitled/",
+      "summary": "The second plot from the series. Polygons instead of the circle, to get this cube like shape.\n\nCreated: July 2022\nSize: 26.5x30cm\nPaper: Fabriano Bristol 250gsm\nPens: Pigma Micron",
+      "author": "Stanko",
+      "publishedAt": "2022-07-03T00:00:00.000Z"
+    },
+    {
+      "guid": "stanko-tadi::https://muffinman.io/blog/introducing-keen-npm-package-boilerplate/",
+      "title": "Introducing keen",
+      "link": "https://muffinman.io/blog/introducing-keen-npm-package-boilerplate/",
+      "summary": "As someone who maintains a couple of npm packages, I got frustrated by all of the notifications about security issues in my dev dependencies. In 99.99% I wasn't even using the vulnerable code, and usually it would be buried deep in the dependency tree.\nTherefore, I decided to revisit and simplify…",
+      "author": "Stanko",
+      "publishedAt": "2022-06-20T00:00:00.000Z"
+    },
+    {
+      "guid": "stanko-tadi::https://muffinman.io/blog/back-to-the-basics/",
+      "title": "Back to the basics",
+      "link": "https://muffinman.io/blog/back-to-the-basics/",
+      "summary": "I started this blog in 2016. More than six years now. But if you check my stats page, you'll see that the number of posts started declining fairly quickly, since 2018.\nI finally decided to stop this downward trend and to remember why I started writing in the first place.\nWhy I started writing #\nFor…",
+      "author": "Stanko",
+      "publishedAt": "2022-06-17T00:00:00.000Z"
+    },
+    {
+      "guid": "stanko-tadi::https://muffinman.io/blog/goodbye-ie/",
+      "title": "Goodbye IE",
+      "link": "https://muffinman.io/blog/goodbye-ie/",
+      "summary": "End of an era.\nI started my career when\nIE6First time I wrote about IE6 was back in 2009.\nwas a thing.\nAnd yesterday, Microsoft announced they are retiring IE11. With that, no version of Internet Explorer is longer supported.\n\nOver the years it seemed that we are doomed to support IE forever. We…",
+      "author": "Stanko",
+      "publishedAt": "2022-06-16T00:00:00.000Z"
+    },
+    {
+      "guid": "stanko-tadi::https://muffinman.io/blog/svg-non-scaling-circle-and-rectangle/",
+      "title": "SVG non-scaling circle and rectangle",
+      "link": "https://muffinman.io/blog/svg-non-scaling-circle-and-rectangle/",
+      "summary": "While making a simple SVG chart, I realized I would like to have non-scaling circles for data points. Unfortunately, SVG doesn't support it out of the box.\nIf you are eager to see the result, jump to the examples below or play with the code on Codepen.\nNon-scaling stroke example #\nSVG does support…",
+      "author": "Stanko",
+      "publishedAt": "2022-05-02T00:00:00.000Z"
+    },
+    {
+      "guid": "stanko-tadi::https://muffinman.io/blog/into-2022/",
+      "title": "Into 2022",
+      "link": "https://muffinman.io/blog/into-2022/",
+      "summary": "I'm super late with this post, but again, better late than never. I just couldn't find the inspiration and drive for writing last year. Generally, I lacked motivation and wasn't really productive.\nGenerative Art #\nAs for my art, 2021 wasn't as fruitful as the year before, but I did finish a couple…",
+      "author": "Stanko",
+      "publishedAt": "2022-03-04T00:00:00.000Z"
+    },
+    {
+      "guid": "stanko-tadi::https://muffinman.io/blog/breaking-down-krypton/",
+      "title": "Breaking down Krypton",
+      "link": "https://muffinman.io/blog/breaking-down-krypton/",
+      "summary": "This post was originally written for our internal technology newsletter at Work & Co. It is a little bit adapted for web, but the content is almost identical.\nAbout a year ago I made this plot. It is called \"Krypton\"Named by a dear friend and ex-colleague, and I'll try to break down how it was…",
+      "author": "Stanko",
+      "publishedAt": "2022-03-01T00:00:00.000Z"
+    },
+    {
+      "guid": "stanko-tadi::https://muffinman.io/blog/js-libraries-for-generative-art/",
+      "title": "Libraries I use for generative art",
+      "link": "https://muffinman.io/blog/js-libraries-for-generative-art/",
+      "summary": "This is going to be a very straight forward post. Just a list of JavaScript libraries I use in creating my generative art. And I really mean I use (and abuse) them. All of them are used in multiple of my drawings. I'll include couple of photos under the respective libraries.\nI finally settled with…",
+      "author": "Stanko",
+      "publishedAt": "2022-02-28T00:00:00.000Z"
+    },
+    {
+      "guid": "stanko-tadi::https://muffinman.io/art/branches-01-untitled/",
+      "title": "Untitled • Art",
+      "link": "https://muffinman.io/art/branches-01-untitled/",
+      "summary": "Created: February 2022\nSize: 15x15cm\nPaper: Fabriano Bristol 250gsm\nPens: Pigma Micron",
+      "author": "Stanko",
+      "publishedAt": "2022-02-24T00:00:00.000Z"
+    },
+    {
+      "guid": "stanko-tadi::https://muffinman.io/art/bunny/",
+      "title": "Bunny • Art",
+      "link": "https://muffinman.io/art/bunny/",
+      "summary": "I still think it is not perfect, but I stopped here. I may revisit the algorithm and generate a different drawing in the future.\n\nCreated: February 2022\nSize: 24x26cm\nPaper: Fabriano Bristol 250gsm\nPens: Pigma Micron",
+      "author": "Stanko",
+      "publishedAt": "2022-02-20T00:00:00.000Z"
+    },
+    {
+      "guid": "stanko-tadi::https://muffinman.io/blog/weekly-code-challenge-spring-2021/",
+      "title": "Weekly Code Challenge (spring 2021)",
+      "link": "https://muffinman.io/blog/weekly-code-challenge-spring-2021/",
+      "summary": "If you just want the see the submissions, jump to the Weekly Code Challege website. But please bare in mind that the most of these were created in a couple of hours.\nThis post is long overdue. Earlier this year, I came with an idea to organize a weekly code challenge in our Belgrade office. With…",
+      "author": "Stanko",
+      "publishedAt": "2021-09-30T00:00:00.000Z"
+    },
+    {
+      "guid": "stanko-tadi::https://muffinman.io/blog/hyperx-cloud-II-sound-card-usb-connector-replacement/",
+      "title": "HyperX Cloud II sound card USB connector replacement",
+      "link": "https://muffinman.io/blog/hyperx-cloud-II-sound-card-usb-connector-replacement/",
+      "summary": "If you are only interested in the wiring diagram, jump directly to the wiring section.\nHyperX's Cloud II headphones come with a USB sound card, which looks like this:\n\nIt is a convenient little dongle. I had it plugged in into the front USB port, and I bumped into it, bending the connector for…",
+      "author": "Stanko",
+      "publishedAt": "2021-09-29T00:00:00.000Z"
+    },
+    {
+      "guid": "stanko-tadi::https://muffinman.io/blog/catching-the-blur-event-on-an-element-and-its-children/",
+      "title": "Catching the blur event on an element and its children",
+      "link": "https://muffinman.io/blog/catching-the-blur-event-on-an-element-and-its-children/",
+      "summary": "Recently I implemented a fly out menu in React, and stumbled on the following problem - I had to catch a blur event on the menu, but it had multiple focusable children. When user is tabbing between these menu items, blur event is triggered every time on the parent, followed by the focus event on…",
+      "author": "Stanko",
+      "publishedAt": "2021-09-19T00:00:00.000Z"
+    }
+  ],
+  "totalIndexed": 50
+}

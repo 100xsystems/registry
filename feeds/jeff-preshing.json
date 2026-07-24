@@ -1,0 +1,213 @@
+{
+  "feedId": "jeff-preshing",
+  "feedName": "Jeff Preshing",
+  "feedSiteUrl": "http://preshing.com/",
+  "feedRssUrl": "http://preshing.com/feed",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T06:53:27.915Z",
+  "items": [
+    {
+      "guid": "jeff-preshing::https://preshing.com/20210315/how-cpp-resolves-a-function-call",
+      "title": "How C++ Resolves a Function Call",
+      "link": "https://preshing.com/20210315/how-cpp-resolves-a-function-call",
+      "summary": "C is a simple language. You’re only allowed to have one function with each name. C++, on the other hand, gives you much more flexibility:\n\r\n\r\n\r\n  \nYou can have multiple functions with the same name (overloading).\n\r\n  \nYou can overload built-in operators like + and ==.\n\r\n  \nYou can write function…",
+      "author": null,
+      "publishedAt": "2021-03-15T12:10:00.000Z"
+    },
+    {
+      "guid": "jeff-preshing::https://preshing.com/20201210/flap-hero-code-review",
+      "title": "Flap Hero Code Review",
+      "link": "https://preshing.com/20201210/flap-hero-code-review",
+      "summary": "Flap Hero is a small game written entirely in C++ without using an existing game engine. All of its source code is available on GitHub. I think it can serve as an interesting resource for novice and intermediate game developers to study.\n\r\n\r\n\n\r\n\r\nIn this post, I’ll explain how Flap Hero’s code is…",
+      "author": null,
+      "publishedAt": "2020-12-10T20:23:00.000Z"
+    },
+    {
+      "guid": "jeff-preshing::https://preshing.com/20201126/a-small-open-source-game-in-cpp",
+      "title": "A Small Open Source Game In C++",
+      "link": "https://preshing.com/20201126/a-small-open-source-game-in-cpp",
+      "summary": "I just released a mobile game called Flap Hero. It’s a Flappy Bird clone with cartoony graphics and a couple of twists: You can go in the pipes (wow!) and it takes two collisions to end the game. Flap Hero is free, quick to download (between 3 - 5 MB) and opens instantly. Give it a try!…",
+      "author": null,
+      "publishedAt": "2020-11-26T12:52:00.000Z"
+    },
+    {
+      "guid": "jeff-preshing::https://preshing.com/20200727/automatically-detecting-text-encodings-in-cpp",
+      "title": "Automatically Detecting Text Encodings in C++",
+      "link": "https://preshing.com/20200727/automatically-detecting-text-encodings-in-cpp",
+      "summary": "Consider the lowly text file.\n\r\n\r\n\n\r\n\r\nThis text file can take on a surprising number of different formats. The text could be encoded as ASCII, UTF-8, UTF-16 (little or big-endian), Windows-1252, Shift JIS, or any of dozens of other encodings. The file may or may not begin with a byte order mark…",
+      "author": null,
+      "publishedAt": "2020-07-27T20:10:00.000Z"
+    },
+    {
+      "guid": "jeff-preshing::https://preshing.com/20200708/io-in-plywood",
+      "title": "I/O in Plywood",
+      "link": "https://preshing.com/20200708/io-in-plywood",
+      "summary": "Plywood is an open-source C++ framework I released a few weeks ago. It includes, among other things, a runtime module that exposes a cross-platform API for I/O, memory, threads, process management and more.\n\r\n\r\nThis post is about the I/O part. For those who don’t know, I/O stands for input/output,…",
+      "author": null,
+      "publishedAt": "2020-07-08T12:15:00.000Z"
+    },
+    {
+      "guid": "jeff-preshing::https://preshing.com/20200526/a-new-cross-platform-open-source-cpp-framework",
+      "title": "A New Cross-Platform Open Source C++ Framework",
+      "link": "https://preshing.com/20200526/a-new-cross-platform-open-source-cpp-framework",
+      "summary": "For the past little while – OK, long while – I’ve been working on a custom game engine in C++. Today, I’m releasing part of that game engine as an open source framework. It’s called the Plywood framework.\n\r\n\r\n\r\n\r\n\n\r\nView the documentation\r\n\r\n\r\n\n\r\nView on GitHub\r\n\r\n\r\n\r\nPlease note that Plywood, by…",
+      "author": null,
+      "publishedAt": "2020-05-26T11:50:00.000Z"
+    },
+    {
+      "guid": "jeff-preshing::https://preshing.com/20180124/a-flexible-reflection-system-in-cpp-part-2",
+      "title": "A Flexible Reflection System in C++: Part 2",
+      "link": "https://preshing.com/20180124/a-flexible-reflection-system-in-cpp-part-2",
+      "summary": "In the previous post, I presented a basic system for runtime reflection in C++11. The post included a sample project that created a type descriptor using a block of macros:\n\r\n\r\n\n\r\n  \n// Define Node's type descriptor\r\nREFLECT_STRUCT_BEGIN(Node)\r\nREFLECT_STRUCT_MEMBER(key)…",
+      "author": null,
+      "publishedAt": "2018-01-24T13:07:00.000Z"
+    },
+    {
+      "guid": "jeff-preshing::https://preshing.com/20180116/a-primitive-reflection-system-in-cpp-part-1",
+      "title": "A Flexible Reflection System in C++: Part 1",
+      "link": "https://preshing.com/20180116/a-primitive-reflection-system-in-cpp-part-1",
+      "summary": "In this post, I’ll present a small, flexible system for runtime reflection using C++11 language features. This is a system to generate metadata for C++ types. The metadata takes the form of TypeDescriptor objects, created at runtime, that describe the structure of other runtime objects.…",
+      "author": null,
+      "publishedAt": "2018-01-16T14:21:00.000Z"
+    },
+    {
+      "guid": "jeff-preshing::https://preshing.com/20171218/how-to-write-your-own-cpp-game-engine",
+      "title": "How to Write Your Own C++ Game Engine",
+      "link": "https://preshing.com/20171218/how-to-write-your-own-cpp-game-engine",
+      "summary": "Lately I’ve been writing a game engine in C++. I’m using it to make a little mobile game called Hop Out. Here’s a clip captured from my iPhone 6. (Unmute for sound!)\n\r\n\r\n\r\n  \r\n  \r\n  \r\n\r\n\r\n\r\nHop Out is the kind of game I want to play: Retro arcade gameplay with a 3D cartoon look. The goal is to…",
+      "author": null,
+      "publishedAt": "2017-12-18T12:54:00.000Z"
+    },
+    {
+      "guid": "jeff-preshing::https://preshing.com/20170612/can-reordering-of-release-acquire-operations-introduce-deadlock",
+      "title": "Can Reordering of Release/Acquire Operations Introduce Deadlock?",
+      "link": "https://preshing.com/20170612/can-reordering-of-release-acquire-operations-introduce-deadlock",
+      "summary": "I wasn’t planning to write about lock-free programming again, but a commenter named Mike recently asked an interesting question on my Acquire and Release Semantics post from 2012. It’s a question I wondered about years ago, but could never really reconcile until (possibly) now.\n\r\n\r\nA quick recap: A…",
+      "author": null,
+      "publishedAt": "2017-06-12T11:34:00.000Z"
+    },
+    {
+      "guid": "jeff-preshing::https://preshing.com/20170529/heres-a-standalone-cairo-dll-for-windows",
+      "title": "Here's a Standalone Cairo DLL for Windows",
+      "link": "https://preshing.com/20170529/heres-a-standalone-cairo-dll-for-windows",
+      "summary": "Cairo is an open source C library for drawing vector graphics. I used it to create many of the diagrams and graphs on this blog.\n\r\n\r\nCairo is great, but it’s always been difficult to find a precompiled Windows DLL that’s up-to-date and that doesn’t depend on a bunch of other DLLs. I was recently…",
+      "author": null,
+      "publishedAt": "2017-05-29T10:22:00.000Z"
+    },
+    {
+      "guid": "jeff-preshing::https://preshing.com/20170522/learn-cmakes-scripting-language-in-15-minutes",
+      "title": "Learn CMake's Scripting Language in 15 Minutes",
+      "link": "https://preshing.com/20170522/learn-cmakes-scripting-language-in-15-minutes",
+      "summary": "As explained in my previous post, every CMake-based project must contain a script named CMakeLists.txt. This script defines targets, but it can also do a lot of other things, such as finding third-party libraries or generating C++ header files. CMake scripts have a lot of flexibility.…",
+      "author": null,
+      "publishedAt": "2017-05-22T12:20:00.000Z"
+    },
+    {
+      "guid": "jeff-preshing::https://preshing.com/20170511/how-to-build-a-cmake-based-project",
+      "title": "How to Build a CMake-Based Project",
+      "link": "https://preshing.com/20170511/how-to-build-a-cmake-based-project",
+      "summary": "CMake is a versatile tool that helps you build C/C++ projects on just about any platform you can think of. It’s used by many popular open source projects including LLVM, Qt, KDE and Blender.\n\r\n\r\nAll CMake-based projects contain a script named CMakeLists.txt, and this post is meant as a guide for…",
+      "author": null,
+      "publishedAt": "2017-05-11T12:30:00.000Z"
+    },
+    {
+      "guid": "jeff-preshing::https://preshing.com/20160726/using-quiescent-states-to-reclaim-memory",
+      "title": "Using Quiescent States to Reclaim Memory",
+      "link": "https://preshing.com/20160726/using-quiescent-states-to-reclaim-memory",
+      "summary": "If you want to support multiple readers for a data structure, while protecting against concurrent writes, a read-write lock might seem like the only way – but it isn’t! You can achieve the same thing without a read-write lock if you allow several copies of the data structure to exist in memory. You…",
+      "author": null,
+      "publishedAt": "2016-07-26T10:30:00.000Z"
+    },
+    {
+      "guid": "jeff-preshing::https://preshing.com/20160314/leapfrog-probing",
+      "title": "Leapfrog Probing",
+      "link": "https://preshing.com/20160314/leapfrog-probing",
+      "summary": "A hash table is a data structure that stores a set of items, each of which maps a specific key to a specific value. There are many ways to implement a hash table, but they all have one thing in common: buckets. Every hash table maintains an array of buckets somewhere, and each item belongs to…",
+      "author": null,
+      "publishedAt": "2016-03-14T20:24:00.000Z"
+    },
+    {
+      "guid": "jeff-preshing::https://preshing.com/20160222/a-resizable-concurrent-map",
+      "title": "A Resizable Concurrent Map",
+      "link": "https://preshing.com/20160222/a-resizable-concurrent-map",
+      "summary": "In an earlier post, I showed how to implement the “world’s simplest lock-free hash table” in C++. It was so simple that you couldn’t even delete entries or resize the table. Well, a few years have passed since then, and I’ve recently written some concurrent maps without those limitations. You’ll…",
+      "author": null,
+      "publishedAt": "2016-02-22T13:05:00.000Z"
+    },
+    {
+      "guid": "jeff-preshing::https://preshing.com/20160201/new-concurrent-hash-maps-for-cpp",
+      "title": "New Concurrent Hash Maps for C++",
+      "link": "https://preshing.com/20160201/new-concurrent-hash-maps-for-cpp",
+      "summary": "A map is a data structure that maps a collection of keys to a collection of values. It’s a common concept in computer programming. You typically manipulate maps using functions such as find, insert and erase.\n\r\n\r\nA concurrent map is one that lets you call some of those functions concurrently – even…",
+      "author": null,
+      "publishedAt": "2016-02-01T13:30:00.000Z"
+    },
+    {
+      "guid": "jeff-preshing::https://preshing.com/20150402/you-can-do-any-kind-of-atomic-read-modify-write-operation",
+      "title": "You Can Do Any Kind of Atomic Read-Modify-Write Operation",
+      "link": "https://preshing.com/20150402/you-can-do-any-kind-of-atomic-read-modify-write-operation",
+      "summary": "Atomic read-modify-write operations – or “RMWs” – are more sophisticated than atomic loads and stores. They let you read from a variable in shared memory and simultaneously write a different value in its place. In the C++11 atomic library, all of the following functions perform an RMW:…",
+      "author": null,
+      "publishedAt": "2015-04-02T11:20:00.000Z"
+    },
+    {
+      "guid": "jeff-preshing::https://preshing.com/20150324/safe-bitfields-in-cpp",
+      "title": "Safe Bitfields in C++",
+      "link": "https://preshing.com/20150324/safe-bitfields-in-cpp",
+      "summary": "In my cpp11-on-multicore project on GitHub, there’s a class that packs three 10-bit values into a 32-bit integer.\n\r\n\r\n\n\r\n\r\nI could have implemented it using traditional bitfields…\n\r\n\r\n\n\r\n  \nstruct Status\r\n{\r\n    uint32_t readers : 10;\r\n    uint32_t waitToRead : 10;\r\n    uint32_t writers : 10;\r\n};…",
+      "author": null,
+      "publishedAt": "2015-03-24T10:15:00.000Z"
+    },
+    {
+      "guid": "jeff-preshing::https://preshing.com/20150316/semaphores-are-surprisingly-versatile",
+      "title": "Semaphores are Surprisingly Versatile",
+      "link": "https://preshing.com/20150316/semaphores-are-surprisingly-versatile",
+      "summary": "In multithreaded programming, it’s important to make threads wait. They must wait for exclusive access to a resource. They must wait when there’s no work available. One way to make threads wait – and put them to sleep inside the kernel, so that they no longer take any CPU time – is with a…",
+      "author": null,
+      "publishedAt": "2015-03-16T09:50:00.000Z"
+    },
+    {
+      "guid": "jeff-preshing::https://preshing.com/20141202/cpp-has-become-more-pythonic",
+      "title": "C++ Has Become More Pythonic",
+      "link": "https://preshing.com/20141202/cpp-has-become-more-pythonic",
+      "summary": "C++ has changed a lot in recent years. The last two revisions, C++11 and C++14, introduce so many new features that, in the words of Bjarne Stroustrup, “It feels like a new language.”\n\r\n\r\nIt’s true. Modern C++ lends itself to a whole new style of programming – and I couldn’t help noticing it has…",
+      "author": null,
+      "publishedAt": "2014-12-02T13:20:00.000Z"
+    },
+    {
+      "guid": "jeff-preshing::https://preshing.com/20141124/fixing-gccs-implementation-of-memory_order_consume",
+      "title": "Fixing GCC's Implementation of memory_order_consume",
+      "link": "https://preshing.com/20141124/fixing-gccs-implementation-of-memory_order_consume",
+      "summary": "As I explained previously, there are two valid ways for a C++11 compiler to implement memory_order_consume: an efficient strategy and a heavy one. In the heavy strategy, the compiler simply treats memory_order_consume as an alias for memory_order_acquire. The heavy strategy is not what the…",
+      "author": null,
+      "publishedAt": "2014-11-24T11:25:00.000Z"
+    },
+    {
+      "guid": "jeff-preshing::https://preshing.com/20141119/how-to-build-a-gcc-cross-compiler",
+      "title": "How to Build a GCC Cross-Compiler",
+      "link": "https://preshing.com/20141119/how-to-build-a-gcc-cross-compiler",
+      "summary": "GCC is not just a compiler. It’s an open source project that lets you build all kinds of compilers. Some compilers support multithreading; some support shared libraries; some support multilib. It all depends on how you configure the compiler before building it.\n\r\n\r\nThis guide will demonstrate how…",
+      "author": null,
+      "publishedAt": "2014-11-19T11:30:00.000Z"
+    },
+    {
+      "guid": "jeff-preshing::https://preshing.com/20141108/how-to-install-the-latest-gcc-on-windows",
+      "title": "How to Install the Latest GCC on Windows",
+      "link": "https://preshing.com/20141108/how-to-install-the-latest-gcc-on-windows",
+      "summary": "Several modern C++ features are currently missing from Visual Studio Express, and from the system GCC compiler provided with many of today’s Linux distributions. Generic lambdas – also known as polymorphic lambdas – are one such feature. This feature is, however, available in the latest versions of…",
+      "author": null,
+      "publishedAt": "2014-11-08T15:50:00.000Z"
+    },
+    {
+      "guid": "jeff-preshing::https://preshing.com/20141024/my-multicore-talk-at-cppcon-2014",
+      "title": "My Multicore Talk at CppCon 2014",
+      "link": "https://preshing.com/20141024/my-multicore-talk-at-cppcon-2014",
+      "summary": "Last month, I attended CppCon 2014 in Bellevue, Washington. It was an awesome conference, filled with the who’s who of C++ development, and loaded with interesting, relevant talks. It was a first-year conference, so I’m sure CppCon 2015 will be even better. I highly recommend it for any serious C++…",
+      "author": null,
+      "publishedAt": "2014-10-24T10:40:00.000Z"
+    }
+  ],
+  "totalIndexed": 25
+}

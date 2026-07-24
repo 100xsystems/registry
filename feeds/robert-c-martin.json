@@ -1,0 +1,173 @@
+{
+  "feedId": "robert-c-martin",
+  "feedName": "Robert C. Martin",
+  "feedSiteUrl": "http://blog.cleancoder.com/",
+  "feedRssUrl": "http://blog.cleancoder.com/atom.xml",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T07:07:32.556Z",
+  "items": [
+    {
+      "guid": "robert-c-martin::http://blog.cleancoder.com/uncle-bob/2023/01/19/functional-classes-clojure.html",
+      "title": "Functional Classes in Clojure",
+      "link": "http://blog.cleancoder.com/uncle-bob/2023/01/19/functional-classes-clojure.html",
+      "summary": "My previous blog seemed only to continue the confusion regarding classes in Functional Programming.  Indeed, many people got quite irate.  So perhaps a bit of code will help.\nTrigger Warning:\nObject Oriented Terminology.\nDynamically Typed Language.\nMixed Metaphors.\nDistracting Animations.\nTo all…",
+      "author": null,
+      "publishedAt": "2023-01-19T00:00:00.000Z"
+    },
+    {
+      "guid": "robert-c-martin::http://blog.cleancoder.com/uncle-bob/2023/01/18/functional-classes.html",
+      "title": "Functional Classes",
+      "link": "http://blog.cleancoder.com/uncle-bob/2023/01/18/functional-classes.html",
+      "summary": "I recently tweeted the following:\nShould you subdivide a functional program into classes the way you would an object oriented program?\nYes. You should. Because the rules don’t change just because you’ve chosen to use immutable data structures.\n— Uncle Bob Martin (@unclebobmartin) January 17, 2023…",
+      "author": null,
+      "publishedAt": "2023-01-18T00:00:00.000Z"
+    },
+    {
+      "guid": "robert-c-martin::http://blog.cleancoder.com/uncle-bob/2021/11/28/Spacewar.html",
+      "title": "Space War",
+      "link": "http://blog.cleancoder.com/uncle-bob/2021/11/28/Spacewar.html",
+      "summary": "For the last month I've been spending a lot of time working on Space War.  I know, I know, I should have been working on Clean Code Episode 67: Legacy Code, and Euler 5, and Countest and Curmugeon 3.  I should have been working on a blog, or a new book, or...  But I couldn't let go of Space War.…",
+      "author": null,
+      "publishedAt": "2021-11-28T00:00:00.000Z"
+    },
+    {
+      "guid": "robert-c-martin::http://blog.cleancoder.com/uncle-bob/2021/10/28/functional-duplication.html",
+      "title": "Functional Duplications",
+      "link": "http://blog.cleancoder.com/uncle-bob/2021/10/28/functional-duplication.html",
+      "summary": "I broke out my old Space War game a few days ago and decided to make a few changes to speed the game up and make it more fun to play.  In so doing I discovered a very interesting bug.\nOne of the changes I made was to populate the initial space with a few random bases scattered here and there.  This…",
+      "author": null,
+      "publishedAt": "2021-10-28T00:00:00.000Z"
+    },
+    {
+      "guid": "robert-c-martin::http://blog.cleancoder.com/uncle-bob/2021/09/25/roots.html",
+      "title": "Roots",
+      "link": "http://blog.cleancoder.com/uncle-bob/2021/09/25/roots.html",
+      "summary": "When I was 15 or so, my father would drive me, and my best friend, Tim Conrad, to the Digital Equipment Corporation (DEC) sales office each Saturday.  This was a 30 min drive.  My father would drop us off in the morning and pick us up in the late afternoon.  He spend two hours in his car each…",
+      "author": null,
+      "publishedAt": "2021-09-25T00:00:00.000Z"
+    },
+    {
+      "guid": "robert-c-martin::http://blog.cleancoder.com/uncle-bob/2021/06/29/MoreOnTypes.html",
+      "title": "More On Types",
+      "link": "http://blog.cleancoder.com/uncle-bob/2021/06/29/MoreOnTypes.html",
+      "summary": "Recently I wrote a cute little program for doing Turtle Graphics.  For those of you who don't know, turtle graphics were originally added to the LOGO language by Seymour Papert in the late 1960s.  He built a robot that he called a \"turtle\" that could hold a pen.  The robot had wheels and could move…",
+      "author": null,
+      "publishedAt": "2021-06-29T00:00:00.000Z"
+    },
+    {
+      "guid": "robert-c-martin::http://blog.cleancoder.com/uncle-bob/2021/06/25/OnTypes.html",
+      "title": "On Types",
+      "link": "http://blog.cleancoder.com/uncle-bob/2021/06/25/OnTypes.html",
+      "summary": "I wrote my first program in 1964.  The name of the program was: Mr Patternson's Computerized Gate, and it was implemented on a little plastic computer named DIGICOMP-I, which was a cute little three bit finite state machine with 6 AND gates.\nThe first electronic computer I ever wrote a program for…",
+      "author": null,
+      "publishedAt": "2021-06-25T00:00:00.000Z"
+    },
+    {
+      "guid": "robert-c-martin::http://blog.cleancoder.com/uncle-bob/2021/03/06/ifElseSwitch.html",
+      "title": "if-else-switch",
+      "link": "http://blog.cleancoder.com/uncle-bob/2021/03/06/ifElseSwitch.html",
+      "summary": "A few days ago someone tweeted a question asking which of the following PHP snippets was better than the others, or whether there might be an even better approach.\n\nI tweeted my answer in the following cryptic paragraph.\nPlace the if/else cases in a factory object that creates a polymorphic object…",
+      "author": null,
+      "publishedAt": "2021-03-06T00:00:00.000Z"
+    },
+    {
+      "guid": "robert-c-martin::http://blog.cleancoder.com/uncle-bob/2021/01/17/Pairing.html",
+      "title": "Pairing Guidelines",
+      "link": "http://blog.cleancoder.com/uncle-bob/2021/01/17/Pairing.html",
+      "summary": "Everybody pairs from time to time. It is a rare programmer who has not sat down with another programmer to look something over or help find a bug.\nDeep problems, that require much heavy thinking, do not often lend themselves to pairing. The interaction between the programmers tends to disrupt the…",
+      "author": null,
+      "publishedAt": "2021-01-17T00:00:00.000Z"
+    },
+    {
+      "guid": "robert-c-martin::http://blog.cleancoder.com/uncle-bob/2020/10/18/Solid-Relevance.html",
+      "title": "Solid Relevance",
+      "link": "http://blog.cleancoder.com/uncle-bob/2020/10/18/Solid-Relevance.html",
+      "summary": "Recently I received a letter from someone with a concern.  It went like this:\nFor years the knowledge of the SOLID principle has been a standard part of our recruiting procedure. Candidates were expected to have a good working knowledge of these principles.  Lately, however, one of our managers,…",
+      "author": null,
+      "publishedAt": "2020-10-18T00:00:00.000Z"
+    },
+    {
+      "guid": "robert-c-martin::http://blog.cleancoder.com/uncle-bob/2020/09/30/loopy.html",
+      "title": "Loopy",
+      "link": "http://blog.cleancoder.com/uncle-bob/2020/09/30/loopy.html",
+      "summary": "The following is a segment of a journey.  It has no obvious beginning point, nor does it actually end up anywhere.  The value, if any, is in the journey itself.\nThe code below is the standard solution to the Prime Factors Kata.\n\npublic List<Integer> factorsOf(int n) {\n  ArrayList<Integer> factors =…",
+      "author": null,
+      "publishedAt": "2020-09-30T00:00:00.000Z"
+    },
+    {
+      "guid": "robert-c-martin::http://blog.cleancoder.com/uncle-bob/2020/09/23/ConferenceConduct.html",
+      "title": "Conference Conduct",
+      "link": "http://blog.cleancoder.com/uncle-bob/2020/09/23/ConferenceConduct.html",
+      "summary": "It was just a few years ago, at the height of the Me Too revelations, that codes of conduct began to prominently appear in Software Conferences.  At the time I felt this was appropriate given the horror stories that had been circulating about sexual harassment and misbehavior at some of those…",
+      "author": null,
+      "publishedAt": "2020-09-23T00:00:00.000Z"
+    },
+    {
+      "guid": "robert-c-martin::http://blog.cleancoder.com/uncle-bob/2020/09/12/TheDisinvitation.html",
+      "title": "The Disinvitation",
+      "link": "http://blog.cleancoder.com/uncle-bob/2020/09/12/TheDisinvitation.html",
+      "summary": "I have a friend, in the Chicago area, who calls me up two or three times a year to ask me to give a talk at a User Group, or a conference he’s involved with, or something like that.  If my schedule is free I always say yes. I don’t charge anything because I enjoy supporting the Chicago software…",
+      "author": null,
+      "publishedAt": "2020-09-12T00:00:00.000Z"
+    },
+    {
+      "guid": "robert-c-martin::http://blog.cleancoder.com/uncle-bob/2020/05/27/ReplDrivenDesign.html",
+      "title": "REPL Driven Design",
+      "link": "http://blog.cleancoder.com/uncle-bob/2020/05/27/ReplDrivenDesign.html",
+      "summary": "If you follow me on facebook you know that I’ve been publishing daily CoronaVirus statistics. I generate these statistics using the daily updates in the Johns Hopkins github repository.\nAt first I just hand copied the data into a spreadsheet.  But that became tedious quite rapidly.\nThen, in late…",
+      "author": null,
+      "publishedAt": "2020-05-27T00:00:00.000Z"
+    },
+    {
+      "guid": "robert-c-martin::http://blog.cleancoder.com/uncle-bob/2020/04/09/ALittleMoreClojure.html",
+      "title": "A Little More Clojure",
+      "link": "http://blog.cleancoder.com/uncle-bob/2020/04/09/ALittleMoreClojure.html",
+      "summary": "So let’s learn just a little bit more of Clojure.\nHere are a few common utility functions:\n\nuser=> (inc 1) ; increments argument\n2\nuser=> (dec 3) ; decrements argument\n2\nuser=> (empty? []) ; tests for empty\ntrue\nuser=> (empty? [1 2])\nfalse\n\n\nIf you know Java or C# you probably know what the map…",
+      "author": null,
+      "publishedAt": "2020-04-09T00:00:00.000Z"
+    },
+    {
+      "guid": "robert-c-martin::http://blog.cleancoder.com/uncle-bob/2020/04/06/ALittleClojure.html",
+      "title": "A Little Clojure",
+      "link": "http://blog.cleancoder.com/uncle-bob/2020/04/06/ALittleClojure.html",
+      "summary": "So let’s learn just a little bit of clojure.\nThis expression: (1 2) represents the list containing the integers 1 and 2 in that order.  If you want an empty list, that’s just ().  And the list of the first five letters of the alphabet is just (\\a \\b \\c \\d \\e).\nNow you know a lot about the syntax of…",
+      "author": null,
+      "publishedAt": "2020-04-06T00:00:00.000Z"
+    },
+    {
+      "guid": "robert-c-martin::http://blog.cleancoder.com/uncle-bob/2020/04/05/ANewHope.html",
+      "title": "A New Hope",
+      "link": "http://blog.cleancoder.com/uncle-bob/2020/04/05/ANewHope.html",
+      "summary": "…The Year is 2045…\nDad, can you help me with my school report?\nSure son.  What’s it about?\nWe have to do it on the great pandemic of 2020.  You were there, right?\nI was just a little boy.  But I know a lot about it.  What is it you need to know?\nWe’re supposed to write about the heroes.\nAh, yes.  A…",
+      "author": null,
+      "publishedAt": "2020-04-05T00:00:00.000Z"
+    },
+    {
+      "guid": "robert-c-martin::http://blog.cleancoder.com/uncle-bob/2019/11/08/OpenLetterLinuxFoundation.html",
+      "title": "Open Letter to the Linux Foundation",
+      "link": "http://blog.cleancoder.com/uncle-bob/2019/11/08/OpenLetterLinuxFoundation.html",
+      "summary": "To: The Linux Foundation\n\n\nFrom: Robert Martin (@unclebobmartin) (unclebob@cleancoder.com)\nRe: Code of Conduct case of Charles Max Wood.\nDear Linux Foundation:\nI am writing to you as a concerned member of the software development community which I have enjoyed serving for the last 50 years.  I am…",
+      "author": null,
+      "publishedAt": "2019-11-08T00:00:00.000Z"
+    },
+    {
+      "guid": "robert-c-martin::http://blog.cleancoder.com/uncle-bob/2019/11/03/WhatTheyThoughtOfUs.html",
+      "title": "What They Thought of Programmers.",
+      "link": "http://blog.cleancoder.com/uncle-bob/2019/11/03/WhatTheyThoughtOfUs.html",
+      "summary": "It is interesting and educational to go back in time and look at how programmers were represented in popular culture.  What did they think of us?  Did they know who were?\nIt’s important to remember that prior to 1946 there were no programmers, that computers themselves were virtually unknown until…",
+      "author": null,
+      "publishedAt": "2019-11-03T00:00:00.000Z"
+    },
+    {
+      "guid": "robert-c-martin::http://blog.cleancoder.com/uncle-bob/2019/10/31/Circulatory.html",
+      "title": "Circulatory",
+      "link": "http://blog.cleancoder.com/uncle-bob/2019/10/31/Circulatory.html",
+      "summary": "My wife and I both got genetic analyses from 23andMe recently.  I discovered that my ancestry comes from Britain and Northern Europe.  My wife is Mexican, and she found that her ancestry is very diverse.\nOne of the services of 23andMe is that they offer to connect you to relatives who have also…",
+      "author": null,
+      "publishedAt": "2019-10-31T00:00:00.000Z"
+    }
+  ],
+  "totalIndexed": 20
+}

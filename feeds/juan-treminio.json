@@ -1,0 +1,93 @@
+{
+  "feedId": "juan-treminio",
+  "feedName": "Juan Treminio",
+  "feedSiteUrl": "https://jtreminio.com",
+  "feedRssUrl": "https://jtreminio.com/feed",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T06:55:09.555Z",
+  "items": [
+    {
+      "guid": "https://jtreminio.com/blog/openapi-tutorial-part-iii-paths-and-basic-request-data/",
+      "title": "OpenAPI Tutorial Part III: Paths and Basic Request Data",
+      "link": "https://jtreminio.com/blog/openapi-tutorial-part-iii-paths-and-basic-request-data/",
+      "summary": "This is Part III of a multi-part series. Below are the links to other parts of this tutorial!\n  \nOpenAPI Tutorial Part I: Introduction to OpenAPI\n OpenAPI Tutorial Part II: Common API Example\n OpenAPI Tutorial Part III: Paths and Basic Request Data\n  \n  \nThe end result of this article can be found…",
+      "author": null,
+      "publishedAt": "2022-02-06T06:00:00.000Z"
+    },
+    {
+      "guid": "https://jtreminio.com/blog/openapi-tutorial-part-ii-common-api-example/",
+      "title": "OpenAPI Tutorial Part II: Common API Example",
+      "link": "https://jtreminio.com/blog/openapi-tutorial-part-ii-common-api-example/",
+      "summary": "This is Part II of a multi-part series. Below are the links to other parts of this tutorial!\n  \nOpenAPI Tutorial Part I: Introduction to OpenAPI\n OpenAPI Tutorial Part II: Common API Example\n OpenAPI Tutorial Part III: Paths and Basic Request Data\n  \n In the first part of this series we\n  \nlightly…",
+      "author": null,
+      "publishedAt": "2022-02-05T06:00:00.000Z"
+    },
+    {
+      "guid": "https://jtreminio.com/blog/openapi-tutorial-part-i-introduction-to-openapi/",
+      "title": "OpenAPI Tutorial Part I: Introduction to OpenAPI",
+      "link": "https://jtreminio.com/blog/openapi-tutorial-part-i-introduction-to-openapi/",
+      "summary": "This is Part I of a multi-part series. Below are the links to other parts of this tutorial!\n  \nOpenAPI Tutorial Part I: Introduction to OpenAPI\n OpenAPI Tutorial Part II: Common API Example\n OpenAPI Tutorial Part III: Paths and Basic Request Data\n  \n  \nThe end result of this article can be found at…",
+      "author": null,
+      "publishedAt": "2022-01-31T06:00:00.000Z"
+    },
+    {
+      "guid": "https://jtreminio.com/blog/all-in-one-php-fpm-nginx-apache-containers/",
+      "title": "All-in-One PHP-FPM + Nginx/Apache Containers",
+      "link": "https://jtreminio.com/blog/all-in-one-php-fpm-nginx-apache-containers/",
+      "summary": "In a previous post, Docker PHP/PHP-FPM Configuration via Environment Variables, I described how to use environment variables to configure PHP FPM and CLI. With my method you can override one of over 650 PHP INI settings. More INI settings are but a PR away!\n In a more recent post, PHP Modules…",
+      "author": null,
+      "publishedAt": "2018-12-18T06:00:00.000Z"
+    },
+    {
+      "guid": "https://jtreminio.com/blog/php-modules-toggled-via-environment-variables/",
+      "title": "PHP Modules Toggled via Environment Variables",
+      "link": "https://jtreminio.com/blog/php-modules-toggled-via-environment-variables/",
+      "summary": "In my previous post, Docker PHP/PHP-FPM Configuration via Environment Variables I introduced my new PHP image that uses environment variables to configure its INI settings.\n The Dockerfile is a beast, to be sure. At over 650 lines it documents my attempt at bringing true flexibility to an immutable…",
+      "author": null,
+      "publishedAt": "2018-12-14T06:00:00.000Z"
+    },
+    {
+      "guid": "https://jtreminio.com/blog/docker-php-php-fpm-configuration-via-environment-variables/",
+      "title": "Docker PHP/PHP-FPM Configuration via Environment Variables",
+      "link": "https://jtreminio.com/blog/docker-php-php-fpm-configuration-via-environment-variables/",
+      "summary": "ed: If you want to run the containers right now, jump ahead to How to Use the Images.\n For several months now I have been working on PuPHPet.com’s replacement. It is a Docker-based GUI functionally similar to PuPHPet.\n Docker, like Vagrant, allows sharing directories and files from the host to the…",
+      "author": null,
+      "publishedAt": "2018-11-15T06:00:00.000Z"
+    },
+    {
+      "guid": "https://jtreminio.com/blog/setting-up-a-static-site-with-hugo-and-push-to-deploy/",
+      "title": "Setting Up a Static Site with Hugo and Push to Deploy",
+      "link": "https://jtreminio.com/blog/setting-up-a-static-site-with-hugo-and-push-to-deploy/",
+      "summary": "For several years this blog was generated using the PHP static site generator Sculpin. I switched to Grav before deciding it was not for me. My blog does not contain dynamic data that requires PHP processing, and static HTML with JS is fine.\n One of the issues I had with Grav was its requirement of…",
+      "author": null,
+      "publishedAt": "2018-08-08T05:00:00.000Z"
+    },
+    {
+      "guid": "https://jtreminio.com/blog/running-docker-containers-as-current-host-user/",
+      "title": "Running Docker Containers as Current Host User",
+      "link": "https://jtreminio.com/blog/running-docker-containers-as-current-host-user/",
+      "summary": "ed: If you want to jump right to the solution, jump ahead to Ok so what actually works?.\n Docker is an excellent tool for local web development. It allows creating non-trivial environments without polluting the local system with tools.\n There are still some things that make working with it just a…",
+      "author": null,
+      "publishedAt": "2018-08-05T05:00:00.000Z"
+    },
+    {
+      "guid": "https://jtreminio.com/blog/traefik-on-docker-for-web-developers/",
+      "title": "Traefik on Docker for Web Developers",
+      "link": "https://jtreminio.com/blog/traefik-on-docker-for-web-developers/",
+      "summary": "Over the last 5+ years I have done all my development on local virtual machines managed by Vagrant and provisioned by Puppet. I even created a fairly well-received FOSS called PuPHPet.\n At the end of 2017 I started really looking into containers, and as of January started working on what will…",
+      "author": null,
+      "publishedAt": "2018-07-31T05:00:00.000Z"
+    },
+    {
+      "guid": "https://jtreminio.com/blog/developing-at-full-speed-with-xdebug/",
+      "title": "Developing at Full Speed with Xdebug",
+      "link": "https://jtreminio.com/blog/developing-at-full-speed-with-xdebug/",
+      "summary": "A quick history\n ed: If you want to jump right to the solution, jump ahead to Nginx map.\n Docker for Mac is very slow.\n It is so slow that I purchased a new Dell XPS laptop and for the first time in 6 years am now using a non-MacOS (Fedora) machine as my daily driver.\n Not everyone has the luxury…",
+      "author": null,
+      "publishedAt": "2018-07-23T05:00:00.000Z"
+    }
+  ],
+  "totalIndexed": 10
+}

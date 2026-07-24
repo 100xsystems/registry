@@ -1,0 +1,93 @@
+{
+  "feedId": "hubspot",
+  "feedName": "HubSpot",
+  "feedSiteUrl": "http://product.hubspot.com/blog/topic/engineering",
+  "feedRssUrl": "https://product.hubspot.com/blog/rss.xml",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T06:51:29.038Z",
+  "items": [
+    {
+      "guid": "https://product.hubspot.com/blog/building-observable-access-control-at-scale-a-rule-engine-approach-to-jita",
+      "title": "Building Observable Access Control at Scale: A Rule Engine Approach to JITA",
+      "link": "https://product.hubspot.com/blog/building-observable-access-control-at-scale-a-rule-engine-approach-to-jita",
+      "summary": "The Problem\n \r\nAt HubSpot, we have a fundamental tension built into our culture: we want to help customers succeed, which often means giving employees access to customer portals: Engineers to fix bugs, sales engineers assisting with account setup, or customer support troubleshooting issues during…",
+      "author": "ankeith@hubspot.com (Andrew Keith)",
+      "publishedAt": "2026-06-30T18:30:42.000Z"
+    },
+    {
+      "guid": "https://product.hubspot.com/blog/building-the-ai-retrieval-infrastructure-behind-20-billion-vectors-at-hubspot",
+      "title": "Building the AI Retrieval Infrastructure Behind 20 Billion+ Vectors at HubSpot",
+      "link": "https://product.hubspot.com/blog/building-the-ai-retrieval-infrastructure-behind-20-billion-vectors-at-hubspot",
+      "summary": "<div class=\"hs-featured-image-wrapper\"> \r\n <a href=\"https://product.hubspot.com/blog/building-the-ai-retrieval-infrastructure-behind-20-billion-vectors-at-hubspot\" title=\"\" class=\"hs-featured-image-link\"> <img…",
+      "author": "Oleg Tereshin & Xin Liu",
+      "publishedAt": "2026-06-25T18:17:44.000Z"
+    },
+    {
+      "guid": "https://product.hubspot.com/blog/hubspot-incident-report-february-25-2026",
+      "title": "HubSpot Incident Report: February 25, 2026",
+      "link": "https://product.hubspot.com/blog/hubspot-incident-report-february-25-2026",
+      "summary": "On February 25, 2026, HubSpot experienced a service disruption affecting user access to specific types of workflows within our user interface. All backend workflow automations continued to execute normally without interruption - no automations were delayed, missed, or lost. We have completed a…",
+      "author": "Shilpa Varma",
+      "publishedAt": "2026-03-20T17:48:30.000Z"
+    },
+    {
+      "guid": "https://product.hubspot.com/blog/automated-code-review-the-6-month-evolution",
+      "title": "Automated Code Review: The 6-Month Evolution",
+      "link": "https://product.hubspot.com/blog/automated-code-review-the-6-month-evolution",
+      "summary": "As HubSpot engineers have increasingly started writing more and more of their code with both local and cloud coding agents, we've noticed that now more than ever, code review is taking up a large portion of cycle time on new changes.",
+      "author": "eadams@hubspot.com (Emily Adams)",
+      "publishedAt": "2026-03-02T17:46:43.000Z"
+    },
+    {
+      "guid": "https://product.hubspot.com/blog/cloud-coding-agents-at-hubspot",
+      "title": "Cloud Coding Agents at HubSpot",
+      "link": "https://product.hubspot.com/blog/cloud-coding-agents-at-hubspot",
+      "summary": "This post is the second in a series about empowering product, UX, and engineering teams with AI, especially in the context of writing code. Read the first post about scaling AI adoption here!",
+      "author": "Stephan Lensky",
+      "publishedAt": "2026-01-23T15:59:04.000Z"
+    },
+    {
+      "guid": "https://product.hubspot.com/blog/migrated-from-enzyme-to-react-testing-library",
+      "title": "Moving Mountains: How We Migrated from Enzyme to React Testing Library",
+      "link": "https://product.hubspot.com/blog/migrated-from-enzyme-to-react-testing-library",
+      "summary": "For years, Enzyme was the de facto standard for testing React applications. Originally built by Airbnb in 2015, Enzyme makes it easy to assert, manipulate, and traverse the output of React components. The last official release of Enzyme came after React 16 was launched in 2017, but even then did…",
+      "author": "Charley Pugmire",
+      "publishedAt": "2025-11-13T18:31:47.000Z"
+    },
+    {
+      "guid": "https://product.hubspot.com/blog/incident-report-for-october-20-2025",
+      "title": "HubSpot Incident Report for October 20, 2025",
+      "link": "https://product.hubspot.com/blog/incident-report-for-october-20-2025",
+      "summary": "On October 20, 2025, HubSpot experienced a significant service disruption affecting multiple product features due to a severe AWS outage in the us-east-1 region. While our infrastructure remained intact, the widespread nature of the cloud provider failure impacted both our services and critical…",
+      "author": "Kartik Vishwanath",
+      "publishedAt": "2025-11-11T17:09:36.000Z"
+    },
+    {
+      "guid": "https://product.hubspot.com/blog/its-never-a-hardware-bug-until-it-is",
+      "title": "It's Never a Hardware Bug, Until it is.",
+      "link": "https://product.hubspot.com/blog/its-never-a-hardware-bug-until-it-is",
+      "summary": "​​Edit, April 30 2026: The OpenJDK now contains a mitigation for the hardware bug described in this article, which will appear in OpenJDK 27. Thank you to Evgeny Astigeevich at AWS for his work on the mitigation.\n \r\nMost software developers have heard the maxim, “it’s never a compiler bug,” and its…",
+      "author": "Charles Connell",
+      "publishedAt": "2025-09-24T16:38:06.000Z"
+    },
+    {
+      "guid": "https://product.hubspot.com/blog/context-is-key-how-hubspot-scaled-ai-adoption",
+      "title": "Context is Key: How HubSpot Scaled AI Adoption",
+      "link": "https://product.hubspot.com/blog/context-is-key-how-hubspot-scaled-ai-adoption",
+      "summary": "This post is intended to be the first in a series about empowering product, UX, and engineering teams with AI. We’re going to focus on how we’ve approached and scaled the use of AI in the context of writing code.",
+      "author": "blamattina@hubspot.com (Brian LaMattina)",
+      "publishedAt": "2025-09-24T14:41:07.000Z"
+    },
+    {
+      "guid": "https://product.hubspot.com/blog/designing-for-your-next-decade-growth",
+      "title": "Designing for Your Next Decade of Growth",
+      "link": "https://product.hubspot.com/blog/designing-for-your-next-decade-growth",
+      "summary": "Your business has evolved, and your tools should too. Our refreshed interface reduces cognitive load with thoughtful simplification and feature curation. This helps your team work more efficiently while maintaining all the powerful functionality you rely on. This is the foundation for your next…",
+      "author": "Michael Holzer",
+      "publishedAt": "2025-09-03T17:30:00.000Z"
+    }
+  ],
+  "totalIndexed": 10
+}

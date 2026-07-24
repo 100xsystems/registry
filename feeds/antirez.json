@@ -1,0 +1,413 @@
+{
+  "feedId": "antirez",
+  "feedName": "Antirez",
+  "feedSiteUrl": "http://antirez.com/latest/0",
+  "feedRssUrl": "http://antirez.com/rss",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T06:41:29.662Z",
+  "items": [
+    {
+      "guid": "http://antirez.com/news/170",
+      "title": "Not just development, distribution of software may change as well",
+      "link": "http://antirez.com/news/170",
+      "summary": "Even if you are as averse to semver as I used to be in the course of my programming activity, you can still think of open source software distribution as something that used to follow a fixed number of steps. There is a branch where developments happen, and this branch oftentimes happens to be not…",
+      "author": null,
+      "publishedAt": "2026-07-22T14:52:39.000Z"
+    },
+    {
+      "guid": "http://antirez.com/news/169",
+      "title": "Control the ideas, not the code",
+      "link": "http://antirez.com/news/169",
+      "summary": "Look at the past history of this blog. There are many blog posts about programming with AI, a few of them date back to January 2024 (like this: https://antirez.com/news/140). I’m a relatively well regarded programmer, after all. I don’t have the need to still be in the “loop” as a old man that…",
+      "author": null,
+      "publishedAt": "2026-07-13T11:39:52.000Z"
+    },
+    {
+      "guid": "http://antirez.com/news/168",
+      "title": "A new era for software testing",
+      "link": "http://antirez.com/news/168",
+      "summary": "Automatic programming dramatically speeds up writing software in certain use cases and in the right hands. In my experience the output does not reach the structural quality and economy of complexity of the best hand-written software. However, not all the software is stellar, and my feeling is that…",
+      "author": null,
+      "publishedAt": "2026-06-07T09:46:06.000Z"
+    },
+    {
+      "guid": "http://antirez.com/news/167",
+      "title": "Distributing LLM inference in DwarfStar",
+      "link": "http://antirez.com/news/167",
+      "summary": "High end NVIDIA cards, and the server and power needed to run them, cost a lot of money, especially if you plan to reach enough VRAM to run massive models. The alternative, so far, has been Apple hardware, or the DGX Spark that, even if severely limited because of memory bandwidth, still allows to…",
+      "author": null,
+      "publishedAt": "2026-05-25T14:54:59.000Z"
+    },
+    {
+      "guid": "http://antirez.com/news/166",
+      "title": "Alternatives for the EDIT tool of LLM agents",
+      "link": "http://antirez.com/news/166",
+      "summary": "EDIT: of course this was already done in the past! I had little doubts but people just confirmed me about it on Twitter :) But, keep reading: the CRC32 compromise at the end is an interesting tradeoff, and this is a good discussion to have in general.\n\nRight now I'm working to an agent for my DS4…",
+      "author": null,
+      "publishedAt": "2026-05-19T07:26:03.000Z"
+    },
+    {
+      "guid": "http://antirez.com/news/165",
+      "title": "A few words on DS4",
+      "link": "http://antirez.com/news/165",
+      "summary": "I didn’t expect DwarfStar 4 (https://github.com/antirez/ds4) to become so popular so fast. It is clear that there was a need for single-model integration focused local AI experience, and that a few things happened together: the release of a quasi-frontier model that is large and fast enough to…",
+      "author": null,
+      "publishedAt": "2026-05-14T22:22:45.000Z"
+    },
+    {
+      "guid": "http://antirez.com/news/164",
+      "title": "Redis array type: short story of a long development",
+      "link": "http://antirez.com/news/164",
+      "summary": "I started working on the new Array data type for Redis in the first days of January. The PR landed the repository only now, so this code was cooked for four months. I worked at the implementation kinda part time (kinda because many weeks were actually full time, sometimes to detach yourself from…",
+      "author": null,
+      "publishedAt": "2026-05-04T14:21:45.000Z"
+    },
+    {
+      "guid": "http://antirez.com/news/163",
+      "title": "AI cybersecurity is not proof of work",
+      "link": "http://antirez.com/news/163",
+      "summary": "The proof of work is the wrong analogy: finding hash collisions, while exponentially harder with N, is guaranteed to find, with enough work, some S so that H(S) satisfies N, so an asymmetry of resources used will see the side with more \"work ability\" eventually winning.\n\nBut bugs are different:\n\n1.…",
+      "author": null,
+      "publishedAt": "2026-04-16T10:46:46.000Z"
+    },
+    {
+      "guid": "http://antirez.com/news/162",
+      "title": "GNU and the AI reimplementations",
+      "link": "http://antirez.com/news/162",
+      "summary": "Those who cannot remember the past are condemned to repeat it. A sentence that I never really liked, and what is happening with AI, about software projects reimplementations, shows all the limits of such an idea. Many people are protesting the fairness of rewriting existing projects using AI. But,…",
+      "author": null,
+      "publishedAt": "2026-03-08T16:08:41.000Z"
+    },
+    {
+      "guid": "http://antirez.com/news/161",
+      "title": "Redis patterns for coding",
+      "link": "http://antirez.com/news/161",
+      "summary": "Here LLM and coding agents can find:\n\n1. Exhaustive documentation about Redis commands and data types.\n2. Patterns commonly used.\n3. Configuration hints.\n4. Algorithms that can be mounted using Redis commands.\n\nhttps://redis.antirez.com/\n\nSome humans claim this documentation is actually useful for…",
+      "author": null,
+      "publishedAt": "2026-03-01T09:55:09.000Z"
+    },
+    {
+      "guid": "http://antirez.com/news/160",
+      "title": "Implementing a clear room Z80 / ZX Spectrum emulator with Claude Code",
+      "link": "http://antirez.com/news/160",
+      "summary": "Anthropic recently released a blog post with the description of an experiment in which the last version of Opus, the 4.6, was instructed to write a C compiler in Rust, in a “clean room” setup.\n\nThe experiment methodology left me dubious about the kind of point they wanted to make. Why not provide…",
+      "author": null,
+      "publishedAt": "2026-02-24T17:58:02.000Z"
+    },
+    {
+      "guid": "http://antirez.com/news/159",
+      "title": "Automatic programming",
+      "link": "http://antirez.com/news/159",
+      "summary": "In my YouTube channel, for some time now I started to refer to the process of writing software using AI assistance (soon to become just \"the process of writing software\", I believe) with the term \"Automatic Programming\".\n\nIn case you didn't notice, automatic programming produces vastly different…",
+      "author": null,
+      "publishedAt": "2026-01-31T09:25:27.000Z"
+    },
+    {
+      "guid": "http://antirez.com/news/158",
+      "title": "Don't fall into the anti-AI hype",
+      "link": "http://antirez.com/news/158",
+      "summary": "I love writing software, line by line. It could be said that my career was a continuous effort to create software well written, minimal, where the human touch was the fundamental feature. I also hope for a society where the last are not forgotten. Moreover, I don't want AI to economically succeed,…",
+      "author": null,
+      "publishedAt": "2026-01-11T10:15:51.000Z"
+    },
+    {
+      "guid": "http://antirez.com/news/157",
+      "title": "Reflections on AI at the end of 2025",
+      "link": "http://antirez.com/news/157",
+      "summary": "* For years, despite functional evidence and scientific hints accumulating, certain AI researchers continued to claim LLMs were stochastic parrots: probabilistic machines that would: 1. NOT have any representation about the meaning of the prompt. 2. NOT have any representation about what they were…",
+      "author": null,
+      "publishedAt": "2025-12-20T08:58:29.000Z"
+    },
+    {
+      "guid": "http://antirez.com/news/156",
+      "title": "Scaling HNSWs",
+      "link": "http://antirez.com/news/156",
+      "summary": "I’m taking a few weeks of pause on my HNSWs developments (now working on some other data structure, news soon). At this point, the new type I added to Redis is stable and complete enough, it’s the perfect moment to reason about what I learned about HNSWs, and turn it into a blog post. That kind of…",
+      "author": null,
+      "publishedAt": "2025-11-11T12:53:38.000Z"
+    },
+    {
+      "guid": "http://antirez.com/news/155",
+      "title": "AI is different",
+      "link": "http://antirez.com/news/155",
+      "summary": "Regardless of their flaws, AI systems continue to impress with their ability to replicate certain human skills. Even if imperfect, such systems were a few years ago science fiction. It was not even clear that we were so near to create machines that could understand the human language, write…",
+      "author": null,
+      "publishedAt": "2025-08-13T15:59:56.000Z"
+    },
+    {
+      "guid": "http://antirez.com/news/154",
+      "title": "Coding with LLMs in the summer of 2025 (an update)",
+      "link": "http://antirez.com/news/154",
+      "summary": "Frontier LLMs such as Gemini 2.5 PRO, with their vast understanding of many topics and their ability to grasp thousands of lines of code in a few seconds, are able to extend and amplify the programmer capabilities. If you are able to describe problems in a clear way and, if you are able to accept…",
+      "author": null,
+      "publishedAt": "2025-07-20T10:58:54.000Z"
+    },
+    {
+      "guid": "http://antirez.com/news/153",
+      "title": "Human coders are still better than LLMs",
+      "link": "http://antirez.com/news/153",
+      "summary": "This is a short story of how humans are still so much more capable of LLMs. Note that I'm not anti-AI or alike, you know it if you know me / follow me somewhere. I use LLMs routinely, like I did today, when I want to test my ideas, for code reviews, to understand if there are better approaches than…",
+      "author": null,
+      "publishedAt": "2025-05-29T16:34:51.000Z"
+    },
+    {
+      "guid": "http://antirez.com/news/152",
+      "title": "What I learned during the license switch",
+      "link": "http://antirez.com/news/152",
+      "summary": "Yesterday, it was a very intense day. In Italy it was 1st of May, the workers holiday, so in the morning I went for a 4h walk in the Etna with friends \nThen at 6PM I was at home to release my blog post about the AGPL license switch, and I started following the comments, feedbacks, private messages,…",
+      "author": null,
+      "publishedAt": "2025-05-02T08:46:25.000Z"
+    },
+    {
+      "guid": "http://antirez.com/news/151",
+      "title": "Redis is open source again",
+      "link": "http://antirez.com/news/151",
+      "summary": "Five months ago, I rejoined Redis and quickly started to talk with my colleagues about a possible switch to the AGPL license, only to discover that there was already an ongoing discussion, a very old one, too. Many people, within the company, had the feeling that the AGPL was a better pick than…",
+      "author": null,
+      "publishedAt": "2025-05-01T15:55:50.000Z"
+    },
+    {
+      "guid": "http://antirez.com/news/150",
+      "title": "Reproducing Hacker News writing style fingerprinting",
+      "link": "http://antirez.com/news/150",
+      "summary": "About three years ago I saw a quite curious and interesting post on Hacker News. A student, Christopher Tarry, was able to use cosine similarity against a vector of top words frequencies in comments, in order to detect similar HN accounts — and, sometimes, even accounts actually controlled by the…",
+      "author": null,
+      "publishedAt": "2025-04-16T13:53:16.000Z"
+    },
+    {
+      "guid": "http://antirez.com/news/149",
+      "title": "Vector Sets are part of Redis",
+      "link": "http://antirez.com/news/149",
+      "summary": "Yesterday we finally merged vector sets into Redis, here you can find the README that explains in detail what you get:\n\nhttps://github.com/redis/redis/blob/unstable/modules/vector-sets/README.md\n\nThe goal of the new data structure is, in short, to create a new “Set alike” data type, similar to…",
+      "author": null,
+      "publishedAt": "2025-04-03T18:01:20.000Z"
+    },
+    {
+      "guid": "http://antirez.com/news/148",
+      "title": "AI is useless, but it is our best bet for the future",
+      "link": "http://antirez.com/news/148",
+      "summary": "I used AI with success 5 minutes ago.\n\nJust five minutes ago, I was writing a piece of software and relied on AI for assistance. Yet, here I am, starting this blog post by telling you that artificial intelligence, so far, has proven somewhat useless. How can I make such a statement if AI was just…",
+      "author": null,
+      "publishedAt": "2025-03-23T08:13:53.000Z"
+    },
+    {
+      "guid": "http://antirez.com/news/147",
+      "title": "Big LLMs weights are a piece of history",
+      "link": "http://antirez.com/news/147",
+      "summary": "By multiple accounts, the web is losing pieces: every year a fraction of old web pages disappear, lost forever. We should regard the Internet Archive as one of the most valuable pieces of modern history; instead, many companies and entities make the chances of the Archive to survive, and accumulate…",
+      "author": null,
+      "publishedAt": "2025-03-16T11:56:33.000Z"
+    },
+    {
+      "guid": "http://antirez.com/news/146",
+      "title": "Reasoning models are just LLMs",
+      "link": "http://antirez.com/news/146",
+      "summary": "It’s not new, but it’s accelerating. People that used to say that LLMs were a fundamentally flawed way to reach any useful reasoning and, in general, to develop any useful tool with some degree of generality, are starting to shuffle the deck, in the hope to look less wrong. They say: “the…",
+      "author": null,
+      "publishedAt": "2025-02-09T18:19:38.000Z"
+    },
+    {
+      "guid": "http://antirez.com/news/145",
+      "title": "We are destroying software",
+      "link": "http://antirez.com/news/145",
+      "summary": "We are destroying software by no longer taking complexity into account when adding features or optimizing some dimension.\n\nWe are destroying software with complex build systems.\n\nWe are destroying software with an absurd chain of dependencies, making everything bloated and fragile.\n\nWe are…",
+      "author": null,
+      "publishedAt": "2025-02-08T14:47:49.000Z"
+    },
+    {
+      "guid": "http://antirez.com/news/144",
+      "title": "From where I left",
+      "link": "http://antirez.com/news/144",
+      "summary": "I’m not the kind of person that develops a strong attachment to their own work. When I decided to leave Redis, about 1620 days ago (~ 4.44 years), I never looked at the source code, commit messages, or anything related to Redis again. From time to time, when I needed Redis, I just downloaded it and…",
+      "author": null,
+      "publishedAt": "2024-12-10T16:38:55.000Z"
+    },
+    {
+      "guid": "http://antirez.com/news/143",
+      "title": "Playing audio files in a Pi Pico without a DAC",
+      "link": "http://antirez.com/news/143",
+      "summary": "The Raspberry Pico is suddenly becoming my preferred chip for embedded development. It is well made, durable hardware, with a ton of features that appear designed with smartness and passion (the state machines driving the GPIOs are a killer feature!). Its main weakness, the lack of connectivity, is…",
+      "author": null,
+      "publishedAt": "2024-03-06T10:52:34.000Z"
+    },
+    {
+      "guid": "http://antirez.com/news/142",
+      "title": "First Token Cutoff LLM sampling",
+      "link": "http://antirez.com/news/142",
+      "summary": "From a theoretical standpoint, the best reply provided by an LLM is obtained by always picking the token associated with the highest probability. This approach makes the LLM output deterministic, which is not a good property for a number of applications. For this reason, in order to balance LLMs…",
+      "author": null,
+      "publishedAt": "2024-01-12T16:49:37.000Z"
+    },
+    {
+      "guid": "http://antirez.com/news/141",
+      "title": "Translating blog posts with GPT-4, or: on hope and fear",
+      "link": "http://antirez.com/news/141",
+      "summary": "My usual process for writing blog posts is more or less in two steps:\n\n1. Think about what I want to say for weeks or months. No, I don’t spend weeks focusing on a blog post, the process is exactly reversed: I write blog posts about things that are so important to me to be in my mind for weeks.\n\n2.…",
+      "author": null,
+      "publishedAt": "2024-01-09T21:28:15.000Z"
+    },
+    {
+      "guid": "http://antirez.com/news/140",
+      "title": "LLMs and Programming in the first days of 2024",
+      "link": "http://antirez.com/news/140",
+      "summary": "I'll start by saying that this article is not meant to be a retrospective on LLMs. It's clear that 2023 was a special year for artificial intelligence: to reiterate that seems rather pointless. Instead, this post aims to be a testimony from an individual programmer. Since the advent of ChatGPT, and…",
+      "author": null,
+      "publishedAt": "2024-01-02T10:56:14.000Z"
+    },
+    {
+      "guid": "http://antirez.com/news/139",
+      "title": "The origins of the Idle Scan",
+      "link": "http://antirez.com/news/139",
+      "summary": "The Idle scan was conceived at the end of 1998, evidenced by emails. I had moved to Milan a few months prior, having been there since September if I recall correctly, brimming with new ideas, unaware that my stay in that city would be brief. I spent the summer on the beaches of Sicily, mainly…",
+      "author": null,
+      "publishedAt": "2023-10-19T10:40:27.000Z"
+    },
+    {
+      "guid": "http://antirez.com/news/138",
+      "title": "In defense of linked lists",
+      "link": "http://antirez.com/news/138",
+      "summary": "A few days ago, on Twitter (oh, dear Twitter: whatever happens I’ll be there as long as possible – if you care about people that put a lot of energy in creating it, think twice before leaving the platform). So, on Twitter, I was talking about a very bad implementation of linked lists written in…",
+      "author": null,
+      "publishedAt": "2022-11-04T18:46:29.000Z"
+    },
+    {
+      "guid": "http://antirez.com/news/137",
+      "title": "Scrivendo Wohpe",
+      "link": "http://antirez.com/news/137",
+      "summary": "(English translation of this post: http://antirez.com/news/136)\n\nDopo due anni di lavoro, finalmente, Wohpe, il mio primo libro di fantascienza, ma anche il mio primo scritto di prosa di questa lunghezza, è uscito nelle librerie fisiche italiane, su Amazon, e negli altri store digitali. Lo trovate…",
+      "author": null,
+      "publishedAt": "2022-07-17T09:31:34.000Z"
+    },
+    {
+      "guid": "http://antirez.com/news/136",
+      "title": "Writing Wohpe",
+      "link": "http://antirez.com/news/136",
+      "summary": "(Traduzione italiana di questo post: http://antirez.com/news/137)\n\n[Sorry for the form of this post. For the first time I wrote a post in two languages: Italian and English. So I went for the unusual path of writing it in Italian to start, translating it with Google Translate, and later I just…",
+      "author": null,
+      "publishedAt": "2022-07-17T09:31:06.000Z"
+    },
+    {
+      "guid": "http://antirez.com/news/135",
+      "title": "Programming and Writing",
+      "link": "http://antirez.com/news/135",
+      "summary": "One year ago I paused my programming life and started writing a novel, with the illusion that my new activity was deeply different than the previous one. A river of words later, written but more often rewritten, I’m pretty sure of the contrary: programming big systems and writing novels have many…",
+      "author": null,
+      "publishedAt": "2021-05-14T09:47:18.000Z"
+    },
+    {
+      "guid": "http://antirez.com/news/134",
+      "title": "The open source paradox",
+      "link": "http://antirez.com/news/134",
+      "summary": "A new idea is insinuating in social networks and programming communities. It’s the proportionality between the money people give you for coding something, and the level of demand for quality they can claim to have about your work.\n\nAs somebody said, the best code is written when you are supposed to…",
+      "author": null,
+      "publishedAt": "2020-10-03T09:11:59.000Z"
+    },
+    {
+      "guid": "http://antirez.com/news/133",
+      "title": "The end of the Redis adventure",
+      "link": "http://antirez.com/news/133",
+      "summary": "When I started the Redis project more than ten years ago I was in one of the most exciting moments of my career. My co-founder and I had successfully launched two of the major web 2.0 services of the Italian web. In order to make them scalable we had to invent many new concepts, that were already…",
+      "author": null,
+      "publishedAt": "2020-06-30T13:00:16.000Z"
+    },
+    {
+      "guid": "http://antirez.com/news/132",
+      "title": "Redis 6.0.0 GA is out!",
+      "link": "http://antirez.com/news/132",
+      "summary": "Finally Redis 6.0.0 stable is out. This time it was a relatively short cycle between the release of the first release candidate and the final release of a stable version. It took about four months, that is not a small amount of time, but is not a lot compared to our past records :)\n\nSo the big news…",
+      "author": null,
+      "publishedAt": "2020-04-30T13:33:35.000Z"
+    },
+    {
+      "guid": "http://antirez.com/news/131",
+      "title": "Redis 6 RC1 is out today",
+      "link": "http://antirez.com/news/131",
+      "summary": "So it happened again, a new Redis version reached the release candidate status, and in a few months it will hit the shelves of most supermarkets. I guess this is the most “enterprise” Redis version to date, and it’s funny since I took quite some time in order to understand what “enterprise” ever…",
+      "author": null,
+      "publishedAt": "2019-12-19T16:27:00.000Z"
+    },
+    {
+      "guid": "http://antirez.com/news/130",
+      "title": "Client side caching in Redis 6",
+      "link": "http://antirez.com/news/130",
+      "summary": "[Note: this post no longer describes the client side implementation in the final implementation of Redis 6, that changed significantly, see https://redis.io/topics/client-side-caching]\n\nThe New York Redis day was over, I get up at the hotel at 5:30, still pretty in sync with the Italian time zone…",
+      "author": null,
+      "publishedAt": "2019-07-04T17:10:34.000Z"
+    },
+    {
+      "guid": "http://antirez.com/news/129",
+      "title": "The struggles of an open source maintainer",
+      "link": "http://antirez.com/news/129",
+      "summary": "Months ago the maintainer of an OSS project in the sphere of system software, with quite a big and active community, wrote me an email saying that he struggles to continue maintaining his project after so many years, because of how much psychologically taxing such effort is. He was looking for…",
+      "author": null,
+      "publishedAt": "2019-05-16T17:42:18.000Z"
+    },
+    {
+      "guid": "http://antirez.com/news/128",
+      "title": "Redis streams as a pure data structure",
+      "link": "http://antirez.com/news/128",
+      "summary": "The new Redis data structure introduced in Redis 5 under the name of “Streams” generated quite some interest in the community. Soon or later I want to run a community survey, talking with users having production use cases, and blogging about it. Today I want to address another issue: I’m starting…",
+      "author": null,
+      "publishedAt": "2019-03-22T15:10:15.000Z"
+    },
+    {
+      "guid": "http://antirez.com/news/127",
+      "title": "Gopher: a present for Redis",
+      "link": "http://antirez.com/news/127",
+      "summary": "Ten years ago Redis was announced on Hacker News, and I use this as virtual birthdate for the project, simply because it is more important when it was announced to the public than the actual date of the project first line of code (think at it conception VS actual birth in animals).  I’ll use the…",
+      "author": null,
+      "publishedAt": "2019-02-25T17:17:23.000Z"
+    },
+    {
+      "guid": "http://antirez.com/news/126",
+      "title": "An update about Redis developments in 2019",
+      "link": "http://antirez.com/news/126",
+      "summary": "Yesterday a concerned Redis user wrote the following on Hacker News:\n\n— https://news.ycombinator.com/item?id=19204436 —\nI love Redis, but I'm a bit skeptical of some of the changes that are currently in development. The respv3 protocol has some features that, while they sound neat, also could…",
+      "author": null,
+      "publishedAt": "2019-02-20T12:14:11.000Z"
+    },
+    {
+      "guid": "http://antirez.com/news/125",
+      "title": "Why RESP3 will be the only protocol supported by Redis 6",
+      "link": "http://antirez.com/news/125",
+      "summary": "[EDIT! I'm reconsidering all this because Marc Gravell\n from Stack Overflow suggested that we could just switch protocol for backward compatibility per-connection, sending a command to enable RESP3. That means no longer need for a global configuration that switches the behavior of the server. Put…",
+      "author": null,
+      "publishedAt": "2018-11-09T15:31:10.000Z"
+    },
+    {
+      "guid": "http://antirez.com/news/124",
+      "title": "Writing system software: code comments.",
+      "link": "http://antirez.com/news/124",
+      "summary": "For quite some time I’ve wanted to record a new video talking about code comments for my \"writing system software\" series on YouTube. However, after giving it some thought, I realized that the topic was better suited for a blog post, so here we are. In this post I analyze Redis comments, trying to…",
+      "author": null,
+      "publishedAt": "2018-10-06T20:08:58.000Z"
+    },
+    {
+      "guid": "http://antirez.com/news/123",
+      "title": "LOLWUT: a piece of art inside a database command",
+      "link": "http://antirez.com/news/123",
+      "summary": "The last few days have been quite intense. One of the arguments, about the dispute related to replacing or not the words used in Redis replication with different ones, was the following: is it worthwhile to do work that does not produce any technological result?\n\nAs I was changing the Redis source…",
+      "author": null,
+      "publishedAt": "2018-09-12T15:20:28.000Z"
+    },
+    {
+      "guid": "http://antirez.com/news/122",
+      "title": "On Redis master-slave terminology",
+      "link": "http://antirez.com/news/122",
+      "summary": "Today it happened again. A developer, that we’ll call Mark to avoid exposing his real name, read the Redis 5.0 RC5 change log, and was disappointed to see that Redis still uses the “master” and “slave” terminology in order to identify different roles in Redis replication.\n\nI said that I was sorry…",
+      "author": null,
+      "publishedAt": "2018-09-06T21:04:56.000Z"
+    },
+    {
+      "guid": "http://antirez.com/news/121",
+      "title": "Redis is not \"open core\"",
+      "link": "http://antirez.com/news/121",
+      "summary": "Human beings have a strong tendency to put new facts into pre-existing categories. This is useful to mentally and culturally classify similar events under the same logical umbrella, so when two days ago I clarified that the Redis core was still released under the vanilla BSD license, and only…",
+      "author": null,
+      "publishedAt": "2018-08-24T22:38:52.000Z"
+    }
+  ],
+  "totalIndexed": 50
+}

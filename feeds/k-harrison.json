@@ -1,0 +1,53 @@
+{
+  "feedId": "k-harrison",
+  "feedName": "K. Harrison",
+  "feedSiteUrl": "https://useyourloaf.com/",
+  "feedRssUrl": "https://useyourloaf.com/blog/rss.xml",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T06:55:40.344Z",
+  "items": [
+    {
+      "guid": "https://useyourloaf.com/blog/wwdc-2026-viewing-guide/",
+      "title": "WWDC 2026 Viewing Guide",
+      "link": "https://useyourloaf.com/blog/wwdc-2026-viewing-guide/",
+      "summary": "My WWDC 2026 viewing guide to help you plan the sessions you want to watch.\nWhere Do I Start?\nThe two big themes for the year are again Liquid Glass and Apple Intelligence. Start by watching the Platforms State of the Union (SOTU) for a summary of what’s new this year. If you only have five minutes…",
+      "author": null,
+      "publishedAt": "2026-06-15T09:16:45.000Z"
+    },
+    {
+      "guid": "https://useyourloaf.com/blog/format-swift-with-a-git-commit-hook/",
+      "title": "Format Swift with a Git Commit Hook",
+      "link": "https://useyourloaf.com/blog/format-swift-with-a-git-commit-hook/",
+      "summary": "How do you automatically format your Swift code every time you commit it to your Git repository?\nSwift Format\nThere are several Swift formatting tools. Xcode 16 shipped with swift-format included in the toolchain:\n$ xcrun --find swift-format\n/Applications/Xcode.app/Contents/Developer/Toolchains/…",
+      "author": null,
+      "publishedAt": "2025-11-24T10:29:58.000Z"
+    },
+    {
+      "guid": "https://useyourloaf.com/blog/swiftui-custom-url-schemes/",
+      "title": "SwiftUI Custom URL Schemes",
+      "link": "https://useyourloaf.com/blog/swiftui-custom-url-schemes/",
+      "summary": "Create a custom URL scheme handler for SwiftUI WebViews.\nCustom URL schemes\nApple introduced both WebView and WebPage SwiftUI views in iOS 26. These provide similar WebKit functionality to the UIKit WKWebView APIs. This includes being able to register custom URL schemes to load local resources.…",
+      "author": null,
+      "publishedAt": "2025-10-27T11:26:47.000Z"
+    },
+    {
+      "guid": "https://useyourloaf.com/blog/iphone-17-screen-sizes/",
+      "title": "iPhone 17 Screen Sizes",
+      "link": "https://useyourloaf.com/blog/iphone-17-screen-sizes/",
+      "summary": "There’s less variation this year with the base iPhone 17 and Pro models sharing a display. The Plus model is gone but we get a new iPhone Air. Here’s what you need to know about the iPhone 17 models.\nThe New Models in a Nutshell\nThere’s no iPhone 17 Plus model this year. Instead the iPhone 17 gets…",
+      "author": null,
+      "publishedAt": "2025-10-13T09:44:39.000Z"
+    },
+    {
+      "guid": "https://useyourloaf.com/blog/swift-default-value-in-string-interpolations/",
+      "title": "Swift Default Value in String Interpolations",
+      "link": "https://useyourloaf.com/blog/swift-default-value-in-string-interpolations/",
+      "summary": "Swift 6.2 makes it easier to interpolate strings with optional values.\nWhat’s The Problem?\nIn this SwiftUI view I need to create a text string from an optional integer value:\nstruct CounterView: View {\n  let count: Int?\n    \n  var body: some View {\n    Text(\"The count is \\(count)\")\n  }\n}\n\n\nThe…",
+      "author": null,
+      "publishedAt": "2025-09-07T08:51:46.000Z"
+    }
+  ],
+  "totalIndexed": 5
+}

@@ -1,0 +1,173 @@
+{
+  "feedId": "michael-herman",
+  "feedName": "Michael Herman",
+  "feedSiteUrl": "http://mherman.org/",
+  "feedRssUrl": "https://mherman.org/feed.xml",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T07:00:32.240Z",
+  "items": [
+    {
+      "guid": "michael-herman::https://mherman.org/blog/gitlab-ci-private-docker-registry/",
+      "title": "Pulling Images From Private Docker Registries on GitLab CI",
+      "link": "https://mherman.org/blog/gitlab-ci-private-docker-registry/",
+      "summary": "Want to use an image from a private Docker registry as the base for GitLab Runner’s Docker executor?\nECR example:\n\n<AWS_ACCOUNT_ID>.dkr.ecr.<AWS_REGION>.amazonaws.com/<NAMESPACE>:<TAG>\n\n\nFull job:\n\ntest:api:dev:\n  stage: test\n  image:…",
+      "author": "Michael Herman",
+      "publishedAt": "2020-07-16T05:00:00.000Z"
+    },
+    {
+      "guid": "michael-herman::https://mherman.org/blog/dockerizing-a-react-app/",
+      "title": "Dockerizing a React App",
+      "link": "https://mherman.org/blog/dockerizing-a-react-app/",
+      "summary": "Docker is a containerization tool used to speed up the development and deployment processes. If you’re working with microservices, Docker makes it much easier to link together small, independent services. It also helps to eliminate environment-specific bugs since you can replicate your production…",
+      "author": "Michael Herman",
+      "publishedAt": "2020-04-07T05:00:00.000Z"
+    },
+    {
+      "guid": "michael-herman::https://mherman.org/blog/deploying-jekyll-netlify-docker-gitlab-ci/",
+      "title": "Deploying a Jekyll Site to Netlify with Docker and GitLab CI",
+      "link": "https://mherman.org/blog/deploying-jekyll-netlify-docker-gitlab-ci/",
+      "summary": "This is a step-by-step guide covering how to automatically deploy a Jekyll site to Netlify using Docker and GitLab CI/CD.\nContents\nAssumptions\nDocker Setup\nGitLab Build\nNetlify API Deployment\nGitLab Deploy\nAssumptions\nThis post assumes that have already set up a GitLab repository and a Netlify…",
+      "author": "Michael Herman",
+      "publishedAt": "2020-03-01T06:00:00.000Z"
+    },
+    {
+      "guid": "michael-herman::https://mherman.org/blog/dockerizing-a-vue-app/",
+      "title": "Dockerizing a Vue App",
+      "link": "https://mherman.org/blog/dockerizing-a-vue-app/",
+      "summary": "This tutorial looks at how to Dockerize a Vue app, built with the Vue CLI, using Docker along with Docker Compose and Docker Machine for both development and production. We’ll specifically focus on-\nSetting up a development environment with code hot-reloading\nConfiguring a production-ready image…",
+      "author": "Michael Herman",
+      "publishedAt": "2019-05-21T05:00:00.000Z"
+    },
+    {
+      "guid": "michael-herman::https://mherman.org/blog/dockerizing-an-angular-app/",
+      "title": "Dockerizing an Angular App",
+      "link": "https://mherman.org/blog/dockerizing-an-angular-app/",
+      "summary": "Docker is a containerization tool used to streamline application development and deployment workflows across various environments.\nThis tutorial shows how to Dockerize an Angular app, built with the Angular CLI, using Docker along with Docker Compose and Docker Machine for both development and…",
+      "author": "Michael Herman",
+      "publishedAt": "2019-05-20T05:00:00.000Z"
+    },
+    {
+      "guid": "michael-herman::https://mherman.org/blog/node-grpc-postgres/",
+      "title": "Node, gRPC, and Postgres",
+      "link": "https://mherman.org/blog/node-grpc-postgres/",
+      "summary": "gRPC is an open source remote procedure call (RPC) framework developed by Google. It’s built on top of HTTP/2, and it uses Protocol Buffers as the underlying data serialization format.\nThis tutorial looks at how to implement an API with Node, gRPC, and Postgres.\nContents\nLearning Objectives\ngRPC…",
+      "author": "Michael Herman",
+      "publishedAt": "2019-02-01T06:00:00.000Z"
+    },
+    {
+      "guid": "michael-herman::https://mherman.org/blog/logging-in-kubernetes-with-elasticsearch-Kibana-fluentd/",
+      "title": "Logging in Kubernetes with Elasticsearch, Kibana, and Fluentd",
+      "link": "https://mherman.org/blog/logging-in-kubernetes-with-elasticsearch-Kibana-fluentd/",
+      "summary": "This tutorial looks at how to spin up a single node Elasticsearch cluster along with Kibana and Fluentd on Kubernetes.\nDependencies:\nDocker v18.09.1\nKubernetes v1.13.2\nElasticsearch v6.5.4\nKibana v6.5.4\nFluentd v1.3.2\nContents\nMinikube\nElastic\nKibana\nFluentd\nSanity Check\nMinikube\nMinikube is a tool…",
+      "author": "Michael Herman",
+      "publishedAt": "2019-01-20T06:00:00.000Z"
+    },
+    {
+      "guid": "michael-herman::https://mherman.org/blog/setting-up-a-kubernetes-cluster-on-ubuntu/",
+      "title": "Setting Up a Kubernetes Cluster on Ubuntu 18.04",
+      "link": "https://mherman.org/blog/setting-up-a-kubernetes-cluster-on-ubuntu/",
+      "summary": "In this tutorial, we’ll spin up a Kubernetes cluster on Ubuntu 18.04.\nThis guide uses Ubuntu 18.04 droplets on DigitalOcean. Feel free to swap out DigitalOcean for a different cloud hosting provider or your own on-premise environment.\nDependencies:\nDocker v18.06.0-ce\nKubernetes v1.11.2\nContents…",
+      "author": "Michael Herman",
+      "publishedAt": "2018-08-20T05:00:00.000Z"
+    },
+    {
+      "guid": "michael-herman::https://mherman.org/blog/authentication-in-angular-with-ngrx/",
+      "title": "Authentication in Angular with NGRX",
+      "link": "https://mherman.org/blog/authentication-in-angular-with-ngrx/",
+      "summary": "In this tutorial, we’ll add authentication to Angular using NGRX Store and Effects.\nThis post assumes that you a have basic working knowledge of Angular (2+), TypeScript, RxJS and the Redux design pattern. If you’re new to NGRX, check out the awesome Comprehensive Introduction to @ngrx/store guide.…",
+      "author": "Michael Herman",
+      "publishedAt": "2018-04-17T05:00:00.000Z"
+    },
+    {
+      "guid": "michael-herman::https://mherman.org/blog/stubbing-node-authentication-middleware-with-sinon/",
+      "title": "Stubbing Node Authentication Middleware with Sinon",
+      "link": "https://mherman.org/blog/stubbing-node-authentication-middleware-with-sinon/",
+      "summary": "Last time we looked at how to set up Passport local authentication with Node and Koa. We took a test-first approach and wrote the majority of tests first. That said, there were a two routes that we could not test (/auth/status and /auth/logout) since they required us to to bypass the…",
+      "author": "Michael Herman",
+      "publishedAt": "2018-01-22T06:00:00.000Z"
+    },
+    {
+      "guid": "michael-herman::https://mherman.org/blog/user-authentication-with-passport-and-koa/",
+      "title": "User Authentication with Passport and Koa",
+      "link": "https://mherman.org/blog/user-authentication-with-passport-and-koa/",
+      "summary": "Passport is a library that provides a simple authentication middleware for Node.js.\nThis tutorial looks at how to set up a local authentication strategy with Node, Koa, and koa-passport, where users can sign up and log in using a username and password. We’ll also use Postgres for storing user…",
+      "author": "Michael Herman",
+      "publishedAt": "2018-01-02T06:00:00.000Z"
+    },
+    {
+      "guid": "michael-herman::https://mherman.org/blog/docker-on-aws-from-containerization-to-orchestration/",
+      "title": "Docker on AWS: from containerization to orchestration",
+      "link": "https://mherman.org/blog/docker-on-aws-from-containerization-to-orchestration/",
+      "summary": "In this post, we’ll take a number of containerized microservices running on a single EC2 instance and scale them out to Amazon’s container orchestration service, EC2 Container Service (ECS).\n\nWe’ll be using the following tools…\nTool\n      Use Cases\n      Version\n    \nDocker\n      Containerization…",
+      "author": "Michael Herman",
+      "publishedAt": "2017-11-16T06:00:00.000Z"
+    },
+    {
+      "guid": "michael-herman::https://mherman.org/blog/stubbing-http-requests-with-sinon/",
+      "title": "Stubbing HTTP Requests with Sinon",
+      "link": "https://mherman.org/blog/stubbing-http-requests-with-sinon/",
+      "summary": "This tutorial details how to stub HTTP requests with Sinon.js during test runs.\nIf you’re developing for the web, you are most likely connecting to some other external service to extend the functionality of your application. You could be connecting to a third-party API - like Twilio, GitHub,…",
+      "author": "Michael Herman",
+      "publishedAt": "2017-11-06T06:00:00.000Z"
+    },
+    {
+      "guid": "michael-herman::https://mherman.org/blog/on-demand-test-environments-with-docker-and-aws-ecs/",
+      "title": "On-Demand Environments with Docker and AWS ECS",
+      "link": "https://mherman.org/blog/on-demand-test-environments-with-docker-and-aws-ecs/",
+      "summary": "In this tutorial, we’ll look at how to spin up reproducible (and easily-destructible), on-demand test environments with Docker, Amazon EC2 Container Service (ECS), and Circle CI (for continuous integration and delivery).\nWe’ll be using the following tools…\nTool\n      Use Cases\n      Version…",
+      "author": "Michael Herman",
+      "publishedAt": "2017-09-18T05:00:00.000Z"
+    },
+    {
+      "guid": "michael-herman::https://mherman.org/blog/building-a-restful-api-with-koa-and-postgres/",
+      "title": "Building a RESTful API with Koa and Postgres",
+      "link": "https://mherman.org/blog/building-a-restful-api-with-koa-and-postgres/",
+      "summary": "In this tutorial, you’ll learn how to develop a RESTful API with Koa 2 and Postgres. You’ll also be taking advantage of async/await functions, from ES2017, and test driven development (TDD).\nThis tutorial requires Node v7.6.0 or greater.\n\nParts\nThis article is part of a 4-part Koa and Sinon series……",
+      "author": "Michael Herman",
+      "publishedAt": "2017-08-23T05:00:00.000Z"
+    },
+    {
+      "guid": "michael-herman::https://mherman.org/blog/developing-microservices-node-react-docker/",
+      "title": "Developing Microservices - Node, React, and Docker",
+      "link": "https://mherman.org/blog/developing-microservices-node-react-docker/",
+      "summary": "In this post you will learn how to quickly spin up a reproducible development environment with Docker to manage a number of Node.js microservices.\n\nThis post assumes prior knowledge of the following topics. Refer to the resources for more info:\nTopic\n      Resource\n    \nDocker\n      Get started…",
+      "author": "Michael Herman",
+      "publishedAt": "2017-05-11T05:00:00.000Z"
+    },
+    {
+      "guid": "michael-herman::https://mherman.org/blog/flask-for-node-developers/",
+      "title": "Flask for Node Developers",
+      "link": "https://mherman.org/blog/flask-for-node-developers/",
+      "summary": "Today we’ll be going through how to build a basic CRUD server-side application using Python and Flask, geared toward JavaScript developers versed in Node and Express. Similar to Express, Flask is a simple, yet powerful micro-framework for Python, perfect for RESTful APIs.\n\nThis tutorial uses Flask…",
+      "author": "Michael Herman",
+      "publishedAt": "2017-04-26T05:00:00.000Z"
+    },
+    {
+      "guid": "michael-herman::https://mherman.org/blog/developing-and-testing-microservices-with-docker/",
+      "title": "Developing and Testing Microservices with Docker",
+      "link": "https://mherman.org/blog/developing-and-testing-microservices-with-docker/",
+      "summary": "Often, when developing applications with a microservice architecture, you cannot fully test out all services until you deploy to a staging server. This takes much too long to get feedback. Docker helps to speed up this process by making it easier to link together small, independent services…",
+      "author": "Michael Herman",
+      "publishedAt": "2017-04-18T05:00:00.000Z"
+    },
+    {
+      "guid": "michael-herman::https://mherman.org/blog/functional-testing-with-testcafe/",
+      "title": "Functional Testing with TestCafe",
+      "link": "https://mherman.org/blog/functional-testing-with-testcafe/",
+      "summary": "Today we are going to dive into the world of functional web testing with TestCafe.\nUnlike the majority of other end-to-end (e2e) testing tools, TestCafe is not dependent on Selenium or WebDriver. Instead, it injects scripts into the browser to communicate directly with the DOM and handle events. It…",
+      "author": "Michael Herman",
+      "publishedAt": "2017-03-19T05:00:00.000Z"
+    },
+    {
+      "guid": "michael-herman::https://mherman.org/blog/token-based-authentication-with-angular/",
+      "title": "Token-Based Authentication with Angular",
+      "link": "https://mherman.org/blog/token-based-authentication-with-angular/",
+      "summary": "In the Token-Based Authentication With Node tutorial, we looked at how to add token-based authentication to a Node app using JSON Web Tokens (JWTs). This time, we’ll build out the client-side by showing how to add auth to Angular using JWTs.\n\nContents\nObjectives\nReview\nProject Setup\nAuth Component…",
+      "author": "Michael Herman",
+      "publishedAt": "2017-01-05T06:00:00.000Z"
+    }
+  ],
+  "totalIndexed": 20
+}

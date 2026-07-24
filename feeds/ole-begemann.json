@@ -1,0 +1,173 @@
+{
+  "feedId": "ole-begemann",
+  "feedName": "Ole Begemann",
+  "feedSiteUrl": "https://oleb.net/blog/",
+  "feedRssUrl": "https://oleb.net/blog/atom.xml",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T07:01:54.450Z",
+  "items": [
+    {
+      "guid": "ole-begemann::https://oleb.net/2025/git-mv-case-change/",
+      "title": "Use 'git mv' to record filename case changes in Git",
+      "link": "https://oleb.net/2025/git-mv-case-change/",
+      "summary": "After my previous post Tracking renamed files in Git, here’s another entry in my ongoing series “I thought git mv was useless but I was wrong”.\nThis one’s especially relevant to users on macOS and Windows, where the file system is case-insensitive by default. More precisely, APFS on macOS is…",
+      "author": "Ole Begemann",
+      "publishedAt": "2025-12-16T17:11:22.000Z"
+    },
+    {
+      "guid": "ole-begemann::https://oleb.net/2025/git-file-renaming/",
+      "title": "Tracking renamed files in Git",
+      "link": "https://oleb.net/2025/git-file-renaming/",
+      "summary": "Git famously doesn’t track file renames. That is, Git doesn’t store the information “file A has been renamed to B in commit X”.\nInstead, Git stores snapshots of the repository at each commit. It then uses a (customizable) heuristic during diffing to guess at likely renames: “File B in commit X is…",
+      "author": "Ole Begemann",
+      "publishedAt": "2025-12-15T15:51:35.000Z"
+    },
+    {
+      "guid": "ole-begemann::https://oleb.net/2024/swift-toolchains/",
+      "title": "Building with nightly Swift toolchains on macOS",
+      "link": "https://oleb.net/2024/swift-toolchains/",
+      "summary": "The Swift website provides nightly builds of the Swift compiler (called toolchains) for download. Building with a nightly compiler can be useful if you want to check if a bug has already been fixed on main, or if you want to experiment with upcoming language features such as Embedded Swift, as I’ve…",
+      "author": "Ole Begemann",
+      "publishedAt": "2024-03-05T18:54:44.000Z"
+    },
+    {
+      "guid": "ole-begemann::https://oleb.net/2024/dispatchqueue-mainactor/",
+      "title": "How the Swift compiler knows that DispatchQueue.main implies @MainActor",
+      "link": "https://oleb.net/2024/dispatchqueue-mainactor/",
+      "summary": "You may have noticed that the Swift compiler automatically treats the closure of a DispatchQueue.main.async call as @MainActor. In other words, we can call a main-actor-isolated function in the closure:\nimport Dispatch\n\n@MainActor func mainActorFunc() { }\n\nDispatchQueue.main.async {\n    // The…",
+      "author": "Ole Begemann",
+      "publishedAt": "2024-02-29T18:54:47.000Z"
+    },
+    {
+      "guid": "ole-begemann::https://oleb.net/2023/swiftui-relative-size-in-stacks/",
+      "title": "How the relative size modifier interacts with stack views",
+      "link": "https://oleb.net/2023/swiftui-relative-size-in-stacks/",
+      "summary": "And what it can teach us about SwiftUI’s stack layout algorithm\nI have one more thing to say on the relative sizing view modifier from my previous post, Working with percentages in SwiftUI layout. I’m assuming you’ve read that article. The following is good to know if you want to use the modifier…",
+      "author": "Ole Begemann",
+      "publishedAt": "2023-03-24T20:14:49.000Z"
+    },
+    {
+      "guid": "ole-begemann::https://oleb.net/2023/swiftui-relative-size/",
+      "title": "Working with percentages in SwiftUI layout",
+      "link": "https://oleb.net/2023/swiftui-relative-size/",
+      "summary": "SwiftUI’s layout primitives generally don’t provide relative sizing options, e.g. “make this view 50 % of the width of its container”. Let’s build our own!\nUse case: chat bubbles\nConsider this chat conversation view as an example of what I want to build. The chat bubbles always remain 80 % as wide…",
+      "author": "Ole Begemann",
+      "publishedAt": "2023-03-23T22:31:11.000Z"
+    },
+    {
+      "guid": "ole-begemann::https://oleb.net/2023/photos-keyboard-shortcuts/",
+      "title": "Keyboard shortcuts for Export Unmodified Original in Photos for Mac",
+      "link": "https://oleb.net/2023/photos-keyboard-shortcuts/",
+      "summary": "Problem\nThe Photos app on macOS doesn’t provide a keyboard shortcut for the Export Unmodified Original command.\nmacOS allows you to add your own app-specific keyboard shortcuts via System Settings > Keyboard > Keyboard Shortcuts > App Shortcuts. You need to enter the exact spelling of the menu item…",
+      "author": "Ole Begemann",
+      "publishedAt": "2023-03-21T21:42:04.000Z"
+    },
+    {
+      "guid": "ole-begemann::https://oleb.net/2023/alfred-swift-evolution/",
+      "title": "Swift Evolution proposals in Alfred",
+      "link": "https://oleb.net/2023/alfred-swift-evolution/",
+      "summary": "I rarely participate actively in the Swift Evolution process, but I frequently refer to evolution proposals for my work, often multiple times per week. The proposals aren’t always easy to read, but they’re the most comprehensive (and sometimes only) documentation we have for many Swift features.…",
+      "author": "Ole Begemann",
+      "publishedAt": "2023-03-09T22:33:14.000Z"
+    },
+    {
+      "guid": "ole-begemann::https://oleb.net/2023/catch-error-code/",
+      "title": "Pattern matching on error codes",
+      "link": "https://oleb.net/2023/catch-error-code/",
+      "summary": "Foundation overloads the pattern matching operator ~= to enable matching against error codes in catch clauses.\ncatch clauses in Swift support pattern matching, using the same patterns you’d use in a case clause inside a switch or in an if case … statement. For example, to handle a file-not-found…",
+      "author": "Ole Begemann",
+      "publishedAt": "2023-02-27T19:32:22.000Z"
+    },
+    {
+      "guid": "ole-begemann::https://oleb.net/2023/double-fine-adventure/",
+      "title": "You should watch Double Fine Adventure",
+      "link": "https://oleb.net/2023/double-fine-adventure/",
+      "summary": "I know I’m almost a decade late to this party, but I’m probably not the only one, so here goes.\nDouble Fine Adventure was a wildly successful 2012 Kickstarter project to crowdfund the development of a point-and-click adventure game and, crucially, to document its development on video. The resulting…",
+      "author": "Ole Begemann",
+      "publishedAt": "2023-01-31T18:39:27.000Z"
+    },
+    {
+      "guid": "ole-begemann::https://oleb.net/2022/swiftui-view-lifecycle/",
+      "title": "Understanding SwiftUI view lifecycles",
+      "link": "https://oleb.net/2022/swiftui-view-lifecycle/",
+      "summary": "I wrote an app called SwiftUI View Lifecycle. The app allows you to observe how different SwiftUI constructs and containers affect a view’s lifecycle, including the lifetime of its state and when onAppear gets called. The code for the app is on GitHub. It can be built for iOS and macOS.\nThe view…",
+      "author": "Ole Begemann",
+      "publishedAt": "2022-12-15T20:52:46.000Z"
+    },
+    {
+      "guid": "ole-begemann::https://oleb.net/2022/clipped-hit-testing/",
+      "title": "clipped() doesn’t affect hit testing",
+      "link": "https://oleb.net/2022/clipped-hit-testing/",
+      "summary": "The clipped() modifier in SwiftUI clips a view to its bounds, hiding any out-of-bounds content. But note that clipping doesn’t affect hit testing; the clipped view can still receive taps/clicks outside the visible area.\nI tested this on iOS 16.1 and macOS 13.0.\nExample\nHere’s a 300×300 square,…",
+      "author": "Ole Begemann",
+      "publishedAt": "2022-11-24T18:30:58.000Z"
+    },
+    {
+      "guid": "ole-begemann::https://oleb.net/2022/animation-modifier-position/",
+      "title": "When .animation animates more (or less) than it’s supposed to",
+      "link": "https://oleb.net/2022/animation-modifier-position/",
+      "summary": "On the positioning of the .animation modifier in the view tree, or: “Rendering” vs. “non-rendering” view modifiers\nThe documentation for SwiftUI’s animation modifier says:\nApplies the given animation to this view when the specified value changes.\nThis sounds unambiguous to me: it sets the animation…",
+      "author": "Ole Begemann",
+      "publishedAt": "2022-11-10T21:48:45.000Z"
+    },
+    {
+      "guid": "ole-begemann::https://oleb.net/2022/xcode-14-mac-concurrency-bugs/",
+      "title": "Xcode 14.0 generates wrong concurrency code for macOS targets",
+      "link": "https://oleb.net/2022/xcode-14-mac-concurrency-bugs/",
+      "summary": "Mac apps built with Xcode 14.0 and 14.0.1 may contain concurrency bugs because the Swift 5.7 compiler can generate invalid code when targeting the macOS 12.3 SDK. If you distribute Mac apps, you should build them with Xcode 13.4.1 until Xcode 14.1 is released.\nHere’s what happened:\nSwift 5.7…",
+      "author": "Ole Begemann",
+      "publishedAt": "2022-10-12T19:12:17.000Z"
+    },
+    {
+      "guid": "ole-begemann::https://oleb.net/2022/swiftui-task-mainactor/",
+      "title": "Where View.task gets its main-actor isolation from",
+      "link": "https://oleb.net/2022/swiftui-task-mainactor/",
+      "summary": "SwiftUI’s .task modifier inherits its actor context from the surrounding function. If you call .task inside a view’s body property, the async operation will run on the main actor because View.body is (semi-secretly) annotated with @MainActor. However, if you call .task from a helper property or…",
+      "author": "Ole Begemann",
+      "publishedAt": "2022-10-11T16:41:34.000Z"
+    },
+    {
+      "guid": "ole-begemann::https://oleb.net/2022/live-activity/",
+      "title": "Experimenting with Live Activities",
+      "link": "https://oleb.net/2022/live-activity/",
+      "summary": "iOS 16 beta 4 is the first SDK release that supports Live Activities. A Live Activity is a widget-like view an app can place on your lock screen and update in real time. Examples where this can be useful include live sports scores or train departure times.\nThese are my notes on playing with the API…",
+      "author": "Ole Begemann",
+      "publishedAt": "2022-08-03T16:50:39.000Z"
+    },
+    {
+      "guid": "ole-begemann::https://oleb.net/2022/how-mainactor-works/",
+      "title": "How @MainActor works",
+      "link": "https://oleb.net/2022/how-mainactor-works/",
+      "summary": "@MainActor is a Swift annotation to coerce a function to always run on the main thread and to enable the compiler to verify this. How does this work? In this article, I’m going to reimplement @MainActor in a slightly simplified form for illustration purposes, mainly to show how little “magic” there…",
+      "author": "Ole Begemann",
+      "publishedAt": "2022-05-05T13:52:42.000Z"
+    },
+    {
+      "guid": "ole-begemann::https://oleb.net/2022/attributedstring-codable/",
+      "title": "AttributedString’s Codable format and what it has to do with Unicode",
+      "link": "https://oleb.net/2022/attributedstring-codable/",
+      "summary": "Here’s a simple AttributedString with some formatting:\nimport Foundation\n\nlet str = try! AttributedString(\n  markdown: \"Café **Sol**\",\n  options: .init(interpretedSyntax: .inlineOnly)\n)\n\n\nAttributedString is Codable. If your task was to design the encoding format for an attributed string, what…",
+      "author": "Ole Begemann",
+      "publishedAt": "2022-04-27T13:28:03.000Z"
+    },
+    {
+      "guid": "ole-begemann::https://oleb.net/2022/heterogeneous-dictionary/",
+      "title": "A heterogeneous dictionary with strong types in Swift",
+      "link": "https://oleb.net/2022/heterogeneous-dictionary/",
+      "summary": "The environment in SwiftUI is sort of like a global dictionary but with stronger types: each key (represented by a key path) can have its own specific value type. For example, the \\.isEnabled key stores a boolean value, whereas the \\.font key stores an Optional<Font>.\nI wrote a custom dictionary…",
+      "author": "Ole Begemann",
+      "publishedAt": "2022-04-19T15:52:08.000Z"
+    },
+    {
+      "guid": "ole-begemann::https://oleb.net/2022/advanced-swift-5/",
+      "title": "Advanced Swift, fifth edition",
+      "link": "https://oleb.net/2022/advanced-swift-5/",
+      "summary": "We released the fifth edition of our book Advanced Swift a few days ago. You can buy the ebook on the objc.io site. The hardcover print edition is printed and sold by Amazon (amazon.com, amazon.co.uk, amazon.de).\nHighlights of the new edition:\nFully updated for Swift 5.6\nA new Concurrency chapter…",
+      "author": "Ole Begemann",
+      "publishedAt": "2022-03-28T14:03:30.000Z"
+    }
+  ],
+  "totalIndexed": 20
+}

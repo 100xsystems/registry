@@ -1,0 +1,133 @@
+{
+  "feedId": "stack-abuse",
+  "feedName": "Stack Abuse",
+  "feedSiteUrl": "http://www.stackabuse.com/",
+  "feedRssUrl": "https://stackabuse.com/rss/",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T07:09:47.000Z",
+  "items": [
+    {
+      "guid": "2145",
+      "title": "Building a Developer-Friendly App Stack for 2026",
+      "link": "https://stackabuse.com/building-a-developer-friendly-app-stack-for-2026/",
+      "summary": "Introduction\nApps are more complex than ever. You have more tools, APIs, and managed services than you can count, but all that convenience brings new challenges. Microservices sprawl, dependency chains, and flaky CI pipelines can turn simple updates into landmines. How do you scale without…",
+      "author": "Tammi Saayman",
+      "publishedAt": null
+    },
+    {
+      "guid": "2147",
+      "title": "How to Set Up a Staging-to-Production Deployment Workflow for a Website",
+      "link": "https://stackabuse.com/how-to-set-up-a-staging-to-production-deployment-workflow-for-a-website/",
+      "summary": "A website deployment should not feel like a risky final step. It should be a repeatable process that lets you test, review, approve, and release changes with fewer surprises. This is the main reason teams use a staging-to-production workflow.\nIn this setup, staging acts as a safe testing space,…",
+      "author": "Eada Hudes",
+      "publishedAt": "2026-05-22T20:09:07.000Z"
+    },
+    {
+      "guid": "2146",
+      "title": "AI-Powered Playwright: Building a Self-Healing CI/CD Testing Pipeline",
+      "link": "https://stackabuse.com/ai-powered-playwright-building-a-self-healing-ci-cd-testing-pipeline/",
+      "summary": "Test automation has always been a field that requires a lot of work. Quality assurance teams were often stuck in a cycle of fixing broken tests, maintaining scripts by hand, and updating locators in a way that wasn't reliable. As software release processes got shorter, this old way of doing",
+      "author": "Kanika Vatsyayan",
+      "publishedAt": "2026-03-20T09:40:45.000Z"
+    },
+    {
+      "guid": "2144",
+      "title": "Graph RAG: Elevating AI with Dynamic Knowledge Graphs",
+      "link": "https://stackabuse.com/graph-rag-elevating-ai-with-dynamic-knowledge-graphs/",
+      "summary": "Introduction\nIn the rapidly evolving landscape of Artificial Intelligence, Retrieval-Augmented Generation (RAG) has emerged as a pivotal technique for enhancing the factual accuracy and relevance of Large Language Models (LLMs). By enabling LLMs to retrieve information from external knowledge bases…",
+      "author": "Nitij Taneja",
+      "publishedAt": "2025-11-13T09:50:29.000Z"
+    },
+    {
+      "guid": "2143",
+      "title": "Federated Learning Explained: Collaborative AI Without Data Sharing",
+      "link": "https://stackabuse.com/federated-learning-explained-collaborative-ai-without-data-sharing/",
+      "summary": "Introduction\nIn an era where data privacy is paramount and artificial intelligence continues to advance at an unprecedented pace, Federated Learning (FL) has emerged as a revolutionary paradigm. This innovative approach allows multiple entities to collaboratively train a shared prediction model…",
+      "author": "Nitij Taneja",
+      "publishedAt": "2025-09-08T18:02:39.000Z"
+    },
+    {
+      "guid": "2141",
+      "title": "OTP Authentication in Laravel & Vue.js for Secure Transactions",
+      "link": "https://stackabuse.com/otp-authentication-in-laravel-vue-js-for-secure-transactions/",
+      "summary": "Introduction\nIn today’s digital world, security is paramount, especially when dealing with sensitive data like user authentication and financial transactions. One of the most effective ways to enhance security is by implementing One-Time Password (OTP) authentication. This article explores how to…",
+      "author": "Ojekudo Oghenemaro Emmanuel",
+      "publishedAt": "2025-04-20T08:04:07.000Z"
+    },
+    {
+      "guid": "2134",
+      "title": "Securing Your Email Sending With Python: Authentication and Encryption",
+      "link": "https://stackabuse.com/securing-your-email-sending-with-python-authentication-and-encryption/",
+      "summary": "Email encryption and authentication are modern security techniques that you can use to protect your emails and their content from unauthorized access.\nEveryone, from individuals to business owners, uses emails for official communication, which may contain sensitive information. Therefore, securing…",
+      "author": "Ivan Djuric",
+      "publishedAt": "2024-09-19T02:29:13.000Z"
+    },
+    {
+      "guid": "2133",
+      "title": "Using Proxies in Web Scraping – All You Need to Know",
+      "link": "https://stackabuse.com/using-proxies-in-web-scraping-all-you-need-to-know/",
+      "summary": "Introduction\nWeb scraping typically refers to an automated process of collecting data from websites. On a high level, you're essentially making a bot that visits a website, detects the data you're interested in, and then stores it into some appropriate data structure, so you can easily analyze and…",
+      "author": "Leonardo Rodriguez",
+      "publishedAt": "2024-09-12T13:23:00.000Z"
+    },
+    {
+      "guid": "2132",
+      "title": "Building Custom Email Templates with HTML and CSS in Python",
+      "link": "https://stackabuse.com/building-custom-email-templates-with-html-and-css-in-python/",
+      "summary": "An HTML email utilizes HTML code for presentation. Its design is heavy and looks like a modern web page, rich with visual elements like images, videos, etc., to emphasize different parts of an email's content.\nBuilding email templates tailored to your brand is useful for various email marketing…",
+      "author": "Ivan Djuric",
+      "publishedAt": "2024-08-20T19:04:44.000Z"
+    },
+    {
+      "guid": "2131",
+      "title": "Changelog",
+      "link": "https://stackabuse.com/changelog/",
+      "summary": "August 2024\nAugust 16, 2024:\nAdded Changelog page.\nAdded feedback modal to tool pages.\nAugust 14, 2024:\nAuto-save tool settings in local storage.\nAugust 13, 2024:\nFixed logic for displaying login/signup buttons in nav.\nAdded captcha to newsletter signup.\nAugust 2, 2024:\nAdded LD+JSON schema markup…",
+      "author": "Scott Robinson",
+      "publishedAt": "2024-08-17T03:36:14.000Z"
+    },
+    {
+      "guid": "2129",
+      "title": "Gracefully Handling Third Party API Failures",
+      "link": "https://stackabuse.com/gracefully-handling-third-party-api-failures/",
+      "summary": "Software isn't what it used to be. That's not necessarily a bad thing, but it does come with its own set of challenges. In the past, if you wanted to build a feature, you'd have to build it from scratch, without AI 😱 Fast forward from the dark ages of just",
+      "author": "Scott Robinson",
+      "publishedAt": "2024-06-13T20:50:59.000Z"
+    },
+    {
+      "guid": "2128",
+      "title": "Simplify Regular Expressions with RegExpBuilderJS",
+      "link": "https://stackabuse.com/simplify-regular-expressions-with-regexpbuilderjs/",
+      "summary": "Regular expressions are on of the most powerful tools in a developer's toolkit. But let's be honest, regex kind of sucks to write. Not only is it hard to write, but it's also hard to read and debug too. So how can we make it easier to use?\nIn its",
+      "author": "Scott Robinson",
+      "publishedAt": "2024-06-06T18:37:25.000Z"
+    },
+    {
+      "guid": "2126",
+      "title": "Guide to Strings in Python",
+      "link": "https://stackabuse.com/guide-to-strings-in-python/",
+      "summary": "A string in Python is a sequence of characters. These characters can be letters, numbers, symbols, or whitespace, and they are enclosed within quotes. Python supports both single (' ') and double (\" \") quotes to define a string, providing flexibility based on the coder's preference or specific…",
+      "author": "Dimitrije Stamenic",
+      "publishedAt": "2024-01-25T19:10:44.000Z"
+    },
+    {
+      "guid": "2125",
+      "title": "Behind the Scenes: Never Trust User Input",
+      "link": "https://stackabuse.com/behind-the-scenes-never-trust-user-input/",
+      "summary": "This article is the first in a series of posts I'm writing about running various SaaS products and websites for the last 8 years. I'll be sharing some of the issues I've dealt with, lessons I've learned, mistakes I've made, and maybe a few things that went right. Let me",
+      "author": "Scott Robinson",
+      "publishedAt": "2023-12-14T19:27:59.000Z"
+    },
+    {
+      "guid": "2064",
+      "title": "Guide to Heaps in Python",
+      "link": "https://stackabuse.com/guide-to-heaps-in-python/",
+      "summary": "Explore the intricacies of heaps, a tree-based data structure adept at maintaining order and hierarchy. Dive into Python's' heapq module, offering a rich set of functionalities for managing dynamic data sets where priority elements are frequently accessed. Learn how heaps stand out in the world of…",
+      "author": "Dimitrije Stamenic",
+      "publishedAt": "2023-11-15T19:21:52.000Z"
+    }
+  ],
+  "totalIndexed": 15
+}

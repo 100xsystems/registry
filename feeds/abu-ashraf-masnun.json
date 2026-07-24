@@ -1,0 +1,93 @@
+{
+  "feedId": "abu-ashraf-masnun",
+  "feedName": "Abu Ashraf Masnun",
+  "feedSiteUrl": "http://masnun.com/",
+  "feedRssUrl": "https://masnun.com/feed",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T06:43:31.271Z",
+  "items": [
+    {
+      "guid": "https://masnun.com/?p=3549",
+      "title": "Building Which-Fuji: A Side Project for Fujifilm Camera Enthusiasts",
+      "link": "https://masnun.com/which-fuji-fujifilm-camera-recommendations/",
+      "summary": "I’ve been quietly working on a small side project for the last few weeks, and it’s finally at a point where I can share it properly. Which-Fuji is a tiny website I built to help people figure out which Fujifilm camera to buy. That’s it. No reviews, no affiliate spam, no walls of text — just […]\nThe…",
+      "author": "masnun",
+      "publishedAt": "2026-06-28T06:11:45.000Z"
+    },
+    {
+      "guid": "http://polyglot.ninja/?p=258",
+      "title": "Auto incrementing IDs for MongoDB",
+      "link": "https://masnun.com/auto-incrementing-ids-for-mongodb/",
+      "summary": "If you’re familiar with relational databases like MySQL or PostgreSQL, you’re probably also familiar with auto incrementing IDs. You select a primary key for a table and make it auto incrementing. Every row you insert afterwards, each of them gets a new ID, automatically incremented from the last…",
+      "author": "masnun",
+      "publishedAt": "2018-12-06T17:14:35.000Z"
+    },
+    {
+      "guid": "http://polyglot.ninja/?p=251",
+      "title": "API Star: Python 3 API Framework",
+      "link": "https://masnun.com/api-star-python-3-api-framework/",
+      "summary": "For building quick APIs in Python, I have mostly depended on Flask. Recently I came across a new API framework for Python 3 named “API Star” which seemed really interesting to me for several reasons. Firstly the framework embraces modern Python features like type hints and asyncio. And then it goes…",
+      "author": "masnun",
+      "publishedAt": "2018-02-03T14:46:17.000Z"
+    },
+    {
+      "guid": "http://polyglot.ninja/?p=244",
+      "title": "Getting Started with Pipenv",
+      "link": "https://masnun.com/pipenv-getting-started/",
+      "summary": "If you’re a Python developer, you probably know about pip and the different environment management solutions like virtualenv or venv. The pip tool is currently the standard way to install a Python package. Virtualenv has been a popular way of isolating Python environments for a long time. Pipenv…",
+      "author": "masnun",
+      "publishedAt": "2017-11-25T23:09:32.000Z"
+    },
+    {
+      "guid": "http://polyglot.ninja/?p=220",
+      "title": "Deploying A Flask based REST API to AWS Lambda (Serverless) using Zappa",
+      "link": "https://masnun.com/deploying-flask-based-rest-api-aws-lambda-serverless-using-zappa/",
+      "summary": "I have heard about AWS Lambda and all the cool things happening in the serverless world. I have also deployed Go functions using the Apex framework for serverless deployment. But recently I have started working on some Python projects again and decided to see how well the Python community is…",
+      "author": "masnun",
+      "publishedAt": "2017-11-24T15:41:25.000Z"
+    },
+    {
+      "guid": "http://polyglot.ninja/?p=214",
+      "title": "Golang: Interface",
+      "link": "https://masnun.com/golang-interface/",
+      "summary": "In Go or Golang, declaring an interface is pretty simple and easy. [crayon-6a62cfcabfa1a957966171/] We just defined an interface named Printer that required an implementer to have a method named Print which takes a string parameter and returns nothing. Interfaces are implemented implicitly in Go.…",
+      "author": "masnun",
+      "publishedAt": "2017-10-22T19:06:16.000Z"
+    },
+    {
+      "guid": "http://polyglot.ninja/?p=208",
+      "title": "Golang: Making HTTP Requests",
+      "link": "https://masnun.com/golang-making-http-requests/",
+      "summary": "Go aka Golang is a very promising programming language with a lot of potential. It’s very performant, easy to grasp and maintain, productive and backed by Google. In our earlier posts, we have tried to provide guidelines to learn Go and later we saw how to work with JSON in Go. In this blog post,…",
+      "author": "masnun",
+      "publishedAt": "2017-10-22T12:54:08.000Z"
+    },
+    {
+      "guid": "http://polyglot.ninja/?p=202",
+      "title": "Proxy in JavaScript",
+      "link": "https://masnun.com/javascript-proxy/",
+      "summary": "As we can already guess from the name, a Proxy object works as a “proxy” to another object and allows us to customize the behavior of the said object in certain ways. Let’s say you have an obj named awesomeAPI which has some properties and methods. You want to “trap” any calls to the object. May…",
+      "author": "masnun",
+      "publishedAt": "2017-08-21T01:00:14.000Z"
+    },
+    {
+      "guid": "http://polyglot.ninja/?p=196",
+      "title": "Promises in JavaScript",
+      "link": "https://masnun.com/promises-in-javascript/",
+      "summary": "We encounter promises in real life every now and then. You have promised to deliver that project within the next week. Your friend has promised to play Overwatch with you tonight. If you think about it, promises are everywhere around us. Promises in JavaScript also play similar roles. A Promise…",
+      "author": "masnun",
+      "publishedAt": "2017-08-11T10:33:42.000Z"
+    },
+    {
+      "guid": "http://polyglot.ninja/?p=193",
+      "title": "REST API with KoaJS and MongoDB (Part – 3)",
+      "link": "https://masnun.com/rest-api-koajs-mongodb-part-3/",
+      "summary": "In Part -1 of this series, we saw how we can get started with KoaJS and in Part – 2 we built CRUD endpoints with MongoDB. In this part, we’re going to work with authentication. We will be using JSON Web Tokens aka JWT for the auth part. We have written detailed pieces on JWT before. You […]\nThe…",
+      "author": "masnun",
+      "publishedAt": "2017-08-09T09:47:16.000Z"
+    }
+  ],
+  "totalIndexed": 10
+}

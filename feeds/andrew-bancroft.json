@@ -1,0 +1,413 @@
+{
+  "feedId": "andrew-bancroft",
+  "feedName": "Andrew Bancroft",
+  "feedSiteUrl": "http://www.andrewcbancroft.com/",
+  "feedRssUrl": "https://www.andrewcbancroft.com/index.xml",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T06:41:23.471Z",
+  "items": [
+    {
+      "guid": "https://www.andrewcbancroft.com/blog/ai/how-i-learned-to-copy-and-paste/",
+      "title": "How I Learned to Copy and Paste, and Why I Never Do",
+      "link": "https://www.andrewcbancroft.com/blog/ai/how-i-learned-to-copy-and-paste/",
+      "summary": "It was the mid 1990s and I was about thirteen. These were the days of Netscape Navigator and internet connections that made sound (if you know, you know) and delivered web pages slower than molasses flowin’ up hill on a cold winter’s day. So… the pages were simple. And I had a Star Wars fan page I…",
+      "author": null,
+      "publishedAt": "2026-07-22T14:00:00.000Z"
+    },
+    {
+      "guid": "https://www.andrewcbancroft.com/blog/musings/download-macos-beta-installer/",
+      "title": "Download macOS Beta Installer",
+      "link": "https://www.andrewcbancroft.com/blog/musings/download-macos-beta-installer/",
+      "summary": "When you log into the Apple Developer portal, you can easily download a restore image (ipsw file) for beta versions of macOS, but it’s not helpful if you want to install macOS on a separate volume on your existing Mac.\nThe actual macOS installer is much more useful. The only issue is that it’s not…",
+      "author": null,
+      "publishedAt": "2024-06-16T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.andrewcbancroft.com/pluralsight/2024-04-08-swiftui-fundamentals/",
+      "title": "SwiftUI Fundamentals",
+      "link": "https://www.andrewcbancroft.com/pluralsight/2024-04-08-swiftui-fundamentals/",
+      "summary": "Developing for iOS is a valuable and in-demand skill, but if you haven’t developed in the Apple world before, it can be surprisingly different.\nIn this course, SwiftUI Fundamentals, you’ll quickly get up and running using Xcode 15, Swift, and SwiftUI to establish the foundational skills you need to…",
+      "author": null,
+      "publishedAt": "2024-04-08T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.andrewcbancroft.com/pluralsight/2023-12-10-ios-17-fundamentals/",
+      "title": "iOS 17 Fundamentals",
+      "link": "https://www.andrewcbancroft.com/pluralsight/2023-12-10-ios-17-fundamentals/",
+      "summary": "Developing for iOS is a valuable and in-demand skill, but it can be surprisingly different if you haven’t developed for Apple platforms before.\nIn this course, iOS 17 Fundamentals, you’ll quickly get up and running using Xcode 15, Swift 5, and SwiftUI to build great iOS apps and tap into the latest…",
+      "author": null,
+      "publishedAt": "2023-12-10T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.andrewcbancroft.com/blog/ios-development/data-persistence/pre-populate-swiftdata-persistent-store/",
+      "title": "Pre-populate a SwiftData Persistent Store",
+      "link": "https://www.andrewcbancroft.com/blog/ios-development/data-persistence/pre-populate-swiftdata-persistent-store/",
+      "summary": "Building Blocks\nThese three building blocks will get you there:\nA ModelContainer instance\nOne or more instances of your @Model class(es)\nInserting those model instances into your ModelContainer’s mainContext\nLet’s take those building blocks one at a time.\nInitialize a ModelContainer\nSuppose that…",
+      "author": null,
+      "publishedAt": "2023-06-15T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.andrewcbancroft.com/blog/ios-development/data-persistence/add-swift-data-to-existing-app/",
+      "title": "Add SwiftData to an Existing App",
+      "link": "https://www.andrewcbancroft.com/blog/ios-development/data-persistence/add-swift-data-to-existing-app/",
+      "summary": "System Configuration\nFirst things first: you need the following before you can get started with SwiftData…\nYou need to install Xcode 15 on your Mac.\nYou need to set your app’s minimum deployment target to macOS 14, iOS 17, tvOS 17, or watchOS 10.\nYour app needs to use SwiftUI – SwiftData does not…",
+      "author": null,
+      "publishedAt": "2023-06-08T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.andrewcbancroft.com/pluralsight/2021-08-22-building-ios-user-interfaces-swiftui/",
+      "title": "Building iOS User Interfaces with SwiftUI",
+      "link": "https://www.andrewcbancroft.com/pluralsight/2021-08-22-building-ios-user-interfaces-swiftui/",
+      "summary": "Designing efficient and dynamic apps is essential for taking your iOS developer skills to the next level.\nIn this course, Building iOS User Interfaces with SwiftUI, you’ll build upon the basic knowledge of iOS development you’ve already gained in order to build compelling iOS apps that engage your…",
+      "author": null,
+      "publishedAt": "2021-08-22T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.andrewcbancroft.com/blog/ios-development/swift-five/swift-five-2021-02-14/",
+      "title": "Swift Five - Week of February 14, 2021",
+      "link": "https://www.andrewcbancroft.com/blog/ios-development/swift-five/swift-five-2021-02-14/",
+      "summary": "Persistence prevails: Dave shares his iOS developer journey\nAfter watching Dave Jacobsen’s story on YouTube, I found myself asking, “When would I have given up if I were in Dave’s shoes?”\nHe shares about the sobering reality of how much effort and dedication it really takes to transition careers.…",
+      "author": null,
+      "publishedAt": "2021-02-14T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.andrewcbancroft.com/blog/ios-development/xcode/how-to-download-old-versions-of-xcode/",
+      "title": "How to Download Old Versions of Xcode",
+      "link": "https://www.andrewcbancroft.com/blog/ios-development/xcode/how-to-download-old-versions-of-xcode/",
+      "summary": "Whyyy would I need an old version of Xcode?\nValid question – it’s not often you’ll need one.  Two reasons off the top of my head though:\n1) To compare with your previous experience\nPerhaps you’re just wanting to see what things “used to be like”.\nMaybe you’re struggling with the infamous “this code…",
+      "author": null,
+      "publishedAt": "2020-12-09T04:21:19.000Z"
+    },
+    {
+      "guid": "https://www.andrewcbancroft.com/pluralsight/2020-12-04-ios-14-getting-started/",
+      "title": "iOS 14 Getting Started",
+      "link": "https://www.andrewcbancroft.com/pluralsight/2020-12-04-ios-14-getting-started/",
+      "summary": "Developing for iOS is a valuable and in-demand skill, but if you haven’t developed in the Apple world before, it can be surprisingly different.\nIn this course, iOS 14: Getting Started, you’ll quickly get up and running using Xcode 12, Swift 5, and SwiftUI to build great iOS apps and tap into the…",
+      "author": null,
+      "publishedAt": "2020-12-04T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.andrewcbancroft.com/blog/ios-development/ui-work/swiftui-what-environment-keys-possible/",
+      "title": "What Are All of the Possible Environment Keys in SwiftUI?",
+      "link": "https://www.andrewcbancroft.com/blog/ios-development/ui-work/swiftui-what-environment-keys-possible/",
+      "summary": "This is merely a breadcrumb for finding the Apple Developer documentation page where all of the possible SwiftUI Environment keys are listed.\n\n Apple Documentation ➡️ SwiftUI ➡️ State and Data Flow ➡️ EnvironmentValues",
+      "author": null,
+      "publishedAt": "2020-09-08T05:11:48.000Z"
+    },
+    {
+      "guid": "https://www.andrewcbancroft.com/blog/musings/wwdc-worldwide-developer-community/",
+      "title": "WWDC - The Worldwide Developer Community",
+      "link": "https://www.andrewcbancroft.com/blog/musings/wwdc-worldwide-developer-community/",
+      "summary": "June is an invigorating time for iOS developers worldwide.\nInvigorating…  And exhausting.\nMe personally?  The flurry of new-ness often has me feeling overwhelmed.\nWWDC - The Worldwide Developer Chase\nWhen it comes time for WWDC, are you like me?  Do you conjure up a mental image of a race?\nIt’s as…",
+      "author": null,
+      "publishedAt": "2020-06-29T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.andrewcbancroft.com/blog/ios-development/iap/storekit-testing-swift-start/",
+      "title": "StoreKit Testing Swift Start",
+      "link": "https://www.andrewcbancroft.com/blog/ios-development/iap/storekit-testing-swift-start/",
+      "summary": "Manually Testing StoreKit Code\nDevelopment Workflow Changes\nThe previous workflow for setting up in-app purchases was a bit disjointed.\nYou’d have to create your app in Xcode… then jump out to App Store Connect to define your app there… set up your digital products there (in App Store Connect)… and…",
+      "author": null,
+      "publishedAt": "2020-06-25T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.andrewcbancroft.com/pluralsight/2020-06-15-implementing-in-app-purchases-on-ios/",
+      "title": "Implementing In-App Purchases on iOS",
+      "link": "https://www.andrewcbancroft.com/pluralsight/2020-06-15-implementing-in-app-purchases-on-ios/",
+      "summary": "Monetizing apps is challenging. In this course, Implementing In-App Purchases on iOS, you’ll learn to offer digital products and services directly within your app as in-app purchases.\n Implementing In-App Purchases on iOS\n \n    \nCourse Outline\nFirst, you’ll explore how to translate business…",
+      "author": null,
+      "publishedAt": "2020-06-09T10:03:33.000Z"
+    },
+    {
+      "guid": "https://www.andrewcbancroft.com/blog/ios-development/iap/ios-receipt-validation-understanding-troubleshooting-original-app-version-field/",
+      "title": "iOS Receipt Validation: Understanding and Troubleshooting the Original App Version Field",
+      "link": "https://www.andrewcbancroft.com/blog/ios-development/iap/ios-receipt-validation-understanding-troubleshooting-original-app-version-field/",
+      "summary": "Setting the stage with a use case for checking the original_application_version\nThe task appears to be simple.  Suppose that…\nYou have an existing app on the app store that’s currently at version 1.2\nYou want to shift to the “freemium” model by implementing in-app purchases starting with version…",
+      "author": null,
+      "publishedAt": "2020-02-05T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.andrewcbancroft.com/privacy/privacy-policy/",
+      "title": "Privacy Policy",
+      "link": "https://www.andrewcbancroft.com/privacy/privacy-policy/",
+      "summary": "Privacy Notice\nThis privacy notice discloses the privacy practices for and applies solely to information collected by the following websites and apps (SERVICE):\nwww.andrewcbancroft.com\nTen Read Ten Said\nThis page is used to inform website visitors regarding our policies with the collection, use,…",
+      "author": null,
+      "publishedAt": "2020-01-27T07:53:49.000Z"
+    },
+    {
+      "guid": "https://www.andrewcbancroft.com/blog/ios-development/debugging/reasons-your-ios-app-is-crashing/",
+      "title": "4 Reasons Your iOS App Is Crashing",
+      "link": "https://www.andrewcbancroft.com/blog/ios-development/debugging/reasons-your-ios-app-is-crashing/",
+      "summary": "CPU cannot execute an instruction\nSometimes we developers don’t play fair with the CPU.\nSuppose that I wrote some code that ended up telling the CPU to divide by zero.\nThat’s… impossible… for you and the CPU.\niOS is ensuring its own stability\niOS may be enforcing a fundamental requirement or policy…",
+      "author": null,
+      "publishedAt": "2020-01-25T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.andrewcbancroft.com/blog/ios-development/debugging/4-things-never-do-when-debugging-ios-apps/",
+      "title": "4 Things You Should Never Do When Debugging iOS Apps",
+      "link": "https://www.andrewcbancroft.com/blog/ios-development/debugging/4-things-never-do-when-debugging-ios-apps/",
+      "summary": "Never change code without reproducing the problem first\nReproducing the problem is a critical first step in debugging.\nBefore you start scouring your code…\nBefore you start setting breakpoints…\nBefore you start using tools or changing things…\nSee if you can cause the bug to happen again.\nThe goal…",
+      "author": null,
+      "publishedAt": "2020-01-16T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.andrewcbancroft.com/blog/ios-development/debugging/what-is-debugging/",
+      "title": "What Is Debugging (And What Isn't)?",
+      "link": "https://www.andrewcbancroft.com/blog/ios-development/debugging/what-is-debugging/",
+      "summary": "Does it ever help you to narrow the scope of overwhelming topics like “debugging”?\nIt helps me.\nWhen you’re new to something like iOS development, you may find yourself stepping into a world of problems.  Everyone around you is always fixing something it seems!\nAll kinds of problems can happen when…",
+      "author": null,
+      "publishedAt": "2019-12-30T03:11:48.000Z"
+    },
+    {
+      "guid": "https://www.andrewcbancroft.com/pluralsight/2019-12-26-ios-debugging-fundamentals/",
+      "title": "iOS Debugging Fundamentals",
+      "link": "https://www.andrewcbancroft.com/pluralsight/2019-12-26-ios-debugging-fundamentals/",
+      "summary": "Bugs are bound to happen. Getting rid of them is an essential skill if you want to keep your sanity when building apps.\nIn this course, you will learn a set of thinking skills to couple with the fundamental tools that Xcode provides you for finding and fixing flaws in your apps.\n🐞1.5 hours\n🦟To…",
+      "author": null,
+      "publishedAt": "2019-12-26T10:03:33.000Z"
+    },
+    {
+      "guid": "https://www.andrewcbancroft.com/blog/ios-development/data-persistence/how-to-use-fetchrequest-swiftui/",
+      "title": "How to Use @FetchRequest in SwiftUI",
+      "link": "https://www.andrewcbancroft.com/blog/ios-development/data-persistence/how-to-use-fetchrequest-swiftui/",
+      "summary": "Once you’ve passed an NSManagedObjectContext instance to your SwiftUI View, you’ll need to pull data out of your Core Data persistent store with a fetch request.\nFirst Things First\nThe remainder of this how-to assumes that you’ve already got a way to initialize the Core Data stack. Ticking the ‘Use…",
+      "author": null,
+      "publishedAt": "2019-08-03T03:11:48.000Z"
+    },
+    {
+      "guid": "https://www.andrewcbancroft.com/blog/ios-development/data-persistence/passing-nsmanagedobjectcontext-to-swiftui-view/",
+      "title": "How to Pass NSManagedObjectContext to a SwiftUI View",
+      "link": "https://www.andrewcbancroft.com/blog/ios-development/data-persistence/passing-nsmanagedobjectcontext-to-swiftui-view/",
+      "summary": "Step one to using Core Data with SwiftUI is to initialize the Core Data stack and pass an instance of your NSManagedObjectContext to your view.\nFirst Things First\nThe remainder of this how-to assumes that you’ve already got a way to initialize the Core Data stack. Ticking the ‘Use Core Data’…",
+      "author": null,
+      "publishedAt": "2019-08-02T03:11:48.000Z"
+    },
+    {
+      "guid": "https://www.andrewcbancroft.com/blog/ios-development/data-persistence/using-core-data-with-swiftui-introduction/",
+      "title": "Using Core Data With SwiftUI - An Introduction",
+      "link": "https://www.andrewcbancroft.com/blog/ios-development/data-persistence/using-core-data-with-swiftui-introduction/",
+      "summary": "How does Apple intend for us to use Core Data with SwiftUI?\nThey gave us a path forward with the most recent beta release of iOS 13 (Beta 5 at the time of this writing)!\n\n  Blog Idea List SwiftUI Example Xcode Project\n\n\n Data Flow Through SwiftUI - WWDC 2019 Session 226\n\n\n\nFirst Things First\nTo…",
+      "author": null,
+      "publishedAt": "2019-07-31T04:40:54.000Z"
+    },
+    {
+      "guid": "https://www.andrewcbancroft.com/blog/ios-development/data-persistence/nspersistentcloudkitcontainer-buggy-behavior-list/",
+      "title": "NSPersistentCloudKitContainer Buggy Behavior List",
+      "link": "https://www.andrewcbancroft.com/blog/ios-development/data-persistence/nspersistentcloudkitcontainer-buggy-behavior-list/",
+      "summary": "NSPersistentCloudKitContainer is brand new with Xcode 11 and iOS 13.\nIt works… kind of… sometimes…\nI’m keeping this list of buggy behavior to help keep my head straight.  I’ve also filed bug reports on each.\nHopefully others in the iOS community who are experimenting with…",
+      "author": null,
+      "publishedAt": "2019-07-11T04:40:54.000Z"
+    },
+    {
+      "guid": "https://www.andrewcbancroft.com/blog/ios-development/ui-work/swiftui-essentials-playgrounds/",
+      "title": "Apple's SwiftUI Essentials Tutorial Series as Playgrounds",
+      "link": "https://www.andrewcbancroft.com/blog/ios-development/ui-work/swiftui-essentials-playgrounds/",
+      "summary": "SwiftUI Essentials Tutorials as Playgrounds\n\n\n Apple's SwiftUI tutorials\n\n\n\nWhy Playgrounds?\nI’ve been making my way through Apple’s SwiftUI tutorials.\nIf you’re anything like me, you learn by tinkering with things. Change the modifiers, reposition Text, use a different Image, and see what happens.…",
+      "author": null,
+      "publishedAt": "2019-07-06T03:11:48.000Z"
+    },
+    {
+      "guid": "https://www.andrewcbancroft.com/blog/ios-development/swift-language-notes/why-is-abi-stability-a-big-deal/",
+      "title": "Why is Swift ABI Stability a Big Deal?",
+      "link": "https://www.andrewcbancroft.com/blog/ios-development/swift-language-notes/why-is-abi-stability-a-big-deal/",
+      "summary": "Imagine writing some Swift code.  You want to share it across multiple apps, so you build a framework.  You compile it with the Swift 4.0 compiler.\nNow imagine Apple announces Swift 4.1.  Sweet!  You decide to build a new app and compile it with the Swift 4.1 compiler.\nAh, but your apps needs some…",
+      "author": null,
+      "publishedAt": "2019-06-21T04:40:54.000Z"
+    },
+    {
+      "guid": "https://www.andrewcbancroft.com/blog/musings/make-bash-script-executable/",
+      "title": "Make a Bash Script Executable",
+      "link": "https://www.andrewcbancroft.com/blog/musings/make-bash-script-executable/",
+      "summary": "If you constantly run the same set of commands at the command line, why not automate that?\nI found myself typing the same things over and over to deploy this website.  Here’s how I encapsulated it into a script that saves me keystrokes at the command line.\n1) Create a new text file with a .sh…",
+      "author": null,
+      "publishedAt": "2019-06-21T04:40:54.000Z"
+    },
+    {
+      "guid": "https://www.andrewcbancroft.com/blog/ios-development/swift-language-notes/what-is-an-abi/",
+      "title": "What is an ABI",
+      "link": "https://www.andrewcbancroft.com/blog/ios-development/swift-language-notes/what-is-an-abi/",
+      "summary": "“ABI” stands for “Application Binary Interface”.\nThe word “interface” means the same as it does in other places where you hear the word.\nIf a human wants to interact with a computer, s/he needs a way to engage with it.  A user interface is the point where humans and computers communicate with one…",
+      "author": null,
+      "publishedAt": "2019-06-20T04:40:54.000Z"
+    },
+    {
+      "guid": "https://www.andrewcbancroft.com/blog/ios-development/data-persistence/how-smart-dumb-should-nsmanagedobjects-be/",
+      "title": "How Smart (Or Dumb?) Should NSManagedObjects Be?",
+      "link": "https://www.andrewcbancroft.com/blog/ios-development/data-persistence/how-smart-dumb-should-nsmanagedobjects-be/",
+      "summary": "Apps aren’t “dumb”.  Apps do things.  Smart things.  The question is:  Where do the “smart parts” go?\nSo how you smart or how dumb should NSManagedObject subclasses be?\nWhat code should you write in one of these? What should you not?\nTLDR;\nKeep NSManagedObjects about Core Data-y things.\nAsk, “Does…",
+      "author": null,
+      "publishedAt": "2019-06-19T04:40:54.000Z"
+    },
+    {
+      "guid": "https://www.andrewcbancroft.com/blog/ios-development/data-persistence/on-core-data-object-fetching-and-display-strategies/",
+      "title": "On Core Data Object Fetching and Display Strategies",
+      "link": "https://www.andrewcbancroft.com/blog/ios-development/data-persistence/on-core-data-object-fetching-and-display-strategies/",
+      "summary": "Setting the Stage\nSuppose one of the NSManagedObject subclasses from your Core Data data model looked like this:\n\n\n1\n2\n3\n4\n5\n6\n\n\n\npublic class BlogIdea: NSManagedObject {\n\n    @NSManaged public var ideaTitle: String?\n    @NSManaged public var ideaDescription: String?\n\n}\n\n\n\n\nSuppose that you also…",
+      "author": null,
+      "publishedAt": "2019-06-14T04:40:54.000Z"
+    },
+    {
+      "guid": "https://www.andrewcbancroft.com/blog/ios-development/ui-work/using-swiftui-in-playground/",
+      "title": "Using SwiftUI in a Playground",
+      "link": "https://www.andrewcbancroft.com/blog/ios-development/ui-work/using-swiftui-in-playground/",
+      "summary": "If you’re looking for a quicker way to iterate while you’re building SwiftUI views, and you don’t have macOS Catalina installed, you might enjoy the Playground experience more than you enjoy pressing command + R every time you make a change and want to see it in the user interface.\nHow do you do…",
+      "author": null,
+      "publishedAt": "2019-06-13T04:00:18.000Z"
+    },
+    {
+      "guid": "https://www.andrewcbancroft.com/blog/ios-development/data-persistence/getting-started-with-nspersistentcloudkitcontainer/",
+      "title": "Getting Started With NSPersistentCloudKitContainer",
+      "link": "https://www.andrewcbancroft.com/blog/ios-development/data-persistence/getting-started-with-nspersistentcloudkitcontainer/",
+      "summary": "First Things First\nIn order to use NSPersistentCloudKitContainer in your app, you need to be targeting iOS 13+.\nThe CloudKit syncing portion only works on physical devices (not in the simulator).  That being the case, you’ll need two or more devices running the app and using the same iCloud account…",
+      "author": null,
+      "publishedAt": "2019-06-11T04:40:54.000Z"
+    },
+    {
+      "guid": "https://www.andrewcbancroft.com/blog/ios-development/ui-work/accessing-root-view-controller-ios13-scenedelegate/",
+      "title": "Accessing the Root View Controller at Launch on iOS 13 with SceneDelegate",
+      "link": "https://www.andrewcbancroft.com/blog/ios-development/ui-work/accessing-root-view-controller-ios13-scenedelegate/",
+      "summary": "A new SceneDelegate was introduced for Storyboard-based apps in iOS 13, and with it came some changes in how you’re able to access your app’s root view controller at app launch.\nThe Old Way\nAppDelegate Swift file used to be where code landed for accessing your app’s rootViewController:\n1    func…",
+      "author": null,
+      "publishedAt": "2019-06-07T18:20:41.000Z"
+    },
+    {
+      "guid": "https://www.andrewcbancroft.com/blog/ios-development/xcode/new-delights-with-xcode-11/",
+      "title": "New Delights With Xcode 11",
+      "link": "https://www.andrewcbancroft.com/blog/ios-development/xcode/new-delights-with-xcode-11/",
+      "summary": "Capabilities Search\nIn your project settings, you can search for capabilities you want to add (instead of scrolling down the list and turning things “on” or “off”).\n\nEditor Quick Actions\nHolding the command key down while mousing over and clicking on various levels of your code presents a quick…",
+      "author": null,
+      "publishedAt": "2019-06-07T04:21:19.000Z"
+    },
+    {
+      "guid": "https://www.andrewcbancroft.com/blog/ios-development/data-persistence/resolving-core-data-failed-to-load-model-named/",
+      "title": "Resolving Failed to Load Model Named... with Core Data",
+      "link": "https://www.andrewcbancroft.com/blog/ios-development/data-persistence/resolving-core-data-failed-to-load-model-named/",
+      "summary": "You’ve done the work to get your Core Data model ready, but right when you hit run, wham.  Your debug output log shows:\nFailed to load model named ModelName\nYou you may experience one of these when you attempt to access your persistent container:\nFatal error: Unexpectedly found nil while implicitly…",
+      "author": null,
+      "publishedAt": "2019-06-06T04:40:54.000Z"
+    },
+    {
+      "guid": "https://www.andrewcbancroft.com/blog/ios-development/data-persistence/first-impressions-of-nspersistentcloudkitcontainer/",
+      "title": "First Impressions of NSPersistentCloudKitContainer",
+      "link": "https://www.andrewcbancroft.com/blog/ios-development/data-persistence/first-impressions-of-nspersistentcloudkitcontainer/",
+      "summary": "Using Core Data With CloudKit - WWDC 2019 Session 202\n\n\n Sample Project from Apple\n\n\n\nHow NSPersistentCloudKitContainer Helps\nI suppose the first question everyone should ask is, “What’s the big deal?  How does NSPersistentCloudKitContainer even help me?”\nI noted at least three huge wins from the…",
+      "author": null,
+      "publishedAt": "2019-06-06T04:40:54.000Z"
+    },
+    {
+      "guid": "https://www.andrewcbancroft.com/blog/ios-development/ui-work/swiftui-what-does-declarative-mean/",
+      "title": "SwiftUI is Declarative.  What Does That Mean?",
+      "link": "https://www.andrewcbancroft.com/blog/ios-development/ui-work/swiftui-what-does-declarative-mean/",
+      "summary": "“Declarative” is one of Swift UI’s four core principles.\nAside from taking for granted that declarative is just “better” than whatever else, how about a visual to understand the declarative way of thinking?\nImagine yourself in a restaurant (sit-down or fast food, whichever).\nWhen you want a burger,…",
+      "author": null,
+      "publishedAt": "2019-06-04T03:11:48.000Z"
+    },
+    {
+      "guid": "https://www.andrewcbancroft.com/blog/ios-development/ui-work/taking-first-steps-with-swiftui/",
+      "title": "Taking First Steps With SwiftUI",
+      "link": "https://www.andrewcbancroft.com/blog/ios-development/ui-work/taking-first-steps-with-swiftui/",
+      "summary": "Tutorial Reference\n\n\n\nEnabling SwiftUI\nOpting in to using SwiftUI is as easy as creating a new project with Xcode 11 and clicking the “Use SwiftUI” checkbox.\n\nStarting Point\nXcode will give you two structs to start with:\nOne that describes the View’s content and layout\nOne that declares a preview…",
+      "author": null,
+      "publishedAt": "2019-06-03T03:11:48.000Z"
+    },
+    {
+      "guid": "https://www.andrewcbancroft.com/blog/ios-development/swift-how-tos/displaying-updating-currency-in-uilabel/",
+      "title": "Displaying and Updating Currency in a UILabel",
+      "link": "https://www.andrewcbancroft.com/blog/ios-development/swift-how-tos/displaying-updating-currency-in-uilabel/",
+      "summary": "Save as...\n\n\n\n Swift Playground\n\n\n\nSetup\n 1import UIKit\n 2import PlaygroundSupport\n 3\n 4class MyViewController : UIViewController {\n 5    \n 6    var currencyLabel = UILabel()\n 7    override func loadView() {\n 8        let view = UIView()\n 9        view.backgroundColor = .white\n10\n11…",
+      "author": null,
+      "publishedAt": "2019-06-01T04:31:49.000Z"
+    },
+    {
+      "guid": "https://www.andrewcbancroft.com/blog/data/data-engineering-r/load-csv-file-with-r-windows/",
+      "title": "Load a CSV File With R",
+      "link": "https://www.andrewcbancroft.com/blog/data/data-engineering-r/load-csv-file-with-r-windows/",
+      "summary": "Prerequisites\nNo additional R packages are necessary for this notebook to run\nCells in this notebook expect the Car Sales.csv file to be in certain locations; specifics are in the cell itself\nResources to help you practice are available at the end\nLoad Data From a CSV File\nFile is in the same…",
+      "author": null,
+      "publishedAt": "2019-05-29T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.andrewcbancroft.com/blog/ios-development/xcode/showing-live-view-in-swift-playground/",
+      "title": "Showing the Live View in a Swift Playground",
+      "link": "https://www.andrewcbancroft.com/blog/ios-development/xcode/showing-live-view-in-swift-playground/",
+      "summary": "Where’s the Live View?\nSo you’ve created a new Single View playground from the template picker…\n\nYou run the playground right out of the gate to see what you’ve got…\n\nBut… Where’s the Live View?\n\nShowing the Live View\nTo get the live view to show up, you need to open the Assitant Editor.\nYou can do…",
+      "author": null,
+      "publishedAt": "2019-05-28T05:06:19.000Z"
+    },
+    {
+      "guid": "https://www.andrewcbancroft.com/blog/data/data-engineering-python/difference-between-axis-0-axis-1-python-pandas/",
+      "title": "What is the Difference Between axis=0 and axis=1 When Working with Pandas Dataframes?",
+      "link": "https://www.andrewcbancroft.com/blog/data/data-engineering-python/difference-between-axis-0-axis-1-python-pandas/",
+      "summary": "Sometimes, functions ask you to specify an axis.  The documentation can often feel vague and/or technical.\nFor instance, here’s a quote from the apply function’s documentation:\naxis : {0 or ‘index’, 1 or ‘columns’}, default 0\nAxis along which the function is applied:\n0 or ‘index’: apply function to…",
+      "author": null,
+      "publishedAt": "2019-05-22T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.andrewcbancroft.com/blog/data/data-engineering-python/load-excel-file-with-python-pandas/",
+      "title": "Load an Excel File With Python and Pandas",
+      "link": "https://www.andrewcbancroft.com/blog/data/data-engineering-python/load-excel-file-with-python-pandas/",
+      "summary": "Save as...\n  \n Car Sales.xlsx\n    \n load-excel-file-with-python-pandas.ipynb\n    \nPrerequisites\nInstall the Pandas library for your Python environment\nCells in this notebook expect the Car Sales.xlsx file to be in certain locations; specifics are in the cell itself\nResources to help you practice…",
+      "author": null,
+      "publishedAt": "2019-05-22T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.andrewcbancroft.com/blog/data/data-engineering-python/load-csv-file-with-python-pandas/",
+      "title": "Load a CSV File With Python and Pandas",
+      "link": "https://www.andrewcbancroft.com/blog/data/data-engineering-python/load-csv-file-with-python-pandas/",
+      "summary": "Save as...\n  \n Car Sales.csv\n    \n load-csv-file-with-python-pandas.ipynb\n    \nPrerequisites\nInstall the Pandas library for your Python environment\nCells in this notebook expect the Car Sales.csv file to be in certain locations; specifics are in the cell itself\nResources to help you practice\nFirst…",
+      "author": null,
+      "publishedAt": "2019-05-22T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.andrewcbancroft.com/blog/data/jupyter-notebooks/cheat-sheet-jupyter-notebook-keyboard-shortcuts/",
+      "title": "Cheat Sheet - Jupyter Notebook Keyboard Shortcuts",
+      "link": "https://www.andrewcbancroft.com/blog/data/jupyter-notebooks/cheat-sheet-jupyter-notebook-keyboard-shortcuts/",
+      "summary": "Command Mode (Blue)\n\nShortcut\nWhat Happens\nh\n\n\nShows a pop-up window listing out all keyboard shortcuts\n\n\n\n\n\ncmd + shift + p (Mac)\nctrl + shift + p (Win)\n\n\nShows the Command Palette\n\n\n\n\n\nenter\n\n\nGoes into Edit Mode (green) for the currently selected cell\n\n\n\n\n\nctrl + enter\n\n\nRuns the selected cell…",
+      "author": null,
+      "publishedAt": "2019-05-21T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.andrewcbancroft.com/blog/data/sql-server/create-sql-server-credential-access-azure-blob-storage/",
+      "title": "Create a SQL Server Credential for Accessing Azure Blob Storage",
+      "link": "https://www.andrewcbancroft.com/blog/data/sql-server/create-sql-server-credential-access-azure-blob-storage/",
+      "summary": "Prerequisites:\nThe SqlServer PowerShell module must be installed.\n\nRun Install-Module -Name SqlServer if you need to install it…\ncreate-credential.ps1\n 1import-module SqlServer\n 2\n 3$storageAccount = \"<StorageAccountName>\"  #replace this with your Azure storage account name\n 4$storageKey =…",
+      "author": null,
+      "publishedAt": "2019-05-20T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.andrewcbancroft.com/blog/data/statistics/mnemonic-for-remembering-type-i-type-ii-errors/",
+      "title": "A Mnemonic for Remembering Type I vs Type II Errors",
+      "link": "https://www.andrewcbancroft.com/blog/data/statistics/mnemonic-for-remembering-type-i-type-ii-errors/",
+      "summary": "Step away from inferential statistics for a while and the interpretation of Type I and Type II errors in hypothesis testing could slip away.\nHow about a mnemonic to help solidify the concepts?\nTo frame the mnemonic, consider the following scenario:\nA man has been charged with murder and you’re on…",
+      "author": null,
+      "publishedAt": "2019-05-07T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.andrewcbancroft.com/2019/04/30/ios-data-persistence-the-big-picture/",
+      "title": "iOS Data Persistence: The Big Picture",
+      "link": "https://www.andrewcbancroft.com/2019/04/30/ios-data-persistence-the-big-picture/",
+      "summary": "We’ve all been there. Do a search on the topic of “saving data in iOS” and you’ll get dozens of search results mentioning at least six different frameworks and platforms, and a month’s worth of reading.\nWouldn’t it be nice to distill the possibilities down into just what you need in order to start…",
+      "author": null,
+      "publishedAt": "2019-04-30T10:03:33.000Z"
+    },
+    {
+      "guid": "https://www.andrewcbancroft.com/blog/data/r/what-is-tilde-operator-in-r/",
+      "title": "What is the tilde (~) symbol in R?",
+      "link": "https://www.andrewcbancroft.com/blog/data/r/what-is-tilde-operator-in-r/",
+      "summary": "What is the tilde (~) “symbol” in R?\nIf you were to put words to what it is, how would you explain it or interpret it?\nWhat does it mean (and therefore, what does it do)?\nHere, I document a few of the unpackings that I’ve run across when it comes to ~ in R.\nFrom the Docs:  “y on x”\nIn the…",
+      "author": null,
+      "publishedAt": "2019-04-30T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.andrewcbancroft.com/blog/data/azure/azure-stream-analytics-resolving-sample-no-events-found/",
+      "title": "Resolving No Events Found When Sampling Data with Azure Stream Analytics",
+      "link": "https://www.andrewcbancroft.com/blog/data/azure/azure-stream-analytics-resolving-sample-no-events-found/",
+      "summary": "Data is making it to the Event Hub…at least you’re 99% sure it is, because successful requests are being made by your app/device and received by the Hub.\nThe trouble is, when you attempt to sample data with Azure Stream Analytics, you come up empty with a message like\nNo events found for HubName.…",
+      "author": null,
+      "publishedAt": "2019-01-04T00:00:00.000Z"
+    }
+  ],
+  "totalIndexed": 50
+}

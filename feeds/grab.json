@@ -1,0 +1,93 @@
+{
+  "feedId": "grab",
+  "feedName": "Grab",
+  "feedSiteUrl": "http://engineering.grab.com/",
+  "feedRssUrl": "http://engineering.grab.com/feed.xml",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T06:50:40.888Z",
+  "items": [
+    {
+      "guid": "https://engineering.grab.com/how-grab-builds-and-runs-ai-agents-at-scale",
+      "title": "Agent platform (Part 1): How we help Grab build and run AI agents at scale",
+      "link": "https://engineering.grab.com/how-grab-builds-and-runs-ai-agents-at-scale",
+      "summary": "Part 1: From one support bot to a framework\nAt Grab, AI agents have evolved from interesting team prototypes into production services used every day by millions of merchants, drivers, and consumers. Today, more than 500 services run on our internal agent framework, over 50 Model Context Protocol…",
+      "author": null,
+      "publishedAt": "2026-07-24T00:00:10.000Z"
+    },
+    {
+      "guid": "https://engineering.grab.com/our-journey-to-apache-iceberg-adoption",
+      "title": "Scaling Grab's Data Lake: Our journey to Apache Iceberg adoption",
+      "link": "https://engineering.grab.com/our-journey-to-apache-iceberg-adoption",
+      "summary": "Introduction: The evolution of Grab’s Data Lake\nAt Grab’s scale, managing petabytes of data across billions of S3 objects demands more than a storage layer. It demands a robust architectural primitive that supports the high-concurrency needs of a modern “Lakehouse.” Our goal is full storage-compute…",
+      "author": null,
+      "publishedAt": "2026-07-10T00:00:00.000Z"
+    },
+    {
+      "guid": "https://engineering.grab.com/counter-service-storage-migration",
+      "title": "Migrating Counter Service storage: Design choices and learnings",
+      "link": "https://engineering.grab.com/counter-service-storage-migration",
+      "summary": "Introduction\nCounter Service is used across Grab’s anti-fraud platform to answer time-windowed count questions, such as recent ride requests by a user or failed payment attempts on a card. The service handles tens of thousands of queries per second (QPS) with about a billion requests per day, while…",
+      "author": null,
+      "publishedAt": "2026-07-03T00:00:00.000Z"
+    },
+    {
+      "guid": "https://engineering.grab.com/scaling-out-distroless-adoption-with-ai",
+      "title": "Scaling out Distroless adoption With AI",
+      "link": "https://engineering.grab.com/scaling-out-distroless-adoption-with-ai",
+      "summary": "Distroless adoption at Grab\nGrab is migrating from heavy base images to Distroless images to reduce security risks. By limiting each container to the application and its runtime dependencies, we shed non-essential binaries and associated Common Vulnerabilities and Exposures (CVEs).\nThis migration…",
+      "author": null,
+      "publishedAt": "2026-06-22T00:00:00.000Z"
+    },
+    {
+      "guid": "https://engineering.grab.com/part-2-palana-architecture",
+      "title": "Palana (Part 2): Architecting isolation, identity, and auditability for AI agents",
+      "link": "https://engineering.grab.com/part-2-palana-architecture",
+      "summary": "Introduction\nIn Part 1, we introduced Palana, Grab’s Kubernetes-native secure execution platform for autonomous AI agents. We discussed the underlying need for isolated environments and covered its core design principles: treating isolation as the unit of trust, keeping credentials out of agent…",
+      "author": null,
+      "publishedAt": "2026-06-21T00:00:00.000Z"
+    },
+    {
+      "guid": "https://engineering.grab.com/palana-part-1-secure-platform-for-ai-agents",
+      "title": "Palana (Part 1): Why Grab built a secure platform for autonomous AI Agents",
+      "link": "https://engineering.grab.com/palana-part-1-secure-platform-for-ai-agents",
+      "summary": "Abstract\nArtificial intelligence (AI) agents are moving from experiments into everyday engineering workflows. They can read code, call application programming interfaces (APIs), run tests, create merge requests, answer Slack messages, and keep long-running state. That makes them useful, but it also…",
+      "author": null,
+      "publishedAt": "2026-06-19T00:00:00.000Z"
+    },
+    {
+      "guid": "https://engineering.grab.com/evolving-documentation-strategy",
+      "title": "From decentralized Docs-as-Code to a centralized repository: Evolving Grab's documentation strategy",
+      "link": "https://engineering.grab.com/evolving-documentation-strategy",
+      "summary": "Introduction: The journey of documentation at Grab\nIn early 2021, Grab adopted a Docs-as-Code approach to address gaps in our technical documentation processes, as illustrated in our blog post Embracing a Docs-as-Code. Inspired by the practices of other market leaders, we integrated documentation…",
+      "author": null,
+      "publishedAt": "2026-05-29T00:00:00.000Z"
+    },
+    {
+      "guid": "https://engineering.grab.com/one-click-data-ingestion-platform-with-apache-flink",
+      "title": "The Hugo evolution: Engineering Grab's unified, one-click data ingestion platform with Apache Flink",
+      "link": "https://engineering.grab.com/one-click-data-ingestion-platform-with-apache-flink",
+      "summary": "Introduction\nData drives every decision we make at Grab. As our operations scale, so does our need for robust, real-time data ingestion and processing frameworks. Enter Hugo: our self-service data platform that has long empowered teams to seamlessly route data into our Data Lake. Today, Hugo is…",
+      "author": null,
+      "publishedAt": "2026-05-22T00:23:00.000Z"
+    },
+    {
+      "guid": "https://engineering.grab.com/how-we-improved-android-studio-in-large-monorepo",
+      "title": "Scaling developer experience: How we improved Android Studio in a large monorepo",
+      "link": "https://engineering.grab.com/how-we-improved-android-studio-in-large-monorepo",
+      "summary": "Introduction\nLong integrated development environment (IDE) sync/indexing times can quietly erode developer productivity, making code navigation sluggish, spiking memory usage, and slowing down Jetpack Compose preview updates, turning the IDE into a bottleneck rather than a helpful tool. For Android…",
+      "author": null,
+      "publishedAt": "2026-05-15T00:23:00.000Z"
+    },
+    {
+      "guid": "https://engineering.grab.com/enchancing-flink-shadow-testing",
+      "title": "Enhancing Flink deployment with shadow testing",
+      "link": "https://engineering.grab.com/enchancing-flink-shadow-testing",
+      "summary": "Introduction\nEnsuring the reliability of Apache Flink deployments in Grab is crucial for the availability of our business-critical, real-time applications. While all applications are tested in a staging environment before getting promoted to the production environment, there is still a class of…",
+      "author": null,
+      "publishedAt": "2026-05-07T00:23:00.000Z"
+    }
+  ],
+  "totalIndexed": 10
+}

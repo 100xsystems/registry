@@ -1,0 +1,133 @@
+{
+  "feedId": "localytics",
+  "feedName": "Localytics",
+  "feedSiteUrl": "http://eng.localytics.com/",
+  "feedRssUrl": "https://eng.localytics.com/rss/",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T06:58:44.283Z",
+  "items": [
+    {
+      "guid": "5e30631d4fcd4100174d7765",
+      "title": "Saving Money and Protecting Privacy With Bloom Filters",
+      "link": "https://eng.localytics.com/saving-money-protecting-privacy-with-bloom-filters/",
+      "summary": "The EU General Data Protection Regulation (GDPR) went into effect on May 25th, 2018 and stipulates that companies processing personally identifiable information (PII) must carry out requests from end users to be ‘forgotten’ from their systems. Implementing this right to be forgotten (RTBF) for our…",
+      "author": "Tristan Garwood",
+      "publishedAt": "2018-08-27T17:08:17.000Z"
+    },
+    {
+      "guid": "5e30631d4fcd4100174d7763",
+      "title": "Introducing Exploranda, a set of tools for exploring complex systems.",
+      "link": "https://eng.localytics.com/introducing-exploranda-a-set-of-tools-for-exploring-complex-systems/",
+      "summary": "At Localytics, data is central to our mission. One of our core principles is to \"lead with data.\" When I envision that, I often think of an analyst using graphs to make a case for a business decision, or a principal engineer using benchmarks to advocate for a",
+      "author": "Raphael Luckom",
+      "publishedAt": "2018-01-25T18:02:35.000Z"
+    },
+    {
+      "guid": "5e30631d4fcd4100174d7762",
+      "title": "Infrastructure As Code With humidifier-reservoir",
+      "link": "https://eng.localytics.com/infrastructure-as-code-with-humidifier-reservoir/",
+      "summary": "A little more than a year ago we made the first commit to the gem that eventually became humidifier. It’s evolved quite a bit in the last year, including integrating AWS’ resource specification which had the side-effect of greatly stabilizing the API. Here at Localytics, we&",
+      "author": "Kevin Deisz",
+      "publishedAt": "2017-08-23T20:00:09.000Z"
+    },
+    {
+      "guid": "5e30631d4fcd4100174d7760",
+      "title": "Connecting to Snowflake with Ruby on Rails",
+      "link": "https://eng.localytics.com/connecting-to-snowflake-with-ruby-on-rails/",
+      "summary": "At Localytics, one of the tools we use for data processing is the Snowflake data warehouse. We connect to Snowflake in a couple different ways, but our main data retrieval application is a Ruby on Rails API. To accomplish this we use a combination of unixODBC (an open-source implementation",
+      "author": "Kevin Deisz",
+      "publishedAt": "2017-06-09T14:53:09.000Z"
+    },
+    {
+      "guid": "5e30631d4fcd4100174d775f",
+      "title": "Cogito - Adding “I think” to “IAM”",
+      "link": "https://eng.localytics.com/cogito/",
+      "summary": "Today we are open-sourcing Cogito, an abstraction of AWS IAM syntax. IAM (Identity and Access Management) is AWS’s module that dictates the ability of various users and resources to mutate other resources within the AWS ecosystem. Permissions are described through a JSON-structured policy document…",
+      "author": "Kevin Deisz",
+      "publishedAt": "2017-06-07T16:43:12.000Z"
+    },
+    {
+      "guid": "5e30631d4fcd4100174d775e",
+      "title": "Faster Snowflake Queries through Clustering",
+      "link": "https://eng.localytics.com/faster-snowflake-queries-through-clustering/",
+      "summary": "At Localytics we have petabytes of data that needs to be served at low latencies and we use Snowflake in our mix of data processing technologies. Snowflake, like many other MPP databases, has a way of partitioning data to optimize read-time performance by allowing the query engine to prune",
+      "author": "Michal Klos",
+      "publishedAt": "2017-03-13T14:17:01.000Z"
+    },
+    {
+      "guid": "5e30631d4fcd4100174d775d",
+      "title": "ODBC and writing your own ActiveRecord adapter",
+      "link": "https://eng.localytics.com/odbc-and-writing-your-own-activerecord-adapter/",
+      "summary": "Today we are open-sourcing our ODBC adapter for ActiveRecord, which allows Ruby on Rails applications to communicate with ODBC-compliant databases. The impetus for this work was an effort to update one of our APIs to run with the latest Rails and ruby. Along the way we released Rails",
+      "author": "Kevin Deisz",
+      "publishedAt": "2017-03-07T22:08:02.000Z"
+    },
+    {
+      "guid": "5e30631d4fcd4100174d7759",
+      "title": "Reacting to Change",
+      "link": "https://eng.localytics.com/reacting-to-change/",
+      "summary": "If you sit quietly enough while reading this article you’ll hear a sound. It’s the faint tapping of fingers on a keyboard, off in the distance in parts unknown. Those self-assured fingers are putting together yet another think piece on JavaScript in this—the",
+      "author": "Nate Tenczar",
+      "publishedAt": "2017-02-02T20:33:59.000Z"
+    },
+    {
+      "guid": "5e30631d4fcd4100174d775c",
+      "title": "Best Practices and Common Mistakes with Travis CI",
+      "link": "https://eng.localytics.com/best-practices-and-common-mistakes-with-travis-ci/",
+      "summary": "What is Travis\nAt Localytics, we’ve worked hard to ensure that all of our services are built and deployed using our own internal best practices. One of those core best practices is that the service in question is using continuous integration (CI). CI greatly reduces the amount of",
+      "author": "Kevin Deisz",
+      "publishedAt": "2017-01-10T13:46:39.000Z"
+    },
+    {
+      "guid": "5e30631d4fcd4100174d775b",
+      "title": "Tweaking DynamoDB Tables for Fun and Profit",
+      "link": "https://eng.localytics.com/tweaking-dynamodb-tables/",
+      "summary": "Amazon’s DynamoDB is a great technology: it’s easy to set up and provides all the benefits of an infinitely scalable distributed database without the operational overhead. Unfortunately, DynamoDB can also be very expensive for high volume, high throughput storage. This post will show how we were",
+      "author": "Joanna Solmon",
+      "publishedAt": "2017-01-04T14:45:00.000Z"
+    },
+    {
+      "guid": "5e30631d4fcd4100174d775a",
+      "title": "Exploring CLI Best Practices",
+      "link": "https://eng.localytics.com/exploring-cli-best-practices/",
+      "summary": "At Localytics we build command line interfaces that manage our infrastructure and processes. This is our list of best practices that we’ve learned.",
+      "author": "Kevin Deisz",
+      "publishedAt": "2016-10-11T19:25:23.000Z"
+    },
+    {
+      "guid": "5e30631d4fcd4100174d7758",
+      "title": "Six Recipes for Software Managers",
+      "link": "https://eng.localytics.com/six-recipes-for-software-managers/",
+      "summary": "The engineering managers at Localytics have been working together for over a year, and through ups and downs, we’ve grown and learned a lot as a team.  The goal of this post is to share some of the lessons we’ve learned with the community.  Some of",
+      "author": "Adam Buggia",
+      "publishedAt": "2016-09-23T19:55:07.000Z"
+    },
+    {
+      "guid": "5e30631d4fcd4100174d7754",
+      "title": "When Things Go Wrong",
+      "link": "https://eng.localytics.com/when-things-go-wrong/",
+      "summary": "We believe the highest performing engineering teams have a process to identify, triage, fix and learn from service degradations and downtime. At Localytics, we build highly available and scalable systems, and part of the key to our success is learning from failures. One way we foster a learning…",
+      "author": "Tony Wieczorek",
+      "publishedAt": "2016-09-13T18:24:39.000Z"
+    },
+    {
+      "guid": "5e30631d4fcd4100174d7757",
+      "title": "Humidifier - CloudFormation made easier",
+      "link": "https://eng.localytics.com/humidifier-cloudformation-made-easier/",
+      "summary": "Today we are open-sourcing Humidifier - one of the tools that we use internally to manage infrastructure on Amazon Web Services (AWS) at Localytics. This Ruby gem allows you to programmatically generate domain objects that represent the AWS CloudFormation (CFN) resources you want, handling the…",
+      "author": "Kevin Deisz",
+      "publishedAt": "2016-06-20T17:19:11.000Z"
+    },
+    {
+      "guid": "5e30631d4fcd4100174d7756",
+      "title": "Testing AWS Scala Microservices",
+      "link": "https://eng.localytics.com/testing-aws-scala-microservices/",
+      "summary": "In January and February of this year we open sourced three SBT plugins that have had a huge impact on our ability to test our AWS based Scala microservices architecture:\nsbt-s3\nsbt-dynamodb\nsbt-sqs\nThis is our story.\nStop me if you've heard this one before.",
+      "author": "Ben Darfler",
+      "publishedAt": "2016-04-27T11:56:52.000Z"
+    }
+  ],
+  "totalIndexed": 15
+}

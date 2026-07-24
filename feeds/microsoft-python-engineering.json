@@ -1,0 +1,93 @@
+{
+  "feedId": "microsoft-python-engineering",
+  "feedName": "Microsoft Python Engineering",
+  "feedSiteUrl": "https://blogs.msdn.microsoft.com/pythonengineering/",
+  "feedRssUrl": "https://devblogs.microsoft.com/python/feed/",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T07:00:36.052Z",
+  "items": [
+    {
+      "guid": "https://devblogs.microsoft.com/python/?p=10321",
+      "title": "PyCon US 2026",
+      "link": "https://devblogs.microsoft.com/python/pycon-us-2026/",
+      "summary": "PyCon US 2026\nThe post PyCon US 2026 appeared first on Microsoft for Python Developers Blog.",
+      "author": "Vedha Ranganathan",
+      "publishedAt": "2026-05-14T00:18:13.000Z"
+    },
+    {
+      "guid": "https://devblogs.microsoft.com/python/?p=10301",
+      "title": "Introducing Apache Arrow Support in mssql-python",
+      "link": "https://devblogs.microsoft.com/python/introducing-apache-arrow-support-in-mssql-python/",
+      "summary": "Reviewed by Sumit Sarabhai Fetching a million rows from SQL Server into a Polars DataFrame used to mean a million Python objects, a million GC allocations, and then throwing it all away to build a DataFrame. Not anymore. mssql-python now supports fetching SQL Server data directly as Apache Arrow…",
+      "author": "Saumya Garg",
+      "publishedAt": "2026-05-04T04:33:00.000Z"
+    },
+    {
+      "guid": "https://devblogs.microsoft.com/python/?p=10297",
+      "title": "Python Environments Extension for VS Code- April Update",
+      "link": "https://devblogs.microsoft.com/python/python-in-visual-studio-code-april-2026-release/",
+      "summary": "The April 2026 release update includes the Python Environments extension... Keep on reading to learn more!\nThe post Python Environments Extension for VS Code- April Update appeared first on Microsoft for Python Developers Blog.",
+      "author": "Vedha Ranganathan",
+      "publishedAt": "2026-04-27T20:07:30.000Z"
+    },
+    {
+      "guid": "https://devblogs.microsoft.com/python/?p=10280",
+      "title": "Write SQL Your Way: Dual Parameter Style Benefits in mssql-python",
+      "link": "https://devblogs.microsoft.com/python/write-sql-your-way-dual-parameter-style-benefits-in-mssql-python/",
+      "summary": "Reviewed by: Sumit Sarabhai If you’ve been writing SQL in Python, you already know the debate: positional parameters (?) or named parameters (%(name)s)? Some developers swear by the conciseness of positional. Others prefer the clarity of named. With mssql-python, you no longer need to choose – we…",
+      "author": "Jahnvi Thakkar",
+      "publishedAt": "2026-04-07T16:12:05.000Z"
+    },
+    {
+      "guid": "https://devblogs.microsoft.com/python/?p=10276",
+      "title": "Python in Visual Studio Code – March 2026 Release",
+      "link": "https://devblogs.microsoft.com/python/python-in-visual-studio-code-march-2026-release/",
+      "summary": "The March 2026 release of the Python and Jupyter extensions for Visual Studio Code is now available. Keep on reading to learn more!\nThe post Python in Visual Studio Code – March 2026 Release appeared first on Microsoft for Python Developers Blog.",
+      "author": "Vedha Ranganathan",
+      "publishedAt": "2026-04-02T00:27:15.000Z"
+    },
+    {
+      "guid": "https://devblogs.microsoft.com/python/?p=10243",
+      "title": "Python Environments Extension for VS Code",
+      "link": "https://devblogs.microsoft.com/python/python-in-visual-studio-code-february-2026-release/",
+      "summary": "The February 2026 release  This release includes the Python Environments extension... Keep on reading to learn more!\nThe post Python Environments Extension for VS Code appeared first on Microsoft for Python Developers Blog.",
+      "author": "Vedha Ranganathan",
+      "publishedAt": "2026-02-18T22:00:22.000Z"
+    },
+    {
+      "guid": "https://devblogs.microsoft.com/python/?p=10225",
+      "title": "Python in Visual Studio Code – November 2025 Release",
+      "link": "https://devblogs.microsoft.com/python/python-in-visual-studio-code-november-2025-release/",
+      "summary": "The November 2025 release brings new Pylance features including improvements to Copilot Hover Summaries and a Code Action to convert wildcard imports to explicit imports. Keep on reading to learn more!\nThe post Python in Visual Studio Code – November 2025 Release appeared first on Microsoft for…",
+      "author": "Luciana Abud",
+      "publishedAt": "2025-11-13T18:41:50.000Z"
+    },
+    {
+      "guid": "https://devblogs.microsoft.com/python/?p=10209",
+      "title": "Python in Visual Studio Code – October 2025 Release",
+      "link": "https://devblogs.microsoft.com/python/python-in-visual-studio-code-october-2025-release/",
+      "summary": "The October 2025 release of the Python and Jupyter extensions for Visual Studio Code are now available. This release includes improvements to the Python Environments extension, Copy Test ID functionality, and enhanced environment activation when using Copilot Chat. Keep on reading to learn more!…",
+      "author": "Luciana Abud",
+      "publishedAt": "2025-10-10T17:55:26.000Z"
+    },
+    {
+      "guid": "https://devblogs.microsoft.com/python/?p=10158",
+      "title": "Simplifying Resource Management in mssql-python through Context Manager",
+      "link": "https://devblogs.microsoft.com/python/simplifying-resource-management-in-mssql-python-through-context-manager/",
+      "summary": "Reviewed by: Sumit Sarabhai and Gaurav Sharma If you’ve worked with databases in Python, you know the boilerplate: open a connection, create a cursor, run queries, commit or rollback transactions, close cursors and connection. Forgetting just one cleanup step can lead to resource leaks (open…",
+      "author": "Jahnvi Thakkar",
+      "publishedAt": "2025-09-26T09:49:51.000Z"
+    },
+    {
+      "guid": "https://devblogs.microsoft.com/python/?p=10141",
+      "title": "Python in Visual Studio Code – September 2025 Release",
+      "link": "https://devblogs.microsoft.com/python/python-in-visual-studio-code-september-2025-release/",
+      "summary": "The September 2025 release includes pipenv support in the Python Environment Extension, a new experimental hover feature with GitHub Copilot and Pylance, and more!\nThe post Python in Visual Studio Code – September 2025 Release appeared first on Microsoft for Python Developers Blog.",
+      "author": "Luciana Abud",
+      "publishedAt": "2025-09-15T18:22:18.000Z"
+    }
+  ],
+  "totalIndexed": 10
+}

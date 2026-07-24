@@ -1,0 +1,357 @@
+{
+  "feedId": "dennis-felsing",
+  "feedName": "Dennis Felsing",
+  "feedSiteUrl": "https://hookrace.net/",
+  "feedRssUrl": "https://hookrace.net/blog/feed/",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T06:48:50.499Z",
+  "items": [
+    {
+      "guid": "dennis-felsing::https://hookrace.net/blog/finding-bugs-using-llms/",
+      "title": "Finding Bugs using LLMs",
+      "link": "https://hookrace.net/blog/finding-bugs-using-llms/",
+      "summary": "At Materialize we’ve had success in finding bugs in existing code and open pull requests using LLM-based coding agents since February 2026, coinciding with the release of Anthropic’s Opus 4.6 (now mostly running on 4.7). In this post we’ll look into some of the considerations that went into the…",
+      "author": null,
+      "publishedAt": "2026-05-21T16:00:00.000Z"
+    },
+    {
+      "guid": "dennis-felsing::https://hookrace.net/blog/workload-capture-replay/",
+      "title": "Workload Capture & Replay",
+      "link": "https://hookrace.net/blog/workload-capture-replay/",
+      "summary": "When customers hit issues in production, it can be an effort to locally reproduce them, especially when external sources are involved. Reproducing issues is useful not just to figure out the root cause, but also to verify the fix and add a regression test. The newly introduced workload capture &…",
+      "author": null,
+      "publishedAt": "2026-02-09T16:00:00.000Z"
+    },
+    {
+      "guid": "dennis-felsing::https://hookrace.net/blog/speeding-up-materialize-ci/",
+      "title": "Speeding up Materialize CI",
+      "link": "https://hookrace.net/blog/speeding-up-materialize-ci/",
+      "summary": "In the previous post I talked about how we test Materialize. This time I’ll describe how I significantly sped up our Continuous Integration (CI) Test pipeline in July, especially for pull requests that require a build and full test run. The goal is to make developers more productive by reducing the…",
+      "author": null,
+      "publishedAt": "2025-08-07T16:00:00.000Z"
+    },
+    {
+      "guid": "dennis-felsing::https://hookrace.net/blog/materialize-emulator/",
+      "title": "How to Use the Materialize Emulator",
+      "link": "https://hookrace.net/blog/materialize-emulator/",
+      "summary": "In our last blog about our Quality Assurance (QA) team, we gave an overview of the QA process, including our software and testing methods. One of our key tools during testing is the Materialize Emulator, a Docker image that allows you to maintain a locally hosted version of Materialize.\nRead the…",
+      "author": null,
+      "publishedAt": "2024-10-15T16:00:00.000Z"
+    },
+    {
+      "guid": "dennis-felsing::https://hookrace.net/blog/the-ci-flake/",
+      "title": "The CI Flake",
+      "link": "https://hookrace.net/blog/the-ci-flake/",
+      "summary": "I analyzed a flaky test failure in our Materialize CI today:\n$ docker compose up -d --scale default=0 default\nno such service: default\nmzcompose: error: running docker compose failed (exit status 1)\n\n\nI had seen this error already once or twice in the last year, but it was incredibly rare in our…",
+      "author": null,
+      "publishedAt": "2024-08-15T16:00:00.000Z"
+    },
+    {
+      "guid": "dennis-felsing::https://hookrace.net/blog/testing-materialize/",
+      "title": "Testing Materialize",
+      "link": "https://hookrace.net/blog/testing-materialize/",
+      "summary": "I joined Materialize’s Quality Assurance (QA) development team over a year ago. Since our team is small, we have to be conscious about focusing our time on the most impactful testing and test tooling.\nOur goal is to find issues in Materialize as early and as efficiently as possible, ideally before…",
+      "author": null,
+      "publishedAt": "2024-05-13T16:00:00.000Z"
+    },
+    {
+      "guid": "dennis-felsing::https://hookrace.net/blog/port-scan-with-spoofed-ip-addresses/",
+      "title": "Port Scan with Spoofed IP Addresses",
+      "link": "https://hookrace.net/blog/port-scan-with-spoofed-ip-addresses/",
+      "summary": "Or how to make naïve hosters shut down your victim’s server.\n\nDo you want to bring down your victim’s game servers? Do they host their game servers on cheap VPSes at hosters who are not that experienced with networking? Is running an actual DoS against the server too expensive and illegal for you?…",
+      "author": null,
+      "publishedAt": "2024-03-18T16:00:00.000Z"
+    },
+    {
+      "guid": "dennis-felsing::https://hookrace.net/blog/haskell-game-programming-with-gif-streams/",
+      "title": "Haskell: Game Programming with GIF Streams",
+      "link": "https://hookrace.net/blog/haskell-game-programming-with-gif-streams/",
+      "summary": "Note: This is translated from the German original, which was used as a homework for the Programming Paradigms course at Karlsruhe Institute of Technology a long long time ago when I was co-holding the practical courses.\n\nSnake is a computer game in which a snake has to be moved through a playing…",
+      "author": null,
+      "publishedAt": "2023-09-06T16:00:00.000Z"
+    },
+    {
+      "guid": "dennis-felsing::https://hookrace.net/blog/god-writes-haskell/",
+      "title": "God writes Haskell",
+      "link": "https://hookrace.net/blog/god-writes-haskell/",
+      "summary": "God famously does not play dice with the universe, but he seems to enjoy writing Haskell:\n\nConsider the wave-particle duality in quantum mechanics. Every particle behaves as a wave, as long as you haven’t interacted with it. Thanks to Haskell’s lazy evaluation values are also only evaluated once…",
+      "author": null,
+      "publishedAt": "2023-06-02T16:00:00.000Z"
+    },
+    {
+      "guid": "dennis-felsing::https://hookrace.net/blog/database-testing-at-yugabyte/",
+      "title": "Database Testing at Yugabyte",
+      "link": "https://hookrace.net/blog/database-testing-at-yugabyte/",
+      "summary": "YugabyteDB is a cloud-native database for business-critical enterprise applications. It is designed to provide continuous availability as well as horizontal scalability, while retaining a strong set of RDBMS features. This objective creates a strong quality incentive for us in the Yugabyte Quality…",
+      "author": null,
+      "publishedAt": "2023-01-13T16:00:00.000Z"
+    },
+    {
+      "guid": "dennis-felsing::https://hookrace.net/blog/euro9-ticket/",
+      "title": "€9 Ticket",
+      "link": "https://hookrace.net/blog/euro9-ticket/",
+      "summary": "As a relief for rising energy costs and inflation Germany is offering nearly-free public transportation for the months of June, July and August. For just €9 per month you can take any kind of regional public transportation in all of Germany. That’s basically everything except the IC/ICE for long…",
+      "author": null,
+      "publishedAt": "2022-08-19T16:00:00.000Z"
+    },
+    {
+      "guid": "dennis-felsing::https://hookrace.net/blog/dos-attacks-update/",
+      "title": "Update on DoS Attacks against our Online Game",
+      "link": "https://hookrace.net/blog/dos-attacks-update/",
+      "summary": "In my previous post 8 months ago I described how our open source online game DDraceNetwork has been suffering under DoS attacks for about 8 years, basically since its inception. Recently the attacks have gotten much worse, forcing us to work on further approaches. Since many players made…",
+      "author": null,
+      "publishedAt": "2022-05-15T16:00:00.000Z"
+    },
+    {
+      "guid": "dennis-felsing::https://hookrace.net/blog/macos-setup/",
+      "title": "macOS Setup after 15 Years of Linux",
+      "link": "https://hookrace.net/blog/macos-setup/",
+      "summary": "About 3 years ago I wrote about my Linux Desktop Setup and having used pretty much the same software setup for 10-15 years. My setup used to be heavily keyboard based. Now for work I am for the first time using a macOS-based Macbook Pro with an M1 Pro CPU. I spent the last 3 weeks using it as a…",
+      "author": null,
+      "publishedAt": "2021-12-25T16:00:00.000Z"
+    },
+    {
+      "guid": "dennis-felsing::https://hookrace.net/blog/dos-attacks-against-online-game/",
+      "title": "DoS Attacks against our Online Game",
+      "link": "https://hookrace.net/blog/dos-attacks-against-online-game/",
+      "summary": "DDraceNetwork is an open source online game I’ve been running since 2013 with a community of volunteers. The game is available for free, I’m hosting servers for it in many countries around the world so that we have trusted official ranks. The servers are paid for by donations, which I stop…",
+      "author": null,
+      "publishedAt": "2021-09-26T16:00:00.000Z"
+    },
+    {
+      "guid": "dennis-felsing::https://hookrace.net/blog/quest-for-the-lost-home-server/",
+      "title": "Quest for the Lost Home Server",
+      "link": "https://hookrace.net/blog/quest-for-the-lost-home-server/",
+      "summary": "Today I lost access to my home server. As I described in a previous post I depend heavily on the server to fetch my emails, as a file server, to synchronize files, for newsbeuter and irssi sessions and many other things. As no one was going to be in proximity of the server for the next few hours,…",
+      "author": null,
+      "publishedAt": "2019-10-14T16:00:00.000Z"
+    },
+    {
+      "guid": "dennis-felsing::https://hookrace.net/blog/chinese-traffic-time.gif/",
+      "title": "Chinese Traffic to time.gif",
+      "link": "https://hookrace.net/blog/chinese-traffic-time.gif/",
+      "summary": "Nearly two years ago I posted this endless GIF that always shows the current time in UTC:\n\nNow looking at my GoAccess dashboard I can see that it is picking up in popularity rather suddenly:\n\nBut strangely I can’t find anything about time.gif being linked on the web. So this might just be an…",
+      "author": null,
+      "publishedAt": "2019-05-20T16:00:00.000Z"
+    },
+    {
+      "guid": "dennis-felsing::https://hookrace.net/blog/linux-desktop-setup/",
+      "title": "Linux Desktop Setup",
+      "link": "https://hookrace.net/blog/linux-desktop-setup/",
+      "summary": "Russian Translation by Akhmad Karimov\nMy software setup has been surprisingly constant over the last decade, after a few years of experimentation since I initially switched to Linux in 2006. It might be interesting to look back in another 10 years and see what changed. A quick overview of what’s…",
+      "author": null,
+      "publishedAt": "2019-01-14T16:00:00.000Z"
+    },
+    {
+      "guid": "dennis-felsing::https://hookrace.net/blog/theme-switcher-nginx/",
+      "title": "Theme Switcher in Nginx",
+      "link": "https://hookrace.net/blog/theme-switcher-nginx/",
+      "summary": "Some people really liked the dark DDNet theme for Halloween by Soreu, so we decided to keep it possible to use the default bright or the dark theme.\nThanks to xse we got a JavaScript based theme switcher. After some improvements I finally I switched it away from JavaScript entirely and finally am…",
+      "author": null,
+      "publishedAt": "2019-01-08T16:00:00.000Z"
+    },
+    {
+      "guid": "dennis-felsing::https://hookrace.net/blog/cycling-to-work/",
+      "title": "One year of cycling to work",
+      "link": "https://hookrace.net/blog/cycling-to-work/",
+      "summary": "Exactly on this day, one year ago, I came back from a one month long trip to\nTaiwan, went straight to work from the airport and immediately moved into a new\napartment after work. Since then I have cycled to work nearly every day.\n\nFullscreen (map made with umap, routes made with GraphHopper)…",
+      "author": null,
+      "publishedAt": "2018-02-19T16:00:00.000Z"
+    },
+    {
+      "guid": "dennis-felsing::https://hookrace.net/blog/turning-down-blockchain/",
+      "title": "Turning Down a Blockchain Job Offer",
+      "link": "https://hookrace.net/blog/turning-down-blockchain/",
+      "summary": "I have recently received a job offer to work on a blockchain implementation. While the offer was very generous, I had to turn it down. In this post I want to collect the thoughts that went into my decision process leading to this conclusion.\nIntroduction\nI have not touched blockchain technology…",
+      "author": null,
+      "publishedAt": "2018-01-21T16:00:00.000Z"
+    },
+    {
+      "guid": "dennis-felsing::https://hookrace.net/blog/hana-cpp-development/",
+      "title": "HANA C++ Development Environment and Processes",
+      "link": "https://hookrace.net/blog/hana-cpp-development/",
+      "summary": "I started working as a C++ developer in the HANA Core Platform team at SAP in Walldorf, Germany more than a year ago. In this time I have gotten some insights into the development environment and processes. I will use this post to illustrate them by the example of adding a small new feature and…",
+      "author": null,
+      "publishedAt": "2017-12-07T16:00:00.000Z"
+    },
+    {
+      "guid": "dennis-felsing::https://hookrace.net/blog/cpp-quiz-1/",
+      "title": "C++ Quiz #1",
+      "link": "https://hookrace.net/blog/cpp-quiz-1/",
+      "summary": "What is the output of this small snippet that is based on real C++ code?\n#include <iostream>\n\nstruct Foo\n{\n    Foo() { std::cout << \"standard\" << std::endl; }\n    Foo(const Foo&) { std::cout << \"copy\" << std::endl; }\n    Foo(int) { std::cout << \"int\" << std::endl; }\n    Foo(int, int) { std::cout <<…",
+      "author": null,
+      "publishedAt": "2017-11-30T16:00:00.000Z"
+    },
+    {
+      "guid": "dennis-felsing::https://hookrace.net/blog/time.gif/",
+      "title": "time.gif",
+      "link": "https://hookrace.net/blog/time.gif/",
+      "summary": "This is an endless GIF that always shows the current time in UTC:\n\nSource Code\n(From reports it doesn’t seem to work on Safari, other browsers should be fine.)\ntime.gif is written in Haskell and works by dynamically generating each frame of the GIF and slowly feeding them over the HTTP connection.…",
+      "author": null,
+      "publishedAt": "2017-08-10T16:00:00.000Z"
+    },
+    {
+      "guid": "dennis-felsing::https://hookrace.net/blog/nim-code-coverage/",
+      "title": "Nim Code Coverage",
+      "link": "https://hookrace.net/blog/nim-code-coverage/",
+      "summary": "Creating code coverage reports with Nim is surprisingly easy. You can simply\nuse the good old gcov and lcov tools. Nim can be told to insert its own line\ninformation with the --debugger:native command line parameter.\nHere’s the small example program we’re looking at:\nvar x = 0\nif x > 1:\n  echo…",
+      "author": null,
+      "publishedAt": "2016-10-31T16:00:00.000Z"
+    },
+    {
+      "guid": "dennis-felsing::https://hookrace.net/blog/a-taste-of-haskell/",
+      "title": "A Taste of Haskell",
+      "link": "https://hookrace.net/blog/a-taste-of-haskell/",
+      "summary": "In this post I want to highlight a few fun aspects of the Haskell programming language. The purpose is to give you a taste of Haskell so that you will want to learn more of it. Don’t consider this as a tutorial or guide but rather as a starting point, as it is based on a short talk I held at work,…",
+      "author": null,
+      "publishedAt": "2016-10-20T16:00:00.000Z"
+    },
+    {
+      "guid": "dennis-felsing::https://hookrace.net/blog/new-hardware-hacks/",
+      "title": "New Hardware and Hacks",
+      "link": "https://hookrace.net/blog/new-hardware-hacks/",
+      "summary": "In my latest post I showed some\nexamples of how I ran mostly the same PC hardware over a period of 8 years.\nToday I finally finished setting up my new PC hardware in my new home, so I can\nreport about what I did differently, my thought process, and some problems I\nencountered and hacks I did to…",
+      "author": null,
+      "publishedAt": "2016-07-02T16:00:00.000Z"
+    },
+    {
+      "guid": "dennis-felsing::https://hookrace.net/blog/broken-hardware-fixes-hacks-8-years/",
+      "title": "Broken Hardware, Fixes and Hacks over 8 Years",
+      "link": "https://hookrace.net/blog/broken-hardware-fixes-hacks-8-years/",
+      "summary": "After reading the feedback of my recent article about running\nDDNet, I noticed that people\nfound it interesting how I’m trying to minimize money and resources. I also\nnoticed that I had been doing something similar with my personal computing\nhardware setup for an even longer time.\nI’ve mostly been…",
+      "author": null,
+      "publishedAt": "2016-06-20T16:00:00.000Z"
+    },
+    {
+      "guid": "dennis-felsing::https://hookrace.net/blog/writing-a-2d-platform-game-in-nim-with-sdl2/",
+      "title": "Writing a 2D Platform Game in Nim with SDL2",
+      "link": "https://hookrace.net/blog/writing-a-2d-platform-game-in-nim-with-sdl2/",
+      "summary": "Japanese Translation\nIn this article we’re going to write a simple 2D platform game. You can also consider this as a tutorial for game development with SDL2 in Nim.\nWe will read in user input, display graphics and a tile map, and simulate\nsimple 2D physics with collision detection and handling.…",
+      "author": null,
+      "publishedAt": "2016-06-13T16:00:00.000Z"
+    },
+    {
+      "guid": "dennis-felsing::https://hookrace.net/blog/ddnet-evolution-architecture-technology/",
+      "title": "Experiences of Running an Online Game for 3 Years",
+      "link": "https://hookrace.net/blog/ddnet-evolution-architecture-technology/",
+      "summary": "It’s been roughly 3 years since DDraceNetwork (DDNet)\nstarted in the summer of 2013. Last year I wrote a non-technical History of\nDDNet. Today in this post we\nwill dive into the technical side of what makes DDNet run.\nFor the uninitiated, DDNet is an open-source\nmodification of\nTeeworlds, a retro…",
+      "author": null,
+      "publishedAt": "2016-06-08T16:00:00.000Z"
+    },
+    {
+      "guid": "dennis-felsing::https://hookrace.net/blog/introduction-to-metaprogramming-in-nim/",
+      "title": "Introduction to Metaprogramming in Nim",
+      "link": "https://hookrace.net/blog/introduction-to-metaprogramming-in-nim/",
+      "summary": "Introduction to the Introduction (Meta-Introduction)\nWikipedia gives us a nice\ndescription of metaprogramming:\nMetaprogramming is the writing of computer programs with the ability to\ntreat programs as their data. It means that a program could be designed to\nread, generate, analyse and/or transform…",
+      "author": null,
+      "publishedAt": "2016-06-05T16:00:00.000Z"
+    },
+    {
+      "guid": "dennis-felsing::https://hookrace.net/blog/server-statistics/",
+      "title": "DDNet Server Statistics with ServerStatus, RRDtool and Nim",
+      "link": "https://hookrace.net/blog/server-statistics/",
+      "summary": "About a month ago I set up statistics for the official DDNet servers. My motivations for this are:\nMonitor the servers more easily\nGet notified about server problems\nHave nice graphs to look at\nThe choices for the software used are mainly made to keep resource usage low, a\ngeneral principle used…",
+      "author": null,
+      "publishedAt": "2016-05-13T16:00:00.000Z"
+    },
+    {
+      "guid": "dennis-felsing::https://hookrace.net/blog/writing-an-async-logger-in-nim/",
+      "title": "Writing an Async Logger in Nim",
+      "link": "https://hookrace.net/blog/writing-an-async-logger-in-nim/",
+      "summary": "Surprisingly I’m working on HookRace again. I might\nshare a few interesting code snippets and thoughts in this blog along the way.\nI’m still going with Nim as the programming language.\nFor an easy start let’s write a logging module that can be used everywhere in\nthe game’s server as well as client.…",
+      "author": null,
+      "publishedAt": "2016-01-27T16:00:00.000Z"
+    },
+    {
+      "guid": "dennis-felsing::https://hookrace.net/blog/ddnet-live/",
+      "title": "DDNet Live: Twitch spectates an online game",
+      "link": "https://hookrace.net/blog/ddnet-live/",
+      "summary": "Last night I had an idea and implemented it, soo let’s see what will happen.\nBut first, the idea:\nHave a livestream [1] of DDNet running non-stop [2] that\nalways shows some interesting [3] players on the server.\nThe resulting livestream is running on Twitch.\nAll the scripts are on Github\n1.…",
+      "author": null,
+      "publishedAt": "2016-01-09T16:00:00.000Z"
+    },
+    {
+      "guid": "dennis-felsing::https://hookrace.net/blog/nim-binary-size/",
+      "title": "Nim binary size from 160 KB to 150 Bytes",
+      "link": "https://hookrace.net/blog/nim-binary-size/",
+      "summary": "The size of binaries in the Nim programming language seems to be a popular topic recently. Nim’s slogan is expressive, efficient, elegant, so let’s examine the efficient part in this post by exploring a few ways to reduce the size of a simple Nim Hello World binary on Linux. Along the way we will:…",
+      "author": null,
+      "publishedAt": "2015-05-03T16:00:00.000Z"
+    },
+    {
+      "guid": "dennis-felsing::https://hookrace.net/blog/porting-nes-go-nim/",
+      "title": "Porting a NES emulator from Go to Nim",
+      "link": "https://hookrace.net/blog/porting-nes-go-nim/",
+      "summary": "Let me get this straight. We have an emulator for 1985 hardware that was written in a pretty new language (Go), ported to a language that isn’t even 1.0 (Nim), compiled to C, then compiled to JavaScript? And the damn thing actually works? That’s kind of amazing.\n— Summary by haberman\nI spent the…",
+      "author": null,
+      "publishedAt": "2015-04-30T16:00:00.000Z"
+    },
+    {
+      "guid": "dennis-felsing::https://hookrace.net/blog/nimes/",
+      "title": "NimES: a NES emulator in Nim",
+      "link": "https://hookrace.net/blog/nimes/",
+      "summary": "Since today Nim 0.11 has been released, I guess it’s a good time to\nrelease this as well: NimES is a NES emulator written in Nim. More info in the\nGitHub repository and the JS demo.\nDiscussion on Hacker News and Reddit.",
+      "author": null,
+      "publishedAt": "2015-04-29T16:00:00.000Z"
+    },
+    {
+      "guid": "dennis-felsing::https://hookrace.net/blog/make-a-lisp-in-nim/",
+      "title": "Make a Lisp in Nim",
+      "link": "https://hookrace.net/blog/make-a-lisp-in-nim/",
+      "summary": "I spent the last weekend working through the amazing\nguide for Make a\nLisp, writing a Lisp interpreter in Nim. The\nfinal result just made it into\nthe repository.\nRunning the Nim version is pretty simple. You need the Nim compiler from the devel branch and nre which can be installed through nimble.…",
+      "author": null,
+      "publishedAt": "2015-03-03T16:00:00.000Z"
+    },
+    {
+      "guid": "dennis-felsing::https://hookrace.net/blog/how-i-start-nim/",
+      "title": "How I Start: Nim",
+      "link": "https://hookrace.net/blog/how-i-start-nim/",
+      "summary": "My most recent post goes in another direction (no, it’s still about Nim): How I\nstart a new Nim project. Check out the\narticle on\nhowistart.org. Comments on Hacker\nNews and\nReddit as always.",
+      "author": null,
+      "publishedAt": "2015-02-08T16:00:00.000Z"
+    },
+    {
+      "guid": "dennis-felsing::https://hookrace.net/blog/conclusion-on-nim/",
+      "title": "Conclusion on Nim",
+      "link": "https://hookrace.net/blog/conclusion-on-nim/",
+      "summary": "In my last two posts, “What is special about Nim?” and “What makes Nim practical”, I forgot the important conclusion - why I personally have decided for Nim in favor of Rust, C++, Python and Haskell:\nNim is not the fastest language, it’s not the easiest language to write in and it surely has some…",
+      "author": null,
+      "publishedAt": "2015-01-25T16:00:00.000Z"
+    },
+    {
+      "guid": "dennis-felsing::https://hookrace.net/blog/what-makes-nim-practical/",
+      "title": "What makes Nim practical?",
+      "link": "https://hookrace.net/blog/what-makes-nim-practical/",
+      "summary": "In my last post I showed what makes the Nim programming language special. Today, let’s consider Nim from another angle: What makes Nim a practical programming language?\nBinary Distribution\nPrograms written in interpreted languages like Python are difficult to distribute. Either you require Python…",
+      "author": null,
+      "publishedAt": "2015-01-22T16:00:00.000Z"
+    },
+    {
+      "guid": "dennis-felsing::https://hookrace.net/blog/what-is-special-about-nim/",
+      "title": "What is special about Nim?",
+      "link": "https://hookrace.net/blog/what-is-special-about-nim/",
+      "summary": "Russian Translation by frol, Chinese Translation by JiyinYiyong, Japanese Translation by Mutsuha Asada\nThe Nim programming language is exciting. While the official tutorial is great, it slowly introduces you to the language. Instead I want to quickly show what you can do with Nim that would be more…",
+      "author": null,
+      "publishedAt": "2014-12-31T16:00:00.000Z"
+    },
+    {
+      "guid": "dennis-felsing::https://hookrace.net/blog/nim-adventures/",
+      "title": "Nim Adventures",
+      "link": "https://hookrace.net/blog/nim-adventures/",
+      "summary": "To learn some Nim I held a talk about it at the GPN14 (in German, Slides).\nAfterwards I started solving Rosetta Code tasks in Nim to get a better feel for the language and standard library. That also made me discover some rough edges in the language, but luckily the community, albeit small, is…",
+      "author": null,
+      "publishedAt": "2014-07-12T16:00:00.000Z"
+    },
+    {
+      "guid": "dennis-felsing::https://hookrace.net/blog/what-is-hookrace/",
+      "title": "What is HookRace?",
+      "link": "https://hookrace.net/blog/what-is-hookrace/",
+      "summary": "I have been running DDraceNetwork for 1 year, which started out as a little server of a Teeworlds modification called DDRace. It has turned into the biggest project within Teeworlds, offering servers in 6 countries with thousands of players and dozens of mappers. We also offer a custom server and…",
+      "author": null,
+      "publishedAt": "2014-07-06T16:00:00.000Z"
+    }
+  ],
+  "totalIndexed": 43
+}

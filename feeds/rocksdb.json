@@ -1,0 +1,93 @@
+{
+  "feedId": "rocksdb",
+  "feedName": "RocksDB",
+  "feedSiteUrl": "http://rocksdb.org/blog",
+  "feedRssUrl": "http://rocksdb.org/feed.xml",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T07:07:43.403Z",
+  "items": [
+    {
+      "guid": "http://rocksdb.org/blog/2026/06/22/range-tombstone-conversion.html",
+      "title": "Range Tombstone Conversion: Faster Scans Over Long Runs of Deletes",
+      "link": "http://rocksdb.org/blog/2026/06/22/range-tombstone-conversion.html",
+      "summary": "RocksDB has historically been known for poor performance when tombstones accumulate. This has become a common problem within Meta, and the community has raised it as well. Here, we introduce an optimization that attempts to convert contiguous tombstones into a range tombstone during scans. As a…",
+      "author": null,
+      "publishedAt": "2026-06-22T00:00:00.000Z"
+    },
+    {
+      "guid": "http://rocksdb.org/blog/2026/06/20/fifo-kv-ratio-compaction.html",
+      "title": "FIFO KV-Ratio Compaction for BlobDB-Backed TTL Workloads",
+      "link": "http://rocksdb.org/blog/2026/06/20/fifo-kv-ratio-compaction.html",
+      "summary": "RocksDB 11.0 added CompactionOptionsFIFO::max_data_files_size and CompactionOptionsFIFO::use_kv_ratio_compaction for a specific but important shape of workload: FIFO compaction, integrated BlobDB, large values, point lookups, and data that naturally expires by TTL or by a bounded data-size budget.…",
+      "author": null,
+      "publishedAt": "2026-06-20T00:00:00.000Z"
+    },
+    {
+      "guid": "http://rocksdb.org/blog/2026/06/20/blob-direct-write-partitioned-blob-files.html",
+      "title": "Blob Direct Write With Partitioned Blob Files",
+      "link": "http://rocksdb.org/blog/2026/06/20/blob-direct-write-partitioned-blob-files.html",
+      "summary": "TL;DR\nBlob Direct Write moves large-value separation earlier in RocksDB’s write path.\nWhen enable_blob_files and enable_blob_direct_write are enabled, values at\nor above min_blob_size can be written directly to blob files during a write,\nwhile the WAL and memtable store a compact BlobIndex…",
+      "author": null,
+      "publishedAt": "2026-06-20T00:00:00.000Z"
+    },
+    {
+      "guid": "http://rocksdb.org/blog/2026/05/19/resumable-remote-compaction.html",
+      "title": "Resumable Remote Compaction",
+      "link": "http://rocksdb.org/blog/2026/05/19/resumable-remote-compaction.html",
+      "summary": "Background\nRocksDB can offload compaction work to remote workers through the CompactionService API. In this model, the primary RocksDB instance selects the input files and sends a serialized CompactionServiceInput to a worker; the remote worker runs DB::OpenAndCompact(), writes output SSTs to…",
+      "author": null,
+      "publishedAt": "2026-05-19T00:00:00.000Z"
+    },
+    {
+      "guid": "http://rocksdb.org/blog/2026/05/04/interpolation-search.html",
+      "title": "Interpolation search for SST index blocks",
+      "link": "http://rocksdb.org/blog/2026/05/04/interpolation-search.html",
+      "summary": "For workloads with uniformly distributed keys, RocksDB now supports interpolation search for SST index blocks as an alternative to the default binary search.\nThe idea\nBinary search always splits the remaining range in half:\n\n\n\n\n1\n\nmid = low + (high - low) / 2\n\n\n\n\nThat’s Θ(log n) probes regardless…",
+      "author": null,
+      "publishedAt": "2026-05-04T00:00:00.000Z"
+    },
+    {
+      "guid": "http://rocksdb.org/blog/2026/02/17/cpu-bug.html",
+      "title": "RocksDB development finds a CPU bug",
+      "link": "http://rocksdb.org/blog/2026/02/17/cpu-bug.html",
+      "summary": "This is the story of how a RocksDB unit test I added four years ago, a mini-stress test you might call it, revealed a novel hardware bug in a newer CPU. It was scary enough to be assigned a “high severity” CVE.\nBackground: Unique Identifiers\nAbout four years ago, we added unique identifiers to SST…",
+      "author": null,
+      "publishedAt": "2026-02-17T00:00:00.000Z"
+    },
+    {
+      "guid": "http://rocksdb.org/blog/2025/12/31/bit-fields-api.html",
+      "title": "BitFields API: Type-Safe Bit Packing for Lock-Free Data Structures",
+      "link": "http://rocksdb.org/blog/2025/12/31/bit-fields-api.html",
+      "summary": "Modern concurrent data structures increasingly rely on atomic operations to avoid the overhead of locking. A valuable but under-utilized technique for maximizing the effectiveness of atomic operations is bit packing—fitting multiple logical fields into a single atomic variable for algorithmic…",
+      "author": null,
+      "publishedAt": "2025-12-31T00:00:00.000Z"
+    },
+    {
+      "guid": "http://rocksdb.org/blog/2025/10/08/parallel-compression-revamp.html",
+      "title": "Parallel Compression Revamp: Dramatically Reduced CPU Overhead",
+      "link": "http://rocksdb.org/blog/2025/10/08/parallel-compression-revamp.html",
+      "summary": "The upcoming RocksDB 10.7 release includes a major revamp of parallel compression that dramatically reduces the feature’s CPU overhead by up to 65% while maintaining or improving throughput for compression-heavy workloads. We expect this to broaden the set of workloads that could benefit from…",
+      "author": null,
+      "publishedAt": "2025-10-08T00:00:00.000Z"
+    },
+    {
+      "guid": "http://rocksdb.org/blog/2025/09/25/io-tagging.html",
+      "title": "IO Activity Tagging",
+      "link": "http://rocksdb.org/blog/2025/09/25/io-tagging.html",
+      "summary": "Context\nRocksDB performs a variety of IO operations—user reads, background compactions, flushes, database opens, and verification tasks. Treating all these operations the same makes it difficult for file system implementers to optimize performance, prioritize latency-sensitive IOs, and diagnose…",
+      "author": null,
+      "publishedAt": "2025-09-25T00:00:00.000Z"
+    },
+    {
+      "guid": "http://rocksdb.org/blog/2025/09/24/unified-memory-tracking.html",
+      "title": "Unified Memory Tracking",
+      "link": "http://rocksdb.org/blog/2025/09/24/unified-memory-tracking.html",
+      "summary": "Context / Problem\nModern RocksDB deployments often run in environments with strict memory constraints—cloud VMs, containers, or hosts with hundreds of DB instances. Unpredictable memory usage can lead to out-of-memory (OOM) errors, degraded performance, or even service outages.\nHistorically, while…",
+      "author": null,
+      "publishedAt": "2025-09-24T00:00:00.000Z"
+    }
+  ],
+  "totalIndexed": 10
+}

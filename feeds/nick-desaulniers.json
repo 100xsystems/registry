@@ -1,0 +1,357 @@
+{
+  "feedId": "nick-desaulniers",
+  "feedName": "Nick Desaulniers",
+  "feedSiteUrl": "https://nickdesaulniers.github.io/",
+  "feedRssUrl": "https://nickdesaulniers.github.io/index.xml",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T07:01:26.735Z",
+  "items": [
+    {
+      "guid": "https://nickdesaulniers.github.io/blog/2023/03/10/usps-as-an-isp/",
+      "title": "USPS as an ISP",
+      "link": "https://nickdesaulniers.github.io/blog/2023/03/10/usps-as-an-isp/",
+      "summary": "While on a hike with colleagues, one asked a thought provoking question: Should the United States Post Service (USPS) operate as an Internet Service Provider (ISP)? This post is an opinion piece playing with that idea; here are my thoughts. It’s far from a hot take, and has been discussed before.…",
+      "author": null,
+      "publishedAt": "2023-03-10T23:07:05.000Z"
+    },
+    {
+      "guid": "https://nickdesaulniers.github.io/blog/2023/03/10/disambiguating-arm/",
+      "title": "Disambiguating Arm, Arm ARM, Armv9, ARM9, ARM64, AArch64, A64, A78, ...",
+      "link": "https://nickdesaulniers.github.io/blog/2023/03/10/disambiguating-arm/",
+      "summary": "If you’re new to the Arm ecosystem, consider this a quick primer on terms you likely have seen before but might have questions about.\nThe Arm architecture is a family of Reduced Instruction Set Architectures (RISC) with simple addressing modes. Data processing is done on register operands otherwise…",
+      "author": null,
+      "publishedAt": "2023-03-10T19:39:11.000Z"
+    },
+    {
+      "guid": "https://nickdesaulniers.github.io/blog/2023/02/01/forking-is-not-free-the-hidden-costs/",
+      "title": "Forking is not free; the hidden costs",
+      "link": "https://nickdesaulniers.github.io/blog/2023/02/01/forking-is-not-free-the-hidden-costs/",
+      "summary": "The Open Source software development model is a powerful approach to collaboratively iterating on a shared solution to a common problem. Rather than competitors duplicating effort to come up with multiple suboptimal solutions, they can collaborate together to build something greater.\nForking is the…",
+      "author": null,
+      "publishedAt": "2023-02-01T21:42:57.000Z"
+    },
+    {
+      "guid": "https://nickdesaulniers.github.io/blog/2023/01/27/critical-edge-splitting/",
+      "title": "Critical Edge Splitting",
+      "link": "https://nickdesaulniers.github.io/blog/2023/01/27/critical-edge-splitting/",
+      "summary": "A maximal length sequence of branch-free code that terminates with a branch or jump is referred to as a basic block.\nA basic block that branches to another forms an edge in the Control Flow Graph (CFG).\nThe initial basic block starting an edge is the predecessor; it precedes and is succeeded by the…",
+      "author": null,
+      "publishedAt": "2023-01-27T17:16:05.000Z"
+    },
+    {
+      "guid": "https://nickdesaulniers.github.io/blog/2023/01/20/debugging-wframe-larger-than/",
+      "title": "Debugging -Wframe-larger-than=",
+      "link": "https://nickdesaulniers.github.io/blog/2023/01/20/debugging-wframe-larger-than/",
+      "summary": "Unless work is done per architecture to implement HAVE_ARCH_VMAP_STACK / CONFIG_VMAP_STACK, the Linux kernel defaults to two pages worth of stack per thread.\nNote: on many contemporary systems the page size is 4KiB, but this is actually configurable for many architectures. The trade offs probably…",
+      "author": null,
+      "publishedAt": "2023-01-20T17:27:32.000Z"
+    },
+    {
+      "guid": "https://nickdesaulniers.github.io/blog/2020/04/06/off-by-two/",
+      "title": "Off by Two",
+      "link": "https://nickdesaulniers.github.io/blog/2020/04/06/off-by-two/",
+      "summary": "“War stories” in programming are entertaining tales of truly evil bugs that kept you up at night. Inspired by posts like My Hardest Bug Ever, Debugging an evil Go runtime bug, and others from /r/TalesFromDebugging, I wanted to share with you one of my favorites from recent memory. Recent work has…",
+      "author": null,
+      "publishedAt": "2020-04-06T00:00:00.000Z"
+    },
+    {
+      "guid": "https://nickdesaulniers.github.io/blog/2019/05/12/f-vs-f-void-in-c-vs-c-plus-plus/",
+      "title": "f() vs f(void) in C vs C++",
+      "link": "https://nickdesaulniers.github.io/blog/2019/05/12/f-vs-f-void-in-c-vs-c-plus-plus/",
+      "summary": "TL;DR\nPrefer f(void) in C to potentially save a 2B instruction per function call when targeting x86_64 as a micro-optimization. -Wstrict-prototypes can help. Doesn’t matter for C++.\nThe Problem While messing around with some C code in godbolt Compiler Explorer, I kept noticing a particular funny…",
+      "author": null,
+      "publishedAt": "2019-05-12T00:00:00.000Z"
+    },
+    {
+      "guid": "https://nickdesaulniers.github.io/blog/2019/01/18/finding-compiler-bugs-with-c-reduce/",
+      "title": "Finding Compiler Bugs With C-Reduce",
+      "link": "https://nickdesaulniers.github.io/blog/2019/01/18/finding-compiler-bugs-with-c-reduce/",
+      "summary": "Support for a long awaited GNU C extension, asm goto, is in the midst of landing in Clang and LLVM. We want to make sure that we release a high quality implementation, so it’s important to test the new patches on real code and not just small test cases. When we hit compiler bugs in large source…",
+      "author": null,
+      "publishedAt": "2019-01-18T00:00:00.000Z"
+    },
+    {
+      "guid": "https://nickdesaulniers.github.io/blog/2018/10/24/booting-a-custom-linux-kernel-in-qemu-and-debugging-it-with-gdb/",
+      "title": "Booting a Custom Linux Kernel in QEMU and Debugging It With GDB",
+      "link": "https://nickdesaulniers.github.io/blog/2018/10/24/booting-a-custom-linux-kernel-in-qemu-and-debugging-it-with-gdb/",
+      "summary": "Typically, when we modify a program, we’d like to run it to verify our changes. Before booting a compiled Linux kernel image on actual hardware, it can save us time and potential headache to do a quick boot in a virtual machine like QEMU as a sanity check. If your kernel boots in QEMU, it’s not a…",
+      "author": null,
+      "publishedAt": "2018-10-24T00:00:00.000Z"
+    },
+    {
+      "guid": "https://nickdesaulniers.github.io/blog/2018/06/02/speeding-up-linux-kernel-builds-with-ccache/",
+      "title": "Speeding Up Linux Kernel Builds With ccache",
+      "link": "https://nickdesaulniers.github.io/blog/2018/06/02/speeding-up-linux-kernel-builds-with-ccache/",
+      "summary": "ccache, the compiler cache, is a fantastic way to speed up build times for C and C++ code that I previously recommended. Recently, I was playing around with trying to get it to speed up my Linux kernel builds, but wasn’t seeing any benefit. Usually when this happens with ccache, there’s something…",
+      "author": null,
+      "publishedAt": "2018-06-02T00:00:00.000Z"
+    },
+    {
+      "guid": "https://nickdesaulniers.github.io/blog/2017/09/05/gcc-vs-llvm-q3-2017-commit-rates-and-active-developer-counts/",
+      "title": "GCC vs LLVM Q3 2017 Commit Rates and Active Developer Counts",
+      "link": "https://nickdesaulniers.github.io/blog/2017/09/05/gcc-vs-llvm-q3-2017-commit-rates-and-active-developer-counts/",
+      "summary": "A blog post from a few years ago that really stuck with me was Martin Olsson’s Browser Engines 2015: Commit Rates and Active Developer Counts, where he shows information about the number of authors and commits to popular web browsers. The graphs and analysis had interesting takeaways like showing…",
+      "author": null,
+      "publishedAt": "2017-09-05T00:00:00.000Z"
+    },
+    {
+      "guid": "https://nickdesaulniers.github.io/blog/2017/05/31/running-clang-tidy-on-the-linux-kernel/",
+      "title": "Running Clang-Tidy on the Linux Kernel",
+      "link": "https://nickdesaulniers.github.io/blog/2017/05/31/running-clang-tidy-on-the-linux-kernel/",
+      "summary": "Clang-Tidy is a linter from the LLVM ecosystem. I wanted to try to run it on the Linux kernel to see what kind of bugs it would find. The false positive rate seems pretty high (a persistent bane to static analysis), but some patching in both the tooling and the source can likely help bring this…",
+      "author": null,
+      "publishedAt": "2017-05-31T00:00:00.000Z"
+    },
+    {
+      "guid": "https://nickdesaulniers.github.io/blog/2017/05/16/submitting-your-first-patch-to-the-linux-kernel-and-responding-to-feedback/",
+      "title": "Submitting Your First Patch to the Linux Kernel and Responding to Feedback",
+      "link": "https://nickdesaulniers.github.io/blog/2017/05/16/submitting-your-first-patch-to-the-linux-kernel-and-responding-to-feedback/",
+      "summary": "After working on the Linux kernel for Nexus and Pixel phones for nearly a year, and messing around with the excellent Eudyptula challenge, I finally wanted to take a crack at submitting patches upstream to the Linux kernel.\nThis post is woefully inadequate compared to the existing documentation,…",
+      "author": null,
+      "publishedAt": "2017-05-16T00:00:00.000Z"
+    },
+    {
+      "guid": "https://nickdesaulniers.github.io/blog/2016/11/20/static-and-dynamic-libraries/",
+      "title": "Static and Dynamic Libraries",
+      "link": "https://nickdesaulniers.github.io/blog/2016/11/20/static-and-dynamic-libraries/",
+      "summary": "This is the second post in a series on memory segmentation. It covers working with static and dynamic libraries in Linux and OSX. Make sure to check out the first on object files and symbols.\nLet’s say we wanted to reuse some of the code from our previous project in our next one. We could continue…",
+      "author": null,
+      "publishedAt": "2016-11-20T00:00:00.000Z"
+    },
+    {
+      "guid": "https://nickdesaulniers.github.io/blog/2016/08/13/object-files-and-symbols/",
+      "title": "Object Files and Symbols",
+      "link": "https://nickdesaulniers.github.io/blog/2016/08/13/object-files-and-symbols/",
+      "summary": "What was supposed to be one blog post about memory segmentation turned into what will be a series of posts. As the first in the series, we cover the extreme basics of object files and symbols. In follow up posts, I plan to talk about static libraries, dynamic libraries, dynamic linkage, memory…",
+      "author": null,
+      "publishedAt": "2016-08-13T00:00:00.000Z"
+    },
+    {
+      "guid": "https://nickdesaulniers.github.io/blog/2016/07/01/android-cli/",
+      "title": "Cross Compiling C/C++ for Android",
+      "link": "https://nickdesaulniers.github.io/blog/2016/07/01/android-cli/",
+      "summary": "Let’s say you want to build a hello world command line application in C or C++ and run it on your Android phone. How would you go about it? It’s not super practical; apps visible and distributable to end users must use the framework (AFAIK), but for folks looking to get into developing on ARM it’s…",
+      "author": null,
+      "publishedAt": "2016-07-01T00:00:00.000Z"
+    },
+    {
+      "guid": "https://nickdesaulniers.github.io/blog/2016/06/18/mutt-gmail-ubuntu/",
+      "title": "Setting up mutt with gmail on Ubuntu",
+      "link": "https://nickdesaulniers.github.io/blog/2016/06/18/mutt-gmail-ubuntu/",
+      "summary": "I was looking to set up the mutt email client on my Ubuntu box to go through my gmail account. Since it took me a couple of hours to figure out, and I’ll probably forget by the time I need to know again, I figure I’d post my steps here.\nI’m on Ubuntu 16.04 LTS (lsb_release -a)\nInstall mutt:\n$ sudo…",
+      "author": null,
+      "publishedAt": "2016-06-18T00:00:00.000Z"
+    },
+    {
+      "guid": "https://nickdesaulniers.github.io/blog/2016/05/30/data-models-and-word-size/",
+      "title": "Data Models and Word Size",
+      "link": "https://nickdesaulniers.github.io/blog/2016/05/30/data-models-and-word-size/",
+      "summary": "This post is a follow up to my previous blog post about word size.\nThree C/C++ programmers walk into a bar. One argues that sizeof(void*) is equivalent to sizeof(long), one argues that sizeof(void*) is equivalent to sizeof(int), and the third argues it’s sizeof(long long). Simultaneously, they’re…",
+      "author": null,
+      "publishedAt": "2016-05-30T00:00:00.000Z"
+    },
+    {
+      "guid": "https://nickdesaulniers.github.io/blog/2016/05/15/whats-in-a-word/",
+      "title": "What's in a Word?",
+      "link": "https://nickdesaulniers.github.io/blog/2016/05/15/whats-in-a-word/",
+      "summary": "Recently, there some was some confusion between myself and a coworker over the definition of a “word.” I’m currently working on a blog post about data alignment and figured it would be good to clarify some things now, that we can refer to later.\nHaving studied computer engineering and being quite…",
+      "author": null,
+      "publishedAt": "2016-05-15T00:00:00.000Z"
+    },
+    {
+      "guid": "https://nickdesaulniers.github.io/blog/2016/01/20/debugging-x86-64-assembly-with-lldb-and-dtrace/",
+      "title": "Intro to Debugging X86-64 Assembly",
+      "link": "https://nickdesaulniers.github.io/blog/2016/01/20/debugging-x86-64-assembly-with-lldb-and-dtrace/",
+      "summary": "I’m hacking on an assembly project, and wanted to document some of the tricks I was using for figuring out what was going on. This post might seem a little basic for folks who spend all day heads down in gdb or who do this stuff professionally, but I just wanted to share a quick intro to some tools…",
+      "author": null,
+      "publishedAt": "2016-01-20T00:00:00.000Z"
+    },
+    {
+      "guid": "https://nickdesaulniers.github.io/blog/2015/08/14/my-siggraph-2015-experience/",
+      "title": "My SIGGRAPH 2015 Experience",
+      "link": "https://nickdesaulniers.github.io/blog/2015/08/14/my-siggraph-2015-experience/",
+      "summary": "I was recently lucky enough to get to attend my first SIGGRAPH conference this year. While I didn’t attend any talks, I did spend some time in the expo. Here is a collection of some of the neat things I saw at SIGGRAPH 2015. Sorry it’s not more collected; I didn’t have the intention of writing a…",
+      "author": null,
+      "publishedAt": "2015-08-14T00:00:00.000Z"
+    },
+    {
+      "guid": "https://nickdesaulniers.github.io/blog/2015/07/23/additional-c-slash-c-plus-plus-tooling/",
+      "title": "Additional C/C++ Tooling",
+      "link": "https://nickdesaulniers.github.io/blog/2015/07/23/additional-c-slash-c-plus-plus-tooling/",
+      "summary": "21st Century C by Ben Klemens was a great read. It had a section with an intro to autotools, git, and gdb. There are a few other useful tools that came to mind that I’ve used when working with C and C++ codebases. These tools are a great way to start contributing to Open Source C & C++ codebases;…",
+      "author": null,
+      "publishedAt": "2015-07-23T00:00:00.000Z"
+    },
+    {
+      "guid": "https://nickdesaulniers.github.io/blog/2015/05/25/interpreter-compiler-jit/",
+      "title": "Interpreter Compiler JIT",
+      "link": "https://nickdesaulniers.github.io/blog/2015/05/25/interpreter-compiler-jit/",
+      "summary": "Interpreters and compilers are interesting programs, themselves used to run or translate other programs, respectively. Those other programs that might be interpreted might be languages like JavaScript, Ruby, Python, PHP, and Perl. The other programs that might be compiled are C, C++, and to some…",
+      "author": null,
+      "publishedAt": "2015-05-25T00:00:00.000Z"
+    },
+    {
+      "guid": "https://nickdesaulniers.github.io/blog/2015/02/22/public-key-crypto-code-example/",
+      "title": "Hidden in Plain Sight - Public Key Crypto",
+      "link": "https://nickdesaulniers.github.io/blog/2015/02/22/public-key-crypto-code-example/",
+      "summary": "How is it possible for us to communicate securely when there’s the possibility of a third party eavesdropping on us? How can we communicate private secrets through public channels? How do such techniques enable us to bank online and carry out other sensitive transactions on the Internet while…",
+      "author": null,
+      "publishedAt": "2015-02-22T00:00:00.000Z"
+    },
+    {
+      "guid": "https://nickdesaulniers.github.io/blog/2015/01/25/writing-my-first-book-chapter/",
+      "title": "Writing My First Technical Book Chapter",
+      "link": "https://nickdesaulniers.github.io/blog/2015/01/25/writing-my-first-book-chapter/",
+      "summary": "It’s a feeling of immense satisfaction when we complete a major achievement. Being able to say “it’s done” is such a great stress relief. Recently, I completed work on my first publication, a chapter about Emscripten for the upcoming book WebGL Insights to be published by CRC Press in time for…",
+      "author": null,
+      "publishedAt": "2015-01-25T00:00:00.000Z"
+    },
+    {
+      "guid": "https://nickdesaulniers.github.io/blog/2014/04/18/lets-write-some-x86-64/",
+      "title": "Let's Write Some X86-64",
+      "link": "https://nickdesaulniers.github.io/blog/2014/04/18/lets-write-some-x86-64/",
+      "summary": "…\"‘Our speech interposes itself between apprehension and truth like a dusty pane or warped mirror. The tongue of Eden was like a flawless glass; a light of total understanding streamed through it. Thus Babel was a second Fall.’ And Isaac the Blind, an early Kabbalist, said that, to quote Gershom…",
+      "author": null,
+      "publishedAt": "2014-04-18T00:00:00.000Z"
+    },
+    {
+      "guid": "https://nickdesaulniers.github.io/blog/2014/03/01/write-a-test-case/",
+      "title": "Write a Test Case",
+      "link": "https://nickdesaulniers.github.io/blog/2014/03/01/write-a-test-case/",
+      "summary": "Your application just broke, oh no! It couldn’t have been your code, right?\nI’ve always had trouble spotting mistakes in my own work such as spelling, grammar, mathematical, or even in programming. With spelling or grammar, office applications quickly pick up on my mistakes and underline them for…",
+      "author": null,
+      "publishedAt": "2014-03-01T00:00:00.000Z"
+    },
+    {
+      "guid": "https://nickdesaulniers.github.io/blog/2013/09/26/function-dot-prototype-dot-bind-edge-cases/",
+      "title": "Function.prototype.bind Edge Cases",
+      "link": "https://nickdesaulniers.github.io/blog/2013/09/26/function-dot-prototype-dot-bind-edge-cases/",
+      "summary": "ECMAScript 5’s Function.prototype.bind is a great tool that’s implemented in all modern browser JavaScript engines. It allows you to modify the context, this, of a function when it is evaluated in the future. Knowing what this refers to in various contexts is key to being a professional JavaScript…",
+      "author": null,
+      "publishedAt": "2013-09-26T00:00:00.000Z"
+    },
+    {
+      "guid": "https://nickdesaulniers.github.io/blog/2013/08/28/making-great-node-dot-js-modules-with-coffeescript/",
+      "title": "Making Great Node.js Modules With Coffeescript",
+      "link": "https://nickdesaulniers.github.io/blog/2013/08/28/making-great-node-dot-js-modules-with-coffeescript/",
+      "summary": "Node.js is a great runtime for writing applications in JavaScript, the language I primarily develop in. CoffeeScript is a programming language that compiles to JavaScript. Why would we write a reusable piece of code, a module , in CoffeeScript? CoffeeScript is a very high level language and…",
+      "author": null,
+      "publishedAt": "2013-08-28T00:00:00.000Z"
+    },
+    {
+      "guid": "https://nickdesaulniers.github.io/blog/2013/07/25/designated-initialization-with-pointers-in-c/",
+      "title": "Designated Initialization With Compound Literals in C",
+      "link": "https://nickdesaulniers.github.io/blog/2013/07/25/designated-initialization-with-pointers-in-c/",
+      "summary": "Just a quick post on something I just discovered and found neat (I always find obscure C syntax interesting). I was trying to figure out how to use a C designated initializer, where a member was a pointer to another designated initializer. At this point, you need a compound literal. Just a quick…",
+      "author": null,
+      "publishedAt": "2013-07-25T00:00:00.000Z"
+    },
+    {
+      "guid": "https://nickdesaulniers.github.io/blog/2013/07/03/why-ill-be-marching-this-4th/",
+      "title": "Why I'll Be Marching This 4th",
+      "link": "https://nickdesaulniers.github.io/blog/2013/07/03/why-ill-be-marching-this-4th/",
+      "summary": "If you’ve done nothing wrong, then you’ve got nothing to hide.\nWrong. Nothing ever justifies giving up your human rights , especially to prove lack of wrong doing, and any government that asks you to do so is not your friend.\nTerrorism has become a weapon used against us by those elected to lead to…",
+      "author": null,
+      "publishedAt": "2013-07-03T00:00:00.000Z"
+    },
+    {
+      "guid": "https://nickdesaulniers.github.io/blog/2013/06/13/8-months-in-mozilla/",
+      "title": "8 Months in Mozilla",
+      "link": "https://nickdesaulniers.github.io/blog/2013/06/13/8-months-in-mozilla/",
+      "summary": "Besides 3 months interrupted to finish degree requirements, and including an internship, I’ve been at Mozilla for about 8 months now. After reading a blog post of another software engineer’s experience at Microsoft, I count my blessings. Reading that article set off too many alarms in my head. It…",
+      "author": null,
+      "publishedAt": "2013-06-13T00:00:00.000Z"
+    },
+    {
+      "guid": "https://nickdesaulniers.github.io/blog/2013/05/07/rust-pattern-matching-and-the-option-type/",
+      "title": "Rust: Pattern Matching and the Option Type",
+      "link": "https://nickdesaulniers.github.io/blog/2013/05/07/rust-pattern-matching-and-the-option-type/",
+      "summary": "The other day I was thinking about the function for performing dynamic memory allocation in the C standard library, malloc. From the manual pages, If successful, the malloc() function returns a pointer to allocated memory. If there is an error, it returns a NULL pointer and sets errno to ENOMEM.…",
+      "author": null,
+      "publishedAt": "2013-05-07T00:00:00.000Z"
+    },
+    {
+      "guid": "https://nickdesaulniers.github.io/blog/2013/04/29/the-persistence-of-memory/",
+      "title": "The Persistence of Memory",
+      "link": "https://nickdesaulniers.github.io/blog/2013/04/29/the-persistence-of-memory/",
+      "summary": "I would like to die on Mars…\nElon Musk Elon Musk, the 21st Century Industrialist, Bloomberg Well, isn’t that forward thinking? Granted, the full quote I would like to die on Mars, just not on impact is meant to sound hopeful of his company, SpaceX. I agree that some day, humans will be buried on…",
+      "author": null,
+      "publishedAt": "2013-04-29T00:00:00.000Z"
+    },
+    {
+      "guid": "https://nickdesaulniers.github.io/blog/2013/04/03/basic-jit/",
+      "title": "Basic JIT",
+      "link": "https://nickdesaulniers.github.io/blog/2013/04/03/basic-jit/",
+      "summary": "Ever since I learned about Just In Time Compilation from the various Ruby VMs and JavaScript VMs, I’ve been inspired. I could tell you all about how just in time (JIT) compilation worked, and how it could give your interpreted language a speed boost. It was so cool. Well, it still is! There’s a ton…",
+      "author": null,
+      "publishedAt": "2013-04-03T00:00:00.000Z"
+    },
+    {
+      "guid": "https://nickdesaulniers.github.io/blog/2013/02/28/commandments-of-a-mobile-web/",
+      "title": "Commandments of a Mobile Web",
+      "link": "https://nickdesaulniers.github.io/blog/2013/02/28/commandments-of-a-mobile-web/",
+      "summary": "Over the past few years, there’s been certain paradigm shifts in web development. When you think of milestones that really changed how development on the web was done, the two biggest were Ajax and HTML5. Development was identifiably different before and after such technological advancements. There…",
+      "author": null,
+      "publishedAt": "2013-02-28T00:00:00.000Z"
+    },
+    {
+      "guid": "https://nickdesaulniers.github.io/blog/2013/01/26/c-function-pointers-alternate-syntax/",
+      "title": "C Function Pointers Alternate Syntax",
+      "link": "https://nickdesaulniers.github.io/blog/2013/01/26/c-function-pointers-alternate-syntax/",
+      "summary": "On an interview with Square, I made the mistake of stating that one of the benefits of working with JavaScript over C is that functions are first class in JavaScript, therefore they may be passed around. To which the interviewer replied, “Well, C can do that, what about function pointers?” What?…",
+      "author": null,
+      "publishedAt": "2013-01-26T00:00:00.000Z"
+    },
+    {
+      "guid": "https://nickdesaulniers.github.io/blog/2013/01/19/internet-freedom-is-not-free/",
+      "title": "[Internet] Freedom Is Not Free",
+      "link": "https://nickdesaulniers.github.io/blog/2013/01/19/internet-freedom-is-not-free/",
+      "summary": "Last week, the Internet community lost a member in the on going war against the copyright industry. While I’ve never met the deceased, or even heard of the deceased before his suicide, I’m horrified. I’m horrified that the government we are asked to put so much faith in, would give someone, not…",
+      "author": null,
+      "publishedAt": "2013-01-19T00:00:00.000Z"
+    },
+    {
+      "guid": "https://nickdesaulniers.github.io/blog/2013/01/14/closures-javascript/",
+      "title": "Closures: JavaScript, Ruby, and Rust",
+      "link": "https://nickdesaulniers.github.io/blog/2013/01/14/closures-javascript/",
+      "summary": "It’s all about closures. Understanding scope is paramount to coding. What can you access and what can’t you access. Closures allow us to access variables that otherwise might be awkward to pass into a function. Closures can help us out of tricky situations, but can confuse those from backgrounds…",
+      "author": null,
+      "publishedAt": "2013-01-14T00:00:00.000Z"
+    },
+    {
+      "guid": "https://nickdesaulniers.github.io/about/",
+      "title": "About",
+      "link": "https://nickdesaulniers.github.io/about/",
+      "summary": "Nick Desaulniers is a software engineer at Google working on compiling the Linux Kernel with Clang (and LLVM).\nNick has previously worked on TensorFlow’s Accelerated Linear Algebra (XLA) JIT compiler for Tensor Processing Units (TPUs), and the Linux kernel for the Nexus and Pixel phones while at…",
+      "author": null,
+      "publishedAt": "2001-01-01T00:00:00.000Z"
+    },
+    {
+      "guid": "https://nickdesaulniers.github.io/blog/archives/",
+      "title": "Blog Archive",
+      "link": "https://nickdesaulniers.github.io/blog/archives/",
+      "summary": "2023 Mar 10 USPS as an ISP 2023 Mar 10 Disambiguating Arm, Arm ARM, Armv9, ARM9, ARM64, AArch64, A64, A78, ... 2023 Feb 1 Forking is not free; the hidden costs 2023 Jan 27 Critical Edge Splitting 2023 Jan 20 Debugging -Wframe-larger-than= 2020 Apr 6 Off by Two 2019 May 12 f() vs f(void) in C vs C++…",
+      "author": null,
+      "publishedAt": "2001-01-01T00:00:00.000Z"
+    },
+    {
+      "guid": "https://nickdesaulniers.github.io/publications/",
+      "title": "Publications",
+      "link": "https://nickdesaulniers.github.io/publications/",
+      "summary": "Desaulniers, Nick. “WebGL Off the Main Thread.” Mozilla Hacks. Mozilla. January 22, 2015. Link\nDesaulniers, Nick. “Better than Gzip Compression with Brotli.” Mozilla Hacks. Mozilla. November 6, 2015. Link\nDesaulniers, Nick. “Stereoscopic Rendering in WebVR.” Mozilla Hacks. Mozilla. September 16,…",
+      "author": null,
+      "publishedAt": "2001-01-01T00:00:00.000Z"
+    },
+    {
+      "guid": "https://nickdesaulniers.github.io/talks/",
+      "title": "Talks",
+      "link": "https://nickdesaulniers.github.io/talks/",
+      "summary": "2019 Compiling the Linux Kernel with LLVM Tools FOSDEM ‘19’ - Brussels, Belgium - February 2-3\nslides - video\n2018 Compiling the Linux Kernel with Clang Linux Plumbers Conference 2018 - Vancouver, Canada - November 13-15\nslides - video\n2017 Compiling Android Userspace and Linux Kernel with LLVM…",
+      "author": null,
+      "publishedAt": "2001-01-01T00:00:00.000Z"
+    }
+  ],
+  "totalIndexed": 43
+}

@@ -1,0 +1,93 @@
+{
+  "feedId": "clever",
+  "feedName": "Clever",
+  "feedSiteUrl": "https://engineering.clever.com/",
+  "feedRssUrl": "https://engineering.clever.com/rss",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T06:45:52.590Z",
+  "items": [
+    {
+      "guid": "https://engineering.clever.com/?p=301",
+      "title": "Everything but the Kitchen Sync",
+      "link": "https://engineering.clever.com/2024/08/07/everything-but-the-kitchen-sync/",
+      "summary": "At Clever we move a lot of data, both from school districts into Clever and from Clever into all the external places that school districts want that data shared. Broadly, we call this behavior “syncing”, and various sync flavors show up across Clever. Let’s talk about two ways to perform data syncs…",
+      "author": "Sam Shen",
+      "publishedAt": "2024-08-07T18:51:01.000Z"
+    },
+    {
+      "guid": "https://engineering.clever.com/?p=221",
+      "title": "SAML Protocol",
+      "link": "https://engineering.clever.com/2023/11/29/saml-protocol/",
+      "summary": "A tool for Identity Federation Security Assertion Markup Language, or SAML, is an open standard for exchanging authentication and authorization data between two parties. It’s a common strategy for single sign-on (SSO), allowing users to sign in once and authenticate with multiple third party…",
+      "author": "Keith Richards",
+      "publishedAt": "2023-11-29T17:55:03.000Z"
+    },
+    {
+      "guid": "https://engineering.clever.com/?p=216",
+      "title": "OpenID Connect",
+      "link": "https://engineering.clever.com/2023/07/18/openid-connect/",
+      "summary": "Adding AuthN to OAuth2.0 OpenID Connect (OIDC) is an authentication protocol that sits on top of the OAuth2.0 protocol. It provides a standardized way for clients to authenticate users and obtain information about their identity. In simple terms, OpenID Connect allows users to log in to different…",
+      "author": "Keith Richards",
+      "publishedAt": "2023-07-18T19:59:50.000Z"
+    },
+    {
+      "guid": "https://engineering.clever.com/?p=210",
+      "title": "What is OAuth?",
+      "link": "https://engineering.clever.com/2023/05/23/what-is-oauth/",
+      "summary": "A primer on delegated access  OAuth, short for “open authorization”, is a widely used protocol that allows users to grant third-party websites or applications access to their personal information on other websites. It provides a mechanism for secure access delegation across the internet.  History…",
+      "author": "Keith Richards",
+      "publishedAt": "2023-05-23T17:54:15.000Z"
+    },
+    {
+      "guid": "https://engineering.clever.com/?p=206",
+      "title": "AuthN vs AuthZ: What is Auth?",
+      "link": "https://engineering.clever.com/2023/03/22/authorization-and-authentication/",
+      "summary": "Demystifying authentication and authorization When you hear the term Auth, what comes to mind? You probably think of signing into a system with your username and password, and you’re half right. But auth is bigger than that. The bucket term also includes everything you can do in a system once you…",
+      "author": "Keith Richards",
+      "publishedAt": "2023-03-22T17:48:14.000Z"
+    },
+    {
+      "guid": "https://engineering.clever.com/?p=198",
+      "title": "Privacy and Security in Clever Messaging",
+      "link": "https://engineering.clever.com/2022/10/11/privacy-and-security-in-clever-messaging/",
+      "summary": "Designing and engineering a messaging system that is used by 6.8 million students and  half a million teachers in K-12 schools is no easy feat. While the typical threats  against online systems from unauthorized and unauthenticated access to sensitive information remain, the school environment…",
+      "author": "Ulzii Otgonbaatar",
+      "publishedAt": "2022-10-11T18:42:13.000Z"
+    },
+    {
+      "guid": "https://engineering.clever.com/?p=187",
+      "title": "Interviewing at Clever: Answers to the 10 most common questions",
+      "link": "https://engineering.clever.com/2022/09/23/top-interview-questions/",
+      "summary": "What’s it like to be an engineer at Clever? What does success look like for individuals and teams? From engineers with non-traditional backgrounds to engineers with Computer Science degrees, four engineers share their perspectives about their experiences, typical days, and growth while working at…",
+      "author": "Casey Schlotter",
+      "publishedAt": "2022-09-23T17:09:43.000Z"
+    },
+    {
+      "guid": "https://engineering.clever.com/?p=169",
+      "title": "Working at Clever: a perspective from a former intern turned full time engineer",
+      "link": "https://engineering.clever.com/2022/04/25/working-at-clever-a-perspective-from-a-former-intern-turned-full-time-engineer/",
+      "summary": "During my final search for an internship, I had an idea of where I wanted to work: a place with a friendly culture and strong engineering practices – something in between a startup and a big company. To my luck, I interned at Clever – an organization that surpassed those expectations in the span of…",
+      "author": "Vijay Bharadwaj",
+      "publishedAt": "2022-04-25T17:37:36.000Z"
+    },
+    {
+      "guid": "https://engineering.clever.com/?p=160",
+      "title": "How we handle multi-region sessions at Clever",
+      "link": "https://engineering.clever.com/2021/08/10/how-we-handle-multi-region-sessions-at-clever/",
+      "summary": "Why multi-region sessions? Each year leading up to Back to School (our busiest season), Clever’s engineering team invests in our highest traffic systems to make sure we can handle user growth and new traffic patterns. During 2020–2021, SAML auth at Clever grew from <10% of our login related traffic…",
+      "author": "Nathan Leiby",
+      "publishedAt": "2021-08-10T20:48:35.000Z"
+    },
+    {
+      "guid": "https://engineering.clever.com/?p=154",
+      "title": "Lessons learned: My first year transitioning from an engineer to a manager",
+      "link": "https://engineering.clever.com/2021/07/12/lessons-learned-my-first-year-transitioning-from-an-engineer-to-a-manager/",
+      "summary": "Emily Hou talks about her transition from an individual contributor to an engineering manager at Clever. \nThe post Lessons learned: My first year transitioning from an engineer to a manager appeared first on Clever Engineering Blog.",
+      "author": "Emily Hou",
+      "publishedAt": "2021-07-12T23:29:00.000Z"
+    }
+  ],
+  "totalIndexed": 10
+}

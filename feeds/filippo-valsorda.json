@@ -1,0 +1,93 @@
+{
+  "feedId": "filippo-valsorda",
+  "feedName": "Filippo Valsorda",
+  "feedSiteUrl": "https://blog.filippo.io/",
+  "feedRssUrl": "https://words.filippo.io/rss/",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T06:50:04.581Z",
+  "items": [
+    {
+      "guid": "934ab302-3024-430f-856d-f850cdbedbb4",
+      "title": "Opaque, Interoperable Passkey Records (and a Go API)",
+      "link": "https://words.filippo.io/passkey-record/",
+      "summary": "Passkey records are an interoperable format for WebAuthn credentials, similar to password hash strings. I propose a potential crypto/passkey Go API based on them.",
+      "author": "Filippo Valsorda <feed@filippo.io>",
+      "publishedAt": "2026-07-20T22:33:32.000Z"
+    },
+    {
+      "guid": "04ee47ca-b3fa-404c-8341-59ac01e74387",
+      "title": "Vulnerability Reports Are Not Special Anymore",
+      "link": "https://words.filippo.io/vuln-reports/",
+      "summary": "We needed the insight and confidentiality to protect our users, but now that anyone can get the same results from LLM?",
+      "author": "Filippo Valsorda <feed@filippo.io>",
+      "publishedAt": "2026-06-23T13:00:00.000Z"
+    },
+    {
+      "guid": "0f203933-57c1-4b1b-a314-945d565dfe57",
+      "title": "Quantum Computers Are Not a Threat to 128-bit Symmetric Keys",
+      "link": "https://words.filippo.io/128-bits/",
+      "summary": "There is no need to update symmetric key sizes as part of the post-quantum transition, due to the details of how Grover's algorithm scales. Most authorities agree.",
+      "author": "Filippo Valsorda <feed@filippo.io>",
+      "publishedAt": "2026-04-20T15:21:12.000Z"
+    },
+    {
+      "guid": "ef208827-6e2d-4fee-b876-bbbdc92c71d1",
+      "title": "A Cryptography Engineer’s Perspective on Quantum Computing Timelines",
+      "link": "https://words.filippo.io/crqc-timeline/",
+      "summary": "The risk that cryptographically-relevant quantum computers materialize within the next few years is now high enough to be dispositive, unfortunately.",
+      "author": "Filippo Valsorda <feed@filippo.io>",
+      "publishedAt": "2026-04-06T15:00:00.000Z"
+    },
+    {
+      "guid": "78167567-16ac-421c-87ea-c8632d59cb62",
+      "title": "Turn Dependabot Off",
+      "link": "https://words.filippo.io/dependabot/",
+      "summary": "I recommend turning Dependabot off and replacing it with a pair of scheduled GitHub Actions, one running govulncheck, and the other running CI against the latest version of your dependencies.",
+      "author": "Filippo Valsorda <feed@filippo.io>",
+      "publishedAt": "2026-02-20T19:48:08.000Z"
+    },
+    {
+      "guid": "821d2995-cb55-4b5e-a984-1d04f17180d7",
+      "title": "Inspecting the Source of Go Modules",
+      "link": "https://words.filippo.io/go-source/",
+      "summary": "Code hosts like GitHub don't necessarily show the correct source of Go modules. pkg.geomys.dev is a new convenient viewer for module source.",
+      "author": "Filippo Valsorda <feed@filippo.io>",
+      "publishedAt": "2026-02-12T13:48:03.000Z"
+    },
+    {
+      "guid": "b53ef7fa-3cfc-4ade-8e44-879d21fb1242",
+      "title": "go.sum Is Not a Lockfile",
+      "link": "https://words.filippo.io/gosum/",
+      "summary": "In Go, go.mod acts as both manifest and lockfile. There is never a reason to look at go.sum.",
+      "author": "Filippo Valsorda <feed@filippo.io>",
+      "publishedAt": "2026-01-05T20:06:30.000Z"
+    },
+    {
+      "guid": "6a08ff4c-b068-4ec1-92c1-0afeb8e02173",
+      "title": "Building a Transparent Keyserver",
+      "link": "https://words.filippo.io/keyserver-tlog/",
+      "summary": "We apply a transparency log to a centralized keyserver step-by-step, in less than 500 lines, with privacy protections, anti-poisoning, and witness cosigning.",
+      "author": "Filippo Valsorda <feed@filippo.io>",
+      "publishedAt": "2025-12-19T14:03:18.000Z"
+    },
+    {
+      "guid": "28a007a2-6d52-4831-a7bf-a5ef5605f5a0",
+      "title": "The 2025 Go Cryptography State of the Union",
+      "link": "https://words.filippo.io/2025-state/",
+      "summary": "I delivered my traditional Go Cryptography State of the Union talk at GopherCon US 2025 in New York. It goes into everything that happened at the intersection of Go and cryptography over the last year.",
+      "author": "Filippo Valsorda <feed@filippo.io>",
+      "publishedAt": "2025-11-20T15:42:24.000Z"
+    },
+    {
+      "guid": "41004eda-82a8-450f-899c-67e05d5e3be5",
+      "title": "Claude Code Can Debug Low-level Cryptography",
+      "link": "https://words.filippo.io/claude-debugging/",
+      "summary": "Surprisingly (to me) Claude Code debugged my new ML-DSA implementation faster than I would have, finding the non-obvious low-level issue that was making Verify fail.",
+      "author": "Filippo Valsorda <feed@filippo.io>",
+      "publishedAt": "2025-11-01T18:10:13.000Z"
+    }
+  ],
+  "totalIndexed": 10
+}

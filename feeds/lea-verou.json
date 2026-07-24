@@ -1,0 +1,413 @@
+{
+  "feedId": "lea-verou",
+  "feedName": "Lea Verou",
+  "feedSiteUrl": "http://lea.verou.me/",
+  "feedRssUrl": "http://lea.verou.me/feed.xml",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T06:57:39.141Z",
+  "items": [
+    {
+      "guid": "lea-verou::https://lea.verou.me/2009/02/check-if-a-css-property-is-supported/",
+      "title": "Check whether a CSS property is supported",
+      "link": "https://lea.verou.me/2009/02/check-if-a-css-property-is-supported/",
+      "summary": "Sometimes when using JavaScript, you need to determine whether a certain CSS property is supported by the current browser or not. For instance when setting opacity for an element, you need to find out whether the property that the browser supports is opacity, -moz-opacity (MozOpacity),…",
+      "author": null,
+      "publishedAt": "2009-02-10T00:00:00.000Z"
+    },
+    {
+      "guid": "lea-verou::https://lea.verou.me/2009/02/js-library-detector/",
+      "title": "JS library detector",
+      "link": "https://lea.verou.me/2009/02/js-library-detector/",
+      "summary": "Ever wondered which JavaScript library (if any) is hidden beneath the bells & whistles of each site you gazed at? Since I am a curious person, I find myself wondering every time, so after a bit of research, I wrapped up a little bookmarklet that instantly told me the answer every time.\nThe logic…",
+      "author": null,
+      "publishedAt": "2009-02-11T00:00:00.000Z"
+    },
+    {
+      "guid": "lea-verou::https://lea.verou.me/2009/02/extend-mathround-mathceil-and-mathfloor-to-allow-precision/",
+      "title": "Extend Math.round, Math.ceil and Math.floor to allow for precision",
+      "link": "https://lea.verou.me/2009/02/extend-mathround-mathceil-and-mathfloor-to-allow-precision/",
+      "summary": "Math.round, Math.ceil and Math.floor are very useful functions. However, when using them, I find myself many times needing to specify a precision level. You don’t always want to round to an integer, you often just want to strip away some of the decimals.\nWe probably all know that if we have a…",
+      "author": null,
+      "publishedAt": "2009-02-12T00:00:00.000Z"
+    },
+    {
+      "guid": "lea-verou::https://lea.verou.me/2009/02/find-the-vendor-prefix-of-the-current-browser/",
+      "title": "Find the vendor prefix of the current browser",
+      "link": "https://lea.verou.me/2009/02/find-the-vendor-prefix-of-the-current-browser/",
+      "summary": "As you probably know already, when browsers implement an experimental or proprietary CSS property, they prefix it with their “vendor prefix”, so that 1) it doesn’t collide with other properties and 2) you can choose whether to use it or not in that particular browser, since it’s support might be…",
+      "author": null,
+      "publishedAt": "2009-02-13T00:00:00.000Z"
+    },
+    {
+      "guid": "lea-verou::https://lea.verou.me/2009/02/css3-border-radius-today/",
+      "title": "CSS3 border-radius, today",
+      "link": "https://lea.verou.me/2009/02/css3-border-radius-today/",
+      "summary": "This is the first one from a series of articles I’m going to write about using CSS3 properties or values today. I’ll cover everything I have found out while using them, including various browser quirks and bugs I know of or have personally filed regarding them. In this part I’ll discuss ways to…",
+      "author": null,
+      "publishedAt": "2009-02-13T00:00:00.000Z"
+    },
+    {
+      "guid": "lea-verou::https://lea.verou.me/2009/02/bulletproof-cross-browser-rgba-backgrounds/",
+      "title": "Bulletproof, cross-browser RGBA backgrounds, today",
+      "link": "https://lea.verou.me/2009/02/bulletproof-cross-browser-rgba-backgrounds/",
+      "summary": "UPDATE: New version\nFirst of all, happy Valentine’s day for yersterday. :) This is the second part of my “Using CSS3 today” series. This article discusses current RGBA browser support and ways to use RGBA backgrounds in non-supporting browsers. Bonus gift: A PHP script of mine that creates fallback…",
+      "author": null,
+      "publishedAt": "2009-02-15T00:00:00.000Z"
+    },
+    {
+      "guid": "lea-verou::https://lea.verou.me/2009/02/silent-automatic-updates-are-the-way-to-go/",
+      "title": "Silent, automatic updates are the way to go",
+      "link": "https://lea.verou.me/2009/02/silent-automatic-updates-are-the-way-to-go/",
+      "summary": "Recently, PPK stated that he hates Google Chrome’s automatic updates. I disagree. In fact, I think that all browser vendors should enforce automatic updates as violently as Google Chrome does. There should be no option to disable them. For anybody.\nBut what about the user’s freedom of choice?\nThis…",
+      "author": null,
+      "publishedAt": "2009-02-18T00:00:00.000Z"
+    },
+    {
+      "guid": "lea-verou::https://lea.verou.me/2009/02/20things-you-should-know-when-not-using-a-js-library/",
+      "title": "20 things you should know when not using a JS library",
+      "link": "https://lea.verou.me/2009/02/20things-you-should-know-when-not-using-a-js-library/",
+      "summary": "You might just dislike JavaScript libraries and the trend around them, or the project you’re currently working on might be too small for a JavaScript library. In both cases, I understand, and after all, who am I to judge you? I don’t use a library myself either (at least not one that you could’ve…",
+      "author": null,
+      "publishedAt": "2009-02-22T00:00:00.000Z"
+    },
+    {
+      "guid": "lea-verou::https://lea.verou.me/2009/02/quick-dirty-way-to-run-snippets-of-javascript-anywhere/",
+      "title": "Quick & dirty way to run snippets of JavaScript anywhere",
+      "link": "https://lea.verou.me/2009/02/quick-dirty-way-to-run-snippets-of-javascript-anywhere/",
+      "summary": "Ever wanted to run a snippet of JavaScript on a browser that doesn’t support a console in order to debug something? (for instance, IE6, Opera etc)\nYou probably know about Firebug Lite, but this either requires you to already have the bookmarklet, or include the script in the page. Although Firebug…",
+      "author": null,
+      "publishedAt": "2009-02-23T00:00:00.000Z"
+    },
+    {
+      "guid": "lea-verou::https://lea.verou.me/2009/02/appearances-can-be-deceiving-mr-anderson-aka-short-code-is-not-always-fast-code/",
+      "title": "\"Appearances can be deceiving Mr. Anderson\" - a.k.a. short code is not always fast code",
+      "link": "https://lea.verou.me/2009/02/appearances-can-be-deceiving-mr-anderson-aka-short-code-is-not-always-fast-code/",
+      "summary": "I used to take pride in my short, bulletproof and elegant String and Number type checks:\n// Check whether obj is a Number\nobj + 0 === obj\n\n// Check whether obj is a String\nobj + '' === obj\n\n\nI always thought that apart from being short and elegant, they should be faster.\nHowever, some quick tests…",
+      "author": null,
+      "publishedAt": "2009-02-25T00:00:00.000Z"
+    },
+    {
+      "guid": "lea-verou::https://lea.verou.me/2009/03/check-whether-the-browser-supports-rgba-and-other-css3-values/",
+      "title": "Check whether the browser supports RGBA (and other CSS3 values)",
+      "link": "https://lea.verou.me/2009/03/check-whether-the-browser-supports-rgba-and-other-css3-values/",
+      "summary": "When using CSS, we can just include both declarations, one using rgba, and one without it, as mentioned in my post on cross-browser RGBA backgrounds. When writing JavaScript however, it’s a waste of resources to do that (and requires more verbose code), since we can easily check whether the browser…",
+      "author": null,
+      "publishedAt": "2009-03-01T00:00:00.000Z"
+    },
+    {
+      "guid": "lea-verou::https://lea.verou.me/2009/03/regarding-native-single-input-multiple-file-uploads/",
+      "title": "On native, single-input, multiple file uploads",
+      "link": "https://lea.verou.me/2009/03/regarding-native-single-input-multiple-file-uploads/",
+      "summary": "If you are following the current news on web development, you probably heard that the new Safari 4 has a great feature: It natively allows the user to select multiple files via a single input control, if you specify a value for the attribute multiple:\n<input type=\"file\" multiple>\n\n\nor, in XHTML:…",
+      "author": null,
+      "publishedAt": "2009-03-07T00:00:00.000Z"
+    },
+    {
+      "guid": "lea-verou::https://lea.verou.me/2009/03/cmyk-colors-in-css-useful-or-useless/",
+      "title": "CMYK colors in CSS: Useful or useless?",
+      "link": "https://lea.verou.me/2009/03/cmyk-colors-in-css-useful-or-useless/",
+      "summary": "As someone who dealed a bit with print design in the past, I consider CMYK colors the easiest color system for humen to understand and manipulate. It’s very similar to what we used as children, when mixing watercolors for our drawings. It makes perfect sense, more than HSL and definately more than…",
+      "author": null,
+      "publishedAt": "2009-03-09T00:00:00.000Z"
+    },
+    {
+      "guid": "lea-verou::https://lea.verou.me/2009/03/css3-colors-today-mediacampathens-session/",
+      "title": "CSS3 colors, today (MediaCampAthens session)",
+      "link": "https://lea.verou.me/2009/03/css3-colors-today-mediacampathens-session/",
+      "summary": "Yesterday, I had a session at MediaCampAthens (a BarCamp-style event), regarding CSS3 colors. If you’ve followed my earlier posts tagged with “colors”, my presentation was mostly a sum-up of these.\nIt was my first presentation ever, actually, the first time I talked to an audience for more than 1…",
+      "author": null,
+      "publishedAt": "2009-03-15T00:00:00.000Z"
+    },
+    {
+      "guid": "lea-verou::https://lea.verou.me/2009/03/mockup-viewer-bookmarklet/",
+      "title": "Mockup viewer bookmarklet",
+      "link": "https://lea.verou.me/2009/03/mockup-viewer-bookmarklet/",
+      "summary": "I usually view mockups in a browser, so that the impression I get is as close as possible to reality (I learned this the hard way: A mockup that seemed great in the neutral and minimalistic environment of a picture viewer, ended up looking way too fancy when viewed in a browser, something that I…",
+      "author": null,
+      "publishedAt": "2009-03-18T00:00:00.000Z"
+    },
+    {
+      "guid": "lea-verou::https://lea.verou.me/2009/03/cross-browser-imageless-linear-gradients/",
+      "title": "Cross browser, imageless linear gradients",
+      "link": "https://lea.verou.me/2009/03/cross-browser-imageless-linear-gradients/",
+      "summary": "I have to write a color picker in the near future and I wanted it to have those little gradients on top of the sliders that show you the effect that a slider change will have on the selected color. Consequently, I needed to create imageless gradients, in order to easily change them. My very first…",
+      "author": null,
+      "publishedAt": "2009-03-20T00:00:00.000Z"
+    },
+    {
+      "guid": "lea-verou::https://lea.verou.me/2009/03/100-cyan-in-cmyk-is-not-rgb0255255/",
+      "title": "100% Cyan in CMYK is NOT rgb(0,255,255)!!",
+      "link": "https://lea.verou.me/2009/03/100-cyan-in-cmyk-is-not-rgb0255255/",
+      "summary": "As I mentioned in an earlier post of mine, I have to create a color picker, so I’ve already started to write the code for the Color class it’s going to use. I need it to natively support RGB, HSL, Lab and CMYK. And the latter part is causing unexpected trouble.\nIt seems that there is the notion out…",
+      "author": null,
+      "publishedAt": "2009-03-23T00:00:00.000Z"
+    },
+    {
+      "guid": "lea-verou::https://lea.verou.me/2009/03/extend-mathlog-to-allow-for-bases-e/",
+      "title": "Extend Math.log to allow for bases != e",
+      "link": "https://lea.verou.me/2009/03/extend-mathlog-to-allow-for-bases-e/",
+      "summary": "As Math.log currently stands, it’s a bit useless. It only calculates natural logarithms (base e).  We can easily modify it however, to calculate logarithms of any base:\nMath.log = (function() {\n\tvar log = Math.log;\n\treturn function(n, a) {\n\t\treturn log(n)/(a? log(a) : 1);\n\t}\n})();\n\n\nWe can now…",
+      "author": null,
+      "publishedAt": "2009-03-26T00:00:00.000Z"
+    },
+    {
+      "guid": "lea-verou::https://lea.verou.me/2009/03/advocacy-of-javascript/",
+      "title": "Advocacy of JavaScript",
+      "link": "https://lea.verou.me/2009/03/advocacy-of-javascript/",
+      "summary": "I frequently meet these “hardcore” developers that deep (or not so deep) inside them, tend to underestimate JavaScript developers and boast about their own superiority. I’m sure that if you spent an important percentage of your career working with JavaScript and are even barely social, you…",
+      "author": null,
+      "publishedAt": "2009-03-30T00:00:00.000Z"
+    },
+    {
+      "guid": "lea-verou::https://lea.verou.me/2009/04/help-me-take-the-color-survey/",
+      "title": "Help me: take the color survey",
+      "link": "https://lea.verou.me/2009/04/help-me-take-the-color-survey/",
+      "summary": "If you are a creative professional, or just passionate about colors, please take my survey:\nhttp://bit.ly/colorsurvey\nIt will greatly help me to make a future project of our company more usable (some of its features at least) and it only takes a few minutes (it contains 10-19 questions, depending…",
+      "author": null,
+      "publishedAt": "2009-04-06T00:00:00.000Z"
+    },
+    {
+      "guid": "lea-verou::https://lea.verou.me/2009/04/better-usability-in-5-minutes/",
+      "title": "Better usability in 5 minutes",
+      "link": "https://lea.verou.me/2009/04/better-usability-in-5-minutes/",
+      "summary": "In this post I’m going to share some tips to increase a site’s usability that are very quick to implement. Not all of them are cross-browser, but they are the icing on the cake anyway, nobody would mind without them.\n1. Make buttons and button-like links appear pressed\nThis is a personal favorite.…",
+      "author": null,
+      "publishedAt": "2009-04-10T00:00:00.000Z"
+    },
+    {
+      "guid": "lea-verou::https://lea.verou.me/2009/04/java-pretty-dates/",
+      "title": "Java pretty dates",
+      "link": "https://lea.verou.me/2009/04/java-pretty-dates/",
+      "summary": "First of all, sorry for not posting as frequently as before. I’m feverishly working on a new project with a really tight deadline and I don’t have as much time as I previously did.\nFor reasons that are irrelevant to this post, I have to write lots of Java code. So, sorry if I disappoint my fellow…",
+      "author": null,
+      "publishedAt": "2009-04-21T00:00:00.000Z"
+    },
+    {
+      "guid": "lea-verou::https://lea.verou.me/2009/04/cross-browser-imageless-linear-gradients-v2/",
+      "title": "Cross-browser imageless linear gradients v2",
+      "link": "https://lea.verou.me/2009/04/cross-browser-imageless-linear-gradients-v2/",
+      "summary": "A while ago, I posted a script of mine for creating 2-color cross-browser imageless linear gradients. As I stated there, I needed them for a color picker I have to create. And even though 2-color gradients are sufficient for most components, in most color spaces, I had forgotten an important one:…",
+      "author": null,
+      "publishedAt": "2009-04-24T00:00:00.000Z"
+    },
+    {
+      "guid": "lea-verou::https://lea.verou.me/2009/04/creating-the-perfect-slider/",
+      "title": "Creating the perfect slider",
+      "link": "https://lea.verou.me/2009/04/creating-the-perfect-slider/",
+      "summary": "I’ve previously discussed many times the color picker I have to create, and blogged about my findings on the way. An essential component of most color pickers is a slider control.\nI won’t go through much techincal details or JavaScript code in this article (after all the usability guidelines…",
+      "author": null,
+      "publishedAt": "2009-04-24T00:00:00.000Z"
+    },
+    {
+      "guid": "lea-verou::https://lea.verou.me/2009/05/9-reasons-why-i-prefer-mysql-to-ms-sql-server/",
+      "title": "9 reasons why I prefer MySQL to MS SQL Server",
+      "link": "https://lea.verou.me/2009/05/9-reasons-why-i-prefer-mysql-to-ms-sql-server/",
+      "summary": "In the past, I used MySQL for any of my DBMS needs. It wasn’t really an informed decision based on solid facts, actually I had never really given it any thought. It was what most developers used, it was what vBulletin used (one of the main projects of my company is based on vBulletin), it was what…",
+      "author": null,
+      "publishedAt": "2009-05-16T00:00:00.000Z"
+    },
+    {
+      "guid": "lea-verou::https://lea.verou.me/2009/06/tip-multi-step-form-handling/",
+      "title": "Tip: Multi-step form handling",
+      "link": "https://lea.verou.me/2009/06/tip-multi-step-form-handling/",
+      "summary": "First of all, sorry for my long absence! I haven’t abandoned this blog, I was just really, really busy. I’m still busy, and this probably won’t change soon. However, I will still blog when I get too fed up with work or studying (this is one of these moments…). Now, let’s get to the meat.\nThe…",
+      "author": null,
+      "publishedAt": "2009-06-16T00:00:00.000Z"
+    },
+    {
+      "guid": "lea-verou::https://lea.verou.me/2009/06/on-password-masking-and-usability/",
+      "title": "On password masking and usability",
+      "link": "https://lea.verou.me/2009/06/on-password-masking-and-usability/",
+      "summary": "I just read Jakob Nielsen’s recent post in which he urged web designers/developers to stop password masking due to it’s inherent usability issues. I found it an interesting read. Hey, at last, someone dared to talk about the elephant in the room!\nIn most cases password masking is indeed useless,…",
+      "author": null,
+      "publishedAt": "2009-06-28T00:00:00.000Z"
+    },
+    {
+      "guid": "lea-verou::https://lea.verou.me/2009/07/idea-the-simplest-registration-form-ever/",
+      "title": "Idea: The simplest registration form ever",
+      "link": "https://lea.verou.me/2009/07/idea-the-simplest-registration-form-ever/",
+      "summary": "If a web application has some sort of registration system (and most do), the registration page should be one of the most attractive, inviting, usable pages of it. It should make you to want to register, not repulse you. We don’t want the user to give up in the middle of filling it because they are…",
+      "author": null,
+      "publishedAt": "2009-07-23T00:00:00.000Z"
+    },
+    {
+      "guid": "lea-verou::https://lea.verou.me/2009/07/bevels-in-css3/",
+      "title": "Bevels in CSS3",
+      "link": "https://lea.verou.me/2009/07/bevels-in-css3/",
+      "summary": "Yeah, yeah I know, bevels are soooo 1996. And I agree. However, it’s always good to know the capabilities of your tools. Talented designers will know when it’s suitable to use a certain effect and incapable ones will abuse whatever is given to them, so after a lot of thought, I decided to blog…",
+      "author": null,
+      "publishedAt": "2009-07-23T00:00:00.000Z"
+    },
+    {
+      "guid": "lea-verou::https://lea.verou.me/2009/07/bytesize-matters/",
+      "title": "(byte)size matters",
+      "link": "https://lea.verou.me/2009/07/bytesize-matters/",
+      "summary": "Yesterday, I was editing a CSS file and I was wondering how many bytes/KB would a particular addition add to it, in order to decide if it was worth it. Since, I had found myself wondering about the exact same thing multiple times in the past, I decided to make a simple standalone HTML page that…",
+      "author": null,
+      "publishedAt": "2009-07-31T00:00:00.000Z"
+    },
+    {
+      "guid": "lea-verou::https://lea.verou.me/2009/09/css-text-shadow/",
+      "title": "Exploring CSS3 text-shadow",
+      "link": "https://lea.verou.me/2009/09/css-text-shadow/",
+      "summary": "I consider CSS3’s text-shadow one of the most exciting CSS3* properties, which offers us a lot more effects than it’s name suggests. Of course, it can be used for creating drop shadows for text, and it carries out that task very well, but it’s inherent flexibility allows it to be also used for glow…",
+      "author": null,
+      "publishedAt": "2009-09-13T00:00:00.000Z"
+    },
+    {
+      "guid": "lea-verou::https://lea.verou.me/2009/10/a-css3-learning-tool/",
+      "title": "A CSS3 learning(?) tool",
+      "link": "https://lea.verou.me/2009/10/a-css3-learning-tool/",
+      "summary": "In case anyone is interested, this is my take on the “challenge” that Brad Neuberg posted today on Ajaxian. It needs more properties, but it’s very easy to extend. I guess I should also add CSS3 values (RGBA/HSL(A) colors, CSS gradients etc) but oh well, I’m currently in a hurry. I will, if anyone…",
+      "author": null,
+      "publishedAt": "2009-10-08T00:00:00.000Z"
+    },
+    {
+      "guid": "lea-verou::https://lea.verou.me/2009/10/new-version-of-rgba-php-is-out/",
+      "title": "New version of rgba.php is out!",
+      "link": "https://lea.verou.me/2009/10/new-version-of-rgba-php-is-out/",
+      "summary": "It’s been a while since I posted my little server-side solution for cross-browser RGBA colors (in a nutshell: native rgba for the cool browsers that support it, a PHP-generated image for those that don’t). For features, advantages, disadvantages etc, go see the original post. In this one I’ll only…",
+      "author": null,
+      "publishedAt": "2009-10-25T00:00:00.000Z"
+    },
+    {
+      "guid": "lea-verou::https://lea.verou.me/2009/11/a-different-approach-to-elastic-textareas/",
+      "title": "A different approach to elastic textareas",
+      "link": "https://lea.verou.me/2009/11/a-different-approach-to-elastic-textareas/",
+      "summary": "I loved elastic textareas since the very first moment I used one (at facebook obviously). They let you save screen real estate while at the same time they are more comfortable for the end user. It’s one of the rare occasions when you can have your UI cake and eat it too!\nHowever, I never liked the…",
+      "author": null,
+      "publishedAt": "2009-11-13T00:00:00.000Z"
+    },
+    {
+      "guid": "lea-verou::https://lea.verou.me/2009/11/yet-another-email-hiding-technique/",
+      "title": "Yet another email hiding technique?",
+      "link": "https://lea.verou.me/2009/11/yet-another-email-hiding-technique/",
+      "summary": "While exploring browser-supported Unicode characters, I noticed that apart from the usual @ and . (dot), there was another character that resembled an @ sign (0xFF20 or ＠) and various characters that resembled a period (I think 0x2024 or ․ is closer, but feel free to argue).\nI’m wondering, if one…",
+      "author": null,
+      "publishedAt": "2009-11-29T00:00:00.000Z"
+    },
+    {
+      "guid": "lea-verou::https://lea.verou.me/2009/11/exploring-browser-supported-unicode-characters-and-a-tweet-shortening-experiment/",
+      "title": "Exploring browser-supported Unicode characters and a tweet shortening experiment",
+      "link": "https://lea.verou.me/2009/11/exploring-browser-supported-unicode-characters-and-a-tweet-shortening-experiment/",
+      "summary": "I recently wanted to post something on twitter that was just slightly over the 140 chars limit and I didn’t want to shorten it by cutting off characters (some lyrics from Pink Floyd’s “Hey You” that expressed a particular thought I had at the moment – it would be barbaric to alter Roger Waters’…",
+      "author": null,
+      "publishedAt": "2009-11-29T00:00:00.000Z"
+    },
+    {
+      "guid": "lea-verou::https://lea.verou.me/2009/12/reading-cookies-the-regular-expression-way/",
+      "title": "Reading cookies the regular expression way",
+      "link": "https://lea.verou.me/2009/12/reading-cookies-the-regular-expression-way/",
+      "summary": "While taking a look on the 2nd 24ways article for 2009, I was really surprised to read that “The Web Storage API is basically cookies on steroids, a unhealthy dosage of steroids. Cookies are always a pain to work with. First of all you have the problem of setting, changing and deleting them.…",
+      "author": null,
+      "publishedAt": "2009-12-03T00:00:00.000Z"
+    },
+    {
+      "guid": "lea-verou::https://lea.verou.me/2009/12/quickly-find-the-gravatar-that-corresponds-to-a-given-email/",
+      "title": "Quickly find the Gravatar that cor­res­ponds to a given email",
+      "link": "https://lea.verou.me/2009/12/quickly-find-the-gravatar-that-corresponds-to-a-given-email/",
+      "summary": "Today I needed to quickly find the Gravatars that corresponded to a bunch of email addresses for some reason (don’t ask). After a bit of googling and wandering around in Gravatar’s official site and others, I firgured out it’s probably much quicker to write a short PHP script for that myself, than…",
+      "author": null,
+      "publishedAt": "2009-12-07T00:00:00.000Z"
+    },
+    {
+      "guid": "lea-verou::https://lea.verou.me/2010/02/redesign/",
+      "title": "Redesign",
+      "link": "https://lea.verou.me/2010/02/redesign/",
+      "summary": "Was about time, wasn’t it?\nI wanted a simpler, more minimalistic (and wider!) theme for a while now. The other one was too restrictive. I had designed it when I had absolutely no content, and few changes were made to it afterwards.\nSo, today that I was too sad and furious to do anything productive,…",
+      "author": null,
+      "publishedAt": "2010-02-13T00:00:00.000Z"
+    },
+    {
+      "guid": "lea-verou::https://lea.verou.me/2010/02/iphone-keyboard-with-css3-no-images/",
+      "title": "iPhone keyboard with CSS3 -- no images",
+      "link": "https://lea.verou.me/2010/02/iphone-keyboard-with-css3-no-images/",
+      "summary": "Yeap, this is yet another of those things that make no practical sense but are fun to make just to see whether it can actually be done. It’s also a proof of the fact that when I have too many things to do, I tend to procrastinate more. :P\nHere it is (resize the window to get the narrow version ;)):…",
+      "author": null,
+      "publishedAt": "2010-02-18T00:00:00.000Z"
+    },
+    {
+      "guid": "lea-verou::https://lea.verou.me/2010/02/cssninjas-custom-forms-revisited-to-work-with-css-sprites/",
+      "title": "CSSNinja's custom forms revisited to work with CSS sprites",
+      "link": "https://lea.verou.me/2010/02/cssninjas-custom-forms-revisited-to-work-with-css-sprites/",
+      "summary": "I read today CSS Ninja’s (Ryan Sheddon’s) brilliant new technique about the creation of custom checkboxes and radio buttons with CSS alone.\nThe only thing that bugged me about it was something he pointed himself out as well:\nThis technique has only 1 drawback I can think of, IE support is not a…",
+      "author": null,
+      "publishedAt": "2010-02-19T00:00:00.000Z"
+    },
+    {
+      "guid": "lea-verou::https://lea.verou.me/2010/03/css3-structural-pseudo-class-selector-tester/",
+      "title": "CSS3 structural pseudo-class selector tester",
+      "link": "https://lea.verou.me/2010/03/css3-structural-pseudo-class-selector-tester/",
+      "summary": "I was doing some research today about how people explain the CSS3 structural* pseudo classes and I stumbled upon this demo by CSS tricks: http://css-tricks.com/examples/nth-child-tester/\nI thought the idea is awesome, but lacks a few features:\nIt doesn’t use the native browser algorithm for…",
+      "author": null,
+      "publishedAt": "2010-03-14T00:00:00.000Z"
+    },
+    {
+      "guid": "lea-verou::https://lea.verou.me/2010/03/mysql-are-you-actually-utilizing-your-indexes/",
+      "title": "MySQL: Are you actually utilizing your indexes?",
+      "link": "https://lea.verou.me/2010/03/mysql-are-you-actually-utilizing-your-indexes/",
+      "summary": "This might seem elementary to those of you that are DBAs or something similar, but it was fascinating to find out (not to mention it greatly helped what I had to do), so I decided to post it, in case it helps someone else too. A few moments ago I found out that whereas a query along the lines of……",
+      "author": null,
+      "publishedAt": "2010-03-25T00:00:00.000Z"
+    },
+    {
+      "guid": "lea-verou::https://lea.verou.me/2010/04/on-css-counters-plus-a-css3-reversi-ui/",
+      "title": "On CSS counters plus a CSS3 Reversi UI",
+      "link": "https://lea.verou.me/2010/04/on-css-counters-plus-a-css3-reversi-ui/",
+      "summary": "CSS Counters have a lot more potential than most web developers seem to think. The common use case consists of something like:\nsomecontainer { counter-reset: foocount; }\nΕ { counter-increment: foocount; }\nΕ::before { content: counter(foocount) \". \"; }\n\n\ncommonly used to add numbering to section…",
+      "author": null,
+      "publishedAt": "2010-04-01T00:00:00.000Z"
+    },
+    {
+      "guid": "lea-verou::https://lea.verou.me/2010/05/wow-mona-lisa-with-pure-css/",
+      "title": "\"Wow, Mona Lisa with pure CSS!\"",
+      "link": "https://lea.verou.me/2010/05/wow-mona-lisa-with-pure-css/",
+      "summary": "There has been a recent flood of CSS experiments that utilize CSS3 features to convert some meaningless markup to spectacular pictures. It all started when David Desandro used CSS3 to draw the Opera logo. This seemed to inspire lots of other folks who created similar demos:\nPure CSS icons\nCreate…",
+      "author": null,
+      "publishedAt": "2010-05-25T00:00:00.000Z"
+    },
+    {
+      "guid": "lea-verou::https://lea.verou.me/2010/07/organizing-a-university-course-on-modern-web-development/",
+      "title": "Organizing a university course on modern Web development",
+      "link": "https://lea.verou.me/2010/07/organizing-a-university-course-on-modern-web-development/",
+      "summary": "About a year ago, prof. Vasilis Vassalos of Athens University of Economics and Business approached me and asked for my help in a new course they were preparing for their Computer Science department, which would introduce 4th year undergrads to various web development aspects. Since I was always…",
+      "author": null,
+      "publishedAt": "2010-07-26T00:00:00.000Z"
+    },
+    {
+      "guid": "lea-verou::https://lea.verou.me/2010/08/lea-verou-at-front-trends-2010/",
+      "title": "Lea Verou @ Front-Trends 2010",
+      "link": "https://lea.verou.me/2010/08/lea-verou-at-front-trends-2010/",
+      "summary": "Just a quick note to let you know that I’m speaking in this year’s Front-Trends conference, which will take place in Warsaw, Poland on October 21-22. Front-Trends is a new conference (starting this year) but the organizers have managed to put together an impressive line-up (Crockford, PPK, Paul…",
+      "author": null,
+      "publishedAt": "2010-08-03T00:00:00.000Z"
+    },
+    {
+      "guid": "lea-verou::https://lea.verou.me/2010/08/automatic-login-via-notification-emails/",
+      "title": "Automatic login via notification emails?",
+      "link": "https://lea.verou.me/2010/08/automatic-login-via-notification-emails/",
+      "summary": "A couple hours ago, I received a notification email from Goodreads and unlike usually, I decided to actually visit the site (by the way, I believe that Goodreads, i.e. a last.fm for books, is an awesome idea but poorly implemented).When I did, I was quite annoyed to find out that I wasn’t already…",
+      "author": null,
+      "publishedAt": "2010-08-14T00:00:00.000Z"
+    },
+    {
+      "guid": "lea-verou::https://lea.verou.me/2010/09/on-attr-and-calc/",
+      "title": "On attr() and calc()",
+      "link": "https://lea.verou.me/2010/09/on-attr-and-calc/",
+      "summary": "I recently posted my first suggestion to www-style, the official W3 mailing list for CSS development. It was about allowing attr() values inside calc(). In this post I’ll describe in greater detail why I believe this is necessary, since not everyone follows www-style. If anyone has something to add…",
+      "author": null,
+      "publishedAt": "2010-09-11T00:00:00.000Z"
+    },
+    {
+      "guid": "lea-verou::https://lea.verou.me/2010/10/my-ft2010-slides-and-csss-my-presentation-framework/",
+      "title": "My FT2010 slides and CSSS: My presentation framework",
+      "link": "https://lea.verou.me/2010/10/my-ft2010-slides-and-csss-my-presentation-framework/",
+      "summary": "About a week ago, I was in Warsaw, Poland to give my first talk at a big conference, Front Trends 2010. As every first-time speaker, I was extremely nervous and worried that everything would go bad. That my talk would be boring or too basic or that I would just freeze at stage, unable to say a…",
+      "author": null,
+      "publishedAt": "2010-10-29T00:00:00.000Z"
+    }
+  ],
+  "totalIndexed": 50
+}

@@ -8,7 +8,7 @@
     "ide",
     "programming-languages"
   ],
-  "updatedAt": "2026-07-23T11:02:42.869Z",
+  "updatedAt": "2026-07-24T06:39:00.223Z",
   "items": [
     {
       "guid": "https://blog.jetbrains.com/?post_type=rscpp&p=725420",
@@ -105,7 +105,23 @@
       "summary": "Does “rtk” reduce Claude Code token usage? Part 2 of a series where we take public “token saving” add-ons for coding agents and run the same paired A/B benchmark against each of them. Part 1 was the caveman skill (advertised −65%, measured −8.5%). TL;DR: rtk advertised saving: 60–90%. Measured on…",
       "author": "Denis Shiryaev",
       "publishedAt": "2026-07-20T10:11:44.000Z"
+    },
+    {
+      "guid": "https://blog.jetbrains.com/?post_type=rust&p=725801",
+      "title": "Axum Support in RustRover 2026.2: Build Web Backends Faster",
+      "link": "https://blog.jetbrains.com/rust/2026/07/23/axum-support-in-rustrover/",
+      "summary": "Axum support, one of the most popular web frameworks in the Rust ecosystem, is one of the highlights of the RustRover 2026.2 release. If you’re building web services, APIs, or distributed systems in Rust, this update makes it easier to navigate routes, understand request flows, and generate client…",
+      "author": "Tatiana Parshutkina",
+      "publishedAt": "2026-07-23T10:57:40.000Z"
+    },
+    {
+      "guid": "https://blog.jetbrains.com/?post_type=qodana&p=725864",
+      "title": "Code Coverage: How to Measure It, Understand the Metrics, and Improve Your Tests",
+      "link": "https://blog.jetbrains.com/qodana/2026/07/code-coverage-tests/",
+      "summary": "Code coverage is one of those metrics that every development team talks about but few use to its full potential. Whether you’re shipping a SaaS product or maintaining a legacy monolith, understanding what your tests actually exercise-and what they miss-can make the difference between a confident…",
+      "author": "Kerry Beetge",
+      "publishedAt": "2026-07-23T09:49:34.000Z"
     }
   ],
-  "totalIndexed": 12
+  "totalIndexed": 14
 }

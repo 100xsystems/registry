@@ -1,0 +1,93 @@
+{
+  "feedId": "jon-skeet",
+  "feedName": "Jon Skeet",
+  "feedSiteUrl": "https://codeblog.jonskeet.uk/",
+  "feedRssUrl": "https://codeblog.jonskeet.uk/feed/",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T06:54:54.038Z",
+  "items": [
+    {
+      "guid": "http://codeblog.jonskeet.uk/2026/07/11/forking-an-open-source-project/",
+      "title": "Forking an open source project",
+      "link": "https://codeblog.jonskeet.uk/2026/07/11/forking-an-open-source-project/",
+      "summary": "Introduction and motivation Some of the projects I work on – notably V-Drum Explorer and At Your Service – use MIDI to interact with hardware devices. I use a couple of packages for this depending on the nature of the interaction, but the one I use most often is managed-midi, which currently has…",
+      "author": "jonskeet",
+      "publishedAt": "2026-07-11T12:54:14.000Z"
+    },
+    {
+      "guid": "http://codeblog.jonskeet.uk/2026/01/18/election-2029-load-testing/",
+      "title": "Election 2029: Load Testing",
+      "link": "https://codeblog.jonskeet.uk/2026/01/18/election-2029-load-testing/",
+      "summary": "I’ve now been through three approaches to load testing for the site, and I think I’ve settled on a solution for the medium term at least. This post explains what I’m trying to achieve, along with the pros and cons of what I’ve tried. Requirements For this particular site, I have four requirements:…",
+      "author": "jonskeet",
+      "publishedAt": "2026-01-18T18:11:55.000Z"
+    },
+    {
+      "guid": "http://codeblog.jonskeet.uk/2026/01/17/election-2029-models-and-reality/",
+      "title": "Election 2029: Models and Reality",
+      "link": "https://codeblog.jonskeet.uk/2026/01/17/election-2029-models-and-reality/",
+      "summary": "On January 15th 2026, Robert Jenrick broke my election site. Okay, that’s slightly hyperbolic. The site continued to operate, and it would be fairer to say that the actions of Kemi Badenoch and Robert Jenrick exposed a flaw in the data modelling in my site. For those readers who don’t follow UK…",
+      "author": "jonskeet",
+      "publishedAt": "2026-01-17T15:35:25.000Z"
+    },
+    {
+      "guid": "http://codeblog.jonskeet.uk/2025/12/31/changing-immutable-collections/",
+      "title": "Changing Immutable Collections",
+      "link": "https://codeblog.jonskeet.uk/2025/12/31/changing-immutable-collections/",
+      "summary": "As I’ve written before, I’m leaning heavily into immutability in the election site code. Until September 2025 (it’s taken a long time to get round to writing this blog post) that meant a combination of records, ImmutableList<T> and ImmutableDictionary<TKey, TValue>. In an ECMA C# standards meeting,…",
+      "author": "jonskeet",
+      "publishedAt": "2025-12-31T10:32:45.000Z"
+    },
+    {
+      "guid": "http://codeblog.jonskeet.uk/2025/07/29/records-and-the-with-operator-redux/",
+      "title": "Records and the ‘with’ operator, redux",
+      "link": "https://codeblog.jonskeet.uk/2025/07/29/records-and-the-with-operator-redux/",
+      "summary": "In my previous blog post I described some behaviour of C# record types which was unexpected to me, though entirely correct according to the documentation. This is a follow-up post to that one, so if you haven’t read that one yet, please do so – I won’t go over all the same ground. Is this ……",
+      "author": "jonskeet",
+      "publishedAt": "2025-07-29T20:00:38.000Z"
+    },
+    {
+      "guid": "http://codeblog.jonskeet.uk/2025/07/19/unexpected-inconsistency-in-records/",
+      "title": "Unexpected inconsistency in records",
+      "link": "https://codeblog.jonskeet.uk/2025/07/19/unexpected-inconsistency-in-records/",
+      "summary": "Unexpected inconsistency in records The other day, I was trying to figure out a bug in my code, and it turned out to be a misunderstanding on my part as to how C# records work. It’s entirely possible that I’m the only one who expected them to work in the way that I did, but … Continue reading…",
+      "author": "jonskeet",
+      "publishedAt": "2025-07-19T13:04:48.000Z"
+    },
+    {
+      "guid": "http://codeblog.jonskeet.uk/2025/04/13/election-2029-postcodes/",
+      "title": "Election 2029: Postcodes",
+      "link": "https://codeblog.jonskeet.uk/2025/04/13/election-2029-postcodes/",
+      "summary": "Postcodes After a pretty practical previous post about records and collections, this post is less likely to give anyone ideas about how they might tackle a problem in their own project, and doesn’t have any feature requests for Microsoft either. It’s an area I’ve found really fun though. An…",
+      "author": "jonskeet",
+      "publishedAt": "2025-04-13T07:41:11.000Z"
+    },
+    {
+      "guid": "http://codeblog.jonskeet.uk/2025/03/27/records-and-collections/",
+      "title": "Records and Collections",
+      "link": "https://codeblog.jonskeet.uk/2025/03/27/records-and-collections/",
+      "summary": "Records and Collections This post is to some extent a grab-bag of points of friction I’ve encountered when using records and collections within the election site. Records recap This may end up being the most generally useful blog post in this series. Although records have been in C# since version…",
+      "author": "jonskeet",
+      "publishedAt": "2025-03-27T14:20:54.000Z"
+    },
+    {
+      "guid": "http://codeblog.jonskeet.uk/2025/03/27/election-2029-storage/",
+      "title": "Election 2029: Storage",
+      "link": "https://codeblog.jonskeet.uk/2025/03/27/election-2029-storage/",
+      "summary": "Storage Since my last post about the data models, I’ve simplified things very slightly – basically the improvements that I thought about while writing the post have now been implemented. I won’t go into the details of the changes, as they’re not really important, but that’s just to explain why some…",
+      "author": "jonskeet",
+      "publishedAt": "2025-03-27T11:46:31.000Z"
+    },
+    {
+      "guid": "http://codeblog.jonskeet.uk/2025/03/16/election-2029-data-models/",
+      "title": "Election 2029: Data Models",
+      "link": "https://codeblog.jonskeet.uk/2025/03/16/election-2029-data-models/",
+      "summary": "Data models (and view-models) and how they’re used I was considering using the term “architecture” somewhere in the title of this post, but it feels too pompous for the scale of site. I could probably justify it, but it would give me the ick every time I used the term. But this post will basically…",
+      "author": "jonskeet",
+      "publishedAt": "2025-03-16T07:28:55.000Z"
+    }
+  ],
+  "totalIndexed": 10
+}

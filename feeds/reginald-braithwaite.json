@@ -1,0 +1,413 @@
+{
+  "feedId": "reginald-braithwaite",
+  "feedName": "Reginald Braithwaite",
+  "feedSiteUrl": "http://raganwald.com/#essays",
+  "feedRssUrl": "https://raganwald.com/atom.xml",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T07:06:16.727Z",
+  "items": [
+    {
+      "guid": "reginald-braithwaite::https://raganwald.com/2023/04/27/chatgpt-whisperer.html",
+      "title": "New Yorker Cartoon, c. 2025",
+      "link": "https://raganwald.com/2023/04/27/chatgpt-whisperer.html",
+      "summary": "<p><img src=\"/assets/images/ChatGPT-Whisperer.png\" alt=\"&quot;We're impressed with the programming assignment you submitted, and would like to hire the ChatGPT Whisperer who created it.&quot;\" /></p>\n",
+      "author": "Reginald Braithwaite",
+      "publishedAt": "2023-04-27T00:00:00.000Z"
+    },
+    {
+      "guid": "reginald-braithwaite::https://raganwald.com/2023/01/10/ncrypt-lite.html",
+      "title": "Cryptographic techniques used by nCrypt Light in 1994",
+      "link": "https://raganwald.com/2023/01/10/ncrypt-lite.html",
+      "summary": "Preface (2023)\nThe following described the cryptographic protocol and algorithm used by nCrypt Light back in 1993-94. I wrote nCrypt Light in the hope of creating a strong cryptography app for the orginal Newton MessagePad 100. Rolling your own crypto is well-understood to be the complete opposite…",
+      "author": "Reginald Braithwaite",
+      "publishedAt": "2023-01-10T00:00:00.000Z"
+    },
+    {
+      "guid": "reginald-braithwaite::https://raganwald.com/2022/11/03/mutual-recursion.html",
+      "title": "Mutual Recursion in Language",
+      "link": "https://raganwald.com/2022/11/03/mutual-recursion.html",
+      "summary": "This is not a programming post.\nloanwords\nA loanword is a term taken from another language and used without translation; it has a specific meaning that (typically) does not otherwise exist in a single English word. Sometimes the word’s spelling or pronunciation (or both) is slightly altered to…",
+      "author": "Reginald Braithwaite",
+      "publishedAt": "2022-11-03T00:00:00.000Z"
+    },
+    {
+      "guid": "reginald-braithwaite::https://raganwald.com/2021/10/28/the-inner-osborne-effect.html",
+      "title": "The Inner Osborne Effect",
+      "link": "https://raganwald.com/2021/10/28/the-inner-osborne-effect.html",
+      "summary": "In software development, we talk a lot about software anti-patterns, how to recognize them, and how to extricate yourself from them via refactoring.\nAn anti-pattern is a common response to a recurring problem that is usually ineffective and risks being highly counterproductive. The term, coined in…",
+      "author": "Reginald Braithwaite",
+      "publishedAt": "2021-10-28T00:00:00.000Z"
+    },
+    {
+      "guid": "reginald-braithwaite::https://raganwald.com/2020/05/03/fractran.html",
+      "title": "Remembering John Conway's FRACTRAN, a ridiculous, yet surprisingly deep language",
+      "link": "https://raganwald.com/2020/05/03/fractran.html",
+      "summary": "On April 8, 2020, John Horton Conway developed symptoms of COVID-19. On April 11, 2020, he succumbed to the disease.1234\nLike so very, very many, I mourn Conway’s passing, and yet I also celebrate his life. I celebrate his accomplishments, I celebrate his curiosity, and I celebrate his skill at…",
+      "author": "Reginald Braithwaite",
+      "publishedAt": "2020-05-03T00:00:00.000Z"
+    },
+    {
+      "guid": "reginald-braithwaite::https://raganwald.com/2019/12/17/regular-expressions.html",
+      "title": "Exploring Regular Expressions, Part II: Regular Languages and Finite-State Automata",
+      "link": "https://raganwald.com/2019/12/17/regular-expressions.html",
+      "summary": "This is Part II of “Exploring Regular Expressions.” If you haven’t already, you may want to read Part I first, where we wrote a compiler that translates formal regular expressions into finite-state recognizers.\nYou may also want another look at the essay, A Brutal Look at Balanced Parentheses,…",
+      "author": "Reginald Braithwaite",
+      "publishedAt": "2019-12-17T00:00:00.000Z"
+    },
+    {
+      "guid": "reginald-braithwaite::https://raganwald.com/2019/09/21/regular-expressions.html",
+      "title": "Exploring Regular Expressions and Finite-State Recognizers, Part I",
+      "link": "https://raganwald.com/2019/09/21/regular-expressions.html",
+      "summary": "Prelude\nIn this essay, we’re going to explore regular expressions by implementing regular expressions.\nThis essay will be of interest to anyone who would like a refresher on the fundamentals of regular expressions and pattern matching. It is not intended as a practical “how-to” for using modern…",
+      "author": "Reginald Braithwaite",
+      "publishedAt": "2019-09-21T00:00:00.000Z"
+    },
+    {
+      "guid": "reginald-braithwaite::https://raganwald.com/2019/02/14/i-love-programming-and-programmers.html",
+      "title": "A Brutal Look at Balanced Parentheses, Computing Machines, and Pushdown Automata",
+      "link": "https://raganwald.com/2019/02/14/i-love-programming-and-programmers.html",
+      "summary": "As discussed in Pattern Matching and Recursion, a well-known programming puzzle is to write a function that determines whether a string of parentheses is “balanced,” i.e. each opening parenthesis has a corresponding closing parenthesis, and the parentheses are properly nested.\nFor example:\nInput…",
+      "author": "Reginald Braithwaite",
+      "publishedAt": "2019-02-14T00:00:00.000Z"
+    },
+    {
+      "guid": "reginald-braithwaite::https://raganwald.com/2019/02/03/ayoayo.html",
+      "title": "Ayoayo and Linear Recursion",
+      "link": "https://raganwald.com/2019/02/03/ayoayo.html",
+      "summary": "In this essay, we’re going to look at a game called Ayoayo. As we’ll read, Ayoayo is part of the Mancala family of games that has spread throughout Africa, and beyond. We’ll write some code that would be useful if we were implementing an Ayoayo game, and along the way, we’ll look at how we can keep…",
+      "author": "Reginald Braithwaite",
+      "publishedAt": "2019-02-03T00:00:00.000Z"
+    },
+    {
+      "guid": "reginald-braithwaite::https://raganwald.com/2019/01/26/reduce-reuse-recycle.html",
+      "title": "Structural Sharing and Copy-on-Write Semantics, Part II: Reduce-Reuse-Recycle",
+      "link": "https://raganwald.com/2019/01/26/reduce-reuse-recycle.html",
+      "summary": "This is Part II of an essay that takes a highly informal look at two related techniques for achieving high performance when using large data structures: Structural Sharing, and Copy-on-Write Semantics.\nIn Part I, we used recursive functions that operate on lists to explore how we could use…",
+      "author": "Reginald Braithwaite",
+      "publishedAt": "2019-01-26T00:00:00.000Z"
+    },
+    {
+      "guid": "reginald-braithwaite::https://raganwald.com/2019/01/14/structural-sharing-and-copy-on-write.html",
+      "title": "Exploring Structural Sharing and Copy-on-Write Semantics, Part I",
+      "link": "https://raganwald.com/2019/01/14/structural-sharing-and-copy-on-write.html",
+      "summary": "This essay takes a highly informal look at two related techniques for achieving high performance when using large data structures: Structural Sharing, and Copy-on-Write Semantics. In Part I, we’ll look at the background of Structural Sharing and start making a Slice class that abstracts the concept…",
+      "author": "Reginald Braithwaite",
+      "publishedAt": "2019-01-14T00:00:00.000Z"
+    },
+    {
+      "guid": "reginald-braithwaite::https://raganwald.com/2018/11/14/dyck-joke.html",
+      "title": "Alice and Bobbie and Sharleen and Dyck",
+      "link": "https://raganwald.com/2018/11/14/dyck-joke.html",
+      "summary": "Alice and Bobbie were comparing notes after interviewing interns for an upcoming work term with their company, HipCo. Their interview process, although often maligned on social media, worked reasonably well for their purposes: They spent an hour with each candidate, devoting twenty minutes to…",
+      "author": "Reginald Braithwaite",
+      "publishedAt": "2018-11-14T00:00:00.000Z"
+    },
+    {
+      "guid": "reginald-braithwaite::https://raganwald.com/2018/10/17/recursive-pattern-matching.html",
+      "title": "Pattern Matching and Recursion",
+      "link": "https://raganwald.com/2018/10/17/recursive-pattern-matching.html",
+      "summary": "A  popular programming “problem” is to determine whether a string of parentheses is “balanced:”\nGiven a string that consists of open and closed parentheses, write a function that determines whether the parentheses in the string are balanced. “Balanced” parentheses means that each opening symbol has…",
+      "author": "Reginald Braithwaite",
+      "publishedAt": "2018-10-17T00:00:00.000Z"
+    },
+    {
+      "guid": "reginald-braithwaite::https://raganwald.com/2018/09/12/auto-vivifying-hash.html",
+      "title": "Ruby's Hashes and Perl's Autovivification, in JavaScript",
+      "link": "https://raganwald.com/2018/09/12/auto-vivifying-hash.html",
+      "summary": "The Ruby programming language has the notion of a Hash. A Hash is a dictionary-like collection of unique keys and their values. Ruby hashes have most of the semantics of an ES6 Map, but also have the syntactic conveniences of Plain-Old-JavaScript-Objects (“POJOs”).\nInterestingly, Ruby hashes also…",
+      "author": "Reginald Braithwaite",
+      "publishedAt": "2018-09-12T00:00:00.000Z"
+    },
+    {
+      "guid": "reginald-braithwaite::https://raganwald.com/2018/09/10/why-y.html",
+      "title": "Why Y? Deriving the Y Combinator in JavaScript",
+      "link": "https://raganwald.com/2018/09/10/why-y.html",
+      "summary": "…and two practical applications…\nThe Y Combinator is an important result in theoretical computer science.1\nIn this essay, after a brief review of the work we’ve already done on the Mockingbird, we’ll derive the Why Bird, known most famously as the Y Combinator. The why bird provides all the…",
+      "author": "Reginald Braithwaite",
+      "publishedAt": "2018-09-10T00:00:00.000Z"
+    },
+    {
+      "guid": "reginald-braithwaite::https://raganwald.com/2018/08/30/to-grok-a-mockingbird.html",
+      "title": "To Grok a Mockingbird",
+      "link": "https://raganwald.com/2018/08/30/to-grok-a-mockingbird.html",
+      "summary": "Using recursive combinators to enhance functional composition, with special guests the Mockingbird, Widowbird, and Why Bird\nIn this essay we’re going to look at recursive combinators. A recursive combinator is a function that takes another function that is not recursive, and returns a function that…",
+      "author": "Reginald Braithwaite",
+      "publishedAt": "2018-08-30T00:00:00.000Z"
+    },
+    {
+      "guid": "reginald-braithwaite::https://raganwald.com/2018/08/03/eight-queens.html",
+      "title": "The Eight Queens Problem... and Raganwald's Unexpected Nostalgia",
+      "link": "https://raganwald.com/2018/08/03/eight-queens.html",
+      "summary": "A few weeks ago, I ordered a copy of the Sesquicentennial Edition of The Annotated Alice.\nAs is their wont, Amazon’s collaborative filters showed me other books that might be of interest to me, and I spotted a copy of Knots and Borromean Rings, Rep-Tiles, and Eight Queens: Martin Gardner’s…",
+      "author": "Reginald Braithwaite",
+      "publishedAt": "2018-08-03T00:00:00.000Z"
+    },
+    {
+      "guid": "reginald-braithwaite::https://raganwald.com/2018/05/27/tail.html",
+      "title": "A Trick of the Tail",
+      "link": "https://raganwald.com/2018/05/27/tail.html",
+      "summary": "In Recursion? We don’t need no stinking recursion!, we looked at seven different techniques for turning recursive functions into iterative functions. In this post, we’re going to take a deeper look at technique #3, convert recursion to iteration with tail calls.\nBefore we dive into it, here’s a…",
+      "author": "Reginald Braithwaite",
+      "publishedAt": "2018-05-27T00:00:00.000Z"
+    },
+    {
+      "guid": "reginald-braithwaite::https://raganwald.com/2018/05/20/we-dont-need-no-stinking-recursion.html",
+      "title": "Recursion? We don't need no stinking recursion!",
+      "link": "https://raganwald.com/2018/05/20/we-dont-need-no-stinking-recursion.html",
+      "summary": "Interviewer: “Please whiteboard an algorithm that Counts the leaves in a tree/Solves Towers of Hanoi/Random pet recursion problem.”\nInterviewee: “Ok… Scribble, scribble… That should do it.”\nInterviewer: “That looks like it works, but can you convert it to an iterative solution?”\nInterviewee:…",
+      "author": "Reginald Braithwaite",
+      "publishedAt": "2018-05-20T00:00:00.000Z"
+    },
+    {
+      "guid": "reginald-braithwaite::https://raganwald.com/2018/03/03/reflections.html",
+      "title": "More State Machine ❤️: From Reflection to Statecharts",
+      "link": "https://raganwald.com/2018/03/03/reflections.html",
+      "summary": "In “How I Learned to Stop Worrying and ❤️ the State Machine,” we built an extremely basic state machine to model a bank account.\nState machines, as we discussed, are a very useful tool for organizing the behaviour of domain models, representations of meaningful real-world concepts pertinent to a…",
+      "author": "Reginald Braithwaite",
+      "publishedAt": "2018-03-03T00:00:00.000Z"
+    },
+    {
+      "guid": "reginald-braithwaite::https://raganwald.com/2018/02/23/forde.html",
+      "title": "How I Learned to Stop Worrying and ❤️ the State Machine",
+      "link": "https://raganwald.com/2018/02/23/forde.html",
+      "summary": "“Any sufficiently complicated model class contains an ad-hoc, informally-specified, bug-ridden, slow implementation of half of a state machine.”–former colleague1\nDomain models are representations of meaningful real-world concepts pertinent to a sphere of knowledge, influence or activity (the…",
+      "author": "Reginald Braithwaite",
+      "publishedAt": "2018-02-23T00:00:00.000Z"
+    },
+    {
+      "guid": "reginald-braithwaite::https://raganwald.com/2017/12/14/73939133.html",
+      "title": "Truncatable Primes in JavaScript",
+      "link": "https://raganwald.com/2017/12/14/73939133.html",
+      "summary": "In number theory, a right-truncatable prime is a prime number which, in a given base, contains no 0, and if the last (“right”) digit is successively removed, then all resulting numbers are prime. 7393 is an example of a right-truncatable prime, since 7393, 739, 73, and 7 are all prime.\n–Wikipedia…",
+      "author": "Reginald Braithwaite",
+      "publishedAt": "2017-12-14T00:00:00.000Z"
+    },
+    {
+      "guid": "reginald-braithwaite::https://raganwald.com/2017/07/22/closing-iterables-is-a-leaky-abstraction.html",
+      "title": "Closing Iterables is a Leaky Abstraction",
+      "link": "https://raganwald.com/2017/07/22/closing-iterables-is-a-leaky-abstraction.html",
+      "summary": "iterators and iterables, a quick recapitulation\nIn JavaScript, iterators and iterables provide an abstract interface for sequentially accessing values, such as we might find in collections like arrays or priority queues.1\nAn iterator is an object with a .next() method. When you call it, you get a…",
+      "author": "Reginald Braithwaite",
+      "publishedAt": "2017-07-22T00:00:00.000Z"
+    },
+    {
+      "guid": "reginald-braithwaite::https://raganwald.com/2017/06/04/sequences.html",
+      "title": "A Sequence Problem",
+      "link": "https://raganwald.com/2017/06/04/sequences.html",
+      "summary": "Here are the first sixteen elements of a sequence:\n\n.\n*\n(*)\n(*.)\n((*))\n(*..)\n(**)\n(*...)\n((*.))\n((*).)\n(*.*)\n(*....)\n(*(*))\n(*.....)\n(*..*)\n(**.)\n\n\nAnd the next sixteen:\n\n(((*)))\n(*......)\n((*.)*)\n(*.......)\n(*.(*))\n(*.*.)\n(*...*)\n(*........)\n(*(*.))\n((*)..)\n(*....*)\n((*.).)\n(*..(*))\n(*.........)…",
+      "author": "Reginald Braithwaite",
+      "publishedAt": "2017-06-04T00:00:00.000Z"
+    },
+    {
+      "guid": "reginald-braithwaite::https://raganwald.com/2017/04/30/transducers.html",
+      "title": "What's a Transducer?",
+      "link": "https://raganwald.com/2017/04/30/transducers.html",
+      "summary": "In Using iterators to write highly composeable code, we saw that the staged approach to data transformation is decomposed, but duplicates the entire data set. Whereas, the single pass approach  is more efficient, but the code was entangled and monolithic.\nNow we’re going to look at an interesting…",
+      "author": "Reginald Braithwaite",
+      "publishedAt": "2017-04-30T00:00:00.000Z"
+    },
+    {
+      "guid": "reginald-braithwaite::https://raganwald.com/2017/04/19/incremental.html",
+      "title": "Having our cake and eating it too: \"Using iterators to write highly composeable code\"",
+      "link": "https://raganwald.com/2017/04/19/incremental.html",
+      "summary": "Consider this problem: We have a hypothetical startup that, like so many other unimaginative clones of each other, provides some marginal benefit in exchange for tracking user locations. We want to mine that location data.\nFor the purposes of this brief blog post, we might have a file that looks…",
+      "author": "Reginald Braithwaite",
+      "publishedAt": "2017-04-19T00:00:00.000Z"
+    },
+    {
+      "guid": "reginald-braithwaite::https://raganwald.com/2017/04/10/foldl-foldr.html",
+      "title": "foldl, foldr, and associative order",
+      "link": "https://raganwald.com/2017/04/10/foldl-foldr.html",
+      "summary": "This essay originally appeared in 2017. Eagle-eyed readers pointed out that the original implementation of foldr had incorrect semantics. The essay has now been substantially revised to provide an implementation of foldr that is much closer to the one we find in lazy languages like Haskell.\nWhen…",
+      "author": "Reginald Braithwaite",
+      "publishedAt": "2017-04-10T00:00:00.000Z"
+    },
+    {
+      "guid": "reginald-braithwaite::https://raganwald.com/2017/04/06/turing-machines.html",
+      "title": "Turing Machines and Tooling, Part I",
+      "link": "https://raganwald.com/2017/04/06/turing-machines.html",
+      "summary": "Note well: This is an unfinished work-in-progress.\nTuring Machines and Tooling, Part I\nMuch is made of “functional” programming in JavaScript. People get very excited talking about how to manage, minimize, or even eliminate mutation and state. But what if, instead of trying to avoid state and…",
+      "author": "Reginald Braithwaite",
+      "publishedAt": "2017-04-06T00:00:00.000Z"
+    },
+    {
+      "guid": "reginald-braithwaite::https://raganwald.com/2017/03/08/the-lumberjane-song.html",
+      "title": "The Lumberjane Song",
+      "link": "https://raganwald.com/2017/03/08/the-lumberjane-song.html",
+      "summary": "SINGER\nNERD CHOIR\nShe’s a lumberjane and she’s OK\nI write clean code, I mentor youth\nShe writes clean code, mentors youth\nShe’s a lumberjane and she’s OK\nI write clean code, I mentor youth\nShe writes clean code, she mentors youths\n(The nerds begin to look uncomfortable, but brighten up as they go…",
+      "author": "Reginald Braithwaite",
+      "publishedAt": "2017-03-08T00:00:00.000Z"
+    },
+    {
+      "guid": "reginald-braithwaite::https://raganwald.com/2017/01/12/time-space-life-as-we-know-it.html",
+      "title": "Time, Space, and Life As We Know It",
+      "link": "https://raganwald.com/2017/01/12/time-space-life-as-we-know-it.html",
+      "summary": "In Why Recursive Data Structures? we used multirec, a recursive combinator, to implement quadtrees and coloured quadtrees (The full code for creating and rotating quadtrees and coloured quadtrees is below).\nOur focus was on the notion of an isomorphism between the data structures and the…",
+      "author": "Reginald Braithwaite",
+      "publishedAt": "2017-01-12T00:00:00.000Z"
+    },
+    {
+      "guid": "reginald-braithwaite::https://raganwald.com/2016/12/27/recursive-data-structures.html",
+      "title": "Why Recursive Data Structures?",
+      "link": "https://raganwald.com/2016/12/27/recursive-data-structures.html",
+      "summary": "In this essay, we are going to look at recursive algorithms, and how sometimes, we can organize an algorithm so that it resembles the data structure it manipulates, and organize a data structure so that it resembles the algorithms that manipulate it.\nWhen algorithms and the data structures they…",
+      "author": "Reginald Braithwaite",
+      "publishedAt": "2016-12-27T00:00:00.000Z"
+    },
+    {
+      "guid": "reginald-braithwaite::https://raganwald.com/2016/12/15/what-higher-order-functions-can-teach-us-about-libraries-and-frameworks.html",
+      "title": "From Higher-Order Functions to Libraries And Frameworks",
+      "link": "https://raganwald.com/2016/12/15/what-higher-order-functions-can-teach-us-about-libraries-and-frameworks.html",
+      "summary": "In this essay, we will take a look at some higher-order functions, with an eye to seeing how they can be used to make our programs more expressive, while balancing that against the need to limit the perceived complexity of our programs.\nintroduction: expressiveness\nOne of the most basic ideas in…",
+      "author": "Reginald Braithwaite",
+      "publishedAt": "2016-12-15T00:00:00.000Z"
+    },
+    {
+      "guid": "reginald-braithwaite::https://raganwald.com/2016/11/30/anamorphisms-in-javascript.html",
+      "title": "Anamorphisms in JavaScript",
+      "link": "https://raganwald.com/2016/11/30/anamorphisms-in-javascript.html",
+      "summary": "Unfolded, © 2011 Regulla, Some rights reserved\npreamble: unfolds and folds\nAnamorphisms are functions that map from some object to a more complex structure containing the type of the object. For example, mapping from an integer to a list of integers.\nHere’s an anamorphism:\n\nfunction downToOne(n) {…",
+      "author": "Reginald Braithwaite",
+      "publishedAt": "2016-11-30T00:00:00.000Z"
+    },
+    {
+      "guid": "reginald-braithwaite::https://raganwald.com/2016/07/20/prefer-composition-to-inheritance.html",
+      "title": "From Mixins to Object Composition",
+      "link": "https://raganwald.com/2016/07/20/prefer-composition-to-inheritance.html",
+      "summary": "In Why Are Mixins Considered Harmful, we saw that concatenative sharing–as exemplified by mixins–leads to snowballing complexity because of three effects:\nLack of Encapsulation\nImplicit Dependencies\nName Clashes\nWe looked at some variations on creating encapsulation to help reduce the “surface…",
+      "author": "Reginald Braithwaite",
+      "publishedAt": "2016-07-20T00:00:00.000Z"
+    },
+    {
+      "guid": "reginald-braithwaite::https://raganwald.com/2016/07/16/why-are-mixins-considered-harmful.html",
+      "title": "Why Are Mixins Considered Harmful?",
+      "link": "https://raganwald.com/2016/07/16/why-are-mixins-considered-harmful.html",
+      "summary": "update: Part II, From Mixins to Object Composition is now available.\nIn Mixins Considered Harmful, Dan Abramov wrote something that sounds familiar to everyone1 who works with legacy applications:\nSome of our code using React gradually became incomprehensible. Occasionally, the React team would see…",
+      "author": "Reginald Braithwaite",
+      "publishedAt": "2016-07-16T00:00:00.000Z"
+    },
+    {
+      "guid": "reginald-braithwaite::https://raganwald.com/2016/04/25/hubris-impatient-sieves-of-eratosthenes.html",
+      "title": "The Hubris of Impatient Sieves of Eratosthenes",
+      "link": "https://raganwald.com/2016/04/25/hubris-impatient-sieves-of-eratosthenes.html",
+      "summary": "the hubris of blog post authors\nAlthea and Ben were sipping feature espressos at their local indie coffee shop. “Althea,” Ben began, “I’m prepping for interviews with you-know-who, so I’ve been trying to read as many algorithm blog posts as I can, just to catch up on all the stuff I’ve forgotten…",
+      "author": "Reginald Braithwaite",
+      "publishedAt": "2016-04-25T00:00:00.000Z"
+    },
+    {
+      "guid": "reginald-braithwaite::https://raganwald.com/2016/04/15/laziness-is-a-virtue.html",
+      "title": "“We will encourage you to develop the three great virtues of a programmer: laziness, impatience, and hubris”",
+      "link": "https://raganwald.com/2016/04/15/laziness-is-a-virtue.html",
+      "summary": "larry wall\n\nlaziness and eagerness\nIn computing, “laziness” is a broad term, generally referring to not doing any work unless you need it. Whereas its opposite is “eagerness,” doing as much work as possible in case you need it later.\nConsider this JavaScript:\n\nfunction ifThen (a, b) {\n  if (a)…",
+      "author": "Reginald Braithwaite",
+      "publishedAt": "2016-04-15T00:00:00.000Z"
+    },
+    {
+      "guid": "reginald-braithwaite::https://raganwald.com/2016/03/17/programs-must-be-written-for-people-to-read.html",
+      "title": "“Programs must be written for people to read, and only incidentally for machines to execute”",
+      "link": "https://raganwald.com/2016/03/17/programs-must-be-written-for-people-to-read.html",
+      "summary": "hal abelson\n\nthe fibonacci numbers\nIn mathematics, the Fibonacci numbers or Fibonacci sequence are numbers in the following integer sequence: 0, 1, 1, 2, 3, 5, 8, 13, 21, ….1\nThe rule for determining the sequence is quite simple to explain:\nThe first number is 0.\nThe second number is 1.\nEvery…",
+      "author": "Reginald Braithwaite",
+      "publishedAt": "2016-03-17T00:00:00.000Z"
+    },
+    {
+      "guid": "reginald-braithwaite::https://raganwald.com/2016/01/19/command-pattern.html",
+      "title": "First-Class Commands (the annotated presentation)",
+      "link": "https://raganwald.com/2016/01/19/command-pattern.html",
+      "summary": "foreword\n\nThis talk was given at NDC London on January 14, 2016. This is not a literal transcript: A selection of the original slides are shown here, along with some annotations explaining the ideas presented.\nPart I: The Basics\n“In object-oriented programming, the command pattern is a behavioural…",
+      "author": "Reginald Braithwaite",
+      "publishedAt": "2016-01-19T00:00:00.000Z"
+    },
+    {
+      "guid": "reginald-braithwaite::https://raganwald.com/2015/12/31/this-is-not-an-essay-about-traits-in-javascript.html",
+      "title": "This is not an essay about 'Traits in Javascript' (updated)",
+      "link": "https://raganwald.com/2015/12/31/this-is-not-an-essay-about-traits-in-javascript.html",
+      "summary": "A trait is a concept used in object-oriented programming: a trait represents a collection of methods that can be used to extend the functionality of a class. Essentially a trait is similar to a class made only of concrete methods that is used to extend another class with a mechanism similar to…",
+      "author": "Reginald Braithwaite",
+      "publishedAt": "2015-12-31T00:00:00.000Z"
+    },
+    {
+      "guid": "reginald-braithwaite::https://raganwald.com/2015/12/28/mixins-subclass-factories-and-method-advice.html",
+      "title": "JavaScript Mixins, Subclass Factories, and Method Advice",
+      "link": "https://raganwald.com/2015/12/28/mixins-subclass-factories-and-method-advice.html",
+      "summary": "Mixins solve a very common problem in class-centric OOP: For non-trivial applications, there is a messy many-to-many relationship between behaviour and classes, and it does not neatly decompose into a tree. In this essay, we only touch lightly over the benefits of using mixins with classes, and in…",
+      "author": "Reginald Braithwaite",
+      "publishedAt": "2015-12-28T00:00:00.000Z"
+    },
+    {
+      "guid": "reginald-braithwaite::https://raganwald.com/2015/12/23/super-considered-hmmmful.html",
+      "title": "super() considered hmmm-ful",
+      "link": "https://raganwald.com/2015/12/23/super-considered-hmmmful.html",
+      "summary": "I highly recommend reading Justin Fagnani’s “Real” Mixins with JavaScript Classes. To summarize my understanding, Justin likes using “mixins,” but takes issue with the way they are implemented as described in things like Using ES7 Decorators as Mixins.1\nJustin wants to be able to have a fully open…",
+      "author": "Reginald Braithwaite",
+      "publishedAt": "2015-12-23T00:00:00.000Z"
+    },
+    {
+      "guid": "reginald-braithwaite::https://raganwald.com/2015/12/20/an-es6-program-to-compute-fibonacci.html",
+      "title": "An ES6 function to compute the nth Fibonacci number",
+      "link": "https://raganwald.com/2015/12/20/an-es6-program-to-compute-fibonacci.html",
+      "summary": "Once upon a time, programming interviews would include a fizz-buzz problem to weed out the folks who couldn’t string together a few lines of code. We can debate when and how such things are appropriate interview questions, but one thing that is always appropriate is to use them as inspiration for…",
+      "author": "Reginald Braithwaite",
+      "publishedAt": "2015-12-20T00:00:00.000Z"
+    },
+    {
+      "guid": "reginald-braithwaite::https://raganwald.com/2015/11/03/a-coding-problem.html",
+      "title": "Solving a Coding Problem with Iterators and Generators",
+      "link": "https://raganwald.com/2015/11/03/a-coding-problem.html",
+      "summary": "a fizz-buzz problem\nJob interviews sometimes contain simple programming tasks. Often called “fizz-buzz problems,” the usual purpose is to quickly weed out hopefuls who can’t actually program anything.\nHere’s an example, something that might be used in a phone screen or an in-person interview with…",
+      "author": "Reginald Braithwaite",
+      "publishedAt": "2015-11-03T00:00:00.000Z"
+    },
+    {
+      "guid": "reginald-braithwaite::https://raganwald.com/2015/08/24/ready-get-set-go.html",
+      "title": "Getters, Setters, and Organizing Responsibility in JavaScript",
+      "link": "https://raganwald.com/2015/08/24/ready-get-set-go.html",
+      "summary": "Once upon a time, there was a language called C,1 and this language had something called a struct, and you could use it to make heterogeneously aggregated data structures that had members. The key thing to know about C is that when you have a struct called currentUser, and a member like id, and you…",
+      "author": "Reginald Braithwaite",
+      "publishedAt": "2015-08-24T00:00:00.000Z"
+    },
+    {
+      "guid": "reginald-braithwaite::https://raganwald.com/2015/08/08/monkey-patching-extension-methods-bind-operator.html",
+      "title": "Extension Methods, Monkey-Patching, and the Bind Operator",
+      "link": "https://raganwald.com/2015/08/08/monkey-patching-extension-methods-bind-operator.html",
+      "summary": "extension methods\nIn some programming languages, there is a style of “monkey-patching” classes in order to add convenience methods. For example, let’s say that we’re using Ruby on Rails, and we have an array called chain_of_command. Although Ruby’s Array class does not define a special method for…",
+      "author": "Reginald Braithwaite",
+      "publishedAt": "2015-08-08T00:00:00.000Z"
+    },
+    {
+      "guid": "reginald-braithwaite::https://raganwald.com/2015/08/05/method-advice.html",
+      "title": "Method Advice in Modern JavaScript",
+      "link": "https://raganwald.com/2015/08/05/method-advice.html",
+      "summary": "We’ve previously looked at using ES.later method decorators like this:1\n\nconst wrapWith = (decorator) =>\n  function (target, name, descriptor) {\n    descriptor.value = decorator(descriptor.value);\n  }\n\nconst fluent = (method) =>\n  function (...args) {\n    method.apply(this, args);\n    return this;…",
+      "author": "Reginald Braithwaite",
+      "publishedAt": "2015-08-05T00:00:00.000Z"
+    },
+    {
+      "guid": "reginald-braithwaite::https://raganwald.com/2015/06/28/method-decorators.html",
+      "title": "Method Decorators in ECMAScript 2015 (and beyond)",
+      "link": "https://raganwald.com/2015/06/28/method-decorators.html",
+      "summary": "Writing higher-order functions in JavaScript is a long-established practice:\nA higher-order function is a function that takes one or more functions as arguments, returns a function, or both.\nFor example, compose is a higher-order function that takes two functions as arguments, and returns a…",
+      "author": "Reginald Braithwaite",
+      "publishedAt": "2015-06-28T00:00:00.000Z"
+    },
+    {
+      "guid": "reginald-braithwaite::https://raganwald.com/2015/06/26/decorators-in-es7.html",
+      "title": "Using ES.later Decorators as Mixins",
+      "link": "https://raganwald.com/2015/06/26/decorators-in-es7.html",
+      "summary": "In Functional Mixins, we discussed mixing functionality into JavaScript classes, changing the class. We observed that this has pitfalls when applied to a class that might already be in use elsewhere, but is perfectly cromulent when used as a technique to build a class from scratch. When used…",
+      "author": "Reginald Braithwaite",
+      "publishedAt": "2015-06-26T00:00:00.000Z"
+    },
+    {
+      "guid": "reginald-braithwaite::https://raganwald.com/2015/06/20/purely-functional-composition.html",
+      "title": "Purely Functional Composition",
+      "link": "https://raganwald.com/2015/06/20/purely-functional-composition.html",
+      "summary": "In Functional Mixins, we discussed mixing functionality into JavaScript classes. The act of mixing functionality in changes the class. This approach maps well to idioms from other languages, such as Ruby’s modules. It also helps us decompose classes into smaller entities with focused…",
+      "author": "Reginald Braithwaite",
+      "publishedAt": "2015-06-20T00:00:00.000Z"
+    }
+  ],
+  "totalIndexed": 50
+}

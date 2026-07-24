@@ -1,0 +1,93 @@
+{
+  "feedId": "dragan-djuric",
+  "feedName": "Dragan Djuric",
+  "feedSiteUrl": "http://dragan.rocks",
+  "feedRssUrl": "https://dragan.rocks/feed.xml",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T06:49:02.391Z",
+  "items": [
+    {
+      "guid": "http://dragan.rocks/articles/25/Gemma-3-AI-model-in-Clojure",
+      "title": "Gemma 3 AI model in Clojure",
+      "link": "http://dragan.rocks/articles/25/Gemma-3-AI-model-in-Clojure",
+      "summary": "Recently I've been working on the ONNX runtime integration into Deep Diamond, backed by the grant sponsored by the Clojurists Together Foundation.\nIn the past few articles, we've seen how ONNX models are integrated into Deep Diamond, using only a single\nfunction onnx, with almost no need for…",
+      "author": null,
+      "publishedAt": "2025-12-09T22:35:00.000Z"
+    },
+    {
+      "guid": "http://dragan.rocks/articles/25/Clojure-AI-ML-high-performance-Uncomplicate",
+      "title": "Plan for Clojure AI, ML, and high-performance Uncomplicate ecosystem in 2026",
+      "link": "http://dragan.rocks/articles/25/Clojure-AI-ML-high-performance-Uncomplicate",
+      "summary": "I've applied for Clojurists Together yearly funding in 2026. Here's my application. If you are a Clojurists Together member,\nand would like to see continued development in this area, your vote can help me keep working on this :)\n\n\n\nMy goal with this funding in 2026 is to continuously develop…",
+      "author": null,
+      "publishedAt": "2025-11-29T00:41:00.000Z"
+    },
+    {
+      "guid": "http://dragan.rocks/articles/25/Four-Ways-to-ONNX-on-GPU-in-Clojure-and-CUDA",
+      "title": "Not One, Not Two, Not Even Three, but Four Ways to Run an ONNX AI Model on GPU with CUDA",
+      "link": "http://dragan.rocks/articles/25/Four-Ways-to-ONNX-on-GPU-in-Clojure-and-CUDA",
+      "summary": "Two weeks ago, I announced a new Clojure ML library, Diamond ONNX RT, which integrates ONNX Runtime into Deep Diamond.\nIn that post, we explored the classic Hello World example of Neural Networks, MNIST handwritten image recognition, step-by-step.\nWe run that example on the CPU, from main memory.…",
+      "author": null,
+      "publishedAt": "2025-11-09T17:49:00.000Z"
+    },
+    {
+      "guid": "http://dragan.rocks/articles/25/Get-Ready-Clojure-GPU-AI-2026-CUDA-13",
+      "title": "Get Ready for Clojure, GPU, and AI in 2026 with CUDA 13.0",
+      "link": "http://dragan.rocks/articles/25/Get-Ready-Clojure-GPU-AI-2026-CUDA-13",
+      "summary": "A little anniversary\nClojureCUDA and ClojureCL continued living on for these 10 years, I used them in\ncreating Neanderthal, Deep Diamond, and Diamond ML, and they proved themselves\nas simple and reliable tools. I still had trouble convincing Clojure programmers that\nthey can write GPU programs that…",
+      "author": null,
+      "publishedAt": "2025-10-30T16:37:00.000Z"
+    },
+    {
+      "guid": "http://dragan.rocks/articles/25/Clojure-Runs-ONNX-AI-Models-Now",
+      "title": "Clojure Runs ONNX AI Models Now - Join the AI fun!",
+      "link": "http://dragan.rocks/articles/25/Clojure-Runs-ONNX-AI-Models-Now",
+      "summary": "Hello, Clojurians! I haven't written here in a long time. Was I tired? Is anybody reading blogs\nanymore? Who knows. But that was not the main reason.\n\n\n\nI've been working on several Clojure projects sponsored by the Clojurists Together Foundation.\nI did a ton of things, but after all this…",
+      "author": null,
+      "publishedAt": "2025-10-26T15:56:00.000Z"
+    },
+    {
+      "guid": "http://dragan.rocks/articles/24/Apple-Silicon-Support-for-Clojure-Neanderthal-Fast-Matrix-Library",
+      "title": "Apple silicon support in Clojure's Neanderthal Fast Matrix Library",
+      "link": "http://dragan.rocks/articles/24/Apple-Silicon-Support-for-Clojure-Neanderthal-Fast-Matrix-Library",
+      "summary": "I've applied for Clojurists Together funding to explore and hopefully implement a Neanderthal\nApple silicon backend. If you are a Clojurists Together member, and you think that this functionality\nis important, please have that in mind when voting. Here's the proposal that I've sent. Of course,\nany…",
+      "author": null,
+      "publishedAt": "2024-11-19T21:15:00.000Z"
+    },
+    {
+      "guid": "http://dragan.rocks/articles/22/Recurrent-networks-hello-world-sequence-prediction-in-Clojure-with-new-Deep-Diamond",
+      "title": "Recurrent Networks Hello World in Clojure with new Deep Diamond RNN support on CPU and GPU",
+      "link": "http://dragan.rocks/articles/22/Recurrent-networks-hello-world-sequence-prediction-in-Clojure-with-new-Deep-Diamond",
+      "summary": "I've been busy in the last period working on new major features in Deep Diamond, one of which\nis the support for Recurrent Neural Networks (RNN). It's not been an easy ride, but I can finally\nshow you some results! Big thanks for everyone that's helping me with this by buying my books\n(or…",
+      "author": null,
+      "publishedAt": "2022-08-26T14:25:00.000Z"
+    },
+    {
+      "guid": "http://dragan.rocks/articles/22/Clojure-Sound-5-Double-Click-with-Foot-Control",
+      "title": "Clojure Sound - 5 - Double Click with Foot Control",
+      "link": "http://dragan.rocks/articles/22/Clojure-Sound-5-Double-Click-with-Foot-Control",
+      "summary": "In the last article we created a receiver function that listened to signals from our\nfoot controller and started or stopped playback on consecutive clicks. The trouble\nwith our player it that it only works until the end of the track. The start! function\ndoes not automatically rewind the playback.…",
+      "author": null,
+      "publishedAt": "2022-07-30T15:45:00.000Z"
+    },
+    {
+      "guid": "http://dragan.rocks/articles/22/Clojure-Sound-4-Ctrl-Left-Pedal",
+      "title": "Clojure Sound - 4 - Ctrl-Left-Pedal",
+      "link": "http://dragan.rocks/articles/22/Clojure-Sound-4-Ctrl-Left-Pedal",
+      "summary": "In the last article we managed to connect a MIDI controller and receive\nupdates whenever something happens to its knobs and buttons. So what?\nAs it is, nothing. Printing out messages is not of much use, beyond perhaps\ngetting informed about how these messages look like, and what kind of data they…",
+      "author": null,
+      "publishedAt": "2022-07-13T18:45:00.000Z"
+    },
+    {
+      "guid": "http://dragan.rocks/articles/22/Clojure-Sound-3-Hello-MIDI-Controller",
+      "title": "Clojure Sound 3 - Hello MIDI Controller",
+      "link": "http://dragan.rocks/articles/22/Clojure-Sound-3-Hello-MIDI-Controller",
+      "summary": "You may not know that music instrument were connected devices even in the Stone Age, that is,\nmany decades ago. In the 80's that even resulted in the standard that facilitated connectivity\nof heterogeneous devices. Typically, you'd have a keyboard, a synthesizer, some external knobs,\nmaybe effect…",
+      "author": null,
+      "publishedAt": "2022-06-30T21:59:00.000Z"
+    }
+  ],
+  "totalIndexed": 10
+}

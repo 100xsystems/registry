@@ -1,0 +1,93 @@
+{
+  "feedId": "atomic-object",
+  "feedName": "Atomic Object",
+  "feedSiteUrl": "https://spin.atomicobject.com/",
+  "feedRssUrl": "https://spin.atomicobject.com/feed/",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T06:44:41.095Z",
+  "items": [
+    {
+      "guid": "https://spin.atomicobject.com/?p=3674870",
+      "title": "Keep Calm and Test On: Quality Assurance in the Age of Agentic Development",
+      "link": "https://spin.atomicobject.com/keep-calm-and-test-on-quality-assurance-in-the-age-of-agentic-development/",
+      "summary": "Agentic development is fast. An agent can scaffold a feature, write the tests it thinks it needs, and open a pull request before you’ve finished your morning coffee. That speed is real, and agentic development is not going away. Which means the QA analysts who thrive in this brave new world won’t…",
+      "author": "Eric Cuffney",
+      "publishedAt": "2026-07-23T15:07:21.000Z"
+    },
+    {
+      "guid": "https://spin.atomicobject.com/?p=3674697",
+      "title": "Who Decides What’s Worth Building? Growing Judgment Work Across the Team",
+      "link": "https://spin.atomicobject.com/judgment-work-across-team/",
+      "summary": "Agentic engineering is changing the shape of how software teams work, and in doing so, is raising the value of judgment work. Strong consulting on what’s actually worth building becomes an even larger differentiator. Framing ambiguous problems clearly, validating the assumptions that a plan rests…",
+      "author": "Linda Imirzian",
+      "publishedAt": "2026-07-23T12:00:44.000Z"
+    },
+    {
+      "guid": "https://spin.atomicobject.com/?p=3674651",
+      "title": "Grep Is 10,000x Faster Than Your Eyeballs — But You Can Still See",
+      "link": "https://spin.atomicobject.com/grep-vs-eyeballs/",
+      "summary": "If you’ve been a developer for a while, you’re probably adopting AI one way or another. I still remember the early days when prompts never got me what I wanted. I figured it would be a while before AI took over my job. Within weeks, however, as the models improved and I got better at […]\nThe post…",
+      "author": "Jing Fan",
+      "publishedAt": "2026-07-22T12:00:23.000Z"
+    },
+    {
+      "guid": "https://spin.atomicobject.com/?p=3674615",
+      "title": "Error Handling vs. Hiding Errors",
+      "link": "https://spin.atomicobject.com/error-handling-vs-hiding/",
+      "summary": "Every software system fails. This is inevitable. But burying errors doesn’t make them go away. As developers, we want to believe that our systems work as intended. So it’s easy to gloss over error handling. Until something actually goes wrong, it’s easier to log something vague and return success…",
+      "author": "Brian Vanderwal",
+      "publishedAt": "2026-07-21T12:00:16.000Z"
+    },
+    {
+      "guid": "https://spin.atomicobject.com/?p=3674591",
+      "title": "Here’s How We’re Using AI Analysis in Developer Tooling",
+      "link": "https://spin.atomicobject.com/ai-analysis-developer-tooling/",
+      "summary": "On a recent project, I watched a team spend the better part of a week tracking down a single regression. The pipeline was a long-running simulation suite. Each test run took hours. There were dozens of commits to check, and the only way to check them was manually: run the sim, wait, evaluate the…",
+      "author": "Rebecca Rayford",
+      "publishedAt": "2026-07-20T12:00:22.000Z"
+    },
+    {
+      "guid": "https://spin.atomicobject.com/?p=3674659",
+      "title": "A Skeptic at AI Engineers’ World Fair",
+      "link": "https://spin.atomicobject.com/ai-engineers-world-fair-26/",
+      "summary": "Whether you use or even like AI, the genie is out of the bottle. What used to feel like a more personalized Google search can now index your entire codebase, explain how unfamiliar areas are structured, warn you of system design implications, and build features of surprising complexity. (Assuming,…",
+      "author": "Matt Sweda",
+      "publishedAt": "2026-07-19T12:00:46.000Z"
+    },
+    {
+      "guid": "https://spin.atomicobject.com/?p=3674466&preview=true&preview_id=3674466",
+      "title": "Build Alignment Using a Product Requirements Document",
+      "link": "https://spin.atomicobject.com/product-requirements-document/",
+      "summary": "A product requirements document is a short, shared artifact that states the core problem a piece of work solves and what has to be true to call it done. It is not a full spec with every edge case and acceptance criterion. It sits higher than that: the problem, the goals, the boundaries of scope,…",
+      "author": "Sivhaun Sera",
+      "publishedAt": "2026-07-18T12:00:12.000Z"
+    },
+    {
+      "guid": "https://spin.atomicobject.com/?p=3674444",
+      "title": "How I Build My Ubuntu 26.04 Cloud-Init Template for Proxmox",
+      "link": "https://spin.atomicobject.com/ubuntu-26-04-proxmox/",
+      "summary": "I run a handful of Ubuntu virtual machines in Proxmox. They host applications via Docker Compose, VPN service, NUT services, and a few other odds and ends around my home lab. Virtual machines I’ve created within the last year and a half or so are entirely under the control of OpenTofu (for creating…",
+      "author": "Matt Fletcher",
+      "publishedAt": "2026-07-17T12:00:10.000Z"
+    },
+    {
+      "guid": "https://spin.atomicobject.com/?p=3674585",
+      "title": "Solution-First UX Design: Using AI to Solve Problems",
+      "link": "https://spin.atomicobject.com/solution-first-ux-ai/",
+      "summary": "A few years ago, I wrote about the difference between UI and UX design, using the example of Joanna, a busy mom, hiring a designer to help design storage containers to organize her kitchen. Ira, the UI Designer, designed beautiful, ergonomic containers that were more than she had hoped for, but…",
+      "author": "Jenn Carr",
+      "publishedAt": "2026-07-16T12:00:51.000Z"
+    },
+    {
+      "guid": "https://spin.atomicobject.com/?p=3674565",
+      "title": "How I’m Going Analog at My Tech Job: My Favorite Offline Tools",
+      "link": "https://spin.atomicobject.com/going-analog-offline-tools/",
+      "summary": "With the rollout of Atomic Object’s agentic delivery model, keeping my thoughts straight has been more challenging than before. Though agentic delivery noticeably speeds up the implementation process, it also increases context-switching for team leads and product folks. It feels more pressing to…",
+      "author": "Yeesoo Chae",
+      "publishedAt": "2026-07-15T12:00:48.000Z"
+    }
+  ],
+  "totalIndexed": 10
+}

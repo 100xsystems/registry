@@ -1,0 +1,413 @@
+{
+  "feedId": "graham-king",
+  "feedName": "Graham King",
+  "feedSiteUrl": "https://www.darkcoding.net/",
+  "feedRssUrl": "https://www.darkcoding.net/index.xml",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T06:50:45.799Z",
+  "items": [
+    {
+      "guid": "https://darkcoding.net/software/personal-ai-evals-aug-2025/",
+      "title": "Evaluating LLMs for my personal use case",
+      "link": "https://darkcoding.net/software/personal-ai-evals-aug-2025/",
+      "summary": "My life is not a math Olympiad",
+      "author": null,
+      "publishedAt": "2025-08-23T17:00:00.000Z"
+    },
+    {
+      "guid": "https://darkcoding.net/software/underrust-mutual-exclusion/",
+      "title": "Underrust: What is the cost of Mutex, RwLock and AtomicPtr?",
+      "link": "https://darkcoding.net/software/underrust-mutual-exclusion/",
+      "summary": "With many concurrent readers and a single occasional writer, which mutual exclusion primitive should you use? Let's look at the assembly to find out.",
+      "author": null,
+      "publishedAt": "2025-05-05T20:05:00.000Z"
+    },
+    {
+      "guid": "https://darkcoding.net/software/underrust-u128/",
+      "title": "Underrust: How does u128 work on a 64-bit processor?",
+      "link": "https://darkcoding.net/software/underrust-u128/",
+      "summary": "Wherein our hero learns the arcane secrets of the u128 sword in the depths of the Underrust.",
+      "author": null,
+      "publishedAt": "2025-04-05T20:45:00.000Z"
+    },
+    {
+      "guid": "https://darkcoding.net/software/rust-hashmap-notes/",
+      "title": "Rust HashMap notes",
+      "link": "https://darkcoding.net/software/rust-hashmap-notes/",
+      "summary": "Raw notes on Rust's HashMap design and implementation",
+      "author": null,
+      "publishedAt": "2025-03-30T14:50:00.000Z"
+    },
+    {
+      "guid": "https://darkcoding.net/software/cpu-optimization-notes/",
+      "title": "CPU Performance Optimization notes",
+      "link": "https://darkcoding.net/software/cpu-optimization-notes/",
+      "summary": "Raw notes on CPU optimization",
+      "author": null,
+      "publishedAt": "2025-03-29T16:15:00.000Z"
+    },
+    {
+      "guid": "https://darkcoding.net/software/transparent-software/",
+      "title": "Transparent Software",
+      "link": "https://darkcoding.net/software/transparent-software/",
+      "summary": "A software system is transparent when you can look at it and immediately understand what it is doing and how.",
+      "author": null,
+      "publishedAt": "2025-03-29T15:54:00.000Z"
+    },
+    {
+      "guid": "https://darkcoding.net/society/travels-with-chatgpt/",
+      "title": "Travels with ChatGPT",
+      "link": "https://darkcoding.net/society/travels-with-chatgpt/",
+      "summary": "An overconfident genius personal assistant in my pocket",
+      "author": null,
+      "publishedAt": "2024-07-07T20:24:00.000Z"
+    },
+    {
+      "guid": "https://darkcoding.net/software/ai-hallucinations-are-often-reasonable-suggestions/",
+      "title": "AI Hallucinations Are Often Reasonable Suggestions",
+      "link": "https://darkcoding.net/software/ai-hallucinations-are-often-reasonable-suggestions/",
+      "summary": "Don't dismiss the statistically probable",
+      "author": null,
+      "publishedAt": "2024-05-26T19:00:00.000Z"
+    },
+    {
+      "guid": "https://darkcoding.net/software/rust-zeroed-vector-allocation/",
+      "title": "Underrust: What does vec![0u8; 1024] really do?",
+      "link": "https://darkcoding.net/software/rust-zeroed-vector-allocation/",
+      "summary": "How does Rust allocate a zeroed Vec and what does it cost?",
+      "author": null,
+      "publishedAt": "2024-03-29T15:00:00.000Z"
+    },
+    {
+      "guid": "https://darkcoding.net/software/rust-systemd-memory-remains/",
+      "title": "The memory remains: Permanent memory with systemd and a Rust allocator",
+      "link": "https://darkcoding.net/software/rust-systemd-memory-remains/",
+      "summary": "A Rust object that survives program restart thanks to Rust allocators, systemd's file descriptor store, and syscall memfd_create.",
+      "author": null,
+      "publishedAt": "2024-01-10T01:54:00.000Z"
+    },
+    {
+      "guid": "https://darkcoding.net/software/linux-what-can-you-epoll/",
+      "title": "Linux: What can you epoll?",
+      "link": "https://darkcoding.net/software/linux-what-can-you-epoll/",
+      "summary": "On Linux what can you turn into a file descriptor and then monitor with epoll?",
+      "author": null,
+      "publishedAt": "2022-10-20T07:00:00.000Z"
+    },
+    {
+      "guid": "https://darkcoding.net/software/rust-multiple-return-types/",
+      "title": "Underrust: Multiple Return Values",
+      "link": "https://darkcoding.net/software/rust-multiple-return-types/",
+      "summary": "How does Rust return values, and does it make any difference to us programmers?",
+      "author": null,
+      "publishedAt": "2022-10-18T07:00:00.000Z"
+    },
+    {
+      "guid": "https://darkcoding.net/software/two-sum/",
+      "title": "Overthinking Leetcode's Two Sum with SIMD",
+      "link": "https://darkcoding.net/software/two-sum/",
+      "summary": "When is the linear scan Two Sum solution faster than a map? What if we use AVX-512 instructions?",
+      "author": null,
+      "publishedAt": "2022-10-09T07:00:00.000Z"
+    },
+    {
+      "guid": "https://darkcoding.net/software/cost-of-sync-once/",
+      "title": "Underrust: What is the cost of sync::Once?",
+      "link": "https://darkcoding.net/software/cost-of-sync-once/",
+      "summary": "In Rust, what is the performance cost of using sync::Once after the initial setup?",
+      "author": null,
+      "publishedAt": "2022-09-18T07:00:00.000Z"
+    },
+    {
+      "guid": "https://darkcoding.net/software/does-it-matter-what-type-i-use/",
+      "title": "Underrust: Does it matter what type (u8, u32, ...) I use?",
+      "link": "https://darkcoding.net/software/does-it-matter-what-type-i-use/",
+      "summary": "In Rust, how does using a different primitive type (u8, i32, u64, ...) change the generated assembly?",
+      "author": null,
+      "publishedAt": "2022-09-02T07:00:00.000Z"
+    },
+    {
+      "guid": "https://darkcoding.net/software/underrust-rust-assembly-output/",
+      "title": "The Underrust: Rust's assembly output",
+      "link": "https://darkcoding.net/software/underrust-rust-assembly-output/",
+      "summary": "Assembly: In all the world of the programmer, there is no more important output.",
+      "author": null,
+      "publishedAt": "2022-08-31T07:00:00.000Z"
+    },
+    {
+      "guid": "https://darkcoding.net/software/a-very-small-rust-binary-indeed/",
+      "title": "A very small Rust binary indeed",
+      "link": "https://darkcoding.net/software/a-very-small-rust-binary-indeed/",
+      "summary": "Can we make a Rust program that's as small as it's assembler equivalent?",
+      "author": null,
+      "publishedAt": "2022-07-01T16:00:32.000Z"
+    },
+    {
+      "guid": "https://darkcoding.net/software/a-random-number-you-already-have/",
+      "title": "A random number you already have: The stack address",
+      "link": "https://darkcoding.net/software/a-random-number-you-already-have/",
+      "summary": "Thanks to Address Space Layout Randomization you can use the address of a stack variable as a zero-cost random number.",
+      "author": null,
+      "publishedAt": "2022-06-05T23:19:39.000Z"
+    },
+    {
+      "guid": "https://darkcoding.net/software/return-value-optimization-in-rust/",
+      "title": "Return Value Optimization in Rust",
+      "link": "https://darkcoding.net/software/return-value-optimization-in-rust/",
+      "summary": "Rust avoids memory copies by optimizing return value placement.",
+      "author": null,
+      "publishedAt": "2022-02-26T22:49:47.000Z"
+    },
+    {
+      "guid": "https://darkcoding.net/software/rust-atomics-on-x86/",
+      "title": "Rust atomics on x86: How and why",
+      "link": "https://darkcoding.net/software/rust-atomics-on-x86/",
+      "summary": "On x86 it doesn't really matter what sync::atomic::Ordering you choose.",
+      "author": null,
+      "publishedAt": "2022-01-30T23:18:06.000Z"
+    },
+    {
+      "guid": "https://darkcoding.net/software/rust-is-also-c/",
+      "title": "Rust is also C",
+      "link": "https://darkcoding.net/software/rust-is-also-c/",
+      "summary": "Safety is boring, let's do pointer arithmetic.",
+      "author": null,
+      "publishedAt": "2022-01-17T17:04:46.000Z"
+    },
+    {
+      "guid": "https://darkcoding.net/software/epoll-the-api-that-powers-the-modern-internet/",
+      "title": "epoll: The API that powers the modern internet",
+      "link": "https://darkcoding.net/software/epoll-the-api-that-powers-the-modern-internet/",
+      "summary": "Linux's epoll API solved the C10K problem, enabling fast and afforable Internet services.",
+      "author": null,
+      "publishedAt": "2022-01-03T23:46:10.000Z"
+    },
+    {
+      "guid": "https://darkcoding.net/software/scripting-minecraft-server-with-python/",
+      "title": "Scripting Minecraft server with Python",
+      "link": "https://darkcoding.net/software/scripting-minecraft-server-with-python/",
+      "summary": "Minecraft has an API. If you run your own server you can program it from Python.",
+      "author": null,
+      "publishedAt": "2021-12-12T00:22:11.000Z"
+    },
+    {
+      "guid": "https://darkcoding.net/software/rust-performance-101-in-5-minutes/",
+      "title": "Rust Performance 101 in 5 Minutes",
+      "link": "https://darkcoding.net/software/rust-performance-101-in-5-minutes/",
+      "summary": "Is your Rust program CPU bound? Here are the very first things you can do on Linux.",
+      "author": null,
+      "publishedAt": "2021-06-16T00:00:00.000Z"
+    },
+    {
+      "guid": "https://darkcoding.net/software/cpu-silently-disappointed-with-your-choice-of-instruction-ordering/",
+      "title": "CPU silently disappointed with your choice of instruction ordering",
+      "link": "https://darkcoding.net/software/cpu-silently-disappointed-with-your-choice-of-instruction-ordering/",
+      "summary": "An adventure in CPU out-of-order instruction execution.",
+      "author": null,
+      "publishedAt": "2021-06-09T23:10:34.000Z"
+    },
+    {
+      "guid": "https://darkcoding.net/software/traits-rusts-unifying-concept/",
+      "title": "Traits: Rust's unifying concept",
+      "link": "https://darkcoding.net/software/traits-rusts-unifying-concept/",
+      "summary": "Rust's traits are a single concept that unifies interfaces, abstract classes, mix-ins, operator overloading, contraints on generics, and more.",
+      "author": null,
+      "publishedAt": "2021-01-31T00:00:00.000Z"
+    },
+    {
+      "guid": "https://darkcoding.net/software/a-day-in-the-life-of-a-professional-software-engineer/",
+      "title": "A day in the life of a professional software engineer",
+      "link": "https://darkcoding.net/software/a-day-in-the-life-of-a-professional-software-engineer/",
+      "summary": "Just a normal day reversing linked lists on the whiteboard.",
+      "author": null,
+      "publishedAt": "2020-12-20T23:05:31.000Z"
+    },
+    {
+      "guid": "https://darkcoding.net/software/three-things-i-wish-id-known-learning-rust/",
+      "title": "Three things I wish I’d known learning Rust",
+      "link": "https://darkcoding.net/software/three-things-i-wish-id-known-learning-rust/",
+      "summary": "It will take longer to learn than most languages, the standard library is small so you'll need dependencies, and a lot of behavior is in traits.",
+      "author": null,
+      "publishedAt": "2020-11-19T00:04:14.000Z"
+    },
+    {
+      "guid": "https://darkcoding.net/behaviour/quote-of-the-day-a-stirring-speech/",
+      "title": "Quote of the day: A stirring speech",
+      "link": "https://darkcoding.net/behaviour/quote-of-the-day-a-stirring-speech/",
+      "summary": "... because, at every new incident, your fortitude was to be called forth, and your courage exhibited; because danger and death surrounded it, and these you were to brave and overcome. For this was it a glorious, for this was it an honourable undertaking.",
+      "author": null,
+      "publishedAt": "2020-06-11T00:14:31.000Z"
+    },
+    {
+      "guid": "https://darkcoding.net/software/the-simplest-cli-that-could-possibly-work/",
+      "title": "The simplest CLI that could possibly work",
+      "link": "https://darkcoding.net/software/the-simplest-cli-that-could-possibly-work/",
+      "summary": "In Go, what's the simplest possible way to put all your ad-hoc tools in one place?",
+      "author": null,
+      "publishedAt": "2020-06-06T18:12:06.000Z"
+    },
+    {
+      "guid": "https://darkcoding.net/software/collect-and-handle-multiple-errors-in-go/",
+      "title": "Collect and handle multiple errors in Go",
+      "link": "https://darkcoding.net/software/collect-and-handle-multiple-errors-in-go/",
+      "summary": "In Go, how do you run several operations that might return an error, and return those errors at the end? Here's how I do it.",
+      "author": null,
+      "publishedAt": "2020-05-22T17:33:53.000Z"
+    },
+    {
+      "guid": "https://darkcoding.net/software/a-developer-goes-to-a-devops-conference/",
+      "title": "A developer goes to a DevOps conference",
+      "link": "https://darkcoding.net/software/a-developer-goes-to-a-devops-conference/",
+      "summary": "Two days at PDX DevOpsDays, a gathering of system administrators who use version control, and write a lot of YAML.",
+      "author": null,
+      "publishedAt": "2019-09-13T17:54:30.000Z"
+    },
+    {
+      "guid": "https://darkcoding.net/software/reading-mediarecorders-webm-opus-output/",
+      "title": "Reading MediaRecorder’s webm/opus output",
+      "link": "https://darkcoding.net/software/reading-mediarecorders-webm-opus-output/",
+      "summary": "Making like Theseus in the WEBM/MATROSKA/EBML audio maze",
+      "author": null,
+      "publishedAt": "2018-07-27T19:34:18.000Z"
+    },
+    {
+      "guid": "https://darkcoding.net/software/javascripts-async-await-and-promise-in-a-few-words/",
+      "title": "Javascript’s async/await and Promise in a few words",
+      "link": "https://darkcoding.net/software/javascripts-async-await-and-promise-in-a-few-words/",
+      "summary": "Unraveling the magic of async/await: From callbacks to linear code.",
+      "author": null,
+      "publishedAt": "2018-07-27T14:30:45.000Z"
+    },
+    {
+      "guid": "https://darkcoding.net/software/growing-software-in-two-tweets/",
+      "title": "Growing software, in two tweets",
+      "link": "https://darkcoding.net/software/growing-software-in-two-tweets/",
+      "summary": "Cultivating code: From seedling to flourishing software garden.",
+      "author": null,
+      "publishedAt": "2018-03-29T18:34:13.000Z"
+    },
+    {
+      "guid": "https://darkcoding.net/behaviour/what-made-maddy-run/",
+      "title": "What Made Maddy Run",
+      "link": "https://darkcoding.net/behaviour/what-made-maddy-run/",
+      "summary": "Unveiling the hidden struggles behind a perfect facade.",
+      "author": null,
+      "publishedAt": "2017-11-11T21:58:29.000Z"
+    },
+    {
+      "guid": "https://darkcoding.net/behaviour/learn-better-book-notes/",
+      "title": "Learn Better – book notes",
+      "link": "https://darkcoding.net/behaviour/learn-better-book-notes/",
+      "summary": "Unlock your learning potential: Practical tips for mastering any skill.",
+      "author": null,
+      "publishedAt": "2017-05-22T04:25:28.000Z"
+    },
+    {
+      "guid": "https://darkcoding.net/software/systemd-socket-activation-in-go/",
+      "title": "systemd socket activation in Go",
+      "link": "https://darkcoding.net/software/systemd-socket-activation-in-go/",
+      "summary": "\"Unlock root-level ports without root privileges: A guide to systemd socket activation\"",
+      "author": null,
+      "publishedAt": "2016-04-09T19:01:26.000Z"
+    },
+    {
+      "guid": "https://darkcoding.net/software/the-joy-of-systemd/",
+      "title": "The Joy of systemd",
+      "link": "https://darkcoding.net/software/the-joy-of-systemd/",
+      "summary": "Embracing the future: A quick guide to systemd for modern daemon management.",
+      "author": null,
+      "publishedAt": "2016-01-12T16:51:04.000Z"
+    },
+    {
+      "guid": "https://darkcoding.net/ideas/how-ada-lovelace-solved-problems/",
+      "title": "How Ada Lovelace solved problems",
+      "link": "https://darkcoding.net/ideas/how-ada-lovelace-solved-problems/",
+      "summary": "Ada Lovelace: Debugging by horseback since 1843.",
+      "author": null,
+      "publishedAt": "2015-12-11T05:02:00.000Z"
+    },
+    {
+      "guid": "https://darkcoding.net/software/facebooks-code-quality-problem/",
+      "title": "Facebook’s code quality problem",
+      "link": "https://darkcoding.net/software/facebooks-code-quality-problem/",
+      "summary": "\"Move fast and break things: A cautionary tale from Facebook's code quality woes.\"",
+      "author": null,
+      "publishedAt": "2015-10-31T23:15:51.000Z"
+    },
+    {
+      "guid": "https://darkcoding.net/software/decrypt-your-https-traffic-with-mitmproxy/",
+      "title": "Decrypt your HTTPS traffic with mitmproxy",
+      "link": "https://darkcoding.net/software/decrypt-your-https-traffic-with-mitmproxy/",
+      "summary": "Decrypt, inspect, and debug HTTPS traffic with mitmproxy and iptables.",
+      "author": null,
+      "publishedAt": "2015-10-26T00:18:04.000Z"
+    },
+    {
+      "guid": "https://darkcoding.net/software/oscon-2015-impressions/",
+      "title": "OSCON 2015: Impressions",
+      "link": "https://darkcoding.net/software/oscon-2015-impressions/",
+      "summary": "OSCON: Where open source meets commerce and connections bloom.",
+      "author": null,
+      "publishedAt": "2015-08-26T03:19:30.000Z"
+    },
+    {
+      "guid": "https://darkcoding.net/software/gophercon-2015-favorite-talks/",
+      "title": "GopherCon 2015: Favorite talks",
+      "link": "https://darkcoding.net/software/gophercon-2015-favorite-talks/",
+      "summary": "\"GopherCon 2015: Where infrastructure meets innovation and inclusivity\"",
+      "author": null,
+      "publishedAt": "2015-07-31T03:58:43.000Z"
+    },
+    {
+      "guid": "https://darkcoding.net/society/we-are-equality/",
+      "title": "We are Equality",
+      "link": "https://darkcoding.net/society/we-are-equality/",
+      "summary": "Equality in the digital realm: Where technology levels the playing field.",
+      "author": null,
+      "publishedAt": "2015-07-30T04:33:21.000Z"
+    },
+    {
+      "guid": "https://darkcoding.net/software/building-shared-libraries-in-go-part-2/",
+      "title": "Building shared libraries in Go: Part 2",
+      "link": "https://darkcoding.net/software/building-shared-libraries-in-go-part-2/",
+      "summary": "Seamlessly bridging Go and C++: A practical guide to shared libraries.",
+      "author": null,
+      "publishedAt": "2015-07-24T21:12:45.000Z"
+    },
+    {
+      "guid": "https://darkcoding.net/software/building-shared-libraries-in-go-part-1/",
+      "title": "Building shared libraries in Go: Part 1",
+      "link": "https://darkcoding.net/software/building-shared-libraries-in-go-part-1/",
+      "summary": "Unleash Go's power: Create shared libraries for seamless language integration!",
+      "author": null,
+      "publishedAt": "2015-07-15T02:22:07.000Z"
+    },
+    {
+      "guid": "https://darkcoding.net/software/how-memory-is-allocated/",
+      "title": "How memory is allocated",
+      "link": "https://darkcoding.net/software/how-memory-is-allocated/",
+      "summary": "Diving deep: How to allocate memory without malloc in Linux assembly.",
+      "author": null,
+      "publishedAt": "2015-07-10T15:38:57.000Z"
+    },
+    {
+      "guid": "https://darkcoding.net/software/go-slice-search-vs-map-lookup/",
+      "title": "Go: Slice search vs map lookup",
+      "link": "https://darkcoding.net/software/go-slice-search-vs-map-lookup/",
+      "summary": "Maps vs. slices: Choose wisely for optimal performance.",
+      "author": null,
+      "publishedAt": "2015-06-30T06:09:24.000Z"
+    },
+    {
+      "guid": "https://darkcoding.net/software/software-engineering-practices/",
+      "title": "Software engineering practices",
+      "link": "https://darkcoding.net/software/software-engineering-practices/",
+      "summary": "Timeless wisdom for crafting better code: Essential software engineering practices.",
+      "author": null,
+      "publishedAt": "2015-06-19T02:08:49.000Z"
+    }
+  ],
+  "totalIndexed": 50
+}

@@ -1,0 +1,53 @@
+{
+  "feedId": "arkency",
+  "feedName": "Arkency",
+  "feedSiteUrl": "http://blog.arkency.com/",
+  "feedRssUrl": "https://blog.arkency.com/feed.xml",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T06:41:37.023Z",
+  "items": [
+    {
+      "guid": "arkency::https://blog.arkency.com/3-example-process-managers-in-rails/",
+      "title": "3 example process managers in Rails",
+      "link": "https://blog.arkency.com/3-example-process-managers-in-rails/",
+      "summary": "3 example process managers in Rails\nI am writing this blogpost from this beautiful place in the Polish mountains. Our RailsEventStore camp takes place this week. \n\nProcess managers are meant to map business process into code. The more readable and declarative it is, the better the chance domain…",
+      "author": "Andrzej Krzywda",
+      "publishedAt": "2026-07-16T09:03:31.000Z"
+    },
+    {
+      "guid": "arkency::https://blog.arkency.com/ingress-is-not-the-owner-of-the-invariant/",
+      "title": "Ingress is not the owner of the invariant",
+      "link": "https://blog.arkency.com/ingress-is-not-the-owner-of-the-invariant/",
+      "summary": "Ingress is not the owner of the invariant\nA polemic with Callbacks Are Not Invariants by Brandon Weaver.\nA disclaimer: I’m a RailsEventStore maintainer and this article ends up on the Arkency blog — so cards are on the table. Despite this, I’m keeping the core of my argument in pure ActiveRecord:…",
+      "author": "Szymon Fiedler",
+      "publishedAt": "2026-06-16T13:21:30.000Z"
+    },
+    {
+      "guid": "arkency::https://blog.arkency.com/res-mcp-server/",
+      "title": "Let Your AI Assistant Explore the Event Store with res-mcp",
+      "link": "https://blog.arkency.com/res-mcp-server/",
+      "summary": "Let Your AI Assistant Explore the Event Store with res-mcp\nWhen you’re debugging with an AI assistant, half the work is giving it enough context. You copy event payloads into the chat, paste stream contents, look up IDs, then repeat the process every time you need another piece of information.…",
+      "author": "Tomasz Patrzek",
+      "publishedAt": "2026-06-11T10:00:00.000Z"
+    },
+    {
+      "guid": "arkency::https://blog.arkency.com/res-cli/",
+      "title": "Inspect Your Event Store From the Terminal With the res CLI",
+      "link": "https://blog.arkency.com/res-cli/",
+      "summary": "Inspect Your Event Store From the Terminal With the res CLI\nBecause not every debugging session needs rails c.\nMost event store debugging starts the same way: you open a Rails console, try to remember the Event Store read API, and type something like:\nevent_store.read.stream(\"Order$123\").to_a\n\n\nIt…",
+      "author": "Tomasz Patrzek",
+      "publishedAt": "2026-06-02T10:00:00.000Z"
+    },
+    {
+      "guid": "arkency::https://blog.arkency.com/whats-new-in-rails-event-store-3/",
+      "title": "What's New in Rails Event Store 3.0",
+      "link": "https://blog.arkency.com/whats-new-in-rails-event-store-3/",
+      "summary": "What’s New in Rails Event Store 3.0\nRails Event Store 3.0 is primarily a cleanup release.\nThroughout the 2.x series we introduced new features while gradually deprecating APIs we no longer wanted to maintain. In 3.0, those deprecated APIs are finally gone.\nThere are no major new concepts or APIs to…",
+      "author": "Tomasz Patrzek",
+      "publishedAt": "2026-06-02T10:00:00.000Z"
+    }
+  ],
+  "totalIndexed": 5
+}

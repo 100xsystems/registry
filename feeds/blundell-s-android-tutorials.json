@@ -1,0 +1,93 @@
+{
+  "feedId": "blundell-s-android-tutorials",
+  "feedName": "Blundell's Android Tutorials",
+  "feedSiteUrl": "http://blog.blundellapps.co.uk",
+  "feedRssUrl": "https://blog.blundellapps.co.uk/feed/",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T06:45:17.263Z",
+  "items": [
+    {
+      "guid": "https://blog.blundellapps.co.uk/?p=1838",
+      "title": "Android Skills: Expert Instructions for Your AI Agent",
+      "link": "https://blog.blundellapps.co.uk/android-skills-expert-instructions-for-your-ai-agent/",
+      "summary": "Google just published a set of Android skills a collection of expert, AI-optimised instructions covering the most common and painful Android development workflows. (Upgrading to AGP 9, migrating XML layouts to Compose, wiring up Navigation…\nRead more of Android Skills: Expert Instructions for Your…",
+      "author": "blundell",
+      "publishedAt": "2026-04-24T22:10:46.000Z"
+    },
+    {
+      "guid": "https://blog.blundellapps.co.uk/?p=1834",
+      "title": "Zero to AI: An Android Developer’s Vital Local Setup",
+      "link": "https://blog.blundellapps.co.uk/zero-to-ai-an-android-developers-vital-local-setup/",
+      "summary": "Forget just installing Android Studio and calling it a day. To operate at scale, you need a local environment that augments your engineering intuition with LLM-powered efficiency. Here is your Day 1 guide to setting up your machine for success.\nZero to AI: An Android Developer’s Vital Local Setup…",
+      "author": "blundell",
+      "publishedAt": "2026-01-18T14:03:28.000Z"
+    },
+    {
+      "guid": "https://blog.blundellapps.co.uk/?p=1824",
+      "title": "Linting, Automated: AI-Powered Static Analysis with Gemini",
+      "link": "https://blog.blundellapps.co.uk/linting-automated-ai-powered-static-analysis-with-gemini/",
+      "summary": "Tired of fixing endless linting errors? What if an AI could do it for you? In this post, we’ll walk through how to build a Python script that uses Google’s Gemini to automatically fix static…\nRead more of Linting, Automated: AI-Powered Static Analysis with Gemini →\nLinting, Automated: AI-Powered…",
+      "author": "blundell",
+      "publishedAt": "2025-09-23T16:24:26.000Z"
+    },
+    {
+      "guid": "https://blog.blundellapps.co.uk/?p=1820",
+      "title": "Google I/O 2025: AI Unleashed – What Android Devs Need to Know!",
+      "link": "https://blog.blundellapps.co.uk/google-i-o-2025-ai-unleashed-what-android-devs-need-to-know/",
+      "summary": "The intro before the intro. Like every year I watched the keynote & developer keynote with excitement, taking my usual notes and reactive thoughts as it streams. This year though instead of myself turning those…\nRead more of Google I/O 2025: AI Unleashed – What Android Devs Need to Know! →\nGoogle…",
+      "author": "blundell",
+      "publishedAt": "2025-05-23T12:47:47.000Z"
+    },
+    {
+      "guid": "https://blog.blundellapps.co.uk/?p=1795",
+      "title": "Choosing Wisely: for vs. forEach in Kotlin (A Thinking Dev’s Perspective)",
+      "link": "https://blog.blundellapps.co.uk/choosing-wisely-for-vs-foreach-in-kotlin-a-thinking-devs-perspective/",
+      "summary": "The forEach loop, are you using it without thinking? In Kotlin, empirically forEach is often the go-to loop, it’s pragmatically close at reach in the IDE auto-complete, but is it always the right choice? This…\nRead more of Choosing Wisely: for vs. forEach in Kotlin (A Thinking Dev’s Perspective) →…",
+      "author": "blundell",
+      "publishedAt": "2025-04-04T14:25:30.000Z"
+    },
+    {
+      "guid": "https://blog.blundellapps.co.uk/?p=1802",
+      "title": "Get started with Gemma 3 LLM on Android now!",
+      "link": "https://blog.blundellapps.co.uk/get-started-with-gemma-3-llm-on-android-now/",
+      "summary": "This post gets you started with the new Gemma 3 model for on-device inference. Giving you the simplest steps to get started with AI on Android. Gemma 3 1B is a new model size in the…\nRead more of Get started with Gemma 3 LLM on Android now! →\nGet started with Gemma 3 LLM on Android now! first…",
+      "author": "blundell",
+      "publishedAt": "2025-03-12T22:11:14.000Z"
+    },
+    {
+      "guid": "https://blog.blundellapps.co.uk/?p=1780",
+      "title": "Room Debug DAOs in Android: Streamlining Your Workflow",
+      "link": "https://blog.blundellapps.co.uk/room-debug-daos-in-android-streamlining-your-workflow/",
+      "summary": "This blog post explains how to create Room DAOs specifically for your Android debug build. These debug-only DAOs enable you to implement developer-centric features without affecting your production app. Keeping your codebase clean is essential…\nRead more of Room Debug DAOs in Android: Streamlining…",
+      "author": "blundell",
+      "publishedAt": "2025-02-22T20:53:27.000Z"
+    },
+    {
+      "guid": "https://blog.blundellapps.co.uk/?p=1759",
+      "title": "Android Bugsee SDK: Ignore the Docs, Do THIS Instead",
+      "link": "https://blog.blundellapps.co.uk/android-bugsee-sdk-ignore-the-docs-do-this-instead/",
+      "summary": "When introducing 3rd party libraries (like BugSee), often their configuration is dumped into your build.gradle/application:onCreate and mixed with everything else. This post shows you how to have cleaner, more maintainable code by creating your own…\nRead more of Android Bugsee SDK: Ignore the Docs,…",
+      "author": "blundell",
+      "publishedAt": "2025-01-30T21:43:46.000Z"
+    },
+    {
+      "guid": "https://blog.blundellapps.co.uk/?p=1749",
+      "title": "Android Dynamic Animated SVGs (with Lottie Dynamic Properties)",
+      "link": "https://blog.blundellapps.co.uk/android-dynamic-animated-svgs-with-lottie-dynamic-properties/",
+      "summary": "Learn how to have runtime control of all parts of an animation or image, the color, opacity, scale, rotation .. any property within your SVG animation using Lottie Dynamic Properties. This tutorial is going to…\nRead more of Android Dynamic Animated SVGs (with Lottie Dynamic Properties) →\nAndroid…",
+      "author": "blundell",
+      "publishedAt": "2025-01-04T20:24:47.000Z"
+    },
+    {
+      "guid": "https://blog.blundellapps.co.uk/?p=1735",
+      "title": "OCR with Gemini LLM on Android",
+      "link": "https://blog.blundellapps.co.uk/ocr-with-gemini-llm-on-android/",
+      "summary": "This artical is a quick introduction into setting up the Gemini API client SDK on Android to perform Optical Character Recognition (OCR) on images. Let’s jump straight in: The Gemini API gives you access to…\nRead more of OCR with Gemini LLM on Android →\nOCR with Gemini LLM on Android first appeared…",
+      "author": "blundell",
+      "publishedAt": "2024-04-06T13:44:56.000Z"
+    }
+  ],
+  "totalIndexed": 10
+}

@@ -1,0 +1,413 @@
+{
+  "feedId": "jake-wharton",
+  "feedName": "Jake Wharton",
+  "feedSiteUrl": "http://jakewharton.com/blog",
+  "feedRssUrl": "https://jakewharton.com/atom.xml",
+  "tags": [
+    "engineering"
+  ],
+  "updatedAt": "2026-07-24T06:53:01.953Z",
+  "items": [
+    {
+      "guid": "jake-wharton::https://jakewharton.com/live-coding-with-dir-stepper/",
+      "title": "Live coding with dir stepper",
+      "link": "https://jakewharton.com/live-coding-with-dir-stepper/",
+      "summary": "Two months ago I gave my first ever live programming talk at KotlinConf.\nIt was called \"Talking to terminals (and how they talk back)\", and you can watch it here.\nI've previously done slide-heavy talks which contained small demos or navigating through an existing codebase. Since this talk was…",
+      "author": null,
+      "publishedAt": "2026-07-16T00:00:00.000Z"
+    },
+    {
+      "guid": "jake-wharton::https://jakewharton.com/the-lysine-contingency/",
+      "title": "The lysine contingency",
+      "link": "https://jakewharton.com/the-lysine-contingency/",
+      "summary": "I'm happy to announce that Retrofit, OkHttp, and Okio are moving to a new GitHub organization, and along with SQL Delight are all joining the Commonhaus Foundation.\nYou can read their announcement of the move.\nThis move is meant to reinforce our commitment to these projects' longevity and honor the…",
+      "author": null,
+      "publishedAt": "2026-06-17T00:00:00.000Z"
+    },
+    {
+      "guid": "jake-wharton::https://jakewharton.com/an-update-on-android-ktx/",
+      "title": "An update on Android KTX",
+      "link": "https://jakewharton.com/an-update-on-android-ktx/",
+      "summary": "Eight years ago we launched a library of Kotlin extensions for the Android platform, Android KTX.\nIn the time since, the library became Core KTX, and numerous other KTX libraries were written for other AndroidX libraries.\nAnd while KTX's approach to adding Kotlin niceties was built on a strong…",
+      "author": null,
+      "publishedAt": "2026-04-01T00:00:00.000Z"
+    },
+    {
+      "guid": "jake-wharton::https://jakewharton.com/defuse-the-compose-bom/",
+      "title": "Let's defuse the Compose BOM",
+      "link": "https://jakewharton.com/defuse-the-compose-bom/",
+      "summary": "Many people rely on the Compose bill of materials (BOM) artifact to provide the complete set of Compose dependency versions.\nIf we use Compose’s foundation 1.8.0 but a transitive dependency bumps foundation-layout, there’s a risk that these two versions are incompatible with each other despite…",
+      "author": null,
+      "publishedAt": "2025-12-03T00:00:00.000Z"
+    },
+    {
+      "guid": "jake-wharton::https://jakewharton.com/you-should-use-androidx-betas/",
+      "title": "You should use AndroidX betas",
+      "link": "https://jakewharton.com/you-should-use-androidx-betas/",
+      "summary": "Did you know the versioning of AndroidX libraries and their stability guarantees are different from most libraries?\nTheir betas and RCs are actually production-ready, and you should be using them!\nIn a “normal” library, such as the ones I release, features are added and known bugs are fixed to…",
+      "author": null,
+      "publishedAt": "2025-11-19T00:00:00.000Z"
+    },
+    {
+      "guid": "jake-wharton::https://jakewharton.com/custom-short-link-redirector/",
+      "title": "Custom short-link redirector",
+      "link": "https://jakewharton.com/custom-short-link-redirector/",
+      "summary": "I used to use Bit.ly to put links into my presentations.\nTheir service allowed you to customize the path portion of the link, so I was able to create links like bit.ly/ok-libs.\nIf you were attending the talks live, watching the recording, or browsing the slides, the short URL was easy to type into…",
+      "author": null,
+      "publishedAt": "2025-10-14T00:00:00.000Z"
+    },
+    {
+      "guid": "jake-wharton::https://jakewharton.com/fan-in-to-a-single-required-github-action/",
+      "title": "Fan-in to a single required GitHub Action",
+      "link": "https://jakewharton.com/fan-in-to-a-single-required-github-action/",
+      "summary": "It doesn't take long for a project to spawn multiple jobs in their GitHub Actions.\nParallelization can lead to huge speedups for PRs.\nJob grouping makes it easier to conditionally enable or disable multiple steps.\nEach time you add a new job, however, you have to mark it as required in branch…",
+      "author": null,
+      "publishedAt": "2025-05-07T00:00:00.000Z"
+    },
+    {
+      "guid": "jake-wharton::https://jakewharton.com/compile-time-validation-of-jni-signatures/",
+      "title": "Compile-time validation of JNI signatures",
+      "link": "https://jakewharton.com/compile-time-validation-of-jni-signatures/",
+      "summary": "JNI allows managed code inside the JVM or ART to call into native code.\nJava methods can be declared as native, and then a corresponding C function1 can be written and automatically wired together when the native library is loaded.\nNative code lacks mechanisms like packages and overloads, so a…",
+      "author": null,
+      "publishedAt": "2025-03-12T00:00:00.000Z"
+    },
+    {
+      "guid": "jake-wharton::https://jakewharton.com/deprecating-idling-resource-libraries/",
+      "title": "Deprecating idling resource libraries",
+      "link": "https://jakewharton.com/deprecating-idling-resource-libraries/",
+      "summary": "When Espresso was made public a decade ago, one of its banner features was the \"idling resource\" concept.\nThis monitored the main thread and any background thread pools to prevent your test from progressing until the app became idle.\nWaiting until idle generally increased the stability of tests…",
+      "author": null,
+      "publishedAt": "2025-02-19T00:00:00.000Z"
+    },
+    {
+      "guid": "jake-wharton::https://jakewharton.com/using-renovate-to-update-build-jdk/",
+      "title": "Using Renovate to update build JDK",
+      "link": "https://jakewharton.com/using-renovate-to-update-build-jdk/",
+      "summary": "You want to be using the latest JDK for development.\nDon't use Gradle toolchains, they'll needlessly force you to use old JDKs.\nYou can still target and test on old JVM versions but develop with the latest and greatest.\nJava and the JDK are literally built for this.\nLocally this hasn't been a…",
+      "author": null,
+      "publishedAt": "2025-01-08T00:00:00.000Z"
+    },
+    {
+      "guid": "jake-wharton::https://jakewharton.com/nonsensical-maven-is-still-a-gradle-problem/",
+      "title": "Nonsensical Maven is still a Gradle problem",
+      "link": "https://jakewharton.com/nonsensical-maven-is-still-a-gradle-problem/",
+      "summary": "There was a time when I used Maven heavily, but today all the libraries I work on build with Gradle. Even though I'm publishing with Gradle, consumers can use Gradle, Maven, Bazel, jars in libs/ (but please don't), or anything else. That's a huge JVM ecosystem win!\nIn general, I don't have to think…",
+      "author": null,
+      "publishedAt": "2024-03-28T00:00:00.000Z"
+    },
+    {
+      "guid": "jake-wharton::https://jakewharton.com/gradle-toolchains-are-rarely-a-good-idea/",
+      "title": "Gradle toolchains are rarely a good idea",
+      "link": "https://jakewharton.com/gradle-toolchains-are-rarely-a-good-idea/",
+      "summary": "The last post featured some Kotlin code inadvertently targeting a new Java API when the build JDK was bumped to 21. This can be solved with the -Xjdk-release Kotlin compiler flag, or by using Gradle toolchains to build with an old JDK.\nIf you read the Gradle docs…\nUsing Java toolchains is a…",
+      "author": null,
+      "publishedAt": "2024-03-21T00:00:00.000Z"
+    },
+    {
+      "guid": "jake-wharton::https://jakewharton.com/kotlins-jdk-release-compatibility-flag/",
+      "title": "Kotlin's JDK release compatibility flag",
+      "link": "https://jakewharton.com/kotlins-jdk-release-compatibility-flag/",
+      "summary": "Yesterday, our Android app crashed with a weird NoSuchMethodError.\n\njava.lang.NoSuchMethodError: No interface method removeFirst()Ljava/lang/Object; in class Ljava/util/List; or its super classes (declaration of 'java.util.List' appears in /apex/com.android.art/javalib/core-oj.jar)\n    at…",
+      "author": null,
+      "publishedAt": "2024-03-13T00:00:00.000Z"
+    },
+    {
+      "guid": "jake-wharton::https://jakewharton.com/perils-of-duplicate-finding/",
+      "title": "Perils of duplicate finding",
+      "link": "https://jakewharton.com/perils-of-duplicate-finding/",
+      "summary": "Given an array of integers ([1, 2, 3, 1, 3, 1]), find the elements which are duplicated.\nNo, we're not interviewing.\nI'm trying to prevent a user from specifying a reserved value twice.\nElsewhere in the file I already have duplicate detection for object tags.\n\nval dupes: Map<Int, List<Widget>> =…",
+      "author": null,
+      "publishedAt": "2024-02-14T00:00:00.000Z"
+    },
+    {
+      "guid": "jake-wharton::https://jakewharton.com/intermediate-collection-avoidance/",
+      "title": "Intermediate collection avoidance",
+      "link": "https://jakewharton.com/intermediate-collection-avoidance/",
+      "summary": "Given a list of users, extract their names and join them into a comma-separated list.\nKotlin's extension functions on collections make this trivial.\n\nusers.map { it.name }.joinToString()\n\n\nWriting this in IntelliJ IDEA produces a \"weak warning\" offering advice.\nCall chain on collection type may be…",
+      "author": null,
+      "publishedAt": "2024-02-07T00:00:00.000Z"
+    },
+    {
+      "guid": "jake-wharton::https://code.cash.app/molecule-1-0",
+      "title": "A stable, multiplatform Molecule 1.0",
+      "link": "https://code.cash.app/molecule-1-0",
+      "summary": "This post was published externally on Cash App Code Blog. Read it at https://code.cash.app/molecule-1-0.",
+      "author": null,
+      "publishedAt": "2023-07-19T00:00:00.000Z"
+    },
+    {
+      "guid": "jake-wharton::https://code.cash.app/native-ui-and-multiplatform-compose-with-redwood",
+      "title": "Native UI and multiplatform Compose with Redwood",
+      "link": "https://code.cash.app/native-ui-and-multiplatform-compose-with-redwood",
+      "summary": "This post was published externally on Cash App Code Blog. Read it at https://code.cash.app/native-ui-and-multiplatform-compose-with-redwood.",
+      "author": null,
+      "publishedAt": "2023-07-05T00:00:00.000Z"
+    },
+    {
+      "guid": "jake-wharton::https://code.cash.app/flow-testing-with-turbine",
+      "title": "Flow testing with Turbine",
+      "link": "https://code.cash.app/flow-testing-with-turbine",
+      "summary": "This post was published externally on Cash App Code Blog. Read it at https://code.cash.app/flow-testing-with-turbine.",
+      "author": null,
+      "publishedAt": "2023-06-21T00:00:00.000Z"
+    },
+    {
+      "guid": "jake-wharton::https://jakewharton.com/using-jlink-to-cross-compile-minimal-jres/",
+      "title": "Using jlink to cross-compile minimal JREs",
+      "link": "https://jakewharton.com/using-jlink-to-cross-compile-minimal-jres/",
+      "summary": "jlink is a JDK tool to create bespoke, minimal JREs for your applications.\nLet's try it with a \"Hello, world!\" program:\n\nclass Main {\n  public static void main(String... args) {\n    System.out.println(\"Hello, world!\");\n  }\n}\n\n\nMy laptop is an M1 Mac and I have downloaded the Azul Zulu JDK 19 build…",
+      "author": null,
+      "publishedAt": "2023-01-16T00:00:00.000Z"
+    },
+    {
+      "guid": "jake-wharton::https://jakewharton.com/report-card-java-19-and-the-end-of-kotlin/",
+      "title": "Report card: Java 19 and the end of Kotlin",
+      "link": "https://jakewharton.com/report-card-java-19-and-the-end-of-kotlin/",
+      "summary": "Three years ago I gave the talk \"What's new in Java 19: The end of Kotlin?\" which forecasted what a future Java language would look like in September 2022 when Java 19 was released.\nCheck your calendars, folks. It's September 2022 right now and Java 19 was released today!\nAs expected my predictions…",
+      "author": null,
+      "publishedAt": "2022-09-20T00:00:00.000Z"
+    },
+    {
+      "guid": "jake-wharton::https://jakewharton.com/build-on-latest-java-test-through-lowest-java/",
+      "title": "Build on latest Java, test through lowest Java",
+      "link": "https://jakewharton.com/build-on-latest-java-test-through-lowest-java/",
+      "summary": "In the past, when a new version of Java was released, I would add that version to our open source project's CI builds.\n\n strategy:\n   matrix:\n     java-version:\n       - 8\n       - 9\n         ⋮\n       - 17\n+      - 18\n\n\nThis ensures that each project can be built and its tests pass on every major…",
+      "author": null,
+      "publishedAt": "2022-05-17T00:00:00.000Z"
+    },
+    {
+      "guid": "jake-wharton::https://jakewharton.com/slope-intercept-library-design/",
+      "title": "Slope-intercept library design",
+      "link": "https://jakewharton.com/slope-intercept-library-design/",
+      "summary": "The equation y=mx+b defines a line in slope-intercept form. The line will intercept the y-axis at the value b and for each change in x its slope (the amount the line goes up or down) will change by m.\nSlope-intercept gives me a way to think about the design of libraries in relation to each other.…",
+      "author": null,
+      "publishedAt": "2022-04-05T00:00:00.000Z"
+    },
+    {
+      "guid": "jake-wharton::https://code.cash.app/the-state-of-managing-state-with-compose",
+      "title": "The state of managing state (with Compose)",
+      "link": "https://code.cash.app/the-state-of-managing-state-with-compose",
+      "summary": "This post was published externally on Cash App Code Blog. Read it at https://code.cash.app/the-state-of-managing-state-with-compose.",
+      "author": null,
+      "publishedAt": "2021-11-11T00:00:00.000Z"
+    },
+    {
+      "guid": "jake-wharton::https://jakewharton.com/multiplatform-compose-and-gradle-module-metadata-abuse/",
+      "title": "Multiplatform Compose and Gradle module metadata abuse",
+      "link": "https://jakewharton.com/multiplatform-compose-and-gradle-module-metadata-abuse/",
+      "summary": "My primary work project for the better part of a year (named Redwood) is built on top of Compose1 and runs on every platform that Kotlin supports. This of course means Android, but we also have Compose running on iOS, the web, the JVM, and all other native targets. It's truly a multiplatform…",
+      "author": null,
+      "publishedAt": "2021-11-04T00:00:00.000Z"
+    },
+    {
+      "guid": "jake-wharton::https://code.cash.app/gradle-dependency-license-validation",
+      "title": "Gradle dependency license validation",
+      "link": "https://code.cash.app/gradle-dependency-license-validation",
+      "summary": "This post was published externally on Cash App Code Blog. Read it at https://code.cash.app/gradle-dependency-license-validation.",
+      "author": null,
+      "publishedAt": "2021-06-08T00:00:00.000Z"
+    },
+    {
+      "guid": "jake-wharton::https://jakewharton.com/case-insensitive-filesystems-considered-harmful-to-me/",
+      "title": "Case-insensitive filesystems considered harmful (to me)",
+      "link": "https://jakewharton.com/case-insensitive-filesystems-considered-harmful-to-me/",
+      "summary": "Having been burned by case-insensitive filesystem bugs one too many times, I long ago switched my development folder to a case-sensitive filesystem partition on my otherwise case-insensitive Mac. Unfortunately this can actually work against me as I interact with the computers of coworkers and…",
+      "author": null,
+      "publishedAt": "2021-06-04T00:00:00.000Z"
+    },
+    {
+      "guid": "jake-wharton::https://jakewharton.com/cross-compiling-static-rust-binaries-in-docker-for-raspberry-pi/",
+      "title": "Cross-compiling static Rust binaries in Docker for Raspberry Pi",
+      "link": "https://jakewharton.com/cross-compiling-static-rust-binaries-in-docker-for-raspberry-pi/",
+      "summary": "Earlier this year I built a web-based garage door controller using Rust for the Raspberry Pi called Normally Closed. My deployment includes a Pi 3b and a Pi Zero which are ARMv7 and ARMv6 devices, respectively. I deploy services with Docker and wanted to continue using it here for simplicity.…",
+      "author": null,
+      "publishedAt": "2021-05-27T00:00:00.000Z"
+    },
+    {
+      "guid": "jake-wharton::https://code.cash.app/migrating-from-burst-to-testparameterinjector",
+      "title": "Migrating from Burst to TestParameterInjector",
+      "link": "https://code.cash.app/migrating-from-burst-to-testparameterinjector",
+      "summary": "This post was published externally on Cash App Code Blog. Read it at https://code.cash.app/migrating-from-burst-to-testparameterinjector.",
+      "author": null,
+      "publishedAt": "2021-04-15T00:00:00.000Z"
+    },
+    {
+      "guid": "jake-wharton::https://jakewharton.com/integration-verbosity-and-good-layering/",
+      "title": "Integration verbosity and good layering",
+      "link": "https://jakewharton.com/integration-verbosity-and-good-layering/",
+      "summary": "One of my favorite non-features from building view binding is that it lacks integration with\nactivities or fragments. If you use view binding with activities or fragments, however, this fact\nmight be to your disdain. Every activity using view binding is forced to do something along the\nlines of:…",
+      "author": null,
+      "publishedAt": "2021-04-07T00:00:00.000Z"
+    },
+    {
+      "guid": "jake-wharton::https://code.cash.app/assisted-inject-is-dead-long-live-assisted-inject",
+      "title": "AssistedInject is dead, long live AssistedInject!",
+      "link": "https://code.cash.app/assisted-inject-is-dead-long-live-assisted-inject",
+      "summary": "This post was published externally on Cash App Code Blog. Read it at https://code.cash.app/assisted-inject-is-dead-long-live-assisted-inject.",
+      "author": null,
+      "publishedAt": "2021-03-31T00:00:00.000Z"
+    },
+    {
+      "guid": "jake-wharton::https://jakewharton.com/a-jetpack-compose-by-any-other-name/",
+      "title": "A Jetpack Compose by any other name",
+      "link": "https://jakewharton.com/a-jetpack-compose-by-any-other-name/",
+      "summary": "I really like Jetpack Compose.\nBetween work and personal stuff I have three projects which are each built on top of it.\nIt's great!\nSo far my biggest problem is its name… but that requires some explaining.\nWelcome to one of the hills I'll die on!\nWhat is Jetpack Compose?\nIf you're already familiar…",
+      "author": null,
+      "publishedAt": "2020-12-30T00:00:00.000Z"
+    },
+    {
+      "guid": "jake-wharton::https://jakewharton.com/treating-dockerfiles-as-shell-scripts/",
+      "title": "Treating Dockerfiles as shell scripts",
+      "link": "https://jakewharton.com/treating-dockerfiles-as-shell-scripts/",
+      "summary": "I use Docker to run a lot of tools. With the tools all wrapped up in containers, my computers are\nfree of Python and Go and the various other dependencies needed for their use. While this is a nice\nwin for isolation and reproducibility, the user experience is sub-par.\nTo run a tool, I just use…",
+      "author": null,
+      "publishedAt": "2020-12-03T00:00:00.000Z"
+    },
+    {
+      "guid": "jake-wharton::https://jakewharton.com/peeking-at-colorful-command-line-output/",
+      "title": "Peeking at command-line ANSI escape sequences",
+      "link": "https://jakewharton.com/peeking-at-colorful-command-line-output/",
+      "summary": "Command-line programs use color to convey additional information and to look pretty. For example, compare the output of ls with and without the --color flag:\n\nThe color helps convey information in this compact output that would otherwise only be available in more verbose forms (-l).\nIn addition to…",
+      "author": null,
+      "publishedAt": "2020-10-28T00:00:00.000Z"
+    },
+    {
+      "guid": "jake-wharton::https://jakewharton.com/smaller-apks-with-resource-optimization/",
+      "title": "Smaller APKs with resource optimization",
+      "link": "https://jakewharton.com/smaller-apks-with-resource-optimization/",
+      "summary": "How many times does the name of a layout file appear in an Android APK? We can build a minimal APK with a single layout file to count the occurrences empirically.\nBuilding an Android app with Gradle requires only one thing: an AndroidManifest.xml file with a package. From there we can add a dummy…",
+      "author": null,
+      "publishedAt": "2020-09-01T00:00:00.000Z"
+    },
+    {
+      "guid": "jake-wharton::https://jakewharton.com/shrinking-a-kotlin-binary/",
+      "title": "Shrinking a Kotlin binary by 99.2%",
+      "link": "https://jakewharton.com/shrinking-a-kotlin-binary/",
+      "summary": "We'll get to the shrinking, but first let's motivate the binary in question. Three years ago I wrote the \"Surfacing Hidden Change to Pull Requests\" post which covered pushing important stats and diffs into PRs as a comment. This avoids surprises with changes that affect binary size, manifests, and…",
+      "author": null,
+      "publishedAt": "2020-08-24T00:00:00.000Z"
+    },
+    {
+      "guid": "jake-wharton::https://code.cash.app/wire-support-for-swift-part-1",
+      "title": "Wire Support For Swift, Part 1",
+      "link": "https://code.cash.app/wire-support-for-swift-part-1",
+      "summary": "This post was published externally on Cash App Code Blog. Read it at https://code.cash.app/wire-support-for-swift-part-1.",
+      "author": null,
+      "publishedAt": "2020-08-19T00:00:00.000Z"
+    },
+    {
+      "guid": "jake-wharton::https://jakewharton.com/sixteen-corners/",
+      "title": "Sixteen corners",
+      "link": "https://jakewharton.com/sixteen-corners/",
+      "summary": "Last year I built a library called Picnic for rendering data tables in monospaced environments like your terminal. Part of rendering the table is calculating what character to use for each wall and each corner separating the cells.\nHere's a representative output with a bunch of different corner…",
+      "author": null,
+      "publishedAt": "2020-08-06T00:00:00.000Z"
+    },
+    {
+      "guid": "jake-wharton::https://jakewharton.com/r8-optimization-lambda-groups/",
+      "title": "R8 Optimization: Lambda Groups",
+      "link": "https://jakewharton.com/r8-optimization-lambda-groups/",
+      "summary": "Note: This post is part of a series on D8 and R8, Android's new dexer and optimizer, respectively. For an intro to D8 read \"Android's Java 8 support\". For an intro to R8 read \"R8 Optimization: Staticization\".\nLambda usage in Kotlin feels more pervasive than Java because of the functional nature of…",
+      "author": null,
+      "publishedAt": "2020-04-30T00:00:00.000Z"
+    },
+    {
+      "guid": "jake-wharton::https://jakewharton.com/which-is-better-on-android-divide-by-two-or-shift-by-one/",
+      "title": "Which is better on Android: divide by 2 or shift by 1?",
+      "link": "https://jakewharton.com/which-is-better-on-android-divide-by-two-or-shift-by-one/",
+      "summary": "I've been porting the AndroidX collection library to Kotlin multiplatform to experiment with binary compatibility, performance, tooling, and the different memory models. Some of the data structures in the library use array-based binary trees to store elements. The Java code has a lot of shifts to…",
+      "author": null,
+      "publishedAt": "2020-04-23T00:00:00.000Z"
+    },
+    {
+      "guid": "jake-wharton::https://jakewharton.com/simple-multiplatform-rpc-with-kotlin-serialization/",
+      "title": "Simple Multiplatform RPC with Kotlin Serialization",
+      "link": "https://jakewharton.com/simple-multiplatform-rpc-with-kotlin-serialization/",
+      "summary": "I recently played a minor role in helping add Cast support to an Android app. Both the Android app and Cast display are written in Kotlin. The Android Cast SDK relays JSON strings to the JavaScript SDK which invokes your callback with the deserialized equivalent as a JS object. A multiplatform…",
+      "author": null,
+      "publishedAt": "2020-04-15T00:00:00.000Z"
+    },
+    {
+      "guid": "jake-wharton::https://jakewharton.com/litmus-testing-kotlins-many-memory-models/",
+      "title": "Litmus-Testing Kotlin's Many Memory Models",
+      "link": "https://jakewharton.com/litmus-testing-kotlins-many-memory-models/",
+      "summary": "When writing multiplatform code, Kotlin's three compiler backends each have different memory models which must be considered.\nJavaScript is single-threaded so you really can do no wrong. The JVM model is arguably too permissive where you can do incorrect things and have them work 99.9% of the time.…",
+      "author": null,
+      "publishedAt": "2020-04-08T00:00:00.000Z"
+    },
+    {
+      "guid": "jake-wharton::https://jakewharton.com/d8-optimization-assertions/",
+      "title": "D8 Optimization: Assertions",
+      "link": "https://jakewharton.com/d8-optimization-assertions/",
+      "summary": "Note: This post is part of a series on D8 and R8, Android's new dexer and optimizer, respectively. For an intro to D8 read \"Android's Java 8 support\". For an intro to R8 read \"R8 Optimization: Staticization\".\nThe assert keyword is quirky Java language syntax used for testing invariants. That is:…",
+      "author": null,
+      "publishedAt": "2020-03-25T00:00:00.000Z"
+    },
+    {
+      "guid": "jake-wharton::https://jakewharton.com/removing-google-as-a-single-point-of-failure-gmail/",
+      "title": "Removing Google as a Single Point of Failure Part 2: Gmail",
+      "link": "https://jakewharton.com/removing-google-as-a-single-point-of-failure-gmail/",
+      "summary": "I want to remove Google as a single point of failure in my life. In the first blog post on this subject I detailed my setup for backing up Google Photos and Google Drive contents onto my home server and remotely to rsync.net. Left out of that post was a solution for Gmail because I hadn't found one…",
+      "author": null,
+      "publishedAt": "2020-03-18T00:00:00.000Z"
+    },
+    {
+      "guid": "jake-wharton::https://jakewharton.com/removing-google-as-a-single-point-of-failure/",
+      "title": "Removing Google as a Single Point of Failure",
+      "link": "https://jakewharton.com/removing-google-as-a-single-point-of-failure/",
+      "summary": "I want to remove Google as a single point of failure in my life. They have two decades of my email. They have two decades of my photos. They have the only copy of thousands of documents, projects, and other random files from the last two decades.\nNow I trust Google completely in their ability to…",
+      "author": null,
+      "publishedAt": "2020-02-19T00:00:00.000Z"
+    },
+    {
+      "guid": "jake-wharton::https://jakewharton.com/extracting-100-percent-of-data-from-a-stubborn-dying-zfs-zpool/",
+      "title": "Extracting 100% of Data From a Stubborn, Dying ZFS Pool",
+      "link": "https://jakewharton.com/extracting-100-percent-of-data-from-a-stubborn-dying-zfs-zpool/",
+      "summary": "In 2010 I built a home server with five 2TB drives. It ran Solaris and ZFS for the redundancy and data checksumming to ensure no data could be lost or corrupted. Just 16 months later five 3TB drives were added to the pool. This computer took the 2600-mile trip to live in San Francisco with me. It…",
+      "author": null,
+      "publishedAt": "2020-02-12T00:00:00.000Z"
+    },
+    {
+      "guid": "jake-wharton::https://jakewharton.com/d8-library-desugaring/",
+      "title": "D8 Library Desugaring",
+      "link": "https://jakewharton.com/d8-library-desugaring/",
+      "summary": "Note: This post is part of a series on D8 and R8, Android's new dexer and optimizer, respectively. For an intro to D8 read \"Android's Java 8 support\". For an intro to R8 read \"R8 Optimization: Staticization\".\nSo far in this series the coverage of D8 has been about desugaring of Java 8 language…",
+      "author": null,
+      "publishedAt": "2019-12-18T00:00:00.000Z"
+    },
+    {
+      "guid": "jake-wharton::https://jakewharton.com/public-api-challenges-in-kotlin/",
+      "title": "Public API challenges in Kotlin",
+      "link": "https://jakewharton.com/public-api-challenges-in-kotlin/",
+      "summary": "Kotlin is justifiably lauded for its language features compared to today's Java. It has constructs which allow expressing common patterns with more concise alternatives. An overused example in every intro-to-Kotlin talk or blog post is comparing a Java \"POJO\" to a Kotlin data class.\nHere's yet…",
+      "author": null,
+      "publishedAt": "2019-11-21T00:00:00.000Z"
+    },
+    {
+      "guid": "jake-wharton::https://jakewharton.com/d8-optimizations/",
+      "title": "D8 Optimizations",
+      "link": "https://jakewharton.com/d8-optimizations/",
+      "summary": "Note: This post is part of a series on D8 and R8, Android's new dexer and optimizer, respectively. For an intro to D8 read \"Android's Java 8 support\". For an intro to R8 read \"R8 Optimization: Staticization\".\nNo, that's not a typo! While the optimizations in this series so far have been done by R8…",
+      "author": null,
+      "publishedAt": "2019-10-30T00:00:00.000Z"
+    },
+    {
+      "guid": "jake-wharton::https://jakewharton.com/r8-optimization-enum-switch-maps/",
+      "title": "R8 Optimization: Enum Switch Maps",
+      "link": "https://jakewharton.com/r8-optimization-enum-switch-maps/",
+      "summary": "Note: This post is part of a series on D8 and R8, Android's new dexer and optimizer, respectively. For an intro to D8 read \"Android's Java 8 support\". For an intro to R8 read \"R8 Optimization: Staticization\".\nThe previous post on R8 covered enum ordinals which then allowed branch elimination to…",
+      "author": null,
+      "publishedAt": "2019-10-16T00:00:00.000Z"
+    },
+    {
+      "guid": "jake-wharton::https://jakewharton.com/r8-optimization-enum-ordinals-and-names/",
+      "title": "R8 Optimization: Enum Ordinals and Names",
+      "link": "https://jakewharton.com/r8-optimization-enum-ordinals-and-names/",
+      "summary": "Note: This post is part of a series on D8 and R8, Android's new dexer and optimizer, respectively. For an intro to D8 read \"Android's Java 8 support\". For an intro to R8 read \"R8 Optimization: Staticization\".\nEnums are (and have always been!) a recommended way to model a fixed set of constants.…",
+      "author": null,
+      "publishedAt": "2019-10-09T00:00:00.000Z"
+    }
+  ],
+  "totalIndexed": 50
+}

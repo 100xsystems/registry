@@ -8,7 +8,7 @@
     "observability",
     "security"
   ],
-  "updatedAt": "2026-07-23T11:02:25.803Z",
+  "updatedAt": "2026-07-24T06:38:46.169Z",
   "items": [
     {
       "guid": "https://www.elastic.co/blog/cursor",
@@ -329,7 +329,119 @@
       "summary": "LivePerson found that benchmarking GCP machine types cut Logstash costs by over half using AMD Milan instances, while Kafka compression codec selection significantly boosted throughput.",
       "author": "Emily Chioconi,Kiril Karamanolev,Strahil Nikolov",
       "publishedAt": "2026-06-16T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.elastic.co/blog/hybrid-geospatial-rag-application-elastic-amazon-bedrock",
+      "title": "Crafting a hybrid geospatial RAG application with Elastic and Amazon Bedrock",
+      "link": "https://www.elastic.co/blog/hybrid-geospatial-rag-application-elastic-amazon-bedrock",
+      "summary": "This blog explores how to build a powerful retrieval augmented generation (RAG) system that incorporates geospatial data using Elasticsearch, Amazon Bedrock, and LangChain.",
+      "author": "Udayasimha Theepireddy (Uday),Srinivas Pendyala,Ayan Ray",
+      "publishedAt": "2024-11-26T05:00:00.000Z"
+    },
+    {
+      "guid": "https://www.elastic.co/blog/elastic-ai-assistant-amazon-bedrock-security-analysts",
+      "title": "How Elastic AI Assistant for Security and Amazon Bedrock can empower security analysts for enhanced performance",
+      "link": "https://www.elastic.co/blog/elastic-ai-assistant-amazon-bedrock-security-analysts",
+      "summary": "The Elastic AI Assistant for Security coupled with Anthropic’s Claude model via Amazon Bedrock can elevate a security team’s posture and eliminate mundane tasks.",
+      "author": "Udayasimha Theepireddy (Uday),James Spiteri,Ayan Ray",
+      "publishedAt": "2024-01-25T08:00:00.000Z"
+    },
+    {
+      "guid": "https://www.elastic.co/blog/generative-ai-using-elastic-amazon-sagemaker-jumpstart",
+      "title": "Generative AI using Elastic and Amazon SageMaker JumpStart",
+      "link": "https://www.elastic.co/blog/generative-ai-using-elastic-amazon-sagemaker-jumpstart",
+      "summary": "Learn how to build a GAI solution by exploring Amazon SageMaker JumpStart, Elastic, and Hugging Face open source LLMs using the sample implementation provided in this post and a data set relevant to your business.",
+      "author": "Udayasimha Theepireddy (Uday),Ayan Ray",
+      "publishedAt": "2023-07-25T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.elastic.co/blog/cluster-health-diagnosis-elasticsearch-health-api",
+      "title": "In search of a cluster health diagnosis: Introducing the Elasticsearch Health API",
+      "link": "https://www.elastic.co/blog/cluster-health-diagnosis-elasticsearch-health-api",
+      "summary": "Is my Elasticsearch cluster healthy? How do I repair it? These are difficult questions to answer, but as part of Elasticsearch 8.7, we are releasing a new Health API to help identify and fix problems in Elasticsearch clusters.",
+      "author": "Andrei Dan",
+      "publishedAt": "2023-03-30T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.elastic.co/blog/elasticsearch-mcp-server-aws-marketplace",
+      "title": "Elasticsearch MCP server now available on AWS Marketplace",
+      "link": "https://www.elastic.co/blog/elasticsearch-mcp-server-aws-marketplace",
+      "summary": "Elasticsearch MCP server — available on AWS Marketplace — allows seamless integration with Elasticsearch data using the Model Context Protocol. You can connect directly from any MCP-compatible client to query and interact with Elasticsearch indices.",
+      "author": "Udayasimha Theepireddy (Uday),Matt Ryan,Srinivas Pendyala",
+      "publishedAt": "2025-07-16T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.elastic.co/blog/elastic-google-cloud-security-data-ingestion-incident-response",
+      "title": "Elastic and Google Cloud: Enhancing security analytics from data ingestion to incident response",
+      "link": "https://www.elastic.co/blog/elastic-google-cloud-security-data-ingestion-incident-response",
+      "summary": "Elastic and Google Cloud are pioneering a comprehensive security solution that leverages their distinct capabilities to offer an unparalleled security analytics experience.",
+      "author": "Valerio Arvizzigno,Yang Li",
+      "publishedAt": "2024-07-09T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.elastic.co/blog/how-to-build-comprehensive-customer-financial-profiles-elastic-cloud-google-cloud",
+      "title": "How to build comprehensive customer financial profiles with Elastic Cloud and Google Cloud",
+      "link": "https://www.elastic.co/blog/how-to-build-comprehensive-customer-financial-profiles-elastic-cloud-google-cloud",
+      "summary": "Financial institutions have vast amounts of data about their customers, but many of them struggle to use that data to their advantage. Elastic and Google Cloud enable institutions to manage this information effectively.",
+      "author": "Dimitri Marx,Eric Lowry,Yang Li",
+      "publishedAt": "2023-02-13T23:00:00.000Z"
+    },
+    {
+      "guid": "https://www.elastic.co/blog/production-data-pre-production-environments-logstash",
+      "title": "Safely sample production data into pre-production environments with Logstash",
+      "link": "https://www.elastic.co/blog/production-data-pre-production-environments-logstash",
+      "summary": "Learn how to use Logstash to safely route a subset of production data to pre-production clusters by using efficient sampling techniques and by leveraging the UDP protocol’s fire-and-forget functionality.",
+      "author": "Alexander Marquardt",
+      "publishedAt": "2024-10-01T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.elastic.co/blog/encryption-at-rest-elastic-cloud-google-cloud",
+      "title": "Encryption at rest in Elastic Cloud: Bring your own key with Google Cloud",
+      "link": "https://www.elastic.co/blog/encryption-at-rest-elastic-cloud-google-cloud",
+      "summary": "Follow the step-by-step process of configuring encryption at rest in Elastic Cloud using Google Cloud Key Management Service.",
+      "author": "Jonathan Simon,Alex Chalkias",
+      "publishedAt": "2024-09-25T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.elastic.co/blog/user-account-security-mfa",
+      "title": "Secure your Elastic Cloud account with multifactor authentication (MFA)",
+      "link": "https://www.elastic.co/blog/user-account-security-mfa",
+      "summary": "Elastic Cloud now supports enhanced multifactor authentication (MFA) to protect user accounts and data. Learn about the importance of MFA for your organization and how to implement your MFA setup.",
+      "author": "Alex Chalkias",
+      "publishedAt": "2024-09-19T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.elastic.co/blog/elastic-cloud-azure-key-vault",
+      "title": "Encryption at rest in Elastic Cloud: Bring your own key with Azure Key Vault",
+      "link": "https://www.elastic.co/blog/elastic-cloud-azure-key-vault",
+      "summary": "Follow this step-by-step process to implement encryption at rest with Azure Key Vault keys and Elastic Cloud deployments to create a secure and compliant environment for your sensitive data.",
+      "author": "Alex Chalkias,Greg Crist,Gheorghe Pucea",
+      "publishedAt": "2024-08-20T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.elastic.co/blog/encryption-at-rest-elastic-cloud-aws-kms",
+      "title": "Encryption at rest in Elastic Cloud: Bring your own key with AWS KMS",
+      "link": "https://www.elastic.co/blog/encryption-at-rest-elastic-cloud-aws-kms",
+      "summary": "Follow the step-by-step process of configuring encryption at rest in Elastic Cloud using AWS Key Management Service (KMS).",
+      "author": "Jonathan Simon,Alex Chalkias,Udayasimha Theepireddy (Uday)",
+      "publishedAt": "2024-08-01T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.elastic.co/blog/whats-new-elasticsearch-platform-8-14-0",
+      "title": "Elastic Platform 8.14: ES|QL GA, encryption at rest, and vector search optimizations",
+      "link": "https://www.elastic.co/blog/whats-new-elasticsearch-platform-8-14-0",
+      "summary": "Elastic Platform 8.14 includes ES|QL GA, the use of AI for pattern recognition in logs, API key based security model for remote clusters, encryption at rest with KMS keys, retrievers, several vector optimizations, and vector quantization by default.",
+      "author": "Gilad Gal,Tyler Perkins,Alex Chalkias,Trevor Blackford,Ninoslav Miskovic,Fabio Busatto,Aris Papadopoulos",
+      "publishedAt": "2024-06-05T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.elastic.co/blog/observability-metrics-public-sector-it",
+      "title": "Elastic’s new metrics capabilities will dramatically improve uptime for public sector IT",
+      "link": "https://www.elastic.co/blog/observability-metrics-public-sector-it",
+      "summary": "The new columnar metrics engine in Elastic Observability enables public sector IT teams to combine logging, metrics, and traces in one platform. As a result, SREs can improve uptime while protecting taxpayer dollars in the process.",
+      "author": "Leanne Link,Abhi Pandey",
+      "publishedAt": "2026-07-23T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 40
+  "totalIndexed": 54
 }
