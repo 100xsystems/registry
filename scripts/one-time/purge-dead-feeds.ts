@@ -24,7 +24,7 @@ import * as path from 'node:path';
 
 const REGISTRY_PATH = path.resolve(
   path.dirname(new URL(import.meta.url).pathname),
-  '..', '..', 'feed-registry.json',
+  '..', 'github-workflow', 'feed-registry.json',
 );
 const FIRST_ATTEMPT_TIMEOUT_MS = 60_000;
 const SECOND_ATTEMPT_TIMEOUT_MS = 30_000;

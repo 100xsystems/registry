@@ -27,8 +27,8 @@ export interface FeedSource {
   historicalImport?: HistoricalImport;
 }
 
-// Path to feed-registry.json at the repo root (two levels up from scripts/)
-const REGISTRY_PATH = path.resolve(import.meta.dirname, '..', 'feed-registry.json');
+// Path to feed-registry.json in the github-workflow folder
+const REGISTRY_PATH = path.resolve(import.meta.dirname, 'github-workflow', 'feed-registry.json');
 
 function loadFeedRegistry(): FeedSource[] {
   try {
