@@ -85,7 +85,7 @@ const FEEDS_DIR = path.resolve(path.dirname(new URL(import.meta.url).pathname), 
 const DAILY_DIR = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..', 'daily');
 const HEALTH_FILE = path.join(DAILY_DIR, 'feed-health.json');
 
-const HTTP_TIMEOUT_MS = 3_000;    // 3s max per feed — aggressive. Most feeds respond in <1.5s.
+const HTTP_TIMEOUT_MS = 5_000;    // 5s max per feed — balances speed with catching slow-but-working feeds.
                                     // No retries. Health system handles failures after 3 strikes.
 const MAX_CONSECUTIVE_FAILURES = 3; // After this, feed auto-skipped
 const DEAD_FEED_RECHECK_DAYS = 7;   // Re-check dead feeds weekly
