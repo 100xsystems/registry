@@ -85,8 +85,7 @@ const FEEDS_DIR = path.resolve(path.dirname(new URL(import.meta.url).pathname), 
 const DAILY_DIR = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..', 'daily');
 const HEALTH_FILE = path.join(DAILY_DIR, 'feed-health.json');
 
-const HTTP_TIMEOUT_MS = 5_000;    // 5s max per feed — balances speed with catching slow-but-working feeds.
-const PING_TIMEOUT_MS = 3_000;    // 3s for HEAD ping — quick check before full fetch
+const HTTP_TIMEOUT_MS = 5_000;    // 5s max per feed — all feeds in parallel so wall time = slowest feed
 const MAX_CONSECUTIVE_FAILURES = 2; // After 2 failures, feed is permanently REMOVED
 const FEED_ITEM_LIMIT = 50;         // Max items to parse per feed
 const MAX_TOTAL_ITEMS = 10_000;      // Cap total stored items per feed
@@ -249,40 +248,10 @@ async function updateFeed(
   const existingGuids = new Set(existingData?.items.map((i) => i.guid) ?? []);
   const alreadyHasContent = existingData !== null && existingData.items.length > 0;
 
-  // ── PHASE 1: Pre-fetch HEAD ping (3s) — quick check before full fetch ──
-  // If the server doesn't respond to a lightweight HEAD, try GET directly.
-  // Some CDNs/WAFs return 403/429 on HEAD but serve GET fine.
+  // ── FETCH: Direct GET with 5s timeout ──
+  // No HEAD ping — on GitHub Actions, cold connections take 2-4s so a HEAD
+  // ping would double the wall time and block working feeds.
   // After 2 consecutive failures, the feed is permanently REMOVED.
-  let pingOk = false;
-  async function pingFeed(url: string): Promise<number | null> {
-    try {
-      const res = await fetch(url, {
-        method: 'HEAD',
-        signal: AbortSignal.timeout(PING_TIMEOUT_MS),
-        headers: { 'User-Agent': '100xSystems-FeedUpdater/1.0' },
-      });
-      return res.status;
-    } catch {
-      return null;
-    }
-  }
-  const pingStatus = await pingFeed(feed.rssUrl);
-  const retryStatus = (pingStatus === null) ? await pingFeed(feed.rssUrl) : pingStatus;
-  const finalStatus = retryStatus ?? pingStatus;
-
-  if (finalStatus === null) {
-    return { newItems: 0, total: existingData?.items.length ?? 0, error: 'Ping timeout (unreachable)' };
-  } else if (finalStatus === 405 || finalStatus === 403 || finalStatus === 429 || finalStatus >= 500) {
-    // 405 HEAD Not Allowed → try GET directly (server alive, just doesn't support HEAD)
-    // 403/429 → rate limited or blocked on HEAD, try GET
-    // 5xx → server error, try GET (might be intermittent)
-    // Don't mark as failure yet — let the GET phase decide
-  } else if (finalStatus >= 400) {
-    // 404, 410, etc. → feed is truly dead
-    return { newItems: 0, total: existingData?.items.length ?? 0, error: `HEAD ${finalStatus}` };
-  }
-
-  // ── PHASE 2: Full RSS fetch (5s) — only for verified-live feeds ──
   let xml: string | null;
   try {
     xml = await fetchFeedXml(feed.rssUrl, AbortSignal.timeout(HTTP_TIMEOUT_MS));
