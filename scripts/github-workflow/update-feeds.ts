@@ -7,7 +7,7 @@
  *
  * SPEED DESIGN:
  *   ⚡ All feeds are fetched IN PARALLEL (not in batches)
- *   ⚡ Native fetch() with 5s timeout
+ *   ⚡ Native fetch() with 30s timeout
  *   ⚡ NO retries — if a feed fails, just log and move on
  *   ⚡ Only items from the last 24h are indexed
  *
@@ -62,7 +62,7 @@ const ROOT_DIR = path.resolve(path.dirname(new URL(import.meta.url).pathname), '
 const FEEDS_DIR = path.join(ROOT_DIR, 'feeds');
 const DAILY_DIR = path.join(ROOT_DIR, 'daily');
 
-const HTTP_TIMEOUT_MS = 5_000;
+const HTTP_TIMEOUT_MS = 30_000;
 const FEED_ITEM_LIMIT = 50;
 const MAX_TOTAL_ITEMS = 10_000;
 const RECENT_ITEM_HOURS = 24;
