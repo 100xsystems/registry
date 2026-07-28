@@ -8,8 +8,7 @@
  * SPEED DESIGN:
  *   ⚡ All feeds are fetched IN PARALLEL (not in batches)
  *   ⚡ Native fetch() with 5s timeout
- *   ⚡ NO retries — if a feed fails, mark it and move on
- *   ⚡ Feed health tracking — dead feeds permanently removed after 2 failures
+ *   ⚡ NO retries — if a feed fails, just log and move on
  *   ⚡ Only items from the last 24h are indexed
  *
  * USAGE:
@@ -45,19 +44,6 @@ interface FeedData {
   totalIndexed: number;
 }
 
-interface FeedHealthEntry {
-  status: 'active' | 'dead' | 'removed';
-  consecutiveFailures: number;
-  lastSuccess: string | null;
-  lastError: string | null;
-  lastErrorDate: string | null;
-  lastCheckedDate: string;
-}
-
-interface FeedHealth {
-  [feedId: string]: FeedHealthEntry;
-}
-
 type FeedItemRaw = {
   guid?: string;
   title?: string;
@@ -75,10 +61,8 @@ type FeedItemRaw = {
 const ROOT_DIR = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..', '..');
 const FEEDS_DIR = path.join(ROOT_DIR, 'feeds');
 const DAILY_DIR = path.join(ROOT_DIR, 'daily');
-const HEALTH_FILE = path.join(DAILY_DIR, 'feed-health.json');
 
 const HTTP_TIMEOUT_MS = 5_000;
-const MAX_CONSECUTIVE_FAILURES = 2;
 const FEED_ITEM_LIMIT = 50;
 const MAX_TOTAL_ITEMS = 10_000;
 const RECENT_ITEM_HOURS = 24;
@@ -132,62 +116,6 @@ function parseArgs(): { historical: boolean; limit: number; feedIds: string[] } 
   }
 
   return { historical, limit, feedIds };
-}
-
-// ── Feed Health Tracking ─────────────────────────────────────────────
-
-function loadFeedHealth(): FeedHealth {
-  ensureDir(DAILY_DIR);
-  if (fs.existsSync(HEALTH_FILE)) {
-    try {
-      return JSON.parse(fs.readFileSync(HEALTH_FILE, 'utf-8')) as FeedHealth;
-    } catch {
-      return {};
-    }
-  }
-  return {};
-}
-
-function saveFeedHealth(health: FeedHealth): void {
-  ensureDir(DAILY_DIR);
-  const newJson = JSON.stringify(health, null, 2) + '\n';
-  const currentJson = fs.existsSync(HEALTH_FILE) ? fs.readFileSync(HEALTH_FILE, 'utf-8') : '';
-  if (newJson !== currentJson) {
-    fs.writeFileSync(HEALTH_FILE, newJson, 'utf-8');
-  }
-}
-
-function shouldProcessFeed(feedId: string, health: FeedHealth, historical: boolean): boolean {
-  if (historical) return true;
-  const entry = health[feedId];
-  if (!entry) return true;
-  return entry.status !== 'removed';
-}
-
-function markFeedSuccess(health: FeedHealth, feedId: string): void {
-  health[feedId] = {
-    status: 'active',
-    consecutiveFailures: 0,
-    lastSuccess: new Date().toISOString(),
-    lastError: null,
-    lastErrorDate: null,
-    lastCheckedDate: new Date().toISOString(),
-  };
-}
-
-function markFeedFailure(health: FeedHealth, feedId: string, error: string): void {
-  const existing = health[feedId];
-  const failures = (existing?.consecutiveFailures ?? 0) + 1;
-  const isRemoved = failures >= MAX_CONSECUTIVE_FAILURES;
-
-  health[feedId] = {
-    status: isRemoved ? 'removed' : 'active',
-    consecutiveFailures: failures,
-    lastSuccess: existing?.lastSuccess ?? null,
-    lastError: error.substring(0, 200),
-    lastErrorDate: new Date().toISOString(),
-    lastCheckedDate: new Date().toISOString(),
-  };
 }
 
 // ── Fast RSS fetch via native fetch() + rss-parser ──────────────────
@@ -378,7 +306,7 @@ async function main(): Promise<void> {
   console.log(`   Mode: ${historical ? 'HISTORICAL IMPORT' : 'INCREMENTAL UPDATE'}`);
   console.log(`   Max items per feed: ${limit}`);
   console.log(`   Strategy: ALL feeds IN PARALLEL`);
-  console.log(`   Timeout: ${HTTP_TIMEOUT_MS}ms per feed`);
+  console.log(`   Timeout: ${HTTP_TIMEOUT_MS}ms per feed — if feed doesn't respond, skip and move on`);
   console.log(`   Recent items: ${historical ? 'ALL (historical)' : `Last ${RECENT_ITEM_HOURS}h only`}`);
   console.log(`   Target feeds: ${feedIds.length > 0 ? feedIds.join(', ') : `ALL (${FEED_REGISTRY.length})`}\n`);
 
@@ -388,18 +316,10 @@ async function main(): Promise<void> {
     ? feedIds.map((id) => FEED_REGISTRY.find((f) => f.id === id)).filter(Boolean) as FeedSource[]
     : FEED_REGISTRY;
 
-  const feedHealth = loadFeedHealth();
-  const activeFeeds = feedsToProcess.filter((f) => shouldProcessFeed(f.id, feedHealth, historical));
-  const skippedCount = feedsToProcess.length - activeFeeds.length;
-
-  if (skippedCount > 0) {
-    console.log(`   ⏭ Skipping ${skippedCount} permanently removed feed(s)\n`);
-  }
-
-  console.log(`   🚀 Firing ${activeFeeds.length} requests in parallel...\n`);
+  console.log(`   🚀 Firing ${feedsToProcess.length} requests in parallel...\n`);
 
   const results = await Promise.allSettled(
-    activeFeeds.map((feed) =>
+    feedsToProcess.map((feed) =>
       updateFeed(feed, limit, historical).then(
         (result) => ({ feed, result }),
         (err: unknown) => ({
@@ -425,17 +345,8 @@ async function main(): Promise<void> {
 
     if (result.error) {
       errorCount++;
-      markFeedFailure(feedHealth, feed.id, result.error);
-
-      const healthStatus = feedHealth[feed.id]?.status;
-      if (healthStatus === 'removed') {
-        console.log(`  ✗ [${feed.id}] ${feed.name} — ${result.error} (PERMANENTLY REMOVED after ${MAX_CONSECUTIVE_FAILURES} failures)`);
-      } else {
-        console.log(`  ⚠ [${feed.id}] ${feed.name} — ${result.error} (failure ${feedHealth[feed.id]?.consecutiveFailures ?? 1}/${MAX_CONSECUTIVE_FAILURES})`);
-      }
+      console.log(`  ⚠ [${feed.id}] ${feed.name} — ${result.error}`);
     } else {
-      markFeedSuccess(feedHealth, feed.id);
-
       if (result.newItems > 0) {
         totalNew += result.newItems;
         console.log(`  ✓ [${feed.id}] ${feed.name} — +${result.newItems} new (total: ${result.total})`);
@@ -453,8 +364,6 @@ async function main(): Promise<void> {
     });
   }
 
-  saveFeedHealth(feedHealth);
-
   if (!historical) {
     if (totalNew > 0) {
       writeDeltaJson(processedResults);
@@ -466,8 +375,7 @@ async function main(): Promise<void> {
   const elapsed = ((Date.now() - startTime) / 1000).toFixed(1);
   console.log(`\n${'═'.repeat(50)}`);
   console.log(`📊 Summary (${elapsed}s)`);
-  console.log(`   Feeds processed: ${activeFeeds.length}`);
-  console.log(`   Feeds skipped (dead): ${skippedCount}`);
+  console.log(`   Feeds processed: ${feedsToProcess.length}`);
   console.log(`   New items indexed: ${totalNew}`);
   console.log(`   Errors: ${errorCount}`);
   console.log(`   ✅ Complete in ${elapsed}s!`);
