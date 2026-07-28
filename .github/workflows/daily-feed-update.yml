@@ -29,7 +29,7 @@ concurrency:
 jobs:
   update-feeds:
     runs-on: ubuntu-latest
-    timeout-minutes: 10  # ⚡ 10 min is plenty — real run takes ~10s for 400+ feeds
+    timeout-minutes: 60  # ⚡ Real run ~10s; 60 min for first PH backfill (rate limits)
 
     steps:
       - name: Checkout repository
@@ -58,8 +58,11 @@ jobs:
         continue-on-error: true
         run: npm run fetch-yc
 
-      - name: Fetch Product Hunt data (fast — raw.githubusercontent.com)
+      - name: Fetch Product Hunt data via official API v2
         continue-on-error: true
+        env:
+          PH_API_KEY: ${{ secrets.PH_API_KEY }}
+          PH_API_SECRET: ${{ secrets.PH_API_SECRET }}
         run: npm run fetch-ph
 
       - name: Check for changes
