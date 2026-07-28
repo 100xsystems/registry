@@ -2,7 +2,7 @@
   "name": "100xsystems-registry-feeds",
   "version": "1.0.0",
   "private": true,
-  "description": "100xSystems Registry \u2014 RSS feed metadata index. Stores only article metadata (title, link, summary, publishedAt). Never stores article content.",
+  "description": "100xSystems Registry — RSS feed metadata index. Stores only article metadata (title, link, summary, publishedAt). Never stores article content.",
   "scripts": {
     "update-feeds": "tsx scripts/update-feeds.ts",
     "historical-import": "tsx scripts/update-feeds.ts --historical --limit=500",
@@ -21,5 +21,9 @@
     "tsx": "^4.19.0",
     "typescript": "^5.0.0",
     "@types/node": "^24.0.0"
+  },
+  "allowScripts": {
+    "esbuild@0.28.1": true,
+    "fsevents@2.3.3": true
   }
 }
