@@ -6,16 +6,16 @@
  *
  * SPEED DESIGN:
  *   ⚡ All feeds are fetched IN PARALLEL (not in batches of 10)
- *   ⚡ Native fetch() with 8s hard timeout (not rss-parser's indefinite HTTP)
+ *   ⚡ Native fetch() with 3s hard timeout (aggressive — most feeds respond in <1.5s)
+ *   ⚡ NO retries — if a feed doesn't respond in 3s, mark it and move on
  *   ⚡ Feed health tracking — dead feeds auto-skipped after 3 consecutive failures
  *   ⚡ Only items from the last 48h are indexed (no historical baggage per run)
- *   ⚡ 1 immediate retry per failed feed (no 2s sleep between attempts)
  *   ⚡ YC/PH fetch via raw.githubusercontent.com (no git clone — saves ~120s)
  *
  * With this design:
- *   -   438 feeds → ~8 seconds (all parallel, worst-case timeout)
- *   - 1,000 feeds → ~8 seconds (more feeds doesn't mean more wall time)
- *   - 5,000 feeds → ~8 seconds (same — timeouts are parallel)
+ *   -   438 feeds → ~3 seconds (all parallel, worst-case timeout)
+ *   - 1,000 feeds → ~3 seconds (more feeds doesn't mean more wall time)
+ *   - 5,000 feeds → ~3 seconds (same — timeouts are parallel)
  *
  * USAGE:
  *   tsx scripts/update-feeds.ts
@@ -85,8 +85,8 @@ const FEEDS_DIR = path.resolve(path.dirname(new URL(import.meta.url).pathname), 
 const DAILY_DIR = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..', 'daily');
 const HEALTH_FILE = path.join(DAILY_DIR, 'feed-health.json');
 
-const HTTP_TIMEOUT_MS = 8_000;    // 8s max per feed (connect + response)
-const RETRY_COUNT = 1;            // 1 immediate retry per failed feed
+const HTTP_TIMEOUT_MS = 3_000;    // 3s max per feed (connect + response) — most RSS feeds respond in <1.5s
+                                    // No retries — if it times out at 3s, retrying won't help. Health system handles it.
 const MAX_CONSECUTIVE_FAILURES = 3; // After this, feed auto-skipped
 const DEAD_FEED_RECHECK_DAYS = 7;   // Re-check dead feeds weekly
 const FEED_ITEM_LIMIT = 50;         // Max items to parse per feed
@@ -241,7 +241,6 @@ async function updateFeed(
   feed: FeedSource,
   limit: number,
   historical: boolean,
-  attempt = 0,
 ): Promise<{ newItems: number; total: number; error?: string }> {
   const filePath = path.join(FEEDS_DIR, `${feed.id}.json`);
 
@@ -258,17 +257,15 @@ async function updateFeed(
   const existingGuids = new Set(existingData?.items.map((i) => i.guid) ?? []);
   const alreadyHasContent = existingData !== null && existingData.items.length > 0;
 
-  // ── FETCH via native fetch() with hard 8s timeout ──
+  // ── FETCH via native fetch() with 3s timeout ──
+  // No retries. If a feed doesn't respond in 3s, it gets marked as a failure.
+  // After 3 consecutive failures across different runs, the feed is auto-marked DEAD
+  // and skipped entirely. This is faster than wasting time retrying dead servers.
   let xml: string | null;
   try {
     xml = await fetchFeedXml(feed.rssUrl, AbortSignal.timeout(HTTP_TIMEOUT_MS));
   } catch (err) {
     const errorMsg = err instanceof Error ? err.message : String(err);
-    // Retry once (immediately, no sleep — network blips recover instantly)
-    if (attempt < RETRY_COUNT) {
-      console.log(`    Retrying ${feed.id}...`);
-      return updateFeed(feed, limit, historical, attempt + 1);
-    }
     return { newItems: 0, total: existingData?.items.length ?? 0, error: errorMsg };
   }
 
@@ -282,11 +279,6 @@ async function updateFeed(
     parsed = await parser.parseString(xml);
   } catch (err) {
     const errorMsg = err instanceof Error ? err.message : String(err);
-    // Retry — XML parsing failure
-    if (attempt < RETRY_COUNT) {
-      console.log(`    Retrying ${feed.id} (parse error)...`);
-      return updateFeed(feed, limit, historical, attempt + 1);
-    }
     return { newItems: 0, total: existingData?.items.length ?? 0, error: `Parse: ${errorMsg}` };
   }
 
@@ -442,7 +434,7 @@ async function main(): Promise<void> {
   // ── ALL FEEDS IN PARALLEL ──
   // No batching. No concurrency limit. All 400+ feeds fire at once.
   // Node.js handles hundreds of concurrent fetch() calls effortlessly.
-  // Each has an 8s hard timeout, so the slowest feed determines wall time.
+  // Each has a 3s hard timeout, so the slowest feed determines wall time.
   console.log(`   🚀 Firing ${activeFeeds.length} requests in parallel...\n`);
 
   const results = await Promise.allSettled(

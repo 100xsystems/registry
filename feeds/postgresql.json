@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-07-28T06:53:05.085Z",
+  "updatedAt": "2026-07-28T07:58:19.857Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -361,7 +361,15 @@
       "summary": "The autovacuum process has been dutifully tending Postgres tables since version 8.1, and almost every release since has acquired some new refinement: smarter thresholds, insert-aware triggering, resource cost limits, and so on. It's the reliable maintenance workhorse that heroically forestalls…",
       "author": null,
       "publishedAt": "2026-07-24T12:34:46.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9qC",
+      "title": "Hans-Juergen Schoenig: Data Lineage in PostgreSQL 19: Finally, an Answer When the CFO Asks \"Where Did This Number Come From?\"",
+      "link": "https://postgr.es/p/9qC",
+      "summary": "Picture this: it's Monday morning, your coffee is still warm, and someone from finance slides into your DMs asking why the Q4 revenue number doesn't match what they expected. You know the data flows through about five transformation steps, but the pipeline was built by someone who left two years…",
+      "author": null,
+      "publishedAt": "2026-07-28T05:00:43.000Z"
     }
   ],
-  "totalIndexed": 44
+  "totalIndexed": 45
 }
