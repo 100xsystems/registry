@@ -28,7 +28,7 @@ const GRAPHQL_URL = 'https://api.producthunt.com/v2/api/graphql';
 const PH_CACHE_DIR = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..', 'producthunt');
 const FETCH_TIMEOUT_MS = 15_000;
 const MAX_PAGES_PER_DAY = 5;       // 50 posts/page × 5 = 250 max per day (typical is 20-50)
-const DAILY_FETCH_WINDOW = 1;      // Always fetch today + yesterday (catches late-featured posts)
+const DAILY_FETCH_WINDOW = 0;      // Always fetch today only (once-daily run, yesterday already saved)
 const PAGE_DELAY_MS = 200;         // 200ms between pages to avoid rate limit bursts
 
 // GraphQL query to fetch posts — optimized for minimal complexity cost

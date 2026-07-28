@@ -89,7 +89,7 @@ const HTTP_TIMEOUT_MS = 5_000;    // 5s max per feed — all feeds in parallel s
 const MAX_CONSECUTIVE_FAILURES = 2; // After 2 failures, feed is permanently REMOVED
 const FEED_ITEM_LIMIT = 50;         // Max items to parse per feed
 const MAX_TOTAL_ITEMS = 10_000;      // Cap total stored items per feed
-const RECENT_ITEM_HOURS = 48;       // Only index items published in last 48h
+const RECENT_ITEM_HOURS = 24;       // Only index items published in last 24h (once-daily run)
 
 // ── Helpers ───────────────────────────────────────────────────────────
 
