@@ -218,7 +218,7 @@ async function fetchFeedXml(url: string, signal: AbortSignal): Promise<string | 
 
   const contentType = response.headers.get('content-type') || '';
   if (!contentType.includes('xml') && !contentType.includes('rss') && !contentType.includes('atom') && !contentType.includes('text')) {
-    console.error(`  ⚠ Non-XML content-type: ${contentType} for ${url}`);
+    console.warn(`  ⚠ Non-XML content-type: ${contentType} for ${url}`);
     // Still try to parse — some servers return text/html with actual RSS XML
   }
 
