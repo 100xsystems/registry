@@ -1,7 +1,210 @@
 {
-  "fetchedAt": "2026-07-28T09:24:32.354Z",
-  "count": 199,
+  "fetchedAt": "2026-07-28T10:13:21.779Z",
+  "count": 269,
   "products": [
+    {
+      "id": "1043667",
+      "name": "Snapr",
+      "tagline": "Capture thoughts, find them instantly",
+      "description": "AI-powered productivity for working professionals. Voice-to-structured notes, smart bookmarking, and file organization in one place. Stop switching between apps, save everything, find anything, instantly.",
+      "url": "https://www.producthunt.com/products/snapr-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "website": "https://www.producthunt.com/r/7DUP3PFKNDAFH4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "slug": "snapr-3",
+      "votesCount": 0,
+      "commentsCount": 1,
+      "reviewsCount": 0,
+      "reviewsRating": 0,
+      "dailyRank": 215,
+      "featuredAt": null,
+      "createdAt": "2026-07-28T07:01:00Z",
+      "makers": [
+        {
+          "name": "[REDACTED]",
+          "username": "[REDACTED]"
+        },
+        {
+          "name": "Reza Ghorbani",
+          "username": "rghorbani"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Productivity",
+          "slug": "productivity"
+        },
+        {
+          "name": "Notes",
+          "slug": "notes"
+        }
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/f9d4be68-ff4f-4f40-82e5-6ce94ffc03a7.png?auto=format&w=640"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/dcf65f86-77fc-426f-bc00-b50f2ffa1627.webp?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/57af597b-f54c-4b5d-a0f6-f0c96330f141.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/508ff9ad-4049-4bd5-974c-262d10649544.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/222a73ca-0971-42af-ada1-8e420cad8815.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "video",
+          "url": "https://ph-files.imgix.net/2a353de8-54e1-44b4-bcae-3b4fbd92d0ba.jpeg?auto=format",
+          "videoUrl": "https://www.youtube.com/watch?v=sLLyKkOEyok"
+        }
+      ]
+    },
+    {
+      "id": "1145414",
+      "name": "Tickstem",
+      "tagline": "Cron jobs, monitoring & status pages — under one API key",
+      "description": "Tickstem bundles the infrastructure every web app needs — HTTP cron scheduling, uptime monitoring, heartbeat checks for silent job failures, email verification, and auto-generated status pages — all under one API key. Works on Vercel, Railway, Render, Fly.io, or any platform. Go, Node.js, and Python SDKs. MCP server for AI agents. No separate services. No per-tool billing. Free tier available.",
+      "url": "https://www.producthunt.com/products/tickstem?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "website": "https://www.producthunt.com/r/AYNT5MAPRENE46?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "slug": "tickstem",
+      "votesCount": 0,
+      "commentsCount": 1,
+      "reviewsCount": 0,
+      "reviewsRating": 0,
+      "dailyRank": 56,
+      "featuredAt": null,
+      "createdAt": "2026-07-28T07:01:00Z",
+      "makers": [
+        {
+          "name": "Mike Tickstem",
+          "username": "mike_tickstem"
+        }
+      ],
+      "topics": [
+        {
+          "name": "SaaS",
+          "slug": "saas"
+        },
+        {
+          "name": "Developer Tools",
+          "slug": "developer-tools"
+        }
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/24d39ead-402e-48e3-86cb-ec8a138a4759.svg?auto=format&w=640"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/d97aff91-a1bf-4571-8ee4-11d33402485c.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/cb1c5f77-718a-4a54-8e40-7d6d6e0d0eed.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/2e814a97-f277-4a50-bae9-55d9c7304a77.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "video",
+          "url": "https://ph-files.imgix.net/73f8cb04-ec7e-4264-a12a-d98027f9fe1e.jpeg?auto=format",
+          "videoUrl": "https://youtu.be/1-y3TTnOzUY"
+        }
+      ]
+    },
+    {
+      "id": "1150287",
+      "name": "Leaping AI",
+      "tagline": "AI agents that call and text in multi-day campaigns",
+      "description": "We allow companies that operate in the physical world (home remodeling, roofing, trades) to automate inbound and outbound calling & texting and run multi-threaded campaigns spanning several weeks. Our AI agents can hold 100+ parallel conversations, speak in multiple languages and integrate into any CRM. We help put appointment scheduling, customer service & confirmation calls on autopilot and eliminate missed calls, slow speed to lead and insufficient lead follow ups for our customers.",
+      "url": "https://www.producthunt.com/products/leaping-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "website": "https://www.producthunt.com/r/ZTOYWVYEMJZG4Y?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "slug": "leaping-ai",
+      "votesCount": 0,
+      "commentsCount": 4,
+      "reviewsCount": 0,
+      "reviewsRating": 0,
+      "dailyRank": 6,
+      "featuredAt": "2026-07-28T07:01:00Z",
+      "createdAt": "2026-07-28T07:01:00Z",
+      "makers": [
+        {
+          "name": "[REDACTED]",
+          "username": "[REDACTED]"
+        },
+        {
+          "name": "[REDACTED]",
+          "username": "[REDACTED]"
+        },
+        {
+          "name": "[REDACTED]",
+          "username": "[REDACTED]"
+        },
+        {
+          "name": "[REDACTED]",
+          "username": "[REDACTED]"
+        },
+        {
+          "name": "[REDACTED]",
+          "username": "[REDACTED]"
+        },
+        {
+          "name": "Sav Sidorov",
+          "username": "savsidorov"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Artificial Intelligence",
+          "slug": "artificial-intelligence"
+        },
+        {
+          "name": "Home improvement",
+          "slug": "home-improvement"
+        }
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/3ed60734-850b-49ea-be66-eca197df5c21.png?auto=format&w=640"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/7d344cb4-0d63-44bd-ac38-98b1663309f8.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/3602bd4b-51f2-49cc-82fe-22d8d5eb330a.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/f7f556c7-a663-4ff2-acc3-92e2a78d56c4.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "video",
+          "url": "https://ph-files.imgix.net/c3ebcd1e-e866-425e-828f-9f9a44651539.jpeg?auto=format",
+          "videoUrl": "https://youtu.be/boI-CCyc2DQ"
+        }
+      ]
+    },
     {
       "id": "1174764",
       "name": "EasyDex",
@@ -14,7 +217,7 @@
       "commentsCount": 1,
       "reviewsCount": 0,
       "reviewsRating": 0,
-      "dailyRank": 53,
+      "dailyRank": 56,
       "featuredAt": null,
       "createdAt": "2026-07-28T07:01:00Z",
       "makers": [
@@ -57,7 +260,7 @@
       "commentsCount": 1,
       "reviewsCount": 0,
       "reviewsRating": 0,
-      "dailyRank": 53,
+      "dailyRank": 56,
       "featuredAt": null,
       "createdAt": "2026-07-28T07:01:00Z",
       "makers": [
@@ -157,6 +360,120 @@
         {
           "type": "image",
           "url": "https://ph-files.imgix.net/75a7b5dd-6340-48ca-b1b7-dc561adbfc8b.png?auto=format",
+          "videoUrl": null
+        }
+      ]
+    },
+    {
+      "id": "1182488",
+      "name": "Rumble Video Downloader",
+      "tagline": "Download Rumble videos, Shorts, and embeds",
+      "description": "Download public Rumble videos, Shorts, and embed URLs from Apify. Get direct MP4, WebM, and audio links with titles, channels, thumbnails, durations, file sizes, and saved MP4 files when enabled.",
+      "url": "https://www.producthunt.com/products/rumble-video-downloader-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "website": "https://www.producthunt.com/r/RI22KJQK2IKVSU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "slug": "rumble-video-downloader-2",
+      "votesCount": 0,
+      "commentsCount": 1,
+      "reviewsCount": 0,
+      "reviewsRating": 0,
+      "dailyRank": 56,
+      "featuredAt": null,
+      "createdAt": "2026-07-28T07:01:00Z",
+      "makers": [
+        {
+          "name": "Maxime Dupré",
+          "username": "maximehugodupre"
+        }
+      ],
+      "topics": [
+        {
+          "name": "API",
+          "slug": "api-1"
+        },
+        {
+          "name": "Social Media",
+          "slug": "social-media"
+        },
+        {
+          "name": "Developer Tools",
+          "slug": "developer-tools"
+        }
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/aea1ef27-9577-4fe7-a748-191ba2387d28.png?auto=format&w=640"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/4f6263ac-d6b7-489d-aa30-e9aeb355729d.png?auto=format",
+          "videoUrl": null
+        }
+      ]
+    },
+    {
+      "id": "1182719",
+      "name": "Foothold - Buy & Sell Digital Products",
+      "tagline": "A marketplace for useful digital products",
+      "description": "Foothold is a marketplace for useful digital products and small services: templates, trackers, guides, checklists, job-search tools, budgeting helpers, paperwork support and more. Buyers get practical help for real-life situations with one-step purchases and no subscriptions. Sellers get a focused place to list products, be discovered, and start free until they sell.",
+      "url": "https://www.producthunt.com/products/foothold-buy-sell-digital-products?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "website": "https://www.producthunt.com/r/LQQCIUYRQF3D5V?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "slug": "foothold-buy-sell-digital-products",
+      "votesCount": 0,
+      "commentsCount": 1,
+      "reviewsCount": 0,
+      "reviewsRating": 0,
+      "dailyRank": 56,
+      "featuredAt": null,
+      "createdAt": "2026-07-28T07:01:00Z",
+      "makers": [
+        {
+          "name": "Sean Hilton",
+          "username": "sean_hilton"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Sales",
+          "slug": "sales"
+        },
+        {
+          "name": "E-Commerce",
+          "slug": "e-commerce"
+        },
+        {
+          "name": "Affiliate marketing",
+          "slug": "affiliate-marketing"
+        }
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/f2886dce-b627-4bdc-9456-17d6227e8343.png?auto=format&w=640"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/4c205789-ad50-4129-8e84-290e93a3d305.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/5c95a933-e900-4ef1-8cf9-136a38dd316f.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/e2ce0d5e-e7a5-451b-8bb9-f4edbb37602c.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/108a14c0-f4e6-416e-9dc0-329c7103e3a3.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/4106e45c-8cf3-478b-a6d0-65aadd2c8d33.png?auto=format",
           "videoUrl": null
         }
       ]
@@ -397,6 +714,165 @@
       ]
     },
     {
+      "id": "1187929",
+      "name": "Backdrop: Visual Memory",
+      "tagline": "A camera for the things you notice",
+      "description": "Backdrop is a field notebook for designers who shoot references on site. Capture materials, finishes and spaces, say why they matter, and find them again just by asking. Private by design.",
+      "url": "https://www.producthunt.com/products/backdrop-visual-memory?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "website": "https://www.producthunt.com/r/FWZJX66T6ZJIL7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "slug": "backdrop-visual-memory",
+      "votesCount": 0,
+      "commentsCount": 1,
+      "reviewsCount": 0,
+      "reviewsRating": 0,
+      "dailyRank": 56,
+      "featuredAt": null,
+      "createdAt": "2026-07-28T07:01:00Z",
+      "makers": [
+        {
+          "name": "Shekhar Upadhaya",
+          "username": "shekhar_upadhaya_1"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Productivity",
+          "slug": "productivity"
+        },
+        {
+          "name": "Photography",
+          "slug": "photography"
+        },
+        {
+          "name": "Artificial Intelligence",
+          "slug": "artificial-intelligence"
+        }
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/6c630d90-6a55-4546-bccd-381047ae3476.png?auto=format&w=640"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/c696064c-5be8-4bf3-b52a-dab196a6fd61.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/64ae4885-1278-44eb-84cb-b9a9633add47.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/a34808da-840d-44bd-9789-e57357bcf253.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/9ab9f971-68d3-4f92-ae79-8f6973d0713d.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/41a846e5-c317-47e6-8492-688ec9d26784.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "video",
+          "url": "https://ph-files.imgix.net/6fb909a3-662a-4491-98f7-785a60d3eef2.jpeg?auto=format",
+          "videoUrl": "https://www.youtube.com/watch?v=l-OyaZvxn0Y"
+        }
+      ]
+    },
+    {
+      "id": "1188741",
+      "name": "ZOLLO",
+      "tagline": "Vibe Marketing from idea to ready-to-run campaign",
+      "description": "ZOLLO turns a plain-language brief into a complete, brand-aligned campaign—not just AI copy. Review the strategy first, then edit the email sequence, LinkedIn and X content, audience, timing, and automation draft. Approved work connects to real segments, scheduling, tracking, and analytics. A guided setup supports nontechnical users, while MCP lets Claude and Codex manage campaign workflows. Nothing is sent, published, or activated without human approval.",
+      "url": "https://www.producthunt.com/products/zollo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "website": "https://www.producthunt.com/r/3TP3DLWZVEJLS5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "slug": "zollo",
+      "votesCount": 0,
+      "commentsCount": 2,
+      "reviewsCount": 0,
+      "reviewsRating": 0,
+      "dailyRank": 411,
+      "featuredAt": null,
+      "createdAt": "2026-07-28T07:01:00Z",
+      "makers": [],
+      "topics": [
+        {
+          "name": "Email Marketing",
+          "slug": "email-marketing"
+        },
+        {
+          "name": "Artificial Intelligence",
+          "slug": "artificial-intelligence"
+        },
+        {
+          "name": "Marketing automation",
+          "slug": "marketing-automation"
+        }
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/303dc302-d51a-4aa2-8e15-c9514fb66309.png?auto=format&w=640"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/ecc0baf4-d799-4722-bf8d-51638fccc96f.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/dfd5e316-64c5-4eca-9642-9126aeb2ace6.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/b478edb7-6ddd-4a42-8c64-7773c959de31.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/c4002b12-2187-4b9a-9c3d-7815d61ce54b.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/34949c91-0c50-4f5e-a042-8b470a39f268.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/287c65b9-03c7-4805-a00f-4aecf95ad008.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/3ac5a449-5272-4c75-90ef-effa60f8fb9a.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/7bef3857-411a-464d-93d9-9323f15ce68d.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/a390c70b-373a-4cb6-892f-c9619f15ea96.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/13097114-d38a-43ba-ba8b-0b837fa23429.png?auto=format",
+          "videoUrl": null
+        }
+      ]
+    },
+    {
       "id": "1188998",
       "name": "MacroOps Simulation Engine",
       "tagline": "AgenticAI, Geopolitics, DefenseTech, Simulation, AI",
@@ -485,6 +961,93 @@
           "type": "image",
           "url": "https://ph-files.imgix.net/561be9be-0533-404a-9de4-9c0c45d6bdac.png?auto=format",
           "videoUrl": null
+        }
+      ]
+    },
+    {
+      "id": "1190667",
+      "name": "Odella",
+      "tagline": "Hire or build AI employees that work like your best people",
+      "description": "Build your digital workforce with Odella. Hire specialised AI employees or create your own, each with a dedicated secure computer, access to your business systems, the ability to run code, browse the web and complete real work. Connect to 1,000+ tools, schedule work, and manage everything with enterprise-grade governance and audit logs. Pay from $0.40/hour.",
+      "url": "https://www.producthunt.com/products/odella?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "website": "https://www.producthunt.com/r/RDKTTYJBP7FYBO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "slug": "odella",
+      "votesCount": 0,
+      "commentsCount": 5,
+      "reviewsCount": 0,
+      "reviewsRating": 0,
+      "dailyRank": 34,
+      "featuredAt": null,
+      "createdAt": "2026-07-28T07:01:00Z",
+      "makers": [
+        {
+          "name": "Jordan Parker",
+          "username": "jordanparker6"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Productivity",
+          "slug": "productivity"
+        },
+        {
+          "name": "Artificial Intelligence",
+          "slug": "artificial-intelligence"
+        },
+        {
+          "name": "No-Code",
+          "slug": "no-code"
+        }
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/0544f946-5d0d-40f7-89a1-c352682485fd.png?auto=format&w=640"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/83800d10-f140-4bc1-a6bc-610d5ecf60c1.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/f0e69966-5124-47ca-921a-24c0dfc25e00.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/87a494ec-d033-49f9-a2f9-cad157c5737c.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/ce2acac7-50ed-45b0-9310-9af65e427522.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/c3fdd147-71cd-4881-800d-d5b5d1b696bb.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/6409027a-9578-466c-8948-a699d8e1b020.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/b6bc04ea-3ac6-47a0-80eb-8bf72ae71f74.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/ba9531ee-68c2-464a-b8a4-5f900bf62197.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "video",
+          "url": "https://ph-files.imgix.net/603f792b-7c23-494f-aca0-8b992ae47a67.jpeg?auto=format",
+          "videoUrl": "https://www.youtube.com/watch?v=ZdMyH3sd62I"
         }
       ]
     },
@@ -805,6 +1368,83 @@
       ]
     },
     {
+      "id": "1197692",
+      "name": "Zeplik",
+      "tagline": "Every AI model, one chat. GPT, Claude, Gemini, Grok",
+      "description": "Zeplik puts every frontier AI model in one fast, calm chat: GPT-5.6, Claude, Gemini, Grok, DeepSeek and 100+ more. Switch models mid-conversation without losing context, talk hands-free with voice, spin up projects, generate images, and pick a response style (Auto, Concise, Expert, Deep). It's a full daily driver, not just a model switcher, so one subscription replaces five. Free to start, no card.",
+      "url": "https://www.producthunt.com/products/zeplik?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "website": "https://www.producthunt.com/r/JFS3LNKLO7VJFU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "slug": "zeplik",
+      "votesCount": 0,
+      "commentsCount": 1,
+      "reviewsCount": 0,
+      "reviewsRating": 0,
+      "dailyRank": 215,
+      "featuredAt": null,
+      "createdAt": "2026-07-28T07:01:00Z",
+      "makers": [
+        {
+          "name": "Asad M.",
+          "username": "asadmalik901"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Productivity",
+          "slug": "productivity"
+        },
+        {
+          "name": "Artificial Intelligence",
+          "slug": "artificial-intelligence"
+        },
+        {
+          "name": "Bots",
+          "slug": "bots"
+        }
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/4f624b74-c426-4778-8745-9ab1446847a6.png?auto=format&w=640"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/7962cf19-c900-491b-a47a-a6c7e8ba8b7b.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/7df764f0-6cab-4f9d-8c50-8d3173bd018f.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/dabf3881-8841-4ead-a009-d5778bb53f2d.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/154b558f-1919-42a1-9a1f-980d5d9d987e.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/2185a308-3c1e-4bb8-a48b-54c208f93daf.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/c76c0f89-23f6-4e6d-aba5-8090b1298bc6.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/9e9d0aa7-49d7-4de0-8dd9-00ca16ba4837.png?auto=format",
+          "videoUrl": null
+        }
+      ]
+    },
+    {
       "id": "1198884",
       "name": "Xposure",
       "tagline": "The all-in-one gallery & booking engine for photographers",
@@ -1076,7 +1716,7 @@
       "commentsCount": 1,
       "reviewsCount": 0,
       "reviewsRating": 0,
-      "dailyRank": 216,
+      "dailyRank": 215,
       "featuredAt": null,
       "createdAt": "2026-07-28T07:01:00Z",
       "makers": [
@@ -1158,6 +1798,67 @@
           "type": "video",
           "url": "https://ph-files.imgix.net/58bc6bff-34b3-4042-90c3-c59841badd39.gif?auto=format",
           "videoUrl": "https://www.loom.com/share/59ae9436b8c240669834af3652c04fa1"
+        }
+      ]
+    },
+    {
+      "id": "1199733",
+      "name": "Stashr",
+      "tagline": "Save the whole post. Find it with AI.",
+      "description": "You bookmark all over the internet: X, Reddit, TikTok, Instagram, and beyond, and it vanishes into separate apps, where half is deleted when you look again. Stashr captures every save automatically and keeps the whole post: text, images, and metadata, not just a link that can rot. AI tags each one, and search understands meaning, so \"that pasta video\" turns up even when the caption never says pasta. Your AI tools connect through MCP, CLI, and API. More platforms ship regularly. Free trial.",
+      "url": "https://www.producthunt.com/products/stashr?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "website": "https://www.producthunt.com/r/HMQWYVX63ATMQK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "slug": "stashr",
+      "votesCount": 0,
+      "commentsCount": 1,
+      "reviewsCount": 0,
+      "reviewsRating": 0,
+      "dailyRank": 215,
+      "featuredAt": null,
+      "createdAt": "2026-07-28T07:01:00Z",
+      "makers": [
+        {
+          "name": "Deckard",
+          "username": "deckardger"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Chrome Extensions",
+          "slug": "chrome-extensions"
+        },
+        {
+          "name": "Productivity",
+          "slug": "productivity"
+        },
+        {
+          "name": "Social Media",
+          "slug": "social-media"
+        },
+        {
+          "name": "Artificial Intelligence",
+          "slug": "artificial-intelligence"
+        }
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/27a89128-4652-4c32-9155-089b2259b513.png?auto=format&w=640"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/ff62b6bb-d451-46e0-ba80-72145c9d06a8.jpeg?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/8cf04cb1-3502-4bd0-8cf3-f0ccdd3ea52d.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/65b5482b-b986-417f-a15c-abd0d31b80e0.png?auto=format",
+          "videoUrl": null
         }
       ]
     },
@@ -1281,6 +1982,131 @@
       ]
     },
     {
+      "id": "1200072",
+      "name": "Secure Folder: Incogni Vault",
+      "tagline": "Maximum security for your private photos and videos",
+      "description": "Secure Folder: Incogni Vault is an unhackable private vault built for iPhone. Protect private photos, videos, files, documents, and notes with military-grade encryption, a separate PIN, Face ID or Touch ID, a second decoy PIN, and local intruder alerts. Vault content stays protected on the iPhone—no account and no developer-operated photo cloud.",
+      "url": "https://www.producthunt.com/products/secure-folder-incogni-vault?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "website": "https://www.producthunt.com/r/EVCKDLVOYBDVH6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "slug": "secure-folder-incogni-vault",
+      "votesCount": 0,
+      "commentsCount": 1,
+      "reviewsCount": 0,
+      "reviewsRating": 0,
+      "dailyRank": 215,
+      "featuredAt": null,
+      "createdAt": "2026-07-28T07:01:00Z",
+      "makers": [
+        {
+          "name": "Mehmet Ali Kisacik",
+          "username": "mehmet_ali_kisacik"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Privacy",
+          "slug": "privacy"
+        },
+        {
+          "name": "Photography",
+          "slug": "photography"
+        }
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/821a3152-7c23-4f44-a236-081cde92956e.png?auto=format&w=640"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/337771ad-cf7b-47e4-8aa3-d85603ca0d69.jpeg?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/b2101b62-dfea-4ab2-b7a8-fe31cb81ca1b.jpeg?auto=format",
+          "videoUrl": null
+        }
+      ]
+    },
+    {
+      "id": "1200116",
+      "name": "DuckDeck",
+      "tagline": "Turn the music down without leaving the game",
+      "description": "DuckDeck is a lightweight Windows tray app that changes your music volume with hotkeys, without touching your game or system audio. Free to use, Pro unlock for €2.99.",
+      "url": "https://www.producthunt.com/products/duckdeck?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "website": "https://www.producthunt.com/r/EGWV3AYY2SFV3A?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "slug": "duckdeck",
+      "votesCount": 0,
+      "commentsCount": 1,
+      "reviewsCount": 0,
+      "reviewsRating": 0,
+      "dailyRank": 56,
+      "featuredAt": null,
+      "createdAt": "2026-07-28T07:01:00Z",
+      "makers": [
+        {
+          "name": "Julian Derksen",
+          "username": "julian_derksen"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Productivity",
+          "slug": "productivity"
+        },
+        {
+          "name": "Music",
+          "slug": "music"
+        },
+        {
+          "name": "Audio",
+          "slug": "audio"
+        }
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/dc69838f-762a-419a-a1e2-3aef89892545.png?auto=format&w=640"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/b9cabdd6-7d13-4d06-873e-ce3ad8cd5508.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/00859ed4-eaad-40cc-a34f-8ded9adc11fa.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/0a957189-d8d9-468b-8d77-58f42b93efb7.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/89aa9bc9-c7c7-4d6f-8207-7a07e9bb72f4.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/f91c3fee-8f5d-4130-8297-9f3ce7f55118.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/a04a4069-30f3-4d46-8407-87d4e288ea0c.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "video",
+          "url": "https://ph-files.imgix.net/1ffd6e6d-6f5f-4ce8-90b1-d5ff1ba07709.jpeg?auto=format",
+          "videoUrl": "https://www.youtube.com/watch?v=tleKj6IfTqw"
+        }
+      ]
+    },
+    {
       "id": "1200340",
       "name": "FlowTask 2.0",
       "tagline": "Company brain for AI Agents",
@@ -1384,6 +2210,48 @@
       ]
     },
     {
+      "id": "1201086",
+      "name": "Unstuck",
+      "tagline": "Stop losing hours to ADHD waiting mode",
+      "description": "Waiting mode is the ADHD freeze where one 2pm meeting makes the whole morning unusable, your brain guards the clock instead of starting anything. Unstuck reads your Google Calendar (read-only), finds the gap before your next commitment, scores which task is safe to start, and fires hard-stop alerts at T-15 and T-5 so starting doesn't risk being late. Free tier available.",
+      "url": "https://www.producthunt.com/products/unstuck-5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "website": "https://www.producthunt.com/r/NUTRULG6P7EWJI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "slug": "unstuck-7",
+      "votesCount": 0,
+      "commentsCount": 1,
+      "reviewsCount": 0,
+      "reviewsRating": 0,
+      "dailyRank": 215,
+      "featuredAt": null,
+      "createdAt": "2026-07-28T07:01:00Z",
+      "makers": [],
+      "topics": [
+        {
+          "name": "Productivity",
+          "slug": "productivity"
+        },
+        {
+          "name": "Task Management",
+          "slug": "task-management"
+        },
+        {
+          "name": "Calendar",
+          "slug": "calendar"
+        }
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/ec03bfa4-441a-4c63-9408-8dae333f6c92.png?auto=format&w=640"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/e822d195-d2d7-454d-84e8-536c58b47247.png?auto=format",
+          "videoUrl": null
+        }
+      ]
+    },
+    {
       "id": "1201261",
       "name": "Insell",
       "tagline": "WhatsApp API + AI CRM + AI Calling for Indian businesses",
@@ -1395,7 +2263,7 @@
       "commentsCount": 1,
       "reviewsCount": 0,
       "reviewsRating": 0,
-      "dailyRank": 216,
+      "dailyRank": 215,
       "featuredAt": null,
       "createdAt": "2026-07-28T07:01:00Z",
       "makers": [],
@@ -1488,6 +2356,137 @@
       ]
     },
     {
+      "id": "1202209",
+      "name": "NetPulse",
+      "tagline": "A local Mac network monitor that lives in your menu bar",
+      "description": "NetPulse is a native Mac utility for seeing how busy your connection is, which app is using it, and whether your VPN is active. It shows live speeds in the menu bar or a floating panel, HTTPS response time, request failure rate and latency stability across three targets—not ICMP packet loss—exit/local/real public IP, and per-app traffic. Daily, weekly and monthly totals stay on the Mac. No account, ads, analytics or subscription. $1.99 once on the Mac App Store.",
+      "url": "https://www.producthunt.com/products/netpulse-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "website": "https://www.producthunt.com/r/EWIEXRYOWT3OLR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "slug": "netpulse-2",
+      "votesCount": 0,
+      "commentsCount": 1,
+      "reviewsCount": 0,
+      "reviewsRating": 0,
+      "dailyRank": 215,
+      "featuredAt": null,
+      "createdAt": "2026-07-28T07:01:00Z",
+      "makers": [
+        {
+          "name": "leung XY",
+          "username": "leung_xy"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Productivity",
+          "slug": "productivity"
+        },
+        {
+          "name": "Privacy",
+          "slug": "privacy"
+        },
+        {
+          "name": "Menu Bar Apps",
+          "slug": "menu-bar-apps"
+        }
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/a6bfbecf-dc80-4b24-96cd-aa5f560d9074.png?auto=format&w=640"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/bdcdb4a0-9a2c-4b60-a49a-a09bae52c0c4.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/1407c9a4-eab8-4ce9-a02d-74393c9a214e.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/8b868b04-1ece-4e07-b89e-a4d3cd9226a0.png?auto=format",
+          "videoUrl": null
+        }
+      ]
+    },
+    {
+      "id": "1202526",
+      "name": "PodView",
+      "tagline": "Turn your podcast into an audience hub you own",
+      "description": "PodView turns your podcast into a complete, automatically updated website built from your RSS feed or YouTube channel. Episodes stay synchronized automatically, with audio or video playback, transcripts, chapters and built-in SEO. Grow an audience you own through email, reviews and voicemail, understand what listeners finish or skip, and control how AI assistants describe and cite your show.",
+      "url": "https://www.producthunt.com/products/podview?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "website": "https://www.producthunt.com/r/EJB54WWMKM5RIK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "slug": "podview",
+      "votesCount": 0,
+      "commentsCount": 1,
+      "reviewsCount": 0,
+      "reviewsRating": 0,
+      "dailyRank": 56,
+      "featuredAt": null,
+      "createdAt": "2026-07-28T07:01:00Z",
+      "makers": [
+        {
+          "name": "[REDACTED]",
+          "username": "[REDACTED]"
+        },
+        {
+          "name": "[REDACTED]",
+          "username": "[REDACTED]"
+        },
+        {
+          "name": "[REDACTED]",
+          "username": "[REDACTED]"
+        },
+        {
+          "name": "Cristiano Mazzarini",
+          "username": "mazzcris"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Spotify",
+          "slug": "spotify"
+        },
+        {
+          "name": "Website Builder",
+          "slug": "website-builder"
+        },
+        {
+          "name": "YouTube",
+          "slug": "youtube"
+        }
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/eb7080d6-ee10-438d-bf20-74774b9f4e41.png?auto=format&w=640"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/0ee79252-3993-4699-95b8-6eaa2fb0555f.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/7a48ba31-17e3-4937-8583-3103c3451907.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/cfac1491-f9e4-4fe2-8732-c88e9d14a13c.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "video",
+          "url": "https://ph-files.imgix.net/233cabca-47f8-49ae-944f-6e94d4944602.jpeg?auto=format",
+          "videoUrl": "https://youtu.be/8378wCTP7LM?si=pzt9XomWcbzbVDdR"
+        }
+      ]
+    },
+    {
       "id": "1202800",
       "name": "Privacynex",
       "tagline": "Independent privacy scores for digital tools",
@@ -1537,6 +2536,68 @@
       ]
     },
     {
+      "id": "1203023",
+      "name": "52–17 Focus",
+      "tagline": "A free 52/17 timer for deeper focus and better breaks",
+      "description": "52–17 Focus is a free web timer for people who find 25-minute Pomodoro sessions too short. It uses a fixed 52-minute focus and 17-minute break rhythm, with daily tasks, cycle goals, and a monthly focus calendar stored locally in your browser. No sign-up required, and it works on desktop and mobile.",
+      "url": "https://www.producthunt.com/products/52-17-focus?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "website": "https://www.producthunt.com/r/YVJKORB2M7JSJ2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "slug": "52-17-focus",
+      "votesCount": 0,
+      "commentsCount": 1,
+      "reviewsCount": 0,
+      "reviewsRating": 0,
+      "dailyRank": 215,
+      "featuredAt": null,
+      "createdAt": "2026-07-28T07:01:00Z",
+      "makers": [
+        {
+          "name": "Shinya Ueno",
+          "username": "shinyaueno"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Productivity",
+          "slug": "productivity"
+        },
+        {
+          "name": "Task Management",
+          "slug": "task-management"
+        },
+        {
+          "name": "Time Tracking",
+          "slug": "time-tracking"
+        }
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/bcccc48d-76b1-4b9e-8a35-03b5cd288854.png?auto=format&w=640"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/e17bfcf8-8304-4a77-b7c9-ff4114d740dd.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/8c9fbb9e-5465-4d0e-a9c6-158c7430dc26.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/f6f84111-2900-40ee-b3fc-266483589b51.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/6379cd89-e258-4971-be70-aec0bd9fa7b4.png?auto=format",
+          "videoUrl": null
+        }
+      ]
+    },
+    {
       "id": "1203225",
       "name": "LLM SEO",
       "tagline": "The Google Search Console for AI search engines.",
@@ -1548,7 +2609,7 @@
       "commentsCount": 1,
       "reviewsCount": 0,
       "reviewsRating": 0,
-      "dailyRank": 216,
+      "dailyRank": 215,
       "featuredAt": null,
       "createdAt": "2026-07-28T07:01:00Z",
       "makers": [
@@ -1610,7 +2671,7 @@
       "commentsCount": 1,
       "reviewsCount": 0,
       "reviewsRating": 0,
-      "dailyRank": 407,
+      "dailyRank": 411,
       "featuredAt": null,
       "createdAt": "2026-07-28T07:01:00Z",
       "makers": [
@@ -1659,7 +2720,7 @@
       "commentsCount": 2,
       "reviewsCount": 0,
       "reviewsRating": 0,
-      "dailyRank": 51,
+      "dailyRank": 53,
       "featuredAt": null,
       "createdAt": "2026-07-28T07:01:00Z",
       "makers": [
@@ -1864,6 +2925,57 @@
         {
           "type": "image",
           "url": "https://ph-files.imgix.net/c3ffe919-cd51-4dc4-bb87-1f759a9c4067.png?auto=format",
+          "videoUrl": null
+        }
+      ]
+    },
+    {
+      "id": "1203837",
+      "name": "Preflight7 beta",
+      "tagline": "Consulting-backed RFP Engine",
+      "description": "We're an evidence-first RFP engine that kills the legacy data nightmare. Instead of handing a login, we act as an extension of your team. Phase 1: Autonomous library (via Ask/Plugin) 1. Share Chaos: Send us the messy legacy data. 2. We build Structure: We map it into a cited library. 3. We execute: We fetch chunk-cited responses. Phase 2: Auto-RFP drafts and branded exports. Your first live RFP is on us to prove it works. Save hours, then transition to a paid plan. No fluff. Just won deals.",
+      "url": "https://www.producthunt.com/products/preflight7-beta?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "website": "https://www.producthunt.com/r/6CFTOAUOFI4CX4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "slug": "preflight7-beta",
+      "votesCount": 0,
+      "commentsCount": 1,
+      "reviewsCount": 0,
+      "reviewsRating": 0,
+      "dailyRank": 56,
+      "featuredAt": null,
+      "createdAt": "2026-07-28T07:01:00Z",
+      "makers": [
+        {
+          "name": "[REDACTED]",
+          "username": "[REDACTED]"
+        },
+        {
+          "name": "P_K",
+          "username": "pk_07"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Sales",
+          "slug": "sales"
+        },
+        {
+          "name": "SaaS",
+          "slug": "saas"
+        },
+        {
+          "name": "Artificial Intelligence",
+          "slug": "artificial-intelligence"
+        }
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/0e7768e8-afdc-44b3-8876-ebaf21b8e4cc.jpeg?auto=format&w=640"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/c8815949-7c0b-4064-9c97-39ceb8bf2d38.jpeg?auto=format",
           "videoUrl": null
         }
       ]
@@ -2100,6 +3212,145 @@
       ]
     },
     {
+      "id": "1204335",
+      "name": "MimicKit",
+      "tagline": "Copy any website’s design, code, and assets",
+      "description": "Copy any website’s design, code, and assets in one click. MimicKit captures real CSS and converts it to Tailwind, extracts colors, fonts, spacing, SVGs, images, and complete design systems—ready to paste into Cursor, Claude, v0, or your own codebase. For designers and developers who want to copy what works, customize it, and ship faster.",
+      "url": "https://www.producthunt.com/products/mimickit?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "website": "https://www.producthunt.com/r/NXZBFYFB45VKDC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "slug": "mimickit",
+      "votesCount": 0,
+      "commentsCount": 1,
+      "reviewsCount": 0,
+      "reviewsRating": 0,
+      "dailyRank": 215,
+      "featuredAt": null,
+      "createdAt": "2026-07-28T07:01:00Z",
+      "makers": [
+        {
+          "name": "SLAVOGLO VİTALİ",
+          "username": "slavoglo_vitali"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Chrome Extensions",
+          "slug": "chrome-extensions"
+        },
+        {
+          "name": "Design Tools",
+          "slug": "design-tools"
+        },
+        {
+          "name": "Developer Tools",
+          "slug": "developer-tools"
+        }
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/467f80b3-ff8c-4b0c-88a3-a8f5df9f50d1.png?auto=format&w=640"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/ef83bc52-4dcb-413e-bb5b-5f91769d43fe.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/dbe74571-fab2-4d16-ac82-c9bf945c7da2.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/27d98e95-26a7-46f2-94ac-549cd6c1b263.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/85ea466f-4d37-48fb-9789-298797b8ec13.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/eb481386-36d5-413b-bd33-34da7adb89cd.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "video",
+          "url": "https://ph-files.imgix.net/4ae6635e-1368-4772-a3f5-8c895bff51c4.jpeg?auto=format",
+          "videoUrl": "https://www.youtube.com/watch?v=Rswzdehu13A"
+        }
+      ]
+    },
+    {
+      "id": "1204477",
+      "name": "Halo Reviews",
+      "tagline": "Every review in one place, answered on autopilot",
+      "description": "Halo pulls every review from Google, Yelp, Trustpilot and your app stores into one inbox, drafts a reply in your brand voice, and holds it for one-tap approval. Track rating and sentiment per location. Start with a free reputation scan.",
+      "url": "https://www.producthunt.com/products/halo-reviews?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "website": "https://www.producthunt.com/r/HYC4SQP6S7FM4V?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "slug": "halo-reviews",
+      "votesCount": 0,
+      "commentsCount": 1,
+      "reviewsCount": 0,
+      "reviewsRating": 0,
+      "dailyRank": 51,
+      "featuredAt": null,
+      "createdAt": "2026-07-28T07:01:00Z",
+      "makers": [
+        {
+          "name": "Anderson Aguiar",
+          "username": "andersonaguiar"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Customer Communication",
+          "slug": "customer-communication"
+        },
+        {
+          "name": "Marketing",
+          "slug": "marketing"
+        },
+        {
+          "name": "SaaS",
+          "slug": "saas"
+        }
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/40ca855c-565e-4db0-8f29-186bfeef9e21.x-icon?auto=format&w=640"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/86b9a3e4-17fc-49d4-9f6e-6336bf0c5742.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/50e4c0ff-a6b1-4ace-afd3-f8a9a85905f4.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/6c82ee27-6090-4aaa-9403-a8b3264f728a.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/3da25a0b-a071-4822-b81e-01478488115c.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/dd6fa361-23a3-43c0-9b2d-b8887bd60a11.png?auto=format",
+          "videoUrl": null
+        }
+      ]
+    },
+    {
       "id": "1204595",
       "name": "Odovo",
       "tagline": "Track vehicle maintenance, fuel, and your true cost per km",
@@ -2225,6 +3476,68 @@
           "type": "image",
           "url": "https://ph-files.imgix.net/62d6f62b-63a7-453e-ac31-367a5b3bcede.png?auto=format",
           "videoUrl": null
+        }
+      ]
+    },
+    {
+      "id": "1204759",
+      "name": "RoundZero",
+      "tagline": "AI interviews that replace first-round screening.",
+      "description": "Stop relying on resumes alone. RoundZero runs adaptive AI interviews with qualified applicants and generates evidence-backed reports, helping hiring teams identify the strongest candidates before spending time on live interviews.",
+      "url": "https://www.producthunt.com/products/roundzero?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "website": "https://www.producthunt.com/r/AZPLU2TFT3RBVB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "slug": "roundzero",
+      "votesCount": 0,
+      "commentsCount": 1,
+      "reviewsCount": 0,
+      "reviewsRating": 0,
+      "dailyRank": 215,
+      "featuredAt": null,
+      "createdAt": "2026-07-28T07:01:00Z",
+      "makers": [],
+      "topics": [
+        {
+          "name": "Hiring",
+          "slug": "hiring"
+        },
+        {
+          "name": "Artificial Intelligence",
+          "slug": "artificial-intelligence"
+        },
+        {
+          "name": "Human Resources",
+          "slug": "human-resources"
+        }
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/0f4bb94d-924a-4725-aa64-dde692c61fbe.png?auto=format&w=640"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/159f01b1-fe5b-4c30-97e5-781f14a68092.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/93450a2e-806e-4384-a90d-736902de5533.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/05c43040-30ca-4c56-9279-bb5eec190242.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/90976357-87b8-40a1-bdc4-616ddaaafbcb.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "video",
+          "url": "https://ph-files.imgix.net/fed3a965-2ef1-43c8-b428-7d5a75f47be9.jpeg?auto=format",
+          "videoUrl": "https://youtu.be/q9MfAHSKX2g"
         }
       ]
     },
@@ -2388,6 +3701,63 @@
       ]
     },
     {
+      "id": "1205120",
+      "name": "AI in a Day",
+      "tagline": "The non-technical playbook to automate your work with AI.",
+      "description": "Stop feeling overwhelmed by AI. \"AI in a Day\" is a highly actionable PDF guide built for non-technical professionals. Learn how to automate daily tasks, look smarter in meetings, and build a modern workflow—no coding required.",
+      "url": "https://www.producthunt.com/products/ai-in-a-day?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "website": "https://www.producthunt.com/r/B4XVRGXW7QV6UR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "slug": "ai-in-a-day",
+      "votesCount": 0,
+      "commentsCount": 1,
+      "reviewsCount": 0,
+      "reviewsRating": 0,
+      "dailyRank": 411,
+      "featuredAt": null,
+      "createdAt": "2026-07-28T07:01:00Z",
+      "makers": [
+        {
+          "name": "Riches Ndu",
+          "username": "richesndu"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Productivity",
+          "slug": "productivity"
+        },
+        {
+          "name": "Artificial Intelligence",
+          "slug": "artificial-intelligence"
+        },
+        {
+          "name": "Books",
+          "slug": "books"
+        }
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/fa2b7953-8b87-46ee-b08d-ecca79e59f5a.png?auto=format&w=640"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/227f6532-2fc4-4d0f-abdd-8e61af84593a.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/ee373307-d156-43de-887d-c0f27ea2923d.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/f596b759-623e-44ba-b441-bde3a9e98e0e.png?auto=format",
+          "videoUrl": null
+        }
+      ]
+    },
+    {
       "id": "1205163",
       "name": "PyTutor — Escuela de Scripting",
       "tagline": "Aprende Python de verdad, no de video",
@@ -2456,7 +3826,7 @@
       "commentsCount": 0,
       "reviewsCount": 0,
       "reviewsRating": 0,
-      "dailyRank": 379,
+      "dailyRank": 380,
       "featuredAt": null,
       "createdAt": "2026-07-28T07:01:00Z",
       "makers": [
@@ -2578,6 +3948,67 @@
       ]
     },
     {
+      "id": "1205365",
+      "name": "Shiritai — Furigana Reader for Japanese",
+      "tagline": "Turn any webpage into a Japanese reading lesson   ",
+      "description": "Shiritai is a Chrome extension that turns any web page into a Japanese reading lesson. Toggle furigana on and readings appear above every kanji—on X, Threads, blogs, news, anywhere. The reading engine runs locally, so it's fast and private. Select any text → Explain for a study card: translation, grammar, vocab, kanji, JLPT level, and the casual nuance dictionaries miss. Built for N5–N2 learners reading real Japanese. A companion web app explains any pasted text the same way.",
+      "url": "https://www.producthunt.com/products/shiritai-furigana-reader-for-japanese?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "website": "https://www.producthunt.com/r/TX3YZQBJJI53SY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "slug": "shiritai-furigana-reader-for-japanese",
+      "votesCount": 0,
+      "commentsCount": 1,
+      "reviewsCount": 0,
+      "reviewsRating": 0,
+      "dailyRank": 215,
+      "featuredAt": null,
+      "createdAt": "2026-07-28T07:01:00Z",
+      "makers": [
+        {
+          "name": "Alina Zhusupbekova",
+          "username": "comrad_pogaca"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Chrome Extensions",
+          "slug": "chrome-extensions"
+        },
+        {
+          "name": "Productivity",
+          "slug": "productivity"
+        },
+        {
+          "name": "Social Media",
+          "slug": "social-media"
+        },
+        {
+          "name": "Languages",
+          "slug": "languages"
+        }
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/f9e78779-6637-43e5-abaa-250225b26b78.png?auto=format&w=640"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/f38f91c7-3a4a-43b9-a10d-5a9e6c860edb.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/462a960f-20de-43b1-a360-268e8c9c4872.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/661e8741-3919-43a3-a2ff-1ec6a6400999.png?auto=format",
+          "videoUrl": null
+        }
+      ]
+    },
+    {
       "id": "1205385",
       "name": "Gazouya (がぞうや)",
       "tagline": "AI Image Generator Platform Tailored for Japanese Creators",
@@ -2589,7 +4020,7 @@
       "commentsCount": 1,
       "reviewsCount": 0,
       "reviewsRating": 0,
-      "dailyRank": 407,
+      "dailyRank": 411,
       "featuredAt": null,
       "createdAt": "2026-07-28T07:01:00Z",
       "makers": [
@@ -2635,6 +4066,78 @@
         {
           "type": "image",
           "url": "https://ph-files.imgix.net/51abd675-a548-41e8-bf20-79f7085fffa2.webp?auto=format",
+          "videoUrl": null
+        }
+      ]
+    },
+    {
+      "id": "1205493",
+      "name": "Rizz Invites",
+      "tagline": "Joyful Parties Start With Effortless Invites",
+      "description": "Send Digital Invitations in Minutes with Rizz Invites! Effortless Invitations for any event. Choose one of the existing invitations, create your own with Rizz Invites AI or Upload Your Own invitation. Send via text and email and recieve RSVPs all in one place!",
+      "url": "https://www.producthunt.com/products/rizz-invites?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "website": "https://www.producthunt.com/r/HWOKA6GZBXUF4N?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "slug": "rizz-invites",
+      "votesCount": 0,
+      "commentsCount": 1,
+      "reviewsCount": 0,
+      "reviewsRating": 0,
+      "dailyRank": 215,
+      "featuredAt": null,
+      "createdAt": "2026-07-28T07:01:00Z",
+      "makers": [
+        {
+          "name": "[REDACTED]",
+          "username": "[REDACTED]"
+        },
+        {
+          "name": "[REDACTED]",
+          "username": "[REDACTED]"
+        },
+        {
+          "name": "bryan colligan",
+          "username": "bryan_colligan"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Events",
+          "slug": "events"
+        }
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/9dd2629a-0cb0-4940-92c7-684b815c532e.png?auto=format&w=640"
+      },
+      "media": [
+        {
+          "type": "video",
+          "url": "https://ph-files.imgix.net/4e123ea2-4bf1-4784-a494-c505eccafd1a.jpeg?auto=format",
+          "videoUrl": "https://youtu.be/fcHPTPbeuVk?si=X_1T0_BeMApsQC6c"
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/1f27aca1-f020-4407-99c6-f810db868d5b.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/6470758a-5217-4df0-ab88-ef426e3b0715.jpeg?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/df44b7e2-89fb-46a5-8542-223ec9933c0f.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/a47c7ff5-ba29-421d-b366-f83ddcb40e33.jpeg?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/cc0fb61e-2eed-4c5b-8621-1582321e4435.png?auto=format",
           "videoUrl": null
         }
       ]
@@ -2754,6 +4257,78 @@
         {
           "type": "image",
           "url": "https://ph-files.imgix.net/d445f433-3bc6-4633-84b9-3c098b9cf61b.png?auto=format",
+          "videoUrl": null
+        }
+      ]
+    },
+    {
+      "id": "1205754",
+      "name": "Kipu",
+      "tagline": "Turn bookmarks into a personal knowledge library",
+      "description": "Most bookmark apps are just lists of links. Kipu turns them into a personal knowledge library. Save content from almost any app, enrich every bookmark with notes, reminders and custom thumbnails, then organize and search everything in one place. Private by default, with end-to-end encryption and biometric lock.",
+      "url": "https://www.producthunt.com/products/kipu?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "website": "https://www.producthunt.com/r/OIK4JZPYXXJJ4I?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "slug": "kipu",
+      "votesCount": 0,
+      "commentsCount": 1,
+      "reviewsCount": 0,
+      "reviewsRating": 0,
+      "dailyRank": 215,
+      "featuredAt": null,
+      "createdAt": "2026-07-28T07:01:00Z",
+      "makers": [
+        {
+          "name": "Iván",
+          "username": "ivanrod"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Android",
+          "slug": "android"
+        },
+        {
+          "name": "Notes",
+          "slug": "notes"
+        },
+        {
+          "name": "Privacy",
+          "slug": "privacy"
+        }
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/f26b60c7-0b70-4dab-a9bd-87d7645b06e9.png?auto=format&w=640"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/b9692ba1-5945-4f1c-9596-8930f7e75fd0.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/f45aae43-b4ef-4f10-be09-f2e779a55215.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/9cb4d63e-85ad-4be2-9b15-0216d91f0161.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/fdb9d484-3aa1-40d6-a0e4-2066aa03531d.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/7ca34484-0ff8-4cdf-90fe-67f3b37e473f.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/1fa6e54d-a368-4d58-90c2-fc660d265d44.png?auto=format",
           "videoUrl": null
         }
       ]
@@ -3064,6 +4639,82 @@
       ]
     },
     {
+      "id": "1205980",
+      "name": "Prismedia",
+      "tagline": "One self-hosted library for your whole media lifecycle",
+      "description": "Prismedia turns a fragmented self-hosted media stack into one connected library. Discover and request titles, follow acquisition, fix metadata, manage files, then watch, listen, read, and browse without losing the item’s identity or your progress. Video, music, audiobooks, eBooks, comics, images, and galleries get purpose-built experiences across web, iPhone, iPad, and Apple TV—while your media and library state stay on infrastructure you control.",
+      "url": "https://www.producthunt.com/products/prismedia?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "website": "https://www.producthunt.com/r/P3ORKB2XKQ5NJG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "slug": "prismedia",
+      "votesCount": 0,
+      "commentsCount": 1,
+      "reviewsCount": 0,
+      "reviewsRating": 0,
+      "dailyRank": 56,
+      "featuredAt": null,
+      "createdAt": "2026-07-28T07:01:00Z",
+      "makers": [
+        {
+          "name": "Paul “pauljoda” Davis",
+          "username": "pauljoda"
+        }
+      ],
+      "topics": [
+        {
+          "name": "iOS",
+          "slug": "ios"
+        },
+        {
+          "name": "Apple TV",
+          "slug": "apple-tv"
+        },
+        {
+          "name": "GitHub",
+          "slug": "github"
+        },
+        {
+          "name": "Entertainment",
+          "slug": "entertainment"
+        }
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/a5087987-8842-479a-a70d-f0352bc2e067.png?auto=format&w=640"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/73ae2bb8-8ebc-4fa3-a952-7df176a86d77.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/9df1f0ee-0f2a-4ecb-b6b6-0f6af46cb7e3.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/d9d39fb1-8067-4af4-8c1f-2cc9a7a7c29a.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/ecd23985-4793-48b6-9d8a-8afc1273943c.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/008386e0-a4ac-458e-9c96-1663c773b9e6.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/9c75dfba-a19e-4e0f-bc8b-c53143469209.png?auto=format",
+          "videoUrl": null
+        }
+      ]
+    },
+    {
       "id": "1206094",
       "name": "ExcelDashboard AI 4.0",
       "tagline": "Create editable data reports & dashboards—refine with AI",
@@ -3336,6 +4987,130 @@
       ]
     },
     {
+      "id": "1206398",
+      "name": "ProposalFast",
+      "tagline": "Replace boring PDF quotes with interactive B2B proposals",
+      "description": "ProposalFast is a micro-SaaS that helps freelancers and agencies close deals faster. Create mobile-friendly proposals in minutes with built-in e-signatures, pricing variants, and live open tracking. Say goodbye to static PDFs.",
+      "url": "https://www.producthunt.com/products/proposalfast?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "website": "https://www.producthunt.com/r/5XND3J2QZLKVXF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "slug": "proposalfast",
+      "votesCount": 0,
+      "commentsCount": 1,
+      "reviewsCount": 0,
+      "reviewsRating": 0,
+      "dailyRank": 215,
+      "featuredAt": null,
+      "createdAt": "2026-07-28T07:01:00Z",
+      "makers": [
+        {
+          "name": "Kamil Derszniak",
+          "username": "kmaill"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Productivity",
+          "slug": "productivity"
+        },
+        {
+          "name": "Freelance",
+          "slug": "freelance"
+        },
+        {
+          "name": "SaaS",
+          "slug": "saas"
+        }
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/cb60d924-a353-4e75-a958-43dcc7c47bb2.jpeg?auto=format&w=640"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/23103cd8-dcbb-4ad6-84d9-2fb8195080d9.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/970a3761-3d4c-44a0-954b-f792680f98e9.png?auto=format",
+          "videoUrl": null
+        }
+      ]
+    },
+    {
+      "id": "1206401",
+      "name": "CheckCyber",
+      "tagline": "Scan any website for 24 security flaws in seconds",
+      "description": "CheckCyber audits any website's public security posture in seconds. No signup, no install, nothing to configure. 24 checks: TLS certificate and protocols, HTTPS redirection, security headers (HSTS, CSP, X-Frame-Options), cookies, CORS, exposed files (.env,git, backups), version leaks, script integrity (SRI), vulnerable JS libraries, and DNS/email records (SPF, DMARC, CAA, MTA-STS). Score out of 100, plus the exact fix for each issue (Apache, nginx, WordPress).",
+      "url": "https://www.producthunt.com/products/checkcyber?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "website": "https://www.producthunt.com/r/4QGCNQJKLNBAWF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "slug": "checkcyber",
+      "votesCount": 0,
+      "commentsCount": 1,
+      "reviewsCount": 0,
+      "reviewsRating": 0,
+      "dailyRank": 56,
+      "featuredAt": null,
+      "createdAt": "2026-07-28T07:01:00Z",
+      "makers": [
+        {
+          "name": "Collin Elio",
+          "username": "collin_elio"
+        }
+      ],
+      "topics": [
+        {
+          "name": "SEO",
+          "slug": "seo"
+        },
+        {
+          "name": "Website Builder",
+          "slug": "website-builder"
+        },
+        {
+          "name": "Security",
+          "slug": "security"
+        }
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/cdd46858-ab8b-41aa-9f1c-b101073c479e.svg?auto=format&w=640"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/e2d67d2f-cde6-49a6-8fce-ef17bf1844f3.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/9032e3bf-97c4-428b-ab78-7a04dc53a8cd.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/f75b2122-40d3-48af-8fcb-ca49ec030a26.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/b79d3459-df41-4964-8b07-9323c12f32c8.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/f44d3153-24b6-4946-83b3-01bd05a7355e.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/d9164aec-fc9f-433e-8561-c9f4d4ae7293.png?auto=format",
+          "videoUrl": null
+        }
+      ]
+    },
+    {
       "id": "1206453",
       "name": "Zodigram",
       "tagline": "Discover who you truly are  - Your Complete Cosmic Blueprint",
@@ -3394,6 +5169,77 @@
           "type": "image",
           "url": "https://ph-files.imgix.net/0b2da653-88cd-4f09-bb4c-2d14ecca2fd7.png?auto=format",
           "videoUrl": null
+        }
+      ]
+    },
+    {
+      "id": "1206507",
+      "name": "RealBonds: Social Map",
+      "tagline": "RealBonds is a interactive social map application.",
+      "description": "RealBonds turns \"who's nearby\" into a real meetup. A live heatmap shows nearby users and hot spots in real time. Discover or host events with a token-based system controlling visibility by distance and duration. Venues level up only from verified on-site visits — reviewing a place requires being there. See friends as a constellation, not a list. Spot someone at your venue and send a friend request with one live, unfiltered photo, no gallery uploads to story. Bot-protected, privacy-first.",
+      "url": "https://www.producthunt.com/products/realbonds-social-map?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "website": "https://www.producthunt.com/r/QQHECHYZV2NOXH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "slug": "realbonds-social-map",
+      "votesCount": 0,
+      "commentsCount": 1,
+      "reviewsCount": 0,
+      "reviewsRating": 0,
+      "dailyRank": 215,
+      "featuredAt": null,
+      "createdAt": "2026-07-28T07:01:00Z",
+      "makers": [
+        {
+          "name": "Yigit Arslan",
+          "username": "yigitarslan"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Android",
+          "slug": "android"
+        },
+        {
+          "name": "Events",
+          "slug": "events"
+        },
+        {
+          "name": "Social Networking",
+          "slug": "social-networking"
+        },
+        {
+          "name": "Live Events",
+          "slug": "live-events"
+        }
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/30463879-8643-4f62-8432-101ceb71a7b2.png?auto=format&w=640"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/8eab39de-af11-44b5-bcd8-2093b2658e43.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/7acb4ffb-c8c1-4f03-abbf-1d0a51d69631.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/5f56fdab-4c45-4544-8441-1003566ac714.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/2c95aaa2-7b96-48d9-bf1d-405719ea6b29.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "video",
+          "url": "https://ph-files.imgix.net/61c836a0-ba55-46bb-94c9-0cb53d1ced69.jpeg?auto=format",
+          "videoUrl": "https://www.youtube.com/shorts/Kh3_g1A14f4"
         }
       ]
     },
@@ -3662,6 +5508,54 @@
       ]
     },
     {
+      "id": "1206696",
+      "name": "My PDF Scanner",
+      "tagline": "Private scanning with on-device OCR and clean PDF export",
+      "description": "My PDF Scanner scans receipts, contracts, IDs, notes, and book pages into clean PDFs. Basic scanning needs no account, ads, or watermark, and OCR is designed to run on-device.",
+      "url": "https://www.producthunt.com/products/my-pdf-scanner?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "website": "https://www.producthunt.com/r/PXECCWDW4DJEK6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "slug": "my-pdf-scanner",
+      "votesCount": 0,
+      "commentsCount": 1,
+      "reviewsCount": 0,
+      "reviewsRating": 0,
+      "dailyRank": 215,
+      "featuredAt": null,
+      "createdAt": "2026-07-28T07:01:00Z",
+      "makers": [
+        {
+          "name": "李智清",
+          "username": "new_user___17120252d87b59f9dab0494"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Android",
+          "slug": "android"
+        },
+        {
+          "name": "Productivity",
+          "slug": "productivity"
+        }
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/fad378a0-73cc-43c2-8c4f-f04bf4b8ef66.png?auto=format&w=640"
+      },
+      "media": [
+        {
+          "type": "video",
+          "url": "https://ph-files.imgix.net/f8ef3cb1-60e1-444b-8f19-055e854fdf4c.jpeg?auto=format",
+          "videoUrl": "https://youtu.be/j6KKXJtU5oU"
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/949e940a-eed0-440c-8608-1655df6dab21.png?auto=format",
+          "videoUrl": null
+        }
+      ]
+    },
+    {
       "id": "1206781",
       "name": "Replyy",
       "tagline": "Reply faster. Reply safer.",
@@ -3888,6 +5782,73 @@
       ]
     },
     {
+      "id": "1206940",
+      "name": "Crevio AI",
+      "tagline": "Create consistent AI characters for every ad campaign.",
+      "description": "Crevio AI helps brands create premium ad creatives, edit product images, and build consistent AI brand characters. Generate multiple variations from a single prompt or photo, keep the same face across every campaign, and scale fashion, skincare, jewelry, fitness, and ecommerce ads faster. 50 free credits on signup.",
+      "url": "https://www.producthunt.com/products/crevio-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "website": "https://www.producthunt.com/r/K2IYUT7GHWN4AD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "slug": "crevio-ai",
+      "votesCount": 0,
+      "commentsCount": 1,
+      "reviewsCount": 0,
+      "reviewsRating": 0,
+      "dailyRank": 411,
+      "featuredAt": null,
+      "createdAt": "2026-07-28T07:01:00Z",
+      "makers": [
+        {
+          "name": "OM Kumar",
+          "username": "om_kumar_founder"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Design Tools",
+          "slug": "design-tools"
+        },
+        {
+          "name": "Marketing",
+          "slug": "marketing"
+        },
+        {
+          "name": "Artificial Intelligence",
+          "slug": "artificial-intelligence"
+        }
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/32771705-5239-4747-a6a9-7011a58e499d.png?auto=format&w=640"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/f25368df-8099-4e6f-a815-f1cc011dc9eb.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/1e479a9c-3266-4766-884b-a8cf7ce755e2.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/6c748c4a-f65a-4a74-9da5-66acb96065fe.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/d7d73356-0f85-4410-a490-e9756984b2c4.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/b40b652c-ae79-41b2-b615-25cb71d67616.png?auto=format",
+          "videoUrl": null
+        }
+      ]
+    },
+    {
       "id": "1207005",
       "name": "JobTailor",
       "tagline": "AI resume tailoring without made-up bullet points",
@@ -4001,6 +5962,53 @@
       ]
     },
     {
+      "id": "1207116",
+      "name": "Akariq",
+      "tagline": "Stay connected everywhere you go",
+      "description": "Akariq helps you stay connected while traveling with instant digital SIM activation for 185 countries. You can buy eSIM data plans, compare prices to get the best deals, and manage your connectivity without physical SIM cards from anywhere in the world.",
+      "url": "https://www.producthunt.com/products/akariq?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "website": "https://www.producthunt.com/r/4JQKCURAVLC22I?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "slug": "akariq",
+      "votesCount": 0,
+      "commentsCount": 1,
+      "reviewsCount": 0,
+      "reviewsRating": 0,
+      "dailyRank": 56,
+      "featuredAt": null,
+      "createdAt": "2026-07-28T07:01:00Z",
+      "makers": [
+        {
+          "name": "Denzil C",
+          "username": "denzilc"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Global Nomad",
+          "slug": "global-nomad"
+        },
+        {
+          "name": "Travel",
+          "slug": "travel"
+        },
+        {
+          "name": "Business Travel",
+          "slug": "business-travel"
+        }
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/d4abce81-eb10-41a1-beb0-59c00ec590cc.svg?auto=format&w=640"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/0bd37f81-ef4f-41d8-a84d-66bf59fe5bb0.png?auto=format",
+          "videoUrl": null
+        }
+      ]
+    },
+    {
       "id": "1207122",
       "name": "Host Better",
       "tagline": "Launch your website in minutes, not hours.",
@@ -4012,7 +6020,7 @@
       "commentsCount": 1,
       "reviewsCount": 0,
       "reviewsRating": 0,
-      "dailyRank": 216,
+      "dailyRank": 215,
       "featuredAt": null,
       "createdAt": "2026-07-28T07:01:00Z",
       "makers": [
@@ -4131,6 +6139,135 @@
       ]
     },
     {
+      "id": "1207315",
+      "name": "Numveo",
+      "tagline": "Financial calculators that are fast & precise",
+      "description": "Numveo is 200+ free US financial calculators — mortgage, loans, taxes, retirement, investing, credit cards, real estate — on one engine with exact decimal math. No sign-up, no paywall, private (runs in your browser), works offline. Plain-English guides included.",
+      "url": "https://www.producthunt.com/products/numveo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "website": "https://www.producthunt.com/r/AVV33ECE74BL3A?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "slug": "numveo",
+      "votesCount": 0,
+      "commentsCount": 1,
+      "reviewsCount": 0,
+      "reviewsRating": 0,
+      "dailyRank": 215,
+      "featuredAt": null,
+      "createdAt": "2026-07-28T07:01:00Z",
+      "makers": [
+        {
+          "name": "Ahmed By",
+          "username": "ahmed_by"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Web App",
+          "slug": "web-app"
+        },
+        {
+          "name": "Productivity",
+          "slug": "productivity"
+        },
+        {
+          "name": "Finance",
+          "slug": "finance"
+        }
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/b126b7cc-26fe-4fcc-9793-3756d678b7c7.png?auto=format&w=640"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/27d85be4-47e4-48c3-9fcf-a03166430883.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/eb803494-d2d8-4609-8742-e519c00eebb5.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/588924a2-83da-4224-b517-61cb28a05601.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/a320b1b4-593b-4afc-87ca-76d93c644dd1.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/a0dee53d-9e19-471d-aaa0-0d3395f8704a.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/f8e11a02-0997-44cb-82c2-65b4d0b4dda8.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "video",
+          "url": "https://ph-files.imgix.net/41e0577a-f6fd-4355-9983-12fc0bb7565e.jpeg?auto=format",
+          "videoUrl": "https://www.youtube.com/shorts/mxGyzhZUogk"
+        }
+      ]
+    },
+    {
+      "id": "1207353",
+      "name": "Harbor Archive for macOS",
+      "tagline": "The modern website archiver for macOS",
+      "description": "Harbor Archive is a modern website archiver built specifically for macOS. Download complete websites for offline browsing, backups, migration, compliance, or research using fast multi-threaded crawling, browser-assisted rendering, resumable downloads, and intelligent verification. Inspect every request, compare snapshots over time, and export portable archives—all while keeping your data local.",
+      "url": "https://www.producthunt.com/products/harbor-archive-for-macos?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "website": "https://www.producthunt.com/r/YZMVOW7DZIEY7U?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "slug": "harbor-archive-for-macos",
+      "votesCount": 0,
+      "commentsCount": 1,
+      "reviewsCount": 0,
+      "reviewsRating": 0,
+      "dailyRank": 215,
+      "featuredAt": null,
+      "createdAt": "2026-07-28T07:01:00Z",
+      "makers": [],
+      "topics": [
+        {
+          "name": "Mac",
+          "slug": "mac"
+        },
+        {
+          "name": "Productivity",
+          "slug": "productivity"
+        },
+        {
+          "name": "Developer Tools",
+          "slug": "developer-tools"
+        }
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/2307d248-f5a7-45f9-8459-f0726aeedb68.png?auto=format&w=640"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/28cd0d21-ed91-4f02-8cba-c3f29bc7596e.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/c28f0789-397f-4a86-994b-6617eddf3581.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/9e750756-d00b-44b0-bc26-1a88ce9b1e4e.png?auto=format",
+          "videoUrl": null
+        }
+      ]
+    },
+    {
       "id": "1207380",
       "name": "Planned Profit",
       "tagline": "Pricing tools built for hairstylists.",
@@ -4142,7 +6279,7 @@
       "commentsCount": 1,
       "reviewsCount": 0,
       "reviewsRating": 0,
-      "dailyRank": 216,
+      "dailyRank": 215,
       "featuredAt": null,
       "createdAt": "2026-07-28T07:01:00Z",
       "makers": [
@@ -4194,6 +6331,63 @@
           "type": "video",
           "url": "https://ph-files.imgix.net/bf7ee5db-6847-4590-a0cc-fd6c784f723b.jpeg?auto=format",
           "videoUrl": "https://youtube.com/shorts/tryGbZs2KyQ?si=yYaCK8r9Al1Q04T8"
+        }
+      ]
+    },
+    {
+      "id": "1207413",
+      "name": "Gard",
+      "tagline": "Gard against typos during internal QA review of graphics",
+      "description": "Gard scans ads, packaging, and any graphic for spelling and grammar errors — the image typo check Grammarly can't do. 5 Free monthly scan, plans from $24/mo.",
+      "url": "https://www.producthunt.com/products/gard?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "website": "https://www.producthunt.com/r/RQRAF4L4KNJT6Z?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "slug": "gard-2",
+      "votesCount": 0,
+      "commentsCount": 1,
+      "reviewsCount": 0,
+      "reviewsRating": 0,
+      "dailyRank": 56,
+      "featuredAt": null,
+      "createdAt": "2026-07-28T07:01:00Z",
+      "makers": [
+        {
+          "name": "Jarolin Vargas",
+          "username": "jarolin_vargas"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Design Tools",
+          "slug": "design-tools"
+        },
+        {
+          "name": "Productivity",
+          "slug": "productivity"
+        },
+        {
+          "name": "Artificial Intelligence",
+          "slug": "artificial-intelligence"
+        }
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/423693f3-45a1-45be-a0f9-b173f4c83d4c.png?auto=format&w=640"
+      },
+      "media": [
+        {
+          "type": "video",
+          "url": "https://ph-files.imgix.net/1b2f8c17-59bc-47ce-8ce3-81dbcb0edf51.jpeg?auto=format",
+          "videoUrl": "https://www.youtube.com/watch?v=bclxRDlM0lo"
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/22427e72-d2d0-4ae0-8e0c-4a3e587970fa.webp?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/d3ae19ec-44d6-4ceb-bc3d-a10e1eb9a336.png?auto=format",
+          "videoUrl": null
         }
       ]
     },
@@ -4328,6 +6522,67 @@
       ]
     },
     {
+      "id": "1207485",
+      "name": "promptring",
+      "tagline": " that little tring 🔔 the moment your terminal agent is done",
+      "description": "promptring (prompt·tring) fires real desktop notification banners when your GitHub Copilot CLI agent finishes a task, needs your input, or hits a blocker. Native banners on the latest macOS Copilot CLI — powered by Claude — plus Windows, Linux and WSL, with python3 as the only dependency, from any terminal (Terminal.app, iTerm2, VS Code). Built by Pratyansh Agrawal.",
+      "url": "https://www.producthunt.com/products/promptring?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "website": "https://www.producthunt.com/r/BLUXFFPR7S2U7S?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "slug": "promptring",
+      "votesCount": 0,
+      "commentsCount": 1,
+      "reviewsCount": 0,
+      "reviewsRating": 0,
+      "dailyRank": 215,
+      "featuredAt": null,
+      "createdAt": "2026-07-28T07:01:00Z",
+      "makers": [
+        {
+          "name": "Pratyansh Agrawal",
+          "username": "pratyansh"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Productivity",
+          "slug": "productivity"
+        },
+        {
+          "name": "Developer Tools",
+          "slug": "developer-tools"
+        },
+        {
+          "name": "Artificial Intelligence",
+          "slug": "artificial-intelligence"
+        },
+        {
+          "name": "GitHub",
+          "slug": "github"
+        }
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/c36aa202-0cc9-444d-ba4a-3854e468a8e7.png?auto=format&w=640"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/274eb340-d402-4d0b-bcbd-9d1ec86bf2ae.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/9c3b4c63-f6e4-4f78-a46c-ba2e59240846.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/046cd477-a725-4ddd-92c8-cfbf6eb9031f.png?auto=format",
+          "videoUrl": null
+        }
+      ]
+    },
+    {
       "id": "1207539",
       "name": "Supplymo",
       "tagline": "12 free tools to check a China supplier before you pay",
@@ -4390,6 +6645,79 @@
         {
           "type": "image",
           "url": "https://ph-files.imgix.net/35535198-a472-45aa-9ee1-2e6b4eb8416f.gif?auto=format",
+          "videoUrl": null
+        }
+      ]
+    },
+    {
+      "id": "1207552",
+      "name": "Firstpass",
+      "tagline": "Actionable input so you nail every launch",
+      "description": "If you've ever shipped a launch and watched your copy get truncated, ignored, or misread — Firstpass shows you every surface a stranger meets your product on (the Product Hunt page, the leaderboard row, the Glaze Store grid) and pins handwritten crit notes to what breaks in each one, before you publish. The same tagline lives or dies differently depending on where it lands: PH gives you 60 characters, the Glaze Store caps at 40, the browse grid cuts near 33. Nobody checks — until it's live.",
+      "url": "https://www.producthunt.com/products/glaze-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "website": "https://www.producthunt.com/r/A5C7RWUJJMXOLN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "slug": "firstpass",
+      "votesCount": 0,
+      "commentsCount": 4,
+      "reviewsCount": 1,
+      "reviewsRating": 5,
+      "dailyRank": 18,
+      "featuredAt": "2026-07-28T07:01:00Z",
+      "createdAt": "2026-07-28T07:01:00Z",
+      "makers": [
+        {
+          "name": "Chris Messina",
+          "username": "chrismessina"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Design Tools",
+          "slug": "design-tools"
+        },
+        {
+          "name": "UX Design",
+          "slug": "ux-design"
+        }
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/d767c091-9920-4ab3-9d07-3df3897d7386.png?auto=format&w=640"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/cb7c57e6-f712-4f39-8839-6468a8009b76.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/6c44f697-61b8-4a1f-b174-533c7d903257.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/1fd91289-7255-4c68-a79b-e7a1f5451c80.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/f94be893-bbbe-49be-b8e9-8ec2c3853f15.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/75c84c31-6ff8-496c-9e97-0d169e1591ed.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/59d9a9a5-2859-4f70-8fe3-536428702fdb.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/09ab5a52-fc20-4a3c-885a-e4d55bb2fac4.png?auto=format",
           "videoUrl": null
         }
       ]
@@ -4467,6 +6795,65 @@
       ]
     },
     {
+      "id": "1207561",
+      "name": "MacSonik Outlook PST Converter Tool",
+      "tagline": "Convert & Manage PST Files on Mac, Win & Linux",
+      "description": "MacSonik Outlook PST Converter is an enterprise-ready tool to convert, migrate, and manage Outlook PST files across macOS, Windows, and Linux—without Outlook. Export PST to 20+ formats, migrate directly to Microsoft 365, Gmail, IMAP, and more, or process unlimited PST files in bulk. With advanced filters, duplicate removal, smart preview, modern OAuth authentication, and zero data loss, it’s built for IT teams, MSPs, and professionals handling secure, large-scale email migrations.",
+      "url": "https://www.producthunt.com/products/macsonik-outlook-pst-converter-tool?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "website": "https://www.producthunt.com/r/N6ZEDV3MQSYYKS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "slug": "macsonik-outlook-pst-converter-tool",
+      "votesCount": 0,
+      "commentsCount": 0,
+      "reviewsCount": 0,
+      "reviewsRating": 0,
+      "dailyRank": 380,
+      "featuredAt": null,
+      "createdAt": "2026-07-28T07:01:00Z",
+      "makers": [],
+      "topics": [
+        {
+          "name": "Email",
+          "slug": "email"
+        }
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/009d2b4b-211a-4a95-9e47-7ba5560f0f2c.png?auto=format&w=640"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/500af180-396f-40f8-a3c1-4e3e2671df6f.webp?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/201850db-b6d2-486e-bb80-efbeb90aa75c.webp?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/0abee37b-50e2-4202-91db-0a66e2777c10.webp?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/3f1c059b-49af-45af-8dc6-6e61f1822b8a.webp?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/dea482c2-0b09-4e3c-90b8-aff8129f30b4.webp?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/3752ed57-44dc-4efd-bfb1-3d6b52a2228f.webp?auto=format",
+          "videoUrl": null
+        }
+      ]
+    },
+    {
       "id": "1207569",
       "name": "Pendi",
       "tagline": "Be the best YOU that YOU can be! ",
@@ -4538,6 +6925,78 @@
       ]
     },
     {
+      "id": "1207608",
+      "name": "Liftwerk",
+      "tagline": "Workout tracker for iPhone",
+      "description": "Plan routines, log sets and track strength progress with Liftwerk, a private offline workout tracker for iPhone. Try it free, then pay once.",
+      "url": "https://www.producthunt.com/products/liftwerk?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "website": "https://www.producthunt.com/r/F3NK4XKOJOOVFW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "slug": "liftwerk",
+      "votesCount": 0,
+      "commentsCount": 1,
+      "reviewsCount": 0,
+      "reviewsRating": 0,
+      "dailyRank": 56,
+      "featuredAt": null,
+      "createdAt": "2026-07-28T07:01:00Z",
+      "makers": [
+        {
+          "name": "Adrià Tormo",
+          "username": "tormius"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Health & Fitness",
+          "slug": "health-fitness"
+        },
+        {
+          "name": "Apple",
+          "slug": "apple"
+        },
+        {
+          "name": "Fitness",
+          "slug": "fitness"
+        }
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/fcf1d230-9137-46e1-baf2-b8c222e6dcd8.png?auto=format&w=640"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/51222237-7f23-4352-a878-427782b472f9.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/8770a402-151c-47cf-b351-4c86a24b6381.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/34bb8622-1946-414b-b818-fb5e5abeabbb.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/b60204da-0881-4a2f-a700-98f197bdbec5.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/5081b8a0-81a1-4654-af25-ec057c67f666.webp?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/85e1ade7-7d01-411c-897f-ed33eaa3a62d.webp?auto=format",
+          "videoUrl": null
+        }
+      ]
+    },
+    {
       "id": "1207609",
       "name": "Premium Bonds Results",
       "tagline": "Visualise your Premium Bond Results stats and get alerts",
@@ -4549,7 +7008,7 @@
       "commentsCount": 1,
       "reviewsCount": 0,
       "reviewsRating": 0,
-      "dailyRank": 53,
+      "dailyRank": 56,
       "featuredAt": null,
       "createdAt": "2026-07-28T07:01:00Z",
       "makers": [
@@ -4595,6 +7054,215 @@
         {
           "type": "image",
           "url": "https://ph-files.imgix.net/c2a9352e-7843-4cd8-a321-8f0cd1c7cf9f.png?auto=format",
+          "videoUrl": null
+        }
+      ]
+    },
+    {
+      "id": "1207613",
+      "name": "SatSpots",
+      "tagline": "Find where Bitcoin actually works",
+      "description": "SatSpots is a fast, mobile-first map of shops, restaurants, hotels and ATMs that accept Bitcoin. Built on open BTC Map / OpenStreetMap data with full attribution, it stays honest about how fresh each listing is, lets businesses claim and manage their own profile, and is adding non-custodial bookkeeping that turns a merchant's incoming Bitcoin into a clean report for their accountant.",
+      "url": "https://www.producthunt.com/products/satspots?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "website": "https://www.producthunt.com/r/MIANC3ONXGECZX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "slug": "satspots",
+      "votesCount": 0,
+      "commentsCount": 1,
+      "reviewsCount": 0,
+      "reviewsRating": 0,
+      "dailyRank": 56,
+      "featuredAt": null,
+      "createdAt": "2026-07-28T07:01:00Z",
+      "makers": [
+        {
+          "name": "Sal Paradise",
+          "username": "sal_paradise"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Travel",
+          "slug": "travel"
+        },
+        {
+          "name": "Maps",
+          "slug": "maps"
+        },
+        {
+          "name": "Bitcoin",
+          "slug": "bitcoin"
+        }
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/7e8a14c9-150e-45ea-a798-70bc5b00218b.jpeg?auto=format&w=640"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/6bd2bc68-62df-4fc8-a970-fcde1658838c.svg?auto=format",
+          "videoUrl": null
+        }
+      ]
+    },
+    {
+      "id": "1207619",
+      "name": "Bullpen",
+      "tagline": "Make your AI coding agent think like a senior dev",
+      "description": "Bullpen gives your AI coding agent ten senior-dev instincts: push back on bad ideas, run it before saying \"done,\" attack its own code, ask before guessing, and more. Ten skills you call by name at lite/full/ultra intensity. Open source, MIT, installable in Claude Code in two lines.",
+      "url": "https://www.producthunt.com/products/bullpen-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "website": "https://www.producthunt.com/r/WWB4HIEATVISMX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "slug": "bullpen-2",
+      "votesCount": 0,
+      "commentsCount": 1,
+      "reviewsCount": 0,
+      "reviewsRating": 0,
+      "dailyRank": 215,
+      "featuredAt": null,
+      "createdAt": "2026-07-28T07:01:00Z",
+      "makers": [
+        {
+          "name": "mohammed faizan mohiuddin",
+          "username": "mohammed_faizan_mohiuddin1"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Open Source",
+          "slug": "open-source"
+        },
+        {
+          "name": "GitHub",
+          "slug": "github"
+        }
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/e2f13bc7-d317-4c73-9834-b943a8dff4a5.png?auto=format&w=640"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/9545bed4-c1e8-436d-a182-9c45ddfff1ff.png?auto=format",
+          "videoUrl": null
+        }
+      ]
+    },
+    {
+      "id": "1207623",
+      "name": "Inkspira",
+      "tagline": "Design your tattoo with AI — and try it on your skin",
+      "description": "Inkspira is an AI tattoo studio in German. Describe your idea, pick one of 21 styles and a placement, and get HD designs in seconds. Then try it on: upload a photo of the spot and the AI renders the motif onto your skin with real contour, light and shadow. Plus 184+ idea pages with meaning, placement, pain and aftercare, free calculators, and stencil and remix tools. Credits, not subscriptions — 1 credit = 1 HD design, and they never expire.",
+      "url": "https://www.producthunt.com/products/inkspira?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "website": "https://www.producthunt.com/r/FLUQV7V2ZR5BZ2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "slug": "inkspira",
+      "votesCount": 0,
+      "commentsCount": 1,
+      "reviewsCount": 0,
+      "reviewsRating": 0,
+      "dailyRank": 411,
+      "featuredAt": null,
+      "createdAt": "2026-07-28T07:01:00Z",
+      "makers": [
+        {
+          "name": "Toja",
+          "username": "toja"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Design Tools",
+          "slug": "design-tools"
+        },
+        {
+          "name": "Art",
+          "slug": "art"
+        },
+        {
+          "name": "Artificial Intelligence",
+          "slug": "artificial-intelligence"
+        }
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/4a1cb95f-4bdf-4488-8aeb-16914dcf9d8a.png?auto=format&w=640"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/8025edb6-c3b8-4d1d-bd45-51bb62be3594.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/4d4e8e34-4d99-45fb-a26e-42f4e2f250c2.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/e3ad32a0-4cd4-470f-b7fe-31a81df46122.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/76328744-6ca8-4fd2-be85-341a8b77dfd9.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/ad5c2780-f906-4733-8705-29df12c555c8.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/77548be8-448c-4289-a601-9cd6034857d9.jpeg?auto=format",
+          "videoUrl": null
+        }
+      ]
+    },
+    {
+      "id": "1207625",
+      "name": "JS Quest",
+      "tagline": "Learn JavaScript by playing Games",
+      "description": "JS Quest: a free, login-free adventure that teaches you ALL of JavaScript — from your first variable to the event loop's deepest secrets. 16 realms, 239 levels, 16 boss battles, XP, streaks and real in-browser coding.",
+      "url": "https://www.producthunt.com/products/js-quest?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "website": "https://www.producthunt.com/r/7DCOJQMAYDARIP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "slug": "js-quest",
+      "votesCount": 0,
+      "commentsCount": 1,
+      "reviewsCount": 0,
+      "reviewsRating": 0,
+      "dailyRank": 411,
+      "featuredAt": null,
+      "createdAt": "2026-07-28T07:01:00Z",
+      "makers": [
+        {
+          "name": "Sundaram Kumar Jha",
+          "username": "sundaram_kumar_jha"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Education",
+          "slug": "education"
+        },
+        {
+          "name": "Developer Tools",
+          "slug": "developer-tools"
+        },
+        {
+          "name": "Games",
+          "slug": "games"
+        }
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/c5689746-958d-412a-b0df-400669dd4d9b.svg?auto=format&w=640"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/e1e42a63-a1f2-46ca-b5af-baf58a11cddb.png?auto=format",
           "videoUrl": null
         }
       ]
@@ -4676,6 +7344,57 @@
       ]
     },
     {
+      "id": "1207662",
+      "name": "NovlAI: AI Novel Writer",
+      "tagline": "AI novel writing that remembers your whole story",
+      "description": "NovlAI is an AI novel writing workspace for long-form and serialized fiction. General chatbots forget your story between prompts — NovlAI keeps chapters, characters, relationships, and worldbuilding in one project, so the AI continues your story instead of starting a different one. The writer owns the premise, plot, voice, and every edit; AI handles continuation, expansion, and rewriting. Android on Google Play, Windows coming soon. From $9.90/month.",
+      "url": "https://www.producthunt.com/products/novlai-ai-novel-writer?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "website": "https://www.producthunt.com/r/VKSYJGB5TQTQEI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "slug": "novlai-ai-novel-writer",
+      "votesCount": 0,
+      "commentsCount": 1,
+      "reviewsCount": 0,
+      "reviewsRating": 0,
+      "dailyRank": 411,
+      "featuredAt": null,
+      "createdAt": "2026-07-28T07:01:00Z",
+      "makers": [
+        {
+          "name": "Bemuu",
+          "username": "bemuu"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Android",
+          "slug": "android"
+        },
+        {
+          "name": "Productivity",
+          "slug": "productivity"
+        },
+        {
+          "name": "Writing",
+          "slug": "writing"
+        },
+        {
+          "name": "Artificial Intelligence",
+          "slug": "artificial-intelligence"
+        }
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/e477a55c-3f1b-4b05-ae06-7fef92425762.jpeg?auto=format&w=640"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/10aa1440-44af-43ad-8278-2c27604255a2.png?auto=format",
+          "videoUrl": null
+        }
+      ]
+    },
+    {
       "id": "1207669",
       "name": "Listove AI",
       "tagline": "Turn 1 product into 11 optimized marketplace listings in 10s",
@@ -4687,7 +7406,7 @@
       "commentsCount": 1,
       "reviewsCount": 0,
       "reviewsRating": 0,
-      "dailyRank": 216,
+      "dailyRank": 215,
       "featuredAt": null,
       "createdAt": "2026-07-28T07:01:00Z",
       "makers": [
@@ -5062,6 +7781,83 @@
       ]
     },
     {
+      "id": "1207782",
+      "name": "Qibla Compass & Prayer Streak",
+      "tagline": "Qibla direction, prayer times & full Quran, offline.",
+      "description": "Qibla Compass & Prayer Streak is a free, all-in-one companion for daily worship — no login, no clutter. It combines an offline Qibla compass, prayer times with adhan alerts, and streak tracking, plus a full Quran reader: Arabic + English/Urdu translations, two reading modes, multi-reciter audio, and automatic progress tracking. Also includes an Islamic calendar, 99 Names of Allah, and daily duas. Most apps split these across separate downloads or lock features behind a login. This one doesn't.",
+      "url": "https://www.producthunt.com/products/qibla-compass-prayer-streak?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "website": "https://www.producthunt.com/r/GZWRDNPHWCG7TT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "slug": "qibla-compass-prayer-streak",
+      "votesCount": 0,
+      "commentsCount": 1,
+      "reviewsCount": 0,
+      "reviewsRating": 0,
+      "dailyRank": 405,
+      "featuredAt": null,
+      "createdAt": "2026-07-28T07:01:00Z",
+      "makers": [
+        {
+          "name": "Haseeb Ahsan",
+          "username": "haseeb_ahsan3"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Android",
+          "slug": "android"
+        },
+        {
+          "name": "Productivity",
+          "slug": "productivity"
+        },
+        {
+          "name": "Spirituality",
+          "slug": "spirituality"
+        }
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/75c0f58d-fbb3-45db-b2ca-c5d8f332347e.webp?auto=format&w=640"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/280c062a-b2d3-44a1-8f0d-27f5c17bfd4a.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/ff1ba602-9299-4fe0-a69e-c42beac48b6f.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/80c9e6ba-8616-4e3e-8a9e-80b3ed983c58.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/2602d7a9-6837-4e4d-9d4e-a4fb5f2c5645.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/bf01ef19-0ee2-4166-96bd-5f4858c509cf.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/4c4ce857-e7f4-4741-a219-d207a069b155.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/3b36161d-d689-4ae4-8f15-3d01ff23b789.png?auto=format",
+          "videoUrl": null
+        }
+      ]
+    },
+    {
       "id": "1207789",
       "name": "qRaptor",
       "tagline": "Turn business intent into production AI apps",
@@ -5151,6 +7947,68 @@
           "type": "video",
           "url": "https://ph-files.imgix.net/909befb4-9d9b-4f2e-a4b7-40a8bff7ce4e.jpeg?auto=format",
           "videoUrl": "https://youtu.be/SOgdjD2ibZw?si=f-JHxsY9JAcTcG9F"
+        }
+      ]
+    },
+    {
+      "id": "1207795",
+      "name": "Vitae",
+      "tagline": "Binaural beats & Pomodoro to help you actually focus",
+      "description": "Vitae uses scientifically-backed binaural beats to enhance focus and concentration. Includes Pomodoro timer, ambient sounds, and offline functionality.",
+      "url": "https://www.producthunt.com/products/vitae?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "website": "https://www.producthunt.com/r/225PIYIMEKZQVF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "slug": "vitae-4",
+      "votesCount": 0,
+      "commentsCount": 1,
+      "reviewsCount": 0,
+      "reviewsRating": 0,
+      "dailyRank": 56,
+      "featuredAt": null,
+      "createdAt": "2026-07-28T07:01:00Z",
+      "makers": [
+        {
+          "name": "Antonin Weissgerber",
+          "username": "antowgb"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Health & Fitness",
+          "slug": "health-fitness"
+        },
+        {
+          "name": "Productivity",
+          "slug": "productivity"
+        },
+        {
+          "name": "Music",
+          "slug": "music"
+        }
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/5f2ede7a-7bed-47f7-bb5b-de42d5d68d05.png?auto=format&w=640"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/65085112-961a-4006-9109-c13bd4a7eef2.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/c3173569-f3f1-456e-af54-145b08611835.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/80307fcb-1111-4c8e-92be-cb0a39e2083c.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/90bc7dd0-b4ba-45be-8af4-3065f08f1f47.png?auto=format",
+          "videoUrl": null
         }
       ]
     },
@@ -5424,6 +8282,63 @@
       ]
     },
     {
+      "id": "1207913",
+      "name": "Daybook ",
+      "tagline": "Your space for thoughts, memories, and everyday moments.",
+      "description": "Daybook is a private journal for the little things that make up your life. Write about your day, random thoughts, or moments you don't want to forget. No sign-up, no pressure, and no streaks to keep. Everything stays stored on your device, so your entries stay private. You can add photos to your memories and look back whenever you like. Just a simple, quiet space to write honestly and remember life as it happens, one day at a time, in your own way :)",
+      "url": "https://www.producthunt.com/products/daybook-your-life-written-down?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "website": "https://www.producthunt.com/r/NLORINJ4BWY7F2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "slug": "daybook-3",
+      "votesCount": 0,
+      "commentsCount": 1,
+      "reviewsCount": 0,
+      "reviewsRating": 0,
+      "dailyRank": 215,
+      "featuredAt": null,
+      "createdAt": "2026-07-28T07:01:00Z",
+      "makers": [
+        {
+          "name": "Deepak Roy",
+          "username": "deepakroy"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Productivity",
+          "slug": "productivity"
+        },
+        {
+          "name": "Privacy",
+          "slug": "privacy"
+        },
+        {
+          "name": "Side Project",
+          "slug": "side-project"
+        }
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/aad769b2-7691-4617-b5a7-1dd76cec2572.svg?auto=format&w=640"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/74f0211f-ac4e-4963-a27a-421598a551e9.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/3498948a-e4dd-4a4f-826b-b4d5b46a2cfb.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/1bb36c43-7a69-4057-ac05-7cad6bcf64f9.png?auto=format",
+          "videoUrl": null
+        }
+      ]
+    },
+    {
       "id": "1207915",
       "name": "Clarity",
       "tagline": "Turn client calls into clear next steps—no meeting bot",
@@ -5468,6 +8383,122 @@
         {
           "type": "image",
           "url": "https://ph-files.imgix.net/4aa0b42b-e0e7-4c27-9de7-3c3b27ba5555.png?auto=format",
+          "videoUrl": null
+        }
+      ]
+    },
+    {
+      "id": "1207940",
+      "name": "The Foxiy",
+      "tagline": "Free PDF, AI & Image Tools — No Signup Required",
+      "description": "TheFoxiy is a free online platform built to make everyday digital tasks simple. It offers 200+ browser-based tools for PDF editing, AI-powered utilities, image editing, file conversion, text processing, and productivity—without requiring downloads or registration. Our goal is to provide fast, secure, and easy-to-use tools that anyone can access from any device. Every tool is designed to help users complete tasks quickly while keeping the experience clean, free, and accessible.",
+      "url": "https://www.producthunt.com/products/the-foxiy?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "website": "https://www.producthunt.com/r/JV2NSLB6KDIFWV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "slug": "the-foxiy",
+      "votesCount": 0,
+      "commentsCount": 1,
+      "reviewsCount": 0,
+      "reviewsRating": 0,
+      "dailyRank": 411,
+      "featuredAt": null,
+      "createdAt": "2026-07-28T07:01:00Z",
+      "makers": [
+        {
+          "name": "The Foxiy",
+          "username": "the_foxiy"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Productivity",
+          "slug": "productivity"
+        },
+        {
+          "name": "Developer Tools",
+          "slug": "developer-tools"
+        },
+        {
+          "name": "Artificial Intelligence",
+          "slug": "artificial-intelligence"
+        }
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/d379c36e-099e-4537-8ad1-843f417d4b1f.png?auto=format&w=640"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/f7937a10-1ddd-4b25-ba90-bf0a31e1c609.jpeg?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/36867829-1406-47bc-a4b9-2a4c8628bcc6.jpeg?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/7f424b6e-e711-4b57-96c1-e2e39d5196aa.jpeg?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/d9c623b9-98ad-476a-a71d-f7d1ef676afd.jpeg?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/9fdf85ab-800e-4d8b-aeb7-840a008f248c.jpeg?auto=format",
+          "videoUrl": null
+        }
+      ]
+    },
+    {
+      "id": "1207943",
+      "name": "LegalAiAuditor",
+      "tagline": "Free GDPR & CCPA Compliance Checker in 60 Seconds",
+      "description": "Free GDPR & CCPA Compliance Checker in 60 Seconds Scan your website for GDPR, CCPA, and EU AI Act compliance gaps. LegalAiAuditor is an AI-powered compliance checker and privacy policy audit tool for analyzing your site's legal documents via URL.",
+      "url": "https://www.producthunt.com/products/legalaiauditor?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "website": "https://www.producthunt.com/r/UMQN7FYNVADLQP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "slug": "legalaiauditor-2",
+      "votesCount": 0,
+      "commentsCount": 0,
+      "reviewsCount": 0,
+      "reviewsRating": 0,
+      "dailyRank": 380,
+      "featuredAt": null,
+      "createdAt": "2026-07-28T07:01:00Z",
+      "makers": [
+        {
+          "name": "Aksa Techs",
+          "username": "aksa_techs"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Legal",
+          "slug": "legal"
+        }
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/688aac37-4e0b-4978-b694-b6ed14ab63c4.jpeg?auto=format&w=640"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/333916f1-26e6-4847-9e61-7e9fe88c3cbe.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/2da305bf-aa6b-4aa9-b2a3-a934957a8efa.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/57322712-58e8-4612-82c5-60510c6cf592.png?auto=format",
           "videoUrl": null
         }
       ]
@@ -5520,6 +8551,57 @@
       ]
     },
     {
+      "id": "1207976",
+      "name": "TinyBridge",
+      "tagline": "Headless VM to run Linux in Mac - you can see the GUI also",
+      "description": "ou want a real Linux VM that: Boots in seconds, not minutes Has a desktop you can actually see Runs headless when you need it (same VM, no restart) Stays running even after you close the app Doesn't require a PhD to set up TinyBridge solves this. One command. Full Linux. On demand. Try - brew install tinybridge",
+      "url": "https://www.producthunt.com/products/tinybridge?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "website": "https://www.producthunt.com/r/W4CN22NLYIM35S?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "slug": "tinybridge-3",
+      "votesCount": 0,
+      "commentsCount": 2,
+      "reviewsCount": 0,
+      "reviewsRating": 0,
+      "dailyRank": 29,
+      "featuredAt": null,
+      "createdAt": "2026-07-28T07:01:00Z",
+      "makers": [
+        {
+          "name": "Georgi Mullassery",
+          "username": "georgi_mullassery"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Linux",
+          "slug": "linux"
+        },
+        {
+          "name": "Mac",
+          "slug": "mac"
+        },
+        {
+          "name": "Developer Tools",
+          "slug": "developer-tools"
+        },
+        {
+          "name": "GitHub",
+          "slug": "github"
+        }
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/ab35a116-9a6d-4028-956c-c0c37d36de94.jpeg?auto=format&w=640"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/87c0939a-05b8-463d-8ea4-3407802906ff.jpeg?auto=format",
+          "videoUrl": null
+        }
+      ]
+    },
+    {
       "id": "1207982",
       "name": "HIGHCLUB - Rent and share fashion",
       "tagline": "Rent and share high fashion in a trusted community!",
@@ -5531,7 +8613,7 @@
       "commentsCount": 1,
       "reviewsCount": 0,
       "reviewsRating": 0,
-      "dailyRank": 216,
+      "dailyRank": 215,
       "featuredAt": null,
       "createdAt": "2026-07-28T07:01:00Z",
       "makers": [
@@ -5603,6 +8685,176 @@
           "type": "image",
           "url": "https://ph-files.imgix.net/1ff86561-3a98-4113-99dd-f80063746e5c.png?auto=format",
           "videoUrl": null
+        }
+      ]
+    },
+    {
+      "id": "1208013",
+      "name": "FrenchGo",
+      "tagline": "Learn French for free — 80+ lessons, no ads, no paywall",
+      "description": "FrenchGo is a completely free Android app to learn French — no ads, no subscription, nothing to buy. • 80+ interactive lessons from A1 to B2 • 400+ quizzes and exercises • Vocabulary flashcards with audio • Authentic dialogues • Daily challenges and level test • TCF/TEF Canada preparation • Works offline Most language apps lock content behind paywalls. FrenchGo gives you everything for free. Currently in closed beta — Android only.",
+      "url": "https://www.producthunt.com/products/frenchgo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "website": "https://www.producthunt.com/r/NX7GDVZF5K44FN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "slug": "frenchgo",
+      "votesCount": 0,
+      "commentsCount": 1,
+      "reviewsCount": 0,
+      "reviewsRating": 0,
+      "dailyRank": 411,
+      "featuredAt": null,
+      "createdAt": "2026-07-28T07:01:00Z",
+      "makers": [
+        {
+          "name": "Leo",
+          "username": "frenchgoleo"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Education",
+          "slug": "education"
+        },
+        {
+          "name": "Languages",
+          "slug": "languages"
+        },
+        {
+          "name": "GitHub",
+          "slug": "github"
+        }
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/c2604a9f-a760-40c3-a0d1-c86b0a46f600.png?auto=format&w=640"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/aa3e2424-8d97-4b60-afcd-a6999e2c3be5.png?auto=format",
+          "videoUrl": null
+        }
+      ]
+    },
+    {
+      "id": "1208014",
+      "name": "\tAI Visibility Checker",
+      "tagline": "Check how your brand appears across 9 AI models",
+      "description": "Free AI brand visibility checker. Learn how to check and track brand mentions in ChatGPT, Perplexity, Gemini, and Claude across 9 AI models. Get a score, sentiment, and report in seconds.",
+      "url": "https://www.producthunt.com/products/ai-visibility-checker-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "website": "https://www.producthunt.com/r/E7IQ5S3UAN2UEH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "slug": "ai-visibility-checker-4",
+      "votesCount": 0,
+      "commentsCount": 1,
+      "reviewsCount": 0,
+      "reviewsRating": 0,
+      "dailyRank": 411,
+      "featuredAt": null,
+      "createdAt": "2026-07-28T07:01:00Z",
+      "makers": [
+        {
+          "name": "Jin Ci",
+          "username": "youliqn"
+        }
+      ],
+      "topics": [
+        {
+          "name": "SEO",
+          "slug": "seo"
+        },
+        {
+          "name": "Artificial Intelligence",
+          "slug": "artificial-intelligence"
+        },
+        {
+          "name": "Growth Hacks ",
+          "slug": "growth-hacks"
+        }
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/e273c5cb-0c91-46e3-9197-45d89a972296.svg?auto=format&w=640"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/b33e20e9-b9a7-4e20-bd2d-b38b40f28713.svg?auto=format",
+          "videoUrl": null
+        }
+      ]
+    },
+    {
+      "id": "1208018",
+      "name": "2048 Rare Birds",
+      "tagline": "A cozy 2048 where the tiles are rare birds.",
+      "description": "It's 2048, but the tiles are birds... and they sing. Slide two of the same bird together and they merge into the next, rarer one up the ladder… and you hear it: a real recording of that bird's call. A little Spotted Pardalote becomes a Ruby-crowned Kinglet becomes a Splendid Fairywren… all the way up to a Hoopoe (that's your 2048), and if you're good, a Kea and a Superb Lyrebird.",
+      "url": "https://www.producthunt.com/products/2048-rare-birds?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "website": "https://www.producthunt.com/r/3TCRMPEFTHHS2A?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "slug": "2048-rare-birds",
+      "votesCount": 0,
+      "commentsCount": 1,
+      "reviewsCount": 0,
+      "reviewsRating": 0,
+      "dailyRank": 33,
+      "featuredAt": null,
+      "createdAt": "2026-07-28T07:01:00Z",
+      "makers": [
+        {
+          "name": "[REDACTED]",
+          "username": "[REDACTED]"
+        },
+        {
+          "name": "Leandra V. Silva",
+          "username": "leandra_val"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Music",
+          "slug": "music"
+        },
+        {
+          "name": "Education",
+          "slug": "education"
+        },
+        {
+          "name": "Games",
+          "slug": "games"
+        }
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/b34191c4-3f00-48c8-8394-e191e2d04e02.png?auto=format&w=640"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/afe28aaa-8aab-44c2-9014-6726b8f63ee4.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/8066e588-ed27-41cb-8322-8f5d9f334ed9.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/46c8a664-7606-48b1-9d0d-feeda0bec7a7.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/15b49215-97b4-4545-90bc-0bdae569b88b.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/325241b2-9bf5-45b9-8908-6fdc35d6d985.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "video",
+          "url": "https://ph-files.imgix.net/6414ba5f-c450-4112-8e11-168b28430a89.jpeg?auto=format",
+          "videoUrl": "https://www.youtube.com/shorts/SnOkxAKLkm8"
         }
       ]
     },
@@ -5695,6 +8947,73 @@
         {
           "type": "image",
           "url": "https://ph-files.imgix.net/7b503ec7-4328-4a35-99d9-4dfc650a1d7b.png?auto=format",
+          "videoUrl": null
+        }
+      ]
+    },
+    {
+      "id": "1208031",
+      "name": "Healthcheck IT",
+      "tagline": "Website uptime visibility for your whole team",
+      "description": "Obvious website monitoring for the whole team, not just engineers. Real-time status updates so everyone knows the moment something breaks. Start monitoring in 30 seconds. We focus on simplicity and clarity, not deep diagnostics. Our goal is to be the first place everyone from a product manager, to an engineer, to the marketing intern can look to see the current status.",
+      "url": "https://www.producthunt.com/products/healthcheck-it?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "website": "https://www.producthunt.com/r/34TEMBBSRFSHRQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "slug": "healthcheck-it",
+      "votesCount": 0,
+      "commentsCount": 1,
+      "reviewsCount": 0,
+      "reviewsRating": 0,
+      "dailyRank": 56,
+      "featuredAt": null,
+      "createdAt": "2026-07-28T07:01:00Z",
+      "makers": [
+        {
+          "name": "Brent Moran",
+          "username": "mathemancer"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Web App",
+          "slug": "web-app"
+        },
+        {
+          "name": "Productivity",
+          "slug": "productivity"
+        },
+        {
+          "name": "SaaS",
+          "slug": "saas"
+        }
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/4ead0023-6a6a-470f-909f-d8f4043cc674.png?auto=format&w=640"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/d8b3ff78-797b-4110-b9fd-c056184a6b83.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/d73f7ec8-9238-48b9-ade4-ac889eab5721.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/a8b9ccb2-1198-45fb-a84b-0a5732c40287.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/d8b17644-d7c2-4a94-9a77-7ae10fda8d88.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/23d111fe-b296-4be0-99ae-320f4465e3fc.png?auto=format",
           "videoUrl": null
         }
       ]
@@ -5882,6 +9201,55 @@
       ]
     },
     {
+      "id": "1208102",
+      "name": "HappyEverHour",
+      "tagline": "Find happy hour deals near you!",
+      "description": "Find happy hour near you in Vancouver, Burnaby, Richmond, Surrey and across Metro Vancouver. 600+ bars & restaurants with drink and food specials — see what's live right now on the map.",
+      "url": "https://www.producthunt.com/products/happyeverhour?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "website": "https://www.producthunt.com/r/4SZFCW6MVTL3BJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "slug": "happyeverhour",
+      "votesCount": 0,
+      "commentsCount": 0,
+      "reviewsCount": 0,
+      "reviewsRating": 0,
+      "dailyRank": 380,
+      "featuredAt": null,
+      "createdAt": "2026-07-28T07:01:00Z",
+      "makers": [
+        {
+          "name": "Dameli Aimbetova",
+          "username": "dameli_aimbetova1"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Menu Bar Apps",
+          "slug": "menu-bar-apps"
+        }
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/9d59caeb-b0d9-4484-a159-29d3c124b770.vnd.microsoft.icon?auto=format&w=640"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/c0020076-eb6f-4314-8998-92a14bad1c24.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/4922c4df-8799-4175-b605-e10fd8714f0d.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/66087cc8-6258-4b6c-9943-2de55fe4598a.png?auto=format",
+          "videoUrl": null
+        }
+      ]
+    },
+    {
       "id": "1208105",
       "name": "ShortsFarmer | Viral Video Generator",
       "tagline": "Create viral faceless videos.",
@@ -5893,7 +9261,7 @@
       "commentsCount": 1,
       "reviewsCount": 0,
       "reviewsRating": 0,
-      "dailyRank": 216,
+      "dailyRank": 215,
       "featuredAt": null,
       "createdAt": "2026-07-28T07:01:00Z",
       "makers": [
@@ -6056,6 +9424,65 @@
       ]
     },
     {
+      "id": "1208132",
+      "name": " FitForge",
+      "tagline": "Stop restarting. Build the streak. ",
+      "description": "Solo-built fitness tracker. Workouts adapt to your training age, not the calendar. Macro targets change by training day (push = high carb, rest = low carb). Real streaks — no freeze days. Free forever. No premium tier hiding the good stuff.",
+      "url": "https://www.producthunt.com/products/fitforge-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "website": "https://www.producthunt.com/r/JUQYZEOKXPFWIQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "slug": "fitforge-3",
+      "votesCount": 0,
+      "commentsCount": 1,
+      "reviewsCount": 0,
+      "reviewsRating": 0,
+      "dailyRank": 56,
+      "featuredAt": null,
+      "createdAt": "2026-07-28T07:01:00Z",
+      "makers": [
+        {
+          "name": "Robbie Hoggan",
+          "username": "hoggan83"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Health & Fitness",
+          "slug": "health-fitness"
+        }
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/d54fdf67-f8a8-49ff-81ce-ba7029a0a40d.png?auto=format&w=640"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/db7a2065-ab28-43b0-a8ef-743bb43457c4.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/8f2dce00-6bec-4a56-b16c-c1e6cd790dbd.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/a824b3e7-f8c3-4366-a358-e5bff83e32bf.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/30342305-4cb7-4bd2-bfcb-a08df94b41db.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/d7698995-fed4-4b98-bf44-9c4d2c6d2a8b.png?auto=format",
+          "videoUrl": null
+        }
+      ]
+    },
+    {
       "id": "1208145",
       "name": "Infimium",
       "tagline": "Your codebase's universal brain. ",
@@ -6067,7 +9494,7 @@
       "commentsCount": 1,
       "reviewsCount": 0,
       "reviewsRating": 0,
-      "dailyRank": 53,
+      "dailyRank": 40,
       "featuredAt": null,
       "createdAt": "2026-07-28T07:01:00Z",
       "makers": [
@@ -6133,7 +9560,7 @@
       "commentsCount": 1,
       "reviewsCount": 0,
       "reviewsRating": 0,
-      "dailyRank": 407,
+      "dailyRank": 411,
       "featuredAt": null,
       "createdAt": "2026-07-28T07:01:00Z",
       "makers": [
@@ -6165,6 +9592,163 @@
         {
           "type": "image",
           "url": "https://ph-files.imgix.net/194913a8-b868-4d07-8bac-d068a35a9e1e.jpeg?auto=format",
+          "videoUrl": null
+        }
+      ]
+    },
+    {
+      "id": "1208151",
+      "name": "SIE Study Blocker",
+      "tagline": "Block distracting sites. Turn doomscrolling into study time.",
+      "description": "Blocks X/Twitter and any sites you add, replacing them with SIE exam practice questions. Turn doomscrolling into study time.",
+      "url": "https://www.producthunt.com/products/sie-study-blocker?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "website": "https://www.producthunt.com/r/JVJDCPMBI6UNMO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "slug": "sie-study-blocker",
+      "votesCount": 0,
+      "commentsCount": 1,
+      "reviewsCount": 0,
+      "reviewsRating": 0,
+      "dailyRank": 56,
+      "featuredAt": null,
+      "createdAt": "2026-07-28T07:01:00Z",
+      "makers": [
+        {
+          "name": "Joseph Schiarizzi",
+          "username": "cupojoseph"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Chrome Extensions",
+          "slug": "chrome-extensions"
+        },
+        {
+          "name": "Social Media",
+          "slug": "social-media"
+        },
+        {
+          "name": "Education",
+          "slug": "education"
+        },
+        {
+          "name": "GitHub",
+          "slug": "github"
+        },
+        {
+          "name": "Finance",
+          "slug": "finance"
+        }
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/c40920f2-6062-4420-bf40-4345c9e0f37c.png?auto=format&w=640"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/7e4a36fa-bb57-4c41-b2c4-cc025bc8e3fe.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/6681e105-dc53-4789-ad31-0fb6c2bd7460.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/42833282-398f-4df4-adbb-523d140ef20f.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/9dde8fb3-206a-40f7-a6d0-ecdf8353231a.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/1b7d7665-888f-4656-9a05-f4d53b7a25b7.png?auto=format",
+          "videoUrl": null
+        }
+      ]
+    },
+    {
+      "id": "1208157",
+      "name": "ChatVault",
+      "tagline": "All your AI chats, searchable in one private side panel",
+      "description": "Search your ChatGPT history, organize AI chats into folders, and manage a prompt library across ChatGPT, Claude, Gemini, Perplexity, Grok, and DeepSeek — in one Chrome side panel. Everything stays on your device.",
+      "url": "https://www.producthunt.com/products/chatvault?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "website": "https://www.producthunt.com/r/PLNYN7WBR4G6QV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "slug": "chatvault",
+      "votesCount": 0,
+      "commentsCount": 1,
+      "reviewsCount": 0,
+      "reviewsRating": 0,
+      "dailyRank": 411,
+      "featuredAt": null,
+      "createdAt": "2026-07-28T07:01:00Z",
+      "makers": [
+        {
+          "name": "chatvaultapp",
+          "username": "chatvaultapp"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Chrome Extensions",
+          "slug": "chrome-extensions"
+        },
+        {
+          "name": "Productivity",
+          "slug": "productivity"
+        },
+        {
+          "name": "Artificial Intelligence",
+          "slug": "artificial-intelligence"
+        }
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/9cfc71d8-8022-4f5f-85e4-51d8b0f100bd.svg?auto=format&w=640"
+      },
+      "media": [
+        {
+          "type": "video",
+          "url": "https://ph-files.imgix.net/588e46fd-bcee-416e-a571-89f7ec1ac196.gif?auto=format",
+          "videoUrl": "https://www.loom.com/share/315e00e0e40f4ea1b8e36184e2c33d5e"
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/81f34a13-e9ff-4d53-a185-10bbe5b0fbef.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/3ae1cc24-aae1-4112-826f-34fdf7b88616.jpeg?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/32826aba-22d3-4955-b1c8-1c516360badd.jpeg?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/da425ca3-eeed-4a5a-b8cc-7c0f5d0f7bd1.jpeg?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/fe8a3922-5b58-4395-9f3a-d8e728f0e9d8.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/6d48aad1-89bf-4e35-84e4-1fac14b725c8.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/4be21fce-e6c1-458c-89eb-ba1344216974.png?auto=format",
           "videoUrl": null
         }
       ]
@@ -6234,7 +9818,7 @@
       "commentsCount": 1,
       "reviewsCount": 0,
       "reviewsRating": 0,
-      "dailyRank": 53,
+      "dailyRank": 56,
       "featuredAt": null,
       "createdAt": "2026-07-28T07:01:00Z",
       "makers": [
@@ -6431,7 +10015,7 @@
       "commentsCount": 0,
       "reviewsCount": 0,
       "reviewsRating": 0,
-      "dailyRank": 379,
+      "dailyRank": 380,
       "featuredAt": null,
       "createdAt": "2026-07-28T07:01:00Z",
       "makers": [
@@ -6493,6 +10077,273 @@
         {
           "type": "image",
           "url": "https://ph-files.imgix.net/c4dc1dda-f83b-471f-a8e0-9ef4643a21c0.png?auto=format",
+          "videoUrl": null
+        }
+      ]
+    },
+    {
+      "id": "1208270",
+      "name": "FutureRoast",
+      "tagline": "Predict your future through the lens of AI",
+      "description": "Get roasted byFutureRoast is a playful AI web app that “roasts” your future self based on your photo. Upload a selfie and get a humorous, personalized glimpse of what your future might look like — from career vibes to cosmic chaos. Built for fun, fast loading, and instant laughs. the future. Upload a selfie and discover your destiny.",
+      "url": "https://www.producthunt.com/products/futureroast?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "website": "https://www.producthunt.com/r/IL4MXPUCBICDRX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "slug": "futureroast",
+      "votesCount": 0,
+      "commentsCount": 1,
+      "reviewsCount": 0,
+      "reviewsRating": 0,
+      "dailyRank": 215,
+      "featuredAt": null,
+      "createdAt": "2026-07-28T07:01:00Z",
+      "makers": [
+        {
+          "name": "Kourouklidis",
+          "username": "kourouklidis"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Funny",
+          "slug": "funny"
+        },
+        {
+          "name": "Funny Games",
+          "slug": "funny-games"
+        },
+        {
+          "name": "Artificial Intelligence",
+          "slug": "artificial-intelligence"
+        }
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/2be85562-3a59-49fc-8395-e52d51347a6a.png?auto=format&w=640"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/2d2a8194-3bb7-4594-a6c1-460196f60ff8.png?auto=format",
+          "videoUrl": null
+        }
+      ]
+    },
+    {
+      "id": "1208279",
+      "name": "smolanalytics",
+      "tagline": "Analytics your coding agent can actually read",
+      "description": "Open-source analytics that answers in plain English and proves it. Ask \"what should I fix?\" and get a computed number, not a guess. 22 reports on one page, 79 tools your coding agent can query over MCP, plus agent observability. A CI test proves the dashboard, the API and your editor return the same number. One Go binary, MIT. Self-host free, or hosted from $49/mo.",
+      "url": "https://www.producthunt.com/products/smolanalytics?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "website": "https://www.producthunt.com/r/DOILUSLXHIMPRT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "slug": "smolanalytics",
+      "votesCount": 0,
+      "commentsCount": 1,
+      "reviewsCount": 0,
+      "reviewsRating": 0,
+      "dailyRank": 56,
+      "featuredAt": null,
+      "createdAt": "2026-07-28T07:01:00Z",
+      "makers": [
+        {
+          "name": "Arjun Varma",
+          "username": "arjun_varma2"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Analytics",
+          "slug": "analytics"
+        },
+        {
+          "name": "Developer Tools",
+          "slug": "developer-tools"
+        },
+        {
+          "name": "GitHub",
+          "slug": "github"
+        },
+        {
+          "name": "Data & Analytics",
+          "slug": "data-analytics"
+        }
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/5b3d8db3-b599-4bb2-9856-d7b7d77472e4.png?auto=format&w=640"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/a193f5d9-80ca-406f-b6ca-c90d1d0669cd.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/b7dd2f5b-d1c8-4f27-b660-9dbf1d8ad56b.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/96aff90f-6df0-493e-a474-ec9751f5fc08.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/edfb2b7f-d8de-4f28-bd19-37b3262dc937.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/3b00279a-9db1-45b6-a42b-1269cdf40b74.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "video",
+          "url": "https://ph-files.imgix.net/4093795f-f9ee-46a7-b1a9-282f501c1860.jpeg?auto=format",
+          "videoUrl": "https://youtu.be/8VsXxlTO7pE"
+        }
+      ]
+    },
+    {
+      "id": "1208286",
+      "name": "Lorevia",
+      "tagline": "The campaign wiki that writes itself from your session notes",
+      "description": "Paste your table's messy session notes and Lorevia drafts the wiki: NPCs, places, quests, factions, and the story so far, cross-linked and searchable. It only works from what you wrote, no invented lore, and nothing becomes canon until you approve it. Old campaigns import retroactively: paste a year of notes, get the wiki. Audio works too, with recordings deleted the moment transcription finishes. Built by a player 36 sessions into Curse of Strahd. Real free tier and a no-signup demo.",
+      "url": "https://www.producthunt.com/products/lorevia?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "website": "https://www.producthunt.com/r/NLJW7EI75OB6XD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "slug": "lorevia",
+      "votesCount": 0,
+      "commentsCount": 1,
+      "reviewsCount": 0,
+      "reviewsRating": 0,
+      "dailyRank": 56,
+      "featuredAt": null,
+      "createdAt": "2026-07-28T07:01:00Z",
+      "makers": [
+        {
+          "name": "Roshni",
+          "username": "aed0nis"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Tabletop Games",
+          "slug": "tabletop-games"
+        },
+        {
+          "name": "Productivity",
+          "slug": "productivity"
+        },
+        {
+          "name": "Notes",
+          "slug": "notes"
+        }
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/5c8ede06-e195-4c48-9520-512a3702b63a.png?auto=format&w=640"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/377290de-d282-4617-b71d-8f9fde2763fe.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/c1115b16-8438-40e7-8ebd-72fde7265391.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/317aad63-c4dc-4bec-93f5-18fc45a4d9a5.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/d9233356-f8f6-435f-a09f-8b4ebc74db3a.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/3d65ffa1-2121-47d9-9030-7131d4627f4c.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "video",
+          "url": "https://ph-files.imgix.net/4835e595-5af1-476e-a7cd-8063b7735672.gif?auto=format",
+          "videoUrl": "https://www.loom.com/share/58a568a807d94f5e9445d2d36d297bdb"
+        }
+      ]
+    },
+    {
+      "id": "1208292",
+      "name": "Capsy",
+      "tagline": "caps lock keeps your mac awake. as simple as that.",
+      "description": "Close the lid and the work keeps running. A small macOS menu bar app for people running agents.",
+      "url": "https://www.producthunt.com/products/capsy?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "website": "https://www.producthunt.com/r/TIC3SRQTP3OSER?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "slug": "capsy",
+      "votesCount": 0,
+      "commentsCount": 1,
+      "reviewsCount": 0,
+      "reviewsRating": 0,
+      "dailyRank": 56,
+      "featuredAt": null,
+      "createdAt": "2026-07-28T07:01:00Z",
+      "makers": [
+        {
+          "name": "Matti Schulz",
+          "username": "nurwaldbeere"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Productivity",
+          "slug": "productivity"
+        },
+        {
+          "name": "User Experience",
+          "slug": "user-experience"
+        },
+        {
+          "name": "Menu Bar Apps",
+          "slug": "menu-bar-apps"
+        }
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/223384a7-fc91-4c9e-a614-a152dc824669.png?auto=format&w=640"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/30f6486b-c879-4b46-bf83-88655265a6b0.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/2a383faa-3569-4032-9607-b8abe45ba81d.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/9d349163-6a1f-4bb3-a97a-6c69be2f2a2a.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/65aef84a-05ed-4414-b226-ec8a4cf3275f.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/21bbb78a-52c4-4151-9e47-4239efb91351.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/6b4307a4-6271-4f2a-8ae2-e0970c88eb31.png?auto=format",
           "videoUrl": null
         }
       ]
@@ -6570,6 +10421,87 @@
       ]
     },
     {
+      "id": "1208299",
+      "name": "Paw Clicker",
+      "tagline": "Dog training clicker for phone, Apple Watch + Wear OS",
+      "description": "Paw Clicker - The hands-free dog training clicker on your smartwatch. Train smarter, bond fPaw Clicker turns your phone, Apple Watch or Wear OS watch into a complete dog training kit: precise click timing, session tracking and 34 step-by-step guides. No account, no data collection, no subscription. Start free; unlock everything forever for $9.99.aster.",
+      "url": "https://www.producthunt.com/products/paw-clicker?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "website": "https://www.producthunt.com/r/PRDRMA2QB6NE2J?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "slug": "paw-clicker",
+      "votesCount": 0,
+      "commentsCount": 1,
+      "reviewsCount": 0,
+      "reviewsRating": 0,
+      "dailyRank": 56,
+      "featuredAt": null,
+      "createdAt": "2026-07-28T07:01:00Z",
+      "makers": [
+        {
+          "name": "Metehan Arıman",
+          "username": "metehan_ariman"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Android",
+          "slug": "android"
+        },
+        {
+          "name": "Dogs",
+          "slug": "dogs"
+        },
+        {
+          "name": "Pets",
+          "slug": "pets"
+        },
+        {
+          "name": "Wearables",
+          "slug": "wearables"
+        }
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/e399607e-88ad-47a1-a6a5-3719c5e2127b.svg?auto=format&w=640"
+      },
+      "media": [
+        {
+          "type": "video",
+          "url": "https://ph-files.imgix.net/df3d660f-a047-4aaf-96c3-8929e84a13ee.jpeg?auto=format",
+          "videoUrl": "https://www.youtube.com/watch?v=fbA-5jEjH-s"
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/01cceef3-9e4b-4385-8cdc-1999c1c68d78.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/2478b08e-ba0d-44fc-8629-6c00fa2ee2a6.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/5f47e655-f79d-4c08-ab47-bbd633732a9a.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/0dfba851-87a7-4bf6-ba03-3770060517ab.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/f12caa6f-2744-499b-945a-0578cf27ba5b.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/00f55a12-6522-44c5-887f-fd4f7592b84e.png?auto=format",
+          "videoUrl": null
+        }
+      ]
+    },
+    {
       "id": "1208317",
       "name": "Müşterek",
       "tagline": "Commission-free donations, straight to the nonprofit",
@@ -6622,6 +10554,150 @@
         {
           "type": "image",
           "url": "https://ph-files.imgix.net/df35a3cd-0fbc-41e8-a95a-dccb909201e4.png?auto=format",
+          "videoUrl": null
+        }
+      ]
+    },
+    {
+      "id": "1208319",
+      "name": "X Money",
+      "tagline": "Send, spend, and save money inside X",
+      "description": "X Money brings payments directly into the X ecosystem. Send and receive money instantly, manage your balance, use a Visa debit card, and spend without leaving the platform where conversations, creators, and communities happen. Built as part of X's vision for an everything app, X Money connects social interaction and financial activity in one place.",
+      "url": "https://www.producthunt.com/products/x-money?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "website": "https://www.producthunt.com/r/LOPYBDINEAYY6S?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "slug": "x-money",
+      "votesCount": 0,
+      "commentsCount": 1,
+      "reviewsCount": 0,
+      "reviewsRating": 0,
+      "dailyRank": 38,
+      "featuredAt": null,
+      "createdAt": "2026-07-28T07:01:00Z",
+      "makers": [],
+      "topics": [
+        {
+          "name": "Fintech",
+          "slug": "fintech"
+        },
+        {
+          "name": "Social Network",
+          "slug": "social-network"
+        },
+        {
+          "name": "Payments",
+          "slug": "payments"
+        }
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/123b5cae-c405-49bd-8435-18021286f6d1.jpeg?auto=format&w=640"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/169de39d-00fc-4e65-bdee-ce6825713758.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/8fc76073-dac2-4553-8909-403b78f23790.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/5395e7f8-40d4-4449-bc1b-9cce87370210.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/e3cdfa34-a568-4b68-9dff-1826025e8ba9.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/214b227a-4dc3-4aaf-8d28-2ac2e2eee2bf.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/07897862-0bfd-4206-90ea-4eb562bdb399.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/22692136-f849-46f6-9de6-c451dea81bcd.png?auto=format",
+          "videoUrl": null
+        }
+      ]
+    },
+    {
+      "id": "1208339",
+      "name": "KidsMask",
+      "tagline": "Keep your child visible. Mosaic the rest.",
+      "description": "Sharing videos of your child's birthday, sports game, or school event? Other kids appear in the frame. KidsMask solves this in one tap. Auto-detects faces, keeps YOUR child visible, mosaics the rest. Manual editing catches auto misses. 100% on-device — no cloud, no data collection. One-time $4.99 for Pro.",
+      "url": "https://www.producthunt.com/products/kidsmask?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "website": "https://www.producthunt.com/r/6UKO6S7POIBA7P?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "slug": "kidsmask",
+      "votesCount": 0,
+      "commentsCount": 2,
+      "reviewsCount": 0,
+      "reviewsRating": 0,
+      "dailyRank": 205,
+      "featuredAt": null,
+      "createdAt": "2026-07-28T07:01:00Z",
+      "makers": [
+        {
+          "name": "kou-works",
+          "username": "kouworks"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Parenting",
+          "slug": "parenting"
+        },
+        {
+          "name": "Privacy",
+          "slug": "privacy"
+        },
+        {
+          "name": "Photo & Video",
+          "slug": "photo-video"
+        }
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/4a098603-6aff-495e-92f5-92a1c0f92d49.png?auto=format&w=640"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/5c59b0ce-93d0-496a-9f94-806a58483a07.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/8519705f-1662-44aa-9704-8bcf8724e34e.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/caebe693-3d12-4fe8-8e2c-4ef8874f5241.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/f37ad10f-e378-4c61-918f-286b211ff3e4.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/c6819ae5-97a7-4b35-9452-2cd6440d7275.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/a90870f4-4d4a-4860-be90-b3864749284c.png?auto=format",
           "videoUrl": null
         }
       ]
@@ -6688,6 +10764,448 @@
         {
           "type": "image",
           "url": "https://ph-files.imgix.net/95ea55d7-1050-471a-835a-1f2460a7f431.png?auto=format",
+          "videoUrl": null
+        }
+      ]
+    },
+    {
+      "id": "1208393",
+      "name": "SkillFlowPro Auto Clicker/Macro Recorder",
+      "tagline": "Best for repetitive task, automations, game macros,ANYTHING!",
+      "description": "Most auto clickers just repeat one fixed click on a timer. SkillFlow Pro records a whole sequence — clicks, holds, drags, keystrokes, even pauses — in the order you did them, then replays it exactly. A live timeline shows every action as you record. Playback loops, changes speed, and adds human-like variation so it doesn't move like a robot. Hotkeys live on the buttons and never leak into other windows. Built for repetitive tasks, UI testing, and workflows you click through again and again.",
+      "url": "https://www.producthunt.com/products/skillflowpro-auto-clicker-macro-recorder?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "website": "https://www.producthunt.com/r/YZYSUMHX3HA75M?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "slug": "skillflowpro-auto-clicker-macro-recorder",
+      "votesCount": 0,
+      "commentsCount": 1,
+      "reviewsCount": 0,
+      "reviewsRating": 0,
+      "dailyRank": 411,
+      "featuredAt": null,
+      "createdAt": "2026-07-28T07:01:00Z",
+      "makers": [
+        {
+          "name": "Skill Flow",
+          "username": "skill_flow"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Productivity",
+          "slug": "productivity"
+        },
+        {
+          "name": "Games",
+          "slug": "games"
+        }
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/1615a1fe-19df-4afc-879c-41e8d725f0f8.jpeg?auto=format&w=640"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/4cfd27ef-9a2f-443f-a051-cefda3667b59.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/13468d54-f794-4c9d-81ec-22d7da5eb14c.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/bbbadb7a-c9c9-4cb9-8c05-3966bab11c81.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/8ec57251-152a-492f-80e9-56fbce776d30.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "video",
+          "url": "https://ph-files.imgix.net/c5835c88-a0c7-456f-afeb-26fc020b9523.jpeg?auto=format",
+          "videoUrl": "https://youtu.be/Rk7NpegjeLk"
+        }
+      ]
+    },
+    {
+      "id": "1208397",
+      "name": "Rivora",
+      "tagline": "The open source engineering memory layer",
+      "description": "Engineering tools have become increasingly intelligent, but they still don't remember. Rivora is an open source, local first engineering memory layer that connects your engineering activity into durable, searchable memory. Investigate incidents, verify conclusions, learn from previous work, and continuously improve without sending your engineering knowledge to someone else's cloud.",
+      "url": "https://www.producthunt.com/products/rivora-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "website": "https://www.producthunt.com/r/FFCRMCS6LONNLA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "slug": "rivora-4",
+      "votesCount": 0,
+      "commentsCount": 1,
+      "reviewsCount": 0,
+      "reviewsRating": 0,
+      "dailyRank": 215,
+      "featuredAt": null,
+      "createdAt": "2026-07-28T07:01:00Z",
+      "makers": [
+        {
+          "name": "Sergio Rovira",
+          "username": "its_sergio"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Open Source",
+          "slug": "open-source"
+        },
+        {
+          "name": "Developer Tools",
+          "slug": "developer-tools"
+        },
+        {
+          "name": "GitHub",
+          "slug": "github"
+        }
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/29e7f9da-b37b-4140-8619-c279293ba133.png?auto=format&w=640"
+      },
+      "media": [
+        {
+          "type": "video",
+          "url": "https://ph-files.imgix.net/b2c20cf1-5794-4c68-9282-8435ee6ff146.jpeg?auto=format",
+          "videoUrl": "https://youtu.be/oZu9626tHeM"
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/3f9f5dba-4ac8-40b3-8558-1f075d34c489.png?auto=format",
+          "videoUrl": null
+        }
+      ]
+    },
+    {
+      "id": "1208427",
+      "name": "Image Tool",
+      "tagline": "Convert & resize whole folders of images in one command",
+      "description": "Bulk image converter & resizer — convert and resize entire folders of images in one command. - Pexi-Studio-Dev/image-tool",
+      "url": "https://www.producthunt.com/products/image-tool?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "website": "https://www.producthunt.com/r/XL6LQZMD27TVAQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "slug": "image-tool",
+      "votesCount": 0,
+      "commentsCount": 1,
+      "reviewsCount": 0,
+      "reviewsRating": 0,
+      "dailyRank": 411,
+      "featuredAt": null,
+      "createdAt": "2026-07-28T07:01:00Z",
+      "makers": [
+        {
+          "name": "Pexi Studio",
+          "username": "pexi_studio_dev"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Open Source",
+          "slug": "open-source"
+        },
+        {
+          "name": "Developer Tools",
+          "slug": "developer-tools"
+        },
+        {
+          "name": "GitHub",
+          "slug": "github"
+        }
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/17c86fe9-edaa-45c0-8326-d5662894324b.png?auto=format&w=640"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/e8e6e2fd-aa2c-4c90-98d8-09f2b40778ef.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/fd228fe1-7366-4363-a989-8b73cfdc1179.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/94d7a08d-c728-40bb-b387-a900e082962a.png?auto=format",
+          "videoUrl": null
+        }
+      ]
+    },
+    {
+      "id": "1208446",
+      "name": "Hammer",
+      "tagline": "A simple tool for building stories and worlds they live in.",
+      "description": "A free, open source story editor for novelists. Scenes you can reorder, an encyclopedia that shows you which scenes your characters are in, a timeline, notes, and stats to help you reach your writing goals. All as plain text files on your own device. Send scenes to your editor for revisions, or share your story with beta readers. Works fully offline on every device you own: Windows, macOS, Linux, Android and iOS. Use a sync server to keep your work up to date across all devices.",
+      "url": "https://www.producthunt.com/products/hammer-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "website": "https://www.producthunt.com/r/GYWOI4BZAGSVVY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "slug": "hammer-4",
+      "votesCount": 0,
+      "commentsCount": 1,
+      "reviewsCount": 0,
+      "reviewsRating": 0,
+      "dailyRank": 56,
+      "featuredAt": null,
+      "createdAt": "2026-07-28T07:01:00Z",
+      "makers": [
+        {
+          "name": "[REDACTED]",
+          "username": "[REDACTED]"
+        },
+        {
+          "name": "F-Droid",
+          "username": "fdroid"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Android",
+          "slug": "android"
+        },
+        {
+          "name": "Productivity",
+          "slug": "productivity"
+        },
+        {
+          "name": "Open Source",
+          "slug": "open-source"
+        },
+        {
+          "name": "Writing",
+          "slug": "writing"
+        },
+        {
+          "name": "GitHub",
+          "slug": "github"
+        }
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/fd1487fe-5060-4a82-85e3-c3cfc02a3cf2.x-icon?auto=format&w=640"
+      },
+      "media": [
+        {
+          "type": "video",
+          "url": "https://ph-files.imgix.net/e8ba413e-009d-46f6-81bb-5830f80fe7bc.jpeg?auto=format",
+          "videoUrl": "https://www.youtube.com/watch?v=03c9iEHdVHw"
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/3549a3bb-6cda-41a4-8ddf-51b6b5c3867b.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/84d8c720-575e-4f5f-845f-0ffee134fd78.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/beedc3d9-002a-47bd-840e-e65621cabd05.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/3a36d83e-fe0b-4c7d-a139-cb06edd27dd4.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/249268ac-449a-49a0-907b-6ab09b835fe5.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/2c383a2d-d56e-472f-ac3f-43e7694ec1b4.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/1c605771-e673-4aef-94c9-6c1cc0707068.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/fcabd027-1f77-4ce1-ab57-1c247f797999.png?auto=format",
+          "videoUrl": null
+        }
+      ]
+    },
+    {
+      "id": "1208453",
+      "name": "Ombaia",
+      "tagline": "AI marketing assistant built for B2B",
+      "description": "Ombaia is an AI marketing & sales suite built for B2B. Instead of generic output, it uses deep company context (your ICPs, case studies, brand voice) plus each prospect's profile to draft highly personalized LinkedIn messages, emails, posts and pages. Zero platform risk: the AI drafts, you send manually — no LinkedIn automation, no ToS trouble. Modular, so you activate only what you need.",
+      "url": "https://www.producthunt.com/products/ombaia?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "website": "https://www.producthunt.com/r/2OQMYBHQKW4VMR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "slug": "ombaia",
+      "votesCount": 0,
+      "commentsCount": 1,
+      "reviewsCount": 0,
+      "reviewsRating": 0,
+      "dailyRank": 215,
+      "featuredAt": null,
+      "createdAt": "2026-07-28T07:01:00Z",
+      "makers": [
+        {
+          "name": "Mikel Markuleta",
+          "username": "mikel_markuleta"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Marketing",
+          "slug": "marketing"
+        },
+        {
+          "name": "SaaS",
+          "slug": "saas"
+        },
+        {
+          "name": "Artificial Intelligence",
+          "slug": "artificial-intelligence"
+        }
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/57d154ca-ee45-451a-bdee-2045bb2c5d4b.png?auto=format&w=640"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/78a28f07-66e2-4fa1-9844-088b89f6c8fe.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/58c7f728-1d30-49cc-9e53-c3949b036358.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/93ec2169-b9e1-4230-8c04-c3221f8ff080.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/2341041d-ecc2-4bb1-b7c7-e43f4e70b89f.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/2cba61b8-d786-4df1-a4ed-01489fdb14c0.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/d7ceb7aa-c6dd-4018-b255-c32a6606d140.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/4dc85bb1-2e20-4b64-8d7d-1135023215aa.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/7a0080e0-c431-419a-a29e-86645701a2cc.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/cd994c34-e5ff-497f-9ed9-4eff8452e107.png?auto=format",
+          "videoUrl": null
+        }
+      ]
+    },
+    {
+      "id": "1208499",
+      "name": "Vidaya",
+      "tagline": "Healthspan score from your wearables, labs, and DNA.",
+      "description": "Vidaya turns your wearable data, labs, and habits into a real Healthspan score and a personalized longevity plan. Built by founders tired of dashboards that show numbers but never tell you what to actually do next.",
+      "url": "https://www.producthunt.com/products/vidaya?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "website": "https://www.producthunt.com/r/775OBFSQCYQ53Z?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+100xsystems+%28ID%3A+294603%29",
+      "slug": "vidaya",
+      "votesCount": 0,
+      "commentsCount": 0,
+      "reviewsCount": 0,
+      "reviewsRating": 0,
+      "dailyRank": 380,
+      "featuredAt": null,
+      "createdAt": "2026-07-28T07:01:00Z",
+      "makers": [
+        {
+          "name": "[REDACTED]",
+          "username": "[REDACTED]"
+        },
+        {
+          "name": "[REDACTED]",
+          "username": "[REDACTED]"
+        },
+        {
+          "name": "Venkata Ramana Duddu",
+          "username": "vrduddu"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Android",
+          "slug": "android"
+        },
+        {
+          "name": "Health & Fitness",
+          "slug": "health-fitness"
+        },
+        {
+          "name": "Productivity",
+          "slug": "productivity"
+        },
+        {
+          "name": "Artificial Intelligence",
+          "slug": "artificial-intelligence"
+        }
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ph-files.imgix.net/4dc57366-c1ca-4dc3-8d8c-a4cf27b74470.png?auto=format&w=640"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/7a02465d-b84f-4909-9d0d-ce30219e1218.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/bb946c22-7ade-4c85-ac59-466c3091d29d.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/cb96d58d-95bd-4a7c-9948-aa8cbe06120b.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/6811d82e-0550-4e29-be30-64a97e33480f.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/82370709-d6ec-483d-990d-7fbffb896e43.png?auto=format",
+          "videoUrl": null
+        },
+        {
+          "type": "image",
+          "url": "https://ph-files.imgix.net/0c750fb2-2694-42b5-af10-7ce180cf9c9e.png?auto=format",
           "videoUrl": null
         }
       ]

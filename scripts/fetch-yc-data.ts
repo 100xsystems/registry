@@ -469,10 +469,22 @@ async function main(): Promise<void> {
   );
 
   // 7. Write featured.json (top recent companies for homepage display)
-  const recentBatches = ['S26', 'W26', 'S25', 'W25'];
+  // Dynamically pick the 4 most recent batches by parsing batch names (e.g., W26, S26)
+  // Compute from companies directly (not from uniqueBatches which is computed later)
+  const allBatchNames = Array.from(new Set(companies.map((c) => c.batch)))
+    .filter((b) => b !== 'Unspecified')
+    .sort((a, b) => {
+      const numA = parseInt(a.slice(1), 10);
+      const numB = parseInt(b.slice(1), 10);
+      if (numB !== numA) return numB - numA;
+      // Same year: F(0) < S(1) < W(2) — Fall most recent, then Summer, then Winter
+      const seasonOrder: Record<string, number> = { F: 0, S: 1, W: 2 };
+      return (seasonOrder[a[0]] ?? 3) - (seasonOrder[b[0]] ?? 3);
+    });
+  const recentBatches = allBatchNames.slice(0, 4);
   const featured = companies
     .filter((c) => recentBatches.includes(c.batch))
-    .sort((a, b) => Number(b.top_company) - Number(a.top_company))
+    .sort((a, b) => (Number(b.top_company) - Number(a.top_company)) || (b.launched_at - a.launched_at))
     .slice(0, 50);
   writeIfChanged(
     path.join(YC_CACHE_DIR, 'featured.json'),
