@@ -1,7 +1,50 @@
 {
-  "fetchedAt": "2026-07-28T10:19:01.527Z",
+  "fetchedAt": "2026-07-28T11:05:57.174Z",
   "count": 50,
   "companies": [
+    {
+      "id": 32197,
+      "name": "Buildbox",
+      "slug": "buildbox",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/989f93098b0f9d50006d1cc3890e9da739799a9e.png",
+      "website": "https://heybuildbox.com",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "Buildbox helps teams improve the human-agent experience. We analyze user intent, agent behavior, and user outcomes to find where users get stuck or lose trust in an agent. These findings are turned into ranked, reproducible issues for product and engineering teams.",
+      "one_liner": "Understand how users experience your AI agents",
+      "team_size": 2,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "B2B",
+      "subindustry": "B2B -> Analytics",
+      "launched_at": 1785235599,
+      "tags": [
+        "Artificial Intelligence",
+        "Analytics",
+        "Enterprise Software"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Summer 2026",
+      "status": "Active",
+      "industries": [
+        "B2B",
+        "Analytics"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/buildbox"
+    },
     {
       "id": 31298,
       "name": "Applied Electrodynamics, Inc.",
@@ -2195,51 +2238,6 @@
       "app_answers": null,
       "question_answers": false,
       "url": "https://www.ycombinator.com/companies/assemble"
-    },
-    {
-      "id": 33320,
-      "name": "OneCLI",
-      "slug": "onecli",
-      "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/0405005492b7122ac5f4784e260fc64d7bd99053.png",
-      "website": "https://onecli.sh",
-      "all_locations": "San Francisco, CA, USA",
-      "long_description": "OneCLI is a credential isolation gateway for AI agents. Agents see placeholder tokens instead of real API keys and OAuth credentials, the real secrets are injected at the network layer, so a compromised or misbehaving agent can never leak them. \r\n\r\nTeams get per-agent access control, full audit logs, and one-click integrations with Gmail, GitHub, Jira, Slack, and 50+ other apps. OneCLI is open source (2.5K+ GitHub stars, 300K+ downloads), Already the default credential layer for products like NanoClaw.",
-      "one_liner": "The Identity Gateway for AI Agents",
-      "team_size": 0,
-      "highlight_black": false,
-      "highlight_latinx": false,
-      "highlight_women": false,
-      "industry": "B2B",
-      "subindustry": "B2B -> Security",
-      "launched_at": 1783888956,
-      "tags": [
-        "Artificial Intelligence",
-        "B2B",
-        "Security",
-        "Open Source",
-        "Infrastructure"
-      ],
-      "tags_highlighted": [],
-      "top_company": false,
-      "isHiring": false,
-      "nonprofit": false,
-      "batch": "Summer 2026",
-      "status": "Active",
-      "industries": [
-        "B2B",
-        "Security"
-      ],
-      "regions": [
-        "United States of America",
-        "America / Canada"
-      ],
-      "stage": "Early",
-      "app_video_public": false,
-      "demo_day_video_public": false,
-      "app_answers": null,
-      "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/onecli"
     }
   ]
 }
