@@ -493,20 +493,6 @@
     }
   },
   {
-    "id": "digitalocean",
-    "name": "DigitalOcean Blog",
-    "rssUrl": "https://www.digitalocean.com/blog/rss/",
-    "siteUrl": "https://www.digitalocean.com/blog",
-    "tags": [
-      "cloud",
-      "infrastructure",
-      "devops"
-    ],
-    "historicalImport": {
-      "strategy": "none"
-    }
-  },
-  {
     "id": "confluent",
     "name": "Confluent Blog",
     "rssUrl": "https://www.confluent.io/feed",
@@ -587,82 +573,10 @@
     }
   },
   {
-    "id": "aaron-patterson",
-    "name": "Aaron Patterson",
-    "rssUrl": "http://tenderlovemaking.com/atom.xml",
-    "siteUrl": "http://tenderlovemaking.com/",
-    "tags": [
-      "engineering"
-    ],
-    "historicalImport": {
-      "strategy": "none"
-    }
-  },
-  {
-    "id": "abu-ashraf-masnun",
-    "name": "Abu Ashraf Masnun",
-    "rssUrl": "https://masnun.com/feed",
-    "siteUrl": "http://masnun.com/",
-    "tags": [
-      "engineering"
-    ],
-    "historicalImport": {
-      "strategy": "none"
-    }
-  },
-  {
-    "id": "addy-osmani",
-    "name": "Addy Osmani",
-    "rssUrl": "http://addyosmani.com/rss.xml",
-    "siteUrl": "https://addyosmani.com/blog/",
-    "tags": [
-      "engineering"
-    ],
-    "historicalImport": {
-      "strategy": "none"
-    }
-  },
-  {
-    "id": "adroll",
-    "name": "AdRoll",
-    "rssUrl": "http://tech.adroll.com/feed.xml",
-    "siteUrl": "http://tech.adroll.com/blog/",
-    "tags": [
-      "engineering"
-    ],
-    "historicalImport": {
-      "strategy": "none"
-    }
-  },
-  {
-    "id": "advanced-web-machinery",
-    "name": "Advanced Web Machinery",
-    "rssUrl": "https://advancedweb.hu/atom.xml",
-    "siteUrl": "https://advancedweb.hu/",
-    "tags": [
-      "engineering"
-    ],
-    "historicalImport": {
-      "strategy": "none"
-    }
-  },
-  {
     "id": "alan-storm",
     "name": "Alan Storm",
     "rssUrl": "https://alanastorm.com/feed/feed.xml",
     "siteUrl": "http://alanstorm.com/",
-    "tags": [
-      "engineering"
-    ],
-    "historicalImport": {
-      "strategy": "none"
-    }
-  },
-  {
-    "id": "alex-russell",
-    "name": "Alex Russell",
-    "rssUrl": "https://infrequently.org/feed/",
-    "siteUrl": "https://infrequently.org/",
     "tags": [
       "engineering"
     ],
@@ -699,18 +613,6 @@
     "name": "Android",
     "rssUrl": "https://android-developers.googleblog.com/feeds/posts/default",
     "siteUrl": "https://android-developers.blogspot.com/",
-    "tags": [
-      "engineering"
-    ],
-    "historicalImport": {
-      "strategy": "none"
-    }
-  },
-  {
-    "id": "antirez",
-    "name": "Antirez",
-    "rssUrl": "http://antirez.com/rss",
-    "siteUrl": "http://antirez.com/latest/0",
     "tags": [
       "engineering"
     ],
@@ -779,82 +681,10 @@
     }
   },
   {
-    "id": "asana",
-    "name": "Asana",
-    "rssUrl": "https://blog.asana.com/feed/",
-    "siteUrl": "https://blog.asana.com/category/eng/",
-    "tags": [
-      "engineering"
-    ],
-    "historicalImport": {
-      "strategy": "none"
-    }
-  },
-  {
     "id": "atlassian",
     "name": "Atlassian",
     "rssUrl": "https://www.atlassian.com/blog/feed",
     "siteUrl": "https://developer.atlassian.com/blog/",
-    "tags": [
-      "engineering"
-    ],
-    "historicalImport": {
-      "strategy": "none"
-    }
-  },
-  {
-    "id": "atomic-object",
-    "name": "Atomic Object",
-    "rssUrl": "https://spin.atomicobject.com/feed/",
-    "siteUrl": "https://spin.atomicobject.com/",
-    "tags": [
-      "engineering"
-    ],
-    "historicalImport": {
-      "strategy": "none"
-    }
-  },
-  {
-    "id": "auth0",
-    "name": "Auth0",
-    "rssUrl": "https://auth0.com/blog/rss.xml",
-    "siteUrl": "https://auth0.com/blog/",
-    "tags": [
-      "engineering"
-    ],
-    "historicalImport": {
-      "strategy": "none"
-    }
-  },
-  {
-    "id": "avenue-code",
-    "name": "Avenue Code",
-    "rssUrl": "https://blog.avenuecode.com/rss.xml",
-    "siteUrl": "http://blog.avenuecode.com/",
-    "tags": [
-      "engineering"
-    ],
-    "historicalImport": {
-      "strategy": "none"
-    }
-  },
-  {
-    "id": "aws",
-    "name": "AWS",
-    "rssUrl": "https://aws.amazon.com/blogs/aws/feed/",
-    "siteUrl": "https://aws.amazon.com/blogs/aws/",
-    "tags": [
-      "engineering"
-    ],
-    "historicalImport": {
-      "strategy": "none"
-    }
-  },
-  {
-    "id": "babbel",
-    "name": "Babbel",
-    "rssUrl": "https://cms.babbel.news/feed/?post_type=english_edition",
-    "siteUrl": "https://bytes.babbel.com/en/",
     "tags": [
       "engineering"
     ],
@@ -875,178 +705,10 @@
     }
   },
   {
-    "id": "bandcamp",
-    "name": "Bandcamp",
-    "rssUrl": "https://bandcamptech.wordpress.com/feed/",
-    "siteUrl": "https://bandcamptech.wordpress.com/",
-    "tags": [
-      "engineering"
-    ],
-    "historicalImport": {
-      "strategy": "none"
-    }
-  },
-  {
-    "id": "bartlomiej-filipek",
-    "name": "Bartlomiej Filipek",
-    "rssUrl": "https://www.cppstories.com/index.xml",
-    "siteUrl": "http://www.bfilipek.com/",
-    "tags": [
-      "engineering"
-    ],
-    "historicalImport": {
-      "strategy": "none"
-    }
-  },
-  {
-    "id": "bazaarvoice",
-    "name": "Bazaarvoice",
-    "rssUrl": "https://blog.developer.bazaarvoice.com/feed/",
-    "siteUrl": "https://blog.developer.bazaarvoice.com/",
-    "tags": [
-      "engineering"
-    ],
-    "historicalImport": {
-      "strategy": "none"
-    }
-  },
-  {
     "id": "bbc",
     "name": "BBC",
     "rssUrl": "https://medium.com/feed/bbc-product-technology",
     "siteUrl": "https://medium.com/bbc-design-engineering/",
-    "tags": [
-      "engineering"
-    ],
-    "historicalImport": {
-      "strategy": "none"
-    }
-  },
-  {
-    "id": "benchling",
-    "name": "Benchling",
-    "rssUrl": "https://benchling.engineering/feed",
-    "siteUrl": "https://benchling.engineering/",
-    "tags": [
-      "engineering"
-    ],
-    "historicalImport": {
-      "strategy": "none"
-    }
-  },
-  {
-    "id": "bigcommerce",
-    "name": "Bigcommerce",
-    "rssUrl": "https://www.bigeng.io/rss/",
-    "siteUrl": "http://www.bigeng.io/",
-    "tags": [
-      "engineering"
-    ],
-    "historicalImport": {
-      "strategy": "none"
-    }
-  },
-  {
-    "id": "bill-the-lizard",
-    "name": "Bill the Lizard",
-    "rssUrl": "https://www.billthelizard.com/feed/",
-    "siteUrl": "http://www.billthelizard.com/",
-    "tags": [
-      "engineering"
-    ],
-    "historicalImport": {
-      "strategy": "none"
-    }
-  },
-  {
-    "id": "blake-erickson",
-    "name": "Blake Erickson",
-    "rssUrl": "https://blog.blakeerickson.com/feed.xml",
-    "siteUrl": "https://blog.blakeerickson.com/",
-    "tags": [
-      "engineering"
-    ],
-    "historicalImport": {
-      "strategy": "none"
-    }
-  },
-  {
-    "id": "blender",
-    "name": "Blender",
-    "rssUrl": "https://code.blender.org/rss",
-    "siteUrl": "https://code.blender.org/",
-    "tags": [
-      "engineering"
-    ],
-    "historicalImport": {
-      "strategy": "none"
-    }
-  },
-  {
-    "id": "blundell-s-android-tutorials",
-    "name": "Blundell's Android Tutorials",
-    "rssUrl": "https://blog.blundellapps.co.uk/feed/",
-    "siteUrl": "http://blog.blundellapps.co.uk",
-    "tags": [
-      "engineering"
-    ],
-    "historicalImport": {
-      "strategy": "none"
-    }
-  },
-  {
-    "id": "bohops",
-    "name": "Bohops",
-    "rssUrl": "https://bohops.com/feed/",
-    "siteUrl": "https://bohops.com/",
-    "tags": [
-      "engineering"
-    ],
-    "historicalImport": {
-      "strategy": "none"
-    }
-  },
-  {
-    "id": "bootstrap-com",
-    "name": "Bootstrap.com",
-    "rssUrl": "https://blog.getbootstrap.com/feed.xml",
-    "siteUrl": "https://blog.getbootstrap.com/",
-    "tags": [
-      "engineering"
-    ],
-    "historicalImport": {
-      "strategy": "none"
-    }
-  },
-  {
-    "id": "brandwatch",
-    "name": "Brandwatch",
-    "rssUrl": "http://engineering.brandwatch.com/rss",
-    "siteUrl": "http://engineering.brandwatch.com/",
-    "tags": [
-      "engineering"
-    ],
-    "historicalImport": {
-      "strategy": "none"
-    }
-  },
-  {
-    "id": "brendan-eich",
-    "name": "Brendan Eich",
-    "rssUrl": "https://brendaneich.com/feed/",
-    "siteUrl": "https://brendaneich.com/",
-    "tags": [
-      "engineering"
-    ],
-    "historicalImport": {
-      "strategy": "none"
-    }
-  },
-  {
-    "id": "brendan-gregg",
-    "name": "Brendan Gregg",
-    "rssUrl": "http://www.brendangregg.com/blog/rss.xml",
-    "siteUrl": "http://www.brendangregg.com/blog/",
     "tags": [
       "engineering"
     ],
@@ -1067,214 +729,10 @@
     }
   },
   {
-    "id": "canva",
-    "name": "Canva",
-    "rssUrl": "https://www.canva.dev/blog/engineering/feed.xml",
-    "siteUrl": "https://engineering.canva.com",
-    "tags": [
-      "engineering"
-    ],
-    "historicalImport": {
-      "strategy": "none"
-    }
-  },
-  {
-    "id": "capgemini",
-    "name": "Capgemini",
-    "rssUrl": "https://capgemini.github.io/feed.xml",
-    "siteUrl": "https://capgemini.github.io/",
-    "tags": [
-      "engineering"
-    ],
-    "historicalImport": {
-      "strategy": "none"
-    }
-  },
-  {
-    "id": "carlos-becker",
-    "name": "Carlos Becker",
-    "rssUrl": "https://carlosbecker.com/index.xml",
-    "siteUrl": "https://carlosbecker.com",
-    "tags": [
-      "engineering"
-    ],
-    "historicalImport": {
-      "strategy": "none"
-    }
-  },
-  {
-    "id": "cerner",
-    "name": "Cerner",
-    "rssUrl": "https://engineering.cerner.com/index.xml",
-    "siteUrl": "http://engineering.cerner.com/",
-    "tags": [
-      "engineering"
-    ],
-    "historicalImport": {
-      "strategy": "none"
-    }
-  },
-  {
-    "id": "chien-tran",
-    "name": "Chien Tran",
-    "rssUrl": "https://thelazylog.com/rss/",
-    "siteUrl": "http://thelazylog.com/",
-    "tags": [
-      "engineering"
-    ],
-    "historicalImport": {
-      "strategy": "none"
-    }
-  },
-  {
-    "id": "chris-wellons",
-    "name": "Chris Wellons",
-    "rssUrl": "http://nullprogram.com/feed/",
-    "siteUrl": "http://nullprogram.com/",
-    "tags": [
-      "engineering"
-    ],
-    "historicalImport": {
-      "strategy": "none"
-    }
-  },
-  {
-    "id": "clever",
-    "name": "Clever",
-    "rssUrl": "https://engineering.clever.com/rss",
-    "siteUrl": "https://engineering.clever.com/",
-    "tags": [
-      "engineering"
-    ],
-    "historicalImport": {
-      "strategy": "none"
-    }
-  },
-  {
-    "id": "cloudera",
-    "name": "Cloudera",
-    "rssUrl": "https://blog.cloudera.com/feed/",
-    "siteUrl": "https://blog.cloudera.com/",
-    "tags": [
-      "engineering"
-    ],
-    "historicalImport": {
-      "strategy": "none"
-    }
-  },
-  {
-    "id": "code-with-style",
-    "name": "Code with style!",
-    "rssUrl": "https://codewithstyle.info/atom.xml",
-    "siteUrl": "https://codewithstyle.info/",
-    "tags": [
-      "engineering"
-    ],
-    "historicalImport": {
-      "strategy": "none"
-    }
-  },
-  {
-    "id": "codeship",
-    "name": "Codeship",
-    "rssUrl": "https://blog.codeship.com/blog/feed/",
-    "siteUrl": "https://blog.codeship.com/",
-    "tags": [
-      "engineering"
-    ],
-    "historicalImport": {
-      "strategy": "none"
-    }
-  },
-  {
-    "id": "codrops",
-    "name": "Codrops",
-    "rssUrl": "https://tympanus.net/codrops/feed/",
-    "siteUrl": "https://tympanus.net/codrops/",
-    "tags": [
-      "engineering"
-    ],
-    "historicalImport": {
-      "strategy": "none"
-    }
-  },
-  {
-    "id": "commercetools",
-    "name": "Commercetools",
-    "rssUrl": "https://techblog.commercetools.com/feed",
-    "siteUrl": "https://techblog.commercetools.com/",
-    "tags": [
-      "engineering"
-    ],
-    "historicalImport": {
-      "strategy": "none"
-    }
-  },
-  {
-    "id": "credit-karma",
-    "name": "Credit Karma",
-    "rssUrl": "https://engineering.creditkarma.com/feed",
-    "siteUrl": "https://engineering.creditkarma.com/",
-    "tags": [
-      "engineering"
-    ],
-    "historicalImport": {
-      "strategy": "none"
-    }
-  },
-  {
     "id": "criteo",
     "name": "Criteo",
     "rssUrl": "https://medium.com/feed/criteo-engineering",
     "siteUrl": "https://medium.com/criteo-labs",
-    "tags": [
-      "engineering"
-    ],
-    "historicalImport": {
-      "strategy": "none"
-    }
-  },
-  {
-    "id": "crowdfire",
-    "name": "Crowdfire",
-    "rssUrl": "https://crowdfire.engineering/feed",
-    "siteUrl": "https://crowdfire.engineering/",
-    "tags": [
-      "engineering"
-    ],
-    "historicalImport": {
-      "strategy": "none"
-    }
-  },
-  {
-    "id": "crystal",
-    "name": "Crystal",
-    "rssUrl": "https://crystal-lang.org/feed.xml",
-    "siteUrl": "https://crystal-lang.org/",
-    "tags": [
-      "engineering"
-    ],
-    "historicalImport": {
-      "strategy": "none"
-    }
-  },
-  {
-    "id": "csc-it-center-for-science-clou",
-    "name": "CSC - IT Center For Science - Cloud Team",
-    "rssUrl": "https://cloud.blog.csc.fi/feeds/posts/default",
-    "siteUrl": "https://cloud.blog.csc.fi/",
-    "tags": [
-      "engineering"
-    ],
-    "historicalImport": {
-      "strategy": "none"
-    }
-  },
-  {
-    "id": "curalate",
-    "name": "Curalate",
-    "rssUrl": "http://engineering.curalate.com/feed.xml",
-    "siteUrl": "http://engineering.curalate.com/",
     "tags": [
       "engineering"
     ],
@@ -1347,18 +805,6 @@
     "name": "Dean Hume",
     "rssUrl": "https://deanhume.com/rss/",
     "siteUrl": "http://deanhume.com/",
-    "tags": [
-      "engineering"
-    ],
-    "historicalImport": {
-      "strategy": "none"
-    }
-  },
-  {
-    "id": "deezer",
-    "name": "Deezer",
-    "rssUrl": "https://deezer.io/feed",
-    "siteUrl": "https://deezer.io/",
     "tags": [
       "engineering"
     ],
@@ -1499,46 +945,10 @@
     }
   },
   {
-    "id": "elegant-code",
-    "name": "Elegant Code",
-    "rssUrl": "https://elegantcode.com/feed/",
-    "siteUrl": "http://elegantcode.com/",
-    "tags": [
-      "engineering"
-    ],
-    "historicalImport": {
-      "strategy": "none"
-    }
-  },
-  {
     "id": "eli-bendersky",
     "name": "Eli Bendersky",
     "rssUrl": "https://eli.thegreenplace.net/feeds/all.atom.xml",
     "siteUrl": "http://eli.thegreenplace.net/",
-    "tags": [
-      "engineering"
-    ],
-    "historicalImport": {
-      "strategy": "none"
-    }
-  },
-  {
-    "id": "engine-yard",
-    "name": "Engine Yard",
-    "rssUrl": "https://blog.engineyard.com/rss",
-    "siteUrl": "https://blog.engineyard.com/",
-    "tags": [
-      "engineering"
-    ],
-    "historicalImport": {
-      "strategy": "none"
-    }
-  },
-  {
-    "id": "envoy",
-    "name": "Envoy",
-    "rssUrl": "https://envoy.engineering/feed",
-    "siteUrl": "https://envoy.engineering/",
     "tags": [
       "engineering"
     ],
@@ -1755,18 +1165,6 @@
     "name": "GameChanger",
     "rssUrl": "http://tech.gc.com/atom.xml",
     "siteUrl": "http://tech.gc.com/",
-    "tags": [
-      "engineering"
-    ],
-    "historicalImport": {
-      "strategy": "none"
-    }
-  },
-  {
-    "id": "giphy",
-    "name": "GIPHY",
-    "rssUrl": "https://engineering.giphy.com/rss",
-    "siteUrl": "https://engineering.giphy.com/",
     "tags": [
       "engineering"
     ],
@@ -2123,18 +1521,6 @@
     }
   },
   {
-    "id": "ievgen-kuzminov",
-    "name": "Ievgen Kuzminov",
-    "rssUrl": "http://stdout.in/en/cat/all.rss",
-    "siteUrl": "http://stdout.in/",
-    "tags": [
-      "engineering"
-    ],
-    "historicalImport": {
-      "strategy": "none"
-    }
-  },
-  {
     "id": "ilija-eftimov",
     "name": "Ilija Eftimov",
     "rssUrl": "http://ieftimov.com/index.xml",
@@ -2159,18 +1545,6 @@
     }
   },
   {
-    "id": "imvu",
-    "name": "IMVU",
-    "rssUrl": "https://engineering.imvu.com/?feed=rss2",
-    "siteUrl": "https://engineering.imvu.com/",
-    "tags": [
-      "engineering"
-    ],
-    "historicalImport": {
-      "strategy": "none"
-    }
-  },
-  {
     "id": "indeed",
     "name": "Indeed",
     "rssUrl": "https://engineering.indeedblog.com/feed/",
@@ -2187,18 +1561,6 @@
     "name": "Instacart",
     "rssUrl": "https://tech.instacart.com/feed",
     "siteUrl": "https://tech.instacart.com/",
-    "tags": [
-      "engineering"
-    ],
-    "historicalImport": {
-      "strategy": "none"
-    }
-  },
-  {
-    "id": "instagram",
-    "name": "Instagram",
-    "rssUrl": "https://instagram-engineering.com/feed",
-    "siteUrl": "https://engineering.instagram.com/",
     "tags": [
       "engineering"
     ],
@@ -2423,18 +1785,6 @@
     }
   },
   {
-    "id": "jobandtalent",
-    "name": "Jobandtalent",
-    "rssUrl": "https://jobandtalent.engineering/feed",
-    "siteUrl": "https://jobandtalent.engineering/",
-    "tags": [
-      "engineering"
-    ],
-    "historicalImport": {
-      "strategy": "none"
-    }
-  },
-  {
     "id": "jobteaser",
     "name": "JobTeaser",
     "rssUrl": "https://medium.com/feed/jobteaser-dev-team",
@@ -2579,18 +1929,6 @@
     }
   },
   {
-    "id": "just-eat",
-    "name": "Just Eat",
-    "rssUrl": "https://tech.justeattakeaway.com/feed/",
-    "siteUrl": "https://tech.just-eat.com/",
-    "tags": [
-      "engineering"
-    ],
-    "historicalImport": {
-      "strategy": "none"
-    }
-  },
-  {
     "id": "justin-weiss",
     "name": "Justin Weiss",
     "rssUrl": "https://www.justinweiss.com/atom.xml",
@@ -2687,18 +2025,6 @@
     }
   },
   {
-    "id": "lambda-the-ultimate",
-    "name": "Lambda the Ultimate",
-    "rssUrl": "http://lambda-the-ultimate.org/rss.xml",
-    "siteUrl": "http://lambda-the-ultimate.org/",
-    "tags": [
-      "engineering"
-    ],
-    "historicalImport": {
-      "strategy": "none"
-    }
-  },
-  {
     "id": "laravel",
     "name": "Laravel",
     "rssUrl": "https://feed.laravel-news.com/",
@@ -2739,18 +2065,6 @@
     "name": "Lea Verou",
     "rssUrl": "http://lea.verou.me/feed.xml",
     "siteUrl": "http://lea.verou.me/",
-    "tags": [
-      "engineering"
-    ],
-    "historicalImport": {
-      "strategy": "none"
-    }
-  },
-  {
-    "id": "lerner-consulting-blog",
-    "name": "Lerner Consulting Blog",
-    "rssUrl": "http://blog.lerner.co.il/feed",
-    "siteUrl": "http://blog.lerner.co.il/",
     "tags": [
       "engineering"
     ],
@@ -3227,18 +2541,6 @@
     }
   },
   {
-    "id": "novoda",
-    "name": "Novoda",
-    "rssUrl": "https://www.novoda.com/blog/rss",
-    "siteUrl": "https://www.novoda.com/blog/",
-    "tags": [
-      "engineering"
-    ],
-    "historicalImport": {
-      "strategy": "none"
-    }
-  },
-  {
     "id": "npr-apps",
     "name": "NPR Apps",
     "rssUrl": "https://blog.apps.npr.org/atom.xml",
@@ -3339,18 +2641,6 @@
     "name": "OpenDNS",
     "rssUrl": "https://umbrella.cisco.com/feed",
     "siteUrl": "https://engineering.opendns.com/",
-    "tags": [
-      "engineering"
-    ],
-    "historicalImport": {
-      "strategy": "none"
-    }
-  },
-  {
-    "id": "oursky",
-    "name": "Oursky",
-    "rssUrl": "https://code.oursky.com/feed/",
-    "siteUrl": "https://code.oursky.com/",
     "tags": [
       "engineering"
     ],
@@ -3479,30 +2769,6 @@
     }
   },
   {
-    "id": "piccollage",
-    "name": "PicCollage",
-    "rssUrl": "https://tech.pic-collage.com/feed",
-    "siteUrl": "https://tech.pic-collage.com/",
-    "tags": [
-      "engineering"
-    ],
-    "historicalImport": {
-      "strategy": "none"
-    }
-  },
-  {
-    "id": "piotr-pasich",
-    "name": "Piotr Pasich",
-    "rssUrl": "http://piotrpasich.com/feed/",
-    "siteUrl": "http://piotrpasich.com/",
-    "tags": [
-      "engineering"
-    ],
-    "historicalImport": {
-      "strategy": "none"
-    }
-  },
-  {
     "id": "pony-foo",
     "name": "Pony Foo",
     "rssUrl": "https://feeds.feedburner.com/ponyfoo",
@@ -3527,46 +2793,10 @@
     }
   },
   {
-    "id": "prezi",
-    "name": "Prezi",
-    "rssUrl": "https://engineering.prezi.com/feed",
-    "siteUrl": "https://medium.com/prezi-engineering",
-    "tags": [
-      "engineering"
-    ],
-    "historicalImport": {
-      "strategy": "none"
-    }
-  },
-  {
     "id": "pubnub",
     "name": "PubNub:",
     "rssUrl": "https://www.pubnub.com/feed/blog/",
     "siteUrl": "https://www.pubnub.com/blog/",
-    "tags": [
-      "engineering"
-    ],
-    "historicalImport": {
-      "strategy": "none"
-    }
-  },
-  {
-    "id": "pullreview",
-    "name": "PullReview",
-    "rssUrl": "http://blog.8thcolor.com/atom.xml",
-    "siteUrl": "http://blog.8thcolor.com/",
-    "tags": [
-      "engineering"
-    ],
-    "historicalImport": {
-      "strategy": "none"
-    }
-  },
-  {
-    "id": "rachel-kroll",
-    "name": "Rachel Kroll",
-    "rssUrl": "https://rachelbythebay.com/w/atom.xml",
-    "siteUrl": "https://rachelbythebay.com/w/",
     "tags": [
       "engineering"
     ],
@@ -3923,18 +3153,6 @@
     }
   },
   {
-    "id": "small-improvements",
-    "name": "Small Improvements",
-    "rssUrl": "https://tech.small-improvements.com/rss",
-    "siteUrl": "https://tech.small-improvements.com/",
-    "tags": [
-      "engineering"
-    ],
-    "historicalImport": {
-      "strategy": "none"
-    }
-  },
-  {
     "id": "soshace",
     "name": "Soshace",
     "rssUrl": "https://soshace.com/feed/",
@@ -4079,18 +3297,6 @@
     }
   },
   {
-    "id": "swiggy",
-    "name": "Swiggy",
-    "rssUrl": "https://bytes.swiggy.com/feed",
-    "siteUrl": "https://bytes.swiggy.com/",
-    "tags": [
-      "engineering"
-    ],
-    "historicalImport": {
-      "strategy": "none"
-    }
-  },
-  {
     "id": "swizec-teller",
     "name": "Swizec Teller",
     "rssUrl": "https://swizec.com/rss.xml",
@@ -4179,18 +3385,6 @@
     "name": "Thomas Young",
     "rssUrl": "http://upcoder.com/feed",
     "siteUrl": "http://upcoder.com",
-    "tags": [
-      "engineering"
-    ],
-    "historicalImport": {
-      "strategy": "none"
-    }
-  },
-  {
-    "id": "thoughtbot",
-    "name": "Thoughtbot",
-    "rssUrl": "https://feeds.feedburner.com/GiantRobotsSmashingIntoOtherGiantRobots",
-    "siteUrl": "https://robots.thoughtbot.com/",
     "tags": [
       "engineering"
     ],
@@ -4295,58 +3489,10 @@
     }
   },
   {
-    "id": "universe",
-    "name": "Universe",
-    "rssUrl": "https://engineering.universe.com/feed",
-    "siteUrl": "https://engineering.universe.com",
-    "tags": [
-      "engineering"
-    ],
-    "historicalImport": {
-      "strategy": "none"
-    }
-  },
-  {
-    "id": "upgrad",
-    "name": "UpGrad",
-    "rssUrl": "https://engineering.upgrad.com/feed",
-    "siteUrl": "https://engineering.upgrad.com",
-    "tags": [
-      "engineering"
-    ],
-    "historicalImport": {
-      "strategy": "none"
-    }
-  },
-  {
     "id": "vanilla-java",
     "name": "Vanilla Java",
     "rssUrl": "http://blog.vanillajava.blog/feeds/posts/default",
     "siteUrl": "http://vanillajava.blogspot.com/",
-    "tags": [
-      "engineering"
-    ],
-    "historicalImport": {
-      "strategy": "none"
-    }
-  },
-  {
-    "id": "vena-solutions",
-    "name": "Vena Solutions",
-    "rssUrl": "https://engineering.vena.io/feed/",
-    "siteUrl": "https://engineering.vena.io/",
-    "tags": [
-      "engineering"
-    ],
-    "historicalImport": {
-      "strategy": "none"
-    }
-  },
-  {
-    "id": "versioneye",
-    "name": "VersionEye",
-    "rssUrl": "https://blog.versioneye.com/feed/",
-    "siteUrl": "https://blog.versioneye.com/",
     "tags": [
       "engineering"
     ],
@@ -4379,34 +3525,10 @@
     }
   },
   {
-    "id": "vts",
-    "name": "VTS",
-    "rssUrl": "https://buildingvts.com/feed",
-    "siteUrl": "https://buildingvts.com/",
-    "tags": [
-      "engineering"
-    ],
-    "historicalImport": {
-      "strategy": "none"
-    }
-  },
-  {
     "id": "wayfair",
     "name": "Wayfair",
     "rssUrl": "https://www.aboutwayfair.com/careers/tech-blog.rss",
     "siteUrl": "http://engineering.wayfair.com/",
-    "tags": [
-      "engineering"
-    ],
-    "historicalImport": {
-      "strategy": "none"
-    }
-  },
-  {
-    "id": "wealthfront",
-    "name": "Wealthfront",
-    "rssUrl": "https://eng.wealthfront.com/feed/",
-    "siteUrl": "http://eng.wealthfront.com/",
     "tags": [
       "engineering"
     ],

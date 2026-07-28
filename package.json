@@ -13,7 +13,8 @@
     "crawl-awesome": "tsx scripts/crawl-awesome.ts",
     "crawl-knowledge": "tsx scripts/crawl-knowledge.ts",
     "one-time-yc": "tsx scripts/one-time/fetch-yc-bulk.ts",
-    "one-time-ph": "tsx scripts/one-time/fetch-ph-bulk.ts"
+    "one-time-ph": "tsx scripts/one-time/fetch-ph-bulk.ts",
+    "one-time-purge-feeds": "tsx scripts/one-time/purge-dead-feeds.ts"
   },
   "dependencies": {
     "fast-xml-parser": "^5.2.0",
