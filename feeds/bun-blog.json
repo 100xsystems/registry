@@ -1,0 +1,415 @@
+{
+  "feedId": "bun-blog",
+  "feedName": "Bun Blog",
+  "feedSiteUrl": "https://bun.sh/blog",
+  "feedRssUrl": "https://bun.sh/rss.xml",
+  "tags": [
+    "javascript",
+    "performance",
+    "runtime"
+  ],
+  "updatedAt": "2026-07-28T06:53:08.137Z",
+  "items": [
+    {
+      "guid": "https://bun.com/blog/bun-in-rust",
+      "title": "Rewriting Bun in Rust",
+      "link": "https://bun.com/blog/bun-in-rust",
+      "summary": "Why & how we rewrote Bun from Zig to Rust",
+      "author": null,
+      "publishedAt": "2026-07-08T16:00:00.000Z"
+    },
+    {
+      "guid": "https://bun.com/blog/bun-v1.3.14",
+      "title": "Bun v1.3.14",
+      "link": "https://bun.com/blog/bun-v1.3.14",
+      "summary": "Fixes 92 issues (addressing 380 👍). Bun.Image — a built-in image processing API, 7x faster warm installs with the isolated linker's global store, experimental HTTP/2 and HTTP/3 clients for fetch(), HTTP/3 (QUIC) in Bun.serve(), rewritten fs.watch() on Linux and macOS, --no-orphans CLI flag,…",
+      "author": null,
+      "publishedAt": "2026-05-13T03:19:35.000Z"
+    },
+    {
+      "guid": "https://bun.com/blog/bun-v1.3.13",
+      "title": "Bun v1.3.13",
+      "link": "https://bun.com/blog/bun-v1.3.13",
+      "summary": "Fixes 82 issues (addressing 381 👍). bun test --parallel, --isolate, --shard, and --changed, bun install streams tarballs to disk using 17x less memory, source maps use 8x less memory, 5.5x faster gzip with zlib-ng, Range request support in Bun.serve(), SHA3 in node:crypto and WebCrypto, ws+unix://…",
+      "author": null,
+      "publishedAt": "2026-04-20T07:33:26.000Z"
+    },
+    {
+      "guid": "https://bun.com/blog/bun-v1.3.12",
+      "title": "Bun v1.3.12",
+      "link": "https://bun.com/blog/bun-v1.3.12",
+      "summary": "Fixes 120 issues (addressing 219 👍). Render Markdown in the terminal with bun ./file.md, Bun.WebView headless browser automation, in-process Bun.cron() scheduler, async stack traces for native errors, 2.3x faster URLPattern, 2x faster Bun.Glob.scan, cgroup-aware parallelism on Linux, and many…",
+      "author": null,
+      "publishedAt": "2026-04-09T00:00:00.000Z"
+    },
+    {
+      "guid": "https://bun.com/blog/bun-v1.3.11",
+      "title": "Bun v1.3.11",
+      "link": "https://bun.com/blog/bun-v1.3.11",
+      "summary": "Fixes 105 issues (addressing 307 👍). 4 MB smaller on Linux. x64 Bun.cron for OS-level cron jobs and expression parsing, Bun.sliceAnsi for ANSI/grapheme-aware string slicing, richer Bun.markdown list metadata; bun test --path-ignore-patterns; native Windows ARM64 .bin shim; dgram UDP fixed on…",
+      "author": null,
+      "publishedAt": "2026-03-18T04:16:10.000Z"
+    },
+    {
+      "guid": "https://bun.com/blog/bun-v1.3.10",
+      "title": "Bun v1.3.10",
+      "link": "https://bun.com/blog/bun-v1.3.10",
+      "summary": "Fixes 155 issues (addressing 642 👍). New native REPL, --compile --target=browser for self-contained HTML, TC39 standard ES decorators, Windows ARM64 support, barrel import optimization, and a faster event loop. structuredClone up to 25x faster for arrays, Buffer.slice() 1.8x faster, path.parse()…",
+      "author": null,
+      "publishedAt": "2026-02-26T06:31:59.000Z"
+    },
+    {
+      "guid": "https://bun.com/blog/bun-v1.3.9",
+      "title": "Bun v1.3.9",
+      "link": "https://bun.com/blog/bun-v1.3.9",
+      "summary": "Fixes 23 issues (addressing 13 👍). Run multiple scripts in --parallel or --sequential. bun:test mock & spyOn get Symbol.dispose support. ESM bytecode compilation. Faster Bun.markdown. Faster RegExp, String.prototype.trim, String.prototype.startsWith.",
+      "author": null,
+      "publishedAt": "2026-02-08T09:01:15.000Z"
+    },
+    {
+      "guid": "https://bun.com/blog/bun-v1.3.8",
+      "title": "Bun v1.3.8",
+      "link": "https://bun.com/blog/bun-v1.3.8",
+      "summary": "Fixes 8 issues (addressing 6 👍). Bun.markdown is a builtin CommonMark-compliant Markdown parser written in Zig. Bun's bundler gets bun build --metafile-md to write LLM-friendly module graph metadata. Fixes a regression in 'npm install -g bun' on Windows.",
+      "author": null,
+      "publishedAt": "2026-01-29T10:04:52.000Z"
+    },
+    {
+      "guid": "https://bun.com/blog/bun-v1.3.7",
+      "title": "Bun v1.3.7",
+      "link": "https://bun.com/blog/bun-v1.3.7",
+      "summary": "Fixes 91 issues (addressing 243 👍). 50% faster `Buffer.from(array)`, 35% faster async/await, 3x faster `array.flat()`, 90% faster `padStart`/`padEnd` via JSC upgrade. New: `Bun.JSON5`, `Bun.JSONL`, `Bun.wrapAnsi()` (33-88x faster than wrap-ansi npm), `--heap-prof-md`, `--cpu-prof-md`,…",
+      "author": null,
+      "publishedAt": "2026-01-27T06:30:58.000Z"
+    },
+    {
+      "guid": "https://bun.com/blog/bun-v1.3.6",
+      "title": "Bun v1.3.6",
+      "link": "https://bun.com/blog/bun-v1.3.6",
+      "summary": "Fixes 45 issues (addressing 125 👍). Bun.Archive API for creating & extracting tarballs with gzip compression, Bun.JSONC for parsing JSON with comments, metafile & files options in Bun.build for bundle analysis and virtual files, Response.json() 3.5x faster, 15% faster async/await, 30% faster…",
+      "author": null,
+      "publishedAt": "2026-01-13T01:12:07.000Z"
+    },
+    {
+      "guid": "https://bun.com/blog/bun-v1.3.5",
+      "title": "Bun v1.3.5",
+      "link": "https://bun.com/blog/bun-v1.3.5",
+      "summary": "Fixes 32 issues (addressing 25 👍). Bun.Terminal API, compile-time feature flags, improved Bun.stringWidth accuracy, V8 C++ value type checking APIs, Content-Disposition support for S3 uploads, environment variable expansion in .npmrc quoted values, and numerous bug fixes & node.js compatibility…",
+      "author": null,
+      "publishedAt": "2025-12-17T10:11:00.000Z"
+    },
+    {
+      "guid": "https://bun.com/blog/bun-v1.3.4",
+      "title": "Bun v1.3.4",
+      "link": "https://bun.com/blog/bun-v1.3.4",
+      "summary": "Fixes 194 issues (addressing 412 👍). URLPattern API, Fake Timers for bun:test, Custom Proxy Headers in fetch(),console.log %j format, http.Agent connection pooling fix, Standalone executable config loading changes, SQLite 3.51.1, and numerous bugfixes for bun:test, Node.js compatibility, Windows,…",
+      "author": null,
+      "publishedAt": "2025-12-06T10:11:00.000Z"
+    },
+    {
+      "guid": "https://bun.com/blog/bun-joins-anthropic",
+      "title": "Bun is joining Anthropic",
+      "link": "https://bun.com/blog/bun-joins-anthropic",
+      "summary": "Bun has been acquired by Anthropic. Anthropic is betting on Bun as the infrastructure powering Claude Code, Claude Agent SDK, and future AI coding products & tools.",
+      "author": null,
+      "publishedAt": "2025-12-02T10:00:00.000Z"
+    },
+    {
+      "guid": "https://bun.com/blog/bun-v1.3.3",
+      "title": "Bun v1.3.3",
+      "link": "https://bun.com/blog/bun-v1.3.3",
+      "summary": "Fixes 95 issues (addressing 348 👍). CompressionStream and DecompressionStream, Control .env and bunfig.toml loading in standalone executables, `retry` and `repeats` in `bun:test`, --no-env-file, SQLite 3.51.0, Upgraded to Zig 0.15.2, Bugfixes for bundler, bun install, Windows, Node.js…",
+      "author": null,
+      "publishedAt": "2025-11-21T10:11:00.000Z"
+    },
+    {
+      "guid": "https://bun.com/blog/bun-v1.3.2",
+      "title": "Bun v1.3.2",
+      "link": "https://bun.com/blog/bun-v1.3.2",
+      "summary": "Fixes 287 issues (addressing 324 👍). Hoisted installs restored as default for backward compatibility. CPU profiling with --cpu-prof, faster installs for packages with post-install scripts, bun:test onTestFinished hook, ServerWebSocket subscriptions getter, Alpine 3.22 in Docker images, improved…",
+      "author": null,
+      "publishedAt": "2025-11-08T10:11:00.000Z"
+    },
+    {
+      "guid": "https://bun.com/blog/vercel-adds-native-bun-support",
+      "title": "Vercel now supports the Bun Runtime",
+      "link": "https://bun.com/blog/vercel-adds-native-bun-support",
+      "summary": "Deploy and run your applications with Bun's fast JavaScript runtime on Vercel Functions, with full access to Bun APIs and improved performance",
+      "author": null,
+      "publishedAt": "2025-10-28T15:00:00.000Z"
+    },
+    {
+      "guid": "https://bun.com/blog/bun-v1.3.1",
+      "title": "Bun v1.3.1",
+      "link": "https://bun.com/blog/bun-v1.3.1",
+      "summary": "Fixes 103 issues (addressing 172 👍). 2× faster bun build on macOS for symlink-heavy projects, source maps preserve legal comments, and --format=cjs now inlines import.meta; bun test adds global vi, --pass-with-no-tests, and --only-failures; .npmrc :email auth support, faster installs when no peer…",
+      "author": null,
+      "publishedAt": "2025-10-22T10:11:00.000Z"
+    },
+    {
+      "guid": "https://bun.com/blog/bun-v1.3",
+      "title": "Bun 1.3",
+      "link": "https://bun.com/blog/bun-v1.3",
+      "summary": "Bun 1.3 introduces zero-config frontend development, unified SQL API, built-in Redis client, security enhancements, package catalogs, async stack traces, VS Code test integration, and Node.js compatibility improvements.",
+      "author": null,
+      "publishedAt": "2025-10-10T20:00:00.000Z"
+    },
+    {
+      "guid": "https://bun.com/blog/bun-v1.2.23",
+      "title": "Bun v1.2.23",
+      "link": "https://bun.com/blog/bun-v1.2.23",
+      "summary": "Fixes 119 issues (addressing 412 👍). pnpm-lock.yaml migration for seamless switching from pnpm to bun install, Redis Pub/Sub support, concurrent test execution with configurable parallelism, platform-specific dependency filtering with --cpu and --os flags, system CA certificates support with…",
+      "author": null,
+      "publishedAt": "2025-09-28T10:11:00.000Z"
+    },
+    {
+      "guid": "https://bun.com/blog/bun-v1.2.22",
+      "title": "Bun v1.2.22",
+      "link": "https://bun.com/blog/bun-v1.2.22",
+      "summary": "Fixes 144 issues (addressing 257 👍). Async stack traces for better debugging, RFC 6455 compliant WebSocket client subprotocol negotiation, MySQL adapter improvements including affectedRows and lastInsertRowid support, JSX side effects preservation during bundling, event loop delay monitoring with…",
+      "author": null,
+      "publishedAt": "2025-09-14T22:54:53.000Z"
+    },
+    {
+      "guid": "https://bun.com/blog/behind-the-scenes-of-bun-install",
+      "title": "Behind The Scenes of Bun Install",
+      "link": "https://bun.com/blog/behind-the-scenes-of-bun-install",
+      "summary": "Learn how Bun is able to cut install times by up to 25×. Bun skips Node.js's overhead with direct system calls, cache-friendly data layouts, OS-level copy-on-write, and full-core parallelism.",
+      "author": null,
+      "publishedAt": "2025-09-10T15:00:00.000Z"
+    },
+    {
+      "guid": "https://bun.com/blog/bun-v1.2.21",
+      "title": "Bun v1.2.21",
+      "link": "https://bun.com/blog/bun-v1.2.21",
+      "summary": "Fixes 69 issues (addressing 204 👍). Bun.SQL now supports MySQL and SQLite, alongside PostgreSQL. Native YAML support. 500x faster postMessage(string). Bun.build() compile API, with cross-platform targets. Reduced idle CPU usage. Bun.stripANSI for SIMD-accelerated ANSI escape removal. bunx…",
+      "author": null,
+      "publishedAt": "2025-08-25T22:54:53.000Z"
+    },
+    {
+      "guid": "https://bun.com/blog/how-we-made-postMessage-string-500x-faster",
+      "title": "500x faster postMessage(string)",
+      "link": "https://bun.com/blog/how-we-made-postMessage-string-500x-faster",
+      "summary": "Zero-copy postMessage(string)",
+      "author": null,
+      "publishedAt": "2025-08-20T22:54:53.000Z"
+    },
+    {
+      "guid": "https://bun.com/blog/bun-v1.2.20",
+      "title": "Bun v1.2.20",
+      "link": "https://bun.com/blog/bun-v1.2.20",
+      "summary": "Fixes 141 issues (addressing 429 👍). Reduced idle CPU usage. Improved `bun:test` diffing. Automatic `ETag` and `If-None-Match` in static routes for `Bun.serve`. 40x faster `AbortSignal.timeout`. Windows long path support. `WebAssembly.compileStreaming` and `WebAssembly.instantiateStreaming`. Many,…",
+      "author": null,
+      "publishedAt": "2025-08-10T10:00:00.000Z"
+    },
+    {
+      "guid": "https://bun.com/blog/bun-v1.2.19",
+      "title": "Bun v1.2.19",
+      "link": "https://bun.com/blog/bun-v1.2.19",
+      "summary": "Fixes 163 issues (addressing 1,043 👍). Introduces `bun install --linker=isolated` for pnpm-style isolated node_modules, `bun why` for dependency tree understanding, `bun pm pkg` commands for package.json management, enhanced `node:fs.glob()` with array patterns and exclude options,…",
+      "author": null,
+      "publishedAt": "2025-07-19T10:00:00.000Z"
+    },
+    {
+      "guid": "https://bun.com/blog/bun-v1.2.18",
+      "title": "Bun v1.2.18",
+      "link": "https://bun.com/blog/bun-v1.2.18",
+      "summary": "Fixes 52 issues (addressing 112 👍). ReadableStream text(), json(), bytes(), blob(), WebSocket client compression with `permessage-deflate`, `bun pm version`, reduced memory usage for large `fetch()` and `S3` uploads, faster `napi_create_buffer`, faster sliced string handling in native addons,…",
+      "author": null,
+      "publishedAt": "2025-07-03T10:00:00.000Z"
+    },
+    {
+      "guid": "https://bun.com/blog/bun-v1.2.17",
+      "title": "Bun v1.2.17",
+      "link": "https://bun.com/blog/bun-v1.2.17",
+      "summary": "Fixes 50 issues (addressing 80 👍), and adds +24 passing Node.js tests. Ahead-of-time bundling for HTML imports, more reliable Bun Shell, `setTimeout` and `setImmediate` use 8-15% less memory, `columnTypes` & `declaredTypes` in `bun:sqlite`, `bun info` is the new `bun pm view`, Node.js…",
+      "author": null,
+      "publishedAt": "2025-06-21T22:54:53.000Z"
+    },
+    {
+      "guid": "https://bun.com/blog/bun-v1.2.16",
+      "title": "Bun v1.2.16",
+      "link": "https://bun.com/blog/bun-v1.2.16",
+      "summary": "Fixes 73 issues (addressing 124 👍), and adds +119 passing Node.js tests. Serve files with `Bun.serve` through `routes`, `install.linkWorkspacePackages` option in `bunfig.toml`, `bun outdated` support for catalogs, `Bun.hash.rapidhash`, `node:net` compatibility, `vm.SyntheticModule` support,…",
+      "author": null,
+      "publishedAt": "2025-06-11T22:54:53.000Z"
+    },
+    {
+      "guid": "https://bun.com/blog/bun-v1.2.15",
+      "title": "Bun v1.2.15",
+      "link": "https://bun.com/blog/bun-v1.2.15",
+      "summary": "Fixes 11 issues (addressing 261 👍). bun audit scans dependencies for security vulnerabilities, bun pm view shows package metadata from npm. bun init adds a Cursor rule to use Bun instead of Node.js/Vite/npm/pnpm, `node:vm SourceTextModule` and `node:perf_hooks createHistogram` are now implemented.",
+      "author": null,
+      "publishedAt": "2025-05-28T17:07:10.000Z"
+    },
+    {
+      "guid": "https://bun.com/blog/bun-v1.2.14",
+      "title": "Bun v1.2.14",
+      "link": "https://bun.com/blog/bun-v1.2.14",
+      "summary": "Fixes 39 issues (addressing 179 👍). Adds support for catalogs in bun install, --react flag for bun init, improved HTTP routing with method-specific routes, better TypeScript default module settings, fixes a HTTPS proxy issue impacting Codex, and several Node.js compatibility improvements including…",
+      "author": null,
+      "publishedAt": "2025-05-21T12:00:00.000Z"
+    },
+    {
+      "guid": "https://bun.com/blog/bun-v1.2.13",
+      "title": "Bun v1.2.13",
+      "link": "https://bun.com/blog/bun-v1.2.13",
+      "summary": "Fixes 17 bugs (addressing 28 👍, adding +28 passing Node.js tests). Improved --hot stability and Node.js compatibility. Better `node:worker_threads` support, environment data, reduced memory usage for child_process IPC and worker_threads. Fixes BOM handling in `.npmrc` files. Fixes hot reloading on…",
+      "author": null,
+      "publishedAt": "2025-05-09T05:00:00.000Z"
+    },
+    {
+      "guid": "https://bun.com/blog/bun-v1.2.12",
+      "title": "Bun v1.2.12",
+      "link": "https://bun.com/blog/bun-v1.2.12",
+      "summary": "Stream browser console logs to your terminal, dev server uses less memory. Node.js compatibility improvements for timers, vm, net, http, and bugfixes for TextDecoder, hot reloading reliability bugfixes",
+      "author": null,
+      "publishedAt": "2025-05-04T05:02:21.000Z"
+    },
+    {
+      "guid": "https://bun.com/blog/bun-v1.2.11",
+      "title": "Bun v1.2.11",
+      "link": "https://bun.com/blog/bun-v1.2.11",
+      "summary": "Fixes 62 bugs (addressing 77 👍). `process.ref` and `process.unref`, `util.parseArgs` negative options, `BUN_INSPECT_PRELOAD`, Highway SIMD, Node.js compatibility improvements for `node:http`, `node:https`, `node:tls`, and `node:readline`",
+      "author": null,
+      "publishedAt": "2025-04-29T02:39:42.000Z"
+    },
+    {
+      "guid": "https://bun.com/blog/bun-v1.2.10",
+      "title": "Bun v1.2.10",
+      "link": "https://bun.com/blog/bun-v1.2.10",
+      "summary": "Fixes 33 bugs (addressing 33 👍). setImmediate gets faster. Reliability improvements for filesystem operations. Fixes test.failing with done callbacks. Fixes default idle timeout in Redis client. Fixes importing from 'bun' module with bytecode compilation. Default Docker image updated to Debian…",
+      "author": null,
+      "publishedAt": "2025-04-17T05:02:21.000Z"
+    },
+    {
+      "guid": "https://bun.com/blog/bun-v1.2.9",
+      "title": "Bun v1.2.9",
+      "link": "https://bun.com/blog/bun-v1.2.9",
+      "summary": "Fixes 48 bugs (addressing 116 👍). Bun.redis is a builtin Redis client for Bun. `ListObjectsV2` support in `Bun.S3Client`, more `libuv` symbols, `require.extensions` & require.resolve paths, bugfixes in `node:http`, `AsyncLocalStorage`, and `node:crypto`. Shell reliability improvements.",
+      "author": null,
+      "publishedAt": "2025-04-09T03:04:26.000Z"
+    },
+    {
+      "guid": "https://bun.com/blog/debugging-memory-leaks",
+      "title": "Debugging JavaScript Memory Leaks",
+      "link": "https://bun.com/blog/debugging-memory-leaks",
+      "summary": "Use v8 heap snapshot API + Chrome DevTools to compare heap snapshots",
+      "author": null,
+      "publishedAt": "2025-04-02T15:00:00.000Z"
+    },
+    {
+      "guid": "https://bun.com/blog/bun-v1.2.8",
+      "title": "Bun v1.2.8",
+      "link": "https://bun.com/blog/bun-v1.2.8",
+      "summary": "Fixes 18 bugs (addressing 18 👍). napi improvements make node-sdl 100x faster. Headers.get() is 2x faster. Several node:http bugfixes. node:fs improvements. `bun install --frozen-lockfile` now works with `overrides`. `bun pack` now handles directory-specific pattern exclusion.",
+      "author": null,
+      "publishedAt": "2025-03-31T08:46:20.000Z"
+    },
+    {
+      "guid": "https://bun.com/blog/bun-v1.2.7",
+      "title": "Bun v1.2.7",
+      "link": "https://bun.com/blog/bun-v1.2.7",
+      "summary": "Fixes 35 bugs (addressing 219 👍). Bun.CookieMap is a Map-like API for getting & setting cookies. Bun's TypeScript type declarations have been rewritten to eliminate conflicts with Node.js and DOM type definitions. Several bugfixes for node:http, node:crypto, and node:vm.",
+      "author": null,
+      "publishedAt": "2025-03-27T08:51:16.000Z"
+    },
+    {
+      "guid": "https://bun.com/blog/bun-v1.2.6",
+      "title": "Bun v1.2.6",
+      "link": "https://bun.com/blog/bun-v1.2.6",
+      "summary": "Fixes 74 bugs (addressing 36 👍). Faster, more compatible node:crypto. `timeout` option in Bun.spawn. Support for `module.children` in `node:module`. Connect to PostgreSQL via unix sockets with `Bun.SQL`. Dev Server stability improvements. vm.compileFunction. Initial support for node:test. Faster…",
+      "author": null,
+      "publishedAt": "2025-03-25T07:46:20.000Z"
+    },
+    {
+      "guid": "https://bun.com/blog/bun-v1.2.5",
+      "title": "Bun v1.2.5",
+      "link": "https://bun.com/blog/bun-v1.2.5",
+      "summary": "Fixes 75 bugs (addressing 162 👍), and adds +69 passing Node.js tests. Improvements to the frontend dev server, CSS modules support, a full rewrite of Node-API, faster `Sign`, `Verify`, `Hash`, `Hmac` from `node:crypto`, and bug fixes for `node:net` and Bun's bundler",
+      "author": null,
+      "publishedAt": "2025-03-11T08:51:16.000Z"
+    },
+    {
+      "guid": "https://bun.com/blog/bun-v1.2.4",
+      "title": "Bun v1.2.4",
+      "link": "https://bun.com/blog/bun-v1.2.4",
+      "summary": "Up to 60% faster Bun.build on macOS, codesigning support for single-file executables on macOS, dev server stability improvements, fixes a regression from v1.2.3 affecting Hono, fixes up/down buttons in `bun init` on Windows, and improves Node.js compatibility",
+      "author": null,
+      "publishedAt": "2025-02-26T08:51:16.000Z"
+    },
+    {
+      "guid": "https://bun.com/blog/bun-v1.2.3",
+      "title": "Bun v1.2.3",
+      "link": "https://bun.com/blog/bun-v1.2.3",
+      "summary": "Fixes 128 bugs (addressing 349 👍). Bun gets a full-featured frontend development toolchain with incredibly fast hot reloading and bundling. Built-in routing for Bun.serve() makes it simpler to build web applications. Bun.SQL gets sql.array, sql fragments, sql.file, and many bugfixes. Node.js…",
+      "author": null,
+      "publishedAt": "2025-02-22T02:51:16.000Z"
+    },
+    {
+      "guid": "https://bun.com/blog/bun-v1.2.2",
+      "title": "Bun v1.2.2",
+      "link": "https://bun.com/blog/bun-v1.2.2",
+      "summary": "Fixes 38 bugs (addressing 129 👍). JavaScript idle memory usage drops by 10–30%. Fixes regression impacting vite build. Reliability improvements to Bun.SQL, Bun.S3Client, Bun's CSS parser. Node.js compatibility improvements: fs.glob, fs.globSync, fs.promises.glob, bugfixes for fs.Dir,…",
+      "author": null,
+      "publishedAt": "2025-02-01T05:07:32.000Z"
+    },
+    {
+      "guid": "https://bun.com/blog/bun-v1.2.1",
+      "title": "Bun v1.2.1",
+      "link": "https://bun.com/blog/bun-v1.2.1",
+      "summary": "Fixes 32 bugs. S3 storage class support, X25519 support in crypto.generateKeyPair. fs.stat uses less memory. node:fs, node:child_process, and node:process compatibility improvements. CSS parser bugfixes. Zero-filled buffers with `--zero-fill-buffers` flag. Indented inline snapshots in bun test.…",
+      "author": null,
+      "publishedAt": "2025-01-27T15:35:49.000Z"
+    },
+    {
+      "guid": "https://bun.com/blog/bun-v1.2",
+      "title": "Bun 1.2",
+      "link": "https://bun.com/blog/bun-v1.2",
+      "summary": "Built-in Postgres client with Bun.sql, built-in S3 object support with Bun.s3, a new text-based lockfile: bun.lock, Express is 3x faster, and a major update on Node.js compatibility.",
+      "author": null,
+      "publishedAt": "2025-01-22T16:00:00.000Z"
+    },
+    {
+      "guid": "https://bun.com/blog/bun-v1.1.45",
+      "title": "Bun v1.1.45",
+      "link": "https://bun.com/blog/bun-v1.1.45",
+      "summary": "Fixes 13 bugs (addressing 50 👍) 82% of the 'streams' module tests from Node.js' test suite now pass in Bun. node:crypto now implements diffieHellman, getCipherInfo, and X509Certificate. The checkServerIdentity object now matches Node.js' format. Bugfixes in Bun's fs.mkdirSync method, importing…",
+      "author": null,
+      "publishedAt": "2025-01-17T15:35:49.000Z"
+    },
+    {
+      "guid": "https://bun.com/blog/bun-v1.1.44",
+      "title": "Bun v1.1.44",
+      "link": "https://bun.com/blog/bun-v1.1.44",
+      "summary": "Fixes 43 bugs. > 90% of the 'dns' module tests from Node.js' test suite now pass in Bun. You can now build frontend applications on-demand in Bun.serve(). Adds xxHash support to Bun.hash(). Adds support for reading bun.lock using import. Adds --no-install flag to bunx. Improves console.warn output.…",
+      "author": null,
+      "publishedAt": "2025-01-16T14:01:24.000Z"
+    },
+    {
+      "guid": "https://bun.com/blog/bun-v1.1.43",
+      "title": "Bun v1.1.43",
+      "link": "https://bun.com/blog/bun-v1.1.43",
+      "summary": "Bun v1.1.43 introduces 1st-class S3 support, HTML bundling, bun install --filter, V8 heap snapshots, bun install --lockfile-only, bun add --peer, 100% of `node:path` module Node.js test pass, 98% of `node:zlib` tests pass, Bun.file(path).stat(), Bun.file(path).delete(), along with many reliability…",
+      "author": null,
+      "publishedAt": "2025-01-08T16:29:43.000Z"
+    },
+    {
+      "guid": "https://bun.com/blog/bun-v1.1.42",
+      "title": "Bun v1.1.42",
+      "link": "https://bun.com/blog/bun-v1.1.42",
+      "summary": "Fixes 1 regression from Bun v1.1.41 involving 'use strict' in empty files that impacted Prisma",
+      "author": null,
+      "publishedAt": "2024-12-21T13:57:57.000Z"
+    },
+    {
+      "guid": "https://bun.com/blog/bun-v1.1.41",
+      "title": "Bun v1.1.41",
+      "link": "https://bun.com/blog/bun-v1.1.41",
+      "summary": "Fixes 12 bugs (addressing 196 👍). JSDOM & happy-dom work more reliably due to node:vm compatibility improvements. Single-file executables on Windows now support custom icons and hiding the console. throw: true in Bun.build throws an error instead of returning errors. bun install gets the…",
+      "author": null,
+      "publishedAt": "2024-12-20T13:57:57.000Z"
+    }
+  ],
+  "totalIndexed": 50
+}

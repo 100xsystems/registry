@@ -8,40 +8,8 @@
     "monitoring",
     "data-visualization"
   ],
-  "updatedAt": "2026-07-23T13:34:45.221Z",
+  "updatedAt": "2026-07-28T06:52:57.650Z",
   "items": [
-    {
-      "guid": "https://grafana.com/blog/cost-attribution-in-grafana-cloud-manage-spend-across-observability-and-testing-workflows/",
-      "title": "Cost attribution in Grafana Cloud: Manage spend across observability and testing workflows",
-      "link": "https://grafana.com/blog/cost-attribution-in-grafana-cloud-manage-spend-across-observability-and-testing-workflows/",
-      "summary": "Knowing what you're spending on observability is useful. Knowing which team, service, or project is driving that spend is what actually lets you act on that information. \nCost attribution is a core part of how Grafana Cloud approaches cost management and optimization. It gives your organization a…",
-      "author": "Arun Ulagappan",
-      "publishedAt": "2026-07-22T09:57:07.000Z"
-    },
-    {
-      "guid": "https://grafana.com/blog/beyond-performance-monitoring-understand-the-user-experience-with-grafana-cloud-frontend-observability/",
-      "title": "Beyond performance monitoring: Understand the user experience with Grafana Cloud Frontend Observability",
-      "link": "https://grafana.com/blog/beyond-performance-monitoring-understand-the-user-experience-with-grafana-cloud-frontend-observability/",
-      "summary": "You've optimized your Largest Contentful Paint. Your Time to First Byte is under 200ms. Your Lighthouse scores are green. And yet, your checkout conversion rate is quietly dropping. A segment of users in Southeast Asia is churning. Your support team is fielding tickets about a form that \"just…",
-      "author": "Priscilla Lam",
-      "publishedAt": "2026-07-20T10:30:44.000Z"
-    },
-    {
-      "guid": "https://grafana.com/blog/observabilitycon-2026-register-today-and-preview-this-year-s-agenda/",
-      "title": "ObservabilityCON 2026: Register today and preview this year's agenda",
-      "link": "https://grafana.com/blog/observabilitycon-2026-register-today-and-preview-this-year-s-agenda/",
-      "summary": "This fall, prepare to leave your heart in San Francisco. \nRegistration is officially open for ObservabilityCON 2026, our flagship observability event that’s taking place from October 19-21 at Pier 27 in San Francisco.\nWhether you're building in a local environment or operating agentic workflows in…",
-      "author": "Grafana Labs Team",
-      "publishedAt": "2026-07-16T11:31:51.000Z"
-    },
-    {
-      "guid": "https://grafana.com/blog/grafana-labs-named-a-leader-again-in-the-2026-gartner-magic-quadrant-for-observability-platforms/",
-      "title": "Grafana Labs named a Leader again in the 2026 Gartner® Magic Quadrant™ for Observability Platforms",
-      "link": "https://grafana.com/blog/grafana-labs-named-a-leader-again-in-the-2026-gartner-magic-quadrant-for-observability-platforms/",
-      "summary": "We’re delighted to share that Grafana Labs has been named a Leader in the Gartner® Magic Quadrant™ for Observability Platforms for the third consecutive year.\nNotably, we’re also positioned furthest in “Completeness of Vision” for the second year in a row.\nWe’re proud of this recognition and think…",
-      "author": "Robin Gustafsson",
-      "publishedAt": "2026-07-15T11:19:49.000Z"
-    },
     {
       "guid": "https://grafana.com/blog/stop-switching-tools-to-find-answers-grafana-assistant-now-works-across-30-data-sources/",
       "title": "Stop switching tools to find answers: Grafana Assistant now works across 30+ data sources",
@@ -80009,7 +79977,39 @@
       "summary": null,
       "author": null,
       "publishedAt": "2001-01-31T18:30:00.000Z"
+    },
+    {
+      "guid": "https://grafana.com/blog/smarter-onboarding-and-planning-with-grafana-assistant-how-to-ensure-observability-is-baked-in-from-the-start/",
+      "title": "Smarter onboarding and planning with Grafana Assistant: How to ensure observability is baked in from the start",
+      "link": "https://grafana.com/blog/smarter-onboarding-and-planning-with-grafana-assistant-how-to-ensure-observability-is-baked-in-from-the-start/",
+      "summary": "It's Monday afternoon and that feature you've been working on is mostly done. There's just one item still sitting untouched at the bottom of the ticket: \"Add monitoring.\"\nYou know you should. You also know the sprint ends tomorrow, nobody on the team is an observability expert, and figuring out…",
+      "author": "Sven Großmann",
+      "publishedAt": "2026-07-27T10:17:34.000Z"
+    },
+    {
+      "guid": "https://grafana.com/blog/explore-what-s-next-in-agentic-operations-introducing-ai-week/",
+      "title": "Explore what's next in agentic operations: Introducing AI Week",
+      "link": "https://grafana.com/blog/explore-what-s-next-in-agentic-operations-introducing-ai-week/",
+      "summary": "Observability has traditionally been tacked on after your code hits production, but with agentic operations on the rise, that's no longer sustainable.\nAgents have dramatically increased the rate of change as they write more code, ship more changes, and operate more systems—all at a speed that…",
+      "author": "Mat Ryer",
+      "publishedAt": "2026-07-27T06:46:22.000Z"
+    },
+    {
+      "guid": "https://grafana.com/blog/a-new-allowlists-design-for-grafana-cloud-ip-addresses-what-you-need-to-know/",
+      "title": "A new allowlists design for Grafana Cloud IP addresses: What you need to know",
+      "link": "https://grafana.com/blog/a-new-allowlists-design-for-grafana-cloud-ip-addresses-what-you-need-to-know/",
+      "summary": "If your network restricts inbound or outbound traffic, you likely maintain an allowlist of Grafana Cloud IP addresses so your systems and Grafana Cloud can talk to each other. Today we're introducing a new allowlists design: a single, structured API that replaces the collection of per-product lists…",
+      "author": "Pablo Angulo",
+      "publishedAt": "2026-07-23T13:52:13.000Z"
+    },
+    {
+      "guid": "https://grafana.com/blog/grafana-cloud-supabase-one-click-integration/",
+      "title": "How to monitor your Supabase projects: connect Grafana Cloud in one click",
+      "link": "https://grafana.com/blog/grafana-cloud-supabase-one-click-integration/",
+      "summary": "As AI agents accelerate software development and spin up applications at scale, visibility into what's happening behind the scenes, including query performance and database health, has never been more important. Gaining that level of insight requires observability that can keep pace. \nSupabase and…",
+      "author": "Logan Smith",
+      "publishedAt": "2026-07-23T08:40:08.000Z"
     }
   ],
-  "totalIndexed": 21901
+  "totalIndexed": 21905
 }

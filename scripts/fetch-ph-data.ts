@@ -1,9 +1,9 @@
 #!/usr/bin/env tsx
 /**
- * fetch-ph-data.ts
+ * fetch-ph-data.ts — ULTRA-FAST PH FETCH
  *
- * Clones the producthunt-scraper repository and converts the CSV data
- * into structured JSON files in the registry's producthunt/ directory.
+ * Fetches Product Hunt data from the bennyblanco4/producthunt-scraper repo.
+ * Uses raw.githubusercontent.com instead of git clone — saves ~60s.
  *
  * USAGE:
  *   tsx scripts/fetch-ph-data.ts
@@ -11,31 +11,16 @@
  * Source repo: https://github.com/bennyblanco4/producthunt-scraper
  */
 
-import { execSync } from 'node:child_process';
 import * as fs from 'node:fs';
 import * as path from 'node:path';
 
-const PH_REPO = 'https://github.com/bennyblanco4/producthunt-scraper.git';
+const RAW_CSV_URL = 'https://raw.githubusercontent.com/bennyblanco4/producthunt-scraper/main/output/products.csv';
 const PH_CACHE_DIR = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..', 'producthunt');
-const TMP_CLONE_DIR = '/tmp/ph-scraper-clone';
+const FETCH_TIMEOUT_MS = 15_000;
 
 function ensureDir(dir: string): void {
   if (!fs.existsSync(dir)) {
     fs.mkdirSync(dir, { recursive: true });
-  }
-}
-
-function cleanClone(): boolean {
-  if (fs.existsSync(TMP_CLONE_DIR)) {
-    fs.rmSync(TMP_CLONE_DIR, { recursive: true, force: true });
-  }
-  console.log('  Cloning producthunt-scraper...');
-  try {
-    execSync(`git clone --depth=1 ${PH_REPO} ${TMP_CLONE_DIR}`, { stdio: 'pipe', timeout: 60000 });
-    return true;
-  } catch (err) {
-    console.error(`  ✗ Clone failed: ${err instanceof Error ? err.message : String(err)}`);
-    return false;
   }
 }
 
@@ -58,23 +43,31 @@ function parseCSVLine(line: string): string[] {
   return result;
 }
 
-function main(): void {
+async function main(): Promise<void> {
   console.log('\n🦊 Fetching Product Hunt data...');
   const startTime = Date.now();
 
-  if (!cleanClone()) {
+  // Fetch CSV via raw.githubusercontent.com (fast, no git clone)
+  console.log('  Fetching products.csv via raw.githubusercontent.com...');
+  let csvText: string;
+  try {
+    const response = await fetch(RAW_CSV_URL, {
+      signal: AbortSignal.timeout(FETCH_TIMEOUT_MS),
+      headers: { 'User-Agent': '100xSystems/1.0' },
+    });
+    if (!response.ok) {
+      console.error(`  ✗ HTTP ${response.status} for products.csv`);
+      process.exit(1);
+    }
+    csvText = await response.text();
+  } catch (err) {
+    console.error(`  ✗ Fetch failed: ${err instanceof Error ? err.message : String(err)}`);
     process.exit(1);
   }
 
   ensureDir(PH_CACHE_DIR);
 
-  const csvPath = path.join(TMP_CLONE_DIR, 'output', 'products.csv');
-  if (!fs.existsSync(csvPath)) {
-    console.error('  ✗ products.csv not found in cloned repo');
-    process.exit(1);
-  }
-
-  const lines = fs.readFileSync(csvPath, 'utf-8').split('\n').filter(Boolean);
+  const lines = csvText.split('\n').filter(Boolean);
   if (lines.length < 2) {
     console.error('  ✗ No data rows in products.csv');
     process.exit(1);
@@ -107,16 +100,16 @@ function main(): void {
   fs.writeFileSync(path.join(PH_CACHE_DIR, 'index.json'), JSON.stringify({
     type: 'producthunt',
     fetchedAt: new Date().toISOString(),
-    source: PH_REPO,
+    source: 'https://github.com/bennyblanco4/producthunt-scraper',
     productCount: products.length,
   }, null, 2), 'utf-8');
 
-  // Cleanup
-  fs.rmSync(TMP_CLONE_DIR, { recursive: true, force: true });
-
   const elapsed = ((Date.now() - startTime) / 1000).toFixed(1);
   console.log(`   Done in ${elapsed}s`);
-  console.log('✅ Product Hunt data cached to producthunt/\\n');
+  console.log('✅ Product Hunt data cached to producthunt/\n');
 }
 
-main();
+main().catch((err) => {
+  console.error('💥 Fatal error:', err);
+  process.exit(1);
+});

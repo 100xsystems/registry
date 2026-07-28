@@ -8,7 +8,7 @@
     "caching",
     "performance"
   ],
-  "updatedAt": "2026-07-23T11:12:48.911Z",
+  "updatedAt": "2026-07-28T06:53:01.633Z",
   "items": [
     {
       "guid": "https://redis.io/blog/context-assembly-building-the-prompt-the-model-sees/",
@@ -409,7 +409,15 @@
       "summary": "Your application runs in three regions. A customer in Tokyo buys the last unit of a product at the exact moment a customer in Frankfurt buys the same SKU. Both writes succeed locally. Both replicas decrement inventory. Which region's view is correct, ...",
       "author": "Jim Allen Wallace",
       "publishedAt": "2026-05-27T00:00:00.000Z"
+    },
+    {
+      "guid": "https://redis.io/blog/security-update-redis-response-to-the-kimi-k3-vulnerability-claims/",
+      "title": "Security update: Redis response to the Kimi K3 vulnerability claims",
+      "link": "https://redis.io/blog/security-update-redis-response-to-the-kimi-k3-vulnerability-claims/",
+      "summary": "Last week, researchers posted on X that they had used the Kimi K3 AI model to identify vulnerabilities in Redis, including a claim involving 19 zero day vulnerabilities.\n\nWe became aware of this research through the public posts and immediately review...",
+      "author": "Curtis Means",
+      "publishedAt": "2026-07-27T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 50
+  "totalIndexed": 51
 }

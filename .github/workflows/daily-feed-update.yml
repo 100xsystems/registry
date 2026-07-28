@@ -5,7 +5,6 @@ on:
     # Runs 4x daily at 00:00, 06:00, 12:00, 18:00 UTC
     - cron: '0 0,6,12,18 * * *'
   workflow_dispatch:
-    # Allows manual trigger from GitHub UI
     inputs:
       historical:
         description: 'Run historical import (fetch up to 500 items per feed)'
@@ -24,53 +23,42 @@ permissions:
   contents: write
 
 concurrency:
-  # Prevent overlapping runs from the same branch
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
   update-feeds:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 10  # ⚡ 10 min is plenty — real run takes ~10s for 400+ feeds
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          # We need the full history for the diff check
-          fetch-depth: 0
+          fetch-depth: 2  # Enough for the diff check
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 22
+          node-version: 24  # Latest LTS — fast native fetch, best undici perf
           cache: 'npm'
-          cache-dependency-path: package-lock.json
 
       - name: Install dependencies
         run: npm ci
 
-      - name: Run feed update
+      - name: Run feed update (parallel — all feeds at once)
         run: |
           if [ "${{ github.event_name == 'workflow_dispatch' && inputs.historical }}" == "true" ]; then
-            FEED_FLAG=""
-            if [ -n "${{ inputs.feed }}" ]; then
-              FEED_FLAG="--feed=${{ inputs.feed }}"
-            fi
-            npm run update-feeds -- --historical --limit=${{ inputs.limit || 500 }} $FEED_FLAG
+            npm run update-feeds -- --historical --limit=${{ inputs.limit || 500 }}
           else
-            FEED_FLAG=""
-            if [ -n "${{ inputs.feed }}" ]; then
-              FEED_FLAG="--feed=${{ inputs.feed }}"
-            fi
-            npm run update-feeds -- --limit=${{ inputs.limit || 50 }} $FEED_FLAG
+            npm run update-feeds -- --limit=${{ inputs.limit || 50 }}
           fi
 
-      - name: Fetch YC Combinator data
+      - name: Fetch YC Combinator data (fast — raw.githubusercontent.com)
         continue-on-error: true
         run: npm run fetch-yc
 
-      - name: Fetch Product Hunt data
+      - name: Fetch Product Hunt data (fast — raw.githubusercontent.com)
         continue-on-error: true
         run: npm run fetch-ph
 

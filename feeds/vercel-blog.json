@@ -9,7 +9,7 @@
     "edge-computing",
     "nextjs"
   ],
-  "updatedAt": "2026-07-24T06:37:05.145Z",
+  "updatedAt": "2026-07-28T06:53:02.588Z",
   "items": [
     {
       "guid": "vercel-blog::https://vercel.com/changelog/ai-gateway-now-supports-streaming-transcription",
@@ -4058,7 +4058,87 @@
       "summary": "The Vercel MCP server can now deploy code directly to a new or existing project. When your AI assistant finishes building something, it can ship it to Vercel and hand back a shareable URL without leaving the chat.\nPoint the  tool at your files and Vercel creates the project, detects the framework,…",
       "author": "Josh Souphanthong",
       "publishedAt": "2026-07-23T00:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/regional-inference-now-available-on-ai-gateway",
+      "title": "Regional inference now available on AI Gateway",
+      "link": "https://vercel.com/changelog/regional-inference-now-available-on-ai-gateway",
+      "summary": "AI Gateway now supports . Set  on a request to pin it to the US or EU. Every model provider that supports the selected region handles it the same way. Inference runs there, and any data the provider keeps is stored there.regional inferenceinferenceRegion\nAI Gateway supports two pinned regions, plus…",
+      "author": "Walter Korman",
+      "publishedAt": "2026-07-27T19:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/eve-adds-new-slack-event-hooks-and-session-controls",
+      "title": "eve adds new Slack event hooks and session controls",
+      "link": "https://vercel.com/changelog/eve-adds-new-slack-event-hooks-and-session-controls",
+      "summary": "agents on Slack can now keep replying in a thread without repeated mentions, cancel an in-progress response or reset a conversation entirely, and react to any event your Slack app subscribes to.eve\nMentions no longer have to carry the conversation. Once a thread has an active session, your agent…",
+      "author": "Andrew Barba",
+      "publishedAt": "2026-07-27T17:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/blog/deepsecbench-evaluating-model-performance-in-finding-cybersecurity-vulnerabilities",
+      "title": "DeepsecBench: evaluating model performance in finding cybersecurity vulnerabilities",
+      "link": "https://vercel.com/blog/deepsecbench-evaluating-model-performance-in-finding-cybersecurity-vulnerabilities",
+      "summary": "Last week, OpenAI evaluated two models on an exploit benchmark within an isolated sandbox. Guardrails were reduced for testing, and the models found a vulnerability in their environment, accessed the internet, and reached Hugging Face's production database.\nNo human directed the action, but the…",
+      "author": "Malte Ubl",
+      "publishedAt": "2026-07-27T04:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/websocket-support-for-openai-responses-api-live-on-ai-gateway",
+      "title": "WebSocket support for OpenAI Responses API live on AI Gateway",
+      "link": "https://vercel.com/changelog/websocket-support-for-openai-responses-api-live-on-ai-gateway",
+      "summary": "now supports WebSocket mode for the OpenAI Responses API. You can keep a persistent connection open and continue each turn by sending only new input items plus , instead of re-sending the full context over a fresh HTTP request every turn.AI Gatewayprevious_response_id\n up to ~40% faster end-to-end…",
+      "author": "Kevin Dawkins",
+      "publishedAt": "2026-07-27T00:01:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/nuxt-july-2026-security-advisory",
+      "title": "Nuxt July 2026 security advisory",
+      "link": "https://vercel.com/changelog/nuxt-july-2026-security-advisory",
+      "summary": "The  team has released Nuxt 4.5.1 and 3.21.10, along with  3.3.1, to address eight security advisories, including a high-severity server-side remote code execution vulnerability.Nuxt@nuxt/devtools\nVercel received advance notice of the server-side remote code execution vulnerability, , and deployed…",
+      "author": "Daniel Roe",
+      "publishedAt": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/kimi-k3-and-kimi-k3-fast-on-ai-gateway",
+      "title": "Kimi K3 and Kimi K3 Fast with ZDR and US-based providers now on AI Gateway",
+      "link": "https://vercel.com/changelog/kimi-k3-and-kimi-k3-fast-on-ai-gateway",
+      "summary": "and its faster serving path, , are now available from US-based providers on AI Gateway, including Baseten and Fireworks.  (ZDR) is also supported for both models. Kimi K3 from Moonshot AIKimi K3 FastZero Data Retention\nRunning Kimi K3 on US-based providers lets teams with data residency and…",
+      "author": "Jerilyn Zheng",
+      "publishedAt": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/claude-managed-agents-with-chat-sdk",
+      "title": "Run Claude Managed Agents with Chat SDK",
+      "link": "https://vercel.com/changelog/claude-managed-agents-with-chat-sdk",
+      "summary": "You can now run  with .Claude Managed AgentsChat SDK\nClaude Managed Agents handles the agent loop server-side, including the model, tools, session state, and sandboxed web research.\nChat SDK gives that agent a chat interface through a single type-safe handler, with adapters that carry it to Slack,…",
+      "author": "Ben Sabic",
+      "publishedAt": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/vercel-waf-for-blob-is-now-in-beta",
+      "title": "Vercel WAF for Blob is now in beta",
+      "link": "https://vercel.com/changelog/vercel-waf-for-blob-is-now-in-beta",
+      "summary": "The  can now protect a Vercel Blob store. The same rules that guard your deployments (deny, challenge, rate limit) now apply to blob traffic with no changes to your code, blob URLs, or . Vercel WAF@vercel/blob\nEvery blob is already served through , so protection is a switch on the store, not a new…",
+      "author": "Agustin Falco",
+      "publishedAt": "2026-07-24T17:48:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/workflow-steps-now-support-extended-function-durations",
+      "title": "Workflow steps now support extended function durations",
+      "link": "https://vercel.com/changelog/workflow-steps-now-support-extended-function-durations",
+      "summary": "Workflow steps on Pro and Enterprise plans can now run for up to 30 minutes (1800 seconds), up from 800 seconds, using  (in beta).extended function durations\nTo opt in, set  to  in your project's Environment Variables, then redeploy. Requires  and a supported Node.js or Python…",
+      "author": "Elliot Dauber",
+      "publishedAt": "2026-07-24T04:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/claude-opus-5-now-available-on-ai-gateway",
+      "title": "Claude Opus 5 now available on AI Gateway",
+      "link": "https://vercel.com/changelog/claude-opus-5-now-available-on-ai-gateway",
+      "summary": "from Anthropic is now available on AI Gateway.Claude Opus 5\nOpus 5 improves on previous Opus models for long-horizon agentic coding, handling multi-file features, larger refactors, and end-to-end feature work, and completing full tasks rather than leaving stubs or placeholders.\nOpus 5 is effective…",
+      "author": "Rohan Taneja",
+      "publishedAt": "2026-07-24T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 506
+  "totalIndexed": 516
 }

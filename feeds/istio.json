@@ -8,7 +8,7 @@
     "cloud-native",
     "service-mesh"
   ],
-  "updatedAt": "2026-07-23T11:01:09.591Z",
+  "updatedAt": "2026-07-28T06:53:04.052Z",
   "items": [
     {
       "guid": "https://istio.io/latest/blog/2026/traffic-extension-api/",
@@ -1297,7 +1297,15 @@
       "summary": "Conventional network security approaches fail to address security threats to distributed applications deployed in dynamic production environments. Today, we describe how Istio authentication enables enterprises to transform their security posture from just protecting the edge to consistently…",
       "author": null,
       "publishedAt": "2017-05-25T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2026/retirement-of-gcr.io-follow-up/",
+      "title": "An Update on Our Container Registry Migration",
+      "link": "https://istio.io/latest/blog/2026/retirement-of-gcr.io-follow-up/",
+      "summary": "In a previous blog post, we announced that Istio will retire the gcr.io/istio-release container registry in late 2026 and switch to registry.istio.io/release as the new home for Istio images.\nThe original design was that registry.istio.io/release would be a Cloudflare worker that proxied requests…",
+      "author": null,
+      "publishedAt": "2026-07-23T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 161
+  "totalIndexed": 162
 }

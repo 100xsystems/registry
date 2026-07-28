@@ -1,13 +1,9 @@
 #!/usr/bin/env tsx
 /**
- * fetch-yc-data.ts
+ * fetch-yc-data.ts — ULTRA-FAST YC FETCH
  *
- * Clones the yc-oss/api repository and caches Y Combinator company data
- * as JSON files in the registry's yc/ directory.
- *
- * The yc-oss/api repo: https://github.com/yc-oss/api
- * Individual company files are inside batches/{batch}/ directories.
- * Batch summary files (batches/{batch}.json) contain full company arrays.
+ * Fetches Y Combinator company data from the yc-oss/api repository.
+ * Uses raw.githubusercontent.com instead of git clone — saves ~60s.
  *
  * USAGE:
  *   tsx scripts/fetch-yc-data.ts
@@ -15,17 +11,18 @@
  * This script should run daily via GitHub Actions.
  */
 
-import { execSync } from 'node:child_process';
 import * as fs from 'node:fs';
 import * as path from 'node:path';
 
 // ── Config ────────────────────────────────────────────────────────────
 
-const YC_API_REPO = 'https://github.com/yc-oss/api.git';
+const RAW_BASE = 'https://raw.githubusercontent.com/yc-oss/api/main';
+const API_BASE = 'https://api.github.com/repos/yc-oss/api';
+
 const YC_CACHE_DIR = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..', 'yc');
-const TMP_CLONE_DIR = '/tmp/yc-api-clone';
 const RECENT_BATCHES = ['summer-2026', 'winter-2026', 'summer-2025', 'winter-2025'];
 const FEATURED_COUNT = 50;
+const FETCH_TIMEOUT_MS = 15_000;
 
 // ── Types ────────────────────────────────────────────────────────────
 
@@ -57,17 +54,20 @@ function ensureDir(dir: string): void {
   }
 }
 
-function cleanClone(): boolean {
-  if (fs.existsSync(TMP_CLONE_DIR)) {
-    fs.rmSync(TMP_CLONE_DIR, { recursive: true, force: true });
-  }
-  console.log('  Cloning yc-oss/api...');
+async function fetchJson<T>(url: string, label: string): Promise<T | null> {
   try {
-    execSync(`git clone --depth=1 ${YC_API_REPO} ${TMP_CLONE_DIR}`, { stdio: 'pipe', timeout: 60000 });
-    return true;
+    const response = await fetch(url, {
+      signal: AbortSignal.timeout(FETCH_TIMEOUT_MS),
+      headers: { 'User-Agent': '100xSystems/1.0' },
+    });
+    if (!response.ok) {
+      console.warn(`  ⚠ ${label}: HTTP ${response.status}`);
+      return null;
+    }
+    return (await response.json()) as T;
   } catch (err) {
-    console.error(`  ✗ Clone failed: ${err instanceof Error ? err.message : String(err)}`);
-    return false;
+    console.warn(`  ⚠ ${label}: ${err instanceof Error ? err.message : String(err)}`);
+    return null;
   }
 }
 
@@ -90,56 +90,44 @@ function slimCompany(raw: Record<string, unknown>): YcCompany {
 
 // ── Main ──────────────────────────────────────────────────────────────
 
-function main(): void {
+async function main(): Promise<void> {
   console.log('\n🔬 Fetching YC Combinator data...');
   const startTime = Date.now();
 
-  if (!cleanClone()) {
-    process.exit(1);
-  }
-
   ensureDir(YC_CACHE_DIR);
+  const errors: string[] = [];
 
-  // 1. Copy meta.json
-  const metaSrc = path.join(TMP_CLONE_DIR, 'meta.json');
-  if (fs.existsSync(metaSrc)) {
-    const meta = JSON.parse(fs.readFileSync(metaSrc, 'utf-8')) as YcMeta;
+  // 1. Fetch meta.json
+  const meta = await fetchJson<YcMeta>(`${RAW_BASE}/meta.json`, 'meta.json');
+  if (meta) {
     const cachedMeta = { ...meta, fetchedAt: new Date().toISOString() };
     fs.writeFileSync(path.join(YC_CACHE_DIR, 'meta.json'), JSON.stringify(cachedMeta, null, 2), 'utf-8');
     console.log(`  ✓ meta.json — ${meta.total_companies} companies, ${meta.total_batches} batches`);
+  } else {
+    errors.push('meta.json');
   }
 
-  // 2. Read batch summary JSON files → collect featured companies
-  const batchesSrc = path.join(TMP_CLONE_DIR, 'batches');
+  // 2. Fetch batch summary JSON files
   const featuredCompanies: YcCompany[] = [];
 
-  if (fs.existsSync(batchesSrc)) {
-    for (const batchName of RECENT_BATCHES) {
-      const batchFile = path.join(batchesSrc, `${batchName}.json`);
-      if (!fs.existsSync(batchFile)) continue;
+  for (const batchName of RECENT_BATCHES) {
+    const batchUrl = `${RAW_BASE}/batches/${batchName}.json`;
+    const batchData = await fetchJson<Record<string, unknown>[]>(batchUrl, `${batchName}.json`);
 
-      try {
-        const batchData = JSON.parse(fs.readFileSync(batchFile, 'utf-8')) as Record<string, unknown>[];
-        if (!Array.isArray(batchData)) continue;
+    if (batchData && Array.isArray(batchData)) {
+      const batchFeatured = batchData
+        .map((raw) => slimCompany(raw))
+        .sort((a, b) => Number(b.top_company) - Number(a.top_company))
+        .slice(0, 12);
 
-        const batchFeatured = batchData
-          .map((raw) => slimCompany(raw))
-          .sort((a, b) => Number(b.top_company) - Number(a.top_company))
-          .slice(0, 12);
-
-        featuredCompanies.push(...batchFeatured);
-        console.log(`  ✓ ${batchName}.json — ${batchData.length} companies`);
-      } catch {
-        console.warn(`  ⚠ Could not parse ${batchName}.json`);
-      }
+      featuredCompanies.push(...batchFeatured);
+      console.log(`  ✓ ${batchName}.json — ${batchData.length} companies`);
+    } else {
+      errors.push(`${batchName}.json`);
     }
-
-    // 3. (Skipped — individual batch company files are not cached.
-    //    Only the aggregated featured.json is used by the website.
-    //    This keeps the cache lean for fast Vercel deployments.)
   }
 
-  // 4. Write featured-companies.json (used by HomeYC component)
+  // 3. Write featured.json
   const featuredPath = path.join(YC_CACHE_DIR, 'featured.json');
   fs.writeFileSync(featuredPath, JSON.stringify({
     fetchedAt: new Date().toISOString(),
@@ -148,28 +136,28 @@ function main(): void {
   }, null, 2), 'utf-8');
   console.log(`  ✓ featured.json — ${Math.min(featuredCompanies.length, FEATURED_COUNT)} featured companies`);
 
-  // 5. Also cache the latest changes
-  const changesSrc = path.join(TMP_CLONE_DIR, 'changes', 'latest.json');
-  if (fs.existsSync(changesSrc)) {
-    fs.copyFileSync(changesSrc, path.join(YC_CACHE_DIR, 'changes-latest.json'));
+  // 4. Fetch changes/latest.json
+  const changes = await fetchJson<Record<string, unknown>>(`${RAW_BASE}/changes/latest.json`, 'changes-latest.json');
+  if (changes) {
+    fs.writeFileSync(path.join(YC_CACHE_DIR, 'changes-latest.json'), JSON.stringify(changes, null, 2), 'utf-8');
     console.log('  ✓ changes-latest.json');
   }
 
-  // 6. Write index
+  // 5. Write index
   const index = {
     type: 'yc-combinator',
     fetchedAt: new Date().toISOString(),
-    source: YC_API_REPO,
+    source: 'https://github.com/yc-oss/api',
     featuredCount: Math.min(featuredCompanies.length, FEATURED_COUNT),
   };
   fs.writeFileSync(path.join(YC_CACHE_DIR, 'index.json'), JSON.stringify(index, null, 2), 'utf-8');
-
-  // Cleanup
-  fs.rmSync(TMP_CLONE_DIR, { recursive: true, force: true });
 
   const elapsed = ((Date.now() - startTime) / 1000).toFixed(1);
   console.log(`   Done in ${elapsed}s`);
   console.log('✅ YC data cached to yc/\n');
 }
 
-main();
+main().catch((err) => {
+  console.error('💥 Fatal error:', err);
+  process.exit(1);
+});

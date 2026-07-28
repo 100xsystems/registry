@@ -9,7 +9,7 @@
     "performance",
     "edge-computing"
   ],
-  "updatedAt": "2026-07-24T06:36:40.908Z",
+  "updatedAt": "2026-07-28T06:52:56.624Z",
   "items": [
     {
       "guid": "01KY2432VQPD5FTF2RARXXYQGH",
@@ -61226,7 +61226,23 @@
       "summary": "Perhaps you’ve seen something that should sail out of cache get dragged back to the origin by a stray Set-Cookie or Cache-Control, headers that can be difficult to change on the origin itself. Cache Response Rules is the fix, applied at the right time.",
       "author": "Alex Krivit",
       "publishedAt": "2026-07-23T18:40:38.000Z"
+    },
+    {
+      "guid": "01KYGZXPC2FQ4NSXSKXXYY86FZ",
+      "title": "We’re open-sourcing our privacy proxy CLI",
+      "link": "https://blog.cloudflare.com/open-sourcing-our-privacy-proxy-cli/",
+      "summary": "pvcli is a curl-like tool designed to simplify the testing of complex privacy protocols like OHTTP.",
+      "author": "Hannah Wang",
+      "publishedAt": "2026-07-27T13:00:00.000Z"
+    },
+    {
+      "guid": "01KYAFZ0EEBE4R099P8HT79D5X",
+      "title": "BGP ORIGIN attribute manipulation and its impact on the Internet",
+      "link": "https://blog.cloudflare.com/bgp-origin-attribute/",
+      "summary": "By doing in-depth testing, we found nearly 70% of BGP paths experience ORIGIN attribute rewrites by transit providers seeking traffic advantages. We examine the global impact of this practice and argue for deprecating ORIGIN in route selection.",
+      "author": "Iliana Xygkou",
+      "publishedAt": "2026-07-24T17:25:28.000Z"
     }
   ],
-  "totalIndexed": 7652
+  "totalIndexed": 7654
 }

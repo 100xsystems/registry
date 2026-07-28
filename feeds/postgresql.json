@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-07-24T06:37:19.852Z",
+  "updatedAt": "2026-07-28T06:53:05.085Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -281,7 +281,87 @@
       "summary": "Postgres Summit US 2026 (formerly: PGConf NYC) will take place September 30 - October 2, at Convene, in New York. EDB is joining the event as a sponsor at the Gold-level. Our team of Postgres experts, core contributors, and innovators have secured a stellar lineup of sessions through the Call for…",
       "author": null,
       "publishedAt": "2026-07-21T08:28:59.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9qB",
+      "title": "Christophe Pettus: All Your GUCs in a Row: gss_accept_delegation",
+      "link": "https://postgr.es/p/9qB",
+      "summary": "PostgreSQL 16 lets servers accept delegated Kerberos credentials to act as users against other services, but it defaults to off because the trade-off is real…",
+      "author": null,
+      "publishedAt": "2026-07-28T03:30:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9qA",
+      "title": "Hayato Kuroda: Highlights of Fujitsu's contribution in PostgreSQL 19",
+      "link": "https://postgr.es/p/9qA",
+      "summary": "Fujitsu’s PostgreSQL team helped shape PostgreSQL 19 through sustained code contributions, community recognition, and new improvements in logical replication. Take a closer look at Fujitsu’s growing impact and ongoing commitment to advancing open-source database innovation.",
+      "author": null,
+      "publishedAt": "2026-07-28T00:56:59.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9qz",
+      "title": "Vibhor Kumar: The CALM Platform Test",
+      "link": "https://postgr.es/p/9qz",
+      "summary": "Why Enterprise Platforms Often Fail Long Before They Break\nThe examples in this article are anonymized, and certain details have been adjusted to protect the organizations involved.\n\n\n\n\n\n\n\n\nThe Crossroads Nobody Schedules\nEvery enterprise platform eventually reaches a crossroads.\nNot because it…",
+      "author": null,
+      "publishedAt": "2026-07-27T21:08:45.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9qy",
+      "title": "Radim Marek: PostgreSQL's MVCC is bad. So is everyone else's.",
+      "link": "https://postgr.es/p/9qy",
+      "summary": "The first thing you will probably learn about Postgres, if you follow people who don't like Postgres, is that MVCC is bad. The 40-year-old design mistake. It's signatures are everywhere. Bloated tables that double in size, 32-bit transaction counter limit, the never ending struggle with VACCUM,…",
+      "author": null,
+      "publishedAt": "2026-07-27T14:00:40.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9qw",
+      "title": "Christophe Pettus: All Your GUCs in a Row: gin_fuzzy_search_limit",
+      "link": "https://postgr.es/p/9qw",
+      "summary": "PostgreSQL's `gin_fuzzy_search_limit` silently returns a random subset of matching rows instead of all results—a dangerous trade of correctness for speed that…",
+      "author": null,
+      "publishedAt": "2026-07-27T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9qt",
+      "title": "Andrei Lepikhov: Why your pioneering Postgres feature should start in a fork",
+      "link": "https://postgr.es/p/9qt",
+      "summary": "At a Postgres meetup in Melbourne, I finally got a straight answer to a question that had nagged me for quite a long time: why do people actually choose Postgres? It isn't an idle question for me — I spend my days reading field reports and designing planner features, and keep seeing how much…",
+      "author": null,
+      "publishedAt": "2026-07-26T08:58:27.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9qs",
+      "title": "Bruce Momjian: Postgres AI Workshop",
+      "link": "https://postgr.es/p/9qs",
+      "summary": "AWS was kind enough to organize an AI workshop this week in Pittsburgh for their employees, and the Postgres\ncommitters  and core team.  The first day covered the basics of setting up\nClaude and specifically how to use it from the command line to analyze files and automate workflows.  We also…",
+      "author": null,
+      "publishedAt": "2026-07-26T03:15:01.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9qr",
+      "title": "Christophe Pettus: All Your GUCs in a Row: The geqo Family",
+      "link": "https://postgr.es/p/9qr",
+      "summary": "PostgreSQL's genetic query optimizer has seven knobs, but you should probably only touch one. Learn which one, and why the others are best left alone.",
+      "author": null,
+      "publishedAt": "2026-07-26T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9qq",
+      "title": "Christophe Pettus: All Your GUCs in a Row: full_page_writes",
+      "link": "https://postgr.es/p/9qq",
+      "summary": "Why PostgreSQL logs entire pages after crashes and why turning it off is riskier than it sounds.",
+      "author": null,
+      "publishedAt": "2026-07-25T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9qp",
+      "title": "Shaun Thomas: Looking Forward to Postgres 19: Autovacuum Tweaks",
+      "link": "https://postgr.es/p/9qp",
+      "summary": "The autovacuum process has been dutifully tending Postgres tables since version 8.1, and almost every release since has acquired some new refinement: smarter thresholds, insert-aware triggering, resource cost limits, and so on. It's the reliable maintenance workhorse that heroically forestalls…",
+      "author": null,
+      "publishedAt": "2026-07-24T12:34:46.000Z"
     }
   ],
-  "totalIndexed": 34
+  "totalIndexed": 44
 }

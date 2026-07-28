@@ -8,7 +8,7 @@
     "debugging",
     "performance"
   ],
-  "updatedAt": "2026-07-24T06:38:53.264Z",
+  "updatedAt": "2026-07-28T06:53:13.463Z",
   "items": [
     {
       "guid": "https://blog.sentry.io/godot-dotnet-ga/",
@@ -257,7 +257,15 @@
       "summary": "Learn how to automate bug fixes using Sentry, Seer, and cloud coding agents to clear your backlog.",
       "author": null,
       "publishedAt": "2026-07-23T09:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.sentry.io/session-replay-unreal-engine/",
+      "title": "Session Replay for Unreal Engine: see the crash before the crash",
+      "link": "https://blog.sentry.io/session-replay-unreal-engine/",
+      "summary": "The Sentry Unreal Engine SDK now records the last seconds of gameplay and attaches the footage to crash reports, so you can watch what led to the crash.",
+      "author": null,
+      "publishedAt": "2026-07-24T09:00:00.000Z"
     }
   ],
-  "totalIndexed": 31
+  "totalIndexed": 32
 }

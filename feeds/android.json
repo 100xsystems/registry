@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-07-24T06:41:25.775Z",
+  "updatedAt": "2026-07-28T06:54:27.335Z",
   "items": [
     {
       "guid": "android::https://android-developers.googleblog.com/2026/07/optimize-galaxy-screen-sizes.html",
@@ -207,7 +207,15 @@
       "summary": "Posted by Android XR Team\n\n\n\n\nThe Android XR ecosystem is expanding, and we’re committed to supporting developers who will build its next great experiences. Today, we’re opening applications for the Android XR Developer Catalyst Program, a dedicated initiative to accelerate the development of…",
       "author": "Android Developers",
       "publishedAt": "2026-05-19T11:15:00.000Z"
+    },
+    {
+      "guid": "android::https://android-developers.googleblog.com/2026/07/how-r8-made-kotlin-coroutines-2x-faster.html",
+      "title": "How R8 made Kotlin Coroutines on Android 2x faster",
+      "link": "https://android-developers.googleblog.com/2026/07/how-r8-made-kotlin-coroutines-2x-faster.html",
+      "summary": "Posted by Andrei Shikov, Senior Software Engineer, Android Toolkit and Jonathan Starup, Software Engineer, R8 Team\n\n\n\n\n\n\n\n\n\n\nStarting from AGP 9.2.0, R8 optimizes most Atomic*FieldUpdater calls into Unsafe variants that perform 2x to 4x better on common operations. This has a particularly large…",
+      "author": "Android Developers",
+      "publishedAt": "2026-07-27T13:00:00.000Z"
     }
   ],
-  "totalIndexed": 25
+  "totalIndexed": 26
 }

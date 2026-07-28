@@ -2,13 +2,13 @@
   "feedId": "redhat",
   "feedName": "Red Hat Blog",
   "feedSiteUrl": "https://www.redhat.com/en/blog",
-  "feedRssUrl": "https://www.redhat.com/rss/blog",
+  "feedRssUrl": "https://www.redhat.com/en/rss/blog",
   "tags": [
     "open-source",
     "linux",
     "cloud-native"
   ],
-  "updatedAt": "2026-07-23T13:35:30.883Z",
+  "updatedAt": "2026-07-28T06:53:14.409Z",
   "items": [
     {
       "guid": "redhat::https://www.redhat.com/ja/sitemap.xml",
@@ -193,7 +193,87 @@
       "summary": null,
       "author": null,
       "publishedAt": null
+    },
+    {
+      "guid": "https://www.redhat.com/en/blog/strengthening-open-source-defense-layer-red-hat-joins-nvidias-open-secure-ai-alliance",
+      "title": "Strengthening the open source defense layer: Red Hat joins NVIDIA in the Open Secure AI Alliance",
+      "link": "https://www.redhat.com/en/blog/strengthening-open-source-defense-layer-red-hat-joins-nvidias-open-secure-ai-alliance",
+      "summary": "As AI capabilities advance, they transform the security landscape in real time. To address these challenges at scale, no single company can act in isolation. We must bring together our respective expertise across the industry. That is why Red Hat is proud to participate as an inaugural member of…",
+      "author": null,
+      "publishedAt": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.redhat.com/en/blog/how-leading-companies-are-turning-ai-vision-business-value",
+      "title": "How leading companies are turning AI vision into business value",
+      "link": "https://www.redhat.com/en/blog/how-leading-companies-are-turning-ai-vision-business-value",
+      "summary": "I’m fortunate that I get to speak with hundreds of customers every year. These enterprises span the technology adoption curve—some who thrive on the leading edge, and others who prefer being as risk-averse as possible. But the AI era—ever-churning and bursting with exuberance—has united nearly all…",
+      "author": null,
+      "publishedAt": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.redhat.com/en/blog/building-future-core-concepts-red-hats-agentic-software-development-life-cycle",
+      "title": "Building the future: Core concepts of Red Hat’s agentic software development life cycle",
+      "link": "https://www.redhat.com/en/blog/building-future-core-concepts-red-hats-agentic-software-development-life-cycle",
+      "summary": "When integrating AI into your software development processes, the methodology you use to build software is as important as the models themselves. At Red Hat, we believe the true value of AI emerges when it is integrated into transparent, scalable, and reliable enterprise workflows. We're moving…",
+      "author": null,
+      "publishedAt": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.redhat.com/en/blog/gain-stronger-pod-isolation-microsoft-azure-red-hat-openshift-openshift-sandboxed-containers",
+      "title": "Gain stronger pod isolation on Microsoft Azure Red Hat OpenShift with OpenShift sandboxed containers",
+      "link": "https://www.redhat.com/en/blog/gain-stronger-pod-isolation-microsoft-azure-red-hat-openshift-openshift-sandboxed-containers",
+      "summary": "If you are running containerized workloads on Red Hat OpenShift, then you already benefit from industry-leading process isolation. Security context constraints (SCC) restrict what pods can do, SELinux enforces mandatory access controls, cgroups limit resource consumption, and many permissive Linux…",
+      "author": null,
+      "publishedAt": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.redhat.com/en/blog/friday-five-july-24-2026-red-hat",
+      "title": "Friday Five — July 24, 2026",
+      "link": "https://www.redhat.com/en/blog/friday-five-july-24-2026-red-hat",
+      "summary": "Red Hat OpenShift Commons Gathering Salt Lake City 2026Register for the in-person Red Hat OpenShift Commons Gathering alongside KubeCon + CloudNativeCon North America. This event brings together the global OpenShift community-including users, contributors, partners, and Red Hat experts-to share…",
+      "author": null,
+      "publishedAt": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.redhat.com/en/blog/beyond-blind-spots-defeating-frontier-ai-model-threats-your-application-development-process",
+      "title": "Beyond the blind spots: Defeating frontier AI model threats in your application development process",
+      "link": "https://www.redhat.com/en/blog/beyond-blind-spots-defeating-frontier-ai-model-threats-your-application-development-process",
+      "summary": "Looking back a few months ago, it's wild to think about how much things have changed in the world of cybersecurity. Not long ago, running a few outdated application runtimes, pushing Common Vulnerabilities and Exposures (CVE) patches to \"next month's sprint,\" or carrying end-of-life tech stacks was…",
+      "author": null,
+      "publishedAt": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.redhat.com/en/blog/achieve-high-scalability-using-red-hat-satellite-capsule-server",
+      "title": "Achieve high scalability using Red Hat Satellite Capsule Server",
+      "link": "https://www.redhat.com/en/blog/achieve-high-scalability-using-red-hat-satellite-capsule-server",
+      "summary": "Whether you’re managing a few dozen servers or a massive, distributed Red Hat Enterprise Linux (RHEL) estate, Red Hat Satellite's architecture is engineered for growth. As an infrastructure expands, relying on a single, centralized Red Hat Satellite Server to handle every task can create…",
+      "author": null,
+      "publishedAt": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.redhat.com/en/blog/5-new-ways-red-hat-helps-partners-maximize-business-value",
+      "title": "5 new ways Red Hat helps partners maximize business value",
+      "link": "https://www.redhat.com/en/blog/5-new-ways-red-hat-helps-partners-maximize-business-value",
+      "summary": "At Red Hat, our goal for the ecosystem has always been simple: build a predictable, profitable partner program for our partners to scale their business. As always, we remain committed to the future of open source, and that means continuously investing in the partners who help us bring that future…",
+      "author": null,
+      "publishedAt": "2026-07-23T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.redhat.com/en/blog/red-hat-government-symposium-keeping-mission-motion-leading-through-change-and-delivering-impact",
+      "title": "Red Hat Government Symposium: Keeping the mission in motion by leading through change and delivering with impact",
+      "link": "https://www.redhat.com/en/blog/red-hat-government-symposium-keeping-mission-motion-leading-through-change-and-delivering-impact",
+      "summary": "Agencies are keeping missions moving while technology, security requirements, data demands, and public expectations all continue to shift at once. That’s why this year’s Red Hat Government Symposium couldn’t have come at a better time. Bringing together leaders from federal, state, and local…",
+      "author": null,
+      "publishedAt": "2026-07-23T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.redhat.com/en/blog/why-single-ai-agents-fail-scale-building-governed-multi-agent-networks",
+      "title": "Why single AI agents fail at scale: Building governed multi-agent networks",
+      "link": "https://www.redhat.com/en/blog/why-single-ai-agents-fail-scale-building-governed-multi-agent-networks",
+      "summary": "A secured agent that can't reach anything is just expensive autocomplete with a badge. In \"Why prompt-level guardrails aren't enough,\" I walked through how Red Hat AI allows you to give each agent a cryptographic identity and lock down what it can touch. That solves the trust problem, but it…",
+      "author": null,
+      "publishedAt": "2026-07-23T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 23
+  "totalIndexed": 33
 }

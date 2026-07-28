@@ -1,0 +1,415 @@
+{
+  "feedId": "digitalocean",
+  "feedName": "DigitalOcean Blog",
+  "feedSiteUrl": "https://www.digitalocean.com/blog",
+  "feedRssUrl": "https://www.digitalocean.com/blog/rss/",
+  "tags": [
+    "cloud",
+    "infrastructure",
+    "devops"
+  ],
+  "updatedAt": "2026-07-28T06:53:17.868Z",
+  "items": [
+    {
+      "guid": "digitalocean::https://www.digitalocean.com/blog/model-synthesis",
+      "title": "Outperforming Fable 5 at half the price: meet model synthesis, a new server-side tool on DigitalOcean Inference Engine",
+      "link": "https://www.digitalocean.com/blog/model-synthesis",
+      "summary": "Anyone building with AI runs into the same tradeoff: how to get the most intelligence per dollar, the right model at the right cost for each task. DigitalOcean Inference Engine is built to help you make that tradeoff, and one way is finding the right model for each job. But sometimes one model…",
+      "author": "Hemasumanth Rasineni",
+      "publishedAt": "2026-07-23T20:03:12.073Z"
+    },
+    {
+      "guid": "digitalocean::https://www.digitalocean.com/blog/price-changes-gpus",
+      "title": "Upcoming GPU Pricing Updates",
+      "link": "https://www.digitalocean.com/blog/price-changes-gpus",
+      "summary": "Effective August 1st, 2026, we will be updating prices on select GPUs. This change reflects strong demand for advanced GPU capacity and helps us expand reliable access to high-performance compute for customers. Even with the updated rates, DigitalOcean continues to offer some of the most…",
+      "author": null,
+      "publishedAt": "2026-07-21T00:30:53.697Z"
+    },
+    {
+      "guid": "digitalocean::https://www.digitalocean.com/blog/public-preview-managed-weaviate",
+      "title": "Scale Faster with Managed Weaviate: Now in Public Preview on DigitalOcean",
+      "link": "https://www.digitalocean.com/blog/public-preview-managed-weaviate",
+      "summary": "Production Weaviate in minutes, managed by DigitalOcean. Starting at $20/month.\nVector databases have become a core piece of the AI application stack. Whether you’re building retrieval-augmented generation (RAG), semantic search, agentic workflows and memory, or similarity-based recommendations,…",
+      "author": "Waverly Swinton",
+      "publishedAt": "2026-07-09T19:08:52.853Z"
+    },
+    {
+      "guid": "digitalocean::https://www.digitalocean.com/blog/lessons-running-inference-workloads",
+      "title": "Built for Mass Scale: Hard-Won Lessons from Teams Running High Volume Inference Workloads in Production",
+      "link": "https://www.digitalocean.com/blog/lessons-running-inference-workloads",
+      "summary": "Moving AI from a flashy demo to a high-volume production environment is a transition filled with hidden technical debt and infrastructure challenges. There’s a difference between calling the OpenAI API in a weekend prototype and serving 50,000 concurrent users who need sub-200ms latency, graceful…",
+      "author": "Hasan Nabulsi",
+      "publishedAt": "2026-07-02T10:00:00.013Z"
+    },
+    {
+      "guid": "digitalocean::https://www.digitalocean.com/blog/now-available-evaluations",
+      "title": "DigitalOcean Evaluations: Production Model and Router Testing for the Inference Stack",
+      "link": "https://www.digitalocean.com/blog/now-available-evaluations",
+      "summary": "Choosing the right model or inference router for production means more than reading a leaderboard. It means validating any model or routing configuration on your own data using your prompts and your evaluation criteria before it ever reaches production, and comparing quality, latency, and cost in…",
+      "author": "Grace Morgan",
+      "publishedAt": "2026-07-01T15:41:47.311Z"
+    },
+    {
+      "guid": "digitalocean::https://www.digitalocean.com/blog/run-codex-in-the-cloud",
+      "title": "Run Codex in the cloud – DigitalOcean for Codex is now available",
+      "link": "https://www.digitalocean.com/blog/run-codex-in-the-cloud",
+      "summary": "As your agents are working on more complex, long-running work, they need a clean, persistent environment to keep running. Setting up a persistent remote machine by hand means creating a cloud server, configuring SSH keys, installing dependencies, and wiring everything back to your workflow. It’s a…",
+      "author": "Ari Sigal",
+      "publishedAt": "2026-06-25T21:16:06.199Z"
+    },
+    {
+      "guid": "digitalocean::https://www.digitalocean.com/blog/server-side-tools-public-preview",
+      "title": "Server-Side Tools Are Now Available for DigitalOcean Inference Engine",
+      "link": "https://www.digitalocean.com/blog/server-side-tools-public-preview",
+      "summary": "AI applications and agents are only as capable as the tools, data, and systems they can access. With Server-Side Tools, now in Public Preview for DigitalOcean Inference Engine, a model can call out to search the web, read your data, call your systems, and take action all from inside a single…",
+      "author": "Grace Morgan",
+      "publishedAt": "2026-06-17T16:33:00.547Z"
+    },
+    {
+      "guid": "digitalocean::https://www.digitalocean.com/blog/maximize-frontier-models",
+      "title": "The Inference Alpha: Maximizing Frontier Models on AMD",
+      "link": "https://www.digitalocean.com/blog/maximize-frontier-models",
+      "summary": "At DigitalOcean, we’re committed to providing high-performance infrastructure for the next generation of AI, which is why we’ve been focused on hosting frontier Large Language Models (LLMs) on frontier GPUs—including AMD GPUs.\nWe see inference performance as an intricate systems-level challenge.…",
+      "author": "Balaji Varadarajan",
+      "publishedAt": "2026-06-10T14:27:49.137Z"
+    },
+    {
+      "guid": "digitalocean::https://www.digitalocean.com/blog/ai-native-engineering-interview",
+      "title": "What We Learned Hiring 33 Engineers in Two Weeks",
+      "link": "https://www.digitalocean.com/blog/ai-native-engineering-interview",
+      "summary": "Earlier this year, we needed to hire a cohort of engineers in Seattle, fast. We had a product launching at our marquee conference, Deploy, a hard deadline, and a clear picture of what the work would actually require. What we didn’t want was an interview process designed for a world that no longer…",
+      "author": "Janet Harrah",
+      "publishedAt": "2026-06-09T22:58:20.214Z"
+    },
+    {
+      "guid": "digitalocean::https://www.digitalocean.com/blog/model-evaluation-public-preview",
+      "title": "Model Evaluations: Prove Your Routing Policy Actually Works",
+      "link": "https://www.digitalocean.com/blog/model-evaluation-public-preview",
+      "summary": "Most teams running inference at scale do not fail because they cannot find a “good” model. They fail because they ship a routing policy that looks fine in a playground, but drifts the moment it sees real prompts, real latency tails, and real per-token cost. The routing policy breaks on the prompts…",
+      "author": "Sathish Jothikumar",
+      "publishedAt": "2026-06-04T19:52:49.377Z"
+    },
+    {
+      "guid": "digitalocean::https://www.digitalocean.com/blog/behind-deploy-2026",
+      "title": "The Team Behind Deploy: Shipping AI, the DigitalOcean Way",
+      "link": "https://www.digitalocean.com/blog/behind-deploy-2026",
+      "summary": "Deploy 2026 came and went, and we’re still buzzing. For one day at Convene 100 Stockton in San Francisco, developers, startup founders, customers, and partners filled the room to talk about a shared challenge: how to build and scale AI products without unnecessary complexity. Conversations moved…",
+      "author": "Sujatha R",
+      "publishedAt": "2026-06-03T19:38:43.949Z"
+    },
+    {
+      "guid": "digitalocean::https://www.digitalocean.com/blog/dataandlearning",
+      "title": "Powering the Inference Era: Inside the DigitalOcean Data & Learning Layer",
+      "link": "https://www.digitalocean.com/blog/dataandlearning",
+      "summary": "Building an AI-native application requires a data layer that can do two things at once: handle the structured, transactional queries your application runs on, and understand meaning well enough to power semantic search across unstructured content. An AI application needs both — precise SQL for…",
+      "author": "Zach Peirce ",
+      "publishedAt": "2026-06-03T19:23:28.774Z"
+    },
+    {
+      "guid": "digitalocean::https://www.digitalocean.com/blog/open-by-design-tech",
+      "title": "Open by Design: How NVIDIA and DigitalOcean Are Building the Stack for the Always-On Agentic Era",
+      "link": "https://www.digitalocean.com/blog/open-by-design-tech",
+      "summary": "The growth of generative AI isn’t driven solely by AI companies with proprietary models. Open-source AI is reshaping the developer ecosystem, fueled by a growing community of builders. But what does it take to go from open models to production-ready agentic AI, and what do developers need to know…",
+      "author": "Jess Lulka",
+      "publishedAt": "2026-06-02T18:29:57.287Z"
+    },
+    {
+      "guid": "digitalocean::https://www.digitalocean.com/blog/reduce-llm-inference-costs-prefix-caching",
+      "title": "The Inference Tax: How Prefix-Aware Routing Eliminates the Hidden Cost of LLMs at Scale",
+      "link": "https://www.digitalocean.com/blog/reduce-llm-inference-costs-prefix-caching",
+      "summary": "Introduction\nInference demand is growing fast, and it’s only accelerating. By 2030, inference is expected to account for the majority of AI compute globally. But scaling inference isn’t just a hardware problem. Most teams discover too late that a significant portion of their compute spend is…",
+      "author": "Piyush Srivastava",
+      "publishedAt": "2026-06-01T19:30:00.022Z"
+    },
+    {
+      "guid": "digitalocean::https://www.digitalocean.com/blog/serverless-inference-deep-dive",
+      "title": "DigitalOcean Serverless Inference: A Deep Dive",
+      "link": "https://www.digitalocean.com/blog/serverless-inference-deep-dive",
+      "summary": "The Problem: Inference Gets Hard at Scale\nIf you’ve shipped an AI feature to production, you already know: the hard part isn’t making a model respond to a prompt. The hard part is making it respond more reliably, at scale, across multiple models, without burning through your budget.\nThe moment real…",
+      "author": "smehta",
+      "publishedAt": "2026-06-01T18:44:08.755Z"
+    },
+    {
+      "guid": "digitalocean::https://www.digitalocean.com/blog/ai-disruptors",
+      "title": "AI Disruptors: How the Next Generation of Business is Being Built",
+      "link": "https://www.digitalocean.com/blog/ai-disruptors",
+      "summary": "Getting your hands on a capable AI model is the easy part now. Every team can reach the same frontier models through an API, so a strong model is not what sets a product apart. What separates a working product from a demo is everything around the model. You have to measure whether the agent is…",
+      "author": "Dinesh Murthy",
+      "publishedAt": "2026-05-29T21:30:04.614Z"
+    },
+    {
+      "guid": "digitalocean::https://www.digitalocean.com/blog/digitalocean-opencode-inference-routers",
+      "title": "OpenCode Now Supports DigitalOcean Inference Router for Intelligent Model Routing",
+      "link": "https://www.digitalocean.com/blog/digitalocean-opencode-inference-routers",
+      "summary": "Coding agents today have a massive spending problem. Every request, whether you’re designing system architecture or writing a single-line docstring, often gets routed to the same expensive frontier model. The result: unnecessary token usage, higher inference costs, and little awareness of task…",
+      "author": "Musa Malik",
+      "publishedAt": "2026-05-28T21:02:42.819Z"
+    },
+    {
+      "guid": "digitalocean::https://www.digitalocean.com/blog/introducing-batch-inference",
+      "title": "Scalable, Cost-Efficient AI: Introducing Unified Batch Inference on DigitalOcean",
+      "link": "https://www.digitalocean.com/blog/introducing-batch-inference",
+      "summary": "At Deploy 2026, we introduced the DigitalOcean AI-Native Cloud, built for the inference era. Batch Inference on the DigitalOcean Inference Engine enables high-volume asynchronous workloads. As developers move from AI prototypes to production-scale applications, the challenges of cost and rate…",
+      "author": "snamdeo",
+      "publishedAt": "2026-05-27T17:43:40.955Z"
+    },
+    {
+      "guid": "digitalocean::https://www.digitalocean.com/blog/request-based-autoscaling-app-platform",
+      "title": "Request-Based Autoscaling Is Now Generally Available on App Platform",
+      "link": "https://www.digitalocean.com/blog/request-based-autoscaling-app-platform",
+      "summary": "Traffic doesn’t spike on a schedule. A product launch, a viral moment, or a flash sale can send request volume through the roof in seconds, long before your CPU metrics catch up. That gap is where performance suffers.\nToday, we’re excited to announce that request-based autoscaling on DigitalOcean…",
+      "author": "Bikram Gupta",
+      "publishedAt": "2026-05-22T18:02:26.884Z"
+    },
+    {
+      "guid": "digitalocean::https://www.digitalocean.com/blog/inference-router-architecture",
+      "title": "How We Built DigitalOcean Inference Router",
+      "link": "https://www.digitalocean.com/blog/inference-router-architecture",
+      "summary": "Most teams building on LLMs today make a single model decision and apply it uniformly across every request. They reach for a frontier model not because every task demands it, but because building the infrastructure to do anything smarter is hard, time-consuming, and easy to get wrong. When the…",
+      "author": "Adil Hafeez",
+      "publishedAt": "2026-05-20T14:57:13.729Z"
+    },
+    {
+      "guid": "digitalocean::https://www.digitalocean.com/blog/your-infrastructure-matters",
+      "title": "Your Model Doesn't Matter. Your Infrastructure Does.",
+      "link": "https://www.digitalocean.com/blog/your-infrastructure-matters",
+      "summary": "Everyone calling an LLM API has access to the same models. So what actually sets technical teams apart?\nIt’s everything around the model like the routing logic, the live data pipelines, and the ability to scale from prototype to production without ever rewriting your code. Which LLM tops a…",
+      "author": "adagonese",
+      "publishedAt": "2026-05-13T16:45:02.303Z"
+    },
+    {
+      "guid": "digitalocean::https://www.digitalocean.com/blog/powering-the-inference-era",
+      "title": "Powering the Inference Era: Inside the DigitalOcean AI-Native Cloud",
+      "link": "https://www.digitalocean.com/blog/powering-the-inference-era",
+      "summary": "I’ve spent the last fifteen years building cloud services: early days of AWS building S3 and EBS, helping launch Oracle Cloud Infrastructure from inception, and now building the agentic cloud at DigitalOcean for AI-natives. Every cloud I’ve worked on was designed for the workloads of its era. Those…",
+      "author": "Vinay Kumar, Chief Product & Technology Officer",
+      "publishedAt": "2026-05-04T20:43:38.164Z"
+    },
+    {
+      "guid": "digitalocean::https://www.digitalocean.com/blog/introducing-digitalocean-ai-native-cloud",
+      "title": "Introducing DigitalOcean AI-Native Cloud for Production AI Workloads",
+      "link": "https://www.digitalocean.com/blog/introducing-digitalocean-ai-native-cloud",
+      "summary": "The AI industry has a compounding bottleneck, and it isn’t the models. It’s inference.\nWhat used to be a single model call has become a system of continuous interaction. Applications now orchestrate multiple models, retrieve and synthesize data, execute tools, and repeat this cycle in production.…",
+      "author": "Paddy Srinivasan",
+      "publishedAt": "2026-04-28T19:14:06.079Z"
+    },
+    {
+      "guid": "digitalocean::https://www.digitalocean.com/blog/how-we-built-fastest-deepseek-minimax-qwen-on-blackwell-ultra",
+      "title": "How we built the most performant DeepSeek V3.2, MiniMax-M2.5 and Qwen 3.5 397B on DigitalOcean Serverless Inference",
+      "link": "https://www.digitalocean.com/blog/how-we-built-fastest-deepseek-minimax-qwen-on-blackwell-ultra",
+      "summary": "Today at Deploy, we are announcing the general availability of DeepSeek V3.2, MiniMax-M2.5, and Qwen 3.5 397B on DigitalOcean Serverless Inference. On DeepSeek V3.2 and Qwen 3.5 397B, we deliver #1 output speed across all providers Artificial Analysis tested. On DeepSeek V3.2 specifically, that…",
+      "author": "Debarshi Raha",
+      "publishedAt": "2026-04-28T09:00:00.024Z"
+    },
+    {
+      "guid": "digitalocean::https://www.digitalocean.com/blog/dedicated-inference-technical-deep-dive",
+      "title": "DigitalOcean Dedicated Inference: A Technical Deep Dive",
+      "link": "https://www.digitalocean.com/blog/dedicated-inference-technical-deep-dive",
+      "summary": "Getting a model to answer 10 inference requests concurrently is tricky but simple enough; getting it to handle 2,000 engineers hitting a coding assistant with long contexts, all day, without runaway costs, is where teams stall. A working endpoint is only the beginning. Teams need to identify the…",
+      "author": "dgupta",
+      "publishedAt": "2026-04-25T02:51:09.113Z"
+    },
+    {
+      "guid": "digitalocean::https://www.digitalocean.com/blog/project-poseidon-zero-downtime-reliability",
+      "title": "Beyond the Abyss Project Poseidon’s Quest for Zero-Downtime Reliability",
+      "link": "https://www.digitalocean.com/blog/project-poseidon-zero-downtime-reliability",
+      "summary": "In large-scale cloud environments, unpredictable hypervisor crashes carry real operational cost.  While traditional reactive monitoring that relies on static thresholds and post-hoc alerts were once the industry standard, this monitoring misses the non-linear, stochastic signals that precede…",
+      "author": "Sartaj Bhuvaji",
+      "publishedAt": "2026-04-23T19:29:05.760Z"
+    },
+    {
+      "guid": "digitalocean::https://www.digitalocean.com/blog/sli-based-availability-framework",
+      "title": "From Incident Counting to SLIs: How DigitalOcean Rethought Availability",
+      "link": "https://www.digitalocean.com/blog/sli-based-availability-framework",
+      "summary": "Our journey to truly understand our customer experience began with a hard look at our internal availability numbers at the start of 2025. We saw something uncomfortable: the numbers didn’t match our customers’ reality. Our monthly availability oscillated between 99.5% and 99.9%.  Those peaks and…",
+      "author": "Miguel Carrera",
+      "publishedAt": "2026-04-23T09:15:00.007Z"
+    },
+    {
+      "guid": "digitalocean::https://www.digitalocean.com/blog/llm-inference-tradeoffs",
+      "title": "The LLM Inference Trilemma: Throughput, Latency, Cost",
+      "link": "https://www.digitalocean.com/blog/llm-inference-tradeoffs",
+      "summary": "We know how to scale traditional web services: throw a load balancer in front of stateless microservices and horizontally scale your CPU instances as traffic grows. Large Language Models break this playbook because LLM inference is fundamentally stateful, bottlenecked by memory bandwidth rather…",
+      "author": "Balaji Varadarajan",
+      "publishedAt": "2026-04-22T15:56:14.960Z"
+    },
+    {
+      "guid": "digitalocean::https://www.digitalocean.com/blog/optimizing-large-model-deployments",
+      "title": "Mastering the 600B+ Frontier: Optimizing Large Model Deployments on the Inference Cloud",
+      "link": "https://www.digitalocean.com/blog/optimizing-large-model-deployments",
+      "summary": "We have moved past the point where a 70GB model was considered “heavy.” With the rise of models like DeepSeek-V3, the GLM series, and other massive Mixture-of-Experts (MoE) architectures, the industry is now grappling with weights exceeding 700GB in optimized formats—and well over 1.2TB in full…",
+      "author": "Brett Snyder",
+      "publishedAt": "2026-04-21T20:10:14.773Z"
+    },
+    {
+      "guid": "digitalocean::https://www.digitalocean.com/blog/memory-layer-of-the-inference-cloud",
+      "title": "The Inference Cloud Memory Layer: A Technical Dive into DigitalOcean Managed Databases",
+      "link": "https://www.digitalocean.com/blog/memory-layer-of-the-inference-cloud",
+      "summary": "As AI moves from experimental chat interfaces to production-grade agents, the need for a foundational memory layer to transform these AI-powered tasks into stateful models is apparent.\nThe absence of a robust memory layer causes agents to lose vital statefulness, leading to:\nInability to maintain…",
+      "author": "Joe Keegan",
+      "publishedAt": "2026-04-17T20:10:00.751Z"
+    },
+    {
+      "guid": "digitalocean::https://www.digitalocean.com/blog/load-balancing-scaling-llm-serving",
+      "title": "Load Balancing and Scaling LLM Serving",
+      "link": "https://www.digitalocean.com/blog/load-balancing-scaling-llm-serving",
+      "summary": "Load balancing for LLMs is fundamentally different from load balancing for traditional services like web servers, APIs, or databases. Prompt caching is the reason. Prompt caching typically cuts input token costs by 50-90% and can reduce Time to First Token (TTFT) latency by up to 80%, but those…",
+      "author": "Mohammad Ashar Khan",
+      "publishedAt": "2026-04-15T19:03:31.807Z"
+    },
+    {
+      "guid": "digitalocean::https://www.digitalocean.com/blog/documentation-agent",
+      "title": "Building a Robust Documentation Agent with DigitalOcean Gradient AI Platform",
+      "link": "https://www.digitalocean.com/blog/documentation-agent",
+      "summary": "At DigitalOcean, documentation has always been a priority. Developers come to our docs to get unstuck, and the faster they find what they need, the better. Traditional docs pages work, but they require users to know which page to visit, scan for the relevant section, and map generic instructions to…",
+      "author": "Austen Ito",
+      "publishedAt": "2026-04-13T16:59:45.687Z"
+    },
+    {
+      "guid": "digitalocean::https://www.digitalocean.com/blog/advanced-prompt-caching",
+      "title": "Advanced Prompt Caching at Scale",
+      "link": "https://www.digitalocean.com/blog/advanced-prompt-caching",
+      "summary": "Introduction\nPrompt caching is the process of reusing already computed KV states across inference requests in order to save money and reduce latency. Within a single replica, modern inference engines like vLLM, SGLang, and TensorRT-LLM handle it automatically. Incoming prompts are matched against…",
+      "author": "Andrew Dugan",
+      "publishedAt": "2026-04-07T19:11:40.933Z"
+    },
+    {
+      "guid": "digitalocean::https://www.digitalocean.com/blog/hidden-cost-of-complex-ai-platforms-developer-experience",
+      "title": "The Hidden Cost of Complex AI Platforms: Why Developer Experience Matters",
+      "link": "https://www.digitalocean.com/blog/hidden-cost-of-complex-ai-platforms-developer-experience",
+      "summary": "The cloud AI platform ecosystem today looks more powerful than ever, with access to powerful GPUs like NVIDIA H100 and H200, massive libraries of pre-trained models, and full pipelines for fine-tuning and inference.\n​​I recently tried deploying a simple inference endpoint for a model. Ideally, it…",
+      "author": "Shaoni Mukherjee",
+      "publishedAt": "2026-04-03T15:44:39.598Z"
+    },
+    {
+      "guid": "digitalocean::https://www.digitalocean.com/blog/glue-problem-ai-development",
+      "title": "The Glue Problem in Modern AI Development",
+      "link": "https://www.digitalocean.com/blog/glue-problem-ai-development",
+      "summary": "AI is now central to modern software development. Teams across industries are turning to AI to solve product and workflow problems in software. But building production systems is still complex. The hardest part of deploying AI isn’t the model, it’s everything around it. That complexity becomes a…",
+      "author": "James Skelton",
+      "publishedAt": "2026-04-02T21:30:07.490Z"
+    },
+    {
+      "guid": "digitalocean::https://www.digitalocean.com/blog/digitalocean-acquires-katanemo-labs-inc",
+      "title": "The Agentic Era Demands a New Class of Infrastructure: DigitalOcean Acquires Katanemo Labs",
+      "link": "https://www.digitalocean.com/blog/digitalocean-acquires-katanemo-labs-inc",
+      "summary": "At DigitalOcean, we have been vocal about our strategic shift: we are building the world’s premier Agentic Inference Cloud. Our mission is to provide the foundation where AI-native enterprises build and run production inference at scale. Today, I am thrilled to announce a significant step in that…",
+      "author": "Vinay Kumar, DigitalOcean Chief Product & Technology Officer",
+      "publishedAt": "2026-04-02T12:30:00.036Z"
+    },
+    {
+      "guid": "digitalocean::https://www.digitalocean.com/blog/run-advanced-reasoning-with-arcee-ai-trinity",
+      "title": "Run Advanced Reasoning on DigitalOcean with Arcee AI's Trinity Large-Thinking",
+      "link": "https://www.digitalocean.com/blog/run-advanced-reasoning-with-arcee-ai-trinity",
+      "summary": "Today, we’re announcing that Arcee AI’s Trinity Large-Thinking is now available in Public Preview on DigitalOcean’s Agentic Inference Cloud, giving developers the ability to run frontier-class reasoning workloads without managing infrastructure or stitching together complex systems.\nDigitalOcean is…",
+      "author": "DigitalOcean",
+      "publishedAt": "2026-04-01T20:09:27.856Z"
+    },
+    {
+      "guid": "digitalocean::https://www.digitalocean.com/blog/now-available-cloud-security-posture-management",
+      "title": "Now Available: DigitalOcean Cloud Security Posture Management (CSPM)",
+      "link": "https://www.digitalocean.com/blog/now-available-cloud-security-posture-management",
+      "summary": "Keeping cloud infrastructure secure at scale is challenging. Infrastructure drift, exposed services, and sprawling identities create risk, and teams don’t always have the time or expertise to maintain a consistent security posture across their environments.\nTo help teams operate reliably in…",
+      "author": "Grace Morgan",
+      "publishedAt": "2026-04-01T14:46:32.153Z"
+    },
+    {
+      "guid": "digitalocean::https://www.digitalocean.com/blog/production-inference-era-nvidia-gtc",
+      "title": "NVIDIA GTC 2026 Confirmed It: The Inference Era Is Here",
+      "link": "https://www.digitalocean.com/blog/production-inference-era-nvidia-gtc",
+      "summary": "Last week at NVIDIA GTC 2026, one message was clear: AI has moved beyond the training era and into the era of production inference. The conversation was no longer just about building faster chips and smarter models; it was about what it takes to run AI at scale with the latency, reliability, and…",
+      "author": "Meghan Grady",
+      "publishedAt": "2026-03-27T19:27:04.494Z"
+    },
+    {
+      "guid": "digitalocean::https://www.digitalocean.com/blog/digitalocean-india-ai-inference-cloud",
+      "title": "DigitalOcean India: Inside Our Growing Hub for AI and Cloud Innovation",
+      "link": "https://www.digitalocean.com/blog/digitalocean-india-ai-inference-cloud",
+      "summary": "At DigitalOcean, our philosophy, ‘We ship in hours and days, not months or quarters,’ delivers real results for our customers. This is the exact velocity that has defined DigitalOcean’s India region over the past year. Since expanding into the Hyderabad market exactly twelve months ago, the broader…",
+      "author": "Sujatha R",
+      "publishedAt": "2026-03-24T02:40:04.539Z"
+    },
+    {
+      "guid": "digitalocean::https://www.digitalocean.com/blog/functions-user-specific-access-keys",
+      "title": "Enhancing Security with User-Specific Access Keys for DigitalOcean Functions",
+      "link": "https://www.digitalocean.com/blog/functions-user-specific-access-keys",
+      "summary": "As teams grow and scale their serverless workloads, managing security postures becomes just as critical as managing code. Our goal at DigitalOcean is to support your growth at every stage. One way we support you is by iterating on our security architecture.\nHistorically, DigitalOcean Functions used…",
+      "author": "Amulya Tomer",
+      "publishedAt": "2026-03-23T19:30:06.826Z"
+    },
+    {
+      "guid": "digitalocean::https://www.digitalocean.com/blog/nvidia-dynamo-1-now-available",
+      "title": "Meet the New Standard for High-Performance, Low-Cost Inference: NVIDIA Dynamo 1.0 is now available to DigitalOcean Customers",
+      "link": "https://www.digitalocean.com/blog/nvidia-dynamo-1-now-available",
+      "summary": "NVIDIA Dynamo 1.0, which was released on Monday at NVIDIA GTC, is now available to DigitalOcean customers to help drive performance enhancements and cost efficiency. NVIDIA Dynamo 1.0 offers a 7x inference performance increase on NVIDIA GB200 NVL systems, and by pairing it with DigitalOcean’s…",
+      "author": "Waverly Swinton",
+      "publishedAt": "2026-03-19T22:13:37.480Z"
+    },
+    {
+      "guid": "digitalocean::https://www.digitalocean.com/blog/prompt-caching-with-digital-ocean",
+      "title": "Prompt Caching for Anthropic and OpenAI Models: Building Cost-Efficient AI Systems",
+      "link": "https://www.digitalocean.com/blog/prompt-caching-with-digital-ocean",
+      "summary": "Large Language Models (LLMs) have become a foundational component for modern AI applications, from developer copilots and documentation assistants to advanced troubleshooting tools. As these applications scale, one challenge quickly becomes apparent: token costs can grow rapidly when large prompts…",
+      "author": "Satyam Namdeo",
+      "publishedAt": "2026-03-17T19:25:04.252Z"
+    },
+    {
+      "guid": "digitalocean::https://www.digitalocean.com/blog/building-ai-factory-for-agentic-era-nvidia-gtc",
+      "title": "DigitalOcean at NVIDIA GTC 2026: Building the AI Factory for the Agentic Era",
+      "link": "https://www.digitalocean.com/blog/building-ai-factory-for-agentic-era-nvidia-gtc",
+      "summary": "A seamless path for builders: Start building on build.nvidia.com, Deploy to DigitalOcean\nThe landscape of artificial intelligence has shifted from static models to dynamic, long-running agents. At DigitalOcean, our mission is to provide developers with a purpose-built, agentic, inference cloud for…",
+      "author": "Vinay Kumar, DigitalOcean Chief Product & Technology Officer",
+      "publishedAt": "2026-03-16T20:35:55.437Z"
+    },
+    {
+      "guid": "digitalocean::https://www.digitalocean.com/blog/deploy-smarter-with-ai-app-platform-skills-on-digitalocean",
+      "title": "Deploy Smarter with AI: Introducing App Platform Skills on DigitalOcean",
+      "link": "https://www.digitalocean.com/blog/deploy-smarter-with-ai-app-platform-skills-on-digitalocean",
+      "summary": "AI coding assistants have fundamentally changed how developers write software. Tools like Claude Code, Codex, GitHub Copilot, Gemini, and Cursor can scaffold an entire application in minutes. But ask any of them to deploy that application to a production cloud environment, and the experience breaks…",
+      "author": "Bikram Gupta",
+      "publishedAt": "2026-03-16T14:00:00.006Z"
+    },
+    {
+      "guid": "digitalocean::https://www.digitalocean.com/blog/scaling-autonomous-site-reliability",
+      "title": "Scaling Autonomous Site Reliability Engineering: Architecture, Orchestration, and Validation for a 90,000+ Server Fleet",
+      "link": "https://www.digitalocean.com/blog/scaling-autonomous-site-reliability",
+      "summary": "As Cloudways scaled from a bootstrapped startup to a leading managed PHP hosting service, one of the biggest challenges we encountered was the growing support load. Managing a fleet of over 90,000 servers and half a million applications means thousands of support requests, requiring a team of…",
+      "author": "Najmus Saqib",
+      "publishedAt": "2026-03-13T15:49:48.901Z"
+    },
+    {
+      "guid": "digitalocean::https://www.digitalocean.com/blog/net-buildpack-support-app-platform",
+      "title": "Native .NET Buildpack Support is Now Available on App Platform",
+      "link": "https://www.digitalocean.com/blog/net-buildpack-support-app-platform",
+      "summary": "The .NET ecosystem continues to power a significant share of enterprise and cloud-native applications, from web APIs and microservices to full-stack applications built with ASP.NET Core. Developers building with C#, F#, and Visual Basic need a deployment experience that matches the productivity of…",
+      "author": "Bikram Gupta",
+      "publishedAt": "2026-03-05T21:21:25.719Z"
+    },
+    {
+      "guid": "digitalocean::https://www.digitalocean.com/blog/workato-nvidia-technical-deep-dive-agentic-inference-cloud",
+      "title": "How DigitalOcean’s Agentic Inference Cloud powered by NVIDIA GPUs Achieved 67% Lower Inference Costs for Workato",
+      "link": "https://www.digitalocean.com/blog/workato-nvidia-technical-deep-dive-agentic-inference-cloud",
+      "summary": "Workato’s AI Research Lab is focused on helping customers extend their production automation with agentic AI capabilities, systems that can reason, act, and orchestrate work across the business. At Workato’s scale, processing 1 trillion automated workloads, LLM inference efficiency is a hard…",
+      "author": "Rithish Ramesh",
+      "publishedAt": "2026-03-03T04:55:00.051Z"
+    },
+    {
+      "guid": "digitalocean::https://www.digitalocean.com/blog/supabase-template-app-platform",
+      "title": "Supabase Template is Now Available on DigitalOcean App Platform",
+      "link": "https://www.digitalocean.com/blog/supabase-template-app-platform",
+      "summary": "Modern applications need more than just a database. They need authentication, auto-generated APIs, file storage, and real-time subscriptions. Supabase is a powerful open-source Firebase alternative that transforms PostgreSQL into a complete backend platform. With its developer-friendly SDKs and…",
+      "author": "Bikram Gupta",
+      "publishedAt": "2026-02-26T16:43:31.561Z"
+    },
+    {
+      "guid": "digitalocean::https://www.digitalocean.com/blog/zero-to-deploy",
+      "title": "Zero to Deploy: Launching Your Career at DigitalOcean",
+      "link": "https://www.digitalocean.com/blog/zero-to-deploy",
+      "summary": "Diving into the professional world is a big moment for recent graduates. At DigitalOcean, we believe the best way to become a world-class builder is to build. Our entry-level roles are designed to treat you as a core member of the team from Day One.\nWe sat down with 3 first-year builders, Isabel…",
+      "author": "Sujatha R",
+      "publishedAt": "2026-02-25T08:14:05.641Z"
+    }
+  ],
+  "totalIndexed": 50
+}
