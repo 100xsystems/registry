@@ -85,8 +85,8 @@ const FEEDS_DIR = path.resolve(path.dirname(new URL(import.meta.url).pathname), 
 const DAILY_DIR = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..', 'daily');
 const HEALTH_FILE = path.join(DAILY_DIR, 'feed-health.json');
 
-const HTTP_TIMEOUT_MS = 3_000;    // 3s max per feed (connect + response) — most RSS feeds respond in <1.5s
-                                    // No retries — if it times out at 3s, retrying won't help. Health system handles it.
+const HTTP_TIMEOUT_MS = 4_000;    // 4s max per feed (connect + response)
+                                    // No retries — if it times out, retrying won't help. Health system handles it.
 const MAX_CONSECUTIVE_FAILURES = 3; // After this, feed auto-skipped
 const DEAD_FEED_RECHECK_DAYS = 7;   // Re-check dead feeds weekly
 const FEED_ITEM_LIMIT = 50;         // Max items to parse per feed
