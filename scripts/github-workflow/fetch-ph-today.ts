@@ -1,21 +1,21 @@
 #!/usr/bin/env tsx
 /**
- * fetch-ph-data.ts — PRODUCT HUNT API v2
+ * fetch-ph-today.ts — DAILY PRODUCT HUNT TODAY FETCHER
  *
- * Fetches Product Hunt products using the official GraphQL API v2.
- * Stores results in day-wise JSON files: producthunt/YYYY-MM-DD.json
- * Maintains a merged catalog: producthunt/products.json
- *
- * SPEED: Completes in ~1-3s for 2 days of data (~20-50 posts per day)
+ * Fetches today's Product Hunt posts using the official API v2.
+ * Saves to a day-wise JSON file: producthunt/YYYY-MM-DD.json
  *
  * USAGE:
- *   PH_API_KEY=xxx PH_API_SECRET=xxx tsx scripts/fetch-ph-data.ts
- *   PH_DEV_TOKEN=xxx tsx scripts/fetch-ph-data.ts
+ *   PH_API_KEY=xxx PH_API_SECRET=xxx tsx scripts/github-workflow/fetch-ph-today.ts
+ *   PH_DEV_TOKEN=xxx tsx scripts/github-workflow/fetch-ph-today.ts
  *
  * ENV VARS:
  *   PH_DEV_TOKEN    — Developer token (simplest, never expires)
  *   PH_API_KEY      — API key (for OAuth2 client credentials)
  *   PH_API_SECRET   — API secret (for OAuth2 client credentials)
+ *
+ * NOTE: The initial products.json catalog must be seeded first
+ * via scripts/one-time/fetch-ph-bulk.ts.
  */
 
 import * as fs from 'node:fs';
@@ -25,13 +25,11 @@ import * as path from 'node:path';
 
 const TOKEN_URL = 'https://api.producthunt.com/v2/oauth/token';
 const GRAPHQL_URL = 'https://api.producthunt.com/v2/api/graphql';
-const PH_CACHE_DIR = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..', 'producthunt');
+const PH_CACHE_DIR = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..', '..', 'producthunt');
 const FETCH_TIMEOUT_MS = 15_000;
-const MAX_PAGES_PER_DAY = 5;       // 50 posts/page × 5 = 250 max per day (typical is 20-50)
-const DAILY_FETCH_WINDOW = 0;      // Always fetch today only (once-daily run, yesterday already saved)
-const PAGE_DELAY_MS = 200;         // 200ms between pages to avoid rate limit bursts
+const MAX_PAGES_PER_DAY = 5;       // 50 posts/page × 5 = 250 max per day
+const PAGE_DELAY_MS = 200;
 
-// GraphQL query to fetch posts — optimized for minimal complexity cost
 const POSTS_QUERY = `
 query GetPosts($after: String, $postedBefore: DateTime, $postedAfter: DateTime, $first: Int) {
   posts(first: $first, after: $after, postedAfter: $postedAfter, postedBefore: $postedBefore) {
@@ -90,13 +88,6 @@ interface PhPost {
   media: Array<{ type: string; url: string; videoUrl: string | null }>;
 }
 
-interface DayFile {
-  date: string;
-  fetchedAt: string;
-  totalCount: number;
-  posts: PhPost[];
-}
-
 interface PhIndex {
   type: 'producthunt';
   fetchedAt: string;
@@ -134,39 +125,33 @@ function dateStr(d: Date = new Date()): string {
 // ── Authentication ──────────────────────────────────────────────────
 
 async function getAccessToken(): Promise<string> {
-  // 1. Try Developer Token first (simplest)
   const devToken = process.env.PH_DEV_TOKEN;
   if (devToken) {
     console.log('  Using PH_DEV_TOKEN');
     return devToken;
   }
 
-  // 2. Try OAuth2 Client Credentials
   const apiKey = process.env.PH_API_KEY;
   const apiSecret = process.env.PH_API_SECRET;
   if (apiKey && apiSecret) {
     console.log('  Getting access token via OAuth2...');
-    try {
-      const response = await fetch(TOKEN_URL, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-        body: new URLSearchParams({
-          grant_type: 'client_credentials',
-          client_id: apiKey,
-          client_secret: apiSecret,
-        }),
-        signal: AbortSignal.timeout(10_000),
-      });
-      if (!response.ok) {
-        const text = await response.text();
-        throw new Error(`HTTP ${response.status}: ${text}`);
-      }
-      const data = (await response.json()) as { access_token: string };
-      console.log('  ✓ Access token obtained');
-      return data.access_token;
-    } catch (err) {
-      throw new Error(`OAuth2 failed: ${err instanceof Error ? err.message : String(err)}`);
+    const response = await fetch(TOKEN_URL, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: new URLSearchParams({
+        grant_type: 'client_credentials',
+        client_id: apiKey,
+        client_secret: apiSecret,
+      }),
+      signal: AbortSignal.timeout(10_000),
+    });
+    if (!response.ok) {
+      const text = await response.text();
+      throw new Error(`HTTP ${response.status}: ${text}`);
     }
+    const data = (await response.json()) as { access_token: string };
+    console.log('  ✓ Access token obtained');
+    return data.access_token;
   }
 
   throw new Error(
@@ -176,22 +161,12 @@ async function getAccessToken(): Promise<string> {
 
 // ── GraphQL Query ───────────────────────────────────────────────────
 
-interface PostsQueryResult {
-  posts?: {
-    totalCount: number;
-    pageInfo: { hasNextPage: boolean; endCursor: string | null };
-    edges: Array<{
-      node: Record<string, unknown>;
-    }>;
-  };
-}
-
 async function fetchPostsPage(
   token: string,
   after: string | null,
   postedAfter: string,
   postedBefore: string,
-): Promise<PostsQueryResult> {
+): Promise<{ posts?: { totalCount: number; pageInfo: { hasNextPage: boolean; endCursor: string | null }; edges: Array<{ node: Record<string, unknown> }> } }> {
   const variables: Record<string, unknown> = {
     first: 50,
     postedAfter,
@@ -217,7 +192,7 @@ async function fetchPostsPage(
   }
 
   const body = (await response.json()) as {
-    data?: PostsQueryResult;
+    data?: { posts?: unknown };
     errors?: Array<{ message: string; error?: string; error_description?: string }>;
   };
 
@@ -225,17 +200,13 @@ async function fetchPostsPage(
     throw new Error(`GraphQL error: ${body.errors.map((e) => e.message ?? e.error_description ?? e.error).join('; ')}`);
   }
 
-  return body.data ?? { posts: undefined };
+  return body.data as { posts?: { totalCount: number; pageInfo: { hasNextPage: boolean; endCursor: string | null }; edges: Array<{ node: Record<string, unknown> }> } } ?? {};
 }
-
-// ── Normalize a raw post node into our PhPost format ────────────────
 
 function normalizePost(raw: Record<string, unknown>): PhPost {
   const thumbnailRaw = raw.thumbnail as Record<string, unknown> | null;
   const makersRaw = raw.makers as Array<Record<string, unknown>> | undefined;
-  const topicsRaw = (raw.topics as Record<string, unknown> | undefined)?.edges as
-    | Array<Record<string, unknown>>
-    | undefined;
+  const topicsRaw = (raw.topics as Record<string, unknown> | undefined)?.edges as Array<Record<string, unknown>> | undefined;
   const mediaRaw = raw.media as Array<Record<string, unknown>> | undefined;
 
   return {
@@ -272,12 +243,7 @@ function normalizePost(raw: Record<string, unknown>): PhPost {
   };
 }
 
-// ── Fetch all posts for a given date ─────────────────────────────────
-
-async function fetchPostsForDate(
-  token: string,
-  date: string,
-): Promise<PhPost[]> {
+async function fetchPostsForDate(token: string, date: string): Promise<PhPost[]> {
   const postedAfter = `${date}T00:00:00Z`;
   const postedBefore = `${date}T23:59:59Z`;
   const allPosts: PhPost[] = [];
@@ -296,136 +262,53 @@ async function fetchPostsForDate(
     if (!postsData.pageInfo?.hasNextPage || !postsData.pageInfo.endCursor) break;
     cursor = postsData.pageInfo.endCursor;
     pages++;
-
-    // Small delay between pages to avoid rate limit bursts
     await new Promise((r) => setTimeout(r, PAGE_DELAY_MS));
   }
 
   return allPosts;
 }
 
-// ── Merge day-wise files into products.json catalog ──────────────────
-
-function mergeIntoCatalog(dates: string[], existingProducts: Record<string, PhPost>): PhPost[] {
-  const allProducts = { ...existingProducts };
-
-  for (const date of dates) {
-    const filePath = path.join(PH_CACHE_DIR, `${date}.json`);
-    try {
-      const dayData = JSON.parse(fs.readFileSync(filePath, 'utf-8')) as DayFile;
-      for (const post of dayData.posts) {
-        allProducts[post.id] = post; // Dedup by ID, latest wins
-      }
-    } catch {}
-  }
-
-  return Object.values(allProducts).sort(
-    (a, b) => new Date(b.featuredAt ?? b.createdAt).getTime() - new Date(a.featuredAt ?? a.createdAt).getTime(),
-  );
-}
-
 // ── Main ──────────────────────────────────────────────────────────────
 
 async function main(): Promise<void> {
-  console.log('\n🦊 Fetching Product Hunt data via official API v2...');
+  console.log('\n🦊 Fetching Product Hunt today\'s data via official API v2...');
   const startTime = Date.now();
 
   // 1. Authenticate
   const token = await getAccessToken();
 
-  // 2. Determine which dates to fetch: always today + yesterday
+  // 2. Fetch today's posts only
   ensureDir(PH_CACHE_DIR);
-  const today = new Date();
-  const datesToFetch: string[] = [];
+  const today = dateStr();
 
-  for (let i = DAILY_FETCH_WINDOW; i >= 0; i--) {
-    const d = new Date(today);
-    d.setDate(d.getDate() - i);
-    datesToFetch.push(dateStr(d));
+  console.log(`  📅 ${today}: querying...`);
+  const posts = await fetchPostsForDate(token, today);
+
+  // 3. Save day-wise file
+  const dayFile = {
+    date: today,
+    fetchedAt: new Date().toISOString(),
+    totalCount: posts.length,
+    posts,
+  };
+  const dayJson = JSON.stringify(dayFile, null, 2) + '\n';
+  const changed = writeIfChanged(path.join(PH_CACHE_DIR, `${today}.json`), dayJson);
+
+  if (changed) {
+    console.log(`     ${posts.length} posts — ${posts.length > 0 ? 'UPDATED' : 'empty'}`);
+  } else {
+    console.log(`     ${posts.length} posts — unchanged`);
   }
 
-  console.log(`  Fetching ${datesToFetch.length} days of data...`);
-
-  // 3. Fetch posts for each day
-  let totalNewPosts = 0;
-  let totalUpdated = 0;
-  const fetchedDates: string[] = [];
-
-  for (const date of datesToFetch) {
-    const filePath = path.join(PH_CACHE_DIR, `${date}.json`);
-
-    console.log(`  📅 ${date}: querying...`);
-    const posts = await fetchPostsForDate(token, date);
-
-    const dayFile: DayFile = {
-      date,
-      fetchedAt: new Date().toISOString(),
-      totalCount: posts.length,
-      posts,
-    };
-
-    const dayJson = JSON.stringify(dayFile, null, 2) + '\n';
-
-    // Check if this day's data changed
-    const existing = readExisting(filePath);
-    if (existing === dayJson) {
-      console.log(`     ${posts.length} posts — unchanged`);
-      fetchedDates.push(date);
-      continue;
-    }
-
-    fs.writeFileSync(filePath, dayJson, 'utf-8');
-    totalNewPosts += posts.length;
-    if (existing) {
-      totalUpdated++;
-      console.log(`     ${posts.length} posts — UPDATED`);
-    } else {
-      totalUpdated++;
-      console.log(`     ${posts.length} posts — NEW`);
-    }
-    fetchedDates.push(date);
-  }
-
-  // 4. Rebuild the merged products.json catalog
-  console.log(`  Merging catalog...`);
-  let existingProducts: Record<string, PhPost> = {};
-  const mergedFile = path.join(PH_CACHE_DIR, 'products.json');
-  try {
-    const existingData = JSON.parse(fs.readFileSync(mergedFile, 'utf-8')) as {
-      products: PhPost[];
-    };
-    for (const p of existingData.products) {
-      existingProducts[p.id] = p;
-    }
-  } catch {}
-
-  const allProducts = mergeIntoCatalog(fetchedDates, existingProducts);
-
-  const mergedJson = JSON.stringify(
-    { fetchedAt: new Date().toISOString(), count: allProducts.length, products: allProducts },
-    null,
-    2,
-  );
-  writeIfChanged(mergedFile, mergedJson + '\n');
-
-  // 5. Write index
+  // 4. Update index.json
   const allDates = fs
     .readdirSync(PH_CACHE_DIR)
     .filter((f) => /^\d{4}-\d{2}-\d{2}\.json$/.test(f))
     .map((f) => f.replace('.json', ''))
     .sort();
 
-  const firstDate = allDates.length > 0 ? allDates[0] : dateStr();
-  const lastDate = allDates.length > 0 ? allDates[allDates.length - 1] : dateStr();
-
-  // Read total unique products from merged file
-  let totalProducts = 0;
-  try {
-    const mergedData = JSON.parse(fs.readFileSync(mergedFile, 'utf-8')) as {
-      count: number;
-    };
-    totalProducts = mergedData.count;
-  } catch {}
+  const firstDate = allDates.length > 0 ? allDates[0] : today;
+  const lastDate = allDates.length > 0 ? allDates[allDates.length - 1] : today;
 
   const index: PhIndex = {
     type: 'producthunt',
@@ -433,18 +316,22 @@ async function main(): Promise<void> {
     lastFetchedDate: lastDate,
     firstFetchedDate: firstDate,
     totalDaysFetched: allDates.length,
-    totalProducts,
+    totalProducts: allDates.length > 0
+      ? posts.length // approximate — products.json has the full count
+      : posts.length,
     availableDates: allDates,
   };
   writeIfChanged(path.join(PH_CACHE_DIR, 'index.json'), JSON.stringify(index, null, 2) + '\n');
 
-  // 6. Summary
+  // 5. Summary
   const elapsed = ((Date.now() - startTime) / 1000).toFixed(1);
   console.log(`\n   Done in ${elapsed}s`);
-  console.log(`   Days fetched: ${fetchedDates.length}`);
-  console.log(`   New/updated posts: ${totalNewPosts}`);
-  console.log(`   Catalog: ${totalProducts} products across ${allDates.length} days`);
-  console.log('✅ Product Hunt data cached to producthunt/\n');
+  console.log(`   Today's posts: ${posts.length}`);
+  if (posts.length > 0) {
+    console.log(`   Top: ${posts[0].name} (${posts[0].votesCount} votes)`);
+  }
+  console.log(`   Archive: ${allDates.length} days indexed`);
+  console.log('✅ Product Hunt today\'s data cached\n');
 }
 
 main().catch((err) => {

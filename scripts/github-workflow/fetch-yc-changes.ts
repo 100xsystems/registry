@@ -1,24 +1,25 @@
 #!/usr/bin/env tsx
 /**
- * fetch-yc-data.ts — YC COMBINATOR ALGOLIA FETCHER
+ * fetch-yc-changes.ts — DAILY YC CHANGE TRACKER
  *
- * Fetches ALL Y Combinator companies directly from YC's Algolia search index.
- * Same approach as yc-oss/api but runs in our own registry.
+ * Fetches ALL Y Combinator companies from Algolia, compares with the stored
+ * companies.json, and saves only the CHANGE SET to yc/changes/.
  *
- * ARCHITECTURE:
- *   - Scrapes Algolia API key from YC companies page
- *   - Fetches all 6000+ companies via Algolia search API (paginated by batch)
- *   - Stores day-wise archive: yc/YYYY-MM-DD.json
- *   - Tracks daily changes: yc/changes/latest.json + latest.md
- *   - Merged catalog: yc/companies.json
- *   - Metadata: yc/meta.json
+ * If changes are detected:
+ *   - Updates yc/companies.json with the latest data
+ *   - Saves diff to yc/changes/YYYY-MM-DD.json
+ *   - Updates yc/changes/latest.json + latest.md
  *
- * SPEED: ~30-40s for all 6000 companies (same as yc-oss/api)
+ * If no changes:
+ *   - Saves heartbeat to yc/changes/YYYY-MM-DD.json
  *
  * USAGE:
- *   tsx scripts/fetch-yc-data.ts
+ *   tsx scripts/github-workflow/fetch-yc-changes.ts
  *
- * Runs once daily via GitHub Actions.
+ * Runs daily via the daily-feed-update.yml GitHub Actions workflow.
+ *
+ * NOTE: The initial companies.json, featured.json, meta.json, index.json
+ * must be seeded first via scripts/one-time/fetch-yc-bulk.ts.
  */
 
 import * as fs from 'node:fs';
@@ -26,7 +27,7 @@ import * as path from 'node:path';
 
 // ── Config ────────────────────────────────────────────────────────────
 
-const YC_CACHE_DIR = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..', 'yc');
+const YC_CACHE_DIR = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..', '..', 'yc');
 const CHANGES_DIR = path.join(YC_CACHE_DIR, 'changes');
 const ALGOLIA_APP_ID = '45BWZJ1SGC';
 const ALGOLIA_INDEX = 'YCCompany_By_Launch_Date_production';
@@ -94,21 +95,10 @@ interface YcChangeSet {
   }>;
 }
 
-interface YcMeta {
-  last_updated: string;
-  totalCompanies: number;
-  totalBatches: number;
-  totalTags: number;
-  totalIndustries: number;
-  batches: Record<string, { name: string; count: number }>;
-}
-
 // ── Helpers ───────────────────────────────────────────────────────────
 
 function ensureDir(dir: string): void {
-  if (!fs.existsSync(dir)) {
-    fs.mkdirSync(dir, { recursive: true });
-  }
+  if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
 }
 
 function readExisting(filePath: string): string | null {
@@ -150,7 +140,6 @@ function valuesEqual(a: unknown, b: unknown): boolean {
 
 // ── Algolia API ──────────────────────────────────────────────────────
 
-/** Scrape Algolia API key from YC companies page */
 async function getAlgoliaKey(): Promise<string> {
   const res = await fetch(YC_COMPANIES_URL, {
     signal: AbortSignal.timeout(15_000),
@@ -167,7 +156,6 @@ async function getAlgoliaKey(): Promise<string> {
   return opts.key;
 }
 
-/** Query Algolia with given params */
 async function queryAlgolia(apiKey: string, params: string): Promise<Record<string, unknown>> {
   const searchParams = new URLSearchParams({
     'x-algolia-agent': 'Algolia for JavaScript (3.35.1); Browser; JS Helper (3.16.1)',
@@ -188,10 +176,7 @@ async function queryAlgolia(apiKey: string, params: string): Promise<Record<stri
   return json.results?.[0] ?? {};
 }
 
-// ── Fetch ALL companies from Algolia ────────────────────────────────
-
 async function fetchAllCompanies(apiKey: string): Promise<YcCompany[]> {
-  // 1. First, get facets to find all batch names and counts
   console.log('  Fetching batch facets...');
   const facetResult = await queryAlgolia(apiKey,
     'facets=%5B%22batch%22%5D&hitsPerPage=1&maxValuesPerFacet=1000&query=&tagFilters='
@@ -201,7 +186,6 @@ async function fetchAllCompanies(apiKey: string): Promise<YcCompany[]> {
   if (!batches) throw new Error('Algolia response did not include batch facets');
   console.log(`  Found ${Object.keys(batches).length} batches`);
 
-  // 2. Fetch companies per batch (paginated)
   const allCompanies: YcCompany[] = [];
   const batchKeys = Object.keys(batches).sort();
 
@@ -219,7 +203,6 @@ async function fetchAllCompanies(apiKey: string): Promise<YcCompany[]> {
       if (!hits || hits.length === 0) break;
 
       for (const hit of hits) {
-        // Clean Algolia metadata
         if ('_highlightResult' in hit) delete hit._highlightResult;
         if ('objectID' in hit) delete hit.objectID;
         if ('_snippetResult' in hit) delete hit._snippetResult;
@@ -264,7 +247,6 @@ async function fetchAllCompanies(apiKey: string): Promise<YcCompany[]> {
     }
   }
 
-  // Sort by ID ascending
   return allCompanies.sort((a, b) => a.id - b.id);
 }
 
@@ -287,13 +269,9 @@ function buildChangeSet(
 
     const changes: YcChangeEntry[] = [];
     for (const key of Object.keys(curr) as (keyof YcCompany)[]) {
-      if (key === 'url') continue; // computed field, always changes
+      if (key === 'url' || key === 'long_description') continue; // skip computed/large fields
       if (!valuesEqual(prev[key], curr[key])) {
-        changes.push({
-          field: key,
-          before: prev[key],
-          after: curr[key],
-        });
+        changes.push({ field: key, before: prev[key], after: curr[key] });
       }
     }
     if (changes.length > 0) {
@@ -320,15 +298,7 @@ function buildChangeSet(
 }
 
 function renderChangesMarkdown(changes: YcChangeSet): string {
-  const header = `# YC Company Changes for ${changes.date}
-
-- Previous total: ${changes.previousCount}
-- Current total: ${changes.currentCount}
-- Added: ${changes.added.length}
-- Removed: ${changes.removed.length}
-- Updated: ${changes.updated.length}
-
-`;
+  const header = `# YC Company Changes for ${changes.date}\n\n- Previous total: ${changes.previousCount}\n- Current total: ${changes.currentCount}\n- Added: ${changes.added.length}\n- Removed: ${changes.removed.length}\n- Updated: ${changes.updated.length}\n\n`;
 
   if (changes.added.length === 0 && changes.removed.length === 0 && changes.updated.length === 0) {
     return header + 'No company records changed.\n';
@@ -371,35 +341,25 @@ function renderChangesMarkdown(changes: YcChangeSet): string {
 // ── Main ──────────────────────────────────────────────────────────────
 
 async function main(): Promise<void> {
-  console.log('\n🔬 Fetching YC Combinator data via Algolia...');
+  console.log('\n🔬 Fetching YC changes via Algolia...');
   const startTime = Date.now();
 
   ensureDir(YC_CACHE_DIR);
   ensureDir(CHANGES_DIR);
-
-  // Clean up stale files from the old approach
-  const staleFiles = ['featured.json', 'changes-latest.json', 'index.json'];
-  for (const stale of staleFiles) {
-    const p = path.join(YC_CACHE_DIR, stale);
-    if (fs.existsSync(p)) {
-      fs.rmSync(p);
-      console.log('  (cleaned up old file: ' + stale + ')');
-    }
-  }
 
   // 1. Get Algolia API key
   console.log('  Getting Algolia API key...');
   const apiKey = await getAlgoliaKey();
   console.log('  ✓ Algolia key obtained');
 
-  // 2. Fetch all companies
-  console.log('  Fetching companies...');
+  // 2. Fetch all companies from Algolia
+  console.log('  Fetching current data...');
   const companies = await fetchAllCompanies(apiKey);
   console.log(`  ✓ ${companies.length} companies fetched`);
 
   const today = dateStr();
 
-  // 3. Read previous snapshot for change tracking (from companies.json, not day file)
+  // 3. Read previous companies.json for change comparison
   let previousCompanies: YcCompany[] = [];
   let isFirstRun = true;
   const companiesFile = path.join(YC_CACHE_DIR, 'companies.json');
@@ -420,130 +380,64 @@ async function main(): Promise<void> {
 
   // 5. Write daily change files
   if (isFirstRun) {
-    // First run: just note it as initial snapshot, don't report 6000+ as "added"
-    const firstRunJson = JSON.stringify({
+    // First run after seed: companies.json already exists from bulk script,
+    // just note this as first tracked date with no changes reported
+    const heartbeat = JSON.stringify({
       date: today,
       fetchedAt: new Date().toISOString(),
-      message: 'Initial snapshot',
+      message: 'First daily check — no changes since bulk import',
       total: companies.length,
-    }, null, 2);
-    writeIfChanged(path.join(CHANGES_DIR, `${today}.json`), firstRunJson + '\n');
-    writeIfChanged(path.join(CHANGES_DIR, 'latest.json'), firstRunJson + '\n');
+    }, null, 2) + '\n';
+    writeIfChanged(path.join(CHANGES_DIR, `${today}.json`), heartbeat);
+    writeIfChanged(path.join(CHANGES_DIR, 'latest.json'), heartbeat);
     writeIfChanged(path.join(CHANGES_DIR, 'latest.md'),
-      `# YC Company Changes for ${today}\n\nInitial snapshot — ${companies.length} companies\n`
+      `# YC Company Changes for ${today}\n\nFirst daily check — ${companies.length} companies — no changes since bulk import.\n`
     );
-    console.log(`  ✓ Initial snapshot: ${companies.length} companies`);
+    console.log(`  ✓ First daily check: ${companies.length} companies (no changes tracked)`);
   } else if (hasChanges) {
-    const changesJson = JSON.stringify(changeSet, null, 2);
+    const changesJson = JSON.stringify(changeSet, null, 2) + '\n';
 
     // Write date-stamped change file
-    writeIfChanged(path.join(CHANGES_DIR, `${today}.json`), changesJson + '\n');
+    writeIfChanged(path.join(CHANGES_DIR, `${today}.json`), changesJson);
     // Write latest.json
-    writeIfChanged(path.join(CHANGES_DIR, 'latest.json'), changesJson + '\n');
+    writeIfChanged(path.join(CHANGES_DIR, 'latest.json'), changesJson);
     // Write latest.md
     writeIfChanged(path.join(CHANGES_DIR, 'latest.md'), renderChangesMarkdown(changeSet));
+
+    // Update companies.json with the latest data (only if changes occurred)
+    const catalog = companies.sort((a, b) => b.id - a.id);
+    writeIfChanged(
+      path.join(YC_CACHE_DIR, 'companies.json'),
+      JSON.stringify({
+        fetchedAt: new Date().toISOString(),
+        count: catalog.length,
+        companies: catalog,
+      }, null, 2) + '\n',
+    );
 
     console.log(`  ✓ Changes: +${changeSet.added.length} -${changeSet.removed.length} ~${changeSet.updated.length}`);
   } else {
     // No changes — write heartbeat
-    writeIfChanged(path.join(CHANGES_DIR, `${today}.json`),
-      JSON.stringify({
-        date: today,
-        fetchedAt: new Date().toISOString(),
-        message: 'No changes',
-        total: companies.length,
-      }, null, 2) + '\n'
+    const heartbeat = JSON.stringify({
+      date: today,
+      fetchedAt: new Date().toISOString(),
+      message: 'No changes',
+      total: companies.length,
+    }, null, 2) + '\n';
+    writeIfChanged(path.join(CHANGES_DIR, `${today}.json`), heartbeat);
+    writeIfChanged(path.join(CHANGES_DIR, 'latest.json'), heartbeat);
+    writeIfChanged(path.join(CHANGES_DIR, 'latest.md'),
+      `# YC Company Changes for ${today}\n\nNo company records changed. Still ${companies.length} companies.\n`
     );
     console.log('  ✓ No changes detected');
   }
 
-  // 6. Write merged companies.json catalog (from current in-memory data, no day files)
-  const catalog = companies.sort((a, b) => b.id - a.id);
-  writeIfChanged(
-    path.join(YC_CACHE_DIR, 'companies.json'),
-    JSON.stringify({
-      fetchedAt: new Date().toISOString(),
-      count: catalog.length,
-      companies: catalog,
-    }, null, 2) + '\n',
-  );
-
-  // 7. Write featured.json (top recent companies for homepage display)
-  // Dynamically pick the 4 most recent batches by parsing batch names (e.g., W26, S26)
-  // Compute from companies directly (not from uniqueBatches which is computed later)
-  const allBatchNames = Array.from(new Set(companies.map((c) => c.batch)))
-    .filter((b) => b !== 'Unspecified')
-    .sort((a, b) => {
-      const numA = parseInt(a.slice(1), 10);
-      const numB = parseInt(b.slice(1), 10);
-      if (numB !== numA) return numB - numA;
-      // Same year: F(0) < S(1) < W(2) — Fall most recent, then Summer, then Winter
-      const seasonOrder: Record<string, number> = { F: 0, S: 1, W: 2 };
-      return (seasonOrder[a[0]] ?? 3) - (seasonOrder[b[0]] ?? 3);
-    });
-  const recentBatches = allBatchNames.slice(0, 4);
-  const featured = companies
-    .filter((c) => recentBatches.includes(c.batch))
-    .sort((a, b) => (Number(b.top_company) - Number(a.top_company)) || (b.launched_at - a.launched_at))
-    .slice(0, 50);
-  writeIfChanged(
-    path.join(YC_CACHE_DIR, 'featured.json'),
-    JSON.stringify({
-      fetchedAt: new Date().toISOString(),
-      count: featured.length,
-      companies: featured,
-    }, null, 2) + '\n',
-  );
-
-  // 8. Write meta.json
-  const uniqueTags = Array.from(new Set(companies.flatMap((c) => c.tags)));
-  const uniqueBatches = Array.from(new Set(companies.map((c) => c.batch))).sort();
-  const uniqueIndustries = Array.from(new Set(companies.flatMap((c) => c.industries)));
-
-  const meta: YcMeta = {
-    last_updated: new Date().toISOString(),
-    totalCompanies: companies.length,
-    totalBatches: uniqueBatches.length,
-    totalTags: uniqueTags.length,
-    totalIndustries: uniqueIndustries.length,
-    batches: Object.fromEntries(
-      uniqueBatches.map((b) => [
-        b.toLowerCase().replace(/\s+/g, '-'),
-        {
-          name: b,
-          count: companies.filter((c) => c.batch === b).length,
-        },
-      ])
-    ),
-  };
-  writeIfChanged(
-    path.join(YC_CACHE_DIR, 'meta.json'),
-    JSON.stringify(meta, null, 2) + '\n',
-  );
-
-  // 9. Write index
-  const index = {
-    type: 'yc-combinator',
-    fetchedAt: new Date().toISOString(),
-    totalCompanies: companies.length,
-    totalBatches: uniqueBatches.length,
-    totalTags: uniqueTags.length,
-    totalIndustries: uniqueIndustries.length,
-  };
-  writeIfChanged(
-    path.join(YC_CACHE_DIR, 'index.json'),
-    JSON.stringify(index, null, 2) + '\n',
-  );
-
-  // 10. Summary
+  // 6. Summary
   const elapsed = ((Date.now() - startTime) / 1000).toFixed(1);
   console.log(`\n   Done in ${elapsed}s`);
   console.log(`   Companies: ${companies.length}`);
-  console.log(`   Batches: ${uniqueBatches.length}`);
-  console.log(`   Tags: ${uniqueTags.length}`);
-  console.log(`   Industries: ${uniqueIndustries.length}`);
   console.log(`   Changes: +${changeSet.added.length} -${changeSet.removed.length} ~${changeSet.updated.length}`);
-  console.log('✅ YC data cached to yc/\n');
+  console.log('✅ YC changes tracked\n');
 }
 
 main().catch((err) => {

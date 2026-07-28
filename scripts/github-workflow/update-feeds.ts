@@ -1,36 +1,27 @@
 #!/usr/bin/env tsx
 /**
- * update-feeds.ts — ULTRA-FAST FEED UPDATER
+ * update-feeds.ts — DAILY ULTRA-FAST FEED UPDATER
  *
  * Fetches RSS feed items from the registry and updates JSON files in feeds/.
+ * Runs daily via the daily-feed-update.yml GitHub Actions workflow.
  *
  * SPEED DESIGN:
- *   ⚡ All feeds are fetched IN PARALLEL (not in batches of 10)
- *   ⚡ Native fetch() with 5s timeout (aggressive — all 400+ feeds in parallel)
+ *   ⚡ All feeds are fetched IN PARALLEL (not in batches)
+ *   ⚡ Native fetch() with 5s timeout
  *   ⚡ NO retries — if a feed fails, mark it and move on
  *   ⚡ Feed health tracking — dead feeds permanently removed after 2 failures
- *   ⚡ Only items from the last 24h are indexed (once-daily run, no historical baggage)
- *   ⚡ YC fetch via raw.githubusercontent.com (no git clone — saves ~120s)
- *
- * With this design:
- *   -   438 feeds → ~5 seconds (all parallel, worst-case timeout)
- *   - 1,000 feeds → ~5 seconds (more feeds doesn't mean more wall time)
- *   - 5,000 feeds → ~5 seconds (same — timeouts are parallel)
+ *   ⚡ Only items from the last 24h are indexed
  *
  * USAGE:
- *   tsx scripts/update-feeds.ts
- *   tsx scripts/update-feeds.ts --historical --limit=500
- *   tsx scripts/update-feeds.ts --feed=netflix-tech-blog
- *
- * ETHICAL NOTE:
- *   We index only article metadata — title, URL, summary, author, publication date.
- *   We NEVER download, cache, or host article content.
+ *   tsx scripts/github-workflow/update-feeds.ts
+ *   tsx scripts/github-workflow/update-feeds.ts --historical --limit=500
+ *   tsx scripts/github-workflow/update-feeds.ts --feed=netflix-tech-blog
  */
 
 import * as fs from 'node:fs';
 import * as path from 'node:path';
 import Parser from 'rss-parser';
-import { FEED_REGISTRY, type FeedSource } from './feed-registry.js';
+import { FEED_REGISTRY, type FeedSource } from '../feed-registry.js';
 
 // ── Types ────────────────────────────────────────────────────────────
 
@@ -81,15 +72,16 @@ type FeedItemRaw = {
 
 // ── Configuration ─────────────────────────────────────────────────────
 
-const FEEDS_DIR = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..', 'feeds');
-const DAILY_DIR = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..', 'daily');
+const ROOT_DIR = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..', '..');
+const FEEDS_DIR = path.join(ROOT_DIR, 'feeds');
+const DAILY_DIR = path.join(ROOT_DIR, 'daily');
 const HEALTH_FILE = path.join(DAILY_DIR, 'feed-health.json');
 
-const HTTP_TIMEOUT_MS = 5_000;    // 5s max per feed — all feeds in parallel so wall time = slowest feed
-const MAX_CONSECUTIVE_FAILURES = 2; // After 2 failures, feed is permanently REMOVED
-const FEED_ITEM_LIMIT = 50;         // Max items to parse per feed
-const MAX_TOTAL_ITEMS = 10_000;      // Cap total stored items per feed
-const RECENT_ITEM_HOURS = 24;       // Only index items published in last 24h (once-daily run)
+const HTTP_TIMEOUT_MS = 5_000;
+const MAX_CONSECUTIVE_FAILURES = 2;
+const FEED_ITEM_LIMIT = 50;
+const MAX_TOTAL_ITEMS = 10_000;
+const RECENT_ITEM_HOURS = 24;
 
 // ── Helpers ───────────────────────────────────────────────────────────
 
@@ -159,7 +151,6 @@ function loadFeedHealth(): FeedHealth {
 function saveFeedHealth(health: FeedHealth): void {
   ensureDir(DAILY_DIR);
   const newJson = JSON.stringify(health, null, 2) + '\n';
-  // Only write if changed to avoid unnecessary git diffs on every run
   const currentJson = fs.existsSync(HEALTH_FILE) ? fs.readFileSync(HEALTH_FILE, 'utf-8') : '';
   if (newJson !== currentJson) {
     fs.writeFileSync(HEALTH_FILE, newJson, 'utf-8');
@@ -170,7 +161,6 @@ function shouldProcessFeed(feedId: string, health: FeedHealth, historical: boole
   if (historical) return true;
   const entry = health[feedId];
   if (!entry) return true;
-  // REMOVED feeds are forever gone — never check again
   return entry.status !== 'removed';
 }
 
@@ -202,6 +192,8 @@ function markFeedFailure(health: FeedHealth, feedId: string, error: string): voi
 
 // ── Fast RSS fetch via native fetch() + rss-parser ──────────────────
 
+const parser = new Parser<FeedItemRaw, FeedItemRaw>();
+
 async function fetchFeedXml(url: string, signal: AbortSignal): Promise<string | null> {
   const response = await fetch(url, {
     signal,
@@ -219,14 +211,10 @@ async function fetchFeedXml(url: string, signal: AbortSignal): Promise<string | 
   const contentType = response.headers.get('content-type') || '';
   if (!contentType.includes('xml') && !contentType.includes('rss') && !contentType.includes('atom') && !contentType.includes('text')) {
     console.warn(`  ⚠ Non-XML content-type: ${contentType} for ${url}`);
-    // Still try to parse — some servers return text/html with actual RSS XML
   }
 
   return response.text();
 }
-
-// Create parser once (reused across all feeds — avoids 400+ allocations)
-const parser = new Parser<FeedItemRaw, FeedItemRaw>();
 
 async function updateFeed(
   feed: FeedSource,
@@ -235,7 +223,6 @@ async function updateFeed(
 ): Promise<{ newItems: number; total: number; error?: string }> {
   const filePath = path.join(FEEDS_DIR, `${feed.id}.json`);
 
-  // Read existing data
   let existingData: FeedData | null = null;
   if (fs.existsSync(filePath)) {
     try {
@@ -248,10 +235,6 @@ async function updateFeed(
   const existingGuids = new Set(existingData?.items.map((i) => i.guid) ?? []);
   const alreadyHasContent = existingData !== null && existingData.items.length > 0;
 
-  // ── FETCH: Direct GET with 5s timeout ──
-  // No HEAD ping — on GitHub Actions, cold connections take 2-4s so a HEAD
-  // ping would double the wall time and block working feeds.
-  // After 2 consecutive failures, the feed is permanently REMOVED.
   let xml: string | null;
   try {
     xml = await fetchFeedXml(feed.rssUrl, AbortSignal.timeout(HTTP_TIMEOUT_MS));
@@ -264,7 +247,6 @@ async function updateFeed(
     return { newItems: 0, total: existingData?.items.length ?? 0, error: 'Empty response' };
   }
 
-  // ── PARSE via rss-parser (robust RSS/Atom/RDF handling) ──
   let parsed: { items?: FeedItemRaw[] };
   try {
     parsed = await parser.parseString(xml);
@@ -277,27 +259,23 @@ async function updateFeed(
     return { newItems: 0, total: existingData?.items.length ?? 0, error: alreadyHasContent ? undefined : 'No items in feed' };
   }
 
-  // ── PROCESS items ──
   const now = Date.now();
   const recentCutoff = now - RECENT_ITEM_HOURS * 60 * 60 * 1000;
   const newItems: FeedItem[] = [];
   let itemsAdded = 0;
 
   for (const rawItem of parsed.items) {
-    // Apply item limit
     if (itemsAdded >= limit) break;
 
     const guid = getGuid(rawItem, feed.id);
     if (existingGuids.has(guid)) continue;
 
-    // In incremental mode, only index recent items (within 24h window)
     if (!historical) {
       const pubDate = rawItem.isoDate || rawItem.pubDate;
       if (pubDate) {
         const pubTime = new Date(pubDate).getTime();
-        if (!isNaN(pubTime) && pubTime < recentCutoff) continue; // skip old items
+        if (!isNaN(pubTime) && pubTime < recentCutoff) continue;
       } else {
-        // No date — stop after first 3 items to avoid re-indexing old undated content
         if (itemsAdded >= 3) continue;
       }
     }
@@ -322,7 +300,6 @@ async function updateFeed(
     return { newItems: 0, total: existingData?.items.length ?? 0 };
   }
 
-  // ── WRITE updated file (atomic write via tmp + rename) ──
   const updatedData: FeedData = {
     feedId: feed.id,
     feedName: feed.name,
@@ -340,8 +317,6 @@ async function updateFeed(
 
   return { newItems: newItems.length, total: updatedData.items.length };
 }
-
-// ── Delta JSON ──────────────────────────────────────────────────────
 
 function writeDeltaJson(results: Array<{ id: string; newItems: number }>): void {
   ensureDir(DAILY_DIR);
@@ -402,7 +377,7 @@ async function main(): Promise<void> {
   console.log(`\n⚡ 100xSystems Feed Updater — ULTRA-FAST MODE`);
   console.log(`   Mode: ${historical ? 'HISTORICAL IMPORT' : 'INCREMENTAL UPDATE'}`);
   console.log(`   Max items per feed: ${limit}`);
-  console.log(`   Strategy: ALL feeds IN PARALLEL (not batched)`);
+  console.log(`   Strategy: ALL feeds IN PARALLEL`);
   console.log(`   Timeout: ${HTTP_TIMEOUT_MS}ms per feed`);
   console.log(`   Recent items: ${historical ? 'ALL (historical)' : `Last ${RECENT_ITEM_HOURS}h only`}`);
   console.log(`   Target feeds: ${feedIds.length > 0 ? feedIds.join(', ') : `ALL (${FEED_REGISTRY.length})`}\n`);
@@ -413,7 +388,6 @@ async function main(): Promise<void> {
     ? feedIds.map((id) => FEED_REGISTRY.find((f) => f.id === id)).filter(Boolean) as FeedSource[]
     : FEED_REGISTRY;
 
-  // ── Load feed health & filter out dead feeds ──
   const feedHealth = loadFeedHealth();
   const activeFeeds = feedsToProcess.filter((f) => shouldProcessFeed(f.id, feedHealth, historical));
   const skippedCount = feedsToProcess.length - activeFeeds.length;
@@ -422,10 +396,6 @@ async function main(): Promise<void> {
     console.log(`   ⏭ Skipping ${skippedCount} permanently removed feed(s)\n`);
   }
 
-  // ── ALL FEEDS IN PARALLEL ──
-  // No batching. No concurrency limit. All 400+ feeds fire at once.
-  // Node.js handles hundreds of concurrent fetch() calls effortlessly.
-  // Each has a ${HTTP_TIMEOUT_MS}ms timeout, so the slowest feed determines wall time.
   console.log(`   🚀 Firing ${activeFeeds.length} requests in parallel...\n`);
 
   const results = await Promise.allSettled(
@@ -444,16 +414,12 @@ async function main(): Promise<void> {
     ),
   );
 
-  // ── Process results & update feed health ──
   const processedResults: Array<{ id: string; name: string; newItems: number; total: number; error?: string }> = [];
   let totalNew = 0;
   let errorCount = 0;
 
   for (const settled of results) {
-    if (settled.status === 'rejected') {
-      // Should not happen — the catch inside the map wraps all errors
-      continue;
-    }
+    if (settled.status === 'rejected') continue;
 
     const { feed, result } = settled.value;
 
@@ -487,10 +453,8 @@ async function main(): Promise<void> {
     });
   }
 
-  // ── Save feed health (only if something changed — avoid unnecessary git diffs) ──
   saveFeedHealth(feedHealth);
 
-  // ── Write delta ──
   if (!historical) {
     if (totalNew > 0) {
       writeDeltaJson(processedResults);
@@ -499,7 +463,6 @@ async function main(): Promise<void> {
     }
   }
 
-  // ── Summary ──
   const elapsed = ((Date.now() - startTime) / 1000).toFixed(1);
   console.log(`\n${'═'.repeat(50)}`);
   console.log(`📊 Summary (${elapsed}s)`);

@@ -20,7 +20,7 @@
  * feed-registry.ts manually.
  */
 
-import { FEED_REGISTRY } from './feed-registry.js';
+import { FEED_REGISTRY } from '../feed-registry.js';
 
 const PING_TIMEOUT_MS = 5_000;
 const MAX_CONCURRENT = 50;

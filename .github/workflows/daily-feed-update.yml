@@ -54,7 +54,7 @@ jobs:
             npm run update-feeds -- --limit=${{ inputs.limit || 50 }}
           fi
 
-      - name: Fetch YC Combinator data (fast — raw.githubusercontent.com)
+      - name: Fetch YC Combinator changes via Algolia
         continue-on-error: true
         run: npm run fetch-yc
 
