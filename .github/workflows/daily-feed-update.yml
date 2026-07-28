@@ -2,8 +2,8 @@ name: Daily Feed Update
 
 on:
   schedule:
-    # Runs every day at 00:00 UTC
-    - cron: '0 0 * * *'
+    # Runs 4x daily at 00:00, 06:00, 12:00, 18:00 UTC
+    - cron: '0 0,6,12,18 * * *'
   workflow_dispatch:
     # Allows manual trigger from GitHub UI
     inputs:
@@ -23,10 +23,15 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  # Prevent overlapping runs from the same branch
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   update-feeds:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 90
 
     steps:
       - name: Checkout repository
@@ -60,9 +65,14 @@ jobs:
             fi
             npm run update-feeds -- --limit=${{ inputs.limit || 50 }} $FEED_FLAG
           fi
-          # The update-feeds script now automatically writes daily/delta.json
-          # with only the new items from this run. This file is small (< 1KB)
-          # and is used by the website's ISR for incremental cache updates.
+
+      - name: Fetch YC Combinator data
+        continue-on-error: true
+        run: npm run fetch-yc
+
+      - name: Fetch Product Hunt data
+        continue-on-error: true
+        run: npm run fetch-ph
 
       - name: Check for changes
         id: git-check
@@ -81,5 +91,5 @@ jobs:
         run: |
           git config --local user.name "100xSystems Bot"
           git config --local user.email "bot@100xsystems.dev"
-          git commit -m "chore(feeds): daily update — $(date +'%Y-%m-%d')"
+          git commit -m "chore(feeds): daily update — $(date +'%Y-%m-%d-%H%M')"
           git push

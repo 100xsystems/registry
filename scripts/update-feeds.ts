@@ -21,6 +21,9 @@
  *   - GUIDs are used for deduplication (falls back to link if no guid)
  *   - Only metadata is stored (title, link, summary, author, publishedAt).
  *     NEVER stores article body content.
+ *   - Feeds are processed in parallel batches to be fast while respecting rate limits.
+ *   - Each failed feed is retried once before being logged as an error.
+ *   - Individual feed failures do NOT cause the whole script to exit with code 1.
  *
  * ETHICAL NOTE:
  *   We index only article metadata — title, URL, summary, author, publication date.
@@ -63,6 +66,9 @@ const FEEDS_DIR = path.resolve(path.dirname(new URL(import.meta.url).pathname), 
 const DAILY_DIR = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..', 'daily');
 const DEFAULT_LIMIT = 50;
 const HISTORICAL_LIMIT = 500;
+const CONCURRENCY = 10;      // Number of feeds to fetch in parallel
+const RETRY_COUNT = 1;       // Number of retries per failed feed
+const DELAY_BETWEEN_BATCHES = 1000; // 1s delay between batches to avoid rate limiting
 
 type FeedItemRaw = {
   guid?: string;
@@ -132,9 +138,16 @@ function parseArgs(): { historical: boolean; limit: number; feedIds: string[] } 
   return { historical, limit, feedIds };
 }
 
+/**
+ * Sleep for a given number of milliseconds.
+ */
+function sleep(ms: number): Promise<void> {
+  return new Promise((r) => setTimeout(r, ms));
+}
+
 // ── Core logic ────────────────────────────────────────────────────────
 
-async function updateFeed(feed: FeedSource, limit: number): Promise<{ newItems: number; total: number; error?: string }> {
+async function updateFeed(feed: FeedSource, limit: number, attempt = 0): Promise<{ newItems: number; total: number; error?: string }> {
   const filePath = path.join(FEEDS_DIR, `${feed.id}.json`);
 
   // Read existing data
@@ -143,7 +156,7 @@ async function updateFeed(feed: FeedSource, limit: number): Promise<{ newItems: 
     try {
       existingData = JSON.parse(fs.readFileSync(filePath, 'utf-8')) as FeedData;
     } catch {
-      console.warn(`  ⚠ Corrupt file for ${feed.id}, starting fresh`);
+      console.warn(`    ⚠ Corrupt file for ${feed.id}, starting fresh`);
     }
   }
 
@@ -158,6 +171,12 @@ async function updateFeed(feed: FeedSource, limit: number): Promise<{ newItems: 
     parsed = await parser.parseURL(feed.rssUrl);
   } catch (err) {
     const errorMsg = err instanceof Error ? err.message : String(err);
+    // Retry once
+    if (attempt < RETRY_COUNT) {
+      console.log(`    Retrying...`);
+      await sleep(2000);
+      return updateFeed(feed, limit, attempt + 1);
+    }
     return { newItems: 0, total: existingData?.items.length ?? 0, error: errorMsg };
   }
 
@@ -214,25 +233,20 @@ async function updateFeed(feed: FeedSource, limit: number): Promise<{ newItems: 
 
 // ── Delta JSON Generation ──────────────────────────────────────────
 
-interface DeltaResult {
-  feedId: string;
-  feedName: string;
-  newItemGuids: string[];
-  feedData: FeedData | null;
-}
-
 /**
- * Write daily/delta.json with only the newly added items from this run.
+ * Write daily/delta.json with ONLY the newly added items from this run.
  * This file is fetched by the website's ISR to incrementally update its cache
- * without re-downloading all 51 feed JSON files.
+ * without re-downloading all feed JSON files.
+ *
+ * The delta only contains feedId → new items, no full feedData objects.
+ * That keeps the file tiny (typically < 1 KB).
  */
-function writeDeltaJson(results: Array<{ id: string; name: string; newItems: number; }>, processedFeeds: FeedSource[]): void {
+function writeDeltaJson(results: Array<{ id: string; newItems: number }>): void {
   if (!fs.existsSync(DAILY_DIR)) {
     fs.mkdirSync(DAILY_DIR, { recursive: true });
   }
 
   const items: Record<string, FeedItem[]> = {};
-  const deltas: DeltaResult[] = [];
 
   for (const result of results) {
     if (result.newItems === 0) continue;
@@ -248,11 +262,9 @@ function writeDeltaJson(results: Array<{ id: string; name: string; newItems: num
     if (!feedData) continue;
 
     // Take only the newest items (the ones just added — they're at the end of the array)
-    // We identify them by looking at the last `result.newItems` items
     const newItems = feedData.items.slice(-result.newItems);
     if (newItems.length > 0) {
       items[result.id] = newItems;
-      deltas.push({ feedId: result.id, feedName: result.name, newItemGuids: newItems.map(i => i.guid), feedData });
     }
   }
 
@@ -302,7 +314,8 @@ async function main(): Promise<void> {
   console.log(`\n🔍 100xSystems Feed Updater`);
   console.log(`   Mode: ${historical ? 'HISTORICAL IMPORT' : 'INCREMENTAL UPDATE'}`);
   console.log(`   Max items per feed: ${limit}`);
-  console.log(`   Target feeds: ${feedIds.length > 0 ? feedIds.join(', ') : 'ALL (51)'}\n`);
+  console.log(`   Concurrency: ${CONCURRENCY} feeds at a time`);
+  console.log(`   Target feeds: ${feedIds.length > 0 ? feedIds.join(', ') : `ALL (${FEED_REGISTRY.length})`}\n`);
 
   ensureFeedsDir();
 
@@ -314,42 +327,58 @@ async function main(): Promise<void> {
   let totalNew = 0;
   let totalErrors = 0;
 
-  // Process feeds sequentially to avoid rate limiting
-  for (const feed of feedsToProcess) {
-    process.stdout.write(`  [${feed.id}] ${feed.name}... `);
+  // Process feeds in parallel batches for speed
+  for (let i = 0; i < feedsToProcess.length; i += CONCURRENCY) {
+    const batch = feedsToProcess.slice(i, i + CONCURRENCY);
 
-    const result = await updateFeed(feed, limit);
+    const batchResults = await Promise.allSettled(
+      batch.map(async (feed) => {
+        const result = await updateFeed(feed, limit);
+        return { feed, result };
+      })
+    );
 
-    if (result.error) {
-      totalErrors++;
-      console.log(`⚠  ${result.error}`);
-    } else if (result.newItems > 0) {
-      totalNew += result.newItems;
-      console.log(`✓ +${result.newItems} new items (total: ${result.total})`);
-    } else {
-      console.log(`✓ No new items (total: ${result.total})`);
+    for (const settled of batchResults) {
+      if (settled.status === 'rejected') {
+        // This shouldn't happen with proper error handling, but just in case
+        totalErrors++;
+        continue;
+      }
+
+      const { feed, result } = settled.value;
+
+      if (result.error) {
+        totalErrors++;
+        console.log(`  ⚠ [${feed.id}] ${feed.name} — ${result.error}`);
+      } else if (result.newItems > 0) {
+        totalNew += result.newItems;
+        console.log(`  ✓ [${feed.id}] ${feed.name} — +${result.newItems} new items (total: ${result.total})`);
+      } else {
+        console.log(`  ✓ [${feed.id}] ${feed.name} — No new items (total: ${result.total})`);
+      }
+
+      results.push({
+        id: feed.id,
+        name: feed.name,
+        newItems: result.newItems,
+        total: result.total,
+        error: result.error,
+      });
     }
 
-    results.push({
-      id: feed.id,
-      name: feed.name,
-      newItems: result.newItems,
-      total: result.total,
-      error: result.error,
-    });
-
-    // Small delay between feeds to be kind to RSS servers
-    if (feedsToProcess.length > 1) {
-      await new Promise((r) => setTimeout(r, 500));
+    // Small delay between batches to be kind to RSS servers
+    if (i + CONCURRENCY < feedsToProcess.length) {
+      await sleep(DELAY_BETWEEN_BATCHES);
     }
   }
 
   // Write daily delta.json (only for non-historical runs)
-  if (!historical && totalNew > 0) {
-    writeDeltaJson(results, feedsToProcess);
-  } else if (!historical && totalNew === 0) {
-    // Still write an empty delta so the website knows we checked
-    writeEmptyDelta();
+  if (!historical) {
+    if (totalNew > 0) {
+      writeDeltaJson(results);
+    } else {
+      writeEmptyDelta();
+    }
   }
 
   // Summary
@@ -361,10 +390,11 @@ async function main(): Promise<void> {
   console.log(`   Previous items preserved: all`);
   console.log(`   Complete!`);
 
-  // Exit with error code if any feeds failed
+  // Log warnings for errors but DO NOT exit with code 1.
+  // Individual feed failures should not crash the entire pipeline.
   if (totalErrors > 0) {
-    console.error(`\n⚠  ${totalErrors} feed(s) had errors — see above for details.`);
-    process.exit(1);
+    console.log(`\n⚠  ${totalErrors} feed(s) had errors — they will be retried next run.`);
+    console.log(`   (This is informational; the script continues successfully.)`);
   }
 }
 
