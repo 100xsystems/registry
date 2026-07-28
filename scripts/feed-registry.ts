@@ -60,14 +60,6 @@ export const FEED_REGISTRY: FeedSource[] = [
     historicalImport: { strategy: 'none' }, // No sitemap found
   },
   {
-    id: 'uber-engineering',
-    name: 'Uber Engineering',
-    rssUrl: 'https://www.uber.com/en-IN/blog/engineering/feed',
-    siteUrl: 'https://www.uber.com/blog/engineering',
-    tags: ['distributed-systems', 'infrastructure', 'mobile'],
-    historicalImport: { strategy: 'none' }, // Sitemap covers entire Uber site, not just engineering blog
-  },
-  {
     id: 'meta-engineering',
     name: 'Engineering at Meta',
     rssUrl: 'https://engineering.fb.com/feed',
@@ -108,28 +100,12 @@ export const FEED_REGISTRY: FeedSource[] = [
     historicalImport: { strategy: 'none' }, // No sitemap found (301)
   },
   {
-    id: 'figma-engineering',
-    name: 'Figma Engineering',
-    rssUrl: 'https://www.figma.com/blog/feed',
-    siteUrl: 'https://www.figma.com/blog',
-    tags: ['frontend', 'systems', 'webassembly', 'collaboration'],
-    historicalImport: { strategy: 'sitemap', sitemapUrl: 'https://www.figma.com/sitemap.xml' },
-  },
-  {
     id: 'tailscale-blog',
     name: 'Tailscale Blog',
     rssUrl: 'https://tailscale.com/blog/index.xml',
     siteUrl: 'https://tailscale.com/blog',
     tags: ['networking', 'security', 'vpn', 'wireguard'],
     historicalImport: { strategy: 'sitemap', sitemapUrl: 'https://tailscale.com/sitemap.xml' },
-  },
-  {
-    id: 'cockroachdb',
-    name: 'CockroachDB',
-    rssUrl: 'https://www.cockroachlabs.com/blog/index.xml',
-    siteUrl: 'https://www.cockroachlabs.com/blog',
-    tags: ['databases', 'distributed-systems', 'sql'],
-    historicalImport: { strategy: 'sitemap', sitemapUrl: 'https://www.cockroachlabs.com/sitemap.xml' },
   },
   {
     id: 'apple-ml-research',
@@ -172,14 +148,6 @@ export const FEED_REGISTRY: FeedSource[] = [
     historicalImport: { strategy: 'sitemap', sitemapUrl: 'https://www.datadoghq.com/sitemap.xml' },
   },
   {
-    id: 'clickhouse',
-    name: 'ClickHouse Blog',
-    rssUrl: 'https://clickhouse.com/blog/rss',
-    siteUrl: 'https://clickhouse.com/blog',
-    tags: ['databases', 'analytics', 'performance'],
-    historicalImport: { strategy: 'sitemap', sitemapUrl: 'https://clickhouse.com/sitemap.xml' },
-  },
-  {
     id: 'pinecone-engineering',
     name: 'Pinecone Engineering',
     rssUrl: 'https://www.pinecone.io/rss',
@@ -212,22 +180,6 @@ export const FEED_REGISTRY: FeedSource[] = [
     historicalImport: { strategy: 'none' }, // No sitemap found
   },
   {
-    id: 'nasa-software',
-    name: 'NASA Software Engineering',
-    rssUrl: 'https://www.nasa.gov/feeds/technology',
-    siteUrl: 'https://www.nasa.gov/technology',
-    tags: ['software-engineering', 'research', 'systems'],
-    historicalImport: { strategy: 'none' },
-  },
-  {
-    id: 'traefik',
-    name: 'Traefik Labs',
-    rssUrl: 'https://traefik.io/blog/rss',
-    siteUrl: 'https://traefik.io/blog',
-    tags: ['networking', 'cloud-native', 'infrastructure'],
-    historicalImport: { strategy: 'none' },
-  },
-  {
     id: 'istio',
     name: 'Istio Blog',
     rssUrl: 'https://istio.io/latest/blog/feed.xml',
@@ -236,17 +188,9 @@ export const FEED_REGISTRY: FeedSource[] = [
     historicalImport: { strategy: 'none' },
   },
   {
-    id: 'deno-blog',
-    name: 'Deno Blog',
-    rssUrl: 'https://deno.com/blog/feed.xml',
-    siteUrl: 'https://deno.com/blog',
-    tags: ['javascript', 'runtime', 'security'],
-    historicalImport: { strategy: 'none' },
-  },
-  {
     id: 'bun-blog',
     name: 'Bun Blog',
-    rssUrl: 'https://bun.sh/blog/rss.xml',
+    rssUrl: 'https://bun.sh/rss.xml',
     siteUrl: 'https://bun.sh/blog',
     tags: ['javascript', 'performance', 'runtime'],
     historicalImport: { strategy: 'none' },
@@ -282,14 +226,6 @@ export const FEED_REGISTRY: FeedSource[] = [
     siteUrl: 'https://engineering.atspotify.com',
     tags: ['backend', 'infrastructure', 'platform'],
     historicalImport: { strategy: 'none' }, // No sitemap found
-  },
-  {
-    id: 'linkedin-engineering',
-    name: 'LinkedIn Engineering',
-    rssUrl: 'https://www.linkedin.com/blog/engineering/feed',
-    siteUrl: 'https://engineering.linkedin.com/blog',
-    tags: ['infrastructure', 'ai', 'distributed-systems'],
-    historicalImport: { strategy: 'none' },
   },
   {
     id: 'hashicorp',
@@ -340,14 +276,6 @@ export const FEED_REGISTRY: FeedSource[] = [
     historicalImport: { strategy: 'none' }, // No sitemap found
   },
   {
-    id: 'posthog',
-    name: 'PostHog Blog',
-    rssUrl: 'https://posthog.com/blog/rss.xml',
-    siteUrl: 'https://posthog.com/blog',
-    tags: ['startups', 'open-source', 'product-engineering'],
-    historicalImport: { strategy: 'none' }, // No sitemap found
-  },
-  {
     id: 'sourcegraph',
     name: 'Sourcegraph Blog',
     rssUrl: 'https://about.sourcegraph.com/blog/rss.xml',
@@ -382,7 +310,7 @@ export const FEED_REGISTRY: FeedSource[] = [
   {
     id: 'digitalocean',
     name: 'DigitalOcean Blog',
-    rssUrl: 'https://www.digitalocean.com/blog/feed',
+    rssUrl: 'https://www.digitalocean.com/blog/rss/',
     siteUrl: 'https://www.digitalocean.com/blog',
     tags: ['cloud', 'infrastructure', 'devops'],
     historicalImport: { strategy: 'none' },
@@ -404,17 +332,9 @@ export const FEED_REGISTRY: FeedSource[] = [
     historicalImport: { strategy: 'none' }, // No sitemap found (301)
   },
   {
-    id: 'nginx',
-    name: 'NGINX Blog',
-    rssUrl: 'https://www.nginx.com/blog/feed/',
-    siteUrl: 'https://www.nginx.com/blog',
-    tags: ['networking', 'web-server', 'performance'],
-    historicalImport: { strategy: 'none' }, // No sitemap found (301)
-  },
-  {
     id: 'redhat',
     name: 'Red Hat Blog',
-    rssUrl: 'https://www.redhat.com/rss/blog',
+    rssUrl: 'https://www.redhat.com/en/rss/blog',
     siteUrl: 'https://www.redhat.com/en/blog',
     tags: ['open-source', 'linux', 'cloud-native'],
     historicalImport: { strategy: 'sitemap', sitemapUrl: 'https://www.redhat.com/sitemap.xml' },
