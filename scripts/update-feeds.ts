@@ -6,16 +6,16 @@
  *
  * SPEED DESIGN:
  *   ⚡ All feeds are fetched IN PARALLEL (not in batches of 10)
- *   ⚡ Native fetch() with 3s hard timeout (aggressive — most feeds respond in <1.5s)
- *   ⚡ NO retries — if a feed doesn't respond in 3s, mark it and move on
- *   ⚡ Feed health tracking — dead feeds auto-skipped after 3 consecutive failures
- *   ⚡ Only items from the last 48h are indexed (no historical baggage per run)
- *   ⚡ YC/PH fetch via raw.githubusercontent.com (no git clone — saves ~120s)
+ *   ⚡ Native fetch() with 5s timeout (aggressive — all 400+ feeds in parallel)
+ *   ⚡ NO retries — if a feed fails, mark it and move on
+ *   ⚡ Feed health tracking — dead feeds permanently removed after 2 failures
+ *   ⚡ Only items from the last 24h are indexed (once-daily run, no historical baggage)
+ *   ⚡ YC fetch via raw.githubusercontent.com (no git clone — saves ~120s)
  *
  * With this design:
- *   -   438 feeds → ~3 seconds (all parallel, worst-case timeout)
- *   - 1,000 feeds → ~3 seconds (more feeds doesn't mean more wall time)
- *   - 5,000 feeds → ~3 seconds (same — timeouts are parallel)
+ *   -   438 feeds → ~5 seconds (all parallel, worst-case timeout)
+ *   - 1,000 feeds → ~5 seconds (more feeds doesn't mean more wall time)
+ *   - 5,000 feeds → ~5 seconds (same — timeouts are parallel)
  *
  * USAGE:
  *   tsx scripts/update-feeds.ts
@@ -290,7 +290,7 @@ async function updateFeed(
     const guid = getGuid(rawItem, feed.id);
     if (existingGuids.has(guid)) continue;
 
-    // In incremental mode, only index recent items (within 48h)
+    // In incremental mode, only index recent items (within 24h window)
     if (!historical) {
       const pubDate = rawItem.isoDate || rawItem.pubDate;
       if (pubDate) {
@@ -425,7 +425,7 @@ async function main(): Promise<void> {
   // ── ALL FEEDS IN PARALLEL ──
   // No batching. No concurrency limit. All 400+ feeds fire at once.
   // Node.js handles hundreds of concurrent fetch() calls effortlessly.
-  // Each has a 3s hard timeout, so the slowest feed determines wall time.
+  // Each has a ${HTTP_TIMEOUT_MS}ms timeout, so the slowest feed determines wall time.
   console.log(`   🚀 Firing ${activeFeeds.length} requests in parallel...\n`);
 
   const results = await Promise.allSettled(
