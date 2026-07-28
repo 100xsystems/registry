@@ -24,6 +24,22 @@ function ensureDir(dir: string): void {
   }
 }
 
+/** Read existing file content (for change detection) */
+function readExisting(filePath: string): string | null {
+  try {
+    if (fs.existsSync(filePath)) return fs.readFileSync(filePath, 'utf-8');
+  } catch {}
+  return null;
+}
+
+/** Write file only if content changed */
+function writeIfChanged(filePath: string, content: string): boolean {
+  const existing = readExisting(filePath);
+  if (existing === content) return false;
+  fs.writeFileSync(filePath, content, 'utf-8');
+  return true;
+}
+
 function parseCSVLine(line: string): string[] {
   const result: string[] = [];
   let current = '';
@@ -86,23 +102,26 @@ async function main(): Promise<void> {
     if (product.name) products.push(product);
   }
 
-  // Write full product list
+  // Write full product list (only if changed)
   const outputPath = path.join(PH_CACHE_DIR, 'products.json');
-  fs.writeFileSync(outputPath, JSON.stringify({
+  const productsJson = JSON.stringify({
     fetchedAt: new Date().toISOString(),
     count: products.length,
     products,
-  }, null, 2), 'utf-8');
+  }, null, 2);
+  if (writeIfChanged(outputPath, productsJson + '\n')) {
+    console.log(`  ✓ Wrote ${products.length} products to producthunt/products.json (NEW)`);
+  } else {
+    console.log(`  ✓ products.json — unchanged (${products.length} products)`);
+  }
 
-  console.log(`  ✓ Wrote ${products.length} products to producthunt/products.json`);
-
-  // Write index
-  fs.writeFileSync(path.join(PH_CACHE_DIR, 'index.json'), JSON.stringify({
+  // Write index (always updates fetchedAt)
+  writeIfChanged(path.join(PH_CACHE_DIR, 'index.json'), JSON.stringify({
     type: 'producthunt',
     fetchedAt: new Date().toISOString(),
     source: 'https://github.com/bennyblanco4/producthunt-scraper',
     productCount: products.length,
-  }, null, 2), 'utf-8');
+  }, null, 2) + '\n');
 
   const elapsed = ((Date.now() - startTime) / 1000).toFixed(1);
   console.log(`   Done in ${elapsed}s`);

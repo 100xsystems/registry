@@ -55,7 +55,7 @@ interface FeedData {
 }
 
 interface FeedHealthEntry {
-  status: 'active' | 'dead';
+  status: 'active' | 'dead' | 'removed';
   consecutiveFailures: number;
   lastSuccess: string | null;
   lastError: string | null;
@@ -86,9 +86,8 @@ const DAILY_DIR = path.resolve(path.dirname(new URL(import.meta.url).pathname), 
 const HEALTH_FILE = path.join(DAILY_DIR, 'feed-health.json');
 
 const HTTP_TIMEOUT_MS = 5_000;    // 5s max per feed — balances speed with catching slow-but-working feeds.
-                                    // No retries. Health system handles failures after 3 strikes.
-const MAX_CONSECUTIVE_FAILURES = 3; // After this, feed auto-skipped
-const DEAD_FEED_RECHECK_DAYS = 7;   // Re-check dead feeds weekly
+const PING_TIMEOUT_MS = 3_000;    // 3s for HEAD ping — quick check before full fetch
+const MAX_CONSECUTIVE_FAILURES = 2; // After 2 failures, feed is permanently REMOVED
 const FEED_ITEM_LIMIT = 50;         // Max items to parse per feed
 const MAX_TOTAL_ITEMS = 10_000;      // Cap total stored items per feed
 const RECENT_ITEM_HOURS = 48;       // Only index items published in last 48h
@@ -169,19 +168,11 @@ function saveFeedHealth(health: FeedHealth): void {
 }
 
 function shouldProcessFeed(feedId: string, health: FeedHealth, historical: boolean): boolean {
-  if (historical) return true; // always process in historical mode
-
+  if (historical) return true;
   const entry = health[feedId];
-  if (!entry) return true; // never checked before — process
-
-  // If dead, only re-check if enough days have passed
-  if (entry.status === 'dead') {
-    const lastCheck = new Date(entry.lastCheckedDate).getTime();
-    const daysSinceCheck = (Date.now() - lastCheck) / (1000 * 60 * 60 * 24);
-    return daysSinceCheck >= DEAD_FEED_RECHECK_DAYS;
-  }
-
-  return true; // active or unchecked
+  if (!entry) return true;
+  // REMOVED feeds are forever gone — never check again
+  return entry.status !== 'removed';
 }
 
 function markFeedSuccess(health: FeedHealth, feedId: string): void {
@@ -198,9 +189,10 @@ function markFeedSuccess(health: FeedHealth, feedId: string): void {
 function markFeedFailure(health: FeedHealth, feedId: string, error: string): void {
   const existing = health[feedId];
   const failures = (existing?.consecutiveFailures ?? 0) + 1;
+  const isRemoved = failures >= MAX_CONSECUTIVE_FAILURES;
 
   health[feedId] = {
-    status: failures >= MAX_CONSECUTIVE_FAILURES ? 'dead' : 'active',
+    status: isRemoved ? 'removed' : 'active',
     consecutiveFailures: failures,
     lastSuccess: existing?.lastSuccess ?? null,
     lastError: error.substring(0, 200),
@@ -257,10 +249,37 @@ async function updateFeed(
   const existingGuids = new Set(existingData?.items.map((i) => i.guid) ?? []);
   const alreadyHasContent = existingData !== null && existingData.items.length > 0;
 
-  // ── FETCH via native fetch() with 3s timeout ──
-  // No retries. If a feed doesn't respond in 3s, it gets marked as a failure.
-  // After 3 consecutive failures across different runs, the feed is auto-marked DEAD
-  // and skipped entirely. This is faster than wasting time retrying dead servers.
+  // ── PHASE 1: Pre-fetch HEAD ping (3s) — quick check before full fetch ──
+  // If the server doesn't respond to a lightweight HEAD, it's dead.
+  // After 2 consecutive failures, the feed is permanently REMOVED.
+  try {
+    const pingResponse = await fetch(feed.rssUrl, {
+      method: 'HEAD',
+      signal: AbortSignal.timeout(PING_TIMEOUT_MS),
+      headers: { 'User-Agent': '100xSystems-FeedUpdater/1.0' },
+    });
+    if (!pingResponse.ok && pingResponse.status !== 405) {
+      // 405 Method Not Allowed is fine — some servers don't support HEAD
+      return { newItems: 0, total: existingData?.items.length ?? 0, error: `HEAD ${pingResponse.status}` };
+    }
+  } catch (err) {
+    const errorMsg = err instanceof Error ? err.message : String(err);
+    // Retry ping once immediately (DNS/network blips recover instantly)
+    try {
+      const retryResponse = await fetch(feed.rssUrl, {
+        method: 'HEAD',
+        signal: AbortSignal.timeout(PING_TIMEOUT_MS),
+        headers: { 'User-Agent': '100xSystems-FeedUpdater/1.0' },
+      });
+      if (!retryResponse.ok && retryResponse.status !== 405) {
+        return { newItems: 0, total: existingData?.items.length ?? 0, error: `HEAD ${retryResponse.status}` };
+      }
+    } catch {
+      return { newItems: 0, total: existingData?.items.length ?? 0, error: `Ping timeout: ${errorMsg}` };
+    }
+  }
+
+  // ── PHASE 2: Full RSS fetch (5s) — only for verified-live feeds ──
   let xml: string | null;
   try {
     xml = await fetchFeedXml(feed.rssUrl, AbortSignal.timeout(HTTP_TIMEOUT_MS));
@@ -428,7 +447,7 @@ async function main(): Promise<void> {
   const skippedCount = feedsToProcess.length - activeFeeds.length;
 
   if (skippedCount > 0) {
-    console.log(`   ⏭ Skipping ${skippedCount} dead feed(s) (will re-check in ${DEAD_FEED_RECHECK_DAYS} days)\n`);
+    console.log(`   ⏭ Skipping ${skippedCount} permanently removed feed(s)\n`);
   }
 
   // ── ALL FEEDS IN PARALLEL ──
@@ -470,8 +489,9 @@ async function main(): Promise<void> {
       errorCount++;
       markFeedFailure(feedHealth, feed.id, result.error);
 
-      if (feedHealth[feed.id]?.status === 'dead') {
-        console.log(`  ✗ [${feed.id}] ${feed.name} — ${result.error} (marked dead after ${MAX_CONSECUTIVE_FAILURES} failures)`);
+      const healthStatus = feedHealth[feed.id]?.status;
+      if (healthStatus === 'removed') {
+        console.log(`  ✗ [${feed.id}] ${feed.name} — ${result.error} (PERMANENTLY REMOVED after ${MAX_CONSECUTIVE_FAILURES} failures)`);
       } else {
         console.log(`  ⚠ [${feed.id}] ${feed.name} — ${result.error} (failure ${feedHealth[feed.id]?.consecutiveFailures ?? 1}/${MAX_CONSECUTIVE_FAILURES})`);
       }

@@ -42,8 +42,9 @@ interface YcCompany {
 
 interface YcMeta {
   last_updated: string;
-  total_companies: number;
-  total_batches: number;
+  total_companies?: number;
+  total_batches?: number;
+  companies?: Record<string, { name: string; count: number; api: string }>;
 }
 
 // ── Helpers ───────────────────────────────────────────────────────────
@@ -69,6 +70,24 @@ async function fetchJson<T>(url: string, label: string): Promise<T | null> {
     console.warn(`  ⚠ ${label}: ${err instanceof Error ? err.message : String(err)}`);
     return null;
   }
+}
+
+/** Read existing file content (for change detection) */
+function readExisting(filePath: string): string | null {
+  try {
+    if (fs.existsSync(filePath)) {
+      return fs.readFileSync(filePath, 'utf-8');
+    }
+  } catch {}
+  return null;
+}
+
+/** Write file only if content changed (avoids unnecessary git diffs) */
+function writeIfChanged(filePath: string, content: string): boolean {
+  const existing = readExisting(filePath);
+  if (existing === content) return false;
+  fs.writeFileSync(filePath, content, 'utf-8');
+  return true;
 }
 
 /** Extract essential fields from a raw company object. */
@@ -98,11 +117,22 @@ async function main(): Promise<void> {
   const errors: string[] = [];
 
   // 1. Fetch meta.json
-  const meta = await fetchJson<YcMeta>(`${RAW_BASE}/meta.json`, 'meta.json');
-  if (meta) {
-    const cachedMeta = { ...meta, fetchedAt: new Date().toISOString() };
-    fs.writeFileSync(path.join(YC_CACHE_DIR, 'meta.json'), JSON.stringify(cachedMeta, null, 2), 'utf-8');
-    console.log(`  ✓ meta.json — ${meta.total_companies} companies, ${meta.total_batches} batches`);
+  const metaRaw = await fetchJson<Record<string, unknown>>(`${RAW_BASE}/meta.json`, 'meta.json');
+  if (metaRaw) {
+    // meta.json has nested structure: companies.all.count
+    const allCount = ((metaRaw.companies as Record<string, { count: number }> | undefined)?.all?.count) ?? 0;
+    const cachedMeta = {
+      last_updated: metaRaw.last_updated as string ?? '',
+      companies: metaRaw.companies,
+      totalCompanies: allCount,
+      fetchedAt: new Date().toISOString(),
+    };
+    const metaJson = JSON.stringify(cachedMeta, null, 2);
+    if (writeIfChanged(path.join(YC_CACHE_DIR, 'meta.json'), metaJson + '\n')) {
+      console.log(`  ✓ meta.json — ${allCount} companies`);
+    } else {
+      console.log(`  ✓ meta.json — unchanged (${allCount} companies)`);
+    }
   } else {
     errors.push('meta.json');
   }
@@ -139,8 +169,12 @@ async function main(): Promise<void> {
   // 4. Fetch changes/latest.json
   const changes = await fetchJson<Record<string, unknown>>(`${RAW_BASE}/changes/latest.json`, 'changes-latest.json');
   if (changes) {
-    fs.writeFileSync(path.join(YC_CACHE_DIR, 'changes-latest.json'), JSON.stringify(changes, null, 2), 'utf-8');
-    console.log('  ✓ changes-latest.json');
+    const changesJson = JSON.stringify(changes, null, 2);
+    if (writeIfChanged(path.join(YC_CACHE_DIR, 'changes-latest.json'), changesJson + '\n')) {
+      console.log('  ✓ changes-latest.json — updated');
+    } else {
+      console.log('  ✓ changes-latest.json — unchanged');
+    }
   }
 
   // 5. Write index
@@ -150,7 +184,7 @@ async function main(): Promise<void> {
     source: 'https://github.com/yc-oss/api',
     featuredCount: Math.min(featuredCompanies.length, FEATURED_COUNT),
   };
-  fs.writeFileSync(path.join(YC_CACHE_DIR, 'index.json'), JSON.stringify(index, null, 2), 'utf-8');
+  writeIfChanged(path.join(YC_CACHE_DIR, 'index.json'), JSON.stringify(index, null, 2) + '\n');
 
   const elapsed = ((Date.now() - startTime) / 1000).toFixed(1);
   console.log(`   Done in ${elapsed}s`);
