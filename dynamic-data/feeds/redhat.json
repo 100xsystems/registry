@@ -8,7 +8,7 @@
     "linux",
     "cloud-native"
   ],
-  "updatedAt": "2026-07-28T06:53:14.409Z",
+  "updatedAt": "2026-07-29T19:01:43.939Z",
   "items": [
     {
       "guid": "redhat::https://www.redhat.com/ja/sitemap.xml",
@@ -273,7 +273,39 @@
       "summary": "A secured agent that can't reach anything is just expensive autocomplete with a badge. In \"Why prompt-level guardrails aren't enough,\" I walked through how Red Hat AI allows you to give each agent a cryptographic identity and lock down what it can touch. That solves the trust problem, but it…",
       "author": null,
       "publishedAt": "2026-07-23T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.redhat.com/en/blog/sovereign-design-lessons-red-hat-summit",
+      "title": "Sovereign by design: Lessons from Red Hat Summit",
+      "link": "https://www.redhat.com/en/blog/sovereign-design-lessons-red-hat-summit",
+      "summary": "Digital sovereignty used to sit somewhere between a compliance checkbox and a future roadmap item. That’s changing fast. At Red Hat Summit, Mohammed Retmi of Core42 in the United Arab Emirates and A.S. \"Raj\" Rajgopal of NxtGen in India joined me for a roundtable on how 2 very different markets are…",
+      "author": null,
+      "publishedAt": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.redhat.com/en/blog/no-time-lose-why-post-quantum-security-financial-services-must-start-now",
+      "title": "No time to lose: Why post-quantum security for financial services must start now",
+      "link": "https://www.redhat.com/en/blog/no-time-lose-why-post-quantum-security-financial-services-must-start-now",
+      "summary": "Post-quantum cryptography: The emerging threatThe transition to post-quantum cryptography (PQC) is becoming an urgent priority for the global financial sector due to the rapid evolution of quantum computing. Cryptographically relevant quantum computers exist only as research prototypes. However,…",
+      "author": null,
+      "publishedAt": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.redhat.com/en/blog/lights-real-time-threat-response-red-hat-advanced-cluster-security",
+      "title": "Lights on!  Real-time threat response with Red Hat Advanced Cluster Security",
+      "link": "https://www.redhat.com/en/blog/lights-real-time-threat-response-red-hat-advanced-cluster-security",
+      "summary": "Part 2 of a series on implementing zero trust in Red Hat OpenShift with the layered zero trust validated pattern (ZTVP)In our previous article, we explored why network policies, specifically a default-deny posture combined with strict ingress and egress rules, are your critical last line of defense…",
+      "author": null,
+      "publishedAt": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.redhat.com/en/blog/architecting-maintainability-lessons-global-multicluster-platform-blueprint",
+      "title": "Architecting for maintainability: Lessons from a global multicluster platform blueprint",
+      "link": "https://www.redhat.com/en/blog/architecting-maintainability-lessons-global-multicluster-platform-blueprint",
+      "summary": "How can a large organization achieve 100% uptime and zero security breaches at a massive scale? It requires moving past standard management techniques and focusing on a critical metric: maintainability. At the recent Red Hat OpenShift Commons Gathering in Amsterdam, ING senior engineers Robbin…",
+      "author": null,
+      "publishedAt": "2026-07-29T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 33
+  "totalIndexed": 37
 }

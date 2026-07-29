@@ -9,7 +9,7 @@
     "performance",
     "edge-computing"
   ],
-  "updatedAt": "2026-07-29T02:35:41.724Z",
+  "updatedAt": "2026-07-29T19:01:43.393Z",
   "items": [
     {
       "guid": "01KY2432VQPD5FTF2RARXXYQGH",
@@ -61250,7 +61250,15 @@
       "summary": "Cloudflare Radar tracked Internet disruptions driven by natural disasters, government-mandated shutdowns, and DNSSEC key rollovers over the last quarter. This post analyzes traffic telemetry to explain how these events impacted global connectivity.",
       "author": "Lai Yi Ohlsen",
       "publishedAt": "2026-07-28T13:00:00.000Z"
+    },
+    {
+      "guid": "01KYMH71B35NXQ00E0M2D0WMQV",
+      "title": "Post-quantum authentication to origins is now supported",
+      "link": "https://blog.cloudflare.com/post-quantum-authentication-to-origins/",
+      "summary": "Cloudflare now supports post-quantum (PQ) authentication when connecting to customer origin servers via Authenticated Origin Pulls and Custom Origin Trust Store. This is the first step towards providing PQ authentication for all Cloudflare products.",
+      "author": "Luke Valenta",
+      "publishedAt": "2026-07-29T13:00:00.000Z"
     }
   ],
-  "totalIndexed": 7655
+  "totalIndexed": 7656
 }

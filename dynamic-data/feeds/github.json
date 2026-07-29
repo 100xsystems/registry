@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-07-24T06:50:23.933Z",
+  "updatedAt": "2026-07-29T19:01:45.612Z",
   "items": [
     {
       "guid": "github::https://github.blog/engineering/the-cost-of-saying-yes-has-changed/",
@@ -87,7 +87,15 @@
       "summary": "Most people think ASCII art is simple, and a nostalgic remnant of the early internet. But when the GitHub Copilot CLI team asked for a small entrance banner for the new command-line experience, they discovered the opposite: An ASCII animation in a real-world terminal is one of the most constrained…",
       "author": "Aaron Winston",
       "publishedAt": "2026-01-28T17:00:00.000Z"
+    },
+    {
+      "guid": "github::https://github.blog/security/supply-chain-security/tame-dependabot-group-your-updates-slow-the-cadence-keep-security-fast/",
+      "title": "Tame Dependabot: Group your updates, slow the cadence, keep security fast",
+      "link": "https://github.blog/security/supply-chain-security/tame-dependabot-group-your-updates-slow-the-cadence-keep-security-fast/",
+      "summary": "If you maintain an active repository, you know the feeling. You open your notifications on a Monday morning and there they are: five, 10, sometimes a dozen Dependabot pull requests, each bumping a single dependency by a single patch version. Individually, every one of them is helpful. Collectively,…",
+      "author": "Bruno Borges",
+      "publishedAt": "2026-07-29T16:00:00.000Z"
     }
   ],
-  "totalIndexed": 10
+  "totalIndexed": 11
 }

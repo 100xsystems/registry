@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-07-29T02:35:47.084Z",
+  "updatedAt": "2026-07-29T19:01:47.427Z",
   "items": [
     {
       "guid": "https://blog.jetbrains.com/?post_type=kotlin&p=721999",
@@ -111,7 +111,15 @@
       "summary": "TL;DR KotlinLLM is now public. It’s a research prototype for delegating runtime logic to an LLM from Kotlin code. Instead of calling an LLM on every request or running a separate agent, you can write an explicit Kotlin call. Its body is generated Kotlin source code, and that code is updated as your…",
       "author": "Anastasia Birillo",
       "publishedAt": "2026-07-28T07:50:41.000Z"
+    },
+    {
+      "guid": "https://blog.jetbrains.com/?post_type=kotlin&p=721798",
+      "title": "Secure Your APIs: OAuth2 and JWT for Beginners",
+      "link": "https://blog.jetbrains.com/kotlin/2026/07/secure-your-apis-oauth2-and-jwt-for-beginners/",
+      "summary": "This tutorial was written by an external contributor. APIs are frequent targets for bad actors since they expose data and functionality. Securing them while maintaining usability is often one of the most challenging and time-consuming parts of API development. OAuth 2.0 and JSON Web Tokens (JWT)…",
+      "author": "Alina Dolgikh",
+      "publishedAt": "2026-07-29T11:28:21.000Z"
     }
   ],
-  "totalIndexed": 13
+  "totalIndexed": 14
 }

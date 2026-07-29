@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-07-24T07:00:22.704Z",
+  "updatedAt": "2026-07-29T19:01:48.279Z",
   "items": [
     {
       "guid": "http://blog.cryptographyengineering.com/?p=9203",
@@ -87,7 +87,15 @@
       "summary": "This is the third and penultimate post in a series about theoretical weaknesses in Fiat-Shamir as applied to proof systems. The first post is here, the second post is here, and you should probably read them. Over the past two posts I’ve given a bit of background on four subjects: (1) interactive…",
       "author": "Matthew Green",
       "publishedAt": "2025-02-19T23:18:36.000Z"
+    },
+    {
+      "guid": "http://blog.cryptographyengineering.com/?p=9331",
+      "title": "Some thoughts about Anthropic’s new cryptanalysis results",
+      "link": "https://blog.cryptographyengineering.com/2026/07/29/some-notes-about-anthropics-new-results/",
+      "summary": "Yesterday Anthropic published two new cryptanalysis results, both outputs of Claude Mythos, their (still) unreleased advanced model. The first of these results attacks a signature scheme called HAWK, while the second is an improved attack against reduced-round AES. Anthropic also released a blog…",
+      "author": "Matthew Green",
+      "publishedAt": "2026-07-29T14:23:30.000Z"
     }
   ],
-  "totalIndexed": 10
+  "totalIndexed": 11
 }
