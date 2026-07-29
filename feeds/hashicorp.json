@@ -8,7 +8,7 @@
     "infrastructure",
     "devops"
   ],
-  "updatedAt": "2026-07-24T06:38:42.297Z",
+  "updatedAt": "2026-07-29T02:35:41.779Z",
   "items": [
     {
       "guid": "hashicorp::https://www.hashicorp.com/blog/one-service-many-doors-multi-port-services-in-consul",
@@ -30993,7 +30993,15 @@
       "summary": "Terraform Stacks are a feature intended to simplify infrastructure provisioning and management at scale, providing a built-in way to scale without complexity. This blog covers the challenges Terraform Stacks solve, their benefits, use cases, how they work, their features, and future roadmap.\nWhat…",
       "author": "Sarah Hernandez",
       "publishedAt": "2026-07-21T19:00:00.000Z"
+    },
+    {
+      "guid": "hashicorp::https://www.hashicorp.com/blog/terraform-azurerm-provider-50-now-generally-available",
+      "title": "Terraform AzureRM provider 5.0 now generally available",
+      "link": "https://www.hashicorp.com/blog/terraform-azurerm-provider-50-now-generally-available",
+      "summary": "The Terraform AzureRM provider serves as the bridge between Terraform configurations and Azure, giving teams a consistent, scalable, and secure way to define and manage Azure infrastructure as code. Today we're announcing general availability of Terraform AzureRM Provider 5.0. This major release…",
+      "author": "Tiberiu Radu",
+      "publishedAt": "2026-07-28T16:00:00.000Z"
     }
   ],
-  "totalIndexed": 3873
+  "totalIndexed": 3874
 }

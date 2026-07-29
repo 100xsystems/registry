@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-07-28T07:58:19.857Z",
+  "updatedAt": "2026-07-29T02:35:42.077Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -369,7 +369,23 @@
       "summary": "Picture this: it's Monday morning, your coffee is still warm, and someone from finance slides into your DMs asking why the Q4 revenue number doesn't match what they expected. You know the data flows through about five transformation steps, but the pipeline was built by someone who left two years…",
       "author": null,
       "publishedAt": "2026-07-28T05:00:43.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9qH",
+      "title": "Christophe Pettus: All Your GUCs in a Row: hash_mem_multiplier",
+      "link": "https://postgr.es/p/9qH",
+      "summary": "Hash and sort operations have wildly different relationships with memory, and `hash_mem_multiplier` lets you feed them separately.",
+      "author": null,
+      "publishedAt": "2026-07-29T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9qF",
+      "title": "Dimitri Fontaine: SQL Improvements in PostgreSQL 11–18: A Personal Selection",
+      "link": "https://postgr.es/p/9qF",
+      "summary": "Seven major versions of PostgreSQL shipped between 2018 and 2025, one per\nyear without exception, and each with a changelog of 150 to 200 user-visible changes. Each release covers a broad canvas — performance, replication, administration,\nand security — but every one of them also advanced the SQL…",
+      "author": null,
+      "publishedAt": "2026-07-28T14:39:25.000Z"
     }
   ],
-  "totalIndexed": 45
+  "totalIndexed": 47
 }
