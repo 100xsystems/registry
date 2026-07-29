@@ -59,8 +59,7 @@ type FeedItemRaw = {
 // ── Configuration ─────────────────────────────────────────────────────
 
 const ROOT_DIR = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..', '..');
-const FEEDS_DIR = path.join(ROOT_DIR, 'feeds');
-const DAILY_DIR = path.join(ROOT_DIR, 'daily');
+const FEEDS_DIR = path.join(ROOT_DIR, 'dynamic-data', 'feeds');
 
 const HTTP_TIMEOUT_MS = 30_000;
 const FEED_ITEM_LIMIT = 50;
@@ -246,55 +245,7 @@ async function updateFeed(
   return { newItems: newItems.length, total: updatedData.items.length };
 }
 
-function writeDeltaJson(results: Array<{ id: string; newItems: number }>): void {
-  ensureDir(DAILY_DIR);
 
-  const items: Record<string, FeedItem[]> = {};
-
-  for (const result of results) {
-    if (result.newItems === 0) continue;
-
-    const filePath = path.join(FEEDS_DIR, `${result.id}.json`);
-    let feedData: FeedData | null = null;
-    try {
-      feedData = JSON.parse(fs.readFileSync(filePath, 'utf-8')) as FeedData;
-    } catch {
-      continue;
-    }
-    if (!feedData) continue;
-
-    const newItems = feedData.items.slice(-result.newItems);
-    if (newItems.length > 0) {
-      items[result.id] = newItems;
-    }
-  }
-
-  const delta = {
-    date: new Date().toISOString().slice(0, 10),
-    generatedAt: new Date().toISOString(),
-    items,
-    totalNewItems: Object.values(items).reduce((sum, arr) => sum + arr.length, 0),
-    feedCount: Object.keys(items).length,
-  };
-
-  const deltaPath = path.join(DAILY_DIR, 'delta.json');
-  fs.writeFileSync(deltaPath, JSON.stringify(delta, null, 2) + '\n', 'utf-8');
-  console.log(`\n📝 Wrote daily/delta.json (${delta.totalNewItems} new items across ${delta.feedCount} feeds)`);
-}
-
-function writeEmptyDelta(): void {
-  ensureDir(DAILY_DIR);
-  const delta = {
-    date: new Date().toISOString().slice(0, 10),
-    generatedAt: new Date().toISOString(),
-    items: {},
-    totalNewItems: 0,
-    feedCount: 0,
-  };
-  const deltaPath = path.join(DAILY_DIR, 'delta.json');
-  fs.writeFileSync(deltaPath, JSON.stringify(delta, null, 2) + '\n', 'utf-8');
-  console.log(`\n📝 Wrote daily/delta.json (0 new items — heartbeat only)`);
-}
 
 // ── Main ──────────────────────────────────────────────────────────────
 
@@ -334,7 +285,6 @@ async function main(): Promise<void> {
     ),
   );
 
-  const processedResults: Array<{ id: string; name: string; newItems: number; total: number; error?: string }> = [];
   let totalNew = 0;
   let errorCount = 0;
 
@@ -353,22 +303,6 @@ async function main(): Promise<void> {
       } else {
         console.log(`  ✓ [${feed.id}] ${feed.name} — No new items (total: ${result.total})`);
       }
-    }
-
-    processedResults.push({
-      id: feed.id,
-      name: feed.name,
-      newItems: result.newItems,
-      total: result.total,
-      error: result.error,
-    });
-  }
-
-  if (!historical) {
-    if (totalNew > 0) {
-      writeDeltaJson(processedResults);
-    } else {
-      writeEmptyDelta();
     }
   }
 

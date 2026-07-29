@@ -25,7 +25,7 @@ import * as path from 'node:path';
 
 const TOKEN_URL = 'https://api.producthunt.com/v2/oauth/token';
 const GRAPHQL_URL = 'https://api.producthunt.com/v2/api/graphql';
-const PH_CACHE_DIR = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..', '..', 'producthunt');
+const PH_CACHE_DIR = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..', '..', 'dynamic-data', 'producthunt');
 const FETCH_TIMEOUT_MS = 15_000;
 const MAX_PAGES_PER_DAY = 5;       // 50 posts/page × 5 = 250 max per day
 const PAGE_DELAY_MS = 200;
@@ -279,7 +279,9 @@ async function main(): Promise<void> {
 
   // 2. Fetch today's posts only
   ensureDir(PH_CACHE_DIR);
-  const today = dateStr();
+  const now = new Date();
+  const today = dateStr(now);
+  const timestamp = now.toISOString().slice(0, 16).replace('T', '-').replace(':', '');
 
   console.log(`  📅 ${today}: querying...`);
   const posts = await fetchPostsForDate(token, today);
@@ -292,7 +294,7 @@ async function main(): Promise<void> {
     posts,
   };
   const dayJson = JSON.stringify(dayFile, null, 2) + '\n';
-  const changed = writeIfChanged(path.join(PH_CACHE_DIR, `${today}.json`), dayJson);
+  const changed = writeIfChanged(path.join(PH_CACHE_DIR, `${today}-${timestamp}.json`), dayJson);
 
   if (changed) {
     console.log(`     ${posts.length} posts — ${posts.length > 0 ? 'UPDATED' : 'empty'}`);
@@ -300,26 +302,28 @@ async function main(): Promise<void> {
     console.log(`     ${posts.length} posts — unchanged`);
   }
 
-  // 4. Update index.json
-  const allDates = fs
+  // 4. Update index.json — store full timestamp filenames so website can fetch latest file
+  const allDateFiles = fs
     .readdirSync(PH_CACHE_DIR)
-    .filter((f) => /^\d{4}-\d{2}-\d{2}\.json$/.test(f))
+    .filter((f) => /^\d{4}-\d{2}-\d{2}-\d{4}\.json$/.test(f) || f === 'index.json' || f === 'products.json')
+    .filter((f) => f !== 'index.json' && f !== 'products.json')
     .map((f) => f.replace('.json', ''))
     .sort();
 
-  const firstDate = allDates.length > 0 ? allDates[0] : today;
-  const lastDate = allDates.length > 0 ? allDates[allDates.length - 1] : today;
+  const currentFile = `${today}-${timestamp}`;
+  const firstFile = allDateFiles.length > 0 ? allDateFiles[0] : currentFile;
+  const lastFile = allDateFiles.length > 0 ? allDateFiles[allDateFiles.length - 1] : currentFile;
 
   const index: PhIndex = {
     type: 'producthunt',
     fetchedAt: new Date().toISOString(),
-    lastFetchedDate: lastDate,
-    firstFetchedDate: firstDate,
-    totalDaysFetched: allDates.length,
-    totalProducts: allDates.length > 0
-      ? posts.length // approximate — products.json has the full count
+    lastFetchedDate: lastFile,
+    firstFetchedDate: firstFile,
+    totalDaysFetched: new Set(allDateFiles.map((f) => f.slice(0, 10))).size,
+    totalProducts: allDateFiles.length > 0
+      ? posts.length
       : posts.length,
-    availableDates: allDates,
+    availableDates: allDateFiles,
   };
   writeIfChanged(path.join(PH_CACHE_DIR, 'index.json'), JSON.stringify(index, null, 2) + '\n');
 
@@ -330,7 +334,7 @@ async function main(): Promise<void> {
   if (posts.length > 0) {
     console.log(`   Top: ${posts[0].name} (${posts[0].votesCount} votes)`);
   }
-  console.log(`   Archive: ${allDates.length} days indexed`);
+  console.log(`   Archive: ${new Set(allDateFiles.map((f) => f.slice(0, 10))).size} days indexed (${allDateFiles.length} files)`);
   console.log('✅ Product Hunt today\'s data cached\n');
 }
 

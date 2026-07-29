@@ -27,7 +27,7 @@ import * as path from 'node:path';
 
 // ── Config ────────────────────────────────────────────────────────────
 
-const YC_CACHE_DIR = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..', '..', 'yc');
+const YC_CACHE_DIR = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..', '..', 'dynamic-data', 'yc');
 const CHANGES_DIR = path.join(YC_CACHE_DIR, 'changes');
 const ALGOLIA_APP_ID = '45BWZJ1SGC';
 const ALGOLIA_INDEX = 'YCCompany_By_Launch_Date_production';
@@ -113,6 +113,10 @@ function writeIfChanged(filePath: string, content: string): boolean {
   if (existing === content) return false;
   fs.writeFileSync(filePath, content, 'utf-8');
   return true;
+}
+
+function timestampStr(d: Date = new Date()): string {
+  return d.toISOString().slice(0, 16).replace('T', '-').replace(':', '');
 }
 
 function dateStr(d: Date = new Date()): string {
@@ -358,6 +362,7 @@ async function main(): Promise<void> {
   console.log(`  ✓ ${companies.length} companies fetched`);
 
   const today = dateStr();
+  const ts = timestampStr();
 
   // 3. Read previous companies.json for change comparison
   let previousCompanies: YcCompany[] = [];
@@ -388,7 +393,7 @@ async function main(): Promise<void> {
       message: 'First daily check — no changes since bulk import',
       total: companies.length,
     }, null, 2) + '\n';
-    writeIfChanged(path.join(CHANGES_DIR, `${today}.json`), heartbeat);
+    writeIfChanged(path.join(CHANGES_DIR, `${today}-${ts}.json`), heartbeat);
     writeIfChanged(path.join(CHANGES_DIR, 'latest.json'), heartbeat);
     writeIfChanged(path.join(CHANGES_DIR, 'latest.md'),
       `# YC Company Changes for ${today}\n\nFirst daily check — ${companies.length} companies — no changes since bulk import.\n`
@@ -398,7 +403,7 @@ async function main(): Promise<void> {
     const changesJson = JSON.stringify(changeSet, null, 2) + '\n';
 
     // Write date-stamped change file
-    writeIfChanged(path.join(CHANGES_DIR, `${today}.json`), changesJson);
+    writeIfChanged(path.join(CHANGES_DIR, `${today}-${ts}.json`), changesJson);
     // Write latest.json
     writeIfChanged(path.join(CHANGES_DIR, 'latest.json'), changesJson);
     // Write latest.md
@@ -424,7 +429,7 @@ async function main(): Promise<void> {
       message: 'No changes',
       total: companies.length,
     }, null, 2) + '\n';
-    writeIfChanged(path.join(CHANGES_DIR, `${today}.json`), heartbeat);
+    writeIfChanged(path.join(CHANGES_DIR, `${today}-${ts}.json`), heartbeat);
     writeIfChanged(path.join(CHANGES_DIR, 'latest.json'), heartbeat);
     writeIfChanged(path.join(CHANGES_DIR, 'latest.md'),
       `# YC Company Changes for ${today}\n\nNo company records changed. Still ${companies.length} companies.\n`

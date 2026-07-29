@@ -1,8 +1,11 @@
-name: Daily Feed Update
+name: Dynamic Data Update
 
 on:
   schedule:
-    # Runs once daily at midnight UTC
+    # Runs 4 times daily: morning (6:00 UTC), afternoon (12:00 UTC), evening (18:00 UTC), night (0:00 UTC)
+    - cron: '0 6 * * *'
+    - cron: '0 12 * * *'
+    - cron: '0 18 * * *'
     - cron: '0 0 * * *'
   workflow_dispatch:
     inputs:
@@ -29,18 +32,18 @@ concurrency:
 jobs:
   update-feeds:
     runs-on: ubuntu-latest
-    timeout-minutes: 10  # ⚡ Real run ~10s — 10 min is plenty for 400+ feeds
+    timeout-minutes: 10
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 2  # Enough for the diff check
+          fetch-depth: 2
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 24  # Latest LTS — fast native fetch, best undici perf
+          node-version: 24
           cache: 'npm'
 
       - name: Install dependencies
@@ -80,7 +83,8 @@ jobs:
       - name: Commit and push changes
         if: steps.git-check.outputs.changed == 'true'
         run: |
+          TIMESTAMP=$(date +'%Y-%m-%d-%H%M')
           git config --local user.name "100xSystems Bot"
           git config --local user.email "bot@100xsystems.dev"
-          git commit -m "chore(feeds): daily update — $(date +'%Y-%m-%d-%H%M')"
+          git commit -m "chore(dynamic): data update — ${TIMESTAMP}"
           git push
