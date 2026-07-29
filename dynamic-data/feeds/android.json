@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-07-28T06:54:27.335Z",
+  "updatedAt": "2026-07-29T02:35:42.659Z",
   "items": [
     {
       "guid": "android::https://android-developers.googleblog.com/2026/07/optimize-galaxy-screen-sizes.html",
@@ -215,7 +215,15 @@
       "summary": "Posted by Andrei Shikov, Senior Software Engineer, Android Toolkit and Jonathan Starup, Software Engineer, R8 Team\n\n\n\n\n\n\n\n\n\n\nStarting from AGP 9.2.0, R8 optimizes most Atomic*FieldUpdater calls into Unsafe variants that perform 2x to 4x better on common operations. This has a particularly large…",
       "author": "Android Developers",
       "publishedAt": "2026-07-27T13:00:00.000Z"
+    },
+    {
+      "guid": "android::https://android-developers.googleblog.com/2026/07/five-years-of-jetpack-compose.html",
+      "title": "Celebrating 5 years of Jetpack Compose",
+      "link": "https://android-developers.googleblog.com/2026/07/five-years-of-jetpack-compose.html",
+      "summary": "Posted by Rebecca Franks, Developer Relations Engineer, Nick Butcher, Product Manager, Loryn Hairston, Product Marketing Manager, Android\n\n\n\nToday, we officially celebrate five years since the release of Jetpack Compose 1.0. From version 1.0, announced on July 28th, 2021, to our latest 1.11…",
+      "author": "Android Developers",
+      "publishedAt": "2026-07-28T16:00:00.000Z"
     }
   ],
-  "totalIndexed": 26
+  "totalIndexed": 27
 }

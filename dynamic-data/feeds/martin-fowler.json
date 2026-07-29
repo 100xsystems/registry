@@ -9,7 +9,7 @@
     "refactoring",
     "design"
   ],
-  "updatedAt": "2026-07-23T11:00:34.279Z",
+  "updatedAt": "2026-07-29T02:35:41.564Z",
   "items": [
     {
       "guid": "martin-fowler::https://martinfowler.com/fragments/2026-07-21.html",
@@ -250,7 +250,23 @@
       "summary": "An Architecture Decision Record (ADR) is a short document that captures and\n  explains a single decision relevant to a product or ecosystem. Documents\n  should be short, just a couple of pages, and contain the decision, the context\n  for making it, and significant ramifications. They should not be…",
       "author": "Martin Fowler",
       "publishedAt": "2026-03-24T13:50:00.000Z"
+    },
+    {
+      "guid": "martin-fowler::https://martinfowler.com/articles/orchestrator-tax.html",
+      "title": "The Orchestrator's Tax",
+      "link": "https://martinfowler.com/articles/orchestrator-tax.html",
+      "summary": "Subagents get justified by time saved and parallel execution, but\n      Rahul Garg explains that's not what matters most. Every\n      token in the orchestrator's context is competing for its attention, and\n      the real value of a subagent is what it keeps out of that context.\n      Subagents…",
+      "author": "Martin Fowler",
+      "publishedAt": "2026-07-28T13:10:00.000Z"
+    },
+    {
+      "guid": "martin-fowler::https://martinfowler.com/rachels-ramblings/intro.html",
+      "title": "Why I’m Writing Rachel’s Ramblings",
+      "link": "https://martinfowler.com/rachels-ramblings/intro.html",
+      "summary": "TL;DR\nI have ideas. I haven’t been writing them. That’s about to change. I promise… myself.\n\nI’ve been thinking a lot about talent. Actually, I’ve been thinking a lot about thinking. And writing. Or more specifically, not writing. This really hit me earlier this year at the Future of Software…",
+      "author": "Rachel Laycock",
+      "publishedAt": "2026-07-28T12:32:00.000Z"
     }
   ],
-  "totalIndexed": 30
+  "totalIndexed": 32
 }

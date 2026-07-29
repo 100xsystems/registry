@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-07-24T06:50:27.579Z",
+  "updatedAt": "2026-07-29T02:35:44.409Z",
   "items": [
     {
       "guid": "gleb-bahmutov::https://glebbahmutov.com/blog/when-it-reloads/",
@@ -247,7 +247,15 @@
       "summary": "Here are a couple of newsletters I subscribe to keep up-to-date on Node.js, JavaScript, front-end development, and testing.\n\nSmashing Magazine newsletter has high-quality front-end, CSS, and design articles\nWebTools weekly is a weekly round-up of apps, scripts, plugins, and other resources to help…",
       "author": null,
       "publishedAt": "2025-08-20T04:00:00.000Z"
+    },
+    {
+      "guid": "gleb-bahmutov::https://glebbahmutov.com/blog/what-needs-to-retry/",
+      "title": "What Needs To Retry",
+      "link": "https://glebbahmutov.com/blog/what-needs-to-retry/",
+      "summary": "Imagine a typical application that loads some data. The app starts in the initial state, starts loading, then one of 3 possible states are possible\n\nThe data loads fine\nThe data loads an empty list of items\nThe app fails to load due to an error\n\nTo avoid flake, we need to think about these 3…",
+      "author": null,
+      "publishedAt": "2026-07-28T04:00:00.000Z"
     }
   ],
-  "totalIndexed": 30
+  "totalIndexed": 31
 }
