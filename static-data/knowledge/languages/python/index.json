@@ -156,7 +156,7 @@
     {
       "slug": "py-01-getting-started",
       "title": "Getting Started with Python",
-      "description": "Install Python, set up a development environment, understand the interpreter, and write your first program.",
+      "description": "Install Python, set up a dev environment, understand the interpreter and REPL, and write your first program.",
       "type": "lesson",
       "order": 1,
       "duration": "45 min",
@@ -168,7 +168,7 @@
     {
       "slug": "py-02-variables-types",
       "title": "Variables, Types, and Basic Operations",
-      "description": "Python's dynamic type system, primitive types, variables, numbers, strings, and basic operators.",
+      "description": "Python's dynamic type system, primitive types, variables, numbers, strings, operators, and type conversion.",
       "type": "lesson",
       "order": 2,
       "duration": "60 min",
@@ -180,7 +180,7 @@
     {
       "slug": "py-03-control-flow",
       "title": "Control Flow: Conditionals and Loops",
-      "description": "if/elif/else, for loops, while loops, match statements, and loop control with break/continue.",
+      "description": "if/elif/else, for loops, while loops, match statements, and loop control with break/continue/else clauses.",
       "type": "lesson",
       "order": 3,
       "duration": "60 min",
@@ -192,11 +192,11 @@
     {
       "slug": "py-04-functions-scope",
       "title": "Functions and Scope",
-      "description": "Function definitions, parameters, return values, scope rules, lambda expressions, and function annotations.",
+      "description": "Function definitions, parameters, return values, scope rules, lambda expressions, and annotations.",
       "type": "lesson",
       "order": 4,
       "duration": "75 min",
-      "difficulty": "beginner",
+      "difficulty": "intermediate",
       "knowledge_refs": [
         "python/py-04-functions-scope"
       ]
@@ -204,7 +204,7 @@
     {
       "slug": "py-05-lists-sequences",
       "title": "Lists, Tuples, and Sequences",
-      "description": "List operations, list comprehensions, tuples, slicing, and sequence protocol.",
+      "description": "List operations, comprehensions, tuples, slicing, and the sequence protocol.",
       "type": "lesson",
       "order": 5,
       "duration": "60 min",
@@ -228,7 +228,7 @@
     {
       "slug": "py-07-strings-text",
       "title": "Strings, Formatting, and Text Processing",
-      "description": "String methods, f-strings, formatting, Unicode, regex basics, and text processing patterns.",
+      "description": "String methods, f-strings, formatting, Unicode encoding, and text processing patterns.",
       "type": "lesson",
       "order": 7,
       "duration": "60 min",
@@ -240,7 +240,7 @@
     {
       "slug": "py-08-files-exceptions",
       "title": "File I/O and Exception Handling",
-      "description": "Reading/writing files, context managers, try/except/finally, custom exceptions, and structured data persistence.",
+      "description": "Reading/writing files, context managers, try/except/finally, custom exceptions, and data persistence.",
       "type": "lesson",
       "order": 8,
       "duration": "60 min",
@@ -252,7 +252,7 @@
     {
       "slug": "py-09-modules-packages",
       "title": "Modules, Packages, and Virtual Environments",
-      "description": "Import system, module creation, packages, virtual environments, and dependency management with pip.",
+      "description": "Import system, module creation, packages, virtual environments, and pip dependency management.",
       "type": "lesson",
       "order": 9,
       "duration": "60 min",
@@ -264,7 +264,7 @@
     {
       "slug": "py-10-classes-oop",
       "title": "Classes and Object-Oriented Programming",
-      "description": "Class definitions, instance management, inheritance, polymorphism, special methods, and dataclasses.",
+      "description": "Class definitions, inheritance, polymorphism, special methods, dataclasses, and OOP design patterns.",
       "type": "lesson",
       "order": 10,
       "duration": "75 min",
@@ -276,7 +276,7 @@
     {
       "slug": "py-11-generators-iterators",
       "title": "Generators, Iterators, and Context Managers",
-      "description": "Iterator protocol, generator functions, yield expressions, generator expressions, and context manager protocols.",
+      "description": "Iterator protocol, generators with yield, generator expressions, itertools, and context managers.",
       "type": "lesson",
       "order": 11,
       "duration": "60 min",
@@ -288,7 +288,7 @@
     {
       "slug": "py-12-decorators-closures",
       "title": "Decorators and Closures",
-      "description": "Function decorators, decorator factories, class decorators, closures, and practical decorator patterns.",
+      "description": "Closures, function decorators, decorator factories, class decorators, and practical decorator patterns.",
       "type": "lesson",
       "order": 12,
       "duration": "60 min",
@@ -300,7 +300,7 @@
     {
       "slug": "py-13-advanced-functions",
       "title": "Advanced Functions: Lambdas and Functional Tools",
-      "description": "Lambda expressions, map/filter/reduce, functools (partial, lru_cache, wraps), and functional programming patterns.",
+      "description": "Lambda functions, map/filter/reduce, functools, itertools, and functional programming patterns.",
       "type": "lesson",
       "order": 13,
       "duration": "60 min",
@@ -312,7 +312,7 @@
     {
       "slug": "py-14-regular-expressions",
       "title": "Regular Expressions",
-      "description": "Regex syntax, pattern compilation, groups, lookahead/lookbehind, re module functions, and text processing with regex.",
+      "description": "Regex syntax, pattern compilation, groups, lookahead/lookbehind, and text processing with the re module.",
       "type": "lesson",
       "order": 14,
       "duration": "60 min",
@@ -324,7 +324,7 @@
     {
       "slug": "py-15-testing-debugging",
       "title": "Testing and Debugging",
-      "description": "Unittest, pytest, test fixtures, mocking, debugging with pdb, profiling with cProfile, and logging best practices.",
+      "description": "Unit testing with unittest and pytest, debugging with pdb, and logging best practices.",
       "type": "lesson",
       "order": 15,
       "duration": "75 min",
@@ -335,8 +335,8 @@
     },
     {
       "slug": "py-16-data-apis",
-      "title": "Working with Data: JSON, CSV, and APIs",
-      "description": "JSON parsing, CSV processing, REST APIs with requests, data validation with pydantic, and data pipeline patterns.",
+      "title": "Working with JSON, CSV, and APIs",
+      "description": "JSON handling, CSV processing, REST APIs with requests, data validation, and pipeline patterns.",
       "type": "lesson",
       "order": 16,
       "duration": "75 min",
@@ -348,7 +348,7 @@
     {
       "slug": "py-17-concurrency-threads",
       "title": "Concurrency with Threading and Multiprocessing",
-      "description": "Threading basics, thread safety, the GIL, multiprocessing, process pools, and when to use each concurrency model.",
+      "description": "Threading, thread safety, the GIL, multiprocessing, and choosing the right concurrency model.",
       "type": "lesson",
       "order": 17,
       "duration": "75 min",
@@ -360,7 +360,7 @@
     {
       "slug": "py-18-async-await",
       "title": "Async/Await and Asyncio",
-      "description": "Coroutines, async/await syntax, event loop, tasks, futures, and building async applications with asyncio.",
+      "description": "Coroutines, async/await, event loop, tasks, futures, and async I/O with asyncio and aiohttp.",
       "type": "lesson",
       "order": 18,
       "duration": "75 min",
@@ -372,7 +372,7 @@
     {
       "slug": "py-19-pythonic-patterns",
       "title": "Pythonic Patterns and Idioms",
-      "description": "EAFP vs LBYL, duck typing, composition over inheritance, descriptor protocol, property decorator, and SOLID in Python.",
+      "description": "EAFP vs LBYL, duck typing, property decorators, descriptors, context manager patterns, and SOLID in Python.",
       "type": "lesson",
       "order": 19,
       "duration": "60 min",
@@ -384,7 +384,7 @@
     {
       "slug": "py-20-metaprogramming",
       "title": "Metaprogramming and Advanced Features",
-      "description": "Metaclasses, class decorators, __init_subclass__, __set_name__, and dynamic attribute access with __getattr__/__setattr__.",
+      "description": "Metaclasses, class decorators, __init_subclass__, __set_name__, and dynamic attribute access.",
       "type": "lesson",
       "order": 20,
       "duration": "75 min",
@@ -396,7 +396,7 @@
     {
       "slug": "py-21-performance",
       "title": "Performance: Profiling, Optimization, and C Extensions",
-      "description": "Profiling tools, optimizing hot paths, using C extensions with Cython, Numba, and when to drop down to C.",
+      "description": "Profiling with cProfile, optimizing hot paths, using Cython, Numba, and when to drop to C.",
       "type": "lesson",
       "order": 21,
       "duration": "75 min",

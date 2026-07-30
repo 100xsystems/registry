@@ -1,92 +1,55 @@
 ---
 title: "Concurrency with Threading and Multiprocessing"
-description: "Threading basics, thread safety, the GIL, multiprocessing, process pools, and when to use each concurrency model."
+description: "Threading, thread safety, the GIL, multiprocessing, and choosing the right concurrency model."
 type: lesson
 order: 17
 duration: "75 min"
 difficulty: advanced
 learning_objectives:
-  - "Create and manage threads with the threading module"
-  - "Use locks, semaphores, and queues for thread safety"
-  - "Understand the Global Interpreter Lock (GIL)"
-  - "Implement parallel processing with multiprocessing"
+  - "Create threads with threading module"\n  - "Use locks and queues for thread safety"\n  - "Understand the GIL limitations"\n  - "Use multiprocessing for CPU-bound tasks"
 knowledge_refs:
   - python/py-17-concurrency-threads
 prerequisites:
   - "PY-08"
 references:
-    - title: "Python Docs — threading"
-      url: "https://docs.python.org/3/library/threading.html"
-    - title: "Python Docs — multiprocessing"
-      url: "https://docs.python.org/3/library/multiprocessing.html"
-    - title: "Fluent Python — Ch. 19: Concurrency Models"
-      url: "https://www.oreilly.com/library/view/fluent-python-2nd/9781492056348/"
-    - title: "Real Python — Python Concurrency"
-      url: "https://realpython.com/python-concurrency/"
+    - title: "Python Docs — threading"\n      url: "https://docs.python.org/3/library/threading.html"\n    - title: "Python Docs — multiprocessing"\n      url: "https://docs.python.org/3/library/multiprocessing.html"\n    - title: "Fluent Python — Ch. 19: Concurrency Models"\n      url: "https://www.oreilly.com/library/view/fluent-python-2nd/9781492056348/"
 ---
 
 # PY-17-CONCURRENCY-THREADS: Concurrency with Threading and Multiprocessing
 
-## Introduction
 
-Threading basics, thread safety, the GIL, multiprocessing, process pools, and when to use each concurrency model.
+## Threading (I/O-bound)
 
-## Learning Objectives
+```python
+import threading
 
-By the end of this lesson, you will be able to:
+def worker(name):
+    print(f"Worker {name} starting")
 
-- Create and manage threads with the threading module
-- Use locks, semaphores, and queues for thread safety
-- Understand the Global Interpreter Lock (GIL)
-- Implement parallel processing with multiprocessing
+threads = [threading.Thread(target=worker, args=(i,)) for i in range(5)]
+for t in threads: t.start()
+for t in threads: t.join()
+```
 
-## Key Concepts
+## Thread Safety with Lock
 
-### Subtopic 1: Foundation
+```python
+lock = threading.Lock()
+counter = 0
 
-This section covers the foundational concepts of concurrency with threading and multiprocessing. Understanding these core ideas is essential before moving to advanced topics.
+def increment():
+    global counter
+    with lock:
+        counter += 1
+```
 
-**Key points to remember:**
-- Start with the basics and build up systematically
-- Practice each concept with small code examples
-- Refer to the linked resources for deeper dives
+## Multiprocessing (CPU-bound)
 
-### Subtopic 2: Practical Application
+```python
+from multiprocessing import Pool
 
-Apply the concepts you've learned to solve real problems. Practice is essential for mastery.
+def square(n): return n * n
+with Pool(4) as p:
+    results = p.map(square, range(100))
+```
 
-**Example approach:**
-1. Write small programs that exercise each concept
-2. Combine concepts to solve more complex problems
-3. Review and refactor your code for clarity
-
-### Subtopic 3: Best Practices and Patterns
-
-Learn the idiomatic patterns and best practices for this topic. Writing clean, maintainable code is a hallmark of an experienced developer.
-
-**Guidelines:**
-- Follow language conventions and style guides
-- Favor clarity over cleverness
-- Test your code thoroughly
-
-## Practice Questions
-
-1. What are the key concepts covered in this lesson?
-2. Write a small program that demonstrates at least two concepts from this lesson.
-3. How would you explain this topic to a fellow developer?
-
-## LLM Prompts for Deeper Understanding
-
-1. "Explain Concurrency with Threading and Multiprocessing with analogies and examples"
-2. "Show me common mistakes beginners make with concurrency with threading and multiprocessing"
-3. "Provide advanced patterns and real-world use cases for concurrency with threading and multiprocessing"
-
-## Key Takeaways
-
-- Solidify your understanding of concurrency with threading and multiprocessing
-- Practice with real code, not just theory
-- Explore the reference resources for in-depth coverage
-
-## Further Reading
-
-Dive deeper into this topic using the reference resources listed in the frontmatter.

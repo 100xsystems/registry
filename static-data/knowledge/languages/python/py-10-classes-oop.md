@@ -1,92 +1,76 @@
 ---
 title: "Classes and Object-Oriented Programming"
-description: "Class definitions, instance management, inheritance, polymorphism, special methods, and dataclasses."
+description: "Class definitions, inheritance, polymorphism, special methods, dataclasses, and OOP design patterns."
 type: lesson
 order: 10
 duration: "75 min"
 difficulty: intermediate
 learning_objectives:
-  - "Define classes with constructors and instance methods"
-  - "Implement inheritance and multiple inheritance"
-  - "Use special methods for operator overloading"
-  - "Simplify data classes with dataclasses and namedtuples"
+  - "Define classes with constructors and methods"\n  - "Implement inheritance and multiple inheritance"\n  - "Use special methods for operator overloading"\n  - "Simplify with dataclasses"
 knowledge_refs:
   - python/py-10-classes-oop
 prerequisites:
   - "PY-04"
 references:
-    - title: "Official Python Tutorial — 9. Classes"
-      url: "https://docs.python.org/3/tutorial/classes.html"
-    - title: "Fluent Python — Ch. 11: A Pythonic Object"
-      url: "https://www.oreilly.com/library/view/fluent-python-2nd/9781492056348/"
-    - title: "Python Reference — Data Model"
-      url: "https://docs.python.org/3/reference/datamodel.html"
-    - title: "Real Python — Python OOP"
-      url: "https://realpython.com/python3-object-oriented-programming/"
+    - title: "Python Tutorial — 9. Classes"\n      url: "https://docs.python.org/3/tutorial/classes.html"\n    - title: "Fluent Python — Ch. 11: A Pythonic Object"\n      url: "https://www.oreilly.com/library/view/fluent-python-2nd/9781492056348/"\n    - title: "Python Reference — Data Model"\n      url: "https://docs.python.org/3/reference/datamodel.html"
 ---
 
 # PY-10-CLASSES-OOP: Classes and Object-Oriented Programming
 
-## Introduction
 
-Class definitions, instance management, inheritance, polymorphism, special methods, and dataclasses.
+## Class Basics
 
-## Learning Objectives
+See [Classes Tutorial](https://docs.python.org/3/tutorial/classes.html):
+```python
+class Dog:
+    species = "Canis familiaris"  # Class variable
+    
+    def __init__(self, name: str, age: int):
+        self.name = name  # Instance variable
+        self.age = age
+    
+    def bark(self) -> str:
+        return f"{self.name} says Woof!"
 
-By the end of this lesson, you will be able to:
+rex = Dog("Rex", 3)
+print(rex.bark())  # Rex says Woof!
+```
 
-- Define classes with constructors and instance methods
-- Implement inheritance and multiple inheritance
-- Use special methods for operator overloading
-- Simplify data classes with dataclasses and namedtuples
+## Inheritance
 
-## Key Concepts
+```python
+class Poodle(Dog):
+    def __init__(self, name, age, cuteness=10):
+        super().__init__(name, age)
+        self.cuteness = cuteness
+    
+    def bark(self) -> str:
+        return f"{self.name} says Yip! ✨"
+```
 
-### Subtopic 1: Foundation
+## Special Methods
 
-This section covers the foundational concepts of classes and object-oriented programming. Understanding these core ideas is essential before moving to advanced topics.
+```python
+class Vector:
+    def __init__(self, x, y):
+        self.x, self.y = x, y
+    def __repr__(self): return f"Vector({self.x}, {self.y})"
+    def __add__(self, other): return Vector(self.x + other.x, self.y + other.y)
+    def __eq__(self, other): return self.x == other.x and self.y == other.y
 
-**Key points to remember:**
-- Start with the basics and build up systematically
-- Practice each concept with small code examples
-- Refer to the linked resources for deeper dives
+v1 = Vector(1, 2); v2 = Vector(3, 4)
+print(v1 + v2)  # Vector(4, 6)
+```
 
-### Subtopic 2: Practical Application
+## Dataclasses
 
-Apply the concepts you've learned to solve real problems. Practice is essential for mastery.
+```python
+from dataclasses import dataclass
 
-**Example approach:**
-1. Write small programs that exercise each concept
-2. Combine concepts to solve more complex problems
-3. Review and refactor your code for clarity
+@dataclass
+class Person:
+    name: str
+    age: int
+    email: str = ""
+```
 
-### Subtopic 3: Best Practices and Patterns
-
-Learn the idiomatic patterns and best practices for this topic. Writing clean, maintainable code is a hallmark of an experienced developer.
-
-**Guidelines:**
-- Follow language conventions and style guides
-- Favor clarity over cleverness
-- Test your code thoroughly
-
-## Practice Questions
-
-1. What are the key concepts covered in this lesson?
-2. Write a small program that demonstrates at least two concepts from this lesson.
-3. How would you explain this topic to a fellow developer?
-
-## LLM Prompts for Deeper Understanding
-
-1. "Explain Classes and Object-Oriented Programming with analogies and examples"
-2. "Show me common mistakes beginners make with classes and object-oriented programming"
-3. "Provide advanced patterns and real-world use cases for classes and object-oriented programming"
-
-## Key Takeaways
-
-- Solidify your understanding of classes and object-oriented programming
-- Practice with real code, not just theory
-- Explore the reference resources for in-depth coverage
-
-## Further Reading
-
-Dive deeper into this topic using the reference resources listed in the frontmatter.

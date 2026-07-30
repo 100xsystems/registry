@@ -1,92 +1,68 @@
 ---
 title: "Functions and Scope"
-description: "Function definitions, parameters, return values, scope rules, lambda expressions, and function annotations."
+description: "Function definitions, parameters, return values, scope rules, lambda expressions, and annotations."
 type: lesson
 order: 4
 duration: "75 min"
-difficulty: beginner
+difficulty: intermediate
 learning_objectives:
-  - "Define and call functions with various parameter types"
-  - "Understand LEGB scope rules and closures"
-  - "Write lambda expressions for simple operations"
-  - "Use function annotations and documentation strings"
+  - "Define functions with various parameter types"\n  - "Understand LEGB scope rules and closures"\n  - "Write lambda expressions"\n  - "Use function annotations and docstrings"
 knowledge_refs:
   - python/py-04-functions-scope
 prerequisites:
   - "PY-03"
 references:
-    - title: "Official Python Tutorial — 4.8 Defining Functions"
-      url: "https://docs.python.org/3/tutorial/controlflow.html#defining-functions"
-    - title: "Official Python Tutorial — 4.9 More on Defining Functions"
-      url: "https://docs.python.org/3/tutorial/controlflow.html#more-on-defining-functions"
-    - title: "Fluent Python — Ch. 7: Functions as First-Class Objects"
-      url: "https://www.oreilly.com/library/view/fluent-python-2nd/9781492056348/"
-    - title: "Real Python — Python Scope"
-      url: "https://realpython.com/python-scope-legb-rule/"
+    - title: "Python Tutorial — 4.8 Defining Functions"\n      url: "https://docs.python.org/3/tutorial/controlflow.html#defining-functions"\n    - title: "Python Tutorial — 4.9 More on Functions"\n      url: "https://docs.python.org/3/tutorial/controlflow.html#more-on-defining-functions"\n    - title: "Fluent Python — Ch. 7: First-Class Functions"\n      url: "https://www.oreilly.com/library/view/fluent-python-2nd/9781492056348/"
 ---
 
 # PY-04-FUNCTIONS-SCOPE: Functions and Scope
 
-## Introduction
 
-Function definitions, parameters, return values, scope rules, lambda expressions, and function annotations.
+## Defining Functions
 
-## Learning Objectives
+```python
+def greet(name: str, greeting: str = "Hello") -> str:
+    """Return a personalized greeting."""
+    return f"{greeting}, {name}!"
+```
 
-By the end of this lesson, you will be able to:
+## Parameters
 
-- Define and call functions with various parameter types
-- Understand LEGB scope rules and closures
-- Write lambda expressions for simple operations
-- Use function annotations and documentation strings
+```python
+# *args collects extra positional args as a tuple
+# **kwargs collects extra keyword args as a dict
+def log(message, *args, level="INFO", **kwargs):
+    print(f"[{level}] {message}", args, kwargs)
 
-## Key Concepts
+log("Server started", 8080, "v2", level="DEBUG", env="prod")
+```
 
-### Subtopic 1: Foundation
+## Scope — LEGB Rule
 
-This section covers the foundational concepts of functions and scope. Understanding these core ideas is essential before moving to advanced topics.
+Python resolves names in order: **L**ocal → **E**nclosing → **G**lobal → **B**uilt-in:
 
-**Key points to remember:**
-- Start with the basics and build up systematically
-- Practice each concept with small code examples
-- Refer to the linked resources for deeper dives
+```python
+x = "global"
+def outer():
+    x = "enclosing"
+    def inner():
+        x = "local"
+        print(x)  # local
+    inner()
+    print(x)  # enclosing
+outer()
+print(x)  # global
+```
 
-### Subtopic 2: Practical Application
+## Lambda Expressions
 
-Apply the concepts you've learned to solve real problems. Practice is essential for mastery.
-
-**Example approach:**
-1. Write small programs that exercise each concept
-2. Combine concepts to solve more complex problems
-3. Review and refactor your code for clarity
-
-### Subtopic 3: Best Practices and Patterns
-
-Learn the idiomatic patterns and best practices for this topic. Writing clean, maintainable code is a hallmark of an experienced developer.
-
-**Guidelines:**
-- Follow language conventions and style guides
-- Favor clarity over cleverness
-- Test your code thoroughly
+```python
+square = lambda x: x ** 2
+add = lambda a, b: a + b
+print(square(5))  # 25
+```
 
 ## Practice Questions
+1. What does `nonlocal` do vs `global`?
+2. Write a function that accepts any number of arguments and returns their sum.
 
-1. What are the key concepts covered in this lesson?
-2. Write a small program that demonstrates at least two concepts from this lesson.
-3. How would you explain this topic to a fellow developer?
-
-## LLM Prompts for Deeper Understanding
-
-1. "Explain Functions and Scope with analogies and examples"
-2. "Show me common mistakes beginners make with functions and scope"
-3. "Provide advanced patterns and real-world use cases for functions and scope"
-
-## Key Takeaways
-
-- Solidify your understanding of functions and scope
-- Practice with real code, not just theory
-- Explore the reference resources for in-depth coverage
-
-## Further Reading
-
-Dive deeper into this topic using the reference resources listed in the frontmatter.
