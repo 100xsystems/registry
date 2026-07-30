@@ -8,7 +8,7 @@
     "linux",
     "cloud-native"
   ],
-  "updatedAt": "2026-07-29T19:01:43.939Z",
+  "updatedAt": "2026-07-30T19:13:40.447Z",
   "items": [
     {
       "guid": "redhat::https://www.redhat.com/ja/sitemap.xml",
@@ -305,7 +305,31 @@
       "summary": "How can a large organization achieve 100% uptime and zero security breaches at a massive scale? It requires moving past standard management techniques and focusing on a critical metric: maintainability. At the recent Red Hat OpenShift Commons Gathering in Amsterdam, ING senior engineers Robbin…",
       "author": null,
       "publishedAt": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.redhat.com/en/blog/firefox-and-thunderbird-rhel-flatpaks-what-it-means-you",
+      "title": "Firefox and Thunderbird as RHEL Flatpaks: What it means for you",
+      "link": "https://www.redhat.com/en/blog/firefox-and-thunderbird-rhel-flatpaks-what-it-means-you",
+      "summary": "Starting with Red Hat Enterprise Linux (RHEL) 10.2, Firefox and Thunderbird are delivered as Flatpaks by default. If you install RHEL with a graphical desktop, your browser and email client will now come from the Red Hat Flatpak registry instead of traditional RPM Package Managers (RPMs). Here's…",
+      "author": null,
+      "publishedAt": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.redhat.com/en/blog/why-self-hosted-inference-essential-building-reliable-sovereign-inference-layer",
+      "title": "Why self-hosted inference is essential: Building a reliable, sovereign inference layer",
+      "link": "https://www.redhat.com/en/blog/why-self-hosted-inference-essential-building-reliable-sovereign-inference-layer",
+      "summary": "Your agent can reach its tools. Identity is scoped. Governance is in place. None of that matters if the model behind the agent cannot reliably call those tools.I have watched this play out. A team builds an agent on LangChain or CrewAI. It works in development. It passes staging. Then someone asks…",
+      "author": null,
+      "publishedAt": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.redhat.com/en/blog/make-every-gpu-hour-count-progress-tracking-red-hat-openshift-ai",
+      "title": "Make every GPU-hour count: Progress tracking in Red Hat OpenShift AI",
+      "link": "https://www.redhat.com/en/blog/make-every-gpu-hour-count-progress-tracking-red-hat-openshift-ai",
+      "summary": "It's Friday evening. Priya, a machine language (ML) engineer at a financial services firm, queues up a fraud-detection fine-tuning job on an GPU cluster costing $55 an hour. The run should take about 40 hours—roughly $2,200 in compute. She double-checks the hyperparameters, submits the job, and…",
+      "author": null,
+      "publishedAt": "2026-07-30T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 37
+  "totalIndexed": 40
 }

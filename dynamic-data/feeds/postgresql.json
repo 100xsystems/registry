@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-07-30T08:36:10.317Z",
+  "updatedAt": "2026-07-30T19:13:40.535Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -417,7 +417,23 @@
       "summary": "What Is Open Alliance for PostgreSQL Education (OAPE)?\nThe OAPE is the recently founded organistion that will offer indipendent community PostgreSQL certifications.\nWhy Becoming A Supporter\nFor years there have only been companies offering PostgreSQL certifications.\nI always believed, that the…",
       "author": null,
       "publishedAt": "2026-07-29T22:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9qP",
+      "title": "Christopher Winslett: Hybrid Search Patterns with Postgres and pgvector",
+      "link": "https://postgr.es/p/9qP",
+      "summary": "Most production vector queries are not simple nearest-neighbor searches. Rarely is the query to return \"the 10 most similar documents in the entire table.\" Typically, it's something closer to: find the 10 most similar documents in the legal category, published in the last 30 days. That mix of…",
+      "author": null,
+      "publishedAt": "2026-07-30T15:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9qO",
+      "title": "Pavlo Golub: vip-manager v5 is out: what you need to know",
+      "link": "https://postgr.es/p/9qO",
+      "summary": "High availability setups are never “set and forget”. Every new release of your tooling can change how your cluster behaves at 03:00 when something breaks.\n vip-manager v5 is one of those releases you really want to read about before just hitting apt upgrade. In this post I’ll walk through the…",
+      "author": null,
+      "publishedAt": "2026-07-30T10:00:00.000Z"
     }
   ],
-  "totalIndexed": 51
+  "totalIndexed": 53
 }

@@ -8,7 +8,7 @@
     "ai",
     "research"
   ],
-  "updatedAt": "2026-07-28T06:53:01.492Z",
+  "updatedAt": "2026-07-30T19:13:39.551Z",
   "items": [
     {
       "guid": "environment-free",
@@ -105,7 +105,15 @@
       "summary": "Long-horizon execution in Large Language Models (LLMs) remains unstable even when high-level strategies are provided. Evaluating on controlled algorithmic puzzles, we demonstrate that while decomposition is essential for stability, extreme decomposition creates a “no-recovery bottleneck”. We show…",
       "author": null,
       "publishedAt": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "guid": "umap-knn-graph-sensemaking",
+      "title": "Dimensionality Reduction Meets Network Science: Sensemaking on UMAP’s kNN Graph",
+      "link": "https://machinelearning.apple.com/research/umap-knn-graph-sensemaking",
+      "summary": "While UMAP is widely used for exploring high-dimensional data, typical workflows focus on its lower-dimensional embedding, largely overlooking the rich k-nearest-neighbor (kNN) graph that UMAP constructs internally. This graph encodes the data manifold in its original high-dimensional space, before…",
+      "author": null,
+      "publishedAt": "2026-07-30T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 12
+  "totalIndexed": 13
 }
