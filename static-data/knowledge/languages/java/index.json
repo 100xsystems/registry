@@ -148,173 +148,26 @@
     }
   ],
   "lessons": [
-    {
-      "slug": "java-01-getting-started",
-      "title": "Getting Started with Java",
-      "description": "Install JDK, understand JVM/JRE/JDK, compile and run programs, set up your IDE.",
-      "type": "lesson",
-      "order": 1,
-      "duration": "45 min",
-      "difficulty": "beginner",
-      "knowledge_refs": [
-        "java/java-01-getting-started"
-      ]
-    },
-    {
-      "slug": "java-02-variables-types",
-      "title": "Variables, Types, and Operators",
-      "description": "Primitive types, object references, var, operators, and type conversion.",
-      "type": "lesson",
-      "order": 2,
-      "duration": "60 min",
-      "difficulty": "beginner",
-      "knowledge_refs": [
-        "java/java-02-variables-types"
-      ]
-    },
-    {
-      "slug": "java-03-control-flow",
-      "title": "Control Flow: if, switch, loops",
-      "description": "if/else, switch expressions, for loops, enhanced for-each, while, and loop control.",
-      "type": "lesson",
-      "order": 3,
-      "duration": "60 min",
-      "difficulty": "beginner",
-      "knowledge_refs": [
-        "java/java-03-control-flow"
-      ]
-    },
-    {
-      "slug": "java-04-methods",
-      "title": "Methods and Parameters",
-      "description": "Method declarations, overloading, varargs, and pass-by-value.",
-      "type": "lesson",
-      "order": 4,
-      "duration": "60 min",
-      "difficulty": "beginner",
-      "knowledge_refs": [
-        "java/java-04-methods"
-      ]
-    },
-    {
-      "slug": "java-05-classes-objects",
-      "title": "Objects and Classes",
-      "description": "Class definitions, constructors, instance vs static, this, Object methods.",
-      "type": "lesson",
-      "order": 5,
-      "duration": "75 min",
-      "difficulty": "beginner",
-      "knowledge_refs": [
-        "java/java-05-classes-objects"
-      ]
-    },
-    {
-      "slug": "java-06-inheritance",
-      "title": "Inheritance and Polymorphism",
-      "description": "Extending classes, super, method overriding, polymorphism, abstract classes.",
-      "type": "lesson",
-      "order": 6,
-      "duration": "75 min",
-      "difficulty": "beginner",
-      "knowledge_refs": [
-        "java/java-06-inheritance"
-      ]
-    },
-    {
-      "slug": "java-07-interfaces",
-      "title": "Interfaces and Abstract Classes",
-      "description": "Interface definitions, default methods, static methods, functional interfaces.",
-      "type": "lesson",
-      "order": 7,
-      "duration": "60 min",
-      "difficulty": "intermediate",
-      "knowledge_refs": [
-        "java/java-07-interfaces"
-      ]
-    },
-    {
-      "slug": "java-08-generics-collections",
-      "title": "Generics and Collections",
-      "description": "Generic classes, type bounds, wildcards, Collections Framework.",
-      "type": "lesson",
-      "order": 8,
-      "duration": "75 min",
-      "difficulty": "intermediate",
-      "knowledge_refs": [
-        "java/java-08-generics-collections"
-      ]
-    },
-    {
-      "slug": "java-09-lambdas-streams",
-      "title": "Lambda Expressions and Streams",
-      "description": "Lambda syntax, functional interfaces, method references, stream pipelines, collectors.",
-      "type": "lesson",
-      "order": 9,
-      "duration": "75 min",
-      "difficulty": "intermediate",
-      "knowledge_refs": [
-        "java/java-09-lambdas-streams"
-      ]
-    },
-    {
-      "slug": "java-10-exceptions",
-      "title": "Exception Handling",
-      "description": "Try/catch/finally, checked vs unchecked, try-with-resources, custom exceptions.",
-      "type": "lesson",
-      "order": 10,
-      "duration": "60 min",
-      "difficulty": "intermediate",
-      "knowledge_refs": [
-        "java/java-10-exceptions"
-      ]
-    },
-    {
-      "slug": "java-11-io-nio",
-      "title": "File I/O and NIO",
-      "description": "java.io basics, java.nio.file, reading/writing files, file system operations.",
-      "type": "lesson",
-      "order": 11,
-      "duration": "60 min",
-      "difficulty": "intermediate",
-      "knowledge_refs": [
-        "java/java-11-io-nio"
-      ]
-    },
-    {
-      "slug": "java-12-annotations-reflection",
-      "title": "Annotations and Reflection",
-      "description": "Built-in annotations, custom annotations, Reflection API, annotation processing.",
-      "type": "lesson",
-      "order": 12,
-      "duration": "75 min",
-      "difficulty": "advanced",
-      "knowledge_refs": [
-        "java/java-12-annotations-reflection"
-      ]
-    },
-    {
-      "slug": "java-13-concurrency",
-      "title": "Concurrency: Threads and Executors",
-      "description": "Thread class, Runnable, synchronized, locks, ExecutorService, CompletableFuture.",
-      "type": "lesson",
-      "order": 13,
-      "duration": "75 min",
-      "difficulty": "advanced",
-      "knowledge_refs": [
-        "java/java-13-concurrency"
-      ]
-    },
-    {
-      "slug": "java-19-modern-features",
-      "title": "Records, Sealed Classes, and Pattern Matching",
-      "description": "Records, sealed classes, pattern matching for instanceof and switch, text blocks.",
-      "type": "lesson",
-      "order": 14,
-      "duration": "60 min",
-      "difficulty": "advanced",
-      "knowledge_refs": [
-        "java/java-19-modern-features"
-      ]
-    }
+    { "slug": "java-01-getting-started", "type": "lesson", "order": 1 },
+    { "slug": "java-02-classes-objects", "type": "lesson", "order": 2 },
+    { "slug": "java-03-inheritance", "type": "lesson", "order": 3 },
+    { "slug": "java-04-generics", "type": "lesson", "order": 4 },
+    { "slug": "java-05-collections", "type": "lesson", "order": 5 },
+    { "slug": "java-06-lambdas", "type": "lesson", "order": 6 },
+    { "slug": "java-07-exceptions", "type": "lesson", "order": 7 },
+    { "slug": "java-08-io-nio", "type": "lesson", "order": 8 },
+    { "slug": "java-09-multithreading", "type": "lesson", "order": 9 },
+    { "slug": "java-10-datetime", "type": "lesson", "order": 10 },
+    { "slug": "java-11-streams-deep", "type": "lesson", "order": 11 },
+    { "slug": "java-12-optional", "type": "lesson", "order": 12 },
+    { "slug": "java-13-jvm-memory", "type": "lesson", "order": 13 },
+    { "slug": "java-14-junit-testing", "type": "lesson", "order": 14 },
+    { "slug": "java-15-build-tools", "type": "lesson", "order": 15 },
+    { "slug": "java-16-records-patterns", "type": "lesson", "order": 16 },
+    { "slug": "java-17-annotations-reflection", "type": "lesson", "order": 17 },
+    { "slug": "java-18-networking", "type": "lesson", "order": 18 },
+    { "slug": "java-19-module-system", "type": "lesson", "order": 19 },
+    { "slug": "java-20-jdbc-database", "type": "lesson", "order": 20 },
+    { "slug": "java-21-performance-tuning", "type": "lesson", "order": 21 }
   ]
 }
