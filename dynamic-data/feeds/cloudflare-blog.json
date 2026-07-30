@@ -9,7 +9,7 @@
     "performance",
     "edge-computing"
   ],
-  "updatedAt": "2026-07-29T19:01:43.393Z",
+  "updatedAt": "2026-07-30T13:59:44.296Z",
   "items": [
     {
       "guid": "01KY2432VQPD5FTF2RARXXYQGH",
@@ -61258,7 +61258,15 @@
       "summary": "Cloudflare now supports post-quantum (PQ) authentication when connecting to customer origin servers via Authenticated Origin Pulls and Custom Origin Trust Store. This is the first step towards providing PQ authentication for all Cloudflare products.",
       "author": "Luke Valenta",
       "publishedAt": "2026-07-29T13:00:00.000Z"
+    },
+    {
+      "guid": "01KYQNRTVJ54SHCVBMMXFYGJ5P",
+      "title": "Dogfooding at scale: migrating cdnjs to Cloudflare’s Developer Platform",
+      "link": "https://blog.cloudflare.com/cdnjs-dev-platform-migration/",
+      "summary": "We moved cdnjs, serving 9 billion requests a day, entirely onto Cloudflare's Developer Platform. That means we’re running one of the Internet's busiest open-source CDNs on our own building blocks, and we pushed Workflows and Workers limits higher for everyone.",
+      "author": "Simona Badoiu",
+      "publishedAt": "2026-07-30T13:00:00.000Z"
     }
   ],
-  "totalIndexed": 7656
+  "totalIndexed": 7657
 }

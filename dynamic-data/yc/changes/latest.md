@@ -1,49 +1,34 @@
 # YC Company Changes for 2026-07-30
 
-- Previous total: 6106
+- Previous total: 6107
 - Current total: 6107
-- Added: 1
+- Added: 0
 - Removed: 0
-- Updated: 7
+- Updated: 6
 
-
-## Added Companies
-
-- [Lambda Robotics](https://www.ycombinator.com/companies/lambda-robotics) (Fall 2026) — Robotics for AI Infrastructure
 
 ## Updated Companies
 
-### [Version Story Compare](https://www.ycombinator.com/companies/version-story-compare)
+### [Tablevibe](https://www.ycombinator.com/companies/tablevibe-co)
 
-- `name`: Version Story → Version Story Compare
-- `slug`: version-story → version-story-compare
-- `former_names`:  → Version Story
-- `one_liner`: GitHub for lawyers → Claude Redlining Plugin
-- `tags`: Artificial Intelligence,SaaS,B2B,Legal,LegalTech → SaaS,B2B,Legal,LegalTech,AI
+- `one_liner`: All-in-one digital ordering system for restaurants → Direct Ordering Software for Restaurants
 
-### [Async](https://www.ycombinator.com/companies/withasync)
+### [Arc](https://www.ycombinator.com/companies/arc-2)
 
-- `tags`: Artificial Intelligence,B2B → B2B,AI
+- `stage`: Early → Growth
 
-### [Cardinal](https://www.ycombinator.com/companies/trycardinal-ai)
+### [Onshore](https://www.ycombinator.com/companies/onshore)
 
-- `website`: https://trycardinal.ai/ → https://trycardinal.com
+- `stage`: Early → Growth
 
-### [Kebra](https://www.ycombinator.com/companies/kebra)
+### [Singularity](https://www.ycombinator.com/companies/singularity)
 
-- `tags`: AIOps,AI → Artificial Intelligence,B2B,Home Services,Operations
+- `isHiring`: true → false
 
-### [Risklytics](https://www.ycombinator.com/companies/risklytics)
+### [Garage](https://www.ycombinator.com/companies/garage-2)
 
-- `one_liner`: Commercial Brokerage for Frontier Tech → Commercial Insurance Brokerage for Frontier Tech
-- `tags`: Artificial Intelligence,Machine Learning,Real Estate,B2B,Insurance → Machine Learning,Real Estate,B2B,Insurance,AI
+- `stage`: Early → Growth
 
-### [Luca IQ](https://www.ycombinator.com/companies/luca-iq)
+### [Corgi Insurance](https://www.ycombinator.com/companies/corgi-insurance)
 
-- `team_size`: 4 → 5
-- `tags`: B2B → Artificial Intelligence,B2B,API,Infrastructure
-
-### [Dock](https://www.ycombinator.com/companies/dock)
-
-- `launched_at`: 1780463729 → 1785286566
-- `tags`: Artificial Intelligence,B2B → B2B,AI
+- `stage`: Early → Growth
