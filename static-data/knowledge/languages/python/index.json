@@ -1,7 +1,7 @@
 {
   "slug": "python",
   "name": "Python",
-  "description": "The most versatile language in the ecosystem. Python powers data science, machine learning, backend systems, automation, and scripting. These are the definitive free resources \u2014 vetted, current, and complete.",
+  "description": "The most versatile language in the ecosystem. Python powers data science, machine learning, backend systems, automation, and scripting. These are the definitive free resources — vetted, current, and complete.",
   "categories": [
     {
       "label": "Free Books",
@@ -15,7 +15,7 @@
         {
           "title": "Think Python (3rd Edition)",
           "url": "https://allendowney.github.io/ThinkPython/",
-          "description": "Completely redesigned for modern learning. Runs in Jupyter notebooks \u2014 read, execute code, and work through exercises directly in the browser."
+          "description": "Completely redesigned for modern learning. Runs in Jupyter notebooks — read, execute code, and work through exercises directly in the browser."
         },
         {
           "title": "Dive Into Python 3",
@@ -55,7 +55,7 @@
           "description": "Free class from Google engineers with lecture videos, written materials, and code exercises covering regex, utilities, and more."
         },
         {
-          "title": "freeCodeCamp \u2014 Python Curriculum",
+          "title": "freeCodeCamp — Python Curriculum",
           "url": "https://www.freecodecamp.org/",
           "description": "Completely free, project-based curriculum with browser-based coding environments and certifications for Python."
         }
@@ -66,7 +66,7 @@
       "icon": "video",
       "items": [
         {
-          "title": "Python for Beginners \u2014 Full Course (freeCodeCamp)",
+          "title": "Python for Beginners — Full Course (freeCodeCamp)",
           "url": "https://www.youtube.com/watch?v=rfscVS0vtbw",
           "description": "A multi-hour comprehensive video tutorial covering core concepts, loops, dictionaries, classes, and mini-projects."
         },
@@ -82,7 +82,7 @@
       "icon": "terminal",
       "items": [
         {
-          "title": "Exercism \u2014 Python Track",
+          "title": "Exercism — Python Track",
           "url": "https://exercism.org/tracks/python",
           "description": "100% free platform with 146 coding exercises across 17 concepts. Includes automated code analysis and human mentor feedback."
         },
@@ -92,7 +92,7 @@
           "description": "Master Python by solving bite-sized community-crafted challenges and comparing solutions with other developers."
         },
         {
-          "title": "HackerRank \u2014 Python Track",
+          "title": "HackerRank — Python Track",
           "url": "https://www.hackerrank.com/domains/python",
           "description": "Domain-specific challenges from basic I/O to advanced data structures and interview preparation."
         }
@@ -124,7 +124,7 @@
           "description": "A premier weekly email newsletter highlighting the best Python articles, tutorials, open-source projects, and community news."
         },
         {
-          "title": "Python.org \u2014 Latest News",
+          "title": "Python.org — Latest News",
           "url": "https://www.python.org/blogs/",
           "description": "Official Python Software Foundation blog covering release announcements, PEP summaries, and community updates."
         }
@@ -140,9 +140,9 @@
           "description": "The largest community of Python learners and educators."
         },
         {
-          "title": "Stack Overflow \u2014 Python Tag",
+          "title": "Stack Overflow — Python Tag",
           "url": "https://stackoverflow.com/questions/tagged/python",
-          "description": "The definitive Q&A forum for Python questions \u2014 from beginner syntax to advanced metaprogramming patterns."
+          "description": "The definitive Q&A forum for Python questions — from beginner syntax to advanced metaprogramming patterns."
         },
         {
           "title": "Python Discord",
@@ -154,22 +154,256 @@
   ],
   "lessons": [
     {
-      "slug": "fundamentals",
-      "title": "Fundamentals of Python",
-      "description": "Core concepts, syntax, and first steps with Python",
+      "slug": "py-01-getting-started",
+      "title": "Getting Started with Python",
+      "description": "Install Python, set up a development environment, understand the interpreter, and write your first program.",
       "type": "lesson",
       "order": 1,
       "duration": "45 min",
-      "difficulty": "beginner"
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "python/py-01-getting-started"
+      ]
     },
     {
-      "slug": "practical-guide",
-      "title": "Practical Python Guide",
-      "description": "Real-world usage, tooling, and ecosystem",
+      "slug": "py-02-variables-types",
+      "title": "Variables, Types, and Basic Operations",
+      "description": "Python's dynamic type system, primitive types, variables, numbers, strings, and basic operators.",
       "type": "lesson",
       "order": 2,
       "duration": "60 min",
-      "difficulty": "intermediate"
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "python/py-02-variables-types"
+      ]
+    },
+    {
+      "slug": "py-03-control-flow",
+      "title": "Control Flow: Conditionals and Loops",
+      "description": "if/elif/else, for loops, while loops, match statements, and loop control with break/continue.",
+      "type": "lesson",
+      "order": 3,
+      "duration": "60 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "python/py-03-control-flow"
+      ]
+    },
+    {
+      "slug": "py-04-functions-scope",
+      "title": "Functions and Scope",
+      "description": "Function definitions, parameters, return values, scope rules, lambda expressions, and function annotations.",
+      "type": "lesson",
+      "order": 4,
+      "duration": "75 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "python/py-04-functions-scope"
+      ]
+    },
+    {
+      "slug": "py-05-lists-sequences",
+      "title": "Lists, Tuples, and Sequences",
+      "description": "List operations, list comprehensions, tuples, slicing, and sequence protocol.",
+      "type": "lesson",
+      "order": 5,
+      "duration": "60 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "python/py-05-lists-sequences"
+      ]
+    },
+    {
+      "slug": "py-06-dicts-sets",
+      "title": "Dictionaries and Sets",
+      "description": "Dictionary operations, set theory, hash tables, and when to use each collection type.",
+      "type": "lesson",
+      "order": 6,
+      "duration": "60 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "python/py-06-dicts-sets"
+      ]
+    },
+    {
+      "slug": "py-07-strings-text",
+      "title": "Strings, Formatting, and Text Processing",
+      "description": "String methods, f-strings, formatting, Unicode, regex basics, and text processing patterns.",
+      "type": "lesson",
+      "order": 7,
+      "duration": "60 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "python/py-07-strings-text"
+      ]
+    },
+    {
+      "slug": "py-08-files-exceptions",
+      "title": "File I/O and Exception Handling",
+      "description": "Reading/writing files, context managers, try/except/finally, custom exceptions, and structured data persistence.",
+      "type": "lesson",
+      "order": 8,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "python/py-08-files-exceptions"
+      ]
+    },
+    {
+      "slug": "py-09-modules-packages",
+      "title": "Modules, Packages, and Virtual Environments",
+      "description": "Import system, module creation, packages, virtual environments, and dependency management with pip.",
+      "type": "lesson",
+      "order": 9,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "python/py-09-modules-packages"
+      ]
+    },
+    {
+      "slug": "py-10-classes-oop",
+      "title": "Classes and Object-Oriented Programming",
+      "description": "Class definitions, instance management, inheritance, polymorphism, special methods, and dataclasses.",
+      "type": "lesson",
+      "order": 10,
+      "duration": "75 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "python/py-10-classes-oop"
+      ]
+    },
+    {
+      "slug": "py-11-generators-iterators",
+      "title": "Generators, Iterators, and Context Managers",
+      "description": "Iterator protocol, generator functions, yield expressions, generator expressions, and context manager protocols.",
+      "type": "lesson",
+      "order": 11,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "python/py-11-generators-iterators"
+      ]
+    },
+    {
+      "slug": "py-12-decorators-closures",
+      "title": "Decorators and Closures",
+      "description": "Function decorators, decorator factories, class decorators, closures, and practical decorator patterns.",
+      "type": "lesson",
+      "order": 12,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "python/py-12-decorators-closures"
+      ]
+    },
+    {
+      "slug": "py-13-advanced-functions",
+      "title": "Advanced Functions: Lambdas and Functional Tools",
+      "description": "Lambda expressions, map/filter/reduce, functools (partial, lru_cache, wraps), and functional programming patterns.",
+      "type": "lesson",
+      "order": 13,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "python/py-13-advanced-functions"
+      ]
+    },
+    {
+      "slug": "py-14-regular-expressions",
+      "title": "Regular Expressions",
+      "description": "Regex syntax, pattern compilation, groups, lookahead/lookbehind, re module functions, and text processing with regex.",
+      "type": "lesson",
+      "order": 14,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "python/py-14-regular-expressions"
+      ]
+    },
+    {
+      "slug": "py-15-testing-debugging",
+      "title": "Testing and Debugging",
+      "description": "Unittest, pytest, test fixtures, mocking, debugging with pdb, profiling with cProfile, and logging best practices.",
+      "type": "lesson",
+      "order": 15,
+      "duration": "75 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "python/py-15-testing-debugging"
+      ]
+    },
+    {
+      "slug": "py-16-data-apis",
+      "title": "Working with Data: JSON, CSV, and APIs",
+      "description": "JSON parsing, CSV processing, REST APIs with requests, data validation with pydantic, and data pipeline patterns.",
+      "type": "lesson",
+      "order": 16,
+      "duration": "75 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "python/py-16-data-apis"
+      ]
+    },
+    {
+      "slug": "py-17-concurrency-threads",
+      "title": "Concurrency with Threading and Multiprocessing",
+      "description": "Threading basics, thread safety, the GIL, multiprocessing, process pools, and when to use each concurrency model.",
+      "type": "lesson",
+      "order": 17,
+      "duration": "75 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "python/py-17-concurrency-threads"
+      ]
+    },
+    {
+      "slug": "py-18-async-await",
+      "title": "Async/Await and Asyncio",
+      "description": "Coroutines, async/await syntax, event loop, tasks, futures, and building async applications with asyncio.",
+      "type": "lesson",
+      "order": 18,
+      "duration": "75 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "python/py-18-async-await"
+      ]
+    },
+    {
+      "slug": "py-19-pythonic-patterns",
+      "title": "Pythonic Patterns and Idioms",
+      "description": "EAFP vs LBYL, duck typing, composition over inheritance, descriptor protocol, property decorator, and SOLID in Python.",
+      "type": "lesson",
+      "order": 19,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "python/py-19-pythonic-patterns"
+      ]
+    },
+    {
+      "slug": "py-20-metaprogramming",
+      "title": "Metaprogramming and Advanced Features",
+      "description": "Metaclasses, class decorators, __init_subclass__, __set_name__, and dynamic attribute access with __getattr__/__setattr__.",
+      "type": "lesson",
+      "order": 20,
+      "duration": "75 min",
+      "difficulty": "expert",
+      "knowledge_refs": [
+        "python/py-20-metaprogramming"
+      ]
+    },
+    {
+      "slug": "py-21-performance",
+      "title": "Performance: Profiling, Optimization, and C Extensions",
+      "description": "Profiling tools, optimizing hot paths, using C extensions with Cython, Numba, and when to drop down to C.",
+      "type": "lesson",
+      "order": 21,
+      "duration": "75 min",
+      "difficulty": "expert",
+      "knowledge_refs": [
+        "python/py-21-performance"
+      ]
     }
   ]
 }

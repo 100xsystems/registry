@@ -1,7 +1,7 @@
 {
   "slug": "typescript",
   "name": "TypeScript",
-  "description": "TypeScript is JavaScript with static types. It catches errors at compile time, enables fearless refactoring, and powers the largest codebases in the world. These are the definitive free resources \u2014 vetted, current, and complete.",
+  "description": "TypeScript is JavaScript with static types. It catches errors at compile time, enables fearless refactoring, and powers the largest codebases in the world. These are the definitive free resources — vetted, current, and complete.",
   "categories": [
     {
       "label": "Free Books",
@@ -18,7 +18,7 @@
           "description": "A comprehensive open-source book by Basarat Ali Syed covering real-world patterns, project setup, and migration strategies."
         },
         {
-          "title": "Type Challenges \u2014 Solutions Book",
+          "title": "Type Challenges — Solutions Book",
           "url": "https://ghaiklor.github.io/type-challenges-solutions/en/",
           "description": "Companion guide to type-challenges with detailed explanations of over 100 advanced type puzzles."
         }
@@ -50,12 +50,12 @@
       "icon": "code",
       "items": [
         {
-          "title": "Total TypeScript \u2014 Free Tutorials",
+          "title": "Total TypeScript — Free Tutorials",
           "url": "https://www.totaltypescript.com/tutorials",
           "description": "High-quality interactive tutorials by Matt Pocock covering generics, patterns, and real-world TypeScript."
         },
         {
-          "title": "freeCodeCamp \u2014 TypeScript Course",
+          "title": "freeCodeCamp — TypeScript Course",
           "url": "https://www.freecodecamp.org/news/typescript-course/",
           "description": "A structured project-based course walking through type annotations, interfaces, generics, and building applications."
         }
@@ -66,7 +66,7 @@
       "icon": "video",
       "items": [
         {
-          "title": "TypeScript \u2014 The Complete Course (freeCodeCamp)",
+          "title": "TypeScript — The Complete Course (freeCodeCamp)",
           "url": "https://www.youtube.com/watch?v=30LWjhZzg50",
           "description": "Comprehensive multi-hour course covering everything from basic types to advanced patterns."
         },
@@ -82,17 +82,17 @@
       "icon": "terminal",
       "items": [
         {
-          "title": "Type Challenges \u2014 TypeScript Type Puzzles",
+          "title": "Type Challenges — TypeScript Type Puzzles",
           "url": "https://github.com/type-challenges/type-challenges",
           "description": "Over 200 community-sourced type-level challenges from easy to extreme. The gold standard for mastering advanced types."
         },
         {
-          "title": "Exercism \u2014 TypeScript Track",
+          "title": "Exercism — TypeScript Track",
           "url": "https://exercism.org/tracks/typescript",
           "description": "100+ coding exercises with automated analysis and optional human mentoring."
         },
         {
-          "title": "Codewars \u2014 TypeScript Kata",
+          "title": "Codewars — TypeScript Kata",
           "url": "https://www.codewars.com/?language=typescript",
           "description": "Solve community-created challenges while getting typed feedback."
         }
@@ -154,22 +154,256 @@
   ],
   "lessons": [
     {
-      "slug": "fundamentals",
-      "title": "Fundamentals of TypeScript",
-      "description": "Core concepts, syntax, and first steps with TypeScript",
+      "slug": "ts-01-setup-config",
+      "title": "TypeScript Setup and Configuration",
+      "description": "Install TypeScript, configure tsconfig.json, understand the compilation pipeline, and set up a development workflow.",
       "type": "lesson",
       "order": 1,
       "duration": "45 min",
-      "difficulty": "beginner"
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "typescript/ts-01-setup-config"
+      ]
     },
     {
-      "slug": "practical-guide",
-      "title": "Practical TypeScript Guide",
-      "description": "Real-world usage, tooling, and ecosystem",
+      "slug": "ts-02-basic-types",
+      "title": "Basic Types and Type Annotations",
+      "description": "Primitive types, array types, tuple types, enum types, the any/unknown/never types, and type inference.",
       "type": "lesson",
       "order": 2,
       "duration": "60 min",
-      "difficulty": "intermediate"
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "typescript/ts-02-basic-types"
+      ]
+    },
+    {
+      "slug": "ts-03-functions",
+      "title": "Functions and Function Types",
+      "description": "Function type annotations, optional/default/rest parameters, overloads, this typing, and call signatures.",
+      "type": "lesson",
+      "order": 3,
+      "duration": "60 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "typescript/ts-03-functions"
+      ]
+    },
+    {
+      "slug": "ts-04-object-types-interfaces",
+      "title": "Object Types and Interfaces",
+      "description": "Object type literals, interfaces, optional/readonly properties, index signatures, and interface extension.",
+      "type": "lesson",
+      "order": 4,
+      "duration": "60 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "typescript/ts-04-object-types-interfaces"
+      ]
+    },
+    {
+      "slug": "ts-05-arrays-tuples-enums",
+      "title": "Arrays, Tuples, and Enums",
+      "description": "Array types, readonly arrays, tuple types with labels and spreads, const assertions, and enum best practices.",
+      "type": "lesson",
+      "order": 5,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "typescript/ts-05-arrays-tuples-enums"
+      ]
+    },
+    {
+      "slug": "ts-06-union-intersection",
+      "title": "Union, Intersection, and Literal Types",
+      "description": "Union types, intersection types, literal types, narrowing with typeof/in/instanceof, and discriminated unions.",
+      "type": "lesson",
+      "order": 6,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "typescript/ts-06-union-intersection"
+      ]
+    },
+    {
+      "slug": "ts-07-interfaces-deep",
+      "title": "Interfaces and Type Aliases Deep Dive",
+      "description": "Interface merging, extending types, recursive types, mapped type modifiers, and conditional type constraints.",
+      "type": "lesson",
+      "order": 7,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "typescript/ts-07-interfaces-deep"
+      ]
+    },
+    {
+      "slug": "ts-08-generics",
+      "title": "Generics: Basics and Constraints",
+      "description": "Generic functions, generic constraints, generic interfaces, default types, and covariance/contravariance.",
+      "type": "lesson",
+      "order": 8,
+      "duration": "75 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "typescript/ts-08-generics"
+      ]
+    },
+    {
+      "slug": "ts-09-keyof-typeof",
+      "title": "Keyof, Typeof, and Indexed Access Types",
+      "description": "The keyof operator, typeof operator, indexed access types, and building type-safe lookup patterns.",
+      "type": "lesson",
+      "order": 9,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "typescript/ts-09-keyof-typeof"
+      ]
+    },
+    {
+      "slug": "ts-10-conditional-mapped",
+      "title": "Conditional and Mapped Types",
+      "description": "Conditional types, infer keyword, distributive conditionals, mapped types, and template literal types.",
+      "type": "lesson",
+      "order": 10,
+      "duration": "75 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "typescript/ts-10-conditional-mapped"
+      ]
+    },
+    {
+      "slug": "ts-11-classes",
+      "title": "Classes and Inheritance",
+      "description": "Class type annotations, access modifiers, parameter properties, abstract classes, and implements clauses.",
+      "type": "lesson",
+      "order": 11,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "typescript/ts-11-classes"
+      ]
+    },
+    {
+      "slug": "ts-12-modules",
+      "title": "Modules and Declaration Files",
+      "description": "ES modules, import/export syntax, ambient declarations, module augmentation, and writing .d.ts files.",
+      "type": "lesson",
+      "order": 12,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "typescript/ts-12-modules"
+      ]
+    },
+    {
+      "slug": "ts-13-type-guards",
+      "title": "Type Narrowing and Type Guards",
+      "description": "User-defined type guards, assertion functions, the never type for exhaustiveness, and discriminated union patterns.",
+      "type": "lesson",
+      "order": 13,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "typescript/ts-13-type-guards"
+      ]
+    },
+    {
+      "slug": "ts-14-utility-types",
+      "title": "Utility Types and Satisfies",
+      "description": "Built-in utility types (Partial, Required, Pick, Omit, Extract, Exclude, ReturnType), the satisfies operator, and Awaited.",
+      "type": "lesson",
+      "order": 14,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "typescript/ts-14-utility-types"
+      ]
+    },
+    {
+      "slug": "ts-15-async-promises",
+      "title": "Async/Await and Promise Typing",
+      "description": "Typing async functions, Promise generics, async iterators, error handling patterns, and Promise.all/race/allSettled typing.",
+      "type": "lesson",
+      "order": 15,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "typescript/ts-15-async-promises"
+      ]
+    },
+    {
+      "slug": "ts-16-tsconfig-deep",
+      "title": "tsconfig.json Deep Dive",
+      "description": "Compiler options explained: strict, moduleResolution, target, paths, type roots, project references, and build mode.",
+      "type": "lesson",
+      "order": 16,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "typescript/ts-16-tsconfig-deep"
+      ]
+    },
+    {
+      "slug": "ts-17-advanced-patterns",
+      "title": "Advanced Type Patterns",
+      "description": "Branded types, nominal typing patterns, type-safe builders, the `as const` pattern, and type-level programming.",
+      "type": "lesson",
+      "order": 17,
+      "duration": "75 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "typescript/ts-17-advanced-patterns"
+      ]
+    },
+    {
+      "slug": "ts-18-react-typescript",
+      "title": "React with TypeScript",
+      "description": "Typing components, props, state, events, refs, hooks, context, and higher-order components with TypeScript.",
+      "type": "lesson",
+      "order": 18,
+      "duration": "75 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "typescript/ts-18-react-typescript"
+      ]
+    },
+    {
+      "slug": "ts-19-decorators-mixins",
+      "title": "Decorators and Mixins",
+      "description": "Experimental decorators, legacy vs TC39 decorators, class/method/accessor/property decorators, and mixin patterns.",
+      "type": "lesson",
+      "order": 19,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "typescript/ts-19-decorators-mixins"
+      ]
+    },
+    {
+      "slug": "ts-20-performance",
+      "title": "Performance and Compiler API",
+      "description": "TypeScript performance optimization, incremental builds, const generics, the compiler API, and custom transformers.",
+      "type": "lesson",
+      "order": 20,
+      "duration": "60 min",
+      "difficulty": "expert",
+      "knowledge_refs": [
+        "typescript/ts-20-performance"
+      ]
+    },
+    {
+      "slug": "ts-21-migration-patterns",
+      "title": "Migration Patterns and Advanced Configuration",
+      "description": "Migrating JS to TS gradually, allowJs, checkJs, strict mode adoption, path mapping, and monorepo patterns.",
+      "type": "lesson",
+      "order": 21,
+      "duration": "60 min",
+      "difficulty": "expert",
+      "knowledge_refs": [
+        "typescript/ts-21-migration-patterns"
+      ]
     }
   ]
 }

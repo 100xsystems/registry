@@ -1,0 +1,88 @@
+---
+title: "Profiling and Optimization"
+description: "pprof profiling, CPU and memory profiles, trace analysis, escape analysis, and optimization strategies."
+type: lesson
+order: 19
+duration: "60 min"
+difficulty: expert
+learning_objectives:
+  - "Profile CPU and memory with pprof"
+  - "Analyze execution traces"
+  - "Optimize allocations and escape behavior"
+  - "Apply benchmarking-driven optimization"
+knowledge_refs:
+  - go/go-19-profiling
+prerequisites:
+  - "GO-14"
+references:
+    - title: "Go Blog — Profiling Go Programs"
+      url: "https://go.dev/blog/pprof"
+    - title: "Go Documentation — pprof"
+      url: "https://pkg.go.dev/net/http/pprof"
+---
+
+# GO-19-PROFILING: Profiling and Optimization
+
+## Introduction
+
+pprof profiling, CPU and memory profiles, trace analysis, escape analysis, and optimization strategies.
+
+## Learning Objectives
+
+By the end of this lesson, you will be able to:
+
+- Profile CPU and memory with pprof
+- Analyze execution traces
+- Optimize allocations and escape behavior
+- Apply benchmarking-driven optimization
+
+## Key Concepts
+
+### Subtopic 1: Foundation
+
+This section covers the foundational concepts of profiling and optimization. Understanding these core ideas is essential before moving to advanced topics.
+
+**Key points to remember:**
+- Start with the basics and build up systematically
+- Practice each concept with small code examples
+- Refer to the linked resources for deeper dives
+
+### Subtopic 2: Practical Application
+
+Apply the concepts you've learned to solve real problems. Practice is essential for mastery.
+
+**Example approach:**
+1. Write small programs that exercise each concept
+2. Combine concepts to solve more complex problems
+3. Review and refactor your code for clarity
+
+### Subtopic 3: Best Practices and Patterns
+
+Learn the idiomatic patterns and best practices for this topic. Writing clean, maintainable code is a hallmark of an experienced developer.
+
+**Guidelines:**
+- Follow language conventions and style guides
+- Favor clarity over cleverness
+- Test your code thoroughly
+
+## Practice Questions
+
+1. What are the key concepts covered in this lesson?
+2. Write a small program that demonstrates at least two concepts from this lesson.
+3. How would you explain this topic to a fellow developer?
+
+## LLM Prompts for Deeper Understanding
+
+1. "Explain Profiling and Optimization with analogies and examples"
+2. "Show me common mistakes beginners make with profiling and optimization"
+3. "Provide advanced patterns and real-world use cases for profiling and optimization"
+
+## Key Takeaways
+
+- Solidify your understanding of profiling and optimization
+- Practice with real code, not just theory
+- Explore the reference resources for in-depth coverage
+
+## Further Reading
+
+Dive deeper into this topic using the reference resources listed in the frontmatter.

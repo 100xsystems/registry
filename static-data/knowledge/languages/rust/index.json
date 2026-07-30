@@ -65,7 +65,7 @@
           "description": "An interactive visual tour introducing basic to advanced Rust syntax."
         },
         {
-          "title": "freeCodeCamp \u2014 Rust Course",
+          "title": "freeCodeCamp — Rust Course",
           "url": "https://www.freecodecamp.org/news/learn-rust-for-beginners/",
           "description": "A project-based course covering foundational and intermediate Rust concepts."
         }
@@ -92,17 +92,17 @@
       "icon": "terminal",
       "items": [
         {
-          "title": "Exercism \u2014 Rust Track",
+          "title": "Exercism — Rust Track",
           "url": "https://exercism.org/tracks/rust",
           "description": "99 free coding exercises designed to teach idiomatic Rust with mentoring."
         },
         {
-          "title": "Codewars \u2014 Rust Kata",
+          "title": "Codewars — Rust Kata",
           "url": "https://www.codewars.com/collections/rust-collection",
           "description": "Community-created challenges solving data structures, algorithms, and lifetimes."
         },
         {
-          "title": "LeetCode \u2014 Rust Support",
+          "title": "LeetCode — Rust Support",
           "url": "https://leetcode.com/tag/rust/",
           "description": "Solve algorithm challenges using Rusts memory model and type system."
         }
@@ -164,22 +164,256 @@
   ],
   "lessons": [
     {
-      "slug": "fundamentals",
-      "title": "Fundamentals of Rust",
-      "description": "Core concepts, syntax, and first steps with Rust",
+      "slug": "rs-01-getting-started",
+      "title": "Getting Started with Rust",
+      "description": "Install Rust, understand Cargo, create projects, write Hello World, and explore the toolchain.",
       "type": "lesson",
       "order": 1,
       "duration": "45 min",
-      "difficulty": "beginner"
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "rust/rs-01-getting-started"
+      ]
     },
     {
-      "slug": "practical-guide",
-      "title": "Practical Rust Guide",
-      "description": "Real-world usage, tooling, and ecosystem",
+      "slug": "rs-02-variables-types",
+      "title": "Variables, Mutability, and Data Types",
+      "description": "Variables, mutability, constants, shadowing, scalar types, compound types, and type inference.",
       "type": "lesson",
       "order": 2,
       "duration": "60 min",
-      "difficulty": "intermediate"
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "rust/rs-02-variables-types"
+      ]
+    },
+    {
+      "slug": "rs-03-ownership",
+      "title": "Ownership and Borrowing",
+      "description": "Ownership rules, move semantics, borrowing with references, mutable references, and the borrow checker.",
+      "type": "lesson",
+      "order": 3,
+      "duration": "75 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "rust/rs-03-ownership"
+      ]
+    },
+    {
+      "slug": "rs-04-slices",
+      "title": "Slices and References",
+      "description": "String slices, array slices, string vs &str, slice patterns, and danging reference prevention.",
+      "type": "lesson",
+      "order": 4,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "rust/rs-04-slices"
+      ]
+    },
+    {
+      "slug": "rs-05-structs-enums",
+      "title": "Structs, Enums, and Pattern Matching",
+      "description": "Struct definitions, tuple structs, unit structs, enums, Option and Result, match expressions, and if let.",
+      "type": "lesson",
+      "order": 5,
+      "duration": "75 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "rust/rs-05-structs-enums"
+      ]
+    },
+    {
+      "slug": "rs-06-methods",
+      "title": "Methods and Associated Functions",
+      "description": "Method syntax, self parameters, associated functions, method chaining, and traits for shared behavior.",
+      "type": "lesson",
+      "order": 6,
+      "duration": "60 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "rust/rs-06-methods"
+      ]
+    },
+    {
+      "slug": "rs-07-collections",
+      "title": "Vectors, Strings, and HashMaps",
+      "description": "Vec<T> operations, String vs &str, HashMap and HashSet, iterating collections, and collection performance.",
+      "type": "lesson",
+      "order": 7,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "rust/rs-07-collections"
+      ]
+    },
+    {
+      "slug": "rs-08-error-handling",
+      "title": "Error Handling: Result and Option",
+      "description": "Result<T, E>, Option<T>, the ? operator, combinators (map, and_then, unwrap_or), custom error types, and error conversion.",
+      "type": "lesson",
+      "order": 8,
+      "duration": "75 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "rust/rs-08-error-handling"
+      ]
+    },
+    {
+      "slug": "rs-09-generics-traits",
+      "title": "Generics and Traits",
+      "description": "Generic functions and structs, trait definitions, trait bounds, impl Trait, and blanket implementations.",
+      "type": "lesson",
+      "order": 9,
+      "duration": "75 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "rust/rs-09-generics-traits"
+      ]
+    },
+    {
+      "slug": "rs-10-lifetimes",
+      "title": "Lifetimes",
+      "description": "Lifetime annotations, lifetime elision rules, struct lifetimes, static lifetime, and lifetime subtyping.",
+      "type": "lesson",
+      "order": 10,
+      "duration": "75 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "rust/rs-10-lifetimes"
+      ]
+    },
+    {
+      "slug": "rs-11-closures-iterators",
+      "title": "Closures and Iterators",
+      "description": "Closure types (Fn, FnMut, FnOnce), iterator adapters, iterator combinators, consuming producers, and lazy evaluation.",
+      "type": "lesson",
+      "order": 11,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "rust/rs-11-closures-iterators"
+      ]
+    },
+    {
+      "slug": "rs-12-modules-cargo",
+      "title": "Modules, Crates, and Cargo",
+      "description": "Modules and paths, module file system, external crates, Cargo.toml, features, and workspaces.",
+      "type": "lesson",
+      "order": 12,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "rust/rs-12-modules-cargo"
+      ]
+    },
+    {
+      "slug": "rs-13-smart-pointers",
+      "title": "Smart Pointers: Box, Rc, Arc",
+      "description": "Box<T> for heap allocation, Rc<T> for shared ownership, RefCell<T> for interior mutability, Arc<T> for thread safety.",
+      "type": "lesson",
+      "order": 13,
+      "duration": "75 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "rust/rs-13-smart-pointers"
+      ]
+    },
+    {
+      "slug": "rs-14-concurrency",
+      "title": "Concurrency: Threads and Message Passing",
+      "description": "Thread spawning, join handles, message passing with channels (mpsc), shared state with Arc, Send and Sync traits.",
+      "type": "lesson",
+      "order": 14,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "rust/rs-14-concurrency"
+      ]
+    },
+    {
+      "slug": "rs-15-async-await",
+      "title": "Async/Await and Tokio",
+      "description": "Async functions, await syntax, futures, Tokio runtime, async I/O, tasks, and async patterns.",
+      "type": "lesson",
+      "order": 15,
+      "duration": "75 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "rust/rs-15-async-await"
+      ]
+    },
+    {
+      "slug": "rs-16-unsafe-ffi",
+      "title": "Unsafe Rust and FFI",
+      "description": "Unsafe keyword, raw pointers, calling C functions, writing C-compatible APIs, and safety invariants.",
+      "type": "lesson",
+      "order": 16,
+      "duration": "75 min",
+      "difficulty": "expert",
+      "knowledge_refs": [
+        "rust/rs-16-unsafe-ffi"
+      ]
+    },
+    {
+      "slug": "rs-17-testing",
+      "title": "Testing and Documentation",
+      "description": "Unit tests, integration tests, doc tests, test organization, benchmarks, and documentation with rustdoc.",
+      "type": "lesson",
+      "order": 17,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "rust/rs-17-testing"
+      ]
+    },
+    {
+      "slug": "rs-18-macros",
+      "title": "Macros",
+      "description": "Declarative macros (macro_rules!), procedural macros, derive macros, attribute macros, and function-like macros.",
+      "type": "lesson",
+      "order": 18,
+      "duration": "75 min",
+      "difficulty": "expert",
+      "knowledge_refs": [
+        "rust/rs-18-macros"
+      ]
+    },
+    {
+      "slug": "rs-19-performance",
+      "title": "Performance and Optimization",
+      "description": "Profiling with perf/flamegraph, release optimizations, SIMD, inlining, and benchmark-driven optimization.",
+      "type": "lesson",
+      "order": 19,
+      "duration": "60 min",
+      "difficulty": "expert",
+      "knowledge_refs": [
+        "rust/rs-19-performance"
+      ]
+    },
+    {
+      "slug": "rs-20-cli-application",
+      "title": "Building a CLI Application",
+      "description": "Argument parsing with clap, error handling, configuration, logging, testing, and building a complete CLI tool.",
+      "type": "lesson",
+      "order": 20,
+      "duration": "75 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "rust/rs-20-cli-application"
+      ]
+    },
+    {
+      "slug": "rs-21-webassembly",
+      "title": "WebAssembly with Rust",
+      "description": "Compiling to WebAssembly, wasm-pack, wasm-bindgen, web-sys, DOM access, and performance considerations.",
+      "type": "lesson",
+      "order": 21,
+      "duration": "60 min",
+      "difficulty": "expert",
+      "knowledge_refs": [
+        "rust/rs-21-webassembly"
+      ]
     }
   ]
 }

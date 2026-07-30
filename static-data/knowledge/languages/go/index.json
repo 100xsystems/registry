@@ -55,7 +55,7 @@
           "description": "The official interactive tutorial by the Go team. Run code directly in your browser."
         },
         {
-          "title": "freeCodeCamp \u2014 Learn Golang Handbook",
+          "title": "freeCodeCamp — Learn Golang Handbook",
           "url": "https://www.freecodecamp.org/news/learn-golang-handbook/",
           "description": "A comprehensive free handbook from beginner to building real-world backend applications."
         }
@@ -71,7 +71,7 @@
           "description": "A clean structured video deep-dive into writing production-ready Go scripts."
         },
         {
-          "title": "Anthony GG \u2014 Go Tutorials",
+          "title": "Anthony GG — Go Tutorials",
           "url": "https://www.youtube.com/@anthonygg",
           "description": "Practical Go tutorials focusing on web servers, REST APIs, and microservices."
         }
@@ -82,17 +82,17 @@
       "icon": "terminal",
       "items": [
         {
-          "title": "Exercism \u2014 Go Track",
+          "title": "Exercism — Go Track",
           "url": "https://exercism.org/tracks/go",
           "description": "100% free with 165+ coding exercises across 34 concepts with automated analysis."
         },
         {
-          "title": "Codewars \u2014 Go Kata",
+          "title": "Codewars — Go Kata",
           "url": "https://www.codewars.com/",
           "description": "Solve community-created kata in Go across hundreds of difficulty levels."
         },
         {
-          "title": "LeetCode \u2014 Go Support",
+          "title": "LeetCode — Go Support",
           "url": "https://leetcode.com/",
           "description": "Practice algorithms and data structures in Go for interview preparation."
         }
@@ -154,22 +154,256 @@
   ],
   "lessons": [
     {
-      "slug": "fundamentals",
-      "title": "Fundamentals of Go",
-      "description": "Core concepts, syntax, and first steps with Go",
+      "slug": "go-01-getting-started",
+      "title": "Getting Started with Go",
+      "description": "Install Go, set up GOPATH, understand workspaces, write Hello World, and explore the Go toolchain.",
       "type": "lesson",
       "order": 1,
       "duration": "45 min",
-      "difficulty": "beginner"
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "go/go-01-getting-started"
+      ]
     },
     {
-      "slug": "practical-guide",
-      "title": "Practical Go Guide",
-      "description": "Real-world usage, tooling, and ecosystem",
+      "slug": "go-02-variables-types",
+      "title": "Variables, Constants, and Basic Types",
+      "description": "Variable declarations, zero values, constants, iota, basic types, and type conversions.",
       "type": "lesson",
       "order": 2,
       "duration": "60 min",
-      "difficulty": "intermediate"
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "go/go-02-variables-types"
+      ]
+    },
+    {
+      "slug": "go-03-control-flow",
+      "title": "Control Flow: if, for, switch",
+      "description": "For loops, if with statement, switch expressions, type switches, and defer/panic/recover.",
+      "type": "lesson",
+      "order": 3,
+      "duration": "60 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "go/go-03-control-flow"
+      ]
+    },
+    {
+      "slug": "go-04-functions",
+      "title": "Functions and Multiple Return Values",
+      "description": "Function declarations, multiple return values, named returns, variadic functions, closures, and function values.",
+      "type": "lesson",
+      "order": 4,
+      "duration": "60 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "go/go-04-functions"
+      ]
+    },
+    {
+      "slug": "go-05-arrays-slices",
+      "title": "Arrays, Slices, and Range",
+      "description": "Array declarations, slice mechanics (make, append, copy), slice internals, and the range keyword.",
+      "type": "lesson",
+      "order": 5,
+      "duration": "60 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "go/go-05-arrays-slices"
+      ]
+    },
+    {
+      "slug": "go-06-maps-structs",
+      "title": "Maps and Structs",
+      "description": "Map creation and operations, structs, struct embedding, tags, and JSON serialization.",
+      "type": "lesson",
+      "order": 6,
+      "duration": "60 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "go/go-06-maps-structs"
+      ]
+    },
+    {
+      "slug": "go-07-methods-interfaces",
+      "title": "Methods and Interfaces",
+      "description": "Method declarations, pointer vs value receivers, interface types, interface satisfaction, and the empty interface.",
+      "type": "lesson",
+      "order": 7,
+      "duration": "75 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "go/go-07-methods-interfaces"
+      ]
+    },
+    {
+      "slug": "go-08-pointers",
+      "title": "Pointers and Memory",
+      "description": "Pointer types, new function, stack vs heap, escape analysis, and unsafe pointer operations.",
+      "type": "lesson",
+      "order": 8,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "go/go-08-pointers"
+      ]
+    },
+    {
+      "slug": "go-09-errors-panic",
+      "title": "Errors, Panic, and Recover",
+      "description": "The error interface, custom errors, error wrapping, panic/recover, and error handling patterns.",
+      "type": "lesson",
+      "order": 9,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "go/go-09-errors-panic"
+      ]
+    },
+    {
+      "slug": "go-10-packages-modules",
+      "title": "Packages and Modules",
+      "description": "Package declarations, import paths, go modules, versioning, and publishing packages.",
+      "type": "lesson",
+      "order": 10,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "go/go-10-packages-modules"
+      ]
+    },
+    {
+      "slug": "go-11-goroutines",
+      "title": "Goroutines and Concurrency Basics",
+      "description": "Goroutines, goroutine scheduling, concurrency vs parallelism, and basic goroutine patterns.",
+      "type": "lesson",
+      "order": 11,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "go/go-11-goroutines"
+      ]
+    },
+    {
+      "slug": "go-12-channels",
+      "title": "Channels and Select",
+      "description": "Channel types, buffered vs unbuffered, range over channels, select statement, and channel based patterns.",
+      "type": "lesson",
+      "order": 12,
+      "duration": "75 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "go/go-12-channels"
+      ]
+    },
+    {
+      "slug": "go-13-sync-primitives",
+      "title": "Synchronization Primitives",
+      "description": "Mutex, RWMutex, Cond, Once, Pool, atomic operations, and the memory model.",
+      "type": "lesson",
+      "order": 13,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "go/go-13-sync-primitives"
+      ]
+    },
+    {
+      "slug": "go-14-testing",
+      "title": "Testing and Benchmarking",
+      "description": "Test functions, table-driven tests, coverage, benchmarks, profiling, and fuzzing.",
+      "type": "lesson",
+      "order": 14,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "go/go-14-testing"
+      ]
+    },
+    {
+      "slug": "go-15-files-io",
+      "title": "File I/O and the os Package",
+      "description": "Reading/writing files, the io package, bufio for buffered I/O, file system operations, and temporary files.",
+      "type": "lesson",
+      "order": 15,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "go/go-15-files-io"
+      ]
+    },
+    {
+      "slug": "go-16-networking",
+      "title": "Networking: HTTP Server and Client",
+      "description": "net/http server, handlers, middleware, routing, HTTP client, contexts, and REST API patterns.",
+      "type": "lesson",
+      "order": 16,
+      "duration": "75 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "go/go-16-networking"
+      ]
+    },
+    {
+      "slug": "go-17-context-cancellation",
+      "title": "Context and Cancellation",
+      "description": "Context values, cancellation, deadlines, propagating context through goroutines, and context patterns.",
+      "type": "lesson",
+      "order": 17,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "go/go-17-context-cancellation"
+      ]
+    },
+    {
+      "slug": "go-18-reflection-generics",
+      "title": "Reflection and Generics",
+      "description": "The reflect package, type assertions in practice, Go 1.18 generics, constraints, type sets, and when to use each.",
+      "type": "lesson",
+      "order": 18,
+      "duration": "75 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "go/go-18-reflection-generics"
+      ]
+    },
+    {
+      "slug": "go-19-profiling",
+      "title": "Profiling and Optimization",
+      "description": "pprof profiling, CPU and memory profiles, trace analysis, escape analysis, and optimization strategies.",
+      "type": "lesson",
+      "order": 19,
+      "duration": "60 min",
+      "difficulty": "expert",
+      "knowledge_refs": [
+        "go/go-19-profiling"
+      ]
+    },
+    {
+      "slug": "go-20-cli-tools",
+      "title": "Building CLI Tools",
+      "description": "Command-line argument parsing with flag, subcommands, input/output, configuration, and distribution.",
+      "type": "lesson",
+      "order": 20,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "go/go-20-cli-tools"
+      ]
+    },
+    {
+      "slug": "go-21-low-level",
+      "title": "Low-Level Programming and CGo",
+      "description": "The unsafe package, calling C code with cgo, system calls, and interacting with the operating system.",
+      "type": "lesson",
+      "order": 21,
+      "duration": "75 min",
+      "difficulty": "expert",
+      "knowledge_refs": [
+        "go/go-21-low-level"
+      ]
     }
   ]
 }
