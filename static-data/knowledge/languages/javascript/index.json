@@ -159,276 +159,255 @@
   ],
   "lessons": [
     {
-      "slug": "js-beginner-01-values-types-variables",
+      "slug": "js-01-values-types-variables",
       "title": "Values, Types, and Variables",
       "description": "Core JavaScript values — primitives, objects, type system, and variable declarations (var, let, const). Set up your dev environment and write your first program.",
       "type": "lesson",
       "order": 1,
       "duration": "60 min",
       "difficulty": "beginner",
-      "level": "Beginner",
       "knowledge_refs": [
-        "languages/javascript/js-beginner-01-values-types-variables"
+        "languages/javascript/js-01-values-types-variables"
       ]
     },
     {
-      "slug": "js-beginner-02-control-flow",
+      "slug": "js-02-control-flow-operators",
       "title": "Control Flow, Operators, and Expressions",
       "description": "Conditionals, loops, operators, and expression evaluation — the building blocks of program logic.",
       "type": "lesson",
       "order": 2,
       "duration": "60 min",
       "difficulty": "beginner",
-      "level": "Beginner",
       "knowledge_refs": [
-        "languages/javascript/js-beginner-02-control-flow"
+        "languages/javascript/js-02-control-flow-operators"
       ]
     },
     {
-      "slug": "js-beginner-03-functions",
+      "slug": "js-03-functions-basics",
       "title": "Functions: Declarations, Scope, and Arrow Functions",
       "description": "Function declarations, expressions, arrow functions, parameters, and arguments — the core of JS modularity.",
       "type": "lesson",
       "order": 3,
       "duration": "60 min",
       "difficulty": "beginner",
-      "level": "Beginner",
       "knowledge_refs": [
-        "languages/javascript/js-beginner-03-functions"
+        "languages/javascript/js-03-functions-basics"
       ]
     },
     {
-      "slug": "js-beginner-04-objects-arrays",
+      "slug": "js-04-objects-arrays-collections",
       "title": "Objects, Arrays, and Collections",
       "description": "JavaScript objects, arrays, Maps, Sets — creating, accessing, iterating, and manipulating data structures.",
       "type": "lesson",
       "order": 4,
       "duration": "75 min",
       "difficulty": "beginner",
-      "level": "Beginner",
       "knowledge_refs": [
-        "languages/javascript/js-beginner-04-objects-arrays"
+        "languages/javascript/js-04-objects-arrays-collections"
       ]
     },
     {
-      "slug": "js-beginner-05-dom-browser",
+      "slug": "js-05-dom-browser-apis",
       "title": "The DOM and Browser APIs",
       "description": "Document Object Model, DOM manipulation, event handling, and essential browser APIs.",
       "type": "lesson",
       "order": 5,
       "duration": "75 min",
       "difficulty": "beginner",
-      "level": "Beginner",
       "knowledge_refs": [
-        "languages/javascript/js-beginner-05-dom-browser"
+        "languages/javascript/js-05-dom-browser-apis"
       ]
     },
     {
-      "slug": "js-beginner-06-debugging-tools",
+      "slug": "js-06-debugging-tools",
       "title": "Debugging, Errors, and Developer Tools",
       "description": "Browser DevTools, error types, try/catch/finally, stack traces, and debugging strategies.",
       "type": "lesson",
       "order": 6,
       "duration": "45 min",
       "difficulty": "beginner",
-      "level": "Beginner",
       "knowledge_refs": [
-        "languages/javascript/js-beginner-06-debugging-tools"
+        "languages/javascript/js-06-debugging-tools"
       ]
     },
     {
-      "slug": "js-beginner-07-project",
+      "slug": "js-07-beginner-project",
       "title": "Beginner Project: Interactive Web Application",
       "description": "Build a complete interactive web application using all beginner concepts — DOM manipulation, events, arrays, and localStorage.",
       "type": "lesson",
       "order": 7,
       "duration": "120 min",
       "difficulty": "beginner",
-      "level": "Beginner",
       "knowledge_refs": [
-        "languages/javascript/js-beginner-07-project"
+        "languages/javascript/js-07-beginner-project"
       ]
     },
     {
-      "slug": "js-advanced-01-scope-closures",
+      "slug": "js-08-scope-closures",
       "title": "Deep Scope, Hoisting, and Closures",
       "description": "Lexical scope, hoisting mechanics, closure patterns, IIFEs, and the module pattern.",
       "type": "lesson",
       "order": 8,
       "duration": "75 min",
       "difficulty": "intermediate",
-      "level": "Advanced",
       "knowledge_refs": [
-        "languages/javascript/js-advanced-01-scope-closures"
+        "languages/javascript/js-08-scope-closures"
       ]
     },
     {
-      "slug": "js-advanced-02-this-prototypes-classes",
+      "slug": "js-09-this-prototypes-classes",
       "title": "The `this` Keyword, Prototypes, and Classes",
       "description": "The `this` binding rules, prototype chain inheritance, and the ES6 class syntax — understanding JavaScript's unique object model.",
       "type": "lesson",
       "order": 9,
       "duration": "75 min",
       "difficulty": "intermediate",
-      "level": "Advanced",
       "knowledge_refs": [
-        "languages/javascript/js-advanced-02-this-prototypes-classes"
+        "languages/javascript/js-09-this-prototypes-classes"
       ]
     },
     {
-      "slug": "js-advanced-03-async-promises",
+      "slug": "js-10-async-promises",
       "title": "Asynchronous JavaScript: Promises and Async/Await",
       "description": "Promises, async/await, error handling in async code, and the evolution of asynchronous patterns in JavaScript.",
       "type": "lesson",
       "order": 10,
       "duration": "75 min",
       "difficulty": "intermediate",
-      "level": "Advanced",
       "knowledge_refs": [
-        "languages/javascript/js-advanced-03-async-promises"
+        "languages/javascript/js-10-async-promises"
       ]
     },
     {
-      "slug": "js-advanced-04-event-loop-concurrency",
+      "slug": "js-11-event-loop-concurrency",
       "title": "The Event Loop, Microtasks, and Concurrency",
       "description": "How the JavaScript event loop works: call stack, task queues, microtasks, requestAnimationFrame, and concurrent execution models.",
       "type": "lesson",
       "order": 11,
       "duration": "60 min",
       "difficulty": "intermediate",
-      "level": "Advanced",
       "knowledge_refs": [
-        "languages/javascript/js-advanced-04-event-loop-concurrency"
+        "languages/javascript/js-11-event-loop-concurrency"
       ]
     },
     {
-      "slug": "js-advanced-05-higher-order-generators",
+      "slug": "js-12-higher-order-generators",
       "title": "Higher-Order Functions, Iterators, and Generators",
       "description": "Functional programming patterns, custom iterables, generator functions, and async generators.",
       "type": "lesson",
       "order": 12,
       "duration": "60 min",
       "difficulty": "intermediate",
-      "level": "Advanced",
       "knowledge_refs": [
-        "languages/javascript/js-advanced-05-higher-order-generators"
+        "languages/javascript/js-12-higher-order-generators"
       ]
     },
     {
-      "slug": "js-advanced-06-modules-syntax",
+      "slug": "js-13-modules-syntax",
       "title": "ES6+ Modules and Modern Syntax",
       "description": "ES modules, modern syntax features (optional chaining, nullish coalescing, logical assignment), and the evolution of JavaScript.",
       "type": "lesson",
       "order": 13,
       "duration": "60 min",
       "difficulty": "intermediate",
-      "level": "Advanced",
       "knowledge_refs": [
-        "languages/javascript/js-advanced-06-modules-syntax"
+        "languages/javascript/js-13-modules-syntax"
       ]
     },
     {
-      "slug": "js-advanced-07-project",
+      "slug": "js-14-advanced-project",
       "title": "Advanced Project: Real-Time Data Dashboard",
       "description": "Build a real-time data dashboard using async/await, fetch, event-driven architecture, and data visualization.",
       "type": "lesson",
       "order": 14,
       "duration": "120 min",
       "difficulty": "intermediate",
-      "level": "Advanced",
       "knowledge_refs": [
-        "languages/javascript/js-advanced-07-project"
+        "languages/javascript/js-14-advanced-project"
       ]
     },
     {
-      "slug": "js-expert-01-coercion-equality",
-      "title": "Type Coercion, Equality, and Grammar Deep Dive",
+      "slug": "js-15-coercion-equality",
+      "title": "Type Coercion, Equality, and Grammar",
       "description": "The ECMAScript specification algorithms for type coercion, abstract equality, and the syntactic grammar of JavaScript.",
       "type": "lesson",
       "order": 15,
       "duration": "60 min",
       "difficulty": "expert",
-      "level": "Expert",
       "knowledge_refs": [
-        "languages/javascript/js-expert-01-coercion-equality"
+        "languages/javascript/js-15-coercion-equality"
       ]
     },
     {
-      "slug": "js-expert-02-memory-performance",
+      "slug": "js-16-memory-performance",
       "title": "Memory Management, GC, and Performance",
       "description": "JavaScript memory management, garbage collection algorithms, memory leak patterns, and performance optimization techniques.",
       "type": "lesson",
       "order": 16,
       "duration": "75 min",
       "difficulty": "expert",
-      "level": "Expert",
       "knowledge_refs": [
-        "languages/javascript/js-expert-02-memory-performance"
+        "languages/javascript/js-16-memory-performance"
       ]
     },
     {
-      "slug": "js-expert-03-metaprogramming",
+      "slug": "js-17-metaprogramming",
       "title": "Metaprogramming: Proxy, Reflect, and Symbols",
       "description": "Metaprogramming with Proxy, Reflect API, well-known Symbols, and property descriptors — intercepting and customizing language-level operations.",
       "type": "lesson",
       "order": 17,
       "duration": "60 min",
       "difficulty": "expert",
-      "level": "Expert",
       "knowledge_refs": [
-        "languages/javascript/js-expert-03-metaprogramming"
+        "languages/javascript/js-17-metaprogramming"
       ]
     },
     {
-      "slug": "js-expert-04-error-patterns",
-      "title": "Error Handling Patterns and Defensive Programming",
+      "slug": "js-18-error-patterns",
+      "title": "Error Handling and Defensive Programming",
       "description": "Robust error handling strategies, custom error types, defensive programming, and fault-tolerant design patterns.",
       "type": "lesson",
       "order": 18,
       "duration": "45 min",
       "difficulty": "expert",
-      "level": "Expert",
       "knowledge_refs": [
-        "languages/javascript/js-expert-04-error-patterns"
+        "languages/javascript/js-18-error-patterns"
       ]
     },
     {
-      "slug": "js-expert-05-browser-apis-workers",
+      "slug": "js-19-browser-apis-workers",
       "title": "Browser APIs, Web Workers, and Performance",
       "description": "Service Workers, IndexedDB, WebSockets, Canvas, WebRTC, and advanced browser performance optimization.",
       "type": "lesson",
       "order": 19,
       "duration": "60 min",
       "difficulty": "expert",
-      "level": "Expert",
       "knowledge_refs": [
-        "languages/javascript/js-expert-05-browser-apis-workers"
+        "languages/javascript/js-19-browser-apis-workers"
       ]
     },
     {
-      "slug": "js-expert-06-module-systems-bundlers",
-      "title": "Module Systems, Bundlers, and Build Pipelines",
+      "slug": "js-20-module-systems",
+      "title": "Module Systems, Bundlers, and Pipelines",
       "description": "Deep dive into module resolution algorithms, bundler internals, tree-shaking, code splitting, and modern build tooling.",
       "type": "lesson",
       "order": 20,
       "duration": "60 min",
       "difficulty": "expert",
-      "level": "Expert",
       "knowledge_refs": [
-        "languages/javascript/js-expert-06-module-systems-bundlers"
+        "languages/javascript/js-20-module-systems"
       ]
     },
     {
-      "slug": "js-expert-07-ecmascript-spec-tc39",
-      "title": "ECMAScript Specification, TC39, and Future Proposals",
+      "slug": "js-21-ecmascript-spec",
+      "title": "ECMAScript Spec, TC39, and Future Proposals",
       "description": "Navigating the ECMAScript specification, the TC39 standardization process, reading spec algorithms, and exploring future proposals.",
       "type": "lesson",
       "order": 21,
       "duration": "60 min",
       "difficulty": "expert",
-      "level": "Expert",
       "knowledge_refs": [
-        "languages/javascript/js-expert-07-ecmascript-spec-tc39"
+        "languages/javascript/js-21-ecmascript-spec"
       ]
     }
   ]
