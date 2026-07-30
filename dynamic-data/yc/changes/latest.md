@@ -1,104 +1,49 @@
 # YC Company Changes for 2026-07-30
 
-- Previous total: 6101
-- Current total: 6106
-- Added: 5
+- Previous total: 6106
+- Current total: 6107
+- Added: 1
 - Removed: 0
-- Updated: 19
+- Updated: 7
 
 
 ## Added Companies
 
-- [OpenVector](https://www.ycombinator.com/companies/openvector) (Summer 2026) — AI that turns any camera into an active operator with real-time vision
-- [COACH](https://www.ycombinator.com/companies/ai-coach) (Summer 2026) — The AI Coach for in person sales reps.
-- [Stoa](https://www.ycombinator.com/companies/stoa) (Summer 2026) — The market behind AI hardware.
-- [Stratum Industries](https://www.ycombinator.com/companies/stratum-industries) (Summer 2026) — AI agents that clear the U.S. government backlog.
-- [Luca IQ](https://www.ycombinator.com/companies/luca-iq) (Summer 2026) — API First Tax Calculator for CPAs
+- [Lambda Robotics](https://www.ycombinator.com/companies/lambda-robotics) (Fall 2026) — Robotics for AI Infrastructure
 
 ## Updated Companies
 
-### [Arc](https://www.ycombinator.com/companies/arc-2)
+### [Version Story Compare](https://www.ycombinator.com/companies/version-story-compare)
 
-- `status`: Active → Acquired
-- `stage`: Growth → Early
-
-### [PropelAuth](https://www.ycombinator.com/companies/propelauth)
-
-- `isHiring`: true → false
-
-### [Mulligan](https://www.ycombinator.com/companies/mulligan)
-
-- `status`: Active → Acquired
-
-### [Onshore](https://www.ycombinator.com/companies/onshore)
-
-- `stage`: Growth → Early
-
-### [SID](https://www.ycombinator.com/companies/sid)
-
-- `team_size`: 4 → 7
-
-### [Garage](https://www.ycombinator.com/companies/garage-2)
-
-- `stage`: Growth → Early
-
-### [Corgi Insurance](https://www.ycombinator.com/companies/corgi-insurance)
-
-- `team_size`: 200 → 250
-- `tags`: Fintech,Insurance,AI → Artificial Intelligence,Fintech,Insurance
-- `stage`: Growth → Early
-
-### [Oway](https://www.ycombinator.com/companies/oway)
-
-- `tags`: Artificial Intelligence,B2B,Logistics,Infrastructure → B2B,API,Supply Chain,Infrastructure,AI
-
-### [Laminar](https://www.ycombinator.com/companies/laminar-com)
-
-- `isHiring`: false → true
-
-### [HealthKey](https://www.ycombinator.com/companies/healthkey)
-
-- `isHiring`: true → false
-
-### [Bramante](https://www.ycombinator.com/companies/bramante)
-
-- `one_liner`: Life sciences instrument and reagent manufacturing → Life sciences reagents and software
-- `tags`: Biotech,Manufacturing,AI → Artificial Intelligence,Biotech,Manufacturing
-
-### [Pingo](https://www.ycombinator.com/companies/pingo)
-
-- `isHiring`: true → false
+- `name`: Version Story → Version Story Compare
+- `slug`: version-story → version-story-compare
+- `former_names`:  → Version Story
+- `one_liner`: GitHub for lawyers → Claude Redlining Plugin
+- `tags`: Artificial Intelligence,SaaS,B2B,Legal,LegalTech → SaaS,B2B,Legal,LegalTech,AI
 
 ### [Async](https://www.ycombinator.com/companies/withasync)
 
-- `one_liner`: Skilled Digital Labor for Small Businesses → Long Horizon Agents
-- `tags`: B2B,AI → Artificial Intelligence,B2B
-
-### [Koyal](https://www.ycombinator.com/companies/koyal)
-
-- `isHiring`: false → true
-
-### [Parameter (fka Hex Security)](https://www.ycombinator.com/companies/parameter-fka-hex-security)
-
-- `name`: Hex Security → Parameter (fka Hex Security)
-- `slug`: hex-security → parameter-fka-hex-security
-- `former_names`: Anytool → Anytool,Hex Security,Parameter
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/814cf30167622bfb5c6d35815a24f51d91529f3b.png → https://bookface-images.s3.amazonaws.com/small_logos/10c4b553697048031ea44635278f71a342e7f4dc.png
-- `website`: https://hex.co?utm_source=bookface&utm_medium=referral&utm_campaign=hex-security-profile → https://parameter.ai?utm_source=ycombinator&utm_medium=referral&utm_campaign=parameter-profile
-
-### [Litmus](https://www.ycombinator.com/companies/litmus-hiring)
-
-- `team_size`: 4 → 3
+- `tags`: Artificial Intelligence,B2B → B2B,AI
 
 ### [Cardinal](https://www.ycombinator.com/companies/trycardinal-ai)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/22419d42fabae470d3d3521bb8906e6552b1d0f1.png → https://bookface-images.s3.amazonaws.com/small_logos/d43ea540df5b52aa22859c18efe346d103078bc1.png
-- `one_liner`: AI Platform for Precision Outbound → Revenue Agents for GTM teams
+- `website`: https://trycardinal.ai/ → https://trycardinal.com
 
-### [Drip](https://www.ycombinator.com/companies/drippay)
+### [Kebra](https://www.ycombinator.com/companies/kebra)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/6a200f7dd92eb8502bc67be24771887da99cbcfb.png → https://bookface-images.s3.amazonaws.com/small_logos/8eec4067ada1ceb62324834a6da7831196618472.png
+- `tags`: AIOps,AI → Artificial Intelligence,B2B,Home Services,Operations
 
-### [machine0](https://www.ycombinator.com/companies/machine0)
+### [Risklytics](https://www.ycombinator.com/companies/risklytics)
 
-- `one_liner`: One command gives your agent its own cloud computer → Cloud computers for AI agents
+- `one_liner`: Commercial Brokerage for Frontier Tech → Commercial Insurance Brokerage for Frontier Tech
+- `tags`: Artificial Intelligence,Machine Learning,Real Estate,B2B,Insurance → Machine Learning,Real Estate,B2B,Insurance,AI
+
+### [Luca IQ](https://www.ycombinator.com/companies/luca-iq)
+
+- `team_size`: 4 → 5
+- `tags`: B2B → Artificial Intelligence,B2B,API,Infrastructure
+
+### [Dock](https://www.ycombinator.com/companies/dock)
+
+- `launched_at`: 1780463729 → 1785286566
+- `tags`: Artificial Intelligence,B2B → B2B,AI
