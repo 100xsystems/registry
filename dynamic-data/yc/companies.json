@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-07-29T19:02:01.835Z",
-  "count": 6101,
+  "fetchedAt": "2026-07-30T02:24:04.006Z",
+  "count": 6106,
   "companies": [
     {
       "id": 33936,
@@ -2289,6 +2289,47 @@
       "url": "https://www.ycombinator.com/companies/last-accounting-company"
     },
     {
+      "id": 32848,
+      "name": "Luca IQ",
+      "slug": "luca-iq",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/05718bc482e46fde4208c29e7eef28f2f4b686e7.png",
+      "website": "https://lucaiq.com/",
+      "all_locations": "Boston, MA, USA",
+      "long_description": "Luca IQ is an API for deterministic tax calculation and an IRS Authorized e-filing engine - the foundation for accounting firms and fintechs building on tax.",
+      "one_liner": "API First Tax Calculator for CPAs",
+      "team_size": 4,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "B2B",
+      "subindustry": "B2B -> Finance and Accounting",
+      "launched_at": 1785364349,
+      "tags": [
+        "B2B"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Summer 2026",
+      "status": "Active",
+      "industries": [
+        "B2B",
+        "Finance and Accounting"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/luca-iq"
+    },
+    {
       "id": 32814,
       "name": "Computable",
       "slug": "computable",
@@ -3301,7 +3342,7 @@
       "website": "https://machine0.io",
       "all_locations": "Paris, Île-de-France, France",
       "long_description": "machine0 is a CLI for agent compute: `machine0 new mybox` gives your agent a full cloud VM, billed by the minute, from small up to 60 vCPU / 240 GB and 8×H100s. Agents drive it themselves via CLI or MCP.\r\n\r\nAgent workloads are moving from ephemeral to always-on. A coding agent working on a hard feature runs 6-8 hours. Auto-research agents run for days. machine0 is the environment in which these agents run.",
-      "one_liner": "One command gives your agent its own cloud computer",
+      "one_liner": "Cloud computers for AI agents",
       "team_size": 1,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -3425,6 +3466,50 @@
       "url": "https://www.ycombinator.com/companies/flowmanual"
     },
     {
+      "id": 32523,
+      "name": "Stratum Industries",
+      "slug": "stratum-industries",
+      "former_names": [
+        "Stratum"
+      ],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/0cc8b5375c42033d862e128777c8909550381c8d.png",
+      "website": "https://stratumindustries.co/",
+      "all_locations": "New York City, NY, USA",
+      "long_description": "Stratum builds AI agents that clear the U.S. government backlog. Every permit, license, patent, drug approval, and benefits claim in America has to be reviewed by a government adjudicator and the software they rely on was built decades before AI. The result is millions of applications stuck in queues: veterans waiting on disability ratings, families waiting on pensions, builders waiting years to break ground.\r\n\r\nStratum replaces that workflow. A reviewer drops in an application, selects the rubric it needs to be checked against, and an agent plans, executes, and reviews the file end to end routing each step to the right model for the most accurate and cost-efficient decision. Hundreds of agents run in parallel in the cloud, with a human kept in the loop to approve and full auditability at every step, so an entire backlog can be cleared in the time it used to take to review a single file.\r\n\r\nWe're rebuilding the entire infrastructure the government runs on both the reviewer side and the applicant side - so filing and adjudication become instant instead of taking weeks.\r\n\r\nWe're Vihaan and Raj, brothers. Vihaan was founding engineer #3 at Cadastral (acquired by Legora) and dropped out of Waterloo to build Stratum. Raj led GTM at Deel, averaging 220% of quota over two years and ranking top 5 of 1,000+ reps globally, and dropped out of grad school at the University of Bath to build Stratum.",
+      "one_liner": "AI agents that clear the U.S. government backlog.",
+      "team_size": 2,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "Government",
+      "subindustry": "Government",
+      "launched_at": 1779249983,
+      "tags": [
+        "GovTech",
+        "Automation",
+        "AI"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Summer 2026",
+      "status": "Active",
+      "industries": [
+        "Government"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": true,
+      "url": "https://www.ycombinator.com/companies/stratum-industries"
+    },
+    {
       "id": 32521,
       "name": "Molagri",
       "slug": "molagri",
@@ -3521,7 +3606,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/244ddf9b0965c4c601170d71dd660ad1a89f8792.png",
       "website": "https://agencytool.com",
       "all_locations": "Denver, CO, USA",
-      "long_description": "Agency Tool Company ships software to robots in the field 20x faster than a Docker pull with ATC Deploy, sending only the bytes that changed and resuming when the network drops. Deployment tooling is the connection between the lab & the field that continually bottlenecks robotics scaling and lacks a strong robotics-native solution. Deploy is live today with 3 launch partners across ag, construction, and logistics robotics.\r\n\r\nOur second product, ATC Build, offers embedded-compute as a CI service so devs can run tests and validate their software on the actual target hardware. Build supports the Nvidia Jetson lineup, Raspberry Pi, and a number of other embedded platform targets.\r\n\r\nJack Morrison and Davis Foster founded and sold Scythe Robotics after deploying hundreds of autonomous mowers across the country; Agency Tool Company is building the robotics deployment platform across hardware and software they wish they had.",
+      "long_description": "Agency Tool Company ships software to robots in the field 20x faster than a Docker pull with ATC Deploy, sending only the bytes that changed and resuming when the network drops. Deployment tooling is the connection between the lab & the field that continually bottlenecks robotics scaling and lacks a strong robotics-native solution. Deploy is live today with 3 launch partners across ag, construction, and logistics robotics.\r\n\r\nOur second product, ATC Build, offers embedded-compute as a CI service so devs can run tests and validate their software on the actual target hardware. Build supports the Nvidia Jetson lineup, Raspberry Pi, and a number of other embedded platform targets.\r\n\r\nJack Morrison and Davis Foster founded and sold Scythe Robotics after deploying hundreds of autonomous mowers across the country; Agency Tool Company is building the robotics deployment platform across hardware and software they wish they had.\r\n\r\nLearn more at https://agencytool.com",
       "one_liner": "Reliable infrastructure to build, deploy and manage real-world robots.",
       "team_size": 3,
       "highlight_black": false,
@@ -4007,6 +4092,50 @@
       "url": "https://www.ycombinator.com/companies/glen"
     },
     {
+      "id": 32225,
+      "name": "Stoa",
+      "slug": "stoa",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/cf71f2bfca9f3f554d22c43f0dfd7b1a38171535.png",
+      "website": "https://www.stoaexchange.com",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "Stoa provides pricing and trading infrastructure for AI hardware, live with an RFQ marketplace where companies buy and sell GPUs through vetted dealers real-time.",
+      "one_liner": "The market behind AI hardware.",
+      "team_size": 3,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "Fintech",
+      "subindustry": "Fintech",
+      "launched_at": 1785367811,
+      "tags": [
+        "Fintech",
+        "Hardware",
+        "Marketplace",
+        "Infrastructure",
+        "AI"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Summer 2026",
+      "status": "Active",
+      "industries": [
+        "Fintech"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/stoa"
+    },
+    {
       "id": 32223,
       "name": "Marble",
       "slug": "joinmarble",
@@ -4050,6 +4179,53 @@
       "app_answers": null,
       "question_answers": false,
       "url": "https://www.ycombinator.com/companies/joinmarble"
+    },
+    {
+      "id": 32220,
+      "name": "COACH",
+      "slug": "ai-coach",
+      "former_names": [
+        "COΛCH"
+      ],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/78b58d361b887533d84ef36e56f833ff7fd87c5c.png",
+      "website": "https://www.getcoach.com/",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "Coach is the AI sales coach for in-person sales teams.\r\n\r\nReps record every meeting, and our AI figures out what your best closers do differently, then coaches everyone else to do the same, with precise, personalized feedback after every meeting. \r\n\r\nManagers finally see 100% of what happens in the field: Coach flags who's stuck and why, so they only step in when it matters, and can coach 5× more reps.\r\n\r\nAnd every meeting feeds one sales brain, so leadership finally gets answers to the questions that used to be guesswork. They finally see the game of their team not just the scoreboard.\r\n\r\nOur bet: in the AI era, in-person sales will only matter more. It may end up being one of the last truly human jobs.\r\n\r\nOur conviction: any motivated rep can become a great one, meeting after meeting.\r\n\r\nThe results so far: +32% average lift in conversion rate.\r\n\r\nCOΛCH, post-game video analysis for field sales reps. YC S26\r\n",
+      "one_liner": "The AI Coach for in person sales reps.",
+      "team_size": 4,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "B2B",
+      "subindustry": "B2B -> Sales",
+      "launched_at": 1785353697,
+      "tags": [
+        "Artificial Intelligence",
+        "SaaS",
+        "B2B",
+        "Sales",
+        "Sales Enablement"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": true,
+      "nonprofit": false,
+      "batch": "Summer 2026",
+      "status": "Active",
+      "industries": [
+        "B2B",
+        "Sales"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/ai-coach"
     },
     {
       "id": 32204,
@@ -5029,7 +5205,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/1db7948d6861e68f3fa79c81509a04c4aea01614.png",
       "website": "https://karalabs.ai/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "We grow high-purity diamond wafers for advanced hardware. Used in aircraft, spacecraft, RF electronics, power devices, and lasers, our diamond moves heat up to 5× better than copper, helping critical systems run cooler, faster, and more reliably. Diamond has spent centuries as a symbol. We are turning it into infrastructure.",
+      "long_description": "We grow high-purity diamond wafers for advanced hardware. Used in data centers, aircraft, spacecraft, RF electronics, power devices, and lasers, our diamond moves heat up to 5× better than copper, helping critical systems run cooler, faster, and more reliably. Diamond has spent centuries as a symbol. We are turning it into infrastructure.",
       "one_liner": "Making diamond an engineering material",
       "team_size": 3,
       "highlight_black": false,
@@ -10742,10 +10918,10 @@
       "name": "Drip",
       "slug": "drippay",
       "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/6a200f7dd92eb8502bc67be24771887da99cbcfb.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/8eec4067ada1ceb62324834a6da7831196618472.png",
       "website": "https://usedrip.ai",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "drip finds the leads, sends first messages, follows up, and books meetings autonomously. Every conversation syncs for your team.",
+      "long_description": "drip autonomously finds leads, sends first messages, follows up, and books meetings. Every conversation syncs for your team.",
       "one_liner": "Never miss a lead",
       "team_size": 2,
       "highlight_black": false,
@@ -13337,11 +13513,11 @@
       "name": "Cardinal",
       "slug": "trycardinal-ai",
       "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/22419d42fabae470d3d3521bb8906e6552b1d0f1.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/d43ea540df5b52aa22859c18efe346d103078bc1.png",
       "website": "https://trycardinal.ai/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Hey YC! We're Devi and Jianna - the founders of Cardinal.\r\n\r\nTL;DR: Cardinal is the AI platform for precision outbound. We run outbound for 40+ YC companies, like Mintlify, Greptile, and Luminai.\r\n\r\nThe Problem\r\n\r\n“Spray and Pray” outbound is dead. The best teams at outbound do it with extreme precision. Finding things in common with your customers, staying in touch with them through their content, mapping inbound from signups and ads, tracking website visitors, monitoring various signals, etc. This sounds great in theory, but in reality involves stringing together 10+ tools and hiring a GTM engineer.\r\n\r\nThat’s where Cardinal comes in.\r\n\r\nCardinal is an AI platform for precision outbound. Our agents can create workflows that normally require the work of fulltime GTM engineers.\r\n\r\nIf you're a founder or sales leader looking to bring AI into your sales org, would love to chat!",
-      "one_liner": "AI Platform for Precision Outbound",
+      "long_description": "Hey YC! We're Devi and Jianna - the founders of Cardinal.\r\n\r\nHey guys! We’re launching Cardinal publicly today - co’s like Mintlify, Deepgram, Giga, etc. use us to build revenue agents & design how they sell. \r\n\r\nThe Problem\r\n\r\n“Spray and Pray” outbound is dead. The best teams at outbound do it with extreme precision. Finding things in common with your customers, staying in touch with them through their content, mapping inbound from signups and ads, tracking website visitors, monitoring various signals, etc. This sounds great in theory, but in reality involves stringing together 10+ tools and hiring a GTM engineer.\r\n\r\nThat’s where Cardinal comes in.\r\n\r\nCardinal is an AI platform for precision outbound. Our agents can create workflows that normally require the work of fulltime GTM engineers.\r\n\r\nIf you're a founder or sales leader looking to bring AI into your sales org, would love to chat!",
+      "one_liner": "Revenue Agents for GTM teams",
       "team_size": 0,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -13466,7 +13642,7 @@
       "all_locations": "New York City, NY, USA",
       "long_description": "Litmus is the most accurate read on how an engineer actually builds. We evaluate candidates through async technical assessments built from your own tech context (repos, tickets, and job descriptions), generated from scratch and scoped as real end-to-end features. Candidates work in their own setup with all their tools including AI, while we track and evaluate their process and output. Every submission runs in a sandbox, and grading is tuned to your company across tool fluency, process, and outcome. You get a real read on how someone actually builds, not just how they interview.",
       "one_liner": "Run an async work trial on every engineer you interview.",
-      "team_size": 4,
+      "team_size": 3,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -13576,6 +13752,54 @@
       "app_answers": null,
       "question_answers": false,
       "url": "https://www.ycombinator.com/companies/remix-3"
+    },
+    {
+      "id": 31301,
+      "name": "OpenVector",
+      "slug": "openvector",
+      "former_names": [
+        "TeleOps",
+        "BotZero",
+        "Foveal"
+      ],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/54df715903ce304e2b9e3b2fe1f375caf7811ea6.png",
+      "website": "https://openvector.com",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "OpenVector transforms existing security cameras into an automated 24/7 workforce without requiring any new hardware. Users simply describe a task in plain English, and OpenVector automatically builds a custom AI vision model to monitor the feed. When it detects an important physical event—like a stalled production cycle, a safety violation, or a waiting customer—it operates a computer just like a human to take immediate action. It integrates with legacy systems to make calls, send emails, update a POS/CRM, or trigger webhooks in real time. OpenVector enables any camera to do real work.",
+      "one_liner": "AI that turns any camera into an active operator with real-time vision",
+      "team_size": 4,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "B2B",
+      "subindustry": "B2B -> Infrastructure",
+      "launched_at": 1785369468,
+      "tags": [
+        "Robotics",
+        "Computer Vision",
+        "Infrastructure",
+        "Industrial"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Summer 2026",
+      "status": "Active",
+      "industries": [
+        "B2B",
+        "Infrastructure"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/openvector"
     },
     {
       "id": 31300,
@@ -17779,15 +18003,17 @@
     },
     {
       "id": 31174,
-      "name": "Hex Security",
-      "slug": "hex-security",
+      "name": "Parameter (fka Hex Security)",
+      "slug": "parameter-fka-hex-security",
       "former_names": [
-        "Anytool"
+        "Anytool",
+        "Hex Security",
+        "Parameter"
       ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/814cf30167622bfb5c6d35815a24f51d91529f3b.png",
-      "website": "https://hex.co?utm_source=bookface&utm_medium=referral&utm_campaign=hex-security-profile",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/10c4b553697048031ea44635278f71a342e7f4dc.png",
+      "website": "https://parameter.ai?utm_source=ycombinator&utm_medium=referral&utm_campaign=parameter-profile",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Hex Security builds AI agents that run continuous penetration tests against your apps and infrastructure. Instead of a once-a-year penetration test, Hex Security's agents works 24/7 to find and verify critical vulnerabilities so you can prevent them before attackers.",
+      "long_description": "Parameter builds AI agents that run continuous penetration tests against your apps and infrastructure. Instead of a once-a-year penetration test, Hex Security's agents works 24/7 to find and verify critical vulnerabilities so you can prevent them before attackers.\r\n\r\nFormerly Hex Security",
       "one_liner": "Agentic Offensive Security at Scale",
       "team_size": 10,
       "highlight_black": false,
@@ -17816,7 +18042,7 @@
       "demo_day_video_public": false,
       "app_answers": null,
       "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/hex-security"
+      "url": "https://www.ycombinator.com/companies/parameter-fka-hex-security"
     },
     {
       "id": 31173,
@@ -27249,7 +27475,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": false,
+      "isHiring": true,
       "nonprofit": false,
       "batch": "Fall 2025",
       "status": "Active",
@@ -34069,8 +34295,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/1c746a958222a919c90dfff3a0cd3a949fa81bcc.png",
       "website": "https://withasync.com",
       "all_locations": "New York City, NY, USA",
-      "long_description": "Async builds skilled digital labor that changes how small businesses run. Law firms, healthcare clinics and real estate companies hire our AI agents to automate work that's never been economical to staff with humans, letting us capture labor spend that didn't previously exist.",
-      "one_liner": "Skilled Digital Labor for Small Businesses",
+      "long_description": "Async builds digital labor that changes how small businesses run. Law firms, healthcare clinics and real estate companies hire our AI agents to automate work complex that's never been economical to staff with humans, letting us capture labor spend that didn't previously exist.",
+      "one_liner": "Long Horizon Agents",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -34079,8 +34305,8 @@
       "subindustry": "B2B",
       "launched_at": 1750879126,
       "tags": [
-        "B2B",
-        "AI"
+        "Artificial Intelligence",
+        "B2B"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -36290,7 +36516,7 @@
       "tags": [],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": true,
+      "isHiring": false,
       "nonprofit": false,
       "batch": "Summer 2025",
       "status": "Active",
@@ -38144,8 +38370,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/d13627b06670d3337bda071d8e7bccb8d6728ffd.png",
       "website": "https://www.bramantebio.com",
       "all_locations": "Boston, MA, USA",
-      "long_description": "We manufacturing instruments and reagents that are purpose built for AI, automated labs, and personalized medicines.",
-      "one_liner": "Life sciences instrument and reagent manufacturing",
+      "long_description": "We make reagents and software that are purpose built for AI, automated labs, and personalized medicines.",
+      "one_liner": "Life sciences reagents and software",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -38154,9 +38380,9 @@
       "subindustry": "Industrials -> Manufacturing and Robotics",
       "launched_at": 1747846039,
       "tags": [
+        "Artificial Intelligence",
         "Biotech",
-        "Manufacturing",
-        "AI"
+        "Manufacturing"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -46845,7 +47071,7 @@
       "tags": [],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": true,
+      "isHiring": false,
       "nonprofit": false,
       "batch": "Winter 2025",
       "status": "Active",
@@ -50373,7 +50599,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": false,
+      "isHiring": true,
       "nonprofit": false,
       "batch": "Fall 2024",
       "status": "Active",
@@ -56029,7 +56255,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/a3e196a71b4a93ad7200cf278186954bda68e7e3.png",
       "website": "https://www.shipoway.com",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "America is operating at half of its potential industrial supply chain efficiency, with 50% of all the truck space being left empty due to foundational issues with how the logistics industry historically works. This issue directly makes everything made and sold in America more expensive and less competitive against global competitors. \r\n\r\nOway is building a new vertical in the industrial supply chain by indexing live unused truck space and make it usable via API - a transparent infrastructure layer that simply by existing boosts the productivity and market caps of the businesses that plug into it. For the broad economy, this means freight costs that are up to 50% lower than what was previously possible, touchpoints are reduced, damage rates are significantly lowered, and inventory float is minimized via new JIT capabilities. For carriers, Oway’s integration can increase annual revenues by up to 30% with minimal impact to their existing business. They simply earn more by monetizing space that would have gone unused.\r\n\r\nOur mission is to transform empty truck space into an asset that strengthens U.S. competitiveness. By lowering the cost of goods sold, we help businesses grow. By improving carrier margins, we make trucking more sustainable. And creating a live index of the supply chain, we are laying the foundation for a resilient, transparent industrial layer that can support America’s reindustrialization in the decades ahead. ",
+      "long_description": "The physical economy still operates without a shared intelligence layer. Every day, millions of trucks move goods while carrying unused capacity, yet no system has a real-time understanding of where capacity exists, how freight should move, or how efficiently the supply chain is operating.\r\n\r\nOway is building that layer by indexing live unused truck capacity and exposing it through APIs and AI agents, transforming fragmented transportation into programmable infrastructure that shippers, brokers, carriers, and software platforms can build on.\r\n\r\nToday, Oway replaces traditional LTL by moving freight directly on trucks already traveling in the right direction. This reduces costs, damage, and transit times while increasing utilization across the supply chain.\r\n\r\nEvery shipment strengthens a live model of freight capacity, pricing, routes, facilities, and industrial efficiency. As the network grows, Oway becomes the intelligence and execution layer for the physical economy, enabling the next generation of enterprise software, autonomous supply chains, robotics, and physical AI.",
       "one_liner": "Turning America’s supply chain inefficiency into infrastructure.",
       "team_size": 16,
       "highlight_black": false,
@@ -56039,10 +56265,11 @@
       "subindustry": "B2B -> Infrastructure",
       "launched_at": 1717601253,
       "tags": [
-        "Artificial Intelligence",
         "B2B",
-        "Logistics",
-        "Infrastructure"
+        "API",
+        "Supply Chain",
+        "Infrastructure",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -63506,7 +63733,7 @@
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Corgi is a full-stack insurance carrier building better, faster insurance products for startups. We’re not a broker, so we underwrite and issue policies directly, with fewer handoffs and less friction. Cutting out intermediaries lets us tailor coverage to how your company actually operates and price risk more efficiently.\r\n\r\n",
       "one_liner": "Corgi is building an AI financial infrastructure company",
-      "team_size": 200,
+      "team_size": 250,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -63514,9 +63741,9 @@
       "subindustry": "Fintech -> Insurance",
       "launched_at": 1720644316,
       "tags": [
+        "Artificial Intelligence",
         "Fintech",
-        "Insurance",
-        "AI"
+        "Insurance"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -63532,7 +63759,7 @@
         "United States of America",
         "America / Canada"
       ],
-      "stage": "Growth",
+      "stage": "Early",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -75009,7 +75236,7 @@
         "Remote",
         "Partly Remote"
       ],
-      "stage": "Growth",
+      "stage": "Early",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -84416,7 +84643,7 @@
       "all_locations": "San Francisco, CA, USA",
       "long_description": "SID is an AI research lab based in San Francisco. We train models that can retrieve and reason over any data source.",
       "one_liner": "AI research lab for retrieval",
-      "team_size": 4,
+      "team_size": 7,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -92620,7 +92847,7 @@
         "Remote",
         "Partly Remote"
       ],
-      "stage": "Growth",
+      "stage": "Early",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -97923,7 +98150,7 @@
       "isHiring": false,
       "nonprofit": false,
       "batch": "Winter 2023",
-      "status": "Active",
+      "status": "Acquired",
       "industries": [
         "B2B"
       ],
@@ -115184,7 +115411,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": true,
+      "isHiring": false,
       "nonprofit": false,
       "batch": "Winter 2022",
       "status": "Active",
@@ -128657,7 +128884,7 @@
       "isHiring": false,
       "nonprofit": false,
       "batch": "Winter 2022",
-      "status": "Active",
+      "status": "Acquired",
       "industries": [
         "Fintech"
       ],
@@ -128667,7 +128894,7 @@
         "Remote",
         "Partly Remote"
       ],
-      "stage": "Growth",
+      "stage": "Early",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,

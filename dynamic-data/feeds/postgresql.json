@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-07-29T19:01:43.950Z",
+  "updatedAt": "2026-07-30T02:23:30.271Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -393,7 +393,23 @@
       "summary": "DBeaver recently introduced interactive chat capabilities into the free, open-source Community Edition. What does that mean? \nIt means some of your database tasks can be accomplished significantly faster! \nFirst, you can ask for information without coding SQL. I love Structured Query Language, but…",
       "author": null,
       "publishedAt": "2026-07-29T16:07:34.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9qM",
+      "title": "Christophe Pettus: All Your GUCs in a Row: hba_file",
+      "link": "https://postgr.es/p/9qM",
+      "summary": "hba_file points to your authentication rules, not the rules themselves. Reload changes to pg_hba.conf instantly; restart when moving the file.",
+      "author": null,
+      "publishedAt": "2026-07-30T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9qJ",
+      "title": "Sehrope Sarkuni: Introducing pg-java, a new PostgreSQL driver for the JVM",
+      "link": "https://postgr.es/p/9qJ",
+      "summary": "Background\nWhy a new driver\nThings you won't find in other Java drivers\nBatch INSERT rewritten to array parameters\nA real pipelining API\nIt won't hand your password to an unencrypted socket\nThe public API surface is a file that the build enforces\nSmall other stuff\nPerformance\nAbout that \"written by…",
+      "author": null,
+      "publishedAt": "2026-07-29T04:00:00.000Z"
     }
   ],
-  "totalIndexed": 48
+  "totalIndexed": 50
 }
