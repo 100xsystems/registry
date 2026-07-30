@@ -1,90 +1,52 @@
 ---
 title: "File I/O and NIO"
-description: "java.io basics, java.nio.file for modern I/O, reading/writing files, path operations, and file system traversal."
+description: "java.io basics, java.nio.file, reading/writing files, file system operations."
 type: lesson
 order: 11
 duration: "60 min"
 difficulty: intermediate
 learning_objectives:
-  - "Read and write files with java.io and java.nio"
-  - "Use Paths, Files, and FileVisitor for FS operations"
-  - "Read and write text files with Files and BufferedReaders"
-  - "Work with files, directories, and file attributes"
+  - "Read and write files with java.io and java.nio"\n  - "Use Paths and Files"\n  - "Read/write text files efficiently"\n  - "Work with directories"
 knowledge_refs:
   - java/java-11-io-nio
 prerequisites:
   - "JAVA-10"
 references:
-    - title: "Oracle Tutorials — I/O Streams"
-      url: "https://docs.oracle.com/javase/tutorial/essential/io/streams.html"
-    - title: "Oracle Tutorials — NIO"
-      url: "https://docs.oracle.com/javase/tutorial/essential/io/fileio.html"
-    - title: "Baeldung — Java NIO Guide"
-      url: "https://www.baeldung.com/java-nio-2-file-io"
+    - title: "Oracle - I/O"\n      url: "https://docs.oracle.com/javase/tutorial/essential/io/streams.html"\n    - title: "Oracle - NIO"\n      url: "https://docs.oracle.com/javase/tutorial/essential/io/fileio.html"
 ---
 
 # JAVA-11-IO-NIO: File I/O and NIO
 
-## Introduction
+## Reading Files (NIO)
 
-java.io basics, java.nio.file for modern I/O, reading/writing files, path operations, and file system traversal.
+```java
+Path path = Paths.get("data.txt");
+List<String> lines = Files.readAllLines(path);  // Small files
+String content = Files.readString(path);         // Java 11+
 
-## Learning Objectives
+// Streaming for large files
+try (Stream<String> stream = Files.lines(path)) {
+    stream.filter(l -> l.contains("ERROR"))
+          .forEach(System.out::println);
+}
+```
 
-By the end of this lesson, you will be able to:
+## Writing Files
 
-- Read and write files with java.io and java.nio
-- Use Paths, Files, and FileVisitor for FS operations
-- Read and write text files with Files and BufferedReaders
-- Work with files, directories, and file attributes
+```java
+Files.writeString(Paths.get("out.txt"), "Hello!");
+Files.write(Paths.get("out.txt"), List.of("Line1", "Line2"));
+Files.write(Paths.get("log.txt"), "entry\n".getBytes(),
+    StandardOpenOption.APPEND);
+```
 
-## Key Concepts
+## Directory Operations
 
-### Subtopic 1: Foundation
+```java
+Files.walk(Paths.get("/home/projects"))
+    .filter(p -> p.toString().endsWith(".java"))
+    .forEach(System.out::println);
 
-This section covers the foundational concepts of file i/o and nio. Understanding these core ideas is essential before moving to advanced topics.
+Files.createDirectories(Paths.get("a/b/c"));
+```
 
-**Key points to remember:**
-- Start with the basics and build up systematically
-- Practice each concept with small code examples
-- Refer to the linked resources for deeper dives
-
-### Subtopic 2: Practical Application
-
-Apply the concepts you've learned to solve real problems. Practice is essential for mastery.
-
-**Example approach:**
-1. Write small programs that exercise each concept
-2. Combine concepts to solve more complex problems
-3. Review and refactor your code for clarity
-
-### Subtopic 3: Best Practices and Patterns
-
-Learn the idiomatic patterns and best practices for this topic. Writing clean, maintainable code is a hallmark of an experienced developer.
-
-**Guidelines:**
-- Follow language conventions and style guides
-- Favor clarity over cleverness
-- Test your code thoroughly
-
-## Practice Questions
-
-1. What are the key concepts covered in this lesson?
-2. Write a small program that demonstrates at least two concepts from this lesson.
-3. How would you explain this topic to a fellow developer?
-
-## LLM Prompts for Deeper Understanding
-
-1. "Explain File I/O and NIO with analogies and examples"
-2. "Show me common mistakes beginners make with file i/o and nio"
-3. "Provide advanced patterns and real-world use cases for file i/o and nio"
-
-## Key Takeaways
-
-- Solidify your understanding of file i/o and nio
-- Practice with real code, not just theory
-- Explore the reference resources for in-depth coverage
-
-## Further Reading
-
-Dive deeper into this topic using the reference resources listed in the frontmatter.

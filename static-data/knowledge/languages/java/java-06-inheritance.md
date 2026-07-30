@@ -1,90 +1,66 @@
 ---
 title: "Inheritance and Polymorphism"
-description: "Extending classes, super keyword, method overriding, polymorphism, final classes and methods, and abstract classes."
+description: "Extending classes, super, method overriding, polymorphism, abstract classes."
 type: lesson
 order: 6
 duration: "75 min"
 difficulty: beginner
 learning_objectives:
-  - "Extend classes with the extends keyword"
-  - "Use super to access parent constructors and methods"
-  - "Override methods for polymorphic behavior"
-  - "Create abstract classes and final members"
+  - "Extend classes with extends and super"\n  - "Override methods polymorphically"\n  - "Create abstract classes and final members"\n  - "Understand Liskov Substitution Principle"
 knowledge_refs:
   - java/java-06-inheritance
 prerequisites:
   - "JAVA-05"
 references:
-    - title: "Oracle Tutorials — Inheritance"
-      url: "https://docs.oracle.com/javase/tutorial/java/IandI/subclasses.html"
-    - title: "Oracle Tutorials — Polymorphism"
-      url: "https://docs.oracle.com/javase/tutorial/java/IandI/polymorphism.html"
-    - title: "Oracle Tutorials — Abstract Classes"
-      url: "https://docs.oracle.com/javase/tutorial/java/IandI/abstract.html"
+    - title: "Oracle - Inheritance"\n      url: "https://docs.oracle.com/javase/tutorial/java/IandI/subclasses.html"\n    - title: "Oracle - Polymorphism"\n      url: "https://docs.oracle.com/javase/tutorial/java/IandI/polymorphism.html"
 ---
 
 # JAVA-06-INHERITANCE: Inheritance and Polymorphism
 
-## Introduction
+## Inheritance
 
-Extending classes, super keyword, method overriding, polymorphism, final classes and methods, and abstract classes.
+```java
+public class Animal {
+    protected String name;
+    public Animal(String name) { this.name = name; }
+    public void speak() { System.out.println("Some sound"); }
+}
 
-## Learning Objectives
+public class Dog extends Animal {
+    public Dog(String name) { super(name); }
+    @Override
+    public void speak() { System.out.println(name + " says Woof!"); }
+}
 
-By the end of this lesson, you will be able to:
+// Polymorphism
+Animal myPet = new Dog("Rex");
+myPet.speak();  // "Rex says Woof!"
+```
 
-- Extend classes with the extends keyword
-- Use super to access parent constructors and methods
-- Override methods for polymorphic behavior
-- Create abstract classes and final members
+## Abstract Classes
 
-## Key Concepts
+```java
+public abstract class Shape {
+    protected String color;
+    public Shape(String color) { this.color = color; }
+    public abstract double area();
+    public String getColor() { return color; }
+}
 
-### Subtopic 1: Foundation
+public class Circle extends Shape {
+    private double radius;
+    public Circle(String color, double r) { super(color); this.radius = r; }
+    @Override
+    public double area() { return Math.PI * radius * radius; }
+}
+```
 
-This section covers the foundational concepts of inheritance and polymorphism. Understanding these core ideas is essential before moving to advanced topics.
+## Final
 
-**Key points to remember:**
-- Start with the basics and build up systematically
-- Practice each concept with small code examples
-- Refer to the linked resources for deeper dives
+```java
+public final class Constants {  // Cannot be extended
+    public static final double PI = 3.14159;  // Cannot be reassigned
+    public final void utility() { }  // Cannot be overridden
+}
+```
 
-### Subtopic 2: Practical Application
-
-Apply the concepts you've learned to solve real problems. Practice is essential for mastery.
-
-**Example approach:**
-1. Write small programs that exercise each concept
-2. Combine concepts to solve more complex problems
-3. Review and refactor your code for clarity
-
-### Subtopic 3: Best Practices and Patterns
-
-Learn the idiomatic patterns and best practices for this topic. Writing clean, maintainable code is a hallmark of an experienced developer.
-
-**Guidelines:**
-- Follow language conventions and style guides
-- Favor clarity over cleverness
-- Test your code thoroughly
-
-## Practice Questions
-
-1. What are the key concepts covered in this lesson?
-2. Write a small program that demonstrates at least two concepts from this lesson.
-3. How would you explain this topic to a fellow developer?
-
-## LLM Prompts for Deeper Understanding
-
-1. "Explain Inheritance and Polymorphism with analogies and examples"
-2. "Show me common mistakes beginners make with inheritance and polymorphism"
-3. "Provide advanced patterns and real-world use cases for inheritance and polymorphism"
-
-## Key Takeaways
-
-- Solidify your understanding of inheritance and polymorphism
-- Practice with real code, not just theory
-- Explore the reference resources for in-depth coverage
-
-## Further Reading
-
-Dive deeper into this topic using the reference resources listed in the frontmatter.

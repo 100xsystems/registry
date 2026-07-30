@@ -1,90 +1,53 @@
 ---
 title: "Getting Started with Java"
-description: "Install JDK, understand JVM/JRE/JDK, compile and run programs, and set up an IDE."
+description: "Install JDK, understand JVM/JRE/JDK, compile and run programs, set up your IDE."
 type: lesson
 order: 1
 duration: "45 min"
 difficulty: beginner
 learning_objectives:
-  - "Install JDK and configure JAVA_HOME"
-  - "Understand the JVM, JRE, and JDK architecture"
-  - "Compile and run Java programs from the command line"
-  - "Set up an IDE (IntelliJ IDEA or VS Code)"
+  - "Install JDK 21+ and configure JAVA_HOME"\n  - "Understand JVM, JRE, and JDK architecture"\n  - "Compile and run Java from the command line"\n  - "Use an IDE for efficient development"
 knowledge_refs:
   - java/java-01-getting-started
 prerequisites:
-  - "None — entry point"
+  - "None - entry point"
 references:
-    - title: "Oracle Java Tutorials — Getting Started"
-      url: "https://docs.oracle.com/javase/tutorial/getStarted/index.html"
-    - title: "Oracle Java Tutorials — Hello World"
-      url: "https://docs.oracle.com/javase/tutorial/getStarted/application/index.html"
-    - title: "Baeldung — Java Introduction"
-      url: "https://www.baeldung.com/java-tutorial"
+    - title: "Oracle Tutorials - Getting Started"\n      url: "https://docs.oracle.com/javase/tutorial/getStarted/index.html"\n    - title: "Oracle - Hello World"\n      url: "https://docs.oracle.com/javase/tutorial/getStarted/application/index.html"
 ---
 
 # JAVA-01-GETTING-STARTED: Getting Started with Java
 
 ## Introduction
 
-Install JDK, understand JVM/JRE/JDK, compile and run programs, and set up an IDE.
+The Java Virtual Machine (JVM) is the cornerstone of Java's "write once, run anywhere" promise.
 
-## Learning Objectives
+## JDK, JRE, JVM
 
-By the end of this lesson, you will be able to:
+```java
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, Java!");
+    }
+}
+```
 
-- Install JDK and configure JAVA_HOME
-- Understand the JVM, JRE, and JDK architecture
-- Compile and run Java programs from the command line
-- Set up an IDE (IntelliJ IDEA or VS Code)
+Compile and run:
+```bash
+javac HelloWorld.java     # Produces HelloWorld.class (bytecode)
+java HelloWorld            # JVM executes the bytecode
+```
 
-## Key Concepts
+## Setting Up
 
-### Subtopic 1: Foundation
-
-This section covers the foundational concepts of getting started with java. Understanding these core ideas is essential before moving to advanced topics.
-
-**Key points to remember:**
-- Start with the basics and build up systematically
-- Practice each concept with small code examples
-- Refer to the linked resources for deeper dives
-
-### Subtopic 2: Practical Application
-
-Apply the concepts you've learned to solve real problems. Practice is essential for mastery.
-
-**Example approach:**
-1. Write small programs that exercise each concept
-2. Combine concepts to solve more complex problems
-3. Review and refactor your code for clarity
-
-### Subtopic 3: Best Practices and Patterns
-
-Learn the idiomatic patterns and best practices for this topic. Writing clean, maintainable code is a hallmark of an experienced developer.
-
-**Guidelines:**
-- Follow language conventions and style guides
-- Favor clarity over cleverness
-- Test your code thoroughly
+Download JDK 21+ from Oracle or use SDKMAN:
+```bash
+sdk install java 21-open
+java --version
+# openjdk 21.0.2 2024-01-16
+```
 
 ## Practice Questions
+1. What's the difference between JVM, JRE, and JDK?
+2. Why does main need to be public static void?
+3. What is bytecode and how is it executed?
 
-1. What are the key concepts covered in this lesson?
-2. Write a small program that demonstrates at least two concepts from this lesson.
-3. How would you explain this topic to a fellow developer?
-
-## LLM Prompts for Deeper Understanding
-
-1. "Explain Getting Started with Java with analogies and examples"
-2. "Show me common mistakes beginners make with getting started with java"
-3. "Provide advanced patterns and real-world use cases for getting started with java"
-
-## Key Takeaways
-
-- Solidify your understanding of getting started with java
-- Practice with real code, not just theory
-- Explore the reference resources for in-depth coverage
-
-## Further Reading
-
-Dive deeper into this topic using the reference resources listed in the frontmatter.

@@ -1,91 +1,64 @@
 ---
 title: "Lambda Expressions and Streams"
-description: "Lambda syntax, functional interfaces, method references, stream pipelines, collectors, parallel streams."
+description: "Lambda syntax, functional interfaces, method references, stream pipelines, collectors."
 type: lesson
 order: 9
 duration: "75 min"
 difficulty: intermediate
 learning_objectives:
-  - "Write lambda expressions with proper syntax"
-  - "Use method references for concise code"
-  - "Build stream pipelines with intermediate/terminal ops"
-  - "Collect results with Collectors"
+  - "Write lambda expressions"\n  - "Use method references"\n  - "Build stream pipelines"\n  - "Collect results with Collectors"
 knowledge_refs:
   - java/java-09-lambdas-streams
 prerequisites:
-  - "JAVA-08"
-  - "JAVA-07"
+  - "JAVA-07"\n  - "JAVA-08"
 references:
-    - title: "Oracle Tutorials — Lambda Expressions"
-      url: "https://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html"
-    - title: "Oracle Tutorials — Streams"
-      url: "https://docs.oracle.com/javase/tutorial/collections/streams/index.html"
-    - title: "Baeldung — Java Streams Guide"
-      url: "https://www.baeldung.com/java-streams"
+    - title: "Oracle - Lambda Expressions"\n      url: "https://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html"\n    - title: "Oracle - Streams"\n      url: "https://docs.oracle.com/javase/tutorial/collections/streams/index.html"\n    - title: "Baeldung - Java Streams"\n      url: "https://www.baeldung.com/java-streams"
 ---
 
 # JAVA-09-LAMBDAS-STREAMS: Lambda Expressions and Streams
 
-## Introduction
+## Lambda Expressions
 
-Lambda syntax, functional interfaces, method references, stream pipelines, collectors, parallel streams.
+```java
+// Anonymous class (old way)
+button.setOnAction(new EventHandler<ActionEvent>() {
+    @Override public void handle(ActionEvent e) { }
+});
 
-## Learning Objectives
+// Lambda (Java 8+)
+button.setOnAction(e -> System.out.println("Clicked!"));
 
-By the end of this lesson, you will be able to:
+// Multiple params
+Comparator<Person> byAge = (p1, p2) ->
+    Integer.compare(p1.getAge(), p2.getAge());
+```
 
-- Write lambda expressions with proper syntax
-- Use method references for concise code
-- Build stream pipelines with intermediate/terminal ops
-- Collect results with Collectors
+## Method References
 
-## Key Concepts
+```java
+Stream.of("a", "b").map(String::toUpperCase)  // Static method
+Stream.of("a").forEach(System.out::println)    // Instance method
+Stream.of("A").map(Person::new).toList()       // Constructor
+```
 
-### Subtopic 1: Foundation
+## Stream Pipeline
 
-This section covers the foundational concepts of lambda expressions and streams. Understanding these core ideas is essential before moving to advanced topics.
+```java
+List<String> result = transactions.stream()
+    .filter(t -> t.getYear() == 2024)
+    .sorted(Comparator.comparing(Transaction::getAmount).reversed())
+    .map(Transaction::getDescription)
+    .limit(10)
+    .collect(Collectors.toList());
+```
 
-**Key points to remember:**
-- Start with the basics and build up systematically
-- Practice each concept with small code examples
-- Refer to the linked resources for deeper dives
+## Collectors
 
-### Subtopic 2: Practical Application
+```java
+Map<String, List<Person>> byCity = people.stream()
+    .collect(Collectors.groupingBy(Person::getCity));
 
-Apply the concepts you've learned to solve real problems. Practice is essential for mastery.
+Map<Boolean, List<Person>> adults = people.stream()
+    .collect(Collectors.partitioningBy(p -> p.getAge() >= 18));
+```
 
-**Example approach:**
-1. Write small programs that exercise each concept
-2. Combine concepts to solve more complex problems
-3. Review and refactor your code for clarity
-
-### Subtopic 3: Best Practices and Patterns
-
-Learn the idiomatic patterns and best practices for this topic. Writing clean, maintainable code is a hallmark of an experienced developer.
-
-**Guidelines:**
-- Follow language conventions and style guides
-- Favor clarity over cleverness
-- Test your code thoroughly
-
-## Practice Questions
-
-1. What are the key concepts covered in this lesson?
-2. Write a small program that demonstrates at least two concepts from this lesson.
-3. How would you explain this topic to a fellow developer?
-
-## LLM Prompts for Deeper Understanding
-
-1. "Explain Lambda Expressions and Streams with analogies and examples"
-2. "Show me common mistakes beginners make with lambda expressions and streams"
-3. "Provide advanced patterns and real-world use cases for lambda expressions and streams"
-
-## Key Takeaways
-
-- Solidify your understanding of lambda expressions and streams
-- Practice with real code, not just theory
-- Explore the reference resources for in-depth coverage
-
-## Further Reading
-
-Dive deeper into this topic using the reference resources listed in the frontmatter.

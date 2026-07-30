@@ -1,88 +1,60 @@
 ---
 title: "Methods and Parameters"
-description: "Method declarations, parameters, return types, overloading, varargs, pass-by-value semantics."
+description: "Method declarations, overloading, varargs, and pass-by-value."
 type: lesson
 order: 4
 duration: "60 min"
 difficulty: beginner
 learning_objectives:
-  - "Declare methods with parameters and return types"
-  - "Overload methods with different parameter lists"
-  - "Use varargs for variable-length parameters"
-  - "Understand Java's pass-by-value semantics"
+  - "Declare methods with parameters and return types"\n  - "Overload methods"\n  - "Use varargs for flexible parameters"\n  - "Understand pass-by-value"
 knowledge_refs:
   - java/java-04-methods
 prerequisites:
   - "JAVA-03"
 references:
-    - title: "Oracle Tutorials — Methods"
-      url: "https://docs.oracle.com/javase/tutorial/java/javaOO/methods.html"
-    - title: "Oracle Tutorials — Passing Info to Methods"
-      url: "https://docs.oracle.com/javase/tutorial/java/javaOO/arguments.html"
+    - title: "Oracle - Methods"\n      url: "https://docs.oracle.com/javase/tutorial/java/javaOO/methods.html"\n    - title: "Oracle - Arguments"\n      url: "https://docs.oracle.com/javase/tutorial/java/javaOO/arguments.html"
 ---
 
 # JAVA-04-METHODS: Methods and Parameters
 
-## Introduction
+## Method Declaration
 
-Method declarations, parameters, return types, overloading, varargs, pass-by-value semantics.
+```java
+public int add(int a, int b) {
+    return a + b;
+}
+```
 
-## Learning Objectives
+## Overloading
 
-By the end of this lesson, you will be able to:
+Same name, different parameters:
 
-- Declare methods with parameters and return types
-- Overload methods with different parameter lists
-- Use varargs for variable-length parameters
-- Understand Java's pass-by-value semantics
+```java
+public int add(int a, int b) { return a + b; }
+public double add(double a, double b) { return a + b; }
+public int add(int a, int b, int c) { return a + b + c; }
+```
 
-## Key Concepts
+## Varargs
 
-### Subtopic 1: Foundation
+```java
+public int sum(int... numbers) {
+    int total = 0;
+    for (int n : numbers) total += n;
+    return total;
+}
+sum(1, 2); sum(1, 2, 3, 4, 5); sum();  // all valid
+```
 
-This section covers the foundational concepts of methods and parameters. Understanding these core ideas is essential before moving to advanced topics.
+## Pass-by-Value
 
-**Key points to remember:**
-- Start with the basics and build up systematically
-- Practice each concept with small code examples
-- Refer to the linked resources for deeper dives
+Java is always pass-by-value:
 
-### Subtopic 2: Practical Application
+```java
+public void mutate(int x, StringBuilder sb) {
+    x = 99;
+    sb.append(" world");
+}
+// x unchanged outside, sb is mutated
+```
 
-Apply the concepts you've learned to solve real problems. Practice is essential for mastery.
-
-**Example approach:**
-1. Write small programs that exercise each concept
-2. Combine concepts to solve more complex problems
-3. Review and refactor your code for clarity
-
-### Subtopic 3: Best Practices and Patterns
-
-Learn the idiomatic patterns and best practices for this topic. Writing clean, maintainable code is a hallmark of an experienced developer.
-
-**Guidelines:**
-- Follow language conventions and style guides
-- Favor clarity over cleverness
-- Test your code thoroughly
-
-## Practice Questions
-
-1. What are the key concepts covered in this lesson?
-2. Write a small program that demonstrates at least two concepts from this lesson.
-3. How would you explain this topic to a fellow developer?
-
-## LLM Prompts for Deeper Understanding
-
-1. "Explain Methods and Parameters with analogies and examples"
-2. "Show me common mistakes beginners make with methods and parameters"
-3. "Provide advanced patterns and real-world use cases for methods and parameters"
-
-## Key Takeaways
-
-- Solidify your understanding of methods and parameters
-- Practice with real code, not just theory
-- Explore the reference resources for in-depth coverage
-
-## Further Reading
-
-Dive deeper into this topic using the reference resources listed in the frontmatter.

@@ -1,90 +1,66 @@
 ---
 title: "Generics and Collections"
-description: "Generic classes and methods, type bounds, wildcards, the Collections Framework, and choosing the right collection."
+description: "Generic classes, type bounds, wildcards, Collections Framework."
 type: lesson
 order: 8
 duration: "75 min"
 difficulty: intermediate
 learning_objectives:
-  - "Write generic classes with type parameters"
-  - "Use wildcards for flexible generics"
-  - "Master the collections: List, Set, Map, Queue"
-  - "Choose the right collection implementation"
+  - "Write generic classes with type parameters"\n  - "Use wildcards for flexible generics"\n  - "Master List, Set, Map, Queue"\n  - "Choose the right collection"
 knowledge_refs:
   - java/java-08-generics-collections
 prerequisites:
   - "JAVA-06"
 references:
-    - title: "Oracle Tutorials — Generics"
-      url: "https://docs.oracle.com/javase/tutorial/java/generics/index.html"
-    - title: "Oracle Tutorials — Collections"
-      url: "https://docs.oracle.com/javase/tutorial/collections/index.html"
-    - title: "Effective Java — Ch. 5: Generics"
-      url: "https://www.oreilly.com/library/view/effective-java-3rd/9780134686097/"
+    - title: "Oracle - Generics"\n      url: "https://docs.oracle.com/javase/tutorial/java/generics/index.html"\n    - title: "Oracle - Collections"\n      url: "https://docs.oracle.com/javase/tutorial/collections/index.html"
 ---
 
 # JAVA-08-GENERICS-COLLECTIONS: Generics and Collections
 
-## Introduction
+## Generic Methods
 
-Generic classes and methods, type bounds, wildcards, the Collections Framework, and choosing the right collection.
+```java
+public static <T> T getMiddle(T... args) {
+    return args[args.length / 2];
+}
 
-## Learning Objectives
+// Multiple type parameters
+public static <K, V> Map<K, V> singletonMap(K key, V value) {
+    return Collections.singletonMap(key, value);
+}
+```
 
-By the end of this lesson, you will be able to:
+## Bounded Type Parameters
 
-- Write generic classes with type parameters
-- Use wildcards for flexible generics
-- Master the collections: List, Set, Map, Queue
-- Choose the right collection implementation
+```java
+public static <T extends Number> double sumOf(T[] array) {
+    double sum = 0;
+    for (T elem : array) sum += elem.doubleValue();
+    return sum;
+}
+```
 
-## Key Concepts
+## Wildcards
 
-### Subtopic 1: Foundation
+```java
+// Upper-bounded - read only
+public double sum(List<? extends Number> nums) {
+    double total = 0;
+    for (Number n : nums) total += n.doubleValue();
+    return total;
+}
 
-This section covers the foundational concepts of generics and collections. Understanding these core ideas is essential before moving to advanced topics.
+// Lower-bounded - write only
+public void addNums(List<? super Integer> list) {
+    list.add(1); list.add(2);
+}
+```
 
-**Key points to remember:**
-- Start with the basics and build up systematically
-- Practice each concept with small code examples
-- Refer to the linked resources for deeper dives
+## Collections Guide
 
-### Subtopic 2: Practical Application
+```java
+List<String> names = new ArrayList<>();    // Ordered, indexed
+Set<Integer> unique = new HashSet<>();      // Unique, fast membership
+Map<String, Integer> scores = new HashMap<>(); // Key-value
+```
 
-Apply the concepts you've learned to solve real problems. Practice is essential for mastery.
-
-**Example approach:**
-1. Write small programs that exercise each concept
-2. Combine concepts to solve more complex problems
-3. Review and refactor your code for clarity
-
-### Subtopic 3: Best Practices and Patterns
-
-Learn the idiomatic patterns and best practices for this topic. Writing clean, maintainable code is a hallmark of an experienced developer.
-
-**Guidelines:**
-- Follow language conventions and style guides
-- Favor clarity over cleverness
-- Test your code thoroughly
-
-## Practice Questions
-
-1. What are the key concepts covered in this lesson?
-2. Write a small program that demonstrates at least two concepts from this lesson.
-3. How would you explain this topic to a fellow developer?
-
-## LLM Prompts for Deeper Understanding
-
-1. "Explain Generics and Collections with analogies and examples"
-2. "Show me common mistakes beginners make with generics and collections"
-3. "Provide advanced patterns and real-world use cases for generics and collections"
-
-## Key Takeaways
-
-- Solidify your understanding of generics and collections
-- Practice with real code, not just theory
-- Explore the reference resources for in-depth coverage
-
-## Further Reading
-
-Dive deeper into this topic using the reference resources listed in the frontmatter.
