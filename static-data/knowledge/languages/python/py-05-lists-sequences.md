@@ -1,58 +1,129 @@
 ---
-title: "Lists, Tuples, and Sequences"
-description: "List operations, comprehensions, tuples, slicing, and the sequence protocol."
-type: lesson
-order: 5
-duration: "60 min"
-difficulty: beginner
-learning_objectives:
-  - "Manipulate lists with methods and slicing"\n  - "Create efficient list comprehensions"\n  - "Use tuples for immutable sequences"\n  - "Understand the sequence protocol"
-knowledge_refs:
-  - python/py-05-lists-sequences
-prerequisites:
-  - "PY-02"
-references:
-    - title: "Python Tutorial — 5.1 More on Lists"\n      url: "https://docs.python.org/3/tutorial/datastructures.html#more-on-lists"\n    - title: "Python Tutorial — 5.3 Tuples"\n      url: "https://docs.python.org/3/tutorial/datastructures.html#tuples-and-sequences"\n    - title: "Fluent Python — Ch. 2: Array of Sequences"\n      url: "https://www.oreilly.com/library/view/fluent-python-2nd/9781492056348/"
+{
+  "title": "Lists, Sequences, and Indexing",
+  "description": "Create and manipulate lists with methods and slicing",
+  "type": "lesson",
+  "order": 5,
+  "duration": "60 min",
+  "difficulty": "beginner",
+  "learning_objectives": [
+    "Create and manipulate lists with methods and slicing",
+    "Master slice syntax [start:stop:step]",
+    "Use list methods: append, extend, insert, pop, sort",
+    "Understand shallow vs deep copy"
+  ],
+  "knowledge_refs": [
+    "python/py-05-lists-sequences"
+  ],
+  "prerequisites": [
+    "PY-02"
+  ],
+  "references": [
+    {
+      "title": "Python Tutorial — Lists",
+      "url": "https://docs.python.org/3/tutorial/introduction.html#lists"
+    },
+    {
+      "title": "Python Tutorial — More on Lists",
+      "url": "https://docs.python.org/3/tutorial/datastructures.html#more-on-lists"
+    },
+    {
+      "title": "Real Python — Lists and Tuples",
+      "url": "https://realpython.com/python-lists-tuples/"
+    }
+  ]
+}
 ---
 
-# PY-05-LISTS-SEQUENCES: Lists, Tuples, and Sequences
+# PY-05-LISTS-SEQUENCES: Lists, Sequences, and Indexing
 
+## Introduction
 
-## List Operations
+Lists are Python's most versatile sequence: mutable, ordered, heterogeneous. Slicing, negative indexing, and rich methods make them incredibly expressive for data manipulation.
 
-Lists are mutable sequences — see [More on Lists](https://docs.python.org/3/tutorial/datastructures.html#more-on-lists):
-```python
-nums = [3, 1, 4, 1, 5]
-nums.append(9)           # [3, 1, 4, 1, 5, 9]
-nums.sort()              # [1, 1, 3, 4, 5, 9]
-nums.pop()               # 9 — removes last
-nums.insert(0, 0)        # [0, 1, 1, 3, 4, 5]
-```
+## Key Concepts
 
-## Slicing
+### 1. List Creation and Indexing
+
+Lists are zero-indexed. Positive indices from 0, negative from -1 (last). Brackets access elements. in for membership. len() for size. Lists can hold mixed types.
 
 ```python
-nums = [0, 1, 2, 3, 4, 5]
-print(nums[1:4])    # [1, 2, 3]
-print(nums[::-1])   # [5, 4, 3, 2, 1, 0] — reverse copy
-print(nums[::2])    # [0, 2, 4] — every other
+fruits = ["apple", "banana", "cherry"]
+print(fruits[0])    # apple
+print(fruits[-1])   # cherry
+print(fruits[-2])   # banana
+print(len(fruits))  # 3
+print("banana" in fruits)  # True
 ```
 
-## List Comprehensions
+### 2. Slicing — [start:stop:step]
 
-Elegant, Pythonic way to build lists:
+Slices create new lists from subsequences. start:stop:step, all optional. Never IndexError. [::-1] reverses. Works on any sequence (str, tuple, list).
+
 ```python
-squares = [x**2 for x in range(10)]
-evens = [x for x in range(20) if x % 2 == 0]
-matrix = [[i+j for j in range(3)] for i in range(3)]
+nums = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+nums[2:5]     # [2, 3, 4]
+nums[:4]      # [0, 1, 2, 3]
+nums[-3:]     # [7, 8, 9]
+nums[::2]     # [0, 2, 4, 6, 8]
+nums[::-1]    # reverse
+
+# slice assignment
+nums[3:6] = [30, 40, 50]
 ```
 
-## Tuples
+### 3. List Methods
 
-Immutable sequences:
+append adds one item; extend adds iterable; insert at index; pop removes and returns; remove by value; index finds position; count tallies; sort in-place; reverse in-place.
+
 ```python
-point = (3, 4)
-x, y = point          # tuple unpacking
-print(x, y)           # 3 4
+stack = []
+stack.append(1)
+stack.extend([2, 3, 4])
+stack.insert(0, 0)
+last = stack.pop()
+first = stack.pop(0)
+stack.remove(2)
+
+# sorting
+items = [3, 1, 4, 1, 5]
+items.sort()
+items.sort(reverse=True)
+sorted(items)  # new list
 ```
 
+### 4. Shallow vs Deep Copy
+
+b = a does NOT copy — creates a new reference to same object. Use copy(), list(), [:] for shallow. Use copy.deepcopy() for nested structures.
+
+```python
+a = [1, 2, [3, 4]]
+b = a            # not a copy!
+b.append(5)
+print(a)  # [1, 2, [3, 4], 5]
+
+s = a.copy()     # shallow
+s[2].append(99)  # affects a too!
+
+from copy import deepcopy
+d = deepcopy(a)  # fully independent
+```
+
+## Practice Questions
+
+1. What does nums[1:-1:2] produce for range(10)?
+1. Difference between append, extend, and +=?
+1. Why does b = a not copy? How is copy() different?
+1. Sort [(1, "x"), (3, "z"), (2, "y")] by second element.
+
+## LLM Prompts for Deeper Understanding
+
+1. "Explain slicing with negative indices, step, and slice assignment"
+1. "Show shallow vs deep copying for lists and custom objects"
+1. "Teach list method complexities (Big-O) for each operation"
+
+## Key Takeaways
+
+- Slicing [start:stop:step] creates new lists — never IndexError
+- Use .sort() in-place, sorted() for new sorted list
+- Assignment does not copy — use .copy() or deepcopy()

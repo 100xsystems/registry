@@ -1,68 +1,140 @@
 ---
-title: "Functions and Scope"
-description: "Function definitions, parameters, return values, scope rules, lambda expressions, and annotations."
-type: lesson
-order: 4
-duration: "75 min"
-difficulty: intermediate
-learning_objectives:
-  - "Define functions with various parameter types"\n  - "Understand LEGB scope rules and closures"\n  - "Write lambda expressions"\n  - "Use function annotations and docstrings"
-knowledge_refs:
-  - python/py-04-functions-scope
-prerequisites:
-  - "PY-03"
-references:
-    - title: "Python Tutorial — 4.8 Defining Functions"\n      url: "https://docs.python.org/3/tutorial/controlflow.html#defining-functions"\n    - title: "Python Tutorial — 4.9 More on Functions"\n      url: "https://docs.python.org/3/tutorial/controlflow.html#more-on-defining-functions"\n    - title: "Fluent Python — Ch. 7: First-Class Functions"\n      url: "https://www.oreilly.com/library/view/fluent-python-2nd/9781492056348/"
+{
+  "title": "Functions and Scope",
+  "description": "Define functions with positional, keyword, and default params",
+  "type": "lesson",
+  "order": 4,
+  "duration": "75 min",
+  "difficulty": "intermediate",
+  "learning_objectives": [
+    "Define functions with positional, keyword, and default params",
+    "Use *args and **kwargs for variable-length arguments",
+    "Understand LEGB scope rules and the nonlocal keyword",
+    "Write lambda expressions and closure factories"
+  ],
+  "knowledge_refs": [
+    "python/py-04-functions-scope"
+  ],
+  "prerequisites": [
+    "PY-02"
+  ],
+  "references": [
+    {
+      "title": "Python Tutorial — Defining Functions",
+      "url": "https://docs.python.org/3/tutorial/controlflow.html#defining-functions"
+    },
+    {
+      "title": "Python Tutorial — More on Functions",
+      "url": "https://docs.python.org/3/tutorial/controlflow.html#more-on-defining-functions"
+    },
+    {
+      "title": "Python Reference — Function Definitions",
+      "url": "https://docs.python.org/3/reference/compound_stmts.html#function-definitions"
+    },
+    {
+      "title": "Real Python — Scope LEGB",
+      "url": "https://realpython.com/python-scope-legb-rule/"
+    }
+  ]
+}
 ---
 
 # PY-04-FUNCTIONS-SCOPE: Functions and Scope
 
+## Introduction
 
-## Defining Functions
+Functions are first-class citizens in Python: they can be passed as arguments, returned from other functions, and assigned to variables. The parameter system covers positional, keyword, default, *args, and **kwargs.
+
+## Key Concepts
+
+### 1. Parameter Types: Positional, Keyword, Default
+
+Python functions support positional args (by order), keyword args (by name), and default values. Positional-only parameters (before /) and keyword-only (after *).
 
 ```python
-def greet(name: str, greeting: str = "Hello") -> str:
-    """Return a personalized greeting."""
-    return f"{greeting}, {name}!"
+def connect(host, port=8080, *, timeout=30):
+    return f"Connecting to {host}:{port}"
+
+# positional-only, keyword-only
+def divide(a, b, /):  # a,b positional-only
+    return a / b
+
+connect("localhost", 3000, timeout=60)
 ```
 
-## Parameters
+### 2. *args and **kwargs
+
+*args captures extra positional args as tuple; **kwargs captures keyword args as dict. Essential for wrapper/decorator/function-forwarding patterns.
 
 ```python
-# *args collects extra positional args as a tuple
-# **kwargs collects extra keyword args as a dict
-def log(message, *args, level="INFO", **kwargs):
-    print(f"[{level}] {message}", args, kwargs)
+def log(level, *messages):
+    for msg in messages:
+        print(f"[{level}] {msg}")
+log("INFO", "Start", "Processing", "Done")
 
-log("Server started", 8080, "v2", level="DEBUG", env="prod")
+def create_user(name, **attrs):
+    user = {"name": name}
+    user.update(attrs)
+    return user
+create_user("Alice", age=30, role="admin")
 ```
 
-## Scope — LEGB Rule
+### 3. LEGB Scope and nonlocal
 
-Python resolves names in order: **L**ocal → **E**nclosing → **G**lobal → **B**uilt-in:
+Python resolves names in LEGB order: Local, Enclosing, Global, Built-in. Use global for module-level writes; nonlocal for enclosing scope writes (not global). Closures capture enclosing variables.
 
 ```python
 x = "global"
 def outer():
-    x = "enclosing"
+    x = "outer"
     def inner():
-        x = "local"
-        print(x)  # local
+        nonlocal x
+        x = "inner"
+        print(x)
     inner()
-    print(x)  # enclosing
+    print(x)  # "inner" (modified by nonlocal)
 outer()
-print(x)  # global
+print(x)  # "global" (unchanged)
 ```
 
-## Lambda Expressions
+### 4. Lambda and Closures
+
+Lambdas are anonymous single-expression functions. Use for short callbacks. Closures let functions remember enclosing scope variables even after scope exits.
 
 ```python
-square = lambda x: x ** 2
-add = lambda a, b: a + b
-print(square(5))  # 25
+# Lambda
+sorted(students, key=lambda s: s["grade"])
+list(filter(lambda x: x > 0, [-1, 2, -3, 4]))
+
+# Closure factory
+def make_counter():
+    count = 0
+    def counter():
+        nonlocal count
+        count += 1
+        return count
+    return counter
+
+c = make_counter()
+print(c())  # 1
+print(c())  # 2
 ```
 
 ## Practice Questions
-1. What does `nonlocal` do vs `global`?
-2. Write a function that accepts any number of arguments and returns their sum.
 
+1. Order of params in Python function signature?
+1. What does *args capture? What does **kwargs capture?
+1. What is LEGB? When would you use nonlocal vs global?
+1. Write a closure-based make_timer that returns elapsed seconds.
+
+## LLM Prompts for Deeper Understanding
+
+1. "Explain function parameter types: positional, keyword, default, *args, **kwargs"
+1. "Show closures with practical caching and configuration examples"
+1. "Teach LEGB scope and when to use global vs nonlocal"
+
+## Key Takeaways
+
+- Use / for positional-only, * for keyword-only params
+- *args captures positional extras; **kwargs captures keyword extras
+- Closures remember their enclosing scope — foundation of decorators
