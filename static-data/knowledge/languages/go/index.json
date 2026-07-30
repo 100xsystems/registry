@@ -274,120 +274,120 @@
       ]
     },
     {
-      "slug": "go-11-goroutines",
-      "title": "Goroutines and Concurrency Basics",
-      "description": "Goroutines, goroutine scheduling, concurrency vs parallelism, and basic goroutine patterns.",
+      "slug": "go-11-goroutines-channels",
+      "title": "Goroutines and Channels",
+      "description": "Launch goroutines with go keyword, create and use channels for communication, use select for multiplexing, understand goroutine scheduling and leaks.",
       "type": "lesson",
       "order": 11,
       "duration": "60 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "go/go-11-goroutines"
+        "go/go-11-goroutines-channels"
       ]
     },
     {
-      "slug": "go-12-channels",
-      "title": "Channels and Select",
-      "description": "Channel types, buffered vs unbuffered, range over channels, select statement, and channel based patterns.",
+      "slug": "go-12-sync-package",
+      "title": "sync Package: Mutex, WaitGroup, Once, Pool",
+      "description": "Use sync.Mutex and RWMutex for thread safety, sync.WaitGroup for goroutine coordination, sync.Once for one-time initialization, sync.Pool for object reuse.",
       "type": "lesson",
       "order": 12,
-      "duration": "75 min",
+      "duration": "45 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "go/go-12-channels"
+        "go/go-12-sync-package"
       ]
     },
     {
-      "slug": "go-13-sync-primitives",
-      "title": "Synchronization Primitives",
-      "description": "Mutex, RWMutex, Cond, Once, Pool, atomic operations, and the memory model.",
+      "slug": "go-13-context",
+      "title": "Context: Cancellation and Timeouts",
+      "description": "Create contexts with Background, TODO, WithCancel, implement timeouts and deadlines with WithTimeout, pass request-scoped values through context.",
       "type": "lesson",
       "order": 13,
-      "duration": "60 min",
+      "duration": "45 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "go/go-13-sync-primitives"
+        "go/go-13-context"
       ]
     },
     {
       "slug": "go-14-testing",
-      "title": "Testing and Benchmarking",
-      "description": "Test functions, table-driven tests, coverage, benchmarks, profiling, and fuzzing.",
+      "title": "Testing: testing Package and Table-Driven Tests",
+      "description": "Write unit tests with testing.T, use table-driven tests, write benchmarks with testing.B, use go test flags and coverage.",
       "type": "lesson",
       "order": 14,
-      "duration": "60 min",
+      "duration": "45 min",
       "difficulty": "intermediate",
       "knowledge_refs": [
         "go/go-14-testing"
       ]
     },
     {
-      "slug": "go-15-files-io",
-      "title": "File I/O and the os Package",
-      "description": "Reading/writing files, the io package, bufio for buffered I/O, file system operations, and temporary files.",
+      "slug": "go-15-io-files",
+      "title": "I/O: Readers, Writers, and File Operations",
+      "description": "Use io.Reader and io.Writer interfaces, work with files via os package, use bufio for buffered I/O, use io.Copy, io.MultiReader, io.TeeReader.",
       "type": "lesson",
       "order": 15,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "go/go-15-io-files"
+      ]
+    },
+    {
+      "slug": "go-16-json-encoding",
+      "title": "JSON, Encoding, and Serialization",
+      "description": "Marshal and unmarshal JSON with encoding/json, use struct tags for JSON field mapping, write custom JSON marshalers/unmarshalers.",
+      "type": "lesson",
+      "order": 16,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "go/go-16-json-encoding"
+      ]
+    },
+    {
+      "slug": "go-17-http-server",
+      "title": "HTTP Server, Client, and Middleware",
+      "description": "Build HTTP servers with net/http, handle requests with ServeMux routers, make HTTP requests with http.Client, write middleware pattern.",
+      "type": "lesson",
+      "order": 17,
       "duration": "60 min",
       "difficulty": "intermediate",
       "knowledge_refs": [
-        "go/go-15-files-io"
-      ]
-    },
-    {
-      "slug": "go-16-networking",
-      "title": "Networking: HTTP Server and Client",
-      "description": "net/http server, handlers, middleware, routing, HTTP client, contexts, and REST API patterns.",
-      "type": "lesson",
-      "order": 16,
-      "duration": "75 min",
-      "difficulty": "intermediate",
-      "knowledge_refs": [
-        "go/go-16-networking"
-      ]
-    },
-    {
-      "slug": "go-17-context-cancellation",
-      "title": "Context and Cancellation",
-      "description": "Context values, cancellation, deadlines, propagating context through goroutines, and context patterns.",
-      "type": "lesson",
-      "order": 17,
-      "duration": "45 min",
-      "difficulty": "advanced",
-      "knowledge_refs": [
-        "go/go-17-context-cancellation"
+        "go/go-17-http-server"
       ]
     },
     {
       "slug": "go-18-reflection-generics",
-      "title": "Reflection and Generics",
-      "description": "The reflect package, type assertions in practice, Go 1.18 generics, constraints, type sets, and when to use each.",
+      "title": "Reflection and Generics (Go 1.18+)",
+      "description": "Use reflect package for runtime type inspection, write generic functions with type parameters, use constraints for type bounds.",
       "type": "lesson",
       "order": 18,
-      "duration": "75 min",
+      "duration": "45 min",
       "difficulty": "advanced",
       "knowledge_refs": [
         "go/go-18-reflection-generics"
       ]
     },
     {
-      "slug": "go-19-profiling",
-      "title": "Profiling and Optimization",
-      "description": "pprof profiling, CPU and memory profiles, trace analysis, escape analysis, and optimization strategies.",
+      "slug": "go-19-modules-packages",
+      "title": "Modules, Packages, and Dependency Management",
+      "description": "Create and publish Go modules, manage versions with go mod and semantic versioning, use workspaces for multi-module projects.",
       "type": "lesson",
       "order": 19,
-      "duration": "60 min",
-      "difficulty": "expert",
+      "duration": "45 min",
+      "difficulty": "advanced",
       "knowledge_refs": [
-        "go/go-19-profiling"
+        "go/go-19-modules-packages"
       ]
     },
     {
       "slug": "go-20-cli-tools",
-      "title": "Building CLI Tools",
-      "description": "Command-line argument parsing with flag, subcommands, input/output, configuration, and distribution.",
+      "title": "Building CLI Tools with flag and cobra",
+      "description": "Use flag package for command-line flags, use cobra for complex CLI applications, handle os.Args and subcommands.",
       "type": "lesson",
       "order": 20,
-      "duration": "60 min",
+      "duration": "45 min",
       "difficulty": "intermediate",
       "knowledge_refs": [
         "go/go-20-cli-tools"
@@ -395,8 +395,8 @@
     },
     {
       "slug": "go-21-low-level",
-      "title": "Low-Level Programming and CGo",
-      "description": "The unsafe package, calling C code with cgo, system calls, and interacting with the operating system.",
+      "title": "Low-Level Programming, unsafe, and CGo",
+      "description": "Use the unsafe package for low-level memory manipulation, call C code with cgo, understand Go's memory model and GC.",
       "type": "lesson",
       "order": 21,
       "duration": "75 min",

@@ -1,90 +1,290 @@
 ---
-title: "Reflection and Generics"
-description: "The reflect package, type assertions in practice, Go 1.18 generics, constraints, type sets, and when to use each."
-type: lesson
-order: 18
-duration: "75 min"
-difficulty: advanced
-learning_objectives:
-  - "Use the reflect package to inspect types and values"
-  - "Write generic functions with type parameters"
-  - "Define constraints with interfaces and type sets"
-  - "Choose between generics, interfaces, and reflection"
-knowledge_refs:
-  - go/go-18-reflection-generics
-prerequisites:
-  - "GO-07"
-references:
-    - title: "Go Blog — Generics"
-      url: "https://go.dev/blog/intro-generics"
-    - title: "The Go Programming Language — Ch. 12 Reflection"
-      url: "https://www.gopl.io/"
-    - title: "Go by Example — Generics"
-      url: "https://gobyexample.com/generics"
+{
+  "slug": "go-18-reflection-generics",
+  "title": "Reflection and Generics (Go 1.18+)",
+  "description": "Use reflect package for runtime type inspection, write generic functions with type parameters, use constraints for type bounds, understand type inference and instantiation.",
+  "type": "lesson",
+  "order": 18,
+  "duration": "45 min",
+  "difficulty": "advanced",
+  "learning_objectives": [
+    "Use reflect package for runtime type inspection",
+    "Write generic functions with type parameters",
+    "Use constraints for type bounds",
+    "Understand type inference and instantiation"
+  ],
+  "knowledge_refs": ["go/go-18-reflection-generics"],
+  "prerequisites": ["GO-04"],
+  "references": [
+    {"title": "pkg.go.dev/reflect", "url": "https://pkg.go.dev/reflect"},
+    {"title": "Go by Example: Generics", "url": "https://gobyexample.com/generics"},
+    {"title": "Go Blog: Generics", "url": "https://go.dev/blog/generics"},
+    {"title": "Go 1.18 Release Notes", "url": "https://go.dev/doc/go1.18"}
+  ]
+}
 ---
 
-# GO-18-REFLECTION-GENERICS: Reflection and Generics
+# GO-18: Reflection and Generics (Go 1.18+)
 
 ## Introduction
 
-The reflect package, type assertions in practice, Go 1.18 generics, constraints, type sets, and when to use each.
-
-## Learning Objectives
-
-By the end of this lesson, you will be able to:
-
-- Use the reflect package to inspect types and values
-- Write generic functions with type parameters
-- Define constraints with interfaces and type sets
-- Choose between generics, interfaces, and reflection
+Reflection (reflect) inspects types at runtime. Generics (Go 1.18+) enable polymorphic functions and types. Generics are preferred over reflection for type-safe, performant code. Reflection is for special cases like JSON encoding, ORMs, and serialization.
 
 ## Key Concepts
 
-### Subtopic 1: Foundation
+### 1. Reflection Basics: Type and Value
 
-This section covers the foundational concepts of reflection and generics. Understanding these core ideas is essential before moving to advanced topics.
+reflect.TypeOf(v) returns the type. reflect.ValueOf(v) returns the value. Kind returns the underlying kind (struct, slice, etc.). Use reflect.Indirect to dereference pointers. NumField and Field for struct field iteration.
 
-**Key points to remember:**
-- Start with the basics and build up systematically
-- Practice each concept with small code examples
-- Refer to the linked resources for deeper dives
+```go
+package main
 
-### Subtopic 2: Practical Application
+import (
+    "fmt"
+    "reflect"
+)
 
-Apply the concepts you've learned to solve real problems. Practice is essential for mastery.
+func inspect(v interface{}) {
+    t := reflect.TypeOf(v)
+    val := reflect.ValueOf(v)
 
-**Example approach:**
-1. Write small programs that exercise each concept
-2. Combine concepts to solve more complex problems
-3. Review and refactor your code for clarity
+    fmt.Println("Type:", t.Name())
+    fmt.Println("Kind:", t.Kind())
+    fmt.Println("Value:", val.Interface())
 
-### Subtopic 3: Best Practices and Patterns
+    // Dereference pointer
+    if t.Kind() == reflect.Ptr {
+        val = reflect.Indirect(val)
+        t = val.Type()
+    }
 
-Learn the idiomatic patterns and best practices for this topic. Writing clean, maintainable code is a hallmark of an experienced developer.
+    // Iterate struct fields
+    if t.Kind() == reflect.Struct {
+        for i := 0; i < t.NumField(); i++ {
+            field := t.Field(i)
+            fmt.Printf("  %s: %v (tag: %s)\n", field.Name,
+                val.Field(i), field.Tag.Get("json"))
+        }
+    }
+}
 
-**Guidelines:**
-- Follow language conventions and style guides
-- Favor clarity over cleverness
-- Test your code thoroughly
+func main() {
+    inspect(User{Name: "Alice", Age: 30})
+}
+```
+
+### 2. Modifying Values with Reflection
+
+Use reflect.Value.Elem() to get the element a pointer points to. Call SetInt, SetString, SetField to modify values. CanAddr checks if the value is addressable. Panics if not addressable.
+
+```go
+package main
+
+import (
+    "fmt"
+    "reflect"
+)
+
+func setField(obj interface{}, name string, value interface{}) {
+    val := reflect.ValueOf(obj)
+    if val.Kind() != reflect.Ptr {
+        fmt.Println("must be pointer to modify")
+        return
+    }
+
+    elem := val.Elem()
+    field := elem.FieldByName(name)
+    if !field.IsValid() {
+        fmt.Println("field not found:", name)
+        return
+    }
+
+    if field.CanSet() {
+        switch field.Kind() {
+        case reflect.String:
+            field.SetString(value.(string))
+        case reflect.Int, reflect.Int64:
+            field.SetInt(int64(value.(int)))
+        case reflect.Float64:
+            field.SetFloat(value.(float64))
+        case reflect.Bool:
+            field.SetBool(value.(bool))
+        }
+    }
+}
+
+u := &User{}
+setField(u, "Name", "Alice")
+fmt.Println(u.Name)  // Alice
+```
+
+### 3. Generics: Type Parameters
+
+Generic functions use `[T any]` syntax. Type parameters go before function parameters. Multiple type parameters: `[T, U any]`. Type inference from arguments. The `comparable` built-in constraint allows == and !=.
+
+```go
+package main
+
+import "fmt"
+
+// Generic function
+func Identity[T any](value T) T {
+    return value
+}
+
+// Generic function with comparable
+func Contains[T comparable](slice []T, target T) bool {
+    for _, item := range slice {
+        if item == target {
+            return true
+        }
+    }
+    return false
+}
+
+// Multiple type parameters
+func Pair[T, U any](a T, b U) (T, U) {
+    return a, b
+}
+
+// Type inference
+func main() {
+    s := Identity("hello")  // T inferred as string
+    n := Identity(42)       // T inferred as int
+
+    fmt.Println(Contains([]string{"a", "b"}, "a"))  // true
+    fmt.Println(Contains([]int{1, 2, 3}, 4))        // false
+
+    fmt.Println(Pair("key", 42))  // T=string, U=int
+}
+```
+
+### 4. Generic Types and Constraints
+
+Generic types: `type Stack[T any] struct {}`. Custom constraints: `type Number interface { ~int | ~float64 }`. Use ~ to allow types with the same underlying type. The constraints package provides common constraints.
+
+```go
+package main
+
+import (
+    "fmt"
+)
+
+// Generic type
+type Stack[T any] struct {
+    items []T
+}
+
+func (s *Stack[T]) Push(item T) {
+    s.items = append(s.items, item)
+}
+
+func (s *Stack[T]) Pop() (T, bool) {
+    if len(s.items) == 0 {
+        var zero T
+        return zero, false
+    }
+    item := s.items[len(s.items)-1]
+    s.items = s.items[:len(s.items)-1]
+    return item, true
+}
+
+// Custom constraint
+type Number interface {
+    ~int | ~float64 | ~float32
+}
+
+func Sum[T Number](values []T) T {
+    var sum T
+    for _, v := range values {
+        sum += v
+    }
+    return sum
+}
+
+// Interface constraint
+type Stringer interface {
+    String() string
+}
+
+func Print[T Stringer](v T) {
+    fmt.Println(v.String())
+}
+```
+
+### 5. Generics vs Reflection: When to Use Each
+
+| Aspect | Generics | Reflection |
+|--------|----------|------------|
+| Type safety | Compile-time | Runtime (panics) |
+| Performance | Zero overhead | Slow (allocations) |
+| Use case | Data structures, algorithms | Serialization, ORMs |
+| Example | Stack[T], Map[K,V] | JSON marshal, SQL scan |
+
+```go
+package main
+
+import (
+    "encoding/json"
+    "fmt"
+    "reflect"
+)
+
+// Generics: type-safe, zero overhead
+func Filter[T any](items []T, pred func(T) bool) []T {
+    var result []T
+    for _, item := range items {
+        if pred(item) {
+            result = append(result, item)
+        }
+    }
+    return result
+}
+
+// Reflection: necessary for dynamic types
+func toJSON(v interface{}) (string, error) {
+    data, err := json.Marshal(v)
+    return string(data), err
+}
+
+// Reflection: check if type implements interface
+func implementsStringer(v interface{}) bool {
+    type stringer interface{ String() string }
+    _, ok := v.(stringer)
+    return ok
+}
+
+// Reflection: dynamic field access
+func getField(v interface{}, name string) (interface{}, error) {
+    val := reflect.ValueOf(v)
+    if val.Kind() == reflect.Ptr {
+        val = val.Elem()
+    }
+    field := val.FieldByName(name)
+    if !field.IsValid() {
+        return nil, fmt.Errorf("field %s not found", name)
+    }
+    return field.Interface(), nil
+}
+```
 
 ## Practice Questions
 
-1. What are the key concepts covered in this lesson?
-2. Write a small program that demonstrates at least two concepts from this lesson.
-3. How would you explain this topic to a fellow developer?
+1. What is the difference between reflect.Type and reflect.Value?
+2. How do you modify a struct field via reflection? What must be true?
+3. What is the syntax for a generic function in Go? What does comparable do?
+4. What is the ~ operator in type constraints?
+5. When should you use generics vs reflection?
 
 ## LLM Prompts for Deeper Understanding
 
-1. "Explain Reflection and Generics with analogies and examples"
-2. "Show me common mistakes beginners make with reflection and generics"
-3. "Provide advanced patterns and real-world use cases for reflection and generics"
+1. "Explain reflect: Type, Value, Kind, Elem, SetInt, SetString, NumField, FieldByName"
+2. "Show generics: type parameters, constraints, comparable, custom constraints, ~ operator"
+3. "Teach generics vs reflection: when to use each, performance implications, type safety"
 
 ## Key Takeaways
 
-- Solidify your understanding of reflection and generics
-- Practice with real code, not just theory
-- Explore the reference resources for in-depth coverage
-
-## Further Reading
-
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+- reflect.TypeOf/ValueOf for runtime type inspection; Kind for underlying type
+- Generics use [T any] syntax; type inference from arguments
+- comparable is a built-in constraint; custom constraints use ~ for underlying types
+- Prefer generics over reflection for type safety and performance
