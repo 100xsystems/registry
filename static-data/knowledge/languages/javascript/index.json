@@ -1,7 +1,7 @@
 {
   "slug": "javascript",
   "name": "JavaScript",
-  "description": "The language of the web. JavaScript powers browsers, servers (Node.js), desktop apps (Electron), and increasingly the edge. These are the definitive free resources \u2014 vetted, current, and complete.",
+  "description": "The language of the web. JavaScript powers browsers, servers (Node.js), desktop apps (Electron), and increasingly the edge. These are the definitive free resources — vetted, current, and complete.",
   "categories": [
     {
       "label": "Free Books",
@@ -15,7 +15,7 @@
         {
           "title": "You Don't Know JS Yet",
           "url": "https://github.com/getify/you-dont-know-js",
-          "description": "An in-depth series exploring the core mechanisms of JavaScript \u2014 closures, prototypes, async, and more."
+          "description": "An in-depth series exploring the core mechanisms of JavaScript — closures, prototypes, async, and more."
         },
         {
           "title": "The Modern JavaScript Tutorial",
@@ -34,12 +34,12 @@
       "icon": "docs",
       "items": [
         {
-          "title": "MDN Web Docs \u2014 JavaScript Guide",
+          "title": "MDN Web Docs — JavaScript Guide",
           "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
           "description": "The definitive manual for the JavaScript language. Covers grammar, control flow, functions, objects, classes, promises, and iterators."
         },
         {
-          "title": "MDN \u2014 JavaScript Reference",
+          "title": "MDN — JavaScript Reference",
           "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference",
           "description": "Complete reference for all built-in objects, statements, operators, and expressions."
         },
@@ -55,12 +55,12 @@
       "icon": "code",
       "items": [
         {
-          "title": "The Odin Project \u2014 Full Stack JavaScript",
+          "title": "The Odin Project — Full Stack JavaScript",
           "url": "https://www.theodinproject.com/paths/full-stack-javascript",
           "description": "A world-class open-source curriculum from absolute beginner to building full-stack applications."
         },
         {
-          "title": "freeCodeCamp \u2014 JavaScript Algorithms & Data Structures",
+          "title": "freeCodeCamp — JavaScript Algorithms & Data Structures",
           "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8",
           "description": "Hands-on interactive coding challenges teaching syntax, functional programming, and algorithmic problem-solving."
         }
@@ -71,7 +71,7 @@
       "icon": "video",
       "items": [
         {
-          "title": "JavaScript Programming \u2014 Full Course (freeCodeCamp)",
+          "title": "JavaScript Programming — Full Course (freeCodeCamp)",
           "url": "https://www.youtube.com/watch?v=jS4aFq5-91M",
           "description": "A comprehensive multi-hour video masterclass covering JavaScript from scratch to professional proficiency."
         },
@@ -87,7 +87,7 @@
       "icon": "terminal",
       "items": [
         {
-          "title": "Exercism \u2014 JavaScript Track",
+          "title": "Exercism — JavaScript Track",
           "url": "https://exercism.org/tracks/javascript",
           "description": "Over 150 structured coding exercises with optional community mentoring."
         },
@@ -108,7 +108,7 @@
       "icon": "reference",
       "items": [
         {
-          "title": "Devhints \u2014 ES2015+ Cheatsheet",
+          "title": "Devhints — ES2015+ Cheatsheet",
           "url": "https://devhints.io/es6",
           "description": "A concise one-page reference covering modern ES6+ syntax: destructuring, arrow functions, promises, and modules."
         },
@@ -142,10 +142,10 @@
         {
           "title": "Reddit r/javascript",
           "url": "https://www.reddit.com/r/javascript/",
-          "description": "The largest JavaScript community on Reddit \u2014 news, discussions, show & tell, and career advice."
+          "description": "The largest JavaScript community on Reddit — news, discussions, show & tell, and career advice."
         },
         {
-          "title": "Stack Overflow \u2014 JavaScript Tag",
+          "title": "Stack Overflow — JavaScript Tag",
           "url": "https://stackoverflow.com/questions/tagged/javascript",
           "description": "The definitive Q&A forum for troubleshooting errors and resolving language bugs."
         },
@@ -159,22 +159,277 @@
   ],
   "lessons": [
     {
-      "slug": "fundamentals",
-      "title": "Fundamentals of JavaScript",
-      "description": "Core concepts, syntax, and first steps with JavaScript",
+      "slug": "js-beginner-01-values-types-variables",
+      "title": "Values, Types, and Variables",
+      "description": "Core JavaScript values — primitives, objects, type system, and variable declarations (var, let, const). Set up your dev environment and write your first program.",
       "type": "lesson",
       "order": 1,
-      "duration": "45 min",
-      "difficulty": "beginner"
+      "duration": "60 min",
+      "difficulty": "beginner",
+      "level": "Beginner",
+      "knowledge_refs": [
+        "languages/javascript/js-beginner-01-values-types-variables"
+      ]
     },
     {
-      "slug": "practical-guide",
-      "title": "Practical JavaScript Guide",
-      "description": "Real-world usage, tooling, and ecosystem",
+      "slug": "js-beginner-02-control-flow",
+      "title": "Control Flow, Operators, and Expressions",
+      "description": "Conditionals, loops, operators, and expression evaluation — the building blocks of program logic.",
       "type": "lesson",
       "order": 2,
       "duration": "60 min",
-      "difficulty": "intermediate"
+      "difficulty": "beginner",
+      "level": "Beginner",
+      "knowledge_refs": [
+        "languages/javascript/js-beginner-02-control-flow"
+      ]
+    },
+    {
+      "slug": "js-beginner-03-functions",
+      "title": "Functions: Declarations, Scope, and Arrow Functions",
+      "description": "Function declarations, expressions, arrow functions, parameters, and arguments — the core of JS modularity.",
+      "type": "lesson",
+      "order": 3,
+      "duration": "60 min",
+      "difficulty": "beginner",
+      "level": "Beginner",
+      "knowledge_refs": [
+        "languages/javascript/js-beginner-03-functions"
+      ]
+    },
+    {
+      "slug": "js-beginner-04-objects-arrays",
+      "title": "Objects, Arrays, and Collections",
+      "description": "JavaScript objects, arrays, Maps, Sets — creating, accessing, iterating, and manipulating data structures.",
+      "type": "lesson",
+      "order": 4,
+      "duration": "75 min",
+      "difficulty": "beginner",
+      "level": "Beginner",
+      "knowledge_refs": [
+        "languages/javascript/js-beginner-04-objects-arrays"
+      ]
+    },
+    {
+      "slug": "js-beginner-05-dom-browser",
+      "title": "The DOM and Browser APIs",
+      "description": "Document Object Model, DOM manipulation, event handling, and essential browser APIs.",
+      "type": "lesson",
+      "order": 5,
+      "duration": "75 min",
+      "difficulty": "beginner",
+      "level": "Beginner",
+      "knowledge_refs": [
+        "languages/javascript/js-beginner-05-dom-browser"
+      ]
+    },
+    {
+      "slug": "js-beginner-06-debugging-tools",
+      "title": "Debugging, Errors, and Developer Tools",
+      "description": "Browser DevTools, error types, try/catch/finally, stack traces, and debugging strategies.",
+      "type": "lesson",
+      "order": 6,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "level": "Beginner",
+      "knowledge_refs": [
+        "languages/javascript/js-beginner-06-debugging-tools"
+      ]
+    },
+    {
+      "slug": "js-beginner-07-project",
+      "title": "Beginner Project: Interactive Web Application",
+      "description": "Build a complete interactive web application using all beginner concepts — DOM manipulation, events, arrays, and localStorage.",
+      "type": "lesson",
+      "order": 7,
+      "duration": "120 min",
+      "difficulty": "beginner",
+      "level": "Beginner",
+      "knowledge_refs": [
+        "languages/javascript/js-beginner-07-project"
+      ]
+    },
+    {
+      "slug": "js-advanced-01-scope-closures",
+      "title": "Deep Scope, Hoisting, and Closures",
+      "description": "Lexical scope, hoisting mechanics, closure patterns, IIFEs, and the module pattern.",
+      "type": "lesson",
+      "order": 8,
+      "duration": "75 min",
+      "difficulty": "intermediate",
+      "level": "Advanced",
+      "knowledge_refs": [
+        "languages/javascript/js-advanced-01-scope-closures"
+      ]
+    },
+    {
+      "slug": "js-advanced-02-this-prototypes-classes",
+      "title": "The `this` Keyword, Prototypes, and Classes",
+      "description": "The `this` binding rules, prototype chain inheritance, and the ES6 class syntax — understanding JavaScript's unique object model.",
+      "type": "lesson",
+      "order": 9,
+      "duration": "75 min",
+      "difficulty": "intermediate",
+      "level": "Advanced",
+      "knowledge_refs": [
+        "languages/javascript/js-advanced-02-this-prototypes-classes"
+      ]
+    },
+    {
+      "slug": "js-advanced-03-async-promises",
+      "title": "Asynchronous JavaScript: Promises and Async/Await",
+      "description": "Promises, async/await, error handling in async code, and the evolution of asynchronous patterns in JavaScript.",
+      "type": "lesson",
+      "order": 10,
+      "duration": "75 min",
+      "difficulty": "intermediate",
+      "level": "Advanced",
+      "knowledge_refs": [
+        "languages/javascript/js-advanced-03-async-promises"
+      ]
+    },
+    {
+      "slug": "js-advanced-04-event-loop-concurrency",
+      "title": "The Event Loop, Microtasks, and Concurrency",
+      "description": "How the JavaScript event loop works: call stack, task queues, microtasks, requestAnimationFrame, and concurrent execution models.",
+      "type": "lesson",
+      "order": 11,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "level": "Advanced",
+      "knowledge_refs": [
+        "languages/javascript/js-advanced-04-event-loop-concurrency"
+      ]
+    },
+    {
+      "slug": "js-advanced-05-higher-order-generators",
+      "title": "Higher-Order Functions, Iterators, and Generators",
+      "description": "Functional programming patterns, custom iterables, generator functions, and async generators.",
+      "type": "lesson",
+      "order": 12,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "level": "Advanced",
+      "knowledge_refs": [
+        "languages/javascript/js-advanced-05-higher-order-generators"
+      ]
+    },
+    {
+      "slug": "js-advanced-06-modules-syntax",
+      "title": "ES6+ Modules and Modern Syntax",
+      "description": "ES modules, modern syntax features (optional chaining, nullish coalescing, logical assignment), and the evolution of JavaScript.",
+      "type": "lesson",
+      "order": 13,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "level": "Advanced",
+      "knowledge_refs": [
+        "languages/javascript/js-advanced-06-modules-syntax"
+      ]
+    },
+    {
+      "slug": "js-advanced-07-project",
+      "title": "Advanced Project: Real-Time Data Dashboard",
+      "description": "Build a real-time data dashboard using async/await, fetch, event-driven architecture, and data visualization.",
+      "type": "lesson",
+      "order": 14,
+      "duration": "120 min",
+      "difficulty": "intermediate",
+      "level": "Advanced",
+      "knowledge_refs": [
+        "languages/javascript/js-advanced-07-project"
+      ]
+    },
+    {
+      "slug": "js-expert-01-coercion-equality",
+      "title": "Type Coercion, Equality, and Grammar Deep Dive",
+      "description": "The ECMAScript specification algorithms for type coercion, abstract equality, and the syntactic grammar of JavaScript.",
+      "type": "lesson",
+      "order": 15,
+      "duration": "60 min",
+      "difficulty": "expert",
+      "level": "Expert",
+      "knowledge_refs": [
+        "languages/javascript/js-expert-01-coercion-equality"
+      ]
+    },
+    {
+      "slug": "js-expert-02-memory-performance",
+      "title": "Memory Management, GC, and Performance",
+      "description": "JavaScript memory management, garbage collection algorithms, memory leak patterns, and performance optimization techniques.",
+      "type": "lesson",
+      "order": 16,
+      "duration": "75 min",
+      "difficulty": "expert",
+      "level": "Expert",
+      "knowledge_refs": [
+        "languages/javascript/js-expert-02-memory-performance"
+      ]
+    },
+    {
+      "slug": "js-expert-03-metaprogramming",
+      "title": "Metaprogramming: Proxy, Reflect, and Symbols",
+      "description": "Metaprogramming with Proxy, Reflect API, well-known Symbols, and property descriptors — intercepting and customizing language-level operations.",
+      "type": "lesson",
+      "order": 17,
+      "duration": "60 min",
+      "difficulty": "expert",
+      "level": "Expert",
+      "knowledge_refs": [
+        "languages/javascript/js-expert-03-metaprogramming"
+      ]
+    },
+    {
+      "slug": "js-expert-04-error-patterns",
+      "title": "Error Handling Patterns and Defensive Programming",
+      "description": "Robust error handling strategies, custom error types, defensive programming, and fault-tolerant design patterns.",
+      "type": "lesson",
+      "order": 18,
+      "duration": "45 min",
+      "difficulty": "expert",
+      "level": "Expert",
+      "knowledge_refs": [
+        "languages/javascript/js-expert-04-error-patterns"
+      ]
+    },
+    {
+      "slug": "js-expert-05-browser-apis-workers",
+      "title": "Browser APIs, Web Workers, and Performance",
+      "description": "Service Workers, IndexedDB, WebSockets, Canvas, WebRTC, and advanced browser performance optimization.",
+      "type": "lesson",
+      "order": 19,
+      "duration": "60 min",
+      "difficulty": "expert",
+      "level": "Expert",
+      "knowledge_refs": [
+        "languages/javascript/js-expert-05-browser-apis-workers"
+      ]
+    },
+    {
+      "slug": "js-expert-06-module-systems-bundlers",
+      "title": "Module Systems, Bundlers, and Build Pipelines",
+      "description": "Deep dive into module resolution algorithms, bundler internals, tree-shaking, code splitting, and modern build tooling.",
+      "type": "lesson",
+      "order": 20,
+      "duration": "60 min",
+      "difficulty": "expert",
+      "level": "Expert",
+      "knowledge_refs": [
+        "languages/javascript/js-expert-06-module-systems-bundlers"
+      ]
+    },
+    {
+      "slug": "js-expert-07-ecmascript-spec-tc39",
+      "title": "ECMAScript Specification, TC39, and Future Proposals",
+      "description": "Navigating the ECMAScript specification, the TC39 standardization process, reading spec algorithms, and exploring future proposals.",
+      "type": "lesson",
+      "order": 21,
+      "duration": "60 min",
+      "difficulty": "expert",
+      "level": "Expert",
+      "knowledge_refs": [
+        "languages/javascript/js-expert-07-ecmascript-spec-tc39"
+      ]
     }
   ]
 }
