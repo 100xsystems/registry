@@ -1,91 +1,304 @@
 ---
-title: "React with TypeScript"
-description: "Typing components, props, state, events, refs, hooks, context, and higher-order components with TypeScript."
-type: lesson
-order: 18
-duration: "75 min"
-difficulty: advanced
-learning_objectives:
-  - "Type React components with PropsWithChildren and generics"
-  - "Annotate useState, useReducer, useEffect hooks"
-  - "Type event handlers and refs correctly"
-  - "Build typed context providers and custom hooks"
-knowledge_refs:
-  - typescript/ts-18-react-typescript
-prerequisites:
-  - "TS-08"
-  - "TS-11"
-references:
-    - title: "TS Handbook — JSX"
-      url: "https://www.typescriptlang.org/docs/handbook/jsx.html"
-    - title: "React TypeScript Cheatsheet"
-      url: "https://react-typescript-cheatsheet.netlify.app/"
-    - title: "TypeScript + React Guide"
-      url: "https://github.com/typescript-cheatsheets/react"
+{
+  "title": "TypeScript with React",
+  "description": "Type React components with proper prop interfaces",
+  "type": "lesson",
+  "order": 18,
+  "duration": "60 min",
+  "difficulty": "intermediate",
+  "learning_objectives": [
+    "Type React components with proper prop interfaces",
+    "Use generic components for polymorphic props",
+    "Type hooks: useState, useReducer, useContext",
+    "Type event handlers and refs correctly"
+  ],
+  "knowledge_refs": [
+    "typescript/ts-18-react-typescript"
+  ],
+  "prerequisites": [
+    "TS-08",
+    "TS-04"
+  ],
+  "references": [
+    {
+      "title": "React TypeScript Cheatsheet",
+      "url": "https://react-typescript-cheatsheet.netlify.app/"
+    },
+    {
+      "title": "TS Handbook — JSX",
+      "url": "https://www.typescriptlang.org/docs/handbook/jsx.html"
+    },
+    {
+      "title": "React Docs — TypeScript",
+      "url": "https://react.dev/learn/typescript"
+    }
+  ]
+}
 ---
 
-# TS-18-REACT-TYPESCRIPT: React with TypeScript
+# TS-18-REACT-TYPESCRIPT: TypeScript with React
 
 ## Introduction
 
-Typing components, props, state, events, refs, hooks, context, and higher-order components with TypeScript.
-
-## Learning Objectives
-
-By the end of this lesson, you will be able to:
-
-- Type React components with PropsWithChildren and generics
-- Annotate useState, useReducer, useEffect hooks
-- Type event handlers and refs correctly
-- Build typed context providers and custom hooks
+TypeScript enhances React development by catching prop errors, hook misuse, and event handler mismatches at compile time. Properly typed React components are self-documenting and reduce runtime bugs significantly.
 
 ## Key Concepts
 
-### Subtopic 1: Foundation
+### 1. Typing Component Props
 
-This section covers the foundational concepts of react with typescript. Understanding these core ideas is essential before moving to advanced topics.
+Use `interface` for props (benefits from declaration merging). Use `React.FC` sparingly — it adds `children` implicitly. Prefer explicit children typing. Leverage `React.ComponentProps<T>` for wrapping native elements.
 
-**Key points to remember:**
-- Start with the basics and build up systematically
-- Practice each concept with small code examples
-- Refer to the linked resources for deeper dives
+```typescript
+// Best practice: explicit props interface
+interface ButtonProps {
+  label: string;
+  variant?: 'primary' | 'secondary' | 'danger';
+  disabled?: boolean;
+  loading?: boolean;
+  onClick: (event: React.MouseEvent<HTMLButtonElement>) => void;
+  children?: React.ReactNode;
+}
 
-### Subtopic 2: Practical Application
+function Button({ label, variant = 'primary', disabled, loading, onClick, children }: ButtonProps) {
+  return (
+    <button
+      disabled={disabled || loading}
+      onClick={onClick}
+      className={`btn btn-${variant}`}
+    >
+      {loading ? 'Loading...' : children || label}
+    </button>
+  );
+}
 
-Apply the concepts you've learned to solve real problems. Practice is essential for mastery.
+// Wrapping native elements with component props
+interface InputProps extends React.ComponentPropsWithoutRef<'input'> {
+  label: string;
+  error?: string;
+}
 
-**Example approach:**
-1. Write small programs that exercise each concept
-2. Combine concepts to solve more complex problems
-3. Review and refactor your code for clarity
+const Input = React.forwardRef<HTMLInputElement, InputProps>(
+  ({ label, error, ...props }, ref) => (
+    <div>
+      <label>{label}</label>
+      <input ref={ref} {...props} />
+      {error && <span className='error'>{error}</span>}
+    </div>
+  )
+);
+```
 
-### Subtopic 3: Best Practices and Patterns
+### 2. Generic Components — Polymorphic Props
 
-Learn the idiomatic patterns and best practices for this topic. Writing clean, maintainable code is a hallmark of an experienced developer.
+Generic components let the caller specify the type. Common patterns include `Select<T>`, `List<T>`, and polymorphic `as` props that change the rendered element while preserving type safety.
 
-**Guidelines:**
-- Follow language conventions and style guides
-- Favor clarity over cleverness
-- Test your code thoroughly
+```typescript
+// Generic list component
+interface ListProps<T> {
+  items: T[];
+  renderItem: (item: T, index: number) => React.ReactNode;
+  keyExtractor: (item: T) => string;
+}
+
+function List<T>({ items, renderItem, keyExtractor }: ListProps<T>) {
+  return (
+    <ul>
+      {items.map((item, index) => (
+        <li key={keyExtractor(item)}>{renderItem(item, index)}</li>
+      ))}
+    </ul>
+  );
+}
+
+// Usage — type inferred from items
+<List
+  items={[{ id: 1, name: 'Alice' }, { id: 2, name: 'Bob' }]}
+  keyExtractor={(user) => String(user.id)}
+  renderItem={(user) => <span>{user.name}</span>}
+/>
+
+// Polymorphic 'as' prop
+interface TypographyProps<T extends React.ElementType> {
+  as?: T;
+  children: React.ReactNode;
+}
+
+function Typography<T extends React.ElementType = 'p'>({ as, children }: TypographyProps<T>) {
+  const Component = as || 'p';
+  return <Component>{children}</Component>;
+}
+
+// <Typography as='h1'>Heading</Typography> — renders <h1>
+```
+
+### 3. Typing Hooks: useState, useReducer, useContext
+
+TypeScript infers hook types from initial values. For complex state, provide explicit generic parameters. `useReducer` benefits from discriminated union actions.
+
+```typescript
+// useState — inference from initial value
+const [count, setCount] = useState(0);           // number
+const [name, setName] = useState('');              // string
+const [user, setUser] = useState<User | null>(null); // explicit union
+
+// useReducer with discriminated union
+type Action =
+  | { type: 'increment'; amount: number }
+  | { type: 'decrement'; amount: number }
+  | { type: 'reset' };
+
+interface CounterState {
+  value: number;
+  lastAction: string;
+}
+
+function counterReducer(state: CounterState, action: Action): CounterState {
+  switch (action.type) {
+    case 'increment':
+      return { value: state.value + action.amount, lastAction: 'increment' };
+    case 'decrement':
+      return { value: state.value - action.amount, lastAction: 'decrement' };
+    case 'reset':
+      return { value: 0, lastAction: 'reset' };
+    default:
+      const _exhaustive: never = action;
+      return state;
+  }
+}
+
+// useContext with custom hook
+interface ThemeContextType {
+  theme: 'light' | 'dark';
+  toggleTheme: () => void;
+}
+const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
+
+function useTheme(): ThemeContextType {
+  const ctx = useContext(ThemeContext);
+  if (!ctx) throw new Error('useTheme must be used inside ThemeProvider');
+  return ctx;
+}
+```
+
+### 4. Event Handlers and Refs
+
+React event types are parameterized generics: `React.ChangeEvent<HTMLInputElement>`, `React.FormEvent<HTMLFormElement>`. Refs use `useRef<T>` with union types for mutable vs immutable refs.
+
+```typescript
+// Typed event handlers
+function Form() {
+  const [value, setValue] = useState('');
+
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setValue(e.target.value);
+  };
+
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    console.log('Submitted:', value);
+  };
+
+  const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
+    if (e.key === 'Enter') {
+      console.log('Enter pressed');
+    }
+  };
+
+  return (
+    <form onSubmit={handleSubmit}>
+      <input value={value} onChange={handleChange} onKeyDown={handleKeyDown} />
+    </form>
+  );
+}
+
+// Typed refs
+function AutoFocusInput() {
+  const inputRef = useRef<HTMLInputElement>(null);  // mutable ref
+
+  useEffect(() => {
+    // null check required because ref could be null
+    inputRef.current?.focus();
+  }, []);
+
+  return <input ref={inputRef} />;
+}
+
+// Callback ref for dynamic ref assignment
+function MeasuredDiv() {
+  const [width, setWidth] = useState(0);
+  const measuredRef = useCallback((node: HTMLDivElement | null) => {
+    if (node !== null) {
+      setWidth(node.getBoundingClientRect().width);
+    }
+  }, []);
+
+  return <div ref={measuredRef}>Width: {width}px</div>;
+}
+```
+
+### 5. Higher-Order Components and Render Props
+
+HOCs and render props benefit from generics. A typed HOC preserves the wrapped component's props while adding new ones. Render props use generic interfaces to type the children function.
+
+```typescript
+// Typed HOC — adds loading state
+interface WithLoadingProps {
+  loading: boolean;
+}
+
+function withLoading<T extends object>(
+  Component: React.ComponentType<T & { loading: boolean }>
+) {
+  return function WrappedComponent(props: T) {
+    const [loading, setLoading] = useState(false);
+    return <Component {...props} loading={loading} />;
+  };
+}
+
+// Typed render props
+interface DataFetcherProps<T> {
+  url: string;
+  children: (state: AsyncState<T>) => React.ReactNode;
+}
+
+function DataFetcher<T>({ url, children }: DataFetcherProps<T>) {
+  const [state, setState] = useState<AsyncState<T>>({ status: 'loading' });
+
+  useEffect(() => {
+    fetch(url)
+      .then(res => res.json())
+      .then(data => setState({ status: 'success', data, timestamp: Date.now() }))
+      .catch(error => setState({ status: 'error', error }));
+  }, [url]);
+
+  return <>{children(state)}</>;
+}
+
+// Usage
+<DataFetcher<User[]> url='/api/users'>
+  {(state) => {
+    if (state.status === 'loading') return <Spinner />;
+    if (state.status === 'error') return <Error msg={state.error.message} />;
+    return <UserList users={state.data} />;
+  }}
+</DataFetcher>
+```
 
 ## Practice Questions
 
-1. What are the key concepts covered in this lesson?
-2. Write a small program that demonstrates at least two concepts from this lesson.
-3. How would you explain this topic to a fellow developer?
+1. Why is `React.FC` often discouraged for component typing? What alternative is preferred?
+1. How do generic components with `T extends unknown[]` enable type-safe list rendering?
+1. What is the type of `event.target.value` in an `onChange` handler for `<input type="checkbox">` vs `<input type="text">`?
+1. Write a typed HOC that adds authentication check to any component.
 
 ## LLM Prompts for Deeper Understanding
 
-1. "Explain React with TypeScript with analogies and examples"
-2. "Show me common mistakes beginners make with react with typescript"
-3. "Provide advanced patterns and real-world use cases for react with typescript"
+1. "Explain TypeScript with React: typing props, state, events, and refs comprehensively"
+1. "Show me generic React component patterns for polymorphic and data-fetching components"
+1. "Teach me typed HOC and render props patterns in TypeScript React"
 
 ## Key Takeaways
 
-- Solidify your understanding of react with typescript
-- Practice with real code, not just theory
-- Explore the reference resources for in-depth coverage
-
-## Further Reading
-
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+- Use explicit prop interfaces instead of `React.FC` for better type safety
+- Generic components enable type-safe reusable patterns like `<List<T>>`
+- useReducer with discriminated union actions ensures exhaustive case handling

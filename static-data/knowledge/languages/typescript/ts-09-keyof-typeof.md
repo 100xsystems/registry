@@ -1,90 +1,192 @@
 ---
-title: "Keyof, Typeof, and Indexed Access Types"
-description: "The keyof operator, typeof operator, indexed access types, and building type-safe lookup patterns."
-type: lesson
-order: 9
-duration: "45 min"
-difficulty: intermediate
-learning_objectives:
-  - "Use keyof T to get union of property keys"
-  - "Extract types with indexed access (T[K])"
-  - "Use typeof to capture variable types"
-  - "Build type-safe object lookup functions"
-knowledge_refs:
-  - typescript/ts-09-keyof-typeof
-prerequisites:
-  - "TS-08"
-references:
-    - title: "TS Handbook — keyof Types"
-      url: "https://www.typescriptlang.org/docs/handbook/2/keyof-types.html"
-    - title: "TS Handbook — Typeof Types"
-      url: "https://www.typescriptlang.org/docs/handbook/2/typeof-types.html"
-    - title: "TS Handbook — Indexed Access Types"
-      url: "https://www.typescriptlang.org/docs/handbook/2/indexed-access-types.html"
+{
+  "title": "keyof, typeof, and Type Operators",
+  "description": "Use keyof to extract property keys from a type",
+  "type": "lesson",
+  "order": 9,
+  "duration": "60 min",
+  "difficulty": "intermediate",
+  "learning_objectives": [
+    "Use keyof to extract property keys from a type",
+    "Use typeof to capture runtime value types",
+    "Combine keyof and typeof for dynamic access patterns",
+    "Master indexed access types (T[K]) for property value extraction"
+  ],
+  "knowledge_refs": [
+    "typescript/ts-09-keyof-typeof"
+  ],
+  "prerequisites": [
+    "TS-02",
+    "TS-08"
+  ],
+  "references": [
+    {
+      "title": "TS Handbook — keyof",
+      "url": "https://www.typescriptlang.org/docs/handbook/2/keyof-types.html"
+    },
+    {
+      "title": "TS Handbook — typeof Type",
+      "url": "https://www.typescriptlang.org/docs/handbook/2/typeof-types.html"
+    },
+    {
+      "title": "TS Handbook — Indexed Access Types",
+      "url": "https://www.typescriptlang.org/docs/handbook/2/indexed-access-types.html"
+    }
+  ]
+}
 ---
 
-# TS-09-KEYOF-TYPEOF: Keyof, Typeof, and Indexed Access Types
+# TS-09-KEYOF-TYPEOF: keyof, typeof, and Type Operators
 
 ## Introduction
 
-The keyof operator, typeof operator, indexed access types, and building type-safe lookup patterns.
-
-## Learning Objectives
-
-By the end of this lesson, you will be able to:
-
-- Use keyof T to get union of property keys
-- Extract types with indexed access (T[K])
-- Use typeof to capture variable types
-- Build type-safe object lookup functions
+TypeScript provides operators that let you derive new types from existing ones at the type level. `keyof` gets the union of property keys; `typeof` captures the type of a runtime value. Combined with indexed access (`T[K]`), these form the foundation of advanced type transformation.
 
 ## Key Concepts
 
-### Subtopic 1: Foundation
+### 1. keyof — Get Union of Property Keys
 
-This section covers the foundational concepts of keyof, typeof, and indexed access types. Understanding these core ideas is essential before moving to advanced topics.
+`keyof T` yields a union of all known property keys of `T`. For a type with keys `a`, `b`, `c`, `keyof T` is `'a' | 'b' | 'c'`. This is essential for type-safe dynamic property access.
 
-**Key points to remember:**
-- Start with the basics and build up systematically
-- Practice each concept with small code examples
-- Refer to the linked resources for deeper dives
+```typescript
+interface Person {
+  name: string;
+  age: number;
+  email?: string;
+}
 
-### Subtopic 2: Practical Application
+type PersonKeys = keyof Person;  // 'name' | 'age' | 'email'
 
-Apply the concepts you've learned to solve real problems. Practice is essential for mastery.
+// Practical use: type-safe getter
+function get<T, K extends keyof T>(obj: T, key: K): T[K] {
+  return obj[key];
+}
 
-**Example approach:**
-1. Write small programs that exercise each concept
-2. Combine concepts to solve more complex problems
-3. Review and refactor your code for clarity
+const p: Person = { name: 'Alice', age: 30 };
+const n = get(p, 'name');  // string
+const a = get(p, 'age');   // number
+// get(p, 'ssn');          // Error
 
-### Subtopic 3: Best Practices and Patterns
+// keyof with arrays
+type ArrayKeys = keyof [string, number];  // '0' | '1' | keyof any[]
+```
 
-Learn the idiomatic patterns and best practices for this topic. Writing clean, maintainable code is a hallmark of an experienced developer.
+### 2. typeof — Capture Runtime Type
 
-**Guidelines:**
-- Follow language conventions and style guides
-- Favor clarity over cleverness
-- Test your code thoroughly
+`typeof` in type position captures the static type of a runtime value. This is useful when you want to reuse a type inferred from an object literal, function, or class.
+
+```typescript
+const config = {
+  host: 'localhost',
+  port: 3000,
+  ssl: false,
+} as const;
+
+type Config = typeof config;
+// {
+//   readonly host: "localhost";
+//   readonly port: 3000;
+//   readonly ssl: false;
+// }
+
+// typeof for functions
+function createUser(name: string, age: number) {
+  return { id: crypto.randomUUID(), name, age };
+}
+type CreateUserFn = typeof createUser;
+// (name: string, age: number) => { id: string; name: string; age: number }
+
+// typeof for classes
+class Service { /* ... */ }
+type ServiceType = typeof Service;  // the constructor type
+```
+
+### 3. keyof + typeof = Dynamic from Runtime
+
+Combine `keyof typeof` to derive a union of keys from a runtime object. This is the most common pattern for creating types from const objects — replacing enums without the baggage.
+
+```typescript
+export const Colors = {
+  Red: '#FF0000',
+  Green: '#00FF00',
+  Blue: '#0000FF',
+} as const;
+
+type ColorName = keyof typeof Colors;
+// 'Red' | 'Green' | 'Blue'
+
+type HexValue = (typeof Colors)[ColorName];
+// '#FF0000' | '#00FF00' | '#0000FF'
+
+function getColor(name: ColorName): HexValue {
+  return Colors[name];  // fully type-safe
+}
+```
+
+### 4. Indexed Access Types (Lookup Types)
+
+`T[K]` gives you the type of property `K` on type `T`. When `K` is a union, the result is the union of property types. This is how you extract nested types from complex structures.
+
+```typescript
+interface ApiResponse {
+  status: number;
+  data: {
+    users: { id: number; name: string }[];
+    pagination: { page: number; total: number };
+  };
+}
+
+type DataType = ApiResponse['data'];
+// { users: { id: number; name: string }[]; pagination: { page: number; total: number } }
+
+type UserType = ApiResponse['data']['users'][number];
+// { id: number; name: string }
+
+// Union index access
+type Mixed = { a: string; b: number; c: boolean };
+type AB = Mixed['a' | 'b'];  // string | number
+type All = Mixed[keyof Mixed];  // string | number | boolean
+```
+
+### 5. Template Literal Types with keyof
+
+TypeScript 4.1+ supports **template literal types**, which can be combined with `keyof` to create computed property name patterns — like event names derived from component names.
+
+```typescript
+type EventName<T extends string> = `${T}Changed` | `${T}Clicked`;
+
+type ButtonEvents = EventName<'submit'>;
+// 'submitChanged' | 'submitClicked'
+
+// Real-world: model state change events
+type StateEvents<T> = {
+  [K in keyof T as `on${Capitalize<string & K>}Change`]: (value: T[K]) => void;
+};
+
+interface FormState {
+  email: string;
+  age: number;
+}
+
+type FormEvents = StateEvents<FormState>;
+// { onEmailChange: (value: string) => void; onAgeChange: (value: number) => void }
+```
 
 ## Practice Questions
 
-1. What are the key concepts covered in this lesson?
-2. Write a small program that demonstrates at least two concepts from this lesson.
-3. How would you explain this topic to a fellow developer?
+1. What does `keyof { a: string; b: number; c?: boolean }` evaluate to?
+1. Using `typeof` on an const object with `as const`, what type do you get?
+1. Write an indexed access type that extracts the resolved value type from `Promise<string>` without `infer`.
+1. How would you use template literal types with keyof to rename object keys (prefixing each key with "get")?
 
 ## LLM Prompts for Deeper Understanding
 
-1. "Explain Keyof, Typeof, and Indexed Access Types with analogies and examples"
-2. "Show me common mistakes beginners make with keyof, typeof, and indexed access types"
-3. "Provide advanced patterns and real-world use cases for keyof, typeof, and indexed access types"
+1. "Explain keyof, typeof, and indexed access types in TypeScript with real-world examples"
+1. "Show me how to combine keyof typeof to create types from const objects in TypeScript"
+1. "Teach me template literal types in TypeScript 4.1+ with key remapping examples"
 
 ## Key Takeaways
 
-- Solidify your understanding of keyof, typeof, and indexed access types
-- Practice with real code, not just theory
-- Explore the reference resources for in-depth coverage
-
-## Further Reading
-
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+- `keyof T` extracts the union of property keys as a type
+- `typeof val` in type position captures the static type of a runtime value
+- Indexed access `T[K]` extracts property value types — works with unions and nesting

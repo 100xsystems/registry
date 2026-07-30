@@ -1,91 +1,207 @@
 ---
-title: "Generics: Basics and Constraints"
-description: "Generic functions, generic constraints, generic interfaces, default types, and covariance/contravariance."
-type: lesson
-order: 8
-duration: "75 min"
-difficulty: intermediate
-learning_objectives:
-  - "Write generic functions with type parameters"
-  - "Constrain generics with extends clauses"
-  - "Create generic interfaces and classes"
-  - "Understand variance: covariance, contravariance, invariance"
-knowledge_refs:
-  - typescript/ts-08-generics
-prerequisites:
-  - "TS-04"
-  - "TS-06"
-references:
-    - title: "TS Handbook — Generics"
-      url: "https://www.typescriptlang.org/docs/handbook/2/generics.html"
-    - title: "TS Handbook — Generic Constraints"
-      url: "https://www.typescriptlang.org/docs/handbook/2/generics.html#generic-constraints"
-    - title: "TypeScript Deep Dive — Generics"
-      url: "https://basarat.gitbook.io/typescript/type-system/generics"
+{
+  "title": "Generics: Basics and Constraints",
+  "description": "Write generic functions with type parameters",
+  "type": "lesson",
+  "order": 8,
+  "duration": "75 min",
+  "difficulty": "intermediate",
+  "learning_objectives": [
+    "Write generic functions with type parameters",
+    "Constrain generics with extends clauses",
+    "Create generic interfaces and classes",
+    "Understand variance: covariance, contravariance, invariance"
+  ],
+  "knowledge_refs": [
+    "typescript/ts-08-generics"
+  ],
+  "prerequisites": [
+    "TS-04",
+    "TS-06"
+  ],
+  "references": [
+    {
+      "title": "TS Handbook — Generics",
+      "url": "https://www.typescriptlang.org/docs/handbook/2/generics.html"
+    },
+    {
+      "title": "TS Handbook — Generic Constraints",
+      "url": "https://www.typescriptlang.org/docs/handbook/2/generics.html#generic-constraints"
+    },
+    {
+      "title": "TypeScript Deep Dive — Generics",
+      "url": "https://basarat.gitbook.io/typescript/type-system/generics"
+    }
+  ]
+}
 ---
 
 # TS-08-GENERICS: Generics: Basics and Constraints
 
 ## Introduction
 
-Generic functions, generic constraints, generic interfaces, default types, and covariance/contravariance.
-
-## Learning Objectives
-
-By the end of this lesson, you will be able to:
-
-- Write generic functions with type parameters
-- Constrain generics with extends clauses
-- Create generic interfaces and classes
-- Understand variance: covariance, contravariance, invariance
+Generics are the backbone of reusable, type-safe code in TypeScript. They allow functions, classes, and types to operate with a variety of types while preserving type information. Without generics, you'd have to use `any` — losing all type safety.
 
 ## Key Concepts
 
-### Subtopic 1: Foundation
+### 1. Generic Functions — Type Parameters in Action
 
-This section covers the foundational concepts of generics: basics and constraints. Understanding these core ideas is essential before moving to advanced topics.
+Type parameters are placeholders for actual types, inferred from usage. The classic example is `identity<T>`. Multiple type parameters are allowed, and you can provide explicit types if inference fails.
 
-**Key points to remember:**
-- Start with the basics and build up systematically
-- Practice each concept with small code examples
-- Refer to the linked resources for deeper dives
+```typescript
+// Basic generic function
+function identity<T>(arg: T): T {
+  return arg;
+}
+const num = identity(42);        // T inferred as number
+const str = identity('hello');   // T inferred as string
 
-### Subtopic 2: Practical Application
+// Multiple type parameters
+function pair<A, B>(a: A, b: B): [A, B] {
+  return [a, b];
+}
+const p = pair('key', 123);  // type: [string, number]
 
-Apply the concepts you've learned to solve real problems. Practice is essential for mastery.
+// Generic arrow functions (note the trailing comma for JSX)
+const wrap = <T,>(value: T): { value: T } => ({ value });
+```
 
-**Example approach:**
-1. Write small programs that exercise each concept
-2. Combine concepts to solve more complex problems
-3. Review and refactor your code for clarity
+### 2. Generic Constraints with extends
 
-### Subtopic 3: Best Practices and Patterns
+Without constraints, a generic function cannot access any properties on `T` (since `T` could be anything). The `extends` clause constrains `T` to types that have certain properties, unlocking property access.
 
-Learn the idiomatic patterns and best practices for this topic. Writing clean, maintainable code is a hallmark of an experienced developer.
+```typescript
+interface HasLength {
+  length: number;
+}
 
-**Guidelines:**
-- Follow language conventions and style guides
-- Favor clarity over cleverness
-- Test your code thoroughly
+function logLength<T extends HasLength>(arg: T): T {
+  console.log(arg.length);  // OK — constrained to HasLength
+  return arg;
+}
+
+logLength('hello');       // string has length
+logLength([1, 2, 3]);     // array has length
+// logLength(42);         // Error: number has no length
+
+// Constraint with keyof — ensure a property exists
+function getProperty<T, K extends keyof T>(obj: T, key: K): T[K] {
+  return obj[key];
+}
+const user = { name: 'Alice', age: 30 };
+getProperty(user, 'name');  // string
+// getProperty(user, 'email'); // Error
+```
+
+### 3. Generic Interfaces and Classes
+
+Both interfaces and classes can accept type parameters. This enables reusable abstractions like `ApiResponse<T>`, `Repository<T>`, and `Stack<T>`.
+
+```typescript
+interface ApiResponse<T> {
+  data: T;
+  status: number;
+  message: string;
+}
+
+type UserResponse = ApiResponse<{ id: number; name: string }>;
+
+// Generic class
+class Stack<T> {
+  private items: T[] = [];
+
+  push(item: T): void {
+    this.items.push(item);
+  }
+
+  pop(): T | undefined {
+    return this.items.pop();
+  }
+
+  peek(): T | undefined {
+    return this.items[this.items.length - 1];
+  }
+
+  get length(): number {
+    return this.items.length;
+  }
+}
+
+const numStack = new Stack<number>();
+numStack.push(1);
+numStack.push(2);
+console.log(numStack.pop());  // 2
+```
+
+### 4. Default Type Parameters
+
+Type parameters can have **defaults**, just like function parameters. This is useful when most callers use a common type but advanced users can override it.
+
+```typescript
+interface EventEmitter<T = string> {
+  on(event: T, handler: (data: unknown) => void): void;
+  emit(event: T, data: unknown): void;
+}
+
+// Uses default (string)
+const emitter1: EventEmitter = {
+  on(event: string, handler) { /* ... */ },
+  emit(event: string, data) { /* ... */ },
+};
+
+// Override with union
+type MyEvents = 'click' | 'hover' | 'focus';
+const emitter2: EventEmitter<MyEvents> = {
+  on(event: 'click' | 'hover' | 'focus', handler) { },
+  emit(event: 'click' | 'hover' | 'focus', data) { },
+};
+```
+
+### 5. Variance: Covariance, Contravariance, Invariance
+
+Variance describes how generic types relate when their type parameters change. This matters for function arguments (contravariant) and return types (covariant). TypeScript structurally checks variance for methods.
+
+```typescript
+// Covariant — return type (producer)
+interface Producer<T> {
+  produce(): T;
+}
+// Producer<Cat> is assignable to Producer<Animal>
+
+// Contravariant — argument type (consumer)
+interface Consumer<T> {
+  consume(value: T): void;
+}
+// Consumer<Animal> is assignable to Consumer<Cat>
+
+// Invariant — both
+interface Box<T> {
+  get(): T;
+  set(value: T): void;
+}
+
+// Practical example: function parameters are contravariant
+type Logger = (msg: string) => void;
+const log: Logger = (msg: string | number) => {  // wider param OK
+  console.log(msg);
+};
+```
 
 ## Practice Questions
 
-1. What are the key concepts covered in this lesson?
-2. Write a small program that demonstrates at least two concepts from this lesson.
-3. How would you explain this topic to a fellow developer?
+1. Why can't you access `.length` on a generic `T` without a constraint?
+1. Write a generic function that extracts a value by key from an object, ensuring the key exists on the object type.
+1. What is the difference between a generic class and a non-generic class that uses `any`?
+1. Explain why `Producer<Cat>` is assignable to `Producer<Animal>` (covariance) but `Consumer<Animal>` is assignable to `Consumer<Cat>` (contravariance).
 
 ## LLM Prompts for Deeper Understanding
 
-1. "Explain Generics: Basics and Constraints with analogies and examples"
-2. "Show me common mistakes beginners make with generics: basics and constraints"
-3. "Provide advanced patterns and real-world use cases for generics: basics and constraints"
+1. "Explain TypeScript generic constraints with keyof and extends patterns"
+1. "Show me variance in TypeScript — covariance, contravariance, and invariance with examples"
+1. "Teach me advanced generic patterns: conditional returns, mapped generics, and variadic tuples"
 
 ## Key Takeaways
 
-- Solidify your understanding of generics: basics and constraints
-- Practice with real code, not just theory
-- Explore the reference resources for in-depth coverage
-
-## Further Reading
-
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+- Generics preserve type information across reusable functions and classes
+- The `extends` clause constrains type parameters to enforce property access
+- Variance determines assignability of generic types — functions are contravariant in parameters

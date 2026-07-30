@@ -1,90 +1,234 @@
 ---
-title: "Async/Await and Promise Typing"
-description: "Typing async functions, Promise generics, async iterators, error handling patterns, and Promise.all/race/allSettled typing."
-type: lesson
-order: 15
-duration: "60 min"
-difficulty: intermediate
-learning_objectives:
-  - "Type async functions with correct return types"
-  - "Use Promise generic types effectively"
-  - "Type Promise.all, Promise.race, and Promise.allSettled"
-  - "Handle async errors with discriminated unions"
-knowledge_refs:
-  - typescript/ts-15-async-promises
-prerequisites:
-  - "TS-08"
-references:
-    - title: "TS Handbook — Async/Await"
-      url: "https://www.typescriptlang.org/docs/handbook/release-notes/typescript-1-7.html"
-    - title: "TS Handbook — Promise Type"
-      url: "https://www.typescriptlang.org/docs/handbook/2/conditional-types.html#inferring-within-conditional-types"
-    - title: "Effective TypeScript — Promises"
-      url: "https://effectivetypescript.com/"
+{
+  "title": "Async Patterns and Promises",
+  "description": "Type async functions and Promise return types properly",
+  "type": "lesson",
+  "order": 15,
+  "duration": "60 min",
+  "difficulty": "intermediate",
+  "learning_objectives": [
+    "Type async functions and Promise return types properly",
+    "Handle async error patterns with Result types",
+    "Use Promise.all, allSettled, race, any with correct types",
+    "Chain and compose asynchronous operations"
+  ],
+  "knowledge_refs": [
+    "typescript/ts-15-async-promises"
+  ],
+  "prerequisites": [
+    "TS-03",
+    "TS-08"
+  ],
+  "references": [
+    {
+      "title": "TS Handbook — Promises",
+      "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#working-with-promises"
+    },
+    {
+      "title": "MDN — Promise API",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises"
+    },
+    {
+      "title": "TypeScript Deep Dive — Async Patterns",
+      "url": "https://basarat.gitbook.io/typescript/future-javascript/async-await"
+    }
+  ]
+}
 ---
 
-# TS-15-ASYNC-PROMISES: Async/Await and Promise Typing
+# TS-15-ASYNC-PROMISES: Async Patterns and Promises
 
 ## Introduction
 
-Typing async functions, Promise generics, async iterators, error handling patterns, and Promise.all/race/allSettled typing.
-
-## Learning Objectives
-
-By the end of this lesson, you will be able to:
-
-- Type async functions with correct return types
-- Use Promise generic types effectively
-- Type Promise.all, Promise.race, and Promise.allSettled
-- Handle async errors with discriminated unions
+TypeScript fully types async/await, Promise chains, and Promise combinators. Properly typed async code catches errors at compile time — missing awaits, incompatible Promise return types, and unhandled rejection paths become visible immediately.
 
 ## Key Concepts
 
-### Subtopic 1: Foundation
+### 1. Async Function Return Types
 
-This section covers the foundational concepts of async/await and promise typing. Understanding these core ideas is essential before moving to advanced topics.
+An `async` function always returns a `Promise`. TypeScript infers this automatically from the return value. You can also explicitly type the resolved value using `Promise<T>`.
 
-**Key points to remember:**
-- Start with the basics and build up systematically
-- Practice each concept with small code examples
-- Refer to the linked resources for deeper dives
+```typescript
+// Inferred return type
+async function fetchUser(id: string) {
+  const res = await fetch(`/api/users/${id}`);
+  return res.json() as Promise<User>;
+}
+// Return type: Promise<User>
 
-### Subtopic 2: Practical Application
+// Explicit return type — catches mistakes
+async function createUser(data: CreateUserInput): Promise<User> {
+  const res = await fetch('/api/users', {
+    method: 'POST',
+    body: JSON.stringify(data),
+  });
+  if (!res.ok) throw new Error('Failed to create user');
+  return res.json();
+}
 
-Apply the concepts you've learned to solve real problems. Practice is essential for mastery.
+// Non-async function returning Promise
+function getData(): Promise<string> {
+  return Promise.resolve('data');
+}
+```
 
-**Example approach:**
-1. Write small programs that exercise each concept
-2. Combine concepts to solve more complex problems
-3. Review and refactor your code for clarity
+### 2. Promise Combinators — Typed Parallel Execution
 
-### Subtopic 3: Best Practices and Patterns
+TypeScript correctly types `Promise.all`, `Promise.allSettled`, `Promise.race`, and `Promise.any`. `Promise.all` returns a tuple type; `allSettled` discriminates between fulfilled and rejected results.
 
-Learn the idiomatic patterns and best practices for this topic. Writing clean, maintainable code is a hallmark of an experienced developer.
+```typescript
+// Promise.all — tuple return type
+async function loadDashboard(): Promise<[User[], number, string]> {
+  const [users, count, version] = await Promise.all([
+    fetchUsers(),           // Promise<User[]>
+    fetchUserCount(),       // Promise<number>
+    fetchVersion(),         // Promise<string>
+  ]);
+  return [users, count, version];
+}
 
-**Guidelines:**
-- Follow language conventions and style guides
-- Favor clarity over cleverness
-- Test your code thoroughly
+// Promise.allSettled — handle partial failures
+interface LoadResult {
+  users?: User[];
+  posts?: Post[];
+  error: boolean;
+}
+
+async function loadAll(): Promise<LoadResult> {
+  const results = await Promise.allSettled([
+    fetchUsers(),
+    fetchPosts(),
+  ]);
+
+  const [usersResult, postsResult] = results;
+  return {
+    users: usersResult.status === 'fulfilled' ? usersResult.value : undefined,
+    posts: postsResult.status === 'fulfilled' ? postsResult.value : undefined,
+    error: results.some(r => r.status === 'rejected'),
+  };
+}
+```
+
+### 3. Error Handling with Result Types
+
+Instead of try/catch everywhere, use a **Result type** to make errors explicit in the type system. This pattern is common in Rust-inspired TypeScript, making error paths visible in function signatures.
+
+```typescript
+type Result<T, E = Error> =
+  | { ok: true; value: T }
+  | { ok: false; error: E };
+
+async function safeFetch<T>(url: string): Promise<Result<T>> {
+  try {
+    const res = await fetch(url);
+    if (!res.ok) {
+      return { ok: false, error: new Error(`HTTP ${res.status}`) };
+    }
+    const data = await res.json();
+    return { ok: true, value: data as T };
+  } catch (err) {
+    return { ok: false, error: err instanceof Error ? err : new Error('Unknown') };
+  }
+}
+
+// Usage — must handle both cases
+const result = await safeFetch<User[]>('/api/users');
+if (result.ok) {
+  console.log(result.value.length);  // narrowed to T
+} else {
+  console.error(result.error.message);  // narrowed to Error
+}
+```
+
+### 4. Async Generators and Async Iterators
+
+TypeScript supports **async generators** and **async iterators**. An async generator yields `Promise<T>` values and can be consumed with `for await...of`. Useful for pagination, streams, and batched processing.
+
+```typescript
+// Async generator for paginated API
+async function* paginate<T>(
+  url: string,
+  pageSize: number = 100
+): AsyncGenerator<T[], void, undefined> {
+  let page = 1;
+  while (true) {
+    const res = await fetch(`${url}?page=${page}&limit=${pageSize}`);
+    const data = await res.json();
+    if (data.items.length === 0) return;
+    yield data.items as T[];
+    page++;
+  }
+}
+
+// Consume with for await...of
+async function loadAllUsers() {
+  const allUsers: User[] = [];
+  for await (const batch of paginate<User>('/api/users')) {
+    allUsers.push(...batch);
+    if (allUsers.length >= 1000) break;
+  }
+  return allUsers;
+}
+```
+
+### 5. Async Error Boundaries and Timeouts
+
+Type-safe error boundaries and timeout patterns prevent hanging promises and propagate errors correctly. A typed `withTimeout` wrapper makes timeout logic reusable.
+
+```typescript
+// Typed timeout wrapper
+async function withTimeout<T>(
+  promise: Promise<T>,
+  ms: number,
+  errorMsg?: string
+): Promise<T> {
+  const timeout = new Promise<never>((_, reject) => {
+    setTimeout(() => reject(new Error(errorMsg || `Timed out after ${ms}ms`)), ms);
+  });
+  return Promise.race([promise, timeout]);
+}
+
+// Retry with exponential backoff
+async function withRetry<T>(
+  fn: () => Promise<T>,
+  maxRetries: number = 3
+): Promise<T> {
+  for (let attempt = 1; attempt <= maxRetries; attempt++) {
+    try {
+      return await fn();
+    } catch (err) {
+      if (attempt === maxRetries) throw err;
+      await new Promise(resolve =>
+        setTimeout(resolve, Math.min(1000 * Math.pow(2, attempt - 1), 10000))
+      );
+    }
+  }
+  throw new Error('Unreachable');
+}
+
+// Usage
+const user = await withTimeout(
+  withRetry(() => fetchUser('123')),
+  5000,
+  'Fetch user timed out'
+);
+```
 
 ## Practice Questions
 
-1. What are the key concepts covered in this lesson?
-2. Write a small program that demonstrates at least two concepts from this lesson.
-3. How would you explain this topic to a fellow developer?
+1. What is the return type of an async function that returns `string`? What about one that throws?
+1. What is the difference between `Promise.all` and `Promise.allSettled` in terms of error handling?
+1. Write a typed `withRetry` function that takes a `() => Promise<T>` and retries up to 3 times.
+1. How does the `Result` type pattern improve error handling compared to try/catch?
 
 ## LLM Prompts for Deeper Understanding
 
-1. "Explain Async/Await and Promise Typing with analogies and examples"
-2. "Show me common mistakes beginners make with async/await and promise typing"
-3. "Provide advanced patterns and real-world use cases for async/await and promise typing"
+1. "Explain TypeScript Promise combinator types (all, allSettled, race, any) with real examples"
+1. "Show me the Result type pattern for explicit error handling in TypeScript"
+1. "Teach me async generator patterns for paginated API consumption in TypeScript"
 
 ## Key Takeaways
 
-- Solidify your understanding of async/await and promise typing
-- Practice with real code, not just theory
-- Explore the reference resources for in-depth coverage
-
-## Further Reading
-
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+- Async functions always return `Promise<T>` — TypeScript infers `T` from the returned value
+- `Promise.all` returns a tuple; `allSettled` discriminates between success and failure
+- The `Result<T, E>` pattern makes error paths explicit in function signatures

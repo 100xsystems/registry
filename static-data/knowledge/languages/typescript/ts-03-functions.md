@@ -6,85 +6,136 @@ order: 3
 duration: "60 min"
 difficulty: beginner
 learning_objectives:
-  - "Annotate function parameters and return types"
-  - "Use optional, default, and rest parameters"
-  - "Write function overloads for different call patterns"
-  - "Type the `this` keyword correctly"
+  - "Annotate function parameters and return types with TypeScript"
+  - "Use optional, default, rest parameters correctly"
+  - "Write function overloads for polymorphic call patterns"
+  - "Type the `this` keyword in callbacks and methods"
 knowledge_refs:
   - typescript/ts-03-functions
 prerequisites:
   - "TS-02"
 references:
-    - title: "TS Handbook — More on Functions"
-      url: "https://www.typescriptlang.org/docs/handbook/2/functions.html"
-    - title: "TS Handbook — Function Type Expressions"
-      url: "https://www.typescriptlang.org/docs/handbook/2/functions.html#function-type-expressions"
-    - title: "TypeScript Deep Dive — Functions"
-      url: "https://basarat.gitbook.io/typescript/type-system/functions"
+  - title: "TS Handbook — More on Functions"
+    url: "https://www.typescriptlang.org/docs/handbook/2/functions.html"
+  - title: "TS Handbook — Function Overloads"
+    url: "https://www.typescriptlang.org/docs/handbook/2/functions.html#function-overloads"
+  - title: "TypeScript Deep Dive — Functions"
+    url: "https://basarat.gitbook.io/typescript/type-system/functions"
 ---
 
-# TS-03-FUNCTIONS: Functions and Function Types
+# TS-03: Functions and Function Types
 
 ## Introduction
 
-Function type annotations, optional/default/rest parameters, overloads, this typing, and call signatures.
+Functions are the fundamental building block of TypeScript applications. TypeScript enhances JavaScript functions with type annotations for parameters and return values, overloads, and `this` parameter typing.
 
-## Learning Objectives
+## Basic Function Types
 
-By the end of this lesson, you will be able to:
+Every function in TypeScript has a type based on its parameters and return value:
 
-- Annotate function parameters and return types
-- Use optional, default, and rest parameters
-- Write function overloads for different call patterns
-- Type the `this` keyword correctly
+```typescript
+// Named function with type annotations
+function add(a: number, b: number): number {
+  return a + b;
+}
 
-## Key Concepts
+// Arrow function
+const subtract = (a: number, b: number): number => a - b;
 
-### Subtopic 1: Foundation
+// Function type expression — describes the shape of a function
+type MathOp = (a: number, b: number) => number;
+const multiply: MathOp = (x, y) => x * y;  // Types inferred from MathOp
+```
 
-This section covers the foundational concepts of functions and function types. Understanding these core ideas is essential before moving to advanced topics.
+## Optional and Default Parameters
 
-**Key points to remember:**
-- Start with the basics and build up systematically
-- Practice each concept with small code examples
-- Refer to the linked resources for deeper dives
+```typescript
+// Optional parameter with ? → must come after required params
+function greet(name: string, greeting?: string): string {
+  return `${greeting ?? "Hello"}, ${name}!`;
+}
 
-### Subtopic 2: Practical Application
+// Default parameter — acts as optional automatically
+function createUrl(path: string, base: string = "https://example.com"): string {
+  return `${base}/${path}`;
+}
 
-Apply the concepts you've learned to solve real problems. Practice is essential for mastery.
+// Rest parameters — collects remaining arguments into an array
+function sum(...numbers: number[]): number {
+  return numbers.reduce((a, b) => a + b, 0);
+}
+```
 
-**Example approach:**
-1. Write small programs that exercise each concept
-2. Combine concepts to solve more complex problems
-3. Review and refactor your code for clarity
+## Function Overloads
 
-### Subtopic 3: Best Practices and Patterns
+TypeScript allows multiple call signatures for a single function:
 
-Learn the idiomatic patterns and best practices for this topic. Writing clean, maintainable code is a hallmark of an experienced developer.
+```typescript
+// Overload signatures — describe all valid call patterns
+function format(input: string): string;
+function format(input: number): string;
+function format(input: boolean): string;
 
-**Guidelines:**
-- Follow language conventions and style guides
-- Favor clarity over cleverness
-- Test your code thoroughly
+// Implementation signature — must be compatible with all overloads
+function format(input: string | number | boolean): string {
+  if (typeof input === "string") return input.trim();
+  if (typeof input === "number") return input.toFixed(2);
+  return input ? "yes" : "no";
+}
+```
+
+## Typing `this`
+
+In callbacks and event handlers, `this` can be ambiguous. TypeScript lets you type it:
+
+```typescript
+interface Button {
+  text: string;
+  onClick: (this: HTMLElement, event: MouseEvent) => void;
+}
+
+const button: Button = {
+  text: "Click me",
+  onClick(this: HTMLElement, event: MouseEvent) {
+    // this is guaranteed to be an HTMLElement
+    console.log(this.textContent);
+  }
+};
+```
+
+## Call Signatures and Construct Signatures
+
+For more complex scenarios, you can describe callable objects:
+
+```typescript
+// Call signature — describes something callable
+interface Logger {
+  (message: string, level?: "info" | "warn" | "error"): void;
+  prefix: string;
+}
+
+const logger: Logger = Object.assign(
+  (message: string, level = "info" as const) => {
+    console.log(`[${level.toUpperCase()}] ${logger.prefix}: ${message}`);
+  },
+  { prefix: "App" }
+);
+
+// Construct signature — describes a constructor
+interface PointConstructor {
+  new (x: number, y: number): { x: number; y: number };
+}
+```
 
 ## Practice Questions
 
-1. What are the key concepts covered in this lesson?
-2. Write a small program that demonstrates at least two concepts from this lesson.
-3. How would you explain this topic to a fellow developer?
-
-## LLM Prompts for Deeper Understanding
-
-1. "Explain Functions and Function Types with analogies and examples"
-2. "Show me common mistakes beginners make with functions and function types"
-3. "Provide advanced patterns and real-world use cases for functions and function types"
+1. Write a function overload for a `parseInput` function that accepts either a JSON string or a number.
+2. Create a function type that accepts a callback with a typed `this` context.
+3. When would you use a call signature instead of a regular function type?
 
 ## Key Takeaways
 
-- Solidify your understanding of functions and function types
-- Practice with real code, not just theory
-- Explore the reference resources for in-depth coverage
-
-## Further Reading
-
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+- Function overloads improve DX by showing valid call patterns
+- Default parameters are cleaner than optional + null check
+- Type `this` explicitly in callbacks to prevent runtime errors
+- Construct signatures describe constructable types (classes)
