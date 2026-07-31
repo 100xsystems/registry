@@ -9,7 +9,7 @@
     "edge-computing",
     "nextjs"
   ],
-  "updatedAt": "2026-07-28T06:53:02.588Z",
+  "updatedAt": "2026-07-31T08:57:19.973Z",
   "items": [
     {
       "guid": "vercel-blog::https://vercel.com/changelog/ai-gateway-now-supports-streaming-transcription",
@@ -4138,7 +4138,15 @@
       "summary": "from Anthropic is now available on AI Gateway.Claude Opus 5\nOpus 5 improves on previous Opus models for long-horizon agentic coding, handling multi-file features, larger refactors, and end-to-end feature work, and completing full tasks rather than leaving stubs or placeholders.\nOpus 5 is effective…",
       "author": "Rohan Taneja",
       "publishedAt": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/server-timing-header",
+      "title": "Server-Timing response headers will pass through to the client",
+      "link": "https://vercel.com/changelog/server-timing-header",
+      "summary": "On August 10, 2026, Vercel's CDN will stop stripping the  response header and begin passing it through to the client.Server-Timing\nUse  to report backend metrics like database query time and cache hits. These values appear in the browser's network panel and as  entries through the Performance…",
+      "author": "Tim Caswell",
+      "publishedAt": "2026-07-30T12:00:00.000Z"
     }
   ],
-  "totalIndexed": 516
+  "totalIndexed": 517
 }
