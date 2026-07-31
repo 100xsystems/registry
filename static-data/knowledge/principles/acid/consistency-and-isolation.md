@@ -14,8 +14,8 @@ prerequisites:
   - "principles/pessimistic-locking"
 knowledge_refs:
   - "principles/acid"
-  - "patterns/optimistic-locking"
-  - "patterns/pessimistic-locking"
+  - "principles/optimistic-locking"
+  - "principles/pessimistic-locking"
   - "patterns/mvcc-pattern"
 ---
 

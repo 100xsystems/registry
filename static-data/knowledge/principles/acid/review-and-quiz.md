@@ -12,7 +12,7 @@ prerequisites:
   - "All previous lessons in this course"
 knowledge_refs:
   - "principles/acid"
-  - "patterns/pessimistic-locking"
+  - "principles/pessimistic-locking"
   - "patterns/mvcc-pattern"
 ---
 
