@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-07-31T02:47:40.972Z",
+  "updatedAt": "2026-07-31T19:12:43.161Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -441,7 +441,47 @@
       "summary": "PostgreSQL's hot_standby switch transforms a spare server into a readable replica, but the real tuning work happens elsewhere.",
       "author": null,
       "publishedAt": "2026-07-31T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9q_",
+      "title": "Hubert 'depesz' Lubaczewski: Waiting for PostgreSQL 19 – SQL Property Graph Queries (SQL/PGQ)",
+      "link": "https://postgr.es/p/9q_",
+      "summary": "On 16th of March 2026, Peter Eisentraut committed patch: SQL Property Graph Queries (SQL/PGQ)   Implementation of SQL property graph queries, according to SQL/PGQ standard (ISO/IEC 9075-16:2023).   This adds:   - GRAPH_TABLE table function for graph pattern matching - DDL commands CREATE/ALTER/DROP…",
+      "author": null,
+      "publishedAt": "2026-07-31T16:57:44.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9qZ",
+      "title": "Robert Haas: Hacking Workshop for September 2026",
+      "link": "https://postgr.es/p/9qZ",
+      "summary": "I'm pleased to announce that David Rowley will be joining us in September to discuss his talk Optimizing code in the hot path; with examples from tuple deformation. If you're interesting in joining us, please sign up using this form and I will send you an invite to one of the sessions. As always,…",
+      "author": null,
+      "publishedAt": "2026-07-31T15:09:42.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9r0",
+      "title": "Muhammad Aqeel: PostgreSQL 18's extension_control_path: Decoupling Extensions from Server Images",
+      "link": "https://postgr.es/p/9r0",
+      "summary": "PostgreSQL 18 adds a Grand Unified Configuration (GUC), , that lets an extension's control and SQL files live outside the server's own directories. Together with Kubernetes's ImageVolume and Docker's , that makes it practical to package an extension as its own small OCI container image and mount it…",
+      "author": null,
+      "publishedAt": "2026-07-31T10:08:07.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9r2",
+      "title": "Pavlo Golub: WAWTech+Summer 2026 [UNLOGGED]",
+      "link": "https://postgr.es/p/9r2",
+      "summary": "The official logs are still processing, but the raw data is ready.\n Welcome to the newest #UNLOGGED drop from WAWTech+Summer 2026 in Warsaw. We traded the classic conference center for an open-air tech festival at Tor Służewiec, and the energy was incredible.\n This uncompressed cut captures the…",
+      "author": null,
+      "publishedAt": "2026-07-31T10:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9r1",
+      "title": "Shaun Thomas: Looking Forward to Postgres 19: The Cult of Functionality",
+      "link": "https://postgr.es/p/9r1",
+      "summary": "Postgres ships with a genuinely bountiful catalog of built-in functions. There are literally thousands of them, covering everything from trigonometry to JSON path queries to full-text ranking. It's a kitchen sink of staggering proportions. Somehow despite all of that, there are actually still a few…",
+      "author": null,
+      "publishedAt": "2026-07-31T09:31:21.000Z"
     }
   ],
-  "totalIndexed": 54
+  "totalIndexed": 59
 }

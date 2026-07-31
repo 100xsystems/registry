@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-07-24T07:12:53.360Z",
+  "updatedAt": "2026-07-31T19:12:51.752Z",
   "items": [
     {
       "guid": "https://engineering.tumblr.com/post/822915257355862016",
@@ -167,7 +167,15 @@
       "summary": "The time has come folks! We’re officially dropping support for insecure (http://) requests to the Tumblr API after October 31st, 2021. Instead, please use https:// for all requests. The following day we’ll start failing all insecure requests and invalidating any credentials sent in plain text. You…",
       "author": null,
       "publishedAt": "2021-10-22T15:21:47.000Z"
+    },
+    {
+      "guid": "https://engineering.tumblr.com/post/823663716058972160",
+      "title": "Now testing: Best comments first",
+      "link": "https://engineering.tumblr.com/post/823663716058972160",
+      "summary": "You might see a new option to sort comments on web, in addition to chronological sorting options: Best comments first. We want to make it easier to find interesting conversation, and demote spammy comments. \nLook for this option in the comments view on any post, only on web for now. \nWe’re still…",
+      "author": null,
+      "publishedAt": "2026-07-31T14:08:51.000Z"
     }
   ],
-  "totalIndexed": 20
+  "totalIndexed": 21
 }

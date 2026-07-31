@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-07-30T19:13:42.046Z",
+  "updatedAt": "2026-07-31T19:12:44.619Z",
   "items": [
     {
       "guid": "https://github.blog/?p=97619",
@@ -111,7 +111,15 @@
       "summary": "Learn how I modernized an old codebase of mine using stacked sessions and pull requests in the GitHub Copilot app.\nThe post Stacked sessions and pull requests in the GitHub Copilot app appeared first on The GitHub Blog.",
       "author": "Cassidy Williams",
       "publishedAt": "2026-07-30T17:30:24.000Z"
+    },
+    {
+      "guid": "https://github.blog/?p=97648",
+      "title": "Don’t stop early: Case-folding source code at memory speed",
+      "link": "https://github.blog/engineering/architecture-optimization/dont-stop-early-case-folding-source-code-at-memory-speed/",
+      "summary": "How a branch-free loop and byte-space arithmetic let GitHub case-fold every byte of code search at >45 GiB/s on a single core.\nThe post Don’t stop early: Case-folding source code at memory speed appeared first on The GitHub Blog.",
+      "author": "Alexander Neubeck",
+      "publishedAt": "2026-07-31T16:00:00.000Z"
     }
   ],
-  "totalIndexed": 13
+  "totalIndexed": 14
 }

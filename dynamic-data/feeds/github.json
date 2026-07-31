@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-07-29T19:01:45.612Z",
+  "updatedAt": "2026-07-31T19:12:44.608Z",
   "items": [
     {
       "guid": "github::https://github.blog/engineering/the-cost-of-saying-yes-has-changed/",
@@ -95,7 +95,15 @@
       "summary": "If you maintain an active repository, you know the feeling. You open your notifications on a Monday morning and there they are: five, 10, sometimes a dozen Dependabot pull requests, each bumping a single dependency by a single patch version. Individually, every one of them is helpful. Collectively,…",
       "author": "Bruno Borges",
       "publishedAt": "2026-07-29T16:00:00.000Z"
+    },
+    {
+      "guid": "github::https://github.blog/engineering/architecture-optimization/dont-stop-early-case-folding-source-code-at-memory-speed/",
+      "title": "Don&#8217;t stop early: Case-folding source code at memory speed",
+      "link": "https://github.blog/engineering/architecture-optimization/dont-stop-early-case-folding-source-code-at-memory-speed/",
+      "summary": "Suppose a user searches for café and your corpus contains CAFÉ, or they type straße and you’ve stored STRASSE. To make these count as matches, you need a canonical form that erases case distinctions, so that two strings which differ only in case compare equal. That form is case folding, and it…",
+      "author": "Alexander Neubeck",
+      "publishedAt": "2026-07-31T16:00:00.000Z"
     }
   ],
-  "totalIndexed": 11
+  "totalIndexed": 12
 }

@@ -8,7 +8,7 @@
     "developer-tools",
     "platform"
   ],
-  "updatedAt": "2026-07-23T11:00:53.980Z",
+  "updatedAt": "2026-07-31T19:12:52.055Z",
   "items": [
     {
       "guid": "https://github.blog/?p=97604",
@@ -89,7 +89,15 @@
       "summary": "Learn how GitHub built an accessible, multi-terminal-safe ASCII animation for the Copilot CLI using custom tooling, ANSI color roles, and advanced terminal engineering.\nThe post From pixels to characters: The engineering behind GitHub Copilot CLI’s animated ASCII banner appeared first on The GitHub…",
       "author": "Aaron Winston",
       "publishedAt": "2026-01-28T17:00:00.000Z"
+    },
+    {
+      "guid": "https://github.blog/?p=97648",
+      "title": "Don’t stop early: Case-folding source code at memory speed",
+      "link": "https://github.blog/engineering/architecture-optimization/dont-stop-early-case-folding-source-code-at-memory-speed/",
+      "summary": "How a branch-free loop and byte-space arithmetic let GitHub case-fold every byte of code search at >45 GiB/s on a single core.\nThe post Don’t stop early: Case-folding source code at memory speed appeared first on The GitHub Blog.",
+      "author": "Alexander Neubeck",
+      "publishedAt": "2026-07-31T16:00:00.000Z"
     }
   ],
-  "totalIndexed": 10
+  "totalIndexed": 11
 }

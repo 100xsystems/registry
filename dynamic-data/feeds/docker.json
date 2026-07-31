@@ -8,7 +8,7 @@
     "devops",
     "cloud-native"
   ],
-  "updatedAt": "2026-07-31T08:57:19.277Z",
+  "updatedAt": "2026-07-31T19:12:51.973Z",
   "items": [
     {
       "guid": "https://www.docker.com/?p=92418",
@@ -105,7 +105,15 @@
       "summary": "Docker joins NVIDIA's Open Secure AI Alliance to help build the security, governance, and trust frameworks that agentic AI systems demand.",
       "author": "Jin Kim",
       "publishedAt": "2026-07-30T19:31:47.000Z"
+    },
+    {
+      "guid": "https://www.docker.com/?p=92559",
+      "title": "Docker OIDC connections for GitHub Actions available for Docker Orgs",
+      "link": "https://www.docker.com/blog/docker-oidc-connections-for-github-actions-available-for-docker-orgs/",
+      "summary": "Eliminate Stored Credentials in Your CI/CD Pipelines TL;DR: Docker now supports OpenID Connect (OIDC) for GitHub Actions. Your workflows can authenticate with short-lived, per-run tokens instead of stored PATs or OATs. No secrets to rotate, no credentials to leak.  GitHub OIDC connections are…",
+      "author": "Dan Berezin Stelzer",
+      "publishedAt": "2026-07-31T16:30:48.000Z"
     }
   ],
-  "totalIndexed": 12
+  "totalIndexed": 13
 }

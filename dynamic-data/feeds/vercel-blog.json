@@ -9,7 +9,7 @@
     "edge-computing",
     "nextjs"
   ],
-  "updatedAt": "2026-07-31T08:57:19.973Z",
+  "updatedAt": "2026-07-31T19:12:52.849Z",
   "items": [
     {
       "guid": "vercel-blog::https://vercel.com/changelog/ai-gateway-now-supports-streaming-transcription",
@@ -4146,7 +4146,47 @@
       "summary": "On August 10, 2026, Vercel's CDN will stop stripping the  response header and begin passing it through to the client.Server-Timing\nUse  to report backend metrics like database query time and cache hits. These values appear in the browser's network panel and as  entries through the Performance…",
       "author": "Tim Caswell",
       "publishedAt": "2026-07-30T12:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/deepseek-v4-flash-now-runs-updated-weights-on-ai-gateway",
+      "title": "DeepSeek V4 Flash now runs updated weights on AI Gateway",
+      "link": "https://vercel.com/changelog/deepseek-v4-flash-now-runs-updated-weights-on-ai-gateway",
+      "summary": "now runs on updated weights by default on AI Gateway, with notably stronger agentic capabilities. On Terminal-Bench, it scores 82.7, up 25.8 points from 56.9 in the April preview.DeepSeek V4 Flash\nRequests to  pick up the new weights automatically, with no change to the model ID or your…",
+      "author": "Jerilyn Zheng",
+      "publishedAt": "2026-07-31T07:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/vercel-mcp-now-supports-the-2026-07-28-mcp-specification",
+      "title": "Vercel MCP now supports the 2026-07-28 MCP specification",
+      "link": "https://vercel.com/changelog/vercel-mcp-now-supports-the-2026-07-28-mcp-specification",
+      "summary": "now supports the 2026-07-28 MCP specification, giving newer clients a stateless request model and updated authorization behavior without any change on the client side.Vercel MCP\nClients built for the 2025 protocol keep working exactly as before, and clients that understand the new specification…",
+      "author": "Josh Souphanthong",
+      "publishedAt": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/expanded-search-for-workflow-runs-in-vercel-observability",
+      "title": "Expanded search for workflow runs in Vercel Observability",
+      "link": "https://vercel.com/changelog/expanded-search-for-workflow-runs-in-vercel-observability",
+      "summary": "The runs list for  in Observability now has structured search, giving you more ways to find and investigate runs.Vercel Workflows\nFor example,  pulls up preview runs of one workflow in one region, since the list otherwise shows production runs.workflow:sendEmail environment:preview region:iad1…",
+      "author": "Karthik Kalyanaraman",
+      "publishedAt": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/10x-more-capacity-for-laguna-s-2-1-on-ai-gateway",
+      "title": "10x more capacity for Laguna S 2.1 on AI Gateway",
+      "link": "https://vercel.com/changelog/10x-more-capacity-for-laguna-s-2-1-on-ai-gateway",
+      "summary": "Laguna S 2.1 from Poolside now has 10x more capacity on AI Gateway. The increase applies to the paid version, , and the free version, , so you can send far more requests, good for high-volume agentic coding and long-running tasks.poolside/laguna-s-2.1poolside/laguna-s-2.1-free\nTo use Laguna S 2.1,…",
+      "author": "Rohan Taneja",
+      "publishedAt": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/vercel-passport-generally-available",
+      "title": "Vercel Passport is now generally available",
+      "link": "https://vercel.com/changelog/vercel-passport-generally-available",
+      "summary": "is now generally available.Vercel Passport\nPassport allows you to protect your Vercel deployments with your own identity provider. Visitors authenticate through Okta, Microsoft Entra ID, or any OIDC provider before viewing a protected deployment, and Vercel forwards a signed identity token to the…",
+      "author": "Andrew Qu",
+      "publishedAt": "2026-07-31T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 517
+  "totalIndexed": 522
 }
