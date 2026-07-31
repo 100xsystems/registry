@@ -9,7 +9,7 @@
     "performance",
     "edge-computing"
   ],
-  "updatedAt": "2026-07-30T13:59:44.296Z",
+  "updatedAt": "2026-07-31T14:04:33.992Z",
   "items": [
     {
       "guid": "01KY2432VQPD5FTF2RARXXYQGH",
@@ -61266,7 +61266,15 @@
       "summary": "We moved cdnjs, serving 9 billion requests a day, entirely onto Cloudflare's Developer Platform. That means we’re running one of the Internet's busiest open-source CDNs on our own building blocks, and we pushed Workflows and Workers limits higher for everyone.",
       "author": "Simona Badoiu",
       "publishedAt": "2026-07-30T13:00:00.000Z"
+    },
+    {
+      "guid": "01KYVQDQC4RNEJ8Q0PMDQV2RGB",
+      "title": "An API for MoQ: provision your own isolated relays",
+      "link": "https://blog.cloudflare.com/moq-relays/",
+      "summary": "Last year we made every Cloudflare server a Media over QUIC (MoQ) relay. Now the new provisioning API lets you create your own isolated relay and control who can publish and who can only watch.",
+      "author": "Jacob Curtis",
+      "publishedAt": "2026-07-31T13:00:00.000Z"
     }
   ],
-  "totalIndexed": 7657
+  "totalIndexed": 7658
 }

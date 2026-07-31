@@ -4,39 +4,53 @@
 - Current total: 6108
 - Added: 0
 - Removed: 0
-- Updated: 5
+- Updated: 9
 
 
 ## Updated Companies
 
-### [Async](https://www.ycombinator.com/companies/withasync)
+### [Onshore](https://www.ycombinator.com/companies/onshore)
 
-- `one_liner`: We Transform Small Businesses with AI Agents → We transform small businesses with AI agents
-- `tags`: Artificial Intelligence,B2B → B2B,AI
-
-### [Narrative](https://www.ycombinator.com/companies/usenarrative)
-
-- `all_locations`: San Diego, CA, USA → New York City, NY, USA
-- `tags`: Sports Tech,B2B,Video,AI → Artificial Intelligence,Sports Tech,B2B,Video
-
-### [Layers](https://www.ycombinator.com/companies/layers)
-
-- `name`: Telemetron → Layers
-- `slug`: telemetron-ai → layers
-- `former_names`:  → Telemetron
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/db4f19af21f2acf6ffe0cf95e59e6961ae9e1f89.png → https://bookface-images.s3.amazonaws.com/small_logos/f8e38f7ff1a982099e585e1be50508d13d821286.png
-- `website`: https://www.telemetron.ai/ → https://www.layers.bio/
-- `one_liner`: Support and Operations Platform for Hardware Companies → A 30 min appointment to measure everything in your body
-- `industry`: B2B → Healthcare
-- `subindustry`: B2B → Healthcare -> Consumer Health and Wellness
-- `tags`:  → Consumer Health Services,Health Tech,Beauty,Health & Wellness,AI
 - `isHiring`: true → false
-- `industries`: B2B → Healthcare,Consumer Health and Wellness
 
-### [OpenVector](https://www.ycombinator.com/companies/openvector)
+### [RunLocal AI](https://www.ycombinator.com/companies/runlocal-ai)
 
-- `one_liner`: AI that turns any camera into an active operator with real-time vision → AI that turns any camera to an autonomous worker with real-time vision
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/4f47cbbc26af6f2d783af0166e54e51212101bcc.png → https://bookface-images.s3.amazonaws.com/small_logos/0c096a99a018da47706cb093bff201df7e6cbd6d.png
+- `one_liner`: The AI agent for model deployment, inference optimization and… → AI agent that optimizes inference for embedded compute like Jetson
 
-### [Mireye](https://www.ycombinator.com/companies/mireye)
+### [Instinct Space](https://www.ycombinator.com/companies/instinct-space)
 
-- `tags`: Artificial Intelligence,Geographic Information System,Location-based → Geographic Information System,AI,Location-based
+- `name`: Instinct → Instinct Space
+- `slug`: instinct → instinct-space
+- `former_names`:  → Instinct
+
+### [ComplyDo](https://www.ycombinator.com/companies/complydo)
+
+- `isHiring`: true → false
+
+### [Clicks Health](https://www.ycombinator.com/companies/clicks-health)
+
+- `name`: Clicks → Clicks Health
+- `slug`: clicks → clicks-health
+- `former_names`:  → Clicks
+- `website`: https://goclicks.ai/ → https://clickshealth.com/
+- `one_liner`: AI agents for your back-office operations. → AI agents for your healthcare back-office operations.
+- `tags`: Artificial Intelligence,Health Tech,Healthcare,Health Insurance → Health Tech,Healthcare,Health Insurance,AI
+
+### [Ressl AI](https://www.ycombinator.com/companies/ressl-ai)
+
+- `all_locations`: San Francisco, CA, USA → Bengaluru, KA, India
+- `regions`: United States of America,America / Canada → India,South Asia
+
+### [InLoop Robotics](https://www.ycombinator.com/companies/inloop-robotics)
+
+- `app_video_public`: true → false
+
+### [Revnu](https://www.ycombinator.com/companies/revnu)
+
+- `tags`: B2B,Advertising,AI → Artificial Intelligence,B2B,Advertising
+
+### [RightNow](https://www.ycombinator.com/companies/rightnow)
+
+- `all_locations`: Amman, Amman Governorate, Jordan → San Francisco, CA, USA
+- `regions`: Jordan,Middle East and North Africa → United States of America,America / Canada
