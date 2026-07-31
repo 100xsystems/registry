@@ -123,22 +123,40 @@
   ],
   "lessons": [
     {
-      "slug": "fundamentals",
-      "title": "BASE: Core Concepts",
-      "order": 1,
-      "duration": "40 min",
+      "slug": "base-fundamentals",
+      "title": "BASE: Eventually Consistent Distributed Systems",
+      "description": "Why availability-first systems trade strong consistency for liveness, and what that means in practice.",
       "type": "lesson",
-      "difficulty": "Intermediate",
-      "description": "Learn the BASE principle: core concepts, definitions, and foundational knowledge."
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "Beginner"
     },
     {
-      "slug": "practical-guide",
-      "title": "BASE: Practical Guide",
-      "order": 2,
-      "duration": "45 min",
+      "slug": "base-applications",
+      "title": "BASE in Production: Caches, Feeds, and Counters",
+      "description": "How real companies ship BASE systems: cache invalidation, feed fan-out, and idempotent counters.",
       "type": "lesson",
-      "difficulty": "Intermediate",
-      "description": "Apply BASE in real-world scenarios with practical examples and common pitfalls."
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "Intermediate"
+    },
+    {
+      "slug": "base-advanced",
+      "title": "Advanced BASE: CRDTs and Anti-Entropy",
+      "description": "Conflict-free replicated data types, gossip protocols, and how systems guarantee convergence without coordination.",
+      "type": "lesson",
+      "order": 3,
+      "duration": "75 min",
+      "difficulty": "Advanced"
+    },
+    {
+      "slug": "base-review-quiz",
+      "title": "BASE: Review & Mastery Quiz",
+      "description": "Scenario questions on availability, soft state, eventual consistency, and CRDT convergence.",
+      "type": "quiz",
+      "order": 4,
+      "duration": "30 min",
+      "difficulty": "Intermediate"
     }
   ]
 }

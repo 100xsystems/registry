@@ -123,22 +123,40 @@
   ],
   "lessons": [
     {
-      "slug": "fundamentals",
-      "title": "Open-Closed Principle: Core Concepts",
-      "order": 1,
-      "duration": "40 min",
+      "slug": "open-closed-fundamentals",
+      "title": "Open-Closed: Extend Without Modifying",
+      "description": "Why modules should be open for extension but closed for modification.",
       "type": "lesson",
-      "difficulty": "Intermediate",
-      "description": "Learn the Open-Closed Principle principle: core concepts, definitions, and foundational knowledge."
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "Beginner"
     },
     {
-      "slug": "practical-guide",
-      "title": "Open-Closed Principle: Practical Guide",
-      "order": 2,
-      "duration": "45 min",
+      "slug": "open-closed-applications",
+      "title": "Open-Closed in Production: Plugins and Policies",
+      "description": "Plugin architectures, policy extension, and keeping cores stable under feature growth.",
       "type": "lesson",
-      "difficulty": "Intermediate",
-      "description": "Apply Open-Closed Principle in real-world scenarios with practical examples and common pitfalls."
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "Intermediate"
+    },
+    {
+      "slug": "open-closed-advanced",
+      "title": "Advanced Open-Closed: Evolutionary APIs",
+      "description": "APIs that evolve without breaking callers, and contracts that stay stable for decades.",
+      "type": "lesson",
+      "order": 3,
+      "duration": "75 min",
+      "difficulty": "Advanced"
+    },
+    {
+      "slug": "open-closed-review-quiz",
+      "title": "Open-Closed: Review & Mastery Quiz",
+      "description": "Scenario questions on extension, plugins, and API evolution.",
+      "type": "quiz",
+      "order": 4,
+      "duration": "30 min",
+      "difficulty": "Intermediate"
     }
   ]
 }

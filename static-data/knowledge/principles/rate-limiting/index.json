@@ -123,22 +123,40 @@
   ],
   "lessons": [
     {
-      "slug": "fundamentals",
-      "title": "Rate Limiting: Core Concepts",
-      "order": 1,
-      "duration": "40 min",
+      "slug": "rate-limiting-fundamentals",
+      "title": "Rate Limiting: Control the Flow",
+      "description": "Why capping request rates protects systems from spikes, abuse, and self-inflicted overload.",
       "type": "lesson",
-      "difficulty": "Intermediate",
-      "description": "Learn the Rate Limiting principle: core concepts, definitions, and foundational knowledge."
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "Beginner"
     },
     {
-      "slug": "practical-guide",
-      "title": "Rate Limiting: Practical Guide",
-      "order": 2,
-      "duration": "45 min",
+      "slug": "rate-limiting-applications",
+      "title": "Rate Limiting in Production: Distributed Limits",
+      "description": "Limits that work across many servers, shared counters, and edge enforcement.",
       "type": "lesson",
-      "difficulty": "Intermediate",
-      "description": "Apply Rate Limiting in real-world scenarios with practical examples and common pitfalls."
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "Intermediate"
+    },
+    {
+      "slug": "rate-limiting-advanced",
+      "title": "Advanced Rate Limiting: Token Buckets and Fairness",
+      "description": "Token buckets, per-tenant fairness, and limits that adapt to load.",
+      "type": "lesson",
+      "order": 3,
+      "duration": "75 min",
+      "difficulty": "Advanced"
+    },
+    {
+      "slug": "rate-limiting-review-quiz",
+      "title": "Rate Limiting: Review & Mastery Quiz",
+      "description": "Scenario questions on algorithms, distribution, and fairness.",
+      "type": "quiz",
+      "order": 4,
+      "duration": "30 min",
+      "difficulty": "Intermediate"
     }
   ]
 }

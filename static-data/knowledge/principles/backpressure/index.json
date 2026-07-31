@@ -123,22 +123,40 @@
   ],
   "lessons": [
     {
-      "slug": "fundamentals",
-      "title": "Backpressure: Core Concepts",
-      "order": 1,
-      "duration": "40 min",
+      "slug": "backpressure-fundamentals",
+      "title": "Backpressure: Flow Control Fundamentals",
+      "description": "Why producers must slow down for consumers, and the mechanics of flow control.",
       "type": "lesson",
-      "difficulty": "Intermediate",
-      "description": "Learn the Backpressure principle: core concepts, definitions, and foundational knowledge."
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "Beginner"
     },
     {
-      "slug": "practical-guide",
-      "title": "Backpressure: Practical Guide",
-      "order": 2,
-      "duration": "45 min",
+      "slug": "backpressure-applications",
+      "title": "Backpressure in Real Systems",
+      "description": "How Kafka, gRPC, databases, and browsers actually handle flow control.",
       "type": "lesson",
-      "difficulty": "Intermediate",
-      "description": "Apply Backpressure in real-world scenarios with practical examples and common pitfalls."
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "Intermediate"
+    },
+    {
+      "slug": "backpressure-advanced",
+      "title": "Advanced Backpressure Patterns",
+      "description": "Token buckets, adaptive batching, and end-to-end flow control.",
+      "type": "lesson",
+      "order": 3,
+      "duration": "75 min",
+      "difficulty": "Advanced"
+    },
+    {
+      "slug": "backpressure-review-quiz",
+      "title": "Backpressure: Review & Mastery Quiz",
+      "description": "Test your flow-control knowledge with scenario-based questions.",
+      "type": "quiz",
+      "order": 4,
+      "duration": "30 min",
+      "difficulty": "Intermediate"
     }
   ]
 }

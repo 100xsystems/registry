@@ -8,17 +8,17 @@
       "icon": "book",
       "items": [
         {
-          "title": "Refactoring.Guru \u2014 Event Sourcing",
+          "title": "Refactoring.Guru — Event Sourcing",
           "url": "https://refactoring.guru/design-patterns/event-sourcing",
           "description": "The definitive modern guide to the Event Sourcing pattern. Clear explanations, UML diagrams, real-world analogies, and code examples in multiple languages."
         },
         {
-          "title": "SourceMaking \u2014 Event Sourcing",
+          "title": "SourceMaking — Event Sourcing",
           "url": "https://sourcemaking.com/design_patterns/event_sourcing",
           "description": "A comprehensive companion guide covering the Event Sourcing pattern with detailed rules of thumb, criticisms, and robust code snippets."
         },
         {
-          "title": "GoF Design Patterns \u2014 Event Sourcing",
+          "title": "GoF Design Patterns — Event Sourcing",
           "url": "https://en.wikipedia.org/wiki/Design_Patterns",
           "description": "The original Gang of Four book describing the pattern. Available in the \"Design Patterns: Elements of Reusable Object-Oriented Software\" on Wikipedia."
         }
@@ -29,12 +29,12 @@
       "icon": "docs",
       "items": [
         {
-          "title": "Refactoring.Guru \u2014 Event Sourcing",
+          "title": "Refactoring.Guru — Event Sourcing",
           "url": "https://refactoring.guru/design-patterns/event-sourcing",
           "description": "The definitive modern guide to the Event Sourcing pattern. Clear explanations, UML diagrams, real-world analogies, and code examples in multiple languages."
         },
         {
-          "title": "Wikipedia \u2014 Event Sourcing Pattern",
+          "title": "Wikipedia — Event Sourcing Pattern",
           "url": "https://en.wikipedia.org/wiki/Event_Sourcing_pattern",
           "description": "Wikipedia article explaining the Event Sourcing pattern with examples and history."
         }
@@ -45,7 +45,7 @@
       "icon": "video",
       "items": [
         {
-          "title": "freeCodeCamp \u2014 Design Patterns Course",
+          "title": "freeCodeCamp — Design Patterns Course",
           "url": "https://www.youtube.com/watch?v=tv-_1er1mWI",
           "description": "A comprehensive multi-hour video course covering all major design patterns with implementations in JavaScript and TypeScript."
         },
@@ -55,7 +55,7 @@
           "description": "YouTube playlist covering creational, structural, and behavioral patterns with clear code walkthroughs."
         },
         {
-          "title": "Web Dev Simplified \u2014 Event Sourcing",
+          "title": "Web Dev Simplified — Event Sourcing",
           "url": "https://www.youtube.com/@WebDevSimplified",
           "description": "Clear, concise video tutorials covering design patterns with practical examples."
         }
@@ -92,7 +92,7 @@
           "description": "A visual reference chart summarizing all 22 GoF design patterns with intent and structure."
         },
         {
-          "title": "DoFactory \u2014 Event Sourcing",
+          "title": "DoFactory — Event Sourcing",
           "url": "https://www.dofactory.com/net/event-sourcing-design-pattern",
           "description": "A concise structural reference for the Event Sourcing pattern with C# code examples."
         }
@@ -108,7 +108,7 @@
           "description": "Pattern-specific articles, best practices, and real-world usage scenarios."
         },
         {
-          "title": "Medium \u2014 Design Patterns Explained",
+          "title": "Medium — Design Patterns Explained",
           "url": "https://medium.com/tag/design-patterns",
           "description": "Community-written articles exploring design patterns with real-world examples and code walkthroughs."
         }
@@ -119,7 +119,7 @@
       "icon": "community",
       "items": [
         {
-          "title": "Stack Overflow \u2014 Design Patterns",
+          "title": "Stack Overflow — Design Patterns",
           "url": "https://stackoverflow.com/questions/tagged/design-patterns",
           "description": "Q&A forum for pattern-related questions, best practices, and implementation help."
         },
@@ -133,22 +133,40 @@
   ],
   "lessons": [
     {
-      "slug": "fundamentals",
-      "title": "Fundamentals of Event Sourcing",
-      "description": "Core concepts and key principles of Event Sourcing",
+      "slug": "event-sourcing-fundamentals",
+      "title": "Event Sourcing: The Log Is the Truth",
+      "description": "Storing every state change as an event and deriving state by replay.",
       "type": "lesson",
       "order": 1,
       "duration": "45 min",
-      "difficulty": "beginner"
+      "difficulty": "Beginner"
     },
     {
-      "slug": "practical-guide",
-      "title": "Practical Event Sourcing Guide",
-      "description": "Real-world usage, best practices, and common patterns",
+      "slug": "event-sourcing-applications",
+      "title": "Event Sourcing in Production: Streams and Snapshots",
+      "description": "Event stores, snapshots, and versioned streams at scale.",
       "type": "lesson",
       "order": 2,
       "duration": "60 min",
-      "difficulty": "intermediate"
+      "difficulty": "Intermediate"
+    },
+    {
+      "slug": "event-sourcing-advanced",
+      "title": "Advanced Event Sourcing: Projections and Sagas",
+      "description": "Projections over streams, sagas coordinated by events, and the full picture.",
+      "type": "lesson",
+      "order": 3,
+      "duration": "75 min",
+      "difficulty": "Advanced"
+    },
+    {
+      "slug": "event-sourcing-review-quiz",
+      "title": "Event Sourcing: Review & Mastery Quiz",
+      "description": "Scenario questions on the log, snapshots, and projections.",
+      "type": "quiz",
+      "order": 4,
+      "duration": "30 min",
+      "difficulty": "Intermediate"
     }
   ]
 }

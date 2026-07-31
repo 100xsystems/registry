@@ -123,22 +123,40 @@
   ],
   "lessons": [
     {
-      "slug": "fundamentals",
-      "title": "Eventual Consistency: Core Concepts",
-      "order": 1,
-      "duration": "40 min",
+      "slug": "eventual-consistency-fundamentals",
+      "title": "Eventual Consistency: Converging Without Coordination",
+      "description": "Why replicas are allowed to disagree briefly, and how they converge.",
       "type": "lesson",
-      "difficulty": "Intermediate",
-      "description": "Learn the Eventual Consistency principle: core concepts, definitions, and foundational knowledge."
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "Beginner"
     },
     {
-      "slug": "practical-guide",
-      "title": "Eventual Consistency: Practical Guide",
-      "order": 2,
-      "duration": "45 min",
+      "slug": "eventual-consistency-applications",
+      "title": "Eventual Consistency in Production: Replication and Read Models",
+      "description": "Async replication, read replicas, search indexes, and the pipelines that keep them fresh.",
       "type": "lesson",
-      "difficulty": "Intermediate",
-      "description": "Apply Eventual Consistency in real-world scenarios with practical examples and common pitfalls."
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "Intermediate"
+    },
+    {
+      "slug": "eventual-consistency-advanced",
+      "title": "Advanced Eventual Consistency: Divergence and Reconciliation",
+      "description": "Handling true conflicts, last-writer-wins hazards, and converging under partitions.",
+      "type": "lesson",
+      "order": 3,
+      "duration": "75 min",
+      "difficulty": "Advanced"
+    },
+    {
+      "slug": "eventual-consistency-review-quiz",
+      "title": "Eventual Consistency: Review & Mastery Quiz",
+      "description": "Scenario questions on convergence, outboxes, and conflict resolution.",
+      "type": "quiz",
+      "order": 4,
+      "duration": "30 min",
+      "difficulty": "Intermediate"
     }
   ]
 }

@@ -123,22 +123,40 @@
   ],
   "lessons": [
     {
-      "slug": "fundamentals",
-      "title": "Pessimistic Locking: Core Concepts",
-      "order": 1,
-      "duration": "40 min",
+      "slug": "pessimistic-locking-fundamentals",
+      "title": "Pessimistic Locking: Lock Before You Touch",
+      "description": "Why some writes are too expensive to retry and must be serialized up front.",
       "type": "lesson",
-      "difficulty": "Intermediate",
-      "description": "Learn the Pessimistic Locking principle: core concepts, definitions, and foundational knowledge."
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "Beginner"
     },
     {
-      "slug": "practical-guide",
-      "title": "Pessimistic Locking: Practical Guide",
-      "order": 2,
-      "duration": "45 min",
+      "slug": "pessimistic-locking-applications",
+      "title": "Pessimistic Locking in Production: Distributed Locks",
+      "description": "Locks across services and processes: Redis locks, database advisory locks, and their failure modes.",
       "type": "lesson",
-      "difficulty": "Intermediate",
-      "description": "Apply Pessimistic Locking in real-world scenarios with practical examples and common pitfalls."
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "Intermediate"
+    },
+    {
+      "slug": "pessimistic-locking-advanced",
+      "title": "Advanced Pessimistic Locking: Deadlock Avoidance and Escalation",
+      "description": "Deadlock detection, lock hierarchies, and knowing when to escalate beyond row locks.",
+      "type": "lesson",
+      "order": 3,
+      "duration": "75 min",
+      "difficulty": "Advanced"
+    },
+    {
+      "slug": "pessimistic-locking-review-quiz",
+      "title": "Pessimistic Locking: Review & Mastery Quiz",
+      "description": "Scenario questions on locks, leases, and deadlocks.",
+      "type": "quiz",
+      "order": 4,
+      "duration": "30 min",
+      "difficulty": "Intermediate"
     }
   ]
 }

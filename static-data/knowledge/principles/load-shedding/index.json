@@ -123,22 +123,40 @@
   ],
   "lessons": [
     {
-      "slug": "fundamentals",
-      "title": "Load Shedding: Core Concepts",
-      "order": 1,
-      "duration": "40 min",
+      "slug": "load-shedding-fundamentals",
+      "title": "Load Shedding: Drop Work Before the System Drops",
+      "description": "Choosing what to reject under overload so the system survives to serve the rest.",
       "type": "lesson",
-      "difficulty": "Intermediate",
-      "description": "Learn the Load Shedding principle: core concepts, definitions, and foundational knowledge."
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "Beginner"
     },
     {
-      "slug": "practical-guide",
-      "title": "Load Shedding: Practical Guide",
-      "order": 2,
-      "duration": "45 min",
+      "slug": "load-shedding-applications",
+      "title": "Load Shedding in Production: Queues and Priorities",
+      "description": "Bounded queues, priority admission, and shedding at every layer.",
       "type": "lesson",
-      "difficulty": "Intermediate",
-      "description": "Apply Load Shedding in real-world scenarios with practical examples and common pitfalls."
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "Intermediate"
+    },
+    {
+      "slug": "load-shedding-advanced",
+      "title": "Advanced Load Shedding: Adaptive and Fair Shedding",
+      "description": "Capacity estimation, per-tenant fairness, and shedding that adapts to real load.",
+      "type": "lesson",
+      "order": 3,
+      "duration": "75 min",
+      "difficulty": "Advanced"
+    },
+    {
+      "slug": "load-shedding-review-quiz",
+      "title": "Load Shedding: Review & Mastery Quiz",
+      "description": "Scenario questions on shedding, admission, and fairness.",
+      "type": "quiz",
+      "order": 4,
+      "duration": "30 min",
+      "difficulty": "Intermediate"
     }
   ]
 }

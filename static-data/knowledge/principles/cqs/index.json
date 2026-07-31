@@ -123,22 +123,40 @@
   ],
   "lessons": [
     {
-      "slug": "fundamentals",
-      "title": "Command-Query Separation: Core Concepts",
-      "order": 1,
-      "duration": "40 min",
+      "slug": "cqs-fundamentals",
+      "title": "Command Query Separation: Mutations and Reads Never Mix",
+      "description": "Why methods that both change state and return values create the worst bugs.",
       "type": "lesson",
-      "difficulty": "Intermediate",
-      "description": "Learn the Command-Query Separation principle: core concepts, definitions, and foundational knowledge."
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "Beginner"
     },
     {
-      "slug": "practical-guide",
-      "title": "Command-Query Separation: Practical Guide",
-      "order": 2,
-      "duration": "45 min",
+      "slug": "cqs-applications",
+      "title": "CQS in Production: APIs and Services",
+      "description": "Applying CQS to REST APIs, service methods, and read/write scaling.",
       "type": "lesson",
-      "difficulty": "Intermediate",
-      "description": "Apply Command-Query Separation in real-world scenarios with practical examples and common pitfalls."
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "Intermediate"
+    },
+    {
+      "slug": "cqs-advanced",
+      "title": "Advanced CQS: CQRS and Event Sourcing",
+      "description": "Full command/query responsibility segregation with read models and event sourcing.",
+      "type": "lesson",
+      "order": 3,
+      "duration": "75 min",
+      "difficulty": "Advanced"
+    },
+    {
+      "slug": "cqs-review-quiz",
+      "title": "CQS: Review & Mastery Quiz",
+      "description": "Scenario questions on command/query separation across levels.",
+      "type": "quiz",
+      "order": 4,
+      "duration": "30 min",
+      "difficulty": "Intermediate"
     }
   ]
 }

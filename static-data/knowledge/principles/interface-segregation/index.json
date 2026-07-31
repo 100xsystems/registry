@@ -123,22 +123,40 @@
   ],
   "lessons": [
     {
-      "slug": "fundamentals",
-      "title": "Interface Segregation: Core Concepts",
-      "order": 1,
-      "duration": "40 min",
+      "slug": "interface-segregation-fundamentals",
+      "title": "Interface Segregation: Fat Interfaces Hurt Callers",
+      "description": "Why a \"kitchen sink\" interface forces every implementer to carry every method.",
       "type": "lesson",
-      "difficulty": "Intermediate",
-      "description": "Learn the Interface Segregation principle: core concepts, definitions, and foundational knowledge."
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "Beginner"
     },
     {
-      "slug": "practical-guide",
-      "title": "Interface Segregation: Practical Guide",
-      "order": 2,
-      "duration": "45 min",
+      "slug": "interface-segregation-applications",
+      "title": "Interface Segregation in Production: APIs and Services",
+      "description": "Segregating service APIs, DTOs, and read models by consumer need.",
       "type": "lesson",
-      "difficulty": "Intermediate",
-      "description": "Apply Interface Segregation in real-world scenarios with practical examples and common pitfalls."
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "Intermediate"
+    },
+    {
+      "slug": "interface-segregation-advanced",
+      "title": "Advanced Interface Segregation: Role Interfaces and Adapters",
+      "description": "Role interfaces, adapter segregation, and keeping interfaces stable as systems grow.",
+      "type": "lesson",
+      "order": 3,
+      "duration": "75 min",
+      "difficulty": "Advanced"
+    },
+    {
+      "slug": "interface-segregation-review-quiz",
+      "title": "Interface Segregation: Review & Mastery Quiz",
+      "description": "Scenario questions on fat interfaces, DTOs, and role ports.",
+      "type": "quiz",
+      "order": 4,
+      "duration": "30 min",
+      "difficulty": "Intermediate"
     }
   ]
 }

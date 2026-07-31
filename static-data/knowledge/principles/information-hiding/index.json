@@ -123,22 +123,40 @@
   ],
   "lessons": [
     {
-      "slug": "fundamentals",
-      "title": "Information Hiding: Core Concepts",
-      "order": 1,
-      "duration": "40 min",
+      "slug": "information-hiding-fundamentals",
+      "title": "Information Hiding: Keep Secrets from Callers",
+      "description": "Why the shape of your internals is a promise you should never make.",
       "type": "lesson",
-      "difficulty": "Intermediate",
-      "description": "Learn the Information Hiding principle: core concepts, definitions, and foundational knowledge."
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "Beginner"
     },
     {
-      "slug": "practical-guide",
-      "title": "Information Hiding: Practical Guide",
-      "order": 2,
-      "duration": "45 min",
+      "slug": "information-hiding-applications",
+      "title": "Information Hiding in Production: Modules and Packages",
+      "description": "Module visibility, package boundaries, and API stability in real codebases.",
       "type": "lesson",
-      "difficulty": "Intermediate",
-      "description": "Apply Information Hiding in real-world scenarios with practical examples and common pitfalls."
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "Intermediate"
+    },
+    {
+      "slug": "information-hiding-advanced",
+      "title": "Advanced Information Hiding: Capabilities and Security",
+      "description": "Capability-based design, principle of least privilege, and hiding as a security boundary.",
+      "type": "lesson",
+      "order": 3,
+      "duration": "75 min",
+      "difficulty": "Advanced"
+    },
+    {
+      "slug": "information-hiding-review-quiz",
+      "title": "Information Hiding: Review & Mastery Quiz",
+      "description": "Scenario questions on surfaces, modules, and capabilities.",
+      "type": "quiz",
+      "order": 4,
+      "duration": "30 min",
+      "difficulty": "Intermediate"
     }
   ]
 }

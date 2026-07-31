@@ -123,22 +123,40 @@
   ],
   "lessons": [
     {
-      "slug": "fundamentals",
-      "title": "KISS (Keep It Simple, Stupid): Core Concepts",
-      "order": 1,
-      "duration": "40 min",
+      "slug": "kiss-fundamentals",
+      "title": "KISS: Keep It Simple, Stupid",
+      "description": "Why simplicity is a feature and complexity is a tax you pay forever.",
       "type": "lesson",
-      "difficulty": "Intermediate",
-      "description": "Learn the KISS (Keep It Simple, Stupid) principle: core concepts, definitions, and foundational knowledge."
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "Beginner"
     },
     {
-      "slug": "practical-guide",
-      "title": "KISS (Keep It Simple, Stupid): Practical Guide",
-      "order": 2,
-      "duration": "45 min",
+      "slug": "kiss-applications",
+      "title": "KISS in Production: Architecture Simplicity",
+      "description": "Simple architectures, fewer services, and resisting complexity pressure at scale.",
       "type": "lesson",
-      "difficulty": "Intermediate",
-      "description": "Apply KISS (Keep It Simple, Stupid) in real-world scenarios with practical examples and common pitfalls."
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "Intermediate"
+    },
+    {
+      "slug": "kiss-advanced",
+      "title": "Advanced KISS: Simplicity as a Design Discipline",
+      "description": "Domain-driven simplicity, minimal APIs, and the discipline of saying no.",
+      "type": "lesson",
+      "order": 3,
+      "duration": "75 min",
+      "difficulty": "Advanced"
+    },
+    {
+      "slug": "kiss-review-quiz",
+      "title": "KISS: Review & Mastery Quiz",
+      "description": "Scenario questions on simplicity, machinery, and saying no.",
+      "type": "quiz",
+      "order": 4,
+      "duration": "30 min",
+      "difficulty": "Intermediate"
     }
   ]
 }

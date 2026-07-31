@@ -123,22 +123,40 @@
   ],
   "lessons": [
     {
-      "slug": "fundamentals",
-      "title": "Circuit Breaker: Core Concepts",
-      "order": 1,
-      "duration": "40 min",
+      "slug": "circuit-breaker-fundamentals",
+      "title": "Circuit Breakers: Stop Calling a Dead Dependency",
+      "description": "The pattern that fails fast instead of failing slowly, and how it prevents cascading outages.",
       "type": "lesson",
-      "difficulty": "Intermediate",
-      "description": "Learn the Circuit Breaker principle: core concepts, definitions, and foundational knowledge."
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "Beginner"
     },
     {
-      "slug": "practical-guide",
-      "title": "Circuit Breaker: Practical Guide",
-      "order": 2,
-      "duration": "45 min",
+      "slug": "circuit-breaker-applications",
+      "title": "Circuit Breakers in Production",
+      "description": "Real breaker implementations, fallbacks, and integrating with resilience libraries.",
       "type": "lesson",
-      "difficulty": "Intermediate",
-      "description": "Apply Circuit Breaker in real-world scenarios with practical examples and common pitfalls."
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "Intermediate"
+    },
+    {
+      "slug": "circuit-breaker-advanced",
+      "title": "Advanced Circuit Breakers: Health Signals and Probing",
+      "description": "Failure modes beyond status codes, adaptive probing, and breaker pools.",
+      "type": "lesson",
+      "order": 3,
+      "duration": "75 min",
+      "difficulty": "Advanced"
+    },
+    {
+      "slug": "circuit-breaker-review-quiz",
+      "title": "Circuit Breakers: Review & Mastery Quiz",
+      "description": "Scenario questions on breaker states, thresholds, and fallbacks.",
+      "type": "quiz",
+      "order": 4,
+      "duration": "30 min",
+      "difficulty": "Intermediate"
     }
   ]
 }

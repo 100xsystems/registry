@@ -8,17 +8,17 @@
       "icon": "book",
       "items": [
         {
-          "title": "Refactoring.Guru \u2014 Circuit Breaker",
+          "title": "Refactoring.Guru — Circuit Breaker",
           "url": "https://refactoring.guru/design-patterns/circuit-breaker",
           "description": "The definitive modern guide to the Circuit Breaker pattern. Clear explanations, UML diagrams, real-world analogies, and code examples in multiple languages."
         },
         {
-          "title": "SourceMaking \u2014 Circuit Breaker",
+          "title": "SourceMaking — Circuit Breaker",
           "url": "https://sourcemaking.com/design_patterns/circuit_breaker",
           "description": "A comprehensive companion guide covering the Circuit Breaker pattern with detailed rules of thumb, criticisms, and robust code snippets."
         },
         {
-          "title": "GoF Design Patterns \u2014 Circuit Breaker",
+          "title": "GoF Design Patterns — Circuit Breaker",
           "url": "https://en.wikipedia.org/wiki/Design_Patterns",
           "description": "The original Gang of Four book describing the pattern. Available in the \"Design Patterns: Elements of Reusable Object-Oriented Software\" on Wikipedia."
         }
@@ -29,12 +29,12 @@
       "icon": "docs",
       "items": [
         {
-          "title": "Refactoring.Guru \u2014 Circuit Breaker",
+          "title": "Refactoring.Guru — Circuit Breaker",
           "url": "https://refactoring.guru/design-patterns/circuit-breaker",
           "description": "The definitive modern guide to the Circuit Breaker pattern. Clear explanations, UML diagrams, real-world analogies, and code examples in multiple languages."
         },
         {
-          "title": "Wikipedia \u2014 Circuit Breaker Pattern",
+          "title": "Wikipedia — Circuit Breaker Pattern",
           "url": "https://en.wikipedia.org/wiki/Circuit_Breaker_pattern",
           "description": "Wikipedia article explaining the Circuit Breaker pattern with examples and history."
         }
@@ -45,7 +45,7 @@
       "icon": "video",
       "items": [
         {
-          "title": "freeCodeCamp \u2014 Design Patterns Course",
+          "title": "freeCodeCamp — Design Patterns Course",
           "url": "https://www.youtube.com/watch?v=tv-_1er1mWI",
           "description": "A comprehensive multi-hour video course covering all major design patterns with implementations in JavaScript and TypeScript."
         },
@@ -55,7 +55,7 @@
           "description": "YouTube playlist covering creational, structural, and behavioral patterns with clear code walkthroughs."
         },
         {
-          "title": "Web Dev Simplified \u2014 Circuit Breaker",
+          "title": "Web Dev Simplified — Circuit Breaker",
           "url": "https://www.youtube.com/@WebDevSimplified",
           "description": "Clear, concise video tutorials covering design patterns with practical examples."
         }
@@ -92,7 +92,7 @@
           "description": "A visual reference chart summarizing all 22 GoF design patterns with intent and structure."
         },
         {
-          "title": "DoFactory \u2014 Circuit Breaker",
+          "title": "DoFactory — Circuit Breaker",
           "url": "https://www.dofactory.com/net/circuit-breaker-design-pattern",
           "description": "A concise structural reference for the Circuit Breaker pattern with C# code examples."
         }
@@ -108,7 +108,7 @@
           "description": "Pattern-specific articles, best practices, and real-world usage scenarios."
         },
         {
-          "title": "Medium \u2014 Design Patterns Explained",
+          "title": "Medium — Design Patterns Explained",
           "url": "https://medium.com/tag/design-patterns",
           "description": "Community-written articles exploring design patterns with real-world examples and code walkthroughs."
         }
@@ -119,7 +119,7 @@
       "icon": "community",
       "items": [
         {
-          "title": "Stack Overflow \u2014 Design Patterns",
+          "title": "Stack Overflow — Design Patterns",
           "url": "https://stackoverflow.com/questions/tagged/design-patterns",
           "description": "Q&A forum for pattern-related questions, best practices, and implementation help."
         },
@@ -133,22 +133,40 @@
   ],
   "lessons": [
     {
-      "slug": "fundamentals",
-      "title": "Fundamentals of Circuit Breaker",
-      "description": "Core concepts and key principles of Circuit Breaker",
+      "slug": "circuit-breaker-pattern-fundamentals",
+      "title": "Circuit Breaker: Fail Fast, Recover Slow",
+      "description": "The resilience pattern that stops calling a failing dependency and probes recovery.",
       "type": "lesson",
       "order": 1,
       "duration": "45 min",
-      "difficulty": "beginner"
+      "difficulty": "Beginner"
     },
     {
-      "slug": "practical-guide",
-      "title": "Practical Circuit Breaker Guide",
-      "description": "Real-world usage, best practices, and common patterns",
+      "slug": "circuit-breaker-pattern-applications",
+      "title": "Circuit Breaker in Production: Libraries and Config",
+      "description": "Resilience4j, Polly, and tuning breakers for real services.",
       "type": "lesson",
       "order": 2,
       "duration": "60 min",
-      "difficulty": "intermediate"
+      "difficulty": "Intermediate"
+    },
+    {
+      "slug": "circuit-breaker-pattern-advanced",
+      "title": "Advanced Circuit Breaker: Health Signals and Probing",
+      "description": "Latency-based opening, adaptive probes, and distributed breaker state.",
+      "type": "lesson",
+      "order": 3,
+      "duration": "75 min",
+      "difficulty": "Advanced"
+    },
+    {
+      "slug": "circuit-breaker-pattern-review-quiz",
+      "title": "Circuit Breaker (Pattern): Review & Mastery Quiz",
+      "description": "Scenario questions on states, tuning, and probing.",
+      "type": "quiz",
+      "order": 4,
+      "duration": "30 min",
+      "difficulty": "Intermediate"
     }
   ]
 }

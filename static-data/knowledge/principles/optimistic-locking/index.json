@@ -123,22 +123,40 @@
   ],
   "lessons": [
     {
-      "slug": "fundamentals",
-      "title": "Optimistic Locking: Core Concepts",
-      "order": 1,
-      "duration": "40 min",
+      "slug": "optimistic-locking-fundamentals",
+      "title": "Optimistic Locking: Check Before You Write",
+      "description": "Why assuming no conflict — and verifying it at write time — scales better than locking everything.",
       "type": "lesson",
-      "difficulty": "Intermediate",
-      "description": "Learn the Optimistic Locking principle: core concepts, definitions, and foundational knowledge."
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "Beginner"
     },
     {
-      "slug": "practical-guide",
-      "title": "Optimistic Locking: Practical Guide",
-      "order": 2,
-      "duration": "45 min",
+      "slug": "optimistic-locking-applications",
+      "title": "Optimistic Locking in Production: MVCC and Retries",
+      "description": "How databases implement it (MVCC), retry design, and version schemes that scale.",
       "type": "lesson",
-      "difficulty": "Intermediate",
-      "description": "Apply Optimistic Locking in real-world scenarios with practical examples and common pitfalls."
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "Intermediate"
+    },
+    {
+      "slug": "optimistic-locking-advanced",
+      "title": "Advanced Optimistic Locking: Conflict-Free Alternatives",
+      "description": "When optimistic locking is not enough, and CRDTs/conditionals that avoid conflicts entirely.",
+      "type": "lesson",
+      "order": 3,
+      "duration": "75 min",
+      "difficulty": "Advanced"
+    },
+    {
+      "slug": "optimistic-locking-review-quiz",
+      "title": "Optimistic Locking: Review & Mastery Quiz",
+      "description": "Scenario questions on versions, MVCC, and conflict resolution.",
+      "type": "quiz",
+      "order": 4,
+      "duration": "30 min",
+      "difficulty": "Intermediate"
     }
   ]
 }

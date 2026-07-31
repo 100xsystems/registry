@@ -123,22 +123,40 @@
   ],
   "lessons": [
     {
-      "slug": "fundamentals",
-      "title": "YAGNI (You Ain't Gonna Need It): Core Concepts",
-      "order": 1,
-      "duration": "40 min",
+      "slug": "yagni-fundamentals",
+      "title": "YAGNI: You Ain't Gonna Need It",
+      "description": "Why building for hypothetical futures is how codebases die, one speculative feature at a time.",
       "type": "lesson",
-      "difficulty": "Intermediate",
-      "description": "Learn the YAGNI (You Ain't Gonna Need It) principle: core concepts, definitions, and foundational knowledge."
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "Beginner"
     },
     {
-      "slug": "practical-guide",
-      "title": "YAGNI (You Ain't Gonna Need It): Practical Guide",
-      "order": 2,
-      "duration": "45 min",
+      "slug": "yagni-applications",
+      "title": "YAGNI in Production: Features and Architectures",
+      "description": "Applying YAGNI to feature requests, frameworks, and architecture decisions.",
       "type": "lesson",
-      "difficulty": "Intermediate",
-      "description": "Apply YAGNI (You Ain't Gonna Need It) in real-world scenarios with practical examples and common pitfalls."
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "Intermediate"
+    },
+    {
+      "slug": "yagni-advanced",
+      "title": "Advanced YAGNI: Options Thinking and Seams",
+      "description": "Designing cheap options (seams) instead of building speculative futures.",
+      "type": "lesson",
+      "order": 3,
+      "duration": "75 min",
+      "difficulty": "Advanced"
+    },
+    {
+      "slug": "yagni-review-quiz",
+      "title": "YAGNI: Review & Mastery Quiz",
+      "description": "Scenario questions on speculation, triggers, and options.",
+      "type": "quiz",
+      "order": 4,
+      "duration": "30 min",
+      "difficulty": "Intermediate"
     }
   ]
 }

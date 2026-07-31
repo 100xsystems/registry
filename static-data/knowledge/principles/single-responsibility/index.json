@@ -123,22 +123,40 @@
   ],
   "lessons": [
     {
-      "slug": "fundamentals",
-      "title": "Single Responsibility: Core Concepts",
-      "order": 1,
-      "duration": "40 min",
+      "slug": "single-responsibility-fundamentals",
+      "title": "Single Responsibility: One Reason to Change",
+      "description": "Why a class with many jobs has many reasons to change — and why that is a bug.",
       "type": "lesson",
-      "difficulty": "Intermediate",
-      "description": "Learn the Single Responsibility principle: core concepts, definitions, and foundational knowledge."
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "Beginner"
     },
     {
-      "slug": "practical-guide",
-      "title": "Single Responsibility: Practical Guide",
-      "order": 2,
-      "duration": "45 min",
+      "slug": "single-responsibility-applications",
+      "title": "Single Responsibility in Production: Services and Modules",
+      "description": "Responsibility boundaries in services, modules, and teams.",
       "type": "lesson",
-      "difficulty": "Intermediate",
-      "description": "Apply Single Responsibility in real-world scenarios with practical examples and common pitfalls."
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "Intermediate"
+    },
+    {
+      "slug": "single-responsibility-advanced",
+      "title": "Advanced Single Responsibility: Transactions and Bounded Contexts",
+      "description": "When responsibilities must cooperate, and domain boundaries that stay honest under transactions.",
+      "type": "lesson",
+      "order": 3,
+      "duration": "75 min",
+      "difficulty": "Advanced"
+    },
+    {
+      "slug": "single-responsibility-review-quiz",
+      "title": "Single Responsibility: Review & Mastery Quiz",
+      "description": "Scenario questions on reasons to change, services, and boundaries.",
+      "type": "quiz",
+      "order": 4,
+      "duration": "30 min",
+      "difficulty": "Intermediate"
     }
   ]
 }

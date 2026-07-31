@@ -123,22 +123,40 @@
   ],
   "lessons": [
     {
-      "slug": "fundamentals",
-      "title": "Liskov Substitution: Core Concepts",
-      "order": 1,
-      "duration": "40 min",
+      "slug": "liskov-substitution-fundamentals",
+      "title": "Liskov Substitution: Replaceable Without Surprises",
+      "description": "Why a subclass must behave like its base class in every way callers rely on.",
       "type": "lesson",
-      "difficulty": "Intermediate",
-      "description": "Learn the Liskov Substitution principle: core concepts, definitions, and foundational knowledge."
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "Beginner"
     },
     {
-      "slug": "practical-guide",
-      "title": "Liskov Substitution: Practical Guide",
-      "order": 2,
-      "duration": "45 min",
+      "slug": "liskov-substitution-applications",
+      "title": "LSP in Production: Interfaces and APIs",
+      "description": "Substitution at the interface level, contracts in typed systems, and pluggable implementations.",
       "type": "lesson",
-      "difficulty": "Intermediate",
-      "description": "Apply Liskov Substitution in real-world scenarios with practical examples and common pitfalls."
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "Intermediate"
+    },
+    {
+      "slug": "liskov-substitution-advanced",
+      "title": "Advanced LSP: Variance and Behavioral Contracts",
+      "description": "Covariance/contravariance, immutable types, and the precise rules of behavioral substitution.",
+      "type": "lesson",
+      "order": 3,
+      "duration": "75 min",
+      "difficulty": "Advanced"
+    },
+    {
+      "slug": "liskov-substitution-review-quiz",
+      "title": "Liskov Substitution: Review & Mastery Quiz",
+      "description": "Scenario questions on contracts, substitution, and variance.",
+      "type": "quiz",
+      "order": 4,
+      "duration": "30 min",
+      "difficulty": "Intermediate"
     }
   ]
 }

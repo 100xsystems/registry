@@ -123,22 +123,40 @@
   ],
   "lessons": [
     {
-      "slug": "fundamentals",
-      "title": "Throttling: Core Concepts",
-      "order": 1,
-      "duration": "40 min",
+      "slug": "throttling-fundamentals",
+      "title": "Throttling: Slow the Flow, Don't Stop It",
+      "description": "Why easing off the throttle — rather than hard-stopping — keeps systems responsive under load.",
       "type": "lesson",
-      "difficulty": "Intermediate",
-      "description": "Learn the Throttling principle: core concepts, definitions, and foundational knowledge."
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "Beginner"
     },
     {
-      "slug": "practical-guide",
-      "title": "Throttling: Practical Guide",
-      "order": 2,
-      "duration": "45 min",
+      "slug": "throttling-applications",
+      "title": "Throttling in Production: Workers and Backoff",
+      "description": "Worker throttling, exponential backoff, and self-protecting clients.",
       "type": "lesson",
-      "difficulty": "Intermediate",
-      "description": "Apply Throttling in real-world scenarios with practical examples and common pitfalls."
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "Intermediate"
+    },
+    {
+      "slug": "throttling-advanced",
+      "title": "Advanced Throttling: Adaptive and Fair Throttles",
+      "description": "Adaptive rates, fair throttling across consumers, and throttling that learns the system.",
+      "type": "lesson",
+      "order": 3,
+      "duration": "75 min",
+      "difficulty": "Advanced"
+    },
+    {
+      "slug": "throttling-review-quiz",
+      "title": "Throttling: Review & Mastery Quiz",
+      "description": "Scenario questions on shaping, backoff, and adaptive rates.",
+      "type": "quiz",
+      "order": 4,
+      "duration": "30 min",
+      "difficulty": "Intermediate"
     }
   ]
 }

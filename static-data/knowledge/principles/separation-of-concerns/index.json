@@ -123,22 +123,40 @@
   ],
   "lessons": [
     {
-      "slug": "fundamentals",
-      "title": "Separation of Concerns: Core Concepts",
-      "order": 1,
-      "duration": "40 min",
+      "slug": "separation-of-concerns-fundamentals",
+      "title": "Separation of Concerns: One Job per Part",
+      "description": "Why dividing a system into focused parts makes each one simpler, testable, and replaceable.",
       "type": "lesson",
-      "difficulty": "Intermediate",
-      "description": "Learn the Separation of Concerns principle: core concepts, definitions, and foundational knowledge."
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "Beginner"
     },
     {
-      "slug": "practical-guide",
-      "title": "Separation of Concerns: Practical Guide",
-      "order": 2,
-      "duration": "45 min",
+      "slug": "separation-of-concerns-applications",
+      "title": "Separation of Concerns in Production: Layers and Modules",
+      "description": "Clean layering, cross-cutting concerns (logging, auth), and keeping boundaries honest.",
       "type": "lesson",
-      "difficulty": "Intermediate",
-      "description": "Apply Separation of Concerns in real-world scenarios with practical examples and common pitfalls."
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "Intermediate"
+    },
+    {
+      "slug": "separation-of-concerns-advanced",
+      "title": "Advanced Separation of Concerns: Events and Domains",
+      "description": "Event-driven decoupling, domain isolation, and concerns that span services.",
+      "type": "lesson",
+      "order": 3,
+      "duration": "75 min",
+      "difficulty": "Advanced"
+    },
+    {
+      "slug": "separation-of-concerns-review-quiz",
+      "title": "Separation of Concerns: Review & Mastery Quiz",
+      "description": "Scenario questions on concerns, layers, and events.",
+      "type": "quiz",
+      "order": 4,
+      "duration": "30 min",
+      "difficulty": "Intermediate"
     }
   ]
 }

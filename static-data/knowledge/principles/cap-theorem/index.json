@@ -123,22 +123,40 @@
   ],
   "lessons": [
     {
-      "slug": "fundamentals",
-      "title": "CAP Theorem: Core Concepts",
-      "order": 1,
-      "duration": "40 min",
+      "slug": "cap-theorem-fundamentals",
+      "title": "The CAP Theorem: Pick Two",
+      "description": "Why a distributed system cannot have strong consistency and availability during a partition.",
       "type": "lesson",
-      "difficulty": "Intermediate",
-      "description": "Learn the CAP Theorem principle: core concepts, definitions, and foundational knowledge."
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "Beginner"
     },
     {
-      "slug": "practical-guide",
-      "title": "CAP Theorem: Practical Guide",
-      "order": 2,
-      "duration": "45 min",
+      "slug": "cap-theorem-applications",
+      "title": "CAP in Practice: CP and AP Systems",
+      "description": "How real databases, key-value stores, and coordination services implement their CAP choice.",
       "type": "lesson",
-      "difficulty": "Intermediate",
-      "description": "Apply CAP Theorem in real-world scenarios with practical examples and common pitfalls."
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "Intermediate"
+    },
+    {
+      "slug": "cap-theorem-advanced",
+      "title": "Advanced CAP: Linearizability, Sessions, and Reconciliation",
+      "description": "Tight definitions of consistency, session guarantees, and conflict resolution in AP systems.",
+      "type": "lesson",
+      "order": 3,
+      "duration": "75 min",
+      "difficulty": "Advanced"
+    },
+    {
+      "slug": "cap-theorem-review-quiz",
+      "title": "CAP Theorem: Review & Mastery Quiz",
+      "description": "Scenario questions on partitions, quorums, and reconciliation.",
+      "type": "quiz",
+      "order": 4,
+      "duration": "30 min",
+      "difficulty": "Intermediate"
     }
   ]
 }

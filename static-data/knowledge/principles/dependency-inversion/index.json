@@ -123,22 +123,40 @@
   ],
   "lessons": [
     {
-      "slug": "fundamentals",
-      "title": "Dependency Inversion: Core Concepts",
-      "order": 1,
-      "duration": "40 min",
+      "slug": "dependency-inversion-fundamentals",
+      "title": "Dependency Inversion: Depend on Abstractions",
+      "description": "Why high-level policy should never depend on low-level details, and how interfaces flip the arrow.",
       "type": "lesson",
-      "difficulty": "Intermediate",
-      "description": "Learn the Dependency Inversion principle: core concepts, definitions, and foundational knowledge."
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "Beginner"
     },
     {
-      "slug": "practical-guide",
-      "title": "Dependency Inversion: Practical Guide",
-      "order": 2,
-      "duration": "45 min",
+      "slug": "dependency-inversion-applications",
+      "title": "Dependency Inversion in Production: Ports and Adapters",
+      "description": "Hexagonal architecture, testability, and keeping the domain clean of infrastructure.",
       "type": "lesson",
-      "difficulty": "Intermediate",
-      "description": "Apply Dependency Inversion in real-world scenarios with practical examples and common pitfalls."
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "Intermediate"
+    },
+    {
+      "slug": "dependency-inversion-advanced",
+      "title": "Advanced Dependency Inversion: Modules and Compile-Time Arrows",
+      "description": "Module boundaries, preventing dependency cycles, and architecture tests that enforce the arrows.",
+      "type": "lesson",
+      "order": 3,
+      "duration": "75 min",
+      "difficulty": "Advanced"
+    },
+    {
+      "slug": "dependency-inversion-review-quiz",
+      "title": "Dependency Inversion: Review & Mastery Quiz",
+      "description": "Scenario questions on abstraction direction, ports, and module boundaries.",
+      "type": "quiz",
+      "order": 4,
+      "duration": "30 min",
+      "difficulty": "Intermediate"
     }
   ]
 }

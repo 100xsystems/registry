@@ -1,7 +1,7 @@
 {
   "slug": "scala",
   "name": "Scala",
-  "description": "Scala combines object-oriented and functional programming on the JVM. It powers high-performance data pipelines (Apache Spark), distributed systems (Akka), and type-safe web applications. These are the definitive free resources \u2014 vetted, current, and complete.",
+  "description": "Scala combines object-oriented and functional programming on the JVM. It powers high-performance data pipelines (Apache Spark), distributed systems (Akka), and type-safe web applications. These are the definitive free resources — vetted, current, and complete.",
   "categories": [
     {
       "label": "Free Books",
@@ -26,7 +26,7 @@
         {
           "title": "Official Scala Documentation Hub",
           "url": "https://docs.scala-lang.org/",
-          "description": "Central entry point for all Scala guides \u2014 Scala 3 references, migration guides, and best practices."
+          "description": "Central entry point for all Scala guides — Scala 3 references, migration guides, and best practices."
         },
         {
           "title": "Tour of Scala",
@@ -61,9 +61,9 @@
       "icon": "video",
       "items": [
         {
-          "title": "Rock the JVM \u2014 Scala at Light Speed",
+          "title": "Rock the JVM — Scala at Light Speed",
           "url": "https://rockthejvm.com/",
-          "description": "A fast-track free video course covering modern Scala 3 for experienced programmers by Daniel Cioc\u00eerlan."
+          "description": "A fast-track free video course covering modern Scala 3 for experienced programmers by Daniel Ciocîrlan."
         },
         {
           "title": "DevInsideYou YouTube Channel",
@@ -77,12 +77,12 @@
       "icon": "terminal",
       "items": [
         {
-          "title": "Exercism \u2014 Scala Track",
+          "title": "Exercism — Scala Track",
           "url": "https://exercism.org/tracks/scala",
           "description": "Mentor-backed code reviews with structured exercises using standard build tools."
         },
         {
-          "title": "Codewars \u2014 Scala Kata",
+          "title": "Codewars — Scala Kata",
           "url": "https://www.codewars.com/",
           "description": "Solve community-created challenges in Scala across hundreds of difficulty levels."
         }
@@ -144,22 +144,256 @@
   ],
   "lessons": [
     {
-      "slug": "fundamentals",
-      "title": "Fundamentals of Scala",
-      "description": "Core concepts, syntax, and first steps with Scala",
+      "slug": "scala-01-getting-started",
+      "title": "Getting Started with Scala 3",
+      "description": "Set up the Scala toolchain and write your first programs in the REPL and with sbt.",
       "type": "lesson",
       "order": 1,
       "duration": "45 min",
-      "difficulty": "beginner"
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "scala/scala-01-getting-started"
+      ]
     },
     {
-      "slug": "practical-guide",
-      "title": "Practical Scala Guide",
-      "description": "Real-world usage, tooling, and ecosystem",
+      "slug": "scala-02-values-types",
+      "title": "Values, Variables and the Type System",
+      "description": "Understand vals, vars, primitive types, and how Scala infers and converts types.",
       "type": "lesson",
       "order": 2,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "scala/scala-02-values-types"
+      ]
+    },
+    {
+      "slug": "scala-03-control-flow",
+      "title": "Control Flow: if, match and Loops",
+      "description": "Write expressive branching with if-expressions and pattern-matching match expressions.",
+      "type": "lesson",
+      "order": 3,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "scala/scala-03-control-flow"
+      ]
+    },
+    {
+      "slug": "scala-04-functions",
+      "title": "Defining Functions",
+      "description": "Write functions with parameters, default values and named arguments.",
+      "type": "lesson",
+      "order": 4,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "scala/scala-04-functions"
+      ]
+    },
+    {
+      "slug": "scala-05-higher-order-functions",
+      "title": "Higher-Order Functions and Lambdas",
+      "description": "Transform collections with map, filter, fold and other higher-order functions.",
+      "type": "lesson",
+      "order": 5,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "scala/scala-05-higher-order-functions"
+      ]
+    },
+    {
+      "slug": "scala-06-collections",
+      "title": "Collections: List, Vector, Map and Set",
+      "description": "Choose the right immutable collection and use its API effectively.",
+      "type": "lesson",
+      "order": 6,
       "duration": "60 min",
-      "difficulty": "intermediate"
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "scala/scala-06-collections"
+      ]
+    },
+    {
+      "slug": "scala-07-case-classes-pattern-matching",
+      "title": "Case Classes and Pattern Matching",
+      "description": "Model data with case classes and destructure it with pattern matching.",
+      "type": "lesson",
+      "order": 7,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "scala/scala-07-case-classes-pattern-matching"
+      ]
+    },
+    {
+      "slug": "scala-08-classes-traits",
+      "title": "Classes, Traits and Inheritance",
+      "description": "Build object-oriented abstractions with classes, traits and extension.",
+      "type": "lesson",
+      "order": 8,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "scala/scala-08-classes-traits"
+      ]
+    },
+    {
+      "slug": "scala-09-immutability-functional-style",
+      "title": "Immutability and Functional Style",
+      "description": "Write pure, referentially transparent code that avoids shared mutable state.",
+      "type": "lesson",
+      "order": 9,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "scala/scala-09-immutability-functional-style"
+      ]
+    },
+    {
+      "slug": "scala-10-option-either",
+      "title": "Option and Either for Safe Handling",
+      "description": "Replace null and exceptions with Option and Either for total functions.",
+      "type": "lesson",
+      "order": 10,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "scala/scala-10-option-either"
+      ]
+    },
+    {
+      "slug": "scala-11-for-comprehensions",
+      "title": "For Comprehensions and Monadic Composition",
+      "description": "Sequence and transform monadic values with for comprehensions.",
+      "type": "lesson",
+      "order": 11,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "scala/scala-11-for-comprehensions"
+      ]
+    },
+    {
+      "slug": "scala-12-generics-type-system",
+      "title": "Generics and the Type System",
+      "description": "Write reusable code with type parameters, bounds and variance.",
+      "type": "lesson",
+      "order": 12,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "scala/scala-12-generics-type-system"
+      ]
+    },
+    {
+      "slug": "scala-13-type-classes-implicits",
+      "title": "Type Classes and Givens",
+      "description": "Implement ad-hoc polymorphism with type classes and given instances.",
+      "type": "lesson",
+      "order": 13,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "scala/scala-13-type-classes-implicits"
+      ]
+    },
+    {
+      "slug": "scala-14-concurrency-futures",
+      "title": "Concurrency with Futures and Promises",
+      "description": "Run work on thread pools and combine asynchronous results with Futures.",
+      "type": "lesson",
+      "order": 14,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "scala/scala-14-concurrency-futures"
+      ]
+    },
+    {
+      "slug": "scala-15-files-io",
+      "title": "Files and I/O",
+      "description": "Read and write files, parse lines, and stream large inputs lazily.",
+      "type": "lesson",
+      "order": 15,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "scala/scala-15-files-io"
+      ]
+    },
+    {
+      "slug": "scala-16-testing",
+      "title": "Testing with munit and ScalaTest",
+      "description": "Write unit tests, property tests and test suites for Scala code.",
+      "type": "lesson",
+      "order": 16,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "scala/scala-16-testing"
+      ]
+    },
+    {
+      "slug": "scala-17-error-handling-try",
+      "title": "Error Handling with Try and Either",
+      "description": "Model failures explicitly and recover with Try, Either and validated data.",
+      "type": "lesson",
+      "order": 17,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "scala/scala-17-error-handling-try"
+      ]
+    },
+    {
+      "slug": "scala-18-sbt-builds",
+      "title": "Builds and Dependencies with sbt",
+      "description": "Configure builds, manage dependencies and run tasks with sbt.",
+      "type": "lesson",
+      "order": 18,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "scala/scala-18-sbt-builds"
+      ]
+    },
+    {
+      "slug": "scala-19-tail-recursion",
+      "title": "Tail Recursion and Performance",
+      "description": "Write stack-safe recursion and reason about allocation and performance.",
+      "type": "lesson",
+      "order": 19,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "scala/scala-19-tail-recursion"
+      ]
+    },
+    {
+      "slug": "scala-20-contextual-abstractions",
+      "title": "Contextual Abstractions in Depth",
+      "description": "Master using clauses, given instances and contextual lookup for flexible APIs.",
+      "type": "lesson",
+      "order": 20,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "scala/scala-20-contextual-abstractions"
+      ]
+    },
+    {
+      "slug": "scala-21-idiomatic-scala",
+      "title": "Putting It All Together",
+      "description": "Build a complete idiomatic Scala program combining FP, OOP and safe IO.",
+      "type": "lesson",
+      "order": 21,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "scala/scala-21-idiomatic-scala"
+      ]
     }
   ]
 }

@@ -123,22 +123,40 @@
   ],
   "lessons": [
     {
-      "slug": "fundamentals",
-      "title": "Graceful Degradation: Core Concepts",
-      "order": 1,
-      "duration": "40 min",
+      "slug": "graceful-degradation-fundamentals",
+      "title": "Graceful Degradation: Fail Partially, Stay Useful",
+      "description": "Designing systems that keep delivering value as components fail, instead of going fully dark.",
       "type": "lesson",
-      "difficulty": "Intermediate",
-      "description": "Learn the Graceful Degradation principle: core concepts, definitions, and foundational knowledge."
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "Beginner"
     },
     {
-      "slug": "practical-guide",
-      "title": "Graceful Degradation: Practical Guide",
-      "order": 2,
-      "duration": "45 min",
+      "slug": "graceful-degradation-applications",
+      "title": "Graceful Degradation in Production: Fallback Hierarchies",
+      "description": "Designing fallback chains, cached responses, and degraded modes that survive real incidents.",
       "type": "lesson",
-      "difficulty": "Intermediate",
-      "description": "Apply Graceful Degradation in real-world scenarios with practical examples and common pitfalls."
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "Intermediate"
+    },
+    {
+      "slug": "graceful-degradation-advanced",
+      "title": "Advanced Graceful Degradation: Adaptive Quality",
+      "description": "Dynamic resolution, adaptive compression, and quality-of-service that adjusts to load.",
+      "type": "lesson",
+      "order": 3,
+      "duration": "75 min",
+      "difficulty": "Advanced"
+    },
+    {
+      "slug": "graceful-degradation-review-quiz",
+      "title": "Graceful Degradation: Review & Mastery Quiz",
+      "description": "Scenario questions on fallbacks, degradation tiers, and adaptive quality.",
+      "type": "quiz",
+      "order": 4,
+      "duration": "30 min",
+      "difficulty": "Intermediate"
     }
   ]
 }

@@ -1,0 +1,77 @@
+---
+title: "Consistent Hashing in Production: Caches and Shards"
+order: 2
+difficulty: "Intermediate"
+duration: "60 min"
+learning_objectives:
+  - "Design a consistent-hash shard map"
+  - "Handle node membership changes"
+  - "Rebalance without a storm"
+  - "Use it for sticky load balancing"
+prerequisites:
+  []
+knowledge_refs:
+  - "patterns/consistent-hashing"
+---
+
+# Consistent Hashing in Production: Caches and Shards
+
+## Shard Maps
+
+A shard map maps logical shards to physical nodes via consistent hashing: each shard key hashes to a node, and when nodes scale, only neighbor shards move. Membership is versioned; a config service distributes the map to clients.
+
+```python
+# Consistent hash with virtual nodes (production-shaped)
+import hashlib, bisect
+
+class ConsistentHash:
+    def __init__(self, nodes, vnodes=100):
+        self.ring, self.owners = [], {}
+        for n in nodes:
+            for v in range(vnodes):
+                h = int(hashlib.md5(f"{n}:{v}".encode()).hexdigest()[:8], 16)
+                self.ring.append(h); self.owners[h] = n
+        self.ring.sort()
+
+    def node_for(self, key):
+        h = int(hashlib.md5(key.encode()).hexdigest()[:8], 16)
+        i = bisect.bisect_right(self.ring, h) % len(self.ring)
+        return self.owners[self.ring[i]]
+```
+
+## Sticky Sessions and Load Balancing
+
+Consistent hashing routes requests for the same user to the same backend (sticky sessions, session affinity) while staying balanced. A backend leaving the pool remaps only its users — no global rebalance.
+
+## Practice: Design the Cache Topology
+
+A 6-node Redis cache grows to 8 nodes during a sale.
+
+**Task 1:** Build the ring with virtual nodes and map the current keys.
+
+**Task 2:** Compute the cache-hit impact of adding 2 nodes (how many keys move?).
+
+**Task 3:** Design the membership update flow so clients see the new map without a stampede.
+
+## Guided LLM Prompts
+
+**Prompt 1 — Socratic Tutor:**
+> Teach me why adding nodes is cheap with consistent hashing but still needs a warm-up plan for the moved keys.
+
+**Prompt 2 — Implementation Design:**
+> Design a shard map service: versioned maps, client caching, and the rebalance protocol.
+
+**Prompt 3 — Boundary Testing:**
+> Two nodes hash adjacent and one takes 90% of the ring. Design the virtual-node layout that prevents it.
+
+## Key Takeaways
+
+- Shard maps distribute via the ring, versioned
+- Scale-out moves only neighbor keys
+- Warm-up plans handle the moved keys
+- Session affinity falls out naturally
+
+## Further Reading
+
+- [Dynamo Paper (consistent hashing)](https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf)
+- [Memcached Consistent Hashing](https://github.com/spotify/dockerfile-memcached)

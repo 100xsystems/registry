@@ -123,22 +123,40 @@
   ],
   "lessons": [
     {
-      "slug": "fundamentals",
-      "title": "DRY (Don't Repeat Yourself): Core Concepts",
-      "order": 1,
-      "duration": "40 min",
+      "slug": "dry-fundamentals",
+      "title": "DRY: Every Piece of Knowledge, Once",
+      "description": "The difference between duplicating code and duplicating knowledge — and why the second one hurts.",
       "type": "lesson",
-      "difficulty": "Intermediate",
-      "description": "Learn the DRY (Don't Repeat Yourself) principle: core concepts, definitions, and foundational knowledge."
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "Beginner"
     },
     {
-      "slug": "practical-guide",
-      "title": "DRY (Don't Repeat Yourself): Practical Guide",
-      "order": 2,
-      "duration": "45 min",
+      "slug": "dry-applications",
+      "title": "DRY in Production: Single Sources of Truth",
+      "description": "Config, schemas, and documentation as single sources of truth across services.",
       "type": "lesson",
-      "difficulty": "Intermediate",
-      "description": "Apply DRY (Don't Repeat Yourself) in real-world scenarios with practical examples and common pitfalls."
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "Intermediate"
+    },
+    {
+      "slug": "dry-advanced",
+      "title": "Advanced DRY: Abstraction Boundaries",
+      "description": "The failure modes of over-abstraction and how to keep shared code honest.",
+      "type": "lesson",
+      "order": 3,
+      "duration": "75 min",
+      "difficulty": "Advanced"
+    },
+    {
+      "slug": "dry-review-quiz",
+      "title": "DRY: Review & Mastery Quiz",
+      "description": "Scenario questions on knowledge duplication and abstraction boundaries.",
+      "type": "quiz",
+      "order": 4,
+      "duration": "30 min",
+      "difficulty": "Intermediate"
     }
   ]
 }

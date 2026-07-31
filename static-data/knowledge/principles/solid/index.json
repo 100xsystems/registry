@@ -123,22 +123,40 @@
   ],
   "lessons": [
     {
-      "slug": "fundamentals",
-      "title": "SOLID Principles: Core Concepts",
-      "order": 1,
-      "duration": "40 min",
+      "slug": "solid-fundamentals",
+      "title": "SOLID: The Five Principles of Maintainable Design",
+      "description": "The acronym that ties together the five foundation principles of object-oriented design.",
       "type": "lesson",
-      "difficulty": "Intermediate",
-      "description": "Learn the SOLID Principles principle: core concepts, definitions, and foundational knowledge."
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "Beginner"
     },
     {
-      "slug": "practical-guide",
-      "title": "SOLID Principles: Practical Guide",
-      "order": 2,
-      "duration": "45 min",
+      "slug": "solid-applications",
+      "title": "SOLID in Production: Design Reviews and Evolution",
+      "description": "Using SOLID as a review vocabulary and evolving a legacy codebase toward it.",
       "type": "lesson",
-      "difficulty": "Intermediate",
-      "description": "Apply SOLID Principles in real-world scenarios with practical examples and common pitfalls."
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "Intermediate"
+    },
+    {
+      "slug": "solid-advanced",
+      "title": "Advanced SOLID: DDD and System Design",
+      "description": "SOLID at the architecture scale: domain models, bounded contexts, and system-level boundaries.",
+      "type": "lesson",
+      "order": 3,
+      "duration": "75 min",
+      "difficulty": "Advanced"
+    },
+    {
+      "slug": "solid-review-quiz",
+      "title": "SOLID: Review & Mastery Quiz",
+      "description": "Scenario questions on the five principles and their interactions.",
+      "type": "quiz",
+      "order": 4,
+      "duration": "30 min",
+      "difficulty": "Intermediate"
     }
   ]
 }

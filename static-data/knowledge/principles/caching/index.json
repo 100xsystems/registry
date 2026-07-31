@@ -123,22 +123,40 @@
   ],
   "lessons": [
     {
-      "slug": "fundamentals",
-      "title": "Caching: Core Concepts",
-      "order": 1,
-      "duration": "40 min",
+      "slug": "caching-fundamentals",
+      "title": "Caching: Speed by Storing Computed Answers",
+      "description": "Why caching is the highest-leverage performance tool and how it can also corrupt behavior.",
       "type": "lesson",
-      "difficulty": "Intermediate",
-      "description": "Learn the Caching principle: core concepts, definitions, and foundational knowledge."
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "Beginner"
     },
     {
-      "slug": "practical-guide",
-      "title": "Caching: Practical Guide",
-      "order": 2,
-      "duration": "45 min",
+      "slug": "caching-applications",
+      "title": "Caching in Production: Thundering Herds and Stampedes",
+      "description": "Cache stampedes, stale-while-revalidate, and invalidation at scale.",
       "type": "lesson",
-      "difficulty": "Intermediate",
-      "description": "Apply Caching in real-world scenarios with practical examples and common pitfalls."
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "Intermediate"
+    },
+    {
+      "slug": "caching-advanced",
+      "title": "Advanced Caching: Distributed Caches and Multi-Tier",
+      "description": "Consistent hashing, cache-aside with locking, and multi-tier caches at scale.",
+      "type": "lesson",
+      "order": 3,
+      "duration": "75 min",
+      "difficulty": "Advanced"
+    },
+    {
+      "slug": "caching-review-quiz",
+      "title": "Caching: Review & Mastery Quiz",
+      "description": "Scenario questions on cache layers, stampedes, and distributed caching.",
+      "type": "quiz",
+      "order": 4,
+      "duration": "30 min",
+      "difficulty": "Intermediate"
     }
   ]
 }

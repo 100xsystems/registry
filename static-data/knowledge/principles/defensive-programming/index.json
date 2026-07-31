@@ -123,22 +123,40 @@
   ],
   "lessons": [
     {
-      "slug": "fundamentals",
-      "title": "Defensive Programming: Core Concepts",
-      "order": 1,
-      "duration": "40 min",
+      "slug": "defensive-programming-fundamentals",
+      "title": "Defensive Programming: Code That Survives the Unexpected",
+      "description": "Validate inputs, fail loudly, and never trust callers or external data.",
       "type": "lesson",
-      "difficulty": "Intermediate",
-      "description": "Learn the Defensive Programming principle: core concepts, definitions, and foundational knowledge."
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "Beginner"
     },
     {
-      "slug": "practical-guide",
-      "title": "Defensive Programming: Practical Guide",
-      "order": 2,
-      "duration": "45 min",
+      "slug": "defensive-programming-applications",
+      "title": "Defensive Programming in Production: Errors and Fallbacks",
+      "description": "Error handling hierarchies, fallbacks, and protecting against cascading corruption.",
       "type": "lesson",
-      "difficulty": "Intermediate",
-      "description": "Apply Defensive Programming in real-world scenarios with practical examples and common pitfalls."
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "Intermediate"
+    },
+    {
+      "slug": "defensive-programming-advanced",
+      "title": "Advanced Defensive Programming: Fuzzers and Contracts",
+      "description": "Design-by-contract, fuzzing, and making defensive checks pay for themselves.",
+      "type": "lesson",
+      "order": 3,
+      "duration": "75 min",
+      "difficulty": "Advanced"
+    },
+    {
+      "slug": "defensive-programming-review-quiz",
+      "title": "Defensive Programming: Review & Mastery Quiz",
+      "description": "Scenario questions on boundaries, error policies, and contracts.",
+      "type": "quiz",
+      "order": 4,
+      "duration": "30 min",
+      "difficulty": "Intermediate"
     }
   ]
 }

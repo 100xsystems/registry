@@ -123,22 +123,40 @@
   ],
   "lessons": [
     {
-      "slug": "fundamentals",
-      "title": "Quorum: Core Concepts",
-      "order": 1,
-      "duration": "40 min",
+      "slug": "quorum-fundamentals",
+      "title": "Quorum: Majorities and Consensus",
+      "description": "Why decisions need more than half the votes, and how quorums make distributed writes safe.",
       "type": "lesson",
-      "difficulty": "Intermediate",
-      "description": "Learn the Quorum principle: core concepts, definitions, and foundational knowledge."
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "Beginner"
     },
     {
-      "slug": "practical-guide",
-      "title": "Quorum: Practical Guide",
-      "order": 2,
-      "duration": "45 min",
+      "slug": "quorum-applications",
+      "title": "Quorum in Production: Multi-AZ and Geo",
+      "description": "Quorums across availability zones, regions, and the latency they cost.",
       "type": "lesson",
-      "difficulty": "Intermediate",
-      "description": "Apply Quorum in real-world scenarios with practical examples and common pitfalls."
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "Intermediate"
+    },
+    {
+      "slug": "quorum-advanced",
+      "title": "Advanced Quorum: Flexible and Epoch Quorums",
+      "description": "Flexible quorums, epoch-based fencing, and tuning quorums for skewed workloads.",
+      "type": "lesson",
+      "order": 3,
+      "duration": "75 min",
+      "difficulty": "Advanced"
+    },
+    {
+      "slug": "quorum-review-quiz",
+      "title": "Quorum: Review & Mastery Quiz",
+      "description": "Scenario questions on quorum math, AZs, and flexible quorums.",
+      "type": "quiz",
+      "order": 4,
+      "duration": "30 min",
+      "difficulty": "Intermediate"
     }
   ]
 }

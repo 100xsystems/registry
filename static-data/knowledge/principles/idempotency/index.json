@@ -123,22 +123,40 @@
   ],
   "lessons": [
     {
-      "slug": "fundamentals",
-      "title": "Idempotency: Core Concepts",
-      "order": 1,
-      "duration": "40 min",
+      "slug": "idempotency-fundamentals",
+      "title": "Idempotency: Safe to Repeat",
+      "description": "Why \"do it once, or many times — same result\" is the superpower of reliable systems.",
       "type": "lesson",
-      "difficulty": "Intermediate",
-      "description": "Learn the Idempotency principle: core concepts, definitions, and foundational knowledge."
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "Beginner"
     },
     {
-      "slug": "practical-guide",
-      "title": "Idempotency: Practical Guide",
-      "order": 2,
-      "duration": "45 min",
+      "slug": "idempotency-applications",
+      "title": "Idempotency in Production: Keys, Stores, and Lifecycles",
+      "description": "Designing idempotency-key stores, retention, and end-to-end idempotent pipelines.",
       "type": "lesson",
-      "difficulty": "Intermediate",
-      "description": "Apply Idempotency in real-world scenarios with practical examples and common pitfalls."
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "Intermediate"
+    },
+    {
+      "slug": "idempotency-advanced",
+      "title": "Advanced Idempotency: Distributed and CRDT Approaches",
+      "description": "Idempotency across services, and convergence tools that are idempotent by construction.",
+      "type": "lesson",
+      "order": 3,
+      "duration": "75 min",
+      "difficulty": "Advanced"
+    },
+    {
+      "slug": "idempotency-review-quiz",
+      "title": "Idempotency: Review & Mastery Quiz",
+      "description": "Scenario questions on keys, stores, and idempotent pipelines.",
+      "type": "quiz",
+      "order": 4,
+      "duration": "30 min",
+      "difficulty": "Intermediate"
     }
   ]
 }
