@@ -4,6 +4,12 @@
 Every language generator (gen-c.py, gen-cpp.py, ...) imports this module and
 provides: LANGUAGE (slug), LESSONS (21 dicts), CODE (21 x 4 distinct samples).
 This keeps the lesson format identical across all languages and avoids drift.
+
+ESCAPE HYGIENE: code samples inside triple-quoted strings are LITERAL. To render
+an escape like \\n or \\t in the generated markdown you MUST write it as \\\\n /
+\\\\t in the Python source (double the backslash). A single backslash is
+interpreted by Python and silently corrupts the generated lesson (e.g. a real
+newline inside a string literal) — and verify-lang.py cannot detect this.
 """
 
 import json

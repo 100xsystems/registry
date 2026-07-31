@@ -15,7 +15,7 @@
         {
           "title": "Erlang in Anger",
           "url": "https://www.erlang-in-anger.com/",
-          "description": "Practical guide by Fred H\u00e9bert for debugging, monitoring, and handling production issues in high-uptime BEAM systems."
+          "description": "Practical guide by Fred Hébert for debugging, monitoring, and handling production issues in high-uptime BEAM systems."
         }
       ]
     },
@@ -45,7 +45,7 @@
           "description": "Legendary course taught by Joe Armstrong, Francesco Cesarini, and Simon Thompson."
         },
         {
-          "title": "Exercism \u2014 Erlang Track",
+          "title": "Exercism — Erlang Track",
           "url": "https://exercism.org/tracks/erlang",
           "description": "80+ hands-on exercises with automated tests and personalized mentor feedback."
         }
@@ -72,12 +72,12 @@
       "icon": "terminal",
       "items": [
         {
-          "title": "Exercism \u2014 Erlang Track",
+          "title": "Exercism — Erlang Track",
           "url": "https://exercism.org/tracks/erlang",
           "description": "Free programming exercises with mentor feedback from the Erlang community."
         },
         {
-          "title": "Codewars \u2014 Erlang Kata",
+          "title": "Codewars — Erlang Kata",
           "url": "https://www.codewars.com/",
           "description": "Solve community-created challenges in Erlang."
         }
@@ -125,7 +125,7 @@
           "description": "Active community board for core developers and learners."
         },
         {
-          "title": "Stack Overflow \u2014 Erlang Tag",
+          "title": "Stack Overflow — Erlang Tag",
           "url": "https://stackoverflow.com/questions/tagged/erlang",
           "description": "Q&A for Erlang OTP, debugging, and functional design."
         }
@@ -134,22 +134,256 @@
   ],
   "lessons": [
     {
-      "slug": "fundamentals",
-      "title": "Fundamentals of Erlang",
-      "description": "Core concepts, syntax, and first steps with Erlang",
+      "slug": "erlang-01-getting-started",
+      "title": "Getting Started with Erlang",
+      "description": "Modules, exports, atoms, variables, and the Erlang shell.",
       "type": "lesson",
       "order": 1,
       "duration": "45 min",
-      "difficulty": "beginner"
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "erlang/erlang-01-getting-started"
+      ]
     },
     {
-      "slug": "practical-guide",
-      "title": "Practical Erlang Guide",
-      "description": "Real-world usage, tooling, and ecosystem",
+      "slug": "erlang-02-values-types",
+      "title": "Values and Types",
+      "description": "Numbers, strings as lists, format directives, and booleans.",
       "type": "lesson",
       "order": 2,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "erlang/erlang-02-values-types"
+      ]
+    },
+    {
+      "slug": "erlang-03-control-flow",
+      "title": "Control Flow",
+      "description": "case, if, pattern-matched clauses, and guards.",
+      "type": "lesson",
+      "order": 3,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "erlang/erlang-03-control-flow"
+      ]
+    },
+    {
+      "slug": "erlang-04-lists",
+      "title": "Lists and the Lists Module",
+      "description": "List fundamentals, comprehensions, and the lists library.",
+      "type": "lesson",
+      "order": 4,
       "duration": "60 min",
-      "difficulty": "intermediate"
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "erlang/erlang-04-lists"
+      ]
+    },
+    {
+      "slug": "erlang-05-tuples-records",
+      "title": "Tuples and Records",
+      "description": "Tuples, the ok/error convention, and records as named tuples.",
+      "type": "lesson",
+      "order": 5,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "erlang/erlang-05-tuples-records"
+      ]
+    },
+    {
+      "slug": "erlang-06-pattern-matching",
+      "title": "Pattern Matching",
+      "description": "Matching, destructuring, map patterns, and transforms.",
+      "type": "lesson",
+      "order": 6,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "erlang/erlang-06-pattern-matching"
+      ]
+    },
+    {
+      "slug": "erlang-07-recursion",
+      "title": "Recursion",
+      "description": "Recursive loops, tail calls, accumulators, and list building.",
+      "type": "lesson",
+      "order": 7,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "erlang/erlang-07-recursion"
+      ]
+    },
+    {
+      "slug": "erlang-08-funs",
+      "title": "Anonymous Functions and Funs",
+      "description": "Anonymous functions, higher-order functions, and closures.",
+      "type": "lesson",
+      "order": 8,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "erlang/erlang-08-funs"
+      ]
+    },
+    {
+      "slug": "erlang-09-message-passing",
+      "title": "Message Passing",
+      "description": "send/receive, PIDs, selective receive, and timeouts.",
+      "type": "lesson",
+      "order": 9,
+      "duration": "75 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "erlang/erlang-09-message-passing"
+      ]
+    },
+    {
+      "slug": "erlang-10-fault-tolerance",
+      "title": "Fault Tolerance",
+      "description": "Links, monitors, exits, and try/catch.",
+      "type": "lesson",
+      "order": 10,
+      "duration": "75 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "erlang/erlang-10-fault-tolerance"
+      ]
+    },
+    {
+      "slug": "erlang-11-otp",
+      "title": "OTP Behaviours",
+      "description": "gen_server, supervisors, and applications.",
+      "type": "lesson",
+      "order": 11,
+      "duration": "75 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "erlang/erlang-11-otp"
+      ]
+    },
+    {
+      "slug": "erlang-12-concurrency",
+      "title": "Concurrency Utilities",
+      "description": "Process dictionary, ets, parallel map, and timing.",
+      "type": "lesson",
+      "order": 12,
+      "duration": "75 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "erlang/erlang-12-concurrency"
+      ]
+    },
+    {
+      "slug": "erlang-13-maps-binaries",
+      "title": "Maps and Binaries",
+      "description": "Maps, map updates, bit syntax, and binaries as strings.",
+      "type": "lesson",
+      "order": 13,
+      "duration": "75 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "erlang/erlang-13-maps-binaries"
+      ]
+    },
+    {
+      "slug": "erlang-14-supervision",
+      "title": "Supervision Trees",
+      "description": "Tree structure, supervisor callbacks, restart intensity.",
+      "type": "lesson",
+      "order": 14,
+      "duration": "75 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "erlang/erlang-14-supervision"
+      ]
+    },
+    {
+      "slug": "erlang-15-binaries-io",
+      "title": "Binaries and I/O",
+      "description": "Binary matching, request parsing, building, and files.",
+      "type": "lesson",
+      "order": 15,
+      "duration": "75 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "erlang/erlang-15-binaries-io"
+      ]
+    },
+    {
+      "slug": "erlang-16-testing",
+      "title": "Testing",
+      "description": "EUnit, assertions, Common Test, and the TDD workflow.",
+      "type": "lesson",
+      "order": 16,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "erlang/erlang-16-testing"
+      ]
+    },
+    {
+      "slug": "erlang-17-distribution",
+      "title": "Distribution and Hot Code",
+      "description": "Hot code loading, distributed nodes, Mnesia, observability.",
+      "type": "lesson",
+      "order": 17,
+      "duration": "75 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "erlang/erlang-17-distribution"
+      ]
+    },
+    {
+      "slug": "erlang-18-performance",
+      "title": "Performance",
+      "description": "List performance, accumulators, efficient strings, timeouts.",
+      "type": "lesson",
+      "order": 18,
+      "duration": "75 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "erlang/erlang-18-performance"
+      ]
+    },
+    {
+      "slug": "erlang-19-guards",
+      "title": "Guards in Depth",
+      "description": "Guard reference, type guards, pattern vs guard, case everywhere.",
+      "type": "lesson",
+      "order": 19,
+      "duration": "75 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "erlang/erlang-19-guards"
+      ]
+    },
+    {
+      "slug": "erlang-20-pipelines",
+      "title": "Process Pipelines and Servers",
+      "description": "Process pipelines, worker pools, caches, health checks.",
+      "type": "lesson",
+      "order": 20,
+      "duration": "75 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "erlang/erlang-20-pipelines"
+      ]
+    },
+    {
+      "slug": "erlang-21-advanced-otp",
+      "title": "Advanced OTP",
+      "description": "Call vs cast, timeouts, gen_statem, and the philosophy.",
+      "type": "lesson",
+      "order": 21,
+      "duration": "75 min",
+      "difficulty": "expert",
+      "knowledge_refs": [
+        "erlang/erlang-21-advanced-otp"
+      ]
     }
   ]
 }

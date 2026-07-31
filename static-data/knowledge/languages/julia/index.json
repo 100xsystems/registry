@@ -40,12 +40,12 @@
       "icon": "code",
       "items": [
         {
-          "title": "MIT 18.S191 \u2014 Computational Thinking",
+          "title": "MIT 18.S191 — Computational Thinking",
           "url": "https://computationalthinking.mit.edu/",
           "description": "Famous free course by Julia co-creator Prof. Alan Edelman and Grant Sanderson using Pluto.jl notebooks."
         },
         {
-          "title": "Exercism \u2014 Julia Track",
+          "title": "Exercism — Julia Track",
           "url": "https://exercism.org/tracks/julia",
           "description": "34 concept modules and 120+ practice exercises with automated analysis and mentoring."
         }
@@ -72,7 +72,7 @@
       "icon": "terminal",
       "items": [
         {
-          "title": "Exercism \u2014 Julia Track",
+          "title": "Exercism — Julia Track",
           "url": "https://exercism.org/tracks/julia",
           "description": "100% free coding exercises with community mentorship."
         },
@@ -129,22 +129,256 @@
   ],
   "lessons": [
     {
-      "slug": "fundamentals",
-      "title": "Fundamentals of Julia",
-      "description": "Core concepts, syntax, and first steps with Julia",
+      "slug": "julia-01-getting-started",
+      "title": "Getting Started with Julia",
+      "description": "REPL, scripts, and the Julia execution model.",
       "type": "lesson",
       "order": 1,
-      "duration": "45 min",
-      "difficulty": "beginner"
+      "duration": 20,
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "julia/julia-01-getting-started"
+      ]
     },
     {
-      "slug": "practical-guide",
-      "title": "Practical Julia Guide",
-      "description": "Real-world usage, tooling, and ecosystem",
+      "slug": "julia-02-values-types",
+      "title": "Values and Types",
+      "description": "Core types: integers, floats, booleans, chars, strings.",
       "type": "lesson",
       "order": 2,
-      "duration": "60 min",
-      "difficulty": "intermediate"
+      "duration": 25,
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "julia/julia-02-values-types"
+      ]
+    },
+    {
+      "slug": "julia-03-variables-scoping",
+      "title": "Variables and Scoping",
+      "description": "Assignment, const, local vs global scope, and closures.",
+      "type": "lesson",
+      "order": 3,
+      "duration": 25,
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "julia/julia-03-variables-scoping"
+      ]
+    },
+    {
+      "slug": "julia-04-arithmetic-operators",
+      "title": "Arithmetic and Operators",
+      "description": "Numeric operators, chained comparisons, and bitwise ops.",
+      "type": "lesson",
+      "order": 4,
+      "duration": 25,
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "julia/julia-04-arithmetic-operators"
+      ]
+    },
+    {
+      "slug": "julia-05-functions",
+      "title": "Functions",
+      "description": "Definitions, keyword arguments, anonymous functions, splatting.",
+      "type": "lesson",
+      "order": 5,
+      "duration": 30,
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "julia/julia-05-functions"
+      ]
+    },
+    {
+      "slug": "julia-06-multiple-dispatch",
+      "title": "Multiple Dispatch",
+      "description": "Method definitions, abstract types, and dispatch specificity.",
+      "type": "lesson",
+      "order": 6,
+      "duration": 35,
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "julia/julia-06-multiple-dispatch"
+      ]
+    },
+    {
+      "slug": "julia-07-control-flow",
+      "title": "Control Flow",
+      "description": "if/elseif, ternary, short-circuit, and loops.",
+      "type": "lesson",
+      "order": 7,
+      "duration": 25,
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "julia/julia-07-control-flow"
+      ]
+    },
+    {
+      "slug": "julia-08-strings-text",
+      "title": "Strings and Text",
+      "description": "UTF-8 handling, interpolation, and string functions.",
+      "type": "lesson",
+      "order": 8,
+      "duration": 25,
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "julia/julia-08-strings-text"
+      ]
+    },
+    {
+      "slug": "julia-09-arrays",
+      "title": "Arrays",
+      "description": "Vectors, comprehensions, broadcasting, and matrices.",
+      "type": "lesson",
+      "order": 9,
+      "duration": 35,
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "julia/julia-09-arrays"
+      ]
+    },
+    {
+      "slug": "julia-10-tuples-dicts",
+      "title": "Tuples, NamedTuples, and Dictionaries",
+      "description": "Immutable tuples, keyed maps, and sets.",
+      "type": "lesson",
+      "order": 10,
+      "duration": 30,
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "julia/julia-10-tuples-dicts"
+      ]
+    },
+    {
+      "slug": "julia-11-structs",
+      "title": "Composite Types and Structs",
+      "description": "Immutable and mutable structs, inner constructors.",
+      "type": "lesson",
+      "order": 11,
+      "duration": 35,
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "julia/julia-11-structs"
+      ]
+    },
+    {
+      "slug": "julia-12-parametric-types",
+      "title": "Abstract and Parametric Types",
+      "description": "Type parameters, unions, and the type hierarchy.",
+      "type": "lesson",
+      "order": 12,
+      "duration": 35,
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "julia/julia-12-parametric-types"
+      ]
+    },
+    {
+      "slug": "julia-13-modules-packages",
+      "title": "Modules and Packages",
+      "description": "Namespaces, Pkg management, import vs using.",
+      "type": "lesson",
+      "order": 13,
+      "duration": 30,
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "julia/julia-13-modules-packages"
+      ]
+    },
+    {
+      "slug": "julia-14-metaprogramming",
+      "title": "Metaprogramming",
+      "description": "Symbols, expressions, macros, and code-as-data.",
+      "type": "lesson",
+      "order": 14,
+      "duration": 40,
+      "difficulty": "expert",
+      "knowledge_refs": [
+        "julia/julia-14-metaprogramming"
+      ]
+    },
+    {
+      "slug": "julia-15-errors-exceptions",
+      "title": "Errors and Exceptions",
+      "description": "try/catch/finally, throw, and error handling patterns.",
+      "type": "lesson",
+      "order": 15,
+      "duration": 30,
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "julia/julia-15-errors-exceptions"
+      ]
+    },
+    {
+      "slug": "julia-16-file-io",
+      "title": "File I/O",
+      "description": "Reading and writing files, parsing CSV-like data.",
+      "type": "lesson",
+      "order": 16,
+      "duration": 30,
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "julia/julia-16-file-io"
+      ]
+    },
+    {
+      "slug": "julia-17-generators-iterators",
+      "title": "Generators and Iterators",
+      "description": "Ranges, lazy generators, zip/enumerate, reduce.",
+      "type": "lesson",
+      "order": 17,
+      "duration": 30,
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "julia/julia-17-generators-iterators"
+      ]
+    },
+    {
+      "slug": "julia-18-missing-nothing",
+      "title": "Missing, Nothing, and NaN",
+      "description": "Handling absent and undefined values idiomatically.",
+      "type": "lesson",
+      "order": 18,
+      "duration": 25,
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "julia/julia-18-missing-nothing"
+      ]
+    },
+    {
+      "slug": "julia-19-parallelism-concurrency",
+      "title": "Parallelism and Concurrency",
+      "description": "Threads, tasks, channels, and distributed computing.",
+      "type": "lesson",
+      "order": 19,
+      "duration": 45,
+      "difficulty": "expert",
+      "knowledge_refs": [
+        "julia/julia-19-parallelism-concurrency"
+      ]
+    },
+    {
+      "slug": "julia-20-performance-type-stability",
+      "title": "Performance and Type Stability",
+      "description": "Type stability, @code_warntype, and allocation-free code.",
+      "type": "lesson",
+      "order": 20,
+      "duration": 40,
+      "difficulty": "expert",
+      "knowledge_refs": [
+        "julia/julia-20-performance-type-stability"
+      ]
+    },
+    {
+      "slug": "julia-21-ecosystem-next-steps",
+      "title": "Ecosystem and Next Steps",
+      "description": "DataFrames, Plots, the community, and advanced topics.",
+      "type": "lesson",
+      "order": 21,
+      "duration": 20,
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "julia/julia-21-ecosystem-next-steps"
+      ]
     }
   ]
 }

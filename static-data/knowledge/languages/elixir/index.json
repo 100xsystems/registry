@@ -1,7 +1,7 @@
 {
   "slug": "elixir",
   "name": "Elixir",
-  "description": "Elixir is a functional, concurrent language built on the Erlang VM (BEAM). It excels at building fault-tolerant, distributed systems with the Phoenix web framework and LiveView for real-time apps. These are the definitive free resources \u2014 vetted, current, and complete.",
+  "description": "Elixir is a functional, concurrent language built on the Erlang VM (BEAM). It excels at building fault-tolerant, distributed systems with the Phoenix web framework and LiveView for real-time apps. These are the definitive free resources — vetted, current, and complete.",
   "categories": [
     {
       "label": "Free Books",
@@ -34,7 +34,7 @@
           "description": "The centralized portal listing approved community books, courses, screencasts, and learning pathways."
         },
         {
-          "title": "HexDocs \u2014 Elixir Standard Library",
+          "title": "HexDocs — Elixir Standard Library",
           "url": "https://hexdocs.pm/elixir/",
           "description": "Complete API documentation for the Elixir standard library with detailed module references."
         }
@@ -45,7 +45,7 @@
       "icon": "code",
       "items": [
         {
-          "title": "Exercism \u2014 Elixir Track",
+          "title": "Exercism — Elixir Track",
           "url": "https://exercism.org/tracks/elixir",
           "description": "58 concepts and 168 exercises with community mentoring for writing idiomatic Elixir."
         },
@@ -77,12 +77,12 @@
       "icon": "terminal",
       "items": [
         {
-          "title": "Exercism \u2014 Elixir Track",
+          "title": "Exercism — Elixir Track",
           "url": "https://exercism.org/tracks/elixir",
           "description": "100% free coding exercises with community mentoring and automated analysis."
         },
         {
-          "title": "Codewars \u2014 Elixir Kata",
+          "title": "Codewars — Elixir Kata",
           "url": "https://www.codewars.com/",
           "description": "Solve community-created challenges in Elixir across hundreds of difficulty levels."
         }
@@ -144,22 +144,256 @@
   ],
   "lessons": [
     {
-      "slug": "fundamentals",
-      "title": "Fundamentals of Elixir",
-      "description": "Core concepts, syntax, and first steps with Elixir",
+      "slug": "elixir-01-getting-started",
+      "title": "Getting Started with Elixir",
+      "description": "Installation, IEx, modules, functions, and pattern matching basics.",
       "type": "lesson",
       "order": 1,
       "duration": "45 min",
-      "difficulty": "beginner"
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "elixir/elixir-01-getting-started"
+      ]
     },
     {
-      "slug": "practical-guide",
-      "title": "Practical Elixir Guide",
-      "description": "Real-world usage, tooling, and ecosystem",
+      "slug": "elixir-02-values-types",
+      "title": "Values, Types, and Immutability",
+      "description": "Immutable data, atoms, strings, numbers, and booleans.",
       "type": "lesson",
       "order": 2,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "elixir/elixir-02-values-types"
+      ]
+    },
+    {
+      "slug": "elixir-03-control-flow",
+      "title": "Control Flow",
+      "description": "case, cond, if/unless, and pattern-matched function clauses.",
+      "type": "lesson",
+      "order": 3,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "elixir/elixir-03-control-flow"
+      ]
+    },
+    {
+      "slug": "elixir-04-enumerable",
+      "title": "Collections and Enum",
+      "description": "Enum, lists, maps, and comprehensions.",
+      "type": "lesson",
+      "order": 4,
       "duration": "60 min",
-      "difficulty": "intermediate"
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "elixir/elixir-04-enumerable"
+      ]
+    },
+    {
+      "slug": "elixir-05-functions",
+      "title": "Functions and the Pipe",
+      "description": "Anonymous functions, captures, closures, and the pipe operator.",
+      "type": "lesson",
+      "order": 5,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "elixir/elixir-05-functions"
+      ]
+    },
+    {
+      "slug": "elixir-06-recursion",
+      "title": "Recursion",
+      "description": "Recursive thinking, tail calls, and building results.",
+      "type": "lesson",
+      "order": 6,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "elixir/elixir-06-recursion"
+      ]
+    },
+    {
+      "slug": "elixir-07-tuples-structs",
+      "title": "Tuples and Structs",
+      "description": "Tuples, the {:ok, _}/{:error, _} convention, and structs.",
+      "type": "lesson",
+      "order": 7,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "elixir/elixir-07-tuples-structs"
+      ]
+    },
+    {
+      "slug": "elixir-08-keywords-maps-sets",
+      "title": "Keyword Lists, Maps, and Sets",
+      "description": "Keyword lists, map vs keyword trade-offs, and MapSet.",
+      "type": "lesson",
+      "order": 8,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "elixir/elixir-08-keywords-maps-sets"
+      ]
+    },
+    {
+      "slug": "elixir-09-pattern-matching",
+      "title": "Pattern Matching in Depth",
+      "description": "Function-head matching, guards, pinning, and list patterns.",
+      "type": "lesson",
+      "order": 9,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "elixir/elixir-09-pattern-matching"
+      ]
+    },
+    {
+      "slug": "elixir-10-error-handling",
+      "title": "Error Handling",
+      "description": "try/rescue, errors as values, raise, and with.",
+      "type": "lesson",
+      "order": 10,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "elixir/elixir-10-error-handling"
+      ]
+    },
+    {
+      "slug": "elixir-11-processes",
+      "title": "Processes and Message Passing",
+      "description": "spawn, send/receive, process state, links, and monitors.",
+      "type": "lesson",
+      "order": 11,
+      "duration": "75 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "elixir/elixir-11-processes"
+      ]
+    },
+    {
+      "slug": "elixir-12-agents-tasks-genserver",
+      "title": "Agents, Tasks, and GenServer",
+      "description": "Agent for state, Task for async work, GenServer for servers.",
+      "type": "lesson",
+      "order": 12,
+      "duration": "75 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "elixir/elixir-12-agents-tasks-genserver"
+      ]
+    },
+    {
+      "slug": "elixir-13-streams",
+      "title": "Streams and Lazy Evaluation",
+      "description": "Lazy enumerables, infinite streams, and streaming files.",
+      "type": "lesson",
+      "order": 13,
+      "duration": "75 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "elixir/elixir-13-streams"
+      ]
+    },
+    {
+      "slug": "elixir-14-pipes-captures",
+      "title": "Pipes and Captures",
+      "description": "The pipe operator, capture syntax, and operator captures.",
+      "type": "lesson",
+      "order": 14,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "elixir/elixir-14-pipes-captures"
+      ]
+    },
+    {
+      "slug": "elixir-15-modules",
+      "title": "Modules and Functions",
+      "description": "Public/private functions, defaults, clauses, import, alias.",
+      "type": "lesson",
+      "order": 15,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "elixir/elixir-15-modules"
+      ]
+    },
+    {
+      "slug": "elixir-16-protocols-behaviours",
+      "title": "Protocols and Behaviours",
+      "description": "Protocols for polymorphism, behaviours as interfaces.",
+      "type": "lesson",
+      "order": 16,
+      "duration": "75 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "elixir/elixir-16-protocols-behaviours"
+      ]
+    },
+    {
+      "slug": "elixir-17-mix-tooling",
+      "title": "Mix and Tooling",
+      "description": "Mix projects, deps, ExUnit, doctests, and the formatter.",
+      "type": "lesson",
+      "order": 17,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "elixir/elixir-17-mix-tooling"
+      ]
+    },
+    {
+      "slug": "elixir-18-documentation",
+      "title": "Documentation and Code Organisation",
+      "description": "@moduledoc, @doc, module attributes, and project layout.",
+      "type": "lesson",
+      "order": 18,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "elixir/elixir-18-documentation"
+      ]
+    },
+    {
+      "slug": "elixir-19-otp",
+      "title": "OTP and Supervision",
+      "description": "OTP behaviours, supervision trees, and application callbacks.",
+      "type": "lesson",
+      "order": 19,
+      "duration": "75 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "elixir/elixir-19-otp"
+      ]
+    },
+    {
+      "slug": "elixir-20-pipelines",
+      "title": "Real-World Pipelines",
+      "description": "Text analysis, word counting, struct pipelines, and reduce.",
+      "type": "lesson",
+      "order": 20,
+      "duration": "75 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "elixir/elixir-20-pipelines"
+      ]
+    },
+    {
+      "slug": "elixir-21-metaprogramming",
+      "title": "Metaprogramming and the Ecosystem",
+      "description": "Macros, quote/unquote, Ecto, and Phoenix.",
+      "type": "lesson",
+      "order": 21,
+      "duration": "75 min",
+      "difficulty": "expert",
+      "knowledge_refs": [
+        "elixir/elixir-21-metaprogramming"
+      ]
     }
   ]
 }

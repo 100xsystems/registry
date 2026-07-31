@@ -10,7 +10,7 @@
         {
           "title": "Clojure for the Brave and True",
           "url": "https://www.braveclojure.com/",
-          "description": "A wildly popular, offbeat book covering everything from Lisp basics to building full applications \u2014 completely free online."
+          "description": "A wildly popular, offbeat book covering everything from Lisp basics to building full applications — completely free online."
         },
         {
           "title": "Clojure from the Ground Up",
@@ -42,10 +42,10 @@
         {
           "title": "Clojure Koans",
           "url": "https://github.com/functional-koans/clojure-koans",
-          "description": "Interactive exercises teaching Clojure syntax through failing tests \u2014 fill in the blanks to learn."
+          "description": "Interactive exercises teaching Clojure syntax through failing tests — fill in the blanks to learn."
         },
         {
-          "title": "Exercism \u2014 Clojure Track",
+          "title": "Exercism — Clojure Track",
           "url": "https://exercism.org/tracks/clojure",
           "description": "12 concept modules and 105 exercises with free peer mentoring."
         }
@@ -72,7 +72,7 @@
       "icon": "terminal",
       "items": [
         {
-          "title": "Exercism \u2014 Clojure Track",
+          "title": "Exercism — Clojure Track",
           "url": "https://exercism.org/tracks/clojure",
           "description": "Free exercises with automated analysis and human code reviews."
         },
@@ -134,22 +134,256 @@
   ],
   "lessons": [
     {
-      "slug": "fundamentals",
-      "title": "Fundamentals of Clojure",
-      "description": "Core concepts, syntax, and first steps with Clojure",
+      "slug": "clojure-01-getting-started",
+      "title": "Getting Started with Clojure",
+      "description": "Installation, the REPL, forms, namespaces, and Java interop.",
       "type": "lesson",
       "order": 1,
       "duration": "45 min",
-      "difficulty": "beginner"
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "clojure/clojure-01-getting-started"
+      ]
     },
     {
-      "slug": "practical-guide",
-      "title": "Practical Clojure Guide",
-      "description": "Real-world usage, tooling, and ecosystem",
+      "slug": "clojure-02-values-types",
+      "title": "Values, Types, and Immutability",
+      "description": "Immutable data, numbers, strings, keywords, and truthiness.",
       "type": "lesson",
       "order": 2,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "clojure/clojure-02-values-types"
+      ]
+    },
+    {
+      "slug": "clojure-03-control-flow",
+      "title": "Control Flow",
+      "description": "if, when, cond, case, and condp.",
+      "type": "lesson",
+      "order": 3,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "clojure/clojure-03-control-flow"
+      ]
+    },
+    {
+      "slug": "clojure-04-collections",
+      "title": "Collections",
+      "description": "Vectors, lists, maps, and sets — the four core structures.",
+      "type": "lesson",
+      "order": 4,
       "duration": "60 min",
-      "difficulty": "intermediate"
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "clojure/clojure-04-collections"
+      ]
+    },
+    {
+      "slug": "clojure-05-functions",
+      "title": "Functions",
+      "description": "Anonymous functions, defn, arities, and destructuring.",
+      "type": "lesson",
+      "order": 5,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "clojure/clojure-05-functions"
+      ]
+    },
+    {
+      "slug": "clojure-06-sequences",
+      "title": "Sequences and Transforms",
+      "description": "map, filter, reduce, threading macros, and the seq abstraction.",
+      "type": "lesson",
+      "order": 6,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "clojure/clojure-06-sequences"
+      ]
+    },
+    {
+      "slug": "clojure-07-recursion",
+      "title": "Recursion",
+      "description": "loop/recur, tail calls, and building results.",
+      "type": "lesson",
+      "order": 7,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "clojure/clojure-07-recursion"
+      ]
+    },
+    {
+      "slug": "clojure-08-lazy-seq",
+      "title": "Lazy Sequences",
+      "description": "Laziness, infinite sequences, and on-demand computation.",
+      "type": "lesson",
+      "order": 8,
+      "duration": "75 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "clojure/clojure-08-lazy-seq"
+      ]
+    },
+    {
+      "slug": "clojure-09-maps",
+      "title": "Maps in Depth",
+      "description": "Keywords as functions, update/merge, nested access, records.",
+      "type": "lesson",
+      "order": 9,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "clojure/clojure-09-maps"
+      ]
+    },
+    {
+      "slug": "clojure-10-error-handling",
+      "title": "Error Handling",
+      "description": "Result maps, try/catch, nil, and if-let patterns.",
+      "type": "lesson",
+      "order": 10,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "clojure/clojure-10-error-handling"
+      ]
+    },
+    {
+      "slug": "clojure-11-atoms-refs-agents",
+      "title": "Atoms, Refs, and Agents",
+      "description": "Synchronous atoms, coordinated refs, and async agents.",
+      "type": "lesson",
+      "order": 11,
+      "duration": "75 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "clojure/clojure-11-atoms-refs-agents"
+      ]
+    },
+    {
+      "slug": "clojure-12-futures-promises",
+      "title": "Futures, Promises, and Parallelism",
+      "description": "Future, promise, pmap, and background tasks.",
+      "type": "lesson",
+      "order": 12,
+      "duration": "75 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "clojure/clojure-12-futures-promises"
+      ]
+    },
+    {
+      "slug": "clojure-13-scope",
+      "title": "Binding and Scope",
+      "description": "def, let, destructuring, and scope rules.",
+      "type": "lesson",
+      "order": 13,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "clojure/clojure-13-scope"
+      ]
+    },
+    {
+      "slug": "clojure-14-higher-order",
+      "title": "Higher-Order Functions",
+      "description": "First-class functions, composition, partial, apply.",
+      "type": "lesson",
+      "order": 14,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "clojure/clojure-14-higher-order"
+      ]
+    },
+    {
+      "slug": "clojure-15-namespaces",
+      "title": "Namespaces and Interop",
+      "description": "require, refer, project layout, and Java interop.",
+      "type": "lesson",
+      "order": 15,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "clojure/clojure-15-namespaces"
+      ]
+    },
+    {
+      "slug": "clojure-16-protocols",
+      "title": "Protocols and Multimethods",
+      "description": "Protocols, extend-type, records, and multimethods.",
+      "type": "lesson",
+      "order": 16,
+      "duration": "75 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "clojure/clojure-16-protocols"
+      ]
+    },
+    {
+      "slug": "clojure-17-tooling",
+      "title": "Tooling and Testing",
+      "description": "Leiningen, deps.edn, clojure.test, and the REPL workflow.",
+      "type": "lesson",
+      "order": 17,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "clojure/clojure-17-tooling"
+      ]
+    },
+    {
+      "slug": "clojure-18-docs-meta",
+      "title": "Documentation and Metadata",
+      "description": "Docstrings, metadata, comments, and debugging.",
+      "type": "lesson",
+      "order": 18,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "clojure/clojure-18-docs-meta"
+      ]
+    },
+    {
+      "slug": "clojure-19-concurrency",
+      "title": "Concurrency in Depth",
+      "description": "The concurrency model, dynamic vars, STM, and identity.",
+      "type": "lesson",
+      "order": 19,
+      "duration": "75 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "clojure/clojure-19-concurrency"
+      ]
+    },
+    {
+      "slug": "clojure-20-pipelines",
+      "title": "Real-World Data Pipelines",
+      "description": "Text analysis, map-reduce, grouping, and config as data.",
+      "type": "lesson",
+      "order": 20,
+      "duration": "75 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "clojure/clojure-20-pipelines"
+      ]
+    },
+    {
+      "slug": "clojure-21-macros",
+      "title": "Macros and the Ecosystem",
+      "description": "Macros, quote/unquote, Ring/Compojure, and the community.",
+      "type": "lesson",
+      "order": 21,
+      "duration": "75 min",
+      "difficulty": "expert",
+      "knowledge_refs": [
+        "clojure/clojure-21-macros"
+      ]
     }
   ]
 }
