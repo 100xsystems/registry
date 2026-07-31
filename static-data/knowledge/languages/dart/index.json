@@ -1,7 +1,7 @@
 {
   "slug": "dart",
   "name": "Dart",
-  "description": "Dart is the language behind Flutter, Googles cross-platform UI framework. It is optimized for building fast mobile, web, and desktop apps with a single codebase. These are the definitive free resources \u2014 vetted, current, and complete.",
+  "description": "Dart is the language behind Flutter, Googles cross-platform UI framework. It is optimized for building fast mobile, web, and desktop apps with a single codebase. These are the definitive free resources — vetted, current, and complete.",
   "categories": [
     {
       "label": "Free Books",
@@ -50,9 +50,9 @@
           "description": "A playful interactive tutorial teaching Dart fundamentals through visual quests and coding challenges."
         },
         {
-          "title": "Google Codelab \u2014 Dart Patterns & Records",
+          "title": "Google Codelab — Dart Patterns & Records",
           "url": "https://codelabs.developers.google.com/codelabs/dart-patterns-records",
-          "description": "Official hands-on guide teaching Dart 3 features \u2014 records, pattern matching, destructuring, and switch expressions."
+          "description": "Official hands-on guide teaching Dart 3 features — records, pattern matching, destructuring, and switch expressions."
         }
       ]
     },
@@ -77,12 +77,12 @@
       "icon": "terminal",
       "items": [
         {
-          "title": "Exercism \u2014 Dart Track",
+          "title": "Exercism — Dart Track",
           "url": "https://exercism.org/tracks/dart",
           "description": "100+ coding exercises with automated analysis and human mentor feedback for writing idiomatic Dart."
         },
         {
-          "title": "Codewars \u2014 Dart Kata",
+          "title": "Codewars — Dart Kata",
           "url": "https://www.codewars.com/",
           "description": "Solve community-created challenges in Dart across hundreds of difficulty levels."
         }
@@ -144,22 +144,256 @@
   ],
   "lessons": [
     {
-      "slug": "fundamentals",
-      "title": "Fundamentals of Dart",
-      "description": "Core concepts, syntax, and first steps with Dart",
+      "slug": "dart-01-getting-started",
+      "title": "Getting Started with Dart",
+      "description": "Install Dart, run scripts, and meet the Dart VM.",
       "type": "lesson",
       "order": 1,
       "duration": "45 min",
-      "difficulty": "beginner"
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "dart/dart-01-getting-started"
+      ]
     },
     {
-      "slug": "practical-guide",
-      "title": "Practical Dart Guide",
-      "description": "Real-world usage, tooling, and ecosystem",
+      "slug": "dart-02-variables-types",
+      "title": "Variables and Data Types",
+      "description": "var, final, const, and the core built-in types.",
       "type": "lesson",
       "order": 2,
       "duration": "60 min",
-      "difficulty": "intermediate"
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "dart/dart-02-variables-types"
+      ]
+    },
+    {
+      "slug": "dart-03-numbers-math",
+      "title": "Numbers and Math",
+      "description": "int, double, num, and the dart:math library.",
+      "type": "lesson",
+      "order": 3,
+      "duration": "50 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "dart/dart-03-numbers-math"
+      ]
+    },
+    {
+      "slug": "dart-04-strings",
+      "title": "Strings and String Manipulation",
+      "description": "String literals, interpolation, and the string API.",
+      "type": "lesson",
+      "order": 4,
+      "duration": "60 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "dart/dart-04-strings"
+      ]
+    },
+    {
+      "slug": "dart-05-control-flow",
+      "title": "Control Flow",
+      "description": "if, switch, and loops.",
+      "type": "lesson",
+      "order": 5,
+      "duration": "50 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "dart/dart-05-control-flow"
+      ]
+    },
+    {
+      "slug": "dart-06-collections",
+      "title": "Collections",
+      "description": "Lists, sets, maps, and collection operators.",
+      "type": "lesson",
+      "order": 6,
+      "duration": "60 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "dart/dart-06-collections"
+      ]
+    },
+    {
+      "slug": "dart-07-functions",
+      "title": "Functions",
+      "description": "Declarations, optional parameters, and lambdas.",
+      "type": "lesson",
+      "order": 7,
+      "duration": "60 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "dart/dart-07-functions"
+      ]
+    },
+    {
+      "slug": "dart-08-classes",
+      "title": "Classes and Objects",
+      "description": "Classes, constructors, fields, and methods.",
+      "type": "lesson",
+      "order": 8,
+      "duration": "75 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "dart/dart-08-classes"
+      ]
+    },
+    {
+      "slug": "dart-09-inheritance-interfaces",
+      "title": "Inheritance and Interfaces",
+      "description": "extends, implements, mixins, and abstract classes.",
+      "type": "lesson",
+      "order": 9,
+      "duration": "75 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "dart/dart-09-inheritance-interfaces"
+      ]
+    },
+    {
+      "slug": "dart-10-null-safety",
+      "title": "Null Safety",
+      "description": "Nullable types, sound null safety, and the ?. operators.",
+      "type": "lesson",
+      "order": 10,
+      "duration": "50 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "dart/dart-10-null-safety"
+      ]
+    },
+    {
+      "slug": "dart-11-exceptions",
+      "title": "Exceptions and Error Handling",
+      "description": "throw, try-catch, finally, and custom exceptions.",
+      "type": "lesson",
+      "order": 11,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "dart/dart-11-exceptions"
+      ]
+    },
+    {
+      "slug": "dart-12-generics",
+      "title": "Generics",
+      "description": "Generic functions, classes, and bounds.",
+      "type": "lesson",
+      "order": 12,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "dart/dart-12-generics"
+      ]
+    },
+    {
+      "slug": "dart-13-async",
+      "title": "Asynchronous Programming",
+      "description": "Future, async, await, and async* generators.",
+      "type": "lesson",
+      "order": 13,
+      "duration": "75 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "dart/dart-13-async"
+      ]
+    },
+    {
+      "slug": "dart-14-file-io",
+      "title": "File I/O and dart:io",
+      "description": "Reading and writing files, and environment access.",
+      "type": "lesson",
+      "order": 14,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "dart/dart-14-file-io"
+      ]
+    },
+    {
+      "slug": "dart-15-streams",
+      "title": "Streams and Reactive Data",
+      "description": "Streams, broadcast streams, and stream operators.",
+      "type": "lesson",
+      "order": 15,
+      "duration": "75 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "dart/dart-15-streams"
+      ]
+    },
+    {
+      "slug": "dart-16-isolates",
+      "title": "Isolates and Concurrency",
+      "description": "Isolates, message passing, and parallel execution.",
+      "type": "lesson",
+      "order": 16,
+      "duration": "75 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "dart/dart-16-isolates"
+      ]
+    },
+    {
+      "slug": "dart-17-testing",
+      "title": "Testing with Dart",
+      "description": "Unit tests, matchers, and test organization.",
+      "type": "lesson",
+      "order": 17,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "dart/dart-17-testing"
+      ]
+    },
+    {
+      "slug": "dart-18-packages",
+      "title": "Packages and Pub",
+      "description": "pubspec.yaml, dependencies, and the pub ecosystem.",
+      "type": "lesson",
+      "order": 18,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "dart/dart-18-packages"
+      ]
+    },
+    {
+      "slug": "dart-19-isolates-advanced",
+      "title": "Advanced Isolates and Compute",
+      "description": "Worker pools, message ports, and CPU-bound work.",
+      "type": "lesson",
+      "order": 19,
+      "duration": "75 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "dart/dart-19-isolates-advanced"
+      ]
+    },
+    {
+      "slug": "dart-20-metaprogramming",
+      "title": "Annotations and Metaprogramming",
+      "description": "Annotations, code generation, and build_runner.",
+      "type": "lesson",
+      "order": 20,
+      "duration": "75 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "dart/dart-20-metaprogramming"
+      ]
+    },
+    {
+      "slug": "dart-21-performance",
+      "title": "Performance and Best Practices",
+      "description": "Event loop, allocation, profiling, and idiomatic code.",
+      "type": "lesson",
+      "order": 21,
+      "duration": "75 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "dart/dart-21-performance"
+      ]
     }
   ]
 }

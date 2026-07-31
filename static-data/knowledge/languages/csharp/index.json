@@ -1,7 +1,7 @@
 {
   "slug": "csharp",
   "name": "C#",
-  "description": "C# is Microsofts flagship language for the .NET ecosystem. It powers Windows applications, game development (Unity), cloud services on Azure, and cross-platform apps. These are the definitive free resources \u2014 vetted, current, and complete.",
+  "description": "C# is Microsofts flagship language for the .NET ecosystem. It powers Windows applications, game development (Unity), cloud services on Azure, and cross-platform apps. These are the definitive free resources — vetted, current, and complete.",
   "categories": [
     {
       "label": "Free Books",
@@ -50,7 +50,7 @@
           "description": "A guided path in collaboration with Microsoft that culminates in foundational certification."
         },
         {
-          "title": "freeCodeCamp \u2014 C# Course",
+          "title": "freeCodeCamp — C# Course",
           "url": "https://www.freecodecamp.org/news/search/?query=c%23",
           "description": "Free comprehensive C# tutorials and .NET courses covering everything from basics to ASP.NET Core."
         }
@@ -77,17 +77,17 @@
       "icon": "terminal",
       "items": [
         {
-          "title": "Exercism \u2014 C# Track",
+          "title": "Exercism — C# Track",
           "url": "https://exercism.org/tracks/csharp",
           "description": "178 free hands-on exercises with automated CLI tests and human mentors who review your idiomatic C# code."
         },
         {
-          "title": "Codewars \u2014 C# Katas",
+          "title": "Codewars — C# Katas",
           "url": "https://www.codewars.com/kata/search/csharp",
           "description": "Community-driven code challenges ranging from beginner to advanced in C#."
         },
         {
-          "title": "LeetCode \u2014 C# Support",
+          "title": "LeetCode — C# Support",
           "url": "https://leetcode.com/",
           "description": "Practice algorithms and data structures using C# for interview preparation."
         }
@@ -140,7 +140,7 @@
           "description": "A massive real-time chat community for troubleshooting code and discussing software design."
         },
         {
-          "title": "Stack Overflow \u2014 C# Tag",
+          "title": "Stack Overflow — C# Tag",
           "url": "https://stackoverflow.com/questions/tagged/c%23",
           "description": "The ultimate archive for troubleshooting bugs, syntax errors, and best practices in C#."
         }
@@ -149,22 +149,256 @@
   ],
   "lessons": [
     {
-      "slug": "fundamentals",
-      "title": "Fundamentals of C#",
-      "description": "Core concepts, syntax, and first steps with C#",
+      "slug": "cs-01-getting-started",
+      "title": "Getting Started with C# and the .NET CLI",
+      "description": "Install the .NET SDK, understand dotnet CLI (new/build/run), project structure, and write Hello World.",
       "type": "lesson",
       "order": 1,
       "duration": "45 min",
-      "difficulty": "beginner"
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "csharp/cs-01-getting-started"
+      ]
     },
     {
-      "slug": "practical-guide",
-      "title": "Practical C# Guide",
-      "description": "Real-world usage, tooling, and ecosystem",
+      "slug": "cs-02-variables-types",
+      "title": "Variables and Built-in Types",
+      "description": "Value vs reference types, var inference, built-in numeric types, and default values.",
       "type": "lesson",
       "order": 2,
       "duration": "60 min",
-      "difficulty": "intermediate"
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "csharp/cs-02-variables-types"
+      ]
+    },
+    {
+      "slug": "cs-03-operators-expressions",
+      "title": "Operators and Expressions",
+      "description": "Arithmetic, comparison, logical, bitwise operators; precedence and null-coalescing.",
+      "type": "lesson",
+      "order": 3,
+      "duration": "60 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "csharp/cs-03-operators-expressions"
+      ]
+    },
+    {
+      "slug": "cs-04-control-flow",
+      "title": "Control Flow and Switch Expressions",
+      "description": "if/else, switch statements and expressions, loops, and jump statements.",
+      "type": "lesson",
+      "order": 4,
+      "duration": "60 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "csharp/cs-04-control-flow"
+      ]
+    },
+    {
+      "slug": "cs-05-methods",
+      "title": "Methods and Parameters",
+      "description": "Method signatures, ref/out/in params, params arrays, named and optional arguments.",
+      "type": "lesson",
+      "order": 5,
+      "duration": "60 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "csharp/cs-05-methods"
+      ]
+    },
+    {
+      "slug": "cs-06-collections",
+      "title": "Arrays, Lists, and Collections",
+      "description": "Arrays, List<T>, Dictionary<TKey,TValue>, Queue, Stack; collection initializers.",
+      "type": "lesson",
+      "order": 6,
+      "duration": "60 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "csharp/cs-06-collections"
+      ]
+    },
+    {
+      "slug": "cs-07-strings",
+      "title": "Strings and String Interpolation",
+      "description": "String immutability, interpolation, StringBuilder, and common string methods.",
+      "type": "lesson",
+      "order": 7,
+      "duration": "60 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "csharp/cs-07-strings"
+      ]
+    },
+    {
+      "slug": "cs-08-classes-objects",
+      "title": "Classes and Objects",
+      "description": "Class declarations, constructors, this, static members, and object initializers.",
+      "type": "lesson",
+      "order": 8,
+      "duration": "75 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "csharp/cs-08-classes-objects"
+      ]
+    },
+    {
+      "slug": "cs-09-properties",
+      "title": "Properties, Indexers, and Fields",
+      "description": "Auto-properties, get/set accessors, computed properties, and indexers.",
+      "type": "lesson",
+      "order": 9,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "csharp/cs-09-properties"
+      ]
+    },
+    {
+      "slug": "cs-10-inheritance",
+      "title": "Inheritance and Polymorphism",
+      "description": "Base and derived classes, virtual/override, protected members, sealed.",
+      "type": "lesson",
+      "order": 10,
+      "duration": "75 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "csharp/cs-10-inheritance"
+      ]
+    },
+    {
+      "slug": "cs-11-interfaces",
+      "title": "Interfaces and Abstract Classes",
+      "description": "Interface contracts, abstract classes, multiple interface implementation.",
+      "type": "lesson",
+      "order": 11,
+      "duration": "75 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "csharp/cs-11-interfaces"
+      ]
+    },
+    {
+      "slug": "cs-12-generics",
+      "title": "Generics",
+      "description": "Generic types and methods, constraints, and covariance/contravariance.",
+      "type": "lesson",
+      "order": 12,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "csharp/cs-12-generics"
+      ]
+    },
+    {
+      "slug": "cs-13-linq",
+      "title": "LINQ: Language Integrated Query",
+      "description": "Query and method syntax, deferred execution, standard query operators.",
+      "type": "lesson",
+      "order": 13,
+      "duration": "75 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "csharp/cs-13-linq"
+      ]
+    },
+    {
+      "slug": "cs-14-delegates-events",
+      "title": "Delegates, Events, and Lambdas",
+      "description": "Delegate types, multicast delegates, events, lambda expressions, Func/Action.",
+      "type": "lesson",
+      "order": 14,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "csharp/cs-14-delegates-events"
+      ]
+    },
+    {
+      "slug": "cs-15-exceptions",
+      "title": "Exceptions and Error Handling",
+      "description": "try/catch/finally, exception filters, custom exceptions, throw expressions.",
+      "type": "lesson",
+      "order": 15,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "csharp/cs-15-exceptions"
+      ]
+    },
+    {
+      "slug": "cs-16-async",
+      "title": "Async Programming: async/await and Tasks",
+      "description": "Task-based async model, await semantics, parallel tasks, error handling.",
+      "type": "lesson",
+      "order": 16,
+      "duration": "75 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "csharp/cs-16-async"
+      ]
+    },
+    {
+      "slug": "cs-17-files-streams",
+      "title": "Files and Streams",
+      "description": "System.IO, File/FileInfo, StreamReader/Writer, binary streams, using disposal.",
+      "type": "lesson",
+      "order": 17,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "csharp/cs-17-files-streams"
+      ]
+    },
+    {
+      "slug": "cs-18-iterators-span",
+      "title": "Iterators, IEnumerable, and Span<T>",
+      "description": "yield return, IEnumerable/IEnumerator, lazy evaluation, Span and Memory.",
+      "type": "lesson",
+      "order": 18,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "csharp/cs-18-iterators-span"
+      ]
+    },
+    {
+      "slug": "cs-19-patterns-nullable",
+      "title": "Nullable Types and Pattern Matching",
+      "description": "Nullable value types, nullable reference types, is patterns, switch patterns.",
+      "type": "lesson",
+      "order": 19,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "csharp/cs-19-patterns-nullable"
+      ]
+    },
+    {
+      "slug": "cs-20-records-structs",
+      "title": "Records, Structs, and Tuples",
+      "description": "Record types, with-expressions, tuples, deconstruction, structs as value types.",
+      "type": "lesson",
+      "order": 20,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "csharp/cs-20-records-structs"
+      ]
+    },
+    {
+      "slug": "cs-21-advanced",
+      "title": "Advanced: Reflection, Attributes, and Memory",
+      "description": "Reflection, custom attributes, unsafe code, garbage collection, performance.",
+      "type": "lesson",
+      "order": 21,
+      "duration": "75 min",
+      "difficulty": "expert",
+      "knowledge_refs": [
+        "csharp/cs-21-advanced"
+      ]
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "slug": "c",
   "name": "C",
-  "description": "C is the foundational systems programming language that powers operating systems, embedded devices, databases, and virtually every major software infrastructure. These are the definitive free resources \u2014 vetted, current, and complete.",
+  "description": "C is the foundational systems programming language that powers operating systems, embedded devices, databases, and virtually every major software infrastructure. These are the definitive free resources — vetted, current, and complete.",
   "categories": [
     {
       "label": "Free Books",
@@ -10,12 +10,12 @@
         {
           "title": "Beej's Guide to C Programming",
           "url": "https://beej.us/guide/bgc/",
-          "description": "One of the most praised free guides \u2014 walks through basic syntax to memory management, pointers, and structs with clear modern examples."
+          "description": "One of the most praised free guides — walks through basic syntax to memory management, pointers, and structs with clear modern examples."
         },
         {
           "title": "Modern C (Jens Gustedt)",
           "url": "https://inria.hal.science/hal-02383654v2/file/modernC.pdf",
-          "description": "Teaches C as written today \u2014 incorporating C11/C17/C23 modern standards rather than outdated 1980s styles. Free PDF."
+          "description": "Teaches C as written today — incorporating C11/C17/C23 modern standards rather than outdated 1980s styles. Free PDF."
         }
       ]
     },
@@ -42,7 +42,7 @@
         {
           "title": "Learn-C.org",
           "url": "https://www.learn-c.org/",
-          "description": "Free interactive tutorial covering everything from basic loops to advanced pointers and binary trees \u2014 no compiler needed."
+          "description": "Free interactive tutorial covering everything from basic loops to advanced pointers and binary trees — no compiler needed."
         }
       ]
     },
@@ -67,12 +67,12 @@
       "icon": "terminal",
       "items": [
         {
-          "title": "Exercism \u2014 C Track",
+          "title": "Exercism — C Track",
           "url": "https://exercism.org/tracks/c",
           "description": "84 free coding exercises with 100% free human mentoring from volunteer experts."
         },
         {
-          "title": "Codewars \u2014 C Collection",
+          "title": "Codewars — C Collection",
           "url": "https://www.codewars.com/collections/c-programming-language",
           "description": "Gamified community-filtered kata for C problem-solving and bit manipulation."
         }
@@ -115,7 +115,7 @@
           "description": "Active community for debugging help, tutorials, and modern C development discussions."
         },
         {
-          "title": "Stack Overflow \u2014 C Tag",
+          "title": "Stack Overflow — C Tag",
           "url": "https://stackoverflow.com/questions/tagged/c",
           "description": "Definitive Q&A for C troubleshooting, pointer issues, and low-level debugging."
         }
@@ -124,22 +124,256 @@
   ],
   "lessons": [
     {
-      "slug": "fundamentals",
-      "title": "Fundamentals of C",
-      "description": "Core concepts, syntax, and first steps with C",
+      "slug": "c-01-getting-started",
+      "title": "Getting Started with C",
+      "description": "Set up a C toolchain with gcc, understand compile/run, main function, and standard streams.",
       "type": "lesson",
       "order": 1,
       "duration": "45 min",
-      "difficulty": "beginner"
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "c/c-01-getting-started"
+      ]
     },
     {
-      "slug": "practical-guide",
-      "title": "Practical C Guide",
-      "description": "Real-world usage, tooling, and ecosystem",
+      "slug": "c-02-variables-types",
+      "title": "Variables and Data Types",
+      "description": "Integral and floating types, fixed-width types, sizeof, and enumeration.",
       "type": "lesson",
       "order": 2,
       "duration": "60 min",
-      "difficulty": "intermediate"
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "c/c-02-variables-types"
+      ]
+    },
+    {
+      "slug": "c-03-operators",
+      "title": "Operators and Expressions",
+      "description": "Arithmetic, comparison, logical, bitwise operators, and precedence.",
+      "type": "lesson",
+      "order": 3,
+      "duration": "60 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "c/c-03-operators"
+      ]
+    },
+    {
+      "slug": "c-04-control-flow",
+      "title": "Control Flow",
+      "description": "if/else, switch, for, while, do-while loops, and jump statements.",
+      "type": "lesson",
+      "order": 4,
+      "duration": "60 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "c/c-04-control-flow"
+      ]
+    },
+    {
+      "slug": "c-05-functions",
+      "title": "Functions and Prototypes",
+      "description": "Function declarations, pass-by-value, pass-by-pointer, and recursion.",
+      "type": "lesson",
+      "order": 5,
+      "duration": "60 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "c/c-05-functions"
+      ]
+    },
+    {
+      "slug": "c-06-arrays-strings",
+      "title": "Arrays and Strings",
+      "description": "One and multi-dimensional arrays, null-terminated strings, string.h.",
+      "type": "lesson",
+      "order": 6,
+      "duration": "60 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "c/c-06-arrays-strings"
+      ]
+    },
+    {
+      "slug": "c-07-pointers",
+      "title": "Pointers",
+      "description": "Address-of, dereference, pointer arithmetic, pointer-to-pointer, void*.",
+      "type": "lesson",
+      "order": 7,
+      "duration": "75 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "c/c-07-pointers"
+      ]
+    },
+    {
+      "slug": "c-08-structs-unions",
+      "title": "Structs and Unions",
+      "description": "Struct declaration, member access, arrow operator, copies, unions.",
+      "type": "lesson",
+      "order": 8,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "c/c-08-structs-unions"
+      ]
+    },
+    {
+      "slug": "c-09-memory",
+      "title": "Dynamic Memory",
+      "description": "malloc, calloc, realloc, free, memory leaks, and heap patterns.",
+      "type": "lesson",
+      "order": 9,
+      "duration": "75 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "c/c-09-memory"
+      ]
+    },
+    {
+      "slug": "c-10-preprocessor",
+      "title": "Preprocessor and Macros",
+      "description": "#define, function-like macros, include guards, conditional compilation.",
+      "type": "lesson",
+      "order": 10,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "c/c-10-preprocessor"
+      ]
+    },
+    {
+      "slug": "c-11-file-io",
+      "title": "File I/O",
+      "description": "fopen, fprintf/fscanf, fgets, binary I/O, fseek, and error handling.",
+      "type": "lesson",
+      "order": 11,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "c/c-11-file-io"
+      ]
+    },
+    {
+      "slug": "c-12-stdlib",
+      "title": "Standard Library",
+      "description": "string.h, stdlib.h, math.h, and ctype.h essentials.",
+      "type": "lesson",
+      "order": 12,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "c/c-12-stdlib"
+      ]
+    },
+    {
+      "slug": "c-13-bit-manipulation",
+      "title": "Bit Manipulation",
+      "description": "Bitwise operators, bit flags, bit tricks, and bitfields.",
+      "type": "lesson",
+      "order": 13,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "c/c-13-bit-manipulation"
+      ]
+    },
+    {
+      "slug": "c-14-function-pointers",
+      "title": "Function Pointers and Callbacks",
+      "description": "Function pointer syntax, callbacks, qsort comparators, dispatch tables.",
+      "type": "lesson",
+      "order": 14,
+      "duration": "75 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "c/c-14-function-pointers"
+      ]
+    },
+    {
+      "slug": "c-15-data-structures",
+      "title": "Linked Lists and Data Structures",
+      "description": "Struct nodes, linked lists, traversal, free, and reusable patterns.",
+      "type": "lesson",
+      "order": 15,
+      "duration": "75 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "c/c-15-data-structures"
+      ]
+    },
+    {
+      "slug": "c-16-recursion",
+      "title": "Recursion",
+      "description": "Recursive functions, factorial, fibonacci, divide-and-conquer.",
+      "type": "lesson",
+      "order": 16,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "c/c-16-recursion"
+      ]
+    },
+    {
+      "slug": "c-17-error-handling",
+      "title": "Error Handling",
+      "description": "errno, perror, strerror, return codes, and setjmp/longjmp.",
+      "type": "lesson",
+      "order": 17,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "c/c-17-error-handling"
+      ]
+    },
+    {
+      "slug": "c-18-multi-file",
+      "title": "Multi-file Projects and Headers",
+      "description": "Header files, include guards, separate compilation, static linkage.",
+      "type": "lesson",
+      "order": 18,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "c/c-18-multi-file"
+      ]
+    },
+    {
+      "slug": "c-19-build-tooling",
+      "title": "Make and Build Tooling",
+      "description": "Makefiles, targets, automatic variables, compiler flags, sanitizers.",
+      "type": "lesson",
+      "order": 19,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "c/c-19-build-tooling"
+      ]
+    },
+    {
+      "slug": "c-20-debugging",
+      "title": "Undefined Behavior and Debugging",
+      "description": "OOB access, signed overflow, use-after-free, volatile, restrict, sanitizers.",
+      "type": "lesson",
+      "order": 20,
+      "duration": "75 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "c/c-20-debugging"
+      ]
+    },
+    {
+      "slug": "c-21-advanced",
+      "title": "Advanced: Variadics, Threads, and Atomics",
+      "description": "Variadic functions, inline, C11 threads, atomics, low-level control.",
+      "type": "lesson",
+      "order": 21,
+      "duration": "75 min",
+      "difficulty": "expert",
+      "knowledge_refs": [
+        "c/c-21-advanced"
+      ]
     }
   ]
 }

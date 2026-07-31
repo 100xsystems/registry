@@ -1,7 +1,7 @@
 {
   "slug": "swift",
   "name": "Swift",
-  "description": "Swift is the modern language for Apple platforms \u2014 iOS, macOS, watchOS, and tvOS. It is fast, safe, and expressive, powering everything from the iPhone apps you love to server-side systems. These are the definitive free resources \u2014 vetted, current, and complete.",
+  "description": "Swift is the modern language for Apple platforms — iOS, macOS, watchOS, and tvOS. It is fast, safe, and expressive, powering everything from the iPhone apps you love to server-side systems. These are the definitive free resources — vetted, current, and complete.",
   "categories": [
     {
       "label": "Free Books",
@@ -31,7 +31,7 @@
         {
           "title": "swift.org",
           "url": "https://www.swift.org/",
-          "description": "The home of the Swift project \u2014 compiler, standard library, package manager, and community resources."
+          "description": "The home of the Swift project — compiler, standard library, package manager, and community resources."
         },
         {
           "title": "Apple Developer Documentation",
@@ -50,12 +50,12 @@
       "icon": "code",
       "items": [
         {
-          "title": "Stanford CS193p \u2014 SwiftUI Course",
+          "title": "Stanford CS193p — SwiftUI Course",
           "url": "https://cs193p.sites.stanford.edu/",
           "description": "Stanford's famous iOS development course using SwiftUI. Available for free on YouTube with assignments and lecture slides."
         },
         {
-          "title": "freeCodeCamp \u2014 iOS & Swift Course",
+          "title": "freeCodeCamp — iOS & Swift Course",
           "url": "https://www.freecodecamp.org/news/search/?query=swift",
           "description": "Comprehensive free Swift tutorials and iOS development courses ranging from basics to advanced SwiftUI."
         }
@@ -66,12 +66,12 @@
       "icon": "video",
       "items": [
         {
-          "title": "Stanford CS193p \u2014 Developing Apps for iOS (YouTube)",
+          "title": "Stanford CS193p — Developing Apps for iOS (YouTube)",
           "url": "https://www.youtube.com/playlist?list=PLpGHT1n4-mAsxuTxVPxb3S3WJpNjmhgFJ",
           "description": "Stanfords official iOS development course recorded live. The gold standard for learning Swift and SwiftUI."
         },
         {
-          "title": "Paul Hudson \u2014 Hacking with Swift Playlist",
+          "title": "Paul Hudson — Hacking with Swift Playlist",
           "url": "https://www.youtube.com/@twostraws",
           "description": "Over 1,000 free Swift tutorials on YouTubecovering Swift basics, SwiftUI, and practical iOS app development."
         }
@@ -82,17 +82,17 @@
       "icon": "terminal",
       "items": [
         {
-          "title": "Exercism \u2014 Swift Track",
+          "title": "Exercism — Swift Track",
           "url": "https://exercism.org/tracks/swift",
           "description": "100+ free coding exercises designed to teach idiomatic Swift with automated analysis and optional mentoring."
         },
         {
-          "title": "Codewars \u2014 Swift Kata",
+          "title": "Codewars — Swift Kata",
           "url": "https://www.codewars.com/?language=swift",
           "description": "Solve community-created challenges in Swift across hundreds of difficulty levels."
         },
         {
-          "title": "LeetCode \u2014 Swift Support",
+          "title": "LeetCode — Swift Support",
           "url": "https://leetcode.com/",
           "description": "Practice algorithms and data structures using Swift for technical interview preparation."
         }
@@ -154,22 +154,256 @@
   ],
   "lessons": [
     {
-      "slug": "fundamentals",
-      "title": "Fundamentals of Swift",
-      "description": "Core concepts, syntax, and first steps with Swift",
+      "slug": "swift-01-getting-started",
+      "title": "Getting Started with Swift",
+      "description": "Install Swift, run scripts, and understand the SwiftPM workflow.",
       "type": "lesson",
       "order": 1,
       "duration": "45 min",
-      "difficulty": "beginner"
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "swift/swift-01-getting-started"
+      ]
     },
     {
-      "slug": "practical-guide",
-      "title": "Practical Swift Guide",
-      "description": "Real-world usage, tooling, and ecosystem",
+      "slug": "swift-02-variables-types",
+      "title": "Variables and Data Types",
+      "description": "Constants, variables, type inference, and the core value types.",
       "type": "lesson",
       "order": 2,
       "duration": "60 min",
-      "difficulty": "intermediate"
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "swift/swift-02-variables-types"
+      ]
+    },
+    {
+      "slug": "swift-03-numbers-math",
+      "title": "Numbers and Math",
+      "description": "Integer types, floating point, overflow behavior, and math.",
+      "type": "lesson",
+      "order": 3,
+      "duration": "50 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "swift/swift-03-numbers-math"
+      ]
+    },
+    {
+      "slug": "swift-04-strings",
+      "title": "Strings and String Manipulation",
+      "description": "String literals, interpolation, Unicode, and the string API.",
+      "type": "lesson",
+      "order": 4,
+      "duration": "60 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "swift/swift-04-strings"
+      ]
+    },
+    {
+      "slug": "swift-05-control-flow",
+      "title": "Control Flow",
+      "description": "Conditionals, switch, and loops.",
+      "type": "lesson",
+      "order": 5,
+      "duration": "50 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "swift/swift-05-control-flow"
+      ]
+    },
+    {
+      "slug": "swift-06-collections",
+      "title": "Collections: Array, Dictionary, Set",
+      "description": "The three collection types and their algorithms.",
+      "type": "lesson",
+      "order": 6,
+      "duration": "60 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "swift/swift-06-collections"
+      ]
+    },
+    {
+      "slug": "swift-07-functions-closures",
+      "title": "Functions and Closures",
+      "description": "Function declarations, labels, and closure capture.",
+      "type": "lesson",
+      "order": 7,
+      "duration": "60 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "swift/swift-07-functions-closures"
+      ]
+    },
+    {
+      "slug": "swift-08-structs",
+      "title": "Structs and Value Semantics",
+      "description": "Structures, properties, methods, and copy-on-write behavior.",
+      "type": "lesson",
+      "order": 8,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "swift/swift-08-structs"
+      ]
+    },
+    {
+      "slug": "swift-09-classes",
+      "title": "Classes and Reference Semantics",
+      "description": "Classes, inheritance, and reference behavior.",
+      "type": "lesson",
+      "order": 9,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "swift/swift-09-classes"
+      ]
+    },
+    {
+      "slug": "swift-10-enums-patterns",
+      "title": "Enums and Pattern Matching",
+      "description": "Enumerations with associated values and pattern matching.",
+      "type": "lesson",
+      "order": 10,
+      "duration": "75 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "swift/swift-10-enums-patterns"
+      ]
+    },
+    {
+      "slug": "swift-11-protocols-extensions",
+      "title": "Protocols and Extensions",
+      "description": "Protocols, conformances, and extension-driven design.",
+      "type": "lesson",
+      "order": 11,
+      "duration": "75 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "swift/swift-11-protocols-extensions"
+      ]
+    },
+    {
+      "slug": "swift-12-optionals",
+      "title": "Optionals and Optional Chaining",
+      "description": "Optional values, binding, chaining, and nil coalescing.",
+      "type": "lesson",
+      "order": 12,
+      "duration": "50 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "swift/swift-12-optionals"
+      ]
+    },
+    {
+      "slug": "swift-13-error-handling",
+      "title": "Error Handling",
+      "description": "Throwing functions, do-catch, and error propagation.",
+      "type": "lesson",
+      "order": 13,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "swift/swift-13-error-handling"
+      ]
+    },
+    {
+      "slug": "swift-14-generics",
+      "title": "Generics",
+      "description": "Generic functions, types, and constraints.",
+      "type": "lesson",
+      "order": 14,
+      "duration": "75 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "swift/swift-14-generics"
+      ]
+    },
+    {
+      "slug": "swift-15-concurrency",
+      "title": "Concurrency: async/await",
+      "description": "Async functions, tasks, and structured concurrency.",
+      "type": "lesson",
+      "order": 15,
+      "duration": "75 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "swift/swift-15-concurrency"
+      ]
+    },
+    {
+      "slug": "swift-16-actors-sendable",
+      "title": "Actors and Sendable",
+      "description": "Actor isolation, Sendable, and safe shared state.",
+      "type": "lesson",
+      "order": 16,
+      "duration": "75 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "swift/swift-16-actors-sendable"
+      ]
+    },
+    {
+      "slug": "swift-17-arc-memory",
+      "title": "Memory Management and ARC",
+      "description": "Automatic Reference Counting, strong cycles, and weak references.",
+      "type": "lesson",
+      "order": 17,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "swift/swift-17-arc-memory"
+      ]
+    },
+    {
+      "slug": "swift-18-codable-files",
+      "title": "Codable and File I/O",
+      "description": "Codable, JSON encoding/decoding, and the file system.",
+      "type": "lesson",
+      "order": 18,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "swift/swift-18-codable-files"
+      ]
+    },
+    {
+      "slug": "swift-19-package-manager",
+      "title": "Swift Package Manager",
+      "description": "Package.swift, dependencies, and building libraries.",
+      "type": "lesson",
+      "order": 19,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "swift/swift-19-package-manager"
+      ]
+    },
+    {
+      "slug": "swift-20-testing",
+      "title": "Testing with XCTest and Swift Testing",
+      "description": "Unit tests, assertions, and test organization.",
+      "type": "lesson",
+      "order": 20,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "swift/swift-20-testing"
+      ]
+    },
+    {
+      "slug": "swift-21-performance",
+      "title": "Performance and Optimization",
+      "description": "Value semantics, COW, profiling, and measurement.",
+      "type": "lesson",
+      "order": 21,
+      "duration": "75 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "swift/swift-21-performance"
+      ]
     }
   ]
 }

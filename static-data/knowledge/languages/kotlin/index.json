@@ -1,7 +1,7 @@
 {
   "slug": "kotlin",
   "name": "Kotlin",
-  "description": "Kotlin is the modern JVM language that is now the primary language for Android development. It is concise, expressive, and fully interoperable with Java. These are the definitive free resources \u2014 vetted, current, and complete.",
+  "description": "Kotlin is the modern JVM language that is now the primary language for Android development. It is concise, expressive, and fully interoperable with Java. These are the definitive free resources — vetted, current, and complete.",
   "categories": [
     {
       "label": "Free Books",
@@ -50,12 +50,12 @@
       "icon": "code",
       "items": [
         {
-          "title": "JetBrains \u2014 Kotlin Basics Track",
+          "title": "JetBrains — Kotlin Basics Track",
           "url": "https://hyperskill.org/tracks/1",
           "description": "The official JetBrains interactive course covering Kotlin fundamentals, OOP, functional programming, and coroutines with hands-on exercises."
         },
         {
-          "title": "freeCodeCamp \u2014 Kotlin Course",
+          "title": "freeCodeCamp — Kotlin Course",
           "url": "https://www.freecodecamp.org/news/search/?query=kotlin",
           "description": "Free comprehensive Kotlin tutorials and courses covering Android development and backend programming."
         }
@@ -82,17 +82,17 @@
       "icon": "terminal",
       "items": [
         {
-          "title": "Exercism \u2014 Kotlin Track",
+          "title": "Exercism — Kotlin Track",
           "url": "https://exercism.org/tracks/kotlin",
           "description": "100+ free coding exercises with automated analysis and optional human mentoring."
         },
         {
-          "title": "Codewars \u2014 Kotlin Kata",
+          "title": "Codewars — Kotlin Kata",
           "url": "https://www.codewars.com/?language=kotlin",
           "description": "Solve community-created challenges in Kotlin across hundreds of difficulty levels."
         },
         {
-          "title": "LeetCode \u2014 Kotlin Support",
+          "title": "LeetCode — Kotlin Support",
           "url": "https://leetcode.com/",
           "description": "Practice data structures and algorithms using Kotlin for interview preparation."
         }
@@ -154,22 +154,256 @@
   ],
   "lessons": [
     {
-      "slug": "fundamentals",
-      "title": "Fundamentals of Kotlin",
-      "description": "Core concepts, syntax, and first steps with Kotlin",
+      "slug": "kotlin-01-getting-started",
+      "title": "Getting Started with Kotlin",
+      "description": "Install the compiler, run scripts, and meet the Kotlin playground.",
       "type": "lesson",
       "order": 1,
       "duration": "45 min",
-      "difficulty": "beginner"
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "kotlin/kotlin-01-getting-started"
+      ]
     },
     {
-      "slug": "practical-guide",
-      "title": "Practical Kotlin Guide",
-      "description": "Real-world usage, tooling, and ecosystem",
+      "slug": "kotlin-02-variables-types",
+      "title": "Variables and Data Types",
+      "description": "val, var, type inference, and the core types.",
       "type": "lesson",
       "order": 2,
       "duration": "60 min",
-      "difficulty": "intermediate"
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "kotlin/kotlin-02-variables-types"
+      ]
+    },
+    {
+      "slug": "kotlin-03-numbers-math",
+      "title": "Numbers and Math",
+      "description": "Integer types, floating point, overflow, and math APIs.",
+      "type": "lesson",
+      "order": 3,
+      "duration": "50 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "kotlin/kotlin-03-numbers-math"
+      ]
+    },
+    {
+      "slug": "kotlin-04-strings",
+      "title": "Strings and String Templates",
+      "description": "String literals, templates, and the string API.",
+      "type": "lesson",
+      "order": 4,
+      "duration": "60 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "kotlin/kotlin-04-strings"
+      ]
+    },
+    {
+      "slug": "kotlin-05-control-flow",
+      "title": "Control Flow",
+      "description": "if expressions, when, and loops.",
+      "type": "lesson",
+      "order": 5,
+      "duration": "50 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "kotlin/kotlin-05-control-flow"
+      ]
+    },
+    {
+      "slug": "kotlin-06-collections",
+      "title": "Collections",
+      "description": "Lists, sets, maps, and collection operators.",
+      "type": "lesson",
+      "order": 6,
+      "duration": "60 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "kotlin/kotlin-06-collections"
+      ]
+    },
+    {
+      "slug": "kotlin-07-functions",
+      "title": "Functions",
+      "description": "Function declarations, default args, and lambdas.",
+      "type": "lesson",
+      "order": 7,
+      "duration": "60 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "kotlin/kotlin-07-functions"
+      ]
+    },
+    {
+      "slug": "kotlin-08-classes",
+      "title": "Classes and Objects",
+      "description": "Classes, constructors, properties, and data classes.",
+      "type": "lesson",
+      "order": 8,
+      "duration": "75 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "kotlin/kotlin-08-classes"
+      ]
+    },
+    {
+      "slug": "kotlin-09-inheritance-interfaces",
+      "title": "Inheritance and Interfaces",
+      "description": "open classes, abstract classes, and interfaces.",
+      "type": "lesson",
+      "order": 9,
+      "duration": "75 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "kotlin/kotlin-09-inheritance-interfaces"
+      ]
+    },
+    {
+      "slug": "kotlin-10-null-safety",
+      "title": "Null Safety",
+      "description": "Nullable types, safe calls, and the Elvis operator.",
+      "type": "lesson",
+      "order": 10,
+      "duration": "50 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "kotlin/kotlin-10-null-safety"
+      ]
+    },
+    {
+      "slug": "kotlin-11-exceptions",
+      "title": "Exceptions and Error Handling",
+      "description": "Throwables, try-catch, and custom exceptions.",
+      "type": "lesson",
+      "order": 11,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "kotlin/kotlin-11-exceptions"
+      ]
+    },
+    {
+      "slug": "kotlin-12-generics",
+      "title": "Generics",
+      "description": "Generic types, variance, and reified types.",
+      "type": "lesson",
+      "order": 12,
+      "duration": "75 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "kotlin/kotlin-12-generics"
+      ]
+    },
+    {
+      "slug": "kotlin-13-coroutines",
+      "title": "Coroutines and Flow",
+      "description": "suspend functions, coroutine scopes, and cold flows.",
+      "type": "lesson",
+      "order": 13,
+      "duration": "75 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "kotlin/kotlin-13-coroutines"
+      ]
+    },
+    {
+      "slug": "kotlin-14-file-io",
+      "title": "File I/O and Serialization",
+      "description": "Reading and writing files, and kotlinx.serialization.",
+      "type": "lesson",
+      "order": 14,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "kotlin/kotlin-14-file-io"
+      ]
+    },
+    {
+      "slug": "kotlin-15-collections-advanced",
+      "title": "Advanced Collections",
+      "description": "Sequences, grouping, and lazy evaluation.",
+      "type": "lesson",
+      "order": 15,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "kotlin/kotlin-15-collections-advanced"
+      ]
+    },
+    {
+      "slug": "kotlin-16-functional",
+      "title": "Functional Kotlin",
+      "description": "Higher-order functions, immutability, and DSLs.",
+      "type": "lesson",
+      "order": 16,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "kotlin/kotlin-16-functional"
+      ]
+    },
+    {
+      "slug": "kotlin-17-testing",
+      "title": "Testing with Kotlin",
+      "description": "Unit tests, JUnit, assertions, and test doubles.",
+      "type": "lesson",
+      "order": 17,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "kotlin/kotlin-17-testing"
+      ]
+    },
+    {
+      "slug": "kotlin-18-coroutines-channels",
+      "title": "Channels and Structured Concurrency",
+      "description": "Channels, select, and structured concurrency patterns.",
+      "type": "lesson",
+      "order": 18,
+      "duration": "75 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "kotlin/kotlin-18-coroutines-channels"
+      ]
+    },
+    {
+      "slug": "kotlin-19-gradle-build",
+      "title": "Gradle and Build Tooling",
+      "description": "Project structure, dependencies, and build scripts.",
+      "type": "lesson",
+      "order": 19,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "kotlin/kotlin-19-gradle-build"
+      ]
+    },
+    {
+      "slug": "kotlin-20-dsl-reflection",
+      "title": "DSLs, Reflection, and Metaprogramming",
+      "description": "Type-safe builders, reflection, and annotation processing.",
+      "type": "lesson",
+      "order": 20,
+      "duration": "75 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "kotlin/kotlin-20-dsl-reflection"
+      ]
+    },
+    {
+      "slug": "kotlin-21-performance",
+      "title": "Performance and Best Practices",
+      "description": "Inline functions, allocations, and idiomatic performance.",
+      "type": "lesson",
+      "order": 21,
+      "duration": "75 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "kotlin/kotlin-21-performance"
+      ]
     }
   ]
 }
