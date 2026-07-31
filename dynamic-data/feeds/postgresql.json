@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-07-30T19:13:40.535Z",
+  "updatedAt": "2026-07-31T02:47:40.972Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -433,7 +433,15 @@
       "summary": "High availability setups are never “set and forget”. Every new release of your tooling can change how your cluster behaves at 03:00 when something breaks.\n vip-manager v5 is one of those releases you really want to read about before just hitting apt upgrade. In this post I’ll walk through the…",
       "author": null,
       "publishedAt": "2026-07-30T10:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9qQ",
+      "title": "Christophe Pettus: All Your GUCs in a Row: hot_standby",
+      "link": "https://postgr.es/p/9qQ",
+      "summary": "PostgreSQL's hot_standby switch transforms a spare server into a readable replica, but the real tuning work happens elsewhere.",
+      "author": null,
+      "publishedAt": "2026-07-31T01:00:00.000Z"
     }
   ],
-  "totalIndexed": 53
+  "totalIndexed": 54
 }
