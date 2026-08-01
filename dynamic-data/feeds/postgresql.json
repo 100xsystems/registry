@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-07-31T19:12:43.161Z",
+  "updatedAt": "2026-08-01T02:46:14.688Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -481,7 +481,23 @@
       "summary": "Postgres ships with a genuinely bountiful catalog of built-in functions. There are literally thousands of them, covering everything from trigonometry to JSON path queries to full-text ranking. It's a kitchen sink of staggering proportions. Somehow despite all of that, there are actually still a few…",
       "author": null,
       "publishedAt": "2026-07-31T09:31:21.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9r4",
+      "title": "Christophe Pettus: All Your GUCs in a Row: hot_standby_feedback",
+      "link": "https://postgr.es/p/9r4",
+      "summary": "`hot_standby_feedback` trades primary bloat to prevent query cancellations on standbys—but it only stops cleanup conflicts, not lock or drop conflicts, and…",
+      "author": null,
+      "publishedAt": "2026-08-01T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9r3",
+      "title": "Mark Wong: Performance Farm July 2026 Update",
+      "link": "https://postgr.es/p/9r3",
+      "summary": "The PostgreSQL Performance Farm is still not quite a reality, but I think there is some hope on the horizon.\n\nAfter some discussions with various folks at AWS about large scale OLTP testing with PostgreSQL on EC2, I was introduced to Farrah Campbell last spring who has been helping open source…",
+      "author": null,
+      "publishedAt": "2026-07-31T19:29:58.000Z"
     }
   ],
-  "totalIndexed": 59
+  "totalIndexed": 61
 }
