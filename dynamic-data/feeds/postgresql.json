@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-08-01T02:46:14.688Z",
+  "updatedAt": "2026-08-02T02:46:33.803Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -497,7 +497,15 @@
       "summary": "The PostgreSQL Performance Farm is still not quite a reality, but I think there is some hope on the horizon.\n\nAfter some discussions with various folks at AWS about large scale OLTP testing with PostgreSQL on EC2, I was introduced to Farrah Campbell last spring who has been helping open source…",
       "author": null,
       "publishedAt": "2026-07-31T19:29:58.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9r8",
+      "title": "Christophe Pettus: All Your GUCs in a Row: ident_file",
+      "link": "https://postgr.es/p/9r8",
+      "summary": "ident_file tells the server where pg_ident.conf lives, but when it's wrong, the server just logs a quiet failure and keeps running.",
+      "author": null,
+      "publishedAt": "2026-08-02T01:00:00.000Z"
     }
   ],
-  "totalIndexed": 61
+  "totalIndexed": 62
 }
