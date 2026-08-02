@@ -1,49 +1,35 @@
 # YC Company Changes for 2026-08-02
 
-- Previous total: 6111
-- Current total: 6112
-- Added: 1
+- Previous total: 6112
+- Current total: 6114
+- Added: 2
 - Removed: 0
-- Updated: 8
+- Updated: 4
 
 
 ## Added Companies
 
-- [Standard Machines](https://www.ycombinator.com/companies/standard-machines) (Summer 2026) — Environments For Chip Design
+- [CarSignal](https://www.ycombinator.com/companies/carsignal) (Summer 2026) — The Smart Operating System for Auto Shops.
+- [SpaceFlow Technologies, Inc.](https://www.ycombinator.com/companies/spaceflow-technologies-inc) (Summer 2026) — The managed runtime for enterprise AI agents
 
 ## Updated Companies
 
-### [Tank Payments](https://www.ycombinator.com/companies/tank-payments)
+### [RiskCube](https://www.ycombinator.com/companies/riskcube)
 
-- `isHiring`: false → true
+- `tags`: Artificial Intelligence,Fintech,Insurance → Fintech,Insurance,Defense,AI
 
-### [Oneleet](https://www.ycombinator.com/companies/oneleet)
+### [Khotan (formerly Pollinate)](https://www.ycombinator.com/companies/khotan)
 
-- `team_size`: 60 → 65
-- `tags`: SaaS,B2B,Compliance,Security,AI → Artificial Intelligence,SaaS,B2B,Compliance,Security
-- `stage`: Growth → Early
+- `name`: Pollinate → Khotan (formerly Pollinate)
+- `slug`: pollinate → khotan
+- `former_names`: Polinate → Polinate,Pollinate,Khotan
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/a91425bc13e71d0ca296b97834e36834cea9ce3a.png → https://bookface-images.s3.amazonaws.com/small_logos/b23ce152528185e61986e56941165e5686edcb24.png
+- `website`: https://www.pollinate.tech/ → https://www.khotan.com/
 
-### [Anara](https://www.ycombinator.com/companies/anara)
-
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/0b702e275c5d9f7a428a7fe250b337175e2b5e58.png → https://bookface-images.s3.amazonaws.com/small_logos/c200677edb53d6070e302f09d7f34173e19a46f2.png
-- `tags`: Consumer,B2B,AI → Artificial Intelligence,Consumer,B2B
-
-### [Slashy](https://www.ycombinator.com/companies/slashy)
+### [Gutgutgoose](https://www.ycombinator.com/companies/gutgutgoose)
 
 - `isHiring`: true → false
 
-### [Ara](https://www.ycombinator.com/companies/ara)
+### [TareBio](https://www.ycombinator.com/companies/tarebio)
 
-- `isHiring`: false → true
-
-### [Collar](https://www.ycombinator.com/companies/collar)
-
-- `isHiring`: true → false
-
-### [Olam Labs](https://www.ycombinator.com/companies/olam-labs)
-
-- `tags`: Reinforcement Learning,Gaming,Data Engineering,AI → Artificial Intelligence,Reinforcement Learning,Gaming,Data Engineering
-
-### [Gamgee](https://www.ycombinator.com/companies/gamgee)
-
-- `tags`: Biotech,Genomics,Oncology,AI → Artificial Intelligence,Biotech,Genomics,Oncology
+- `one_liner`: Vaccines for any cancer or infection in weeks → Vaccines for any cancer or infection in weeks.
