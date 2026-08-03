@@ -8,7 +8,7 @@
     "edge-computing",
     "javascript"
   ],
-  "updatedAt": "2026-08-02T18:59:21.833Z",
+  "updatedAt": "2026-08-03T14:37:16.522Z",
   "items": [
     {
       "guid": "1WYEYtVwQSo4H3jKHTcKmO",
@@ -61233,7 +61233,31 @@
       "summary": "Agents Week explores how cloud infrastructure must evolve to serve autonomous agents rather than human browsers. Join us as we unpack the storage, execution, and security primitives needed for an agent-native web.",
       "author": "Rita Kozlov",
       "publishedAt": "2026-08-02T16:00:00.000Z"
+    },
+    {
+      "guid": "01KZ0Q4HGGZF4CDMZVFZRGTTCF",
+      "title": "Your agent needs a computer, not a container — introducing @cloudflare/computer",
+      "link": "https://blog.cloudflare.com/cloudflare-computer/",
+      "summary": "Agents need more than just a container to scale. We're introducing @cloudflare/computer, an agent runtime that dynamically orchestrates between fast, efficient isolates and full Linux containers to give every agent a computer of its own.",
+      "author": "Matt Carey",
+      "publishedAt": "2026-08-03T13:15:24.000Z"
+    },
+    {
+      "guid": "01KZ21C4W4K7E7W8E61PNSYFQ1",
+      "title": "Cloudflare Workers and Containers now support inbound TCP connections and gRPC",
+      "link": "https://blog.cloudflare.com/grpc-workers/",
+      "summary": "Cloudflare Workers now support inbound TCP connections via Spectrum, allowing direct socket forwarding to Durable Objects and Containers. Developers can run full-duplex gRPC applications or leverage automatic gRPC-to-gRPC-web translation directly within Workers.",
+      "author": "Mar Witek",
+      "publishedAt": "2026-08-03T13:00:00.000Z"
+    },
+    {
+      "guid": "01KYT15YJPSYBNRFS8G400P5P5",
+      "title": "Workers RPC now works across Python and JavaScript",
+      "link": "https://blog.cloudflare.com/python-workers-rpc/",
+      "summary": "One coding agent can write a Python Worker and another can write a JavaScript Worker. At runtime, those Workers can exchange references to live objects and call their methods without defining APIs, schemas, or serialization code",
+      "author": "Dominik Picheta",
+      "publishedAt": "2026-08-03T13:00:00.000Z"
     }
   ],
-  "totalIndexed": 7653
+  "totalIndexed": 7656
 }
