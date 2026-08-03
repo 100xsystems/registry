@@ -4,7 +4,7 @@
   "description": "if/else, ifelse, for, and while loops.",
   "type": "lesson",
   "order": 7,
-  "duration": 25,
+  "duration": "25 min",
   "difficulty": "beginner",
   "learning_objectives": [
     "Write conditional branches",

@@ -45,7 +45,7 @@
           "description": "Step-by-step Fortran tutorial with online compiler for interactive learning."
         },
         {
-          "title": "Exercism \u2014 Fortran Track",
+          "title": "Exercism — Fortran Track",
           "url": "https://exercism.org/tracks/fortran",
           "description": "Free coding exercises with automated testing and mentoring."
         }
@@ -72,7 +72,7 @@
       "icon": "terminal",
       "items": [
         {
-          "title": "Exercism \u2014 Fortran Track",
+          "title": "Exercism — Fortran Track",
           "url": "https://exercism.org/tracks/fortran",
           "description": "Structured exercises for learning modern Fortran programming."
         },
@@ -120,7 +120,7 @@
           "description": "Official community forum for Q&A and discussions."
         },
         {
-          "title": "Stack Overflow \u2014 Fortran Tag",
+          "title": "Stack Overflow — Fortran Tag",
           "url": "https://stackoverflow.com/questions/tagged/fortran",
           "description": "Q&A for Fortran programming questions."
         }
@@ -129,22 +129,256 @@
   ],
   "lessons": [
     {
-      "slug": "fundamentals",
-      "title": "Fundamentals of Fortran",
-      "description": "Core concepts, syntax, and first steps with Fortran",
+      "slug": "fortran-01-getting-started",
+      "title": "Getting Started with Fortran",
+      "description": "Modern Fortran, compiler setup, hello world.",
       "type": "lesson",
       "order": 1,
       "duration": "45 min",
-      "difficulty": "beginner"
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "fortran/fortran-01-getting-started"
+      ]
     },
     {
-      "slug": "practical-guide",
-      "title": "Practical Fortran Guide",
-      "description": "Real-world usage, tooling, and ecosystem",
+      "slug": "fortran-02-declarations",
+      "title": "Variables and Declarations",
+      "description": "Implicit typing, kinds, and declarations.",
       "type": "lesson",
       "order": 2,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "fortran/fortran-02-declarations"
+      ]
+    },
+    {
+      "slug": "fortran-03-operators",
+      "title": "Operators and Expressions",
+      "description": "Arithmetic, relational, and logical operators.",
+      "type": "lesson",
+      "order": 3,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "fortran/fortran-03-operators"
+      ]
+    },
+    {
+      "slug": "fortran-04-control",
+      "title": "Control Flow",
+      "description": "if, select case, and structured flow.",
+      "type": "lesson",
+      "order": 4,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "fortran/fortran-04-control"
+      ]
+    },
+    {
+      "slug": "fortran-05-loops",
+      "title": "Loops",
+      "description": "do loops, while forms, and iteration control.",
+      "type": "lesson",
+      "order": 5,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "fortran/fortran-05-loops"
+      ]
+    },
+    {
+      "slug": "fortran-06-arrays",
+      "title": "Arrays",
+      "description": "Array declaration, slicing, and array operations.",
+      "type": "lesson",
+      "order": 6,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "fortran/fortran-06-arrays"
+      ]
+    },
+    {
+      "slug": "fortran-07-strings",
+      "title": "Character Strings",
+      "description": "Character variables, concatenation, and intrinsics.",
+      "type": "lesson",
+      "order": 7,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "fortran/fortran-07-strings"
+      ]
+    },
+    {
+      "slug": "fortran-08-functions",
+      "title": "Functions",
+      "description": "Write and call functions with intent.",
+      "type": "lesson",
+      "order": 8,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "fortran/fortran-08-functions"
+      ]
+    },
+    {
+      "slug": "fortran-09-subroutines",
+      "title": "Subroutines",
+      "description": "Procedures with multiple outputs.",
+      "type": "lesson",
+      "order": 9,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "fortran/fortran-09-subroutines"
+      ]
+    },
+    {
+      "slug": "fortran-10-modules",
+      "title": "Modules",
+      "description": "Module encapsulation and interfaces.",
+      "type": "lesson",
+      "order": 10,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "fortran/fortran-10-modules"
+      ]
+    },
+    {
+      "slug": "fortran-11-derived-types",
+      "title": "Derived Types",
+      "description": "Structures and user-defined data.",
+      "type": "lesson",
+      "order": 11,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "fortran/fortran-11-derived-types"
+      ]
+    },
+    {
+      "slug": "fortran-12-io",
+      "title": "File Input/Output",
+      "description": "Read and write files with formatting.",
+      "type": "lesson",
+      "order": 12,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "fortran/fortran-12-io"
+      ]
+    },
+    {
+      "slug": "fortran-13-intrinsics",
+      "title": "Intrinsic Functions",
+      "description": "Mathematical and array intrinsics.",
+      "type": "lesson",
+      "order": 13,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "fortran/fortran-13-intrinsics"
+      ]
+    },
+    {
+      "slug": "fortran-14-allocation",
+      "title": "Dynamic Allocation",
+      "description": "allocatable arrays and pointers.",
+      "type": "lesson",
+      "order": 14,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "fortran/fortran-14-allocation"
+      ]
+    },
+    {
+      "slug": "fortran-15-pointers",
+      "title": "Pointers",
+      "description": "Pointer association and targets.",
+      "type": "lesson",
+      "order": 15,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "fortran/fortran-15-pointers"
+      ]
+    },
+    {
+      "slug": "fortran-16-oop",
+      "title": "Object-Oriented Fortran",
+      "description": "Type-bound procedures and inheritance.",
+      "type": "lesson",
+      "order": 16,
       "duration": "60 min",
-      "difficulty": "intermediate"
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "fortran/fortran-16-oop"
+      ]
+    },
+    {
+      "slug": "fortran-17-parallel",
+      "title": "Parallel Programming with OpenMP",
+      "description": "OpenMP directives for shared-memory parallelism.",
+      "type": "lesson",
+      "order": 17,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "fortran/fortran-17-parallel"
+      ]
+    },
+    {
+      "slug": "fortran-18-mpi",
+      "title": "MPI for Distributed Computing",
+      "description": "Message passing for clusters.",
+      "type": "lesson",
+      "order": 18,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "fortran/fortran-18-mpi"
+      ]
+    },
+    {
+      "slug": "fortran-19-performance",
+      "title": "Performance and Optimization",
+      "description": "Vectorization, alignment, and profiling.",
+      "type": "lesson",
+      "order": 19,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "fortran/fortran-19-performance"
+      ]
+    },
+    {
+      "slug": "fortran-20-scientific",
+      "title": "Scientific Computing Patterns",
+      "description": "Linear algebra, numerics, and LAPACK.",
+      "type": "lesson",
+      "order": 20,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "fortran/fortran-20-scientific"
+      ]
+    },
+    {
+      "slug": "fortran-21-ecosystem",
+      "title": "Ecosystem and Next Steps",
+      "description": "Modern tooling and the Fortran community.",
+      "type": "lesson",
+      "order": 21,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "fortran/fortran-21-ecosystem"
+      ]
     }
   ]
 }

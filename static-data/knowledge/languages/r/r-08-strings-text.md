@@ -4,7 +4,7 @@
   "description": "paste, sprintf, string functions, and regular expressions.",
   "type": "lesson",
   "order": 8,
-  "duration": 25,
+  "duration": "25 min",
   "difficulty": "beginner",
   "learning_objectives": [
     "Build strings with paste and sprintf",

@@ -4,7 +4,7 @@
   "description": "Immutable and mutable structs, inner constructors.",
   "type": "lesson",
   "order": 11,
-  "duration": 35,
+  "duration": "35 min",
   "difficulty": "intermediate",
   "learning_objectives": [
     "Define immutable structs with typed fields",

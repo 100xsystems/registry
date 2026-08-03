@@ -1,0 +1,303 @@
+{
+  "slug": "generative-ai",
+  "name": "Generative AI",
+  "description": "Generative AI end to end: LLMs, prompting, fine-tuning, RAG, agents, diffusion, VLMs and running GenAI in production.",
+  "categories": [
+    {
+      "label": "Free Courses & Guides",
+      "icon": "book",
+      "items": [
+        {
+          "title": "Hugging Face NLP Course",
+          "url": "https://huggingface.co/learn/nlp-course",
+          "description": "Transformers, fine-tuning and LLM fundamentals with hands-on code."
+        },
+        {
+          "title": "DeepLearning.AI Short Courses",
+          "url": "https://www.deeplearning.ai/short-courses/",
+          "description": "Practical AI courses from industry experts."
+        },
+        {
+          "title": "Attention Is All You Need",
+          "url": "https://arxiv.org/abs/1706.03762",
+          "description": "The Transformer paper that made generative AI possible."
+        }
+      ]
+    },
+    {
+      "label": "Official Documentation",
+      "icon": "docs",
+      "items": [
+        {
+          "title": "OpenAI Documentation",
+          "url": "https://platform.openai.com/docs",
+          "description": "API reference for GPT models, embeddings and function calling."
+        },
+        {
+          "title": "LangChain Documentation",
+          "url": "https://python.langchain.com/docs",
+          "description": "Frameworks for RAG, agents and LLM applications."
+        },
+        {
+          "title": "Diffusers Documentation",
+          "url": "https://huggingface.co/docs/diffusers",
+          "description": "State-of-the-art diffusion models for image generation."
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "genai-01-what-is-generative-ai",
+      "title": "What Is Generative AI?",
+      "description": "The field that creates text, images, audio and code — and the system stack behind it.",
+      "type": "lesson",
+      "order": 1,
+      "duration": "40 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "generative-ai/genai-01-what-is-generative-ai"
+      ]
+    },
+    {
+      "slug": "genai-02-probabilistic-generation",
+      "title": "The Mathematics of Generation",
+      "description": "Generation is sampling from a probability distribution over tokens — conditioned on context.",
+      "type": "lesson",
+      "order": 2,
+      "duration": "50 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "generative-ai/genai-02-probabilistic-generation"
+      ]
+    },
+    {
+      "slug": "genai-03-text-generation-basics",
+      "title": "Text Generation Fundamentals",
+      "description": "Generate text with pretrained models: sampling strategies, decoding, and the tokens that come out.",
+      "type": "lesson",
+      "order": 3,
+      "duration": "55 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "generative-ai/genai-03-text-generation-basics"
+      ]
+    },
+    {
+      "slug": "genai-04-prompt-engineering",
+      "title": "Prompt Engineering",
+      "description": "Design instructions that get reliable outputs: roles, structure, few-shot examples and constraints.",
+      "type": "lesson",
+      "order": 4,
+      "duration": "50 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "generative-ai/genai-04-prompt-engineering"
+      ]
+    },
+    {
+      "slug": "genai-05-in-context-learning",
+      "title": "In-Context Learning",
+      "description": "Teach new tasks with examples in the prompt — no weight updates required.",
+      "type": "lesson",
+      "order": 5,
+      "duration": "50 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "generative-ai/genai-05-in-context-learning"
+      ]
+    },
+    {
+      "slug": "genai-06-llm-architecture",
+      "title": "LLM Architecture & Scaling",
+      "description": "Decoder-only transformers, scaling laws, and why bigger models behave differently.",
+      "type": "lesson",
+      "order": 6,
+      "duration": "55 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "generative-ai/genai-06-llm-architecture"
+      ]
+    },
+    {
+      "slug": "genai-07-tokenization",
+      "title": "Tokenization & the Vocabulary",
+      "description": "Subword tokens (BPE) — the hidden layer between characters and embeddings.",
+      "type": "lesson",
+      "order": 7,
+      "duration": "50 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "generative-ai/genai-07-tokenization"
+      ]
+    },
+    {
+      "slug": "genai-08-fine-tuning-llms",
+      "title": "Fine-Tuning LLMs",
+      "description": "Adapt a foundation model to a domain with supervised fine-tuning and parameter-efficient methods (LoRA).",
+      "type": "lesson",
+      "order": 8,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "generative-ai/genai-08-fine-tuning-llms"
+      ]
+    },
+    {
+      "slug": "genai-09-rlhf-and-alignment",
+      "title": "RLHF & Alignment",
+      "description": "Train models to be helpful and harmless: reward models, RLHF and constitutional methods.",
+      "type": "lesson",
+      "order": 9,
+      "duration": "55 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "generative-ai/genai-09-rlhf-and-alignment"
+      ]
+    },
+    {
+      "slug": "genai-10-rag",
+      "title": "Retrieval-Augmented Generation (RAG)",
+      "description": "Ground answers in your own data: retrieve relevant chunks, stuff the context, generate.",
+      "type": "lesson",
+      "order": 10,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "generative-ai/genai-10-rag"
+      ]
+    },
+    {
+      "slug": "genai-11-embeddings-and-vector-databases",
+      "title": "Embeddings & Vector Databases",
+      "description": "Semantic search at scale: embedding models, vector indexes, and ANN search.",
+      "type": "lesson",
+      "order": 11,
+      "duration": "55 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "generative-ai/genai-11-embeddings-and-vector-databases"
+      ]
+    },
+    {
+      "slug": "genai-12-agents-and-tool-use",
+      "title": "Agents & Tool Use",
+      "description": "Let models call functions, use tools, and loop until the job is done.",
+      "type": "lesson",
+      "order": 12,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "generative-ai/genai-12-agents-and-tool-use"
+      ]
+    },
+    {
+      "slug": "genai-13-diffusion-models",
+      "title": "Diffusion Models for Images",
+      "description": "Generate images by learning to denoise: forward noise, reverse denoising, and text conditioning.",
+      "type": "lesson",
+      "order": 13,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "generative-ai/genai-13-diffusion-models"
+      ]
+    },
+    {
+      "slug": "genai-14-gans",
+      "title": "Generative Adversarial Networks",
+      "description": "Two networks in a zero-sum game: the generator fools the discriminator, and both improve.",
+      "type": "lesson",
+      "order": 14,
+      "duration": "50 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "generative-ai/genai-14-gans"
+      ]
+    },
+    {
+      "slug": "genai-15-vision-language-models",
+      "title": "Vision-Language Models",
+      "description": "Bridge images and text: CLIP, captioning, and multimodal chat (LLaVA, GPT-4V).",
+      "type": "lesson",
+      "order": 15,
+      "duration": "55 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "generative-ai/genai-15-vision-language-models"
+      ]
+    },
+    {
+      "slug": "genai-16-audio-and-speech",
+      "title": "Generative Audio & Speech",
+      "description": "Text-to-speech, voice cloning and music generation with modern neural audio models.",
+      "type": "lesson",
+      "order": 16,
+      "duration": "50 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "generative-ai/genai-16-audio-and-speech"
+      ]
+    },
+    {
+      "slug": "genai-17-evaluating-llms",
+      "title": "Evaluating LLMs",
+      "description": "Benchmarks, evals and human review — measuring quality, safety and reliability.",
+      "type": "lesson",
+      "order": 17,
+      "duration": "55 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "generative-ai/genai-17-evaluating-llms"
+      ]
+    },
+    {
+      "slug": "genai-18-llmops",
+      "title": "LLMOps: Running GenAI in Production",
+      "description": "Prompt management, caching, guardrails, monitoring and cost control for LLM apps.",
+      "type": "lesson",
+      "order": 18,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "generative-ai/genai-18-llmops"
+      ]
+    },
+    {
+      "slug": "genai-19-ethical-ai-and-safety",
+      "title": "Ethical AI & Safety",
+      "description": "Bias, privacy, transparency and misuse — the responsibilities that come with generative models.",
+      "type": "lesson",
+      "order": 19,
+      "duration": "50 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "generative-ai/genai-19-ethical-ai-and-safety"
+      ]
+    },
+    {
+      "slug": "genai-20-building-genai-applications",
+      "title": "Building a GenAI Application",
+      "description": "Assemble the stack: model, retrieval, guardrails and a clean interface — end to end.",
+      "type": "lesson",
+      "order": 20,
+      "duration": "75 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "generative-ai/genai-20-building-genai-applications"
+      ]
+    },
+    {
+      "slug": "genai-21-roadmap",
+      "title": "Generative AI Roadmap",
+      "description": "Synthesize everything into a career and project plan — and keep up as the field accelerates.",
+      "type": "lesson",
+      "order": 21,
+      "duration": "40 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "generative-ai/genai-21-roadmap"
+      ]
+    }
+  ]
+}

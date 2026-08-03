@@ -4,7 +4,7 @@
   "description": "const vs var, mutation, and type inference.",
   "type": "lesson",
   "order": 3,
-  "duration": 25,
+  "duration": "25 min",
   "difficulty": "beginner",
   "learning_objectives": [
     "Prefer const over var",

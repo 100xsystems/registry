@@ -4,7 +4,7 @@
   "description": "Single-item pointers, const pointers, and optional pointers.",
   "type": "lesson",
   "order": 13,
-  "duration": 30,
+  "duration": "30 min",
   "difficulty": "intermediate",
   "learning_objectives": [
     "Take addresses with & and dereference with .*",

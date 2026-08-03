@@ -10,7 +10,7 @@
         {
           "title": "Learn Prolog Now!",
           "url": "https://www.learnprolognow.org/",
-          "description": "The best free introductory Prolog textbook \u2014 covers facts, rules, recursion, lists, and DCGs with interactive exercises."
+          "description": "The best free introductory Prolog textbook — covers facts, rules, recursion, lists, and DCGs with interactive exercises."
         },
         {
           "title": "Adventure in Prolog",
@@ -26,7 +26,7 @@
         {
           "title": "SWI-Prolog Documentation",
           "url": "https://www.swi-prolog.org/pldoc/",
-          "description": "Complete documentation for the most popular Prolog implementation \u2014 SWI-Prolog."
+          "description": "Complete documentation for the most popular Prolog implementation — SWI-Prolog."
         },
         {
           "title": "SWI-Prolog Online",
@@ -45,7 +45,7 @@
           "description": "Free interactive online textbook with exercises for each chapter."
         },
         {
-          "title": "Exercism \u2014 Prolog Track",
+          "title": "Exercism — Prolog Track",
           "url": "https://exercism.org/tracks/prolog",
           "description": "Coding exercises for learning Prolog with community support."
         }
@@ -67,12 +67,12 @@
       "icon": "terminal",
       "items": [
         {
-          "title": "Exercism \u2014 Prolog Track",
+          "title": "Exercism — Prolog Track",
           "url": "https://exercism.org/tracks/prolog",
           "description": "Free structured exercises for Prolog with community mentoring."
         },
         {
-          "title": "Codewars \u2014 Prolog Kata",
+          "title": "Codewars — Prolog Kata",
           "url": "https://www.codewars.com/",
           "description": "Solve logic puzzles using Prolog."
         }
@@ -110,7 +110,7 @@
           "description": "Community for Prolog discussions and logic programming."
         },
         {
-          "title": "Stack Overflow \u2014 Prolog Tag",
+          "title": "Stack Overflow — Prolog Tag",
           "url": "https://stackoverflow.com/questions/tagged/prolog",
           "description": "Q&A for Prolog programming questions."
         }
@@ -119,22 +119,256 @@
   ],
   "lessons": [
     {
-      "slug": "fundamentals",
-      "title": "Fundamentals of Prolog",
-      "description": "Core concepts, syntax, and first steps with Prolog",
+      "slug": "prolog-01-getting-started",
+      "title": "Getting Started with Prolog",
+      "description": "SWI-Prolog, facts, and queries.",
       "type": "lesson",
       "order": 1,
       "duration": "45 min",
-      "difficulty": "beginner"
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "prolog/prolog-01-getting-started"
+      ]
     },
     {
-      "slug": "practical-guide",
-      "title": "Practical Prolog Guide",
-      "description": "Real-world usage, tooling, and ecosystem",
+      "slug": "prolog-02-facts-rules",
+      "title": "Facts and Rules",
+      "description": "Build a knowledge base.",
       "type": "lesson",
       "order": 2,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "prolog/prolog-02-facts-rules"
+      ]
+    },
+    {
+      "slug": "prolog-03-unification",
+      "title": "Unification",
+      "description": "The core of Prolog.",
+      "type": "lesson",
+      "order": 3,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "prolog/prolog-03-unification"
+      ]
+    },
+    {
+      "slug": "prolog-04-recursion",
+      "title": "Recursion",
+      "description": "Recursive rules for lists and trees.",
+      "type": "lesson",
+      "order": 4,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "prolog/prolog-04-recursion"
+      ]
+    },
+    {
+      "slug": "prolog-05-lists",
+      "title": "Lists",
+      "description": "Build and process lists.",
+      "type": "lesson",
+      "order": 5,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "prolog/prolog-05-lists"
+      ]
+    },
+    {
+      "slug": "prolog-06-cutting",
+      "title": "The Cut (!)",
+      "description": "Control backtracking.",
+      "type": "lesson",
+      "order": 6,
       "duration": "60 min",
-      "difficulty": "intermediate"
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "prolog/prolog-06-cutting"
+      ]
+    },
+    {
+      "slug": "prolog-07-arithmetic",
+      "title": "Arithmetic",
+      "description": "Numbers and arithmetic expressions.",
+      "type": "lesson",
+      "order": 7,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "prolog/prolog-07-arithmetic"
+      ]
+    },
+    {
+      "slug": "prolog-08-strings-atoms",
+      "title": "Atoms, Strings, and Text",
+      "description": "Text data in Prolog.",
+      "type": "lesson",
+      "order": 8,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "prolog/prolog-08-strings-atoms"
+      ]
+    },
+    {
+      "slug": "prolog-09-assert-retract",
+      "title": "Assert and Retract",
+      "description": "Dynamic knowledge bases.",
+      "type": "lesson",
+      "order": 9,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "prolog/prolog-09-assert-retract"
+      ]
+    },
+    {
+      "slug": "prolog-10-findall",
+      "title": "Findall and Setof",
+      "description": "Collect solutions.",
+      "type": "lesson",
+      "order": 10,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "prolog/prolog-10-findall"
+      ]
+    },
+    {
+      "slug": "prolog-11-io",
+      "title": "Input/Output",
+      "description": "Read and write to the user.",
+      "type": "lesson",
+      "order": 11,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "prolog/prolog-11-io"
+      ]
+    },
+    {
+      "slug": "prolog-12-file-io",
+      "title": "File I/O",
+      "description": "Read and write files.",
+      "type": "lesson",
+      "order": 12,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "prolog/prolog-12-file-io"
+      ]
+    },
+    {
+      "slug": "prolog-13-grammar",
+      "title": "DCG: Grammar Rules",
+      "description": "Parse with definite clause grammars.",
+      "type": "lesson",
+      "order": 13,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "prolog/prolog-13-grammar"
+      ]
+    },
+    {
+      "slug": "prolog-14-chatbot",
+      "title": "Expert Systems and Chatbots",
+      "description": "Simple rule-based reasoning.",
+      "type": "lesson",
+      "order": 14,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "prolog/prolog-14-chatbot"
+      ]
+    },
+    {
+      "slug": "prolog-15-chr",
+      "title": "Constraint Handling",
+      "description": "Constraint logic programming.",
+      "type": "lesson",
+      "order": 15,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "prolog/prolog-15-chr"
+      ]
+    },
+    {
+      "slug": "prolog-16-sudoku",
+      "title": "Sudoku Solver",
+      "description": "A classic CLP(FD) program.",
+      "type": "lesson",
+      "order": 16,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "prolog/prolog-16-sudoku"
+      ]
+    },
+    {
+      "slug": "prolog-17-search",
+      "title": "Search Algorithms",
+      "description": "Implement DFS and BFS.",
+      "type": "lesson",
+      "order": 17,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "prolog/prolog-17-search"
+      ]
+    },
+    {
+      "slug": "prolog-18-modules",
+      "title": "Modules and Libraries",
+      "description": "Organize Prolog code.",
+      "type": "lesson",
+      "order": 18,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "prolog/prolog-18-modules"
+      ]
+    },
+    {
+      "slug": "prolog-19-debugging",
+      "title": "Debugging Prolog",
+      "description": "Trace and inspect.",
+      "type": "lesson",
+      "order": 19,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "prolog/prolog-19-debugging"
+      ]
+    },
+    {
+      "slug": "prolog-20-applications",
+      "title": "Real-World Applications",
+      "description": "Where Prolog shines.",
+      "type": "lesson",
+      "order": 20,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "prolog/prolog-20-applications"
+      ]
+    },
+    {
+      "slug": "prolog-21-ecosystem",
+      "title": "Ecosystem and Next Steps",
+      "description": "Libraries and community.",
+      "type": "lesson",
+      "order": 21,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "prolog/prolog-21-ecosystem"
+      ]
     }
   ]
 }

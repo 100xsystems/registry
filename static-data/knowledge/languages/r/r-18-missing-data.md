@@ -4,7 +4,7 @@
   "description": "NA propagation, na.rm, and imputation strategies.",
   "type": "lesson",
   "order": 18,
-  "duration": 25,
+  "duration": "25 min",
   "difficulty": "intermediate",
   "learning_objectives": [
     "Explain how NA propagates through calculations",

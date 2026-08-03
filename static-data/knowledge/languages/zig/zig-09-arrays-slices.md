@@ -4,7 +4,7 @@
   "description": "Fixed arrays, runtime slices, and bounds checking.",
   "type": "lesson",
   "order": 9,
-  "duration": 30,
+  "duration": "30 min",
   "difficulty": "intermediate",
   "learning_objectives": [
     "Create fixed-length arrays",

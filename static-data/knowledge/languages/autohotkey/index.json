@@ -109,22 +109,256 @@
   ],
   "lessons": [
     {
-      "slug": "fundamentals",
-      "title": "Fundamentals of AutoHotkey",
-      "description": "Core concepts, syntax, and first steps with AutoHotkey",
+      "slug": "autohotkey-01-getting-started",
+      "title": "Getting Started with AutoHotkey",
+      "description": "Install, hotkeys, and scripts.",
       "type": "lesson",
       "order": 1,
       "duration": "45 min",
-      "difficulty": "beginner"
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "autohotkey/autohotkey-01-getting-started"
+      ]
     },
     {
-      "slug": "practical-guide",
-      "title": "Practical AutoHotkey Guide",
-      "description": "Real-world usage, tooling, and ecosystem",
+      "slug": "autohotkey-02-hotkeys",
+      "title": "Hotkeys and Hotstrings",
+      "description": "Modifiers, triggers, and expansions.",
       "type": "lesson",
       "order": 2,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "autohotkey/autohotkey-02-hotkeys"
+      ]
+    },
+    {
+      "slug": "autohotkey-03-variables",
+      "title": "Variables and Expressions",
+      "description": "Store and manipulate data.",
+      "type": "lesson",
+      "order": 3,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "autohotkey/autohotkey-03-variables"
+      ]
+    },
+    {
+      "slug": "autohotkey-04-control-flow",
+      "title": "Control Flow",
+      "description": "if, else, switch.",
+      "type": "lesson",
+      "order": 4,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "autohotkey/autohotkey-04-control-flow"
+      ]
+    },
+    {
+      "slug": "autohotkey-05-loops",
+      "title": "Loops",
+      "description": "Iteration and repetition.",
+      "type": "lesson",
+      "order": 5,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "autohotkey/autohotkey-05-loops"
+      ]
+    },
+    {
+      "slug": "autohotkey-06-functions",
+      "title": "Functions",
+      "description": "Define and call functions.",
+      "type": "lesson",
+      "order": 6,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "autohotkey/autohotkey-06-functions"
+      ]
+    },
+    {
+      "slug": "autohotkey-07-windows",
+      "title": "Window Management",
+      "description": "Activate, close, and manipulate windows.",
+      "type": "lesson",
+      "order": 7,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "autohotkey/autohotkey-07-windows"
+      ]
+    },
+    {
+      "slug": "autohotkey-08-send",
+      "title": "Sending Keystrokes",
+      "description": "Send commands and input modes.",
+      "type": "lesson",
+      "order": 8,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "autohotkey/autohotkey-08-send"
+      ]
+    },
+    {
+      "slug": "autohotkey-09-clipboard",
+      "title": "Clipboard Manipulation",
+      "description": "Read, write, and transform clipboard.",
+      "type": "lesson",
+      "order": 9,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "autohotkey/autohotkey-09-clipboard"
+      ]
+    },
+    {
+      "slug": "autohotkey-10-files",
+      "title": "File Operations",
+      "description": "Read, write, and manage files.",
+      "type": "lesson",
+      "order": 10,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "autohotkey/autohotkey-10-files"
+      ]
+    },
+    {
+      "slug": "autohotkey-11-gui",
+      "title": "GUIs",
+      "description": "Build simple interfaces.",
+      "type": "lesson",
+      "order": 11,
       "duration": "60 min",
-      "difficulty": "intermediate"
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "autohotkey/autohotkey-11-gui"
+      ]
+    },
+    {
+      "slug": "autohotkey-12-arrays-objects",
+      "title": "Arrays and Objects",
+      "description": "Collections in v2.",
+      "type": "lesson",
+      "order": 12,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "autohotkey/autohotkey-12-arrays-objects"
+      ]
+    },
+    {
+      "slug": "autohotkey-13-string-functions",
+      "title": "String Functions",
+      "description": "Manipulate and transform text.",
+      "type": "lesson",
+      "order": 13,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "autohotkey/autohotkey-13-string-functions"
+      ]
+    },
+    {
+      "slug": "autohotkey-14-timers",
+      "title": "Timers",
+      "description": "Scheduled actions.",
+      "type": "lesson",
+      "order": 14,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "autohotkey/autohotkey-14-timers"
+      ]
+    },
+    {
+      "slug": "autohotkey-15-hotkeys-advanced",
+      "title": "Advanced Hotkeys",
+      "description": "Context-sensitive hotkeys and modes.",
+      "type": "lesson",
+      "order": 15,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "autohotkey/autohotkey-15-hotkeys-advanced"
+      ]
+    },
+    {
+      "slug": "autohotkey-16-imagesearch",
+      "title": "Image and Pixel Search",
+      "description": "Find on-screen images and colors.",
+      "type": "lesson",
+      "order": 16,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "autohotkey/autohotkey-16-imagesearch"
+      ]
+    },
+    {
+      "slug": "autohotkey-17-json-ini",
+      "title": "Configuration and JSON",
+      "description": "Persist settings.",
+      "type": "lesson",
+      "order": 17,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "autohotkey/autohotkey-17-json-ini"
+      ]
+    },
+    {
+      "slug": "autohotkey-18-error-handling",
+      "title": "Error Handling",
+      "description": "Try, catch, and validation.",
+      "type": "lesson",
+      "order": 18,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "autohotkey/autohotkey-18-error-handling"
+      ]
+    },
+    {
+      "slug": "autohotkey-19-running-programs",
+      "title": "Running Programs",
+      "description": "Launch apps and control processes.",
+      "type": "lesson",
+      "order": 19,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "autohotkey/autohotkey-19-running-programs"
+      ]
+    },
+    {
+      "slug": "autohotkey-20-ahk2",
+      "title": "AutoHotkey v2 Best Practices",
+      "description": "Modern idioms and structure.",
+      "type": "lesson",
+      "order": 20,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "autohotkey/autohotkey-20-ahk2"
+      ]
+    },
+    {
+      "slug": "autohotkey-21-ecosystem",
+      "title": "Ecosystem and Next Steps",
+      "description": "Libraries and community.",
+      "type": "lesson",
+      "order": 21,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "autohotkey/autohotkey-21-ecosystem"
+      ]
     }
   ]
 }

@@ -31,7 +31,7 @@
         {
           "title": "Groovy Development Kit (GDK)",
           "url": "https://groovy-lang.org/groovy-dev-kit.html",
-          "description": "Essential guide to Groovy enhancements over Java \u2014 I/O helpers, collection methods, and file management."
+          "description": "Essential guide to Groovy enhancements over Java — I/O helpers, collection methods, and file management."
         }
       ]
     },
@@ -40,7 +40,7 @@
       "icon": "code",
       "items": [
         {
-          "title": "Exercism \u2014 Groovy Track",
+          "title": "Exercism — Groovy Track",
           "url": "https://exercism.org/tracks/groovy",
           "description": "66 coding exercises from simple strings to advanced logic puzzles with mentoring."
         },
@@ -72,12 +72,12 @@
       "icon": "terminal",
       "items": [
         {
-          "title": "Exercism \u2014 Groovy Track",
+          "title": "Exercism — Groovy Track",
           "url": "https://exercism.org/tracks/groovy",
           "description": "Free practice with automated analysis and peer mentoring."
         },
         {
-          "title": "Codewars \u2014 Groovy Kata",
+          "title": "Codewars — Groovy Kata",
           "url": "https://www.codewars.com/",
           "description": "Solve community-created challenges in Groovy."
         }
@@ -120,7 +120,7 @@
           "description": "Official mailing lists and developer Slack channels."
         },
         {
-          "title": "Stack Overflow \u2014 Groovy Tag",
+          "title": "Stack Overflow — Groovy Tag",
           "url": "https://stackoverflow.com/questions/tagged/groovy",
           "description": "Q&A for Groovy, Gradle, and Jenkins pipeline questions."
         }
@@ -129,22 +129,256 @@
   ],
   "lessons": [
     {
-      "slug": "fundamentals",
-      "title": "Fundamentals of Groovy",
-      "description": "Core concepts, syntax, and first steps with Groovy",
+      "slug": "groovy-01-getting-started",
+      "title": "Getting Started with Groovy",
+      "description": "Install, run scripts, and hello world.",
       "type": "lesson",
       "order": 1,
       "duration": "45 min",
-      "difficulty": "beginner"
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "groovy/groovy-01-getting-started"
+      ]
     },
     {
-      "slug": "practical-guide",
-      "title": "Practical Groovy Guide",
-      "description": "Real-world usage, tooling, and ecosystem",
+      "slug": "groovy-02-variables",
+      "title": "Variables and Types",
+      "description": "Dynamic typing and type inference.",
       "type": "lesson",
       "order": 2,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "groovy/groovy-02-variables"
+      ]
+    },
+    {
+      "slug": "groovy-03-control-flow",
+      "title": "Control Flow",
+      "description": "Conditionals and loops.",
+      "type": "lesson",
+      "order": 3,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "groovy/groovy-03-control-flow"
+      ]
+    },
+    {
+      "slug": "groovy-04-lists",
+      "title": "Lists and Maps",
+      "description": "Groovy collection literals.",
+      "type": "lesson",
+      "order": 4,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "groovy/groovy-04-lists"
+      ]
+    },
+    {
+      "slug": "groovy-05-closures",
+      "title": "Closures",
+      "description": "First-class functions.",
+      "type": "lesson",
+      "order": 5,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "groovy/groovy-05-closures"
+      ]
+    },
+    {
+      "slug": "groovy-06-strings",
+      "title": "String Handling",
+      "description": "String methods and templates.",
+      "type": "lesson",
+      "order": 6,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "groovy/groovy-06-strings"
+      ]
+    },
+    {
+      "slug": "groovy-07-classes",
+      "title": "Classes and Traits",
+      "description": "OOP in Groovy.",
+      "type": "lesson",
+      "order": 7,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "groovy/groovy-07-classes"
+      ]
+    },
+    {
+      "slug": "groovy-08-optional-dot",
+      "title": "Safe Navigation and Null Handling",
+      "description": "Null-safe operators.",
+      "type": "lesson",
+      "order": 8,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "groovy/groovy-08-optional-dot"
+      ]
+    },
+    {
+      "slug": "groovy-09-metaprogramming",
+      "title": "Metaprogramming",
+      "description": "Runtime method magic.",
+      "type": "lesson",
+      "order": 9,
       "duration": "60 min",
-      "difficulty": "intermediate"
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "groovy/groovy-09-metaprogramming"
+      ]
+    },
+    {
+      "slug": "groovy-10-gpars",
+      "title": "Concurrency with GPars",
+      "description": "Parallel and async programming.",
+      "type": "lesson",
+      "order": 10,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "groovy/groovy-10-gpars"
+      ]
+    },
+    {
+      "slug": "groovy-11-io",
+      "title": "File I/O",
+      "description": "Groovy file helpers.",
+      "type": "lesson",
+      "order": 11,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "groovy/groovy-11-io"
+      ]
+    },
+    {
+      "slug": "groovy-12-json",
+      "title": "JSON and XML",
+      "description": "Data interchange.",
+      "type": "lesson",
+      "order": 12,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "groovy/groovy-12-json"
+      ]
+    },
+    {
+      "slug": "groovy-13-groovysh",
+      "title": "Scripting and groovysh",
+      "description": "REPL and script tools.",
+      "type": "lesson",
+      "order": 13,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "groovy/groovy-13-groovysh"
+      ]
+    },
+    {
+      "slug": "groovy-14-templates",
+      "title": "Templates",
+      "description": "Text and HTML generation.",
+      "type": "lesson",
+      "order": 14,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "groovy/groovy-14-templates"
+      ]
+    },
+    {
+      "slug": "groovy-15-gradle",
+      "title": "Gradle Builds",
+      "description": "Build automation with Groovy DSL.",
+      "type": "lesson",
+      "order": 15,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "groovy/groovy-15-gradle"
+      ]
+    },
+    {
+      "slug": "groovy-16-spock",
+      "title": "Testing with Spock",
+      "description": "BDD-style testing framework.",
+      "type": "lesson",
+      "order": 16,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "groovy/groovy-16-spock"
+      ]
+    },
+    {
+      "slug": "groovy-17-grails",
+      "title": "Web Development with Grails",
+      "description": "Full-stack web framework.",
+      "type": "lesson",
+      "order": 17,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "groovy/groovy-17-grails"
+      ]
+    },
+    {
+      "slug": "groovy-18-ratpack",
+      "title": "Ratpack and Microservices",
+      "description": "Lightweight web services.",
+      "type": "lesson",
+      "order": 18,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "groovy/groovy-18-ratpack"
+      ]
+    },
+    {
+      "slug": "groovy-19-categories",
+      "title": "Categories",
+      "description": "Scoped method injection.",
+      "type": "lesson",
+      "order": 19,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "groovy/groovy-19-categories"
+      ]
+    },
+    {
+      "slug": "groovy-20-ast",
+      "title": "AST Transformations",
+      "description": "Compile-time code generation.",
+      "type": "lesson",
+      "order": 20,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "groovy/groovy-20-ast"
+      ]
+    },
+    {
+      "slug": "groovy-21-ecosystem",
+      "title": "Ecosystem and Next Steps",
+      "description": "Libraries and community.",
+      "type": "lesson",
+      "order": 21,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "groovy/groovy-21-ecosystem"
+      ]
     }
   ]
 }

@@ -4,7 +4,7 @@
   "description": "Atomic vectors, naming, logical subsetting, and sequences.",
   "type": "lesson",
   "order": 6,
-  "duration": 30,
+  "duration": "30 min",
   "difficulty": "beginner",
   "learning_objectives": [
     "Create and index vectors (1-based indexing)",

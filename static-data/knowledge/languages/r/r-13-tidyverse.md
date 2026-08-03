@@ -4,7 +4,7 @@
   "description": "dplyr, ggplot2, readr, and tidyr — the modern R.",
   "type": "lesson",
   "order": 13,
-  "duration": 30,
+  "duration": "30 min",
   "difficulty": "intermediate",
   "learning_objectives": [
     "Install and load the tidyverse",

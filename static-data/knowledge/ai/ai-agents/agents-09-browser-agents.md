@@ -1,0 +1,118 @@
+---
+{
+  "title": "Browser Automation Agents",
+  "description": "Agents that browse the web: navigation, form filling and screenshots.",
+  "type": "lesson",
+  "order": 9,
+  "duration": "55 min",
+  "difficulty": "advanced",
+  "learning_objectives": [
+    "Explain the browser agent pattern",
+    "Navigate and extract page content",
+    "Interact with forms",
+    "Handle login walls and captchas safely"
+  ],
+  "knowledge_refs": [
+    "ai-agents/agents-09-browser-agents"
+  ],
+  "prerequisites": [
+    "AGENTS-08: Building a Research Agent"
+  ],
+  "references": [
+    {
+      "title": "LangChain Agents",
+      "url": "https://python.langchain.com/docs/how_to/#agents",
+      "description": "Agent frameworks, tools and memory patterns."
+    },
+    {
+      "title": "OpenAI Agents Documentation",
+      "url": "https://platform.openai.com/docs/guides/agents",
+      "description": "Function calling and agent loop patterns."
+    },
+    {
+      "title": "ReAct: Synergizing Reasoning and Acting",
+      "url": "https://arxiv.org/abs/2210.03629",
+      "description": "The paper behind reasoning-acting agent loops."
+    },
+    {
+      "title": "Anthropic — Building Effective Agents",
+      "url": "https://www.anthropic.com/research/building-effective-agents",
+      "description": "A practical guide to agent architecture."
+    },
+    {
+      "title": "CrewAI Documentation",
+      "url": "https://docs.crewai.com/",
+      "description": "Multi-agent orchestration framework."
+    }
+  ]
+}
+---
+
+# AGENTS-09-BROWSER-AGENTS: Browser Automation Agents
+
+## Introduction
+
+Agents that browse the web: navigation, form filling and screenshots. By the end of this lesson you will be able to: Explain the browser agent pattern; Navigate and extract page content; Interact with forms; Handle login walls and captchas safely.
+
+## Key Concepts
+
+### 1. Explain the browser agent pattern
+
+Target: Explain the browser agent pattern. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+
+```python
+from playwright.sync_api import sync_playwright
+
+with sync_playwright() as p:
+    browser = p.chromium.launch()
+    page = browser.new_page()
+    page.goto("https://example.com")
+    print("title:", page.title())
+    browser.close()
+```
+### 2. Navigate and extract page content
+
+Target: Navigate and extract page content. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+
+```python
+import requests
+
+html = requests.get("https://example.com").text
+print("fetched", len(html), "chars")
+```
+### 3. Interact with forms
+
+Target: Interact with forms. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+
+```python
+print("act: click, type, submit — then observe the result")
+```
+### 4. Handle login walls and captchas safely
+
+Target: Handle login walls and captchas safely. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+
+```python
+print("rate limits and consent matter; respect robots.txt")
+```
+
+## Practice Questions
+
+1. What is the key idea behind "Browser Automation Agents"?
+1. Write a small program that exercises at least two concepts from this lesson.
+1. How would you explain this topic to a fellow developer in one paragraph?
+
+## LLM Prompts for Deeper Understanding
+
+1. "Explain Browser Automation Agents with analogies and real-world examples"
+1. "Show me common mistakes beginners make with Browser Automation Agents"
+1. "Provide advanced patterns and performance considerations for Browser Automation Agents"
+
+## Key Takeaways
+
+- Master the core ideas of Browser Automation Agents through practice
+- Combine this lesson with prior lessons to build real programs
+- Explore the linked official documentation for authoritative depth
+
+## Further Reading
+
+Dive deeper into this topic using the reference resources listed in the frontmatter.

@@ -4,7 +4,7 @@
   "description": "test blocks, expect, expectError, and test organization.",
   "type": "lesson",
   "order": 19,
-  "duration": 30,
+  "duration": "30 min",
   "difficulty": "intermediate",
   "learning_objectives": [
     "Write test blocks run with zig test",

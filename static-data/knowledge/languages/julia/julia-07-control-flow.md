@@ -4,7 +4,7 @@
   "description": "if/elseif, ternary, short-circuit, and loops.",
   "type": "lesson",
   "order": 7,
-  "duration": 25,
+  "duration": "25 min",
   "difficulty": "beginner",
   "learning_objectives": [
     "Write conditional branches with if/elseif/else",

@@ -1,0 +1,303 @@
+{
+  "slug": "ai-agents",
+  "name": "AI Agents",
+  "description": "Design agents that reason, use tools and act: agent loops, tool use, memory, planning, multi-agent systems and agent frameworks.",
+  "categories": [
+    {
+      "label": "Free Courses & Guides",
+      "icon": "book",
+      "items": [
+        {
+          "title": "Anthropic — Building Effective Agents",
+          "url": "https://www.anthropic.com/research/building-effective-agents",
+          "description": "The canonical essay on agent architectures and patterns."
+        },
+        {
+          "title": "OpenAI — A Practical Guide to Building Agents",
+          "url": "https://cdn.openai.com/business-guides-and-resources/a-practical-guide-to-building-agents.pdf",
+          "description": "Production agent patterns: delegation, orchestration, guardrails."
+        },
+        {
+          "title": "DeepLearning.AI — AI Agents in LangGraph",
+          "url": "https://www.deeplearning.ai/short-courses/",
+          "description": "Hands-on agent building with graph-based orchestration."
+        }
+      ]
+    },
+    {
+      "label": "Official Documentation",
+      "icon": "docs",
+      "items": [
+        {
+          "title": "LangGraph Documentation",
+          "url": "https://langchain-ai.github.io/langgraph/",
+          "description": "Low-level orchestration framework for agent state machines."
+        },
+        {
+          "title": "CrewAI Documentation",
+          "url": "https://docs.crewai.com/",
+          "description": "Role-based multi-agent framework."
+        },
+        {
+          "title": "OpenAI Agents SDK",
+          "url": "https://openai.github.io/openai-agents-python/",
+          "description": "Lightweight agent framework with handoffs and guardrails."
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "agents-01-what-are-ai-agents",
+      "title": "What Are AI Agents?",
+      "description": "Autonomous systems that perceive, reason, act and observe — the agent loop explained.",
+      "type": "lesson",
+      "order": 1,
+      "duration": "40 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "ai-agents/agents-01-what-are-ai-agents"
+      ]
+    },
+    {
+      "slug": "agents-02-agent-architecture",
+      "title": "Agent Architecture",
+      "description": "The anatomy of an agent: model, tools, memory, planner and executor.",
+      "type": "lesson",
+      "order": 2,
+      "duration": "55 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "ai-agents/agents-02-agent-architecture"
+      ]
+    },
+    {
+      "slug": "agents-03-tool-use",
+      "title": "Tool Use & Function Calling",
+      "description": "Give agents real capabilities with typed tools and safe execution.",
+      "type": "lesson",
+      "order": 3,
+      "duration": "55 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "ai-agents/agents-03-tool-use"
+      ]
+    },
+    {
+      "slug": "agents-04-reasoning-and-planning",
+      "title": "Reasoning & Planning (ReAct)",
+      "description": "Interleave thought, action and observation — the ReAct pattern that powers modern agents.",
+      "type": "lesson",
+      "order": 4,
+      "duration": "55 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "ai-agents/agents-04-reasoning-and-planning"
+      ]
+    },
+    {
+      "slug": "agents-05-memory-systems",
+      "title": "Agent Memory Systems",
+      "description": "Working memory, long-term memory and retrieval — state that persists across turns.",
+      "type": "lesson",
+      "order": 5,
+      "duration": "55 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "ai-agents/agents-05-memory-systems"
+      ]
+    },
+    {
+      "slug": "agents-06-multi-agent-systems",
+      "title": "Multi-Agent Systems",
+      "description": "Specialized agents that collaborate: orchestrators, workers and handoffs.",
+      "type": "lesson",
+      "order": 6,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "ai-agents/agents-06-multi-agent-systems"
+      ]
+    },
+    {
+      "slug": "agents-07-langchain-agents",
+      "title": "Building Agents with LangChain",
+      "description": "Compose agents with the LangChain ecosystem: tools, memory and executors.",
+      "type": "lesson",
+      "order": 7,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "ai-agents/agents-07-langchain-agents"
+      ]
+    },
+    {
+      "slug": "agents-08-research-agents",
+      "title": "Building a Research Agent",
+      "description": "A practical build: gather sources, synthesize findings, cite everything.",
+      "type": "lesson",
+      "order": 8,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "ai-agents/agents-08-research-agents"
+      ]
+    },
+    {
+      "slug": "agents-09-browser-agents",
+      "title": "Browser Automation Agents",
+      "description": "Agents that browse the web: navigation, form filling and screenshots.",
+      "type": "lesson",
+      "order": 9,
+      "duration": "55 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "ai-agents/agents-09-browser-agents"
+      ]
+    },
+    {
+      "slug": "agents-10-coding-agents",
+      "title": "Coding Agents",
+      "description": "Agents that read, edit and run code: repo context, patch generation and verification.",
+      "type": "lesson",
+      "order": 10,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "ai-agents/agents-10-coding-agents"
+      ]
+    },
+    {
+      "slug": "agents-11-rag-agents",
+      "title": "RAG Agents",
+      "description": "Agents that decide when and what to retrieve — retrieval as a tool, not a fixed step.",
+      "type": "lesson",
+      "order": 11,
+      "duration": "55 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "ai-agents/agents-11-rag-agents"
+      ]
+    },
+    {
+      "slug": "agents-12-evaluating-agents",
+      "title": "Evaluating Agents",
+      "description": "Measure agent quality: task success, trajectory quality and cost.",
+      "type": "lesson",
+      "order": 12,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "ai-agents/agents-12-evaluating-agents"
+      ]
+    },
+    {
+      "slug": "agents-13-safety-and-control",
+      "title": "Agent Safety & Control",
+      "description": "Constrain autonomy: limits, approvals, sandboxes and fail-safes.",
+      "type": "lesson",
+      "order": 13,
+      "duration": "55 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "ai-agents/agents-13-safety-and-control"
+      ]
+    },
+    {
+      "slug": "agents-14-human-in-the-loop",
+      "title": "Human-in-the-Loop Patterns",
+      "description": "Design agents that escalate and collaborate with people instead of acting alone.",
+      "type": "lesson",
+      "order": 14,
+      "duration": "50 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "ai-agents/agents-14-human-in-the-loop"
+      ]
+    },
+    {
+      "slug": "agents-15-agent-observability",
+      "title": "Agent Observability",
+      "description": "Trace every thought, tool call and step — because agents fail in the middle, not the end.",
+      "type": "lesson",
+      "order": 15,
+      "duration": "55 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "ai-agents/agents-15-agent-observability"
+      ]
+    },
+    {
+      "slug": "agents-16-deploying-agents",
+      "title": "Deploying Agents",
+      "description": "Run agents as services: queues, timeouts, scaling and versioning.",
+      "type": "lesson",
+      "order": 16,
+      "duration": "55 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "ai-agents/agents-16-deploying-agents"
+      ]
+    },
+    {
+      "slug": "agents-17-agent-design-patterns",
+      "title": "Agent Design Patterns",
+      "description": "Reusable blueprints: reflection, tool use, planning, multi-agent collaboration.",
+      "type": "lesson",
+      "order": 17,
+      "duration": "55 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "ai-agents/agents-17-agent-design-patterns"
+      ]
+    },
+    {
+      "slug": "agents-18-enterprise-agents",
+      "title": "Enterprise Agent Applications",
+      "description": "Support, HR, finance and knowledge agents inside real organizations.",
+      "type": "lesson",
+      "order": 18,
+      "duration": "55 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "ai-agents/agents-18-enterprise-agents"
+      ]
+    },
+    {
+      "slug": "agents-19-agent-cost-and-scale",
+      "title": "Agent Cost & Scale",
+      "description": "Make agents affordable: token budgets, model routing and parallel workers.",
+      "type": "lesson",
+      "order": 19,
+      "duration": "50 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "ai-agents/agents-19-agent-cost-and-scale"
+      ]
+    },
+    {
+      "slug": "agents-20-future-of-agents",
+      "title": "The Future of Agents",
+      "description": "Long-horizon tasks, self-improvement and the research frontier.",
+      "type": "lesson",
+      "order": 20,
+      "duration": "50 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "ai-agents/agents-20-future-of-agents"
+      ]
+    },
+    {
+      "slug": "agents-21-roadmap",
+      "title": "AI Agents Roadmap",
+      "description": "Synthesize the course into a build plan: ship agents, measure them, iterate.",
+      "type": "lesson",
+      "order": 21,
+      "duration": "40 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "ai-agents/agents-21-roadmap"
+      ]
+    }
+  ]
+}

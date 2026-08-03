@@ -1,0 +1,303 @@
+{
+  "slug": "machine-learning",
+  "name": "Machine Learning",
+  "description": "Supervised and unsupervised learning with scikit-learn: regression, trees, ensembles, SVMs, clustering and the math underneath.",
+  "categories": [
+    {
+      "label": "Free Courses & Guides",
+      "icon": "book",
+      "items": [
+        {
+          "title": "scikit-learn User Guide",
+          "url": "https://scikit-learn.org/stable/user_guide.html",
+          "description": "The authoritative guide to the Python ML toolbox."
+        },
+        {
+          "title": "Hands-On Machine Learning — Géron",
+          "url": "https://github.com/ageron/handson-ml3",
+          "description": "Practical ML with scikit-learn, Keras and TensorFlow."
+        },
+        {
+          "title": "Andrew Ng — ML Specialization",
+          "url": "https://www.coursera.org/specializations/machine-learning-introduction",
+          "description": "The most popular introductory ML course in the world."
+        }
+      ]
+    },
+    {
+      "label": "Official Documentation",
+      "icon": "docs",
+      "items": [
+        {
+          "title": "The Elements of Statistical Learning",
+          "url": "https://hastie.su.domains/ElemStatLearn/",
+          "description": "The classic statistical-learning reference (free PDF)."
+        },
+        {
+          "title": "Kaggle — Intro to Machine Learning",
+          "url": "https://www.kaggle.com/learn/intro-to-machine-learning",
+          "description": "Hands-on micro-course for the fundamentals."
+        },
+        {
+          "title": "XGBoost Documentation",
+          "url": "https://xgboost.readthedocs.io/",
+          "description": "Docs for the gradient-boosting workhorse."
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "ml-01-what-is-machine-learning",
+      "title": "What Is Machine Learning?",
+      "description": "Define machine learning, contrast it with rules-based programming, and survey where ML wins in production.",
+      "type": "lesson",
+      "order": 1,
+      "duration": "40 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "machine-learning/ml-01-what-is-machine-learning"
+      ]
+    },
+    {
+      "slug": "ml-02-types-of-learning",
+      "title": "Types of Learning",
+      "description": "Supervised, unsupervised and reinforcement learning — and the sub-tasks that fall under each.",
+      "type": "lesson",
+      "order": 2,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "machine-learning/ml-02-types-of-learning"
+      ]
+    },
+    {
+      "slug": "ml-03-the-learning-problem",
+      "title": "The Learning Problem",
+      "description": "Formalize what a model learns: features, targets, hypotheses and loss — the vocabulary of every ML paper.",
+      "type": "lesson",
+      "order": 3,
+      "duration": "50 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "machine-learning/ml-03-the-learning-problem"
+      ]
+    },
+    {
+      "slug": "ml-04-python-ml-stack",
+      "title": "The Python ML Stack",
+      "description": "Get fluent with scikit-learn: estimators, fit/predict, pipelines, and the dataset zoo used everywhere.",
+      "type": "lesson",
+      "order": 4,
+      "duration": "50 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "machine-learning/ml-04-python-ml-stack"
+      ]
+    },
+    {
+      "slug": "ml-05-linear-regression",
+      "title": "Linear Regression",
+      "description": "The workhorse of prediction: least squares, multiple predictors, and interpreting coefficients.",
+      "type": "lesson",
+      "order": 5,
+      "duration": "55 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "machine-learning/ml-05-linear-regression"
+      ]
+    },
+    {
+      "slug": "ml-06-gradient-descent",
+      "title": "Gradient Descent",
+      "description": "The optimization loop under every model: compute the gradient, step downhill, repeat.",
+      "type": "lesson",
+      "order": 6,
+      "duration": "55 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "machine-learning/ml-06-gradient-descent"
+      ]
+    },
+    {
+      "slug": "ml-07-logistic-regression",
+      "title": "Logistic Regression",
+      "description": "Probability for classification: the sigmoid, log loss, and decision boundaries that stay interpretable.",
+      "type": "lesson",
+      "order": 7,
+      "duration": "55 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "machine-learning/ml-07-logistic-regression"
+      ]
+    },
+    {
+      "slug": "ml-08-decision-trees",
+      "title": "Decision Trees",
+      "description": "Greedy splits, impurity, and why trees are the most interpretable nonlinear models.",
+      "type": "lesson",
+      "order": 8,
+      "duration": "55 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "machine-learning/ml-08-decision-trees"
+      ]
+    },
+    {
+      "slug": "ml-09-ensemble-methods",
+      "title": "Ensemble Methods: Bagging & Random Forests",
+      "description": "Combine many weak models into one strong predictor with bagging and random forests.",
+      "type": "lesson",
+      "order": 9,
+      "duration": "55 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "machine-learning/ml-09-ensemble-methods"
+      ]
+    },
+    {
+      "slug": "ml-10-gradient-boosting",
+      "title": "Gradient Boosting",
+      "description": "Boosted trees — the tabular-data champion — fit sequentially to the mistakes of previous models.",
+      "type": "lesson",
+      "order": 10,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "machine-learning/ml-10-gradient-boosting"
+      ]
+    },
+    {
+      "slug": "ml-11-support-vector-machines",
+      "title": "Support Vector Machines",
+      "description": "Max-margin classification, the kernel trick, and when SVMs beat other models.",
+      "type": "lesson",
+      "order": 11,
+      "duration": "55 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "machine-learning/ml-11-support-vector-machines"
+      ]
+    },
+    {
+      "slug": "ml-12-k-nearest-neighbors",
+      "title": "K-Nearest Neighbors",
+      "description": "The simplest nonparametric model: predict by voting among the closest training points.",
+      "type": "lesson",
+      "order": 12,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "machine-learning/ml-12-k-nearest-neighbors"
+      ]
+    },
+    {
+      "slug": "ml-13-naive-bayes",
+      "title": "Naive Bayes",
+      "description": "Bayes' rule applied to text and beyond — fast, simple, and shockingly effective on the right problems.",
+      "type": "lesson",
+      "order": 13,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "machine-learning/ml-13-naive-bayes"
+      ]
+    },
+    {
+      "slug": "ml-14-feature-scaling-and-selection",
+      "title": "Feature Scaling & Selection",
+      "description": "Prepare features so models learn well: scaling, encoding, selection, and dropping noise.",
+      "type": "lesson",
+      "order": 14,
+      "duration": "55 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "machine-learning/ml-14-feature-scaling-and-selection"
+      ]
+    },
+    {
+      "slug": "ml-15-regularization",
+      "title": "Regularization",
+      "description": "Penalize complexity: L1 and L2 regularization, and the bias-variance trade-off made concrete.",
+      "type": "lesson",
+      "order": 15,
+      "duration": "55 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "machine-learning/ml-15-regularization"
+      ]
+    },
+    {
+      "slug": "ml-16-cross-validation",
+      "title": "Cross-Validation",
+      "description": "k-fold cross-validation gives a more honest error estimate than a single split — and catches tuning leaks.",
+      "type": "lesson",
+      "order": 16,
+      "duration": "55 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "machine-learning/ml-16-cross-validation"
+      ]
+    },
+    {
+      "slug": "ml-17-hyperparameter-tuning",
+      "title": "Hyperparameter Tuning",
+      "description": "Search parameter space systematically with grid, random and Bayesian strategies — without leaking into the test set.",
+      "type": "lesson",
+      "order": 17,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "machine-learning/ml-17-hyperparameter-tuning"
+      ]
+    },
+    {
+      "slug": "ml-18-classification-metrics",
+      "title": "Classification Metrics Deep Dive",
+      "description": "Precision, recall, F1, ROC curves and calibration — choose the metric that matches the business cost.",
+      "type": "lesson",
+      "order": 18,
+      "duration": "55 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "machine-learning/ml-18-classification-metrics"
+      ]
+    },
+    {
+      "slug": "ml-19-kmeans-clustering",
+      "title": "K-Means & Clustering",
+      "description": "Cluster unlabeled data with k-means, pick k responsibly, and interpret clusters as business segments.",
+      "type": "lesson",
+      "order": 19,
+      "duration": "50 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "machine-learning/ml-19-kmeans-clustering"
+      ]
+    },
+    {
+      "slug": "ml-20-dimensionality-reduction",
+      "title": "Dimensionality Reduction with PCA",
+      "description": "Project high-dimensional data onto its principal components — for visualization, denoising and speed.",
+      "type": "lesson",
+      "order": 20,
+      "duration": "55 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "machine-learning/ml-20-dimensionality-reduction"
+      ]
+    },
+    {
+      "slug": "ml-21-roadmap",
+      "title": "Machine Learning Roadmap",
+      "description": "Synthesize the course, plan the next projects, and chart the path into deep learning and production ML.",
+      "type": "lesson",
+      "order": 21,
+      "duration": "40 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "machine-learning/ml-21-roadmap"
+      ]
+    }
+  ]
+}

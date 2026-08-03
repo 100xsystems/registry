@@ -4,7 +4,7 @@
   "description": "Core types: integers, floats, booleans, chars, strings.",
   "type": "lesson",
   "order": 2,
-  "duration": 25,
+  "duration": "25 min",
   "difficulty": "beginner",
   "learning_objectives": [
     "Identify the core scalar types in Julia",

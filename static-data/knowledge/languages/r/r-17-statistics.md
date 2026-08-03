@@ -4,7 +4,7 @@
   "description": "Sampling, distributions, summaries, and hypothesis tests.",
   "type": "lesson",
   "order": 17,
-  "duration": 30,
+  "duration": "30 min",
   "difficulty": "intermediate",
   "learning_objectives": [
     "Sample data with sample() and set.seed()",

@@ -4,7 +4,7 @@
   "description": "First-class functions, environments, S3 and S4 classes.",
   "type": "lesson",
   "order": 20,
-  "duration": 40,
+  "duration": "40 min",
   "difficulty": "expert",
   "learning_objectives": [
     "Pass functions as arguments",

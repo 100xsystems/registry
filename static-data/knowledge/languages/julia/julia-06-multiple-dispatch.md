@@ -4,7 +4,7 @@
   "description": "Method definitions, abstract types, and dispatch specificity.",
   "type": "lesson",
   "order": 6,
-  "duration": 35,
+  "duration": "35 min",
   "difficulty": "intermediate",
   "learning_objectives": [
     "Define multiple methods for the same function name",

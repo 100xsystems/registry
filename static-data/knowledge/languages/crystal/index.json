@@ -57,7 +57,7 @@
       "icon": "terminal",
       "items": [
         {
-          "title": "Exercism \u2014 Crystal Track",
+          "title": "Exercism — Crystal Track",
           "url": "https://exercism.org/tracks/crystal",
           "description": "Free coding exercises for learning Crystal with mentoring."
         }
@@ -109,22 +109,256 @@
   ],
   "lessons": [
     {
-      "slug": "fundamentals",
-      "title": "Fundamentals of Crystal",
-      "description": "Core concepts, syntax, and first steps with Crystal",
+      "slug": "crystal-01-getting-started",
+      "title": "Getting Started with Crystal",
+      "description": "Install, compile, and run Crystal.",
       "type": "lesson",
       "order": 1,
       "duration": "45 min",
-      "difficulty": "beginner"
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "crystal/crystal-01-getting-started"
+      ]
     },
     {
-      "slug": "practical-guide",
-      "title": "Practical Crystal Guide",
-      "description": "Real-world usage, tooling, and ecosystem",
+      "slug": "crystal-02-variables",
+      "title": "Variables and Types",
+      "description": "Type inference, unions, and constants.",
       "type": "lesson",
       "order": 2,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "crystal/crystal-02-variables"
+      ]
+    },
+    {
+      "slug": "crystal-03-control-flow",
+      "title": "Control Flow",
+      "description": "if, unless, case, and loops.",
+      "type": "lesson",
+      "order": 3,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "crystal/crystal-03-control-flow"
+      ]
+    },
+    {
+      "slug": "crystal-04-strings",
+      "title": "Strings and Interpolation",
+      "description": "String ops, interpolation, and heredocs.",
+      "type": "lesson",
+      "order": 4,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "crystal/crystal-04-strings"
+      ]
+    },
+    {
+      "slug": "crystal-05-arrays",
+      "title": "Arrays and Tuples",
+      "description": "Collections and tuple types.",
+      "type": "lesson",
+      "order": 5,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "crystal/crystal-05-arrays"
+      ]
+    },
+    {
+      "slug": "crystal-06-hashes",
+      "title": "Hashes and Sets",
+      "description": "Key-value storage.",
+      "type": "lesson",
+      "order": 6,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "crystal/crystal-06-hashes"
+      ]
+    },
+    {
+      "slug": "crystal-07-methods",
+      "title": "Methods",
+      "description": "Define methods with args and returns.",
+      "type": "lesson",
+      "order": 7,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "crystal/crystal-07-methods"
+      ]
+    },
+    {
+      "slug": "crystal-08-classes",
+      "title": "Classes",
+      "description": "OOP with classes and accessors.",
+      "type": "lesson",
+      "order": 8,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "crystal/crystal-08-classes"
+      ]
+    },
+    {
+      "slug": "crystal-09-modules",
+      "title": "Modules and Mixins",
+      "description": "Code reuse with modules.",
+      "type": "lesson",
+      "order": 9,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "crystal/crystal-09-modules"
+      ]
+    },
+    {
+      "slug": "crystal-10-enums",
+      "title": "Enums",
+      "description": "Typed enumerations.",
+      "type": "lesson",
+      "order": 10,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "crystal/crystal-10-enums"
+      ]
+    },
+    {
+      "slug": "crystal-11-exceptions",
+      "title": "Exceptions",
+      "description": "Raise and rescue errors.",
+      "type": "lesson",
+      "order": 11,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "crystal/crystal-11-exceptions"
+      ]
+    },
+    {
+      "slug": "crystal-12-blocks",
+      "title": "Blocks and Procs",
+      "description": "Higher-order functions.",
+      "type": "lesson",
+      "order": 12,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "crystal/crystal-12-blocks"
+      ]
+    },
+    {
+      "slug": "crystal-13-io",
+      "title": "File and Standard IO",
+      "description": "Read and write files.",
+      "type": "lesson",
+      "order": 13,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "crystal/crystal-13-io"
+      ]
+    },
+    {
+      "slug": "crystal-14-generics",
+      "title": "Generics",
+      "description": "Type-parameterized code.",
+      "type": "lesson",
+      "order": 14,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "crystal/crystal-14-generics"
+      ]
+    },
+    {
+      "slug": "crystal-15-concurrency",
+      "title": "Fibers and Channels",
+      "description": "Green threads and CSP.",
+      "type": "lesson",
+      "order": 15,
       "duration": "60 min",
-      "difficulty": "intermediate"
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "crystal/crystal-15-concurrency"
+      ]
+    },
+    {
+      "slug": "crystal-16-macros",
+      "title": "Macros",
+      "description": "Compile-time metaprogramming.",
+      "type": "lesson",
+      "order": 16,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "crystal/crystal-16-macros"
+      ]
+    },
+    {
+      "slug": "crystal-17-web",
+      "title": "Web Servers with Kemal",
+      "description": "Build HTTP services.",
+      "type": "lesson",
+      "order": 17,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "crystal/crystal-17-web"
+      ]
+    },
+    {
+      "slug": "crystal-18-http-client",
+      "title": "HTTP Clients and JSON",
+      "description": "Consume APIs from Crystal.",
+      "type": "lesson",
+      "order": 18,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "crystal/crystal-18-http-client"
+      ]
+    },
+    {
+      "slug": "crystal-19-db",
+      "title": "Database Access",
+      "description": "SQLite and Postgres with Crystal.",
+      "type": "lesson",
+      "order": 19,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "crystal/crystal-19-db"
+      ]
+    },
+    {
+      "slug": "crystal-20-testing",
+      "title": "Testing with Spec",
+      "description": "Unit and integration tests.",
+      "type": "lesson",
+      "order": 20,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "crystal/crystal-20-testing"
+      ]
+    },
+    {
+      "slug": "crystal-21-ecosystem",
+      "title": "Ecosystem and Next Steps",
+      "description": "Shards, community, and production use.",
+      "type": "lesson",
+      "order": 21,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "crystal/crystal-21-ecosystem"
+      ]
     }
   ]
 }

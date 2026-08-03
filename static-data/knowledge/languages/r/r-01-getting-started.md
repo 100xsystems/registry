@@ -4,7 +4,7 @@
   "description": "Console, scripts, RStudio, and the R execution model.",
   "type": "lesson",
   "order": 1,
-  "duration": 20,
+  "duration": "20 min",
   "difficulty": "beginner",
   "learning_objectives": [
     "Run R code in the console and from scripts",

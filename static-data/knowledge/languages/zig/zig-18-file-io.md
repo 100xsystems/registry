@@ -4,7 +4,7 @@
   "description": "Reading, writing, and iterating with std.fs.",
   "type": "lesson",
   "order": 18,
-  "duration": 30,
+  "duration": "30 min",
   "difficulty": "intermediate",
   "learning_objectives": [
     "Read files with readFileAlloc",

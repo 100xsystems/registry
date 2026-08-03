@@ -1,0 +1,303 @@
+{
+  "slug": "reinforcement-learning",
+  "name": "Reinforcement Learning",
+  "description": "From MDPs and dynamic programming to DQN, PPO and multi-agent systems — the complete guide to agents that learn from outcomes.",
+  "categories": [
+    {
+      "label": "Free Courses & Guides",
+      "icon": "book",
+      "items": [
+        {
+          "title": "Reinforcement Learning: An Introduction — Sutton & Barto",
+          "url": "http://incompleteideas.net/book/the-book-2nd.html",
+          "description": "The canonical RL textbook (free PDF)."
+        },
+        {
+          "title": "Spinning Up in Deep RL — OpenAI",
+          "url": "https://spinningup.openai.com/en/latest/",
+          "description": "A practitioner-focused deep RL resource with clean implementations."
+        },
+        {
+          "title": "RL Course by David Silver",
+          "url": "https://www.davidsilver.uk/teaching/",
+          "description": "The classic lecture series on RL fundamentals."
+        }
+      ]
+    },
+    {
+      "label": "Official Documentation",
+      "icon": "docs",
+      "items": [
+        {
+          "title": "Stable-Baselines3 Documentation",
+          "url": "https://stable-baselines3.readthedocs.io/",
+          "description": "Reliable RL algorithm implementations in PyTorch."
+        },
+        {
+          "title": "Gymnasium Documentation",
+          "url": "https://gymnasium.farama.org/",
+          "description": "The standard API for RL environments."
+        },
+        {
+          "title": "DeepMind x UCL RL Lecture Series",
+          "url": "https://www.deepmind.com/learning-resources/reinforcement-learning-lectures-by-david-silver",
+          "description": "Advanced RL topics from DeepMind researchers."
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "rl-01-what-is-reinforcement-learning",
+      "title": "What Is Reinforcement Learning?",
+      "description": "Agents, environments, rewards and the trial-and-error loop that powers RL.",
+      "type": "lesson",
+      "order": 1,
+      "duration": "40 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "reinforcement-learning/rl-01-what-is-reinforcement-learning"
+      ]
+    },
+    {
+      "slug": "rl-02-markov-decision-processes",
+      "title": "Markov Decision Processes",
+      "description": "The formal framework: states, actions, transitions, rewards and the Markov property.",
+      "type": "lesson",
+      "order": 2,
+      "duration": "55 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "reinforcement-learning/rl-02-markov-decision-processes"
+      ]
+    },
+    {
+      "slug": "rl-03-dynamic-programming",
+      "title": "Dynamic Programming",
+      "description": "Solve MDPs exactly with policy evaluation, policy iteration and value iteration.",
+      "type": "lesson",
+      "order": 3,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "reinforcement-learning/rl-03-dynamic-programming"
+      ]
+    },
+    {
+      "slug": "rl-04-monte-carlo-methods",
+      "title": "Monte Carlo Methods",
+      "description": "Learn from complete episodes: average returns to estimate state values without a model.",
+      "type": "lesson",
+      "order": 4,
+      "duration": "55 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "reinforcement-learning/rl-04-monte-carlo-methods"
+      ]
+    },
+    {
+      "slug": "rl-05-temporal-difference-learning",
+      "title": "Temporal Difference Learning",
+      "description": "Learn from partial episodes with bootstrapping — the idea at the heart of modern RL.",
+      "type": "lesson",
+      "order": 5,
+      "duration": "55 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "reinforcement-learning/rl-05-temporal-difference-learning"
+      ]
+    },
+    {
+      "slug": "rl-06-q-learning",
+      "title": "Q-Learning",
+      "description": "Off-policy control: learn action values with Q-learning and watch agents improve from scratch.",
+      "type": "lesson",
+      "order": 6,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "reinforcement-learning/rl-06-q-learning"
+      ]
+    },
+    {
+      "slug": "rl-07-exploration-vs-exploitation",
+      "title": "Exploration vs Exploitation",
+      "description": "Balance trying new things with using what works: epsilon-greedy, UCB and optimism.",
+      "type": "lesson",
+      "order": 7,
+      "duration": "50 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "reinforcement-learning/rl-07-exploration-vs-exploitation"
+      ]
+    },
+    {
+      "slug": "rl-08-function-approximation",
+      "title": "Function Approximation",
+      "description": "Scale RL beyond tables: approximate Q-values with linear and neural models.",
+      "type": "lesson",
+      "order": 8,
+      "duration": "55 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "reinforcement-learning/rl-08-function-approximation"
+      ]
+    },
+    {
+      "slug": "rl-09-deep-q-networks",
+      "title": "Deep Q-Networks (DQN)",
+      "description": "Play Atari from pixels: experience replay, target networks and the tricks that made DQN work.",
+      "type": "lesson",
+      "order": 9,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "reinforcement-learning/rl-09-deep-q-networks"
+      ]
+    },
+    {
+      "slug": "rl-10-policy-gradient-methods",
+      "title": "Policy Gradient Methods",
+      "description": "Optimize the policy directly — REINFORCE and the log-probability trick.",
+      "type": "lesson",
+      "order": 10,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "reinforcement-learning/rl-10-policy-gradient-methods"
+      ]
+    },
+    {
+      "slug": "rl-11-actor-critic",
+      "title": "Actor-Critic Methods",
+      "description": "Two networks in harmony: the actor picks actions, the critic judges them with bootstrapped values.",
+      "type": "lesson",
+      "order": 11,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "reinforcement-learning/rl-11-actor-critic"
+      ]
+    },
+    {
+      "slug": "rl-12-proximal-policy-optimization",
+      "title": "PPO & Modern Policy Optimization",
+      "description": "Stable, sample-efficient updates with clipping — the default choice in modern RL.",
+      "type": "lesson",
+      "order": 12,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "reinforcement-learning/rl-12-proximal-policy-optimization"
+      ]
+    },
+    {
+      "slug": "rl-13-reward-design",
+      "title": "Reward Design",
+      "description": "Rewards shape everything: sparse vs dense, shaping and the specification problem.",
+      "type": "lesson",
+      "order": 13,
+      "duration": "50 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "reinforcement-learning/rl-13-reward-design"
+      ]
+    },
+    {
+      "slug": "rl-14-offline-rl",
+      "title": "Offline Reinforcement Learning",
+      "description": "Learn policies from logged data without a live environment — conservative and practical.",
+      "type": "lesson",
+      "order": 14,
+      "duration": "55 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "reinforcement-learning/rl-14-offline-rl"
+      ]
+    },
+    {
+      "slug": "rl-15-imitation-learning",
+      "title": "Imitation Learning",
+      "description": "Learn from demonstrations: behavioral cloning and DAgger for expert-like behavior.",
+      "type": "lesson",
+      "order": 15,
+      "duration": "50 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "reinforcement-learning/rl-15-imitation-learning"
+      ]
+    },
+    {
+      "slug": "rl-16-multi-agent-rl",
+      "title": "Multi-Agent Reinforcement Learning",
+      "description": "Multiple learners interacting: cooperation, competition, and the games they create.",
+      "type": "lesson",
+      "order": 16,
+      "duration": "55 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "reinforcement-learning/rl-16-multi-agent-rl"
+      ]
+    },
+    {
+      "slug": "rl-17-rl-in-games",
+      "title": "RL in Games",
+      "description": "From Atari to AlphaGo: self-play, Monte Carlo tree search, and superhuman play.",
+      "type": "lesson",
+      "order": 17,
+      "duration": "55 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "reinforcement-learning/rl-17-rl-in-games"
+      ]
+    },
+    {
+      "slug": "rl-18-rl-for-robotics",
+      "title": "RL for Robotics",
+      "description": "Physical agents learning motor skills: sim-to-real, reward shaping and safety in the real world.",
+      "type": "lesson",
+      "order": 18,
+      "duration": "55 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "reinforcement-learning/rl-18-rl-for-robotics"
+      ]
+    },
+    {
+      "slug": "rl-19-rl-for-recommendation",
+      "title": "RL for Recommender Systems",
+      "description": "Ranking as sequential decisions: contextual bandits and long-term user value.",
+      "type": "lesson",
+      "order": 19,
+      "duration": "50 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "reinforcement-learning/rl-19-rl-for-recommendation"
+      ]
+    },
+    {
+      "slug": "rl-20-evaluating-rl-agents",
+      "title": "Evaluating RL Agents",
+      "description": "Measures beyond total reward: returns curves, sample efficiency and robustness.",
+      "type": "lesson",
+      "order": 20,
+      "duration": "50 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "reinforcement-learning/rl-20-evaluating-rl-agents"
+      ]
+    },
+    {
+      "slug": "rl-21-roadmap",
+      "title": "Reinforcement Learning Roadmap",
+      "description": "Synthesize the course, pick a domain, and plan RL projects that build real skill.",
+      "type": "lesson",
+      "order": 21,
+      "duration": "40 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "reinforcement-learning/rl-21-roadmap"
+      ]
+    }
+  ]
+}

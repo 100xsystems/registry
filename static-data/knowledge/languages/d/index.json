@@ -45,7 +45,7 @@
           "description": "Official interactive browser-based tour of D language features."
         },
         {
-          "title": "Exercism \u2014 D Track",
+          "title": "Exercism — D Track",
           "url": "https://exercism.org/tracks/d",
           "description": "Free coding exercises for learning D with community mentoring."
         }
@@ -67,12 +67,12 @@
       "icon": "terminal",
       "items": [
         {
-          "title": "Exercism \u2014 D Track",
+          "title": "Exercism — D Track",
           "url": "https://exercism.org/tracks/d",
           "description": "Coding exercises with automated analysis and human mentoring."
         },
         {
-          "title": "Codewars \u2014 D Kata",
+          "title": "Codewars — D Kata",
           "url": "https://www.codewars.com/",
           "description": "Solve community-created challenges in D."
         }
@@ -129,22 +129,256 @@
   ],
   "lessons": [
     {
-      "slug": "fundamentals",
-      "title": "Fundamentals of D",
-      "description": "Core concepts, syntax, and first steps with D",
+      "slug": "d-01-getting-started",
+      "title": "Getting Started with D",
+      "description": "Install DMD/LDC, compile, and run.",
       "type": "lesson",
       "order": 1,
       "duration": "45 min",
-      "difficulty": "beginner"
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "d/d-01-getting-started"
+      ]
     },
     {
-      "slug": "practical-guide",
-      "title": "Practical D Guide",
-      "description": "Real-world usage, tooling, and ecosystem",
+      "slug": "d-02-types",
+      "title": "Types and Variables",
+      "description": "Built-in types and declarations.",
       "type": "lesson",
       "order": 2,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "d/d-02-types"
+      ]
+    },
+    {
+      "slug": "d-03-operators",
+      "title": "Operators and Expressions",
+      "description": "Arithmetic, bitwise, and ternary.",
+      "type": "lesson",
+      "order": 3,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "d/d-03-operators"
+      ]
+    },
+    {
+      "slug": "d-04-strings",
+      "title": "Strings",
+      "description": "UTF-8 strings and text processing.",
+      "type": "lesson",
+      "order": 4,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "d/d-04-strings"
+      ]
+    },
+    {
+      "slug": "d-05-arrays",
+      "title": "Arrays and Slices",
+      "description": "Dynamic arrays and slice semantics.",
+      "type": "lesson",
+      "order": 5,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "d/d-05-arrays"
+      ]
+    },
+    {
+      "slug": "d-06-control-flow",
+      "title": "Control Flow",
+      "description": "if, switch, and loops.",
+      "type": "lesson",
+      "order": 6,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "d/d-06-control-flow"
+      ]
+    },
+    {
+      "slug": "d-07-functions",
+      "title": "Functions",
+      "description": "Write typed functions.",
+      "type": "lesson",
+      "order": 7,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "d/d-07-functions"
+      ]
+    },
+    {
+      "slug": "d-08-structs",
+      "title": "Structs",
+      "description": "Value types and methods.",
+      "type": "lesson",
+      "order": 8,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "d/d-08-structs"
+      ]
+    },
+    {
+      "slug": "d-09-classes",
+      "title": "Classes and OOP",
+      "description": "Reference types with inheritance.",
+      "type": "lesson",
+      "order": 9,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "d/d-09-classes"
+      ]
+    },
+    {
+      "slug": "d-10-interfaces",
+      "title": "Interfaces",
+      "description": "Abstract contracts.",
+      "type": "lesson",
+      "order": 10,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "d/d-10-interfaces"
+      ]
+    },
+    {
+      "slug": "d-11-exceptions",
+      "title": "Exceptions",
+      "description": "Try, catch, and custom errors.",
+      "type": "lesson",
+      "order": 11,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "d/d-11-exceptions"
+      ]
+    },
+    {
+      "slug": "d-12-ranges",
+      "title": "Ranges and Algorithms",
+      "description": "Lazy iteration and std.algorithm.",
+      "type": "lesson",
+      "order": 12,
       "duration": "60 min",
-      "difficulty": "intermediate"
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "d/d-12-ranges"
+      ]
+    },
+    {
+      "slug": "d-13-generics",
+      "title": "Templates and Generics",
+      "description": "Compile-time code reuse.",
+      "type": "lesson",
+      "order": 13,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "d/d-13-generics"
+      ]
+    },
+    {
+      "slug": "d-14-concurrency",
+      "title": "Concurrency",
+      "description": "Threads, messages, and shared data.",
+      "type": "lesson",
+      "order": 14,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "d/d-14-concurrency"
+      ]
+    },
+    {
+      "slug": "d-15-io",
+      "title": "File and Stream IO",
+      "description": "Read and write files.",
+      "type": "lesson",
+      "order": 15,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "d/d-15-io"
+      ]
+    },
+    {
+      "slug": "d-16-ufcs",
+      "title": "UFCS and Function Composition",
+      "description": "Unified function call syntax.",
+      "type": "lesson",
+      "order": 16,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "d/d-16-ufcs"
+      ]
+    },
+    {
+      "slug": "d-17-mixins",
+      "title": "Mixins and Code Generation",
+      "description": "Compile-time string mixins.",
+      "type": "lesson",
+      "order": 17,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "d/d-17-mixins"
+      ]
+    },
+    {
+      "slug": "d-18-testing",
+      "title": "Unit Testing with unittest",
+      "description": "Embedded tests in D code.",
+      "type": "lesson",
+      "order": 18,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "d/d-18-testing"
+      ]
+    },
+    {
+      "slug": "d-19-dub",
+      "title": "DUB and Packaging",
+      "description": "Package management and builds.",
+      "type": "lesson",
+      "order": 19,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "d/d-19-dub"
+      ]
+    },
+    {
+      "slug": "d-20-web",
+      "title": "Web Development with vibe.d",
+      "description": "Async HTTP servers.",
+      "type": "lesson",
+      "order": 20,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "d/d-20-web"
+      ]
+    },
+    {
+      "slug": "d-21-ecosystem",
+      "title": "Ecosystem and Next Steps",
+      "description": "Libraries and community.",
+      "type": "lesson",
+      "order": 21,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "d/d-21-ecosystem"
+      ]
     }
   ]
 }

@@ -4,7 +4,7 @@
   "description": "Assignment, const, local vs global scope, and closures.",
   "type": "lesson",
   "order": 3,
-  "duration": 25,
+  "duration": "25 min",
   "difficulty": "beginner",
   "learning_objectives": [
     "Declare and rebind variables correctly",

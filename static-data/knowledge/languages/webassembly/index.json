@@ -10,7 +10,7 @@
         {
           "title": "MDN WebAssembly Guide",
           "url": "https://developer.mozilla.org/en-US/docs/WebAssembly",
-          "description": "The premier WebAssembly guide from Mozilla \u2014 covers concepts, compilation, JavaScript API, and text format."
+          "description": "The premier WebAssembly guide from Mozilla — covers concepts, compilation, JavaScript API, and text format."
         },
         {
           "title": "Wasm By Example",
@@ -109,22 +109,256 @@
   ],
   "lessons": [
     {
-      "slug": "fundamentals",
-      "title": "Fundamentals of WebAssembly",
-      "description": "Core concepts, syntax, and first steps with WebAssembly",
+      "slug": "webassembly-01-getting-started",
+      "title": "Getting Started with WebAssembly",
+      "description": "What WASM is and your first module.",
       "type": "lesson",
       "order": 1,
       "duration": "45 min",
-      "difficulty": "beginner"
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "webassembly/webassembly-01-getting-started"
+      ]
     },
     {
-      "slug": "practical-guide",
-      "title": "Practical WebAssembly Guide",
-      "description": "Real-world usage, tooling, and ecosystem",
+      "slug": "webassembly-02-values",
+      "title": "Value Types",
+      "description": "i32, i64, f32, f64.",
       "type": "lesson",
       "order": 2,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "webassembly/webassembly-02-values"
+      ]
+    },
+    {
+      "slug": "webassembly-03-variables",
+      "title": "Locals and Globals",
+      "description": "Function locals and module globals.",
+      "type": "lesson",
+      "order": 3,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "webassembly/webassembly-03-variables"
+      ]
+    },
+    {
+      "slug": "webassembly-04-arithmetic",
+      "title": "Arithmetic Instructions",
+      "description": "Integer and float math.",
+      "type": "lesson",
+      "order": 4,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "webassembly/webassembly-04-arithmetic"
+      ]
+    },
+    {
+      "slug": "webassembly-05-memory",
+      "title": "Linear Memory",
+      "description": "The memory model.",
+      "type": "lesson",
+      "order": 5,
       "duration": "60 min",
-      "difficulty": "intermediate"
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "webassembly/webassembly-05-memory"
+      ]
+    },
+    {
+      "slug": "webassembly-06-memory-ops",
+      "title": "Memory Operations",
+      "description": "Loads and stores with offsets.",
+      "type": "lesson",
+      "order": 6,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "webassembly/webassembly-06-memory-ops"
+      ]
+    },
+    {
+      "slug": "webassembly-07-control-flow",
+      "title": "Control Flow",
+      "description": "branch and block structures.",
+      "type": "lesson",
+      "order": 7,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "webassembly/webassembly-07-control-flow"
+      ]
+    },
+    {
+      "slug": "webassembly-08-tables",
+      "title": "Tables and call_indirect",
+      "description": "Function pointers.",
+      "type": "lesson",
+      "order": 8,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "webassembly/webassembly-08-tables"
+      ]
+    },
+    {
+      "slug": "webassembly-09-imports-exports",
+      "title": "Imports and Exports",
+      "description": "The module interface.",
+      "type": "lesson",
+      "order": 9,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "webassembly/webassembly-09-imports-exports"
+      ]
+    },
+    {
+      "slug": "webassembly-10-text-format",
+      "title": "Text Format Deep Dive",
+      "description": "WAT syntax details.",
+      "type": "lesson",
+      "order": 10,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "webassembly/webassembly-10-text-format"
+      ]
+    },
+    {
+      "slug": "webassembly-11-js-api",
+      "title": "The JavaScript API",
+      "description": "Interact with WASM from JS.",
+      "type": "lesson",
+      "order": 11,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "webassembly/webassembly-11-js-api"
+      ]
+    },
+    {
+      "slug": "webassembly-12-strings",
+      "title": "Strings in WASM",
+      "description": "Pass strings across the boundary.",
+      "type": "lesson",
+      "order": 12,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "webassembly/webassembly-12-strings"
+      ]
+    },
+    {
+      "slug": "webassembly-13-rust-wasm",
+      "title": "Rust and wasm-bindgen",
+      "description": "Compile Rust to WASM.",
+      "type": "lesson",
+      "order": 13,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "webassembly/webassembly-13-rust-wasm"
+      ]
+    },
+    {
+      "slug": "webassembly-14-wat-compilers",
+      "title": "WAT and AssemblyScript",
+      "description": "Compile TypeScript-like code.",
+      "type": "lesson",
+      "order": 14,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "webassembly/webassembly-14-wat-compilers"
+      ]
+    },
+    {
+      "slug": "webassembly-15-performance",
+      "title": "Performance Patterns",
+      "description": "Write fast WASM.",
+      "type": "lesson",
+      "order": 15,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "webassembly/webassembly-15-performance"
+      ]
+    },
+    {
+      "slug": "webassembly-16-threads",
+      "title": "Threads and Shared Memory",
+      "description": "WebAssembly threads.",
+      "type": "lesson",
+      "order": 16,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "webassembly/webassembly-16-threads"
+      ]
+    },
+    {
+      "slug": "webassembly-17-simd",
+      "title": "SIMD",
+      "description": "Vectorized computation.",
+      "type": "lesson",
+      "order": 17,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "webassembly/webassembly-17-simd"
+      ]
+    },
+    {
+      "slug": "webassembly-18-wasi",
+      "title": "WASI: Server-Side WASM",
+      "description": "Run WASM outside the browser.",
+      "type": "lesson",
+      "order": 18,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "webassembly/webassembly-18-wasi"
+      ]
+    },
+    {
+      "slug": "webassembly-19-containerless",
+      "title": "Edge Computing and Serverless",
+      "description": "WASM at the edge.",
+      "type": "lesson",
+      "order": 19,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "webassembly/webassembly-19-containerless"
+      ]
+    },
+    {
+      "slug": "webassembly-20-debugging",
+      "title": "Debugging WASM",
+      "description": "Source maps and tools.",
+      "type": "lesson",
+      "order": 20,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "webassembly/webassembly-20-debugging"
+      ]
+    },
+    {
+      "slug": "webassembly-21-ecosystem",
+      "title": "Ecosystem and Next Steps",
+      "description": "Tools and community.",
+      "type": "lesson",
+      "order": 21,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "webassembly/webassembly-21-ecosystem"
+      ]
     }
   ]
 }

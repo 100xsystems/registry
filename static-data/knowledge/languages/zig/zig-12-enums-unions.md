@@ -4,7 +4,7 @@
   "description": "Enums, exhaustive switch, and union(enum) payloads.",
   "type": "lesson",
   "order": 12,
-  "duration": 35,
+  "duration": "35 min",
   "difficulty": "intermediate",
   "learning_objectives": [
     "Define enums with @tagName",

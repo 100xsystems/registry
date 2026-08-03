@@ -104,22 +104,256 @@
   ],
   "lessons": [
     {
-      "slug": "fundamentals",
-      "title": "Fundamentals of Scratch",
-      "description": "Core concepts, syntax, and first steps with Scratch",
+      "slug": "scratch-01-getting-started",
+      "title": "Getting Started with Scratch",
+      "description": "The editor, sprites, and your first project.",
       "type": "lesson",
       "order": 1,
       "duration": "45 min",
-      "difficulty": "beginner"
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "scratch/scratch-01-getting-started"
+      ]
     },
     {
-      "slug": "practical-guide",
-      "title": "Practical Scratch Guide",
-      "description": "Real-world usage, tooling, and ecosystem",
+      "slug": "scratch-02-motion",
+      "title": "Motion Blocks",
+      "description": "Move sprites on the stage.",
       "type": "lesson",
       "order": 2,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "scratch/scratch-02-motion"
+      ]
+    },
+    {
+      "slug": "scratch-03-looks",
+      "title": "Looks and Costumes",
+      "description": "Appearance and animations.",
+      "type": "lesson",
+      "order": 3,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "scratch/scratch-03-looks"
+      ]
+    },
+    {
+      "slug": "scratch-04-events",
+      "title": "Events",
+      "description": "Trigger scripts with events.",
+      "type": "lesson",
+      "order": 4,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "scratch/scratch-04-events"
+      ]
+    },
+    {
+      "slug": "scratch-05-control",
+      "title": "Control Blocks",
+      "description": "Loops and conditionals.",
+      "type": "lesson",
+      "order": 5,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "scratch/scratch-05-control"
+      ]
+    },
+    {
+      "slug": "scratch-06-sensing",
+      "title": "Sensing Blocks",
+      "description": "Detect input and collisions.",
+      "type": "lesson",
+      "order": 6,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "scratch/scratch-06-sensing"
+      ]
+    },
+    {
+      "slug": "scratch-07-operators",
+      "title": "Operators",
+      "description": "Math and logic blocks.",
+      "type": "lesson",
+      "order": 7,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "scratch/scratch-07-operators"
+      ]
+    },
+    {
+      "slug": "scratch-08-variables",
+      "title": "Variables",
+      "description": "Store and change data.",
+      "type": "lesson",
+      "order": 8,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "scratch/scratch-08-variables"
+      ]
+    },
+    {
+      "slug": "scratch-09-lists",
+      "title": "Lists",
+      "description": "Store collections of data.",
+      "type": "lesson",
+      "order": 9,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "scratch/scratch-09-lists"
+      ]
+    },
+    {
+      "slug": "scratch-10-sound",
+      "title": "Sound Blocks",
+      "description": "Play sounds and music.",
+      "type": "lesson",
+      "order": 10,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "scratch/scratch-10-sound"
+      ]
+    },
+    {
+      "slug": "scratch-11-pen",
+      "title": "Pen and Drawing",
+      "description": "Draw on the stage.",
+      "type": "lesson",
+      "order": 11,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "scratch/scratch-11-pen"
+      ]
+    },
+    {
+      "slug": "scratch-12-custom-blocks",
+      "title": "Custom Blocks",
+      "description": "Build reusable procedures.",
+      "type": "lesson",
+      "order": 12,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "scratch/scratch-12-custom-blocks"
+      ]
+    },
+    {
+      "slug": "scratch-13-clones",
+      "title": "Clones",
+      "description": "Duplicate sprites dynamically.",
+      "type": "lesson",
+      "order": 13,
       "duration": "60 min",
-      "difficulty": "intermediate"
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "scratch/scratch-13-clones"
+      ]
+    },
+    {
+      "slug": "scratch-14-games",
+      "title": "Build a Game: Catcher",
+      "description": "A complete catch game.",
+      "type": "lesson",
+      "order": 14,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "scratch/scratch-14-games"
+      ]
+    },
+    {
+      "slug": "scratch-15-platformer",
+      "title": "Build a Platformer",
+      "description": "Jumping and scrolling.",
+      "type": "lesson",
+      "order": 15,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "scratch/scratch-15-platformer"
+      ]
+    },
+    {
+      "slug": "scratch-16-quiz",
+      "title": "Build a Quiz App",
+      "description": "Interactive quizzes.",
+      "type": "lesson",
+      "order": 16,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "scratch/scratch-16-quiz"
+      ]
+    },
+    {
+      "slug": "scratch-17-extensions",
+      "title": "Extensions",
+      "description": "Video, text-to-speech, and more.",
+      "type": "lesson",
+      "order": 17,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "scratch/scratch-17-extensions"
+      ]
+    },
+    {
+      "slug": "scratch-18-debugging",
+      "title": "Debugging",
+      "description": "Find and fix bugs.",
+      "type": "lesson",
+      "order": 18,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "scratch/scratch-18-debugging"
+      ]
+    },
+    {
+      "slug": "scratch-19-remix",
+      "title": "Remixing and Sharing",
+      "description": "Collaborate on the Scratch site.",
+      "type": "lesson",
+      "order": 19,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "scratch/scratch-19-remix"
+      ]
+    },
+    {
+      "slug": "scratch-20-advanced-projects",
+      "title": "Advanced Project Ideas",
+      "description": "Push Scratch further.",
+      "type": "lesson",
+      "order": 20,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "scratch/scratch-20-advanced-projects"
+      ]
+    },
+    {
+      "slug": "scratch-21-ecosystem",
+      "title": "Ecosystem and Next Steps",
+      "description": "Beyond Scratch.",
+      "type": "lesson",
+      "order": 21,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "scratch/scratch-21-ecosystem"
+      ]
     }
   ]
 }

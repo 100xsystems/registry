@@ -100,7 +100,7 @@
           "description": "Official forum for Wolfram Language discussions and technical Q&A."
         },
         {
-          "title": "Stack Overflow \u2014 Wolfram Language Tag",
+          "title": "Stack Overflow — Wolfram Language Tag",
           "url": "https://stackoverflow.com/questions/tagged/wolfram-language",
           "description": "Q&A for Wolfram Language programming."
         }
@@ -109,22 +109,256 @@
   ],
   "lessons": [
     {
-      "slug": "fundamentals",
-      "title": "Fundamentals of Wolfram Language",
-      "description": "Core concepts, syntax, and first steps with Wolfram Language",
+      "slug": "wolfram-01-getting-started",
+      "title": "Getting Started with Wolfram Language",
+      "description": "Notebooks, evaluation, hello.",
       "type": "lesson",
       "order": 1,
       "duration": "45 min",
-      "difficulty": "beginner"
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "wolfram-language/wolfram-01-getting-started"
+      ]
     },
     {
-      "slug": "practical-guide",
-      "title": "Practical Wolfram Language Guide",
-      "description": "Real-world usage, tooling, and ecosystem",
+      "slug": "wolfram-02-values",
+      "title": "Numbers and Arithmetic",
+      "description": "Exact and approximate math.",
       "type": "lesson",
       "order": 2,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "wolfram-language/wolfram-02-values"
+      ]
+    },
+    {
+      "slug": "wolfram-03-variables",
+      "title": "Assignments",
+      "description": "Set and SetDelayed.",
+      "type": "lesson",
+      "order": 3,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "wolfram-language/wolfram-03-variables"
+      ]
+    },
+    {
+      "slug": "wolfram-04-lists",
+      "title": "Lists",
+      "description": "The core data structure.",
+      "type": "lesson",
+      "order": 4,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "wolfram-language/wolfram-04-lists"
+      ]
+    },
+    {
+      "slug": "wolfram-05-functions",
+      "title": "Functions",
+      "description": "Define and use functions.",
+      "type": "lesson",
+      "order": 5,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "wolfram-language/wolfram-05-functions"
+      ]
+    },
+    {
+      "slug": "wolfram-06-plotting",
+      "title": "Plotting",
+      "description": "Visualize functions.",
+      "type": "lesson",
+      "order": 6,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "wolfram-language/wolfram-06-plotting"
+      ]
+    },
+    {
+      "slug": "wolfram-07-strings",
+      "title": "Strings",
+      "description": "Text manipulation.",
+      "type": "lesson",
+      "order": 7,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "wolfram-language/wolfram-07-strings"
+      ]
+    },
+    {
+      "slug": "wolfram-08-conditions",
+      "title": "Conditionals",
+      "description": "If, Which, and patterns.",
+      "type": "lesson",
+      "order": 8,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "wolfram-language/wolfram-08-conditions"
+      ]
+    },
+    {
+      "slug": "wolfram-09-loops",
+      "title": "Iteration",
+      "description": "Do, Table, and functional loops.",
+      "type": "lesson",
+      "order": 9,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "wolfram-language/wolfram-09-loops"
+      ]
+    },
+    {
+      "slug": "wolfram-10-patterns",
+      "title": "Pattern Matching",
+      "description": "The heart of the language.",
+      "type": "lesson",
+      "order": 10,
       "duration": "60 min",
-      "difficulty": "intermediate"
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "wolfram-language/wolfram-10-patterns"
+      ]
+    },
+    {
+      "slug": "wolfram-11-associations",
+      "title": "Associations",
+      "description": "Key-value data.",
+      "type": "lesson",
+      "order": 11,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "wolfram-language/wolfram-11-associations"
+      ]
+    },
+    {
+      "slug": "wolfram-12-graphics",
+      "title": "Graphics",
+      "description": "Draw primitives.",
+      "type": "lesson",
+      "order": 12,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "wolfram-language/wolfram-12-graphics"
+      ]
+    },
+    {
+      "slug": "wolfram-13-data",
+      "title": "Data Frames and Datasets",
+      "description": "Work with tabular data.",
+      "type": "lesson",
+      "order": 13,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "wolfram-language/wolfram-13-data"
+      ]
+    },
+    {
+      "slug": "wolfram-14-import-export",
+      "title": "Import and Export",
+      "description": "Read and write data.",
+      "type": "lesson",
+      "order": 14,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "wolfram-language/wolfram-14-import-export"
+      ]
+    },
+    {
+      "slug": "wolfram-15-solving",
+      "title": "Symbolic Solving",
+      "description": "Solve equations.",
+      "type": "lesson",
+      "order": 15,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "wolfram-language/wolfram-15-solving"
+      ]
+    },
+    {
+      "slug": "wolfram-16-calculus",
+      "title": "Calculus",
+      "description": "Differentiation and integration.",
+      "type": "lesson",
+      "order": 16,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "wolfram-language/wolfram-16-calculus"
+      ]
+    },
+    {
+      "slug": "wolfram-17-linear-algebra",
+      "title": "Linear Algebra",
+      "description": "Matrices and vectors.",
+      "type": "lesson",
+      "order": 17,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "wolfram-language/wolfram-17-linear-algebra"
+      ]
+    },
+    {
+      "slug": "wolfram-18-statistics",
+      "title": "Statistics",
+      "description": "Descriptive statistics.",
+      "type": "lesson",
+      "order": 18,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "wolfram-language/wolfram-18-statistics"
+      ]
+    },
+    {
+      "slug": "wolfram-19-machine-learning",
+      "title": "Machine Learning",
+      "description": "Classify and predict.",
+      "type": "lesson",
+      "order": 19,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "wolfram-language/wolfram-19-machine-learning"
+      ]
+    },
+    {
+      "slug": "wolfram-20-parallel",
+      "title": "Parallel Computing",
+      "description": "Speed up computations.",
+      "type": "lesson",
+      "order": 20,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "wolfram-language/wolfram-20-parallel"
+      ]
+    },
+    {
+      "slug": "wolfram-21-ecosystem",
+      "title": "Ecosystem and Next Steps",
+      "description": "Wolfram Cloud and resources.",
+      "type": "lesson",
+      "order": 21,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "wolfram-language/wolfram-21-ecosystem"
+      ]
     }
   ]
 }

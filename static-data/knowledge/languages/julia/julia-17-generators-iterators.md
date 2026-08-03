@@ -4,7 +4,7 @@
   "description": "Ranges, lazy generators, zip/enumerate, reduce.",
   "type": "lesson",
   "order": 17,
-  "duration": 30,
+  "duration": "30 min",
   "difficulty": "intermediate",
   "learning_objectives": [
     "Create ranges with start:step:stop",

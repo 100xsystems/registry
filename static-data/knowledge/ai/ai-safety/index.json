@@ -1,0 +1,303 @@
+{
+  "slug": "ai-safety",
+  "name": "AI Safety",
+  "description": "Understand the risks of AI systems and the practices that keep them aligned, robust and fair — from evals to governance.",
+  "categories": [
+    {
+      "label": "Free Courses & Guides",
+      "icon": "book",
+      "items": [
+        {
+          "title": "Anthropic Alignment Science",
+          "url": "https://www.anthropic.com/research/alignment-science",
+          "description": "Research on making AI systems honest, harmless and helpful."
+        },
+        {
+          "title": "OpenAI Evals",
+          "url": "https://github.com/openai/evals",
+          "description": "A framework for evaluating LLMs and agent systems."
+        },
+        {
+          "title": "AI Safety Fundamentals",
+          "url": "https://aisafetyfundamentals.com/",
+          "description": "Structured courses on alignment and AI governance."
+        }
+      ]
+    },
+    {
+      "label": "Official Documentation",
+      "icon": "docs",
+      "items": [
+        {
+          "title": "The Alignment Problem — Brian Christian",
+          "url": "https://brianchristian.org/the-alignment-problem/",
+          "description": "The history and science of aligning AI with human values."
+        },
+        {
+          "title": "EU AI Act Overview",
+          "url": "https://artificialintelligenceact.eu/",
+          "description": "The landmark AI regulation explained."
+        },
+        {
+          "title": "NIST AI Risk Management Framework",
+          "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+          "description": "A framework for managing AI-related risks."
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "safety-01-why-ai-safety",
+      "title": "Why AI Safety Matters",
+      "description": "The stakes, the risks, and the field that studies how to build AI that behaves.",
+      "type": "lesson",
+      "order": 1,
+      "duration": "40 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "ai-safety/safety-01-why-ai-safety"
+      ]
+    },
+    {
+      "slug": "safety-02-bias-and-fairness",
+      "title": "Bias & Fairness",
+      "description": "Measure and mitigate bias: metrics, audits and the human choices behind them.",
+      "type": "lesson",
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "ai-safety/safety-02-bias-and-fairness"
+      ]
+    },
+    {
+      "slug": "safety-03-interpretability",
+      "title": "Interpretability & Explainability",
+      "description": "Understand why models decide: feature importance, saliency and post-hoc explanations.",
+      "type": "lesson",
+      "order": 3,
+      "duration": "55 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "ai-safety/safety-03-interpretability"
+      ]
+    },
+    {
+      "slug": "safety-04-alignment",
+      "title": "Alignment",
+      "description": "Make AI goals match human values — and the tricky parts of defining those values.",
+      "type": "lesson",
+      "order": 4,
+      "duration": "55 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "ai-safety/safety-04-alignment"
+      ]
+    },
+    {
+      "slug": "safety-05-robustness",
+      "title": "Robustness & Adversarial Examples",
+      "description": "Models that break under tiny perturbations — and how to harden them.",
+      "type": "lesson",
+      "order": 5,
+      "duration": "55 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "ai-safety/safety-05-robustness"
+      ]
+    },
+    {
+      "slug": "safety-06-privacy",
+      "title": "Privacy & Data Protection",
+      "description": "PII, memorization and differential privacy in AI systems.",
+      "type": "lesson",
+      "order": 6,
+      "duration": "55 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "ai-safety/safety-06-privacy"
+      ]
+    },
+    {
+      "slug": "safety-07-hallucination",
+      "title": "Hallucination & Factualness",
+      "description": "When models make things up — measure it, reduce it, and tell users about it.",
+      "type": "lesson",
+      "order": 7,
+      "duration": "55 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "ai-safety/safety-07-hallucination"
+      ]
+    },
+    {
+      "slug": "safety-08-governance",
+      "title": "AI Governance & Policy",
+      "description": "Laws, standards and internal governance for responsible AI.",
+      "type": "lesson",
+      "order": 8,
+      "duration": "55 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "ai-safety/safety-08-governance"
+      ]
+    },
+    {
+      "slug": "safety-09-transparency",
+      "title": "Transparency & Disclosure",
+      "description": "Tell people when AI is involved: disclosure, provenance and model cards.",
+      "type": "lesson",
+      "order": 9,
+      "duration": "50 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "ai-safety/safety-09-transparency"
+      ]
+    },
+    {
+      "slug": "safety-10-safety-evaluations",
+      "title": "Safety Evaluations",
+      "description": "Test systems for harmful behavior before release — systematically.",
+      "type": "lesson",
+      "order": 10,
+      "duration": "55 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "ai-safety/safety-10-safety-evaluations"
+      ]
+    },
+    {
+      "slug": "safety-11-red-teaming",
+      "title": "Red Teaming",
+      "description": "Adversarial testing by skilled humans — find failures before users do.",
+      "type": "lesson",
+      "order": 11,
+      "duration": "55 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "ai-safety/safety-11-red-teaming"
+      ]
+    },
+    {
+      "slug": "safety-12-guardrails",
+      "title": "Guardrails & Content Moderation",
+      "description": "Layer protections on outputs: classifiers, filters and policy enforcement.",
+      "type": "lesson",
+      "order": 12,
+      "duration": "55 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "ai-safety/safety-12-guardrails"
+      ]
+    },
+    {
+      "slug": "safety-13-auditing-models",
+      "title": "Auditing AI Systems",
+      "description": "Independent review of data, models and processes — internal and external.",
+      "type": "lesson",
+      "order": 13,
+      "duration": "55 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "ai-safety/safety-13-auditing-models"
+      ]
+    },
+    {
+      "slug": "safety-14-societal-impact",
+      "title": "Societal Impact of AI",
+      "description": "Jobs, information ecosystems, inequality and the second-order effects of AI.",
+      "type": "lesson",
+      "order": 14,
+      "duration": "50 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "ai-safety/safety-14-societal-impact"
+      ]
+    },
+    {
+      "slug": "safety-15-safety-case-studies",
+      "title": "AI Safety Case Studies",
+      "description": "Learn from real incidents: what broke, why, and what changed.",
+      "type": "lesson",
+      "order": 15,
+      "duration": "50 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "ai-safety/safety-15-safety-case-studies"
+      ]
+    },
+    {
+      "slug": "safety-16-data-governance",
+      "title": "Data Governance for AI",
+      "description": "Source, quality, consent and retention — the data practices under safe AI.",
+      "type": "lesson",
+      "order": 16,
+      "duration": "55 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "ai-safety/safety-16-data-governance"
+      ]
+    },
+    {
+      "slug": "safety-17-values-alignment",
+      "title": "Designing for Human Values",
+      "description": "Turn values into requirements: privacy, fairness, dignity as design inputs.",
+      "type": "lesson",
+      "order": 17,
+      "duration": "50 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "ai-safety/safety-17-values-alignment"
+      ]
+    },
+    {
+      "slug": "safety-18-emerging-risks",
+      "title": "Emerging & Frontier Risks",
+      "description": "Synthetic media, autonomous systems and the longer horizon of powerful AI.",
+      "type": "lesson",
+      "order": 18,
+      "duration": "50 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "ai-safety/safety-18-emerging-risks"
+      ]
+    },
+    {
+      "slug": "safety-19-responsible-products",
+      "title": "Building Responsible AI Products",
+      "description": "Integrate safety into the product lifecycle from day one.",
+      "type": "lesson",
+      "order": 19,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "ai-safety/safety-19-responsible-products"
+      ]
+    },
+    {
+      "slug": "safety-20-safety-research",
+      "title": "The AI Safety Community & Research",
+      "description": "Where to learn, contribute and stay current in safety research.",
+      "type": "lesson",
+      "order": 20,
+      "duration": "50 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "ai-safety/safety-20-safety-research"
+      ]
+    },
+    {
+      "slug": "safety-21-roadmap",
+      "title": "AI Safety Roadmap",
+      "description": "Synthesize the course into a plan: apply safety to every system you build.",
+      "type": "lesson",
+      "order": 21,
+      "duration": "40 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "ai-safety/safety-21-roadmap"
+      ]
+    }
+  ]
+}

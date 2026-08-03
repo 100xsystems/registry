@@ -4,7 +4,7 @@
   "description": "[]const u8, literals, allocation, and comparison.",
   "type": "lesson",
   "order": 10,
-  "duration": 30,
+  "duration": "30 min",
   "difficulty": "intermediate",
   "learning_objectives": [
     "Explain that strings are byte slices",

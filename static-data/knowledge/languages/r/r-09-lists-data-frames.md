@@ -4,7 +4,7 @@
   "description": "Heterogeneous containers and tabular data.",
   "type": "lesson",
   "order": 9,
-  "duration": 35,
+  "duration": "35 min",
   "difficulty": "intermediate",
   "learning_objectives": [
     "Create and access lists with $ and [[]]",

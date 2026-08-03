@@ -4,7 +4,7 @@
   "description": "@import, pub declarations, and build.zig wiring.",
   "type": "lesson",
   "order": 17,
-  "duration": 30,
+  "duration": "30 min",
   "difficulty": "intermediate",
   "learning_objectives": [
     "Import modules with @import",

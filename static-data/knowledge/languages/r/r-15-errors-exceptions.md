@@ -4,7 +4,7 @@
   "description": "stop, warning, tryCatch, and input validation.",
   "type": "lesson",
   "order": 15,
-  "duration": 30,
+  "duration": "30 min",
   "difficulty": "intermediate",
   "learning_objectives": [
     "Raise errors and warnings with stop and warning",

@@ -4,7 +4,7 @@
   "description": "Type parameters, unions, and the type hierarchy.",
   "type": "lesson",
   "order": 12,
-  "duration": 35,
+  "duration": "35 min",
   "difficulty": "intermediate",
   "learning_objectives": [
     "Parameterize structs with type variables",

@@ -31,12 +31,12 @@
         {
           "title": "Scheme Reports (RnRS)",
           "url": "https://www.scheme-reports.org/",
-          "description": "Official Revised Reports on the Algorithmic Language Scheme \u2014 the standards documents."
+          "description": "Official Revised Reports on the Algorithmic Language Scheme — the standards documents."
         },
         {
           "title": "The Scheme Programming Language (4th Ed)",
           "url": "https://www.scheme.com/tspl4/",
-          "description": "The authoritative reference book by Scheme standard editors \u2014 free to read online."
+          "description": "The authoritative reference book by Scheme standard editors — free to read online."
         }
       ]
     },
@@ -45,7 +45,7 @@
       "icon": "code",
       "items": [
         {
-          "title": "Exercism \u2014 Scheme Track",
+          "title": "Exercism — Scheme Track",
           "url": "https://exercism.org/tracks/scheme",
           "description": "Free coding exercises for Scheme with community mentoring."
         }
@@ -58,7 +58,7 @@
         {
           "title": "SICP Video Lectures (Brian Harvey)",
           "url": "https://www.youtube.com/playlist?list=PLhMnuBfGeCDNgVzLPxF9o5UNKG1x-LR9B",
-          "description": "UC Berkeley SICP lectures using Scheme \u2014 legendary CS course."
+          "description": "UC Berkeley SICP lectures using Scheme — legendary CS course."
         }
       ]
     },
@@ -67,7 +67,7 @@
       "icon": "terminal",
       "items": [
         {
-          "title": "Exercism \u2014 Scheme Track",
+          "title": "Exercism — Scheme Track",
           "url": "https://exercism.org/tracks/scheme",
           "description": "Structured exercises for mastering Scheme functional programming."
         }
@@ -105,7 +105,7 @@
           "description": "Community for Scheme discussions and projects."
         },
         {
-          "title": "Stack Overflow \u2014 Scheme Tag",
+          "title": "Stack Overflow — Scheme Tag",
           "url": "https://stackoverflow.com/questions/tagged/scheme",
           "description": "Q&A for Scheme programming questions."
         }
@@ -114,22 +114,256 @@
   ],
   "lessons": [
     {
-      "slug": "fundamentals",
-      "title": "Fundamentals of Scheme",
-      "description": "Core concepts, syntax, and first steps with Scheme",
+      "slug": "scheme-01-getting-started",
+      "title": "Getting Started with Scheme",
+      "description": "Install a Scheme, hello world.",
       "type": "lesson",
       "order": 1,
       "duration": "45 min",
-      "difficulty": "beginner"
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "scheme/scheme-01-getting-started"
+      ]
     },
     {
-      "slug": "practical-guide",
-      "title": "Practical Scheme Guide",
-      "description": "Real-world usage, tooling, and ecosystem",
+      "slug": "scheme-02-expressions",
+      "title": "Expressions and Values",
+      "description": "Prefix notation and evaluation.",
       "type": "lesson",
       "order": 2,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "scheme/scheme-02-expressions"
+      ]
+    },
+    {
+      "slug": "scheme-03-definitions",
+      "title": "Definitions and Binding",
+      "description": "define and let.",
+      "type": "lesson",
+      "order": 3,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "scheme/scheme-03-definitions"
+      ]
+    },
+    {
+      "slug": "scheme-04-functions",
+      "title": "Functions",
+      "description": "define and lambda.",
+      "type": "lesson",
+      "order": 4,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "scheme/scheme-04-functions"
+      ]
+    },
+    {
+      "slug": "scheme-05-lists",
+      "title": "Lists",
+      "description": "The fundamental data structure.",
+      "type": "lesson",
+      "order": 5,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "scheme/scheme-05-lists"
+      ]
+    },
+    {
+      "slug": "scheme-06-conditionals",
+      "title": "Conditionals",
+      "description": "if and cond.",
+      "type": "lesson",
+      "order": 6,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "scheme/scheme-06-conditionals"
+      ]
+    },
+    {
+      "slug": "scheme-07-recursion",
+      "title": "Recursion",
+      "description": "Recursive definitions.",
+      "type": "lesson",
+      "order": 7,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "scheme/scheme-07-recursion"
+      ]
+    },
+    {
+      "slug": "scheme-08-higher-order",
+      "title": "Higher-Order Functions",
+      "description": "Abstract over functions.",
+      "type": "lesson",
+      "order": 8,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "scheme/scheme-08-higher-order"
+      ]
+    },
+    {
+      "slug": "scheme-09-strings",
+      "title": "Strings",
+      "description": "String operations.",
+      "type": "lesson",
+      "order": 9,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "scheme/scheme-09-strings"
+      ]
+    },
+    {
+      "slug": "scheme-10-vectors",
+      "title": "Vectors",
+      "description": "Random-access arrays.",
+      "type": "lesson",
+      "order": 10,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "scheme/scheme-10-vectors"
+      ]
+    },
+    {
+      "slug": "scheme-11-pairs",
+      "title": "Pairs and Association Lists",
+      "description": "Key-value pairs.",
+      "type": "lesson",
+      "order": 11,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "scheme/scheme-11-pairs"
+      ]
+    },
+    {
+      "slug": "scheme-12-io",
+      "title": "Input/Output",
+      "description": "Read and write.",
+      "type": "lesson",
+      "order": 12,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "scheme/scheme-12-io"
+      ]
+    },
+    {
+      "slug": "scheme-13-macros",
+      "title": "Macros",
+      "description": "define-syntax and hygiene.",
+      "type": "lesson",
+      "order": 13,
       "duration": "60 min",
-      "difficulty": "intermediate"
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "scheme/scheme-13-macros"
+      ]
+    },
+    {
+      "slug": "scheme-14-tail-calls",
+      "title": "Tail Calls and CPS",
+      "description": "Efficient recursion.",
+      "type": "lesson",
+      "order": 14,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "scheme/scheme-14-tail-calls"
+      ]
+    },
+    {
+      "slug": "scheme-15-delay",
+      "title": "Lazy Evaluation",
+      "description": "delay and force.",
+      "type": "lesson",
+      "order": 15,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "scheme/scheme-15-delay"
+      ]
+    },
+    {
+      "slug": "scheme-16-oop",
+      "title": "OOP in Scheme",
+      "description": "Object patterns.",
+      "type": "lesson",
+      "order": 16,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "scheme/scheme-16-oop"
+      ]
+    },
+    {
+      "slug": "scheme-17-databases",
+      "title": "Symbolic Computation",
+      "description": "Manipulate expressions.",
+      "type": "lesson",
+      "order": 17,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "scheme/scheme-17-databases"
+      ]
+    },
+    {
+      "slug": "scheme-18-meta",
+      "title": "Metacircular Evaluators",
+      "description": "Write an interpreter.",
+      "type": "lesson",
+      "order": 18,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "scheme/scheme-18-meta"
+      ]
+    },
+    {
+      "slug": "scheme-19-ffi",
+      "title": "Interfacing with C",
+      "description": "Call C from Scheme.",
+      "type": "lesson",
+      "order": 19,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "scheme/scheme-19-ffi"
+      ]
+    },
+    {
+      "slug": "scheme-20-web",
+      "title": "Web Development",
+      "description": "Serve web pages.",
+      "type": "lesson",
+      "order": 20,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "scheme/scheme-20-web"
+      ]
+    },
+    {
+      "slug": "scheme-21-ecosystem",
+      "title": "Ecosystem and Next Steps",
+      "description": "Implementations and resources.",
+      "type": "lesson",
+      "order": 21,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "scheme/scheme-21-ecosystem"
+      ]
     }
   ]
 }

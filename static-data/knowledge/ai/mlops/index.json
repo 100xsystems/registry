@@ -1,0 +1,303 @@
+{
+  "slug": "mlops",
+  "name": "MLOps",
+  "description": "Operationalize machine learning: lifecycle, versioning, pipelines, experiment tracking, serving, Kubernetes and drift monitoring.",
+  "categories": [
+    {
+      "label": "Free Courses & Guides",
+      "icon": "book",
+      "items": [
+        {
+          "title": "The ML Engineer — Chip Huyen",
+          "url": "https://www.oreilly.com/library/view/introduction-to-machine/9781098119478/",
+          "description": "The reference book on building ML systems in production."
+        },
+        {
+          "title": "Google MLOps Whitepaper",
+          "url": "https://cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning",
+          "description": "The canonical description of MLOps levels and practices."
+        },
+        {
+          "title": "Made With ML",
+          "url": "https://madewithml.com/",
+          "description": "Hands-on MLOps course covering the full production lifecycle."
+        }
+      ]
+    },
+    {
+      "label": "Official Documentation",
+      "icon": "docs",
+      "items": [
+        {
+          "title": "MLflow Documentation",
+          "url": "https://mlflow.org/docs/latest/index.html",
+          "description": "Tracking, registries and serving for the ML lifecycle."
+        },
+        {
+          "title": "DVC Documentation",
+          "url": "https://dvc.org/doc",
+          "description": "Data version control for reproducible ML pipelines."
+        },
+        {
+          "title": "Kubeflow Documentation",
+          "url": "https://www.kubeflow.org/docs/",
+          "description": "Kubernetes-native ML workflows."
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "mlops-01-what-is-mlops",
+      "title": "What Is MLOps?",
+      "description": "The discipline of operationalizing machine learning: people, pipelines, and platforms.",
+      "type": "lesson",
+      "order": 1,
+      "duration": "40 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "mlops/mlops-01-what-is-mlops"
+      ]
+    },
+    {
+      "slug": "mlops-02-the-ml-lifecycle",
+      "title": "The ML Lifecycle",
+      "description": "From problem definition to retirement: every stage a model passes through.",
+      "type": "lesson",
+      "order": 2,
+      "duration": "50 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "mlops/mlops-02-the-ml-lifecycle"
+      ]
+    },
+    {
+      "slug": "mlops-03-reproducibility-and-versioning",
+      "title": "Reproducibility & Versioning",
+      "description": "Version code, data and models together — the foundation of trustworthy ML.",
+      "type": "lesson",
+      "order": 3,
+      "duration": "55 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "mlops/mlops-03-reproducibility-and-versioning"
+      ]
+    },
+    {
+      "slug": "mlops-04-data-pipelines",
+      "title": "Data Pipelines",
+      "description": "Reliable, repeatable data flow: ingestion, validation, cleaning and feature preparation.",
+      "type": "lesson",
+      "order": 4,
+      "duration": "55 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "mlops/mlops-04-data-pipelines"
+      ]
+    },
+    {
+      "slug": "mlops-05-feature-stores",
+      "title": "Feature Stores",
+      "description": "One source of truth for features: consistent online and offline features.",
+      "type": "lesson",
+      "order": 5,
+      "duration": "50 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "mlops/mlops-05-feature-stores"
+      ]
+    },
+    {
+      "slug": "mlops-06-experiment-tracking",
+      "title": "Experiment Tracking",
+      "description": "Log every run: metrics, hyperparameters and artifacts with MLflow.",
+      "type": "lesson",
+      "order": 6,
+      "duration": "55 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "mlops/mlops-06-experiment-tracking"
+      ]
+    },
+    {
+      "slug": "mlops-07-model-registry",
+      "title": "Model Registry",
+      "description": "Stage models through lifecycles and keep production versions audit-ready.",
+      "type": "lesson",
+      "order": 7,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "mlops/mlops-07-model-registry"
+      ]
+    },
+    {
+      "slug": "mlops-08-training-at-scale",
+      "title": "Training at Scale",
+      "description": "Move from notebooks to managed training jobs with reproducible configs.",
+      "type": "lesson",
+      "order": 8,
+      "duration": "50 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "mlops/mlops-08-training-at-scale"
+      ]
+    },
+    {
+      "slug": "mlops-09-model-packaging",
+      "title": "Model Packaging & Serialization",
+      "description": "Wrap models into portable artifacts: pickle, ONNX, and MLflow models.",
+      "type": "lesson",
+      "order": 9,
+      "duration": "50 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "mlops/mlops-09-model-packaging"
+      ]
+    },
+    {
+      "slug": "mlops-10-model-serving",
+      "title": "Model Serving APIs",
+      "description": "Expose models over HTTP with FastAPI and MLflow serving — with proper request validation.",
+      "type": "lesson",
+      "order": 10,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "mlops/mlops-10-model-serving"
+      ]
+    },
+    {
+      "slug": "mlops-11-containerization",
+      "title": "Containerization with Docker",
+      "description": "Package the model, code and dependencies into one portable image.",
+      "type": "lesson",
+      "order": 11,
+      "duration": "55 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "mlops/mlops-11-containerization"
+      ]
+    },
+    {
+      "slug": "mlops-12-kubernetes-basics",
+      "title": "Kubernetes Basics for ML",
+      "description": "Orchestrate containers: pods, deployments, services and autoscaling.",
+      "type": "lesson",
+      "order": 12,
+      "duration": "55 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "mlops/mlops-12-kubernetes-basics"
+      ]
+    },
+    {
+      "slug": "mlops-13-deployment-strategies",
+      "title": "Model Deployment Strategies",
+      "description": "Ship models safely: shadow, canary and blue-green deployments with rollbacks.",
+      "type": "lesson",
+      "order": 13,
+      "duration": "50 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "mlops/mlops-13-deployment-strategies"
+      ]
+    },
+    {
+      "slug": "mlops-14-monitoring-and-drift",
+      "title": "Monitoring & Drift Detection",
+      "description": "Watch predictions and features: data drift, concept drift and model performance decay.",
+      "type": "lesson",
+      "order": 14,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "mlops/mlops-14-monitoring-and-drift"
+      ]
+    },
+    {
+      "slug": "mlops-15-production-evaluation",
+      "title": "Evaluation in Production",
+      "description": "Estimate quality without labels: sampling, human review, and proxy metrics.",
+      "type": "lesson",
+      "order": 15,
+      "duration": "50 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "mlops/mlops-15-production-evaluation"
+      ]
+    },
+    {
+      "slug": "mlops-16-cicd-for-ml",
+      "title": "CI/CD for Machine Learning",
+      "description": "Automate testing, training and deployment in pipelines that run on every change.",
+      "type": "lesson",
+      "order": 16,
+      "duration": "55 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "mlops/mlops-16-cicd-for-ml"
+      ]
+    },
+    {
+      "slug": "mlops-17-testing-ml-systems",
+      "title": "Testing ML Systems",
+      "description": "Test data, features, models and infrastructure — because ML code is only part of the system.",
+      "type": "lesson",
+      "order": 17,
+      "duration": "50 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "mlops/mlops-17-testing-ml-systems"
+      ]
+    },
+    {
+      "slug": "mlops-18-governance",
+      "title": "Data & Model Governance",
+      "description": "Auditability, access control and compliance for ML assets.",
+      "type": "lesson",
+      "order": 18,
+      "duration": "50 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "mlops/mlops-18-governance"
+      ]
+    },
+    {
+      "slug": "mlops-19-cost-and-performance",
+      "title": "Cost & Performance Optimization",
+      "description": "Balance accuracy against inference cost, latency and carbon.",
+      "type": "lesson",
+      "order": 19,
+      "duration": "50 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "mlops/mlops-19-cost-and-performance"
+      ]
+    },
+    {
+      "slug": "mlops-20-llmops",
+      "title": "LLMOps",
+      "description": "Operationalize generative AI: prompt management, evals, guardrails and LLM monitoring.",
+      "type": "lesson",
+      "order": 20,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "mlops/mlops-20-llmops"
+      ]
+    },
+    {
+      "slug": "mlops-21-roadmap",
+      "title": "MLOps Roadmap",
+      "description": "Synthesize the course into a plan: build a production ML system and keep improving it.",
+      "type": "lesson",
+      "order": 21,
+      "duration": "40 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "mlops/mlops-21-roadmap"
+      ]
+    }
+  ]
+}

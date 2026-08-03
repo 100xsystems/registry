@@ -4,7 +4,7 @@
   "description": "Handling absent and undefined values idiomatically.",
   "type": "lesson",
   "order": 18,
-  "duration": 25,
+  "duration": "25 min",
   "difficulty": "intermediate",
   "learning_objectives": [
     "Distinguish missing, nothing, and NaN",

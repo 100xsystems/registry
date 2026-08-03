@@ -4,7 +4,7 @@
   "description": "Threads, tasks, channels, and distributed computing.",
   "type": "lesson",
   "order": 19,
-  "duration": 45,
+  "duration": "45 min",
   "difficulty": "expert",
   "learning_objectives": [
     "Run parallel loops with Threads.@threads",

@@ -114,22 +114,256 @@
   ],
   "lessons": [
     {
-      "slug": "fundamentals",
-      "title": "Fundamentals of PureScript",
-      "description": "Core concepts, syntax, and first steps with PureScript",
+      "slug": "purescript-01-getting-started",
+      "title": "Getting Started with PureScript",
+      "description": "Install, spago, hello world.",
       "type": "lesson",
       "order": 1,
       "duration": "45 min",
-      "difficulty": "beginner"
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "purescript/purescript-01-getting-started"
+      ]
     },
     {
-      "slug": "practical-guide",
-      "title": "Practical PureScript Guide",
-      "description": "Real-world usage, tooling, and ecosystem",
+      "slug": "purescript-02-functions",
+      "title": "Functions",
+      "description": "Pure functions and type annotations.",
       "type": "lesson",
       "order": 2,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "purescript/purescript-02-functions"
+      ]
+    },
+    {
+      "slug": "purescript-03-types",
+      "title": "Types",
+      "description": "Primitive types and aliases.",
+      "type": "lesson",
+      "order": 3,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "purescript/purescript-03-types"
+      ]
+    },
+    {
+      "slug": "purescript-04-let-where",
+      "title": "Let and Where",
+      "description": "Local bindings.",
+      "type": "lesson",
+      "order": 4,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "purescript/purescript-04-let-where"
+      ]
+    },
+    {
+      "slug": "purescript-05-arrays",
+      "title": "Arrays",
+      "description": "Homogeneous collections.",
+      "type": "lesson",
+      "order": 5,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "purescript/purescript-05-arrays"
+      ]
+    },
+    {
+      "slug": "purescript-06-records",
+      "title": "Records",
+      "description": "Named fields.",
+      "type": "lesson",
+      "order": 6,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "purescript/purescript-06-records"
+      ]
+    },
+    {
+      "slug": "purescript-07-maybe",
+      "title": "Maybe",
+      "description": "Optional values.",
+      "type": "lesson",
+      "order": 7,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "purescript/purescript-07-maybe"
+      ]
+    },
+    {
+      "slug": "purescript-08-either",
+      "title": "Either",
+      "description": "Typed errors.",
+      "type": "lesson",
+      "order": 8,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "purescript/purescript-08-either"
+      ]
+    },
+    {
+      "slug": "purescript-09-pattern-matching",
+      "title": "Pattern Matching",
+      "description": "Case expressions.",
+      "type": "lesson",
+      "order": 9,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "purescript/purescript-09-pattern-matching"
+      ]
+    },
+    {
+      "slug": "purescript-10-type-classes",
+      "title": "Type Classes",
+      "description": "Polymorphic behavior.",
+      "type": "lesson",
+      "order": 10,
       "duration": "60 min",
-      "difficulty": "intermediate"
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "purescript/purescript-10-type-classes"
+      ]
+    },
+    {
+      "slug": "purescript-11-data-types",
+      "title": "Custom Data Types",
+      "description": "Algebraic data types.",
+      "type": "lesson",
+      "order": 11,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "purescript/purescript-11-data-types"
+      ]
+    },
+    {
+      "slug": "purescript-12-effect",
+      "title": "Effects",
+      "description": "Effect type for side effects.",
+      "type": "lesson",
+      "order": 12,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "purescript/purescript-12-effect"
+      ]
+    },
+    {
+      "slug": "purescript-13-do-notation",
+      "title": "Do Notation",
+      "description": "Sequence computations.",
+      "type": "lesson",
+      "order": 13,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "purescript/purescript-13-do-notation"
+      ]
+    },
+    {
+      "slug": "purescript-14-foreign",
+      "title": "Foreign Function Interface",
+      "description": "Call JavaScript.",
+      "type": "lesson",
+      "order": 14,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "purescript/purescript-14-foreign"
+      ]
+    },
+    {
+      "slug": "purescript-15-lists",
+      "title": "Lists and Folds",
+      "description": "Linked lists.",
+      "type": "lesson",
+      "order": 15,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "purescript/purescript-15-lists"
+      ]
+    },
+    {
+      "slug": "purescript-16-monads",
+      "title": "Monads",
+      "description": "The Monad type class.",
+      "type": "lesson",
+      "order": 16,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "purescript/purescript-16-monads"
+      ]
+    },
+    {
+      "slug": "purescript-17-aff",
+      "title": "Asynchronous with Aff",
+      "description": "Async programming.",
+      "type": "lesson",
+      "order": 17,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "purescript/purescript-17-aff"
+      ]
+    },
+    {
+      "slug": "purescript-18-testing",
+      "title": "Testing",
+      "description": "Unit tests with purescript-spec.",
+      "type": "lesson",
+      "order": 18,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "purescript/purescript-18-testing"
+      ]
+    },
+    {
+      "slug": "purescript-19-halogen",
+      "title": "UI with Halogen",
+      "description": "Type-safe React-like UI.",
+      "type": "lesson",
+      "order": 19,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "purescript/purescript-19-halogen"
+      ]
+    },
+    {
+      "slug": "purescript-20-node",
+      "title": "Node.js Integration",
+      "description": "Build Node apps.",
+      "type": "lesson",
+      "order": 20,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "purescript/purescript-20-node"
+      ]
+    },
+    {
+      "slug": "purescript-21-ecosystem",
+      "title": "Ecosystem and Next Steps",
+      "description": "Pursuit, packages, community.",
+      "type": "lesson",
+      "order": 21,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "purescript/purescript-21-ecosystem"
+      ]
     }
   ]
 }

@@ -4,7 +4,7 @@
   "description": "Numeric, integer, character, logical — and special values.",
   "type": "lesson",
   "order": 2,
-  "duration": 25,
+  "duration": "25 min",
   "difficulty": "beginner",
   "learning_objectives": [
     "Identify core R types with class() and typeof()",

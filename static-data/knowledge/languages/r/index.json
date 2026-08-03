@@ -1,399 +1,399 @@
 {
-  "slug": "r",
-  "name": "R",
-  "description": "R is the definitive language for statistical computing, data analysis, and visualization. It powers academic research, data science, and machine learning workflows worldwide. These are the definitive free resources — vetted, current, and complete.",
-  "categories": [
+ "slug": "r",
+ "name": "R",
+ "description": "R is the definitive language for statistical computing, data analysis, and visualization. It powers academic research, data science, and machine learning workflows worldwide. These are the definitive free resources — vetted, current, and complete.",
+ "categories": [
+  {
+   "label": "Free Books",
+   "icon": "book",
+   "items": [
     {
-      "label": "Free Books",
-      "icon": "book",
-      "items": [
-        {
-          "title": "R for Data Science (2nd Edition)",
-          "url": "https://r4ds.hadley.nz/",
-          "description": "The gold standard for starting R. Teaches importing, tidying, transforming, visualizing, and modeling data using modern tidyverse workflows."
-        },
-        {
-          "title": "Advanced R (2nd Edition)",
-          "url": "https://adv-r.hadley.nz/",
-          "description": "The definitive text for intermediate-to-advanced R — functional programming, metaprogramming, and performance optimization."
-        },
-        {
-          "title": "An Introduction to Statistical Learning (ISLR)",
-          "url": "https://www.statlearning.com/",
-          "description": "A classic machine learning textbook available as free PDF with practical R labs in every chapter."
-        }
-      ]
+     "title": "R for Data Science (2nd Edition)",
+     "url": "https://r4ds.hadley.nz/",
+     "description": "The gold standard for starting R. Teaches importing, tidying, transforming, visualizing, and modeling data using modern tidyverse workflows."
     },
     {
-      "label": "Official Documentation",
-      "icon": "docs",
-      "items": [
-        {
-          "title": "CRAN R Manuals",
-          "url": "https://cran.r-project.org/manuals.html",
-          "description": "The official reference library maintained by the R Core Team covering language specs, data import/export, and extensions."
-        },
-        {
-          "title": "Tidyverse Documentation",
-          "url": "https://tidyverse.org/",
-          "description": "Comprehensive docs for dplyr, ggplot2, tidyr, readr, and more with practical vignettes."
-        }
-      ]
+     "title": "Advanced R (2nd Edition)",
+     "url": "https://adv-r.hadley.nz/",
+     "description": "The definitive text for intermediate-to-advanced R — functional programming, metaprogramming, and performance optimization."
     },
     {
-      "label": "Interactive Courses",
-      "icon": "code",
-      "items": [
-        {
-          "title": "Swirl Stats",
-          "url": "https://swirlstats.com/",
-          "description": "An interactive R package that teaches R syntax from inside the R console with immediate feedback."
-        },
-        {
-          "title": "Kaggle Learn — R Micro-Course",
-          "url": "https://www.kaggle.com/learn/r",
-          "description": "Interactive in-browser course teaching basic data manipulation and visualization with instant code execution."
-        }
-      ]
-    },
-    {
-      "label": "Video Courses",
-      "icon": "video",
-      "items": [
-        {
-          "title": "Stanford — Statistical Learning with R",
-          "url": "https://www.statlearning.com/",
-          "description": "Taught by Hastie and Tibshirani, this free video companion walks through ML theory with applied R coding labs."
-        },
-        {
-          "title": "StatQuest with Josh Starmer (YouTube)",
-          "url": "https://www.youtube.com/@statquest",
-          "description": "Builds intuitive mathematical frameworks for statistics and ML concepts needed for effective R analysis code."
-        }
-      ]
-    },
-    {
-      "label": "Practice & Challenges",
-      "icon": "terminal",
-      "items": [
-        {
-          "title": "Exercism — R Track",
-          "url": "https://exercism.org/tracks/r",
-          "description": "Progressive coding exercises with human mentor feedback from experienced R programmers."
-        },
-        {
-          "title": "TidyTuesday (GitHub)",
-          "url": "https://github.com/rfordatascience/tidytuesday",
-          "description": "Weekly social data project with new datasets for analysis, visualization, and building a public portfolio."
-        }
-      ]
-    },
-    {
-      "label": "Reference & Cheatsheets",
-      "icon": "reference",
-      "items": [
-        {
-          "title": "Posit Cheatsheets",
-          "url": "https://posit.co/resources/cheatsheets/",
-          "description": "Beautiful visual quick-reference guides for ggplot2, dplyr, tidyr, R Markdown, and Quarto."
-        },
-        {
-          "title": "R Reference Card",
-          "url": "https://cran.r-project.org/doc/contrib/Short-refcard.pdf",
-          "description": "A compact two-page reference for base R syntax, data types, and common functions."
-        }
-      ]
-    },
-    {
-      "label": "News & Updates",
-      "icon": "news",
-      "items": [
-        {
-          "title": "R-bloggers",
-          "url": "https://www.r-bloggers.com/",
-          "description": "The premier aggregator for R tutorials, package releases, and workflow tips."
-        },
-        {
-          "title": "R Weekly",
-          "url": "https://rweekly.org/",
-          "description": "A community-curated weekly newsletter delivering the best new R tutorials, packages, and events."
-        }
-      ]
-    },
-    {
-      "label": "Community",
-      "icon": "community",
-      "items": [
-        {
-          "title": "Reddit r/rstats",
-          "url": "https://www.reddit.com/r/rstats/",
-          "description": "The most active forum for discussing R programming, updates, and career advice."
-        },
-        {
-          "title": "Stack Overflow — R Tag",
-          "url": "https://stackoverflow.com/questions/tagged/r",
-          "description": "Definitive Q&A for R troubleshooting, data wrangling, and statistical analysis."
-        },
-        {
-          "title": "RStudio Community",
-          "url": "https://community.rstudio.com/",
-          "description": "Official Posit community forum for tidyverse questions, Shiny apps, and best practices."
-        }
-      ]
+     "title": "An Introduction to Statistical Learning (ISLR)",
+     "url": "https://www.statlearning.com/",
+     "description": "A classic machine learning textbook available as free PDF with practical R labs in every chapter."
     }
-  ],
-  "lessons": [
+   ]
+  },
+  {
+   "label": "Official Documentation",
+   "icon": "docs",
+   "items": [
     {
-      "slug": "r-01-getting-started",
-      "title": "Getting Started with R",
-      "description": "Console, scripts, RStudio, and the R execution model.",
-      "type": "lesson",
-      "order": 1,
-      "duration": 20,
-      "difficulty": "beginner",
-      "knowledge_refs": [
-        "r/r-01-getting-started"
-      ]
+     "title": "CRAN R Manuals",
+     "url": "https://cran.r-project.org/manuals.html",
+     "description": "The official reference library maintained by the R Core Team covering language specs, data import/export, and extensions."
     },
     {
-      "slug": "r-02-values-types",
-      "title": "Values and Types",
-      "description": "Numeric, integer, character, logical — and special values.",
-      "type": "lesson",
-      "order": 2,
-      "duration": 25,
-      "difficulty": "beginner",
-      "knowledge_refs": [
-        "r/r-02-values-types"
-      ]
-    },
-    {
-      "slug": "r-03-variables-scoping",
-      "title": "Variables and Scoping",
-      "description": "Assignment, object names, environments, and existence checks.",
-      "type": "lesson",
-      "order": 3,
-      "duration": 25,
-      "difficulty": "beginner",
-      "knowledge_refs": [
-        "r/r-03-variables-scoping"
-      ]
-    },
-    {
-      "slug": "r-04-arithmetic-operators",
-      "title": "Arithmetic and Operators",
-      "description": "Numeric, comparison, logical, and vectorized operators.",
-      "type": "lesson",
-      "order": 4,
-      "duration": 25,
-      "difficulty": "beginner",
-      "knowledge_refs": [
-        "r/r-04-arithmetic-operators"
-      ]
-    },
-    {
-      "slug": "r-05-functions",
-      "title": "Functions",
-      "description": "Definitions, defaults, return values, and anonymous functions.",
-      "type": "lesson",
-      "order": 5,
-      "duration": 30,
-      "difficulty": "beginner",
-      "knowledge_refs": [
-        "r/r-05-functions"
-      ]
-    },
-    {
-      "slug": "r-06-vectors-indexing",
-      "title": "Vectors and Indexing",
-      "description": "Atomic vectors, naming, logical subsetting, and sequences.",
-      "type": "lesson",
-      "order": 6,
-      "duration": 30,
-      "difficulty": "beginner",
-      "knowledge_refs": [
-        "r/r-06-vectors-indexing"
-      ]
-    },
-    {
-      "slug": "r-07-control-flow",
-      "title": "Control Flow",
-      "description": "if/else, ifelse, for, and while loops.",
-      "type": "lesson",
-      "order": 7,
-      "duration": 25,
-      "difficulty": "beginner",
-      "knowledge_refs": [
-        "r/r-07-control-flow"
-      ]
-    },
-    {
-      "slug": "r-08-strings-text",
-      "title": "Strings and Text",
-      "description": "paste, sprintf, string functions, and regular expressions.",
-      "type": "lesson",
-      "order": 8,
-      "duration": 25,
-      "difficulty": "beginner",
-      "knowledge_refs": [
-        "r/r-08-strings-text"
-      ]
-    },
-    {
-      "slug": "r-09-lists-data-frames",
-      "title": "Lists, Matrices, and Data Frames",
-      "description": "Heterogeneous containers and tabular data.",
-      "type": "lesson",
-      "order": 9,
-      "duration": 35,
-      "difficulty": "intermediate",
-      "knowledge_refs": [
-        "r/r-09-lists-data-frames"
-      ]
-    },
-    {
-      "slug": "r-10-factors-dates",
-      "title": "Factors, Dates, and Attributes",
-      "description": "Categorical variables, ordered factors, and time handling.",
-      "type": "lesson",
-      "order": 10,
-      "duration": 30,
-      "difficulty": "intermediate",
-      "knowledge_refs": [
-        "r/r-10-factors-dates"
-      ]
-    },
-    {
-      "slug": "r-11-apply-family",
-      "title": "The Apply Family",
-      "description": "apply, lapply, sapply, tapply, and friends.",
-      "type": "lesson",
-      "order": 11,
-      "duration": 35,
-      "difficulty": "intermediate",
-      "knowledge_refs": [
-        "r/r-11-apply-family"
-      ]
-    },
-    {
-      "slug": "r-12-functions-advanced",
-      "title": "Advanced Functions",
-      "description": "Reuse, ... arguments, closures, and lexical scoping.",
-      "type": "lesson",
-      "order": 12,
-      "duration": 35,
-      "difficulty": "intermediate",
-      "knowledge_refs": [
-        "r/r-12-functions-advanced"
-      ]
-    },
-    {
-      "slug": "r-13-tidyverse",
-      "title": "The Tidyverse",
-      "description": "dplyr, ggplot2, readr, and tidyr — the modern R.",
-      "type": "lesson",
-      "order": 13,
-      "duration": 30,
-      "difficulty": "intermediate",
-      "knowledge_refs": [
-        "r/r-13-tidyverse"
-      ]
-    },
-    {
-      "slug": "r-14-data-visualization",
-      "title": "Data Visualization",
-      "description": "Base R plots, histograms, boxplots, and saving output.",
-      "type": "lesson",
-      "order": 14,
-      "duration": 30,
-      "difficulty": "intermediate",
-      "knowledge_refs": [
-        "r/r-14-data-visualization"
-      ]
-    },
-    {
-      "slug": "r-15-errors-exceptions",
-      "title": "Errors and Exceptions",
-      "description": "stop, warning, tryCatch, and input validation.",
-      "type": "lesson",
-      "order": 15,
-      "duration": 30,
-      "difficulty": "intermediate",
-      "knowledge_refs": [
-        "r/r-15-errors-exceptions"
-      ]
-    },
-    {
-      "slug": "r-16-file-io",
-      "title": "File I/O",
-      "description": "Reading and writing CSV, text, and modern formats.",
-      "type": "lesson",
-      "order": 16,
-      "duration": 30,
-      "difficulty": "intermediate",
-      "knowledge_refs": [
-        "r/r-16-file-io"
-      ]
-    },
-    {
-      "slug": "r-17-statistics",
-      "title": "Statistics and Sampling",
-      "description": "Sampling, distributions, summaries, and hypothesis tests.",
-      "type": "lesson",
-      "order": 17,
-      "duration": 30,
-      "difficulty": "intermediate",
-      "knowledge_refs": [
-        "r/r-17-statistics"
-      ]
-    },
-    {
-      "slug": "r-18-missing-data",
-      "title": "Missing Data",
-      "description": "NA propagation, na.rm, and imputation strategies.",
-      "type": "lesson",
-      "order": 18,
-      "duration": 25,
-      "difficulty": "intermediate",
-      "knowledge_refs": [
-        "r/r-18-missing-data"
-      ]
-    },
-    {
-      "slug": "r-19-grouping-aggregation",
-      "title": "Grouping and Aggregation",
-      "description": "table, aggregate, split, and group_by + summarize.",
-      "type": "lesson",
-      "order": 19,
-      "duration": 30,
-      "difficulty": "intermediate",
-      "knowledge_refs": [
-        "r/r-19-grouping-aggregation"
-      ]
-    },
-    {
-      "slug": "r-20-functions-oop",
-      "title": "Functional Programming and OOP",
-      "description": "First-class functions, environments, S3 and S4 classes.",
-      "type": "lesson",
-      "order": 20,
-      "duration": 40,
-      "difficulty": "expert",
-      "knowledge_refs": [
-        "r/r-20-functions-oop"
-      ]
-    },
-    {
-      "slug": "r-21-ecosystem-next-steps",
-      "title": "Ecosystem and Next Steps",
-      "description": "CRAN, R Markdown, Shiny, and the road ahead.",
-      "type": "lesson",
-      "order": 21,
-      "duration": 20,
-      "difficulty": "intermediate",
-      "knowledge_refs": [
-        "r/r-21-ecosystem-next-steps"
-      ]
+     "title": "Tidyverse Documentation",
+     "url": "https://tidyverse.org/",
+     "description": "Comprehensive docs for dplyr, ggplot2, tidyr, readr, and more with practical vignettes."
     }
-  ]
+   ]
+  },
+  {
+   "label": "Interactive Courses",
+   "icon": "code",
+   "items": [
+    {
+     "title": "Swirl Stats",
+     "url": "https://swirlstats.com/",
+     "description": "An interactive R package that teaches R syntax from inside the R console with immediate feedback."
+    },
+    {
+     "title": "Kaggle Learn — R Micro-Course",
+     "url": "https://www.kaggle.com/learn/r",
+     "description": "Interactive in-browser course teaching basic data manipulation and visualization with instant code execution."
+    }
+   ]
+  },
+  {
+   "label": "Video Courses",
+   "icon": "video",
+   "items": [
+    {
+     "title": "Stanford — Statistical Learning with R",
+     "url": "https://www.statlearning.com/",
+     "description": "Taught by Hastie and Tibshirani, this free video companion walks through ML theory with applied R coding labs."
+    },
+    {
+     "title": "StatQuest with Josh Starmer (YouTube)",
+     "url": "https://www.youtube.com/@statquest",
+     "description": "Builds intuitive mathematical frameworks for statistics and ML concepts needed for effective R analysis code."
+    }
+   ]
+  },
+  {
+   "label": "Practice & Challenges",
+   "icon": "terminal",
+   "items": [
+    {
+     "title": "Exercism — R Track",
+     "url": "https://exercism.org/tracks/r",
+     "description": "Progressive coding exercises with human mentor feedback from experienced R programmers."
+    },
+    {
+     "title": "TidyTuesday (GitHub)",
+     "url": "https://github.com/rfordatascience/tidytuesday",
+     "description": "Weekly social data project with new datasets for analysis, visualization, and building a public portfolio."
+    }
+   ]
+  },
+  {
+   "label": "Reference & Cheatsheets",
+   "icon": "reference",
+   "items": [
+    {
+     "title": "Posit Cheatsheets",
+     "url": "https://posit.co/resources/cheatsheets/",
+     "description": "Beautiful visual quick-reference guides for ggplot2, dplyr, tidyr, R Markdown, and Quarto."
+    },
+    {
+     "title": "R Reference Card",
+     "url": "https://cran.r-project.org/doc/contrib/Short-refcard.pdf",
+     "description": "A compact two-page reference for base R syntax, data types, and common functions."
+    }
+   ]
+  },
+  {
+   "label": "News & Updates",
+   "icon": "news",
+   "items": [
+    {
+     "title": "R-bloggers",
+     "url": "https://www.r-bloggers.com/",
+     "description": "The premier aggregator for R tutorials, package releases, and workflow tips."
+    },
+    {
+     "title": "R Weekly",
+     "url": "https://rweekly.org/",
+     "description": "A community-curated weekly newsletter delivering the best new R tutorials, packages, and events."
+    }
+   ]
+  },
+  {
+   "label": "Community",
+   "icon": "community",
+   "items": [
+    {
+     "title": "Reddit r/rstats",
+     "url": "https://www.reddit.com/r/rstats/",
+     "description": "The most active forum for discussing R programming, updates, and career advice."
+    },
+    {
+     "title": "Stack Overflow — R Tag",
+     "url": "https://stackoverflow.com/questions/tagged/r",
+     "description": "Definitive Q&A for R troubleshooting, data wrangling, and statistical analysis."
+    },
+    {
+     "title": "RStudio Community",
+     "url": "https://community.rstudio.com/",
+     "description": "Official Posit community forum for tidyverse questions, Shiny apps, and best practices."
+    }
+   ]
+  }
+ ],
+ "lessons": [
+  {
+   "slug": "r-01-getting-started",
+   "title": "Getting Started with R",
+   "description": "Console, scripts, RStudio, and the R execution model.",
+   "type": "lesson",
+   "order": 1,
+   "duration": "20 min",
+   "difficulty": "beginner",
+   "knowledge_refs": [
+    "r/r-01-getting-started"
+   ]
+  },
+  {
+   "slug": "r-02-values-types",
+   "title": "Values and Types",
+   "description": "Numeric, integer, character, logical — and special values.",
+   "type": "lesson",
+   "order": 2,
+   "duration": "25 min",
+   "difficulty": "beginner",
+   "knowledge_refs": [
+    "r/r-02-values-types"
+   ]
+  },
+  {
+   "slug": "r-03-variables-scoping",
+   "title": "Variables and Scoping",
+   "description": "Assignment, object names, environments, and existence checks.",
+   "type": "lesson",
+   "order": 3,
+   "duration": "25 min",
+   "difficulty": "beginner",
+   "knowledge_refs": [
+    "r/r-03-variables-scoping"
+   ]
+  },
+  {
+   "slug": "r-04-arithmetic-operators",
+   "title": "Arithmetic and Operators",
+   "description": "Numeric, comparison, logical, and vectorized operators.",
+   "type": "lesson",
+   "order": 4,
+   "duration": "25 min",
+   "difficulty": "beginner",
+   "knowledge_refs": [
+    "r/r-04-arithmetic-operators"
+   ]
+  },
+  {
+   "slug": "r-05-functions",
+   "title": "Functions",
+   "description": "Definitions, defaults, return values, and anonymous functions.",
+   "type": "lesson",
+   "order": 5,
+   "duration": "30 min",
+   "difficulty": "beginner",
+   "knowledge_refs": [
+    "r/r-05-functions"
+   ]
+  },
+  {
+   "slug": "r-06-vectors-indexing",
+   "title": "Vectors and Indexing",
+   "description": "Atomic vectors, naming, logical subsetting, and sequences.",
+   "type": "lesson",
+   "order": 6,
+   "duration": "30 min",
+   "difficulty": "beginner",
+   "knowledge_refs": [
+    "r/r-06-vectors-indexing"
+   ]
+  },
+  {
+   "slug": "r-07-control-flow",
+   "title": "Control Flow",
+   "description": "if/else, ifelse, for, and while loops.",
+   "type": "lesson",
+   "order": 7,
+   "duration": "25 min",
+   "difficulty": "beginner",
+   "knowledge_refs": [
+    "r/r-07-control-flow"
+   ]
+  },
+  {
+   "slug": "r-08-strings-text",
+   "title": "Strings and Text",
+   "description": "paste, sprintf, string functions, and regular expressions.",
+   "type": "lesson",
+   "order": 8,
+   "duration": "25 min",
+   "difficulty": "beginner",
+   "knowledge_refs": [
+    "r/r-08-strings-text"
+   ]
+  },
+  {
+   "slug": "r-09-lists-data-frames",
+   "title": "Lists, Matrices, and Data Frames",
+   "description": "Heterogeneous containers and tabular data.",
+   "type": "lesson",
+   "order": 9,
+   "duration": "35 min",
+   "difficulty": "intermediate",
+   "knowledge_refs": [
+    "r/r-09-lists-data-frames"
+   ]
+  },
+  {
+   "slug": "r-10-factors-dates",
+   "title": "Factors, Dates, and Attributes",
+   "description": "Categorical variables, ordered factors, and time handling.",
+   "type": "lesson",
+   "order": 10,
+   "duration": "30 min",
+   "difficulty": "intermediate",
+   "knowledge_refs": [
+    "r/r-10-factors-dates"
+   ]
+  },
+  {
+   "slug": "r-11-apply-family",
+   "title": "The Apply Family",
+   "description": "apply, lapply, sapply, tapply, and friends.",
+   "type": "lesson",
+   "order": 11,
+   "duration": "35 min",
+   "difficulty": "intermediate",
+   "knowledge_refs": [
+    "r/r-11-apply-family"
+   ]
+  },
+  {
+   "slug": "r-12-functions-advanced",
+   "title": "Advanced Functions",
+   "description": "Reuse, ... arguments, closures, and lexical scoping.",
+   "type": "lesson",
+   "order": 12,
+   "duration": "35 min",
+   "difficulty": "intermediate",
+   "knowledge_refs": [
+    "r/r-12-functions-advanced"
+   ]
+  },
+  {
+   "slug": "r-13-tidyverse",
+   "title": "The Tidyverse",
+   "description": "dplyr, ggplot2, readr, and tidyr — the modern R.",
+   "type": "lesson",
+   "order": 13,
+   "duration": "30 min",
+   "difficulty": "intermediate",
+   "knowledge_refs": [
+    "r/r-13-tidyverse"
+   ]
+  },
+  {
+   "slug": "r-14-data-visualization",
+   "title": "Data Visualization",
+   "description": "Base R plots, histograms, boxplots, and saving output.",
+   "type": "lesson",
+   "order": 14,
+   "duration": "30 min",
+   "difficulty": "intermediate",
+   "knowledge_refs": [
+    "r/r-14-data-visualization"
+   ]
+  },
+  {
+   "slug": "r-15-errors-exceptions",
+   "title": "Errors and Exceptions",
+   "description": "stop, warning, tryCatch, and input validation.",
+   "type": "lesson",
+   "order": 15,
+   "duration": "30 min",
+   "difficulty": "intermediate",
+   "knowledge_refs": [
+    "r/r-15-errors-exceptions"
+   ]
+  },
+  {
+   "slug": "r-16-file-io",
+   "title": "File I/O",
+   "description": "Reading and writing CSV, text, and modern formats.",
+   "type": "lesson",
+   "order": 16,
+   "duration": "30 min",
+   "difficulty": "intermediate",
+   "knowledge_refs": [
+    "r/r-16-file-io"
+   ]
+  },
+  {
+   "slug": "r-17-statistics",
+   "title": "Statistics and Sampling",
+   "description": "Sampling, distributions, summaries, and hypothesis tests.",
+   "type": "lesson",
+   "order": 17,
+   "duration": "30 min",
+   "difficulty": "intermediate",
+   "knowledge_refs": [
+    "r/r-17-statistics"
+   ]
+  },
+  {
+   "slug": "r-18-missing-data",
+   "title": "Missing Data",
+   "description": "NA propagation, na.rm, and imputation strategies.",
+   "type": "lesson",
+   "order": 18,
+   "duration": "25 min",
+   "difficulty": "intermediate",
+   "knowledge_refs": [
+    "r/r-18-missing-data"
+   ]
+  },
+  {
+   "slug": "r-19-grouping-aggregation",
+   "title": "Grouping and Aggregation",
+   "description": "table, aggregate, split, and group_by + summarize.",
+   "type": "lesson",
+   "order": 19,
+   "duration": "30 min",
+   "difficulty": "intermediate",
+   "knowledge_refs": [
+    "r/r-19-grouping-aggregation"
+   ]
+  },
+  {
+   "slug": "r-20-functions-oop",
+   "title": "Functional Programming and OOP",
+   "description": "First-class functions, environments, S3 and S4 classes.",
+   "type": "lesson",
+   "order": 20,
+   "duration": "40 min",
+   "difficulty": "expert",
+   "knowledge_refs": [
+    "r/r-20-functions-oop"
+   ]
+  },
+  {
+   "slug": "r-21-ecosystem-next-steps",
+   "title": "Ecosystem and Next Steps",
+   "description": "CRAN, R Markdown, Shiny, and the road ahead.",
+   "type": "lesson",
+   "order": 21,
+   "duration": "20 min",
+   "difficulty": "intermediate",
+   "knowledge_refs": [
+    "r/r-21-ecosystem-next-steps"
+   ]
+  }
+ ]
 }

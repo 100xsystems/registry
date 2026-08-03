@@ -4,7 +4,7 @@
   "description": "Type stability, @code_warntype, and allocation-free code.",
   "type": "lesson",
   "order": 20,
-  "duration": 40,
+  "duration": "40 min",
   "difficulty": "expert",
   "learning_objectives": [
     "Explain why type stability drives performance",

@@ -1,0 +1,303 @@
+{
+  "slug": "nlp",
+  "name": "NLP",
+  "description": "Natural language processing: tokenization, embeddings, classification, NER, sequence models, BERT and transformers.",
+  "categories": [
+    {
+      "label": "Free Courses & Guides",
+      "icon": "book",
+      "items": [
+        {
+          "title": "Hugging Face NLP Course",
+          "url": "https://huggingface.co/learn/nlp-course",
+          "description": "The hands-on course for transformers and modern NLP."
+        },
+        {
+          "title": "Speech and Language Processing",
+          "url": "https://web.stanford.edu/~jurafsky/slp3/",
+          "description": "Jurafsky & Martin — the standard NLP textbook (free draft)."
+        },
+        {
+          "title": "Stanford CS224n",
+          "url": "https://web.stanford.edu/class/cs224n/",
+          "description": "Natural Language Processing with Deep Learning."
+        }
+      ]
+    },
+    {
+      "label": "Official Documentation",
+      "icon": "docs",
+      "items": [
+        {
+          "title": "spaCy Documentation",
+          "url": "https://spacy.io/usage",
+          "description": "Industrial-strength NLP library docs."
+        },
+        {
+          "title": "NLTK Book",
+          "url": "https://www.nltk.org/book/",
+          "description": "Natural Language Processing with Python — classic fundamentals."
+        },
+        {
+          "title": "Hugging Face Transformers",
+          "url": "https://huggingface.co/docs/transformers",
+          "description": "Models and pipelines for modern NLP."
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "nlp-01-what-is-nlp",
+      "title": "What Is NLP?",
+      "description": "The field, the tasks, and the deep-learning revolution that reshaped how machines read language.",
+      "type": "lesson",
+      "order": 1,
+      "duration": "40 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "nlp/nlp-01-what-is-nlp"
+      ]
+    },
+    {
+      "slug": "nlp-02-text-representation",
+      "title": "Text Representation: From Tokens to Vectors",
+      "description": "Tokenization, bag-of-words and TF-IDF — how raw text becomes numbers a model can use.",
+      "type": "lesson",
+      "order": 2,
+      "duration": "55 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "nlp/nlp-02-text-representation"
+      ]
+    },
+    {
+      "slug": "nlp-03-text-preprocessing",
+      "title": "Text Preprocessing",
+      "description": "Lowercasing, stop words, stemming and lemmatization — clean text without destroying meaning.",
+      "type": "lesson",
+      "order": 3,
+      "duration": "50 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "nlp/nlp-03-text-preprocessing"
+      ]
+    },
+    {
+      "slug": "nlp-04-regular-expressions",
+      "title": "Regular Expressions for Text",
+      "description": "Pattern matching for extraction, validation and cleaning — the precision tool in every NLP workflow.",
+      "type": "lesson",
+      "order": 4,
+      "duration": "50 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "nlp/nlp-04-regular-expressions"
+      ]
+    },
+    {
+      "slug": "nlp-05-ngrams-and-language-models",
+      "title": "N-grams & Language Models",
+      "description": "Model word sequences with Markov assumptions, estimate probabilities, and generate text the old way.",
+      "type": "lesson",
+      "order": 5,
+      "duration": "55 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "nlp/nlp-05-ngrams-and-language-models"
+      ]
+    },
+    {
+      "slug": "nlp-06-word-embeddings",
+      "title": "Word Embeddings",
+      "description": "Dense vectors that capture meaning: word2vec, GloVe, and using embeddings in models.",
+      "type": "lesson",
+      "order": 6,
+      "duration": "55 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "nlp/nlp-06-word-embeddings"
+      ]
+    },
+    {
+      "slug": "nlp-07-text-classification",
+      "title": "Text Classification",
+      "description": "Spam, topics, intent: logistic regression and linear models on TF-IDF — fast and often enough.",
+      "type": "lesson",
+      "order": 7,
+      "duration": "55 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "nlp/nlp-07-text-classification"
+      ]
+    },
+    {
+      "slug": "nlp-08-sentiment-analysis",
+      "title": "Sentiment Analysis",
+      "description": "Detect opinion and emotion in text — from lexicon scores to fine-tuned transformers.",
+      "type": "lesson",
+      "order": 8,
+      "duration": "50 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "nlp/nlp-08-sentiment-analysis"
+      ]
+    },
+    {
+      "slug": "nlp-09-named-entity-recognition",
+      "title": "Named Entity Recognition",
+      "description": "Find people, places, organizations and dates — the extraction workhorse of document AI.",
+      "type": "lesson",
+      "order": 9,
+      "duration": "50 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "nlp/nlp-09-named-entity-recognition"
+      ]
+    },
+    {
+      "slug": "nlp-10-pos-tagging",
+      "title": "Part-of-Speech Tagging",
+      "description": "Tag every token with its grammatical role — the classic sequence-labeling task.",
+      "type": "lesson",
+      "order": 10,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "nlp/nlp-10-pos-tagging"
+      ]
+    },
+    {
+      "slug": "nlp-11-topic-modeling",
+      "title": "Topic Modeling with LDA",
+      "description": "Discover latent themes in a corpus with Latent Dirichlet Allocation.",
+      "type": "lesson",
+      "order": 11,
+      "duration": "55 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "nlp/nlp-11-topic-modeling"
+      ]
+    },
+    {
+      "slug": "nlp-12-sequence-models",
+      "title": "Sequence Models for Text",
+      "description": "Process text as a sequence with RNNs — the pre-transformer era of deep NLP.",
+      "type": "lesson",
+      "order": 12,
+      "duration": "55 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "nlp/nlp-12-sequence-models"
+      ]
+    },
+    {
+      "slug": "nlp-13-lstm-for-text",
+      "title": "LSTMs for Text",
+      "description": "Gated memory for language: LSTMs and GRUs that actually hold context over long sequences.",
+      "type": "lesson",
+      "order": 13,
+      "duration": "55 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "nlp/nlp-13-lstm-for-text"
+      ]
+    },
+    {
+      "slug": "nlp-14-seq2seq",
+      "title": "Seq2Seq Models & Machine Translation",
+      "description": "Encoder-decoder architectures that map one sequence to another — the basis of translation.",
+      "type": "lesson",
+      "order": 14,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "nlp/nlp-14-seq2seq"
+      ]
+    },
+    {
+      "slug": "nlp-15-attention-and-transformers",
+      "title": "Attention & Transformers for NLP",
+      "description": "Self-attention makes every token reach every other — the shift that unlocked modern NLP.",
+      "type": "lesson",
+      "order": 15,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "nlp/nlp-15-attention-and-transformers"
+      ]
+    },
+    {
+      "slug": "nlp-16-bert-and-pretraining",
+      "title": "BERT & Pretrained Language Models",
+      "description": "Masked language modeling and the pretrain-then-fine-tune recipe that powers NLP.",
+      "type": "lesson",
+      "order": 16,
+      "duration": "55 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "nlp/nlp-16-bert-and-pretraining"
+      ]
+    },
+    {
+      "slug": "nlp-17-finetuning-transformers",
+      "title": "Fine-Tuning Transformers",
+      "description": "Adapt a pretrained model to your task with the Hugging Face Trainer — clean and reproducible.",
+      "type": "lesson",
+      "order": 17,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "nlp/nlp-17-finetuning-transformers"
+      ]
+    },
+    {
+      "slug": "nlp-18-question-answering",
+      "title": "Question Answering",
+      "description": "Extractive and generative QA — from span prediction to retrieval-augmented answers.",
+      "type": "lesson",
+      "order": 18,
+      "duration": "55 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "nlp/nlp-18-question-answering"
+      ]
+    },
+    {
+      "slug": "nlp-19-summarization",
+      "title": "Text Summarization",
+      "description": "Extractive and abstractive summaries with pretrained sequence-to-sequence models.",
+      "type": "lesson",
+      "order": 19,
+      "duration": "55 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "nlp/nlp-19-summarization"
+      ]
+    },
+    {
+      "slug": "nlp-20-evaluation-metrics",
+      "title": "NLP Evaluation Metrics",
+      "description": "Perplexity, BLEU, ROUGE and human judgment — measuring language models honestly.",
+      "type": "lesson",
+      "order": 20,
+      "duration": "50 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "nlp/nlp-20-evaluation-metrics"
+      ]
+    },
+    {
+      "slug": "nlp-21-roadmap",
+      "title": "NLP Roadmap",
+      "description": "Synthesize the course, pick a specialization, and connect NLP to generative AI and LLM engineering.",
+      "type": "lesson",
+      "order": 21,
+      "duration": "40 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "nlp/nlp-21-roadmap"
+      ]
+    }
+  ]
+}

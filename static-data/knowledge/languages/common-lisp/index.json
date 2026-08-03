@@ -45,7 +45,7 @@
       "icon": "code",
       "items": [
         {
-          "title": "Exercism \u2014 Common Lisp Track",
+          "title": "Exercism — Common Lisp Track",
           "url": "https://exercism.org/tracks/common-lisp",
           "description": "92 coding exercises across 27 key concepts with automated analysis and mentoring."
         },
@@ -72,7 +72,7 @@
       "icon": "terminal",
       "items": [
         {
-          "title": "Exercism \u2014 Common Lisp Track",
+          "title": "Exercism — Common Lisp Track",
           "url": "https://exercism.org/tracks/common-lisp",
           "description": "Free structured exercises for mastering Common Lisp."
         }
@@ -115,7 +115,7 @@
           "description": "Active community for Lisp discussions and project showcases."
         },
         {
-          "title": "Stack Overflow \u2014 Common Lisp Tag",
+          "title": "Stack Overflow — Common Lisp Tag",
           "url": "https://stackoverflow.com/questions/tagged/common-lisp",
           "description": "Q&A for Common Lisp programming questions."
         }
@@ -124,22 +124,256 @@
   ],
   "lessons": [
     {
-      "slug": "fundamentals",
-      "title": "Fundamentals of Common Lisp",
-      "description": "Core concepts, syntax, and first steps with Common Lisp",
+      "slug": "common-lisp-01-getting-started",
+      "title": "Getting Started with Common Lisp",
+      "description": "SBCL, REPL, and hello world.",
       "type": "lesson",
       "order": 1,
       "duration": "45 min",
-      "difficulty": "beginner"
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "common-lisp/common-lisp-01-getting-started"
+      ]
     },
     {
-      "slug": "practical-guide",
-      "title": "Practical Common Lisp Guide",
-      "description": "Real-world usage, tooling, and ecosystem",
+      "slug": "common-lisp-02-forms",
+      "title": "S-expressions and Forms",
+      "description": "Parentheses, symbols, and evaluation.",
       "type": "lesson",
       "order": 2,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "common-lisp/common-lisp-02-forms"
+      ]
+    },
+    {
+      "slug": "common-lisp-03-variables",
+      "title": "Variables and Bindings",
+      "description": "defvar, let, and scope.",
+      "type": "lesson",
+      "order": 3,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "common-lisp/common-lisp-03-variables"
+      ]
+    },
+    {
+      "slug": "common-lisp-04-functions",
+      "title": "Functions",
+      "description": "defun, lambdas, and higher-order.",
+      "type": "lesson",
+      "order": 4,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "common-lisp/common-lisp-04-functions"
+      ]
+    },
+    {
+      "slug": "common-lisp-05-cons",
+      "title": "Cons Cells and Lists",
+      "description": "The building blocks of Lisp data.",
+      "type": "lesson",
+      "order": 5,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "common-lisp/common-lisp-05-cons"
+      ]
+    },
+    {
+      "slug": "common-lisp-06-conditionals",
+      "title": "Conditionals",
+      "description": "if, cond, and when.",
+      "type": "lesson",
+      "order": 6,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "common-lisp/common-lisp-06-conditionals"
+      ]
+    },
+    {
+      "slug": "common-lisp-07-loops",
+      "title": "Loops",
+      "description": "do, loop, and iteration.",
+      "type": "lesson",
+      "order": 7,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "common-lisp/common-lisp-07-loops"
+      ]
+    },
+    {
+      "slug": "common-lisp-08-strings",
+      "title": "Strings",
+      "description": "String operations.",
+      "type": "lesson",
+      "order": 8,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "common-lisp/common-lisp-08-strings"
+      ]
+    },
+    {
+      "slug": "common-lisp-09-lists-advanced",
+      "title": "List Manipulation",
+      "description": "mapcar, remove, and sorting.",
+      "type": "lesson",
+      "order": 9,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "common-lisp/common-lisp-09-lists-advanced"
+      ]
+    },
+    {
+      "slug": "common-lisp-10-clos",
+      "title": "CLOS: Classes and Objects",
+      "description": "defclass, defmethod, and generics.",
+      "type": "lesson",
+      "order": 10,
       "duration": "60 min",
-      "difficulty": "intermediate"
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "common-lisp/common-lisp-10-clos"
+      ]
+    },
+    {
+      "slug": "common-lisp-11-macros",
+      "title": "Macros",
+      "description": "Code generation and DSLs.",
+      "type": "lesson",
+      "order": 11,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "common-lisp/common-lisp-11-macros"
+      ]
+    },
+    {
+      "slug": "common-lisp-12-conditions",
+      "title": "Conditions and Restarts",
+      "description": "Signals and handlers.",
+      "type": "lesson",
+      "order": 12,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "common-lisp/common-lisp-12-conditions"
+      ]
+    },
+    {
+      "slug": "common-lisp-13-io",
+      "title": "Input/Output",
+      "description": "Read and write streams.",
+      "type": "lesson",
+      "order": 13,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "common-lisp/common-lisp-13-io"
+      ]
+    },
+    {
+      "slug": "common-lisp-14-packages",
+      "title": "Packages",
+      "description": "Namespaces and symbols.",
+      "type": "lesson",
+      "order": 14,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "common-lisp/common-lisp-14-packages"
+      ]
+    },
+    {
+      "slug": "common-lisp-15-hash-tables",
+      "title": "Hash Tables",
+      "description": "Key-value storage.",
+      "type": "lesson",
+      "order": 15,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "common-lisp/common-lisp-15-hash-tables"
+      ]
+    },
+    {
+      "slug": "common-lisp-16-sequences",
+      "title": "Sequence Functions",
+      "description": "find, position, count, subseq.",
+      "type": "lesson",
+      "order": 16,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "common-lisp/common-lisp-16-sequences"
+      ]
+    },
+    {
+      "slug": "common-lisp-17-optional-keywords",
+      "title": "Optional and Keyword Arguments",
+      "description": "Flexible function signatures.",
+      "type": "lesson",
+      "order": 17,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "common-lisp/common-lisp-17-optional-keywords"
+      ]
+    },
+    {
+      "slug": "common-lisp-18-multiple-values",
+      "title": "Multiple Values",
+      "description": "Return and bind several values.",
+      "type": "lesson",
+      "order": 18,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "common-lisp/common-lisp-18-multiple-values"
+      ]
+    },
+    {
+      "slug": "common-lisp-19-debugging",
+      "title": "Debugging Tools",
+      "description": "trace, step, and inspect.",
+      "type": "lesson",
+      "order": 19,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "common-lisp/common-lisp-19-debugging"
+      ]
+    },
+    {
+      "slug": "common-lisp-20-tests",
+      "title": "Testing with FiveAM",
+      "description": "Unit testing library.",
+      "type": "lesson",
+      "order": 20,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "common-lisp/common-lisp-20-tests"
+      ]
+    },
+    {
+      "slug": "common-lisp-21-ecosystem",
+      "title": "Ecosystem and Next Steps",
+      "description": "Quicklisp, libraries, and tools.",
+      "type": "lesson",
+      "order": 21,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "common-lisp/common-lisp-21-ecosystem"
+      ]
     }
   ]
 }

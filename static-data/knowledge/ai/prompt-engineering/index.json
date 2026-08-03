@@ -1,0 +1,303 @@
+{
+  "slug": "prompt-engineering",
+  "name": "Prompt Engineering",
+  "description": "Get the best out of language models: system prompts, few-shot, chain-of-thought, structured outputs, and evaluation.",
+  "categories": [
+    {
+      "label": "Free Courses & Guides",
+      "icon": "book",
+      "items": [
+        {
+          "title": "OpenAI Prompt Engineering Guide",
+          "url": "https://platform.openai.com/docs/guides/prompt-engineering",
+          "description": "Official strategies for reliable, high-quality outputs."
+        },
+        {
+          "title": "Anthropic Prompt Engineering Overview",
+          "url": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview",
+          "description": "The Claude cookbook of prompting techniques."
+        },
+        {
+          "title": "Prompt Engineering Guide — DAIR.AI",
+          "url": "https://www.promptingguide.ai/",
+          "description": "A community guide to state-of-the-art prompting techniques."
+        }
+      ]
+    },
+    {
+      "label": "Official Documentation",
+      "icon": "docs",
+      "items": [
+        {
+          "title": "OpenAI Structured Outputs",
+          "url": "https://platform.openai.com/docs/guides/structured-outputs",
+          "description": "Reliable JSON and schema-conforming model outputs."
+        },
+        {
+          "title": "Anthropic Context Engineering",
+          "url": "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents",
+          "description": "Engineering the context window for better agents."
+        },
+        {
+          "title": "OpenAI Function Calling",
+          "url": "https://platform.openai.com/docs/guides/function-calling",
+          "description": "Connect models to tools with structured arguments."
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "pe-01-what-is-prompt-engineering",
+      "title": "What Is Prompt Engineering?",
+      "description": "Designing instructions that get reliable model behavior — a discipline, not a parlor trick.",
+      "type": "lesson",
+      "order": 1,
+      "duration": "40 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "prompt-engineering/pe-01-what-is-prompt-engineering"
+      ]
+    },
+    {
+      "slug": "pe-02-prompt-structure",
+      "title": "Prompt Structure",
+      "description": "The anatomy of a strong prompt: task, context, constraints and output format.",
+      "type": "lesson",
+      "order": 2,
+      "duration": "50 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "prompt-engineering/pe-02-prompt-structure"
+      ]
+    },
+    {
+      "slug": "pe-03-roles-and-context",
+      "title": "Roles & Context",
+      "description": "System prompts, personas and context injection — set the stage for better outputs.",
+      "type": "lesson",
+      "order": 3,
+      "duration": "50 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "prompt-engineering/pe-03-roles-and-context"
+      ]
+    },
+    {
+      "slug": "pe-04-few-shot-examples",
+      "title": "Few-Shot Examples",
+      "description": "Teach by demonstration: a handful of examples beat paragraphs of description.",
+      "type": "lesson",
+      "order": 4,
+      "duration": "55 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "prompt-engineering/pe-04-few-shot-examples"
+      ]
+    },
+    {
+      "slug": "pe-05-chain-of-thought",
+      "title": "Chain-of-Thought Reasoning",
+      "description": "Prompt the model to reason step by step — dramatically better on math and logic.",
+      "type": "lesson",
+      "order": 5,
+      "duration": "55 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "prompt-engineering/pe-05-chain-of-thought"
+      ]
+    },
+    {
+      "slug": "pe-06-structured-outputs",
+      "title": "Structured Outputs",
+      "description": "Force JSON, enums and schemas — reliable data out of free-form models.",
+      "type": "lesson",
+      "order": 6,
+      "duration": "55 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "prompt-engineering/pe-06-structured-outputs"
+      ]
+    },
+    {
+      "slug": "pe-07-prompts-for-code",
+      "title": "Prompting for Code",
+      "description": "Generate, review and debug code with prompts that describe behavior, not just syntax.",
+      "type": "lesson",
+      "order": 7,
+      "duration": "55 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "prompt-engineering/pe-07-prompts-for-code"
+      ]
+    },
+    {
+      "slug": "pe-08-prompts-for-images",
+      "title": "Prompting for Images",
+      "description": "Text-to-image prompting: composition, style, lighting and negative prompts.",
+      "type": "lesson",
+      "order": 8,
+      "duration": "50 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "prompt-engineering/pe-08-prompts-for-images"
+      ]
+    },
+    {
+      "slug": "pe-09-prompts-for-rag",
+      "title": "Prompting for RAG",
+      "description": "Write retrieval-grounded prompts: cite sources, handle missing context, stay faithful.",
+      "type": "lesson",
+      "order": 9,
+      "duration": "55 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "prompt-engineering/pe-09-prompts-for-rag"
+      ]
+    },
+    {
+      "slug": "pe-10-system-prompts",
+      "title": "System Prompts in Production",
+      "description": "Design the system prompt as the contract of your product.",
+      "type": "lesson",
+      "order": 10,
+      "duration": "55 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "prompt-engineering/pe-10-system-prompts"
+      ]
+    },
+    {
+      "slug": "pe-11-advanced-techniques",
+      "title": "Advanced Prompting Techniques",
+      "description": "Self-consistency, generated knowledge, tree-of-thought and ReAct-style scaffolding.",
+      "type": "lesson",
+      "order": 11,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "prompt-engineering/pe-11-advanced-techniques"
+      ]
+    },
+    {
+      "slug": "pe-12-prompt-injection-defense",
+      "title": "Prompt Injection Defense",
+      "description": "Attacks that hijack instructions — and the layered defenses that stop them.",
+      "type": "lesson",
+      "order": 12,
+      "duration": "55 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "prompt-engineering/pe-12-prompt-injection-defense"
+      ]
+    },
+    {
+      "slug": "pe-13-evaluating-prompts",
+      "title": "Evaluating Prompts",
+      "description": "Turn prompt tweaks into measured improvements with a fixed eval set.",
+      "type": "lesson",
+      "order": 13,
+      "duration": "55 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "prompt-engineering/pe-13-evaluating-prompts"
+      ]
+    },
+    {
+      "slug": "pe-14-prompt-versioning",
+      "title": "Prompt Versioning & Management",
+      "description": "Store prompts as artifacts: version, tag and roll back like code.",
+      "type": "lesson",
+      "order": 14,
+      "duration": "50 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "prompt-engineering/pe-14-prompt-versioning"
+      ]
+    },
+    {
+      "slug": "pe-15-prompt-tools",
+      "title": "Prompt Playgrounds & Tooling",
+      "description": "The tooling ecosystem: playgrounds, prompt managers, and test runners.",
+      "type": "lesson",
+      "order": 15,
+      "duration": "50 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "prompt-engineering/pe-15-prompt-tools"
+      ]
+    },
+    {
+      "slug": "pe-16-prompt-caching",
+      "title": "Prompt Caching & Cost",
+      "description": "Cache long system prompts and reuse embeddings to cut cost and latency.",
+      "type": "lesson",
+      "order": 16,
+      "duration": "50 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "prompt-engineering/pe-16-prompt-caching"
+      ]
+    },
+    {
+      "slug": "pe-17-domain-specific-prompts",
+      "title": "Domain-Specific Prompting",
+      "description": "Legal, medical, finance and education: prompts tuned to domain constraints.",
+      "type": "lesson",
+      "order": 17,
+      "duration": "55 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "prompt-engineering/pe-17-domain-specific-prompts"
+      ]
+    },
+    {
+      "slug": "pe-18-safety-in-prompts",
+      "title": "Safety in Prompting",
+      "description": "Write prompts that refuse harmful requests and stay within policy.",
+      "type": "lesson",
+      "order": 18,
+      "duration": "50 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "prompt-engineering/pe-18-safety-in-prompts"
+      ]
+    },
+    {
+      "slug": "pe-19-optimizing-for-cost",
+      "title": "Optimizing Prompts for Cost",
+      "description": "Shorter prompts, fewer tokens, right-sized models — quality per dollar.",
+      "type": "lesson",
+      "order": 19,
+      "duration": "50 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "prompt-engineering/pe-19-optimizing-for-cost"
+      ]
+    },
+    {
+      "slug": "pe-20-production-prompting",
+      "title": "Prompt Engineering in Production",
+      "description": "Assemble everything: versioned prompts, evals, guardrails and monitoring.",
+      "type": "lesson",
+      "order": 20,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "prompt-engineering/pe-20-production-prompting"
+      ]
+    },
+    {
+      "slug": "pe-21-roadmap",
+      "title": "Prompt Engineering Roadmap",
+      "description": "Synthesize the course into a practice plan: build a prompt system, measure, refine.",
+      "type": "lesson",
+      "order": 21,
+      "duration": "40 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "prompt-engineering/pe-21-roadmap"
+      ]
+    }
+  ]
+}

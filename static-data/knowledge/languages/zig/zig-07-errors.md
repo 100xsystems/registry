@@ -4,7 +4,7 @@
   "description": "Error unions, try, catch, and propagation.",
   "type": "lesson",
   "order": 7,
-  "duration": 35,
+  "duration": "35 min",
   "difficulty": "intermediate",
   "learning_objectives": [
     "Return errors from functions with !T",

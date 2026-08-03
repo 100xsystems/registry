@@ -1,0 +1,108 @@
+---
+{
+  "title": "Iteration",
+  "description": "for loops and recursion.",
+  "type": "lesson",
+  "order": 7,
+  "duration": "45 min",
+  "difficulty": "intermediate",
+  "learning_objectives": [
+    "Use for forms",
+    "Use recursion",
+    "Use for/list",
+    "Use named let"
+  ],
+  "knowledge_refs": [
+    "racket/racket-07-iteration"
+  ],
+  "prerequisites": [
+    "Racket-06: Conditionals"
+  ],
+  "references": [
+    {
+      "title": "Racket Documentation",
+      "url": "https://docs.racket-lang.org/",
+      "description": "Official docs"
+    },
+    {
+      "title": "How to Design Programs",
+      "url": "https://htdp.org/",
+      "description": "The classic textbook"
+    },
+    {
+      "title": "Racket Guide",
+      "url": "https://docs.racket-lang.org/guide/",
+      "description": "Official language guide"
+    }
+  ]
+}
+---
+
+# RACKET-07-ITERATION: Iteration
+
+## Introduction
+
+for loops and recursion. By the end of this lesson you will be able to: Use for forms; Use recursion; Use for/list; Use named let.
+
+## Key Concepts
+
+### 1. Use for forms
+
+Target: Use for forms. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+
+```racket
+#lang racket
+(for ([i (in-range 5)])
+  (displayln i))
+```
+### 2. Use recursion
+
+Target: Use recursion. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+
+```racket
+(for/list ([i (in-range 5)])
+  (* i i))
+```
+### 3. Use for/list
+
+Target: Use for/list. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+
+```racket
+(define (fact n)
+  (if (<= n 1)
+      1
+      (* n (fact (- n 1)))))
+```
+### 4. Use named let
+
+Target: Use named let. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+
+```racket
+(define (sum-list lst)
+  (let loop ([lst lst] [acc 0])
+    (if (null? lst)
+        acc
+        (loop (cdr lst) (+ acc (car lst))))))
+```
+
+## Practice Questions
+
+1. What is the key idea behind "Iteration"?
+1. Write a small program that exercises at least two concepts from this lesson.
+1. How would you explain this topic to a fellow developer in one paragraph?
+
+## LLM Prompts for Deeper Understanding
+
+1. "Explain Iteration with analogies and real-world examples"
+1. "Show me common mistakes beginners make with Iteration"
+1. "Provide advanced patterns and performance considerations for Iteration"
+
+## Key Takeaways
+
+- Master the core ideas of Iteration through practice
+- Combine this lesson with prior lessons to build real programs
+- Explore the linked official documentation for authoritative depth
+
+## Further Reading
+
+Dive deeper into this topic using the reference resources listed in the frontmatter.

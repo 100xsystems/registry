@@ -4,7 +4,7 @@
   "description": "Hello world, zig run, and the build system.",
   "type": "lesson",
   "order": 1,
-  "duration": 20,
+  "duration": "20 min",
   "difficulty": "beginner",
   "learning_objectives": [
     "Run Zig code with zig run and zig build-exe",

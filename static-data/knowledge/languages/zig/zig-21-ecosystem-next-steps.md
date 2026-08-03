@@ -4,7 +4,7 @@
   "description": "zig fmt, C interop, tooling, and advanced topics.",
   "type": "lesson",
   "order": 21,
-  "duration": 20,
+  "duration": "20 min",
   "difficulty": "intermediate",
   "learning_objectives": [
     "Use zig build and zig fmt workflows",

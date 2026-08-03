@@ -4,7 +4,7 @@
   "description": "Immutable tuples, keyed maps, and sets.",
   "type": "lesson",
   "order": 10,
-  "duration": 30,
+  "duration": "30 min",
   "difficulty": "beginner",
   "learning_objectives": [
     "Create and destructure tuples",

@@ -4,7 +4,7 @@
   "description": "Categorical variables, ordered factors, and time handling.",
   "type": "lesson",
   "order": 10,
-  "duration": 30,
+  "duration": "30 min",
   "difficulty": "intermediate",
   "learning_objectives": [
     "Create and reorder factors",

@@ -1,0 +1,303 @@
+{
+  "slug": "llm-engineering",
+  "name": "LLM Engineering",
+  "description": "Build with large language models: tokenization, embeddings, RAG, fine-tuning, evals, agents and production LLM systems.",
+  "categories": [
+    {
+      "label": "Free Courses & Guides",
+      "icon": "book",
+      "items": [
+        {
+          "title": "Hugging Face NLP Course",
+          "url": "https://huggingface.co/learn/nlp-course",
+          "description": "Transformers, fine-tuning and LLM fundamentals with hands-on code."
+        },
+        {
+          "title": "Attention Is All You Need",
+          "url": "https://arxiv.org/abs/1706.03762",
+          "description": "The Transformer paper that made modern LLMs possible."
+        },
+        {
+          "title": "DeepLearning.AI Short Courses",
+          "url": "https://www.deeplearning.ai/short-courses/",
+          "description": "Practical LLM engineering courses from industry experts."
+        }
+      ]
+    },
+    {
+      "label": "Official Documentation",
+      "icon": "docs",
+      "items": [
+        {
+          "title": "OpenAI Documentation",
+          "url": "https://platform.openai.com/docs",
+          "description": "API reference for GPT models, embeddings and function calling."
+        },
+        {
+          "title": "LangChain Documentation",
+          "url": "https://python.langchain.com/docs",
+          "description": "Frameworks for RAG, agents and LLM applications."
+        },
+        {
+          "title": "LlamaIndex Documentation",
+          "url": "https://docs.llamaindex.ai/",
+          "description": "Data framework for connecting LLMs to your data."
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "llm-01-what-is-llm-engineering",
+      "title": "What Is LLM Engineering?",
+      "description": "The discipline of building systems on top of large language models — and where it differs from classic ML.",
+      "type": "lesson",
+      "order": 1,
+      "duration": "40 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "llm-engineering/llm-01-what-is-llm-engineering"
+      ]
+    },
+    {
+      "slug": "llm-02-llm-architecture-review",
+      "title": "LLM Architecture Review",
+      "description": "Decoder-only transformers, context windows, and what happens inside a single generation call.",
+      "type": "lesson",
+      "order": 2,
+      "duration": "50 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "llm-engineering/llm-02-llm-architecture-review"
+      ]
+    },
+    {
+      "slug": "llm-03-llm-apis",
+      "title": "Working with LLM APIs",
+      "description": "Chat completions, parameters, streaming and structured outputs — the daily API toolkit.",
+      "type": "lesson",
+      "order": 3,
+      "duration": "55 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "llm-engineering/llm-03-llm-apis"
+      ]
+    },
+    {
+      "slug": "llm-04-prompting-systems",
+      "title": "Prompting Systems at Scale",
+      "description": "Turn prompts into versioned, testable system components — not strings in code.",
+      "type": "lesson",
+      "order": 4,
+      "duration": "50 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "llm-engineering/llm-04-prompting-systems"
+      ]
+    },
+    {
+      "slug": "llm-05-tokenization-and-context",
+      "title": "Tokenization & Context Management",
+      "description": "Budget tokens, count costs, and fit big context into small windows.",
+      "type": "lesson",
+      "order": 5,
+      "duration": "50 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "llm-engineering/llm-05-tokenization-and-context"
+      ]
+    },
+    {
+      "slug": "llm-06-embeddings-and-semantic-search",
+      "title": "Embeddings & Semantic Search",
+      "description": "Turn text into vectors and search by meaning — the retrieval backbone of LLM apps.",
+      "type": "lesson",
+      "order": 6,
+      "duration": "55 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "llm-engineering/llm-06-embeddings-and-semantic-search"
+      ]
+    },
+    {
+      "slug": "llm-07-rag-engineering",
+      "title": "RAG Engineering",
+      "description": "Design retrieval-augmented generation that is reliable: chunking, indexing and prompting.",
+      "type": "lesson",
+      "order": 7,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "llm-engineering/llm-07-rag-engineering"
+      ]
+    },
+    {
+      "slug": "llm-08-advanced-rag",
+      "title": "Advanced RAG",
+      "description": "Hybrid search, reranking, query rewriting and contextual compression for better answers.",
+      "type": "lesson",
+      "order": 8,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "llm-engineering/llm-08-advanced-rag"
+      ]
+    },
+    {
+      "slug": "llm-09-fine-tuning-practice",
+      "title": "Fine-Tuning LLMs in Practice",
+      "description": "LoRA, QLoRA and instruction tuning — adapt open models when prompting is not enough.",
+      "type": "lesson",
+      "order": 9,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "llm-engineering/llm-09-fine-tuning-practice"
+      ]
+    },
+    {
+      "slug": "llm-10-function-calling",
+      "title": "Function Calling & Structured Outputs",
+      "description": "Let the model call your tools with typed arguments — reliably.",
+      "type": "lesson",
+      "order": 10,
+      "duration": "55 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "llm-engineering/llm-10-function-calling"
+      ]
+    },
+    {
+      "slug": "llm-11-llm-agents",
+      "title": "Building LLM Agents",
+      "description": "Connect models to tools and loops: the agent pattern in production.",
+      "type": "lesson",
+      "order": 11,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "llm-engineering/llm-11-llm-agents"
+      ]
+    },
+    {
+      "slug": "llm-12-context-engineering",
+      "title": "Context Engineering & Memory",
+      "description": "Manage what the model sees: conversation memory, summarization and caching.",
+      "type": "lesson",
+      "order": 12,
+      "duration": "55 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "llm-engineering/llm-12-context-engineering"
+      ]
+    },
+    {
+      "slug": "llm-13-evaluating-llm-systems",
+      "title": "Evaluating LLM Systems",
+      "description": "Build evals that catch regressions: golden sets, LLM-as-judge and human review.",
+      "type": "lesson",
+      "order": 13,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "llm-engineering/llm-13-evaluating-llm-systems"
+      ]
+    },
+    {
+      "slug": "llm-14-guardrails-and-safety",
+      "title": "Guardrails & Safety for LLM Apps",
+      "description": "Prompt injection, moderation, PII redaction and output filtering.",
+      "type": "lesson",
+      "order": 14,
+      "duration": "55 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "llm-engineering/llm-14-guardrails-and-safety"
+      ]
+    },
+    {
+      "slug": "llm-15-llm-serving",
+      "title": "LLM Serving & Inference",
+      "description": "Serve open models: vLLM, quantization, batching and GPU memory management.",
+      "type": "lesson",
+      "order": 15,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "llm-engineering/llm-15-llm-serving"
+      ]
+    },
+    {
+      "slug": "llm-16-cost-optimization",
+      "title": "Cost Optimization for LLM Apps",
+      "description": "Cut spend without cutting quality: caching, smaller models, and smart routing.",
+      "type": "lesson",
+      "order": 16,
+      "duration": "50 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "llm-engineering/llm-16-cost-optimization"
+      ]
+    },
+    {
+      "slug": "llm-17-observability",
+      "title": "Prompt Versioning & Observability",
+      "description": "Trace every request: prompt, tokens, latency, cost and outcome.",
+      "type": "lesson",
+      "order": 17,
+      "duration": "50 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "llm-engineering/llm-17-observability"
+      ]
+    },
+    {
+      "slug": "llm-18-building-a-copilot",
+      "title": "Building a Production Copilot",
+      "description": "Assemble everything into a real product: an assistant grounded in your data.",
+      "type": "lesson",
+      "order": 18,
+      "duration": "75 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "llm-engineering/llm-18-building-a-copilot"
+      ]
+    },
+    {
+      "slug": "llm-19-production-case-studies",
+      "title": "LLM Production Case Studies",
+      "description": "Learn from real systems: search copilots, support agents and coding assistants.",
+      "type": "lesson",
+      "order": 19,
+      "duration": "50 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "llm-engineering/llm-19-production-case-studies"
+      ]
+    },
+    {
+      "slug": "llm-20-llmops-tooling",
+      "title": "The LLMOps Tooling Landscape",
+      "description": "Survey the ecosystem: frameworks, eval platforms, observability and serving.",
+      "type": "lesson",
+      "order": 20,
+      "duration": "50 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "llm-engineering/llm-20-llmops-tooling"
+      ]
+    },
+    {
+      "slug": "llm-21-roadmap",
+      "title": "LLM Engineering Roadmap",
+      "description": "Synthesize the course into a plan: build, ship and scale LLM products.",
+      "type": "lesson",
+      "order": 21,
+      "duration": "40 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "llm-engineering/llm-21-roadmap"
+      ]
+    }
+  ]
+}

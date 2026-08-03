@@ -4,7 +4,7 @@
   "description": "apply, lapply, sapply, tapply, and friends.",
   "type": "lesson",
   "order": 11,
-  "duration": 35,
+  "duration": "35 min",
   "difficulty": "intermediate",
   "learning_objectives": [
     "Apply functions over rows and columns",

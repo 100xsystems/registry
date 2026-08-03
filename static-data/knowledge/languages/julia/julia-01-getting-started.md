@@ -4,7 +4,7 @@
   "description": "REPL, scripts, and the Julia execution model.",
   "type": "lesson",
   "order": 1,
-  "duration": 20,
+  "duration": "20 min",
   "difficulty": "beginner",
   "learning_objectives": [
     "Run Julia code in the REPL and from script files",

@@ -4,7 +4,7 @@
   "description": "try/catch/finally, throw, and error handling patterns.",
   "type": "lesson",
   "order": 15,
-  "duration": 30,
+  "duration": "30 min",
   "difficulty": "intermediate",
   "learning_objectives": [
     "Use try/catch/finally blocks correctly",

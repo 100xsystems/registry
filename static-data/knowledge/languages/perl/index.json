@@ -1,155 +1,389 @@
 {
-  "slug": "perl",
-  "name": "Perl",
-  "description": "Perl is a highly capable, feature-rich programming language known for its text processing power, CPAN module ecosystem, and versatility in system administration, web development, and bioinformatics.",
-  "categories": [
+ "slug": "perl",
+ "name": "Perl",
+ "description": "Perl is a highly capable, feature-rich programming language known for its text processing power, CPAN module ecosystem, and versatility in system administration, web development, and bioinformatics.",
+ "categories": [
+  {
+   "label": "Free Books",
+   "icon": "book",
+   "items": [
     {
-      "label": "Free Books",
-      "icon": "book",
-      "items": [
-        {
-          "title": "Modern Perl (4th Edition)",
-          "url": "https://www.modernperlbooks.com/",
-          "description": "The premier guide to writing idiomatic Perl 5 for contemporary development \u2014 free to read online."
-        },
-        {
-          "title": "Perl Books Directory",
-          "url": "https://www.perl.org/books/",
-          "description": "Official portal hosting free downloadable guides, beginner tutorials, and reference texts."
-        }
-      ]
+     "title": "Modern Perl (4th Edition)",
+     "url": "https://www.modernperlbooks.com/",
+     "description": "The premier guide to writing idiomatic Perl 5 for contemporary development — free to read online."
     },
     {
-      "label": "Official Documentation",
-      "icon": "docs",
-      "items": [
-        {
-          "title": "Perl.org Learn Section",
-          "url": "https://www.perl.org/learn.html",
-          "description": "Official entry point for beginners with links to core tutorials, FAQ, and recommended modules."
-        },
-        {
-          "title": "MetaCPAN",
-          "url": "https://metacpan.org/",
-          "description": "Modern fast search and primary repository for all CPAN distributions, modules, and perldoc references."
-        }
-      ]
-    },
-    {
-      "label": "Interactive Courses",
-      "icon": "code",
-      "items": [
-        {
-          "title": "Learn-Perl.org",
-          "url": "https://www.learn-perl.org/",
-          "description": "Zero-setup interactive tutorial covering variables, loops, subroutines, and regex in your browser."
-        },
-        {
-          "title": "Exercism \u2014 Perl Track",
-          "url": "https://exercism.org/tracks/perl5",
-          "description": "84 structured exercises with automated analysis and human peer mentoring."
-        }
-      ]
-    },
-    {
-      "label": "Video Courses",
-      "icon": "video",
-      "items": [
-        {
-          "title": "Perl Programming Tutorials (freeCodeCamp)",
-          "url": "https://www.youtube.com/watch?v=WWE_EHjmP6w",
-          "description": "Comprehensive video walkthrough of Perl fundamentals."
-        },
-        {
-          "title": "Perl Maven Tutorials",
-          "url": "https://perlmaven.com/",
-          "description": "Free video and text tutorials covering Perl basics, OOP, and CGI programming."
-        }
-      ]
-    },
-    {
-      "label": "Practice & Challenges",
-      "icon": "terminal",
-      "items": [
-        {
-          "title": "Exercism \u2014 Perl Track",
-          "url": "https://exercism.org/tracks/perl5",
-          "description": "Free practice with mentorship across arrays, hashes, references, and packages."
-        },
-        {
-          "title": "Codewars \u2014 Perl Kata",
-          "url": "https://www.codewars.com/",
-          "description": "Solve community-created challenges in Perl."
-        }
-      ]
-    },
-    {
-      "label": "Reference & Cheatsheets",
-      "icon": "reference",
-      "items": [
-        {
-          "title": "Perl Cheat Sheet",
-          "url": "https://perldoc.perl.org/perlcheat",
-          "description": "Official Perl cheat sheet covering syntax, operators, and built-in functions."
-        },
-        {
-          "title": "Perl Reference (devhints)",
-          "url": "https://devhints.io/perl",
-          "description": "Concise one-page reference for Perl syntax and common idioms."
-        }
-      ]
-    },
-    {
-      "label": "News & Updates",
-      "icon": "news",
-      "items": [
-        {
-          "title": "Perl Weekly",
-          "url": "https://perlweekly.com/",
-          "description": "Curated weekly newsletter covering CPAN updates, blog posts, and community happenings."
-        },
-        {
-          "title": "Perl.org News",
-          "url": "https://www.perl.org/news/",
-          "description": "Official Perl announcements and community news."
-        }
-      ]
-    },
-    {
-      "label": "Community",
-      "icon": "community",
-      "items": [
-        {
-          "title": "Reddit r/perl",
-          "url": "https://www.reddit.com/r/perl/",
-          "description": "Active community for coding questions and CPAN module discussions."
-        },
-        {
-          "title": "Perl Monks",
-          "url": "https://www.perlmonks.org/",
-          "description": "Classic Q&A community focused on Perl development and deep technical discussions."
-        }
-      ]
+     "title": "Perl Books Directory",
+     "url": "https://www.perl.org/books/",
+     "description": "Official portal hosting free downloadable guides, beginner tutorials, and reference texts."
     }
-  ],
-  "lessons": [
+   ]
+  },
+  {
+   "label": "Official Documentation",
+   "icon": "docs",
+   "items": [
     {
-      "slug": "fundamentals",
-      "title": "Fundamentals of Perl",
-      "description": "Core concepts, syntax, and first steps with Perl",
-      "type": "lesson",
-      "order": 1,
-      "duration": "45 min",
-      "difficulty": "beginner"
+     "title": "Perl.org Learn Section",
+     "url": "https://www.perl.org/learn.html",
+     "description": "Official entry point for beginners with links to core tutorials, FAQ, and recommended modules."
     },
     {
-      "slug": "practical-guide",
-      "title": "Practical Perl Guide",
-      "description": "Real-world usage, tooling, and ecosystem",
-      "type": "lesson",
-      "order": 2,
-      "duration": "60 min",
-      "difficulty": "intermediate"
+     "title": "MetaCPAN",
+     "url": "https://metacpan.org/",
+     "description": "Modern fast search and primary repository for all CPAN distributions, modules, and perldoc references."
     }
-  ]
+   ]
+  },
+  {
+   "label": "Interactive Courses",
+   "icon": "code",
+   "items": [
+    {
+     "title": "Learn-Perl.org",
+     "url": "https://www.learn-perl.org/",
+     "description": "Zero-setup interactive tutorial covering variables, loops, subroutines, and regex in your browser."
+    },
+    {
+     "title": "Exercism — Perl Track",
+     "url": "https://exercism.org/tracks/perl5",
+     "description": "84 structured exercises with automated analysis and human peer mentoring."
+    }
+   ]
+  },
+  {
+   "label": "Video Courses",
+   "icon": "video",
+   "items": [
+    {
+     "title": "Perl Programming Tutorials (freeCodeCamp)",
+     "url": "https://www.youtube.com/watch?v=WWE_EHjmP6w",
+     "description": "Comprehensive video walkthrough of Perl fundamentals."
+    },
+    {
+     "title": "Perl Maven Tutorials",
+     "url": "https://perlmaven.com/",
+     "description": "Free video and text tutorials covering Perl basics, OOP, and CGI programming."
+    }
+   ]
+  },
+  {
+   "label": "Practice & Challenges",
+   "icon": "terminal",
+   "items": [
+    {
+     "title": "Exercism — Perl Track",
+     "url": "https://exercism.org/tracks/perl5",
+     "description": "Free practice with mentorship across arrays, hashes, references, and packages."
+    },
+    {
+     "title": "Codewars — Perl Kata",
+     "url": "https://www.codewars.com/",
+     "description": "Solve community-created challenges in Perl."
+    }
+   ]
+  },
+  {
+   "label": "Reference & Cheatsheets",
+   "icon": "reference",
+   "items": [
+    {
+     "title": "Perl Cheat Sheet",
+     "url": "https://perldoc.perl.org/perlcheat",
+     "description": "Official Perl cheat sheet covering syntax, operators, and built-in functions."
+    },
+    {
+     "title": "Perl Reference (devhints)",
+     "url": "https://devhints.io/perl",
+     "description": "Concise one-page reference for Perl syntax and common idioms."
+    }
+   ]
+  },
+  {
+   "label": "News & Updates",
+   "icon": "news",
+   "items": [
+    {
+     "title": "Perl Weekly",
+     "url": "https://perlweekly.com/",
+     "description": "Curated weekly newsletter covering CPAN updates, blog posts, and community happenings."
+    },
+    {
+     "title": "Perl.org News",
+     "url": "https://www.perl.org/news/",
+     "description": "Official Perl announcements and community news."
+    }
+   ]
+  },
+  {
+   "label": "Community",
+   "icon": "community",
+   "items": [
+    {
+     "title": "Reddit r/perl",
+     "url": "https://www.reddit.com/r/perl/",
+     "description": "Active community for coding questions and CPAN module discussions."
+    },
+    {
+     "title": "Perl Monks",
+     "url": "https://www.perlmonks.org/",
+     "description": "Classic Q&A community focused on Perl development and deep technical discussions."
+    }
+   ]
+  }
+ ],
+ "lessons": [
+  {
+   "slug": "perl-01-getting-started",
+   "title": "Getting Started with Perl",
+   "description": "Hello world, TMTOWTDI, and running Perl code.",
+   "type": "lesson",
+   "order": 1,
+   "duration": "20 min",
+   "difficulty": "beginner",
+   "knowledge_refs": [
+    "perl/perl-01-getting-started"
+   ]
+  },
+  {
+   "slug": "perl-02-values-types",
+   "title": "Values and Types",
+   "description": "Scalars, auto-conversion, undef, and comparisons.",
+   "type": "lesson",
+   "order": 2,
+   "duration": "25 min",
+   "difficulty": "beginner",
+   "knowledge_refs": [
+    "perl/perl-02-values-types"
+   ]
+  },
+  {
+   "slug": "perl-03-variables",
+   "title": "Variables",
+   "description": "Scalars, arrays, hashes, strict, and scoping.",
+   "type": "lesson",
+   "order": 3,
+   "duration": "25 min",
+   "difficulty": "beginner",
+   "knowledge_refs": [
+    "perl/perl-03-variables"
+   ]
+  },
+  {
+   "slug": "perl-04-operators",
+   "title": "Operators",
+   "description": "Arithmetic, string, assignment, and increment operators.",
+   "type": "lesson",
+   "order": 4,
+   "duration": "25 min",
+   "difficulty": "beginner",
+   "knowledge_refs": [
+    "perl/perl-04-operators"
+   ]
+  },
+  {
+   "slug": "perl-05-control-flow",
+   "title": "Control Flow",
+   "description": "if/elsif, unless, ternary, and short-circuit logic.",
+   "type": "lesson",
+   "order": 5,
+   "duration": "25 min",
+   "difficulty": "beginner",
+   "knowledge_refs": [
+    "perl/perl-05-control-flow"
+   ]
+  },
+  {
+   "slug": "perl-06-loops",
+   "title": "Loops",
+   "description": "for, foreach, while, and loop control keywords.",
+   "type": "lesson",
+   "order": 6,
+   "duration": "25 min",
+   "difficulty": "beginner",
+   "knowledge_refs": [
+    "perl/perl-06-loops"
+   ]
+  },
+  {
+   "slug": "perl-07-arrays",
+   "title": "Lists and Arrays",
+   "description": "Indexing, slicing, stack ops, and array functions.",
+   "type": "lesson",
+   "order": 7,
+   "duration": "30 min",
+   "difficulty": "beginner",
+   "knowledge_refs": [
+    "perl/perl-07-arrays"
+   ]
+  },
+  {
+   "slug": "perl-08-hashes",
+   "title": "Hashes",
+   "description": "Key-value pairs, exists, delete, and iteration.",
+   "type": "lesson",
+   "order": 8,
+   "duration": "30 min",
+   "difficulty": "beginner",
+   "knowledge_refs": [
+    "perl/perl-08-hashes"
+   ]
+  },
+  {
+   "slug": "perl-09-functions",
+   "title": "Functions",
+   "description": "Subroutines, @_, return, and context.",
+   "type": "lesson",
+   "order": 9,
+   "duration": "30 min",
+   "difficulty": "beginner",
+   "knowledge_refs": [
+    "perl/perl-09-functions"
+   ]
+  },
+  {
+   "slug": "perl-10-regular-expressions",
+   "title": "Regular Expressions",
+   "description": "Matching, capturing, substitution, split, and join.",
+   "type": "lesson",
+   "order": 10,
+   "duration": "35 min",
+   "difficulty": "intermediate",
+   "knowledge_refs": [
+    "perl/perl-10-regular-expressions"
+   ]
+  },
+  {
+   "slug": "perl-11-file-io",
+   "title": "File I/O",
+   "description": "Opening files, reading lines, and the diamond operator.",
+   "type": "lesson",
+   "order": 11,
+   "duration": "30 min",
+   "difficulty": "intermediate",
+   "knowledge_refs": [
+    "perl/perl-11-file-io"
+   ]
+  },
+  {
+   "slug": "perl-12-references",
+   "title": "References",
+   "description": "Scalar, array, hash references, and dereferencing.",
+   "type": "lesson",
+   "order": 12,
+   "duration": "35 min",
+   "difficulty": "intermediate",
+   "knowledge_refs": [
+    "perl/perl-12-references"
+   ]
+  },
+  {
+   "slug": "perl-13-data-structures",
+   "title": "Nested Data Structures",
+   "description": "Arrays of arrays, hashes of hashes, and traversal.",
+   "type": "lesson",
+   "order": 13,
+   "duration": "35 min",
+   "difficulty": "intermediate",
+   "knowledge_refs": [
+    "perl/perl-13-data-structures"
+   ]
+  },
+  {
+   "slug": "perl-14-strings",
+   "title": "String Manipulation",
+   "description": "chomp, case, substr, index, and sprintf.",
+   "type": "lesson",
+   "order": 14,
+   "duration": "25 min",
+   "difficulty": "intermediate",
+   "knowledge_refs": [
+    "perl/perl-14-strings"
+   ]
+  },
+  {
+   "slug": "perl-15-error-handling",
+   "title": "Error Handling",
+   "description": "die, warn, eval, and the $@ variable.",
+   "type": "lesson",
+   "order": 15,
+   "duration": "30 min",
+   "difficulty": "intermediate",
+   "knowledge_refs": [
+    "perl/perl-15-error-handling"
+   ]
+  },
+  {
+   "slug": "perl-16-modules",
+   "title": "Modules and Packages",
+   "description": "use, require, package, and the Exporter.",
+   "type": "lesson",
+   "order": 16,
+   "duration": "30 min",
+   "difficulty": "intermediate",
+   "knowledge_refs": [
+    "perl/perl-16-modules"
+   ]
+  },
+  {
+   "slug": "perl-17-oop",
+   "title": "Object-Oriented Perl",
+   "description": "bless, methods, inheritance, and modern OO.",
+   "type": "lesson",
+   "order": 17,
+   "duration": "35 min",
+   "difficulty": "intermediate",
+   "knowledge_refs": [
+    "perl/perl-17-oop"
+   ]
+  },
+  {
+   "slug": "perl-18-context",
+   "title": "Context",
+   "description": "Scalar vs list context and wantarray.",
+   "type": "lesson",
+   "order": 18,
+   "duration": "30 min",
+   "difficulty": "expert",
+   "knowledge_refs": [
+    "perl/perl-18-context"
+   ]
+  },
+  {
+   "slug": "perl-19-cpan-tooling",
+   "title": "CPAN and Tooling",
+   "description": "The module ecosystem, installers, and perldoc.",
+   "type": "lesson",
+   "order": 19,
+   "duration": "25 min",
+   "difficulty": "intermediate",
+   "knowledge_refs": [
+    "perl/perl-19-cpan-tooling"
+   ]
+  },
+  {
+   "slug": "perl-20-unicode",
+   "title": "Unicode and Encoding",
+   "description": "utf8, Encode, file layers, and character properties.",
+   "type": "lesson",
+   "order": 20,
+   "duration": "30 min",
+   "difficulty": "expert",
+   "knowledge_refs": [
+    "perl/perl-20-unicode"
+   ]
+  },
+  {
+   "slug": "perl-21-ecosystem-next-steps",
+   "title": "Ecosystem and Next Steps",
+   "description": "Mojolicious, DBI, testing, and the road ahead.",
+   "type": "lesson",
+   "order": 21,
+   "duration": "20 min",
+   "difficulty": "intermediate",
+   "knowledge_refs": [
+    "perl/perl-21-ecosystem-next-steps"
+   ]
+  }
+ ]
 }

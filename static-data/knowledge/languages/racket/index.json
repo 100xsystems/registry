@@ -10,12 +10,12 @@
         {
           "title": "How to Design Programs (HTDP)",
           "url": "https://htdp.org/",
-          "description": "The definitive introductory CS textbook using Racket \u2014 teaches systematic program design from first principles."
+          "description": "The definitive introductory CS textbook using Racket — teaches systematic program design from first principles."
         },
         {
           "title": "Realm of Racket",
           "url": "https://www.realmofracket.com/",
-          "description": "A fun project-based book teaching Racket through game development \u2014 free to read online."
+          "description": "A fun project-based book teaching Racket through game development — free to read online."
         },
         {
           "title": "Beautiful Racket",
@@ -62,7 +62,7 @@
       "icon": "terminal",
       "items": [
         {
-          "title": "Exercism \u2014 Racket Track",
+          "title": "Exercism — Racket Track",
           "url": "https://exercism.org/tracks/racket",
           "description": "Structured exercises for learning Racket programming."
         }
@@ -109,22 +109,256 @@
   ],
   "lessons": [
     {
-      "slug": "fundamentals",
-      "title": "Fundamentals of Racket",
-      "description": "Core concepts, syntax, and first steps with Racket",
+      "slug": "racket-01-getting-started",
+      "title": "Getting Started with Racket",
+      "description": "Install, DrRacket, hello world.",
       "type": "lesson",
       "order": 1,
       "duration": "45 min",
-      "difficulty": "beginner"
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "racket/racket-01-getting-started"
+      ]
     },
     {
-      "slug": "practical-guide",
-      "title": "Practical Racket Guide",
-      "description": "Real-world usage, tooling, and ecosystem",
+      "slug": "racket-02-forms",
+      "title": "Expressions and Values",
+      "description": "S-expressions and evaluation.",
       "type": "lesson",
       "order": 2,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "racket/racket-02-forms"
+      ]
+    },
+    {
+      "slug": "racket-03-definitions",
+      "title": "Definitions",
+      "description": "define and let.",
+      "type": "lesson",
+      "order": 3,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "racket/racket-03-definitions"
+      ]
+    },
+    {
+      "slug": "racket-04-functions",
+      "title": "Functions",
+      "description": "define and lambda.",
+      "type": "lesson",
+      "order": 4,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "racket/racket-04-functions"
+      ]
+    },
+    {
+      "slug": "racket-05-lists",
+      "title": "Lists",
+      "description": "Build and process lists.",
+      "type": "lesson",
+      "order": 5,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "racket/racket-05-lists"
+      ]
+    },
+    {
+      "slug": "racket-06-conditionals",
+      "title": "Conditionals",
+      "description": "if, cond, and cases.",
+      "type": "lesson",
+      "order": 6,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "racket/racket-06-conditionals"
+      ]
+    },
+    {
+      "slug": "racket-07-iteration",
+      "title": "Iteration",
+      "description": "for loops and recursion.",
+      "type": "lesson",
+      "order": 7,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "racket/racket-07-iteration"
+      ]
+    },
+    {
+      "slug": "racket-08-structs",
+      "title": "Structs",
+      "description": "Custom data types.",
+      "type": "lesson",
+      "order": 8,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "racket/racket-08-structs"
+      ]
+    },
+    {
+      "slug": "racket-09-strings",
+      "title": "Strings",
+      "description": "String functions.",
+      "type": "lesson",
+      "order": 9,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "racket/racket-09-strings"
+      ]
+    },
+    {
+      "slug": "racket-10-higher-order",
+      "title": "Higher-Order Functions",
+      "description": "Functions as values.",
+      "type": "lesson",
+      "order": 10,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "racket/racket-10-higher-order"
+      ]
+    },
+    {
+      "slug": "racket-11-hash-tables",
+      "title": "Hash Tables",
+      "description": "Key-value storage.",
+      "type": "lesson",
+      "order": 11,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "racket/racket-11-hash-tables"
+      ]
+    },
+    {
+      "slug": "racket-12-exceptions",
+      "title": "Exceptions",
+      "description": "Raise and handle errors.",
+      "type": "lesson",
+      "order": 12,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "racket/racket-12-exceptions"
+      ]
+    },
+    {
+      "slug": "racket-13-io",
+      "title": "Input/Output",
+      "description": "Read and write.",
+      "type": "lesson",
+      "order": 13,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "racket/racket-13-io"
+      ]
+    },
+    {
+      "slug": "racket-14-macros",
+      "title": "Macros",
+      "description": "Code generation.",
+      "type": "lesson",
+      "order": 14,
       "duration": "60 min",
-      "difficulty": "intermediate"
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "racket/racket-14-macros"
+      ]
+    },
+    {
+      "slug": "racket-15-modules",
+      "title": "Modules",
+      "description": "Organize Racket code.",
+      "type": "lesson",
+      "order": 15,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "racket/racket-15-modules"
+      ]
+    },
+    {
+      "slug": "racket-16-matching",
+      "title": "Pattern Matching",
+      "description": "match expressions.",
+      "type": "lesson",
+      "order": 16,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "racket/racket-16-matching"
+      ]
+    },
+    {
+      "slug": "racket-17-oop",
+      "title": "Objects and Classes",
+      "description": "Racket OOP.",
+      "type": "lesson",
+      "order": 17,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "racket/racket-17-oop"
+      ]
+    },
+    {
+      "slug": "racket-18-threads",
+      "title": "Threads and Concurrency",
+      "description": "Parallel execution.",
+      "type": "lesson",
+      "order": 18,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "racket/racket-18-threads"
+      ]
+    },
+    {
+      "slug": "racket-19-gui",
+      "title": "GUI Programming",
+      "description": "Build interfaces with racket/gui.",
+      "type": "lesson",
+      "order": 19,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "racket/racket-19-gui"
+      ]
+    },
+    {
+      "slug": "racket-20-http",
+      "title": "Web Servers",
+      "description": "Serve HTTP with Racket.",
+      "type": "lesson",
+      "order": 20,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "racket/racket-20-http"
+      ]
+    },
+    {
+      "slug": "racket-21-ecosystem",
+      "title": "Ecosystem and Next Steps",
+      "description": "Raco, packages, community.",
+      "type": "lesson",
+      "order": 21,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "racket/racket-21-ecosystem"
+      ]
     }
   ]
 }

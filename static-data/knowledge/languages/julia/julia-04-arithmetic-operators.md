@@ -4,7 +4,7 @@
   "description": "Numeric operators, chained comparisons, and bitwise ops.",
   "type": "lesson",
   "order": 4,
-  "duration": 25,
+  "duration": "25 min",
   "difficulty": "beginner",
   "learning_objectives": [
     "Use arithmetic, comparison, and logical operators",

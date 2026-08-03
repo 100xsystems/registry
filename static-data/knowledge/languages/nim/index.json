@@ -40,7 +40,7 @@
       "icon": "code",
       "items": [
         {
-          "title": "Exercism \u2014 Nim Track",
+          "title": "Exercism — Nim Track",
           "url": "https://exercism.org/tracks/nim",
           "description": "Free coding exercises with automated analysis and optional human mentoring."
         }
@@ -62,7 +62,7 @@
       "icon": "terminal",
       "items": [
         {
-          "title": "Exercism \u2014 Nim Track",
+          "title": "Exercism — Nim Track",
           "url": "https://exercism.org/tracks/nim",
           "description": "Structured exercises for mastering Nim syntax and patterns."
         }
@@ -114,22 +114,256 @@
   ],
   "lessons": [
     {
-      "slug": "fundamentals",
-      "title": "Fundamentals of Nim",
-      "description": "Core concepts, syntax, and first steps with Nim",
+      "slug": "nim-01-getting-started",
+      "title": "Getting Started with Nim",
+      "description": "Install, compile, and run your first program.",
       "type": "lesson",
       "order": 1,
       "duration": "45 min",
-      "difficulty": "beginner"
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "nim/nim-01-getting-started"
+      ]
     },
     {
-      "slug": "practical-guide",
-      "title": "Practical Nim Guide",
-      "description": "Real-world usage, tooling, and ecosystem",
+      "slug": "nim-02-variables",
+      "title": "Variables and Types",
+      "description": "var, let, const, and built-in types.",
       "type": "lesson",
       "order": 2,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "nim/nim-02-variables"
+      ]
+    },
+    {
+      "slug": "nim-03-control-flow",
+      "title": "Control Flow",
+      "description": "if, case, and loops.",
+      "type": "lesson",
+      "order": 3,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "nim/nim-03-control-flow"
+      ]
+    },
+    {
+      "slug": "nim-04-collections",
+      "title": "Sequences and Arrays",
+      "description": "Dynamic sequences and fixed arrays.",
+      "type": "lesson",
+      "order": 4,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "nim/nim-04-collections"
+      ]
+    },
+    {
+      "slug": "nim-05-strings",
+      "title": "Strings",
+      "description": "String operations and formatting.",
+      "type": "lesson",
+      "order": 5,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "nim/nim-05-strings"
+      ]
+    },
+    {
+      "slug": "nim-06-procs",
+      "title": "Procedures",
+      "description": "Write typed procedures with defaults.",
+      "type": "lesson",
+      "order": 6,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "nim/nim-06-procs"
+      ]
+    },
+    {
+      "slug": "nim-07-objects",
+      "title": "Objects and References",
+      "description": "Define and use object types.",
+      "type": "lesson",
+      "order": 7,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "nim/nim-07-objects"
+      ]
+    },
+    {
+      "slug": "nim-08-enums",
+      "title": "Enums and Case Objects",
+      "description": "Enumerations and variant objects.",
+      "type": "lesson",
+      "order": 8,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "nim/nim-08-enums"
+      ]
+    },
+    {
+      "slug": "nim-09-generics",
+      "title": "Generics",
+      "description": "Type-parameterized code.",
+      "type": "lesson",
+      "order": 9,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "nim/nim-09-generics"
+      ]
+    },
+    {
+      "slug": "nim-10-exceptions",
+      "title": "Exceptions and Error Handling",
+      "description": "try/except and raise.",
+      "type": "lesson",
+      "order": 10,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "nim/nim-10-exceptions"
+      ]
+    },
+    {
+      "slug": "nim-11-tables",
+      "title": "Tables and Sets",
+      "description": "Hash tables and sets from stdlib.",
+      "type": "lesson",
+      "order": 11,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "nim/nim-11-tables"
+      ]
+    },
+    {
+      "slug": "nim-12-file-io",
+      "title": "File Input/Output",
+      "description": "Read and write files.",
+      "type": "lesson",
+      "order": 12,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "nim/nim-12-file-io"
+      ]
+    },
+    {
+      "slug": "nim-13-io-streams",
+      "title": "Streams and stdin/stdout",
+      "description": "Stream processing and user input.",
+      "type": "lesson",
+      "order": 13,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "nim/nim-13-io-streams"
+      ]
+    },
+    {
+      "slug": "nim-14-iterators",
+      "title": "Iterators",
+      "description": "Custom iteration logic.",
+      "type": "lesson",
+      "order": 14,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "nim/nim-14-iterators"
+      ]
+    },
+    {
+      "slug": "nim-15-concurrency",
+      "title": "Concurrency with Threads",
+      "description": "Threads, channels, and locks.",
+      "type": "lesson",
+      "order": 15,
       "duration": "60 min",
-      "difficulty": "intermediate"
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "nim/nim-15-concurrency"
+      ]
+    },
+    {
+      "slug": "nim-16-macros",
+      "title": "Macros and Metaprogramming",
+      "description": "Compile-time code generation.",
+      "type": "lesson",
+      "order": 16,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "nim/nim-16-macros"
+      ]
+    },
+    {
+      "slug": "nim-17-templates",
+      "title": "Templates",
+      "description": "Inline code substitution.",
+      "type": "lesson",
+      "order": 17,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "nim/nim-17-templates"
+      ]
+    },
+    {
+      "slug": "nim-18-ffi",
+      "title": "Foreign Function Interface",
+      "description": "Call C libraries from Nim.",
+      "type": "lesson",
+      "order": 18,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "nim/nim-18-ffi"
+      ]
+    },
+    {
+      "slug": "nim-19-nimscript",
+      "title": "NimScript and Build Tooling",
+      "description": "Scripting, nimble, and configs.",
+      "type": "lesson",
+      "order": 19,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "nim/nim-19-nimscript"
+      ]
+    },
+    {
+      "slug": "nim-20-testing",
+      "title": "Testing with unittest",
+      "description": "Write and run unit tests.",
+      "type": "lesson",
+      "order": 20,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "nim/nim-20-testing"
+      ]
+    },
+    {
+      "slug": "nim-21-ecosystem",
+      "title": "Ecosystem and Next Steps",
+      "description": "Libraries, web dev, and community.",
+      "type": "lesson",
+      "order": 21,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "nim/nim-21-ecosystem"
+      ]
     }
   ]
 }

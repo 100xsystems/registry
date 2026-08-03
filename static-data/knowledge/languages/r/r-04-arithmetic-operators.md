@@ -4,7 +4,7 @@
   "description": "Numeric, comparison, logical, and vectorized operators.",
   "type": "lesson",
   "order": 4,
-  "duration": 25,
+  "duration": "25 min",
   "difficulty": "beginner",
   "learning_objectives": [
     "Use arithmetic and comparison operators",

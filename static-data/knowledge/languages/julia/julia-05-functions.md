@@ -4,7 +4,7 @@
   "description": "Definitions, keyword arguments, anonymous functions, splatting.",
   "type": "lesson",
   "order": 5,
-  "duration": 30,
+  "duration": "30 min",
   "difficulty": "beginner",
   "learning_objectives": [
     "Define functions in one line and multi-line form",

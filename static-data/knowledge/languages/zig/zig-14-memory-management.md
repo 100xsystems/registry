@@ -4,7 +4,7 @@
   "description": "Explicit allocators, defer, realloc, and arenas.",
   "type": "lesson",
   "order": 14,
-  "duration": 45,
+  "duration": "45 min",
   "difficulty": "expert",
   "learning_objectives": [
     "Explain why Zig makes allocators explicit",

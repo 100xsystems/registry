@@ -4,7 +4,7 @@
   "description": "Integers, floats, bools, chars, and explicit casts.",
   "type": "lesson",
   "order": 2,
-  "duration": 25,
+  "duration": "25 min",
   "difficulty": "beginner",
   "learning_objectives": [
     "Choose integer types with explicit sizes",

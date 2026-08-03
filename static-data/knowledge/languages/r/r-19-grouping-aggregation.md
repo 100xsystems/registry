@@ -4,7 +4,7 @@
   "description": "table, aggregate, split, and group_by + summarize.",
   "type": "lesson",
   "order": 19,
-  "duration": 30,
+  "duration": "30 min",
   "difficulty": "intermediate",
   "learning_objectives": [
     "Count categories with table()",

@@ -4,7 +4,7 @@
   "description": "std.debug, std.mem, std.ArrayList, and StringHashMap.",
   "type": "lesson",
   "order": 20,
-  "duration": 30,
+  "duration": "30 min",
   "difficulty": "intermediate",
   "learning_objectives": [
     "Print and inspect with std.debug",

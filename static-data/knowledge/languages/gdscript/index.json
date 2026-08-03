@@ -124,22 +124,256 @@
   ],
   "lessons": [
     {
-      "slug": "fundamentals",
-      "title": "Fundamentals of GDScript",
-      "description": "Core concepts, syntax, and first steps with GDScript",
+      "slug": "gdscript-01-getting-started",
+      "title": "Getting Started with GDScript",
+      "description": "Godot editor, scripts, and hello.",
       "type": "lesson",
       "order": 1,
       "duration": "45 min",
-      "difficulty": "beginner"
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "gdscript/gdscript-01-getting-started"
+      ]
     },
     {
-      "slug": "practical-guide",
-      "title": "Practical GDScript Guide",
-      "description": "Real-world usage, tooling, and ecosystem",
+      "slug": "gdscript-02-variables",
+      "title": "Variables and Types",
+      "description": "Typed and untyped declarations.",
       "type": "lesson",
       "order": 2,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "gdscript/gdscript-02-variables"
+      ]
+    },
+    {
+      "slug": "gdscript-03-control-flow",
+      "title": "Control Flow",
+      "description": "if, match, and loops.",
+      "type": "lesson",
+      "order": 3,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "gdscript/gdscript-03-control-flow"
+      ]
+    },
+    {
+      "slug": "gdscript-04-functions",
+      "title": "Functions",
+      "description": "Define and call functions.",
+      "type": "lesson",
+      "order": 4,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "gdscript/gdscript-04-functions"
+      ]
+    },
+    {
+      "slug": "gdscript-05-arrays",
+      "title": "Arrays and Dictionaries",
+      "description": "Collections in GDScript.",
+      "type": "lesson",
+      "order": 5,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "gdscript/gdscript-05-arrays"
+      ]
+    },
+    {
+      "slug": "gdscript-06-signals",
+      "title": "Signals",
+      "description": "Event-driven communication.",
+      "type": "lesson",
+      "order": 6,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "gdscript/gdscript-06-signals"
+      ]
+    },
+    {
+      "slug": "gdscript-07-scenes",
+      "title": "Scenes and Nodes",
+      "description": "Compose games with the scene tree.",
+      "type": "lesson",
+      "order": 7,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "gdscript/gdscript-07-scenes"
+      ]
+    },
+    {
+      "slug": "gdscript-08-physics",
+      "title": "Physics and Movement",
+      "description": "Move and collide in 2D.",
+      "type": "lesson",
+      "order": 8,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "gdscript/gdscript-08-physics"
+      ]
+    },
+    {
+      "slug": "gdscript-09-input",
+      "title": "Input Handling",
+      "description": "Keyboard, mouse, and actions.",
+      "type": "lesson",
+      "order": 9,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "gdscript/gdscript-09-input"
+      ]
+    },
+    {
+      "slug": "gdscript-10-classes",
+      "title": "Custom Classes and Inheritance",
+      "description": "Extend nodes and structure code.",
+      "type": "lesson",
+      "order": 10,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "gdscript/gdscript-10-classes"
+      ]
+    },
+    {
+      "slug": "gdscript-11-animation",
+      "title": "Animations",
+      "description": "Animate sprites and properties.",
+      "type": "lesson",
+      "order": 11,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "gdscript/gdscript-11-animation"
+      ]
+    },
+    {
+      "slug": "gdscript-12-export",
+      "title": "Exporting Variables",
+      "description": "Configure nodes in the editor.",
+      "type": "lesson",
+      "order": 12,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "gdscript/gdscript-12-export"
+      ]
+    },
+    {
+      "slug": "gdscript-13-areas",
+      "title": "Areas and Collisions",
+      "description": "Overlap detection.",
+      "type": "lesson",
+      "order": 13,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "gdscript/gdscript-13-areas"
+      ]
+    },
+    {
+      "slug": "gdscript-14-ui",
+      "title": "UI and HUDs",
+      "description": "Labels, buttons, and layouts.",
+      "type": "lesson",
+      "order": 14,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "gdscript/gdscript-14-ui"
+      ]
+    },
+    {
+      "slug": "gdscript-15-save",
+      "title": "Saving and Loading",
+      "description": "Persist game state.",
+      "type": "lesson",
+      "order": 15,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "gdscript/gdscript-15-save"
+      ]
+    },
+    {
+      "slug": "gdscript-16-groups",
+      "title": "Groups and Communication",
+      "description": "Broadcast to many nodes.",
+      "type": "lesson",
+      "order": 16,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "gdscript/gdscript-16-groups"
+      ]
+    },
+    {
+      "slug": "gdscript-17-multithreading",
+      "title": "Threads and Async",
+      "description": "Parallel work with signals.",
+      "type": "lesson",
+      "order": 17,
       "duration": "60 min",
-      "difficulty": "intermediate"
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "gdscript/gdscript-17-multithreading"
+      ]
+    },
+    {
+      "slug": "gdscript-18-autoloads",
+      "title": "Autoload Singletons",
+      "description": "Global game state.",
+      "type": "lesson",
+      "order": 18,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "gdscript/gdscript-18-autoloads"
+      ]
+    },
+    {
+      "slug": "gdscript-19-export-game",
+      "title": "Exporting Games",
+      "description": "Build for platforms.",
+      "type": "lesson",
+      "order": 19,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "gdscript/gdscript-19-export-game"
+      ]
+    },
+    {
+      "slug": "gdscript-20-optimization",
+      "title": "Performance Tips",
+      "description": "Keep games running fast.",
+      "type": "lesson",
+      "order": 20,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "gdscript/gdscript-20-optimization"
+      ]
+    },
+    {
+      "slug": "gdscript-21-ecosystem",
+      "title": "Ecosystem and Next Steps",
+      "description": "Asset libraries and community.",
+      "type": "lesson",
+      "order": 21,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "gdscript/gdscript-21-ecosystem"
+      ]
     }
   ]
 }

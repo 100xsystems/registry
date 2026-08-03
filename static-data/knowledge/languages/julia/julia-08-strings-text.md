@@ -4,7 +4,7 @@
   "description": "UTF-8 handling, interpolation, and string functions.",
   "type": "lesson",
   "order": 8,
-  "duration": 25,
+  "duration": "25 min",
   "difficulty": "beginner",
   "learning_objectives": [
     "Explain UTF-8 semantics of Julia strings",

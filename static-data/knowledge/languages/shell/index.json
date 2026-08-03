@@ -1,7 +1,7 @@
 {
   "slug": "shell",
   "name": "Shell",
-  "description": "Shell scripting (Bash) is the universal glue of software engineering. It automates deployments, manages infrastructure, processes data pipelines, and controls the entire development toolchain. These are the definitive free resources \u2014 vetted, current, and complete.",
+  "description": "Shell scripting (Bash) is the universal glue of software engineering. It automates deployments, manages infrastructure, processes data pipelines, and controls the entire development toolchain. These are the definitive free resources — vetted, current, and complete.",
   "categories": [
     {
       "label": "Free Books",
@@ -13,7 +13,7 @@
           "description": "A comprehensive guide from basic keystrokes through advanced multi-file Bash shell scripts. Free PDF download."
         },
         {
-          "title": "Gregs Wiki \u2014 BashGuide",
+          "title": "Gregs Wiki — BashGuide",
           "url": "https://mywiki.wooledge.org/BashGuide",
           "description": "Considered the gold standard for learning proper Bash scripting with modern syntax, best practices, and anti-pattern avoidance."
         },
@@ -34,7 +34,7 @@
           "description": "The ultimate source of truth for Bash syntax, expansions, redirections, builtins, and parameter transformations."
         },
         {
-          "title": "ShellCheck \u2014 Static Analysis Tool",
+          "title": "ShellCheck — Static Analysis Tool",
           "url": "https://www.shellcheck.net/",
           "description": "Indispensable real-time linter identifying syntax errors, quoting mistakes, and subtle bugs in Bash scripts."
         }
@@ -50,7 +50,7 @@
           "description": "Free browser-based tutorial covering basic string operations, arrays, loops, conditionals, sed, and awk."
         },
         {
-          "title": "Codecademy \u2014 Linux & Bash Scripting",
+          "title": "Codecademy — Linux & Bash Scripting",
           "url": "https://www.codecademy.com/catalog/language/bash",
           "description": "Free interactive tracks teaching file system navigation and automated workflows using shell scripts."
         }
@@ -77,7 +77,7 @@
       "icon": "terminal",
       "items": [
         {
-          "title": "Exercism \u2014 Bash Track",
+          "title": "Exercism — Bash Track",
           "url": "https://exercism.org/tracks/bash",
           "description": "Coding exercises with automated analysis and human mentor feedback for writing robust shell scripts."
         },
@@ -135,7 +135,7 @@
           "description": "Premier Q&A for deep architectural inquiries, complex pipeline problems, and shell-specific nuances."
         },
         {
-          "title": "Stack Overflow \u2014 Bash Tag",
+          "title": "Stack Overflow — Bash Tag",
           "url": "https://stackoverflow.com/questions/tagged/bash",
           "description": "Definitive forum for debugging shell scripts, quoting issues, and scripting best practices."
         }
@@ -144,22 +144,256 @@
   ],
   "lessons": [
     {
-      "slug": "fundamentals",
-      "title": "Fundamentals of Shell",
-      "description": "Core concepts, syntax, and first steps with Shell",
+      "slug": "shell-01-getting-started",
+      "title": "Getting Started with Shell Scripting",
+      "description": "Shebang, echo, permissions, and your first script.",
       "type": "lesson",
       "order": 1,
       "duration": "45 min",
-      "difficulty": "beginner"
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "shell/shell-01-getting-started"
+      ]
     },
     {
-      "slug": "practical-guide",
-      "title": "Practical Shell Guide",
-      "description": "Real-world usage, tooling, and ecosystem",
+      "slug": "shell-02-variables",
+      "title": "Variables and Expansion",
+      "description": "Assignment, quoting, parameter expansion, and special variables.",
       "type": "lesson",
       "order": 2,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "shell/shell-02-variables"
+      ]
+    },
+    {
+      "slug": "shell-03-arithmetic",
+      "title": "Arithmetic and Exit Status",
+      "description": "Integer math, command substitution, and exit codes.",
+      "type": "lesson",
+      "order": 3,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "shell/shell-03-arithmetic"
+      ]
+    },
+    {
+      "slug": "shell-04-conditionals",
+      "title": "Conditionals and test",
+      "description": "if/elif/else, test brackets [ ], and compound conditions.",
+      "type": "lesson",
+      "order": 4,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "shell/shell-04-conditionals"
+      ]
+    },
+    {
+      "slug": "shell-05-loops",
+      "title": "Loops: for, while, until",
+      "description": "Iteration over lists, reading files, and loop control.",
+      "type": "lesson",
+      "order": 5,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "shell/shell-05-loops"
+      ]
+    },
+    {
+      "slug": "shell-06-functions",
+      "title": "Functions",
+      "description": "Define, call, and scope functions with arguments.",
+      "type": "lesson",
+      "order": 6,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "shell/shell-06-functions"
+      ]
+    },
+    {
+      "slug": "shell-07-globbing",
+      "title": "Globbing and Pattern Matching",
+      "description": "Filename expansion, wildcards, and extglob patterns.",
+      "type": "lesson",
+      "order": 7,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "shell/shell-07-globbing"
+      ]
+    },
+    {
+      "slug": "shell-08-string-manipulation",
+      "title": "String Manipulation",
+      "description": "Substring, length, replacement, and case conversion.",
+      "type": "lesson",
+      "order": 8,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "shell/shell-08-string-manipulation"
+      ]
+    },
+    {
+      "slug": "shell-09-arrays",
+      "title": "Arrays",
+      "description": "Indexed and associative arrays for structured data.",
+      "type": "lesson",
+      "order": 9,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "shell/shell-09-arrays"
+      ]
+    },
+    {
+      "slug": "shell-10-io-redirection",
+      "title": "Input/Output Redirection",
+      "description": "Redirect stdin/stdout/stderr, pipes, and heredocs.",
+      "type": "lesson",
+      "order": 10,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "shell/shell-10-io-redirection"
+      ]
+    },
+    {
+      "slug": "shell-11-job-control",
+      "title": "Job Control and Processes",
+      "description": "Background jobs, signals, and process management.",
+      "type": "lesson",
+      "order": 11,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "shell/shell-11-job-control"
+      ]
+    },
+    {
+      "slug": "shell-12-sed",
+      "title": "Text Processing with sed",
+      "description": "Stream editing: substitution, deletion, and ranges.",
+      "type": "lesson",
+      "order": 12,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "shell/shell-12-sed"
+      ]
+    },
+    {
+      "slug": "shell-13-awk",
+      "title": "Text Processing with awk",
+      "description": "Column extraction, conditions, and summary reports.",
+      "type": "lesson",
+      "order": 13,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "shell/shell-13-awk"
+      ]
+    },
+    {
+      "slug": "shell-14-regex",
+      "title": "Regular Expressions with grep",
+      "description": "grep patterns, extended regex, and ripgrep alternatives.",
+      "type": "lesson",
+      "order": 14,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "shell/shell-14-regex"
+      ]
+    },
+    {
+      "slug": "shell-15-parameter-expansion",
+      "title": "Advanced Parameter Expansion",
+      "description": "Defaults, indirection, and case modification.",
+      "type": "lesson",
+      "order": 15,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "shell/shell-15-parameter-expansion"
+      ]
+    },
+    {
+      "slug": "shell-16-debugging",
+      "title": "Debugging and Error Handling",
+      "description": "set -euxo, tracing, and defensive scripting.",
+      "type": "lesson",
+      "order": 16,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "shell/shell-16-debugging"
+      ]
+    },
+    {
+      "slug": "shell-17-environment",
+      "title": "Environment and Configuration",
+      "description": "ENV vars, exports, and config file patterns.",
+      "type": "lesson",
+      "order": 17,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "shell/shell-17-environment"
+      ]
+    },
+    {
+      "slug": "shell-18-commands-find-xargs",
+      "title": "find and xargs",
+      "description": "Find files, execute commands, and parallel processing.",
+      "type": "lesson",
+      "order": 18,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "shell/shell-18-commands-find-xargs"
+      ]
+    },
+    {
+      "slug": "shell-19-scripts-in-practice",
+      "title": "Shell Scripts in Practice",
+      "description": "Real CLI tools: argument parsing and help text.",
+      "type": "lesson",
+      "order": 19,
       "duration": "60 min",
-      "difficulty": "intermediate"
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "shell/shell-19-scripts-in-practice"
+      ]
+    },
+    {
+      "slug": "shell-20-performance",
+      "title": "Performance and Best Practices",
+      "description": "Avoid subshells, optimize loops, and follow style guides.",
+      "type": "lesson",
+      "order": 20,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "shell/shell-20-performance"
+      ]
+    },
+    {
+      "slug": "shell-21-ecosystem",
+      "title": "Ecosystem and Next Steps",
+      "description": "Bash alternatives, tools, and where to go next.",
+      "type": "lesson",
+      "order": 21,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "shell/shell-21-ecosystem"
+      ]
     }
   ]
 }

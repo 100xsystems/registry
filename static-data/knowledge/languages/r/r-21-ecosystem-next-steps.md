@@ -4,7 +4,7 @@
   "description": "CRAN, R Markdown, Shiny, and the road ahead.",
   "type": "lesson",
   "order": 21,
-  "duration": 20,
+  "duration": "20 min",
   "difficulty": "intermediate",
   "learning_objectives": [
     "Install packages from CRAN and Bioconductor",

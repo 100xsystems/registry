@@ -42,7 +42,7 @@
         {
           "title": "Compiler Explorer (Godbolt)",
           "url": "https://godbolt.org/",
-          "description": "Write C/C++/Rust and see the generated assembly output instantly \u2014 essential for learning how compilers translate code."
+          "description": "Write C/C++/Rust and see the generated assembly output instantly — essential for learning how compilers translate code."
         },
         {
           "title": "Azeria Labs ARM Assembly",
@@ -74,7 +74,7 @@
         {
           "title": "Compiler Explorer (Godbolt)",
           "url": "https://godbolt.org/",
-          "description": "Best tool for practicing assembly \u2014 compare your output with compiler-generated code."
+          "description": "Best tool for practicing assembly — compare your output with compiler-generated code."
         },
         {
           "title": "TIS-100 (Programming Game)",
@@ -125,7 +125,7 @@
           "description": "Dedicated community for assembly language questions and code discussions."
         },
         {
-          "title": "Stack Overflow \u2014 Assembly Tag",
+          "title": "Stack Overflow — Assembly Tag",
           "url": "https://stackoverflow.com/questions/tagged/assembly",
           "description": "Q&A for assembly syntax, debugging, and low-level code optimization."
         }
@@ -134,22 +134,256 @@
   ],
   "lessons": [
     {
-      "slug": "fundamentals",
-      "title": "Fundamentals of Assembly",
-      "description": "Core concepts, syntax, and first steps with Assembly",
+      "slug": "assembly-01-getting-started",
+      "title": "Getting Started with Assembly",
+      "description": "Registers, syscalls, and hello world in NASM.",
       "type": "lesson",
       "order": 1,
-      "duration": "45 min",
-      "difficulty": "beginner"
+      "duration": "60 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "assembly/assembly-01-getting-started"
+      ]
     },
     {
-      "slug": "practical-guide",
-      "title": "Practical Assembly Guide",
-      "description": "Real-world usage, tooling, and ecosystem",
+      "slug": "assembly-02-registers",
+      "title": "Registers and Data Sizes",
+      "description": "General-purpose, sizes, and moves.",
       "type": "lesson",
       "order": 2,
       "duration": "60 min",
-      "difficulty": "intermediate"
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "assembly/assembly-02-registers"
+      ]
+    },
+    {
+      "slug": "assembly-03-memory",
+      "title": "Memory Addressing",
+      "description": "Effective addresses and addressing modes.",
+      "type": "lesson",
+      "order": 3,
+      "duration": "60 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "assembly/assembly-03-memory"
+      ]
+    },
+    {
+      "slug": "assembly-04-arithmetic",
+      "title": "Arithmetic Instructions",
+      "description": "add, sub, imul, and idiv.",
+      "type": "lesson",
+      "order": 4,
+      "duration": "60 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "assembly/assembly-04-arithmetic"
+      ]
+    },
+    {
+      "slug": "assembly-05-logical",
+      "title": "Logical and Bit Operations",
+      "description": "and, or, xor, shifts.",
+      "type": "lesson",
+      "order": 5,
+      "duration": "60 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "assembly/assembly-05-logical"
+      ]
+    },
+    {
+      "slug": "assembly-06-control-flow",
+      "title": "Control Flow",
+      "description": "cmp, jumps, and loops.",
+      "type": "lesson",
+      "order": 6,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "assembly/assembly-06-control-flow"
+      ]
+    },
+    {
+      "slug": "assembly-07-stack",
+      "title": "The Stack",
+      "description": "push, pop, and calling conventions.",
+      "type": "lesson",
+      "order": 7,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "assembly/assembly-07-stack"
+      ]
+    },
+    {
+      "slug": "assembly-08-call-convention",
+      "title": "SysV Calling Convention",
+      "description": "Function arguments and System V ABI.",
+      "type": "lesson",
+      "order": 8,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "assembly/assembly-08-call-convention"
+      ]
+    },
+    {
+      "slug": "assembly-09-data-directives",
+      "title": "Data Directives",
+      "description": "db, dw, dd, dq, resb, equ.",
+      "type": "lesson",
+      "order": 9,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "assembly/assembly-09-data-directives"
+      ]
+    },
+    {
+      "slug": "assembly-10-strings",
+      "title": "String Operations",
+      "description": "String instructions and length.",
+      "type": "lesson",
+      "order": 10,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "assembly/assembly-10-strings"
+      ]
+    },
+    {
+      "slug": "assembly-11-arrays",
+      "title": "Arrays and Indexing",
+      "description": "Index arithmetic and iteration.",
+      "type": "lesson",
+      "order": 11,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "assembly/assembly-11-arrays"
+      ]
+    },
+    {
+      "slug": "assembly-12-io",
+      "title": "Input/Output",
+      "description": "Read and write with syscalls.",
+      "type": "lesson",
+      "order": 12,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "assembly/assembly-12-io"
+      ]
+    },
+    {
+      "slug": "assembly-13-fpu",
+      "title": "Floating Point",
+      "description": "SSE and scalar float ops.",
+      "type": "lesson",
+      "order": 13,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "assembly/assembly-13-fpu"
+      ]
+    },
+    {
+      "slug": "assembly-14-interrupts",
+      "title": "Syscalls and Interrupts",
+      "description": "Linux syscall interface.",
+      "type": "lesson",
+      "order": 14,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "assembly/assembly-14-interrupts"
+      ]
+    },
+    {
+      "slug": "assembly-15-files",
+      "title": "File Operations",
+      "description": "Open, read, write, close files.",
+      "type": "lesson",
+      "order": 15,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "assembly/assembly-15-files"
+      ]
+    },
+    {
+      "slug": "assembly-16-bit-manipulation",
+      "title": "Bit Manipulation",
+      "description": "popcnt, bsf, and efficient tricks.",
+      "type": "lesson",
+      "order": 16,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "assembly/assembly-16-bit-manipulation"
+      ]
+    },
+    {
+      "slug": "assembly-17-debugging",
+      "title": "Debugging Assembly",
+      "description": "GDB, breakpoints, and single-stepping.",
+      "type": "lesson",
+      "order": 17,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "assembly/assembly-17-debugging"
+      ]
+    },
+    {
+      "slug": "assembly-18-performance",
+      "title": "Performance Optimization",
+      "description": "Pipeline, alignment, and SIMD.",
+      "type": "lesson",
+      "order": 18,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "assembly/assembly-18-performance"
+      ]
+    },
+    {
+      "slug": "assembly-19-c-interop",
+      "title": "Interfacing with C",
+      "description": "Call C from assembly and vice versa.",
+      "type": "lesson",
+      "order": 19,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "assembly/assembly-19-c-interop"
+      ]
+    },
+    {
+      "slug": "assembly-20-shellcode",
+      "title": "Shellcode Basics",
+      "description": "Position-independent code.",
+      "type": "lesson",
+      "order": 20,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "assembly/assembly-20-shellcode"
+      ]
+    },
+    {
+      "slug": "assembly-21-ecosystem",
+      "title": "Ecosystem and Next Steps",
+      "description": "NASM vs GAS, ARM, and tools.",
+      "type": "lesson",
+      "order": 21,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "assembly/assembly-21-ecosystem"
+      ]
     }
   ]
 }

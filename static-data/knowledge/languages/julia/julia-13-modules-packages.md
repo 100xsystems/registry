@@ -4,7 +4,7 @@
   "description": "Namespaces, Pkg management, import vs using.",
   "type": "lesson",
   "order": 13,
-  "duration": 30,
+  "duration": "30 min",
   "difficulty": "intermediate",
   "learning_objectives": [
     "Create and use modules with export",

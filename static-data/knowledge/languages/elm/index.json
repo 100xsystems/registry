@@ -10,7 +10,7 @@
         {
           "title": "Elm Guide (Official)",
           "url": "https://guide.elm-lang.org/",
-          "description": "The official Elm guide \u2014 the best place to start. Covers everything from installation to building real apps."
+          "description": "The official Elm guide — the best place to start. Covers everything from installation to building real apps."
         },
         {
           "title": "Elm in Action (Manning Free Chapters)",
@@ -42,10 +42,10 @@
         {
           "title": "Elm Workshop",
           "url": "https://elm-workshop.com/",
-          "description": "Interactive Elm exercises covering the basics through advanced patterns \u2014 learn by building."
+          "description": "Interactive Elm exercises covering the basics through advanced patterns — learn by building."
         },
         {
-          "title": "Exercism \u2014 Elm Track",
+          "title": "Exercism — Elm Track",
           "url": "https://exercism.org/tracks/elm",
           "description": "Free coding exercises for Elm with automated analysis and community mentoring."
         }
@@ -72,7 +72,7 @@
       "icon": "terminal",
       "items": [
         {
-          "title": "Exercism \u2014 Elm Track",
+          "title": "Exercism — Elm Track",
           "url": "https://exercism.org/tracks/elm",
           "description": "Free hands-on coding exercises for learning idiomatic Elm."
         }
@@ -124,22 +124,256 @@
   ],
   "lessons": [
     {
-      "slug": "fundamentals",
-      "title": "Fundamentals of Elm",
-      "description": "Core concepts, syntax, and first steps with Elm",
+      "slug": "elm-01-getting-started",
+      "title": "Getting Started with Elm",
+      "description": "Install the compiler and build a first app.",
       "type": "lesson",
       "order": 1,
       "duration": "45 min",
-      "difficulty": "beginner"
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "elm/elm-01-getting-started"
+      ]
     },
     {
-      "slug": "practical-guide",
-      "title": "Practical Elm Guide",
-      "description": "Real-world usage, tooling, and ecosystem",
+      "slug": "elm-02-values",
+      "title": "Values and Functions",
+      "description": "Immutability, functions, and types.",
       "type": "lesson",
       "order": 2,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "elm/elm-02-values"
+      ]
+    },
+    {
+      "slug": "elm-03-numbers-strings",
+      "title": "Numbers and Strings",
+      "description": "Basic types and conversions.",
+      "type": "lesson",
+      "order": 3,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "elm/elm-03-numbers-strings"
+      ]
+    },
+    {
+      "slug": "elm-04-lists",
+      "title": "Lists",
+      "description": "Immutable lists and List module.",
+      "type": "lesson",
+      "order": 4,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "elm/elm-04-lists"
+      ]
+    },
+    {
+      "slug": "elm-05-maybe",
+      "title": "Maybe and Result",
+      "description": "Handle missing values safely.",
+      "type": "lesson",
+      "order": 5,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "elm/elm-05-maybe"
+      ]
+    },
+    {
+      "slug": "elm-06-records",
+      "title": "Records",
+      "description": "Structured data with named fields.",
+      "type": "lesson",
+      "order": 6,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "elm/elm-06-records"
+      ]
+    },
+    {
+      "slug": "elm-07-union-types",
+      "title": "Custom Types",
+      "description": "Enums and tagged unions.",
+      "type": "lesson",
+      "order": 7,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "elm/elm-07-union-types"
+      ]
+    },
+    {
+      "slug": "elm-08-architecture",
+      "title": "The Elm Architecture",
+      "description": "Model, update, and view.",
+      "type": "lesson",
+      "order": 8,
       "duration": "60 min",
-      "difficulty": "intermediate"
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "elm/elm-08-architecture"
+      ]
+    },
+    {
+      "slug": "elm-09-cmd-sub",
+      "title": "Commands and Subscriptions",
+      "description": "Side effects handled by the runtime.",
+      "type": "lesson",
+      "order": 9,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "elm/elm-09-cmd-sub"
+      ]
+    },
+    {
+      "slug": "elm-10-http",
+      "title": "HTTP Requests",
+      "description": "Fetch data from APIs.",
+      "type": "lesson",
+      "order": 10,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "elm/elm-10-http"
+      ]
+    },
+    {
+      "slug": "elm-11-json",
+      "title": "JSON Decoding",
+      "description": "Compose decoders for complex data.",
+      "type": "lesson",
+      "order": 11,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "elm/elm-11-json"
+      ]
+    },
+    {
+      "slug": "elm-12-forms",
+      "title": "Forms and User Input",
+      "description": "Text fields, checkboxes, and validation.",
+      "type": "lesson",
+      "order": 12,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "elm/elm-12-forms"
+      ]
+    },
+    {
+      "slug": "elm-13-routing",
+      "title": "Routing",
+      "description": "Hash routing and page navigation.",
+      "type": "lesson",
+      "order": 13,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "elm/elm-13-routing"
+      ]
+    },
+    {
+      "slug": "elm-14-performance",
+      "title": "Performance",
+      "description": "Virtual DOM and optimization.",
+      "type": "lesson",
+      "order": 14,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "elm/elm-14-performance"
+      ]
+    },
+    {
+      "slug": "elm-15-reusable",
+      "title": "Reusable Components",
+      "description": "Compose modules and components.",
+      "type": "lesson",
+      "order": 15,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "elm/elm-15-reusable"
+      ]
+    },
+    {
+      "slug": "elm-16-testing",
+      "title": "Testing with elm-test",
+      "description": "Unit and fuzz tests.",
+      "type": "lesson",
+      "order": 16,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "elm/elm-16-testing"
+      ]
+    },
+    {
+      "slug": "elm-17-interop",
+      "title": "JavaScript Interop",
+      "description": "Ports and custom elements.",
+      "type": "lesson",
+      "order": 17,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "elm/elm-17-interop"
+      ]
+    },
+    {
+      "slug": "elm-18-architecture-advanced",
+      "title": "Advanced Architecture Patterns",
+      "description": "OutMsg and parent-child flows.",
+      "type": "lesson",
+      "order": 18,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "elm/elm-18-architecture-advanced"
+      ]
+    },
+    {
+      "slug": "elm-19-optimization",
+      "title": "Optimizing Elm Apps",
+      "description": "Bundle size and asset strategy.",
+      "type": "lesson",
+      "order": 19,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "elm/elm-19-optimization"
+      ]
+    },
+    {
+      "slug": "elm-20-style",
+      "title": "Styling Elm Apps",
+      "description": "CSS strategies and elm-ui.",
+      "type": "lesson",
+      "order": 20,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "elm/elm-20-style"
+      ]
+    },
+    {
+      "slug": "elm-21-ecosystem",
+      "title": "Ecosystem and Next Steps",
+      "description": "Packages, tooling, and community.",
+      "type": "lesson",
+      "order": 21,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "elm/elm-21-ecosystem"
+      ]
     }
   ]
 }

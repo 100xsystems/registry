@@ -4,7 +4,7 @@
   "description": "Reuse, ... arguments, closures, and lexical scoping.",
   "type": "lesson",
   "order": 12,
-  "duration": 35,
+  "duration": "35 min",
   "difficulty": "intermediate",
   "learning_objectives": [
     "Compose functions that reuse other functions",

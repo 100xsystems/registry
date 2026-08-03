@@ -4,7 +4,7 @@
   "description": "Vectors, comprehensions, broadcasting, and matrices.",
   "type": "lesson",
   "order": 9,
-  "duration": 35,
+  "duration": "35 min",
   "difficulty": "intermediate",
   "learning_objectives": [
     "Create and index arrays (1-based indexing!)",

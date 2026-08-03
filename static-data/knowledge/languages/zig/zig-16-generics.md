@@ -4,7 +4,7 @@
   "description": "Generic functions and data structures via comptime T.",
   "type": "lesson",
   "order": 16,
-  "duration": 40,
+  "duration": "40 min",
   "difficulty": "expert",
   "learning_objectives": [
     "Parameterize functions with comptime types",

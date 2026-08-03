@@ -10,7 +10,7 @@
         {
           "title": "F# for Fun and Profit",
           "url": "https://fsharpforfunandprofit.com/",
-          "description": "Universally regarded as the best introduction to FP and F# \u2014 covers types, design, and railway-oriented programming."
+          "description": "Universally regarded as the best introduction to FP and F# — covers types, design, and railway-oriented programming."
         },
         {
           "title": "F# Programming Wikibook",
@@ -35,7 +35,7 @@
       "icon": "code",
       "items": [
         {
-          "title": "Exercism \u2014 F# Track",
+          "title": "Exercism — F# Track",
           "url": "https://exercism.org/tracks/fsharp",
           "description": "146 exercises across 17 concepts with automated analysis and optional mentoring."
         }
@@ -57,7 +57,7 @@
       "icon": "terminal",
       "items": [
         {
-          "title": "Exercism \u2014 F# Track",
+          "title": "Exercism — F# Track",
           "url": "https://exercism.org/tracks/fsharp",
           "description": "Structured exercises with community mentorship and automated analysis."
         }
@@ -104,22 +104,256 @@
   ],
   "lessons": [
     {
-      "slug": "fundamentals",
-      "title": "Fundamentals of F#",
-      "description": "Core concepts, syntax, and first steps with F#",
+      "slug": "fsharp-01-getting-started",
+      "title": "Getting Started with F#",
+      "description": "Dotnet SDK, hello world, and F# Interactive.",
       "type": "lesson",
       "order": 1,
       "duration": "45 min",
-      "difficulty": "beginner"
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "fsharp/fsharp-01-getting-started"
+      ]
     },
     {
-      "slug": "practical-guide",
-      "title": "Practical F# Guide",
-      "description": "Real-world usage, tooling, and ecosystem",
+      "slug": "fsharp-02-values",
+      "title": "Values and Types",
+      "description": "let bindings, immutability, and types.",
       "type": "lesson",
       "order": 2,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "fsharp/fsharp-02-values"
+      ]
+    },
+    {
+      "slug": "fsharp-03-functions",
+      "title": "Functions",
+      "description": "First-class functions and composition.",
+      "type": "lesson",
+      "order": 3,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "fsharp/fsharp-03-functions"
+      ]
+    },
+    {
+      "slug": "fsharp-04-collections",
+      "title": "Collections",
+      "description": "Lists, arrays, and sequences.",
+      "type": "lesson",
+      "order": 4,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "fsharp/fsharp-04-collections"
+      ]
+    },
+    {
+      "slug": "fsharp-05-strings",
+      "title": "Strings",
+      "description": "String operations and interpolation.",
+      "type": "lesson",
+      "order": 5,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "fsharp/fsharp-05-strings"
+      ]
+    },
+    {
+      "slug": "fsharp-06-options",
+      "title": "Option and Result",
+      "description": "Handle absence and errors safely.",
+      "type": "lesson",
+      "order": 6,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "fsharp/fsharp-06-options"
+      ]
+    },
+    {
+      "slug": "fsharp-07-records",
+      "title": "Records and Tuples",
+      "description": "Structured data types.",
+      "type": "lesson",
+      "order": 7,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "fsharp/fsharp-07-records"
+      ]
+    },
+    {
+      "slug": "fsharp-08-discriminated-unions",
+      "title": "Discriminated Unions",
+      "description": "Model complex states with types.",
+      "type": "lesson",
+      "order": 8,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "fsharp/fsharp-08-discriminated-unions"
+      ]
+    },
+    {
+      "slug": "fsharp-09-pattern-matching",
+      "title": "Pattern Matching",
+      "description": "Powerful destructuring.",
+      "type": "lesson",
+      "order": 9,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "fsharp/fsharp-09-pattern-matching"
+      ]
+    },
+    {
+      "slug": "fsharp-10-recursion",
+      "title": "Recursion",
+      "description": "Recursive functions and tail calls.",
+      "type": "lesson",
+      "order": 10,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "fsharp/fsharp-10-recursion"
+      ]
+    },
+    {
+      "slug": "fsharp-11-modules",
+      "title": "Modules and Namespaces",
+      "description": "Organize code with modules.",
+      "type": "lesson",
+      "order": 11,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "fsharp/fsharp-11-modules"
+      ]
+    },
+    {
+      "slug": "fsharp-12-classes",
+      "title": "Classes and OOP",
+      "description": "Interop with the .NET object model.",
+      "type": "lesson",
+      "order": 12,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "fsharp/fsharp-12-classes"
+      ]
+    },
+    {
+      "slug": "fsharp-13-computation-expressions",
+      "title": "Computation Expressions",
+      "description": "Workflows like option and async.",
+      "type": "lesson",
+      "order": 13,
       "duration": "60 min",
-      "difficulty": "intermediate"
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "fsharp/fsharp-13-computation-expressions"
+      ]
+    },
+    {
+      "slug": "fsharp-14-async",
+      "title": "Async and Parallel",
+      "description": "Asynchronous programming.",
+      "type": "lesson",
+      "order": 14,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "fsharp/fsharp-14-async"
+      ]
+    },
+    {
+      "slug": "fsharp-15-io",
+      "title": "File I/O",
+      "description": "Read and write files.",
+      "type": "lesson",
+      "order": 15,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "fsharp/fsharp-15-io"
+      ]
+    },
+    {
+      "slug": "fsharp-16-tests",
+      "title": "Testing with xUnit",
+      "description": "Unit testing in F#.",
+      "type": "lesson",
+      "order": 16,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "fsharp/fsharp-16-tests"
+      ]
+    },
+    {
+      "slug": "fsharp-17-fscheck",
+      "title": "Property Testing with FsCheck",
+      "description": "Automated property-based testing.",
+      "type": "lesson",
+      "order": 17,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "fsharp/fsharp-17-fscheck"
+      ]
+    },
+    {
+      "slug": "fsharp-18-fable",
+      "title": "Fable: F# in the Browser",
+      "description": "Compile F# to JavaScript.",
+      "type": "lesson",
+      "order": 18,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "fsharp/fsharp-18-fable"
+      ]
+    },
+    {
+      "slug": "fsharp-19-dsl",
+      "title": "DSLs and Type Providers",
+      "description": "Domain-specific languages.",
+      "type": "lesson",
+      "order": 19,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "fsharp/fsharp-19-dsl"
+      ]
+    },
+    {
+      "slug": "fsharp-20-performance",
+      "title": "Performance",
+      "description": "Structs, arrays, and optimization.",
+      "type": "lesson",
+      "order": 20,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "fsharp/fsharp-20-performance"
+      ]
+    },
+    {
+      "slug": "fsharp-21-ecosystem",
+      "title": "Ecosystem and Next Steps",
+      "description": "Libraries and community.",
+      "type": "lesson",
+      "order": 21,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "fsharp/fsharp-21-ecosystem"
+      ]
     }
   ]
 }

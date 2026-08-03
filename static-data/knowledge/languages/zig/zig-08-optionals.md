@@ -4,7 +4,7 @@
   "description": "?T, null, orelse, and if-unwrapping.",
   "type": "lesson",
   "order": 8,
-  "duration": 30,
+  "duration": "30 min",
   "difficulty": "intermediate",
   "learning_objectives": [
     "Represent absence with optional types",

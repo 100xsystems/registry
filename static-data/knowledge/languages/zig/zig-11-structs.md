@@ -4,7 +4,7 @@
   "description": "Fields, methods, mutation, and defaults.",
   "type": "lesson",
   "order": 11,
-  "duration": 30,
+  "duration": "30 min",
   "difficulty": "intermediate",
   "learning_objectives": [
     "Define structs with typed fields",

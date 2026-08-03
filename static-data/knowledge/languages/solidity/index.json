@@ -1,7 +1,7 @@
 {
   "slug": "solidity",
   "name": "Solidity",
-  "description": "Solidity is the primary programming language for writing smart contracts on Ethereum and EVM-compatible blockchains. It enables decentralized applications, DeFi protocols, and NFTs \u2014 the backbone of Web3.",
+  "description": "Solidity is the primary programming language for writing smart contracts on Ethereum and EVM-compatible blockchains. It enables decentralized applications, DeFi protocols, and NFTs — the backbone of Web3.",
   "categories": [
     {
       "label": "Free Books",
@@ -10,12 +10,12 @@
         {
           "title": "Solidity Documentation (Official)",
           "url": "https://docs.soliditylang.org/",
-          "description": "The complete official documentation \u2014 language reference, by-example tutorials, and security best practices."
+          "description": "The complete official documentation — language reference, by-example tutorials, and security best practices."
         },
         {
           "title": "Solidity by Example",
           "url": "https://docs.soliditylang.org/en/latest/solidity-by-example.html",
-          "description": "Official walkthroughs of common smart contract patterns \u2014 voting, auctions, payment channels, and more."
+          "description": "Official walkthroughs of common smart contract patterns — voting, auctions, payment channels, and more."
         }
       ]
     },
@@ -42,7 +42,7 @@
         {
           "title": "CryptoZombies",
           "url": "https://cryptozombies.io/",
-          "description": "The most popular gamified Solidity course \u2014 build a zombie battle game while learning smart contracts."
+          "description": "The most popular gamified Solidity course — build a zombie battle game while learning smart contracts."
         },
         {
           "title": "RareSkills Solidity Course",
@@ -107,7 +107,7 @@
         {
           "title": "Ethereum Stack Exchange",
           "url": "https://ethereum.stackexchange.com/",
-          "description": "Q&A for Ethereum and Solidity development \u2014 the definitive help resource."
+          "description": "Q&A for Ethereum and Solidity development — the definitive help resource."
         },
         {
           "title": "Reddit r/ethdev",
@@ -119,22 +119,256 @@
   ],
   "lessons": [
     {
-      "slug": "fundamentals",
-      "title": "Fundamentals of Solidity",
-      "description": "Core concepts, syntax, and first steps with Solidity",
+      "slug": "solidity-01-getting-started",
+      "title": "Getting Started with Solidity",
+      "description": "Remix IDE, contracts, and first deploy.",
       "type": "lesson",
       "order": 1,
       "duration": "45 min",
-      "difficulty": "beginner"
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "solidity/solidity-01-getting-started"
+      ]
     },
     {
-      "slug": "practical-guide",
-      "title": "Practical Solidity Guide",
-      "description": "Real-world usage, tooling, and ecosystem",
+      "slug": "solidity-02-types",
+      "title": "Value Types",
+      "description": "uint, int, address, bool, and bytes.",
       "type": "lesson",
       "order": 2,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "solidity/solidity-02-types"
+      ]
+    },
+    {
+      "slug": "solidity-03-state-variables",
+      "title": "State Variables and Storage",
+      "description": "Storage, memory, and calldata.",
+      "type": "lesson",
+      "order": 3,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "solidity/solidity-03-state-variables"
+      ]
+    },
+    {
+      "slug": "solidity-04-functions",
+      "title": "Functions and Modifiers",
+      "description": "Visibility, view/pure, and custom modifiers.",
+      "type": "lesson",
+      "order": 4,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "solidity/solidity-04-functions"
+      ]
+    },
+    {
+      "slug": "solidity-05-events",
+      "title": "Events and Logging",
+      "description": "Emit events for off-chain listeners.",
+      "type": "lesson",
+      "order": 5,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "solidity/solidity-05-events"
+      ]
+    },
+    {
+      "slug": "solidity-06-errors",
+      "title": "Errors and Require",
+      "description": "require, revert, assert, and custom errors.",
+      "type": "lesson",
+      "order": 6,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "solidity/solidity-06-errors"
+      ]
+    },
+    {
+      "slug": "solidity-07-mappings",
+      "title": "Mappings and Structs",
+      "description": "Key-value storage and structured data.",
+      "type": "lesson",
+      "order": 7,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "solidity/solidity-07-mappings"
+      ]
+    },
+    {
+      "slug": "solidity-08-constructor",
+      "title": "Constructors and Inheritance",
+      "description": "Initialize contracts and build hierarchies.",
+      "type": "lesson",
+      "order": 8,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "solidity/solidity-08-constructor"
+      ]
+    },
+    {
+      "slug": "solidity-09-ether",
+      "title": "Ether and Payable Functions",
+      "description": "Send, receive, and track ether.",
+      "type": "lesson",
+      "order": 9,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "solidity/solidity-09-ether"
+      ]
+    },
+    {
+      "slug": "solidity-10-erc20",
+      "title": "ERC-20 Token Standard",
+      "description": "Build a standard fungible token.",
+      "type": "lesson",
+      "order": 10,
       "duration": "60 min",
-      "difficulty": "intermediate"
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "solidity/solidity-10-erc20"
+      ]
+    },
+    {
+      "slug": "solidity-11-erc721",
+      "title": "ERC-721 NFTs",
+      "description": "Non-fungible tokens and ownership.",
+      "type": "lesson",
+      "order": 11,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "solidity/solidity-11-erc721"
+      ]
+    },
+    {
+      "slug": "solidity-12-dex",
+      "title": "DeFi and DEX Patterns",
+      "description": "Liquidity pools and swap mechanics.",
+      "type": "lesson",
+      "order": 12,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "solidity/solidity-12-dex"
+      ]
+    },
+    {
+      "slug": "solidity-13-security",
+      "title": "Security: Reentrancy",
+      "description": "Reentrancy attacks and checks-effects-interactions.",
+      "type": "lesson",
+      "order": 13,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "solidity/solidity-13-security"
+      ]
+    },
+    {
+      "slug": "solidity-14-other-attacks",
+      "title": "Security: Overflows and Front-running",
+      "description": "Arithmetic safety and MEV awareness.",
+      "type": "lesson",
+      "order": 14,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "solidity/solidity-14-other-attacks"
+      ]
+    },
+    {
+      "slug": "solidity-15-gas",
+      "title": "Gas Optimization",
+      "description": "Reduce deployment and execution costs.",
+      "type": "lesson",
+      "order": 15,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "solidity/solidity-15-gas"
+      ]
+    },
+    {
+      "slug": "solidity-16-libraries",
+      "title": "Libraries and Interfaces",
+      "description": "Reusable library code and contract interfaces.",
+      "type": "lesson",
+      "order": 16,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "solidity/solidity-16-libraries"
+      ]
+    },
+    {
+      "slug": "solidity-17-upgrades",
+      "title": "Upgradeable Contracts",
+      "description": "Proxy patterns and upgradeability.",
+      "type": "lesson",
+      "order": 17,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "solidity/solidity-17-upgrades"
+      ]
+    },
+    {
+      "slug": "solidity-18-testing",
+      "title": "Testing Smart Contracts",
+      "description": "Write tests with Foundry and Hardhat.",
+      "type": "lesson",
+      "order": 18,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "solidity/solidity-18-testing"
+      ]
+    },
+    {
+      "slug": "solidity-19-hardhat",
+      "title": "Hardhat Development Workflow",
+      "description": "Deploy, verify, and interact from scripts.",
+      "type": "lesson",
+      "order": 19,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "solidity/solidity-19-hardhat"
+      ]
+    },
+    {
+      "slug": "solidity-20-chainlink",
+      "title": "Oracles and Real-World Data",
+      "description": "Bring off-chain data on-chain.",
+      "type": "lesson",
+      "order": 20,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "solidity/solidity-20-chainlink"
+      ]
+    },
+    {
+      "slug": "solidity-21-ecosystem",
+      "title": "Ecosystem and Next Steps",
+      "description": "Mainnets, DAOs, and production readiness.",
+      "type": "lesson",
+      "order": 21,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "solidity/solidity-21-ecosystem"
+      ]
     }
   ]
 }

@@ -4,7 +4,7 @@
   "description": "DataFrames, Plots, the community, and advanced topics.",
   "type": "lesson",
   "order": 21,
-  "duration": 20,
+  "duration": "20 min",
   "difficulty": "intermediate",
   "learning_objectives": [
     "Name the key packages in the Julia ecosystem",

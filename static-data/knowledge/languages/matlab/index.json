@@ -79,7 +79,7 @@
         {
           "title": "Project Euler (MATLAB)",
           "url": "https://projecteuler.net/",
-          "description": "Solve mathematical problems using MATLAB \u2014 great for practicing array operations."
+          "description": "Solve mathematical problems using MATLAB — great for practicing array operations."
         }
       ]
     },
@@ -129,22 +129,256 @@
   ],
   "lessons": [
     {
-      "slug": "fundamentals",
-      "title": "Fundamentals of MATLAB",
-      "description": "Core concepts, syntax, and first steps with MATLAB",
+      "slug": "matlab-01-getting-started",
+      "title": "Getting Started with MATLAB",
+      "description": "Desktop, command window, scripts.",
       "type": "lesson",
       "order": 1,
       "duration": "45 min",
-      "difficulty": "beginner"
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "matlab/matlab-01-getting-started"
+      ]
     },
     {
-      "slug": "practical-guide",
-      "title": "Practical MATLAB Guide",
-      "description": "Real-world usage, tooling, and ecosystem",
+      "slug": "matlab-02-variables",
+      "title": "Variables and Data Types",
+      "description": "Numbers, strings, and logicals.",
       "type": "lesson",
       "order": 2,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "matlab/matlab-02-variables"
+      ]
+    },
+    {
+      "slug": "matlab-03-arithmetic",
+      "title": "Arithmetic Operations",
+      "description": "Matrix vs element-wise math.",
+      "type": "lesson",
+      "order": 3,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "matlab/matlab-03-arithmetic"
+      ]
+    },
+    {
+      "slug": "matlab-04-vectors",
+      "title": "Vectors",
+      "description": "Row and column vectors.",
+      "type": "lesson",
+      "order": 4,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "matlab/matlab-04-vectors"
+      ]
+    },
+    {
+      "slug": "matlab-05-matrices",
+      "title": "Matrices",
+      "description": "Build and manipulate 2-D data.",
+      "type": "lesson",
+      "order": 5,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "matlab/matlab-05-matrices"
+      ]
+    },
+    {
+      "slug": "matlab-06-functions",
+      "title": "Functions",
+      "description": "Write .m functions.",
+      "type": "lesson",
+      "order": 6,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "matlab/matlab-06-functions"
+      ]
+    },
+    {
+      "slug": "matlab-07-control-flow",
+      "title": "Control Flow",
+      "description": "if, for, and while.",
+      "type": "lesson",
+      "order": 7,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "matlab/matlab-07-control-flow"
+      ]
+    },
+    {
+      "slug": "matlab-08-scripts-vs-functions",
+      "title": "Scripts vs Functions",
+      "description": "Choose the right file type.",
+      "type": "lesson",
+      "order": 8,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "matlab/matlab-08-scripts-vs-functions"
+      ]
+    },
+    {
+      "slug": "matlab-09-strings",
+      "title": "Strings and Text",
+      "description": "String manipulation.",
+      "type": "lesson",
+      "order": 9,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "matlab/matlab-09-strings"
+      ]
+    },
+    {
+      "slug": "matlab-10-cell-arrays",
+      "title": "Cell Arrays and Structs",
+      "description": "Heterogeneous containers.",
+      "type": "lesson",
+      "order": 10,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "matlab/matlab-10-cell-arrays"
+      ]
+    },
+    {
+      "slug": "matlab-11-plotting",
+      "title": "Plotting",
+      "description": "Visualize data.",
+      "type": "lesson",
+      "order": 11,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "matlab/matlab-11-plotting"
+      ]
+    },
+    {
+      "slug": "matlab-12-file-io",
+      "title": "File I/O",
+      "description": "Read and write data files.",
+      "type": "lesson",
+      "order": 12,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "matlab/matlab-12-file-io"
+      ]
+    },
+    {
+      "slug": "matlab-13-vectorization",
+      "title": "Vectorization",
+      "description": "Faster code without loops.",
+      "type": "lesson",
+      "order": 13,
       "duration": "60 min",
-      "difficulty": "intermediate"
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "matlab/matlab-13-vectorization"
+      ]
+    },
+    {
+      "slug": "matlab-14-optimization",
+      "title": "Optimization Toolbox",
+      "description": "Minimize and solve.",
+      "type": "lesson",
+      "order": 14,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "matlab/matlab-14-optimization"
+      ]
+    },
+    {
+      "slug": "matlab-15-signal-processing",
+      "title": "Signal Processing",
+      "description": "Filter and analyze signals.",
+      "type": "lesson",
+      "order": 15,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "matlab/matlab-15-signal-processing"
+      ]
+    },
+    {
+      "slug": "matlab-16-simulink",
+      "title": "Simulink Basics",
+      "description": "Model-based design.",
+      "type": "lesson",
+      "order": 16,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "matlab/matlab-16-simulink"
+      ]
+    },
+    {
+      "slug": "matlab-17-app-designer",
+      "title": "App Designer",
+      "description": "Build interactive apps.",
+      "type": "lesson",
+      "order": 17,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "matlab/matlab-17-app-designer"
+      ]
+    },
+    {
+      "slug": "matlab-18-databases",
+      "title": "Working with Tables",
+      "description": "Tabular data analysis.",
+      "type": "lesson",
+      "order": 18,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "matlab/matlab-18-databases"
+      ]
+    },
+    {
+      "slug": "matlab-19-machine-learning",
+      "title": "Machine Learning",
+      "description": "Classification and regression.",
+      "type": "lesson",
+      "order": 19,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "matlab/matlab-19-machine-learning"
+      ]
+    },
+    {
+      "slug": "matlab-20-performance",
+      "title": "Code Performance",
+      "description": "Profile and accelerate.",
+      "type": "lesson",
+      "order": 20,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "matlab/matlab-20-performance"
+      ]
+    },
+    {
+      "slug": "matlab-21-ecosystem",
+      "title": "Ecosystem and Next Steps",
+      "description": "Toolboxes and community.",
+      "type": "lesson",
+      "order": 21,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "matlab/matlab-21-ecosystem"
+      ]
     }
   ]
 }

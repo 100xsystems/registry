@@ -1,384 +1,384 @@
 {
-  "slug": "zig",
-  "name": "Zig",
-  "description": "Zig is a modern systems programming language focused on robustness, optimality, and maintainability. It offers manual memory management, compile-time computation, seamless C interop, and a first-class cross-compilation toolchain.",
-  "categories": [
+ "slug": "zig",
+ "name": "Zig",
+ "description": "Zig is a modern systems programming language focused on robustness, optimality, and maintainability. It offers manual memory management, compile-time computation, seamless C interop, and a first-class cross-compilation toolchain.",
+ "categories": [
+  {
+   "label": "Free Books",
+   "icon": "book",
+   "items": [
     {
-      "label": "Free Books",
-      "icon": "book",
-      "items": [
-        {
-          "title": "Introduction to Zig (Project-Based)",
-          "url": "https://pedropark99.github.io/zig-book/",
-          "description": "Open-access book teaching Zig through building a Base64 encoder, HTTP server, and image filter."
-        },
-        {
-          "title": "zig.guide",
-          "url": "https://zig.guide/",
-          "description": "Highly structured community introduction walking through core language features step-by-step."
-        },
-        {
-          "title": "Learning Zig",
-          "url": "https://www.openmymind.net/learning_zig/",
-          "description": "Concise intro guide making developers comfortable with Zig memory philosophy and syntax."
-        }
-      ]
+     "title": "Introduction to Zig (Project-Based)",
+     "url": "https://pedropark99.github.io/zig-book/",
+     "description": "Open-access book teaching Zig through building a Base64 encoder, HTTP server, and image filter."
     },
     {
-      "label": "Official Documentation",
-      "icon": "docs",
-      "items": [
-        {
-          "title": "Zig Language Reference",
-          "url": "https://ziglang.org/documentation/master/",
-          "description": "Definitive technical specification for syntax, builtins, and language semantics."
-        },
-        {
-          "title": "Zig Standard Library Docs",
-          "url": "https://ziglang.org/documentation/master/std/",
-          "description": "Official API reference for allocators, data structures, I/O, and OS integration."
-        }
-      ]
+     "title": "zig.guide",
+     "url": "https://zig.guide/",
+     "description": "Highly structured community introduction walking through core language features step-by-step."
     },
     {
-      "label": "Interactive Courses",
-      "icon": "code",
-      "items": [
-        {
-          "title": "Ziglings",
-          "url": "https://codeberg.org/ziglings/exercises/",
-          "description": "Most popular hands-on tool — fix tiny broken programs to learn Zig incrementally."
-        },
-        {
-          "title": "Exercism Zig Track",
-          "url": "https://exercism.org/tracks/zig",
-          "description": "Structured coding exercises with community support."
-        }
-      ]
-    },
-    {
-      "label": "Video Courses",
-      "icon": "video",
-      "items": [
-        {
-          "title": "Zig Programming Tutorials (YouTube)",
-          "url": "https://www.youtube.com/results?search_query=zig+programming+language",
-          "description": "Community video tutorials covering Zig fundamentals and systems programming."
-        }
-      ]
-    },
-    {
-      "label": "Practice & Challenges",
-      "icon": "terminal",
-      "items": [
-        {
-          "title": "Ziglings",
-          "url": "https://codeberg.org/ziglings/exercises/",
-          "description": "Incremental broken-program exercises — the best way to learn Zig hands-on."
-        },
-        {
-          "title": "Exercism Zig Track",
-          "url": "https://exercism.org/tracks/zig",
-          "description": "Free practice with community support."
-        }
-      ]
-    },
-    {
-      "label": "Reference & Cheatsheets",
-      "icon": "reference",
-      "items": [
-        {
-          "title": "DevDocs Zig Reference",
-          "url": "https://devdocs.io/zig/",
-          "description": "Fast, searchable, offline-capable interface for the Zig language reference."
-        }
-      ]
-    },
-    {
-      "label": "News & Updates",
-      "icon": "news",
-      "items": [
-        {
-          "title": "Ziggit Forums",
-          "url": "https://ziggit.dev/",
-          "description": "Official community forum for questions, showcases, and technical discussions."
-        },
-        {
-          "title": "Ziglang News",
-          "url": "https://ziglang.org/news/",
-          "description": "Official news portal tracking compiler releases and core team updates."
-        }
-      ]
-    },
-    {
-      "label": "Community",
-      "icon": "community",
-      "items": [
-        {
-          "title": "Ziggit Forums",
-          "url": "https://ziggit.dev/",
-          "description": "Official forum for Q&A, showcases, and technical brainstorming."
-        },
-        {
-          "title": "Reddit r/Zig",
-          "url": "https://www.reddit.com/r/Zig/",
-          "description": "Community for Zig projects, discussions, and announcements."
-        }
-      ]
+     "title": "Learning Zig",
+     "url": "https://www.openmymind.net/learning_zig/",
+     "description": "Concise intro guide making developers comfortable with Zig memory philosophy and syntax."
     }
-  ],
-  "lessons": [
+   ]
+  },
+  {
+   "label": "Official Documentation",
+   "icon": "docs",
+   "items": [
     {
-      "slug": "zig-01-getting-started",
-      "title": "Getting Started with Zig",
-      "description": "Hello world, zig run, and the build system.",
-      "type": "lesson",
-      "order": 1,
-      "duration": 20,
-      "difficulty": "beginner",
-      "knowledge_refs": [
-        "zig/zig-01-getting-started"
-      ]
+     "title": "Zig Language Reference",
+     "url": "https://ziglang.org/documentation/master/",
+     "description": "Definitive technical specification for syntax, builtins, and language semantics."
     },
     {
-      "slug": "zig-02-values-types",
-      "title": "Values and Types",
-      "description": "Integers, floats, bools, chars, and explicit casts.",
-      "type": "lesson",
-      "order": 2,
-      "duration": 25,
-      "difficulty": "beginner",
-      "knowledge_refs": [
-        "zig/zig-02-values-types"
-      ]
-    },
-    {
-      "slug": "zig-03-variables",
-      "title": "Variables",
-      "description": "const vs var, mutation, and type inference.",
-      "type": "lesson",
-      "order": 3,
-      "duration": 25,
-      "difficulty": "beginner",
-      "knowledge_refs": [
-        "zig/zig-03-variables"
-      ]
-    },
-    {
-      "slug": "zig-04-operators",
-      "title": "Operators",
-      "description": "Arithmetic, division semantics, bitwise, and logic.",
-      "type": "lesson",
-      "order": 4,
-      "duration": 25,
-      "difficulty": "beginner",
-      "knowledge_refs": [
-        "zig/zig-04-operators"
-      ]
-    },
-    {
-      "slug": "zig-05-functions",
-      "title": "Functions",
-      "description": "Explicit signatures, void returns, and function pointers.",
-      "type": "lesson",
-      "order": 5,
-      "duration": 30,
-      "difficulty": "beginner",
-      "knowledge_refs": [
-        "zig/zig-05-functions"
-      ]
-    },
-    {
-      "slug": "zig-06-control-flow",
-      "title": "Control Flow",
-      "description": "if expressions, switch, for, and while loops.",
-      "type": "lesson",
-      "order": 6,
-      "duration": 30,
-      "difficulty": "beginner",
-      "knowledge_refs": [
-        "zig/zig-06-control-flow"
-      ]
-    },
-    {
-      "slug": "zig-07-errors",
-      "title": "Errors",
-      "description": "Error unions, try, catch, and propagation.",
-      "type": "lesson",
-      "order": 7,
-      "duration": 35,
-      "difficulty": "intermediate",
-      "knowledge_refs": [
-        "zig/zig-07-errors"
-      ]
-    },
-    {
-      "slug": "zig-08-optionals",
-      "title": "Optionals",
-      "description": "?T, null, orelse, and if-unwrapping.",
-      "type": "lesson",
-      "order": 8,
-      "duration": 30,
-      "difficulty": "intermediate",
-      "knowledge_refs": [
-        "zig/zig-08-optionals"
-      ]
-    },
-    {
-      "slug": "zig-09-arrays-slices",
-      "title": "Arrays and Slices",
-      "description": "Fixed arrays, runtime slices, and bounds checking.",
-      "type": "lesson",
-      "order": 9,
-      "duration": 30,
-      "difficulty": "intermediate",
-      "knowledge_refs": [
-        "zig/zig-09-arrays-slices"
-      ]
-    },
-    {
-      "slug": "zig-10-strings",
-      "title": "Strings",
-      "description": "[]const u8, literals, allocation, and comparison.",
-      "type": "lesson",
-      "order": 10,
-      "duration": 30,
-      "difficulty": "intermediate",
-      "knowledge_refs": [
-        "zig/zig-10-strings"
-      ]
-    },
-    {
-      "slug": "zig-11-structs",
-      "title": "Structs",
-      "description": "Fields, methods, mutation, and defaults.",
-      "type": "lesson",
-      "order": 11,
-      "duration": 30,
-      "difficulty": "intermediate",
-      "knowledge_refs": [
-        "zig/zig-11-structs"
-      ]
-    },
-    {
-      "slug": "zig-12-enums-unions",
-      "title": "Enums and Tagged Unions",
-      "description": "Enums, exhaustive switch, and union(enum) payloads.",
-      "type": "lesson",
-      "order": 12,
-      "duration": 35,
-      "difficulty": "intermediate",
-      "knowledge_refs": [
-        "zig/zig-12-enums-unions"
-      ]
-    },
-    {
-      "slug": "zig-13-pointers",
-      "title": "Pointers",
-      "description": "Single-item pointers, const pointers, and optional pointers.",
-      "type": "lesson",
-      "order": 13,
-      "duration": 30,
-      "difficulty": "intermediate",
-      "knowledge_refs": [
-        "zig/zig-13-pointers"
-      ]
-    },
-    {
-      "slug": "zig-14-memory-management",
-      "title": "Memory Management",
-      "description": "Explicit allocators, defer, realloc, and arenas.",
-      "type": "lesson",
-      "order": 14,
-      "duration": 45,
-      "difficulty": "expert",
-      "knowledge_refs": [
-        "zig/zig-14-memory-management"
-      ]
-    },
-    {
-      "slug": "zig-15-comptime",
-      "title": "Comptime",
-      "description": "Compile-time evaluation, comptime params, and introspection.",
-      "type": "lesson",
-      "order": 15,
-      "duration": 40,
-      "difficulty": "expert",
-      "knowledge_refs": [
-        "zig/zig-15-comptime"
-      ]
-    },
-    {
-      "slug": "zig-16-generics",
-      "title": "Generics",
-      "description": "Generic functions and data structures via comptime T.",
-      "type": "lesson",
-      "order": 16,
-      "duration": 40,
-      "difficulty": "expert",
-      "knowledge_refs": [
-        "zig/zig-16-generics"
-      ]
-    },
-    {
-      "slug": "zig-17-modules-imports",
-      "title": "Modules and Imports",
-      "description": "@import, pub declarations, and build.zig wiring.",
-      "type": "lesson",
-      "order": 17,
-      "duration": 30,
-      "difficulty": "intermediate",
-      "knowledge_refs": [
-        "zig/zig-17-modules-imports"
-      ]
-    },
-    {
-      "slug": "zig-18-file-io",
-      "title": "File I/O",
-      "description": "Reading, writing, and iterating with std.fs.",
-      "type": "lesson",
-      "order": 18,
-      "duration": 30,
-      "difficulty": "intermediate",
-      "knowledge_refs": [
-        "zig/zig-18-file-io"
-      ]
-    },
-    {
-      "slug": "zig-19-testing",
-      "title": "Testing",
-      "description": "test blocks, expect, expectError, and test organization.",
-      "type": "lesson",
-      "order": 19,
-      "duration": 30,
-      "difficulty": "intermediate",
-      "knowledge_refs": [
-        "zig/zig-19-testing"
-      ]
-    },
-    {
-      "slug": "zig-20-standard-library",
-      "title": "The Standard Library",
-      "description": "std.debug, std.mem, std.ArrayList, and StringHashMap.",
-      "type": "lesson",
-      "order": 20,
-      "duration": 30,
-      "difficulty": "intermediate",
-      "knowledge_refs": [
-        "zig/zig-20-standard-library"
-      ]
-    },
-    {
-      "slug": "zig-21-ecosystem-next-steps",
-      "title": "Ecosystem and Next Steps",
-      "description": "zig fmt, C interop, tooling, and advanced topics.",
-      "type": "lesson",
-      "order": 21,
-      "duration": 20,
-      "difficulty": "intermediate",
-      "knowledge_refs": [
-        "zig/zig-21-ecosystem-next-steps"
-      ]
+     "title": "Zig Standard Library Docs",
+     "url": "https://ziglang.org/documentation/master/std/",
+     "description": "Official API reference for allocators, data structures, I/O, and OS integration."
     }
-  ]
+   ]
+  },
+  {
+   "label": "Interactive Courses",
+   "icon": "code",
+   "items": [
+    {
+     "title": "Ziglings",
+     "url": "https://codeberg.org/ziglings/exercises/",
+     "description": "Most popular hands-on tool — fix tiny broken programs to learn Zig incrementally."
+    },
+    {
+     "title": "Exercism Zig Track",
+     "url": "https://exercism.org/tracks/zig",
+     "description": "Structured coding exercises with community support."
+    }
+   ]
+  },
+  {
+   "label": "Video Courses",
+   "icon": "video",
+   "items": [
+    {
+     "title": "Zig Programming Tutorials (YouTube)",
+     "url": "https://www.youtube.com/results?search_query=zig+programming+language",
+     "description": "Community video tutorials covering Zig fundamentals and systems programming."
+    }
+   ]
+  },
+  {
+   "label": "Practice & Challenges",
+   "icon": "terminal",
+   "items": [
+    {
+     "title": "Ziglings",
+     "url": "https://codeberg.org/ziglings/exercises/",
+     "description": "Incremental broken-program exercises — the best way to learn Zig hands-on."
+    },
+    {
+     "title": "Exercism Zig Track",
+     "url": "https://exercism.org/tracks/zig",
+     "description": "Free practice with community support."
+    }
+   ]
+  },
+  {
+   "label": "Reference & Cheatsheets",
+   "icon": "reference",
+   "items": [
+    {
+     "title": "DevDocs Zig Reference",
+     "url": "https://devdocs.io/zig/",
+     "description": "Fast, searchable, offline-capable interface for the Zig language reference."
+    }
+   ]
+  },
+  {
+   "label": "News & Updates",
+   "icon": "news",
+   "items": [
+    {
+     "title": "Ziggit Forums",
+     "url": "https://ziggit.dev/",
+     "description": "Official community forum for questions, showcases, and technical discussions."
+    },
+    {
+     "title": "Ziglang News",
+     "url": "https://ziglang.org/news/",
+     "description": "Official news portal tracking compiler releases and core team updates."
+    }
+   ]
+  },
+  {
+   "label": "Community",
+   "icon": "community",
+   "items": [
+    {
+     "title": "Ziggit Forums",
+     "url": "https://ziggit.dev/",
+     "description": "Official forum for Q&A, showcases, and technical brainstorming."
+    },
+    {
+     "title": "Reddit r/Zig",
+     "url": "https://www.reddit.com/r/Zig/",
+     "description": "Community for Zig projects, discussions, and announcements."
+    }
+   ]
+  }
+ ],
+ "lessons": [
+  {
+   "slug": "zig-01-getting-started",
+   "title": "Getting Started with Zig",
+   "description": "Hello world, zig run, and the build system.",
+   "type": "lesson",
+   "order": 1,
+   "duration": "20 min",
+   "difficulty": "beginner",
+   "knowledge_refs": [
+    "zig/zig-01-getting-started"
+   ]
+  },
+  {
+   "slug": "zig-02-values-types",
+   "title": "Values and Types",
+   "description": "Integers, floats, bools, chars, and explicit casts.",
+   "type": "lesson",
+   "order": 2,
+   "duration": "25 min",
+   "difficulty": "beginner",
+   "knowledge_refs": [
+    "zig/zig-02-values-types"
+   ]
+  },
+  {
+   "slug": "zig-03-variables",
+   "title": "Variables",
+   "description": "const vs var, mutation, and type inference.",
+   "type": "lesson",
+   "order": 3,
+   "duration": "25 min",
+   "difficulty": "beginner",
+   "knowledge_refs": [
+    "zig/zig-03-variables"
+   ]
+  },
+  {
+   "slug": "zig-04-operators",
+   "title": "Operators",
+   "description": "Arithmetic, division semantics, bitwise, and logic.",
+   "type": "lesson",
+   "order": 4,
+   "duration": "25 min",
+   "difficulty": "beginner",
+   "knowledge_refs": [
+    "zig/zig-04-operators"
+   ]
+  },
+  {
+   "slug": "zig-05-functions",
+   "title": "Functions",
+   "description": "Explicit signatures, void returns, and function pointers.",
+   "type": "lesson",
+   "order": 5,
+   "duration": "30 min",
+   "difficulty": "beginner",
+   "knowledge_refs": [
+    "zig/zig-05-functions"
+   ]
+  },
+  {
+   "slug": "zig-06-control-flow",
+   "title": "Control Flow",
+   "description": "if expressions, switch, for, and while loops.",
+   "type": "lesson",
+   "order": 6,
+   "duration": "30 min",
+   "difficulty": "beginner",
+   "knowledge_refs": [
+    "zig/zig-06-control-flow"
+   ]
+  },
+  {
+   "slug": "zig-07-errors",
+   "title": "Errors",
+   "description": "Error unions, try, catch, and propagation.",
+   "type": "lesson",
+   "order": 7,
+   "duration": "35 min",
+   "difficulty": "intermediate",
+   "knowledge_refs": [
+    "zig/zig-07-errors"
+   ]
+  },
+  {
+   "slug": "zig-08-optionals",
+   "title": "Optionals",
+   "description": "?T, null, orelse, and if-unwrapping.",
+   "type": "lesson",
+   "order": 8,
+   "duration": "30 min",
+   "difficulty": "intermediate",
+   "knowledge_refs": [
+    "zig/zig-08-optionals"
+   ]
+  },
+  {
+   "slug": "zig-09-arrays-slices",
+   "title": "Arrays and Slices",
+   "description": "Fixed arrays, runtime slices, and bounds checking.",
+   "type": "lesson",
+   "order": 9,
+   "duration": "30 min",
+   "difficulty": "intermediate",
+   "knowledge_refs": [
+    "zig/zig-09-arrays-slices"
+   ]
+  },
+  {
+   "slug": "zig-10-strings",
+   "title": "Strings",
+   "description": "[]const u8, literals, allocation, and comparison.",
+   "type": "lesson",
+   "order": 10,
+   "duration": "30 min",
+   "difficulty": "intermediate",
+   "knowledge_refs": [
+    "zig/zig-10-strings"
+   ]
+  },
+  {
+   "slug": "zig-11-structs",
+   "title": "Structs",
+   "description": "Fields, methods, mutation, and defaults.",
+   "type": "lesson",
+   "order": 11,
+   "duration": "30 min",
+   "difficulty": "intermediate",
+   "knowledge_refs": [
+    "zig/zig-11-structs"
+   ]
+  },
+  {
+   "slug": "zig-12-enums-unions",
+   "title": "Enums and Tagged Unions",
+   "description": "Enums, exhaustive switch, and union(enum) payloads.",
+   "type": "lesson",
+   "order": 12,
+   "duration": "35 min",
+   "difficulty": "intermediate",
+   "knowledge_refs": [
+    "zig/zig-12-enums-unions"
+   ]
+  },
+  {
+   "slug": "zig-13-pointers",
+   "title": "Pointers",
+   "description": "Single-item pointers, const pointers, and optional pointers.",
+   "type": "lesson",
+   "order": 13,
+   "duration": "30 min",
+   "difficulty": "intermediate",
+   "knowledge_refs": [
+    "zig/zig-13-pointers"
+   ]
+  },
+  {
+   "slug": "zig-14-memory-management",
+   "title": "Memory Management",
+   "description": "Explicit allocators, defer, realloc, and arenas.",
+   "type": "lesson",
+   "order": 14,
+   "duration": "45 min",
+   "difficulty": "expert",
+   "knowledge_refs": [
+    "zig/zig-14-memory-management"
+   ]
+  },
+  {
+   "slug": "zig-15-comptime",
+   "title": "Comptime",
+   "description": "Compile-time evaluation, comptime params, and introspection.",
+   "type": "lesson",
+   "order": 15,
+   "duration": "40 min",
+   "difficulty": "expert",
+   "knowledge_refs": [
+    "zig/zig-15-comptime"
+   ]
+  },
+  {
+   "slug": "zig-16-generics",
+   "title": "Generics",
+   "description": "Generic functions and data structures via comptime T.",
+   "type": "lesson",
+   "order": 16,
+   "duration": "40 min",
+   "difficulty": "expert",
+   "knowledge_refs": [
+    "zig/zig-16-generics"
+   ]
+  },
+  {
+   "slug": "zig-17-modules-imports",
+   "title": "Modules and Imports",
+   "description": "@import, pub declarations, and build.zig wiring.",
+   "type": "lesson",
+   "order": 17,
+   "duration": "30 min",
+   "difficulty": "intermediate",
+   "knowledge_refs": [
+    "zig/zig-17-modules-imports"
+   ]
+  },
+  {
+   "slug": "zig-18-file-io",
+   "title": "File I/O",
+   "description": "Reading, writing, and iterating with std.fs.",
+   "type": "lesson",
+   "order": 18,
+   "duration": "30 min",
+   "difficulty": "intermediate",
+   "knowledge_refs": [
+    "zig/zig-18-file-io"
+   ]
+  },
+  {
+   "slug": "zig-19-testing",
+   "title": "Testing",
+   "description": "test blocks, expect, expectError, and test organization.",
+   "type": "lesson",
+   "order": 19,
+   "duration": "30 min",
+   "difficulty": "intermediate",
+   "knowledge_refs": [
+    "zig/zig-19-testing"
+   ]
+  },
+  {
+   "slug": "zig-20-standard-library",
+   "title": "The Standard Library",
+   "description": "std.debug, std.mem, std.ArrayList, and StringHashMap.",
+   "type": "lesson",
+   "order": 20,
+   "duration": "30 min",
+   "difficulty": "intermediate",
+   "knowledge_refs": [
+    "zig/zig-20-standard-library"
+   ]
+  },
+  {
+   "slug": "zig-21-ecosystem-next-steps",
+   "title": "Ecosystem and Next Steps",
+   "description": "zig fmt, C interop, tooling, and advanced topics.",
+   "type": "lesson",
+   "order": 21,
+   "duration": "20 min",
+   "difficulty": "intermediate",
+   "knowledge_refs": [
+    "zig/zig-21-ecosystem-next-steps"
+   ]
+  }
+ ]
 }

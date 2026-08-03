@@ -4,7 +4,7 @@
   "description": "if expressions, switch, for, and while loops.",
   "type": "lesson",
   "order": 6,
-  "duration": 30,
+  "duration": "30 min",
   "difficulty": "beginner",
   "learning_objectives": [
     "Use if and switch as expressions",

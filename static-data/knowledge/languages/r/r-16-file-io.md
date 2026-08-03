@@ -4,7 +4,7 @@
   "description": "Reading and writing CSV, text, and modern formats.",
   "type": "lesson",
   "order": 16,
-  "duration": 30,
+  "duration": "30 min",
   "difficulty": "intermediate",
   "learning_objectives": [
     "Read CSVs with read.csv",

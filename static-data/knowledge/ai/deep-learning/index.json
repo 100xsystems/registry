@@ -1,0 +1,303 @@
+{
+  "slug": "deep-learning",
+  "name": "Deep Learning",
+  "description": "Neural networks end to end: backprop, PyTorch, CNNs, RNNs, LSTMs and transformers — from perceptron to attention.",
+  "categories": [
+    {
+      "label": "Free Courses & Guides",
+      "icon": "book",
+      "items": [
+        {
+          "title": "Dive into Deep Learning (d2l.ai)",
+          "url": "https://d2l.ai/",
+          "description": "Interactive deep-learning textbook with code in PyTorch."
+        },
+        {
+          "title": "Practical Deep Learning — fast.ai",
+          "url": "https://course.fast.ai/",
+          "description": "A top-down course that gets you training models quickly."
+        },
+        {
+          "title": "Deep Learning — Goodfellow et al.",
+          "url": "https://www.deeplearningbook.org/",
+          "description": "The canonical textbook on deep learning (free HTML)."
+        }
+      ]
+    },
+    {
+      "label": "Official Documentation",
+      "icon": "docs",
+      "items": [
+        {
+          "title": "PyTorch Documentation",
+          "url": "https://pytorch.org/docs/stable/index.html",
+          "description": "The official reference for the deep-learning framework."
+        },
+        {
+          "title": "PyTorch Tutorials",
+          "url": "https://pytorch.org/tutorials/",
+          "description": "Step-by-step tutorials for tensors, autograd and models."
+        },
+        {
+          "title": "Attention Is All You Need",
+          "url": "https://arxiv.org/abs/1706.03762",
+          "description": "The paper that introduced the Transformer architecture."
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "dl-01-what-is-deep-learning",
+      "title": "What Is Deep Learning?",
+      "description": "Why deep learning took over AI: representation learning, scale, and the hardware that made it possible.",
+      "type": "lesson",
+      "order": 1,
+      "duration": "40 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "deep-learning/dl-01-what-is-deep-learning"
+      ]
+    },
+    {
+      "slug": "dl-02-perceptron-and-linear-units",
+      "title": "The Perceptron & Linear Units",
+      "description": "Start with the neuron: linear combination, threshold, and the step up to learnable weights.",
+      "type": "lesson",
+      "order": 2,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "deep-learning/dl-02-perceptron-and-linear-units"
+      ]
+    },
+    {
+      "slug": "dl-03-activation-functions",
+      "title": "Activation Functions",
+      "description": "Nonlinearity is what makes deep networks expressive — sigmoid, tanh, ReLU and friends.",
+      "type": "lesson",
+      "order": 3,
+      "duration": "50 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "deep-learning/dl-03-activation-functions"
+      ]
+    },
+    {
+      "slug": "dl-04-forward-propagation",
+      "title": "Forward Propagation",
+      "description": "Push data through the network layer by layer and understand the shapes at every step.",
+      "type": "lesson",
+      "order": 4,
+      "duration": "50 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "deep-learning/dl-04-forward-propagation"
+      ]
+    },
+    {
+      "slug": "dl-05-backpropagation",
+      "title": "Backpropagation",
+      "description": "The chain rule in action: propagate errors backward to compute gradients for every weight.",
+      "type": "lesson",
+      "order": 5,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "deep-learning/dl-05-backpropagation"
+      ]
+    },
+    {
+      "slug": "dl-06-loss-functions",
+      "title": "Loss Functions",
+      "description": "Pick the right objective: MSE for regression, cross-entropy for classification, and why it matters.",
+      "type": "lesson",
+      "order": 6,
+      "duration": "50 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "deep-learning/dl-06-loss-functions"
+      ]
+    },
+    {
+      "slug": "dl-07-optimizers",
+      "title": "Optimizers: SGD, Momentum & Adam",
+      "description": "From plain SGD to Adam — how optimizers navigate loss landscapes and converge faster.",
+      "type": "lesson",
+      "order": 7,
+      "duration": "55 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "deep-learning/dl-07-optimizers"
+      ]
+    },
+    {
+      "slug": "dl-08-pytorch-tensors-and-autograd",
+      "title": "PyTorch Tensors & Autograd",
+      "description": "The PyTorch fundamentals: tensors, dtypes, devices, and the autograd graph.",
+      "type": "lesson",
+      "order": 8,
+      "duration": "55 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "deep-learning/dl-08-pytorch-tensors-and-autograd"
+      ]
+    },
+    {
+      "slug": "dl-09-building-an-mlp-in-pytorch",
+      "title": "Building an MLP in PyTorch",
+      "description": "Assemble a multi-layer perceptron with nn.Module, layers and activations — the skeleton of every modern net.",
+      "type": "lesson",
+      "order": 9,
+      "duration": "55 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "deep-learning/dl-09-building-an-mlp-in-pytorch"
+      ]
+    },
+    {
+      "slug": "dl-10-the-training-loop",
+      "title": "The Training Loop",
+      "description": "Write the loop that every training run shares: batches, forward, loss, backward, step.",
+      "type": "lesson",
+      "order": 10,
+      "duration": "55 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "deep-learning/dl-10-the-training-loop"
+      ]
+    },
+    {
+      "slug": "dl-11-regularization-for-deep-learning",
+      "title": "Regularization for Deep Learning",
+      "description": "Dropout, weight decay, early stopping and data augmentation — fight overfitting without shrinking capacity.",
+      "type": "lesson",
+      "order": 11,
+      "duration": "55 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "deep-learning/dl-11-regularization-for-deep-learning"
+      ]
+    },
+    {
+      "slug": "dl-12-convolutional-networks",
+      "title": "Convolutional Networks",
+      "description": "Why convolutions beat dense layers for images: local structure, weight sharing, and translation invariance.",
+      "type": "lesson",
+      "order": 12,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "deep-learning/dl-12-convolutional-networks"
+      ]
+    },
+    {
+      "slug": "dl-13-cnn-architectures",
+      "title": "Classic CNN Architectures",
+      "description": "LeNet, VGG, ResNet — the ideas (depth, skip connections) that shaped modern vision models.",
+      "type": "lesson",
+      "order": 13,
+      "duration": "55 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "deep-learning/dl-13-cnn-architectures"
+      ]
+    },
+    {
+      "slug": "dl-14-transfer-learning",
+      "title": "Transfer Learning",
+      "description": "Stand on the shoulders of pretrained models: freeze features, swap the head, and fine-tune.",
+      "type": "lesson",
+      "order": 14,
+      "duration": "55 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "deep-learning/dl-14-transfer-learning"
+      ]
+    },
+    {
+      "slug": "dl-15-recurrent-networks",
+      "title": "Recurrent Neural Networks",
+      "description": "Process sequences with a hidden state that carries context through time.",
+      "type": "lesson",
+      "order": 15,
+      "duration": "55 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "deep-learning/dl-15-recurrent-networks"
+      ]
+    },
+    {
+      "slug": "dl-16-lstm-and-gru",
+      "title": "LSTM & GRU",
+      "description": "Gated memory cells that actually remember — the fixes that made sequence modeling practical.",
+      "type": "lesson",
+      "order": 16,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "deep-learning/dl-16-lstm-and-gru"
+      ]
+    },
+    {
+      "slug": "dl-17-transformers",
+      "title": "Transformers",
+      "description": "The architecture behind modern AI: self-attention, positional encoding, and parallelized sequence processing.",
+      "type": "lesson",
+      "order": 17,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "deep-learning/dl-17-transformers"
+      ]
+    },
+    {
+      "slug": "dl-18-attention-mechanisms",
+      "title": "Attention Mechanisms",
+      "description": "Query-key-value attention, multi-head splits, and how attention replaced recurrence.",
+      "type": "lesson",
+      "order": 18,
+      "duration": "55 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "deep-learning/dl-18-attention-mechanisms"
+      ]
+    },
+    {
+      "slug": "dl-19-training-at-scale",
+      "title": "Training at Scale",
+      "description": "GPUs, mixed precision, data loaders and distributed training — the practical side of big models.",
+      "type": "lesson",
+      "order": 19,
+      "duration": "55 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "deep-learning/dl-19-training-at-scale"
+      ]
+    },
+    {
+      "slug": "dl-20-evaluating-deep-models",
+      "title": "Evaluating Deep Learning Models",
+      "description": "Accuracy is not enough: confusion matrices, calibration, and failure-case analysis for neural nets.",
+      "type": "lesson",
+      "order": 20,
+      "duration": "50 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "deep-learning/dl-20-evaluating-deep-models"
+      ]
+    },
+    {
+      "slug": "dl-21-roadmap",
+      "title": "Deep Learning Roadmap",
+      "description": "Synthesize the course: choose a specialization (vision, NLP, generative), and plan real training projects.",
+      "type": "lesson",
+      "order": 21,
+      "duration": "40 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "deep-learning/dl-21-roadmap"
+      ]
+    }
+  ]
+}

@@ -4,7 +4,7 @@
   "description": "Assignment, object names, environments, and existence checks.",
   "type": "lesson",
   "order": 3,
-  "duration": 25,
+  "duration": "25 min",
   "difficulty": "beginner",
   "learning_objectives": [
     "Assign values with <- and =",

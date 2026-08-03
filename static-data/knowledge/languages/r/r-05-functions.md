@@ -4,7 +4,7 @@
   "description": "Definitions, defaults, return values, and anonymous functions.",
   "type": "lesson",
   "order": 5,
-  "duration": 30,
+  "duration": "30 min",
   "difficulty": "beginner",
   "learning_objectives": [
     "Define functions with default arguments",

@@ -57,7 +57,7 @@
       "icon": "terminal",
       "items": [
         {
-          "title": "Exercism \u2014 V Track",
+          "title": "Exercism — V Track",
           "url": "https://exercism.org/tracks/v",
           "description": "Coding exercises for learning V with community support."
         }
@@ -109,22 +109,256 @@
   ],
   "lessons": [
     {
-      "slug": "fundamentals",
-      "title": "Fundamentals of V",
-      "description": "Core concepts, syntax, and first steps with V",
+      "slug": "v-01-getting-started",
+      "title": "Getting Started with V",
+      "description": "Install, compile, and hello world.",
       "type": "lesson",
       "order": 1,
       "duration": "45 min",
-      "difficulty": "beginner"
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "v/v-01-getting-started"
+      ]
     },
     {
-      "slug": "practical-guide",
-      "title": "Practical V Guide",
-      "description": "Real-world usage, tooling, and ecosystem",
+      "slug": "v-02-variables",
+      "title": "Variables and Types",
+      "description": "immutable, mut, and built-in types.",
       "type": "lesson",
       "order": 2,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "v/v-02-variables"
+      ]
+    },
+    {
+      "slug": "v-03-control-flow",
+      "title": "Control Flow",
+      "description": "if, match, and loops.",
+      "type": "lesson",
+      "order": 3,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "v/v-03-control-flow"
+      ]
+    },
+    {
+      "slug": "v-04-functions",
+      "title": "Functions",
+      "description": "Typed functions and multiple returns.",
+      "type": "lesson",
+      "order": 4,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "v/v-04-functions"
+      ]
+    },
+    {
+      "slug": "v-05-arrays",
+      "title": "Arrays",
+      "description": "Dynamic arrays.",
+      "type": "lesson",
+      "order": 5,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "v/v-05-arrays"
+      ]
+    },
+    {
+      "slug": "v-06-maps",
+      "title": "Maps",
+      "description": "Key-value storage.",
+      "type": "lesson",
+      "order": 6,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "v/v-06-maps"
+      ]
+    },
+    {
+      "slug": "v-07-strings",
+      "title": "Strings",
+      "description": "String operations.",
+      "type": "lesson",
+      "order": 7,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "v/v-07-strings"
+      ]
+    },
+    {
+      "slug": "v-08-structs",
+      "title": "Structs",
+      "description": "User-defined types.",
+      "type": "lesson",
+      "order": 8,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "v/v-08-structs"
+      ]
+    },
+    {
+      "slug": "v-09-enums",
+      "title": "Enums",
+      "description": "Typed enumerations.",
+      "type": "lesson",
+      "order": 9,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "v/v-09-enums"
+      ]
+    },
+    {
+      "slug": "v-10-optionals",
+      "title": "Optionals and Results",
+      "description": "Error handling with or.",
+      "type": "lesson",
+      "order": 10,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "v/v-10-optionals"
+      ]
+    },
+    {
+      "slug": "v-11-interfaces",
+      "title": "Interfaces and Sum Types",
+      "description": "Polymorphism.",
+      "type": "lesson",
+      "order": 11,
       "duration": "60 min",
-      "difficulty": "intermediate"
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "v/v-11-interfaces"
+      ]
+    },
+    {
+      "slug": "v-12-generics",
+      "title": "Generics",
+      "description": "Type-parameterized code.",
+      "type": "lesson",
+      "order": 12,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "v/v-12-generics"
+      ]
+    },
+    {
+      "slug": "v-13-file-io",
+      "title": "File I/O",
+      "description": "Read and write files.",
+      "type": "lesson",
+      "order": 13,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "v/v-13-file-io"
+      ]
+    },
+    {
+      "slug": "v-14-concurrency",
+      "title": "Concurrency",
+      "description": "Threads and channels.",
+      "type": "lesson",
+      "order": 14,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "v/v-14-concurrency"
+      ]
+    },
+    {
+      "slug": "v-15-web",
+      "title": "Web Development with vweb",
+      "description": "Build HTTP apps.",
+      "type": "lesson",
+      "order": 15,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "v/v-15-web"
+      ]
+    },
+    {
+      "slug": "v-16-json",
+      "title": "JSON",
+      "description": "Encode and decode JSON.",
+      "type": "lesson",
+      "order": 16,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "v/v-16-json"
+      ]
+    },
+    {
+      "slug": "v-17-testing",
+      "title": "Testing",
+      "description": "Unit tests in V.",
+      "type": "lesson",
+      "order": 17,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "v/v-17-testing"
+      ]
+    },
+    {
+      "slug": "v-18-cli",
+      "title": "CLI Applications",
+      "description": "Build command-line tools.",
+      "type": "lesson",
+      "order": 18,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "v/v-18-cli"
+      ]
+    },
+    {
+      "slug": "v-19-sqlite",
+      "title": "Database Access",
+      "description": "SQLite in V.",
+      "type": "lesson",
+      "order": 19,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "v/v-19-sqlite"
+      ]
+    },
+    {
+      "slug": "v-20-performance",
+      "title": "Performance",
+      "description": "V compiles to fast native code.",
+      "type": "lesson",
+      "order": 20,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "v/v-20-performance"
+      ]
+    },
+    {
+      "slug": "v-21-ecosystem",
+      "title": "Ecosystem and Next Steps",
+      "description": "V modules and community.",
+      "type": "lesson",
+      "order": 21,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "v/v-21-ecosystem"
+      ]
     }
   ]
 }

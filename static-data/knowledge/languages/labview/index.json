@@ -109,22 +109,256 @@
   ],
   "lessons": [
     {
-      "slug": "fundamentals",
-      "title": "Fundamentals of LabVIEW",
-      "description": "Core concepts, syntax, and first steps with LabVIEW",
+      "slug": "labview-01-getting-started",
+      "title": "Getting Started with LabVIEW",
+      "description": "Front panel, block diagram, hello world.",
       "type": "lesson",
       "order": 1,
-      "duration": "45 min",
-      "difficulty": "beginner"
+      "duration": "60 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "labview/labview-01-getting-started"
+      ]
     },
     {
-      "slug": "practical-guide",
-      "title": "Practical LabVIEW Guide",
-      "description": "Real-world usage, tooling, and ecosystem",
+      "slug": "labview-02-palettes",
+      "title": "Controls and Palettes",
+      "description": "Find and place controls and indicators.",
       "type": "lesson",
       "order": 2,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "labview/labview-02-palettes"
+      ]
+    },
+    {
+      "slug": "labview-03-dataflow",
+      "title": "Dataflow Programming",
+      "description": "Wires, terminals, and execution order.",
+      "type": "lesson",
+      "order": 3,
       "duration": "60 min",
-      "difficulty": "intermediate"
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "labview/labview-03-dataflow"
+      ]
+    },
+    {
+      "slug": "labview-04-arithmetic",
+      "title": "Arithmetic Operations",
+      "description": "Add, subtract, multiply, divide.",
+      "type": "lesson",
+      "order": 4,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "labview/labview-04-arithmetic"
+      ]
+    },
+    {
+      "slug": "labview-05-booleans",
+      "title": "Booleans and Comparison",
+      "description": "Boolean logic and comparisons.",
+      "type": "lesson",
+      "order": 5,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "labview/labview-05-booleans"
+      ]
+    },
+    {
+      "slug": "labview-06-structures",
+      "title": "Structures: While and For",
+      "description": "Loop structures.",
+      "type": "lesson",
+      "order": 6,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "labview/labview-06-structures"
+      ]
+    },
+    {
+      "slug": "labview-07-case",
+      "title": "Case Structures",
+      "description": "Conditional execution.",
+      "type": "lesson",
+      "order": 7,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "labview/labview-07-case"
+      ]
+    },
+    {
+      "slug": "labview-08-arrays",
+      "title": "Arrays",
+      "description": "Build and manipulate arrays.",
+      "type": "lesson",
+      "order": 8,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "labview/labview-08-arrays"
+      ]
+    },
+    {
+      "slug": "labview-09-strings",
+      "title": "Strings",
+      "description": "Text handling.",
+      "type": "lesson",
+      "order": 9,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "labview/labview-09-strings"
+      ]
+    },
+    {
+      "slug": "labview-10-clusters",
+      "title": "Clusters",
+      "description": "Group data together.",
+      "type": "lesson",
+      "order": 10,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "labview/labview-10-clusters"
+      ]
+    },
+    {
+      "slug": "labview-11-subvis",
+      "title": "SubVIs",
+      "description": "Reusable components.",
+      "type": "lesson",
+      "order": 11,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "labview/labview-11-subvis"
+      ]
+    },
+    {
+      "slug": "labview-12-local-variables",
+      "title": "Local Variables and Properties",
+      "description": "Share data within a VI.",
+      "type": "lesson",
+      "order": 12,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "labview/labview-12-local-variables"
+      ]
+    },
+    {
+      "slug": "labview-13-errors",
+      "title": "Error Handling",
+      "description": "Error clusters and handling.",
+      "type": "lesson",
+      "order": 13,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "labview/labview-13-errors"
+      ]
+    },
+    {
+      "slug": "labview-14-file-io",
+      "title": "File I/O",
+      "description": "Read and write files.",
+      "type": "lesson",
+      "order": 14,
+      "duration": "60 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "labview/labview-14-file-io"
+      ]
+    },
+    {
+      "slug": "labview-15-instrument-control",
+      "title": "Instrument Control",
+      "description": "Talk to hardware (VISA/SCPI).",
+      "type": "lesson",
+      "order": 15,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "labview/labview-15-instrument-control"
+      ]
+    },
+    {
+      "slug": "labview-16-daq",
+      "title": "Data Acquisition (DAQ)",
+      "description": "Read sensors with DAQmx.",
+      "type": "lesson",
+      "order": 16,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "labview/labview-16-daq"
+      ]
+    },
+    {
+      "slug": "labview-17-data-logging",
+      "title": "Data Logging",
+      "description": "Record and replay data.",
+      "type": "lesson",
+      "order": 17,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "labview/labview-17-data-logging"
+      ]
+    },
+    {
+      "slug": "labview-18-timers",
+      "title": "Timing and Synchronization",
+      "description": "Precise timing in loops.",
+      "type": "lesson",
+      "order": 18,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "labview/labview-18-timers"
+      ]
+    },
+    {
+      "slug": "labview-19-state-machines",
+      "title": "State Machines",
+      "description": "The classic LabVIEW pattern.",
+      "type": "lesson",
+      "order": 19,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "labview/labview-19-state-machines"
+      ]
+    },
+    {
+      "slug": "labview-20-producer-consumer",
+      "title": "Producer/Consumer Pattern",
+      "description": "Handle data at different rates.",
+      "type": "lesson",
+      "order": 20,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "labview/labview-20-producer-consumer"
+      ]
+    },
+    {
+      "slug": "labview-21-ecosystem",
+      "title": "Ecosystem and Next Steps",
+      "description": "Toolkits and community.",
+      "type": "lesson",
+      "order": 21,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "labview/labview-21-ecosystem"
+      ]
     }
   ]
 }

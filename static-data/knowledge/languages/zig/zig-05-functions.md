@@ -4,7 +4,7 @@
   "description": "Explicit signatures, void returns, and function pointers.",
   "type": "lesson",
   "order": 5,
-  "duration": 30,
+  "duration": "30 min",
   "difficulty": "beginner",
   "learning_objectives": [
     "Define functions with explicit return types",

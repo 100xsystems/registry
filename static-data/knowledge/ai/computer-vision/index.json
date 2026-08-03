@@ -1,0 +1,303 @@
+{
+  "slug": "computer-vision",
+  "name": "Computer Vision",
+  "description": "From pixels to perception: image processing, CNNs, detection, segmentation, pose, tracking, OCR and vision transformers.",
+  "categories": [
+    {
+      "label": "Free Courses & Guides",
+      "icon": "book",
+      "items": [
+        {
+          "title": "Stanford CS231n",
+          "url": "http://cs231n.stanford.edu/",
+          "description": "The classic university course on CNNs for visual recognition."
+        },
+        {
+          "title": "OpenCV-Python Tutorials",
+          "url": "https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html",
+          "description": "Practical image processing and computer vision with Python."
+        },
+        {
+          "title": "YOLOv8 (Ultralytics)",
+          "url": "https://docs.ultralytics.com/",
+          "description": "Real-time object detection documentation and models."
+        }
+      ]
+    },
+    {
+      "label": "Official Documentation",
+      "icon": "docs",
+      "items": [
+        {
+          "title": "PyTorch Vision Docs",
+          "url": "https://pytorch.org/vision/stable/index.html",
+          "description": "Datasets, transforms and model zoo for vision."
+        },
+        {
+          "title": "Torchvision Models",
+          "url": "https://pytorch.org/vision/stable/models.html",
+          "description": "Pretrained model catalog for transfer learning."
+        },
+        {
+          "title": "Papers with Code — Vision",
+          "url": "https://paperswithcode.com/area/computer-vision",
+          "description": "Latest vision methods with code and results."
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "cv-01-what-is-computer-vision",
+      "title": "What Is Computer Vision?",
+      "description": "The field, the tasks, and the datasets that drive progress in visual intelligence.",
+      "type": "lesson",
+      "order": 1,
+      "duration": "40 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "computer-vision/cv-01-what-is-computer-vision"
+      ]
+    },
+    {
+      "slug": "cv-02-image-representation",
+      "title": "Image Representation",
+      "description": "Pixels, channels, color spaces and the tensor layouts every vision library uses.",
+      "type": "lesson",
+      "order": 2,
+      "duration": "50 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "computer-vision/cv-02-image-representation"
+      ]
+    },
+    {
+      "slug": "cv-03-image-processing",
+      "title": "Image Processing Fundamentals",
+      "description": "Convolutions, blur, edges and thresholds — the classic toolbox that still powers pipelines today.",
+      "type": "lesson",
+      "order": 3,
+      "duration": "55 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "computer-vision/cv-03-image-processing"
+      ]
+    },
+    {
+      "slug": "cv-04-image-augmentation",
+      "title": "Image Augmentation",
+      "description": "Synthesize training variety: flips, rotations, crops and color jitter to make models robust.",
+      "type": "lesson",
+      "order": 4,
+      "duration": "50 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "computer-vision/cv-04-image-augmentation"
+      ]
+    },
+    {
+      "slug": "cv-05-image-classification",
+      "title": "Image Classification",
+      "description": "The canonical vision task: train a classifier on MNIST/CIFAR and read the results.",
+      "type": "lesson",
+      "order": 5,
+      "duration": "55 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "computer-vision/cv-05-image-classification"
+      ]
+    },
+    {
+      "slug": "cv-06-cnns-for-vision",
+      "title": "CNNs for Vision",
+      "description": "Architecture patterns that win on images: receptive fields, pooling, and depth.",
+      "type": "lesson",
+      "order": 6,
+      "duration": "55 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "computer-vision/cv-06-cnns-for-vision"
+      ]
+    },
+    {
+      "slug": "cv-07-transfer-learning-for-vision",
+      "title": "Transfer Learning for Vision",
+      "description": "Pretrained backbones are the default starting point — swap the head, keep the features.",
+      "type": "lesson",
+      "order": 7,
+      "duration": "55 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "computer-vision/cv-07-transfer-learning-for-vision"
+      ]
+    },
+    {
+      "slug": "cv-08-object-detection",
+      "title": "Object Detection",
+      "description": "Bounding boxes and classes: two-stage detectors, single-shot detectors, and YOLO in practice.",
+      "type": "lesson",
+      "order": 8,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "computer-vision/cv-08-object-detection"
+      ]
+    },
+    {
+      "slug": "cv-09-semantic-segmentation",
+      "title": "Semantic Segmentation",
+      "description": "Label every pixel: FCNs, U-Net, and the encoder-decoder design for pixel-level tasks.",
+      "type": "lesson",
+      "order": 9,
+      "duration": "55 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "computer-vision/cv-09-semantic-segmentation"
+      ]
+    },
+    {
+      "slug": "cv-10-instance-segmentation",
+      "title": "Instance Segmentation",
+      "description": "Separate each object, not just each class: Mask R-CNN and the mask-head idea.",
+      "type": "lesson",
+      "order": 10,
+      "duration": "55 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "computer-vision/cv-10-instance-segmentation"
+      ]
+    },
+    {
+      "slug": "cv-11-pose-estimation",
+      "title": "Pose Estimation",
+      "description": "Detect body keypoints and skeletons with heatmap-based and regression approaches.",
+      "type": "lesson",
+      "order": 11,
+      "duration": "55 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "computer-vision/cv-11-pose-estimation"
+      ]
+    },
+    {
+      "slug": "cv-12-opencv-fundamentals",
+      "title": "OpenCV Fundamentals",
+      "description": "The industrial workhorse: reading, writing, resizing, drawing, and real-time camera capture.",
+      "type": "lesson",
+      "order": 12,
+      "duration": "55 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "computer-vision/cv-12-opencv-fundamentals"
+      ]
+    },
+    {
+      "slug": "cv-13-feature-detection",
+      "title": "Feature Detection & Matching",
+      "description": "Keypoints and descriptors: SIFT, ORB, and how image matching enables stitching and localization.",
+      "type": "lesson",
+      "order": 13,
+      "duration": "55 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "computer-vision/cv-13-feature-detection"
+      ]
+    },
+    {
+      "slug": "cv-14-image-registration-and-stitching",
+      "title": "Image Registration & Stitching",
+      "description": "Combine overlapping images into panoramas and align images across time or sensors.",
+      "type": "lesson",
+      "order": 14,
+      "duration": "55 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "computer-vision/cv-14-image-registration-and-stitching"
+      ]
+    },
+    {
+      "slug": "cv-15-video-analysis",
+      "title": "Video Analysis & Tracking",
+      "description": "Optical flow, frame differencing, and object tracking across video streams.",
+      "type": "lesson",
+      "order": 15,
+      "duration": "55 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "computer-vision/cv-15-video-analysis"
+      ]
+    },
+    {
+      "slug": "cv-16-face-recognition",
+      "title": "Face Detection & Recognition",
+      "description": "Detect faces, embed them into vectors, and recognize identity — and respect the ethics of it.",
+      "type": "lesson",
+      "order": 16,
+      "duration": "55 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "computer-vision/cv-16-face-recognition"
+      ]
+    },
+    {
+      "slug": "cv-17-ocr-and-document-ai",
+      "title": "OCR & Document AI",
+      "description": "Turn images of text into machine-readable text: Tesseract, PaddleOCR, and layout understanding.",
+      "type": "lesson",
+      "order": 17,
+      "duration": "55 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "computer-vision/cv-17-ocr-and-document-ai"
+      ]
+    },
+    {
+      "slug": "cv-18-3d-vision",
+      "title": "3D Vision",
+      "description": "Depth, point clouds and stereo: how cameras recover the third dimension.",
+      "type": "lesson",
+      "order": 18,
+      "duration": "55 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "computer-vision/cv-18-3d-vision"
+      ]
+    },
+    {
+      "slug": "cv-19-vision-transformers",
+      "title": "Vision Transformers (ViT)",
+      "description": "Patch the image into tokens and let attention do the rest — the modern alternative to CNNs.",
+      "type": "lesson",
+      "order": 19,
+      "duration": "55 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "computer-vision/cv-19-vision-transformers"
+      ]
+    },
+    {
+      "slug": "cv-20-evaluating-vision-models",
+      "title": "Evaluating Vision Models",
+      "description": "Benchmarks, metrics and failure analysis: accuracy, mAP, and per-class audits.",
+      "type": "lesson",
+      "order": 20,
+      "duration": "50 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "computer-vision/cv-20-evaluating-vision-models"
+      ]
+    },
+    {
+      "slug": "cv-21-roadmap",
+      "title": "Computer Vision Roadmap",
+      "description": "Synthesize the course into a plan: pick a specialization, build portfolio projects, and keep shipping.",
+      "type": "lesson",
+      "order": 21,
+      "duration": "40 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "computer-vision/cv-21-roadmap"
+      ]
+    }
+  ]
+}

@@ -4,7 +4,7 @@
   "description": "Compile-time evaluation, comptime params, and introspection.",
   "type": "lesson",
   "order": 15,
-  "duration": 40,
+  "duration": "40 min",
   "difficulty": "expert",
   "learning_objectives": [
     "Evaluate expressions at compile time",

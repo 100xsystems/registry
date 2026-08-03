@@ -4,7 +4,7 @@
   "description": "Symbols, expressions, macros, and code-as-data.",
   "type": "lesson",
   "order": 14,
-  "duration": 40,
+  "duration": "40 min",
   "difficulty": "expert",
   "learning_objectives": [
     "Explain that Julia code is representable as data",

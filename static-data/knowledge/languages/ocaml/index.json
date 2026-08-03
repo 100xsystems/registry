@@ -10,7 +10,7 @@
         {
           "title": "OCaml from the Very Beginning",
           "url": "https://johnwhitington.net/ocamlbook/",
-          "description": "A zero-prerequisites beginner book backed by the OCaml Software Foundation \u2014 free to read online or download as PDF."
+          "description": "A zero-prerequisites beginner book backed by the OCaml Software Foundation — free to read online or download as PDF."
         },
         {
           "title": "Real World OCaml (2nd Edition)",
@@ -40,7 +40,7 @@
       "icon": "code",
       "items": [
         {
-          "title": "Exercism \u2014 OCaml Track",
+          "title": "Exercism — OCaml Track",
           "url": "https://exercism.org/tracks/ocaml",
           "description": "60 tailored exercises with automated test analysis and free human mentoring."
         }
@@ -62,7 +62,7 @@
       "icon": "terminal",
       "items": [
         {
-          "title": "Exercism \u2014 OCaml Track",
+          "title": "Exercism — OCaml Track",
           "url": "https://exercism.org/tracks/ocaml",
           "description": "Pattern matching, algebraic data types, and functional programming exercises."
         }
@@ -109,22 +109,256 @@
   ],
   "lessons": [
     {
-      "slug": "fundamentals",
-      "title": "Fundamentals of OCaml",
-      "description": "Core concepts, syntax, and first steps with OCaml",
+      "slug": "ocaml-01-getting-started",
+      "title": "Getting Started with OCaml",
+      "description": "OPAM, utop, and hello world.",
       "type": "lesson",
       "order": 1,
       "duration": "45 min",
-      "difficulty": "beginner"
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "ocaml/ocaml-01-getting-started"
+      ]
     },
     {
-      "slug": "practical-guide",
-      "title": "Practical OCaml Guide",
-      "description": "Real-world usage, tooling, and ecosystem",
+      "slug": "ocaml-02-values",
+      "title": "Values and Types",
+      "description": "let bindings and basic types.",
       "type": "lesson",
       "order": 2,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "ocaml/ocaml-02-values"
+      ]
+    },
+    {
+      "slug": "ocaml-03-functions",
+      "title": "Functions",
+      "description": "Higher-order functions and currying.",
+      "type": "lesson",
+      "order": 3,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "ocaml/ocaml-03-functions"
+      ]
+    },
+    {
+      "slug": "ocaml-04-lists",
+      "title": "Lists",
+      "description": "Immutable linked lists.",
+      "type": "lesson",
+      "order": 4,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "ocaml/ocaml-04-lists"
+      ]
+    },
+    {
+      "slug": "ocaml-05-pattern-matching",
+      "title": "Pattern Matching",
+      "description": "Destructure data safely.",
+      "type": "lesson",
+      "order": 5,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "ocaml/ocaml-05-pattern-matching"
+      ]
+    },
+    {
+      "slug": "ocaml-06-options",
+      "title": "Option Types",
+      "description": "Represent optional values.",
+      "type": "lesson",
+      "order": 6,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "ocaml/ocaml-06-options"
+      ]
+    },
+    {
+      "slug": "ocaml-07-records",
+      "title": "Records",
+      "description": "Named field structures.",
+      "type": "lesson",
+      "order": 7,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "ocaml/ocaml-07-records"
+      ]
+    },
+    {
+      "slug": "ocaml-08-variants",
+      "title": "Variants",
+      "description": "Sum types for data modeling.",
+      "type": "lesson",
+      "order": 8,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "ocaml/ocaml-08-variants"
+      ]
+    },
+    {
+      "slug": "ocaml-09-modules",
+      "title": "Modules and Signatures",
+      "description": "Encapsulate code with modules.",
+      "type": "lesson",
+      "order": 9,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "ocaml/ocaml-09-modules"
+      ]
+    },
+    {
+      "slug": "ocaml-10-recursion",
+      "title": "Recursion and Tail Calls",
+      "description": "Recursive definitions.",
+      "type": "lesson",
+      "order": 10,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "ocaml/ocaml-10-recursion"
+      ]
+    },
+    {
+      "slug": "ocaml-11-imperative",
+      "title": "Imperative Features",
+      "description": "Refs, arrays, and mutable state.",
+      "type": "lesson",
+      "order": 11,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "ocaml/ocaml-11-imperative"
+      ]
+    },
+    {
+      "slug": "ocaml-12-exceptions",
+      "title": "Exceptions",
+      "description": "Raise and handle errors.",
+      "type": "lesson",
+      "order": 12,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "ocaml/ocaml-12-exceptions"
+      ]
+    },
+    {
+      "slug": "ocaml-13-functors",
+      "title": "Functors",
+      "description": "Modules parameterized by modules.",
+      "type": "lesson",
+      "order": 13,
       "duration": "60 min",
-      "difficulty": "intermediate"
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "ocaml/ocaml-13-functors"
+      ]
+    },
+    {
+      "slug": "ocaml-14-gadt",
+      "title": "Advanced Types",
+      "description": "GADTs and polymorphic variants.",
+      "type": "lesson",
+      "order": 14,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "ocaml/ocaml-14-gadt"
+      ]
+    },
+    {
+      "slug": "ocaml-15-io",
+      "title": "Input/Output",
+      "description": "File and console IO.",
+      "type": "lesson",
+      "order": 15,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "ocaml/ocaml-15-io"
+      ]
+    },
+    {
+      "slug": "ocaml-16-mutable-state",
+      "title": "Objects and Classes",
+      "description": "OCaml object system.",
+      "type": "lesson",
+      "order": 16,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "ocaml/ocaml-16-mutable-state"
+      ]
+    },
+    {
+      "slug": "ocaml-17-lwt",
+      "title": "Concurrency with Lwt",
+      "description": "Cooperative threads for IO.",
+      "type": "lesson",
+      "order": 17,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "ocaml/ocaml-17-lwt"
+      ]
+    },
+    {
+      "slug": "ocaml-18-ppx",
+      "title": "PPX and Metaprogramming",
+      "description": "Syntax extensions.",
+      "type": "lesson",
+      "order": 18,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "ocaml/ocaml-18-ppx"
+      ]
+    },
+    {
+      "slug": "ocaml-19-tests",
+      "title": "Testing with Alcotest",
+      "description": "Unit and property tests.",
+      "type": "lesson",
+      "order": 19,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "ocaml/ocaml-19-tests"
+      ]
+    },
+    {
+      "slug": "ocaml-20-dune",
+      "title": "Dune Build System",
+      "description": "Build and manage OCaml projects.",
+      "type": "lesson",
+      "order": 20,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "ocaml/ocaml-20-dune"
+      ]
+    },
+    {
+      "slug": "ocaml-21-ecosystem",
+      "title": "Ecosystem and Next Steps",
+      "description": "Libraries, tooling, and community.",
+      "type": "lesson",
+      "order": 21,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "ocaml/ocaml-21-ecosystem"
+      ]
     }
   ]
 }

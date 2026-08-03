@@ -4,7 +4,7 @@
   "description": "Reading and writing files, parsing CSV-like data.",
   "type": "lesson",
   "order": 16,
-  "duration": 30,
+  "duration": "30 min",
   "difficulty": "intermediate",
   "learning_objectives": [
     "Read and write text files with open and do blocks",

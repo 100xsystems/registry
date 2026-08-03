@@ -10,7 +10,7 @@
         {
           "title": "Gleam Language Tour",
           "url": "https://tour.gleam.run/",
-          "description": "An interactive tour of Gleam covering syntax, types, and patterns \u2014 the best place to start."
+          "description": "An interactive tour of Gleam covering syntax, types, and patterns — the best place to start."
         },
         {
           "title": "Gleam Documentation",
@@ -67,7 +67,7 @@
       "icon": "terminal",
       "items": [
         {
-          "title": "Exercism \u2014 Gleam Track",
+          "title": "Exercism — Gleam Track",
           "url": "https://exercism.org/tracks/gleam",
           "description": "Structured exercises for mastering Gleam functional programming."
         }
@@ -114,22 +114,256 @@
   ],
   "lessons": [
     {
-      "slug": "fundamentals",
-      "title": "Fundamentals of Gleam",
-      "description": "Core concepts, syntax, and first steps with Gleam",
+      "slug": "gleam-01-getting-started",
+      "title": "Getting Started with Gleam",
+      "description": "Install, project setup, hello world.",
       "type": "lesson",
       "order": 1,
       "duration": "45 min",
-      "difficulty": "beginner"
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "gleam/gleam-01-getting-started"
+      ]
     },
     {
-      "slug": "practical-guide",
-      "title": "Practical Gleam Guide",
-      "description": "Real-world usage, tooling, and ecosystem",
+      "slug": "gleam-02-values",
+      "title": "Values and Types",
+      "description": "Integers, floats, strings, bools.",
       "type": "lesson",
       "order": 2,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "gleam/gleam-02-values"
+      ]
+    },
+    {
+      "slug": "gleam-03-control-flow",
+      "title": "Control Flow",
+      "description": "case expressions and pattern matching.",
+      "type": "lesson",
+      "order": 3,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "gleam/gleam-03-control-flow"
+      ]
+    },
+    {
+      "slug": "gleam-04-functions",
+      "title": "Functions",
+      "description": "Typed functions and pipelines.",
+      "type": "lesson",
+      "order": 4,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "gleam/gleam-04-functions"
+      ]
+    },
+    {
+      "slug": "gleam-05-lists",
+      "title": "Lists",
+      "description": "Immutable lists and List functions.",
+      "type": "lesson",
+      "order": 5,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "gleam/gleam-05-lists"
+      ]
+    },
+    {
+      "slug": "gleam-06-result",
+      "title": "Result and Error Handling",
+      "description": "Typed errors with Result.",
+      "type": "lesson",
+      "order": 6,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "gleam/gleam-06-result"
+      ]
+    },
+    {
+      "slug": "gleam-07-option",
+      "title": "Option Types",
+      "description": "Handle missing values.",
+      "type": "lesson",
+      "order": 7,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "gleam/gleam-07-option"
+      ]
+    },
+    {
+      "slug": "gleam-08-custom-types",
+      "title": "Custom Types",
+      "description": "Model data with tagged unions.",
+      "type": "lesson",
+      "order": 8,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "gleam/gleam-08-custom-types"
+      ]
+    },
+    {
+      "slug": "gleam-09-records",
+      "title": "Records",
+      "description": "Named fields and updates.",
+      "type": "lesson",
+      "order": 9,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "gleam/gleam-09-records"
+      ]
+    },
+    {
+      "slug": "gleam-10-modules",
+      "title": "Modules",
+      "description": "Organize code with modules.",
+      "type": "lesson",
+      "order": 10,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "gleam/gleam-10-modules"
+      ]
+    },
+    {
+      "slug": "gleam-11-strings",
+      "title": "String Functions",
+      "description": "Manipulate text.",
+      "type": "lesson",
+      "order": 11,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "gleam/gleam-11-strings"
+      ]
+    },
+    {
+      "slug": "gleam-12-map",
+      "title": "Maps",
+      "description": "Key-value storage.",
+      "type": "lesson",
+      "order": 12,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "gleam/gleam-12-map"
+      ]
+    },
+    {
+      "slug": "gleam-13-io-ffi",
+      "title": "IO and FFI",
+      "description": "Interact with the outside world.",
+      "type": "lesson",
+      "order": 13,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "gleam/gleam-13-io-ffi"
+      ]
+    },
+    {
+      "slug": "gleam-14-generics",
+      "title": "Generics",
+      "description": "Type-parameterized code.",
+      "type": "lesson",
+      "order": 14,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "gleam/gleam-14-generics"
+      ]
+    },
+    {
+      "slug": "gleam-15-erlang",
+      "title": "The Erlang Runtime",
+      "description": "BEAM VM and OTP.",
+      "type": "lesson",
+      "order": 15,
       "duration": "60 min",
-      "difficulty": "intermediate"
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "gleam/gleam-15-erlang"
+      ]
+    },
+    {
+      "slug": "gleam-16-todo-app",
+      "title": "Build a CLI Tool",
+      "description": "Parse args and build tools.",
+      "type": "lesson",
+      "order": 16,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "gleam/gleam-16-todo-app"
+      ]
+    },
+    {
+      "slug": "gleam-17-http-server",
+      "title": "HTTP Servers",
+      "description": "Build web services.",
+      "type": "lesson",
+      "order": 17,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "gleam/gleam-17-http-server"
+      ]
+    },
+    {
+      "slug": "gleam-18-json",
+      "title": "JSON",
+      "description": "Encode and decode JSON.",
+      "type": "lesson",
+      "order": 18,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "gleam/gleam-18-json"
+      ]
+    },
+    {
+      "slug": "gleam-19-testing",
+      "title": "Testing",
+      "description": "Write unit tests with gleeunit.",
+      "type": "lesson",
+      "order": 19,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "gleam/gleam-19-testing"
+      ]
+    },
+    {
+      "slug": "gleam-20-project-structure",
+      "title": "Project Structure",
+      "description": "Organize a real project.",
+      "type": "lesson",
+      "order": 20,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "gleam/gleam-20-project-structure"
+      ]
+    },
+    {
+      "slug": "gleam-21-ecosystem",
+      "title": "Ecosystem and Next Steps",
+      "description": "Packages and community.",
+      "type": "lesson",
+      "order": 21,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "gleam/gleam-21-ecosystem"
+      ]
     }
   ]
 }

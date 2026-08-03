@@ -67,7 +67,7 @@
       "icon": "terminal",
       "items": [
         {
-          "title": "Exercism \u2014 Haxe Track",
+          "title": "Exercism — Haxe Track",
           "url": "https://exercism.org/tracks/haxe",
           "description": "Free coding exercises for Haxe with community mentoring."
         }
@@ -114,22 +114,256 @@
   ],
   "lessons": [
     {
-      "slug": "fundamentals",
-      "title": "Fundamentals of Haxe",
-      "description": "Core concepts, syntax, and first steps with Haxe",
+      "slug": "haxe-01-getting-started",
+      "title": "Getting Started with Haxe",
+      "description": "Install, compile targets, hello world.",
       "type": "lesson",
       "order": 1,
       "duration": "45 min",
-      "difficulty": "beginner"
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "haxe/haxe-01-getting-started"
+      ]
     },
     {
-      "slug": "practical-guide",
-      "title": "Practical Haxe Guide",
-      "description": "Real-world usage, tooling, and ecosystem",
+      "slug": "haxe-02-types",
+      "title": "Types and Variables",
+      "description": "Static typing with inference.",
       "type": "lesson",
       "order": 2,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "haxe/haxe-02-types"
+      ]
+    },
+    {
+      "slug": "haxe-03-control-flow",
+      "title": "Control Flow",
+      "description": "if, switch, and loops.",
+      "type": "lesson",
+      "order": 3,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "haxe/haxe-03-control-flow"
+      ]
+    },
+    {
+      "slug": "haxe-04-functions",
+      "title": "Functions",
+      "description": "Typed functions and lambdas.",
+      "type": "lesson",
+      "order": 4,
+      "duration": "45 min",
+      "difficulty": "beginner",
+      "knowledge_refs": [
+        "haxe/haxe-04-functions"
+      ]
+    },
+    {
+      "slug": "haxe-05-arrays",
+      "title": "Arrays and Maps",
+      "description": "Collections.",
+      "type": "lesson",
+      "order": 5,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "haxe/haxe-05-arrays"
+      ]
+    },
+    {
+      "slug": "haxe-06-strings",
+      "title": "Strings",
+      "description": "String operations and interpolation.",
+      "type": "lesson",
+      "order": 6,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "haxe/haxe-06-strings"
+      ]
+    },
+    {
+      "slug": "haxe-07-classes",
+      "title": "Classes and OOP",
+      "description": "Classes, inheritance, and interfaces.",
+      "type": "lesson",
+      "order": 7,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "haxe/haxe-07-classes"
+      ]
+    },
+    {
+      "slug": "haxe-08-enums",
+      "title": "Enums (ADTs)",
+      "description": "Algebraic data types.",
+      "type": "lesson",
+      "order": 8,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "haxe/haxe-08-enums"
+      ]
+    },
+    {
+      "slug": "haxe-09-abstracts",
+      "title": "Abstract Types",
+      "description": "Type wrappers with zero cost.",
+      "type": "lesson",
+      "order": 9,
       "duration": "60 min",
-      "difficulty": "intermediate"
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "haxe/haxe-09-abstracts"
+      ]
+    },
+    {
+      "slug": "haxe-10-generics",
+      "title": "Generics",
+      "description": "Type-parameterized code.",
+      "type": "lesson",
+      "order": 10,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "haxe/haxe-10-generics"
+      ]
+    },
+    {
+      "slug": "haxe-11-typedefs",
+      "title": "Typedefs",
+      "description": "Structural types.",
+      "type": "lesson",
+      "order": 11,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "haxe/haxe-11-typedefs"
+      ]
+    },
+    {
+      "slug": "haxe-12-conditionals",
+      "title": "Compile-Time Conditionals",
+      "description": "Platform and build flags.",
+      "type": "lesson",
+      "order": 12,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "haxe/haxe-12-conditionals"
+      ]
+    },
+    {
+      "slug": "haxe-13-exceptions",
+      "title": "Exceptions",
+      "description": "Throw and catch.",
+      "type": "lesson",
+      "order": 13,
+      "duration": "45 min",
+      "difficulty": "intermediate",
+      "knowledge_refs": [
+        "haxe/haxe-13-exceptions"
+      ]
+    },
+    {
+      "slug": "haxe-14-iterators",
+      "title": "Iterators",
+      "description": "Custom iteration.",
+      "type": "lesson",
+      "order": 14,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "haxe/haxe-14-iterators"
+      ]
+    },
+    {
+      "slug": "haxe-15-macros",
+      "title": "Macros",
+      "description": "Compile-time metaprogramming.",
+      "type": "lesson",
+      "order": 15,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "haxe/haxe-15-macros"
+      ]
+    },
+    {
+      "slug": "haxe-16-openfl",
+      "title": "Games with OpenFL",
+      "description": "Cross-platform game framework.",
+      "type": "lesson",
+      "order": 16,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "haxe/haxe-16-openfl"
+      ]
+    },
+    {
+      "slug": "haxe-17-heaps",
+      "title": "Heaps Game Engine",
+      "description": "High-performance 2D/3D.",
+      "type": "lesson",
+      "order": 17,
+      "duration": "60 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "haxe/haxe-17-heaps"
+      ]
+    },
+    {
+      "slug": "haxe-18-hashlink",
+      "title": "HashLink VM",
+      "description": "Native VM for Haxe.",
+      "type": "lesson",
+      "order": 18,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "haxe/haxe-18-hashlink"
+      ]
+    },
+    {
+      "slug": "haxe-19-node",
+      "title": "Haxe on Node.js",
+      "description": "Build Node applications.",
+      "type": "lesson",
+      "order": 19,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "haxe/haxe-19-node"
+      ]
+    },
+    {
+      "slug": "haxe-20-testing",
+      "title": "Testing",
+      "description": "Unit tests with munit.",
+      "type": "lesson",
+      "order": 20,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "haxe/haxe-20-testing"
+      ]
+    },
+    {
+      "slug": "haxe-21-ecosystem",
+      "title": "Ecosystem and Next Steps",
+      "description": "Haxelib and community.",
+      "type": "lesson",
+      "order": 21,
+      "duration": "45 min",
+      "difficulty": "advanced",
+      "knowledge_refs": [
+        "haxe/haxe-21-ecosystem"
+      ]
     }
   ]
 }

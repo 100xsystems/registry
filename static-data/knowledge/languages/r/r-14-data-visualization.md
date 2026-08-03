@@ -4,7 +4,7 @@
   "description": "Base R plots, histograms, boxplots, and saving output.",
   "type": "lesson",
   "order": 14,
-  "duration": 30,
+  "duration": "30 min",
   "difficulty": "intermediate",
   "learning_objectives": [
     "Create scatterplots with plot()",
