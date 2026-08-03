@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-08-03T09:56:05.915Z",
+  "updatedAt": "2026-08-03T19:21:57.608Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -513,7 +513,15 @@
       "summary": "Idle transactions hold locks and block vacuums, turning one forgotten connection into a cascading outage.",
       "author": null,
       "publishedAt": "2026-08-03T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9ra",
+      "title": "Umair Shahid: PostgreSQL Lockup vs Stale Connection: How to Tell Them Apart",
+      "link": "https://postgr.es/p/9ra",
+      "summary": "“The database is locked up.” We heard some version of that sentence more than once this past week, from the same team, about what looked like the same problem. It was not the same problem. Once, Postgres had genuinely stopped responding. Every other time, Postgres was fine, and a connection sitting…",
+      "author": null,
+      "publishedAt": "2026-08-03T15:33:25.000Z"
     }
   ],
-  "totalIndexed": 63
+  "totalIndexed": 64
 }

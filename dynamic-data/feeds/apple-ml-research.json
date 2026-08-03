@@ -8,7 +8,7 @@
     "ai",
     "research"
   ],
-  "updatedAt": "2026-07-30T19:13:39.551Z",
+  "updatedAt": "2026-08-03T19:21:57.201Z",
   "items": [
     {
       "guid": "environment-free",
@@ -113,7 +113,15 @@
       "summary": "While UMAP is widely used for exploring high-dimensional data, typical workflows focus on its lower-dimensional embedding, largely overlooking the rich k-nearest-neighbor (kNN) graph that UMAP constructs internally. This graph encodes the data manifold in its original high-dimensional space, before…",
       "author": null,
       "publishedAt": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "guid": "alignment-multimodal-llms",
+      "title": "Understanding Alignment in Multimodal LLMs: A Comprehensive Study",
+      "link": "https://machinelearning.apple.com/research/alignment-multimodal-llms",
+      "summary": "Preference alignment has become a crucial component in enhancing the performance of Large Language Models (LLMs), yet its impact in Multimodal Large Language Models (MLLMs) remains comparatively underexplored. Similar to language models, MLLMs for image understanding tasks encounter challenges like…",
+      "author": null,
+      "publishedAt": "2026-08-03T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 13
+  "totalIndexed": 14
 }

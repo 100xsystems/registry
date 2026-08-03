@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-07-24T06:51:10.981Z",
+  "updatedAt": "2026-08-03T19:22:11.547Z",
   "items": [
     {
       "guid": "https://linuxblog.io/?p=20337",
@@ -167,7 +167,15 @@
       "summary": "A practical guide to Linux log files: where they live, how to read and search them with tail, grep, and journalctl, how to manage log rotation, and a real-world troubleshooting workflow.\nContinue reading...",
       "author": "Hayden James",
       "publishedAt": "2026-05-21T23:01:46.000Z"
+    },
+    {
+      "guid": "https://linuxblog.io/?p=22493",
+      "title": "Linux ssh-keygen: Set Up SSH Key Authentication the Right Way",
+      "link": "https://linuxblog.io/linux-ssh-keygen-set-up-ssh-key-authentication-the-right-way/",
+      "summary": "Password-based SSH login is a liability. This guide walks through generating SSH key pairs with ssh-keygen, deploying public keys, disabling password authentication, and managing multiple keys cleanly with ~/.ssh/config.\nContinue reading...",
+      "author": "Hayden James",
+      "publishedAt": "2026-08-03T10:53:19.000Z"
     }
   ],
-  "totalIndexed": 20
+  "totalIndexed": 21
 }
