@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-08-03T02:46:51.274Z",
-  "count": 6116,
+  "fetchedAt": "2026-08-03T09:56:18.462Z",
+  "count": 6117,
   "companies": [
     {
       "id": 34365,
@@ -4051,6 +4051,49 @@
       "url": "https://www.ycombinator.com/companies/alkera-ai"
     },
     {
+      "id": 32261,
+      "name": "Rasyn",
+      "slug": "rasyn",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/076afb6659e399c99ca25bb457a92d8183d0aba2.png",
+      "website": "https://www.rasyn.ai/",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "",
+      "one_liner": "Towards a General Intelligence for Chemistry",
+      "team_size": 0,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "Healthcare",
+      "subindustry": "Healthcare -> Drug Discovery and Delivery",
+      "launched_at": 1785736030,
+      "tags": [
+        "AI-powered Drug Discovery",
+        "Deep Learning",
+        "Biotech"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Summer 2026",
+      "status": "Active",
+      "industries": [
+        "Healthcare",
+        "Drug Discovery and Delivery"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/rasyn"
+    },
+    {
       "id": 32260,
       "name": "Manifold",
       "slug": "manifold-2",
@@ -5645,8 +5688,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c87fe6e15005349864c9553a731d786c39f38f18.png",
       "website": "https://belvedir.ai/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Private AI models will win. Belvedir is the infrastructure needed to make billions of them.\r\n\r\nBelvedir is making it cheap and easy for anyone to make private AI. We autonomously train custom models + harnesses + routers, privately host them, and recursively improve them from production data. ",
-      "one_liner": "The autonomous private AI platform.",
+      "long_description": "Private AI models will win. Belvedir is the infrastructure needed to make billions of them.\r\n\r\nBelvedir is making it cheap and easy for anyone to make private AI. We autonomously train custom models + harnesses + routers, privately host them, and recursively improve them as they are used. ",
+      "one_liner": "The easiest way to make private AI models.",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -5655,9 +5698,9 @@
       "subindustry": "B2B",
       "launched_at": 1784319754,
       "tags": [
+        "Artificial Intelligence",
         "Machine Learning",
-        "Reinforcement Learning",
-        "AI"
+        "Reinforcement Learning"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -7342,7 +7385,7 @@
       "website": "https://tridentsecurity.io/",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Traditional security tools drown teams in useless alerts and logs. Trident chains vulnerabilities together like a real attacker, mapping verified attack paths across AWS, Azure, GCP, web apps, and APIs to show the exploits that actually cause business impact",
-      "one_liner": "Secure your cloud and webapps by finding real attack paths ",
+      "one_liner": "Your AI Security Team ",
       "team_size": 4,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -7351,9 +7394,9 @@
       "subindustry": "B2B -> Security",
       "launched_at": 1785361922,
       "tags": [
+        "Artificial Intelligence",
         "Security",
-        "Cybersecurity",
-        "AI"
+        "Cybersecurity"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -10541,8 +10584,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/70f52c907fab24ab4f95aa200a11907c5bc3896f.png",
       "website": "https://www.textsidekick.com/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Sidekick is an AI-powered SMS assistant for frontline workers in manufacturing, auto dealerships, and retail. The idea came from Justin's father, who owns a manufacturing facility and asked him to build a tool to help with worker onboarding, training, and organizing company knowledge. Workers text questions in any language and get instant answers from their company's documents — no app, no login, works on any phone. They can send photos of equipment for instant identification or voice memos when their hands are dirty or they're wearing gloves. Managers upload documents and record video walkthroughs; Sidekick automatically generates step-by-step tutorials and a searchable knowledge base. When Sidekick can't answer, it escalates to the manager via SMS and learns from the response, getting smarter with every interaction.",
-      "one_liner": "AI-powered SMS assistant for deskless workers.",
+      "long_description": "Sidekick lets workers text problems, photos, or voice memos in any language; it answers from the company's own documents, creates and routes the work order, and syncs with the software a company already runs. Sidekick captures the tribal knowledge in veterans' heads - the know-how that usually walks out the door when they retire - into a searchable knowledge base the company owns. No app, no login, works on any phone.\r\n\r\nSidekick started as a tool Justin built for his dad's manufacturing facility - it turned out every plant has the same gap.",
+      "one_liner": "The text layer for frontline operations",
       "team_size": 1,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -10553,7 +10596,9 @@
       "tags": [
         "SaaS",
         "B2B",
-        "AI Assistant"
+        "Manufacturing",
+        "AI Assistant",
+        "Industrial"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -18294,7 +18339,7 @@
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Cardboard is an agentic video editor for growth/marketing teams and serious creators who need to ship videos consistently. Instead of agencies, long timelines, and infinite review cycles, teams give cardboard a footage + a goal (“3 variants”, “30s hook”, “testimonials”) to get a strong first cut in minutes on which they can iterate quickly.\r\n\r\nMultimodal LLMs can finally reason over footage, and WebGPU/WebCodecs make a real NLE possible in the browser. For the first time, an “AI director” inside a professional editor can be a reality.\r\n\r\nWe have to build two hard things at once: a high-performance editor in the browser and an agentic editor that is reliable for production use cases. Most startups do one; incumbents can’t rebuild their stack without breaking everything.\r\n\r\nSaksham and Ishan met in school and have known each other since 15 years. Saksham was Co-founder/CTO of Iterate AI (backed by EF) and posts content on social media; Ishan has spent ~5yr building memory-heavy, performance-critical browser apps at HackerRank (S11) and deeply understands browsers. He has built Hotspoter (5M+ downloads) when he was 14.\r\n\r\nTogether, we’re unusually suited to build the editor core others avoid.\r\n\r\nVideo is becoming the default distribution channel, and the team that iterates fastest compounds attention. Cardboard becomes the default workspace for video production, the way Canva/Figma became the workspace for design - because it’s collaborative, fast, and does the tedious parts for you.",
       "one_liner": "Agentic video editor",
-      "team_size": 4,
+      "team_size": 5,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -28226,7 +28271,7 @@
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Tinder for Jobs. Swipe right, AI applies on your behalf.",
       "one_liner": "Tinder for jobs",
-      "team_size": 5,
+      "team_size": 6,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -28234,14 +28279,14 @@
       "subindustry": "B2B -> Human Resources",
       "launched_at": 1759034914,
       "tags": [
-        "Artificial Intelligence",
         "Marketplace",
         "Consumer",
-        "Recruiting"
+        "Recruiting",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": false,
+      "isHiring": true,
       "nonprofit": false,
       "batch": "Fall 2025",
       "status": "Active",
@@ -61555,11 +61600,11 @@
       "former_names": [
         "Conversion Pilot"
       ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/5599d6ea2250a3e737886dc9c0347fc88fcd2abb.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/b5e988bc8d88164f885bd4892014f02ef7e153b7.png",
       "website": "https://kastle.ai/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Kastle is an AI voice agent for mortgage servicing. We help servicers collect payments, verify new borrowers, and qualify new loan inquiries over the phone. \r\n\r\nRishi and Nitish met at UIUC where they graduated with degrees in systems engineering and computer science.  Rishi was the founding Product Manager for Redfin’s Mortgage Marketplace at 22 and grew the business from $3M to $6M in revenue in 9 months. Nitish patented Verkada’s motion search system and was the youngest tech lead at the company at 23.\r\n\r\nWhile building Redfin's Mortgage Marketplace Rishi realized traditional lenders didn't have the infrastructure to service online inquiries and were losing customers. Nitish and Rishi are building Kastle to help traditional financial services companies better interface with their customers. ",
-      "one_liner": "AI agents for mortgage servicing",
+      "long_description": "Kastle is an AI platform for loan operations. We help banks across the United States collect payments, verify new borrowers, and qualify new loan inquiries over the phone. \r\n\r\nRishi and Nitish met at UIUC where they graduated with degrees in systems engineering and computer science.  Rishi was the founding Product Manager for Redfin’s Mortgage Marketplace at 22 and grew the business from $3M to $6M in revenue in 9 months. Nitish patented Verkada’s motion search system and was the youngest tech lead at the company at 23.\r\n\r\nWhile building Redfin's Mortgage Marketplace Rishi realized traditional lenders didn't have the infrastructure to service online inquiries and were losing customers. Nitish and Rishi are building Kastle to help traditional financial services companies better interface with their customers. ",
+      "one_liner": "AI employee for consumer lending",
       "team_size": 10,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -72549,7 +72594,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/7175120ae6ae4f3d25e96905fcb4e3ce5d125052.png",
       "website": "https://www.feldy.ai",
       "all_locations": "San Francisco, CA, USA; Remote",
-      "long_description": "Feldy is field-first AI for home service businesses helping teams capture jobsites, create take-offs & estimates, and documentation.\r\n\r\nFeldy helps teams capture the physical world using photos, videos, AI jobsite walkthroughs, voice notes, and 3D scans using your mobile phone. It turns that field information into takeoffs & estimates, visual designs, and project documentation.\r\n\r\nFeldy is built for roofing, exteriors, remodeling, painting, cleaning, landscaping, tree care, and other home services.\r\n\r\nWe’re building a new way for more than 2 million U.S. home service businesses operating in an $800B+ market to capture, understand, and complete work in the field.\r\n\r\nFeldy is available on iOS, Android, and the web.",
+      "long_description": "Feldy is field-first AI for home service businesses helping teams capture jobsites, create take-offs & estimates, and documentation.\r\n\r\nWith Feldy, teams capture the physical world using photos, videos, AI jobsite walkthroughs, and 3D scans using your mobile phone. It turns field information into takeoffs & estimates, visual designs, and project documentation. Feldy works across home services such as roofing, exteriors, remodeling, painting, cleaning, landscaping, handymen, and other home services.\r\n\r\nWe’re building a new way for more than 2 million U.S. home service businesses operating in an $800B+ market to capture, understand, and complete work in the field.\r\n\r\nFeldy is available on iOS, Android, and the web.",
       "one_liner": "Field-First AI for home services",
       "team_size": 4,
       "highlight_black": false,
@@ -119936,7 +119981,7 @@
       ],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/f271350ee43aa2c95ce0719ddd066e79505b3730.png",
       "website": "https://kaagaz.app",
-      "all_locations": "New Delhi, DL, India",
+      "all_locations": "Gurugram, HR, India; New Delhi, DL, India",
       "long_description": "Kaagaz is an 'Office' Suite for Mobile-first Businesses in India. With Kaagaz, these users can manage all the document requirements for their business using their smartphone itself, without needing a Desktop.\r\n\r\nWe have an active user base of 3Mn+ users and paid users north of 60,000+ - growing every month.\r\n\r\nWith over 200M such businesses in India, at $15/year subscription price, this a $3B opportunity in India & much larger globally.\r\n\r\nWe are a team of 2nd time entrepreneurs having scaled the pervious startup to $1M in GMV. We are backed by YCombinator, Goodwater Capital, Pravega Venture, Better Capital & other investors including Alan Rutledge (TrendMD) and Farid Ahsan (Sharechat)",
       "one_liner": "'Office' Suite for Mobile-first Businesses in India",
       "team_size": 11,
@@ -149061,7 +149106,7 @@
         "Remote",
         "Fully Remote"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -167052,7 +167097,7 @@
         "United States of America",
         "America / Canada"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,

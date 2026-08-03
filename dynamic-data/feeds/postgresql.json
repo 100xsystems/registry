@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-08-02T02:46:33.803Z",
+  "updatedAt": "2026-08-03T09:56:05.915Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -505,7 +505,15 @@
       "summary": "ident_file tells the server where pg_ident.conf lives, but when it's wrong, the server just logs a quiet failure and keeps running.",
       "author": null,
       "publishedAt": "2026-08-02T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9r9",
+      "title": "Christophe Pettus: All Your GUCs in a Row: idle_in_transaction_session_timeout",
+      "link": "https://postgr.es/p/9r9",
+      "summary": "Idle transactions hold locks and block vacuums, turning one forgotten connection into a cascading outage.",
+      "author": null,
+      "publishedAt": "2026-08-03T01:00:00.000Z"
     }
   ],
-  "totalIndexed": 62
+  "totalIndexed": 63
 }
