@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-08-02T18:59:34.145Z",
-  "count": 6114,
+  "fetchedAt": "2026-08-03T02:46:51.274Z",
+  "count": 6116,
   "companies": [
     {
       "id": 34365,
@@ -260,6 +260,53 @@
       "app_answers": null,
       "question_answers": false,
       "url": "https://www.ycombinator.com/companies/coasty"
+    },
+    {
+      "id": 33673,
+      "name": "Caution",
+      "slug": "caution",
+      "former_names": [
+        "Caution SEZC"
+      ],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/a0571039e7dc6cc20c7a181c0b7ffa967bc5c6d3.png",
+      "website": "https://caution.co",
+      "all_locations": "George Town, George Town, Cayman Islands",
+      "long_description": "Caution is a hosting platform for software you can't afford to get hacked. It simplifies and extends confidential compute, and lets developers deploy workloads to secure enclaves in minutes and give customers, auditors, and counterparties cryptographic proof that production is running the exact reviewed source code, build, configuration, and runtime - not an opaque binary controlled by a cloud operator or internal admin.\r\n\r\nConfidential computing hardware exists, but the tooling is too fragmented and incomplete for most teams to use well. Today, attestation often proves only that a binary has a certain hash; it does not prove what source code produced that binary. Building the missing deployment, reproducibility, and verification layer requires specialized security engineering and often locks teams into one cloud or hardware stack. Caution turns that into a simple git-based workflow that builds reproducible enclave images, provisions infrastructure, and lets anyone independently verify what is running.\r\n\r\nWe built Caution after years securing high-risk systems through Distrust, where we worked with hedge funds, custodians, blockchain teams, cloud platforms, and critical grid operators on systems responsible for more than $600B in assets. Again and again, the same problem showed up: teams running mission-critical infrastructure could not reliably prove what was executing in production.\r\n\r\nAs AI, fintech, healthcare, and regulated data collaboration move into the cloud, \"trust us\" is no longer enough. Caution is a general-purpose platform: if it runs on a server, it can run verifiably on Caution. We're starting where trust failures cost the most, but we believe verifiable compute will become the default way software runs, the same way HTTPS became the default way it's served. Infrastructure you can verify, not trust.",
+      "one_liner": "Hosting platform for software you don't want to get hacked",
+      "team_size": 5,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "B2B",
+      "subindustry": "B2B -> Infrastructure",
+      "launched_at": 1785719703,
+      "tags": [
+        "Cybersecurity",
+        "Cloud Computing",
+        "Infrastructure"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Summer 2026",
+      "status": "Active",
+      "industries": [
+        "B2B",
+        "Infrastructure"
+      ],
+      "regions": [
+        "Cayman Islands",
+        "Latin America",
+        "Remote",
+        "Partly Remote"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/caution"
     },
     {
       "id": 33607,
@@ -3297,7 +3344,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/0f86336cad3f47d72897d04916a12380f1f0094b.png",
       "website": "https://www.graphify.com/",
       "all_locations": "London, England, United Kingdom",
-      "long_description": "Graphify builds queryable knowledge graphs from local codebases and documents, 96K GitHub stars, 3.8M downloads, used in production by engineers at Rootly, Geotab, and Tweddle Group.The enterprise layer on top, a self-learning brain that continuously syncs an organisation's knowledge, evolves its own graph over time without forgetting, and enables formal verification of code and architecture decisions. Runs fully on-premise. No data leaves the building.",
+      "long_description": "Graphify builds queryable knowledge graphs from local codebases, docs, and Jira (100K+ GitHub stars, ~4.2M downloads, used in production by engineers at Rootly, Geotab, Tweddle Group, and Superagent). \r\n\r\nOn that graph, its enterprise layer reviews every pull request and formally verifies each code change, proving the new behavior matches the old or handing back the exact input that breaks it. The graph updates itself as the code changes and keeps context instead of forgetting it, so your whole team and their coding agents work from one shared, always-current graph of the codebase instead of a thousand private threads. \r\n\r\nRuns fully on-premise, so no data leaves the building.",
       "one_liner": "On-device knowledge graph engine for enterprises",
       "team_size": 2,
       "highlight_black": false,
@@ -4882,6 +4929,50 @@
       "url": "https://www.ycombinator.com/companies/verdant"
     },
     {
+      "id": 32188,
+      "name": "IMPACT Drones",
+      "slug": "impact-drones",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/51e28a022e68117f55cef18f71defaef380f1766.png",
+      "website": "https://www.impact-drones.com",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "IMPACT builds autonomous interceptor drones that ship in a sealed box. The box sits at the site it protects (data centers, power grid, airports, bases) with no crew on the pad. When sensors cue a hostile drone, an interceptor pierces its own frangible lid, launches, and rams the target, guided by onboard visual navigation that keeps working when GPS is jammed. Legacy effectors cost $1M+ per shot against $50k threats; our interceptors cost like the threat and launches scale with the swarm. Sites subscribe to protection instead of buying missiles: hardware, reloads, and monitoring included. Air defense as a Service.",
+      "one_liner": "Air defense as a Service.",
+      "team_size": 2,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "Industrials",
+      "subindustry": "Industrials -> Defense",
+      "launched_at": 1785702345,
+      "tags": [
+        "Hardware",
+        "Drones",
+        "Swarm Robotics",
+        "AI"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Summer 2026",
+      "status": "Active",
+      "industries": [
+        "Industrials",
+        "Defense"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/impact-drones"
+    },
+    {
       "id": 32187,
       "name": "Insurf",
       "slug": "insurf",
@@ -5551,12 +5642,12 @@
         "Belvedir",
         "Fractal Machine Research"
       ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/be265ae30f41df1ddeea6236499327a010c83192.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c87fe6e15005349864c9553a731d786c39f38f18.png",
       "website": "https://belvedir.ai/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Belvedir is the autonomous platform for training custom AI models and memory systems, hosting them privately, and continually improving them from production data.",
+      "long_description": "Private AI models will win. Belvedir is the infrastructure needed to make billions of them.\r\n\r\nBelvedir is making it cheap and easy for anyone to make private AI. We autonomously train custom models + harnesses + routers, privately host them, and recursively improve them from production data. ",
       "one_liner": "The autonomous private AI platform.",
-      "team_size": 1,
+      "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -5565,7 +5656,8 @@
       "launched_at": 1784319754,
       "tags": [
         "Machine Learning",
-        "Reinforcement Learning"
+        "Reinforcement Learning",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -6133,7 +6225,7 @@
       "slug": "gitcafe",
       "former_names": [],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/14fb9e028c09cd154bde4e2f89f26fde539ca415.png",
-      "website": "https://gitcafe.dev/",
+      "website": "https://git.cafe",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "",
       "one_liner": "GitCafe is a modern replacement for GitHub.",
@@ -20124,7 +20216,7 @@
       "website": "https://tepali.com",
       "all_locations": "New York City, NY, USA",
       "long_description": "Tepali is the AI-native operating system for medspas. We replace fragmented software and manual work with a single system of record powered by AI agents that handle front desk, patient documentation, and lead conversion.",
-      "one_liner": "AI operating system for medspas",
+      "one_liner": "AI operating system for modern medspas",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -34077,7 +34169,7 @@
       "former_names": [
         "Dash"
       ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/e47e34f35e388489ce2a0f3f4a13e6b49dce9ab9.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/e6667cfdd83f59c43fda8940767ec6748fe44b96.png",
       "website": "https://www.slashy.com/",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "AI that helps you fly through your inbox.\r\n",
@@ -34089,7 +34181,13 @@
       "industry": "B2B",
       "subindustry": "B2B -> Productivity",
       "launched_at": 1750786342,
-      "tags": [],
+      "tags": [
+        "Productivity",
+        "Enterprise Software",
+        "Automation",
+        "Email",
+        "AI Assistant"
+      ],
       "tags_highlighted": [],
       "top_company": false,
       "isHiring": false,
@@ -72442,17 +72540,18 @@
     },
     {
       "id": 29350,
-      "name": "Aether",
-      "slug": "aether",
+      "name": "Feldy",
+      "slug": "feldy",
       "former_names": [
-        "Aether Energy"
+        "Aether Energy",
+        "Aether"
       ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/2892a41266e0a3d9870f882c5e0a3ca3f6d266b6.png",
-      "website": "https://www.tryaether.co/",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/7175120ae6ae4f3d25e96905fcb4e3ce5d125052.png",
+      "website": "https://www.feldy.ai",
       "all_locations": "San Francisco, CA, USA; Remote",
-      "long_description": "Aether is an AI-native sales platform for home services that replaces fragmented tools and autonomously executes sales workflows end-to-end.\r\n\r\nAether's current focus is on helping roofing, and exteriors (gutters, windows, painting) focused companies. \r\n\r\n\r\n",
-      "one_liner": "AI sales platform for home services",
-      "team_size": 8,
+      "long_description": "Feldy is field-first AI for home service businesses helping teams capture jobsites, create take-offs & estimates, and documentation.\r\n\r\nFeldy helps teams capture the physical world using photos, videos, AI jobsite walkthroughs, voice notes, and 3D scans using your mobile phone. It turns that field information into takeoffs & estimates, visual designs, and project documentation.\r\n\r\nFeldy is built for roofing, exteriors, remodeling, painting, cleaning, landscaping, tree care, and other home services.\r\n\r\nWe’re building a new way for more than 2 million U.S. home service businesses operating in an $800B+ market to capture, understand, and complete work in the field.\r\n\r\nFeldy is available on iOS, Android, and the web.",
+      "one_liner": "Field-First AI for home services",
+      "team_size": 4,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -72461,7 +72560,9 @@
       "launched_at": 1709429693,
       "tags": [
         "Artificial Intelligence",
-        "CRM"
+        "Construction",
+        "Home Services",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -72484,7 +72585,7 @@
       "demo_day_video_public": false,
       "app_answers": null,
       "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/aether"
+      "url": "https://www.ycombinator.com/companies/feldy"
     },
     {
       "id": 29349,
@@ -78566,7 +78667,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/dedc5ca68422aae62a4f58f3a0823d0903b71997.png",
       "website": "https://morphllm.com",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Specialized inference optimization for codegen\r\n\r\nFast Open-Source models: Deepseek v4 flash, qwen 397b, at 200+ tps\r\nSpecialized models for applying edits, code search, compaction, and model routing",
+      "long_description": "Specialized inference, built for agent workloads\r\n\r\nFast Open-Source models: Kimi k3, Deepseek v4 flash, qwen 397b, at 200+ tps\r\nSpecialized models for applying edits, code search, compaction, and model routing",
       "one_liner": "Fast Models Optimized for Coding Agents",
       "team_size": 3,
       "highlight_black": false,
@@ -83779,11 +83880,11 @@
         "Santiago Labs, Inc.",
         "Telophase"
       ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/808b74ee6688cd6849f4540a000059ba7714ff1f.png",
-      "website": "https://hiro.is",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/d1d128fbe59c627f74405a0637c6a9692cc736f0.png",
+      "website": "https://hirosecure.com",
       "all_locations": "New York City, NY, USA",
       "long_description": "",
-      "one_liner": "Your first security hire",
+      "one_liner": "Agents that handle security work",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -105015,7 +105116,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": true,
+      "isHiring": false,
       "nonprofit": false,
       "batch": "Summer 2022",
       "status": "Active",
@@ -135147,7 +135248,7 @@
       "website": "https://www.mach9.ai/",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Mach9 accelerates how teams model and understand the world with automated feature extraction technology. Founded in 2021 and headquartered in San Francisco, Mach9's flagship Digital Surveyor platform helps transportation agencies, utility companies, and engineering firms extract miles of road corridor projects in a fraction of traditional processing time. Built on decades of research from Carnegie Mellon University's Robotics Institute, Mach9 empowers the architecture, engineering, and construction industries to tackle large-scale infrastructure projects with unprecedented speed and accuracy. Leading survey and geospatial organizations, including Langan, Olsson, Woolpert, HDR, and major state DOTs trust Digital Surveyor to create engineering-grade maps for infrastructure design and operations.",
-      "one_liner": "AI-native CAD software for civil engineering",
+      "one_liner": "AI CAD Software for Civil Engineering",
       "team_size": 25,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -135156,11 +135257,11 @@
       "subindustry": "B2B -> Engineering, Product and Design",
       "launched_at": 1628526474,
       "tags": [
-        "Artificial Intelligence",
         "Machine Learning",
         "Computer Vision",
         "Design Tools",
-        "Infrastructure"
+        "Infrastructure",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -148919,22 +149020,23 @@
     },
     {
       "id": 23530,
-      "name": "Waydev AI",
-      "slug": "waydev-ai",
+      "name": "Waydev",
+      "slug": "waydev",
       "former_names": [
-        "Waydev"
+        "Waydev",
+        "Waydev AI"
       ],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/90694f4bdb7eb8f17b02f85faee3e3455edb365b.png",
       "website": "https://waydev.co/",
       "all_locations": "San Francisco, CA, USA; Remote",
-      "long_description": "Waydev tracks AI-generated code from commit to production. AI Checkpoints capture which agent wrote each change, tokens consumed, cost per PR, acceptance rate, and whether it actually deployed — so you can compare Copilot, Cursor, and Claude Code on real production outcomes, not vibes.\r\n\r\nEngineering leaders use Waydev to measure AI adoption by team, monthly spend, and tokens per developer, then tie it back to delivery. The Waydev Agent answers plain-English questions about your AI investment (\"which team gets the most ROI from Cursor?\").\r\n\r\nBuilt for VPs of Engineering and CTOs at companies running real AI coding budgets.\r\n\r\nTrusted by Dropbox, American Express, Caterpillar, and PwC. YC W21.",
-      "one_liner": "Track AI-generated code from commit to production",
+      "long_description": "Waydev maps AI velocity across the SDLC — built on DORA, SPACE, and DX — turning developer tool data into board-ready evidence of adoption, impact, and ROI.",
+      "one_liner": "Engineering intelligence for AI transformation",
       "team_size": 13,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
       "industry": "B2B",
-      "subindustry": "B2B -> Engineering, Product and Design",
+      "subindustry": "B2B -> Productivity",
       "launched_at": 1616455133,
       "tags": [
         "AIOps",
@@ -148951,7 +149053,7 @@
       "status": "Active",
       "industries": [
         "B2B",
-        "Engineering, Product and Design"
+        "Productivity"
       ],
       "regions": [
         "United States of America",
@@ -148959,12 +149061,12 @@
         "Remote",
         "Fully Remote"
       ],
-      "stage": "Growth",
+      "stage": "Early",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
       "question_answers": true,
-      "url": "https://www.ycombinator.com/companies/waydev-ai"
+      "url": "https://www.ycombinator.com/companies/waydev"
     },
     {
       "id": 23522,
@@ -188410,7 +188512,7 @@
       "isHiring": false,
       "nonprofit": false,
       "batch": "Summer 2019",
-      "status": "Active",
+      "status": "Inactive",
       "industries": [
         "Healthcare",
         "Medical Devices"
