@@ -13,7 +13,9 @@
     "Use features for generalization"
   ],
   "knowledge_refs": [
-    "reinforcement-learning/rl-08-function-approximation"
+    "reinforcement-learning/rl-07-exploration-vs-exploitation",
+    "llm-engineering/llm-10-function-calling",
+    "ai-agents/agents-03-tool-use"
   ],
   "prerequisites": [
     "RL-06: Q-Learning"

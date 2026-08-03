@@ -13,7 +13,9 @@
     "Export and run inference"
   ],
   "knowledge_refs": [
-    "nlp/nlp-17-finetuning-transformers"
+    "nlp/nlp-16-bert-and-pretraining",
+    "deep-learning/dl-17-transformers",
+    "deep-learning/dl-18-attention-mechanisms"
   ],
   "prerequisites": [
     "NLP-16: BERT & Pretrained Language Models"

@@ -13,7 +13,9 @@
     "Enforce promotion gates"
   ],
   "knowledge_refs": [
-    "mlops/mlops-07-model-registry"
+    "mlops/mlops-06-experiment-tracking",
+    "generative-ai/genai-18-llmops",
+    "llm-engineering/llm-20-llmops-tooling"
   ],
   "prerequisites": [
     "MLOPS-06: Experiment Tracking"

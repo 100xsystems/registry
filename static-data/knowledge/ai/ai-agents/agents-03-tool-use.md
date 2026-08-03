@@ -13,7 +13,9 @@
     "Restrict tools by allowlist"
   ],
   "knowledge_refs": [
-    "ai-agents/agents-03-tool-use"
+    "ai-agents/agents-02-agent-architecture",
+    "generative-ai/genai-12-agents-and-tool-use",
+    "llm-engineering/llm-11-llm-agents"
   ],
   "prerequisites": [
     "LLM-10: Function Calling & Structured Outputs"

@@ -13,7 +13,9 @@
     "Build a RAG chain with LangChain"
   ],
   "knowledge_refs": [
-    "generative-ai/genai-10-rag"
+    "generative-ai/genai-09-rlhf-and-alignment",
+    "llm-engineering/llm-07-rag-engineering",
+    "llm-engineering/llm-08-advanced-rag"
   ],
   "prerequisites": [
     "GENAI-04: Prompt Engineering"

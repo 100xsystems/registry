@@ -7,42 +7,39 @@
   "duration": "50 min",
   "difficulty": "beginner",
   "learning_objectives": [
-    "Use lists, dicts and comprehensions fluently",
-    "Read and write CSV data with the standard library",
-    "Structure analysis code for reproducibility",
-    "Profile a small script to find slow operations"
+    "Use core Python collections and comprehensions fluently",
+    "Read and write data files with the standard library",
+    "Write clean, vectorization-friendly, reproducible Python",
+    "Structure code in Jupyter notebooks for exploration"
   ],
   "knowledge_refs": [
-    "data-science/ds-03-python-for-data-science"
+    "data-science/ds-04-numpy-arrays",
+    "data-science/ds-05-pandas-dataframes",
+    "data-science/ds-01-what-is-data-science"
   ],
   "prerequisites": [
-    "DS-01: What Is Data Science?"
+    "DS-02: The Data Science Pipeline"
   ],
   "references": [
     {
-      "title": "Python for Data Analysis — Wes McKinney",
-      "url": "https://wesmckinney.com/book/",
-      "description": "The definitive guide to pandas, NumPy and the PyData stack."
+      "title": "Scientific Python Lectures — Scipy Lecture Notes",
+      "url": "https://lectures.scientific-python.org/",
+      "description": "The definitive free tutorial path from Python basics to NumPy/SciPy/Matplotlib."
     },
     {
-      "title": "Pandas User Guide",
-      "url": "https://pandas.pydata.org/docs/user_guide/index.html",
-      "description": "Official documentation for the pandas data-analysis library."
+      "title": "Python Data Science Handbook — Jake VanderPlas (Chapter 1)",
+      "url": "https://jakevdp.github.io/PythonDataScienceHandbook/",
+      "description": "Free book; Chapter 1 covers the Python data science idioms used throughout this course."
     },
     {
-      "title": "The Elements of Statistical Learning",
-      "url": "https://hastie.su.domains/ElemStatLearn/",
-      "description": "The classic statistical-learning reference (free PDF)."
+      "title": "Python for Data Analysis — Wes McKinney (Chapter 2)",
+      "url": "https://wesmckinney.com/book/python-basics",
+      "description": "Python language basics from the creator of pandas."
     },
     {
-      "title": "Kaggle Learn — Data Science",
-      "url": "https://www.kaggle.com/learn",
-      "description": "Hands-on micro-courses covering pandas, EDA and modeling."
-    },
-    {
-      "title": "scikit-learn User Guide",
-      "url": "https://scikit-learn.org/stable/user_guide.html",
-      "description": "Authoritative guide to the Python machine-learning toolbox."
+      "title": "Real Python — Python Tutorials",
+      "url": "https://realpython.com/",
+      "description": "Huge library of practical Python tutorials at every level."
     }
   ]
 }
@@ -52,88 +49,111 @@
 
 ## Introduction
 
-The Python fundamentals every data scientist leans on: collections, comprehensions, file I/O, and reproducible notebooks. By the end of this lesson you will be able to: Use lists, dicts and comprehensions fluently; Read and write CSV data with the standard library; Structure analysis code for reproducibility; Profile a small script to find slow operations.
+Python became the language of data science for three reasons: it is *readable* (so analyses can be audited), it has a *massive scientific ecosystem* (NumPy, pandas, Matplotlib, scikit-learn), and it *glues* — you can call C/Fortran-speed libraries from a few lines of Python. This lesson covers the core language you need *before* touching those libraries: collections, comprehensions, functions, file I/O, and the discipline of writing reproducible code. If you already know Python, skim fast and focus on the "data science idioms" at the end.
 
 ## Key Concepts
 
-### 1. Use lists, dicts and comprehensions fluently
+### 1. The four collections you will actually use
 
-Target: Use lists, dicts and comprehensions fluently. Start with the foundations — read the runnable example carefully and trace its output before moving on.
-
-```python
-prices = [9.99, 19.99, 29.99, 49.99]
-doubled = [p * 2 for p in prices if p > 15]
-counts = {p: prices.count(p) for p in set(prices)}
-print(doubled)
-print(counts)
-```
-### 2. Read and write CSV data with the standard library
-
-Target: Read and write CSV data with the standard library. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+- **Lists** `[...]` — ordered, mutable sequences. Your default for anything ordered.
+- **Tuples** `(...)` — ordered, immutable. Great for fixed records like `(lat, lon)` or `(year, month)`.
+- **Dicts** `{...}` — key→value maps. Used everywhere: configs, counts, lookups.
+- **Sets** `{...}` — unique, unordered. Ideal for membership tests and deduplication.
 
 ```python
-import csv
-from io import StringIO
+prices = [19.99, 29.99, 9.99]          # list
+coords = (52.52, 13.41)                # tuple (Berlin)
+lookup = {"free": 0.0, "pro": 19.99}   # dict
+unique_tags = {"ai", "ml", "data"}     # set
 
-rows = [["day", "users"], ["mon", 120], ["tue", 210]]
-buf = StringIO()
-writer = csv.writer(buf)
-writer.writerows(rows)
-print(buf.getvalue())
-reader = list(csv.reader(StringIO(buf.getvalue())))
-print(reader[1])
+print(prices[0], coords[0], lookup["pro"], "ml" in unique_tags)
 ```
-### 3. Structure analysis code for reproducibility
 
-Target: Structure analysis code for reproducibility. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+The collection you *don't* see — **NumPy arrays** — is next lesson's subject; lists are too slow for serious numeric work.
+
+### 2. Comprehensions: the data science idiom
+
+Comprehensions build a new collection from an existing one in one readable line. In data science you will write these constantly — filtering rows, transforming features, collecting results.
 
 ```python
-# Reproducible structure: keep transforms in functions
-import pandas as pd
+nums = [1, 2, 3, 4, 5, 6]
+evens = [n for n in nums if n % 2 == 0]      # [2, 4, 6]
+squares = {n: n**2 for n in nums}            # dict comprehension
+odds = {n for n in nums if n % 2 == 1}       # set comprehension
 
-def load(path: str) -> pd.DataFrame:
-    df = pd.read_csv(path)
-    df.columns = [c.strip().lower() for c in df.columns]
-    return df
-
-# load("users.csv")  # every analysis starts from one clean entry point
+print(evens, squares[3], odds)
 ```
-### 4. Profile a small script to find slow operations
 
-Target: Profile a small script to find slow operations. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+Rule of thumb: if you find yourself writing a `for` loop that just builds a list, replace it with a comprehension — it is faster to read and marginally faster to run.
+
+### 3. Functions, unpacking, and `*args`/`**kwargs`
+
+Functions are how you keep analyses organized. Two idioms matter most: **tuple unpacking** (used constantly with pandas rows and `enumerate`) and **default arguments** (used to make functions flexible without clutter).
 
 ```python
-import time
+def summarize(prices, currency="USD"):
+    total = sum(prices)
+    return len(prices), total
 
-def slow(n: int) -> int:
-    total = 0
-    for i in range(n):
-        total += i ** 2
-    return total
+count, total = summarize(prices, currency="EUR")
+print(count, total)
 
-t0 = time.perf_counter()
-slow(1_000_000)
-print(f"took {time.perf_counter() - t0:.3f}s")
+for idx, price in enumerate(prices):   # unpacking in loops
+    print(idx, price)
 ```
+
+### 4. File I/O: reading raw data
+
+Before pandas there is the standard library. `csv` and `json` cover 90% of raw files you will meet:
+
+```python
+import csv, json
+
+with open("data.csv", "r", newline="") as f:
+    rows = list(csv.DictReader(f))   # each row is a dict keyed by header
+
+with open("config.json") as f:
+    cfg = json.load(f)
+
+print(len(rows), cfg.get("seed"))
+```
+
+Use `with` blocks so files are always closed — even when an exception interrupts your notebook cell.
+
+### 5. Reproducible notebooks: the discipline
+
+A notebook is a living analysis, so keep it *auditable*:
+
+- **Set a random seed** at the top (`import random; random.seed(42)`) so sampling is repeatable.
+- **Keep cells small and ordered** — a notebook that must be run top-to-bottom is reproducible; one with hidden state is not.
+- **Version your data**, not just your code: record where each dataset came from and when you fetched it.
+- **Prefer functions over long scripts** — testable, reusable, reviewable.
+
+This discipline is what separates analyses people trust from analyses people rerun suspiciously.
 
 ## Practice Questions
 
-1. What is the key idea behind "Python for Data Science"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+1. Write a list comprehension that filters words shorter than 4 characters from `words = ["cat", "data", "ml", "science"]`.
+2. What is the difference between a list and a tuple? When would you choose a set?
+3. Convert a dict of counts into a list of `(key, count)` tuples sorted by count descending, using a comprehension and `sorted`.
+4. Why does this course stress setting a random seed at the top of a notebook?
 
 ## LLM Prompts for Deeper Understanding
 
-1. "Explain Python for Data Science with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Python for Data Science"
-1. "Provide advanced patterns and performance considerations for Python for Data Science"
+1. "Explain when to use list, tuple, set, and dict in Python with data-science-flavored examples."
+2. "Show me how to rewrite a nested for loop as a comprehension, and when I shouldn't."
+3. "What are the most common Python bugs in data-cleaning code, and how do I avoid them?"
 
 ## Key Takeaways
 
-- Master the core ideas of Python for Data Science through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+- Lists, tuples, dicts, and sets cover almost all everyday data structures.
+- Comprehensions are the idiomatic way to filter and transform collections.
+- Use `with` blocks for files; `csv.DictReader` and `json` handle most raw data.
+- Reproducibility = seed + ordered cells + versioned data + functions.
 
-## Further Reading
+## Footnotes & Attribution
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+1. Scipy Lecture Notes, *Scientific Python Lectures*. The canonical free path from Python to the scientific stack. [https://lectures.scientific-python.org/](https://lectures.scientific-python.org/)
+2. Jake VanderPlas, *Python Data Science Handbook* (Chapter 1). Free, open-access. [https://jakevdp.github.io/PythonDataScienceHandbook/](https://jakevdp.github.io/PythonDataScienceHandbook/)
+3. Wes McKinney, *Python for Data Analysis* (Chapter 2). Python language basics. [https://wesmckinney.com/book/python-basics](https://wesmckinney.com/book/python-basics)
+4. Real Python. Practical Python tutorials. [https://realpython.com/](https://realpython.com/)

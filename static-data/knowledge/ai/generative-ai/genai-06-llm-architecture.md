@@ -13,7 +13,9 @@
     "Discuss capabilities that emerge with scale"
   ],
   "knowledge_refs": [
-    "generative-ai/genai-06-llm-architecture"
+    "generative-ai/genai-05-in-context-learning",
+    "llm-engineering/llm-02-llm-architecture-review",
+    "llm-engineering/llm-01-what-is-llm-engineering"
   ],
   "prerequisites": [
     "DL-17: Transformers"

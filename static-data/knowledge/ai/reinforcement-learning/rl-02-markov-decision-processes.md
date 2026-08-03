@@ -13,7 +13,8 @@
     "Write the Bellman expectation equation"
   ],
   "knowledge_refs": [
-    "reinforcement-learning/rl-02-markov-decision-processes"
+    "reinforcement-learning/rl-01-what-is-reinforcement-learning",
+    "machine-learning/ml-08-decision-trees"
   ],
   "prerequisites": [
     "RL-01: What Is Reinforcement Learning?"

@@ -13,7 +13,7 @@
     "Choose the number of topics"
   ],
   "knowledge_refs": [
-    "nlp/nlp-11-topic-modeling"
+    "nlp/nlp-10-pos-tagging"
   ],
   "prerequisites": [
     "NLP-02: Text Representation: From Tokens to Vectors"

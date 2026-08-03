@@ -13,7 +13,7 @@
     "Warp and blend into a panorama"
   ],
   "knowledge_refs": [
-    "computer-vision/cv-14-image-registration-and-stitching"
+    "computer-vision/cv-13-feature-detection"
   ],
   "prerequisites": [
     "CV-13: Feature Detection & Matching"

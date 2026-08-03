@@ -13,7 +13,7 @@
     "Follow research and practice responsibly"
   ],
   "knowledge_refs": [
-    "generative-ai/genai-21-roadmap"
+    "generative-ai/genai-20-building-genai-applications"
   ],
   "prerequisites": [
     "GENAI-20: Building a GenAI Application"

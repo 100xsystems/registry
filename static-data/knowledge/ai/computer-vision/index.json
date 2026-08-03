@@ -56,7 +56,8 @@
       "duration": "40 min",
       "difficulty": "beginner",
       "knowledge_refs": [
-        "computer-vision/cv-01-what-is-computer-vision"
+        "generative-ai/genai-15-vision-language-models",
+        "deep-learning/dl-13-cnn-architectures"
       ]
     },
     {
@@ -68,7 +69,8 @@
       "duration": "50 min",
       "difficulty": "beginner",
       "knowledge_refs": [
-        "computer-vision/cv-02-image-representation"
+        "computer-vision/cv-01-what-is-computer-vision",
+        "nlp/nlp-02-text-representation"
       ]
     },
     {
@@ -80,7 +82,7 @@
       "duration": "55 min",
       "difficulty": "intermediate",
       "knowledge_refs": [
-        "computer-vision/cv-03-image-processing"
+        "computer-vision/cv-02-image-representation"
       ]
     },
     {
@@ -92,7 +94,7 @@
       "duration": "50 min",
       "difficulty": "intermediate",
       "knowledge_refs": [
-        "computer-vision/cv-04-image-augmentation"
+        "computer-vision/cv-03-image-processing"
       ]
     },
     {
@@ -104,7 +106,9 @@
       "duration": "55 min",
       "difficulty": "intermediate",
       "knowledge_refs": [
-        "computer-vision/cv-05-image-classification"
+        "computer-vision/cv-04-image-augmentation",
+        "nlp/nlp-07-text-classification",
+        "machine-learning/ml-18-classification-metrics"
       ]
     },
     {
@@ -116,7 +120,9 @@
       "duration": "55 min",
       "difficulty": "intermediate",
       "knowledge_refs": [
-        "computer-vision/cv-06-cnns-for-vision"
+        "computer-vision/cv-05-image-classification",
+        "generative-ai/genai-15-vision-language-models",
+        "deep-learning/dl-13-cnn-architectures"
       ]
     },
     {
@@ -128,7 +134,9 @@
       "duration": "55 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "computer-vision/cv-07-transfer-learning-for-vision"
+        "computer-vision/cv-06-cnns-for-vision",
+        "deep-learning/dl-14-transfer-learning",
+        "generative-ai/genai-15-vision-language-models"
       ]
     },
     {
@@ -140,7 +148,8 @@
       "duration": "60 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "computer-vision/cv-08-object-detection"
+        "computer-vision/cv-07-transfer-learning-for-vision",
+        "mlops/mlops-14-monitoring-and-drift"
       ]
     },
     {
@@ -152,7 +161,8 @@
       "duration": "55 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "computer-vision/cv-09-semantic-segmentation"
+        "computer-vision/cv-08-object-detection",
+        "llm-engineering/llm-06-embeddings-and-semantic-search"
       ]
     },
     {
@@ -164,7 +174,7 @@
       "duration": "55 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "computer-vision/cv-10-instance-segmentation"
+        "computer-vision/cv-09-semantic-segmentation"
       ]
     },
     {
@@ -176,7 +186,7 @@
       "duration": "55 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "computer-vision/cv-11-pose-estimation"
+        "computer-vision/cv-10-instance-segmentation"
       ]
     },
     {
@@ -188,7 +198,7 @@
       "duration": "55 min",
       "difficulty": "intermediate",
       "knowledge_refs": [
-        "computer-vision/cv-12-opencv-fundamentals"
+        "computer-vision/cv-11-pose-estimation"
       ]
     },
     {
@@ -200,7 +210,9 @@
       "duration": "55 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "computer-vision/cv-13-feature-detection"
+        "computer-vision/cv-12-opencv-fundamentals",
+        "machine-learning/ml-14-feature-scaling-and-selection",
+        "mlops/mlops-05-feature-stores"
       ]
     },
     {
@@ -212,7 +224,7 @@
       "duration": "55 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "computer-vision/cv-14-image-registration-and-stitching"
+        "computer-vision/cv-13-feature-detection"
       ]
     },
     {
@@ -224,7 +236,9 @@
       "duration": "55 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "computer-vision/cv-15-video-analysis"
+        "computer-vision/cv-14-image-registration-and-stitching",
+        "nlp/nlp-08-sentiment-analysis",
+        "mlops/mlops-06-experiment-tracking"
       ]
     },
     {
@@ -236,7 +250,9 @@
       "duration": "55 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "computer-vision/cv-16-face-recognition"
+        "computer-vision/cv-15-video-analysis",
+        "nlp/nlp-09-named-entity-recognition",
+        "mlops/mlops-14-monitoring-and-drift"
       ]
     },
     {
@@ -248,7 +264,7 @@
       "duration": "55 min",
       "difficulty": "intermediate",
       "knowledge_refs": [
-        "computer-vision/cv-17-ocr-and-document-ai"
+        "computer-vision/cv-16-face-recognition"
       ]
     },
     {
@@ -260,7 +276,9 @@
       "duration": "55 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "computer-vision/cv-18-3d-vision"
+        "computer-vision/cv-17-ocr-and-document-ai",
+        "generative-ai/genai-15-vision-language-models",
+        "deep-learning/dl-13-cnn-architectures"
       ]
     },
     {
@@ -272,7 +290,9 @@
       "duration": "55 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "computer-vision/cv-19-vision-transformers"
+        "computer-vision/cv-18-3d-vision",
+        "deep-learning/dl-17-transformers",
+        "deep-learning/dl-18-attention-mechanisms"
       ]
     },
     {
@@ -284,7 +304,9 @@
       "duration": "50 min",
       "difficulty": "intermediate",
       "knowledge_refs": [
-        "computer-vision/cv-20-evaluating-vision-models"
+        "computer-vision/cv-19-vision-transformers",
+        "deep-learning/dl-20-evaluating-deep-models",
+        "prompt-engineering/pe-13-evaluating-prompts"
       ]
     },
     {
@@ -296,7 +318,9 @@
       "duration": "40 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "computer-vision/cv-21-roadmap"
+        "computer-vision/cv-20-evaluating-vision-models",
+        "generative-ai/genai-15-vision-language-models",
+        "deep-learning/dl-13-cnn-architectures"
       ]
     }
   ]

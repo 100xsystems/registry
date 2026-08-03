@@ -13,7 +13,7 @@
     "Control randomness with temperature"
   ],
   "knowledge_refs": [
-    "generative-ai/genai-02-probabilistic-generation"
+    "generative-ai/genai-01-what-is-generative-ai"
   ],
   "prerequisites": [
     "GENAI-01: What Is Generative AI?"

@@ -13,7 +13,9 @@
     "Describe the scaling path to LLMs"
   ],
   "knowledge_refs": [
-    "nlp/nlp-15-attention-and-transformers"
+    "nlp/nlp-14-seq2seq",
+    "deep-learning/dl-17-transformers",
+    "deep-learning/dl-18-attention-mechanisms"
   ],
   "prerequisites": [
     "DL-18: Attention Mechanisms"

@@ -13,7 +13,9 @@
     "Use token budgets defensively"
   ],
   "knowledge_refs": [
-    "llm-engineering/llm-05-tokenization-and-context"
+    "llm-engineering/llm-04-prompting-systems",
+    "generative-ai/genai-07-tokenization",
+    "nlp/nlp-02-text-representation"
   ],
   "prerequisites": [
     "LLM-03: Working with LLM APIs"

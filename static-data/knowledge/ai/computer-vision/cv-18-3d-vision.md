@@ -13,7 +13,9 @@
     "Explore LiDAR fusion"
   ],
   "knowledge_refs": [
-    "computer-vision/cv-18-3d-vision"
+    "computer-vision/cv-17-ocr-and-document-ai",
+    "generative-ai/genai-15-vision-language-models",
+    "deep-learning/dl-13-cnn-architectures"
   ],
   "prerequisites": [
     "CV-13: Feature Detection & Matching"

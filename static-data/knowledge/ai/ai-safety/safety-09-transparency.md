@@ -13,7 +13,9 @@
     "Explain system limitations"
   ],
   "knowledge_refs": [
-    "ai-safety/safety-09-transparency"
+    "ai-safety/safety-08-governance",
+    "generative-ai/genai-19-ethical-ai-and-safety",
+    "llm-engineering/llm-14-guardrails-and-safety"
   ],
   "prerequisites": [
     "SAFETY-08: AI Governance & Policy"

@@ -13,7 +13,9 @@
     "Produce actionable findings"
   ],
   "knowledge_refs": [
-    "ai-safety/safety-13-auditing-models"
+    "ai-safety/safety-12-guardrails",
+    "generative-ai/genai-19-ethical-ai-and-safety",
+    "llm-engineering/llm-14-guardrails-and-safety"
   ],
   "prerequisites": [
     "SAFETY-08: AI Governance & Policy"

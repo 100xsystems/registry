@@ -13,7 +13,7 @@
     "Describe how attention improved seq2seq"
   ],
   "knowledge_refs": [
-    "nlp/nlp-14-seq2seq"
+    "nlp/nlp-13-lstm-for-text"
   ],
   "prerequisites": [
     "NLP-13: LSTMs for Text"

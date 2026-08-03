@@ -13,7 +13,9 @@
     "Understand the limits that transformers fixed"
   ],
   "knowledge_refs": [
-    "nlp/nlp-13-lstm-for-text"
+    "nlp/nlp-12-sequence-models",
+    "deep-learning/dl-16-lstm-and-gru",
+    "deep-learning/dl-15-recurrent-networks"
   ],
   "prerequisites": [
     "NLP-12: Sequence Models for Text"

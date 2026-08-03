@@ -13,7 +13,9 @@
     "Test robustness systematically"
   ],
   "knowledge_refs": [
-    "ai-safety/safety-05-robustness"
+    "ai-safety/safety-04-alignment",
+    "generative-ai/genai-19-ethical-ai-and-safety",
+    "llm-engineering/llm-14-guardrails-and-safety"
   ],
   "prerequisites": [
     "SAFETY-03: Interpretability & Explainability"

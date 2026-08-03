@@ -13,7 +13,9 @@
     "Explain when linear models beat deep ones"
   ],
   "knowledge_refs": [
-    "nlp/nlp-07-text-classification"
+    "nlp/nlp-06-word-embeddings",
+    "computer-vision/cv-05-image-classification",
+    "machine-learning/ml-18-classification-metrics"
   ],
   "prerequisites": [
     "NLP-02: Text Representation: From Tokens to Vectors"

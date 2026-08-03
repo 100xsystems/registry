@@ -13,7 +13,9 @@
     "Load a pretrained ResNet from torchvision"
   ],
   "knowledge_refs": [
-    "deep-learning/dl-13-cnn-architectures"
+    "deep-learning/dl-12-convolutional-networks",
+    "computer-vision/cv-18-3d-vision",
+    "computer-vision/cv-01-what-is-computer-vision"
   ],
   "prerequisites": [
     "DL-12: Convolutional Networks"

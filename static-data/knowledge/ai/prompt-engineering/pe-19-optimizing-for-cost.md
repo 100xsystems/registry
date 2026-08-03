@@ -13,7 +13,9 @@
     "Track cost per outcome"
   ],
   "knowledge_refs": [
-    "prompt-engineering/pe-19-optimizing-for-cost"
+    "prompt-engineering/pe-18-safety-in-prompts",
+    "llm-engineering/llm-16-cost-optimization",
+    "mlops/mlops-19-cost-and-performance"
   ],
   "prerequisites": [
     "PE-16: Prompt Caching & Cost"

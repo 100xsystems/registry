@@ -13,7 +13,9 @@
     "Replay failures"
   ],
   "knowledge_refs": [
-    "ai-agents/agents-15-agent-observability"
+    "ai-agents/agents-14-human-in-the-loop",
+    "llm-engineering/llm-11-llm-agents",
+    "generative-ai/genai-12-agents-and-tool-use"
   ],
   "prerequisites": [
     "AGENTS-12: Evaluating Agents"

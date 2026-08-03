@@ -13,7 +13,9 @@
     "Collaborate on prompt changes"
   ],
   "knowledge_refs": [
-    "prompt-engineering/pe-15-prompt-tools"
+    "prompt-engineering/pe-14-prompt-versioning",
+    "generative-ai/genai-04-prompt-engineering",
+    "llm-engineering/llm-17-observability"
   ],
   "prerequisites": [
     "PE-13: Evaluating Prompts"

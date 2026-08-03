@@ -13,7 +13,9 @@
     "Report incidents constructively"
   ],
   "knowledge_refs": [
-    "ai-safety/safety-15-safety-case-studies"
+    "ai-safety/safety-14-societal-impact",
+    "generative-ai/genai-19-ethical-ai-and-safety",
+    "llm-engineering/llm-14-guardrails-and-safety"
   ],
   "prerequisites": [
     "SAFETY-11: Red Teaming"

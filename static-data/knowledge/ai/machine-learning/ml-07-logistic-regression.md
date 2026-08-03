@@ -13,7 +13,9 @@
     "Set decision thresholds by business cost"
   ],
   "knowledge_refs": [
-    "machine-learning/ml-07-logistic-regression"
+    "machine-learning/ml-06-gradient-descent",
+    "computer-vision/cv-05-image-classification",
+    "nlp/nlp-07-text-classification"
   ],
   "prerequisites": [
     "ML-06: Gradient Descent"

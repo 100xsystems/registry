@@ -13,7 +13,9 @@
     "Measure tokens per second"
   ],
   "knowledge_refs": [
-    "llm-engineering/llm-15-llm-serving"
+    "llm-engineering/llm-14-guardrails-and-safety",
+    "mlops/mlops-10-model-serving",
+    "mlops/mlops-13-deployment-strategies"
   ],
   "prerequisites": [
     "LLM-09: Fine-Tuning LLMs in Practice"

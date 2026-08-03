@@ -56,7 +56,10 @@
       "duration": "40 min",
       "difficulty": "beginner",
       "knowledge_refs": [
-        "data-science/ds-01-what-is-data-science"
+        "machine-learning/ml-01-what-is-machine-learning",
+        "data-science/ds-02-the-data-science-pipeline",
+        "tools/apache-spark",
+        "databases/postgresql"
       ]
     },
     {
@@ -68,7 +71,10 @@
       "duration": "45 min",
       "difficulty": "beginner",
       "knowledge_refs": [
-        "data-science/ds-02-the-data-science-pipeline"
+        "data-science/ds-01-what-is-data-science",
+        "machine-learning/ml-03-the-learning-problem",
+        "mlops/mlops-02-the-ml-lifecycle",
+        "data-science/ds-20-end-to-end-project"
       ]
     },
     {
@@ -80,19 +86,23 @@
       "duration": "50 min",
       "difficulty": "beginner",
       "knowledge_refs": [
-        "data-science/ds-03-python-for-data-science"
+        "data-science/ds-04-numpy-arrays",
+        "data-science/ds-05-pandas-dataframes",
+        "data-science/ds-01-what-is-data-science"
       ]
     },
     {
       "slug": "ds-04-numpy-arrays",
       "title": "NumPy: Arrays & Vectorization",
-      "description": "Master ndarrays, broadcasting and vectorized math — the engine under every serious data workflow.",
+      "description": "Master the n-dimensional array, vectorized operations, and the broadcasting rules that make Python fast.",
       "type": "lesson",
       "order": 4,
-      "duration": "55 min",
+      "duration": "60 min",
       "difficulty": "beginner",
       "knowledge_refs": [
-        "data-science/ds-04-numpy-arrays"
+        "data-science/ds-03-python-for-data-science",
+        "data-science/ds-05-pandas-dataframes",
+        "data-science/ds-09-statistics-fundamentals"
       ]
     },
     {
@@ -104,199 +114,235 @@
       "duration": "60 min",
       "difficulty": "beginner",
       "knowledge_refs": [
-        "data-science/ds-05-pandas-dataframes"
+        "data-science/ds-04-numpy-arrays",
+        "data-science/ds-06-data-cleaning",
+        "data-science/ds-07-exploratory-data-analysis"
       ]
     },
     {
       "slug": "ds-06-data-cleaning",
       "title": "Data Cleaning & Wrangling",
-      "description": "Handle missing values, duplicates, inconsistent types and outliers — the unglamorous 80% of real data work.",
+      "description": "Fix missing values, wrong types, duplicates and inconsistent text — the 60–80% of real data work.",
       "type": "lesson",
       "order": 6,
       "duration": "60 min",
-      "difficulty": "intermediate",
+      "difficulty": "beginner",
       "knowledge_refs": [
-        "data-science/ds-06-data-cleaning"
+        "data-science/ds-05-pandas-dataframes",
+        "data-science/ds-07-exploratory-data-analysis",
+        "data-science/ds-13-feature-engineering"
       ]
     },
     {
       "slug": "ds-07-exploratory-data-analysis",
       "title": "Exploratory Data Analysis",
-      "description": "Systematically explore a dataset before modeling: distributions, group differences, and the questions they surface.",
+      "description": "Use summaries and plots to interrogate a dataset before any modeling — find patterns, outliers and bugs.",
       "type": "lesson",
       "order": 7,
       "duration": "55 min",
-      "difficulty": "intermediate",
+      "difficulty": "beginner",
       "knowledge_refs": [
-        "data-science/ds-07-exploratory-data-analysis"
+        "data-science/ds-05-pandas-dataframes",
+        "data-science/ds-08-data-visualization",
+        "data-science/ds-12-correlation-and-causation"
       ]
     },
     {
       "slug": "ds-08-data-visualization",
       "title": "Data Visualization",
-      "description": "Choose the right chart, encode data honestly, and tell a story with matplotlib and seaborn.",
+      "description": "Build clear, honest charts with Matplotlib and Seaborn — and learn which chart answers which question.",
       "type": "lesson",
       "order": 8,
-      "duration": "55 min",
-      "difficulty": "intermediate",
+      "duration": "60 min",
+      "difficulty": "beginner",
       "knowledge_refs": [
-        "data-science/ds-08-data-visualization"
+        "data-science/ds-07-exploratory-data-analysis",
+        "data-science/ds-19-communicating-results",
+        "data-science/ds-09-statistics-fundamentals"
       ]
     },
     {
       "slug": "ds-09-statistics-fundamentals",
       "title": "Statistics Fundamentals",
-      "description": "Mean, variance, standard error, and the sampling ideas that let you reason from data to conclusions.",
+      "description": "Descriptive statistics, samples vs populations, and the distributions that data science runs on.",
       "type": "lesson",
       "order": 9,
       "duration": "55 min",
-      "difficulty": "intermediate",
+      "difficulty": "beginner",
       "knowledge_refs": [
-        "data-science/ds-09-statistics-fundamentals"
+        "data-science/ds-10-probability-distributions",
+        "data-science/ds-11-hypothesis-testing",
+        "data-science/ds-07-exploratory-data-analysis"
       ]
     },
     {
       "slug": "ds-10-probability-distributions",
       "title": "Probability Distributions",
-      "description": "The distributions that show up everywhere in data work — normal, binomial, Poisson and uniform — and how to sample from them.",
+      "description": "The distributions behind data science: Bernoulli, binomial, Poisson, normal and more — and when to use each.",
       "type": "lesson",
       "order": 10,
-      "duration": "55 min",
+      "duration": "60 min",
       "difficulty": "intermediate",
       "knowledge_refs": [
-        "data-science/ds-10-probability-distributions"
+        "data-science/ds-09-statistics-fundamentals",
+        "data-science/ds-11-hypothesis-testing",
+        "machine-learning/ml-13-naive-bayes"
       ]
     },
     {
       "slug": "ds-11-hypothesis-testing",
       "title": "Hypothesis Testing",
-      "description": "Null hypotheses, p-values, t-tests and the judgment calls that separate rigorous analysis from pattern-chasing.",
+      "description": "Null hypotheses, p-values, t-tests and the statistical decisions that separate real effects from noise.",
       "type": "lesson",
       "order": 11,
       "duration": "60 min",
       "difficulty": "intermediate",
       "knowledge_refs": [
-        "data-science/ds-11-hypothesis-testing"
+        "data-science/ds-10-probability-distributions",
+        "data-science/ds-09-statistics-fundamentals",
+        "data-science/ds-12-correlation-and-causation"
       ]
     },
     {
       "slug": "ds-12-correlation-and-causation",
       "title": "Correlation & Causation",
-      "description": "Measure association, then reason carefully about whether an intervention actually causes the effect.",
+      "description": "Measure correlation, then learn why correlation is not causation — and how to actually establish causes.",
       "type": "lesson",
       "order": 12,
       "duration": "50 min",
       "difficulty": "intermediate",
       "knowledge_refs": [
-        "data-science/ds-12-correlation-and-causation"
+        "data-science/ds-11-hypothesis-testing",
+        "data-science/ds-13-feature-engineering",
+        "machine-learning/ml-20-dimensionality-reduction"
       ]
     },
     {
       "slug": "ds-13-feature-engineering",
       "title": "Feature Engineering",
-      "description": "Turn raw columns into features that models can actually learn from: encodings, transforms, dates and domain knowledge.",
+      "description": "Turn raw data into features models can learn from: encodings, scaling, transforms and derived variables.",
       "type": "lesson",
       "order": 13,
       "duration": "60 min",
       "difficulty": "intermediate",
       "knowledge_refs": [
-        "data-science/ds-13-feature-engineering"
+        "data-science/ds-06-data-cleaning",
+        "machine-learning/ml-14-feature-scaling-and-selection",
+        "data-science/ds-14-train-test-split"
       ]
     },
     {
       "slug": "ds-14-train-test-split",
       "title": "Train/Test Splits & Validation",
-      "description": "The disciplined way to estimate model quality: hold out data, avoid leakage, and validate like it matters.",
+      "description": "Split data honestly, avoid leakage, and use holdout sets and cross-validation to measure real performance.",
       "type": "lesson",
       "order": 14,
-      "duration": "50 min",
+      "duration": "55 min",
       "difficulty": "intermediate",
       "knowledge_refs": [
-        "data-science/ds-14-train-test-split"
+        "machine-learning/ml-16-cross-validation",
+        "data-science/ds-18-model-evaluation",
+        "data-science/ds-13-feature-engineering"
       ]
     },
     {
       "slug": "ds-15-regression-models",
       "title": "Regression Models",
-      "description": "Predict numbers with linear and regularized regression, and read the coefficients like an analyst.",
+      "description": "Predict continuous values with linear and regularized regression, and read the results honestly.",
       "type": "lesson",
       "order": 15,
-      "duration": "55 min",
+      "duration": "60 min",
       "difficulty": "intermediate",
       "knowledge_refs": [
-        "data-science/ds-15-regression-models"
+        "machine-learning/ml-05-linear-regression",
+        "machine-learning/ml-15-regularization",
+        "data-science/ds-14-train-test-split"
       ]
     },
     {
       "slug": "ds-16-classification-models",
       "title": "Classification Models",
-      "description": "Predict categories with logistic regression and neighbors, and learn what decision boundaries really mean.",
+      "description": "Predict categories with logistic regression, decision trees and k-NN — and understand what a classifier actually outputs.",
       "type": "lesson",
       "order": 16,
-      "duration": "55 min",
+      "duration": "60 min",
       "difficulty": "intermediate",
       "knowledge_refs": [
-        "data-science/ds-16-classification-models"
+        "machine-learning/ml-07-logistic-regression",
+        "machine-learning/ml-08-decision-trees",
+        "data-science/ds-18-model-evaluation"
       ]
     },
     {
       "slug": "ds-17-clustering",
       "title": "Clustering",
-      "description": "Find structure without labels: k-means, distance metrics, and choosing the number of clusters honestly.",
+      "description": "Discover structure in unlabeled data with k-means and hierarchical clustering — and evaluate the result.",
       "type": "lesson",
       "order": 17,
-      "duration": "50 min",
+      "duration": "55 min",
       "difficulty": "intermediate",
       "knowledge_refs": [
-        "data-science/ds-17-clustering"
+        "machine-learning/ml-19-kmeans-clustering",
+        "machine-learning/ml-20-dimensionality-reduction",
+        "data-science/ds-16-classification-models"
       ]
     },
     {
       "slug": "ds-18-model-evaluation",
       "title": "Model Evaluation Metrics",
-      "description": "Accuracy is a trap. Learn precision, recall, F1, ROC curves, and the confusion matrix inside out.",
+      "description": "Accuracy, precision, recall, F1, ROC-AUC and confusion matrices — the honest measurement of model quality.",
       "type": "lesson",
       "order": 18,
-      "duration": "55 min",
+      "duration": "60 min",
       "difficulty": "intermediate",
       "knowledge_refs": [
-        "data-science/ds-18-model-evaluation"
+        "machine-learning/ml-18-classification-metrics",
+        "data-science/ds-16-classification-models",
+        "data-science/ds-14-train-test-split"
       ]
     },
     {
       "slug": "ds-19-communicating-results",
       "title": "Communicating Results",
-      "description": "The analysis only matters if it changes decisions. Learn to write, present and defend findings clearly.",
+      "description": "Turn analysis into decisions: structure a finding, choose the right chart, and write for stakeholders.",
       "type": "lesson",
       "order": 19,
-      "duration": "45 min",
+      "duration": "50 min",
       "difficulty": "intermediate",
       "knowledge_refs": [
-        "data-science/ds-19-communicating-results"
+        "data-science/ds-08-data-visualization",
+        "data-science/ds-18-model-evaluation",
+        "data-science/ds-11-hypothesis-testing"
       ]
     },
     {
       "slug": "ds-20-end-to-end-project",
       "title": "An End-to-End Data Science Project",
-      "description": "Assemble everything into one reproducible project: ask, fetch, clean, explore, model, evaluate, and ship the notebook.",
+      "description": "Combine everything into a real project: from a raw dataset to a working, honestly-evaluated model.",
       "type": "lesson",
       "order": 20,
       "duration": "75 min",
-      "difficulty": "advanced",
+      "difficulty": "intermediate",
       "knowledge_refs": [
-        "data-science/ds-20-end-to-end-project"
+        "data-science/ds-02-the-data-science-pipeline",
+        "data-science/ds-14-train-test-split",
+        "data-science/ds-18-model-evaluation",
+        "mlops/mlops-02-the-ml-lifecycle"
       ]
     },
     {
       "slug": "ds-21-roadmap",
       "title": "Beyond the Basics: Your Data Science Roadmap",
-      "description": "Synthesize the course into a study roadmap, connect it to machine learning and deep learning, and plan real projects.",
+      "description": "Where to go after this course: specializations, projects, and the learning paths that lead to a career.",
       "type": "lesson",
       "order": 21,
       "duration": "40 min",
-      "difficulty": "advanced",
+      "difficulty": "intermediate",
       "knowledge_refs": [
-        "data-science/ds-21-roadmap"
+        "machine-learning/ml-01-what-is-machine-learning",
+        "data-science/ds-20-end-to-end-project",
+        "mlops/mlops-01-what-is-mlops",
+        "deep-learning/dl-01-what-is-deep-learning"
       ]
     }
   ]

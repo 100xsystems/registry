@@ -13,7 +13,9 @@
     "List where agents add real value"
   ],
   "knowledge_refs": [
-    "ai-agents/agents-01-what-are-ai-agents"
+    "llm-engineering/llm-11-llm-agents",
+    "generative-ai/genai-12-agents-and-tool-use",
+    "reinforcement-learning/rl-20-evaluating-rl-agents"
   ],
   "prerequisites": [
     "LLM-01: What Is LLM Engineering?"

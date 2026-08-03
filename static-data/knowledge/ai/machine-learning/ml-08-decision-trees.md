@@ -13,7 +13,8 @@
     "Extract feature importances"
   ],
   "knowledge_refs": [
-    "machine-learning/ml-08-decision-trees"
+    "machine-learning/ml-07-logistic-regression",
+    "reinforcement-learning/rl-02-markov-decision-processes"
   ],
   "prerequisites": [
     "ML-07: Logistic Regression"

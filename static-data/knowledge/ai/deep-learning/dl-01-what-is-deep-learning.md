@@ -13,7 +13,7 @@
     "Identify tasks where deep learning excels"
   ],
   "knowledge_refs": [
-    "deep-learning/dl-01-what-is-deep-learning"
+    "deep-learning/dl-02-perceptron-and-linear-units"
   ],
   "prerequisites": [
     "ML-01: What Is Machine Learning?"

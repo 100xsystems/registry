@@ -13,7 +13,9 @@
     "Design honest failure behavior"
   ],
   "knowledge_refs": [
-    "ai-safety/safety-07-hallucination"
+    "ai-safety/safety-06-privacy",
+    "generative-ai/genai-19-ethical-ai-and-safety",
+    "llm-engineering/llm-14-guardrails-and-safety"
   ],
   "prerequisites": [
     "SAFETY-01: Why AI Safety Matters"

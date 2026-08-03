@@ -13,7 +13,9 @@
     "Know when fine-tuning beats prompting"
   ],
   "knowledge_refs": [
-    "generative-ai/genai-08-fine-tuning-llms"
+    "generative-ai/genai-07-tokenization",
+    "llm-engineering/llm-09-fine-tuning-practice",
+    "machine-learning/ml-17-hyperparameter-tuning"
   ],
   "prerequisites": [
     "GENAI-06: LLM Architecture & Scaling"

@@ -13,7 +13,9 @@
     "Prevent instruction injection"
   ],
   "knowledge_refs": [
-    "prompt-engineering/pe-10-system-prompts"
+    "prompt-engineering/pe-09-prompts-for-rag",
+    "llm-engineering/llm-18-building-a-copilot",
+    "llm-engineering/llm-19-production-case-studies"
   ],
   "prerequisites": [
     "PE-03: Roles & Context"

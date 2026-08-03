@@ -13,7 +13,8 @@
     "Use early stopping to avoid overfitting"
   ],
   "knowledge_refs": [
-    "machine-learning/ml-10-gradient-boosting"
+    "machine-learning/ml-09-ensemble-methods",
+    "reinforcement-learning/rl-10-policy-gradient-methods"
   ],
   "prerequisites": [
     "ML-09: Ensemble Methods: Bagging & Random Forests"

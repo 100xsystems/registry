@@ -13,7 +13,9 @@
     "Add circuit breakers"
   ],
   "knowledge_refs": [
-    "ai-agents/agents-13-safety-and-control"
+    "ai-agents/agents-12-evaluating-agents",
+    "ai-safety/safety-21-roadmap",
+    "ai-safety/safety-01-why-ai-safety"
   ],
   "prerequisites": [
     "AGENTS-06: Multi-Agent Systems"

@@ -56,7 +56,9 @@
       "duration": "40 min",
       "difficulty": "beginner",
       "knowledge_refs": [
-        "prompt-engineering/pe-01-what-is-prompt-engineering"
+        "generative-ai/genai-04-prompt-engineering",
+        "llm-engineering/llm-17-observability",
+        "llm-engineering/llm-04-prompting-systems"
       ]
     },
     {
@@ -68,7 +70,9 @@
       "duration": "50 min",
       "difficulty": "beginner",
       "knowledge_refs": [
-        "prompt-engineering/pe-02-prompt-structure"
+        "prompt-engineering/pe-01-what-is-prompt-engineering",
+        "generative-ai/genai-04-prompt-engineering",
+        "llm-engineering/llm-17-observability"
       ]
     },
     {
@@ -80,7 +84,9 @@
       "duration": "50 min",
       "difficulty": "intermediate",
       "knowledge_refs": [
-        "prompt-engineering/pe-03-roles-and-context"
+        "prompt-engineering/pe-02-prompt-structure",
+        "generative-ai/genai-05-in-context-learning",
+        "llm-engineering/llm-12-context-engineering"
       ]
     },
     {
@@ -92,7 +98,8 @@
       "duration": "55 min",
       "difficulty": "intermediate",
       "knowledge_refs": [
-        "prompt-engineering/pe-04-few-shot-examples"
+        "prompt-engineering/pe-03-roles-and-context",
+        "ai-safety/safety-05-robustness"
       ]
     },
     {
@@ -104,7 +111,8 @@
       "duration": "55 min",
       "difficulty": "intermediate",
       "knowledge_refs": [
-        "prompt-engineering/pe-05-chain-of-thought"
+        "prompt-engineering/pe-04-few-shot-examples",
+        "ai-agents/agents-04-reasoning-and-planning"
       ]
     },
     {
@@ -116,7 +124,8 @@
       "duration": "55 min",
       "difficulty": "intermediate",
       "knowledge_refs": [
-        "prompt-engineering/pe-06-structured-outputs"
+        "prompt-engineering/pe-05-chain-of-thought",
+        "llm-engineering/llm-10-function-calling"
       ]
     },
     {
@@ -128,7 +137,9 @@
       "duration": "55 min",
       "difficulty": "intermediate",
       "knowledge_refs": [
-        "prompt-engineering/pe-07-prompts-for-code"
+        "prompt-engineering/pe-06-structured-outputs",
+        "generative-ai/genai-04-prompt-engineering",
+        "llm-engineering/llm-04-prompting-systems"
       ]
     },
     {
@@ -140,7 +151,9 @@
       "duration": "50 min",
       "difficulty": "intermediate",
       "knowledge_refs": [
-        "prompt-engineering/pe-08-prompts-for-images"
+        "prompt-engineering/pe-07-prompts-for-code",
+        "generative-ai/genai-04-prompt-engineering",
+        "llm-engineering/llm-04-prompting-systems"
       ]
     },
     {
@@ -152,7 +165,9 @@
       "duration": "55 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "prompt-engineering/pe-09-prompts-for-rag"
+        "prompt-engineering/pe-08-prompts-for-images",
+        "llm-engineering/llm-07-rag-engineering",
+        "llm-engineering/llm-08-advanced-rag"
       ]
     },
     {
@@ -164,7 +179,9 @@
       "duration": "55 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "prompt-engineering/pe-10-system-prompts"
+        "prompt-engineering/pe-09-prompts-for-rag",
+        "llm-engineering/llm-18-building-a-copilot",
+        "llm-engineering/llm-19-production-case-studies"
       ]
     },
     {
@@ -176,7 +193,9 @@
       "duration": "60 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "prompt-engineering/pe-11-advanced-techniques"
+        "prompt-engineering/pe-10-system-prompts",
+        "generative-ai/genai-04-prompt-engineering",
+        "llm-engineering/llm-04-prompting-systems"
       ]
     },
     {
@@ -188,7 +207,9 @@
       "duration": "55 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "prompt-engineering/pe-12-prompt-injection-defense"
+        "prompt-engineering/pe-11-advanced-techniques",
+        "generative-ai/genai-04-prompt-engineering",
+        "llm-engineering/llm-17-observability"
       ]
     },
     {
@@ -200,7 +221,9 @@
       "duration": "55 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "prompt-engineering/pe-13-evaluating-prompts"
+        "prompt-engineering/pe-12-prompt-injection-defense",
+        "deep-learning/dl-20-evaluating-deep-models",
+        "computer-vision/cv-20-evaluating-vision-models"
       ]
     },
     {
@@ -212,7 +235,9 @@
       "duration": "50 min",
       "difficulty": "intermediate",
       "knowledge_refs": [
-        "prompt-engineering/pe-14-prompt-versioning"
+        "prompt-engineering/pe-13-evaluating-prompts",
+        "llm-engineering/llm-17-observability",
+        "generative-ai/genai-04-prompt-engineering"
       ]
     },
     {
@@ -224,7 +249,9 @@
       "duration": "50 min",
       "difficulty": "intermediate",
       "knowledge_refs": [
-        "prompt-engineering/pe-15-prompt-tools"
+        "prompt-engineering/pe-14-prompt-versioning",
+        "generative-ai/genai-04-prompt-engineering",
+        "llm-engineering/llm-17-observability"
       ]
     },
     {
@@ -236,7 +263,9 @@
       "duration": "50 min",
       "difficulty": "intermediate",
       "knowledge_refs": [
-        "prompt-engineering/pe-16-prompt-caching"
+        "prompt-engineering/pe-15-prompt-tools",
+        "generative-ai/genai-04-prompt-engineering",
+        "llm-engineering/llm-17-observability"
       ]
     },
     {
@@ -248,7 +277,9 @@
       "duration": "55 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "prompt-engineering/pe-17-domain-specific-prompts"
+        "prompt-engineering/pe-16-prompt-caching",
+        "generative-ai/genai-04-prompt-engineering",
+        "llm-engineering/llm-04-prompting-systems"
       ]
     },
     {
@@ -260,7 +291,9 @@
       "duration": "50 min",
       "difficulty": "intermediate",
       "knowledge_refs": [
-        "prompt-engineering/pe-18-safety-in-prompts"
+        "prompt-engineering/pe-17-domain-specific-prompts",
+        "ai-safety/safety-21-roadmap",
+        "ai-safety/safety-01-why-ai-safety"
       ]
     },
     {
@@ -272,7 +305,9 @@
       "duration": "50 min",
       "difficulty": "intermediate",
       "knowledge_refs": [
-        "prompt-engineering/pe-19-optimizing-for-cost"
+        "prompt-engineering/pe-18-safety-in-prompts",
+        "llm-engineering/llm-16-cost-optimization",
+        "mlops/mlops-19-cost-and-performance"
       ]
     },
     {
@@ -284,7 +319,9 @@
       "duration": "60 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "prompt-engineering/pe-20-production-prompting"
+        "prompt-engineering/pe-19-optimizing-for-cost",
+        "generative-ai/genai-04-prompt-engineering",
+        "llm-engineering/llm-17-observability"
       ]
     },
     {
@@ -296,7 +333,9 @@
       "duration": "40 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "prompt-engineering/pe-21-roadmap"
+        "prompt-engineering/pe-20-production-prompting",
+        "generative-ai/genai-04-prompt-engineering",
+        "llm-engineering/llm-17-observability"
       ]
     }
   ]

@@ -13,7 +13,8 @@
     "Recognize convergence and divergence symptoms"
   ],
   "knowledge_refs": [
-    "machine-learning/ml-06-gradient-descent"
+    "machine-learning/ml-05-linear-regression",
+    "reinforcement-learning/rl-10-policy-gradient-methods"
   ],
   "prerequisites": [
     "ML-05: Linear Regression"

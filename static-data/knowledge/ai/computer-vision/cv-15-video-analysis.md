@@ -13,7 +13,9 @@
     "Process video frames in a loop"
   ],
   "knowledge_refs": [
-    "computer-vision/cv-15-video-analysis"
+    "computer-vision/cv-14-image-registration-and-stitching",
+    "nlp/nlp-08-sentiment-analysis",
+    "mlops/mlops-06-experiment-tracking"
   ],
   "prerequisites": [
     "CV-12: OpenCV Fundamentals"

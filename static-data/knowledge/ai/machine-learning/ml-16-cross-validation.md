@@ -13,7 +13,7 @@
     "Stratify folds for imbalanced targets"
   ],
   "knowledge_refs": [
-    "machine-learning/ml-16-cross-validation"
+    "machine-learning/ml-15-regularization"
   ],
   "prerequisites": [
     "ML-04: The Python ML Stack"

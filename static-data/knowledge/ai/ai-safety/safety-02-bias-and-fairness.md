@@ -13,7 +13,9 @@
     "Audit models for bias"
   ],
   "knowledge_refs": [
-    "ai-safety/safety-02-bias-and-fairness"
+    "ai-safety/safety-01-why-ai-safety",
+    "generative-ai/genai-19-ethical-ai-and-safety",
+    "llm-engineering/llm-14-guardrails-and-safety"
   ],
   "prerequisites": [
     "SAFETY-01: Why AI Safety Matters"

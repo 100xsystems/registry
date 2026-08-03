@@ -13,7 +13,9 @@
     "Debug retrieval failures"
   ],
   "knowledge_refs": [
-    "llm-engineering/llm-07-rag-engineering"
+    "llm-engineering/llm-06-embeddings-and-semantic-search",
+    "ai-agents/agents-11-rag-agents",
+    "prompt-engineering/pe-09-prompts-for-rag"
   ],
   "prerequisites": [
     "LLM-06: Embeddings & Semantic Search"

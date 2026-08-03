@@ -13,7 +13,9 @@
     "Use out-of-bag scores as a free validation set"
   ],
   "knowledge_refs": [
-    "machine-learning/ml-09-ensemble-methods"
+    "machine-learning/ml-08-decision-trees",
+    "reinforcement-learning/rl-04-monte-carlo-methods",
+    "reinforcement-learning/rl-10-policy-gradient-methods"
   ],
   "prerequisites": [
     "ML-08: Decision Trees"

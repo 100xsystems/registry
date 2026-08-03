@@ -13,7 +13,8 @@
     "Compare regularization techniques"
   ],
   "knowledge_refs": [
-    "deep-learning/dl-11-regularization-for-deep-learning"
+    "machine-learning/ml-15-regularization",
+    "deep-learning/dl-10-the-training-loop"
   ],
   "prerequisites": [
     "DL-10: The Training Loop"

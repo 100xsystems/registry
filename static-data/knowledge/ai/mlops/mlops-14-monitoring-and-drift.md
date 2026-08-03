@@ -13,7 +13,9 @@
     "Set alert thresholds deliberately"
   ],
   "knowledge_refs": [
-    "mlops/mlops-14-monitoring-and-drift"
+    "mlops/mlops-13-deployment-strategies",
+    "generative-ai/genai-18-llmops",
+    "llm-engineering/llm-20-llmops-tooling"
   ],
   "prerequisites": [
     "MLOPS-13: Model Deployment Strategies"

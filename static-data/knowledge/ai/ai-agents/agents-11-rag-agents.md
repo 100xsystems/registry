@@ -13,7 +13,9 @@
     "Ground answers in retrieved content"
   ],
   "knowledge_refs": [
-    "ai-agents/agents-11-rag-agents"
+    "ai-agents/agents-10-coding-agents",
+    "llm-engineering/llm-11-llm-agents",
+    "generative-ai/genai-12-agents-and-tool-use"
   ],
   "prerequisites": [
     "LLM-08: Advanced RAG"

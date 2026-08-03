@@ -13,7 +13,9 @@
     "Handle edge cases in tokenization"
   ],
   "knowledge_refs": [
-    "generative-ai/genai-07-tokenization"
+    "generative-ai/genai-06-llm-architecture",
+    "llm-engineering/llm-05-tokenization-and-context",
+    "nlp/nlp-02-text-representation"
   ],
   "prerequisites": [
     "GENAI-03: Text Generation Fundamentals"

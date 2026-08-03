@@ -13,7 +13,9 @@
     "Discuss centralized training, decentralized execution"
   ],
   "knowledge_refs": [
-    "reinforcement-learning/rl-16-multi-agent-rl"
+    "reinforcement-learning/rl-15-imitation-learning",
+    "ai-agents/agents-06-multi-agent-systems",
+    "ai-agents/agents-02-agent-architecture"
   ],
   "prerequisites": [
     "RL-12: PPO & Modern Policy Optimization"

@@ -13,7 +13,9 @@
     "Measure business outcomes"
   ],
   "knowledge_refs": [
-    "ai-agents/agents-18-enterprise-agents"
+    "ai-agents/agents-17-agent-design-patterns",
+    "llm-engineering/llm-11-llm-agents",
+    "generative-ai/genai-12-agents-and-tool-use"
   ],
   "prerequisites": [
     "AGENTS-14: Human-in-the-Loop Patterns"

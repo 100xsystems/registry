@@ -13,7 +13,9 @@
     "Prevent hallucination beyond context"
   ],
   "knowledge_refs": [
-    "prompt-engineering/pe-09-prompts-for-rag"
+    "prompt-engineering/pe-08-prompts-for-images",
+    "llm-engineering/llm-07-rag-engineering",
+    "llm-engineering/llm-08-advanced-rag"
   ],
   "prerequisites": [
     "LLM-07: RAG Engineering"

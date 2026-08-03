@@ -13,7 +13,8 @@
     "Fine-tune or use pretrained NER"
   ],
   "knowledge_refs": [
-    "nlp/nlp-09-named-entity-recognition"
+    "nlp/nlp-08-sentiment-analysis",
+    "computer-vision/cv-16-face-recognition"
   ],
   "prerequisites": [
     "NLP-02: Text Representation: From Tokens to Vectors"

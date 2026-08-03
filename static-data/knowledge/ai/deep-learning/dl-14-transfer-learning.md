@@ -13,7 +13,8 @@
     "Avoid catastrophic forgetting"
   ],
   "knowledge_refs": [
-    "deep-learning/dl-14-transfer-learning"
+    "deep-learning/dl-13-cnn-architectures",
+    "computer-vision/cv-07-transfer-learning-for-vision"
   ],
   "prerequisites": [
     "DL-13: Classic CNN Architectures"

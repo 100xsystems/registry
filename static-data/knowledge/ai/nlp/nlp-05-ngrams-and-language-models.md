@@ -13,7 +13,8 @@
     "Generate text by sampling from the model"
   ],
   "knowledge_refs": [
-    "nlp/nlp-05-ngrams-and-language-models"
+    "nlp/nlp-04-regular-expressions",
+    "generative-ai/genai-15-vision-language-models"
   ],
   "prerequisites": [
     "NLP-03: Text Preprocessing"

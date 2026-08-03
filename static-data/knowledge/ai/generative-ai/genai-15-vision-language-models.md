@@ -13,7 +13,9 @@
     "Use multimodal chat models"
   ],
   "knowledge_refs": [
-    "generative-ai/genai-15-vision-language-models"
+    "generative-ai/genai-14-gans",
+    "computer-vision/cv-18-3d-vision",
+    "computer-vision/cv-01-what-is-computer-vision"
   ],
   "prerequisites": [
     "GENAI-13: Diffusion Models for Images"

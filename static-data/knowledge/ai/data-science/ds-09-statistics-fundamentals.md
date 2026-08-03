@@ -1,48 +1,50 @@
 ---
 {
   "title": "Statistics Fundamentals",
-  "description": "Mean, variance, standard error, and the sampling ideas that let you reason from data to conclusions.",
+  "description": "Descriptive statistics, samples vs populations, and the distributions that data science runs on.",
   "type": "lesson",
   "order": 9,
   "duration": "55 min",
-  "difficulty": "intermediate",
+  "difficulty": "beginner",
   "learning_objectives": [
-    "Compute and interpret central tendency and spread",
-    "Distinguish population parameters from sample statistics",
-    "Explain the standard error and the central limit theorem",
-    "Use confidence intervals to quantify uncertainty"
+    "Summarize data with mean, median, variance and percentiles",
+    "Distinguish sample statistics from population parameters",
+    "Understand the normal distribution and why it appears everywhere",
+    "Use sampling distributions to reason about uncertainty"
   ],
   "knowledge_refs": [
-    "data-science/ds-09-statistics-fundamentals"
+    "data-science/ds-10-probability-distributions",
+    "data-science/ds-11-hypothesis-testing",
+    "data-science/ds-07-exploratory-data-analysis"
   ],
   "prerequisites": [
-    "DS-07: Exploratory Data Analysis"
+    "DS-08: Data Visualization"
   ],
   "references": [
     {
-      "title": "Python for Data Analysis — Wes McKinney",
-      "url": "https://wesmckinney.com/book/",
-      "description": "The definitive guide to pandas, NumPy and the PyData stack."
+      "title": "OpenIntro Statistics (4th Edition)",
+      "url": "https://www.openintro.org/book/os/",
+      "description": "Free, university-level statistics textbook — descriptive stats and inference."
     },
     {
-      "title": "Pandas User Guide",
-      "url": "https://pandas.pydata.org/docs/user_guide/index.html",
-      "description": "Official documentation for the pandas data-analysis library."
+      "title": "Khan Academy — Statistics and Probability",
+      "url": "https://www.khanacademy.org/math/statistics-probability",
+      "description": "Free video course: distributions, sampling, and confidence intervals."
     },
     {
-      "title": "The Elements of Statistical Learning",
-      "url": "https://hastie.su.domains/ElemStatLearn/",
-      "description": "The classic statistical-learning reference (free PDF)."
+      "title": "Seeing Theory — Brown University",
+      "url": "https://seeing-theory.brown.edu/",
+      "description": "Interactive visual introduction to probability and statistics."
     },
     {
-      "title": "Kaggle Learn — Data Science",
-      "url": "https://www.kaggle.com/learn",
-      "description": "Hands-on micro-courses covering pandas, EDA and modeling."
+      "title": "StatQuest with Josh Starmer",
+      "url": "https://www.youtube.com/playlist?list=PLblh5JKOoLUK0FLuzwntyYI10UQFUhsY9",
+      "description": "Renowned visual explanations of statistical concepts."
     },
     {
-      "title": "scikit-learn User Guide",
-      "url": "https://scikit-learn.org/stable/user_guide.html",
-      "description": "Authoritative guide to the Python machine-learning toolbox."
+      "title": "Introduction to Probability and Statistics (MIT 18.05)",
+      "url": "https://ocw.mit.edu/courses/18-05-introduction-to-probability-and-statistics-spring-2022/",
+      "description": "Rigorous free university course with full lecture notes and problem sets."
     }
   ]
 }
@@ -52,79 +54,99 @@
 
 ## Introduction
 
-Mean, variance, standard error, and the sampling ideas that let you reason from data to conclusions. By the end of this lesson you will be able to: Compute and interpret central tendency and spread; Distinguish population parameters from sample statistics; Explain the standard error and the central limit theorem; Use confidence intervals to quantify uncertainty.
+Statistics is the science of making decisions under uncertainty — and data science is, at its core, applied statistics. This lesson builds the vocabulary you need for everything that follows: how to *summarize* data (descriptive statistics), how to distinguish the *sample* you have from the *population* you care about, and why the *normal distribution* and *sampling distributions* are so central. These ideas are the foundation for hypothesis testing (next lessons) and for understanding what ML models actually guarantee.
 
 ## Key Concepts
 
-### 1. Compute and interpret central tendency and spread
+### 1. Summarizing data: measures of center and spread
 
-Target: Compute and interpret central tendency and spread. Start with the foundations — read the runnable example carefully and trace its output before moving on.
-
-```python
-import numpy as np
-
-x = np.array([23, 41, 30, 67, 52])
-print("mean:", x.mean())
-print("var (sample):", x.var(ddof=1))
-print("std (sample):", x.std(ddof=1))
-```
-### 2. Distinguish population parameters from sample statistics
-
-Target: Distinguish population parameters from sample statistics. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+- **Mean**: the arithmetic average. Sensitive to outliers.
+- **Median**: the middle value. Robust to outliers.
+- **Variance / standard deviation**: how spread out the data is. Standard deviation is variance in the original units.
+- **Percentiles / quartiles**: shape of the distribution — the interquartile range (IQR = Q3 − Q1) is a robust measure of spread.
 
 ```python
 import numpy as np
 
-rng = np.random.default_rng(7)
-pop = rng.normal(100, 15, size=100_000)
-for n in [10, 100, 1000]:
-    means = [rng.choice(pop, size=n).mean() for _ in range(500)]
-    print(f"n={n}: sd of sample means = {np.std(means):.2f}")
+data = np.array([2, 3, 5, 7, 11, 13, 17, 19, 100])   # note the outlier
+print(data.mean(), np.median(data))                   # 19.7 vs 11
+print(data.std(), np.percentile(data, [25, 50, 75]))
 ```
-### 3. Explain the standard error and the central limit theorem
 
-Target: Explain the standard error and the central limit theorem. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+Watch the mean (19.7) vs median (11): one extreme value drags the mean. Whenever the two disagree strongly, your distribution is skewed — say so, and consider reporting the median.
+
+### 2. Sample vs population
+
+The **population** is every individual you care about; the **sample** is the subset you can measure. We almost never have the whole population, so we use sample statistics to *estimate* population parameters.
+
+- Sample statistic: `x̄` (sample mean), `s` (sample std)
+- Population parameter: `μ` (population mean), `σ` (population std)
+
+The entire logic of statistics — confidence intervals, hypothesis tests, model evaluation — is: "I only have a sample; how much can I trust the estimate I computed from it?"
+
+### 3. The normal distribution: nature's default
+
+The normal (Gaussian) distribution is the famous bell curve, characterized by its mean `μ` and standard deviation `σ`. Its central role comes from the **Central Limit Theorem**: regardless of the original distribution, the *mean of many independent samples* approaches a normal distribution as sample size grows.
 
 ```python
-import numpy as np
-
-x = np.array([23, 41, 30, 67, 52])
-n = x.size
-se = x.std(ddof=1) / np.sqrt(n)
-# 95% CI for the mean (approx, z=1.96)
-lo, hi = x.mean() - 1.96 * se, x.mean() + 1.96 * se
-print(f"95% CI: [{lo:.1f}, {hi:.1f}]")
+rng = np.random.default_rng(42)
+# Sample means of a skewed (exponential) distribution become normal-ish:
+means = [rng.exponential(1.0, n=50).mean() for _ in range(10000)]
+print(np.mean(means), np.std(means))
 ```
-### 4. Use confidence intervals to quantify uncertainty
 
-Target: Use confidence intervals to quantify uncertainty. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+This is why the normal distribution shows up everywhere in inference: even when the raw data is not normal, *averages* are. Practical facts:
 
-```python
-import numpy as np
+- ~68% of data is within ±1σ, ~95% within ±2σ, ~99.7% within ±3σ (the "68-95-99.7 rule").
 
-a = np.array([1, 2, 3, 4, 5])
-b = np.array([2, 4, 6, 8, 10])
-print("corr:", np.corrcoef(a, b)[0, 1])
+### 4. Sampling distributions: the uncertainty engine
+
+A **sampling distribution** is the distribution of a statistic (like the mean) over many hypothetical samples. Its standard deviation is called the **standard error**:
+
 ```
+standard error of the mean ≈ σ / √n
+```
+
+Two takeaways you will use constantly:
+
+1. **Larger samples → smaller standard error** → more precise estimates.
+2. **Precision grows like √n**, not n — quadrupling the sample only halves the standard error. This is why "just collect more data" is a blunt instrument.
+
+### 5. From statistics to data science
+
+Every ML evaluation you will see later is statistics wearing a costume:
+
+- A model's "accuracy" on a test set is a *sample statistic* estimating how the model will perform in the wild.
+- Cross-validation averages test-set scores to build a *sampling distribution* of the metric.
+- Confidence intervals around metrics tell you how much to trust a reported improvement.
+
+Understanding this now means you will never treat a single accuracy number as gospel.
 
 ## Practice Questions
 
-1. What is the key idea behind "Statistics Fundamentals"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+1. Compute mean, median, std, and IQR for `[1, 2, 3, 4, 5, 100]`. Which summaries does the outlier distort?
+2. In your own words: why does the Central Limit Theorem matter for statistics?
+3. A study with n=30 finds a mean of 50. Roughly what is the standard error if the population σ is 15?
+4. Why does quadrupling the sample size only halve (not quarter) the standard error?
 
 ## LLM Prompts for Deeper Understanding
 
-1. "Explain Statistics Fundamentals with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Statistics Fundamentals"
-1. "Provide advanced patterns and performance considerations for Statistics Fundamentals"
+1. "Explain the Central Limit Theorem with three different real-world examples."
+2. "When should I report the median instead of the mean, and how do I justify it?"
+3. "How do sampling distributions connect to machine learning model evaluation?"
 
 ## Key Takeaways
 
-- Master the core ideas of Statistics Fundamentals through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+- Center = mean/median; spread = std/IQR; always watch skewed distributions.
+- Statistics estimate population parameters from samples — trust is always partial.
+- The Central Limit Theorem makes averages normal, which powers all inference.
+- Standard error ≈ σ/√n — more data helps, but only as √n.
+- Model metrics are sample statistics; treat them with the same skepticism.
 
-## Further Reading
+## Footnotes & Attribution
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+1. Diez, Barr, Çetinkaya-Rundel, *OpenIntro Statistics* (4th ed.). Free textbook. [https://www.openintro.org/book/os/](https://www.openintro.org/book/os/)
+2. Khan Academy, *Statistics and Probability*. Free course. [https://www.khanacademy.org/math/statistics-probability](https://www.khanacademy.org/math/statistics-probability)
+3. Brown University, *Seeing Theory*. Interactive probability/statistics. [https://seeing-theory.brown.edu/](https://seeing-theory.brown.edu/)
+4. Josh Starmer, *StatQuest*. Visual statistics fundamentals. [https://www.youtube.com/playlist?list=PLblh5JKOoLUK0FLuzwntyYI10UQFUhsY9](https://www.youtube.com/playlist?list=PLblh5JKOoLUK0FLuzwntyYI10UQFUhsY9)
+5. MIT OpenCourseWare, *18.05 Introduction to Probability and Statistics*. [https://ocw.mit.edu/courses/18-05-introduction-to-probability-and-statistics-spring-2022/](https://ocw.mit.edu/courses/18-05-introduction-to-probability-and-statistics-spring-2022/)

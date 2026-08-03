@@ -13,7 +13,8 @@
     "Deploy and monitor the app"
   ],
   "knowledge_refs": [
-    "generative-ai/genai-20-building-genai-applications"
+    "generative-ai/genai-19-ethical-ai-and-safety",
+    "ai-agents/agents-18-enterprise-agents"
   ],
   "prerequisites": [
     "GENAI-18: LLMOps: Running GenAI in Production"

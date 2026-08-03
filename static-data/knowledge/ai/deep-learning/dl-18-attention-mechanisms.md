@@ -13,7 +13,9 @@
     "Describe the attention-memory analogy"
   ],
   "knowledge_refs": [
-    "deep-learning/dl-18-attention-mechanisms"
+    "deep-learning/dl-17-transformers",
+    "nlp/nlp-15-attention-and-transformers",
+    "computer-vision/cv-19-vision-transformers"
   ],
   "prerequisites": [
     "DL-17: Transformers"

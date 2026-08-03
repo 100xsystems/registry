@@ -13,7 +13,9 @@
     "Extract reusable patterns"
   ],
   "knowledge_refs": [
-    "llm-engineering/llm-19-production-case-studies"
+    "llm-engineering/llm-18-building-a-copilot",
+    "ai-safety/safety-15-safety-case-studies",
+    "prompt-engineering/pe-10-system-prompts"
   ],
   "prerequisites": [
     "LLM-18: Building a Production Copilot"

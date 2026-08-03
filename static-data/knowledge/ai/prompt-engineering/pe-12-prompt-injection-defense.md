@@ -13,7 +13,9 @@
     "Validate tool calls"
   ],
   "knowledge_refs": [
-    "prompt-engineering/pe-12-prompt-injection-defense"
+    "prompt-engineering/pe-11-advanced-techniques",
+    "generative-ai/genai-04-prompt-engineering",
+    "llm-engineering/llm-17-observability"
   ],
   "prerequisites": [
     "PE-10: System Prompts in Production"

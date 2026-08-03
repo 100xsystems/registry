@@ -13,7 +13,9 @@
     "Describe the retraining loop"
   ],
   "knowledge_refs": [
-    "mlops/mlops-02-the-ml-lifecycle"
+    "mlops/mlops-01-what-is-mlops",
+    "generative-ai/genai-18-llmops",
+    "llm-engineering/llm-20-llmops-tooling"
   ],
   "prerequisites": [
     "MLOPS-01: What Is MLOps?"

@@ -13,7 +13,9 @@
     "Manage GPU resources"
   ],
   "knowledge_refs": [
-    "mlops/mlops-12-kubernetes-basics"
+    "mlops/mlops-11-containerization",
+    "generative-ai/genai-18-llmops",
+    "llm-engineering/llm-20-llmops-tooling"
   ],
   "prerequisites": [
     "MLOPS-11: Containerization with Docker"

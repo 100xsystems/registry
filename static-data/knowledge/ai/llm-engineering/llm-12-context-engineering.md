@@ -13,7 +13,9 @@
     "Keep context relevant"
   ],
   "knowledge_refs": [
-    "llm-engineering/llm-12-context-engineering"
+    "llm-engineering/llm-11-llm-agents",
+    "generative-ai/genai-05-in-context-learning",
+    "prompt-engineering/pe-03-roles-and-context"
   ],
   "prerequisites": [
     "LLM-05: Tokenization & Context Management"

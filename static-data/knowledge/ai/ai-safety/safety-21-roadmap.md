@@ -13,7 +13,9 @@
     "Continue learning deliberately"
   ],
   "knowledge_refs": [
-    "ai-safety/safety-21-roadmap"
+    "ai-safety/safety-20-safety-research",
+    "generative-ai/genai-19-ethical-ai-and-safety",
+    "llm-engineering/llm-14-guardrails-and-safety"
   ],
   "prerequisites": [
     "SAFETY-20: The AI Safety Community & Research"

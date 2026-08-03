@@ -13,7 +13,9 @@
     "Train a small CNN on MNIST"
   ],
   "knowledge_refs": [
-    "deep-learning/dl-12-convolutional-networks"
+    "deep-learning/dl-11-regularization-for-deep-learning",
+    "reinforcement-learning/rl-09-deep-q-networks",
+    "generative-ai/genai-14-gans"
   ],
   "prerequisites": [
     "DL-10: The Training Loop"

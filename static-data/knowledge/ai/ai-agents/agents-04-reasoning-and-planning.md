@@ -13,7 +13,9 @@
     "Plan multi-step tasks"
   ],
   "knowledge_refs": [
-    "ai-agents/agents-04-reasoning-and-planning"
+    "ai-agents/agents-03-tool-use",
+    "llm-engineering/llm-11-llm-agents",
+    "generative-ai/genai-12-agents-and-tool-use"
   ],
   "prerequisites": [
     "AGENTS-03: Tool Use & Function Calling"

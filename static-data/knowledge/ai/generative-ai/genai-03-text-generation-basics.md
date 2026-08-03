@@ -13,7 +13,9 @@
     "Set generation hyperparameters deliberately"
   ],
   "knowledge_refs": [
-    "generative-ai/genai-03-text-generation-basics"
+    "generative-ai/genai-02-probabilistic-generation",
+    "nlp/nlp-03-text-preprocessing",
+    "nlp/nlp-12-sequence-models"
   ],
   "prerequisites": [
     "GENAI-02: The Mathematics of Generation"

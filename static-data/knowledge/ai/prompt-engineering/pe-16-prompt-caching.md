@@ -13,7 +13,9 @@
     "Balance cache freshness"
   ],
   "knowledge_refs": [
-    "prompt-engineering/pe-16-prompt-caching"
+    "prompt-engineering/pe-15-prompt-tools",
+    "generative-ai/genai-04-prompt-engineering",
+    "llm-engineering/llm-17-observability"
   ],
   "prerequisites": [
     "LLM-16: Cost Optimization for LLM Apps"

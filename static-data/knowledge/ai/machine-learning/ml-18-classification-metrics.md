@@ -13,7 +13,9 @@
     "Choose a metric from business costs"
   ],
   "knowledge_refs": [
-    "machine-learning/ml-18-classification-metrics"
+    "machine-learning/ml-17-hyperparameter-tuning",
+    "computer-vision/cv-05-image-classification",
+    "nlp/nlp-07-text-classification"
   ],
   "prerequisites": [
     "ML-16: Cross-Validation"

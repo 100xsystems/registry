@@ -13,7 +13,9 @@
     "Search and organize runs"
   ],
   "knowledge_refs": [
-    "mlops/mlops-06-experiment-tracking"
+    "mlops/mlops-05-feature-stores",
+    "generative-ai/genai-18-llmops",
+    "llm-engineering/llm-20-llmops-tooling"
   ],
   "prerequisites": [
     "MLOPS-03: Reproducibility & Versioning"

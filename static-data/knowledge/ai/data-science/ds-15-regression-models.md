@@ -1,48 +1,45 @@
 ---
 {
   "title": "Regression Models",
-  "description": "Predict numbers with linear and regularized regression, and read the coefficients like an analyst.",
+  "description": "Predict continuous values with linear and regularized regression, and read the results honestly.",
   "type": "lesson",
   "order": 15,
-  "duration": "55 min",
+  "duration": "60 min",
   "difficulty": "intermediate",
   "learning_objectives": [
-    "Fit and interpret a linear regression",
-    "Handle multiple predictors and interactions",
-    "Use Ridge/Lasso for stability",
-    "Report error metrics such as RMSE and R²"
+    "Fit and interpret linear regression",
+    "Explain coefficients and their limits",
+    "Apply ridge and lasso regularization",
+    "Evaluate regression with R² and RMSE"
   ],
   "knowledge_refs": [
-    "data-science/ds-15-regression-models"
+    "machine-learning/ml-05-linear-regression",
+    "machine-learning/ml-15-regularization",
+    "data-science/ds-14-train-test-split"
   ],
   "prerequisites": [
     "DS-14: Train/Test Splits & Validation"
   ],
   "references": [
     {
-      "title": "Python for Data Analysis — Wes McKinney",
-      "url": "https://wesmckinney.com/book/",
-      "description": "The definitive guide to pandas, NumPy and the PyData stack."
+      "title": "scikit-learn — Linear Models",
+      "url": "https://scikit-learn.org/stable/modules/linear_model.html",
+      "description": "Official docs for LinearRegression, Ridge, Lasso and more."
     },
     {
-      "title": "Pandas User Guide",
-      "url": "https://pandas.pydata.org/docs/user_guide/index.html",
-      "description": "Official documentation for the pandas data-analysis library."
-    },
-    {
-      "title": "The Elements of Statistical Learning",
+      "title": "The Elements of Statistical Learning — Chapter 3",
       "url": "https://hastie.su.domains/ElemStatLearn/",
-      "description": "The classic statistical-learning reference (free PDF)."
+      "description": "The classic free textbook treatment of linear regression and shrinkage."
     },
     {
-      "title": "Kaggle Learn — Data Science",
-      "url": "https://www.kaggle.com/learn",
-      "description": "Hands-on micro-courses covering pandas, EDA and modeling."
+      "title": "OpenIntro Statistics — Linear Regression (Chapter 7)",
+      "url": "https://www.openintro.org/book/os/",
+      "description": "Accessible introduction to regression modeling."
     },
     {
-      "title": "scikit-learn User Guide",
-      "url": "https://scikit-learn.org/stable/user_guide.html",
-      "description": "Authoritative guide to the Python machine-learning toolbox."
+      "title": "Python Data Science Handbook — Regression",
+      "url": "https://jakevdp.github.io/PythonDataScienceHandbook/",
+      "description": "Practical scikit-learn regression examples."
     }
   ]
 }
@@ -52,85 +49,104 @@
 
 ## Introduction
 
-Predict numbers with linear and regularized regression, and read the coefficients like an analyst. By the end of this lesson you will be able to: Fit and interpret a linear regression; Handle multiple predictors and interactions; Use Ridge/Lasso for stability; Report error metrics such as RMSE and R².
+**Regression** predicts a *continuous* target — price, revenue, temperature, wait time — from features. The workhorse is **linear regression**: model the target as a weighted sum of the features plus an intercept. It is the most interpretable model in data science: each coefficient directly tells you "a one-unit increase in this feature changes the prediction by this much." This lesson covers fitting linear models, reading coefficients responsibly, and the regularized variants (ridge/lasso) that keep them stable.
 
 ## Key Concepts
 
-### 1. Fit and interpret a linear regression
+### 1. The linear model
 
-Target: Fit and interpret a linear regression. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+```
+y = β₀ + β₁x₁ + β₂x₂ + ... + βₚxₚ + ε
+```
+
+- `y` is the target, `xⱼ` the features, `βⱼ` the coefficients, `ε` the irreducible error.
+- Fitting = choosing the `β`s that minimize the sum of squared errors (least squares).
 
 ```python
 from sklearn.linear_model import LinearRegression
-import numpy as np
+from sklearn.model_selection import train_test_split
 
-X = np.array([[1], [2], [3], [4], [5]])
-y = np.array([2, 4, 6, 8, 10])
-model = LinearRegression().fit(X, y)
-print("slope:", model.coef_[0], "intercept:", model.intercept_)
+X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=42)
+model = LinearRegression().fit(X_train, y_train)
+
+print(model.coef_)       # one coefficient per feature
+print(model.intercept_)
+print(model.score(X_test, y_test))   # R² on unseen data
 ```
-### 2. Handle multiple predictors and interactions
 
-Target: Handle multiple predictors and interactions. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+### 2. Reading coefficients honestly
+
+Three traps when interpreting coefficients:
+
+1. **Units**: "increase of β" is per *one unit of that feature*. If you standardize features first, coefficients become comparable across features (which feature matters most).
+2. **"All else equal"**: β measures the effect of xⱼ *holding other features constant* — but features are usually correlated, so "all else equal" is often a fiction.
+3. **Correlation, not causation**: a significant coefficient is an association, not proof of causality (see the correlation lesson).
+
+### 3. Evaluating regression: R² and RMSE
+
+- **R²** (score): the fraction of target variance explained, 0→1 (can go negative on terrible models). "Explains 78% of the variance."
+- **RMSE**: the typical error in the target's units. RMSE 4.2 on prices in dollars means "typically off by ~$4.20."
+- **MAE**: median-style error, robust to outliers.
 
 ```python
-from sklearn.linear_model import LinearRegression
-from sklearn.metrics import mean_squared_error
-import numpy as np
+from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 
-X = np.array([[1, 3], [2, 5], [3, 7], [4, 9]])
-y = np.array([2, 4, 6, 8])
-m = LinearRegression().fit(X, y)
-pred = m.predict(X)
-print("RMSE:", round(mean_squared_error(y, pred, squared=False), 3))
-print("R2:", round(m.score(X, y), 3))
+preds = model.predict(X_test)
+print(r2_score(y_test, preds))
+print(mean_squared_error(y_test, preds, squared=False))   # RMSE
+print(mean_absolute_error(y_test, preds))
 ```
-### 3. Use Ridge/Lasso for stability
 
-Target: Use Ridge/Lasso for stability. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+Use RMSE when large errors are especially bad; MAE when you want the typical error.
+
+### 4. Regularization: ridge and lasso
+
+Plain least squares can overfit when features are many or correlated — coefficients blow up to chase noise. **Regularization** adds a penalty for large coefficients:
+
+- **Ridge** (L2): shrinks coefficients toward zero but never exactly to zero. Good when most features matter a little.
+- **Lasso** (L1): can set coefficients *exactly* to zero — a built-in feature selector. Good when you suspect many features are useless.
 
 ```python
 from sklearn.linear_model import Ridge, Lasso
 
-X = [[1, 10], [2, 20], [3, 30], [4, 40]]
-y = [1, 2, 3, 4]
-for name, model in [("ridge", Ridge(alpha=1.0)), ("lasso", Lasso(alpha=0.1))]:
-    model.fit(X, y)
-    print(name, "coefs:", model.coef_.round(2))
+ridge = Ridge(alpha=1.0).fit(X_train, y_train)
+lasso = Lasso(alpha=0.1).fit(X_train, y_train)
 ```
-### 4. Report error metrics such as RMSE and R²
 
-Target: Report error metrics such as RMSE and R². Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+`alpha` controls penalty strength — tune it with cross-validation (`RidgeCV`, `LassoCV`). Regularized models almost always beat plain linear regression on real data.
 
-```python
-import numpy as np
+### 5. When linear models fail — and what to do
 
-# Residuals: the story the model did not capture
-actual = np.array([3, 5, 7, 9])
-pred = np.array([3.2, 4.8, 7.5, 8.6])
-residuals = actual - pred
-print("residuals:", residuals)
-print("largest miss:", residuals[np.abs(residuals).argmax()])
-```
+Linear regression assumes a roughly linear, additive relationship. When that fails:
+
+- Log-transform skewed targets (prices, counts).
+- Add polynomial or interaction features (see feature engineering).
+- Switch to tree-based models (random forest, gradient boosting — covered in the ML course), which capture non-linear relationships with no scaling needed.
 
 ## Practice Questions
 
-1. What is the key idea behind "Regression Models"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+1. Fit a linear regression on any dataset and interpret one coefficient in plain language.
+2. Why do standardized coefficients make features comparable?
+3. What does R² = 0.78 mean? When can R² be misleading?
+4. When would you choose lasso over ridge?
 
 ## LLM Prompts for Deeper Understanding
 
-1. "Explain Regression Models with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Regression Models"
-1. "Provide advanced patterns and performance considerations for Regression Models"
+1. "Explain least squares vs ridge vs lasso with a visual intuition."
+2. "What are the assumptions of linear regression, and how do I check them?"
+3. "How do I interpret a regression coefficient when features are correlated?"
 
 ## Key Takeaways
 
-- Master the core ideas of Regression Models through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+- Linear regression predicts continuous targets as a weighted sum of features.
+- Coefficients are per-unit, all-else-equal associations — not causes.
+- R² (variance explained) and RMSE (typical error) are the core metrics.
+- Ridge shrinks coefficients; lasso also selects features by zeroing them.
+- Use transforms and trees when the relationship is non-linear.
 
-## Further Reading
+## Footnotes & Attribution
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+1. scikit-learn documentation, *Linear Models*. [https://scikit-learn.org/stable/modules/linear_model.html](https://scikit-learn.org/stable/modules/linear_model.html)
+2. Hastie, Tibshirani, Friedman, *The Elements of Statistical Learning* (Ch. 3). Free PDF. [https://hastie.su.domains/ElemStatLearn/](https://hastie.su.domains/ElemStatLearn/)
+3. Diez, Barr, Çetinkaya-Rundel, *OpenIntro Statistics* (Ch. 7). [https://www.openintro.org/book/os/](https://www.openintro.org/book/os/)
+4. Jake VanderPlas, *Python Data Science Handbook* — regression. [https://jakevdp.github.io/PythonDataScienceHandbook/](https://jakevdp.github.io/PythonDataScienceHandbook/)

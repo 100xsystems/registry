@@ -1,48 +1,45 @@
 ---
 {
   "title": "Classification Models",
-  "description": "Predict categories with logistic regression and neighbors, and learn what decision boundaries really mean.",
+  "description": "Predict categories with logistic regression, decision trees and k-NN — and understand what a classifier actually outputs.",
   "type": "lesson",
   "order": 16,
-  "duration": "55 min",
+  "duration": "60 min",
   "difficulty": "intermediate",
   "learning_objectives": [
-    "Frame a business question as a classification task",
-    "Fit and interpret logistic regression",
-    "Use k-NN and understand decision boundaries",
-    "Read probability outputs, not just labels"
+    "Explain classification and its outputs",
+    "Fit logistic regression and interpret probabilities",
+    "Use decision trees and k-nearest neighbors",
+    "Choose between classifiers for a problem"
   ],
   "knowledge_refs": [
-    "data-science/ds-16-classification-models"
+    "machine-learning/ml-07-logistic-regression",
+    "machine-learning/ml-08-decision-trees",
+    "data-science/ds-18-model-evaluation"
   ],
   "prerequisites": [
     "DS-15: Regression Models"
   ],
   "references": [
     {
-      "title": "Python for Data Analysis — Wes McKinney",
-      "url": "https://wesmckinney.com/book/",
-      "description": "The definitive guide to pandas, NumPy and the PyData stack."
+      "title": "scikit-learn — Classifier Guide",
+      "url": "https://scikit-learn.org/stable/classifiers.html",
+      "description": "Official comparison of every classifier in scikit-learn."
     },
     {
-      "title": "Pandas User Guide",
-      "url": "https://pandas.pydata.org/docs/user_guide/index.html",
-      "description": "Official documentation for the pandas data-analysis library."
+      "title": "scikit-learn — Logistic Regression",
+      "url": "https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression",
+      "description": "Logistic regression docs: probabilities, penalties, and multi-class."
     },
     {
-      "title": "The Elements of Statistical Learning",
-      "url": "https://hastie.su.domains/ElemStatLearn/",
-      "description": "The classic statistical-learning reference (free PDF)."
+      "title": "Python Data Science Handbook — Classification",
+      "url": "https://jakevdp.github.io/PythonDataScienceHandbook/",
+      "description": "Practical classification examples with scikit-learn."
     },
     {
-      "title": "Kaggle Learn — Data Science",
-      "url": "https://www.kaggle.com/learn",
-      "description": "Hands-on micro-courses covering pandas, EDA and modeling."
-    },
-    {
-      "title": "scikit-learn User Guide",
-      "url": "https://scikit-learn.org/stable/user_guide.html",
-      "description": "Authoritative guide to the Python machine-learning toolbox."
+      "title": "scikit-learn — Decision Trees",
+      "url": "https://scikit-learn.org/stable/modules/tree.html",
+      "description": "Decision tree documentation and tips."
     }
   ]
 }
@@ -52,81 +49,89 @@
 
 ## Introduction
 
-Predict categories with logistic regression and neighbors, and learn what decision boundaries really mean. By the end of this lesson you will be able to: Frame a business question as a classification task; Fit and interpret logistic regression; Use k-NN and understand decision boundaries; Read probability outputs, not just labels.
+**Classification** predicts a *category* — will this user churn (yes/no), which plan will they pick (free/pro/team), is this email spam (spam/not). Unlike regression's continuous output, classifiers produce either a hard label or (more usefully) a **probability** for each class. This lesson covers the three classifiers you'll reach for first — logistic regression, decision trees, and k-nearest neighbors — and the crucial skill of *interpreting probabilities*, which unlocks threshold decisions and honest evaluation.
 
 ## Key Concepts
 
-### 1. Frame a business question as a classification task
+### 1. What a classifier outputs
 
-Target: Frame a business question as a classification task. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+A classifier typically outputs a probability per class, e.g. `P(churn) = 0.87`. You convert to a label by choosing a **threshold** — the default is 0.5, but the threshold is a *business decision*: for spam, you might want to flag aggressively (low threshold) because a missed spam costs little but a false positive is embarrassing. This "probability-first" view is the modern, honest way to use classifiers.
 
-```python
-from sklearn.linear_model import LogisticRegression
-import numpy as np
+### 2. Logistic regression: the linear classifier
 
-X = np.array([[1, 2], [2, 3], [3, 1], [8, 8], [9, 9], [7, 10]])
-y = np.array([0, 0, 0, 1, 1, 1])
-model = LogisticRegression().fit(X, y)
-print("accuracy:", round(model.score(X, y), 2))
-print("class prob:", model.predict_proba([[4, 5]]).round(2))
-```
-### 2. Fit and interpret logistic regression
-
-Target: Fit and interpret logistic regression. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+Despite the name, logistic regression is a *classifier*. It fits a linear combination of features, then squashes it through the logistic (sigmoid) function into [0, 1]:
 
 ```python
 from sklearn.linear_model import LogisticRegression
 
-X = [[1, 2], [2, 3], [3, 1], [8, 8], [9, 9], [7, 10]]
-y = [0, 0, 0, 1, 1, 1]
-model = LogisticRegression().fit(X, y)
-print("coefs:", model.coef_.round(3), "intercept:", round(model.intercept_[0], 3))
+model = LogisticRegression(max_iter=1000).fit(X_train, y_train)
+probs = model.predict_proba(X_test)[:, 1]    # P(class=1)
+labels = model.predict(X_test)                # threshold 0.5
 ```
-### 3. Use k-NN and understand decision boundaries
 
-Target: Use k-NN and understand decision boundaries. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+- **Interpretable**: coefficients work like linear regression, on log-odds. A positive coefficient pushes probability up.
+- **Fast and reliable**: an excellent default for tabular data, especially with regularization.
+
+### 3. Decision trees: rules you can read
+
+A decision tree learns a sequence of yes/no questions that best split the data (e.g., "income > 40k?" then "orders > 3?"). They need no scaling, handle mixed feature types, and — at small depths — are fully readable:
 
 ```python
+from sklearn.tree import DecisionTreeClassifier
+
+tree = DecisionTreeClassifier(max_depth=4, random_state=42).fit(X_train, y_train)
+```
+
+`max_depth` controls complexity: shallow trees generalize, deep trees overfit. Trees are also the building blocks of random forests and gradient boosting — the strongest tabular models (covered in the ML course).
+
+### 4. k-nearest neighbors: the intuitive baseline
+
+k-NN predicts the majority class among the k *closest training points* to the new sample. Zero training time, but it needs **scaled features** (otherwise "distance" is dominated by large-scale columns) and slows down with big datasets:
+
+```python
+from sklearn.preprocessing import StandardScaler
 from sklearn.neighbors import KNeighborsClassifier
+from sklearn.pipeline import make_pipeline
 
-X = [[0, 0], [0, 1], [5, 5], [6, 5]]
-y = [0, 0, 1, 1]
-for k in [1, 3]:
-    m = KNeighborsClassifier(n_neighbors=k).fit(X, y)
-    print(f"k={k}: pred for (2,2) ->", m.predict([[2, 2]])[0])
+knn = make_pipeline(StandardScaler(), KNeighborsClassifier(n_neighbors=5))
+knn.fit(X_train, y_train)
 ```
-### 4. Read probability outputs, not just labels
 
-Target: Read probability outputs, not just labels. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+### 5. Which classifier when?
 
-```python
-from sklearn.linear_model import LogisticRegression
+| Situation | Reach for |
+| --- | --- |
+| Need interpretability, tabular data | Logistic regression |
+| Non-linear relationships, readable rules | Decision tree (shallow) |
+| Strongest default accuracy on tables | Random forest / gradient boosting |
+| Small data, simple baseline | k-NN |
 
-X = [[1], [2], [3], [10], [11], [12]]
-y = [0, 0, 0, 1, 1, 1]
-m = LogisticRegression().fit(X, y)
-for point in [[2], [6], [10]]:
-    print(f"x={point[0]} -> P(class=1) = {m.predict_proba(point)[0][1]:.2f}")
-```
+A practical workflow: start with logistic regression as the sanity baseline, then try a tree ensemble, and let **cross-validated evaluation** (next lessons) decide — never trust intuition over measured performance.
 
 ## Practice Questions
 
-1. What is the key idea behind "Classification Models"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+1. What is the difference between `predict` and `predict_proba`, and why does the latter matter?
+2. When would you set a decision threshold below 0.5?
+3. Why must features be scaled for k-NN but not for decision trees?
+4. Describe the "predict churn" problem: which classifier would you start with and why?
 
 ## LLM Prompts for Deeper Understanding
 
-1. "Explain Classification Models with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Classification Models"
-1. "Provide advanced patterns and performance considerations for Classification Models"
+1. "Explain the logistic function and why it maps log-odds to probabilities."
+2. "How do decision trees choose split points? Walk me through one split."
+3. "Compare logistic regression vs random forest on interpretability, speed, and accuracy."
 
 ## Key Takeaways
 
-- Master the core ideas of Classification Models through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+- Classifiers output probabilities; labels come from a threshold you choose.
+- Logistic regression: fast, interpretable, excellent tabular default.
+- Decision trees: readable rules, no scaling, base of the tree ensembles.
+- k-NN: simple baseline that requires scaled features.
+- Start with a simple baseline, then compare with cross-validated scores.
 
-## Further Reading
+## Footnotes & Attribution
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+1. scikit-learn documentation, *Classifier Guide*. [https://scikit-learn.org/stable/classifiers.html](https://scikit-learn.org/stable/classifiers.html)
+2. scikit-learn documentation, *Logistic Regression*. [https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression](https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression)
+3. Jake VanderPlas, *Python Data Science Handbook* — classification. [https://jakevdp.github.io/PythonDataScienceHandbook/](https://jakevdp.github.io/PythonDataScienceHandbook/)
+4. scikit-learn documentation, *Decision Trees*. [https://scikit-learn.org/stable/modules/tree.html](https://scikit-learn.org/stable/modules/tree.html)

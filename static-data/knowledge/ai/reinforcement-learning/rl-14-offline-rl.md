@@ -13,7 +13,8 @@
     "Evaluate offline policies safely"
   ],
   "knowledge_refs": [
-    "reinforcement-learning/rl-14-offline-rl"
+    "reinforcement-learning/rl-13-reward-design",
+    "ai-safety/safety-08-governance"
   ],
   "prerequisites": [
     "RL-12: PPO & Modern Policy Optimization"

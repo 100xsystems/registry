@@ -13,7 +13,8 @@
     "Identify real-world vision applications"
   ],
   "knowledge_refs": [
-    "computer-vision/cv-01-what-is-computer-vision"
+    "generative-ai/genai-15-vision-language-models",
+    "deep-learning/dl-13-cnn-architectures"
   ],
   "prerequisites": [
     "DL-01: What Is Deep Learning?"

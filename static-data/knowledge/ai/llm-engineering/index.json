@@ -56,7 +56,9 @@
       "duration": "40 min",
       "difficulty": "beginner",
       "knowledge_refs": [
-        "llm-engineering/llm-01-what-is-llm-engineering"
+        "generative-ai/genai-06-llm-architecture",
+        "prompt-engineering/pe-01-what-is-prompt-engineering",
+        "prompt-engineering/pe-21-roadmap"
       ]
     },
     {
@@ -68,7 +70,9 @@
       "duration": "50 min",
       "difficulty": "intermediate",
       "knowledge_refs": [
-        "llm-engineering/llm-02-llm-architecture-review"
+        "llm-engineering/llm-01-what-is-llm-engineering",
+        "generative-ai/genai-06-llm-architecture",
+        "ai-agents/agents-02-agent-architecture"
       ]
     },
     {
@@ -80,7 +84,9 @@
       "duration": "55 min",
       "difficulty": "beginner",
       "knowledge_refs": [
-        "llm-engineering/llm-03-llm-apis"
+        "llm-engineering/llm-02-llm-architecture-review",
+        "generative-ai/genai-06-llm-architecture",
+        "mlops/mlops-10-model-serving"
       ]
     },
     {
@@ -92,7 +98,9 @@
       "duration": "50 min",
       "difficulty": "intermediate",
       "knowledge_refs": [
-        "llm-engineering/llm-04-prompting-systems"
+        "llm-engineering/llm-03-llm-apis",
+        "prompt-engineering/pe-01-what-is-prompt-engineering",
+        "prompt-engineering/pe-02-prompt-structure"
       ]
     },
     {
@@ -104,7 +112,9 @@
       "duration": "50 min",
       "difficulty": "intermediate",
       "knowledge_refs": [
-        "llm-engineering/llm-05-tokenization-and-context"
+        "llm-engineering/llm-04-prompting-systems",
+        "generative-ai/genai-07-tokenization",
+        "nlp/nlp-02-text-representation"
       ]
     },
     {
@@ -116,7 +126,9 @@
       "duration": "55 min",
       "difficulty": "intermediate",
       "knowledge_refs": [
-        "llm-engineering/llm-06-embeddings-and-semantic-search"
+        "llm-engineering/llm-05-tokenization-and-context",
+        "generative-ai/genai-11-embeddings-and-vector-databases",
+        "nlp/nlp-06-word-embeddings"
       ]
     },
     {
@@ -128,7 +140,9 @@
       "duration": "60 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "llm-engineering/llm-07-rag-engineering"
+        "llm-engineering/llm-06-embeddings-and-semantic-search",
+        "ai-agents/agents-11-rag-agents",
+        "prompt-engineering/pe-09-prompts-for-rag"
       ]
     },
     {
@@ -140,7 +154,9 @@
       "duration": "60 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "llm-engineering/llm-08-advanced-rag"
+        "llm-engineering/llm-07-rag-engineering",
+        "ai-agents/agents-11-rag-agents",
+        "prompt-engineering/pe-09-prompts-for-rag"
       ]
     },
     {
@@ -152,7 +168,9 @@
       "duration": "60 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "llm-engineering/llm-09-fine-tuning-practice"
+        "llm-engineering/llm-08-advanced-rag",
+        "generative-ai/genai-08-fine-tuning-llms",
+        "machine-learning/ml-17-hyperparameter-tuning"
       ]
     },
     {
@@ -164,7 +182,9 @@
       "duration": "55 min",
       "difficulty": "intermediate",
       "knowledge_refs": [
-        "llm-engineering/llm-10-function-calling"
+        "llm-engineering/llm-09-fine-tuning-practice",
+        "prompt-engineering/pe-06-structured-outputs",
+        "ai-agents/agents-03-tool-use"
       ]
     },
     {
@@ -176,7 +196,9 @@
       "duration": "60 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "llm-engineering/llm-11-llm-agents"
+        "llm-engineering/llm-10-function-calling",
+        "ai-agents/agents-01-what-are-ai-agents",
+        "ai-agents/agents-21-roadmap"
       ]
     },
     {
@@ -188,7 +210,9 @@
       "duration": "55 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "llm-engineering/llm-12-context-engineering"
+        "llm-engineering/llm-11-llm-agents",
+        "generative-ai/genai-05-in-context-learning",
+        "prompt-engineering/pe-03-roles-and-context"
       ]
     },
     {
@@ -200,7 +224,9 @@
       "duration": "60 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "llm-engineering/llm-13-evaluating-llm-systems"
+        "llm-engineering/llm-12-context-engineering",
+        "deep-learning/dl-20-evaluating-deep-models",
+        "computer-vision/cv-20-evaluating-vision-models"
       ]
     },
     {
@@ -212,7 +238,9 @@
       "duration": "55 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "llm-engineering/llm-14-guardrails-and-safety"
+        "llm-engineering/llm-13-evaluating-llm-systems",
+        "ai-safety/safety-21-roadmap",
+        "ai-safety/safety-12-guardrails"
       ]
     },
     {
@@ -224,7 +252,9 @@
       "duration": "60 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "llm-engineering/llm-15-llm-serving"
+        "llm-engineering/llm-14-guardrails-and-safety",
+        "mlops/mlops-10-model-serving",
+        "mlops/mlops-13-deployment-strategies"
       ]
     },
     {
@@ -236,7 +266,9 @@
       "duration": "50 min",
       "difficulty": "intermediate",
       "knowledge_refs": [
-        "llm-engineering/llm-16-cost-optimization"
+        "llm-engineering/llm-15-llm-serving",
+        "mlops/mlops-19-cost-and-performance",
+        "reinforcement-learning/rl-12-proximal-policy-optimization"
       ]
     },
     {
@@ -248,7 +280,9 @@
       "duration": "50 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "llm-engineering/llm-17-observability"
+        "llm-engineering/llm-16-cost-optimization",
+        "prompt-engineering/pe-14-prompt-versioning",
+        "prompt-engineering/pe-01-what-is-prompt-engineering"
       ]
     },
     {
@@ -260,7 +294,9 @@
       "duration": "75 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "llm-engineering/llm-18-building-a-copilot"
+        "llm-engineering/llm-17-observability",
+        "prompt-engineering/pe-10-system-prompts",
+        "generative-ai/genai-06-llm-architecture"
       ]
     },
     {
@@ -272,7 +308,9 @@
       "duration": "50 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "llm-engineering/llm-19-production-case-studies"
+        "llm-engineering/llm-18-building-a-copilot",
+        "ai-safety/safety-15-safety-case-studies",
+        "prompt-engineering/pe-10-system-prompts"
       ]
     },
     {
@@ -284,7 +322,9 @@
       "duration": "50 min",
       "difficulty": "intermediate",
       "knowledge_refs": [
-        "llm-engineering/llm-20-llmops-tooling"
+        "llm-engineering/llm-19-production-case-studies",
+        "mlops/mlops-01-what-is-mlops",
+        "mlops/mlops-20-llmops"
       ]
     },
     {
@@ -296,7 +336,9 @@
       "duration": "40 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "llm-engineering/llm-21-roadmap"
+        "llm-engineering/llm-20-llmops-tooling",
+        "generative-ai/genai-06-llm-architecture",
+        "prompt-engineering/pe-01-what-is-prompt-engineering"
       ]
     }
   ]

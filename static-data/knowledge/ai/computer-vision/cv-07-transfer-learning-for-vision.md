@@ -13,7 +13,9 @@
     "Use augmentation with pretrained pipelines"
   ],
   "knowledge_refs": [
-    "computer-vision/cv-07-transfer-learning-for-vision"
+    "computer-vision/cv-06-cnns-for-vision",
+    "deep-learning/dl-14-transfer-learning",
+    "generative-ai/genai-15-vision-language-models"
   ],
   "prerequisites": [
     "DL-14: Transfer Learning"

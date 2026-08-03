@@ -13,7 +13,7 @@
     "Describe off-policy learning"
   ],
   "knowledge_refs": [
-    "reinforcement-learning/rl-06-q-learning"
+    "reinforcement-learning/rl-05-temporal-difference-learning"
   ],
   "prerequisites": [
     "RL-05: Temporal Difference Learning"

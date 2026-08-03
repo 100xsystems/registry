@@ -13,7 +13,9 @@
     "Review code with targeted prompts"
   ],
   "knowledge_refs": [
-    "prompt-engineering/pe-07-prompts-for-code"
+    "prompt-engineering/pe-06-structured-outputs",
+    "generative-ai/genai-04-prompt-engineering",
+    "llm-engineering/llm-04-prompting-systems"
   ],
   "prerequisites": [
     "PE-05: Chain-of-Thought Reasoning"

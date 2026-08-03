@@ -13,36 +13,34 @@
     "Anticipate the most common failure points"
   ],
   "knowledge_refs": [
-    "data-science/ds-02-the-data-science-pipeline"
+    "data-science/ds-01-what-is-data-science",
+    "machine-learning/ml-03-the-learning-problem",
+    "mlops/mlops-02-the-ml-lifecycle",
+    "data-science/ds-20-end-to-end-project"
   ],
   "prerequisites": [
     "DS-01: What Is Data Science?"
   ],
   "references": [
     {
-      "title": "Python for Data Analysis — Wes McKinney",
-      "url": "https://wesmckinney.com/book/",
-      "description": "The definitive guide to pandas, NumPy and the PyData stack."
+      "title": "Data Science Lifecycle — GeeksforGeeks",
+      "url": "https://www.geeksforgeeks.org/data-science/data-science-lifecycle/",
+      "description": "The standard end-to-end lifecycle, often mapped to CRISP-DM."
     },
     {
-      "title": "Pandas User Guide",
-      "url": "https://pandas.pydata.org/docs/user_guide/index.html",
-      "description": "Official documentation for the pandas data-analysis library."
+      "title": "How to Build a Data Science Project from Scratch — freeCodeCamp",
+      "url": "https://www.freecodecamp.org/news/how-to-build-a-data-science-project-from-scratch-dc4f096a62a1/",
+      "description": "A real project (Berlin rental prices) walked through every pipeline stage."
     },
     {
-      "title": "The Elements of Statistical Learning",
-      "url": "https://hastie.su.domains/ElemStatLearn/",
-      "description": "The classic statistical-learning reference (free PDF)."
+      "title": "CRISP-DM — IBM (Reference)",
+      "url": "https://www.ibm.com/think/topics/crisp-dm",
+      "description": "The classic cross-industry process model for data mining projects."
     },
     {
-      "title": "Kaggle Learn — Data Science",
-      "url": "https://www.kaggle.com/learn",
-      "description": "Hands-on micro-courses covering pandas, EDA and modeling."
-    },
-    {
-      "title": "scikit-learn User Guide",
-      "url": "https://scikit-learn.org/stable/user_guide.html",
-      "description": "Authoritative guide to the Python machine-learning toolbox."
+      "title": "The ML Lifecycle — Google Cloud",
+      "url": "https://cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning",
+      "description": "How the pipeline extends beyond modeling into deployment and monitoring."
     }
   ]
 }
@@ -52,77 +50,77 @@
 
 ## Introduction
 
-Walk through the six stages of a data science project and learn where real projects fail — and why iteration matters. By the end of this lesson you will be able to: Identify the six stages of the data science pipeline; Explain why iteration beats a linear flow; Map real project tasks onto pipeline stages; Anticipate the most common failure points.
+A data science project is not "load data, run a model, done." In practice it is a loop of six stages that you revisit constantly. This lesson walks each stage, shows what "done" looks like, and — just as importantly — where projects most often go wrong. Almost every failure you will encounter in your first year can be traced to skipping one of these stages.
 
 ## Key Concepts
 
-### 1. Identify the six stages of the data science pipeline
+### 1. The six stages
 
-Target: Identify the six stages of the data science pipeline. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+**Stage 1 — Frame the problem.** Before any code, write down: What decision will this analysis inform? Who will use the result? What would "success" look like? The best question to ask a stakeholder is *"what will you do differently with this answer?"* If the answer is "nothing," the project probably shouldn't start. A crisp problem statement also picks the evaluation metric — predicting *whether* someone churns (classification) is a different problem from predicting *how much* they will spend (regression).
 
-```python
-stages = ["ask", "collect", "clean", "explore", "model", "communicate"]
+**Stage 2 — Acquire data.** Identify where the data lives: internal databases, CSV exports, APIs, or web scraping. Two decisions dominate this stage: (a) *granularity* — is each row the right unit (a user, a transaction, a day)? (b) *time range* — does it cover the conditions you want to predict? Data you cannot legally or reliably obtain is a project blocker, not a detail.
 
-# A pipeline is a loop, not a line:
-for stage in stages:
-    print(f"-> {stage}")
-print("(then go back to the question and refine)")
-```
-### 2. Explain why iteration beats a linear flow
+**Stage 3 — Clean & wrangle.** Real data is messy: missing values, wrong types, duplicate rows, inconsistent categories ("NY" vs "New York"), and outliers that are actually typos. This stage typically consumes 60–80% of a project's time — which is normal, not a sign you are doing something wrong. pandas is the workhorse here, and we dedicate a full lesson to it.
 
-Target: Explain why iteration beats a linear flow. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+**Stage 4 — Explore & visualize (EDA).** Summarize each variable (distributions, ranges, missingness), then look at relationships between variables (correlations, grouped means, scatter plots). EDA is where you discover that the "obvious" feature is useless and the "boring" one is gold. It also catches data bugs that would silently poison a model.
 
-```python
-import pandas as pd
+**Stage 5 — Model.** Choose a method appropriate to the problem (regression, classification, clustering), split your data honestly into training and test sets, train, and evaluate. Modeling is often the *shortest* stage — a well-cleaned dataset beats a fancy algorithm every time.
 
-raw = pd.DataFrame({"id": [1, 2, 3], "price": ["9.99", "oops", "29.99"]})
-# Cleaning stage: coerce to numeric, keep track of what failed
-raw["price"] = pd.to_numeric(raw["price"], errors="coerce")
-print(raw)
-```
-### 3. Map real project tasks onto pipeline stages
+**Stage 6 — Communicate & deploy.** Show the result to the people who will act on it: a chart plus a plain-language finding ("customers who X are 3× more likely to churn"). If the model is meant to run in production, this stage extends to APIs, monitoring, and retraining — the subject of our MLOps course.
 
-Target: Map real project tasks onto pipeline stages. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+### 2. Why iteration beats a linear flow
 
-```python
-from sklearn.model_selection import train_test_split
+Here is the truth most tutorials hide: you will not pass through these stages once. Exploration reveals that the data is missing a key variable, so you go back to acquisition. The model's errors reveal a data-cleaning bug, so you go back to cleaning. The stakeholder clarifies the question, so you reframe the problem.
 
-X = pd.DataFrame({"a": range(100), "b": range(100, 200)})
-y = pd.Series([i % 2 for i in range(100)])
-X_tr, X_te, y_tr, y_te = train_test_split(X, y, test_size=0.2, random_state=42)
-print(f"train={len(X_tr)} test={len(X_te)}")
-```
-### 4. Anticipate the most common failure points
+Treat the pipeline as a **feedback loop**. A good sign of a mature data scientist is that they plan for these loops instead of being surprised by them. Set aside time for "the second pass": the first version of any analysis is for learning, the second is for correctness, and only the third is presentable.
 
-Target: Anticipate the most common failure points. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+### 3. Where projects fail
 
-```python
-def estimate_hours(stage: str, data_quality: float) -> int:
-    """Stage effort grows when data is messy."""
-    base = {"collect": 2, "clean": 1, "model": 3}.get(stage, 1)
-    return int(base * (1 + (1 - data_quality)))
+The most common failure points, in rough order of frequency:
 
-print("clean stage:", estimate_hours("clean", data_quality=0.4), "days")
-```
+1. **The wrong question** — solving a problem nobody asked, or optimizing a metric that doesn't map to the decision.
+2. **Leakage** — accidentally letting future information into training data (e.g., scaling with statistics computed on the full dataset). We cover this in the train/test lesson.
+3. **Undisciplined splitting** — evaluating on data the model already saw, producing magical-but-fake accuracy.
+4. **Skewed evaluation** — using accuracy on a 99/1 class-imbalanced problem and concluding the model is great.
+5. **Silent data bugs** — duplicates, shifted time zones, stale joins — that produce confident, wrong answers.
+6. **Ignoring deployment** — a model that lives only in a notebook changes nothing.
+
+As you work through this course, notice how lessons on cleaning, EDA, evaluation, and deployment all exist to prevent exactly these failures.
+
+### 4. Mapping real tasks to stages
+
+A useful exercise: take any real project description and label each task with its stage. For example, for the freeCodeCamp Berlin-rental walkthrough [2]:
+
+- "Which neighborhoods should we compare?" → Frame
+- "Download rental listings + scrape amenity data" → Acquire
+- "Parse prices, drop invalid rows, unify district names" → Clean
+- "Plot price vs. area; check for outliers" → Explore
+- "Train a regression to predict rent from features" → Model
+- "Present a chart of price drivers to the client" → Communicate
 
 ## Practice Questions
 
-1. What is the key idea behind "The Data Science Pipeline"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+1. Write the six pipeline stages in order, then explain which two stages are most often skipped by beginners.
+2. What is data leakage? Give one concrete example that could happen during scaling or cleaning.
+3. Why is "accuracy" a dangerous metric on imbalanced data? Give an example.
+4. A stakeholder asks "just give me a model that predicts sales." What three clarifying questions should you ask in Stage 1?
 
 ## LLM Prompts for Deeper Understanding
 
-1. "Explain The Data Science Pipeline with analogies and real-world examples"
-1. "Show me common mistakes beginners make with The Data Science Pipeline"
-1. "Provide advanced patterns and performance considerations for The Data Science Pipeline"
+1. "Give me a checklist I can use to audit my own data science project for the six most common failure points."
+2. "Explain data leakage with five different concrete examples in machine learning."
+3. "Compare CRISP-DM, TDSP, and the Google ML lifecycle — what do they agree on?"
 
 ## Key Takeaways
 
-- Master the core ideas of The Data Science Pipeline through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+- The pipeline is: frame → acquire → clean → explore → model → communicate — and it loops.
+- Cleaning and framing dominate real project time; modeling is often the shortest stage.
+- The most common failures are wrong questions, leakage, dishonest splits, and ignored deployment.
+- Plan for iteration: the first pass is for learning, the second for correctness.
 
-## Further Reading
+## Footnotes & Attribution
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+1. GeeksforGeeks, *Data Science Lifecycle*. Stage breakdown aligned with CRISP-DM. [https://www.geeksforgeeks.org/data-science/data-science-lifecycle/](https://www.geeksforgeeks.org/data-science/data-science-lifecycle/)
+2. freeCodeCamp, *How to Build a Data Science Project from Scratch* (Berlin rentals). Real pipeline walkthrough. [https://www.freecodecamp.org/news/how-to-build-a-data-science-project-from-scratch-dc4f096a62a1/](https://www.freecodecamp.org/news/how-to-build-a-data-science-project-from-scratch-dc4f096a62a1/)
+3. IBM, *CRISP-DM*. The cross-industry process model. [https://www.ibm.com/think/topics/crisp-dm](https://www.ibm.com/think/topics/crisp-dm)
+4. Google Cloud, *MLOps: Continuous Delivery and Automation Pipelines*. The lifecycle beyond the notebook. [https://cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning](https://cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning)

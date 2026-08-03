@@ -13,7 +13,7 @@
     "Understand DP limits with large state spaces"
   ],
   "knowledge_refs": [
-    "reinforcement-learning/rl-03-dynamic-programming"
+    "reinforcement-learning/rl-02-markov-decision-processes"
   ],
   "prerequisites": [
     "RL-02: Markov Decision Processes"

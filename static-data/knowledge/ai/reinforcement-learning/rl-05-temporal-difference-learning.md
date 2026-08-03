@@ -13,7 +13,7 @@
     "Use TD for prediction"
   ],
   "knowledge_refs": [
-    "reinforcement-learning/rl-05-temporal-difference-learning"
+    "reinforcement-learning/rl-04-monte-carlo-methods"
   ],
   "prerequisites": [
     "RL-04: Monte Carlo Methods"

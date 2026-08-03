@@ -13,7 +13,9 @@
     "Stream agent steps"
   ],
   "knowledge_refs": [
-    "ai-agents/agents-07-langchain-agents"
+    "ai-agents/agents-06-multi-agent-systems",
+    "llm-engineering/llm-11-llm-agents",
+    "generative-ai/genai-12-agents-and-tool-use"
   ],
   "prerequisites": [
     "AGENTS-03: Tool Use & Function Calling"

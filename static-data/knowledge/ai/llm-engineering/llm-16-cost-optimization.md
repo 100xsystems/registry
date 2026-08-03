@@ -13,7 +13,9 @@
     "Budget by feature"
   ],
   "knowledge_refs": [
-    "llm-engineering/llm-16-cost-optimization"
+    "llm-engineering/llm-15-llm-serving",
+    "mlops/mlops-19-cost-and-performance",
+    "reinforcement-learning/rl-12-proximal-policy-optimization"
   ],
   "prerequisites": [
     "LLM-05: Tokenization & Context Management"

@@ -13,7 +13,9 @@
     "Track resource usage and cost"
   ],
   "knowledge_refs": [
-    "mlops/mlops-08-training-at-scale"
+    "mlops/mlops-07-model-registry",
+    "deep-learning/dl-19-training-at-scale",
+    "generative-ai/genai-18-llmops"
   ],
   "prerequisites": [
     "MLOPS-06: Experiment Tracking"

@@ -13,7 +13,9 @@
     "Discuss alignment trade-offs"
   ],
   "knowledge_refs": [
-    "generative-ai/genai-09-rlhf-and-alignment"
+    "generative-ai/genai-08-fine-tuning-llms",
+    "ai-safety/safety-04-alignment",
+    "ai-safety/safety-17-values-alignment"
   ],
   "prerequisites": [
     "GENAI-08: Fine-Tuning LLMs"

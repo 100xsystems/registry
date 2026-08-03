@@ -13,7 +13,8 @@
     "Clean text at scale with re.sub"
   ],
   "knowledge_refs": [
-    "nlp/nlp-04-regular-expressions"
+    "nlp/nlp-03-text-preprocessing",
+    "generative-ai/genai-03-text-generation-basics"
   ],
   "prerequisites": [
     "NLP-03: Text Preprocessing"

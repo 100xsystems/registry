@@ -13,7 +13,7 @@
     "Inspect model parameters and hyperparameters"
   ],
   "knowledge_refs": [
-    "machine-learning/ml-04-python-ml-stack"
+    "machine-learning/ml-03-the-learning-problem"
   ],
   "prerequisites": [
     "ML-03: The Learning Problem"

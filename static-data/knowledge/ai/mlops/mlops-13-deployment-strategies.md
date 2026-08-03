@@ -13,7 +13,9 @@
     "Avoid duplicated inference cost"
   ],
   "knowledge_refs": [
-    "mlops/mlops-13-deployment-strategies"
+    "mlops/mlops-12-kubernetes-basics",
+    "llm-engineering/llm-15-llm-serving",
+    "generative-ai/genai-18-llmops"
   ],
   "prerequisites": [
     "MLOPS-12: Kubernetes Basics for ML"

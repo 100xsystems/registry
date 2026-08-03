@@ -13,7 +13,8 @@
     "Tune the regularization strength"
   ],
   "knowledge_refs": [
-    "machine-learning/ml-15-regularization"
+    "deep-learning/dl-11-regularization-for-deep-learning",
+    "machine-learning/ml-14-feature-scaling-and-selection"
   ],
   "prerequisites": [
     "ML-06: Gradient Descent"

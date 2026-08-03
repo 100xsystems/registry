@@ -13,7 +13,9 @@
     "Correlate feedback with versions"
   ],
   "knowledge_refs": [
-    "llm-engineering/llm-17-observability"
+    "llm-engineering/llm-16-cost-optimization",
+    "prompt-engineering/pe-14-prompt-versioning",
+    "prompt-engineering/pe-01-what-is-prompt-engineering"
   ],
   "prerequisites": [
     "LLM-13: Evaluating LLM Systems"

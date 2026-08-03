@@ -13,7 +13,9 @@
     "Identify the pillars of production ML systems"
   ],
   "knowledge_refs": [
-    "mlops/mlops-01-what-is-mlops"
+    "generative-ai/genai-18-llmops",
+    "llm-engineering/llm-20-llmops-tooling",
+    "llm-engineering/llm-15-llm-serving"
   ],
   "prerequisites": [
     "ML-01: What Is Machine Learning?"

@@ -13,7 +13,9 @@
     "Build safeguards against misuse"
   ],
   "knowledge_refs": [
-    "generative-ai/genai-19-ethical-ai-and-safety"
+    "generative-ai/genai-18-llmops",
+    "ai-safety/safety-21-roadmap",
+    "ai-safety/safety-01-why-ai-safety"
   ],
   "prerequisites": [
     "GENAI-01: What Is Generative AI?"

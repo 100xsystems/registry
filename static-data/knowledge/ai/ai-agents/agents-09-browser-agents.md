@@ -13,7 +13,9 @@
     "Handle login walls and captchas safely"
   ],
   "knowledge_refs": [
-    "ai-agents/agents-09-browser-agents"
+    "ai-agents/agents-08-research-agents",
+    "llm-engineering/llm-11-llm-agents",
+    "generative-ai/genai-12-agents-and-tool-use"
   ],
   "prerequisites": [
     "AGENTS-08: Building a Research Agent"

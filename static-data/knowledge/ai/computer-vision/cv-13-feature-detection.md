@@ -13,7 +13,9 @@
     "Use homography for alignment"
   ],
   "knowledge_refs": [
-    "computer-vision/cv-13-feature-detection"
+    "computer-vision/cv-12-opencv-fundamentals",
+    "machine-learning/ml-14-feature-scaling-and-selection",
+    "mlops/mlops-05-feature-stores"
   ],
   "prerequisites": [
     "CV-12: OpenCV Fundamentals"

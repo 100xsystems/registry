@@ -13,7 +13,7 @@
     "Explain the role of the final layer per task"
   ],
   "knowledge_refs": [
-    "deep-learning/dl-04-forward-propagation"
+    "deep-learning/dl-03-activation-functions"
   ],
   "prerequisites": [
     "DL-03: Activation Functions"

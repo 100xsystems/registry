@@ -13,7 +13,7 @@
     "Track new architectures responsibly"
   ],
   "knowledge_refs": [
-    "deep-learning/dl-21-roadmap"
+    "deep-learning/dl-20-evaluating-deep-models"
   ],
   "prerequisites": [
     "DL-20: Evaluating Deep Learning Models"

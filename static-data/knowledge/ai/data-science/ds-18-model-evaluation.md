@@ -1,48 +1,45 @@
 ---
 {
   "title": "Model Evaluation Metrics",
-  "description": "Accuracy is a trap. Learn precision, recall, F1, ROC curves, and the confusion matrix inside out.",
+  "description": "Accuracy, precision, recall, F1, ROC-AUC and confusion matrices — the honest measurement of model quality.",
   "type": "lesson",
   "order": 18,
-  "duration": "55 min",
+  "duration": "60 min",
   "difficulty": "intermediate",
   "learning_objectives": [
-    "Read a confusion matrix correctly",
-    "Compute precision, recall and F1",
-    "Explain the precision-recall trade-off",
-    "Use ROC-AUC for ranking quality"
+    "Read a confusion matrix",
+    "Explain precision, recall, and F1",
+    "Interpret ROC curves and AUC",
+    "Choose the right metric for a business problem"
   ],
   "knowledge_refs": [
-    "data-science/ds-18-model-evaluation"
+    "machine-learning/ml-18-classification-metrics",
+    "data-science/ds-16-classification-models",
+    "data-science/ds-14-train-test-split"
   ],
   "prerequisites": [
-    "DS-16: Classification Models"
+    "DS-17: Clustering"
   ],
   "references": [
     {
-      "title": "Python for Data Analysis — Wes McKinney",
-      "url": "https://wesmckinney.com/book/",
-      "description": "The definitive guide to pandas, NumPy and the PyData stack."
+      "title": "scikit-learn — Model Evaluation",
+      "url": "https://scikit-learn.org/stable/modules/model_evaluation.html",
+      "description": "The official guide to every classification/regression metric."
     },
     {
-      "title": "Pandas User Guide",
-      "url": "https://pandas.pydata.org/docs/user_guide/index.html",
-      "description": "Official documentation for the pandas data-analysis library."
+      "title": "scikit-learn — Confusion Matrix",
+      "url": "https://scikit-learn.org/stable/auto_examples/model_selection/plot_confusion_matrix.html",
+      "description": "Visualizing and interpreting confusion matrices."
     },
     {
-      "title": "The Elements of Statistical Learning",
-      "url": "https://hastie.su.domains/ElemStatLearn/",
-      "description": "The classic statistical-learning reference (free PDF)."
+      "title": "Google ML Crash Course — Classification Metrics",
+      "url": "https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc",
+      "description": "Precision/recall and ROC-AUC explained with interactive examples."
     },
     {
-      "title": "Kaggle Learn — Data Science",
-      "url": "https://www.kaggle.com/learn",
-      "description": "Hands-on micro-courses covering pandas, EDA and modeling."
-    },
-    {
-      "title": "scikit-learn User Guide",
-      "url": "https://scikit-learn.org/stable/user_guide.html",
-      "description": "Authoritative guide to the Python machine-learning toolbox."
+      "title": "StatQuest — ROC and AUC",
+      "url": "https://www.youtube.com/watch?v=4jRBRDbJemM",
+      "description": "The clearest visual explanation of ROC curves."
     }
   ]
 }
@@ -52,83 +49,104 @@
 
 ## Introduction
 
-Accuracy is a trap. Learn precision, recall, F1, ROC curves, and the confusion matrix inside out. By the end of this lesson you will be able to: Read a confusion matrix correctly; Compute precision, recall and F1; Explain the precision-recall trade-off; Use ROC-AUC for ranking quality.
+A model's "score" is meaningless without context. Is 90% accuracy good? For a spam filter where 99% of mail is legitimate — no, a model that always says "not spam" hits 99% accuracy while doing nothing. This lesson replaces naive accuracy with the metrics that actually measure quality: **confusion matrices, precision, recall, F1, and ROC-AUC**. The central skill is matching the metric to the *cost of being wrong* in your specific problem.
 
 ## Key Concepts
 
-### 1. Read a confusion matrix correctly
+### 1. The confusion matrix
 
-Target: Read a confusion matrix correctly. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+For binary classification, four cells capture everything:
+
+| | Predicted positive | Predicted negative |
+| --- | --- | --- |
+| **Actual positive** | True Positive (TP) | False Negative (FN) |
+| **Actual negative** | False Positive (FP) | True Negative (TN) |
 
 ```python
 from sklearn.metrics import confusion_matrix
 
-y_true = [0, 1, 1, 0, 1, 0]
-y_pred = [0, 1, 0, 0, 1, 1]
-print(confusion_matrix(y_true, y_pred))
+cm = confusion_matrix(y_test, preds)
+print(cm)   # [[TN, FP], [FN, TP]]
 ```
-### 2. Compute precision, recall and F1
 
-Target: Compute precision, recall and F1. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+Everything else is built from these four numbers.
+
+### 2. Precision and recall: the two ways to be wrong
+
+- **Precision = TP / (TP + FP)** — of the things I flagged as positive, how many were right? High precision = few false alarms.
+- **Recall (sensitivity) = TP / (TP + FN)** — of the things that *were* positive, how many did I catch? High recall = few missed cases.
+
+The two trade off against each other: flag everything and recall = 100% but precision collapses; flag almost nothing and precision is high but recall collapses. The right balance depends on which error is more expensive:
+
+- **Fraud detection**: missing fraud (low recall) costs money → chase recall.
+- **Legal email review**: wrongly flagging innocent mail (low precision) wastes lawyers' time → chase precision.
+
+### 3. F1: the harmonic balance
+
+**F1 = 2·precision·recall / (precision + recall)** — a single number that balances both. It is the standard summary when you care about *both* error types equally. (It's a harmonic mean, so it's harsh on imbalance: precision 1.0 + recall 0.1 → F1 ≈ 0.18.)
 
 ```python
 from sklearn.metrics import precision_score, recall_score, f1_score
 
-y_true = [0, 1, 1, 0, 1, 0]
-y_pred = [0, 1, 0, 0, 1, 1]
-print("precision:", round(precision_score(y_true, y_pred), 2))
-print("recall:", round(recall_score(y_true, y_pred), 2))
-print("F1:", round(f1_score(y_true, y_pred), 2))
+print(precision_score(y_test, preds))
+print(recall_score(y_test, preds))
+print(f1_score(y_test, preds))
 ```
-### 3. Explain the precision-recall trade-off
 
-Target: Explain the precision-recall trade-off. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+### 4. Accuracy and when it lies
+
+Accuracy = correct / total. It is reasonable for *balanced* classes and misleading for *imbalanced* ones. With 95% non-spam, the "always non-spam" model scores 95% accuracy and is useless. When classes are imbalanced, report precision/recall/F1 (and the confusion matrix) instead of, or alongside, accuracy.
+
+### 5. ROC curves and AUC
+
+The ROC curve shows the trade-off between true positive rate and false positive rate as you sweep the decision threshold. **AUC** (area under the curve) is one number summarizing "how well the model ranks positives above negatives":
+
+- AUC 0.5 = random guessing; AUC 1.0 = perfect ranking.
+- AUC is **threshold-independent** — it measures ranking quality, not a specific operating point.
 
 ```python
-from sklearn.metrics import roc_auc_score
+from sklearn.metrics import roc_auc_score, roc_curve
 
-y_true = [0, 1, 1, 0, 1, 0]
-y_prob = [0.1, 0.9, 0.4, 0.2, 0.8, 0.7]
-print("ROC-AUC:", round(roc_auc_score(y_true, y_prob), 3))
+probs = model.predict_proba(X_test)[:, 1]
+print(roc_auc_score(y_test, probs))        # ranking quality
+fpr, tpr, _ = roc_curve(y_test, probs)     # plot for the full trade-off
 ```
-### 4. Use ROC-AUC for ranking quality
 
-Target: Use ROC-AUC for ranking quality. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+Note the distinction: AUC tells you how well the model *ranks*; precision/recall at a chosen threshold tell you how well it *operates* at your business decision point. Both belong in a complete report.
 
-```python
-import numpy as np
+### 6. Choosing metrics for your problem
 
-# Threshold sweep: raising the bar boosts precision, cuts recall
-scores = np.array([0.2, 0.5, 0.7, 0.9])
-labels = np.array([0, 1, 0, 1])
-for t in [0.3, 0.6, 0.8]:
-    preds = (scores >= t).astype(int)
-    tp = ((preds == 1) & (labels == 1)).sum()
-    fp = ((preds == 1) & (labels == 0)).sum()
-    fn = ((preds == 0) & (labels == 1)).sum()
-    prec = tp / (tp + fp) if tp + fp else 0
-    rec = tp / (tp + fn) if tp + fn else 0
-    print(f"t={t}: precision={prec:.2f} recall={rec:.2f}")
-```
+A practical recipe:
+
+1. Write down what each type of error *costs*.
+2. Choose the primary metric that reflects that cost (recall for missed fraud, precision for false alarms, F1 for balance).
+3. Report the confusion matrix + AUC alongside, so the number has context.
+4. For regression, use RMSE/MAE/R² (see the regression lesson) — never accuracy.
 
 ## Practice Questions
 
-1. What is the key idea behind "Model Evaluation Metrics"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+1. For a cancer-screening model, which is worse: low precision or low recall? Justify.
+2. Compute precision and recall from this confusion matrix: TN=900, FP=50, FN=10, TP=40.
+3. Why can accuracy be 99% on a model that's useless?
+4. What does AUC=0.5 mean? What does AUC measure that accuracy doesn't?
 
 ## LLM Prompts for Deeper Understanding
 
-1. "Explain Model Evaluation Metrics with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Model Evaluation Metrics"
-1. "Provide advanced patterns and performance considerations for Model Evaluation Metrics"
+1. "Explain precision-recall trade-off with a concrete business scenario."
+2. "When would I optimize for F1 vs AUC? What's the difference?"
+3. "How do I evaluate an imbalanced dataset honestly?"
 
 ## Key Takeaways
 
-- Master the core ideas of Model Evaluation Metrics through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+- Accuracy lies on imbalanced data — use confusion matrices, precision/recall, F1.
+- Precision = how many flags were right; recall = how many positives were caught.
+- The metric you optimize must reflect the cost of each error type.
+- ROC-AUC measures ranking quality and is threshold-independent.
+- Always report context: confusion matrix + the business meaning of errors.
 
-## Further Reading
+## Footnotes & Attribution
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+1. scikit-learn documentation, *Model Evaluation*. [https://scikit-learn.org/stable/modules/model_evaluation.html](https://scikit-learn.org/stable/modules/model_evaluation.html)
+2. scikit-learn documentation, *Confusion Matrix*. [https://scikit-learn.org/stable/auto_examples/model_selection/plot_confusion_matrix.html](https://scikit-learn.org/stable/auto_examples/model_selection/plot_confusion_matrix.html)
+3. Google Developers, *ML Crash Course — Classification: ROC and AUC*. [https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc](https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc)
+4. Josh Starmer, *StatQuest — ROC and AUC*. [https://www.youtube.com/watch?v=4jRBRDbJemM](https://www.youtube.com/watch?v=4jRBRDbJemM)

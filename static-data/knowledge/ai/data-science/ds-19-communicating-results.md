@@ -1,48 +1,40 @@
 ---
 {
   "title": "Communicating Results",
-  "description": "The analysis only matters if it changes decisions. Learn to write, present and defend findings clearly.",
+  "description": "Turn analysis into decisions: structure a finding, choose the right chart, and write for stakeholders.",
   "type": "lesson",
   "order": 19,
-  "duration": "45 min",
+  "duration": "50 min",
   "difficulty": "intermediate",
   "learning_objectives": [
-    "Structure a findings memo for decision-makers",
-    "Pair every claim with its uncertainty",
-    "Design a clean, honest dashboard",
-    "Answer objections with pre-registered evidence"
+    "Structure findings with the answer first",
+    "Match message to audience",
+    "Write plain-language takeaways from a model",
+    "Present numbers with appropriate uncertainty"
   ],
   "knowledge_refs": [
-    "data-science/ds-19-communicating-results"
+    "data-science/ds-08-data-visualization",
+    "data-science/ds-18-model-evaluation",
+    "data-science/ds-11-hypothesis-testing"
   ],
   "prerequisites": [
     "DS-18: Model Evaluation Metrics"
   ],
   "references": [
     {
-      "title": "Python for Data Analysis — Wes McKinney",
-      "url": "https://wesmckinney.com/book/",
-      "description": "The definitive guide to pandas, NumPy and the PyData stack."
+      "title": "Storytelling with Data Blog",
+      "url": "https://www.storytellingwithdata.com/blog",
+      "description": "Cole Nussbaumer Knaflic's principles for decluttered, decision-focused charts."
     },
     {
-      "title": "Pandas User Guide",
-      "url": "https://pandas.pydata.org/docs/user_guide/index.html",
-      "description": "Official documentation for the pandas data-analysis library."
+      "title": "The Quartz Guide to Bad Data",
+      "url": "https://github.com/Quartz/bad-data-guide",
+      "description": "A field guide to spotting bad data and bad data claims."
     },
     {
-      "title": "The Elements of Statistical Learning",
-      "url": "https://hastie.su.domains/ElemStatLearn/",
-      "description": "The classic statistical-learning reference (free PDF)."
-    },
-    {
-      "title": "Kaggle Learn — Data Science",
-      "url": "https://www.kaggle.com/learn",
-      "description": "Hands-on micro-courses covering pandas, EDA and modeling."
-    },
-    {
-      "title": "scikit-learn User Guide",
-      "url": "https://scikit-learn.org/stable/user_guide.html",
-      "description": "Authoritative guide to the Python machine-learning toolbox."
+      "title": "The Economist — How to Use Charts",
+      "url": "https://www.economist.com/graphic-detail",
+      "description": "Exemplary data journalism to learn from."
     }
   ]
 }
@@ -52,82 +44,82 @@
 
 ## Introduction
 
-The analysis only matters if it changes decisions. Learn to write, present and defend findings clearly. By the end of this lesson you will be able to: Structure a findings memo for decision-makers; Pair every claim with its uncertainty; Design a clean, honest dashboard; Answer objections with pre-registered evidence.
+A brilliant analysis that nobody understands changes nothing. **Communication is the last mile of data science**: the skill of turning models and statistics into decisions stakeholders act on. The good news is that the craft is teachable and follows consistent rules — answer first, match the audience, declutter the chart, and state uncertainty honestly. This lesson gives you the framework used by professional data communicators like Cole Nussbaumer Knaflic [1].
 
 ## Key Concepts
 
-### 1. Structure a findings memo for decision-makers
+### 1. The answer first
 
-Target: Structure a findings memo for decision-makers. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+The single biggest upgrade: **lead with the conclusion, not the journey.**
 
-```python
-memo = {
-    "question": "Does the new onboarding increase activation?",
-    "finding": "Activation +4.2pp (95% CI [1.9, 6.5])",
-    "caveat": "Early adopters only; revisit at 8 weeks",
-    "next_step": "Roll out to 25% and monitor churn",
-}
-for k, v in memo.items():
-    print(f"{k}: {v}")
-```
-### 2. Pair every claim with its uncertainty
+- ❌ "I loaded the data, cleaned it, tried logistic regression and random forest, and then…"
+- ✅ "Customers who haven't ordered in 60 days are 3× more likely to churn. Here's the evidence and what we should do."
 
-Target: Pair every claim with its uncertainty. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+Your stakeholder wants the decision-relevant answer in the first minute; the methodology belongs in an appendix. The "executive summary first" structure (BLUF — Bottom Line Up Front) is the professional standard.
 
-```python
-import numpy as np
+### 2. Know your audience
 
-# Report uncertainty, not just point estimates
-lift = np.array([0.02, 0.05, 0.06, 0.03, 0.04])
-print(f"mean lift {lift.mean()*100:.1f}pp +/- {1.96*lift.std(ddof=1)/np.sqrt(lift.size)*100:.1f}pp")
-```
-### 3. Design a clean, honest dashboard
+- **Executives**: the decision, the confidence, the cost. One chart, three bullets.
+- **Product/engineering**: the mechanism, the edge cases, the data pipeline.
+- **Other analysts**: methods, metrics, assumptions — full transparency.
 
-Target: Design a clean, honest dashboard. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+Same analysis, three different presentations. If you can only prepare one, prepare the executive one — that's the one that gets funded.
 
-```python
-import pandas as pd
+### 3. Charting for decisions
 
-# A dashboard starts with a clear metric definition
-metrics = {
-    "activation_rate": "activated / signed_up (7d)",
-    "retention_w4": "active at week 4 / signed_up",
-    "nps": "promoters - detractors (0-10 scale)",
-}
-print(pd.DataFrame(metrics.items(), columns=["metric", "definition"]))
-```
-### 4. Answer objections with pre-registered evidence
+Every chart you present should answer one question (see the visualization lesson for the mechanics). The communication-specific rules [1]:
 
-Target: Answer objections with pre-registered evidence. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+1. **Declutter relentlessly** — remove gridlines, borders, and legends that fight the message.
+2. **Use color as a spotlight** — highlight the finding; keep the rest muted.
+3. **Write the takeaway in the title** — "Churn spikes after 60 days of inactivity" beats "Orders over time."
+4. **Label directly** — put text next to the data points people should notice.
 
-```python
-def pre_register(question, hypothesis, metric, analysis):
-    return {"question": question, "hypothesis": hypothesis, "metric": metric, "analysis": analysis}
+If a viewer needs a caption to know what to look at, the chart failed.
 
-plan = pre_register(
-    "Does X move retention?", "Retention +1pp", "retention_w4", "two-sample t-test, alpha=0.05"
-)
-print(plan)
-```
+### 4. Numbers with uncertainty
+
+Data science results are estimates, and your credibility depends on saying so:
+
+- Report confidence intervals or error bars, not just point estimates.
+- Distinguish *correlation* from *causation* in your language (see the correlation lesson).
+- For model metrics, say what they were measured on: "AUC 0.88 on a 20% held-out test set."
+
+Vague confidence ("this model is great") is punished harder by stakeholders than hedged honesty ("the model is strong in 3 of 5 segments; we should test segment 4 before rollout").
+
+### 5. The one-page template
+
+For any significant finding, a single page that contains:
+
+1. **The answer** (one sentence, decision-focused).
+2. **The evidence** (one chart + the key numbers).
+3. **The risks/limits** (what could be wrong, what wasn't tested).
+4. **The ask** (what decision or next step you recommend).
+
+If you can write that page, you can present it, email it, or turn it into slides — the discipline is the same.
 
 ## Practice Questions
 
-1. What is the key idea behind "Communicating Results"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+1. Rewrite this lead: "We ran a t-test comparing checkout page variants. The p-value was 0.012." What's the answer-first version?
+2. How does a chart for an executive differ from one for a fellow analyst?
+3. Why is "AUC 0.88" an incomplete statement of model performance?
+4. Draft a one-page template for: "Should we launch a loyalty program?"
 
 ## LLM Prompts for Deeper Understanding
 
-1. "Explain Communicating Results with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Communicating Results"
-1. "Provide advanced patterns and performance considerations for Communicating Results"
+1. "Show me before-and-after examples of decluttering a data chart."
+2. "Write a stakeholder update that communicates a model's limitations honestly."
+3. "What are the most common ways data science presentations mislead without lying?"
 
 ## Key Takeaways
 
-- Master the core ideas of Communicating Results through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+- Lead with the answer; methodology goes in the appendix.
+- Adapt every presentation to its audience — executives want decisions.
+- Decluttered charts with answer-in-title are the professional standard.
+- State uncertainty and limits honestly — credibility is the real product.
+- One-page structure: answer, evidence, risks, ask.
 
-## Further Reading
+## Footnotes & Attribution
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+1. Cole Nussbaumer Knaflic, *Storytelling with Data* — principles via the official blog. [https://www.storytellingwithdata.com/blog](https://www.storytellingwithdata.com/blog)
+2. Quartz, *The Quartz Guide to Bad Data*. [https://github.com/Quartz/bad-data-guide](https://github.com/Quartz/bad-data-guide)
+3. The Economist, *Graphic Detail*. Exemplary data visualization journalism. [https://www.economist.com/graphic-detail](https://www.economist.com/graphic-detail)

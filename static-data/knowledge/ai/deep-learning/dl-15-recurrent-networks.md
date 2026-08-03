@@ -13,7 +13,9 @@
     "Know why plain RNNs struggle with long sequences"
   ],
   "knowledge_refs": [
-    "deep-learning/dl-15-recurrent-networks"
+    "deep-learning/dl-14-transfer-learning",
+    "reinforcement-learning/rl-09-deep-q-networks",
+    "generative-ai/genai-14-gans"
   ],
   "prerequisites": [
     "DL-10: The Training Loop"

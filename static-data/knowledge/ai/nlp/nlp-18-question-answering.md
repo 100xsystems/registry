@@ -13,7 +13,7 @@
     "Evaluate with exact match and F1"
   ],
   "knowledge_refs": [
-    "nlp/nlp-18-question-answering"
+    "nlp/nlp-17-finetuning-transformers"
   ],
   "prerequisites": [
     "NLP-17: Fine-Tuning Transformers"

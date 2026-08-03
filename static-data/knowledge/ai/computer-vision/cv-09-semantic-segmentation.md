@@ -13,7 +13,8 @@
     "Evaluate with pixel accuracy and IoU"
   ],
   "knowledge_refs": [
-    "computer-vision/cv-09-semantic-segmentation"
+    "computer-vision/cv-08-object-detection",
+    "llm-engineering/llm-06-embeddings-and-semantic-search"
   ],
   "prerequisites": [
     "CV-08: Object Detection"

@@ -13,7 +13,9 @@
     "Specify output format precisely"
   ],
   "knowledge_refs": [
-    "prompt-engineering/pe-02-prompt-structure"
+    "prompt-engineering/pe-01-what-is-prompt-engineering",
+    "generative-ai/genai-04-prompt-engineering",
+    "llm-engineering/llm-17-observability"
   ],
   "prerequisites": [
     "PE-01: What Is Prompt Engineering?"

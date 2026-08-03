@@ -13,7 +13,7 @@
     "Pair OCR with downstream NLP"
   ],
   "knowledge_refs": [
-    "computer-vision/cv-17-ocr-and-document-ai"
+    "computer-vision/cv-16-face-recognition"
   ],
   "prerequisites": [
     "CV-03: Image Processing Fundamentals"

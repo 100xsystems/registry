@@ -13,7 +13,8 @@
     "Use reward shaping theorems safely"
   ],
   "knowledge_refs": [
-    "reinforcement-learning/rl-13-reward-design"
+    "reinforcement-learning/rl-12-proximal-policy-optimization",
+    "ai-agents/agents-17-agent-design-patterns"
   ],
   "prerequisites": [
     "RL-01: What Is Reinforcement Learning?"

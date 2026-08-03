@@ -13,7 +13,9 @@
     "Know the limits of explanations"
   ],
   "knowledge_refs": [
-    "ai-safety/safety-03-interpretability"
+    "ai-safety/safety-02-bias-and-fairness",
+    "generative-ai/genai-19-ethical-ai-and-safety",
+    "llm-engineering/llm-14-guardrails-and-safety"
   ],
   "prerequisites": [
     "SAFETY-02: Bias & Fairness"

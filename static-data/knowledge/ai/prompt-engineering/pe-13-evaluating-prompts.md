@@ -13,7 +13,9 @@
     "Guard against overfitting to the eval set"
   ],
   "knowledge_refs": [
-    "prompt-engineering/pe-13-evaluating-prompts"
+    "prompt-engineering/pe-12-prompt-injection-defense",
+    "deep-learning/dl-20-evaluating-deep-models",
+    "computer-vision/cv-20-evaluating-vision-models"
   ],
   "prerequisites": [
     "PE-10: System Prompts in Production"

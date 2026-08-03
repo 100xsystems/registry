@@ -13,7 +13,9 @@
     "Handle data subject rights"
   ],
   "knowledge_refs": [
-    "ai-safety/safety-06-privacy"
+    "ai-safety/safety-05-robustness",
+    "generative-ai/genai-19-ethical-ai-and-safety",
+    "llm-engineering/llm-14-guardrails-and-safety"
   ],
   "prerequisites": [
     "SAFETY-01: Why AI Safety Matters"

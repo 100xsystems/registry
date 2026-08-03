@@ -13,7 +13,8 @@
     "Know when preprocessing hurts modern models"
   ],
   "knowledge_refs": [
-    "nlp/nlp-03-text-preprocessing"
+    "nlp/nlp-02-text-representation",
+    "generative-ai/genai-03-text-generation-basics"
   ],
   "prerequisites": [
     "NLP-02: Text Representation: From Tokens to Vectors"

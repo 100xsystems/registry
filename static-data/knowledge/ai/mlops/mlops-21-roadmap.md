@@ -13,7 +13,9 @@
     "Bridge into LLMOps and platform engineering"
   ],
   "knowledge_refs": [
-    "mlops/mlops-21-roadmap"
+    "mlops/mlops-20-llmops",
+    "generative-ai/genai-18-llmops",
+    "llm-engineering/llm-20-llmops-tooling"
   ],
   "prerequisites": [
     "MLOPS-20: LLMOps"

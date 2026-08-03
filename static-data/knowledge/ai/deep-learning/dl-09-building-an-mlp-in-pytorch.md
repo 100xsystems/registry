@@ -13,7 +13,7 @@
     "Build a classifier for a small dataset"
   ],
   "knowledge_refs": [
-    "deep-learning/dl-09-building-an-mlp-in-pytorch"
+    "deep-learning/dl-08-pytorch-tensors-and-autograd"
   ],
   "prerequisites": [
     "DL-08: PyTorch Tensors & Autograd"

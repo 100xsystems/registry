@@ -13,7 +13,7 @@
     "Keep current with the research cycle"
   ],
   "knowledge_refs": [
-    "nlp/nlp-21-roadmap"
+    "nlp/nlp-20-evaluation-metrics"
   ],
   "prerequisites": [
     "NLP-20: NLP Evaluation Metrics"

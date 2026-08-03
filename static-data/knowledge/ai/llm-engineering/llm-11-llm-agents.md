@@ -13,7 +13,9 @@
     "Trace agent behavior"
   ],
   "knowledge_refs": [
-    "llm-engineering/llm-11-llm-agents"
+    "llm-engineering/llm-10-function-calling",
+    "ai-agents/agents-01-what-are-ai-agents",
+    "ai-agents/agents-21-roadmap"
   ],
   "prerequisites": [
     "LLM-10: Function Calling & Structured Outputs"

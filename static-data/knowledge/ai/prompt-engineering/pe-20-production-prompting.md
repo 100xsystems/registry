@@ -13,7 +13,9 @@
     "Iterate safely"
   ],
   "knowledge_refs": [
-    "prompt-engineering/pe-20-production-prompting"
+    "prompt-engineering/pe-19-optimizing-for-cost",
+    "generative-ai/genai-04-prompt-engineering",
+    "llm-engineering/llm-17-observability"
   ],
   "prerequisites": [
     "PE-14: Prompt Versioning & Management"

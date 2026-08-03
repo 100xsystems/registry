@@ -13,7 +13,9 @@
     "Use orchestration tools (Airflow, Prefect)"
   ],
   "knowledge_refs": [
-    "mlops/mlops-04-data-pipelines"
+    "mlops/mlops-03-reproducibility-and-versioning",
+    "generative-ai/genai-18-llmops",
+    "llm-engineering/llm-20-llmops-tooling"
   ],
   "prerequisites": [
     "MLOPS-02: The ML Lifecycle"

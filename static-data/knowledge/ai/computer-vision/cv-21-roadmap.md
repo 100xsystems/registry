@@ -13,7 +13,9 @@
     "Keep up with the field responsibly"
   ],
   "knowledge_refs": [
-    "computer-vision/cv-21-roadmap"
+    "computer-vision/cv-20-evaluating-vision-models",
+    "generative-ai/genai-15-vision-language-models",
+    "deep-learning/dl-13-cnn-architectures"
   ],
   "prerequisites": [
     "CV-20: Evaluating Vision Models"

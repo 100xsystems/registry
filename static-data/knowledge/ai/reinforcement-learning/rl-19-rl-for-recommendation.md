@@ -13,7 +13,9 @@
     "Deploy bandits safely with policies"
   ],
   "knowledge_refs": [
-    "reinforcement-learning/rl-19-rl-for-recommendation"
+    "reinforcement-learning/rl-18-rl-for-robotics",
+    "llm-engineering/llm-04-prompting-systems",
+    "llm-engineering/llm-13-evaluating-llm-systems"
   ],
   "prerequisites": [
     "RL-07: Exploration vs Exploitation"

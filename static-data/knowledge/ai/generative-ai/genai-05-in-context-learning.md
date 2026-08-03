@@ -13,7 +13,9 @@
     "Use ICL with structured examples"
   ],
   "knowledge_refs": [
-    "generative-ai/genai-05-in-context-learning"
+    "generative-ai/genai-04-prompt-engineering",
+    "prompt-engineering/pe-03-roles-and-context",
+    "llm-engineering/llm-12-context-engineering"
   ],
   "prerequisites": [
     "GENAI-04: Prompt Engineering"

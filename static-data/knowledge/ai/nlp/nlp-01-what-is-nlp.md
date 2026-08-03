@@ -13,7 +13,7 @@
     "Identify modern production NLP use cases"
   ],
   "knowledge_refs": [
-    "nlp/nlp-01-what-is-nlp"
+    "nlp/nlp-02-text-representation"
   ],
   "prerequisites": [
     "DL-01: What Is Deep Learning?"

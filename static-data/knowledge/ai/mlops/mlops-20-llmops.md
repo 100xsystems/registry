@@ -13,7 +13,9 @@
     "Monitor tokens, cost and quality"
   ],
   "knowledge_refs": [
-    "mlops/mlops-20-llmops"
+    "mlops/mlops-19-cost-and-performance",
+    "generative-ai/genai-18-llmops",
+    "llm-engineering/llm-20-llmops-tooling"
   ],
   "prerequisites": [
     "MLOPS-14: Monitoring & Drift Detection"

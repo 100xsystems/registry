@@ -13,7 +13,9 @@
     "Choose RNN variants by task"
   ],
   "knowledge_refs": [
-    "deep-learning/dl-16-lstm-and-gru"
+    "deep-learning/dl-15-recurrent-networks",
+    "nlp/nlp-13-lstm-for-text",
+    "nlp/nlp-12-sequence-models"
   ],
   "prerequisites": [
     "DL-15: Recurrent Neural Networks"

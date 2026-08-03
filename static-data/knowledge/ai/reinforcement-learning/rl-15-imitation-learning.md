@@ -13,7 +13,7 @@
     "Combine imitation with RL"
   ],
   "knowledge_refs": [
-    "reinforcement-learning/rl-15-imitation-learning"
+    "reinforcement-learning/rl-14-offline-rl"
   ],
   "prerequisites": [
     "RL-10: Policy Gradient Methods"

@@ -13,7 +13,8 @@
     "Handle negation and domain shift"
   ],
   "knowledge_refs": [
-    "nlp/nlp-08-sentiment-analysis"
+    "nlp/nlp-07-text-classification",
+    "computer-vision/cv-15-video-analysis"
   ],
   "prerequisites": [
     "NLP-07: Text Classification"

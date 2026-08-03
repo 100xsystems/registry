@@ -13,7 +13,9 @@
     "Discuss privacy and bias considerations"
   ],
   "knowledge_refs": [
-    "computer-vision/cv-16-face-recognition"
+    "computer-vision/cv-15-video-analysis",
+    "nlp/nlp-09-named-entity-recognition",
+    "mlops/mlops-14-monitoring-and-drift"
   ],
   "prerequisites": [
     "CV-07: Transfer Learning for Vision"

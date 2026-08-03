@@ -13,7 +13,9 @@
     "Evaluate retrieval quality"
   ],
   "knowledge_refs": [
-    "generative-ai/genai-11-embeddings-and-vector-databases"
+    "generative-ai/genai-10-rag",
+    "nlp/nlp-06-word-embeddings",
+    "llm-engineering/llm-06-embeddings-and-semantic-search"
   ],
   "prerequisites": [
     "GENAI-10: Retrieval-Augmented Generation (RAG)"

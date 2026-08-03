@@ -13,7 +13,7 @@
     "Apply safety constraints in control"
   ],
   "knowledge_refs": [
-    "reinforcement-learning/rl-18-rl-for-robotics"
+    "reinforcement-learning/rl-17-rl-in-games"
   ],
   "prerequisites": [
     "RL-12: PPO & Modern Policy Optimization"

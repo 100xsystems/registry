@@ -13,7 +13,9 @@
     "Use structured output modes"
   ],
   "knowledge_refs": [
-    "llm-engineering/llm-10-function-calling"
+    "llm-engineering/llm-09-fine-tuning-practice",
+    "prompt-engineering/pe-06-structured-outputs",
+    "ai-agents/agents-03-tool-use"
   ],
   "prerequisites": [
     "LLM-03: Working with LLM APIs"

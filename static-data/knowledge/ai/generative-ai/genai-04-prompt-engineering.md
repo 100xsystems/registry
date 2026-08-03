@@ -13,7 +13,9 @@
     "Iterate on prompts systematically"
   ],
   "knowledge_refs": [
-    "generative-ai/genai-04-prompt-engineering"
+    "generative-ai/genai-03-text-generation-basics",
+    "prompt-engineering/pe-01-what-is-prompt-engineering",
+    "prompt-engineering/pe-21-roadmap"
   ],
   "prerequisites": [
     "GENAI-03: Text Generation Fundamentals"

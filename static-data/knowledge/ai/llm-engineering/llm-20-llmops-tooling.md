@@ -13,7 +13,9 @@
     "Match tools to team size"
   ],
   "knowledge_refs": [
-    "llm-engineering/llm-20-llmops-tooling"
+    "llm-engineering/llm-19-production-case-studies",
+    "mlops/mlops-01-what-is-mlops",
+    "mlops/mlops-20-llmops"
   ],
   "prerequisites": [
     "LLM-01: What Is LLM Engineering?"

@@ -13,7 +13,9 @@
     "Test robustness to environment changes"
   ],
   "knowledge_refs": [
-    "reinforcement-learning/rl-20-evaluating-rl-agents"
+    "ai-agents/agents-12-evaluating-agents",
+    "reinforcement-learning/rl-19-rl-for-recommendation",
+    "ai-agents/agents-01-what-are-ai-agents"
   ],
   "prerequisites": [
     "RL-12: PPO & Modern Policy Optimization"

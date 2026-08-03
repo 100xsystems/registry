@@ -13,7 +13,7 @@
     "Identify risks and opportunities in production"
   ],
   "knowledge_refs": [
-    "generative-ai/genai-01-what-is-generative-ai"
+    "generative-ai/genai-02-probabilistic-generation"
   ],
   "prerequisites": [
     "DL-17: Transformers"

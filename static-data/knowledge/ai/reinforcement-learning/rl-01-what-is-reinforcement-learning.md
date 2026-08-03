@@ -13,7 +13,7 @@
     "Describe the exploration-exploitation tension"
   ],
   "knowledge_refs": [
-    "reinforcement-learning/rl-01-what-is-reinforcement-learning"
+    "ai-safety/safety-08-governance"
   ],
   "prerequisites": [
     "ML-01: What Is Machine Learning?"

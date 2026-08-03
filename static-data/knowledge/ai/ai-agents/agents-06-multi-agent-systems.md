@@ -13,7 +13,9 @@
     "Avoid over-engineering with many agents"
   ],
   "knowledge_refs": [
-    "ai-agents/agents-06-multi-agent-systems"
+    "ai-agents/agents-05-memory-systems",
+    "reinforcement-learning/rl-16-multi-agent-rl",
+    "llm-engineering/llm-11-llm-agents"
   ],
   "prerequisites": [
     "AGENTS-05: Agent Memory Systems"

@@ -13,7 +13,9 @@
     "Run evals in CI"
   ],
   "knowledge_refs": [
-    "llm-engineering/llm-13-evaluating-llm-systems"
+    "llm-engineering/llm-12-context-engineering",
+    "deep-learning/dl-20-evaluating-deep-models",
+    "computer-vision/cv-20-evaluating-vision-models"
   ],
   "prerequisites": [
     "LLM-04: Prompting Systems at Scale"

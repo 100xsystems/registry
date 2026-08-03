@@ -13,7 +13,7 @@
     "Handle class imbalance in the loss"
   ],
   "knowledge_refs": [
-    "deep-learning/dl-06-loss-functions"
+    "deep-learning/dl-05-backpropagation"
   ],
   "prerequisites": [
     "DL-04: Forward Propagation"

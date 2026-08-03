@@ -13,7 +13,9 @@
     "Respect domain terminology"
   ],
   "knowledge_refs": [
-    "prompt-engineering/pe-17-domain-specific-prompts"
+    "prompt-engineering/pe-16-prompt-caching",
+    "generative-ai/genai-04-prompt-engineering",
+    "llm-engineering/llm-04-prompting-systems"
   ],
   "prerequisites": [
     "PE-10: System Prompts in Production"

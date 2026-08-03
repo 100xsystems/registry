@@ -13,7 +13,9 @@
     "Compare ViT and CNN trade-offs"
   ],
   "knowledge_refs": [
-    "computer-vision/cv-19-vision-transformers"
+    "computer-vision/cv-18-3d-vision",
+    "deep-learning/dl-17-transformers",
+    "deep-learning/dl-18-attention-mechanisms"
   ],
   "prerequisites": [
     "DL-17: Transformers"

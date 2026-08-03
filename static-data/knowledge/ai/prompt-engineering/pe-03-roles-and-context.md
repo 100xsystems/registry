@@ -13,7 +13,9 @@
     "Separate instructions from data"
   ],
   "knowledge_refs": [
-    "prompt-engineering/pe-03-roles-and-context"
+    "prompt-engineering/pe-02-prompt-structure",
+    "generative-ai/genai-05-in-context-learning",
+    "llm-engineering/llm-12-context-engineering"
   ],
   "prerequisites": [
     "PE-02: Prompt Structure"

@@ -13,7 +13,9 @@
     "Explain why removing noise features helps"
   ],
   "knowledge_refs": [
-    "machine-learning/ml-14-feature-scaling-and-selection"
+    "machine-learning/ml-13-naive-bayes",
+    "computer-vision/cv-13-feature-detection",
+    "generative-ai/genai-06-llm-architecture"
   ],
   "prerequisites": [
     "ML-08: Decision Trees"

@@ -13,7 +13,9 @@
     "Keep building with evals first"
   ],
   "knowledge_refs": [
-    "ai-agents/agents-21-roadmap"
+    "ai-agents/agents-20-future-of-agents",
+    "llm-engineering/llm-11-llm-agents",
+    "generative-ai/genai-12-agents-and-tool-use"
   ],
   "prerequisites": [
     "AGENTS-20: The Future of Agents"

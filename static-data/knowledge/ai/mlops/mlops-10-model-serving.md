@@ -13,7 +13,9 @@
     "Measure latency correctly"
   ],
   "knowledge_refs": [
-    "mlops/mlops-10-model-serving"
+    "mlops/mlops-09-model-packaging",
+    "llm-engineering/llm-15-llm-serving",
+    "generative-ai/genai-18-llmops"
   ],
   "prerequisites": [
     "MLOPS-09: Model Packaging & Serialization"

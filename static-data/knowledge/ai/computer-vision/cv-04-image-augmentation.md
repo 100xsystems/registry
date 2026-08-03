@@ -13,7 +13,7 @@
     "Avoid augmentations that break label meaning"
   ],
   "knowledge_refs": [
-    "computer-vision/cv-04-image-augmentation"
+    "computer-vision/cv-03-image-processing"
   ],
   "prerequisites": [
     "CV-02: Image Representation"

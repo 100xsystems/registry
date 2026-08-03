@@ -13,7 +13,8 @@
     "Normalize images for model input"
   ],
   "knowledge_refs": [
-    "computer-vision/cv-02-image-representation"
+    "computer-vision/cv-01-what-is-computer-vision",
+    "nlp/nlp-02-text-representation"
   ],
   "prerequisites": [
     "CV-01: What Is Computer Vision?"

@@ -13,7 +13,8 @@
     "Know when to disable reasoning (speed)"
   ],
   "knowledge_refs": [
-    "prompt-engineering/pe-05-chain-of-thought"
+    "prompt-engineering/pe-04-few-shot-examples",
+    "ai-agents/agents-04-reasoning-and-planning"
   ],
   "prerequisites": [
     "PE-02: Prompt Structure"

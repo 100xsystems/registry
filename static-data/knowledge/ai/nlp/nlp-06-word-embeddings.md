@@ -13,7 +13,9 @@
     "Use embedding similarity for search and features"
   ],
   "knowledge_refs": [
-    "nlp/nlp-06-word-embeddings"
+    "nlp/nlp-05-ngrams-and-language-models",
+    "generative-ai/genai-11-embeddings-and-vector-databases",
+    "llm-engineering/llm-06-embeddings-and-semantic-search"
   ],
   "prerequisites": [
     "NLP-02: Text Representation: From Tokens to Vectors"

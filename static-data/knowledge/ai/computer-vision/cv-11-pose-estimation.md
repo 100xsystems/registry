@@ -13,7 +13,7 @@
     "Evaluate with PCK and OKS"
   ],
   "knowledge_refs": [
-    "computer-vision/cv-11-pose-estimation"
+    "computer-vision/cv-10-instance-segmentation"
   ],
   "prerequisites": [
     "CV-09: Semantic Segmentation"

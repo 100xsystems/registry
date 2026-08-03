@@ -13,7 +13,9 @@
     "Tune for compute-bounded devices"
   ],
   "knowledge_refs": [
-    "computer-vision/cv-06-cnns-for-vision"
+    "computer-vision/cv-05-image-classification",
+    "generative-ai/genai-15-vision-language-models",
+    "deep-learning/dl-13-cnn-architectures"
   ],
   "prerequisites": [
     "CV-05: Image Classification"

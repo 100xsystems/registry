@@ -56,7 +56,9 @@
       "duration": "40 min",
       "difficulty": "beginner",
       "knowledge_refs": [
-        "mlops/mlops-01-what-is-mlops"
+        "generative-ai/genai-18-llmops",
+        "llm-engineering/llm-20-llmops-tooling",
+        "llm-engineering/llm-15-llm-serving"
       ]
     },
     {
@@ -68,7 +70,9 @@
       "duration": "50 min",
       "difficulty": "beginner",
       "knowledge_refs": [
-        "mlops/mlops-02-the-ml-lifecycle"
+        "mlops/mlops-01-what-is-mlops",
+        "generative-ai/genai-18-llmops",
+        "llm-engineering/llm-20-llmops-tooling"
       ]
     },
     {
@@ -80,7 +84,9 @@
       "duration": "55 min",
       "difficulty": "intermediate",
       "knowledge_refs": [
-        "mlops/mlops-03-reproducibility-and-versioning"
+        "mlops/mlops-02-the-ml-lifecycle",
+        "generative-ai/genai-18-llmops",
+        "llm-engineering/llm-20-llmops-tooling"
       ]
     },
     {
@@ -92,7 +98,9 @@
       "duration": "55 min",
       "difficulty": "intermediate",
       "knowledge_refs": [
-        "mlops/mlops-04-data-pipelines"
+        "mlops/mlops-03-reproducibility-and-versioning",
+        "generative-ai/genai-18-llmops",
+        "llm-engineering/llm-20-llmops-tooling"
       ]
     },
     {
@@ -104,7 +112,9 @@
       "duration": "50 min",
       "difficulty": "intermediate",
       "knowledge_refs": [
-        "mlops/mlops-05-feature-stores"
+        "mlops/mlops-04-data-pipelines",
+        "generative-ai/genai-18-llmops",
+        "llm-engineering/llm-20-llmops-tooling"
       ]
     },
     {
@@ -116,7 +126,9 @@
       "duration": "55 min",
       "difficulty": "intermediate",
       "knowledge_refs": [
-        "mlops/mlops-06-experiment-tracking"
+        "mlops/mlops-05-feature-stores",
+        "generative-ai/genai-18-llmops",
+        "llm-engineering/llm-20-llmops-tooling"
       ]
     },
     {
@@ -128,7 +140,9 @@
       "duration": "45 min",
       "difficulty": "intermediate",
       "knowledge_refs": [
-        "mlops/mlops-07-model-registry"
+        "mlops/mlops-06-experiment-tracking",
+        "generative-ai/genai-18-llmops",
+        "llm-engineering/llm-20-llmops-tooling"
       ]
     },
     {
@@ -140,7 +154,9 @@
       "duration": "50 min",
       "difficulty": "intermediate",
       "knowledge_refs": [
-        "mlops/mlops-08-training-at-scale"
+        "mlops/mlops-07-model-registry",
+        "deep-learning/dl-19-training-at-scale",
+        "generative-ai/genai-18-llmops"
       ]
     },
     {
@@ -152,7 +168,9 @@
       "duration": "50 min",
       "difficulty": "intermediate",
       "knowledge_refs": [
-        "mlops/mlops-09-model-packaging"
+        "mlops/mlops-08-training-at-scale",
+        "generative-ai/genai-18-llmops",
+        "llm-engineering/llm-20-llmops-tooling"
       ]
     },
     {
@@ -164,7 +182,9 @@
       "duration": "60 min",
       "difficulty": "intermediate",
       "knowledge_refs": [
-        "mlops/mlops-10-model-serving"
+        "mlops/mlops-09-model-packaging",
+        "llm-engineering/llm-15-llm-serving",
+        "generative-ai/genai-18-llmops"
       ]
     },
     {
@@ -176,7 +196,9 @@
       "duration": "55 min",
       "difficulty": "intermediate",
       "knowledge_refs": [
-        "mlops/mlops-11-containerization"
+        "mlops/mlops-10-model-serving",
+        "generative-ai/genai-18-llmops",
+        "llm-engineering/llm-20-llmops-tooling"
       ]
     },
     {
@@ -188,7 +210,9 @@
       "duration": "55 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "mlops/mlops-12-kubernetes-basics"
+        "mlops/mlops-11-containerization",
+        "generative-ai/genai-18-llmops",
+        "llm-engineering/llm-20-llmops-tooling"
       ]
     },
     {
@@ -200,7 +224,9 @@
       "duration": "50 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "mlops/mlops-13-deployment-strategies"
+        "mlops/mlops-12-kubernetes-basics",
+        "llm-engineering/llm-15-llm-serving",
+        "generative-ai/genai-18-llmops"
       ]
     },
     {
@@ -212,7 +238,9 @@
       "duration": "60 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "mlops/mlops-14-monitoring-and-drift"
+        "mlops/mlops-13-deployment-strategies",
+        "generative-ai/genai-18-llmops",
+        "llm-engineering/llm-20-llmops-tooling"
       ]
     },
     {
@@ -224,7 +252,9 @@
       "duration": "50 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "mlops/mlops-15-production-evaluation"
+        "mlops/mlops-14-monitoring-and-drift",
+        "nlp/nlp-20-evaluation-metrics",
+        "deep-learning/dl-20-evaluating-deep-models"
       ]
     },
     {
@@ -236,7 +266,9 @@
       "duration": "55 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "mlops/mlops-16-cicd-for-ml"
+        "mlops/mlops-15-production-evaluation",
+        "generative-ai/genai-18-llmops",
+        "llm-engineering/llm-20-llmops-tooling"
       ]
     },
     {
@@ -248,7 +280,9 @@
       "duration": "50 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "mlops/mlops-17-testing-ml-systems"
+        "mlops/mlops-16-cicd-for-ml",
+        "generative-ai/genai-18-llmops",
+        "llm-engineering/llm-20-llmops-tooling"
       ]
     },
     {
@@ -260,7 +294,9 @@
       "duration": "50 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "mlops/mlops-18-governance"
+        "mlops/mlops-17-testing-ml-systems",
+        "generative-ai/genai-18-llmops",
+        "llm-engineering/llm-20-llmops-tooling"
       ]
     },
     {
@@ -272,7 +308,9 @@
       "duration": "50 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "mlops/mlops-19-cost-and-performance"
+        "mlops/mlops-18-governance",
+        "llm-engineering/llm-16-cost-optimization",
+        "reinforcement-learning/rl-12-proximal-policy-optimization"
       ]
     },
     {
@@ -284,7 +322,9 @@
       "duration": "60 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "mlops/mlops-20-llmops"
+        "mlops/mlops-19-cost-and-performance",
+        "generative-ai/genai-18-llmops",
+        "llm-engineering/llm-20-llmops-tooling"
       ]
     },
     {
@@ -296,7 +336,9 @@
       "duration": "40 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "mlops/mlops-21-roadmap"
+        "mlops/mlops-20-llmops",
+        "generative-ai/genai-18-llmops",
+        "llm-engineering/llm-20-llmops-tooling"
       ]
     }
   ]

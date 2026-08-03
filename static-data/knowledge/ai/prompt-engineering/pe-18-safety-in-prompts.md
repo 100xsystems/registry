@@ -13,7 +13,9 @@
     "Test safety cases"
   ],
   "knowledge_refs": [
-    "prompt-engineering/pe-18-safety-in-prompts"
+    "prompt-engineering/pe-17-domain-specific-prompts",
+    "ai-safety/safety-21-roadmap",
+    "ai-safety/safety-01-why-ai-safety"
   ],
   "prerequisites": [
     "PE-12: Prompt Injection Defense"

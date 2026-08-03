@@ -13,7 +13,9 @@
     "Prefer SVMs on small, high-dimensional datasets"
   ],
   "knowledge_refs": [
-    "machine-learning/ml-11-support-vector-machines"
+    "machine-learning/ml-10-gradient-boosting",
+    "generative-ai/genai-11-embeddings-and-vector-databases",
+    "nlp/nlp-06-word-embeddings"
   ],
   "prerequisites": [
     "ML-07: Logistic Regression"

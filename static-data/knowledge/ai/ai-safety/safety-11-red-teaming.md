@@ -13,7 +13,9 @@
     "Institutionalize red teaming"
   ],
   "knowledge_refs": [
-    "ai-safety/safety-11-red-teaming"
+    "ai-safety/safety-10-safety-evaluations",
+    "generative-ai/genai-19-ethical-ai-and-safety",
+    "llm-engineering/llm-14-guardrails-and-safety"
   ],
   "prerequisites": [
     "SAFETY-10: Safety Evaluations"

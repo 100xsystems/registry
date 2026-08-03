@@ -13,7 +13,7 @@
     "Evaluate masks with mask IoU"
   ],
   "knowledge_refs": [
-    "computer-vision/cv-10-instance-segmentation"
+    "computer-vision/cv-09-semantic-segmentation"
   ],
   "prerequisites": [
     "CV-09: Semantic Segmentation"

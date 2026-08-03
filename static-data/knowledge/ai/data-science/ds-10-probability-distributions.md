@@ -1,48 +1,45 @@
 ---
 {
   "title": "Probability Distributions",
-  "description": "The distributions that show up everywhere in data work — normal, binomial, Poisson and uniform — and how to sample from them.",
+  "description": "The distributions behind data science: Bernoulli, binomial, Poisson, normal and more — and when to use each.",
   "type": "lesson",
   "order": 10,
-  "duration": "55 min",
+  "duration": "60 min",
   "difficulty": "intermediate",
   "learning_objectives": [
-    "Explain the normal distribution and the 68-95-99.7 rule",
-    "Model counts with binomial and Poisson distributions",
-    "Compute probabilities with scipy.stats",
-    "Choose a distribution that matches the data-generating process"
+    "Interpret probability as a model for uncertainty",
+    "Recognize discrete distributions: Bernoulli, binomial, Poisson",
+    "Recognize continuous distributions: uniform, normal, exponential",
+    "Choose a distribution for a real dataset"
   ],
   "knowledge_refs": [
-    "data-science/ds-10-probability-distributions"
+    "data-science/ds-09-statistics-fundamentals",
+    "data-science/ds-11-hypothesis-testing",
+    "machine-learning/ml-13-naive-bayes"
   ],
   "prerequisites": [
     "DS-09: Statistics Fundamentals"
   ],
   "references": [
     {
-      "title": "Python for Data Analysis — Wes McKinney",
-      "url": "https://wesmckinney.com/book/",
-      "description": "The definitive guide to pandas, NumPy and the PyData stack."
+      "title": "Seeing Theory — Brown University",
+      "url": "https://seeing-theory.brown.edu/",
+      "description": "Interactive visualizations of probability distributions."
     },
     {
-      "title": "Pandas User Guide",
-      "url": "https://pandas.pydata.org/docs/user_guide/index.html",
-      "description": "Official documentation for the pandas data-analysis library."
+      "title": "OpenIntro Statistics — Chapter 3 (Distributions)",
+      "url": "https://www.openintro.org/book/os/",
+      "description": "Distributions of random variables with worked examples."
     },
     {
-      "title": "The Elements of Statistical Learning",
-      "url": "https://hastie.su.domains/ElemStatLearn/",
-      "description": "The classic statistical-learning reference (free PDF)."
+      "title": "Khan Academy — Random Variables & Distributions",
+      "url": "https://www.khanacademy.org/math/statistics-probability/random-variables-stats-library",
+      "description": "Free video course on discrete and continuous distributions."
     },
     {
-      "title": "Kaggle Learn — Data Science",
-      "url": "https://www.kaggle.com/learn",
-      "description": "Hands-on micro-courses covering pandas, EDA and modeling."
-    },
-    {
-      "title": "scikit-learn User Guide",
-      "url": "https://scikit-learn.org/stable/user_guide.html",
-      "description": "Authoritative guide to the Python machine-learning toolbox."
+      "title": "SciPy Stats Documentation",
+      "url": "https://docs.scipy.org/doc/scipy/reference/stats.html",
+      "description": "The Python tooling for working with distributions programmatically."
     }
   ]
 }
@@ -52,77 +49,95 @@
 
 ## Introduction
 
-The distributions that show up everywhere in data work — normal, binomial, Poisson and uniform — and how to sample from them. By the end of this lesson you will be able to: Explain the normal distribution and the 68-95-99.7 rule; Model counts with binomial and Poisson distributions; Compute probabilities with scipy.stats; Choose a distribution that matches the data-generating process.
+A **probability distribution** is a model of uncertainty: it tells you, for every possible outcome, how likely it is. When you fit or assume a distribution, you compress a dataset into a few parameters (like a mean and a spread) and gain the ability to *predict*: what fraction of orders will arrive late? How rare is this sales spike? This lesson introduces the handful of distributions that power data science — when to use each, and how to work with them in SciPy.
 
 ## Key Concepts
 
-### 1. Explain the normal distribution and the 68-95-99.7 rule
+### 1. Discrete distributions: counting events
 
-Target: Explain the normal distribution and the 68-95-99.7 rule. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+**Bernoulli(1 trial, 2 outcomes).** Models a single yes/no event — "will this user click?" `P(1) = p`, `P(0) = 1-p`.
+
+**Binomial(n trials, p).** Counts the number of successes in n *independent* Bernoulli trials — "how many of 1,000 emails will be opened if each opens with probability 0.2?" Mean = np, variance = np(1−p).
+
+**Poisson(λ).** Counts events in a fixed interval when events are rare and independent — "how many support tickets arrive per hour?" The signature property: **mean = variance = λ**. When a count variable's variance is much larger than its mean (overdispersion), the Poisson assumption is wrong — a classic data-science red flag.
+
+### 2. Continuous distributions: measuring values
+
+**Uniform(a, b).** Every value in an interval is equally likely. Used for random sampling and as an "ignorance" prior.
+
+**Normal(μ, σ).** The bell curve — measurements of natural quantities (heights, errors, test scores). Governed by the Central Limit Theorem for averages.
+
+**Exponential(λ).** Models *time between events* in a Poisson process — "how long until the next request?" Memoryless: the expected remaining wait doesn't depend on how long you've already waited.
 
 ```python
-import numpy as np
 from scipy import stats
-
-x = np.linspace(-4, 4, 200)
-pdf = stats.norm.pdf(x, loc=0, scale=1)
-print("pdf at 0:", round(pdf[100], 4))
-```
-### 2. Model counts with binomial and Poisson distributions
-
-Target: Model counts with binomial and Poisson distributions. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
-
-```python
-from scipy import stats
-
-# P(X <= 3) for X ~ Binomial(n=10, p=0.5)
-print("P(X<=3):", round(stats.binom.cdf(3, n=10, p=0.5), 4))
-# P(X = 2) for X ~ Poisson(lambda=3)
-print("P(X=2):", round(stats.poisson.pmf(2, mu=3), 4))
-```
-### 3. Compute probabilities with scipy.stats
-
-Target: Compute probabilities with scipy.stats. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
-
-```python
 import numpy as np
 
-rng = np.random.default_rng(0)
-samples = rng.normal(loc=0, scale=1, size=100_000)
-within_1 = np.mean(np.abs(samples) <= 1)
-within_2 = np.mean(np.abs(samples) <= 2)
-print(f"within 1 sd: {within_1:.3f} (expect 0.68)")
-print(f"within 2 sd: {within_2:.3f} (expect 0.95)")
+rng = np.random.default_rng(42)
+x = stats.poisson.rvs(mu=3, size=1000, random_state=rng)   # tickets/hour, mean 3
+print(x.mean(), x.var())                                    # ~3, ~3
 ```
-### 4. Choose a distribution that matches the data-generating process
 
-Target: Choose a distribution that matches the data-generating process. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+### 3. The normal family: why it dominates
+
+Any process that sums many small independent effects becomes normal — that is the Central Limit Theorem's practical meaning. Consequences for data science:
+
+- **Errors** of a well-specified model are often roughly normal → residual plots that look like a bell confirm model assumptions.
+- **Log-normal data**: prices and incomes are often right-skewed; taking the log makes them normal-ish. This single trick (log transform) unlocks linear models on data that would otherwise violate assumptions.
+- **Standardizing** `z = (x − μ)/σ` converts any normal to the standard normal — the basis for z-tests and confidence intervals.
+
+### 4. Choosing a distribution for real data
+
+The practical workflow is: **look, hypothesize, check.**
+
+```python
+import seaborn as sns
+
+sns.histplot(data=df, x="tickets", discrete=True)   # look at the shape
+print(df["tickets"].mean(), df["tickets"].var())    # ~equal? Poisson candidate
+```
+
+- Count data → try Poisson or negative binomial.
+- Positive continuous, skewed → log-normal or exponential.
+- Bell-shaped, symmetric → normal.
+- Bounded [0,1] (probabilities, rates) → beta distribution.
+
+### 5. From distribution to decision
+
+Distributions let you answer *"how unusual is this?"* — the essence of anomaly detection and hypothesis testing. Example: if support tickets are Poisson(3) per hour and this hour had 9 tickets, how surprising is that?
 
 ```python
 from scipy import stats
-
-# Events per hour ~ Poisson(5); probability of <= 3 events
-print("P(<=3):", round(stats.poisson.cdf(3, mu=5), 4))
+p_9_or_more = 1 - stats.poisson.cdf(8, mu=3)   # P(X >= 9)
+print(f"{p_9_or_more:.4f}")                     # ~0.0038 — quite unusual!
 ```
+
+This "tail probability" is exactly the logic behind p-values, which you'll formalize next lesson.
 
 ## Practice Questions
 
-1. What is the key idea behind "Probability Distributions"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+1. A call center gets an average of 5 calls per 10 minutes. What distribution models the count, and what's the variance?
+2. You measure delivery times (always positive, right-skewed). Which distribution family would you try, and what transform might help?
+3. Using SciPy, compute the probability of 3 or fewer successes in 20 trials with p=0.25.
+4. Why is the normal distribution central to model *errors*?
 
 ## LLM Prompts for Deeper Understanding
 
-1. "Explain Probability Distributions with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Probability Distributions"
-1. "Provide advanced patterns and performance considerations for Probability Distributions"
+1. "Explain Poisson vs negative binomial and when overdispersion matters."
+2. "Show me a decision tree for picking a probability distribution for a variable."
+3. "How do distributions connect to anomaly detection in real systems?"
 
 ## Key Takeaways
 
-- Master the core ideas of Probability Distributions through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+- Distributions compress uncertainty into parameters and enable prediction.
+- Bernoulli/binomial count successes; Poisson counts rare events (mean = variance).
+- Uniform, normal, and exponential cover the continuous workhorses.
+- Log transforms tame right-skewed data; standardized normals power inference.
+- Tail probabilities ("how unusual is this?") are the seed of hypothesis testing.
 
-## Further Reading
+## Footnotes & Attribution
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+1. Brown University, *Seeing Theory*. Interactive distributions. [https://seeing-theory.brown.edu/](https://seeing-theory.brown.edu/)
+2. Diez, Barr, Çetinkaya-Rundel, *OpenIntro Statistics* (Ch. 3). [https://www.openintro.org/book/os/](https://www.openintro.org/book/os/)
+3. Khan Academy, *Random Variables & Distributions*. [https://www.khanacademy.org/math/statistics-probability/random-variables-stats-library](https://www.khanacademy.org/math/statistics-probability/random-variables-stats-library)
+4. SciPy documentation, *Statistics (scipy.stats)*. [https://docs.scipy.org/doc/scipy/reference/stats.html](https://docs.scipy.org/doc/scipy/reference/stats.html)

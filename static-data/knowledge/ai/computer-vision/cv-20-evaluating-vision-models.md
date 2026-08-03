@@ -13,7 +13,9 @@
     "Review failure cases systematically"
   ],
   "knowledge_refs": [
-    "computer-vision/cv-20-evaluating-vision-models"
+    "computer-vision/cv-19-vision-transformers",
+    "deep-learning/dl-20-evaluating-deep-models",
+    "prompt-engineering/pe-13-evaluating-prompts"
   ],
   "prerequisites": [
     "CV-08: Object Detection"

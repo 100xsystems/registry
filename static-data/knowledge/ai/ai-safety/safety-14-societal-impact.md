@@ -13,7 +13,9 @@
     "Identify responsible deployment choices"
   ],
   "knowledge_refs": [
-    "ai-safety/safety-14-societal-impact"
+    "ai-safety/safety-13-auditing-models",
+    "generative-ai/genai-19-ethical-ai-and-safety",
+    "llm-engineering/llm-14-guardrails-and-safety"
   ],
   "prerequisites": [
     "SAFETY-08: AI Governance & Policy"

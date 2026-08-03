@@ -13,7 +13,9 @@
     "Compress retrieved context"
   ],
   "knowledge_refs": [
-    "llm-engineering/llm-08-advanced-rag"
+    "llm-engineering/llm-07-rag-engineering",
+    "ai-agents/agents-11-rag-agents",
+    "prompt-engineering/pe-09-prompts-for-rag"
   ],
   "prerequisites": [
     "LLM-07: RAG Engineering"

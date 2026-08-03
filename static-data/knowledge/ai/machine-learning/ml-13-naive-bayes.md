@@ -13,7 +13,7 @@
     "Know when Naive Bayes is a good first choice"
   ],
   "knowledge_refs": [
-    "machine-learning/ml-13-naive-bayes"
+    "machine-learning/ml-12-k-nearest-neighbors"
   ],
   "prerequisites": [
     "ML-07: Logistic Regression"

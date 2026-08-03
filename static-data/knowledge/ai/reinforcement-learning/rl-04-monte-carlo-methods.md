@@ -13,7 +13,8 @@
     "Understand variance of MC returns"
   ],
   "knowledge_refs": [
-    "reinforcement-learning/rl-04-monte-carlo-methods"
+    "reinforcement-learning/rl-03-dynamic-programming",
+    "machine-learning/ml-09-ensemble-methods"
   ],
   "prerequisites": [
     "RL-03: Dynamic Programming"

@@ -13,7 +13,9 @@
     "Close the feedback loop"
   ],
   "knowledge_refs": [
-    "mlops/mlops-15-production-evaluation"
+    "mlops/mlops-14-monitoring-and-drift",
+    "nlp/nlp-20-evaluation-metrics",
+    "deep-learning/dl-20-evaluating-deep-models"
   ],
   "prerequisites": [
     "MLOPS-14: Monitoring & Drift Detection"

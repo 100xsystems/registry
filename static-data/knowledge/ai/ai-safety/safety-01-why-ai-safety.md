@@ -13,7 +13,9 @@
     "Recognize safety as an engineering discipline"
   ],
   "knowledge_refs": [
-    "ai-safety/safety-01-why-ai-safety"
+    "generative-ai/genai-19-ethical-ai-and-safety",
+    "llm-engineering/llm-14-guardrails-and-safety",
+    "prompt-engineering/pe-18-safety-in-prompts"
   ],
   "prerequisites": [
     "GENAI-01: What Is Generative AI?"

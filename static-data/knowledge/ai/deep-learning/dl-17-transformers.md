@@ -13,7 +13,9 @@
     "Use nn.TransformerEncoder"
   ],
   "knowledge_refs": [
-    "deep-learning/dl-17-transformers"
+    "deep-learning/dl-16-lstm-and-gru",
+    "nlp/nlp-15-attention-and-transformers",
+    "computer-vision/cv-19-vision-transformers"
   ],
   "prerequisites": [
     "DL-16: LSTM & GRU"

@@ -13,7 +13,9 @@
     "Choose a pattern by task type"
   ],
   "knowledge_refs": [
-    "ai-agents/agents-17-agent-design-patterns"
+    "ai-agents/agents-16-deploying-agents",
+    "llm-engineering/llm-11-llm-agents",
+    "generative-ai/genai-12-agents-and-tool-use"
   ],
   "prerequisites": [
     "AGENTS-06: Multi-Agent Systems"

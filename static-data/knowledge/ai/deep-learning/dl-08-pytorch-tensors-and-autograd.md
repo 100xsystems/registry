@@ -13,7 +13,7 @@
     "Control gradient tracking with no_grad"
   ],
   "knowledge_refs": [
-    "deep-learning/dl-08-pytorch-tensors-and-autograd"
+    "deep-learning/dl-07-optimizers"
   ],
   "prerequisites": [
     "DL-05: Backpropagation"

@@ -13,7 +13,7 @@
     "Join communities and stay current"
   ],
   "knowledge_refs": [
-    "machine-learning/ml-21-roadmap"
+    "machine-learning/ml-20-dimensionality-reduction"
   ],
   "prerequisites": [
     "ML-20: Dimensionality Reduction with PCA"

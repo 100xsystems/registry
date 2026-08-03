@@ -13,7 +13,7 @@
     "Frame overfitting and underfitting intuitively"
   ],
   "knowledge_refs": [
-    "machine-learning/ml-03-the-learning-problem"
+    "machine-learning/ml-02-types-of-learning"
   ],
   "prerequisites": [
     "ML-02: Types of Learning"

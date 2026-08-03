@@ -56,7 +56,7 @@
       "duration": "40 min",
       "difficulty": "beginner",
       "knowledge_refs": [
-        "machine-learning/ml-01-what-is-machine-learning"
+        "machine-learning/ml-02-types-of-learning"
       ]
     },
     {
@@ -68,7 +68,7 @@
       "duration": "45 min",
       "difficulty": "beginner",
       "knowledge_refs": [
-        "machine-learning/ml-02-types-of-learning"
+        "machine-learning/ml-01-what-is-machine-learning"
       ]
     },
     {
@@ -80,7 +80,7 @@
       "duration": "50 min",
       "difficulty": "beginner",
       "knowledge_refs": [
-        "machine-learning/ml-03-the-learning-problem"
+        "machine-learning/ml-02-types-of-learning"
       ]
     },
     {
@@ -92,7 +92,7 @@
       "duration": "50 min",
       "difficulty": "beginner",
       "knowledge_refs": [
-        "machine-learning/ml-04-python-ml-stack"
+        "machine-learning/ml-03-the-learning-problem"
       ]
     },
     {
@@ -104,7 +104,9 @@
       "duration": "55 min",
       "difficulty": "beginner",
       "knowledge_refs": [
-        "machine-learning/ml-05-linear-regression"
+        "machine-learning/ml-04-python-ml-stack",
+        "deep-learning/dl-02-perceptron-and-linear-units",
+        "computer-vision/cv-05-image-classification"
       ]
     },
     {
@@ -116,7 +118,8 @@
       "duration": "55 min",
       "difficulty": "intermediate",
       "knowledge_refs": [
-        "machine-learning/ml-06-gradient-descent"
+        "machine-learning/ml-05-linear-regression",
+        "reinforcement-learning/rl-10-policy-gradient-methods"
       ]
     },
     {
@@ -128,7 +131,9 @@
       "duration": "55 min",
       "difficulty": "intermediate",
       "knowledge_refs": [
-        "machine-learning/ml-07-logistic-regression"
+        "machine-learning/ml-06-gradient-descent",
+        "computer-vision/cv-05-image-classification",
+        "nlp/nlp-07-text-classification"
       ]
     },
     {
@@ -140,7 +145,8 @@
       "duration": "55 min",
       "difficulty": "intermediate",
       "knowledge_refs": [
-        "machine-learning/ml-08-decision-trees"
+        "machine-learning/ml-07-logistic-regression",
+        "reinforcement-learning/rl-02-markov-decision-processes"
       ]
     },
     {
@@ -152,7 +158,9 @@
       "duration": "55 min",
       "difficulty": "intermediate",
       "knowledge_refs": [
-        "machine-learning/ml-09-ensemble-methods"
+        "machine-learning/ml-08-decision-trees",
+        "reinforcement-learning/rl-04-monte-carlo-methods",
+        "reinforcement-learning/rl-10-policy-gradient-methods"
       ]
     },
     {
@@ -164,7 +172,8 @@
       "duration": "60 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "machine-learning/ml-10-gradient-boosting"
+        "machine-learning/ml-09-ensemble-methods",
+        "reinforcement-learning/rl-10-policy-gradient-methods"
       ]
     },
     {
@@ -176,7 +185,9 @@
       "duration": "55 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "machine-learning/ml-11-support-vector-machines"
+        "machine-learning/ml-10-gradient-boosting",
+        "generative-ai/genai-11-embeddings-and-vector-databases",
+        "nlp/nlp-06-word-embeddings"
       ]
     },
     {
@@ -188,7 +199,7 @@
       "duration": "45 min",
       "difficulty": "beginner",
       "knowledge_refs": [
-        "machine-learning/ml-12-k-nearest-neighbors"
+        "machine-learning/ml-11-support-vector-machines"
       ]
     },
     {
@@ -200,7 +211,7 @@
       "duration": "45 min",
       "difficulty": "intermediate",
       "knowledge_refs": [
-        "machine-learning/ml-13-naive-bayes"
+        "machine-learning/ml-12-k-nearest-neighbors"
       ]
     },
     {
@@ -212,7 +223,9 @@
       "duration": "55 min",
       "difficulty": "intermediate",
       "knowledge_refs": [
-        "machine-learning/ml-14-feature-scaling-and-selection"
+        "machine-learning/ml-13-naive-bayes",
+        "computer-vision/cv-13-feature-detection",
+        "generative-ai/genai-06-llm-architecture"
       ]
     },
     {
@@ -224,7 +237,8 @@
       "duration": "55 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "machine-learning/ml-15-regularization"
+        "deep-learning/dl-11-regularization-for-deep-learning",
+        "machine-learning/ml-14-feature-scaling-and-selection"
       ]
     },
     {
@@ -236,7 +250,7 @@
       "duration": "55 min",
       "difficulty": "intermediate",
       "knowledge_refs": [
-        "machine-learning/ml-16-cross-validation"
+        "machine-learning/ml-15-regularization"
       ]
     },
     {
@@ -248,7 +262,9 @@
       "duration": "60 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "machine-learning/ml-17-hyperparameter-tuning"
+        "machine-learning/ml-16-cross-validation",
+        "llm-engineering/llm-16-cost-optimization",
+        "reinforcement-learning/rl-12-proximal-policy-optimization"
       ]
     },
     {
@@ -260,7 +276,9 @@
       "duration": "55 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "machine-learning/ml-18-classification-metrics"
+        "machine-learning/ml-17-hyperparameter-tuning",
+        "computer-vision/cv-05-image-classification",
+        "nlp/nlp-07-text-classification"
       ]
     },
     {
@@ -272,7 +290,7 @@
       "duration": "50 min",
       "difficulty": "intermediate",
       "knowledge_refs": [
-        "machine-learning/ml-19-kmeans-clustering"
+        "machine-learning/ml-18-classification-metrics"
       ]
     },
     {
@@ -284,7 +302,7 @@
       "duration": "55 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "machine-learning/ml-20-dimensionality-reduction"
+        "machine-learning/ml-19-kmeans-clustering"
       ]
     },
     {
@@ -296,7 +314,7 @@
       "duration": "40 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "machine-learning/ml-21-roadmap"
+        "machine-learning/ml-20-dimensionality-reduction"
       ]
     }
   ]

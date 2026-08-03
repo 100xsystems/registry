@@ -13,7 +13,9 @@
     "Tune PPO hyperparameters"
   ],
   "knowledge_refs": [
-    "reinforcement-learning/rl-12-proximal-policy-optimization"
+    "reinforcement-learning/rl-11-actor-critic",
+    "llm-engineering/llm-16-cost-optimization",
+    "mlops/mlops-19-cost-and-performance"
   ],
   "prerequisites": [
     "RL-11: Actor-Critic Methods"

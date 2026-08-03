@@ -13,7 +13,9 @@
     "Budget per user or task"
   ],
   "knowledge_refs": [
-    "ai-agents/agents-19-agent-cost-and-scale"
+    "ai-agents/agents-18-enterprise-agents",
+    "llm-engineering/llm-11-llm-agents",
+    "generative-ai/genai-12-agents-and-tool-use"
   ],
   "prerequisites": [
     "AGENTS-12: Evaluating Agents"

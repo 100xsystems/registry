@@ -13,7 +13,9 @@
     "Know why attention replaced recurrence"
   ],
   "knowledge_refs": [
-    "nlp/nlp-12-sequence-models"
+    "nlp/nlp-11-topic-modeling",
+    "generative-ai/genai-03-text-generation-basics",
+    "deep-learning/dl-16-lstm-and-gru"
   ],
   "prerequisites": [
     "DL-16: LSTM & GRU"

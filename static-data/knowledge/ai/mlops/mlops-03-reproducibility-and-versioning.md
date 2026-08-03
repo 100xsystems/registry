@@ -13,7 +13,9 @@
     "Reproduce any historical experiment"
   ],
   "knowledge_refs": [
-    "mlops/mlops-03-reproducibility-and-versioning"
+    "mlops/mlops-02-the-ml-lifecycle",
+    "generative-ai/genai-18-llmops",
+    "llm-engineering/llm-20-llmops-tooling"
   ],
   "prerequisites": [
     "MLOPS-02: The ML Lifecycle"

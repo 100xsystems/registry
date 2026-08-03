@@ -13,7 +13,8 @@
     "Understand A2C and A3C"
   ],
   "knowledge_refs": [
-    "reinforcement-learning/rl-11-actor-critic"
+    "reinforcement-learning/rl-10-policy-gradient-methods",
+    "machine-learning/ml-09-ensemble-methods"
   ],
   "prerequisites": [
     "RL-10: Policy Gradient Methods"

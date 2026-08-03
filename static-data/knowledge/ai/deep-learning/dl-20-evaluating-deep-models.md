@@ -13,7 +13,9 @@
     "Track experiments with metrics logging"
   ],
   "knowledge_refs": [
-    "deep-learning/dl-20-evaluating-deep-models"
+    "deep-learning/dl-19-training-at-scale",
+    "computer-vision/cv-20-evaluating-vision-models",
+    "prompt-engineering/pe-13-evaluating-prompts"
   ],
   "prerequisites": [
     "DL-14: Transfer Learning"

@@ -13,7 +13,7 @@
     "Tune learning rate and weight decay"
   ],
   "knowledge_refs": [
-    "deep-learning/dl-07-optimizers"
+    "deep-learning/dl-06-loss-functions"
   ],
   "prerequisites": [
     "DL-05: Backpropagation"

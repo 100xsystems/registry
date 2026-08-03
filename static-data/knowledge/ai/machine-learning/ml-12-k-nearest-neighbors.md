@@ -13,7 +13,7 @@
     "Describe the curse of dimensionality"
   ],
   "knowledge_refs": [
-    "machine-learning/ml-12-k-nearest-neighbors"
+    "machine-learning/ml-11-support-vector-machines"
   ],
   "prerequisites": [
     "ML-04: The Python ML Stack"

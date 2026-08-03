@@ -13,7 +13,7 @@
     "Capture frames from a webcam"
   ],
   "knowledge_refs": [
-    "computer-vision/cv-12-opencv-fundamentals"
+    "computer-vision/cv-11-pose-estimation"
   ],
   "prerequisites": [
     "CV-03: Image Processing Fundamentals"

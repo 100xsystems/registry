@@ -13,7 +13,9 @@
     "Handle unreliable sources"
   ],
   "knowledge_refs": [
-    "ai-agents/agents-08-research-agents"
+    "ai-agents/agents-07-langchain-agents",
+    "llm-engineering/llm-11-llm-agents",
+    "generative-ai/genai-12-agents-and-tool-use"
   ],
   "prerequisites": [
     "AGENTS-07: Building Agents with LangChain"

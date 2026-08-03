@@ -13,7 +13,8 @@
     "Run YOLO with the Ultralytics library"
   ],
   "knowledge_refs": [
-    "computer-vision/cv-08-object-detection"
+    "computer-vision/cv-07-transfer-learning-for-vision",
+    "mlops/mlops-14-monitoring-and-drift"
   ],
   "prerequisites": [
     "CV-07: Transfer Learning for Vision"

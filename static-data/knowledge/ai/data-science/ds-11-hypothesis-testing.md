@@ -1,48 +1,45 @@
 ---
 {
   "title": "Hypothesis Testing",
-  "description": "Null hypotheses, p-values, t-tests and the judgment calls that separate rigorous analysis from pattern-chasing.",
+  "description": "Null hypotheses, p-values, t-tests and the statistical decisions that separate real effects from noise.",
   "type": "lesson",
   "order": 11,
   "duration": "60 min",
   "difficulty": "intermediate",
   "learning_objectives": [
-    "State a null and alternative hypothesis clearly",
-    "Run t-tests and chi-square tests with scipy",
-    "Interpret p-values and effect sizes correctly",
-    "Recognize multiple-comparison and p-hacking traps"
+    "Formulate null and alternative hypotheses",
+    "Explain what a p-value actually means — and what it doesn't",
+    "Run t-tests, chi-square tests and interpret results",
+    "Avoid common misinterpretations and p-hacking"
   ],
   "knowledge_refs": [
-    "data-science/ds-11-hypothesis-testing"
+    "data-science/ds-10-probability-distributions",
+    "data-science/ds-09-statistics-fundamentals",
+    "data-science/ds-12-correlation-and-causation"
   ],
   "prerequisites": [
     "DS-10: Probability Distributions"
   ],
   "references": [
     {
-      "title": "Python for Data Analysis — Wes McKinney",
-      "url": "https://wesmckinney.com/book/",
-      "description": "The definitive guide to pandas, NumPy and the PyData stack."
+      "title": "OpenIntro Statistics — Chapters 5–6 (Inference)",
+      "url": "https://www.openintro.org/book/os/",
+      "description": "Hypothesis testing and t-tests with worked examples."
     },
     {
-      "title": "Pandas User Guide",
-      "url": "https://pandas.pydata.org/docs/user_guide/index.html",
-      "description": "Official documentation for the pandas data-analysis library."
+      "title": "StatQuest — p-values and Hypothesis Testing",
+      "url": "https://www.youtube.com/playlist?list=PLblh5JKOoLUK0FLuzwntyYI10UQFUhsY9",
+      "description": "Clear visual explanations of p-values and statistical tests."
     },
     {
-      "title": "The Elements of Statistical Learning",
-      "url": "https://hastie.su.domains/ElemStatLearn/",
-      "description": "The classic statistical-learning reference (free PDF)."
+      "title": "Khan Academy — Significance Tests",
+      "url": "https://www.khanacademy.org/math/statistics-probability/significance-tests-confidence-intervals-two-samples",
+      "description": "Step-by-step significance testing course."
     },
     {
-      "title": "Kaggle Learn — Data Science",
-      "url": "https://www.kaggle.com/learn",
-      "description": "Hands-on micro-courses covering pandas, EDA and modeling."
-    },
-    {
-      "title": "scikit-learn User Guide",
-      "url": "https://scikit-learn.org/stable/user_guide.html",
-      "description": "Authoritative guide to the Python machine-learning toolbox."
+      "title": "scipy.stats — Statistical Tests",
+      "url": "https://docs.scipy.org/doc/scipy/reference/stats.html",
+      "description": "The Python implementations of t-tests, chi-square, ANOVA and more."
     }
   ]
 }
@@ -52,82 +49,99 @@
 
 ## Introduction
 
-Null hypotheses, p-values, t-tests and the judgment calls that separate rigorous analysis from pattern-chasing. By the end of this lesson you will be able to: State a null and alternative hypothesis clearly; Run t-tests and chi-square tests with scipy; Interpret p-values and effect sizes correctly; Recognize multiple-comparison and p-hacking traps.
+When your A/B test shows a 3% lift, is it real or is it noise? **Hypothesis testing** is the formal machinery for answering exactly that. The framework: assume nothing is happening (the *null hypothesis*), then measure how surprising your data is under that assumption. If the data is surprising enough, you reject "nothing is happening." This lesson covers the framework, the infamous **p-value**, the most common tests, and — critically — the ways people abuse it.
 
 ## Key Concepts
 
-### 1. State a null and alternative hypothesis clearly
+### 1. The framework: null vs alternative
 
-Target: State a null and alternative hypothesis clearly. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+- **Null hypothesis (H₀)**: the status quo — "no difference," "no effect," "no relationship."
+- **Alternative hypothesis (H₁)**: the claim you're testing for — "there is a difference."
+
+Example: you test whether a new checkout page increases conversion.
+
+- H₀: conversion(new) = conversion(old)
+- H₁: conversion(new) ≠ conversion(old)
+
+You never *prove* H₁; you gather evidence against H₀ and, if strong enough, **reject** it.
+
+### 2. What a p-value really means
+
+**The p-value is the probability of seeing data at least this extreme, *assuming the null hypothesis is true*.** Two immediate consequences:
+
+- A p-value is NOT the probability that H₀ is true.
+- A p-value is NOT the probability the result was "caused by chance."
+
+The decision rule: if `p < α` (typically α = 0.05), the data is too unlikely under H₀, so reject H₀. This means: with α = 0.05, even when H₀ is true, you'll wrongly reject it 5% of the time — the **false positive rate**, by design.
+
+### 3. Type I and Type II errors
+
+| | H₀ true | H₀ false |
+| --- | --- | --- |
+| You fail to reject H₀ | ✅ Correct | ❌ **Type II error** (missed the effect) |
+| You reject H₀ | ❌ **Type I error** (false alarm) | ✅ Correct |
+
+- **Type I error** rate is controlled by α.
+- **Type II error** rate is controlled by *sample size and effect size*; 1 − Type II = **statistical power**.
+
+When a study "didn't find an effect," always ask: was it a true null, or just an underpowered sample?
+
+### 4. Running the common tests in Python
+
+**t-test** — comparing means of one or two groups (works when data is roughly normal or n is large):
 
 ```python
-import numpy as np
 from scipy import stats
-
-control = np.array([12, 15, 14, 16, 13])
-treated = np.array([17, 19, 18, 21, 16])
-t, p = stats.ttest_ind(control, treated)
-print(f"t={t:.2f} p={p:.3f}")
-```
-### 2. Run t-tests and chi-square tests with scipy
-
-Target: Run t-tests and chi-square tests with scipy. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
-
-```python
-from scipy import stats
-
-# Observed vs expected counts
-observed = [42, 58]
-expected = [50, 50]
-chi2, p = stats.chisquare(observed, expected)
-print(f"chi2={chi2:.2f} p={p:.3f}")
-```
-### 3. Interpret p-values and effect sizes correctly
-
-Target: Interpret p-values and effect sizes correctly. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
-
-```python
 import numpy as np
 
-# Effect size: Cohen's d (signal relative to noise)
-a = np.array([12, 15, 14, 16, 13])
-b = np.array([17, 19, 18, 21, 16])
-pooled = np.sqrt((a.var(ddof=1) + b.var(ddof=1)) / 2)
-d = (b.mean() - a.mean()) / pooled
-print(f"Cohen's d = {d:.2f}")
-```
-### 4. Recognize multiple-comparison and p-hacking traps
+a = np.array([52, 48, 55, 49, 53, 51])
+b = np.array([58, 61, 57, 60, 59, 62])
 
-Target: Recognize multiple-comparison and p-hacking traps. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+t_stat, p_value = stats.ttest_ind(a, b)
+print(f"t={t_stat:.2f}, p={p_value:.4f}")     # p tiny -> reject H0: means differ
+```
+
+**Chi-square test** — association between two categorical variables:
 
 ```python
-import numpy as np
-from scipy import stats
-
-# Multiple comparisons: correct with Bonferroni
-pvals = np.array([0.04, 0.02, 0.6])
-corrected = np.minimum(pvals * len(pvals), 1.0)
-print("corrected:", corrected)
+observed = np.array([[120, 80], [90, 110]])   # e.g. plan x converted
+chi2, p, dof, expected = stats.chi2_contingency(observed)
+print(f"chi2={chi2:.2f}, p={p:.4f}")
 ```
+
+**ANOVA** — comparing means of 3+ groups (`stats.f_oneway(a, b, c)`).
+
+### 5. The failure modes: what to watch for
+
+1. **p-hacking** — testing many hypotheses and reporting only the significant ones. If you run 20 tests at α=0.05, expect ~1 false positive by chance. Correct it (Bonferroni, FDR) or pre-register hypotheses.
+2. **Misreading p** — see section 2. p = 0.04 is not "96% sure it's real."
+3. **Ignoring effect size** — with a huge sample, even a 0.1% difference becomes "significant." Always report *how big* the effect is, not just *whether* it exists.
+4. **Data snooping** — deciding the test *after* looking at the data. Decide the hypothesis first.
 
 ## Practice Questions
 
-1. What is the key idea behind "Hypothesis Testing"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+1. Write H₀ and H₁ for: "Does adding a loyalty discount increase repeat purchases?"
+2. Explain p-value to a non-technical stakeholder in two sentences.
+3. You run 10 independent tests at α=0.05 and one is significant. Why is that not strong evidence?
+4. When would you use a chi-square test instead of a t-test?
 
 ## LLM Prompts for Deeper Understanding
 
-1. "Explain Hypothesis Testing with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Hypothesis Testing"
-1. "Provide advanced patterns and performance considerations for Hypothesis Testing"
+1. "Explain p-values, Type I/II errors, and power with a concrete A/B testing story."
+2. "What is multiple comparisons, and what correction methods exist (Bonferroni, Benjamini-Hochberg)?"
+3. "How does hypothesis testing relate to model evaluation in machine learning?"
 
 ## Key Takeaways
 
-- Master the core ideas of Hypothesis Testing through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+- H₀ = nothing happening; reject it only when data is surprising under H₀.
+- p-value = P(data this extreme | H₀ true) — not P(H₀ true).
+- α controls Type I (false alarm); power/sample size control Type II (missed effect).
+- t-tests compare means, chi-square tests compare categories, ANOVA compares 3+ groups.
+- Watch for p-hacking, tiny-but-significant effects, and deciding tests after seeing data.
 
-## Further Reading
+## Footnotes & Attribution
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+1. Diez, Barr, Çetinkaya-Rundel, *OpenIntro Statistics* (Chs. 5–6). [https://www.openintro.org/book/os/](https://www.openintro.org/book/os/)
+2. Josh Starmer, *StatQuest — Statistics Fundamentals* (p-values and hypothesis testing). [https://www.youtube.com/playlist?list=PLblh5JKOoLUK0FLuzwntyYI10UQFUhsY9](https://www.youtube.com/playlist?list=PLblh5JKOoLUK0FLuzwntyYI10UQFUhsY9)
+3. Khan Academy, *Significance Tests*. [https://www.khanacademy.org/math/statistics-probability/significance-tests-confidence-intervals-two-samples](https://www.khanacademy.org/math/statistics-probability/significance-tests-confidence-intervals-two-samples)
+4. SciPy documentation, *scipy.stats*. [https://docs.scipy.org/doc/scipy/reference/stats.html](https://docs.scipy.org/doc/scipy/reference/stats.html)

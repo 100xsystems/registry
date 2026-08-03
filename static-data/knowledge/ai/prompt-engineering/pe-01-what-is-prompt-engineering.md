@@ -13,7 +13,9 @@
     "Evaluate prompts systematically"
   ],
   "knowledge_refs": [
-    "prompt-engineering/pe-01-what-is-prompt-engineering"
+    "generative-ai/genai-04-prompt-engineering",
+    "llm-engineering/llm-17-observability",
+    "llm-engineering/llm-04-prompting-systems"
   ],
   "prerequisites": [
     "GENAI-04: Prompt Engineering"

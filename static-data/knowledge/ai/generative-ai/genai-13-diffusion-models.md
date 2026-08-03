@@ -13,7 +13,8 @@
     "Control generation with prompts and seeds"
   ],
   "knowledge_refs": [
-    "generative-ai/genai-13-diffusion-models"
+    "generative-ai/genai-12-agents-and-tool-use",
+    "prompt-engineering/pe-08-prompts-for-images"
   ],
   "prerequisites": [
     "DL-12: Convolutional Networks"

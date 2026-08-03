@@ -13,7 +13,9 @@
     "Measure safety in production"
   ],
   "knowledge_refs": [
-    "ai-safety/safety-19-responsible-products"
+    "ai-safety/safety-18-emerging-risks",
+    "generative-ai/genai-19-ethical-ai-and-safety",
+    "llm-engineering/llm-14-guardrails-and-safety"
   ],
   "prerequisites": [
     "SAFETY-12: Guardrails & Content Moderation"

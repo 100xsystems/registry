@@ -13,7 +13,8 @@
     "Follow research responsibly"
   ],
   "knowledge_refs": [
-    "reinforcement-learning/rl-21-roadmap"
+    "reinforcement-learning/rl-20-evaluating-rl-agents",
+    "ai-safety/safety-08-governance"
   ],
   "prerequisites": [
     "RL-20: Evaluating RL Agents"

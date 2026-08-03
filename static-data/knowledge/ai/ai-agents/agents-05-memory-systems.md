@@ -13,7 +13,9 @@
     "Compress and summarize history"
   ],
   "knowledge_refs": [
-    "ai-agents/agents-05-memory-systems"
+    "ai-agents/agents-04-reasoning-and-planning",
+    "llm-engineering/llm-11-llm-agents",
+    "generative-ai/genai-12-agents-and-tool-use"
   ],
   "prerequisites": [
     "AGENTS-04: Reasoning & Planning (ReAct)"

@@ -13,7 +13,9 @@
     "Avoid pickle pitfalls"
   ],
   "knowledge_refs": [
-    "mlops/mlops-09-model-packaging"
+    "mlops/mlops-08-training-at-scale",
+    "generative-ai/genai-18-llmops",
+    "llm-engineering/llm-20-llmops-tooling"
   ],
   "prerequisites": [
     "MLOPS-07: Model Registry"

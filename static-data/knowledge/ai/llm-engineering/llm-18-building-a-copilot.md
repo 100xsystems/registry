@@ -13,7 +13,9 @@
     "Ship, monitor and iterate"
   ],
   "knowledge_refs": [
-    "llm-engineering/llm-18-building-a-copilot"
+    "llm-engineering/llm-17-observability",
+    "prompt-engineering/pe-10-system-prompts",
+    "generative-ai/genai-06-llm-architecture"
   ],
   "prerequisites": [
     "LLM-11: Building LLM Agents"

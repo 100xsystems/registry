@@ -13,7 +13,8 @@
     "Evaluate with ROUGE"
   ],
   "knowledge_refs": [
-    "nlp/nlp-19-summarization"
+    "nlp/nlp-18-question-answering",
+    "generative-ai/genai-03-text-generation-basics"
   ],
   "prerequisites": [
     "NLP-17: Fine-Tuning Transformers"

@@ -13,7 +13,9 @@
     "Choose when to use simple vs complex architectures"
   ],
   "knowledge_refs": [
-    "ai-agents/agents-02-agent-architecture"
+    "ai-agents/agents-01-what-are-ai-agents",
+    "llm-engineering/llm-11-llm-agents",
+    "generative-ai/genai-12-agents-and-tool-use"
   ],
   "prerequisites": [
     "AGENTS-01: What Are AI Agents?"

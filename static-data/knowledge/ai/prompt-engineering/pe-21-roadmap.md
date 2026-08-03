@@ -13,7 +13,9 @@
     "Keep refining with evals"
   ],
   "knowledge_refs": [
-    "prompt-engineering/pe-21-roadmap"
+    "prompt-engineering/pe-20-production-prompting",
+    "generative-ai/genai-04-prompt-engineering",
+    "llm-engineering/llm-17-observability"
   ],
   "prerequisites": [
     "PE-20: Prompt Engineering in Production"

@@ -13,7 +13,9 @@
     "Stay current with the field"
   ],
   "knowledge_refs": [
-    "llm-engineering/llm-21-roadmap"
+    "llm-engineering/llm-20-llmops-tooling",
+    "generative-ai/genai-06-llm-architecture",
+    "prompt-engineering/pe-01-what-is-prompt-engineering"
   ],
   "prerequisites": [
     "LLM-20: The LLMOps Tooling Landscape"

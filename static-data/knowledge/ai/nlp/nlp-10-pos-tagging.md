@@ -13,7 +13,8 @@
     "Describe sequence labeling formally"
   ],
   "knowledge_refs": [
-    "nlp/nlp-10-pos-tagging"
+    "nlp/nlp-09-named-entity-recognition",
+    "generative-ai/genai-16-audio-and-speech"
   ],
   "prerequisites": [
     "NLP-03: Text Preprocessing"

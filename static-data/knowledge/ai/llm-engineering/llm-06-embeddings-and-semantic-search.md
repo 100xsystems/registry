@@ -13,7 +13,9 @@
     "Evaluate retrieval quality"
   ],
   "knowledge_refs": [
-    "llm-engineering/llm-06-embeddings-and-semantic-search"
+    "llm-engineering/llm-05-tokenization-and-context",
+    "generative-ai/genai-11-embeddings-and-vector-databases",
+    "nlp/nlp-06-word-embeddings"
   ],
   "prerequisites": [
     "LLM-05: Tokenization & Context Management"

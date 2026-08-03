@@ -13,7 +13,9 @@
     "Report results honestly"
   ],
   "knowledge_refs": [
-    "ai-safety/safety-10-safety-evaluations"
+    "ai-safety/safety-09-transparency",
+    "generative-ai/genai-19-ethical-ai-and-safety",
+    "llm-engineering/llm-14-guardrails-and-safety"
   ],
   "prerequisites": [
     "SAFETY-07: Hallucination & Factualness"

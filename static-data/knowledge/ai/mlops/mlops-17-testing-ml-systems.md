@@ -13,7 +13,9 @@
     "Load-test the serving path"
   ],
   "knowledge_refs": [
-    "mlops/mlops-17-testing-ml-systems"
+    "mlops/mlops-16-cicd-for-ml",
+    "generative-ai/genai-18-llmops",
+    "llm-engineering/llm-20-llmops-tooling"
   ],
   "prerequisites": [
     "MLOPS-16: CI/CD for Machine Learning"

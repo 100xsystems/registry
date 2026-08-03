@@ -13,7 +13,9 @@
     "Compare GANs to diffusion"
   ],
   "knowledge_refs": [
-    "generative-ai/genai-14-gans"
+    "generative-ai/genai-13-diffusion-models",
+    "ai-safety/safety-05-robustness",
+    "deep-learning/dl-12-convolutional-networks"
   ],
   "prerequisites": [
     "DL-12: Convolutional Networks"

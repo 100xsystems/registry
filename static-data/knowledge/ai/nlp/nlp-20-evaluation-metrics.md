@@ -13,7 +13,9 @@
     "Know when human evaluation is essential"
   ],
   "knowledge_refs": [
-    "nlp/nlp-20-evaluation-metrics"
+    "nlp/nlp-19-summarization",
+    "deep-learning/dl-20-evaluating-deep-models",
+    "computer-vision/cv-20-evaluating-vision-models"
   ],
   "prerequisites": [
     "NLP-19: Text Summarization"

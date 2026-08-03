@@ -13,7 +13,7 @@
     "Choose the right learning type for a problem"
   ],
   "knowledge_refs": [
-    "machine-learning/ml-02-types-of-learning"
+    "machine-learning/ml-01-what-is-machine-learning"
   ],
   "prerequisites": [
     "ML-01: What Is Machine Learning?"

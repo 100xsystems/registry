@@ -13,7 +13,9 @@
     "Verify with tests and lint"
   ],
   "knowledge_refs": [
-    "ai-agents/agents-10-coding-agents"
+    "ai-agents/agents-09-browser-agents",
+    "llm-engineering/llm-11-llm-agents",
+    "generative-ai/genai-12-agents-and-tool-use"
   ],
   "prerequisites": [
     "AGENTS-08: Building a Research Agent"

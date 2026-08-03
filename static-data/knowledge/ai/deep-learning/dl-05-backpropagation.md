@@ -13,7 +13,7 @@
     "Use autograd instead of hand-written derivatives"
   ],
   "knowledge_refs": [
-    "deep-learning/dl-05-backpropagation"
+    "deep-learning/dl-04-forward-propagation"
   ],
   "prerequisites": [
     "DL-04: Forward Propagation"

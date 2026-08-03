@@ -13,7 +13,9 @@
     "Identify when an LLM is the right tool"
   ],
   "knowledge_refs": [
-    "llm-engineering/llm-01-what-is-llm-engineering"
+    "generative-ai/genai-06-llm-architecture",
+    "prompt-engineering/pe-01-what-is-prompt-engineering",
+    "prompt-engineering/pe-21-roadmap"
   ],
   "prerequisites": [
     "GENAI-01: What Is Generative AI?"

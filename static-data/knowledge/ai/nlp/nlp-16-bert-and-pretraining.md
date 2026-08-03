@@ -13,7 +13,8 @@
     "Use embeddings for downstream tasks"
   ],
   "knowledge_refs": [
-    "nlp/nlp-16-bert-and-pretraining"
+    "nlp/nlp-15-attention-and-transformers",
+    "generative-ai/genai-15-vision-language-models"
   ],
   "prerequisites": [
     "NLP-15: Attention & Transformers for NLP"

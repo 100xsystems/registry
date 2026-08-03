@@ -13,7 +13,9 @@
     "Parse structured outputs"
   ],
   "knowledge_refs": [
-    "llm-engineering/llm-03-llm-apis"
+    "llm-engineering/llm-02-llm-architecture-review",
+    "generative-ai/genai-06-llm-architecture",
+    "mlops/mlops-10-model-serving"
   ],
   "prerequisites": [
     "LLM-01: What Is LLM Engineering?"

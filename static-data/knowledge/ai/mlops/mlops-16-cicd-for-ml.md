@@ -13,7 +13,9 @@
     "Gate deployments on eval thresholds"
   ],
   "knowledge_refs": [
-    "mlops/mlops-16-cicd-for-ml"
+    "mlops/mlops-15-production-evaluation",
+    "generative-ai/genai-18-llmops",
+    "llm-engineering/llm-20-llmops-tooling"
   ],
   "prerequisites": [
     "MLOPS-07: Model Registry"

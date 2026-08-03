@@ -1,48 +1,46 @@
 ---
 {
   "title": "Beyond the Basics: Your Data Science Roadmap",
-  "description": "Synthesize the course into a study roadmap, connect it to machine learning and deep learning, and plan real projects.",
+  "description": "Where to go after this course: specializations, projects, and the learning paths that lead to a career.",
   "type": "lesson",
   "order": 21,
   "duration": "40 min",
-  "difficulty": "advanced",
+  "difficulty": "intermediate",
   "learning_objectives": [
-    "Map the course to a personal study plan",
-    "Connect data science to ML and deep learning next steps",
-    "Choose portfolio projects that prove skills",
-    "Find communities and sources for continuous learning"
+    "Identify the next specializations after this course",
+    "Plan a project portfolio that demonstrates skills",
+    "Map the career paths in data science",
+    "Choose the right learning resources for each stage"
   ],
   "knowledge_refs": [
-    "data-science/ds-21-roadmap"
+    "machine-learning/ml-01-what-is-machine-learning",
+    "data-science/ds-20-end-to-end-project",
+    "mlops/mlops-01-what-is-mlops",
+    "deep-learning/dl-01-what-is-deep-learning"
   ],
   "prerequisites": [
     "DS-20: An End-to-End Data Science Project"
   ],
   "references": [
     {
-      "title": "Python for Data Analysis — Wes McKinney",
-      "url": "https://wesmckinney.com/book/",
-      "description": "The definitive guide to pandas, NumPy and the PyData stack."
+      "title": "Roadmap.sh — AI Data Scientist",
+      "url": "https://roadmap.sh/ai-data-scientist",
+      "description": "Interactive, community-driven skill tree for the data science career."
     },
     {
-      "title": "Pandas User Guide",
-      "url": "https://pandas.pydata.org/docs/user_guide/index.html",
-      "description": "Official documentation for the pandas data-analysis library."
+      "title": "freeCodeCamp — Data Science Learning Roadmap",
+      "url": "https://www.freecodecamp.org/news/data-science-learning-roadmap/",
+      "description": "A multi-phase free curriculum from programming to ML."
     },
     {
-      "title": "The Elements of Statistical Learning",
-      "url": "https://hastie.su.domains/ElemStatLearn/",
-      "description": "The classic statistical-learning reference (free PDF)."
+      "title": "UCI Machine Learning Repository",
+      "url": "https://archive.ics.uci.edu/datasets",
+      "description": "Datasets for portfolio projects across every domain."
     },
     {
-      "title": "Kaggle Learn — Data Science",
+      "title": "Kaggle Learn",
       "url": "https://www.kaggle.com/learn",
-      "description": "Hands-on micro-courses covering pandas, EDA and modeling."
-    },
-    {
-      "title": "scikit-learn User Guide",
-      "url": "https://scikit-learn.org/stable/user_guide.html",
-      "description": "Authoritative guide to the Python machine-learning toolbox."
+      "description": "Hands-on micro-courses covering every major data science topic."
     }
   ]
 }
@@ -52,76 +50,81 @@
 
 ## Introduction
 
-Synthesize the course into a study roadmap, connect it to machine learning and deep learning, and plan real projects. By the end of this lesson you will be able to: Map the course to a personal study plan; Connect data science to ML and deep learning next steps; Choose portfolio projects that prove skills; Find communities and sources for continuous learning.
+You have completed the foundation: the pipeline, the Python data stack, statistics, feature engineering, modeling, evaluation, and communication. Now the question is *where to go next*. This roadmap lesson maps the territory: the specializations you can pursue, the portfolio that will prove your skills, the career paths available, and the resources that match each stage. The community-driven skill trees at roadmap.sh and the freeCodeCamp roadmap are excellent companions to this lesson [1][2].
 
 ## Key Concepts
 
-### 1. Map the course to a personal study plan
+### 1. The natural next courses on 100xSystems
 
-Target: Map the course to a personal study plan. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+This course was deliberately the first step of a longer path. The natural sequence here:
 
-```python
-roadmap = {
-    1: "solidify stats & probability",
-    2: "next: Machine Learning course",
-    3: "then: Deep Learning course",
-    4: "build 2 portfolio projects",
-}
-for step, goal in roadmap.items():
-    print(f"{step}. {goal}")
-```
-### 2. Connect data science to ML and deep learning next steps
+1. **Machine Learning** — formalize what you started: linear/logistic regression, trees, ensembles, SVM, KNN, cross-validation, hyperparameter tuning, PCA. This is the direct next course.
+2. **Deep Learning** — neural networks, backpropagation, CNNs, RNNs, transformers, PyTorch.
+3. **MLOps** — how models become production systems: pipelines, monitoring, drift, serving.
+4. **Domain applications** — NLP, computer vision, generative AI, LLM engineering — once ML foundations are solid.
 
-Target: Connect data science to ML and deep learning next steps. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+### 2. The three growth directions
 
-```python
-import pandas as pd
+After the fundamentals, people specialize in one of three directions:
 
-# Portfolio projects should span the whole pipeline
-projects = pd.DataFrame({
-    "project": ["customer churn", "housing prices", "news topic model"],
-    "skill": ["classification", "regression", "nlp"],
-})
-print(projects)
-```
-### 3. Choose portfolio projects that prove skills
+- **Analytics / product data science**: business questions, A/B testing, dashboards, SQL fluency, communication. Deepens the statistics + communication parts of this course.
+- **Machine learning engineering**: model development, MLOps, feature stores, serving, system design. Deepens the engineering side.
+- **Research / advanced modeling**: deep learning, NLP/CV, generative AI, papers, novel architectures. Requires strong math (linear algebra, calculus, probability).
 
-Target: Choose portfolio projects that prove skills. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+You can switch between them later — the foundation you just built is shared by all three.
 
-```python
-checklist = ["clean data", "EDA", "baseline model", "evaluate", "document", "ship"]
-remaining = [c for c in checklist if c != "ship"]
-print("focus next:", remaining)
-```
-### 4. Find communities and sources for continuous learning
+### 3. The portfolio: projects that prove skills
 
-Target: Find communities and sources for continuous learning. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+Recruiters don't read your resume's skill list; they read your *projects*. The portfolio advice that actually works:
 
-```python
-def weekly_plan(hours: int):
-    return {"theory": int(hours * 0.4), "coding": int(hours * 0.4), "reading": max(1, int(hours * 0.2))}
+- **Three projects, three depths**: one polished end-to-end project (the ds-20 template), one statistics-heavy analysis (A/B test write-up), one engineering-flavored project (a model served via an API).
+- **Write it up like a report**: answer-first, one chart, honest limits — reuse the communication lesson.
+- **Real data, real decisions**: a housing or churn analysis with a *recommendation* beats a toy dataset with a perfect score.
+- **Put code on GitHub, a summary on a page**: UCI and Kaggle are the easiest sources of serious datasets [3][4].
 
-print(weekly_plan(10))
-```
+### 4. The career paths in numbers
+
+The roles you can target, roughly by entry order:
+
+1. **Data Analyst** — the most accessible entry point; SQL + visualization + business sense.
+2. **Data Scientist** — what this course builds toward: modeling + statistics + communication.
+3. **Machine Learning Engineer** — after ML + MLOps coursework: production systems.
+4. **Analytics Engineer / Data Engineer** — if you love the data movement side (dbt, pipelines, warehouses).
+
+There is no single "correct" path — most people enter as analysts or scientists and drift toward engineering or research as their taste develops.
+
+### 5. The honest learning plan
+
+- **Next 30 days**: finish the Machine Learning course here; build one portfolio project using the ds-20 template.
+- **Next 90 days**: complete MLOps + one specialization (NLP or CV); build the second project (A/B-test write-up).
+- **Next 6 months**: the third project (deployed model), plus deep dives via Kaggle competitions and the resources in every lesson's references.
+
+Consistency beats intensity: 45 focused minutes a day for six months beats a 12-hour weekend once.
 
 ## Practice Questions
 
-1. What is the key idea behind "Beyond the Basics: Your Data Science Roadmap"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+1. Which of the three growth directions fits you best right now, and why?
+2. Sketch the portfolio you'll build this quarter: three projects, each with a one-sentence goal.
+3. What should a project write-up include to impress a hiring manager?
+4. What is your 30-day plan after this lesson?
 
 ## LLM Prompts for Deeper Understanding
 
-1. "Explain Beyond the Basics: Your Data Science Roadmap with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Beyond the Basics: Your Data Science Roadmap"
-1. "Provide advanced patterns and performance considerations for Beyond the Basics: Your Data Science Roadmap"
+1. "Help me design a 90-day data science learning plan based on what I know."
+2. "What makes a data science portfolio project stand out to hiring managers?"
+3. "Compare the day-to-day work of a data scientist vs an ML engineer vs a data engineer."
 
 ## Key Takeaways
 
-- Master the core ideas of Beyond the Basics: Your Data Science Roadmap through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+- Next courses: Machine Learning → Deep Learning → MLOps → a domain specialization.
+- Three directions: analytics/product, ML engineering, research — shared foundation.
+- A three-project portfolio (end-to-end, statistics, engineering) beats a skills list.
+- Entry roles: analyst → scientist → ML engineer, with room to drift.
+- Consistency beats intensity: 45 min/day sustains a real learning curve.
 
-## Further Reading
+## Footnotes & Attribution
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+1. Roadmap.sh, *AI Data Scientist*. Interactive skill tree. [https://roadmap.sh/ai-data-scientist](https://roadmap.sh/ai-data-scientist)
+2. freeCodeCamp, *Data Science Learning Roadmap*. [https://www.freecodecamp.org/news/data-science-learning-roadmap/](https://www.freecodecamp.org/news/data-science-learning-roadmap/)
+3. UCI Machine Learning Repository. [https://archive.ics.uci.edu/datasets](https://archive.ics.uci.edu/datasets)
+4. Kaggle Learn. [https://www.kaggle.com/learn](https://www.kaggle.com/learn)

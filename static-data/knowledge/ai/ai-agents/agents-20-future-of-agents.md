@@ -13,7 +13,9 @@
     "Identify open problems"
   ],
   "knowledge_refs": [
-    "ai-agents/agents-20-future-of-agents"
+    "ai-agents/agents-19-agent-cost-and-scale",
+    "llm-engineering/llm-11-llm-agents",
+    "generative-ai/genai-12-agents-and-tool-use"
   ],
   "prerequisites": [
     "AGENTS-17: Agent Design Patterns"

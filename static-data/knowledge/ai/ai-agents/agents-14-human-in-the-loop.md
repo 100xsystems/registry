@@ -13,7 +13,9 @@
     "Learn from human feedback"
   ],
   "knowledge_refs": [
-    "ai-agents/agents-14-human-in-the-loop"
+    "ai-agents/agents-13-safety-and-control",
+    "llm-engineering/llm-11-llm-agents",
+    "generative-ai/genai-12-agents-and-tool-use"
   ],
   "prerequisites": [
     "AGENTS-13: Agent Safety & Control"

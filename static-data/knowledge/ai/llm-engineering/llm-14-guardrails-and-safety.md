@@ -13,7 +13,9 @@
     "Sandbox tool execution"
   ],
   "knowledge_refs": [
-    "llm-engineering/llm-14-guardrails-and-safety"
+    "llm-engineering/llm-13-evaluating-llm-systems",
+    "ai-safety/safety-21-roadmap",
+    "ai-safety/safety-12-guardrails"
   ],
   "prerequisites": [
     "LLM-10: Function Calling & Structured Outputs"

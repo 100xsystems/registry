@@ -13,7 +13,9 @@
     "Explain sparsity and vocabulary growth"
   ],
   "knowledge_refs": [
-    "nlp/nlp-02-text-representation"
+    "nlp/nlp-01-what-is-nlp",
+    "generative-ai/genai-07-tokenization",
+    "llm-engineering/llm-05-tokenization-and-context"
   ],
   "prerequisites": [
     "NLP-01: What Is NLP?"

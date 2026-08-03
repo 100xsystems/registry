@@ -13,7 +13,8 @@
     "Handle malformed responses"
   ],
   "knowledge_refs": [
-    "prompt-engineering/pe-06-structured-outputs"
+    "prompt-engineering/pe-05-chain-of-thought",
+    "llm-engineering/llm-10-function-calling"
   ],
   "prerequisites": [
     "PE-02: Prompt Structure"

@@ -13,7 +13,9 @@
     "Describe the DQN architecture"
   ],
   "knowledge_refs": [
-    "reinforcement-learning/rl-09-deep-q-networks"
+    "reinforcement-learning/rl-08-function-approximation",
+    "deep-learning/dl-12-convolutional-networks",
+    "deep-learning/dl-15-recurrent-networks"
   ],
   "prerequisites": [
     "RL-08: Function Approximation"

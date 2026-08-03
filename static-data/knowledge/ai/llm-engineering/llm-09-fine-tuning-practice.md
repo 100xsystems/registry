@@ -13,7 +13,9 @@
     "Decide when fine-tuning is worth it"
   ],
   "knowledge_refs": [
-    "llm-engineering/llm-09-fine-tuning-practice"
+    "llm-engineering/llm-08-advanced-rag",
+    "generative-ai/genai-08-fine-tuning-llms",
+    "machine-learning/ml-17-hyperparameter-tuning"
   ],
   "prerequisites": [
     "GENAI-08: Fine-Tuning LLMs"

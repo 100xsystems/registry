@@ -13,7 +13,9 @@
     "Roll back quickly"
   ],
   "knowledge_refs": [
-    "prompt-engineering/pe-14-prompt-versioning"
+    "prompt-engineering/pe-13-evaluating-prompts",
+    "llm-engineering/llm-17-observability",
+    "generative-ai/genai-04-prompt-engineering"
   ],
   "prerequisites": [
     "PE-13: Evaluating Prompts"

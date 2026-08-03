@@ -13,7 +13,9 @@
     "Avoid tuning on the test set"
   ],
   "knowledge_refs": [
-    "machine-learning/ml-17-hyperparameter-tuning"
+    "machine-learning/ml-16-cross-validation",
+    "llm-engineering/llm-16-cost-optimization",
+    "reinforcement-learning/rl-12-proximal-policy-optimization"
   ],
   "prerequisites": [
     "ML-16: Cross-Validation"

@@ -13,7 +13,7 @@
     "Pick activations for hidden versus output layers"
   ],
   "knowledge_refs": [
-    "deep-learning/dl-03-activation-functions"
+    "deep-learning/dl-02-perceptron-and-linear-units"
   ],
   "prerequisites": [
     "DL-02: The Perceptron & Linear Units"

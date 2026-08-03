@@ -13,7 +13,7 @@
     "Know when PCA hurts"
   ],
   "knowledge_refs": [
-    "machine-learning/ml-20-dimensionality-reduction"
+    "machine-learning/ml-19-kmeans-clustering"
   ],
   "prerequisites": [
     "ML-19: K-Means & Clustering"

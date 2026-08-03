@@ -13,7 +13,9 @@
     "Track cost per task"
   ],
   "knowledge_refs": [
-    "ai-agents/agents-12-evaluating-agents"
+    "reinforcement-learning/rl-20-evaluating-rl-agents",
+    "ai-agents/agents-11-rag-agents",
+    "deep-learning/dl-20-evaluating-deep-models"
   ],
   "prerequisites": [
     "AGENTS-07: Building Agents with LangChain"

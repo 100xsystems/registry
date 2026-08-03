@@ -13,7 +13,9 @@
     "Evaluate on a validation set"
   ],
   "knowledge_refs": [
-    "deep-learning/dl-10-the-training-loop"
+    "deep-learning/dl-09-building-an-mlp-in-pytorch",
+    "mlops/mlops-08-training-at-scale",
+    "ai-agents/agents-14-human-in-the-loop"
   ],
   "prerequisites": [
     "DL-09: Building an MLP in PyTorch"

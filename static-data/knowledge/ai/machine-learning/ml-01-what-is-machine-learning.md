@@ -13,7 +13,7 @@
     "Identify good first problems for ML"
   ],
   "knowledge_refs": [
-    "machine-learning/ml-01-what-is-machine-learning"
+    "machine-learning/ml-02-types-of-learning"
   ],
   "prerequisites": [],
   "references": [

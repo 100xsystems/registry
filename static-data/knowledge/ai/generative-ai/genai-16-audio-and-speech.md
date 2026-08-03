@@ -13,7 +13,8 @@
     "Discuss voice-cloning ethics"
   ],
   "knowledge_refs": [
-    "generative-ai/genai-16-audio-and-speech"
+    "generative-ai/genai-15-vision-language-models",
+    "nlp/nlp-10-pos-tagging"
   ],
   "prerequisites": [
     "GENAI-03: Text Generation Fundamentals"

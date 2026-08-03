@@ -13,7 +13,9 @@
     "Discuss value ambiguity"
   ],
   "knowledge_refs": [
-    "ai-safety/safety-04-alignment"
+    "ai-safety/safety-03-interpretability",
+    "generative-ai/genai-19-ethical-ai-and-safety",
+    "llm-engineering/llm-14-guardrails-and-safety"
   ],
   "prerequisites": [
     "GENAI-09: RLHF & Alignment"

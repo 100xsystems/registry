@@ -13,7 +13,9 @@
     "Balance safety with usability"
   ],
   "knowledge_refs": [
-    "ai-safety/safety-12-guardrails"
+    "ai-safety/safety-11-red-teaming",
+    "llm-engineering/llm-14-guardrails-and-safety",
+    "generative-ai/genai-19-ethical-ai-and-safety"
   ],
   "prerequisites": [
     "SAFETY-10: Safety Evaluations"

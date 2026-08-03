@@ -13,7 +13,9 @@
     "Measure value alignment"
   ],
   "knowledge_refs": [
-    "ai-safety/safety-17-values-alignment"
+    "ai-safety/safety-16-data-governance",
+    "generative-ai/genai-19-ethical-ai-and-safety",
+    "llm-engineering/llm-14-guardrails-and-safety"
   ],
   "prerequisites": [
     "SAFETY-04: Alignment"

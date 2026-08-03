@@ -13,7 +13,9 @@
     "Monitor data quality"
   ],
   "knowledge_refs": [
-    "ai-safety/safety-16-data-governance"
+    "ai-safety/safety-15-safety-case-studies",
+    "generative-ai/genai-19-ethical-ai-and-safety",
+    "llm-engineering/llm-14-guardrails-and-safety"
   ],
   "prerequisites": [
     "SAFETY-06: Privacy & Data Protection"

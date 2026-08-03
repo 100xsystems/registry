@@ -13,7 +13,7 @@
     "Threshold and morph images"
   ],
   "knowledge_refs": [
-    "computer-vision/cv-03-image-processing"
+    "computer-vision/cv-02-image-representation"
   ],
   "prerequisites": [
     "CV-02: Image Representation"

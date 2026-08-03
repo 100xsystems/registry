@@ -13,7 +13,7 @@
     "Validate clusters with domain knowledge"
   ],
   "knowledge_refs": [
-    "machine-learning/ml-19-kmeans-clustering"
+    "machine-learning/ml-18-classification-metrics"
   ],
   "prerequisites": [
     "ML-08: Decision Trees"

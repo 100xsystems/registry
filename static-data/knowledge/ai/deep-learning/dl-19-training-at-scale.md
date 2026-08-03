@@ -13,7 +13,9 @@
     "Explain data parallelism across GPUs"
   ],
   "knowledge_refs": [
-    "deep-learning/dl-19-training-at-scale"
+    "deep-learning/dl-18-attention-mechanisms",
+    "mlops/mlops-08-training-at-scale",
+    "llm-engineering/llm-04-prompting-systems"
   ],
   "prerequisites": [
     "DL-17: Transformers"

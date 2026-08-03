@@ -13,7 +13,8 @@
     "Tune the number of examples"
   ],
   "knowledge_refs": [
-    "prompt-engineering/pe-04-few-shot-examples"
+    "prompt-engineering/pe-03-roles-and-context",
+    "ai-safety/safety-05-robustness"
   ],
   "prerequisites": [
     "PE-02: Prompt Structure"

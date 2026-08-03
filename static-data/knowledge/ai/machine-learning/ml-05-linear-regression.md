@@ -13,7 +13,9 @@
     "Avoid common misuse with correlated features"
   ],
   "knowledge_refs": [
-    "machine-learning/ml-05-linear-regression"
+    "machine-learning/ml-04-python-ml-stack",
+    "deep-learning/dl-02-perceptron-and-linear-units",
+    "computer-vision/cv-05-image-classification"
   ],
   "prerequisites": [
     "ML-04: The Python ML Stack"

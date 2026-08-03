@@ -13,7 +13,9 @@
     "Inspect misclassified examples"
   ],
   "knowledge_refs": [
-    "computer-vision/cv-05-image-classification"
+    "computer-vision/cv-04-image-augmentation",
+    "nlp/nlp-07-text-classification",
+    "machine-learning/ml-18-classification-metrics"
   ],
   "prerequisites": [
     "DL-12: Convolutional Networks"

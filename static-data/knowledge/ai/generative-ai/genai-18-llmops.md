@@ -13,7 +13,9 @@
     "Monitor latency, cost and quality"
   ],
   "knowledge_refs": [
-    "generative-ai/genai-18-llmops"
+    "generative-ai/genai-17-evaluating-llms",
+    "mlops/mlops-01-what-is-mlops",
+    "mlops/mlops-20-llmops"
   ],
   "prerequisites": [
     "GENAI-10: Retrieval-Augmented Generation (RAG)"

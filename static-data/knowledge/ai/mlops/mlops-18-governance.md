@@ -13,7 +13,9 @@
     "Document decisions"
   ],
   "knowledge_refs": [
-    "mlops/mlops-18-governance"
+    "mlops/mlops-17-testing-ml-systems",
+    "generative-ai/genai-18-llmops",
+    "llm-engineering/llm-20-llmops-tooling"
   ],
   "prerequisites": [
     "MLOPS-03: Reproducibility & Versioning"

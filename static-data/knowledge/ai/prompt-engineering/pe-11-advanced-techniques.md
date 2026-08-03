@@ -13,7 +13,9 @@
     "Combine prompts with tool actions (ReAct)"
   ],
   "knowledge_refs": [
-    "prompt-engineering/pe-11-advanced-techniques"
+    "prompt-engineering/pe-10-system-prompts",
+    "generative-ai/genai-04-prompt-engineering",
+    "llm-engineering/llm-04-prompting-systems"
   ],
   "prerequisites": [
     "PE-05: Chain-of-Thought Reasoning"

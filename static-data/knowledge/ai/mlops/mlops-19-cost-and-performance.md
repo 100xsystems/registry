@@ -13,7 +13,9 @@
     "Track cost per prediction"
   ],
   "knowledge_refs": [
-    "mlops/mlops-19-cost-and-performance"
+    "mlops/mlops-18-governance",
+    "llm-engineering/llm-16-cost-optimization",
+    "reinforcement-learning/rl-12-proximal-policy-optimization"
   ],
   "prerequisites": [
     "MLOPS-13: Model Deployment Strategies"

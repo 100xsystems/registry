@@ -13,7 +13,9 @@
     "Track evals in CI"
   ],
   "knowledge_refs": [
-    "generative-ai/genai-17-evaluating-llms"
+    "generative-ai/genai-16-audio-and-speech",
+    "deep-learning/dl-20-evaluating-deep-models",
+    "computer-vision/cv-20-evaluating-vision-models"
   ],
   "prerequisites": [
     "GENAI-08: Fine-Tuning LLMs"

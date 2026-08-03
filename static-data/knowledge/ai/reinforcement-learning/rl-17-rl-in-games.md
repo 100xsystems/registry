@@ -13,7 +13,7 @@
     "Understand why games are ideal testbeds"
   ],
   "knowledge_refs": [
-    "reinforcement-learning/rl-17-rl-in-games"
+    "reinforcement-learning/rl-16-multi-agent-rl"
   ],
   "prerequisites": [
     "RL-09: Deep Q-Networks (DQN)"

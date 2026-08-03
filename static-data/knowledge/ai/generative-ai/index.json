@@ -56,7 +56,7 @@
       "duration": "40 min",
       "difficulty": "beginner",
       "knowledge_refs": [
-        "generative-ai/genai-01-what-is-generative-ai"
+        "generative-ai/genai-02-probabilistic-generation"
       ]
     },
     {
@@ -68,7 +68,7 @@
       "duration": "50 min",
       "difficulty": "intermediate",
       "knowledge_refs": [
-        "generative-ai/genai-02-probabilistic-generation"
+        "generative-ai/genai-01-what-is-generative-ai"
       ]
     },
     {
@@ -80,7 +80,9 @@
       "duration": "55 min",
       "difficulty": "intermediate",
       "knowledge_refs": [
-        "generative-ai/genai-03-text-generation-basics"
+        "generative-ai/genai-02-probabilistic-generation",
+        "nlp/nlp-03-text-preprocessing",
+        "nlp/nlp-12-sequence-models"
       ]
     },
     {
@@ -92,7 +94,9 @@
       "duration": "50 min",
       "difficulty": "intermediate",
       "knowledge_refs": [
-        "generative-ai/genai-04-prompt-engineering"
+        "generative-ai/genai-03-text-generation-basics",
+        "prompt-engineering/pe-01-what-is-prompt-engineering",
+        "prompt-engineering/pe-21-roadmap"
       ]
     },
     {
@@ -104,7 +108,9 @@
       "duration": "50 min",
       "difficulty": "intermediate",
       "knowledge_refs": [
-        "generative-ai/genai-05-in-context-learning"
+        "generative-ai/genai-04-prompt-engineering",
+        "prompt-engineering/pe-03-roles-and-context",
+        "llm-engineering/llm-12-context-engineering"
       ]
     },
     {
@@ -116,7 +122,9 @@
       "duration": "55 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "generative-ai/genai-06-llm-architecture"
+        "generative-ai/genai-05-in-context-learning",
+        "llm-engineering/llm-02-llm-architecture-review",
+        "llm-engineering/llm-01-what-is-llm-engineering"
       ]
     },
     {
@@ -128,7 +136,9 @@
       "duration": "50 min",
       "difficulty": "intermediate",
       "knowledge_refs": [
-        "generative-ai/genai-07-tokenization"
+        "generative-ai/genai-06-llm-architecture",
+        "llm-engineering/llm-05-tokenization-and-context",
+        "nlp/nlp-02-text-representation"
       ]
     },
     {
@@ -140,7 +150,9 @@
       "duration": "60 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "generative-ai/genai-08-fine-tuning-llms"
+        "generative-ai/genai-07-tokenization",
+        "llm-engineering/llm-09-fine-tuning-practice",
+        "machine-learning/ml-17-hyperparameter-tuning"
       ]
     },
     {
@@ -152,7 +164,9 @@
       "duration": "55 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "generative-ai/genai-09-rlhf-and-alignment"
+        "generative-ai/genai-08-fine-tuning-llms",
+        "ai-safety/safety-04-alignment",
+        "ai-safety/safety-17-values-alignment"
       ]
     },
     {
@@ -164,7 +178,9 @@
       "duration": "60 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "generative-ai/genai-10-rag"
+        "generative-ai/genai-09-rlhf-and-alignment",
+        "llm-engineering/llm-07-rag-engineering",
+        "llm-engineering/llm-08-advanced-rag"
       ]
     },
     {
@@ -176,7 +192,9 @@
       "duration": "55 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "generative-ai/genai-11-embeddings-and-vector-databases"
+        "generative-ai/genai-10-rag",
+        "nlp/nlp-06-word-embeddings",
+        "llm-engineering/llm-06-embeddings-and-semantic-search"
       ]
     },
     {
@@ -188,7 +206,9 @@
       "duration": "60 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "generative-ai/genai-12-agents-and-tool-use"
+        "generative-ai/genai-11-embeddings-and-vector-databases",
+        "ai-agents/agents-01-what-are-ai-agents",
+        "ai-agents/agents-21-roadmap"
       ]
     },
     {
@@ -200,7 +220,8 @@
       "duration": "60 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "generative-ai/genai-13-diffusion-models"
+        "generative-ai/genai-12-agents-and-tool-use",
+        "prompt-engineering/pe-08-prompts-for-images"
       ]
     },
     {
@@ -212,7 +233,9 @@
       "duration": "50 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "generative-ai/genai-14-gans"
+        "generative-ai/genai-13-diffusion-models",
+        "ai-safety/safety-05-robustness",
+        "deep-learning/dl-12-convolutional-networks"
       ]
     },
     {
@@ -224,7 +247,9 @@
       "duration": "55 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "generative-ai/genai-15-vision-language-models"
+        "generative-ai/genai-14-gans",
+        "computer-vision/cv-18-3d-vision",
+        "computer-vision/cv-01-what-is-computer-vision"
       ]
     },
     {
@@ -236,7 +261,8 @@
       "duration": "50 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "generative-ai/genai-16-audio-and-speech"
+        "generative-ai/genai-15-vision-language-models",
+        "nlp/nlp-10-pos-tagging"
       ]
     },
     {
@@ -248,7 +274,9 @@
       "duration": "55 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "generative-ai/genai-17-evaluating-llms"
+        "generative-ai/genai-16-audio-and-speech",
+        "deep-learning/dl-20-evaluating-deep-models",
+        "computer-vision/cv-20-evaluating-vision-models"
       ]
     },
     {
@@ -260,7 +288,9 @@
       "duration": "60 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "generative-ai/genai-18-llmops"
+        "generative-ai/genai-17-evaluating-llms",
+        "mlops/mlops-01-what-is-mlops",
+        "mlops/mlops-20-llmops"
       ]
     },
     {
@@ -272,7 +302,9 @@
       "duration": "50 min",
       "difficulty": "intermediate",
       "knowledge_refs": [
-        "generative-ai/genai-19-ethical-ai-and-safety"
+        "generative-ai/genai-18-llmops",
+        "ai-safety/safety-21-roadmap",
+        "ai-safety/safety-01-why-ai-safety"
       ]
     },
     {
@@ -284,7 +316,8 @@
       "duration": "75 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "generative-ai/genai-20-building-genai-applications"
+        "generative-ai/genai-19-ethical-ai-and-safety",
+        "ai-agents/agents-18-enterprise-agents"
       ]
     },
     {
@@ -296,7 +329,7 @@
       "duration": "40 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "generative-ai/genai-21-roadmap"
+        "generative-ai/genai-20-building-genai-applications"
       ]
     }
   ]

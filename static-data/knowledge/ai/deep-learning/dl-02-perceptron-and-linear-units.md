@@ -13,7 +13,8 @@
     "Motivate multiple layers"
   ],
   "knowledge_refs": [
-    "deep-learning/dl-02-perceptron-and-linear-units"
+    "deep-learning/dl-01-what-is-deep-learning",
+    "machine-learning/ml-05-linear-regression"
   ],
   "prerequisites": [
     "DL-01: What Is Deep Learning?"

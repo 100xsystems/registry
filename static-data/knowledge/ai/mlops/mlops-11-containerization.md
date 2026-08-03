@@ -13,7 +13,9 @@
     "Understand security basics"
   ],
   "knowledge_refs": [
-    "mlops/mlops-11-containerization"
+    "mlops/mlops-10-model-serving",
+    "generative-ai/genai-18-llmops",
+    "llm-engineering/llm-20-llmops-tooling"
   ],
   "prerequisites": [
     "MLOPS-10: Model Serving APIs"

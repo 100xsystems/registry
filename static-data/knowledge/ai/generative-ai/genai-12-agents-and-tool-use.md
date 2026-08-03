@@ -13,7 +13,9 @@
     "Manage loops and error cases safely"
   ],
   "knowledge_refs": [
-    "generative-ai/genai-12-agents-and-tool-use"
+    "generative-ai/genai-11-embeddings-and-vector-databases",
+    "ai-agents/agents-01-what-are-ai-agents",
+    "ai-agents/agents-21-roadmap"
   ],
   "prerequisites": [
     "GENAI-04: Prompt Engineering"

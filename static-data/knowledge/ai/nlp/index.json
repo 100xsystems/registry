@@ -56,7 +56,7 @@
       "duration": "40 min",
       "difficulty": "beginner",
       "knowledge_refs": [
-        "nlp/nlp-01-what-is-nlp"
+        "nlp/nlp-02-text-representation"
       ]
     },
     {
@@ -68,7 +68,9 @@
       "duration": "55 min",
       "difficulty": "beginner",
       "knowledge_refs": [
-        "nlp/nlp-02-text-representation"
+        "nlp/nlp-01-what-is-nlp",
+        "generative-ai/genai-07-tokenization",
+        "llm-engineering/llm-05-tokenization-and-context"
       ]
     },
     {
@@ -80,7 +82,8 @@
       "duration": "50 min",
       "difficulty": "beginner",
       "knowledge_refs": [
-        "nlp/nlp-03-text-preprocessing"
+        "nlp/nlp-02-text-representation",
+        "generative-ai/genai-03-text-generation-basics"
       ]
     },
     {
@@ -92,7 +95,8 @@
       "duration": "50 min",
       "difficulty": "intermediate",
       "knowledge_refs": [
-        "nlp/nlp-04-regular-expressions"
+        "nlp/nlp-03-text-preprocessing",
+        "generative-ai/genai-03-text-generation-basics"
       ]
     },
     {
@@ -104,7 +108,8 @@
       "duration": "55 min",
       "difficulty": "intermediate",
       "knowledge_refs": [
-        "nlp/nlp-05-ngrams-and-language-models"
+        "nlp/nlp-04-regular-expressions",
+        "generative-ai/genai-15-vision-language-models"
       ]
     },
     {
@@ -116,7 +121,9 @@
       "duration": "55 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "nlp/nlp-06-word-embeddings"
+        "nlp/nlp-05-ngrams-and-language-models",
+        "generative-ai/genai-11-embeddings-and-vector-databases",
+        "llm-engineering/llm-06-embeddings-and-semantic-search"
       ]
     },
     {
@@ -128,7 +135,9 @@
       "duration": "55 min",
       "difficulty": "intermediate",
       "knowledge_refs": [
-        "nlp/nlp-07-text-classification"
+        "nlp/nlp-06-word-embeddings",
+        "computer-vision/cv-05-image-classification",
+        "machine-learning/ml-18-classification-metrics"
       ]
     },
     {
@@ -140,7 +149,8 @@
       "duration": "50 min",
       "difficulty": "intermediate",
       "knowledge_refs": [
-        "nlp/nlp-08-sentiment-analysis"
+        "nlp/nlp-07-text-classification",
+        "computer-vision/cv-15-video-analysis"
       ]
     },
     {
@@ -152,7 +162,8 @@
       "duration": "50 min",
       "difficulty": "intermediate",
       "knowledge_refs": [
-        "nlp/nlp-09-named-entity-recognition"
+        "nlp/nlp-08-sentiment-analysis",
+        "computer-vision/cv-16-face-recognition"
       ]
     },
     {
@@ -164,7 +175,8 @@
       "duration": "45 min",
       "difficulty": "intermediate",
       "knowledge_refs": [
-        "nlp/nlp-10-pos-tagging"
+        "nlp/nlp-09-named-entity-recognition",
+        "generative-ai/genai-16-audio-and-speech"
       ]
     },
     {
@@ -176,7 +188,7 @@
       "duration": "55 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "nlp/nlp-11-topic-modeling"
+        "nlp/nlp-10-pos-tagging"
       ]
     },
     {
@@ -188,7 +200,9 @@
       "duration": "55 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "nlp/nlp-12-sequence-models"
+        "nlp/nlp-11-topic-modeling",
+        "generative-ai/genai-03-text-generation-basics",
+        "deep-learning/dl-16-lstm-and-gru"
       ]
     },
     {
@@ -200,7 +214,9 @@
       "duration": "55 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "nlp/nlp-13-lstm-for-text"
+        "nlp/nlp-12-sequence-models",
+        "deep-learning/dl-16-lstm-and-gru",
+        "deep-learning/dl-15-recurrent-networks"
       ]
     },
     {
@@ -212,7 +228,7 @@
       "duration": "60 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "nlp/nlp-14-seq2seq"
+        "nlp/nlp-13-lstm-for-text"
       ]
     },
     {
@@ -224,7 +240,9 @@
       "duration": "60 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "nlp/nlp-15-attention-and-transformers"
+        "nlp/nlp-14-seq2seq",
+        "deep-learning/dl-17-transformers",
+        "deep-learning/dl-18-attention-mechanisms"
       ]
     },
     {
@@ -236,7 +254,8 @@
       "duration": "55 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "nlp/nlp-16-bert-and-pretraining"
+        "nlp/nlp-15-attention-and-transformers",
+        "generative-ai/genai-15-vision-language-models"
       ]
     },
     {
@@ -248,7 +267,9 @@
       "duration": "60 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "nlp/nlp-17-finetuning-transformers"
+        "nlp/nlp-16-bert-and-pretraining",
+        "deep-learning/dl-17-transformers",
+        "deep-learning/dl-18-attention-mechanisms"
       ]
     },
     {
@@ -260,7 +281,7 @@
       "duration": "55 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "nlp/nlp-18-question-answering"
+        "nlp/nlp-17-finetuning-transformers"
       ]
     },
     {
@@ -272,7 +293,8 @@
       "duration": "55 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "nlp/nlp-19-summarization"
+        "nlp/nlp-18-question-answering",
+        "generative-ai/genai-03-text-generation-basics"
       ]
     },
     {
@@ -284,7 +306,9 @@
       "duration": "50 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "nlp/nlp-20-evaluation-metrics"
+        "nlp/nlp-19-summarization",
+        "deep-learning/dl-20-evaluating-deep-models",
+        "computer-vision/cv-20-evaluating-vision-models"
       ]
     },
     {
@@ -296,7 +320,7 @@
       "duration": "40 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "nlp/nlp-21-roadmap"
+        "nlp/nlp-20-evaluation-metrics"
       ]
     }
   ]

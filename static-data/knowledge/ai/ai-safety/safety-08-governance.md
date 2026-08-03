@@ -13,7 +13,9 @@
     "Document decisions for accountability"
   ],
   "knowledge_refs": [
-    "ai-safety/safety-08-governance"
+    "ai-safety/safety-07-hallucination",
+    "generative-ai/genai-19-ethical-ai-and-safety",
+    "llm-engineering/llm-14-guardrails-and-safety"
   ],
   "prerequisites": [
     "SAFETY-06: Privacy & Data Protection"

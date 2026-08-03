@@ -13,7 +13,9 @@
     "Reduce variance with baselines"
   ],
   "knowledge_refs": [
-    "reinforcement-learning/rl-10-policy-gradient-methods"
+    "reinforcement-learning/rl-09-deep-q-networks",
+    "machine-learning/ml-06-gradient-descent",
+    "machine-learning/ml-10-gradient-boosting"
   ],
   "prerequisites": [
     "RL-08: Function Approximation"

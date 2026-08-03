@@ -56,7 +56,7 @@
       "duration": "40 min",
       "difficulty": "beginner",
       "knowledge_refs": [
-        "deep-learning/dl-01-what-is-deep-learning"
+        "deep-learning/dl-02-perceptron-and-linear-units"
       ]
     },
     {
@@ -68,7 +68,8 @@
       "duration": "45 min",
       "difficulty": "beginner",
       "knowledge_refs": [
-        "deep-learning/dl-02-perceptron-and-linear-units"
+        "deep-learning/dl-01-what-is-deep-learning",
+        "machine-learning/ml-05-linear-regression"
       ]
     },
     {
@@ -80,7 +81,7 @@
       "duration": "50 min",
       "difficulty": "beginner",
       "knowledge_refs": [
-        "deep-learning/dl-03-activation-functions"
+        "deep-learning/dl-02-perceptron-and-linear-units"
       ]
     },
     {
@@ -92,7 +93,7 @@
       "duration": "50 min",
       "difficulty": "intermediate",
       "knowledge_refs": [
-        "deep-learning/dl-04-forward-propagation"
+        "deep-learning/dl-03-activation-functions"
       ]
     },
     {
@@ -104,7 +105,7 @@
       "duration": "60 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "deep-learning/dl-05-backpropagation"
+        "deep-learning/dl-04-forward-propagation"
       ]
     },
     {
@@ -116,7 +117,7 @@
       "duration": "50 min",
       "difficulty": "intermediate",
       "knowledge_refs": [
-        "deep-learning/dl-06-loss-functions"
+        "deep-learning/dl-05-backpropagation"
       ]
     },
     {
@@ -128,7 +129,7 @@
       "duration": "55 min",
       "difficulty": "intermediate",
       "knowledge_refs": [
-        "deep-learning/dl-07-optimizers"
+        "deep-learning/dl-06-loss-functions"
       ]
     },
     {
@@ -140,7 +141,7 @@
       "duration": "55 min",
       "difficulty": "intermediate",
       "knowledge_refs": [
-        "deep-learning/dl-08-pytorch-tensors-and-autograd"
+        "deep-learning/dl-07-optimizers"
       ]
     },
     {
@@ -152,7 +153,7 @@
       "duration": "55 min",
       "difficulty": "intermediate",
       "knowledge_refs": [
-        "deep-learning/dl-09-building-an-mlp-in-pytorch"
+        "deep-learning/dl-08-pytorch-tensors-and-autograd"
       ]
     },
     {
@@ -164,7 +165,9 @@
       "duration": "55 min",
       "difficulty": "intermediate",
       "knowledge_refs": [
-        "deep-learning/dl-10-the-training-loop"
+        "deep-learning/dl-09-building-an-mlp-in-pytorch",
+        "mlops/mlops-08-training-at-scale",
+        "ai-agents/agents-14-human-in-the-loop"
       ]
     },
     {
@@ -176,7 +179,8 @@
       "duration": "55 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "deep-learning/dl-11-regularization-for-deep-learning"
+        "machine-learning/ml-15-regularization",
+        "deep-learning/dl-10-the-training-loop"
       ]
     },
     {
@@ -188,7 +192,9 @@
       "duration": "60 min",
       "difficulty": "intermediate",
       "knowledge_refs": [
-        "deep-learning/dl-12-convolutional-networks"
+        "deep-learning/dl-11-regularization-for-deep-learning",
+        "reinforcement-learning/rl-09-deep-q-networks",
+        "generative-ai/genai-14-gans"
       ]
     },
     {
@@ -200,7 +206,9 @@
       "duration": "55 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "deep-learning/dl-13-cnn-architectures"
+        "deep-learning/dl-12-convolutional-networks",
+        "computer-vision/cv-18-3d-vision",
+        "computer-vision/cv-01-what-is-computer-vision"
       ]
     },
     {
@@ -212,7 +220,8 @@
       "duration": "55 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "deep-learning/dl-14-transfer-learning"
+        "deep-learning/dl-13-cnn-architectures",
+        "computer-vision/cv-07-transfer-learning-for-vision"
       ]
     },
     {
@@ -224,7 +233,9 @@
       "duration": "55 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "deep-learning/dl-15-recurrent-networks"
+        "deep-learning/dl-14-transfer-learning",
+        "reinforcement-learning/rl-09-deep-q-networks",
+        "generative-ai/genai-14-gans"
       ]
     },
     {
@@ -236,7 +247,9 @@
       "duration": "60 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "deep-learning/dl-16-lstm-and-gru"
+        "deep-learning/dl-15-recurrent-networks",
+        "nlp/nlp-13-lstm-for-text",
+        "nlp/nlp-12-sequence-models"
       ]
     },
     {
@@ -248,7 +261,9 @@
       "duration": "60 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "deep-learning/dl-17-transformers"
+        "deep-learning/dl-16-lstm-and-gru",
+        "nlp/nlp-15-attention-and-transformers",
+        "computer-vision/cv-19-vision-transformers"
       ]
     },
     {
@@ -260,7 +275,9 @@
       "duration": "55 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "deep-learning/dl-18-attention-mechanisms"
+        "deep-learning/dl-17-transformers",
+        "nlp/nlp-15-attention-and-transformers",
+        "computer-vision/cv-19-vision-transformers"
       ]
     },
     {
@@ -272,7 +289,9 @@
       "duration": "55 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "deep-learning/dl-19-training-at-scale"
+        "deep-learning/dl-18-attention-mechanisms",
+        "mlops/mlops-08-training-at-scale",
+        "llm-engineering/llm-04-prompting-systems"
       ]
     },
     {
@@ -284,7 +303,9 @@
       "duration": "50 min",
       "difficulty": "intermediate",
       "knowledge_refs": [
-        "deep-learning/dl-20-evaluating-deep-models"
+        "deep-learning/dl-19-training-at-scale",
+        "computer-vision/cv-20-evaluating-vision-models",
+        "prompt-engineering/pe-13-evaluating-prompts"
       ]
     },
     {
@@ -296,7 +317,7 @@
       "duration": "40 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "deep-learning/dl-21-roadmap"
+        "deep-learning/dl-20-evaluating-deep-models"
       ]
     }
   ]

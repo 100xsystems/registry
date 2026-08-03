@@ -13,7 +13,9 @@
     "Iterate with seeds and variations"
   ],
   "knowledge_refs": [
-    "prompt-engineering/pe-08-prompts-for-images"
+    "prompt-engineering/pe-07-prompts-for-code",
+    "generative-ai/genai-04-prompt-engineering",
+    "llm-engineering/llm-04-prompting-systems"
   ],
   "prerequisites": [
     "GENAI-13: Diffusion Models for Images"

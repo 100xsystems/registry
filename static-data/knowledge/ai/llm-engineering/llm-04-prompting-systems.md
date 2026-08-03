@@ -13,7 +13,9 @@
     "Measure prompt quality with evals"
   ],
   "knowledge_refs": [
-    "llm-engineering/llm-04-prompting-systems"
+    "llm-engineering/llm-03-llm-apis",
+    "prompt-engineering/pe-01-what-is-prompt-engineering",
+    "prompt-engineering/pe-02-prompt-structure"
   ],
   "prerequisites": [
     "LLM-03: Working with LLM APIs"

@@ -13,7 +13,9 @@
     "Understand KV caching"
   ],
   "knowledge_refs": [
-    "llm-engineering/llm-02-llm-architecture-review"
+    "llm-engineering/llm-01-what-is-llm-engineering",
+    "generative-ai/genai-06-llm-architecture",
+    "ai-agents/agents-02-agent-architecture"
   ],
   "prerequisites": [
     "DL-17: Transformers"

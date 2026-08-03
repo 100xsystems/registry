@@ -56,7 +56,7 @@
       "duration": "40 min",
       "difficulty": "beginner",
       "knowledge_refs": [
-        "reinforcement-learning/rl-01-what-is-reinforcement-learning"
+        "ai-safety/safety-08-governance"
       ]
     },
     {
@@ -68,7 +68,8 @@
       "duration": "55 min",
       "difficulty": "intermediate",
       "knowledge_refs": [
-        "reinforcement-learning/rl-02-markov-decision-processes"
+        "reinforcement-learning/rl-01-what-is-reinforcement-learning",
+        "machine-learning/ml-08-decision-trees"
       ]
     },
     {
@@ -80,7 +81,7 @@
       "duration": "60 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "reinforcement-learning/rl-03-dynamic-programming"
+        "reinforcement-learning/rl-02-markov-decision-processes"
       ]
     },
     {
@@ -92,7 +93,8 @@
       "duration": "55 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "reinforcement-learning/rl-04-monte-carlo-methods"
+        "reinforcement-learning/rl-03-dynamic-programming",
+        "machine-learning/ml-09-ensemble-methods"
       ]
     },
     {
@@ -104,7 +106,7 @@
       "duration": "55 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "reinforcement-learning/rl-05-temporal-difference-learning"
+        "reinforcement-learning/rl-04-monte-carlo-methods"
       ]
     },
     {
@@ -116,7 +118,7 @@
       "duration": "60 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "reinforcement-learning/rl-06-q-learning"
+        "reinforcement-learning/rl-05-temporal-difference-learning"
       ]
     },
     {
@@ -128,7 +130,7 @@
       "duration": "50 min",
       "difficulty": "intermediate",
       "knowledge_refs": [
-        "reinforcement-learning/rl-07-exploration-vs-exploitation"
+        "reinforcement-learning/rl-06-q-learning"
       ]
     },
     {
@@ -140,7 +142,9 @@
       "duration": "55 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "reinforcement-learning/rl-08-function-approximation"
+        "reinforcement-learning/rl-07-exploration-vs-exploitation",
+        "llm-engineering/llm-10-function-calling",
+        "ai-agents/agents-03-tool-use"
       ]
     },
     {
@@ -152,7 +156,9 @@
       "duration": "60 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "reinforcement-learning/rl-09-deep-q-networks"
+        "reinforcement-learning/rl-08-function-approximation",
+        "deep-learning/dl-12-convolutional-networks",
+        "deep-learning/dl-15-recurrent-networks"
       ]
     },
     {
@@ -164,7 +170,9 @@
       "duration": "60 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "reinforcement-learning/rl-10-policy-gradient-methods"
+        "reinforcement-learning/rl-09-deep-q-networks",
+        "machine-learning/ml-06-gradient-descent",
+        "machine-learning/ml-10-gradient-boosting"
       ]
     },
     {
@@ -176,7 +184,8 @@
       "duration": "60 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "reinforcement-learning/rl-11-actor-critic"
+        "reinforcement-learning/rl-10-policy-gradient-methods",
+        "machine-learning/ml-09-ensemble-methods"
       ]
     },
     {
@@ -188,7 +197,9 @@
       "duration": "60 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "reinforcement-learning/rl-12-proximal-policy-optimization"
+        "reinforcement-learning/rl-11-actor-critic",
+        "llm-engineering/llm-16-cost-optimization",
+        "mlops/mlops-19-cost-and-performance"
       ]
     },
     {
@@ -200,7 +211,8 @@
       "duration": "50 min",
       "difficulty": "intermediate",
       "knowledge_refs": [
-        "reinforcement-learning/rl-13-reward-design"
+        "reinforcement-learning/rl-12-proximal-policy-optimization",
+        "ai-agents/agents-17-agent-design-patterns"
       ]
     },
     {
@@ -212,7 +224,8 @@
       "duration": "55 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "reinforcement-learning/rl-14-offline-rl"
+        "reinforcement-learning/rl-13-reward-design",
+        "ai-safety/safety-08-governance"
       ]
     },
     {
@@ -224,7 +237,7 @@
       "duration": "50 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "reinforcement-learning/rl-15-imitation-learning"
+        "reinforcement-learning/rl-14-offline-rl"
       ]
     },
     {
@@ -236,7 +249,9 @@
       "duration": "55 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "reinforcement-learning/rl-16-multi-agent-rl"
+        "reinforcement-learning/rl-15-imitation-learning",
+        "ai-agents/agents-06-multi-agent-systems",
+        "ai-agents/agents-02-agent-architecture"
       ]
     },
     {
@@ -248,7 +263,7 @@
       "duration": "55 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "reinforcement-learning/rl-17-rl-in-games"
+        "reinforcement-learning/rl-16-multi-agent-rl"
       ]
     },
     {
@@ -260,7 +275,7 @@
       "duration": "55 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "reinforcement-learning/rl-18-rl-for-robotics"
+        "reinforcement-learning/rl-17-rl-in-games"
       ]
     },
     {
@@ -272,7 +287,9 @@
       "duration": "50 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "reinforcement-learning/rl-19-rl-for-recommendation"
+        "reinforcement-learning/rl-18-rl-for-robotics",
+        "llm-engineering/llm-04-prompting-systems",
+        "llm-engineering/llm-13-evaluating-llm-systems"
       ]
     },
     {
@@ -284,7 +301,9 @@
       "duration": "50 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "reinforcement-learning/rl-20-evaluating-rl-agents"
+        "ai-agents/agents-12-evaluating-agents",
+        "reinforcement-learning/rl-19-rl-for-recommendation",
+        "ai-agents/agents-01-what-are-ai-agents"
       ]
     },
     {
@@ -296,7 +315,8 @@
       "duration": "40 min",
       "difficulty": "advanced",
       "knowledge_refs": [
-        "reinforcement-learning/rl-21-roadmap"
+        "reinforcement-learning/rl-20-evaluating-rl-agents",
+        "ai-safety/safety-08-governance"
       ]
     }
   ]

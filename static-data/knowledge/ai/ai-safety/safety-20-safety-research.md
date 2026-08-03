@@ -13,7 +13,9 @@
     "Keep current responsibly"
   ],
   "knowledge_refs": [
-    "ai-safety/safety-20-safety-research"
+    "ai-safety/safety-19-responsible-products",
+    "generative-ai/genai-19-ethical-ai-and-safety",
+    "llm-engineering/llm-14-guardrails-and-safety"
   ],
   "prerequisites": [
     "SAFETY-15: AI Safety Case Studies"

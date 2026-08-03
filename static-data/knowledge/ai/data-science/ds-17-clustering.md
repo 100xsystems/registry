@@ -1,48 +1,45 @@
 ---
 {
   "title": "Clustering",
-  "description": "Find structure without labels: k-means, distance metrics, and choosing the number of clusters honestly.",
+  "description": "Discover structure in unlabeled data with k-means and hierarchical clustering — and evaluate the result.",
   "type": "lesson",
   "order": 17,
-  "duration": "50 min",
+  "duration": "55 min",
   "difficulty": "intermediate",
   "learning_objectives": [
-    "Explain unsupervised learning and clustering goals",
-    "Run k-means with scikit-learn",
-    "Choose k with the elbow and silhouette methods",
-    "Scale features before computing distances"
+    "Explain unsupervised learning and clustering",
+    "Run k-means and choose k with the elbow method",
+    "Use hierarchical clustering and dendrograms",
+    "Evaluate clusters with silhouette scores"
   ],
   "knowledge_refs": [
-    "data-science/ds-17-clustering"
+    "machine-learning/ml-19-kmeans-clustering",
+    "machine-learning/ml-20-dimensionality-reduction",
+    "data-science/ds-16-classification-models"
   ],
   "prerequisites": [
     "DS-16: Classification Models"
   ],
   "references": [
     {
-      "title": "Python for Data Analysis — Wes McKinney",
-      "url": "https://wesmckinney.com/book/",
-      "description": "The definitive guide to pandas, NumPy and the PyData stack."
+      "title": "scikit-learn — Clustering",
+      "url": "https://scikit-learn.org/stable/modules/clustering.html",
+      "description": "Official docs: k-means, hierarchical, DBSCAN and evaluation."
     },
     {
-      "title": "Pandas User Guide",
-      "url": "https://pandas.pydata.org/docs/user_guide/index.html",
-      "description": "Official documentation for the pandas data-analysis library."
+      "title": "scikit-learn — KMeans Documentation",
+      "url": "https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html",
+      "description": "KMeans API reference and parameters."
     },
     {
-      "title": "The Elements of Statistical Learning",
-      "url": "https://hastie.su.domains/ElemStatLearn/",
-      "description": "The classic statistical-learning reference (free PDF)."
+      "title": "Python Data Science Handbook — Clustering",
+      "url": "https://jakevdp.github.io/PythonDataScienceHandbook/",
+      "description": "Practical k-means, spectral and Gaussian mixture examples."
     },
     {
-      "title": "Kaggle Learn — Data Science",
-      "url": "https://www.kaggle.com/learn",
-      "description": "Hands-on micro-courses covering pandas, EDA and modeling."
-    },
-    {
-      "title": "scikit-learn User Guide",
-      "url": "https://scikit-learn.org/stable/user_guide.html",
-      "description": "Authoritative guide to the Python machine-learning toolbox."
+      "title": "StatQuest — K-Means Clustering",
+      "url": "https://www.youtube.com/watch?v=4b5d3muPQmA",
+      "description": "The clearest visual explanation of k-means."
     }
   ]
 }
@@ -52,81 +49,94 @@
 
 ## Introduction
 
-Find structure without labels: k-means, distance metrics, and choosing the number of clusters honestly. By the end of this lesson you will be able to: Explain unsupervised learning and clustering goals; Run k-means with scikit-learn; Choose k with the elbow and silhouette methods; Scale features before computing distances.
+Classification needs *labeled* data — but most of the world's data is unlabeled. **Clustering** is the core of unsupervised learning: it groups similar points together without any ground-truth labels, so you can *discover* structure. Businesses use clustering for customer segmentation, anomaly detection, and recommendation ("people who bought these also…"). This lesson covers k-means (the workhorse), hierarchical clustering (the most interpretable), and how to evaluate a clustering that, by definition, has no "right answer."
 
 ## Key Concepts
 
-### 1. Explain unsupervised learning and clustering goals
+### 1. Unsupervised learning in one idea
 
-Target: Explain unsupervised learning and clustering goals. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+In supervised learning you have (features, label) pairs; in unsupervised learning you have only features. The goal shifts from *predicting* to *understanding structure*: "which customers behave similarly?", "are there natural groups in this data?" Clustering's outputs are groups + a sense of how distinct they are — both of which feed directly into business strategy and feature engineering.
 
-```python
-from sklearn.cluster import KMeans
-import numpy as np
+### 2. K-means: the workhorse
 
-X = np.array([[1, 1], [1, 2], [2, 1], [8, 8], [9, 9], [8, 9]])
-km = KMeans(n_clusters=2, n_init=10, random_state=0).fit(X)
-print("labels:", km.labels_)
-print("centers:", km.cluster_centers_)
-```
-### 2. Run k-means with scikit-learn
-
-Target: Run k-means with scikit-learn. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
-
-```python
-import numpy as np
-from sklearn.cluster import KMeans
-
-X = np.random.default_rng(0).normal(size=(200, 2))
-inertias = [KMeans(n_clusters=k, n_init=10, random_state=0).fit(X).inertia_ for k in range(1, 7)]
-print("inertia by k:", [round(i, 1) for i in inertias])
-```
-### 3. Choose k with the elbow and silhouette methods
-
-Target: Choose k with the elbow and silhouette methods. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+K-means partitions points into **k clusters** by iterating two steps: (1) assign each point to its nearest centroid, (2) move each centroid to the mean of its assigned points — until nothing moves. Because it depends on starting positions, run it with several random seeds.
 
 ```python
 from sklearn.cluster import KMeans
-from sklearn.metrics import silhouette_score
-import numpy as np
-
-X = np.random.default_rng(1).normal(size=(100, 2))
-for k in [2, 3, 4]:
-    labels = KMeans(n_clusters=k, n_init=10, random_state=0).fit_predict(X)
-    print(f"k={k} silhouette={silhouette_score(X, labels):.3f}")
-```
-### 4. Scale features before computing distances
-
-Target: Scale features before computing distances. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
-
-```python
 from sklearn.preprocessing import StandardScaler
-from sklearn.cluster import KMeans
 
-# Scale first: distance in raw units misleads
-X = [[1, 1000], [2, 2000], [3, 1500], [50, 5000]]
-Xs = StandardScaler().fit_transform(X)
-print(KMeans(n_clusters=2, n_init=10, random_state=0).fit_predict(Xs))
+X = StandardScaler().fit_transform(df[["spend", "orders", "tenure"]])
+kmeans = KMeans(n_clusters=4, n_init=10, random_state=42).fit(X)
+df["cluster"] = kmeans.labels_
 ```
+
+Scale features first — k-means uses Euclidean distance, so unscaled columns dominate the geometry. `n_init=10` (default in current sklearn) protects against bad random starts.
+
+### 3. Choosing k: the elbow method
+
+The within-cluster sum of squares (inertia) always *decreases* as k grows. The elbow method looks for the point where adding another cluster stops buying much:
+
+```python
+import numpy as np
+
+inertias = [KMeans(n_clusters=k, n_init=10, random_state=42).fit(X).inertia_ for k in range(2, 10)]
+# plot inertias vs k — the "elbow" is your k
+```
+
+The elbow is a heuristic, not a theorem: combine it with domain judgment ("do the clusters make business sense?") rather than trusting it blindly.
+
+### 4. Hierarchical clustering: dendrograms
+
+Hierarchical clustering builds a tree of nested groups (agglomerative: start with each point as its own cluster, merge the closest pair, repeat). The **dendrogram** shows the full merging history, so you can cut the tree at any height to get any number of clusters — the most interpretable view:
+
+```python
+from scipy.cluster.hierarchy import dendrogram, linkage
+
+Z = linkage(X, method="ward")
+dendrogram(Z)                       # plot: cut horizontally for clusters
+```
+
+`method="ward"` minimizes within-cluster variance and generally gives compact, sensible clusters. Hierarchical clustering is great for small-to-medium datasets where interpretability matters.
+
+### 5. Evaluating clusters: silhouette score
+
+Since there are no labels, evaluation measures *cohesion vs separation*: how tight is each cluster, and how far is it from others?
+
+- **Silhouette score** ∈ [−1, 1]: near +1 means points are well inside their cluster and far from others; near 0 means overlapping; negative means misassigned.
+
+```python
+from sklearn.metrics import silhouette_score
+
+score = silhouette_score(X, kmeans.labels_)
+print(f"{score:.3f}")
+```
+
+Use silhouette to compare different k values and different algorithms. And always sanity-check clusters by *profiling* them (mean spend, top category per cluster) — a statistically perfect cluster that describes no real segment is still useless.
 
 ## Practice Questions
 
-1. What is the key idea behind "Clustering"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+1. What distinguishes supervised from unsupervised learning?
+2. Why must features be scaled before k-means?
+3. Describe the elbow method in one sentence, and its limitation.
+4. What does a silhouette score near 0 tell you about your clusters?
 
 ## LLM Prompts for Deeper Understanding
 
-1. "Explain Clustering with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Clustering"
-1. "Provide advanced patterns and performance considerations for Clustering"
+1. "Walk me through the k-means algorithm step by step with a small example."
+2. "When should I choose DBSCAN over k-means?"
+3. "How do companies use customer clustering in practice, end to end?"
 
 ## Key Takeaways
 
-- Master the core ideas of Clustering through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+- Clustering discovers groups in unlabeled data; evaluation is structural, not label-based.
+- K-means: fast, simple, needs scaled features and a chosen k.
+- Use the elbow + domain sense to pick k; run multiple random starts.
+- Hierarchical clustering + dendrograms give the most interpretable grouping.
+- Silhouette scores measure cohesion vs separation; profile clusters to validate.
 
-## Further Reading
+## Footnotes & Attribution
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+1. scikit-learn documentation, *Clustering*. [https://scikit-learn.org/stable/modules/clustering.html](https://scikit-learn.org/stable/modules/clustering.html)
+2. scikit-learn documentation, *KMeans*. [https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html)
+3. Jake VanderPlas, *Python Data Science Handbook* — clustering. [https://jakevdp.github.io/PythonDataScienceHandbook/](https://jakevdp.github.io/PythonDataScienceHandbook/)
+4. Josh Starmer, *StatQuest — K-Means Clustering*. [https://www.youtube.com/watch?v=4b5d3muPQmA](https://www.youtube.com/watch?v=4b5d3muPQmA)
