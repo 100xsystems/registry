@@ -1,0 +1,61 @@
+{
+  "slug": "sre-engineer",
+  "name": "SRE Roadmap",
+  "description": "Complete learning path for site reliability engineers \u2014 monitoring, incident response, SLIs/SLOs, and chaos engineering.",
+  "icon": "FaShieldAlt",
+  "color": "#F43F5E",
+  "steps": [
+    {
+      "category": "infrastructure",
+      "slug": "linux"
+    },
+    {
+      "category": "infrastructure",
+      "slug": "docker"
+    },
+    {
+      "category": "infrastructure",
+      "slug": "kubernetes"
+    },
+    {
+      "category": "infrastructure",
+      "slug": "nginx"
+    },
+    {
+      "category": "tools",
+      "slug": "grafana"
+    },
+    {
+      "category": "tools",
+      "slug": "terraform"
+    },
+    {
+      "category": "principles",
+      "slug": "circuit-breaker"
+    },
+    {
+      "category": "principles",
+      "slug": "rate-limiting"
+    },
+    {
+      "category": "principles",
+      "slug": "graceful-degradation"
+    },
+    {
+      "category": "principles",
+      "slug": "load-shedding"
+    },
+    {
+      "category": "system-design",
+      "slug": "fundamentals"
+    },
+    {
+      "category": "system-design",
+      "slug": "building-blocks"
+    },
+    {
+      "category": "system-design",
+      "slug": "patterns"
+    }
+  ]
+}

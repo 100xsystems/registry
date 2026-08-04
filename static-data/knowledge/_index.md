@@ -1,7 +1,7 @@
 ---
 slug: knowledge
 title: "Knowledge Base"
-description: "1993 resources across 13 sections — from programming languages to AI courses, system design to engineering roadmaps."
+description: "1993 resources across 12 sections — from programming languages to AI courses and system design."
 order: 0
 tags:
   - knowledge
@@ -12,24 +12,11 @@ tags:
 
 # Knowledge Base
 
-**1993 resources** across **13 sections**, organized for software engineers at every level.
+**1993 resources** across **12 sections**, organized for software engineers at every level.
 
 ## 🎯 Start Here
 
-**New to 100xSystems?** Pick your path:
-
-### By Role
-| I want to become... | Start with |
-|---|---|
-| **Frontend Engineer** | [Frontend Roadmap →](/knowledge/roadmaps/frontend-engineer) |
-| **Backend Engineer** | [Backend Roadmap →](/knowledge/roadmaps/backend-engineer) |
-| **DevOps Engineer** | [DevOps Roadmap →](/knowledge/roadmaps/devops-engineer) |
-| **Full-Stack Engineer** | [Full-Stack Roadmap →](/knowledge/roadmaps/fullstack-engineer) |
-| **Cloud Engineer** | [Cloud Roadmap →](/knowledge/roadmaps/cloud-engineer) |
-| **ML Engineer** | [ML Roadmap →](/knowledge/roadmaps/ml-engineer) |
-| **Platform Engineer** | [Platform Roadmap →](/knowledge/roadmaps/platform-engineer) |
-| **SRE** | [SRE Roadmap →](/knowledge/roadmaps/sre-engineer) |
-| **Data Engineer** | [Data Roadmap →](/knowledge/roadmaps/data-engineer) |
+**New to 100xSystems?** [Pick a career roadmap →](/roadmaps) and follow a sequenced learning path.
 
 ### By Interest
 | I want to learn about... | Go to |
@@ -77,11 +64,6 @@ Structured curriculum for distributed systems:
 - [Google Search](/knowledge/case-studies/google-search) — Caffeine indexing
 - [Uber Ride Matching](/knowledge/case-studies/uber-ride-matching) — H3 geospatial
 
-### Engineering Roadmaps (9 roles)
-- [Frontend](/knowledge/roadmaps/frontend-engineer) | [Backend](/knowledge/roadmaps/backend-engineer) | [DevOps](/knowledge/roadmaps/devops-engineer)
-- [Full-Stack](/knowledge/roadmaps/fullstack-engineer) | [Cloud](/knowledge/roadmaps/cloud-engineer) | [ML](/knowledge/roadmaps/ml-engineer)
-- [Platform](/knowledge/roadmaps/platform-engineer) | [SRE](/knowledge/roadmaps/sre-engineer) | [Data](/knowledge/roadmaps/data-engineer)
-
 ### Reference Sections
 - [Languages](/knowledge/languages/) — 1114 programming languages
 - [Patterns](/knowledge/patterns/) — 209 design patterns
@@ -106,18 +88,13 @@ Structured curriculum for distributed systems:
 | AI Courses | 252 | In-depth lessons |
 | System Design | 16 | In-depth lessons |
 | Case Studies | 8 | Deep dives |
-| Roadmaps | 9 | Structured paths |
-| **Total** | **1,993** | |
+| **Total** | **1,984** | |
 
 ---
 
 ## 🔗 How Sections Connect
 
 ```
-Roadmaps → Link to → Topics (Languages, Tools, Frameworks)
-                    → System Design curriculum
-                    → AI Courses (for ML Engineer)
-
 System Design → Links to → Case Studies (real examples)
                          → Patterns (applied solutions)
                          → Building Blocks (infrastructure)
@@ -132,8 +109,8 @@ AI Courses → Reference → Prerequisites across courses
 
 ## 📖 Learning Strategy
 
-1. **Start with a Roadmap** — Choose your role
-2. **Follow the Phases** — Each step builds on the previous
+1. **Pick a Roadmap** — [Choose your role](/roadmaps)
+2. **Follow the Sequence** — Each step builds on the previous
 3. **Click Through to Topics** — Deep dives in reference sections
 4. **Study Case Studies** — See how concepts apply in production
 5. **Practice System Design** — Apply knowledge to interview scenarios
