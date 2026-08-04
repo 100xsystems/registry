@@ -1,127 +1,236 @@
 ---
-{
-  "title": "Classic CNN Architectures",
-  "description": "LeNet, VGG, ResNet — the ideas (depth, skip connections) that shaped modern vision models.",
-  "type": "lesson",
-  "order": 13,
-  "duration": "55 min",
-  "difficulty": "advanced",
-  "learning_objectives": [
-    "Trace LeNet and VGG design patterns",
-    "Explain residual/skip connections",
-    "Understand why depth needs ResNets",
-    "Load a pretrained ResNet from torchvision"
-  ],
-  "knowledge_refs": [
-    "deep-learning/dl-12-convolutional-networks",
-    "computer-vision/cv-18-3d-vision",
-    "computer-vision/cv-01-what-is-computer-vision"
-  ],
-  "prerequisites": [
-    "DL-12: Convolutional Networks"
-  ],
-  "references": [
-    {
-      "title": "PyTorch Documentation",
-      "url": "https://pytorch.org/docs/stable/index.html",
-      "description": "The official reference for the deep-learning framework used across this course."
-    },
-    {
-      "title": "Deep Learning — Goodfellow, Bengio & Courville",
-      "url": "https://www.deeplearningbook.org/",
-      "description": "The canonical textbook on deep learning (free HTML)."
-    },
-    {
-      "title": "Dive into Deep Learning (d2l.ai)",
-      "url": "https://d2l.ai/",
-      "description": "Interactive deep-learning textbook with code in PyTorch."
-    },
-    {
-      "title": "Practical Deep Learning — fast.ai",
-      "url": "https://course.fast.ai/",
-      "description": "A top-down course that gets you training models quickly."
-    },
-    {
-      "title": "Attention Is All You Need",
-      "url": "https://arxiv.org/abs/1706.03762",
-      "description": "The paper that introduced the Transformer architecture."
-    }
-  ]
-}
+slug: dl-13-cnn-architectures
+title: "CNN Architectures: AlexNet to EfficientNet"
+description: "The evolution of convolutional architectures — from the deep learning breakthrough to modern efficient designs."
+order: 13
+tags:
+  - deep-learning
+  - cnn
+  - alexnet
+  - resnet
+  - efficientnet
+prerequisites:
+  - dl-12-convolutional-networks
+  - dl-11-regularization-for-deep-learning
+references:
+  - title: "Deep Residual Learning for Image Recognition (ResNet)"
+    url: "https://arxiv.org/abs/1512.03385"
+    description: "He et al.'s ResNet paper — skip connections that enabled 152-layer networks"
+  - title: "EfficientNet: Rethinking Model Scaling"
+    url: "https://arxiv.org/abs/1905.11946"
+    url: "https://arxiv.org/abs/1905.11946"
+    description: "Tan & Le's compound scaling method for efficient models"
+  - title: "An Intriguing Idea: Batch Normalization (Inception/VGG)"
+    url: "https://arxiv.org/abs/1409.1556"
+    description: "Batch normalization paper from the Inception/GoogLeNet team"
+  - title: "Visual Geometry Group Networks (VGG)"
+    url: "https://arxiv.org/abs/1409.1556"
+    description: "Simonyan & Zisserman's VGGNet — showing depth matters"
+  - title: "A ConvNet for the 2020s (ConvNeXt)"
+    url: "https://arxiv.org/abs/2110.01271"
+    description: "Liu et al.'s ConvNeXt — modernizing CNNs with transformer design choices"
+knowledge_refs:
+  - dl-12-convolutional-networks
+  - dl-14-transfer-learning
+  - dl-11-regularization-for-deep-learning
 ---
 
-# DL-13-CNN-ARCHITECTURES: Classic CNN Architectures
+# CNN Architectures: AlexNet to EfficientNet
 
-## Introduction
+The history of computer vision is a story of architectures getting deeper, more efficient, and more powerful. Understanding this evolution teaches you not just what works, but why.
 
-LeNet, VGG, ResNet — the ideas (depth, skip connections) that shaped modern vision models. By the end of this lesson you will be able to: Trace LeNet and VGG design patterns; Explain residual/skip connections; Understand why depth needs ResNets; Load a pretrained ResNet from torchvision.
+## AlexNet (2012) — The Breakthrough
 
-## Key Concepts
+- **Architecture**: 5 conv layers + 3 FC layers, 60M parameters
+- **Innovation**: ReLU, dropout, GPU training, data augmentation
+- **Result**: 16% top-5 error on ImageNet (vs 26% for 2nd place)
+- **Impact**: Launched the deep learning revolution
 
-### 1. Trace LeNet and VGG design patterns
-
-Target: Trace LeNet and VGG design patterns. Start with the foundations — read the runnable example carefully and trace its output before moving on.
-
-```python
-import torchvision.models as models
-
-resnet = models.resnet18(weights=models.ResNet18_Weights.DEFAULT)
-print(resnet)
 ```
-### 2. Explain residual/skip connections
-
-Target: Explain residual/skip connections. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
-
-```python
-import torch
-
-x = torch.randn(2, 3, 224, 224)
-print("resnet out:", resnet(x).shape)  # (2, 1000)
+Input → Conv(96, 11, s4) → Pool → Conv(256, 5, p2) → Pool →
+Conv(384, 3, p1) → Conv(384, 3, p1) → Conv(256, 3, p1) → Pool →
+FC(4096) → FC(4096) → FC(1000)
 ```
-### 3. Understand why depth needs ResNets
 
-Target: Understand why depth needs ResNets. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+## VGGNet (2014) — Depth Matters
+
+- **Architecture**: 16-19 layers, all 3×3 convolutions, 138M parameters
+- **Innovation**: Showed that deeper networks (with same filter size) perform better
+- **Design**: Simple and uniform — every conv is 3×3, stride 1, padding 1
+- **Limitation**: Very expensive — 138M parameters
+
+```
+[Conv(64) × 2] → Pool → [Conv(128) × 2] → Pool →
+[Conv(256) × 3] → Pool → [Conv(512) × 3] → Pool →
+[Conv(512) × 3] → Pool → FC(4096) × 2 → FC(1000)
+```
+
+## GoogLeNet/Inception (2014) — Efficiency Through Width
+
+- **Architecture**: 22 layers, inception modules, 6.8M parameters
+- **Innovation**: Inception module (parallel 1×1, 3×3, 5×5 convs + pooling)
+- **Key idea**: 1×1 convolutions reduce dimensionality before expensive operations
 
 ```python
-import torch.nn as nn
+class InceptionBlock(nn.Module):
+    def __init__(self, in_ch, out_1x1, out_3x3_reduce, out_3x3, out_5x5_reduce, out_5x5, pool_proj):
+        super().__init__()
+        self.branch1 = nn.Sequential(nn.Conv2d(in_ch, out_1x1, 1), nn.ReLU())
+        self.branch2 = nn.Sequential(
+            nn.Conv2d(in_ch, out_3x3_reduce, 1), nn.ReLU(),
+            nn.Conv2d(out_3x3_reduce, out_3x3, 3, padding=1), nn.ReLU()
+        )
+        self.branch3 = nn.Sequential(
+            nn.Conv2d(in_ch, out_5x5_reduce, 1), nn.ReLU(),
+            nn.Conv2d(out_5x5_reduce, out_5x5, 5, padding=2), nn.ReLU()
+        )
+        self.branch4 = nn.Sequential(
+            nn.MaxPool2d(3, stride=1, padding=1),
+            nn.Conv2d(in_ch, pool_proj, 1), nn.ReLU()
+        )
+    
+    def forward(self, x):
+        return torch.cat([self.branch1(x), self.branch2(x), self.branch3(x), self.branch4(x)], dim=1)
+```
 
-# A residual block: y = F(x) + x
-class ResidualBlock(nn.Module):
+## ResNet (2015) — Skip Connections
+
+The most influential CNN architecture ever. **Skip connections** solve the degradation problem:
+
+$$\mathbf{y} = \mathcal{F}(\mathbf{x}, \{W_i\}) + \mathbf{x}$$
+
+Instead of learning $\mathcal{H}(\mathbf{x})$ directly, learn the **residual** $\mathcal{F}(\mathbf{x}) = \mathcal{H}(\mathbf{x}) - \mathbf{x}$.
+
+```python
+class ResBlock(nn.Module):
+    def __init__(self, channels):
+        super().__init__()
+        self.conv1 = nn.Conv2d(channels, channels, 3, padding=1)
+        self.bn1 = nn.BatchNorm2d(channels)
+        self.conv2 = nn.Conv2d(channels, channels, 3, padding=1)
+        self.bn2 = nn.BatchNorm2d(channels)
+    
+    def forward(self, x):
+        residual = x
+        out = F.relu(self.bn1(self.conv1(x)))
+        out = self.bn2(self.conv2(out))
+        out += residual  # Skip connection!
+        return F.relu(out)
+```
+
+**Why skip connections work:**
+- Gradients flow directly through skip connections (no vanishing)
+- Network can learn identity mapping trivially
+- Enables training 50-152+ layer networks
+- Creates an ensemble of shallower networks
+
+**Key variants:**
+- ResNet-18/34: Basic blocks (2 conv layers each)
+- ResNet-50/101/152: Bottleneck blocks (3 conv layers: 1×1 → 3×3 → 1×1)
+
+## DenseNet (2017) — Feature Reuse
+
+Every layer receives features from ALL preceding layers:
+
+```python
+class DenseBlock(nn.Module):
+    def __init__(self, in_ch, growth_rate, num_layers):
+        super().__init__()
+        layers = []
+        for i in range(num_layers):
+            layers.append(nn.Sequential(
+                nn.BatchNorm2d(in_ch + i * growth_rate),
+                nn.ReLU(),
+                nn.Conv2d(in_ch + i * growth_rate, growth_rate, 3, padding=1)
+            ))
+        self.layers = nn.ModuleList(layers)
+    
+    def forward(self, x):
+        features = [x]
+        for layer in self.layers:
+            out = layer(torch.cat(features, dim=1))
+            features.append(out)
+        return torch.cat(features, dim=1)
+```
+
+**DenseNet-121** has 8M parameters (vs ResNet-50's 25M) but comparable accuracy. Very parameter-efficient.
+
+## EfficientNet (2019) — Compound Scaling
+
+Instead of scaling depth, width, or resolution independently, scale all three **together**:
+
+$$\text{depth: } d = \alpha^\phi, \quad \text{width: } w = \beta^\phi, \quad \text{resolution: } r = \gamma^\phi$$
+
+subject to $\alpha \cdot \beta^2 \cdot \gamma^2 \approx 2$.
+
+**EfficientNet-B0 to B7**: A family of models with increasing compute budgets.
+
+```python
+# EfficientNet-B0 base architecture (simplified)
+# Uses mobile inverted bottleneck (MBConv) blocks
+# Compound scaling applies to all three dimensions
+```
+
+**Results**: EfficientNet-B7 achieves 84.3% ImageNet top-1 accuracy — state-of-the-art at the time, with 8.4x fewer FLOPs than the previous best.
+
+## ConvNeXt (2022) — Modernizing CNNs
+
+A pure convolution network that matches Vision Transformer performance by adopting transformer design choices:
+
+- Larger kernel size (7×7 instead of 3×3)
+- Fewer activation functions (GELU instead of ReLU)
+- Layer normalization instead of batch normalization
+- Inverted bottleneck design
+- Patchify stem (4×4 conv with stride 4)
+
+```python
+class ConvNeXtBlock(nn.Module):
     def __init__(self, dim):
         super().__init__()
-        self.f = nn.Sequential(nn.Conv2d(dim, dim, 3, padding=1), nn.ReLU(), nn.Conv2d(dim, dim, 3, padding=1))
+        self.dwconv = nn.Conv2d(dim, dim, kernel_size=7, padding=3, groups=dim)  # depthwise
+        self.norm = nn.LayerNorm(dim)
+        self.pwconv1 = nn.Linear(dim, 4 * dim)
+        self.act = nn.GELU()
+        self.pwconv2 = nn.Linear(4 * dim, dim)
+    
     def forward(self, x):
-        return nn.functional.relu(self.f(x) + x)
-```
-### 4. Load a pretrained ResNet from torchvision
-
-Target: Load a pretrained ResNet from torchvision. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
-
-```python
-import torchvision.models as models
-
-vgg = models.vgg16(weights=models.VGG16_Weights.DEFAULT)
-print("vgg conv layers:", len(list(vgg.features)))
+        residual = x
+        x = self.dwconv(x)
+        x = x.permute(0, 2, 3, 1)  # (B,C,H,W) → (B,H,W,C)
+        x = self.norm(x)
+        x = self.pwconv1(x)
+        x = self.act(x)
+        x = self.pwconv2(x)
+        x = x.permute(0, 3, 1, 2)
+        return residual + x
 ```
 
-## Practice Questions
+## Architecture Comparison
 
-1. What is the key idea behind "Classic CNN Architectures"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+| Architecture | Year | Parameters | Top-1 Acc | Key Innovation |
+|---|---|---|---|---|
+| AlexNet | 2012 | 60M | 63% | ReLU, GPU, dropout |
+| VGG-16 | 2014 | 138M | 74% | Depth with 3×3 filters |
+| GoogLeNet | 2014 | 6.8M | 74% | Inception modules |
+| ResNet-50 | 2015 | 25M | 76% | Skip connections |
+| DenseNet-121 | 2017 | 8M | 75% | Feature reuse |
+| EfficientNet-B7 | 2019 | 66M | 84% | Compound scaling |
+| ConvNeXt-B | 2022 | 89M | 84% | Transformer-style CNN |
 
-## LLM Prompts for Deeper Understanding
+## Choosing an Architecture
 
-1. "Explain Classic CNN Architectures with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Classic CNN Architectures"
-1. "Provide advanced patterns and performance considerations for Classic CNN Architectures"
-
-## Key Takeaways
-
-- Master the core ideas of Classic CNN Architectures through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+| Use Case | Recommended |
+|---|---|
+| Learning/education | ResNet-18 (simple, well-understood) |
+| Production (general) | EfficientNet-B3/B4 |
+| Mobile/edge | MobileNetV3, EfficientNet-B0 |
+| Maximum accuracy | ConvNeXt-L or ViT-L |
+| Medical imaging | EfficientNet + transfer learning |
+| Fine-grained classification | ResNet + attention |
 
 ## Further Reading
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+- He et al. (2015) ResNet is one of the most important papers in deep learning
+- Tan & Le (2019) EfficientNet showed compound scaling is principled
+- Liu et al. (2022) ConvNeXt blurred the line between CNNs and transformers
+- For efficient inference: TensorRT, ONNX Runtime, MobileNet

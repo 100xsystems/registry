@@ -1,133 +1,159 @@
 ---
-{
-  "title": "Logistic Regression",
-  "description": "Probability for classification: the sigmoid, log loss, and decision boundaries that stay interpretable.",
-  "type": "lesson",
-  "order": 7,
-  "duration": "55 min",
-  "difficulty": "intermediate",
-  "learning_objectives": [
-    "Explain why linear models need a sigmoid for classification",
-    "Interpret predicted probabilities",
-    "Read log-odds coefficients",
-    "Set decision thresholds by business cost"
-  ],
-  "knowledge_refs": [
-    "machine-learning/ml-06-gradient-descent",
-    "computer-vision/cv-05-image-classification",
-    "nlp/nlp-07-text-classification"
-  ],
-  "prerequisites": [
-    "ML-06: Gradient Descent"
-  ],
-  "references": [
-    {
-      "title": "scikit-learn User Guide",
-      "url": "https://scikit-learn.org/stable/user_guide.html",
-      "description": "The authoritative guide to the Python ML toolbox."
-    },
-    {
-      "title": "The Elements of Statistical Learning",
-      "url": "https://hastie.su.domains/ElemStatLearn/",
-      "description": "The classic statistical-learning reference (free PDF)."
-    },
-    {
-      "title": "Hands-On Machine Learning — Aurélien Géron",
-      "url": "https://github.com/ageron/handson-ml3",
-      "description": "Practical ML with scikit-learn, Keras and TensorFlow."
-    },
-    {
-      "title": "Andrew Ng — Machine Learning Specialization",
-      "url": "https://www.coursera.org/specializations/machine-learning-introduction",
-      "description": "The most popular introductory ML course in the world."
-    },
-    {
-      "title": "Kaggle Learn — Intro to Machine Learning",
-      "url": "https://www.kaggle.com/learn/intro-to-machine-learning",
-      "description": "Hands-on micro-course for the fundamentals."
-    }
-  ]
-}
+slug: ml-07-logistic-regression
+title: "Logistic Regression"
+description: "The foundational classification algorithm — simple, interpretable, and still the first thing to try on any tabular classification problem."
+order: 7
+tags:
+  - machine-learning
+  - classification
+  - logistic-regression
+  - sigmoid
+prerequisites:
+  - ml-05-linear-regression
+  - ml-06-gradient-descent
+references:
+  - title: "Logistic Regression — scikit-learn User Guide"
+    url: "https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression"
+    description: "Official scikit-learn documentation with implementation details"
+  - title: "StatQuest: Logistic Regression"
+    url: "https://www.youtube.com/watch?v=yIYKR4sgzI8"
+    description: "Josh Starmer's clear visual explanation of logistic regression"
+  - title: "Elements of Statistical Learning, Ch. 4"
+    url: "https://hastie.su.domains/ElemStatLearn/printings/ESLII_print12_toc.pdf"
+    description: "Hastie, Tibshirani, Friedman — the authoritative textbook treatment"
+  - title: "CS229 Lecture Notes: Logistic Regression"
+    url: "https://cs229.stanford.edu/lectures-spring2022/main_notes.pdf"
+    description: "Andrew Ng's Stanford course notes on logistic regression"
+  - title: "Wikipedia: Logistic Regression"
+    url: "https://en.wikipedia.org/wiki/Logistic_regression"
+    description: "Comprehensive mathematical treatment including MLE derivation"
+knowledge_refs:
+  - ml-05-linear-regression
+  - ml-06-gradient-descent
+  - ml-18-classification-metrics
 ---
 
-# ML-07-LOGISTIC-REGRESSION: Logistic Regression
+# Logistic Regression
 
-## Introduction
+Despite its name, logistic regression is a **classification** algorithm. It's the natural starting point for any classification task — simple, fast, interpretable, and surprisingly competitive on tabular data.
 
-Probability for classification: the sigmoid, log loss, and decision boundaries that stay interpretable. By the end of this lesson you will be able to: Explain why linear models need a sigmoid for classification; Interpret predicted probabilities; Read log-odds coefficients; Set decision thresholds by business cost.
+## From Regression to Classification
 
-## Key Concepts
+Linear regression predicts continuous values, but classification requires a probability between 0 and 1. The **sigmoid function** squashes any real number into $(0, 1)$:
 
-### 1. Explain why linear models need a sigmoid for classification
+$$\sigma(z) = \frac{1}{1 + e^{-z}}$$
 
-Target: Explain why linear models need a sigmoid for classification. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+Logistic regression applies a linear model followed by the sigmoid:
 
+$$P(y=1 \mid \mathbf{x}) = \sigma(\mathbf{w}^T \mathbf{x} + b)$$
+
+The output is interpreted as the probability that the input belongs to the positive class. A threshold (typically 0.5) converts this probability into a class label.
+
+## The Decision Boundary
+
+The decision boundary is where $P(y=1) = 0.5$, which occurs when $\mathbf{w}^T \mathbf{x} + b = 0$. This is always a **linear** boundary — a line in 2D, a plane in 3D, a hyperplane in higher dimensions.
+
+This linearity is both a strength (simple, interpretable) and a limitation (can't learn XOR or other non-linear patterns without feature engineering).
+
+**Feature engineering for non-linearity:**
 ```python
-import numpy as np
-
-def sigmoid(z):
-    return 1 / (1 + np.exp(-z))
-
-for z in [-3, 0, 3]:
-    print(f"z={z}: P = {sigmoid(z):.3f}")
+# Polynomial features transform linear boundaries into non-linear ones
+from sklearn.preprocessing import PolynomialFeatures
+poly = PolynomialFeatures(degree=2, interaction_only=False)
+X_poly = poly.fit_transform(X)
+# Now logistic regression on X_poly can learn curved boundaries
 ```
-### 2. Interpret predicted probabilities
 
-Target: Interpret predicted probabilities. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+## Loss Function: Cross-Entropy
+
+Logistic regression is trained by minimizing **binary cross-entropy** (also called log loss):
+
+$$\mathcal{L} = -\frac{1}{N} \sum_{i=1}^{N} \left[ y_i \log(\hat{p}_i) + (1 - y_i) \log(1 - \hat{p}_i) \right]$$
+
+Why not MSE? Because the sigmoid + MSE creates a non-convex loss surface with local minima. Cross-entropy with sigmoid is **convex** — guaranteed to find the global optimum.
+
+**Intuition**: When $y=1$, the loss is $-\log(\hat{p})$ — heavily penalizing low predicted probabilities. When $y=0$, the loss is $-\log(1-\hat{p})$ — penalizing high predicted probabilities.
+
+## Maximum Likelihood Estimation
+
+Logistic regression parameters are found via MLE — maximizing the likelihood of the observed data:
+
+$$\mathcal{L}(\mathbf{w}) = \prod_{i=1}^{N} \hat{p}_i^{y_i} (1-\hat{p}_i)^{1-y_i}$$
+
+Taking the log and negating gives the cross-entropy loss. Optimization is done via gradient descent or more efficient methods like L-BFGS.
+
+## Multiclass Extension: Softmax
+
+For $K > 2$ classes, logistic regression generalizes via **softmax regression**:
+
+$$P(y=k \mid \mathbf{x}) = \frac{e^{\mathbf{w}_k^T \mathbf{x}}}{\sum_{j=1}^{K} e^{\mathbf{w}_j^T \mathbf{x}}}$$
+
+Each class gets its own weight vector $\mathbf{w}_k$. The softmax ensures probabilities sum to 1. Training uses **categorical cross-entropy**.
 
 ```python
 from sklearn.linear_model import LogisticRegression
-
-X = [[1], [2], [3], [10], [11], [12]]
-y = [0, 0, 0, 1, 1, 1]
-m = LogisticRegression().fit(X, y)
-print("coef:", round(m.coef_[0][0], 3), "intercept:", round(m.intercept_[0], 3))
+# Automatically handles multiclass via softmax
+clf = LogisticRegression(multi_class='multinomial', max_iter=1000)
+clf.fit(X_train, y_train)
 ```
-### 3. Read log-odds coefficients
 
-Target: Read log-odds coefficients. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+## Regularization
+
+Logistic regression is prone to overfitting in high dimensions. scikit-learn applies L2 regularization by default (controlled by `C`, which is the **inverse** regularization strength):
 
 ```python
-import numpy as np
+# Stronger regularization (smaller C)
+clf = LogisticRegression(C=0.01, penalty='l2')
 
-# Threshold by cost: false negatives are 10x more expensive
-scores = np.array([0.3, 0.6, 0.8])
-for t in [0.5, 0.7]:
-    preds = (scores >= t).astype(int)
-    print(f"t={t} -> {preds}")
-```
-### 4. Set decision thresholds by business cost
+# L1 regularization for feature selection (sparse solutions)
+clf = LogisticRegression(C=0.1, penalty='l1', solver='liblinear')
 
-Target: Set decision thresholds by business cost. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
-
-```python
-from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import log_loss
-
-X = [[1], [2], [3], [10], [11], [12]]
-y = [0, 0, 0, 1, 1, 1]
-m = LogisticRegression().fit(X, y)
-print("log loss:", round(log_loss(y, m.predict_proba(X)), 3))
+# Elastic net combines L1 and L2
+clf = LogisticRegression(C=0.1, penalty='elasticnet', l1_ratio=0.5, solver='saga')
 ```
 
-## Practice Questions
+| Regularization | Effect | Use When |
+|---|---|---|
+| L2 (Ridge) | Shrinks weights toward zero | Default; all features potentially useful |
+| L1 (Lasso) | Sets some weights to exactly zero | Feature selection; sparse models |
+| Elastic Net | Combines both | High-dimensional with correlated features |
 
-1. What is the key idea behind "Logistic Regression"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+## Advantages
 
-## LLM Prompts for Deeper Understanding
+- **Interpretable**: Weights directly indicate feature importance and direction
+- **Probabilistic output**: Gives calibrated probabilities, not just labels
+- **Fast**: Training is O(N × D) — scales to millions of samples
+- **Strong baseline**: Often competitive with complex models on tabular data
+- **No hyperparameters to tune**: Works well with defaults
+- **Well-understood theory**: Confidence intervals, hypothesis tests, p-values
 
-1. "Explain Logistic Regression with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Logistic Regression"
-1. "Provide advanced patterns and performance considerations for Logistic Regression"
+## Limitations
 
-## Key Takeaways
+- Linear decision boundary — can't learn complex patterns without feature engineering
+- Assumes features are independently contributing (no interactions without manual creation)
+- Sensitive to correlated features (use regularization)
+- Can't capture non-linear relationships
 
-- Master the core ideas of Logistic Regression through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+## Practical Tips
+
+1. **Always start with logistic regression** as a baseline for tabular classification
+2. **Scale your features** — StandardScaler before logistic regression
+3. **Check class imbalance** — use `class_weight='balanced'` or adjust threshold
+4. **Use `liblinear` solver** for small datasets, `saga` for large ones
+5. **L1 regularization** is excellent for understanding which features matter
+6. **Calibrate probabilities** if you need well-calibrated outputs:
+   ```python
+   from sklearn.calibration import CalibratedClassifierCV
+   calibrated = CalibratedClassifierCV(clf, cv=5, method='isotonic')
+   ```
+
+## Logistic Regression vs. Neural Networks
+
+A single-neuron neural network with sigmoid activation IS logistic regression. Logistic regression is the simplest neural network. The boundary between "traditional ML" and "deep learning" is really about depth and non-linearity.
 
 ## Further Reading
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+- The Elements of Statistical Learning Chapter 4 is the definitive reference
+- scikit-learn's documentation covers practical considerations and solver choices
+- CS229 notes derive the gradient and Newton's method for logistic regression
+- For probabilistic programming, PyMC3 and Stan have full Bayesian logistic regression implementations

@@ -1,133 +1,226 @@
 ---
-{
-  "title": "Classification Metrics Deep Dive",
-  "description": "Precision, recall, F1, ROC curves and calibration — choose the metric that matches the business cost.",
-  "type": "lesson",
-  "order": 18,
-  "duration": "55 min",
-  "difficulty": "advanced",
-  "learning_objectives": [
-    "Compute precision, recall, F1 and support",
-    "Read ROC curves and compare models with AUC",
-    "Explain calibration and reliability",
-    "Choose a metric from business costs"
-  ],
-  "knowledge_refs": [
-    "machine-learning/ml-17-hyperparameter-tuning",
-    "computer-vision/cv-05-image-classification",
-    "nlp/nlp-07-text-classification"
-  ],
-  "prerequisites": [
-    "ML-16: Cross-Validation"
-  ],
-  "references": [
-    {
-      "title": "scikit-learn User Guide",
-      "url": "https://scikit-learn.org/stable/user_guide.html",
-      "description": "The authoritative guide to the Python ML toolbox."
-    },
-    {
-      "title": "The Elements of Statistical Learning",
-      "url": "https://hastie.su.domains/ElemStatLearn/",
-      "description": "The classic statistical-learning reference (free PDF)."
-    },
-    {
-      "title": "Hands-On Machine Learning — Aurélien Géron",
-      "url": "https://github.com/ageron/handson-ml3",
-      "description": "Practical ML with scikit-learn, Keras and TensorFlow."
-    },
-    {
-      "title": "Andrew Ng — Machine Learning Specialization",
-      "url": "https://www.coursera.org/specializations/machine-learning-introduction",
-      "description": "The most popular introductory ML course in the world."
-    },
-    {
-      "title": "Kaggle Learn — Intro to Machine Learning",
-      "url": "https://www.kaggle.com/learn/intro-to-machine-learning",
-      "description": "Hands-on micro-course for the fundamentals."
-    }
-  ]
-}
+slug: ml-18-classification-metrics
+title: "Classification Metrics Deep Dive"
+description: "Accuracy is almost never the right metric — precision, recall, F1, AUC-ROC, and choosing what matters for your problem."
+order: 18
+tags:
+  - machine-learning
+  - evaluation
+  - metrics
+  - precision-recall
+  - auc-roc
+prerequisites:
+  - ml-03-the-learning-problem
+  - ml-07-logistic-regression
+references:
+  - title: "scikit-learn: Classification Metrics"
+    url: "https://scikit-learn.org/stable/modules/model_evaluation.html#classification-metrics"
+    description: "Official documentation with comprehensive metric implementations"
+  - title: "Wikipedia: F1 Score"
+    url: "https://en.wikipedia.org/wiki/F-score"
+    description: "Comprehensive treatment of F-score variants and their use cases"
+  - title: "Sokolova & Lapalme: A systematic analysis of performance measures for classification tasks"
+    url: "https://doi.org/10.1016/j.inffus.2009.03.004"
+    description: "Analysis of when to use which classification metric"
+  - title: "Davis & Goadrich: The Relationship Between Precision-Recall and ROC Curves"
+    url: "https://doi.org/10.1145/1143844.1143874"
+    description: "Seminal paper on PR vs ROC curves"
+  - title: "Hand & Till: A Simple Generalisation of the Area Under the ROC Curve"
+    url: "https://doi.org/10.1016/j.patrec.2002.04.002"
+    description: "Mann-Whitney U statistic and multi-class AUC"
+knowledge_refs:
+  - ml-07-logistic-regression
+  - ml-09-ensemble-methods
+  - ml-16-cross-validation
 ---
 
-# ML-18-CLASSIFICATION-METRICS: Classification Metrics Deep Dive
+# Classification Metrics Deep Dive
 
-## Introduction
+"Accuracy" on an imbalanced dataset is meaningless. If 99% of emails are not spam, a model that predicts "not spam" for everything has 99% accuracy but is useless. Choosing the right metric is as important as choosing the right model.
 
-Precision, recall, F1, ROC curves and calibration — choose the metric that matches the business cost. By the end of this lesson you will be able to: Compute precision, recall, F1 and support; Read ROC curves and compare models with AUC; Explain calibration and reliability; Choose a metric from business costs.
+## The Confusion Matrix
 
-## Key Concepts
+Everything starts here:
 
-### 1. Compute precision, recall, F1 and support
+|  | Predicted Positive | Predicted Negative |
+|---|---|---|
+| **Actual Positive** | True Positive (TP) | False Negative (FN) |
+| **Actual Negative** | False Positive (FP) | True Negative (TN) |
 
-Target: Compute precision, recall, F1 and support. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+- **False Positive (Type I Error)**: Crying wolf — model says positive, reality says negative
+- **False Negative (Type II Error)**: Missing the alarm — model says negative, reality says positive
+
+## Core Metrics
+
+### Accuracy
+$$\text{Accuracy} = \frac{TP + TN}{TP + TN + FP + FN}$$
+
+**When to use**: Balanced classes, equal cost of FP and FN. Almost never the right metric.
+
+### Precision (Positive Predictive Value)
+$$\text{Precision} = \frac{TP}{TP + FP}$$
+
+**When to use**: Cost of false positive is high (spam filter — don't mark legitimate email as spam; medical diagnosis — don't give healthy patient bad news).
+
+### Recall (Sensitivity, True Positive Rate)
+$$\text{Recall} = \frac{TP}{TP + FN}$$
+
+**When to use**: Cost of false negative is high (cancer screening — don't miss a cancer; fraud detection — don't let fraud through).
+
+### F1 Score
+$$F1 = 2 \cdot \frac{\text{Precision} \times \text{Recall}}{\text{Precision} + \text{Recall}}$$
+
+The harmonic mean of precision and recall. Balances both concerns. Better than accuracy for imbalanced classes.
+
+### F-beta Score
+$$F_\beta = (1 + \beta^2) \cdot \frac{\text{Precision} \times \text{Recall}}{\beta^2 \cdot \text{Precision} + \text{Recall}}$$
+
+- $\beta < 1$ (e.g., F0.5): Weights precision higher — prefer fewer false positives
+- $\beta > 1$ (e.g., F2): Weights recall higher — prefer fewer false negatives
 
 ```python
-from sklearn.metrics import classification_report
-
-y_true = [0, 1, 1, 0, 1, 0, 1]
-y_pred = [0, 1, 0, 0, 1, 1, 1]
-print(classification_report(y_true, y_pred, target_names=["neg", "pos"]))
+from sklearn.metrics import fbeta_score
+f2 = fbeta_score(y_true, y_pred, beta=2)  # recall-weighted
+f05 = fbeta_score(y_true, y_pred, beta=0.5)  # precision-weighted
 ```
-### 2. Read ROC curves and compare models with AUC
 
-Target: Read ROC curves and compare models with AUC. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+## Threshold-Dependent Metrics
+
+Precision, recall, and F1 depend on a **decision threshold** (typically 0.5). But the optimal threshold depends on your problem's cost structure.
+
+### ROC Curve and AUC-ROC
+
+Plots **True Positive Rate** (recall) vs. **False Positive Rate** at every possible threshold:
+
+$$\text{FPR} = \frac{FP}{FP + TN}$$
+
+The **Area Under the ROC Curve** (AUC-ROC) summarizes performance across all thresholds:
+- AUC = 1.0: Perfect classifier
+- AUC = 0.5: Random classifier (no discrimination)
+- AUC < 0.5: Worse than random (model is inverted)
 
 ```python
 from sklearn.metrics import roc_curve, auc
-import numpy as np
 
-y_true = np.array([0, 0, 1, 1])
-y_score = np.array([0.1, 0.4, 0.35, 0.8])
-fpr, tpr, _ = roc_curve(y_true, y_score)
-print("AUC:", round(auc(fpr, tpr), 3))
+fpr, tpr, thresholds = roc_curve(y_true, y_scores)
+roc_auc = auc(fpr, tpr)
 ```
-### 3. Explain calibration and reliability
 
-Target: Explain calibration and reliability. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+### Precision-Recall Curve and AUC-PR
+
+More informative than ROC when classes are imbalanced:
 
 ```python
-from sklearn.calibration import calibration_curve
+from sklearn.metrics import precision_recall_curve, average_precision_score
 
-# Calibration: does 70% probability mean 70% of the time?
-y_true = [0, 1, 0, 1, 1]
-y_prob = [0.3, 0.7, 0.6, 0.9, 0.8]
-fraction_positive, mean_predicted = calibration_curve(y_true, y_prob, n_bins=3)
-print("mean predicted:", mean_predicted.round(2))
-print("fraction positive:", fraction_positive.round(2))
+precision, recall, thresholds = precision_recall_curve(y_true, y_scores)
+ap = average_precision_score(y_true, y_scores)
 ```
-### 4. Choose a metric from business costs
 
-Target: Choose a metric from business costs. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+**ROC vs PR curves:**
+- **ROC**: Can be misleadingly optimistic with heavy class imbalance (FPR denominator includes all negatives)
+- **PR**: Focuses on the positive class — better when positive class is rare
+
+| Scenario | Use |
+|---|---|
+| Balanced classes | ROC-AUC is fine |
+| Imbalanced classes | PR-AUC is more informative |
+| Equal importance of FP/FN | ROC-AUC |
+| Cost-sensitive | PR curve + threshold tuning |
+
+## Multi-Class Metrics
+
+For $K > 2$ classes:
+
+**Macro-average**: Compute metric per class, then average (treats all classes equally):
+```python
+from sklearn.metrics import classification_report
+print(classification_report(y_true, y_pred, average='macro'))
+```
+
+**Weighted-average**: Weight by class support (accounts for class imbalance):
+```python
+print(classification_report(y_true, y_pred, average='weighted'))
+```
+
+**Micro-average**: Aggregate TP, FP, FN globally (dominated by majority class):
+```python
+print(classification_report(y_true, y_pred, average='micro'))
+```
+
+### Cohen's Kappa
+
+Measures agreement between predictions and true labels, corrected for chance:
+$$\kappa = \frac{p_o - p_e}{1 - p_e}$$
+
+where $p_o$ is observed agreement and $p_e$ is expected agreement by chance.
 
 ```python
-import numpy as np
-
-# Cost-aware threshold: FP costs 1, FN costs 10
-costs = {"fp": 1, "fn": 10}
-for t in [0.5, 0.9]:
-    preds = (np.array([0.4, 0.6, 0.95]) >= t).astype(int)
-    print(f"t={t}: {preds}")
+from sklearn.metrics import cohen_kappa_score
+kappa = cohen_kappa_score(y_true, y_pred)
+# κ > 0.8: excellent agreement
+# κ = 0: no better than chance
 ```
 
-## Practice Questions
+## Choosing the Right Threshold
 
-1. What is the key idea behind "Classification Metrics Deep Dive"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+The default 0.5 threshold is rarely optimal:
 
-## LLM Prompts for Deeper Understanding
+```python
+from sklearn.metrics import precision_recall_curve
 
-1. "Explain Classification Metrics Deep Dive with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Classification Metrics Deep Dive"
-1. "Provide advanced patterns and performance considerations for Classification Metrics Deep Dive"
+precisions, recalls, thresholds = precision_recall_curve(y_true, y_scores)
 
-## Key Takeaways
+# Find threshold for target recall
+target_recall = 0.95
+idx = (recalls >= target_recall).nonzero()[0][-1]
+optimal_threshold = thresholds[idx]
+print(f"Threshold: {optimal_threshold:.3f}, Precision: {precisions[idx]:.3f}")
 
-- Master the core ideas of Classification Metrics Deep Dive through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+# F1-optimized threshold
+f1_scores = 2 * precisions[:-1] * recalls[:-1] / (precisions[:-1] + recalls[:-1] + 1e-8)
+best_idx = f1_scores.argmax()
+print(f"F1-optimal threshold: {thresholds[best_idx]:.3f}")
+```
+
+## Log Loss (Cross-Entropy)
+
+Measures the quality of predicted probabilities, not just labels:
+
+$$\text{Log Loss} = -\frac{1}{N}\sum_{i=1}^{N}\left[y_i\log(\hat{p}_i) + (1-y_i)\log(1-\hat{p}_i)\right]$$
+
+Penalizes confident wrong predictions heavily. A model with 99% accuracy but terrible log loss is overconfident and poorly calibrated.
+
+```python
+from sklearn.metrics import log_loss
+log_loss(y_true, y_prob)  # y_prob are probabilities, not labels
+```
+
+## Practical Decision Guide
+
+| What you care about | Metric |
+|---|---|
+| Overall correctness (balanced) | Accuracy |
+| Don't miss positives | Recall (or F2) |
+| Don't false-alarm | Precision (or F0.5) |
+| Balance precision/recall | F1 or PR-AUC |
+| Ranking quality | ROC-AUC |
+| Probability quality | Log Loss |
+| Multi-class balanced | Macro F1 |
+| Multi-class imbalanced | Weighted F1 |
+| Agreement with chance removed | Cohen's Kappa |
+
+## Common Mistakes
+
+1. **Using accuracy on imbalanced data**: Always check class distribution first
+2. **Not using the right averaging**: Macro vs micro vs weighted matters
+3. **Using AUC-ROC when AUC-PR is more appropriate**: Check class balance
+4. **Ignoring threshold optimization**: Don't assume 0.5 is optimal
+5. **Not considering costs**: FP and FN may have very different costs
 
 ## Further Reading
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+- Sokolova & Lapalme's systematic analysis helps choose the right metric
+- Davis & Goadrich show the relationship between ROC and PR curves
+- For cost-sensitive classification, look into cost curves and cost-sensitive learning
+- In production, always define your business metric and map it to a technical metric

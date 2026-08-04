@@ -1,132 +1,219 @@
 ---
-{
-  "title": "Cross-Validation",
-  "description": "k-fold cross-validation gives a more honest error estimate than a single split — and catches tuning leaks.",
-  "type": "lesson",
-  "order": 16,
-  "duration": "55 min",
-  "difficulty": "intermediate",
-  "learning_objectives": [
-    "Run k-fold cross-validation with scikit-learn",
-    "Explain why k-fold beats one train/test split",
-    "Use CV to tune hyperparameters without touching the test set",
-    "Stratify folds for imbalanced targets"
-  ],
-  "knowledge_refs": [
-    "machine-learning/ml-15-regularization"
-  ],
-  "prerequisites": [
-    "ML-04: The Python ML Stack"
-  ],
-  "references": [
-    {
-      "title": "scikit-learn User Guide",
-      "url": "https://scikit-learn.org/stable/user_guide.html",
-      "description": "The authoritative guide to the Python ML toolbox."
-    },
-    {
-      "title": "The Elements of Statistical Learning",
-      "url": "https://hastie.su.domains/ElemStatLearn/",
-      "description": "The classic statistical-learning reference (free PDF)."
-    },
-    {
-      "title": "Hands-On Machine Learning — Aurélien Géron",
-      "url": "https://github.com/ageron/handson-ml3",
-      "description": "Practical ML with scikit-learn, Keras and TensorFlow."
-    },
-    {
-      "title": "Andrew Ng — Machine Learning Specialization",
-      "url": "https://www.coursera.org/specializations/machine-learning-introduction",
-      "description": "The most popular introductory ML course in the world."
-    },
-    {
-      "title": "Kaggle Learn — Intro to Machine Learning",
-      "url": "https://www.kaggle.com/learn/intro-to-machine-learning",
-      "description": "Hands-on micro-course for the fundamentals."
-    }
-  ]
-}
+slug: ml-16-cross-validation
+title: "Cross-Validation"
+description: "The gold standard for model evaluation — k-fold, stratified, nested, and time-series cross-validation."
+order: 16
+tags:
+  - machine-learning
+  - evaluation
+  - cross-validation
+  - model-selection
+prerequisites:
+  - ml-03-the-learning-problem
+  - ml-18-classification-metrics
+references:
+  - title: "scikit-learn: Cross-Validation User Guide"
+    url: "https://scikit-learn.org/stable/modules/cross_validation.html"
+    description: "Official documentation with all CV strategies"
+  - title: "An Introduction to Statistical Learning, Ch. 5"
+    url: "https://www.statlearning.com/"
+    url: "https://www.statlearning.com/resources-second-edition"
+    description: "Chapter on resampling methods — CV and bootstrap explained clearly"
+  - title: "Nested Cross-Selection for Model Selection"
+    url: "https://www.jstatsoft.org/article/view/v028i05"
+    description: "Cawley & Talbot on the pitfalls of using CV for model selection"
+  - title: "A Review of Cross-Validation Methods"
+    url: "https://www.researchgate.net/publication/220332215"
+    description: "Comprehensive review covering standard and advanced CV methods"
+  - title: "Time Series Cross-Validation"
+    url: "https://robjhyndman.com/hyndsight/tscv/"
+    description: "Rob Hyndman's guide to proper CV for time series data"
+knowledge_refs:
+  - ml-03-the-learning-problem
+  - ml-17-hyperparameter-tuning
+  - ml-18-classification-metrics
 ---
 
-# ML-16-CROSS-VALIDATION: Cross-Validation
+# Cross-Validation
 
-## Introduction
+Cross-validation is the standard method for estimating how well a model will generalize to unseen data. It gives you a reliable performance estimate without wasting a test set.
 
-k-fold cross-validation gives a more honest error estimate than a single split — and catches tuning leaks. By the end of this lesson you will be able to: Run k-fold cross-validation with scikit-learn; Explain why k-fold beats one train/test split; Use CV to tune hyperparameters without touching the test set; Stratify folds for imbalanced targets.
+## Why Not a Single Train/Test Split?
 
-## Key Concepts
+A single split has high variance — your performance estimate depends on which specific samples end up in train vs. test. With 1000 samples, a single 80/20 split means your test set has only 200 samples. Different random splits can give wildly different accuracy scores.
 
-### 1. Run k-fold cross-validation with scikit-learn
+Cross-validation reduces this variance by averaging over multiple splits.
 
-Target: Run k-fold cross-validation with scikit-learn. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+## K-Fold Cross-Validation
+
+The most common approach:
+
+1. Split the data into $K$ equal folds
+2. For each fold $i$: train on the other $K-1$ folds, evaluate on fold $i$
+3. Average the $K$ performance estimates
 
 ```python
 from sklearn.model_selection import cross_val_score
 from sklearn.ensemble import RandomForestClassifier
-from sklearn.datasets import load_iris
 
-X, y = load_iris(return_X_y=True)
-scores = cross_val_score(RandomForestClassifier(random_state=0), X, y, cv=5)
-print("fold scores:", scores.round(3))
-print("mean:", round(scores.mean(), 3))
+scores = cross_val_score(
+    RandomForestClassifier(n_estimators=100),
+    X, y, cv=5, scoring='accuracy'
+)
+print(f"Accuracy: {scores.mean():.3f} ± {scores.std():.3f}")
 ```
-### 2. Explain why k-fold beats one train/test split
 
-Target: Explain why k-fold beats one train/test split. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+**Standard choice**: $K=5$ or $K=10$. These balance bias (higher $K$ = lower bias) vs. computational cost.
 
-```python
-from sklearn.model_selection import cross_val_score
-from sklearn.linear_model import LogisticRegression
-from sklearn.datasets import load_iris
+| K | Bias | Variance | Computation |
+|---|---|---|---|
+| 2 | High | Low variance in estimate | Low |
+| 5 | Medium | Medium | Medium |
+| 10 | Low | Medium-high | High |
+| N (LOO) | Lowest | Highest | Very high |
 
-X, y = load_iris(return_X_y=True)
-for C in [0.1, 1, 10]:
-    score = cross_val_score(LogisticRegression(C=C, max_iter=500), X, y, cv=5).mean()
-    print(f"C={C}: cv accuracy {score:.3f}")
-```
-### 3. Use CV to tune hyperparameters without touching the test set
+## Stratified K-Fold
 
-Target: Use CV to tune hyperparameters without touching the test set. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+Preserves class proportions in each fold — essential for imbalanced datasets:
 
 ```python
 from sklearn.model_selection import StratifiedKFold
 
-kf = StratifiedKFold(n_splits=5, shuffle=True, random_state=0)
-print("stratified folds keep class balance")
+skf = StratifiedKFold(n_splits=5, shuffle=True, random_state=42)
+scores = cross_val_score(model, X, y, cv=skf)
 ```
-### 4. Stratify folds for imbalanced targets
 
-Target: Stratify folds for imbalanced targets. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+Without stratification, a fold might accidentally have very few positive examples, giving a misleading performance estimate. scikit-learn uses stratified splits by default for classification.
+
+## Leave-One-Out Cross-Validation (LOOCV)
+
+Each fold has exactly one sample. Low bias but very high variance and very expensive:
 
 ```python
-import numpy as np
-
-# Leave-one-out intuition for small datasets
 from sklearn.model_selection import LeaveOneOut
 
-X = np.arange(6).reshape(3, 2)
-loo = LeaveOneOut()
-print("LOO folds:", sum(1 for _ in loo.split(X)))
+scores = cross_val_score(model, X, y, cv=LeaveOneOut())
 ```
 
-## Practice Questions
+**When to use LOOCV**: Very small datasets (< 50 samples). For most practical purposes, 5-fold or 10-fold is better.
 
-1. What is the key idea behind "Cross-Validation"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+## Time Series Cross-Validation
 
-## LLM Prompts for Deeper Understanding
+Standard k-fold breaks time series — it uses future data to predict the past (data leakage). Use expanding or sliding window:
 
-1. "Explain Cross-Validation with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Cross-Validation"
-1. "Provide advanced patterns and performance considerations for Cross-Validation"
+```python
+from sklearn.model_selection import TimeSeriesSplit
 
-## Key Takeaways
+tscv = TimeSeriesSplit(n_splits=5)
+# Fold 1: train=[0], test=[1]
+# Fold 2: train=[0,1], test=[2]
+# Fold 3: train=[0,1,2], test=[3]
+# Fold 4: train=[0,1,2,3], test=[4]
+# Fold 5: train=[0,1,2,3,4], test=[5]
 
-- Master the core ideas of Cross-Validation through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+scores = cross_val_score(model, X, y, cv=tscv)
+```
+
+**Key principles for time series**:
+- Never shuffle — always respect temporal order
+- Training set always precedes test set
+- Consider a gap between train and test to avoid look-ahead bias
+
+## Nested Cross-Validation
+
+When using CV to both tune hyperparameters AND estimate performance, naive approaches leak information. Nested CV separates these concerns:
+
+```python
+from sklearn.model_selection import GridSearchCV, cross_val_score, StratifiedKFold
+
+# Inner loop: tune hyperparameters
+inner_cv = StratifiedKFold(n_splits=3, shuffle=True, random_state=42)
+grid_search = GridSearchCV(
+    RandomForestClassifier(),
+    param_grid={'max_depth': [5, 10, 20], 'n_estimators': [100, 200]},
+    cv=inner_cv,
+    scoring='accuracy'
+)
+
+# Outer loop: estimate generalization performance
+outer_cv = StratifiedKFold(n_splits=5, shuffle=True, random_state=42)
+nested_scores = cross_val_score(grid_search, X, y, cv=outer_cv)
+print(f"Nested CV: {nested_scores.mean():.3f} ± {nested_scores.std():.3f}")
+```
+
+**Why nested?** If you use the same CV for tuning and evaluation, you'll overestimate performance (you're evaluating on data used for selection).
+
+## Repeated K-Fold
+
+Repeats k-fold multiple times with different random splits — reduces variance further:
+
+```python
+from sklearn.model_selection import RepeatedStratifiedKFold
+
+rskf = RepeatedStratifiedKFold(n_splits=5, n_repeats=10, random_state=42)
+scores = cross_val_score(model, X, y, cv=rskf)
+```
+
+## Cross-Validation for Regression
+
+Use the same methods but with regression metrics:
+
+```python
+scores = cross_val_score(
+    model, X, y, cv=5,
+    scoring='neg_mean_squared_error'  # negative because sklearn maximizes
+)
+rmse_scores = np.sqrt(-scores)
+```
+
+## The Leakage Problem
+
+The most common CV mistake is data leakage:
+
+1. **Feature scaling on full data**: Always use a Pipeline
+   ```python
+   # WRONG: scaler sees test data
+   scaler.fit(X)  # leaks!
+   cross_val_score(model, X, y, cv=5)
+   
+   # RIGHT: scaling inside CV loop
+   pipeline = Pipeline([('scaler', StandardScaler()), ('model', model)])
+   cross_val_score(pipeline, X, y, cv=5)
+   ```
+
+2. **Feature selection on full data**: Same issue — select inside CV
+3. **Temporal leakage**: Using future data in training (time series)
+4. **Group leakage**: Multiple samples from same entity in both train and test
+
+```python
+# For grouped data (e.g., multiple samples per patient)
+from sklearn.model_selection import GroupKFold
+gkf = GroupKFold(n_splits=5)
+scores = cross_val_score(model, X, y, groups=patient_ids, cv=gkf)
+```
+
+## Practical Guidelines
+
+1. **Use 5-fold stratified** as default for classification
+2. **Use time series split** for temporal data
+3. **Use nested CV** when selecting models/hyperparameters
+4. **Use Pipeline** to prevent leakage from scaling/selection
+5. **Report mean ± std** — variance matters as much as mean
+6. **10-fold** when you want a more precise estimate and can afford computation
+7. **Repeated 10-fold** when you need the most reliable estimate
+
+## Cross-Validation vs. Bootstrap
+
+| Method | Bias | Variance | Use When |
+|---|---|---|---|
+| 5-fold CV | Slight upward bias | Low | Default |
+| 10-fold CV | Very slight bias | Low | Need precise estimate |
+| 10×10 repeated CV | Very slight bias | Lowest | Final evaluation |
+| Bootstrap .632+ | Low bias | Low | Small datasets |
 
 ## Further Reading
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+- ISLR Chapter 5 covers resampling methods beautifully
+- Cawley & Talbot's nested CV paper is essential reading before tuning
+- Hyndman's time series CV guide is the authoritative reference for temporal data
+- For small datasets, consider the .632+ bootstrap as an alternative to LOO

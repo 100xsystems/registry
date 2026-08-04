@@ -1,137 +1,227 @@
 ---
-{
-  "title": "Optimizers: SGD, Momentum & Adam",
-  "description": "From plain SGD to Adam — how optimizers navigate loss landscapes and converge faster.",
-  "type": "lesson",
-  "order": 7,
-  "duration": "55 min",
-  "difficulty": "intermediate",
-  "learning_objectives": [
-    "Implement an SGD update step",
-    "Explain momentum",
-    "Use Adam and understand its adaptive rates",
-    "Tune learning rate and weight decay"
-  ],
-  "knowledge_refs": [
-    "deep-learning/dl-06-loss-functions"
-  ],
-  "prerequisites": [
-    "DL-05: Backpropagation"
-  ],
-  "references": [
-    {
-      "title": "PyTorch Documentation",
-      "url": "https://pytorch.org/docs/stable/index.html",
-      "description": "The official reference for the deep-learning framework used across this course."
-    },
-    {
-      "title": "Deep Learning — Goodfellow, Bengio & Courville",
-      "url": "https://www.deeplearningbook.org/",
-      "description": "The canonical textbook on deep learning (free HTML)."
-    },
-    {
-      "title": "Dive into Deep Learning (d2l.ai)",
-      "url": "https://d2l.ai/",
-      "description": "Interactive deep-learning textbook with code in PyTorch."
-    },
-    {
-      "title": "Practical Deep Learning — fast.ai",
-      "url": "https://course.fast.ai/",
-      "description": "A top-down course that gets you training models quickly."
-    },
-    {
-      "title": "Attention Is All You Need",
-      "url": "https://arxiv.org/abs/1706.03762",
-      "description": "The paper that introduced the Transformer architecture."
-    }
-  ]
-}
+slug: dl-07-optimizers
+title: "Optimizers for Deep Learning"
+description: "From SGD to AdamW — the optimizers that make training deep networks feasible."
+order: 7
+tags:
+  - deep-learning
+  - optimization
+  - adam
+  - sgd
+  - adamw
+prerequisites:
+  - dl-05-backpropagation
+  - dl-06-loss-functions
+  - ml-06-gradient-descent
+references:
+  - title: "Adam: A Method for Stochastic Optimization"
+    url: "https://arxiv.org/abs/1412.6980"
+    description: "The original Adam paper by Kingma & Ba"
+  - title: "Decoupled Weight Decay Regularization (AdamW)"
+    url: "https://arxiv.org/abs/1711.05101"
+    description: "Loshchilov & Hutter's AdamW — the standard for modern training"
+  - title: "On the Convergence of Adam and Beyond"
+    url: "https://openreview.net/forum?id=ryQu7f-RZ"
+    description: "Reddi et al. showing Adam can diverge — motivating AMSGrad"
+  - title: "A Method for Stochastic Optimization: Visual Guide"
+    url: "https://ruder.io/optimizing-gradient-descent/"
+    description: "Sebastian Ruder's comprehensive survey of all optimizers"
+  - title: "SGDR: Stochastic Gradient Descent with Warm Restarts"
+    url: "https://arxiv.org/abs/1608.03983"
+    description: "Loshchilov & Hutter's cosine annealing with warm restarts schedule"
+knowledge_refs:
+  - dl-05-backpropagation
+  - ml-06-gradient-descent
+  - dl-19-training-at-scale
 ---
 
-# DL-07-OPTIMIZERS: Optimizers: SGD, Momentum & Adam
+# Optimizers for Deep Learning
 
-## Introduction
+After computing gradients via backpropagation, we need to update the weights. The optimizer determines how gradients are translated into parameter updates — and the choice matters enormously.
 
-From plain SGD to Adam — how optimizers navigate loss landscapes and converge faster. By the end of this lesson you will be able to: Implement an SGD update step; Explain momentum; Use Adam and understand its adaptive rates; Tune learning rate and weight decay.
+## SGD with Momentum
 
-## Key Concepts
+The foundation — adding velocity to basic gradient descent:
 
-### 1. Implement an SGD update step
-
-Target: Implement an SGD update step. Start with the foundations — read the runnable example carefully and trace its output before moving on.
-
-```python
-import torch
-import torch.nn as nn
-
-param = nn.Parameter(torch.tensor([2.0]))
-opt = torch.optim.SGD([param], lr=0.1)
-loss = (param - 1.0) ** 2
-loss.backward()
-opt.step()
-print("after step:", param.item())
-```
-### 2. Explain momentum
-
-Target: Explain momentum. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+$$v_t = \beta v_{t-1} + g_t$$
+$$\theta_{t+1} = \theta_t - \eta v_t$$
 
 ```python
-import torch
-
-param = nn.Parameter(torch.tensor([2.0]))
-opt = torch.optim.SGD([param], lr=0.1, momentum=0.9)
-for _ in range(5):
-    opt.zero_grad()
-    ((param - 1.0) ** 2).backward()
-    opt.step()
-print("with momentum:", round(param.item(), 3))
+optimizer = torch.optim.SGD(model.parameters(), lr=0.1, momentum=0.9)
 ```
-### 3. Use Adam and understand its adaptive rates
 
-Target: Use Adam and understand its adaptive rates. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+**Why momentum helps**: Accelerates convergence in consistent gradient directions, dampens oscillations in ravines. $\beta = 0.9$ is standard.
+
+**SGD with momentum + weight decay** remains competitive for computer vision and is often the best choice for ResNet-style architectures.
+
+## Adaptive Methods
+
+These maintain per-parameter learning rates that adapt based on gradient history:
+
+### Adam
+
+Combines momentum (first moment) with RMSProp (second moment):
 
 ```python
-import torch
-
-param = nn.Parameter(torch.tensor([2.0]))
-opt = torch.optim.Adam([param], lr=0.05)
-for _ in range(20):
-    opt.zero_grad()
-    ((param - 1.0) ** 2).backward()
-    opt.step()
-print("adam converged:", round(param.item(), 3))
+optimizer = torch.optim.Adam(model.parameters(), lr=1e-3, betas=(0.9, 0.999))
 ```
-### 4. Tune learning rate and weight decay
 
-Target: Tune learning rate and weight decay. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+**Default hyperparameters**: $\beta_1 = 0.9$, $\beta_2 = 0.999$, $\epsilon = 10^{-8}$. Works well out of the box.
+
+### AdamW (Adam with Decoupled Weight Decay)
+
+The current gold standard for training deep networks, especially transformers:
 
 ```python
-import torch
-import torch.nn as nn
-
-model = nn.Linear(4, 2)
-opt = torch.optim.AdamW(model.parameters(), lr=1e-3, weight_decay=0.01)
-print("param groups:", len(opt.param_groups), "| lr:", opt.param_groups[0]["lr"])
+optimizer = torch.optim.AdamW(model.parameters(), lr=1e-3, weight_decay=0.01)
 ```
 
-## Practice Questions
+**The key difference from Adam**: Weight decay is applied directly to weights, not through the gradient. This fixes a subtle bug in Adam's L2 regularization.
 
-1. What is the key idea behind "Optimizers: SGD, Momentum & Adam"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+**When to use AdamW**: Transformers, language models, diffusion models, any architecture where weight decay matters.
 
-## LLM Prompts for Deeper Understanding
+### LAMB (Layer-wise Adaptive Moments)
 
-1. "Explain Optimizers: SGD, Momentum & Adam with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Optimizers: SGD, Momentum & Adam"
-1. "Provide advanced patterns and performance considerations for Optimizers: SGD, Momentum & Adam"
+Scales learning rate per layer based on weight and gradient magnitudes. Enables large-batch training:
 
-## Key Takeaways
+```python
+optimizer = torch.optim.LAMB(model.parameters(), lr=1e-3)
+```
 
-- Master the core ideas of Optimizers: SGD, Momentum & Adam through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+**Use case**: Distributed training with very large batch sizes.
+
+## Learning Rate Schedules
+
+Static learning rates rarely work best. Schedules adapt the rate during training:
+
+### Cosine Annealing
+
+$$\eta_t = \eta_{\min} + \frac{1}{2}(\eta_{\max} - \eta_{\min})\left(1 + \cos\left(\frac{\pi t}{T}\right)\right)$$
+
+```python
+scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=100)
+```
+
+### Warmup + Cosine
+
+Start with a low learning rate, warm up linearly, then cosine anneal:
+```python
+from torch.optim.lr_scheduler import LambdaLR
+
+def warmup_cosine(step, warmup_steps=1000, total_steps=10000):
+    if step < warmup_steps:
+        return step / warmup_steps
+    progress = (step - warmup_steps) / (total_steps - warmup_steps)
+    return 0.5 * (1 + math.cos(math.pi * progress))
+
+scheduler = LambdaLR(optimizer, lr_lambda=warmup_cosine)
+```
+
+**Why warmup helps**: Prevents large initial updates from destabilizing training, especially important for transformers.
+
+### Step Decay
+
+```python
+scheduler = torch.optim.lr_scheduler.StepLR(optimizer, step_size=30, gamma=0.1)
+# Learning rate multiplies by 0.1 every 30 epochs
+```
+
+### One Cycle Policy
+
+```python
+scheduler = torch.optim.lr_scheduler.OneCycleLR(
+    optimizer, max_lr=0.01, total_steps=total_training_steps
+)
+```
+
+Warm up to max_lr, then anneal. Fast convergence.
+
+## Practical Comparison
+
+| Optimizer | Speed | Generalization | Memory | Best For |
+|---|---|---|---|---|
+| SGD+Momentum | Slow | Excellent | Low | Computer vision |
+| Adam | Fast | Good | High | Default / exploration |
+| AdamW | Fast | Excellent | High | Transformers, LLMs |
+| LAMB | Fast | Good | Very high | Large-batch training |
+
+## The Generalization Gap
+
+Adam converges faster but sometimes generalizes worse than SGD:
+
+- **SGD** finds flatter minima → better generalization
+- **Adam** can find sharper minima → worse generalization on test data
+
+**Mitigation**: Use AdamW with proper weight decay, lower learning rates, and cosine schedules.
+
+## Hyperparameter Sensitivity
+
+**Learning rate** is the single most important hyperparameter:
+- Too high: Training diverges, loss oscillates
+- Too low: Training is slow, may get stuck
+- Just right: Fast convergence, good generalization
+
+**Learning rate finder**:
+```python
+lrs, losses = [], []
+for lr in np.logspace(-7, 0, 100):
+    optimizer = Adam(model.parameters(), lr=lr)
+    loss = train_one_batch(model, batch, optimizer)
+    lrs.append(lr)
+    losses.append(loss)
+
+# Plot: optimal lr is where loss decreases fastest
+plt.semilogx(lrs, losses)
+```
+
+## Mixed Precision Training
+
+Use FP16 for forward/backward passes, FP32 for weight updates — 2x less memory, 2-3x faster:
+
+```python
+from torch.cuda.amp import autocast, GradScaler
+
+scaler = GradScaler()
+for batch in dataloader:
+    optimizer.zero_grad()
+    
+    with autocast():  # FP16 forward pass
+        output = model(batch)
+        loss = criterion(output, target)
+    
+    scaler.scale(loss).backward()  # FP16 backward pass
+    scaler.step(optimizer)  # FP32 weight update
+    scaler.update()
+```
+
+**When to use**: Almost always on modern GPUs. Reduces memory usage significantly.
+
+## Gradient Accumulation
+
+For larger effective batch sizes when GPU memory is limited:
+```python
+accumulation_steps = 4
+for i, batch in enumerate(dataloader):
+    loss = criterion(model(batch), target) / accumulation_steps
+    loss.backward()
+    
+    if (i + 1) % accumulation_steps == 0:
+        optimizer.step()
+        optimizer.zero_grad()
+```
+
+## Practical Guidelines
+
+1. **Start with AdamW** for any new project — it works well out of the box
+2. **Use cosine annealing with warmup** — it's the default for transformers
+3. **Try SGD + momentum for vision** — it often generalizes better
+4. **Always use mixed precision** on modern GPUs
+5. **Monitor learning rate** — log it alongside loss
+6. **Learning rate is more important than optimizer choice**
 
 ## Further Reading
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+- Kingma & Ba (2014) introduced Adam — one of the most cited ML papers
+- Loshchilov & Hutter (2017) fixed Adam's weight decay bug — now standard practice
+- Ruder's survey is the definitive reference for understanding all optimizers
+- For learning rate schedules, SGDR (cosine with warm restarts) is a strong default

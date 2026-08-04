@@ -1,132 +1,158 @@
 ---
-{
-  "title": "Support Vector Machines",
-  "description": "Max-margin classification, the kernel trick, and when SVMs beat other models.",
-  "type": "lesson",
-  "order": 11,
-  "duration": "55 min",
-  "difficulty": "advanced",
-  "learning_objectives": [
-    "Explain the maximum-margin idea",
-    "Use the kernel trick for nonlinear boundaries",
-    "Tune C and gamma",
-    "Prefer SVMs on small, high-dimensional datasets"
-  ],
-  "knowledge_refs": [
-    "machine-learning/ml-10-gradient-boosting",
-    "generative-ai/genai-11-embeddings-and-vector-databases",
-    "nlp/nlp-06-word-embeddings"
-  ],
-  "prerequisites": [
-    "ML-07: Logistic Regression"
-  ],
-  "references": [
-    {
-      "title": "scikit-learn User Guide",
-      "url": "https://scikit-learn.org/stable/user_guide.html",
-      "description": "The authoritative guide to the Python ML toolbox."
-    },
-    {
-      "title": "The Elements of Statistical Learning",
-      "url": "https://hastie.su.domains/ElemStatLearn/",
-      "description": "The classic statistical-learning reference (free PDF)."
-    },
-    {
-      "title": "Hands-On Machine Learning — Aurélien Géron",
-      "url": "https://github.com/ageron/handson-ml3",
-      "description": "Practical ML with scikit-learn, Keras and TensorFlow."
-    },
-    {
-      "title": "Andrew Ng — Machine Learning Specialization",
-      "url": "https://www.coursera.org/specializations/machine-learning-introduction",
-      "description": "The most popular introductory ML course in the world."
-    },
-    {
-      "title": "Kaggle Learn — Intro to Machine Learning",
-      "url": "https://www.kaggle.com/learn/intro-to-machine-learning",
-      "description": "Hands-on micro-course for the fundamentals."
-    }
-  ]
-}
+slug: ml-11-support-vector-machines
+title: "Support Vector Machines"
+description: "The elegant maximum-margin classifier that dominated ML before deep learning — still powerful for high-dimensional, small-sample problems."
+order: 11
+tags:
+  - machine-learning
+  - svm
+  - kernel-trick
+  - maximum-margin
+prerequisites:
+  - ml-07-logistic-regression
+  - ml-06-gradient-descent
+references:
+  - title: "scikit-learn: SVM User Guide"
+    url: "https://scikit-learn.org/stable/modules/svm.html"
+    description: "Official documentation with practical guidance on SVMs"
+  - title: "A Tutorial on Support Vector Machines for Pattern Recognition (Burges)"
+    url: "https://www.microsoft.com/en-us/research/publication/a-tutorial-on-support-vector-machines-for-pattern-recognition/"
+    description: "Burges' classic tutorial on SVM theory and practice"
+  - title: "CS229: SVM Notes"
+    url: "https://cs229.stanford.edu/main_notes.pdf"
+    description: "Andrew Ng's lecture notes covering margin maximization and kernels"
+  - title: "StatQuest: Support Vector Machines"
+    url: "https://www.youtube.com/watch?v=efR1C2K8KCw"
+    description: "Josh Starmer's visual explanation of SVMs and the kernel trick"
+  - title: "libsvm: A Library for Support Vector Machines"
+    url: "https://www.csie.ntu.edu.tw/~cjlin/libsvm/"
+    description: "The reference implementation that most libraries wrap"
+knowledge_refs:
+  - ml-07-logistic-regression
+  - ml-14-feature-scaling
+  - ml-12-k-nearest-neighbors
 ---
 
-# ML-11-SUPPORT-VECTOR-MACHINES: Support Vector Machines
+# Support Vector Machines
 
-## Introduction
+Support Vector Machines (SVMs) find the hyperplane that **maximizes the margin** between classes. Though largely superseded by deep learning for unstructured data, SVMs remain powerful for high-dimensional, small-sample problems.
 
-Max-margin classification, the kernel trick, and when SVMs beat other models. By the end of this lesson you will be able to: Explain the maximum-margin idea; Use the kernel trick for nonlinear boundaries; Tune C and gamma; Prefer SVMs on small, high-dimensional datasets.
+## Maximum Margin Classification
 
-## Key Concepts
+Given labeled data, SVM finds the hyperplane $\mathbf{w}^T \mathbf{x} + b = 0$ that maximizes the distance to the nearest data point from each class. This distance is the **margin**:
 
-### 1. Explain the maximum-margin idea
+$$\text{margin} = \frac{2}{\|\mathbf{w}\|}$$
 
-Target: Explain the maximum-margin idea. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+The data points closest to the boundary are called **support vectors** — only they determine the decision boundary. All other points are irrelevant.
+
+**Why maximize the margin?**
+- Wider margins = better generalization (VC dimension theory)
+- Fewer support vectors = simpler model
+- More robust to noise in training data
+
+## Soft Margin SVM
+
+Real data is rarely linearly separable. **Soft margin** SVMs allow some misclassifications:
+
+$$\min_{\mathbf{w}, b, \xi} \frac{1}{2}\|\mathbf{w}\|^2 + C \sum_{i=1}^{N} \xi_i$$
+
+subject to:
+$$y_i(\mathbf{w}^T \mathbf{x}_i + b) \geq 1 - \xi_i, \quad \xi_i \geq 0$$
+
+The parameter $C$ controls the trade-off:
+- **Large $C$**: Low tolerance for misclassifications (narrow margin, overfitting)
+- **Small $C$**: More tolerant (wider margin, underfitting)
+
+## The Kernel Trick
+
+The real power of SVMs comes from **kernels** — implicitly mapping data to a higher-dimensional space where it becomes linearly separable, without ever computing the mapping:
+
+$$K(\mathbf{x}_i, \mathbf{x}_j) = \phi(\mathbf{x}_i)^T \phi(\mathbf{x}_j)$$
+
+The dual formulation of SVM depends only on dot products, which can be replaced by kernel evaluations:
+
+| Kernel | Formula | Best For |
+|---|---|---|
+| Linear | $K(\mathbf{x}, \mathbf{z}) = \mathbf{x}^T \mathbf{z}$ | Linearly separable, high-D |
+| Polynomial | $K(\mathbf{x}, \mathbf{z}) = (\gamma \mathbf{x}^T \mathbf{z} + r)^d$ | Known polynomial relationships |
+| RBF (Gaussian) | $K(\mathbf{x}, \mathbf{z}) = \exp(-\gamma\|\mathbf{x}-\mathbf{z}\|^2)$ | General non-linear, default choice |
+| Sigmoid | $K(\mathbf{x}, \mathbf{z}) = \tanh(\gamma \mathbf{x}^T \mathbf{z} + r)$ | Neural network approximation |
+
+**RBF kernel intuition**: Each support vector creates a Gaussian "bump" around itself. The decision boundary is a weighted sum of these bumps. The parameter $\gamma$ controls the width of each bump.
+
+## Multi-Class Extension
+
+SVMs are inherently binary classifiers. Multi-class is handled by:
+- **One-vs-One (OvO)**: Train $\binom{K}{2}$ classifiers, majority vote (default in scikit-learn)
+- **One-vs-Rest (OvR)**: Train $K$ classifiers, one per class
+
+## Practical Guide
 
 ```python
 from sklearn.svm import SVC
+from sklearn.preprocessing import StandardScaler
+from sklearn.pipeline import Pipeline
 
-X = [[1, 1], [2, 2], [2, 0], [8, 8], [9, 9], [8, 10]]
-y = [0, 0, 0, 1, 1, 1]
-clf = SVC(kernel="linear").fit(X, y)
-print("support vectors:", len(clf.support_vectors_))
+# Critical: SVMs require feature scaling!
+svm_pipeline = Pipeline([
+    ('scaler', StandardScaler()),
+    ('svm', SVC(
+        kernel='rbf',
+        C=1.0,
+        gamma='scale',
+        decision_function_shape='ovr'
+    ))
+])
+svm_pipeline.fit(X_train, y_train)
 ```
-### 2. Use the kernel trick for nonlinear boundaries
 
-Target: Use the kernel trick for nonlinear boundaries. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+**Key practical points:**
+1. **Always scale features** — SVMs are distance-based
+2. **RBF kernel is the default** — start here
+3. **Tune $C$ and $\gamma$ jointly** — use GridSearchCV
+4. **Small datasets**: SVMs excel (< 10K samples)
+5. **Large datasets**: SVMs become slow ($O(N^2)$ to $O(N^3)$) — use linear SVM or SGD
 
 ```python
-from sklearn.svm import SVC
-
-# RBF kernel draws nonlinear boundaries
-clf = SVC(kernel="rbf", C=10, gamma="scale").fit(X, y)
-print("rbf accuracy:", round(clf.score(X, y), 2))
-```
-### 3. Tune C and gamma
-
-Target: Tune C and gamma. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
-
-```python
-from sklearn.svm import SVC
-
-for C in [0.1, 10]:
-    clf = SVC(kernel="linear", C=C).fit(X, y)
-    print(f"C={C}: support vectors = {len(clf.support_vectors_)}")
-```
-### 4. Prefer SVMs on small, high-dimensional datasets
-
-Target: Prefer SVMs on small, high-dimensional datasets. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
-
-```python
-from sklearn.svm import SVC
-
-# Margin intuition: distance from boundary to nearest point
-import numpy as np
-X = np.array([[1, 1], [2, 2], [2, 0], [8, 8], [9, 9], [8, 10]])
-y = np.array([0, 0, 0, 1, 1, 1])
-clf = SVC(kernel="linear", C=1e6).fit(X, y)
-w = clf.coef_[0]
-margin = 2 / np.linalg.norm(w)
-print("margin width:", round(margin, 3))
+# For large datasets, use SGDClassifier with hinge loss
+from sklearn.linear_model import SGDClassifier
+linear_svm = SGDClassifier(loss='hinge', penalty='l2', alpha=0.0001)
+linear_svm.fit(X_train_scaled, y_train)
 ```
 
-## Practice Questions
+## Strengths
 
-1. What is the key idea behind "Support Vector Machines"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+- **Effective in high dimensions**: Even when features > samples
+- **Memory efficient**: Only stores support vectors
+- **Versatile kernels**: Adapts to different data geometries
+- **Strong theoretical foundation**: PAC learning, VC dimension
+- **Well-calibrated**: Probability estimates available via Platt scaling
 
-## LLM Prompts for Deeper Understanding
+## Limitations
 
-1. "Explain Support Vector Machines with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Support Vector Machines"
-1. "Provide advanced patterns and performance considerations for Support Vector Machines"
+- **Slow on large datasets**: $O(N^2)$ kernel computation
+- **Sensitive to feature scaling**: Must normalize
+- **No native probability output**: Requires Platt scaling (extra computation)
+- **Kernel selection**: Can be difficult without domain knowledge
+- **Superseded by deep learning**: For images, text, audio
+- **Hard to interpret**: Kernel mapping is implicit
 
-## Key Takeaways
+## SVM vs. Logistic Regression
 
-- Master the core ideas of Support Vector Machines through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+| Aspect | SVM | Logistic Regression |
+|---|---|---|
+| Decision boundary | Max margin | Max likelihood |
+| Loss function | Hinge loss | Log loss |
+| Support vectors | Only boundary points | All points |
+| Probabilities | Needs Platt scaling | Native |
+| Kernel trick | Yes | No (but feature engineering works) |
+| Scalability | Poor on large N | Good |
+
+**When to use SVM**: Small-to-medium dataset, high-dimensional features, clear margin of separation, need for kernel methods.
 
 ## Further Reading
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+- Burges' tutorial remains the best theoretical introduction
+- CS229 notes provide the mathematical derivation of the dual formulation
+- For linear SVMs at scale, LIBLINEAR (Fan et al., 2008) is the go-to
+- Schölkopf & Smola (2002) "Learning with Kernels" is the definitive textbook

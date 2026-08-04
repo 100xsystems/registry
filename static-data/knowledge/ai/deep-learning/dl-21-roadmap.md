@@ -1,122 +1,209 @@
 ---
-{
-  "title": "Deep Learning Roadmap",
-  "description": "Synthesize the course: choose a specialization (vision, NLP, generative), and plan real training projects.",
-  "type": "lesson",
-  "order": 21,
-  "duration": "40 min",
-  "difficulty": "advanced",
-  "learning_objectives": [
-    "Choose a deep learning specialization path",
-    "Plan projects that require real GPUs",
-    "Connect to computer vision and NLP courses",
-    "Track new architectures responsibly"
-  ],
-  "knowledge_refs": [
-    "deep-learning/dl-20-evaluating-deep-models"
-  ],
-  "prerequisites": [
-    "DL-20: Evaluating Deep Learning Models"
-  ],
-  "references": [
-    {
-      "title": "PyTorch Documentation",
-      "url": "https://pytorch.org/docs/stable/index.html",
-      "description": "The official reference for the deep-learning framework used across this course."
-    },
-    {
-      "title": "Deep Learning — Goodfellow, Bengio & Courville",
-      "url": "https://www.deeplearningbook.org/",
-      "description": "The canonical textbook on deep learning (free HTML)."
-    },
-    {
-      "title": "Dive into Deep Learning (d2l.ai)",
-      "url": "https://d2l.ai/",
-      "description": "Interactive deep-learning textbook with code in PyTorch."
-    },
-    {
-      "title": "Practical Deep Learning — fast.ai",
-      "url": "https://course.fast.ai/",
-      "description": "A top-down course that gets you training models quickly."
-    },
-    {
-      "title": "Attention Is All You Need",
-      "url": "https://arxiv.org/abs/1706.03762",
-      "description": "The paper that introduced the Transformer architecture."
-    }
-  ]
-}
+slug: dl-21-roadmap
+title: "Deep Learning Roadmap"
+description: "Where to go after this course — specialized tracks in computer vision, NLP, generative AI, and beyond."
+order: 21
+tags:
+  - deep-learning
+  - roadmap
+  - career
+  - learning-path
+prerequisites:
+  - dl-20-evaluating-deep-models
+  - dl-17-transformers
+references:
+  - title: "roadmap.sh: Deep Learning"
+    url: "https://roadmap.sh/deep-learning"
+    description: "Visual learning roadmap for deep learning practitioners"
+  - title: "fast.ai: Practical Deep Learning for Coders"
+    url: "https://course.fast.ai/"
+    description: "Top-down practical approach — start building immediately"
+  - title: "Stanford CS231n: CNNs for Visual Recognition"
+    url: "https://cs231n.stanford.edu/"
+    description: "The gold standard course for computer vision"
+  - title: "Stanford CS224n: NLP with Deep Learning"
+    url: "https://web.stanford.edu/class/cs224n/"
+    description: "The gold standard course for NLP"
+  - title: "Papers With Code: State of the Art"
+    url: "https://paperswithcode.com/"
+    description: "Track the latest breakthroughs and benchmarks"
+knowledge_refs:
+  - dl-01-what-is-deep-learning
+  - dl-17-transformers
+  - dl-13-cnn-architectures
 ---
 
-# DL-21-ROADMAP: Deep Learning Roadmap
+# Deep Learning Roadmap
 
-## Introduction
+You've covered the fundamentals of deep learning — from perceptrons to transformers. This roadmap shows where to specialize based on your interests and career goals.
 
-Synthesize the course: choose a specialization (vision, NLP, generative), and plan real training projects. By the end of this lesson you will be able to: Choose a deep learning specialization path; Plan projects that require real GPUs; Connect to computer vision and NLP courses; Track new architectures responsibly.
+## What You've Learned
 
-## Key Concepts
+By completing this course, you understand:
+- ✅ Neural network fundamentals (forward/backward pass, optimization)
+- ✅ PyTorch (tensors, autograd, nn module)
+- ✅ Convolutional networks (architectures, transfer learning)
+- ✅ Sequence modeling (RNNs, LSTMs, GRUs)
+- ✅ Transformers and attention (self-attention, multi-head)
+- ✅ Training at scale (distributed training, mixed precision)
+- ✅ Evaluation and debugging (calibration, robustness, interpretability)
 
-### 1. Choose a deep learning specialization path
+## Specialization Tracks
 
-Target: Choose a deep learning specialization path. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+### Track 1: Computer Vision
 
-```python
-paths = {
-    "vision": "next: Computer Vision course",
-    "text": "next: NLP course",
-    "generative": "next: Generative AI course",
-}
-for area, next_step in paths.items():
-    print(f"{area:10} -> {next_step}")
-```
-### 2. Plan projects that require real GPUs
+**Focus**: Understanding and generating visual content.
 
-Target: Plan projects that require real GPUs. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+**Courses to take next:**
+1. **Computer Vision course** — object detection, segmentation, video understanding
+2. **Generative AI course** — image generation, diffusion models
 
-```python
-project_plan = {
-    1: "train MNIST from scratch",
-    2: "fine-tune a pretrained model on custom data",
-    3: "reproduce one paper result",
-}
-print(project_plan)
-```
-### 3. Connect to computer vision and NLP courses
+**Key architectures to master:**
+- Vision Transformer (ViT)
+- DETR (detection transformer)
+- SAM (segment anything model)
+- Stable Diffusion / DALL-E
 
-Target: Connect to computer vision and NLP courses. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+**Career paths**: Autonomous driving, medical imaging, robotics, AR/VR
 
-```python
-import torch
+### Track 2: Natural Language Processing
 
-print("torch", torch.__version__, "| cuda", torch.cuda.is_available())
-```
-### 4. Track new architectures responsibly
+**Focus**: Understanding and generating human language.
 
-Target: Track new architectures responsibly. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+**Courses to take next:**
+1. **NLP course** — text classification, NER, machine translation
+2. **LLM Engineering course** — large language models, fine-tuning, RAG
 
-```python
-reading_list = ["d2l.ai", "papers with code", "distill", "fast.ai"]
-print("follow:", ", ".join(reading_list))
-```
+**Key architectures to master:**
+- BERT, RoBERTa (encoder models)
+- GPT, LLaMA (decoder models)
+- T5, BART (encoder-decoder)
+- Retrieval-Augmented Generation (RAG)
 
-## Practice Questions
+**Career paths**: AI assistants, search engines, content generation, legal tech
 
-1. What is the key idea behind "Deep Learning Roadmap"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+### Track 3: Generative AI
 
-## LLM Prompts for Deeper Understanding
+**Focus**: Creating new content — images, video, music, code.
 
-1. "Explain Deep Learning Roadmap with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Deep Learning Roadmap"
-1. "Provide advanced patterns and performance considerations for Deep Learning Roadmap"
+**Courses to take next:**
+1. **Generative AI course** — GANs, VAEs, diffusion models
+2. **LLM Engineering course** — language generation, alignment
 
-## Key Takeaways
+**Key architectures to master:**
+- GANs (StyleGAN, ProGAN)
+- VAEs (β-VAE, VQ-VAE)
+- Diffusion models (DDPM, Stable Diffusion)
+- autoregressive models (GPT, PixelCNN)
 
-- Master the core ideas of Deep Learning Roadmap through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+**Career paths**: Creative AI, content tools, game development, entertainment
+
+### Track 4: AI for Science
+
+**Focus**: Applying deep learning to scientific problems.
+
+**Key areas:**
+- Drug discovery (molecular GNNs, protein structure)
+- Climate science (weather prediction, climate modeling)
+- Materials science (property prediction, inverse design)
+- Physics (neural operators, simulation acceleration)
+
+**Key architectures:**
+- Graph Neural Networks (GNNs)
+- Neural ODEs / SDEs
+- AlphaFold-style protein models
+- Foundation models for science
+
+### Track 5: AI Systems & MLOps
+
+**Focus**: Building and deploying reliable ML systems.
+
+**Courses to take next:**
+1. **MLOps course** — deployment, monitoring, CI/CD
+2. **Prompt Engineering course** — working with foundation models
+
+**Key skills:**
+- Model serving (TorchServe, Triton, vLLM)
+- Experiment tracking (MLflow, W&B)
+- Distributed training infrastructure
+- Model optimization (quantization, pruning, distillation)
+
+**Career paths**: ML Platform Engineer, MLOps Engineer, AI Infrastructure
+
+## Advanced Topics to Explore
+
+### Foundation Models
+- Training large-scale models from scratch
+- Fine-tuning and alignment (RLHF, DPO)
+- In-context learning and prompting
+- Multimodal models (CLIP, GPT-4V)
+
+### Efficient Deep Learning
+- Model compression (pruning, quantization, distillation)
+- Neural architecture search (NAS)
+- Efficient inference (TensorRT, ONNX Runtime)
+- Edge deployment (mobile, IoT)
+
+### Reinforcement Learning from Human Feedback
+- Reward modeling
+- PPO for language models
+- DPO (Direct Preference Optimization)
+- Constitutional AI
+
+### Multimodal Learning
+- Vision-language models (CLIP, BLIP)
+- Audio-visual models
+- Cross-modal retrieval
+- Unified architectures
+
+## The Learning Mindset
+
+1. **Read papers** — follow arXiv, Papers With Code, Semantic Scholar
+2. **Implement papers** — the best way to truly understand them
+3. **Build projects** — portfolio projects demonstrate skills
+4. **Join communities** — ML Twitter, Reddit r/MachineLearning, Discord servers
+5. **Contribute to open source** — PyTorch, Hugging Face, fast.ai
+6. **Teach others** — explaining deepens understanding
+
+## Staying Current
+
+The field evolves monthly. Key sources:
+- **Papers With Code**: Track state-of-the-art across tasks
+- **ArXiv Sanity**: Curated ML papers
+- **ML Twitter/X**: Follow researchers, practitioners, companies
+- **Conference proceedings**: NeurIPS, ICML, ICLR, CVPR, ACL
+- **Newsletters**: The Batch (Andrew Ng), TLDR AI
+
+## Recommended Resources by Level
+
+### Beginner (You Are Here)
+- fast.ai course (practical, top-down)
+- "Deep Learning" by Goodfellow et al. (theory)
+- PyTorch tutorials (hands-on)
+
+### Intermediate
+- CS231n (vision), CS224n (NLP)
+- "Hands-On Machine Learning" (Géron)
+- Kaggle competitions (practice)
+
+### Advanced
+- Papers With Code (latest research)
+- Reproduce papers from scratch
+- Contribute to major open-source projects
+
+## What's Next in This Course
+
+After this roadmap, continue to:
+- **Computer Vision** course — object detection, segmentation, video
+- **NLP** course — text understanding and generation
+- **Generative AI** course — GANs, VAEs, diffusion models
+- **LLM Engineering** course — large language models in practice
+
+Every course builds on the foundations you've established here. The deep learning landscape is vast, but you now have the tools to navigate it.
 
 ## Further Reading
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+- fast.ai's philosophy: "make neural nets uncool again" — start building
+- Papers With Code tracks progress across all of ML
+- For a historical perspective: "The Deep Learning Revolution" by Cade Metz
+- For mathematical foundations: "Mathematics for Machine Learning" (Deisenroth et al.)

@@ -1,125 +1,234 @@
 ---
-{
-  "title": "Training at Scale",
-  "description": "GPUs, mixed precision, data loaders and distributed training — the practical side of big models.",
-  "type": "lesson",
-  "order": 19,
-  "duration": "55 min",
-  "difficulty": "advanced",
-  "learning_objectives": [
-    "Move training to GPU with .to(device)",
-    "Use mixed precision (AMP)",
-    "Speed up data loading with DataLoader workers",
-    "Explain data parallelism across GPUs"
-  ],
-  "knowledge_refs": [
-    "deep-learning/dl-18-attention-mechanisms",
-    "mlops/mlops-08-training-at-scale",
-    "llm-engineering/llm-04-prompting-systems"
-  ],
-  "prerequisites": [
-    "DL-17: Transformers"
-  ],
-  "references": [
-    {
-      "title": "PyTorch Documentation",
-      "url": "https://pytorch.org/docs/stable/index.html",
-      "description": "The official reference for the deep-learning framework used across this course."
-    },
-    {
-      "title": "Deep Learning — Goodfellow, Bengio & Courville",
-      "url": "https://www.deeplearningbook.org/",
-      "description": "The canonical textbook on deep learning (free HTML)."
-    },
-    {
-      "title": "Dive into Deep Learning (d2l.ai)",
-      "url": "https://d2l.ai/",
-      "description": "Interactive deep-learning textbook with code in PyTorch."
-    },
-    {
-      "title": "Practical Deep Learning — fast.ai",
-      "url": "https://course.fast.ai/",
-      "description": "A top-down course that gets you training models quickly."
-    },
-    {
-      "title": "Attention Is All You Need",
-      "url": "https://arxiv.org/abs/1706.03762",
-      "description": "The paper that introduced the Transformer architecture."
-    }
-  ]
-}
+slug: dl-19-training-at-scale
+title: "Training at Scale"
+description: "Distributed training, mixed precision, gradient accumulation — techniques for training large models efficiently."
+order: 19
+tags:
+  - deep-learning
+  - distributed-training
+  - mixed-precision
+  - scaling
+  - infrastructure
+prerequisites:
+  - dl-10-the-training-loop
+  - dl-07-optimizers
+  - dl-08-pytorch-tensors-and-autograd
+references:
+  - title: "PyTorch Distributed Tutorial"
+    url: "https://pytorch.org/tutorials/intermediate/ddp_tutorial.html"
+    description: "Official PyTorch tutorial on distributed data parallel training"
+  - title: "ZeRO: Memory Optimizations Toward Training Trillion Parameter Models"
+    url: "https://arxiv.org/abs/1910.02054"
+    description: "Rajbhandari et al.'s ZeRO optimizer for memory-efficient training"
+  - title: "Mixed Precision Training (Micikevicius et al.)"
+    url: "https://arxiv.org/abs/1710.03740"
+    description: "The foundational mixed precision training paper"
+  - title: "Scaling Laws for Neural Language Models"
+    url: "https://arxiv.org/abs/2001.08361"
+    description: "Kaplan et al.'s scaling laws — how performance scales with compute"
+  - title: "DeepSpeed Documentation"
+    url: "https://www.deepspeed.ai/"
+    description: "Microsoft's library for distributed training and inference optimization"
+knowledge_refs:
+  - dl-10-the-training-loop
+  - dl-07-optimizers
+  - dl-08-pytorch-tensors-and-autograd
 ---
 
-# DL-19-TRAINING-AT-SCALE: Training at Scale
+# Training at Scale
 
-## Introduction
+Modern deep learning models are too large for single GPUs. Training at scale requires distributed training, memory optimization, and careful coordination across hardware.
 
-GPUs, mixed precision, data loaders and distributed training — the practical side of big models. By the end of this lesson you will be able to: Move training to GPU with .to(device); Use mixed precision (AMP); Speed up data loading with DataLoader workers; Explain data parallelism across GPUs.
+## Why Scale?
 
-## Key Concepts
+- **GPT-3**: 175B parameters, 3.14 × 10²³ FLOPs
+- **Single A100 GPU**: 312 TFLOPS FP16 → would take ~33 years
+- **1024 A100s**: Training completes in weeks
 
-### 1. Move training to GPU with .to(device)
+Scaling isn't just about speed — it's about **feasibility**.
 
-Target: Move training to GPU with .to(device). Start with the foundations — read the runnable example carefully and trace its output before moving on.
+## Distributed Data Parallel (DDP)
 
-```python
-import torch
-
-device = "cuda" if torch.cuda.is_available() else "cpu"
-model = model.to(device)
-xb = xb.to(device)
-print("training on:", device)
-```
-### 2. Use mixed precision (AMP)
-
-Target: Use mixed precision (AMP). Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+The most common approach: replicate the model on each GPU, process different data, synchronize gradients:
 
 ```python
-import torch
+import torch.distributed as dist
+from torch.nn.parallel import DistributedDataParallel as DDP
 
-# Mixed precision: fp16 forward, fp32 master weights
-scaler = torch.amp.GradScaler("cuda")
-print("AMP scaler ready")
+def setup(rank, world_size):
+    dist.init_process_group("nccl", rank=rank, world_size=world_size)
+    torch.cuda.set_device(rank)
+
+def train(rank, world_size):
+    setup(rank, world_size)
+    model = MyModel().to(rank)
+    model = DDP(model, device_ids=[rank])
+    
+    sampler = DistributedSampler(dataset, num_replicas=world_size, rank=rank)
+    loader = DataLoader(dataset, batch_size=32, sampler=sampler)
+    
+    for epoch in range(num_epochs):
+        sampler.set_epoch(epoch)
+        for batch in loader:
+            loss = model(batch)
+            loss.backward()   # Gradients synced automatically
+            optimizer.step()
+            optimizer.zero_grad()
 ```
-### 3. Speed up data loading with DataLoader workers
 
-Target: Speed up data loading with DataLoader workers. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+**How DDP works:**
+1. Each GPU has a full model copy
+2. Each GPU processes a different data shard
+3. After backward pass, gradients are averaged across all GPUs (AllReduce)
+4. Each GPU updates its copy identically
+
+## Data Parallelism vs. Model Parallelism
+
+| Type | How It Works | When to Use |
+|---|---|---|
+| Data Parallelism | Replicate model, split data | Model fits in one GPU |
+| Model Parallelism | Split model across GPUs | Model too large for one GPU |
+| Pipeline Parallelism | Split model by layers | Sequential architectures |
+| Tensor Parallelism | Split individual layers | Very large layers (attention, FFN) |
+| ZeRO | Shard optimizer states + gradients | Large models, limited memory |
+
+## Mixed Precision Training
+
+Use FP16 (half) for forward/backward, FP32 for weight updates:
 
 ```python
-from torch.utils.data import DataLoader
+from torch.cuda.amp import autocast, GradScaler
 
-dl = DataLoader(dataset, batch_size=64, num_workers=4, pin_memory=True, shuffle=True)
-print("workers:", dl.num_workers)
+scaler = GradScaler()
+
+for data, target in loader:
+    optimizer.zero_grad()
+    
+    with autocast():
+        output = model(data)
+        loss = criterion(output, target)
+    
+    scaler.scale(loss).backward()
+    scaler.unscale_(optimizer)
+    torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
+    scaler.step(optimizer)
+    scaler.update()
 ```
-### 4. Explain data parallelism across GPUs
 
-Target: Explain data parallelism across GPUs. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+**Benefits:**
+- 2x less memory (FP16 = 2 bytes, FP32 = 4 bytes)
+- 1.5-3x faster (tensor cores optimized for FP16)
+- Same model quality (with loss scaling)
+
+**AMP (Automatic Mixed Precision)** automatically determines which operations use FP16 vs FP32.
+
+## Gradient Accumulation
+
+For larger effective batch sizes when GPU memory is limited:
 
 ```python
-import torch.nn as nn
+accumulation_steps = 8  # Effective batch = 32 * 8 = 256
 
-model = nn.DataParallel(model)
-print("data-parallel:", len(model.device_ids), "GPUs")
+optimizer.zero_grad()
+for i, (data, target) in enumerate(loader):
+    with autocast():
+        loss = model(data) / accumulation_steps
+    loss.backward()
+    
+    if (i + 1) % accumulation_steps == 0:
+        optimizer.step()
+        optimizer.zero_grad()
 ```
 
-## Practice Questions
+## Gradient Checkpointing
 
-1. What is the key idea behind "Training at Scale"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+Trade compute for memory by recomputing activations during backward pass:
 
-## LLM Prompts for Deeper Understanding
+```python
+from torch.utils.checkpoint import checkpoint
 
-1. "Explain Training at Scale with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Training at Scale"
-1. "Provide advanced patterns and performance considerations for Training at Scale"
+class LargeModel(nn.Module):
+    def __init__(self):
+        super().__init__()
+        self.block1 = LargeBlock()
+        self.block2 = LargeBlock()
+        self.block3 = LargeBlock()
+    
+    def forward(self, x):
+        # checkpoint re-runs forward during backward
+        x = checkpoint(self.block1, x, use_reentrant=False)
+        x = checkpoint(self.block2, x, use_reentrant=False)
+        x = checkpoint(self.block3, x, use_reentrant=False)
+        return x
+```
 
-## Key Takeaways
+**Trade-off**: ~30% more compute, ~60% less memory. Essential for training very deep models.
 
-- Master the core ideas of Training at Scale through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+## ZeRO (Zero Redundancy Optimizer)
+
+Shard optimizer states and gradients across GPUs:
+
+| Stage | What's Sharded | Memory Savings |
+|---|---|---|
+| ZeRO-1 | Optimizer states | 4x |
+| ZeRO-2 | + Gradients | 8x |
+| ZeRO-3 | + Parameters | N× (N = number of GPUs) |
+
+```python
+import deepspeed
+
+model_engine, optimizer, _, _ = deepspeed.initialize(
+    model=model,
+    model_parameters=model.parameters(),
+    config=ds_config
+)
+
+# Training loop
+for data, target in loader:
+    loss = model_engine(data)
+    model_engine.backward(loss)
+    model_engine.step()
+```
+
+## Communication Patterns
+
+| Pattern | Description | Used By |
+|---|---|---|
+| AllReduce | Average gradients across all GPUs | DDP |
+| AllGather | Collect all shards | ZeRO-3 |
+| ReduceScatter | Sum and scatter gradients | ZeRO-1 |
+| AllToAll | Custom communication | Pipeline parallel |
+
+## Scaling Laws
+
+Performance follows power laws with compute:
+$$L(C) \approx \left(\frac{C_0}{C}\right)^{\alpha_N}$$
+
+where $L$ is loss, $C$ is compute, and $\alpha_N \approx 0.076$.
+
+**Key insight**: To double performance, you need ~10x more compute. This drives the trend toward larger models and datasets.
+
+## Practical Guidelines
+
+1. **Start with DDP** — it's simplest and works for most models
+2. **Use mixed precision** — always, on modern GPUs
+3. **Gradient accumulation** — when batch size > GPU memory
+4. **Gradient checkpointing** — when model is very deep
+5. **ZeRO-2** — for models > 1B parameters
+6. **Monitor GPU utilization** — aim for > 80%
+7. **Profile before optimizing** — find the actual bottleneck
+
+## Common Pitfalls
+
+1. **Not using DDP's sampler**: Data will be duplicated across GPUs
+2. **Forgetting `model.train()` after DDP wrap**: BatchNorm breaks
+3. **Uneven batch sizes**: Last batch causes AllReduce hangs
+4. **Not setting `find_unused_parameters=True`**: Some architectures need this
+5. **Wrong learning rate scaling**: Linear scaling rule: lr × num_gpus
 
 ## Further Reading
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+- PyTorch DDP tutorial is the starting point for distributed training
+- DeepSpeed documentation covers ZeRO and pipeline parallelism
+- Kaplan et al.'s scaling laws predict model performance from compute budget
+- For very large models: Megatron-LM and DeepSpeed pipeline parallelism

@@ -1,127 +1,242 @@
 ---
-{
-  "title": "Transfer Learning",
-  "description": "Stand on the shoulders of pretrained models: freeze features, swap the head, and fine-tune.",
-  "type": "lesson",
-  "order": 14,
-  "duration": "55 min",
-  "difficulty": "advanced",
-  "learning_objectives": [
-    "Explain feature reuse across tasks",
-    "Freeze layers and replace the classifier head",
-    "Fine-tune with a low learning rate",
-    "Avoid catastrophic forgetting"
-  ],
-  "knowledge_refs": [
-    "deep-learning/dl-13-cnn-architectures",
-    "computer-vision/cv-07-transfer-learning-for-vision"
-  ],
-  "prerequisites": [
-    "DL-13: Classic CNN Architectures"
-  ],
-  "references": [
-    {
-      "title": "PyTorch Documentation",
-      "url": "https://pytorch.org/docs/stable/index.html",
-      "description": "The official reference for the deep-learning framework used across this course."
-    },
-    {
-      "title": "Deep Learning — Goodfellow, Bengio & Courville",
-      "url": "https://www.deeplearningbook.org/",
-      "description": "The canonical textbook on deep learning (free HTML)."
-    },
-    {
-      "title": "Dive into Deep Learning (d2l.ai)",
-      "url": "https://d2l.ai/",
-      "description": "Interactive deep-learning textbook with code in PyTorch."
-    },
-    {
-      "title": "Practical Deep Learning — fast.ai",
-      "url": "https://course.fast.ai/",
-      "description": "A top-down course that gets you training models quickly."
-    },
-    {
-      "title": "Attention Is All You Need",
-      "url": "https://arxiv.org/abs/1706.03762",
-      "description": "The paper that introduced the Transformer architecture."
-    }
-  ]
-}
+slug: dl-14-transfer-learning
+title: "Transfer Learning & Fine-Tuning"
+description: "Don't train from scratch — leverage pretrained models to achieve state-of-the-art with minimal data."
+order: 14
+tags:
+  - deep-learning
+  - transfer-learning
+  - fine-tuning
+  - pretrained-models
+  - domain-adaptation
+prerequisites:
+  - dl-13-cnn-architectures
+  - dl-10-the-training-loop
+references:
+  - title: "How Transferable Are Features in Deep Neural Networks?"
+    url: "https://arxiv.org/abs/1411.1792"
+    description: "Yosinski et al.'s study of feature transferability across layers"
+  - title: "Very Deep Convolutional Networks (VGG) Transfer Learning"
+    url: "https://cs231n.github.io/transfer-learning/"
+    description: "CS231n's practical guide to transfer learning strategies"
+  - title: "ImageNet Pretrained Models (torchvision)"
+    url: "https://pytorch.org/vision/stable/models.html"
+    description: "PyTorch's official pretrained model zoo"
+  - title: "A Comprehensive Study of Transfer Learning"
+    url: "https://arxiv.org/abs/1911.02150"
+    description: "Survey covering when and how to transfer"
+  - title: "Don't Decay the Learning Rate, Increase the Batch Size"
+    url: "https://arxiv.org/abs/1711.00489"
+    description: "Smith et al. on scaling rules for transfer learning"
+knowledge_refs:
+  - dl-13-cnn-architectures
+  - dl-10-the-training-loop
+  - dl-11-regularization-for-deep-learning
 ---
 
-# DL-14-TRANSFER-LEARNING: Transfer Learning
+# Transfer Learning & Fine-Tuning
 
-## Introduction
+Training a deep network from scratch requires millions of labeled images. Transfer learning lets you start with a model trained on a large dataset (like ImageNet) and adapt it to your specific task — often with just hundreds of examples.
 
-Stand on the shoulders of pretrained models: freeze features, swap the head, and fine-tune. By the end of this lesson you will be able to: Explain feature reuse across tasks; Freeze layers and replace the classifier head; Fine-tune with a low learning rate; Avoid catastrophic forgetting.
+## The Core Idea
 
-## Key Concepts
+Deep networks learn **hierarchical features**:
+- **Early layers**: Generic features (edges, textures) — transferable across tasks
+- **Later layers**: Task-specific features (dog faces, car wheels) — less transferable
 
-### 1. Explain feature reuse across tasks
+Transfer learning exploits this: reuse the generic features, retrain the task-specific ones.
 
-Target: Explain feature reuse across tasks. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+## When to Use Transfer Learning
+
+| Source → Target | Data Size | Strategy |
+|---|---|---|
+| Same domain, more data | Large | Fine-tune all layers |
+| Same domain, less data | Small | Freeze feature extractor, train classifier |
+| Different domain, large data | Large | Fine-tune all layers (lower LR) |
+| Different domain, small data | Small | Feature extraction only |
+
+**Rule of thumb**: If you have < 1000 samples per class, use feature extraction. If > 1000, fine-tune.
+
+## Strategy 1: Feature Extraction
+
+Use the pretrained model as a fixed feature extractor:
 
 ```python
-import torchvision.models as models
+import torch
 import torch.nn as nn
+from torchvision import models
 
-backbone = models.resnet18(weights=models.ResNet18_Weights.DEFAULT)
-backbone.fc = nn.Linear(backbone.fc.in_features, 2)  # swap head
-print(backbone.fc)
+# Load pretrained ResNet50
+model = models.resnet50(pretrained=True)
+
+# Freeze all layers
+for param in model.parameters():
+    param.requires_grad = False
+
+# Replace the final layer
+num_classes = 10
+model.fc = nn.Linear(model.fc.in_features, num_classes)
+
+# Only the new layer is trained
+optimizer = torch.optim.Adam(model.fc.parameters(), lr=1e-3)
 ```
-### 2. Freeze layers and replace the classifier head
 
-Target: Freeze layers and replace the classifier head. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+**When to use**: Small dataset (< 1000 samples), same domain as pretrained model.
+
+## Strategy 2: Fine-Tuning
+
+Unfreeze some or all layers and train with a small learning rate:
 
 ```python
-import torch
+model = models.resnet50(pretrained=True)
 
-for p in backbone.parameters():
-    p.requires_grad = False
-for p in backbone.fc.parameters():
-    p.requires_grad = True
-print("frozen except head")
+# Option A: Fine-tune all layers with small LR
+optimizer = torch.optim.Adam([
+    {'params': model.layer4.parameters(), 'lr': 1e-5},  # last block: small LR
+    {'params': model.fc.parameters(), 'lr': 1e-3}       # classifier: normal LR
+], lr=1e-4)
+
+# Option B: Gradual unfreezing
+# Epoch 1-5: Train only classifier
+# Epoch 6-10: Unfreeze last block
+# Epoch 11-15: Unfreeze last two blocks
+# ...
 ```
-### 3. Fine-tune with a low learning rate
 
-Target: Fine-tune with a low learning rate. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+**Discriminative learning rates**: Earlier layers get smaller learning rates (they contain generic features that shouldn't change much). Later layers get larger rates.
+
+## Strategy 3: Progressive Resizing
+
+Train on small images first, then resize to larger:
+```python
+# Stage 1: 128×128 images, fast training
+# Stage 2: 224×224 images, slower but more accurate
+# Stage 3: 384×384 images, final fine-tuning
+```
+
+This works because:
+- Small images train fast (explore architecture space)
+- Large images capture fine details (refine accuracy)
+- Act as data augmentation (the model sees each image at different scales)
+
+## PyTorch Transfer Learning Patterns
+
+### Using torchvision Models
 
 ```python
-import torch
+from torchvision import models
 
-# Fine-tune with a small learning rate
-opt = torch.optim.Adam(filter(lambda p: p.requires_grad, backbone.parameters()), lr=1e-4)
-print("trainable params:", sum(p.numel() for p in backbone.parameters() if p.requires_grad))
+# ResNet
+model = models.resnet50(weights=models.ResNet50_Weights.IMAGENET1K_V2)
+
+# EfficientNet
+model = models.efficientnet_b0(weights=models.EfficientNet_B0_Weights.IMAGENET1K_V1)
+
+# Vision Transformer
+model = models.vit_b_16(weights=models.ViT_B_16_Weights.IMAGENET1K_V1)
 ```
-### 4. Avoid catastrophic forgetting
 
-Target: Avoid catastrophic forgetting. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+### Replacing the Head
 
 ```python
-import torch
+# For ResNet-like architectures
+model.fc = nn.Sequential(
+    nn.Dropout(0.3),
+    nn.Linear(model.fc.in_features, 256),
+    nn.ReLU(),
+    nn.Dropout(0.2),
+    nn.Linear(256, num_classes)
+)
 
-# Progressive unfreezing: start with head, then thaw blocks
-print("fine-tune strategy: head first, then last blocks")
+# For EfficientNet
+model.classifier = nn.Sequential(
+    nn.Dropout(0.2),
+    nn.Linear(model.classifier[1].in_features, num_classes)
+)
 ```
 
-## Practice Questions
+### Custom Feature Extraction
 
-1. What is the key idea behind "Transfer Learning"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+```python
+class FeatureExtractor(nn.Module):
+    def __init__(self, backbone, output_dim):
+        super().__init__()
+        self.backbone = backbone
+        self.backbone.fc = nn.Identity()  # Remove classifier
+        self.projection = nn.Linear(backbone.fc.in_features, output_dim)
+    
+    def forward(self, x):
+        features = self.backbone(x)
+        return self.projection(features)
+```
 
-## LLM Prompts for Deeper Understanding
+## Transfer Learning from NLP
 
-1. "Explain Transfer Learning with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Transfer Learning"
-1. "Provide advanced patterns and performance considerations for Transfer Learning"
+Pretrained language models (BERT, GPT, LLaMA) can be fine-tuned for any NLP task:
 
-## Key Takeaways
+```python
+from transformers import AutoModelForSequenceClassification, AutoTokenizer
 
-- Master the core ideas of Transfer Learning through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+model = AutoModelForSequenceClassification.from_pretrained(
+    'bert-base-uncased', num_labels=2
+)
+tokenizer = AutoTokenizer.from_pretrained('bert-base-uncased')
+
+# Fine-tune on your task
+optimizer = torch.optim.AdamW(model.parameters(), lr=2e-5)
+```
+
+**NLP transfer learning**: BERT, GPT, and similar models are trained on massive text corpora. Fine-tuning adapts them to specific tasks (sentiment analysis, NER, QA) with minimal labeled data.
+
+## Common Pitfalls
+
+1. **Forgetting to freeze layers**: Training all layers on small data → overfitting
+2. **Learning rate too high**: Destroys pretrained features
+3. **Not adjusting batch norm**: Use `model.eval()` or freeze BN during fine-tuning
+4. **Wrong preprocessing**: Must match the pretrained model's expected input format
+5. **Domain mismatch**: ImageNet features may not transfer to medical images or satellite imagery
+
+```python
+# Fix: freeze batch norm during fine-tuning
+class frozen_bn_model(nn.Module):
+    def __init__(self, model):
+        super().__init__()
+        self.model = model
+        # Freeze all BN layers
+        for m in self.model.modules():
+            if isinstance(m, nn.BatchNorm2d):
+                m.eval()  # Uses running stats, not batch stats
+    
+    def train(self, mode=True):
+        super().train(mode)
+        # Keep BN in eval mode
+        for m in self.model.modules():
+            if isinstance(m, nn.BatchNorm2d):
+                m.eval()
+        return self
+```
+
+## When Transfer Learning Doesn't Work
+
+- **Very different domains**: Medical images vs. natural images (though features still help)
+- **Very small pretrained models**: Not enough capacity to learn useful features
+- **Task requires different input resolution**: May lose spatial information
+- **Very different label spaces**: Pretrained features may not capture relevant distinctions
+
+**Alternatives**: Self-supervised pretraining (SimCLR, DINO), domain adaptation, few-shot learning.
+
+## Practical Guidelines
+
+1. **Always start with transfer learning** — training from scratch is a last resort
+2. **Start with feature extraction** — add fine-tuning only if needed
+3. **Use discriminative learning rates** — smaller for earlier layers
+4. **Match preprocessing** — same normalization, input size as pretrained model
+5. **Monitor overfitting** — especially when fine-tuning on small data
+6. **Try multiple backbones** — ResNet, EfficientNet, ViT may perform differently
 
 ## Further Reading
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+- Yosinski et al. (2014) showed that early layers transfer universally
+- CS231n's transfer learning guide is the practical starting point
+- Hugging Face's model hub has thousands of pretrained models
+- For domain adaptation: look into adversarial training methods

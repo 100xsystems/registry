@@ -1,130 +1,184 @@
 ---
-{
-  "title": "Decision Trees",
-  "description": "Greedy splits, impurity, and why trees are the most interpretable nonlinear models.",
-  "type": "lesson",
-  "order": 8,
-  "duration": "55 min",
-  "difficulty": "intermediate",
-  "learning_objectives": [
-    "Explain how trees choose splits with impurity",
-    "Read and interpret a fitted tree",
-    "Control depth to balance bias and variance",
-    "Extract feature importances"
-  ],
-  "knowledge_refs": [
-    "machine-learning/ml-07-logistic-regression",
-    "reinforcement-learning/rl-02-markov-decision-processes"
-  ],
-  "prerequisites": [
-    "ML-07: Logistic Regression"
-  ],
-  "references": [
-    {
-      "title": "scikit-learn User Guide",
-      "url": "https://scikit-learn.org/stable/user_guide.html",
-      "description": "The authoritative guide to the Python ML toolbox."
-    },
-    {
-      "title": "The Elements of Statistical Learning",
-      "url": "https://hastie.su.domains/ElemStatLearn/",
-      "description": "The classic statistical-learning reference (free PDF)."
-    },
-    {
-      "title": "Hands-On Machine Learning — Aurélien Géron",
-      "url": "https://github.com/ageron/handson-ml3",
-      "description": "Practical ML with scikit-learn, Keras and TensorFlow."
-    },
-    {
-      "title": "Andrew Ng — Machine Learning Specialization",
-      "url": "https://www.coursera.org/specializations/machine-learning-introduction",
-      "description": "The most popular introductory ML course in the world."
-    },
-    {
-      "title": "Kaggle Learn — Intro to Machine Learning",
-      "url": "https://www.kaggle.com/learn/intro-to-machine-learning",
-      "description": "Hands-on micro-course for the fundamentals."
-    }
-  ]
-}
+slug: ml-08-decision-trees
+title: "Decision Trees"
+description: "The most interpretable machine learning algorithm — and the building block for the most powerful tabular ML methods."
+order: 8
+tags:
+  - machine-learning
+  - decision-trees
+  - classification
+  - regression
+  - interpretable-ml
+prerequisites:
+  - ml-03-the-learning-problem
+  - ml-07-logistic-regression
+references:
+  - title: "scikit-learn: Decision Trees User Guide"
+    url: "https://scikit-learn.org/stable/modules/tree.html"
+    description: "Official documentation with practical guidance"
+  - title: "Visual Introduction to Decision Trees"
+    url: "http://www.r2d3.us/visual-intro-to-machine-learning-part-1/"
+    description: "R2D3's beautiful interactive visual introduction"
+  - title: "A Tutorial on Decision Trees (Quinlan)"
+    url: "https://link.springer.com/chapter/10.1007/978-1-4615-3686-4_7"
+    description: "Ross Quinlan's foundational paper on ID3 and C4.5"
+  - title: "Elements of Statistical Learning, Ch. 9"
+    url: "https://hastie.su.domains/ElemStatLearn/printings/ESLII_print12_toc.pdf"
+    description: "Chapter on Tree-Based Methods — the authoritative reference"
+  - title: "StatQuest: Decision Trees"
+    url: "https://www.youtube.com/watch?v=_L39rN6gz7Y"
+    description: "Josh Starmer's intuitive explanation of how trees split"
+knowledge_refs:
+  - ml-09-ensemble-methods
+  - ml-10-gradient-boosting
+  - ml-07-logistic-regression
 ---
 
-# ML-08-DECISION-TREES: Decision Trees
+# Decision Trees
 
-## Introduction
+Decision trees are one of the most intuitive machine learning algorithms. They recursively split the data into regions based on feature thresholds, creating a flowchart-like model that's easy to visualize and explain.
 
-Greedy splits, impurity, and why trees are the most interpretable nonlinear models. By the end of this lesson you will be able to: Explain how trees choose splits with impurity; Read and interpret a fitted tree; Control depth to balance bias and variance; Extract feature importances.
+## How Decision Trees Work
 
-## Key Concepts
+A decision tree makes predictions by asking a sequence of binary questions:
 
-### 1. Explain how trees choose splits with impurity
+```
+Is feature x₁ ≤ threshold t₁?
+├── YES → Is feature x₂ ≤ threshold t₂?
+│   ├── YES → Predict class A
+│   └── NO → Predict class B
+└── NO → Is feature x₃ ≤ threshold t₃?
+    ├── YES → Predict class C
+    └── NO → Predict class B
+```
 
-Target: Explain how trees choose splits with impurity. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+Each internal node splits on a feature and threshold, each branch is an outcome, and each leaf is a prediction. For regression trees, the leaf predicts the mean of training samples in that region.
+
+## Splitting Criteria
+
+The key question is: **which feature and threshold to split on?** Different criteria lead to different tree algorithms:
+
+### Information Gain (ID3, C4.5)
+
+**Entropy** measures impurity:
+$$H(S) = -\sum_{k=1}^{K} p_k \log_2(p_k)$$
+
+where $p_k$ is the proportion of class $k$ in set $S$. Pure sets have $H=0$; maximally impure sets have $H=\log_2(K)$.
+
+**Information gain** is the reduction in entropy after splitting:
+$$IG(S, A) = H(S) - \sum_{v \in \text{values}(A)} \frac{|S_v|}{|S|} H(S_v)$$
+
+The tree greedily chooses the split that maximizes information gain.
+
+### Gini Impurity (CART)
+
+$$G(S) = 1 - \sum_{k=1}^{K} p_k^2$$
+
+Gini impurity ranges from 0 (pure) to $1 - 1/K$ (maximally impure). It's computationally cheaper than entropy (no logarithm) and produces nearly identical trees in practice. This is the default in scikit-learn.
+
+### Variance Reduction (Regression)
+
+For regression trees, the split minimizes the variance (or MSE) of the target in each child node:
+$$\text{Var}(S) = \frac{1}{|S|} \sum_{i \in S} (y_i - \bar{y})^2$$
+
+## The Splitting Algorithm
+
+1. For each feature, find all unique split points
+2. For each split point, compute the impurity reduction
+3. Choose the feature and threshold with the highest reduction
+4. Recurse on each child until stopping criteria are met
 
 ```python
 from sklearn.tree import DecisionTreeClassifier
-from sklearn.datasets import load_iris
 
-X, y = load_iris(return_X_y=True)
-tree = DecisionTreeClassifier(max_depth=3, random_state=0).fit(X, y)
-print("accuracy:", round(tree.score(X, y), 3))
+tree = DecisionTreeClassifier(
+    criterion='gini',      # or 'entropy'
+    max_depth=5,           # limit tree depth
+    min_samples_split=20,  # minimum samples to split a node
+    min_samples_leaf=5,    # minimum samples in a leaf
+    max_features=None      # consider all features at each split
+)
+tree.fit(X_train, y_train)
 ```
-### 2. Read and interpret a fitted tree
 
-Target: Read and interpret a fitted tree. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+## Pruning: Preventing Overfitting
+
+Decision trees can grow to memorize the training data. **Pruning** cuts back branches that don't improve generalization:
+
+**Pre-pruning (early stopping):**
+- `max_depth`: Maximum depth of the tree
+- `min_samples_split`: Minimum samples required to split a node
+- `min_samples_leaf`: Minimum samples in a leaf node
+- `max_leaf_nodes`: Maximum number of leaf nodes
+
+**Post-pruning:**
+Grow the full tree first, then remove branches that don't improve validation performance. Cost-complexity pruning (CART) penalizes tree complexity:
+$$R_\alpha(T) = R(T) + \alpha |T|$$
+
+where $|T|$ is the number of leaves and $\alpha$ controls the trade-off.
 
 ```python
-from sklearn.tree import DecisionTreeClassifier, export_text
+# Cost-complexity pruning path
+path = tree.cost_complexity_pruning_path(X_train, y_train)
+alphas = path.ccp_alphas
 
-X = [[1, 1], [2, 2], [3, 3], [10, 10]]
-y = [0, 0, 1, 1]
-tree = DecisionTreeClassifier(max_depth=2, random_state=0).fit(X, y)
-print(export_text(tree, feature_names=["a", "b"]))
+# Find optimal alpha via cross-validation
+from sklearn.model_selection import cross_val_score
+scores = [cross_val_score(DecisionTreeClassifier(ccp_alpha=a), X_train, y_train, cv=5).mean() for a in alphas]
+optimal_alpha = alphas[np.argmax(scores)]
 ```
-### 3. Control depth to balance bias and variance
 
-Target: Control depth to balance bias and variance. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+## Regression Trees
 
+For continuous targets, decision trees predict the mean value in each leaf:
 ```python
-from sklearn.tree import DecisionTreeClassifier
-from sklearn.datasets import load_iris
-
-X, y = load_iris(return_X_y=True)
-for depth in [1, 3, 20]:
-    t = DecisionTreeClassifier(max_depth=depth, random_state=0).fit(X, y)
-    print(f"depth={depth}: train acc {t.score(X, y):.3f}")
+from sklearn.tree import DecisionTreeRegressor
+reg_tree = DecisionTreeRegressor(max_depth=4, min_samples_leaf=10)
+reg_tree.fit(X_train, y_train)
+predictions = reg_tree.predict(X_test)  # mean of training targets in leaf
 ```
-### 4. Extract feature importances
 
-Target: Extract feature importances. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+## Strengths
 
+- **Highly interpretable**: You can draw the tree and explain every decision
+- **No feature scaling needed**: Trees are invariant to monotonic transformations
+- **Handles mixed features**: Numerical and categorical together
+- **Captures non-linear relationships**: No assumption about feature-target relationship
+- **Fast training and prediction**: O(N × D × log N) training, O(log N) prediction
+- **Handles missing values**: Some implementations (XGBoost) handle NaN natively
+- **Feature importance**: Built-in, based on impurity reduction
+
+## Limitations
+
+- **Overfitting**: Prone to memorizing training data without pruning
+- **Unstable**: Small data changes can produce completely different trees
+- **Greedy optimization**: Can't guarantee globally optimal tree
+- **Axis-aligned splits**: Only orthogonal decision boundaries
+- **Poor extrapolation**: Can't predict outside the range of training values
+- **Biased toward high-cardinality features**: Features with more levels appear more important
+
+## Feature Importance
+
+Trees provide feature importance scores based on total impurity reduction:
 ```python
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.datasets import load_iris
-
-X, y = load_iris(return_X_y=True)
-rf = RandomForestClassifier(random_state=0).fit(X, y)
-print("importances:", rf.feature_importances_.round(3))
+importances = tree.feature_importances_
+for name, imp in sorted(zip(feature_names, importances), key=lambda x: -x[1]):
+    print(f"{name}: {imp:.3f}")
 ```
 
-## Practice Questions
+**Warning**: Feature importance can be misleading — it's biased toward high-cardinality features. Use permutation importance for more reliable estimates.
 
-1. What is the key idea behind "Decision Trees"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+## The Foundation for Ensembles
 
-## LLM Prompts for Deeper Understanding
+Decision trees are rarely used alone in production. Their real power comes as building blocks for **ensemble methods**:
+- **Random Forests** (bagging + feature randomness) → robust, hard to overfit
+- **Gradient Boosting** (sequential, error-correcting) → state-of-the-art on tabular data
 
-1. "Explain Decision Trees with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Decision Trees"
-1. "Provide advanced patterns and performance considerations for Decision Trees"
-
-## Key Takeaways
-
-- Master the core ideas of Decision Trees through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+These ensemble methods are the subject of the next lessons and represent the most powerful approach for structured/tabular data.
 
 ## Further Reading
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+- The r2d3 interactive visual introduction is the best first exposure
+- Quinlan's original papers on ID3 and C4.5 are foundational to ML history
+- ESL Chapter 9 covers pruning, boosting, and bagging comprehensively
+- For interpretability, look into surrogate models and LIME as alternatives to reading tree structures

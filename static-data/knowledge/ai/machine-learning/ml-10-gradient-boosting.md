@@ -1,132 +1,224 @@
 ---
-{
-  "title": "Gradient Boosting",
-  "description": "Boosted trees — the tabular-data champion — fit sequentially to the mistakes of previous models.",
-  "type": "lesson",
-  "order": 10,
-  "duration": "60 min",
-  "difficulty": "advanced",
-  "learning_objectives": [
-    "Explain boosting versus bagging",
-    "Fit gradient-boosted trees with scikit-learn and XGBoost-style APIs",
-    "Tune learning rate versus tree count",
-    "Use early stopping to avoid overfitting"
-  ],
-  "knowledge_refs": [
-    "machine-learning/ml-09-ensemble-methods",
-    "reinforcement-learning/rl-10-policy-gradient-methods"
-  ],
-  "prerequisites": [
-    "ML-09: Ensemble Methods: Bagging & Random Forests"
-  ],
-  "references": [
-    {
-      "title": "scikit-learn User Guide",
-      "url": "https://scikit-learn.org/stable/user_guide.html",
-      "description": "The authoritative guide to the Python ML toolbox."
-    },
-    {
-      "title": "The Elements of Statistical Learning",
-      "url": "https://hastie.su.domains/ElemStatLearn/",
-      "description": "The classic statistical-learning reference (free PDF)."
-    },
-    {
-      "title": "Hands-On Machine Learning — Aurélien Géron",
-      "url": "https://github.com/ageron/handson-ml3",
-      "description": "Practical ML with scikit-learn, Keras and TensorFlow."
-    },
-    {
-      "title": "Andrew Ng — Machine Learning Specialization",
-      "url": "https://www.coursera.org/specializations/machine-learning-introduction",
-      "description": "The most popular introductory ML course in the world."
-    },
-    {
-      "title": "Kaggle Learn — Intro to Machine Learning",
-      "url": "https://www.kaggle.com/learn/intro-to-machine-learning",
-      "description": "Hands-on micro-course for the fundamentals."
-    }
-  ]
-}
+slug: ml-10-gradient-boosting
+title: "Gradient Boosting"
+description: "The most powerful algorithm for tabular data — XGBoost, LightGBM, and CatBoost dominate Kaggle competitions and production ML."
+order: 10
+tags:
+  - machine-learning
+  - gradient-boosting
+  - xgboost
+  - lightgbm
+  - catboost
+prerequisites:
+  - ml-08-decision-trees
+  - ml-06-gradient-descent
+  - ml-09-ensemble-methods
+references:
+  - title: "XGBoost: A Scalable Tree Boosting System"
+    url: "https://arxiv.org/abs/1603.02754"
+    description: "The original XGBoost paper by Tianqi Chen"
+  - title: "LightGBM: A Highly Efficient Gradient Boosting Decision Tree"
+    url: "https://arxiv.org/abs/1711.08229"
+    description: "The LightGBM paper by Microsoft Research"
+  - title: "CatBoost: unbiased boosting with categorical features"
+    url: "https://arxiv.org/abs/1706.03662"
+    description: "The CatBoost paper by Yandex with native categorical support"
+  - title: "XGBoost Documentation"
+    url: "https://xgboost.readthedocs.io/"
+    description: "Official XGBoost docs with API reference and tutorials"
+  - title: "Gradient Boosting: From First Principles"
+    url: "https://explained.ai/gradient-boosting/"
+    description: "A deep mathematical treatment of gradient boosting from first principles"
+knowledge_refs:
+  - ml-08-decision-trees
+  - ml-09-ensemble-methods
+  - ml-06-gradient-descent
 ---
 
-# ML-10-GRADIENT-BOOSTING: Gradient Boosting
+# Gradient Boosting
 
-## Introduction
+Gradient boosting is the most powerful algorithm for structured/tabular data. It dominates Kaggle competitions, credit scoring, recommendation systems, and any domain with labeled tabular data. Understanding gradient boosting is essential for any ML practitioner.
 
-Boosted trees — the tabular-data champion — fit sequentially to the mistakes of previous models. By the end of this lesson you will be able to: Explain boosting versus bagging; Fit gradient-boosted trees with scikit-learn and XGBoost-style APIs; Tune learning rate versus tree count; Use early stopping to avoid overfitting.
+## The Core Idea
 
-## Key Concepts
+While random forests build trees **independently**, gradient boosting builds them **sequentially** — each new tree corrects the errors of the previous ensemble:
 
-### 1. Explain boosting versus bagging
+$$F_m(x) = F_{m-1}(x) + \eta \cdot h_m(x)$$
 
-Target: Explain boosting versus bagging. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+where:
+- $F_{m-1}(x)$ is the current ensemble prediction
+- $h_m(x)$ is the new tree (the "weak learner")
+- $\eta$ is the **learning rate** (shrinkage)
+- $F_0(x)$ is typically the mean of the target
 
-```python
-from sklearn.ensemble import GradientBoostingClassifier
-from sklearn.datasets import load_iris
+The new tree $h_m(x)$ is trained on the **pseudo-residuals** — the negative gradient of the loss with respect to the current predictions:
 
-X, y = load_iris(return_X_y=True)
-gb = GradientBoostingClassifier(random_state=0).fit(X, y)
-print("GB accuracy:", round(gb.score(X, y), 3))
+$$r_{im} = -\frac{\partial \mathcal{L}(y_i, F(x_i))}{\partial F(x_i)} \bigg|_{F=F_{m-1}}$$
+
+For squared error loss, pseudo-residuals are just the actual residuals $(y_i - F_{m-1}(x_i))$. For other losses, they're the gradient of that loss.
+
+## Gradient Descent in Function Space
+
+This is why it's called **gradient** boosting — it performs gradient descent in function space:
+
+1. Start with a simple function $F_0$ (mean for regression, log-odds for classification)
+2. Compute pseudo-residuals (gradient of loss)
+3. Fit a tree to the pseudo-residuals
+4. Update: $F_m = F_{m-1} + \eta \cdot h_m$
+5. Repeat until convergence
+
+The learning rate $\eta$ (typically 0.01-0.3) shrinks each tree's contribution, making the model more robust and less prone to overfitting.
+
+## The Gradient Boosting Algorithm
+
 ```
-### 2. Fit gradient-boosted trees with scikit-learn and XGBoost-style APIs
+Initialize F₀(x) = argmin_γ Σ L(yᵢ, γ)
 
-Target: Fit gradient-boosted trees with scikit-learn and XGBoost-style APIs. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
-
-```python
-from sklearn.ensemble import GradientBoostingRegressor
-
-X = [[i] for i in range(1, 21)]
-y = [v ** 2 for v in range(1, 21)]
-gb = GradientBoostingRegressor(learning_rate=0.1, n_estimators=100, random_state=0).fit(X, y)
-print("pred(25):", round(gb.predict([[25]])[0], 1))
-```
-### 3. Tune learning rate versus tree count
-
-Target: Tune learning rate versus tree count. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
-
-```python
-from sklearn.ensemble import GradientBoostingRegressor
-
-X = [[i] for i in range(50)]
-y = [v * 2 + (v % 3) for v in range(50)]
-# Lower learning rate needs more trees
-for lr in [1.0, 0.05]:
-    gb = GradientBoostingRegressor(learning_rate=lr, n_estimators=200, random_state=0).fit(X, y)
-    print(f"lr={lr}: train R2 {gb.score(X, y):.3f}")
-```
-### 4. Use early stopping to avoid overfitting
-
-Target: Use early stopping to avoid overfitting. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
-
-```python
-from sklearn.ensemble import GradientBoostingRegressor
-
-X = [[i] for i in range(100)]
-y = [v + (v % 7) for v in range(100)]
-gb = GradientBoostingRegressor(learning_rate=0.05, n_estimators=300, random_state=0)
-gb.fit(X, y)
-print("staged best:", gb.n_estimators_, "trees")
+For m = 1 to M:
+  1. Compute pseudo-residuals:
+     rᵢₘ = -∂L(yᵢ, F(xᵢ)) / ∂F(xᵢ) |_{F=Fₘ₋₁}
+  
+  2. Fit a regression tree hₘ(x) to rᵢₘ
+  
+  3. For each leaf j of hₘ, find optimal output:
+     γⱼₘ = argmin_γ Σ_{xᵢ∈leaf_j} L(yᵢ, Fₘ₋₁(xᵢ) + γ)
+  
+  4. Update: Fₘ(x) = Fₘ₋₁(x) + η · hₘ(x)
 ```
 
-## Practice Questions
+## XGBoost
 
-1. What is the key idea behind "Gradient Boosting"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+XGBoost (Extreme Gradient Boosting) added several critical improvements:
 
-## LLM Prompts for Deeper Understanding
+**Regularized objective:**
+$$\mathcal{L} = \sum_i l(y_i, \hat{y}_i) + \sum_k \Omega(f_k)$$
 
-1. "Explain Gradient Boosting with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Gradient Boosting"
-1. "Provide advanced patterns and performance considerations for Gradient Boosting"
+where $\Omega(f) = \gamma T + \frac{1}{2}\lambda \sum_{j=1}^{T} w_j^2$ penalizes tree complexity (number of leaves $T$ and leaf weights).
 
-## Key Takeaways
+**Column subsampling**: Like random forests, each tree considers only a random subset of features — reduces overfitting and speeds up training.
 
-- Master the core ideas of Gradient Boosting through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+**Exact greedy and approximate algorithms**: Efficient split-finding even on large datasets.
+
+```python
+import xgboost as xgb
+
+# For classification
+model = xgb.XGBClassifier(
+    n_estimators=500,
+    max_depth=6,
+    learning_rate=0.05,
+    subsample=0.8,
+    colsample_bytree=0.8,
+    reg_alpha=0.1,      # L1 regularization
+    reg_lambda=1.0,     # L2 regularization
+    eval_metric='logloss',
+    early_stopping_rounds=50,
+    random_state=42
+)
+model.fit(X_train, y_train, eval_set=[(X_val, y_val)], verbose=False)
+```
+
+## LightGBM
+
+LightGBM (Microsoft, 2017) is optimized for speed and memory:
+
+**Gradient-based One-Side Sampling (GOSS)**: Keeps instances with large gradients, randomly samples small gradients — fewer data points per split.
+
+**Exclusive Feature Bundling (EFB)**: Bundles mutually exclusive features (never non-zero together) — fewer features to consider.
+
+**Leaf-wise growth**: Instead of level-wise (all leaves at same depth), grows the leaf with highest loss reduction. Faster convergence but can overfit without `max_depth`.
+
+```python
+import lightgbm as lgb
+
+model = lgb.LGBMClassifier(
+    n_estimators=500,
+    num_leaves=31,
+    learning_rate=0.05,
+    feature_fraction=0.8,
+    bagging_fraction=0.8,
+    bagging_freq=5,
+    lambda_l1=0.1,
+    lambda_l2=1.0,
+    random_state=42
+)
+model.fit(X_train, y_train, eval_set=[(X_val, y_val)],
+          callbacks=[lgb.early_stopping(50)])
+```
+
+## CatBoost
+
+CatBoost (Yandex, 2017) specializes in **categorical features**:
+
+**Ordered boosting**: Processes data in a random order, using only "previous" samples for target statistics — eliminates target leakage.
+
+**Ordered target statistics**: Encodes categoricals using running averages without leaking test information.
+
+```python
+import catboost as cb
+
+model = cb.CatBoostClassifier(
+    iterations=500,
+    depth=6,
+    learning_rate=0.05,
+    l2_leaf_reg=3,
+    cat_features=categorical_columns,
+    verbose=False
+)
+model.fit(X_train, y_train, eval_set=(X_val, y_val), early_stopping_rounds=50)
+```
+
+## When to Use Which
+
+| Scenario | Best Choice |
+|---|---|
+| General tabular data | XGBoost or LightGBM |
+| Many categorical features | CatBoost |
+| Very large dataset (>1M rows) | LightGBM (fastest) |
+| Small dataset | XGBoost with strong regularization |
+| Need GPU acceleration | XGBoost or LightGBM (both support GPU) |
+| Quick iteration | LightGBM (fastest training) |
+
+## Tuning Guide
+
+The most important hyperparameters, in order:
+
+1. **`n_estimators`** (use early stopping)
+2. **`learning_rate`** (lower = better, but more trees needed)
+3. **`max_depth`** or **`num_leaves`** (controls tree complexity)
+4. **`subsample`** / **`colsample_bytree`** (randomness for regularization)
+5. **`reg_alpha`** / **`reg_lambda`** (L1/L2 regularization)
+
+**Practical tuning strategy:**
+```python
+# 1. Set learning_rate=0.1, n_estimators=1000, use early_stopping
+# 2. Tune max_depth (3-10) and num_leaves
+# 3. Tune subsample and colsample_bytree (0.5-1.0)
+# 4. Lower learning_rate to 0.01, increase n_estimators
+# 5. Tune regularization
+```
+
+## Strengths
+
+- **State-of-the-art on tabular data**: Wins most Kaggle tabular competitions
+- **Handles mixed features**: Numerical + categorical + missing
+- **Feature importance**: Built-in, permutation, and SHAP-based
+- **Missing values**: Native handling (learns optimal direction)
+- **Fast**: LightGBM can train millions of rows in seconds
+- **GPU support**: All major implementations support GPU
+
+## Limitations
+
+- **Not for images/text**: Neural networks dominate for unstructured data
+- **Prone to overfitting**: Requires careful regularization
+- **Sequential training**: Harder to parallelize than random forests
+- **Black box**: Harder to interpret than single trees or linear models
+- **Doesn't extrapolate**: Predictions are bounded by training range
 
 ## Further Reading
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+- Chen & Guestrin (2016) introduced XGBoost — the most cited ML system paper
+- Ke et al. (2017) introduced LightGBM with GOSS and EFB
+- Prokhorenkova et al. (2018) introduced CatBoost's ordered boosting
+- The explained.ai treatment provides a rigorous mathematical foundation
+- SHAP (Lundberg & Lee, 2017) explains gradient boosting models — essential for interpretability
