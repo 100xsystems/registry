@@ -1,0 +1,47 @@
+{
+  "slug": "amazon-shopping-cart",
+  "name": "Amazon Shopping Cart",
+  "description": "How Amazon handles flash sales, DynamoDB, and Prime Day traffic spikes with microservices and chaos engineering.",
+  "categories": [
+    {
+      "label": "References & Resources",
+      "icon": "book",
+      "items": [
+        {
+          "title": "How Amazon DynamoDB Supported ZOZOTOWN's Shopping Cart Migration",
+          "url": "https://aws.amazon.com/blogs/database/how-amazon-dynamodb-supported-zozotowns-shopping-cart-migration-project/",
+          "description": "Real-world DynamoDB migration for shopping cart workloads."
+        },
+        {
+          "title": "AWS Services Scale to New Heights for Prime Day 2025",
+          "url": "https://aws.amazon.com/blogs/aws/aws-services-scale-to-new-heights-for-prime-day-2025-key-metrics-and-milestones/",
+          "description": "Key metrics and infrastructure scale during Prime Day."
+        },
+        {
+          "title": "How AWS Powered Prime Day 2024",
+          "url": "https://aws.amazon.com/blogs/aws/how-aws-powered-prime-day-2024-for-record-breaking-sales/",
+          "description": "Record-breaking sales infrastructure analysis."
+        },
+        {
+          "title": "Amazon Dynamo Architecture",
+          "url": "https://newsletter.systemdesign.one/p/amazon-dynamo-architecture",
+          "description": "Technical deep dive into Dynamo's architecture."
+        },
+        {
+          "title": "Can Amazon Handle Four Days of Prime Day Traffic?",
+          "url": "https://grokkingtechcareer.substack.com/p/can-amazon-handle-four-days-of-prime",
+          "description": "Analysis of Amazon's capacity planning and resilience."
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "amazon-shopping-cart",
+      "title": "Amazon Shopping Cart",
+      "description": "How Amazon handles flash sales, DynamoDB, and Prime Day traffic spikes with microservices and chaos engineering.",
+      "type": "lesson",
+      "order": 1
+    }
+  ]
+}

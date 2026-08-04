@@ -1,0 +1,47 @@
+{
+  "slug": "uber-ride-matching",
+  "name": "Uber Ride Matching",
+  "description": "How Uber matches riders to drivers in real-time using H3 geospatial indexing, surge pricing, and event-driven architecture.",
+  "categories": [
+    {
+      "label": "References & Resources",
+      "icon": "book",
+      "items": [
+        {
+          "title": "H3: Uber's Hexagonal Hierarchical Spatial Index",
+          "url": "https://www.uber.com/blog/h3/",
+          "description": "Technical overview of H3 hexagonal spatial indexing."
+        },
+        {
+          "title": "Uber's Real-Time Market Platform",
+          "url": "https://www.uber.com/blog/real-time-market-platform/",
+          "description": "Architecture of Uber's real-time dispatch and pricing system."
+        },
+        {
+          "title": "Uber's Kafka Architecture",
+          "url": "https://www.uber.com/blog/kafka/",
+          "description": "How Uber scales Kafka for 70+ countries and 19M trips/day."
+        },
+        {
+          "title": "System Design: Uber Ride Sharing",
+          "url": "https://blog.bytebytego.com/p/uber-system-design",
+          "description": "Visual breakdown of Uber's matching and dispatch architecture."
+        },
+        {
+          "title": "Uber's Geospatial Data Pipeline",
+          "url": "https://www.uber.com/blog/geospatial/",
+          "description": "How Uber processes GPS data at scale for real-time tracking."
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "uber-ride-matching",
+      "title": "Uber Ride Matching",
+      "description": "How Uber matches riders to drivers in real-time using H3 geospatial indexing, surge pricing, and event-driven architecture.",
+      "type": "lesson",
+      "order": 1
+    }
+  ]
+}

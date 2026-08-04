@@ -1,0 +1,47 @@
+{
+  "slug": "netflix-streaming",
+  "name": "Netflix Video Streaming",
+  "description": "How Netflix delivers content to 250M+ subscribers using Open Connect CDN, chaos engineering, and 500+ microservices.",
+  "categories": [
+    {
+      "label": "References & Resources",
+      "icon": "book",
+      "items": [
+        {
+          "title": "Netflix Open Connect Program",
+          "url": "https://openconnect.netflix.com/en/",
+          "description": "Official documentation of Netflix's custom CDN architecture."
+        },
+        {
+          "title": "Netflix TechBlog",
+          "url": "https://netflixtechblog.com/",
+          "description": "Engineering blog covering Netflix's technical architecture."
+        },
+        {
+          "title": "CDN Netflix Tech Stack: Open Connect and Home Caching Nodes",
+          "url": "https://blog.blazingcdn.com/en-us/cdn-netflix-tech-stack-open-connect-home-caching-nodes",
+          "description": "Technical analysis of Netflix's CDN infrastructure."
+        },
+        {
+          "title": "Netflix Tech Stack Explained: CDN & Microservices",
+          "url": "https://www.vdocipher.com/blog/netflix-tech-stack-and-architecture/",
+          "description": "Comprehensive overview of Netflix's technology choices."
+        },
+        {
+          "title": "Netflix Research - Recommendations",
+          "url": "https://research.netflix.com/research-area/recommendations",
+          "description": "Netflix's recommendation system research."
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "netflix-streaming",
+      "title": "Netflix Video Streaming",
+      "description": "How Netflix delivers content to 250M+ subscribers using Open Connect CDN, chaos engineering, and 500+ microservices.",
+      "type": "lesson",
+      "order": 1
+    }
+  ]
+}

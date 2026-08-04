@@ -1,0 +1,47 @@
+{
+  "slug": "whatsapp-messaging",
+  "name": "WhatsApp Real-Time Messaging",
+  "description": "How WhatsApp delivers 100B+ messages/day to 2B+ users with only ~50 engineers using Erlang and XMPP.",
+  "categories": [
+    {
+      "label": "References & Resources",
+      "icon": "book",
+      "items": [
+        {
+          "title": "How WhatsApp Handled 1 Billion Users with 50 Engineers",
+          "url": "https://betterengineers.substack.com/p/how-whatsapp-handled-1-billion-users",
+          "description": "Deep dive into WhatsApp's architectural simplicity and scaling strategy."
+        },
+        {
+          "title": "How WhatsApp Delivers Messages to 2 Billion Users",
+          "url": "https://akshayghalme.com/blogs/how-whatsapp-handles-2-billion-users/",
+          "description": "Messaging at planetary scale with technical architecture details."
+        },
+        {
+          "title": "How WhatsApp Handles 40 Billion Messages Per Day",
+          "url": "https://blog.bytebytego.com/p/how-whatsapp-handles-40-billion-messages",
+          "description": "Visual breakdown of WhatsApp's message delivery pipeline."
+        },
+        {
+          "title": "How WhatsApp Handles 100 Billion Messages Daily",
+          "url": "https://medium.com/codetodeploy/how-whatsapp-handles-100-billion-messages-daily-a-deep-dive-into-its-system-architecture-c43203834a02",
+          "description": "Comprehensive system architecture deep dive."
+        },
+        {
+          "title": "Designing WhatsApp",
+          "url": "https://highscalability.com/designing-whatsapp/",
+          "description": "Architecture analysis from the High Scalability archive."
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "whatsapp-messaging",
+      "title": "WhatsApp Real-Time Messaging",
+      "description": "How WhatsApp delivers 100B+ messages/day to 2B+ users with only ~50 engineers using Erlang and XMPP.",
+      "type": "lesson",
+      "order": 1
+    }
+  ]
+}

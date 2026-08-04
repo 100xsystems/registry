@@ -1,0 +1,29 @@
+{
+  "slug": "fundamentals",
+  "name": "Fundamentals",
+  "description": "Core concepts every engineer must understand before designing systems — scalability, availability, and estimation.",
+  "categories": [],
+  "lessons": [
+    {
+      "slug": "fundamentals-availability",
+      "title": "Availability & Reliability",
+      "description": "Understanding the nines of availability, failure modes, redundancy, and designing systems that stay online.",
+      "type": "lesson",
+      "order": 1
+    },
+    {
+      "slug": "fundamentals-estimation",
+      "title": "Back-of-the-Envelope Estimation",
+      "description": "Quick estimation techniques for QPS, storage, bandwidth, and compute requirements during system design.",
+      "type": "lesson",
+      "order": 2
+    },
+    {
+      "slug": "fundamentals-scalability",
+      "title": "Scalability & Performance",
+      "description": "Understanding vertical vs horizontal scaling, performance metrics, and designing systems that grow with demand.",
+      "type": "lesson",
+      "order": 3
+    }
+  ]
+}

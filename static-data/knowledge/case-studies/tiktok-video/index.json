@@ -1,0 +1,47 @@
+{
+  "slug": "tiktok-video",
+  "name": "TikTok Video Delivery",
+  "description": "How TikTok's AI-powered recommendation engine and video pipeline serve 1B+ users with personalized content.",
+  "categories": [
+    {
+      "label": "References & Resources",
+      "icon": "book",
+      "items": [
+        {
+          "title": "Monolith: Real-Time Recommendation System with Collisionless Embedding Table",
+          "url": "https://arxiv.org/abs/2209.07663",
+          "description": "ByteDance's real-time ML architecture for recommendations."
+        },
+        {
+          "title": "ByteDance Processes Billions of Daily Videos on AWS Inferentia2",
+          "url": "https://aws.amazon.com/blogs/machine-learning/bytedance-processes-billions-of-daily-videos-using-their-multimodal-video-understanding-models-on-aws-inferentia2/",
+          "description": "Large-scale multimodal AI pipelines and hardware acceleration."
+        },
+        {
+          "title": "ByteGraph: A High-Performance Distributed Graph Database at ByteDance",
+          "url": "https://www.vldb.org/pvldb/",
+          "description": "Social graph partitioning and low-latency traversal storage."
+        },
+        {
+          "title": "System Design: TikTok Architecture",
+          "url": "https://systemdesign.one/",
+          "description": "Multi-tier CDN caching and transcoding architecture analysis."
+        },
+        {
+          "title": "TikTok's Recommendation Algorithm Explained",
+          "url": "https://blog.bytebytego.com/p/tiktoks-recommendation-algorithm",
+          "description": "Visual breakdown of TikTok's For You Page algorithm."
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "tiktok-video",
+      "title": "TikTok Video Delivery",
+      "description": "How TikTok's AI-powered recommendation engine and video pipeline serve 1B+ users with personalized content.",
+      "type": "lesson",
+      "order": 1
+    }
+  ]
+}

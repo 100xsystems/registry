@@ -1,0 +1,43 @@
+{
+  "slug": "building-blocks",
+  "name": "Building Blocks",
+  "description": "The infrastructure primitives you combine to build real systems — load balancers, caching, queues, databases, CDNs.",
+  "categories": [],
+  "lessons": [
+    {
+      "slug": "building-blocks-caching",
+      "title": "Caching",
+      "description": "Caching strategies for reducing latency and database load — Cache-Aside, Write-Through, Write-Behind, and eviction policies.",
+      "type": "lesson",
+      "order": 1
+    },
+    {
+      "slug": "building-blocks-cdn",
+      "title": "CDNs",
+      "description": "Content Delivery Networks — how edge caching reduces latency and handles global traffic at scale.",
+      "type": "lesson",
+      "order": 2
+    },
+    {
+      "slug": "building-blocks-databases",
+      "title": "Databases",
+      "description": "SQL vs NoSQL, replication, sharding, and choosing the right database for your system design.",
+      "type": "lesson",
+      "order": 3
+    },
+    {
+      "slug": "building-blocks-load-balancers",
+      "title": "Load Balancers",
+      "description": "How load balancers distribute traffic across servers — Layer 4 vs Layer 7, algorithms, and health checks.",
+      "type": "lesson",
+      "order": 4
+    },
+    {
+      "slug": "building-blocks-message-queues",
+      "title": "Message Queues",
+      "description": "Asynchronous communication between services — Kafka, RabbitMQ, SQS, and event-driven architecture.",
+      "type": "lesson",
+      "order": 5
+    }
+  ]
+}

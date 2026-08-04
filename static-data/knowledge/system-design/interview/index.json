@@ -1,0 +1,29 @@
+{
+  "slug": "interview",
+  "name": "Interview Prep",
+  "description": "Frameworks, common questions, and trade-off analysis for system design interviews.",
+  "categories": [],
+  "lessons": [
+    {
+      "slug": "interview-common-questions",
+      "title": "Common Design Questions",
+      "description": "The most frequently asked system design interview questions with key concepts and approaches.",
+      "type": "lesson",
+      "order": 1
+    },
+    {
+      "slug": "interview-framework",
+      "title": "The 4-Step Framework",
+      "description": "A structured approach to system design interviews — from requirements gathering to trade-off analysis.",
+      "type": "lesson",
+      "order": 2
+    },
+    {
+      "slug": "interview-trade-offs",
+      "title": "Trade-off Analysis",
+      "description": "Understanding and communicating architectural trade-offs — the key skill that separates good from great system designers.",
+      "type": "lesson",
+      "order": 3
+    }
+  ]
+}

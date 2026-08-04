@@ -1,0 +1,47 @@
+{
+  "slug": "twitter-newsfeed",
+  "name": "Twitter/X News Feed",
+  "description": "How Twitter delivers 500M+ tweets/day to hundreds of millions of users using hybrid fan-out strategies.",
+  "categories": [
+    {
+      "label": "References & Resources",
+      "icon": "book",
+      "items": [
+        {
+          "title": "Design Twitter/X Feed: The Hardest Feed System at Scale",
+          "url": "https://scaledojo.dev/blogs/design-twitterx-feed-the-hardest-feed-system-at-scale",
+          "description": "Comprehensive breakdown of Twitter's hybrid fan-out architecture."
+        },
+        {
+          "title": "Will Twitter Collapse? Examining the Resiliency of Twitter's Architecture",
+          "url": "https://engineeringenablement.substack.com/p/will-twitter-collapse-examining-the",
+          "description": "Analysis of Twitter's architectural resilience and potential failure points."
+        },
+        {
+          "title": "Introducing FlockDB",
+          "url": "https://blog.x.com/engineering/en_us/a/2010/introducing-flockdb",
+          "description": "Twitter's distributed graph database for social relationships."
+        },
+        {
+          "title": "Processing Billions of Events in Real Time at Twitter",
+          "url": "https://blog.x.com/engineering/en_us/topics/infrastructure/2021/processing-billions-of-events-in-real-time-at-twitter-",
+          "description": "Real-time event processing with Kafka and Flink."
+        },
+        {
+          "title": "The Distributed Database Behind Twitter",
+          "url": "https://www.yugabyte.com/blog/recap-the-distributed-database-behind-twitter/",
+          "description": "Technical analysis of Manhattan, Twitter's custom key-value store."
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "twitter-newsfeed",
+      "title": "Twitter/X News Feed",
+      "description": "How Twitter delivers 500M+ tweets/day to hundreds of millions of users using hybrid fan-out strategies.",
+      "type": "lesson",
+      "order": 1
+    }
+  ]
+}

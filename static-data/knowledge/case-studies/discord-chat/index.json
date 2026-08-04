@@ -1,0 +1,47 @@
+{
+  "slug": "discord-chat",
+  "name": "Discord Real-Time Communication",
+  "description": "How Discord handles 19M+ servers and trillions of messages using Elixir, ScyllaDB, and custom C++ voice infrastructure.",
+  "categories": [
+    {
+      "label": "References & Resources",
+      "icon": "book",
+      "items": [
+        {
+          "title": "Real-time Communication at Scale with Elixir at Discord",
+          "url": "https://elixir-lang.org/blog/2020/10/08/real-time-communication-at-scale-with-elixir-at-discord/",
+          "description": "Details the BEAM runtime, WebSocket gateways, and service discovery."
+        },
+        {
+          "title": "How Discord Stores Trillions of Messages",
+          "url": "https://discord.com/blog/how-discord-stores-trillions-of-messages",
+          "description": "Deep dive on message storage evolution from MongoDB to ScyllaDB."
+        },
+        {
+          "title": "How Discord Handles Two and Half Million Concurrent Voice Users",
+          "url": "https://medium.com/discord-engineering/how-discord-handles-two-and-half-million-concurrent-voice-users-using-webrtc-ce01c3187429",
+          "description": "Voice channel architecture with custom C++ SFU and WebRTC."
+        },
+        {
+          "title": "Using Rust to Scale Elixir for 11 Million Concurrent Users",
+          "url": "https://discord.com/blog/using-rust-to-scale-elixir-for-11-million-concurrent-users",
+          "description": "How Discord integrated Rust NIFs for memory and performance optimization."
+        },
+        {
+          "title": "How Discord Stores Trillions of Messages with High Performance",
+          "url": "https://blog.bytebytego.com/p/how-discord-stores-trillions-of-messages",
+          "description": "Technical analysis of ScyllaDB migration and request coalescing."
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "discord-chat",
+      "title": "Discord Real-Time Communication",
+      "description": "How Discord handles 19M+ servers and trillions of messages using Elixir, ScyllaDB, and custom C++ voice infrastructure.",
+      "type": "lesson",
+      "order": 1
+    }
+  ]
+}

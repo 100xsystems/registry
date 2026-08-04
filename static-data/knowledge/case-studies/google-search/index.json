@@ -1,0 +1,47 @@
+{
+  "slug": "google-search",
+  "name": "Google Search",
+  "description": "How Google handles 8.5B searches/day with Caffeine indexing, PageRank, and distributed infrastructure like Spanner and BigTable.",
+  "categories": [
+    {
+      "label": "References & Resources",
+      "icon": "book",
+      "items": [
+        {
+          "title": "How Google Search Works",
+          "url": "https://developers.google.com/search/docs/fundamentals/how-search-works",
+          "description": "Official guide to Google's search infrastructure."
+        },
+        {
+          "title": "Our New Search Index (Caffeine)",
+          "url": "https://developers.google.com/search/blog/2010/06/our-new-search-index-caffeine",
+          "description": "Technical details of the Caffeine indexing system."
+        },
+        {
+          "title": "A Guide to Google Search Ranking Systems",
+          "url": "https://developers.google.com/search/docs/appearance/ranking-systems-guide",
+          "description": "Overview of ranking systems including PageRank, RankBrain, BERT."
+        },
+        {
+          "title": "PageRank Algorithm",
+          "url": "https://en.wikipedia.org/wiki/PageRank",
+          "description": "Mathematical formulation and history of PageRank."
+        },
+        {
+          "title": "Google Knowledge Graph",
+          "url": "https://en.wikipedia.org/wiki/Knowledge_Graph_(Google)",
+          "description": "Architecture and scale of Google's knowledge base."
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "google-search",
+      "title": "Google Search",
+      "description": "How Google handles 8.5B searches/day with Caffeine indexing, PageRank, and distributed infrastructure like Spanner and BigTable.",
+      "type": "lesson",
+      "order": 1
+    }
+  ]
+}

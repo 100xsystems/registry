@@ -1,0 +1,36 @@
+{
+  "slug": "patterns",
+  "name": "Design Patterns",
+  "description": "Proven architectural patterns for common distributed-systems problems — consistent hashing, CQRS, circuit breakers, gateways.",
+  "categories": [],
+  "lessons": [
+    {
+      "slug": "patterns-api-gateway",
+      "title": "API Gateway & Rate Limiting",
+      "description": "Single entry point for APIs, request routing, authentication, rate limiting, and API management.",
+      "type": "lesson",
+      "order": 1
+    },
+    {
+      "slug": "patterns-circuit-breaker",
+      "title": "Patterns Circuit Breaker",
+      "description": "",
+      "type": "lesson",
+      "order": 2
+    },
+    {
+      "slug": "patterns-consistent-hashing",
+      "title": "Consistent Hashing & Sharding",
+      "description": "Distributing data across nodes without rehashing everything when nodes are added or removed.",
+      "type": "lesson",
+      "order": 3
+    },
+    {
+      "slug": "patterns-cqrs",
+      "title": "CQRS & Event Sourcing",
+      "description": "Separating read and write models for scalability, and storing state changes as immutable events.",
+      "type": "lesson",
+      "order": 4
+    }
+  ]
+}
