@@ -1,121 +1,170 @@
 ---
-{
-  "title": "Agent Observability",
-  "description": "Trace every thought, tool call and step — because agents fail in the middle, not the end.",
-  "type": "lesson",
-  "order": 15,
-  "duration": "55 min",
-  "difficulty": "advanced",
-  "learning_objectives": [
-    "Log complete agent traces",
-    "Visualize trajectories",
-    "Alert on stuck loops",
-    "Replay failures"
-  ],
-  "knowledge_refs": [
-    "ai-agents/agents-14-human-in-the-loop",
-    "llm-engineering/llm-11-llm-agents",
-    "generative-ai/genai-12-agents-and-tool-use"
-  ],
-  "prerequisites": [
-    "AGENTS-12: Evaluating Agents"
-  ],
-  "references": [
-    {
-      "title": "LangChain Agents",
-      "url": "https://python.langchain.com/docs/how_to/#agents",
-      "description": "Agent frameworks, tools and memory patterns."
-    },
-    {
-      "title": "OpenAI Agents Documentation",
-      "url": "https://platform.openai.com/docs/guides/agents",
-      "description": "Function calling and agent loop patterns."
-    },
-    {
-      "title": "ReAct: Synergizing Reasoning and Acting",
-      "url": "https://arxiv.org/abs/2210.03629",
-      "description": "The paper behind reasoning-acting agent loops."
-    },
-    {
-      "title": "Anthropic — Building Effective Agents",
-      "url": "https://www.anthropic.com/research/building-effective-agents",
-      "description": "A practical guide to agent architecture."
-    },
-    {
-      "title": "CrewAI Documentation",
-      "url": "https://docs.crewai.com/",
-      "description": "Multi-agent orchestration framework."
-    }
-  ]
-}
+slug: agents-15-agent-observability
+title: "Agent Observability"
+description: "How to trace, monitor, debug, and optimize AI agents in production using structured tracing and telemetry."
+order: 15
+tags:
+  - ai-agents
+  - observability
+  - tracing
+  - monitoring
+  - langsmith
+prerequisites:
+  - agents-02-agent-architecture
+  - agents-12-evaluating-agents
+references:
+  - title: "Agent Observability Platform"
+    author: "LangSmith"
+    url: "https://www.langchain.com/langsmith/observability"
+    type: "docs"
+    description: "Native tracing, monitoring dashboards, and cost/latency tracking for agents."
+  - title: "Agent Observability: Tracing, Testing, and Improving Agents"
+    author: "LangChain"
+    url: "https://www.langchain.com/resources/agent-observability"
+    type: "article"
+    description: "Comprehensive guide to instrumenting multi-step agents."
+  - title: "AI Agent Observability: Evolving Standards and Best Practices"
+    author: "OpenTelemetry"
+    url: "https://opentelemetry.io/blog/2025/ai-agent-observability/"
+    type: "article"
+    description: "GenAI SIG semantic conventions and multi-framework interoperability."
+  - title: "LangSmith Observability Documentation"
+    author: "LangChain"
+    url: "https://docs.langchain.com/langsmith/observability"
+    type: "docs"
+    description: "Technical documentation for setting up traces and analyzing metrics."
+  - title: "LangSmith Observability - OSS Python Guide"
+    author: "LangChain"
+    url: "https://docs.langchain.com/oss/python/langchain/observability"
+    type: "docs"
+    description: "Practical guide for enabling tracing with decorators and env vars."
+related_knowledge:
+  - slug: agents-12-evaluating-agents
+    title: "Evaluating Agents"
+    lesson_number: 12
+  - slug: agents-16-deploying-agents
+    title: "Deploying Agents"
+    lesson_number: 16
+  - slug: agents-19-agent-cost-and-scale
+    title: "Agent Cost & Scale"
+    lesson_number: 19
+knowledge_refs:
+  - slug: "mlops-14-monitoring-and-drift"
+    title: "Monitoring & Drift Detection"
+  - slug: "mlops-15-production-evaluation"
+    title: "Production Evaluation"
+  - slug: "mlops-16-cicd-for-ml"
+    title: "CI/CD for ML"
 ---
 
-# AGENTS-15-AGENT-OBSERVABILITY: Agent Observability
+# Agent Observability
 
-## Introduction
+Agent observability is the practice of understanding what your agents do, why they do it, and how well they perform — at every step of their execution. Unlike standard request-response logging, agent observability must capture multi-step reasoning loops, dynamic tool calls, and evolving state.
 
-Trace every thought, tool call and step — because agents fail in the middle, not the end. By the end of this lesson you will be able to: Log complete agent traces; Visualize trajectories; Alert on stuck loops; Replay failures.
+## Why Standard Logging Fails
 
-## Key Concepts
+When an agent invokes three tools, loops twice, and hallucinates a policy, traditional APM shows only the final output — not the journey. You need:
 
-### 1. Log complete agent traces
+- **Structured Tracing:** Every node in the execution tree instrumented
+- **Hierarchical Captures:** Parent-child relationships between reasoning steps, tool calls, and observations
+- **State Snapshots:** Captures of agent state at each decision point
 
-Target: Log complete agent traces. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+## Core Components of Agent Observability
 
-```python
-trace = {
-    "steps": [
-        {"thought": "...", "tool": "search", "args": "x", "result": "..."},
-    ],
-    "cost": 0.02,
-    "duration_ms": 1800,
-}
-print(trace)
-```
-### 2. Visualize trajectories
+### Structured Tracing
 
-Target: Visualize trajectories. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+Instrument every component of the agent loop:
 
-```python
-import time
+**LLM Invocations:**
+- Full prompts and completions
+- Token counts (input/output)
+- Latency per call
+- Model version used
 
-for i in range(3):
-    print(f"[trace] step {i}")
-    time.sleep(0.01)
-```
-### 3. Alert on stuck loops
+**Tool Calls:**
+- Selected tool name and arguments
+- Execution results and errors
+- Duration and token cost
 
-Target: Alert on stuck loops. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+**Retrieval Steps (RAG):**
+- Vector database queries
+- Retrieved documents and relevance scores
+- Reranking metadata
 
-```python
-print("alert: no progress after N steps")
-```
-### 4. Replay failures
+**State Changes:**
+- Memory reads and writes
+- Plan updates
+- Branching and looping decisions
 
-Target: Replay failures. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+### Threading
 
-```python
-print("replay: same task, same version, same failure")
-```
+Group related traces across conversations into threads. This enables evaluation of whether an agent achieved a user's goal over time, not just in isolated steps.
 
-## Practice Questions
+### Telemetry Standards
 
-1. What is the key idea behind "Agent Observability"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+The OpenTelemetry GenAI SIG defines semantic conventions for generative AI systems, ensuring interoperability across frameworks:
+- Standardized attributes for models, vector databases, and agents
+- Consistent metrics, traces, and logs regardless of framework
+- Both baked-in and external instrumentation approaches
 
-## LLM Prompts for Deeper Understanding
+## Debugging Agents
 
-1. "Explain Agent Observability with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Agent Observability"
-1. "Provide advanced patterns and performance considerations for Agent Observability"
+### Natural Language Debugging
+Modern tools like LangSmith's Polly allow engineers to query traces in natural language:
+> "Why did the agent enter an infinite loop in step 3?"
 
-## Key Takeaways
+The AI assistant parses through megabytes of nested traces to identify the issue.
 
-- Master the core ideas of Agent Observability through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+### Regression Detection
+Compare current agent behavior against historical baselines:
+- Did latency increase after a model update?
+- Are tool error rates rising?
+- Is the agent taking more steps to complete the same task?
 
-## Further Reading
+### Cost Attribution
+Track token usage and API costs per task, per user, per tool:
+- Which tools are most expensive?
+- Where are the token hotspots?
+- Can prompts be optimized to reduce cost?
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+## Continuous Evaluation (Evals)
+
+### LLM-as-Judge
+Automated evaluation of agent outputs for subjective criteria:
+- Tone and helpfulness
+- Plan coherence
+- Goal completion
+
+### Code-Based Evals
+Programmatic checks for objective criteria:
+- Response format compliance
+- Schema validation
+- Path convergence efficiency
+
+### The Improvement Loop
+Convert failing production traces into regression test cases. This ensures fixed bugs never regress and builds a comprehensive test suite from real-world failures.
+
+## Monitoring in Production
+
+### Key Metrics
+- **Task Completion Rate:** Are agents finishing their goals?
+- **Average Steps per Task:** Is efficiency improving?
+- **Error Rate by Tool:** Which tools need attention?
+- **P95 Latency:** How long do users wait?
+- **Cost per Task:** Are we staying within budget?
+
+### Alerting
+Set up alerts for:
+- Sudden increases in error rates
+- Anomalous token usage
+- Agent loops exceeding expected step counts
+- Tool invocation patterns outside normal ranges
+
+---
+
+*References:*
+1. LangSmith, "Agent Observability Platform." [Link](https://www.langchain.com/langsmith/observability)
+2. LangChain, "Agent Observability: Tracing, Testing, and Improving Agents." [Link](https://www.langchain.com/resources/agent-observability)
+3. OpenTelemetry, "AI Agent Observability: Evolving Standards." [Link](https://opentelemetry.io/blog/2025/ai-agent-observability/)
+4. LangChain, "LangSmith Observability Documentation." [Link](https://docs.langchain.com/langsmith/observability)
+5. LangChain, "LangSmith Observability - OSS Python Guide." [Link](https://docs.langchain.com/oss/python/langchain/observability)

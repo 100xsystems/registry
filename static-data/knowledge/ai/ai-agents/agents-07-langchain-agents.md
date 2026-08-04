@@ -1,121 +1,208 @@
 ---
-{
-  "title": "Building Agents with LangChain",
-  "description": "Compose agents with the LangChain ecosystem: tools, memory and executors.",
-  "type": "lesson",
-  "order": 7,
-  "duration": "60 min",
-  "difficulty": "advanced",
-  "learning_objectives": [
-    "Create tools with @tool",
-    "Bind tools to a chat model",
-    "Run an agent loop",
-    "Stream agent steps"
-  ],
-  "knowledge_refs": [
-    "ai-agents/agents-06-multi-agent-systems",
-    "llm-engineering/llm-11-llm-agents",
-    "generative-ai/genai-12-agents-and-tool-use"
-  ],
-  "prerequisites": [
-    "AGENTS-03: Tool Use & Function Calling"
-  ],
-  "references": [
-    {
-      "title": "LangChain Agents",
-      "url": "https://python.langchain.com/docs/how_to/#agents",
-      "description": "Agent frameworks, tools and memory patterns."
-    },
-    {
-      "title": "OpenAI Agents Documentation",
-      "url": "https://platform.openai.com/docs/guides/agents",
-      "description": "Function calling and agent loop patterns."
-    },
-    {
-      "title": "ReAct: Synergizing Reasoning and Acting",
-      "url": "https://arxiv.org/abs/2210.03629",
-      "description": "The paper behind reasoning-acting agent loops."
-    },
-    {
-      "title": "Anthropic — Building Effective Agents",
-      "url": "https://www.anthropic.com/research/building-effective-agents",
-      "description": "A practical guide to agent architecture."
-    },
-    {
-      "title": "CrewAI Documentation",
-      "url": "https://docs.crewai.com/",
-      "description": "Multi-agent orchestration framework."
-    }
-  ]
-}
+slug: agents-07-langchain-agents
+title: "Building Agents with LangChain"
+description: "Practical guide to building AI agents using LangChain, LangGraph, and the broader LangChain ecosystem."
+order: 7
+tags:
+  - ai-agents
+  - langchain
+  - langgraph
+  - agent-frameworks
+  - tool-integration
+prerequisites:
+  - agents-02-agent-architecture
+  - agents-03-tool-use
+references:
+  - title: "LangChain Documentation"
+    author: "LangChain"
+    url: "https://python.langchain.com/docs/"
+    type: "docs"
+    description: "Official LangChain documentation and tutorials."
+  - title: "LangGraph Documentation"
+    author: "LangChain"
+    url: "https://langchain-ai.github.io/langgraph/"
+    type: "docs"
+    description: "Documentation for LangGraph, the stateful agent orchestration framework."
+  - title: "LangChain Deep Agents"
+    author: "LangChain"
+    url: "https://docs.langchain.com/oss/python/deepagents/overview"
+    type: "docs"
+    description: "Advanced agent runtime with virtual filesystems and subagents."
+  - title: "LangGraph Multi-Agent Concepts"
+    author: "LangChain"
+    url: "https://langchain-ai.github.io/langgraph/concepts/multi_agent/"
+    type: "docs"
+    description: "Conceptual guide to multi-agent patterns in LangGraph."
+  - title: "Build a LangGraph Agent"
+    author: "LangChain"
+    url: "https://langchain-ai.github.io/langgraph/tutorials/introduction/"
+    type: "docs"
+    description: "Step-by-step tutorial for building agents with LangGraph."
+related_knowledge:
+  - slug: agents-02-agent-architecture
+    title: "Agent Architecture"
+    lesson_number: 2
+  - slug: agents-03-tool-use
+    title: "Tool Use"
+    lesson_number: 3
+  - slug: agents-06-multi-agent-systems
+    title: "Multi-Agent Systems"
+    lesson_number: 6
+knowledge_refs:
+  - slug: "llm-01-fundamentals-of-llms"
+    title: "Fundamentals of LLMs"
+  - slug: "genai-14-api-integration"
+    title: "API Integration"
+  - slug: "mlops-10-model-serving"
+    title: "Model Serving"
 ---
 
-# AGENTS-07-LANGCHAIN-AGENTS: Building Agents with LangChain
+# Building Agents with LangChain
 
-## Introduction
+LangChain is the most widely adopted open-source framework for building LLM-powered applications, including agents. Combined with LangGraph for stateful orchestration, it provides a comprehensive toolkit for production agent systems.
 
-Compose agents with the LangChain ecosystem: tools, memory and executors. By the end of this lesson you will be able to: Create tools with @tool; Bind tools to a chat model; Run an agent loop; Stream agent steps.
+## LangChain Core Concepts
 
-## Key Concepts
+### Models
+LangChain provides a unified interface for interacting with LLMs from multiple providers:
+- **ChatOpenAI:** GPT-4, GPT-4o, GPT-3.5-turbo
+- **ChatAnthropic:** Claude 3.5 Sonnet, Claude 3 Opus
+- **ChatGoogleGenerativeAI:** Gemini models
+- **Local models:** Via Ollama, LM Studio, or vLLM
 
-### 1. Create tools with @tool
+### Prompts
+Structured prompt templates with variable substitution:
+```python
+from langchain_core.prompts import ChatPromptTemplate
 
-Target: Create tools with @tool. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+prompt = ChatPromptTemplate.from_messages([
+    ("system", "You are a helpful assistant that {role}."),
+    ("human", "{input}")
+])
+```
+
+### Tools
+Tools are Python functions that agents can call. LangChain provides built-in tools and makes it easy to create custom ones:
 
 ```python
 from langchain_core.tools import tool
 
 @tool
-def multiply(a: float, b: float) -> float:
-    """Multiply two numbers."""
-    return a * b
-
-print(multiply.name, "|", multiply.description[:40])
+def search_web(query: str) -> str:
+    """Search the web for current information."""
+    # Implementation here
+    return results
 ```
-### 2. Bind tools to a chat model
 
-Target: Bind tools to a chat model. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+### Chains
+LangChain's core abstraction for combining prompts, models, and tools into pipelines:
+```python
+chain = prompt | model | output_parser
+result = chain.invoke({"role": "researcher", "input": "latest AI news"})
+```
+
+## Building Agents with LangGraph
+
+LangGraph is LangGraph's framework for building stateful, multi-step agent workflows. It models agent logic as a graph of nodes (functions) and edges (transitions).
+
+### Basic Agent
 
 ```python
+from langgraph.prebuilt import create_react_agent
 from langchain_openai import ChatOpenAI
 
-model = ChatOpenAI(model="gpt-4o-mini", temperature=0)
-print("model ready")
+model = ChatOpenAI(model="gpt-4o")
+agent = create_react_agent(model, tools=[search_web, read_file])
+result = agent.invoke({"messages": [("human", "What's trending in AI?")]})
 ```
-### 3. Run an agent loop
 
-Target: Run an agent loop. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+### Custom Agent with State
 
 ```python
-tools = [multiply]
-print("bound tools:", len(tools))
+from langgraph.graph import StateGraph, END
+from typing import TypedDict, Annotated
+
+class AgentState(TypedDict):
+    messages: list
+    next_step: str
+
+def researcher(state: AgentState):
+    # Research logic
+    return {"messages": state["messages"] + [research_result]}
+
+def writer(state: AgentState):
+    # Writing logic
+    return {"messages": state["messages"] + [written_content]}
+
+# Build the graph
+graph = StateGraph(AgentState)
+graph.add_node("researcher", researcher)
+graph.add_node("writer", writer)
+graph.add_edge("researcher", "writer")
+graph.add_edge("writer", END)
+graph.set_entry_point("researcher")
+
+app = graph.compile()
 ```
-### 4. Stream agent steps
 
-Target: Stream agent steps. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
-
+### Human-in-the-Loop
+LangGraph supports human approval before sensitive actions:
 ```python
-print("run: model decides tool calls, loop executes them")
+from langgraph.prebuilt import create_react_agent
+from langgraph.checkpoint.memory import MemorySaver
+
+agent = create_react_agent(
+    model, tools, checkpointer=MemorySaver()
+)
+
+# Before executing a sensitive tool, the agent pauses for human approval
 ```
 
-## Practice Questions
+## Deep Agents
 
-1. What is the key idea behind "Building Agents with LangChain"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+LangChain's Deep Agents framework extends basic agent capabilities:
+- **Virtual Filesystem:** Agents can read, write, and manage files in a sandboxed environment
+- **Subagents:** Spawn specialized workers for subtasks
+- **Todo Lists:** Built-in task tracking and progress management
+- **Context Management:** Automatic summarization and context pruning for long-running tasks
 
-## LLM Prompts for Deeper Understanding
+## Production Considerations
 
-1. "Explain Building Agents with LangChain with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Building Agents with LangChain"
-1. "Provide advanced patterns and performance considerations for Building Agents with LangChain"
+### Tracing with LangSmith
+LangSmith provides observability for agent execution:
+- Track every LLM call, tool invocation, and decision
+- Debug agent behavior step-by-step
+- Monitor latency, token usage, and costs
+- Evaluate agent quality with human feedback
 
-## Key Takeaways
+### Error Handling
+Robust agents need comprehensive error handling:
+```python
+@tool
+def safe_api_call(url: str) -> str:
+    """Make an API call with error handling."""
+    try:
+        response = requests.get(url, timeout=10)
+        response.raise_for_status()
+        return response.json()
+    except requests.RequestException as e:
+        return f"Error: {str(e)}"
+```
 
-- Master the core ideas of Building Agents with LangChain through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+### Memory Management
+For long-running agents, implement memory to maintain context:
+```python
+from langgraph.checkpoint.memory import MemorySaver
 
-## Further Reading
+memory = MemorySaver()
+agent = create_react_agent(model, tools, checkpointer=memory)
+```
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+---
+
+*References:*
+1. LangChain, "LangChain Documentation." [Link](https://python.langchain.com/docs/)
+2. LangChain, "LangGraph Documentation." [Link](https://langchain-ai.github.io/langgraph/)
+3. LangChain, "LangChain Deep Agents." [Link](https://docs.langchain.com/oss/python/deepagents/overview)
+4. LangChain, "LangGraph Multi-Agent Concepts." [Link](https://langchain-ai.github.io/langgraph/concepts/multi_agent/)
+5. LangChain, "Build a LangGraph Agent Tutorial." [Link](https://langchain-ai.github.io/langgraph/tutorials/introduction/)

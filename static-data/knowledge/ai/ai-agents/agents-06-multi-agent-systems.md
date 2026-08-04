@@ -1,119 +1,172 @@
 ---
-{
-  "title": "Multi-Agent Systems",
-  "description": "Specialized agents that collaborate: orchestrators, workers and handoffs.",
-  "type": "lesson",
-  "order": 6,
-  "duration": "60 min",
-  "difficulty": "advanced",
-  "learning_objectives": [
-    "Design an orchestrator-worker pattern",
-    "Implement handoffs between agents",
-    "Coordinate shared state",
-    "Avoid over-engineering with many agents"
-  ],
-  "knowledge_refs": [
-    "ai-agents/agents-05-memory-systems",
-    "reinforcement-learning/rl-16-multi-agent-rl",
-    "llm-engineering/llm-11-llm-agents"
-  ],
-  "prerequisites": [
-    "AGENTS-05: Agent Memory Systems"
-  ],
-  "references": [
-    {
-      "title": "LangChain Agents",
-      "url": "https://python.langchain.com/docs/how_to/#agents",
-      "description": "Agent frameworks, tools and memory patterns."
-    },
-    {
-      "title": "OpenAI Agents Documentation",
-      "url": "https://platform.openai.com/docs/guides/agents",
-      "description": "Function calling and agent loop patterns."
-    },
-    {
-      "title": "ReAct: Synergizing Reasoning and Acting",
-      "url": "https://arxiv.org/abs/2210.03629",
-      "description": "The paper behind reasoning-acting agent loops."
-    },
-    {
-      "title": "Anthropic — Building Effective Agents",
-      "url": "https://www.anthropic.com/research/building-effective-agents",
-      "description": "A practical guide to agent architecture."
-    },
-    {
-      "title": "CrewAI Documentation",
-      "url": "https://docs.crewai.com/",
-      "description": "Multi-agent orchestration framework."
-    }
-  ]
-}
+slug: agents-06-multi-agent-systems
+title: "Multi-Agent Systems"
+description: "How multiple AI agents collaborate, communicate, and coordinate to solve complex problems beyond single-agent capabilities."
+order: 6
+tags:
+  - ai-agents
+  - multi-agent
+  - collaboration
+  - communication
+  - swarm-intelligence
+prerequisites:
+  - agents-02-agent-architecture
+  - agents-05-memory-systems
+references:
+  - title: "Multi-Agent Systems: A Survey"
+    author: "Da Xu et al."
+    url: "https://arxiv.org/abs/2502.07373"
+    type: "paper"
+    description: "Comprehensive survey of multi-agent system architectures and design patterns."
+  - title: "Cognitive Architectures for Language Agents"
+    author: "Theodore Sumers et al."
+    url: "https://arxiv.org/abs/2309.02427"
+    type: "paper"
+    description: "Proposes cognitive architecture framework including multi-agent coordination."
+  - title: "LangGraph Multi-Agent Systems Documentation"
+    author: "LangChain"
+    url: "https://langchain-ai.github.io/langgraph/concepts/multi_agent/"
+    type: "docs"
+    description: "Practical guide to implementing multi-agent systems with LangGraph."
+  - title: "Building Effective Agents"
+    author: "Anthropic Engineering"
+    url: "https://www.anthropic.com/engineering/building-effective-agents"
+    type: "article"
+    description: "Covers orchestrator-workers pattern and multi-agent coordination."
+  - title: "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation"
+    author: "Qingyun Wu et al. (Microsoft)"
+    url: "https://arxiv.org/abs/2308.08155"
+    type: "paper"
+    description: "Framework for multi-agent conversation and collaborative problem-solving."
+related_knowledge:
+  - slug: agents-02-agent-architecture
+    title: "Agent Architecture"
+    lesson_number: 2
+  - slug: agents-05-memory-systems
+    title: "Memory Systems"
+    lesson_number: 5
+  - slug: agents-17-agent-design-patterns
+    title: "Agent Design Patterns"
+    lesson_number: 17
+knowledge_refs:
+  - slug: "genai-12-multiple-models"
+    title: "Multiple Models"
+  - slug: "dl-19-model-compression"
+    title: "Model Compression"
+  - slug: "llm-03-tokenization"
+    title: "Tokenization"
 ---
 
-# AGENTS-06-MULTI-AGENT-SYSTEMS: Multi-Agent Systems
+# Multi-Agent Systems
 
-## Introduction
+When a single agent hits complexity bottlenecks — context limits, domain expertise requirements, or coordination challenges — multi-agent systems distribute the workload across specialized agents that collaborate to achieve shared goals.
 
-Specialized agents that collaborate: orchestrators, workers and handoffs. By the end of this lesson you will be able to: Design an orchestrator-worker pattern; Implement handoffs between agents; Coordinate shared state; Avoid over-engineering with many agents.
+## Why Multi-Agent?
 
-## Key Concepts
+Single-agent systems face inherent limitations:
+- **Context Window Constraints:** A single agent's context fills quickly with tool outputs, code, and reasoning traces.
+- **Domain Expertise:** One agent trying to be an expert in everything becomes a generalist at nothing.
+- **Parallelism:** Many tasks can execute simultaneously if distributed across agents.
+- **Reliability:** Multiple agents can cross-check each other's work, catching errors a single agent might miss.
 
-### 1. Design an orchestrator-worker pattern
+## Architecture Patterns
 
-Target: Design an orchestrator-worker pattern. Start with the foundations — read the runnable example carefully and trace its output before moving on.
-
-```python
-roles = {
-    "orchestrator": "routes work",
-    "researcher": "gathers facts",
-    "writer": "produces output",
-}
-print(roles)
+### Sequential Pipeline
+Agents process tasks in a linear chain, each specializing in one step:
 ```
-### 2. Implement handoffs between agents
-
-Target: Implement handoffs between agents. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
-
-```python
-from crewai import Agent, Task, Crew
-
-researcher = Agent(role="researcher", goal="find facts", backstory="curious")
-crew = Crew(agents=[researcher], tasks=[Task(description="research X", agent=researcher)])
-print("crew ready")
+User Request → Research Agent → Writing Agent → Review Agent → Final Output
 ```
-### 3. Coordinate shared state
+Each agent receives the output of the previous one and adds its expertise.
 
-Target: Coordinate shared state. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
-
-```python
-print("handoff: one agent delegates to another with context")
+### Parallel Workers
+Multiple agents work simultaneously on independent subtasks:
 ```
-### 4. Avoid over-engineering with many agents
-
-Target: Avoid over-engineering with many agents. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
-
-```python
-print("more agents = more failure modes; start with one")
+User Request → Orchestrator
+                 ├── Agent A: Research topic X
+                 ├── Agent B: Research topic Y
+                 └── Agent C: Research topic Z
+              → Merge Results → Final Output
 ```
+The orchestrator delegates, collects, and synthesizes results.
 
-## Practice Questions
+### Evaluator-Optimizer (Generator-Critic)
+One agent generates, another critiques, iterating until quality thresholds are met:
+```
+Generator Agent → Output → Critic Agent → Feedback
+       ↑                              │
+       └──────────────────────────────┘
+              (repeat until satisfied)
+```
+This pattern is effective for tasks requiring iterative refinement — writing, code review, or design.
 
-1. What is the key idea behind "Multi-Agent Systems"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+### Hierarchical (Orchestrator-Workers)
+A coordinator agent dynamically breaks down goals and delegates to specialized workers:
+```
+Orchestrator
+  ├── Worker Agent (Research)
+  ├── Worker Agent (Data Analysis)
+  ├── Worker Agent (Code Writing)
+  └── Worker Agent (Verification)
+```
+The orchestrator maintains the overall plan while workers focus on execution.
 
-## LLM Prompts for Deeper Understanding
+## Communication Patterns
 
-1. "Explain Multi-Agent Systems with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Multi-Agent Systems"
-1. "Provide advanced patterns and performance considerations for Multi-Agent Systems"
+### Direct Communication
+Agents talk to each other directly, sharing information as needed. Simple but can become chaotic with many agents.
 
-## Key Takeaways
+### Shared State
+All agents read and write to a shared memory or state store. Enables loose coupling but requires careful conflict resolution.
 
-- Master the core ideas of Multi-Agent Systems through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+### Message Passing
+Agents communicate through structured messages, often mediated by an orchestrator. Provides clear boundaries and audit trails.
 
-## Further Reading
+### Blackboard Architecture
+A shared "blackboard" where agents post observations and solutions. Any agent can read the blackboard and contribute based on its expertise.
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+## The Supervisor Pattern
+
+In production multi-agent systems, the **supervisor** pattern is dominant:
+- A central agent (the supervisor) manages the workflow
+- It decides which worker agents to invoke and when
+- It handles error recovery and task reassignment
+- It synthesizes final results from worker outputs
+
+This mirrors how human teams operate: a project manager coordinates specialists rather than everyone trying to do everything.
+
+## Challenges in Multi-Agent Systems
+
+### Coordination Overhead
+More agents mean more communication, which consumes tokens and adds latency. The overhead can outweigh benefits for simple tasks.
+
+### Consistency
+Ensuring agents don't contradict each other or produce conflicting outputs requires careful design of shared state and communication protocols.
+
+### Error Propagation
+A mistake by one agent can cascade through the system. Robust multi-agent systems include verification steps and cross-checking mechanisms.
+
+### Debugging Complexity
+When multiple agents interact, tracing the source of an error becomes significantly harder. Comprehensive logging and observability are essential.
+
+## When to Use Multi-Agent
+
+**Use multi-agent when:**
+- Tasks are naturally decomposable into independent subtasks
+- Different parts require different expertise
+- Parallelism would significantly reduce latency
+- Cross-validation improves reliability
+
+**Stick with single-agent when:**
+- Tasks are simple and linear
+- Latency is critical
+- The overhead of coordination outweighs benefits
+- The problem doesn't benefit from domain specialization
+
+---
+
+*References:*
+1. Da Xu et al., "Multi-Agent Systems: A Survey," 2025. [Link](https://arxiv.org/abs/2502.07373)
+2. Theodore Sumers et al., "Cognitive Architectures for Language Agents," 2023. [Link](https://arxiv.org/abs/2309.02427)
+3. LangChain, "LangGraph Multi-Agent Systems." [Link](https://langchain-ai.github.io/langgraph/concepts/multi_agent/)
+4. Anthropic Engineering, "Building Effective Agents." [Link](https://www.anthropic.com/engineering/building-effective-agents)
+5. Qingyun Wu et al., "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation," Microsoft, 2023. [Link](https://arxiv.org/abs/2308.08155)

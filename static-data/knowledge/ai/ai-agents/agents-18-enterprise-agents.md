@@ -1,111 +1,145 @@
 ---
-{
-  "title": "Enterprise Agent Applications",
-  "description": "Support, HR, finance and knowledge agents inside real organizations.",
-  "type": "lesson",
-  "order": 18,
-  "duration": "55 min",
-  "difficulty": "advanced",
-  "learning_objectives": [
-    "Design a support agent with escalation",
-    "Integrate with enterprise systems",
-    "Handle permissions and access control",
-    "Measure business outcomes"
-  ],
-  "knowledge_refs": [
-    "ai-agents/agents-17-agent-design-patterns",
-    "llm-engineering/llm-11-llm-agents",
-    "generative-ai/genai-12-agents-and-tool-use"
-  ],
-  "prerequisites": [
-    "AGENTS-14: Human-in-the-Loop Patterns"
-  ],
-  "references": [
-    {
-      "title": "LangChain Agents",
-      "url": "https://python.langchain.com/docs/how_to/#agents",
-      "description": "Agent frameworks, tools and memory patterns."
-    },
-    {
-      "title": "OpenAI Agents Documentation",
-      "url": "https://platform.openai.com/docs/guides/agents",
-      "description": "Function calling and agent loop patterns."
-    },
-    {
-      "title": "ReAct: Synergizing Reasoning and Acting",
-      "url": "https://arxiv.org/abs/2210.03629",
-      "description": "The paper behind reasoning-acting agent loops."
-    },
-    {
-      "title": "Anthropic — Building Effective Agents",
-      "url": "https://www.anthropic.com/research/building-effective-agents",
-      "description": "A practical guide to agent architecture."
-    },
-    {
-      "title": "CrewAI Documentation",
-      "url": "https://docs.crewai.com/",
-      "description": "Multi-agent orchestration framework."
-    }
-  ]
-}
+slug: agents-18-enterprise-agents
+title: "Enterprise Agent Applications"
+description: "How organizations deploy AI agents for customer support, data analysis, process automation, and compliance."
+order: 18
+tags:
+  - ai-agents
+  - enterprise
+  - customer-support
+  - process-automation
+  - compliance
+prerequisites:
+  - agents-16-deploying-agents
+  - agents-17-agent-design-patterns
+references:
+  - title: "AI Agent Use Cases"
+    author: "IBM"
+    url: "https://www.ibm.com/think/topics/ai-agent-use-cases"
+    type: "article"
+    description: "Agentic AI across banking, healthcare, customer experience, and supply chain."
+  - title: "10 AI Agent Use Cases Transforming Enterprises in 2026"
+    author: "Sema4.ai"
+    url: "https://sema4.ai/blog/ai-agent-use-cases/"
+    type: "article"
+    description: "Functional enterprise deployments reducing task handling time by 60-80%."
+  - title: "Enterprise AI Agents: Use Cases, Benefits & Impact"
+    author: "Accelirate"
+    url: "https://www.accelirate.com/enterprise-ai-agents/"
+    type: "article"
+    description: "Core architecture components and business ROI analysis."
+  - title: "Secure AI Agents in the Enterprise"
+    author: "Lasso Security"
+    url: "https://www.lasso.security/blog/how-to-secure-ai-agents-in-the-enterprise-visibility-governance-risk-control/"
+    type: "article"
+    description: "Comparing traditional automation vs. AI agents and analyzing threat surfaces."
+  - title: "The Future of Enterprise AI Agents"
+    author: "Gartner"
+    url: "https://www.gartner.com/en/articles/intelligent-agent-in-ai"
+    type: "article"
+    description: "Industry analysis of agent adoption trends and enterprise readiness."
+related_knowledge:
+  - slug: agents-16-deploying-agents
+    title: "Deploying Agents"
+    lesson_number: 16
+  - slug: agents-13-safety-and-control
+    title: "Agent Safety & Control"
+    lesson_number: 13
+  - slug: agents-06-multi-agent-systems
+    title: "Multi-Agent Systems"
+    lesson_number: 6
+knowledge_refs:
+  - slug: "ai-safety-08-governance"
+    title: "AI Governance"
+  - slug: "mlops-18-governance"
+    title: "Data & Model Governance"
+  - slug: "genai-14-api-integration"
+    title: "API Integration"
 ---
 
-# AGENTS-18-ENTERPRISE-AGENTS: Enterprise Agent Applications
+# Enterprise Agent Applications
 
-## Introduction
+Enterprise AI agents represent a fundamental shift from chatbots and deterministic automation. They plan, reason, use tools, maintain memory, and chain multi-step workflows across complex enterprise systems — CRMs, ERPs, SaaS platforms, and databases.
 
-Support, HR, finance and knowledge agents inside real organizations. By the end of this lesson you will be able to: Design a support agent with escalation; Integrate with enterprise systems; Handle permissions and access control; Measure business outcomes.
+## Key Enterprise Use Cases
 
-## Key Concepts
+### Customer Support Agents
+Autonomously triaging tickets, handling order tracking, parsing customer history across multiple databases, executing refunds or rebookings, and routing complex issues to humans.
 
-### 1. Design a support agent with escalation
+**Impact:** Reduces routine ticket handling time by 60-80% while maintaining 24/7 service quality.
 
-Target: Design a support agent with escalation. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+### Data Analysis Agents
+Democratizing data access by allowing non-technical users to query data warehouses using natural language:
+> "What was last quarter's churn by region?"
 
-```python
-support_flow = ["classify intent", "retrieve KB", "answer or escalate"]
-print(support_flow)
-```
-### 2. Integrate with enterprise systems
+The agent translates natural language to SQL, executes queries, and presents findings with visualizations.
 
-Target: Integrate with enterprise systems. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+### Process Automation
+Coordinating multi-step workflows spanning business silos:
+- **Employee onboarding:** HR → IT provisioning → Facilities → Payroll
+- **Procurement:** Quotes → Financial approvals → Vendor communication
 
-```python
-print("permissions: the agent can only see what the user can see")
-```
-### 3. Handle permissions and access control
+**Impact:** Cuts process cycle times by 70-80% with complete audit trails.
 
-Target: Handle permissions and access control. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+### Compliance & Risk Agents
+Performing continuous automated risk audits:
+- KYC (Know Your Customer) checks
+- Invoice reconciliation
+- Contract review (flagging non-standard clauses)
+- Regulatory adherence monitoring
 
-```python
-print("integrations: ticketing, CRM, docs, knowledge bases")
-```
-### 4. Measure business outcomes
+**Impact:** Reduces invoice processing times by 70-90% in regulated sectors.
 
-Target: Measure business outcomes. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+### Sales & Marketing Agents
+- Lead qualification and behavioral scoring
+- Personalized multichannel outreach
+- Campaign performance reporting
+- Content generation and optimization
 
-```python
-print("outcomes: resolution time, CSAT, cost per ticket")
-```
+### HR & Supply Chain Agents
+- Resume screening and interview scheduling (reduces time-to-hire by ~50%)
+- Real-time inventory monitoring
+- Predictive equipment maintenance (reduces unplanned downtime by 30-40%)
+- Automated supplier reordering
 
-## Practice Questions
+## Enterprise Architecture
 
-1. What is the key idea behind "Enterprise Agent Applications"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+Enterprise agents require robust architectures:
 
-## LLM Prompts for Deeper Understanding
+1. **NLU/LLM Reasoning Layer:** Interprets intent and unstructured inputs
+2. **Decision Engine:** Plans execution steps based on context and policies
+3. **Knowledge Base (RAG):** Connects to internal documents and procedures
+4. **Integration Layer:** Links to SaaS via secure OAuth and APIs
+5. **Monitoring & Feedback:** Tracks accuracy and enables self-correction
 
-1. "Explain Enterprise Agent Applications with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Enterprise Agent Applications"
-1. "Provide advanced patterns and performance considerations for Enterprise Agent Applications"
+## Security and Compliance
 
-## Key Takeaways
+Enterprise agents introduce unique security challenges:
 
-- Master the core ideas of Enterprise Agent Applications through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+- **Prompt Injection:** Attackers manipulate instructions via inputs or retrieved documents
+- **Permission Sprawl:** Agents inherit broad OAuth scopes across platforms
+- **Audit Requirements:** Must align with NIST AI RMF, ISO 42001, GDPR/HIPAA
 
-## Further Reading
+### Defense Strategies
+- Strict least-privilege access controls
+- Detailed audit logging of every agent action
+- Input/output validation layers
+- Human-in-the-loop for high-stakes decisions
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+## Measuring ROI
+
+Track these metrics to justify agent investments:
+- **Time saved:** Hours of manual work eliminated per week
+- **Error reduction:** Decrease in processing errors
+- **Customer satisfaction:** CSAT scores before and after
+- **Cost per transaction:** Total cost of agent vs. human handling
+- **Throughput:** Volume of tasks processed per hour
+
+---
+
+*References:*
+1. IBM, "AI Agent Use Cases." [Link](https://www.ibm.com/think/topics/ai-agent-use-cases)
+2. Sema4.ai, "10 AI Agent Use Cases Transforming Enterprises in 2026." [Link](https://sema4.ai/blog/ai-agent-use-cases/)
+3. Accelirate, "Enterprise AI Agents: Use Cases, Benefits & Impact." [Link](https://www.accelirate.com/enterprise-ai-agents/)
+4. Lasso Security, "Secure AI Agents in the Enterprise." [Link](https://www.lasso.security/blog/how-to-secure-ai-agents-in-the-enterprise-visibility-governance-risk-control/)
+5. Gartner, "The Future of Enterprise AI Agents." [Link](https://www.gartner.com/en/articles/intelligent-agent-in-ai)

@@ -1,113 +1,179 @@
 ---
-{
-  "title": "Human-in-the-Loop Patterns",
-  "description": "Design agents that escalate and collaborate with people instead of acting alone.",
-  "type": "lesson",
-  "order": 14,
-  "duration": "50 min",
-  "difficulty": "intermediate",
-  "learning_objectives": [
-    "Design escalation triggers",
-    "Support approval workflows",
-    "Collect corrections",
-    "Learn from human feedback"
-  ],
-  "knowledge_refs": [
-    "ai-agents/agents-13-safety-and-control",
-    "llm-engineering/llm-11-llm-agents",
-    "generative-ai/genai-12-agents-and-tool-use"
-  ],
-  "prerequisites": [
-    "AGENTS-13: Agent Safety & Control"
-  ],
-  "references": [
-    {
-      "title": "LangChain Agents",
-      "url": "https://python.langchain.com/docs/how_to/#agents",
-      "description": "Agent frameworks, tools and memory patterns."
-    },
-    {
-      "title": "OpenAI Agents Documentation",
-      "url": "https://platform.openai.com/docs/guides/agents",
-      "description": "Function calling and agent loop patterns."
-    },
-    {
-      "title": "ReAct: Synergizing Reasoning and Acting",
-      "url": "https://arxiv.org/abs/2210.03629",
-      "description": "The paper behind reasoning-acting agent loops."
-    },
-    {
-      "title": "Anthropic — Building Effective Agents",
-      "url": "https://www.anthropic.com/research/building-effective-agents",
-      "description": "A practical guide to agent architecture."
-    },
-    {
-      "title": "CrewAI Documentation",
-      "url": "https://docs.crewai.com/",
-      "description": "Multi-agent orchestration framework."
-    }
-  ]
-}
+slug: agents-14-human-in-the-loop
+title: "Human-in-the-Loop Patterns"
+description: "How to integrate human oversight, approval workflows, and feedback loops into AI agent systems."
+order: 14
+tags:
+  - ai-agents
+  - human-in-the-loop
+  - approval-workflows
+  - feedback-loops
+  - mixed-initiative
+prerequisites:
+  - agents-13-safety-and-control
+  - agents-06-multi-agent-systems
+references:
+  - title: "Human-in-the-Loop for AI Agents"
+    author: "LangChain"
+    url: "https://python.langchain.com/docs/how_to/human_in_the_loop/"
+    type: "docs"
+    description: "Practical guide to implementing human approval in LangGraph agents."
+  - title: "Building Effective Agents"
+    author: "Anthropic Engineering"
+    url: "https://www.anthropic.com/engineering/building-effective-agents"
+    type: "article"
+    description: "Covers human-in-the-loop patterns in agent architecture."
+  - title: "Human-in-the-loop machine learning: a survey"
+    author: "Dustin Arendt et al."
+    url: "https://arxiv.org/abs/2108.05234"
+    type: "paper"
+    description: "Comprehensive survey of HITL paradigms and design patterns."
+  - title: "Mixed-Initiative Interaction"
+    author: "Eric Horvitz"
+    url: "https://www.microsoft.com/en-us/research/publication/principles-of-mixed-initiative-user-interfaces/"
+    type: "paper"
+    description: "Foundational work on mixed-initiative interaction design."
+  - title: "Letta: Stateful LLM Agents with Human-in-the-Loop"
+    author: "Letta"
+    url: "https://docs.letta.com/"
+    type: "docs"
+    description: "Framework for stateful agents with human approval checkpoints."
+related_knowledge:
+  - slug: agents-13-safety-and-control
+    title: "Agent Safety & Control"
+    lesson_number: 13
+  - slug: agents-12-evaluating-agents
+    title: "Evaluating Agents"
+    lesson_number: 12
+  - slug: agents-15-agent-observability
+    title: "Agent Observability"
+    lesson_number: 15
+knowledge_refs:
+  - slug: "ai-safety-17-values-alignment"
+    title: "Values Alignment"
+  - slug: "ai-safety-04-alignment"
+    title: "Alignment"
+  - slug: "llm-06-fine-tuning"
+    title: "Fine-Tuning"
 ---
 
-# AGENTS-14-HUMAN-IN-THE-LOOP: Human-in-the-Loop Patterns
+# Human-in-the-Loop Patterns
 
-## Introduction
+Human-in-the-Loop (HITL) ensures that AI agents remain under human control for critical decisions. Rather than fully autonomous execution, HITL patterns insert human oversight at strategic points — balancing efficiency with safety and accountability.
 
-Design agents that escalate and collaborate with people instead of acting alone. By the end of this lesson you will be able to: Design escalation triggers; Support approval workflows; Collect corrections; Learn from human feedback.
+## When HITL Is Necessary
 
-## Key Concepts
+Not every agent action requires human oversight. The key is identifying which actions are:
+- **Irreversible:** Deleting data, sending emails, making payments
+- **High-impact:** Changes affecting many users or systems
+- **Ambiguous:** Situations where the agent's confidence is low
+- **Regulatory:** Actions subject to compliance requirements
 
-### 1. Design escalation triggers
+## Core HITL Patterns
 
-Target: Design escalation triggers. Start with the foundations — read the runnable example carefully and trace its output before moving on.
-
-```python
-def maybe_escalate(confidence):
-    return "human" if confidence < 0.7 else "agent"
-
-print(maybe_escalate(0.5))
+### Approval Checkpoints
+The agent pauses before executing a sensitive action and waits for human approval:
 ```
-### 2. Support approval workflows
+Agent: "I found a bug in the authentication module. 
+        Shall I fix it by adding input validation?"
+        
+Human: [Approve] [Reject] [Modify]
 
-Target: Support approval workflows. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
-
-```python
-print("corrections become training data and eval cases")
-```
-### 3. Collect corrections
-
-Target: Collect corrections. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
-
-```python
-print("approval: agent proposes, human disposes")
-```
-### 4. Learn from human feedback
-
-Target: Learn from human feedback. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
-
-```python
-print("feedback loop: every escalation is a reviewable event")
+Agent: Applies the fix only after approval.
 ```
 
-## Practice Questions
+### Interactive Correction
+The agent presents its plan or draft output, and the human refines it before final execution:
+```
+Agent: "Here's my research summary. Should I:
+        1. Add more detail on the performance section?
+        2. Remove the technical appendix?
+        3. Proceed as-is?"
 
-1. What is the key idea behind "Human-in-the-Loop Patterns"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+Human: "Add more detail on performance, keep the appendix."
+```
 
-## LLM Prompts for Deeper Understanding
+### Mixed-Initiative
+Both agent and human can initiate actions at any time:
+- Agent suggests improvements while human works
+- Human can override agent decisions mid-task
+- Agent can flag issues for human attention
 
-1. "Explain Human-in-the-Loop Patterns with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Human-in-the-Loop Patterns"
-1. "Provide advanced patterns and performance considerations for Human-in-the-Loop Patterns"
+### Feedback Loops
+Humans provide feedback that the agent uses to improve:
+- **Corrective feedback:** "That's wrong — use this approach instead"
+- **Preferential feedback:** "I like this style, but not that one"
+- **Implicit feedback:** Accepting or rejecting suggestions over time
 
-## Key Takeaways
+## Implementation in LangGraph
 
-- Master the core ideas of Human-in-the-Loop Patterns through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+```python
+from langgraph.prebuilt import create_react_agent
+from langgraph.checkpoint.memory import MemorySaver
+from langchain_anthropic import ChatAnthropic
 
-## Further Reading
+model = ChatAnthropic(model="claude-sonnet-4-20250514")
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+# Enable interrupt_before for sensitive tools
+agent = create_react_agent(
+    model, tools=[send_email, delete_file, run_query],
+    checkpointer=MemorySaver(),
+    interrupt_before=["send_email", "delete_file"]  # Pause before these tools
+)
+
+# Run the agent
+config = {"configurable": {"thread_id": "1"}}
+result = agent.invoke({"messages": [("human", "Send a summary to the team")]})
+
+# Agent pauses before send_email — human reviews
+# Human approves or rejects
+agent.invoke(None, config)  # Continue after human decision
+```
+
+## Design Principles
+
+### Fail-Closed by Default
+When in doubt, don't execute. Timeouts should equal auto-reject, never auto-approve.
+
+### Granular Permissions
+Different actions require different levels of oversight:
+- **Auto-execute:** Read-only operations, low-risk queries
+- **Notify:** Non-critical actions (logging, caching)
+- **Approve:** Destructive actions, external communications
+- **Block:** Actions outside allowed scope
+
+### Transparent Reasoning
+When pausing for human input, the agent should clearly explain:
+- What it plans to do
+- Why this action requires approval
+- What the risks are
+- What alternatives exist
+
+### Minimal Friction
+HITL should add safety without crippling usability:
+- Batch similar approvals together
+- Remember human preferences for recurring decisions
+- Allow delegation (approve once, apply to similar future cases)
+
+## Scaling HITL
+
+### Tiered Review
+Route different actions to different review levels:
+- **Automated checks** for routine actions
+- **Junior reviewer** for moderate-risk actions
+- **Senior reviewer** for high-impact actions
+
+### Asynchronous Review
+For non-urgent actions, queue decisions for human review:
+- Agent continues with other work
+- Human reviews at their convenience
+- Agent resumes after approval
+
+---
+
+*References:*
+1. LangChain, "Human-in-the-Loop for AI Agents." [Link](https://python.langchain.com/docs/how_to/human_in_the_loop/)
+2. Anthropic Engineering, "Building Effective Agents." [Link](https://www.anthropic.com/engineering/building-effective-agents)
+3. Dustin Arendt et al., "Human-in-the-loop machine learning: a survey," 2021. [Link](https://arxiv.org/abs/2108.05234)
+4. Eric Horvitz, "Principles of Mixed-Initiative User Interfaces," Microsoft Research. [Link](https://www.microsoft.com/en-us/research/publication/principles-of-mixed-initiative-user-interfaces/)
+5. Letta, "Stateful LLM Agents with Human-in-the-Loop." [Link](https://docs.letta.com/)

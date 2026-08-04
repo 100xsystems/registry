@@ -1,111 +1,136 @@
 ---
-{
-  "title": "Agent Safety & Control",
-  "description": "Constrain autonomy: limits, approvals, sandboxes and fail-safes.",
-  "type": "lesson",
-  "order": 13,
-  "duration": "55 min",
-  "difficulty": "advanced",
-  "learning_objectives": [
-    "Design autonomy limits",
-    "Require human approval for risky actions",
-    "Sandbox tool execution",
-    "Add circuit breakers"
-  ],
-  "knowledge_refs": [
-    "ai-agents/agents-12-evaluating-agents",
-    "ai-safety/safety-21-roadmap",
-    "ai-safety/safety-01-why-ai-safety"
-  ],
-  "prerequisites": [
-    "AGENTS-06: Multi-Agent Systems"
-  ],
-  "references": [
-    {
-      "title": "LangChain Agents",
-      "url": "https://python.langchain.com/docs/how_to/#agents",
-      "description": "Agent frameworks, tools and memory patterns."
-    },
-    {
-      "title": "OpenAI Agents Documentation",
-      "url": "https://platform.openai.com/docs/guides/agents",
-      "description": "Function calling and agent loop patterns."
-    },
-    {
-      "title": "ReAct: Synergizing Reasoning and Acting",
-      "url": "https://arxiv.org/abs/2210.03629",
-      "description": "The paper behind reasoning-acting agent loops."
-    },
-    {
-      "title": "Anthropic — Building Effective Agents",
-      "url": "https://www.anthropic.com/research/building-effective-agents",
-      "description": "A practical guide to agent architecture."
-    },
-    {
-      "title": "CrewAI Documentation",
-      "url": "https://docs.crewai.com/",
-      "description": "Multi-agent orchestration framework."
-    }
-  ]
-}
+slug: agents-13-safety-and-control
+title: "Agent Safety & Control"
+description: "How to keep AI agents safe through guardrails, sandboxing, permission systems, and output validation."
+order: 13
+tags:
+  - ai-agents
+  - safety
+  - guardrails
+  - sandboxing
+  - permission-systems
+prerequisites:
+  - agents-01-what-are-ai-agents
+  - agents-03-tool-use
+references:
+  - title: "AI Agent Security Cheat Sheet"
+    author: "OWASP"
+    url: "https://cheatsheetseries.owasp.org/cheatsheets/AI_Agent_Security_Cheat_Sheet.html"
+    type: "docs"
+    description: "Canonical security standard for agent tool configuration, memory isolation, and validation."
+  - title: "OWASP Top 10 for Agentic Applications 2026"
+    author: "OWASP"
+    url: "https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/"
+    type: "article"
+    description: "Risk taxonomy for autonomous AI systems including goal hijack and tool misuse."
+  - title: "AI Agent Sandboxing & Progressive Enforcement"
+    author: "ARMO"
+    url: "https://www.armosec.io/blog/ai-agent-sandboxing-progressive-enforcement-guide/"
+    type: "article"
+    description: "Enterprise architecture guide for kernel-level behavioral sandboxing."
+  - title: "AI Agent Guardrails That Actually Work"
+    author: "Traversaal"
+    url: "https://blog.traversaal.ai/ai-agent-guardrails-defense-in-depth-architecture-guide/"
+    type: "article"
+    description: "Three-layer defense-in-depth architecture for agent safety."
+  - title: "AI Agent Standards Initiative"
+    author: "NIST"
+    url: "https://www.nist.gov/artificial-intelligence/ai-agent-standards-initiative"
+    type: "docs"
+    description: "U.S. government standards framework for agent identity and authorization."
+related_knowledge:
+  - slug: agents-03-tool-use
+    title: "Tool Use"
+    lesson_number: 3
+  - slug: agents-14-human-in-the-loop
+    title: "Human-in-the-Loop Patterns"
+    lesson_number: 14
+  - slug: ai-safety-01-why-ai-safety
+    title: "Why AI Safety Matters"
+    lesson_number: 1
+knowledge_refs:
+  - slug: "ai-safety-04-alignment"
+    title: "Alignment"
+  - slug: "ai-safety-05-robustness"
+    title: "Robustness"
+  - slug: "ai-safety-12-guardrails"
+    title: "Guardrails"
 ---
 
-# AGENTS-13-SAFETY-AND-CONTROL: Agent Safety & Control
+# Agent Safety & Control
 
-## Introduction
+As AI agents gain autonomy — executing code, accessing databases, making API calls — safety and control become paramount. A single misconfigured tool or prompt injection attack can cause catastrophic damage.
 
-Constrain autonomy: limits, approvals, sandboxes and fail-safes. By the end of this lesson you will be able to: Design autonomy limits; Require human approval for risky actions; Sandbox tool execution; Add circuit breakers.
+## Why Prompt-Based Guardrails Fail
 
-## Key Concepts
+Relying on system prompts for security ("Never execute arbitrary shell commands") is fundamentally insecure:
+- **Same-Context Vulnerability:** Security instructions and malicious payloads occupy the same context window. Indirect prompt injection (e.g., a rogue website containing "Ignore previous instructions") can override natural language guardrails.
 
-### 1. Design autonomy limits
+**The Rule:** Prompt instructions are UI, not security. All robust controls must live outside the LLM context within programmatic infrastructure.
 
-Target: Design autonomy limits. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+## The Three-Layer Defense Stack
 
-```python
-limits = {"max_steps": 10, "max_cost": 1.0, "approval_required": ["send_email", "delete"]}
-print(limits)
-```
-### 2. Require human approval for risky actions
+### Layer 1: Input Validation (Pre-Model)
+Screen incoming messages, retrieved documents, and external API payloads before the LLM processes them:
+- Detect prompt injection patterns and malicious delimiters
+- Filter PII and sensitive information
+- Validate input format and length constraints
 
-Target: Require human approval for risky actions. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+### Layer 2: Output Validation (Post-Model, Pre-Action)
+Inspect model-generated outputs before execution:
+- Validate tool call arguments against schemas
+- Detect data exfiltration patterns
+- Catch hallucinated parameters that would cause errors
 
-```python
-print("risky tools: pause and ask the human")
-```
-### 3. Sandbox tool execution
+### Layer 3: Execution-Layer Enforcement
+Intercept actions at the exact moment a tool is invoked:
+- **Capability Manifests:** Hardcoded allowlists of which agents can invoke which tools
+- **Parameter Restrictions:** Read-only access, restricted file paths, blocked file types
+- **Automatic Blocking:** Any invocation outside the allowlist is dropped regardless of LLM intent
 
-Target: Sandbox tool execution. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+## Sandboxing
 
-```python
-print("sandbox: agents run in isolated environments")
-```
-### 4. Add circuit breakers
+### Container Isolation
+Standard containers restrict where code runs but cannot prevent misuse of legitimate permissions.
 
-Target: Add circuit breakers. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+### Behavioral Sandboxing
+Controls what an agent does at the kernel level using eBPF or microVMs:
+- Monitor API calls and network destinations
+- Track process executions
+- Enforce behavioral profiles built during observation phases
 
-```python
-print("circuit breaker: stop the loop after repeated failures")
-```
+### Progressive Enforcement
+1. **Discovery:** Inventory all autonomous workloads
+2. **Observation:** Run in visibility-only mode to build behavioral baselines
+3. **Selective Enforcement:** Promote high-confidence profiles into strict policies
+4. **Full Least Privilege:** Enforce ongoing boundary constraints
 
-## Practice Questions
+## Rate Limiting and Circuit Breakers
 
-1. What is the key idea behind "Agent Safety & Control"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+Runaway agent loops can cause "Denial of Wallet" — massive financial costs from infinite tool-calling cycles:
 
-## LLM Prompts for Deeper Understanding
+- **Hard Spend Ceilings:** Enforce per-session budgets ($0.50 or 20 actions/minute)
+- **Action Quotas:** Limit total tool calls per task
+- **Circuit Breakers:** Automatically isolate agents when failure rates exceed thresholds
+- **Timeout Enforcement:** Auto-reject on timeout, never auto-approve
 
-1. "Explain Agent Safety & Control with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Agent Safety & Control"
-1. "Provide advanced patterns and performance considerations for Agent Safety & Control"
+## Safe Tool Execution
 
-## Key Takeaways
+### Least-Privilege Principle
+Agents should never have broad, open-ended access:
+- Use read-only file access by default
+- Restrict database queries to specific tables
+- Limit API calls to required endpoints
+- Block sensitive file extensions (`.env`, `.key`, `.pem`)
 
-- Master the core ideas of Agent Safety & Control through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+### Tool-Call Logging
+Log every tool invocation with full arguments and results. This creates an audit trail for post-incident analysis and helps identify anomalous behavior patterns.
 
-## Further Reading
+---
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+*References:*
+1. OWASP, "AI Agent Security Cheat Sheet." [Link](https://cheatsheetseries.owasp.org/cheatsheets/AI_Agent_Security_Cheat_Sheet.html)
+2. OWASP, "Top 10 for Agentic Applications 2026." [Link](https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/)
+3. ARMO, "AI Agent Sandboxing & Progressive Enforcement." [Link](https://www.armosec.io/blog/ai-agent-sandboxing-progressive-enforcement-guide/)
+4. Traversaal, "AI Agent Guardrails That Actually Work." [Link](https://blog.traversaal.ai/ai-agent-guardrails-defense-in-depth-architecture-guide/)
+5. NIST, "AI Agent Standards Initiative." [Link](https://www.nist.gov/artificial-intelligence/ai-agent-standards-initiative)

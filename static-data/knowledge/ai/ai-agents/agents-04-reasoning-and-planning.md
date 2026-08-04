@@ -1,170 +1,157 @@
 ---
 slug: agents-04-reasoning-and-planning
-title: "Reasoning & Planning (ReAct)"
-description: "How agents think — ReAct, Chain-of-Thought, Plan-and-Execute, Tree-of-Thoughts, and reflection patterns."
+title: "Reasoning and Planning"
+description: "How AI agents think ahead, decompose tasks, and make decisions through chain-of-thought, tree-of-thought, and planning algorithms."
 order: 4
 tags:
   - ai-agents
   - reasoning
   - planning
-  - react
   - chain-of-thought
+  - tree-of-thought
+  - task-decomposition
 prerequisites:
-  - agents-03-tool-use
+  - agents-01-what-are-ai-agents
   - agents-02-agent-architecture
-knowledge_refs:
-  - agents-03-tool-use
-  - agents-05-memory-systems
 references:
-  - title: "ReAct: Synergizing Reasoning and Acting"
-    url: "https://arxiv.org/abs/2210.03629"
-    notes: "Original ReAct paper"
-  - title: "Chain-of-Thought Prompting"
+  - title: "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models"
+    author: "Jason Wei et al. (Google Research)"
     url: "https://arxiv.org/abs/2201.11903"
-    notes: "Wei et al. on reasoning"
-  - title: "Tree of Thoughts"
+    type: "paper"
+    description: "Foundational paper introducing Chain-of-Thought prompting."
+  - title: "Tree of Thoughts: Deliberate Problem Solving with Large Language Models"
+    author: "Shunyu Yao et al. (Princeton)"
     url: "https://arxiv.org/abs/2305.10601"
-    notes: "Exploring multiple reasoning paths"
-  - title: "Reflexion: Language Agents with Verbal Reinforcement"
-    url: "https://arxiv.org/abs/2303.11366"
-    notes: "Self-reflection for agents"
-  - title: "Building Effective Agents (Anthropic)"
-    url: "https://www.anthropic.com/engineering/building-effective-ai-agents"
-    notes: "Practical agent design patterns"
+    type: "paper"
+    description: "Introduces Tree-of-Thoughts for multi-path reasoning."
+  - title: "Understanding the Planning of LLM Agents: A Survey"
+    author: "Xu Huang et al."
+    url: "https://arxiv.org/abs/2402.02716"
+    type: "paper"
+    description: "Comprehensive survey of LLM agent planning methods."
+  - title: "A Survey of Chain of Thought Reasoning: Advances, Frontiers and Future"
+    author: "Zheng Chu et al. (ACL 2024)"
+    url: "https://arxiv.org/abs/2309.15402"
+    type: "paper"
+    description: "Taxonomy and review of modern CoT paradigms."
+  - title: "Large Language Models for Planning: A Comprehensive Survey"
+    author: "Pengfei Cao et al."
+    url: "https://arxiv.org/abs/2505.19683"
+    type: "paper"
+    description: "Systematic review of LLM planning methodologies."
+related_knowledge:
+  - slug: agents-02-agent-architecture
+    title: "Agent Architecture"
+    lesson_number: 2
+  - slug: agents-05-memory-systems
+    title: "Memory Systems"
+    lesson_number: 5
+  - slug: agents-17-agent-design-patterns
+    title: "Agent Design Patterns"
+    lesson_number: 17
+knowledge_refs:
+  - slug: "genai-05-in-context-learning"
+    title: "In-Context Learning"
+  - slug: "ml-15-reinforcement-learning-from-human-feedback"
+    title: "RLHF"
+  - slug: "dl-09-attention-mechanisms"
+    title: "Attention Mechanisms"
 ---
 
-# Reasoning & Planning (ReAct)
+# Reasoning and Planning
 
-Agents need to think before they act. This lesson covers the reasoning frameworks that let agents plan, reflect, and iterate toward their goals.
+Reasoning and planning are the cognitive capabilities that transform an LLM from a text generator into an effective problem-solver. Through techniques like chain-of-thought, tree-of-thought, and task decomposition, agents can tackle complex, multi-step goals that require foresight and deliberate decision-making.
 
-## ReAct (Reasoning + Acting)
+## Chain-of-Thought (CoT) Reasoning
 
-The most influential agent framework. Alternates between thinking and doing:
+Chain-of-Thought prompting — introduced by Jason Wei and colleagues at Google — transforms how LLMs approach complex problems by requiring intermediate reasoning steps rather than jumping straight to an answer.
 
-```
-Thought: I need to find the population of France
-Action: search("population of France 2024")
-Observation: France has approximately 68 million people
-Thought: Now I can answer the user's question
-Answer: France has about 68 million people
-```
+### How CoT Works
+Instead of: "What is 23 × 17?" → "391"
 
-### Why ReAct Works
-- **Transparent**: you can see the agent's reasoning
-- **Flexible**: adapts based on observations
-- **Grounded**: actions provide real-world information
+CoT produces: "23 × 17 = 23 × 10 + 23 × 7 = 230 + 161 = 391"
 
-### Limitations
-- One LLM call per step (expensive)
-- Can get stuck in loops
-- No global planning
+### CoT for Agents
+In agentic systems, basic CoT extends into dynamic, multi-step execution loops. The ReAct pattern — Reasoning and Acting — alternates between:
+- Reasoning about what to do next (CoT)
+- Calling external tools or APIs
+- Observing environment feedback
 
-## Chain-of-Thought (CoT)
+This grounded reasoning loop reduces hallucinations by anchoring the model's thinking in real-world data.
 
-Force step-by-step reasoning before acting:
+### When CoT Falls Short
+CoT follows a single linear path through a problem. When the first line of reasoning hits a dead end, there's no mechanism to backtrack. This limitation motivates more advanced approaches.
 
-```python
-prompt = """
-Let me think through this step by step:
+## Tree-of-Thought (ToT)
 
-1. First, I need to understand what the user is asking
-2. Then, I need to identify what information I'm missing
-3. Next, I'll determine the best tool to get that information
-4. Finally, I'll synthesize an answer
+Tree-of-Thoughts generalizes linear CoT by exploring **multiple reasoning paths simultaneously** in a tree structure:
 
-User question: {question}
-"""
-```
+### Three Key Components
 
-### CoT Variants
-- **Zero-shot CoT**: "Let's think step by step"
-- **Few-shot CoT**: exemplars with reasoning traces
-- **Self-consistency**: sample multiple CoT paths, majority vote
+1. **Thought Generation:** The model generates multiple distinct next steps (branches) rather than a single continuation. For example, given a puzzle state, it might propose three different moves.
 
-## Plan-and-Execute
+2. **State Evaluation:** Each thought path is evaluated for progress toward the goal. This can use:
+   - Self-evaluation prompts ("Rate how close this path is to a solution: 1-10")
+   - Voting mechanisms across multiple evaluations
+   - Heuristic scoring functions
 
-Separate planning from execution:
+3. **Search Algorithms:** Integrated with classic search strategies:
+   - **Breadth-First Search (BFS):** Explores all paths at the current depth before moving deeper. Thorough but expensive.
+   - **Depth-First Search (DFS):** Follows one path as deep as possible before backtracking. Fast but may miss better solutions.
+   - **Monte Carlo Tree Search (MCTS):** Balances exploration and exploitation by sampling paths based on their estimated value.
 
-```python
-# Phase 1: Plan
-plan = planner_llm.generate("""
-Create a step-by-step plan to: {user_goal}
+### ToT in Practice
+Tree-of-Thought enables agents to:
+- Look ahead before committing to a course of action
+- Backtrack from dead ends without starting over
+- Make deliberate decisions when multiple valid approaches exist
 
-Available tools: {tool_descriptions}
-""")
-# Returns: [Step1, Step2, Step3]
+## Planning Algorithms
 
-# Phase 2: Execute
-for step in plan:
-    result = executor_llm.execute(step)
-    context.update(step, result)
-```
+### Task Decomposition
+Breaking monolithic goals into smaller, manageable, sequentially ordered subtasks. This is perhaps the most critical planning skill for agents:
 
-### Advantages
-- Fewer LLM calls (plan once, execute many)
-- Parallelizable execution
-- Clear progress tracking
+**User Goal:** "Build a REST API for a todo application"
+**Decomposed Plan:**
+1. Define the data model (Todo entity with fields)
+2. Set up the project structure (package.json, folder layout)
+3. Implement CRUD routes (GET, POST, PUT, DELETE)
+4. Add input validation and error handling
+5. Write tests for each endpoint
+6. Create documentation
 
-### Disadvantages
-- Less adaptable if plan is wrong
-- Needs re-planning mechanism
+### Plan-and-Solve
+A prompting strategy where the agent first generates a complete plan, then executes each step sequentially. This reduces errors by front-loading the reasoning.
 
-## Tree of Thoughts (ToT)
+### Re-planning
+When an action fails or the environment changes unexpectedly, effective agents don't just retry — they revise the entire plan. This adaptive planning is what separates robust agents from fragile ones.
 
-Explore multiple reasoning paths simultaneously:
+## Goal Setting and Subgoal Generation
 
-```
-         Root Problem
-        /      |      \
-    Path A   Path B   Path C
-    /    \      |      /    \
-  A1    A2     B1    C1    C2
-  ✓     ✗      ✓     ✗     ✓
-```
+Advanced agents perform autonomous goal formulation, translating vague user requests into crisp, measurable subgoals:
 
-- Evaluate each branch
-- Prune unpromising paths
-- Backtrack when stuck
+**Vague Request:** "Make this codebase better"
+**Agent's Subgoals:**
+1. Identify specific issues (unused imports, duplicate code, missing types)
+2. Prioritize by impact (security > performance > readability)
+3. Create a structured refactoring plan
+4. Execute changes incrementally with tests at each step
+5. Verify no regressions before marking complete
 
-## Reflection & Self-Critique
+## Combining Reasoning with Memory
 
-Agents that learn from their mistakes:
+Planning doesn't happen in isolation. Effective agents combine reasoning with their memory systems:
+- **Short-term memory** holds the current conversation and recent tool outputs
+- **Long-term memory** provides historical context, past decisions, and learned patterns
+- **Working memory** maintains the current plan and tracks which steps are complete
 
-```python
-def reflect_and_improve(task, attempt, feedback):
-    reflection = llm.generate(f"""
-    I attempted: {attempt}
-    The result was: {feedback}
-    What went wrong? What should I do differently?
-    """)
-    improved = llm.generate(f"""
-    Based on this reflection: {reflection}
-    Try again with: {task}
-    """)
-    return improved
-```
+This integration allows agents to make informed decisions based on both current inputs and accumulated knowledge.
 
-### Reflexion Pattern
-1. Execute task
-2. Evaluate result
-3. Generate verbal reflection
-4. Use reflection to improve next attempt
-5. Repeat until success
+---
 
-## Choosing a Framework
-
-| Framework | Best For | Complexity |
-|-----------|----------|------------|
-| **ReAct** | Simple tool-use tasks | Low |
-| **CoT** | Reasoning without tools | Low |
-| **Plan-and-Execute** | Complex multi-step tasks | Medium |
-| **ToT** | Exploration, creative tasks | High |
-| **Reflexion** | Tasks requiring self-correction | Medium |
-
-## Key Takeaways
-
-1. ReAct is the most widely used agent reasoning framework
-2. Chain-of-Thought enables transparent step-by-step reasoning
-3. Plan-and-Execute separates planning from execution for efficiency
-4. Tree of Thoughts explores multiple paths for complex problems
-5. Reflection helps agents learn from mistakes and improve
+*References:*
+1. Jason Wei et al., "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models," NeurIPS 2022. [Link](https://arxiv.org/abs/2201.11903)
+2. Shunyu Yao et al., "Tree of Thoughts: Deliberate Problem Solving with Large Language Models," NeurIPS 2023. [Link](https://arxiv.org/abs/2305.10601)
+3. Xu Huang et al., "Understanding the Planning of LLM Agents: A Survey," 2024. [Link](https://arxiv.org/abs/2402.02716)
+4. Zheng Chu et al., "A Survey of Chain of Thought Reasoning: Advances, Frontiers and Future," ACL 2024. [Link](https://arxiv.org/abs/2309.15402)
+5. Pengfei Cao et al., "Large Language Models for Planning: A Comprehensive Survey," 2025. [Link](https://arxiv.org/abs/2505.19683)

@@ -1,127 +1,134 @@
 ---
 slug: agents-02-agent-architecture
 title: "Agent Architecture"
-description: "The building blocks of agent systems — the perception-reasoning-action cycle, BDI models, and modern LLM agent architectures."
+description: "Understanding the design patterns and architectural decisions behind effective AI agent systems."
 order: 2
 tags:
   - ai-agents
-  - architecture
-  - bdi
-  - agent-loop
+  - agent-architecture
+  - react-pattern
+  - design-patterns
+  - control-flow
 prerequisites:
   - agents-01-what-are-ai-agents
-knowledge_refs:
-  - agents-01-what-are-ai-agents
-  - agents-04-reasoning-and-planning
 references:
-  - title: "Building Effective Agents (Anthropic)"
-    url: "https://docs.anthropic.com/en/docs/build-with-claude/agentic"
-    notes: "Anthropic's guide to agent architecture"
-  - title: "LLM Agent Architectures (LangChain)"
-    url: "https://www.langchain.com/blog/agentic-design-patterns-part-1"
-    notes: "Modern agent design patterns"
-  - title: "Cognitive Architectures for Language Agents"
-    url: "https://arxiv.org/abs/2309.02427"
-    notes: "Survey of agent architectures"
-  - title: "The Agentic Loop"
-    url: "https://www.anthropic.com/engineering/building-effective-ai-agents"
-    notes: "Core agent loop patterns"
-  - title: "BDI Agent Model"
-    url: "https://en.wikipedia.org/wiki/Belief%E2%80%93desire%E2%80%93intention_software_model"
-    notes: "Classic BDI architecture"
+  - title: "What is a ReAct Agent?"
+    author: "IBM Think"
+    url: "https://www.ibm.com/think/topics/react-agent"
+    type: "article"
+    description: "Explanation of the ReAct paradigm, prompt structures, and scratchpads."
+  - title: "Choose a Design Pattern for Your Agentic AI System"
+    author: "Google Cloud Architecture Center"
+    url: "https://docs.cloud.google.com/architecture/choose-design-pattern-agentic-ai-system"
+    type: "docs"
+    description: "Evaluation of single-agent vs. multi-agent architectures."
+  - title: "Building Effective Agents"
+    author: "Anthropic Engineering"
+    url: "https://www.anthropic.com/engineering/building-effective-agents"
+    type: "article"
+    description: "Practical guide to agentic design patterns and production trade-offs."
+  - title: "Writing Effective Tools for AI Agents"
+    author: "Anthropic Engineering"
+    url: "https://www.anthropic.com/engineering/writing-tools-for-agents"
+    type: "article"
+    description: "Best practices for agent-computer interfaces and tool design."
+  - title: "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks"
+    author: "Patrick Lewis et al."
+    url: "https://arxiv.org/abs/2005.11401"
+    type: "paper"
+    description: "Foundational paper on RAG that underpins many agent architectures."
+related_knowledge:
+  - slug: agents-01-what-are-ai-agents
+    title: "What Are AI Agents?"
+    lesson_number: 1
+  - slug: agents-03-tool-use
+    title: "Tool Use"
+    lesson_number: 3
+  - slug: agents-06-multi-agent-systems
+    title: "Multi-Agent Systems"
+    lesson_number: 6
+knowledge_refs:
+  - slug: "llm-01-fundamentals-of-llms"
+    title: "Fundamentals of LLMs"
+  - slug: "ml-15-reinforcement-learning-from-human-feedback"
+    title: "RLHF"
+  - slug: "genai-01-what-is-generative-ai"
+    title: "What Is Generative AI?"
 ---
 
 # Agent Architecture
 
-Every agent, from a simple chatbot to a complex multi-agent system, follows an architectural pattern. Understanding these patterns helps you design effective agents.
+Agent architecture defines how an AI agent's components — reasoning, tools, memory, and control flow — are organized and coordinated. The right architecture determines whether an agent is reliable, efficient, and capable of handling real-world complexity.
 
-## The Core Agent Loop
+## Workflows vs. Agents
 
-```
-┌─────────────────────────────────────┐
-│              AGENT LOOP             │
-│                                     │
-│  Observe → Think → Decide → Act    │
-│     ↑                        │     │
-│     └────────────────────────┘     │
-│              (reflect)              │
-└─────────────────────────────────────┘
-```
+Modern agentic systems exist on a spectrum between two extremes:
 
-### Components
+### Workflows
+Systems where LLMs and tools are orchestrated through **predefined code paths**. The developer controls the flow, deciding when each tool is called and how results are processed. Workflows provide:
+- Predictability and consistency
+- Lower latency for well-defined tasks
+- Easier debugging and testing
+- Deterministic behavior for production reliability
 
-| Component | Function | Implementation |
-|-----------|----------|----------------|
-| **Perception** | Gather information | APIs, sensors, user input |
-| **Memory** | Store context | Conversation, vector DB |
-| **Reasoning** | Analyze and plan | LLM, CoT, ReAct |
-| **Decision** | Choose action | Tool selection, response generation |
-| **Action** | Execute tool | Function calling, API calls |
-| **Reflection** | Evaluate outcome | Self-critique, scoring |
+### Agents
+Systems where LLMs **dynamically direct their own execution**, maintaining control over how they accomplish tasks. Agents provide:
+- Flexibility for open-ended problems
+- Adaptability to novel situations
+- Model-driven decision-making
+- Ability to handle ambiguity and edge cases
 
-## BDI Architecture
+Most production systems use a hybrid approach, choosing the right level of autonomy for each task.
 
-The classic **Belief-Desire-Intention** model:
+## The ReAct Pattern
 
-- **Beliefs**: what the agent knows about the world
-- **Desires**: what the agent wants to achieve
-- **Intentions**: what the agent commits to doing
+**ReAct (Reasoning + Acting)** is the foundational pattern for agentic systems. It integrates chain-of-thought reasoning with external tool execution through an interleaved loop:
 
-```
-Beliefs + Desires → Intentions → Actions → Updated Beliefs
-```
+1. **Thought:** The LLM verbalizes its reasoning in a "scratchpad" to decompose the task and plan next steps.
+2. **Action:** The agent invokes a specific tool or API with structured inputs.
+3. **Observation:** The environment returns a result, which feeds back into the next reasoning cycle.
 
-### Modern LLM Equivalent
-- **Beliefs**: context window, RAG retrieval, tool results
-- **Desires**: user goal, system instructions
-- **Intentions**: planned action sequence (CoT, ReAct)
-- **Actions**: function calls, text generation
+This loop continues until the agent reaches a conclusion or a stopping condition. ReAct reduces hallucinations by grounding models in real-time data, though it incurs higher token consumption due to iterative reasoning.
 
-## LLM Agent Architectures
+### ReAct vs. Pure Function Calling
 
-### Single-Agent (Tool-Using LLM)
-```
-User → LLM + Tools → Response
-```
-Simple but limited by single-model reasoning.
+**Function calling** is a paradigm where LLMs output structured JSON arguments directly when they recognize a tool call is needed. It is fast and efficient for predictable, structured tasks.
 
-### Agent with Planning
-```
-User → Planner LLM → [Step 1, Step 2, Step 3] → Executor → Response
-```
-Separates planning from execution.
+**ReAct** adds explicit verbal reasoning before acting, making it superior for complex, dynamic problem-solving where adaptability is required.
 
-### Multi-Agent
-```
-User → Supervisor → Agent 1 (research)
-                   → Agent 2 (writing)
-                   → Agent 3 (review)
-                   → Synthesis
-```
-Specialized agents for different tasks.
+In practice, most agent frameworks combine both: function calling for the tool invocation mechanism, ReAct-style reasoning for deciding when and how to use tools.
 
-### Hierarchical
-```
-Manager Agent
-├── Worker Agent 1
-│   ├── Sub-agent 1a
-│   └── Sub-agent 1b
-└── Worker Agent 2
-```
-Recursive decomposition of tasks.
+## Common Architecture Patterns
 
-## Design Principles
+### Prompt Chaining
+A sequence of LLM calls where the output of one becomes the input to the next. Simple but effective for linear pipelines like "extract → transform → summarize."
 
-1. **Separation of concerns**: each agent handles one thing well
-2. **Clear interfaces**: agents communicate via well-defined messages
-3. **Graceful degradation**: fallback when tools fail
-4. **Observability**: every step should be traceable
-5. **Human control points**: stop-and-ask for high-risk actions
+### Routing
+An LLM classifier directs inputs to specialized handlers. Useful for support systems that route tickets by category or content type.
 
-## Key Takeaways
+### Parallelization
+Multiple LLM calls execute simultaneously for independent subtasks, with results merged afterward. Dramatically reduces latency for multi-step workflows.
 
-1. All agents follow the observe-think-decide-act loop
-2. BDI is the classic architecture; LLM agents are the modern equivalent
-3. Single-agent is simplest; multi-agent scales better for complex tasks
-4. Hierarchical architectures enable recursive task decomposition
-5. Design for observability and human control points
+### Orchestrator-Workers
+A central LLM dynamically breaks down tasks and delegates to worker LLMs. Each worker handles a specific subtask independently. This is the dominant pattern for complex agent systems.
+
+### Evaluator-Optimizer
+A generator LLM produces output, and an evaluator LLM critiques it. The cycle repeats until quality thresholds are met. Effective for tasks requiring iterative refinement.
+
+## Tool Design Principles
+
+Anthropic's research on "Writing Effective Tools for AI Agents" identifies key principles:
+
+- **Token Efficiency:** Tools should return high-signal context (summaries, filtered results) rather than raw data dumps.
+- **Poka-Yoke (Mistake-Proofing):** Design parameters to minimize errors — for example, enforcing absolute file paths instead of relative ones.
+- **Namespacing:** Group related tools under prefixes (e.g., `jira_search`, `github_search`) to prevent confusion when models have access to many tools.
+- **Clear Descriptions:** Tool descriptions act as instructions for the model — they must be precise about when and how to use each tool.
+
+---
+
+*References:*
+1. IBM Think, "What is a ReAct Agent?" [Link](https://www.ibm.com/think/topics/react-agent)
+2. Google Cloud Architecture Center, "Choose a Design Pattern for Your Agentic AI System." [Link](https://docs.cloud.google.com/architecture/choose-design-pattern-agentic-ai-system)
+3. Anthropic Engineering, "Building Effective Agents." [Link](https://www.anthropic.com/engineering/building-effective-agents)
+4. Anthropic Engineering, "Writing Effective Tools for AI Agents." [Link](https://www.anthropic.com/engineering/writing-tools-for-agents)
+5. Patrick Lewis et al., "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks," NeurIPS 2020. [Link](https://arxiv.org/abs/2005.11401)

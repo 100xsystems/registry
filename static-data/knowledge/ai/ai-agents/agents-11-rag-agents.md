@@ -1,113 +1,137 @@
 ---
-{
-  "title": "RAG Agents",
-  "description": "Agents that decide when and what to retrieve — retrieval as a tool, not a fixed step.",
-  "type": "lesson",
-  "order": 11,
-  "duration": "55 min",
-  "difficulty": "advanced",
-  "learning_objectives": [
-    "Expose retrieval as an agent tool",
-    "Let the agent plan searches",
-    "Iterate on queries",
-    "Ground answers in retrieved content"
-  ],
-  "knowledge_refs": [
-    "ai-agents/agents-10-coding-agents",
-    "llm-engineering/llm-11-llm-agents",
-    "generative-ai/genai-12-agents-and-tool-use"
-  ],
-  "prerequisites": [
-    "LLM-08: Advanced RAG"
-  ],
-  "references": [
-    {
-      "title": "LangChain Agents",
-      "url": "https://python.langchain.com/docs/how_to/#agents",
-      "description": "Agent frameworks, tools and memory patterns."
-    },
-    {
-      "title": "OpenAI Agents Documentation",
-      "url": "https://platform.openai.com/docs/guides/agents",
-      "description": "Function calling and agent loop patterns."
-    },
-    {
-      "title": "ReAct: Synergizing Reasoning and Acting",
-      "url": "https://arxiv.org/abs/2210.03629",
-      "description": "The paper behind reasoning-acting agent loops."
-    },
-    {
-      "title": "Anthropic — Building Effective Agents",
-      "url": "https://www.anthropic.com/research/building-effective-agents",
-      "description": "A practical guide to agent architecture."
-    },
-    {
-      "title": "CrewAI Documentation",
-      "url": "https://docs.crewai.com/",
-      "description": "Multi-agent orchestration framework."
-    }
-  ]
-}
+slug: agents-11-rag-agents
+title: "RAG Agents"
+description: "How agents use retrieval-augmented generation to find, retrieve, and synthesize information from external knowledge bases."
+order: 11
+tags:
+  - ai-agents
+  - rag
+  - retrieval
+  - embeddings
+  - knowledge-base
+prerequisites:
+  - agents-03-tool-use
+  - agents-08-research-agents
+references:
+  - title: "12 Advanced RAG Techniques: Beyond Naive Retrieval"
+    author: "Atlan"
+    url: "https://atlan.com/know/advanced-rag-techniques/"
+    type: "article"
+    description: "Deep breakdown of advanced RAG techniques including hybrid retrieval, reranking, and GraphRAG."
+  - title: "Advanced RAG Techniques for High-Performance LLM Applications"
+    author: "Neo4j"
+    url: "https://neo4j.com/blog/genai/advanced-rag-techniques/"
+    type: "article"
+    description: "Explores knowledge graph integration, query understanding, and agentic RAG patterns."
+  - title: "9 Advanced RAG Techniques"
+    author: "Meilisearch"
+    url: "https://www.meilisearch.com/blog/rag-techniques/"
+    type: "article"
+    description: "Practical guide to chunking, hybrid search, and query rewriting."
+  - title: "Build Advanced Retrieval-Augmented Generation Systems"
+    author: "Microsoft Learn"
+    url: "https://learn.microsoft.com/en-us/azure/developer/ai/advanced-retrieval-augmented-generation"
+    type: "docs"
+    description: "Enterprise guide to RAG pipelines, chunking, and evaluation."
+  - title: "Advancing RAG for Structured Enterprise"
+    author: "arXiv"
+    url: "https://arxiv.org/html/2507.12425v1"
+    type: "paper"
+    description: "Academic exploration of hybrid retrieval frameworks for enterprise RAG."
+related_knowledge:
+  - slug: agents-08-research-agents
+    title: "Building a Research Agent"
+    lesson_number: 8
+  - slug: agents-03-tool-use
+    title: "Tool Use"
+    lesson_number: 3
+  - slug: agents-05-memory-systems
+    title: "Memory Systems"
+    lesson_number: 5
+knowledge_refs:
+  - slug: "nlp-09-information-retrieval"
+    title: "Information Retrieval"
+  - slug: "nlp-10-text-summarization"
+    title: "Text Summarization"
+  - slug: "dl-14-vector-databases"
+    title: "Vector Databases"
 ---
 
-# AGENTS-11-RAG-AGENTS: RAG Agents
+# RAG Agents
 
-## Introduction
+RAG (Retrieval-Augmented Generation) agents combine the reasoning power of LLMs with the precision of information retrieval systems. Instead of relying solely on the model's training data, these agents search external knowledge bases to ground their responses in verifiable sources.
 
-Agents that decide when and what to retrieve — retrieval as a tool, not a fixed step. By the end of this lesson you will be able to: Expose retrieval as an agent tool; Let the agent plan searches; Iterate on queries; Ground answers in retrieved content.
+## The RAG Pipeline
 
-## Key Concepts
+### Naive RAG
+The basic RAG pipeline follows four steps:
+1. **Chunk:** Split documents into smaller segments
+2. **Embed:** Convert chunks into vector representations
+3. **Retrieve:** Find the most relevant chunks for a query
+4. **Generate:** Pass retrieved chunks to an LLM for answer generation
 
-### 1. Expose retrieval as an agent tool
+While simple, naive RAG plateaus around 44% factual accuracy in rigorous benchmarks.
 
-Target: Expose retrieval as an agent tool. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+### Advanced RAG
+Advanced techniques lift accuracy to 63%+ through improvements at every stage:
 
-```python
-def retrieve(query: str) -> list[dict]:
-    return [{"title": "doc1", "text": "..."}]
+## Chunking Strategies
 
-print("retrieval tool ready")
-```
-### 2. Let the agent plan searches
+**Fixed-Size Chunking:** Split by character/token counts with overlap. Simple but often severs semantic units across boundaries.
 
-Target: Let the agent plan searches. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+**Semantic Chunking:** Group sentences dynamically using embedding similarity thresholds to keep related concepts unified.
 
-```python
-print("agent asks: do I need to search? what should I search for?")
-```
-### 3. Iterate on queries
+**Parent-Child Chunking:** Index fine-grained units for precise matching, but retrieve the surrounding parent block for sufficient generation context.
 
-Target: Iterate on queries. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+**Contextual Retrieval (Anthropic):** Prepend chunk-specific summary context generated by an LLM at index time before creating embeddings. Reduces retrieval failure rates by up to 67% when combined with reranking.
 
-```python
-print("multiple searches beat one big query")
-```
-### 4. Ground answers in retrieved content
+## Hybrid Search
 
-Target: Ground answers in retrieved content. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+Production RAG systems combine multiple retrieval methods:
 
-```python
-print("final answer cites retrieved chunks")
-```
+**Dense Retrieval (Vector Search):** Captures semantic meaning and paraphrasing but misses exact terms, SKUs, or rare acronyms.
 
-## Practice Questions
+**Sparse Retrieval (BM25/SPLADE):** Matches exact token strings but lacks semantic understanding.
 
-1. What is the key idea behind "RAG Agents"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+**Reciprocal Rank Fusion (RRF):** Combines dense and sparse retriever scores, ensuring the system captures both conceptual intent and exact keyword occurrences. This is the de facto production standard.
 
-## LLM Prompts for Deeper Understanding
+**HyDE (Hypothetical Document Embeddings):** For vague queries, generates a hypothetical answer document, then embeds that synthetic document to bridge the vocabulary gap.
 
-1. "Explain RAG Agents with analogies and real-world examples"
-1. "Show me common mistakes beginners make with RAG Agents"
-1. "Provide advanced patterns and performance considerations for RAG Agents"
+## Advanced RAG Patterns
 
-## Key Takeaways
+### GraphRAG (Microsoft)
+Constructs a knowledge graph from documents — nodes as entities, edges as relationships — and uses community detection to build hierarchical summaries. Ideal for multi-hop, relationship-heavy queries.
 
-- Master the core ideas of RAG Agents through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+### RAPTOR
+Recursively clusters and summarizes text into an abstraction tree, enabling multi-granularity retrieval across long-form documents.
 
-## Further Reading
+### Corrective RAG (CRAG) & Self-RAG
+Implements evaluation gates where retrieved chunks are graded for relevance. If confidence is low, triggers fallback procedures like web search augmentation or self-reflective refinement.
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+### Adaptive RAG
+Uses a query classifier to dynamically route inputs to the correct pipeline complexity: no retrieval for simple facts, single-step for moderate queries, or multi-step agentic loops for complex reasoning.
+
+## RAG Agents vs. Static RAG
+
+RAG agents add an agentic loop to the retrieval process:
+- **Query Reformulation:** The agent rewrites vague queries before retrieval
+- **Iterative Retrieval:** If initial results are insufficient, the agent refines and searches again
+- **Source Evaluation:** The agent assesses source credibility and relevance
+- **Synthesis with Citations:** The agent produces answers with proper attribution
+
+## Evaluation
+
+Production RAG systems require continuous evaluation:
+- **Context Relevance:** Do fetched chunks contain the required information?
+- **Faithfulness:** Does the response strictly derive from retrieved context?
+- **Answer Relevance:** Does the output directly answer the user's question?
+- **Golden Datasets:** Curated test sets of questions, answers, and ground-truth sources
+
+---
+
+*References:*
+1. Atlan, "12 Advanced RAG Techniques." [Link](https://atlan.com/know/advanced-rag-techniques/)
+2. Neo4j, "Advanced RAG Techniques for High-Performance LLM Applications." [Link](https://neo4j.com/blog/genai/advanced-rag-techniques/)
+3. Meilisearch, "9 Advanced RAG Techniques." [Link](https://www.meilisearch.com/blog/rag-techniques/)
+4. Microsoft Learn, "Build Advanced Retrieval-Augmented Generation Systems." [Link](https://learn.microsoft.com/en-us/azure/developer/ai/advanced-retrieval-augmented-generation)
+5. arXiv, "Advancing RAG for Structured Enterprise." [Link](https://arxiv.org/html/2507.12425v1)
