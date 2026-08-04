@@ -1,140 +1,142 @@
 ---
-{
-  "title": "Working with LLM APIs",
-  "description": "Chat completions, parameters, streaming and structured outputs — the daily API toolkit.",
-  "type": "lesson",
-  "order": 3,
-  "duration": "55 min",
-  "difficulty": "beginner",
-  "learning_objectives": [
-    "Call chat completion APIs",
-    "Tune temperature, max tokens and top-p",
-    "Stream responses",
-    "Parse structured outputs"
-  ],
-  "knowledge_refs": [
-    "llm-engineering/llm-02-llm-architecture-review",
-    "generative-ai/genai-06-llm-architecture",
-    "mlops/mlops-10-model-serving"
-  ],
-  "prerequisites": [
-    "LLM-01: What Is LLM Engineering?"
-  ],
-  "references": [
-    {
-      "title": "OpenAI Platform Docs",
-      "url": "https://platform.openai.com/docs",
-      "description": "API reference for chat, embeddings, function calling and vision."
-    },
-    {
-      "title": "Anthropic Documentation",
-      "url": "https://docs.anthropic.com/",
-      "description": "Claude API docs including prompt engineering guides."
-    },
-    {
-      "title": "Hugging Face Transformers",
-      "url": "https://huggingface.co/docs/transformers",
-      "description": "Models, tokenizers and pipelines for LLM work."
-    },
-    {
-      "title": "LangChain Documentation",
-      "url": "https://python.langchain.com/docs",
-      "description": "Frameworks for RAG, agents and LLM applications."
-    },
-    {
-      "title": "vLLM Documentation",
-      "url": "https://docs.vllm.ai/",
-      "description": "High-throughput LLM serving and inference."
-    }
-  ]
-}
+slug: llm-03-llm-apis
+title: "Working with LLM APIs"
+description: "Practical guide to OpenAI, Anthropic, and Google APIs — authentication, streaming, rate limiting, and error handling patterns."
+order: 3
+tags:
+  - llm-engineering
+  - api
+  - openai
+  - anthropic
+  - google
+prerequisites:
+  - llm-02-llm-architecture-review
+knowledge_refs:
+  - llm-02-llm-architecture-review
+  - llm-05-tokenization-and-context
+references:
+  - title: "OpenAI API Documentation"
+    url: "https://platform.openai.com/docs/api-reference"
+    notes: "Official OpenAI API reference"
+  - title: "Claude API Overview"
+    url: "https://platform.claude.com/docs/en/api/overview"
+    notes: "Anthropic's API documentation"
+  - title: "Gemini API Text Generation"
+    url: "https://ai.google.dev/gemini-api/docs/text-generation"
+    notes: "Google's Gemini API guide"
+  - title: "Anthropic Rate Limits"
+    url: "https://docs.anthropic.com/en/api/rate-limits"
+    notes: "Detailed rate limiting documentation"
+  - title: "LiteLLM: Universal LLM API"
+    url: "https://docs.litellm.ai/"
+    notes: "Unified interface for 100+ LLM providers"
 ---
 
-# LLM-03-LLM-APIS: Working with LLM APIs
+# Working with LLM APIs
 
-## Introduction
+LLM APIs are the primary interface for building LLM applications. This lesson covers the practical details of working with the major providers.
 
-Chat completions, parameters, streaming and structured outputs — the daily API toolkit. By the end of this lesson you will be able to: Call chat completion APIs; Tune temperature, max tokens and top-p; Stream responses; Parse structured outputs.
+## The Three Major APIs
 
-## Key Concepts
-
-### 1. Call chat completion APIs
-
-Target: Call chat completion APIs. Start with the foundations — read the runnable example carefully and trace its output before moving on.
-
+### OpenAI
 ```python
 from openai import OpenAI
+client = OpenAI(api_key="sk-...")
 
-client = OpenAI()
-res = client.chat.completions.create(
-    model="gpt-4o-mini",
-    messages=[{"role": "user", "content": "Say hello in one word"}],
-    max_tokens=10,
+response = client.chat.completions.create(
+    model="gpt-4o",
+    messages=[
+        {"role": "system", "content": "You are a helpful assistant."},
+        {"role": "user", "content": "Hello!"}
+    ],
+    temperature=0.7,
+    max_tokens=1000
 )
-print(res.choices[0].message.content)
+print(response.choices[0].message.content)
 ```
-### 2. Tune temperature, max tokens and top-p
 
-Target: Tune temperature, max tokens and top-p. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+### Anthropic (Claude)
+```python
+from anthropic import Anthropic
+client = Anthropic(api_key="sk-ant-...")
+
+response = client.messages.create(
+    model="claude-sonnet-4-20250514",
+    max_tokens=1000,
+    system="You are a helpful assistant.",
+    messages=[
+        {"role": "user", "content": "Hello!"}
+    ]
+)
+print(response.content[0].text)
+```
+
+### Google (Gemini)
+```python
+from google import genai
+client = genai.Client(api_key="...")
+
+response = client.models.generate_content(
+    model="gemini-2.0-flash",
+    contents="Hello!"
+)
+print(response.text)
+```
+
+## Streaming Responses
+
+Streaming reduces time-to-first-token and improves user experience:
 
 ```python
-from openai import OpenAI
-
-client = OpenAI()
+# OpenAI streaming
 stream = client.chat.completions.create(
-    model="gpt-4o-mini",
-    messages=[{"role": "user", "content": "Count 1 to 3"}],
-    stream=True,
+    model="gpt-4o",
+    messages=[{"role": "user", "content": "Tell me a story"}],
+    stream=True
 )
 for chunk in stream:
-    print(chunk.choices[0].delta.content or "", end="")
-print()
-```
-### 3. Stream responses
-
-Target: Stream responses. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
-
-```python
-import json
-
-# Request JSON output
-prompt = 'Return JSON: {"city": string, "temp": number}'
-print(prompt)
-```
-### 4. Parse structured outputs
-
-Target: Parse structured outputs. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
-
-```python
-from openai import OpenAI
-
-client = OpenAI()
-res = client.chat.completions.create(
-    model="gpt-4o-mini",
-    messages=[{"role": "user", "content": "Summarize in one sentence: ML is hard"}],
-    temperature=0.2,
-)
-print(res.choices[0].message.content)
+    if chunk.choices[0].delta.content:
+        print(chunk.choices[0].delta.content, end="")
 ```
 
-## Practice Questions
+## Rate Limiting
 
-1. What is the key idea behind "Working with LLM APIs"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+All providers enforce rate limits across multiple dimensions:
+- **RPM**: Requests Per Minute
+- **TPM/ITPM/OTPM**: Tokens Per Minute (total/input/output)
+- **RPD**: Requests Per Day
+- **Spend caps**: Maximum cost per time window
 
-## LLM Prompts for Deeper Understanding
+### Best Practices
+1. **Exponential backoff**: wait 1s, 2s, 4s, 8s on 429 errors
+2. **Request queuing**: buffer requests and process at controlled rate
+3. **Cache responses**: avoid redundant API calls
+4. **Monitor headers**: `retry-after`, `x-ratelimit-remaining`
 
-1. "Explain Working with LLM APIs with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Working with LLM APIs"
-1. "Provide advanced patterns and performance considerations for Working with LLM APIs"
+## Error Handling
+
+| Error | Meaning | Action |
+|-------|---------|--------|
+| 400 | Bad request | Fix input format |
+| 401 | Auth error | Check API key |
+| 429 | Rate limit | Backoff and retry |
+| 500 | Server error | Retry with backoff |
+| 503 | Overloaded | Retry later |
+
+### Streaming Errors
+Errors can arrive mid-stream after an initial 200 OK. Always handle `error` events in SSE streams.
+
+## Prompt Caching
+
+Both OpenAI and Anthropic support prompt caching:
+- Cache system prompts and repeated context
+- Cached tokens are cheaper (up to 90% discount)
+- Anthropic: cached tokens exempt from rate limits
 
 ## Key Takeaways
 
-- Master the core ideas of Working with LLM APIs through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
-
-## Further Reading
-
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+1. OpenAI, Anthropic, and Google have similar but distinct API patterns
+2. Streaming reduces perceived latency — always use it for user-facing apps
+3. Handle rate limits with exponential backoff and request queuing
+4. Prompt caching reduces cost for repeated system prompts
+5. Consider using LiteLLM or similar for provider-agnostic code

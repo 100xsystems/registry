@@ -1,129 +1,186 @@
 ---
-{
-  "title": "Function Calling & Structured Outputs",
-  "description": "Let the model call your tools with typed arguments — reliably.",
-  "type": "lesson",
-  "order": 10,
-  "duration": "55 min",
-  "difficulty": "intermediate",
-  "learning_objectives": [
-    "Define tools with JSON schemas",
-    "Handle tool-call responses",
-    "Validate arguments before executing",
-    "Use structured output modes"
-  ],
-  "knowledge_refs": [
-    "llm-engineering/llm-09-fine-tuning-practice",
-    "prompt-engineering/pe-06-structured-outputs",
-    "ai-agents/agents-03-tool-use"
-  ],
-  "prerequisites": [
-    "LLM-03: Working with LLM APIs"
-  ],
-  "references": [
-    {
-      "title": "OpenAI Platform Docs",
-      "url": "https://platform.openai.com/docs",
-      "description": "API reference for chat, embeddings, function calling and vision."
-    },
-    {
-      "title": "Anthropic Documentation",
-      "url": "https://docs.anthropic.com/",
-      "description": "Claude API docs including prompt engineering guides."
-    },
-    {
-      "title": "Hugging Face Transformers",
-      "url": "https://huggingface.co/docs/transformers",
-      "description": "Models, tokenizers and pipelines for LLM work."
-    },
-    {
-      "title": "LangChain Documentation",
-      "url": "https://python.langchain.com/docs",
-      "description": "Frameworks for RAG, agents and LLM applications."
-    },
-    {
-      "title": "vLLM Documentation",
-      "url": "https://docs.vllm.ai/",
-      "description": "High-throughput LLM serving and inference."
-    }
-  ]
-}
+slug: llm-10-function-calling
+title: "Function Calling & Structured Outputs"
+description: "Connecting LLMs to the real world — tool use, function calling, JSON mode, and multi-step tool chains."
+order: 10
+tags:
+  - llm-engineering
+  - function-calling
+  - tool-use
+  - structured-outputs
+prerequisites:
+  - llm-03-llm-apis
+  - llm-04-prompting-systems
+knowledge_refs:
+  - llm-03-llm-apis
+  - llm-04-prompting-systems
+  - llm-11-llm-agents
+references:
+  - title: "OpenAI Function Calling Guide"
+    url: "https://platform.openai.com/docs/guides/function-calling"
+    notes: "Official function calling documentation"
+  - title: "Structured Outputs with Pydantic"
+    url: "https://dida.do/blog/structured-outputs-with-openai-and-pydantic"
+    notes: "Pydantic integration for schema enforcement"
+  - title: "OpenAI Cookbook: Function Calling"
+    url: "https://github.com/openai/openai-cookbook/blob/main/examples/How_to_call_functions_with_chat_models.ipynb"
+    notes: "Official cookbook examples"
+  - title: "Anthropic Tool Use"
+    url: "https://docs.anthropic.com/en/docs/build-with-claude/tool-use/overview"
+    notes: "Claude's tool use documentation"
+  - title: "Function Calling Comparison: GPT, Claude, Gemini"
+    url: "https://ofox.ai/blog/function-calling-tool-use-complete-guide-2026/"
+    notes: "Cross-provider comparison"
 ---
 
-# LLM-10-FUNCTION-CALLING: Function Calling & Structured Outputs
+# Function Calling & Structured Outputs
 
-## Introduction
+Function calling lets LLMs interact with external tools — APIs, databases, code execution, and more. It's the bridge between language understanding and real-world action.
 
-Let the model call your tools with typed arguments — reliably. By the end of this lesson you will be able to: Define tools with JSON schemas; Handle tool-call responses; Validate arguments before executing; Use structured output modes.
+## The Function Calling Loop
 
-## Key Concepts
+```
+1. Define tools (JSON Schema)
+2. Send prompt + tools to LLM
+3. LLM returns tool_call (if needed)
+4. Execute function locally
+5. Send result back to LLM
+6. LLM generates final response
+```
 
-### 1. Define tools with JSON schemas
-
-Target: Define tools with JSON schemas. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+## Defining Tools
 
 ```python
-from openai import OpenAI
+tools = [{
+    "type": "function",
+    "function": {
+        "name": "get_weather",
+        "description": "Get current weather for a location",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "location": {"type": "string", "description": "City name"},
+                "units": {"type": "string", "enum": ["celsius", "fahrenheit"]}
+            },
+            "required": ["location"]
+        }
+    }
+}]
+```
 
-client = OpenAI()
-res = client.chat.completions.create(
-    model="gpt-4o-mini",
-    messages=[{"role": "user", "content": "Weather in Paris?"}],
-    tools=[{
-        "type": "function",
-        "function": {
-            "name": "get_weather",
-            "parameters": {"type": "object", "properties": {"city": {"type": "string"}}, "required": ["city"]},
-        },
-    }],
+## Using Function Calling
+
+```python
+response = client.chat.completions.create(
+    model="gpt-4o",
+    messages=[{"role": "user", "content": "What's the weather in Tokyo?"}],
+    tools=tools,
+    tool_choice="auto"
 )
-tool_calls = res.choices[0].message.tool_calls
-print("tool call:", tool_calls[0].function.name if tool_calls else None)
-```
-### 2. Handle tool-call responses
 
-Target: Handle tool-call responses. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+# Check if model wants to call a function
+if response.choices[0].message.tool_calls:
+    tool_call = response.choices[0].message.tool_calls[0]
+    function_name = tool_call.function.name
+    arguments = json.loads(tool_call.function.arguments)
+    
+    # Execute the function
+    result = get_weather(**arguments)
+    
+    # Send result back
+    response = client.chat.completions.create(
+        model="gpt-4o",
+        messages=[
+            {"role": "user", "content": "What's the weather in Tokyo?"},
+            response.choices[0].message,
+            {"role": "tool", "tool_call_id": tool_call.id, "content": str(result)}
+        ],
+        tools=tools
+    )
+```
+
+## Parallel Function Calling
+
+The model can call multiple functions in one turn:
 
 ```python
-import json
-
-args = json.loads('{"city": "Paris"}')
-assert isinstance(args["city"], str)
-print("validated args:", args)
+# User: "What's the weather in Tokyo and London?"
+# Model returns two tool_calls:
+[
+    {"function": {"name": "get_weather", "arguments": {"location": "Tokyo"}}},
+    {"function": {"name": "get_weather", "arguments": {"location": "London"}}}
+]
 ```
-### 3. Validate arguments before executing
 
-Target: Validate arguments before executing. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+Execute both concurrently, then return results together.
+
+## Structured Outputs
+
+### JSON Mode
+Guarantees valid JSON but not schema compliance:
+```python
+response_format={"type": "json_object"}
+```
+
+### Structured Outputs (strict)
+Constrained decoding enforces exact schema:
+```python
+response_format={
+    "type": "json_schema",
+    "json_schema": {
+        "name": "weather_response",
+        "strict": True,
+        "schema": {
+            "type": "object",
+            "properties": {
+                "temperature": {"type": "number"},
+                "condition": {"type": "string"}
+            },
+            "required": ["temperature", "condition"]
+        }
+    }
+}
+```
+
+## Pydantic Integration
 
 ```python
-print("execute the tool, then return the result as a message")
-```
-### 4. Use structured output modes
+from pydantic import BaseModel
 
-Target: Use structured output modes. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+class WeatherResponse(BaseModel):
+    temperature: float
+    condition: str
+    humidity: int
+
+# Convert to OpenAI schema
+schema = WeatherResponse.model_json_schema()
+
+response = client.beta.chat.completions.parse(
+    model="gpt-4o",
+    messages=[...],
+    response_format=WeatherResponse
+)
+weather = response.choices[0].message.parsed  # WeatherResponse instance
+```
+
+## Error Handling
 
 ```python
-print("structured output: force JSON schema conformance")
+try:
+    result = execute_tool(tool_call)
+except Exception as e:
+    # Return error to model so it can retry or explain
+    messages.append({
+        "role": "tool",
+        "tool_call_id": tool_call.id,
+        "content": f"Error: {str(e)}"
+    })
 ```
-
-## Practice Questions
-
-1. What is the key idea behind "Function Calling & Structured Outputs"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
-
-## LLM Prompts for Deeper Understanding
-
-1. "Explain Function Calling & Structured Outputs with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Function Calling & Structured Outputs"
-1. "Provide advanced patterns and performance considerations for Function Calling & Structured Outputs"
 
 ## Key Takeaways
 
-- Master the core ideas of Function Calling & Structured Outputs through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
-
-## Further Reading
-
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+1. Function calling lets LLMs invoke external tools
+2. The loop: define tools → model calls → execute → return result → model responds
+3. Parallel function calling enables multi-tool queries in one turn
+4. Structured outputs guarantee schema-compliant responses
+5. Always handle errors gracefully and return them to the model

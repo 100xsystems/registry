@@ -1,119 +1,143 @@
 ---
-{
-  "title": "Advanced RAG",
-  "description": "Hybrid search, reranking, query rewriting and contextual compression for better answers.",
-  "type": "lesson",
-  "order": 8,
-  "duration": "60 min",
-  "difficulty": "advanced",
-  "learning_objectives": [
-    "Combine keyword and vector search (hybrid)",
-    "Rerank candidates with cross-encoders",
-    "Rewrite queries before retrieval",
-    "Compress retrieved context"
-  ],
-  "knowledge_refs": [
-    "llm-engineering/llm-07-rag-engineering",
-    "ai-agents/agents-11-rag-agents",
-    "prompt-engineering/pe-09-prompts-for-rag"
-  ],
-  "prerequisites": [
-    "LLM-07: RAG Engineering"
-  ],
-  "references": [
-    {
-      "title": "OpenAI Platform Docs",
-      "url": "https://platform.openai.com/docs",
-      "description": "API reference for chat, embeddings, function calling and vision."
-    },
-    {
-      "title": "Anthropic Documentation",
-      "url": "https://docs.anthropic.com/",
-      "description": "Claude API docs including prompt engineering guides."
-    },
-    {
-      "title": "Hugging Face Transformers",
-      "url": "https://huggingface.co/docs/transformers",
-      "description": "Models, tokenizers and pipelines for LLM work."
-    },
-    {
-      "title": "LangChain Documentation",
-      "url": "https://python.langchain.com/docs",
-      "description": "Frameworks for RAG, agents and LLM applications."
-    },
-    {
-      "title": "vLLM Documentation",
-      "url": "https://docs.vllm.ai/",
-      "description": "High-throughput LLM serving and inference."
-    }
-  ]
-}
+slug: llm-08-advanced-rag
+title: "Advanced RAG"
+description: "Beyond basic RAG — query routing, self-RAG, GraphRAG, multimodal RAG, and agentic retrieval patterns."
+order: 8
+tags:
+  - llm-engineering
+  - advanced-rag
+  - self-rag
+  - graph-rag
+prerequisites:
+  - llm-07-rag-engineering
+  - llm-11-llm-agents
+knowledge_refs:
+  - llm-07-rag-engineering
+  - llm-11-llm-agents
+  - llm-06-embeddings-and-semantic-search
+references:
+  - title: "Self-RAG: Learning to Retrieve, Generate, and Critique"
+    url: "https://arxiv.org/abs/2310.11511"
+    notes: "Adaptive retrieval with reflection tokens"
+  - title: "GraphRAG: Unlocking LLM discovery on narrative private data"
+    url: "https://microsoft.github.io/graphrag/"
+    notes: "Microsoft's knowledge graph + RAG"
+  - title: "CRAG: Corrective Retrieval Augmented Generation"
+    url: "https://arxiv.org/abs/2401.15884"
+    notes: "Self-correcting retrieval quality"
+  - title: "RAGAS Evaluation Framework"
+    url: "https://docs.ragas.io/"
+    notes: "RAG evaluation metrics and benchmarks"
+  - title: "TruLens RAG Triad"
+    url: "https://www.trulens.org/getting_started/core_concepts/rag_triad/"
+    notes: "Context relevance, groundedness, answer relevance"
 ---
 
-# LLM-08-ADVANCED-RAG: Advanced RAG
+# Advanced RAG
 
-## Introduction
+Basic RAG retrieves top-k chunks and generates an answer. Advanced RAG adds intelligence at every stage — deciding when to retrieve, how to route queries, and how to verify quality.
 
-Hybrid search, reranking, query rewriting and contextual compression for better answers. By the end of this lesson you will be able to: Combine keyword and vector search (hybrid); Rerank candidates with cross-encoders; Rewrite queries before retrieval; Compress retrieved context.
+## Query Routing
 
-## Key Concepts
-
-### 1. Combine keyword and vector search (hybrid)
-
-Target: Combine keyword and vector search (hybrid). Start with the foundations — read the runnable example carefully and trace its output before moving on.
+Not every query needs retrieval. A router decides the best strategy:
 
 ```python
-import numpy as np
-
-# Hybrid: blend BM25 + vector scores
-bm25 = np.array([0.6, 0.2, 0.1])
-vector = np.array([0.4, 0.8, 0.3])
-hybrid = 0.5 * bm25 + 0.5 * vector
-print("hybrid scores:", hybrid.round(2))
+def route_query(query):
+    if is_factual(query):
+        return "retrieval"      # needs external knowledge
+    elif is_conversational(query):
+        return "direct"          # model knowledge sufficient
+    elif is_complex(query):
+        return "multi_step"      # needs iterative retrieval
+    else:
+        return "summarization"   # needs document processing
 ```
-### 2. Rerank candidates with cross-encoders
 
-Target: Rerank candidates with cross-encoders. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+## Self-RAG
+
+The model decides **when** to retrieve and **critiques** its own outputs:
+
+1. Generate a query analysis
+2. Decide: retrieve or not?
+3. If retrieved, evaluate document relevance (`IsREL`)
+4. Generate answer
+5. Critique: is answer supported? (`IsSUP`)
+6. Is answer useful? (`IsUSE`)
+
+Uses special **reflection tokens** trained into the model.
+
+## CRAG (Corrective RAG)
+
+Adds a quality gate after retrieval:
+
+```
+Retrieve → Evaluate relevance → High confidence? → Generate normally
+                                → Low confidence? → Web search fallback
+                                → Ambiguous? → Hybrid approach
+```
+
+Prevents bad retrieval from poisoning the prompt.
+
+## GraphRAG
+
+Builds a **knowledge graph** from source documents:
+
+1. Extract entities and relationships from text
+2. Build entity-relationship graph
+3. Detect communities (clusters of related entities)
+4. At query time: traverse graph for multi-hop reasoning
+
+### When to Use GraphRAG
+- Complex relationship queries ("Which researchers collaborated on X?")
+- Multi-document synthesis
+- Need for global sensemaking over large corpora
+
+## Multimodal RAG
+
+Handle documents with images, tables, and charts:
+
+```
+Document → Parse (text + images + tables) → 
+  Text chunks → text embedding
+  Images → image embedding (CLIP) + text summary
+  Tables → markdown conversion + embedding
+→ Unified vector store → retrieval → multimodal LLM generation
+```
+
+## Agentic RAG
+
+RAG as a tool within an agent loop:
 
 ```python
-from sentence_transformers import CrossEncoder
-
-reranker = CrossEncoder("cross-encoder/ms-marco-MiniLM-L-6-v2")
-print("reranker ready")
-```
-### 3. Rewrite queries before retrieval
-
-Target: Rewrite queries before retrieval. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
-
-```python
-print("query rewriting: turn a vague question into a searchable one")
-```
-### 4. Compress retrieved context
-
-Target: Compress retrieved context. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
-
-```python
-print("compression: keep only the sentences that answer the question")
+def agent_loop(query):
+    plan = plan_subqueries(query)
+    results = []
+    for subquery in plan:
+        docs = retrieve(subquery)
+        answer = generate(subquery, docs)
+        results.append(answer)
+        if needs_more_info(answer):
+            plan.append(follow_up(query, answer))
+    return synthesize(results)
 ```
 
-## Practice Questions
+## Evaluation Frameworks
 
-1. What is the key idea behind "Advanced RAG"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+### RAGAS
+- **Faithfulness**: is the answer grounded in context?
+- **Answer relevance**: does it address the query?
+- **Context precision**: are retrieved docs relevant?
+- **Context recall**: are all relevant docs found?
 
-## LLM Prompts for Deeper Understanding
-
-1. "Explain Advanced RAG with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Advanced RAG"
-1. "Provide advanced patterns and performance considerations for Advanced RAG"
+### TruLens RAG Triad
+1. **Context relevance**: each chunk relevant to query?
+2. **Groundedness**: claims supported by context?
+3. **Answer relevance**: response addresses question?
 
 ## Key Takeaways
 
-- Master the core ideas of Advanced RAG through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
-
-## Further Reading
-
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+1. Query routing avoids unnecessary retrieval for simple queries
+2. Self-RAG and CRAG add self-correction to prevent hallucination
+3. GraphRAG excels at relationship and multi-hop queries
+4. Multimodal RAG handles documents with images and tables
+5. Agentic RAG enables iterative, multi-step retrieval

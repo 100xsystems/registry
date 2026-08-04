@@ -1,122 +1,130 @@
 ---
-{
-  "title": "Embeddings & Semantic Search",
-  "description": "Turn text into vectors and search by meaning — the retrieval backbone of LLM apps.",
-  "type": "lesson",
-  "order": 6,
-  "duration": "55 min",
-  "difficulty": "intermediate",
-  "learning_objectives": [
-    "Generate text embeddings",
-    "Measure semantic similarity",
-    "Index and query vectors",
-    "Evaluate retrieval quality"
-  ],
-  "knowledge_refs": [
-    "llm-engineering/llm-05-tokenization-and-context",
-    "generative-ai/genai-11-embeddings-and-vector-databases",
-    "nlp/nlp-06-word-embeddings"
-  ],
-  "prerequisites": [
-    "LLM-05: Tokenization & Context Management"
-  ],
-  "references": [
-    {
-      "title": "OpenAI Platform Docs",
-      "url": "https://platform.openai.com/docs",
-      "description": "API reference for chat, embeddings, function calling and vision."
-    },
-    {
-      "title": "Anthropic Documentation",
-      "url": "https://docs.anthropic.com/",
-      "description": "Claude API docs including prompt engineering guides."
-    },
-    {
-      "title": "Hugging Face Transformers",
-      "url": "https://huggingface.co/docs/transformers",
-      "description": "Models, tokenizers and pipelines for LLM work."
-    },
-    {
-      "title": "LangChain Documentation",
-      "url": "https://python.langchain.com/docs",
-      "description": "Frameworks for RAG, agents and LLM applications."
-    },
-    {
-      "title": "vLLM Documentation",
-      "url": "https://docs.vllm.ai/",
-      "description": "High-throughput LLM serving and inference."
-    }
-  ]
-}
+slug: llm-06-embeddings-and-semantic-search
+title: "Embeddings & Semantic Search"
+description: "Converting text to vectors for semantic search — embedding models, similarity metrics, and vector database selection."
+order: 6
+tags:
+  - llm-engineering
+  - embeddings
+  - semantic-search
+  - vector-databases
+prerequisites:
+  - llm-05-tokenization-and-context
+knowledge_refs:
+  - llm-05-tokenization-and-context
+  - llm-07-rag-engineering
+references:
+  - title: "OpenAI Embeddings Guide"
+    url: "https://platform.openai.com/docs/guides/embeddings"
+    notes: "Official guide to text embeddings"
+  - title: "Sentence Transformers Documentation"
+    url: "https://www.sbert.net/"
+    notes: "Open-source embedding models"
+  - title: "Weaviate Vector Database"
+    url: "https://weaviate.io/"
+    notes: "Production vector search engine"
+  - title: "Chroma DB"
+    url: "https://www.trychroma.com/"
+    notes: "Lightweight embedding database"
+  - title: "Vector Database Comparison"
+    url: "https://superlinked.com/vector-db-comparison"
+    notes: "Detailed comparison of vector databases"
 ---
 
-# LLM-06-EMBEDDINGS-AND-SEMANTIC-SEARCH: Embeddings & Semantic Search
+# Embeddings & Semantic Search
 
-## Introduction
+Embeddings convert text into dense numerical vectors that capture meaning. Similar texts produce similar vectors, enabling semantic search that goes beyond keyword matching.
 
-Turn text into vectors and search by meaning — the retrieval backbone of LLM apps. By the end of this lesson you will be able to: Generate text embeddings; Measure semantic similarity; Index and query vectors; Evaluate retrieval quality.
+## What Are Embeddings?
 
-## Key Concepts
-
-### 1. Generate text embeddings
-
-Target: Generate text embeddings. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+An embedding is a fixed-size vector (e.g., 1536 dimensions) that represents the semantic meaning of text:
 
 ```python
 from openai import OpenAI
-
 client = OpenAI()
-vec = client.embeddings.create(model="text-embedding-3-small", input=["deep learning rocks"])
-print("dim:", len(vec.data[0].embedding))
-```
-### 2. Measure semantic similarity
 
-Target: Measure semantic similarity. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+response = client.embeddings.create(
+    model="text-embedding-3-small",
+    input="Machine learning is fascinating"
+)
+vector = response.data[0].embedding  # 1536 floats
+```
+
+### Key Property
+Semantic similarity → vector proximity:
+- "The cat sat on the mat" → similar vector to "A feline rested on the rug"
+- "Python programming" → similar vector to "coding in Python"
+
+## Similarity Metrics
+
+| Metric | Formula | Range | Best For |
+|--------|---------|-------|----------|
+| Cosine | cos(A,B) = A·B / (‖A‖‖B‖) | [-1, 1] | Most common, normalized vectors |
+| Dot Product | A·B | (-∞, ∞) | Pre-normalized vectors |
+| Euclidean | ‖A-B‖₂ | [0, ∞) | Geometric distance |
+
+**Cosine similarity** is the default for most vector databases.
+
+## Embedding Models
+
+### OpenAI
+- `text-embedding-3-small`: 1536 dims, fast, cheap
+- `text-embedding-3-large`: 3072 dims, higher quality
+- Supports dimension reduction via `dimensions` parameter
+
+### Open-Source (Sentence Transformers)
+- `all-MiniLM-L6-v2`: 384 dims, very fast
+- `bge-large-en-v1.5`: 1024 dims, high quality
+- `nomic-embed-text-v1`: 768 dims, open-source leader
+- Run locally, no API costs
+
+### Cohere
+- `embed-english-v3.0`: 1024 dims, optimized for search
+
+## Vector Databases
+
+| Database | Type | Best For |
+|----------|------|----------|
+| **Chroma** | Embedded | Prototyping, small projects |
+| **Pinecone** | Managed | Production, zero-ops |
+| **Weaviate** | Self-hosted/managed | Hybrid search, GraphQL API |
+| **Qdrant** | Self-hosted | Performance, Rust-based |
+| **Milvus** | Self-hosted | Large-scale, distributed |
+| **pgvector** | Postgres extension | Teams already using Postgres |
+
+### Choosing a Database
+- **Prototype**: Chroma (runs in-process, no setup)
+- **Small production**: Pinecone (managed, serverless)
+- **Hybrid search**: Weaviate (BM25 + vector)
+- **High performance**: Qdrant (Rust, fast)
+- **Already have Postgres**: pgvector
+
+## Practical Example
 
 ```python
-import numpy as np
+import chromadb
 
-def cosine(a, b):
-    return np.dot(a, b) / (np.linalg.norm(a) * np.linalg.norm(b))
+client = chromadb.Client()
+collection = client.create_collection("documents")
 
-print("similarity:", round(cosine(np.array([1, 0]), np.array([0.99, 0.1])), 3))
+# Add documents
+collection.add(
+    documents=["Python is great for ML", "JavaScript powers the web"],
+    ids=["doc1", "doc2"]
+)
+
+# Semantic search
+results = collection.query(
+    query_texts=["programming for data science"],
+    n_results=1
+)
+print(results["documents"])  # ["Python is great for ML"]
 ```
-### 3. Index and query vectors
-
-Target: Index and query vectors. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
-
-```python
-import faiss
-
-index = faiss.IndexFlatIP(384)
-print("vector index ready")
-```
-### 4. Evaluate retrieval quality
-
-Target: Evaluate retrieval quality. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
-
-```python
-print("evaluate: does the top-5 contain the right document?")
-```
-
-## Practice Questions
-
-1. What is the key idea behind "Embeddings & Semantic Search"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
-
-## LLM Prompts for Deeper Understanding
-
-1. "Explain Embeddings & Semantic Search with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Embeddings & Semantic Search"
-1. "Provide advanced patterns and performance considerations for Embeddings & Semantic Search"
 
 ## Key Takeaways
 
-- Master the core ideas of Embeddings & Semantic Search through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
-
-## Further Reading
-
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+1. Embeddings capture semantic meaning as dense vectors
+2. Cosine similarity is the standard metric for comparing embeddings
+3. Open-source models (Sentence Transformers) are competitive with commercial APIs
+4. Choose vector databases based on scale, features, and existing infrastructure
+5. Semantic search goes beyond keyword matching to find conceptually related content

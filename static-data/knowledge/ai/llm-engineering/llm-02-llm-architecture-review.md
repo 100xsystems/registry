@@ -1,118 +1,129 @@
 ---
-{
-  "title": "LLM Architecture Review",
-  "description": "Decoder-only transformers, context windows, and what happens inside a single generation call.",
-  "type": "lesson",
-  "order": 2,
-  "duration": "50 min",
-  "difficulty": "intermediate",
-  "learning_objectives": [
-    "Describe the decoder-only stack",
-    "Explain context window mechanics",
-    "Trace a generation call end to end",
-    "Understand KV caching"
-  ],
-  "knowledge_refs": [
-    "llm-engineering/llm-01-what-is-llm-engineering",
-    "generative-ai/genai-06-llm-architecture",
-    "ai-agents/agents-02-agent-architecture"
-  ],
-  "prerequisites": [
-    "DL-17: Transformers"
-  ],
-  "references": [
-    {
-      "title": "OpenAI Platform Docs",
-      "url": "https://platform.openai.com/docs",
-      "description": "API reference for chat, embeddings, function calling and vision."
-    },
-    {
-      "title": "Anthropic Documentation",
-      "url": "https://docs.anthropic.com/",
-      "description": "Claude API docs including prompt engineering guides."
-    },
-    {
-      "title": "Hugging Face Transformers",
-      "url": "https://huggingface.co/docs/transformers",
-      "description": "Models, tokenizers and pipelines for LLM work."
-    },
-    {
-      "title": "LangChain Documentation",
-      "url": "https://python.langchain.com/docs",
-      "description": "Frameworks for RAG, agents and LLM applications."
-    },
-    {
-      "title": "vLLM Documentation",
-      "url": "https://docs.vllm.ai/",
-      "description": "High-throughput LLM serving and inference."
-    }
-  ]
-}
+slug: llm-02-llm-architecture-review
+title: "LLM Architecture Review"
+description: "The transformer decoder under the hood — attention mechanisms, KV cache, positional encoding, and Mixture of Experts."
+order: 2
+tags:
+  - llm-engineering
+  - transformer
+  - attention
+  - architecture
+prerequisites:
+  - llm-01-what-is-llm-engineering
+knowledge_refs:
+  - llm-01-what-is-llm-engineering
+  - llm-03-llm-apis
+references:
+  - title: "Attention Is All You Need"
+    url: "https://arxiv.org/abs/1706.03762"
+    notes: "The original transformer paper"
+  - title: "FlashAttention: Fast and Memory-Efficient Exact Attention"
+    url: "https://arxiv.org/abs/2205.14135"
+    notes: "IO-aware attention algorithm"
+  - title: "Llama 3 Herd of Models"
+    url: "https://arxiv.org/abs/2407.21783"
+    notes: "Modern LLM architecture details"
+  - title: "The Illustrated Transformer"
+    url: "https://jalammar.github.io/illustrated-transformer/"
+    notes: "Visual guide to transformer internals"
+  - title: "Mixture of Experts Explained"
+    url: "https://huggingface.co/blog/moe"
+    notes: "How MoE architectures work"
 ---
 
-# LLM-02-LLM-ARCHITECTURE-REVIEW: LLM Architecture Review
+# LLM Architecture Review
 
-## Introduction
+Modern LLMs are built on the **transformer decoder** architecture. Understanding the key components helps LLM engineers make better decisions about model selection, prompting, and system design.
 
-Decoder-only transformers, context windows, and what happens inside a single generation call. By the end of this lesson you will be able to: Describe the decoder-only stack; Explain context window mechanics; Trace a generation call end to end; Understand KV caching.
+## The Transformer Decoder
 
-## Key Concepts
+All modern LLMs (GPT-4, Claude, Llama, Gemini) use a **decoder-only** transformer:
 
-### 1. Describe the decoder-only stack
-
-Target: Describe the decoder-only stack. Start with the foundations — read the runnable example carefully and trace its output before moving on.
-
-```python
-import torch.nn as nn
-
-# Decoder block: masked attention + MLP
-block = nn.TransformerDecoderLayer(d_model=512, nhead=8, batch_first=True)
-print(block)
 ```
-### 2. Explain context window mechanics
+Input Tokens → Embedding → [Decoder Block × N] → Linear → Softmax → Output Tokens
 
-Target: Explain context window mechanics. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
-
-```python
-print("context window = prompt + generated tokens")
-```
-### 3. Trace a generation call end to end
-
-Target: Trace a generation call end to end. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
-
-```python
-import torch
-
-# KV cache: reuse past key/values for speed
-kv_cache = {"k": torch.randn(1, 8, 10, 64), "v": torch.randn(1, 8, 10, 64)}
-print("cached keys:", kv_cache["k"].shape)
-```
-### 4. Understand KV caching
-
-Target: Understand KV caching. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
-
-```python
-print("each new token attends to all cached positions")
+Each Decoder Block:
+  ├── Masked Multi-Head Self-Attention
+  ├── Add & Layer Norm
+  ├── Feed-Forward Network (MLP)
+  └── Add & Layer Norm
 ```
 
-## Practice Questions
+## Self-Attention Mechanism
 
-1. What is the key idea behind "LLM Architecture Review"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+Self-attention lets each token attend to all previous tokens:
 
-## LLM Prompts for Deeper Understanding
+```
+Attention(Q, K, V) = softmax(QK^T / √d_k) V
+```
 
-1. "Explain LLM Architecture Review with analogies and real-world examples"
-1. "Show me common mistakes beginners make with LLM Architecture Review"
-1. "Provide advanced patterns and performance considerations for LLM Architecture Review"
+- **Q (Query)**: "What am I looking for?"
+- **K (Key)**: "What do I contain?"
+- **V (Value)**: "What information do I provide?"
+- **√d_k**: Scaling factor to prevent softmax saturation
+
+### Multi-Head Attention
+Multiple attention heads capture different types of relationships:
+- Head 1 might capture syntactic relationships
+- Head 2 might capture semantic similarity
+- Head 3 might capture long-range dependencies
+
+## KV Cache
+
+During autoregressive generation, we compute attention for each new token against all previous tokens. The **KV cache** stores previously computed Key and Value matrices:
+
+- Without cache: O(n²) computation per token
+- With cache: O(n) computation per token (only new Q, K, V computed)
+- Trade-off: memory proportional to sequence length × number of layers × heads
+
+## Positional Encoding
+
+Transformers have no inherent notion of order. Positional encoding injects sequence position:
+
+### RoPE (Rotary Position Embeddings)
+- Used by: Llama, Mistral, Qwen, DeepSeek
+- Encodes position as rotation in embedding space
+- Naturally handles relative positions
+- Extends to longer contexts via NTK-aware scaling
+
+### ALiBi (Attention with Linear Biases)
+- Used by: BLOOM, MPT
+- Adds linear bias to attention scores based on distance
+- Simpler than RoPE, good for length generalization
+
+## Mixture of Experts (MoE)
+
+Instead of a single large feed-forward network, MoE uses multiple specialized "expert" networks:
+
+- **Router**: decides which experts to activate per token
+- **Top-k routing**: typically top-2 experts per token
+- **Sparse activation**: only k out of N experts run per token
+- **Benefits**: larger total model capacity with lower inference cost
+
+Example: Mixtral 8x7B has 8 experts, activates 2 per token → 47B active parameters but 13B effective per token.
+
+## Key Numbers
+
+| Model | Parameters | Context | Architecture |
+|-------|-----------|---------|--------------|
+| GPT-4 | ~1.8T (MoE) | 128K | Transformer decoder |
+| Claude 3.5 | Unknown | 200K | Transformer decoder |
+| Llama 3.1 405B | 405B | 128K | Dense transformer |
+| Mixtral 8x22B | 141B (39B active) | 64K | MoE transformer |
+| DeepSeek-V3 | 671B (37B active) | 128K | MoE + MLA |
+
+## Practical Implications for LLM Engineers
+
+1. **Context window limits** → design retrieval strategies to stay within bounds
+2. **KV cache memory** → understand why long contexts are expensive
+3. **Attention patterns** → "lost in the middle" is a real phenomenon
+4. **MoE routing** → some models may be inconsistent across calls
+5. **Positional encoding** → affects length generalization and extrapolation
 
 ## Key Takeaways
 
-- Master the core ideas of LLM Architecture Review through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
-
-## Further Reading
-
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+1. Modern LLMs are decoder-only transformers with self-attention
+2. KV cache makes autoregressive generation efficient
+3. RoPE is the dominant positional encoding for long-context models
+4. MoE architectures offer larger capacity with lower inference cost
+5. Understanding architecture helps explain model behaviors and limitations

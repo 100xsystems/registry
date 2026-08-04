@@ -1,111 +1,147 @@
 ---
-{
-  "title": "The LLMOps Tooling Landscape",
-  "description": "Survey the ecosystem: frameworks, eval platforms, observability and serving.",
-  "type": "lesson",
-  "order": 20,
-  "duration": "50 min",
-  "difficulty": "intermediate",
-  "learning_objectives": [
-    "Compare LLM frameworks (LangChain, LlamaIndex)",
-    "Choose an eval platform",
-    "Pick observability tooling",
-    "Match tools to team size"
-  ],
-  "knowledge_refs": [
-    "llm-engineering/llm-19-production-case-studies",
-    "mlops/mlops-01-what-is-mlops",
-    "mlops/mlops-20-llmops"
-  ],
-  "prerequisites": [
-    "LLM-01: What Is LLM Engineering?"
-  ],
-  "references": [
-    {
-      "title": "OpenAI Platform Docs",
-      "url": "https://platform.openai.com/docs",
-      "description": "API reference for chat, embeddings, function calling and vision."
-    },
-    {
-      "title": "Anthropic Documentation",
-      "url": "https://docs.anthropic.com/",
-      "description": "Claude API docs including prompt engineering guides."
-    },
-    {
-      "title": "Hugging Face Transformers",
-      "url": "https://huggingface.co/docs/transformers",
-      "description": "Models, tokenizers and pipelines for LLM work."
-    },
-    {
-      "title": "LangChain Documentation",
-      "url": "https://python.langchain.com/docs",
-      "description": "Frameworks for RAG, agents and LLM applications."
-    },
-    {
-      "title": "vLLM Documentation",
-      "url": "https://docs.vllm.ai/",
-      "description": "High-throughput LLM serving and inference."
-    }
-  ]
-}
+slug: llm-20-llmops-tooling
+title: "The LLMOps Tooling Landscape"
+description: "Navigating the LLMOps ecosystem — frameworks, platforms, and tools for building, deploying, and monitoring LLM applications."
+order: 20
+tags:
+  - llm-engineering
+  - llmops
+  - tooling
+  - platforms
+prerequisites:
+  - llm-17-observability
+  - llm-15-llm-serving
+knowledge_refs:
+  - llm-17-observability
+  - llm-15-llm-serving
+  - llm-16-cost-optimization
+references:
+  - title: "LLMOPS Community"
+    url: "https://github.com/chase0213/llmops"
+    notes: "LLMOps resource collection"
+  - title: "LangChain Ecosystem"
+    url: "https://www.langchain.com/"
+    notes: "Framework + platform for LLM apps"
+  - title: "LlamaIndex Documentation"
+    url: "https://docs.llamaindex.ai/"
+    notes: "Data framework for LLM apps"
+  - title: "Haystack by deepset"
+    url: "https://haystack.deepset.ai/"
+    notes: "Production NLP framework"
+  - title: "Modal: Serverless LLM Infrastructure"
+    url: "https://modal.com/"
+    notes: "Cloud GPU infrastructure for LLMs"
 ---
 
-# LLM-20-LLMOPS-TOOLING: The LLMOps Tooling Landscape
+# The LLMOps Tooling Landscape
 
-## Introduction
+The LLMOps ecosystem has exploded. Understanding the layers helps you choose the right tools for your stack.
 
-Survey the ecosystem: frameworks, eval platforms, observability and serving. By the end of this lesson you will be able to: Compare LLM frameworks (LangChain, LlamaIndex); Choose an eval platform; Pick observability tooling; Match tools to team size.
+## Tooling Layers
 
-## Key Concepts
-
-### 1. Compare LLM frameworks (LangChain, LlamaIndex)
-
-Target: Compare LLM frameworks (LangChain, LlamaIndex). Start with the foundations — read the runnable example carefully and trace its output before moving on.
-
-```python
-frameworks = {"langchain": "chains & agents", "llamaindex": "data & RAG"}
-print(frameworks)
 ```
-### 2. Choose an eval platform
-
-Target: Choose an eval platform. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
-
-```python
-print("start with plain API calls; add frameworks when they pay for themselves")
-```
-### 3. Pick observability tooling
-
-Target: Pick observability tooling. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
-
-```python
-print("eval platforms: run golden sets on every commit")
-```
-### 4. Match tools to team size
-
-Target: Match tools to team size. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
-
-```python
-print("observability: traces, cost, latency, feedback")
+┌─────────────────────────────────────────────┐
+│              Application Layer              │
+│  LangChain, LlamaIndex, Haystack, Semantic │
+├─────────────────────────────────────────────┤
+│              Orchestration Layer            │
+│  LangGraph, CrewAI, AutoGen, DSPy         │
+├─────────────────────────────────────────────┤
+│              Observability Layer            │
+│  LangSmith, Braintrust, Helicone, Arize    │
+├─────────────────────────────────────────────┤
+│              Serving Layer                  │
+│  vLLM, TGI, TensorRT-LLM, Ollama         │
+├─────────────────────────────────────────────┤
+│              Infrastructure Layer           │
+│  Modal, Replicate, Anyscale, Together AI   │
+├─────────────────────────────────────────────┤
+│              Model Layer                    │
+│  OpenAI, Anthropic, Google, Meta, Mistral  │
+└─────────────────────────────────────────────┘
 ```
 
-## Practice Questions
+## Framework Comparison
 
-1. What is the key idea behind "The LLMOps Tooling Landscape"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+### LangChain / LangGraph
+- **LangChain**: chain LLM calls with tools and memory
+- **LangGraph**: graph-based workflow orchestration
+- **LangSmith**: observability and evaluation platform
+- **Best for**: complex agent workflows, multi-step pipelines
 
-## LLM Prompts for Deeper Understanding
+### LlamaIndex
+- **Focus**: data indexing and retrieval (RAG)
+- **Features**: document loaders, vector stores, query engines
+- **Best for**: RAG-heavy applications, data-intensive workflows
 
-1. "Explain The LLMOps Tooling Landscape with analogies and real-world examples"
-1. "Show me common mistakes beginners make with The LLMOps Tooling Landscape"
-1. "Provide advanced patterns and performance considerations for The LLMOps Tooling Landscape"
+### Haystack
+- **Focus**: production NLP pipelines
+- **Features**: modular components, evaluation, deployment
+- **Best for**: enterprise search, document processing
+
+### Semantic Kernel
+- **Focus**: enterprise Microsoft ecosystem
+- **Features**: C#/Python SDK, Azure integration
+- **Best for**: Microsoft shops, enterprise deployments
+
+## Vector Databases
+
+| Database | Self-Hosted | Managed | Best For |
+|----------|-------------|---------|----------|
+| Chroma | ✅ | ❌ | Prototyping |
+| Pinecone | ❌ | ✅ | Quick production |
+| Weaviate | ✅ | ✅ | Hybrid search |
+| Qdrant | ✅ | ✅ | Performance |
+| Milvus | ✅ | ✅ | Scale |
+| pgvector | ✅ | ✅ | Postgres users |
+
+## Serving Platforms
+
+| Platform | Model | GPU | Best For |
+|----------|-------|-----|----------|
+| OpenAI API | GPT-4 | Managed | No infra |
+| Anthropic API | Claude | Managed | No infra |
+| Together AI | Open models | Managed | Open models |
+| Modal | Any | Serverless | Custom serving |
+| Replicate | Many | Serverless | Quick deployment |
+| Anyscale | Any | Clustered | Large-scale |
+
+## Evaluation Platforms
+
+| Platform | Focus | Free Tier |
+|----------|-------|-----------|
+| LangSmith | Tracing + eval | ✅ |
+| Braintrust | Eval + prompts | ✅ |
+| Helicone | Proxy + analytics | ✅ |
+| Arize | Observability | ✅ |
+| Inspect AI | Benchmark eval | ✅ |
+
+## Choosing Your Stack
+
+### Simple RAG App
+```
+OpenAI API + Chroma + LangChain
+```
+
+### Production Agent
+```
+LangGraph + vLLM + LangSmith + Qdrant
+```
+
+### Enterprise
+```
+Semantic Kernel + Azure OpenAI + Weaviate + Azure ML
+```
+
+### Open Source Stack
+```
+LlamaIndex + Ollama + Chroma + Haystack
+```
 
 ## Key Takeaways
 
-- Master the core ideas of The LLMOps Tooling Landscape through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
-
-## Further Reading
-
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+1. The LLMOps stack has clear layers: application → orchestration → observability → serving → infrastructure → models
+2. LangChain/LangGraph leads for complex workflows; LlamaIndex for RAG
+3. Vector databases range from Chroma (prototyping) to Milvus (enterprise)
+4. Serving platforms span managed APIs to self-hosted vLLM
+5. Start simple, add complexity as needed

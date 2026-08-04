@@ -1,117 +1,168 @@
 ---
-{
-  "title": "LLM Engineering Roadmap",
-  "description": "Synthesize the course into a plan: build, ship and scale LLM products.",
-  "type": "lesson",
-  "order": 21,
-  "duration": "40 min",
-  "difficulty": "advanced",
-  "learning_objectives": [
-    "Design a personal LLM engineering plan",
-    "Pick flagship projects (RAG, agent, fine-tune)",
-    "Connect to GenAI, agents and MLOps courses",
-    "Stay current with the field"
-  ],
-  "knowledge_refs": [
-    "llm-engineering/llm-20-llmops-tooling",
-    "generative-ai/genai-06-llm-architecture",
-    "prompt-engineering/pe-01-what-is-prompt-engineering"
-  ],
-  "prerequisites": [
-    "LLM-20: The LLMOps Tooling Landscape"
-  ],
-  "references": [
-    {
-      "title": "OpenAI Platform Docs",
-      "url": "https://platform.openai.com/docs",
-      "description": "API reference for chat, embeddings, function calling and vision."
-    },
-    {
-      "title": "Anthropic Documentation",
-      "url": "https://docs.anthropic.com/",
-      "description": "Claude API docs including prompt engineering guides."
-    },
-    {
-      "title": "Hugging Face Transformers",
-      "url": "https://huggingface.co/docs/transformers",
-      "description": "Models, tokenizers and pipelines for LLM work."
-    },
-    {
-      "title": "LangChain Documentation",
-      "url": "https://python.langchain.com/docs",
-      "description": "Frameworks for RAG, agents and LLM applications."
-    },
-    {
-      "title": "vLLM Documentation",
-      "url": "https://docs.vllm.ai/",
-      "description": "High-throughput LLM serving and inference."
-    }
-  ]
-}
+slug: llm-21-roadmap
+title: "LLM Engineering Roadmap"
+description: "Your path from LLM beginner to production engineer — skills, projects, and career directions for the AI era."
+order: 21
+tags:
+  - llm-engineering
+  - roadmap
+  - career
+  - learning-path
+prerequisites:
+  - llm-01-what-is-llm-engineering
+knowledge_refs:
+  - llm-01-what-is-llm-engineering
+  - llm-18-building-a-copilot
+  - llm-20-llmops-tooling
+references:
+  - title: "LLM University (Cohere)"
+    url: "https://docs.cohere.com/docs/llmu"
+    notes: "Comprehensive LLM learning program"
+  - title: "Full Stack LLM Course"
+    url: "https://fullstackdeeplearning.com/llm-bootcamp/"
+    notes: "Practical LLM application development"
+  - title: "AI Engineer Roadmap"
+    url: "https://www.aiengineer.io/roadmap"
+    notes: "Career path for AI engineers"
+  - title: "Latent Space Newsletter"
+    url: "https://www.latent.space/"
+    notes: "AI engineering community and insights"
+  - title: "Hugging Face Courses"
+    url: "https://huggingface.co/learn"
+    notes: "Free courses on LLMs and NLP"
 ---
 
-# LLM-21-ROADMAP: LLM Engineering Roadmap
+# LLM Engineering Roadmap
 
-## Introduction
+This roadmap takes you from LLM beginner to production-ready engineer, with practical milestones and curated resources.
 
-Synthesize the course into a plan: build, ship and scale LLM products. By the end of this lesson you will be able to: Design a personal LLM engineering plan; Pick flagship projects (RAG, agent, fine-tune); Connect to GenAI, agents and MLOps courses; Stay current with the field.
+## Phase 1: Foundations (Weeks 1-4)
 
-## Key Concepts
+### Prerequisites
+- Python proficiency (including async)
+- API development basics
+- Basic ML concepts (not required but helpful)
 
-### 1. Design a personal LLM engineering plan
+### LLM Fundamentals
+- How LLMs work (transformer basics)
+- Prompt engineering techniques
+- Working with LLM APIs (OpenAI, Anthropic)
+- Tokenization and context windows
 
-Target: Design a personal LLM engineering plan. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+**Projects:**
+- Build a chat interface with OpenAI API
+- Create a prompt template library
+- Implement basic RAG with Chroma
 
-```python
-plan = {
-    1: "ship a RAG knowledge assistant",
-    2: "build an agent with tools",
-    3: "fine-tune a small model with LoRA",
-    4: "add evals + guardrails in CI",
-}
-print(plan)
-```
-### 2. Pick flagship projects (RAG, agent, fine-tune)
+**Resources:**
+- [LLM University (Cohere)](https://docs.cohere.com/docs/llmu) (free)
+- [OpenAI Cookbook](https://cookbook.openai.com/) (free)
 
-Target: Pick flagship projects (RAG, agent, fine-tune). Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+## Phase 2: RAG & Retrieval (Weeks 5-8)
 
-```python
-print("next: AI Agents course for agent patterns")
-```
-### 3. Connect to GenAI, agents and MLOps courses
+### Core Skills
+- Text embeddings and vector databases
+- Document chunking strategies
+- Hybrid search (dense + sparse)
+- Reranking and evaluation
 
-Target: Connect to GenAI, agents and MLOps courses. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+### Advanced RAG
+- Query routing and adaptive retrieval
+- Self-RAG and quality gates
+- Multimodal RAG
 
-```python
-print("next: MLOps course for production discipline")
-```
-### 4. Stay current with the field
+**Projects:**
+- Build a document Q&A system
+- Implement hybrid search with Weaviate
+- Create a knowledge base with RAGAS evaluation
 
-Target: Stay current with the field. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+**Resources:**
+- [LlamaIndex docs](https://docs.llamaindex.ai/) (free)
+- [RAG from Scratch (LangChain)](https://github.com/langchain-ai/rag-from-scratch) (free)
 
-```python
-sources = ["OpenAI blog", "Anthropic docs", "Hugging Face", "Latent Space podcast"]
-print("follow:", ", ".join(sources))
-```
+## Phase 3: Agents & Tools (Weeks 9-12)
 
-## Practice Questions
+### Agent Patterns
+- ReAct and Plan-and-Execute
+- Function calling and tool use
+- Memory systems (working, episodic, semantic)
+- Multi-agent architectures
 
-1. What is the key idea behind "LLM Engineering Roadmap"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+### Orchestration
+- LangGraph for graph workflows
+- CrewAI for role-based agents
+- State management and error handling
 
-## LLM Prompts for Deeper Understanding
+**Projects:**
+- Build a research agent with web search
+- Create a multi-tool agent (calculator, code, search)
+- Implement a customer support agent with escalation
 
-1. "Explain LLM Engineering Roadmap with analogies and real-world examples"
-1. "Show me common mistakes beginners make with LLM Engineering Roadmap"
-1. "Provide advanced patterns and performance considerations for LLM Engineering Roadmap"
+**Resources:**
+- [LangGraph docs](https://langchain-ai.github.io/langgraph/) (free)
+- [Building Effective Agents (Anthropic)](https://docs.anthropic.com/en/docs/build-with-claude/agentic) (free)
+
+## Phase 4: Production (Weeks 13-16)
+
+### Serving & Optimization
+- Model quantization (GPTQ, AWQ)
+- vLLM and TGI serving
+- Cost optimization and caching
+- Prompt compression
+
+### Safety & Observability
+- Prompt injection prevention
+- Content filtering and guardrails
+- Tracing and monitoring
+- Prompt versioning
+
+**Projects:**
+- Deploy a model with vLLM
+- Implement prompt caching for cost reduction
+- Build an eval pipeline with LangSmith
+
+**Resources:**
+- [vLLM docs](https://docs.vllm.ai/) (free)
+- [LangSmith docs](https://docs.smith.langchain.com/) (free)
+
+## Phase 5: Specialization (Weeks 17+)
+
+### Pick a Focus
+- **Code Agents**: GitHub Copilot-style tools
+- **Customer Support**: Intercom Fin-style agents
+- **Data Analysis**: AI-powered analytics
+- **Creative Tools**: Writing, design, content
+- **Enterprise**: Compliance, security, scale
+
+### Career Paths
+- **AI Engineer**: build LLM applications
+- **ML Engineer**: fine-tune and serve models
+- **AI Product Manager**: define AI products
+- **AI Researcher**: push boundaries
+
+## Recommended Projects
+
+1. **RAG Chatbot**: Q&A over your documentation
+2. **Code Assistant**: autocomplete or chat-based coding
+3. **Data Analyst**: natural language to SQL/analysis
+4. **Multi-Agent System**: research + writing + review
+5. **Production Copilot**: full-stack AI product
+
+## Key Milestones
+
+- [ ] Build a working chat interface with streaming
+- [ ] Implement RAG with evaluation metrics
+- [ ] Create an agent with 3+ tools
+- [ ] Deploy a model to production
+- [ ] Build an eval pipeline
+- [ ] Handle prompt injection attacks
+- [ ] Optimize costs by 50%+
+- [ ] Ship a production LLM feature
 
 ## Key Takeaways
 
-- Master the core ideas of LLM Engineering Roadmap through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
-
-## Further Reading
-
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+1. Start with APIs and prompting — don't jump to fine-tuning
+2. RAG is the most valuable skill for production LLM apps
+3. Agents are powerful but complex — master basics first
+4. Production skills (serving, safety, monitoring) are as important as model knowledge
+5. The field evolves rapidly — stay connected to the community

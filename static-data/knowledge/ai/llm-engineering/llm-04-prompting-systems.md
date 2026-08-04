@@ -1,120 +1,149 @@
 ---
-{
-  "title": "Prompting Systems at Scale",
-  "description": "Turn prompts into versioned, testable system components — not strings in code.",
-  "type": "lesson",
-  "order": 4,
-  "duration": "50 min",
-  "difficulty": "intermediate",
-  "learning_objectives": [
-    "Separate system, user and assistant turns",
-    "Template prompts with variables",
-    "Version prompts like code",
-    "Measure prompt quality with evals"
-  ],
-  "knowledge_refs": [
-    "llm-engineering/llm-03-llm-apis",
-    "prompt-engineering/pe-01-what-is-prompt-engineering",
-    "prompt-engineering/pe-02-prompt-structure"
-  ],
-  "prerequisites": [
-    "LLM-03: Working with LLM APIs"
-  ],
-  "references": [
-    {
-      "title": "OpenAI Platform Docs",
-      "url": "https://platform.openai.com/docs",
-      "description": "API reference for chat, embeddings, function calling and vision."
-    },
-    {
-      "title": "Anthropic Documentation",
-      "url": "https://docs.anthropic.com/",
-      "description": "Claude API docs including prompt engineering guides."
-    },
-    {
-      "title": "Hugging Face Transformers",
-      "url": "https://huggingface.co/docs/transformers",
-      "description": "Models, tokenizers and pipelines for LLM work."
-    },
-    {
-      "title": "LangChain Documentation",
-      "url": "https://python.langchain.com/docs",
-      "description": "Frameworks for RAG, agents and LLM applications."
-    },
-    {
-      "title": "vLLM Documentation",
-      "url": "https://docs.vllm.ai/",
-      "description": "High-throughput LLM serving and inference."
-    }
-  ]
-}
+slug: llm-04-prompting-systems
+title: "Prompting Systems at Scale"
+description: "Managing prompts as production systems — versioning, A/B testing, structured outputs, and prompt architecture patterns."
+order: 4
+tags:
+  - llm-engineering
+  - prompting
+  - structured-outputs
+  - versioning
+prerequisites:
+  - llm-03-llm-apis
+knowledge_refs:
+  - llm-03-llm-apis
+  - llm-05-tokenization-and-context
+references:
+  - title: "OpenAI Structured Outputs"
+    url: "https://platform.openai.com/docs/guides/structured-outputs"
+    notes: "Schema enforcement via constrained decoding"
+  - title: "Prompt Versioning Guide"
+    url: "https://agenta.ai/blog/prompt-versioning-guide"
+    notes: "Managing prompts in production teams"
+  - title: "A/B Testing with Prompts"
+    url: "https://www.getmaxim.ai/articles/how-to-perform-a-b-testing-with-prompts/"
+    notes: "Experiment design for prompt optimization"
+  - title: "Chain-of-Thought Prompting"
+    url: "https://www.promptingguide.ai/techniques/cot"
+    notes: "Reasoning frameworks for complex tasks"
+  - title: "Few-Shot Prompting"
+    url: "https://www.promptingguide.ai/techniques/fewshot"
+    notes: "In-context learning mechanics"
 ---
 
-# LLM-04-PROMPTING-SYSTEMS: Prompting Systems at Scale
+# Prompting Systems at Scale
 
-## Introduction
+In production, prompts are not one-off scripts — they are **versioned, tested, and monitored systems**. This lesson covers the engineering practices for managing prompts at scale.
 
-Turn prompts into versioned, testable system components — not strings in code. By the end of this lesson you will be able to: Separate system, user and assistant turns; Template prompts with variables; Version prompts like code; Measure prompt quality with evals.
+## System Prompt Architecture
 
-## Key Concepts
+A well-structured system prompt has clear sections:
 
-### 1. Separate system, user and assistant turns
-
-Target: Separate system, user and assistant turns. Start with the foundations — read the runnable example carefully and trace its output before moving on.
-
-```python
-from langchain_core.prompts import ChatPromptTemplate
-
-prompt = ChatPromptTemplate.from_messages([
-    ("system", "You are a {role} assistant."),
-    ("user", "{question}"),
-])
-print(prompt.format(role="support", question="How do I refund?"))
 ```
-### 2. Template prompts with variables
-
-Target: Template prompts with variables. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
-
-```python
-system_prompt = "You are a concise technical writer."
-print(system_prompt)
-```
-### 3. Version prompts like code
-
-Target: Version prompts like code. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
-
-```python
-import hashlib
-
-prompt_text = "Answer concisely."
-print("prompt version:", hashlib.sha256(prompt_text.encode()).hexdigest()[:8])
-```
-### 4. Measure prompt quality with evals
-
-Target: Measure prompt quality with evals. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
-
-```python
-print("evals gate prompt changes: same eval set, compare scores")
+[IDENTITY]      → Who the model is
+[CONSTRAINTS]   → What it can/cannot do
+[FORMAT]        → Output structure expectations
+[EXAMPLES]      → Few-shot demonstrations
+[DYNAMIC]       → Retrieved context (RAG)
+[USER INPUT]    → The actual query
 ```
 
-## Practice Questions
+### Context Budgeting
+Balance static and dynamic content within the context window:
+- System prompt: ~500-2000 tokens
+- Few-shot examples: ~1000-3000 tokens
+- RAG context: ~2000-8000 tokens
+- Conversation history: remaining budget
+- Reserve for output: 1000-4000 tokens
 
-1. What is the key idea behind "Prompting Systems at Scale"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+## Few-Shot Prompting
 
-## LLM Prompts for Deeper Understanding
+Provide input-output examples to steer model behavior:
 
-1. "Explain Prompting Systems at Scale with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Prompting Systems at Scale"
-1. "Provide advanced patterns and performance considerations for Prompting Systems at Scale"
+```python
+prompt = """
+Classify the sentiment of each review.
+
+Review: "This product is amazing!" → Positive
+Review: "Terrible quality, broke after one day." → Negative
+Review: "It's okay, nothing special." → Neutral
+
+Review: "I love this so much!" →
+"""
+```
+
+### Best Practices
+- Include diverse examples covering edge cases
+- Match the exact output format expected
+- Order matters — put most relevant examples last (recency bias)
+- 3-5 examples is usually sufficient
+
+## Chain-of-Thought (CoT)
+
+Force step-by-step reasoning before the final answer:
+
+```python
+prompt = """
+Q: Roger has 5 tennis balls. He buys 2 cans of 3 each. How many does he have now?
+A: Roger starts with 5 balls. 2 cans × 3 balls = 6 balls. 5 + 6 = 11. The answer is 11.
+
+Q: The cafeteria had 23 apples. They used 20 for lunch and bought 6 more. How many do they have?
+A:
+"""
+```
+
+### Variants
+- **Few-shot CoT**: exemplars include reasoning traces
+- **Zero-shot CoT**: append "Let's think step by step"
+- **Self-consistency**: sample multiple CoT paths, majority vote
+
+## Structured Outputs
+
+Guarantee valid JSON/structured output via constrained decoding:
+
+```python
+response = client.chat.completions.create(
+    model="gpt-4o",
+    response_format={"type": "json_object", "schema": {
+        "type": "object",
+        "properties": {
+            "sentiment": {"type": "string", "enum": ["positive", "negative", "neutral"]},
+            "confidence": {"type": "number", "minimum": 0, "maximum": 1}
+        },
+        "required": ["sentiment", "confidence"]
+    }},
+    messages=[{"role": "user", "content": "This movie was fantastic!"}]
+)
+```
+
+## Prompt Versioning
+
+### Why Git Fails for Prompts
+- Non-technical stakeholders can't use Git
+- Prompt changes mix with code changes
+- No playground for side-by-side comparison
+
+### Dedicated Prompt Management
+- **Branching**: isolate experimental prompts
+- **Environments**: dev → staging → production
+- **Reusable snippets**: modular safety guardrails
+- **Live fetching**: runtime prompt updates without deployment
+
+## A/B Testing Prompts
+
+```
+Variant A (control): "You are a helpful assistant."
+Variant B (treatment): "You are a concise, technical assistant."
+
+→ Route 50% traffic to each
+→ Measure: accuracy, latency, cost, user satisfaction
+→ Statistical significance: ~100-200 samples per variant
+```
 
 ## Key Takeaways
 
-- Master the core ideas of Prompting Systems at Scale through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
-
-## Further Reading
-
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+1. Structure system prompts with clear sections (identity, constraints, format, examples)
+2. Few-shot examples should be diverse and match expected output format
+3. Chain-of-thought reasoning improves complex task performance
+4. Structured outputs via constrained decoding eliminate parsing failures
+5. Version and A/B test prompts like any other production code

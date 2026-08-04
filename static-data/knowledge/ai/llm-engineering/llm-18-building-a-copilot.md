@@ -1,123 +1,179 @@
 ---
-{
-  "title": "Building a Production Copilot",
-  "description": "Assemble everything into a real product: an assistant grounded in your data.",
-  "type": "lesson",
-  "order": 18,
-  "duration": "75 min",
-  "difficulty": "advanced",
-  "learning_objectives": [
-    "Design a copilot architecture",
-    "Wire RAG, tools and memory",
-    "Add guardrails and evals",
-    "Ship, monitor and iterate"
-  ],
-  "knowledge_refs": [
-    "llm-engineering/llm-17-observability",
-    "prompt-engineering/pe-10-system-prompts",
-    "generative-ai/genai-06-llm-architecture"
-  ],
-  "prerequisites": [
-    "LLM-11: Building LLM Agents"
-  ],
-  "references": [
-    {
-      "title": "OpenAI Platform Docs",
-      "url": "https://platform.openai.com/docs",
-      "description": "API reference for chat, embeddings, function calling and vision."
-    },
-    {
-      "title": "Anthropic Documentation",
-      "url": "https://docs.anthropic.com/",
-      "description": "Claude API docs including prompt engineering guides."
-    },
-    {
-      "title": "Hugging Face Transformers",
-      "url": "https://huggingface.co/docs/transformers",
-      "description": "Models, tokenizers and pipelines for LLM work."
-    },
-    {
-      "title": "LangChain Documentation",
-      "url": "https://python.langchain.com/docs",
-      "description": "Frameworks for RAG, agents and LLM applications."
-    },
-    {
-      "title": "vLLM Documentation",
-      "url": "https://docs.vllm.ai/",
-      "description": "High-throughput LLM serving and inference."
-    }
-  ]
-}
+slug: llm-18-building-a-copilot
+title: "Building a Production Copilot"
+description: "End-to-end architecture for building a production copilot — from prototype to scale, with real-world patterns."
+order: 18
+tags:
+  - llm-engineering
+  - copilot
+  - production
+  - architecture
+prerequisites:
+  - llm-11-llm-agents
+  - llm-15-llm-serving
+  - llm-14-guardrails-and-safety
+knowledge_refs:
+  - llm-11-llm-agents
+  - llm-15-llm-serving
+  - llm-16-cost-optimization
+references:
+  - title: "Building Effective Agents (Anthropic)"
+    url: "https://docs.anthropic.com/en/docs/build-with-claude/agentic"
+    notes: "Anthropic's agent design patterns"
+  - title: "GitHub Copilot Architecture"
+    url: "https://github.blog/2023-05-15-how-github-copilot-is-getting-better-at-understanding-your-code/"
+    notes: "How Copilot handles context"
+  - title: "Cursor Architecture"
+    url: "https://www.cursor.com/blog"
+    notes: "Lessons from building an AI code editor"
+  - title: "Replit Agent Architecture"
+    url: "https://blog.replit.com/replit-agent"
+    notes: "Full-stack AI agent for development"
+  - title: "Production LLM Patterns"
+    url: "https://www.anthropic.com/engineering/building-effective-ai-agents"
+    notes: "Anthropic's production patterns"
 ---
 
-# LLM-18-BUILDING-A-COPILOT: Building a Production Copilot
+# Building a Production Copilot
 
-## Introduction
+A copilot is an AI assistant that augments human work — writing code, drafting documents, analyzing data. This lesson covers end-to-end architecture for production copilots.
 
-Assemble everything into a real product: an assistant grounded in your data. By the end of this lesson you will be able to: Design a copilot architecture; Wire RAG, tools and memory; Add guardrails and evals; Ship, monitor and iterate.
+## Copilot Architecture
 
-## Key Concepts
+```
+User Input → Context Gathering → Prompt Assembly → LLM Generation → Output Processing → Response
+                  ↓                      ↓                ↓                ↓
+            Codebase context       System prompt     Model call     Format/validate
+            User history           RAG retrieval     Streaming      Safety filtering
+            Tool results           Few-shot examples                Tool execution
+```
 
-### 1. Design a copilot architecture
+## Context Gathering
 
-Target: Design a copilot architecture. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+The key differentiator of a good copilot is context quality:
 
+### Code Copilot
 ```python
-arch = {
-    "frontend": "chat UI",
-    "backend": "RAG + tools + guardrails",
-    "data": "vector store + docs",
-    "ops": "evals + observability",
+context = {
+    "current_file": open(current_file).read(),
+    "cursor_context": get_surrounding_code(cursor_position),
+    "open_files": [open(f).read() for f in open_files],
+    "recent_edits": get_recent_changes(),
+    "project_structure": get_file_tree(),
 }
-print(arch)
 ```
-### 2. Wire RAG, tools and memory
 
-Target: Wire RAG, tools and memory. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+### Document Copilot
+```python
+context = {
+    "current_document": document.text,
+    "cursor_position": cursor.pos,
+    "style_guide": get_style_guide(),
+    "reference_docs": search_relevant_docs(query),
+}
+```
+
+## Prompt Assembly
+
+Combine all context into the prompt:
 
 ```python
-from openai import OpenAI
+system_prompt = f"""You are a code assistant integrated into VS Code.
 
-client = OpenAI()
-res = client.chat.completions.create(
-    model="gpt-4o-mini",
-    messages=[{"role": "user", "content": "How do I reset my password?"}],
-)
-print("assistant:", res.choices[0].message.content[:60])
+Current file: {filename}
+Language: {language}
+Project: {project_name}
+
+Rules:
+- Suggest completions based on context
+- Follow project coding style
+- Don't repeat existing code
+- Explain non-obvious suggestions
+
+Context:
+{codebase_context}
+
+Recent changes:
+{recent_edits}
+"""
+
+messages = [
+    {"role": "system", "content": system_prompt},
+    {"role": "user", "content": user_instruction}
+]
 ```
-### 3. Add guardrails and evals
 
-Target: Add guardrails and evals. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+## Streaming and Responsiveness
 
+Copilots must feel instant:
 ```python
-print("answers cite sources -> trust")
+# Stream tokens as they arrive
+async for chunk in stream_response(messages):
+    display_token(chunk)  # Show immediately
+    if user_cancelled:
+        break
 ```
-### 4. Ship, monitor and iterate
 
-Target: Ship, monitor and iterate. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+### Latency Targets
+| Interaction | Target Latency |
+|-------------|---------------|
+| Autocomplete | < 200ms |
+| Chat response | < 2s first token |
+| Code generation | < 5s |
+| Multi-file edit | < 15s |
 
+## Safety and Guardrails
+
+### Code Safety
+- Validate generated code before execution
+- Sandboxed execution environments
+- No access to production systems
+- Rate limit code execution
+
+### Data Safety
+- Don't send sensitive code to external APIs
+- Local model option for enterprise
+- Audit logging of all requests
+- PII detection and redaction
+
+## Evaluation
+
+### Quantitative
+- **Acceptance rate**: % of suggestions accepted by users
+- **Edit distance**: how much users modify suggestions
+- **Task completion**: did the copilot help complete the task?
+
+### Qualitative
+- User satisfaction surveys
+- A/B testing different models/prompts
+- Session recordings (with consent)
+
+## Scaling Patterns
+
+### Caching
+Cache common completions:
 ```python
-print("feedback loop: thumbs up/down feed the eval set")
+completion_cache = RedisCache(ttl=3600)
+cached = completion_cache.get(file_hash + context_hash)
+if cached:
+    return cached
 ```
 
-## Practice Questions
-
-1. What is the key idea behind "Building a Production Copilot"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
-
-## LLM Prompts for Deeper Understanding
-
-1. "Explain Building a Production Copilot with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Building a Production Copilot"
-1. "Provide advanced patterns and performance considerations for Building a Production Copilot"
+### Model Tiering
+```python
+def select_model(task):
+    if task.type == "autocomplete":
+        return "small-fast-model"  # Low latency
+    elif task.type == "refactor":
+        return "large-model"       # High quality
+    elif task.type == "explain":
+        return "large-model"       # Need reasoning
+```
 
 ## Key Takeaways
 
-- Master the core ideas of Building a Production Copilot through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
-
-## Further Reading
-
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+1. Context quality is the key differentiator for copilot quality
+2. Streaming is essential for perceived responsiveness
+3. Safety guardrails prevent code execution risks
+4. Acceptance rate and edit distance are key metrics
+5. Model tiering balances latency and quality

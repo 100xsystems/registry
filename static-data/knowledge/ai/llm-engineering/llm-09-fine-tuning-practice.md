@@ -1,120 +1,152 @@
 ---
-{
-  "title": "Fine-Tuning LLMs in Practice",
-  "description": "LoRA, QLoRA and instruction tuning — adapt open models when prompting is not enough.",
-  "type": "lesson",
-  "order": 9,
-  "duration": "60 min",
-  "difficulty": "advanced",
-  "learning_objectives": [
-    "Prepare an instruction dataset",
-    "Fine-tune with LoRA",
-    "Evaluate the fine-tuned model",
-    "Decide when fine-tuning is worth it"
-  ],
-  "knowledge_refs": [
-    "llm-engineering/llm-08-advanced-rag",
-    "generative-ai/genai-08-fine-tuning-llms",
-    "machine-learning/ml-17-hyperparameter-tuning"
-  ],
-  "prerequisites": [
-    "GENAI-08: Fine-Tuning LLMs"
-  ],
-  "references": [
-    {
-      "title": "OpenAI Platform Docs",
-      "url": "https://platform.openai.com/docs",
-      "description": "API reference for chat, embeddings, function calling and vision."
-    },
-    {
-      "title": "Anthropic Documentation",
-      "url": "https://docs.anthropic.com/",
-      "description": "Claude API docs including prompt engineering guides."
-    },
-    {
-      "title": "Hugging Face Transformers",
-      "url": "https://huggingface.co/docs/transformers",
-      "description": "Models, tokenizers and pipelines for LLM work."
-    },
-    {
-      "title": "LangChain Documentation",
-      "url": "https://python.langchain.com/docs",
-      "description": "Frameworks for RAG, agents and LLM applications."
-    },
-    {
-      "title": "vLLM Documentation",
-      "url": "https://docs.vllm.ai/",
-      "description": "High-throughput LLM serving and inference."
-    }
-  ]
-}
+slug: llm-09-fine-tuning-practice
+title: "Fine-Tuning LLMs in Practice"
+description: "When and how to fine-tune — LoRA, QLoRA, data preparation, evaluation, and the decision framework for prompt vs fine-tune."
+order: 9
+tags:
+  - llm-engineering
+  - fine-tuning
+  - lora
+  - qlora
+  - peft
+prerequisites:
+  - llm-03-llm-apis
+  - llm-04-prompting-systems
+knowledge_refs:
+  - llm-03-llm-apis
+  - llm-04-prompting-systems
+  - llm-07-rag-engineering
+references:
+  - title: "Hugging Face PEFT Documentation"
+    url: "https://huggingface.co/docs/peft/en/index"
+    notes: "Parameter-Efficient Fine-Tuning library"
+  - title: "Guide to Fine-Tuning LLMs with LoRA and QLoRA"
+    url: "https://www.mercity.ai/blog-post/guide-to-fine-tuning-llms-with-lora-and-qlora/"
+    notes: "Practical LoRA/QLoRA tutorial"
+  - title: "Fine-Tuning vs Prompt Engineering"
+    url: "https://aishwaryasrinivasan.substack.com/p/fine-tuning-vs-prompt-engineering"
+    notes: "Decision framework for when to fine-tune"
+  - title: "TRL Fine-Tuning Documentation"
+    url: "https://huggingface.co/docs/trl/main/en/sft_trainer"
+    notes: "Supervised fine-tuning with TRL"
+  - title: "Unsloth Fine-Tuning"
+    url: "https://github.com/unslothai/unsloth"
+    notes: "Fast LoRA fine-tuning library"
 ---
 
-# LLM-09-FINE-TUNING-PRACTICE: Fine-Tuning LLMs in Practice
+# Fine-Tuning LLMs in Practice
 
-## Introduction
+Fine-tuning adapts a pre-trained model to your specific task. But when should you fine-tune vs. prompt? And how do you do it efficiently?
 
-LoRA, QLoRA and instruction tuning — adapt open models when prompting is not enough. By the end of this lesson you will be able to: Prepare an instruction dataset; Fine-tune with LoRA; Evaluate the fine-tuned model; Decide when fine-tuning is worth it.
+## Decision Framework: Prompt vs. Fine-Tune
 
-## Key Concepts
+| Problem | Solution | Why |
+|---------|----------|-----|
+| Unstable formatting | Prompt engineering | Add format instructions |
+| Missing knowledge | RAG | Retrieve relevant docs |
+| Wrong tone/style | Fine-tune | Model needs to learn new behavior |
+| Domain reasoning | Fine-tune | Deep expertise requires weight updates |
+| Cost optimization | Fine-tune smaller model | Distill large model → small model |
 
-### 1. Prepare an instruction dataset
+**Start with prompting (solves ~70% of issues), then RAG, then fine-tune.**
 
-Target: Prepare an instruction dataset. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+## Fine-Tuning Approaches
 
-```python
-data = [
-    {"prompt": "Define ML", "completion": "Machine learning is..."},
-    {"prompt": "Define DL", "completion": "Deep learning is..."},
-]
-print("instruction pairs:", len(data))
-```
-### 2. Fine-tune with LoRA
+### Full Fine-Tuning
+- Update all model parameters
+- Requires multi-GPU setup
+- Risk of catastrophic forgetting
+- Best for: when you have lots of data and compute
 
-Target: Fine-tune with LoRA. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+### LoRA (Low-Rank Adaptation)
+- Freeze base model, train small adapter matrices
+- Rank r << model dimensions (typically r=8-64)
+- Adapters: 10-100 MB vs. multi-GB full model
+- **Zero inference latency** (adapters merge into weights)
 
 ```python
 from peft import LoraConfig, get_peft_model
 
-config = LoraConfig(r=8, lora_alpha=16, target_modules=["q_proj", "v_proj"])
-print("LoRA config ready")
+config = LoraConfig(
+    r=16,
+    lora_alpha=32,
+    target_modules=["q_proj", "v_proj"],
+    lora_dropout=0.05,
+    task_type="CAUSAL_LM"
+)
+model = get_peft_model(base_model, config)
+model.print_trainable_parameters()
+# trainable: 0.1% of total params
 ```
-### 3. Evaluate the fine-tuned model
 
-Target: Evaluate the fine-tuned model. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+### QLoRA (Quantized LoRA)
+- LoRA + 4-bit quantization
+- Fine-tune 70B models on a single GPU
+- 4-bit NF4 quantization + double quantization
+- Paged optimizers handle memory spikes
+
+## Data Preparation
+
+### Format
+```json
+{"messages": [
+  {"role": "system", "content": "You are a medical assistant."},
+  {"role": "user", "content": "What is hypertension?"},
+  {"role": "assistant", "content": "Hypertension is..."}
+]}
+```
+
+### Quality Guidelines
+- 100-1000 high-quality examples often beat 10,000 noisy ones
+- Remove duplicates and low-quality samples
+- Balance domain distribution
+- Use consistent formatting and tone
+
+## Training Setup
 
 ```python
-import torch
+from trl import SFTTrainer
+from transformers import TrainingArguments
 
-# QLoRA: 4-bit base + LoRA adapters on top
-print("4-bit quantization keeps memory low")
+training_args = TrainingArguments(
+    output_dir="./output",
+    num_train_epochs=3,
+    per_device_train_batch_size=4,
+    gradient_accumulation_steps=4,
+    learning_rate=2e-4,
+    fp16=True,
+    logging_steps=10,
+    save_strategy="epoch",
+)
+
+trainer = SFTTrainer(
+    model=model,
+    args=training_args,
+    train_dataset=dataset,
+    max_seq_length=2048,
+)
+trainer.train()
 ```
-### 4. Decide when fine-tuning is worth it
 
-Target: Decide when fine-tuning is worth it. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+## Evaluation
 
-```python
-print("fine-tune to match a style/format, not to add facts")
-```
+- **Validation loss**: monitor for overfitting
+- **Benchmarks**: MMLU, GSM8K, HumanEval
+- **LLM-as-judge**: GPT-4 scores outputs against references
+- **Human evaluation**: blind A/B testing for production
 
-## Practice Questions
+## When NOT to Fine-Tune
 
-1. What is the key idea behind "Fine-Tuning LLMs in Practice"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
-
-## LLM Prompts for Deeper Understanding
-
-1. "Explain Fine-Tuning LLMs in Practice with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Fine-Tuning LLMs in Practice"
-1. "Provide advanced patterns and performance considerations for Fine-Tuning LLMs in Practice"
+- You have fewer than 100 examples
+- The task changes frequently
+- Prompt engineering + RAG works well enough
+- You need the latest model's knowledge
+- Cost and latency constraints prohibit it
 
 ## Key Takeaways
 
-- Master the core ideas of Fine-Tuning LLMs in Practice through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
-
-## Further Reading
-
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+1. Always try prompting and RAG before fine-tuning
+2. LoRA is the standard approach — trains <1% of parameters
+3. QLoRA enables fine-tuning large models on consumer GPUs
+4. Data quality matters more than quantity
+5. Evaluate with benchmarks, LLM-as-judge, and human evaluation

@@ -1,119 +1,154 @@
 ---
-{
-  "title": "Prompt Versioning & Observability",
-  "description": "Trace every request: prompt, tokens, latency, cost and outcome.",
-  "type": "lesson",
-  "order": 17,
-  "duration": "50 min",
-  "difficulty": "advanced",
-  "learning_objectives": [
-    "Log full request traces",
-    "Tag prompts and model versions",
-    "Monitor cost and latency",
-    "Correlate feedback with versions"
-  ],
-  "knowledge_refs": [
-    "llm-engineering/llm-16-cost-optimization",
-    "prompt-engineering/pe-14-prompt-versioning",
-    "prompt-engineering/pe-01-what-is-prompt-engineering"
-  ],
-  "prerequisites": [
-    "LLM-13: Evaluating LLM Systems"
-  ],
-  "references": [
-    {
-      "title": "OpenAI Platform Docs",
-      "url": "https://platform.openai.com/docs",
-      "description": "API reference for chat, embeddings, function calling and vision."
-    },
-    {
-      "title": "Anthropic Documentation",
-      "url": "https://docs.anthropic.com/",
-      "description": "Claude API docs including prompt engineering guides."
-    },
-    {
-      "title": "Hugging Face Transformers",
-      "url": "https://huggingface.co/docs/transformers",
-      "description": "Models, tokenizers and pipelines for LLM work."
-    },
-    {
-      "title": "LangChain Documentation",
-      "url": "https://python.langchain.com/docs",
-      "description": "Frameworks for RAG, agents and LLM applications."
-    },
-    {
-      "title": "vLLM Documentation",
-      "url": "https://docs.vllm.ai/",
-      "description": "High-throughput LLM serving and inference."
-    }
-  ]
-}
+slug: llm-17-observability
+title: "Prompt Versioning & Observability"
+description: "Monitoring LLM applications in production — tracing, logging, prompt versioning, and debugging non-deterministic systems."
+order: 17
+tags:
+  - llm-engineering
+  - observability
+  - tracing
+  - prompt-versioning
+  - monitoring
+prerequisites:
+  - llm-13-evaluating-llm-systems
+  - llm-16-cost-optimization
+knowledge_refs:
+  - llm-13-evaluating-llm-systems
+  - llm-16-cost-optimization
+  - llm-14-guardrails-and-safety
+references:
+  - title: "LangSmith Documentation"
+    url: "https://docs.smith.langchain.com/"
+    notes: "LLM observability platform"
+  - title: "OpenTelemetry for LLMs"
+    url: "https://opentelemetry.io/docs/languages/python/"
+    notes: "Standard tracing for LLM apps"
+  - title: "Prompt Versioning Guide"
+    url: "https://agenta.ai/blog/prompt-versioning-guide"
+    notes: "Managing prompt versions in production"
+  - title: "Helicone LLM Observability"
+    url: "https://www.helicone.ai/"
+    notes: "Open-source LLM proxy with observability"
+  - title: "Braintrust LLM Evaluation"
+    url: "https://www.braintrust.dev/"
+    notes: "Eval and observability platform"
 ---
 
-# LLM-17-OBSERVABILITY: Prompt Versioning & Observability
+# Prompt Versioning & Observability
 
-## Introduction
+LLM applications are non-deterministic — the same input can produce different outputs. Observability is essential for debugging, monitoring, and improving production systems.
 
-Trace every request: prompt, tokens, latency, cost and outcome. By the end of this lesson you will be able to: Log full request traces; Tag prompts and model versions; Monitor cost and latency; Correlate feedback with versions.
+## Why Observability Matters
 
-## Key Concepts
+Unlike traditional software:
+- **Same input ≠ same output** (temperature, model updates)
+- **Quality is subjective** (accuracy, helpfulness, tone)
+- **Failures are silent** (hallucination looks plausible)
+- **Costs are variable** (different responses use different tokens)
 
-### 1. Log full request traces
+## Core Observability Signals
 
-Target: Log full request traces. Start with the foundations — read the runnable example carefully and trace its output before moving on.
-
+### Tracing
+Record every step of the LLM pipeline:
 ```python
-import time
+with tracer.start_as_current_span("llm_call") as span:
+    span.set_attribute("model", "gpt-4o")
+    span.set_attribute("prompt_tokens", len(prompt_tokens))
+    
+    response = llm.generate(prompt)
+    
+    span.set_attribute("completion_tokens", len(response.tokens))
+    span.set_attribute("latency_ms", response.latency)
+    span.set_attribute("cost_usd", response.cost)
+```
 
-trace = {
-    "prompt_version": "v3",
-    "model": "gpt-4o-mini",
-    "tokens_in": 120,
-    "tokens_out": 40,
-    "latency_ms": 412,
+### Logging
+Capture structured data for every request:
+```python
+log_entry = {
+    "timestamp": "2024-01-15T10:30:00Z",
+    "request_id": "req_abc123",
+    "model": "gpt-4o",
+    "prompt_hash": hash(prompt),
+    "response_preview": response[:100],
+    "tokens": {"input": 500, "output": 200},
+    "latency_ms": 1200,
+    "cost_usd": 0.0035,
+    "user_id": "user_xyz",
+    "tags": ["customer-support", "tier-1"]
 }
-print(trace)
 ```
-### 2. Tag prompts and model versions
 
-Target: Tag prompts and model versions. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+### Metrics
+Track key performance indicators:
+- **Latency**: p50, p95, p99 response times
+- **Cost**: per-request and aggregate spend
+- **Quality**: eval scores, user ratings
+- **Errors**: rate limiting, timeouts, failures
 
+## Prompt Versioning
+
+### Why Version Prompts?
+- Prompt changes affect output quality
+- Need to roll back bad changes
+- A/B test different versions
+- Reproduce past results
+
+### Version Management
 ```python
-print("every request is replayable for debugging")
+# Store prompt versions in a registry
+prompts = {
+    "v1.0": {"system": "You are helpful.", "template": "..."},
+    "v1.1": {"system": "You are concise and helpful.", "template": "..."},
+    "v1.2": {"system": "You are a technical expert.", "template": "..."},
+}
+
+# Tag production version
+ACTIVE_VERSION = "v1.1"
 ```
-### 3. Monitor cost and latency
 
-Target: Monitor cost and latency. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+### Git vs. Dedicated Tools
+| Approach | Pros | Cons |
+|----------|------|------|
+| Git | Version control, diffs | Not accessible to non-engineers |
+| Dedicated tools | Playground, A/B testing | Extra infrastructure |
+| Hybrid | Best of both | More complexity |
 
+## Debugging Non-Deterministic Systems
+
+### Reproducibility Techniques
 ```python
-print("dashboards: cost, latency, error rate by prompt version")
-```
-### 4. Correlate feedback with versions
+# Fix temperature for debugging
+response = llm.generate(prompt, temperature=0.0)
 
-Target: Correlate feedback with versions. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
-
-```python
-print("user feedback attaches to the exact version served")
+# Log the seed for exact reproduction
+response = llm.generate(prompt, seed=42)
 ```
 
-## Practice Questions
+### Common Failure Patterns
+1. **Hallucination**: model invents facts
+   - Fix: add RAG, constrain outputs
+2. **Prompt injection**: user overrides instructions
+   - Fix: input validation, guardrails
+3. **Context overflow**: information lost
+   - Fix: better context management
+4. **Degradation**: model update breaks behavior
+   - Fix: eval pipeline catches regressions
 
-1. What is the key idea behind "Prompt Versioning & Observability"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+## Production Dashboard
 
-## LLM Prompts for Deeper Understanding
-
-1. "Explain Prompt Versioning & Observability with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Prompt Versioning & Observability"
-1. "Provide advanced patterns and performance considerations for Prompt Versioning & Observability"
+Key metrics to monitor:
+- **Request volume**: requests/minute
+- **Latency**: p50 < 2s, p99 < 10s
+- **Cost**: daily spend, cost per request
+- **Error rate**: < 1% of requests
+- **Quality score**: eval score trend
+- **User satisfaction**: ratings, feedback
 
 ## Key Takeaways
 
-- Master the core ideas of Prompt Versioning & Observability through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
-
-## Further Reading
-
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+1. LLM observability is essential because outputs are non-deterministic
+2. Trace every step: prompt, model, tokens, latency, cost, quality
+3. Version prompts like code — tag, diff, and roll back
+4. Fix temperature for debugging; log seeds for reproducibility
+5. Monitor quality metrics alongside latency and cost

@@ -1,121 +1,94 @@
 ---
-{
-  "title": "What Is LLM Engineering?",
-  "description": "The discipline of building systems on top of large language models — and where it differs from classic ML.",
-  "type": "lesson",
-  "order": 1,
-  "duration": "40 min",
-  "difficulty": "beginner",
-  "learning_objectives": [
-    "Define LLM engineering and its scope",
-    "Contrast LLM apps with traditional ML services",
-    "List the core building blocks (prompts, RAG, agents, evals)",
-    "Identify when an LLM is the right tool"
-  ],
-  "knowledge_refs": [
-    "generative-ai/genai-06-llm-architecture",
-    "prompt-engineering/pe-01-what-is-prompt-engineering",
-    "prompt-engineering/pe-21-roadmap"
-  ],
-  "prerequisites": [
-    "GENAI-01: What Is Generative AI?"
-  ],
-  "references": [
-    {
-      "title": "OpenAI Platform Docs",
-      "url": "https://platform.openai.com/docs",
-      "description": "API reference for chat, embeddings, function calling and vision."
-    },
-    {
-      "title": "Anthropic Documentation",
-      "url": "https://docs.anthropic.com/",
-      "description": "Claude API docs including prompt engineering guides."
-    },
-    {
-      "title": "Hugging Face Transformers",
-      "url": "https://huggingface.co/docs/transformers",
-      "description": "Models, tokenizers and pipelines for LLM work."
-    },
-    {
-      "title": "LangChain Documentation",
-      "url": "https://python.langchain.com/docs",
-      "description": "Frameworks for RAG, agents and LLM applications."
-    },
-    {
-      "title": "vLLM Documentation",
-      "url": "https://docs.vllm.ai/",
-      "description": "High-throughput LLM serving and inference."
-    }
-  ]
-}
+slug: llm-01-what-is-llm-engineering
+title: "What Is LLM Engineering?"
+description: "Defining the new discipline of building applications on top of large language models — how it differs from ML engineering and traditional software."
+order: 1
+tags:
+  - llm-engineering
+  - ai-engineering
+  - foundations
+prerequisites: []
+knowledge_refs:
+  - llm-02-llm-architecture-review
+  - llm-03-llm-apis
+references:
+  - title: "The Rise of the AI Engineer"
+    url: "https://www.latent.space/p/2023-aisp"
+    notes: "swyx's seminal essay defining the AI Engineer role"
+  - title: "Open Questions for AI Engineering"
+    url: "https://simonwillison.net/2024/Oct/26/open-questions-for-ai-engineering/"
+    notes: "Simon Willison on the emerging field"
+  - title: "LLM Powered Autonomous Agents"
+    url: "https://lilianweng.github.io/posts/2023-06-23-agent/"
+    notes: "Lilian Weng's comprehensive agent framework"
+  - title: "Andrej Karpathy: 2025 LLM Year in Review"
+    url: "https://www.youtube.com/watch?v=bL02bC-E2bE"
+    notes: "Karpathy's perspective on LLM app development"
+  - title: "AI Engineer Summit Keynotes"
+    url: "https://www.youtube.com/@aiaboratory"
+    notes: "Industry talks on the AI Engineering discipline"
 ---
 
-# LLM-01-WHAT-IS-LLM-ENGINEERING: What Is LLM Engineering?
+# What Is LLM Engineering?
 
-## Introduction
+LLM Engineering — also called **AI Engineering** — is the discipline of building applications on top of large language models. It represents a fundamental shift in how we build software: instead of writing explicit logic, we orchestrate probabilistic models that understand and generate natural language.
 
-The discipline of building systems on top of large language models — and where it differs from classic ML. By the end of this lesson you will be able to: Define LLM engineering and its scope; Contrast LLM apps with traditional ML services; List the core building blocks (prompts, RAG, agents, evals); Identify when an LLM is the right tool.
+## LLM Engineering vs. ML Engineering
 
-## Key Concepts
+| Dimension | ML Engineering | LLM Engineering |
+|-----------|---------------|-----------------|
+| **Focus** | Training models from scratch | Building apps on top of models |
+| **Data** | Labeled datasets, feature engineering | Prompts, context, retrieval |
+| **Code** | PyTorch, training pipelines | API calls, orchestration, evaluation |
+| **Infrastructure** | GPU clusters, training jobs | API rate limits, caching, serving |
+| **Key skill** | Math, statistics, optimization | Prompting, RAG, systems design |
 
-### 1. Define LLM engineering and its scope
+As Andrej Karpathy notes, an engineer can be highly successful in LLM engineering without ever training a model. The core competency shifts from model creation to **model orchestration**.
 
-Target: Define LLM engineering and its scope. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+## The Three Layers of Modern AI
 
-```python
-stack = ["models", "prompts", "retrieval", "agents", "evals", "guardrails"]
-for s in stack:
-    print(f"- {s}")
-```
-### 2. Contrast LLM apps with traditional ML services
+1. **Model Layer** — Training foundation models (OpenAI, Anthropic, Google, Meta)
+2. **Infrastructure Layer** — Serving, inference, fine-tuning platforms
+3. **Application Layer** — Products built on top (LLM Engineering lives here)
 
-Target: Contrast LLM apps with traditional ML services. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+## What LLM Engineers Actually Do
 
-```python
-print("LLM apps: mostly orchestration + evaluation, less training")
-```
-### 3. List the core building blocks (prompts, RAG, agents, evals)
+- **Prompt Engineering** — Design system prompts, few-shot examples, chain-of-thought chains
+- **RAG Architecture** — Build retrieval systems that ground LLMs in real data
+- **Agent Systems** — Orchestrate LLM calls with tools, memory, and planning
+- **Evaluation** — Build testing frameworks for non-deterministic outputs
+- **Production Systems** — Handle rate limits, caching, error handling, cost optimization
+- **Safety & Guardrails** — Prevent prompt injection, hallucination, harmful outputs
 
-Target: List the core building blocks (prompts, RAG, agents, evals). Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+## Key Paradigm Shifts
 
-```python
-from openai import OpenAI
+### English as Programming Language
+Natural language prompts become the new code. A well-crafted system prompt can replace hundreds of lines of conditional logic.
 
-client = OpenAI()
-res = client.chat.completions.create(
-    model="gpt-4o-mini",
-    messages=[{"role": "user", "content": "hi"}],
-)
-print("first call:", res.choices[0].message.content)
-```
-### 4. Identify when an LLM is the right tool
+### Probabilistic Outputs
+Unlike traditional software, LLM outputs are non-deterministic. The same prompt can yield different results. Evaluation must account for this variance.
 
-Target: Identify when an LLM is the right tool. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+### Ephemeral Code
+Code becomes cheaper and more disposable. Entire applications can be prototyped in hours and discarded after use.
 
-```python
-wrong_tools = ["precise math", "low latency at scale", "deterministic rules"]
-for w in wrong_tools:
-    print(f"- avoid LLMs for: {w}")
-```
+### New Failure Modes
+- **Hallucinations**: plausible but incorrect outputs
+- **Context overflow**: exceeding token limits
+- **Prompt injection**: adversarial inputs bypassing safety
+- **Alignment failures**: model ignoring instructions
 
-## Practice Questions
+## Essential Skills
 
-1. What is the key idea behind "What Is LLM Engineering?"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
-
-## LLM Prompts for Deeper Understanding
-
-1. "Explain What Is LLM Engineering? with analogies and real-world examples"
-1. "Show me common mistakes beginners make with What Is LLM Engineering?"
-1. "Provide advanced patterns and performance considerations for What Is LLM Engineering?"
+1. **Prompt Design** — zero-shot, few-shot, chain-of-thought, structured outputs
+2. **Systems Thinking** — DAG orchestration, caching, retry logic
+3. **RAG Pipelines** — chunking, embedding, retrieval, reranking
+4. **Evaluation** — LLM-as-judge, human evaluation, benchmark design
+5. **Production Engineering** — streaming, rate limiting, cost monitoring
 
 ## Key Takeaways
 
-- Master the core ideas of What Is LLM Engineering? through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
-
-## Further Reading
-
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+1. LLM Engineering is building applications on foundation models, not training them
+2. Natural language replaces explicit logic as the primary programming paradigm
+3. The core skills are prompting, RAG, evaluation, and systems design
+4. New failure modes (hallucination, injection) require new engineering practices
+5. The field is evolving rapidly — staying current requires active community engagement

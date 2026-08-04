@@ -1,123 +1,139 @@
 ---
-{
-  "title": "Tokenization & Context Management",
-  "description": "Budget tokens, count costs, and fit big context into small windows.",
-  "type": "lesson",
-  "order": 5,
-  "duration": "50 min",
-  "difficulty": "intermediate",
-  "learning_objectives": [
-    "Count tokens with tiktoken",
-    "Estimate cost per request",
-    "Chunk content to fit context",
-    "Use token budgets defensively"
-  ],
-  "knowledge_refs": [
-    "llm-engineering/llm-04-prompting-systems",
-    "generative-ai/genai-07-tokenization",
-    "nlp/nlp-02-text-representation"
-  ],
-  "prerequisites": [
-    "LLM-03: Working with LLM APIs"
-  ],
-  "references": [
-    {
-      "title": "OpenAI Platform Docs",
-      "url": "https://platform.openai.com/docs",
-      "description": "API reference for chat, embeddings, function calling and vision."
-    },
-    {
-      "title": "Anthropic Documentation",
-      "url": "https://docs.anthropic.com/",
-      "description": "Claude API docs including prompt engineering guides."
-    },
-    {
-      "title": "Hugging Face Transformers",
-      "url": "https://huggingface.co/docs/transformers",
-      "description": "Models, tokenizers and pipelines for LLM work."
-    },
-    {
-      "title": "LangChain Documentation",
-      "url": "https://python.langchain.com/docs",
-      "description": "Frameworks for RAG, agents and LLM applications."
-    },
-    {
-      "title": "vLLM Documentation",
-      "url": "https://docs.vllm.ai/",
-      "description": "High-throughput LLM serving and inference."
-    }
-  ]
-}
+slug: llm-05-tokenization-and-context
+title: "Tokenization & Context Management"
+description: "Understanding how LLMs process text — BPE tokenization, context windows, and strategies for managing long conversations."
+order: 5
+tags:
+  - llm-engineering
+  - tokenization
+  - context-window
+  - bpe
+prerequisites:
+  - llm-03-llm-apis
+  - llm-02-llm-architecture-review
+knowledge_refs:
+  - llm-03-llm-apis
+  - llm-02-llm-architecture-review
+  - llm-06-embeddings-and-semantic-search
+references:
+  - title: "Hugging Face BPE Tokenization"
+    url: "https://huggingface.co/learn/llm-course/en/chapter6/5"
+    notes: "In-depth BPE algorithm explanation"
+  - title: "tiktoken Repository"
+    url: "https://github.com/openai/tiktoken"
+    notes: "OpenAI's fast BPE tokenizer"
+  - title: "Context Window Management Strategies"
+    url: "https://www.getmaxim.ai/articles/context-window-management-strategies-for-long-context-ai-agents-and-chatbots/"
+    notes: "Practical context management patterns"
+  - title: "Lost in the Middle"
+    url: "https://arxiv.org/abs/2307.03172"
+    notes: "Research on attention distribution in long contexts"
+  - title: "Sebastian Raschka: BPE From Scratch"
+    url: "https://sebastianraschka.com/blog/2025/bpe-from-scratch.html"
+    notes: "Implementing BPE tokenization"
 ---
 
-# LLM-05-TOKENIZATION-AND-CONTEXT: Tokenization & Context Management
+# Tokenization & Context Management
 
-## Introduction
+Tokens are the atomic unit of LLM processing. Understanding tokenization and context management is essential for cost control, performance optimization, and building reliable applications.
 
-Budget tokens, count costs, and fit big context into small windows. By the end of this lesson you will be able to: Count tokens with tiktoken; Estimate cost per request; Chunk content to fit context; Use token budgets defensively.
+## What Is a Token?
 
-## Key Concepts
+A token is not a word, character, or byte — it's a **subword unit** determined by the tokenizer:
 
-### 1. Count tokens with tiktoken
+- "hello" → 1 token
+- "unbelievable" → 3 tokens ("un", "believ", "able")
+- "🤖" → 1-2 tokens (depending on tokenizer)
+- "def function_name():" → 5 tokens
 
-Target: Count tokens with tiktoken. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+**Rule of thumb**: 1 token ≈ 0.75 English words, or ~4 characters.
 
+## Byte Pair Encoding (BPE)
+
+BPE is the dominant tokenization algorithm:
+
+1. Start with individual bytes as base vocabulary
+2. Find most frequent adjacent pair in corpus
+3. Merge that pair into a new token
+4. Repeat until desired vocabulary size reached
+
+### Why BPE?
+- No unknown tokens (every byte sequence is representable)
+- Balances character-level (too many tokens) vs word-level (too many words)
+- Common words get single tokens; rare words decompose
+
+### tiktoken
+OpenAI's fast BPE implementation in Rust:
 ```python
 import tiktoken
-
-enc = tiktoken.get_encoding("cl100k_base")
-text = "The quick brown fox jumps over the lazy dog" * 5
-print("tokens:", len(enc.encode(text)))
+enc = tiktoken.encoding_for_model("gpt-4o")
+tokens = enc.encode("Hello, world!")
+print(len(tokens))  # 6
+print(enc.decode(tokens))  # "Hello, world!"
 ```
-### 2. Estimate cost per request
 
-Target: Estimate cost per request. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+## Context Windows
 
+The context window is the maximum tokens a model can process:
+- GPT-4o: 128K tokens
+- Claude 3.5: 200K tokens
+- Llama 3.1: 128K tokens
+- Gemini 1.5 Pro: 2M tokens
+
+### Cost Implications
+- Input tokens are cheaper than output tokens
+- Cache hits reduce cost by up to 90%
+- Every token in context costs money
+
+## Context Compression Strategies
+
+### Sliding Window
+Keep only the last N messages:
 ```python
-import tiktoken
-
-enc = tiktoken.get_encoding("cl100k_base")
-cost_per_1k = 0.00015
-n = len(enc.encode("some prompt"))
-print("cost:", round(n / 1000 * cost_per_1k, 6))
+def sliding_window(messages, max_messages=20):
+    system = messages[0]  # always keep system prompt
+    recent = messages[-max_messages:]
+    return [system] + recent
 ```
-### 3. Chunk content to fit context
+- **Pros**: Simple, predictable memory usage
+- **Cons**: "Digital amnesia" — old context lost entirely
 
-Target: Chunk content to fit context. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
-
+### Summarization Compression
+Periodically summarize older conversation blocks:
 ```python
-def fit_to_window(text, max_tokens, enc):
-    tokens = enc.encode(text)
-    return enc.decode(tokens[:max_tokens])
-
-print("truncated:", fit_to_window("a" * 100, 50, enc)[:20])
+def summarize_and_compress(messages, threshold=30):
+    if len(messages) > threshold:
+        old = messages[1:threshold]
+        summary = llm.summarize(old)
+        return [messages[0], {"role": "system", "content": summary}] + messages[threshold:]
+    return messages
 ```
-### 4. Use token budgets defensively
+- **Pros**: Preserves key information
+- **Cons**: Loses fine-grained details
 
-Target: Use token budgets defensively. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
-
+### RAG-Based Memory
+Store full conversation in vector database, retrieve relevant turns:
 ```python
-print("budget: reserve room for the answer in the window")
+def rag_memory(query, conversation_db):
+    relevant = conversation_db.search(query, top_k=5)
+    return format_context(relevant)
 ```
+- **Pros**: Full history available, semantic retrieval
+- **Cons**: Adds latency and infrastructure complexity
 
-## Practice Questions
+## The "Lost in the Middle" Problem
 
-1. What is the key idea behind "Tokenization & Context Management"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+Research shows LLMs struggle to use information placed in the middle of long contexts. They perform best with information at the beginning or end.
 
-## LLM Prompts for Deeper Understanding
-
-1. "Explain Tokenization & Context Management with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Tokenization & Context Management"
-1. "Provide advanced patterns and performance considerations for Tokenization & Context Management"
+**Mitigation strategies:**
+- Put most important information first
+- Use retrieval to bring relevant context to the front
+- For very long documents, chunk and process separately
 
 ## Key Takeaways
 
-- Master the core ideas of Tokenization & Context Management through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
-
-## Further Reading
-
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+1. Tokens are subword units — 1 token ≈ 0.75 words
+2. BPE tokenization ensures no unknown tokens
+3. Context windows are limited and expensive — manage them carefully
+4. Sliding window, summarization, and RAG are the main compression strategies
+5. "Lost in the middle" means important context should be placed at the start or end

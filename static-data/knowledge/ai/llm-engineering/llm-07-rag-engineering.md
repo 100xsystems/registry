@@ -1,119 +1,153 @@
 ---
-{
-  "title": "RAG Engineering",
-  "description": "Design retrieval-augmented generation that is reliable: chunking, indexing and prompting.",
-  "type": "lesson",
-  "order": 7,
-  "duration": "60 min",
-  "difficulty": "advanced",
-  "learning_objectives": [
-    "Design a RAG pipeline",
-    "Chunk documents with strategy",
-    "Build a retrieval-augmented chat",
-    "Debug retrieval failures"
-  ],
-  "knowledge_refs": [
-    "llm-engineering/llm-06-embeddings-and-semantic-search",
-    "ai-agents/agents-11-rag-agents",
-    "prompt-engineering/pe-09-prompts-for-rag"
-  ],
-  "prerequisites": [
-    "LLM-06: Embeddings & Semantic Search"
-  ],
-  "references": [
-    {
-      "title": "OpenAI Platform Docs",
-      "url": "https://platform.openai.com/docs",
-      "description": "API reference for chat, embeddings, function calling and vision."
-    },
-    {
-      "title": "Anthropic Documentation",
-      "url": "https://docs.anthropic.com/",
-      "description": "Claude API docs including prompt engineering guides."
-    },
-    {
-      "title": "Hugging Face Transformers",
-      "url": "https://huggingface.co/docs/transformers",
-      "description": "Models, tokenizers and pipelines for LLM work."
-    },
-    {
-      "title": "LangChain Documentation",
-      "url": "https://python.langchain.com/docs",
-      "description": "Frameworks for RAG, agents and LLM applications."
-    },
-    {
-      "title": "vLLM Documentation",
-      "url": "https://docs.vllm.ai/",
-      "description": "High-throughput LLM serving and inference."
-    }
-  ]
-}
+slug: llm-07-rag-engineering
+title: "RAG Engineering"
+description: "Retrieval-Augmented Generation — building production RAG pipelines with chunking, retrieval, reranking, and faithfulness."
+order: 7
+tags:
+  - llm-engineering
+  - rag
+  - retrieval
+  - chunking
+prerequisites:
+  - llm-06-embeddings-and-semantic-search
+  - llm-04-prompting-systems
+knowledge_refs:
+  - llm-06-embeddings-and-semantic-search
+  - llm-04-prompting-systems
+  - llm-08-advanced-rag
+references:
+  - title: "RAG from Scratch (LangChain)"
+    url: "https://github.com/langchain-ai/rag-from-scratch"
+    notes: "Step-by-step RAG implementation"
+  - title: "Chunking Strategies for LLMs"
+    url: "https://www.pinecone.io/learn/chunking-strategies/"
+    notes: "Comprehensive chunking comparison"
+  - title: "RAGAS Evaluation Framework"
+    url: "https://docs.ragas.io/"
+    notes: "RAG evaluation metrics"
+  - title: "Hybrid Search Explained"
+    url: "https://docs.weaviate.io/weaviate/search/hybrid"
+    notes: "Combining BM25 and vector search"
+  - title: "ColBERT Reranking"
+    url: "https://arxiv.org/abs/2004.12832"
+    notes: "Neural reranking for improved retrieval"
 ---
 
-# LLM-07-RAG-ENGINEERING: RAG Engineering
+# RAG Engineering
 
-## Introduction
+Retrieval-Augmented Generation (RAG) grounds LLM responses in real data by retrieving relevant documents before generating answers. It's the most important pattern in production LLM applications.
 
-Design retrieval-augmented generation that is reliable: chunking, indexing and prompting. By the end of this lesson you will be able to: Design a RAG pipeline; Chunk documents with strategy; Build a retrieval-augmented chat; Debug retrieval failures.
+## The RAG Pipeline
 
-## Key Concepts
-
-### 1. Design a RAG pipeline
-
-Target: Design a RAG pipeline. Start with the foundations — read the runnable example carefully and trace its output before moving on.
-
-```python
-from langchain.text_splitter import RecursiveCharacterTextSplitter
-
-splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=50)
-chunks = splitter.split_text("long document " * 50)
-print("chunks:", len(chunks))
 ```
-### 2. Chunk documents with strategy
+User Query → Embedding → Retrieval → Reranking → Context Assembly → LLM Generation
+                ↓            ↓            ↓              ↓                ↓
+          Query vector   Top-k docs   Rerank by     Prompt with      Generate
+                         from DB      relevance     retrieved docs   answer
+```
 
-Target: Chunk documents with strategy. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+## Document Processing
 
+### Chunking Strategies
+
+| Strategy | How It Works | Best For |
+|----------|-------------|----------|
+| **Fixed-size** | Split every N characters/tokens | Simple, predictable |
+| **Recursive** | Split on paragraphs, then sentences | Structured documents |
+| **Semantic** | Split when topic changes | Varied content |
+| **Document-based** | Split on headers, sections | Technical docs |
+
+### Chunk Size Guidelines
+- **Small chunks (256 tokens)**: High precision, may lose context
+- **Large chunks (1024 tokens)**: Good context, may include noise
+- **Optimal**: 512-768 tokens with 50-100 token overlap
+
+### Metadata Enrichment
 ```python
-rag = {
-    1: "chunk", 2: "embed", 3: "store", 4: "retrieve", 5: "generate",
+chunk.metadata = {
+    "source": "technical-doc.pdf",
+    "page": 42,
+    "section": "Configuration",
+    "last_updated": "2024-01-15"
 }
-print(rag)
 ```
-### 3. Build a retrieval-augmented chat
 
-Target: Build a retrieval-augmented chat. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+## Retrieval
+
+### Dense Retrieval
+- Embed query and documents with same model
+- Cosine similarity ranking
+- Captures semantic meaning
+
+### Sparse Retrieval (BM25)
+- Keyword-based matching
+- Handles exact terms well (names, codes, acronyms)
+
+### Hybrid Search
+Combine dense + sparse for best results:
+```python
+results = collection.query(
+    query_texts=["Python error handling"],
+    vector_search_weight=0.7,  # dense
+    bm25_search_weight=0.3     # sparse
+)
+```
+
+## Reranking
+
+First-pass retrieval finds candidates; reranking refines:
 
 ```python
-from langchain_community.vectorstores import FAISS
+from sentence_transformers import CrossEncoder
 
-print("vector store ready")
+reranker = CrossEncoder("cross-encoder/ms-marco-MiniLM-L-6-v2")
+scores = reranker.predict([
+    (query, doc1), (query, doc2), (query, doc3)
+])
+# Sort by score for final ranking
 ```
-### 4. Debug retrieval failures
 
-Target: Debug retrieval failures. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+Rerankers use cross-attention (more accurate but slower) vs bi-encoders (faster but less precise).
+
+## Context Assembly
+
+Combine retrieved chunks into the prompt:
 
 ```python
-print("no results? fix chunking or embeddings, not the prompt")
+context = "\n\n".join([
+    f"Source {i+1}: {chunk.text}"
+    for i, chunk in enumerate(retrieved_chunks)
+])
+
+prompt = f"""Answer the question based on the provided context.
+
+Context:
+{context}
+
+Question: {query}
+
+Answer:"""
 ```
 
-## Practice Questions
+### Best Practices
+- Limit context to stay within token budget
+- Include source attribution
+- Sort by relevance (most relevant first)
+- Add instructions for handling insufficient context
 
-1. What is the key idea behind "RAG Engineering"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+## Evaluation
 
-## LLM Prompts for Deeper Understanding
-
-1. "Explain RAG Engineering with analogies and real-world examples"
-1. "Show me common mistakes beginners make with RAG Engineering"
-1. "Provide advanced patterns and performance considerations for RAG Engineering"
+| Metric | What It Measures |
+|--------|-----------------|
+| **Context Precision** | Are retrieved docs relevant? |
+| **Context Recall** | Are all relevant docs retrieved? |
+| **Faithfulness** | Is the answer grounded in context? |
+| **Answer Relevance** | Does the answer address the query? |
 
 ## Key Takeaways
 
-- Master the core ideas of RAG Engineering through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
-
-## Further Reading
-
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+1. RAG grounds LLM responses in real data, reducing hallucination
+2. Chunking strategy significantly impacts retrieval quality
+3. Hybrid search (dense + sparse) outperforms either alone
+4. Reranking improves precision after initial retrieval
+5. Evaluate both retrieval quality and generation faithfulness
