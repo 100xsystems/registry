@@ -3,6 +3,12 @@
   "name": "Data Engineer Roadmap",
   "description": "Complete learning path for data engineers — SQL, ETL pipelines, data warehousing, streaming, and analytics infrastructure.",
   "categories": [],
+  "courses": {
+    "databases": ["postgresql", "mongodb", "redis", "elasticsearch"],
+    "ai": ["data-science", "machine-learning"],
+    "tools": ["docker", "kubernetes"],
+    "system-design": ["fundamentals", "building-blocks"]
+  },
   "lessons": [
     {
       "slug": "data-engineer",

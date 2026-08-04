@@ -3,6 +3,12 @@
   "name": "SRE Roadmap",
   "description": "Complete learning path for site reliability engineers — monitoring, incident response, SLIs/SLOs, and chaos engineering.",
   "categories": [],
+  "courses": {
+    "infrastructure": ["kubernetes", "docker", "linux", "nginx"],
+    "tools": ["grafana", "terraform"],
+    "principles": ["circuit-breaker", "rate-limiting", "graceful-degradation", "load-shedding"],
+    "system-design": ["fundamentals", "building-blocks", "patterns"]
+  },
   "lessons": [
     {
       "slug": "sre-engineer",

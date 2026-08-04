@@ -3,6 +3,11 @@
   "name": "DevOps Engineer Roadmap",
   "description": "Complete learning path for DevOps engineers — from Linux fundamentals to CI/CD, containers, and infrastructure as code.",
   "categories": [],
+  "courses": {
+    "infrastructure": ["docker", "kubernetes", "terraform", "ansible", "linux", "nginx"],
+    "tools": ["github-actions", "gitlab", "jenkins", "grafana"],
+    "system-design": ["fundamentals", "building-blocks"]
+  },
   "lessons": [
     {
       "slug": "devops-engineer",

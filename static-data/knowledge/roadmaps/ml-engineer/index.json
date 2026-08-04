@@ -3,6 +3,12 @@
   "name": "ML Engineer Roadmap",
   "description": "Complete learning path for ML engineers — from Python and ML fundamentals to production deployment and MLOps.",
   "categories": [],
+  "courses": {
+    "ai": ["machine-learning", "deep-learning", "mlops", "data-science"],
+    "languages": ["python"],
+    "tools": ["docker", "kubernetes"],
+    "system-design": ["fundamentals", "building-blocks"]
+  },
   "lessons": [
     {
       "slug": "ml-engineer",

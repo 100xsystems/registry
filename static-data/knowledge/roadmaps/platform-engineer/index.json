@@ -3,6 +3,12 @@
   "name": "Platform Engineer Roadmap",
   "description": "Complete learning path for platform engineers — Kubernetes, CI/CD, developer experience, and internal platforms.",
   "categories": [],
+  "courses": {
+    "infrastructure": ["kubernetes", "docker", "terraform", "ansible", "linux"],
+    "tools": ["github-actions", "grafana"],
+    "principles": ["circuit-breaker", "rate-limiting"],
+    "system-design": ["fundamentals", "building-blocks", "patterns"]
+  },
   "lessons": [
     {
       "slug": "platform-engineer",
