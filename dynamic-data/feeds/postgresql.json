@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-08-03T19:21:57.608Z",
+  "updatedAt": "2026-08-04T02:29:56.653Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -521,7 +521,15 @@
       "summary": "“The database is locked up.” We heard some version of that sentence more than once this past week, from the same team, about what looked like the same problem. It was not the same problem. Once, Postgres had genuinely stopped responding. Every other time, Postgres was fine, and a connection sitting…",
       "author": null,
       "publishedAt": "2026-08-03T15:33:25.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9rc",
+      "title": "Christophe Pettus: All Your GUCs in a Row: idle_replication_slot_timeout",
+      "link": "https://postgr.es/p/9rc",
+      "summary": "Replication slots promise to keep WAL forever—until PostgreSQL 18's new `idle_replication_slot_timeout` puts an expiration date on abandoned ones before they…",
+      "author": null,
+      "publishedAt": "2026-08-04T01:00:00.000Z"
     }
   ],
-  "totalIndexed": 64
+  "totalIndexed": 65
 }
