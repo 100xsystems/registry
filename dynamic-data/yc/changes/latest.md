@@ -1,69 +1,65 @@
 # YC Company Changes for 2026-08-04
 
 - Previous total: 6119
-- Current total: 6119
-- Added: 0
+- Current total: 6120
+- Added: 1
 - Removed: 0
-- Updated: 14
+- Updated: 11
 
+
+## Added Companies
+
+- [Ultrasonium](https://www.ycombinator.com/companies/ultrasonium) (Summer 2026) — Manufacturing the metal parts the world runs on faster, cheaper, safer
 
 ## Updated Companies
 
-### [EquipmentShare](https://www.ycombinator.com/companies/equipmentshare)
+### [Bayes Impact](https://www.ycombinator.com/companies/bayes-impact)
 
-- `stage`: Early → Growth
+- `all_locations`: San Francisco, CA, USA → Paris, Île-de-France, France; San Francisco, CA, USA
+- `regions`: United States of America,America / Canada,Remote,Partly Remote → France,United States of America,Europe,America / Canada,Remote,Partly Remote
 
-### [Here](https://www.ycombinator.com/companies/here)
+### [Pyka](https://www.ycombinator.com/companies/pyka)
 
-- `stage`: Early → Growth
-
-### [Stoke Space](https://www.ycombinator.com/companies/stoke-space)
-
-- `stage`: Early → Growth
-
-### [Tavus](https://www.ycombinator.com/companies/tavus)
-
-- `team_size`: 40 → 75
-- `tags`: Generative AI,B2B,Video,Infrastructure,AI → Artificial Intelligence,Generative AI,B2B,Video,Infrastructure
 - `stage`: Growth → Early
 
-### [Silimate](https://www.ycombinator.com/companies/silimate)
+### [Pry Financials](https://www.ycombinator.com/companies/pry-financials)
 
-- `one_liner`: The copilot for chip designers → Fast, efficient agents for chip design and debug
+- `one_liner`: Finance for Founders → Finance for Founders (now at prune.com)
 
-### [truemetrics](https://www.ycombinator.com/companies/truemetrics)
+### [testRigor](https://www.ycombinator.com/companies/testrigor)
 
 - `isHiring`: false → true
 
-### [Superagent](https://www.ycombinator.com/companies/superagent)
-
-- `one_liner`: Red teaming for AI agents → Security for AI-native developers
-
-### [Zep AI](https://www.ycombinator.com/companies/zep-ai)
+### [Posh](https://www.ycombinator.com/companies/posh)
 
 - `isHiring`: true → false
 
-### [Waypoint Transit](https://www.ycombinator.com/companies/waypoint-transit)
+### [Rally](https://www.ycombinator.com/companies/rallyuxr)
+
+- `name`: Rally UXR → Rally
+- `slug`: rally-uxr → rallyuxr
+- `former_names`: Rally → Rally,Rally UXR
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/8d1bec746269f46935a108658fb17cddc54ed760.png → https://bookface-images.s3.amazonaws.com/small_logos/86f4764834a702e043cc7dc0faf2375ffa49f308.png
+- `one_liner`: User Research CRM → Agentic User Research Infrastructure
+- `team_size`: 30 → 35
+
+### [Indemni](https://www.ycombinator.com/companies/indemni)
 
 - `isHiring`: true → false
 
-### [MouseCat](https://www.ycombinator.com/companies/mousecat)
+### [Servo7](https://www.ycombinator.com/companies/servo7)
 
-- `team_size`: 2 → 6
+- `isHiring`: false → true
 
-### [Prototyping.io](https://www.ycombinator.com/companies/prototypingio)
+### [Booko](https://www.ycombinator.com/companies/booko)
 
-- `isHiring`: true → false
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/6e9ec4aa927e0e98329effde763de82fc90df7c1.png → https://bookface-images.s3.amazonaws.com/small_logos/df93ea203b23dfd6168d5db2ff35f568fb320f85.png
 
-### [Sidekick](https://www.ycombinator.com/companies/textsidekick)
+### [Lab0](https://www.ycombinator.com/companies/lab0)
 
-- `one_liner`: The text layer for frontline operations → AI agent that handles frontline operations over text
+- `tags`: Artificial Intelligence,SaaS,B2B,Enterprise → SaaS,B2B,Enterprise,AI
+- `isHiring`: false → true
 
-### [IMPACT Drones](https://www.ycombinator.com/companies/impact-drones)
+### [Locke](https://www.ycombinator.com/companies/locke)
 
-- `one_liner`: Air defense as a Service. → Air Defense as a Service for Civilian Infrastructure.
-- `tags`: Hardware,Drones,Swarm Robotics,AI → Artificial Intelligence,Hardware,Drones,Swarm Robotics
-
-### [CarSignal](https://www.ycombinator.com/companies/carsignal)
-
-- `tags`: Artificial Intelligence,SaaS,Automotive → SaaS,AI,Automotive
+- `tags`: GovTech,AI → Artificial Intelligence,GovTech

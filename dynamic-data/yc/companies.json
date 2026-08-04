@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-08-04T14:10:30.436Z",
-  "count": 6119,
+  "fetchedAt": "2026-08-04T19:21:19.530Z",
+  "count": 6120,
   "companies": [
     {
       "id": 34794,
@@ -1088,8 +1088,8 @@
       "subindustry": "B2B",
       "launched_at": 1783293519,
       "tags": [
-        "GovTech",
-        "AI"
+        "Artificial Intelligence",
+        "GovTech"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -2766,6 +2766,49 @@
       "app_answers": null,
       "question_answers": false,
       "url": "https://www.ycombinator.com/companies/vestris"
+    },
+    {
+      "id": 32750,
+      "name": "Ultrasonium",
+      "slug": "ultrasonium",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/734dc12d12265ba8890bf4ef5e7e564bdb629a87.png",
+      "website": "https://ultrasonium.com/",
+      "all_locations": "Boston, MA, USA",
+      "long_description": "",
+      "one_liner": "Manufacturing the metal parts the world runs on faster, cheaper, safer",
+      "team_size": 4,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "Industrials",
+      "subindustry": "Industrials -> Manufacturing and Robotics",
+      "launched_at": 1779558279,
+      "tags": [
+        "Hard Tech",
+        "Hardware",
+        "Manufacturing"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Summer 2026",
+      "status": "Active",
+      "industries": [
+        "Industrials",
+        "Manufacturing and Robotics"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/ultrasonium"
     },
     {
       "id": 32748,
@@ -11133,14 +11176,14 @@
       "subindustry": "B2B",
       "launched_at": 1775188246,
       "tags": [
-        "Artificial Intelligence",
         "SaaS",
         "B2B",
-        "Enterprise"
+        "Enterprise",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": false,
+      "isHiring": true,
       "nonprofit": false,
       "batch": "Spring 2026",
       "status": "Active",
@@ -16185,7 +16228,7 @@
       "name": "Booko",
       "slug": "booko",
       "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/6e9ec4aa927e0e98329effde763de82fc90df7c1.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/df93ea203b23dfd6168d5db2ff35f568fb320f85.png",
       "website": "https://bookoapp.com",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Booko helps businesses that sell bookable time slots make more money by dynamically pricing their time. Unlike physical inventory, unsold time slots disappear forever, yet most time-slot-based businesses still rely on static pricing. We integrate with existing booking systems to adjust prices and incentives based on historical utilization, availability, and demand. Early customers see ~20% revenue uplift by selling time that would have otherwise gone unsold.",
@@ -16734,7 +16777,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": false,
+      "isHiring": true,
       "nonprofit": false,
       "batch": "Winter 2026",
       "status": "Active",
@@ -66159,7 +66202,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": true,
+      "isHiring": false,
       "nonprofit": false,
       "batch": "Winter 2024",
       "status": "Active",
@@ -114910,17 +114953,18 @@
     },
     {
       "id": 25984,
-      "name": "Rally UXR",
-      "slug": "rally-uxr",
+      "name": "Rally",
+      "slug": "rallyuxr",
       "former_names": [
-        "Rally"
+        "Rally",
+        "Rally UXR"
       ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/8d1bec746269f46935a108658fb17cddc54ed760.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/86f4764834a702e043cc7dc0faf2375ffa49f308.png",
       "website": "https://www.rallyuxr.com/",
       "all_locations": "New York City, NY, USA; Remote",
-      "long_description": "Rally is a User Research CRM that makes it easy for teams to do research with their users. By automating outreach, scheduling, incentives, and participant management, Rally replaces messy spreadsheets and disjointed tooling, saving teams hours each week.",
-      "one_liner": "User Research CRM",
-      "team_size": 30,
+      "long_description": "Rally is agentic user research infrastructure. Our agent runs recruitment end to end, from finding participants through scheduling and sending incentives. Underneath, our infrastructure enforces the guardrails enterprises require: consent, permissions, templates, data governance, and more. Trusted by teams building the future of product research: Google, Meta, Ramp, Figma, and Perplexity.\r\n\r\nTalk to your users today with Rally.",
+      "one_liner": "Agentic User Research Infrastructure",
+      "team_size": 35,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -114953,7 +114997,7 @@
       "demo_day_video_public": false,
       "app_answers": null,
       "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/rally-uxr"
+      "url": "https://www.ycombinator.com/companies/rallyuxr"
     },
     {
       "id": 25983,
@@ -120506,7 +120550,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": true,
+      "isHiring": false,
       "nonprofit": false,
       "batch": "Winter 2022",
       "status": "Active",
@@ -140097,7 +140141,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": false,
+      "isHiring": true,
       "nonprofit": false,
       "batch": "Summer 2021",
       "status": "Active",
@@ -158295,8 +158339,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/aa9e2b87b2b4d5d15fa0f6f3864444c603335cf6.png",
       "website": "https://www.pry.co",
       "all_locations": "San Francisco, CA, USA; Remote",
-      "long_description": "Pry makes it simple for companies to manage their budget, hiring plan, financial models, and cash runway.\r\n\r\nToday, most people plan for their business once a quarter. It's done in Excel - buggy, boring, confusing, and really time-expensive. A lot of people have tried to solve this and only found moderate success or failed.\r\n\r\nWe're the team to do it right.",
-      "one_liner": "Finance for Founders",
+      "long_description": "Now working on prune.com\r\n\r\nPry makes it simple for companies to manage their budget, hiring plan, financial models, and cash runway.\r\n\r\nToday, most people plan for their business once a quarter. It's done in Excel - buggy, boring, confusing, and really time-expensive. A lot of people have tried to solve this and only found moderate success or failed.\r\n\r\nWe're the team to do it right.",
+      "one_liner": "Finance for Founders (now at prune.com)",
       "team_size": 7,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -215943,7 +215987,7 @@
         "Remote",
         "Partly Remote"
       ],
-      "stage": "Growth",
+      "stage": "Early",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -243518,7 +243562,7 @@
       "former_names": [],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/54577565ca0b1c1ee08276e0f6679d74669892ec.png",
       "website": "http://bayesimpact.org",
-      "all_locations": "San Francisco, CA, USA",
+      "all_locations": "Paris, Île-de-France, France; San Francisco, CA, USA",
       "long_description": "Bayes Impact's mission is to change the world through algorithms. We solve pressing public interest problems by building technology solutions that leverage data to improve outcomes on a large scale.\r\n\r\nMore information at www.bayesimpact.org",
       "one_liner": "Tech nonprofit building the future of public services.",
       "team_size": 11,
@@ -243541,7 +243585,9 @@
         "Unspecified"
       ],
       "regions": [
+        "France",
         "United States of America",
+        "Europe",
         "America / Canada",
         "Remote",
         "Partly Remote"

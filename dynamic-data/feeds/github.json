@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-07-31T19:12:44.608Z",
+  "updatedAt": "2026-08-04T19:21:02.367Z",
   "items": [
     {
       "guid": "github::https://github.blog/engineering/the-cost-of-saying-yes-has-changed/",
@@ -103,7 +103,15 @@
       "summary": "Suppose a user searches for café and your corpus contains CAFÉ, or they type straße and you’ve stored STRASSE. To make these count as matches, you need a canonical form that erases case distinctions, so that two strings which differ only in case compare equal. That form is case folding, and it…",
       "author": "Alexander Neubeck",
       "publishedAt": "2026-07-31T16:00:00.000Z"
+    },
+    {
+      "guid": "github::https://github.blog/engineering/turn-one-giant-ai-generated-pull-request-to-a-reviewable-stack/",
+      "title": "Turn one giant AI-generated pull request to a reviewable stack",
+      "link": "https://github.blog/engineering/turn-one-giant-ai-generated-pull-request-to-a-reviewable-stack/",
+      "summary": "Think about the last big feature you shipped. Be honest. Did you cram it into one giant pull request, or did you split it into smaller scoped pull requests? For years, you have silently had to decide between watching a pull request grow so large that reviewing it becomes a nightmare or breaking it…",
+      "author": "Julia Muiruri",
+      "publishedAt": "2026-08-04T16:47:18.000Z"
     }
   ],
-  "totalIndexed": 12
+  "totalIndexed": 13
 }
