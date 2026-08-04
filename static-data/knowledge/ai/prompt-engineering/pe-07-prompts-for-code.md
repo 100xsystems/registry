@@ -1,113 +1,121 @@
 ---
-{
-  "title": "Prompting for Code",
-  "description": "Generate, review and debug code with prompts that describe behavior, not just syntax.",
-  "type": "lesson",
-  "order": 7,
-  "duration": "55 min",
-  "difficulty": "intermediate",
-  "learning_objectives": [
-    "Specify behavior with examples",
-    "Request language and style constraints",
-    "Ask for tests alongside code",
-    "Review code with targeted prompts"
-  ],
-  "knowledge_refs": [
-    "prompt-engineering/pe-06-structured-outputs",
-    "generative-ai/genai-04-prompt-engineering",
-    "llm-engineering/llm-04-prompting-systems"
-  ],
-  "prerequisites": [
-    "PE-05: Chain-of-Thought Reasoning"
-  ],
-  "references": [
-    {
-      "title": "OpenAI Prompt Engineering Guide",
-      "url": "https://platform.openai.com/docs/guides/prompt-engineering",
-      "description": "Six strategies for reliable prompting from OpenAI."
-    },
-    {
-      "title": "Anthropic Prompt Engineering Docs",
-      "url": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering",
-      "description": "Claude's practical prompt engineering guide."
-    },
-    {
-      "title": "Prompt Engineering Guide (DAIR.AI)",
-      "url": "https://www.promptingguide.ai/",
-      "description": "A broad open-source guide to prompt techniques."
-    },
-    {
-      "title": "CoT: Chain-of-Thought Prompting",
-      "url": "https://arxiv.org/abs/2201.11903",
-      "description": "The paper on reasoning via chain-of-thought prompts."
-    },
-    {
-      "title": "ReAct: Reasoning + Acting",
-      "url": "https://arxiv.org/abs/2210.03629",
-      "description": "Combining reasoning traces with tool actions."
-    }
-  ]
-}
+slug: pe-07-prompts-for-code
+title: "Prompting for Code"
+description: "Techniques for generating, reviewing, refactoring, and debugging code with LLMs — from simple snippets to complex architectural decisions."
+order: 7
+tags:
+  - prompt-engineering
+  - code-generation
+  - code-review
+  - debugging
+prerequisites:
+  - pe-06-structured-outputs
+knowledge_refs:
+  - pe-06-structured-outputs
+    title: "Structured Outputs"
+  - pe-04-few-shot-examples
+    title: "Few-Shot Examples"
+  - pe-11-advanced-techniques
+    title: "Advanced Prompting Techniques"
+references:
+  - title: "OpenAI — Best Practices for Code Generation"
+    url: "https://platform.openai.com/docs/guides/code-generation"
+  - title: "Anthropic — Claude for Code"
+    url: "https://docs.anthropic.com/en/docs/build-with-claude/claude-for-code"
+  - title: "Google — Gemini Code Assist Prompting Guide"
+    url: "https://cloud.google.com/gemini/docs/codeassist/customization"
+  - title: "Simon Willison — How I Use LLMs for Code"
+    url: "https://simonwillison.net/2024/Apr/3/llm-code/"
+  - title: "GitHub Copilot Prompting Guide"
+    url: "https://docs.github.com/en/copilot/using-github-copilot/prompt-engineering-for-github-copilot"
 ---
 
-# PE-07-PROMPTS-FOR-CODE: Prompting for Code
+## Prompting for Code
 
-## Introduction
+LLMs have transformed how developers write, review, and debug code. But getting useful code output requires specific prompting techniques that differ from general text generation.
 
-Generate, review and debug code with prompts that describe behavior, not just syntax. By the end of this lesson you will be able to: Specify behavior with examples; Request language and style constraints; Ask for tests alongside code; Review code with targeted prompts.
+### Code Generation Prompts
 
-## Key Concepts
+The most effective code prompts are specific, contextual, and include constraints:
 
-### 1. Specify behavior with examples
+**Include the language and framework:** "Write a Python FastAPI endpoint that..." is better than "Write an API that..."
 
-Target: Specify behavior with examples. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+**Provide context:** Share the existing code structure, database schema, or API contract the code needs to work with.
 
-```python
-prompt = """Write a Python function that: \n- takes a list of ints\n- returns the sum of evens\n- raises ValueError on empty input\nInclude docstring and 2 example calls."""
-print(prompt)
-```
-### 2. Request language and style constraints
-
-Target: Request language and style constraints. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+**Specify edge cases:** "Handle empty inputs, null values, and rate limiting" produces more robust code than generic generation.
 
 ```python
-print("examples in the prompt pin the contract")
-```
-### 3. Ask for tests alongside code
-
-Target: Ask for tests alongside code. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
-
-```python
-code = "def sum_evens(xs):\n    return sum(x for x in xs if x % 2 == 0)"
-print(code)
-```
-### 4. Review code with targeted prompts
-
-Target: Review code with targeted prompts. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
-
-```python
-review = "Review this for: off-by-one errors, null safety, and edge cases. Cite line numbers."
-print(review)
+# Good prompt for code generation
+prompt = """
+Write a Python function using FastAPI that:
+- Takes a POST request at /api/analyze with a JSON body: {"text": str, "language": str}
+- Validates input (text must be non-empty, language must be one of: en, es, fr)
+- Returns {"word_count": int, "char_count": int, "language": str}
+- Returns 422 with specific error message on validation failure
+- Includes type hints and a docstring
+"""
 ```
 
-## Practice Questions
+### Code Review Prompts
 
-1. What is the key idea behind "Prompting for Code"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+Code review prompts should be structured to catch different categories of issues:
 
-## LLM Prompts for Deeper Understanding
+```markdown
+Review this code for:
+1. Security vulnerabilities (SQL injection, XSS, auth flaws)
+2. Performance bottlenecks (N+1 queries, unnecessary allocations)
+3. Error handling gaps (missing try/catch, silent failures)
+4. Style and readability (naming, structure, comments)
+5. Testing gaps (what edge cases should be tested?)
 
-1. "Explain Prompting for Code with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Prompting for Code"
-1. "Provide advanced patterns and performance considerations for Prompting for Code"
+For each finding, provide:
+- Line number or section
+- Severity (Critical/High/Medium/Low)
+- The specific issue
+- A concrete fix with code
+```
 
-## Key Takeaways
+### Refactoring Prompts
 
-- Master the core ideas of Prompting for Code through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+When refactoring, provide the before state and the desired after state:
 
-## Further Reading
+- "Refactor this function to use async/await instead of callbacks"
+- "Extract this 200-line function into smaller, testable functions"
+- "Convert this class to use dependency injection"
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+### Debugging Prompts
+
+The most effective debugging prompts include the error, the code, and the context:
+
+```markdown
+This code throws an error. Help me fix it:
+
+Error: `TypeError: Cannot read property 'map' of undefined`
+at line 15 of UserList.tsx
+
+Code: [paste the component]
+
+Context: This happens intermittently. It seems to happen when the 
+API returns an empty response, but sometimes it works fine with 
+empty responses.
+```
+
+### Few-Shot for Code
+
+Code generation benefits enormously from few-shot examples. Show the model a snippet of code in your project's style, and it will match that style:
+
+- Same naming conventions
+- Same error handling patterns
+- Same documentation style
+- Same architectural patterns
+
+### Common Mistakes
+
+- **Vague requirements:** "Write a login function" gives you a toy example. Specify the auth provider, token storage, error handling, and UI behavior.
+- **No context:** Generating code without showing existing code structure leads to incompatible results.
+- **Asking for too much:** Break complex features into smaller, testable code generation tasks.
+- **Not specifying testing:** Always ask for test cases alongside code generation.
+
+---
+
+*Continue to learn about prompting for image generation across DALL-E, Stable Diffusion, and Midjourney.*

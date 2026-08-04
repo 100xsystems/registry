@@ -1,119 +1,169 @@
 ---
-{
-  "title": "Agent Memory Systems",
-  "description": "Working memory, long-term memory and retrieval — state that persists across turns.",
-  "type": "lesson",
-  "order": 5,
-  "duration": "55 min",
-  "difficulty": "advanced",
-  "learning_objectives": [
-    "Distinguish short-term and long-term memory",
-    "Store conversation state",
-    "Retrieve relevant memories",
-    "Compress and summarize history"
-  ],
-  "knowledge_refs": [
-    "ai-agents/agents-04-reasoning-and-planning",
-    "llm-engineering/llm-11-llm-agents",
-    "generative-ai/genai-12-agents-and-tool-use"
-  ],
-  "prerequisites": [
-    "AGENTS-04: Reasoning & Planning (ReAct)"
-  ],
-  "references": [
-    {
-      "title": "LangChain Agents",
-      "url": "https://python.langchain.com/docs/how_to/#agents",
-      "description": "Agent frameworks, tools and memory patterns."
-    },
-    {
-      "title": "OpenAI Agents Documentation",
-      "url": "https://platform.openai.com/docs/guides/agents",
-      "description": "Function calling and agent loop patterns."
-    },
-    {
-      "title": "ReAct: Synergizing Reasoning and Acting",
-      "url": "https://arxiv.org/abs/2210.03629",
-      "description": "The paper behind reasoning-acting agent loops."
-    },
-    {
-      "title": "Anthropic — Building Effective Agents",
-      "url": "https://www.anthropic.com/research/building-effective-agents",
-      "description": "A practical guide to agent architecture."
-    },
-    {
-      "title": "CrewAI Documentation",
-      "url": "https://docs.crewai.com/",
-      "description": "Multi-agent orchestration framework."
-    }
-  ]
-}
+slug: agents-05-memory-systems
+title: "Agent Memory Systems"
+description: "Memory architectures for agents — working memory, episodic memory, long-term storage, and self-editing memory patterns."
+order: 5
+tags:
+  - ai-agents
+  - memory
+  - working-memory
+  - episodic-memory
+prerequisites:
+  - agents-02-agent-architecture
+knowledge_refs:
+  - agents-02-agent-architecture
+  - agents-04-reasoning-and-planning
+references:
+  - title: "MemGPT: LLMs as Operating Systems"
+    url: "https://research.memgpt.ai/"
+    notes: "OS-inspired memory management"
+  - title: "Agent Memory Guide (MongoDB)"
+    url: "https://www.mongodb.com/resources/basics/artificial-intelligence/agent-memory"
+    notes: "Multi-tier memory architecture"
+  - title: "LLMs as OS: Agent Memory (DeepLearning.AI)"
+    url: "https://www.deeplearning.ai/courses/llms-as-operating-systems-agent-memory"
+    notes: "Practical memory patterns"
+  - title: "Best AI Agent Memory Frameworks"
+    url: "https://machinelearningmastery.com/the-6-best-ai-agent-memory-frameworks-you-try-in-2026/"
+    notes: "Comparison of memory frameworks"
+  - title: "Letta (MemGPT) Documentation"
+    url: "https://docs.letta.com/"
+    notes: "Self-editing memory framework"
 ---
 
-# AGENTS-05-MEMORY-SYSTEMS: Agent Memory Systems
+# Agent Memory Systems
 
-## Introduction
+LLMs are stateless — they forget everything between calls. Memory systems give agents persistence, enabling them to learn, recall, and maintain context across interactions.
 
-Working memory, long-term memory and retrieval — state that persists across turns. By the end of this lesson you will be able to: Distinguish short-term and long-term memory; Store conversation state; Retrieve relevant memories; Compress and summarize history.
+## Memory Taxonomy
 
-## Key Concepts
+| Type | What It Stores | Duration | Example |
+|------|---------------|----------|---------|
+| **Working** | Current task context | Session | Conversation history |
+| **Short-term** | Recent interactions | Minutes-hours | Sliding window |
+| **Episodic** | Past experiences | Days-weeks | "What happened yesterday?" |
+| **Long-term** | Persistent knowledge | Permanent | User preferences, facts |
+| **Procedural** | Learned skills | Permanent | Fine-tuned behaviors |
 
-### 1. Distinguish short-term and long-term memory
+## Working Memory
 
-Target: Distinguish short-term and long-term memory. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+The LLM's context window — what the model sees right now:
 
+```python
+messages = [
+    {"role": "system", "content": "You are a research assistant."},
+    {"role": "user", "content": "Find papers on RLHF"},
+    {"role": "assistant", "content": "I found 3 relevant papers..."},
+    {"role": "user", "content": "Summarize the first one"}
+]
+```
+
+### Challenges
+- Limited token budget
+- Oldest messages get forgotten
+- Important context may be in the middle
+
+## Scratchpads
+
+Structured notes replacing raw conversation:
+
+```python
+scratchpad = {
+    "goal": "Write a research report on AI safety",
+    "completed": ["Found 5 papers", "Read abstracts"],
+    "pending": ["Deep read top 3", "Draft outline", "Write report"],
+    "key_findings": ["RLHF is standard", "DPO is simpler"],
+    "citations": [" paper1.pdf", " paper2.pdf"]
+}
+```
+
+More efficient than storing full conversation history.
+
+## Episodic Memory
+
+Chronological records of past experiences:
+
+```python
+episodes = [
+    {"date": "2024-01-15", "event": "User asked about Python debugging", "resolution": "Provided pdb tutorial"},
+    {"date": "2024-01-20", "event": "User had memory leak issue", "resolution": "Identified circular reference"},
+]
+```
+
+Enables agents to learn from past interactions.
+
+## Long-Term Memory
+
+Persistent storage outside the context window:
+
+### Vector Database Memory
+```python
+# Store experience
+vector_db.store(
+    embedding=embed(experience),
+    metadata={"type": "episode", "date": today}
+)
+
+# Retrieve relevant memories
+relevant = vector_db.search(embed(current_query), top_k=5)
+```
+
+### Key-Value Memory
 ```python
 memory = {
-    "working": "current task context",
-    "episodic": "past conversations",
-    "semantic": "facts about the user",
+    "user.name": "Alice",
+    "user.preferences.tone": "formal",
+    "project.deadline": "2024-03-01"
 }
-print(memory)
 ```
-### 2. Store conversation state
 
-Target: Store conversation state. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+## MemGPT Architecture
 
+Inspired by operating systems — treat LLM context as RAM:
+
+| Tier | Analogy | Implementation |
+|------|---------|----------------|
+| **Core Memory** | RAM | In-context persistent block |
+| **Recall Memory** | Searchable history | Conversation log + search |
+| **Archival Memory** | Disk storage | Vector database + documents |
+
+### Self-Editing Memory
+The agent decides when to update its own memory:
 ```python
-import redis
-
-r = redis.Redis()
-r.set("agent:42:preferences", "prefers concise answers")
-print("stored:", r.get("agent:42:preferences"))
+# Agent can call memory tools
+memory_tool("core_memory_replace", "persona", "I am a research assistant specializing in AI safety")
+memory_tool("archival_memory_insert", "Key finding: DPO outperforms RLHF on several benchmarks")
 ```
-### 3. Retrieve relevant memories
 
-Target: Retrieve relevant memories. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+## Design Patterns
 
+### Summary Compression
 ```python
-print("retrieve memories semantically, not by recency alone")
+old_messages = messages[:20]
+summary = llm.summarize(old_messages)
+messages = [{"role": "system", "content": summary}] + messages[20:]
 ```
-### 4. Compress and summarize history
 
-Target: Compress and summarize history. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
-
+### RAG-Enhanced Memory
 ```python
-print("summarize old turns to keep the window small")
+def build_context(query):
+    past = episodic_memory.search(query, top_k=3)
+    docs = rag_memory.search(query, top_k=3)
+    return combine(past, docs)
 ```
 
-## Practice Questions
-
-1. What is the key idea behind "Agent Memory Systems"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
-
-## LLM Prompts for Deeper Understanding
-
-1. "Explain Agent Memory Systems with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Agent Memory Systems"
-1. "Provide advanced patterns and performance considerations for Agent Memory Systems"
+### Hierarchical Memory
+```python
+# Level 1: Working memory (current task)
+# Level 2: Session memory (today's interactions)
+# Level 3: User memory (preferences, history)
+# Level 4: World memory (knowledge base)
+```
 
 ## Key Takeaways
 
-- Master the core ideas of Agent Memory Systems through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
-
-## Further Reading
-
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+1. Agents need multiple memory types: working, episodic, long-term
+2. Scratchpads are more efficient than raw conversation history
+3. Vector databases enable semantic memory retrieval
+4. MemGPT treats LLM context as RAM with disk-backed storage
+5. Self-editing memory lets agents manage their own context

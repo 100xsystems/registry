@@ -1,111 +1,88 @@
 ---
-{
-  "title": "Prompting for RAG",
-  "description": "Write retrieval-grounded prompts: cite sources, handle missing context, stay faithful.",
-  "type": "lesson",
-  "order": 9,
-  "duration": "55 min",
-  "difficulty": "advanced",
-  "learning_objectives": [
-    "Ground answers in provided context",
-    "Handle missing information honestly",
-    "Require citations",
-    "Prevent hallucination beyond context"
-  ],
-  "knowledge_refs": [
-    "prompt-engineering/pe-08-prompts-for-images",
-    "llm-engineering/llm-07-rag-engineering",
-    "llm-engineering/llm-08-advanced-rag"
-  ],
-  "prerequisites": [
-    "LLM-07: RAG Engineering"
-  ],
-  "references": [
-    {
-      "title": "OpenAI Prompt Engineering Guide",
-      "url": "https://platform.openai.com/docs/guides/prompt-engineering",
-      "description": "Six strategies for reliable prompting from OpenAI."
-    },
-    {
-      "title": "Anthropic Prompt Engineering Docs",
-      "url": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering",
-      "description": "Claude's practical prompt engineering guide."
-    },
-    {
-      "title": "Prompt Engineering Guide (DAIR.AI)",
-      "url": "https://www.promptingguide.ai/",
-      "description": "A broad open-source guide to prompt techniques."
-    },
-    {
-      "title": "CoT: Chain-of-Thought Prompting",
-      "url": "https://arxiv.org/abs/2201.11903",
-      "description": "The paper on reasoning via chain-of-thought prompts."
-    },
-    {
-      "title": "ReAct: Reasoning + Acting",
-      "url": "https://arxiv.org/abs/2210.03629",
-      "description": "Combining reasoning traces with tool actions."
-    }
-  ]
-}
+slug: pe-09-prompts-for-rag
+title: "Prompting for RAG"
+description: "Techniques for Retrieval-Augmented Generation — grounding LLM responses in retrieved context while maintaining faithfulness and accuracy."
+order: 9
+tags:
+  - prompt-engineering
+  - rag
+  - retrieval-augmented-generation
+  - grounding
+  - faithfulness
+prerequisites:
+  - pe-06-structured-outputs
+knowledge_refs:
+  - pe-06-structured-outputs
+    title: "Structured Outputs"
+  - pe-10-system-prompts
+    title: "System Prompts in Production"
+  - llm-07-rag-engineering
+    title: "RAG Engineering"
+references:
+  - title: "Anthropic — Prompt Engineering for RAG"
+    url: "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/retrieval-augmented-generation"
+  - title: "RAGAS — Evaluation Framework for RAG"
+    url: "https://docs.ragas.io/en/latest/"
+  - title: "LangChain — RAG Prompt Templates"
+    url: "https://python.langchain.com/docs/how_to/rag_prompt/"
+  - title: "LlamaIndex — Prompt Engineering for RAG"
+    url: "https://docs.llamaindex.ai/en/stable/optimizing/production_rag/"
+  - title: "TruLens — RAG Evaluation Guide"
+    url: "https://truLens.org/trulens/getting_started/quickstart/"
 ---
 
-# PE-09-PROMPTS-FOR-RAG: Prompting for RAG
+## Prompting for RAG
 
-## Introduction
+Retrieval-Augmented Generation (RAG) combines the knowledge retrieval of search engines with the reasoning of LLMs. The prompt engineering challenge is different from standard prompting: you're injecting external context and need the model to use it faithfully without hallucinating.
 
-Write retrieval-grounded prompts: cite sources, handle missing context, stay faithful. By the end of this lesson you will be able to: Ground answers in provided context; Handle missing information honestly; Require citations; Prevent hallucination beyond context.
+### The RAG Prompt Structure
 
-## Key Concepts
+A RAG prompt typically contains:
 
-### 1. Ground answers in provided context
+```xml
+<instructions>
+Answer the user's question based ONLY on the provided context. 
+If the context doesn't contain enough information, say "I don't have 
+enough information to answer this question."
+Cite your sources using [1], [2], etc.
+</instructions>
 
-Target: Ground answers in provided context. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+<context>
+[Retrieved document chunk 1]
+[Retrieved document chunk 2]
+[Retrieved document chunk 3]
+</context>
 
-```python
-rag_prompt = """Answer using ONLY the context below. If the answer is not in the context, say "I don't have that information."\n\nContext: {context}\n\nQuestion: {question}"""
-print(rag_prompt)
-```
-### 2. Handle missing information honestly
-
-Target: Handle missing information honestly. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
-
-```python
-print("instruct: quote sources, don't invent")
-```
-### 3. Require citations
-
-Target: Require citations. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
-
-```python
-print("missing context -> explicit refusal beats guessing")
-```
-### 4. Prevent hallucination beyond context
-
-Target: Prevent hallucination beyond context. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
-
-```python
-print("evals: faithfulness (does it stick to context?)")
+<question>
+[User's question]
+</question>
 ```
 
-## Practice Questions
+### Key Techniques
 
-1. What is the key idea behind "Prompting for RAG"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+**Grounding instructions:** Explicitly tell the model to use only the provided context. "Answer based on the context below" or "Use ONLY the information in these documents" reduces hallucination.
 
-## LLM Prompts for Deeper Understanding
+**Citation prompting:** Ask the model to cite which source supports each claim. This makes it easy to verify accuracy and builds user trust.
 
-1. "Explain Prompting for RAG with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Prompting for RAG"
-1. "Provide advanced patterns and performance considerations for Prompting for RAG"
+**Handling missing information:** Instruct the model on what to do when the context is insufficient. A model that says "I don't know" is more useful than one that confidently hallucinates.
 
-## Key Takeaways
+**Context ordering:** Place the most relevant chunks first and last (the "lost in the middle" problem means context in the center of long prompts gets less attention).
 
-- Master the core ideas of Prompting for RAG through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+### Faithfulness Evaluation
 
-## Further Reading
+For production RAG systems, you need to evaluate whether the model is actually using the context:
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+- **RAGAS framework:** Measures faithfulness, answer relevancy, and context precision
+- **TruLens:** Provides feedback functions for grounding, relevance, and toxicity
+- **LLM-as-judge:** Use a second model to verify that claims in the response are supported by the context
+
+### Common Mistakes
+
+- **Ignoring chunk ordering:** The model pays less attention to context in the middle of a long prompt.
+- **No grounding instruction:** Without explicit instructions, the model may ignore context and use its training data.
+- **Too much context:** More context isn't always better. Irrelevant chunks can confuse the model and dilute relevant signals.
+- **Not handling edge cases:** What happens when retrieval returns no results? The model should degrade gracefully.
+
+---
+
+*Continue to learn about system prompts in production — guardrails, versioning, and monitoring.*

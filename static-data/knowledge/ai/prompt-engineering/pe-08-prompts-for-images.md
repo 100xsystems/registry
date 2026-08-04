@@ -1,115 +1,93 @@
 ---
-{
-  "title": "Prompting for Images",
-  "description": "Text-to-image prompting: composition, style, lighting and negative prompts.",
-  "type": "lesson",
-  "order": 8,
-  "duration": "50 min",
-  "difficulty": "intermediate",
-  "learning_objectives": [
-    "Describe subjects and composition clearly",
-    "Control style, lighting and mood",
-    "Use negative prompts",
-    "Iterate with seeds and variations"
-  ],
-  "knowledge_refs": [
-    "prompt-engineering/pe-07-prompts-for-code",
-    "generative-ai/genai-04-prompt-engineering",
-    "llm-engineering/llm-04-prompting-systems"
-  ],
-  "prerequisites": [
-    "GENAI-13: Diffusion Models for Images"
-  ],
-  "references": [
-    {
-      "title": "OpenAI Prompt Engineering Guide",
-      "url": "https://platform.openai.com/docs/guides/prompt-engineering",
-      "description": "Six strategies for reliable prompting from OpenAI."
-    },
-    {
-      "title": "Anthropic Prompt Engineering Docs",
-      "url": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering",
-      "description": "Claude's practical prompt engineering guide."
-    },
-    {
-      "title": "Prompt Engineering Guide (DAIR.AI)",
-      "url": "https://www.promptingguide.ai/",
-      "description": "A broad open-source guide to prompt techniques."
-    },
-    {
-      "title": "CoT: Chain-of-Thought Prompting",
-      "url": "https://arxiv.org/abs/2201.11903",
-      "description": "The paper on reasoning via chain-of-thought prompts."
-    },
-    {
-      "title": "ReAct: Reasoning + Acting",
-      "url": "https://arxiv.org/abs/2210.03629",
-      "description": "Combining reasoning traces with tool actions."
-    }
-  ]
-}
+slug: pe-08-prompts-for-images
+title: "Prompting for Images"
+description: "Crafting effective prompts for DALL-E, Stable Diffusion, and Midjourney — from basic composition to advanced style control."
+order: 8
+tags:
+  - prompt-engineering
+  - image-generation
+  - dall-e
+  - stable-diffusion
+  - midjourney
+prerequisites:
+  - pe-02-prompt-structure
+knowledge_refs:
+  - pe-02-prompt-structure
+    title: "Prompt Structure"
+  - pe-17-domain-specific-prompts
+    title: "Domain-Specific Prompting"
+  - genai-13-diffusion-models
+    title: "Diffusion Models"
+references:
+  - title: "Civitai — Prompt Crafting Guide: Part 1 — Basics"
+    url: "https://education.civitai.com/civitais-prompt-crafting-guide-part-1-basics/"
+  - title: "Portkey — Prompt Engineering for Stable Diffusion"
+    url: "https://portkey.ai/blog/prompt-engineering-for-stable-diffusion/"
+  - title: "Learn Prompting — DALL-E 3"
+    url: "https://learnprompting.org/docs/models/dalle_3"
+  - title: "Midjourney — Prompt Basics"
+    url: "https://docs.midjourney.com/hc/en-us/articles/32023408776205-Prompt-Basics"
+  - title: "Midjourney — Image Prompts"
+    url: "https://docs.midjourney.com/hc/en-us/articles/32040250122381-Image-Prompts"
 ---
 
-# PE-08-PROMPTS-FOR-IMAGES: Prompting for Images
+## Prompting for Images
 
-## Introduction
+Image generation models (DALL-E, Stable Diffusion, Midjourney) each have different prompt styles, but share core principles: specificity, structure, and control over composition, style, and lighting.
 
-Text-to-image prompting: composition, style, lighting and negative prompts. By the end of this lesson you will be able to: Describe subjects and composition clearly; Control style, lighting and mood; Use negative prompts; Iterate with seeds and variations.
+### DALL-E: Natural Language Prompts
 
-## Key Concepts
+DALL-E 3 uses an integrated LLM to preprocess your prompt. It automatically expands brief inputs into detailed synthetic captions. This means you should write in **natural language sentences**, not keyword lists.
 
-### 1. Describe subjects and composition clearly
+**Good:** "A fluffy orange cat sits on a rainy windowsill, illuminated by neon pink storefront signs reflecting off puddles outside"
 
-Target: Describe subjects and composition clearly. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+**Bad:** "cat, neon, 8k, cyberpunk, photorealistic"
 
-```python
-prompt = "a cozy mountain cabin at dusk, warm window light, photorealistic, wide shot"
-print(prompt)
+DALL-E handles complex scene descriptions, spatial relationships, and text rendering. It's the most "conversational" of the image models.
+
+### Stable Diffusion: Token-Based Prompting
+
+Stable Diffusion parses text through CLIP tokenizers. This creates specific requirements:
+
+**Structure your prompt in blocks:**
 ```
-### 2. Control style, lighting and mood
-
-Target: Control style, lighting and mood. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
-
-```python
-negative = "blurry, low quality, extra limbs, watermark"
-print("negative prompt:", negative)
-```
-### 3. Use negative prompts
-
-Target: Use negative prompts. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
-
-```python
-print("order matters: subject -> setting -> style -> quality")
-```
-### 4. Iterate with seeds and variations
-
-Target: Iterate with seeds and variations. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
-
-```python
-from diffusers import StableDiffusionPipeline
-
-pipe = StableDiffusionPipeline.from_pretrained("runwayml/stable-diffusion-v1-5")
-print("pipeline ready")
+[Subject & Appearance] + [Medium & Style] + [Color & Lighting] + [Composition & Atmosphere]
 ```
 
-## Practice Questions
+Example: `a cyberpunk samurai standing in neon-lit rain, concept art, dramatic rim lighting, cinematic wide-angle shot`
 
-1. What is the key idea behind "Prompting for Images"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+**Weighting syntax:** Use parentheses to control emphasis:
+- `(keyword:1.3)` — increase attention by 30%
+- `[keyword]` — decrease emphasis
+- `((keyword))` — double emphasis
 
-## LLM Prompts for Deeper Understanding
+**Negative prompts** are essential in Stable Diffusion to avoid common artifacts:
+```
+Negative: lowres, bad anatomy, bad hands, text, error, 
+missing fingers, extra digits, worst quality, low quality, 
+jpeg artifacts, signature, watermark, blurry
+```
 
-1. "Explain Prompting for Images with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Prompting for Images"
-1. "Provide advanced patterns and performance considerations for Prompting for Images"
+### Midjourney: Parameter-Driven
 
-## Key Takeaways
+Midjourney uses text prompts with modular parameter suffixes:
+- `--ar 16:9` — aspect ratio
+- `--v 6.0` — model version
+- `--stylize 750` — artistic interpretation (0–1000)
+- `--chaos 30` — variation between results
 
-- Master the core ideas of Prompting for Images through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+Midjourney is more artistically interpretive than DALL-E or Stable Diffusion. It excels at atmospheric, stylized imagery.
 
-## Further Reading
+### Universal Principles
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+Regardless of the model:
+
+1. **Lead with the subject.** Start with what you want to see, not adjectives.
+2. **Be specific about style.** "Concept art" vs. "watercolor" vs. "photograph" dramatically changes output.
+3. **Control composition.** "Close-up portrait" vs. "wide landscape" vs. "bird's-eye view" directs the camera.
+4. **Use reference images** when available. Image-to-image guidance is more reliable than text alone for exact matches.
+5. **Iterate quickly.** Generate 4 variations, pick the best, refine the prompt, repeat.
+
+---
+
+*Continue to learn about prompting for RAG systems — grounding LLM responses in retrieved context.*

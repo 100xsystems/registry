@@ -1,117 +1,170 @@
 ---
-{
-  "title": "Reasoning & Planning (ReAct)",
-  "description": "Interleave thought, action and observation — the ReAct pattern that powers modern agents.",
-  "type": "lesson",
-  "order": 4,
-  "duration": "55 min",
-  "difficulty": "advanced",
-  "learning_objectives": [
-    "Explain the ReAct loop",
-    "Write reasoning prompts",
-    "Implement a ReAct-style agent",
-    "Plan multi-step tasks"
-  ],
-  "knowledge_refs": [
-    "ai-agents/agents-03-tool-use",
-    "llm-engineering/llm-11-llm-agents",
-    "generative-ai/genai-12-agents-and-tool-use"
-  ],
-  "prerequisites": [
-    "AGENTS-03: Tool Use & Function Calling"
-  ],
-  "references": [
-    {
-      "title": "LangChain Agents",
-      "url": "https://python.langchain.com/docs/how_to/#agents",
-      "description": "Agent frameworks, tools and memory patterns."
-    },
-    {
-      "title": "OpenAI Agents Documentation",
-      "url": "https://platform.openai.com/docs/guides/agents",
-      "description": "Function calling and agent loop patterns."
-    },
-    {
-      "title": "ReAct: Synergizing Reasoning and Acting",
-      "url": "https://arxiv.org/abs/2210.03629",
-      "description": "The paper behind reasoning-acting agent loops."
-    },
-    {
-      "title": "Anthropic — Building Effective Agents",
-      "url": "https://www.anthropic.com/research/building-effective-agents",
-      "description": "A practical guide to agent architecture."
-    },
-    {
-      "title": "CrewAI Documentation",
-      "url": "https://docs.crewai.com/",
-      "description": "Multi-agent orchestration framework."
-    }
-  ]
-}
+slug: agents-04-reasoning-and-planning
+title: "Reasoning & Planning (ReAct)"
+description: "How agents think — ReAct, Chain-of-Thought, Plan-and-Execute, Tree-of-Thoughts, and reflection patterns."
+order: 4
+tags:
+  - ai-agents
+  - reasoning
+  - planning
+  - react
+  - chain-of-thought
+prerequisites:
+  - agents-03-tool-use
+  - agents-02-agent-architecture
+knowledge_refs:
+  - agents-03-tool-use
+  - agents-05-memory-systems
+references:
+  - title: "ReAct: Synergizing Reasoning and Acting"
+    url: "https://arxiv.org/abs/2210.03629"
+    notes: "Original ReAct paper"
+  - title: "Chain-of-Thought Prompting"
+    url: "https://arxiv.org/abs/2201.11903"
+    notes: "Wei et al. on reasoning"
+  - title: "Tree of Thoughts"
+    url: "https://arxiv.org/abs/2305.10601"
+    notes: "Exploring multiple reasoning paths"
+  - title: "Reflexion: Language Agents with Verbal Reinforcement"
+    url: "https://arxiv.org/abs/2303.11366"
+    notes: "Self-reflection for agents"
+  - title: "Building Effective Agents (Anthropic)"
+    url: "https://www.anthropic.com/engineering/building-effective-ai-agents"
+    notes: "Practical agent design patterns"
 ---
 
-# AGENTS-04-REASONING-AND-PLANNING: Reasoning & Planning (ReAct)
+# Reasoning & Planning (ReAct)
 
-## Introduction
+Agents need to think before they act. This lesson covers the reasoning frameworks that let agents plan, reflect, and iterate toward their goals.
 
-Interleave thought, action and observation — the ReAct pattern that powers modern agents. By the end of this lesson you will be able to: Explain the ReAct loop; Write reasoning prompts; Implement a ReAct-style agent; Plan multi-step tasks.
+## ReAct (Reasoning + Acting)
 
-## Key Concepts
+The most influential agent framework. Alternates between thinking and doing:
 
-### 1. Explain the ReAct loop
-
-Target: Explain the ReAct loop. Start with the foundations — read the runnable example carefully and trace its output before moving on.
-
-```python
-react = ["Thought", "Action", "Observation", "Thought", "Action", "Final"]
-print(react)
 ```
-### 2. Write reasoning prompts
-
-Target: Write reasoning prompts. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
-
-```python
-prompt = """You answer questions using tools.\n\nThought: what do I need?\nAction: search[query]\nObservation: result\nAnswer: ...\n"""
-print(prompt)
-```
-### 3. Implement a ReAct-style agent
-
-Target: Implement a ReAct-style agent. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
-
-```python
-import time
-
-state = "need current price"
-for step in range(3):
-    print(f"Thought -> Action -> Observation (step {step})")
-    time.sleep(0.05)
-```
-### 4. Plan multi-step tasks
-
-Target: Plan multi-step tasks. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
-
-```python
-print("plan-then-execute: decompose a big task into steps")
+Thought: I need to find the population of France
+Action: search("population of France 2024")
+Observation: France has approximately 68 million people
+Thought: Now I can answer the user's question
+Answer: France has about 68 million people
 ```
 
-## Practice Questions
+### Why ReAct Works
+- **Transparent**: you can see the agent's reasoning
+- **Flexible**: adapts based on observations
+- **Grounded**: actions provide real-world information
 
-1. What is the key idea behind "Reasoning & Planning (ReAct)"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+### Limitations
+- One LLM call per step (expensive)
+- Can get stuck in loops
+- No global planning
 
-## LLM Prompts for Deeper Understanding
+## Chain-of-Thought (CoT)
 
-1. "Explain Reasoning & Planning (ReAct) with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Reasoning & Planning (ReAct)"
-1. "Provide advanced patterns and performance considerations for Reasoning & Planning (ReAct)"
+Force step-by-step reasoning before acting:
+
+```python
+prompt = """
+Let me think through this step by step:
+
+1. First, I need to understand what the user is asking
+2. Then, I need to identify what information I'm missing
+3. Next, I'll determine the best tool to get that information
+4. Finally, I'll synthesize an answer
+
+User question: {question}
+"""
+```
+
+### CoT Variants
+- **Zero-shot CoT**: "Let's think step by step"
+- **Few-shot CoT**: exemplars with reasoning traces
+- **Self-consistency**: sample multiple CoT paths, majority vote
+
+## Plan-and-Execute
+
+Separate planning from execution:
+
+```python
+# Phase 1: Plan
+plan = planner_llm.generate("""
+Create a step-by-step plan to: {user_goal}
+
+Available tools: {tool_descriptions}
+""")
+# Returns: [Step1, Step2, Step3]
+
+# Phase 2: Execute
+for step in plan:
+    result = executor_llm.execute(step)
+    context.update(step, result)
+```
+
+### Advantages
+- Fewer LLM calls (plan once, execute many)
+- Parallelizable execution
+- Clear progress tracking
+
+### Disadvantages
+- Less adaptable if plan is wrong
+- Needs re-planning mechanism
+
+## Tree of Thoughts (ToT)
+
+Explore multiple reasoning paths simultaneously:
+
+```
+         Root Problem
+        /      |      \
+    Path A   Path B   Path C
+    /    \      |      /    \
+  A1    A2     B1    C1    C2
+  ✓     ✗      ✓     ✗     ✓
+```
+
+- Evaluate each branch
+- Prune unpromising paths
+- Backtrack when stuck
+
+## Reflection & Self-Critique
+
+Agents that learn from their mistakes:
+
+```python
+def reflect_and_improve(task, attempt, feedback):
+    reflection = llm.generate(f"""
+    I attempted: {attempt}
+    The result was: {feedback}
+    What went wrong? What should I do differently?
+    """)
+    improved = llm.generate(f"""
+    Based on this reflection: {reflection}
+    Try again with: {task}
+    """)
+    return improved
+```
+
+### Reflexion Pattern
+1. Execute task
+2. Evaluate result
+3. Generate verbal reflection
+4. Use reflection to improve next attempt
+5. Repeat until success
+
+## Choosing a Framework
+
+| Framework | Best For | Complexity |
+|-----------|----------|------------|
+| **ReAct** | Simple tool-use tasks | Low |
+| **CoT** | Reasoning without tools | Low |
+| **Plan-and-Execute** | Complex multi-step tasks | Medium |
+| **ToT** | Exploration, creative tasks | High |
+| **Reflexion** | Tasks requiring self-correction | Medium |
 
 ## Key Takeaways
 
-- Master the core ideas of Reasoning & Planning (ReAct) through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
-
-## Further Reading
-
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+1. ReAct is the most widely used agent reasoning framework
+2. Chain-of-Thought enables transparent step-by-step reasoning
+3. Plan-and-Execute separates planning from execution for efficiency
+4. Tree of Thoughts explores multiple paths for complex problems
+5. Reflection helps agents learn from mistakes and improve

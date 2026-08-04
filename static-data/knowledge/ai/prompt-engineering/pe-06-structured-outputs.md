@@ -1,121 +1,103 @@
 ---
-{
-  "title": "Structured Outputs",
-  "description": "Force JSON, enums and schemas — reliable data out of free-form models.",
-  "type": "lesson",
-  "order": 6,
-  "duration": "55 min",
-  "difficulty": "intermediate",
-  "learning_objectives": [
-    "Request JSON with explicit schemas",
-    "Validate and repair outputs",
-    "Use constrained decoding where available",
-    "Handle malformed responses"
-  ],
-  "knowledge_refs": [
-    "prompt-engineering/pe-05-chain-of-thought",
-    "llm-engineering/llm-10-function-calling"
-  ],
-  "prerequisites": [
-    "PE-02: Prompt Structure"
-  ],
-  "references": [
-    {
-      "title": "OpenAI Prompt Engineering Guide",
-      "url": "https://platform.openai.com/docs/guides/prompt-engineering",
-      "description": "Six strategies for reliable prompting from OpenAI."
-    },
-    {
-      "title": "Anthropic Prompt Engineering Docs",
-      "url": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering",
-      "description": "Claude's practical prompt engineering guide."
-    },
-    {
-      "title": "Prompt Engineering Guide (DAIR.AI)",
-      "url": "https://www.promptingguide.ai/",
-      "description": "A broad open-source guide to prompt techniques."
-    },
-    {
-      "title": "CoT: Chain-of-Thought Prompting",
-      "url": "https://arxiv.org/abs/2201.11903",
-      "description": "The paper on reasoning via chain-of-thought prompts."
-    },
-    {
-      "title": "ReAct: Reasoning + Acting",
-      "url": "https://arxiv.org/abs/2210.03629",
-      "description": "Combining reasoning traces with tool actions."
-    }
-  ]
-}
+slug: pe-06-structured-outputs
+title: "Structured Outputs"
+description: "Getting JSON, tables, and formatted responses from any model — schema enforcement, function calling, and constrained decoding."
+order: 6
+tags:
+  - prompt-engineering
+  - structured-outputs
+  - json
+  - function-calling
+prerequisites:
+  - pe-05-chain-of-thought
+knowledge_refs:
+  - pe-05-chain-of-thought
+    title: "Chain-of-Thought Reasoning"
+  - pe-10-system-prompts
+    title: "System Prompts in Production"
+  - llm-10-function-calling
+    title: "Function Calling & Structured Outputs"
+references:
+  - title: "Instructor — Multi-Language Library for Structured LLM Outputs"
+    url: "https://python.useinstructor.com/"
+  - title: "The Guide to Structured Outputs and Function Calling with LLMs"
+    url: "https://agenta.ai/blog/the-guide-to-structured-outputs-and-function-calling-with-llms"
+  - title: "Best Structured Prompt Formats for LLMs, Ranked"
+    url: "https://mightybot.ai/blog/best-structured-prompt-formats-for-llms/"
+  - title: "Claude API Structured Output: Complete Guide"
+    url: "https://thomas-wiegold.com/blog/claude-api-structured-output/"
+  - title: "Structured Outputs with OpenAI — Instructor Guide"
+    url: "https://python.useinstructor.com/integrations/openai/"
 ---
 
-# PE-06-STRUCTURED-OUTPUTS: Structured Outputs
+## Structured Outputs
 
-## Introduction
+Getting a model to produce valid JSON, tables, or formatted data is one of the most common and critical tasks in prompt engineering. Without structured outputs, you're parsing free-form text and hoping it matches your schema. With structured outputs, you get guaranteed, type-safe data every time.
 
-Force JSON, enums and schemas — reliable data out of free-form models. By the end of this lesson you will be able to: Request JSON with explicit schemas; Validate and repair outputs; Use constrained decoding where available; Handle malformed responses.
+### JSON Mode vs. Schema Enforcement
 
-## Key Concepts
+**JSON Mode** tells the model "return valid JSON." This guarantees syntactic correctness — the model won't output malformed JSON. But it doesn't guarantee the structure matches what you need. You might get valid JSON with the wrong keys, wrong types, or missing fields.
 
-### 1. Request JSON with explicit schemas
-
-Target: Request JSON with explicit schemas. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+**Schema Enforcement** (structured outputs) goes further. It compiles your schema into a grammar that constrains the model's token generation at inference time. The model physically cannot produce output that violates the schema. OpenAI calls this `response_format: { type: "json_schema" }`. Anthropic offers `output_format` with `json_schema`. The result is mathematically guaranteed compliance.
 
 ```python
-import json
+from pydantic import BaseModel
+from instructor import patch
+from openai import OpenAI
 
-prompt = 'Return JSON: {"name": string, "age": number}'
-raw = '{"name": "Ada", "age": 36}'
-data = json.loads(raw)
-print(data["name"])
-```
-### 2. Validate and repair outputs
+class SentimentResult(BaseModel):
+    sentiment: str  # "positive", "negative", "neutral"
+    confidence: float  # 0.0 to 1.0
+    reasoning: str
 
-Target: Validate and repair outputs. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+client = OpenAI()
+patch(client)
 
-```python
-import json
+result = client.chat.completions.create(
+    model="gpt-4",
+    response_model=SentimentResult,
+    messages=[{"role": "user", "content": "This product is amazing but shipping was slow."}]
+)
 
-# Repair: retry with the error message
-bad = "name: Ada, age: 36"
-try:
-    json.loads(bad)
-except json.JSONDecodeError as e:
-    print("repairing ->", json.dumps({"name": "Ada", "age": 36}))
-```
-### 3. Use constrained decoding where available
-
-Target: Use constrained decoding where available. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
-
-```python
-print("constrained decoding guarantees schema conformance")
-```
-### 4. Handle malformed responses
-
-Target: Handle malformed responses. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
-
-```python
-print("validate types; never trust raw model output")
+# result is guaranteed to be a SentimentResult instance
+print(result.sentiment)    # "positive"
+print(result.confidence)   # 0.75
 ```
 
-## Practice Questions
+The `instructor` library wraps provider APIs to automatically handle validation failures, triggering retries until the output conforms to your Pydantic model.
 
-1. What is the key idea behind "Structured Outputs"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+### Function Calling & Tool Use
 
-## LLM Prompts for Deeper Understanding
+Function calling transforms models from passive text generators into active decision-makers. The LLM evaluates user intent, selects an appropriate tool, and formats arguments into validated JSON payloads.
 
-1. "Explain Structured Outputs with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Structured Outputs"
-1. "Provide advanced patterns and performance considerations for Structured Outputs"
+This is structured outputs applied to API design: instead of returning data, the model returns function calls with typed arguments. Modern frameworks generate function schemas automatically from Python type hints or Pydantic models.
 
-## Key Takeaways
+### Format Selection Guide
 
-- Master the core ideas of Structured Outputs through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+| Format | Best For | Parsing | Token Efficiency |
+|---|---|---|---|
+| **JSON** | APIs, databases, structured data | Trivial | Good |
+| **XML** | Complex nested data, prompt structuring | Easy | Moderate |
+| **Markdown tables** | Human-readable comparisons | Moderate | Good |
+| **YAML** | Configuration, readable configs | Easy | Good |
+| **CSV/TSV** | Tabular data, bulk exports | Trivial | Excellent |
 
-## Further Reading
+### Practical Patterns
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+**For APIs and databases:** Use JSON schema enforcement. Define a Pydantic model (Python) or Zod schema (TypeScript) and enforce it at the API level.
+
+**For prompt structuring:** Use XML tags. They're cleaner for separating sections and Claude handles them natively.
+
+**For human-readable output:** Use Markdown. Tables, lists, and headers are naturally readable and parseable.
+
+**For maximum token efficiency:** Use CSV/TSV for flat tabular data. Minified JSON for nested data.
+
+### Common Mistakes
+
+- **Relying on prompt instructions for format:** "Please respond in JSON" is a request, not a guarantee. Use schema enforcement for production.
+- **Over-engineering schemas:** Start simple. A flat JSON object is better than a deeply nested schema if you don't need the nesting.
+- **Ignoring error handling:** Even with schema enforcement, handle validation failures gracefully with retry logic.
+
+---
+
+*Continue to learn about prompting for code generation, review, and debugging.*

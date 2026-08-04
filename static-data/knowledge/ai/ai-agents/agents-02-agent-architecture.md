@@ -1,120 +1,127 @@
 ---
-{
-  "title": "Agent Architecture",
-  "description": "The anatomy of an agent: model, tools, memory, planner and executor.",
-  "type": "lesson",
-  "order": 2,
-  "duration": "55 min",
-  "difficulty": "intermediate",
-  "learning_objectives": [
-    "Decompose an agent into components",
-    "Describe the controller pattern",
-    "Explain tool registries",
-    "Choose when to use simple vs complex architectures"
-  ],
-  "knowledge_refs": [
-    "ai-agents/agents-01-what-are-ai-agents",
-    "llm-engineering/llm-11-llm-agents",
-    "generative-ai/genai-12-agents-and-tool-use"
-  ],
-  "prerequisites": [
-    "AGENTS-01: What Are AI Agents?"
-  ],
-  "references": [
-    {
-      "title": "LangChain Agents",
-      "url": "https://python.langchain.com/docs/how_to/#agents",
-      "description": "Agent frameworks, tools and memory patterns."
-    },
-    {
-      "title": "OpenAI Agents Documentation",
-      "url": "https://platform.openai.com/docs/guides/agents",
-      "description": "Function calling and agent loop patterns."
-    },
-    {
-      "title": "ReAct: Synergizing Reasoning and Acting",
-      "url": "https://arxiv.org/abs/2210.03629",
-      "description": "The paper behind reasoning-acting agent loops."
-    },
-    {
-      "title": "Anthropic — Building Effective Agents",
-      "url": "https://www.anthropic.com/research/building-effective-agents",
-      "description": "A practical guide to agent architecture."
-    },
-    {
-      "title": "CrewAI Documentation",
-      "url": "https://docs.crewai.com/",
-      "description": "Multi-agent orchestration framework."
-    }
-  ]
-}
+slug: agents-02-agent-architecture
+title: "Agent Architecture"
+description: "The building blocks of agent systems — the perception-reasoning-action cycle, BDI models, and modern LLM agent architectures."
+order: 2
+tags:
+  - ai-agents
+  - architecture
+  - bdi
+  - agent-loop
+prerequisites:
+  - agents-01-what-are-ai-agents
+knowledge_refs:
+  - agents-01-what-are-ai-agents
+  - agents-04-reasoning-and-planning
+references:
+  - title: "Building Effective Agents (Anthropic)"
+    url: "https://docs.anthropic.com/en/docs/build-with-claude/agentic"
+    notes: "Anthropic's guide to agent architecture"
+  - title: "LLM Agent Architectures (LangChain)"
+    url: "https://www.langchain.com/blog/agentic-design-patterns-part-1"
+    notes: "Modern agent design patterns"
+  - title: "Cognitive Architectures for Language Agents"
+    url: "https://arxiv.org/abs/2309.02427"
+    notes: "Survey of agent architectures"
+  - title: "The Agentic Loop"
+    url: "https://www.anthropic.com/engineering/building-effective-ai-agents"
+    notes: "Core agent loop patterns"
+  - title: "BDI Agent Model"
+    url: "https://en.wikipedia.org/wiki/Belief%E2%80%93desire%E2%80%93intention_software_model"
+    notes: "Classic BDI architecture"
 ---
 
-# AGENTS-02-AGENT-ARCHITECTURE: Agent Architecture
+# Agent Architecture
 
-## Introduction
+Every agent, from a simple chatbot to a complex multi-agent system, follows an architectural pattern. Understanding these patterns helps you design effective agents.
 
-The anatomy of an agent: model, tools, memory, planner and executor. By the end of this lesson you will be able to: Decompose an agent into components; Describe the controller pattern; Explain tool registries; Choose when to use simple vs complex architectures.
+## The Core Agent Loop
 
-## Key Concepts
-
-### 1. Decompose an agent into components
-
-Target: Decompose an agent into components. Start with the foundations — read the runnable example carefully and trace its output before moving on.
-
-```python
-components = {
-    "model": "decides actions",
-    "tools": "capabilities",
-    "memory": "state across steps",
-    "planner": "breaks down goals",
-}
-print(components)
 ```
-### 2. Describe the controller pattern
-
-Target: Describe the controller pattern. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
-
-```python
-import json
-
-# Tool registry: name -> function
-tools = {"search": search_fn, "calc": calc_fn}
-print("registered:", list(tools))
-```
-### 3. Explain tool registries
-
-Target: Explain tool registries. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
-
-```python
-print("start simple: one model + few tools")
-```
-### 4. Choose when to use simple vs complex architectures
-
-Target: Choose when to use simple vs complex architectures. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
-
-```python
-print("controller: the model decides, the code executes")
+┌─────────────────────────────────────┐
+│              AGENT LOOP             │
+│                                     │
+│  Observe → Think → Decide → Act    │
+│     ↑                        │     │
+│     └────────────────────────┘     │
+│              (reflect)              │
+└─────────────────────────────────────┘
 ```
 
-## Practice Questions
+### Components
 
-1. What is the key idea behind "Agent Architecture"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+| Component | Function | Implementation |
+|-----------|----------|----------------|
+| **Perception** | Gather information | APIs, sensors, user input |
+| **Memory** | Store context | Conversation, vector DB |
+| **Reasoning** | Analyze and plan | LLM, CoT, ReAct |
+| **Decision** | Choose action | Tool selection, response generation |
+| **Action** | Execute tool | Function calling, API calls |
+| **Reflection** | Evaluate outcome | Self-critique, scoring |
 
-## LLM Prompts for Deeper Understanding
+## BDI Architecture
 
-1. "Explain Agent Architecture with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Agent Architecture"
-1. "Provide advanced patterns and performance considerations for Agent Architecture"
+The classic **Belief-Desire-Intention** model:
+
+- **Beliefs**: what the agent knows about the world
+- **Desires**: what the agent wants to achieve
+- **Intentions**: what the agent commits to doing
+
+```
+Beliefs + Desires → Intentions → Actions → Updated Beliefs
+```
+
+### Modern LLM Equivalent
+- **Beliefs**: context window, RAG retrieval, tool results
+- **Desires**: user goal, system instructions
+- **Intentions**: planned action sequence (CoT, ReAct)
+- **Actions**: function calls, text generation
+
+## LLM Agent Architectures
+
+### Single-Agent (Tool-Using LLM)
+```
+User → LLM + Tools → Response
+```
+Simple but limited by single-model reasoning.
+
+### Agent with Planning
+```
+User → Planner LLM → [Step 1, Step 2, Step 3] → Executor → Response
+```
+Separates planning from execution.
+
+### Multi-Agent
+```
+User → Supervisor → Agent 1 (research)
+                   → Agent 2 (writing)
+                   → Agent 3 (review)
+                   → Synthesis
+```
+Specialized agents for different tasks.
+
+### Hierarchical
+```
+Manager Agent
+├── Worker Agent 1
+│   ├── Sub-agent 1a
+│   └── Sub-agent 1b
+└── Worker Agent 2
+```
+Recursive decomposition of tasks.
+
+## Design Principles
+
+1. **Separation of concerns**: each agent handles one thing well
+2. **Clear interfaces**: agents communicate via well-defined messages
+3. **Graceful degradation**: fallback when tools fail
+4. **Observability**: every step should be traceable
+5. **Human control points**: stop-and-ask for high-risk actions
 
 ## Key Takeaways
 
-- Master the core ideas of Agent Architecture through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
-
-## Further Reading
-
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+1. All agents follow the observe-think-decide-act loop
+2. BDI is the classic architecture; LLM agents are the modern equivalent
+3. Single-agent is simplest; multi-agent scales better for complex tasks
+4. Hierarchical architectures enable recursive task decomposition
+5. Design for observability and human control points

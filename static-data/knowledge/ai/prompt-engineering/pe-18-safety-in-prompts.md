@@ -1,111 +1,104 @@
 ---
-{
-  "title": "Safety in Prompting",
-  "description": "Write prompts that refuse harmful requests and stay within policy.",
-  "type": "lesson",
-  "order": 18,
-  "duration": "50 min",
-  "difficulty": "intermediate",
-  "learning_objectives": [
-    "Define refusal behavior in prompts",
-    "Handle edge requests gracefully",
-    "Balance helpfulness and safety",
-    "Test safety cases"
-  ],
-  "knowledge_refs": [
-    "prompt-engineering/pe-17-domain-specific-prompts",
-    "ai-safety/safety-21-roadmap",
-    "ai-safety/safety-01-why-ai-safety"
-  ],
-  "prerequisites": [
-    "PE-12: Prompt Injection Defense"
-  ],
-  "references": [
-    {
-      "title": "OpenAI Prompt Engineering Guide",
-      "url": "https://platform.openai.com/docs/guides/prompt-engineering",
-      "description": "Six strategies for reliable prompting from OpenAI."
-    },
-    {
-      "title": "Anthropic Prompt Engineering Docs",
-      "url": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering",
-      "description": "Claude's practical prompt engineering guide."
-    },
-    {
-      "title": "Prompt Engineering Guide (DAIR.AI)",
-      "url": "https://www.promptingguide.ai/",
-      "description": "A broad open-source guide to prompt techniques."
-    },
-    {
-      "title": "CoT: Chain-of-Thought Prompting",
-      "url": "https://arxiv.org/abs/2201.11903",
-      "description": "The paper on reasoning via chain-of-thought prompts."
-    },
-    {
-      "title": "ReAct: Reasoning + Acting",
-      "url": "https://arxiv.org/abs/2210.03629",
-      "description": "Combining reasoning traces with tool actions."
-    }
-  ]
-}
+slug: pe-18-safety-in-prompts
+title: "Safety in Prompting"
+description: "Content filtering, toxicity prevention, bias mitigation, and responsible AI — building systems that are safe by design."
+order: 18
+tags:
+  - prompt-engineering
+  - safety
+  - content-filtering
+  - bias-mitigation
+  - responsible-ai
+prerequisites:
+  - pe-12-prompt-injection-defense
+knowledge_refs:
+  - pe-12-prompt-injection-defense
+    title: "Prompt Injection Defense"
+  - pe-10-system-prompts
+    title: "System Prompts in Production"
+  - ai-safety-01-ai-safety-fundamentals
+    title: "AI Safety Fundamentals"
+references:
+  - title: "Azure AI Content Safety — Microsoft Learn"
+    url: "https://learn.microsoft.com/en-us/azure/ai-services/content-safety/overview"
+  - title: "OWASP Top 10 for Large Language Model Applications"
+    url: "https://owasp.org/www-project-top-10-for-large-language-model-applications/"
+  - title: "Constitutional AI: Harmlessness from AI Feedback — Anthropic"
+    url: "https://www.anthropic.com/research/constitutional-ai-harmlessness-from-ai-feedback"
+  - title: "Claude's Constitution — Anthropic"
+    url: "https://www.anthropic.com/news/claudes-constitution"
+  - title: "NIST AI Risk Management Framework"
+    url: "https://www.nist.gov/itl/ai-risk-management-framework"
 ---
 
-# PE-18-SAFETY-IN-PROMPTS: Safety in Prompting
+## Safety in Prompting
 
-## Introduction
+Safety isn't an add-on — it's a core requirement of production prompt engineering. Content filtering, toxicity prevention, bias mitigation, and alignment techniques ensure your AI systems are safe by design.
 
-Write prompts that refuse harmful requests and stay within policy. By the end of this lesson you will be able to: Define refusal behavior in prompts; Handle edge requests gracefully; Balance helpfulness and safety; Test safety cases.
+### Content Filtering
 
-## Key Concepts
+Modern deployments screen both inputs and outputs for harmful categories:
+- Hate speech and discrimination
+- Sexual content
+- Violence and graphic content
+- Self-harm and suicide
+- Personal information (PIE, PII)
 
-### 1. Define refusal behavior in prompts
+**Input filtering** catches harmful requests before they reach the model. **Output filtering** catches harmful responses before they reach users. Both are necessary.
 
-Target: Define refusal behavior in prompts. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+### Toxicity Prevention
 
-```python
-system = "Refuse requests that are illegal, harmful, or deceptive. Briefly explain why you can't help."
-print(system)
+Toxicity can manifest in subtle ways beyond obvious harmful content:
+- Stereotyping and generalization
+- Condescending or dismissive tone
+- Culturally insensitive framing
+- Aggressive or hostile language patterns
+
+**Strategies:**
+- Add explicit safety constraints in system prompts: "Never generate content that promotes discrimination"
+- Use guardrail models to screen outputs
+- Regular red-teaming to discover failure modes
+- Human review for high-risk applications
+
+### Bias Mitigation
+
+LLMs inherit biases from training data. Prompt engineering can mitigate some biases:
+
+- **Explicit fairness instructions:** "Provide balanced perspectives without favoring any demographic group"
+- **Diverse framing:** Ask the model to consider multiple viewpoints
+- **Counter-stereotypical examples:** In few-shot examples, include diverse representation
+- **Adversarial testing:** Deliberately test for biased outputs across demographics
+
+### Responsible AI Frameworks
+
+**NIST AI Risk Management Framework** provides four core functions:
+- **Govern:** Establish policies, roles, and accountability
+- **Map:** Identify and assess risks in context
+- **Measure:** Quantify and track risk metrics
+- **Manage:** Respond to and mitigate identified risks
+
+**Constitutional AI (Anthropic):** Models learn safety through written principles (a "constitution") combined with self-critique and revision. This makes alignment transparent and adjustable.
+
+### Practical Safety Patterns
+
+```xml
+<system_instructions>
+You are a helpful assistant. Always follow these safety rules:
+1. Never generate content that promotes violence or discrimination
+2. If asked about harmful activities, explain why they're dangerous
+3. Protect user privacy — never request or store personal information
+4. Acknowledge uncertainty rather than guessing on sensitive topics
+5. When in doubt, err on the side of caution
+</system_instructions>
 ```
-### 2. Handle edge requests gracefully
 
-Target: Handle edge requests gracefully. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+### Common Mistakes
 
-```python
-print("refusal tone: firm, brief, non-judgmental")
-```
-### 3. Balance helpfulness and safety
+- **Relying solely on model safety training:** Models can be jailbroken. You need application-level protections
+- **Over-censoring:** Too-aggressive filtering blocks legitimate use cases
+- **Ignoring cultural context:** Safety standards vary across cultures and regions
+- **No human oversight:** Automated systems miss nuanced safety issues
 
-Target: Balance helpfulness and safety. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+---
 
-```python
-print("safety evals: a fixed set of harmful probes")
-```
-### 4. Test safety cases
-
-Target: Test safety cases. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
-
-```python
-print("never over-refuse: blocklist the behavior, not the topic")
-```
-
-## Practice Questions
-
-1. What is the key idea behind "Safety in Prompting"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
-
-## LLM Prompts for Deeper Understanding
-
-1. "Explain Safety in Prompting with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Safety in Prompting"
-1. "Provide advanced patterns and performance considerations for Safety in Prompting"
-
-## Key Takeaways
-
-- Master the core ideas of Safety in Prompting through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
-
-## Further Reading
-
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+*Continue to learn about optimizing prompts for cost — making them efficient without sacrificing quality.*

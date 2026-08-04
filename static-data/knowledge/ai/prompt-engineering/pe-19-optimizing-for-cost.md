@@ -1,115 +1,98 @@
 ---
-{
-  "title": "Optimizing Prompts for Cost",
-  "description": "Shorter prompts, fewer tokens, right-sized models — quality per dollar.",
-  "type": "lesson",
-  "order": 19,
-  "duration": "50 min",
-  "difficulty": "intermediate",
-  "learning_objectives": [
-    "Trim redundant prompt text",
-    "Route by task difficulty",
-    "Use compact formats",
-    "Track cost per outcome"
-  ],
-  "knowledge_refs": [
-    "prompt-engineering/pe-18-safety-in-prompts",
-    "llm-engineering/llm-16-cost-optimization",
-    "mlops/mlops-19-cost-and-performance"
-  ],
-  "prerequisites": [
-    "PE-16: Prompt Caching & Cost"
-  ],
-  "references": [
-    {
-      "title": "OpenAI Prompt Engineering Guide",
-      "url": "https://platform.openai.com/docs/guides/prompt-engineering",
-      "description": "Six strategies for reliable prompting from OpenAI."
-    },
-    {
-      "title": "Anthropic Prompt Engineering Docs",
-      "url": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering",
-      "description": "Claude's practical prompt engineering guide."
-    },
-    {
-      "title": "Prompt Engineering Guide (DAIR.AI)",
-      "url": "https://www.promptingguide.ai/",
-      "description": "A broad open-source guide to prompt techniques."
-    },
-    {
-      "title": "CoT: Chain-of-Thought Prompting",
-      "url": "https://arxiv.org/abs/2201.11903",
-      "description": "The paper on reasoning via chain-of-thought prompts."
-    },
-    {
-      "title": "ReAct: Reasoning + Acting",
-      "url": "https://arxiv.org/abs/2210.03629",
-      "description": "Combining reasoning traces with tool actions."
-    }
-  ]
-}
+slug: pe-19-optimizing-for-cost
+title: "Optimizing Prompts for Cost"
+description: "Token efficiency, prompt compression, caching strategies, model selection, and batching — reducing cost without sacrificing quality."
+order: 19
+tags:
+  - prompt-engineering
+  - cost-optimization
+  - token-efficiency
+  - model-selection
+  - batching
+prerequisites:
+  - pe-16-prompt-caching
+knowledge_refs:
+  - pe-16-prompt-caching
+    title: "Prompt Caching & Cost"
+  - pe-20-production-prompting
+    title: "Prompt Engineering in Production"
+  - llm-16-cost-optimization
+    title: "Cost Optimization"
+references:
+  - title: "OpenAI — Pricing"
+    url: "https://openai.com/pricing"
+  - title: "Anthropic — Pricing"
+    url: "https://www.anthropic.com/pricing"
+  - title: "Artificial Analysis — LLM Pricing Comparison"
+    url: "https://artificialanalysis.ai/text/arena?tab=pricing"
+  - title: "LangChain — Caching Guide"
+    url: "https://python.langchain.com/docs/how_to/llm_caching/"
+  - title: "Anthropic — Prompt Caching"
+    url: "https://platform.claude.com/docs/en/build-with-claude/prompt-caching"
 ---
 
-# PE-19-OPTIMIZING-FOR-COST: Optimizing Prompts for Cost
+## Optimizing Prompts for Cost
 
-## Introduction
+Every token costs money. At scale — thousands or millions of requests per day — even small prompt optimizations compound into significant savings. Cost optimization isn't about cutting corners; it's about being efficient.
 
-Shorter prompts, fewer tokens, right-sized models — quality per dollar. By the end of this lesson you will be able to: Trim redundant prompt text; Route by task difficulty; Use compact formats; Track cost per outcome.
+### Understanding Token Costs
 
-## Key Concepts
+LLM pricing is based on tokens (roughly 4 characters per token):
+- **Input tokens:** What you send to the model (system prompt + user message)
+- **Output tokens:** What the model generates (usually 3–10× more expensive than input)
+- **Cached tokens:** Previously processed tokens at 50–90% discount
 
-### 1. Trim redundant prompt text
+### Prompt Compression
 
-Target: Trim redundant prompt text. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+**Remove redundancy:** Eliminate repeated instructions,合并 similar rules, cut filler words.
 
-```python
-import tiktoken
+**Before (150 tokens):**
+"You are a helpful and friendly customer support agent. Your job is to help users with their questions. You should always be polite and professional. When answering questions, make sure to be thorough and complete. If you don't know the answer, say so honestly."
 
-enc = tiktoken.get_encoding("cl100k_base")
-verbose = "Please kindly provide me with a summary of the following text."
-concise = "Summarize:"
-print("tokens saved:", len(enc.encode(verbose)) - len(enc.encode(concise)))
-```
-### 2. Route by task difficulty
+**After (60 tokens):**
+"You are a polite, professional customer support agent. Answer thoroughly. If unsure, say so."
 
-Target: Route by task difficulty. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+**Use concise structures:** Lists instead of paragraphs. JSON instead of verbose descriptions.
 
-```python
-print("small model for easy tasks, big model for hard ones")
-```
-### 3. Use compact formats
+### Model Selection
 
-Target: Use compact formats. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+Not every task needs the most expensive model:
 
-```python
-print("structured short formats beat prose")
-```
-### 4. Track cost per outcome
+| Task | Recommended Model | Why |
+|---|---|---|
+| Simple classification | GPT-3.5, Haiku | Fast, cheap, accurate enough |
+| Complex reasoning | GPT-4, Claude Opus | Needs deep understanding |
+| Code generation | GPT-4, Claude Sonnet | Balance of quality and cost |
+| Summarization | GPT-3.5, Haiku | Works well for straightforward tasks |
 
-Target: Track cost per outcome. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+### Batching
 
-```python
-print("optimize for outcome, not just tokens")
-```
+Process multiple items in a single prompt when possible:
+- Classify 10 items in one prompt instead of 10 separate calls
+- Summarize multiple documents in a single request
+- Generate multiple variations in one batch
 
-## Practice Questions
+### Caching Strategies
 
-1. What is the key idea behind "Optimizing Prompts for Cost"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+- Structure prompts so the prefix (system prompt + context) is cacheable
+- Reuse identical context across requests
+- Use semantic caching for similar (not identical) queries
 
-## LLM Prompts for Deeper Understanding
+### Measurement
 
-1. "Explain Optimizing Prompts for Cost with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Optimizing Prompts for Cost"
-1. "Provide advanced patterns and performance considerations for Optimizing Prompts for Cost"
+Track these metrics:
+- **Average tokens per request** (input + output)
+- **Cost per request** (in dollars)
+- **Cache hit rate** (percentage of requests using cached tokens)
+- **Cost per task** (total cost divided by successful completions)
 
-## Key Takeaways
+### Common Mistakes
 
-- Master the core ideas of Optimizing Prompts for Cost through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+- **Over-optimization:** Cutting too much from prompts degrades quality more than it saves
+- **Ignoring output tokens:** Long responses cost more than long prompts
+- **Not measuring:** You can't optimize what you don't track
+- **Using one model for everything:** Match model capability to task complexity
 
-## Further Reading
+---
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+*Continue to learn about prompt engineering in production — deployment patterns, monitoring, and scaling.*

@@ -1,111 +1,130 @@
 ---
-{
-  "title": "Chain-of-Thought Reasoning",
-  "description": "Prompt the model to reason step by step — dramatically better on math and logic.",
-  "type": "lesson",
-  "order": 5,
-  "duration": "55 min",
-  "difficulty": "intermediate",
-  "learning_objectives": [
-    "Explain why CoT improves reasoning",
-    "Write step-by-step instructions",
-    "Use few-shot CoT examples",
-    "Know when to disable reasoning (speed)"
-  ],
-  "knowledge_refs": [
-    "prompt-engineering/pe-04-few-shot-examples",
-    "ai-agents/agents-04-reasoning-and-planning"
-  ],
-  "prerequisites": [
-    "PE-02: Prompt Structure"
-  ],
-  "references": [
-    {
-      "title": "OpenAI Prompt Engineering Guide",
-      "url": "https://platform.openai.com/docs/guides/prompt-engineering",
-      "description": "Six strategies for reliable prompting from OpenAI."
-    },
-    {
-      "title": "Anthropic Prompt Engineering Docs",
-      "url": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering",
-      "description": "Claude's practical prompt engineering guide."
-    },
-    {
-      "title": "Prompt Engineering Guide (DAIR.AI)",
-      "url": "https://www.promptingguide.ai/",
-      "description": "A broad open-source guide to prompt techniques."
-    },
-    {
-      "title": "CoT: Chain-of-Thought Prompting",
-      "url": "https://arxiv.org/abs/2201.11903",
-      "description": "The paper on reasoning via chain-of-thought prompts."
-    },
-    {
-      "title": "ReAct: Reasoning + Acting",
-      "url": "https://arxiv.org/abs/2210.03629",
-      "description": "Combining reasoning traces with tool actions."
-    }
-  ]
-}
+slug: pe-05-chain-of-thought
+title: "Chain-of-Thought Reasoning"
+description: "How forcing the model to show its work — step-by-step reasoning — dramatically improves performance on complex problems."
+order: 5
+tags:
+  - prompt-engineering
+  - chain-of-thought
+  - reasoning
+  - self-consistency
+  - tree-of-thoughts
+prerequisites:
+  - pe-04-few-shot-examples
+knowledge_refs:
+  - pe-04-few-shot-examples
+    title: "Few-Shot Examples"
+  - pe-11-advanced-techniques
+    title: "Advanced Prompting Techniques"
+  - ml-10-model-evaluation
+    title: "Model Evaluation"
+references:
+  - title: "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models (Wei et al., 2022)"
+    url: "https://arxiv.org/abs/2201.11903"
+  - title: "Self-Consistency Improves Chain of Thought Reasoning in Language Models (Wang et al., 2022)"
+    url: "https://arxiv.org/abs/2203.11171"
+  - title: "Large Language Models are Zero-Shot Reasoners (Kojima et al., 2022)"
+    url: "https://arxiv.org/abs/2205.11916"
+  - title: "Tree of Thoughts: Deliberate Problem Solving with Large Language Models (Yao et al., 2023)"
+    url: "https://arxiv.org/abs/2305.10601"
+  - title: "Graph of Thoughts: Solving Elaborate Problems with Large Language Models (Besta et al., 2023)"
+    url: "https://arxiv.org/abs/2308.09687"
 ---
 
-# PE-05-CHAIN-OF-THOUGHT: Chain-of-Thought Reasoning
+## Chain-of-Thought Reasoning
 
-## Introduction
+Chain-of-thought (CoT) prompting is one of the most impactful techniques in prompt engineering. By asking the model to show its reasoning step by step before giving a final answer, you dramatically improve accuracy on complex problems — arithmetic, logic, multi-step analysis, and commonsense reasoning.
 
-Prompt the model to reason step by step — dramatically better on math and logic. By the end of this lesson you will be able to: Explain why CoT improves reasoning; Write step-by-step instructions; Use few-shot CoT examples; Know when to disable reasoning (speed).
+### The Core Idea
 
-## Key Concepts
+Standard prompting maps input directly to output: question → answer. CoT adds intermediate reasoning steps: question → reasoning → reasoning → answer.
 
-### 1. Explain why CoT improves reasoning
-
-Target: Explain why CoT improves reasoning. Start with the foundations — read the runnable example carefully and trace its output before moving on.
-
-```python
-prompt = """Solve step by step:\nA store has 3 shelves with 5 boxes each. How many boxes?\nStep 1: 3 shelves * 5 boxes = 15.\nAnswer: 15"""
-print(prompt)
 ```
-### 2. Write step-by-step instructions
+Standard:  "What is 23 × 17?" → "391"
 
-Target: Write step-by-step instructions. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
-
-```python
-prompt2 = "A train travels 60 km/h for 2 hours and 90 km/h for 1 hour. What is the total distance? Show your work step by step."
-print(prompt2)
-```
-### 3. Use few-shot CoT examples
-
-Target: Use few-shot CoT examples. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
-
-```python
-print("CoT shines on arithmetic, logic and planning")
-```
-### 4. Know when to disable reasoning (speed)
-
-Target: Know when to disable reasoning (speed). Put it together — extend the example to combine this concept with what you learned in earlier lessons.
-
-```python
-print("for simple tasks, reasoning wastes tokens and latency")
+CoT:       "What is 23 × 17?"
+           → "Let me break this down:
+              23 × 17 = 23 × (10 + 7)
+              = 23 × 10 + 23 × 7
+              = 230 + 161
+              = 391"
 ```
 
-## Practice Questions
+The intermediate steps force the model to decompose the problem, apply logic incrementally, and catch errors before they compound into wrong answers.
 
-1. What is the key idea behind "Chain-of-Thought Reasoning"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+### Why It Works
 
-## LLM Prompts for Deeper Understanding
+LLMs generate tokens sequentially. When they jump directly to an answer, they make a single prediction that must encode the entire solution. CoT breaks this into smaller, manageable steps where each step constrains the next.
 
-1. "Explain Chain-of-Thought Reasoning with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Chain-of-Thought Reasoning"
-1. "Provide advanced patterns and performance considerations for Chain-of-Thought Reasoning"
+This works because:
+1. **Decomposition:** Complex problems are broken into simpler sub-problems
+2. **Explicit reasoning:** The model can verify each step against known facts
+3. **Error containment:** A mistake in step 2 doesn't necessarily corrupt step 5
+4. **Faithful explanations:** The reasoning chain provides interpretable justification
 
-## Key Takeaways
+### Three Flavors of CoT
 
-- Master the core ideas of Chain-of-Thought Reasoning through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+**Few-Shot CoT:** Include examples with reasoning chains in your prompt. The model learns the pattern and generates similar reasoning for new problems.
 
-## Further Reading
+```python
+# Few-shot CoT example
+prompt = """
+Q: A jar has 5 marbles. If you add 3 more jars, 
+   and each jar has 4 marbles, how many total?
+A: Let's think step by step.
+   - Start: 1 jar × 5 marbles = 5 marbles
+   - Add 3 jars: 3 × 4 marbles = 12 marbles  
+   - Total: 5 + 12 = 17 marbles
+   Answer: 17
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+Q: A store has 8 boxes of pens with 12 each.
+   If they sell 40 pens, how many remain?
+A: Let's think step by step.
+"""
+```
+
+**Zero-Shot CoT:** Simply append "Let's think step by step" to your prompt. No examples needed. Kojima et al. (2022) showed this single phrase unlocks reasoning capabilities in large models without any demonstrations.
+
+**Self-Consistency CoT:** Generate multiple reasoning paths (using temperature > 0) and take a majority vote on the final answer. Wang et al. (2022) showed this dramatically improves robustness because complex problems often have multiple valid reasoning trajectories.
+
+### Tree-of-Thoughts (ToT)
+
+Yao et al. (2023) generalized CoT into a tree structure where the model can:
+- **Generate multiple thoughts** at each step
+- **Evaluate** each thought using self-assessment
+- **Search** using BFS or DFS, with backtracking when a path is wrong
+
+This is more powerful than linear CoT for problems requiring exploration, planning, or creative problem-solving. The model can "look ahead," evaluate promising paths, and abandon dead ends.
+
+### When to Use CoT
+
+CoT excels at:
+- **Arithmetic and math problems** (GSM8K benchmark improvements from ~18% to ~58%)
+- **Logic and commonsense reasoning**
+- **Multi-step analysis** (code debugging, document analysis)
+- **Decision-making with constraints**
+- **Tasks requiring justification**
+
+CoT is unnecessary for:
+- Simple classification tasks
+- Text generation where format matters more than reasoning
+- Tasks where the answer is obvious from the input
+
+### Implementation Tips
+
+1. **Be specific about reasoning style.** "Think step by step" is generic. "Analyze each condition separately, then combine your findings" is more targeted.
+2. **Combine with few-shot.** Provide one or two examples showing the reasoning chain you want.
+3. **Use self-consistency for critical decisions.** Generate 3–5 reasoning paths and vote. This is especially valuable for high-stakes applications.
+4. **Set temperature appropriately.** For self-consistency, use temperature 0.7–1.0 to get diverse reasoning paths. For single-path CoT, use temperature 0–0.3 for consistency.
+5. **Parse the reasoning chain.** In production, extract the final answer from the reasoning chain programmatically using regex or structured output formatting.
+
+### Common Mistakes
+
+- **Asking for CoT on simple tasks:** It wastes tokens and can introduce errors on easy questions.
+- **No structure to reasoning:** Without guidance, the model's reasoning can be rambling and unfocused.
+- **Ignoring wrong reasoning:** A correct final answer with flawed reasoning is unreliable. Check the chain.
+- **Too many reasoning steps:** For very complex problems, break the task into sub-prompts rather than asking for 20+ reasoning steps in one prompt.
+
+---
+
+*Continue to learn about structured outputs — how to get JSON, tables, and formatted responses from any model.*

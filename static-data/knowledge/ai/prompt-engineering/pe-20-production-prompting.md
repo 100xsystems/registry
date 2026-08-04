@@ -1,111 +1,105 @@
 ---
-{
-  "title": "Prompt Engineering in Production",
-  "description": "Assemble everything: versioned prompts, evals, guardrails and monitoring.",
-  "type": "lesson",
-  "order": 20,
-  "duration": "60 min",
-  "difficulty": "advanced",
-  "learning_objectives": [
-    "Design the production prompt workflow",
-    "Wire evals into CI",
-    "Monitor prompt performance",
-    "Iterate safely"
-  ],
-  "knowledge_refs": [
-    "prompt-engineering/pe-19-optimizing-for-cost",
-    "generative-ai/genai-04-prompt-engineering",
-    "llm-engineering/llm-17-observability"
-  ],
-  "prerequisites": [
-    "PE-14: Prompt Versioning & Management"
-  ],
-  "references": [
-    {
-      "title": "OpenAI Prompt Engineering Guide",
-      "url": "https://platform.openai.com/docs/guides/prompt-engineering",
-      "description": "Six strategies for reliable prompting from OpenAI."
-    },
-    {
-      "title": "Anthropic Prompt Engineering Docs",
-      "url": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering",
-      "description": "Claude's practical prompt engineering guide."
-    },
-    {
-      "title": "Prompt Engineering Guide (DAIR.AI)",
-      "url": "https://www.promptingguide.ai/",
-      "description": "A broad open-source guide to prompt techniques."
-    },
-    {
-      "title": "CoT: Chain-of-Thought Prompting",
-      "url": "https://arxiv.org/abs/2201.11903",
-      "description": "The paper on reasoning via chain-of-thought prompts."
-    },
-    {
-      "title": "ReAct: Reasoning + Acting",
-      "url": "https://arxiv.org/abs/2210.03629",
-      "description": "Combining reasoning traces with tool actions."
-    }
-  ]
-}
+slug: pe-20-production-prompting
+title: "Prompt Engineering in Production"
+description: "Deployment patterns, monitoring, scaling, failure modes, and real-world case studies — taking prompts from prototype to production."
+order: 20
+tags:
+  - prompt-engineering
+  - production
+  - deployment
+  - monitoring
+  - scaling
+prerequisites:
+  - pe-13-evaluating-prompts
+knowledge_refs:
+  - pe-13-evaluating-prompts
+    title: "Evaluating Prompts"
+  - pe-14-prompt-versioning
+    title: "Prompt Versioning & Management"
+  - pe-10-system-prompts
+    title: "System Prompts in Production"
+references:
+  - title: "Datadog — LLM Guardrails: Best Practices"
+    url: "https://www.datadoghq.com/blog/llm-guardrails-best-practices/"
+  - title: "LangSmith — Production Monitoring"
+    url: "https://docs.langchain.com/langsmith/production"
+  - title: "Helicone — LLM Observability"
+    url: "https://www.helicone.ai/"
+  - title: "Langfuse — Open Source LLM Engineering"
+    url: "https://langfuse.com/"
+  - title: "Braintrust — AI Product Development"
+    url: "https://www.braintrust.dev/"
 ---
 
-# PE-20-PRODUCTION-PROMPTING: Prompt Engineering in Production
+## Prompt Engineering in Production
 
-## Introduction
+The gap between a working prototype and a production system is enormous. Production prompt engineering requires monitoring, error handling, scaling, and the ability to respond to failures quickly.
 
-Assemble everything: versioned prompts, evals, guardrails and monitoring. By the end of this lesson you will be able to: Design the production prompt workflow; Wire evals into CI; Monitor prompt performance; Iterate safely.
+### Deployment Patterns
 
-## Key Concepts
+**Direct API calls:** Simplest approach. Call the LLM API directly from your application. Works for low-volume, simple use cases.
 
-### 1. Design the production prompt workflow
+**Gateway proxy:** Route all LLM calls through a management layer that handles logging, retries, cost tracking, and version management. Recommended for production systems.
 
-Target: Design the production prompt workflow. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+**Managed platforms:** Use platforms like LangSmith, Braintrust, or Helicone that provide end-to-end prompt lifecycle management including versioning, evaluation, and monitoring.
 
-```python
-workflow = ["write", "eval", "review", "ship", "monitor", "iterate"]
-print(workflow)
-```
-### 2. Wire evals into CI
+### Monitoring
 
-Target: Wire evals into CI. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+Production monitoring captures:
 
-```python
-print("CI gate: evals must not regress")
-```
-### 3. Monitor prompt performance
+**Request-level metrics:**
+- Latency (time-to-first-token, total generation time)
+- Token counts (input and output)
+- Cost per request
+- Error rates and types
 
-Target: Monitor prompt performance. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+**Quality metrics:**
+- Output validity (did it match the expected format?)
+- User satisfaction signals (thumbs up/down, follow-up questions)
+- Task completion rates
 
-```python
-print("monitor: quality by prompt version, not just latency")
-```
-### 4. Iterate safely
+**Safety metrics:**
+- Refusal rates (is the model refusing legitimate requests?)
+- Content filter triggers
+- Potential prompt injection attempts
 
-Target: Iterate safely. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+### Scaling
 
-```python
-print("safe iteration: canary prompt versions")
-```
+**Horizontal scaling:** Multiple API keys, load balancing across providers, automatic failover.
 
-## Practice Questions
+**Caching:** Store results for repeated identical or similar queries.
 
-1. What is the key idea behind "Prompt Engineering in Production"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+**Model routing:** Send simple requests to cheaper models, complex requests to more capable ones.
 
-## LLM Prompts for Deeper Understanding
+**Async processing:** For non-real-time tasks, queue requests and process in batches.
 
-1. "Explain Prompt Engineering in Production with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Prompt Engineering in Production"
-1. "Provide advanced patterns and performance considerations for Prompt Engineering in Production"
+### Failure Modes
 
-## Key Takeaways
+**Model changes:** Providers update models without notice. Your carefully tuned prompts may suddenly perform differently.
 
-- Master the core ideas of Prompt Engineering in Production through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+**Context window overflow:** Long conversations or large contexts can exceed model limits. Implement truncation or summarization strategies.
 
-## Further Reading
+**Rate limiting:** High-volume applications hit API rate limits. Implement exponential backoff and request queuing.
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+**Hallucination at scale:** Low-probability hallucinations become statistically certain at high volume. Output validation and grounding are essential.
+
+### Case Study: Customer Support Bot
+
+A production customer support system might use:
+- System prompt defining the agent's role and constraints (version-controlled)
+- RAG pipeline to retrieve relevant documentation (with caching)
+- Guardrail model to filter inputs and outputs (for safety)
+- Evaluation pipeline to score response quality (continuous)
+- Monitoring dashboard tracking latency, cost, and satisfaction (real-time)
+- A/B testing framework for prompt improvements (statistical significance)
+
+### Common Mistakes
+
+- **No monitoring:** Without observability, failures are invisible until users complain
+- **Hardcoded prompts:** Changing prompts requires code deployment and testing
+- **No fallback strategy:** What happens when the LLM is down or returns garbage?
+- **Ignoring cost at scale:** A prompt that costs $0.01/request costs $10,000/day at 1M requests
+
+---
+
+*Continue to the final lesson — the prompt engineering roadmap and career guide.*

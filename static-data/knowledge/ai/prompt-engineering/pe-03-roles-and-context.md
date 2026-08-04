@@ -1,121 +1,128 @@
 ---
-{
-  "title": "Roles & Context",
-  "description": "System prompts, personas and context injection — set the stage for better outputs.",
-  "type": "lesson",
-  "order": 3,
-  "duration": "50 min",
-  "difficulty": "intermediate",
-  "learning_objectives": [
-    "Write effective system prompts",
-    "Use personas deliberately",
-    "Inject relevant context",
-    "Separate instructions from data"
-  ],
-  "knowledge_refs": [
-    "prompt-engineering/pe-02-prompt-structure",
-    "generative-ai/genai-05-in-context-learning",
-    "llm-engineering/llm-12-context-engineering"
-  ],
-  "prerequisites": [
-    "PE-02: Prompt Structure"
-  ],
-  "references": [
-    {
-      "title": "OpenAI Prompt Engineering Guide",
-      "url": "https://platform.openai.com/docs/guides/prompt-engineering",
-      "description": "Six strategies for reliable prompting from OpenAI."
-    },
-    {
-      "title": "Anthropic Prompt Engineering Docs",
-      "url": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering",
-      "description": "Claude's practical prompt engineering guide."
-    },
-    {
-      "title": "Prompt Engineering Guide (DAIR.AI)",
-      "url": "https://www.promptingguide.ai/",
-      "description": "A broad open-source guide to prompt techniques."
-    },
-    {
-      "title": "CoT: Chain-of-Thought Prompting",
-      "url": "https://arxiv.org/abs/2201.11903",
-      "description": "The paper on reasoning via chain-of-thought prompts."
-    },
-    {
-      "title": "ReAct: Reasoning + Acting",
-      "url": "https://arxiv.org/abs/2210.03629",
-      "description": "Combining reasoning traces with tool actions."
-    }
-  ]
-}
+slug: pe-03-roles-and-context
+title: "Roles & Context"
+description: "How persona assignment, expertise calibration, and background context shape model behavior and output quality."
+order: 3
+tags:
+  - prompt-engineering
+  - role-prompting
+  - persona
+  - context-engineering
+prerequisites:
+  - pe-02-prompt-structure
+knowledge_refs:
+  - pe-02-prompt-structure
+    title: "Prompt Structure"
+  - pe-04-few-shot-examples
+    title: "Few-Shot Examples"
+  - pe-17-domain-specific-prompts
+    title: "Domain-Specific Prompting"
+references:
+  - title: "Learn Prompting — Role Prompting"
+    url: "https://learnprompting.org/docs/advanced/zero_shot/role_prompting"
+  - title: "PromptHub — Role-Prompting: Does Adding Personas Really Make a Difference?"
+    url: "https://www.prompthub.us/blog/role-prompting-does-adding-personas-to-your-prompts-really-make-a-difference"
+  - title: "GeeksforGeeks — Role-Based Prompting"
+    url: "https://www.geeksforgeeks.org/artificial-intelligence/role-based-prompting/"
+  - title: "Learn Prompting — Few-Shot Prompting"
+    url: "https://learnprompting.org/docs/basics/few_shot"
+  - title: "IBM Think — What Is Few-Shot Prompting?"
+    url: "https://www.ibm.com/think/topics/few-shot-prompting"
 ---
 
-# PE-03-ROLES-AND-CONTEXT: Roles & Context
+## Roles & Context
 
-## Introduction
+Two of the most powerful levers in prompt engineering are **role assignment** (telling the model who it is) and **context provision** (telling the model what it knows). Together, they shape the model's tone, depth, expertise, and perspective more than any other technique.
 
-System prompts, personas and context injection — set the stage for better outputs. By the end of this lesson you will be able to: Write effective system prompts; Use personas deliberately; Inject relevant context; Separate instructions from data.
+### Role Prompting
 
-## Key Concepts
+Role prompting is the technique of assigning the model a specific persona: "You are a senior tax attorney," "Act as an experienced mathematics teacher," "Pretend you are a security engineer reviewing this code."
 
-### 1. Write effective system prompts
+**Why it works:** When you assign a role, you shift the model's probability distribution over vocabulary, style, and implicit knowledge. A model prompted as "a friendly tutor" uses simpler language, more analogies, and encouraging tone. The same model prompted as "a senior engineer" uses technical jargon, assumes domain knowledge, and provides concise answers.
 
-Target: Write effective system prompts. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+**What research shows:** Role prompting is highly effective for:
+- **Stylistic and creative tasks:** Tone, format, and delivery change dramatically based on persona
+- **Domain-specific tasks:** When you specify "you are an expert in X," the model draws on more specialized training data patterns
+- **Multi-perspective tasks:** Assigning different roles to multiple agents produces diverse viewpoints
 
-```python
-system = "You are a meticulous code reviewer who catches security issues."
-print(system)
+However, role prompting alone doesn't improve factual accuracy or reasoning on benchmarks like MMLU. For those, you need reasoning techniques (chain-of-thought, few-shot examples) combined with role assignment.
+
+### Setting Expertise Level
+
+How you calibrate the model's assumed expertise level directly controls the depth of response:
+
+- **"Explain to a high school student"** → analogies, simple vocabulary, step-by-step
+- **"Explain to a software engineer"** → technical terminology, assumed knowledge, concise
+- **"Explain to a domain expert"** → jargon-heavy, minimal explanation, focuses on nuances and edge cases
+
+This isn't just about simplification — it's about matching the model's output to your audience. A data scientist reading a technical blog post needs different language than a product manager reading an executive summary.
+
+### Context Engineering
+
+Context is the information you provide beyond the core instruction. It grounds the model in reality and prevents hallucination.
+
+**Types of context:**
+- **Document context:** Files, code, articles, or data the model should reference
+- **Situational context:** Current state, user history, or environmental constraints
+- **Conversational context:** Previous messages in the conversation (for multi-turn systems)
+- **Retrieved context:** Documents fetched via RAG (Retrieval-Augmented Generation)
+
+**Best practices:**
+1. **Be explicit about what context applies.** "Based on the following document, answer..." is clearer than just pasting the document.
+2. **Don't overload context.** Too much irrelevant context confuses the model. Only include what's necessary.
+3. **Use structured delimiters.** XML tags or clear separators prevent context from being confused with instructions.
+4. **Reference specific parts.** "Focus on section 3 of the document" is better than "based on the document."
+
+### Combining Roles and Context
+
+The most effective prompts combine role assignment with carefully curated context:
+
+```xml
+<role>
+You are a senior security engineer at a fintech startup. 
+You have 10 years of experience in application security 
+and specialize in OWASP Top 10 vulnerabilities.
+</role>
+
+<context>
+A junior developer submitted the following code for review 
+as part of a payment processing feature. The code handles 
+user authentication and payment token generation.
+</context>
+
+<code>
+{{code_snippet}}
+</code>
+
+<instructions>
+Review this code for security vulnerabilities. Focus on:
+1. Authentication flaws
+2. Input validation gaps
+3. Cryptographic misuse
+4. OWASP Top 10 compliance
+
+For each finding, provide:
+- Severity (CRITICAL/HIGH/MEDIUM/LOW)
+- The specific vulnerability
+- A concrete code fix
+</instructions>
 ```
-### 2. Use personas deliberately
 
-Target: Use personas deliberately. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+This prompt works because the role sets the expertise level, the context provides the domain, and the instructions specify exactly what to do with both.
 
-```python
-from openai import OpenAI
+### Few-Shot Role Examples
 
-client = OpenAI()
-res = client.chat.completions.create(
-    model="gpt-4o-mini",
-    messages=[
-        {"role": "system", "content": "Answer as a friendly mentor."},
-        {"role": "user", "content": "Explain recursion."},
-    ],
-)
-print(res.choices[0].message.content[:80])
-```
-### 3. Inject relevant context
+When combining roles with few-shot examples, the model learns both *who it is* and *how it should behave* simultaneously. Place your most critical example last — models exhibit recency bias and weight the final context window tokens more heavily.
 
-Target: Inject relevant context. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+Keep examples diverse. Include at least one edge case or negative example showing what *not* to do. This helps the model understand boundaries as well as targets.
 
-```python
-print("context: give facts the model needs; don't overload")
-```
-### 4. Separate instructions from data
+### Common Mistakes
 
-Target: Separate instructions from data. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+- **Generic roles:** "You are an AI assistant" adds nothing. Specific roles ("You are a database performance engineer") trigger more specialized responses.
+- **Mismatched expertise:** Asking a model to role-play as a "beginner" when you need expert-level analysis wastes the model's capabilities.
+- **Context without instructions:** Dumping context without telling the model what to do with it produces unfocused output.
+- **Too much context:** Overloading with 10,000 tokens of context when only 500 are relevant dilutes the signal.
 
-```python
-print("instructions in the system turn, data in the user turn")
-```
+---
 
-## Practice Questions
-
-1. What is the key idea behind "Roles & Context"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
-
-## LLM Prompts for Deeper Understanding
-
-1. "Explain Roles & Context with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Roles & Context"
-1. "Provide advanced patterns and performance considerations for Roles & Context"
-
-## Key Takeaways
-
-- Master the core ideas of Roles & Context through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
-
-## Further Reading
-
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+*Continue to learn about few-shot examples — how demonstrations guide model behavior without any training.*

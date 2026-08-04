@@ -1,118 +1,114 @@
 ---
-{
-  "title": "What Are AI Agents?",
-  "description": "Autonomous systems that perceive, reason, act and observe — the agent loop explained.",
-  "type": "lesson",
-  "order": 1,
-  "duration": "40 min",
-  "difficulty": "beginner",
-  "learning_objectives": [
-    "Define an AI agent",
-    "Describe the perceive-reason-act loop",
-    "Contrast agents with plain LLM calls",
-    "List where agents add real value"
-  ],
-  "knowledge_refs": [
-    "llm-engineering/llm-11-llm-agents",
-    "generative-ai/genai-12-agents-and-tool-use",
-    "reinforcement-learning/rl-20-evaluating-rl-agents"
-  ],
-  "prerequisites": [
-    "LLM-01: What Is LLM Engineering?"
-  ],
-  "references": [
-    {
-      "title": "LangChain Agents",
-      "url": "https://python.langchain.com/docs/how_to/#agents",
-      "description": "Agent frameworks, tools and memory patterns."
-    },
-    {
-      "title": "OpenAI Agents Documentation",
-      "url": "https://platform.openai.com/docs/guides/agents",
-      "description": "Function calling and agent loop patterns."
-    },
-    {
-      "title": "ReAct: Synergizing Reasoning and Acting",
-      "url": "https://arxiv.org/abs/2210.03629",
-      "description": "The paper behind reasoning-acting agent loops."
-    },
-    {
-      "title": "Anthropic — Building Effective Agents",
-      "url": "https://www.anthropic.com/research/building-effective-agents",
-      "description": "A practical guide to agent architecture."
-    },
-    {
-      "title": "CrewAI Documentation",
-      "url": "https://docs.crewai.com/",
-      "description": "Multi-agent orchestration framework."
-    }
-  ]
-}
+slug: agents-01-what-are-ai-agents
+title: "What Are AI Agents?"
+description: "Defining AI agents — autonomous systems that perceive, reason, and act — from reactive reflex agents to modern LLM-powered agents."
+order: 1
+tags:
+  - ai-agents
+  - foundations
+  - autonomy
+prerequisites: []
+knowledge_refs:
+  - agents-02-agent-architecture
+  - agents-03-tool-use
+references:
+  - title: "What Are AI Agents? (AWS)"
+    url: "https://aws.amazon.com/what-is/ai-agents/"
+    notes: "AWS overview of AI agents"
+  - title: "Types of AI Agents (IBM)"
+    url: "https://www.ibm.com/think/topics/ai-agent-types"
+    notes: "Classification of agent types"
+  - title: "The Evolution of AI Agents (IBM)"
+    url: "https://www.ibm.com/think/topics/evolution-of-ai-agents"
+    notes: "Historical development of agents"
+  - title: "AI: A Modern Approach (Russell & Norvig)"
+    url: "https://aima.cs.berkeley.edu/"
+    notes: "Foundational AI textbook"
+  - title: "Understanding AI Agent Types (Red Hat)"
+    url: "https://www.redhat.com/en/blog/understanding-ai-agent-types-simple-complex"
+    notes: "Categorizing agent complexity"
 ---
 
-# AGENTS-01-WHAT-ARE-AI-AGENTS: What Are AI Agents?
+# What Are AI Agents?
 
-## Introduction
+An AI agent is a system that **perceives** its environment, **reasons** about what to do, and **acts** to achieve goals — with some degree of autonomy. Unlike simple chatbots that respond to prompts, agents take initiative.
 
-Autonomous systems that perceive, reason, act and observe — the agent loop explained. By the end of this lesson you will be able to: Define an AI agent; Describe the perceive-reason-act loop; Contrast agents with plain LLM calls; List where agents add real value.
+## Core Properties
 
-## Key Concepts
+| Property | Description |
+|----------|-------------|
+| **Autonomy** | Operates without constant human direction |
+| **Perception** | Gathers information from its environment |
+| **Reasoning** | Analyzes situations and plans actions |
+| **Action** | Executes tools, APIs, or commands |
+| **Goal-oriented** | Works toward specific objectives |
+| **Adaptive** | Learns and adjusts from feedback |
 
-### 1. Define an AI agent
+## Agent Taxonomy
 
-Target: Define an AI agent. Start with the foundations — read the runnable example carefully and trace its output before moving on.
-
-```python
-agent = {
-    "perceive": "observe the environment",
-    "reason": "decide the next action",
-    "act": "call a tool or respond",
-    "observe": "read the result and loop",
-}
-print(agent)
+### Reactive Agents
+Respond directly to stimuli with no internal state:
 ```
-### 2. Describe the perceive-reason-act loop
-
-Target: Describe the perceive-reason-act loop. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
-
-```python
-print("LLM call: one-shot. Agent: a loop with tools.")
+Input → Condition-Action Rule → Output
 ```
-### 3. Contrast agents with plain LLM calls
+- Example: thermostat, spam filter
+- Simple but limited
 
-Target: Contrast agents with plain LLM calls. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
-
-```python
-use_cases = ["research", "data analysis", "support triage", "coding"]
-for u in use_cases:
-    print(f"- {u}")
+### Deliberative Agents
+Maintain internal models and plan ahead:
 ```
-### 4. List where agents add real value
-
-Target: List where agents add real value. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
-
-```python
-print("agents are only as reliable as their tools + evals")
+Perception → World Model → Planning → Action
 ```
+- Goal-based: evaluate action sequences toward objectives
+- Utility-based: optimize trade-offs (speed vs. cost vs. safety)
 
-## Practice Questions
+### Learning Agents
+Improve over time via feedback:
+```
+Action → Critic Evaluation → Learning Element → Improved Policy
+```
+- Use reinforcement learning, human feedback, or experience
 
-1. What is the key idea behind "What Are AI Agents?"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+### LLM-Powered Agents
+Use language models as the cognitive core:
+```
+Goal → LLM Reasoning → Tool Calls → Observations → LLM Reasoning → ...
+```
+- Natural language as the interface
+- Flexible, general-purpose reasoning
+- Can use any tool via function calling
 
-## LLM Prompts for Deeper Understanding
+## Autonomous vs. Assistive
 
-1. "Explain What Are AI Agents? with analogies and real-world examples"
-1. "Show me common mistakes beginners make with What Are AI Agents?"
-1. "Provide advanced patterns and performance considerations for What Are AI Agents?"
+| Dimension | Assistive Agent | Autonomous Agent |
+|-----------|----------------|------------------|
+| **Initiative** | Waits for user input | Proactively takes action |
+| **Scope** | Single-turn assistance | Multi-step workflows |
+| **Control** | Human approves all actions | Executes independently |
+| **Example** | ChatGPT, GitHub Copilot | Devin, AutoGPT, Claude Code |
+
+## Historical Evolution
+
+1. **1950s-1970s**: Expert systems (MYCIN) — hand-coded rules
+2. **1980s-1990s**: BDI architectures — belief-desire-intention models
+3. **2000s-2010s**: Reinforcement learning agents — Atari, Go
+4. **2020s**: LLM agents — GPT-4, Claude with tool use, ReAct, planning
+
+## The Agent Loop
+
+```
+1. Observe: gather information
+2. Think: reason about the situation
+3. Decide: choose an action
+4. Act: execute the action
+5. Reflect: evaluate the outcome
+6. Repeat until goal achieved
+```
 
 ## Key Takeaways
 
-- Master the core ideas of What Are AI Agents? through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
-
-## Further Reading
-
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+1. Agents perceive, reason, and act — not just respond
+2. LLM agents use language models as the reasoning engine
+3. Agents range from simple reactive to complex autonomous systems
+4. The key distinction is autonomy — how much the agent acts without human direction
+5. Modern agents combine LLM reasoning with tool use and memory

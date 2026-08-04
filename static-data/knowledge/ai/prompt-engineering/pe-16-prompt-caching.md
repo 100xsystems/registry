@@ -1,113 +1,77 @@
 ---
-{
-  "title": "Prompt Caching & Cost",
-  "description": "Cache long system prompts and reuse embeddings to cut cost and latency.",
-  "type": "lesson",
-  "order": 16,
-  "duration": "50 min",
-  "difficulty": "intermediate",
-  "learning_objectives": [
-    "Cache static prompt prefixes",
-    "Batch similar prompts",
-    "Measure tokens saved",
-    "Balance cache freshness"
-  ],
-  "knowledge_refs": [
-    "prompt-engineering/pe-15-prompt-tools",
-    "generative-ai/genai-04-prompt-engineering",
-    "llm-engineering/llm-17-observability"
-  ],
-  "prerequisites": [
-    "LLM-16: Cost Optimization for LLM Apps"
-  ],
-  "references": [
-    {
-      "title": "OpenAI Prompt Engineering Guide",
-      "url": "https://platform.openai.com/docs/guides/prompt-engineering",
-      "description": "Six strategies for reliable prompting from OpenAI."
-    },
-    {
-      "title": "Anthropic Prompt Engineering Docs",
-      "url": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering",
-      "description": "Claude's practical prompt engineering guide."
-    },
-    {
-      "title": "Prompt Engineering Guide (DAIR.AI)",
-      "url": "https://www.promptingguide.ai/",
-      "description": "A broad open-source guide to prompt techniques."
-    },
-    {
-      "title": "CoT: Chain-of-Thought Prompting",
-      "url": "https://arxiv.org/abs/2201.11903",
-      "description": "The paper on reasoning via chain-of-thought prompts."
-    },
-    {
-      "title": "ReAct: Reasoning + Acting",
-      "url": "https://arxiv.org/abs/2210.03629",
-      "description": "Combining reasoning traces with tool actions."
-    }
-  ]
-}
+slug: pe-16-prompt-caching
+title: "Prompt Caching & Cost"
+description: "Making prompts efficient at scale — caching strategies, token pricing, context optimization, and cost management."
+order: 16
+tags:
+  - prompt-engineering
+  - caching
+  - cost-optimization
+  - token-pricing
+prerequisites:
+  - pe-10-system-prompts
+knowledge_refs:
+  - pe-10-system-prompts
+    title: "System Prompts in Production"
+  - pe-19-optimizing-for-cost
+    title: "Optimizing Prompts for Cost"
+  - llm-16-cost-optimization
+    title: "Cost Optimization"
+references:
+  - title: "Anthropic — Prompt Caching"
+    url: "https://platform.claude.com/docs/en/build-with-claude/prompt-caching"
+  - title: "OpenAI — Prompt Caching"
+    url: "https://platform.openai.com/docs/guides/prompt-caching"
+  - title: "LangChain — Prompt Caching Guide"
+    url: "https://python.langchain.com/docs/how_to/llm_caching/"
+  - title: "LLM Token Pricing Comparison 2024"
+    url: "https://artificialanalysis.ai/text/arena?tab=pricing"
+  - title: "Anthropic — Context Engineering for AI Agents"
+    url: "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents"
 ---
 
-# PE-16-PROMPT-CACHING: Prompt Caching & Cost
+## Prompt Caching & Cost
 
-## Introduction
+At scale, prompt costs add up fast. A system prompt sent with every request, repeated context across conversations, and verbose instructions all consume tokens — and tokens cost money. Prompt caching and cost optimization are essential for production systems.
 
-Cache long system prompts and reuse embeddings to cut cost and latency. By the end of this lesson you will be able to: Cache static prompt prefixes; Batch similar prompts; Measure tokens saved; Balance cache freshness.
+### How Prompt Caching Works
 
-## Key Concepts
+Prompt caching stores the processed (cached) representation of a prompt prefix so that repeated requests with the same prefix skip the expensive prefill computation.
 
-### 1. Cache static prompt prefixes
+**Anthropic's approach:** Caches the system prompt and long context blocks. If a subsequent request starts with the same prefix (at least 1024 tokens for Claude), the cached portion is reused at a fraction of the cost.
 
-Target: Cache static prompt prefixes. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+**OpenAI's approach:** Automatically caches identical prompt prefixes. No configuration needed — if two requests share the same starting tokens, the second one gets a 50% discount on cached tokens.
 
-```python
-import hashlib
+### When Caching Helps
 
-prefix = "You are a helpful assistant." * 50
-print("cache key:", hashlib.sha256(prefix.encode()).hexdigest()[:10])
-```
-### 2. Batch similar prompts
+- **Long system prompts** sent with every request (1000+ tokens)
+- **RAG contexts** where the same documents appear across multiple queries
+- **Multi-turn conversations** where history is resent each turn
+- **Batch processing** with shared context (same instructions, different data)
 
-Target: Batch similar prompts. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+### Token Pricing Awareness
 
-```python
-print("static prefixes (system prompt) are cache-friendly")
-```
-### 3. Measure tokens saved
+Understanding pricing helps you make informed design decisions:
 
-Target: Measure tokens saved. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+- Input tokens are cheaper than output tokens (typically 3–10×)
+- Longer prompts cost more per request
+- Cached tokens are significantly cheaper (50–90% discount)
+- Different models have wildly different pricing
 
-```python
-print("dynamic parts (user input) are not")
-```
-### 4. Balance cache freshness
+### Cost Optimization Strategies
 
-Target: Balance cache freshness. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+1. **Compress instructions:** Remove redundant phrases,合并 similar rules, use concise language
+2. **Cache aggressively:** Structure prompts so the expensive prefix (system prompt + context) is cacheable
+3. **Use smaller models for simple tasks:** Don't use GPT-4 for classification that GPT-3.5 handles well
+4. **Batch similar requests:** Process multiple items in one prompt when possible
+5. **Monitor token consumption:** Track average tokens per request and optimize outliers
 
-```python
-print("measure: tokens saved vs cache hit rate")
-```
+### Common Mistakes
 
-## Practice Questions
+- **Ignoring caching:** A 2000-token system prompt sent 10,000 times/day wastes money if not cached
+- **Over-compressing:** Cutting too much from prompts degrades quality more than it saves
+- **Not tracking costs:** Without monitoring, cost spikes go unnoticed until the bill arrives
 
-1. What is the key idea behind "Prompt Caching & Cost"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+---
 
-## LLM Prompts for Deeper Understanding
-
-1. "Explain Prompt Caching & Cost with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Prompt Caching & Cost"
-1. "Provide advanced patterns and performance considerations for Prompt Caching & Cost"
-
-## Key Takeaways
-
-- Master the core ideas of Prompt Caching & Cost through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
-
-## Further Reading
-
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+*Continue to learn about domain-specific prompting — tailoring prompts for medical, legal, financial, and educational applications.*

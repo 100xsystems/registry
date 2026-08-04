@@ -1,117 +1,108 @@
 ---
-{
-  "title": "Evaluating Prompts",
-  "description": "Turn prompt tweaks into measured improvements with a fixed eval set.",
-  "type": "lesson",
-  "order": 13,
-  "duration": "55 min",
-  "difficulty": "advanced",
-  "learning_objectives": [
-    "Build a prompt eval set",
-    "Score outputs automatically",
-    "A/B test prompt variants",
-    "Guard against overfitting to the eval set"
-  ],
-  "knowledge_refs": [
-    "prompt-engineering/pe-12-prompt-injection-defense",
-    "deep-learning/dl-20-evaluating-deep-models",
-    "computer-vision/cv-20-evaluating-vision-models"
-  ],
-  "prerequisites": [
-    "PE-10: System Prompts in Production"
-  ],
-  "references": [
-    {
-      "title": "OpenAI Prompt Engineering Guide",
-      "url": "https://platform.openai.com/docs/guides/prompt-engineering",
-      "description": "Six strategies for reliable prompting from OpenAI."
-    },
-    {
-      "title": "Anthropic Prompt Engineering Docs",
-      "url": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering",
-      "description": "Claude's practical prompt engineering guide."
-    },
-    {
-      "title": "Prompt Engineering Guide (DAIR.AI)",
-      "url": "https://www.promptingguide.ai/",
-      "description": "A broad open-source guide to prompt techniques."
-    },
-    {
-      "title": "CoT: Chain-of-Thought Prompting",
-      "url": "https://arxiv.org/abs/2201.11903",
-      "description": "The paper on reasoning via chain-of-thought prompts."
-    },
-    {
-      "title": "ReAct: Reasoning + Acting",
-      "url": "https://arxiv.org/abs/2210.03629",
-      "description": "Combining reasoning traces with tool actions."
-    }
-  ]
-}
+slug: pe-13-evaluating-prompts
+title: "Evaluating Prompts"
+description: "Systematic testing and measurement of prompt quality — golden datasets, LLM-as-judge, A/B testing, and evaluation frameworks."
+order: 13
+tags:
+  - prompt-engineering
+  - evaluation
+  - testing
+  - llm-as-judge
+  - ab-testing
+prerequisites:
+  - pe-12-prompt-injection-defense
+knowledge_refs:
+  - pe-12-prompt-injection-defense
+    title: "Prompt Injection Defense"
+  - pe-14-prompt-versioning
+    title: "Prompt Versioning & Management"
+  - pe-20-production-prompting
+    title: "Prompt Engineering in Production"
+references:
+  - title: "Evidently AI — LLM-as-a-Judge: A Complete Guide"
+    url: "https://www.evidentlyai.com/llm-guide/llm-as-a-judge"
+  - title: "GrowthBook — AI Evals vs. A/B Testing"
+    url: "https://www.growthbook.io/blog/ai-evals-vs-a-b-testing-why-you-need-both-to-ship-genai"
+  - title: "Maxim AI — Prompt Evaluation Frameworks"
+    url: "https://www.getmaxim.ai/articles/prompt-evaluation-frameworks-measuring-quality-consistency-and-cost-at-scale/"
+  - title: "Mirascope — Prompt Evaluation: Methods, Tools, and Best Practices"
+    url: "https://mirascope.com/blog/prompt-evaluation"
+  - title: "Patronus AI — AI LLM Test Prompts: Best Practices"
+    url: "https://www.patronus.ai/llm-testing/ai-llm-test-prompts"
 ---
 
-# PE-13-EVALUATING-PROMPTS: Evaluating Prompts
+## Evaluating Prompts
 
-## Introduction
+Prompt evaluation transforms prompt engineering from an intuitive "vibe check" into a rigorous engineering discipline. Because LLMs are probabilistic, small variations in instructions can drastically change behavior. You need systematic measurement.
 
-Turn prompt tweaks into measured improvements with a fixed eval set. By the end of this lesson you will be able to: Build a prompt eval set; Score outputs automatically; A/B test prompt variants; Guard against overfitting to the eval set.
+### The Two Types of Evaluation
 
-## Key Concepts
+**Evals (offline testing)** check *competence*: Can the model perform the task accurately and safely according to instructions? This happens before deployment using test datasets.
 
-### 1. Build a prompt eval set
+**A/B testing (online testing)** checks *value*: Do users care? Do metrics like retention, task completion, or revenue improve? This happens after deployment with real traffic.
 
-Target: Build a prompt eval set. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+You need both. A prompt that's highly accurate but users hate is just as bad as one users love but gives wrong answers.
 
-```python
-evals = [
-    {"input": "refund policy?", "expected_keywords": ["30 days"]},
-    {"input": "shipping time?", "expected_keywords": ["5-7 days"]},
-]
-print("eval cases:", len(evals))
-```
-### 2. Score outputs automatically
+### Golden Datasets
 
-Target: Score outputs automatically. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+A golden dataset is a curated set of test cases with known correct answers. It's the foundation of systematic evaluation.
 
-```python
-def passes(output, keywords):
-    return all(k in output for k in keywords)
+**What to include:**
+- Happy path cases (typical inputs)
+- Edge cases (empty inputs, extreme values, ambiguous queries)
+- Adversarial inputs (injection attempts, jailbreaks)
+- Multi-turn conversations (context-dependent tasks)
+- Real-world distribution (match actual user patterns)
 
-print("passes:", passes("You can refund within 30 days.", ["30 days"]))
-```
-### 3. A/B test prompt variants
+**Size:** Start with 50–100 cases. Expand based on failure modes you discover.
 
-Target: A/B test prompt variants. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+### LLM-as-Judge
 
-```python
-print("run every variant on the same set, compare scores")
-```
-### 4. Guard against overfitting to the eval set
+Using a powerful LLM (GPT-4, Claude) to evaluate the outputs of your target system. The judge receives the input, the output, and evaluation criteria, then scores or compares responses.
 
-Target: Guard against overfitting to the eval set. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+**Two paradigms:**
+- **Pairwise comparison:** Present two responses side-by-side and ask which is better. More reliable for relative quality assessment.
+- **Direct scoring:** Rate a single response on a scale or pass/fail. Binary pass/fail with reasoning is often more reliable than numeric scales.
 
-```python
-print("refresh evals with real user queries")
-```
+**Best practices:**
+- Provide explicit rubrics, not vague criteria
+- Use multiple judges and aggregate for reliability
+- Calibrate judges against human evaluations regularly
 
-## Practice Questions
+### Metrics
 
-1. What is the key idea behind "Evaluating Prompts"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+**Quality metrics:**
+- Faithfulness/groundedness (adherence to source material)
+- Relevance (alignment with user intent)
+- Correctness (factual accuracy)
+- Completeness (all aspects addressed)
 
-## LLM Prompts for Deeper Understanding
+**Consistency metrics:**
+- Output stability across repeated runs
+- Format consistency (does it always return valid JSON?)
+- Behavioral consistency across prompt versions
 
-1. "Explain Evaluating Prompts with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Evaluating Prompts"
-1. "Provide advanced patterns and performance considerations for Evaluating Prompts"
+**Cost metrics:**
+- Token consumption per request
+- Latency (time-to-first-token, total generation time)
+- API cost per request
 
-## Key Takeaways
+### Evaluation Pipeline
 
-- Master the core ideas of Evaluating Prompts through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+A mature pipeline runs in stages:
 
-## Further Reading
+1. **Offline CI/CD:** Run prompt variations against golden datasets. Automated assertions catch regressions before deployment.
+2. **Shadow mode:** Deploy prompts to process live traffic without surfacing results. Capture real-world behavior and latency.
+3. **Canary rollout:** Expose new prompts to a small cohort while monitoring guardrail metrics.
+4. **Full A/B test:** Evaluate downstream business impact with statistical significance.
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+### Common Mistakes
+
+- **No evaluation at all:** "It works in the playground" is not production-ready.
+- **Testing only happy paths:** Edge cases and adversarial inputs are where failures hide.
+- **Ignoring cost:** A prompt that's 10% more accurate but 10× more expensive may not be worth it.
+- **One-time evaluation:** Models change, user behavior evolves. Evaluation must be continuous.
+
+---
+
+*Continue to learn about prompt versioning and management — treating prompts as production software.*

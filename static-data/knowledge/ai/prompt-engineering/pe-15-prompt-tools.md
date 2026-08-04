@@ -1,112 +1,102 @@
 ---
-{
-  "title": "Prompt Playgrounds & Tooling",
-  "description": "The tooling ecosystem: playgrounds, prompt managers, and test runners.",
-  "type": "lesson",
-  "order": 15,
-  "duration": "50 min",
-  "difficulty": "intermediate",
-  "learning_objectives": [
-    "Use playgrounds for fast iteration",
-    "Manage prompts in dedicated tools",
-    "Automate prompt regression tests",
-    "Collaborate on prompt changes"
-  ],
-  "knowledge_refs": [
-    "prompt-engineering/pe-14-prompt-versioning",
-    "generative-ai/genai-04-prompt-engineering",
-    "llm-engineering/llm-17-observability"
-  ],
-  "prerequisites": [
-    "PE-13: Evaluating Prompts"
-  ],
-  "references": [
-    {
-      "title": "OpenAI Prompt Engineering Guide",
-      "url": "https://platform.openai.com/docs/guides/prompt-engineering",
-      "description": "Six strategies for reliable prompting from OpenAI."
-    },
-    {
-      "title": "Anthropic Prompt Engineering Docs",
-      "url": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering",
-      "description": "Claude's practical prompt engineering guide."
-    },
-    {
-      "title": "Prompt Engineering Guide (DAIR.AI)",
-      "url": "https://www.promptingguide.ai/",
-      "description": "A broad open-source guide to prompt techniques."
-    },
-    {
-      "title": "CoT: Chain-of-Thought Prompting",
-      "url": "https://arxiv.org/abs/2201.11903",
-      "description": "The paper on reasoning via chain-of-thought prompts."
-    },
-    {
-      "title": "ReAct: Reasoning + Acting",
-      "url": "https://arxiv.org/abs/2210.03629",
-      "description": "Combining reasoning traces with tool actions."
-    }
-  ]
-}
+slug: pe-15-prompt-tools
+title: "Prompt Playgrounds & Tooling"
+description: "The IDE for prompt engineering — OpenAI Playground, Anthropic Console, LangSmith, and the ecosystem of debugging and visualization tools."
+order: 15
+tags:
+  - prompt-engineering
+  - tooling
+  - playground
+  - langsmith
+  - debugging
+prerequisites:
+  - pe-14-prompt-versioning
+knowledge_refs:
+  - pe-14-prompt-versioning
+    title: "Prompt Versioning & Management"
+  - pe-13-evaluating-prompts
+    title: "Evaluating Prompts"
+  - pe-20-production-prompting
+    title: "Prompt Engineering in Production"
+references:
+  - title: "LangSmith — Prompt Engineering Quickstart"
+    url: "https://docs.langchain.com/langsmith/prompt-engineering-quickstart"
+  - title: "LangSmith — Prompt Engineering Concepts"
+    url: "https://docs.langchain.com/langsmith/prompt-engineering-concepts"
+  - title: "Anthropic — Claude Prompting Best Practices"
+    url: "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices"
+  - title: "The Anthropic Console: A Practical Review"
+    url: "https://nickgarnett.substack.com/p/the-anthropic-console-a-practical"
+  - title: "LangSmith Prompt Management — Mirascope"
+    url: "https://mirascope.com/blog/langsmith-prompt-management"
 ---
 
-# PE-15-PROMPT-TOOLS: Prompt Playgrounds & Tooling
+## Prompt Playgrounds & Tooling
 
-## Introduction
+Modern prompt engineering requires specialized tools. Prompt playgrounds, IDEs, and debugging platforms transform ad-hoc experimentation into systematic, reproducible workflows.
 
-The tooling ecosystem: playgrounds, prompt managers, and test runners. By the end of this lesson you will be able to: Use playgrounds for fast iteration; Manage prompts in dedicated tools; Automate prompt regression tests; Collaborate on prompt changes.
+### Prompt Playgrounds
 
-## Key Concepts
+Playgrounds are interactive web environments for testing prompts in real time. They let you adjust system prompts, user messages, parameters (temperature, top-p, max tokens), and see results instantly.
 
-### 1. Use playgrounds for fast iteration
+**OpenAI Playground:** The original. Supports Chat, Completion, and Assistant modes. Includes a "Generate" feature that auto-generates prompts using best practices. Fine-grained parameter control and function calling configuration.
 
-Target: Use playgrounds for fast iteration. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+**Anthropic Console (Workbench):** Dedicated workspace for Claude. Supports dynamic variables (`{{VARIABLE}}`), prompt templates, and the "Prompt Improver" that restructures prompts using XML tags, chain-of-thought, and role assignment — often yielding 30%+ accuracy improvements.
 
-```python
-print("playground: try variants side by side with different params")
-```
-### 2. Manage prompts in dedicated tools
+**Google AI Studio:** Gemini-focused playground with multimodal testing (text + images + video). Good for testing vision-language prompts.
 
-Target: Manage prompts in dedicated tools. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+### Prompt IDEs and Management
 
-```python
-print("prompt managers: version + tags + rollback")
-```
-### 3. Automate prompt regression tests
+**LangSmith:** Full-lifecycle platform for LLM applications. Key features:
+- **Prompt Hub:** Version-control prompts with commits and tags, pull them into code via SDK
+- **Canvas:** Interactive testing with f-string and Mustache template formats
+- **Tracing:** Detailed execution traces showing exactly what was sent to the LLM
+- **Evaluation:** Run prompt variations against test suites with automated assertions
 
-Target: Automate prompt regression tests. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+**Braintrust:** Combines prompt playground with evaluation and logging. Strong A/B testing capabilities.
 
-```python
-import subprocess
+**PromptLayer:** Focuses on request logging and prompt versioning. Good for monitoring production prompt performance.
 
-print("CI: run prompt evals on every prompt change")
-```
-### 4. Collaborate on prompt changes
+### Debugging Tools
 
-Target: Collaborate on prompt changes. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+**Tracing platforms** (LangSmith, Langfuse, Helicone) capture every LLM call with:
+- Exact prompt and response
+- Token counts and latency
+- Model parameters used
+- Error details and stack traces
 
-```python
-print("review: prompt diffs get reviewed like code diffs")
-```
+**Visualization tools** help understand prompt structure:
+- Token highlighting (showing what the model "sees")
+- Attention visualization (for models that expose it)
+- Comparison views (side-by-side prompt variants)
 
-## Practice Questions
+### Automated Prompt Improvement
 
-1. What is the key idea behind "Prompt Playgrounds & Tooling"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+Several tools now offer automated prompt optimization:
 
-## LLM Prompts for Deeper Understanding
+**Anthropic Prompt Improver:** Takes a basic instruction and restructures it with XML tags, few-shot examples, and chain-of-thought reasoning.
 
-1. "Explain Prompt Playgrounds & Tooling with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Prompt Playgrounds & Tooling"
-1. "Provide advanced patterns and performance considerations for Prompt Playgrounds & Tooling"
+**DSPy:** A framework that automatically optimizes prompts by treating them as differentiable programs. It searches for the best prompt formulation given a task and evaluation metric.
 
-## Key Takeaways
+**APE (Automated Prompt Engineering):** Research approaches that use LLMs to generate and evaluate prompt candidates automatically.
 
-- Master the core ideas of Prompt Playgrounds & Tooling through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+### Choosing Your Stack
 
-## Further Reading
+| Need | Tool |
+|---|---|
+| Quick testing | OpenAI/Anthropic Playground |
+| Version control | LangSmith Prompt Hub |
+| Evaluation | LangSmith + Braintrust |
+| Production monitoring | LangSmith, Langfuse, Helicone |
+| Automated optimization | DSPy, Anthropic Prompt Improver |
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+### Common Mistakes
+
+- **Using only the playground:** Playgrounds are for iteration, not production. Use proper version control and deployment pipelines.
+- **No tracing in production:** If you can't see what prompts produced which outputs, you can't debug failures.
+- **Ignoring token costs:** Every playground test costs money. Track token consumption across experiments.
+- **Tool sprawl:** Pick 2–3 tools and master them rather than using every tool poorly.
+
+---
+
+*Continue to learn about prompt caching and cost optimization — making prompts efficient at scale.*

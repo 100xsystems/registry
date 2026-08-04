@@ -1,112 +1,114 @@
 ---
-{
-  "title": "Domain-Specific Prompting",
-  "description": "Legal, medical, finance and education: prompts tuned to domain constraints.",
-  "type": "lesson",
-  "order": 17,
-  "duration": "55 min",
-  "difficulty": "advanced",
-  "learning_objectives": [
-    "Adapt prompts to domain rules",
-    "Handle regulated content",
-    "Set disclaimers and limits",
-    "Respect domain terminology"
-  ],
-  "knowledge_refs": [
-    "prompt-engineering/pe-16-prompt-caching",
-    "generative-ai/genai-04-prompt-engineering",
-    "llm-engineering/llm-04-prompting-systems"
-  ],
-  "prerequisites": [
-    "PE-10: System Prompts in Production"
-  ],
-  "references": [
-    {
-      "title": "OpenAI Prompt Engineering Guide",
-      "url": "https://platform.openai.com/docs/guides/prompt-engineering",
-      "description": "Six strategies for reliable prompting from OpenAI."
-    },
-    {
-      "title": "Anthropic Prompt Engineering Docs",
-      "url": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering",
-      "description": "Claude's practical prompt engineering guide."
-    },
-    {
-      "title": "Prompt Engineering Guide (DAIR.AI)",
-      "url": "https://www.promptingguide.ai/",
-      "description": "A broad open-source guide to prompt techniques."
-    },
-    {
-      "title": "CoT: Chain-of-Thought Prompting",
-      "url": "https://arxiv.org/abs/2201.11903",
-      "description": "The paper on reasoning via chain-of-thought prompts."
-    },
-    {
-      "title": "ReAct: Reasoning + Acting",
-      "url": "https://arxiv.org/abs/2210.03629",
-      "description": "Combining reasoning traces with tool actions."
-    }
-  ]
-}
+slug: pe-17-domain-specific-prompts
+title: "Domain-Specific Prompting"
+description: "Tailoring prompts for specialized fields — medical, legal, financial, educational, and technical writing applications."
+order: 17
+tags:
+  - prompt-engineering
+  - domain-specific
+  - medical
+  - legal
+  - financial
+  - education
+prerequisites:
+  - pe-03-roles-and-context
+knowledge_refs:
+  - pe-03-roles-and-context
+    title: "Roles & Context"
+  - pe-18-safety-in-prompts
+    title: "Safety in Prompting"
+  - pe-06-structured-outputs
+    title: "Structured Outputs"
+references:
+  - title: "Prompt Engineering in Clinical Practice: Tutorial for Clinicians"
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC12439060/"
+  - title: "Best Practices for Healthcare AI Prompt Engineering"
+    url: "https://bastiongpt.com/post/best-practices-for-healthcare-ai-prompts"
+  - title: "Legal Prompt Engineering Best Practices for Lawyers"
+    url: "https://www.clio.com/resources/ai-for-lawyers/legal-ai-prompt-engineering/"
+  - title: "12 Prompting Techniques for Technical Writers"
+    url: "https://medium.com/@k.balu124/12-prompting-techniques-for-technical-writers-292835e34810"
+  - title: "Prompt Engineering in Healthcare: Best Practices & Trends"
+    url: "https://healthtechmagazine.net/article/2025/04/prompt-engineering-in-healthcare-best-practices-strategies-trends-perfcon"
 ---
 
-# PE-17-DOMAIN-SPECIFIC-PROMPTS: Domain-Specific Prompting
+## Domain-Specific Prompting
 
-## Introduction
+General-purpose prompts fail in specialized domains. Medical, legal, financial, and educational applications require domain-specific vocabulary, compliance constraints, and accuracy standards that generic prompts can't achieve.
 
-Legal, medical, finance and education: prompts tuned to domain constraints. By the end of this lesson you will be able to: Adapt prompts to domain rules; Handle regulated content; Set disclaimers and limits; Respect domain terminology.
+### Medical Prompting
 
-## Key Concepts
+Medical applications demand the highest accuracy standards. Errors can harm patients.
 
-### 1. Adapt prompts to domain rules
+**Key principles:**
+- Assign clinical roles: "You are a pediatric neurologist evaluating childhood epilepsy"
+- Use structured variables: `<PatientAge>`, `<LabResults>`, `<Comorbidities>`
+- Force chain-of-thought for differential diagnosis: rule out life-threatening conditions first
+- Ground in evidence-based guidelines: "Per 2023 ADA guidelines..."
+- Never provide definitive diagnoses — always frame as "differential considerations"
 
-Target: Adapt prompts to domain rules. Start with the foundations — read the runnable example carefully and trace its output before moving on.
-
-```python
-legal_prompt = "Summarize this contract clause in plain language. Flag anything about liability. Do not give legal advice."
-print(legal_prompt)
+**Example:**
 ```
-### 2. Handle regulated content
+You are an endocrinologist creating a treatment plan for newly 
+diagnosed Type 2 Diabetes.
 
-Target: Handle regulated content. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+Patient: <PatientAge> years old, eGFR <eGFRValue>
 
-```python
-med_prompt = "Explain this test result simply. State that a doctor must interpret results. Do not diagnose."
-print(med_prompt)
-```
-### 3. Set disclaimers and limits
-
-Target: Set disclaimers and limits. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
-
-```python
-print("domains with risk: refuse > speculate")
-```
-### 4. Respect domain terminology
-
-Target: Respect domain terminology. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
-
-```python
-print("glossaries and style guides improve consistency")
+Requirements:
+- Medication recommendations per 2023 ADA guidelines
+- Blood glucose monitoring schedule
+- Emergency warning signs
+- Format: structured treatment plan with rationale for each decision
 ```
 
-## Practice Questions
+### Legal Prompting
 
-1. What is the key idea behind "Domain-Specific Prompting"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+Legal applications require precision, jurisdiction awareness, and careful framing.
 
-## LLM Prompts for Deeper Understanding
+**Key principles:**
+- Specify jurisdiction: "Under California law..."
+- Be granular: "Analyze the indemnification clause in Section 9" not "review this contract"
+- Flag ambiguity: "Highlight any clauses that deviate from standard market norms"
+- Never give definitive legal advice — frame as "analysis" and "considerations"
+- Include citation requirements: "Cite relevant statutes where applicable"
 
-1. "Explain Domain-Specific Prompting with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Domain-Specific Prompting"
-1. "Provide advanced patterns and performance considerations for Domain-Specific Prompting"
+### Financial Prompting
 
-## Key Takeaways
+Financial applications need numerical accuracy, regulatory compliance, and clear formatting.
 
-- Master the core ideas of Domain-Specific Prompting through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+**Key principles:**
+- Specify accounting standards: "Per GAAP" or "Per IFRS"
+- Require structured output: tables, metrics, calculations with formulas
+- Separate facts from projections: "Distinguish historical data from forecasts"
+- Include risk disclosures: "Flag assumptions and sensitivity factors"
 
-## Further Reading
+### Educational Prompting
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+Educational applications need pedagogical alignment and appropriate complexity.
+
+**Key principles:**
+- Specify audience level: "For 8th-grade students" or "For graduate students"
+- Use instructional frameworks: "Use the 5E model (Engage, Explore, Explain, Elaborate, Evaluate)"
+- Include assessment: "Include formative assessment questions for each section"
+- Avoid misconceptions: "Be precise about common student misunderstandings in this topic"
+
+### Technical Writing Prompting
+
+Technical documentation needs clarity, consistency, and accuracy.
+
+**Key principles:**
+- Specify target audience: "For third-party developers integrating our API"
+- Require specific sections: parameters, examples, error codes, status responses
+- Match existing style: "Follow the format of our existing endpoint documentation"
+- Include code examples: "Provide working code snippets in Python and JavaScript"
+
+### Common Mistakes
+
+- **Generic prompts in specialized domains:** "Summarize this medical paper" misses critical clinical nuances
+- **Ignoring compliance:** Medical and legal prompts must include regulatory constraints
+- **No accuracy verification:** Always add "Verify all facts against authoritative sources"
+- **Missing audience specification:** A prompt for clinicians differs dramatically from one for patients
+
+---
+
+*Continue to learn about safety in prompting — content filtering, toxicity prevention, and responsible AI.*

@@ -1,121 +1,113 @@
 ---
-{
-  "title": "Few-Shot Examples",
-  "description": "Teach by demonstration: a handful of examples beat paragraphs of description.",
-  "type": "lesson",
-  "order": 4,
-  "duration": "55 min",
-  "difficulty": "intermediate",
-  "learning_objectives": [
-    "Choose examples that cover edge cases",
-    "Format few-shot pairs correctly",
-    "Avoid label leakage",
-    "Tune the number of examples"
-  ],
-  "knowledge_refs": [
-    "prompt-engineering/pe-03-roles-and-context",
-    "ai-safety/safety-05-robustness"
-  ],
-  "prerequisites": [
-    "PE-02: Prompt Structure"
-  ],
-  "references": [
-    {
-      "title": "OpenAI Prompt Engineering Guide",
-      "url": "https://platform.openai.com/docs/guides/prompt-engineering",
-      "description": "Six strategies for reliable prompting from OpenAI."
-    },
-    {
-      "title": "Anthropic Prompt Engineering Docs",
-      "url": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering",
-      "description": "Claude's practical prompt engineering guide."
-    },
-    {
-      "title": "Prompt Engineering Guide (DAIR.AI)",
-      "url": "https://www.promptingguide.ai/",
-      "description": "A broad open-source guide to prompt techniques."
-    },
-    {
-      "title": "CoT: Chain-of-Thought Prompting",
-      "url": "https://arxiv.org/abs/2201.11903",
-      "description": "The paper on reasoning via chain-of-thought prompts."
-    },
-    {
-      "title": "ReAct: Reasoning + Acting",
-      "url": "https://arxiv.org/abs/2210.03629",
-      "description": "Combining reasoning traces with tool actions."
-    }
-  ]
-}
+slug: pe-04-few-shot-examples
+title: "Few-Shot Examples"
+description: "How input-output demonstrations within the prompt guide model behavior without any weight updates — and the strategies for selecting the best examples."
+order: 4
+tags:
+  - prompt-engineering
+  - few-shot
+  - in-context-learning
+  - example-selection
+prerequisites:
+  - pe-03-roles-and-context
+knowledge_refs:
+  - pe-03-roles-and-context
+    title: "Roles & Context"
+  - pe-05-chain-of-thought
+    title: "Chain-of-Thought Reasoning"
+  - pe-17-domain-specific-prompts
+    title: "Domain-Specific Prompting"
+references:
+  - title: "The Few Shot Prompting Guide — PromptHub"
+    url: "https://www.prompthub.us/blog/the-few-shot-prompting-guide"
+  - title: "Optimizing AI Agents with Dynamic Few-Shot Prompting"
+    url: "https://medium.com/@stefansipinkoski/optimizing-ai-agents-with-dynamic-few-shot-prompting-585919f694cc"
+  - title: "Few-Shot, Zero-Shot, and In-Context Learning: Business Value Explained"
+    url: "https://medium.com/@amitkharche/few-shot-zero-shot-and-in-context-learning-business-value-explained-541741eb216b"
+  - title: "Fairness-guided Few-shot Prompting for Large Language Models"
+    url: "https://arxiv.org/abs/2303.13217"
+  - title: "Adaptive Few-shot Prompting for Machine Translation"
+    url: "https://arxiv.org/abs/2501.01679"
 ---
 
-# PE-04-FEW-SHOT-EXAMPLES: Few-Shot Examples
+## Few-Shot Examples
 
-## Introduction
+Few-shot prompting is one of the most powerful techniques in prompt engineering. By providing a small number of input-output demonstrations within the prompt itself, you guide the model's behavior without any weight updates, training, or fine-tuning.
 
-Teach by demonstration: a handful of examples beat paragraphs of description. By the end of this lesson you will be able to: Choose examples that cover edge cases; Format few-shot pairs correctly; Avoid label leakage; Tune the number of examples.
+### Zero-Shot vs. Few-Shot
 
-## Key Concepts
+**Zero-shot prompting** gives the model only instructions and the query. It relies entirely on pre-trained knowledge. This works for simple tasks but fails on nuanced or domain-specific ones where the model doesn't know your expected format, tone, or logic.
 
-### 1. Choose examples that cover edge cases
+**Few-shot prompting** includes 2–5 example pairs showing the model exactly what you want. The model learns the pattern from context and applies it to the new input. This leverages **in-context learning (ICL)** — the model's ability to learn from demonstrations without gradient updates.
 
-Target: Choose examples that cover edge cases. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+The difference is dramatic. A zero-shot prompt might produce inconsistent output formats, miss edge cases, or use the wrong tone. A few-shot prompt with well-chosen examples produces structured, consistent, and predictable results.
 
-```python
-examples = """
-Input: "I love this"
-Label: positive
+### How Many Examples?
 
-Input: "hate it"
-Label: negative
+Research consistently shows diminishing returns beyond 5 examples:
 
-Input: "meh"
-Label: neutral
+- **0 examples (zero-shot):** Baseline. Works for straightforward tasks.
+- **1–2 examples:** Significant improvement. Establishes basic format and style.
+- **3–5 examples:** Optimal range for most tasks. Covers common patterns and edge cases.
+- **5–8 examples:** Marginal improvement. Only worth it for highly variable tasks.
+- **8+ examples:** Usually wastes tokens without accuracy gains.
 
-Input: "fantastic!"
-Label:"""
-print(examples)
+The sweet spot is **3–5 examples** for most use cases. This balances token cost with performance improvement.
+
+### Example Selection Strategies
+
+Not all examples are equal. The quality and diversity of your examples matter more than the quantity.
+
+**Static Selection:** Hand-picked examples that work for every prompt. Works well for narrow, consistent tasks but fails when user intent varies widely.
+
+**Dynamic Few-Shot (Semantic Retrieval):** Store examples in a vector database. When a query arrives, use embedding similarity to retrieve the most relevant examples for that specific input. This scales better and handles diverse workloads.
+
+**Diversity:** Include examples that cover different patterns. If classifying text, include examples of each category. If generating code, include both simple and complex cases. Include at least one **negative example** showing what you don't want.
+
+**Recency:** Place your strongest, most critical example last. Models exhibit recency bias — they weight the final context window tokens more heavily.
+
+### Example Format Consistency
+
+The format of your examples directly shapes the format of the output. Inconsistency in examples leads to inconsistency in results.
+
+**Rules:**
+1. Use the same delimiters, labels, and structure across all examples
+2. Separate examples clearly with consistent markers (`---`, `###`, or XML tags)
+3. Match the output format of your examples to exactly what you want
+4. Include both input and output in the same style as your actual use case
+
 ```
-### 2. Format few-shot pairs correctly
+INPUT: "The product is amazing but the shipping was terrible"
+OUTPUT: {"sentiment": "mixed", "positive": "product quality", "negative": "shipping"}
 
-Target: Format few-shot pairs correctly. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+INPUT: "I love this app, it's so easy to use"
+OUTPUT: {"sentiment": "positive", "positive": "usability", "negative": null}
 
-```python
-print("cover edge cases: ambiguous, short, sarcastic inputs")
-```
-### 3. Avoid label leakage
-
-Target: Avoid label leakage. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
-
-```python
-print("consistent formatting matters more than perfect wording")
-```
-### 4. Tune the number of examples
-
-Target: Tune the number of examples. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
-
-```python
-print("too few -> drift. too many -> tokens + confusion")
+INPUT: "Complete waste of money, doesn't work at all"
+OUTPUT: {"sentiment": "negative", "positive": null, "negative": "functionality"}
 ```
 
-## Practice Questions
+This example set covers three sentiment categories, shows the exact JSON format expected, and demonstrates how to handle edge cases (mixed sentiment, null values).
 
-1. What is the key idea behind "Few-Shot Examples"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+### Dynamic Few-Shot with Vector Search
 
-## LLM Prompts for Deeper Understanding
+For production systems, static examples don't scale. Dynamic few-shot prompting uses semantic similarity to select examples at runtime:
 
-1. "Explain Few-Shot Examples with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Few-Shot Examples"
-1. "Provide advanced patterns and performance considerations for Few-Shot Examples"
+1. **Build an example store:** Create a vector database of input-output pairs, each embedded as vectors.
+2. **Embed the query:** Convert the incoming user query to a vector.
+3. **Retrieve similar examples:** Use cosine similarity to find the top-K most relevant examples.
+4. **Inject into prompt:** Place the retrieved examples before the actual query.
 
-## Key Takeaways
+This approach handles diverse inputs while keeping the prompt focused. Tools like LangChain's `SemanticSimilarityExampleSelector` implement this pattern.
 
-- Master the core ideas of Few-Shot Examples through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+### Common Mistakes
 
-## Further Reading
+- **Too many examples:** Token waste with diminishing returns. Stay under 5 unless necessary.
+- **Inconsistent format:** If example 1 uses "Output:" and example 2 uses "Result:", the model gets confused.
+- **All positive examples:** Without negative examples, the model doesn't understand boundaries.
+- **Wrong order:** Your best example should be last, not first.
+- **Relevance mismatch:** Dynamic few-shot with irrelevant examples is worse than static few-shot with good ones.
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+---
+
+*Continue to learn about chain-of-thought reasoning — how step-by-step thinking dramatically improves model performance on complex problems.*

@@ -1,115 +1,123 @@
 ---
-{
-  "title": "Advanced Prompting Techniques",
-  "description": "Self-consistency, generated knowledge, tree-of-thought and ReAct-style scaffolding.",
-  "type": "lesson",
-  "order": 11,
-  "duration": "60 min",
-  "difficulty": "advanced",
-  "learning_objectives": [
-    "Apply self-consistency sampling",
-    "Use generated-knowledge prompting",
-    "Describe tree-of-thought search",
-    "Combine prompts with tool actions (ReAct)"
-  ],
-  "knowledge_refs": [
-    "prompt-engineering/pe-10-system-prompts",
-    "generative-ai/genai-04-prompt-engineering",
-    "llm-engineering/llm-04-prompting-systems"
-  ],
-  "prerequisites": [
-    "PE-05: Chain-of-Thought Reasoning"
-  ],
-  "references": [
-    {
-      "title": "OpenAI Prompt Engineering Guide",
-      "url": "https://platform.openai.com/docs/guides/prompt-engineering",
-      "description": "Six strategies for reliable prompting from OpenAI."
-    },
-    {
-      "title": "Anthropic Prompt Engineering Docs",
-      "url": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering",
-      "description": "Claude's practical prompt engineering guide."
-    },
-    {
-      "title": "Prompt Engineering Guide (DAIR.AI)",
-      "url": "https://www.promptingguide.ai/",
-      "description": "A broad open-source guide to prompt techniques."
-    },
-    {
-      "title": "CoT: Chain-of-Thought Prompting",
-      "url": "https://arxiv.org/abs/2201.11903",
-      "description": "The paper on reasoning via chain-of-thought prompts."
-    },
-    {
-      "title": "ReAct: Reasoning + Acting",
-      "url": "https://arxiv.org/abs/2210.03629",
-      "description": "Combining reasoning traces with tool actions."
-    }
-  ]
-}
+slug: pe-11-advanced-techniques
+title: "Advanced Prompting Techniques"
+description: "Self-consistency, meta-prompting, prompt chaining, skeleton-of-thought, and directional stimulus prompting — techniques that push beyond basic prompting."
+order: 11
+tags:
+  - prompt-engineering
+  - self-consistency
+  - prompt-chaining
+  - meta-prompting
+  - skeleton-of-thought
+prerequisites:
+  - pe-05-chain-of-thought
+knowledge_refs:
+  - pe-05-chain-of-thought
+    title: "Chain-of-Thought Reasoning"
+  - pe-17-domain-specific-prompts
+    title: "Domain-Specific Prompting"
+  - pe-20-production-prompting
+    title: "Prompt Engineering in Production"
+references:
+  - title: "PromptHub — Prompt Chaining Guide"
+    url: "https://www.prompthub.us/blog/prompt-chaining-guide"
+  - title: "PromptHub — Reducing Latency with Skeleton of Thought"
+    url: "https://www.prompthub.us/blog/reducing-latency-with-skeleton-of-thought-prompting"
+  - title: "Learn Prompting — Skeleton-of-Thought"
+    url: "https://learnprompting.org/docs/advanced/decomposition/skeleton_of_thoughts"
+  - title: "IBM — Prompt Engineering Techniques"
+    url: "https://www.ibm.com/think/topics/prompt-engineering-techniques"
+  - title: "PromptingGuide.ai — Self-Consistency"
+    url: "https://www.promptingguide.ai/techniques/consistency"
 ---
 
-# PE-11-ADVANCED-TECHNIQUES: Advanced Prompting Techniques
+## Advanced Prompting Techniques
 
-## Introduction
+Beyond zero-shot, few-shot, and chain-of-thought, there's a richer landscape of prompting strategies. These advanced techniques tackle specific challenges: reducing latency, improving reliability through ensemble methods, and decomposing complex tasks into manageable pipelines.
 
-Self-consistency, generated knowledge, tree-of-thought and ReAct-style scaffolding. By the end of this lesson you will be able to: Apply self-consistency sampling; Use generated-knowledge prompting; Describe tree-of-thought search; Combine prompts with tool actions (ReAct).
+### Self-Consistency
 
-## Key Concepts
+Self-consistency replaces greedy decoding (taking the single highest-probability token) with a sampling-based ensemble. Instead of one reasoning path, you generate multiple paths at higher temperature and take a majority vote on the final answer.
 
-### 1. Apply self-consistency sampling
+**Why it works:** Complex problems often have multiple valid reasoning trajectories. If 5 out of 7 independent paths arrive at the same answer, that answer is far more likely to be correct than a single path's conclusion.
 
-Target: Apply self-consistency sampling. Start with the foundations — read the runnable example carefully and trace its output before moving on.
-
+**Implementation:**
 ```python
-import numpy as np
+# Generate 5 reasoning paths at temperature 0.7
+paths = []
+for _ in range(5):
+    response = llm.generate(prompt, temperature=0.7)
+    answer = extract_answer(response)
+    paths.append(answer)
 
-# Self-consistency: sample many, take the majority
-answers = ["42", "42", "43", "42", "45"]
-majority = max(set(answers), key=answers.count)
-print("self-consistent answer:", majority)
-```
-### 2. Use generated-knowledge prompting
-
-Target: Use generated-knowledge prompting. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
-
-```python
-print("generated knowledge: ask the model for facts first, then answer")
-```
-### 3. Describe tree-of-thought search
-
-Target: Describe tree-of-thought search. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
-
-```python
-print("tree-of-thought: branch and evaluate reasoning paths")
-```
-### 4. Combine prompts with tool actions (ReAct)
-
-Target: Combine prompts with tool actions (ReAct). Put it together — extend the example to combine this concept with what you learned in earlier lessons.
-
-```python
-print("ReAct: alternate reasoning with tool use")
+# Majority vote
+from collections import Counter
+final_answer = Counter(paths).most_common(1)[0][0]
 ```
 
-## Practice Questions
+Self-consistency is especially valuable for mathematical reasoning, logical puzzles, and any task where a wrong step early cascades into a wrong answer.
 
-1. What is the key idea behind "Advanced Prompting Techniques"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+### Meta-Prompting
 
-## LLM Prompts for Deeper Understanding
+Meta-prompting uses an LLM to generate, optimize, or review prompts for another task. Instead of hand-crafting prompts, you ask the model to create them.
 
-1. "Explain Advanced Prompting Techniques with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Advanced Prompting Techniques"
-1. "Provide advanced patterns and performance considerations for Advanced Prompting Techniques"
+**Use cases:**
+- "Write a system prompt for a customer support chatbot that handles billing inquiries"
+- "Review this prompt and suggest improvements for clarity and completeness"
+- "Generate 5 few-shot examples for this classification task"
 
-## Key Takeaways
+This is particularly powerful for bootstrapping: use a strong model (GPT-4, Claude) to generate prompts that are then deployed to cheaper, faster models.
 
-- Master the core ideas of Advanced Prompting Techniques through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+### Prompt Chaining
 
-## Further Reading
+Prompt chaining decomposes a complex task into a pipeline of smaller, focused sub-tasks. The output of one prompt feeds into the next.
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+```
+[Step 1: Extract key facts] → [Step 2: Classify sentiment] → [Step 3: Generate response]
+```
+
+**Benefits:**
+- Each step is focused and testable independently
+- Reduces hallucination (smaller context = more reliable)
+- Allows different models or parameters for each step
+- Easier to debug when something goes wrong
+
+**Example pipeline for document analysis:**
+1. "Extract all dates, names, and monetary values from this document"
+2. "Classify each extracted entity as: PERSON, DATE, MONETARY_AMOUNT, ORGANIZATION"
+3. "Generate a summary table of all extracted entities grouped by type"
+
+### Skeleton-of-Thought (SoT)
+
+Developed by Microsoft and Tsinghua researchers, SoT reduces inference latency by parallelizing generation:
+
+1. **Skeleton phase:** The model quickly outputs a structured outline (3–10 bullet points)
+2. **Expansion phase:** Each point is expanded independently and concurrently via parallel API calls
+
+This achieves up to 2× speedup while maintaining comparable quality. It's ideal for long-form content, summaries, and knowledge-retrieval tasks where the overall structure is predictable.
+
+### Directional Stimulus Prompting (DSP)
+
+DSP guides models using subtle hints or keywords rather than explicit instructions. Instead of "Write a formal email about X," you might provide keywords like "professional," "urgent," "deadline" as directional signals.
+
+This is useful when you want to influence tone or perspective without constraining the model's creative freedom.
+
+### Choosing the Right Technique
+
+| Technique | Best For | Complexity |
+|---|---|---|
+| Self-consistency | Math, logic, high-stakes decisions | Medium |
+| Meta-prompting | Bootstrapping, prompt optimization | Low |
+| Prompt chaining | Multi-step analysis, pipeline tasks | Medium |
+| Skeleton-of-thought | Long-form content, latency reduction | High |
+| Directional stimulus | Tone control, subtle guidance | Low |
+
+### Common Mistakes
+
+- **Over-chaining:** Too many steps in a pipeline accumulates errors. Keep chains to 3–5 steps maximum.
+- **Self-consistency on simple tasks:** It's wasteful for straightforward questions. Reserve it for complex reasoning.
+- **Ignoring cost:** Each self-consistency path is a separate API call. Budget accordingly.
+
+---
+
+*Continue to learn about prompt injection defense — protecting your systems from adversarial attacks.*

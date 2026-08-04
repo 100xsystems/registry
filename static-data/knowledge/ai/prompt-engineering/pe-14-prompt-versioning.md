@@ -1,113 +1,94 @@
 ---
-{
-  "title": "Prompt Versioning & Management",
-  "description": "Store prompts as artifacts: version, tag and roll back like code.",
-  "type": "lesson",
-  "order": 14,
-  "duration": "50 min",
-  "difficulty": "intermediate",
-  "learning_objectives": [
-    "Store prompts in version control",
-    "Tag production prompt versions",
-    "Compare versions side by side",
-    "Roll back quickly"
-  ],
-  "knowledge_refs": [
-    "prompt-engineering/pe-13-evaluating-prompts",
-    "llm-engineering/llm-17-observability",
-    "generative-ai/genai-04-prompt-engineering"
-  ],
-  "prerequisites": [
-    "PE-13: Evaluating Prompts"
-  ],
-  "references": [
-    {
-      "title": "OpenAI Prompt Engineering Guide",
-      "url": "https://platform.openai.com/docs/guides/prompt-engineering",
-      "description": "Six strategies for reliable prompting from OpenAI."
-    },
-    {
-      "title": "Anthropic Prompt Engineering Docs",
-      "url": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering",
-      "description": "Claude's practical prompt engineering guide."
-    },
-    {
-      "title": "Prompt Engineering Guide (DAIR.AI)",
-      "url": "https://www.promptingguide.ai/",
-      "description": "A broad open-source guide to prompt techniques."
-    },
-    {
-      "title": "CoT: Chain-of-Thought Prompting",
-      "url": "https://arxiv.org/abs/2201.11903",
-      "description": "The paper on reasoning via chain-of-thought prompts."
-    },
-    {
-      "title": "ReAct: Reasoning + Acting",
-      "url": "https://arxiv.org/abs/2210.03629",
-      "description": "Combining reasoning traces with tool actions."
-    }
-  ]
-}
+slug: pe-14-prompt-versioning
+title: "Prompt Versioning & Management"
+description: "Treating prompts as production software — version control, registries, deployment pipelines, and collaborative prompt development."
+order: 14
+tags:
+  - prompt-engineering
+  - versioning
+  - prompt-management
+  - deployment
+  - collaboration
+prerequisites:
+  - pe-13-evaluating-prompts
+knowledge_refs:
+  - pe-13-evaluating-prompts
+    title: "Evaluating Prompts"
+  - pe-10-system-prompts
+    title: "System Prompts in Production"
+  - pe-20-production-prompting
+    title: "Prompt Engineering in Production"
+references:
+  - title: "Agenta — Prompt Versioning: The Complete Guide"
+    url: "https://agenta.ai/blog/prompt-versioning-guide"
+  - title: "LangSmith — Prompt Engineering Quickstart"
+    url: "https://docs.langchain.com/langsmith/prompt-engineering-quickstart"
+  - title: "LangSmith — Prompt Engineering Concepts"
+    url: "https://docs.langchain.com/langsmith/prompt-engineering-concepts"
+  - title: "LangSmith Prompt Management — Mirascope"
+    url: "https://mirascope.com/blog/langsmith-prompt-management"
+  - title: "PromptLayer — Prompt Management for LLMs"
+    url: "https://promptlayer.com/"
 ---
 
-# PE-14-PROMPT-VERSIONING: Prompt Versioning & Management
+## Prompt Versioning & Management
 
-## Introduction
+In production, prompts change frequently — by engineers, product managers, and domain experts. Treating prompts with the same rigor as code (versioning, testing, deployment pipelines) is essential for reliability and collaboration.
 
-Store prompts as artifacts: version, tag and roll back like code. By the end of this lesson you will be able to: Store prompts in version control; Tag production prompt versions; Compare versions side by side; Roll back quickly.
+### Why Git Isn't Enough
 
-## Key Concepts
+Git works for code, but prompts have unique challenges:
+- **Non-technical contributors** (product managers, domain experts) need to edit prompts without navigating PR workflows
+- **Side-by-side comparison** of prompt outputs is hard in a diff view
+- **Playground testing** requires launching the app, not just reading code
+- **Environment separation** (dev/staging/prod) isn't built into Git
 
-### 1. Store prompts in version control
+### Prompt Management Platforms
 
-Target: Store prompts in version control. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+Dedicated platforms solve these problems:
 
-```python
-import hashlib
+**LangSmith Prompt Hub:** Version-control prompts with commits and tags. Pull prompts into code via `client.pull_prompt()`. Provides a visual playground for testing with variables.
 
-content = "system v1"
-print("version:", hashlib.sha256(content.encode()).hexdigest()[:8])
-```
-### 2. Tag production prompt versions
+**Agenta:** Branching, environments, and prompt snippets (reusable components). Integrates with CI/CD pipelines and provides A/B testing built-in.
 
-Target: Tag production prompt versions. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+**PromptLayer:** Request logging, prompt versioning, and team collaboration. Tracks which prompt version produced which output.
 
-```python
-print("prompts live in git, not only in code strings")
-```
-### 3. Compare versions side by side
+### Version Control Strategies
 
-Target: Compare versions side by side. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+**Semantic versioning for prompts:**
+- **Major:** Breaking changes to output format or behavior
+- **Minor:** New capabilities, improved accuracy, added examples
+- **Patch:** Typo fixes, formatting adjustments, minor wording changes
 
-```python
-print("trace which version served every response")
-```
-### 4. Roll back quickly
+**Environment promotion:**
+1. Draft → Testing → Staging → Production
+2. Each promotion requires passing evaluation benchmarks
+3. Rollback capability at every stage
 
-Target: Roll back quickly. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+**Prompt snippets:** Reusable components (safety headers, formatting blocks, example sets) that are shared across prompts. Changes to a snippet propagate to all prompts that use it, preventing drift.
 
-```python
-print("rollback = point the config at the previous hash")
-```
+### Deployment Patterns
 
-## Practice Questions
+**Live prompt fetching:** Apps fetch active prompts via SDK with local caching and async fallbacks. Updates take effect without code deployment.
 
-1. What is the key idea behind "Prompt Versioning & Management"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+**Gateway proxies:** Route LLM calls through a management layer that handles token logging, cost tracking, retries, and automatic version resolution.
 
-## LLM Prompts for Deeper Understanding
+**CI/CD webhooks:** When prompts are edited in a UI, automatically create Git commits or PRs to keep code and prompt definitions in sync.
 
-1. "Explain Prompt Versioning & Management with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Prompt Versioning & Management"
-1. "Provide advanced patterns and performance considerations for Prompt Versioning & Management"
+### Collaboration Workflows
 
-## Key Takeaways
+- **Review process:** Changes to production prompts go through review (like code PRs)
+- **Stakeholder access:** Product managers can edit prompts in a UI without touching code
+- **Audit trail:** Every change is logged with who, when, and why
+- **A/B testing integration:** New prompt versions can be tested against production baselines before full rollout
 
-- Master the core ideas of Prompt Versioning & Management through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+### Common Mistakes
 
-## Further Reading
+- **No versioning:** Hardcoding prompts in application code makes changes risky and slow
+- **No rollback plan:** Always have a way to revert to the previous prompt version
+- **Ignoring non-technical stakeholders:** If only engineers can change prompts, they won't get updated often enough
+- **No evaluation before deployment:** Every prompt change should pass automated tests before reaching production
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+---
+
+*Continue to learn about prompt playgrounds and tooling — the IDE for prompt engineering.*

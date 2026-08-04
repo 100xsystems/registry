@@ -1,117 +1,113 @@
 ---
-{
-  "title": "Prompt Engineering Roadmap",
-  "description": "Synthesize the course into a practice plan: build a prompt system, measure, refine.",
-  "type": "lesson",
-  "order": 21,
-  "duration": "40 min",
-  "difficulty": "advanced",
-  "learning_objectives": [
-    "Design a personal prompt practice plan",
-    "Pick projects that build depth",
-    "Connect to LLM engineering and agents",
-    "Keep refining with evals"
-  ],
-  "knowledge_refs": [
-    "prompt-engineering/pe-20-production-prompting",
-    "generative-ai/genai-04-prompt-engineering",
-    "llm-engineering/llm-17-observability"
-  ],
-  "prerequisites": [
-    "PE-20: Prompt Engineering in Production"
-  ],
-  "references": [
-    {
-      "title": "OpenAI Prompt Engineering Guide",
-      "url": "https://platform.openai.com/docs/guides/prompt-engineering",
-      "description": "Six strategies for reliable prompting from OpenAI."
-    },
-    {
-      "title": "Anthropic Prompt Engineering Docs",
-      "url": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering",
-      "description": "Claude's practical prompt engineering guide."
-    },
-    {
-      "title": "Prompt Engineering Guide (DAIR.AI)",
-      "url": "https://www.promptingguide.ai/",
-      "description": "A broad open-source guide to prompt techniques."
-    },
-    {
-      "title": "CoT: Chain-of-Thought Prompting",
-      "url": "https://arxiv.org/abs/2201.11903",
-      "description": "The paper on reasoning via chain-of-thought prompts."
-    },
-    {
-      "title": "ReAct: Reasoning + Acting",
-      "url": "https://arxiv.org/abs/2210.03629",
-      "description": "Combining reasoning traces with tool actions."
-    }
-  ]
-}
+slug: pe-21-roadmap
+title: "Prompt Engineering Roadmap"
+description: "Career paths, learning progression, certifications, community resources, and the future of prompt engineering."
+order: 21
+tags:
+  - prompt-engineering
+  - roadmap
+  - career
+  - learning
+  - future
+prerequisites: []
+knowledge_refs:
+  - pe-01-what-is-prompt-engineering
+    title: "What Is Prompt Engineering?"
+  - pe-20-production-prompting
+    title: "Prompt Engineering in Production"
+  - llm-01-what-is-llm-engineering
+    title: "What Is LLM Engineering?"
+references:
+  - title: "PE Collective — How to Become a Prompt Engineer in 12 Weeks"
+    url: "https://pecollective.com/blog/how-to-become-prompt-engineer/"
+  - title: "IBM — The 2026 Guide to Prompt Engineering"
+    url: "https://www.ibm.com/think/prompt-engineering"
+  - title: "Coursera — Prompt Engineering for ChatGPT (Vanderbilt)"
+    url: "https://www.coursera.org/learn/prompt-engineering"
+  - title: "DeepLearning.AI — ChatGPT Prompt Engineering for Developers"
+    url: "https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/"
+  - title: "Learn Prompting — Open Source Textbook"
+    url: "https://www.promptingguide.ai/"
 ---
 
-# PE-21-ROADMAP: Prompt Engineering Roadmap
+## Prompt Engineering Roadmap
 
-## Introduction
+Prompt engineering has evolved from an ad-hoc skill into a structured discipline with clear career paths, learning progressions, and a rapidly expanding tool ecosystem.
 
-Synthesize the course into a practice plan: build a prompt system, measure, refine. By the end of this lesson you will be able to: Design a personal prompt practice plan; Pick projects that build depth; Connect to LLM engineering and agents; Keep refining with evals.
+### Career Paths
 
-## Key Concepts
+Prompt engineering skills are now core competencies across hybrid roles:
 
-### 1. Design a personal prompt practice plan
+| Role | Focus | Salary Range (US) |
+|---|---|---|
+| **Prompt Engineer** | Designing and optimizing prompts | $80K–$220K |
+| **AI Interaction Designer** | User-facing AI experiences | $100K–$180K |
+| **LLM Application Developer** | Building apps with prompt engineering | $120K–$250K |
+| **AI Quality Engineer** | Evaluation, testing, red-teaming | $100K–$200K |
+| **AI Product Manager** | Defining AI product strategy | $130K–$250K |
 
-Target: Design a personal prompt practice plan. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+**Entry level (0–1 years):** Master fundamentals, build a portfolio, experiment across models.
 
-```python
-plan = {
-    1: "write a system prompt for a product",
-    2: "build an eval set for it",
-    3: "A/B test two prompt variants",
-    4: "ship with monitoring",
-}
-print(plan)
-```
-### 2. Pick projects that build depth
+**Mid level (1–3 years):** Ship production prompts, build evaluation frameworks, integrate API pipelines.
 
-Target: Pick projects that build depth. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+**Senior level (3+ years):** Prompt architecture, multi-agent orchestration, security guardrails, team leadership.
 
-```python
-print("next: LLM Engineering for RAG and tooling depth")
-```
-### 3. Connect to LLM engineering and agents
+### Learning Progression
 
-Target: Connect to LLM engineering and agents. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+**Weeks 1–2: Foundations**
+- Create accounts on OpenAI, Anthropic, Google AI
+- Read official prompt engineering guides
+- Experiment with zero-shot and few-shot prompting
 
-```python
-print("next: AI Agents for reasoning-and-acting systems")
-```
-### 4. Keep refining with evals
+**Weeks 3–4: Core Techniques**
+- Master chain-of-thought reasoning
+- Learn role prompting and system prompts
+- Practice structured outputs (JSON, XML)
 
-Target: Keep refining with evals. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+**Month 2: Projects**
+- Build a RAG system with proper grounding prompts
+- Create an evaluation dataset and test your prompts
+- Implement prompt chaining for complex workflows
 
-```python
-sources = ["OpenAI guide", "Anthropic docs", "promptingguide.ai"]
-print("follow:", ", ".join(sources))
-```
+**Month 3: Production Skills**
+- Learn Python for API integration
+- Study cost optimization and caching
+- Build a portfolio of prompt engineering projects
 
-## Practice Questions
+### Certifications
 
-1. What is the key idea behind "Prompt Engineering Roadmap"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+Portfolio and practical skills matter more than certifications, but these help with HR screening:
+- **Coursera / Vanderbilt:** Prompt Engineering for ChatGPT
+- **DeepLearning.AI:** ChatGPT Prompt Engineering for Developers (Andrew Ng)
+- **Google Cloud:** Generative AI learning pathways
 
-## LLM Prompts for Deeper Understanding
+### Community Resources
 
-1. "Explain Prompt Engineering Roadmap with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Prompt Engineering Roadmap"
-1. "Provide advanced patterns and performance considerations for Prompt Engineering Roadmap"
+- **Learn Prompting:** Open-source textbook covering fundamentals to advanced topics
+- **PromptHub:** Prompt templates and best practices
+- **PE Collective:** Job boards, salary tracking, community resources
+- **r/PromptEngineering:** Reddit community for discussions and sharing
 
-## Key Takeaways
+### Future Trends
 
-- Master the core ideas of Prompt Engineering Roadmap through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+**Context engineering:** Moving beyond single prompts to dynamic context injection for agents and multi-step workflows.
 
-## Further Reading
+**Multimodal prompting:** Combining text, images, audio, and video in unified prompts.
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+**Automated prompt optimization:** Systems that automatically find the best prompt formulation using DSPy and similar frameworks.
+
+**Agentic architectures:** Prompt engineering for multi-agent systems where AI agents collaborate to solve complex problems.
+
+**Security and alignment:** Increasing focus on safe, aligned, and trustworthy AI systems.
+
+### Your Next Steps
+
+1. **Pick a project.** Build something real — a chatbot, a classifier, a content generator.
+2. **Evaluate rigorously.** Create test cases and measure your prompts systematically.
+3. **Ship to production.** Deploy, monitor, and iterate based on real usage.
+4. **Join the community.** Share what you learn and learn from others.
+5. **Stay current.** The field evolves rapidly. Follow researchers, read papers, experiment constantly.
+
+---
+
+*Congratulations on completing the Prompt Engineering course. You now have the knowledge to design, test, and deploy effective prompts for any application.*
