@@ -1,127 +1,146 @@
 ---
-{
-  "title": "Text Representation: From Tokens to Vectors",
-  "description": "Tokenization, bag-of-words and TF-IDF — how raw text becomes numbers a model can use.",
-  "type": "lesson",
-  "order": 2,
-  "duration": "55 min",
-  "difficulty": "beginner",
-  "learning_objectives": [
-    "Tokenize text into words and subwords",
-    "Build a bag-of-words representation",
-    "Weight terms with TF-IDF",
-    "Explain sparsity and vocabulary growth"
-  ],
-  "knowledge_refs": [
-    "nlp/nlp-01-what-is-nlp",
-    "generative-ai/genai-07-tokenization",
-    "llm-engineering/llm-05-tokenization-and-context"
-  ],
-  "prerequisites": [
-    "NLP-01: What Is NLP?"
-  ],
-  "references": [
-    {
-      "title": "Hugging Face NLP Course",
-      "url": "https://huggingface.co/learn/nlp-course",
-      "description": "The hands-on course for transformers and modern NLP."
-    },
-    {
-      "title": "Speech and Language Processing — Jurafsky & Martin",
-      "url": "https://web.stanford.edu/~jurafsky/slp3/",
-      "description": "The standard textbook for NLP (free draft)."
-    },
-    {
-      "title": "Stanford CS224n",
-      "url": "https://web.stanford.edu/class/cs224n/",
-      "description": "Natural Language Processing with Deep Learning."
-    },
-    {
-      "title": "NLTK Book",
-      "url": "https://www.nltk.org/book/",
-      "description": "Natural Language Processing with Python — classic fundamentals."
-    },
-    {
-      "title": "spaCy Documentation",
-      "url": "https://spacy.io/usage",
-      "description": "Industrial-strength NLP library docs."
-    }
-  ]
-}
+slug: nlp-02-text-representation
+title: "Text Representation: From Tokens to Vectors"
+description: "How to turn text into numbers — one-hot encoding, bag-of-words, TF-IDF, and word embeddings."
+order: 2
+tags:
+  - nlp
+  - text-representation
+  - tf-idf
+  - bag-of-words
+  - embeddings
+prerequisites:
+  - nlp-01-what-is-nlp
+  - nlp-03-text-preprocessing
+references:
+  - title: "Word Embeddings in NLP (GeeksforGeeks)"
+    url: "https://www.geeksforgeeks.org/nlp/word-embeddings-in-nlp/"
+    description: "Comprehensive overview of text vectorization methods"
+  - title: "Bag-of-Words and TF-IDF (Analytics Vidhya)"
+    url: "https://www.analyticsvidhya.com/blog/2020/02/quick-introduction-bag-of-words-bow-tf-idf/"
+    description: "Practical walkthrough of frequency-based representations"
+  - title: "Word Embeddings Guide (TensorFlow)"
+    url: "https://www.tensorflow.org/text/guide/word_embeddings"
+    description: "Official TensorFlow tutorial on word embeddings"
+  - title: "Word Embeddings Tutorial (PyTorch)"
+    url: "https://pytorch.org/tutorials/beginner/nlp/word_embeddings_tutorial.html"
+    description: "PyTorch tutorial on embedding layers"
+  - title: "Text Vectorization Guide (Analytics Vidhya)"
+    url: "https://www.analyticsvidhya.com/blog/2021/06/part-5-step-by-step-guide-to-master-nlp-text-vectorization-approaches/"
+    description: "Step-by-step guide to text vectorization approaches"
+knowledge_refs:
+  - nlp-01-what-is-nlp
+  - nlp-06-word-embeddings
+  - dl-08-pytorch-tensors-and-autograd
 ---
 
-# NLP-02-TEXT-REPRESENTATION: Text Representation: From Tokens to Vectors
+# Text Representation: From Tokens to Vectors
 
-## Introduction
+Computers can't process raw text — they need numbers. Text representation is the process of converting text into numerical vectors that machine learning models can understand.
 
-Tokenization, bag-of-words and TF-IDF — how raw text becomes numbers a model can use. By the end of this lesson you will be able to: Tokenize text into words and subwords; Build a bag-of-words representation; Weight terms with TF-IDF; Explain sparsity and vocabulary growth.
+## The Evolution of Text Representation
 
-## Key Concepts
+```
+One-Hot Encoding → Bag-of-Words → TF-IDF → Word2Vec/GloVe → Contextual Embeddings
+(sparse, no semantics)                                    (dense, contextual)
+```
 
-### 1. Tokenize text into words and subwords
+## One-Hot Encoding
 
-Target: Tokenize text into words and subwords. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+Each word becomes a binary vector of vocabulary size:
+```python
+vocab = {"cat": 0, "dog": 1, "fish": 2}
+# "cat" → [1, 0, 0]
+# "dog" → [0, 1, 0]
+```
 
+**Problem**: No semantic similarity — "cat" and "dog" are equally distant from each other.
+
+## Bag-of-Words (BoW)
+
+Count word frequencies in each document:
 ```python
 from sklearn.feature_extraction.text import CountVectorizer
 
-corpus = ["the cat sat", "the dog ran", "cat and dog"]
-vec = CountVectorizer()
-X = vec.fit_transform(corpus)
-print("vocab:", vec.get_feature_names_out())
-print("matrix:", X.toarray())
+corpus = ["the cat sat", "the dog sat", "the cat chased the dog"]
+vectorizer = CountVectorizer()
+X = vectorizer.fit_transform(corpus)
+print(vectorizer.get_feature_names_out())  # ['cat', 'chased', 'dog', 'sat', 'the']
+print(X.toarray())
+# [[1, 0, 0, 1, 1],
+#  [0, 0, 1, 1, 1],
+#  [1, 1, 1, 1, 2]]
 ```
-### 2. Build a bag-of-words representation
 
-Target: Build a bag-of-words representation. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+**Advantages**: Simple, fast, works well for many tasks
+**Disadvantages**: Ignores word order, no semantics, sparse vectors
+
+## TF-IDF (Term Frequency-Inverse Document Frequency)
+
+Weights words by importance — rare words get higher weight:
+$$\text{TF-IDF}(t, d, D) = \text{TF}(t, d) \times \text{IDF}(t, D)$$
 
 ```python
 from sklearn.feature_extraction.text import TfidfVectorizer
 
-vec = TfidfVectorizer()
-X = vec.fit_transform(corpus)
-print("tfidf:", X.toarray().round(2))
+vectorizer = TfidfVectorizer()
+X = vectorizer.fit_transform(corpus)
+# Rare words like "chased" get higher TF-IDF than common words like "the"
 ```
-### 3. Weight terms with TF-IDF
 
-Target: Weight terms with TF-IDF. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+**How it works:**
+- **TF**: How often does word appear in this document? (frequency)
+- **IDF**: How rare is this word across all documents? (importance)
+- **TF-IDF**: Product of TF and IDF (informative words highlighted)
 
+## N-grams
+
+Capture local word order:
 ```python
-import nltk
-nltk.download("punkt", quiet=True)
-from nltk.tokenize import word_tokenize
+# Unigrams: ["the", "cat", "sat"]
+# Bigrams:  ["the cat", "cat sat"]
+# Trigrams: ["the cat sat"]
 
-print(word_tokenize("Don't stop believing!"))
+vectorizer = TfidfVectorizer(ngram_range=(1, 2))  # unigrams + bigrams
+X = vectorizer.fit_transform(corpus)
 ```
-### 4. Explain sparsity and vocabulary growth
 
-Target: Explain sparsity and vocabulary growth. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+## Word Embeddings
 
+Dense vectors that capture semantic meaning:
 ```python
-from sklearn.feature_extraction.text import CountVectorizer
+from gensim.models import Word2Vec
 
-vec = CountVectorizer(ngram_range=(1, 2))
-print("with bigrams:", vec.fit_transform(corpus).shape[1], "features")
+sentences = [["I", "love", "NLP"], ["NLP", "is", "great"], ["I", "love", "AI"]]
+model = Word2Vec(sentences, vector_size=100, window=5, min_count=1)
+
+# Similar words have similar vectors
+print(model.wv.most_similar("NLP"))  # [('AI', 0.95), ('great', 0.87), ...]
 ```
 
-## Practice Questions
+**Key property**: Similar words are close in vector space.
 
-1. What is the key idea behind "Text Representation: From Tokens to Vectors"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+## Comparison
 
-## LLM Prompts for Deeper Understanding
+| Method | Dimensions | Semantics | Speed | Use Case |
+|---|---|---|---|---|
+| One-Hot | |V| | None | Fast | Simple baselines |
+| BoW | |V| | None | Fast | Text classification |
+| TF-IDF | |V| | None | Fast | Search, classification |
+| Word2Vec | 100-300 | Yes | Medium | Semantic similarity |
+| BERT | 768 | Yes (contextual) | Slow | Modern NLP tasks |
 
-1. "Explain Text Representation: From Tokens to Vectors with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Text Representation: From Tokens to Vectors"
-1. "Provide advanced patterns and performance considerations for Text Representation: From Tokens to Vectors"
+## Practical Tips
 
-## Key Takeaways
-
-- Master the core ideas of Text Representation: From Tokens to Vectors through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+1. **TF-IDF is a strong baseline**: Try it before complex models
+2. **Word embeddings help**: Use pretrained GloVe/Word2Vec
+3. **Contextual embeddings win**: BERT/transformers for modern NLP
+4. **Feature selection**: Remove rare words to reduce dimensionality
+5. **Normalization**: Always lowercase and remove punctuation
 
 ## Further Reading
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+- GeeksforGeeks' word embeddings guide covers all methods
+- Analytics Vidhya's TF-IDF walkthrough is practical
+- TensorFlow and PyTorch tutorials cover embeddings hands-on
+- For modern NLP: contextual embeddings (BERT) have largely replaced static embeddings

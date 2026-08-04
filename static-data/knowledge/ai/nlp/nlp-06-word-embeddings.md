@@ -1,132 +1,198 @@
 ---
-{
-  "title": "Word Embeddings",
-  "description": "Dense vectors that capture meaning: word2vec, GloVe, and using embeddings in models.",
-  "type": "lesson",
-  "order": 6,
-  "duration": "55 min",
-  "difficulty": "advanced",
-  "learning_objectives": [
-    "Explain why dense embeddings beat one-hot vectors",
-    "Describe the word2vec objective",
-    "Load pretrained embeddings",
-    "Use embedding similarity for search and features"
-  ],
-  "knowledge_refs": [
-    "nlp/nlp-05-ngrams-and-language-models",
-    "generative-ai/genai-11-embeddings-and-vector-databases",
-    "llm-engineering/llm-06-embeddings-and-semantic-search"
-  ],
-  "prerequisites": [
-    "NLP-02: Text Representation: From Tokens to Vectors"
-  ],
-  "references": [
-    {
-      "title": "Hugging Face NLP Course",
-      "url": "https://huggingface.co/learn/nlp-course",
-      "description": "The hands-on course for transformers and modern NLP."
-    },
-    {
-      "title": "Speech and Language Processing — Jurafsky & Martin",
-      "url": "https://web.stanford.edu/~jurafsky/slp3/",
-      "description": "The standard textbook for NLP (free draft)."
-    },
-    {
-      "title": "Stanford CS224n",
-      "url": "https://web.stanford.edu/class/cs224n/",
-      "description": "Natural Language Processing with Deep Learning."
-    },
-    {
-      "title": "NLTK Book",
-      "url": "https://www.nltk.org/book/",
-      "description": "Natural Language Processing with Python — classic fundamentals."
-    },
-    {
-      "title": "spaCy Documentation",
-      "url": "https://spacy.io/usage",
-      "description": "Industrial-strength NLP library docs."
-    }
-  ]
-}
+slug: nlp-06-word-embeddings
+title: "Word Embeddings"
+description: "Dense vector representations that capture semantic meaning — Word2Vec, GloVe, FastText, and the distributional hypothesis."
+order: 6
+tags:
+  - nlp
+  - embeddings
+  - word2vec
+  - glove
+  - fasttext
+prerequisites:
+  - nlp-02-text-representation
+  - nlp-05-ngrams-and-language-models
+  - dl-08-pytorch-tensors-and-autograd
+references:
+  - title: "Efficient Estimation of Word Representations (Word2Vec)"
+    url: "https://arxiv.org/abs/1301.3781"
+    description: "Mikolov et al.'s Word2Vec paper introducing CBOW and Skip-gram"
+  - title: "GloVe: Global Vectors for Word Representation"
+    url: "https://nlp.stanford.edu/pubs/glove.pdf"
+    description: "Pennington et al.'s GloVe paper from Stanford NLP"
+  - title: "Enriching Word Vectors with Subword Information (FastText)"
+    url: "https://arxiv.org/abs/1607.04606"
+    description: "Bojanowski et al.'s FastText paper"
+  - title: "Word2Vec Tutorial (The Skip-Gram Model)"
+    url: "http://mccormickml.com/2016/04/19/word2vec-tutorial-the-skip-gram-model/"
+    description: "Chris McCormick's clear Word2Vec tutorial"
+  - title: "Gensim Word2Vec Documentation"
+    url: "https://radimrehurek.com/gensim/models/word2vec.html"
+    description: "Gensim's practical Word2Vec implementation guide"
+knowledge_refs:
+  - nlp-02-text-representation
+  - nlp-05-ngrams-and-language-models
+  - dl-08-pytorch-tensors-and-autograd
 ---
 
-# NLP-06-WORD-EMBEDDINGS: Word Embeddings
+# Word Embeddings
 
-## Introduction
+Word embeddings map words to dense, continuous vectors where semantic similarity is captured by geometric proximity. They're the foundation of modern NLP.
 
-Dense vectors that capture meaning: word2vec, GloVe, and using embeddings in models. By the end of this lesson you will be able to: Explain why dense embeddings beat one-hot vectors; Describe the word2vec objective; Load pretrained embeddings; Use embedding similarity for search and features.
+## The Distributional Hypothesis
 
-## Key Concepts
+"You shall know a word by the company it keeps." — Firth (1957)
 
-### 1. Explain why dense embeddings beat one-hot vectors
+Words that appear in similar contexts have similar meanings:
+- "The **cat** sat on the mat"
+- "The **dog** sat on the mat"
 
-Target: Explain why dense embeddings beat one-hot vectors. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+"cat" and "dog" appear in similar contexts → they should have similar embeddings.
+
+## Word2Vec (Mikolov et al., 2013)
+
+Two architectures for learning embeddings:
+
+### Skip-gram
+Predict context words from a center word:
+```
+Input: "cat" → Predict: ["the", "sat", "on"]
+```
 
 ```python
-import torch
-import torch.nn as nn
+from gensim.models import Word2Vec
 
-emb = nn.Embedding(1000, 128)
-ids = torch.tensor([5, 42, 7])
-print("embedding shape:", emb(ids).shape)
+sentences = [["I", "love", "NLP"], ["NLP", "is", "great"], ["I", "love", "AI"]]
+model = Word2Vec(sentences, vector_size=100, window=5, min_count=1, sg=1)
+
+# Access embeddings
+vector = model.wv["NLP"]  # 100-dimensional vector
+similar = model.wv.most_similar("NLP")  # Similar words
 ```
-### 2. Describe the word2vec objective
 
-Target: Describe the word2vec objective. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
-
-```python
-import numpy as np
-
-# Semantic arithmetic: king - man + woman ≈ queen
-king = np.array([1.0, 0.9])
-man = np.array([1.0, 0.1])
-woman = np.array([0.1, 0.9])
-queen = king - man + woman
-print("target vector:", queen)
+### CBOW (Continuous Bag of Words)
+Predict center word from context:
 ```
-### 3. Load pretrained embeddings
+Input: ["the", "cat", "on"] → Predict: "sat"
+```
 
-Target: Load pretrained embeddings. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+### Skip-gram vs. CBOW
+
+| Aspect | Skip-gram | CBOW |
+|---|---|---|
+| Training speed | Slower | Faster |
+| Rare words | Better | Worse |
+| Large datasets | Better | Better |
+| Small datasets | Better | Worse |
+
+## GloVe (Global Vectors)
+
+Combines global co-occurrence statistics with local context:
+1. Build word-word co-occurrence matrix
+2. Factorize using weighted least squares
+3. Result: dense embeddings capturing global statistics
 
 ```python
 import gensim.downloader as api
 
-# Pretrained GloVe vectors
-wv = api.load("glove-twitter-25")
-print("similar:", wv.most_similar("computer")[:3])
-```
-### 4. Use embedding similarity for search and features
+# Load pretrained GloVe
+glove = api.load("glove-wiki-gigaword-100")
 
-Target: Use embedding similarity for search and features. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+# Similar words
+print(glove.most_similar("king"))
+# [('queen', 0.85), ('prince', 0.77), ('throne', 0.74), ...]
+
+# Word arithmetic
+result = glove["king"] - glove["man"] + glove["woman"]
+print(glove.most_similar(result))
+# [('queen', 0.88), ('throne', 0.76), ...]
+```
+
+## FastText
+
+Extends Word2Vec with subword information:
+```
+"where" → {"<wh", "wh", "h", "he", "ere", "re", "e>"}
+```
+
+**Benefits**:
+- Handles out-of-vocabulary words
+- Works with morphologically rich languages
+- Robust to misspellings
 
 ```python
-import torch.nn as nn
+from gensim.models import FastText
 
-# Embedding + average pooling as a text feature
-emb = nn.Embedding(100, 64)
-tokens = torch.randint(0, 100, (8, 12))
-feat = emb(tokens).mean(dim=1)
-print("doc vector:", feat.shape)
+model = FastText(sentences, vector_size=100, window=5, min_count=1, sg=1)
+# Can get vectors for unseen words
+vector = model.wv["unseenword"]
 ```
 
-## Practice Questions
+## Word Arithmetic
 
-1. What is the key idea behind "Word Embeddings"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+Embeddings capture relationships:
+```python
+# king - man + woman ≈ queen
+glove.most_similar(positive=["king", "woman"], negative=["man"])
 
-## LLM Prompts for Deeper Understanding
+# Paris - France + Italy ≈ Rome
+glove.most_similar(positive=["Paris", "Italy"], negative=["France"])
 
-1. "Explain Word Embeddings with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Word Embeddings"
-1. "Provide advanced patterns and performance considerations for Word Embeddings"
+# walking - walked + swam ≈ swimming
+glove.most_similar(positive=["walking", "swam"], negative=["walked"])
+```
 
-## Key Takeaways
+## Visualization
 
-- Master the core ideas of Word Embeddings through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+```python
+from sklearn.manifold import TSNE
+import matplotlib.pyplot as plt
+
+# Get embeddings for visualization
+words = ["cat", "dog", "fish", "bird", "car", "bus", "train", "plane"]
+vectors = [glove[w] for w in words]
+
+# Reduce to 2D
+tsne = TSNE(n_components=2, random_state=42)
+coords = tsne.fit_transform(vectors)
+
+# Plot
+plt.figure(figsize=(10, 8))
+for i, word in enumerate(words):
+    plt.scatter(coords[i, 0], coords[i, 1])
+    plt.annotate(word, (coords[i, 0], coords[i, 1]))
+plt.show()
+```
+
+## Pretrained Embeddings
+
+| Model | Dimensions | Vocabulary | Source |
+|---|---|---|---|
+| GloVe 6B | 50-300 | 400K | Wikipedia + Gigaword |
+| GloVe 840B | 300 | 2.2M | Common Crawl |
+| Word2Vec Google News | 300 | 3M | Google News |
+| FastText Wiki | 300 | 2M | Wikipedia |
+
+## Static vs. Contextual Embeddings
+
+| Aspect | Static (Word2Vec) | Contextual (BERT) |
+|---|---|---|
+| Vector per word | One fixed vector | Different per context |
+| "bank" (river) | Same vector | Different vectors |
+| Training | Lightweight | Expensive |
+| Use case | Traditional NLP | Modern NLP |
+
+## Practical Tips
+
+1. **Use pretrained embeddings** when you have limited data
+2. **Fine-tune embeddings** for domain-specific tasks
+3. **GloVe 840B** is the best general-purpose static embedding
+4. **FastText** for morphologically rich languages
+5. **For modern NLP**: Use BERT/GPT contextual embeddings instead
 
 ## Further Reading
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+- Mikolov et al.'s Word2Vec paper started the embedding revolution
+- GloVe combined global and local statistics
+- FastText handled OOV words via subword information
+- For contextual embeddings: see the BERT lesson

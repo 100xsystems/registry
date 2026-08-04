@@ -1,132 +1,172 @@
 ---
-{
-  "title": "N-grams & Language Models",
-  "description": "Model word sequences with Markov assumptions, estimate probabilities, and generate text the old way.",
-  "type": "lesson",
-  "order": 5,
-  "duration": "55 min",
-  "difficulty": "intermediate",
-  "learning_objectives": [
-    "Explain n-gram counts and conditional probability",
-    "Build a bigram model",
-    "Smooth probabilities to avoid zeros",
-    "Generate text by sampling from the model"
-  ],
-  "knowledge_refs": [
-    "nlp/nlp-04-regular-expressions",
-    "generative-ai/genai-15-vision-language-models"
-  ],
-  "prerequisites": [
-    "NLP-03: Text Preprocessing"
-  ],
-  "references": [
-    {
-      "title": "Hugging Face NLP Course",
-      "url": "https://huggingface.co/learn/nlp-course",
-      "description": "The hands-on course for transformers and modern NLP."
-    },
-    {
-      "title": "Speech and Language Processing — Jurafsky & Martin",
-      "url": "https://web.stanford.edu/~jurafsky/slp3/",
-      "description": "The standard textbook for NLP (free draft)."
-    },
-    {
-      "title": "Stanford CS224n",
-      "url": "https://web.stanford.edu/class/cs224n/",
-      "description": "Natural Language Processing with Deep Learning."
-    },
-    {
-      "title": "NLTK Book",
-      "url": "https://www.nltk.org/book/",
-      "description": "Natural Language Processing with Python — classic fundamentals."
-    },
-    {
-      "title": "spaCy Documentation",
-      "url": "https://spacy.io/usage",
-      "description": "Industrial-strength NLP library docs."
-    }
-  ]
-}
+slug: nlp-05-ngrams-and-language-models
+title: "N-grams & Language Models"
+description: "Predicting the next word — from simple n-gram counts to neural language models."
+order: 5
+tags:
+  - nlp
+  - n-grams
+  - language-models
+  - perplexity
+  - smoothing
+prerequisites:
+  - nlp-02-text-representation
+  - nlp-03-text-preprocessing
+  - ml-07-logistic-regression
+references:
+  - title: "Speech and Language Processing: N-grams"
+    url: "https://web.stanford.edu/~jurafsky/slp3/4.pdf"
+    description: "Jurafsky & Martin's chapter on n-gram language models"
+  - title: "A Neural Probabilistic Language Model (Bengio et al.)"
+    url: "https://jmlr.org/papers/v3/bengio03a.html"
+    description: "Bengio et al.'s foundational neural language model paper"
+  - title: "CS224n: Language Models"
+    url: "https://web.stanford.edu/class/cs224n/"
+    description: "Stanford's NLP course covering language modeling"
+  - title: "NLTK Language Model Tools"
+    url: "https://www.nltk.org/howto/lanes.html"
+    description: "NLTK's language modeling utilities"
+  - title: "Hugging Face: Language Models"
+    url: "https://huggingface.co/docs/transformers/language_model"
+    description: "Modern transformer-based language models"
+knowledge_refs:
+  - nlp-02-text-representation
+  - dl-17-transformers
+  - genai-03-text-generation-basics
 ---
 
-# NLP-05-NGRAMS-AND-LANGUAGE-MODELS: N-grams & Language Models
+# N-grams & Language Models
 
-## Introduction
+Language models predict the probability of the next word in a sequence. They're the foundation of text generation, speech recognition, and machine translation.
 
-Model word sequences with Markov assumptions, estimate probabilities, and generate text the old way. By the end of this lesson you will be able to: Explain n-gram counts and conditional probability; Build a bigram model; Smooth probabilities to avoid zeros; Generate text by sampling from the model.
+## The Language Modeling Task
 
-## Key Concepts
+Given a sequence of words, predict the next word:
+$$P(w_t | w_1, w_2, \ldots, w_{t-1})$$
 
-### 1. Explain n-gram counts and conditional probability
-
-Target: Explain n-gram counts and conditional probability. Start with the foundations — read the runnable example carefully and trace its output before moving on.
-
-```python
-from collections import Counter
-from nltk import bigrams
-
-tokens = ["i", "love", "nlp", "i", "love", "coffee"]
-counts = Counter(bigrams(tokens))
-print(counts)
+**Example:**
 ```
-### 2. Build a bigram model
-
-Target: Build a bigram model. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
-
-```python
-import numpy as np
-
-# P(w2 | w1) = count(w1 w2) / count(w1)
-count_w1 = 2   # "i" appears twice
-count_w1w2 = 2  # "i love" appears twice
-print("P(love | i) =", count_w1w2 / count_w1)
-```
-### 3. Smooth probabilities to avoid zeros
-
-Target: Smooth probabilities to avoid zeros. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
-
-```python
-import numpy as np
-
-# Add-one (Laplace) smoothing: no zero probabilities
-V = 1000
-smooth = (count_w1w2 + 1) / (count_w1 + V)
-print("smoothed:", round(smooth, 6))
-```
-### 4. Generate text by sampling from the model
-
-Target: Generate text by sampling from the model. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
-
-```python
-import random
-
-bigram = {("i", "love"): ["nlp", "coffee"], ("love", "nlp"): ["a", "and"]}
-start = "i"
-for _ in range(5):
-    nxt = random.choice(bigram.get((start, None), ["nlp"]))
-    print(start, end=" ")
-    start = nxt
-print()
+"The cat sat on the" → P("mat" | "The cat sat on the") = 0.3
+                      → P("floor" | "The cat sat on the") = 0.2
+                      → P("table" | "The cat sat on the") = 0.15
 ```
 
-## Practice Questions
+## N-gram Language Models
 
-1. What is the key idea behind "N-grams & Language Models"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+Approximate the full history with the last $n-1$ words:
+$$P(w_t | w_1, \ldots, w_{t-1}) \approx P(w_t | w_{t-n+1}, \ldots, w_{t-1})$$
 
-## LLM Prompts for Deeper Understanding
+### Unigram Model (n=1)
+Each word independent:
+$$P(w_t) = \frac{\text{count}(w_t)}{\text{total words}}$$
 
-1. "Explain N-grams & Language Models with analogies and real-world examples"
-1. "Show me common mistakes beginners make with N-grams & Language Models"
-1. "Provide advanced patterns and performance considerations for N-grams & Language Models"
+### Bigram Model (n=2)
+Each word depends on previous word:
+$$P(w_t | w_{t-1}) = \frac{\text{count}(w_{t-1}, w_t)}{\text{count}(w_{t-1})}$$
 
-## Key Takeaways
+### Trigram Model (n=3)
+Each word depends on previous two words:
+$$P(w_t | w_{t-2}, w_{t-1}) = \frac{\text{count}(w_{t-2}, w_{t-1}, w_t)}{\text{count}(w_{t-2}, w_{t-1})}$$
 
-- Master the core ideas of N-grams & Language Models through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+```python
+from collections import defaultdict, Counter
+
+def build_bigram_model(corpus):
+    bigrams = defaultdict(Counter)
+    for sentence in corpus:
+        for i in range(len(sentence) - 1):
+            bigrams[sentence[i]][sentence[i+1]] += 1
+    
+    # Convert counts to probabilities
+    model = {}
+    for word, next_words in bigrams.items():
+        total = sum(next_words.values())
+        model[word] = {w: c/total for w, c in next_words.items()}
+    return model
+
+corpus = [["the", "cat", "sat"], ["the", "dog", "ran"], ["the", "cat", "ran"]]
+model = build_bigram_model(corpus)
+print(model["the"])  # {'cat': 0.67, 'dog': 0.33}
+```
+
+## Smoothing
+
+Handle unseen n-grams (zero probabilities):
+
+### Laplace (Add-1) Smoothing
+$$P(w_t | w_{t-1}) = \frac{\text{count}(w_{t-1}, w_t) + 1}{\text{count}(w_{t-1}) + V}$$
+
+where $V$ is vocabulary size.
+
+### Kneser-Ney Smoothing
+Better smoothing using lower-order distributions.
+
+## Perplexity
+
+Measures how well a language model predicts text:
+$$\text{PPL} = 2^{-\frac{1}{N}\sum_{i=1}^{N}\log_2 P(w_i | w_{<i})}$$
+
+**Lower perplexity = better model**. A perplexity of 100 means the model is as confused as if it had to choose uniformly among 100 words.
+
+```python
+import math
+
+def perplexity(model, test_corpus):
+    log_prob = 0
+    n = 0
+    for sentence in test_corpus:
+        for i in range(1, len(sentence)):
+            word = sentence[i]
+            prev = sentence[i-1]
+            prob = model.get(prev, {}).get(word, 1e-10)
+            log_prob += math.log2(prob)
+            n += 1
+    return 2 ** (-log_prob / n)
+```
+
+## Neural Language Models
+
+### Feedforward (Bengio et al., 2003)
+First neural language model:
+- Embed previous $n-1$ words
+- Pass through hidden layers
+- Output probability over vocabulary
+
+### Recurrent (RNN/LSTM)
+Process unlimited context:
+- Maintain hidden state across time steps
+- Can model long-range dependencies
+- But slow (sequential processing)
+
+### Transformer (GPT, BERT)
+Self-attention over full context:
+- Parallel processing
+- Better long-range dependencies
+- State-of-the-art performance
+
+## N-grams vs. Neural Models
+
+| Aspect | N-grams | Neural LMs |
+|---|---|---|
+| Context | Fixed (n-1 words) | Unlimited |
+| Training | Counting | Gradient descent |
+| Parameters | Sparse table | Dense matrices |
+| Generalization | Poor for unseen | Better |
+| Speed | Very fast | Slow |
+
+## Practical Applications
+
+| Application | How LMs Help |
+|---|---|
+| **Autocomplete** | Predict next word |
+| **Spell checking** | Find likely corrections |
+| **Speech recognition** | Disambiguate phonetically similar words |
+| **Machine translation** | Generate fluent output |
+| **Text generation** | Create coherent text |
 
 ## Further Reading
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+- Jurafsky & Martin Chapter 4 is the definitive n-gram reference
+- Bengio et al. (2003) started neural language modeling
+- Stanford CS224n covers modern language models
+- For modern LLMs: see the GenAI course's text generation lessons

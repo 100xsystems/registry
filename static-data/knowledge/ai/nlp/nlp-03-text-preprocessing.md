@@ -1,128 +1,206 @@
 ---
-{
-  "title": "Text Preprocessing",
-  "description": "Lowercasing, stop words, stemming and lemmatization — clean text without destroying meaning.",
-  "type": "lesson",
-  "order": 3,
-  "duration": "50 min",
-  "difficulty": "beginner",
-  "learning_objectives": [
-    "Normalize case and punctuation",
-    "Remove stop words judiciously",
-    "Stem and lemmatize words",
-    "Know when preprocessing hurts modern models"
-  ],
-  "knowledge_refs": [
-    "nlp/nlp-02-text-representation",
-    "generative-ai/genai-03-text-generation-basics"
-  ],
-  "prerequisites": [
-    "NLP-02: Text Representation: From Tokens to Vectors"
-  ],
-  "references": [
-    {
-      "title": "Hugging Face NLP Course",
-      "url": "https://huggingface.co/learn/nlp-course",
-      "description": "The hands-on course for transformers and modern NLP."
-    },
-    {
-      "title": "Speech and Language Processing — Jurafsky & Martin",
-      "url": "https://web.stanford.edu/~jurafsky/slp3/",
-      "description": "The standard textbook for NLP (free draft)."
-    },
-    {
-      "title": "Stanford CS224n",
-      "url": "https://web.stanford.edu/class/cs224n/",
-      "description": "Natural Language Processing with Deep Learning."
-    },
-    {
-      "title": "NLTK Book",
-      "url": "https://www.nltk.org/book/",
-      "description": "Natural Language Processing with Python — classic fundamentals."
-    },
-    {
-      "title": "spaCy Documentation",
-      "url": "https://spacy.io/usage",
-      "description": "Industrial-strength NLP library docs."
-    }
-  ]
-}
+slug: nlp-03-text-preprocessing
+title: "Text Preprocessing"
+description: "Cleaning and normalizing raw text — tokenization, stemming, lemmatization, and Unicode handling."
+order: 3
+tags:
+  - nlp
+  - preprocessing
+  - tokenization
+  - stemming
+  - lemmatization
+prerequisites:
+  - nlp-01-what-is-nlp
+  - nlp-02-text-representation
+references:
+  - title: "NLTK Book: Processing Raw Text"
+    url: "https://www.nltk.org/book/ch03.html"
+    description: "Definitive chapter on raw text processing"
+  - title: "Text Preprocessing in NLP (GeeksforGeeks)"
+    url: "https://www.geeksforgeeks.org/nlp/text-preprocessing-for-nlp-tasks/"
+    description: "Comprehensive preprocessing guide with code"
+  - title: "Text Normalization Guide (Michael Brenndoerfer)"
+    url: "https://mbrenndoerfer.com/writing/text-normalization-unicode-nlp"
+    description: "Deep dive into Unicode normalization forms"
+  - title: "spaCy Tokenization"
+    url: "https://spacy.io/usage/linguistic-features#tokenization"
+    description: "spaCy's linguistic tokenization documentation"
+  - title: "Hugging Face Tokenizers"
+    url: "https://huggingface.co/docs/tokenizers/"
+    description: "Modern tokenization for transformers"
+knowledge_refs:
+  - nlp-01-what-is-nlp
+  - nlp-04-regular-expressions
+  - nlp-02-text-representation
 ---
 
-# NLP-03-TEXT-PREPROCESSING: Text Preprocessing
+# Text Preprocessing
 
-## Introduction
+Raw text from the real world is messy — inconsistent formatting, HTML tags, misspellings, and encoding issues. Preprocessing cleans and normalizes text for downstream NLP tasks.
 
-Lowercasing, stop words, stemming and lemmatization — clean text without destroying meaning. By the end of this lesson you will be able to: Normalize case and punctuation; Remove stop words judiciously; Stem and lemmatize words; Know when preprocessing hurts modern models.
+## The Preprocessing Pipeline
 
-## Key Concepts
+```
+Raw Text → Unicode Normalization → Lowercasing → Tokenization
+→ Stop Word Removal → Stemming/Lemmatization → Clean Text
+```
 
-### 1. Normalize case and punctuation
+## Unicode Normalization
 
-Target: Normalize case and punctuation. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+Resolve encoding inconsistencies:
+```python
+import unicodedata
 
+text = "café"  # Could be "cafe\u0301" or "caf\u00e9"
+
+# NFC: Compose (recommended for storage)
+normalized = unicodedata.normalize('NFC', text)
+
+# NFD: Decompose (useful for accent stripping)
+decomposed = unicodedata.normalize('NFD', text)
+```
+
+## Lowercasing
+
+Reduces vocabulary size:
+```python
+text = "Hello World NLP"
+clean = text.lower()  # "hello world nlp"
+```
+
+**Caveat**: Don't lowercase when capitalization matters (NER, sentiment).
+
+## Tokenization
+
+Split text into meaningful units:
+
+### Word Tokenization
 ```python
 import nltk
-from nltk.corpus import stopwords
-from nltk.tokenize import word_tokenize
+nltk.download('punkt')
 
-nltk.download("stopwords", quiet=True)
-words = [w.lower() for w in word_tokenize("The quick brown fox jumps over the lazy dog")]
-clean = [w for w in words if w not in stopwords.words("english")]
-print(clean)
+# NLTK
+tokens = nltk.word_tokenize("Don't you love NLP?")
+# ["Do", "n't", "you", "love", "NLP", "?"]
+
+# spaCy
+import spacy
+nlp = spacy.load("en_core_web_sm")
+tokens = [token.text for token in nlp("Don't you love NLP?")]
 ```
-### 2. Remove stop words judiciously
 
-Target: Remove stop words judiciously. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+### Sentence Tokenization
+```python
+from nltk.tokenize import sent_tokenize
 
+sentences = sent_tokenize("First sentence. Second sentence.")
+# ["First sentence.", "Second sentence."]
+```
+
+### Subword Tokenization (for modern NLP)
+```python
+from transformers import AutoTokenizer
+
+tokenizer = AutoTokenizer.from_pretrained("bert-base-uncased")
+tokens = tokenizer.tokenize("tokenization is important")
+# ['token', '##ization', 'is', 'important']
+```
+
+## Stop Word Removal
+
+Remove common words that carry little meaning:
+```python
+from nltk.corpus import stopwords
+nltk.download('stopwords')
+
+stop_words = set(stopwords.words('english'))
+tokens = ["I", "love", "NLP", "it", "is", "great"]
+filtered = [t for t in tokens if t.lower() not in stop_words]
+# ["love", "NLP", "great"]
+```
+
+**When NOT to remove stop words**: Sentiment analysis (negation matters), text generation.
+
+## Stemming
+
+Rule-based suffix removal (may produce non-words):
 ```python
 from nltk.stem import PorterStemmer
 
 stemmer = PorterStemmer()
-print([stemmer.stem(w) for w in ["running", "runner", "runs"]])
+print(stemmer.stem("running"))   # "run"
+print(stemmer.stem("better"))    # "better" (not "good")
+print(stemmer.stem("studies"))   # "studi"
 ```
-### 3. Stem and lemmatize words
 
-Target: Stem and lemmatize words. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+## Lemmatization
 
+Dictionary-based reduction (always produces real words):
 ```python
-import nltk
 from nltk.stem import WordNetLemmatizer
-nltk.download("wordnet", quiet=True)
+nltk.download('wordnet')
 
 lemmatizer = WordNetLemmatizer()
-print(lemmatizer.lemmatize("running", pos="v"))
+print(lemmatizer.lemmatize("running", pos='v'))  # "run"
+print(lemmatizer.lemmatize("better", pos='a'))    # "good"
+print(lemmatizer.lemmatize("studies", pos='n'))   # "study"
 ```
-### 4. Know when preprocessing hurts modern models
 
-Target: Know when preprocessing hurts modern models. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+### Stemming vs. Lemmatization
+
+| Aspect | Stemming | Lemmatization |
+|---|---|---|
+| Method | Rule-based suffix removal | Dictionary lookup |
+| Speed | Faster | Slower |
+| Output | May be non-words | Always real words |
+| Example | "studies" → "studi" | "studies" → "study" |
+
+## Complete Preprocessing Pipeline
 
 ```python
 import re
+import nltk
+from nltk.stem import WordNetLemmatizer
+from nltk.corpus import stopwords
 
-raw = "  Hello,   WORLD!!  "
-cleaned = re.sub(r"[^a-zA-Z0-9\s]", "", raw).lower().split()
-print(cleaned)
+def preprocess(text):
+    # 1. Lowercase
+    text = text.lower()
+    
+    # 2. Remove HTML tags
+    text = re.sub(r'<[^>]+>', '', text)
+    
+    # 3. Remove URLs
+    text = re.sub(r'http\S+|www\S+', '', text)
+    
+    # 4. Remove special characters
+    text = re.sub(r'[^a-zA-Z\s]', '', text)
+    
+    # 5. Tokenize
+    tokens = nltk.word_tokenize(text)
+    
+    # 6. Remove stop words
+    stop_words = set(stopwords.words('english'))
+    tokens = [t for t in tokens if t not in stop_words]
+    
+    # 7. Lemmatize
+    lemmatizer = WordNetLemmatizer()
+    tokens = [lemmatizer.lemmatize(t) for t in tokens]
+    
+    return ' '.join(tokens)
 ```
 
-## Practice Questions
+## Practical Tips
 
-1. What is the key idea behind "Text Preprocessing"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
-
-## LLM Prompts for Deeper Understanding
-
-1. "Explain Text Preprocessing with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Text Preprocessing"
-1. "Provide advanced patterns and performance considerations for Text Preprocessing"
-
-## Key Takeaways
-
-- Master the core ideas of Text Preprocessing through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+1. **Don't over-clean**: Keep negation words for sentiment
+2. **Choose lemmatization** over stemming when accuracy matters
+3. **Use spaCy** for production preprocessing
+4. **Subword tokenization** for transformer models
+5. **Preserve original** for debugging and analysis
 
 ## Further Reading
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+- NLTK Book Chapter 3 is the definitive preprocessing reference
+- GeeksforGeeks guide covers all techniques with code
+- Unicode normalization is essential for multilingual NLP
+- For modern NLP: preprocessing is often handled by the tokenizer

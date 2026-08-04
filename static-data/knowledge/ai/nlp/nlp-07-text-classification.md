@@ -1,127 +1,178 @@
 ---
-{
-  "title": "Text Classification",
-  "description": "Spam, topics, intent: logistic regression and linear models on TF-IDF — fast and often enough.",
-  "type": "lesson",
-  "order": 7,
-  "duration": "55 min",
-  "difficulty": "intermediate",
-  "learning_objectives": [
-    "Frame text classification as a supervised task",
-    "Build a TF-IDF + logistic regression pipeline",
-    "Evaluate with precision/recall per class",
-    "Explain when linear models beat deep ones"
-  ],
-  "knowledge_refs": [
-    "nlp/nlp-06-word-embeddings",
-    "computer-vision/cv-05-image-classification",
-    "machine-learning/ml-18-classification-metrics"
-  ],
-  "prerequisites": [
-    "NLP-02: Text Representation: From Tokens to Vectors"
-  ],
-  "references": [
-    {
-      "title": "Hugging Face NLP Course",
-      "url": "https://huggingface.co/learn/nlp-course",
-      "description": "The hands-on course for transformers and modern NLP."
-    },
-    {
-      "title": "Speech and Language Processing — Jurafsky & Martin",
-      "url": "https://web.stanford.edu/~jurafsky/slp3/",
-      "description": "The standard textbook for NLP (free draft)."
-    },
-    {
-      "title": "Stanford CS224n",
-      "url": "https://web.stanford.edu/class/cs224n/",
-      "description": "Natural Language Processing with Deep Learning."
-    },
-    {
-      "title": "NLTK Book",
-      "url": "https://www.nltk.org/book/",
-      "description": "Natural Language Processing with Python — classic fundamentals."
-    },
-    {
-      "title": "spaCy Documentation",
-      "url": "https://spacy.io/usage",
-      "description": "Industrial-strength NLP library docs."
-    }
-  ]
-}
+slug: nlp-07-text-classification
+title: "Text Classification"
+description: "Assigning categories to text — from naive Bayes to transformers, the full spectrum of text classification."
+order: 7
+tags:
+  - nlp
+  - classification
+  - naive-bayes
+  - svm
+  - transformers
+prerequisites:
+  - nlp-06-word-embeddings
+  - nlp-02-text-representation
+  - ml-13-naive-bayes
+references:
+  - title: "Hugging Face: Text Classification"
+    url: "https://huggingface.co/docs/transformers/tasks/sequence_classification"
+    description: "Official guide to fine-tuning transformers for classification"
+  - title: "scikit-learn: Naive Bayes"
+    url: "https://scikit-learn.org/stable/modules/naive_bayes.html"
+    description: "Comprehensive Naive Bayes documentation"
+  - title: "Scikit-Learn: Working With Text Data"
+    url: "https://scikit-learn.org/1.4/tutorial/text_analytics/working_with_text_data.html"
+    description: "Practical text classification tutorial"
+  - title: "Text Classification with CNNs and LSTMs"
+    url: "https://hannibunny.github.io/mlbook/text/02TextClassification.html"
+    description: "Deep learning text classification walkthrough"
+  - title: "Keras: Text Classification with Transformer"
+    url: "https://keras.io/examples/nlp/text_classification_with_transformer/"
+    description: "Building a transformer classifier from scratch"
+knowledge_refs:
+  - nlp-06-word-embeddings
+  - ml-13-naive-bayes
+  - dl-17-transformers
 ---
 
-# NLP-07-TEXT-CLASSIFICATION: Text Classification
+# Text Classification
 
-## Introduction
+Text classification assigns categories to text — spam detection, sentiment analysis, topic categorization, and intent recognition are all text classification tasks.
 
-Spam, topics, intent: logistic regression and linear models on TF-IDF — fast and often enough. By the end of this lesson you will be able to: Frame text classification as a supervised task; Build a TF-IDF + logistic regression pipeline; Evaluate with precision/recall per class; Explain when linear models beat deep ones.
+## The Classification Pipeline
 
-## Key Concepts
+```
+Raw Text → Preprocessing → Feature Extraction → Model → Label
+```
 
-### 1. Frame text classification as a supervised task
+## Classical Approaches
 
-Target: Frame text classification as a supervised task. Start with the foundations — read the runnable example carefully and trace its output before moving on.
-
+### Naive Bayes
+Fast, interpretable baseline:
 ```python
-from sklearn.pipeline import make_pipeline
 from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.linear_model import LogisticRegression
+from sklearn.naive_bayes import MultinomialNB
+from sklearn.pipeline import Pipeline
 
-texts = ["cheap pills now", "free money", "meeting at noon", "lunch tomorrow"]
-y = [1, 1, 0, 0]
-pipe = make_pipeline(TfidfVectorizer(), LogisticRegression())
-pipe.fit(texts, y)
-print("pred:", pipe.predict(["win a free ipad"])[0])
+pipeline = Pipeline([
+    ('tfidf', TfidfVectorizer(max_features=10000)),
+    ('clf', MultinomialNB())
+])
+pipeline.fit(train_texts, train_labels)
+predictions = pipeline.predict(test_texts)
 ```
-### 2. Build a TF-IDF + logistic regression pipeline
 
-Target: Build a TF-IDF + logistic regression pipeline. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+### SVM (Support Vector Machine)
+Often the best classical approach:
+```python
+from sklearn.svm import LinearSVC
+
+pipeline = Pipeline([
+    ('tfidf', TfidfVectorizer(ngram_range=(1, 2))),
+    ('clf', LinearSVC(C=1.0))
+])
+```
+
+## Deep Learning Approaches
+
+### CNN for Text (Kim, 2014)
+1D convolutions capture local n-gram patterns:
+```python
+class TextCNN(nn.Module):
+    def __init__(self, vocab_size, embed_dim, num_classes):
+        super().__init__()
+        self.embedding = nn.Embedding(vocab_size, embed_dim)
+        self.conv1 = nn.Conv1d(embed_dim, 100, kernel_size=3)
+        self.conv2 = nn.Conv1d(embed_dim, 100, kernel_size=4)
+        self.conv3 = nn.Conv1d(embed_dim, 100, kernel_size=5)
+        self.fc = nn.Linear(300, num_classes)
+    
+    def forward(self, x):
+        embeds = self.embedding(x).transpose(1, 2)
+        c1 = F.relu(self.conv1(embeds)).max(dim=2)[0]
+        c2 = F.relu(self.conv2(embeds)).max(dim=2)[0]
+        c3 = F.relu(self.conv3(embeds)).max(dim=2)[0]
+        return self.fc(torch.cat([c1, c2, c3], dim=1))
+```
+
+### LSTM for Text
+Captures sequential context:
+```python
+class TextLSTM(nn.Module):
+    def __init__(self, vocab_size, embed_dim, hidden_dim, num_classes):
+        super().__init__()
+        self.embedding = nn.Embedding(vocab_size, embed_dim)
+        self.lstm = nn.LSTM(embed_dim, hidden_dim, bidirectional=True, batch_first=True)
+        self.fc = nn.Linear(hidden_dim * 2, num_classes)
+    
+    def forward(self, x):
+        embeds = self.embedding(x)
+        output, (hidden, _) = self.lstm(embeds)
+        hidden = torch.cat([hidden[-2], hidden[-1]], dim=1)
+        return self.fc(hidden)
+```
+
+## Transformer-Based Classification (State-of-the-Art)
 
 ```python
-from sklearn.model_selection import cross_val_score
+from transformers import AutoTokenizer, AutoModelForSequenceClassification
 
-scores = cross_val_score(pipe, texts, y, cv=2)
-print("cv accuracy:", scores.mean().round(2))
+model_name = "distilbert-base-uncased"
+tokenizer = AutoTokenizer.from_pretrained(model_name)
+model = AutoModelForSequenceClassification.from_pretrained(model_name, num_labels=2)
+
+# Tokenize
+inputs = tokenizer(text, padding=True, truncation=True, return_tensors="pt")
+
+# Forward pass
+outputs = model(**inputs)
+logits = outputs.logits
+predictions = torch.argmax(logits, dim=-1)
 ```
-### 3. Evaluate with precision/recall per class
 
-Target: Evaluate with precision/recall per class. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
-
+### Fine-Tuning with Hugging Face Trainer
 ```python
-from sklearn.metrics import classification_report
+from transformers import Trainer, TrainingArguments
 
-print(classification_report(y, pipe.predict(texts), target_names=["ham", "spam"]))
+training_args = TrainingArguments(
+    output_dir="./results",
+    num_train_epochs=3,
+    per_device_train_batch_size=16,
+    learning_rate=2e-5,
+    evaluation_strategy="epoch",
+)
+
+trainer = Trainer(
+    model=model,
+    args=training_args,
+    train_dataset=train_dataset,
+    eval_dataset=val_dataset,
+)
+trainer.train()
 ```
-### 4. Explain when linear models beat deep ones
 
-Target: Explain when linear models beat deep ones. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+## Model Comparison
 
-```python
-import numpy as np
+| Model | Speed | Accuracy | Data Needed |
+|---|---|---|---|
+| Naive Bayes | Very fast | Good | Small |
+| SVM | Fast | Very good | Small |
+| CNN | Medium | Good | Medium |
+| LSTM | Slow | Good | Medium |
+| BERT | Slow | Excellent | Small-Medium |
+| GPT | Very slow | Excellent | Minimal |
 
-# Imbalanced data: stratify or weight classes
-from sklearn.utils.class_weight import compute_class_weight
-print("class weights:", compute_class_weight("balanced", classes=np.array([0, 1]), y=np.array(y)))
-```
+## Practical Tips
 
-## Practice Questions
-
-1. What is the key idea behind "Text Classification"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
-
-## LLM Prompts for Deeper Understanding
-
-1. "Explain Text Classification with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Text Classification"
-1. "Provide advanced patterns and performance considerations for Text Classification"
-
-## Key Takeaways
-
-- Master the core ideas of Text Classification through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+1. **Start with TF-IDF + SVM** as baseline
+2. **Try simple models first** before deep learning
+3. **Use pretrained transformers** when accuracy matters
+4. **Data augmentation** helps with small datasets
+5. **Cross-validate** for reliable estimates
 
 ## Further Reading
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+- Hugging Face's text classification guide is the modern standard
+- scikit-learn's text analytics tutorial covers classical approaches
+- Kim (2014) showed CNNs work well for text classification
+- For production: distilbert is fast and accurate

@@ -1,119 +1,118 @@
 ---
-{
-  "title": "What Is NLP?",
-  "description": "The field, the tasks, and the deep-learning revolution that reshaped how machines read language.",
-  "type": "lesson",
-  "order": 1,
-  "duration": "40 min",
-  "difficulty": "beginner",
-  "learning_objectives": [
-    "Define natural language processing and its scope",
-    "List the core NLP tasks",
-    "Contrast rule-based and learned approaches",
-    "Identify modern production NLP use cases"
-  ],
-  "knowledge_refs": [
-    "nlp/nlp-02-text-representation"
-  ],
-  "prerequisites": [
-    "DL-01: What Is Deep Learning?"
-  ],
-  "references": [
-    {
-      "title": "Hugging Face NLP Course",
-      "url": "https://huggingface.co/learn/nlp-course",
-      "description": "The hands-on course for transformers and modern NLP."
-    },
-    {
-      "title": "Speech and Language Processing — Jurafsky & Martin",
-      "url": "https://web.stanford.edu/~jurafsky/slp3/",
-      "description": "The standard textbook for NLP (free draft)."
-    },
-    {
-      "title": "Stanford CS224n",
-      "url": "https://web.stanford.edu/class/cs224n/",
-      "description": "Natural Language Processing with Deep Learning."
-    },
-    {
-      "title": "NLTK Book",
-      "url": "https://www.nltk.org/book/",
-      "description": "Natural Language Processing with Python — classic fundamentals."
-    },
-    {
-      "title": "spaCy Documentation",
-      "url": "https://spacy.io/usage",
-      "description": "Industrial-strength NLP library docs."
-    }
-  ]
-}
+slug: nlp-01-what-is-nlp
+title: "What Is NLP?"
+description: "The field that enables machines to understand, interpret, and generate human language — from rule-based systems to neural language models."
+order: 1
+tags:
+  - nlp
+  - fundamentals
+  - language-models
+prerequisites:
+  - dl-01-what-is-deep-learning
+  - ml-01-what-is-machine-learning
+references:
+  - title: "Speech and Language Processing (Jurafsky & Martin)"
+    url: "https://web.stanford.edu/~jurafsky/slp3/"
+    description: "The authoritative NLP textbook — free online third edition"
+  - title: "Stanford CS224n: NLP with Deep Learning"
+    url: "https://web.stanford.edu/class/cs224n/"
+    description: "Stanford's flagship NLP course"
+  - title: "Hugging Face NLP Course"
+    url: "https://huggingface.co/learn/nlp-course"
+    description: "Practical NLP course with transformers"
+  - title: "NLTK Book: Natural Language Processing with Python"
+    url: "https://www.nltk.org/book/"
+    description: "The classic NLP tutorial with Python"
+  - title: "spaCy Documentation"
+    url: "https://spacy.io/"
+    description: "Production-ready NLP library"
+knowledge_refs:
+  - dl-17-transformers
+  - dl-18-attention-mechanisms
+  - nlp-06-word-embeddings
 ---
 
-# NLP-01-WHAT-IS-NLP: What Is NLP?
+# What Is NLP?
 
-## Introduction
+Natural Language Processing (NLP) is a field of AI that enables machines to understand, interpret, and generate human language. It's one of the most impactful applications of AI — powering search engines, chatbots, translation, and content generation.
 
-The field, the tasks, and the deep-learning revolution that reshaped how machines read language. By the end of this lesson you will be able to: Define natural language processing and its scope; List the core NLP tasks; Contrast rule-based and learned approaches; Identify modern production NLP use cases.
+## The Goal of NLP
 
-## Key Concepts
+Human language is ambiguous, context-dependent, and full of nuance:
+- "I saw her duck" — Did she duck, or did I see her pet duck?
+- "The bank is closed" — River bank or financial bank?
+- Sarcasm, idioms, cultural references
 
-### 1. Define natural language processing and its scope
+NLP aims to bridge the gap between human communication and computer understanding.
 
-Target: Define natural language processing and its scope. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+## Key NLP Tasks
 
-```python
-tasks = {
-    "classification": "spam, sentiment, topic",
-    "extraction": "entities, relations, keywords",
-    "generation": "summaries, translations, dialogue",
-}
-for group, examples in tasks.items():
-    print(f"{group:14} {examples}")
+### Understanding Tasks
+| Task | Description | Example |
+|---|---|---|
+| **Text Classification** | Assign category to text | Spam detection, sentiment |
+| **Named Entity Recognition** | Extract entities from text | "Apple" → ORG |
+| **Sentiment Analysis** | Determine emotional tone | Positive/Negative/Neutral |
+| **Question Answering** | Answer questions from text | "When was Python created?" → "1991" |
+| **Text Summarization** | Condense text to key points | Article → 3-sentence summary |
+
+### Generation Tasks
+| Task | Description | Example |
+|---|---|---|
+| **Text Generation** | Create new text | Story writing, completion |
+| **Machine Translation** | Translate between languages | English → French |
+| **Dialogue Systems** | Conversational AI | Chatbots, assistants |
+| **Text-to-Speech** | Convert text to audio | Screen readers |
+| **Paraphrasing** | Rewrite text differently | Formal → casual |
+
+## A Brief History
+
+| Era | Approach | Example |
+|---|---|---|
+| 1950s-1970s | Rule-based | ELIZA chatbot |
+| 1980s-1990s | Statistical | HMMs, n-grams |
+| 2000s-2013 | Feature engineering | SVMs + handcrafted features |
+| 2013-2017 | Neural embeddings | Word2Vec, GloVe, LSTM |
+| 2017-Present | Transformers | BERT, GPT, T5 |
+
+## The Modern NLP Stack
+
 ```
-### 2. List the core NLP tasks
-
-Target: List the core NLP tasks. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
-
-```python
-import spacy
-
-nlp = spacy.load("en_core_web_sm")
-print("spaCy pipeline:", nlp.pipe_names)
-```
-### 3. Contrast rule-based and learned approaches
-
-Target: Contrast rule-based and learned approaches. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
-
-```python
-apps = ["search", "chatbots", "translators", "voice assistants", "document search"]
-for a in apps:
-    print(f"- {a}")
-```
-### 4. Identify modern production NLP use cases
-
-Target: Identify modern production NLP use cases. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
-
-```python
-print("rule-based: brittle. learned: flexible.")
+Raw Text
+    ↓
+[Tokenization] → Split into tokens
+    ↓
+[Preprocessing] → Clean, normalize
+    ↓
+[Model] → Understand or generate
+    ↓
+[Post-processing] → Format output
 ```
 
-## Practice Questions
+## NLP vs. Other AI Tasks
 
-1. What is the key idea behind "What Is NLP?"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+| Aspect | NLP | Computer Vision | Speech |
+|---|---|---|---|
+| Input | Text sequences | Image pixels | Audio waveforms |
+| Structure | Sequential | Grid | Sequential |
+| Key challenge | Ambiguity | Variation | Noise |
+| Modern approach | Transformers | CNNs/ViTs | Transformers |
 
-## LLM Prompts for Deeper Understanding
+## What You'll Learn in This Course
 
-1. "Explain What Is NLP? with analogies and real-world examples"
-1. "Show me common mistakes beginners make with What Is NLP?"
-1. "Provide advanced patterns and performance considerations for What Is NLP?"
-
-## Key Takeaways
-
-- Master the core ideas of What Is NLP? through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+1. **Text representation**: How to turn text into numbers
+2. **Preprocessing**: Cleaning and normalizing text
+3. **Classical NLP**: Regex, n-grams, TF-IDF
+4. **Word embeddings**: Word2Vec, GloVe, FastText
+5. **Deep learning for NLP**: RNNs, LSTMs, Transformers
+6. **Modern NLP**: BERT, GPT, fine-tuning
+7. **Applications**: Classification, NER, QA, summarization
+8. **Evaluation**: BLEU, ROUGE, perplexity
+9. **Production**: Deploying NLP models
 
 ## Further Reading
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+- Jurafsky & Martin's textbook is the definitive NLP reference
+- Stanford CS224n covers modern neural NLP
+- Hugging Face's course is the practical starting point
+- NLTK and spaCy are the essential NLP libraries
