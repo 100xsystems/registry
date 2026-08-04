@@ -1,124 +1,144 @@
 ---
-{
-  "title": "Vision Transformers (ViT)",
-  "description": "Patch the image into tokens and let attention do the rest — the modern alternative to CNNs.",
-  "type": "lesson",
-  "order": 19,
-  "duration": "55 min",
-  "difficulty": "advanced",
-  "learning_objectives": [
-    "Explain patch embedding",
-    "Add position embeddings to patches",
-    "Use pretrained ViT models",
-    "Compare ViT and CNN trade-offs"
-  ],
-  "knowledge_refs": [
-    "computer-vision/cv-18-3d-vision",
-    "deep-learning/dl-17-transformers",
-    "deep-learning/dl-18-attention-mechanisms"
-  ],
-  "prerequisites": [
-    "DL-17: Transformers"
-  ],
-  "references": [
-    {
-      "title": "OpenCV Documentation",
-      "url": "https://docs.opencv.org/4.x/index.html",
-      "description": "The reference for classic image processing in Python."
-    },
-    {
-      "title": "PyTorch Vision Docs",
-      "url": "https://pytorch.org/vision/stable/index.html",
-      "description": "Datasets, transforms and model zoo for vision."
-    },
-    {
-      "title": "Stanford CS231n",
-      "url": "http://cs231n.stanford.edu/",
-      "description": "The classic university course on CNNs for visual recognition."
-    },
-    {
-      "title": "YOLO Papers & Implementations",
-      "url": "https://docs.ultralytics.com/",
-      "description": "Real-time object detection with YOLOv8 (Ultralytics)."
-    },
-    {
-      "title": "Torchvision Models",
-      "url": "https://pytorch.org/vision/stable/models.html",
-      "description": "Pretrained model catalog for transfer learning."
-    }
-  ]
-}
+slug: cv-19-vision-transformers
+title: "Vision Transformers (ViT)"
+description: "Transformers in computer vision — from ViT to DeiT to Swin, challenging CNN dominance."
+order: 19
+tags:
+  - computer-vision
+  - vision-transformers
+  - vit
+  - swin
+  - deit
+prerequisites:
+  - dl-17-transformers
+  - cv-06-cnns-for-vision
+  - cv-05-image-classification
+references:
+  - title: "An Image is Worth 16x16 Words (ViT)"
+    url: "https://arxiv.org/abs/2010.11929"
+    description: "Dosovitskiy et al.'s Vision Transformer paper"
+  - title: "Training data-efficient image transformers (DeiT)"
+    url: "https://arxiv.org/abs/2012.12877"
+    description: "Touvron et al.'s DeiT — training ViT without large datasets"
+  - title: "Swin Transformer: Hierarchical Vision Transformer"
+    url: "https://arxiv.org/abs/2103.14030"
+    description: "Liu et al.'s Swin Transformer with shifted windows"
+  - title: "PyTorch ViT Implementation"
+    url: "https://pytorch.org/vision/main/models/vision_transformer.html"
+    description: "Official PyTorch ViT models"
+  - title: "Hugging Face ViT Documentation"
+    url: "https://huggingface.co/docs/transformers/model_doc/vit"
+    description: "Hugging Face's ViT model documentation"
+knowledge_refs:
+  - dl-17-transformers
+  - cv-06-cnns-for-vision
+  - dl-18-attention-mechanisms
 ---
 
-# CV-19-VISION-TRANSFORMERS: Vision Transformers (ViT)
+# Vision Transformers (ViT)
 
-## Introduction
+Vision Transformers apply the transformer architecture to images, treating image patches as tokens. They've matched or exceeded CNN performance on many vision tasks.
 
-Patch the image into tokens and let attention do the rest — the modern alternative to CNNs. By the end of this lesson you will be able to: Explain patch embedding; Add position embeddings to patches; Use pretrained ViT models; Compare ViT and CNN trade-offs.
+## How ViT Works
 
-## Key Concepts
-
-### 1. Explain patch embedding
-
-Target: Explain patch embedding. Start with the foundations — read the runnable example carefully and trace its output before moving on.
-
-```python
-import torch
-
-# Image -> sequence of patches
-x = torch.randn(2, 3, 224, 224)
-patches = x.unfold(2, 16, 16).unfold(3, 16, 16)
-print("patch grid:", patches.shape)
-```
-### 2. Add position embeddings to patches
-
-Target: Add position embeddings to patches. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
-
-```python
-import torch.nn as nn
-
-proj = nn.Conv2d(3, 768, kernel_size=16, stride=16)
-tokens = proj(torch.randn(2, 3, 224, 224)).flatten(2).transpose(1, 2)
-print("tokens:", tokens.shape)  # (2, 196, 768)
-```
-### 3. Use pretrained ViT models
-
-Target: Use pretrained ViT models. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
-
-```python
-import torchvision.models as models
-
-vit = models.vit_b_16(weights=models.ViT_B_16_Weights.DEFAULT)
-print(vit)
-```
-### 4. Compare ViT and CNN trade-offs
-
-Target: Compare ViT and CNN trade-offs. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+1. **Split image into patches**: 224×224 image → 16×16 = 196 patches of 16×16
+2. **Linearly embed patches**: Each patch → d-dimensional vector
+3. **Add positional embeddings**: Inject spatial information
+4. **Process through transformer layers**: Self-attention + FFN
+5. **Classify using [CLS] token**: Aggregate information
 
 ```python
 import torch
+from torchvision import models
 
-print("ViT: needs lots of data, excels at scale; CNNs win small-data")
+# Load pretrained ViT
+model = models.vit_b_16(weights=models.ViT_B_16_Weights.IMAGENET1K_V1)
+
+# Input: (B, 3, 224, 224)
+output = model(torch.randn(1, 3, 224, 224))
+# Output: (B, 1000) — class logits
 ```
 
-## Practice Questions
+## Patch Embedding
 
-1. What is the key idea behind "Vision Transformers (ViT)"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+```python
+class PatchEmbedding(nn.Module):
+    def __init__(self, img_size=224, patch_size=16, in_channels=3, embed_dim=768):
+        super().__init__()
+        self.num_patches = (img_size // patch_size) ** 2
+        self.proj = nn.Conv2d(in_channels, embed_dim, 
+                              kernel_size=patch_size, stride=patch_size)
+    
+    def forward(self, x):
+        x = self.proj(x)  # (B, E, H/P, W/P)
+        x = x.flatten(2).transpose(1, 2)  # (B, num_patches, E)
+        return x
+```
 
-## LLM Prompts for Deeper Understanding
+## ViT Variants
 
-1. "Explain Vision Transformers (ViT) with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Vision Transformers (ViT)"
-1. "Provide advanced patterns and performance considerations for Vision Transformers (ViT)"
+| Model | Patches | Layers | Dims | Params | Top-1 |
+|---|---|---|---|---|---|
+| ViT-S/16 | 16×16 | 12 | 384 | 22M | 81% |
+| ViT-B/16 | 16×16 | 12 | 768 | 86M | 84% |
+| ViT-L/16 | 16×16 | 24 | 1024 | 307M | 85% |
+| ViT-H/14 | 14×14 | 32 | 1280 | 632M | 88% |
 
-## Key Takeaways
+## DeiT (Data-efficient Image Transformers)
 
-- Master the core ideas of Vision Transformers (ViT) through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+Training ViT without massive datasets:
+- Knowledge distillation from CNN teacher
+- Strong data augmentation
+- Regularization strategies
+
+```python
+# DeiT adds a distillation token
+# During training: learn from both ground truth and teacher
+# During inference: use distillation token for prediction
+```
+
+## Swin Transformer
+
+Hierarchical transformer with shifted windows:
+- **Window attention**: Local attention within windows (efficient)
+- **Shifted windows**: Cross-window connections
+- **Multi-scale**: Like FPN — detect objects at different scales
+
+```
+Stage 1: 56×56 patches → 96-dim → local attention
+Stage 2: 28×28 patches → 192-dim → shifted window attention
+Stage 3: 14×14 patches → 384-dim → shifted window attention
+Stage 4: 7×7 patches → 768-dim → shifted window attention
+```
+
+## CNN vs. ViT
+
+| Aspect | CNN | ViT |
+|---|---|---|
+|归纳偏置 | 局部性、平移不变性 | 无（需要更多数据） |
+| 大数据 | 表现好 | 表现更好 |
+| 小数据 | 表现好 | 表现差（需要预训练） |
+| 计算 | O(N×K²) | O(N²) — 注意力 |
+| 可解释性 | 特征图 | 注意力图 |
+
+## Hybrid Approaches
+
+Combine CNN feature extraction with transformer processing:
+```
+Image → CNN backbone → Feature maps → Transformer layers → Classification
+```
+
+## Practical Tips
+
+1. **Start with ViT-B/16** for most tasks
+2. **Use pretrained weights** — ViT needs lots of data
+3. **Swin Transformer** for detection/segmentation (multi-scale)
+4. **Data augmentation** is critical for ViT training
+5. **Learning rate warmup** helps ViT training stability
 
 ## Further Reading
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+- ViT paper proved transformers work for vision
+- DeiT showed ViT can be trained without massive data
+- Swin Transformer made transformers practical for dense prediction
+- For video: ViViT extends ViT to temporal dimension

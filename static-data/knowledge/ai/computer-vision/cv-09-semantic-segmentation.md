@@ -1,127 +1,200 @@
 ---
-{
-  "title": "Semantic Segmentation",
-  "description": "Label every pixel: FCNs, U-Net, and the encoder-decoder design for pixel-level tasks.",
-  "type": "lesson",
-  "order": 9,
-  "duration": "55 min",
-  "difficulty": "advanced",
-  "learning_objectives": [
-    "Define semantic segmentation",
-    "Explain encoder-decoder architectures",
-    "Build a U-Net-style model",
-    "Evaluate with pixel accuracy and IoU"
-  ],
-  "knowledge_refs": [
-    "computer-vision/cv-08-object-detection",
-    "llm-engineering/llm-06-embeddings-and-semantic-search"
-  ],
-  "prerequisites": [
-    "CV-08: Object Detection"
-  ],
-  "references": [
-    {
-      "title": "OpenCV Documentation",
-      "url": "https://docs.opencv.org/4.x/index.html",
-      "description": "The reference for classic image processing in Python."
-    },
-    {
-      "title": "PyTorch Vision Docs",
-      "url": "https://pytorch.org/vision/stable/index.html",
-      "description": "Datasets, transforms and model zoo for vision."
-    },
-    {
-      "title": "Stanford CS231n",
-      "url": "http://cs231n.stanford.edu/",
-      "description": "The classic university course on CNNs for visual recognition."
-    },
-    {
-      "title": "YOLO Papers & Implementations",
-      "url": "https://docs.ultralytics.com/",
-      "description": "Real-time object detection with YOLOv8 (Ultralytics)."
-    },
-    {
-      "title": "Torchvision Models",
-      "url": "https://pytorch.org/vision/stable/models.html",
-      "description": "Pretrained model catalog for transfer learning."
-    }
-  ]
-}
+slug: cv-09-semantic-segmentation
+title: "Semantic Segmentation"
+description: "Classifying every pixel in an image — FCN, U-Net, DeepLab, and the mIoU metric."
+order: 9
+tags:
+  - computer-vision
+  - segmentation
+  - u-net
+  - deeplab
+  - fcn
+prerequisites:
+  - cv-06-cnns-for-vision
+  - cv-08-object-detection
+  - dl-12-convolutional-networks
+references:
+  - title: "Fully Convolutional Networks for Semantic Segmentation (Long et al.)"
+    url: "https://arxiv.org/abs/1411.4038"
+    description: "The foundational FCN paper that started semantic segmentation"
+  - title: "U-Net: Convolutional Networks for Biomedical Image Segmentation"
+    url: "https://arxiv.org/abs/1505.04597"
+    description: "Ronneberger et al.'s U-Net paper for medical image segmentation"
+  - title: "DeepLab: Semantic Image Segmentation with Deep Convolutional Nets"
+    url: "https://arxiv.org/abs/1606.00915"
+    description: "Chen et al.'s DeepLab series with atrous convolution"
+  - title: "PyTorch Segmentation Tutorial"
+    url: "https://pytorch.org/tutorials/intermediate/torchvision_tutorial.html"
+    description: "Official PyTorch segmentation tutorial"
+  - title: "MMSegmentation Documentation"
+    url: "https://mmsegmentation.readthedocs.io/"
+    description: "Open-source segmentation toolbox"
+knowledge_refs:
+  - cv-06-cnns-for-vision
+  - cv-08-object-detection
+  - cv-10-instance-segmentation
 ---
 
-# CV-09-SEMANTIC-SEGMENTATION: Semantic Segmentation
+# Semantic Segmentation
 
-## Introduction
+Semantic segmentation classifies **every pixel** in an image into a category — creating a pixel-level map of what's in the scene.
 
-Label every pixel: FCNs, U-Net, and the encoder-decoder design for pixel-level tasks. By the end of this lesson you will be able to: Define semantic segmentation; Explain encoder-decoder architectures; Build a U-Net-style model; Evaluate with pixel accuracy and IoU.
+## Segmentation Output
 
-## Key Concepts
-
-### 1. Define semantic segmentation
-
-Target: Define semantic segmentation. Start with the foundations — read the runnable example carefully and trace its output before moving on.
-
-```python
-import torch
-
-# Input (B, C, H, W) -> output (B, num_classes, H, W)
-x = torch.randn(2, 3, 128, 128)
-logits = torch.randn(2, 5, 128, 128)
-print("per-pixel class logits:", logits.shape)
 ```
-### 2. Explain encoder-decoder architectures
-
-Target: Explain encoder-decoder architectures. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
-
-```python
-import torch.nn as nn
-
-# Encoder-decoder: down then up, with skip connections
-print("U-Net pattern: contract -> expand -> concatenate skips")
-```
-### 3. Build a U-Net-style model
-
-Target: Build a U-Net-style model. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
-
-```python
-import torch
-
-# Pixel accuracy is easy to game; IoU is honest
-pred = torch.randint(0, 2, (256, 256))
-true = torch.zeros(256, 256, dtype=torch.long)
-inter = ((pred == true) & (pred == 1)).sum()
-union = ((pred == 1) | (true == 1)).sum()
-print("IoU:", round(inter.item() / union.item(), 3))
-```
-### 4. Evaluate with pixel accuracy and IoU
-
-Target: Evaluate with pixel accuracy and IoU. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
-
-```python
-from torchvision.models.segmentation import fcn_resnet50
-
-m = fcn_resnet50(weights=None, num_classes=3)
-print(m)
+Input: Street scene image (H×W×3)
+Output: Label map (H×W) where each pixel = class ID
+  0 = background
+  1 = road
+  2 = car
+  3 = person
+  4 = building
+  ...
 ```
 
-## Practice Questions
+## FCN (Fully Convolutional Network)
 
-1. What is the key idea behind "Semantic Segmentation"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+The first successful segmentation CNN — replaces fully connected layers with 1×1 convolutions:
 
-## LLM Prompts for Deeper Understanding
+```
+Input → [Conv layers] → [Upsample] → Pixel predictions
+```
 
-1. "Explain Semantic Segmentation with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Semantic Segmentation"
-1. "Provide advanced patterns and performance considerations for Semantic Segmentation"
+**Upsampling**: Deconvolution (transposed convolution) recovers spatial resolution.
 
-## Key Takeaways
+## U-Net: The Segmentation Workhorse
 
-- Master the core ideas of Semantic Segmentation through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+Encoder-decoder with skip connections:
+
+```
+Encoder (downsampling):
+  [Conv→Conv→Pool] × 4
+  Features: 64→128→256→512→1024
+
+Decoder (upsampling):
+  [Upsample→Concat→Conv→Conv] × 4
+  Skip connections from encoder
+
+Output: Per-pixel class predictions
+```
+
+```python
+class UNet(nn.Module):
+    def __init__(self, in_channels=3, num_classes=21):
+        super().__init__()
+        # Encoder
+        self.enc1 = self._block(in_channels, 64)
+        self.enc2 = self._block(64, 128)
+        self.enc3 = self._block(128, 256)
+        self.enc4 = self._block(256, 512)
+        
+        self.pool = nn.MaxPool2d(2)
+        
+        # Bottleneck
+        self.bottleneck = self._block(512, 1024)
+        
+        # Decoder
+        self.up4 = nn.ConvTranspose2d(1024, 512, 2, stride=2)
+        self.dec4 = self._block(1024, 512)  # 1024 because of skip concat
+        self.up3 = nn.ConvTranspose2d(512, 256, 2, stride=2)
+        self.dec3 = self._block(512, 256)
+        self.up2 = nn.ConvTranspose2d(256, 128, 2, stride=2)
+        self.dec2 = self._block(256, 128)
+        self.up1 = nn.ConvTranspose2d(128, 64, 2, stride=2)
+        self.dec1 = self._block(128, 64)
+        
+        self.out = nn.Conv2d(64, num_classes, 1)
+    
+    def _block(self, in_ch, out_ch):
+        return nn.Sequential(
+            nn.Conv2d(in_ch, out_ch, 3, padding=1),
+            nn.BatchNorm2d(out_ch),
+            nn.ReLU(),
+            nn.Conv2d(out_ch, out_ch, 3, padding=1),
+            nn.BatchNorm2d(out_ch),
+            nn.ReLU(),
+        )
+    
+    def forward(self, x):
+        # Encoder
+        e1 = self.enc1(x)
+        e2 = self.enc2(self.pool(e1))
+        e3 = self.enc3(self.pool(e2))
+        e4 = self.enc4(self.pool(e3))
+        
+        # Bottleneck
+        b = self.bottleneck(self.pool(e4))
+        
+        # Decoder with skip connections
+        d4 = self.dec4(torch.cat([self.up4(b), e4], dim=1))
+        d3 = self.dec3(torch.cat([self.up3(d4), e3], dim=1))
+        d2 = self.dec2(torch.cat([self.up2(d3), e2], dim=1))
+        d1 = self.dec1(torch.cat([self.up1(d2), e1], dim=1))
+        
+        return self.out(d1)
+```
+
+**Why skip connections matter**: They preserve fine spatial details lost during downsampling.
+
+## DeepLab Series
+
+### DeepLab v3+
+Key innovations:
+- **Atrous (dilated) convolution**: Larger receptive field without pooling
+- **ASPP (Atrous Spatial Pyramid Pooling)**: Multi-scale feature extraction
+- **Encoder-decoder structure**: Refines boundaries
+
+```python
+# Atrous convolution: dilated convolution
+dilated_conv = nn.Conv2d(64, 64, 3, padding=2, dilation=2)
+# Same parameters as 5×5 receptive field, but only 3×3 weights
+```
+
+## Evaluation: mIoU
+
+**Intersection over Union (IoU)** per class:
+$$\text{IoU} = \frac{\text{TP}}{\text{TP} + \text{FP} + \text{FN}}$$
+
+**Mean IoU (mIoU)**: Average IoU across all classes.
+
+```python
+def compute_miou(pred, target, num_classes):
+    ious = []
+    for cls in range(num_classes):
+        pred_mask = (pred == cls)
+        target_mask = (target == cls)
+        intersection = (pred_mask & target_mask).sum()
+        union = (pred_mask | target_mask).sum()
+        if union > 0:
+            ious.append(intersection / union)
+    return np.mean(ious)
+```
+
+## Loss Functions for Segmentation
+
+### Cross-Entropy (Pixel-wise)
+$$\mathcal{L} = -\sum_{i} y_i \log(\hat{y}_i)$$
+
+### Dice Loss
+Handles class imbalance:
+$$\mathcal{L} = 1 - \frac{2 \sum_i y_i \hat{y}_i}{\sum_i y_i + \sum_i \hat{y}_i}$$
+
+### Combined Loss
+```python
+criterion = nn.CrossEntropyLoss() + dice_loss  # Common practice
+```
+
+## Practical Tips
+
+1. **Use U-Net** for medical/biomedical segmentation
+2. **Use DeepLab v3+** for general semantic segmentation
+3. **Dice loss** helps with class imbalance
+4. **Data augmentation** is critical ( flips, scales, color jitter)
+5. **Test-time augmentation**: Average predictions over flipped/scaled versions
 
 ## Further Reading
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+- FCN paper started the deep learning segmentation revolution
+- U-Net is the gold standard for biomedical segmentation
+- DeepLab series pushed the state-of-the-art on PASCAL VOC and ADE20K
+- MMSegmentation provides implementations of all major architectures

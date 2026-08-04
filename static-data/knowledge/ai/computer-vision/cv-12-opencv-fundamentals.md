@@ -1,121 +1,181 @@
 ---
-{
-  "title": "OpenCV Fundamentals",
-  "description": "The industrial workhorse: reading, writing, resizing, drawing, and real-time camera capture.",
-  "type": "lesson",
-  "order": 12,
-  "duration": "55 min",
-  "difficulty": "intermediate",
-  "learning_objectives": [
-    "Read and write images with OpenCV",
-    "Resize, crop and rotate images",
-    "Draw boxes and text for visualization",
-    "Capture frames from a webcam"
-  ],
-  "knowledge_refs": [
-    "computer-vision/cv-11-pose-estimation"
-  ],
-  "prerequisites": [
-    "CV-03: Image Processing Fundamentals"
-  ],
-  "references": [
-    {
-      "title": "OpenCV Documentation",
-      "url": "https://docs.opencv.org/4.x/index.html",
-      "description": "The reference for classic image processing in Python."
-    },
-    {
-      "title": "PyTorch Vision Docs",
-      "url": "https://pytorch.org/vision/stable/index.html",
-      "description": "Datasets, transforms and model zoo for vision."
-    },
-    {
-      "title": "Stanford CS231n",
-      "url": "http://cs231n.stanford.edu/",
-      "description": "The classic university course on CNNs for visual recognition."
-    },
-    {
-      "title": "YOLO Papers & Implementations",
-      "url": "https://docs.ultralytics.com/",
-      "description": "Real-time object detection with YOLOv8 (Ultralytics)."
-    },
-    {
-      "title": "Torchvision Models",
-      "url": "https://pytorch.org/vision/stable/models.html",
-      "description": "Pretrained model catalog for transfer learning."
-    }
-  ]
-}
+slug: cv-12-opencv-fundamentals
+title: "OpenCV Fundamentals"
+description: "The essential computer vision library — image I/O, drawing, color conversion, and basic operations."
+order: 12
+tags:
+  - computer-vision
+  - opencv
+  - image-io
+  - drawing
+  - color-conversion
+prerequisites:
+  - cv-02-image-representation
+  - cv-03-image-processing
+  - cv-01-what-is-computer-vision
+references:
+  - title: "OpenCV-Python Tutorials"
+    url: "https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html"
+    description: "Official OpenCV Python tutorials"
+  - title: "LearnOpenCV"
+    url: "https://learnopencv.com/"
+    description: "Comprehensive OpenCV tutorials and guides"
+  - title: "OpenCV Documentation"
+    url: "https://docs.opencv.org/"
+    description: "Official OpenCV documentation"
+  - title: "PyImageSearch OpenCV Guides"
+    url: "https://pyimagesearch.com/opencv-tutorials-guides/"
+    description: "Adrian Rosebrock's practical OpenCV tutorials"
+  - title: "OpenCV GitHub"
+    url: "https://github.com/opencv/opencv"
+    description: "OpenCV source code and examples"
+knowledge_refs:
+  - cv-02-image-representation
+  - cv-03-image-processing
+  - cv-01-what-is-computer-vision
 ---
 
-# CV-12-OPENCV-FUNDAMENTALS: OpenCV Fundamentals
+# OpenCV Fundamentals
 
-## Introduction
+OpenCV (Open Source Computer Vision Library) is the most widely-used CV library. Understanding its core operations is essential for any computer vision practitioner.
 
-The industrial workhorse: reading, writing, resizing, drawing, and real-time camera capture. By the end of this lesson you will be able to: Read and write images with OpenCV; Resize, crop and rotate images; Draw boxes and text for visualization; Capture frames from a webcam.
-
-## Key Concepts
-
-### 1. Read and write images with OpenCV
-
-Target: Read and write images with OpenCV. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+## Image I/O
 
 ```python
 import cv2
+import numpy as np
 
+# Read image (BGR format!)
 img = cv2.imread("photo.jpg")
-print("loaded:", None if img is None else img.shape)
-```
-### 2. Resize, crop and rotate images
+img = cv2.imread("photo.jpg", cv2.IMREAD_GRAYSCALE)  # Grayscale
 
-Target: Resize, crop and rotate images. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+# Write image
+cv2.imwrite("output.jpg", img)
+
+# Display image
+cv2.imshow("Window", img)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+```
+
+**Critical**: OpenCV reads images in **BGR** format, not RGB. Convert before using with Matplotlib/PIL:
+```python
+img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+```
+
+## Drawing Functions
 
 ```python
-import cv2
+# Create blank image
+canvas = np.zeros((512, 512, 3), dtype=np.uint8)
 
-small = cv2.resize(img, (640, 480))
-print("resized:", small.shape)
+# Line
+cv2.line(canvas, (0, 0), (511, 511), (0, 255, 0), 3)
+
+# Rectangle
+cv2.rectangle(canvas, (50, 50), (200, 200), (255, 0, 0), 2)
+
+# Circle
+cv2.circle(canvas, (300, 300), 50, (0, 0, 255), -1)  # -1 = filled
+
+# Put text
+cv2.putText(canvas, "OpenCV", (100, 400), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 255, 255), 2)
 ```
-### 3. Draw boxes and text for visualization
 
-Target: Draw boxes and text for visualization. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+## Color Conversion
 
 ```python
-import cv2
+# BGR to Grayscale
+gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
-# BGR ordering in OpenCV, RGB elsewhere
-print("OpenCV uses BGR; convert with cvtColor")
+# BGR to HSV
+hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
+
+# BGR to RGB
+rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+
+# All conversion codes: cv2.COLOR_<src>2<dst>
+# Common: BGR2GRAY, BGR2HSV, BGR2RGB, GRAY2BGR
 ```
-### 4. Capture frames from a webcam
 
-Target: Capture frames from a webcam. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+## Image Transformations
 
 ```python
-import cv2
+# Resize
+resized = cv2.resize(img, (224, 224))
+resized = cv2.resize(img, None, fx=0.5, fy=0.5)  # Scale by 0.5
 
-# Draw a detection box
-img = cv2.rectangle(img.copy(), (10, 10), (100, 100), (0, 255, 0), 2)
-print("box drawn")
+# Rotate
+M = cv2.getRotationMatrix2D(center=(cols/2, rows/2), angle=45, scale=1)
+rotated = cv2.warpAffine(img, M, (cols, rows))
+
+# Translate
+M = np.float32([[1, 0, 50], [0, 1, 100]])  # Shift right 50, down 100
+translated = cv2.warpAffine(img, M, (cols, rows))
+
+# Flip
+flipped_h = cv2.flip(img, 1)  # Horizontal
+flipped_v = cv2.flip(img, 0)  # Vertical
 ```
 
-## Practice Questions
+## ROI (Region of Interest)
 
-1. What is the key idea behind "OpenCV Fundamentals"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+```python
+# Crop region
+roi = img[100:300, 200:400]  # [y1:y2, x1:x2]
 
-## LLM Prompts for Deeper Understanding
+# Paste region elsewhere
+img[50:250, 100:300] = roi
+```
 
-1. "Explain OpenCV Fundamentals with analogies and real-world examples"
-1. "Show me common mistakes beginners make with OpenCV Fundamentals"
-1. "Provide advanced patterns and performance considerations for OpenCV Fundamentals"
+## Image Arithmetic
 
-## Key Takeaways
+```python
+# Add images (with saturation)
+blended = cv2.addWeighted(img1, 0.7, img2, 0.3, 0)
 
-- Master the core ideas of OpenCV Fundamentals through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+# Bitwise operations (for masks)
+mask = cv2.imread("mask.png", 0)
+result = cv2.bitwise_and(img, img, mask=mask)
+result = cv2.bitwise_or(img, img, mask=mask)
+result = cv2.bitwise_not(img)
+```
+
+## Common Gotchas
+
+| Issue | Solution |
+|---|---|
+| Wrong colors | Convert BGR→RGB for display |
+| Can't show image | Add `cv2.waitKey(0)` |
+| Image too large | Resize before display |
+| Grayscale shape | Use `(H, W)` not `(H, W, 1)` |
+| Write fails | Check path exists |
+
+## Practical Pipeline
+
+```python
+def process_image(path):
+    # Read
+    img = cv2.imread(path)
+    
+    # Convert to RGB for processing
+    rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+    
+    # Convert to grayscale
+    gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+    
+    # Resize
+    resized = cv2.resize(gray, (224, 224))
+    
+    # Normalize
+    normalized = resized.astype(np.float32) / 255.0
+    
+    return normalized
+```
 
 ## Further Reading
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+- OpenCV official tutorials are comprehensive
+- LearnOpenCV provides practical guides
+- PyImageSearch is excellent for beginners
+- For deep learning with OpenCV: use DNN module for inference

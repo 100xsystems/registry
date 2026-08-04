@@ -1,120 +1,204 @@
 ---
-{
-  "title": "Computer Vision Roadmap",
-  "description": "Synthesize the course into a plan: pick a specialization, build portfolio projects, and keep shipping.",
-  "type": "lesson",
-  "order": 21,
-  "duration": "40 min",
-  "difficulty": "advanced",
-  "learning_objectives": [
-    "Choose a vision specialization (detection, segmentation, 3D)",
-    "Plan GPU-backed portfolio projects",
-    "Connect vision to generative AI and multimodal systems",
-    "Keep up with the field responsibly"
-  ],
-  "knowledge_refs": [
-    "computer-vision/cv-20-evaluating-vision-models",
-    "generative-ai/genai-15-vision-language-models",
-    "deep-learning/dl-13-cnn-architectures"
-  ],
-  "prerequisites": [
-    "CV-20: Evaluating Vision Models"
-  ],
-  "references": [
-    {
-      "title": "OpenCV Documentation",
-      "url": "https://docs.opencv.org/4.x/index.html",
-      "description": "The reference for classic image processing in Python."
-    },
-    {
-      "title": "PyTorch Vision Docs",
-      "url": "https://pytorch.org/vision/stable/index.html",
-      "description": "Datasets, transforms and model zoo for vision."
-    },
-    {
-      "title": "Stanford CS231n",
-      "url": "http://cs231n.stanford.edu/",
-      "description": "The classic university course on CNNs for visual recognition."
-    },
-    {
-      "title": "YOLO Papers & Implementations",
-      "url": "https://docs.ultralytics.com/",
-      "description": "Real-time object detection with YOLOv8 (Ultralytics)."
-    },
-    {
-      "title": "Torchvision Models",
-      "url": "https://pytorch.org/vision/stable/models.html",
-      "description": "Pretrained model catalog for transfer learning."
-    }
-  ]
-}
+slug: cv-21-roadmap
+title: "Computer Vision Roadmap"
+description: "Where to go after this course — specializing in detection, segmentation, generative vision, or 3D understanding."
+order: 21
+tags:
+  - computer-vision
+  - roadmap
+  - career
+  - learning-path
+prerequisites:
+  - cv-20-evaluating-vision-models
+  - cv-19-vision-transformers
+references:
+  - title: "CS231n: Deep Learning for Computer Vision"
+    url: "https://cs231n.stanford.edu/"
+    description: "Stanford's foundational CV course"
+  - title: "Papers With Code: Computer Vision"
+    url: "https://paperswithcode.com/area/computer-vision"
+    description: "State-of-the-art results for all CV tasks"
+  - title: "PyTorch Vision Documentation"
+    url: "https://pytorch.org/vision/"
+    description: "Official PyTorch computer vision library"
+  - title: "Hugging Face Vision Models"
+    url: "https://huggingface.co/models?pipeline_tag=image-classification"
+    description: "Hugging Face's vision model hub"
+  - title: "OpenCV Tutorials"
+    url: "https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html"
+    description: "Official OpenCV Python tutorials"
+knowledge_refs:
+  - cv-01-what-is-computer-vision
+  - dl-17-transformers
+  - cv-19-vision-transformers
 ---
 
-# CV-21-ROADMAP: Computer Vision Roadmap
+# Computer Vision Roadmap
 
-## Introduction
+You've covered the fundamentals of computer vision — from image processing to deep learning, from classification to 3D reconstruction. This roadmap shows where to specialize.
 
-Synthesize the course into a plan: pick a specialization, build portfolio projects, and keep shipping. By the end of this lesson you will be able to: Choose a vision specialization (detection, segmentation, 3D); Plan GPU-backed portfolio projects; Connect vision to generative AI and multimodal systems; Keep up with the field responsibly.
+## What You've Learned
 
-## Key Concepts
+By completing this course, you understand:
+- ✅ Image fundamentals (representation, processing, augmentation)
+- ✅ Classification (CNNs, transfer learning, evaluation)
+- ✅ Object detection (YOLO, Faster R-CNN, mAP)
+- ✅ Segmentation (semantic, instance, panoptic)
+- ✅ Pose estimation and face recognition
+- ✅ Classical CV (OpenCV, features, stitching)
+- ✅ Video analysis and tracking
+- ✅ OCR and document AI
+- ✅ 3D vision (depth, NeRFs, point clouds)
+- ✅ Vision Transformers (ViT, Swin)
 
-### 1. Choose a vision specialization (detection, segmentation, 3D)
+## Specialization Tracks
 
-Target: Choose a vision specialization (detection, segmentation, 3D). Start with the foundations — read the runnable example carefully and trace its output before moving on.
+### Track 1: Autonomous Driving
 
-```python
-plan = {
-    1: "reimplement YOLO-style training on a custom dataset",
-    2: "deploy a segmentation model as an API",
-    3: "next: Generative AI for diffusion and VLMs",
-}
-print(plan)
-```
-### 2. Plan GPU-backed portfolio projects
+**Focus**: Understanding and navigating the real world.
 
-Target: Plan GPU-backed portfolio projects. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+**Key tasks:**
+- 3D object detection (LiDAR + camera fusion)
+- Semantic segmentation (drivable area, lanes)
+- Depth estimation (monocular and stereo)
+- Motion prediction (trajectory forecasting)
 
-```python
-projects = ["car damage detection", "plant disease classifier", "document parser"]
-print("portfolio:", ", ".join(projects))
-```
-### 3. Connect vision to generative AI and multimodal systems
+**Key models:**
+- PointPillars, CenterPoint (3D detection)
+- BEVFormer (bird's-eye view)
+- UniAD (unified autonomous driving)
 
-Target: Connect vision to generative AI and multimodal systems. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+**Career paths**: Autonomous driving engineer, robotics perception
 
-```python
-import torch
+### Track 2: Medical Imaging
 
-print("torchvision", torch.__version__)
-print("GPU available:", torch.cuda.is_available())
-```
-### 4. Keep up with the field responsibly
+**Focus**: Analyzing medical scans for diagnosis.
 
-Target: Keep up with the field responsibly. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+**Key tasks:**
+- Tumor segmentation (brain, lung, liver)
+- Disease classification (X-ray, MRI, CT)
+- Organ detection and measurement
+- Surgical planning and navigation
 
-```python
-sources = ["paperswithcode", "CVPR", "Ultralytics docs", "Roboflow blog"]
-print("follow:", ", ".join(sources))
-```
+**Key models:**
+- U-Net and variants (segmentation)
+- nnU-Net (automated segmentation)
+- Medical Foundation Models (MedSAM, BiomedCLIP)
 
-## Practice Questions
+**Career paths**: Medical imaging AI engineer, healthcare AI
 
-1. What is the key idea behind "Computer Vision Roadmap"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+### Track 3: Generative Vision
 
-## LLM Prompts for Deeper Understanding
+**Focus**: Creating visual content with AI.
 
-1. "Explain Computer Vision Roadmap with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Computer Vision Roadmap"
-1. "Provide advanced patterns and performance considerations for Computer Vision Roadmap"
+**Key tasks:**
+- Image generation (diffusion models)
+- Image editing (inpainting, style transfer)
+- Video generation (Sora, Runway)
+- 3D generation (NeRF, Gaussian Splatting)
 
-## Key Takeaways
+**Key models:**
+- Stable Diffusion, DALL-E 3
+- ControlNet, IP-Adapter
+- SVD (Stable Video Diffusion)
 
-- Master the core ideas of Computer Vision Roadmap through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+**Career paths**: Creative AI engineer, visual effects
+
+### Track 4: Robotics Vision
+
+**Focus**: Enabling robots to see and interact.
+
+**Key tasks:**
+- Grasp detection (where to pick objects)
+- 6D pose estimation (object orientation)
+- Scene understanding (what's where)
+- Visual navigation (SLAM)
+
+**Key models:**
+- Foundation Models for robotics
+- Segment Anything (SAM) for robotics
+- 3D vision transformers
+
+**Career paths**: Robotics engineer, perception engineer
+
+### Track 5: Surveillance & Security
+
+**Focus**: Monitoring and understanding scenes.
+
+**Key tasks:**
+- Anomaly detection
+- Activity recognition
+- People counting and tracking
+- License plate recognition
+
+**Career paths**: Security AI engineer, smart city engineer
+
+## Advanced Topics to Explore
+
+### Foundation Models
+- **SAM (Segment Anything)**: Segment anything with prompts
+- **DINOv2**: Self-supervised vision features
+- **CLIP**: Vision-language understanding
+- **Grounding DINO**: Open-vocabulary detection
+
+### Efficient Vision
+- **Model pruning**: Remove redundant parameters
+- **Quantization**: INT8/INT4 inference
+- **Knowledge distillation**: Train small from large
+- **Neural architecture search**: AutoML for vision
+
+### Video Understanding
+- **Action recognition**: SlowFast, TimeSformer
+- **Video object segmentation**: Track objects across frames
+- **Video captioning**: Describe video content
+
+## The Learning Mindset
+
+1. **Build projects**: The best way to learn is by doing
+2. **Read papers**: Follow CVPR, ICCV, ECCV proceedings
+3. **Join communities**: CV Discord servers, Reddit r/computervision
+4. **Contribute to open source**: MMDetection, Detectron2, torchvision
+5. **Stay current**: The field evolves monthly
+
+## Staying Current
+
+| Source | What It Covers |
+|---|---|
+| **Papers With Code** | Latest research and benchmarks |
+| **arXiv cs.CV** | New papers daily |
+| **Twitter/X** | Real-time developments |
+| **CVPR/ICCV/ECCV** | Top conferences |
+| **Hugging Face** | New models and demos |
+
+## Recommended Resources by Level
+
+### Beginner (Start Here)
+- CS231n (Stanford course)
+- OpenCV tutorials (practical skills)
+- PyTorch Vision tutorials (implementation)
+
+### Intermediate
+- Detectron2 / MMDetection (production detection)
+- Papers With Code (track SOTA)
+- Kaggle CV competitions (practice)
+
+### Advanced
+- Papers from top conferences
+- Reproduce papers from scratch
+- Contribute to major open-source projects
+
+## What's Next in This Course
+
+After this roadmap, continue to:
+- **Generative AI** course — image generation, diffusion models
+- **Deep Learning** course — advanced architectures
+- **AI Agents** course — building autonomous systems
+
+Every course builds on the foundations you've established here. The computer vision landscape is vast and evolving rapidly, but you now have the tools to navigate it.
 
 ## Further Reading
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+- CS231n is the definitive course for learning CV
+- Papers With Code tracks progress across all CV tasks
+- PyTorch Vision provides the standard tools
+- For production: OpenCV + ONNX Runtime + TensorRT

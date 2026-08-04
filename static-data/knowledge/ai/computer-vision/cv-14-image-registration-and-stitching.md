@@ -1,123 +1,176 @@
 ---
-{
-  "title": "Image Registration & Stitching",
-  "description": "Combine overlapping images into panoramas and align images across time or sensors.",
-  "type": "lesson",
-  "order": 14,
-  "duration": "55 min",
-  "difficulty": "advanced",
-  "learning_objectives": [
-    "Explain registration as a geometric alignment problem",
-    "Match features across images",
-    "Estimate a homography with RANSAC",
-    "Warp and blend into a panorama"
-  ],
-  "knowledge_refs": [
-    "computer-vision/cv-13-feature-detection"
-  ],
-  "prerequisites": [
-    "CV-13: Feature Detection & Matching"
-  ],
-  "references": [
-    {
-      "title": "OpenCV Documentation",
-      "url": "https://docs.opencv.org/4.x/index.html",
-      "description": "The reference for classic image processing in Python."
-    },
-    {
-      "title": "PyTorch Vision Docs",
-      "url": "https://pytorch.org/vision/stable/index.html",
-      "description": "Datasets, transforms and model zoo for vision."
-    },
-    {
-      "title": "Stanford CS231n",
-      "url": "http://cs231n.stanford.edu/",
-      "description": "The classic university course on CNNs for visual recognition."
-    },
-    {
-      "title": "YOLO Papers & Implementations",
-      "url": "https://docs.ultralytics.com/",
-      "description": "Real-time object detection with YOLOv8 (Ultralytics)."
-    },
-    {
-      "title": "Torchvision Models",
-      "url": "https://pytorch.org/vision/stable/models.html",
-      "description": "Pretrained model catalog for transfer learning."
-    }
-  ]
-}
+slug: cv-14-image-registration-and-stitching
+title: "Image Registration & Stitching"
+description: "Aligning and combining multiple images into panoramas — homography, RANSAC, and seamless blending."
+order: 14
+tags:
+  - computer-vision
+  - registration
+  - stitching
+  - panorama
+  - homography
+prerequisites:
+  - cv-13-feature-detection
+  - cv-12-opencv-fundamentals
+  - cv-03-image-processing
+references:
+  - title: "OpenCV Panorama Stitching Tutorial"
+    url: "https://docs.opencv.org/4.x/da/d1b/tutorial_stitching.html"
+    description: "Official OpenCV stitching tutorial"
+  - title: "Image Stitching with OpenCV and Python"
+    url: "https://pyimagesearch.com/2016/01/11/panorama-with-opencv/"
+    description: "PyImageSearch's practical panorama guide"
+  - title: "Automatic Panoramic Image Stitching (Brown & Lowe)"
+    url: "https://ieeexplore.ieee.org/document/4154845"
+    description: "Brown & Lowe's influential panorama stitching paper"
+  - title: "OpenCV Stitcher API"
+    url: "https://docs.opencv.org/4.x/d3/dfe/classcv_1_1Stitcher.html"
+    description: "OpenCV's built-in stitcher class"
+  - title: "Image Registration Survey"
+    url: "https://ieeexplore.ieee.org/document/5201548"
+    description: "Zitová and Flusser's survey of image registration methods"
+knowledge_refs:
+  - cv-13-feature-detection
+  - cv-12-opencv-fundamentals
+  - cv-03-image-processing
 ---
 
-# CV-14-IMAGE-REGISTRATION-AND-STITCHING: Image Registration & Stitching
+# Image Registration & Stitching
 
-## Introduction
+Image registration aligns multiple images of the same scene. Image stitching combines aligned images into a panorama or larger field of view.
 
-Combine overlapping images into panoramas and align images across time or sensors. By the end of this lesson you will be able to: Explain registration as a geometric alignment problem; Match features across images; Estimate a homography with RANSAC; Warp and blend into a panorama.
+## The Stitching Pipeline
 
-## Key Concepts
+```
+Input: Multiple overlapping images
+    ↓
+[Feature Detection] → Find keypoints in each image
+    ↓
+[Feature Matching] → Match keypoints between image pairs
+    ↓
+[Homography Estimation] → Find transformation between pairs
+    ↓
+[Warping] → Transform images to common coordinate system
+    ↓
+[Blending] → Seamlessly combine warped images
+    ↓
+Output: Panorama / stitched image
+```
 
-### 1. Explain registration as a geometric alignment problem
+## Homography
 
-Target: Explain registration as a geometric alignment problem. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+A 3×3 matrix that maps points from one image to another:
+$$\begin{bmatrix} x' \\ y' \\ 1 \end{bmatrix} = H \begin{bmatrix} x \\ y \\ 1 \end{bmatrix}$$
 
 ```python
 import cv2
+import numpy as np
 
-# RANSAC rejects outlier matches
+# Detect features
+sift = cv2.SIFT_create()
+kp1, des1 = sift.detectAndCompute(img1, None)
+kp2, des2 = sift.detectAndCompute(img2, None)
+
+# Match features
+bf = cv2.BFMatcher()
+matches = bf.knnMatch(des1, des2, k=2)
+
+# Ratio test
+good = [m for m, n in matches if m.distance < 0.75 * n.distance]
+
+# Extract matched points
+src_pts = np.float32([kp1[m.queryIdx].pt for m in good]).reshape(-1, 1, 2)
+dst_pts = np.float32([kp2[m.trainIdx].pt for m in good]).reshape(-1, 1, 2)
+
+# Find homography with RANSAC
 H, mask = cv2.findHomography(src_pts, dst_pts, cv2.RANSAC, 5.0)
-print("inliers:", mask.sum())
 ```
-### 2. Match features across images
 
-Target: Match features across images. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+## RANSAC (Random Sample Consensus)
+
+Robustly estimates homography despite outlier matches:
+1. Randomly select 4 point correspondences
+2. Compute homography from these 4 points
+3. Count inliers (points consistent with H)
+4. Repeat N times, keep best H
 
 ```python
-import cv2
-
-# Warp perspective of image A into image B's plane
-warped = cv2.warpPerspective(img_a, H, (w, h))
-print("warped:", warped.shape)
+H, mask = cv2.findHomography(src_pts, dst_pts, cv2.RANSAC, 5.0)
+# mask indicates which points are inliers
+inliers = mask.ravel().sum()
+print(f"Inliers: {inliers}/{len(good)}")
 ```
-### 3. Estimate a homography with RANSAC
 
-Target: Estimate a homography with RANSAC. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+## Warping and Stitching
 
+### Manual Approach
 ```python
-import cv2
+# Warp img1 to img2's perspective
+h1, w1 = img1.shape[:2]
+h2, w2 = img2.shape[:2]
 
-# Blend seam with feathering to hide edges
-print("blend: weighted average along the seam")
+# Warp img1
+warped1 = cv2.warpPerspective(img1, H, (w1 + w2, max(h1, h2)))
+
+# Place img2 in the panorama
+warped1[0:h2, 0:w2] = img2
 ```
-### 4. Warp and blend into a panorama
 
-Target: Warp and blend into a panorama. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
-
+### OpenCV Stitcher (Automatic)
 ```python
-import cv2
+stitcher = cv2.Stitcher.create(cv2.Stitcher_PANORAMA)
+status, panorama = stitcher.stitch([img1, img2, img3])
 
-stitcher = cv2.Stitcher_create()
-status, pano = stitcher.stitch([img_a, img_b])
-print("stitch status:", status)
+if status == cv2.Stitcher_OK:
+    cv2.imwrite("panorama.jpg", panorama)
+else:
+    print(f"Stitching failed: {status}")
 ```
 
-## Practice Questions
+## Blending Techniques
 
-1. What is the key idea behind "Image Registration & Stitching"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+### Direct Copy
+Simple but creates visible seams.
 
-## LLM Prompts for Deeper Understanding
+### Alpha Blending
+```python
+# Smooth transition in overlap region
+alpha = np.linspace(0, 1, overlap_width).reshape(1, -1, 1)
+blended = alpha * warped1 + (1 - alpha) * warped2
+```
 
-1. "Explain Image Registration & Stitching with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Image Registration & Stitching"
-1. "Provide advanced patterns and performance considerations for Image Registration & Stitching"
+### Multi-Band Blending (Laplacian Pyramid)
+Seamlessly blends at multiple scales — the gold standard.
 
-## Key Takeaways
+## Applications
 
-- Master the core ideas of Image Registration & Stitching through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+| Application | Description |
+|---|---|
+| **Panoramas** | Combine photos into wide-angle views |
+| **Medical imaging** | Align MRI/CT slices |
+| **Satellite imagery** | Mosaic large areas |
+| **360° video** | Stitch fisheye camera outputs |
+| **Document scanning** | Auto-crop and flatten |
+| **Multi-focus** | Combine images with different focus |
+
+## Common Issues
+
+1. **Parallax**: Objects move relative to background — use multi-band blending
+2. **Exposure differences**: Use exposure compensation before blending
+3. **Moving objects**: Ghosting artifacts — detect and remove
+4. **Lens distortion**: Calibrate camera first
+
+## Practical Tips
+
+1. **Use OpenCV Stitcher** for quick panoramas
+2. **Overlap ≥ 30%**: Enough features for reliable matching
+3. **Sort images**: Provide images in left-to-right order
+4. **Use SIFT** for best feature matching
+5. **Check inlier count**: Low inliers = bad matching
 
 ## Further Reading
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+- OpenCV's stitching tutorial covers the full pipeline
+- Brown & Lowe's paper is the foundational panorama stitching work
+- PyImageSearch provides practical step-by-step guides
+- For video stabilization: similar techniques with temporal consistency

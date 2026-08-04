@@ -1,125 +1,171 @@
 ---
-{
-  "title": "Video Analysis & Tracking",
-  "description": "Optical flow, frame differencing, and object tracking across video streams.",
-  "type": "lesson",
-  "order": 15,
-  "duration": "55 min",
-  "difficulty": "advanced",
-  "learning_objectives": [
-    "Compute optical flow between frames",
-    "Detect motion with background subtraction",
-    "Track objects with trackers",
-    "Process video frames in a loop"
-  ],
-  "knowledge_refs": [
-    "computer-vision/cv-14-image-registration-and-stitching",
-    "nlp/nlp-08-sentiment-analysis",
-    "mlops/mlops-06-experiment-tracking"
-  ],
-  "prerequisites": [
-    "CV-12: OpenCV Fundamentals"
-  ],
-  "references": [
-    {
-      "title": "OpenCV Documentation",
-      "url": "https://docs.opencv.org/4.x/index.html",
-      "description": "The reference for classic image processing in Python."
-    },
-    {
-      "title": "PyTorch Vision Docs",
-      "url": "https://pytorch.org/vision/stable/index.html",
-      "description": "Datasets, transforms and model zoo for vision."
-    },
-    {
-      "title": "Stanford CS231n",
-      "url": "http://cs231n.stanford.edu/",
-      "description": "The classic university course on CNNs for visual recognition."
-    },
-    {
-      "title": "YOLO Papers & Implementations",
-      "url": "https://docs.ultralytics.com/",
-      "description": "Real-time object detection with YOLOv8 (Ultralytics)."
-    },
-    {
-      "title": "Torchvision Models",
-      "url": "https://pytorch.org/vision/stable/models.html",
-      "description": "Pretrained model catalog for transfer learning."
-    }
-  ]
-}
+slug: cv-15-video-analysis
+title: "Video Analysis & Tracking"
+description: "Processing video streams — object tracking, action recognition, and real-time video analysis with OpenCV."
+order: 15
+tags:
+  - computer-vision
+  - video
+  - tracking
+  - action-recognition
+  - optical-flow
+prerequisites:
+  - cv-08-object-detection
+  - cv-11-pose-estimation
+  - cv-12-opencv-fundamentals
+references:
+  - title: "OpenCV Video Analysis"
+    url: "https://docs.opencv.org/4.x/d4/d27/tutorial_py_video_background_subtraction.html"
+    description: "Official OpenCV video processing tutorials"
+  - title: "DeepSORT: Simple Online and Realtime Tracking"
+    url: "https://arxiv.org/abs/1703.07402"
+    description: "Wojke et al.'s DeepSORT multi-object tracker"
+  - title: "ByteTrack: Multi-Object Tracking by Associating Every Detection"
+    url: "https://arxiv.org/abs/2110.02033"
+    description: "Zhang et al.'s ByteTrack for robust MOT"
+  - title: "MediaPipe Holistic"
+    url: "https://ai.google.dev/edge/mediapipe/solutions/vision/holistic_landmarker"
+    description: "Google's combined face, pose, and hand landmark detection"
+  - title: "PyPose: Pose Estimation Library"
+    url: "https://pypose.org/"
+    description: "PyTorch-based library for pose estimation and tracking"
+knowledge_refs:
+  - cv-08-object-detection
+  - cv-11-pose-estimation
+  - cv-12-opencv-fundamentals
 ---
 
-# CV-15-VIDEO-ANALYSIS: Video Analysis & Tracking
+# Video Analysis & Tracking
 
-## Introduction
+Video analysis extends single-image CV to temporal sequences — tracking objects across frames, recognizing actions, and understanding motion.
 
-Optical flow, frame differencing, and object tracking across video streams. By the end of this lesson you will be able to: Compute optical flow between frames; Detect motion with background subtraction; Track objects with trackers; Process video frames in a loop.
-
-## Key Concepts
-
-### 1. Compute optical flow between frames
-
-Target: Compute optical flow between frames. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+## Reading Video with OpenCV
 
 ```python
 import cv2
 
-cap = cv2.VideoCapture(0)
-ok, frame = cap.read()
-print("frame:", frame.shape if ok else None)
+cap = cv2.VideoCapture("video.mp4")
+
+while cap.isOpened():
+    ret, frame = cap.read()
+    if not ret:
+        break
+    
+    # Process frame
+    processed = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+    
+    # Display
+    cv2.imshow("Video", processed)
+    if cv2.waitKey(1) & 0xFF == ord('q'):
+        break
+
+cap.release()
+cv2.destroyAllWindows()
 ```
-### 2. Detect motion with background subtraction
 
-Target: Detect motion with background subtraction. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+## Object Tracking
 
+### Detection + Tracking Pipeline
+```
+Frame → Detector → Bounding Boxes → Tracker → Tracked IDs
+```
+
+### DeepSORT
+Multi-object tracking with deep appearance features:
 ```python
-import cv2
+from deep_sort_realtime.deepsort_tracker import DeepSort
 
-# Sparse optical flow (Lucas-Kanade)
-flow = cv2.calcOpticalFlowFarneback(prev, cur, None, 0.5, 3, 15, 3, 5, 1.2, 0)
-print("dense flow:", flow.shape)
+tracker = DeepSort(max_age=30, n_init=3)
+
+while True:
+    ret, frame = cap.read()
+    
+    # Detect objects
+    detections = detector(frame)
+    
+    # Update tracker
+    tracks = tracker.update_tracks(detections, frame=frame)
+    
+    for track in tracks:
+        if track.is_confirmed():
+            bbox = track.to_ltrb()
+            track_id = track.track_id
+            cv2.rectangle(frame, (int(bbox[0]), int(bbox[1])), 
+                         (int(bbox[2]), int(bbox[3])), (0, 255, 0), 2)
+            cv2.putText(frame, f"ID: {track_id}", 
+                       (int(bbox[0]), int(bbox[1])-10), 
+                       cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
 ```
-### 3. Track objects with trackers
 
-Target: Track objects with trackers. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+## Optical Flow
 
+Tracks pixel motion between frames:
+
+### Lucas-Kanade (Sparse)
+Track specific features:
 ```python
-import cv2
+# Parameters for Shi-Tomasi corner detection
+feature_params = dict(maxCorners=100, qualityLevel=0.3, minDistance=7)
+lk_params = dict(winSize=(15, 15), maxLevel=2,
+                 criteria=(cv2.TERM_CRITERIA_EPS | cv2.TERM_CRITERIA_COUNT, 10, 0.03))
 
-subtractor = cv2.createBackgroundSubtractorMOG2()
-fg = subtractor.apply(frame)
-print("foreground mask unique:", set(fg.flatten().tolist()))
+# Detect features to track
+old_gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+p0 = cv2.goodFeaturesToTrack(old_gray, mask=None, **feature_params)
+
+# Track features
+new_gray = cv2.cvtColor(new_frame, cv2.COLOR_BGR2GRAY)
+p1, st, err = cv2.calcOpticalFlowPyrLK(old_gray, new_gray, p0, None, **lk_params)
 ```
-### 4. Process video frames in a loop
 
-Target: Process video frames in a loop. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
-
+### Farneback (Dense)
+Compute flow for every pixel:
 ```python
-import cv2
-
-tracker = cv2.TrackerKCF_create()
-print("tracker initialized; update per frame")
+flow = cv2.calcOpticalFlowFarneback(prev_gray, curr_gray, None, 0.5, 3, 15, 3, 5, 1.2, 0)
 ```
 
-## Practice Questions
+## Action Recognition
 
-1. What is the key idea behind "Video Analysis & Tracking"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+### Two-Stream Networks
+- **Spatial stream**: Single frame classification
+- **Temporal stream**: Optical flow classification
+- **Fusion**: Combine both streams
 
-## LLM Prompts for Deeper Understanding
+### 3D CNNs
+Process video directly as spatio-temporal volumes:
+```python
+# SlowFast Networks
+# Slow pathway: low frame rate, high resolution
+# Fast pathway: high frame rate, low resolution
+```
 
-1. "Explain Video Analysis & Tracking with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Video Analysis & Tracking"
-1. "Provide advanced patterns and performance considerations for Video Analysis & Tracking"
+### Video Transformers
+- TimeSformer: Divided space-time attention
+- ViViT: Video Vision Transformer
 
-## Key Takeaways
+## Background Subtraction
 
-- Master the core ideas of Video Analysis & Tracking through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+Detect moving objects by modeling background:
+```python
+bg_subtractor = cv2.createBackgroundSubtractorMOG2(history=500, varThreshold=50)
+
+while True:
+    ret, frame = cap.read()
+    mask = bg_subtractor.apply(frame)
+    cv2.imshow("Background Subtraction", mask)
+```
+
+## Practical Tips
+
+1. **Use YOLO + DeepSORT** for real-time multi-object tracking
+2. **Process every Nth frame** for speed (reduce frame rate)
+3. **Resize frames** before detection
+4. **Use GPU** for real-time processing
+5. **Temporal smoothing** prevents ID switching
 
 ## Further Reading
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+- OpenCV video tutorials cover basic video I/O
+- DeepSORT is the standard for multi-object tracking
+- ByteTrack improved MOT by using every detection
+- For action recognition: SlowFast and TimeSformer are state-of-the-art

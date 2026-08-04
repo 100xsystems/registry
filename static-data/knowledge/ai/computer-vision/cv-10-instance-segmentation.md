@@ -1,127 +1,179 @@
 ---
-{
-  "title": "Instance Segmentation",
-  "description": "Separate each object, not just each class: Mask R-CNN and the mask-head idea.",
-  "type": "lesson",
-  "order": 10,
-  "duration": "55 min",
-  "difficulty": "advanced",
-  "learning_objectives": [
-    "Distinguish semantic from instance segmentation",
-    "Explain the Mask R-CNN two-stage design",
-    "Load a pretrained instance segmentation model",
-    "Evaluate masks with mask IoU"
-  ],
-  "knowledge_refs": [
-    "computer-vision/cv-09-semantic-segmentation"
-  ],
-  "prerequisites": [
-    "CV-09: Semantic Segmentation"
-  ],
-  "references": [
-    {
-      "title": "OpenCV Documentation",
-      "url": "https://docs.opencv.org/4.x/index.html",
-      "description": "The reference for classic image processing in Python."
-    },
-    {
-      "title": "PyTorch Vision Docs",
-      "url": "https://pytorch.org/vision/stable/index.html",
-      "description": "Datasets, transforms and model zoo for vision."
-    },
-    {
-      "title": "Stanford CS231n",
-      "url": "http://cs231n.stanford.edu/",
-      "description": "The classic university course on CNNs for visual recognition."
-    },
-    {
-      "title": "YOLO Papers & Implementations",
-      "url": "https://docs.ultralytics.com/",
-      "description": "Real-time object detection with YOLOv8 (Ultralytics)."
-    },
-    {
-      "title": "Torchvision Models",
-      "url": "https://pytorch.org/vision/stable/models.html",
-      "description": "Pretrained model catalog for transfer learning."
-    }
-  ]
-}
+slug: cv-10-instance-segmentation
+title: "Instance Segmentation"
+description: "Detecting individual object instances and their pixel masks — Mask R-CNN, SOLO, and panoptic segmentation."
+order: 10
+tags:
+  - computer-vision
+  - instance-segmentation
+  - mask-rcnn
+  - panoptic
+  - coco-metrics
+prerequisites:
+  - cv-08-object-detection
+  - cv-09-semantic-segmentation
+  - cv-06-cnns-for-vision
+references:
+  - title: "Mask R-CNN (He et al., ICCV 2017)"
+    url: "https://arxiv.org/abs/1703.06870"
+    description: "He et al.'s Mask R-CNN paper — the foundation of instance segmentation"
+  - title: "SOLO: Segmenting Objects by Locations"
+    url: "https://arxiv.org/abs/1912.04488"
+    description: "Wang et al.'s SOLO — direct single-stage instance segmentation"
+  - title: "Panoptic Segmentation (Kirillov et al.)"
+    url: "https://arxiv.org/abs/1801.00868"
+    description: "Kirillov et al.'s panoptic segmentation unifying semantic + instance"
+  - title: "Detectron2 Documentation"
+    url: "https://detectron2.readthedocs.io/"
+    description: "Meta's detection framework with Mask R-CNN implementation"
+  - title: "COCO Evaluation Metrics"
+    url: "https://cocodataset.org/#detection-eval"
+    description: "Official COCO detection and segmentation evaluation"
+knowledge_refs:
+  - cv-08-object-detection
+  - cv-09-semantic-segmentation
+  - cv-06-cnns-for-vision
 ---
 
-# CV-10-INSTANCE-SEGMENTATION: Instance Segmentation
+# Instance Segmentation
 
-## Introduction
+Instance segmentation combines object detection and semantic segmentation — it detects individual object instances AND predicts their pixel-level masks.
 
-Separate each object, not just each class: Mask R-CNN and the mask-head idea. By the end of this lesson you will be able to: Distinguish semantic from instance segmentation; Explain the Mask R-CNN two-stage design; Load a pretrained instance segmentation model; Evaluate masks with mask IoU.
+## Semantic vs. Instance vs. Panoptic
 
-## Key Concepts
+| Task | What It Does | Example |
+|---|---|---|
+| **Semantic** | Classify every pixel | All "car" pixels labeled the same |
+| **Instance** | Detect + segment each object | Each car gets a separate mask |
+| **Panoptic** | Both semantic + instance | Things (instances) + Stuff (regions) |
 
-### 1. Distinguish semantic from instance segmentation
+## Mask R-CNN
 
-Target: Distinguish semantic from instance segmentation. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+Extends Faster R-CNN with a mask prediction branch:
+
+```
+Image → Backbone (ResNet+FPN) → Feature Maps
+    ↓
+Region Proposal Network (RPN) → Proposals
+    ↓
+RoIAlign → Fixed-size features (no quantization!)
+    ↓
+┌─────────────────────────────┐
+│  Classification Head        │ → Class label
+│  Bounding Box Head          │ → Box coordinates
+│  Mask Head (FCN)            │ → Binary mask per class
+└─────────────────────────────┘
+```
+
+### RoIAlign (Key Innovation)
+Replaces RoIPool with bilinear interpolation — eliminates quantization error for pixel-accurate masks.
 
 ```python
+import torchvision
+
+model = torchvision.models.detection.maskrcnn_resnet50_fpn(pretrained=True)
+model.eval()
+
+predictions = model(images)
+# predictions[i]['masks'] — (N, 1, H, W) binary masks
+# predictions[i]['boxes'] — (N, 4) bounding boxes
+# predictions[i]['labels'] — (N,) class labels
+# predictions[i]['scores'] — (N,) confidence scores
+```
+
+## SOLO (Segmenting Objects by Locations)
+
+Single-stage instance segmentation — no region proposals:
+
+```
+Image → Backbone → Feature Pyramid
+    ↓
+┌──────────────────────┐
+│  Category Branch      │ → Class prediction per grid cell
+│  Mask Branch          │ → Instance mask per grid cell
+└──────────────────────┘
+```
+
+**Key idea**: Divide image into S×S grid. Each cell responsible for objects whose center falls within it.
+
+## Panoptic Segmentation
+
+Unifies semantic (stuff) and instance (things) segmentation:
+
+**Things**: Countable objects (cars, persons, dogs)
+**Stuff**: Uncountable regions (sky, road, grass)
+
+```
+Panoptic Quality (PQ) = Segmentation Quality (SQ) × Recognition Quality (RQ)
+```
+
+```python
+from detectron2.engine import DefaultPredictor
+from detectron2.config import get_cfg
+
+cfg = get_cfg()
+cfg.merge_from_file("COCO-PanopticSegmentation/panoptic_fpn_R_101_3x.yaml")
+cfg.MODEL.WEIGHTS = "model_final_c10459.pkl"
+predictor = DefaultPredictor(cfg)
+
+outputs = predictor(image)
+# outputs["panoptic_seg"] — (H, W) tensor with segment IDs
+# outputs["segments_info"] — list of segment metadata
+```
+
+## COCO Evaluation Metrics
+
+### For Detection/Instance Segmentation
+| Metric | Description |
+|---|---|
+| **AP** | mAP@0.5:0.95 (main metric) |
+| **AP50** | mAP at IoU=0.5 |
+| **AP75** | mAP at IoU=0.75 (strict) |
+| **APs/APm/APl** | AP for small/medium/large objects |
+
+### For Panoptic Segmentation
+| Metric | Description |
+|---|---|
+| **PQ** | Panoptic Quality (main metric) |
+| **SQ** | Segmentation Quality (IoU of matched segments) |
+| **RQ** | Recognition Quality (F1 of matching) |
+
+## Training Tips
+
+1. **Use FPN**: Multi-scale features are essential
+2. **RoIAlign > RoIPool**: Always use RoIAlign for masks
+3. **Loss balance**: Classification + Box + Mask losses need weighting
+4. **Data augmentation**: Horizontal flips, scale jitter
+5. **COCO-style augmentation**: Copy-paste augmentation helps significantly
+
+## Practical Usage
+
+```python
+# Using torchvision for inference
+import torchvision
 from torchvision.models.detection import maskrcnn_resnet50_fpn
 
-m = maskrcnn_resnet50_fpn(weights=None, num_classes=91)
-print("mask r-cnn ready")
+model = maskrcnn_resnet50_fpn(pretrained=True)
+model.eval()
+
+with torch.no_grad():
+    predictions = model([image_tensor])
+
+# Process results
+for pred in predictions:
+    masks = pred['masks'] > 0.5  # Binarize
+    boxes = pred['boxes']
+    labels = pred['labels']
+    scores = pred['scores']
+    
+    # Filter by confidence
+    keep = scores > 0.5
+    masks, boxes, labels, scores = masks[keep], boxes[keep], labels[keep], scores[keep]
 ```
-### 2. Explain the Mask R-CNN two-stage design
-
-Target: Explain the Mask R-CNN two-stage design. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
-
-```python
-import torch
-
-# Output: boxes, labels, scores, masks per instance
-out = {"boxes": torch.zeros(3, 4), "masks": torch.zeros(3, 1, 32, 32)}
-print("per-instance masks:", out["masks"].shape)
-```
-### 3. Load a pretrained instance segmentation model
-
-Target: Load a pretrained instance segmentation model. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
-
-```python
-import torch
-
-# Panoptic: semantic + instance merged into one label per pixel
-print("panoptic segmentation unifies both tasks")
-```
-### 4. Evaluate masks with mask IoU
-
-Target: Evaluate masks with mask IoU. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
-
-```python
-import torch
-
-def mask_iou(a, b):
-    inter = (a & b).sum()
-    union = (a | b).sum()
-    return inter / union
-
-a = torch.tensor([[True, True], [False, False]])
-b = torch.tensor([[True, False], [False, False]])
-print("mask IoU:", round(mask_iou(a, b).item(), 2))
-```
-
-## Practice Questions
-
-1. What is the key idea behind "Instance Segmentation"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
-
-## LLM Prompts for Deeper Understanding
-
-1. "Explain Instance Segmentation with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Instance Segmentation"
-1. "Provide advanced patterns and performance considerations for Instance Segmentation"
-
-## Key Takeaways
-
-- Master the core ideas of Instance Segmentation through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
 
 ## Further Reading
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+- Mask R-CNN is the foundational architecture for instance segmentation
+- SOLO showed single-stage instance segmentation is viable
+- Panoptic segmentation provides the complete scene understanding
+- Detectron2 is the production framework for all these tasks

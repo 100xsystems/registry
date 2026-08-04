@@ -1,127 +1,170 @@
 ---
-{
-  "title": "Face Detection & Recognition",
-  "description": "Detect faces, embed them into vectors, and recognize identity — and respect the ethics of it.",
-  "type": "lesson",
-  "order": 16,
-  "duration": "55 min",
-  "difficulty": "advanced",
-  "learning_objectives": [
-    "Detect faces with cascades or deep detectors",
-    "Explain face embeddings",
-    "Compare identities with cosine similarity",
-    "Discuss privacy and bias considerations"
-  ],
-  "knowledge_refs": [
-    "computer-vision/cv-15-video-analysis",
-    "nlp/nlp-09-named-entity-recognition",
-    "mlops/mlops-14-monitoring-and-drift"
-  ],
-  "prerequisites": [
-    "CV-07: Transfer Learning for Vision"
-  ],
-  "references": [
-    {
-      "title": "OpenCV Documentation",
-      "url": "https://docs.opencv.org/4.x/index.html",
-      "description": "The reference for classic image processing in Python."
-    },
-    {
-      "title": "PyTorch Vision Docs",
-      "url": "https://pytorch.org/vision/stable/index.html",
-      "description": "Datasets, transforms and model zoo for vision."
-    },
-    {
-      "title": "Stanford CS231n",
-      "url": "http://cs231n.stanford.edu/",
-      "description": "The classic university course on CNNs for visual recognition."
-    },
-    {
-      "title": "YOLO Papers & Implementations",
-      "url": "https://docs.ultralytics.com/",
-      "description": "Real-time object detection with YOLOv8 (Ultralytics)."
-    },
-    {
-      "title": "Torchvision Models",
-      "url": "https://pytorch.org/vision/stable/models.html",
-      "description": "Pretrained model catalog for transfer learning."
-    }
-  ]
-}
+slug: cv-16-face-recognition
+title: "Face Detection & Recognition"
+description: "Detecting, analyzing, and recognizing faces — from Haar cascades to deep learning-based face recognition."
+order: 16
+tags:
+  - computer-vision
+  - face-detection
+  - face-recognition
+  - facial-analysis
+  - arcface
+prerequisites:
+  - cv-06-cnns-for-vision
+  - cv-08-object-detection
+  - cv-02-image-representation
+references:
+  - title: "FaceNet: A Unified Embedding for Face Recognition"
+    url: "https://arxiv.org/abs/1503.03832"
+    description: "Google's FaceNet paper using triplet loss for face recognition"
+  - title: "ArcFace: Additive Angular Margin Loss"
+    url: "https://arxiv.org/abs/1801.07698"
+    description: "Deng et al.'s ArcFace paper for state-of-the-art face recognition"
+  - title: "OpenCV Face Detection"
+    url: "https://docs.opencv.org/4.x/db/d28/tutorial_cascade_classifier.html"
+    description: "Official OpenCV face detection tutorial"
+  - title: "face_recognition Library"
+    url: "https://github.com/ageitgey/face_recognition"
+    description: "Simple face recognition library using dlib"
+  - title: "InsightFace"
+    url: "https://github.com/deepinsight/insightface"
+    description: "State-of-the-art face analysis toolkit"
+knowledge_refs:
+  - cv-08-object-detection
+  - cv-06-cnns-for-vision
+  - cv-11-pose-estimation
 ---
 
-# CV-16-FACE-RECOGNITION: Face Detection & Recognition
+# Face Detection & Recognition
 
-## Introduction
+Face detection locates faces in images. Face recognition identifies who the face belongs to. Face analysis extracts attributes (age, expression, landmarks).
 
-Detect faces, embed them into vectors, and recognize identity — and respect the ethics of it. By the end of this lesson you will be able to: Detect faces with cascades or deep detectors; Explain face embeddings; Compare identities with cosine similarity; Discuss privacy and bias considerations.
+## Face Detection
 
-## Key Concepts
-
-### 1. Detect faces with cascades or deep detectors
-
-Target: Detect faces with cascades or deep detectors. Start with the foundations — read the runnable example carefully and trace its output before moving on.
-
+### Haar Cascades (Classical)
+Fast but less accurate:
 ```python
-import cv2
-
-cascade = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_frontalface_default.xml")
-faces = cascade.detectMultiScale(gray, scaleFactor=1.1, minNeighbors=5)
-print("faces found:", len(faces))
-```
-### 2. Explain face embeddings
-
-Target: Explain face embeddings. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
-
-```python
-import numpy as np
-
-def cosine_sim(a, b):
-    return np.dot(a, b) / (np.linalg.norm(a) * np.linalg.norm(b))
-
-a = np.array([1.0, 0.0])
-b = np.array([0.95, 0.05])
-print("similarity:", round(cosine_sim(a, b), 3))
-```
-### 3. Compare identities with cosine similarity
-
-Target: Compare identities with cosine similarity. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
-
-```python
-import torch
-
-# Face embedding: model outputs a fixed-size vector per face
-embedding = torch.randn(512)
-print("embedding dim:", embedding.shape)
-```
-### 4. Discuss privacy and bias considerations
-
-Target: Discuss privacy and bias considerations. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
-
-```python
-ethics = ["consent", "bias across demographics", "surveillance risk", "retention limits"]
-for e in ethics:
-    print(f"- {e}")
+face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
+faces = face_cascade.detectMultiScale(gray, scaleFactor=1.1, minNeighbors=5)
+for (x, y, w, h) in faces:
+    cv2.rectangle(img, (x, y), (x+w, y+h), (255, 0, 0), 2)
 ```
 
-## Practice Questions
+### MTCNN (Deep Learning)
+Multi-task Cascaded CNN — detects faces + landmarks:
+```python
+from mtcnn import MTCNN
 
-1. What is the key idea behind "Face Detection & Recognition"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+detector = MTCNN()
+results = detector.detect_faces(img)
+for face in results:
+    bbox = face['box']
+    landmarks = face['keypoints']
+```
 
-## LLM Prompts for Deeper Understanding
+### RetinaFace
+State-of-the-art face detector:
+```python
+from retinaface import RetinaFace
+faces = RetinaFace.detect_faces(img)
+```
 
-1. "Explain Face Detection & Recognition with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Face Detection & Recognition"
-1. "Provide advanced patterns and performance considerations for Face Detection & Recognition"
+## Face Recognition Pipeline
 
-## Key Takeaways
+```
+Input Image → Face Detection → Face Alignment → Embedding → Matching
+```
 
-- Master the core ideas of Face Detection & Recognition through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+### Step 1: Face Detection
+Locate face bounding box.
+
+### Step 2: Face Alignment
+Align face using landmarks (eyes, nose, mouth):
+```python
+# Align face based on eye positions
+def align_face(img, left_eye, right_eye):
+    # Compute angle between eyes
+    dy = right_eye[1] - left_eye[1]
+    dx = right_eye[0] - left_eye[0]
+    angle = np.degrees(np.arctan2(dy, dx))
+    
+    # Rotate to align eyes horizontally
+    center = ((left_eye[0] + right_eye[0]) // 2,
+              (left_eye[1] + right_eye[1]) // 2)
+    M = cv2.getRotationMatrix2D(center, angle, 1.0)
+    aligned = cv2.warpAffine(img, M, (img.shape[1], img.shape[0]))
+    return aligned
+```
+
+### Step 3: Embedding
+Convert face to a fixed-size embedding vector:
+```python
+import face_recognition
+
+# Get face encoding
+face_image = face_recognition.load_image_file("person.jpg")
+face_encoding = face_recognition.face_encodings(face_image)[0]
+# Returns 128-d vector
+```
+
+### Step 4: Matching
+Compare embeddings using distance metrics:
+```python
+# Compare two faces
+distance = face_recognition.face_distance([known_encoding], unknown_encoding)
+if distance < 0.6:
+    print("Match!")
+```
+
+## FaceNet and ArcFace
+
+### FaceNet (Google)
+- Triplet loss: anchor, positive, negative
+- Maps faces to 128-d embedding space
+- Same person → close embeddings; different → far
+
+### ArcFace
+- Additive angular margin loss
+- State-of-the-art accuracy on LFW, MegaFace
+- Used in most modern face recognition systems
+
+## Face Analysis
+
+### Facial Landmarks
+```python
+import mediapipe as mp
+
+mp_face_mesh = mp.solutions.face_mesh
+face_mesh = mp_face_mesh.FaceMesh()
+
+results = face_mesh.process(frame_rgb)
+# 468 face landmarks
+```
+
+### Attributes
+- **Age estimation**: Predict age range
+- **Expression recognition**: Happy, sad, angry, etc.
+- **Gender classification**: Male/female
+- **Head pose estimation**: Pitch, yaw, roll
+
+## Practical Tips
+
+1. **Use RetinaFace** for detection (most accurate)
+2. **Use InsightFace** for recognition (state-of-the-art)
+3. **Always align faces** before embedding
+4. **Threshold matters**: 0.6 is standard for face_recognition
+5. **GPU acceleration**: Essential for real-time face recognition
+
+## Ethical Considerations
+
+- **Privacy**: Face recognition raises privacy concerns
+- **Bias**: Models may perform differently across demographics
+- **Consent**: Always get consent before collecting face data
+- **Regulation**: Many jurisdictions regulate face recognition use
 
 ## Further Reading
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+- FaceNet paper introduced the triplet loss paradigm
+- ArcFace improved face recognition with angular margins
+- InsightFace provides state-of-the-art implementations
+- face_recognition library is the easiest to use

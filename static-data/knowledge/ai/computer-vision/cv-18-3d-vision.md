@@ -1,129 +1,167 @@
 ---
-{
-  "title": "3D Vision",
-  "description": "Depth, point clouds and stereo: how cameras recover the third dimension.",
-  "type": "lesson",
-  "order": 18,
-  "duration": "55 min",
-  "difficulty": "advanced",
-  "learning_objectives": [
-    "Explain depth from stereo disparity",
-    "Read depth maps and point clouds",
-    "Use camera intrinsics for projection",
-    "Explore LiDAR fusion"
-  ],
-  "knowledge_refs": [
-    "computer-vision/cv-17-ocr-and-document-ai",
-    "generative-ai/genai-15-vision-language-models",
-    "deep-learning/dl-13-cnn-architectures"
-  ],
-  "prerequisites": [
-    "CV-13: Feature Detection & Matching"
-  ],
-  "references": [
-    {
-      "title": "OpenCV Documentation",
-      "url": "https://docs.opencv.org/4.x/index.html",
-      "description": "The reference for classic image processing in Python."
-    },
-    {
-      "title": "PyTorch Vision Docs",
-      "url": "https://pytorch.org/vision/stable/index.html",
-      "description": "Datasets, transforms and model zoo for vision."
-    },
-    {
-      "title": "Stanford CS231n",
-      "url": "http://cs231n.stanford.edu/",
-      "description": "The classic university course on CNNs for visual recognition."
-    },
-    {
-      "title": "YOLO Papers & Implementations",
-      "url": "https://docs.ultralytics.com/",
-      "description": "Real-time object detection with YOLOv8 (Ultralytics)."
-    },
-    {
-      "title": "Torchvision Models",
-      "url": "https://pytorch.org/vision/stable/models.html",
-      "description": "Pretrained model catalog for transfer learning."
-    }
-  ]
-}
+slug: cv-18-3d-vision
+title: "3D Vision"
+description: "Understanding the third dimension — depth estimation, point clouds, NeRFs, and 3D reconstruction from images."
+order: 18
+tags:
+  - computer-vision
+  - 3d-vision
+  - depth-estimation
+  - point-clouds
+  - nerf
+prerequisites:
+  - cv-06-cnns-for-vision
+  - cv-12-opencv-fundamentals
+  - dl-17-transformers
+references:
+  - title: "Monodepth2: Self-Supervised Monocular Depth Estimation"
+    url: "https://arxiv.org/abs/1806.01260"
+    description: "Godard et al.'s self-supervised depth estimation paper"
+  - title: "NeRF: Representing Scenes as Neural Radiance Fields"
+    url: "https://arxiv.org/abs/2003.08934"
+    description: "Mildenhall et al.'s NeRF paper for novel view synthesis"
+  - title: "PointNet: Deep Learning on Point Sets"
+    url: "https://arxiv.org/abs/1612.00593"
+    description: "Qi et al.'s foundational paper for point cloud processing"
+  - title: "Open3D Documentation"
+    url: "http://www.open3d.org/docs/"
+    description: "Open3D library for 3D data processing"
+  - title: "Depth Anything: Unleashing the Power of Large-Scale Unlabeled Data"
+    url: "https://arxiv.org/abs/2401.10893"
+    description: "Yang et al.'s foundation model for monocular depth estimation"
+knowledge_refs:
+  - cv-06-cnns-for-vision
+  - cv-12-opencv-fundamentals
+  - dl-17-transformers
 ---
 
-# CV-18-3D-VISION: 3D Vision
+# 3D Vision
 
-## Introduction
+3D vision recovers the third dimension from 2D images — estimating depth, reconstructing 3D scenes, and understanding spatial relationships.
 
-Depth, point clouds and stereo: how cameras recover the third dimension. By the end of this lesson you will be able to: Explain depth from stereo disparity; Read depth maps and point clouds; Use camera intrinsics for projection; Explore LiDAR fusion.
+## Key Tasks
 
-## Key Concepts
+### Monocular Depth Estimation
+Predict depth from a single image:
+```python
+import torch
+from transformers import pipeline
 
-### 1. Explain depth from stereo disparity
+depth_pipe = pipeline("depth-estimation", model="depth-anything/Depth-Anything-V2-Small")
+result = depth_pipe("photo.jpg")
+depth_map = result["depth"]  # H×W depth values
+```
 
-Target: Explain depth from stereo disparity. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+### Stereo Depth Estimation
+Compute depth from two images (left + right):
+- Disparity = horizontal shift between matching pixels
+- Depth = baseline × focal_length / disparity
 
+### LiDAR / RGB-D
+Direct depth sensors provide accurate 3D data.
+
+## Point Clouds
+
+3D data represented as collections of (x, y, z) points:
 ```python
 import numpy as np
 
-# Disparity: closer objects shift more between left/right
-focal, baseline = 500.0, 0.12
-disparity = 20.0
-depth = focal * baseline / disparity
-print("depth (m):", round(depth, 2))
-```
-### 2. Read depth maps and point clouds
+# Simple point cloud: (N, 3)
+points = np.random.randn(10000, 3)
 
-Target: Read depth maps and point clouds. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+# With colors: (N, 6) — xyz + rgb
+points_with_color = np.hstack([points, np.random.randint(0, 255, (10000, 3))])
+```
+
+### PointNet Architecture
+Processes unordered point sets directly:
+```python
+# PointNet: Per-point features → Global feature → Classification
+class PointNet(nn.Module):
+    def __init__(self, num_classes=40):
+        super().__init__()
+        self.mlp = nn.Sequential(
+            nn.Linear(3, 64), nn.ReLU(),
+            nn.Linear(64, 128), nn.ReLU(),
+            nn.Linear(128, 1024)
+        )
+        self.classifier = nn.Sequential(
+            nn.Linear(1024, 512), nn.ReLU(),
+            nn.Linear(512, 256), nn.ReLU(),
+            nn.Linear(256, num_classes)
+        )
+    
+    def forward(self, x):
+        features = self.mlp(x)  # (B, N, 1024)
+        global_feat = features.max(dim=1)[0]  # (B, 1024)
+        return self.classifier(global_feat)
+```
+
+## NeRF (Neural Radiance Fields)
+
+Represent 3D scenes as neural networks:
+- Input: (x, y, z, θ, φ) — position + viewing direction
+- Output: (r, g, b, σ) — color + density
+- Render novel views via volume rendering
 
 ```python
-import numpy as np
-
-# Project 3D point to pixel with intrinsics
-K = np.array([[500, 0, 320], [0, 500, 240], [0, 0, 1]])
-pt3d = np.array([1.0, 2.0, 5.0])
-pix = K @ pt3d / pt3d[2]
-print("pixel:", pix[:2].round(1))
+# Simplified NeRF concept
+def nerf(position, direction):
+    # MLP maps 3D position to color and density
+    features = mlp(position)
+    r, g, b, sigma = features
+    return rgb, density
 ```
-### 3. Use camera intrinsics for projection
 
-Target: Use camera intrinsics for projection. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+### NeRF Applications
+- Novel view synthesis from few photos
+- 3D scene reconstruction
+- Virtual reality content creation
+- Digital twins
 
+## 3D Reconstruction
+
+### Multi-View Stereo (MVS)
+Reconstruct 3D from multiple images:
+1. Detect features in each image
+2. Match features across views
+3. Triangulate 3D points
+4. Build dense point cloud / mesh
+
+### Structure from Motion (SfM)
+Estimate camera poses + 3D points:
 ```python
-import open3d as o3d
-
-pcd = o3d.geometry.PointCloud()
-print("point cloud object ready")
-```
-### 4. Explore LiDAR fusion
-
-Target: Explore LiDAR fusion. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
-
-```python
-import numpy as np
-
-# Depth maps as 2D arrays of distances
-depth = np.zeros((240, 320))
-print("depth map:", depth.shape)
+# OpenCV SfM
+points4d = cv2.triangulatePoints(proj_matrix1, proj_matrix2, points1, points2)
+points3d = points4d[:3] / points4d[3]  # Convert to Cartesian
 ```
 
-## Practice Questions
+### SLAM (Simultaneous Localization and Mapping)
+Real-time 3D mapping while tracking camera pose.
 
-1. What is the key idea behind "3D Vision"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+## Libraries and Tools
 
-## LLM Prompts for Deeper Understanding
+| Library | Purpose |
+|---|---|
+| **Open3D** | Point cloud processing, visualization |
+| **PyTorch3D** | Differentiable 3D operations |
+| **trimesh** | Mesh processing |
+| **Open3D** | 3D reconstruction pipeline |
 
-1. "Explain 3D Vision with analogies and real-world examples"
-1. "Show me common mistakes beginners make with 3D Vision"
-1. "Provide advanced patterns and performance considerations for 3D Vision"
+## Applications
 
-## Key Takeaways
-
-- Master the core ideas of 3D Vision through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+| Application | Technology |
+|---|---|
+| **Autonomous driving** | LiDAR + depth estimation |
+| **AR/VR** | 3D reconstruction, SLAM |
+| **Robotics** | 3D perception, grasping |
+| **Medical imaging** | 3D organ reconstruction |
+| **Cultural heritage** | 3D scanning of artifacts |
+| **Construction** | Building information modeling |
 
 ## Further Reading
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+- Depth Anything is the current best for monocular depth
+- NeRF revolutionized novel view synthesis
+- PointNet established deep learning on point clouds
+- Open3D provides the essential 3D processing toolkit

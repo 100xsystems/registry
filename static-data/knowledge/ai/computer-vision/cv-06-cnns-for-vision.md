@@ -1,127 +1,173 @@
 ---
-{
-  "title": "CNNs for Vision",
-  "description": "Architecture patterns that win on images: receptive fields, pooling, and depth.",
-  "type": "lesson",
-  "order": 6,
-  "duration": "55 min",
-  "difficulty": "intermediate",
-  "learning_objectives": [
-    "Explain receptive fields",
-    "Stack conv-pool blocks deliberately",
-    "Use batch normalization",
-    "Tune for compute-bounded devices"
-  ],
-  "knowledge_refs": [
-    "computer-vision/cv-05-image-classification",
-    "generative-ai/genai-15-vision-language-models",
-    "deep-learning/dl-13-cnn-architectures"
-  ],
-  "prerequisites": [
-    "CV-05: Image Classification"
-  ],
-  "references": [
-    {
-      "title": "OpenCV Documentation",
-      "url": "https://docs.opencv.org/4.x/index.html",
-      "description": "The reference for classic image processing in Python."
-    },
-    {
-      "title": "PyTorch Vision Docs",
-      "url": "https://pytorch.org/vision/stable/index.html",
-      "description": "Datasets, transforms and model zoo for vision."
-    },
-    {
-      "title": "Stanford CS231n",
-      "url": "http://cs231n.stanford.edu/",
-      "description": "The classic university course on CNNs for visual recognition."
-    },
-    {
-      "title": "YOLO Papers & Implementations",
-      "url": "https://docs.ultralytics.com/",
-      "description": "Real-time object detection with YOLOv8 (Ultralytics)."
-    },
-    {
-      "title": "Torchvision Models",
-      "url": "https://pytorch.org/vision/stable/models.html",
-      "description": "Pretrained model catalog for transfer learning."
-    }
-  ]
-}
+slug: cv-06-cnns-for-vision
+title: "CNNs for Vision"
+description: "The convolution operation, pooling, feature maps, and how CNNs learn hierarchical visual representations."
+order: 6
+tags:
+  - computer-vision
+  - cnn
+  - convolution
+  - pooling
+  - feature-maps
+prerequisites:
+  - cv-05-image-classification
+  - dl-12-convolutional-networks
+  - cv-02-image-representation
+references:
+  - title: "CS231n: Convolutional Neural Networks"
+    url: "https://cs231n.github.io/convolutional-networks/"
+    description: "Stanford's definitive CNN lecture notes"
+  - title: "Understanding CNNs (LearnOpenCV)"
+    url: "https://learnopencv.com/understanding-convolutional-neural-networks-cnn/"
+    description: "Comprehensive CNN guide with visualizations"
+  - title: "Dive into Deep Learning: ResNet"
+    url: "https://d2l.ai/chapter_convolutional-modern/resnet.html"
+    description: "Residual network architecture explained"
+  - title: "TensorFlow CNN Tutorial"
+    url: "https://www.tensorflow.org/tutorials/images/cnn"
+    description: "Hands-on CNN implementation in TensorFlow"
+  - title: "PyTorch CIFAR-10 Tutorial"
+    url: "https://docs.pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html"
+    description: "Building and training a CNN in PyTorch"
+knowledge_refs:
+  - dl-12-convolutional-networks
+  - cv-05-image-classification
+  - dl-13-cnn-architectures
 ---
 
-# CV-06-CNNS-FOR-VISION: CNNs for Vision
+# CNNs for Vision
 
-## Introduction
+Convolutional Neural Networks are the backbone of computer vision. They learn hierarchical feature representations — from simple edges to complex object parts — through parameter sharing and local connectivity.
 
-Architecture patterns that win on images: receptive fields, pooling, and depth. By the end of this lesson you will be able to: Explain receptive fields; Stack conv-pool blocks deliberately; Use batch normalization; Tune for compute-bounded devices.
+## The Convolution Operation
 
-## Key Concepts
+A small filter (kernel) slides over the input, computing dot products at each position:
 
-### 1. Explain receptive fields
+$$\text{Output Size} = \frac{W - F + 2P}{S} + 1$$
 
-Target: Explain receptive fields. Start with the foundations — read the runnable example carefully and trace its output before moving on.
-
-```python
-import torch.nn as nn
-
-block = nn.Sequential(
-    nn.Conv2d(32, 64, 3, padding=1), nn.BatchNorm2d(64), nn.ReLU(),
-    nn.Conv2d(64, 64, 3, padding=1), nn.BatchNorm2d(64), nn.ReLU(),
-    nn.MaxPool2d(2),
-)
-print(block)
-```
-### 2. Stack conv-pool blocks deliberately
-
-Target: Stack conv-pool blocks deliberately. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
-
-```python
-import torch
-
-x = torch.randn(2, 32, 32, 32)
-print("block out:", block(x).shape)
-```
-### 3. Use batch normalization
-
-Target: Use batch normalization. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+where $W$ = input width, $F$ = filter size, $P$ = padding, $S$ = stride.
 
 ```python
 import torch.nn as nn
 
-# Receptive field grows with depth and kernel size
-print("3x3 stacks: deeper == wider effective view")
+# Conv layer: 3 input channels → 32 output channels, 3×3 kernel
+conv = nn.Conv2d(in_channels=3, out_channels=32, kernel_size=3, stride=1, padding=1)
+output = conv(input_tensor)  # (B, 3, 224, 224) → (B, 32, 224, 224)
 ```
-### 4. Tune for compute-bounded devices
 
-Target: Tune for compute-bounded devices. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+## Feature Maps and Hierarchical Features
+
+Each convolutional layer produces **feature maps** — activations that detect specific patterns:
+
+| Layer | Features Detected | Example |
+|---|---|---|
+| Conv1 | Edges, colors | Horizontal/vertical edges |
+| Conv2 | Textures, corners | Checkerboard patterns |
+| Conv3 | Parts | Eyes, wheels, windows |
+| Conv4 | Objects | Faces, cars, buildings |
+| Conv5 | Scenes | Indoor/outdoor, landscape |
+
+**Key insight**: Deeper layers capture increasingly abstract concepts. This hierarchy is learned automatically from data.
+
+## Pooling Layers
+
+Downsample spatial dimensions and provide translation invariance:
 
 ```python
-import torch.nn as nn
+# Max pooling: takes maximum in each window
+pool = nn.MaxPool2d(kernel_size=2, stride=2)  # Reduces H,W by 2x
 
-# Global average pooling: robust spatial summary
-gap = nn.AdaptiveAvgPool2d(1)
-print("GAP:", gap(torch.randn(2, 64, 8, 8)).shape)
+# Average pooling
+avg_pool = nn.AvgPool2d(kernel_size=2, stride=2)
+
+# Global average pooling: reduces each feature map to a single value
+gap = nn.AdaptiveAvgPool2d(1)  # (B, C, H, W) → (B, C, 1, 1)
 ```
 
-## Practice Questions
+**Max pooling** preserves the strongest activations and is the standard choice.
 
-1. What is the key idea behind "CNNs for Vision"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+## Parameter Sharing and Translation Invariance
 
-## LLM Prompts for Deeper Understanding
+**Parameter sharing**: The same filter is applied across all spatial positions:
+- A 3×3 filter has 9 weights (plus bias)
+- Applied to a 224×224 image → uses the same 9 weights everywhere
+- Dramatic parameter reduction vs. fully connected layers
 
-1. "Explain CNNs for Vision with analogies and real-world examples"
-1. "Show me common mistakes beginners make with CNNs for Vision"
-1. "Provide advanced patterns and performance considerations for CNNs for Vision"
+**Translation invariance**: If a cat moves in the image, the same filters still detect it.
 
-## Key Takeaways
+## Modern CNN Blocks
 
-- Master the core ideas of CNNs for Vision through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+### Residual Block (ResNet)
+Skip connections solve the degradation problem:
+```python
+class ResBlock(nn.Module):
+    def __init__(self, channels):
+        super().__init__()
+        self.conv1 = nn.Conv2d(channels, channels, 3, padding=1)
+        self.bn1 = nn.BatchNorm2d(channels)
+        self.conv2 = nn.Conv2d(channels, channels, 3, padding=1)
+        self.bn2 = nn.BatchNorm2d(channels)
+    
+    def forward(self, x):
+        residual = x
+        out = F.relu(self.bn1(self.conv1(x)))
+        out = self.bn2(self.conv2(out))
+        out += residual  # Skip connection!
+        return F.relu(out)
+```
+
+### Depthwise Separable Convolution (MobileNet)
+Factorize standard convolution for efficiency:
+```python
+# Standard: O(K² × Cin × Cout × H × W)
+# Depthwise separable: O(K² × Cin × H × W + Cin × Cout × H × W)
+
+depthwise = nn.Conv2d(64, 64, 3, padding=1, groups=64)  # per-channel
+pointwise = nn.Conv2d(64, 128, 1)  # 1×1 to mix channels
+```
+
+## Building a Complete CNN
+
+```python
+class CNN(nn.Module):
+    def __init__(self, num_classes=10):
+        super().__init__()
+        self.features = nn.Sequential(
+            nn.Conv2d(3, 32, 3, padding=1), nn.BatchNorm2d(32), nn.ReLU(), nn.MaxPool2d(2),
+            nn.Conv2d(32, 64, 3, padding=1), nn.BatchNorm2d(64), nn.ReLU(), nn.MaxPool2d(2),
+            nn.Conv2d(64, 128, 3, padding=1), nn.BatchNorm2d(128), nn.ReLU(), nn.AdaptiveAvgPool2d(1),
+        )
+        self.classifier = nn.Linear(128, num_classes)
+    
+    def forward(self, x):
+        x = self.features(x)
+        x = x.view(x.size(0), -1)
+        return self.classifier(x)
+```
+
+## Visualizing What CNNs Learn
+
+```python
+# Hook to extract activations
+activations = {}
+def hook_fn(module, input, output):
+    activations[module] = output
+
+for name, layer in model.named_modules():
+    if isinstance(layer, nn.Conv2d):
+        layer.register_forward_hook(hook_fn)
+
+# Visualize feature maps
+for layer, act in activations.items():
+    fig, axes = plt.subplots(1, 8, figsize=(16, 2))
+    for i in range(8):
+        axes[i].imshow(act[0, i].cpu().detach(), cmap='viridis')
+        axes[i].axis('off')
+```
 
 ## Further Reading
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+- CS231n notes are the definitive CNN reference
+- LearnOpenCV provides excellent visualizations
+- D2L covers residual networks mathematically
+- For efficient CNNs: MobileNet, EfficientNet papers

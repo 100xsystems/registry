@@ -1,127 +1,138 @@
 ---
-{
-  "title": "Evaluating Vision Models",
-  "description": "Benchmarks, metrics and failure analysis: accuracy, mAP, and per-class audits.",
-  "type": "lesson",
-  "order": 20,
-  "duration": "50 min",
-  "difficulty": "intermediate",
-  "learning_objectives": [
-    "Compute mean average precision (mAP)",
-    "Audit per-class performance",
-    "Build confusion matrices for vision",
-    "Review failure cases systematically"
-  ],
-  "knowledge_refs": [
-    "computer-vision/cv-19-vision-transformers",
-    "deep-learning/dl-20-evaluating-deep-models",
-    "prompt-engineering/pe-13-evaluating-prompts"
-  ],
-  "prerequisites": [
-    "CV-08: Object Detection"
-  ],
-  "references": [
-    {
-      "title": "OpenCV Documentation",
-      "url": "https://docs.opencv.org/4.x/index.html",
-      "description": "The reference for classic image processing in Python."
-    },
-    {
-      "title": "PyTorch Vision Docs",
-      "url": "https://pytorch.org/vision/stable/index.html",
-      "description": "Datasets, transforms and model zoo for vision."
-    },
-    {
-      "title": "Stanford CS231n",
-      "url": "http://cs231n.stanford.edu/",
-      "description": "The classic university course on CNNs for visual recognition."
-    },
-    {
-      "title": "YOLO Papers & Implementations",
-      "url": "https://docs.ultralytics.com/",
-      "description": "Real-time object detection with YOLOv8 (Ultralytics)."
-    },
-    {
-      "title": "Torchvision Models",
-      "url": "https://pytorch.org/vision/stable/models.html",
-      "description": "Pretrained model catalog for transfer learning."
-    }
-  ]
-}
+slug: cv-20-evaluating-vision-models
+title: "Evaluating Vision Models"
+description: "Metrics, benchmarks, and best practices for assessing computer vision model quality."
+order: 20
+tags:
+  - computer-vision
+  - evaluation
+  - metrics
+  - benchmarks
+  - map
+  - miou
+prerequisites:
+  - cv-08-object-detection
+  - cv-09-semantic-segmentation
+  - cv-05-image-classification
+references:
+  - title: "COCO Detection Challenge"
+    url: "https://cocodataset.org/#detection-eval"
+    description: "Official COCO evaluation metrics documentation"
+  - title: "PASCAL VOC Challenge"
+    url: "http://host.robots.ox.ac.uk/pascal/VOC/"
+    description: "PASCAL VOC benchmark for detection and segmentation"
+  - title: "ImageNet Large Scale Visual Recognition Challenge"
+    url: "https://www.image-net.org/challenges/LSVRC/"
+    description: "The benchmark that drove CV progress"
+  - title: "Papers With Code: Computer Vision"
+    url: "https://paperswithcode.com/area/computer-vision"
+    description: "State-of-the-art results for CV tasks"
+  - title: "torchmetrics Documentation"
+    url: "https://torchmetrics.readthedocs.io/"
+    description: "PyTorch metrics library for evaluation"
+knowledge_refs:
+  - cv-05-image-classification
+  - cv-08-object-detection
+  - cv-09-semantic-segmentation
 ---
 
-# CV-20-EVALUATING-VISION-MODELS: Evaluating Vision Models
+# Evaluating Vision Models
 
-## Introduction
+Choosing the right evaluation metric is essential — accuracy alone is insufficient for most vision tasks. Different tasks require different metrics.
 
-Benchmarks, metrics and failure analysis: accuracy, mAP, and per-class audits. By the end of this lesson you will be able to: Compute mean average precision (mAP); Audit per-class performance; Build confusion matrices for vision; Review failure cases systematically.
+## Classification Metrics
 
-## Key Concepts
-
-### 1. Compute mean average precision (mAP)
-
-Target: Compute mean average precision (mAP). Start with the foundations — read the runnable example carefully and trace its output before moving on.
-
-```python
-import torch
-
-# AP: area under the precision-recall curve per class
-print("mAP = mean AP over classes and IoU thresholds")
-```
-### 2. Audit per-class performance
-
-Target: Audit per-class performance. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+| Metric | Description | When to Use |
+|---|---|---|
+| **Top-1 Accuracy** | Correct class is the prediction | Most tasks |
+| **Top-5 Accuracy** | Correct class in top 5 | ImageNet |
+| **F1 Score** | Harmonic mean of precision/recall | Imbalanced classes |
+| **AUC-ROC** | Area under ROC curve | Binary classification |
 
 ```python
-import torch
+from torchmetrics import Accuracy, F1Score
 
-def ap_at(preds, true):
-    # simplified AP: precision at rank where recall hits 1
-    return 1.0 if preds.sum() == true.sum() else 0.0
+acc = Accuracy(task="multiclass", num_classes=10)
+f1 = F1Score(task="multiclass", num_classes=10, average="macro")
 
-print("AP:", ap_at(torch.tensor([1, 0, 1]), torch.tensor([1, 1, 1])))
+accuracy = acc(predictions, labels)
+f1_score = f1(predictions, labels)
 ```
-### 3. Build confusion matrices for vision
 
-Target: Build confusion matrices for vision. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+## Detection Metrics (mAP)
+
+### IoU (Intersection over Union)
+$$\text{IoU} = \frac{\text{Area of Intersection}}{\text{Area of Union}}$$
+
+A detection is correct if IoU ≥ threshold (typically 0.5).
+
+### Average Precision (AP)
+Area under the precision-recall curve for one class.
+
+### mAP (mean Average Precision)
+Average AP across all classes:
+- **mAP@0.5**: AP at IoU=0.5 (PASCAL VOC style)
+- **mAP@0.5:0.95**: Average AP across IoU 0.5 to 0.95 (COCO style)
 
 ```python
-from sklearn.metrics import confusion_matrix
+from torchmetrics.detection.mean_ap import MeanAveragePrecision
 
-pred = torch.randint(0, 10, (500,)).numpy()
-true = torch.randint(0, 10, (500,)).numpy()
-print("confusion matrix shape:", confusion_matrix(true, pred).shape)
+metric = MeanAveragePrecision()
+metric.update(preds, targets)
+result = metric.compute()
+# result['map'] — mAP@0.5:0.95
+# result['map_50'] — mAP@0.5
+# result['map_75'] — mAP@0.75
 ```
-### 4. Review failure cases systematically
 
-Target: Review failure cases systematically. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+## Segmentation Metrics
+
+### mIoU (mean Intersection over Union)
+Per-class IoU averaged across classes:
+$$\text{mIoU} = \frac{1}{K}\sum_{k=1}^{K}\text{IoU}_k$$
 
 ```python
-import torch
+from torchmetrics import JaccardIndex
 
-# Collect the worst mistakes for a human review slice
-mistakes = torch.where(pred != true)[0]
-print("review these indices:", mistakes[:5])
+jaccard = JaccardIndex(task="multiclass", num_classes=21, average="macro")
+miou = jaccard(preds, labels)
 ```
 
-## Practice Questions
+### Pixel Accuracy
+Percentage of correctly classified pixels (can be misleading with class imbalance).
 
-1. What is the key idea behind "Evaluating Vision Models"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+### Dice Score
+$$\text{Dice} = \frac{2 \times \text{TP}}{\text{TP} + \text{FP} + \text{TP} + \text{FN}}$$
 
-## LLM Prompts for Deeper Understanding
+## Common Benchmarks
 
-1. "Explain Evaluating Vision Models with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Evaluating Vision Models"
-1. "Provide advanced patterns and performance considerations for Evaluating Vision Models"
+| Benchmark | Task | Metric | SOTA |
+|---|---|---|---|
+| **ImageNet** | Classification | Top-1 | ~91% |
+| **COCO** | Detection | mAP@0.5:0.95 | ~60% |
+| **ADE20K** | Semantic Seg | mIoU | ~60% |
+| **Cityscapes** | Driving Seg | mIoU | ~85% |
+| **LFW** | Face Recognition | Accuracy | ~99.8% |
 
-## Key Takeaways
+## Evaluation Best Practices
 
-- Master the core ideas of Evaluating Vision Models through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+1. **Use standard metrics**: mAP for detection, mIoU for segmentation
+2. **Report confidence intervals**: Run multiple times, report mean ± std
+3. **Evaluate on test set**: Never evaluate on training data
+4. **Check per-class performance**: Some classes may perform poorly
+5. **Consider computational cost**: Latency and memory matter for deployment
+
+## Common Mistakes
+
+1. **Using accuracy for imbalanced data**: Use F1 or AUC instead
+2. **Ignoring false positives**: mAP accounts for this
+3. **Wrong IoU threshold**: 0.5 is easy, 0.75 is strict
+4. **Not using official evaluation tools**: COCOeval, VOCeval
+5. **Evaluating on augmented test data**: Test on clean data only
 
 ## Further Reading
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+- COCO evaluation is the standard for detection/segmentation
+- ImageNet drove the deep learning revolution in CV
+- Papers With Code tracks state-of-the-art results
+- torchmetrics provides PyTorch-native evaluation metrics

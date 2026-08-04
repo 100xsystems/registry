@@ -1,122 +1,156 @@
 ---
-{
-  "title": "OCR & Document AI",
-  "description": "Turn images of text into machine-readable text: Tesseract, PaddleOCR, and layout understanding.",
-  "type": "lesson",
-  "order": 17,
-  "duration": "55 min",
-  "difficulty": "intermediate",
-  "learning_objectives": [
-    "Explain the OCR pipeline",
-    "Run Tesseract via pytesseract",
-    "Handle document layout and tables",
-    "Pair OCR with downstream NLP"
-  ],
-  "knowledge_refs": [
-    "computer-vision/cv-16-face-recognition"
-  ],
-  "prerequisites": [
-    "CV-03: Image Processing Fundamentals"
-  ],
-  "references": [
-    {
-      "title": "OpenCV Documentation",
-      "url": "https://docs.opencv.org/4.x/index.html",
-      "description": "The reference for classic image processing in Python."
-    },
-    {
-      "title": "PyTorch Vision Docs",
-      "url": "https://pytorch.org/vision/stable/index.html",
-      "description": "Datasets, transforms and model zoo for vision."
-    },
-    {
-      "title": "Stanford CS231n",
-      "url": "http://cs231n.stanford.edu/",
-      "description": "The classic university course on CNNs for visual recognition."
-    },
-    {
-      "title": "YOLO Papers & Implementations",
-      "url": "https://docs.ultralytics.com/",
-      "description": "Real-time object detection with YOLOv8 (Ultralytics)."
-    },
-    {
-      "title": "Torchvision Models",
-      "url": "https://pytorch.org/vision/stable/models.html",
-      "description": "Pretrained model catalog for transfer learning."
-    }
-  ]
-}
+slug: cv-17-ocr-and-document-ai
+title: "OCR & Document AI"
+description: "Reading text from images and documents — from Tesseract to modern OCR models."
+order: 17
+tags:
+  - computer-vision
+  - ocr
+  - document-ai
+  - text-detection
+  - text-recognition
+prerequisites:
+  - cv-06-cnns-for-vision
+  - cv-12-opencv-fundamentals
+  - dl-17-transformers
+references:
+  - title: "Tesseract OCR Documentation"
+    url: "https://tesseract-ocr.github.io/"
+    description: "Official Tesseract OCR documentation"
+  - title: "CRNN: An End-to-End Trainable Neural OCR System"
+    url: "https://arxiv.org/abs/1507.05717"
+    description: "Shi et al.'s CRNN paper for scene text recognition"
+  - title: "EAST: An Efficient and Accurate Scene Text Detector"
+    url: "https://arxiv.org/abs/1704.03155"
+    description: "Zhou et al.'s EAST paper for fast text detection"
+  - title: "TrOCR: Transformer-Based OCR"
+    url: "https://arxiv.org/abs/2109.10282"
+    description: "Microsoft's TrOCR using transformers for OCR"
+  - title: "EasyOCR Documentation"
+    url: "https://www.jaided.ai/easyocr/"
+    description: "EasyOCR — simple, multi-language OCR library"
+knowledge_refs:
+  - cv-06-cnns-for-vision
+  - cv-12-opencv-fundamentals
+  - dl-17-transformers
 ---
 
-# CV-17-OCR-AND-DOCUMENT-AI: OCR & Document AI
+# OCR & Document AI
 
-## Introduction
+Optical Character Recognition (OCR) converts text from images into machine-readable text. Modern OCR combines text detection (finding where text is) with text recognition (reading what it says).
 
-Turn images of text into machine-readable text: Tesseract, PaddleOCR, and layout understanding. By the end of this lesson you will be able to: Explain the OCR pipeline; Run Tesseract via pytesseract; Handle document layout and tables; Pair OCR with downstream NLP.
+## OCR Pipeline
 
-## Key Concepts
-
-### 1. Explain the OCR pipeline
-
-Target: Explain the OCR pipeline. Start with the foundations — read the runnable example carefully and trace its output before moving on.
-
-```python
-import pytesseract
-from PIL import Image
-
-text = pytesseract.image_to_string(Image.open("receipt.png"))
-print(text[:200])
 ```
-### 2. Run Tesseract via pytesseract
+Input Image
+    ↓
+[Text Detection] → Find text regions/bounding boxes
+    ↓
+[Text Recognition] → Read text within each region
+    ↓
+Output: Text with bounding boxes and confidence scores
+```
 
-Target: Run Tesseract via pytesseract. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+## Tesseract OCR (Classical)
 
+Most widely-used open-source OCR engine:
 ```python
 import pytesseract
 
-data = pytesseract.image_to_data(Image.open("page.png"), output_type=pytesseract.Output.DICT)
-print("words:", len(data["text"]))
+# Simple OCR
+text = pytesseract.image_to_string(image)
+
+# With bounding boxes
+data = pytesseract.image_to_data(image, output_type=pytesseract.Output.DICT)
+for i, text in enumerate(data['text']):
+    if text.strip():
+        x, y, w, h = data['left'][i], data['top'][i], data['width'][i], data['height'][i]
+        print(f"Text: '{text}' at ({x}, {y})")
 ```
-### 3. Handle document layout and tables
 
-Target: Handle document layout and tables. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+## Deep Learning OCR
 
+### CRNN (Convolutional Recurrent Neural Network)
+- CNN extracts visual features
+- RNN (LSTM) models sequential text
+- CTC loss for alignment
+
+### EAST (Efficient and Accurate Scene Text Detector)
+Fast text detection in natural scenes:
 ```python
-import cv2
-
-# Preprocessing helps OCR: grayscale + threshold
-gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-_, th = cv2.threshold(gray, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
-print("otsu threshold applied")
+# OpenCV's DNN module with EAST
+net = cv2.dnn.readNet("frozen_east_text_detection.pb")
+blob = cv2.dnn.blobFromImage(image, 1.0, (320, 320))
+net.setInput(blob)
+output = net.forward(["feature_fusion/Conv_7/Sigmoid", "feature_fusion/concat_3"])
 ```
-### 4. Pair OCR with downstream NLP
 
-Target: Pair OCR with downstream NLP. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
-
+### TrOCR (Transformer OCR)
+Uses Vision Transformer encoder + text decoder:
 ```python
-import pytesseract
+from transformers import TrOCRProcessor, VisionEncoderDecoderModel
 
-print("OCR -> structured fields via regex or NLP")
+processor = TrOCRProcessor.from_pretrained("microsoft/trocr-base-printed")
+model = VisionEncoderDecoderModel.from_pretrained("microsoft/trocr-base-printed")
+
+pixel_values = processor(images=image, return_tensors="pt").pixel_values
+generated_ids = model.generate(pixel_values)
+text = processor.batch_decode(generated_ids, skip_special_tokens=True)[0]
 ```
 
-## Practice Questions
+## Document AI
 
-1. What is the key idea behind "OCR & Document AI"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+### Layout Analysis
+Understanding document structure (headings, paragraphs, tables):
+- **LayoutLM**: BERT-like model for document understanding
+- **DiT**: Document Image Transformer
+- **Donut**: OCR-free document understanding
 
-## LLM Prompts for Deeper Understanding
+### Table Extraction
+Extract structured data from tables in documents:
+```python
+# Using table-transformer
+from table_transformer import TableTransformer
 
-1. "Explain OCR & Document AI with analogies and real-world examples"
-1. "Show me common mistakes beginners make with OCR & Document AI"
-1. "Provide advanced patterns and performance considerations for OCR & Document AI"
+model = TableTransformer.from_pretrained("microsoft/table-transformer-detection")
+# Detect and parse table structure
+```
 
-## Key Takeaways
+## EasyOCR (Practical)
 
-- Master the core ideas of OCR & Document AI through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+Multi-language, easy-to-use:
+```python
+import easyocr
+
+reader = easyocr.Reader(['en', 'hi'])  # English + Hindi
+results = reader.readtext("image.jpg")
+
+for (bbox, text, confidence) in results:
+    print(f"Text: '{text}', Confidence: {confidence:.2f}")
+```
+
+## Use Cases
+
+| Application | Technology |
+|---|---|
+| **Document digitization** | Tesseract, TrOCR |
+| **License plate reading** | EAST + CRNN |
+| **Receipt scanning** | Document AI |
+| **Handwriting recognition** | IAM dataset models |
+| **Passport reading** | MRZ detection |
+| **Invoice processing** | LayoutLM + OCR |
+
+## Practical Tips
+
+1. **Use Tesseract** for printed documents (simple, fast)
+2. **Use EasyOCR** for multi-language scene text
+3. **Preprocess images**: Binarize, deskew before OCR
+4. **Language matters**: Specify language for better accuracy
+5. **Confidence thresholding**: Filter low-confidence detections
 
 ## Further Reading
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+- Tesseract is the standard for document OCR
+- CRNN established the end-to-end text recognition paradigm
+- TrOCR showed transformers work well for OCR
+- LayoutLM bridged NLP and document understanding
