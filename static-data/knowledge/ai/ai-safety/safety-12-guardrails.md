@@ -1,118 +1,93 @@
 ---
-{
-  "title": "Guardrails & Content Moderation",
-  "description": "Layer protections on outputs: classifiers, filters and policy enforcement.",
-  "type": "lesson",
-  "order": 12,
-  "duration": "55 min",
-  "difficulty": "intermediate",
-  "learning_objectives": [
-    "Design layered guardrails",
-    "Use moderation classifiers",
-    "Implement output filters",
-    "Balance safety with usability"
-  ],
-  "knowledge_refs": [
-    "ai-safety/safety-11-red-teaming",
-    "llm-engineering/llm-14-guardrails-and-safety",
-    "generative-ai/genai-19-ethical-ai-and-safety"
-  ],
-  "prerequisites": [
-    "SAFETY-10: Safety Evaluations"
-  ],
-  "references": [
-    {
-      "title": "The Alignment Problem — Brian Christian",
-      "url": "https://www.brianchristian.org/the-alignment-problem/",
-      "description": "A narrative history of AI alignment research."
-    },
-    {
-      "title": "AI Safety Fundamentals",
-      "url": "https://aisafetyfundamentals.com/",
-      "description": "Courses and readings on AI safety topics."
-    },
-    {
-      "title": "Fairness in Machine Learning (Google)",
-      "url": "https://developers.google.com/machine-learning/fairness-overview",
-      "description": "A practical overview of ML fairness."
-    },
-    {
-      "title": "Model Cards for Model Reporting",
-      "url": "https://arxiv.org/abs/1810.03993",
-      "description": "The paper introducing model cards."
-    },
-    {
-      "title": "Anthropic — Red Teaming",
-      "url": "https://www.anthropic.com/news/red-teaming-language-models",
-      "description": "Practices for adversarial testing of AI systems."
-    }
-  ]
-}
+slug: safety-12-guardrails
+title: "Guardrails & Content Moderation"
+description: "Runtime safety systems for AI — NeMo Guardrails, Llama Guard, content filtering, multi-layered safety, and output validation."
+order: 12
+tags:
+  - ai-safety
+  - guardrails
+  - content-moderation
+  - safety-systems
+prerequisites:
+  - safety-11-red-teaming
+knowledge_refs:
+  - safety-11-red-teaming
+    title: "Red Teaming"
+  - safety-10-safety-evaluations
+    title: "Safety Evaluations"
+  - pe-12-prompt-injection-defense
+    title: "Prompt Injection Defense"
+references:
+  - title: "NVIDIA NeMo Guardrails"
+    url: "https://github.com/NVIDIA/NeMo-Guardrails"
+  - title: "Meta — Llama Guard"
+    url: "https://ai.meta.com/blog/llama-guard-llm-based-input-output-safeguard-for-language-model-apps/"
+  - title: "Azure AI Content Safety"
+    url: "https://learn.microsoft.com/en-us/azure/ai-services/content-safety/overview"
+  - title: "Guardrails AI"
+    url: "https://www.guardrailsai.com/"
+  - title: "Anthropic — Core Views on AI Safety"
+    url: "https://www.anthropic.com/research#702-core-views-on-ai-safety"
 ---
 
-# SAFETY-12-GUARDRAILS: Guardrails & Content Moderation
+## Guardrails & Content Moderation
 
-## Introduction
+Guardrails are runtime safety systems that monitor, filter, and control AI inputs and outputs. They're the last line of defense between a potentially unsafe model and a real user.
 
-Layer protections on outputs: classifiers, filters and policy enforcement. By the end of this lesson you will be able to: Design layered guardrails; Use moderation classifiers; Implement output filters; Balance safety with usability.
+### Why Guardrails Matter
 
-## Key Concepts
+Models can't be perfectly safe through training alone. Guardrails provide:
+- **Defense in depth:** Even if the model is jailbroken, guardrails catch harmful outputs
+- **Real-time protection:** Content filtering happens at request time, not just during training
+- **Configurable safety:** Different applications need different safety thresholds
+- **Auditability:** Guardrails create logs of what was blocked and why
 
-### 1. Design layered guardrails
+### Types of Guardrails
 
-Target: Design layered guardrails. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+**Input guardrails (pre-LLM):**
+- Prompt injection detection
+- Toxicity filtering
+- PII detection and redaction
+- Topic restriction (block certain topics entirely)
 
-```python
-from openai import OpenAI
+**Output guardrails (post-LLM):**
+- Harmful content detection
+- Hallucination detection
+- Factual verification
+- Format validation
 
-client = OpenAI()
-res = client.moderations.create(input="some content")
-print("flagged:", res.results[0].flagged)
+**Behavioral guardrails (model-level):**
+- Role adherence (does the model stay in character?)
+- Tool use validation (does the model only use approved tools?)
+- Escalation rules (when should the model refuse or escalate to a human?)
+
+### Prominent Guardrail Systems
+
+**NVIDIA NeMo Guardrails:** Programmable guardrails for LLM applications. Define rules in Colang (a domain-specific language) that control what the model can say, what topics it can discuss, and how it responds to edge cases.
+
+**Meta Llama Guard:** A fine-tuned LLM specifically designed to classify inputs and outputs as safe or unsafe across multiple safety categories. Used as a judge to filter harmful content.
+
+**Azure AI Content Safety:** Microsoft's multi-severity content moderation API. Screens text and images for hate, violence, self-harm, and sexual content with configurable severity levels.
+
+**Guardrails AI:** Open-source framework for defining output validation, topic checking, and content filtering as composable modules.
+
+### Multi-Layered Safety
+
+No single guardrail catches everything. Production systems stack multiple layers:
+
 ```
-### 2. Use moderation classifiers
-
-Target: Use moderation classifiers. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
-
-```python
-import re
-
-# Output filter: block dangerous patterns
-out = "call 1-800-EVIL"
-print("blocked" if "EVIL" in out else "allowed")
-```
-### 3. Implement output filters
-
-Target: Implement output filters. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
-
-```python
-print("layers: input filter -> model -> output filter -> human review")
-```
-### 4. Balance safety with usability
-
-Target: Balance safety with usability. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
-
-```python
-print("too-strict guardrails frustrate users; tune with evals")
+User Input → [Input Filter] → [Prompt Injection Detector] → LLM → [Output Filter] → [Toxicity Check] → [Format Validator] → User
 ```
 
-## Practice Questions
+Each layer catches different failure modes. If one layer misses something, the next might catch it.
 
-1. What is the key idea behind "Guardrails & Content Moderation"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+### Common Mistakes
 
-## LLM Prompts for Deeper Understanding
+- **Single-layer guardrails:** Relying on just the model's safety training or just an output filter.
+- **Over-restrictive filtering:** Blocking legitimate use cases in the name of safety.
+- **No logging:** Without tracking what guardrails block, you can't identify false positives or improve the system.
+- **Ignoring adversarial bypasses:** Guardrails can be bypassed with creative prompting. Regular red-teaming of guardrails is essential.
 
-1. "Explain Guardrails & Content Moderation with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Guardrails & Content Moderation"
-1. "Provide advanced patterns and performance considerations for Guardrails & Content Moderation"
+---
 
-## Key Takeaways
-
-- Master the core ideas of Guardrails & Content Moderation through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
-
-## Further Reading
-
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+*Continue to learn about auditing AI systems — formal frameworks for verifying safety and compliance.*

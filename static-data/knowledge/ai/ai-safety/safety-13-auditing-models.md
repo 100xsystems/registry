@@ -1,111 +1,83 @@
 ---
-{
-  "title": "Auditing AI Systems",
-  "description": "Independent review of data, models and processes — internal and external.",
-  "type": "lesson",
-  "order": 13,
-  "duration": "55 min",
-  "difficulty": "advanced",
-  "learning_objectives": [
-    "Design an AI audit",
-    "Review data lineage and consent",
-    "Audit model behavior on subgroups",
-    "Produce actionable findings"
-  ],
-  "knowledge_refs": [
-    "ai-safety/safety-12-guardrails",
-    "generative-ai/genai-19-ethical-ai-and-safety",
-    "llm-engineering/llm-14-guardrails-and-safety"
-  ],
-  "prerequisites": [
-    "SAFETY-08: AI Governance & Policy"
-  ],
-  "references": [
-    {
-      "title": "The Alignment Problem — Brian Christian",
-      "url": "https://www.brianchristian.org/the-alignment-problem/",
-      "description": "A narrative history of AI alignment research."
-    },
-    {
-      "title": "AI Safety Fundamentals",
-      "url": "https://aisafetyfundamentals.com/",
-      "description": "Courses and readings on AI safety topics."
-    },
-    {
-      "title": "Fairness in Machine Learning (Google)",
-      "url": "https://developers.google.com/machine-learning/fairness-overview",
-      "description": "A practical overview of ML fairness."
-    },
-    {
-      "title": "Model Cards for Model Reporting",
-      "url": "https://arxiv.org/abs/1810.03993",
-      "description": "The paper introducing model cards."
-    },
-    {
-      "title": "Anthropic — Red Teaming",
-      "url": "https://www.anthropic.com/news/red-teaming-language-models",
-      "description": "Practices for adversarial testing of AI systems."
-    }
-  ]
-}
+slug: safety-13-auditing-models
+title: "Auditing AI Systems"
+description: "Formal frameworks for verifying AI safety and compliance — auditing methodologies, third-party audits, and continuous monitoring."
+order: 13
+tags:
+  - ai-safety
+  - auditing
+  - compliance
+  - monitoring
+  - iso-42001
+prerequisites:
+  - safety-08-governance
+knowledge_refs:
+  - safety-08-governance
+    title: "AI Governance & Policy"
+  - safety-10-safety-evaluations
+    title: "Safety Evaluations"
+  - safety-09-transparency
+    title: "Transparency & Disclosure"
+references:
+  - title: "NIST AI Risk Management Framework"
+    url: "https://www.nist.gov/itl/ai-risk-management-framework"
+  - title: "EU AI Act — Regulation (EU) 2024/1689"
+    url: "https://artificialintelligenceact.eu/the-act/"
+  - title: "ISO/IEC 42001:2023 AI Management System"
+    url: "https://learn.microsoft.com/en-us/compliance/regulatory/offering-iso-42001"
+  - title: "NIST AI RMF Playbook"
+    url: "https://airc.nist.gov/airmf-resources/playbook/"
+  - title: "CSA — ISO 42001 Lessons Learned"
+    url: "https://cloudsecurityalliance.org/blog/2025/05/08/iso-42001-lessons-learned-from-auditing-and-implementing-the-framework"
 ---
 
-# SAFETY-13-AUDITING-MODELS: Auditing AI Systems
+## Auditing AI Systems
 
-## Introduction
+AI auditing is the systematic evaluation of AI systems against safety, fairness, and compliance standards. It's not optional — regulations like the EU AI Act require it, and market trust demands it.
 
-Independent review of data, models and processes — internal and external. By the end of this lesson you will be able to: Design an AI audit; Review data lineage and consent; Audit model behavior on subgroups; Produce actionable findings.
+### Auditing Frameworks
 
-## Key Concepts
+**NIST AI RMF:** Four continuous functions — Govern, Map, Measure, Manage. Organizations use this framework to build internal risk management processes that satisfy regulatory requirements.
 
-### 1. Design an AI audit
+**ISO/IEC 42001:2023:** The first certifiable international standard for AI management systems. It follows the Plan-Do-Check-Act cycle with 38 controls across 9 objectives. Certification requires external audits by accredited bodies.
 
-Target: Design an AI audit. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+**EU AI Act conformity assessments:** For high-risk AI systems, providers must perform formal conformity assessments before deployment. Independent notified bodies verify compliance for high-stakes domains like biometrics, healthcare, and law enforcement.
 
-```python
-audit_scope = ["data", "training", "eval", "deployment", "monitoring"]
-print(audit_scope)
-```
-### 2. Review data lineage and consent
+### Third-Party Audits
 
-Target: Review data lineage and consent. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+Self-attestation isn't enough. Independent audits provide:
+- **Objective verification:** External auditors have no stake in the system passing
+- **Standardized methodology:** Audits follow established frameworks, enabling comparison
+- **Legal protection:** Third-party certification demonstrates due diligence
 
-```python
-print("ask: where did the data come from, with what consent?")
-```
-### 3. Audit model behavior on subgroups
+**ISO 42001 certification process:**
+1. Stage 1: Readiness and design review
+2. Stage 2: Operational effectiveness audit
+3. Annual surveillance audits
+4. Recertification every 3 years
 
-Target: Audit model behavior on subgroups. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+### Continuous Monitoring
 
-```python
-print("test performance on protected subgroups")
-```
-### 4. Produce actionable findings
+AI systems change over time. Models drift, data distributions shift, and new vulnerabilities emerge. Continuous monitoring tracks:
+- **Performance metrics:** Accuracy, latency, error rates
+- **Safety metrics:** Toxicity rates, refusal rates, content filter triggers
+- **Fairness metrics:** Demographic parity, equalized odds across groups
+- **Drift detection:** Changes in input distribution or model behavior
 
-Target: Produce actionable findings. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+### Audit Trails
 
-```python
-print("findings -> owners -> deadlines -> retest")
-```
+Audit trails log every decision, input, output, and guardrail action. They're essential for:
+- **Incident investigation:** When something goes wrong, you need to trace what happened
+- **Regulatory reporting:** The EU AI Act requires reporting of serious incidents
+- **Legal defense:** Demonstrating due diligence in court
+- **Model improvement:** Understanding failure patterns
 
-## Practice Questions
+### Common Mistakes
 
-1. What is the key idea behind "Auditing AI Systems"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+- **Point-in-time audits:** A single audit isn't enough. AI systems need continuous monitoring.
+- **Checking boxes without substance:** Compliance theater doesn't improve safety.
+- **Ignoring organizational factors:** Most AI failures stem from organizational issues, not technical ones.
 
-## LLM Prompts for Deeper Understanding
+---
 
-1. "Explain Auditing AI Systems with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Auditing AI Systems"
-1. "Provide advanced patterns and performance considerations for Auditing AI Systems"
-
-## Key Takeaways
-
-- Master the core ideas of Auditing AI Systems through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
-
-## Further Reading
-
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+*Continue to learn about the societal impact of AI — how it affects jobs, inequality, and power structures.*

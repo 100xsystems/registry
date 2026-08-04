@@ -1,114 +1,87 @@
 ---
-{
-  "title": "Hallucination & Factualness",
-  "description": "When models make things up — measure it, reduce it, and tell users about it.",
-  "type": "lesson",
-  "order": 7,
-  "duration": "55 min",
-  "difficulty": "intermediate",
-  "learning_objectives": [
-    "Define hallucination and its causes",
-    "Measure factual accuracy",
-    "Ground models with retrieval",
-    "Design honest failure behavior"
-  ],
-  "knowledge_refs": [
-    "ai-safety/safety-06-privacy",
-    "generative-ai/genai-19-ethical-ai-and-safety",
-    "llm-engineering/llm-14-guardrails-and-safety"
-  ],
-  "prerequisites": [
-    "SAFETY-01: Why AI Safety Matters"
-  ],
-  "references": [
-    {
-      "title": "The Alignment Problem — Brian Christian",
-      "url": "https://www.brianchristian.org/the-alignment-problem/",
-      "description": "A narrative history of AI alignment research."
-    },
-    {
-      "title": "AI Safety Fundamentals",
-      "url": "https://aisafetyfundamentals.com/",
-      "description": "Courses and readings on AI safety topics."
-    },
-    {
-      "title": "Fairness in Machine Learning (Google)",
-      "url": "https://developers.google.com/machine-learning/fairness-overview",
-      "description": "A practical overview of ML fairness."
-    },
-    {
-      "title": "Model Cards for Model Reporting",
-      "url": "https://arxiv.org/abs/1810.03993",
-      "description": "The paper introducing model cards."
-    },
-    {
-      "title": "Anthropic — Red Teaming",
-      "url": "https://www.anthropic.com/news/red-teaming-language-models",
-      "description": "Practices for adversarial testing of AI systems."
-    }
-  ]
-}
+slug: safety-07-hallucination
+title: "Hallucination & Factualness"
+description: "Why AI systems generate false information and how to ground them in reality — types of hallucination, detection, and prevention strategies."
+order: 7
+tags:
+  - ai-safety
+  - hallucination
+  - factualness
+  - grounding
+  - citations
+prerequisites:
+  - safety-03-interpretability
+knowledge_refs:
+  - safety-03-interpretability
+    title: "Interpretability & Explainability"
+  - safety-05-robustness
+    title: "Robustness & Adversarial Examples"
+  - llm-07-rag-engineering
+    title: "RAG Engineering"
+references:
+  - title: "A Survey on Hallucination in Large Language Models"
+    url: "https://arxiv.org/abs/2311.05232"
+  - title: "FActScore: Fine-grained Atomic Evaluation of Factual Precision"
+    url: "https://arxiv.org/abs/2305.14251"
+  - title: "TruthfulQA: Measuring How Models Mimic Human Falsehoods"
+    url: "https://arxiv.org/abs/2109.07958"
+  - title: "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks"
+    url: "https://arxiv.org/abs/2005.11401"
+  - title: "SelfCheckGPT: Zero-Resource Black-Box Hallucination Detection"
+    url: "https://arxiv.org/abs/2303.01767"
 ---
 
-# SAFETY-07-HALLUCINATION: Hallucination & Factualness
+## Hallucination & Factualness
 
-## Introduction
+Hallucination is when an AI system generates confident, fluent, but completely false information. It's one of the most dangerous failures in AI because the output looks indistinguishable from accurate information.
 
-When models make things up — measure it, reduce it, and tell users about it. By the end of this lesson you will be able to: Define hallucination and its causes; Measure factual accuracy; Ground models with retrieval; Design honest failure behavior.
+### Types of Hallucination
 
-## Key Concepts
+**Intrinsic hallucination:** The output contradicts the source material. If the source says "Event X happened in 2019" and the model says "2021," that's intrinsic.
 
-### 1. Define hallucination and its causes
+**Extrinsic hallucination:** The output introduces information not present in the source material. The model "fills in" details that weren't in the input — plausible but false.
 
-Target: Define hallucination and its causes. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+**Factual hallucination:** The model states something that contradicts established real-world knowledge. "The Eiffel Tower is in London" is factually hallucinated.
 
-```python
-import numpy as np
+**Faithfulness hallucination:** The model's output isn't grounded in the provided context, even when instructed to use only that context.
 
-# Factual accuracy on a quiz
-correct = np.array([1, 1, 0, 1, 0])
-print("factual accuracy:", correct.mean())
-```
-### 2. Measure factual accuracy
+### Why Hallucination Happens
 
-Target: Measure factual accuracy. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+**Training data memorization:** Models learn patterns from training data. They can't always distinguish between "this pattern appeared in training" and "this is true."
 
-```python
-print("causes: next-token training, weak grounding, no source checking")
-```
-### 3. Ground models with retrieval
+**Probability over certainty:** Language models generate the most likely next token, not the most accurate one. Fluent text is rewarded even when factually wrong.
 
-Target: Ground models with retrieval. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+**Knowledge cutoff:** Models have a training cutoff date. They don't know about events after that date and may hallucinate plausible but false information about recent events.
 
-```python
-print("fix: RAG, citations, retrieval verification")
-```
-### 4. Design honest failure behavior
+**Insufficient context:** When the model doesn't have enough information, it fills in gaps with plausible-sounding content rather than saying "I don't know."
 
-Target: Design honest failure behavior. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+### Detection Methods
 
-```python
-print("when unsure: say so instead of inventing")
-```
+**SelfCheckGPT:** Uses multiple sampling to check if the model gives consistent answers. If sampling the same question multiple times produces different facts, the model is likely hallucinating.
 
-## Practice Questions
+**FActScore:** Evaluates factual precision by breaking long-form text into atomic facts and verifying each one against a knowledge source.
 
-1. What is the key idea behind "Hallucination & Factualness"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+**LLM-as-judge:** Use a second model to verify claims against trusted sources.
 
-## LLM Prompts for Deeper Understanding
+**Citation verification:** When the model provides sources, verify they actually exist and say what the model claims.
 
-1. "Explain Hallucination & Factualness with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Hallucination & Factualness"
-1. "Provide advanced patterns and performance considerations for Hallucination & Factualness"
+### Prevention Strategies
 
-## Key Takeaways
+**Retrieval-Augmented Generation (RAG):** Ground model responses in retrieved documents. This is the most effective practical defense against hallucination.
 
-- Master the core ideas of Hallucination & Factualness through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+**Instruction tuning:** Train models to say "I don't know" when uncertain rather than guessing.
 
-## Further Reading
+**Confidence calibration:** Train models to express uncertainty appropriately rather than presenting all outputs with equal confidence.
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+**Structured outputs:** Force models to cite sources and provide evidence for their claims.
+
+### Common Mistakes
+
+- **Trusting fluent text:** Fluency is not accuracy. A well-written paragraph can be entirely false.
+- **Not verifying sources:** When a model cites references, always check they exist and say what the model claims.
+- **Ignoring the knowledge cutoff:** Models don't know recent events. Don't ask them about today's news.
+- **No grounding:** Without RAG or external knowledge, models will hallucinate by default when they don't know something.
+
+---
+
+*Continue to learn about AI governance — the policies and frameworks that regulate AI deployment.*

@@ -1,111 +1,93 @@
 ---
-{
-  "title": "The AI Safety Community & Research",
-  "description": "Where to learn, contribute and stay current in safety research.",
-  "type": "lesson",
-  "order": 20,
-  "duration": "50 min",
-  "difficulty": "intermediate",
-  "learning_objectives": [
-    "Map the safety research landscape",
-    "Find communities and courses",
-    "Contribute to safety practice",
-    "Keep current responsibly"
-  ],
-  "knowledge_refs": [
-    "ai-safety/safety-19-responsible-products",
-    "generative-ai/genai-19-ethical-ai-and-safety",
-    "llm-engineering/llm-14-guardrails-and-safety"
-  ],
-  "prerequisites": [
-    "SAFETY-15: AI Safety Case Studies"
-  ],
-  "references": [
-    {
-      "title": "The Alignment Problem — Brian Christian",
-      "url": "https://www.brianchristian.org/the-alignment-problem/",
-      "description": "A narrative history of AI alignment research."
-    },
-    {
-      "title": "AI Safety Fundamentals",
-      "url": "https://aisafetyfundamentals.com/",
-      "description": "Courses and readings on AI safety topics."
-    },
-    {
-      "title": "Fairness in Machine Learning (Google)",
-      "url": "https://developers.google.com/machine-learning/fairness-overview",
-      "description": "A practical overview of ML fairness."
-    },
-    {
-      "title": "Model Cards for Model Reporting",
-      "url": "https://arxiv.org/abs/1810.03993",
-      "description": "The paper introducing model cards."
-    },
-    {
-      "title": "Anthropic — Red Teaming",
-      "url": "https://www.anthropic.com/news/red-teaming-language-models",
-      "description": "Practices for adversarial testing of AI systems."
-    }
-  ]
-}
+slug: safety-20-safety-research
+title: "The AI Safety Community & Research"
+description: "The organizations, researchers, open problems, and career paths that define the AI safety field."
+order: 20
+tags:
+  - ai-safety
+  - research
+  - community
+  - careers
+  - open-problems
+prerequisites:
+  - safety-01-why-ai-safety
+knowledge_refs:
+  - safety-01-why-ai-safety
+    title: "Why AI Safety Matters"
+  - safety-04-alignment
+    title: "Alignment"
+  - safety-21-roadmap
+    title: "AI Safety Roadmap"
+references:
+  - title: "80,000 Hours — AI Safety Technical Research"
+    url: "https://80000hours.org/career-reviews/ai-safety-technical-research/"
+  - title: "Center for AI Safety (CAIS)"
+    url: "https://www.safe.ai/"
+  - title: "Alignment Research Center (ARC)"
+    url: "https://alignment.org/"
+  - title: "Redwood Research"
+    url: "https://www.redwoodresearch.org/"
+  - title: "FAR.AI"
+    url: "https://far.ai/"
 ---
 
-# SAFETY-20-SAFETY-RESEARCH: The AI Safety Community & Research
+## The AI Safety Community & Research
 
-## Introduction
+AI safety is a rapidly growing field with dedicated research organizations, key open problems, and diverse career paths. Understanding the landscape helps you contribute meaningfully.
 
-Where to learn, contribute and stay current in safety research. By the end of this lesson you will be able to: Map the safety research landscape; Find communities and courses; Contribute to safety practice; Keep current responsibly.
+### Key Organizations
 
-## Key Concepts
+**Research labs with safety teams:**
+- **Anthropic:** Pioneered Constitutional AI. Focused on building safe, steerable AI systems.
+- **Google DeepMind:** Safety team working on alignment, interpretability, and scalable oversight.
+- **OpenAI:** Safety research on alignment, robustness, and preparedness.
 
-### 1. Map the safety research landscape
+**Dedicated safety organizations:**
+- **Center for AI Safety (CAIS):** Non-profit focused on reducing AI-related catastrophe through technical research and policy.
+- **Alignment Research Center (ARC):** Research on alignment theory and evaluation.
+- **Redwood Research:** Technical alignment research, focusing on fine-grained capabilities.
+- **FAR.AI:** Research on adversarial robustness, interpretability, and alignment.
+- **METR:** Evaluating dangerous capabilities of frontier AI models.
+- **Apollo Research:** Research on detecting and preventing deceptive AI behavior.
 
-Target: Map the safety research landscape. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+### Key Researchers
 
-```python
-resources = ["AI Safety Fundamentals", "Alignment Forum", "ML Safety scholars"]
-print(resources)
-```
-### 2. Find communities and courses
+Notable figures shaping the field:
+- **Stuart Russell** (UC Berkeley) — Author of "Human Compatible," pioneer of inverse reinforcement learning
+- **Yoshua Bengio** (Mila) — Turing Award winner, advocate for AI safety governance
+- **Dario Amodei** (Anthropic) — CEO focused on safe AI development
+- **Jan Leike** (Anthropic, formerly OpenAI) — Leads alignment research
+- **Chris Olah** (Anthropic) — Pioneer of mechanistic interpretability
+- **Eliezer Yudkowsky** (MIRI) — Foundational alignment theorist
 
-Target: Find communities and courses. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+### Open Problems
 
-```python
-print("practice: evals, red teaming, model cards")
-```
-### 3. Contribute to safety practice
+**Alignment:** How do we ensure AI systems pursue goals that match human intent?
 
-Target: Contribute to safety practice. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+**Interpretability:** How do we understand what neural networks are actually doing?
 
-```python
-print("research: interpretability, alignment, robustness")
-```
-### 4. Keep current responsibly
+**Scalable oversight:** How do we supervise AI systems that are smarter than us?
 
-Target: Keep current responsibly. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+**Evaluation:** How do we measure safety for systems whose capabilities we don't fully understand?
 
-```python
-print("every engineer can raise the safety bar")
-```
+**Governance:** How do we coordinate globally on AI safety standards?
 
-## Practice Questions
+### Career Paths
 
-1. What is the key idea behind "The AI Safety Community & Research"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+**Technical research:** Interpretability, alignment theory, evaluations, robustness.
 
-## LLM Prompts for Deeper Understanding
+**Engineering:** Building safety tools, guardrails, evaluation frameworks.
 
-1. "Explain The AI Safety Community & Research with analogies and real-world examples"
-1. "Show me common mistakes beginners make with The AI Safety Community & Research"
-1. "Provide advanced patterns and performance considerations for The AI Safety Community & Research"
+**Policy:** Shaping AI governance, regulation, and international coordination.
 
-## Key Takeaways
+**Operations:** Managing safety teams, coordinating research agendas.
 
-- Master the core ideas of The AI Safety Community & Research through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+### Common Mistakes
 
-## Further Reading
+- **Thinking AI safety is only theoretical:** There are immediate, practical safety challenges that need engineers, not just theorists.
+- **Ignoring governance:** Technical solutions without policy implementation don't scale.
+- **Working in isolation:** AI safety benefits from collaboration across organizations and disciplines.
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+---
+
+*Continue to the final lesson — your roadmap for a career in AI safety.*

@@ -1,111 +1,105 @@
 ---
-{
-  "title": "AI Governance & Policy",
-  "description": "Laws, standards and internal governance for responsible AI.",
-  "type": "lesson",
-  "order": 8,
-  "duration": "55 min",
-  "difficulty": "intermediate",
-  "learning_objectives": [
-    "Map the AI regulatory landscape (EU AI Act, US EO)",
-    "Design internal governance processes",
-    "Conduct risk assessments",
-    "Document decisions for accountability"
-  ],
-  "knowledge_refs": [
-    "ai-safety/safety-07-hallucination",
-    "generative-ai/genai-19-ethical-ai-and-safety",
-    "llm-engineering/llm-14-guardrails-and-safety"
-  ],
-  "prerequisites": [
-    "SAFETY-06: Privacy & Data Protection"
-  ],
-  "references": [
-    {
-      "title": "The Alignment Problem — Brian Christian",
-      "url": "https://www.brianchristian.org/the-alignment-problem/",
-      "description": "A narrative history of AI alignment research."
-    },
-    {
-      "title": "AI Safety Fundamentals",
-      "url": "https://aisafetyfundamentals.com/",
-      "description": "Courses and readings on AI safety topics."
-    },
-    {
-      "title": "Fairness in Machine Learning (Google)",
-      "url": "https://developers.google.com/machine-learning/fairness-overview",
-      "description": "A practical overview of ML fairness."
-    },
-    {
-      "title": "Model Cards for Model Reporting",
-      "url": "https://arxiv.org/abs/1810.03993",
-      "description": "The paper introducing model cards."
-    },
-    {
-      "title": "Anthropic — Red Teaming",
-      "url": "https://www.anthropic.com/news/red-teaming-language-models",
-      "description": "Practices for adversarial testing of AI systems."
-    }
-  ]
-}
+slug: safety-08-governance
+title: "AI Governance & Policy"
+description: "The regulatory landscape for AI — EU AI Act, NIST AI RMF, OECD principles, and international approaches to governing AI systems."
+order: 8
+tags:
+  - ai-safety
+  - governance
+  - policy
+  - eu-ai-act
+  - nist
+  - regulation
+prerequisites:
+  - safety-01-why-ai-safety
+knowledge_refs:
+  - safety-01-why-ai-safety
+    title: "Why AI Safety Matters"
+  - safety-14-societal-impact
+    title: "Societal Impact of AI"
+  - safety-19-responsible-products
+    title: "Building Responsible AI Products"
+references:
+  - title: "EU AI Act — Official Text"
+    url: "https://artificialintelligenceact.eu/the-act/"
+  - title: "NIST AI Risk Management Framework 1.0"
+    url: "https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-ai-rmf-10"
+  - title: "NIST AI RMF Generative AI Profile"
+    url: "https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence"
+  - title: "OECD AI Principles"
+    url: "https://www.oecd.org/en/topics/sub-issues/ai-principles.html"
+  - title: "Global Partnership on Artificial Intelligence (GPAI)"
+    url: "https://en.wikipedia.org/wiki/Global_Partnership_on_Artificial_Intelligence"
 ---
 
-# SAFETY-08-GOVERNANCE: AI Governance & Policy
+## AI Governance & Policy
 
-## Introduction
+As AI systems become more powerful and pervasive, governance frameworks ensure they're deployed responsibly. The regulatory landscape is evolving rapidly, with different regions taking different approaches.
 
-Laws, standards and internal governance for responsible AI. By the end of this lesson you will be able to: Map the AI regulatory landscape (EU AI Act, US EO); Design internal governance processes; Conduct risk assessments; Document decisions for accountability.
+### The EU AI Act
 
-## Key Concepts
+The EU AI Act is the world's first comprehensive AI law. It uses a risk-based approach:
 
-### 1. Map the AI regulatory landscape (EU AI Act, US EO)
+**Unacceptable risk (banned):**
+- Social scoring systems
+- Cognitive behavioral manipulation of vulnerable groups
+- Real-time remote biometric identification in public spaces (with narrow exceptions)
 
-Target: Map the AI regulatory landscape (EU AI Act, US EO). Start with the foundations — read the runnable example carefully and trace its output before moving on.
+**High risk (strict requirements):**
+- Healthcare AI, critical infrastructure, education, law enforcement
+- Must pass conformity assessments
+- Requires risk management systems, data governance, human oversight
 
-```python
-regs = {"EU AI Act": "risk-based obligations", "US EO": "safety and security standards"}
-print(regs)
-```
-### 2. Design internal governance processes
+**Limited risk (transparency obligations):**
+- Chatbots must disclose they're AI
+- Deepfakes must be labeled
+- AI-generated content must be identified
 
-Target: Design internal governance processes. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+**Minimal risk (voluntary codes):**
+- Most AI applications fall here
+- Encouraged to follow voluntary codes of conduct
 
-```python
-print("governance: who decides what gets deployed, and how")
-```
-### 3. Conduct risk assessments
+**General-Purpose AI (GPAI):**
+- Foundation models face transparency and evaluation requirements
+- Models with systemic risk face additional obligations
 
-Target: Conduct risk assessments. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+### NIST AI Risk Management Framework
 
-```python
-print("risk assessment: likelihood x severity before launch")
-```
-### 4. Document decisions for accountability
+The NIST AI RMF is a voluntary US framework with four core functions:
 
-Target: Document decisions for accountability. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+**Govern:** Establish policies, roles, and accountability for AI risk management.
 
-```python
-print("documentation: decisions must be auditable")
-```
+**Map:** Identify and assess risks in context — what could go wrong and who it affects.
 
-## Practice Questions
+**Measure:** Quantify and track risk metrics — accuracy, bias, robustness, privacy.
 
-1. What is the key idea behind "AI Governance & Policy"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+**Manage:** Respond to and mitigate identified risks — monitoring, updating, decommissioning.
 
-## LLM Prompts for Deeper Understanding
+The Generative AI Profile extends this framework to address hallucinations, copyright, misuse, and data leakage specific to foundation models.
 
-1. "Explain AI Governance & Policy with analogies and real-world examples"
-1. "Show me common mistakes beginners make with AI Governance & Policy"
-1. "Provide advanced patterns and performance considerations for AI Governance & Policy"
+### OECD AI Principles
 
-## Key Takeaways
+The first intergovernmental standard on AI (adopted 2019, updated 2024):
+- AI should be innovative and trustworthy
+- AI should respect human rights and democratic values
+- Transparency and explainability are essential
+- Robustness, security, and safety are required
+- Accountability is necessary for AI actors
 
-- Master the core ideas of AI Governance & Policy through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+### International Approaches
 
-## Further Reading
+- **EU:** Prescriptive, legally binding regulation
+- **US:** Voluntary frameworks, sector-specific rules
+- **China:** Strict content control, mandatory algorithm registration
+- **UK:** Principles-based, sector-regulated approach
+- **G7 Hiroshima Process:** International coordination on AI safety
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+### Common Mistakes
+
+- **Ignoring jurisdiction:** AI deployed globally must comply with multiple regulatory frameworks.
+- **Treating governance as optional:** Even voluntary frameworks become de facto requirements through market pressure.
+- **No documentation:** Without model cards, data sheets, and risk assessments, compliance is impossible.
+
+---
+
+*Continue to learn about transparency — making AI decisions visible and accountable.*

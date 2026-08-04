@@ -1,115 +1,96 @@
 ---
-{
-  "title": "Safety Evaluations",
-  "description": "Test systems for harmful behavior before release — systematically.",
-  "type": "lesson",
-  "order": 10,
-  "duration": "55 min",
-  "difficulty": "advanced",
-  "learning_objectives": [
-    "Build a safety eval suite",
-    "Test harmful requests and jailbreaks",
-    "Measure refusal and compliance rates",
-    "Report results honestly"
-  ],
-  "knowledge_refs": [
-    "ai-safety/safety-09-transparency",
-    "generative-ai/genai-19-ethical-ai-and-safety",
-    "llm-engineering/llm-14-guardrails-and-safety"
-  ],
-  "prerequisites": [
-    "SAFETY-07: Hallucination & Factualness"
-  ],
-  "references": [
-    {
-      "title": "The Alignment Problem — Brian Christian",
-      "url": "https://www.brianchristian.org/the-alignment-problem/",
-      "description": "A narrative history of AI alignment research."
-    },
-    {
-      "title": "AI Safety Fundamentals",
-      "url": "https://aisafetyfundamentals.com/",
-      "description": "Courses and readings on AI safety topics."
-    },
-    {
-      "title": "Fairness in Machine Learning (Google)",
-      "url": "https://developers.google.com/machine-learning/fairness-overview",
-      "description": "A practical overview of ML fairness."
-    },
-    {
-      "title": "Model Cards for Model Reporting",
-      "url": "https://arxiv.org/abs/1810.03993",
-      "description": "The paper introducing model cards."
-    },
-    {
-      "title": "Anthropic — Red Teaming",
-      "url": "https://www.anthropic.com/news/red-teaming-language-models",
-      "description": "Practices for adversarial testing of AI systems."
-    }
-  ]
-}
+slug: safety-10-safety-evaluations
+title: "Safety Evaluations"
+description: "Systematically testing AI systems for safety — evaluation frameworks, benchmark design, red-teaming, and automated safety scoring."
+order: 10
+tags:
+  - ai-safety
+  - evaluations
+  - benchmarks
+  - red-teaming
+  - safety-scoring
+prerequisites:
+  - safety-03-interpretability
+knowledge_refs:
+  - safety-03-interpretability
+    title: "Interpretability & Explainability"
+  - safety-11-red-teaming
+    title: "Red Teaming"
+  - safety-12-guardrails
+    title: "Guardrails & Content Moderation"
+references:
+  - title: "HELM: Holistic Evaluation of Language Models"
+    url: "https://crfm.stanford.edu/helm/latest/"
+  - title: "Anthropic — Model Evaluation for Safety"
+    url: "https://docs.anthropic.com/en/docs/build-with-claude/model-evaluation"
+  - title: "OpenAI — Evaluating LLMs is a Minefield"
+    url: "https://openai.com/index/evaluating-llms-is-a-minefield/"
+  - title: "MLCommons AI Safety Benchmark"
+    url: "https://mlcommons.org/ai-safety-benchmark/"
+  - title: "Anthropic — Core Views on AI Safety: On Accessibility, Outer Alignment, and Inner Alignment"
+    url: "https://www.anthropic.com/research#702-core-views-on-ai-safety"
 ---
 
-# SAFETY-10-SAFETY-EVALUATIONS: Safety Evaluations
+## Safety Evaluations
 
-## Introduction
+Safety evaluations are systematic tests that measure whether an AI system behaves safely under various conditions. Without rigorous evaluation, you're deploying based on hope — not evidence.
 
-Test systems for harmful behavior before release — systematically. By the end of this lesson you will be able to: Build a safety eval suite; Test harmful requests and jailbreaks; Measure refusal and compliance rates; Report results honestly.
+### Why Evaluate Safety?
 
-## Key Concepts
+A model that performs well on accuracy benchmarks can still be dangerous. It might:
+- Generate harmful content when prompted
+- Leak personal information from training data
+- Be manipulated through prompt injection
+- Produce biased outputs for certain demographics
+- Hallucinate confidently about critical topics
 
-### 1. Build a safety eval suite
+Safety evaluations catch these failures before deployment.
 
-Target: Build a safety eval suite. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+### Evaluation Frameworks
 
-```python
-harm_cases = ["how to make explosives", "how to launder money"]
-for c in harm_cases:
-    print("-", c[:30])
-```
-### 2. Test harmful requests and jailbreaks
+**HELM (Holistic Evaluation of Language Models):** Stanford's comprehensive framework evaluating models across 42+ scenarios covering accuracy, bias, toxicity, fairness, and efficiency.
 
-Target: Test harmful requests and jailbreaks. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+**MLCommons AI Safety Benchmark:** Standardized safety benchmarks for AI systems, covering content safety, copyright, and robustness.
 
-```python
-import numpy as np
+**Anthropic's evaluation approach:** Tests models against specific safety categories — harmful content, deception, bias, privacy, and potentially dangerous capabilities.
 
-refusals = np.array([1, 1, 0, 1])
-print("refusal rate:", refusals.mean())
-```
-### 3. Measure refusal and compliance rates
+### What to Evaluate
 
-Target: Measure refusal and compliance rates. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+**Content safety:** Does the model generate hate speech, violence, sexual content, or self-harm content?
 
-```python
-print("jailbreaks: alternate encodings, roleplay, DAN-style prompts")
-```
-### 4. Report results honestly
+**Robustness:** Can the model be manipulated through prompt injection or jailbreaks?
 
-Target: Report results honestly. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+**Bias:** Does the model produce different outputs for different demographic groups?
 
-```python
-print("evals before launch; refresh as the model changes")
-```
+**Privacy:** Can the model be tricked into leaking training data or personal information?
 
-## Practice Questions
+**Factualness:** Does the model hallucinate on critical topics?
 
-1. What is the key idea behind "Safety Evaluations"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+**Capability risks:** As models become more capable, do they gain abilities that could be misused (cybersecurity, biology, weapons)?
 
-## LLM Prompts for Deeper Understanding
+### Benchmark Design
 
-1. "Explain Safety Evaluations with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Safety Evaluations"
-1. "Provide advanced patterns and performance considerations for Safety Evaluations"
+Good safety benchmarks:
+- **Cover edge cases,** not just happy paths
+- **Include adversarial inputs** designed to break the model
+- **Test across demographics** to detect bias
+- **Evolve over time** as new attack methods emerge
+- **Provide interpretable scores** that inform action
 
-## Key Takeaways
+### Automated Evaluation
 
-- Master the core ideas of Safety Evaluations through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+Manual evaluation doesn't scale. Automated evaluation uses:
+- **LLM-as-judge:** A powerful model evaluates the target model's outputs against safety criteria
+- **Toxicity classifiers:** Automated detection of harmful content
+- **Bias metrics:** Statistical tests for demographic parity and equalized odds
+- **Red-teaming automation:** Systematic generation of adversarial inputs
 
-## Further Reading
+### Common Mistakes
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+- **Evaluating only accuracy:** Accuracy doesn't capture safety. A model can be 99% accurate and still generate toxic content 1% of the time — which at scale means millions of harmful outputs.
+- **Static evaluation:** Benchmarks become stale as models and attacks evolve.
+- **No adversarial testing:** Evaluating only on clean inputs misses the most dangerous failure modes.
+
+---
+
+*Continue to learn about red teaming — adversarial testing to find safety failures before deployment.*

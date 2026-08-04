@@ -1,111 +1,83 @@
 ---
-{
-  "title": "Designing for Human Values",
-  "description": "Turn values into requirements: privacy, fairness, dignity as design inputs.",
-  "type": "lesson",
-  "order": 17,
-  "duration": "50 min",
-  "difficulty": "advanced",
-  "learning_objectives": [
-    "Translate values into product requirements",
-    "Run value-sensitive design workshops",
-    "Balance competing values",
-    "Measure value alignment"
-  ],
-  "knowledge_refs": [
-    "ai-safety/safety-16-data-governance",
-    "generative-ai/genai-19-ethical-ai-and-safety",
-    "llm-engineering/llm-14-guardrails-and-safety"
-  ],
-  "prerequisites": [
-    "SAFETY-04: Alignment"
-  ],
-  "references": [
-    {
-      "title": "The Alignment Problem — Brian Christian",
-      "url": "https://www.brianchristian.org/the-alignment-problem/",
-      "description": "A narrative history of AI alignment research."
-    },
-    {
-      "title": "AI Safety Fundamentals",
-      "url": "https://aisafetyfundamentals.com/",
-      "description": "Courses and readings on AI safety topics."
-    },
-    {
-      "title": "Fairness in Machine Learning (Google)",
-      "url": "https://developers.google.com/machine-learning/fairness-overview",
-      "description": "A practical overview of ML fairness."
-    },
-    {
-      "title": "Model Cards for Model Reporting",
-      "url": "https://arxiv.org/abs/1810.03993",
-      "description": "The paper introducing model cards."
-    },
-    {
-      "title": "Anthropic — Red Teaming",
-      "url": "https://www.anthropic.com/news/red-teaming-language-models",
-      "description": "Practices for adversarial testing of AI systems."
-    }
-  ]
-}
+slug: safety-17-values-alignment
+title: "Designing for Human Values"
+description: "Embedding ethics into AI systems — value-sensitive design, participatory design, human-centered AI, and practical value alignment."
+order: 17
+tags:
+  - ai-safety
+  - values
+  - ethics
+  - human-centered-ai
+  - participatory-design
+prerequisites:
+  - safety-04-alignment
+knowledge_refs:
+  - safety-04-alignment
+    title: "Alignment"
+  - safety-14-societal-impact
+    title: "Societal Impact of AI"
+  - safety-08-governance
+    title: "AI Governance & Policy"
+references:
+  - title: "Value Sensitive Design — Batya Friedman"
+    url: "https://vsd.ic.ubc.ca/"
+  - title: "Human-Centered AI — Stanford HAI"
+    url: "https://hai.stanford.edu/"
+  - title: "Participatory AI — Mozilla Foundation"
+    url: "https://www.mozilla.org/en-US/about/ai/"
+  - title: "Ethics of AI and Big Data — IEEE"
+    url: "https://ethicsinaction.ieee.org/"
+  - title: "AI Ethics Guidelines Global Inventory — AlgorithmWatch"
+    url: "https://algorithmwatch.org/en/project/ai-ethics-guidelines-global-inventory/"
 ---
 
-# SAFETY-17-VALUES-ALIGNMENT: Designing for Human Values
+## Designing for Human Values
 
-## Introduction
+Technical alignment isn't enough. AI systems must be designed from the ground up to respect human values, including fairness, dignity, autonomy, and well-being. This requires going beyond engineering to incorporate ethics, social science, and participatory design.
 
-Turn values into requirements: privacy, fairness, dignity as design inputs. By the end of this lesson you will be able to: Translate values into product requirements; Run value-sensitive design workshops; Balance competing values; Measure value alignment.
+### Value-Sensitive Design
 
-## Key Concepts
+Value-sensitive design (VSD) is a methodology that accounts for human values throughout the design process. Instead of treating ethics as a constraint, VSD makes values a design requirement.
 
-### 1. Translate values into product requirements
+**Core principles:**
+- Identify stakeholders (direct and indirect) who are affected by the system
+- Elicit values from diverse perspectives, not just engineers
+- Design mechanisms that support those values in the system
+- Evaluate whether the system actually respects those values
 
-Target: Translate values into product requirements. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+### Human-Centered AI
 
-```python
-values = {"privacy": "no PII in logs", "fairness": "parity on subgroups", "dignity": "humane error messages"}
-print(values)
-```
-### 2. Run value-sensitive design workshops
+Stanford's Human-Centered AI (HAI) institute advocates for AI that augments human capabilities rather than replacing human judgment. Key principles:
 
-Target: Run value-sensitive design workshops. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+- AI should enhance human agency and control
+- AI should be designed for human well-being
+- AI should be inclusive and accessible
+- AI development should be transparent and accountable
 
-```python
-print("values -> requirements -> evals -> review")
-```
-### 3. Balance competing values
+### Participatory Design
 
-Target: Balance competing values. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+The people most affected by AI systems should have a voice in their design. Participatory design involves:
+- **Community input:** Gathering requirements from diverse communities
+- **Co-design workshops:** Working with stakeholders to design system behavior
+- **User testing with affected groups:** Testing with the people who will actually use or be affected by the system
+- **Ongoing feedback loops:** Continuing to involve stakeholders after deployment
 
-```python
-print("conflicts: privacy vs personalization needs trade-offs")
-```
-### 4. Measure value alignment
+### Practical Value Alignment
 
-Target: Measure value alignment. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+**Ethical frameworks in practice:**
+- **Fairness:** Ensure the system doesn't discriminate
+- **Transparency:** Make decisions explainable and auditable
+- **Privacy:** Protect personal data and autonomy
+- **Accountability:** Clear responsibility for system behavior
+- **Robustness:** Reliable under diverse conditions
+- **Inclusiveness:** Accessible to diverse populations
 
-```python
-print("measure: evals for each value requirement")
-```
+### Common Mistakes
 
-## Practice Questions
+- **Engineering-only design:** Building AI without input from ethicists, social scientists, or affected communities.
+- **One-size-fits-all values:** Different cultures and communities have different values. AI must be adaptable.
+- **Assuming technical solutions:** Technology alone can't solve ethical problems. Process and governance are essential.
 
-1. What is the key idea behind "Designing for Human Values"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+---
 
-## LLM Prompts for Deeper Understanding
-
-1. "Explain Designing for Human Values with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Designing for Human Values"
-1. "Provide advanced patterns and performance considerations for Designing for Human Values"
-
-## Key Takeaways
-
-- Master the core ideas of Designing for Human Values through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
-
-## Further Reading
-
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+*Continue to learn about emerging and frontier risks — the new categories of danger as AI becomes more capable.*

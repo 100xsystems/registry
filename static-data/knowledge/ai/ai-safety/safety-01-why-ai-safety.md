@@ -1,114 +1,74 @@
 ---
-{
-  "title": "Why AI Safety Matters",
-  "description": "The stakes, the risks, and the field that studies how to build AI that behaves.",
-  "type": "lesson",
-  "order": 1,
-  "duration": "40 min",
-  "difficulty": "beginner",
-  "learning_objectives": [
-    "Define AI safety and its subfields",
-    "Identify near-term and long-term risks",
-    "Explain why capabilities outpace safety",
-    "Recognize safety as an engineering discipline"
-  ],
-  "knowledge_refs": [
-    "generative-ai/genai-19-ethical-ai-and-safety",
-    "llm-engineering/llm-14-guardrails-and-safety",
-    "prompt-engineering/pe-18-safety-in-prompts"
-  ],
-  "prerequisites": [
-    "GENAI-01: What Is Generative AI?"
-  ],
-  "references": [
-    {
-      "title": "The Alignment Problem — Brian Christian",
-      "url": "https://www.brianchristian.org/the-alignment-problem/",
-      "description": "A narrative history of AI alignment research."
-    },
-    {
-      "title": "AI Safety Fundamentals",
-      "url": "https://aisafetyfundamentals.com/",
-      "description": "Courses and readings on AI safety topics."
-    },
-    {
-      "title": "Fairness in Machine Learning (Google)",
-      "url": "https://developers.google.com/machine-learning/fairness-overview",
-      "description": "A practical overview of ML fairness."
-    },
-    {
-      "title": "Model Cards for Model Reporting",
-      "url": "https://arxiv.org/abs/1810.03993",
-      "description": "The paper introducing model cards."
-    },
-    {
-      "title": "Anthropic — Red Teaming",
-      "url": "https://www.anthropic.com/news/red-teaming-language-models",
-      "description": "Practices for adversarial testing of AI systems."
-    }
-  ]
-}
+slug: safety-01-why-ai-safety
+title: "Why AI Safety Matters"
+description: "The discipline of ensuring AI systems behave as intended — from near-term risks like bias and hallucination to long-term existential concerns."
+order: 1
+tags:
+  - ai-safety
+  - alignment
+  - existential-risk
+  - ai-ethics
+prerequisites: []
+knowledge_refs:
+  - slug: safety-04-alignment
+    title: "Alignment"
+  - slug: safety-14-societal-impact
+    title: "Societal Impact of AI"
+references:
+  - title: "Anthropic — Core Views on AI Safety"
+    url: "https://www.anthropic.com/research#702-core-views-on-ai-safety"
+  - title: "OpenAI — Safety Approach"
+    url: "https://openai.com/safety"
+  - title: "Center for AI Safety — AI Safety Fundamentals"
+    url: "https://www.safe.ai/ai-safety-fundamentals"
+  - title: "Stuart Russell — Human Compatible (Book)"
+    url: "https://humancompatible.ai/"
+  - title: "MIRI — Machine Intelligence Research Institute"
+    url: "https://intelligence.org/"
 ---
 
-# SAFETY-01-WHY-AI-SAFETY: Why AI Safety Matters
+## Why AI Safety Matters
 
-## Introduction
+AI safety is the discipline of ensuring AI systems behave as intended, remain under human control, and don't cause unintended harm. It's not a future concern — it's a present necessity.
 
-The stakes, the risks, and the field that studies how to build AI that behaves. By the end of this lesson you will be able to: Define AI safety and its subfields; Identify near-term and long-term risks; Explain why capabilities outpace safety; Recognize safety as an engineering discipline.
+### Two Categories of Risk
 
-## Key Concepts
+**Near-term risks** are already happening:
+- **Bias and discrimination:** AI hiring tools penalizing women's resumes (Amazon, 2018)
+- **Hallucination:** Medical chatbots giving dangerous advice
+- **Privacy violations:** Facial recognition misidentifying people, leading to wrongful arrests
+- **Job displacement:** Automation transforming entire industries
 
-### 1. Define AI safety and its subfields
+**Long-term risks** concern what happens as AI becomes more capable:
+- **Alignment problem:** Ensuring advanced AI pursues goals that actually match human intent
+- **Power concentration:** AI concentrating power in few hands
+- **Irreversible decisions:** AI systems making choices that can't be undone
+- **Existential risk:** The possibility that a sufficiently advanced AI could pose a threat to human civilization
 
-Target: Define AI safety and its subfields. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+### Why Now
 
-```python
-risks = {
-    "near_term": "bias, misinformation, misuse",
-    "long_term": "misalignment, loss of control",
-}
-print(risks)
-```
-### 2. Identify near-term and long-term risks
+AI capabilities are advancing faster than safety research. Large language models can write code, generate images, pass bar exams, and reason about complex problems. Each capability increase creates new safety challenges that didn't exist before.
 
-Target: Identify near-term and long-term risks. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+The gap between capability and safety is widening. Organizations are racing to deploy AI systems for commercial advantage, often without adequate safety measures. The precautionary principle suggests we should invest heavily in safety *before* we need it, not after.
 
-```python
-print("capability grows fast; robustness grows slower")
-```
-### 3. Explain why capabilities outpace safety
+### Key Organizations
 
-Target: Explain why capabilities outpace safety. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+- **Anthropic:** Founded with safety as its primary mission. Pioneered Constitutional AI.
+- **DeepMind (Google):** Has a dedicated safety team working on alignment and interpretability.
+- **OpenAI:** Originally focused on safety; now balances commercial and safety goals.
+- **MIRI (Machine Intelligence Research Institute):** Focuses on mathematical foundations of AI alignment.
+- **Center for AI Safety (CAIS):** Non-profit focused on reducing AI-related catastrophe.
 
-```python
-print("safety = alignment + robustness + governance")
-```
-### 4. Recognize safety as an engineering discipline
+### The Stakes
 
-Target: Recognize safety as an engineering discipline. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+Unlike other technologies where failure means a product doesn't work, AI failure can mean:
+- A biased algorithm denying people loans, healthcare, or freedom
+- A chatbot providing medical misinformation at scale
+- An autonomous system making decisions humans can't understand or override
+- In the extreme case, an advanced system pursuing goals misaligned with human survival
 
-```python
-print("you are already building AI systems -> safety is your job")
-```
+AI safety isn't about being anti-progress. It's about ensuring progress doesn't destroy what we're trying to improve.
 
-## Practice Questions
+---
 
-1. What is the key idea behind "Why AI Safety Matters"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
-
-## LLM Prompts for Deeper Understanding
-
-1. "Explain Why AI Safety Matters with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Why AI Safety Matters"
-1. "Provide advanced patterns and performance considerations for Why AI Safety Matters"
-
-## Key Takeaways
-
-- Master the core ideas of Why AI Safety Matters through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
-
-## Further Reading
-
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+*Continue to learn about bias and fairness — how discrimination becomes encoded in algorithms and how to fight it.*

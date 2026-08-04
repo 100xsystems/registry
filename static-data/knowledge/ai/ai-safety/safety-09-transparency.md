@@ -1,116 +1,106 @@
 ---
-{
-  "title": "Transparency & Disclosure",
-  "description": "Tell people when AI is involved: disclosure, provenance and model cards.",
-  "type": "lesson",
-  "order": 9,
-  "duration": "50 min",
-  "difficulty": "intermediate",
-  "learning_objectives": [
-    "Design user-facing AI disclosure",
-    "Use content provenance",
-    "Write model cards",
-    "Explain system limitations"
-  ],
-  "knowledge_refs": [
-    "ai-safety/safety-08-governance",
-    "generative-ai/genai-19-ethical-ai-and-safety",
-    "llm-engineering/llm-14-guardrails-and-safety"
-  ],
-  "prerequisites": [
-    "SAFETY-08: AI Governance & Policy"
-  ],
-  "references": [
-    {
-      "title": "The Alignment Problem — Brian Christian",
-      "url": "https://www.brianchristian.org/the-alignment-problem/",
-      "description": "A narrative history of AI alignment research."
-    },
-    {
-      "title": "AI Safety Fundamentals",
-      "url": "https://aisafetyfundamentals.com/",
-      "description": "Courses and readings on AI safety topics."
-    },
-    {
-      "title": "Fairness in Machine Learning (Google)",
-      "url": "https://developers.google.com/machine-learning/fairness-overview",
-      "description": "A practical overview of ML fairness."
-    },
-    {
-      "title": "Model Cards for Model Reporting",
-      "url": "https://arxiv.org/abs/1810.03993",
-      "description": "The paper introducing model cards."
-    },
-    {
-      "title": "Anthropic — Red Teaming",
-      "url": "https://www.anthropic.com/news/red-teaming-language-models",
-      "description": "Practices for adversarial testing of AI systems."
-    }
-  ]
-}
+slug: safety-09-transparency
+title: "Transparency & Disclosure"
+description: "Making AI decisions visible — model cards, data sheets, disclosure requirements, and content watermarking."
+order: 9
+tags:
+  - ai-safety
+  - transparency
+  - disclosure
+  - model-cards
+  - watermarking
+prerequisites:
+  - safety-08-governance
+knowledge_refs:
+  - safety-08-governance
+    title: "AI Governance & Policy"
+  - safety-03-interpretability
+    title: "Interpretability & Explainability"
+  - safety-13-auditing-models
+    title: "Auditing AI Systems"
+references:
+  - title: "Model Cards for Model Reporting (Mitchell et al., 2019)"
+    url: "https://arxiv.org/abs/1802.08100"
+  - title: "Datasheets for Datasets (Gebru et al., 2021)"
+    url: "https://arxiv.org/abs/1803.09010"
+  - title: "Google Model Cards"
+    url: "https://modelcards.withgoogle.com/"
+  - title: "EU AI Act — Transparency Requirements"
+    url: "https://artificialintelligenceact.eu/the-act/"
+  - title: "C2PA — Content Provenance and Authenticity"
+    url: "https://c2pa.org/"
 ---
 
-# SAFETY-09-TRANSPARENCY: Transparency & Disclosure
+## Transparency & Disclosure
 
-## Introduction
+Transparency is the practice of making AI systems' capabilities, limitations, and decision-making processes visible to users, regulators, and affected parties. Without transparency, accountability is impossible.
 
-Tell people when AI is involved: disclosure, provenance and model cards. By the end of this lesson you will be able to: Design user-facing AI disclosure; Use content provenance; Write model cards; Explain system limitations.
+### Why Transparency Matters
 
-## Key Concepts
+**User trust:** People need to know when they're interacting with AI and how the AI makes decisions.
 
-### 1. Design user-facing AI disclosure
+**Accountability:** When AI causes harm, transparency enables investigation and redress.
 
-Target: Design user-facing AI disclosure. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+**Regulation:** The EU AI Act requires transparency for high-risk AI systems — users must be told when AI is being used in consequential decisions.
 
-```python
-model_card = {
-    "model": "churn-predictor v2",
-    "intended_use": "marketing outreach",
-    "limitations": "not for credit decisions",
-    "data": "2023 customer data",
-}
-print(model_card)
-```
-### 2. Use content provenance
+**Market trust:** Companies deploying AI transparently face less regulatory backlash and build more user trust.
 
-Target: Use content provenance. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+### Model Cards
 
-```python
-print("disclosure: users should know they are talking to AI")
-```
-### 3. Write model cards
+Model cards (Mitchell et al., 2019) are standardized documents that describe:
+- What the model does
+- How it was trained
+- What data it was trained on
+- Where it performs well and where it fails
+- Known biases and limitations
 
-Target: Write model cards. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+Google publishes model cards for all its AI models. They've become an industry standard for model documentation.
 
-```python
-print("provenance: labels and watermarks for generated content")
-```
-### 4. Explain system limitations
+### Data Sheets for Datasets
 
-Target: Explain system limitations. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+Data sheets (Gebru et al., 2021) document:
+- Motivation for creating the dataset
+- Composition and collection process
+- Preprocessing and cleaning steps
+- Uses and distribution
+- Maintenance and update plans
 
-```python
-print("document limitations honestly")
-```
+Without knowing what data a model was trained on, you can't assess its biases or limitations.
 
-## Practice Questions
+### Disclosure Requirements
 
-1. What is the key idea behind "Transparency & Disclosure"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+The EU AI Act mandates specific disclosures:
 
-## LLM Prompts for Deeper Understanding
+**Chatbots:** Must disclose they're AI, not human.
 
-1. "Explain Transparency & Disclosure with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Transparency & Disclosure"
-1. "Provide advanced patterns and performance considerations for Transparency & Disclosure"
+**Deepfakes:** Must be labeled as AI-generated.
 
-## Key Takeaways
+**High-risk AI:** Users must be informed when AI is used in decisions affecting them (hiring, lending, law enforcement).
 
-- Master the core ideas of Transparency & Disclosure through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+**Emotion recognition:** Must be disclosed when used in workplaces or educational institutions.
 
-## Further Reading
+### Content Watermarking
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+As AI-generated content becomes indistinguishable from human-created content, watermarking becomes essential:
+
+**C2PA (Content Provenance and Authenticity):** Industry standard for embedding provenance metadata in images, video, and audio. Shows when content was created, by what tool, and whether it's been modified.
+
+**Statistical watermarking:** Embedding invisible patterns in AI-generated text that can be detected by specialized tools.
+
+**Invisible watermarks:** Embedding information in AI-generated images that survives compression, cropping, and editing.
+
+### Transparency Pitfalls
+
+- **Transparency theater:** Publishing documents that look comprehensive but don't actually explain anything meaningful.
+- **Overwhelming detail:** Too much technical detail makes transparency useless for non-experts.
+- **Ignoring limitations:** A model card that only lists strengths isn't transparent.
+
+### Common Mistakes
+
+- **No model documentation:** Deploying without model cards or data sheets.
+- **Hidden AI use:** Using AI in consequential decisions without informing affected people.
+- **Assuming transparency is enough:** Transparency without accountability is just disclosure.
+
+---
+
+*Continue to learn about safety evaluations — systematically testing AI systems for safety.*

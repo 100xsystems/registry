@@ -1,111 +1,77 @@
 ---
-{
-  "title": "Red Teaming",
-  "description": "Adversarial testing by skilled humans — find failures before users do.",
-  "type": "lesson",
-  "order": 11,
-  "duration": "55 min",
-  "difficulty": "advanced",
-  "learning_objectives": [
-    "Design a red-team campaign",
-    "Write adversarial test cases",
-    "Triage and fix findings",
-    "Institutionalize red teaming"
-  ],
-  "knowledge_refs": [
-    "ai-safety/safety-10-safety-evaluations",
-    "generative-ai/genai-19-ethical-ai-and-safety",
-    "llm-engineering/llm-14-guardrails-and-safety"
-  ],
-  "prerequisites": [
-    "SAFETY-10: Safety Evaluations"
-  ],
-  "references": [
-    {
-      "title": "The Alignment Problem — Brian Christian",
-      "url": "https://www.brianchristian.org/the-alignment-problem/",
-      "description": "A narrative history of AI alignment research."
-    },
-    {
-      "title": "AI Safety Fundamentals",
-      "url": "https://aisafetyfundamentals.com/",
-      "description": "Courses and readings on AI safety topics."
-    },
-    {
-      "title": "Fairness in Machine Learning (Google)",
-      "url": "https://developers.google.com/machine-learning/fairness-overview",
-      "description": "A practical overview of ML fairness."
-    },
-    {
-      "title": "Model Cards for Model Reporting",
-      "url": "https://arxiv.org/abs/1810.03993",
-      "description": "The paper introducing model cards."
-    },
-    {
-      "title": "Anthropic — Red Teaming",
-      "url": "https://www.anthropic.com/news/red-teaming-language-models",
-      "description": "Practices for adversarial testing of AI systems."
-    }
-  ]
-}
+slug: safety-11-red-teaming
+title: "Red Teaming"
+description: "Adversarial testing to find AI safety failures before deployment — human red teams, automated red-teaming, and systematic attack frameworks."
+order: 11
+tags:
+  - ai-safety
+  - red-teaming
+  - adversarial-testing
+  - security
+prerequisites:
+  - safety-10-safety-evaluations
+knowledge_refs:
+  - safety-10-safety-evaluations
+    title: "Safety Evaluations"
+  - safety-12-guardrails
+    title: "Guardrails & Content Moderation"
+  - safety-05-robustness
+    title: "Robustness & Adversarial Examples"
+references:
+  - title: "AI Red-Teaming Design: Threat Models and Tools — CSET"
+    url: "https://cset.georgetown.edu/article/ai-red-teaming-design-threat-models-and-tools/"
+  - title: "Microsoft AI Red Team"
+    url: "https://learn.microsoft.com/en-us/security/ai-red-team/"
+  - title: "MITRE ATLAS"
+    url: "https://atlas.mitre.org/"
+  - title: "What Is AI Red Teaming? — Palo Alto Networks"
+    url: "https://www.paloaltonetworks.com/cyberpedia/what-is-ai-red-teaming"
+  - title: "NIST AI 100-2: Adversarial Machine Learning"
+    url: "https://csrc.nist.gov/pubs/ai/100/2/e2025/final"
 ---
 
-# SAFETY-11-RED-TEAMING: Red Teaming
+## Red Teaming
 
-## Introduction
+Red teaming is the practice of deliberately attacking an AI system to find failures before real adversaries do. It's adversarial testing with a creative, human-driven component that automated benchmarks can't replicate.
 
-Adversarial testing by skilled humans — find failures before users do. By the end of this lesson you will be able to: Design a red-team campaign; Write adversarial test cases; Triage and fix findings; Institutionalize red teaming.
+### What Makes AI Red Teaming Different
 
-## Key Concepts
+Traditional software red testing targets infrastructure — network vulnerabilities, access controls, SQL injection. AI red teaming targets **probabilistic behavior and semantic vulnerabilities**:
+- Can the model be tricked into generating harmful content?
+- Can prompt injection bypass safety instructions?
+- Can the model be manipulated to leak training data?
+- Can the model's behavior be hijacked through multi-turn conversations?
 
-### 1. Design a red-team campaign
+### Human vs. Automated Red Teaming
 
-Target: Design a red-team campaign. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+**Human red teams** bring multidisciplinary expertise — security researchers, ML engineers, sociologists, domain specialists. They think creatively, combining techniques and adapting strategies in real time. They find novel attack vectors that no one thought to test.
 
-```python
-print("red team: try to make the system fail safely")
-```
-### 2. Write adversarial test cases
+**Automated red-teaming** scales evaluation. Tools generate thousands of adversarial prompts, measure attack success rates, and systematically explore the attack surface. Microsoft's PyRIT (Python Risk Identification Tool) automates generative AI red-teaming with iterative attack loops.
 
-Target: Write adversarial test cases. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+**Hybrid approaches** combine both: automated tools generate candidate attacks, human experts evaluate and refine the most promising ones.
 
-```python
-focus = ["injection", "jailbreaks", "bias", "data leakage"]
-print(focus)
-```
-### 3. Triage and fix findings
+### Red Team Methodology
 
-Target: Triage and fix findings. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+1. **Define the threat model:** What are you protecting against? Who are the adversaries? What are the potential harms?
+2. **Scope the exercise:** Single model, multi-step agent workflow, API, or full application stack?
+3. **Design attack categories:** Prompt injection, jailbreaks, data extraction, bias triggering, hallucination induction
+4. **Execute and document:** Record every attack vector, success rate, and impact
+5. **Remediate and retest:** Fix the vulnerabilities and verify the fixes work
 
-```python
-print("triage: severity x likelihood, then fix + retest")
-```
-### 4. Institutionalize red teaming
+### Key Frameworks
 
-Target: Institutionalize red teaming. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+**MITRE ATLAS:** The standard knowledge base mapping adversary tactics and techniques against AI systems. Based on real-world threat observations.
 
-```python
-print("diverse testers find diverse failures")
-```
+**Garak:** Open-source tool for benchmark-style red-teaming of LLMs. Tests for known vulnerability categories.
 
-## Practice Questions
+**Inspect:** UK AISI's evaluation harness for systematic safety testing.
 
-1. What is the key idea behind "Red Teaming"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+### Common Mistakes
 
-## LLM Prompts for Deeper Understanding
+- **Treating red-teaming as one-time:** Attack methods evolve. Red-teaming must be continuous.
+- **Only testing happy paths:** The most dangerous failures come from adversarial inputs, not normal usage.
+- **No remediation pipeline:** Finding vulnerabilities without fixing them is just documentation.
 
-1. "Explain Red Teaming with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Red Teaming"
-1. "Provide advanced patterns and performance considerations for Red Teaming"
+---
 
-## Key Takeaways
-
-- Master the core ideas of Red Teaming through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
-
-## Further Reading
-
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+*Continue to learn about guardrails — the runtime safety systems that protect AI in production.*

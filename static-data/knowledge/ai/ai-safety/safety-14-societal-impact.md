@@ -1,112 +1,90 @@
 ---
-{
-  "title": "Societal Impact of AI",
-  "description": "Jobs, information ecosystems, inequality and the second-order effects of AI.",
-  "type": "lesson",
-  "order": 14,
-  "duration": "50 min",
-  "difficulty": "intermediate",
-  "learning_objectives": [
-    "Analyze labor market effects",
-    "Discuss misinformation dynamics",
-    "Consider global inequality",
-    "Identify responsible deployment choices"
-  ],
-  "knowledge_refs": [
-    "ai-safety/safety-13-auditing-models",
-    "generative-ai/genai-19-ethical-ai-and-safety",
-    "llm-engineering/llm-14-guardrails-and-safety"
-  ],
-  "prerequisites": [
-    "SAFETY-08: AI Governance & Policy"
-  ],
-  "references": [
-    {
-      "title": "The Alignment Problem — Brian Christian",
-      "url": "https://www.brianchristian.org/the-alignment-problem/",
-      "description": "A narrative history of AI alignment research."
-    },
-    {
-      "title": "AI Safety Fundamentals",
-      "url": "https://aisafetyfundamentals.com/",
-      "description": "Courses and readings on AI safety topics."
-    },
-    {
-      "title": "Fairness in Machine Learning (Google)",
-      "url": "https://developers.google.com/machine-learning/fairness-overview",
-      "description": "A practical overview of ML fairness."
-    },
-    {
-      "title": "Model Cards for Model Reporting",
-      "url": "https://arxiv.org/abs/1810.03993",
-      "description": "The paper introducing model cards."
-    },
-    {
-      "title": "Anthropic — Red Teaming",
-      "url": "https://www.anthropic.com/news/red-teaming-language-models",
-      "description": "Practices for adversarial testing of AI systems."
-    }
-  ]
-}
+slug: safety-14-societal-impact
+title: "Societal Impact of AI"
+description: "How AI transforms society — job displacement, economic inequality, the digital divide, cultural impact, and power concentration."
+order: 14
+tags:
+  - ai-safety
+  - societal-impact
+  - job-displacement
+  - inequality
+  - power-concentration
+prerequisites:
+  - safety-01-why-ai-safety
+knowledge_refs:
+  - safety-01-why-ai-safety
+    title: "Why AI Safety Matters"
+  - safety-02-bias-and-fairness
+    title: "Bias & Fairness"
+  - safety-17-values-alignment
+    title: "Designing for Human Values"
+references:
+  - title: "UNESCO — AI and the Digital Divide"
+    url: "https://www.unesco.org/en/artificial-intelligence"
+  - title: "World Bank — AI and Development"
+    url: "https://www.worldbank.org/en/topic/digitaldevelopment"
+  - title: "McKinsey — The Economic Potential of Generative AI"
+    url: "https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/the-economic-potential-of-generative-ai-the-next-productivity-frontier"
+  - title: "OECD — AI and the Future of Work"
+    url: "https://www.oecd.org/en/topics/sub-issues/ai-and-work.html"
+  - title: "Center for AI Safety — AI Safety, Ethics, and Society"
+    url: "https://www.aisafetybook.com/"
 ---
 
-# SAFETY-14-SOCIETAL-IMPACT: Societal Impact of AI
+## Societal Impact of AI
 
-## Introduction
+AI doesn't just affect individuals — it reshapes entire societies. Understanding these macro-level impacts is essential for building AI that benefits everyone, not just the few.
 
-Jobs, information ecosystems, inequality and the second-order effects of AI. By the end of this lesson you will be able to: Analyze labor market effects; Discuss misinformation dynamics; Consider global inequality; Identify responsible deployment choices.
+### Job Displacement and Transformation
 
-## Key Concepts
+AI automates not just manual labor but cognitive tasks — writing, coding, analysis, customer service, legal research. Unlike previous automation waves that affected blue-collar jobs, AI affects white-collar work.
 
-### 1. Analyze labor market effects
+**The transformation pattern:**
+- Some jobs disappear entirely
+- Many jobs change significantly (AI as copilot, not replacement)
+- New jobs emerge (AI trainers, prompt engineers, AI safety specialists)
+- The transition period creates disruption even if the long-term outcome is positive
 
-Target: Analyze labor market effects. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+**Key concern:** The speed of displacement may outpace the creation of new opportunities, leading to structural unemployment.
 
-```python
-impacts = ["automation", "misinformation", "concentration of power", "access gaps"]
-for i in impacts:
-    print(f"- {i}")
-```
-### 2. Discuss misinformation dynamics
+### Economic Inequality
 
-Target: Discuss misinformation dynamics. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+AI risks amplifying existing inequality:
+- **Winner-take-all dynamics:** Companies with the best AI gain enormous advantages, concentrating wealth
+- **Skill premium:** Workers who can leverage AI earn more; those who can't fall behind
+- **Geographic concentration:** AI development is concentrated in a few countries and cities
+- **Capital vs. labor:** AI favors capital owners over workers, potentially widening the wealth gap
 
-```python
-print("deployment choices are value choices")
-```
-### 3. Consider global inequality
+### The Digital Divide
 
-Target: Consider global inequality. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+AI's benefits aren't equally accessible:
+- **Access divide:** Who has access to AI tools and the internet to use them?
+- **Literacy divide:** Who knows how to use AI effectively?
+- **Language divide:** Most AI is trained on English, creating disparities for non-English speakers
+- **Data divide:** Communities underrepresented in training data receive worse AI services
 
-```python
-print("who benefits, who is harmed, who decides?")
-```
-### 4. Identify responsible deployment choices
+### Power Concentration
 
-Target: Identify responsible deployment choices. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+AI concentrates power in several ways:
+- **Corporate power:** A handful of companies control the most capable AI systems
+- **Government power:** AI enables unprecedented surveillance and social control
+- **Expert power:** AI development requires specialized knowledge accessible to few
+- **Data power:** Organizations with the most data have the strongest AI
 
-```python
-print("design for the margins, not just the average user")
-```
+### Cultural Impact
 
-## Practice Questions
+AI shapes culture through:
+- **Content generation:** AI-generated media blurs the line between human and machine creation
+- **Recommendation algorithms:** AI determines what information people see
+- **Automation of creativity:** AI tools change how art, music, and literature are created
+- **Homogenization:** AI trained on dominant cultural data may marginalize minority perspectives
 
-1. What is the key idea behind "Societal Impact of AI"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+### Common Mistakes
 
-## LLM Prompts for Deeper Understanding
+- **Ignoring distributional effects:** "AI creates wealth" doesn't mean it creates wealth for everyone.
+- **Assuming market solutions:** Markets alone don't address inequality or access divides.
+- **Tech optimism without evidence:** Hoping AI will "lift all boats" without active policy intervention.
 
-1. "Explain Societal Impact of AI with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Societal Impact of AI"
-1. "Provide advanced patterns and performance considerations for Societal Impact of AI"
+---
 
-## Key Takeaways
-
-- Master the core ideas of Societal Impact of AI through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
-
-## Further Reading
-
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+*Continue to learn from real-world AI safety case studies — what went wrong and what we learned.*

@@ -1,116 +1,86 @@
 ---
-{
-  "title": "Bias & Fairness",
-  "description": "Measure and mitigate bias: metrics, audits and the human choices behind them.",
-  "type": "lesson",
-  "order": 2,
-  "duration": "60 min",
-  "difficulty": "intermediate",
-  "learning_objectives": [
-    "Define fairness and its competing metrics",
-    "Measure disparate impact",
-    "Mitigate bias at data, model and post-processing",
-    "Audit models for bias"
-  ],
-  "knowledge_refs": [
-    "ai-safety/safety-01-why-ai-safety",
-    "generative-ai/genai-19-ethical-ai-and-safety",
-    "llm-engineering/llm-14-guardrails-and-safety"
-  ],
-  "prerequisites": [
-    "SAFETY-01: Why AI Safety Matters"
-  ],
-  "references": [
-    {
-      "title": "The Alignment Problem — Brian Christian",
-      "url": "https://www.brianchristian.org/the-alignment-problem/",
-      "description": "A narrative history of AI alignment research."
-    },
-    {
-      "title": "AI Safety Fundamentals",
-      "url": "https://aisafetyfundamentals.com/",
-      "description": "Courses and readings on AI safety topics."
-    },
-    {
-      "title": "Fairness in Machine Learning (Google)",
-      "url": "https://developers.google.com/machine-learning/fairness-overview",
-      "description": "A practical overview of ML fairness."
-    },
-    {
-      "title": "Model Cards for Model Reporting",
-      "url": "https://arxiv.org/abs/1810.03993",
-      "description": "The paper introducing model cards."
-    },
-    {
-      "title": "Anthropic — Red Teaming",
-      "url": "https://www.anthropic.com/news/red-teaming-language-models",
-      "description": "Practices for adversarial testing of AI systems."
-    }
-  ]
-}
+slug: safety-02-bias-and-fairness
+title: "Bias & Fairness"
+description: "How discrimination becomes encoded in machine learning systems, the mathematical definitions of fairness, and strategies for mitigation."
+order: 2
+tags:
+  - ai-safety
+  - bias
+  - fairness
+  - algorithmic-bias
+  - discrimination
+prerequisites:
+  - safety-01-why-ai-safety
+knowledge_refs:
+  - safety-01-why-ai-safety
+    title: "Why AI Safety Matters"
+  - safety-06-privacy
+    title: "Privacy & Data Protection"
+  - safety-14-societal-impact
+    title: "Societal Impact of AI"
+references:
+  - title: "Google ML Crash Course — Fairness: Types of Bias"
+    url: "https://developers.google.com/machine-learning/crash-course/fairness/types-of-bias"
+  - title: "Algorithmic Fairness in Computational Medicine"
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC9463525/"
+  - title: "Fairness (Machine Learning) — Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Fairness_(machine_learning)"
+  - title: "Fairness-Aware Machine Learning Engineering"
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10673752/"
+  - title: "ProPublica — Machine Bias: There's Software Used Across the Country to Predict Future Criminals"
+    url: "https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing"
 ---
 
-# SAFETY-02-BIAS-AND-FAIRNESS: Bias & Fairness
+## Bias & Fairness
 
-## Introduction
+Bias in AI isn't a bug — it's a feature of how data reflects the world as it is, not as it should be. Fairness engineering is the discipline of detecting, measuring, and mitigating these biases before they cause harm.
 
-Measure and mitigate bias: metrics, audits and the human choices behind them. By the end of this lesson you will be able to: Define fairness and its competing metrics; Measure disparate impact; Mitigate bias at data, model and post-processing; Audit models for bias.
+### Sources of Bias
 
-## Key Concepts
+Bias enters the ML pipeline at every stage:
 
-### 1. Define fairness and its competing metrics
+**Historical bias:** Past social inequities are embedded in training data. A hiring model trained on 20 years of data will learn that "successful" employees are mostly men — because that's what the historical data shows.
 
-Target: Define fairness and its competing metrics. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+**Representation bias:** Training data doesn't adequately represent certain groups. Facial recognition systems perform worse on dark-skinned faces because benchmark datasets are dominated by lighter-skinned individuals.
 
-```python
-import numpy as np
+**Measurement bias:** The way you measure the target variable introduces bias. Using healthcare costs as a proxy for healthcare needs undercounts minorities who have less access to care.
 
-# Disparate impact: approval rate ratio between groups
-group_a = np.array([1, 1, 0, 1])
-group_b = np.array([0, 0, 1, 0])
-ratio = group_a.mean() / group_b.mean()
-print("disparate impact:", round(ratio, 2))
-```
-### 2. Measure disparate impact
+**Reporting bias:** Unusual events get documented more. People report rare diseases more than common colds, skewing disease prevalence data.
 
-Target: Measure disparate impact. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+**Aggregation bias:** Group-level metrics mask poor performance on subgroups. A model with 95% overall accuracy might have 60% accuracy for a minority group.
 
-```python
-print("fairness metrics can conflict: choose deliberately")
-```
-### 3. Mitigate bias at data, model and post-processing
+### Fairness Definitions
 
-Target: Mitigate bias at data, model and post-processing. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+Fairness has multiple mathematical definitions, and Kleinberg's impossibility theorem proves they can't all be satisfied simultaneously:
 
-```python
-print("mitigate: reweight data, constrain the model, calibrate outputs")
-```
-### 4. Audit models for bias
+**Demographic parity:** The proportion of positive predictions should be equal across groups. If 30% of Group A gets approved for loans, 30% of Group B should too — regardless of base rates.
 
-Target: Audit models for bias. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+**Equalized odds:** True positive rates and false positive rates should be equal across groups. The model should make errors at the same rate regardless of group membership.
 
-```python
-print("audit: test on subgroups before launch")
-```
+**Calibration:** A prediction score means the same thing across groups. If the model assigns 70% risk to someone in Group A, roughly 70% of people in Group A with that score should actually be high-risk.
 
-## Practice Questions
+**Equal opportunity:** Equal true positive rates across groups. Everyone who deserves a positive outcome has the same chance of getting it.
 
-1. What is the key idea behind "Bias & Fairness"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+### Real-World Failures
 
-## LLM Prompts for Deeper Understanding
+- **COMPAS (2016):** Recidivism prediction software disproportionately flagged Black defendants as high-risk false positives compared to white defendants.
+- **Healthcare algorithm (2019):** A widely deployed algorithm assigned lower health risk scores to Black patients than sicker white patients because it used healthcare costs as a proxy.
+- **Amazon hiring tool (2018):** Scrapped after discovering it penalized resumes containing words associated with women's colleges.
 
-1. "Explain Bias & Fairness with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Bias & Fairness"
-1. "Provide advanced patterns and performance considerations for Bias & Fairness"
+### Mitigation Strategies
 
-## Key Takeaways
+**Pre-processing:** Modify training data before model training — reweighting, resampling, or removing features that correlate with protected attributes.
 
-- Master the core ideas of Bias & Fairness through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+**In-processing:** Add fairness constraints to the training objective. Adversarial debiasing trains the model to be accurate while preventing a secondary model from predicting protected attributes from the output.
 
-## Further Reading
+**Post-processing:** Adjust decision thresholds after training. Apply different thresholds for different groups to achieve equalized odds.
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+### Common Mistakes
+
+- **Ignoring protected attributes:** Removing gender from data doesn't remove gender bias — proxy variables like name, education, or zip code still correlate.
+- **Optimizing for one fairness metric:** No single metric captures all dimensions of fairness. Use multiple metrics.
+- **One-time auditing:** Bias is dynamic. Model behavior changes as data and usage patterns evolve.
+
+---
+
+*Continue to learn about interpretability — how to understand what AI systems are actually doing.*

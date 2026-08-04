@@ -1,118 +1,84 @@
 ---
-{
-  "title": "Privacy & Data Protection",
-  "description": "PII, memorization and differential privacy in AI systems.",
-  "type": "lesson",
-  "order": 6,
-  "duration": "55 min",
-  "difficulty": "intermediate",
-  "learning_objectives": [
-    "Identify privacy risks in ML pipelines",
-    "Explain model memorization",
-    "Apply differential privacy basics",
-    "Handle data subject rights"
-  ],
-  "knowledge_refs": [
-    "ai-safety/safety-05-robustness",
-    "generative-ai/genai-19-ethical-ai-and-safety",
-    "llm-engineering/llm-14-guardrails-and-safety"
-  ],
-  "prerequisites": [
-    "SAFETY-01: Why AI Safety Matters"
-  ],
-  "references": [
-    {
-      "title": "The Alignment Problem — Brian Christian",
-      "url": "https://www.brianchristian.org/the-alignment-problem/",
-      "description": "A narrative history of AI alignment research."
-    },
-    {
-      "title": "AI Safety Fundamentals",
-      "url": "https://aisafetyfundamentals.com/",
-      "description": "Courses and readings on AI safety topics."
-    },
-    {
-      "title": "Fairness in Machine Learning (Google)",
-      "url": "https://developers.google.com/machine-learning/fairness-overview",
-      "description": "A practical overview of ML fairness."
-    },
-    {
-      "title": "Model Cards for Model Reporting",
-      "url": "https://arxiv.org/abs/1810.03993",
-      "description": "The paper introducing model cards."
-    },
-    {
-      "title": "Anthropic — Red Teaming",
-      "url": "https://www.anthropic.com/news/red-teaming-language-models",
-      "description": "Practices for adversarial testing of AI systems."
-    }
-  ]
-}
+slug: safety-06-privacy
+title: "Privacy & Data Protection"
+description: "Protecting personal data in AI systems — differential privacy, federated learning, membership inference attacks, and GDPR compliance."
+order: 6
+tags:
+  - ai-safety
+  - privacy
+  - differential-privacy
+  - federated-learning
+  - gdpr
+prerequisites:
+  - safety-01-why-ai-safety
+knowledge_refs:
+  - safety-01-why-ai-safety
+    title: "Why AI Safety Matters"
+  - safety-02-bias-and-fairness
+    title: "Bias & Fairness"
+  - safety-16-data-governance
+    title: "Data Governance for AI"
+references:
+  - title: "Protecting Trained Models in Privacy-Preserving Federated Learning"
+    url: "https://rtau.blog.gov.uk/2024/07/15/protecting-trained-models-in-privacy-preserving-federated-learning/"
+  - title: "NIST — Adversarial Machine Learning: A Taxonomy and Terminology"
+    url: "https://csrc.nist.gov/pubs/ai/100/2/e2025/final"
+  - title: "ICO — Security and Data Minimisation in AI"
+    url: "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/how-should-we-assess-security-and-data-minimisation-in-ai/"
+  - title: "ICO — Introduction to Anonymisation"
+    url: "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-sharing/anonymisation/introduction-to-anonymisation/"
+  - title: "NIST — Membership-Inference Attack Glossary Definition"
+    url: "https://csrc.nist.gov/glossary/term/membership_inference_attack"
 ---
 
-# SAFETY-06-PRIVACY: Privacy & Data Protection
+## Privacy & Data Protection
 
-## Introduction
+AI systems consume vast amounts of data — and much of that data is personal. Privacy in AI isn't just a legal requirement; it's a fundamental safety concern. Models that leak personal data, memorize training examples, or enable surveillance pose serious risks.
 
-PII, memorization and differential privacy in AI systems. By the end of this lesson you will be able to: Identify privacy risks in ML pipelines; Explain model memorization; Apply differential privacy basics; Handle data subject rights.
+### Differential Privacy
 
-## Key Concepts
+Differential privacy (DP) provides mathematical guarantees that the inclusion or exclusion of any single individual's data doesn't significantly alter the model's output. It works by adding calibrated random noise to queries, model weights, or training updates.
 
-### 1. Identify privacy risks in ML pipelines
+**Key idea:** If you can't tell whether a specific person's data was used to train the model, their privacy is protected.
 
-Target: Identify privacy risks in ML pipelines. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+**Trade-off:** More privacy (more noise) means less accuracy. Organizations must balance privacy guarantees with model utility.
 
-```python
-import re
+### Federated Learning
 
-text = "email: ada@example.com"
-print(re.sub(r"[\w.+-]+@[\w-]+\.[\w.]+", "[PII]", text))
-```
-### 2. Explain model memorization
+Federated learning trains models across multiple devices without sharing raw data. Each device trains locally and sends only encrypted model updates (gradients) to a central server for aggregation.
 
-Target: Explain model memorization. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+**Benefits:** Raw data never leaves the device. This is how Google trains keyboard prediction models on millions of phones without collecting typing data.
 
-```python
-import numpy as np
+**Limitations:** Federated learning doesn't prevent all attacks — gradient updates can still leak information. Combining it with differential privacy provides stronger guarantees.
 
-# Differential privacy: add calibrated noise
-query = 42.0
-noisy = query + np.random.default_rng(0).laplace(0, 1.0)
-print("private answer:", round(noisy, 2))
-```
-### 3. Apply differential privacy basics
+### Data Minimization
 
-Target: Apply differential privacy basics. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+The GDPR principle of data minimization requires that AI systems process only the data strictly necessary for their purpose. In practice:
+- Use synthetic data where possible
+- Collect only required features
+- Delete data when no longer needed
+- Implement on-device processing
 
-```python
-print("large models can memorize training examples")
-```
-### 4. Handle data subject rights
+### Membership Inference Attacks
 
-Target: Handle data subject rights. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+An adversary can determine whether a specific data sample was in the model's training set by analyzing the model's confidence scores. If the model is more confident on a particular input, it was likely trained on it.
 
-```python
-print("GDPR/CCPA: right to access, erasure, explanation")
-```
+**Risk:** Membership inference can reveal that someone was a patient at a specific clinic, enrolled in a clinical trial, or present in a dataset — even without seeing the actual data.
 
-## Practice Questions
+**Defense:** Differential privacy, regularization, and limiting model overfitting reduce membership inference risk.
 
-1. What is the key idea behind "Privacy & Data Protection"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+### Anonymization vs. Pseudonymization
 
-## LLM Prompts for Deeper Understanding
+**Pseudonymization** replaces identifiers with tokens but the data remains personal because re-identification is possible with auxiliary information.
 
-1. "Explain Privacy & Data Protection with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Privacy & Data Protection"
-1. "Provide advanced patterns and performance considerations for Privacy & Data Protection"
+**Anonymization** completely removes the link to individuals. Differential privacy is increasingly recognized as a robust tool for achieving legal anonymization.
 
-## Key Takeaways
+### Common Mistakes
 
-- Master the core ideas of Privacy & Data Protection through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+- **Assuming deletion is deletion:** Models can memorize training data. Deleting the dataset doesn't delete what the model learned.
+- **Ignoring gradient leakage:** In federated learning, gradient updates can reconstruct training data without proper protection.
+- **Confusing pseudonymization with anonymization:** Pseudonymized data is still personal data under GDPR.
 
-## Further Reading
+---
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+*Continue to learn about hallucination — why AI systems generate false information and how to ground them in reality.*

@@ -1,111 +1,87 @@
 ---
-{
-  "title": "Data Governance for AI",
-  "description": "Source, quality, consent and retention — the data practices under safe AI.",
-  "type": "lesson",
-  "order": 16,
-  "duration": "55 min",
-  "difficulty": "intermediate",
-  "learning_objectives": [
-    "Document data provenance",
-    "Manage consent and rights",
-    "Control access and retention",
-    "Monitor data quality"
-  ],
-  "knowledge_refs": [
-    "ai-safety/safety-15-safety-case-studies",
-    "generative-ai/genai-19-ethical-ai-and-safety",
-    "llm-engineering/llm-14-guardrails-and-safety"
-  ],
-  "prerequisites": [
-    "SAFETY-06: Privacy & Data Protection"
-  ],
-  "references": [
-    {
-      "title": "The Alignment Problem — Brian Christian",
-      "url": "https://www.brianchristian.org/the-alignment-problem/",
-      "description": "A narrative history of AI alignment research."
-    },
-    {
-      "title": "AI Safety Fundamentals",
-      "url": "https://aisafetyfundamentals.com/",
-      "description": "Courses and readings on AI safety topics."
-    },
-    {
-      "title": "Fairness in Machine Learning (Google)",
-      "url": "https://developers.google.com/machine-learning/fairness-overview",
-      "description": "A practical overview of ML fairness."
-    },
-    {
-      "title": "Model Cards for Model Reporting",
-      "url": "https://arxiv.org/abs/1810.03993",
-      "description": "The paper introducing model cards."
-    },
-    {
-      "title": "Anthropic — Red Teaming",
-      "url": "https://www.anthropic.com/news/red-teaming-language-models",
-      "description": "Practices for adversarial testing of AI systems."
-    }
-  ]
-}
+slug: safety-16-data-governance
+title: "Data Governance for AI"
+description: "Managing the data that powers AI — data quality, lineage, documentation, ethics, and training data management."
+order: 16
+tags:
+  - ai-safety
+  - data-governance
+  - data-quality
+  - data-lineage
+  - training-data
+prerequisites:
+  - safety-06-privacy
+knowledge_refs:
+  - safety-06-privacy
+    title: "Privacy & Data Protection"
+  - safety-02-bias-and-fairness
+    title: "Bias & Fairness"
+  - safety-09-transparency
+    title: "Transparency & Disclosure"
+references:
+  - title: "Datasheets for Datasets — Gebru et al."
+    url: "https://arxiv.org/abs/1803.09010"
+  - title: "Data Governance for Machine Learning — Google"
+    url: "https://cloud.google.com/architecture/mlops-data-governance"
+  - title: "NIST AI RMF — Data Governance"
+    url: "https://www.nist.gov/itl/ai-risk-management-framework"
+  - title: "Data Management for AI — DAMA International"
+    url: "https://dama.org/"
+  - title: "Model Cards for Model Reporting"
+    url: "https://arxiv.org/abs/1802.08100"
 ---
 
-# SAFETY-16-DATA-GOVERNANCE: Data Governance for AI
+## Data Governance for AI
 
-## Introduction
+AI systems are only as good as their data. Data governance ensures that training data is high-quality, well-documented, ethically sourced, and properly managed throughout the AI lifecycle.
 
-Source, quality, consent and retention — the data practices under safe AI. By the end of this lesson you will be able to: Document data provenance; Manage consent and rights; Control access and retention; Monitor data quality.
+### Why Data Governance Matters
 
-## Key Concepts
+**Bias prevention:** Poorly governed data contains biases that models learn and amplify.
 
-### 1. Document data provenance
+**Regulatory compliance:** GDPR, CCPA, and the EU AI Act require documentation of data sources, processing, and usage.
 
-Target: Document data provenance. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+**Reproducibility:** Without data governance, you can't reproduce model results or audit model behavior.
 
-```python
-dataset_card = {"source": "user submissions", "consent": "explicit", "retention": "90 days"}
-print(dataset_card)
-```
-### 2. Manage consent and rights
+**Quality:** Garbage in, garbage out. Data quality directly determines model quality.
 
-Target: Manage consent and rights. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+### Core Principles
 
-```python
-print("every dataset needs a documented origin")
-```
-### 3. Control access and retention
+**Data quality:** Ensure accuracy, completeness, consistency, and timeliness. Invalid, missing, or outdated data produces unreliable models.
 
-Target: Control access and retention. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+**Data lineage:** Track where data came from, how it was transformed, and where it went. Every data point should have a traceable history.
 
-```python
-print("access control: least privilege for data too")
-```
-### 4. Monitor data quality
+**Data documentation:** Document datasets thoroughly — motivation, composition, collection process, preprocessing, uses, and maintenance. The "Datasheets for Datasets" framework (Gebru et al., 2021) provides a standard template.
 
-Target: Monitor data quality. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+**Data ethics:** Ensure data was collected ethically, with appropriate consent, and doesn't violate privacy rights.
 
-```python
-print("quality checks: schema, drift, licensing")
-```
+### Training Data Management
 
-## Practice Questions
+**Collection:** Document data sources, collection methods, and consent processes. Avoid scraping data without permission.
 
-1. What is the key idea behind "Data Governance for AI"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+**Preprocessing:** Document every transformation — cleaning, filtering, augmentation, normalization. Each step can introduce or mitigate bias.
 
-## LLM Prompts for Deeper Understanding
+**Versioning:** Version datasets like code. Changes in training data can dramatically change model behavior.
 
-1. "Explain Data Governance for AI with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Data Governance for AI"
-1. "Provide advanced patterns and performance considerations for Data Governance for AI"
+**Access control:** Restrict who can access sensitive training data. Implement role-based access and audit logging.
 
-## Key Takeaways
+### Dataset Documentation
 
-- Master the core ideas of Data Governance for AI through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+Every dataset should include:
+- **Motivation:** Why was this dataset created?
+- **Composition:** What does the data contain? What are the demographics?
+- **Collection:** How was the data gathered?
+- **Preprocessing:** What cleaning or transformations were applied?
+- **Uses:** What is the data intended for? What shouldn't it be used for?
+- **Distribution:** How is the data shared and maintained?
 
-## Further Reading
+### Common Mistakes
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+- **No data documentation:** Deploying models without knowing what data they were trained on.
+- **Ignoring data quality:** Assuming more data is always better — dirty data can be worse than less data.
+- **No version control:** Changing training data without tracking what changed and why.
+- **Ethical blind spots:** Using data collected without proper consent or that violates privacy.
+
+---
+
+*Continue to learn about designing for human values — embedding ethics into AI systems from the start.*

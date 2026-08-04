@@ -1,116 +1,126 @@
 ---
-{
-  "title": "AI Safety Roadmap",
-  "description": "Synthesize the course into a plan: apply safety to every system you build.",
-  "type": "lesson",
-  "order": 21,
-  "duration": "40 min",
-  "difficulty": "advanced",
-  "learning_objectives": [
-    "Design a personal safety practice plan",
-    "Apply safety evals to a real system",
-    "Contribute to governance processes",
-    "Continue learning deliberately"
-  ],
-  "knowledge_refs": [
-    "ai-safety/safety-20-safety-research",
-    "generative-ai/genai-19-ethical-ai-and-safety",
-    "llm-engineering/llm-14-guardrails-and-safety"
-  ],
-  "prerequisites": [
-    "SAFETY-20: The AI Safety Community & Research"
-  ],
-  "references": [
-    {
-      "title": "The Alignment Problem — Brian Christian",
-      "url": "https://www.brianchristian.org/the-alignment-problem/",
-      "description": "A narrative history of AI alignment research."
-    },
-    {
-      "title": "AI Safety Fundamentals",
-      "url": "https://aisafetyfundamentals.com/",
-      "description": "Courses and readings on AI safety topics."
-    },
-    {
-      "title": "Fairness in Machine Learning (Google)",
-      "url": "https://developers.google.com/machine-learning/fairness-overview",
-      "description": "A practical overview of ML fairness."
-    },
-    {
-      "title": "Model Cards for Model Reporting",
-      "url": "https://arxiv.org/abs/1810.03993",
-      "description": "The paper introducing model cards."
-    },
-    {
-      "title": "Anthropic — Red Teaming",
-      "url": "https://www.anthropic.com/news/red-teaming-language-models",
-      "description": "Practices for adversarial testing of AI systems."
-    }
-  ]
-}
+slug: safety-21-roadmap
+title: "AI Safety Roadmap"
+description: "Your learning path for AI safety — skills, courses, career opportunities, and future directions."
+order: 21
+tags:
+  - ai-safety
+  - roadmap
+  - career
+  - learning
+  - future
+prerequisites: []
+knowledge_refs:
+  - safety-01-why-ai-safety
+    title: "Why AI Safety Matters"
+  - safety-20-safety-research
+    title: "The AI Safety Community & Research"
+  - safety-04-alignment
+    title: "Alignment"
+references:
+  - title: "80,000 Hours — Upskill in Technical AI Safety"
+    url: "https://80000hours.org/2025/06/technical-ai-safety-upskilling-resources/"
+  - title: "80,000 Hours — AI Safety Technical Research Career Review"
+    url: "https://80000hours.org/career-reviews/ai-safety-technical-research/"
+  - title: "80,000 Hours — AI Safety Syllabus"
+    url: "https://80000hours.org/articles/ai-safety-syllabus/"
+  - title: "BlueDot Impact — AI Alignment Course"
+    url: "https://bluedotimpact.org/"
+  - title: "ARENA — Alignment Research Engineer Accelerator"
+    url: "https://www.aia safetyfundamentals.com/"
 ---
 
-# SAFETY-21-ROADMAP: AI Safety Roadmap
+## AI Safety Roadmap
 
-## Introduction
+This roadmap guides you from zero knowledge to a career in AI safety. The field needs researchers, engineers, policymakers, and communicators — not just ML PhDs.
 
-Synthesize the course into a plan: apply safety to every system you build. By the end of this lesson you will be able to: Design a personal safety practice plan; Apply safety evals to a real system; Contribute to governance processes; Continue learning deliberately.
+### Phase 1: Foundations (Weeks 1–4)
 
-## Key Concepts
+**Core knowledge:**
+- Read "Human Compatible" by Stuart Russell
+- Complete the AI Safety Fundamentals course (BlueDot Impact)
+- Watch introductory lectures from CAIS and Anthropic
 
-### 1. Design a personal safety practice plan
+**Technical prerequisites:**
+- Python programming
+- Basic machine learning (linear regression, classification, neural networks)
+- Probability and statistics fundamentals
 
-Target: Design a personal safety practice plan. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+### Phase 2: Deep Dive (Months 2–3)
 
-```python
-plan = {
-    1: "write a model card for your model",
-    2: "build a safety eval suite",
-    3: "run a red-team session",
-    4: "propose a governance process",
-}
-print(plan)
-```
-### 2. Apply safety evals to a real system
+**Choose a track:**
 
-Target: Apply safety evals to a real system. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+**Empirical safety:**
+- Mechanistic interpretability (TransformerLens, Anthropic's circuits research)
+- AI evaluations and red-teaming
+- Adversarial robustness
+- ARENA curriculum for hands-on projects
 
-```python
-print("safety is a practice, not a certification")
-```
-### 3. Contribute to governance processes
+**Theoretical safety:**
+- Alignment theory (MIRI readings, LessWrong sequences)
+- Game theory and multi-agent systems
+- Decision theory and agent foundations
 
-Target: Contribute to governance processes. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+**Policy and governance:**
+- EU AI Act and NIST AI RMF
+- AI ethics frameworks (IEEE, OECD)
+- Comparative regulatory analysis
 
-```python
-print("start small: document, evaluate, disclose")
-```
-### 4. Continue learning deliberately
+### Phase 3: Projects and Portfolio (Months 4–6)
 
-Target: Continue learning deliberately. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+**Build tangible work:**
+- Conduct safety evaluations on open-source models
+- Implement interpretability tools on transformer models
+- Write analysis of AI safety policy
+- Contribute to open-source safety tools (Garak, Inspect, NeMo Guardrails)
 
-```python
-print("learn: courses, papers, communities, postmortems")
-```
+**Community engagement:**
+- Attend AI safety conferences (NeurIPS safety workshops, AI Safety Summit)
+- Join research reading groups
+- Participate in MATS or similar fellowship programs
 
-## Practice Questions
+### Phase 4: Career Entry (Months 6–12)
 
-1. What is the key idea behind "AI Safety Roadmap"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+**Job paths:**
+- **Research engineer:** Build safety tools, run evaluations, implement interpretability
+- **Research contributor:** Design and execute safety experiments
+- **Policy analyst:** Shape AI governance and regulation
+- **Safety consultant:** Help organizations implement responsible AI practices
 
-## LLM Prompts for Deeper Understanding
+**Target organizations:**
+- Frontier labs (Anthropic, DeepMind, OpenAI)
+- Safety non-profits (CAIS, ARC, Redwood, FAR.AI)
+- Academic research groups (UC Berkeley CHAI, Mila)
+- Government and international organizations
 
-1. "Explain AI Safety Roadmap with analogies and real-world examples"
-1. "Show me common mistakes beginners make with AI Safety Roadmap"
-1. "Provide advanced patterns and performance considerations for AI Safety Roadmap"
+### Skills That Matter
 
-## Key Takeaways
+**Technical:** ML experimentation, Python, PyTorch, evaluation frameworks, mechanistic interpretability tools.
 
-- Master the core ideas of AI Safety Roadmap through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+**Research:** Critical thinking, experimental design, writing, literature review.
 
-## Further Reading
+**Communication:** Explaining technical safety concepts to non-technical audiences.
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+**Ethics:** Understanding philosophical foundations of values, fairness, and human rights.
+
+### Future Directions
+
+**Mechanistic interpretability:** Reverse-engineering neural networks to understand their internal algorithms.
+
+**Scalable oversight:** Developing methods to supervise AI systems that surpass human capabilities.
+
+**Cooperative AI:** Ensuring multi-agent AI systems interact safely.
+
+**AI governance:** Building international frameworks for AI safety standards.
+
+### Your Next Steps
+
+1. **Start with one course.** BlueDot Impact's AI Safety Fundamentals is the best entry point.
+2. **Pick a subfield.** Interpretable ML, evaluations, policy, or alignment theory.
+3. **Build something.** Apply your learning to a concrete project.
+4. **Join the community.** Connect with other people working on safety.
+5. **Stay current.** The field evolves rapidly. Follow researchers, read papers, and keep learning.
+
+---
+
+*Congratulations on completing the AI Safety course. You now have the knowledge to understand, evaluate, and contribute to making AI systems safe for everyone.*

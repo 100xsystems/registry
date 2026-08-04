@@ -1,115 +1,92 @@
 ---
-{
-  "title": "Robustness & Adversarial Examples",
-  "description": "Models that break under tiny perturbations — and how to harden them.",
-  "type": "lesson",
-  "order": 5,
-  "duration": "55 min",
-  "difficulty": "advanced",
-  "learning_objectives": [
-    "Explain adversarial examples",
-    "Generate simple adversarial perturbations",
-    "Defend with augmentation and adversarial training",
-    "Test robustness systematically"
-  ],
-  "knowledge_refs": [
-    "ai-safety/safety-04-alignment",
-    "generative-ai/genai-19-ethical-ai-and-safety",
-    "llm-engineering/llm-14-guardrails-and-safety"
-  ],
-  "prerequisites": [
-    "SAFETY-03: Interpretability & Explainability"
-  ],
-  "references": [
-    {
-      "title": "The Alignment Problem — Brian Christian",
-      "url": "https://www.brianchristian.org/the-alignment-problem/",
-      "description": "A narrative history of AI alignment research."
-    },
-    {
-      "title": "AI Safety Fundamentals",
-      "url": "https://aisafetyfundamentals.com/",
-      "description": "Courses and readings on AI safety topics."
-    },
-    {
-      "title": "Fairness in Machine Learning (Google)",
-      "url": "https://developers.google.com/machine-learning/fairness-overview",
-      "description": "A practical overview of ML fairness."
-    },
-    {
-      "title": "Model Cards for Model Reporting",
-      "url": "https://arxiv.org/abs/1810.03993",
-      "description": "The paper introducing model cards."
-    },
-    {
-      "title": "Anthropic — Red Teaming",
-      "url": "https://www.anthropic.com/news/red-teaming-language-models",
-      "description": "Practices for adversarial testing of AI systems."
-    }
-  ]
-}
+slug: safety-05-robustness
+title: "Robustness & Adversarial Examples"
+description: "Making AI systems reliable under attack — adversarial examples, adversarial training, certified robustness, and out-of-distribution detection."
+order: 5
+tags:
+  - ai-safety
+  - robustness
+  - adversarial-examples
+  - adversarial-training
+  - ood-detection
+prerequisites:
+  - safety-03-interpretability
+knowledge_refs:
+  - safety-03-interpretability
+    title: "Interpretability & Explainability"
+  - safety-07-hallucination
+    title: "Hallucination & Factualness"
+  - safety-10-safety-evaluations
+    title: "Safety Evaluations"
+references:
+  - title: "Adversarial Machine Learning — Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Adversarial_machine_learning"
+  - title: "AI Safety — Wikipedia"
+    url: "https://en.wikipedia.org/wiki/AI_safety"
+  - title: "AI Alignment — Wikipedia"
+    url: "https://en.wikipedia.org/wiki/AI_alignment"
+  - title: "Anomaly Detection — Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Anomaly_detection"
+  - title: "Towards Deep Learning Models Resistant to Adversarial Attacks (Madry et al., 2018)"
+    url: "https://arxiv.org/abs/1706.06083"
 ---
 
-# SAFETY-05-ROBUSTNESS: Robustness & Adversarial Examples
+## Robustness & Adversarial Examples
 
-## Introduction
+A model that works perfectly on test data can fail catastrophically when the input is slightly perturbed. Robustness is about ensuring AI systems remain reliable under adversarial attack, distributional shift, and unexpected inputs.
 
-Models that break under tiny perturbations — and how to harden them. By the end of this lesson you will be able to: Explain adversarial examples; Generate simple adversarial perturbations; Defend with augmentation and adversarial training; Test robustness systematically.
+### Adversarial Examples
 
-## Key Concepts
+Adversarial examples are inputs purposefully modified with small, often imperceptible perturbations that cause the model to make confident wrong predictions.
 
-### 1. Explain adversarial examples
+**How they work:** Neural networks learn decision boundaries that are locally smooth but globally complex. Small perturbations in high-dimensional space can cross these boundaries, even though the perturbation is invisible to humans.
 
-Target: Explain adversarial examples. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+**Real-world implications:**
+- A stop sign modified with stickers is misclassified by a self-driving car
+- A 3D-printed object fools facial recognition systems
+- Slight audio perturbations cause speech-to-text to transcribe wrong words
+- Text-based prompt injections can manipulate LLM behavior
 
-```python
-import numpy as np
+### Attack Types
 
-# Tiny perturbation flips a prediction
-x = np.array([1.0, 0.0])
-adv = x + 0.05 * np.array([-1.0, 1.0])
-print("perturbed:", adv)
-```
-### 2. Generate simple adversarial perturbations
+**White-box attacks:** The attacker has full access to model weights and gradients.
+- **FGSM (Fast Gradient Sign Method):** Adds noise in the direction of the gradient — fast but limited.
+- **PGD (Projected Gradient Descent):** Iterative FGSM with projection — stronger, considered the gold standard for evaluating defenses.
+- **C&W (Carlini & Wagner):** Optimization-based attacks that find minimal perturbations.
 
-Target: Generate simple adversarial perturbations. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+**Black-box attacks:** The attacker only has query access. They often exploit **transferability** — adversarial examples generated for one model often fool other models trained on similar data.
 
-```python
-print("human-invisible changes can flip model outputs")
-```
-### 3. Defend with augmentation and adversarial training
+### Defenses
 
-Target: Defend with augmentation and adversarial training. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+**Adversarial training:** The most effective defense. Generate adversarial examples during training and include them in the training set. This teaches the model to be robust to perturbations.
 
-```python
-print("defense: adversarial training, augmentation, smoothing")
-```
-### 4. Test robustness systematically
+The core trade-off: adversarial training costs 2–10× more compute and often reduces clean accuracy by 5–15%. Robustness comes at a price.
 
-Target: Test robustness systematically. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+**Certified robustness:** Mathematical guarantees that predictions won't change within a specified perturbation region.
+- **Randomized smoothing:** Adds Gaussian noise to inputs and takes majority vote over multiple noisy versions
+- **Interval bound propagation:** Computes worst-case outputs over input regions
 
-```python
-print("robustness evals belong in the test suite")
-```
+**Input validation:** Detect and reject inputs that look adversarial before they reach the model.
 
-## Practice Questions
+### Out-of-Distribution Detection
 
-1. What is the key idea behind "Robustness & Adversarial Examples"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+Standard ML assumes training and test data come from the same distribution. In reality, deployed models encounter data far outside their training distribution.
 
-## LLM Prompts for Deeper Understanding
+**OOD detection techniques:**
+- Energy-based scoring
+- Maximum softmax probability
+- Density estimation
+- Vision-language alignment (using CLIP-like models to detect semantic outliers)
 
-1. "Explain Robustness & Adversarial Examples with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Robustness & Adversarial Examples"
-1. "Provide advanced patterns and performance considerations for Robustness & Adversarial Examples"
+Without OOD detection, models produce overconfident wrong predictions on novel inputs. In safety-critical applications, the ability to say "I don't know" is as important as getting the right answer.
 
-## Key Takeaways
+### Common Mistakes
 
-- Master the core ideas of Robustness & Adversarial Examples through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+- **Assuming adversarial robustness transfers:** Defenses against one attack type don't necessarily protect against others.
+- **Ignoring the accuracy-robustness trade-off:** Making models more robust often reduces their accuracy on clean data.
+- **Testing with weak attacks:** Evaluating robustness against FGSM but not PGD gives false confidence.
+- **No OOD detection:** Deploying without the ability to detect unusual inputs is dangerous.
 
-## Further Reading
+---
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+*Continue to learn about privacy — protecting data and preventing information leakage in AI systems.*

@@ -1,117 +1,88 @@
 ---
-{
-  "title": "Interpretability & Explainability",
-  "description": "Understand why models decide: feature importance, saliency and post-hoc explanations.",
-  "type": "lesson",
-  "order": 3,
-  "duration": "55 min",
-  "difficulty": "intermediate",
-  "learning_objectives": [
-    "Explain local vs global interpretability",
-    "Use SHAP and LIME",
-    "Read saliency maps",
-    "Know the limits of explanations"
-  ],
-  "knowledge_refs": [
-    "ai-safety/safety-02-bias-and-fairness",
-    "generative-ai/genai-19-ethical-ai-and-safety",
-    "llm-engineering/llm-14-guardrails-and-safety"
-  ],
-  "prerequisites": [
-    "SAFETY-02: Bias & Fairness"
-  ],
-  "references": [
-    {
-      "title": "The Alignment Problem — Brian Christian",
-      "url": "https://www.brianchristian.org/the-alignment-problem/",
-      "description": "A narrative history of AI alignment research."
-    },
-    {
-      "title": "AI Safety Fundamentals",
-      "url": "https://aisafetyfundamentals.com/",
-      "description": "Courses and readings on AI safety topics."
-    },
-    {
-      "title": "Fairness in Machine Learning (Google)",
-      "url": "https://developers.google.com/machine-learning/fairness-overview",
-      "description": "A practical overview of ML fairness."
-    },
-    {
-      "title": "Model Cards for Model Reporting",
-      "url": "https://arxiv.org/abs/1810.03993",
-      "description": "The paper introducing model cards."
-    },
-    {
-      "title": "Anthropic — Red Teaming",
-      "url": "https://www.anthropic.com/news/red-teaming-language-models",
-      "description": "Practices for adversarial testing of AI systems."
-    }
-  ]
-}
+slug: safety-03-interpretability
+title: "Interpretability & Explainability"
+description: "Opening the black box — mechanistic interpretability, SHAP, LIME, attention visualization, and why understanding AI decisions matters."
+order: 3
+tags:
+  - ai-safety
+  - interpretability
+  - explainability
+  - shap
+  - lime
+  - mechanistic-interpretability
+prerequisites:
+  - safety-01-why-ai-safety
+knowledge_refs:
+  - safety-01-why-ai-safety
+    title: "Why AI Safety Matters"
+  - safety-05-robustness
+    title: "Robustness & Adversarial Examples"
+  - safety-10-safety-evaluations
+    title: "Safety Evaluations"
+references:
+  - title: "Interpretable Machine Learning — Christoph Molnar"
+    url: "https://christophm.github.io/interpretable-ml-book/"
+  - title: "A Mathematical Framework for Transformer Circuits"
+    url: "https://transformer-circuits.pub/2021/framework/index.html"
+  - title: "LIME — Interpretable Machine Learning"
+    url: "https://christophm.github.io/interpretable-ml-book/lime.html"
+  - title: "SHAP — Interpretable Machine Learning"
+    url: "https://christophm.github.io/interpretable-ml-book/shap.html"
+  - title: "Partial Dependence Plot — Interpretable Machine Learning"
+    url: "https://christophm.github.io/interpretable-ml-book/pdp.html"
 ---
 
-# SAFETY-03-INTERPRETABILITY: Interpretability & Explainability
+## Interpretability & Explainability
 
-## Introduction
+You can't fix what you can't see. Interpretability is the ability to understand *why* a model made a specific decision. Explainability is communicating that understanding to humans. Both are essential for AI safety.
 
-Understand why models decide: feature importance, saliency and post-hoc explanations. By the end of this lesson you will be able to: Explain local vs global interpretability; Use SHAP and LIME; Read saliency maps; Know the limits of explanations.
+### Why Interpretability Matters
 
-## Key Concepts
+**Trust:** If a doctor can't understand why an AI recommended a treatment, they shouldn't trust it.
 
-### 1. Explain local vs global interpretability
+**Debugging:** When a model fails, interpretability helps identify whether it learned the right patterns or shortcuts.
 
-Target: Explain local vs global interpretability. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+**Regulation:** GDPR gives citizens the "right to explanation" for automated decisions. Financial regulators require model explainability.
 
-```python
-import shap
+**Safety:** If an AI system behaves unexpectedly, you need to understand its internal reasoning to predict and prevent future failures.
 
-# SHAP: how much each feature pushed the prediction
-print("shap values ready")
-```
-### 2. Use SHAP and LIME
+### Two Approaches
 
-Target: Use SHAP and LIME. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+**Post-hoc explainability:** Explaining a trained model after the fact. These methods treat the model as a black box and probe its behavior from the outside.
 
-```python
-import numpy as np
+**Mechanistic interpretability:** Reverse-engineering the model's internal components — individual neurons, circuits, attention heads — into human-understandable algorithms.
 
-# Saliency: gradient magnitude per pixel
-saliency = np.random.default_rng(0).normal(size=(224, 224))
-print("saliency map:", saliency.shape)
-```
-### 3. Read saliency maps
+### Post-Hoc Methods
 
-Target: Read saliency maps. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+**LIME (Local Interpretable Model-agnostic Explanations):** Fits a simple, interpretable model (like a linear regression) around a single prediction by perturbing the input and observing how the output changes. It tells you which features mattered most for *this specific* prediction.
 
-```python
-print("local: why this prediction? global: how does the model work?")
-```
-### 4. Know the limits of explanations
+**SHAP (SHapley Additive exPlanations):** Based on cooperative game theory, SHAP fairly distributes the "payout" (model prediction) among features. It satisfies mathematical properties like local accuracy, missingness, and consistency. SHAP values tell you how much each feature contributed to a specific prediction.
 
-Target: Know the limits of explanations. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+**Partial Dependence Plots:** Show how the model's prediction changes as a single feature varies, averaging over all other features. They reveal the global relationship between features and predictions.
 
-```python
-print("explanations are approximations, not ground truth")
-```
+### Mechanistic Interpretability
 
-## Practice Questions
+This field asks: what algorithms do neural networks actually learn?
 
-1. What is the key idea behind "Interpretability & Explainability"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+**Transformer Circuits (Anthropic):** Researchers have discovered specific circuits in transformers responsible for in-context learning, induction heads (copying patterns), and indirect object identification. Tools like `TransformerLens` let researchers inspect these circuits.
 
-## LLM Prompts for Deeper Understanding
+**Feature Visualization:** Generate synthetic inputs that maximally activate a specific neuron. This reveals what each neuron "looks for" — edges, textures, concepts, or abstract patterns.
 
-1. "Explain Interpretability & Explainability with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Interpretability & Explainability"
-1. "Provide advanced patterns and performance considerations for Interpretability & Explainability"
+**Probing:** Train a small classifier on intermediate representations to test whether specific concepts (syntactic structure, truthfulness, sentiment) are linearly encoded in the model's hidden states.
 
-## Key Takeaways
+**Superposition:** Neural networks pack more features than they have dimensions, overlapping multiple concepts in the same space. Understanding superposition is key to interpreting what models actually know.
 
-- Master the core ideas of Interpretability & Explainability through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+### Attention Is Not Explanation
 
-## Further Reading
+A common mistake is interpreting attention weights as explanations. Attention shows where the model *focuses*, not necessarily what it *decides*. Attention weights alone don't capture the full information flow through a transformer. Use attention visualization as one signal among many, not as a complete explanation.
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+### Common Mistakes
+
+- **Treating attention as explanation:** Attention weights are correlation, not causation.
+- **Over-relying on one method:** LIME and SHAP can give contradictory explanations. Use multiple methods.
+- **Ignoring confidence:** An explanation for a low-confidence prediction is less meaningful than one for a high-confidence prediction.
+- **Assuming interpretability is free:** Mechanistic interpretability requires significant research investment and specialized tools.
+
+---
+
+*Continue to learn about alignment — ensuring AI systems pursue goals that match human intent.*

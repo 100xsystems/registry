@@ -1,115 +1,95 @@
 ---
-{
-  "title": "AI Safety Case Studies",
-  "description": "Learn from real incidents: what broke, why, and what changed.",
-  "type": "lesson",
-  "order": 15,
-  "duration": "50 min",
-  "difficulty": "intermediate",
-  "learning_objectives": [
-    "Analyze past AI incidents",
-    "Extract root causes",
-    "Apply lessons to your systems",
-    "Report incidents constructively"
-  ],
-  "knowledge_refs": [
-    "ai-safety/safety-14-societal-impact",
-    "generative-ai/genai-19-ethical-ai-and-safety",
-    "llm-engineering/llm-14-guardrails-and-safety"
-  ],
-  "prerequisites": [
-    "SAFETY-11: Red Teaming"
-  ],
-  "references": [
-    {
-      "title": "The Alignment Problem — Brian Christian",
-      "url": "https://www.brianchristian.org/the-alignment-problem/",
-      "description": "A narrative history of AI alignment research."
-    },
-    {
-      "title": "AI Safety Fundamentals",
-      "url": "https://aisafetyfundamentals.com/",
-      "description": "Courses and readings on AI safety topics."
-    },
-    {
-      "title": "Fairness in Machine Learning (Google)",
-      "url": "https://developers.google.com/machine-learning/fairness-overview",
-      "description": "A practical overview of ML fairness."
-    },
-    {
-      "title": "Model Cards for Model Reporting",
-      "url": "https://arxiv.org/abs/1810.03993",
-      "description": "The paper introducing model cards."
-    },
-    {
-      "title": "Anthropic — Red Teaming",
-      "url": "https://www.anthropic.com/news/red-teaming-language-models",
-      "description": "Practices for adversarial testing of AI systems."
-    }
-  ]
-}
+slug: safety-15-safety-case-studies
+title: "AI Safety Case Studies"
+description: "Real-world AI failures and what we learned — autonomous vehicles, algorithmic trading, hiring bias, and predictive policing."
+order: 15
+tags:
+  - ai-safety
+  - case-studies
+  - failures
+  - incidents
+  - lessons-learned
+prerequisites:
+  - safety-14-societal-impact
+knowledge_refs:
+  - safety-14-societal-impact
+    title: "Societal Impact of AI"
+  - safety-11-red-teaming
+    title: "Red Teaming"
+  - safety-02-bias-and-fairness
+    title: "Bias & Fairness"
+references:
+  - title: "The Mechanisms of AI Harm — CSET"
+    url: "https://cset.georgetown.edu/publication/the-mechanisms-of-ai-harm-lessons-learned-from-ai-incidents/"
+  - title: "AI Safety, Ethics, and Society — Dan Hendrycks"
+    url: "https://www.aisafetybook.com/textbook/organizational-risks"
+  - title: "15 AI Project Failures and How to Avoid Them"
+    url: "https://www.pertamapartners.com/insights/ai-project-failure-case-studies"
+  - title: "AI Incident Database"
+    url: "https://incidentdatabase.ai/"
+  - title: "Uber Self-Driving Fatal Crash — NTSB Report"
+    url: "https://www.ntsb.gov/investigations/Pages/HAR1902.aspx"
 ---
 
-# SAFETY-15-SAFETY-CASE-STUDIES: AI Safety Case Studies
+## AI Safety Case Studies
 
-## Introduction
+The best way to understand AI safety is to study what went wrong. Real-world failures teach lessons that theoretical frameworks can't.
 
-Learn from real incidents: what broke, why, and what changed. By the end of this lesson you will be able to: Analyze past AI incidents; Extract root causes; Apply lessons to your systems; Report incidents constructively.
+### Case Study: Uber Self-Driving Fatal Crash (2018)
 
-## Key Concepts
+An Uber autonomous vehicle struck and killed a pedestrian in Tempe, Arizona. The AI detected the pedestrian 6 seconds before impact but repeatedly misclassified her — alternating between vehicle, bicycle, and unknown object. Emergency braking had been disabled to prevent "erratic driving." The safety driver was distracted.
 
-### 1. Analyze past AI incidents
+**Root causes:**
+- Safety-performance tradeoffs: disabling safety overrides for operational smoothness
+- Automation complacency: humans can't effectively monitor monotonous tasks
+- Inadequate testing: the system wasn't tested against real-world edge cases
 
-Target: Analyze past AI incidents. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+**Lesson:** Safety shortcuts in safety-critical systems can be fatal. Physical AI deployment requires orders of magnitude more rigorous testing than software.
 
-```python
-cases = {
-    "biased recidivism": "fairness failure",
-    "face misidentification": "accuracy failure",
-    "chatbot harmful": "guardrail failure",
-}
-print(cases)
-```
-### 2. Extract root causes
+### Case Study: Knight Capital Trading Disaster (2012)
 
-Target: Extract root causes. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+During a software upgrade, engineers failed to remove a dormant legacy code path. When activated, the algorithm executed 4 million erroneous trades in 45 minutes, causing a **$440 million loss** — nearly four times the company's annual earnings. Knight Capital required an emergency buyout to survive.
 
-```python
-print("root causes: data, eval gaps, missing monitoring")
-```
-### 3. Apply lessons to your systems
+**Root causes:**
+- Inadequate deployment procedures
+- No real-time kill switch or circuit breaker
+- Legacy code that wasn't properly deprecated
 
-Target: Apply lessons to your systems. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+**Lesson:** High-speed autonomous systems require automated circuit breakers and pristine deployment hygiene.
 
-```python
-print("postmortems -> concrete process changes")
-```
-### 4. Report incidents constructively
+### Case Study: Amazon Resume Screening (2018)
 
-Target: Report incidents constructively. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+Amazon built an automated resume screening tool trained on a decade of hiring data. Because the tech workforce was male-dominated, the AI learned to penalize resumes containing "women's" (as in "women's chess club captain") and downgrade graduates from women-only colleges.
 
-```python
-print("share lessons; safety improves collectively")
-```
+**Root causes:**
+- Historical data bias: the algorithm optimized for patterns in past prejudice
+- No fairness constraints or demographic auditing
 
-## Practice Questions
+**Lesson:** AI can't learn its way out of discriminatory patterns in training data. Proactive auditing and fairness constraints are mandatory.
 
-1. What is the key idea behind "AI Safety Case Studies"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+### Case Study: Zillow iBuying Collapse (2021)
 
-## LLM Prompts for Deeper Understanding
+Zillow deployed AI to automate home-buying at scale. When the housing market experienced pandemic-era volatility, pricing models failed to adapt. Zillow bought thousands of homes at inflated prices and was forced to dump inventory at a **$569 million loss**, shutting down the division and laying off 2,000 people.
 
-1. "Explain AI Safety Case Studies with analogies and real-world examples"
-1. "Show me common mistakes beginners make with AI Safety Case Studies"
-1. "Provide advanced patterns and performance considerations for AI Safety Case Studies"
+**Root causes:**
+- Overconfidence in models trained on stable historical conditions
+- No volatility detection or human oversight checkpoints
 
-## Key Takeaways
+**Lesson:** Models trained on normal distributions fail catastrophically during tail events unless equipped with volatility triggers.
 
-- Master the core ideas of AI Safety Case Studies through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+### Common Patterns Across Failures
 
-## Further Reading
+1. **Organizational failures dominate:** Most AI failures stem from corporate pressure, ethical blindness, and missing governance — not just technical errors.
+2. **Safety-performance tradeoffs:** Companies repeatedly sacrifice safety for operational metrics.
+3. **Automation complacency:** Humans supervising AI systems become less vigilant over time.
+4. **Missing kill switches:** Many deployed systems lacked emergency shutdown capabilities.
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+### Common Mistakes
+
+- **Assuming it won't happen to us:** Every company that had an AI failure thought they had it under control.
+- **Blaming the technology:** The technology worked as designed. The failure was in how it was designed, tested, and deployed.
+- **No incident response plan:** Without a plan for AI failures, the response is chaos.
+
+---
+
+*Continue to learn about data governance — managing the data that powers AI systems.*
