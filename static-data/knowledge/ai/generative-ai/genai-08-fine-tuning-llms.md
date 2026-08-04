@@ -1,121 +1,243 @@
 ---
-{
-  "title": "Fine-Tuning LLMs",
-  "description": "Adapt a foundation model to a domain with supervised fine-tuning and parameter-efficient methods (LoRA).",
-  "type": "lesson",
-  "order": 8,
-  "duration": "60 min",
-  "difficulty": "advanced",
-  "learning_objectives": [
-    "Explain supervised fine-tuning (SFT)",
-    "Prepare instruction datasets",
-    "Use LoRA for efficient fine-tuning",
-    "Know when fine-tuning beats prompting"
-  ],
-  "knowledge_refs": [
-    "generative-ai/genai-07-tokenization",
-    "llm-engineering/llm-09-fine-tuning-practice",
-    "machine-learning/ml-17-hyperparameter-tuning"
-  ],
-  "prerequisites": [
-    "GENAI-06: LLM Architecture & Scaling"
-  ],
-  "references": [
-    {
-      "title": "Hugging Face NLP Course",
-      "url": "https://huggingface.co/learn/nlp-course",
-      "description": "Transformers, fine-tuning and LLM fundamentals with hands-on code."
-    },
-    {
-      "title": "OpenAI Documentation",
-      "url": "https://platform.openai.com/docs",
-      "description": "API reference for GPT models, embeddings and function calling."
-    },
-    {
-      "title": "Attention Is All You Need",
-      "url": "https://arxiv.org/abs/1706.03762",
-      "description": "The Transformer paper that made generative AI possible."
-    },
-    {
-      "title": "LangChain Documentation",
-      "url": "https://python.langchain.com/docs",
-      "description": "Frameworks for RAG, agents and LLM applications."
-    },
-    {
-      "title": "DeepLearning.AI Short Courses",
-      "url": "https://www.deeplearning.ai/short-courses/",
-      "description": "Practical AI courses from industry experts."
-    }
-  ]
-}
+slug: genai-08-fine-tuning-llms
+title: "Fine-Tuning LLMs"
+description: "From full fine-tuning to LoRA and QLoRA — practical methods for customizing large language models on your data."
+order: 8
+tags:
+  - generative-ai
+  - fine-tuning
+  - lora
+  - qlora
+  - peft
+  - instruction-tuning
+prerequisites:
+  - genai-06-llm-architecture
+  - genai-04-prompt-engineering
+  - dl-07-optimizers
+references:
+  - title: "PEFT Documentation (Hugging Face)"
+    url: "https://huggingface.co/docs/peft/en/index"
+    description: "Official Hugging Face PEFT library documentation"
+  - title: "LoRA: Low-Rank Adaptation of Large Language Models"
+    url: "https://arxiv.org/abs/2106.09685"
+    description: "Hu et al.'s original LoRA paper"
+  - title: "QLoRA: Efficient Finetuning of Quantized LLMs"
+    url: "https://arxiv.org/abs/2305.14314"
+    description: "Dettmers et al.'s QLoRA paper — 4-bit fine-tuning on consumer GPUs"
+  - title: "What Is Instruction Tuning? (IBM)"
+    url: "https://www.ibm.com/think/topics/instruction-tuning"
+    description: "Comprehensive explanation of instruction tuning methodology"
+  - title: "PEFT GitHub Repository"
+    url: "https://github.com/huggingface/peft"
+    description: "State-of-the-art implementations of LoRA, QLoRA, and other PEFT methods"
+knowledge_refs:
+  - genai-06-llm-architecture
+  - dl-10-the-training-loop
+  - dl-11-regularization-for-deep-learning
 ---
 
-# GENAI-08-FINE-TUNING-LLMS: Fine-Tuning LLMs
+# Fine-Tuning LLMs
 
-## Introduction
+Fine-tuning adapts a pretrained LLM to your specific task, domain, or style. Modern parameter-efficient methods make this possible on consumer hardware.
 
-Adapt a foundation model to a domain with supervised fine-tuning and parameter-efficient methods (LoRA). By the end of this lesson you will be able to: Explain supervised fine-tuning (SFT); Prepare instruction datasets; Use LoRA for efficient fine-tuning; Know when fine-tuning beats prompting.
+## Why Fine-Tune?
 
-## Key Concepts
+| Approach | When to Use |
+|---|---|
+| **Prompt engineering** | Simple tasks, general knowledge |
+| **In-context learning** | Task-specific with few examples |
+| **RAG** | Need external knowledge |
+| **Fine-tuning** | Specific style, domain, format, or behavior |
 
-### 1. Explain supervised fine-tuning (SFT)
+**Fine-tuning is best when:**
+- You need consistent output format
+- The model needs domain-specific knowledge
+- Prompt engineering isn't sufficient
+- You want to reduce inference costs (smaller fine-tuned model)
 
-Target: Explain supervised fine-tuning (SFT). Start with the foundations — read the runnable example carefully and trace its output before moving on.
+## Full Fine-Tuning
+
+Retrain all model parameters on your dataset:
+- **Pros**: Maximum adaptation, best performance
+- **Cons**: Requires massive compute, overwrites pretrained knowledge
+- **Memory**: 7B model needs ~60GB GPU (FP16 + optimizer states)
+- **Use case**: Creating a new base model from scratch
 
 ```python
-dataset = [
-    {"instruction": "Translate to French", "input": "hello", "output": "bonjour"},
-    {"instruction": "Translate to French", "input": "goodbye", "output": "au revoir"},
-]
-print(dataset)
+from transformers import Trainer, TrainingArguments
+
+training_args = TrainingArguments(
+    output_dir="./output",
+    num_train_epochs=3,
+    per_device_train_batch_size=4,
+    gradient_accumulation_steps=8,
+    learning_rate=2e-5,
+    fp16=True,
+)
+
+trainer = Trainer(
+    model=model,
+    args=training_args,
+    train_dataset=train_dataset,
+    eval_dataset=val_dataset,
+)
+trainer.train()
 ```
-### 2. Prepare instruction datasets
 
-Target: Prepare instruction datasets. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+## LoRA (Low-Rank Adaptation)
 
-```python
-from transformers import AutoModelForCausalLM
+The most popular PEFT method — freezes the base model and trains small adapter matrices:
 
-model = AutoModelForCausalLM.from_pretrained("gpt2")
-print("loaded for SFT")
-```
-### 3. Use LoRA for efficient fine-tuning
+$$W' = W + \Delta W = W + BA$$
 
-Target: Use LoRA for efficient fine-tuning. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+where $B \in \mathbb{R}^{d \times r}$ and $A \in \mathbb{R}^{r \times d}$ with $r \ll d$.
 
 ```python
 from peft import LoraConfig, get_peft_model
 
-config = LoraConfig(r=8, lora_alpha=16, target_modules=["c_attn"])
-peft_model = get_peft_model(model, config)
-print("trainable params:", sum(p.numel() for p in peft_model.parameters() if p.requires_grad))
-```
-### 4. Know when fine-tuning beats prompting
+lora_config = LoraConfig(
+    r=16,                    # rank (higher = more capacity)
+    lora_alpha=32,           # scaling factor
+    target_modules=["q_proj", "v_proj", "k_proj", "o_proj"],
+    lora_dropout=0.05,
+    bias="none",
+)
 
-Target: Know when fine-tuning beats prompting. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+model = get_peft_model(model, lora_config)
+model.print_trainable_parameters()
+# trainable params: 4,194,304 || all params: 6,742,609,920 || 0.06%
+```
+
+**Key benefits:**
+- Only 0.1-1% of parameters are trainable
+- LoRA weights merge back into base model (zero inference overhead)
+- Can fine-tune 7B model on 1× RTX 4090 (24GB)
+
+## QLoRA (Quantized LoRA)
+
+Combines 4-bit quantization with LoRA for extreme memory efficiency:
 
 ```python
-print("prompt first; RAG second; fine-tune only when needed")
+from transformers import BitsAndBytesConfig
+import torch
+
+bnb_config = BitsAndBytesConfig(
+    load_in_4bit=True,
+    bnb_4bit_quant_type="nf4",
+    bnb_4bit_compute_dtype=torch.float16,
+    bnb_4bit_use_double_quant=True,
+)
+
+model = AutoModelForCausalLM.from_pretrained(
+    "meta-llama/Llama-2-7b-hf",
+    quantization_config=bnb_config,
+)
+
+# Then apply LoRA on top
+model = get_peft_model(model, lora_config)
 ```
 
-## Practice Questions
+**Memory savings:**
+| Method | 7B Model | 70B Model |
+|---|---|---|
+| Full fine-tuning | ~60GB | ~560GB |
+| LoRA (FP16) | ~16GB | ~160GB |
+| QLoRA (4-bit) | ~6GB | ~48GB |
 
-1. What is the key idea behind "Fine-Tuning LLMs"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+## Instruction Tuning
 
-## LLM Prompts for Deeper Understanding
+Fine-tuning on instruction-response pairs teaches the model to follow directions:
 
-1. "Explain Fine-Tuning LLMs with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Fine-Tuning LLMs"
-1. "Provide advanced patterns and performance considerations for Fine-Tuning LLMs"
+```json
+[
+  {
+    "instruction": "Summarize the following text in 3 bullet points.",
+    "input": "The transformer architecture has revolutionized NLP...",
+    "output": "• Transformers use self-attention for parallel processing\n• They replaced RNNs for most NLP tasks\n• GPT and BERT are the two main transformer variants"
+  }
+]
+```
 
-## Key Takeaways
+**Key datasets:**
+- Alpaca: 52K instruction-following examples
+- ShareGPT: User-ChatGPT conversations
+- OpenAssistant: Human conversations
+- Dolly: Databricks' instruction dataset
 
-- Master the core ideas of Fine-Tuning LLMs through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+## Training Data Quality
+
+**Data quality matters more than quantity:**
+- 1,000 high-quality examples > 100,000 low-quality examples
+- Diverse instructions cover more use cases
+- Consistent format helps the model learn patterns
+- Remove duplicates and near-duplicates
+
+## Fine-Tuning Pipeline
+
+```python
+# 1. Load base model with QLoRA
+model = load_qlora_model("meta-llama/Llama-2-7b-hf")
+
+# 2. Load tokenizer
+tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-2-7b-hf")
+tokenizer.pad_token = tokenizer.eos_token
+
+# 3. Prepare dataset
+dataset = load_dataset("json", data_files="train.json")
+
+# 4. Configure LoRA
+lora_config = LoraConfig(r=16, lora_alpha=32, target_modules=["q_proj", "v_proj"])
+
+# 5. Train
+training_args = TrainingArguments(
+    output_dir="./output",
+    num_train_epochs=3,
+    per_device_train_batch_size=4,
+    gradient_accumulation_steps=8,
+    learning_rate=2e-4,
+    fp16=True,
+    logging_steps=10,
+    save_strategy="epoch",
+)
+
+trainer = Trainer(
+    model=model,
+    args=training_args,
+    train_dataset=dataset["train"],
+    tokenizer=tokenizer,
+)
+trainer.train()
+
+# 6. Save LoRA adapter
+model.save_pretrained("./lora-adapter")
+
+# 7. Merge for inference (optional)
+merged_model = model.merge_and_unload()
+merged_model.save_pretrained("./merged-model")
+```
+
+## When to Fine-Tune vs. RAG vs. Prompt
+
+| Need | Solution |
+|---|---|
+| New knowledge | RAG (don't fine-tune for knowledge) |
+| Specific output format | Fine-tune |
+| Domain-specific tone | Fine-tune |
+| Real-time data | RAG |
+| Complex reasoning | Prompt engineering + CoT |
+| Cost reduction | Fine-tune smaller model |
+
+## Common Pitfalls
+
+1. **Overfitting**: Too many epochs on small data → memorizes training examples
+2. **Catastrophic forgetting**: Model loses pretrained capabilities
+3. **Bad data quality**: Garbage in, garbage out
+4. **Wrong hyperparameters**: LR too high destroys weights, too low doesn't learn
+5. **Not evaluating properly**: Always hold out test data
 
 ## Further Reading
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+- Hu et al.'s LoRA paper introduced parameter-efficient fine-tuning
+- Dettmers et al.'s QLoRA made fine-tuning accessible on consumer hardware
+- Hugging Face PEFT library is the standard implementation
+- For advanced methods: look into DoRA, AdaLoRA, and (IA)³

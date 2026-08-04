@@ -1,128 +1,212 @@
 ---
-{
-  "title": "Embeddings & Vector Databases",
-  "description": "Semantic search at scale: embedding models, vector indexes, and ANN search.",
-  "type": "lesson",
-  "order": 11,
-  "duration": "55 min",
-  "difficulty": "advanced",
-  "learning_objectives": [
-    "Generate text embeddings",
-    "Measure semantic similarity",
-    "Index vectors with ANN (HNSW, FAISS)",
-    "Evaluate retrieval quality"
-  ],
-  "knowledge_refs": [
-    "generative-ai/genai-10-rag",
-    "nlp/nlp-06-word-embeddings",
-    "llm-engineering/llm-06-embeddings-and-semantic-search"
-  ],
-  "prerequisites": [
-    "GENAI-10: Retrieval-Augmented Generation (RAG)"
-  ],
-  "references": [
-    {
-      "title": "Hugging Face NLP Course",
-      "url": "https://huggingface.co/learn/nlp-course",
-      "description": "Transformers, fine-tuning and LLM fundamentals with hands-on code."
-    },
-    {
-      "title": "OpenAI Documentation",
-      "url": "https://platform.openai.com/docs",
-      "description": "API reference for GPT models, embeddings and function calling."
-    },
-    {
-      "title": "Attention Is All You Need",
-      "url": "https://arxiv.org/abs/1706.03762",
-      "description": "The Transformer paper that made generative AI possible."
-    },
-    {
-      "title": "LangChain Documentation",
-      "url": "https://python.langchain.com/docs",
-      "description": "Frameworks for RAG, agents and LLM applications."
-    },
-    {
-      "title": "DeepLearning.AI Short Courses",
-      "url": "https://www.deeplearning.ai/short-courses/",
-      "description": "Practical AI courses from industry experts."
-    }
-  ]
-}
+slug: genai-11-embeddings-and-vector-databases
+title: "Embeddings & Vector Databases"
+description: "Turning text into numbers for similarity search — the infrastructure powering RAG, recommendations, and semantic search."
+order: 11
+tags:
+  - generative-ai
+  - embeddings
+  - vector-databases
+  - similarity-search
+  - rag
+prerequisites:
+  - genai-10-rag
+  - genai-06-llm-architecture
+references:
+  - title: "Understanding Vector Databases (Microsoft Learn)"
+    url: "https://learn.microsoft.com/en-us/data-engineering/playbook/solutions/vector-database/"
+    description: "Microsoft's comprehensive guide to vector database concepts"
+  - title: "Best Vector Databases Comparison (Encore)"
+    url: "https://encore.dev/articles/best-vector-databases"
+    description: "Detailed comparison of Pinecone, Weaviate, Qdrant, Chroma, Milvus"
+  - title: "A Deep Dive Into Vector Databases (SingleStore)"
+    url: "https://www.singlestore.com/blog/a-complete-guide-to-vector-databases/"
+    description: "Technical deep dive into vector database architectures"
+  - title: "Learning Transferable Visual Models (CLIP Paper)"
+    url: "https://arxiv.org/abs/2103.00020"
+    description: "Radford et al.'s CLIP paper establishing contrastive text-image embeddings"
+  - title: "Sentence-BERT: Semantic Embeddings (Reimers & Gurevych)"
+    url: "https://arxiv.org/abs/1908.10084"
+    description: "The paper that made sentence embeddings practical for semantic search"
+knowledge_refs:
+  - genai-10-rag
+  - genai-06-llm-architecture
+  - genai-13-diffusion-models
 ---
 
-# GENAI-11-EMBEDDINGS-AND-VECTOR-DATABASES: Embeddings & Vector Databases
+# Embeddings & Vector Databases
 
-## Introduction
+Embeddings convert text, images, or other data into dense numerical vectors that capture semantic meaning. Vector databases store and search these embeddings at scale — enabling similarity search, RAG, and recommendations.
 
-Semantic search at scale: embedding models, vector indexes, and ANN search. By the end of this lesson you will be able to: Generate text embeddings; Measure semantic similarity; Index vectors with ANN (HNSW, FAISS); Evaluate retrieval quality.
+## What Are Embeddings?
 
-## Key Concepts
+An embedding maps high-dimensional discrete data (words, sentences, images) to a lower-dimensional continuous vector space where semantic similarity is captured by geometric proximity:
 
-### 1. Generate text embeddings
+```
+"king"   → [0.2, 0.8, -0.1, 0.5, ...]  (768 dimensions)
+"queen"  → [0.3, 0.7, -0.2, 0.6, ...]  (close to "king")
+"banana" → [-0.5, 0.1, 0.9, -0.3, ...] (far from "king")
+```
 
-Target: Generate text embeddings. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+**Key property**: Similar meanings → nearby vectors. Different meanings → distant vectors.
+
+## Types of Embeddings
+
+| Type | Model | Use Case |
+|---|---|---|
+| **Text** | OpenAI text-embedding-3, sentence-transformers | Semantic search, RAG |
+| **Image** | CLIP ViT, DINOv2 | Image search, multi-modal |
+| **Code** | CodeBERT, StarCoder embeddings | Code search |
+| **Multimodal** | CLIP, SigLIP | Cross-modal retrieval |
 
 ```python
-from openai import OpenAI
+from sentence_transformers import SentenceTransformer
 
-client = OpenAI()
-vec = client.embeddings.create(model="text-embedding-3-small", input=["hello world"])
-print("embedding dim:", len(vec.data[0].embedding))
+model = SentenceTransformer('all-MiniLM-L6-v2')
+embeddings = model.encode([
+    "What is machine learning?",
+    "How does deep learning work?",
+    "Best pizza restaurants in NYC"
+])
+# First two are close, third is far away
 ```
-### 2. Measure semantic similarity
 
-Target: Measure semantic similarity. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+## Similarity Metrics
+
+| Metric | Formula | Best For |
+|---|---|---|
+| **Cosine Similarity** | $\cos(\mathbf{a}, \mathbf{b}) = \frac{\mathbf{a} \cdot \mathbf{b}}{\|\mathbf{a}\| \|\mathbf{b}\|}$ | Text search (most common) |
+| **Euclidean Distance** | $\|\mathbf{a} - \mathbf{b}\|_2$ | When magnitude matters |
+| **Dot Product** | $\mathbf{a} \cdot \mathbf{b}$ | When vectors are normalized |
 
 ```python
 import numpy as np
 
-def cos(a, b):
+def cosine_similarity(a, b):
     return np.dot(a, b) / (np.linalg.norm(a) * np.linalg.norm(b))
-
-print("similarity:", round(cos(np.array([1, 0]), np.array([0.9, 0.1])), 3))
 ```
-### 3. Index vectors with ANN (HNSW, FAISS)
 
-Target: Index vectors with ANN (HNSW, FAISS). Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+## Vector Indexing Algorithms
+
+### Exact Search (KNN)
+- Brute-force: compare query against every vector
+- $O(N)$ complexity — too slow for millions of vectors
+- Only feasible for small datasets (< 100K)
+
+### Approximate Nearest Neighbor (ANN)
+
+**HNSW (Hierarchical Navigable Small World)** — Most popular:
+- Multi-layer graph structure
+- Fast traversal from coarse to fine layers
+- Excellent recall-speed tradeoff
+- Used by: Qdrant, Weaviate, Milvus, pgvector
+
+**IVF (Inverted File Index)**:
+- Partition vectors into clusters
+- Search only relevant clusters
+- Often combined with Product Quantization (PQ) for compression
+- Used by: Milvus, FAISS
+
+**Product Quantization (PQ)**:
+- Compress vectors by splitting into sub-vectors
+- Each sub-vector quantized to nearest centroid
+- 4-32x memory reduction
+- Used by: FAISS, Milvus
+
+## Vector Database Comparison
+
+| Database | Type | Open Source | Best Scale | Standout Feature |
+|---|---|---|---|---|
+| **Pinecone** | Managed SaaS | No | Billions | Zero-ops serverless |
+| **Weaviate** | Self-hosted/Cloud | Yes | 100M+ | Built-in vectorization |
+| **Qdrant** | Self-hosted/Cloud | Yes | 100M+ | Rust performance, payload filtering |
+| **Milvus** | Distributed | Yes | Billions | Enterprise scale, GPU indexing |
+| **Chroma** | Embedded | Yes | 100K+ | Simple, local prototyping |
+| **pgvector** | PostgreSQL ext | Yes | Millions | Embeddings alongside SQL data |
+| **FAISS** | Library | Yes | Billions | Facebook's research library |
+
+## Building a Vector Search Pipeline
 
 ```python
-import faiss
+from langchain_community.vectorstores import Chroma
+from langchain_openai import OpenAIEmbeddings
+from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_community.document_loaders import PyPDFLoader
 
-index = faiss.IndexFlatL2(384)
-index.add(np.random.default_rng(0).normal(size=(1000, 384)).astype("float32"))
-dists, idxs = index.search(np.random.default_rng(1).normal(size=(1, 384)).astype("float32"), k=5)
-print("top-5 ids:", idxs[0])
+# 1. Load and chunk documents
+loader = PyPDFLoader("docs.pdf")
+docs = loader.load()
+splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
+chunks = splitter.split_documents(docs)
+
+# 2. Create embeddings and store
+embeddings = OpenAIEmbeddings()
+vectorstore = Chroma.from_documents(chunks, embeddings)
+
+# 3. Search
+results = vectorstore.similarity_search("What is transformer architecture?", k=5)
+
+# 4. Search with scores
+results_with_scores = vectorstore.similarity_search_with_score("query", k=5)
 ```
-### 4. Evaluate retrieval quality
 
-Target: Evaluate retrieval quality. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+## Advanced Techniques
 
+### Hybrid Search (Dense + Sparse)
+Combine semantic embeddings with keyword search:
 ```python
-import numpy as np
+from langchain.retrievers import EnsembleRetriever
 
-# Retrieval quality: hits@k on labeled queries
-queries = np.random.default_rng(0).normal(size=(10, 384)).astype("float32")
-print("evaluate hits@k on a labeled set")
+bm25 = BM25Retriever.from_documents(chunks)
+dense = vectorstore.as_retriever()
+
+ensemble = EnsembleRetriever(
+    retrievers=[bm25, dense],
+    weights=[0.3, 0.7]
+)
 ```
 
-## Practice Questions
+### Reranking
+Use a cross-encoder for higher precision:
+```python
+from sentence_transformers import CrossEncoder
 
-1. What is the key idea behind "Embeddings & Vector Databases"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+reranker = CrossEncoder('cross-encoder/ms-marco-MiniLM-L-6-v2')
+scores = reranker.predict([(query, doc.page_content) for doc in results])
+```
 
-## LLM Prompts for Deeper Understanding
+### Multi-tenancy
+Filter vectors by metadata (user, organization, document type):
+```python
+results = vectorstore.similarity_search(
+    "query",
+    filter={"user_id": "user_123"},
+    k=5
+)
+```
 
-1. "Explain Embeddings & Vector Databases with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Embeddings & Vector Databases"
-1. "Provide advanced patterns and performance considerations for Embeddings & Vector Databases"
+## Embedding Model Selection
 
-## Key Takeaways
+| Model | Dimensions | Speed | Quality | Cost |
+|---|---|---|---|---|
+| text-embedding-3-small (OpenAI) | 1536 | Fast | Good | $0.02/1M tokens |
+| text-embedding-3-large (OpenAI) | 3072 | Fast | Best | $0.13/1M tokens |
+| all-MiniLM-L6-v2 (SBERT) | 384 | Very fast | Good | Free (local) |
+| bge-large-en-v1.5 (BAAI) | 1024 | Fast | Excellent | Free (local) |
+| cohere-embed-v3 | 1024 | Fast | Excellent | $0.1/1M tokens |
 
-- Master the core ideas of Embeddings & Vector Databases through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+## Practical Tips
+
+1. **Normalize embeddings** for cosine similarity
+2. **Chunk size matters**: Too small = no context, too large = diluted relevance
+3. **Use hybrid search** for best retrieval quality
+4. **Reranking** adds 20-30% precision for 2x latency
+5. **Monitor embedding drift** — model updates change embedding space
+6. **Start with Chroma** for prototyping, migrate to Qdrant/Pinecone for production
 
 ## Further Reading
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+- Microsoft's vector database guide is the best conceptual introduction
+- Encore's comparison helps choose the right database
+- CLIP paper established the foundation for multimodal embeddings
+- Sentence-BERT made practical semantic search possible

@@ -1,131 +1,272 @@
 ---
-{
-  "title": "Agents & Tool Use",
-  "description": "Let models call functions, use tools, and loop until the job is done.",
-  "type": "lesson",
-  "order": 12,
-  "duration": "60 min",
-  "difficulty": "advanced",
-  "learning_objectives": [
-    "Explain function calling",
-    "Define an agent loop (reason → act → observe)",
-    "Build a simple tool-using agent",
-    "Manage loops and error cases safely"
-  ],
-  "knowledge_refs": [
-    "generative-ai/genai-11-embeddings-and-vector-databases",
-    "ai-agents/agents-01-what-are-ai-agents",
-    "ai-agents/agents-21-roadmap"
-  ],
-  "prerequisites": [
-    "GENAI-04: Prompt Engineering"
-  ],
-  "references": [
-    {
-      "title": "Hugging Face NLP Course",
-      "url": "https://huggingface.co/learn/nlp-course",
-      "description": "Transformers, fine-tuning and LLM fundamentals with hands-on code."
-    },
-    {
-      "title": "OpenAI Documentation",
-      "url": "https://platform.openai.com/docs",
-      "description": "API reference for GPT models, embeddings and function calling."
-    },
-    {
-      "title": "Attention Is All You Need",
-      "url": "https://arxiv.org/abs/1706.03762",
-      "description": "The Transformer paper that made generative AI possible."
-    },
-    {
-      "title": "LangChain Documentation",
-      "url": "https://python.langchain.com/docs",
-      "description": "Frameworks for RAG, agents and LLM applications."
-    },
-    {
-      "title": "DeepLearning.AI Short Courses",
-      "url": "https://www.deeplearning.ai/short-courses/",
-      "description": "Practical AI courses from industry experts."
-    }
-  ]
-}
+slug: genai-12-agents-and-tool-use
+title: "Agents & Tool Use"
+description: "Building autonomous AI systems that can reason, plan, and use external tools to accomplish complex tasks."
+order: 12
+tags:
+  - generative-ai
+  - agents
+  - tool-use
+  - function-calling
+  - react
+  - langchain
+prerequisites:
+  - genai-10-rag
+  - genai-04-prompt-engineering
+  - genai-03-text-generation-basics
+references:
+  - title: "ReAct: Synergizing Reasoning and Acting (Yao et al.)"
+    url: "https://arxiv.org/abs/2210.03629"
+    description: "The foundational ReAct paper establishing reasoning-action loops"
+  - title: "Tool Calling with LangChain"
+    url: "https://www.langchain.com/blog/tool-calling-with-langchain"
+    description: "LangChain's standardized tool-calling interface documentation"
+  - title: "Building AI Agents with LangChain (Beginner's Guide)"
+    url: "https://medium.com/@aryavr2030/building-ai-agents-with-langchain-a-beginners-guide-for-2026-bd5efe29eecb"
+    description: "Modern LangChain agent architecture with LangGraph"
+  - title: "Function Calling Documentation (OpenAI)"
+    url: "https://platform.openai.com/docs/guides/function-calling"
+    description: "OpenAI's official function calling guide"
+  - title: "Tool Use Documentation (Anthropic)"
+    url: "https://docs.anthropic.com/en/docs/build-with-claude/tool-use/overview"
+    description: "Anthropic's tool use documentation for Claude"
+knowledge_refs:
+  - genai-10-rag
+  - genai-04-prompt-engineering
+  - genai-09-rlhf-and-alignment
 ---
 
-# GENAI-12-AGENTS-AND-TOOL-USE: Agents & Tool Use
+# Agents & Tool Use
 
-## Introduction
+LLM agents combine language models with external tools — search engines, calculators, code interpreters, APIs — to accomplish complex tasks that require more than just text generation.
 
-Let models call functions, use tools, and loop until the job is done. By the end of this lesson you will be able to: Explain function calling; Define an agent loop (reason → act → observe); Build a simple tool-using agent; Manage loops and error cases safely.
+## What Is an Agent?
 
-## Key Concepts
+An agent is an LLM-based system that operates in a **reasoning-action-observation loop**:
 
-### 1. Explain function calling
+```
+User Goal → Agent (LLM)
+    ├── Thought: "I need to search for X"
+    ├── Action: search("X")
+    ├── Observation: [search results]
+    ├── Thought: "Now I need to calculate Y"
+    ├── Action: calculator(Y)
+    ├── Observation: [calculation result]
+    └── Final Answer: [response to user]
+```
 
-Target: Explain function calling. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+**Key difference from chatbots**: Agents take **actions** in the world, not just generate text.
 
+## Function Calling (Tool Use)
+
+Modern LLMs can output structured function calls:
+
+### OpenAI Function Calling
 ```python
-from openai import OpenAI
+import openai
 
-client = OpenAI()
-res = client.chat.completions.create(
-    model="gpt-4o-mini",
-    messages=[{"role": "user", "content": "What is the weather in Paris?"}],
-    tools=[{
+tools = [
+    {
         "type": "function",
         "function": {
             "name": "get_weather",
-            "parameters": {"type": "object", "properties": {"city": {"type": "string"}}},
-        },
-    }],
+            "description": "Get current weather for a city",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "city": {"type": "string", "description": "City name"},
+                    "units": {"type": "string", "enum": ["celsius", "fahrenheit"]}
+                },
+                "required": ["city"]
+            }
+        }
+    }
+]
+
+response = openai.chat.completions.create(
+    model="gpt-4",
+    messages=[{"role": "user", "content": "What's the weather in Tokyo?"}],
+    tools=tools,
+    tool_choice="auto"
 )
-print(res.choices[0].message.tool_calls)
-```
-### 2. Define an agent loop (reason → act → observe)
 
-Target: Define an agent loop (reason → act → observe). Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+# Model outputs a tool call
+tool_call = response.choices[0].message.tool_calls[0]
+print(tool_call.function.name)      # "get_weather"
+print(tool_call.function.arguments)  # '{"city": "Tokyo", "units": "celsius"}'
+```
+
+### Anthropic Tool Use
+```python
+import anthropic
+
+client = anthropic.Anthropic()
+response = client.messages.create(
+    model="claude-3-5-sonnet-20241022",
+    messages=[{"role": "user", "content": "What's the weather in Tokyo?"}],
+    tools=[{
+        "name": "get_weather",
+        "description": "Get current weather for a city",
+        "input_schema": {
+            "type": "object",
+            "properties": {
+                "city": {"type": "string"}
+            },
+            "required": ["city"]
+        }
+    }]
+)
+```
+
+## The ReAct Framework
+
+ReAct (Yao et al., 2022) alternates between reasoning traces and actions:
+
+```
+Question: What is the elevation range for the area that the eastern 
+sector of the Colorado orogeny extends into?
+
+Thought 1: I need to search for the eastern sector of the Colorado orogeny.
+Action 1: Search[eastern sector Colorado orogeny]
+Observation 1: The eastern sector extends into the High Plains.
+
+Thought 2: Now I need to find the elevation range of the High Plains.
+Action 2: Search[High Plains elevation range]
+Observation 2: The High Plains rise in elevation from around 1,800 ft 
+to 7,000 ft.
+
+Thought 3: The elevation range is 1,800 ft to 7,000 ft.
+Action 3: Finish[1,800 ft to 7,000 ft]
+```
+
+## Agent Architectures
+
+### ReAct Agent (Text-based)
+Uses natural language for reasoning and tool selection:
+- Pros: Transparent, debuggable, works with any model
+- Cons: Token-heavy, parsing errors possible
+
+### Function Calling Agent (Structured)
+Uses native API function calling:
+- Pros: Fast, reliable, token-efficient
+- Cons: Requires model support, less transparent
+
+### Plan-and-Execute Agent
+Plans all steps first, then executes:
+```
+Plan:
+1. Search for latest research on X
+2. Summarize the findings
+3. Create a report with citations
+
+Execute: [follow the plan step by step]
+```
+
+### Multi-Agent Systems
+Multiple specialized agents collaborate:
+```
+Research Agent → finds information
+Analysis Agent → processes findings
+Writer Agent → creates report
+Review Agent → quality checks
+```
+
+## LangChain Agents
 
 ```python
-tools = {"search": search_fn, "calculator": calc_fn}
-print("registered tools:", list(tools))
+from langchain.agents import create_tool_calling_agent, AgentExecutor
+from langchain_openai import ChatOpenAI
+from langchain_core.tools import tool
+from langchain_core.prompts import ChatPromptTemplate
+
+# Define tools
+@tool
+def search(query: str) -> str:
+    """Search the web for current information."""
+    return web_search(query)
+
+@tool
+def calculator(expression: str) -> str:
+    """Evaluate a mathematical expression."""
+    return str(eval(expression))
+
+# Create agent
+llm = ChatOpenAI(model="gpt-4")
+prompt = ChatPromptTemplate.from_messages([
+    ("system", "You are a helpful assistant. Use tools when needed."),
+    ("human", "{input}"),
+    ("placeholder", "{agent_scratchpad}"),
+])
+
+agent = create_tool_calling_agent(llm, [search, calculator], prompt)
+executor = AgentExecutor(agent=agent, tools=[search, calculator], verbose=True)
+
+result = executor.invoke({"input": "What's the population of France times 3.14?"})
 ```
-### 3. Build a simple tool-using agent
 
-Target: Build a simple tool-using agent. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+## Common Agent Tools
 
+| Tool | Purpose | Example |
+|---|---|---|
+| Web Search | Find current information | Google, Bing, Tavily |
+| Calculator | Mathematical computation | Wolfram Alpha, eval |
+| Code Interpreter | Execute code | Python REPL, Jupyter |
+| Database Query | Access structured data | SQL, GraphQL |
+| File System | Read/write files | Local filesystem |
+| APIs | External services | Weather, news, finance |
+| Memory | Long-term storage | Vector store, knowledge graph |
+
+## Agent Patterns
+
+### Tool Routing
+Agent decides which tool to use based on the query:
 ```python
-import time
-
-# Agent loop: while task not done -> call model -> call tool
-for step in range(3):
-    print(f"step {step}: reason -> act -> observe")
-    time.sleep(0.1)
+# Simple routing
+if "calculate" in query.lower():
+    return calculator(query)
+elif "search" in query.lower():
+    return web_search(query)
+else:
+    return llm.generate(query)
 ```
-### 4. Manage loops and error cases safely
 
-Target: Manage loops and error cases safely. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
-
+### Parallel Tool Calls
+Execute multiple tools simultaneously:
 ```python
-safety = ["max iterations", "timeouts", "tool allow-list", "human approval"]
-print(safety)
+import asyncio
+
+async def parallel_tools(query):
+    results = await asyncio.gather(
+        search_async(query),
+        database_query_async(query),
+        calculator_async("complex formula")
+    )
+    return combine_results(results)
 ```
 
-## Practice Questions
+### Error Recovery
+Handle tool failures gracefully:
+```python
+try:
+    result = tool.execute(args)
+except ToolError as e:
+    # Let the agent know about the error
+    observation = f"Tool error: {e}. Please try a different approach."
+```
 
-1. What is the key idea behind "Agents & Tool Use"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+## Evaluating Agents
 
-## LLM Prompts for Deeper Understanding
-
-1. "Explain Agents & Tool Use with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Agents & Tool Use"
-1. "Provide advanced patterns and performance considerations for Agents & Tool Use"
-
-## Key Takeaways
-
-- Master the core ideas of Agents & Tool Use through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+| Metric | What It Measures |
+|---|---|
+| **Task completion** | Did the agent accomplish the goal? |
+| **Tool selection** | Did it choose the right tools? |
+| **Efficiency** | How many steps did it take? |
+| **Cost** | How many tokens/API calls? |
+| **Safety** | Did it avoid harmful actions? |
 
 ## Further Reading
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+- Yao et al.'s ReAct paper established the reasoning-action paradigm
+- LangChain's documentation is the practical starting point
+- OpenAI and Anthropic's function calling docs cover the APIs
+- For multi-agent: CrewAI and AutoGen are popular frameworks

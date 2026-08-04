@@ -1,121 +1,229 @@
 ---
-{
-  "title": "Diffusion Models for Images",
-  "description": "Generate images by learning to denoise: forward noise, reverse denoising, and text conditioning.",
-  "type": "lesson",
-  "order": 13,
-  "duration": "60 min",
-  "difficulty": "advanced",
-  "learning_objectives": [
-    "Explain the diffusion process (noise → denoise)",
-    "Describe the U-Net denoiser",
-    "Use a pretrained text-to-image model",
-    "Control generation with prompts and seeds"
-  ],
-  "knowledge_refs": [
-    "generative-ai/genai-12-agents-and-tool-use",
-    "prompt-engineering/pe-08-prompts-for-images"
-  ],
-  "prerequisites": [
-    "DL-12: Convolutional Networks"
-  ],
-  "references": [
-    {
-      "title": "Hugging Face NLP Course",
-      "url": "https://huggingface.co/learn/nlp-course",
-      "description": "Transformers, fine-tuning and LLM fundamentals with hands-on code."
-    },
-    {
-      "title": "OpenAI Documentation",
-      "url": "https://platform.openai.com/docs",
-      "description": "API reference for GPT models, embeddings and function calling."
-    },
-    {
-      "title": "Attention Is All You Need",
-      "url": "https://arxiv.org/abs/1706.03762",
-      "description": "The Transformer paper that made generative AI possible."
-    },
-    {
-      "title": "LangChain Documentation",
-      "url": "https://python.langchain.com/docs",
-      "description": "Frameworks for RAG, agents and LLM applications."
-    },
-    {
-      "title": "DeepLearning.AI Short Courses",
-      "url": "https://www.deeplearning.ai/short-courses/",
-      "description": "Practical AI courses from industry experts."
-    }
-  ]
-}
+slug: genai-13-diffusion-models
+title: "Diffusion Models for Images"
+description: "The architecture behind Stable Diffusion, DALL-E, and Midjourney — learning to generate images by reversing noise."
+order: 13
+tags:
+  - generative-ai
+  - diffusion
+  - stable-diffusion
+  - ddpm
+  - image-generation
+prerequisites:
+  - genai-01-what-is-generative-ai
+  - dl-12-convolutional-networks
+references:
+  - title: "Denoising Diffusion Probabilistic Models (Ho et al.)"
+    url: "https://arxiv.org/abs/2006.11239"
+    description: "The foundational DDPM paper from NeurIPS 2020"
+  - title: "High-Resolution Image Synthesis with Latent Diffusion Models"
+    url: "https://arxiv.org/abs/2112.10752"
+    description: "Rombach et al.'s Latent Diffusion paper — the architecture behind Stable Diffusion"
+  - title: "Classifier-Free Diffusion Guidance (Ho & Salimans)"
+    url: "https://arxiv.org/abs/2207.12598"
+    description: "The classifier-free guidance paper enabling text-conditioned generation"
+  - title: "The Annotated Diffusion Model (Hugging Face)"
+    url: "https://huggingface.co/blog/annotated-diffusion"
+    description: "Step-by-step PyTorch implementation of DDPM"
+  - title: "Guidance: A Cheat Code for Diffusion Models (Sander Dieleman)"
+    url: "https://sander.ai/2022/05/26/guidance.html"
+    description: "Deep dive into classifier guidance and classifier-free guidance"
+knowledge_refs:
+  - dl-12-convolutional-networks
+  - dl-06-loss-functions
+  - genai-14-gans
 ---
 
-# GENAI-13-DIFFUSION-MODELS: Diffusion Models for Images
+# Diffusion Models for Images
 
-## Introduction
+Diffusion models are the current state-of-the-art for image generation, powering Stable Diffusion, DALL-E 3, and Midjourney. They generate images by learning to reverse a gradual noising process.
 
-Generate images by learning to denoise: forward noise, reverse denoising, and text conditioning. By the end of this lesson you will be able to: Explain the diffusion process (noise → denoise); Describe the U-Net denoiser; Use a pretrained text-to-image model; Control generation with prompts and seeds.
+## The Core Idea
 
-## Key Concepts
+**Forward process**: Gradually add noise to an image until it becomes pure noise:
+$$\mathbf{x}_0 \to \mathbf{x}_1 \to \mathbf{x}_2 \to \ldots \to \mathbf{x}_T \approx \mathcal{N}(0, I)$$
 
-### 1. Explain the diffusion process (noise → denoise)
+**Reverse process**: Learn to gradually remove noise:
+$$\mathbf{x}_T \to \mathbf{x}_{T-1} \to \ldots \to \mathbf{x}_1 \to \mathbf{x}_0$$
 
-Target: Explain the diffusion process (noise → denoise). Start with the foundations — read the runnable example carefully and trace its output before moving on.
+The key insight: if you can learn to denoise one step, you can chain denoising steps to generate images from pure noise.
+
+## Denoising Diffusion Probabilistic Models (DDPM)
+
+### Forward Process
+Each step adds a small amount of Gaussian noise:
+$$q(\mathbf{x}_t | \mathbf{x}_{t-1}) = \mathcal{N}(\mathbf{x}_t; \sqrt{1-\beta_t}\mathbf{x}_{t-1}, \beta_t \mathbf{I})$$
+
+where $\beta_t$ is the noise schedule (typically linear from $10^{-4}$ to $0.02$).
+
+**Nice property**: We can jump directly to any timestep:
+$$q(\mathbf{x}_t | \mathbf{x}_0) = \mathcal{N}(\mathbf{x}_t; \sqrt{\bar{\alpha}_t}\mathbf{x}_0, (1-\bar{\alpha}_t)\mathbf{I})$$
+
+### Reverse Process
+A neural network (typically a U-Net) predicts the noise at each step:
+$$p_\theta(\mathbf{x}_{t-1} | \mathbf{x}_t) = \mathcal{N}(\mathbf{x}_{t-1}; \mu_\theta(\mathbf{x}_t, t), \sigma_t^2 \mathbf{I})$$
+
+### Training Loss
+Simplified to predicting the noise:
+$$\mathcal{L} = \mathbb{E}_{t, \mathbf{x}_0, \epsilon}\left[\|\epsilon - \epsilon_\theta(\mathbf{x}_t, t)\|^2\right]$$
 
 ```python
-import numpy as np
-
-# Forward: add noise gradually
-img = np.zeros((4, 4))
-noisy = img + np.random.default_rng(0).normal(0, 0.5, img.shape)
-print("noised sample")
+# Simplified DDPM training loop
+for x_batch in dataloader:
+    t = torch.randint(0, T, (batch_size,))
+    noise = torch.randn_like(x_batch)
+    
+    # Forward: add noise
+    x_t = add_noise(x_batch, noise, t)
+    
+    # Predict noise
+    predicted_noise = model(x_t, t)
+    
+    # Loss: MSE between actual and predicted noise
+    loss = F.mse_loss(predicted_noise, noise)
+    loss.backward()
+    optimizer.step()
 ```
-### 2. Describe the U-Net denoiser
 
-Target: Describe the U-Net denoiser. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+## Latent Diffusion Models (Stable Diffusion)
+
+Pixel-space diffusion is computationally expensive. Latent Diffusion Models (LDMs) solve this:
+
+```
+Image (512×512×3) 
+    ↓ VAE Encoder
+Latent (64×64×4) 
+    ↓ Diffusion in Latent Space
+    ↓ U-Net + Cross-Attention
+Latent (64×64×4)
+    ↓ VAE Decoder
+Image (512×512×3)
+```
+
+**Key components:**
+1. **VAE Encoder**: Compresses image to latent space (8x smaller)
+2. **U-Net**: Denoises in latent space with text conditioning
+3. **Text Encoder**: CLIP or T5 encodes text prompts
+4. **VAE Decoder**: Reconstructs image from denoised latent
 
 ```python
 from diffusers import StableDiffusionPipeline
 
 pipe = StableDiffusionPipeline.from_pretrained("runwayml/stable-diffusion-v1-5")
-print("diffusion pipeline loaded")
+image = pipe("A cat playing piano, oil painting").images[0]
 ```
-### 3. Use a pretrained text-to-image model
 
-Target: Use a pretrained text-to-image model. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+## Classifier-Free Guidance (CFG)
+
+Controls how closely the image follows the text prompt:
+$$\hat{\epsilon}_\theta(\mathbf{x}_t, y) = \epsilon_\theta(\mathbf{x}_t, \emptyset) + w \cdot (\epsilon_\theta(\mathbf{x}_t, y) - \epsilon_\theta(\mathbf{x}_t, \emptyset))$$
+
+where $w$ is the guidance scale:
+- $w = 1$: No guidance (unconditional generation)
+- $w = 7.5$: Standard (good prompt adherence)
+- $w = 15$: Very strong (high fidelity, less diversity)
 
 ```python
-image = pipe("a cozy cabin in snowy mountains", num_inference_steps=30, seed=42).images[0]
-print("generated image:", image.size)
+# Higher guidance = more faithful to prompt
+image = pipe("A sunset over mountains", guidance_scale=7.5).images[0]
 ```
-### 4. Control generation with prompts and seeds
 
-Target: Control generation with prompts and seeds. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+## Sampling Strategies
+
+| Method | Speed | Quality | Steps |
+|---|---|---|---|
+| DDPM | Slow | High | 1000 |
+| DDIM | Medium | High | 50-100 |
+| DPM-Solver | Fast | High | 20-30 |
+| Euler | Fast | Good | 20-50 |
+| LCM | Very fast | Good | 4-8 |
+
+**LCM (Latent Consistency Models)**: Distilled models that generate in 4-8 steps.
+
+## The Stable Diffusion Pipeline
 
 ```python
+from diffusers import StableDiffusionXLPipeline
 import torch
 
-# Denoising loop: predict noise, remove a step
-print("reverse process: iterate t from T down to 0")
+# Load model
+pipe = StableDiffusionXLPipeline.from_pretrained(
+    "stabilityai/stable-diffusion-xl-base-1.0",
+    torch_dtype=torch.float16
+).to("cuda")
+
+# Generate
+image = pipe(
+    prompt="A photorealistic cat wearing sunglasses, studio lighting",
+    negative_prompt="blurry, low quality, distorted",
+    num_inference_steps=30,
+    guidance_scale=7.5,
+    width=1024,
+    height=1024,
+).images[0]
 ```
 
-## Practice Questions
+## Text-to-Image Models
 
-1. What is the key idea behind "Diffusion Models for Images"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+| Model | Architecture | Key Feature |
+|---|---|---|
+| Stable Diffusion 1.5 | Latent Diffusion | Open source, community |
+| Stable Diffusion XL | Latent Diffusion | Higher quality, 1024px |
+| DALL-E 3 | Diffusion + CLIP | Best prompt following |
+| Midjourney | Diffusion (proprietary) | Best aesthetics |
+| Flux | Flow matching | New architecture, fast |
 
-## LLM Prompts for Deeper Understanding
+## Image Editing with Diffusion
 
-1. "Explain Diffusion Models for Images with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Diffusion Models for Images"
-1. "Provide advanced patterns and performance considerations for Diffusion Models for Images"
+**Inpainting**: Replace specific regions of an image
+**img2img**: Transform an image while keeping structure
+**ControlNet**: Guide generation with edge maps, depth maps, poses
 
-## Key Takeaways
+```python
+from diffusers import StableDiffusionInpaintPipeline
 
-- Master the core ideas of Diffusion Models for Images through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+inpaint = StableDiffusionInpaintPipeline.from_pretrained("runwayml/stable-diffusion-inpainting")
+result = inpaint(
+    prompt="A red sports car",
+    image=original_image,
+    mask_image=mask  # white = area to replace
+).images[0]
+```
+
+## Training Your Own Diffusion Model
+
+```python
+from diffusers import DDPMPipeline, DDPMScheduler, UNet2DModel
+
+# Define model
+model = UNet2DModel(
+    sample_size=64,
+    in_channels=3,
+    out_channels=3,
+    layers_per_block=2,
+    block_out_channels=(64, 128, 256, 512),
+    down_block_types=("DownBlock2D",) * 4,
+    up_block_types=("UpBlock2D",) * 4,
+)
+
+# Training
+noise_scheduler = DDPMScheduler(num_train_timesteps=1000)
+
+for epoch in range(num_epochs):
+    for batch in dataloader:
+        noise = torch.randn_like(batch)
+        timesteps = torch.randint(0, 1000, (batch.shape[0],))
+        
+        noisy = noise_scheduler.add_noise(batch, noise, timesteps)
+        noise_pred = model(noisy, timesteps).sample
+        
+        loss = F.mse_loss(noise_pred, noise)
+        loss.backward()
+```
 
 ## Further Reading
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+- Ho et al.'s DDPM paper is the foundational reference
+- Rombach et al.'s Latent Diffusion paper explains the Stable Diffusion architecture
+- Hugging Face's annotated diffusion model is excellent for implementation
+- Sander Dieleman's guidance article is the best explanation of CFG

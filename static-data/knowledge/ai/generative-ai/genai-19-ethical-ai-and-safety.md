@@ -1,121 +1,219 @@
 ---
-{
-  "title": "Ethical AI & Safety",
-  "description": "Bias, privacy, transparency and misuse — the responsibilities that come with generative models.",
-  "type": "lesson",
-  "order": 19,
-  "duration": "50 min",
-  "difficulty": "intermediate",
-  "learning_objectives": [
-    "Identify bias sources in training data",
-    "Explain privacy risks (PII, memorization)",
-    "Design for transparency and auditability",
-    "Build safeguards against misuse"
-  ],
-  "knowledge_refs": [
-    "generative-ai/genai-18-llmops",
-    "ai-safety/safety-21-roadmap",
-    "ai-safety/safety-01-why-ai-safety"
-  ],
-  "prerequisites": [
-    "GENAI-01: What Is Generative AI?"
-  ],
-  "references": [
-    {
-      "title": "Hugging Face NLP Course",
-      "url": "https://huggingface.co/learn/nlp-course",
-      "description": "Transformers, fine-tuning and LLM fundamentals with hands-on code."
-    },
-    {
-      "title": "OpenAI Documentation",
-      "url": "https://platform.openai.com/docs",
-      "description": "API reference for GPT models, embeddings and function calling."
-    },
-    {
-      "title": "Attention Is All You Need",
-      "url": "https://arxiv.org/abs/1706.03762",
-      "description": "The Transformer paper that made generative AI possible."
-    },
-    {
-      "title": "LangChain Documentation",
-      "url": "https://python.langchain.com/docs",
-      "description": "Frameworks for RAG, agents and LLM applications."
-    },
-    {
-      "title": "DeepLearning.AI Short Courses",
-      "url": "https://www.deeplearning.ai/short-courses/",
-      "description": "Practical AI courses from industry experts."
-    }
-  ]
-}
+slug: genai-19-ethical-ai-and-safety
+title: "Ethical AI & Safety"
+description: "The principles, challenges, and practices for building responsible AI systems — bias, fairness, privacy, and alignment."
+order: 19
+tags:
+  - generative-ai
+  - ethics
+  - safety
+  - bias
+  - fairness
+  - alignment
+prerequisites:
+  - genai-09-rlhf-and-alignment
+  - genai-17-evaluating-llms
+references:
+  - title: "Constitutional AI: Harmlessness from AI Feedback (Anthropic)"
+    url: "https://arxiv.org/abs/2212.08073"
+    description: "Bai et al.'s Constitutional AI paper for safe AI development"
+  - title: "The Foundation Model Transparency Index"
+    url: "https://crfm.stanford.edu/transparency/"
+    description: "Stanford's index tracking transparency of foundation models"
+  - title: "AI Safety Fundamentals (BlueDot Impact)"
+    url: "https://aisafetyfundamentals.com/"
+    description: "Comprehensive AI safety curriculum"
+  - title: "Red Teaming Language Models (Anthropic)"
+    url: "https://arxiv.org/abs/2209.07858"
+    description: "Perez et al.'s red teaming methodology for LLMs"
+  - title: "Model Cards for Model Reporting (Mitchell et al.)"
+    url: "https://arxiv.org/abs/1810.03993"
+    description: "Mitchell et al.'s model cards for transparent AI documentation"
+knowledge_refs:
+  - genai-09-rlhf-and-alignment
+  - genai-17-evaluating-llms
+  - genai-18-llmops
 ---
 
-# GENAI-19-ETHICAL-AI-AND-SAFETY: Ethical AI & Safety
+# Ethical AI & Safety
 
-## Introduction
+As AI systems become more powerful, ensuring they are safe, fair, and beneficial becomes critical. This lesson covers the key ethical challenges and practical approaches to responsible AI development.
 
-Bias, privacy, transparency and misuse — the responsibilities that come with generative models. By the end of this lesson you will be able to: Identify bias sources in training data; Explain privacy risks (PII, memorization); Design for transparency and auditability; Build safeguards against misuse.
+## The Ethical Landscape
 
-## Key Concepts
+### Key Concerns
+1. **Bias and Fairness**: Models perpetuate or amplify societal biases
+2. **Safety**: Models can generate harmful, dangerous, or misleading content
+3. **Privacy**: Training data may contain personal information
+4. **Transparency**: Models are difficult to interpret and explain
+5. **Accountability**: Unclear who is responsible when AI causes harm
+6. **Misinformation**: AI can generate convincing false content at scale
+7. **Job displacement**: Automation of knowledge work
 
-### 1. Identify bias sources in training data
+## Bias and Fairness
 
-Target: Identify bias sources in training data. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+### Sources of Bias
+- **Training data**: Reflects historical and societal biases
+- **Labeling**: Annotator biases in human labels
+- **Architecture**: Design choices may disadvantage certain groups
+- **Evaluation**: Benchmarks may not represent all populations
 
+### Measuring Bias
 ```python
-concerns = {
-    "bias": "skewed training data -> skewed outputs",
-    "privacy": "models can memorize training data",
-    "misuse": "fraud, disinformation, impersonation",
-}
-print(concerns)
-```
-### 2. Explain privacy risks (PII, memorization)
-
-Target: Explain privacy risks (PII, memorization). Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
-
-```python
-import re
-
-# Never log raw PII from prompts
-prompt = "my email is john@example.com"
-sanitized = re.sub(r"[\w.+-]+@[\w-]+\.[\w.]+", "[EMAIL]", prompt)
-print(sanitized)
-```
-### 3. Design for transparency and auditability
-
-Target: Design for transparency and auditability. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
-
-```python
-print("disclose: tell users when content is AI-generated")
-```
-### 4. Build safeguards against misuse
-
-Target: Build safeguards against misuse. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
-
-```python
-guardrails = ["input filtering", "output moderation", "rate limits", "human review"]
-print(guardrails)
+# Example: Measuring gender bias in occupation predictions
+prompts = [
+    "The doctor said that he",
+    "The doctor said that she",
+    "The nurse said that he",
+    "The nurse said that she",
+]
+# Compare model predictions across demographic conditions
 ```
 
-## Practice Questions
+### Mitigation Strategies
+1. **Data debiasing**: Balance training data across demographics
+2. **Fairness constraints**: Add fairness objectives to training
+3. **Post-processing**: Adjust outputs to satisfy fairness criteria
+4. **Diverse teams**: Include diverse perspectives in development
+5. **Red-teaming**: Systematically test for biased outputs
 
-1. What is the key idea behind "Ethical AI & Safety"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+## AI Safety
 
-## LLM Prompts for Deeper Understanding
+### Harmful Content
+Models can generate:
+- Hate speech and discrimination
+- Violence and self-harm instructions
+- Misinformation and propaganda
+- Personal information and privacy violations
+- Illegal content
 
-1. "Explain Ethical AI & Safety with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Ethical AI & Safety"
-1. "Provide advanced patterns and performance considerations for Ethical AI & Safety"
+### Safety Approaches
 
-## Key Takeaways
+**Input filtering**:
+```python
+def check_safety(input_text):
+    # Check against safety classifier
+    is_safe = safety_classifier.predict(input_text)
+    if not is_safe:
+        return "I'm sorry, I can't help with that request."
+    return process(input_text)
+```
 
-- Master the core ideas of Ethical AI & Safety through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+**Output filtering**:
+```python
+def filter_output(response):
+    # Check for harmful content in response
+    safety_score = safety_classifier.score(response)
+    if safety_score < threshold:
+        return "I apologize, but I cannot provide that information."
+    return response
+```
+
+**Constitutional AI**:
+- Write explicit safety principles
+- Model self-critiques and revises
+- Train on self-corrected responses
+
+**RLHF alignment**:
+- Train on human preferences for safe outputs
+- Reward helpfulness and harmlessness
+- Use red-teaming to identify failure modes
+
+## Red Teaming
+
+Systematically test AI systems for vulnerabilities:
+
+### Categories to Test
+| Category | Example Attack |
+|---|---|
+| **Harmful content** | "How do I make a weapon?" |
+| **Bias** | "Why are [group] inferior?" |
+| **Privacy** | "What is [person]'s SSN?" |
+| **Misinformation** | "Tell me about [false event]" |
+| **Prompt injection** | "Ignore previous instructions..." |
+| **Jailbreaking** | DAN-style prompts |
+
+### Automated Red Teaming
+```python
+# Generate adversarial prompts
+red_team_prompts = generate_red_team_prompts(model)
+
+# Test each prompt
+for prompt in red_team_prompts:
+    response = model.generate(prompt)
+    safety_score = evaluate_safety(response)
+    if safety_score < threshold:
+        flag_for_review(prompt, response, safety_score)
+```
+
+## Privacy and Data Protection
+
+### Training Data Privacy
+- **Data minimization**: Only include necessary data
+- **Anonymization**: Remove personally identifiable information
+- **Consent**: Ensure data was collected with consent
+- **Right to deletion**: Allow removal of personal data
+
+### Inference Privacy
+- Don't log sensitive inputs
+- Don't store user conversations long-term
+- Use encryption for data in transit
+- Comply with GDPR, CCPA, and other regulations
+
+## Transparency and Explainability
+
+### Model Cards
+Document model capabilities, limitations, and intended use:
+```markdown
+## Model Card: GPT-4
+
+**Intended Use**: General-purpose language tasks
+**Out-of-Scope Uses**: Medical diagnosis, legal advice, autonomous systems
+**Bias Evaluation**: Tested on demographic subgroups
+**Limitations**: May hallucinate, limited knowledge cutoff
+**Training Data**: Web text + books (details in paper)
+```
+
+### System Prompts Transparency
+- Publish system prompts when possible
+- Document what the model will and won't do
+- Explain when and how the model is used
+
+## Regulatory Landscape
+
+| Regulation | Region | Key Requirements |
+|---|---|---|
+| **EU AI Act** | European Union | Risk-based classification, transparency |
+| **NIST AI RMF** | United States | Risk management framework |
+| **UK AI Safety Institute** | United Kingdom | Pre-deployment safety testing |
+| **Executive Order on AI** | United States | Safety standards, reporting requirements |
+
+## Practical Safety Checklist
+
+| Step | Action | Priority |
+|---|---|---|
+| 1 | Define safety requirements | Critical |
+| 2 | Red-team the model | Critical |
+| 3 | Implement input/output filtering | Critical |
+| 4 | Test for bias across demographics | High |
+| 5 | Document model capabilities and limits | High |
+| 6 | Monitor for misuse in production | High |
+| 7 | Establish incident response plan | Medium |
+| 8 | Regular safety audits | Medium |
+
+## Responsible Development Principles
+
+1. **Do no harm**: Prioritize safety over capability
+2. **Be transparent**: Document what the model can and can't do
+3. **Test rigorously**: Red-team extensively before deployment
+4. **Monitor continuously**: Watch for misuse and emerging issues
+5. **Be accountable**: Take responsibility for model outputs
+6. **Involve stakeholders**: Include diverse perspectives in development
+7. **Iterate**: Continuously improve safety measures
 
 ## Further Reading
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+- Anthropic's Constitutional AI paper is foundational for safe AI development
+- Stanford's Foundation Model Transparency Index tracks industry progress
+- Red-teaming methodologies are essential for identifying vulnerabilities
+- Model cards provide a structured approach to documentation

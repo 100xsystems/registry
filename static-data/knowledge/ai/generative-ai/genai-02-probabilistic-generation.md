@@ -1,130 +1,202 @@
 ---
-{
-  "title": "The Mathematics of Generation",
-  "description": "Generation is sampling from a probability distribution over tokens — conditioned on context.",
-  "type": "lesson",
-  "order": 2,
-  "duration": "50 min",
-  "difficulty": "intermediate",
-  "learning_objectives": [
-    "Model text generation as next-token sampling",
-    "Explain conditional probability chains",
-    "Sample from a categorical distribution",
-    "Control randomness with temperature"
-  ],
-  "knowledge_refs": [
-    "generative-ai/genai-01-what-is-generative-ai"
-  ],
-  "prerequisites": [
-    "GENAI-01: What Is Generative AI?"
-  ],
-  "references": [
-    {
-      "title": "Hugging Face NLP Course",
-      "url": "https://huggingface.co/learn/nlp-course",
-      "description": "Transformers, fine-tuning and LLM fundamentals with hands-on code."
-    },
-    {
-      "title": "OpenAI Documentation",
-      "url": "https://platform.openai.com/docs",
-      "description": "API reference for GPT models, embeddings and function calling."
-    },
-    {
-      "title": "Attention Is All You Need",
-      "url": "https://arxiv.org/abs/1706.03762",
-      "description": "The Transformer paper that made generative AI possible."
-    },
-    {
-      "title": "LangChain Documentation",
-      "url": "https://python.langchain.com/docs",
-      "description": "Frameworks for RAG, agents and LLM applications."
-    },
-    {
-      "title": "DeepLearning.AI Short Courses",
-      "url": "https://www.deeplearning.ai/short-courses/",
-      "description": "Practical AI courses from industry experts."
-    }
-  ]
-}
+slug: genai-02-probabilistic-generation
+title: "The Mathematics of Generation"
+description: "The probabilistic foundations — from chain rule to sampling strategies that determine how AI creates text."
+order: 2
+tags:
+  - generative-ai
+  - probability
+  - sampling
+  - temperature
+  - top-k
+  - top-p
+prerequisites:
+  - genai-01-what-is-generative-ai
+  - ml-06-gradient-descent
+references:
+  - title: "The Curious Case of Neural Text Degeneration (Holtzman et al.)"
+    url: "https://arxiv.org/abs/1904.09751"
+    description: "The nucleus sampling paper that solved text degeneration in open-ended generation"
+  - title: "A Survey of Confidence Estimation and Calibration in LLMs (Geng et al.)"
+    url: "https://arxiv.org/abs/2311.08298"
+    description: "Comprehensive survey of probability calibration techniques for LLMs"
+  - title: "Token Sampling Methods Primer"
+    url: "https://aman.ai/primers/ai/token-sampling/"
+    description: "Detailed technical primer covering greedy, temperature, top-k, top-p, and beam search"
+  - title: "Locally Typical Sampling (Meister et al.)"
+    url: "https://aclanthology.org/2023.tacl_a_00536/"
+    description: "Information-theoretic alternative to traditional sampling strategies"
+  - title: "Softmax Temperature Explanation (Hugging Face)"
+    url: "https://huggingface.co/docs/transformers/main/en/main_classes/generation"
+    description: "Hugging Face's practical guide to generation parameters and sampling"
+knowledge_refs:
+  - genai-01-what-is-generative-ai
+  - dl-17-transformers
+  - ml-07-logistic-regression
 ---
 
-# GENAI-02-PROBABILISTIC-GENERATION: The Mathematics of Generation
+# The Mathematics of Generation
 
-## Introduction
+Every text an LLM produces is drawn from a probability distribution. Understanding this distribution — and how to sample from it — is fundamental to controlling generative AI.
 
-Generation is sampling from a probability distribution over tokens — conditioned on context. By the end of this lesson you will be able to: Model text generation as next-token sampling; Explain conditional probability chains; Sample from a categorical distribution; Control randomness with temperature.
+## The Autoregressive Factorization
 
-## Key Concepts
+An LLM decomposes the joint probability of a sequence using the chain rule:
 
-### 1. Model text generation as next-token sampling
+$$P(x_1, x_2, \ldots, x_T) = \prod_{t=1}^{T} P(x_t \mid x_1, \ldots, x_{t-1})$$
 
-Target: Model text generation as next-token sampling. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+Each token depends only on the previous tokens. The model predicts a probability distribution over the entire vocabulary at each step.
 
-```python
-import numpy as np
-
-# Next-token distribution
-logits = np.array([2.0, 1.0, 0.1])
-probs = np.exp(logits - logits.max())
-probs = probs / probs.sum()
-print("probs:", probs.round(3))
+**Concrete example:**
 ```
-### 2. Explain conditional probability chains
-
-Target: Explain conditional probability chains. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
-
-```python
-import numpy as np
-
-rng = np.random.default_rng(0)
-probs = np.array([0.7, 0.2, 0.1])
-token = rng.choice(3, p=probs)
-print("sampled token:", token)
-```
-### 3. Sample from a categorical distribution
-
-Target: Sample from a categorical distribution. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
-
-```python
-import numpy as np
-
-# P("cat sat") = P("cat") * P("sat" | "cat")
-p_cat = 0.2
-p_sat_given_cat = 0.5
-print("P(cat sat):", p_cat * p_sat_given_cat)
-```
-### 4. Control randomness with temperature
-
-Target: Control randomness with temperature. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
-
-```python
-import numpy as np
-
-# Temperature sharpens or flattens the distribution
-logits = np.array([2.0, 1.0, 0.1])
-for t in [0.2, 1.0, 2.0]:
-    p = np.exp(logits / t - (logits / t).max())
-    print(f"T={t}: {np.round(p / p.sum(), 3)}")
+P("The" | <bos>) = 0.35
+P("cat" | "The") = 0.12
+P("sat" | "The cat") = 0.08
+P("on" | "The cat sat") = 0.25
 ```
 
-## Practice Questions
+## From Logits to Probabilities
 
-1. What is the key idea behind "The Mathematics of Generation"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+The model's final layer outputs **logits** (unnormalized scores) for each token in the vocabulary:
 
-## LLM Prompts for Deeper Understanding
+$$z_i = \text{model}(x_{<t})_i$$
 
-1. "Explain The Mathematics of Generation with analogies and real-world examples"
-1. "Show me common mistakes beginners make with The Mathematics of Generation"
-1. "Provide advanced patterns and performance considerations for The Mathematics of Generation"
+Softmax converts logits to a valid probability distribution:
 
-## Key Takeaways
+$$P(x_t = v_i) = \frac{e^{z_i / T}}{\sum_{j \in V} e^{z_j / T}}$$
 
-- Master the core ideas of The Mathematics of Generation through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+where $T$ is the **temperature** parameter.
+
+## Decoding Strategies
+
+### Greedy Search
+Always pick the highest-probability token:
+$$x_t = \arg\max_x P(x \mid x_{<t})$$
+
+- **Pros**: Deterministic, fast
+- **Cons**: Repetitive, boring, gets stuck in loops
+- **Use for**: Classification, extraction, factual QA
+
+### Beam Search
+Maintain $B$ best candidate sequences:
+```
+Step 1: ["The"] (0.35), ["A"] (0.28), ["It"] (0.15)...
+Step 2: ["The cat"] (0.35×0.12), ["The dog"] (0.35×0.10)...
+...keep top B sequences at each step
+```
+
+- **Pros**: Better quality than greedy
+- **Cons**: Still repetitive for open-ended text, expensive
+- **Use for**: Translation, summarization (where one "right" answer exists)
+
+### Temperature Scaling
+Controls the "creativity" of generation:
+
+$$P_T(x_i) = \frac{e^{z_i / T}}{\sum_j e^{z_j / T}}$$
+
+| Temperature | Effect | Output Character |
+|---|---|---|
+| $T \to 0$ | Sharpen distribution | Deterministic, focused |
+| $T = 1$ | Original distribution | Model's natural behavior |
+| $T > 1$ | Flatten distribution | Creative, random, risky |
+
+```python
+# Hugging Face
+output = model.generate(input_ids, temperature=0.7, do_sample=True)
+
+# OpenAI API
+response = openai.chat.completions.create(
+    model="gpt-4",
+    messages=[{"role": "user", "content": prompt}],
+    temperature=0.7
+)
+```
+
+### Top-k Sampling
+Only consider the $k$ most probable tokens:
+$$V^{(k)} = \text{top-}k \text{ tokens by } P(x_t \mid x_{<t})$$
+
+Then renormalize and sample from this restricted vocabulary.
+
+- **Problem**: Fixed $k$ is rigid — sometimes too restrictive (model confident), sometimes too loose (model uncertain)
+
+### Top-p (Nucleus) Sampling
+Dynamically select the smallest set of tokens whose cumulative probability exceeds $p$:
+
+$$V^{(p)} = \arg\min_{V' \subseteq V} \left\{ |V'| : \sum_{x \in V'} P(x \mid x_{<t}) \geq p \right\}$$
+
+```python
+# Hugging Face
+output = model.generate(input_ids, top_p=0.9, do_sample=True)
+
+# OpenAI API
+response = openai.chat.completions.create(
+    model="gpt-4",
+    messages=[{"role": "user", "content": prompt}],
+    top_p=0.9
+)
+```
+
+**Why top-p is better**: Adapts dynamically — when the model is confident, the pool shrinks; when uncertain, it expands.
+
+### Combining Temperature and Top-p
+
+Most practitioners use both:
+- **Temperature 0.7 + Top-p 0.9**: Good default for creative writing
+- **Temperature 0.0**: Best for factual tasks, code generation
+- **Temperature 1.0 + Top-p 0.95**: Maximum diversity
+
+### Min-P Sampling
+
+A newer method that filters tokens below a probability threshold relative to the most likely token:
+$$V^{(\text{min\_p})} = \{x : P(x) \geq \text{min\_p} \cdot P(x_{\text{best}})\}$$
+
+More stable than top-p in practice.
+
+### Repetition Penalty
+
+Prevents loops by penalizing tokens that have already appeared:
+$$z_i' = \begin{cases} z_i / \alpha & \text{if } v_i \in \text{generated tokens} \\ z_i & \text{otherwise} \end{cases}$$
+
+where $\alpha > 1$ is the penalty factor.
+
+## Text Degeneration
+
+Without proper sampling, LLMs produce degenerate text:
+- **Repetitive loops**: "I think that I think that I think..."
+- **Unfavorable priors**: Overusing common phrases
+- **Collapse**: Outputting the same token repeatedly
+
+Holtzman et al. (2019) showed this happens because:
+1. Beam search optimizes for likely sequences but misses diverse, high-quality ones
+2. The model's probability distribution doesn't perfectly match human text distribution
+3. Nucleus sampling fixes this by truncating the low-probability tail
+
+## Practical Sampling Recipes
+
+| Task | Temperature | Top-p | Repetition Penalty |
+|---|---|---|---|
+| Factual QA | 0.0 | 1.0 | 1.0 |
+| Code generation | 0.0-0.2 | 0.95 | 1.0 |
+| Creative writing | 0.7-1.0 | 0.9 | 1.1-1.2 |
+| Brainstorming | 0.9-1.2 | 0.95 | 1.1 |
+| Translation | 0.0 | 1.0 | 1.0 |
+| Summarization | 0.3-0.5 | 0.9 | 1.0 |
+
+## Probability Calibration
+
+LLMs are often poorly calibrated — their confidence doesn't match their accuracy:
+
+- **Overconfidence**: 99% probability on wrong answer
+- **Underconfidence**: 51% probability on right answer
+
+**Temperature scaling** (post-hoc): Find optimal temperature on validation set to calibrate outputs.
+
+**Verbalized confidence**: Ask the model "On a scale of 0-100, how confident are you?" — surprisingly effective for calibration.
 
 ## Further Reading
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+- Holtzman et al. (2019) is essential — nucleus sampling is now the default
+- The token sampling primer covers all methods mathematically
+- Locally typical sampling offers an information-theoretic alternative
+- For production: vLLM and TGI implement optimized sampling

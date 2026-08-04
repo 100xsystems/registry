@@ -1,115 +1,223 @@
 ---
-{
-  "title": "In-Context Learning",
-  "description": "Teach new tasks with examples in the prompt — no weight updates required.",
-  "type": "lesson",
-  "order": 5,
-  "duration": "50 min",
-  "difficulty": "intermediate",
-  "learning_objectives": [
-    "Explain in-context learning (ICL)",
-    "Show zero-shot vs few-shot differences",
-    "Understand context window limits",
-    "Use ICL with structured examples"
-  ],
-  "knowledge_refs": [
-    "generative-ai/genai-04-prompt-engineering",
-    "prompt-engineering/pe-03-roles-and-context",
-    "llm-engineering/llm-12-context-engineering"
-  ],
-  "prerequisites": [
-    "GENAI-04: Prompt Engineering"
-  ],
-  "references": [
-    {
-      "title": "Hugging Face NLP Course",
-      "url": "https://huggingface.co/learn/nlp-course",
-      "description": "Transformers, fine-tuning and LLM fundamentals with hands-on code."
-    },
-    {
-      "title": "OpenAI Documentation",
-      "url": "https://platform.openai.com/docs",
-      "description": "API reference for GPT models, embeddings and function calling."
-    },
-    {
-      "title": "Attention Is All You Need",
-      "url": "https://arxiv.org/abs/1706.03762",
-      "description": "The Transformer paper that made generative AI possible."
-    },
-    {
-      "title": "LangChain Documentation",
-      "url": "https://python.langchain.com/docs",
-      "description": "Frameworks for RAG, agents and LLM applications."
-    },
-    {
-      "title": "DeepLearning.AI Short Courses",
-      "url": "https://www.deeplearning.ai/short-courses/",
-      "description": "Practical AI courses from industry experts."
-    }
-  ]
-}
+slug: genai-05-in-context-learning
+title: "In-Context Learning"
+description: "How LLMs learn from examples in the prompt without weight updates — the most surprising capability of large models."
+order: 5
+tags:
+  - generative-ai
+  - in-context-learning
+  - few-shot
+  - meta-learning
+  - emergence
+prerequisites:
+  - genai-03-text-generation-basics
+  - genai-02-probabilistic-generation
+references:
+  - title: "Language Models are Few-Shot Learners (GPT-3)"
+    url: "https://arxiv.org/abs/2005.14165"
+    description: "Brown et al.'s GPT-3 paper establishing in-context learning as a paradigm"
+  - title: "Rethinking the Role of Demonstrations in ICL"
+    url: "https://arxiv.org/abs/2202.12837"
+    description: "Min et al.'s surprising finding that labels matter more than input-label mappings"
+  - title: "What Makes Good In-Context Examples for GPT-3"
+    url: "https://arxiv.org/abs/2103.10360"
+    description: "Liu et al.'s study on example selection strategies"
+  - title: "In-Context Learning and Induction Heads (Olsson et al.)"
+    url: "https://arxiv.org/abs/2209.11895"
+    description: "Anthropic's mechanistic explanation of how ICL works inside transformers"
+  - title: "Large Language Models are Zero-Shot Reasoners"
+    url: "https://arxiv.org/abs/2205.11916"
+    description: "Kojima et al.'s 'Let's think step by step' zero-shot reasoning paper"
+knowledge_refs:
+  - genai-03-text-generation-basics
+  - genai-04-prompt-engineering
+  - genai-06-llm-architecture
 ---
 
-# GENAI-05-IN-CONTEXT-LEARNING: In-Context Learning
+# In-Context Learning
 
-## Introduction
+In-context learning (ICL) is the ability of LLMs to learn new tasks from examples provided in the prompt — without any weight updates. It's arguably the most surprising and important capability to emerge from scaling language models.
 
-Teach new tasks with examples in the prompt — no weight updates required. By the end of this lesson you will be able to: Explain in-context learning (ICL); Show zero-shot vs few-shot differences; Understand context window limits; Use ICL with structured examples.
+## What Is In-Context Learning?
 
-## Key Concepts
+Traditional machine learning requires:
+1. Collect labeled data
+2. Train/update model weights
+3. Deploy updated model
 
-### 1. Explain in-context learning (ICL)
+In-context learning requires:
+1. Write examples in the prompt
+2. Get correct predictions — **immediately**
 
-Target: Explain in-context learning (ICL). Start with the foundations — read the runnable example carefully and trace its output before moving on.
-
-```python
-zero_shot = "Is this review positive or negative? \"terrible product\""
-print(zero_shot)
 ```
-### 2. Show zero-shot vs few-shot differences
+Traditional ML:
+  Data → Training → Updated Model → Predictions
 
-Target: Show zero-shot vs few-shot differences. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
-
-```python
-few_shot = """Classify sentiment.\n\"love it\" -> positive\n\"hate it\" -> negative\n\"it was okay\" -> neutral\n\"amazing\" ->"""
-print(few_shot)
-```
-### 3. Understand context window limits
-
-Target: Understand context window limits. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
-
-```python
-import tiktoken
-
-enc = tiktoken.get_encoding("cl100k_base")
-print("tokens in prompt:", len(enc.encode("the quick brown fox")))
-```
-### 4. Use ICL with structured examples
-
-Target: Use ICL with structured examples. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
-
-```python
-print("context window: model sees only what fits in the prompt")
+In-Context Learning:
+  Examples in prompt → Model → Predictions (no training!)
 ```
 
-## Practice Questions
+## The GPT-3 Discovery
 
-1. What is the key idea behind "In-Context Learning"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+Brown et al. (2020) discovered that GPT-3 (175B parameters) could perform tasks from just a few examples in the prompt:
 
-## LLM Prompts for Deeper Understanding
+**Zero-shot:**
+```
+Translate English to French:
+cheese →
+```
 
-1. "Explain In-Context Learning with analogies and real-world examples"
-1. "Show me common mistakes beginners make with In-Context Learning"
-1. "Provide advanced patterns and performance considerations for In-Context Learning"
+**One-shot:**
+```
+Translate English to French:
+sea otter → loutre de mer
+cheese →
+```
 
-## Key Takeaways
+**Few-shot:**
+```
+Translate English to French:
+sea otter → loutre de mer
+peppermint → menthe poivrée
+plush girafe → girafe en peluche
+cheese →
+```
 
-- Master the core ideas of In-Context Learning through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+The model learns the translation pattern from the examples and applies it — **without any gradient updates**.
+
+## Why ICL Is Surprising
+
+1. **No weight updates**: The model's parameters don't change
+2. **No gradient computation**: Just forward passes
+3. **No task-specific training**: Same model, different tasks
+4. **Emergent capability**: Only appears above ~1B parameters
+
+This challenges the traditional ML paradigm where learning = weight updates.
+
+## How ICL Works (Mechanistic Understanding)
+
+Olsson et al. (2022) at Anthropic found that ICL works through **induction heads** — attention patterns that implement a specific algorithm:
+
+```
+Induction Head Pattern:
+  Attention head looks for: [A][B]...[A] → predicts [B]
+
+Example:
+  "The cat sat on the mat. The dog sat on the"
+                                          ↑
+  The model has seen "sat on the" follow "cat", 
+  so after "dog sat on the", it predicts "mat"
+```
+
+**Two-head circuit:**
+1. **Previous token head**: Copies information about the previous token
+2. **Induction head**: Matches patterns and completes them
+
+This simple mechanism, scaled across many layers and heads, produces the sophisticated in-context learning behavior.
+
+## Types of In-Context Learning
+
+### Task Specification via Examples
+The most common form — provide input-output pairs:
+```
+Classify the sentiment:
+
+"I love this movie!" → Positive
+"This is terrible." → Negative
+"It was okay." → Neutral
+
+"The special effects were amazing!" →
+```
+
+### Instruction Following
+Natural language instructions instead of examples:
+```
+Classify the sentiment of the following review as Positive, Negative, or Neutral.
+Return only the label.
+
+Review: "The special effects were amazing!"
+```
+
+### Pattern Completion
+Complete a pattern established in the prompt:
+```
+1 → one
+2 → two
+3 →
+```
+
+### Analogical Reasoning
+Solve new problems by analogy:
+```
+Q: If a car needs 3 liters to travel 100km, how much for 350km?
+A: 10.5 liters
+
+Q: If a machine produces 5 units per hour, how many in 8 hours?
+A:
+```
+
+## Factors Affecting ICL Performance
+
+### Number of Examples
+| Examples | Performance | Use Case |
+|---|---|---|
+| 0 (zero-shot) | Baseline | Simple, well-known tasks |
+| 1-3 (one/few-shot) | Significant boost | Most practical tasks |
+| 5-10 | Optimal range | Complex or ambiguous tasks |
+| 10+ | Diminishing returns | Very specialized domains |
+
+### Example Selection
+Not all examples are equal:
+- **Diverse examples**: Cover edge cases and different patterns
+- **Representative examples**: Match the distribution of test inputs
+- **Clear examples**: Unambiguous input-label mappings
+- **Relevant examples**: Similar to the actual query
+
+### Example Ordering
+Order matters more than expected:
+- **Put the most similar example last**: Recency bias helps
+- **Mix positive and negative examples**: Balanced representation
+- **Avoid clustering by class**: Randomize order
+
+### Label Accuracy
+Min et al. (2022) found a surprising result: **random labels work almost as well as correct labels** for few-shot classification. What matters more is:
+- The format of the examples
+- The distribution of inputs
+- The task description
+
+## In-Context Learning vs. Fine-Tuning
+
+| Aspect | ICL | Fine-Tuning |
+|---|---|---|
+| Data needed | 0-20 examples | 100-1000+ examples |
+| Compute | Forward pass only | Backward pass + GPU hours |
+| Task switching | Change prompt | Retrain model |
+| Cost | Per-query (tokens) | One-time training + inference |
+| Performance | Good for simple tasks | Better for complex tasks |
+| Customization | Limited | Full control |
+
+**Rule of thumb**: Start with ICL. Fine-tune only if ICL isn't sufficient.
+
+## Practical Tips
+
+1. **Start with 3-5 examples**: Usually sufficient for most tasks
+2. **Include edge cases**: Examples that cover unusual inputs
+3. **Use the same format**: Consistent input-output structure
+4. **Be explicit about output**: "Return only the label" prevents extra text
+5. **Try different orderings**: Example order affects performance
+6. **Combine with CoT**: Few-shot + chain-of-thought is powerful
+
+## ICL Limitations
+
+- **Context window**: Limited by model's max context length
+- **No learning across queries**: Each prompt is independent
+- **Fragile**: Small prompt changes can cause large output changes
+- **No guarantees**: Model may not follow the pattern
+- **Cost**: Every example costs tokens
 
 ## Further Reading
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+- Brown et al. (2020) established ICL as a paradigm — foundational reading
+- Min et al. (2022) challenged assumptions about what makes ICL work
+- Olsson et al. (2022) explained the mechanism — induction heads
+- Kojima et al. (2022) showed zero-shot CoT works surprisingly well

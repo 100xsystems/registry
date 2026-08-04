@@ -1,120 +1,184 @@
 ---
-{
-  "title": "What Is Generative AI?",
-  "description": "The field that creates text, images, audio and code — and the system stack behind it.",
-  "type": "lesson",
-  "order": 1,
-  "duration": "40 min",
-  "difficulty": "beginner",
-  "learning_objectives": [
-    "Define generative AI and contrast it with discriminative models",
-    "List the modalities generative models create",
-    "Describe the modern GenAI stack",
-    "Identify risks and opportunities in production"
-  ],
-  "knowledge_refs": [
-    "generative-ai/genai-02-probabilistic-generation"
-  ],
-  "prerequisites": [
-    "DL-17: Transformers"
-  ],
-  "references": [
-    {
-      "title": "Hugging Face NLP Course",
-      "url": "https://huggingface.co/learn/nlp-course",
-      "description": "Transformers, fine-tuning and LLM fundamentals with hands-on code."
-    },
-    {
-      "title": "OpenAI Documentation",
-      "url": "https://platform.openai.com/docs",
-      "description": "API reference for GPT models, embeddings and function calling."
-    },
-    {
-      "title": "Attention Is All You Need",
-      "url": "https://arxiv.org/abs/1706.03762",
-      "description": "The Transformer paper that made generative AI possible."
-    },
-    {
-      "title": "LangChain Documentation",
-      "url": "https://python.langchain.com/docs",
-      "description": "Frameworks for RAG, agents and LLM applications."
-    },
-    {
-      "title": "DeepLearning.AI Short Courses",
-      "url": "https://www.deeplearning.ai/short-courses/",
-      "description": "Practical AI courses from industry experts."
-    }
-  ]
-}
+slug: genai-01-what-is-generative-ai
+title: "What Is Generative AI?"
+description: "The technology reshaping every industry — understanding what generative AI is, how it differs from traditional AI, and why it matters now."
+order: 1
+tags:
+  - generative-ai
+  - foundations
+  - large-language-models
+prerequisites:
+  - dl-01-what-is-deep-learning
+  - ml-01-what-is-machine-learning
+references:
+  - title: "Generative AI: A Changing Landscape for CEOs (McKinsey)"
+    url: "https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/the-economic-potential-of-generative-ai-the-next-productivity-frontier"
+    description: "McKinsey's analysis of generative AI's economic impact across industries"
+  - title: "What Is Generative AI? (Stanford HAI)"
+    url: "https://hai.stanford.edu/news/what-generative-ai"
+    description: "Stanford's Human-Centered AI Institute overview of generative AI"
+  - title: "The Generative AI Revolution (MIT Technology Review)"
+    url: "https://www.technologyreview.com/2023/09/21/1080099/generative-ai-revolution/"
+    description: "MIT Tech Review's comprehensive analysis of generative AI's impact"
+  - title: "GPT-4 Technical Report (OpenAI)"
+    url: "https://arxiv.org/abs/2303.08774"
+    description: "OpenAI's technical report on GPT-4 capabilities and limitations"
+  - title: "Generative AI on AWS"
+    url: "https://aws.amazon.com/generative-ai/"
+    description: "Practical overview of generative AI services and applications"
+knowledge_refs:
+  - dl-17-transformers
+  - dl-18-attention-mechanisms
+  - genai-02-probabilistic-generation
 ---
 
-# GENAI-01-WHAT-IS-GENERATIVE-AI: What Is Generative AI?
+# What Is Generative AI?
 
-## Introduction
+Generative AI refers to artificial intelligence systems that **create new content** — text, images, audio, video, code, and more — rather than simply analyzing or classifying existing data. It represents a fundamental shift from traditional AI.
 
-The field that creates text, images, audio and code — and the system stack behind it. By the end of this lesson you will be able to: Define generative AI and contrast it with discriminative models; List the modalities generative models create; Describe the modern GenAI stack; Identify risks and opportunities in production.
+## Traditional AI vs. Generative AI
 
-## Key Concepts
+| Aspect | Traditional AI | Generative AI |
+|---|---|---|
+| **Input → Output** | Data → Label | Prompt → New Content |
+| **Example** | "Is this a cat?" → Yes | "Draw a cat on Mars" → Image |
+| **Core task** | Discrimination | Creation |
+| **Training** | Labeled examples | Large unlabeled corpora |
+| **Output space** | Fixed (classes, numbers) | Open-ended (text, images, etc.) |
 
-### 1. Define generative AI and contrast it with discriminative models
+Traditional AI excels at **discrimination** — distinguishing between inputs. Generative AI excels at **generation** — creating outputs that didn't exist before.
 
-Target: Define generative AI and contrast it with discriminative models. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+## The Three Pillars of Generative AI
 
-```python
-modalities = {
-    "text": "LLMs",
-    "image": "diffusion, GANs",
-    "audio": "TTS, music",
-    "code": "code models",
-    "video": "diffusion",
-}
-for m, tech in modalities.items():
-    print(f"{m:8} -> {tech}")
+### 1. Large Language Models (LLMs)
+Models like GPT-4, Claude, and LLaMA that generate and understand text:
+- **Autoregressive**: Generate one token at a time
+- **Foundation models**: Pretrained on internet-scale text
+- **Emergent capabilities**: In-context learning, reasoning, coding
+
+### 2. Diffusion Models
+Models like Stable Diffusion, DALL-E, and Midjourney that generate images:
+- **Denoising process**: Learn to reverse gradual noise addition
+- **Latent space**: Work in compressed representation
+- **Conditioning**: Text prompts guide the generation
+
+### 3. Multimodal Models
+Models like GPT-4V, Gemini, and Claude that handle multiple modalities:
+- **Text + Vision**: Understand and generate across modalities
+- **Unified architecture**: Single model handles diverse inputs
+- **Cross-modal reasoning**: Connect information across formats
+
+## A Brief History
+
+| Year | Milestone | Impact |
+|---|---|---|
+| 2014 | GANs introduced (Goodfellow) | Image generation becomes possible |
+| 2017 | Transformer paper (Vaswani) | Architecture for all modern GenAI |
+| 2018 | GPT-1 (OpenAI) | First large autoregressive language model |
+| 2020 | GPT-3 (OpenAI) | 175B parameters, in-context learning |
+| 2021 | DALL-E, Codex | Image and code generation |
+| 2022 | ChatGPT | Public AI chat interface goes viral |
+| 2023 | GPT-4, Claude 2, LLaMA | Multimodal, open-source, enterprise models |
+| 2024 | Gemini, Claude 3, GPT-4o | Multimodal-native, faster, cheaper |
+| 2025 | Claude 4, GPT-5, open-source frontier | Reasoning, tool use, autonomous agents |
+
+## How Generative AI Works (High Level)
+
+### The Training Pipeline
+
 ```
-### 2. List the modalities generative models create
+Step 1: Pretraining
+  - Train on internet-scale data (text, images, code)
+  - Learn patterns, facts, reasoning abilities
+  - Cost: millions of dollars, weeks on GPU clusters
 
-Target: List the modalities generative models create. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+Step 2: Supervised Fine-Tuning (SFT)
+  - Train on curated instruction-response pairs
+  - Teach the model to follow instructions
+  - Cost: thousands of dollars, hours on GPUs
 
-```python
-stack = ["models", "prompt layer", "retrieval", "guardrails", "apps"]
-for layer in stack:
-    print(f"- {layer}")
-```
-### 3. Describe the modern GenAI stack
+Step 3: Alignment (RLHF / DPO)
+  - Train on human preferences
+  - Make the model helpful, harmless, honest
+  - Cost: moderate compute + human feedback
 
-Target: Describe the modern GenAI stack. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
-
-```python
-print("discriminative: P(label | x). generative: P(x)")
-```
-### 4. Identify risks and opportunities in production
-
-Target: Identify risks and opportunities in production. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
-
-```python
-risks = ["hallucination", "bias", "prompt injection", "misuse"]
-for r in risks:
-    print(f"- {r}")
+Step 4: Deployment
+  - Serve the model via API or locally
+  - Optimize for latency and throughput
+  - Cost: ongoing inference compute
 ```
 
-## Practice Questions
+### The Generation Process
 
-1. What is the key idea behind "What Is Generative AI?"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+When you type a prompt:
+1. **Tokenization**: Your text is split into tokens
+2. **Embedding**: Tokens become dense vectors
+3. **Forward pass**: Vectors flow through transformer layers
+4. **Sampling**: Next token is selected from probability distribution
+5. **Repeat**: New token is appended, process continues
+6. **Detokenization**: Tokens are converted back to text
 
-## LLM Prompts for Deeper Understanding
+## Key Capabilities
 
-1. "Explain What Is Generative AI? with analogies and real-world examples"
-1. "Show me common mistakes beginners make with What Is Generative AI?"
-1. "Provide advanced patterns and performance considerations for What Is Generative AI?"
+### Text Generation
+- Writing essays, stories, emails
+- Summarizing documents
+- Translating between languages
+- Answering questions
 
-## Key Takeaways
+### Code Generation
+- Writing functions from descriptions
+- Debugging and explaining code
+- Refactoring and optimizing
+- Generating tests
 
-- Master the core ideas of What Is Generative AI? through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+### Image Generation
+- Creating photorealistic images from text
+- Editing and inpainting existing images
+- Style transfer and artistic creation
+- Product design and visualization
+
+### Audio Generation
+- Text-to-speech with human-like voices
+- Music composition
+- Sound effect generation
+- Voice cloning
+
+## Why It Matters Now
+
+Three factors converged to make generative AI practical in 2022-2023:
+
+1. **Scale**: Models reached billions of parameters (GPT-4: ~1.8T)
+2. **Data**: Internet-scale training corpora (trillions of tokens)
+3. **Compute**: GPU clusters with thousands of A100/H100s
+
+The result: models that can generate coherent, contextually appropriate, and often indistinguishable-from-human content across multiple modalities.
+
+## Limitations and Risks
+
+- **Hallucinations**: Confidently stating false information
+- **Bias**: Reflecting biases in training data
+- **Copyright**: Questions about training on copyrighted material
+- **Job displacement**: Automating creative and knowledge work
+- **Misinformation**: Deepfakes, fake news at scale
+- **Security**: Prompt injection, data extraction attacks
+
+## What You'll Learn in This Course
+
+1. **Foundations**: How generative models work mathematically
+2. **Text generation**: LLMs, tokenization, sampling
+3. **Prompt engineering**: Getting the most from models
+4. **Fine-tuning**: Customizing models for specific tasks
+5. **RAG**: Connecting models to external knowledge
+6. **Agents**: Building autonomous AI systems
+7. **Image generation**: Diffusion models, GANs
+8. **Multimodal**: Vision-language models
+9. **Production**: Deploying GenAI at scale
+10. **Safety**: Ethical and responsible AI
 
 ## Further Reading
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+- McKinsey's report provides the most comprehensive business analysis
+- Stanford HAI offers a balanced academic perspective
+- GPT-4 Technical Report is essential reading for understanding capabilities
+- MIT Technology Review tracks the technology's evolution

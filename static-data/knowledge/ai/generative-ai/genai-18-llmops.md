@@ -1,130 +1,266 @@
 ---
-{
-  "title": "LLMOps: Running GenAI in Production",
-  "description": "Prompt management, caching, guardrails, monitoring and cost control for LLM apps.",
-  "type": "lesson",
-  "order": 18,
-  "duration": "60 min",
-  "difficulty": "advanced",
-  "learning_objectives": [
-    "Version prompts and evals",
-    "Cache completions and embeddings",
-    "Apply guardrails and moderation",
-    "Monitor latency, cost and quality"
-  ],
-  "knowledge_refs": [
-    "generative-ai/genai-17-evaluating-llms",
-    "mlops/mlops-01-what-is-mlops",
-    "mlops/mlops-20-llmops"
-  ],
-  "prerequisites": [
-    "GENAI-10: Retrieval-Augmented Generation (RAG)"
-  ],
-  "references": [
-    {
-      "title": "Hugging Face NLP Course",
-      "url": "https://huggingface.co/learn/nlp-course",
-      "description": "Transformers, fine-tuning and LLM fundamentals with hands-on code."
-    },
-    {
-      "title": "OpenAI Documentation",
-      "url": "https://platform.openai.com/docs",
-      "description": "API reference for GPT models, embeddings and function calling."
-    },
-    {
-      "title": "Attention Is All You Need",
-      "url": "https://arxiv.org/abs/1706.03762",
-      "description": "The Transformer paper that made generative AI possible."
-    },
-    {
-      "title": "LangChain Documentation",
-      "url": "https://python.langchain.com/docs",
-      "description": "Frameworks for RAG, agents and LLM applications."
-    },
-    {
-      "title": "DeepLearning.AI Short Courses",
-      "url": "https://www.deeplearning.ai/short-courses/",
-      "description": "Practical AI courses from industry experts."
-    }
-  ]
-}
+slug: genai-18-llmops
+title: "LLMOps: Running GenAI in Production"
+description: "Deployment, monitoring, cost optimization, and reliability for large language model applications."
+order: 18
+tags:
+  - generative-ai
+  - llmops
+  - deployment
+  - monitoring
+  - production
+prerequisites:
+  - genai-06-llm-architecture
+  - genai-10-rag
+  - genai-17-evaluating-llms
+references:
+  - title: "LLMOps: Operationalizing LLM Applications"
+    url: "https://cloud.google.com/architecture/llmops-operationalizing-llm-applications"
+    description: "Google Cloud's comprehensive LLMOps guide"
+  - title: "Building LLM Applications for Production (Chip Huyen)"
+    url: "https://huyenchip.com/2023/04/11/llm-engineering.html"
+    description: "Chip Huyen's guide to LLM engineering in production"
+  - title: "vLLM: Efficient LLM Serving"
+    url: "https://github.com/vllm-project/vllm"
+    description: "vLLM documentation for high-throughput LLM inference"
+  - title: "LangSmith: LLM Observability"
+    url: "https://docs.smith.langchain.com/"
+    description: "LangChain's observability platform for LLM applications"
+  - title: "Productionizing LLMs (Full Stack Deep Learning)"
+    url: "https://fullstackdeeplearning.com/llm-bootcamp/"
+    description: "Full Stack Deep Learning's LLM production bootcamp"
+knowledge_refs:
+  - genai-10-rag
+  - genai-06-llm-architecture
+  - genai-17-evaluating-llms
 ---
 
-# GENAI-18-LLMOPS: LLMOps: Running GenAI in Production
+# LLMOps: Running GenAI in Production
 
-## Introduction
+Deploying LLM applications to production requires specialized operations practices — from serving infrastructure to monitoring to cost management.
 
-Prompt management, caching, guardrails, monitoring and cost control for LLM apps. By the end of this lesson you will be able to: Version prompts and evals; Cache completions and embeddings; Apply guardrails and moderation; Monitor latency, cost and quality.
+## The LLMOps Stack
 
-## Key Concepts
+```
+Application Layer:    RAG, Agents, Fine-tuning
+Orchestration:        LangChain, LlamaIndex, Semantic Kernel
+Serving:              vLLM, TGI, Triton, Ollama
+Inference Providers:  OpenAI, Anthropic, Together, Replicate
+Monitoring:           LangSmith, Weights & Biases, Arize
+Infrastructure:       Kubernetes, GPU clusters, Serverless
+```
 
-### 1. Version prompts and evals
+## LLM Serving Options
 
-Target: Version prompts and evals. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+### API Providers
+| Provider | Models | Cost | Latency |
+|---|---|---|---|
+| OpenAI | GPT-4, GPT-4o | $$$$ | Low |
+| Anthropic | Claude 3.5 | $$$ | Low |
+| Together AI | Open-source models | $$ | Medium |
+| Groq | Llama, Mixtral | $ | Very low |
+| Replicate | Many models | $$ | Medium |
+
+### Self-Hosted Serving
+| Tool | Throughput | Latency | Features |
+|---|---|---|---|
+| **vLLM** | Very high | Low | PagedAttention, continuous batching |
+| **TGI** | High | Low | Hugging Face serving |
+| **Ollama** | Medium | Medium | Easy local deployment |
+| **Triton** | Very high | Low | NVIDIA's inference server |
 
 ```python
-import hashlib
+# vLLM serving
+from vllm import LLM, SamplingParams
 
-# Semantic-ish cache key from the prompt
-def cache_key(prompt: str) -> str:
-    return hashlib.sha256(prompt.encode()).hexdigest()
-
-print(cache_key("summarize this article"))
+llm = LLM(model="meta-llama/Llama-3-8B-Instruct")
+params = SamplingParams(temperature=0.7, max_tokens=512)
+outputs = llm.generate(["Hello, how are you?"], params)
 ```
-### 2. Cache completions and embeddings
 
-Target: Cache completions and embeddings. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+## Cost Optimization
 
+### Token Management
 ```python
-from openai import OpenAI
+# Monitor token usage
+def count_tokens(text, model="gpt-4"):
+    encoding = tiktoken.encoding_for_model(model)
+    return len(encoding.encode(text))
 
-client = OpenAI()
-res = client.moderations.create(input="some user text")
-print("flagged:", res.results[0].flagged)
+# Estimate costs
+cost_per_1k_tokens = {
+    "gpt-4o": 0.0025,
+    "gpt-4-turbo": 0.01,
+    "claude-3.5-sonnet": 0.003,
+}
 ```
-### 3. Apply guardrails and moderation
 
-Target: Apply guardrails and moderation. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+### Caching Strategies
+```python
+# Semantic cache: cache similar queries
+from langchain.cache import SQLiteCache
+from langchain.globals import set_llm_cache
 
+set_llm_cache(SQLiteCache(database_path=".langchain.db"))
+
+# Semantic cache: cache by embedding similarity
+from langchain.cache import GPTCache
+set_llm_cache(GPTCache(init_cache_func=init_gptcache))
+```
+
+### Model Selection
+| Task | Recommended Model | Cost |
+|---|---|---|
+| Simple QA | GPT-4o-mini | $ |
+| Complex reasoning | GPT-4o | $$$ |
+| Code generation | Claude 3.5 Sonnet | $$ |
+| Summarization | Llama 3 8B | $ |
+| Translation | GPT-4o-mini | $ |
+
+## Prompt Management
+
+### Version Control
+```python
+# Track prompt versions
+PROMPTS = {
+    "v1.0": "You are a helpful assistant. Answer the question: {question}",
+    "v1.1": "Answer the following question concisely: {question}",
+    "v1.2": "You are an expert. Provide a detailed answer to: {question}"
+}
+```
+
+### A/B Testing
+```python
+import random
+
+def select_prompt(variant_a, variant_b, traffic_split=0.5):
+    if random.random() < traffic_split:
+        return variant_a
+    return variant_b
+```
+
+## Monitoring & Observability
+
+### Key Metrics to Track
+| Metric | What It Measures |
+|---|---|
+| **Latency** | Time to first token, total response time |
+| **Throughput** | Requests per second, tokens per second |
+| **Cost** | Tokens used, API calls, total spend |
+| **Quality** | User ratings, task success rate |
+| **Errors** | API failures, rate limits, timeouts |
+| **Hallucination rate** | Factual accuracy of responses |
+
+### Tracing
+```python
+# LangSmith tracing
+from langsmith import traceable
+
+@traceable(name="qa_chain")
+def qa_chain(question: str):
+    docs = retriever.invoke(question)
+    answer = llm.invoke(f"Context: {docs}\nQuestion: {question}")
+    return answer
+```
+
+### Evaluation Pipeline
+```python
+from ragas import evaluate
+
+def evaluate_rag(test_cases):
+    results = evaluate(
+        dataset=test_cases,
+        metrics=[faithfulness, answer_relevancy, context_precision],
+    )
+    # Log to monitoring dashboard
+    log_metrics(results)
+    return results
+```
+
+## Production Architecture
+
+```
+User Request
+    ↓
+┌─────────────┐
+│   API Gateway  │  Rate limiting, auth, routing
+└─────────────┘
+    ↓
+┌─────────────┐
+│  Prompt Mgmt   │  Version control, templates
+└─────────────┘
+    ↓
+┌─────────────┐
+│  RAG Pipeline   │  Retrieval, reranking
+└─────────────┘
+    ↓
+┌─────────────┐
+│  LLM Serving    │  vLLM / API provider
+└─────────────┘
+    ↓
+┌─────────────┐
+│  Post-Processing│  Format, validate, filter
+└─────────────┘
+    ↓
+┌─────────────┐
+│  Monitoring     │  Trace, log, alert
+└─────────────┘
+    ↓
+Response
+```
+
+## Reliability Patterns
+
+### Retry with Exponential Backoff
 ```python
 import time
+import openai
 
-# Track cost: tokens in/out per request
-cost = {
-    "prompt_tokens": 120,
-    "completion_tokens": 40,
-    "price_per_1k": 0.00015,
-}
-est = (cost["prompt_tokens"] + cost["completion_tokens"]) / 1000 * cost["price_per_1k"]
-print("estimated cost:", est)
+def call_with_retry(prompt, max_retries=3):
+    for attempt in range(max_retries):
+        try:
+            return openai.chat.completions.create(
+                model="gpt-4", messages=[{"role": "user", "content": prompt}]
+            )
+        except openai.RateLimitError:
+            time.sleep(2 ** attempt)
+    raise Exception("Max retries exceeded")
 ```
-### 4. Monitor latency, cost and quality
 
-Target: Monitor latency, cost and quality. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
-
+### Fallback Models
 ```python
-metrics = ["latency", "tokens", "cost", "hallucination rate", "user feedback"]
-print(metrics)
+def call_with_fallback(prompt, models=["gpt-4o", "gpt-4o-mini", "claude-3.5"]):
+    for model in models:
+        try:
+            return call_model(model, prompt)
+        except Exception:
+            continue
+    raise Exception("All models failed")
 ```
 
-## Practice Questions
+### Output Validation
+```python
+def validate_output(response, expected_format):
+    try:
+        parsed = json.loads(response)
+        assert all(key in parsed for key in expected_format.keys())
+        return parsed
+    except (json.JSONDecodeError, AssertionError):
+        # Retry with stricter prompt
+        return call_with_validation(response, expected_format)
+```
 
-1. What is the key idea behind "LLMOps: Running GenAI in Production"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+## Cost Management
 
-## LLM Prompts for Deeper Understanding
-
-1. "Explain LLMOps: Running GenAI in Production with analogies and real-world examples"
-1. "Show me common mistakes beginners make with LLMOps: Running GenAI in Production"
-1. "Provide advanced patterns and performance considerations for LLMOps: Running GenAI in Production"
-
-## Key Takeaways
-
-- Master the core ideas of LLMOps: Running GenAI in Production through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+1. **Set budgets**: Monthly token limits per team
+2. **Cache aggressively**: Similar queries → same response
+3. **Use smaller models**: GPT-4o-mini for simple tasks
+4. **Batch requests**: Process in bulk when possible
+5. **Monitor daily**: Track costs in real-time
 
 ## Further Reading
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+- Google Cloud's LLMOps guide is comprehensive
+- Chip Huyen's article covers practical production challenges
+- vLLM is the standard for self-hosted LLM serving
+- LangSmith provides full observability for LangChain apps

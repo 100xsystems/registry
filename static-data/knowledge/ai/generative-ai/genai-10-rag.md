@@ -1,126 +1,283 @@
 ---
-{
-  "title": "Retrieval-Augmented Generation (RAG)",
-  "description": "Ground answers in your own data: retrieve relevant chunks, stuff the context, generate.",
-  "type": "lesson",
-  "order": 10,
-  "duration": "60 min",
-  "difficulty": "advanced",
-  "learning_objectives": [
-    "Explain the RAG pipeline",
-    "Chunk documents thoughtfully",
-    "Retrieve with embeddings and keyword search",
-    "Build a RAG chain with LangChain"
-  ],
-  "knowledge_refs": [
-    "generative-ai/genai-09-rlhf-and-alignment",
-    "llm-engineering/llm-07-rag-engineering",
-    "llm-engineering/llm-08-advanced-rag"
-  ],
-  "prerequisites": [
-    "GENAI-04: Prompt Engineering"
-  ],
-  "references": [
-    {
-      "title": "Hugging Face NLP Course",
-      "url": "https://huggingface.co/learn/nlp-course",
-      "description": "Transformers, fine-tuning and LLM fundamentals with hands-on code."
-    },
-    {
-      "title": "OpenAI Documentation",
-      "url": "https://platform.openai.com/docs",
-      "description": "API reference for GPT models, embeddings and function calling."
-    },
-    {
-      "title": "Attention Is All You Need",
-      "url": "https://arxiv.org/abs/1706.03762",
-      "description": "The Transformer paper that made generative AI possible."
-    },
-    {
-      "title": "LangChain Documentation",
-      "url": "https://python.langchain.com/docs",
-      "description": "Frameworks for RAG, agents and LLM applications."
-    },
-    {
-      "title": "DeepLearning.AI Short Courses",
-      "url": "https://www.deeplearning.ai/short-courses/",
-      "description": "Practical AI courses from industry experts."
-    }
-  ]
-}
+slug: genai-10-rag
+title: "Retrieval-Augmented Generation (RAG)"
+description: "Connecting LLMs to external knowledge — the architecture that grounds AI responses in real documents."
+order: 10
+tags:
+  - generative-ai
+  - rag
+  - retrieval
+  - vector-databases
+  - embeddings
+prerequisites:
+  - genai-06-llm-architecture
+  - genai-11-embeddings-and-vector-databases
+  - genai-04-prompt-engineering
+references:
+  - title: "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks"
+    url: "https://arxiv.org/abs/2005.11401"
+    description: "Lewis et al.'s original RAG paper from Meta AI"
+  - title: "Building RAG Applications (LangChain)"
+    url: "https://python.langchain.com/docs/tutorials/rag/"
+    description: "Practical tutorial on building RAG systems with LangChain"
+  - title: "Advanced RAG Techniques (Pinecone)"
+    url: "https://www.pinecone.io/learn/series/langchain/langchain-retrieval-augmentation/"
+    description: "Comprehensive guide to advanced RAG architectures"
+  - title: "Chunking Strategies for RAG (LangChain)"
+    url: "https://python.langchain.com/docs/how_to/recursive_text_splitter/"
+    description: "Guide to document chunking strategies for optimal retrieval"
+  - title: "Evaluation of RAG Systems"
+    url: "https://docs.ragas.io/"
+    description: "RAGAS framework for evaluating RAG pipeline quality"
+knowledge_refs:
+  - genai-11-embeddings-and-vector-databases
+  - genai-04-prompt-engineering
+  - genai-03-text-generation-basics
 ---
 
-# GENAI-10-RAG: Retrieval-Augmented Generation (RAG)
+# Retrieval-Augmented Generation (RAG)
 
-## Introduction
+RAG connects LLMs to external knowledge sources, grounding their responses in real documents rather than relying solely on training data. It's the most practical solution for building accurate, up-to-date AI applications.
 
-Ground answers in your own data: retrieve relevant chunks, stuff the context, generate. By the end of this lesson you will be able to: Explain the RAG pipeline; Chunk documents thoughtfully; Retrieve with embeddings and keyword search; Build a RAG chain with LangChain.
+## The Problem RAG Solves
 
-## Key Concepts
+LLMs have three fundamental limitations:
+1. **Knowledge cutoff**: Training data has a cutoff date
+2. **Hallucination**: Confidently state false information
+3. **No proprietary data**: Can't access your company's documents
 
-### 1. Explain the RAG pipeline
+RAG addresses all three by retrieving relevant documents before generating a response.
 
-Target: Explain the RAG pipeline. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+## RAG Architecture
 
-```python
-rag = {
-    1: "chunk documents",
-    2: "embed chunks",
-    3: "retrieve top-k for a question",
-    4: "generate with the context",
-}
-print(rag)
 ```
-### 2. Chunk documents thoughtfully
-
-Target: Chunk documents thoughtfully. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
-
-```python
-from langchain_community.vectorstores import FAISS
-
-print("vector store ready")
+User Query
+    ↓
+┌─────────────────┐
+│  Query Embedding  │  Convert query to vector
+└─────────────────┘
+    ↓
+┌─────────────────┐
+│  Vector Search    │  Find similar documents
+└─────────────────┘
+    ↓
+┌─────────────────┐
+│  Retrieved Docs   │  Top-K relevant chunks
+└─────────────────┘
+    ↓
+┌─────────────────┐
+│  Prompt Assembly  │  Combine query + context
+└─────────────────┘
+    ↓
+┌─────────────────┐
+│  LLM Generation   │  Generate grounded response
+└─────────────────┘
+    ↓
+Response with citations
 ```
-### 3. Retrieve with embeddings and keyword search
 
-Target: Retrieve with embeddings and keyword search. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+## Step 1: Document Processing
+
+### Loading Documents
+```python
+from langchain_community.document_loaders import (
+    PyPDFLoader,
+    TextLoader,
+    CSVLoader,
+    WebBaseLoader,
+)
+
+# Load PDFs
+loader = PyPDFLoader("document.pdf")
+documents = loader.load()
+
+# Load web pages
+loader = WebBaseLoader("https://example.com/article")
+documents = loader.load()
+```
+
+### Chunking Strategies
+
+Documents must be split into chunks for retrieval:
+
+| Strategy | Description | Best For |
+|---|---|---|
+| **Fixed-size** | Split every N characters | Simple, fast |
+| **Recursive** | Split on paragraph/sentence boundaries | General use |
+| **Semantic** | Split on topic changes | Complex documents |
+| **Document-aware** | Split respecting document structure | PDFs, code |
+| **Agentic** | Use LLM to determine split points | High-quality retrieval |
 
 ```python
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 
-splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=50)
-print("chunker ready")
+splitter = RecursiveCharacterTextSplitter(
+    chunk_size=1000,       # characters per chunk
+    chunk_overlap=200,     # overlap between chunks
+    separators=["\n\n", "\n", ". ", " "],
+)
+chunks = splitter.split_documents(documents)
 ```
-### 4. Build a RAG chain with LangChain
 
-Target: Build a RAG chain with LangChain. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+**Chunk size guidelines:**
+- **500-1000 chars**: Good for factual retrieval
+- **1000-2000 chars**: Good for contextual understanding
+- **2000+ chars**: Risk of losing focus, but more context
+
+## Step 2: Embedding and Indexing
+
+Convert chunks to vectors and store in a vector database:
 
 ```python
-from langchain_core.prompts import ChatPromptTemplate
+from langchain_openai import OpenAIEmbeddings
+from langchain_community.vectorstores import Chroma
 
-prompt = ChatPromptTemplate.from_template(
-    "Answer from the context.\nContext: {context}\nQuestion: {question}"
-)
-print(prompt)
+embeddings = OpenAIEmbeddings()
+vectorstore = Chroma.from_documents(chunks, embeddings)
 ```
 
-## Practice Questions
+## Step 3: Retrieval
 
-1. What is the key idea behind "Retrieval-Augmented Generation (RAG)"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+Find the most relevant chunks for a query:
 
-## LLM Prompts for Deeper Understanding
+```python
+# Basic similarity search
+retriever = vectorstore.as_retriever(
+    search_type="similarity",
+    search_kwargs={"k": 5}  # return top 5 chunks
+)
+docs = retriever.invoke("What is RAG?")
+```
 
-1. "Explain Retrieval-Augmented Generation (RAG) with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Retrieval-Augmented Generation (RAG)"
-1. "Provide advanced patterns and performance considerations for Retrieval-Augmented Generation (RAG)"
+### Advanced Retrieval Techniques
 
-## Key Takeaways
+**Hybrid Search** (combines semantic + keyword):
+```python
+from langchain.retrievers import EnsembleRetriever
+from langchain.retrievers import BM25Retriever
 
-- Master the core ideas of Retrieval-Augmented Generation (RAG) through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+bm25_retriever = BM25Retriever.from_documents(chunks)
+vector_retriever = vectorstore.as_retriever()
+
+ensemble = EnsembleRetriever(
+    retrievers=[bm25_retriever, vector_retriever],
+    weights=[0.3, 0.7]  # 30% keyword, 70% semantic
+)
+```
+
+**Reranking**: Use a cross-encoder to rerank retrieved results:
+```python
+from langchain.retrievers import ContextualCompressionRetriever
+from langchain_cohere import CohereRerank
+
+compressor = CohereRerank(model="rerank-v3.5", top_n=3)
+compression_retriever = ContextualCompressionRetriever(
+    base_compressor=compressor,
+    base_retriever=retriever
+)
+```
+
+**Multi-Query Retrieval**: Generate multiple query variations:
+```python
+from langchain.retrievers.multi_query import MultiQueryRetriever
+
+mq_retriever = MultiQueryRetriever.from_llm(
+    retriever=retriever,
+    llm=ChatOpenAI(model="gpt-4"),
+)
+```
+
+## Step 4: Generation
+
+Combine retrieved context with the user query:
+
+```python
+from langchain_openai import ChatOpenAI
+from langchain.chains import RetrievalQA
+
+llm = ChatOpenAI(model="gpt-4", temperature=0)
+qa_chain = RetrievalQA.from_chain_type(
+    llm=llm,
+    chain_type="stuff",  # combine all docs into one prompt
+    retriever=retriever,
+)
+answer = qa_chain.invoke("What is RAG?")
+```
+
+### Prompt Template for RAG
+```
+Use the following context to answer the question. If the answer is not 
+in the context, say "I don't have enough information to answer this."
+
+Context:
+{context}
+
+Question: {question}
+
+Answer:
+```
+
+## RAG Evaluation
+
+Key metrics for RAG quality:
+
+| Metric | What It Measures |
+|---|---|
+| **Faithfulness** | Does the answer follow from the context? |
+| **Answer relevance** | Does the answer address the question? |
+| **Context relevance** | Are the retrieved documents relevant? |
+| **Context recall** | Does the context contain the answer? |
+
+```python
+from ragas import evaluate
+from ragas.metrics import faithfulness, answer_relevancy, context_precision
+
+result = evaluate(
+    dataset=test_dataset,
+    metrics=[faithfulness, answer_relevancy, context_precision],
+)
+```
+
+## Common RAG Patterns
+
+### Naive RAG
+```
+Query → Embed → Search → Retrieve → Generate
+```
+Simple but limited.
+
+### Advanced RAG
+```
+Query → Rewrite → Embed → Hybrid Search → Rerank → Generate
+```
+Better retrieval quality.
+
+### Modular RAG
+```
+Query → Router → [Different pipelines per domain] → Generate
+```
+Domain-specific routing.
+
+### Agentic RAG
+```
+Query → Agent → Decide: search, calculate, or generate → Tool use → Response
+```
+LLM decides when and how to retrieve.
+
+## RAG vs. Fine-Tuning
+
+| Aspect | RAG | Fine-Tuning |
+|---|---|---|
+| Knowledge | External documents | Encoded in weights |
+| Updates | Instant (update docs) | Retrain required |
+| Cost | Lower (no training) | Higher (training compute) |
+| Hallucination | Reduced (grounded in docs) | Can still hallucinate |
+| Latency | Higher (retrieval step) | Lower (direct generation) |
+| Best for | Knowledge-intensive tasks | Style/format/behavior |
 
 ## Further Reading
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+- Lewis et al.'s original RAG paper is foundational
+- LangChain's tutorials are the best practical starting point
+- RAGAS provides comprehensive evaluation metrics
+- For production: Pinecone, Weaviate, Qdrant are production-ready vector databases
