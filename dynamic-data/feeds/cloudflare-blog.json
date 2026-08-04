@@ -9,7 +9,7 @@
     "performance",
     "edge-computing"
   ],
-  "updatedAt": "2026-08-03T14:37:16.022Z",
+  "updatedAt": "2026-08-04T14:09:56.137Z",
   "items": [
     {
       "guid": "01KY2432VQPD5FTF2RARXXYQGH",
@@ -61322,7 +61322,63 @@
       "summary": "One coding agent can write a Python Worker and another can write a JavaScript Worker. At runtime, those Workers can exchange references to live objects and call their methods without defining APIs, schemas, or serialization code",
       "author": "Dominik Picheta",
       "publishedAt": "2026-08-03T13:00:00.000Z"
+    },
+    {
+      "guid": "01KZ67XSDB3QZRT3JC43EGMSD1",
+      "title": "The Agent Development Lifecycle has arrived on Cloudflare",
+      "link": "https://blog.cloudflare.com/agent-development-lifecycle/",
+      "summary": "Agents can write code faster than teams can review, deploy, and maintain it. Today we’re introducing the Agent Development Lifecycle and the Cloudflare primitives that underpin it",
+      "author": "Brendan Irvine-Broque",
+      "publishedAt": "2026-08-04T13:00:00.000Z"
+    },
+    {
+      "guid": "01KZ518N1HS1MZE4GF7XES27C5",
+      "title": "Announcing Cloudflare Wallets: the programmable wallet for the agentic Internet",
+      "link": "https://blog.cloudflare.com/wallets/",
+      "summary": "Cloudflare Wallets will provide AI agents with native payments and verifiable identity on the web. Using the x402 protocol, agents can autonomously purchase APIs and content within clear safety guardrails.",
+      "author": "Will Papper",
+      "publishedAt": "2026-08-04T13:00:00.000Z"
+    },
+    {
+      "guid": "01KZ4ZEV9RTTBYR2S8AX9R4NNF",
+      "title": "Run CI/CD for millions of repos — on your platform, on Cloudflare",
+      "link": "https://blog.cloudflare.com/ci-workflows/",
+      "summary": "Learn how to build customizable, sandboxed CI/CD pipelines natively on Cloudflare using Workflows, Artifacts, and the CI SDK. We walk through replacing complex YAML configurations with TypeScript workflow steps and self-healing AI agents.",
+      "author": "André Venceslau",
+      "publishedAt": "2026-08-04T13:00:00.000Z"
+    },
+    {
+      "guid": "01KZ4XGGJ39E5ZDS4AHVQSB0M3",
+      "title": "How Cloudflare enforces engineering standards using AI",
+      "link": "https://blog.cloudflare.com/engineering-standards-enforcement/",
+      "summary": "We created the Cloudflare Codex, a governed body of engineering standards that AI agents consume across the development lifecycle. By pairing structured RFCs with agentic reviews, teams automatically enforce consistency across code, specs, and incident reports.",
+      "author": "Timo Reimann",
+      "publishedAt": "2026-08-04T13:00:00.000Z"
+    },
+    {
+      "guid": "01KZ4WJAC5X5TGJJZKJDY8XHTD",
+      "title": "Introducing: Cloudflare Agents",
+      "link": "https://blog.cloudflare.com/agents-on-cloudflare/",
+      "summary": "Cloudflare Agents brings all of your deployed agent sessions into a single experience, surfacing key information and insights into how your agents perform at scale.",
+      "author": "Nevi Shah",
+      "publishedAt": "2026-08-04T13:00:00.000Z"
+    },
+    {
+      "guid": "01KZ4VTTGC4FD3MQ89XQDW2ZZ6",
+      "title": "Your agent can now debug Workers with local tracing",
+      "link": "https://blog.cloudflare.com/local-tracing/",
+      "summary": "wrangler dev now produces structured traces for every local request. Your coding agent can hit a single API to pinpoint exactly what failed and why — no deployment required.",
+      "author": "Zin Khant",
+      "publishedAt": "2026-08-04T13:00:00.000Z"
+    },
+    {
+      "guid": "01KZ4HYXCHKAZHVPH6PMEG04RZ",
+      "title": "How we built a software factory to drive Astro’s GitHub issue count to zero",
+      "link": "https://blog.cloudflare.com/astro-issue-triage/",
+      "summary": "By replacing manual issue verification with isolated AI subagents running in GitHub Actions, the Astro maintainers reduced open issue count by 85%. This post explores the architecture behind automated bug reproduction, patch verification, and preview releases.",
+      "author": "Matthew Phillips",
+      "publishedAt": "2026-08-04T13:00:00.000Z"
     }
   ],
-  "totalIndexed": 7664
+  "totalIndexed": 7671
 }

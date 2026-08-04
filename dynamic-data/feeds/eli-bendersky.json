@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-07-24T06:49:26.981Z",
+  "updatedAt": "2026-08-04T14:09:57.942Z",
   "items": [
     {
       "guid": "eli-bendersky::https://eli.thegreenplace.net/2026/notes-on-the-fourier-transform/",
@@ -47,7 +47,15 @@
       "summary": "A few months ago I wrote about using LLM agents to help restructuring one of my\nPython projects.\nIt's worth beginning by saying that the\nrewrite has been successful by all reasonable measures; I've been able to\ncontinue maintaining that project since then without an issue.\nIn this post, I want to…",
       "author": "Eli Bendersky",
       "publishedAt": "2026-06-07T00:38:00.000Z"
+    },
+    {
+      "guid": "eli-bendersky::https://eli.thegreenplace.net/2026/relative-velocity-and-closing-speed/",
+      "title": "Relative velocity and closing speed",
+      "link": "https://eli.thegreenplace.net/2026/relative-velocity-and-closing-speed/",
+      "summary": "In Physics simulations or game engines it’s sometimes useful to\ndetermine the speed with which two objects are approaching each other.\nThis post will discuss the concept of closing speed, which is the\nnormal component of the relative velocity of two objects.\nRelative velocity and its components…",
+      "author": "Eli Bendersky",
+      "publishedAt": "2026-08-04T03:01:00.000Z"
     }
   ],
-  "totalIndexed": 5
+  "totalIndexed": 6
 }

@@ -8,7 +8,7 @@
     "edge-computing",
     "javascript"
   ],
-  "updatedAt": "2026-08-03T14:37:16.522Z",
+  "updatedAt": "2026-08-04T14:09:56.945Z",
   "items": [
     {
       "guid": "1WYEYtVwQSo4H3jKHTcKmO",
@@ -61257,7 +61257,31 @@
       "summary": "One coding agent can write a Python Worker and another can write a JavaScript Worker. At runtime, those Workers can exchange references to live objects and call their methods without defining APIs, schemas, or serialization code",
       "author": "Dominik Picheta",
       "publishedAt": "2026-08-03T13:00:00.000Z"
+    },
+    {
+      "guid": "01KZ67XSDB3QZRT3JC43EGMSD1",
+      "title": "The Agent Development Lifecycle has arrived on Cloudflare",
+      "link": "https://blog.cloudflare.com/agent-development-lifecycle/",
+      "summary": "Agents can write code faster than teams can review, deploy, and maintain it. Today we’re introducing the Agent Development Lifecycle and the Cloudflare primitives that underpin it",
+      "author": "Brendan Irvine-Broque",
+      "publishedAt": "2026-08-04T13:00:00.000Z"
+    },
+    {
+      "guid": "01KZ4VTTGC4FD3MQ89XQDW2ZZ6",
+      "title": "Your agent can now debug Workers with local tracing",
+      "link": "https://blog.cloudflare.com/local-tracing/",
+      "summary": "wrangler dev now produces structured traces for every local request. Your coding agent can hit a single API to pinpoint exactly what failed and why — no deployment required.",
+      "author": "Zin Khant",
+      "publishedAt": "2026-08-04T13:00:00.000Z"
+    },
+    {
+      "guid": "01KZ4HYXCHKAZHVPH6PMEG04RZ",
+      "title": "How we built a software factory to drive Astro’s GitHub issue count to zero",
+      "link": "https://blog.cloudflare.com/astro-issue-triage/",
+      "summary": "By replacing manual issue verification with isolated AI subagents running in GitHub Actions, the Astro maintainers reduced open issue count by 85%. This post explores the architecture behind automated bug reproduction, patch verification, and preview releases.",
+      "author": "Matthew Phillips",
+      "publishedAt": "2026-08-04T13:00:00.000Z"
     }
   ],
-  "totalIndexed": 7656
+  "totalIndexed": 7659
 }
