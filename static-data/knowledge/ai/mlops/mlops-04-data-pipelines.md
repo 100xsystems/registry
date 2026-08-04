@@ -1,130 +1,81 @@
 ---
-{
-  "title": "Data Pipelines",
-  "description": "Reliable, repeatable data flow: ingestion, validation, cleaning and feature preparation.",
-  "type": "lesson",
-  "order": 4,
-  "duration": "55 min",
-  "difficulty": "intermediate",
-  "learning_objectives": [
-    "Design a data ingestion pipeline",
-    "Validate data with expectations",
-    "Handle incremental updates",
-    "Use orchestration tools (Airflow, Prefect)"
-  ],
-  "knowledge_refs": [
-    "mlops/mlops-03-reproducibility-and-versioning",
-    "generative-ai/genai-18-llmops",
-    "llm-engineering/llm-20-llmops-tooling"
-  ],
-  "prerequisites": [
-    "MLOPS-02: The ML Lifecycle"
-  ],
-  "references": [
-    {
-      "title": "MLflow Documentation",
-      "url": "https://mlflow.org/docs/latest/index.html",
-      "description": "Tracking, registries and serving for the ML lifecycle."
-    },
-    {
-      "title": "Kubeflow Documentation",
-      "url": "https://www.kubeflow.org/docs/",
-      "description": "Kubernetes-native ML workflows."
-    },
-    {
-      "title": "DVC Documentation",
-      "url": "https://dvc.org/doc",
-      "description": "Data version control for reproducible ML pipelines."
-    },
-    {
-      "title": "The ML Engineer — Chip Huyen",
-      "url": "https://www.oreilly.com/library/view/introduction-to-machine/9781098119478/",
-      "description": "The reference book on building ML systems in production."
-    },
-    {
-      "title": "Google MLOps Whitepaper",
-      "url": "https://cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning",
-      "description": "The canonical description of MLOps levels and practices."
-    }
-  ]
-}
+slug: mlops-04-data-pipelines
+title: "Data Pipelines"
+description: "Building reliable data flows for ML — ETL/ELT, data validation, orchestration with Airflow and Prefect, and data contracts."
+order: 4
+tags:
+  - mlops
+  - data-pipelines
+  - etl
+  - airflow
+  - prefect
+  - data-contracts
+prerequisites:
+  - mlops-03-reproducibility-and-versioning
+knowledge_refs:
+  - mlops-03-reproducibility-and-versioning
+    title: "Reproducibility & Versioning"
+  - mlops-05-feature-stores
+    title: "Feature Stores"
+  - mlops-16-cicd-for-ml
+    title: "CI/CD for Machine Learning"
+references:
+  - title: "ZenML — Prefect vs. Airflow Comparison"
+    url: "https://www.zenml.io/blog/prefect-vs-airflow"
+  - title: "Apache Airflow — MLOps Use Cases"
+    url: "https://airflow.apache.org/use-cases/mlops/"
+  - title: "Data Contracts: The Essential Guide"
+    url: "https://www.ml4devs.com/what-is/data-contracts/"
+  - title: "Data Contracts Explained — Atlan"
+    url: "https://atlan.com/atlan-com/data-contracts/"
+  - title: "Apache Airflow Architecture Overview"
+    url: "https://airflow.apache.org/docs/apache-airflow/stable/core-concepts/overview.html"
 ---
 
-# MLOPS-04-DATA-PIPELINES: Data Pipelines
+## Data Pipelines
 
-## Introduction
+Data pipelines are the circulatory system of ML. They move data from source to feature store to model to monitoring — reliably, efficiently, and with quality guarantees.
 
-Reliable, repeatable data flow: ingestion, validation, cleaning and feature preparation. By the end of this lesson you will be able to: Design a data ingestion pipeline; Validate data with expectations; Handle incremental updates; Use orchestration tools (Airflow, Prefect).
+### ETL vs. ELT
 
-## Key Concepts
+**ETL (Extract, Transform, Load):** Data is cleaned and transformed before loading into the target system. Good for resource-constrained environments where raw storage is expensive.
 
-### 1. Design a data ingestion pipeline
+**ELT (Extract, Load, Transform):** Raw data lands first, transformations happen in the warehouse. This is the modern standard for ML because it preserves raw data for auditing and feature engineering reproducibility.
 
-Target: Design a data ingestion pipeline. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+### Data Validation
 
-```python
-import pandas as pd
+Catching data problems early prevents downstream model failures:
 
-# Validate: fail fast on bad data
-required = ["user_id", "event_time"]
-df = pd.DataFrame({"user_id": [1, 2], "event_time": ["2024-01-01", None]})
-missing = [c for c in required if df[c].isna().any()]
-print("missing required:", missing)
-```
-### 2. Validate data with expectations
+**Schema validation:** Enforce data types, required fields, and structural constraints. Tools like Great Expectations and Pandera automate this.
 
-Target: Validate data with expectations. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+**Semantic validation:** Check business rules — age should be 0–120, prices shouldn't be negative, required fields shouldn't be null.
 
-```python
-from airflow import DAG
+**Freshness validation:** Ensure data arrives on time. Stale data produces stale models.
 
-# DAG: define task dependencies declaratively
-print("extract -> validate -> transform -> load")
-```
-### 3. Handle incremental updates
+### Orchestration Tools
 
-Target: Handle incremental updates. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+**Apache Airflow:** The industry standard. Defines workflows as Python DAGs (Directed Acyclic Graphs). Highly extensible with hundreds of operators. Best for large data engineering teams with complex batch workflows.
 
-```python
-import pandas as pd
+**Prefect:** Python-native orchestrator using `@flow` and `@task` decorators. Lighter weight, more flexible for dynamic workflows. Best for ML teams wanting a streamlined, code-first experience.
 
-# Incremental: only new rows
-def load_new(last_id, source):
-    return source[source["id"] > last_id]
+**Key difference:** Airflow requires explicit DAG definitions. Prefect infers the DAG from function calls.
 
-print("incremental load ready")
-```
-### 4. Use orchestration tools (Airflow, Prefect)
+### Data Contracts
 
-Target: Use orchestration tools (Airflow, Prefect). Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+Data contracts are formal agreements between data producers and consumers:
+- **Schema contracts:** What fields exist and their types
+- **Quality contracts:** What values are acceptable
+- **SLA contracts:** When data must arrive
 
-```python
-import pandera as pa
+Contracts prevent upstream changes from breaking downstream feature pipelines and models. They're enforced in CI/CD — violating a contract blocks deployment.
 
-schema = pa.DataFrameSchema({
-    "price": pa.Column(float, pa.Check.ge(0)),
-})
-print("schema validation ready")
-```
+### Common Mistakes
 
-## Practice Questions
+- **No data validation:** Assuming upstream data is always correct.
+- **Tight coupling:** Pipelines that depend on specific infrastructure break when infrastructure changes.
+- **No SLAs:** Without freshness guarantees, models train on stale data.
+- **Ignoring backfills:** When you fix a pipeline bug, you need to backfill historical data.
 
-1. What is the key idea behind "Data Pipelines"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+---
 
-## LLM Prompts for Deeper Understanding
-
-1. "Explain Data Pipelines with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Data Pipelines"
-1. "Provide advanced patterns and performance considerations for Data Pipelines"
-
-## Key Takeaways
-
-- Master the core ideas of Data Pipelines through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
-
-## Further Reading
-
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+*Continue to learn about feature stores — serving features consistently across training and inference.*

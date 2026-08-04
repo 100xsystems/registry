@@ -1,115 +1,98 @@
 ---
-{
-  "title": "The ML Lifecycle",
-  "description": "From problem definition to retirement: every stage a model passes through.",
-  "type": "lesson",
-  "order": 2,
-  "duration": "50 min",
-  "difficulty": "beginner",
-  "learning_objectives": [
-    "Map the end-to-end ML lifecycle",
-    "Identify where ML projects fail",
-    "Define staging environments (dev/staging/prod)",
-    "Describe the retraining loop"
-  ],
-  "knowledge_refs": [
-    "mlops/mlops-01-what-is-mlops",
-    "generative-ai/genai-18-llmops",
-    "llm-engineering/llm-20-llmops-tooling"
-  ],
-  "prerequisites": [
-    "MLOPS-01: What Is MLOps?"
-  ],
-  "references": [
-    {
-      "title": "MLflow Documentation",
-      "url": "https://mlflow.org/docs/latest/index.html",
-      "description": "Tracking, registries and serving for the ML lifecycle."
-    },
-    {
-      "title": "Kubeflow Documentation",
-      "url": "https://www.kubeflow.org/docs/",
-      "description": "Kubernetes-native ML workflows."
-    },
-    {
-      "title": "DVC Documentation",
-      "url": "https://dvc.org/doc",
-      "description": "Data version control for reproducible ML pipelines."
-    },
-    {
-      "title": "The ML Engineer — Chip Huyen",
-      "url": "https://www.oreilly.com/library/view/introduction-to-machine/9781098119478/",
-      "description": "The reference book on building ML systems in production."
-    },
-    {
-      "title": "Google MLOps Whitepaper",
-      "url": "https://cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning",
-      "description": "The canonical description of MLOps levels and practices."
-    }
-  ]
-}
+slug: mlops-02-the-ml-lifecycle
+title: "The ML Lifecycle"
+description: "The stages from problem framing to production monitoring — and how each stage connects in an end-to-end ML system."
+order: 2
+tags:
+  - mlops
+  - ml-lifecycle
+  - workflow
+  - production-ml
+prerequisites:
+  - mlops-01-what-is-mlops
+knowledge_refs:
+  - mlops-01-what-is-mlops
+    title: "What Is MLOps?"
+  - mlops-04-data-pipelines
+    title: "Data Pipelines"
+  - mlops-14-monitoring-and-drift
+    title: "Monitoring & Drift Detection"
+references:
+  - title: "Google Cloud — ML Lifecycle"
+    url: "https://cloud.google.com/architecture/ml-lifecycle"
+  - title: "MLflow — ML Lifecycle Management"
+    url: "https://mlflow.org/docs/latest/ml/"
+  - title: "AWS — MLOps Lifecycle"
+    url: "https://aws.amazon.com/solutions/machine-learning/"
+  - title: "The ML Lifecycle — Databricks"
+    url: "https://www.databricks.com/discover-pages/ml-lifecycle"
+  - title: "Chip Huyen — Designing Machine Learning Systems"
+    url: "https://www.oreilly.com/library/view/designing-machine-learning/9781098107956/"
 ---
 
-# MLOPS-02-THE-ML-LIFECYCLE: The ML Lifecycle
+## The ML Lifecycle
 
-## Introduction
+The ML lifecycle is the end-to-end process of building, deploying, and maintaining machine learning systems. Unlike traditional software, the lifecycle is circular — models need continuous retraining and monitoring.
 
-From problem definition to retirement: every stage a model passes through. By the end of this lesson you will be able to: Map the end-to-end ML lifecycle; Identify where ML projects fail; Define staging environments (dev/staging/prod); Describe the retraining loop.
+### Stage 1: Problem Framing
 
-## Key Concepts
+Before writing code, define:
+- **Business objective:** What problem are you solving?
+- **ML formulation:** Is this classification, regression, ranking, generation?
+- **Success metrics:** What accuracy, latency, or business metric defines success?
+- **Constraints:** Latency budgets, fairness requirements, regulatory compliance
 
-### 1. Map the end-to-end ML lifecycle
+Skipping this stage is the #1 cause of ML project failure.
 
-Target: Map the end-to-end ML lifecycle. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+### Stage 2: Data Collection and Preparation
 
-```python
-lifecycle = ["define", "collect", "prepare", "train", "evaluate", "deploy", "monitor", "retrain"]
-for s in lifecycle:
-    print(f"-> {s}")
-```
-### 2. Identify where ML projects fail
+- **Data sourcing:** Where does the data come from? Internal databases, APIs, web scraping, sensors?
+- **Data quality:** Is the data complete, accurate, and consistent?
+- **Data labeling:** For supervised learning, who labels the data and how?
+- **Data splits:** Train/validation/test sets with proper separation to prevent leakage
 
-Target: Identify where ML projects fail. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+### Stage 3: Feature Engineering
 
-```python
-risks = ["data mismatch", "no eval set", "serving skew", "no monitoring"]
-for r in risks:
-    print(f"- {r}")
-```
-### 3. Define staging environments (dev/staging/prod)
+Transform raw data into model-ready features:
+- **Feature creation:** Domain-specific transformations (ratios, aggregations, embeddings)
+- **Feature selection:** Identify which features matter
+- **Feature scaling:** Normalize or standardize numerical features
+- **Feature storage:** Store features in a feature store for reuse across models
 
-Target: Define staging environments (dev/staging/prod). Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+### Stage 4: Model Development
 
-```python
-envs = {"dev": "experiment", "staging": "validate", "prod": "serve"}
-print(envs)
-```
-### 4. Describe the retraining loop
+- **Model selection:** Choose architecture based on problem, data, and constraints
+- **Training:** Fit the model to training data
+- **Hyperparameter tuning:** Optimize model configuration
+- **Evaluation:** Measure performance on held-out data using appropriate metrics
 
-Target: Describe the retraining loop. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+### Stage 5: Deployment
 
-```python
-print("the loop: monitor drift -> trigger retraining -> redeploy")
-```
+Move the model from notebook to production:
+- **Model packaging:** Serialize the model for serving
+- **Serving infrastructure:** API endpoints, batch processing, edge deployment
+- **Deployment strategy:** Canary, blue-green, shadow deployment
+- **Integration:** Connect to downstream applications
 
-## Practice Questions
+### Stage 6: Monitoring and Maintenance
 
-1. What is the key idea behind "The ML Lifecycle"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+The lifecycle doesn't end at deployment:
+- **Performance monitoring:** Track prediction quality over time
+- **Data drift detection:** Monitor for changes in input data distribution
+- **Concept drift detection:** Monitor for changes in the relationship between inputs and outputs
+- **Retraining triggers:** Automatic or manual retraining based on drift signals
 
-## LLM Prompts for Deeper Understanding
+### The Feedback Loop
 
-1. "Explain The ML Lifecycle with analogies and real-world examples"
-1. "Show me common mistakes beginners make with The ML Lifecycle"
-1. "Provide advanced patterns and performance considerations for The ML Lifecycle"
+Production monitoring feeds back to data collection. Real-world failures become new training examples. This loop is what makes ML systems continuously improve — or continuously degrade if neglected.
 
-## Key Takeaways
+### Common Mistakes
 
-- Master the core ideas of The ML Lifecycle through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+- **Starting with the model, not the problem:** Technology-first thinking wastes resources.
+- **Ignoring data quality:** Poor data quality cannot be fixed by better models.
+- **Treating deployment as the finish line:** The real work starts after deployment.
+- **No feedback loop:** Without monitoring and retraining, models decay silently.
 
-## Further Reading
+---
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+*Continue to learn about reproducibility and versioning — ensuring you can recreate any model.*

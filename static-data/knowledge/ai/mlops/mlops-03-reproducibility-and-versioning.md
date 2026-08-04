@@ -1,123 +1,106 @@
 ---
-{
-  "title": "Reproducibility & Versioning",
-  "description": "Version code, data and models together — the foundation of trustworthy ML.",
-  "type": "lesson",
-  "order": 3,
-  "duration": "55 min",
-  "difficulty": "intermediate",
-  "learning_objectives": [
-    "Version data with DVC",
-    "Lock dependencies and environments",
-    "Record model lineage",
-    "Reproduce any historical experiment"
-  ],
-  "knowledge_refs": [
-    "mlops/mlops-02-the-ml-lifecycle",
-    "generative-ai/genai-18-llmops",
-    "llm-engineering/llm-20-llmops-tooling"
-  ],
-  "prerequisites": [
-    "MLOPS-02: The ML Lifecycle"
-  ],
-  "references": [
-    {
-      "title": "MLflow Documentation",
-      "url": "https://mlflow.org/docs/latest/index.html",
-      "description": "Tracking, registries and serving for the ML lifecycle."
-    },
-    {
-      "title": "Kubeflow Documentation",
-      "url": "https://www.kubeflow.org/docs/",
-      "description": "Kubernetes-native ML workflows."
-    },
-    {
-      "title": "DVC Documentation",
-      "url": "https://dvc.org/doc",
-      "description": "Data version control for reproducible ML pipelines."
-    },
-    {
-      "title": "The ML Engineer — Chip Huyen",
-      "url": "https://www.oreilly.com/library/view/introduction-to-machine/9781098119478/",
-      "description": "The reference book on building ML systems in production."
-    },
-    {
-      "title": "Google MLOps Whitepaper",
-      "url": "https://cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning",
-      "description": "The canonical description of MLOps levels and practices."
-    }
-  ]
-}
+slug: mlops-03-reproducibility-and-versioning
+title: "Reproducibility & Versioning"
+description: "Ensuring you can recreate any model at any time — data versioning, code versioning, experiment tracking, and environment management."
+order: 3
+tags:
+  - mlops
+  - reproducibility
+  - versioning
+  - dvc
+  - git
+  - experiment-tracking
+prerequisites:
+  - mlops-02-the-ml-lifecycle
+knowledge_refs:
+  - mlops-02-the-ml-lifecycle
+    title: "The ML Lifecycle"
+  - mlops-06-experiment-tracking
+    title: "Experiment Tracking"
+  - mlops-07-model-registry
+    title: "Model Registry"
+references:
+  - title: "DVC — Get Started with Data Version Control"
+    url: "https://doc.dvc.org/start"
+  - title: "Reproducibility and Versioning in ML Systems"
+    url: "https://www.dailydoseofds.com/mlops-crash-course-part-3/"
+  - title: "MLflow Model Registry"
+    url: "https://mlflow.org/docs/latest/ml/model-registry/"
+  - title: "MLflow Model Registry Workflows"
+    url: "https://mlflow.org/docs/latest/ml/model-registry/workflow/"
+  - title: "MLflow Documentation"
+    url: "https://mlflow.org/docs/latest/ml/"
 ---
 
-# MLOPS-03-REPRODUCIBILITY-AND-VERSIONING: Reproducibility & Versioning
+## Reproducibility & Versioning
 
-## Introduction
+If you can't reproduce a model's results, you can't debug it, improve it, or trust it. Reproducibility is the foundation of reliable ML systems, and versioning is how you achieve it.
 
-Version code, data and models together — the foundation of trustworthy ML. By the end of this lesson you will be able to: Version data with DVC; Lock dependencies and environments; Record model lineage; Reproduce any historical experiment.
+### Why Reproducibility Matters
 
-## Key Concepts
+**Debugging:** When a model fails in production, you need to recreate the exact training conditions to understand why.
 
-### 1. Version data with DVC
+**Compliance:** Regulators may require you to demonstrate how a model was trained and what data it used.
 
-Target: Version data with DVC. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+**Collaboration:** Team members need to build on each other's work without breaking it.
 
-```python
-import dvc.api
+**Audit trails:** Complete version history enables investigation and accountability.
 
-# DVC: data versioned like code
-params = dvc.api.params_show()
-print("dvc params:", params)
-```
-### 2. Lock dependencies and environments
+### Code Versioning with Git
 
-Target: Lock dependencies and environments. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+Git tracks every change to your source code, configuration, and pipeline definitions. Best practices:
 
-```python
-import hashlib
+- Every training run should be tied to a specific Git commit
+- Use meaningful commit messages that describe what changed
+- Tag releases for deployed models
+- Avoid untracked local changes
 
-# Content hash: the same data hash means the same data
-def data_hash(path):
-    return hashlib.sha256(open(path, "rb").read()).hexdigest()[:12]
+### Data Versioning with DVC
 
-print("data hash:", data_hash("train.csv"))
-```
-### 3. Record model lineage
+Git can't handle large datasets (GBs or TBs). DVC (Data Version Control) solves this by:
+- Storing small `.dvc` placeholder files in Git (containing MD5 checksums)
+- Storing actual data in cloud storage (S3, GCS, Azure)
+- Using `dvc add` to track datasets and `dvc push/pull` to sync
 
-Target: Record model lineage. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
-
-```python
-import yaml
-
-env = {"python": "3.11", "packages": {"torch": "2.2.0", "sklearn": "1.4.0"}}
-print(env)
-```
-### 4. Reproduce any historical experiment
-
-Target: Reproduce any historical experiment. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
-
-```python
-print("lineage: code + data + config -> model artifact")
+```bash
+dvc init
+dvc add data/training.csv
+git add data/training.csv.dvc .gitignore
+git commit -m "Track training data v1"
+dvc push
 ```
 
-## Practice Questions
+To switch data versions: `git checkout` + `dvc checkout`.
 
-1. What is the key idea behind "Reproducibility & Versioning"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+### Model Versioning
 
-## LLM Prompts for Deeper Understanding
+Ad-hoc naming (`model_v2_final_final.pt`) doesn't scale. Model registries provide:
+- **Automatic versioning:** v1, v2, v3 on each registration
+- **Lineage tracking:** Links model to experiment, data, and code
+- **Stage transitions:** Development → Staging → Production
+- **Aliases and tags:** `@champion`, `@production`, `approved`
 
-1. "Explain Reproducibility & Versioning with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Reproducibility & Versioning"
-1. "Provide advanced patterns and performance considerations for Reproducibility & Versioning"
+### Environment Management
 
-## Key Takeaways
+Reproducible environments require:
+- **Dependency pinning:** Lock exact library versions (`requirements.txt`, `poetry.lock`)
+- **Containerization:** Docker images package code, runtime, and dependencies
+- **Deterministic training:** Set random seeds across all libraries
 
-- Master the core ideas of Reproducibility & Versioning through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+```python
+import random, numpy as np, torch
+random.seed(42)
+np.random.seed(42)
+torch.manual_seed(42)
+```
 
-## Further Reading
+### Common Mistakes
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+- **Not versioning data:** Code versioning without data versioning gives incomplete reproducibility.
+- **Floating dependencies:** Using `pandas>=1.0` instead of `pandas==2.1.0` causes silent breakage.
+- **Ignoring randomness:** Without setting seeds, results vary between runs.
+- **No model registry:** Without structured model management, you can't track what's in production.
+
+---
+
+*Continue to learn about data pipelines — building reliable data flows for ML.*

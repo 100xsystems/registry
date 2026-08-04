@@ -1,127 +1,87 @@
 ---
-{
-  "title": "Monitoring & Drift Detection",
-  "description": "Watch predictions and features: data drift, concept drift and model performance decay.",
-  "type": "lesson",
-  "order": 14,
-  "duration": "60 min",
-  "difficulty": "advanced",
-  "learning_objectives": [
-    "Monitor feature distributions",
-    "Detect data and concept drift",
-    "Track prediction drift",
-    "Set alert thresholds deliberately"
-  ],
-  "knowledge_refs": [
-    "mlops/mlops-13-deployment-strategies",
-    "generative-ai/genai-18-llmops",
-    "llm-engineering/llm-20-llmops-tooling"
-  ],
-  "prerequisites": [
-    "MLOPS-13: Model Deployment Strategies"
-  ],
-  "references": [
-    {
-      "title": "MLflow Documentation",
-      "url": "https://mlflow.org/docs/latest/index.html",
-      "description": "Tracking, registries and serving for the ML lifecycle."
-    },
-    {
-      "title": "Kubeflow Documentation",
-      "url": "https://www.kubeflow.org/docs/",
-      "description": "Kubernetes-native ML workflows."
-    },
-    {
-      "title": "DVC Documentation",
-      "url": "https://dvc.org/doc",
-      "description": "Data version control for reproducible ML pipelines."
-    },
-    {
-      "title": "The ML Engineer — Chip Huyen",
-      "url": "https://www.oreilly.com/library/view/introduction-to-machine/9781098119478/",
-      "description": "The reference book on building ML systems in production."
-    },
-    {
-      "title": "Google MLOps Whitepaper",
-      "url": "https://cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning",
-      "description": "The canonical description of MLOps levels and practices."
-    }
-  ]
-}
+slug: mlops-14-monitoring-and-drift
+title: "Monitoring & Drift Detection"
+description: "Watching for model decay in production — data drift, concept drift, Evidently AI, dashboards, and alerting."
+order: 14
+tags:
+  - mlops
+  - monitoring
+  - drift-detection
+  - evidently
+  - alerting
+prerequisites:
+  - mlops-13-deployment-strategies
+knowledge_refs:
+  - mlops-13-deployment-strategies
+    title: "Model Deployment Strategies"
+  - mlops-15-production-evaluation
+    title: "Evaluation in Production"
+  - mlops-16-cicd-for-ml
+    title: "CI/CD for Machine Learning"
+references:
+  - title: "Evidently AI — What Is Data Drift?"
+    url: "https://www.evidentlyai.com/ml-in-production/data-drift"
+  - title: "Evidently AI — What Is Concept Drift?"
+    url: "https://www.evidentlyai.com/ml-in-production/concept-drift"
+  - title: "Evidently AI — Data and Concept Drift"
+    url: "https://www.evidentlyai.com/blog/machine-learning-monitoring-data-and-concept-drift"
+  - title: "Evidently AI — ML Monitoring Dashboard Tutorial"
+    url: "https://www.evidentlyai.com/blog/ml-model-monitoring-dashboard-tutorial"
+  - title: "Evidently AI — ML Monitoring with Email Alerts"
+    url: "https://www.evidentlyai.com/blog/ml-monitoring-with-email-alerts-tutorial"
 ---
 
-# MLOPS-14-MONITORING-AND-DRIFT: Monitoring & Drift Detection
+## Monitoring & Drift Detection
 
-## Introduction
+Models decay silently. Unlike software bugs that cause crashes, ML model degradation is gradual and invisible without monitoring. Data drift, concept drift, and data quality issues slowly erode performance until someone notices — often too late.
 
-Watch predictions and features: data drift, concept drift and model performance decay. By the end of this lesson you will be able to: Monitor feature distributions; Detect data and concept drift; Track prediction drift; Set alert thresholds deliberately.
+### Data Drift
 
-## Key Concepts
+Data drift occurs when the statistical distribution of input features changes between training and production. The model encounters feature values it never saw during training.
 
-### 1. Monitor feature distributions
+**Example:** A fraud detection model trained on pre-pandemic transaction patterns fails when spending behavior shifts during lockdowns.
 
-Target: Monitor feature distributions. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+**Detection:** Statistical tests (Kolmogorov-Smirnov, Chi-Square, Population Stability Index) compare training and production distributions.
 
-```python
-import numpy as np
-from scipy import stats
+### Concept Drift
 
-# KS test: did the feature distribution change?
-baseline = np.random.default_rng(0).normal(0, 1, 1000)
-current = np.random.default_rng(1).normal(0.5, 1, 1000)
-print("KS p-value:", round(stats.ks_2samp(baseline, current).pvalue, 4))
-```
-### 2. Detect data and concept drift
+Concept drift occurs when the relationship between inputs and outputs changes. The features might look the same, but what they mean has shifted.
 
-Target: Detect data and concept drift. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+**Example:** A sentiment model trained to associate "unpredictable" with negative sentiment finds that in tech reviews, "unpredictable" becomes positive over time.
 
-```python
-import numpy as np
+**Detection:** Monitor model accuracy over time as labels become available. Use prediction drift as a proxy when labels are delayed.
 
-# PSI: population stability index
-bins = np.linspace(0, 1, 11)
-actual = np.histogram(np.random.default_rng(0).uniform(size=1000), bins=bins)[0]
-expected = np.histogram(np.random.default_rng(1).uniform(size=1000), bins=bins)[0]
-psi = ((actual / actual.sum()) - (expected / expected.sum())) * np.log((actual / actual.sum()) / (expected / expected.sum()))
-print("PSI:", round(psi.sum(), 3))
-```
-### 3. Track prediction drift
+### Other Drift Types
 
-Target: Track prediction drift. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+**Prediction drift:** The distribution of model outputs shifts. Useful as an early warning when ground truth is delayed.
 
-```python
-import numpy as np
+**Training-serving skew:** Structural mismatch between how features are computed in training vs. serving. Usually a pipeline bug, not environmental drift.
 
-# Concept drift: the relationship changed, not just inputs
-print("accuracy drops even when features look the same")
-```
-### 4. Set alert thresholds deliberately
+### Monitoring with Evidently AI
 
-Target: Set alert thresholds deliberately. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+Evidently is an open-source Python framework for ML monitoring:
 
-```python
-alerts = {"psi > 0.25", "accuracy -5pp", "empty predictions"}
-print(alerts)
-```
+- **Reports:** Generate rich HTML/JSON visual summaries with statistical charts and metrics
+- **Test Suites:** Automated pass/fail assertions against predefined thresholds
+- **Integration:** Works with Streamlit dashboards, Airflow pipelines, and email alerting
 
-## Practice Questions
+### Alerting
 
-1. What is the key idea behind "Monitoring & Drift Detection"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+Monitoring without alerting is just logging. Set up alerts for:
+- Drift metrics exceeding thresholds
+- Error rate spikes
+- Latency anomalies
+- Data quality issues (nulls, schema violations)
 
-## LLM Prompts for Deeper Understanding
+Connect alerts to Slack, email, or PagerDuty for immediate response.
 
-1. "Explain Monitoring & Drift Detection with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Monitoring & Drift Detection"
-1. "Provide advanced patterns and performance considerations for Monitoring & Drift Detection"
+### Common Mistakes
 
-## Key Takeaways
+- **No monitoring:** Deploying without monitoring is flying blind.
+- **Only monitoring accuracy:** Accuracy degrades slowly. Monitor data distributions and predictions too.
+- **No alerting thresholds:** Alerts without thresholds produce noise, not signal.
+- **Ignoring feedback delay:** In many domains (fraud, lending), labels arrive weeks later. Use proxy metrics.
 
-- Master the core ideas of Monitoring & Drift Detection through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+---
 
-## Further Reading
-
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+*Continue to learn about evaluation in production — measuring model performance with live traffic.*

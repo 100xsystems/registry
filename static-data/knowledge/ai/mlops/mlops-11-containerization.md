@@ -1,119 +1,96 @@
 ---
-{
-  "title": "Containerization with Docker",
-  "description": "Package the model, code and dependencies into one portable image.",
-  "type": "lesson",
-  "order": 11,
-  "duration": "55 min",
-  "difficulty": "intermediate",
-  "learning_objectives": [
-    "Write a production Dockerfile",
-    "Keep images small and layered",
-    "Run containers locally",
-    "Understand security basics"
-  ],
-  "knowledge_refs": [
-    "mlops/mlops-10-model-serving",
-    "generative-ai/genai-18-llmops",
-    "llm-engineering/llm-20-llmops-tooling"
-  ],
-  "prerequisites": [
-    "MLOPS-10: Model Serving APIs"
-  ],
-  "references": [
-    {
-      "title": "MLflow Documentation",
-      "url": "https://mlflow.org/docs/latest/index.html",
-      "description": "Tracking, registries and serving for the ML lifecycle."
-    },
-    {
-      "title": "Kubeflow Documentation",
-      "url": "https://www.kubeflow.org/docs/",
-      "description": "Kubernetes-native ML workflows."
-    },
-    {
-      "title": "DVC Documentation",
-      "url": "https://dvc.org/doc",
-      "description": "Data version control for reproducible ML pipelines."
-    },
-    {
-      "title": "The ML Engineer — Chip Huyen",
-      "url": "https://www.oreilly.com/library/view/introduction-to-machine/9781098119478/",
-      "description": "The reference book on building ML systems in production."
-    },
-    {
-      "title": "Google MLOps Whitepaper",
-      "url": "https://cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning",
-      "description": "The canonical description of MLOps levels and practices."
-    }
-  ]
-}
+slug: mlops-11-containerization
+title: "Containerization with Docker"
+description: "Packaging ML applications for reproducible deployment — Dockerfiles, multi-stage builds, GPU containers, and container registries."
+order: 11
+tags:
+  - mlops
+  - docker
+  - containerization
+  - gpu-containers
+  - reproducibility
+prerequisites:
+  - mlops-10-model-serving
+knowledge_refs:
+  - mlops-10-model-serving
+    title: "Model Serving APIs"
+  - mlops-12-kubernetes-basics
+    title: "Kubernetes Basics for ML"
+  - mlops-09-model-packaging
+    title: "Model Packaging & Serialization"
+references:
+  - title: "Docker — Multi-Stage Builds"
+    url: "https://docs.docker.com/build/building/multi-stage/"
+  - title: "Docker — Model Runner for AI"
+    url: "https://docs.docker.com/ai/model-runner/"
+  - title: "NVIDIA GPU Support in Docker for AI/ML"
+    url: "https://oneuptime.com/blog/post/2026-01-16-docker-nvidia-gpu-ai-ml/view"
+  - title: "Docker Documentation"
+    url: "https://docs.docker.com/"
+  - title: "NVIDIA Container Toolkit"
+    url: "https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/"
 ---
 
-# MLOPS-11-CONTAINERIZATION: Containerization with Docker
+## Containerization with Docker
 
-## Introduction
+Docker solves the "it works on my machine" problem by packaging code, dependencies, and runtime into immutable containers. For ML, this means reproducible environments from training to serving.
 
-Package the model, code and dependencies into one portable image. By the end of this lesson you will be able to: Write a production Dockerfile; Keep images small and layered; Run containers locally; Understand security basics.
+### Why Docker for ML
 
-## Key Concepts
+ML systems have complex dependencies — Python versions, CUDA drivers, GPU libraries, model files. Docker encapsulates all of this into a single artifact that runs identically everywhere.
 
-### 1. Write a production Dockerfile
+### Writing Dockerfiles for ML
 
-Target: Write a production Dockerfile. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+**Base image selection:** Start with official framework images (`pytorch/pytorch:2.1-cuda12.1-cudnn8-runtime`) or minimal Python images for smaller footprints.
 
-```python
-dockerfile = """FROM python:3.11-slim
-WORKDIR /app
+**Layer caching:** Order instructions strategically — copy `requirements.txt` and run `pip install` before copying source code. This maximizes cache hits.
+
+**Security:** Run containers as non-root users. Avoid storing secrets in images.
+
+### Multi-Stage Builds
+
+Separate build-time dependencies from runtime:
+
+```dockerfile
+# Stage 1: Build
+FROM python:3.11 AS builder
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
-COPY . .
-CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0"]
-"""
-print(dockerfile)
-```
-### 2. Keep images small and layered
 
-Target: Keep images small and layered. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
-
-```python
-import subprocess
-
-print("docker build -t my-model .")
-```
-### 3. Run containers locally
-
-Target: Run containers locally. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
-
-```python
-print("slim base + pinned deps = smaller, reproducible image")
-```
-### 4. Understand security basics
-
-Target: Understand security basics. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
-
-```python
-print("never bake secrets into images")
+# Stage 2: Runtime
+FROM python:3.11-slim
+COPY --from=builder /usr/local/lib/python3.11/site-packages /usr/local/lib/python3.11/site-packages
+COPY . /app
 ```
 
-## Practice Questions
+This produces images 50–80% smaller by excluding compilers, caches, and build tools.
 
-1. What is the key idea behind "Containerization with Docker"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+### GPU Containers
 
-## LLM Prompts for Deeper Understanding
+Docker can use NVIDIA GPUs via the NVIDIA Container Toolkit:
 
-1. "Explain Containerization with Docker with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Containerization with Docker"
-1. "Provide advanced patterns and performance considerations for Containerization with Docker"
+```bash
+docker run --gpus all my-ml-image
+docker run --gpus '"device=0,2"' my-ml-image  # Specific GPUs
+```
 
-## Key Takeaways
+**Performance tuning:** Set `shm_size: '8gb'` for PyTorch DataLoader workers. Use `ipc: host` for multi-GPU NCCL communication.
 
-- Master the core ideas of Containerization with Docker through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+### Container Registries
 
-## Further Reading
+Store and distribute images via:
+- Docker Hub (public)
+- Amazon ECR, Google Artifact Registry, Azure Container Registry (private)
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+Tag images with version numbers and push/pull for deployment.
+
+### Common Mistakes
+
+- **Huge images:** Including build tools and unnecessary packages bloats images and slows deployment.
+- **No .dockerignore:** Sending the entire build context (including `.git`, `node_modules`) wastes time.
+- **Running as root:** Security risk. Always use a non-root user.
+- **No multi-stage builds:** Build dependencies in the runtime image wastes space.
+
+---
+
+*Continue to learn about Kubernetes — orchestrating ML workloads at scale.*

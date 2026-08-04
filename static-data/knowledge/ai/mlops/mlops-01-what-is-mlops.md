@@ -1,118 +1,82 @@
 ---
-{
-  "title": "What Is MLOps?",
-  "description": "The discipline of operationalizing machine learning: people, pipelines, and platforms.",
-  "type": "lesson",
-  "order": 1,
-  "duration": "40 min",
-  "difficulty": "beginner",
-  "learning_objectives": [
-    "Define MLOps and why it emerged",
-    "Contrast ML development with ML operations",
-    "Describe the three MLOps maturity levels",
-    "Identify the pillars of production ML systems"
-  ],
-  "knowledge_refs": [
-    "generative-ai/genai-18-llmops",
-    "llm-engineering/llm-20-llmops-tooling",
-    "llm-engineering/llm-15-llm-serving"
-  ],
-  "prerequisites": [
-    "ML-01: What Is Machine Learning?"
-  ],
-  "references": [
-    {
-      "title": "MLflow Documentation",
-      "url": "https://mlflow.org/docs/latest/index.html",
-      "description": "Tracking, registries and serving for the ML lifecycle."
-    },
-    {
-      "title": "Kubeflow Documentation",
-      "url": "https://www.kubeflow.org/docs/",
-      "description": "Kubernetes-native ML workflows."
-    },
-    {
-      "title": "DVC Documentation",
-      "url": "https://dvc.org/doc",
-      "description": "Data version control for reproducible ML pipelines."
-    },
-    {
-      "title": "The ML Engineer — Chip Huyen",
-      "url": "https://www.oreilly.com/library/view/introduction-to-machine/9781098119478/",
-      "description": "The reference book on building ML systems in production."
-    },
-    {
-      "title": "Google MLOps Whitepaper",
-      "url": "https://cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning",
-      "description": "The canonical description of MLOps levels and practices."
-    }
-  ]
-}
+slug: mlops-01-what-is-mlops
+title: "What Is MLOps?"
+description: "The engineering discipline that bridges ML research and production — automating the end-to-end machine learning lifecycle."
+order: 1
+tags:
+  - mlops
+  - ml-engineering
+  - devops
+  - production-ml
+prerequisites: []
+knowledge_refs:
+  - slug: mlops-02-the-ml-lifecycle
+    title: "The ML Lifecycle"
+  - slug: mlops-16-cicd-for-ml
+    title: "CI/CD for Machine Learning"
+references:
+  - title: "Google Cloud — MLOps: Continuous Delivery and Automation Pipelines"
+    url: "https://cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning"
+  - title: "AWS — MLOps Best Practices"
+    url: "https://docs.aws.amazon.com/whitepapers/latest/ml-best-practices-public-sector-organizations/mlops.html"
+  - title: "Microsoft Azure — MLOps Maturity Model"
+    url: "https://learn.microsoft.com/en-us/azure/architecture/ai-ml/guide/mlops-maturity-model"
+  - title: "Hidden Technical Debt in Machine Learning Systems (Sculley et al., 2015)"
+    url: "https://papers.nips.cc/paper/2015/hash/86df7dcfd896fcaf2674f757a2463eba-Abstract.html"
+  - title: "MLOps: Overview, Definition, and Architecture (IEEE Access)"
+    url: "https://en.wikipedia.org/wiki/MLOps"
 ---
 
-# MLOPS-01-WHAT-IS-MLOPS: What Is MLOps?
+## What Is MLOps?
 
-## Introduction
+MLOps (Machine Learning Operations) is the engineering discipline that makes machine learning work in production. It combines ML, software engineering, and data engineering to automate and govern the entire lifecycle — from data collection and model training to deployment and monitoring.
 
-The discipline of operationalizing machine learning: people, pipelines, and platforms. By the end of this lesson you will be able to: Define MLOps and why it emerged; Contrast ML development with ML operations; Describe the three MLOps maturity levels; Identify the pillars of production ML systems.
+### Why MLOps Exists
 
-## Key Concepts
+Most ML projects never reach production. Studies show up to 87% of ML models fail to deploy. The reason isn't poor model quality — it's poor engineering.
 
-### 1. Define MLOps and why it emerged
+Google's landmark 2015 paper "Hidden Technical Debt in Machine Learning Systems" revealed that actual ML code accounts for only a tiny fraction of a production system. The vast majority is data collection, feature extraction, monitoring, configuration, and serving infrastructure.
 
-Target: Define MLOps and why it emerged. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+MLOps exists to build and manage that infrastructure systematically.
 
-```python
-pillars = ["data", "models", "code", "deployment", "monitoring"]
-for p in pillars:
-    print(f"- {p}")
-```
-### 2. Contrast ML development with ML operations
+### From DevOps to MLOps
 
-Target: Contrast ML development with ML operations. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+**DevOps** bridged the gap between developers and operations through CI/CD, version control, and automation. It works for traditional software.
 
-```python
-levels = {
-    1: "manual process",
-    2: "automated pipelines",
-    3: "continuous delivery + monitoring",
-}
-print(levels)
-```
-### 3. Describe the three MLOps maturity levels
+**MLOps** extends DevOps with ML-specific challenges:
+- **Data is part of the product** — code + data = behavior
+- **Models decay silently** — performance degrades as data distributions shift
+- **Reproducibility is hard** — randomness in training, large datasets, complex environments
+- **Multiple artifacts to track** — code, data, models, features, configs, environments
 
-Target: Describe the three MLOps maturity levels. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+### The MLOps Maturity Model
 
-```python
-print("models decay: data drift makes today's model tomorrow's liability")
-```
-### 4. Identify the pillars of production ML systems
+Microsoft and Google define MLOps maturity in levels:
 
-Target: Identify the pillars of production ML systems. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+**Level 0 — Manual:** Data scientists work in notebooks, hand off models manually, releases happen a few times a year. No CI/CD, no monitoring.
 
-```python
-components = ["training", "serving", "monitoring", "governance", "retraining"]
-print(components)
-```
+**Level 1 — Pipeline Automation:** Training is automated into pipelines. Data validation, model validation, and automatic retraining are introduced.
 
-## Practice Questions
+**Level 2 — CI/CD:** Full integration of continuous integration and deployment for both code and models. Automated testing, canary deployments, A/B testing.
 
-1. What is the key idea behind "What Is MLOps?"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+**Level 3 — Full Automation:** The entire system operates with maximum automation. Drift detection triggers retraining. Policy-based model promotion. Near-zero manual intervention.
 
-## LLM Prompts for Deeper Understanding
+### Core Practices
 
-1. "Explain What Is MLOps? with analogies and real-world examples"
-1. "Show me common mistakes beginners make with What Is MLOps?"
-1. "Provide advanced patterns and performance considerations for What Is MLOps?"
+- **Continuous Training (CT):** Automatically retrain models on fresh data
+- **Experiment Tracking:** Log every training run's parameters, metrics, and artifacts
+- **Model Registry:** Version and govern model artifacts centrally
+- **Feature Stores:** Ensure consistent feature computation across training and serving
+- **Monitoring:** Track model performance and data drift in production
+- **CI/CD for ML:** Automate testing and deployment of data pipelines and models
 
-## Key Takeaways
+### Common Mistakes
 
-- Master the core ideas of What Is MLOps? through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+- **Treating ML like traditional software:** ML systems need data pipelines, not just code pipelines.
+- **Skipping monitoring:** Models decay silently without monitoring.
+- **Manual deployment:** Hand-off between data scientists and engineers creates bottlenecks.
+- **No reproducibility:** Without versioning, you can't debug or reproduce model behavior.
 
-## Further Reading
+---
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+*Continue to learn about the ML lifecycle — the stages from problem framing to production monitoring.*

@@ -1,122 +1,77 @@
 ---
-{
-  "title": "Feature Stores",
-  "description": "One source of truth for features: consistent online and offline features.",
-  "type": "lesson",
-  "order": 5,
-  "duration": "50 min",
-  "difficulty": "intermediate",
-  "learning_objectives": [
-    "Explain the feature store concept",
-    "Describe online vs offline features",
-    "Avoid train-serve skew",
-    "Register and reuse features"
-  ],
-  "knowledge_refs": [
-    "mlops/mlops-04-data-pipelines",
-    "generative-ai/genai-18-llmops",
-    "llm-engineering/llm-20-llmops-tooling"
-  ],
-  "prerequisites": [
-    "MLOPS-04: Data Pipelines"
-  ],
-  "references": [
-    {
-      "title": "MLflow Documentation",
-      "url": "https://mlflow.org/docs/latest/index.html",
-      "description": "Tracking, registries and serving for the ML lifecycle."
-    },
-    {
-      "title": "Kubeflow Documentation",
-      "url": "https://www.kubeflow.org/docs/",
-      "description": "Kubernetes-native ML workflows."
-    },
-    {
-      "title": "DVC Documentation",
-      "url": "https://dvc.org/doc",
-      "description": "Data version control for reproducible ML pipelines."
-    },
-    {
-      "title": "The ML Engineer — Chip Huyen",
-      "url": "https://www.oreilly.com/library/view/introduction-to-machine/9781098119478/",
-      "description": "The reference book on building ML systems in production."
-    },
-    {
-      "title": "Google MLOps Whitepaper",
-      "url": "https://cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning",
-      "description": "The canonical description of MLOps levels and practices."
-    }
-  ]
-}
+slug: mlops-05-feature-stores
+title: "Feature Stores"
+description: "Serving features consistently across training and inference — Feast, Tecton, online vs offline stores, and point-in-time correctness."
+order: 5
+tags:
+  - mlops
+  - feature-stores
+  - feast
+  - feature-engineering
+  - point-in-time
+prerequisites:
+  - mlops-04-data-pipelines
+knowledge_refs:
+  - mlops-04-data-pipelines
+    title: "Data Pipelines"
+  - mlops-06-experiment-tracking
+    title: "Experiment Tracking"
+  - mlops-10-model-serving
+    title: "Model Serving APIs"
+references:
+  - title: "Feast — Point-in-Time Joins"
+    url: "https://docs.feast.dev/getting-started/concepts/point-in-time-joins"
+  - title: "Feast — Introduction"
+    url: "https://docs.feast.dev/"
+  - title: "Tecton Concepts"
+    url: "https://docs.tecton.ai/docs/0.9/introduction/tecton-concepts"
+  - title: "Databricks — Point-in-Time Feature Joins"
+    url: "https://docs.databricks.com/aws/en/machine-learning/feature-store/time-series"
+  - title: "Databricks Blog — What Is a Feature Store?"
+    url: "https://www.databricks.com/blog/what-feature-store-complete-guide-ml-feature-engineering"
 ---
 
-# MLOPS-05-FEATURE-STORES: Feature Stores
+## Feature Stores
 
-## Introduction
+A feature store is the centralized infrastructure layer that provides a single source of truth for defining, storing, and serving ML features. It eliminates feature duplication, prevents train-serve skew, and enables feature reuse across teams and models.
 
-One source of truth for features: consistent online and offline features. By the end of this lesson you will be able to: Explain the feature store concept; Describe online vs offline features; Avoid train-serve skew; Register and reuse features.
+### The Problem Feature Stores Solve
 
-## Key Concepts
+Without a feature store:
+- Data scientists write custom feature extraction code for each model
+- Training uses one feature computation; serving uses another
+- Feature logic is duplicated across notebooks and production code
+- No one knows which features exist or how they're computed
 
-### 1. Explain the feature store concept
+A feature store standardizes feature definitions as code, stores them centrally, and serves them consistently for both training and real-time inference.
 
-Target: Explain the feature store concept. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+### Online vs. Offline Features
 
-```python
-feature = {
-    "name": "user_7d_spend",
-    "offline": "batch job",
-    "online": "redis lookup",
-}
-print(feature)
-```
-### 2. Describe online vs offline features
+**Offline feature store:** Optimized for batch processing and historical analytics. Stores months or years of historical feature data for model training and backfilling. Powered by data warehouses (Snowflake, BigQuery, Delta Lake).
 
-Target: Describe online vs offline features. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+**Online feature store:** Designed for real-time, low-latency lookups (<10ms). Holds the latest pre-computed feature values for production inference. Powered by key-value stores (Redis, DynamoDB).
 
-```python
-import redis
+Most feature stores maintain both, with automatic synchronization between them.
 
-r = redis.Redis()
-r.set("user:42:7d_spend", "129.5")
-print("online feature:", r.get("user:42:7d_spend"))
-```
-### 3. Avoid train-serve skew
+### Point-in-Time Correctness
 
-Target: Avoid train-serve skew. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+Point-in-time correctness ensures training data reflects the exact feature values available at the moment each observation was recorded. Without this, future values leak into training data (data leakage), creating overly optimistic metrics that collapse in production.
 
-```python
-print("same code computes offline and online features -> no skew")
-```
-### 4. Register and reuse features
+Feature stores execute temporal joins that look backward from each event timestamp to find the most recent valid feature state — preventing leakage automatically.
 
-Target: Register and reuse features. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+### Leading Tools
 
-```python
-import feast
+**Feast:** Open-source, lightweight, works on top of existing data infrastructure. Good for teams with existing data warehouses.
 
-store = feast.FeatureStore("feature_repo")
-print("feature store ready")
-```
+**Tecton:** Enterprise-grade, manages full feature pipelines as code, includes streaming and batch orchestration, lineage tracking, and monitoring.
 
-## Practice Questions
+### Common Mistakes
 
-1. What is the key idea behind "Feature Stores"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+- **No feature store:** Teams duplicate feature logic across models, creating inconsistency and technical debt.
+- **Ignoring online/offline parity:** Features computed differently in training vs. serving cause silent model failures.
+- **No point-in-time correctness:** Training on future data produces models that fail in production.
+- **Not versioning features:** Feature definitions should be versioned like code.
 
-## LLM Prompts for Deeper Understanding
+---
 
-1. "Explain Feature Stores with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Feature Stores"
-1. "Provide advanced patterns and performance considerations for Feature Stores"
-
-## Key Takeaways
-
-- Master the core ideas of Feature Stores through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
-
-## Further Reading
-
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+*Continue to learn about experiment tracking — logging every training run's parameters and metrics.*

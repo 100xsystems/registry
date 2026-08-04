@@ -1,125 +1,82 @@
 ---
-{
-  "title": "Model Packaging & Serialization",
-  "description": "Wrap models into portable artifacts: pickle, ONNX, and MLflow models.",
-  "type": "lesson",
-  "order": 9,
-  "duration": "50 min",
-  "difficulty": "intermediate",
-  "learning_objectives": [
-    "Serialize models safely",
-    "Export to ONNX for portability",
-    "Define a serving signature",
-    "Avoid pickle pitfalls"
-  ],
-  "knowledge_refs": [
-    "mlops/mlops-08-training-at-scale",
-    "generative-ai/genai-18-llmops",
-    "llm-engineering/llm-20-llmops-tooling"
-  ],
-  "prerequisites": [
-    "MLOPS-07: Model Registry"
-  ],
-  "references": [
-    {
-      "title": "MLflow Documentation",
-      "url": "https://mlflow.org/docs/latest/index.html",
-      "description": "Tracking, registries and serving for the ML lifecycle."
-    },
-    {
-      "title": "Kubeflow Documentation",
-      "url": "https://www.kubeflow.org/docs/",
-      "description": "Kubernetes-native ML workflows."
-    },
-    {
-      "title": "DVC Documentation",
-      "url": "https://dvc.org/doc",
-      "description": "Data version control for reproducible ML pipelines."
-    },
-    {
-      "title": "The ML Engineer — Chip Huyen",
-      "url": "https://www.oreilly.com/library/view/introduction-to-machine/9781098119478/",
-      "description": "The reference book on building ML systems in production."
-    },
-    {
-      "title": "Google MLOps Whitepaper",
-      "url": "https://cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning",
-      "description": "The canonical description of MLOps levels and practices."
-    }
-  ]
-}
+slug: mlops-09-model-packaging
+title: "Model Packaging & Serialization"
+description: "Converting trained models into deployable artifacts — ONNX, pickle, SavedModel, TorchScript, and containerized serving."
+order: 9
+tags:
+  - mlops
+  - model-packaging
+  - onnx
+  - serialization
+  - containerization
+prerequisites:
+  - mlops-08-training-at-scale
+knowledge_refs:
+  - mlops-08-training-at-scale
+    title: "Training at Scale"
+  - mlops-10-model-serving
+    title: "Model Serving APIs"
+  - mlops-11-containerization
+    title: "Containerization with Docker"
+references:
+  - title: "ONNX Runtime Documentation"
+    url: "https://onnxruntime.ai/docs/"
+  - title: "PyTorch — TorchScript"
+    url: "https://pytorch.org/docs/stable/jit.html"
+  - title: "TensorFlow — SavedModel Format"
+    url: "https://www.tensorflow.org/guide/saved_model"
+  - title: "Scikit-learn — Model Persistence"
+    url: "https://scikit-learn.org/stable/model_persistence.html"
+  - title: "MLflow — Model Flavor Documentation"
+    url: "https://mlflow.org/docs/latest/ml/models.html"
 ---
 
-# MLOPS-09-MODEL-PACKAGING: Model Packaging & Serialization
+## Model Packaging & Serialization
 
-## Introduction
+A trained model in memory isn't deployable. Model packaging converts it into a format that can be saved, loaded, transported, and served efficiently across different environments.
 
-Wrap models into portable artifacts: pickle, ONNX, and MLflow models. By the end of this lesson you will be able to: Serialize models safely; Export to ONNX for portability; Define a serving signature; Avoid pickle pitfalls.
+### Why Packaging Matters
 
-## Key Concepts
+- **Portability:** The model must run on different hardware and platforms
+- **Performance:** Serialized formats enable optimized inference
+- **Dependency management:** The package must include everything needed for inference
+- **Versioning:** Packages are the artifacts that get versioned and promoted
 
-### 1. Serialize models safely
+### Common Formats
 
-Target: Serialize models safely. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+**Pickle/joblib (Python):** Simple serialization for scikit-learn models. Quick to implement but Python-specific and not secure against malicious payloads.
 
-```python
-import pickle
+**ONNX (Open Neural Network Exchange):** Framework-agnostic format. Train in PyTorch, deploy with ONNX Runtime on any platform. Enables optimization passes and hardware-specific acceleration.
 
-model = {"type": "linear", "weights": [0.5, -0.2]}
-with open("model.pkl", "wb") as fh:
-    pickle.dump(model, fh)
-print("pickled")
-```
-### 2. Export to ONNX for portability
+**TensorFlow SavedModel:** Complete TensorFlow model with weights, computation graph, and metadata. Native format for TensorFlow Serving.
 
-Target: Export to ONNX for portability. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+**TorchScript:** PyTorch's deployment format. Traces or scripts the model to create a standalone representation that runs without Python dependencies.
 
-```python
-import torch
-import torch.onnx
+**MLflow Model Flavors:** Wraps models with metadata (conda environment, dependencies, signature) for reproducible deployment across platforms.
 
-model = torch.nn.Linear(4, 2)
-torch.onnx.export(model, torch.randn(1, 4), "model.onnx")
-print("exported to ONNX")
-```
-### 3. Define a serving signature
+### Choosing a Format
 
-Target: Define a serving signature. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+| Format | Best For | Framework |
+|---|---|---|
+| **Pickle** | Quick prototyping | scikit-learn |
+| **ONNX** | Cross-framework deployment | Any |
+| **SavedModel** | TensorFlow Serving | TensorFlow |
+| **TorchScript** | PyTorch production | PyTorch |
+| **MLflow** | MLOps integration | Any |
 
-```python
-import mlflow
+### Best Practices
 
-mlflow.sklearn.save_model(model, "model_dir", input_example=[1.0, 2.0])
-print("mlflow model with signature")
-```
-### 4. Avoid pickle pitfalls
+- **Test the packaged model:** Load it in a clean environment and verify predictions match training.
+- **Freeze the environment:** Pin all dependencies in the package.
+- **Include metadata:** Model signature, training data version, evaluation metrics.
+- **Optimize for inference:** Remove training-only layers, quantize weights, optimize graph.
 
-Target: Avoid pickle pitfalls. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+### Common Mistakes
 
-```python
-import numpy as np
+- **Using pickle for production:** Pickle is insecure and not cross-language. Use ONNX or framework-specific formats.
+- **Not testing the package:** Models that work in training notebooks may fail when loaded in a different environment.
+- **Missing dependencies:** Forgetting to include preprocessing steps or custom layers in the package.
 
-print("pickle runs arbitrary code on load: only trust your own artifacts")
-```
+---
 
-## Practice Questions
-
-1. What is the key idea behind "Model Packaging & Serialization"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
-
-## LLM Prompts for Deeper Understanding
-
-1. "Explain Model Packaging & Serialization with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Model Packaging & Serialization"
-1. "Provide advanced patterns and performance considerations for Model Packaging & Serialization"
-
-## Key Takeaways
-
-- Master the core ideas of Model Packaging & Serialization through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
-
-## Further Reading
-
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+*Continue to learn about model serving — deploying models as APIs for real-time and batch inference.*

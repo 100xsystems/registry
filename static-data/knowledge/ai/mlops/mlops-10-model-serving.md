@@ -1,130 +1,80 @@
 ---
-{
-  "title": "Model Serving APIs",
-  "description": "Expose models over HTTP with FastAPI and MLflow serving — with proper request validation.",
-  "type": "lesson",
-  "order": 10,
-  "duration": "60 min",
-  "difficulty": "intermediate",
-  "learning_objectives": [
-    "Build a FastAPI inference endpoint",
-    "Define request and response schemas",
-    "Handle batching and timeouts",
-    "Measure latency correctly"
-  ],
-  "knowledge_refs": [
-    "mlops/mlops-09-model-packaging",
-    "llm-engineering/llm-15-llm-serving",
-    "generative-ai/genai-18-llmops"
-  ],
-  "prerequisites": [
-    "MLOPS-09: Model Packaging & Serialization"
-  ],
-  "references": [
-    {
-      "title": "MLflow Documentation",
-      "url": "https://mlflow.org/docs/latest/index.html",
-      "description": "Tracking, registries and serving for the ML lifecycle."
-    },
-    {
-      "title": "Kubeflow Documentation",
-      "url": "https://www.kubeflow.org/docs/",
-      "description": "Kubernetes-native ML workflows."
-    },
-    {
-      "title": "DVC Documentation",
-      "url": "https://dvc.org/doc",
-      "description": "Data version control for reproducible ML pipelines."
-    },
-    {
-      "title": "The ML Engineer — Chip Huyen",
-      "url": "https://www.oreilly.com/library/view/introduction-to-machine/9781098119478/",
-      "description": "The reference book on building ML systems in production."
-    },
-    {
-      "title": "Google MLOps Whitepaper",
-      "url": "https://cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning",
-      "description": "The canonical description of MLOps levels and practices."
-    }
-  ]
-}
+slug: mlops-10-model-serving
+title: "Model Serving APIs"
+description: "Deploying models as APIs — REST vs gRPC, TensorFlow Serving, Triton, BentoML, and batch vs real-time serving."
+order: 10
+tags:
+  - mlops
+  - model-serving
+  - rest-api
+  - grpc
+  - tensorflow-serving
+  - triton
+prerequisites:
+  - mlops-09-model-packaging
+knowledge_refs:
+  - mlops-09-model-packaging
+    title: "Model Packaging & Serialization"
+  - mlops-13-deployment-strategies
+    title: "Model Deployment Strategies"
+  - mlops-14-monitoring-and-drift
+    title: "Monitoring & Drift Detection"
+references:
+  - title: "TensorFlow Serving Documentation"
+    url: "https://www.tensorflow.org/tfx/guide/serving"
+  - title: "NVIDIA Triton Inference Server"
+    url: "https://github.com/triton-inference-server/server"
+  - title: "BentoML Documentation"
+    url: "https://docs.bentoml.com/"
+  - title: "Seldon Core Documentation"
+    url: "https://docs.seldon.io/projects/seldon-core/en/latest/"
+  - title: "Google Cloud — Model Serving"
+    url: "https://cloud.google.com/vertex-ai/docs/predictions/getting-predictions"
 ---
 
-# MLOPS-10-MODEL-SERVING: Model Serving APIs
+## Model Serving APIs
 
-## Introduction
+Model serving is the process of making trained models available for inference via APIs. The serving architecture determines latency, throughput, cost, and reliability.
 
-Expose models over HTTP with FastAPI and MLflow serving — with proper request validation. By the end of this lesson you will be able to: Build a FastAPI inference endpoint; Define request and response schemas; Handle batching and timeouts; Measure latency correctly.
+### Real-Time vs. Batch Serving
 
-## Key Concepts
+**Real-time serving:** Models respond to individual requests within milliseconds. Used for recommendations, search ranking, fraud detection, chatbots. Requires low-latency infrastructure.
 
-### 1. Build a FastAPI inference endpoint
+**Batch serving:** Models process large datasets offline. Used for nightly scoring, report generation, data enrichment. Can optimize for throughput over latency.
 
-Target: Build a FastAPI inference endpoint. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+**Streaming serving:** Models process data in real-time streams. Used for live analytics, IoT processing, real-time monitoring.
 
-```python
-from fastapi import FastAPI
-from pydantic import BaseModel
+### Serving Protocols
 
-app = FastAPI()
+**REST APIs:** JSON-based, human-readable, widely supported. Easy to debug and test. Higher overhead per request.
 
-class PredictRequest(BaseModel):
-    features: list[float]
+**gRPC:** Binary protocol, lower latency, higher throughput. Better for high-performance serving. Uses Protocol Buffers for serialization.
 
-@app.post("/predict")
-def predict(req: PredictRequest):
-    return {"score": sum(req.features) * 0.5}
+### Serving Platforms
 
-print("endpoint ready")
-```
-### 2. Define request and response schemas
+**TensorFlow Serving:** Production-grade server for TensorFlow models. Supports model versioning, batching, and gRPC/REST endpoints. Best for TensorFlow-heavy stacks.
 
-Target: Define request and response schemas. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+**NVIDIA Triton Inference Server:** Multi-framework (PyTorch, TensorFlow, ONNX, TensorRT). Supports dynamic batching, concurrent model execution, and GPU optimization. The most versatile option.
 
-```python
-import numpy as np
+**BentoML:** Python-first framework for wrapping models as production services. Provides Docker packaging, API definitions, and deployment to Kubernetes or cloud. Best for teams wanting Python-native workflows.
 
-# Batch: process many requests in one model call
-batch = np.array([[1.0, 2.0], [3.0, 4.0]])
-print("batch shape:", batch.shape)
-```
-### 3. Handle batching and timeouts
+**Seldon Core:** Kubernetes-native platform for deploying ML models. Supports complex inference graphs (multiple models chained together).
 
-Target: Handle batching and timeouts. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+### Best Practices
 
-```python
-import time
+- **Implement health checks:** `/health` endpoints for load balancers
+- **Add request validation:** Validate inputs before they reach the model
+- **Enable batching:** Batch multiple requests together for GPU efficiency
+- **Set timeouts:** Prevent slow requests from blocking the queue
+- **Monitor latency:** Track p50, p95, p99 latencies
 
-# Latency percentiles matter more than the mean
-lat = [10, 12, 90, 11, 13]
-print("p50:", sorted(lat)[len(lat) // 2], "p95:", sorted(lat)[int(0.95 * len(lat))])
-```
-### 4. Measure latency correctly
+### Common Mistakes
 
-Target: Measure latency correctly. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+- **No input validation:** Invalid inputs can crash the server or produce garbage outputs
+- **Ignoring batching:** Single-request inference wastes GPU capacity
+- **No health checks:** Load balancers can't detect failed instances
+- **Over-engineering:** Start with a simple API before building complex inference graphs
 
-```python
-print("timeout + retry logic protects the service")
-```
+---
 
-## Practice Questions
-
-1. What is the key idea behind "Model Serving APIs"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
-
-## LLM Prompts for Deeper Understanding
-
-1. "Explain Model Serving APIs with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Model Serving APIs"
-1. "Provide advanced patterns and performance considerations for Model Serving APIs"
-
-## Key Takeaways
-
-- Master the core ideas of Model Serving APIs through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
-
-## Further Reading
-
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+*Continue to learn about containerization — packaging ML applications with Docker.*

@@ -1,116 +1,91 @@
 ---
-{
-  "title": "Data & Model Governance",
-  "description": "Auditability, access control and compliance for ML assets.",
-  "type": "lesson",
-  "order": 18,
-  "duration": "50 min",
-  "difficulty": "advanced",
-  "learning_objectives": [
-    "Record model cards and lineage",
-    "Control access to data and models",
-    "Meet audit requirements",
-    "Document decisions"
-  ],
-  "knowledge_refs": [
-    "mlops/mlops-17-testing-ml-systems",
-    "generative-ai/genai-18-llmops",
-    "llm-engineering/llm-20-llmops-tooling"
-  ],
-  "prerequisites": [
-    "MLOPS-03: Reproducibility & Versioning"
-  ],
-  "references": [
-    {
-      "title": "MLflow Documentation",
-      "url": "https://mlflow.org/docs/latest/index.html",
-      "description": "Tracking, registries and serving for the ML lifecycle."
-    },
-    {
-      "title": "Kubeflow Documentation",
-      "url": "https://www.kubeflow.org/docs/",
-      "description": "Kubernetes-native ML workflows."
-    },
-    {
-      "title": "DVC Documentation",
-      "url": "https://dvc.org/doc",
-      "description": "Data version control for reproducible ML pipelines."
-    },
-    {
-      "title": "The ML Engineer — Chip Huyen",
-      "url": "https://www.oreilly.com/library/view/introduction-to-machine/9781098119478/",
-      "description": "The reference book on building ML systems in production."
-    },
-    {
-      "title": "Google MLOps Whitepaper",
-      "url": "https://cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning",
-      "description": "The canonical description of MLOps levels and practices."
-    }
-  ]
-}
+slug: mlops-18-governance
+title: "Data & Model Governance"
+description: "Ensuring compliance and accountability — governance frameworks, data lineage, audit trails, and access control for ML."
+order: 18
+tags:
+  - mlops
+  - governance
+  - compliance
+  - audit-trails
+  - access-control
+prerequisites:
+  - mlops-04-data-pipelines
+knowledge_refs:
+  - mlops-04-data-pipelines
+    title: "Data Pipelines"
+  - mlops-07-model-registry
+    title: "Model Registry"
+  - safety-08-governance
+    title: "AI Governance & Policy"
+references:
+  - title: "ISO/IEC 42001:2023 — AI Management System"
+    url: "https://www.iso.org/standard/42001"
+  - title: "NIST AI Risk Management Framework"
+    url: "https://www.nist.gov/itl/ai-risk-management-framework"
+  - title: "CSA — AICM Auditing Guidelines for Model Providers"
+    url: "https://cloudsecurityalliance.org/artifacts/aicmv1-1-auditing-guidelines-for-model-providers-mp"
+  - title: "AWS — AI Lifecycle Risk Management with ISO 42001"
+    url: "https://aws.amazon.com/blogs/security/ai-lifecycle-risk-management-iso-iec-420012023-for-ai-governance/"
+  - title: "SureCloud — NIST AI RMF vs ISO 42001"
+    url: "https://www.surecloud.com/blog-hub/nist-ai-rmf-vs-iso-42001"
 ---
 
-# MLOPS-18-GOVERNANCE: Data & Model Governance
+## Data & Model Governance
 
-## Introduction
+Governance ensures ML systems are accountable, compliant, and trustworthy. It defines who can build, approve, and deploy models — and proves they did so responsibly.
 
-Auditability, access control and compliance for ML assets. By the end of this lesson you will be able to: Record model cards and lineage; Control access to data and models; Meet audit requirements; Document decisions.
+### Why Governance Matters
 
-## Key Concepts
+**Regulatory compliance:** The EU AI Act, GDPR, and sector-specific regulations require documentation and audit trails for AI systems.
 
-### 1. Record model cards and lineage
+**Accountability:** When AI causes harm, governance frameworks establish who is responsible.
 
-Target: Record model cards and lineage. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+**Trust:** Customers, regulators, and partners need evidence that AI systems are well-managed.
 
-```python
-model_card = {
-    "owner": "fraud-team",
-    "intended_use": "transaction scoring",
-    "limitations": "trained on EU data",
-    "version": "2.1.0",
-}
-print(model_card)
-```
-### 2. Control access to data and models
+### Governance Frameworks
 
-Target: Control access to data and models. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+**ISO/IEC 42001:2023:** The first certifiable AI management system standard. Plan-Do-Check-Act cycle with 38 controls. Requires formal leadership commitments, named owners, and documented risk assessments.
 
-```python
-print("every prediction traceable to a model version")
-```
-### 3. Meet audit requirements
+**NIST AI RMF:** Voluntary framework with four functions — Govern, Map, Measure, Manage. Focuses on risk identification, assessment, and mitigation.
 
-Target: Meet audit requirements. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+### Data Lineage
 
-```python
-print("role-based access: analysts read, engineers deploy")
-```
-### 4. Document decisions
+ML systems depend on data quality and provenance. Lineage tracking records:
+- Where data came from (source systems)
+- How it was transformed (feature engineering code)
+- Which models used it (training data versions)
+- How it was validated (quality checks)
 
-Target: Document decisions. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+Tools like MLflow, Delta Lake, and data catalogs provide lineage tracking.
 
-```python
-print("audit log: who changed what, when, why")
-```
+### Audit Trails
 
-## Practice Questions
+Regulated environments require tamper-proof logs of:
+- Every model version registered and deployed
+- Every training run and its inputs/outputs
+- Every prediction served and its context
+- Every access to model artifacts and data
 
-1. What is the key idea behind "Data & Model Governance"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+Use append-only logs and cloud audit services (AWS CloudTrail, GCP Audit Logs).
 
-## LLM Prompts for Deeper Understanding
+### Access Control
 
-1. "Explain Data & Model Governance with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Data & Model Governance"
-1. "Provide advanced patterns and performance considerations for Data & Model Governance"
+**Role-based access control (RBAC):** Restrict who can:
+- Train models (data scientists)
+- Register models (ML engineers)
+- Deploy to production (MLOps engineers)
+- Access sensitive data (data engineers)
 
-## Key Takeaways
+**Least privilege:** Give each role only the permissions it needs.
 
-- Master the core ideas of Data & Model Governance through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+### Common Mistakes
 
-## Further Reading
+- **No governance:** Without governance, you can't demonstrate compliance.
+- **Paper governance:** Documents that exist but aren't followed are worthless.
+- **Ignoring lineage:** Without data lineage, you can't audit model behavior.
+- **Overly restrictive access:** Governance shouldn't block legitimate work.
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+---
+
+*Continue to learn about cost and performance optimization — making ML systems efficient.*

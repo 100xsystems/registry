@@ -1,117 +1,77 @@
 ---
-{
-  "title": "Kubernetes Basics for ML",
-  "description": "Orchestrate containers: pods, deployments, services and autoscaling.",
-  "type": "lesson",
-  "order": 12,
-  "duration": "55 min",
-  "difficulty": "advanced",
-  "learning_objectives": [
-    "Describe pods, deployments and services",
-    "Deploy a model service",
-    "Autoscale based on load",
-    "Manage GPU resources"
-  ],
-  "knowledge_refs": [
-    "mlops/mlops-11-containerization",
-    "generative-ai/genai-18-llmops",
-    "llm-engineering/llm-20-llmops-tooling"
-  ],
-  "prerequisites": [
-    "MLOPS-11: Containerization with Docker"
-  ],
-  "references": [
-    {
-      "title": "MLflow Documentation",
-      "url": "https://mlflow.org/docs/latest/index.html",
-      "description": "Tracking, registries and serving for the ML lifecycle."
-    },
-    {
-      "title": "Kubeflow Documentation",
-      "url": "https://www.kubeflow.org/docs/",
-      "description": "Kubernetes-native ML workflows."
-    },
-    {
-      "title": "DVC Documentation",
-      "url": "https://dvc.org/doc",
-      "description": "Data version control for reproducible ML pipelines."
-    },
-    {
-      "title": "The ML Engineer — Chip Huyen",
-      "url": "https://www.oreilly.com/library/view/introduction-to-machine/9781098119478/",
-      "description": "The reference book on building ML systems in production."
-    },
-    {
-      "title": "Google MLOps Whitepaper",
-      "url": "https://cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning",
-      "description": "The canonical description of MLOps levels and practices."
-    }
-  ]
-}
+slug: mlops-12-kubernetes-basics
+title: "Kubernetes Basics for ML"
+description: "Orchestrating ML workloads with Kubernetes — pods, deployments, services, GPU scheduling, and Helm charts."
+order: 12
+tags:
+  - mlops
+  - kubernetes
+  - orchestration
+  - gpu-scheduling
+  - helm
+prerequisites:
+  - mlops-11-containerization
+knowledge_refs:
+  - mlops-11-containerization
+    title: "Containerization with Docker"
+  - mlops-13-deployment-strategies
+    title: "Model Deployment Strategies"
+  - mlops-18-governance
+    title: "Data & Model Governance"
+references:
+  - title: "Kubernetes Documentation"
+    url: "https://kubernetes.io/docs/home/"
+  - title: "Kubeflow — ML on Kubernetes"
+    url: "https://www.kubeflow.org/docs/"
+  - title: "KServe — Kubernetes-based Model Serving"
+    url: "https://kserve.github.io/website/"
+  - title: "NVIDIA GPU Operator for Kubernetes"
+    url: "https://docs.nvidia.com/datacenter/cloud-native/gpu-operator/"
+  - title: "Helm — Kubernetes Package Manager"
+    url: "https://helm.sh/docs/"
 ---
 
-# MLOPS-12-KUBERNETES-BASICS: Kubernetes Basics for ML
+## Kubernetes Basics for ML
 
-## Introduction
+Kubernetes (K8s) is the industry standard for container orchestration. For ML, it provides scalable, reliable infrastructure for training, serving, and monitoring models.
 
-Orchestrate containers: pods, deployments, services and autoscaling. By the end of this lesson you will be able to: Describe pods, deployments and services; Deploy a model service; Autoscale based on load; Manage GPU resources.
+### Core Kubernetes Concepts
 
-## Key Concepts
+**Pod:** The smallest deployable unit. Contains one or more containers sharing network and storage. An ML serving pod typically runs one model server container.
 
-### 1. Describe pods, deployments and services
+**Deployment:** Manages pod replicas, rolling updates, and rollouts. Ensures the desired number of pods are running.
 
-Target: Describe pods, deployments and services. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+**Service:** Provides stable networking for pods. A LoadBalancer service exposes your model API to external traffic.
 
-```python
-manifest = {
-    "kind": "Deployment",
-    "spec": {"replicas": 2, "image": "my-model:1.2"},
-}
-print(manifest)
-```
-### 2. Deploy a model service
+**Namespace:** Isolates resources within a cluster. Use namespaces to separate training, serving, and monitoring environments.
 
-Target: Deploy a model service. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+### GPU Scheduling
 
-```python
-import yaml
+Kubernetes can schedule GPU workloads using the NVIDIA GPU Operator:
+- Install the GPU Operator to manage NVIDIA drivers and device plugins
+- Request GPUs in pod specs: `resources.limits.nvidia.com/gpu: 1`
+- Use node selectors to target GPU nodes
 
-service = {"kind": "Service", "spec": {"selector": {"app": "model"}, "ports": [{"port": 80}]}}
-print(service)
-```
-### 3. Autoscale based on load
+### ML-Specific Tools
 
-Target: Autoscale based on load. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+**Kubeflow:** End-to-end ML platform on Kubernetes. Provides pipelines, training operators, and model serving.
 
-```python
-print("HorizontalPodAutoscaler scales replicas by CPU")
-```
-### 4. Manage GPU resources
+**KServe:** Kubernetes-native model serving. Supports TensorFlow, PyTorch, ONNX, and custom models. Provides canary deployments, autoscaling, and explainability.
 
-Target: Manage GPU resources. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+### Helm Charts
 
-```python
-print("nodeSelector + limits: pin pods to GPU nodes")
-```
+Helm packages Kubernetes manifests into reusable charts:
+- Parameterize deployments (image tags, resource requests, environment variables)
+- Version and share configurations
+- Deploy complex ML stacks with a single command
 
-## Practice Questions
+### Common Mistakes
 
-1. What is the key idea behind "Kubernetes Basics for ML"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+- **No resource limits:** Pods without CPU/GPU limits can consume all cluster resources.
+- **Ignoring autoscaling:** ML serving workloads are bursty. HPA (Horizontal Pod Autoscaler) handles traffic spikes.
+- **No health checks:** Kubernetes can't replace failed pods without liveness and readiness probes.
+- **Over-complicating:** Start simple. Not every ML workload needs Kubernetes.
 
-## LLM Prompts for Deeper Understanding
+---
 
-1. "Explain Kubernetes Basics for ML with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Kubernetes Basics for ML"
-1. "Provide advanced patterns and performance considerations for Kubernetes Basics for ML"
-
-## Key Takeaways
-
-- Master the core ideas of Kubernetes Basics for ML through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
-
-## Further Reading
-
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+*Continue to learn about deployment strategies — canary, blue-green, and shadow deployments.*

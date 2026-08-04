@@ -1,126 +1,78 @@
 ---
-{
-  "title": "Training at Scale",
-  "description": "Move from notebooks to managed training jobs with reproducible configs.",
-  "type": "lesson",
-  "order": 8,
-  "duration": "50 min",
-  "difficulty": "intermediate",
-  "learning_objectives": [
-    "Package training as a script with configs",
-    "Use distributed training",
-    "Leverage managed training platforms",
-    "Track resource usage and cost"
-  ],
-  "knowledge_refs": [
-    "mlops/mlops-07-model-registry",
-    "deep-learning/dl-19-training-at-scale",
-    "generative-ai/genai-18-llmops"
-  ],
-  "prerequisites": [
-    "MLOPS-06: Experiment Tracking"
-  ],
-  "references": [
-    {
-      "title": "MLflow Documentation",
-      "url": "https://mlflow.org/docs/latest/index.html",
-      "description": "Tracking, registries and serving for the ML lifecycle."
-    },
-    {
-      "title": "Kubeflow Documentation",
-      "url": "https://www.kubeflow.org/docs/",
-      "description": "Kubernetes-native ML workflows."
-    },
-    {
-      "title": "DVC Documentation",
-      "url": "https://dvc.org/doc",
-      "description": "Data version control for reproducible ML pipelines."
-    },
-    {
-      "title": "The ML Engineer — Chip Huyen",
-      "url": "https://www.oreilly.com/library/view/introduction-to-machine/9781098119478/",
-      "description": "The reference book on building ML systems in production."
-    },
-    {
-      "title": "Google MLOps Whitepaper",
-      "url": "https://cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning",
-      "description": "The canonical description of MLOps levels and practices."
-    }
-  ]
-}
+slug: mlops-08-training-at-scale
+title: "Training at Scale"
+description: "Distributed training, GPU clusters, training orchestration, and cost-efficient approaches to large-scale model training."
+order: 8
+tags:
+  - mlops
+  - distributed-training
+  - gpu
+  - kubeflow
+  - sagemaker
+  - cost-efficiency
+prerequisites:
+  - mlops-07-model-registry
+knowledge_refs:
+  - mlops-07-model-registry
+    title: "Model Registry"
+  - mlops-19-cost-and-performance
+    title: "Cost & Performance Optimization"
+  - mlops-11-containerization
+    title: "Containerization with Docker"
+references:
+  - title: "AWS SageMaker — Distributed Training"
+    url: "https://docs.aws.amazon.com/sagemaker/latest/dg/distributed-training.html"
+  - title: "AWS SageMaker — Distributed Training Strategies"
+    url: "https://docs.aws.amazon.com/sagemaker/latest/dg/distributed-training-strategies.html"
+  - title: "Kubeflow Trainer Overview"
+    url: "https://www.kubeflow.org/docs/components/trainer/overview/"
+  - title: "Optimizing Training Workloads for GPU Clusters"
+    url: "https://www.together.ai/blog/optimizing-training-workloads-for-gpu-clusters"
+  - title: "AWS SageMaker — Distributed Computing Best Practices"
+    url: "https://docs.aws.amazon.com/sagemaker/latest/dg/distributed-training-options.html"
 ---
 
-# MLOPS-08-TRAINING-AT-SCALE: Training at Scale
+## Training at Scale
 
-## Introduction
+When models are too large for a single GPU or datasets too big for one machine, distributed training splits the work across multiple devices. This lesson covers the strategies, infrastructure, and cost considerations for training at scale.
 
-Move from notebooks to managed training jobs with reproducible configs. By the end of this lesson you will be able to: Package training as a script with configs; Use distributed training; Leverage managed training platforms; Track resource usage and cost.
+### Distributed Training Strategies
 
-## Key Concepts
+**Data parallelism:** The dataset is split across GPUs. Each worker holds a complete model copy, processes a different mini-batch, and synchronizes gradients via AllReduce. This is the most common strategy and works well when the model fits in a single GPU's memory.
 
-### 1. Package training as a script with configs
+**Model parallelism:** The model itself is split across GPUs. Each worker holds a portion of the model's layers. This is necessary when the model is too large for one GPU (common with large language models).
 
-Target: Package training as a script with configs. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+**Pipeline parallelism:** A form of model parallelism where different model stages run on different GPUs simultaneously using micro-batches, reducing idle time.
 
-```python
-import torch
-import torch.nn as nn
+### GPU Clusters
 
-torch.distributed.init_process_group(backend="nccl")
-print("distributed init done")
-```
-### 2. Use distributed training
+**Interconnects matter:** NVLink (intra-node) and InfiniBand (inter-node) determine how fast gradients synchronize. Slow interconnects become the bottleneck.
 
-Target: Use distributed training. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+**Hardware validation:** Before training, verify GPU health (no ECC errors), check communication topology, and run NCCL tests.
 
-```python
-import dataclasses
+**Data pipelines:** Pre-stage datasets to node-local NVMe storage. CPU preprocessing bottlenecks starve GPUs.
 
-@dataclasses.dataclass
-class TrainConfig:
-    lr: float = 1e-3
-    epochs: int = 10
-    batch_size: int = 64
+### Training Orchestration
 
-cfg = TrainConfig()
-print(cfg)
-```
-### 3. Leverage managed training platforms
+**Kubeflow Trainer:** Kubernetes-native. Orchestrates distributed training across PyTorch, TensorFlow, DeepSpeed. Integrates with Kueue for priority scheduling.
 
-Target: Leverage managed training platforms. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+**SageMaker Training:** Managed service. Abstracts infrastructure via Deep Learning Containers. Supports data parallelism, model parallelism, and automatic hyperparameter tuning.
 
-```python
-import torch
+### Cost-Efficient Training
 
-model = nn.DataParallel(nn.Linear(64, 10))
-print("data-parallel training")
-```
-### 4. Track resource usage and cost
+**Spot instances:** Use preemptible GPUs (30–50% savings) with robust checkpointing to handle preemptions.
 
-Target: Track resource usage and cost. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+**Mixed precision:** FP16/BF16 training reduces memory and increases throughput via NVIDIA Tensor Cores.
 
-```python
-print("config files in git -> reproducible training runs")
-```
+**Right-sizing:** Benchmark on small clusters first. Find optimal batch size and GPU count before scaling up.
 
-## Practice Questions
+### Common Mistakes
 
-1. What is the key idea behind "Training at Scale"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+- **Ignoring interconnects:** Slow networking makes multi-node training inefficient.
+- **No checkpointing:** Spot instances require frequent checkpointing to survive preemptions.
+- **Over-provisioning:** More GPUs isn't always faster. Communication overhead can dominate.
+- **Skipping mixed precision:** FP16 training is nearly free performance with minimal accuracy loss.
 
-## LLM Prompts for Deeper Understanding
+---
 
-1. "Explain Training at Scale with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Training at Scale"
-1. "Provide advanced patterns and performance considerations for Training at Scale"
-
-## Key Takeaways
-
-- Master the core ideas of Training at Scale through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
-
-## Further Reading
-
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+*Continue to learn about model packaging — serializing models for deployment.*

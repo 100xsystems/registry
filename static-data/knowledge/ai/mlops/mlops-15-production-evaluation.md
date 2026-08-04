@@ -1,120 +1,80 @@
 ---
-{
-  "title": "Evaluation in Production",
-  "description": "Estimate quality without labels: sampling, human review, and proxy metrics.",
-  "type": "lesson",
-  "order": 15,
-  "duration": "50 min",
-  "difficulty": "advanced",
-  "learning_objectives": [
-    "Design label sampling strategies",
-    "Use human review pipelines",
-    "Define proxy metrics",
-    "Close the feedback loop"
-  ],
-  "knowledge_refs": [
-    "mlops/mlops-14-monitoring-and-drift",
-    "nlp/nlp-20-evaluation-metrics",
-    "deep-learning/dl-20-evaluating-deep-models"
-  ],
-  "prerequisites": [
-    "MLOPS-14: Monitoring & Drift Detection"
-  ],
-  "references": [
-    {
-      "title": "MLflow Documentation",
-      "url": "https://mlflow.org/docs/latest/index.html",
-      "description": "Tracking, registries and serving for the ML lifecycle."
-    },
-    {
-      "title": "Kubeflow Documentation",
-      "url": "https://www.kubeflow.org/docs/",
-      "description": "Kubernetes-native ML workflows."
-    },
-    {
-      "title": "DVC Documentation",
-      "url": "https://dvc.org/doc",
-      "description": "Data version control for reproducible ML pipelines."
-    },
-    {
-      "title": "The ML Engineer — Chip Huyen",
-      "url": "https://www.oreilly.com/library/view/introduction-to-machine/9781098119478/",
-      "description": "The reference book on building ML systems in production."
-    },
-    {
-      "title": "Google MLOps Whitepaper",
-      "url": "https://cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning",
-      "description": "The canonical description of MLOps levels and practices."
-    }
-  ]
-}
+slug: mlops-15-production-evaluation
+title: "Evaluation in Production"
+description: "Measuring real-world model performance — online evaluation, A/B testing, shadow mode, and production metrics."
+order: 15
+tags:
+  - mlops
+  - evaluation
+  - online-evaluation
+  - ab-testing
+  - production-metrics
+prerequisites:
+  - mlops-14-monitoring-and-drift
+knowledge_refs:
+  - mlops-14-monitoring-and-drift
+    title: "Monitoring & Drift Detection"
+  - mlops-13-deployment-strategies
+    title: "Model Deployment Strategies"
+  - mlops-16-cicd-for-ml
+    title: "CI/CD for Machine Learning"
+references:
+  - title: "Deploying ML Models in Shadow Mode"
+    url: "https://christophergs.com/machine%20learning/2019/03/30/deploying-machine-learning-applications-in-shadow-mode/"
+  - title: "Shadow Mode, Canary Deployments, and A/B Testing for LLMs"
+    url: "https://tianpan.co/blog/2026-04-09-llm-gradual-rollout-shadow-canary-ab-testing"
+  - title: "Canary Model Deployment Guide"
+    url: "https://oneuptime.com/blog/post/2026-01-30-mlops-canary-model-deployment/view"
+  - title: "Model Deployment: Strategies and Use Cases"
+    url: "https://www.qwak.com/post/model-deployment"
+  - title: "ML System Design — Evaluation"
+    url: "https://www.hellointerview.com/learn/ml-system-design/core-concepts/evaluation"
 ---
 
-# MLOPS-15-PRODUCTION-EVALUATION: Evaluation in Production
+## Evaluation in Production
 
-## Introduction
+Offline evaluation on test sets provides a baseline, but production is where truth lives. Real-world dynamics — data drift, user behavior, infrastructure constraints — can't be captured in offline tests.
 
-Estimate quality without labels: sampling, human review, and proxy metrics. By the end of this lesson you will be able to: Design label sampling strategies; Use human review pipelines; Define proxy metrics; Close the feedback loop.
+### Why Online Evaluation Matters
 
-## Key Concepts
+Offline test sets are static. Production is dynamic. A model that scores 95% offline might score 70% in production due to:
+- Distribution shift between training data and real traffic
+- Latency constraints affecting model choice
+- User behavior that differs from test scenarios
+- Feedback loops where model predictions influence future data
 
-### 1. Design label sampling strategies
+### Evaluation Strategies
 
-Target: Design label sampling strategies. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+**Shadow mode:** Run the candidate model alongside production without serving users. Compare predictions offline. Zero risk, but can't measure user impact.
 
-```python
-import numpy as np
+**Canary evaluation:** Route 0.1–5% of traffic to the new model. Monitor error rates, latency, and proxy metrics. Gradually increase if stable.
 
-# Sample predictions for labeling
-preds = np.arange(100)
-stratum = preds % 10
-sample = np.random.default_rng(0).choice(preds, size=20, replace=False)
-print("sampled for review:", sample)
-```
-### 2. Use human review pipelines
+**A/B testing:** Split users into cohorts. Measure business metrics (clicks, conversions, revenue). Requires statistical significance.
 
-Target: Use human review pipelines. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+**Interleaving:** For ranking/recommendation systems, mix results from two models into one list. 10–20× more statistically efficient than A/B testing.
 
-```python
-print("route low-confidence predictions to humans first")
-```
-### 3. Define proxy metrics
+### Production Metrics Stack
 
-Target: Define proxy metrics. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+**Infrastructure metrics:** CPU/GPU utilization, memory, request throughput, latency percentiles (p50, p95, p99).
 
-```python
-import numpy as np
+**ML metrics:** Error rates, refusal rates, drift scores, online accuracy (when labels are available).
 
-# Proxy: clicks approximate quality
-clicks = np.array([1, 0, 1, 1, 0])
-print("click-through rate:", clicks.mean())
-```
-### 4. Close the feedback loop
+**Business metrics:** User retention, click-through rate, task completion, cost per request.
 
-Target: Close the feedback loop. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+### The Feedback Delay Problem
 
-```python
-print("labeled production data becomes the next training set")
-```
+In many domains, ground truth arrives days or weeks later (fraud detection, loan defaults, churn). During this delay, you need proxy metrics:
+- Feature drift as an early warning
+- Prediction drift as a signal
+- Human review of edge cases
 
-## Practice Questions
+### Common Mistakes
 
-1. What is the key idea behind "Evaluation in Production"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+- **Only offline evaluation:** Test sets don't capture production dynamics.
+- **No statistical rigor:** A/B tests need proper sample sizes and significance testing.
+- **Ignoring latency:** A more accurate model that's 10× slower may be worse for users.
+- **No rollback plan:** When production evaluation reveals problems, you need to revert quickly.
 
-## LLM Prompts for Deeper Understanding
+---
 
-1. "Explain Evaluation in Production with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Evaluation in Production"
-1. "Provide advanced patterns and performance considerations for Evaluation in Production"
-
-## Key Takeaways
-
-- Master the core ideas of Evaluation in Production through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
-
-## Further Reading
-
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+*Continue to learn about CI/CD for ML — automating testing and deployment of ML pipelines.*

@@ -1,117 +1,132 @@
 ---
-{
-  "title": "MLOps Roadmap",
-  "description": "Synthesize the course into a plan: build a production ML system and keep improving it.",
-  "type": "lesson",
-  "order": 21,
-  "duration": "40 min",
-  "difficulty": "advanced",
-  "learning_objectives": [
-    "Design an end-to-end production project",
-    "Choose tooling that fits the team",
-    "Plan for monitoring from day one",
-    "Bridge into LLMOps and platform engineering"
-  ],
-  "knowledge_refs": [
-    "mlops/mlops-20-llmops",
-    "generative-ai/genai-18-llmops",
-    "llm-engineering/llm-20-llmops-tooling"
-  ],
-  "prerequisites": [
-    "MLOPS-20: LLMOps"
-  ],
-  "references": [
-    {
-      "title": "MLflow Documentation",
-      "url": "https://mlflow.org/docs/latest/index.html",
-      "description": "Tracking, registries and serving for the ML lifecycle."
-    },
-    {
-      "title": "Kubeflow Documentation",
-      "url": "https://www.kubeflow.org/docs/",
-      "description": "Kubernetes-native ML workflows."
-    },
-    {
-      "title": "DVC Documentation",
-      "url": "https://dvc.org/doc",
-      "description": "Data version control for reproducible ML pipelines."
-    },
-    {
-      "title": "The ML Engineer — Chip Huyen",
-      "url": "https://www.oreilly.com/library/view/introduction-to-machine/9781098119478/",
-      "description": "The reference book on building ML systems in production."
-    },
-    {
-      "title": "Google MLOps Whitepaper",
-      "url": "https://cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning",
-      "description": "The canonical description of MLOps levels and practices."
-    }
-  ]
-}
+slug: mlops-21-roadmap
+title: "MLOps Roadmap"
+description: "Your learning path for MLOps — skills, courses, certifications, career opportunities, and the future of MLOps."
+order: 21
+tags:
+  - mlops
+  - roadmap
+  - career
+  - learning
+  - future
+prerequisites: []
+knowledge_refs:
+  - mlops-01-what-is-mlops
+    title: "What Is MLOps?"
+  - mlops-20-llmops
+    title: "LLMOps"
+  - mlops-16-cicd-for-ml
+    title: "CI/CD for Machine Learning"
+references:
+  - title: "Google Cloud — MLOps Continuous Delivery"
+    url: "https://cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning"
+  - title: "Made With ML — MLOps Course"
+    url: "https://madewithml.com/"
+  - title: "MLOps Zoomcamp"
+    url: "https://github.com/DataTalksClub/mlops-zoomcamp"
+  - title: "AWS Certified Machine Learning Specialty"
+    url: "https://aws.amazon.com/certification/certified-machine-learning-specialty/"
+  - title: "MLOps Community"
+    url: "https://mlops.community/"
 ---
 
-# MLOPS-21-ROADMAP: MLOps Roadmap
+## MLOps Roadmap
 
-## Introduction
+MLOps is one of the fastest-growing roles in AI. This roadmap takes you from foundations to production-ready MLOps engineer.
 
-Synthesize the course into a plan: build a production ML system and keep improving it. By the end of this lesson you will be able to: Design an end-to-end production project; Choose tooling that fits the team; Plan for monitoring from day one; Bridge into LLMOps and platform engineering.
+### Phase 1: Foundations (Weeks 1–4)
 
-## Key Concepts
+**Core skills:**
+- Python proficiency
+- ML basics (training, evaluation, metrics)
+- Git and version control
+- Linux/terminal basics
 
-### 1. Design an end-to-end production project
+**Key courses:**
+- Made With ML (Goku Mohandas) — comprehensive MLOps course
+- MLOps Zoomcamp (DataTalks.Club) — free, project-based
 
-Target: Design an end-to-end production project. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+### Phase 2: Core MLOps (Months 2–3)
 
-```python
-plan = {
-    1: "track experiments with MLflow",
-    2: "package and serve a model with FastAPI",
-    3: "deploy with Docker + Kubernetes",
-    4: "monitor drift and set alerts",
-}
-print(plan)
-```
-### 2. Choose tooling that fits the team
+**Focus areas:**
+- Experiment tracking (MLflow, W&B)
+- Data versioning (DVC)
+- Containerization (Docker)
+- CI/CD basics (GitHub Actions)
+- Model serving (FastAPI, BentoML)
 
-Target: Choose tooling that fits the team. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+**Projects:**
+- Build an end-to-end ML pipeline with experiment tracking
+- Containerize a model and deploy it as an API
+- Set up automated testing for data and models
 
-```python
-tools = {"tracking": "MLflow", "orchestration": "Airflow", "serving": "FastAPI", "monitoring": "Prometheus + Grafana"}
-print(tools)
-```
-### 3. Plan for monitoring from day one
+### Phase 3: Production Systems (Months 4–6)
 
-Target: Plan for monitoring from day one. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+**Advanced topics:**
+- Kubernetes for ML
+- Feature stores (Feast)
+- Model monitoring and drift detection
+- A/B testing and canary deployments
+- Cost optimization
 
-```python
-print("start monitoring before launch, not after an incident")
-```
-### 4. Bridge into LLMOps and platform engineering
+**Projects:**
+- Deploy a model on Kubernetes with KServe
+- Set up monitoring with Evidently AI
+- Implement a canary deployment pipeline
 
-Target: Bridge into LLMOps and platform engineering. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+### Phase 4: Specialization (Months 6–12)
 
-```python
-print("next: LLM systems need LLMOps discipline too")
-```
+**Choose a track:**
 
-## Practice Questions
+**LLMOps:** Prompt management, LLM evaluation, RAG monitoring, cost optimization for LLMs.
 
-1. What is the key idea behind "MLOps Roadmap"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+**Platform engineering:** Build internal ML platforms, self-service infrastructure, governance tools.
 
-## LLM Prompts for Deeper Understanding
+**MLOps for regulated industries:** Compliance, audit trails, model governance for healthcare, finance, or government.
 
-1. "Explain MLOps Roadmap with analogies and real-world examples"
-1. "Show me common mistakes beginners make with MLOps Roadmap"
-1. "Provide advanced patterns and performance considerations for MLOps Roadmap"
+### Certifications
 
-## Key Takeaways
+- **AWS Certified Machine Learning Specialty**
+- **Google Cloud Professional Machine Learning Engineer**
+- **Microsoft Certified: Azure Data Scientist Associate**
+- **Databricks Certified Machine Learning Professional**
 
-- Master the core ideas of MLOps Roadmap through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+### Skills That Matter
 
-## Further Reading
+**Technical:** Python, Docker, Kubernetes, cloud platforms (AWS/GCP/Azure), ML frameworks, monitoring tools.
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+**Engineering:** System design, automation, testing, infrastructure as code.
+
+**Communication:** Explaining ML systems to non-technical stakeholders, documentation.
+
+### Career Paths
+
+| Role | Focus | Salary Range (US) |
+|---|---|---|
+| **MLOps Engineer** | ML infrastructure and pipelines | $120K–$200K |
+| **ML Platform Engineer** | Internal ML platforms | $150K–$250K |
+| **LLMOps Engineer** | LLM-specific operations | $130K–$220K |
+| **Data Engineer (ML)** | Data pipelines for ML | $110K–$190K |
+| **ML Reliability Engineer** | Monitoring and reliability | $130K–$210K |
+
+### Future Directions
+
+**LLMOps:** As LLMs become the dominant AI paradigm, LLMOps is becoming its own discipline.
+
+**Edge ML:** Deploying models to mobile and IoT devices requires new MLOps practices.
+
+**Automated ML:** AutoML and neural architecture search automate parts of the ML lifecycle.
+
+**Responsible MLOps:** Integrating safety, fairness, and governance into every MLOps workflow.
+
+### Your Next Steps
+
+1. **Start with Made With ML or MLOps Zoomcamp.** Both are free and comprehensive.
+2. **Build a portfolio project.** End-to-end ML pipeline with tracking, testing, and deployment.
+3. **Learn Docker and Kubernetes.** These are non-negotiable for production ML.
+4. **Join the MLOps Community.** Connect with practitioners and stay current.
+5. **Specialize.** Pick LLMOps, platform engineering, or regulated industries based on your interests.
+
+---
+
+*Congratulations on completing the MLOps course. You now have the knowledge to build, deploy, and maintain ML systems in production.*

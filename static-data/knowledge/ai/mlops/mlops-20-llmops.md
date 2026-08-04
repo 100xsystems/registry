@@ -1,119 +1,92 @@
 ---
-{
-  "title": "LLMOps",
-  "description": "Operationalize generative AI: prompt management, evals, guardrails and LLM monitoring.",
-  "type": "lesson",
-  "order": 20,
-  "duration": "60 min",
-  "difficulty": "advanced",
-  "learning_objectives": [
-    "Track prompts and versions",
-    "Evaluate LLM outputs automatically",
-    "Add guardrails in production",
-    "Monitor tokens, cost and quality"
-  ],
-  "knowledge_refs": [
-    "mlops/mlops-19-cost-and-performance",
-    "generative-ai/genai-18-llmops",
-    "llm-engineering/llm-20-llmops-tooling"
-  ],
-  "prerequisites": [
-    "MLOPS-14: Monitoring & Drift Detection"
-  ],
-  "references": [
-    {
-      "title": "MLflow Documentation",
-      "url": "https://mlflow.org/docs/latest/index.html",
-      "description": "Tracking, registries and serving for the ML lifecycle."
-    },
-    {
-      "title": "Kubeflow Documentation",
-      "url": "https://www.kubeflow.org/docs/",
-      "description": "Kubernetes-native ML workflows."
-    },
-    {
-      "title": "DVC Documentation",
-      "url": "https://dvc.org/doc",
-      "description": "Data version control for reproducible ML pipelines."
-    },
-    {
-      "title": "The ML Engineer — Chip Huyen",
-      "url": "https://www.oreilly.com/library/view/introduction-to-machine/9781098119478/",
-      "description": "The reference book on building ML systems in production."
-    },
-    {
-      "title": "Google MLOps Whitepaper",
-      "url": "https://cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning",
-      "description": "The canonical description of MLOps levels and practices."
-    }
-  ]
-}
+slug: mlops-20-llmops
+title: "LLMOps"
+description: "The emerging discipline of operating LLMs in production — prompt management, LLM evaluation, RAG monitoring, and cost optimization."
+order: 20
+tags:
+  - mlops
+  - llmops
+  - llm-operations
+  - prompt-management
+  - rag-monitoring
+prerequisites:
+  - mlops-14-monitoring-and-drift
+knowledge_refs:
+  - mlops-14-monitoring-and-drift
+    title: "Monitoring & Drift Detection"
+  - mlops-19-cost-and-performance
+    title: "Cost & Performance Optimization"
+  - pe-10-system-prompts
+    title: "System Prompts in Production"
+references:
+  - title: "LLMOps: From Prototype to Production"
+    url: "https://www.comet.com/site/blog/llmops/"
+  - title: "LangSmith — LLM Observability"
+    url: "https://docs.smith.langchain.com/"
+  - title: "Langfuse — Open Source LLM Engineering"
+    url: "https://langfuse.com/"
+  - title: "Helicone — LLM Observability"
+    url: "https://www.helicone.ai/"
+  - title: "Prompt Engineering for Production"
+    url: "https://www.promptingguide.ai/"
 ---
 
-# MLOPS-20-LLMOPS: LLMOps
+## LLMOps
 
-## Introduction
+LLMOps is MLOps adapted for large language models. LLMs introduce unique challenges: non-deterministic outputs, prompt management, token-level costs, and complex evaluation. LLMOps addresses these with specialized tools and practices.
 
-Operationalize generative AI: prompt management, evals, guardrails and LLM monitoring. By the end of this lesson you will be able to: Track prompts and versions; Evaluate LLM outputs automatically; Add guardrails in production; Monitor tokens, cost and quality.
+### What's Different About LLMs
 
-## Key Concepts
+**Non-deterministic outputs:** The same prompt can produce different results. Evaluation must be statistical, not deterministic.
 
-### 1. Track prompts and versions
+**Prompt as configuration:** Changing behavior means changing prompts, not retraining models. Prompts need version control, testing, and deployment pipelines.
 
-Target: Track prompts and versions. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+**Token-based costs:** Every request costs money based on input + output tokens. Cost management is critical.
 
-```python
-import hashlib
+**External dependencies:** LLMs are often API-based (OpenAI, Anthropic). Vendor changes affect your system.
 
-# Version prompts like code
-prompt_v3 = "You are a helpful assistant. Answer concisely."
-print("prompt hash:", hashlib.sha256(prompt_v3.encode()).hexdigest()[:10])
-```
-### 2. Evaluate LLM outputs automatically
+### Prompt Management
 
-Target: Evaluate LLM outputs automatically. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+Treat prompts like code:
+- **Version control:** Store prompts in Git
+- **A/B testing:** Test prompt variations
+- **Evaluation:** Measure prompt quality systematically
+- **Deployment:** Promote prompts through environments
 
-```python
-import numpy as np
+Tools: LangSmith Prompt Hub, PromptLayer, custom solutions.
 
-# Auto-eval: LLM-as-judge on a fixed eval set
-scores = np.array([4, 5, 3, 5, 4])
-print("mean judge score:", scores.mean())
-```
-### 3. Add guardrails in production
+### LLM Evaluation
 
-Target: Add guardrails in production. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+**Automated evaluation:** Use LLM-as-judge to score outputs on quality, safety, and factualness.
 
-```python
-print("guardrails: block prompt injection and harmful outputs")
-```
-### 4. Monitor tokens, cost and quality
+**Human evaluation:** Expert review for high-stakes applications.
 
-Target: Monitor tokens, cost and quality. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+**Metrics:** Relevance, faithfulness, toxicity, latency, cost per request.
 
-```python
-metrics = {"tokens", "cost", "latency", "eval_score", "user_feedback"}
-print(metrics)
-```
+**Benchmarks:** Run standard benchmarks (MT-Bench, HumanEval) to track model performance over time.
 
-## Practice Questions
+### RAG Monitoring
 
-1. What is the key idea behind "LLMOps"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+RAG systems need specialized monitoring:
+- **Retrieval quality:** Are relevant documents being retrieved?
+- **Grounding:** Is the model using retrieved context faithfully?
+- **Latency:** End-to-end latency including retrieval
+- **Context utilization:** What percentage of retrieved context is actually used?
 
-## LLM Prompts for Deeper Understanding
+### Cost Optimization
 
-1. "Explain LLMOps with analogies and real-world examples"
-1. "Show me common mistakes beginners make with LLMOps"
-1. "Provide advanced patterns and performance considerations for LLMOps"
+- **Caching:** Cache frequent queries
+- **Prompt compression:** Reduce token count
+- **Model routing:** Use cheap models for simple tasks, expensive models for complex ones
+- **Batching:** Process multiple requests together
 
-## Key Takeaways
+### Common Mistakes
 
-- Master the core ideas of LLMOps through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+- **No prompt versioning:** Changing prompts without tracking breaks reproducibility.
+- **Ignoring cost:** LLM costs can spiral without monitoring.
+- **No evaluation:** Non-deterministic outputs require systematic evaluation.
+- **Treating LLMs like traditional ML:** Different challenges need different solutions.
 
-## Further Reading
+---
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+*Continue to the final lesson — the MLOps roadmap and career guide.*

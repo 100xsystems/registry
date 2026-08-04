@@ -1,129 +1,97 @@
 ---
-{
-  "title": "Testing ML Systems",
-  "description": "Test data, features, models and infrastructure — because ML code is only part of the system.",
-  "type": "lesson",
-  "order": 17,
-  "duration": "50 min",
-  "difficulty": "advanced",
-  "learning_objectives": [
-    "Write data and schema tests",
-    "Test model invariants",
-    "Write golden tests for features",
-    "Load-test the serving path"
-  ],
-  "knowledge_refs": [
-    "mlops/mlops-16-cicd-for-ml",
-    "generative-ai/genai-18-llmops",
-    "llm-engineering/llm-20-llmops-tooling"
-  ],
-  "prerequisites": [
-    "MLOPS-16: CI/CD for Machine Learning"
-  ],
-  "references": [
-    {
-      "title": "MLflow Documentation",
-      "url": "https://mlflow.org/docs/latest/index.html",
-      "description": "Tracking, registries and serving for the ML lifecycle."
-    },
-    {
-      "title": "Kubeflow Documentation",
-      "url": "https://www.kubeflow.org/docs/",
-      "description": "Kubernetes-native ML workflows."
-    },
-    {
-      "title": "DVC Documentation",
-      "url": "https://dvc.org/doc",
-      "description": "Data version control for reproducible ML pipelines."
-    },
-    {
-      "title": "The ML Engineer — Chip Huyen",
-      "url": "https://www.oreilly.com/library/view/introduction-to-machine/9781098119478/",
-      "description": "The reference book on building ML systems in production."
-    },
-    {
-      "title": "Google MLOps Whitepaper",
-      "url": "https://cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning",
-      "description": "The canonical description of MLOps levels and practices."
-    }
-  ]
-}
+slug: mlops-17-testing-ml-systems
+title: "Testing ML Systems"
+description: "Testing beyond code — data testing, model testing, pipeline testing, and integration testing for ML systems."
+order: 17
+tags:
+  - mlops
+  - testing
+  - data-testing
+  - model-testing
+  - pipeline-testing
+prerequisites:
+  - mlops-16-cicd-for-ml
+knowledge_refs:
+  - mlops-16-cicd-for-ml
+    title: "CI/CD for Machine Learning"
+  - mlops-14-monitoring-and-drift
+    title: "Monitoring & Drift Detection"
+  - mlops-03-reproducibility-and-versioning
+    title: "Reproducibility & Versioning"
+references:
+  - title: "Made With ML — Testing ML Systems"
+    url: "https://madewithml.com/courses/mlops/testing/"
+  - title: "Evidently AI — Evaluation and Observability"
+    url: "https://www.evidentlyai.com/"
+  - title: "Google Cloud — MLOps CI/CD"
+    url: "https://cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning"
+  - title: "Great Expectations — Data Validation"
+    url: "https://greatexpectations.io/"
+  - title: "Pytest — Python Testing Framework"
+    url: "https://docs.pytest.org/"
 ---
 
-# MLOPS-17-TESTING-ML-SYSTEMS: Testing ML Systems
+## Testing ML Systems
 
-## Introduction
+ML systems are probabilistic, data-dependent, and prone to silent failures. Testing must go beyond traditional unit tests to cover data, models, and pipelines.
 
-Test data, features, models and infrastructure — because ML code is only part of the system. By the end of this lesson you will be able to: Write data and schema tests; Test model invariants; Write golden tests for features; Load-test the serving path.
+### Data Testing
 
-## Key Concepts
+Data is the code of ML systems. Bad data produces bad models regardless of code quality.
 
-### 1. Write data and schema tests
+**What to test:**
+- **Schema:** Column names, data types, nullability
+- **Statistics:** Value ranges, distribution bounds, uniqueness
+- **Quality:** Missing values, duplicates, formatting errors
+- **Drift:** Distribution changes between training and production
 
-Target: Write data and schema tests. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+**Tools:** Great Expectations, Pandera, Evidently AI
 
-```python
-import pandas as pd
+### Model Testing
 
-def test_no_nulls(df):
-    assert not df.isna().any().any()
+Models need behavioral testing, not just accuracy metrics.
 
-print("data test ready")
-```
-### 2. Test model invariants
+**What to test:**
+- **Performance:** Accuracy, precision, recall, F1 against baseline
+- **Invariance:** Changing non-sensitive features shouldn't flip predictions
+- **Directional expectations:** Increasing a feature should move predictions in expected direction
+- **Slice performance:** Model shouldn't disproportionately fail on subgroups
+- **Robustness:** Behavior under adversarial or edge-case inputs
 
-Target: Test model invariants. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+### Pipeline Testing
 
-```python
-def test_probability_range(probs):
-    assert ((probs >= 0) & (probs <= 1)).all()
+ML pipelines orchestrate data processing, training, and deployment.
 
-print("model invariant test ready")
-```
-### 3. Write golden tests for features
+**What to test:**
+- **Idempotency:** Running the same pipeline twice produces identical results
+- **Trigger conditions:** CT triggers fire correctly (drift, schedule, new data)
+- **Data flow:** Features flow correctly between pipeline stages
+- **Error handling:** Pipeline fails gracefully on bad data
 
-Target: Write golden tests for features. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+### Integration Testing
 
-```python
-import numpy as np
+Verify that all components work together end-to-end.
 
-# Golden test: known input -> known output
-known = np.array([0.0, 1.0, 0.0])
-assert np.allclose(known, [0.0, 1.0, 0.0])
-print("golden test passes")
-```
-### 4. Load-test the serving path
+**What to test:**
+- **End-to-end flow:** Raw data → features → model → predictions
+- **API contracts:** Serving API accepts the same features produced by training
+- **Registry integration:** Models register, version, and deploy correctly
+- **Monitoring integration:** Monitoring detects injected failures
 
-Target: Load-test the serving path. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+### Testing Frameworks
 
-```python
-import time
+- **pytest:** Unit and integration testing for Python code
+- **Great Expectations:** Data validation and quality testing
+- **Evidently AI:** Data drift, model performance, and monitoring tests
+- **Seldon Alibi:** Model explanation and adversarial robustness testing
 
-# Load test: requests per second under target latency
-start = time.perf_counter()
-for _ in range(100):
-    predict([1.0, 2.0])
-print("100 calls in", round(time.perf_counter() - start, 3), "s")
-```
+### Common Mistakes
 
-## Practice Questions
+- **Only unit testing:** Code tests don't catch data or model issues.
+- **No data validation:** Assumed-clean data often isn't.
+- **Testing on training data:** Always test on held-out data.
+- **No integration tests:** Components that work individually may fail together.
 
-1. What is the key idea behind "Testing ML Systems"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+---
 
-## LLM Prompts for Deeper Understanding
-
-1. "Explain Testing ML Systems with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Testing ML Systems"
-1. "Provide advanced patterns and performance considerations for Testing ML Systems"
-
-## Key Takeaways
-
-- Master the core ideas of Testing ML Systems through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
-
-## Further Reading
-
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+*Continue to learn about data and model governance — ensuring compliance and accountability.*
