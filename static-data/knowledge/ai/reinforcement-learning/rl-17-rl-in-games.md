@@ -1,123 +1,89 @@
 ---
-{
-  "title": "RL in Games",
-  "description": "From Atari to AlphaGo: self-play, Monte Carlo tree search, and superhuman play.",
-  "type": "lesson",
-  "order": 17,
-  "duration": "55 min",
-  "difficulty": "advanced",
-  "learning_objectives": [
-    "Explain self-play",
-    "Describe Monte Carlo tree search (MCTS)",
-    "Combine MCTS with neural nets (AlphaGo)",
-    "Understand why games are ideal testbeds"
-  ],
-  "knowledge_refs": [
-    "reinforcement-learning/rl-16-multi-agent-rl"
-  ],
-  "prerequisites": [
-    "RL-09: Deep Q-Networks (DQN)"
-  ],
-  "references": [
-    {
-      "title": "Reinforcement Learning: An Introduction — Sutton & Barto",
-      "url": "http://incompleteideas.net/book/the-book-2nd.html",
-      "description": "The canonical RL textbook (free PDF)."
-    },
-    {
-      "title": "Spinning Up in Deep RL — OpenAI",
-      "url": "https://spinningup.openai.com/en/latest/",
-      "description": "A practitioner-focused deep RL resource with clean implementations."
-    },
-    {
-      "title": "Stable-Baselines3 Documentation",
-      "url": "https://stable-baselines3.readthedocs.io/",
-      "description": "Reliable RL algorithm implementations in PyTorch."
-    },
-    {
-      "title": "Gymnasium Documentation",
-      "url": "https://gymnasium.farama.org/",
-      "description": "The standard API for RL environments."
-    },
-    {
-      "title": "RL Course by David Silver",
-      "url": "https://www.davidsilver.uk/teaching/",
-      "description": "The classic lecture series on RL fundamentals."
-    }
-  ]
-}
+slug: rl-17-rl-in-games
+title: "RL in Games"
+description: "From Atari to StarCraft — AlphaGo, AlphaStar, OpenAI Five, and the game environments that drive RL research."
+order: 17
+tags:
+  - reinforcement-learning
+  - games
+  - alpha-go
+  - alphastar
+  - openai-five
+  - gymnasium
+prerequisites:
+  - rl-16-multi-agent-rl
+knowledge_refs:
+  - rl-16-multi-agent-rl
+    title: "Multi-Agent Reinforcement Learning"
+  - rl-09-deep-q-networks
+    title: "Deep Q-Networks"
+  - rl-18-rl-for-robotics
+    title: "RL for Robotics"
+references:
+  - title: "AlphaGo — Mastering Go with Deep Neural Networks (Nature)"
+    url: "https://www.nature.com/articles/nature16961"
+  - title: "AlphaStar — Grandmaster Level in StarCraft II (Nature)"
+    url: "https://www.nature.com/articles/s41586-019-1724-z"
+  - title: "OpenAI Five — Dota 2 with Large Scale Deep RL"
+    url: "https://cdn.openai.com/dota-2.pdf"
+  - title: "Gymnasium Documentation"
+    url: "https://gymnasium.farama.org/"
+  - title: "AlphaGo Zero — Starting from Scratch (DeepMind)"
+    url: "https://deepmind.google/blog/alphago-zero-starting-from-scratch/"
 ---
 
-# RL-17-RL-IN-GAMES: RL in Games
+## RL in Games
 
-## Introduction
+Games have been the proving ground for RL breakthroughs. From Atari to Go to Dota 2, game environments provide the complexity, clear objectives, and simulation capability needed to push RL research forward.
 
-From Atari to AlphaGo: self-play, Monte Carlo tree search, and superhuman play. By the end of this lesson you will be able to: Explain self-play; Describe Monte Carlo tree search (MCTS); Combine MCTS with neural nets (AlphaGo); Understand why games are ideal testbeds.
+### AlphaGo and AlphaZero
 
-## Key Concepts
+**AlphaGo (2016):** Combined deep neural networks (policy + value) with Monte Carlo Tree Search (MCTS). Defeated world champion Lee Sedol 4–1.
 
-### 1. Explain self-play
+**AlphaGo Zero:** Learned entirely from self-play — no human data. surpassed AlphaGo within 40 hours by discovering novel strategies.
 
-Target: Explain self-play. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+**AlphaZero:** Generalized to chess and shogi. Mastered all three games from scratch using only self-play RL + MCTS.
 
-```python
-import numpy as np
+### AlphaStar
 
-# MCTS: select, expand, simulate, backpropagate
-for _ in range(100):
-    print("node: select -> expand -> rollout -> backup")
-```
-### 2. Describe Monte Carlo tree search (MCTS)
+**StarCraft II (2019):** Achieved Grandmaster level across all three races. Key innovations:
+- Multi-agent league training (diverse opponents prevent cyclic strategies)
+- Hierarchical action space (high-level strategic decisions → low-level micro)
+- Partial observability (imperfect information)
 
-Target: Describe Monte Carlo tree search (MCTS). Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+### OpenAI Five
 
-```python
-import numpy as np
+**Dota 2 (2019):** Trained 5v5 team play using massive distributed PPO:
+- Tens of thousands of CPU cores + thousands of GPUs
+- Hundreds of years of gameplay per day
+- Emergent teamwork, drafting, and long-term strategy
 
-# UCB in MCTS balances exploration
-N = np.array([10, 5])
-W = np.array([8, 4])
-ucb = W / N + np.sqrt(2 * np.log(N.sum()) / N)
-print("MCTS UCB:", ucb.round(3))
-```
-### 3. Combine MCTS with neural nets (AlphaGo)
+### Gymnasium (Standard Environment API)
 
-Target: Combine MCTS with neural nets (AlphaGo). Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+The Farama Foundation's Gymnasium (successor to OpenAI Gym) provides the standard Python API for RL environments:
 
 ```python
-print("self-play: train against yourself to keep improving")
-```
-### 4. Understand why games are ideal testbeds
-
-Target: Understand why games are ideal testbeds. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
-
-```python
-import numpy as np
-
-# Value + policy network guides the search
-value = 0.7
-prior = np.array([0.6, 0.4])
-print("neural MCTS blends value and policy priors")
+env = gymnasium.make('CartPole-v1')
+obs, info = env.reset()
+action = env.action_space.sample()
+obs, reward, terminated, truncated, info = env.step(action)
 ```
 
-## Practice Questions
+Standard interface: `reset()`, `step()`, `observation_space`, `action_space`.
 
-1. What is the key idea behind "RL in Games"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+### Why Games Matter for RL
 
-## LLM Prompts for Deeper Understanding
+- **Simulation:** Unlimited, safe, fast environment interaction
+- **Clear metrics:** Win/loss, score — unambiguous evaluation
+- **Scalability:** Massive parallelization possible
+- **Complexity:** Games capture strategic reasoning, planning, and multi-agent dynamics
 
-1. "Explain RL in Games with analogies and real-world examples"
-1. "Show me common mistakes beginners make with RL in Games"
-1. "Provide advanced patterns and performance considerations for RL in Games"
+### Common Mistakes
 
-## Key Takeaways
+- **Overfitting to games:** Success in games doesn't guarantee real-world transfer.
+- **Ignoring sample efficiency:** Games allow billions of samples; real-world RL can't.
+- **Dismissing game research:** Games drive fundamental RL algorithmic advances.
 
-- Master the core ideas of RL in Games through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+---
 
-## Further Reading
-
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+*Continue to learn about RL for robotics — sim-to-real transfer and real-world RL.*

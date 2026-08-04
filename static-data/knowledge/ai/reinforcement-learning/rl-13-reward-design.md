@@ -1,126 +1,82 @@
 ---
-{
-  "title": "Reward Design",
-  "description": "Rewards shape everything: sparse vs dense, shaping and the specification problem.",
-  "type": "lesson",
-  "order": 13,
-  "duration": "50 min",
-  "difficulty": "intermediate",
-  "learning_objectives": [
-    "Design rewards that express the true goal",
-    "Handle sparse rewards with shaping",
-    "Avoid reward hacking",
-    "Use reward shaping theorems safely"
-  ],
-  "knowledge_refs": [
-    "reinforcement-learning/rl-12-proximal-policy-optimization",
-    "ai-agents/agents-17-agent-design-patterns"
-  ],
-  "prerequisites": [
-    "RL-01: What Is Reinforcement Learning?"
-  ],
-  "references": [
-    {
-      "title": "Reinforcement Learning: An Introduction — Sutton & Barto",
-      "url": "http://incompleteideas.net/book/the-book-2nd.html",
-      "description": "The canonical RL textbook (free PDF)."
-    },
-    {
-      "title": "Spinning Up in Deep RL — OpenAI",
-      "url": "https://spinningup.openai.com/en/latest/",
-      "description": "A practitioner-focused deep RL resource with clean implementations."
-    },
-    {
-      "title": "Stable-Baselines3 Documentation",
-      "url": "https://stable-baselines3.readthedocs.io/",
-      "description": "Reliable RL algorithm implementations in PyTorch."
-    },
-    {
-      "title": "Gymnasium Documentation",
-      "url": "https://gymnasium.farama.org/",
-      "description": "The standard API for RL environments."
-    },
-    {
-      "title": "RL Course by David Silver",
-      "url": "https://www.davidsilver.uk/teaching/",
-      "description": "The classic lecture series on RL fundamentals."
-    }
-  ]
-}
+slug: rl-13-reward-design
+title: "Reward Design"
+description: "Crafting the signals that guide agent behavior — reward shaping, sparse rewards, reward hacking, and curriculum learning."
+order: 13
+tags:
+  - reinforcement-learning
+  - reward-design
+  - reward-shaping
+  - reward-hacking
+  - curriculum-learning
+prerequisites:
+  - rl-02-markov-decision-processes
+knowledge_refs:
+  - rl-02-markov-decision-processes
+    title: "Markov Decision Processes"
+  - rl-15-imitation-learning
+    title: "Imitation Learning"
+  - safety-04-alignment
+    title: "Alignment"
+references:
+  - title: "Ng et al. (1999) — Policy Invariance Under Reward Transformations"
+    url: "https://people.eecs.berkeley.edu/~pabbeel/cs287-fa09/readings/NgHaradaRussell-shaping-ICML1999.pdf"
+  - title: "OpenAI — Reward Engineering"
+    url: "https://openai.com/research/"
+  - title: "DeepMind — Reward Is Enough"
+    url: "https://arxiv.org/abs/2111.06891"
+  - title: "Curriculum Learning for RL — Bengio et al."
+    url: "https://proceedings.mlr.press/v9/bengio09a.html"
+  - title: "Inverse RL — Ng & Russell"
+    url: "https://people.eecs.berkeley.edu/~russell/papers/ecml00-ir.pdf"
 ---
 
-# RL-13-REWARD-DESIGN: Reward Design
+## Reward Design
 
-## Introduction
+The reward function defines what the agent optimizes. Poorly designed rewards lead to unintended behavior, reward hacking, and failed training. Reward design is one of the most critical and underappreciated aspects of RL.
 
-Rewards shape everything: sparse vs dense, shaping and the specification problem. By the end of this lesson you will be able to: Design rewards that express the true goal; Handle sparse rewards with shaping; Avoid reward hacking; Use reward shaping theorems safely.
+### Reward Shaping
 
-## Key Concepts
+Adding intermediate rewards to guide the agent toward the goal:
 
-### 1. Design rewards that express the true goal
+**Sparse reward:** Only rewards at episode end (e.g., +1 for winning a game). Hard to learn from — the agent must stumble upon the goal by chance.
 
-Target: Design rewards that express the true goal. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+**Dense reward:** Rewards at every step (e.g., distance to goal). Easier to learn but may not capture the true objective.
 
-```python
-import numpy as np
+**Potential-based shaping:** Add rewards based on a potential function Φ(s):
 
-# Sparse: reward only at the goal
-sparse = np.zeros(100)
-sparse[-1] = 1.0
-print("sparse returns nonzero only at end")
-```
-### 2. Handle sparse rewards with shaping
+**F(s, s') = γΦ(s') - Φ(s)**
 
-Target: Handle sparse rewards with shaping. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+This provably preserves the optimal policy (Ng et al., 1999) while making learning easier.
 
-```python
-import numpy as np
+### Reward Hacking
 
-# Dense shaping: small progress rewards at every step
-progress = np.linspace(0, 1, 100) * 0.01
-print("shaped reward example:", progress[:3])
-```
-### 3. Avoid reward hacking
+When the agent finds a loophole to maximize reward without achieving the intended goal:
 
-Target: Avoid reward hacking. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+- A boat racing game agent learns to spin in circles collecting small bonuses instead of finishing the race
+- A robot learns to fall forward (covering distance) instead of walking
+- An RLHF agent learns to tell users what they want to hear instead of being truthful
 
-```python
-hacks = ["agent finds loopholes", "exploits simulator bugs", "games the metric"]
-for h in hacks:
-    print(f"- {h}")
-```
-### 4. Use reward shaping theorems safely
+**Goodhart's Law:** "When a measure becomes a target, it ceases to be a good measure."
 
-Target: Use reward shaping theorems safely. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+### Sparse vs. Dense Rewards
 
-```python
-import numpy as np
+**Sparse:** Simple, aligned with true objective, but extremely hard to learn (exploration bottleneck).
 
-# Shaping must not change the optimal policy (potential-based)
-Phi = np.array([0.0, 0.5, 1.0])  # potential per state
-gamma = 0.9
-shaping = gamma * np.roll(Phi, -1) - Phi
-print("potential shaping:", shaping.round(2))
-```
+**Dense:** Easier to learn, but risk of misalignment between shaped reward and true goal.
 
-## Practice Questions
+**Curriculum learning:** Start with dense rewards, gradually remove shaping as the agent learns.
 
-1. What is the key idea behind "Reward Design"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+### Inverse Reward Design
 
-## LLM Prompts for Deeper Understanding
+Given observed expert behavior, infer the reward function that would produce it. This is the inverse RL problem — used in imitation learning and alignment.
 
-1. "Explain Reward Design with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Reward Design"
-1. "Provide advanced patterns and performance considerations for Reward Design"
+### Common Mistakes
 
-## Key Takeaways
+- **Overly complex rewards:** Multiple competing reward terms create unintended tradeoffs.
+- **Ignoring reward scale:** If one reward term is 100× larger than others, the agent ignores the smaller ones.
+- **No reward debugging:** Always visualize what the agent is actually optimizing before scaling up training.
 
-- Master the core ideas of Reward Design through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+---
 
-## Further Reading
-
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+*Continue to learn about offline reinforcement learning — learning from pre-collected datasets.*

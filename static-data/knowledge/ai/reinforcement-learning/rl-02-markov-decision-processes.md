@@ -1,130 +1,95 @@
 ---
-{
-  "title": "Markov Decision Processes",
-  "description": "The formal framework: states, actions, transitions, rewards and the Markov property.",
-  "type": "lesson",
-  "order": 2,
-  "duration": "55 min",
-  "difficulty": "intermediate",
-  "learning_objectives": [
-    "Define an MDP formally (S, A, P, R, gamma)",
-    "Explain the Markov property",
-    "Define policies, returns and discounting",
-    "Write the Bellman expectation equation"
-  ],
-  "knowledge_refs": [
-    "reinforcement-learning/rl-01-what-is-reinforcement-learning",
-    "machine-learning/ml-08-decision-trees"
-  ],
-  "prerequisites": [
-    "RL-01: What Is Reinforcement Learning?"
-  ],
-  "references": [
-    {
-      "title": "Reinforcement Learning: An Introduction — Sutton & Barto",
-      "url": "http://incompleteideas.net/book/the-book-2nd.html",
-      "description": "The canonical RL textbook (free PDF)."
-    },
-    {
-      "title": "Spinning Up in Deep RL — OpenAI",
-      "url": "https://spinningup.openai.com/en/latest/",
-      "description": "A practitioner-focused deep RL resource with clean implementations."
-    },
-    {
-      "title": "Stable-Baselines3 Documentation",
-      "url": "https://stable-baselines3.readthedocs.io/",
-      "description": "Reliable RL algorithm implementations in PyTorch."
-    },
-    {
-      "title": "Gymnasium Documentation",
-      "url": "https://gymnasium.farama.org/",
-      "description": "The standard API for RL environments."
-    },
-    {
-      "title": "RL Course by David Silver",
-      "url": "https://www.davidsilver.uk/teaching/",
-      "description": "The classic lecture series on RL fundamentals."
-    }
-  ]
-}
+slug: rl-02-markov-decision-processes
+title: "Markov Decision Processes"
+description: "The mathematical framework for sequential decision-making — states, actions, transitions, rewards, and Bellman equations."
+order: 2
+tags:
+  - reinforcement-learning
+  - mdp
+  - bellman-equations
+  - value-functions
+  - discount-factor
+prerequisites:
+  - rl-01-what-is-reinforcement-learning
+knowledge_refs:
+  - rl-01-what-is-reinforcement-learning
+    title: "What Is Reinforcement Learning?"
+  - rl-03-dynamic-programming
+    title: "Dynamic Programming"
+references:
+  - title: "Sutton & Barto — Chapter 3: Finite Markov Decision Processes"
+    url: "http://incompleteideas.net/book/the-book-2nd.html"
+  - title: "David Silver — RL Course: MDPs"
+    url: "https://www.davidsilver.uk/teaching/"
+  - title: "Stanford CS234 — Markov Decision Processes"
+    url: "https://web.stanford.edu/class/cs234/"
+  - title: "OpenAI Spinning Up — Key Concepts in RL"
+    url: "https://spinningup.openai.com/en/latest/spinningup/rl_intro.html"
+  - title: "Berkeley CS285 — Deep Reinforcement Learning"
+    url: "https://rail.eecs.berkeley.edu/deeprlcourse/"
 ---
 
-# RL-02-MARKOV-DECISION-PROCESSES: Markov Decision Processes
+## Markov Decision Processes
 
-## Introduction
+A Markov Decision Process (MDP) provides the mathematical foundation for reinforcement learning. It formalizes the sequential decision-making problem with states, actions, transitions, and rewards.
 
-The formal framework: states, actions, transitions, rewards and the Markov property. By the end of this lesson you will be able to: Define an MDP formally (S, A, P, R, gamma); Explain the Markov property; Define policies, returns and discounting; Write the Bellman expectation equation.
+### MDP Definition
 
-## Key Concepts
+An MDP is defined by the tuple (S, A, P, R, γ):
 
-### 1. Define an MDP formally (S, A, P, R, gamma)
+- **S:** Set of all possible states
+- **A:** Set of all possible actions
+- **P(s'|s,a):** Transition probability — probability of reaching state s' from state s after taking action a
+- **R(s,a):** Reward function — expected reward for taking action a in state s
+- **γ (gamma):** Discount factor (0 ≤ γ ≤ 1) — how much future rewards are valued relative to immediate rewards
 
-Target: Define an MDP formally (S, A, P, R, gamma). Start with the foundations — read the runnable example carefully and trace its output before moving on.
+### The Markov Property
 
-```python
-mdp = {
-    "states": ["s0", "s1", "s2"],
-    "actions": ["left", "right"],
-    "discount": 0.9,
-}
-print(mdp)
-```
-### 2. Explain the Markov property
+The future depends only on the present, not the past. Formally:
 
-Target: Explain the Markov property. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+P(s_{t+1} | s_t, a_t, s_{t-1}, a_{t-1}, ...) = P(s_{t+1} | s_t, a_t)
 
-```python
-import numpy as np
+This memoryless property is what makes MDPs tractable — the current state contains all relevant information.
 
-# Return with discounting: sum of gamma^t * r_t
-rewards = np.array([1.0, 1.0, 1.0])
-gamma = 0.9
-t = np.arange(len(rewards))
-print("discounted return:", round((gamma ** t * rewards).sum(), 3))
-```
-### 3. Define policies, returns and discounting
+### Return and Discounting
 
-Target: Define policies, returns and discounting. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+The **return** at time t is the total discounted reward:
 
-```python
-import numpy as np
+G_t = R_{t+1} + γR_{t+2} + γ²R_{t+3} + ... = Σ_{k=0}^∞ γ^k R_{t+k+1}
 
-# Policy: probability of each action per state
-policy = {"s0": {"left": 0.5, "right": 0.5}}
-print(policy)
-```
-### 4. Write the Bellman expectation equation
+**Why discount?**
+- Prevents infinite sums in continuing tasks
+- Models uncertainty about the future
+- Makes the agent prefer immediate rewards (practical for real-world applications)
 
-Target: Write the Bellman expectation equation. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+### Value Functions
 
-```python
-import numpy as np
+**State-value function V^π(s):** Expected return starting from state s, following policy π:
 
-# Bellman expectation: V = R + gamma * P * V
-P = np.array([[0.7, 0.3], [0.2, 0.8]])
-R = np.array([1.0, 2.0])
-V = np.linalg.solve(np.eye(2) - 0.9 * P, R)
-print("state values:", V.round(3))
-```
+V^π(s) = E_π[G_t | S_t = s]
 
-## Practice Questions
+**Action-value function Q^π(s,a):** Expected return starting from state s, taking action a, then following π:
 
-1. What is the key idea behind "Markov Decision Processes"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+Q^π(s,a) = E_π[G_t | S_t = s, A_t = a]
 
-## LLM Prompts for Deeper Understanding
+### Bellman Equations
 
-1. "Explain Markov Decision Processes with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Markov Decision Processes"
-1. "Provide advanced patterns and performance considerations for Markov Decision Processes"
+The Bellman equation decomposes the value of a state into immediate reward plus discounted value of successor states:
 
-## Key Takeaways
+**V^π(s) = Σ_a π(a|s) Σ_{s'} P(s'|s,a) [R(s,a) + γV^π(s')]**
 
-- Master the core ideas of Markov Decision Processes through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+**Q^π(s,a) = Σ_{s'} P(s'|s,a) [R(s,a) + γ Σ_{a'} π(a'|s') Q^π(s',a')]**
 
-## Further Reading
+The **Bellman optimality equation** defines the optimal value:
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+**V*(s) = max_a Σ_{s'} P(s'|s,a) [R(s,a) + γV*(s')]**
+
+### Common Mistakes
+
+- **Ignoring discount factor:** γ = 0 makes the agent myopic. γ = 1 can cause divergence.
+- **Non-Markov states:** If the state doesn't capture all relevant information, learning is unstable.
+- **Assuming known transitions:** Most real-world problems have unknown P(s'|s,a), requiring model-free methods.
+
+---
+
+*Continue to learn about dynamic programming — computing optimal policies when the model is known.*

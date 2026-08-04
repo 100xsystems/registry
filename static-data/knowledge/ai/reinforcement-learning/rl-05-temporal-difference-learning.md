@@ -1,126 +1,101 @@
 ---
-{
-  "title": "Temporal Difference Learning",
-  "description": "Learn from partial episodes with bootstrapping — the idea at the heart of modern RL.",
-  "type": "lesson",
-  "order": 5,
-  "duration": "55 min",
-  "difficulty": "advanced",
-  "learning_objectives": [
-    "Explain TD(0) bootstrapping",
-    "Update values incrementally after each step",
-    "Compare TD to MC (bias-variance)",
-    "Use TD for prediction"
-  ],
-  "knowledge_refs": [
-    "reinforcement-learning/rl-04-monte-carlo-methods"
-  ],
-  "prerequisites": [
-    "RL-04: Monte Carlo Methods"
-  ],
-  "references": [
-    {
-      "title": "Reinforcement Learning: An Introduction — Sutton & Barto",
-      "url": "http://incompleteideas.net/book/the-book-2nd.html",
-      "description": "The canonical RL textbook (free PDF)."
-    },
-    {
-      "title": "Spinning Up in Deep RL — OpenAI",
-      "url": "https://spinningup.openai.com/en/latest/",
-      "description": "A practitioner-focused deep RL resource with clean implementations."
-    },
-    {
-      "title": "Stable-Baselines3 Documentation",
-      "url": "https://stable-baselines3.readthedocs.io/",
-      "description": "Reliable RL algorithm implementations in PyTorch."
-    },
-    {
-      "title": "Gymnasium Documentation",
-      "url": "https://gymnasium.farama.org/",
-      "description": "The standard API for RL environments."
-    },
-    {
-      "title": "RL Course by David Silver",
-      "url": "https://www.davidsilver.uk/teaching/",
-      "description": "The classic lecture series on RL fundamentals."
-    }
-  ]
-}
+slug: rl-05-temporal-difference-learning
+title: "Temporal Difference Learning"
+description: "The core of modern RL — combining Monte Carlo sampling with bootstrapping for online, incremental learning."
+order: 5
+tags:
+  - reinforcement-learning
+  - temporal-difference
+  - td-learning
+  - sarsa
+  - eligibility-traces
+  - bootstrapping
+prerequisites:
+  - rl-04-monte-carlo-methods
+knowledge_refs:
+  - rl-04-monte-carlo-methods
+    title: "Monte Carlo Methods"
+  - rl-06-q-learning
+    title: "Q-Learning"
+references:
+  - title: "Sutton & Barto — Chapter 6: Temporal-Difference Learning"
+    url: "http://incompleteideas.net/book/the-book-2nd.html"
+  - title: "David Silver — RL Course: TD Learning"
+    url: "https://www.davidsilver.uk/teaching/"
+  - title: "Temporal Difference Learning — Richard Warren"
+    url: "https://richard-warren.github.io/blog/rl_intro_3/"
+  - title: "Dissecting RL: Temporal Differencing — Pattacchiola"
+    url: "https://mpatacchiola.github.io/blog/2017/01/29/dissecting-reinforcement-learning-3.html"
+  - title: "Sutton & Barto Summary: TD Learning"
+    url: "https://lcalem.github.io/blog/2018/10/31/sutton-chap06-td"
 ---
 
-# RL-05-TEMPORAL-DIFFERENCE-LEARNING: Temporal Difference Learning
+## Temporal Difference Learning
 
-## Introduction
+Temporal Difference (TD) learning is the core insight of modern RL. It combines Monte Carlo's sampling with Dynamic Programming's bootstrapping — learning from experience without waiting for episode completion.
 
-Learn from partial episodes with bootstrapping — the idea at the heart of modern RL. By the end of this lesson you will be able to: Explain TD(0) bootstrapping; Update values incrementally after each step; Compare TD to MC (bias-variance); Use TD for prediction.
+### The Core Idea
 
-## Key Concepts
+TD methods update estimates based on other learned estimates, without waiting for the final outcome:
 
-### 1. Explain TD(0) bootstrapping
+**V(S_t) ← V(S_t) + α[R_{t+1} + γV(S_{t+1}) - V(S_t)]**
 
-Target: Explain TD(0) bootstrapping. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+The term **δ_t = R_{t+1} + γV(S_{t+1}) - V(S_t)** is the **TD error** — the difference between the estimated target and the current estimate. It measures "surprise."
 
-```python
-import numpy as np
+### TD(0): One-Step TD
 
-# TD(0): V(s) <- V(s) + alpha * (r + gamma*V(s') - V(s))
-V = np.zeros(3)
-alpha, gamma = 0.1, 0.9
-r, s_next = 0.0, 1
-V[0] += alpha * (r + gamma * V[s_next] - V[0])
-print("updated V(s0):", V[0])
-```
-### 2. Update values incrementally after each step
+The simplest form. After each step, update using only the immediate reward and next state's value:
 
-Target: Update values incrementally after each step. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+- Learns online (every step)
+- Works in continuing tasks
+- Lower variance than MC
+- Biased (bootstraps from estimates)
 
-```python
-import numpy as np
+### SARSA: On-Policy TD Control
 
-# TD error: the surprise signal
-r, gamma, V_next, V_now = 1.0, 0.9, 0.5, 0.3
-td_error = r + gamma * V_next - V_now
-print("TD error:", td_error)
-```
-### 3. Compare TD to MC (bias-variance)
+SARSA (State-Action-Reward-State-Action) learns action values Q(s,a) using on-policy updates:
 
-Target: Compare TD to MC (bias-variance). Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+**Q(S_t, A_t) ← Q(S_t, A_t) + α[R_{t+1} + γQ(S_{t+1}, A_{t+1}) - Q(S_t, A_t)]**
 
-```python
-import numpy as np
+The key: A_{t+1} is the *actual* next action taken by the current policy (e.g., ε-greedy).
 
-# TD learns online, MC waits for episode end
-print("TD: update every step. MC: update at episode end.")
-```
-### 4. Use TD for prediction
+### Expected SARSA
 
-Target: Use TD for prediction. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+Instead of sampling the next action, compute the expectation over all actions:
 
-```python
-import numpy as np
+**Q(S_t, A_t) ← Q(S_t, A_t) + α[R_{t+1} + γ Σ_a π(a|S_{t+1}) Q(S_{t+1}, a) - Q(S_t, A_t)]**
 
-# TD: lower variance than MC, biased by bootstrap
-print("bias-variance trade-off: TD wins in practice")
-```
+More stable than SARSA because it eliminates sampling variance. If π is greedy, it behaves identically to Q-learning.
 
-## Practice Questions
+### TD(λ) and Eligibility Traces
 
-1. What is the key idea behind "Temporal Difference Learning"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+TD(0) looks one step ahead. Monte Carlo looks to episode end. TD(λ) bridges both:
 
-## LLM Prompts for Deeper Understanding
+**λ-return:** G_t^λ = (1-λ) Σ_{n=1}^∞ λ^{n-1} G_{t:t+n}
 
-1. "Explain Temporal Difference Learning with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Temporal Difference Learning"
-1. "Provide advanced patterns and performance considerations for Temporal Difference Learning"
+- λ = 0: Standard 1-step TD
+- λ = 1: Monte Carlo
+- 0 < λ < 1: Blended approach
 
-## Key Takeaways
+**Eligibility traces** provide an efficient online implementation. A trace z_t accumulates for recently visited states and decays over time. When a TD error occurs, all eligible states receive credit proportional to their trace:
 
-- Master the core ideas of Temporal Difference Learning through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+**z_t = γλz_{t-1} + ∇_w v̂(S_t, w)**
+**w_{t+1} = w_t + αδ_t z_t**
 
-## Further Reading
+### Comparison
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+| Method | Variance | Bias | Updates | Sample Efficiency |
+|---|---|---|---|---|
+| MC | High | None | End of episode | Low |
+| TD(0) | Low | High | Every step | High |
+| TD(λ) | Medium | Medium | Every step | High |
+
+### Common Mistakes
+
+- **Confusing TD with MC:** TD bootstraps (uses estimates). MC uses actual returns.
+- **Ignoring eligibility traces:** For sparse rewards, eligibility traces dramatically speed up learning.
+- **Setting λ wrong:** λ too high increases variance. λ too low loses long-term credit assignment.
+
+---
+
+*Continue to learn about Q-learning — the off-policy TD control algorithm.*

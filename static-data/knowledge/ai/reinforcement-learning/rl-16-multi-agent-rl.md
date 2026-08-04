@@ -1,120 +1,73 @@
 ---
-{
-  "title": "Multi-Agent Reinforcement Learning",
-  "description": "Multiple learners interacting: cooperation, competition, and the games they create.",
-  "type": "lesson",
-  "order": 16,
-  "duration": "55 min",
-  "difficulty": "advanced",
-  "learning_objectives": [
-    "Describe multi-agent settings (cooperative, competitive, mixed)",
-    "Explain non-stationarity",
-    "Use independent learners",
-    "Discuss centralized training, decentralized execution"
-  ],
-  "knowledge_refs": [
-    "reinforcement-learning/rl-15-imitation-learning",
-    "ai-agents/agents-06-multi-agent-systems",
-    "ai-agents/agents-02-agent-architecture"
-  ],
-  "prerequisites": [
-    "RL-12: PPO & Modern Policy Optimization"
-  ],
-  "references": [
-    {
-      "title": "Reinforcement Learning: An Introduction — Sutton & Barto",
-      "url": "http://incompleteideas.net/book/the-book-2nd.html",
-      "description": "The canonical RL textbook (free PDF)."
-    },
-    {
-      "title": "Spinning Up in Deep RL — OpenAI",
-      "url": "https://spinningup.openai.com/en/latest/",
-      "description": "A practitioner-focused deep RL resource with clean implementations."
-    },
-    {
-      "title": "Stable-Baselines3 Documentation",
-      "url": "https://stable-baselines3.readthedocs.io/",
-      "description": "Reliable RL algorithm implementations in PyTorch."
-    },
-    {
-      "title": "Gymnasium Documentation",
-      "url": "https://gymnasium.farama.org/",
-      "description": "The standard API for RL environments."
-    },
-    {
-      "title": "RL Course by David Silver",
-      "url": "https://www.davidsilver.uk/teaching/",
-      "description": "The classic lecture series on RL fundamentals."
-    }
-  ]
-}
+slug: rl-16-multi-agent-rl
+title: "Multi-Agent Reinforcement Learning"
+description: "Agents interacting with each other — cooperative, competitive, and communication in multi-agent systems."
+order: 16
+tags:
+  - reinforcement-learning
+  - multi-agent
+  - marl
+  - self-play
+  - cooperative
+  - competitive
+prerequisites:
+  - rl-11-actor-critic
+knowledge_refs:
+  - rl-11-actor-critic
+    title: "Actor-Critic Methods"
+  - rl-17-rl-in-games
+    title: "RL in Games"
+  - rl-02-markov-decision-processes
+    title: "Markov Decision Processes"
+references:
+  - title: "Multi-Agent RL Survey — Zhang et al."
+    url: "https://arxiv.org/abs/1810.11735"
+  - title: "MARL with Self-Play — OpenAI"
+    url: "https://openai.com/research/"
+  - title: "QMIX — Value Decomposition Methods"
+    url: "https://arxiv.org/abs/1803.11485"
+  - title: "CommNet — Learning to Communicate"
+    url: "https://arxiv.org/abs/1705.10868"
+  - title: "Multi-Agent Actor-Critic (MADDPG)"
+    url: "https://arxiv.org/abs/1706.02275"
 ---
 
-# RL-16-MULTI-AGENT-RL: Multi-Agent Reinforcement Learning
+## Multi-Agent Reinforcement Learning
 
-## Introduction
+MARL extends RL to settings with multiple interacting agents. The environment is non-stationary from each agent's perspective because other agents are simultaneously learning and changing behavior.
 
-Multiple learners interacting: cooperation, competition, and the games they create. By the end of this lesson you will be able to: Describe multi-agent settings (cooperative, competitive, mixed); Explain non-stationarity; Use independent learners; Discuss centralized training, decentralized execution.
+### Types of Multi-Agent Settings
 
-## Key Concepts
+**Cooperative:** All agents share a common goal (team sports, multi-robot coordination). The challenge is coordinating behavior without centralized control.
 
-### 1. Describe multi-agent settings (cooperative, competitive, mixed)
+**Competitive:** Agents have opposing goals (chess, poker). The challenge is modeling opponent behavior and adapting strategy.
 
-Target: Describe multi-agent settings (cooperative, competitive, mixed). Start with the foundations — read the runnable example carefully and trace its output before moving on.
+**Mixed:** Some agents cooperate, others compete (self-driving with other cars). The most realistic and complex setting.
 
-```python
-settings = {
-    "cooperative": "shared reward",
-    "competitive": "zero-sum",
-    "mixed": "social dilemmas",
-}
-print(settings)
-```
-### 2. Explain non-stationarity
+### Key Challenges
 
-Target: Explain non-stationarity. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+**Non-stationarity:** From each agent's perspective, the environment changes as other agents learn. Standard RL algorithms assume a stationary environment.
 
-```python
-print("non-stationary: the environment changes as others learn")
-```
-### 3. Use independent learners
+**Credit assignment:** In cooperative settings, how do you attribute team success to individual agent actions?
 
-Target: Use independent learners. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+**Scalability:** The joint action space grows exponentially with the number of agents.
 
-```python
-import numpy as np
+### Approaches
 
-# Independent Q-learners: each learns its own table
-Q_a = np.zeros((4, 2))
-Q_b = np.zeros((4, 2))
-print("independent learners")
-```
-### 4. Discuss centralized training, decentralized execution
+**Centralized training, decentralized execution (CTDE):** Train with access to all agents' information, but each agent acts independently at test time. Examples: MADDPG, QMIX.
 
-Target: Discuss centralized training, decentralized execution. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+**Self-play:** Agents train against copies of themselves, developing increasingly sophisticated strategies. Used in AlphaGo, OpenAI Five.
 
-```python
-print("CTDE: train together centrally, act with local info")
-```
+**Communication:** Agents learn to share information through learned communication protocols. Examples: CommNet, TarMAC.
 
-## Practice Questions
+**Value decomposition:** Factorize the joint value function into individual agent contributions. Examples: QMIX, VDN.
 
-1. What is the key idea behind "Multi-Agent Reinforcement Learning"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+### Common Mistakes
 
-## LLM Prompts for Deeper Understanding
+- **Ignoring non-stationarity:** Standard single-agent RL fails in multi-agent settings.
+- **Assuming cooperation:** In mixed settings, agents may need to model opponent behavior.
+- **Scalability:** Naive approaches don't scale beyond a few agents.
 
-1. "Explain Multi-Agent Reinforcement Learning with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Multi-Agent Reinforcement Learning"
-1. "Provide advanced patterns and performance considerations for Multi-Agent Reinforcement Learning"
+---
 
-## Key Takeaways
-
-- Master the core ideas of Multi-Agent Reinforcement Learning through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
-
-## Further Reading
-
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+*Continue to learn about RL in games — from board games to complex video games.*

@@ -1,119 +1,84 @@
 ---
-{
-  "title": "Offline Reinforcement Learning",
-  "description": "Learn policies from logged data without a live environment — conservative and practical.",
-  "type": "lesson",
-  "order": 14,
-  "duration": "55 min",
-  "difficulty": "advanced",
-  "learning_objectives": [
-    "Explain the offline RL setting",
-    "Describe distribution shift",
-    "Use conservative methods (CQL)",
-    "Evaluate offline policies safely"
-  ],
-  "knowledge_refs": [
-    "reinforcement-learning/rl-13-reward-design",
-    "ai-safety/safety-08-governance"
-  ],
-  "prerequisites": [
-    "RL-12: PPO & Modern Policy Optimization"
-  ],
-  "references": [
-    {
-      "title": "Reinforcement Learning: An Introduction — Sutton & Barto",
-      "url": "http://incompleteideas.net/book/the-book-2nd.html",
-      "description": "The canonical RL textbook (free PDF)."
-    },
-    {
-      "title": "Spinning Up in Deep RL — OpenAI",
-      "url": "https://spinningup.openai.com/en/latest/",
-      "description": "A practitioner-focused deep RL resource with clean implementations."
-    },
-    {
-      "title": "Stable-Baselines3 Documentation",
-      "url": "https://stable-baselines3.readthedocs.io/",
-      "description": "Reliable RL algorithm implementations in PyTorch."
-    },
-    {
-      "title": "Gymnasium Documentation",
-      "url": "https://gymnasium.farama.org/",
-      "description": "The standard API for RL environments."
-    },
-    {
-      "title": "RL Course by David Silver",
-      "url": "https://www.davidsilver.uk/teaching/",
-      "description": "The classic lecture series on RL fundamentals."
-    }
-  ]
-}
+slug: rl-14-offline-rl
+title: "Offline Reinforcement Learning"
+description: "Learning from pre-collected datasets without environment interaction — batch RL, conservative Q-learning, and decision transformers."
+order: 14
+tags:
+  - reinforcement-learning
+  - offline-rl
+  - batch-rl
+  - conservative-q-learning
+  - decision-transformer
+prerequisites:
+  - rl-09-deep-q-networks
+knowledge_refs:
+  - rl-09-deep-q-networks
+    title: "Deep Q-Networks"
+  - rl-15-imitation-learning
+    title: "Imitation Learning"
+  - rl-10-policy-gradient-methods
+    title: "Policy Gradient Methods"
+references:
+  - title: "Conservative Q-Learning — Kumar et al. (2020)"
+    url: "https://arxiv.org/abs/2006.04779"
+  - title: "Decision Transformer — Chen et al. (2021)"
+    url: "https://arxiv.org/abs/2106.01345"
+  - title: "Offline RL — Levine et al. (2020)"
+    url: "https://arxiv.org/abs/2005.01643"
+  - title: "BCQ — Fujimoto et al. (2019)"
+    url: "https://arxiv.org/abs/1812.02900"
+  - title: "MOReL — Kumar et al. (2020)"
+    url: "https://arxiv.org/abs/2005.01643"
 ---
 
-# RL-14-OFFLINE-RL: Offline Reinforcement Learning
+## Offline Reinforcement Learning
 
-## Introduction
+Offline RL learns policies from pre-collected datasets without interacting with the environment. This is critical when environment interaction is expensive, dangerous, or impossible — autonomous driving, healthcare, robotics.
 
-Learn policies from logged data without a live environment — conservative and practical. By the end of this lesson you will be able to: Explain the offline RL setting; Describe distribution shift; Use conservative methods (CQL); Evaluate offline policies safely.
+### Why Offline RL?
 
-## Key Concepts
+**Safety:** Can't afford to explore in safety-critical domains (self-driving, medical treatment).
 
-### 1. Explain the offline RL setting
+**Cost:** Real-world interaction is expensive (robot hardware, energy).
 
-Target: Explain the offline RL setting. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+**Data availability:** Large datasets already exist (web logs, driving records, clinical data).
 
-```python
-import numpy as np
+**Reproducibility:** Fixed datasets enable reproducible research.
 
-# Offline dataset: (s, a, r, s', done) tuples, no new interaction
-N = 1000
-s = np.random.default_rng(0).normal(size=(N, 4))
-print("offline dataset:", s.shape)
-```
-### 2. Describe distribution shift
+### The Challenge: Distribution Shift
 
-Target: Describe distribution shift. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+Standard RL algorithms are trained on data they generate. Offline, the policy may select actions never seen in the dataset. Extrapolation beyond the dataset leads to catastrophic overestimation.
 
-```python
-print("risk: policy sees states it never visited -> unreliable")
-```
-### 3. Use conservative methods (CQL)
+### Conservative Q-Learning (CQL)
 
-Target: Use conservative methods (CQL). Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+CQL addresses overestimation by learning a lower bound on Q-values:
 
-```python
-import numpy as np
+**Q̂(s,a) ≤ Q*(s,a)** for all (s,a) in the dataset
 
-# Conservative Q: penalize unseen actions
-Q = np.array([0.5, 0.8])
-penalty = 0.1
-print("conservative Q:", Q - penalty)
-```
-### 4. Evaluate offline policies safely
+It penalizes Q-values for actions outside the dataset's distribution, preventing the policy from exploiting unknown regions.
 
-Target: Evaluate offline policies safely. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+### Batch-Constrained Deep Q-Learning (BCQ)
 
-```python
-print("evaluate via off-policy evaluation or safe rollout")
-```
+BCQ constrains the policy to only select actions similar to those in the dataset:
+1. Train a generative model of dataset actions
+2. During action selection, perturb only the top actions from the generative model
+3. The policy never strays far from the dataset distribution
 
-## Practice Questions
+### Decision Transformer
 
-1. What is the key idea behind "Offline Reinforcement Learning"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+Reframes RL as sequence modeling:
+- Treat (return-to-go, state, action) as tokens
+- Train a transformer to predict the next action given desired return and history
+- At inference, specify the desired return and the model generates actions
 
-## LLM Prompts for Deeper Understanding
+No Bellman updates, no bootstrapping — just sequence prediction.
 
-1. "Explain Offline Reinforcement Learning with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Offline Reinforcement Learning"
-1. "Provide advanced patterns and performance considerations for Offline Reinforcement Learning"
+### Common Mistakes
 
-## Key Takeaways
+- **Using standard RL on offline data:** Q-learning overestimates values for unseen actions.
+- **Ignoring dataset quality:** Bad data produces bad policies, regardless of algorithm.
+- **Over-constraining:** Too conservative policies don't learn anything new.
 
-- Master the core ideas of Offline Reinforcement Learning through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+---
 
-## Further Reading
-
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+*Continue to learn about imitation learning — learning from expert demonstrations.*

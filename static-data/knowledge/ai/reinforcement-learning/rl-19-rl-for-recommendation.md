@@ -1,126 +1,80 @@
 ---
-{
-  "title": "RL for Recommender Systems",
-  "description": "Ranking as sequential decisions: contextual bandits and long-term user value.",
-  "type": "lesson",
-  "order": 19,
-  "duration": "50 min",
-  "difficulty": "advanced",
-  "learning_objectives": [
-    "Frame recommendation as a bandit problem",
-    "Explain contextual bandits",
-    "Balance short-term engagement with long-term value",
-    "Deploy bandits safely with policies"
-  ],
-  "knowledge_refs": [
-    "reinforcement-learning/rl-18-rl-for-robotics",
-    "llm-engineering/llm-04-prompting-systems",
-    "llm-engineering/llm-13-evaluating-llm-systems"
-  ],
-  "prerequisites": [
-    "RL-07: Exploration vs Exploitation"
-  ],
-  "references": [
-    {
-      "title": "Reinforcement Learning: An Introduction — Sutton & Barto",
-      "url": "http://incompleteideas.net/book/the-book-2nd.html",
-      "description": "The canonical RL textbook (free PDF)."
-    },
-    {
-      "title": "Spinning Up in Deep RL — OpenAI",
-      "url": "https://spinningup.openai.com/en/latest/",
-      "description": "A practitioner-focused deep RL resource with clean implementations."
-    },
-    {
-      "title": "Stable-Baselines3 Documentation",
-      "url": "https://stable-baselines3.readthedocs.io/",
-      "description": "Reliable RL algorithm implementations in PyTorch."
-    },
-    {
-      "title": "Gymnasium Documentation",
-      "url": "https://gymnasium.farama.org/",
-      "description": "The standard API for RL environments."
-    },
-    {
-      "title": "RL Course by David Silver",
-      "url": "https://www.davidsilver.uk/teaching/",
-      "description": "The classic lecture series on RL fundamentals."
-    }
-  ]
-}
+slug: rl-19-rl-for-recommendation
+title: "RL for Recommender Systems"
+description: "Sequential decision-making for user engagement — bandits, contextual bandits, and RL for recommendations and ads."
+order: 19
+tags:
+  - reinforcement-learning
+  - recommender-systems
+  - bandits
+  - contextual-bandits
+  - user-modeling
+prerequisites:
+  - rl-01-what-is-reinforcement-learning
+knowledge_refs:
+  - rl-01-what-is-reinforcement-learning
+    title: "What Is Reinforcement Learning?"
+  - rl-07-exploration-vs-exploitation
+    title: "Exploration vs Exploitation"
+  - rl-06-q-learning
+    title: "Q-Learning"
+references:
+  - title: "Contextual Bandits for Recommendations — Li et al."
+    url: "https://arxiv.org/abs/1003.0146"
+  - title: "RL for Recommendation Systems — Survey"
+    url: "https://arxiv.org/abs/2203.13539"
+  - title: "Deep Reinforcement Learning for Page-Wide Recommendations"
+    url: "https://arxiv.org/abs/1611.00399"
+  - title: "Bandit Algorithms for Website Optimization"
+    url: "https://www.jmlr.org/papers/volume14/li13a/li13a.pdf"
+  - title: "Exploration in Interactive Recommender Systems"
+    url: "https://dl.acm.org/doi/10.1145/2652481.2652496"
 ---
 
-# RL-19-RL-FOR-RECOMMENDATION: RL for Recommender Systems
+## RL for Recommender Systems
 
-## Introduction
+Recommendation is a sequential decision-making problem: each recommendation changes user state, and the goal is to maximize long-term engagement, not just immediate clicks.
 
-Ranking as sequential decisions: contextual bandits and long-term user value. By the end of this lesson you will be able to: Frame recommendation as a bandit problem; Explain contextual bandits; Balance short-term engagement with long-term value; Deploy bandits safely with policies.
+### Why RL for Recommendations?
 
-## Key Concepts
+**Sequential nature:** Recommendations are sequential — each choice affects future user behavior.
 
-### 1. Frame recommendation as a bandit problem
+**Delayed feedback:** True preference (purchase, subscription) arrives long after the click.
 
-Target: Frame recommendation as a bandit problem. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+**Exploration-exploitation:** The system must try new items (explore) while recommending known good items (exploit).
 
-```python
-import numpy as np
+**Long-term optimization:** Maximizing immediate clicks leads to clickbait. RL optimizes long-term user satisfaction.
 
-# Contextual bandit: choose item given user context
-context = np.array([0.3, 0.7, 0.2])
-item_values = np.array([0.5, 0.9, 0.4])
-print("recommend item:", int(np.argmax(item_values)))
-```
-### 2. Explain contextual bandits
+### Bandit Approaches
 
-Target: Explain contextual bandits. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+**Multi-armed bandits:** The simplest case — K items, unknown reward distributions. Pull one arm per round. Maximizes cumulative reward.
 
-```python
-import numpy as np
+**Contextual bandits:** Items have features (category, price, popularity). Use features to generalize across items. This is the foundation of modern recommendation RL.
 
-# Explore: try new items for some users
-rng = np.random.default_rng(0)
-if rng.random() < 0.1:
-    print("explore: random item")
-else:
-    print("exploit: best item")
-```
-### 3. Balance short-term engagement with long-term value
+**LinUCB:** Upper confidence bound for linear contextual bandits. Provably optimal under linear reward assumptions.
 
-Target: Balance short-term engagement with long-term value. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+### Deep RL for Recommendations
 
-```python
-import numpy as np
+For large-scale recommendations with millions of items:
+- **State:** User history, demographics, context (time, device)
+- **Action:** Select item from catalog
+- **Reward:** Click, purchase, time spent, satisfaction
 
-# Long-term value via discounting
-rewards = np.array([1.0, 0.5, 0.8])
-print("discounted value:", round((0.9 ** np.arange(3) * rewards).sum(), 3))
-```
-### 4. Deploy bandits safely with policies
+Deep Q-networks or policy gradient methods learn user response models and optimize long-term engagement.
 
-Target: Deploy bandits safely with policies. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+### Challenges
 
-```python
-print("offline evaluation on logged interactions")
-```
+**Scalability:** Action spaces with millions of items require efficient exploration.
+**Non-stationarity:** User preferences change over time.
+**Feedback loops:** Recommendations shape preferences, creating feedback loops.
+**Cold start:** New users and items have no history.
 
-## Practice Questions
+### Common Mistakes
 
-1. What is the key idea behind "RL for Recommender Systems"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+- **Optimizing for clicks:** Clicks ≠ satisfaction. Long-term metrics matter.
+- **Ignoring exploration:** Pure exploitation leads to filter bubbles.
+- **No user modeling:** Static recommendations don't adapt to changing preferences.
 
-## LLM Prompts for Deeper Understanding
+---
 
-1. "Explain RL for Recommender Systems with analogies and real-world examples"
-1. "Show me common mistakes beginners make with RL for Recommender Systems"
-1. "Provide advanced patterns and performance considerations for RL for Recommender Systems"
-
-## Key Takeaways
-
-- Master the core ideas of RL for Recommender Systems through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
-
-## Further Reading
-
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+*Continue to learn about evaluating RL agents — measuring performance and ensuring reproducibility.*

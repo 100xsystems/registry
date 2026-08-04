@@ -1,124 +1,90 @@
 ---
-{
-  "title": "Evaluating RL Agents",
-  "description": "Measures beyond total reward: returns curves, sample efficiency and robustness.",
-  "type": "lesson",
-  "order": 20,
-  "duration": "50 min",
-  "difficulty": "advanced",
-  "learning_objectives": [
-    "Read learning curves correctly",
-    "Report mean and variance across seeds",
-    "Measure sample efficiency",
-    "Test robustness to environment changes"
-  ],
-  "knowledge_refs": [
-    "ai-agents/agents-12-evaluating-agents",
-    "reinforcement-learning/rl-19-rl-for-recommendation",
-    "ai-agents/agents-01-what-are-ai-agents"
-  ],
-  "prerequisites": [
-    "RL-12: PPO & Modern Policy Optimization"
-  ],
-  "references": [
-    {
-      "title": "Reinforcement Learning: An Introduction — Sutton & Barto",
-      "url": "http://incompleteideas.net/book/the-book-2nd.html",
-      "description": "The canonical RL textbook (free PDF)."
-    },
-    {
-      "title": "Spinning Up in Deep RL — OpenAI",
-      "url": "https://spinningup.openai.com/en/latest/",
-      "description": "A practitioner-focused deep RL resource with clean implementations."
-    },
-    {
-      "title": "Stable-Baselines3 Documentation",
-      "url": "https://stable-baselines3.readthedocs.io/",
-      "description": "Reliable RL algorithm implementations in PyTorch."
-    },
-    {
-      "title": "Gymnasium Documentation",
-      "url": "https://gymnasium.farama.org/",
-      "description": "The standard API for RL environments."
-    },
-    {
-      "title": "RL Course by David Silver",
-      "url": "https://www.davidsilver.uk/teaching/",
-      "description": "The classic lecture series on RL fundamentals."
-    }
-  ]
-}
+slug: rl-20-evaluating-rl-agents
+title: "Evaluating RL Agents"
+description: "Measuring performance and ensuring reproducibility — RL evaluation metrics, benchmarks, and common pitfalls."
+order: 20
+tags:
+  - reinforcement-learning
+  - evaluation
+  - metrics
+  - benchmarks
+  - reproducibility
+prerequisites:
+  - rl-11-actor-critic
+knowledge_refs:
+  - rl-11-actor-critic
+    title: "Actor-Critic Methods"
+  - rl-01-what-is-reinforcement-learning
+    title: "What Is Reinforcement Learning?"
+  - rl-21-roadmap
+    title: "Reinforcement Learning Roadmap"
+references:
+  - title: "Empirical Evaluation of RL Algorithms — Henderson et al."
+    url: "https://arxiv.org/abs/1707.03899"
+  - title: "Deep RL Eval — How to Evaluate RL Algorithms"
+    url: "https://spinningup.openai.com/en/latest/spinningup/spinningup.html"
+  - title: "Reproducibility in Deep RL — Andrychowicz et al."
+    url: "https://arxiv.org/abs/2005.13509"
+  - title: "Gymnasium Benchmark Environments"
+    url: "https://gymnasium.farama.org/"
+  - title: "RL Baselines Comparison — Practical RL"
+    url: "https://arxiv.org/abs/2007.12869"
 ---
 
-# RL-20-EVALUATING-RL-AGENTS: Evaluating RL Agents
+## Evaluating RL Agents
 
-## Introduction
+RL evaluation is notoriously difficult. High variance across random seeds, sensitivity to hyperparameters, and non-stationary learning curves make reliable comparison challenging.
 
-Measures beyond total reward: returns curves, sample efficiency and robustness. By the end of this lesson you will be able to: Read learning curves correctly; Report mean and variance across seeds; Measure sample efficiency; Test robustness to environment changes.
+### Evaluation Metrics
 
-## Key Concepts
+**Episodic return:** Total reward per episode. The primary metric. Report mean ± standard deviation across seeds.
 
-### 1. Read learning curves correctly
+**Sample efficiency:** How many environment steps to reach a performance threshold. Critical for real-world applications.
 
-Target: Read learning curves correctly. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+**Asymptotic performance:** Final performance after convergence.
 
-```python
-import numpy as np
+**Training stability:** Variance across random seeds. High variance indicates algorithmic instability.
 
-# Learning curves: mean + std band over seeds
-seeds = np.random.default_rng(0).normal(size=(5, 100))
-mean = seeds.mean(axis=0)
-std = seeds.std(axis=0)
-print("final mean:", round(mean[-1], 2), "+-", round(std[-1], 2))
-```
-### 2. Report mean and variance across seeds
+**Wall-clock time:** Total training time. Important for practical deployment.
 
-Target: Report mean and variance across seeds. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+### Best Practices
 
-```python
-import numpy as np
+**Multiple random seeds:** Run at least 5–10 seeds. Report mean and confidence intervals, not just the best run.
 
-# Sample efficiency: return per timestep
-return_per_step = 0.01
-print("after 1M steps:", int(1_000_000 * return_per_step))
-```
-### 3. Measure sample efficiency
+**Statistical tests:** Use paired t-tests or bootstrap confidence intervals to compare algorithms.
 
-Target: Measure sample efficiency. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+**Fixed compute budgets:** Compare algorithms at the same total environment steps, not wall-clock time.
 
-```python
-import numpy as np
+**Learning curves, not final scores:** The full learning trajectory matters — a fast-learning algorithm may be preferable even with lower asymptotic performance.
 
-# Robustness: perturb the environment
-for noise in [0.0, 0.1, 0.5]:
-    print(f"noise {noise}: perturbed reward {round(1.0 - noise * 0.5, 2)}")
-```
-### 4. Test robustness to environment changes
+**Hyperparameter sensitivity:** Report performance across hyperparameter settings, not just the best configuration.
 
-Target: Test robustness to environment changes. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+### Benchmark Environments
 
-```python
-print("always report multiple seeds, not one lucky run")
-```
+**Gymnasium:** Standard continuous control (CartPole, Pendulum, MuJoCo tasks).
 
-## Practice Questions
+**Atari 2600:** Pixel-based game playing benchmark.
 
-1. What is the key idea behind "Evaluating RL Agents"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+**MuJoCo:** High-fidelity physics for locomotion and manipulation.
 
-## LLM Prompts for Deeper Understanding
+**ML-Agents:** Unity-based 3D environments.
 
-1. "Explain Evaluating RL Agents with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Evaluating RL Agents"
-1. "Provide advanced patterns and performance considerations for Evaluating RL Agents"
+### Common Pitfalls
 
-## Key Takeaways
+**Seed sensitivity:** Two algorithms may swap ranking across different seeds. Always use multiple seeds.
 
-- Master the core ideas of Evaluating RL Agents through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+**Reporting only the best seed:** Cherry-picking the best run misrepresents performance.
 
-## Further Reading
+**Ignoring hyperparameter tuning:** Comparing untuned algorithms is meaningless.
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+**Overfitting to benchmarks:** Performance on standard benchmarks may not transfer to real-world tasks.
+
+### Common Mistakes
+
+- **Single seed evaluation:** Inadequate for reliable comparison.
+- **No confidence intervals:** Mean without variance is misleading.
+- **Ignoring sample efficiency:** For real-world RL, sample efficiency matters more than asymptotic performance.
+
+---
+
+*Continue to the final lesson — your roadmap for a career in reinforcement learning.*

@@ -1,119 +1,93 @@
 ---
-{
-  "title": "Imitation Learning",
-  "description": "Learn from demonstrations: behavioral cloning and DAgger for expert-like behavior.",
-  "type": "lesson",
-  "order": 15,
-  "duration": "50 min",
-  "difficulty": "advanced",
-  "learning_objectives": [
-    "Explain behavioral cloning",
-    "Describe the covariate shift problem",
-    "Use DAgger to correct drift",
-    "Combine imitation with RL"
-  ],
-  "knowledge_refs": [
-    "reinforcement-learning/rl-14-offline-rl"
-  ],
-  "prerequisites": [
-    "RL-10: Policy Gradient Methods"
-  ],
-  "references": [
-    {
-      "title": "Reinforcement Learning: An Introduction — Sutton & Barto",
-      "url": "http://incompleteideas.net/book/the-book-2nd.html",
-      "description": "The canonical RL textbook (free PDF)."
-    },
-    {
-      "title": "Spinning Up in Deep RL — OpenAI",
-      "url": "https://spinningup.openai.com/en/latest/",
-      "description": "A practitioner-focused deep RL resource with clean implementations."
-    },
-    {
-      "title": "Stable-Baselines3 Documentation",
-      "url": "https://stable-baselines3.readthedocs.io/",
-      "description": "Reliable RL algorithm implementations in PyTorch."
-    },
-    {
-      "title": "Gymnasium Documentation",
-      "url": "https://gymnasium.farama.org/",
-      "description": "The standard API for RL environments."
-    },
-    {
-      "title": "RL Course by David Silver",
-      "url": "https://www.davidsilver.uk/teaching/",
-      "description": "The classic lecture series on RL fundamentals."
-    }
-  ]
-}
+slug: rl-15-imitation-learning
+title: "Imitation Learning"
+description: "Learning from expert demonstrations — behavior cloning, DAgger, inverse RL, and learning without hand-crafted rewards."
+order: 15
+tags:
+  - reinforcement-learning
+  - imitation-learning
+  - behavior-cloning
+  - dagger
+  - inverse-rl
+prerequisites:
+  - rl-13-reward-design
+knowledge_refs:
+  - rl-13-reward-design
+    title: "Reward Design"
+  - rl-14-offline-rl
+    title: "Offline Reinforcement Learning"
+  - rl-10-policy-gradient-methods
+    title: "Policy Gradient Methods"
+references:
+  - title: "Ross & Bagnell (2010) — Efficient Reductions for Imitation Learning"
+    url: "https://proceedings.mlr.press/v9/ross10a.html"
+  - title: "Behavior Cloning — Ross et al."
+    url: "https://www.cs.cmu.edu/~sross1/publications/RSS-AoIR12-ross.pdf"
+  - title: "DAgger — Ross et al. (2011)"
+    url: "https://arxiv.org/abs/1011.0686"
+  - title: "Inverse RL — Ng & Russell (2000)"
+    url: "https://people.eecs.berkeley.edu/~russell/papers/ecml00-ir.pdf"
+  - title: "GAIL — Ho & Ermon (2016)"
+    url: "https://arxiv.org/abs/1606.03476"
 ---
 
-# RL-15-IMITATION-LEARNING: Imitation Learning
+## Imitation Learning
 
-## Introduction
+Imitation learning learns policies from expert demonstrations instead of hand-crafted reward functions. When designing rewards is hard but expert behavior is available, imitation learning bridges the gap.
 
-Learn from demonstrations: behavioral cloning and DAgger for expert-like behavior. By the end of this lesson you will be able to: Explain behavioral cloning; Describe the covariate shift problem; Use DAgger to correct drift; Combine imitation with RL.
+### Behavior Cloning
 
-## Key Concepts
+The simplest approach: treat demonstrations as a supervised learning problem.
 
-### 1. Explain behavioral cloning
+**Collect expert demonstrations:** (state, action) pairs
+**Train a policy:** π_θ(a|s) to minimize classification loss (discrete actions) or regression loss (continuous actions)
 
-Target: Explain behavioral cloning. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+**Advantages:**
+- Simple to implement
+- No reward function needed
+- Works with any supervised learning method
 
-```python
-import numpy as np
+**Limitations:**
+- Compounding errors: small mistakes lead to unseen states
+- No exploration: never learns to recover from mistakes
+- Distribution shift: training distribution ≠ test distribution
 
-# Behavioral cloning: supervised learning on (obs, action)
-obs = np.random.default_rng(0).normal(size=(500, 4))
-actions = np.random.default_rng(1).randint(0, 2, size=500)
-print("demo dataset:", obs.shape, actions.shape)
-```
-### 2. Describe the covariate shift problem
+### DAgger (Dataset Aggregation)
 
-Target: Describe the covariate shift problem. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+DAgger addresses compounding errors by iteratively aggregating expert data:
 
-```python
-from sklearn.linear_model import LogisticRegression
+1. Train initial policy π_1 on expert demonstrations
+2. Run π_1 in the environment
+3. Ask the expert to label the states the policy actually visits
+4. Add these labels to the training dataset
+5. Retrain the policy on the combined dataset
+6. Repeat
 
-clf = LogisticRegression().fit(obs, actions)
-print("clone accuracy:", round(clf.score(obs, actions), 3))
-```
-### 3. Use DAgger to correct drift
+DAgger bridges the distribution shift by training on states the policy encounters, not just expert states.
 
-Target: Use DAgger to correct drift. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+### Inverse Reinforcement Learning (IRL)
 
-```python
-print("drift: small errors compound as the agent leaves the demo distribution")
-```
-### 4. Combine imitation with RL
+Instead of learning a policy directly, IRL infers the reward function from expert behavior, then runs RL on the inferred reward:
 
-Target: Combine imitation with RL. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+1. Observe expert demonstrations
+2. Infer reward function R(s,a) that makes expert behavior optimal
+3. Train a policy using RL on R(s,a)
 
-```python
-import numpy as np
+**Applications:** Learning human preferences, reward shaping, understanding expert intent.
 
-# DAgger: query the expert on visited states
-print("aggregate: add expert labels for states the learner visits")
-```
+### GAIL (Generative Adversarial Imitation Learning)
 
-## Practice Questions
+Combines GANs with imitation learning:
+- Generator: policy that generates state-action trajectories
+- Discriminator: distinguishes expert from generated trajectories
+- Training: adversarial — the policy improves to fool the discriminator
 
-1. What is the key idea behind "Imitation Learning"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+### Common Mistakes
 
-## LLM Prompts for Deeper Understanding
+- **Pure behavior cloning:** Without DAgger or online correction, compounding errors destroy performance.
+- **Assuming expert optimality:** IRL assumes the expert is optimal. Suboptimal experts produce suboptimal rewards.
+- **No diversity in demonstrations:** A single expert trajectory may not capture the full solution space.
 
-1. "Explain Imitation Learning with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Imitation Learning"
-1. "Provide advanced patterns and performance considerations for Imitation Learning"
+---
 
-## Key Takeaways
-
-- Master the core ideas of Imitation Learning through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
-
-## Further Reading
-
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+*Continue to learn about multi-agent reinforcement learning — agents interacting with each other.*

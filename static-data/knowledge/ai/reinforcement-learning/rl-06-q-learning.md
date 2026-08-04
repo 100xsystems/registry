@@ -1,131 +1,86 @@
 ---
-{
-  "title": "Q-Learning",
-  "description": "Off-policy control: learn action values with Q-learning and watch agents improve from scratch.",
-  "type": "lesson",
-  "order": 6,
-  "duration": "60 min",
-  "difficulty": "advanced",
-  "learning_objectives": [
-    "Define the Q-function",
-    "Explain the Q-learning update",
-    "Implement a tabular Q-learning agent",
-    "Describe off-policy learning"
-  ],
-  "knowledge_refs": [
-    "reinforcement-learning/rl-05-temporal-difference-learning"
-  ],
-  "prerequisites": [
-    "RL-05: Temporal Difference Learning"
-  ],
-  "references": [
-    {
-      "title": "Reinforcement Learning: An Introduction — Sutton & Barto",
-      "url": "http://incompleteideas.net/book/the-book-2nd.html",
-      "description": "The canonical RL textbook (free PDF)."
-    },
-    {
-      "title": "Spinning Up in Deep RL — OpenAI",
-      "url": "https://spinningup.openai.com/en/latest/",
-      "description": "A practitioner-focused deep RL resource with clean implementations."
-    },
-    {
-      "title": "Stable-Baselines3 Documentation",
-      "url": "https://stable-baselines3.readthedocs.io/",
-      "description": "Reliable RL algorithm implementations in PyTorch."
-    },
-    {
-      "title": "Gymnasium Documentation",
-      "url": "https://gymnasium.farama.org/",
-      "description": "The standard API for RL environments."
-    },
-    {
-      "title": "RL Course by David Silver",
-      "url": "https://www.davidsilver.uk/teaching/",
-      "description": "The classic lecture series on RL fundamentals."
-    }
-  ]
-}
+slug: rl-06-q-learning
+title: "Q-Learning"
+description: "The off-policy TD control algorithm that learns the optimal action-value function directly — the foundation of deep RL."
+order: 6
+tags:
+  - reinforcement-learning
+  - q-learning
+  - off-policy
+  - td-control
+  - q-table
+prerequisites:
+  - rl-05-temporal-difference-learning
+knowledge_refs:
+  - rl-05-temporal-difference-learning
+    title: "Temporal Difference Learning"
+  - rl-09-deep-q-networks
+    title: "Deep Q-Networks"
+  - rl-07-exploration-vs-exploitation
+    title: "Exploration vs Exploitation"
+references:
+  - title: "Q-Learning — Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Q-learning"
+  - title: "A Deep Dive into Q-Learning — NeuraForge"
+    url: "https://neuraforge.substack.com/p/a-deep-dive-into-q-learning"
+  - title: "Q-Learning in Python — GeeksforGeeks"
+    url: "https://www.geeksforgeeks.org/machine-learning/q-learning-in-python/"
+  - title: "Watkins (1989) — Learning from Delayed Rewards"
+    url: "https://link.springer.com/article/10.1007/BF00992698"
+  - title: "OpenAI Spinning Up — Q-Learning"
+    url: "https://spinningup.openai.com/en/latest/spinningup/algorithms/qlearning.html"
 ---
 
-# RL-06-Q-LEARNING: Q-Learning
+## Q-Learning
 
-## Introduction
+Q-learning is the off-policy TD control algorithm that learns the optimal action-value function Q*(s,a) directly. It's the foundation of deep RL — DQN, Rainbow, and most value-based algorithms build on Q-learning.
 
-Off-policy control: learn action values with Q-learning and watch agents improve from scratch. By the end of this lesson you will be able to: Define the Q-function; Explain the Q-learning update; Implement a tabular Q-learning agent; Describe off-policy learning.
+### The Q-Learning Update Rule
 
-## Key Concepts
+**Q(S_t, A_t) ← Q(S_t, A_t) + α[R_{t+1} + γ max_a Q(S_{t+1}, a) - Q(S_t, A_t)]**
 
-### 1. Define the Q-function
+Key insight: The update uses **max_a Q(S_{t+1}, a)** — the value of the best possible next action — regardless of what action the agent actually takes. This makes Q-learning off-policy.
 
-Target: Define the Q-function. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+### The Q-Table
 
-```python
-import numpy as np
+A lookup table where rows are states and columns are actions. Each cell stores Q(s,a) — the estimated value of taking action a in state s.
 
-# Q-learning update
-Q = np.zeros((4, 2))
-alpha, gamma = 0.1, 0.9
-s, a, r, s_next = 0, 0, 0.0, 1
-Q[s, a] += alpha * (r + gamma * Q[s_next].max() - Q[s, a])
-print("Q table:", Q)
-```
-### 2. Explain the Q-learning update
+For small, discrete MDPs, Q-learning converges to the optimal Q* with probability 1 if:
+- Every state-action pair is visited infinitely often
+- Learning rate satisfies Robbins-Monro conditions
 
-Target: Explain the Q-learning update. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+### Q-Learning vs SARSA
 
-```python
-import numpy as np
+| Aspect | Q-Learning (Off-Policy) | SARSA (On-Policy) |
+|---|---|---|
+| Update target | max_a Q(s', a) | Q(s', a') — actual next action |
+| Learns | Optimal policy directly | Value of current policy |
+| Exploration impact | Ignores exploration mistakes | Learns from exploration penalties |
+| Training performance | Lower (explores dangerously) | Higher (safe exploration) |
+| Final policy | Optimal | Near-optimal (ε-dependent) |
 
-# Greedy action from Q
-Q = np.array([[0.1, 0.9], [0.5, 0.2]])
-action = int(np.argmax(Q[0]))
-print("best action in s0:", action)
-```
-### 3. Implement a tabular Q-learning agent
+### The Cliff Walking Example
 
-Target: Implement a tabular Q-learning agent. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+In the classic cliff walking gridworld:
+- **Q-learning** learns to walk along the cliff edge — optimal but risky during training
+- **SARSA** learns to walk safely inland — suboptimal but safer during training
 
-```python
-import numpy as np
+This illustrates the exploration-exploitation tradeoff in action.
 
-# Epsilon-greedy: explore with prob epsilon
-rng = np.random.default_rng(0)
-eps = 0.1
-chosen = rng.choice(2) if rng.random() < eps else int(np.argmax(Q[0]))
-print("chosen action:", chosen)
-```
-### 4. Describe off-policy learning
+### Convergence Guarantees
 
-Target: Describe off-policy learning. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+Watkins and Dayan (1992) proved Q-learning converges to Q* with probability 1 given:
+1. All state-action pairs are visited infinitely often
+2. α_t satisfies: Σα_t = ∞ and Σα_t² < ∞
 
-```python
-import numpy as np
+In practice, convergence is slow for large state spaces — motivating function approximation.
 
-# Learning rate decay: big steps early, fine later
-for t in range(100):
-    alpha = 1.0 / (1 + t)
-print("final alpha:", round(alpha, 4))
-```
+### Common Mistakes
 
-## Practice Questions
+- **No exploration:** Without ε-greedy, Q-learning never discovers good actions.
+- **Learning rate too high:** Causes oscillation and divergence.
+- **Ignoring convergence conditions:** Q-learning may not converge with function approximation.
 
-1. What is the key idea behind "Q-Learning"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+---
 
-## LLM Prompts for Deeper Understanding
-
-1. "Explain Q-Learning with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Q-Learning"
-1. "Provide advanced patterns and performance considerations for Q-Learning"
-
-## Key Takeaways
-
-- Master the core ideas of Q-Learning through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
-
-## Further Reading
-
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+*Continue to learn about exploration vs exploitation — the fundamental tradeoff in RL.*

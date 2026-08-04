@@ -1,134 +1,92 @@
 ---
-{
-  "title": "Policy Gradient Methods",
-  "description": "Optimize the policy directly — REINFORCE and the log-probability trick.",
-  "type": "lesson",
-  "order": 10,
-  "duration": "60 min",
-  "difficulty": "advanced",
-  "learning_objectives": [
-    "Explain policy parameterization",
-    "Derive the REINFORCE update",
-    "Implement a policy-gradient loop",
-    "Reduce variance with baselines"
-  ],
-  "knowledge_refs": [
-    "reinforcement-learning/rl-09-deep-q-networks",
-    "machine-learning/ml-06-gradient-descent",
-    "machine-learning/ml-10-gradient-boosting"
-  ],
-  "prerequisites": [
-    "RL-08: Function Approximation"
-  ],
-  "references": [
-    {
-      "title": "Reinforcement Learning: An Introduction — Sutton & Barto",
-      "url": "http://incompleteideas.net/book/the-book-2nd.html",
-      "description": "The canonical RL textbook (free PDF)."
-    },
-    {
-      "title": "Spinning Up in Deep RL — OpenAI",
-      "url": "https://spinningup.openai.com/en/latest/",
-      "description": "A practitioner-focused deep RL resource with clean implementations."
-    },
-    {
-      "title": "Stable-Baselines3 Documentation",
-      "url": "https://stable-baselines3.readthedocs.io/",
-      "description": "Reliable RL algorithm implementations in PyTorch."
-    },
-    {
-      "title": "Gymnasium Documentation",
-      "url": "https://gymnasium.farama.org/",
-      "description": "The standard API for RL environments."
-    },
-    {
-      "title": "RL Course by David Silver",
-      "url": "https://www.davidsilver.uk/teaching/",
-      "description": "The classic lecture series on RL fundamentals."
-    }
-  ]
-}
+slug: rl-10-policy-gradient-methods
+title: "Policy Gradient Methods"
+description: "Optimizing policies directly — the policy gradient theorem, REINFORCE, variance reduction, and natural gradients."
+order: 10
+tags:
+  - reinforcement-learning
+  - policy-gradient
+  - reinforce
+  - policy-optimization
+  - variance-reduction
+prerequisites:
+  - rl-09-deep-q-networks
+knowledge_refs:
+  - rl-09-deep-q-networks
+    title: "Deep Q-Networks"
+  - rl-11-actor-critic
+    title: "Actor-Critic Methods"
+  - rl-12-proximal-policy-optimization
+    title: "PPO & Modern Policy Optimization"
+references:
+  - title: "Sutton et al. (1999) — Policy Gradient Methods"
+    url: "https://papers.nips.cc/paper/1999/hash/464d828b85b0bed98e022f3a26e17d94-Abstract.html"
+  - title: "OpenAI Spinning Up — Policy Gradient"
+    url: "https://spinningup.openai.com/en/latest/spinningup/rl_intro.html#policy-optimization"
+  - title: "REINFORCE Algorithm — Williams (1992)"
+    url: "https://link.springer.com/article/10.1007/BF00992698"
+  - title: "Policy Gradient Methods for RL — Sutton et al."
+    url: "https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf"
+  - title: "Lilian Weng — Policy Gradient Algorithms"
+    url: "https://lilianweng.github.io/posts/2018-04-08-policy-gradient/"
 ---
 
-# RL-10-POLICY-GRADIENT-METHODS: Policy Gradient Methods
+## Policy Gradient Methods
 
-## Introduction
+Instead of learning value functions and deriving policies from them, policy gradient methods optimize the policy directly. They parameterize the policy as π_θ(a|s) and use gradient ascent on expected return.
 
-Optimize the policy directly — REINFORCE and the log-probability trick. By the end of this lesson you will be able to: Explain policy parameterization; Derive the REINFORCE update; Implement a policy-gradient loop; Reduce variance with baselines.
+### Why Policy Gradient?
 
-## Key Concepts
+**Continuous action spaces:** Value-based methods (Q-learning) need to take max over actions — infeasible for continuous actions.
 
-### 1. Explain policy parameterization
+**Stochastic policies:** Q-learning learns deterministic policies. Policy gradient naturally handles stochastic policies, which are optimal in partially observable environments.
 
-Target: Explain policy parameterization. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+**Smoother optimization:** Small policy changes lead to small performance changes, unlike value-based methods where small Q-value changes can cause large policy changes.
 
-```python
-import torch
-import torch.nn as nn
+### The Policy Gradient Theorem
 
-class Policy(nn.Module):
-    def __init__(self):
-        super().__init__()
-        self.net = nn.Sequential(nn.Linear(4, 32), nn.ReLU(), nn.Linear(32, 2))
-    def forward(self, x):
-        return torch.softmax(self.net(x), dim=-1)
+The gradient of expected return J(θ) with respect to policy parameters θ:
 
-print(Policy())
+**∇_θ J(θ) = E_π[∇_θ log π_θ(a|s) · G_t]**
+
+- **∇_θ log π_θ(a|s):** Direction to increase probability of action a in state s
+- **G_t:** Return from time t — scales the update by how good the action was
+
+Intuition: Increase probability of actions that led to high returns, decrease probability of actions that led to low returns.
+
+### REINFORCE
+
+The simplest policy gradient algorithm:
+
 ```
-### 2. Derive the REINFORCE update
-
-Target: Derive the REINFORCE update. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
-
-```python
-import torch
-
-# REINFORCE: grad = return * grad log pi(a|s)
-log_prob = torch.tensor(-0.5, requires_grad=True)
-ret = 1.2
-loss = -(ret * log_prob)
-loss.backward()
-print("gradient:", log_prob.grad)
-```
-### 3. Implement a policy-gradient loop
-
-Target: Implement a policy-gradient loop. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
-
-```python
-import torch
-
-# Baseline reduces variance: grad = (return - b) * log pi
-ret, baseline = 1.2, 0.8
-print("advantage:", ret - baseline)
-```
-### 4. Reduce variance with baselines
-
-Target: Reduce variance with baselines. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
-
-```python
-import numpy as np
-
-# Policy is stochastic: better exploration than greedy Q
-print("samples actions from a distribution")
+Initialize policy π_θ
+For each episode:
+    Collect trajectory: s0, a0, r1, s1, a1, r2, ...
+    For each step t:
+        Gt ← return from step t
+        θ ← θ + α ∇_θ log π_θ(at|st) · Gt
 ```
 
-## Practice Questions
+REINFORCE is Monte Carlo policy gradient — it waits until the episode ends to compute returns.
 
-1. What is the key idea behind "Policy Gradient Methods"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+### Variance Reduction
 
-## LLM Prompts for Deeper Understanding
+REINFORCE has high variance because returns vary wildly across episodes.
 
-1. "Explain Policy Gradient Methods with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Policy Gradient Methods"
-1. "Provide advanced patterns and performance considerations for Policy Gradient Methods"
+**Baseline subtraction:** Subtract a baseline b(s) from the return:
 
-## Key Takeaways
+**∇_θ J(θ) = E_π[∇_θ log π_θ(a|s) · (G_t - b(s))]**
 
-- Master the core ideas of Policy Gradient Methods through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+The baseline doesn't change the expected gradient but reduces variance. Common baseline: state value function V(s).
 
-## Further Reading
+**Discounting:** Apply γ^t to weight earlier rewards more than later ones.
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+### Common Mistakes
+
+- **No baseline:** High variance makes learning unstable and slow.
+- **Too high learning rate:** Policy gradient methods are sensitive to step size.
+- **Ignoring exploration:** Policy gradient needs stochastic policies for exploration.
+
+---
+
+*Continue to learn about actor-critic methods — combining policy gradients with value functions.*

@@ -1,117 +1,83 @@
 ---
-{
-  "title": "RL for Robotics",
-  "description": "Physical agents learning motor skills: sim-to-real, reward shaping and safety in the real world.",
-  "type": "lesson",
-  "order": 18,
-  "duration": "55 min",
-  "difficulty": "advanced",
-  "learning_objectives": [
-    "Describe the challenges of learning on real hardware",
-    "Use simulation with domain randomization",
-    "Explain sim-to-real transfer",
-    "Apply safety constraints in control"
-  ],
-  "knowledge_refs": [
-    "reinforcement-learning/rl-17-rl-in-games"
-  ],
-  "prerequisites": [
-    "RL-12: PPO & Modern Policy Optimization"
-  ],
-  "references": [
-    {
-      "title": "Reinforcement Learning: An Introduction — Sutton & Barto",
-      "url": "http://incompleteideas.net/book/the-book-2nd.html",
-      "description": "The canonical RL textbook (free PDF)."
-    },
-    {
-      "title": "Spinning Up in Deep RL — OpenAI",
-      "url": "https://spinningup.openai.com/en/latest/",
-      "description": "A practitioner-focused deep RL resource with clean implementations."
-    },
-    {
-      "title": "Stable-Baselines3 Documentation",
-      "url": "https://stable-baselines3.readthedocs.io/",
-      "description": "Reliable RL algorithm implementations in PyTorch."
-    },
-    {
-      "title": "Gymnasium Documentation",
-      "url": "https://gymnasium.farama.org/",
-      "description": "The standard API for RL environments."
-    },
-    {
-      "title": "RL Course by David Silver",
-      "url": "https://www.davidsilver.uk/teaching/",
-      "description": "The classic lecture series on RL fundamentals."
-    }
-  ]
-}
+slug: rl-18-rl-for-robotics
+title: "RL for Robotics"
+description: "Sim-to-real transfer, robotics simulators, reward shaping for robots, and the challenges of real-world RL."
+order: 18
+tags:
+  - reinforcement-learning
+  - robotics
+  - sim-to-real
+  - mujoco
+  - reward-shaping
+prerequisites:
+  - rl-13-reward-design
+knowledge_refs:
+  - rl-13-reward-design
+    title: "Reward Design"
+  - rl-17-rl-in-games
+    title: "RL in Games"
+  - rl-18-rl-for-robotics
+    title: "RL for Robotics"
+references:
+  - title: "Sim-to-Real Transfer — OpenAI Rubik's Cube"
+    url: "https://openai.com/index/solving-rubiks-cube/"
+  - title: "MuJoCo Physics Simulator"
+    url: "https://mujoco.org/"
+  - title: "Isaac Gym — NVIDIA Robotics Simulator"
+    url: "https://developer.nvidia.com/isaac-gym"
+  - title: "Domain Randomization — Tobin et al."
+    url: "https://arxiv.org/abs/1703.06907"
+  - title: "Sim-to-Real for Locomotion — Rudin et al."
+    url: "https://arxiv.org/abs/1811.04750"
 ---
 
-# RL-18-RL-FOR-ROBOTICS: RL for Robotics
+## RL for Robotics
 
-## Introduction
+Robotics is one of RL's most impactful applications — and one of its hardest. Real-world robots are expensive, fragile, and slow. Simulation enables safe, fast training, but the reality gap between sim and real remains a core challenge.
 
-Physical agents learning motor skills: sim-to-real, reward shaping and safety in the real world. By the end of this lesson you will be able to: Describe the challenges of learning on real hardware; Use simulation with domain randomization; Explain sim-to-real transfer; Apply safety constraints in control.
+### The Sim-to-Real Gap
 
-## Key Concepts
+Simulators approximate physics, but real-world dynamics include:
+- Friction, contact, and deformation
+- Sensor noise and latency
+- Actuator delays and backlash
+- Unmodeled environmental factors
 
-### 1. Describe the challenges of learning on real hardware
+A policy trained in simulation may fail catastrophically in reality.
 
-Target: Describe the challenges of learning on real hardware. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+### Sim-to-Real Transfer Strategies
 
-```python
-import numpy as np
+**Domain randomization:** Randomize simulator parameters (friction, mass, lighting) during training. The policy learns to be robust to variation.
 
-# Domain randomization: randomize physics in sim
-mass = np.random.default_rng(0).uniform(0.8, 1.2)
-friction = np.random.default_rng(0).uniform(0.5, 1.0)
-print("randomized mass:", round(mass, 2), "friction:", round(friction, 2))
-```
-### 2. Use simulation with domain randomization
+**System identification:** Tune simulator parameters to match real-world measurements.
 
-Target: Use simulation with domain randomization. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+**Sim-to-real fine-tuning:** Pre-train in simulation, then fine-tune with limited real-world interaction.
 
-```python
-print("safety: constraint satisfaction before pure reward")
-```
-### 3. Explain sim-to-real transfer
+**Teacher-student:** Train a teacher policy with full simulator information, distill into a student policy that uses only real-world observations.
 
-Target: Explain sim-to-real transfer. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+### Robotics Simulators
 
-```python
-import numpy as np
+**MuJoCo:** High-fidelity physics. Standard for continuous control research.
 
-# Action limits keep the robot stable
-action = np.clip(0.9, -1.0, 1.0)
-print("clipped action:", action)
-```
-### 4. Apply safety constraints in control
+**Isaac Gym:** GPU-accelerated simulation. Runs thousands of environments in parallel on GPU.
 
-Target: Apply safety constraints in control. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+**PyBullet:** Open-source, lightweight, good for prototyping.
 
-```python
-print("sim-to-real: train in sim, transfer with randomization")
-```
+**Gazebo:** Full robotics simulator with sensor models, used with ROS.
 
-## Practice Questions
+### Reward Design for Robots
 
-1. What is the key idea behind "RL for Robotics"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+Robot reward design is particularly challenging:
+- **Dense rewards:** Shaped rewards for each joint angle, velocity, contact
+- **Sparse rewards:** Only reward task completion (hard exploration)
+- **Curriculum learning:** Start with easy tasks, gradually increase difficulty
 
-## LLM Prompts for Deeper Understanding
+### Common Mistakes
 
-1. "Explain RL for Robotics with analogies and real-world examples"
-1. "Show me common mistakes beginners make with RL for Robotics"
-1. "Provide advanced patterns and performance considerations for RL for Robotics"
+- **Ignoring domain gap:** Policies that work in sim but not real need domain randomization.
+- **Too few simulation environments:** Parallel simulation is essential for sample efficiency.
+- **Over-relying on sim:** Real-world fine-tuning is almost always necessary.
 
-## Key Takeaways
+---
 
-- Master the core ideas of RL for Robotics through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
-
-## Further Reading
-
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+*Continue to learn about RL for recommender systems — sequential decision-making for user engagement.*

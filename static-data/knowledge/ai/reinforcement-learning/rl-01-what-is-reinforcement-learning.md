@@ -1,121 +1,85 @@
 ---
-{
-  "title": "What Is Reinforcement Learning?",
-  "description": "Agents, environments, rewards and the trial-and-error loop that powers RL.",
-  "type": "lesson",
-  "order": 1,
-  "duration": "40 min",
-  "difficulty": "beginner",
-  "learning_objectives": [
-    "Define the agent-environment-reward loop",
-    "Contrast RL with supervised and unsupervised learning",
-    "Name the core RL problems and applications",
-    "Describe the exploration-exploitation tension"
-  ],
-  "knowledge_refs": [
-    "ai-safety/safety-08-governance"
-  ],
-  "prerequisites": [
-    "ML-01: What Is Machine Learning?"
-  ],
-  "references": [
-    {
-      "title": "Reinforcement Learning: An Introduction — Sutton & Barto",
-      "url": "http://incompleteideas.net/book/the-book-2nd.html",
-      "description": "The canonical RL textbook (free PDF)."
-    },
-    {
-      "title": "Spinning Up in Deep RL — OpenAI",
-      "url": "https://spinningup.openai.com/en/latest/",
-      "description": "A practitioner-focused deep RL resource with clean implementations."
-    },
-    {
-      "title": "Stable-Baselines3 Documentation",
-      "url": "https://stable-baselines3.readthedocs.io/",
-      "description": "Reliable RL algorithm implementations in PyTorch."
-    },
-    {
-      "title": "Gymnasium Documentation",
-      "url": "https://gymnasium.farama.org/",
-      "description": "The standard API for RL environments."
-    },
-    {
-      "title": "RL Course by David Silver",
-      "url": "https://www.davidsilver.uk/teaching/",
-      "description": "The classic lecture series on RL fundamentals."
-    }
-  ]
-}
+slug: rl-01-what-is-reinforcement-learning
+title: "What Is Reinforcement Learning?"
+description: "Learning through trial and error — how agents discover optimal behavior by interacting with environments and receiving rewards."
+order: 1
+tags:
+  - reinforcement-learning
+  - rl-fundamentals
+  - agent-environment
+  - reward-signal
+prerequisites: []
+knowledge_refs:
+  - slug: rl-02-markov-decision-processes
+    title: "Markov Decision Processes"
+  - slug: rl-07-exploration-vs-exploitation
+    title: "Exploration vs Exploitation"
+references:
+  - title: "Sutton & Barto — Reinforcement Learning: An Introduction"
+    url: "http://incompleteideas.net/book/the-book-2nd.html"
+  - title: "David Silver — Reinforcement Learning Course (UCL/DeepMind)"
+    url: "https://www.davidsilver.uk/teaching/"
+  - title: "OpenAI Spinning Up in Deep RL"
+    url: "https://spinningup.openai.com/"
+  - title: "DeepMind — Reinforcement Learning Course"
+    url: "https://deepmind.com/learning-resources"
+  - title: "Sutton & Barto — RL Book (2nd ed.) PDF"
+    url: "https://www.andrew.cmu.edu/course/10-703/textbook/BartoSutton.pdf"
 ---
 
-# RL-01-WHAT-IS-REINFORCEMENT-LEARNING: What Is Reinforcement Learning?
+## What Is Reinforcement Learning?
 
-## Introduction
+Reinforcement learning (RL) is a paradigm where an agent learns to make decisions by interacting with an environment. It learns through trial and error — taking actions, observing consequences, and adjusting behavior to maximize cumulative reward.
 
-Agents, environments, rewards and the trial-and-error loop that powers RL. By the end of this lesson you will be able to: Define the agent-environment-reward loop; Contrast RL with supervised and unsupervised learning; Name the core RL problems and applications; Describe the exploration-exploitation tension.
+### The Agent-Environment Loop
 
-## Key Concepts
+At each timestep:
+1. The agent observes the current **state** of the environment
+2. The agent takes an **action**
+3. The environment transitions to a new state
+4. The environment provides a **reward** signal
+5. The agent updates its strategy based on the reward
 
-### 1. Define the agent-environment-reward loop
+This loop repeats until the agent converges on an optimal policy — a strategy for choosing actions in every state that maximizes expected cumulative reward.
 
-Target: Define the agent-environment-reward loop. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+### Key Concepts
 
-```python
-loop = {
-    "agent": "takes actions",
-    "environment": "responds with next state + reward",
-    "goal": "maximize cumulative reward",
-}
-print(loop)
-```
-### 2. Contrast RL with supervised and unsupervised learning
+**State (s):** A description of the current situation. In chess, it's the board position. In robotics, it's sensor readings.
 
-Target: Contrast RL with supervised and unsupervised learning. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+**Action (a):** What the agent can do. In a game, possible moves. In driving, steering angles and acceleration.
 
-```python
-import gymnasium as gym
+**Reward (r):** Scalar feedback signal. Positive for good outcomes, negative for bad. The agent's sole objective is to maximize total reward.
 
-env = gym.make("CartPole-v1")
-obs, info = env.reset()
-print("observation:", obs)
-```
-### 3. Name the core RL problems and applications
+**Policy (π):** The agent's strategy — a mapping from states to actions. The goal of RL is to find the optimal policy π*.
 
-Target: Name the core RL problems and applications. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+**Value function (V or Q):** Estimates of how good a state or state-action pair is, in terms of expected future reward.
 
-```python
-import numpy as np
+### How RL Differs
 
-# Reward signal drives learning
-r = np.array([0.0, 0.0, 0.0, 1.0, 0.0])
-print("total return:", r.sum())
-```
-### 4. Describe the exploration-exploitation tension
+| Paradigm | Supervised | Unsupervised | Reinforcement |
+|---|---|---|---|
+| **Feedback** | Labeled examples | None | Reward signal |
+| **Goal** | Match labels | Find patterns | Maximize reward |
+| **Data** | Static dataset | Static dataset | Generated by interaction |
+| **Sequential** | No | No | Yes |
 
-Target: Describe the exploration-exploitation tension. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+RL is unique because the agent generates its own data through interaction, and decisions have sequential consequences.
 
-```python
-print("supervised: learn from labels. RL: learn from outcomes.")
-```
+### Applications
 
-## Practice Questions
+- **Games:** AlphaGo, Atari, Dota 2, StarCraft
+- **Robotics:** Walking, grasping, manipulation
+- **Recommendations:** Content recommendation, ad placement
+- **Finance:** Portfolio optimization, trading strategies
+- **Autonomous systems:** Self-driving, drone navigation
+- **RLHF:** Aligning language models with human preferences
 
-1. What is the key idea behind "What Is Reinforcement Learning?"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+### Common Mistakes
 
-## LLM Prompts for Deeper Understanding
+- **Assuming RL is supervised learning:** RL agents must explore and discover good strategies, not follow labeled examples.
+- **Ignoring the exploration-exploitation tradeoff:** Always exploiting known good actions misses potentially better ones.
+- **Poor reward design:** Badly designed rewards lead to unintended behavior (reward hacking).
 
-1. "Explain What Is Reinforcement Learning? with analogies and real-world examples"
-1. "Show me common mistakes beginners make with What Is Reinforcement Learning?"
-1. "Provide advanced patterns and performance considerations for What Is Reinforcement Learning?"
+---
 
-## Key Takeaways
-
-- Master the core ideas of What Is Reinforcement Learning? through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
-
-## Further Reading
-
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+*Continue to learn about Markov Decision Processes — the mathematical framework underlying RL.*

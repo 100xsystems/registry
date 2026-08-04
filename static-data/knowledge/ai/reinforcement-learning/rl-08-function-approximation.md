@@ -1,131 +1,95 @@
 ---
-{
-  "title": "Function Approximation",
-  "description": "Scale RL beyond tables: approximate Q-values with linear and neural models.",
-  "type": "lesson",
-  "order": 8,
-  "duration": "55 min",
-  "difficulty": "advanced",
-  "learning_objectives": [
-    "Explain why tabular methods do not scale",
-    "Approximate Q with a linear model",
-    "Describe the deadly triad",
-    "Use features for generalization"
-  ],
-  "knowledge_refs": [
-    "reinforcement-learning/rl-07-exploration-vs-exploitation",
-    "llm-engineering/llm-10-function-calling",
-    "ai-agents/agents-03-tool-use"
-  ],
-  "prerequisites": [
-    "RL-06: Q-Learning"
-  ],
-  "references": [
-    {
-      "title": "Reinforcement Learning: An Introduction — Sutton & Barto",
-      "url": "http://incompleteideas.net/book/the-book-2nd.html",
-      "description": "The canonical RL textbook (free PDF)."
-    },
-    {
-      "title": "Spinning Up in Deep RL — OpenAI",
-      "url": "https://spinningup.openai.com/en/latest/",
-      "description": "A practitioner-focused deep RL resource with clean implementations."
-    },
-    {
-      "title": "Stable-Baselines3 Documentation",
-      "url": "https://stable-baselines3.readthedocs.io/",
-      "description": "Reliable RL algorithm implementations in PyTorch."
-    },
-    {
-      "title": "Gymnasium Documentation",
-      "url": "https://gymnasium.farama.org/",
-      "description": "The standard API for RL environments."
-    },
-    {
-      "title": "RL Course by David Silver",
-      "url": "https://www.davidsilver.uk/teaching/",
-      "description": "The classic lecture series on RL fundamentals."
-    }
-  ]
-}
+slug: rl-08-function-approximation
+title: "Function Approximation"
+description: "Scaling RL beyond tabular methods — linear approximation, tile coding, neural networks, and the deadly triad."
+order: 8
+tags:
+  - reinforcement-learning
+  - function-approximation
+  - linear-methods
+  - tile-coding
+  - neural-networks
+  - deadly-triad
+prerequisites:
+  - rl-06-q-learning
+knowledge_refs:
+  - rl-06-q-learning
+    title: "Q-Learning"
+  - rl-09-deep-q-networks
+    title: "Deep Q-Networks"
+  - rl-10-policy-gradient-methods
+    title: "Policy Gradient Methods"
+references:
+  - title: "Sutton & Barto — Chapter 9: On-Policy Prediction with Approximation"
+    url: "http://incompleteideas.net/book/the-book-2nd.html"
+  - title: "Breaking the Deadly Triad with a Target Network — Zhang et al."
+    url: "https://proceedings.mlr.press/v139/zhang21y.html"
+  - title: "Function Approximation in RL — Kermali"
+    url: "https://medium.com/@abdelfatahkermali/function-approximation-in-reinforcement-learning-from-tables-to-neural-networks-63764871d1d9"
+  - title: "Tile Coding — Criteo Engineering"
+    url: "https://medium.com/criteo-engineering/tile-coding-an-efficient-sparse-coding-method-for-real-valued-data-e787eddf630a"
+  - title: "RL: An Introduction — Implementations"
+    url: "https://marcinbogdanski.github.io/reinforcement-learning.html"
 ---
 
-# RL-08-FUNCTION-APPROXIMATION: Function Approximation
+## Function Approximation
 
-## Introduction
+Tabular methods can't handle large or continuous state spaces — there are too many states to store values for individually. Function approximation parameterizes value functions, enabling generalization across similar states.
 
-Scale RL beyond tables: approximate Q-values with linear and neural models. By the end of this lesson you will be able to: Explain why tabular methods do not scale; Approximate Q with a linear model; Describe the deadly triad; Use features for generalization.
+### Linear Function Approximation
 
-## Key Concepts
+Instead of storing V(s) for every state, learn a weight vector **w**:
 
-### 1. Explain why tabular methods do not scale
+**v̂(s, w) = w^T x(s) = Σ_i w_i x_i(s)**
 
-Target: Explain why tabular methods do not scale. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+Where x(s) is a feature vector representing state s.
 
-```python
-import numpy as np
+**Semi-gradient TD update:**
 
-# Linear Q-approximation: Q(s,a) = w . phi(s,a)
-phi = np.array([1.0, 0.5, -0.2])
-w = np.array([0.3, 0.1, 0.4])
-print("Q estimate:", round(phi @ w, 3))
-```
-### 2. Approximate Q with a linear model
+w_{t+1} = w_t + α[R_{t+1} + γv̂(S_{t+1}, w_t) - v̂(S_t, w_t)] ∇_w v̂(S_t, w_t)
 
-Target: Approximate Q with a linear model. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+For linear models, ∇_w v̂ = x(s), so the update becomes:
 
-```python
-import numpy as np
+w_{t+1} = w_t + αδ_t x(S_t)
 
-# Gradient update toward the TD target
-w = np.zeros(3)
-phi = np.array([1.0, 0.0, 0.0])
-target = 1.0
-alpha = 0.1
-w += alpha * (target - phi @ w) * phi
-print("updated weights:", w.round(3))
-```
-### 3. Describe the deadly triad
+### Tile Coding
 
-Target: Describe the deadly triad. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+A sparse coding method for continuous state spaces:
+- Overlay multiple offset grids (tilings) over the state space
+- Each tiling activates one tile per state
+- Feature vector is binary: 1 for active tiles, 0 otherwise
 
-```python
-import torch
+Benefits: Local generalization (nearby states share tiles), efficient computation, handles continuous states.
 
-# Neural Q: MLP mapping state to action values
-import torch.nn as nn
-q_net = nn.Sequential(nn.Linear(4, 64), nn.ReLU(), nn.Linear(64, 2))
-print(q_net(torch.randn(1, 4)))
-```
-### 4. Use features for generalization
+### Neural Networks as Approximators
 
-Target: Use features for generalization. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+For complex, high-dimensional states (images, text), neural networks parameterize value functions:
 
-```python
-import numpy as np
+**v̂(s, w) = neural_network(s; w)**
 
-# Deadly triad: function approx + bootstrapping + off-policy
-print("combination can diverge; handled with target nets + replay")
-```
+The gradient ∇_w v̂ is computed via backpropagation. Semi-gradient updates still apply.
 
-## Practice Questions
+### The Deadly Triad
 
-1. What is the key idea behind "Function Approximation"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+Sutton and Barto identified three elements that, when combined, can cause divergence:
 
-## LLM Prompts for Deeper Understanding
+1. **Function approximation** (parameterized models)
+2. **Bootstrapping** (TD-style updates using estimates)
+3. **Off-policy learning** (learning about one policy while following another)
 
-1. "Explain Function Approximation with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Function Approximation"
-1. "Provide advanced patterns and performance considerations for Function Approximation"
+Any two are safe. All three together create feedback loops that amplify approximation errors.
 
-## Key Takeaways
+**Survival strategies:**
+- Target networks (freeze bootstrap targets periodically)
+- Experience replay (break data correlation)
+- Conservative updates (small learning rates)
 
-- Master the core ideas of Function Approximation through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+### Common Mistakes
 
-## Further Reading
+- **Ignoring the deadly triad:** Naive combination of function approximation, bootstrapping, and off-policy learning diverges.
+- **Poor feature design:** Linear methods are only as good as their features.
+- **No regularization:** Overfitting to recent experiences is common with neural approximators.
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+---
+
+*Continue to learn about Deep Q-Networks — combining Q-learning with deep neural networks.*

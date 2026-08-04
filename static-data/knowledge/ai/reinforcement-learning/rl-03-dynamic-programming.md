@@ -1,132 +1,104 @@
 ---
-{
-  "title": "Dynamic Programming",
-  "description": "Solve MDPs exactly with policy evaluation, policy iteration and value iteration.",
-  "type": "lesson",
-  "order": 3,
-  "duration": "60 min",
-  "difficulty": "advanced",
-  "learning_objectives": [
-    "Perform policy evaluation",
-    "Improve policies with greedy selection",
-    "Run value iteration",
-    "Understand DP limits with large state spaces"
-  ],
-  "knowledge_refs": [
-    "reinforcement-learning/rl-02-markov-decision-processes"
-  ],
-  "prerequisites": [
-    "RL-02: Markov Decision Processes"
-  ],
-  "references": [
-    {
-      "title": "Reinforcement Learning: An Introduction — Sutton & Barto",
-      "url": "http://incompleteideas.net/book/the-book-2nd.html",
-      "description": "The canonical RL textbook (free PDF)."
-    },
-    {
-      "title": "Spinning Up in Deep RL — OpenAI",
-      "url": "https://spinningup.openai.com/en/latest/",
-      "description": "A practitioner-focused deep RL resource with clean implementations."
-    },
-    {
-      "title": "Stable-Baselines3 Documentation",
-      "url": "https://stable-baselines3.readthedocs.io/",
-      "description": "Reliable RL algorithm implementations in PyTorch."
-    },
-    {
-      "title": "Gymnasium Documentation",
-      "url": "https://gymnasium.farama.org/",
-      "description": "The standard API for RL environments."
-    },
-    {
-      "title": "RL Course by David Silver",
-      "url": "https://www.davidsilver.uk/teaching/",
-      "description": "The classic lecture series on RL fundamentals."
-    }
-  ]
-}
+slug: rl-03-dynamic-programming
+title: "Dynamic Programming"
+description: "Computing optimal policies when the environment model is known — policy evaluation, policy improvement, and value iteration."
+order: 3
+tags:
+  - reinforcement-learning
+  - dynamic-programming
+  - policy-iteration
+  - value-iteration
+  - bellman-equations
+prerequisites:
+  - rl-02-markov-decision-processes
+knowledge_refs:
+  - rl-02-markov-decision-processes
+    title: "Markov Decision Processes"
+  - rl-04-monte-carlo-methods
+    title: "Monte Carlo Methods"
+references:
+  - title: "Sutton & Barto — Chapter 4: Dynamic Programming"
+    url: "http://incompleteideas.net/book/the-book-2nd.html"
+  - title: "David Silver — RL Course: Dynamic Programming"
+    url: "https://www.davidsilver.uk/teaching/"
+  - title: "Dynamic Programming in RL — Towards Data Science"
+    url: "https://towardsdatascience.com/"
+  - title: "OpenAI Spinning Up — Dynamic Programming"
+    url: "https://spinningup.openai.com/en/latest/spinningup/rl_intro.html"
+  - title: "Berkeley CS285 — Dynamic Programming"
+    url: "https://rail.eecs.berkeley.edu/deeprlcourse/"
 ---
 
-# RL-03-DYNAMIC-PROGRAMMING: Dynamic Programming
+## Dynamic Programming
 
-## Introduction
+Dynamic programming (DP) methods compute optimal policies when the environment model (transition probabilities and rewards) is fully known. While rarely practical in real-world problems, DP provides the conceptual foundation for all RL algorithms.
 
-Solve MDPs exactly with policy evaluation, policy iteration and value iteration. By the end of this lesson you will be able to: Perform policy evaluation; Improve policies with greedy selection; Run value iteration; Understand DP limits with large state spaces.
+### The Key Idea
 
-## Key Concepts
+DP uses the Bellman equations as update rules. By iteratively applying these equations, value functions converge to the optimal values, from which the optimal policy can be extracted.
 
-### 1. Perform policy evaluation
+### Policy Evaluation (Prediction)
 
-Target: Perform policy evaluation. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+Given a fixed policy π, compute V^π(s) for all states:
 
-```python
-import numpy as np
-
-# Policy evaluation: iterative Bellman backup
-V = np.zeros(3)
-P = np.array([[0.5, 0.5, 0], [0, 0.5, 0.5], [0, 0, 1]])
-R = np.array([0, 0, 1.0])
-for _ in range(100):
-    V = R + 0.9 * P @ V
-print("values:", V.round(3))
 ```
-### 2. Improve policies with greedy selection
-
-Target: Improve policies with greedy selection. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
-
-```python
-import numpy as np
-
-# Greedy improvement: act optimally under current values
-V = np.array([0.1, 0.5, 1.0])
-best = int(np.argmax(V))
-print("best state:", best)
-```
-### 3. Run value iteration
-
-Target: Run value iteration. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
-
-```python
-import numpy as np
-
-# Value iteration: V <- max over actions of backup
-V = np.zeros(4)
-rewards = np.array([0, 0, 0, 1.0])
-for _ in range(100):
-    V = np.maximum(rewards + 0.9 * np.roll(V, 1), rewards + 0.9 * V)
-print("value iteration done:", V.round(2))
-```
-### 4. Understand DP limits with large state spaces
-
-Target: Understand DP limits with large state spaces. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
-
-```python
-import numpy as np
-
-# Curse of dimensionality: 10^state_dim grows fast
-for d in [4, 8, 12]:
-    print(f"states in {d}-dim grid:", 10 ** d)
+Initialize V(s) arbitrarily
+Repeat:
+    For each state s:
+        V(s) ← Σ_a π(a|s) Σ_{s'} P(s'|s,a) [R(s,a) + γV(s')]
+Until V converges
 ```
 
-## Practice Questions
+This is iterative application of the Bellman equation as an update rule.
 
-1. What is the key idea behind "Dynamic Programming"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+### Policy Improvement
 
-## LLM Prompts for Deeper Understanding
+Given V^π, compute a better policy π' by acting greedily with respect to V^π:
 
-1. "Explain Dynamic Programming with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Dynamic Programming"
-1. "Provide advanced patterns and performance considerations for Dynamic Programming"
+π'(s) = argmax_a Σ_{s'} P(s'|s,a) [R(s,a) + γV^π(s')]
 
-## Key Takeaways
+The improved policy is guaranteed to be at least as good as the original (policy improvement theorem).
 
-- Master the core ideas of Dynamic Programming through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+### Policy Iteration
 
-## Further Reading
+Combine evaluation and improvement iteratively:
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+1. Initialize a random policy π
+2. Evaluate π → compute V^π
+3. Improve π → compute π' (greedy w.r.t. V^π)
+4. Repeat until policy converges
+
+Policy iteration converges to the optimal policy in a finite number of iterations for finite MDPs.
+
+### Value Iteration
+
+Instead of fully evaluating each policy before improving, value iteration interleaves one step of evaluation with improvement:
+
+```
+Initialize V(s) arbitrarily
+Repeat:
+    For each state s:
+        V(s) ← max_a Σ_{s'} P(s'|s,a) [R(s,a) + γV(s')]
+Until V converges
+Extract policy: π(s) = argmax_a Σ_{s'} P(s'|s,a) [R(s,a) + γV(s')]
+```
+
+Value iteration is often more efficient than policy iteration because it doesn't require full convergence at each step.
+
+### Comparison
+
+| Method | Convergence | Complexity | Best For |
+|---|---|---|---|
+| Policy Evaluation | To V^π | O(n²) per sweep | Prediction |
+| Policy Iteration | To π* | Fewer iterations, each expensive | Small MDPs |
+| Value Iteration | To V* | O(n²) per sweep | Medium MDPs |
+
+### Common Mistakes
+
+- **Assuming DP works in practice:** DP requires known transitions — most real problems don't have this.
+- **Not checking convergence:** Prematurely stopping iteration gives suboptimal policies.
+- **Ignoring computational cost:** For large state spaces, DP is infeasible (curse of dimensionality).
+
+---
+
+*Continue to learn about Monte Carlo methods — learning from experience without a model.*

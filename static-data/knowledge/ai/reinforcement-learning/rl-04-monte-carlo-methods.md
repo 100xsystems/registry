@@ -1,130 +1,109 @@
 ---
-{
-  "title": "Monte Carlo Methods",
-  "description": "Learn from complete episodes: average returns to estimate state values without a model.",
-  "type": "lesson",
-  "order": 4,
-  "duration": "55 min",
-  "difficulty": "advanced",
-  "learning_objectives": [
-    "Explain episode-based learning",
-    "Estimate values with first-visit and every-visit MC",
-    "Implement MC prediction",
-    "Understand variance of MC returns"
-  ],
-  "knowledge_refs": [
-    "reinforcement-learning/rl-03-dynamic-programming",
-    "machine-learning/ml-09-ensemble-methods"
-  ],
-  "prerequisites": [
-    "RL-03: Dynamic Programming"
-  ],
-  "references": [
-    {
-      "title": "Reinforcement Learning: An Introduction — Sutton & Barto",
-      "url": "http://incompleteideas.net/book/the-book-2nd.html",
-      "description": "The canonical RL textbook (free PDF)."
-    },
-    {
-      "title": "Spinning Up in Deep RL — OpenAI",
-      "url": "https://spinningup.openai.com/en/latest/",
-      "description": "A practitioner-focused deep RL resource with clean implementations."
-    },
-    {
-      "title": "Stable-Baselines3 Documentation",
-      "url": "https://stable-baselines3.readthedocs.io/",
-      "description": "Reliable RL algorithm implementations in PyTorch."
-    },
-    {
-      "title": "Gymnasium Documentation",
-      "url": "https://gymnasium.farama.org/",
-      "description": "The standard API for RL environments."
-    },
-    {
-      "title": "RL Course by David Silver",
-      "url": "https://www.davidsilver.uk/teaching/",
-      "description": "The classic lecture series on RL fundamentals."
-    }
-  ]
-}
+slug: rl-04-monte-carlo-methods
+title: "Monte Carlo Methods"
+description: "Learning from complete episodes — model-free methods that estimate value functions by averaging sample returns."
+order: 4
+tags:
+  - reinforcement-learning
+  - monte-carlo
+  - model-free
+  - importance-sampling
+  - on-policy
+  - off-policy
+prerequisites:
+  - rl-03-dynamic-programming
+knowledge_refs:
+  - rl-03-dynamic-programming
+    title: "Dynamic Programming"
+  - rl-05-temporal-difference-learning
+    title: "Temporal Difference Learning"
+references:
+  - title: "Sutton & Barto — Chapter 5: Monte Carlo Methods"
+    url: "http://incompleteideas.net/book/the-book-2nd.html"
+  - title: "David Silver — RL Course: Monte Carlo"
+    url: "https://www.davidsilver.uk/teading/"
+  - title: "Monte Carlo RL — Towards Data Science"
+    url: "https://towardsdatascience.com/"
+  - title: "OpenAI Spinning Up — Monte Carlo"
+    url: "https://spinningup.openai.com/en/latest/spinningup/rl_intro.html"
+  - title: "Berkeley CS285 — Monte Carlo Methods"
+    url: "https://rail.eecs.berkeley.edu/deeprlcourse/"
 ---
 
-# RL-04-MONTE-CARLO-METHODS: Monte Carlo Methods
+## Monte Carlo Methods
 
-## Introduction
+Monte Carlo (MC) methods learn directly from episodes of experience — no model of the environment is needed. They estimate value functions by averaging complete returns from actual trajectories.
 
-Learn from complete episodes: average returns to estimate state values without a model. By the end of this lesson you will be able to: Explain episode-based learning; Estimate values with first-visit and every-visit MC; Implement MC prediction; Understand variance of MC returns.
+### Core Idea
 
-## Key Concepts
+Instead of using the Bellman equation with known transitions (DP), MC methods:
+1. Run complete episodes
+2. Observe the actual rewards received
+3. Average the returns to estimate values
 
-### 1. Explain episode-based learning
+**V(s) ← average of all returns G_t where S_t = s**
 
-Target: Explain episode-based learning. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+### First-Visit vs. Every-Visit MC
 
-```python
-import numpy as np
+**First-Visit MC:** Only uses the first visit to each state per episode. Guarantees unbiased estimates.
 
-# One episode: (state, reward) pairs
-episode = [("s0", 0.0), ("s1", 0.0), ("s2", 1.0)]
-returns = 0.0
-for s, r in reversed(episode):
-    returns = r + 0.9 * returns
-    print(s, "return so far:", round(returns, 2))
+**Every-Visit MC:** Uses every visit to a state per episode. Lower variance but slightly biased.
+
+First-Visit MC is the textbook standard, but Every-Visit MC works well in practice.
+
+### MC for Prediction (Policy Evaluation)
+
+Given policy π, estimate V^π:
 ```
-### 2. Estimate values with first-visit and every-visit MC
-
-Target: Estimate values with first-visit and every-visit MC. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
-
-```python
-import numpy as np
-
-# MC value estimate: average of sampled returns
-returns_s0 = np.array([1.0, 0.9, 1.1])
-print("V(s0) ~", round(returns_s0.mean(), 3))
-```
-### 3. Implement MC prediction
-
-Target: Implement MC prediction. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
-
-```python
-import numpy as np
-
-# First-visit vs every-visit
-visits = [1.0, 0.9, 1.1, 0.8]
-first = visits[0]
-print("first-visit return:", first, "| every-visit mean:", round(np.mean(visits), 3))
-```
-### 4. Understand variance of MC returns
-
-Target: Understand variance of MC returns. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
-
-```python
-import numpy as np
-
-# High variance: many episodes needed for stable estimates
-rng = np.random.default_rng(0)
-samples = rng.normal(1.0, 2.0, 1000)
-print("MC mean:", round(samples.mean(), 3), "+-", round(samples.std(ddof=1) / np.sqrt(1000), 3))
+Initialize V(s) arbitrarily
+For each episode:
+    Generate trajectory following π: S0, A0, R1, S1, A1, R2, ...
+    For each state St in the episode:
+        Gt ← return from St
+        V(St) ← V(St) + α[Gt - V(St)]  (incremental update)
 ```
 
-## Practice Questions
+### MC for Control (Finding Optimal Policy)
 
-1. What is the key idea behind "Monte Carlo Methods"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+Use ε-greedy policy improvement:
+1. Evaluate the current ε-greedy policy using MC
+2. Improve the policy greedily with respect to the learned values
+3. Repeat (GLIE — Greedy in the Limit with Infinite Exploration)
 
-## LLM Prompts for Deeper Understanding
+### On-Policy vs. Off-Policy
 
-1. "Explain Monte Carlo Methods with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Monte Carlo Methods"
-1. "Provide advanced patterns and performance considerations for Monte Carlo Methods"
+**On-Policy MC:** The behavior policy (what the agent does) and the target policy (what we're evaluating) are the same. Simple but requires exploring all actions.
 
-## Key Takeaways
+**Off-Policy MC:** The behavior policy differs from the target policy. Uses importance sampling to correct for the distribution mismatch.
 
-- Master the core ideas of Monte Carlo Methods through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+### Importance Sampling
 
-## Further Reading
+Off-Policy methods need to correct for the fact that the behavior policy generated the data, not the target policy:
 
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+**Importance sampling ratio:** ρ_{t:T-1} = Π_{k=t}^{T-1} π(A_k|S_k) / b(A_k|S_k)
+
+This ratio weights each return by how much more likely the target policy would have chosen those actions compared to the behavior policy.
+
+### Advantages and Limitations
+
+**Advantages:**
+- Model-free — no transition probabilities needed
+- Unbiased estimates (first-visit MC)
+- Can learn from real experience
+- Converges to optimal policy (GLIE)
+
+**Limitations:**
+- Must wait until end of episode to update
+- Doesn't work for continuing (non-episodic) tasks
+- High variance in estimates
+- Inefficient for large state spaces
+
+### Common Mistakes
+
+- **Using MC for continuing tasks:** MC requires complete episodes. Use TD for continuing tasks.
+- **Ignoring variance:** MC returns have high variance, especially for long episodes.
+- **No exploration:** Without ε-greedy or other exploration, MC may never visit all states.
+
+---
+
+*Continue to learn about temporal difference learning — combining Monte Carlo sampling with bootstrapping.*

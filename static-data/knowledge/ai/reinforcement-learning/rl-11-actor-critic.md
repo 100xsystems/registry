@@ -1,132 +1,89 @@
 ---
-{
-  "title": "Actor-Critic Methods",
-  "description": "Two networks in harmony: the actor picks actions, the critic judges them with bootstrapped values.",
-  "type": "lesson",
-  "order": 11,
-  "duration": "60 min",
-  "difficulty": "advanced",
-  "learning_objectives": [
-    "Explain the actor-critic split",
-    "Use the critic as a value baseline",
-    "Implement a simple actor-critic",
-    "Understand A2C and A3C"
-  ],
-  "knowledge_refs": [
-    "reinforcement-learning/rl-10-policy-gradient-methods",
-    "machine-learning/ml-09-ensemble-methods"
-  ],
-  "prerequisites": [
-    "RL-10: Policy Gradient Methods"
-  ],
-  "references": [
-    {
-      "title": "Reinforcement Learning: An Introduction — Sutton & Barto",
-      "url": "http://incompleteideas.net/book/the-book-2nd.html",
-      "description": "The canonical RL textbook (free PDF)."
-    },
-    {
-      "title": "Spinning Up in Deep RL — OpenAI",
-      "url": "https://spinningup.openai.com/en/latest/",
-      "description": "A practitioner-focused deep RL resource with clean implementations."
-    },
-    {
-      "title": "Stable-Baselines3 Documentation",
-      "url": "https://stable-baselines3.readthedocs.io/",
-      "description": "Reliable RL algorithm implementations in PyTorch."
-    },
-    {
-      "title": "Gymnasium Documentation",
-      "url": "https://gymnasium.farama.org/",
-      "description": "The standard API for RL environments."
-    },
-    {
-      "title": "RL Course by David Silver",
-      "url": "https://www.davidsilver.uk/teaching/",
-      "description": "The classic lecture series on RL fundamentals."
-    }
-  ]
-}
+slug: rl-11-actor-critic
+title: "Actor-Critic Methods"
+description: "Combining policy gradients with value functions — the actor-critic architecture, A2C, A3C, and the advantage function."
+order: 11
+tags:
+  - reinforcement-learning
+  - actor-critic
+  - a2c
+  - a3c
+  - advantage-function
+prerequisites:
+  - rl-10-policy-gradient-methods
+knowledge_refs:
+  - rl-10-policy-gradient-methods
+    title: "Policy Gradient Methods"
+  - rl-12-proximal-policy-optimization
+    title: "PPO & Modern Policy Optimization"
+  - rl-09-deep-q-networks
+    title: "Deep Q-Networks"
+references:
+  - title: "Mnih et al. (2016) — Asynchronous Methods for Deep RL (A3C)"
+    url: "https://proceedings.mlr.press/v48/mniha16.html"
+  - title: "Actor-Critic Methods: A3C and A2C — Daniel Takeshi"
+    url: "https://danieltakeshi.github.io/2018/06/28/a2c-a3c/"
+  - title: "A2C and A3C in PyTorch — Isaac Kargar"
+    url: "https://kargarisaac.medium.com/rl-series-a2c-and-a3c-in-pytorch-6e9edf5c8788"
+  - title: "OpenAI Baselines: ACKTR & A2C"
+    url: "https://openai.com/index/openai-baselines-acktr-a2c/"
+  - title: "Actor-Critic Algorithm — GeeksforGeeks"
+    url: "https://www.geeksforgeeks.org/machine-learning/actor-critic-algorithm-in-reinforcement-learning/"
 ---
 
-# RL-11-ACTOR-CRITIC: Actor-Critic Methods
+## Actor-Critic Methods
 
-## Introduction
+Actor-critic methods combine the best of policy gradients and value-based methods. The actor selects actions while the critic evaluates them — reducing variance while maintaining the flexibility of policy optimization.
 
-Two networks in harmony: the actor picks actions, the critic judges them with bootstrapped values. By the end of this lesson you will be able to: Explain the actor-critic split; Use the critic as a value baseline; Implement a simple actor-critic; Understand A2C and A3C.
+### The Architecture
 
-## Key Concepts
+**Actor (π_θ):** Parameterized policy that outputs action probabilities given a state. Updated via policy gradient, modulated by the critic's feedback.
 
-### 1. Explain the actor-critic split
+**Critic (V_w or Q_w):** Parameterized value function that evaluates states or state-action pairs. Trained via TD learning to minimize estimation error.
 
-Target: Explain the actor-critic split. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+### The Advantage Function
 
-```python
-import torch.nn as nn
+Instead of scaling policy gradient updates by raw returns (high variance), use the **advantage function**:
 
-class ActorCritic(nn.Module):
-    def __init__(self):
-        super().__init__()
-        self.shared = nn.Sequential(nn.Linear(4, 64), nn.ReLU())
-        self.actor = nn.Linear(64, 2)
-        self.critic = nn.Linear(64, 1)
-    def forward(self, x):
-        h = self.shared(x)
-        return torch.softmax(self.actor(h), -1), self.critic(h)
+**A(s, a) = Q(s, a) - V(s)**
 
-print(ActorCritic())
-```
-### 2. Use the critic as a value baseline
+- **A > 0:** Action was better than average → increase probability
+- **A < 0:** Action was worse than average → decrease probability
 
-Target: Use the critic as a value baseline. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+In practice, computed via n-step returns or Generalized Advantage Estimation (GAE).
 
-```python
-import torch
+### A3C (Asynchronous Advantage Actor-Critic)
 
-# Advantage: r + gamma*V(s') - V(s) — critic bootstraps
-r, gamma, v_next, v_now = 1.0, 0.9, 0.5, 0.3
-advantage = r + gamma * v_next - v_now
-print("advantage:", advantage)
-```
-### 3. Implement a simple actor-critic
+Mnih et al. (2016) introduced asynchronous parallelism:
+- Multiple workers explore different environments simultaneously
+- Decorrelated data without experience replay
+- Each worker computes gradients and asynchronously updates a shared global network
+- Optimized for multi-core CPUs
 
-Target: Implement a simple actor-critic. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+### A2C (Synchronous Advantage Actor-Critic)
 
-```python
-import torch
+OpenAI's synchronous alternative:
+- All workers take steps in lock-step
+- Gradients are averaged into a synchronized batch update
+- Better GPU utilization
+- More stable and reproducible than A3C
+- Often matches or exceeds A3C performance
 
-# Actor loss: -log pi * advantage. Critic loss: MSE of V
-print("two losses, one shared network")
-```
-### 4. Understand A2C and A3C
+### Comparison
 
-Target: Understand A2C and A3C. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+| Aspect | A3C | A2C |
+|---|---|---|
+| Execution | Asynchronous | Synchronous |
+| Hardware | CPU-optimized | GPU-optimized |
+| Stability | Race-condition noise | Deterministic |
+| Reproducibility | Lower | Higher |
 
-```python
-import torch
+### Common Mistakes
 
-# A2C: multiple parallel workers synchronize gradients
-print("A2C uses N parallel environments")
-```
+- **No advantage estimation:** Using raw returns causes high variance.
+- **Ignoring entropy bonus:** Without entropy regularization, policies collapse prematurely.
+- **Too many workers:** Diminishing returns beyond a point; communication overhead grows.
 
-## Practice Questions
+---
 
-1. What is the key idea behind "Actor-Critic Methods"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
-
-## LLM Prompts for Deeper Understanding
-
-1. "Explain Actor-Critic Methods with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Actor-Critic Methods"
-1. "Provide advanced patterns and performance considerations for Actor-Critic Methods"
-
-## Key Takeaways
-
-- Master the core ideas of Actor-Critic Methods through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
-
-## Further Reading
-
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+*Continue to learn about PPO — the modern standard for policy optimization.*

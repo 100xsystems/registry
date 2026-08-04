@@ -1,134 +1,98 @@
 ---
-{
-  "title": "Deep Q-Networks (DQN)",
-  "description": "Play Atari from pixels: experience replay, target networks and the tricks that made DQN work.",
-  "type": "lesson",
-  "order": 9,
-  "duration": "60 min",
-  "difficulty": "advanced",
-  "learning_objectives": [
-    "Explain experience replay",
-    "Use target networks to stabilize training",
-    "Implement a DQN training loop",
-    "Describe the DQN architecture"
-  ],
-  "knowledge_refs": [
-    "reinforcement-learning/rl-08-function-approximation",
-    "deep-learning/dl-12-convolutional-networks",
-    "deep-learning/dl-15-recurrent-networks"
-  ],
-  "prerequisites": [
-    "RL-08: Function Approximation"
-  ],
-  "references": [
-    {
-      "title": "Reinforcement Learning: An Introduction — Sutton & Barto",
-      "url": "http://incompleteideas.net/book/the-book-2nd.html",
-      "description": "The canonical RL textbook (free PDF)."
-    },
-    {
-      "title": "Spinning Up in Deep RL — OpenAI",
-      "url": "https://spinningup.openai.com/en/latest/",
-      "description": "A practitioner-focused deep RL resource with clean implementations."
-    },
-    {
-      "title": "Stable-Baselines3 Documentation",
-      "url": "https://stable-baselines3.readthedocs.io/",
-      "description": "Reliable RL algorithm implementations in PyTorch."
-    },
-    {
-      "title": "Gymnasium Documentation",
-      "url": "https://gymnasium.farama.org/",
-      "description": "The standard API for RL environments."
-    },
-    {
-      "title": "RL Course by David Silver",
-      "url": "https://www.davidsilver.uk/teaching/",
-      "description": "The classic lecture series on RL fundamentals."
-    }
-  ]
-}
+slug: rl-09-deep-q-networks
+title: "Deep Q-Networks (DQN)"
+description: "Combining Q-learning with deep neural networks — experience replay, target networks, and the breakthrough that mastered Atari games."
+order: 9
+tags:
+  - reinforcement-learning
+  - dqn
+  - deep-rl
+  - experience-replay
+  - target-networks
+prerequisites:
+  - rl-08-function-approximation
+knowledge_refs:
+  - rl-08-function-approximation
+    title: "Function Approximation"
+  - rl-06-q-learning
+    title: "Q-Learning"
+  - rl-11-actor-critic
+    title: "Actor-Critic Methods"
+references:
+  - title: "Mnih et al. (2015) — Human-level control through deep RL (Nature)"
+    url: "https://www.nature.com/articles/nature14236"
+  - title: "DeepMind DQN — OpenAI Spinning Up"
+    url: "https://spinningup.openai.com/en/latest/spinningup/algorithms/dqn.html"
+  - title: "Double DQN — Van Hasselt et al. (2016)"
+    url: "https://arxiv.org/abs/1509.06461"
+  - title: "Dueling DQN — Wang et al. (2016)"
+    url: "https://arxiv.org/abs/1511.06581"
+  - title: "Rainbow DQN — Hessel et al. (2018)"
+    url: "https://arxiv.org/abs/1710.02229"
 ---
 
-# RL-09-DEEP-Q-NETWORKS: Deep Q-Networks (DQN)
+## Deep Q-Networks (DQN)
 
-## Introduction
+DQN (Mnih et al., 2015) was the breakthrough that proved deep neural networks could learn to play games directly from pixels. It combined Q-learning with deep learning and introduced two key innovations that stabilized training.
 
-Play Atari from pixels: experience replay, target networks and the tricks that made DQN work. By the end of this lesson you will be able to: Explain experience replay; Use target networks to stabilize training; Implement a DQN training loop; Describe the DQN architecture.
+### The Architecture
 
-## Key Concepts
+A convolutional neural network takes raw pixel frames as input and outputs Q-values for each possible action:
 
-### 1. Explain experience replay
+**Input:** Stack of 4 grayscale frames (84×84)
+**Output:** Q(s, a₁), Q(s, a₂), ..., Q(s, aₙ) — one value per action
 
-Target: Explain experience replay. Start with the foundations — read the runnable example carefully and trace its output before moving on.
+The agent selects the action with the highest Q-value (or explores via ε-greedy).
 
-```python
-import collections
-import random
+### Key Innovation 1: Experience Replay
 
-replay = collections.deque(maxlen=10000)
-replay.append((s, a, r, s_next, done))
-print("experience replay buffer ready")
-```
-### 2. Use target networks to stabilize training
+Instead of learning from consecutive experiences (which are highly correlated), DQN stores transitions in a replay buffer and samples random mini-batches:
 
-Target: Use target networks to stabilize training. Apply the idiomatic pattern — this is how production code expresses this idea, so study the shape of the code.
+**Buffer:** (s_t, a_t, r_{t+1}, s_{t+1}, done)
 
-```python
-import torch
-import torch.nn as nn
+**Training:** Sample random mini-batches from the buffer.
 
-class DQN(nn.Module):
-    def __init__(self, n_obs, n_act):
-        super().__init__()
-        self.net = nn.Sequential(nn.Linear(n_obs, 128), nn.ReLU(), nn.Linear(128, n_act))
-    def forward(self, x):
-        return self.net(x)
+Benefits:
+- Breaks temporal correlation between consecutive experiences
+- Reuses experiences multiple times (sample efficiency)
+- Stabilizes learning by diversifying training data
 
-print(DQN(4, 2))
-```
-### 3. Implement a DQN training loop
+### Key Innovation 2: Target Network
 
-Target: Implement a DQN training loop. Watch for the edge cases — this is where subtle bugs hide, and experienced developers reason about them explicitly.
+DQN uses a separate **target network** that is periodically updated (every C steps) with the current network's weights. The target network computes the bootstrap target:
 
-```python
-import torch
+**Target:** r_{t+1} + γ max_a Q_target(s_{t+1}, a)
 
-# Target network: slow copy of the online net
-online = DQN(4, 2)
-target = DQN(4, 2)
-target.load_state_dict(online.state_dict())
-print("target net frozen copy")
-```
-### 4. Describe the DQN architecture
+Benefits:
+- Prevents the "chasing your own tail" problem
+- Provides stable targets for the learning updates
+- Significantly reduces divergence
 
-Target: Describe the DQN architecture. Put it together — extend the example to combine this concept with what you learned in earlier lessons.
+### Extensions
 
-```python
-import torch
+**Double DQN (2016):** Uses the online network to select actions and the target network to evaluate them. Reduces overestimation bias in Q-learning.
 
-# Loss: (r + gamma * max_a Q_target(s') - Q_online(s, a))^2
-print("bellman residual squared")
-```
+**Dueling DQN (2016):** Separates the network into value stream V(s) and advantage stream A(s,a). Better at states where action choice doesn't matter.
 
-## Practice Questions
+**Rainbow DQN (2018):** Combines 6 extensions (Double, Dueling, Prioritized Replay, Multi-step, Distributional, Noisy Nets). Achieves state-of-the-art on Atari.
 
-1. What is the key idea behind "Deep Q-Networks (DQN)"?
-1. Write a small program that exercises at least two concepts from this lesson.
-1. How would you explain this topic to a fellow developer in one paragraph?
+### Training Process
 
-## LLM Prompts for Deeper Understanding
+1. Observe state s
+2. Select action a via ε-greedy
+3. Execute a, observe reward r and next state s'
+4. Store (s, a, r, s') in replay buffer
+5. Sample mini-batch from buffer
+6. Compute target: r + γ max_a Q_target(s', a)
+7. Update Q-network to minimize (Q(s,a) - target)²
+8. Periodically update target network
 
-1. "Explain Deep Q-Networks (DQN) with analogies and real-world examples"
-1. "Show me common mistakes beginners make with Deep Q-Networks (DQN)"
-1. "Provide advanced patterns and performance considerations for Deep Q-Networks (DQN)"
+### Common Mistakes
 
-## Key Takeaways
+- **No experience replay:** Consecutive samples are correlated, causing instability.
+- **No target network:** Without stable targets, Q-values oscillate or diverge.
+- **Ignoring overestimation:** Standard Q-learning overestimates Q-values. Use Double DQN.
 
-- Master the core ideas of Deep Q-Networks (DQN) through practice
-- Combine this lesson with prior lessons to build real programs
-- Explore the linked official documentation for authoritative depth
+---
 
-## Further Reading
-
-Dive deeper into this topic using the reference resources listed in the frontmatter.
+*Continue to learn about policy gradient methods — optimizing policies directly instead of value functions.*
