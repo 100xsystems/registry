@@ -9,7 +9,7 @@
     "performance",
     "edge-computing"
   ],
-  "updatedAt": "2026-08-04T14:09:56.137Z",
+  "updatedAt": "2026-08-05T14:07:33.589Z",
   "items": [
     {
       "guid": "01KY2432VQPD5FTF2RARXXYQGH",
@@ -61378,7 +61378,47 @@
       "summary": "By replacing manual issue verification with isolated AI subagents running in GitHub Actions, the Astro maintainers reduced open issue count by 85%. This post explores the architecture behind automated bug reproduction, patch verification, and preview releases.",
       "author": "Matthew Phillips",
       "publishedAt": "2026-08-04T13:00:00.000Z"
+    },
+    {
+      "guid": "01KZ7MGHAX6C81BVS5AM1DRP2Q",
+      "title": "The Agent Access Model",
+      "link": "https://blog.cloudflare.com/the-agent-access-model/",
+      "summary": "The Agent Access Model proposes a new architecture to secure task-scoped agents using strict identity brokering, continuous mediation, and stateful trust.",
+      "author": "Matt Silverlock",
+      "publishedAt": "2026-08-05T13:00:41.000Z"
+    },
+    {
+      "guid": "01KZ7KS18W44EAET2511C0NY3V",
+      "title": "How we’re rethinking work at Cloudflare with Cloudflare OS",
+      "link": "https://blog.cloudflare.com/how-we-use-ai-with-cloudflare-os/",
+      "summary": "We built Cloudflare OS to equip our teams to safely rethink how they get work done with AI. The platform brings together the best of our technologies, from our Compute primitives to our Zero Trust suite. This post walks through our journey to give our users the best AI tools available.",
+      "author": "Sam Rhea",
+      "publishedAt": "2026-08-05T13:00:01.000Z"
+    },
+    {
+      "guid": "01KZ7PERAEJK3G9KDWDQ3BXZZQ",
+      "title": "Cloudflare OS: an open platform for agents, apps, and work",
+      "link": "https://blog.cloudflare.com/cloudflare-os/",
+      "summary": "Cloudflare OS is an open-source platform that lets everyone in your company build apps, automate work, and safely access internal systems, shaped around what your organization knows and how it operates",
+      "author": "Phillip Jones",
+      "publishedAt": "2026-08-05T13:00:00.000Z"
+    },
+    {
+      "guid": "01KZ7CKXC5ECVNAP2GSTX54B48",
+      "title": "WriteGuard: fine-grained controls for MCP Servers",
+      "link": "https://blog.cloudflare.com/mcp-portal-writeguard-private-beta/",
+      "summary": "At Cloudflare, we knew we could not depend on every employee to configure every agent perfectly or watch every tool call. Before expanding write access across our own internal MCP servers, we built WriteGuard. We are now bringing those controls to Cloudflare MCP server portals through a private…",
+      "author": "Scott Roe-Meschke",
+      "publishedAt": "2026-08-05T13:00:00.000Z"
+    },
+    {
+      "guid": "01KZ7B5XMX7JB1E4KZZP5QRR9P",
+      "title": "Catching rogue AI behavior with identity-aware analytics",
+      "link": "https://blog.cloudflare.com/identity-aware-ai-gateway/",
+      "summary": "Identity-aware AI Gateway is now in open beta. User Insights turns that traffic into a behavioral baseline for every person and agent, and flags insider risk the moment it appears.",
+      "author": "Ming Lu",
+      "publishedAt": "2026-08-05T13:00:00.000Z"
     }
   ],
-  "totalIndexed": 7671
+  "totalIndexed": 7676
 }

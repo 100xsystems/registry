@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-07-31T19:12:53.418Z",
+  "updatedAt": "2026-08-05T14:07:43.811Z",
   "items": [
     {
       "guid": "https://thedailywtf.com/articles/classic-wtf-my-many-girlfriends",
@@ -143,7 +143,15 @@
       "summary": "I've never been a huge fan of their furniture but I will happily demolish a plate of meatballs.\nJan agrees \n\"My loyalty to this Swedish megastore is immeasurable.\"\n\n\n \n\n\n\n\"Choosing Concert Seats is Surprisingly Hard\" for\njeffphi who explains \n\"While I have mixed feelings about indulging in…",
       "author": "Lyle Seaman",
       "publishedAt": "2026-07-31T06:30:00.000Z"
+    },
+    {
+      "guid": "https://thedailywtf.com/articles/connection-state",
+      "title": "CodeSOD: Connection State",
+      "link": "https://thedailywtf.com/articles/connection-state",
+      "summary": "Frederick A sends us a bit of null checking code, and offers us a better solution.\nclass ConferenceService\n{\n\t/// <summary>\n\t/// Checks if conference is active\n\t/// </summary>\n\tpublic bool IsCalling()\n\t{\n\t\ttry\n\t\t{\n\t\t\treturn m_ConnectionService.Core.State.IsWebRTCConnected;\n\t\t}\n\t\tcatch\n\t\t{\n\t\t\treturn…",
+      "author": "Remy Porter",
+      "publishedAt": "2026-08-05T06:30:00.000Z"
     }
   ],
-  "totalIndexed": 17
+  "totalIndexed": 18
 }

@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-08-05T02:29:22.014Z",
+  "updatedAt": "2026-08-05T14:07:33.936Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -537,7 +537,15 @@
       "summary": "Idle sessions consume connection slots and backend memory—not locks or xmin. Learn when and how to reap them without sabotaging your connection pooler.",
       "author": null,
       "publishedAt": "2026-08-05T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9ro",
+      "title": "Avi Vallarapu: Tuning PostgreSQL HOT Updates - A HammerDB Benchmark",
+      "link": "https://postgr.es/p/9ro",
+      "summary": "Vacuum is not a problem as we can help PostgreSQL avoid it with HOT updates. A HammerDB TPROC-C benchmark shows how tuning fillfactor for tables eliminates vacuum and reduces the bloat growth.",
+      "author": null,
+      "publishedAt": "2026-08-05T09:12:04.000Z"
     }
   ],
-  "totalIndexed": 66
+  "totalIndexed": 67
 }

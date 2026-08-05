@@ -1,35 +1,49 @@
 # YC Company Changes for 2026-08-05
 
 - Previous total: 6124
-- Current total: 6124
+- Current total: 6123
 - Added: 0
-- Removed: 0
-- Updated: 5
+- Removed: 1
+- Updated: 8
 
+
+## Removed Companies
+
+- Shepherd (Summer 2026)
 
 ## Updated Companies
 
-### [Axle](https://www.ycombinator.com/companies/axle)
+### [Lugg](https://www.ycombinator.com/companies/lugg)
 
-- `team_size`: 10 → 20
-- `tags`: Developer Tools,Fintech,B2B,Insurance,AI → Artificial Intelligence,Developer Tools,Fintech,B2B,Insurance
+- `all_locations`: San Francisco, CA, USA; Remote → Salt Lake City, UT, USA; San Francisco, CA, USA; Remote
 
-### [RiskCube](https://www.ycombinator.com/companies/riskcube)
+### [Pyka](https://www.ycombinator.com/companies/pyka)
 
-- `tags`: Fintech,Insurance,Defense,AI → Artificial Intelligence,Fintech,Insurance,Defense
+- `stage`: Early → Growth
 
-### [Olam Labs](https://www.ycombinator.com/companies/olam-labs)
+### [Tavus](https://www.ycombinator.com/companies/tavus)
 
-- `one_liner`: Evaluating models for behavior and performance through simulated games → Building multi-agent simulations for model evals and training.
-- `tags`: Reinforcement Learning,Gaming,Crowdsourcing,Data Engineering,AI → Reinforcement Learning,Gaming,Data Engineering,AI
+- `stage`: Early → Growth
 
-### [Agnost AI](https://www.ycombinator.com/companies/agnost-ai)
+### [Sapien](https://www.ycombinator.com/companies/outrove)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/8bf16355f4f9b0a78a4a26f6f533377d295877d5.png → https://bookface-images.s3.amazonaws.com/small_logos/dbe9d7776c9e4cb65614fb4e463059ba0e869b12.png
-- `tags`: Artificial Intelligence,Developer Tools,Analytics,Monitoring → Developer Tools,Analytics,Monitoring,AI
+- `website`: https://www.outrove.ai/ → https://www.asksapien.ai/
+- `tags`: Artificial Intelligence → AI
 
-### [Osseus](https://www.ycombinator.com/companies/osseus)
+### [Standout](https://www.ycombinator.com/companies/standout)
 
-- `one_liner`: The intelligent design platform for robotics → The intelligent development platform for robotics
-- `subindustry`: B2B -> Productivity → B2B -> Engineering, Product and Design
-- `industries`: B2B,Productivity → B2B,Engineering, Product and Design
+- `team_size`: 3 → 5
+
+### [Collar](https://www.ycombinator.com/companies/collar)
+
+- `isHiring`: false → true
+
+### [Instaplay](https://www.ycombinator.com/companies/instaplay)
+
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/92de2ea074aa81b222aa6c48b3ca2cd357335638.png → https://bookface-images.s3.amazonaws.com/small_logos/875f7fd9fc3411ba9d4566f0b45d4b27576a4c83.png
+- `tags`: Artificial Intelligence,Gaming → Gaming,AI
+
+### [Arbital](https://www.ycombinator.com/companies/arbital)
+
+- `all_locations`: San Francisco, CA, USA → Singapore, Singapore
+- `regions`: United States of America,America / Canada → Singapore,Southeast Asia
