@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-08-04T02:29:56.653Z",
+  "updatedAt": "2026-08-05T02:29:22.014Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -529,7 +529,15 @@
       "summary": "Replication slots promise to keep WAL forever—until PostgreSQL 18's new `idle_replication_slot_timeout` puts an expiration date on abandoned ones before they…",
       "author": null,
       "publishedAt": "2026-08-04T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9rn",
+      "title": "Christophe Pettus: All Your GUCs in a Row: idle_session_timeout",
+      "link": "https://postgr.es/p/9rn",
+      "summary": "Idle sessions consume connection slots and backend memory—not locks or xmin. Learn when and how to reap them without sabotaging your connection pooler.",
+      "author": null,
+      "publishedAt": "2026-08-05T01:00:00.000Z"
     }
   ],
-  "totalIndexed": 65
+  "totalIndexed": 66
 }
