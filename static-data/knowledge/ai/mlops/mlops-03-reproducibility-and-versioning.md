@@ -13,11 +13,11 @@ tags:
 prerequisites:
   - mlops-02-the-ml-lifecycle
 knowledge_refs:
-  - mlops-02-the-ml-lifecycle
+  - slug: mlops-02-the-ml-lifecycle
     title: "The ML Lifecycle"
-  - mlops-06-experiment-tracking
+  - slug: mlops-06-experiment-tracking
     title: "Experiment Tracking"
-  - mlops-07-model-registry
+  - slug: mlops-07-model-registry
     title: "Model Registry"
 references:
   - title: "DVC — Get Started with Data Version Control"
@@ -31,7 +31,6 @@ references:
   - title: "MLflow Documentation"
     url: "https://mlflow.org/docs/latest/ml/"
 ---
-
 ## Reproducibility & Versioning
 
 If you can't reproduce a model's results, you can't debug it, improve it, or trust it. Reproducibility is the foundation of reliable ML systems, and versioning is how you achieve it.

@@ -12,9 +12,9 @@ tags:
 prerequisites:
   - rl-01-what-is-reinforcement-learning
 knowledge_refs:
-  - rl-01-what-is-reinforcement-learning
+  - slug: rl-01-what-is-reinforcement-learning
     title: "What Is Reinforcement Learning?"
-  - rl-03-dynamic-programming
+  - slug: rl-03-dynamic-programming
     title: "Dynamic Programming"
 references:
   - title: "Sutton & Barto — Chapter 3: Finite Markov Decision Processes"
@@ -28,7 +28,6 @@ references:
   - title: "Berkeley CS285 — Deep Reinforcement Learning"
     url: "https://rail.eecs.berkeley.edu/deeprlcourse/"
 ---
-
 ## Markov Decision Processes
 
 A Markov Decision Process (MDP) provides the mathematical foundation for reinforcement learning. It formalizes the sequential decision-making problem with states, actions, transitions, and rewards.

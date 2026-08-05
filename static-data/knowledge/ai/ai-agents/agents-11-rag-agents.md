@@ -49,11 +49,11 @@ related_knowledge:
     title: "Memory Systems"
     lesson_number: 5
 knowledge_refs:
-  - slug: "nlp-09-information-retrieval"
+  - slug: "llm-07-rag-engineering"
     title: "Information Retrieval"
-  - slug: "nlp-10-text-summarization"
+  - slug: "nlp-19-summarization"
     title: "Text Summarization"
-  - slug: "dl-14-vector-databases"
+  - slug: "genai-11-embeddings-and-vector-databases"
     title: "Vector Databases"
 ---
 

@@ -49,11 +49,11 @@ related_knowledge:
     title: "Why AI Safety Matters"
     lesson_number: 1
 knowledge_refs:
-  - slug: "ai-safety-04-alignment"
+  - slug: "safety-04-alignment"
     title: "Alignment"
-  - slug: "ai-safety-05-robustness"
+  - slug: "safety-05-robustness"
     title: "Robustness"
-  - slug: "ai-safety-12-guardrails"
+  - slug: "safety-12-guardrails"
     title: "Guardrails"
 ---
 

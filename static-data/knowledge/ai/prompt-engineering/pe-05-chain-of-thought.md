@@ -12,11 +12,11 @@ tags:
 prerequisites:
   - pe-04-few-shot-examples
 knowledge_refs:
-  - pe-04-few-shot-examples
+  - slug: pe-04-few-shot-examples
     title: "Few-Shot Examples"
-  - pe-11-advanced-techniques
+  - slug: pe-11-advanced-techniques
     title: "Advanced Prompting Techniques"
-  - ml-10-model-evaluation
+  - slug: ml-18-classification-metrics
     title: "Model Evaluation"
 references:
   - title: "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models (Wei et al., 2022)"

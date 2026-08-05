@@ -11,11 +11,11 @@ tags:
 prerequisites:
   - pe-01-what-is-prompt-engineering
 knowledge_refs:
-  - pe-01-what-is-prompt-engineering
+  - slug: pe-01-what-is-prompt-engineering
     title: "What Is Prompt Engineering?"
-  - pe-03-roles-and-context
+  - slug: pe-03-roles-and-context
     title: "Roles & Context"
-  - pe-06-structured-outputs
+  - slug: pe-06-structured-outputs
     title: "Structured Outputs"
 references:
   - title: "OpenAI — Best Practices for Prompt Engineering"
@@ -29,7 +29,6 @@ references:
   - title: "DAIR.AI Prompt Engineering Guide — Techniques"
     url: "https://www.promptingguide.ai/techniques"
 ---
-
 ## Prompt Structure
 
 A well-engineered prompt is not a casual question — it's a structured document with distinct semantic blocks, each serving a specific purpose. Understanding this anatomy is the foundation of reliable prompt engineering.

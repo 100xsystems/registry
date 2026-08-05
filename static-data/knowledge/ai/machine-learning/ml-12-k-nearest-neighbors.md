@@ -28,9 +28,9 @@ references:
     url: "https://en.wikipedia.org/wiki/K-d_tree"
     description: "Wikipedia's comprehensive article on KD-tree data structures"
 knowledge_refs:
-  - ml-14-feature-scaling
+  - ml-14-feature-scaling-and-selection
   - ml-11-support-vector-machines
-  - ml-19-clustering
+  - ml-19-kmeans-clustering
 ---
 
 # K-Nearest Neighbors

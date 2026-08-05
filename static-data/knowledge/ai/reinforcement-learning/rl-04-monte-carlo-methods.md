@@ -13,9 +13,9 @@ tags:
 prerequisites:
   - rl-03-dynamic-programming
 knowledge_refs:
-  - rl-03-dynamic-programming
+  - slug: rl-03-dynamic-programming
     title: "Dynamic Programming"
-  - rl-05-temporal-difference-learning
+  - slug: rl-05-temporal-difference-learning
     title: "Temporal Difference Learning"
 references:
   - title: "Sutton & Barto — Chapter 5: Monte Carlo Methods"
@@ -29,7 +29,6 @@ references:
   - title: "Berkeley CS285 — Monte Carlo Methods"
     url: "https://rail.eecs.berkeley.edu/deeprlcourse/"
 ---
-
 ## Monte Carlo Methods
 
 Monte Carlo (MC) methods learn directly from episodes of experience — no model of the environment is needed. They estimate value functions by averaging complete returns from actual trajectories.

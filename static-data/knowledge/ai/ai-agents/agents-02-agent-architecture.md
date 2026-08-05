@@ -48,9 +48,9 @@ related_knowledge:
     title: "Multi-Agent Systems"
     lesson_number: 6
 knowledge_refs:
-  - slug: "llm-01-fundamentals-of-llms"
+  - slug: "llm-01-what-is-llm-engineering"
     title: "Fundamentals of LLMs"
-  - slug: "ml-15-reinforcement-learning-from-human-feedback"
+  - slug: "genai-09-rlhf-and-alignment"
     title: "RLHF"
   - slug: "genai-01-what-is-generative-ai"
     title: "What Is Generative AI?"

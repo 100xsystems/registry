@@ -12,11 +12,11 @@ tags:
 prerequisites:
   - safety-08-governance
 knowledge_refs:
-  - safety-08-governance
+  - slug: safety-08-governance
     title: "AI Governance & Policy"
-  - safety-10-safety-evaluations
+  - slug: safety-10-safety-evaluations
     title: "Safety Evaluations"
-  - safety-09-transparency
+  - slug: safety-09-transparency
     title: "Transparency & Disclosure"
 references:
   - title: "NIST AI Risk Management Framework"
@@ -30,7 +30,6 @@ references:
   - title: "CSA — ISO 42001 Lessons Learned"
     url: "https://cloudsecurityalliance.org/blog/2025/05/08/iso-42001-lessons-learned-from-auditing-and-implementing-the-framework"
 ---
-
 ## Auditing AI Systems
 
 AI auditing is the systematic evaluation of AI systems against safety, fairness, and compliance standards. It's not optional — regulations like the EU AI Act require it, and market trust demands it.

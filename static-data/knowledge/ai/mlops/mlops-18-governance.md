@@ -12,11 +12,11 @@ tags:
 prerequisites:
   - mlops-04-data-pipelines
 knowledge_refs:
-  - mlops-04-data-pipelines
+  - slug: mlops-04-data-pipelines
     title: "Data Pipelines"
-  - mlops-07-model-registry
+  - slug: mlops-07-model-registry
     title: "Model Registry"
-  - safety-08-governance
+  - slug: safety-08-governance
     title: "AI Governance & Policy"
 references:
   - title: "ISO/IEC 42001:2023 — AI Management System"
@@ -30,7 +30,6 @@ references:
   - title: "SureCloud — NIST AI RMF vs ISO 42001"
     url: "https://www.surecloud.com/blog-hub/nist-ai-rmf-vs-iso-42001"
 ---
-
 ## Data & Model Governance
 
 Governance ensures ML systems are accountable, compliant, and trustworthy. It defines who can build, approve, and deploy models — and proves they did so responsibly.

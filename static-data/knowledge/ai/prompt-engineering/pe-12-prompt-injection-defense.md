@@ -12,11 +12,11 @@ tags:
 prerequisites:
   - pe-10-system-prompts
 knowledge_refs:
-  - pe-10-system-prompts
+  - slug: pe-10-system-prompts
     title: "System Prompts in Production"
-  - pe-18-safety-in-prompts
+  - slug: pe-18-safety-in-prompts
     title: "Safety in Prompting"
-  - ai-safety-01-ai-safety-fundamentals
+  - slug: safety-01-why-ai-safety
     title: "AI Safety Fundamentals"
 references:
   - title: "OWASP — LLM Prompt Injection Prevention Cheat Sheet"

@@ -1,50 +1,43 @@
-{
-  "title": "Linear Regression",
-  "description": "Master the most fundamental ML algorithm: ordinary least squares, R-squared, model assumptions, and practical diagnostics.",
-  "type": "lesson",
-  "order": 5,
-  "duration": "50 min",
-  "difficulty": "beginner",
-  "learning_objectives": [
-    "Derive and implement simple and multiple linear regression",
-    "Compute and interpret R-squared and adjusted R-squared",
-    "Understand the assumptions of linear regression and how to check them",
-    "Diagnose and address multicollinearity"
-  ],
-  "knowledge_refs": [
-    "machine-learning/ml-01-what-is-machine-learning",
-    "machine-learning/ml-06-gradient-descent",
-    "machine-learning/ml-15-regularization"
-  ],
-  "prerequisites": ["ML-04: The Python ML Stack"],
-  "references": [
-    {
-      "title": "StatQuest: Linear Regression — Josh Starmer",
-      "url": "https://www.youtube.com/watch?v=7ArmBVF2dCs",
-      "description": "The best intuitive explanation of linear regression, with clear visual examples of line fitting and R-squared."
-    },
-    {
-      "title": "scikit-learn LinearRegression Documentation",
-      "url": "https://scikit-learn.org/stable/modules/linear_model.html#ordinary-least-squares",
-      "description": "Official scikit-learn documentation on linear regression with code examples and mathematical details."
-    },
-    {
-      "title": "ISLR Chapter 3: Linear Regression",
-      "url": "https://www.statlearning.com/",
-      "description": "Clear textbook treatment of linear regression including assumptions, diagnostics, and extensions."
-    },
-    {
-      "title": "Linearity Assumption in Linear Regression — Towards Data Science",
-      "url": "https://towardsdatascience.com/linear-regression-101-b8b4446b84d2",
-      "description": "Practical guide to checking and addressing violations of linear regression assumptions."
-    },
-    {
-      "title": "Multiple Regression — Penn State STAT 501",
-      "url": "https://online.stat.psu.edu/stat501/",
-      "description": "Comprehensive online course covering multiple regression with real datasets and R code."
-    }
-  ]
-}
+---
+title: Linear Regression
+description: 'Master the most fundamental ML algorithm: ordinary least squares, R-squared,
+  model assumptions, and practical diagnostics.'
+type: lesson
+order: 5
+duration: 50 min
+difficulty: beginner
+learning_objectives:
+- Derive and implement simple and multiple linear regression
+- Compute and interpret R-squared and adjusted R-squared
+- Understand the assumptions of linear regression and how to check them
+- Diagnose and address multicollinearity
+knowledge_refs:
+- machine-learning/ml-01-what-is-machine-learning
+- machine-learning/ml-06-gradient-descent
+- machine-learning/ml-15-regularization
+prerequisites:
+- 'ML-04: The Python ML Stack'
+references:
+- title: 'StatQuest: Linear Regression — Josh Starmer'
+  url: https://www.youtube.com/watch?v=7ArmBVF2dCs
+  description: The best intuitive explanation of linear regression, with clear visual
+    examples of line fitting and R-squared.
+- title: scikit-learn LinearRegression Documentation
+  url: https://scikit-learn.org/stable/modules/linear_model.html#ordinary-least-squares
+  description: Official scikit-learn documentation on linear regression with code
+    examples and mathematical details.
+- title: 'ISLR Chapter 3: Linear Regression'
+  url: https://www.statlearning.com/
+  description: Clear textbook treatment of linear regression including assumptions,
+    diagnostics, and extensions.
+- title: Linearity Assumption in Linear Regression — Towards Data Science
+  url: https://towardsdatascience.com/linear-regression-101-b8b4446b84d2
+  description: Practical guide to checking and addressing violations of linear regression
+    assumptions.
+- title: Multiple Regression — Penn State STAT 501
+  url: https://online.stat.psu.edu/stat501/
+  description: Comprehensive online course covering multiple regression with real
+    datasets and R code.
 ---
 
 Linear regression is the "hello world" of machine learning. It's simple, interpretable, and surprisingly powerful. Understanding it deeply — including its limitations — is essential before moving to more complex algorithms.
@@ -323,3 +316,4 @@ plt.show()
 ## Footnotes
 
 The OLS estimator was independently developed by Legendre (1805) and Gauss (1809). Gauss showed that OLS is the best linear unbiased estimator (BLUE) under the Gauss-Markov theorem when the assumptions hold. The practical diagnostics section draws on Kutner et al.'s *Applied Linear Statistical Models* (2005).
+

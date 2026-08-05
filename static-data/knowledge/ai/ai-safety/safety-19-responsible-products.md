@@ -12,11 +12,11 @@ tags:
 prerequisites:
   - safety-17-values-alignment
 knowledge_refs:
-  - safety-17-values-alignment
+  - slug: safety-17-values-alignment
     title: "Designing for Human Values"
-  - safety-13-auditing-models
+  - slug: safety-13-auditing-models
     title: "Auditing AI Systems"
-  - safety-12-guardrails
+  - slug: safety-12-guardrails
     title: "Guardrails & Content Moderation"
 references:
   - title: "Microsoft — Responsible AI Principles and Practices"
@@ -30,7 +30,6 @@ references:
   - title: "Microsoft — Responsible AI Tools and Practices"
     url: "https://www.microsoft.com/en-us/ai/tools-practices"
 ---
-
 ## Building Responsible AI Products
 
 Responsible AI isn't a separate team or phase — it's a practice embedded throughout the product lifecycle. From data collection to deployment to monitoring, every decision has ethical implications.

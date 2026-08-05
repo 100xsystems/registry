@@ -12,11 +12,11 @@ tags:
 prerequisites:
   - rl-13-reward-design
 knowledge_refs:
-  - rl-13-reward-design
+  - slug: rl-13-reward-design
     title: "Reward Design"
-  - rl-17-rl-in-games
+  - slug: rl-17-rl-in-games
     title: "RL in Games"
-  - rl-18-rl-for-robotics
+  - slug: rl-18-rl-for-robotics
     title: "RL for Robotics"
 references:
   - title: "Sim-to-Real Transfer — OpenAI Rubik's Cube"
@@ -30,7 +30,6 @@ references:
   - title: "Sim-to-Real for Locomotion — Rudin et al."
     url: "https://arxiv.org/abs/1811.04750"
 ---
-
 ## RL for Robotics
 
 Robotics is one of RL's most impactful applications — and one of its hardest. Real-world robots are expensive, fragile, and slow. Simulation enables safe, fast training, but the reality gap between sim and real remains a core challenge.

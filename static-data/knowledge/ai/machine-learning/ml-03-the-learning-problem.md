@@ -1,50 +1,43 @@
-{
-  "title": "The Learning Problem",
-  "description": "Understand the fundamental tension in machine learning: bias-variance tradeoff, overfitting, underfitting, and generalization.",
-  "type": "lesson",
-  "order": 3,
-  "duration": "45 min",
-  "difficulty": "beginner",
-  "learning_objectives": [
-    "Explain the bias-variance tradeoff and its practical implications",
-    "Diagnose overfitting and underfitting from training and validation curves",
-    "Understand generalization and why test set performance matters",
-    "Apply practical strategies to improve model generalization"
-  ],
-  "knowledge_refs": [
-    "machine-learning/ml-01-what-is-machine-learning",
-    "machine-learning/ml-15-regularization",
-    "machine-learning/ml-16-cross-validation"
-  ],
-  "prerequisites": ["ML-01: What Is Machine Learning?", "ML-02: Types of Learning"],
-  "references": [
-    {
-      "title": "Understanding the Bias-Variance Tradeoff — Scott Fortmann-Roe",
-      "url": "http://scott.fortmann-roe.com/docs/BiasVariance.html",
-      "description": "The definitive visual explanation of bias-variance with interactive examples and clear mathematical intuition."
-    },
-    {
-      "title": "An Introduction to Statistical Learning (ISLR) — Chapter 2",
-      "url": "https://www.statlearning.com/",
-      "description": "Clear textbook treatment of statistical learning fundamentals including the bias-variance decomposition."
-    },
-    {
-      "title": "Overfitting and Underfitting — scikit-learn Documentation",
-      "url": "https://scikit-learn.org/stable/learning_curve.html",
-      "description": "Practical guide to diagnosing model fit with learning curves and validation curves in Python."
-    },
-    {
-      "title": "The Elements of Statistical Learning — Hastie, Tibshirani, Friedman",
-      "url": "https://hastie.su.domains/ElemStatLearn/",
-      "description": "The mathematical reference for the bias-variance decomposition and generalization theory."
-    },
-    {
-      "title": "Bias-Variance Tradeoff — StatQuest with Josh Starmer",
-      "url": "https://www.youtube.com/watch?v=EuBBz3bI-aA",
-      "description": "Intuitive video explanation of bias-variance with clear visual examples."
-    }
-  ]
-}
+---
+title: The Learning Problem
+description: 'Understand the fundamental tension in machine learning: bias-variance
+  tradeoff, overfitting, underfitting, and generalization.'
+type: lesson
+order: 3
+duration: 45 min
+difficulty: beginner
+learning_objectives:
+- Explain the bias-variance tradeoff and its practical implications
+- Diagnose overfitting and underfitting from training and validation curves
+- Understand generalization and why test set performance matters
+- Apply practical strategies to improve model generalization
+knowledge_refs:
+- machine-learning/ml-01-what-is-machine-learning
+- machine-learning/ml-15-regularization
+- machine-learning/ml-16-cross-validation
+prerequisites:
+- 'ML-01: What Is Machine Learning?'
+- 'ML-02: Types of Learning'
+references:
+- title: Understanding the Bias-Variance Tradeoff — Scott Fortmann-Roe
+  url: http://scott.fortmann-roe.com/docs/BiasVariance.html
+  description: The definitive visual explanation of bias-variance with interactive
+    examples and clear mathematical intuition.
+- title: An Introduction to Statistical Learning (ISLR) — Chapter 2
+  url: https://www.statlearning.com/
+  description: Clear textbook treatment of statistical learning fundamentals including
+    the bias-variance decomposition.
+- title: Overfitting and Underfitting — scikit-learn Documentation
+  url: https://scikit-learn.org/stable/learning_curve.html
+  description: Practical guide to diagnosing model fit with learning curves and validation
+    curves in Python.
+- title: The Elements of Statistical Learning — Hastie, Tibshirani, Friedman
+  url: https://hastie.su.domains/ElemStatLearn/
+  description: The mathematical reference for the bias-variance decomposition and
+    generalization theory.
+- title: Bias-Variance Tradeoff — StatQuest with Josh Starmer
+  url: https://www.youtube.com/watch?v=EuBBz3bI-aA
+  description: Intuitive video explanation of bias-variance with clear visual examples.
 ---
 
 Every machine learning model faces the same fundamental problem: how to learn from finite data in a way that generalizes to new, unseen examples. This lesson explores the core tension that governs all of machine learning.
@@ -248,3 +241,4 @@ For regression, plot the residuals (predicted - actual). Random scatter = good f
 ## Footnotes
 
 The bias-variance decomposition was formalized by Geman et al. (1992) and is covered extensively in Hastie et al.'s *Elements of Statistical Learning* (2009). The student-exam analogy is inspired by Josh Starmer's StatQuest explanations, which have become a standard teaching tool in ML education.
+

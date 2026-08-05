@@ -13,11 +13,11 @@ tags:
 prerequisites:
   - pe-03-roles-and-context
 knowledge_refs:
-  - pe-03-roles-and-context
+  - slug: pe-03-roles-and-context
     title: "Roles & Context"
-  - pe-18-safety-in-prompts
+  - slug: pe-18-safety-in-prompts
     title: "Safety in Prompting"
-  - pe-06-structured-outputs
+  - slug: pe-06-structured-outputs
     title: "Structured Outputs"
 references:
   - title: "Prompt Engineering in Clinical Practice: Tutorial for Clinicians"
@@ -31,7 +31,6 @@ references:
   - title: "Prompt Engineering in Healthcare: Best Practices & Trends"
     url: "https://healthtechmagazine.net/article/2025/04/prompt-engineering-in-healthcare-best-practices-strategies-trends-perfcon"
 ---
-
 ## Domain-Specific Prompting
 
 General-purpose prompts fail in specialized domains. Medical, legal, financial, and educational applications require domain-specific vocabulary, compliance constraints, and accuracy standards that generic prompts can't achieve.

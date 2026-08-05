@@ -12,11 +12,11 @@ tags:
 prerequisites:
   - rl-02-markov-decision-processes
 knowledge_refs:
-  - rl-02-markov-decision-processes
+  - slug: rl-02-markov-decision-processes
     title: "Markov Decision Processes"
-  - rl-15-imitation-learning
+  - slug: rl-15-imitation-learning
     title: "Imitation Learning"
-  - safety-04-alignment
+  - slug: safety-04-alignment
     title: "Alignment"
 references:
   - title: "Ng et al. (1999) — Policy Invariance Under Reward Transformations"
@@ -30,7 +30,6 @@ references:
   - title: "Inverse RL — Ng & Russell"
     url: "https://people.eecs.berkeley.edu/~russell/papers/ecml00-ir.pdf"
 ---
-
 ## Reward Design
 
 The reward function defines what the agent optimizes. Poorly designed rewards lead to unintended behavior, reward hacking, and failed training. Reward design is one of the most critical and underappreciated aspects of RL.

@@ -12,11 +12,11 @@ tags:
 prerequisites:
   - mlops-03-reproducibility-and-versioning
 knowledge_refs:
-  - mlops-03-reproducibility-and-versioning
+  - slug: mlops-03-reproducibility-and-versioning
     title: "Reproducibility & Versioning"
-  - mlops-07-model-registry
+  - slug: mlops-07-model-registry
     title: "Model Registry"
-  - mlops-08-training-at-scale
+  - slug: mlops-08-training-at-scale
     title: "Training at Scale"
 references:
   - title: "MLflow Documentation"
@@ -30,7 +30,6 @@ references:
   - title: "Neptune.ai — Experiment Tracking Guide"
     url: "https://neptune.ai/blog/experiment-tracking"
 ---
-
 ## Experiment Tracking
 
 Every ML experiment generates data — hyperparameters, metrics, code versions, model artifacts. Without systematic tracking, this knowledge is lost in notebooks, local directories, and memory. Experiment tracking captures everything so you can compare, reproduce, and build on past work.

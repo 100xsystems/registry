@@ -12,11 +12,11 @@ tags:
 prerequisites:
   - rl-09-deep-q-networks
 knowledge_refs:
-  - rl-09-deep-q-networks
+  - slug: rl-09-deep-q-networks
     title: "Deep Q-Networks"
-  - rl-15-imitation-learning
+  - slug: rl-15-imitation-learning
     title: "Imitation Learning"
-  - rl-10-policy-gradient-methods
+  - slug: rl-10-policy-gradient-methods
     title: "Policy Gradient Methods"
 references:
   - title: "Conservative Q-Learning — Kumar et al. (2020)"
@@ -30,7 +30,6 @@ references:
   - title: "MOReL — Kumar et al. (2020)"
     url: "https://arxiv.org/abs/2005.01643"
 ---
-
 ## Offline Reinforcement Learning
 
 Offline RL learns policies from pre-collected datasets without interacting with the environment. This is critical when environment interaction is expensive, dangerous, or impossible — autonomous driving, healthcare, robotics.

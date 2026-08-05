@@ -12,11 +12,11 @@ tags:
 prerequisites:
   - mlops-04-data-pipelines
 knowledge_refs:
-  - mlops-04-data-pipelines
+  - slug: mlops-04-data-pipelines
     title: "Data Pipelines"
-  - mlops-06-experiment-tracking
+  - slug: mlops-06-experiment-tracking
     title: "Experiment Tracking"
-  - mlops-10-model-serving
+  - slug: mlops-10-model-serving
     title: "Model Serving APIs"
 references:
   - title: "Feast — Point-in-Time Joins"
@@ -30,7 +30,6 @@ references:
   - title: "Databricks Blog — What Is a Feature Store?"
     url: "https://www.databricks.com/blog/what-feature-store-complete-guide-ml-feature-engineering"
 ---
-
 ## Feature Stores
 
 A feature store is the centralized infrastructure layer that provides a single source of truth for defining, storing, and serving ML features. It eliminates feature duplication, prevents train-serve skew, and enables feature reuse across teams and models.

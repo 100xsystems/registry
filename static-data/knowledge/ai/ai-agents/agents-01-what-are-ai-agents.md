@@ -49,9 +49,9 @@ related_knowledge:
 knowledge_refs:
   - slug: "ml-01-what-is-machine-learning"
     title: "What Is Machine Learning?"
-  - slug: "llm-01-fundamentals-of-llms"
+  - slug: "llm-01-what-is-llm-engineering"
     title: "Fundamentals of LLMs"
-  - slug: "dl-01-neural-network-foundations"
+  - slug: "dl-01-what-is-deep-learning"
     title: "Neural Network Foundations"
 ---
 

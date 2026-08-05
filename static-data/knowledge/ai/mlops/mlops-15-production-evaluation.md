@@ -12,11 +12,11 @@ tags:
 prerequisites:
   - mlops-14-monitoring-and-drift
 knowledge_refs:
-  - mlops-14-monitoring-and-drift
+  - slug: mlops-14-monitoring-and-drift
     title: "Monitoring & Drift Detection"
-  - mlops-13-deployment-strategies
+  - slug: mlops-13-deployment-strategies
     title: "Model Deployment Strategies"
-  - mlops-16-cicd-for-ml
+  - slug: mlops-16-cicd-for-ml
     title: "CI/CD for Machine Learning"
 references:
   - title: "Deploying ML Models in Shadow Mode"
@@ -30,7 +30,6 @@ references:
   - title: "ML System Design — Evaluation"
     url: "https://www.hellointerview.com/learn/ml-system-design/core-concepts/evaluation"
 ---
-
 ## Evaluation in Production
 
 Offline evaluation on test sets provides a baseline, but production is where truth lives. Real-world dynamics — data drift, user behavior, infrastructure constraints — can't be captured in offline tests.

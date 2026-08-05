@@ -49,11 +49,11 @@ related_knowledge:
     title: "Browser Automation Agents"
     lesson_number: 9
 knowledge_refs:
-  - slug: "nlp-09-information-retrieval"
+  - slug: "llm-07-rag-engineering"
     title: "Information Retrieval"
-  - slug: "nlp-10-text-summarization"
+  - slug: "nlp-19-summarization"
     title: "Text Summarization"
-  - slug: "genai-09-retrieval-augmented-generation"
+  - slug: "genai-10-rag"
     title: "RAG"
 ---
 

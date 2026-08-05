@@ -11,11 +11,11 @@ tags:
   - future
 prerequisites: []
 knowledge_refs:
-  - pe-01-what-is-prompt-engineering
+  - slug: pe-01-what-is-prompt-engineering
     title: "What Is Prompt Engineering?"
-  - pe-20-production-prompting
+  - slug: pe-20-production-prompting
     title: "Prompt Engineering in Production"
-  - llm-01-what-is-llm-engineering
+  - slug: llm-01-what-is-llm-engineering
     title: "What Is LLM Engineering?"
 references:
   - title: "PE Collective — How to Become a Prompt Engineer in 12 Weeks"
@@ -29,7 +29,6 @@ references:
   - title: "Learn Prompting — Open Source Textbook"
     url: "https://www.promptingguide.ai/"
 ---
-
 ## Prompt Engineering Roadmap
 
 Prompt engineering has evolved from an ad-hoc skill into a structured discipline with clear career paths, learning progressions, and a rapidly expanding tool ecosystem.

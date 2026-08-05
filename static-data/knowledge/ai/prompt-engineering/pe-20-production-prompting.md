@@ -12,11 +12,11 @@ tags:
 prerequisites:
   - pe-13-evaluating-prompts
 knowledge_refs:
-  - pe-13-evaluating-prompts
+  - slug: pe-13-evaluating-prompts
     title: "Evaluating Prompts"
-  - pe-14-prompt-versioning
+  - slug: pe-14-prompt-versioning
     title: "Prompt Versioning & Management"
-  - pe-10-system-prompts
+  - slug: pe-10-system-prompts
     title: "System Prompts in Production"
 references:
   - title: "Datadog — LLM Guardrails: Best Practices"
@@ -30,7 +30,6 @@ references:
   - title: "Braintrust — AI Product Development"
     url: "https://www.braintrust.dev/"
 ---
-
 ## Prompt Engineering in Production
 
 The gap between a working prototype and a production system is enormous. Production prompt engineering requires monitoring, error handling, scaling, and the ability to respond to failures quickly.

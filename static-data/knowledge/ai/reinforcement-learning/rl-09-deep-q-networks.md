@@ -12,11 +12,11 @@ tags:
 prerequisites:
   - rl-08-function-approximation
 knowledge_refs:
-  - rl-08-function-approximation
+  - slug: rl-08-function-approximation
     title: "Function Approximation"
-  - rl-06-q-learning
+  - slug: rl-06-q-learning
     title: "Q-Learning"
-  - rl-11-actor-critic
+  - slug: rl-11-actor-critic
     title: "Actor-Critic Methods"
 references:
   - title: "Mnih et al. (2015) — Human-level control through deep RL (Nature)"
@@ -30,7 +30,6 @@ references:
   - title: "Rainbow DQN — Hessel et al. (2018)"
     url: "https://arxiv.org/abs/1710.02229"
 ---
-
 ## Deep Q-Networks (DQN)
 
 DQN (Mnih et al., 2015) was the breakthrough that proved deep neural networks could learn to play games directly from pixels. It combined Q-learning with deep learning and introduced two key innovations that stabilized training.

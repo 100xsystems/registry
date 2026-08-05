@@ -13,11 +13,11 @@ tags:
 prerequisites:
   - safety-01-why-ai-safety
 knowledge_refs:
-  - safety-01-why-ai-safety
+  - slug: safety-01-why-ai-safety
     title: "Why AI Safety Matters"
-  - safety-05-robustness
+  - slug: safety-05-robustness
     title: "Robustness & Adversarial Examples"
-  - safety-10-safety-evaluations
+  - slug: safety-10-safety-evaluations
     title: "Safety Evaluations"
 references:
   - title: "Interpretable Machine Learning — Christoph Molnar"
@@ -31,7 +31,6 @@ references:
   - title: "Partial Dependence Plot — Interpretable Machine Learning"
     url: "https://christophm.github.io/interpretable-ml-book/pdp.html"
 ---
-
 ## Interpretability & Explainability
 
 You can't fix what you can't see. Interpretability is the ability to understand *why* a model made a specific decision. Explainability is communicating that understanding to humans. Both are essential for AI safety.

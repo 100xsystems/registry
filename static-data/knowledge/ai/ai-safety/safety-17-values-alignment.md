@@ -12,11 +12,11 @@ tags:
 prerequisites:
   - safety-04-alignment
 knowledge_refs:
-  - safety-04-alignment
+  - slug: safety-04-alignment
     title: "Alignment"
-  - safety-14-societal-impact
+  - slug: safety-14-societal-impact
     title: "Societal Impact of AI"
-  - safety-08-governance
+  - slug: safety-08-governance
     title: "AI Governance & Policy"
 references:
   - title: "Value Sensitive Design — Batya Friedman"
@@ -30,7 +30,6 @@ references:
   - title: "AI Ethics Guidelines Global Inventory — AlgorithmWatch"
     url: "https://algorithmwatch.org/en/project/ai-ethics-guidelines-global-inventory/"
 ---
-
 ## Designing for Human Values
 
 Technical alignment isn't enough. AI systems must be designed from the ground up to respect human values, including fairness, dignity, autonomy, and well-being. This requires going beyond engineering to incorporate ethics, social science, and participatory design.

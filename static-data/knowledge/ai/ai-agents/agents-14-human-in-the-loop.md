@@ -49,11 +49,11 @@ related_knowledge:
     title: "Agent Observability"
     lesson_number: 15
 knowledge_refs:
-  - slug: "ai-safety-17-values-alignment"
+  - slug: "safety-17-values-alignment"
     title: "Values Alignment"
-  - slug: "ai-safety-04-alignment"
+  - slug: "safety-04-alignment"
     title: "Alignment"
-  - slug: "llm-06-fine-tuning"
+  - slug: "llm-09-fine-tuning-practice"
     title: "Fine-Tuning"
 ---
 

@@ -12,11 +12,11 @@ tags:
 prerequisites:
   - pe-16-prompt-caching
 knowledge_refs:
-  - pe-16-prompt-caching
+  - slug: pe-16-prompt-caching
     title: "Prompt Caching & Cost"
-  - pe-20-production-prompting
+  - slug: pe-20-production-prompting
     title: "Prompt Engineering in Production"
-  - llm-16-cost-optimization
+  - slug: llm-16-cost-optimization
     title: "Cost Optimization"
 references:
   - title: "OpenAI — Pricing"
@@ -30,7 +30,6 @@ references:
   - title: "Anthropic — Prompt Caching"
     url: "https://platform.claude.com/docs/en/build-with-claude/prompt-caching"
 ---
-
 ## Optimizing Prompts for Cost
 
 Every token costs money. At scale — thousands or millions of requests per day — even small prompt optimizations compound into significant savings. Cost optimization isn't about cutting corners; it's about being efficient.

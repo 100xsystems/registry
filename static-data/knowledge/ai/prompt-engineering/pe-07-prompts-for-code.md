@@ -11,11 +11,11 @@ tags:
 prerequisites:
   - pe-06-structured-outputs
 knowledge_refs:
-  - pe-06-structured-outputs
+  - slug: pe-06-structured-outputs
     title: "Structured Outputs"
-  - pe-04-few-shot-examples
+  - slug: pe-04-few-shot-examples
     title: "Few-Shot Examples"
-  - pe-11-advanced-techniques
+  - slug: pe-11-advanced-techniques
     title: "Advanced Prompting Techniques"
 references:
   - title: "OpenAI — Best Practices for Code Generation"
@@ -29,7 +29,6 @@ references:
   - title: "GitHub Copilot Prompting Guide"
     url: "https://docs.github.com/en/copilot/using-github-copilot/prompt-engineering-for-github-copilot"
 ---
-
 ## Prompting for Code
 
 LLMs have transformed how developers write, review, and debug code. But getting useful code output requires specific prompting techniques that differ from general text generation.

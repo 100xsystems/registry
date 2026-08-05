@@ -11,11 +11,11 @@ tags:
 prerequisites:
   - safety-11-red-teaming
 knowledge_refs:
-  - safety-11-red-teaming
+  - slug: safety-11-red-teaming
     title: "Red Teaming"
-  - safety-10-safety-evaluations
+  - slug: safety-10-safety-evaluations
     title: "Safety Evaluations"
-  - pe-12-prompt-injection-defense
+  - slug: pe-12-prompt-injection-defense
     title: "Prompt Injection Defense"
 references:
   - title: "NVIDIA NeMo Guardrails"
@@ -29,7 +29,6 @@ references:
   - title: "Anthropic — Core Views on AI Safety"
     url: "https://www.anthropic.com/research#702-core-views-on-ai-safety"
 ---
-
 ## Guardrails & Content Moderation
 
 Guardrails are runtime safety systems that monitor, filter, and control AI inputs and outputs. They're the last line of defense between a potentially unsafe model and a real user.

@@ -12,11 +12,11 @@ tags:
 prerequisites:
   - rl-01-what-is-reinforcement-learning
 knowledge_refs:
-  - rl-01-what-is-reinforcement-learning
+  - slug: rl-01-what-is-reinforcement-learning
     title: "What Is Reinforcement Learning?"
-  - rl-07-exploration-vs-exploitation
+  - slug: rl-07-exploration-vs-exploitation
     title: "Exploration vs Exploitation"
-  - rl-06-q-learning
+  - slug: rl-06-q-learning
     title: "Q-Learning"
 references:
   - title: "Contextual Bandits for Recommendations — Li et al."
@@ -30,7 +30,6 @@ references:
   - title: "Exploration in Interactive Recommender Systems"
     url: "https://dl.acm.org/doi/10.1145/2652481.2652496"
 ---
-
 ## RL for Recommender Systems
 
 Recommendation is a sequential decision-making problem: each recommendation changes user state, and the goal is to maximize long-term engagement, not just immediate clicks.

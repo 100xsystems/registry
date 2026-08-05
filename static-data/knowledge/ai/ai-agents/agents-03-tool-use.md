@@ -48,9 +48,9 @@ related_knowledge:
     title: "Building Agents with LangChain"
     lesson_number: 7
 knowledge_refs:
-  - slug: "llm-01-fundamentals-of-llms"
+  - slug: "llm-01-what-is-llm-engineering"
     title: "Fundamentals of LLMs"
-  - slug: "genai-14-api-integration"
+  - slug: "llm-03-llm-apis"
     title: "API Integration"
   - slug: "mlops-10-model-serving"
     title: "Model Serving"

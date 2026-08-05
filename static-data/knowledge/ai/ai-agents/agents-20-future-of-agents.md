@@ -49,9 +49,9 @@ related_knowledge:
     title: "AI Agents Roadmap"
     lesson_number: 21
 knowledge_refs:
-  - slug: "ai-safety-18-emerging-risks"
+  - slug: "safety-18-emerging-risks"
     title: "Emerging Risks"
-  - slug: "ai-safety-20-safety-research"
+  - slug: "safety-20-safety-research"
     title: "Safety Research"
   - slug: "genai-01-what-is-generative-ai"
     title: "What Is Generative AI?"

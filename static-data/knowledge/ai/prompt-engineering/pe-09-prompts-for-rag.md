@@ -12,11 +12,11 @@ tags:
 prerequisites:
   - pe-06-structured-outputs
 knowledge_refs:
-  - pe-06-structured-outputs
+  - slug: pe-06-structured-outputs
     title: "Structured Outputs"
-  - pe-10-system-prompts
+  - slug: pe-10-system-prompts
     title: "System Prompts in Production"
-  - llm-07-rag-engineering
+  - slug: llm-07-rag-engineering
     title: "RAG Engineering"
 references:
   - title: "Anthropic — Prompt Engineering for RAG"
@@ -30,7 +30,6 @@ references:
   - title: "TruLens — RAG Evaluation Guide"
     url: "https://truLens.org/trulens/getting_started/quickstart/"
 ---
-
 ## Prompting for RAG
 
 Retrieval-Augmented Generation (RAG) combines the knowledge retrieval of search engines with the reasoning of LLMs. The prompt engineering challenge is different from standard prompting: you're injecting external context and need the model to use it faithfully without hallucinating.

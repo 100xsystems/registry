@@ -11,11 +11,11 @@ tags:
 prerequisites:
   - safety-10-safety-evaluations
 knowledge_refs:
-  - safety-10-safety-evaluations
+  - slug: safety-10-safety-evaluations
     title: "Safety Evaluations"
-  - safety-12-guardrails
+  - slug: safety-12-guardrails
     title: "Guardrails & Content Moderation"
-  - safety-05-robustness
+  - slug: safety-05-robustness
     title: "Robustness & Adversarial Examples"
 references:
   - title: "AI Red-Teaming Design: Threat Models and Tools — CSET"
@@ -29,7 +29,6 @@ references:
   - title: "NIST AI 100-2: Adversarial Machine Learning"
     url: "https://csrc.nist.gov/pubs/ai/100/2/e2025/final"
 ---
-
 ## Red Teaming
 
 Red teaming is the practice of deliberately attacking an AI system to find failures before real adversaries do. It's adversarial testing with a creative, human-driven component that automated benchmarks can't replicate.

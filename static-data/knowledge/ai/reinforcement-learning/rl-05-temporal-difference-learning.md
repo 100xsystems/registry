@@ -13,9 +13,9 @@ tags:
 prerequisites:
   - rl-04-monte-carlo-methods
 knowledge_refs:
-  - rl-04-monte-carlo-methods
+  - slug: rl-04-monte-carlo-methods
     title: "Monte Carlo Methods"
-  - rl-06-q-learning
+  - slug: rl-06-q-learning
     title: "Q-Learning"
 references:
   - title: "Sutton & Barto — Chapter 6: Temporal-Difference Learning"
@@ -29,7 +29,6 @@ references:
   - title: "Sutton & Barto Summary: TD Learning"
     url: "https://lcalem.github.io/blog/2018/10/31/sutton-chap06-td"
 ---
-
 ## Temporal Difference Learning
 
 Temporal Difference (TD) learning is the core insight of modern RL. It combines Monte Carlo's sampling with Dynamic Programming's bootstrapping — learning from experience without waiting for episode completion.

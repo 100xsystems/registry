@@ -12,11 +12,11 @@ tags:
 prerequisites:
   - rl-05-temporal-difference-learning
 knowledge_refs:
-  - rl-05-temporal-difference-learning
+  - slug: rl-05-temporal-difference-learning
     title: "Temporal Difference Learning"
-  - rl-09-deep-q-networks
+  - slug: rl-09-deep-q-networks
     title: "Deep Q-Networks"
-  - rl-07-exploration-vs-exploitation
+  - slug: rl-07-exploration-vs-exploitation
     title: "Exploration vs Exploitation"
 references:
   - title: "Q-Learning — Wikipedia"
@@ -30,7 +30,6 @@ references:
   - title: "OpenAI Spinning Up — Q-Learning"
     url: "https://spinningup.openai.com/en/latest/spinningup/algorithms/qlearning.html"
 ---
-
 ## Q-Learning
 
 Q-learning is the off-policy TD control algorithm that learns the optimal action-value function Q*(s,a) directly. It's the foundation of deep RL — DQN, Rainbow, and most value-based algorithms build on Q-learning.

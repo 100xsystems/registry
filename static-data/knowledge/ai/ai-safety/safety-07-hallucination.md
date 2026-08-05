@@ -12,11 +12,11 @@ tags:
 prerequisites:
   - safety-03-interpretability
 knowledge_refs:
-  - safety-03-interpretability
+  - slug: safety-03-interpretability
     title: "Interpretability & Explainability"
-  - safety-05-robustness
+  - slug: safety-05-robustness
     title: "Robustness & Adversarial Examples"
-  - llm-07-rag-engineering
+  - slug: llm-07-rag-engineering
     title: "RAG Engineering"
 references:
   - title: "A Survey on Hallucination in Large Language Models"
@@ -30,7 +30,6 @@ references:
   - title: "SelfCheckGPT: Zero-Resource Black-Box Hallucination Detection"
     url: "https://arxiv.org/abs/2303.01767"
 ---
-
 ## Hallucination & Factualness
 
 Hallucination is when an AI system generates confident, fluent, but completely false information. It's one of the most dangerous failures in AI because the output looks indistinguishable from accurate information.

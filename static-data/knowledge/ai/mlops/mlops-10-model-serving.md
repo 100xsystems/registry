@@ -13,11 +13,11 @@ tags:
 prerequisites:
   - mlops-09-model-packaging
 knowledge_refs:
-  - mlops-09-model-packaging
+  - slug: mlops-09-model-packaging
     title: "Model Packaging & Serialization"
-  - mlops-13-deployment-strategies
+  - slug: mlops-13-deployment-strategies
     title: "Model Deployment Strategies"
-  - mlops-14-monitoring-and-drift
+  - slug: mlops-14-monitoring-and-drift
     title: "Monitoring & Drift Detection"
 references:
   - title: "TensorFlow Serving Documentation"
@@ -31,7 +31,6 @@ references:
   - title: "Google Cloud — Model Serving"
     url: "https://cloud.google.com/vertex-ai/docs/predictions/getting-predictions"
 ---
-
 ## Model Serving APIs
 
 Model serving is the process of making trained models available for inference via APIs. The serving architecture determines latency, throughput, cost, and reliability.

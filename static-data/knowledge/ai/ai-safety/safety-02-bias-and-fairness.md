@@ -12,11 +12,11 @@ tags:
 prerequisites:
   - safety-01-why-ai-safety
 knowledge_refs:
-  - safety-01-why-ai-safety
+  - slug: safety-01-why-ai-safety
     title: "Why AI Safety Matters"
-  - safety-06-privacy
+  - slug: safety-06-privacy
     title: "Privacy & Data Protection"
-  - safety-14-societal-impact
+  - slug: safety-14-societal-impact
     title: "Societal Impact of AI"
 references:
   - title: "Google ML Crash Course — Fairness: Types of Bias"
@@ -30,7 +30,6 @@ references:
   - title: "ProPublica — Machine Bias: There's Software Used Across the Country to Predict Future Criminals"
     url: "https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing"
 ---
-
 ## Bias & Fairness
 
 Bias in AI isn't a bug — it's a feature of how data reflects the world as it is, not as it should be. Fairness engineering is the discipline of detecting, measuring, and mitigating these biases before they cause harm.

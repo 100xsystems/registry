@@ -12,11 +12,11 @@ tags:
 prerequisites:
   - pe-13-evaluating-prompts
 knowledge_refs:
-  - pe-13-evaluating-prompts
+  - slug: pe-13-evaluating-prompts
     title: "Evaluating Prompts"
-  - pe-10-system-prompts
+  - slug: pe-10-system-prompts
     title: "System Prompts in Production"
-  - pe-20-production-prompting
+  - slug: pe-20-production-prompting
     title: "Prompt Engineering in Production"
 references:
   - title: "Agenta — Prompt Versioning: The Complete Guide"
@@ -30,7 +30,6 @@ references:
   - title: "PromptLayer — Prompt Management for LLMs"
     url: "https://promptlayer.com/"
 ---
-
 ## Prompt Versioning & Management
 
 In production, prompts change frequently — by engineers, product managers, and domain experts. Treating prompts with the same rigor as code (versioning, testing, deployment pipelines) is essential for reliability and collaboration.

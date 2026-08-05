@@ -12,11 +12,11 @@ tags:
 prerequisites:
   - rl-10-policy-gradient-methods
 knowledge_refs:
-  - rl-10-policy-gradient-methods
+  - slug: rl-10-policy-gradient-methods
     title: "Policy Gradient Methods"
-  - rl-12-proximal-policy-optimization
+  - slug: rl-12-proximal-policy-optimization
     title: "PPO & Modern Policy Optimization"
-  - rl-09-deep-q-networks
+  - slug: rl-09-deep-q-networks
     title: "Deep Q-Networks"
 references:
   - title: "Mnih et al. (2016) — Asynchronous Methods for Deep RL (A3C)"
@@ -30,7 +30,6 @@ references:
   - title: "Actor-Critic Algorithm — GeeksforGeeks"
     url: "https://www.geeksforgeeks.org/machine-learning/actor-critic-algorithm-in-reinforcement-learning/"
 ---
-
 ## Actor-Critic Methods
 
 Actor-critic methods combine the best of policy gradients and value-based methods. The actor selects actions while the critic evaluates them — reducing variance while maintaining the flexibility of policy optimization.

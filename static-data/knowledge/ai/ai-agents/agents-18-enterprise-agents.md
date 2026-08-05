@@ -49,11 +49,11 @@ related_knowledge:
     title: "Multi-Agent Systems"
     lesson_number: 6
 knowledge_refs:
-  - slug: "ai-safety-08-governance"
+  - slug: "safety-08-governance"
     title: "AI Governance"
   - slug: "mlops-18-governance"
     title: "Data & Model Governance"
-  - slug: "genai-14-api-integration"
+  - slug: "llm-03-llm-apis"
     title: "API Integration"
 ---
 

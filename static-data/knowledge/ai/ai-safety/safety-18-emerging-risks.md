@@ -13,11 +13,11 @@ tags:
 prerequisites:
   - safety-14-societal-impact
 knowledge_refs:
-  - safety-14-societal-impact
+  - slug: safety-14-societal-impact
     title: "Societal Impact of AI"
-  - safety-04-alignment
+  - slug: safety-04-alignment
     title: "Alignment"
-  - safety-08-governance
+  - slug: safety-08-governance
     title: "AI Governance & Policy"
 references:
   - title: "Managing Advanced Cyber Risks in Frontier AI — Frontier Model Forum"
@@ -31,7 +31,6 @@ references:
   - title: "Emerging Threats in AI — Frontiers in Communications and Networks"
     url: "https://www.frontiersin.org/journals/communications-and-networks/articles/10.3389/frcmn.2025.1727425/full"
 ---
-
 ## Emerging & Frontier Risks
 
 As AI capabilities advance, new categories of risk emerge that didn't exist before. These frontier risks require proactive governance, not reactive regulation.

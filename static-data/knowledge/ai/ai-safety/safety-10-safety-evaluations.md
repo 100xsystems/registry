@@ -12,11 +12,11 @@ tags:
 prerequisites:
   - safety-03-interpretability
 knowledge_refs:
-  - safety-03-interpretability
+  - slug: safety-03-interpretability
     title: "Interpretability & Explainability"
-  - safety-11-red-teaming
+  - slug: safety-11-red-teaming
     title: "Red Teaming"
-  - safety-12-guardrails
+  - slug: safety-12-guardrails
     title: "Guardrails & Content Moderation"
 references:
   - title: "HELM: Holistic Evaluation of Language Models"
@@ -30,7 +30,6 @@ references:
   - title: "Anthropic — Core Views on AI Safety: On Accessibility, Outer Alignment, and Inner Alignment"
     url: "https://www.anthropic.com/research#702-core-views-on-ai-safety"
 ---
-
 ## Safety Evaluations
 
 Safety evaluations are systematic tests that measure whether an AI system behaves safely under various conditions. Without rigorous evaluation, you're deploying based on hope — not evidence.

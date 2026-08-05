@@ -12,11 +12,11 @@ tags:
 prerequisites:
   - pe-02-prompt-structure
 knowledge_refs:
-  - pe-02-prompt-structure
+  - slug: pe-02-prompt-structure
     title: "Prompt Structure"
-  - pe-12-prompt-injection-defense
+  - slug: pe-12-prompt-injection-defense
     title: "Prompt Injection Defense"
-  - pe-14-prompt-versioning
+  - slug: pe-14-prompt-versioning
     title: "Prompt Versioning & Management"
 references:
   - title: "AWS — Designing for System Prompt Leakage and Mitigations"
@@ -30,7 +30,6 @@ references:
   - title: "Evidently AI — LLM Evaluation: A Beginner's Guide"
     url: "https://www.evidentlyai.com/llm-guide/llm-evaluation"
 ---
-
 ## System Prompts in Production
 
 A system prompt is not just instructions — it's the operating system of your AI application. In production, it must be engineered with the same rigor as production software: version control, testing, guardrails, and monitoring.

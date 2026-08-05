@@ -12,11 +12,11 @@ tags:
 prerequisites:
   - mlops-13-deployment-strategies
 knowledge_refs:
-  - mlops-13-deployment-strategies
+  - slug: mlops-13-deployment-strategies
     title: "Model Deployment Strategies"
-  - mlops-15-production-evaluation
+  - slug: mlops-15-production-evaluation
     title: "Evaluation in Production"
-  - mlops-16-cicd-for-ml
+  - slug: mlops-16-cicd-for-ml
     title: "CI/CD for Machine Learning"
 references:
   - title: "Evidently AI — What Is Data Drift?"
@@ -30,7 +30,6 @@ references:
   - title: "Evidently AI — ML Monitoring with Email Alerts"
     url: "https://www.evidentlyai.com/blog/ml-monitoring-with-email-alerts-tutorial"
 ---
-
 ## Monitoring & Drift Detection
 
 Models decay silently. Unlike software bugs that cause crashes, ML model degradation is gradual and invisible without monitoring. Data drift, concept drift, and data quality issues slowly erode performance until someone notices — often too late.

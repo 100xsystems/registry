@@ -12,11 +12,11 @@ tags:
 prerequisites:
   - mlops-06-experiment-tracking
 knowledge_refs:
-  - mlops-06-experiment-tracking
+  - slug: mlops-06-experiment-tracking
     title: "Experiment Tracking"
-  - mlops-13-deployment-strategies
+  - slug: mlops-13-deployment-strategies
     title: "Model Deployment Strategies"
-  - mlops-18-governance
+  - slug: mlops-18-governance
     title: "Data & Model Governance"
 references:
   - title: "MLflow Model Registry Documentation"
@@ -30,7 +30,6 @@ references:
   - title: "Champion-Challenger Pattern for Model Governance"
     url: "https://stacksimplify.com/blog/ml-governance-model-registry/"
 ---
-
 ## Model Registry
 
 A model registry is the single source of truth for all trained models. It manages versioning, staging, governance, and deployment workflows — bridging the gap between experimentation and production.

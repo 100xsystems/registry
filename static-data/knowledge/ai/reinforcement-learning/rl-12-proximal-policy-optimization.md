@@ -12,11 +12,11 @@ tags:
 prerequisites:
   - rl-11-actor-critic
 knowledge_refs:
-  - rl-11-actor-critic
+  - slug: rl-11-actor-critic
     title: "Actor-Critic Methods"
-  - rl-10-policy-gradient-methods
+  - slug: rl-10-policy-gradient-methods
     title: "Policy Gradient Methods"
-  - rl-13-reward-design
+  - slug: rl-13-reward-design
     title: "Reward Design"
 references:
   - title: "Schulman et al. (2017) — Proximal Policy Optimization"
@@ -30,7 +30,6 @@ references:
   - title: "GAE — Schulman et al. (2016)"
     url: "https://arxiv.org/abs/1606.05560"
 ---
-
 ## PPO & Modern Policy Optimization
 
 PPO (Schulman et al., 2017) is the most widely used policy optimization algorithm. It achieves TRPO's stability through a simple clipped objective that's easy to implement and tune.

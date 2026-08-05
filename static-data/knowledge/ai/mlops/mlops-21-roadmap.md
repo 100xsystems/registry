@@ -11,11 +11,11 @@ tags:
   - future
 prerequisites: []
 knowledge_refs:
-  - mlops-01-what-is-mlops
+  - slug: mlops-01-what-is-mlops
     title: "What Is MLOps?"
-  - mlops-20-llmops
+  - slug: mlops-20-llmops
     title: "LLMOps"
-  - mlops-16-cicd-for-ml
+  - slug: mlops-16-cicd-for-ml
     title: "CI/CD for Machine Learning"
 references:
   - title: "Google Cloud — MLOps Continuous Delivery"
@@ -29,7 +29,6 @@ references:
   - title: "MLOps Community"
     url: "https://mlops.community/"
 ---
-
 ## MLOps Roadmap
 
 MLOps is one of the fastest-growing roles in AI. This roadmap takes you from foundations to production-ready MLOps engineer.

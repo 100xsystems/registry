@@ -12,11 +12,11 @@ tags:
 prerequisites:
   - safety-08-governance
 knowledge_refs:
-  - safety-08-governance
+  - slug: safety-08-governance
     title: "AI Governance & Policy"
-  - safety-03-interpretability
+  - slug: safety-03-interpretability
     title: "Interpretability & Explainability"
-  - safety-13-auditing-models
+  - slug: safety-13-auditing-models
     title: "Auditing AI Systems"
 references:
   - title: "Model Cards for Model Reporting (Mitchell et al., 2019)"
@@ -30,7 +30,6 @@ references:
   - title: "C2PA — Content Provenance and Authenticity"
     url: "https://c2pa.org/"
 ---
-
 ## Transparency & Disclosure
 
 Transparency is the practice of making AI systems' capabilities, limitations, and decision-making processes visible to users, regulators, and affected parties. Without transparency, accountability is impossible.

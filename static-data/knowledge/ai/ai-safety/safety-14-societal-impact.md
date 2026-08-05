@@ -12,11 +12,11 @@ tags:
 prerequisites:
   - safety-01-why-ai-safety
 knowledge_refs:
-  - safety-01-why-ai-safety
+  - slug: safety-01-why-ai-safety
     title: "Why AI Safety Matters"
-  - safety-02-bias-and-fairness
+  - slug: safety-02-bias-and-fairness
     title: "Bias & Fairness"
-  - safety-17-values-alignment
+  - slug: safety-17-values-alignment
     title: "Designing for Human Values"
 references:
   - title: "UNESCO — AI and the Digital Divide"
@@ -30,7 +30,6 @@ references:
   - title: "Center for AI Safety — AI Safety, Ethics, and Society"
     url: "https://www.aisafetybook.com/"
 ---
-
 ## Societal Impact of AI
 
 AI doesn't just affect individuals — it reshapes entire societies. Understanding these macro-level impacts is essential for building AI that benefits everyone, not just the few.

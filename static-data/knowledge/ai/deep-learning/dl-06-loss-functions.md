@@ -30,7 +30,7 @@ references:
 knowledge_refs:
   - dl-05-backpropagation
   - dl-03-activation-functions
-  - dl-18-evaluating-deep-models
+  - dl-20-evaluating-deep-models
 ---
 
 # Loss Functions

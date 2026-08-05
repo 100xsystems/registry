@@ -49,11 +49,11 @@ related_knowledge:
     title: "Enterprise Agent Applications"
     lesson_number: 18
 knowledge_refs:
-  - slug: "genai-09-retrieval-augmented-generation"
+  - slug: "genai-10-rag"
     title: "RAG"
-  - slug: "ml-15-reinforcement-learning-from-human-feedback"
+  - slug: "genai-09-rlhf-and-alignment"
     title: "RLHF"
-  - slug: "dl-09-attention-mechanisms"
+  - slug: "dl-18-attention-mechanisms"
     title: "Attention Mechanisms"
 ---
 

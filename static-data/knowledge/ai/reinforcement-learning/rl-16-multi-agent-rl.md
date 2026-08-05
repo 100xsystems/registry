@@ -13,11 +13,11 @@ tags:
 prerequisites:
   - rl-11-actor-critic
 knowledge_refs:
-  - rl-11-actor-critic
+  - slug: rl-11-actor-critic
     title: "Actor-Critic Methods"
-  - rl-17-rl-in-games
+  - slug: rl-17-rl-in-games
     title: "RL in Games"
-  - rl-02-markov-decision-processes
+  - slug: rl-02-markov-decision-processes
     title: "Markov Decision Processes"
 references:
   - title: "Multi-Agent RL Survey — Zhang et al."
@@ -31,7 +31,6 @@ references:
   - title: "Multi-Agent Actor-Critic (MADDPG)"
     url: "https://arxiv.org/abs/1706.02275"
 ---
-
 ## Multi-Agent Reinforcement Learning
 
 MARL extends RL to settings with multiple interacting agents. The environment is non-stationary from each agent's perspective because other agents are simultaneously learning and changing behavior.

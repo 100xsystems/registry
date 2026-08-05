@@ -12,11 +12,11 @@ tags:
 prerequisites:
   - pe-05-chain-of-thought
 knowledge_refs:
-  - pe-05-chain-of-thought
+  - slug: pe-05-chain-of-thought
     title: "Chain-of-Thought Reasoning"
-  - pe-17-domain-specific-prompts
+  - slug: pe-17-domain-specific-prompts
     title: "Domain-Specific Prompting"
-  - pe-20-production-prompting
+  - slug: pe-20-production-prompting
     title: "Prompt Engineering in Production"
 references:
   - title: "PromptHub — Prompt Chaining Guide"
@@ -30,7 +30,6 @@ references:
   - title: "PromptingGuide.ai — Self-Consistency"
     url: "https://www.promptingguide.ai/techniques/consistency"
 ---
-
 ## Advanced Prompting Techniques
 
 Beyond zero-shot, few-shot, and chain-of-thought, there's a richer landscape of prompting strategies. These advanced techniques tackle specific challenges: reducing latency, improving reliability through ensemble methods, and decomposing complex tasks into manageable pipelines.

@@ -12,11 +12,11 @@ tags:
 prerequisites:
   - pe-12-prompt-injection-defense
 knowledge_refs:
-  - pe-12-prompt-injection-defense
+  - slug: pe-12-prompt-injection-defense
     title: "Prompt Injection Defense"
-  - pe-10-system-prompts
+  - slug: pe-10-system-prompts
     title: "System Prompts in Production"
-  - ai-safety-01-ai-safety-fundamentals
+  - slug: safety-01-why-ai-safety
     title: "AI Safety Fundamentals"
 references:
   - title: "Azure AI Content Safety — Microsoft Learn"

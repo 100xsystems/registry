@@ -13,11 +13,11 @@ tags:
 prerequisites:
   - mlops-07-model-registry
 knowledge_refs:
-  - mlops-07-model-registry
+  - slug: mlops-07-model-registry
     title: "Model Registry"
-  - mlops-19-cost-and-performance
+  - slug: mlops-19-cost-and-performance
     title: "Cost & Performance Optimization"
-  - mlops-11-containerization
+  - slug: mlops-11-containerization
     title: "Containerization with Docker"
 references:
   - title: "AWS SageMaker — Distributed Training"
@@ -31,7 +31,6 @@ references:
   - title: "AWS SageMaker — Distributed Computing Best Practices"
     url: "https://docs.aws.amazon.com/sagemaker/latest/dg/distributed-training-options.html"
 ---
-
 ## Training at Scale
 
 When models are too large for a single GPU or datasets too big for one machine, distributed training splits the work across multiple devices. This lesson covers the strategies, infrastructure, and cost considerations for training at scale.

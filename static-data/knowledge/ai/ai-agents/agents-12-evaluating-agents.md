@@ -49,11 +49,11 @@ related_knowledge:
     title: "Agent Safety & Control"
     lesson_number: 13
 knowledge_refs:
-  - slug: "ml-18-evaluation-metrics"
+  - slug: "ml-18-classification-metrics"
     title: "Evaluation Metrics"
   - slug: "mlops-15-production-evaluation"
     title: "Production Evaluation"
-  - slug: "llm-06-fine-tuning"
+  - slug: "llm-09-fine-tuning-practice"
     title: "Fine-Tuning"
 ---
 

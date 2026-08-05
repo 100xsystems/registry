@@ -12,11 +12,11 @@ tags:
 prerequisites:
   - mlops-10-model-serving
 knowledge_refs:
-  - mlops-10-model-serving
+  - slug: mlops-10-model-serving
     title: "Model Serving APIs"
-  - mlops-12-kubernetes-basics
+  - slug: mlops-12-kubernetes-basics
     title: "Kubernetes Basics for ML"
-  - mlops-09-model-packaging
+  - slug: mlops-09-model-packaging
     title: "Model Packaging & Serialization"
 references:
   - title: "Docker — Multi-Stage Builds"
@@ -30,7 +30,6 @@ references:
   - title: "NVIDIA Container Toolkit"
     url: "https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/"
 ---
-
 ## Containerization with Docker
 
 Docker solves the "it works on my machine" problem by packaging code, dependencies, and runtime into immutable containers. For ML, this means reproducible environments from training to serving.

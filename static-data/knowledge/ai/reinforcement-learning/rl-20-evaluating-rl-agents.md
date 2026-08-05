@@ -12,11 +12,11 @@ tags:
 prerequisites:
   - rl-11-actor-critic
 knowledge_refs:
-  - rl-11-actor-critic
+  - slug: rl-11-actor-critic
     title: "Actor-Critic Methods"
-  - rl-01-what-is-reinforcement-learning
+  - slug: rl-01-what-is-reinforcement-learning
     title: "What Is Reinforcement Learning?"
-  - rl-21-roadmap
+  - slug: rl-21-roadmap
     title: "Reinforcement Learning Roadmap"
 references:
   - title: "Empirical Evaluation of RL Algorithms — Henderson et al."
@@ -30,7 +30,6 @@ references:
   - title: "RL Baselines Comparison — Practical RL"
     url: "https://arxiv.org/abs/2007.12869"
 ---
-
 ## Evaluating RL Agents
 
 RL evaluation is notoriously difficult. High variance across random seeds, sensitivity to hyperparameters, and non-stationary learning curves make reliable comparison challenging.

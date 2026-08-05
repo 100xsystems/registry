@@ -11,11 +11,11 @@ tags:
 prerequisites:
   - pe-10-system-prompts
 knowledge_refs:
-  - pe-10-system-prompts
+  - slug: pe-10-system-prompts
     title: "System Prompts in Production"
-  - pe-19-optimizing-for-cost
+  - slug: pe-19-optimizing-for-cost
     title: "Optimizing Prompts for Cost"
-  - llm-16-cost-optimization
+  - slug: llm-16-cost-optimization
     title: "Cost Optimization"
 references:
   - title: "Anthropic — Prompt Caching"
@@ -29,7 +29,6 @@ references:
   - title: "Anthropic — Context Engineering for AI Agents"
     url: "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents"
 ---
-
 ## Prompt Caching & Cost
 
 At scale, prompt costs add up fast. A system prompt sent with every request, repeated context across conversations, and verbose instructions all consume tokens — and tokens cost money. Prompt caching and cost optimization are essential for production systems.

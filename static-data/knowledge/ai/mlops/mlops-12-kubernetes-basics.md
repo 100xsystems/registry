@@ -12,11 +12,11 @@ tags:
 prerequisites:
   - mlops-11-containerization
 knowledge_refs:
-  - mlops-11-containerization
+  - slug: mlops-11-containerization
     title: "Containerization with Docker"
-  - mlops-13-deployment-strategies
+  - slug: mlops-13-deployment-strategies
     title: "Model Deployment Strategies"
-  - mlops-18-governance
+  - slug: mlops-18-governance
     title: "Data & Model Governance"
 references:
   - title: "Kubernetes Documentation"
@@ -30,7 +30,6 @@ references:
   - title: "Helm — Kubernetes Package Manager"
     url: "https://helm.sh/docs/"
 ---
-
 ## Kubernetes Basics for ML
 
 Kubernetes (K8s) is the industry standard for container orchestration. For ML, it provides scalable, reliable infrastructure for training, serving, and monitoring models.

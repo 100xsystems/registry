@@ -12,11 +12,11 @@ tags:
 prerequisites:
   - safety-01-why-ai-safety
 knowledge_refs:
-  - safety-01-why-ai-safety
+  - slug: safety-01-why-ai-safety
     title: "Why AI Safety Matters"
-  - safety-02-bias-and-fairness
+  - slug: safety-02-bias-and-fairness
     title: "Bias & Fairness"
-  - safety-16-data-governance
+  - slug: safety-16-data-governance
     title: "Data Governance for AI"
 references:
   - title: "Protecting Trained Models in Privacy-Preserving Federated Learning"
@@ -30,7 +30,6 @@ references:
   - title: "NIST — Membership-Inference Attack Glossary Definition"
     url: "https://csrc.nist.gov/glossary/term/membership_inference_attack"
 ---
-
 ## Privacy & Data Protection
 
 AI systems consume vast amounts of data — and much of that data is personal. Privacy in AI isn't just a legal requirement; it's a fundamental safety concern. Models that leak personal data, memorize training examples, or enable surveillance pose serious risks.

@@ -32,7 +32,7 @@ references:
     description: "Yao et al. (2007) on early stopping as regularization"
 knowledge_refs:
   - ml-03-the-learning-problem
-  - ml-14-feature-scaling
+  - ml-14-feature-scaling-and-selection
   - ml-16-cross-validation
 ---
 

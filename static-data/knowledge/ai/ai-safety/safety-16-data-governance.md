@@ -12,11 +12,11 @@ tags:
 prerequisites:
   - safety-06-privacy
 knowledge_refs:
-  - safety-06-privacy
+  - slug: safety-06-privacy
     title: "Privacy & Data Protection"
-  - safety-02-bias-and-fairness
+  - slug: safety-02-bias-and-fairness
     title: "Bias & Fairness"
-  - safety-09-transparency
+  - slug: safety-09-transparency
     title: "Transparency & Disclosure"
 references:
   - title: "Datasheets for Datasets — Gebru et al."
@@ -30,7 +30,6 @@ references:
   - title: "Model Cards for Model Reporting"
     url: "https://arxiv.org/abs/1802.08100"
 ---
-
 ## Data Governance for AI
 
 AI systems are only as good as their data. Data governance ensures that training data is high-quality, well-documented, ethically sourced, and properly managed throughout the AI lifecycle.

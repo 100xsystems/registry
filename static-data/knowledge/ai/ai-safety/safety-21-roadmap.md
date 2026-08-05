@@ -11,11 +11,11 @@ tags:
   - future
 prerequisites: []
 knowledge_refs:
-  - safety-01-why-ai-safety
+  - slug: safety-01-why-ai-safety
     title: "Why AI Safety Matters"
-  - safety-20-safety-research
+  - slug: safety-20-safety-research
     title: "The AI Safety Community & Research"
-  - safety-04-alignment
+  - slug: safety-04-alignment
     title: "Alignment"
 references:
   - title: "80,000 Hours — Upskill in Technical AI Safety"
@@ -29,7 +29,6 @@ references:
   - title: "ARENA — Alignment Research Engineer Accelerator"
     url: "https://www.aia safetyfundamentals.com/"
 ---
-
 ## AI Safety Roadmap
 
 This roadmap guides you from zero knowledge to a career in AI safety. The field needs researchers, engineers, policymakers, and communicators — not just ML PhDs.

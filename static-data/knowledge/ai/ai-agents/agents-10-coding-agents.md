@@ -49,9 +49,9 @@ related_knowledge:
     title: "Evaluating Agents"
     lesson_number: 12
 knowledge_refs:
-  - slug: "lang-01-typescript"
+  - slug: "languages/typescript"
     title: "TypeScript"
-  - slug: "lang-02-python"
+  - slug: "languages/python"
     title: "Python"
   - slug: "mlops-17-testing-ml-systems"
     title: "Testing ML Systems"

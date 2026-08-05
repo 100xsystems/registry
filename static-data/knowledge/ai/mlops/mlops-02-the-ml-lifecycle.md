@@ -11,11 +11,11 @@ tags:
 prerequisites:
   - mlops-01-what-is-mlops
 knowledge_refs:
-  - mlops-01-what-is-mlops
+  - slug: mlops-01-what-is-mlops
     title: "What Is MLOps?"
-  - mlops-04-data-pipelines
+  - slug: mlops-04-data-pipelines
     title: "Data Pipelines"
-  - mlops-14-monitoring-and-drift
+  - slug: mlops-14-monitoring-and-drift
     title: "Monitoring & Drift Detection"
 references:
   - title: "Google Cloud — ML Lifecycle"
@@ -29,7 +29,6 @@ references:
   - title: "Chip Huyen — Designing Machine Learning Systems"
     url: "https://www.oreilly.com/library/view/designing-machine-learning/9781098107956/"
 ---
-
 ## The ML Lifecycle
 
 The ML lifecycle is the end-to-end process of building, deploying, and maintaining machine learning systems. Unlike traditional software, the lifecycle is circular — models need continuous retraining and monitoring.

@@ -29,8 +29,8 @@ references:
     url: "https://distill.pub/2016/misread-tsne/"
     description: "Distill.pub interactive guide to avoiding t-SNE pitfalls"
 knowledge_refs:
-  - ml-14-feature-scaling
-  - ml-19-k-means-clustering
+  - ml-14-feature-scaling-and-selection
+  - ml-19-kmeans-clustering
   - ml-12-k-nearest-neighbors
 ---
 

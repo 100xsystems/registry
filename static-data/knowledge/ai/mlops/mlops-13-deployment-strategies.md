@@ -13,11 +13,11 @@ tags:
 prerequisites:
   - mlops-12-kubernetes-basics
 knowledge_refs:
-  - mlops-12-kubernetes-basics
+  - slug: mlops-12-kubernetes-basics
     title: "Kubernetes Basics for ML"
-  - mlops-10-model-serving
+  - slug: mlops-10-model-serving
     title: "Model Serving APIs"
-  - mlops-14-monitoring-and-drift
+  - slug: mlops-14-monitoring-and-drift
     title: "Monitoring & Drift Detection"
 references:
   - title: "Shadow Mode, Canary Deployments, and A/B Testing for LLMs"
@@ -31,7 +31,6 @@ references:
   - title: "Argo Rollouts — Progressive Delivery"
     url: "https://argo-rollouts.readthedocs.io/"
 ---
-
 ## Model Deployment Strategies
 
 How you deploy a model determines how quickly you can detect failures and how much damage a bad model causes. The right strategy balances risk, cost, and velocity.

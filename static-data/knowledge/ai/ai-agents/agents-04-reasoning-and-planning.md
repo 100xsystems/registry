@@ -52,9 +52,9 @@ related_knowledge:
 knowledge_refs:
   - slug: "genai-05-in-context-learning"
     title: "In-Context Learning"
-  - slug: "ml-15-reinforcement-learning-from-human-feedback"
+  - slug: "genai-09-rlhf-and-alignment"
     title: "RLHF"
-  - slug: "dl-09-attention-mechanisms"
+  - slug: "dl-18-attention-mechanisms"
     title: "Attention Mechanisms"
 ---
 

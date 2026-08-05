@@ -13,11 +13,11 @@ tags:
 prerequisites:
   - rl-16-multi-agent-rl
 knowledge_refs:
-  - rl-16-multi-agent-rl
+  - slug: rl-16-multi-agent-rl
     title: "Multi-Agent Reinforcement Learning"
-  - rl-09-deep-q-networks
+  - slug: rl-09-deep-q-networks
     title: "Deep Q-Networks"
-  - rl-18-rl-for-robotics
+  - slug: rl-18-rl-for-robotics
     title: "RL for Robotics"
 references:
   - title: "AlphaGo — Mastering Go with Deep Neural Networks (Nature)"
@@ -31,7 +31,6 @@ references:
   - title: "AlphaGo Zero — Starting from Scratch (DeepMind)"
     url: "https://deepmind.google/blog/alphago-zero-starting-from-scratch/"
 ---
-
 ## RL in Games
 
 Games have been the proving ground for RL breakthroughs. From Atari to Go to Dota 2, game environments provide the complexity, clear objectives, and simulation capability needed to push RL research forward.

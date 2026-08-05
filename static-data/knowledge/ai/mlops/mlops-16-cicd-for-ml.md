@@ -12,11 +12,11 @@ tags:
 prerequisites:
   - mlops-15-production-evaluation
 knowledge_refs:
-  - mlops-15-production-evaluation
+  - slug: mlops-15-production-evaluation
     title: "Evaluation in Production"
-  - mlops-17-testing-ml-systems
+  - slug: mlops-17-testing-ml-systems
     title: "Testing ML Systems"
-  - mlops-04-data-pipelines
+  - slug: mlops-04-data-pipelines
     title: "Data Pipelines"
 references:
   - title: "Google Cloud — MLOps: CI/CD Pipelines"
@@ -30,7 +30,6 @@ references:
   - title: "MLflow — CI/CD Integration"
     url: "https://mlflow.org/docs/latest/ml/projects.html"
 ---
-
 ## CI/CD for Machine Learning
 
 Traditional CI/CD tests code and deploys binaries. ML CI/CD extends this to test data, validate models, and deploy pipelines. It's the automation backbone of MLOps.

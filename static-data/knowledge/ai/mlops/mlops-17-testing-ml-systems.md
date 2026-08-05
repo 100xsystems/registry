@@ -12,11 +12,11 @@ tags:
 prerequisites:
   - mlops-16-cicd-for-ml
 knowledge_refs:
-  - mlops-16-cicd-for-ml
+  - slug: mlops-16-cicd-for-ml
     title: "CI/CD for Machine Learning"
-  - mlops-14-monitoring-and-drift
+  - slug: mlops-14-monitoring-and-drift
     title: "Monitoring & Drift Detection"
-  - mlops-03-reproducibility-and-versioning
+  - slug: mlops-03-reproducibility-and-versioning
     title: "Reproducibility & Versioning"
 references:
   - title: "Made With ML — Testing ML Systems"
@@ -30,7 +30,6 @@ references:
   - title: "Pytest — Python Testing Framework"
     url: "https://docs.pytest.org/"
 ---
-
 ## Testing ML Systems
 
 ML systems are probabilistic, data-dependent, and prone to silent failures. Testing must go beyond traditional unit tests to cover data, models, and pipelines.

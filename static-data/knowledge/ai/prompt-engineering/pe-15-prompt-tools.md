@@ -12,11 +12,11 @@ tags:
 prerequisites:
   - pe-14-prompt-versioning
 knowledge_refs:
-  - pe-14-prompt-versioning
+  - slug: pe-14-prompt-versioning
     title: "Prompt Versioning & Management"
-  - pe-13-evaluating-prompts
+  - slug: pe-13-evaluating-prompts
     title: "Evaluating Prompts"
-  - pe-20-production-prompting
+  - slug: pe-20-production-prompting
     title: "Prompt Engineering in Production"
 references:
   - title: "LangSmith — Prompt Engineering Quickstart"
@@ -30,7 +30,6 @@ references:
   - title: "LangSmith Prompt Management — Mirascope"
     url: "https://mirascope.com/blog/langsmith-prompt-management"
 ---
-
 ## Prompt Playgrounds & Tooling
 
 Modern prompt engineering requires specialized tools. Prompt playgrounds, IDEs, and debugging platforms transform ad-hoc experimentation into systematic, reproducible workflows.

@@ -49,11 +49,11 @@ related_knowledge:
     title: "Agent Design Patterns"
     lesson_number: 17
 knowledge_refs:
-  - slug: "nlp-09-information-retrieval"
+  - slug: "llm-07-rag-engineering"
     title: "Information Retrieval"
-  - slug: "genai-08-text-to-image"
+  - slug: "genai-13-diffusion-models"
     title: "Text-to-Image"
-  - slug: "llm-03-tokenization"
+  - slug: "llm-05-tokenization-and-context"
     title: "Tokenization"
 ---
 

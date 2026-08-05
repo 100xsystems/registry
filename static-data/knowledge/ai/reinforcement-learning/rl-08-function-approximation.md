@@ -13,11 +13,11 @@ tags:
 prerequisites:
   - rl-06-q-learning
 knowledge_refs:
-  - rl-06-q-learning
+  - slug: rl-06-q-learning
     title: "Q-Learning"
-  - rl-09-deep-q-networks
+  - slug: rl-09-deep-q-networks
     title: "Deep Q-Networks"
-  - rl-10-policy-gradient-methods
+  - slug: rl-10-policy-gradient-methods
     title: "Policy Gradient Methods"
 references:
   - title: "Sutton & Barto — Chapter 9: On-Policy Prediction with Approximation"
@@ -31,7 +31,6 @@ references:
   - title: "RL: An Introduction — Implementations"
     url: "https://marcinbogdanski.github.io/reinforcement-learning.html"
 ---
-
 ## Function Approximation
 
 Tabular methods can't handle large or continuous state spaces — there are too many states to store values for individually. Function approximation parameterizes value functions, enabling generalization across similar states.

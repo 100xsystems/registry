@@ -1,51 +1,43 @@
-{
-  "title": "What Is Machine Learning?",
-  "description": "Define machine learning, understand its core paradigms, and map the roles and workflow of a modern ML practitioner.",
-  "type": "lesson",
-  "order": 1,
-  "duration": "40 min",
-  "difficulty": "beginner",
-  "learning_objectives": [
-    "Define machine learning and contrast it with traditional programming",
-    "Identify the three main learning paradigms: supervised, unsupervised, and reinforcement",
-    "Describe the end-to-end ML workflow from data collection to deployment",
-    "Recognize when ML is the right tool and when it isn't"
-  ],
-  "knowledge_refs": [
-    "machine-learning/ml-02-types-of-learning",
-    "data-science/ds-01-what-is-data-science",
-    "machine-learning/ml-03-the-learning-problem",
-    "tools/apache-spark"
-  ],
-  "prerequisites": [],
-  "references": [
-    {
-      "title": "Machine Learning Crash Course — Google Developers",
-      "url": "https://developers.google.com/machine-learning/crash-course",
-      "description": "Google's fast-paced, practical ML course with interactive visualizations and coding exercises covering modern ML fundamentals."
-    },
-    {
-      "title": "An Introduction to Statistical Learning (ISLR) — James, Witten, Hastie, Tibshirani",
-      "url": "https://www.statlearning.com/",
-      "description": "The gold-standard free textbook for learning ML from first principles with R and Python code."
-    },
-    {
-      "title": "Machine Learning — Andrew Ng (Stanford CS229 Notes)",
-      "url": "https://cs229.stanford.edu/main_notes.pdf",
-      "description": "Andrew Ng's comprehensive lecture notes covering the mathematical foundations of ML algorithms."
-    },
-    {
-      "title": "What is Machine Learning? — IBM",
-      "url": "https://www.ibm.com/topics/machine-learning",
-      "description": "Clear enterprise-focused overview of ML types, algorithms, and real-world applications."
-    },
-    {
-      "title": "fast.ai Practical Deep Learning for Coders",
-      "url": "https://course.fast.ai/",
-      "description": "Top-down practical approach that teaches ML through building real models before diving into theory."
-    }
-  ]
-}
+---
+title: What Is Machine Learning?
+description: Define machine learning, understand its core paradigms, and map the roles
+  and workflow of a modern ML practitioner.
+type: lesson
+order: 1
+duration: 40 min
+difficulty: beginner
+learning_objectives:
+- Define machine learning and contrast it with traditional programming
+- 'Identify the three main learning paradigms: supervised, unsupervised, and reinforcement'
+- Describe the end-to-end ML workflow from data collection to deployment
+- Recognize when ML is the right tool and when it isn't
+knowledge_refs:
+- machine-learning/ml-02-types-of-learning
+- data-science/ds-01-what-is-data-science
+- machine-learning/ml-03-the-learning-problem
+- tools/apache-spark
+prerequisites: []
+references:
+- title: Machine Learning Crash Course — Google Developers
+  url: https://developers.google.com/machine-learning/crash-course
+  description: Google's fast-paced, practical ML course with interactive visualizations
+    and coding exercises covering modern ML fundamentals.
+- title: An Introduction to Statistical Learning (ISLR) — James, Witten, Hastie, Tibshirani
+  url: https://www.statlearning.com/
+  description: The gold-standard free textbook for learning ML from first principles
+    with R and Python code.
+- title: Machine Learning — Andrew Ng (Stanford CS229 Notes)
+  url: https://cs229.stanford.edu/main_notes.pdf
+  description: Andrew Ng's comprehensive lecture notes covering the mathematical foundations
+    of ML algorithms.
+- title: What is Machine Learning? — IBM
+  url: https://www.ibm.com/topics/machine-learning
+  description: Clear enterprise-focused overview of ML types, algorithms, and real-world
+    applications.
+- title: fast.ai Practical Deep Learning for Coders
+  url: https://course.fast.ai/
+  description: Top-down practical approach that teaches ML through building real models
+    before diving into theory.
 ---
 
 Machine learning is the science of getting computers to learn patterns from data without being explicitly programmed for every rule. Instead of writing `if-else` statements for every scenario, you feed an algorithm examples and it discovers the patterns on its own.
@@ -211,3 +203,4 @@ The goal is to find the sweet spot: a model complex enough to capture real patte
 ## Footnotes
 
 This lesson draws on the teaching approaches established by Andrew Ng's CS229 and Google's ML Crash Course. The bias-variance discussion follows the treatment in *The Elements of Statistical Learning* by Hastie, Tibshirani, and Friedman (2009). The practical workflow section reflects industry best practices from Google's *Rules of ML* engineering guide.
+

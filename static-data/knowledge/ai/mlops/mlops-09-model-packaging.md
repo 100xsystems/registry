@@ -12,11 +12,11 @@ tags:
 prerequisites:
   - mlops-08-training-at-scale
 knowledge_refs:
-  - mlops-08-training-at-scale
+  - slug: mlops-08-training-at-scale
     title: "Training at Scale"
-  - mlops-10-model-serving
+  - slug: mlops-10-model-serving
     title: "Model Serving APIs"
-  - mlops-11-containerization
+  - slug: mlops-11-containerization
     title: "Containerization with Docker"
 references:
   - title: "ONNX Runtime Documentation"
@@ -30,7 +30,6 @@ references:
   - title: "MLflow — Model Flavor Documentation"
     url: "https://mlflow.org/docs/latest/ml/models.html"
 ---
-
 ## Model Packaging & Serialization
 
 A trained model in memory isn't deployable. Model packaging converts it into a format that can be saved, loaded, transported, and served efficiently across different environments.

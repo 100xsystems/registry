@@ -48,7 +48,7 @@ knowledge_refs:
     title: "BigTable"
   - slug: "databases-spanner"
     title: "Spanner"
-  - slug: "patterns-map-reduce"
+  - slug: "patterns-mapreduce"
     title: "MapReduce"
 ---
 

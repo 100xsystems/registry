@@ -49,7 +49,7 @@ related_knowledge:
     title: "The Future of Agents"
     lesson_number: 20
 knowledge_refs:
-  - slug: "llm-03-tokenization"
+  - slug: "llm-05-tokenization-and-context"
     title: "Tokenization"
   - slug: "mlops-19-cost-and-performance"
     title: "Cost & Performance"

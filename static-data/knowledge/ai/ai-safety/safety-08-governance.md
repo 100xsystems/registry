@@ -13,11 +13,11 @@ tags:
 prerequisites:
   - safety-01-why-ai-safety
 knowledge_refs:
-  - safety-01-why-ai-safety
+  - slug: safety-01-why-ai-safety
     title: "Why AI Safety Matters"
-  - safety-14-societal-impact
+  - slug: safety-14-societal-impact
     title: "Societal Impact of AI"
-  - safety-19-responsible-products
+  - slug: safety-19-responsible-products
     title: "Building Responsible AI Products"
 references:
   - title: "EU AI Act — Official Text"
@@ -31,7 +31,6 @@ references:
   - title: "Global Partnership on Artificial Intelligence (GPAI)"
     url: "https://en.wikipedia.org/wiki/Global_Partnership_on_Artificial_Intelligence"
 ---
-
 ## AI Governance & Policy
 
 As AI systems become more powerful and pervasive, governance frameworks ensure they're deployed responsibly. The regulatory landscape is evolving rapidly, with different regions taking different approaches.

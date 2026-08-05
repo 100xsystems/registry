@@ -12,11 +12,11 @@ tags:
 prerequisites:
   - pe-12-prompt-injection-defense
 knowledge_refs:
-  - pe-12-prompt-injection-defense
+  - slug: pe-12-prompt-injection-defense
     title: "Prompt Injection Defense"
-  - pe-14-prompt-versioning
+  - slug: pe-14-prompt-versioning
     title: "Prompt Versioning & Management"
-  - pe-20-production-prompting
+  - slug: pe-20-production-prompting
     title: "Prompt Engineering in Production"
 references:
   - title: "Evidently AI — LLM-as-a-Judge: A Complete Guide"
@@ -30,7 +30,6 @@ references:
   - title: "Patronus AI — AI LLM Test Prompts: Best Practices"
     url: "https://www.patronus.ai/llm-testing/ai-llm-test-prompts"
 ---
-
 ## Evaluating Prompts
 
 Prompt evaluation transforms prompt engineering from an intuitive "vibe check" into a rigorous engineering discipline. Because LLMs are probabilistic, small variations in instructions can drastically change behavior. You need systematic measurement.

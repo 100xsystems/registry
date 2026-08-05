@@ -15,11 +15,11 @@ tags:
 prerequisites:
   - safety-01-why-ai-safety
 knowledge_refs:
-  - safety-01-why-ai-safety
+  - slug: safety-01-why-ai-safety
     title: "Why AI Safety Matters"
-  - safety-08-governance
+  - slug: safety-08-governance
     title: "AI Governance & Policy"
-  - safety-17-values-alignment
+  - slug: safety-17-values-alignment
     title: "Designing for Human Values"
 references:
   - title: "What Is Inner Alignment? — Center for AI Safety"
@@ -33,7 +33,6 @@ references:
   - title: "Stuart Russell — Human Compatible"
     url: "https://humancompatible.ai/"
 ---
-
 ## Alignment
 
 Alignment is the central challenge of AI safety: ensuring that an AI system's behavior matches what humans actually want. This is harder than it sounds — and it gets harder as systems become more capable.

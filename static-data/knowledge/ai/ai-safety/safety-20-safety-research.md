@@ -12,11 +12,11 @@ tags:
 prerequisites:
   - safety-01-why-ai-safety
 knowledge_refs:
-  - safety-01-why-ai-safety
+  - slug: safety-01-why-ai-safety
     title: "Why AI Safety Matters"
-  - safety-04-alignment
+  - slug: safety-04-alignment
     title: "Alignment"
-  - safety-21-roadmap
+  - slug: safety-21-roadmap
     title: "AI Safety Roadmap"
 references:
   - title: "80,000 Hours — AI Safety Technical Research"
@@ -30,7 +30,6 @@ references:
   - title: "FAR.AI"
     url: "https://far.ai/"
 ---
-
 ## The AI Safety Community & Research
 
 AI safety is a rapidly growing field with dedicated research organizations, key open problems, and diverse career paths. Understanding the landscape helps you contribute meaningfully.

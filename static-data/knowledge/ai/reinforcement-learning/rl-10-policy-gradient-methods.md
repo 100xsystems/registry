@@ -12,11 +12,11 @@ tags:
 prerequisites:
   - rl-09-deep-q-networks
 knowledge_refs:
-  - rl-09-deep-q-networks
+  - slug: rl-09-deep-q-networks
     title: "Deep Q-Networks"
-  - rl-11-actor-critic
+  - slug: rl-11-actor-critic
     title: "Actor-Critic Methods"
-  - rl-12-proximal-policy-optimization
+  - slug: rl-12-proximal-policy-optimization
     title: "PPO & Modern Policy Optimization"
 references:
   - title: "Sutton et al. (1999) — Policy Gradient Methods"
@@ -30,7 +30,6 @@ references:
   - title: "Lilian Weng — Policy Gradient Algorithms"
     url: "https://lilianweng.github.io/posts/2018-04-08-policy-gradient/"
 ---
-
 ## Policy Gradient Methods
 
 Instead of learning value functions and deriving policies from them, policy gradient methods optimize the policy directly. They parameterize the policy as π_θ(a|s) and use gradient ascent on expected return.

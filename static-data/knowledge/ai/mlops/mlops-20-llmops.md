@@ -12,11 +12,11 @@ tags:
 prerequisites:
   - mlops-14-monitoring-and-drift
 knowledge_refs:
-  - mlops-14-monitoring-and-drift
+  - slug: mlops-14-monitoring-and-drift
     title: "Monitoring & Drift Detection"
-  - mlops-19-cost-and-performance
+  - slug: mlops-19-cost-and-performance
     title: "Cost & Performance Optimization"
-  - pe-10-system-prompts
+  - slug: pe-10-system-prompts
     title: "System Prompts in Production"
 references:
   - title: "LLMOps: From Prototype to Production"
@@ -30,7 +30,6 @@ references:
   - title: "Prompt Engineering for Production"
     url: "https://www.promptingguide.ai/"
 ---
-
 ## LLMOps
 
 LLMOps is MLOps adapted for large language models. LLMs introduce unique challenges: non-deterministic outputs, prompt management, token-level costs, and complex evaluation. LLMOps addresses these with specialized tools and practices.

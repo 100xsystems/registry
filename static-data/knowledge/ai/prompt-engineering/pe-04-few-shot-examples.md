@@ -11,11 +11,11 @@ tags:
 prerequisites:
   - pe-03-roles-and-context
 knowledge_refs:
-  - pe-03-roles-and-context
+  - slug: pe-03-roles-and-context
     title: "Roles & Context"
-  - pe-05-chain-of-thought
+  - slug: pe-05-chain-of-thought
     title: "Chain-of-Thought Reasoning"
-  - pe-17-domain-specific-prompts
+  - slug: pe-17-domain-specific-prompts
     title: "Domain-Specific Prompting"
 references:
   - title: "The Few Shot Prompting Guide — PromptHub"
@@ -29,7 +29,6 @@ references:
   - title: "Adaptive Few-shot Prompting for Machine Translation"
     url: "https://arxiv.org/abs/2501.01679"
 ---
-
 ## Few-Shot Examples
 
 Few-shot prompting is one of the most powerful techniques in prompt engineering. By providing a small number of input-output demonstrations within the prompt itself, you guide the model's behavior without any weight updates, training, or fine-tuning.

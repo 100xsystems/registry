@@ -11,11 +11,11 @@ tags:
 prerequisites:
   - pe-02-prompt-structure
 knowledge_refs:
-  - pe-02-prompt-structure
+  - slug: pe-02-prompt-structure
     title: "Prompt Structure"
-  - pe-04-few-shot-examples
+  - slug: pe-04-few-shot-examples
     title: "Few-Shot Examples"
-  - pe-17-domain-specific-prompts
+  - slug: pe-17-domain-specific-prompts
     title: "Domain-Specific Prompting"
 references:
   - title: "Learn Prompting — Role Prompting"
@@ -29,7 +29,6 @@ references:
   - title: "IBM Think — What Is Few-Shot Prompting?"
     url: "https://www.ibm.com/think/topics/few-shot-prompting"
 ---
-
 ## Roles & Context
 
 Two of the most powerful levers in prompt engineering are **role assignment** (telling the model who it is) and **context provision** (telling the model what it knows). Together, they shape the model's tone, depth, expertise, and perspective more than any other technique.

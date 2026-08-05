@@ -53,7 +53,7 @@ knowledge_refs:
     title: "Kafka"
   - slug: "tools-rabbitmq"
     title: "RabbitMQ"
-  - slug: "patterns-pub-sub"
+  - slug: "patterns-publish-subscribe"
     title: "Pub/Sub"
 ---
 

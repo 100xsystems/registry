@@ -1,51 +1,44 @@
-{
-  "title": "The Python ML Stack",
-  "description": "Master the essential Python libraries for machine learning: NumPy, pandas, scikit-learn, matplotlib, and Jupyter.",
-  "type": "lesson",
-  "order": 4,
-  "duration": "50 min",
-  "difficulty": "beginner",
-  "learning_objectives": [
-    "Use NumPy for efficient numerical computation and array operations",
-    "Manipulate datasets with pandas DataFrames",
-    "Build and evaluate ML models with scikit-learn",
-    "Create informative visualizations with matplotlib",
-    "Work interactively in Jupyter notebooks"
-  ],
-  "knowledge_refs": [
-    "machine-learning/ml-01-what-is-machine-learning",
-    "data-science/ds-03-python-for-data-science",
-    "tools/apache-spark"
-  ],
-  "prerequisites": ["DS-03: Python for Data Science"],
-  "references": [
-    {
-      "title": "NumPy Official Documentation",
-      "url": "https://numpy.org/doc/stable/",
-      "description": "Comprehensive reference for NumPy arrays, broadcasting, and vectorized operations."
-    },
-    {
-      "title": "pandas User Guide",
-      "url": "https://pandas.pydata.org/docs/user_guide/",
-      "description": "Official pandas documentation with tutorials on DataFrames, groupby, and time series."
-    },
-    {
-      "title": "scikit-learn User Guide",
-      "url": "https://scikit-learn.org/stable/user_guide.html",
-      "description": "The authoritative guide to scikit-learn's ML algorithms, preprocessing, and evaluation tools."
-    },
-    {
-      "title": "Python Data Science Handbook — Jake VanderPlas",
-      "url": "https://jakevdp.github.io/PythonDataScienceHandbook/",
-      "description": "Free online book covering NumPy, pandas, matplotlib, and scikit-learn with practical examples."
-    },
-    {
-      "title": "Matplotlib Tutorials",
-      "url": "https://matplotlib.org/stable/tutorials/index.html",
-      "description": "Official matplotlib tutorials covering basic to advanced visualization techniques."
-    }
-  ]
-}
+---
+title: The Python ML Stack
+description: 'Master the essential Python libraries for machine learning: NumPy, pandas,
+  scikit-learn, matplotlib, and Jupyter.'
+type: lesson
+order: 4
+duration: 50 min
+difficulty: beginner
+learning_objectives:
+- Use NumPy for efficient numerical computation and array operations
+- Manipulate datasets with pandas DataFrames
+- Build and evaluate ML models with scikit-learn
+- Create informative visualizations with matplotlib
+- Work interactively in Jupyter notebooks
+knowledge_refs:
+- machine-learning/ml-01-what-is-machine-learning
+- data-science/ds-03-python-for-data-science
+- tools/apache-spark
+prerequisites:
+- 'DS-03: Python for Data Science'
+references:
+- title: NumPy Official Documentation
+  url: https://numpy.org/doc/stable/
+  description: Comprehensive reference for NumPy arrays, broadcasting, and vectorized
+    operations.
+- title: pandas User Guide
+  url: https://pandas.pydata.org/docs/user_guide/
+  description: Official pandas documentation with tutorials on DataFrames, groupby,
+    and time series.
+- title: scikit-learn User Guide
+  url: https://scikit-learn.org/stable/user_guide.html
+  description: The authoritative guide to scikit-learn's ML algorithms, preprocessing,
+    and evaluation tools.
+- title: Python Data Science Handbook — Jake VanderPlas
+  url: https://jakevdp.github.io/PythonDataScienceHandbook/
+  description: Free online book covering NumPy, pandas, matplotlib, and scikit-learn
+    with practical examples.
+- title: Matplotlib Tutorials
+  url: https://matplotlib.org/stable/tutorials/index.html
+  description: Official matplotlib tutorials covering basic to advanced visualization
+    techniques.
 ---
 
 Python dominates machine learning not because it's the fastest language, but because of its ecosystem. The combination of NumPy, pandas, scikit-learn, matplotlib, and Jupyter creates a workflow that's unmatched in productivity. This lesson gives you fluency in the core tools.
@@ -370,3 +363,4 @@ importances.nlargest(10).plot(kind='barh')
 ## Footnotes
 
 The Python ML stack's dominance is discussed in detail by Jake VanderPlas in *Python Data Science Handbook* (2016). The scikit-learn API design philosophy — consistent `fit`/`predict`/`score` interface — was pioneered by Pedregosa et al. (2011) and has become the de facto standard for ML library design.
+

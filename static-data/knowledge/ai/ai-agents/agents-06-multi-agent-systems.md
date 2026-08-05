@@ -49,11 +49,11 @@ related_knowledge:
     title: "Agent Design Patterns"
     lesson_number: 17
 knowledge_refs:
-  - slug: "genai-12-multiple-models"
+  - slug: "genai-12-agents-and-tool-use"
     title: "Multiple Models"
   - slug: "dl-19-model-compression"
     title: "Model Compression"
-  - slug: "llm-03-tokenization"
+  - slug: "llm-05-tokenization-and-context"
     title: "Tokenization"
 ---
 

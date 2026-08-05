@@ -11,11 +11,11 @@ tags:
 prerequisites:
   - pe-05-chain-of-thought
 knowledge_refs:
-  - pe-05-chain-of-thought
+  - slug: pe-05-chain-of-thought
     title: "Chain-of-Thought Reasoning"
-  - pe-10-system-prompts
+  - slug: pe-10-system-prompts
     title: "System Prompts in Production"
-  - llm-10-function-calling
+  - slug: llm-10-function-calling
     title: "Function Calling & Structured Outputs"
 references:
   - title: "Instructor — Multi-Language Library for Structured LLM Outputs"
@@ -29,7 +29,6 @@ references:
   - title: "Structured Outputs with OpenAI — Instructor Guide"
     url: "https://python.useinstructor.com/integrations/openai/"
 ---
-
 ## Structured Outputs
 
 Getting a model to produce valid JSON, tables, or formatted data is one of the most common and critical tasks in prompt engineering. Without structured outputs, you're parsing free-form text and hoping it matches your schema. With structured outputs, you get guaranteed, type-safe data every time.

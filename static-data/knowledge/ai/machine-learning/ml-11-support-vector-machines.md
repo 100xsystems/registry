@@ -29,7 +29,7 @@ references:
     description: "The reference implementation that most libraries wrap"
 knowledge_refs:
   - ml-07-logistic-regression
-  - ml-14-feature-scaling
+  - ml-14-feature-scaling-and-selection
   - ml-12-k-nearest-neighbors
 ---
 

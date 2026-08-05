@@ -12,11 +12,11 @@ tags:
 prerequisites:
   - safety-03-interpretability
 knowledge_refs:
-  - safety-03-interpretability
+  - slug: safety-03-interpretability
     title: "Interpretability & Explainability"
-  - safety-07-hallucination
+  - slug: safety-07-hallucination
     title: "Hallucination & Factualness"
-  - safety-10-safety-evaluations
+  - slug: safety-10-safety-evaluations
     title: "Safety Evaluations"
 references:
   - title: "Adversarial Machine Learning — Wikipedia"
@@ -30,7 +30,6 @@ references:
   - title: "Towards Deep Learning Models Resistant to Adversarial Attacks (Madry et al., 2018)"
     url: "https://arxiv.org/abs/1706.06083"
 ---
-
 ## Robustness & Adversarial Examples
 
 A model that works perfectly on test data can fail catastrophically when the input is slightly perturbed. Robustness is about ensuring AI systems remain reliable under adversarial attack, distributional shift, and unexpected inputs.

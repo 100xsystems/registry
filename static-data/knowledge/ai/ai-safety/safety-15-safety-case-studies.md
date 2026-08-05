@@ -12,11 +12,11 @@ tags:
 prerequisites:
   - safety-14-societal-impact
 knowledge_refs:
-  - safety-14-societal-impact
+  - slug: safety-14-societal-impact
     title: "Societal Impact of AI"
-  - safety-11-red-teaming
+  - slug: safety-11-red-teaming
     title: "Red Teaming"
-  - safety-02-bias-and-fairness
+  - slug: safety-02-bias-and-fairness
     title: "Bias & Fairness"
 references:
   - title: "The Mechanisms of AI Harm — CSET"
@@ -30,7 +30,6 @@ references:
   - title: "Uber Self-Driving Fatal Crash — NTSB Report"
     url: "https://www.ntsb.gov/investigations/Pages/HAR1902.aspx"
 ---
-
 ## AI Safety Case Studies
 
 The best way to understand AI safety is to study what went wrong. Real-world failures teach lessons that theoretical frameworks can't.

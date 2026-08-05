@@ -50,11 +50,11 @@ related_knowledge:
     title: "Building Agents with LangChain"
     lesson_number: 7
 knowledge_refs:
-  - slug: "llm-01-fundamentals-of-llms"
+  - slug: "llm-01-what-is-llm-engineering"
     title: "Fundamentals of LLMs"
   - slug: "genai-05-in-context-learning"
     title: "In-Context Learning"
-  - slug: "nlp-09-information-retrieval"
+  - slug: "llm-07-rag-engineering"
     title: "Information Retrieval"
 ---
 

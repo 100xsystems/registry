@@ -11,11 +11,11 @@ tags:
   - future
 prerequisites: []
 knowledge_refs:
-  - rl-01-what-is-reinforcement-learning
+  - slug: rl-01-what-is-reinforcement-learning
     title: "What Is Reinforcement Learning?"
-  - rl-12-proximal-policy-optimization
+  - slug: rl-12-proximal-policy-optimization
     title: "PPO & Modern Policy Optimization"
-  - rl-09-deep-q-networks
+  - slug: rl-09-deep-q-networks
     title: "Deep Q-Networks"
 references:
   - title: "Sutton & Barto — RL: An Introduction"
@@ -29,7 +29,6 @@ references:
   - title: "UC Berkeley CS285 — Deep RL"
     url: "https://rail.eecs.berkeley.edu/deeprlcourse/"
 ---
-
 ## Reinforcement Learning Roadmap
 
 RL is one of the most exciting areas in AI — the only paradigm where agents discover solutions through interaction. This roadmap takes you from foundations to cutting-edge research.

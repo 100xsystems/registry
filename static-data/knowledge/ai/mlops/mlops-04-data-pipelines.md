@@ -13,11 +13,11 @@ tags:
 prerequisites:
   - mlops-03-reproducibility-and-versioning
 knowledge_refs:
-  - mlops-03-reproducibility-and-versioning
+  - slug: mlops-03-reproducibility-and-versioning
     title: "Reproducibility & Versioning"
-  - mlops-05-feature-stores
+  - slug: mlops-05-feature-stores
     title: "Feature Stores"
-  - mlops-16-cicd-for-ml
+  - slug: mlops-16-cicd-for-ml
     title: "CI/CD for Machine Learning"
 references:
   - title: "ZenML — Prefect vs. Airflow Comparison"
@@ -31,7 +31,6 @@ references:
   - title: "Apache Airflow Architecture Overview"
     url: "https://airflow.apache.org/docs/apache-airflow/stable/core-concepts/overview.html"
 ---
-
 ## Data Pipelines
 
 Data pipelines are the circulatory system of ML. They move data from source to feature store to model to monitoring — reliably, efficiently, and with quality guarantees.

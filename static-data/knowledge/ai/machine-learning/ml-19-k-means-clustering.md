@@ -29,7 +29,7 @@ references:
     url: "https://hdbscan.readthedocs.io/"
     description: "HDBSCAN documentation — hierarchical density-based clustering"
 knowledge_refs:
-  - ml-14-feature-scaling
+  - ml-14-feature-scaling-and-selection
   - ml-20-dimensionality-reduction
   - ml-12-k-nearest-neighbors
 ---

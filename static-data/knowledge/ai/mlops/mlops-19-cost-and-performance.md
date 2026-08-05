@@ -12,11 +12,11 @@ tags:
 prerequisites:
   - mlops-10-model-serving
 knowledge_refs:
-  - mlops-10-model-serving
+  - slug: mlops-10-model-serving
     title: "Model Serving APIs"
-  - mlops-08-training-at-scale
+  - slug: mlops-08-training-at-scale
     title: "Training at Scale"
-  - mlops-18-governance
+  - slug: mlops-18-governance
     title: "Data & Model Governance"
 references:
   - title: "Cost-Efficient AI Inference Cloud Strategies — GMI Cloud"
@@ -30,7 +30,6 @@ references:
   - title: "KV Cache Quantization — Hugging Face"
     url: "https://huggingface.co/blog/kv-cache-quantization"
 ---
-
 ## Cost & Performance Optimization
 
 Inference accounts for 80–90% of total AI compute spend. Without optimization, costs scale linearly with usage. Smart optimization can cut costs 50–90% while maintaining quality.

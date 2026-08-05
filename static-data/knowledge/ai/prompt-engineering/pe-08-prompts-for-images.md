@@ -12,11 +12,11 @@ tags:
 prerequisites:
   - pe-02-prompt-structure
 knowledge_refs:
-  - pe-02-prompt-structure
+  - slug: pe-02-prompt-structure
     title: "Prompt Structure"
-  - pe-17-domain-specific-prompts
+  - slug: pe-17-domain-specific-prompts
     title: "Domain-Specific Prompting"
-  - genai-13-diffusion-models
+  - slug: genai-13-diffusion-models
     title: "Diffusion Models"
 references:
   - title: "Civitai — Prompt Crafting Guide: Part 1 — Basics"
@@ -30,7 +30,6 @@ references:
   - title: "Midjourney — Image Prompts"
     url: "https://docs.midjourney.com/hc/en-us/articles/32040250122381-Image-Prompts"
 ---
-
 ## Prompting for Images
 
 Image generation models (DALL-E, Stable Diffusion, Midjourney) each have different prompt styles, but share core principles: specificity, structure, and control over composition, style, and lighting.

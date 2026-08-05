@@ -12,11 +12,11 @@ tags:
 prerequisites:
   - rl-13-reward-design
 knowledge_refs:
-  - rl-13-reward-design
+  - slug: rl-13-reward-design
     title: "Reward Design"
-  - rl-14-offline-rl
+  - slug: rl-14-offline-rl
     title: "Offline Reinforcement Learning"
-  - rl-10-policy-gradient-methods
+  - slug: rl-10-policy-gradient-methods
     title: "Policy Gradient Methods"
 references:
   - title: "Ross & Bagnell (2010) — Efficient Reductions for Imitation Learning"
@@ -30,7 +30,6 @@ references:
   - title: "GAIL — Ho & Ermon (2016)"
     url: "https://arxiv.org/abs/1606.03476"
 ---
-
 ## Imitation Learning
 
 Imitation learning learns policies from expert demonstrations instead of hand-crafted reward functions. When designing rewards is hard but expert behavior is available, imitation learning bridges the gap.

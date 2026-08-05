@@ -12,9 +12,9 @@ tags:
 prerequisites:
   - rl-02-markov-decision-processes
 knowledge_refs:
-  - rl-02-markov-decision-processes
+  - slug: rl-02-markov-decision-processes
     title: "Markov Decision Processes"
-  - rl-04-monte-carlo-methods
+  - slug: rl-04-monte-carlo-methods
     title: "Monte Carlo Methods"
 references:
   - title: "Sutton & Barto — Chapter 4: Dynamic Programming"
@@ -28,7 +28,6 @@ references:
   - title: "Berkeley CS285 — Dynamic Programming"
     url: "https://rail.eecs.berkeley.edu/deeprlcourse/"
 ---
-
 ## Dynamic Programming
 
 Dynamic programming (DP) methods compute optimal policies when the environment model (transition probabilities and rewards) is fully known. While rarely practical in real-world problems, DP provides the conceptual foundation for all RL algorithms.
