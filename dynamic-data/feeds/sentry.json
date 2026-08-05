@@ -8,7 +8,7 @@
     "debugging",
     "performance"
   ],
-  "updatedAt": "2026-07-28T06:53:13.463Z",
+  "updatedAt": "2026-08-05T19:18:40.802Z",
   "items": [
     {
       "guid": "https://blog.sentry.io/godot-dotnet-ga/",
@@ -265,7 +265,15 @@
       "summary": "The Sentry Unreal Engine SDK now records the last seconds of gameplay and attaches the footage to crash reports, so you can watch what led to the crash.",
       "author": null,
       "publishedAt": "2026-07-24T09:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.sentry.io/otel-spans-errors-sentry-trace/",
+      "title": "Your OTel spans, our errors: A Sentry love story in one trace",
+      "link": "https://blog.sentry.io/otel-spans-errors-sentry-trace/",
+      "summary": "The OtlpIntegration bridges OTel traces and Sentry errors. Keep your OTel setup, add Sentry for errors, and see both in one trace waterfall.",
+      "author": null,
+      "publishedAt": "2026-08-05T09:00:00.000Z"
     }
   ],
-  "totalIndexed": 32
+  "totalIndexed": 33
 }

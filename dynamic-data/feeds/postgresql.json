@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-08-05T14:07:33.936Z",
+  "updatedAt": "2026-08-05T19:18:41.201Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -545,7 +545,15 @@
       "summary": "Vacuum is not a problem as we can help PostgreSQL avoid it with HOT updates. A HammerDB TPROC-C benchmark shows how tuning fillfactor for tables eliminates vacuum and reduces the bloat growth.",
       "author": null,
       "publishedAt": "2026-08-05T09:12:04.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9rq",
+      "title": "Christophe Pettus: Ontogeny Recapitulates the Relcache",
+      "link": "https://postgr.es/p/9rq",
+      "summary": "Jacob Jackson at ByteofDev built something I can only describe as admirably irresponsible (and something I wish I had thought of first): claudegres, a “PostgreSQL” in which Claude is the entire backend. Not Claude tuning the database, and not Claude writing queries against the database. Claude as…",
+      "author": null,
+      "publishedAt": "2026-08-05T16:09:00.000Z"
     }
   ],
-  "totalIndexed": 67
+  "totalIndexed": 68
 }

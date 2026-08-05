@@ -1,49 +1,80 @@
 # YC Company Changes for 2026-08-05
 
-- Previous total: 6124
+- Previous total: 6123
 - Current total: 6123
 - Added: 0
-- Removed: 1
-- Updated: 8
+- Removed: 0
+- Updated: 15
 
-
-## Removed Companies
-
-- Shepherd (Summer 2026)
 
 ## Updated Companies
 
-### [Lugg](https://www.ycombinator.com/companies/lugg)
+### [Whatnot](https://www.ycombinator.com/companies/whatnot)
 
-- `all_locations`: San Francisco, CA, USA; Remote → Salt Lake City, UT, USA; San Francisco, CA, USA; Remote
+- `stage`: Growth → Early
 
-### [Pyka](https://www.ycombinator.com/companies/pyka)
+### [Humance](https://www.ycombinator.com/companies/humance)
 
-- `stage`: Early → Growth
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/f3b53627ae1b22d1f3bdcba5ce58bcf5be26b18a.png → https://bookface-images.s3.amazonaws.com/small_logos/987667192d91a0ec07b29e6a9afb25d541d6a722.png
+- `tags`: Construction,B2B,Scheduling,AI → Artificial Intelligence,Construction,B2B,Scheduling
 
-### [Tavus](https://www.ycombinator.com/companies/tavus)
+### [Adni](https://www.ycombinator.com/companies/adni)
 
-- `stage`: Early → Growth
+- `one_liner`: AI career platform for healthcare workers → The AI career platform for healthcare workers
+- `tags`: Marketplace,SaaS,Recruiting,Healthcare,AI → Artificial Intelligence,Marketplace,SaaS,Recruiting,Healthcare
 
-### [Sapien](https://www.ycombinator.com/companies/outrove)
+### [Peeba](https://www.ycombinator.com/companies/peeba)
 
-- `website`: https://www.outrove.ai/ → https://www.asksapien.ai/
-- `tags`: Artificial Intelligence → AI
+- `status`: Active → Inactive
 
-### [Standout](https://www.ycombinator.com/companies/standout)
+### [Deepnight](https://www.ycombinator.com/companies/deepnight)
 
-- `team_size`: 3 → 5
+- `isHiring`: true → false
 
-### [Collar](https://www.ycombinator.com/companies/collar)
+### [Forge](https://www.ycombinator.com/companies/forge)
+
+- `isHiring`: true → false
+
+### [Corgi Insurance](https://www.ycombinator.com/companies/corgi-insurance)
+
+- `stage`: Growth → Early
+
+### [Promi](https://www.ycombinator.com/companies/promi)
+
+- `website`: https://www.usepromi.com/ → https://www.trypromi.com/
+- `one_liner`: Optimizing ecommerce pricing with dynamic, personalized discounts → Providing quick product and design feedback via digital twins
+- `subindustry`: B2B -> Retail → B2B -> Engineering, Product and Design
+- `industries`: B2B,Retail → B2B,Engineering, Product and Design
+
+### [Almond](https://www.ycombinator.com/companies/almond-2)
+
+- `team_size`: 5 → 6
+- `tags`: Artificial Intelligence,Hardware,Robotics,Manufacturing,Automation → Hardware,Robotics,Manufacturing,Automation,AI
+
+### [Manufact](https://www.ycombinator.com/companies/manufact)
+
+- `team_size`: 5 → 6
+- `tags`: Artificial Intelligence,Developer Tools,B2B,Open Source,Infrastructure → Developer Tools,B2B,Open Source,Infrastructure,AI
+
+### [Pax Historia](https://www.ycombinator.com/companies/pax-historia)
+
+- `isHiring`: true → false
+
+### [Klaimee](https://www.ycombinator.com/companies/klaimee)
 
 - `isHiring`: false → true
 
-### [Instaplay](https://www.ycombinator.com/companies/instaplay)
+### [Context.dev](https://www.ycombinator.com/companies/contextdev)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/92de2ea074aa81b222aa6c48b3ca2cd357335638.png → https://bookface-images.s3.amazonaws.com/small_logos/875f7fd9fc3411ba9d4566f0b45d4b27576a4c83.png
-- `tags`: Artificial Intelligence,Gaming → Gaming,AI
+- `tags`: Artificial Intelligence,B2B,APIs → B2B,AI,APIs
 
-### [Arbital](https://www.ycombinator.com/companies/arbital)
+### [Nori](https://www.ycombinator.com/companies/noril1)
 
-- `all_locations`: San Francisco, CA, USA → Singapore, Singapore
-- `regions`: United States of America,America / Canada → Singapore,Southeast Asia
+- `one_liner`: Sub-2000$ robotic humanoid assembled in the US → We build Sub-2000$ humanoids in SF
+- `team_size`: 4 → 5
+- `question_answers`: false → true
+
+### [Ultrasonium](https://www.ycombinator.com/companies/ultrasonium)
+
+- `team_size`: 4 → 17
+- `tags`: Hard Tech,Hardware,Manufacturing → Hard Tech,Hardware,Robotics,Manufacturing
