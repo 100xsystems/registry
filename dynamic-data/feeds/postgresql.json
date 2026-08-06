@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-08-05T19:18:41.201Z",
+  "updatedAt": "2026-08-06T02:31:50.398Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -553,7 +553,23 @@
       "summary": "Jacob Jackson at ByteofDev built something I can only describe as admirably irresponsible (and something I wish I had thought of first): claudegres, a “PostgreSQL” in which Claude is the entire backend. Not Claude tuning the database, and not Claude writing queries against the database. Claude as…",
       "author": null,
       "publishedAt": "2026-08-05T16:09:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9rx",
+      "title": "Christophe Pettus: All Your GUCs in a Row: ignore_checksum_failure",
+      "link": "https://postgr.es/p/9rx",
+      "summary": "When data checksums catch corruption, restore from backup or fail over—unless you have neither.",
+      "author": null,
+      "publishedAt": "2026-08-06T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9rw",
+      "title": "Radim Marek: The DISTINCT in your COUNT",
+      "link": "https://postgr.es/p/9rw",
+      "summary": "Here is a query that shows up in every analytics workload:\nSELECT count(DISTINCT user_id) FROM events;\nIt looks like the cheapest possible thing: count the distinct users. On a machine with cores to spare you would expect Postgres to throw a few parallel workers at it, the way it does for almost…",
+      "author": null,
+      "publishedAt": "2026-08-05T21:00:52.000Z"
     }
   ],
-  "totalIndexed": 68
+  "totalIndexed": 70
 }

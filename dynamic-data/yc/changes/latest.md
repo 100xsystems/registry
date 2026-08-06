@@ -1,80 +1,100 @@
-# YC Company Changes for 2026-08-05
+# YC Company Changes for 2026-08-06
 
 - Previous total: 6123
-- Current total: 6123
-- Added: 0
-- Removed: 0
-- Updated: 15
+- Current total: 6124
+- Added: 2
+- Removed: 1
+- Updated: 17
 
+
+## Added Companies
+
+- [Click](https://www.ycombinator.com/companies/click) (Summer 2026) — Web search & connectors for agents
+- [Forward](https://www.ycombinator.com/companies/useforward) (Fall 2026) — Unifying Global Private Credit
+
+## Removed Companies
+
+- Alchemize (Spring 2026)
 
 ## Updated Companies
 
-### [Whatnot](https://www.ycombinator.com/companies/whatnot)
+### [Opentrons](https://www.ycombinator.com/companies/opentrons)
 
 - `stage`: Growth → Early
 
-### [Humance](https://www.ycombinator.com/companies/humance)
+### [SOMATIC](https://www.ycombinator.com/companies/somatic)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/f3b53627ae1b22d1f3bdcba5ce58bcf5be26b18a.png → https://bookface-images.s3.amazonaws.com/small_logos/987667192d91a0ec07b29e6a9afb25d541d6a722.png
-- `tags`: Construction,B2B,Scheduling,AI → Artificial Intelligence,Construction,B2B,Scheduling
+- `all_locations`: New York City, NY, USA → Miami Beach, FL, USA
 
-### [Adni](https://www.ycombinator.com/companies/adni)
+### [SilkChart](https://www.ycombinator.com/companies/silkchart)
 
-- `one_liner`: AI career platform for healthcare workers → The AI career platform for healthcare workers
-- `tags`: Marketplace,SaaS,Recruiting,Healthcare,AI → Artificial Intelligence,Marketplace,SaaS,Recruiting,Healthcare
+- `tags`: Artificial Intelligence,SaaS,B2B,Sales,Sales Enablement → SaaS,B2B,Sales,Sales Enablement,AI
 
-### [Peeba](https://www.ycombinator.com/companies/peeba)
+### [Firecrawl](https://www.ycombinator.com/companies/firecrawl)
+
+- `team_size`: 25 → 35
+- `stage`: Growth → Early
+
+### [Kivo Health](https://www.ycombinator.com/companies/kivo-health)
+
+- `team_size`: 35 → 40
+- `stage`: Growth → Early
+
+### [Persana AI](https://www.ycombinator.com/companies/persana-ai)
+
+- `isHiring`: true → false
+- `status`: Active → Acquired
+
+### [Structured Labs](https://www.ycombinator.com/companies/structured-labs)
 
 - `status`: Active → Inactive
 
-### [Deepnight](https://www.ycombinator.com/companies/deepnight)
+### [JustAI](https://www.ycombinator.com/companies/justai)
 
-- `isHiring`: true → false
+- `tags`: Reinforcement Learning,Workflow Automation,Personalization,Marketing,AI → Artificial Intelligence,Reinforcement Learning,Workflow Automation,Personalization,Marketing
+- `regions`: United States of America,America / Canada,Remote,Partly Remote → United States of America,America / Canada
 
-### [Forge](https://www.ycombinator.com/companies/forge)
+### [Praxos](https://www.ycombinator.com/companies/praxos)
 
-- `isHiring`: true → false
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/d1c628c6820b04ec1a91900beaf008135319068a.png → https://bookface-images.s3.amazonaws.com/small_logos/133daa5976316fea8822213f5f71c6bc57c7cc88.png
+- `website`: https://mypraxos.com → https://praxos.ai
+- `one_liner`: Your personal AI companion → Messaging workspace for people and AI agents
+- `industry`: Consumer → B2B
+- `subindustry`: Consumer → B2B
+- `tags`: Consumer,AI,Conversational AI → B2B,Messaging,AI,Conversational AI
+- `industries`: Consumer → B2B
 
-### [Corgi Insurance](https://www.ycombinator.com/companies/corgi-insurance)
+### [Captain](https://www.ycombinator.com/companies/captain)
 
-- `stage`: Growth → Early
+- `one_liner`: Give AI agents accurate knowledge search that scales → Accurate, high-performance retrieval for AI agents
 
-### [Promi](https://www.ycombinator.com/companies/promi)
+### [GitCafe](https://www.ycombinator.com/companies/gitcafe)
 
-- `website`: https://www.usepromi.com/ → https://www.trypromi.com/
-- `one_liner`: Optimizing ecommerce pricing with dynamic, personalized discounts → Providing quick product and design feedback via digital twins
-- `subindustry`: B2B -> Retail → B2B -> Engineering, Product and Design
-- `industries`: B2B,Retail → B2B,Engineering, Product and Design
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/14fb9e028c09cd154bde4e2f89f26fde539ca415.png → https://bookface-images.s3.amazonaws.com/small_logos/0368e97446261f618b077e5a2549ed76b47bbb0f.png
 
-### [Almond](https://www.ycombinator.com/companies/almond-2)
+### [Instaplay](https://www.ycombinator.com/companies/instaplay)
 
-- `team_size`: 5 → 6
-- `tags`: Artificial Intelligence,Hardware,Robotics,Manufacturing,Automation → Hardware,Robotics,Manufacturing,Automation,AI
-
-### [Manufact](https://www.ycombinator.com/companies/manufact)
-
-- `team_size`: 5 → 6
-- `tags`: Artificial Intelligence,Developer Tools,B2B,Open Source,Infrastructure → Developer Tools,B2B,Open Source,Infrastructure,AI
-
-### [Pax Historia](https://www.ycombinator.com/companies/pax-historia)
-
-- `isHiring`: true → false
-
-### [Klaimee](https://www.ycombinator.com/companies/klaimee)
-
-- `isHiring`: false → true
-
-### [Context.dev](https://www.ycombinator.com/companies/contextdev)
-
-- `tags`: Artificial Intelligence,B2B,APIs → B2B,AI,APIs
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/875f7fd9fc3411ba9d4566f0b45d4b27576a4c83.png → https://bookface-images.s3.amazonaws.com/small_logos/eb592d96e5852b0b3a9f44e715e018691baa3135.png
+- `tags`: Gaming,AI → Artificial Intelligence,Gaming
 
 ### [Nori](https://www.ycombinator.com/companies/noril1)
 
-- `one_liner`: Sub-2000$ robotic humanoid assembled in the US → We build Sub-2000$ humanoids in SF
-- `team_size`: 4 → 5
-- `question_answers`: false → true
+- `one_liner`: We build Sub-2000$ humanoids in SF → Affordable robot you can teach to do anything
 
-### [Ultrasonium](https://www.ycombinator.com/companies/ultrasonium)
+### [Florin](https://www.ycombinator.com/companies/florin)
 
-- `team_size`: 4 → 17
-- `tags`: Hard Tech,Hardware,Manufacturing → Hard Tech,Hardware,Robotics,Manufacturing
+- `tags`: Artificial Intelligence,Fintech,Insurance → Fintech,Insurance,AI
+
+### [Osseus](https://www.ycombinator.com/companies/osseus)
+
+- `tags`: Artificial Intelligence,Robotics,B2B,Enterprise Software,Infrastructure → Robotics,B2B,Enterprise Software,Infrastructure,AI
+
+### [Experiential Labs](https://www.ycombinator.com/companies/experiential-labs)
+
+- `one_liner`: Continual Learning for Agents → Turn your AI spend into a cheaper + better model you own
+- `tags`: Infrastructure,AI → Artificial Intelligence,Infrastructure
+
+### [Qokedas](https://www.ycombinator.com/companies/qokedas)
+
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/31c1e7e41e8bdce6fdb8b0dbca8bc555e944bc47.png → https://bookface-images.s3.amazonaws.com/small_logos/db2b316be3ecf24cfbcfc09074b3e2b8a1f3bb05.png
+- `tags`: Deep Learning,AI → Artificial Intelligence,Deep Learning

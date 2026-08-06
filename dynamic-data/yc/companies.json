@@ -1,13 +1,55 @@
 {
-  "fetchedAt": "2026-08-05T19:18:59.253Z",
-  "count": 6123,
+  "fetchedAt": "2026-08-06T02:32:11.912Z",
+  "count": 6124,
   "companies": [
+    {
+      "id": 35094,
+      "name": "Forward",
+      "slug": "useforward",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/717ea600e14829731cf877a194aca957195d9b27.png",
+      "website": "https://www.useforward.co/",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "An AI platform that connects commercial debt advisors with mandate matching private credit funds. ",
+      "one_liner": "Unifying Global Private Credit",
+      "team_size": 5,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "B2B",
+      "subindustry": "B2B",
+      "launched_at": 1785975971,
+      "tags": [
+        "Artificial Intelligence",
+        "Fintech",
+        "B2B"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Fall 2026",
+      "status": "Active",
+      "industries": [
+        "B2B"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/useforward"
+    },
     {
       "id": 34794,
       "name": "Qokedas",
       "slug": "qokedas",
       "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/31c1e7e41e8bdce6fdb8b0dbca8bc555e944bc47.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/db2b316be3ecf24cfbcfc09074b3e2b8a1f3bb05.png",
       "website": "https://qokedas.com/",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Most of what happens on Earth is never written down. It passes through instruments as signal and disappears. Qokedas turns that signal into training data, so labs can build models that read the physical world and operate the machines that measure it",
@@ -20,8 +62,8 @@
       "subindustry": "B2B",
       "launched_at": 1785795073,
       "tags": [
-        "Deep Learning",
-        "AI"
+        "Artificial Intelligence",
+        "Deep Learning"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -184,7 +226,7 @@
       "website": "https://experientiallabs.ai",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "We build model endpoints for your agent that will always be frontier quality and 50%+ cheaper than any frontier model. This is done by continuously improving smaller models on simulations built from production agent traces. ",
-      "one_liner": "Continual Learning for Agents",
+      "one_liner": "Turn your AI spend into a cheaper + better model you own",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -193,8 +235,8 @@
       "subindustry": "B2B -> Infrastructure",
       "launched_at": 1782607347,
       "tags": [
-        "Infrastructure",
-        "AI"
+        "Artificial Intelligence",
+        "Infrastructure"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -492,7 +534,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/fd39ca163a2a8ea396a6ec66701926317f9f416c.png",
       "website": "https://osseus.ai/",
       "all_locations": "",
-      "long_description": "Osseus is the intelligent development platform for robotics. Today, it gives robotics teams a collaborative web app for reviewing mechanical and electrical designs against the full context around them. Engineers and suppliers comment on the exact part, net, connector, or dimension, while AI AutoReview compares proposed changes with prior revisions and source evidence.\r\n\r\nUnderneath is a secure research brain that connects physical designs, robot descriptions and models, firmware and robot software, simulation and test results, supplier feedback, decisions, and owners in one permissioned, version-aware record. Because Osseus understands those relationships, it can carry supplier constraints into future reviews, trace a hardware change into the exact configurations, code, and validation work it affects, and turn approved findings into owned work without losing the evidence or rationale.\r\n\r\nOur long-term goal is for any professional team or hobbyist to import, fork, or create a robot in Osseus. Builders will be able to explore compatible components and supplier intelligence, edit the physical design, and receive proposed updates to the robot description, firmware, control software, simulation, and tests. We ultimately want to develop physical-AI models that reason jointly over the robot's geometry, electronics, kinematics, components, software, and real-world performance so people can optimize and iterate on robots much faster.",
+      "long_description": "Osseus is the intelligent development platform for robotics. Today, it gives robotics teams a collaborative web app for reviewing mechanical and electrical designs against the full context around them. Engineers and suppliers comment on the exact part, net, connector, or dimension, while AI AutoReview compares proposed changes with prior revisions and source evidence.\r\n\r\nUnderneath is a secure research brain that connects physical designs, robot descriptions and models, firmware and robot software, simulation and test results, supplier feedback, decisions, and owners in one permissioned, version-aware record. Because Osseus understands those relationships, it can carry supplier constraints into future reviews, trace a hardware change into the exact configurations, code, and validation work it affects, and turn approved findings into owned work without losing the evidence or rationale.\r\n\r\nOsseus also includes a robotics component marketplace. Teams can list spare parts and hardware for others to rent during prototyping, helping engineers avoid long lead times or asking around for parts, so they can build faster and make better use of existing inventory.\r\n\r\nOur long-term goal is for any professional team or hobbyist to import, fork, or create a robot in Osseus. Builders will be able to explore compatible components and supplier intelligence, edit the physical design, and receive proposed updates to the robot description, firmware, control software, simulation, and tests. We ultimately want to develop physical-AI models that reason jointly over the robot's geometry, electronics, kinematics, components, software, and real-world performance so people can optimize and iterate on robots much faster.",
       "one_liner": "The intelligent development platform for robotics",
       "team_size": 2,
       "highlight_black": false,
@@ -502,11 +544,11 @@
       "subindustry": "B2B -> Engineering, Product and Design",
       "launched_at": 1783740069,
       "tags": [
-        "Artificial Intelligence",
         "Robotics",
         "B2B",
         "Enterprise Software",
-        "Infrastructure"
+        "Infrastructure",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -1123,7 +1165,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/48074691217afbc59a4443c6ffa2379a823efda9.png",
       "website": "https://florin.inc",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Florin is a full-stack insurance carrier where a world model does the underwriting. When a submission comes in, Florin reads the ACORD forms, then investigates the risk on its own: satellite imagery, permits, public records, even the insured's Instagram, and catches exposures that never make it onto the application. It then simulates tens of thousands of ways the policy year could go, prices the risk, and returns a bindable quote in under a minute instead of weeks. The team is ex-Google, Tesla, Amazon, and Terra Firma, and the bet is that a carrier built this way wins on loss ratio, speed, and cost at the same time.",
+      "long_description": "Florin is a full-stack insurance carrier where a model does the underwriting. When a submission comes in, Florin reads the ACORD forms, then investigates the risk on its own: satellite imagery, permits, public records, even the insured's Instagram, and catches exposures that never make it onto the application. It then simulates tens of thousands of ways the policy year could go, prices the risk, and returns a bindable quote in under a minute instead of weeks. The team is ex-Google, Tesla, Amazon, and Terra Firma, and the bet is that a carrier built this way wins on loss ratio, speed, and cost at the same time.",
       "one_liner": "Florin is the insurance carrier with zero underwriters",
       "team_size": 3,
       "highlight_black": false,
@@ -1133,9 +1175,9 @@
       "subindustry": "Fintech -> Insurance",
       "launched_at": 1782360987,
       "tags": [
-        "Artificial Intelligence",
         "Fintech",
-        "Insurance"
+        "Insurance",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -3383,6 +3425,49 @@
       "url": "https://www.ycombinator.com/companies/vendo"
     },
     {
+      "id": 32618,
+      "name": "Click",
+      "slug": "click",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/3eb675c91f3464d134cd3d9c18712ad08bea23bb.png",
+      "website": "https://www.useclick.ai",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "Click lets you do more within Codex & Claude. It's an MCP that provides external context that the in-built web search misses - LinkedIn activity, YouTube transcripts, live flight fares, and more. \r\nWith Click, users do sales & GTM research, competitor ad analysis, travel planning, and financial analysis - all within their favorite agent surface.",
+      "one_liner": "Web search & connectors for agents",
+      "team_size": 1,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "B2B",
+      "subindustry": "B2B -> Analytics",
+      "launched_at": 1785963586,
+      "tags": [
+        "Artificial Intelligence",
+        "Infrastructure",
+        "AI"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Summer 2026",
+      "status": "Active",
+      "industries": [
+        "B2B",
+        "Analytics"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/click"
+    },
+    {
       "id": 32617,
       "name": "Whitespace",
       "slug": "whitespace",
@@ -3695,7 +3780,7 @@
       "website": "http://norirobotics.com",
       "all_locations": "New York City, NY, USA",
       "long_description": "Nori builds home robots that cost less than $2,000 and that anyone can teach. Out of the box, the NORI L3 does household chores: loading the dishwasher, folding laundry, tidying up. But because anyone can train it, it also learns your specific tasks, like washing paintbrushes if you're an artist or flipping sheet music while you play guitar. It's a general-purpose robot, not an appliance.\r\n\r\nWe launched pre-orders 6 weeks ago and have already booked $100K in revenue.\r\n\r\nHumanoid robots exist, but they cost $20,000 or more and are demoed, not shipped. We got to $1,688 without sacrificing capability. Instead of expensive actuators, we use low-cost servos and get more out of them through smarter control and design. A wheeled base with a lift gives full floor-to-counter reach without the cost and fragility of legs, and we streamlined manufacturing from day one, assembling in the US.\r\n\r\nThe teachability is the moat. Every skill a user trains can be shared, so each customer makes every robot more capable. Hardware is the entry point; the skill ecosystem is the recurring revenue.\r\n\r\nWe're robotics researchers from Columbia labs like RoboPIL (robot learning) and CGUI. Working with $100K research robots that struggled with everyday tasks convinced us the problem isn't capability, it's cost. Good robots don't need to be expensive.\r\n\r\nHouseholds already spend $2,000+ on single-task machines: a dishwasher, a washing machine, a vacuum. We sell one robot at $1,688 that does the work of all of them and learns more. At 5% of US households and $25 a month for skills, that's $2B a year in recurring revenue, on top of hardware.",
-      "one_liner": "We build Sub-2000$ humanoids in SF",
+      "one_liner": "Affordable robot you can teach to do anything",
       "team_size": 5,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -5201,7 +5286,7 @@
       "former_names": [
         "General Context Labs"
       ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/875f7fd9fc3411ba9d4566f0b45d4b27576a4c83.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/eb592d96e5852b0b3a9f44e715e018691baa3135.png",
       "website": "https://instaplay.ai",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "",
@@ -5214,8 +5299,8 @@
       "subindustry": "Consumer -> Gaming",
       "launched_at": 1784188651,
       "tags": [
-        "Gaming",
-        "AI"
+        "Artificial Intelligence",
+        "Gaming"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -6572,7 +6657,7 @@
       "name": "GitCafe",
       "slug": "gitcafe",
       "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/14fb9e028c09cd154bde4e2f89f26fde539ca415.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/0368e97446261f618b077e5a2549ed76b47bbb0f.png",
       "website": "https://git.cafe",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "",
@@ -10552,45 +10637,6 @@
       "app_answers": null,
       "question_answers": false,
       "url": "https://www.ycombinator.com/companies/runharbor"
-    },
-    {
-      "id": 31444,
-      "name": "Alchemize",
-      "slug": "alchemize",
-      "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/f82ae07ea418af65738a5555df328a4907b4da13.png",
-      "website": "https://tryalchemize.com",
-      "all_locations": "San Francisco, CA, USA",
-      "long_description": "Alchemize is building an AI-native customs brokerage. Importers are currently hindered by legacy brokers relying on manual workflows, where hand-keyed entries and slow tariff research result in preventable shipping delays, lack of visibility, and unnecessary costs. Alchemize automates these workflows, delivering expert-level compliance at software speed.",
-      "one_liner": "AI-Native Customs Brokerage",
-      "team_size": 2,
-      "highlight_black": false,
-      "highlight_latinx": false,
-      "highlight_women": false,
-      "industry": "B2B",
-      "subindustry": "B2B -> Supply Chain and Logistics",
-      "launched_at": 1778526600,
-      "tags": [],
-      "tags_highlighted": [],
-      "top_company": false,
-      "isHiring": false,
-      "nonprofit": false,
-      "batch": "Spring 2026",
-      "status": "Active",
-      "industries": [
-        "B2B",
-        "Supply Chain and Logistics"
-      ],
-      "regions": [
-        "United States of America",
-        "America / Canada"
-      ],
-      "stage": "Early",
-      "app_video_public": false,
-      "demo_day_video_public": false,
-      "app_answers": null,
-      "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/alchemize"
     },
     {
       "id": 31443,
@@ -15696,7 +15742,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c9fbf6b23216653c383d7f0caea2def1b673a3a5.png",
       "website": "https://www.controlseat.com",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "",
+      "long_description": "Control Seat builds the hardware and software that helps industrial teams see, understand, and run their operations.\r\n\r\nOur platform creates one clear source of truth across the plant. It connects the systems teams already use, brings control, monitoring, history, and machine health together, and adds an intelligence layer that continuously watches for meaningful changes. Teams can understand what happened, catch problems earlier, and act before they become downtime.\r\n\r\nThe result is fewer surprises, faster decisions, and less time spent piecing together information across disconnected tools.\r\n\r\nWe work with manufacturers, utilities, energy companies, and other industrial operators modernizing existing facilities or building new ones.",
       "one_liner": "Control and Monitoring of Industrial Operations",
       "team_size": 2,
       "highlight_black": false,
@@ -26734,7 +26780,7 @@
       "website": "https://runcaptain.com",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Captain delivers the most accurate file search engine built for AI agents. We’ll index data from the sources folks already use like S3, SharePoint, and Google Drive, and easily scale multimodal, petabyte-level content search. We’re the Snowflake for Unstructured Data.\r\n\r\nCaptain tops the Open-RAG-Benchmark with over 20% higher accuracy than standard RAG pipelines. We achieve this through robust data processing techniques like embedding normalization across modalities, ensuring that representations cluster by semantic content rather than data type.",
-      "one_liner": "Give AI agents accurate knowledge search that scales",
+      "one_liner": "Accurate, high-performance retrieval for AI agents",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -27044,7 +27090,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/7f3743327b1fc85ded6caddbd532e0c600eb2cb0.png",
       "website": "https://tensr.com/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Tensr is building fully autonomous robotic factories that make scaling hardware as effortless as scaling on AWS. We’re a group of Berkeley graduate robotics researchers who previously won a full scale autonomous IndyCar competition at 160mph.",
+      "long_description": "Robotic factories that build robotics in the US.\r\n\r\nWe’re a group of Berkeley graduate robotics researchers who previously won a full scale autonomous IndyCar competition at 160mph.",
       "one_liner": "Fully autonomous robotic factories",
       "team_size": 3,
       "highlight_black": false,
@@ -59491,20 +59537,21 @@
       "former_names": [
         "Praxos Intelligence, Inc."
       ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/d1c628c6820b04ec1a91900beaf008135319068a.png",
-      "website": "https://mypraxos.com",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/133daa5976316fea8822213f5f71c6bc57c7cc88.png",
+      "website": "https://praxos.ai",
       "all_locations": "Miami, FL, USA; Remote",
-      "long_description": "A personal AI that can act on direct commands and run persistent directives for you, via voice and text.",
-      "one_liner": "Your personal AI companion",
+      "long_description": "Messaging workspace for people and AI agents.",
+      "one_liner": "Messaging workspace for people and AI agents",
       "team_size": 3,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
-      "industry": "Consumer",
-      "subindustry": "Consumer",
+      "industry": "B2B",
+      "subindustry": "B2B",
       "launched_at": 1723170275,
       "tags": [
-        "Consumer",
+        "B2B",
+        "Messaging",
         "AI",
         "Conversational AI"
       ],
@@ -59515,7 +59562,7 @@
       "batch": "Summer 2024",
       "status": "Active",
       "industries": [
-        "Consumer"
+        "B2B"
       ],
       "regions": [
         "United States of America",
@@ -70520,11 +70567,11 @@
       "subindustry": "B2B -> Marketing",
       "launched_at": 1704840202,
       "tags": [
+        "Artificial Intelligence",
         "Reinforcement Learning",
         "Workflow Automation",
         "Personalization",
-        "Marketing",
-        "AI"
+        "Marketing"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -70538,9 +70585,7 @@
       ],
       "regions": [
         "United States of America",
-        "America / Canada",
-        "Remote",
-        "Partly Remote"
+        "America / Canada"
       ],
       "stage": "Early",
       "app_video_public": false,
@@ -79102,7 +79147,7 @@
       "isHiring": false,
       "nonprofit": false,
       "batch": "Summer 2023",
-      "status": "Active",
+      "status": "Inactive",
       "industries": [
         "B2B",
         "Engineering, Product and Design"
@@ -89262,10 +89307,10 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": true,
+      "isHiring": false,
       "nonprofit": false,
       "batch": "Winter 2023",
-      "status": "Active",
+      "status": "Acquired",
       "industries": [
         "B2B",
         "Sales"
@@ -96063,9 +96108,9 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/ee15c21c618dfd0aa1cbb6bb3be671ac26a2be94.png",
       "website": "https://kivohealth.com",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Kivo Health provides AI-powered virtual care for seniors with chronic disease, starting with lung disease. Kivo's AI powered virtual care programs help health plans reduce costs by keeping members healthy and out of the hospital.",
+      "long_description": "Kivo Health provides AI-powered virtual care for seniors with chronic disease, starting with lung care. We keep people out of the hospital and save payers $8k+ on average per patient. We work with major health systems like Stanford, UCLA and Optum Health. We just raised our $10M Series A and are growing quickly.",
       "one_liner": "AI-powered care for seniors with chronic disease",
-      "team_size": 35,
+      "team_size": 40,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -96094,7 +96139,7 @@
         "Remote",
         "Partly Remote"
       ],
-      "stage": "Growth",
+      "stage": "Early",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -103177,9 +103222,9 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/fe35a47d1e4dd7a3c1a7dcbea86c08b5ef2d67e6.png",
       "website": "https://www.firecrawl.dev",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Firecrawl is the web context API for AI agents. Search, scrape, parse, and interact with the live web to turn any source into clean Markdown or structured data your agents can ship with. Open source, ZDR-ready, and trusted by 80,000+ teams including Apple, Shopify, Canva, Zapier, and Lovable to power production AI.",
+      "long_description": "Firecrawl is the easiest way to turn the web into data AI agents can use. One API call converts any URL into clean, LLM-ready markdown or structured data - the boring-hard problem everyone building with LLMs eventually hits, solved.\r\n\r\nWe hit 8 figures in ARR in year one and more than doubled it in year two. We have 150k+ GitHub stars, and developers, agents, and category-defining AI companies build on us every day. Growth like this is rare, and we're just getting started.\r\n\r\nWe're a small team punching far above our weight. Everyone here owns a real piece of the product and company, end to end, and runs it themselves - no hiding behind process or headcount.\r\n\r\nThis is a place for people who want to work at the frontier: an AI company building the infrastructure other AI companies run on, not one bolting AI onto an existing product. We move fast, go deep, and are building the tools superintelligence will rely on to gather data from the web.",
       "one_liner": "The API to search, scrape, and interact with the web at scale. 🔥",
-      "team_size": 25,
+      "team_size": 35,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -103206,7 +103251,7 @@
         "Remote",
         "Partly Remote"
       ],
-      "stage": "Growth",
+      "stage": "Early",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -129338,11 +129383,11 @@
       "subindustry": "B2B -> Sales",
       "launched_at": 1657442843,
       "tags": [
-        "Artificial Intelligence",
         "SaaS",
         "B2B",
         "Sales",
-        "Sales Enablement"
+        "Sales Enablement",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -175002,7 +175047,7 @@
       "former_names": [],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/f23007b7bbf72d015d806b6e02a0a3432a5c5266.png",
       "website": "http://getsomatic.com",
-      "all_locations": "New York City, NY, USA",
+      "all_locations": "Miami Beach, FL, USA",
       "long_description": "Video: https://www.youtube.com/watch?v=XCY2-eDQ-X0",
       "one_liner": "Bathroom cleaning robots for office buildings. ",
       "team_size": 31,
@@ -231859,7 +231904,7 @@
         "Remote",
         "Partly Remote"
       ],
-      "stage": "Growth",
+      "stage": "Early",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
