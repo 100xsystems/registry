@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-08-06T02:31:50.398Z",
+  "updatedAt": "2026-08-06T14:07:07.925Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -569,7 +569,23 @@
       "summary": "Here is a query that shows up in every analytics workload:\nSELECT count(DISTINCT user_id) FROM events;\nIt looks like the cheapest possible thing: count the distinct users. On a machine with cores to spare you would expect Postgres to throw a few parallel workers at it, the way it does for almost…",
       "author": null,
       "publishedAt": "2026-08-05T21:00:52.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9rB",
+      "title": "Vibhor Kumar: ORBIT: An Execution Framework for Reliable Enterprise AI",
+      "link": "https://postgr.es/p/9rB",
+      "summary": "Why AI Reliability Is an Execution Problem, Not a Model Problem\n\n\n\n\nThe most dangerous AI decision isn’t the wrong one. It’s the one nobody can explain afterward.\nMost conversations about AI reliability start in the wrong place. They start with the model — its accuracy, its reasoning quality, its…",
+      "author": null,
+      "publishedAt": "2026-08-06T12:35:28.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9rz",
+      "title": "Gabriele Bartolini: CNPG Recipe 26 - Extension image catalogs",
+      "link": "https://postgr.es/p/9rz",
+      "summary": "CloudNativePG lets the ClusterImageCatalog carry extension images\nalongside the operand, a capability every currently supported release\nalready has, so a Cluster manifest only needs to name an extension and\nnothing else. This recipe deploys the community’s\nextension catalog and shows the operator…",
+      "author": null,
+      "publishedAt": "2026-08-06T11:48:58.000Z"
     }
   ],
-  "totalIndexed": 70
+  "totalIndexed": 72
 }

@@ -1,66 +1,66 @@
 # YC Company Changes for 2026-08-06
 
 - Previous total: 6124
-- Current total: 6124
-- Added: 0
+- Current total: 6125
+- Added: 1
 - Removed: 0
 - Updated: 12
 
 
+## Added Companies
+
+- [Solo Labs](https://www.ycombinator.com/companies/solo-labs) (Summer 2026) — Coding Agents
+
 ## Updated Companies
 
-### [SafeBeat](https://www.ycombinator.com/companies/safebeat)
+### [Opentrons](https://www.ycombinator.com/companies/opentrons)
 
-- `tags`: AI-Enhanced Learning,Medical Devices,Therapeutics → AI-Enhanced Learning,Medical Devices,Digital Health,Therapeutics
+- `stage`: Early → Growth
+
+### [Whatnot](https://www.ycombinator.com/companies/whatnot)
+
+- `stage`: Early → Growth
 
 ### [Onebrief](https://www.ycombinator.com/companies/onebrief)
 
+- `stage`: Early → Growth
+
+### [Firecrawl](https://www.ycombinator.com/companies/firecrawl)
+
+- `stage`: Early → Growth
+
+### [Kivo Health](https://www.ycombinator.com/companies/kivo-health)
+
+- `stage`: Early → Growth
+
+### [Retape](https://www.ycombinator.com/companies/retape)
+
+- `one_liner`: AI workers for debt settlement → AI Operating System for Debt Settlement
+
+### [Fortuna Health](https://www.ycombinator.com/companies/fortuna-health)
+
+- `team_size`: 15 → 16
 - `stage`: Growth → Early
 
-### [Velt](https://www.ycombinator.com/companies/velt)
+### [Corgi Insurance](https://www.ycombinator.com/companies/corgi-insurance)
 
-- `one_liner`: The Complete Collaboration Toolkit → SDK for adding an agent and human governance layer to your product
-- `tags`: Artificial Intelligence,Developer Tools,SaaS,Collaboration,Compliance → Developer Tools,SaaS,Collaboration,Compliance,AI
+- `stage`: Early → Growth
 
-### [LiteLLM](https://www.ycombinator.com/companies/litellm)
+### [Spott](https://www.ycombinator.com/companies/spott)
 
-- `all_locations`: Albany, NY, USA → San Francisco, CA, USA
-- `tags`: AIOps,Developer Tools,Generative AI,Open Source,AI → AIOps,Artificial Intelligence,Developer Tools,Generative AI,Open Source
+- `stage`: Early → Growth
 
-### [Innate](https://www.ycombinator.com/companies/innate)
+### [Revnu](https://www.ycombinator.com/companies/revnu)
 
-- `tags`: Developer Tools,Hard Tech,Robotics,AI → Artificial Intelligence,Developer Tools,Hard Tech,Robotics
-
-### [Olive](https://www.ycombinator.com/companies/olive)
-
-- `isHiring`: true → false
-
-### [Embedder](https://www.ycombinator.com/companies/embedder)
-
-- `tags`: Developer Tools,Hardware,B2B,AI → Artificial Intelligence,Developer Tools,Hardware,B2B
+- `all_locations`: San Francisco, CA, USA → Manchester, England, United Kingdom
+- `tags`: Artificial Intelligence,B2B,Advertising → B2B,Advertising,AI
 - `isHiring`: false → true
+- `regions`: United States of America,America / Canada → United Kingdom,Europe
 
-### [Amera](https://www.ycombinator.com/companies/amera)
+### [Olam Labs](https://www.ycombinator.com/companies/olam-labs)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/d7bb0bb02c318b2ce1debb47ea96eaba0ea5c5b3.png → https://bookface-images.s3.amazonaws.com/small_logos/07c1dd923ce928d5a06d772f09a234366daa3513.png
-- `all_locations`:  → New York City, NY, USA
-- `team_size`: 8 → 12
-- `regions`: Remote,Partly Remote → United States of America,America / Canada,Remote,Partly Remote
+- `tags`: Reinforcement Learning,Gaming,Data Engineering,AI → Artificial Intelligence,Reinforcement Learning,Gaming,Data Engineering
 
-### [tash](https://www.ycombinator.com/companies/tash)
+### [Osseus](https://www.ycombinator.com/companies/osseus)
 
-- `tags`: Investing → Consumer,Investing
-
-### [Touchmark](https://www.ycombinator.com/companies/touchmark)
-
-- `one_liner`: Solving AI pricing → Market for future inference capacity
-
-### [Chromie](https://www.ycombinator.com/companies/chromie)
-
-- `name`: chromie.dev → Chromie
-- `slug`: chromiedev → chromie
-- `former_names`:  → chromie.dev
-
-### [Qokedas](https://www.ycombinator.com/companies/qokedas)
-
-- `tags`: Artificial Intelligence,Deep Learning → Deep Learning,AI
+- `tags`: Robotics,B2B,Enterprise Software,Infrastructure,AI → Artificial Intelligence,Robotics,B2B,Enterprise Software,Infrastructure

@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-08-06T08:46:16.907Z",
-  "count": 6124,
+  "fetchedAt": "2026-08-06T14:07:32.903Z",
+  "count": 6125,
   "companies": [
     {
       "id": 35094,
@@ -534,7 +534,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/fd39ca163a2a8ea396a6ec66701926317f9f416c.png",
       "website": "https://osseus.ai/",
       "all_locations": "",
-      "long_description": "Osseus is the intelligent development platform for robotics. Today, it gives robotics teams a collaborative web app for reviewing mechanical and electrical designs against the full context around them. Engineers and suppliers comment on the exact part, net, connector, or dimension, while AI AutoReview compares proposed changes with prior revisions and source evidence.\r\n\r\nUnderneath is a secure research brain that connects physical designs, robot descriptions and models, firmware and robot software, simulation and test results, supplier feedback, decisions, and owners in one permissioned, version-aware record. Because Osseus understands those relationships, it can carry supplier constraints into future reviews, trace a hardware change into the exact configurations, code, and validation work it affects, and turn approved findings into owned work without losing the evidence or rationale.\r\n\r\nOsseus also includes a robotics component marketplace. Teams can list spare parts and hardware for others to rent during prototyping, helping engineers avoid long lead times or asking around for parts, so they can build faster and make better use of existing inventory.\r\n\r\nOur long-term goal is for any professional team or hobbyist to import, fork, or create a robot in Osseus. Builders will be able to explore compatible components and supplier intelligence, edit the physical design, and receive proposed updates to the robot description, firmware, control software, simulation, and tests. We ultimately want to develop physical-AI models that reason jointly over the robot's geometry, electronics, kinematics, components, software, and real-world performance so people can optimize and iterate on robots much faster.",
+      "long_description": "Osseus is the intelligent development platform for robotics. It plugs into the tools a team already uses - CAD, ECAD, GitHub, Jira, docs, messaging, and test runs to build a live map of their robot stack: every part, board, requirement, test, and decision, and how they all depend on each other.\r\n\r\nWhen a hardware change is made, the map traces the downstream impact across mechanical, electrical, and software. Osseus's agents find which requirements may be compromised, run the attached tests and sims, create fixes of the affected hardware/software on branches, and re-run the tests to confirm the design still conforms.\r\n\r\nOsseus also includes a robotics component marketplace. Teams can list spare parts and hardware for others to rent during prototyping, and designs can be evaluated against real component availability. If a part has a long lead time or is unavailable, engineers can quickly find compatible alternatives from the marketplace instead of waiting weeks or asking around their network.\r\n\r\nDesign review also happens in Osseus. Engineers see why a design might not work, what's been tried before, and why something was built the way it was, pulled from prior conversations between engineers and with suppliers. Suppliers comment directly on a part through a secure link instead of back and forth over email, and what they say is remembered. If a supplier flags that a design isn't machinable, or that changing a feature would cut cost, that insight automatically appears the next time someone designs something similar, saving time and money.\r\n\r\nOur long-term goal is for any professional team or hobbyist to import, fork, or create a robot in Osseus. Builders will be able to explore compatible components and supplier intelligence, edit the physical design, and receive proposed updates to the robot description, firmware, control software, simulation, and tests. We ultimately want to develop physical-AI models that reason jointly over the robot's geometry, electronics, kinematics, components, software, and real-world performance so people can optimize and iterate on robots much faster.",
       "one_liner": "The intelligent development platform for robotics",
       "team_size": 2,
       "highlight_black": false,
@@ -544,11 +544,11 @@
       "subindustry": "B2B -> Engineering, Product and Design",
       "launched_at": 1783740069,
       "tags": [
+        "Artificial Intelligence",
         "Robotics",
         "B2B",
         "Enterprise Software",
-        "Infrastructure",
-        "AI"
+        "Infrastructure"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -5452,6 +5452,47 @@
       "url": "https://www.ycombinator.com/companies/insurf"
     },
     {
+      "id": 32172,
+      "name": "Solo Labs",
+      "slug": "solo-labs",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/0d863d3cf6091c132bb3f8d22d57b3597bc971de.png",
+      "website": "https://jcode.sh/",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "We make an open source low ram coding agent that enables extreme parallelization for coding tasks. Our coding agent produces SOTA results on coding benchmarks. ",
+      "one_liner": "Coding Agents",
+      "team_size": 1,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "Consumer",
+      "subindustry": "Consumer",
+      "launched_at": 1786012852,
+      "tags": [
+        "Developer Tools",
+        "AI"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Summer 2026",
+      "status": "Active",
+      "industries": [
+        "Consumer"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/solo-labs"
+    },
+    {
       "id": 32171,
       "name": "LemonLime",
       "slug": "lemonlime",
@@ -6169,7 +6210,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/d6d9543a0527b0b5ac428e043f211c75ac5d1d59.png",
       "website": "https://olamlabs.ai",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Evaluating models for social behavior, safety, and performance through multi-agent simulated games. We use popular games like Catan, Risk, or Poker, and make humans come play them against talking AI opponents, but on the backend we're actually running a multi-agent environment used to evaluate the models for skill and behavior over large sample sizes.\r\n\r\nYou can play in Multi-Agent Arena and view our preliminary benchmarks today at https://olamlabs.ai/",
+      "long_description": "There is a massive shortage of genuinely good AI evaluations. Multi-agent environments are an underdeveloped way of evaluating models that we think will help address our increasingly worse shortage of evals. We're starting with Multi-Agent Arena, where anyone can come compete against frontier AI models in social multiplayer games, as we build towards the full stack for multi-agent environments. \r\n\r\nTry Multi-Agent Arena at https://olamlabs.ai/ :)",
       "one_liner": "Building multi-agent simulations for model evals and training.",
       "team_size": 2,
       "highlight_black": false,
@@ -6179,10 +6220,10 @@
       "subindustry": "B2B",
       "launched_at": 1784577901,
       "tags": [
+        "Artificial Intelligence",
         "Reinforcement Learning",
         "Gaming",
-        "Data Engineering",
-        "AI"
+        "Data Engineering"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -8198,7 +8239,7 @@
       "former_names": [],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/37b7a4d126859b0a7edce4eaee5984ecd6f85757.png",
       "website": "https://revnu.com",
-      "all_locations": "San Francisco, CA, USA",
+      "all_locations": "Manchester, England, United Kingdom",
       "long_description": "Revnu is your AI growth team. Built to run your whole GTM while you focus on building, Revnu is the best way to grow with AI. \r\n\r\nOur agents run every growth channel: outbound, ads, SEO, social, etc all on one shared intelligence, so learnings from one channel automatically improve all the others.\r\n\r\nYou keep shipping. We run the business.\r\n",
       "one_liner": "The growth infrastructure for the autonomous business",
       "team_size": 2,
@@ -8209,13 +8250,13 @@
       "subindustry": "B2B -> Marketing",
       "launched_at": 1776869663,
       "tags": [
-        "Artificial Intelligence",
         "B2B",
-        "Advertising"
+        "Advertising",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": false,
+      "isHiring": true,
       "nonprofit": false,
       "batch": "Spring 2026",
       "status": "Active",
@@ -8224,8 +8265,8 @@
         "Marketing"
       ],
       "regions": [
-        "United States of America",
-        "America / Canada"
+        "United Kingdom",
+        "Europe"
       ],
       "stage": "Early",
       "app_video_public": false,
@@ -45091,7 +45132,7 @@
         "Belgium",
         "Europe"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -64589,7 +64630,7 @@
         "United States of America",
         "America / Canada"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -83108,7 +83149,7 @@
       "all_locations": "New York City, NY, USA",
       "long_description": "Fortuna is a one-stop solution that helps consumers navigate Medicaid end-to-end from eligibility and enrollment to renewing coverage. \r\n\r\nOur platform creates value as the middleware layer for the $800B Medicaid ecosystem.",
       "one_liner": "TurboTax for Medicaid",
-      "team_size": 15,
+      "team_size": 16,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -83134,7 +83175,7 @@
         "United States of America",
         "America / Canada"
       ],
-      "stage": "Growth",
+      "stage": "Early",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -92657,8 +92698,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/ae3ba43742d4dcd5a5ed43d8813d3cab2253bd1f.png",
       "website": "https://www.retape.ai/",
       "all_locations": "Bengaluru, KA, India; Remote",
-      "long_description": "Automating call center operations at debt settlement companies, with AI that plugs into CRM, identifies debts to settle, and negotiates with creditors over the phone.",
-      "one_liner": "AI workers for debt settlement",
+      "long_description": "We're building an AI Operating System for DSCs. This includes a set of AI agents that can work together to complete a workflow end to end.",
+      "one_liner": "AI Operating System for Debt Settlement",
       "team_size": 3,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -96144,7 +96185,7 @@
         "Remote",
         "Partly Remote"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -103256,7 +103297,7 @@
         "Remote",
         "Partly Remote"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -141247,7 +141288,7 @@
         "Remote",
         "Fully Remote"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -179037,7 +179078,7 @@
         "Remote",
         "Fully Remote"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -231910,7 +231951,7 @@
         "Remote",
         "Partly Remote"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
