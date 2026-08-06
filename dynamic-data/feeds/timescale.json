@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-07-29T19:01:57.135Z",
+  "updatedAt": "2026-08-06T23:52:21.845Z",
   "items": [
     {
       "guid": "https://www.tigerdata.com/blog/whats-new-in-tiger-cloud",
@@ -23,7 +23,15 @@
       "summary": "TimescaleDB 2.28 adds schema evolution for continuous aggregates, lighter refreshes, faster compressed queries, and ends PostgreSQL 15 support.",
       "author": "Nicole Ghalwash",
       "publishedAt": "2026-07-29T12:30:13.000Z"
+    },
+    {
+      "guid": "https://www.tigerdata.com/blog/controlcom-case-study-tiger-data",
+      "title": "How ControlCom Turns 300+ Million Monthly Facility Data Points Into Instant Answers With Tiger Data",
+      "link": "https://www.tigerdata.com/blog/controlcom-case-study-tiger-data",
+      "summary": "Industrial IoT on TimescaleDB: ControlCom streams 1K-10K points/sec from thousands of assets, powering instant dashboards and AI that caught $160K billing errors.",
+      "author": "Andrew Stebbins",
+      "publishedAt": "2026-08-06T18:40:28.000Z"
     }
   ],
-  "totalIndexed": 2
+  "totalIndexed": 3
 }

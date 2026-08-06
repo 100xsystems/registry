@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-08-06T14:07:32.903Z",
-  "count": 6125,
+  "fetchedAt": "2026-08-06T23:52:28.461Z",
+  "count": 6128,
   "companies": [
     {
       "id": 35094,
@@ -84,6 +84,49 @@
       "app_answers": null,
       "question_answers": false,
       "url": "https://www.ycombinator.com/companies/qokedas"
+    },
+    {
+      "id": 34464,
+      "name": "herdr",
+      "slug": "herdr",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/16f63118d9ed1edf6a055497860b53107c37b334.png",
+      "website": "https://herdr.dev/",
+      "all_locations": "Ankara, Ankara, Turkey",
+      "long_description": "Developers don't run one coding agent anymore. They run fleets of them — for hours, sometimes days — across laptops, servers, and sandboxes. Keeping track of that work is the new bottleneck: which agent is blocked, which one finished, which terminal is it in, and why did everything die when the laptop closed.\r\n\r\nHerdr is the open-source home for that work. A background server owns the agents' terminal sessions on each machine, so the work survives disconnects, closed lids, and dropped SSH. Herdr detects each agent and turns the chaos into an attention queue — working, blocked, done, across every project — so you look only when an agent needs you. Every client is just a view: the bundled terminal UI, SSH from another machine, your phone. Close one, open another; the work never stops.\r\n\r\nSoftware can drive it too: a CLI, a socket API, and a plugin marketplace that passed 500 community plugins in its first month. The runtime is Apache-2.0 and stays open. Four months after launch: 25k GitHub stars, 340k downloads.\r\n\r\nNext: connecting the machines into one live herd, reachable from every device, while agents stay on hardware you control.",
+      "one_liner": "building the open agent runtime",
+      "team_size": 1,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "B2B",
+      "subindustry": "B2B -> Engineering, Product and Design",
+      "launched_at": 1786038738,
+      "tags": [
+        "Developer Tools",
+        "AI",
+        "AI Assistant"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Fall 2026",
+      "status": "Active",
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "regions": [
+        "Turkey",
+        "Middle East and North Africa"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/herdr"
     },
     {
       "id": 34365,
@@ -534,7 +577,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/fd39ca163a2a8ea396a6ec66701926317f9f416c.png",
       "website": "https://osseus.ai/",
       "all_locations": "",
-      "long_description": "Osseus is the intelligent development platform for robotics. It plugs into the tools a team already uses - CAD, ECAD, GitHub, Jira, docs, messaging, and test runs to build a live map of their robot stack: every part, board, requirement, test, and decision, and how they all depend on each other.\r\n\r\nWhen a hardware change is made, the map traces the downstream impact across mechanical, electrical, and software. Osseus's agents find which requirements may be compromised, run the attached tests and sims, create fixes of the affected hardware/software on branches, and re-run the tests to confirm the design still conforms.\r\n\r\nOsseus also includes a robotics component marketplace. Teams can list spare parts and hardware for others to rent during prototyping, and designs can be evaluated against real component availability. If a part has a long lead time or is unavailable, engineers can quickly find compatible alternatives from the marketplace instead of waiting weeks or asking around their network.\r\n\r\nDesign review also happens in Osseus. Engineers see why a design might not work, what's been tried before, and why something was built the way it was, pulled from prior conversations between engineers and with suppliers. Suppliers comment directly on a part through a secure link instead of back and forth over email, and what they say is remembered. If a supplier flags that a design isn't machinable, or that changing a feature would cut cost, that insight automatically appears the next time someone designs something similar, saving time and money.\r\n\r\nOur long-term goal is for any professional team or hobbyist to import, fork, or create a robot in Osseus. Builders will be able to explore compatible components and supplier intelligence, edit the physical design, and receive proposed updates to the robot description, firmware, control software, simulation, and tests. We ultimately want to develop physical-AI models that reason jointly over the robot's geometry, electronics, kinematics, components, software, and real-world performance so people can optimize and iterate on robots much faster.",
+      "long_description": "Osseus is the intelligent development platform for robotics. It plugs into the tools a team already uses - CAD, ECAD, GitHub, Jira, docs, messaging, and test runs to build a live map of their robot stack: every part, board, requirement, test, and decision, and how they all depend on each other.\r\n\r\nWhen a hardware change is made, the map traces the downstream impact across mechanical, electrical, and software. Osseus's agents find which requirements may be compromised, run the attached tests and sims, create fixes of the affected hardware/software on branches, and re-run the tests to confirm the design still conforms.\r\n\r\nOsseus includes a robotics component marketplace. Teams can list spare parts and hardware for others to rent during prototyping, and designs can be evaluated against real component availability. If a part has a long lead time or is unavailable, engineers can quickly find compatible alternatives from the marketplace instead of waiting weeks or asking around their network.\r\n\r\nDesign review also happens in Osseus. Engineers see why a design might not work, what's been tried before, and why something was built the way it was, pulled from prior conversations between engineers and with suppliers. Suppliers comment directly on a part through a secure link instead of back and forth over email, and what they say is remembered. If a supplier flags that a design isn't machinable, or that changing a feature would cut cost, that insight automatically appears the next time someone designs something similar, saving time and money.\r\n\r\nOur long-term goal is for any professional team or hobbyist to import, fork, or create a robot in Osseus. Builders will be able to explore compatible components and supplier intelligence, edit the physical design, and receive proposed updates to the robot description, firmware, control software, simulation, and tests. We ultimately want to develop physical-AI models that reason jointly over the robot's geometry, electronics, kinematics, components, software, and real-world performance so people can optimize and iterate on robots much faster.",
       "one_liner": "The intelligent development platform for robotics",
       "team_size": 2,
       "highlight_black": false,
@@ -544,11 +587,11 @@
       "subindustry": "B2B -> Engineering, Product and Design",
       "launched_at": 1783740069,
       "tags": [
-        "Artificial Intelligence",
         "Robotics",
         "B2B",
         "Enterprise Software",
-        "Infrastructure"
+        "Infrastructure",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -2464,7 +2507,7 @@
       "name": "Lumeria",
       "slug": "lumeria",
       "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/3248066794d2775ccfb10dc3c2b88563b19d2b91.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/8820c77c59ad677aa1a11384b561d8e34ab06e47.png",
       "website": "https://lumeria.skin",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Your skin is yours, but understanding it has never felt that way. Getting answers has meant an appointment, a price, and a long trial-and-error process. We're changing that. Lumeria puts your skin in your own hands: the power to see it, know it, and own its story yourself, at home and on your terms.",
@@ -2477,11 +2520,11 @@
       "subindustry": "Healthcare -> Consumer Health and Wellness",
       "launched_at": 1785008787,
       "tags": [
+        "Artificial Intelligence",
         "Consumer Health Services",
         "Health Tech",
         "Health & Wellness",
-        "Skincare",
-        "AI"
+        "Skincare"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -3079,6 +3122,51 @@
       "url": "https://www.ycombinator.com/companies/neuron-industries"
     },
     {
+      "id": 32716,
+      "name": "Neuromorphic",
+      "slug": "neuromorphic",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/470f3b57cd018aad9c127e64e5b952d32a64d435.png",
+      "website": "https://www.neuromorphic.vision/",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "Neuromorphic is building an embodiment-agnostic “brain” that makes robots fast to deploy, adaptable across different bodies, and easy to manage through natural interfaces like Slack, email, and phone.  Our goal is to make deploying robots in wet labs and other physical industries as easy as onboarding a new employee.",
+      "one_liner": "Building embodiment agnostic robot brains.",
+      "team_size": 3,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "Industrials",
+      "subindustry": "Industrials -> Manufacturing and Robotics",
+      "launched_at": 1779493772,
+      "tags": [
+        "Artificial Intelligence",
+        "Hard Tech",
+        "Robotics",
+        "B2B",
+        "Biotech"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Summer 2026",
+      "status": "Active",
+      "industries": [
+        "Industrials",
+        "Manufacturing and Robotics"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/neuromorphic"
+    },
+    {
       "id": 32682,
       "name": "LATO",
       "slug": "lato",
@@ -3126,7 +3214,7 @@
       "name": "Risklytics",
       "slug": "risklytics",
       "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/b0ad1653f775fb272b3481e8715c274f46c2c464.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/9bea08668ad223dfeb2f0c2d3799c02476bc4493.png",
       "website": "https://www.risklytics.ai/",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Risklytics is a commercial insurance brokerage for frontier tech: robotics, autonomy, data centers, and energy infrastructure. Insurers are writing AI exclusions into standard liability forms, so companies whose products act in the physical world end up holding risk they thought they had transferred. We specialize in that gap, and we know which carriers in the admitted and surplus lines markets will still underwrite it. If you're building anything that moves, lifts, drives, or powers something, we'd like to talk.",
@@ -3139,11 +3227,11 @@
       "subindustry": "Fintech -> Insurance",
       "launched_at": 1783123197,
       "tags": [
+        "Artificial Intelligence",
         "Machine Learning",
         "Real Estate",
         "B2B",
-        "Insurance",
-        "AI"
+        "Insurance"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -4619,6 +4707,51 @@
       "url": "https://www.ycombinator.com/companies/touchmark"
     },
     {
+      "id": 32233,
+      "name": "Exosat",
+      "slug": "exosat",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/4ada0c6c689e415dd6275bd653f7e5171ef2d584.png",
+      "website": "https://www.exosat.com",
+      "all_locations": "Singapore, Singapore",
+      "long_description": "Exosat is building a sovereign alternative to Starlink by mass manufacturing thousands of satellites that work as cell towers in space. By designing our architecture with zero U.S-origin parts and manufacturing with overseas partners, our satellites can be built at under a tenth of the usual cost and launched from any nation to bypass bottlenecks in launch capacity.\r\n\r\nWe're starting off by selling connectivity to OEMs and network operators, but will eventually use the distributed compute across our satellite constellation to support sovereign AI use cases as well.\r\n\r\nWe've already signed $400M+ in LOIs to work with operators across Central Asia, Southeast Asia, and the Middle East, booked our first satellite launch next year, and hold an 11,000 satellite filing with the ITU to build the largest comms network outside of the U.S. and China.",
+      "one_liner": "Building a sovereign Starlink",
+      "team_size": 1,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "Industrials",
+      "subindustry": "Industrials -> Aviation and Space",
+      "launched_at": 1778823803,
+      "tags": [
+        "IoT",
+        "Space Exploration",
+        "Satellites",
+        "Aerospace",
+        "Telecommunications"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Summer 2026",
+      "status": "Active",
+      "industries": [
+        "Industrials",
+        "Aviation and Space"
+      ],
+      "regions": [
+        "Singapore",
+        "Southeast Asia"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/exosat"
+    },
+    {
       "id": 32230,
       "name": "Codag",
       "slug": "codag",
@@ -5943,7 +6076,7 @@
       "website": "https://nebusec.ai",
       "all_locations": "Vancouver, WA, USA; Remote",
       "long_description": "Nebula Security is an AI-native cybersecurity company founded by world-class hackers.\r\n\r\nNebula Security provides Mythos-level cybersecurity reviews and product security auditing, conducted by our state-of-the-art AI agent and world-class hackers themselves, covering everything from code-level vulnerabilities to architectural weak points.\r\n\r\nWe were the first team to build an nginx RCE and the first to root Android 17. Our co-founders include members of the world’s No. 1 CTF team, DEF CON winners, Black Hat speakers, and PhD in cybersecurity. We have won $400K in bug bounties by exploiting the Linux kernel and Chrome browser.\r\n\r\n“Audited by Nebula Security” is a mark of serious security credibility: a signal to customers, investors, and partners that your product has been reviewed by the world’s best hackers.",
-      "one_liner": "A security engineer in your team",
+      "one_liner": "Building Mythos for everyone",
       "team_size": 4,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -5952,11 +6085,11 @@
       "subindustry": "B2B -> Security",
       "launched_at": 1783007241,
       "tags": [
-        "Artificial Intelligence",
         "B2B",
         "Security",
         "Cybersecurity",
-        "Enterprise"
+        "Enterprise",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -6570,7 +6703,7 @@
       "former_names": [
         "tash."
       ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/d51cf4813d14454781386553da550cc204a569be.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/8fc74afee1c19a4cdde9eb90d55141af2d3baba7.png",
       "website": "https://www.tash.cards/",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "tash (www.tash.cards) is building the investment platform for sports and trading cards. We create professionally constructed portfolios of iconic, investment-grade cards, giving investors exposure to the asset class without the hassle of selecting, buying, storing, and selling individual cards.\r\n\r\nTrading card investing remains fragmented, opaque, and difficult to access. tash is building the infrastructure to make the asset class simpler, more transparent, and professionally managed. We are currently pursuing SEC qualification to launch regulated investment offerings backed by trading cards.",
@@ -9624,8 +9757,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/86b9dc2025d8d9aaca7a7d152afe3f067bb14268.png",
       "website": "https://silmaril.dev",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Silmaril is the first runtime security for AI that self-improves. It understands application context to block 2x as many threats as current SOTA defenses with 10x lower latency. Customers plug us into agentic frameworks like LangGraph with 5 lines of code. Silmaril has stopped $28M of damages for customers.",
-      "one_liner": "Runtime security for AI that self-improves",
+      "long_description": "Silmaril is the first security for agents that self-improves. It understands application context to block 2x as many threats as current SOTA defenses with 10x lower latency. Customers plug us into agentic frameworks like LangGraph with 5 lines of code. Silmaril has stopped $28M of damages for customers.",
+      "one_liner": "Security for agents that self-improves",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -9702,7 +9835,7 @@
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Clone any postgres DB regardless of size in 6s so agents can test their work",
       "one_liner": "Database sandboxes for Agents",
-      "team_size": 2,
+      "team_size": 3,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -10935,7 +11068,7 @@
       "slug": "textsidekick",
       "former_names": [],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/70f52c907fab24ab4f95aa200a11907c5bc3896f.png",
-      "website": "https://www.textsidekick.com/",
+      "website": "https://textsidekick.com/",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Sidekick is an AI assistant for frontline manufacturing workers. Sidekick lets workers text problems, photos, or voice memos in any language; it answers from the company's own documents, creates and routes the work order, and syncs with software the company already runs. Sidekick captures the tribal knowledge in veterans' heads - the know-how that usually walks out the door when they retire - into a searchable knowledge base the company owns. No app, no login, works on any phone.",
       "one_liner": "AI agent that handles frontline operations over text",
@@ -14181,14 +14314,16 @@
     },
     {
       "id": 31327,
-      "name": "Korso",
-      "slug": "korso",
-      "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/bff684184cec0196e94661d371f2a25d85fea831.png",
-      "website": "https://korsoai.com/",
-      "all_locations": "Los Angeles, CA, USA",
-      "long_description": "Check out our first product at https://www.korsoai.com/shepherd (agent collaboration tool for coding, so you never face merge conflicts or agents rewriting each other again)",
-      "one_liner": "Tooling for the next generation of software.",
+      "name": "afterfive",
+      "slug": "afterfive",
+      "former_names": [
+        "Korso"
+      ],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/3ffe4f023354ca9c8b2f9a3ebb3669cf29726f1d.png",
+      "website": "https://afterfive.club/",
+      "all_locations": "Irvine, CA, USA",
+      "long_description": "As the nature of work and society continually make it harder for the younger generation to make lasting connections, afterfive is building offline events, and eventually spaces, for irl human interaction.",
+      "one_liner": "Life starts after five.",
       "team_size": 3,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -14197,9 +14332,9 @@
       "subindustry": "B2B",
       "launched_at": 1773339255,
       "tags": [
-        "Artificial Intelligence",
         "SaaS",
-        "Market Research"
+        "Consumer",
+        "Social"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -14218,8 +14353,8 @@
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
-      "question_answers": true,
-      "url": "https://www.ycombinator.com/companies/korso"
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/afterfive"
     },
     {
       "id": 31326,
@@ -17892,7 +18027,7 @@
       "slug": "emdash",
       "former_names": [],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/65f0b89667ff290bb9620bcc2fa2d4c1e952c051.png",
-      "website": "https://emdash.ai",
+      "website": "https://emdash.com",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Agent-first development environment. Emdash enables engineering teams to develop software faster, by running multiple coding agents in parallel. We're an open-source and provider-agnostic desktop application.",
       "one_liner": "Open-source Agentic Development Environment",
@@ -21955,7 +22090,7 @@
       ],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/9318ef0555c0ad2e5ce6049908b655658d073f1f.png",
       "website": "https://www.getprescience.com/",
-      "all_locations": "Boston, MA, USA",
+      "all_locations": "San Francisco, CA, USA",
       "long_description": "Prescience is the preeminent health benefits platform for the world's most ambitious companies. We save employers 20-50% on health insurance while offering best-in-industry health benefits: www.getprescience.com\r\n\r\nAbout us:\r\nPrescience is building a new healthcare system for America. We train AI systems to: create, operate, insure, and deliver healthcare for employer health plans. Prescience Time Machine – an AlphaGo-like system – steers patients towards “Move 37 health trajectories” that deliver dramatic cost savings for employers. Rishab Jain and Aditya Jain, M.D. are serial entrepreneurs and brothers from Harvard & Harvard Medical School with backgrounds in machine learning and medicine. We believe abundant intelligence will bring an opportunity to fundamentally rebuild the $4.5T healthcare industry around proactive (prescient) health and wellness.",
       "one_liner": "Healthcare for the age of abundant intelligence.",
       "team_size": 2,
@@ -24371,15 +24506,15 @@
       "subindustry": "Healthcare -> Consumer Health and Wellness",
       "launched_at": 1759807426,
       "tags": [
+        "Artificial Intelligence",
         "Consumer Health Services",
         "Health Tech",
         "Beauty",
-        "Health & Wellness",
-        "AI"
+        "Health & Wellness"
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": false,
+      "isHiring": true,
       "nonprofit": false,
       "batch": "Fall 2025",
       "status": "Active",
@@ -25125,7 +25260,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/2a8caed7d0a490086d7e541276710ed25029450f.png",
       "website": "https://absurd.com/",
       "all_locations": "Los Angeles, CA, USA",
-      "long_description": "Absurd makes AI brand and performance ads at scale. Our last video for Kalshi (\"Election Day\") did 1M+ views, and our videos average 400K+ organic views.\r\n\r\nCompanies like Hims, Kalshi, Replit, and Brex use Absurd to create production-quality videos in 72 hours.\r\n\r\nTry it at absurd.com",
+      "long_description": "Absurd makes AI brand and performance ads at scale. Our last video for Kalshi (\"Election Day\") did 1M+ views, and our videos average 400K+ organic views.\r\n\r\nTry it at absurd.com",
       "one_liner": "The Creative OS for AI video",
       "team_size": 6,
       "highlight_black": false,
@@ -26914,7 +27049,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/b26a35750dbae152a692ea82c2b00bb8f78d4d9b.png",
       "website": "https://helonic.com",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "We help construction teams eliminate rework, delays, and drawing confusion before construction starts. We analyze PDF plans, detect clashes and inconsistencies across disciplines, and create draft RFIs so teams can resolve issues early.\r\n\r\nThis saves construction companies hundreds of hours and millions of dollars.\r\n\r\nWhat we do:\r\n- Automatically detect clashes, missing information, and drawing mismatches\r\n- Align architectural, structural, and MEP plans so everything matches across sheets\r\n- Generate draft RFIs from issues we find\r\n- Replace long page-turn meetings with instant drawing analysis\r\n- Reduce rework and prevent schedule delays before boots hit the ground\r\n\r\nWe integrate with: Procore, Autodesk, email, and the tools teams already use\r\n\r\nTeams use us to:\r\n- Save hundreds of thousands to millions of dollars per project\r\n- Catch design and coordination issues early\r\n- Reduce RFIs and prevent field fixes\r\n- Keep projects on schedule with fewer surprises\r\n\r\nContact us at founders@usearticulate.com",
+      "long_description": "We help construction teams eliminate rework, delays, and drawing confusion before construction starts. We analyze PDF plans, detect clashes and inconsistencies across disciplines, and create draft RFIs so teams can resolve issues early.\r\n\r\nThis saves construction companies hundreds of hours and millions of dollars.\r\n\r\nWhat we do:\r\n- Automatically detect clashes, missing information, and drawing mismatches\r\n- Align architectural, structural, and MEP plans so everything matches across sheets\r\n- Generate draft RFIs from issues we find\r\n- Replace long page-turn meetings with instant drawing analysis\r\n- Reduce rework and prevent schedule delays before boots hit the ground\r\n\r\nWe integrate with: Procore, Autodesk, email, and the tools teams already use\r\n\r\nTeams use us to:\r\n- Save hundreds of thousands to millions of dollars per project\r\n- Catch design and coordination issues early\r\n- Reduce RFIs and prevent field fixes\r\n- Keep projects on schedule with fewer surprises\r\n\r\nContact us at founders@helonic.com",
       "one_liner": "Automatic Construction Drawing Clash Detection ",
       "team_size": 2,
       "highlight_black": false,
@@ -26924,11 +27059,11 @@
       "subindustry": "Real Estate and Construction -> Construction",
       "launched_at": 1760131149,
       "tags": [
-        "Artificial Intelligence",
         "Construction",
         "B2B",
         "Workflow Automation",
-        "Architecture"
+        "Architecture",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -27706,8 +27841,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/3be22ea19fa3ff9792176dc916455712e0e9ecda.png",
       "website": "https://www.sembleai.com",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Semble builds custom AI agents trained on how your business actually runs and plugged into the tools your team already lives in.\r\n\r\nJonathan and Ethan met studying computer science at Stanford. Jonathan worked at Convergint, one of the world's largest building system integrators.",
-      "one_liner": "The AI operating system for the trades",
+      "long_description": "Semble is the operating system for your construction business. It's a live platform that keeps the office and the field in sync on every project and provides AI agents to run the workflows your business depends on.\r\n\r\nJonathan and Ethan met studying computer science at Stanford. Jonathan worked at Convergint, one of the world's largest building system integrators.",
+      "one_liner": "Operating system for your construction business.",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -27716,8 +27851,8 @@
       "subindustry": "B2B",
       "launched_at": 1758754473,
       "tags": [
-        "SaaS",
-        "AI"
+        "Artificial Intelligence",
+        "SaaS"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -28540,8 +28675,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/db1cb9787e09629b6ccb1639f659a5f8d0bb21b1.png",
       "website": "https://dari.dev",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "We let developers deploy AI agents as API endpoints with built-in tools, sandboxes, and durable execution.\r\n\r\nAgents maintain state, run long-lived workflows, and handle retries automatically.",
-      "one_liner": "The Production Layer for AI Agents",
+      "long_description": "We let developers run more agents while keeping your token bill low. We train custom models to determine how we can maintain performance while reducing your token bill. \r\n\r\nIntegrate into your own apps, or use our router with Claude Code, Codex, or any agent of your choice. ",
+      "one_liner": "The Routing Layer for AI Agents",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -32449,11 +32584,11 @@
         "Tarkana AI",
         "Socratix AI, Inc"
       ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/8e2ca9bf4442a297067557ded4df426f78a01f37.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/7af6f081383852b635f76937405cee3d3d50907d.png",
       "website": "https://getsocratix.ai",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Socratix builds AI coworkers for fraud and risk teams so that humans don't have to spend their days drowning in alerts and spreadsheets.\r\n\r\nToday, fraud and risk teams at fintechs and banks are overwhelmed. Analysts jump between tools, manually stitch together context, and make judgment calls under pressure, often for hundreds of alerts a week. Too much of their work is slow, repetitive, and error-prone. We're here to change that. \r\n\r\nSocratix gives fraud and risk teams AI coworkers that investigate alerts in real time, replacing manual reviews with fast, explainable decisions. Socratix agents plug into existing workflows and reason across signals just like human analysts to help teams reduce fraud losses, minimize false positives, and scale operations without scaling headcount.\r\n\r\nWe've seen this problem firsthand. At DoorDash, Riya helped save $30M+ a year by building smarter fraud detection and investigation tooling, and at Unit21, she built products for analysts that made them 3X faster. We're able to build and sell enterprise-grade software. At Cruise, Satya built scalable AI systems powering petabyte-scale data, and at LinkedIn, he built enterprise products from 0 to 1 generating $50M+ in incremental revenue. Now, the two of us are teaming up to eliminate the manual toil in fraud and risk.\r\n\r\nWe're obsessed with fraud, LLMs, real-world automation, and the messy edge cases traditional ML has trouble handling. We believe that every fraud analyst should have an AI coworker - and the future of fraud will involve combining human-level reasoning with machine-speed execution. ",
-      "one_liner": "AI coworkers for fraud and risk teams.",
+      "long_description": "Socratix builds AI coworkers for fraud and compliance teams so that humans don't have to spend their days drowning in alerts and spreadsheets.\r\n\r\nToday, fraud and risk teams at fintechs and banks are overwhelmed. Analysts jump between tools, manually stitch together context, and make judgment calls under pressure, often for hundreds of alerts a week. Too much of their work is slow, repetitive, and error-prone. We're here to change that. \r\n\r\nSocratix gives fraud and risk teams AI coworkers that investigate alerts in real time, replacing manual reviews with fast, explainable decisions. Socratix agents plug into existing workflows and reason across signals just like human analysts to help teams reduce fraud losses, minimize false positives, and scale operations without scaling headcount.\r\n\r\nWe've seen this problem firsthand. At DoorDash, Riya helped save $30M+ a year by building smarter fraud detection and investigation tooling, and at Unit21, she built products for analysts that made them 3X faster. We're able to build and sell enterprise-grade software. At Cruise, Satya built scalable AI systems powering petabyte-scale data, and at LinkedIn, he built enterprise products from 0 to 1 generating $50M+ in incremental revenue. Now, the two of us are teaming up to eliminate the manual toil in fraud and compliance.\r\n\r\nWe're obsessed with fraud, LLMs, real-world automation, and the messy edge cases traditional ML has trouble handling. We believe that every fraud analyst should have an AI coworker - and the future of fraud will involve combining human-level reasoning with machine-speed execution. ",
+      "one_liner": "AI coworkers for fraud and compliance teams.",
       "team_size": 4,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -37653,7 +37788,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": false,
+      "isHiring": true,
       "nonprofit": false,
       "batch": "Spring 2025",
       "status": "Active",
@@ -40058,8 +40193,8 @@
       "website": "https://withnixo.com/",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "​Nixo is the platform FDE teams use to unlock SaaS-level margins from services work. Connect customer conversations, engineering todos, and project delivery in one place to turn your custom work into repeatable leverage.",
-      "one_liner": "The first ops platform for forward deployed engineers",
-      "team_size": 4,
+      "one_liner": "Deployment intelligence for forward deployed engineers",
+      "team_size": 6,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -45709,7 +45844,7 @@
         "United States of America",
         "America / Canada"
       ],
-      "stage": "Growth",
+      "stage": "Early",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -48232,10 +48367,10 @@
       "tags": [],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": true,
+      "isHiring": false,
       "nonprofit": false,
       "batch": "Winter 2025",
-      "status": "Active",
+      "status": "Acquired",
       "industries": [
         "B2B",
         "Infrastructure"
@@ -61645,7 +61780,7 @@
       "name": "Promi",
       "slug": "promi",
       "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/09f637750b9552f2816bb15f6e4323e0af65bc7d.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/cd853bd5965534bc6ccb3bd2ebe20fdb00753e2c.png",
       "website": "https://www.trypromi.com/",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Promi provides product feedback in the form of customer interviews, URL walkthroughs, heatmaps, and more by creating digital twins of your existing customers. We ingest data from Posthog, Intercom, Stripe, etc. to create your personas from real product usage data. By factoring in how your customers actually interact with product features, we provide much more relevant and insightful feedback on what you are building.\r\n\r\nWe aren't trying to replace user research, but in our experiences most products don't have the time or budget to talk to real users. Getting synthetic feedback is the next best thing, and can/should be a part of launching any products.",
@@ -69812,7 +69947,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": false,
+      "isHiring": true,
       "nonprofit": false,
       "batch": "Winter 2024",
       "status": "Active",
@@ -70095,7 +70230,7 @@
       "isHiring": false,
       "nonprofit": false,
       "batch": "Winter 2024",
-      "status": "Active",
+      "status": "Acquired",
       "industries": [
         "B2B"
       ],
@@ -98401,12 +98536,12 @@
       "name": "Numeral",
       "slug": "numeral",
       "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c0f30c988fde8ec60cc14e8c5cf656b62cd6d35d.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/7a499f6b96256283dc99bacb914267102619b349.png",
       "website": "https://www.numeral.com/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Numeral is the fastest, easiest way to stay compliant with US sales tax and global VAT. \r\n\r\nTrusted by 3,000+ businesses, including Eight Sleep, Ridge, and Manus, our end-to-end platform keeps our customers compliant wherever they sell, with registrations, filings, calculations, and ongoing compliance support.\r\n\r\nNumeral’s AI-native solution covers more than 70 countries and tens of thousands of jurisdictions and is built for accuracy and scale.",
+      "long_description": "Numeral is the trusted solution for U.S. sales tax, VAT, and GST compliance, used by 3,000+ global businesses, including Eight Sleep, Supabase, and Brex.\r\n\r\nOur end-to-end platform keeps our customers compliant wherever they sell, with registrations, filings, calculations, and ongoing compliance support.\r\n\r\nNumeral’s AI-native solution covers more than 70 countries and tens of thousands of jurisdictions and is built for accuracy and scale.",
       "one_liner": "The AI-native sales tax solution.",
-      "team_size": 100,
+      "team_size": 110,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -98436,7 +98571,7 @@
         "Remote",
         "Partly Remote"
       ],
-      "stage": "Growth",
+      "stage": "Early",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -104715,11 +104850,11 @@
         "Hostfi",
         "Accountable"
       ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/14b168ed501ea557559382e4424055d43c1f293a.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/98f68049bfdd41edf9f9b38ee72e792b28ec89a9.png",
       "website": "https://atlaswork.ai",
-      "all_locations": "New York City, NY, USA; Remote",
-      "long_description": "Send any document. Atlas detects fields, pre-fills data, and returns a signable link in one API call. No templates, no manual setup. ",
-      "one_liner": "E-Sign API for AI Agents",
+      "all_locations": "New York City, NY, USA",
+      "long_description": "Atlas is an AI contract agent. It fills your agreement template, gets every signature, then runs next actions: files the signed copy to your CRM, pings your team, and watches the renewal. \r\n\r\nTeams use Atlas from chat (Claude, ChatGPT, Cursor), from the dashboard, or through our API and MCP.",
+      "one_liner": "AI contract agent: Fill a template, get signed, and run next actions.",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -104728,7 +104863,8 @@
       "subindustry": "B2B",
       "launched_at": 1659966857,
       "tags": [
-        "Artificial Intelligence"
+        "B2B",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -104741,9 +104877,7 @@
       ],
       "regions": [
         "United States of America",
-        "America / Canada",
-        "Remote",
-        "Fully Remote"
+        "America / Canada"
       ],
       "stage": "Early",
       "app_video_public": false,
@@ -127469,7 +127603,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": false,
+      "isHiring": true,
       "nonprofit": false,
       "batch": "Winter 2022",
       "status": "Active",
@@ -168595,17 +168729,18 @@
     },
     {
       "id": 21969,
-      "name": "Nextera Robotics",
-      "slug": "nextera-robotics",
+      "name": "Nextera Robotics | DIDGE.ai",
+      "slug": "nextera-robotics-didgeai",
       "former_names": [
         "RCML",
         "NeXtera Robotics",
-        "NextEra Robotics"
+        "NextEra Robotics",
+        "Nextera Robotics"
       ],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/98038d3f6de4865c9f869822e2af32391f49256e.png",
       "website": "https://nexterarobotics.com",
       "all_locations": "Boston, MA, USA",
-      "long_description": "Nextera Robotics is an AI-native Robotics and Industrial Automation company founded at MIT.",
+      "long_description": "AI-native Robotics and Industrial Automation.",
       "one_liner": "AI-native Robotics",
       "team_size": 20,
       "highlight_black": false,
@@ -168615,15 +168750,15 @@
       "subindustry": "Industrials -> Manufacturing and Robotics",
       "launched_at": 1599762606,
       "tags": [
-        "Artificial Intelligence",
         "Autonomous Delivery",
         "Deep Learning",
         "Robotics",
-        "Construction"
+        "Construction",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": true,
+      "isHiring": false,
       "nonprofit": false,
       "batch": "Summer 2020",
       "status": "Active",
@@ -168640,7 +168775,7 @@
       "demo_day_video_public": false,
       "app_answers": null,
       "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/nextera-robotics"
+      "url": "https://www.ycombinator.com/companies/nextera-robotics-didgeai"
     },
     {
       "id": 21963,
@@ -205933,7 +206068,7 @@
       "isHiring": false,
       "nonprofit": false,
       "batch": "Summer 2018",
-      "status": "Active",
+      "status": "Inactive",
       "industries": [
         "B2B",
         "Engineering, Product and Design"
@@ -206397,13 +206532,15 @@
     },
     {
       "id": 1891,
-      "name": "Klarity",
-      "slug": "klarity",
-      "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/5d4790f2b102f3fd696a88213e44f23e7083929b.png",
-      "website": "http://klarity.ai",
+      "name": "Within",
+      "slug": "within",
+      "former_names": [
+        "Klarity"
+      ],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/2042332b2acb87efa7d99dd0d67b29d1b1a0c882.png",
+      "website": "http://within.ai",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Klarity is a Company Brain used by OpenAI, DoorDash, ServiceNow, Salesforce, JLL, McKesson for AI Transformation. Our product maps  how work actually gets done, structure it, and reallocate it between people and agents.\r\n\r\nDiscover: Employees log into our web app — nothing to install — share their screen, and work as usual. Klarity maps and anonymizes every task while sending Signals back to highlight what they do well.\r\n\r\nStructure: Klarity agents consolidate activity across the enterprise into a Company Brain: how work gets done, how decisions are made, how approvals flow, how controls are enforced, when work actually happens.\r\n\r\nImprove: Against your business objectives, Klarity finds the right opportunities for agents, builds those agents, and redesigns the people, process, and rituals around them.\r\n",
+      "long_description": "Within (formerly Klarity) is a Company Brain used by OpenAI, DoorDash, ServiceNow, Salesforce, JLL, McKesson for AI Transformation. Our product maps  how work actually gets done, structure it, and reallocate it between people and agents.\r\n\r\nDiscover: Employees log into our web app — nothing to install — share their screen, and work as usual. Within maps and anonymizes every task while sending Signals back to highlight what they do well.\r\n\r\nStructure: Within agents consolidate activity across the enterprise into a Company Brain: how work gets done, how decisions are made, how approvals flow, how controls are enforced, when work actually happens.\r\n\r\nImprove: Against your business objectives, Within finds the right opportunities for agents, builds those agents, and redesigns the people, process, and rituals around them.\r\n",
       "one_liner": "Company Brain for people and agents to work in harmony. ",
       "team_size": 128,
       "highlight_black": false,
@@ -206432,12 +206569,12 @@
         "Remote",
         "Partly Remote"
       ],
-      "stage": "Growth",
+      "stage": "Early",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
       "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/klarity"
+      "url": "https://www.ycombinator.com/companies/within"
     },
     {
       "id": 1890,
@@ -235922,7 +236059,7 @@
         "Remote",
         "Partly Remote"
       ],
-      "stage": "Growth",
+      "stage": "Early",
       "app_video_public": false,
       "demo_day_video_public": true,
       "app_answers": null,

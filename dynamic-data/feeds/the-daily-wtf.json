@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-08-05T14:07:43.811Z",
+  "updatedAt": "2026-08-06T23:52:21.865Z",
   "items": [
     {
       "guid": "https://thedailywtf.com/articles/classic-wtf-my-many-girlfriends",
@@ -151,7 +151,15 @@
       "summary": "Frederick A sends us a bit of null checking code, and offers us a better solution.\nclass ConferenceService\n{\n\t/// <summary>\n\t/// Checks if conference is active\n\t/// </summary>\n\tpublic bool IsCalling()\n\t{\n\t\ttry\n\t\t{\n\t\t\treturn m_ConnectionService.Core.State.IsWebRTCConnected;\n\t\t}\n\t\tcatch\n\t\t{\n\t\t\treturn…",
       "author": "Remy Porter",
       "publishedAt": "2026-08-05T06:30:00.000Z"
+    },
+    {
+      "guid": "https://thedailywtf.com/articles/a-more-civilized-age",
+      "title": "A More Civilized Age",
+      "link": "https://thedailywtf.com/articles/a-more-civilized-age",
+      "summary": "Greta (previously) sends us more updates from her \"Ancient Development Environment\".\nAn important task an IDE must do is report build errors to its users. Arguably, that's one of the most important parts. I wouldn't know, I insist on building from the CLI all the time, because IDEs confuse and…",
+      "author": "Remy Porter",
+      "publishedAt": "2026-08-06T06:30:00.000Z"
     }
   ],
-  "totalIndexed": 18
+  "totalIndexed": 19
 }

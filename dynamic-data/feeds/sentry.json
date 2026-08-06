@@ -8,7 +8,7 @@
     "debugging",
     "performance"
   ],
-  "updatedAt": "2026-08-05T19:18:40.802Z",
+  "updatedAt": "2026-08-06T23:52:10.713Z",
   "items": [
     {
       "guid": "https://blog.sentry.io/godot-dotnet-ga/",
@@ -273,7 +273,15 @@
       "summary": "The OtlpIntegration bridges OTel traces and Sentry errors. Keep your OTel setup, add Sentry for errors, and see both in one trace waterfall.",
       "author": null,
       "publishedAt": "2026-08-05T09:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.sentry.io/automated-debugging-workflow-sentry/",
+      "title": "How we built an automated debugging workflow at Sentry",
+      "link": "https://blog.sentry.io/automated-debugging-workflow-sentry/",
+      "summary": "How Sentry uses Seer autofix and Claude routines to build an automated debugging workflow that detects, fixes, and routes code issues automatically.",
+      "author": null,
+      "publishedAt": "2026-08-06T09:00:00.000Z"
     }
   ],
-  "totalIndexed": 33
+  "totalIndexed": 34
 }

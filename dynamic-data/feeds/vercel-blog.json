@@ -9,7 +9,7 @@
     "edge-computing",
     "nextjs"
   ],
-  "updatedAt": "2026-08-06T08:46:02.068Z",
+  "updatedAt": "2026-08-06T23:52:20.980Z",
   "items": [
     {
       "guid": "vercel-blog::https://vercel.com/changelog/ai-gateway-now-supports-streaming-transcription",
@@ -4210,7 +4210,39 @@
       "summary": "Buying a domain on Vercel now takes you to a setup page that tracks registration live, with direct paths to deploy a new project, connect an existing one, proxy or redirect a site you already run, or set up email.\nRegistration can take a few minutes. Each setup action unlocks as soon as the domain…",
       "author": "Can Temizyurek",
       "publishedAt": "2026-08-05T17:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/blog/introducing-agent-plugins",
+      "title": "Introducing Agent Plugins",
+      "link": "https://vercel.com/blog/introducing-agent-plugins",
+      "summary": "Today, Agent Plugins 1.0.0 is publicly available.  is an open, vendor-neutral standard for plugins that extend AI agents. Agent Plugins\n provide reusable instructions and resources for AI agents.  connect agents to tools and services. Both can be reused across clients, but clients often package and…",
+      "author": "Jonathan Hefner",
+      "publishedAt": "2026-08-06T00:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/vercel-marketplace-agent-skills",
+      "title": "Marketplace integrations now install provider skills",
+      "link": "https://vercel.com/changelog/vercel-marketplace-agent-skills",
+      "summary": "When you install a  integration from the Vercel CLI, it now also installs that provider's agent skills from , so your agents know how to use it: Vercel Marketplaceskills.sh\nThis happens automatically for any provider that publishes skills.\nYou can also find integrations without leaving the…",
+      "author": "Jathin Singaraju",
+      "publishedAt": "2026-08-06T00:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/ling-3-0-tiny-is-now-available-on-ai-gateway",
+      "title": "Ling 3.0 Tiny is now available on AI Gateway",
+      "link": "https://vercel.com/changelog/ling-3-0-tiny-is-now-available-on-ai-gateway",
+      "summary": "from ANT Group is now on AI Gateway, free to use till 8:00am PT on 8/14. Ling 3.0 Tiny takes the free slot from .Ling 3.0 TinyLing 3.0 Flash\nLing 3.0 Tiny is a MOE model with 7.9B total parameters and about 1.3B active per token, a 256K token context window, and up to 32K output tokens. The model…",
+      "author": "Jerilyn Zheng",
+      "publishedAt": "2026-08-06T00:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/introducing-agent-plugins-1-0-0",
+      "title": "Introducing Agent Plugins 1.0.0",
+      "link": "https://vercel.com/changelog/introducing-agent-plugins-1-0-0",
+      "summary": "Agent Plugins 1.0.0 is now available. It is an open, vendor-neutral standard for packaging Agent Skills and MCP servers into portable plugins. Compatible agent clients can discover and load them.\nAgent Plugins defines a common format: a root  manifest, plus fixed locations for portable components.…",
+      "author": "Jonathan Hefner",
+      "publishedAt": "2026-08-06T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 525
+  "totalIndexed": 529
 }

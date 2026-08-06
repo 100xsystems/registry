@@ -8,7 +8,7 @@
     "caching",
     "performance"
   ],
-  "updatedAt": "2026-07-28T06:53:01.633Z",
+  "updatedAt": "2026-08-06T23:52:20.573Z",
   "items": [
     {
       "guid": "https://redis.io/blog/context-assembly-building-the-prompt-the-model-sees/",
@@ -417,7 +417,15 @@
       "summary": "Last week, researchers posted on X that they had used the Kimi K3 AI model to identify vulnerabilities in Redis, including a claim involving 19 zero day vulnerabilities.\n\nWe became aware of this research through the public posts and immediately review...",
       "author": "Curtis Means",
       "publishedAt": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "guid": "https://redis.io/blog/how-redis-brings-persistent-memory-to-snowflake-cortex-agents/",
+      "title": "How Redis brings persistent memory to Snowflake Cortex Agents",
+      "link": "https://redis.io/blog/how-redis-brings-persistent-memory-to-snowflake-cortex-agents/",
+      "summary": "AI agents can reason and act, but without memory, every interaction starts from zero. Intelligent short-term memory and persistent context across conversations are what turns a capable model into a truly useful agent. It should remember the useful det...",
+      "author": "Mike  Moss ",
+      "publishedAt": "2026-08-06T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 51
+  "totalIndexed": 52
 }

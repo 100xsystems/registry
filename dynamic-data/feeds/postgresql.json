@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-08-06T14:07:07.925Z",
+  "updatedAt": "2026-08-06T23:52:10.757Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -585,7 +585,31 @@
       "summary": "CloudNativePG lets the ClusterImageCatalog carry extension images\nalongside the operand, a capability every currently supported release\nalready has, so a Cluster manifest only needs to name an extension and\nnothing else. This recipe deploys the community’s\nextension catalog and shows the operator…",
       "author": null,
       "publishedAt": "2026-08-06T11:48:58.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9rC",
+      "title": "Pavel Stehule: initial integration lua language to psql",
+      "link": "https://postgr.es/p/9rC",
+      "summary": "It can looks like\n\n\n(2026-08-06 17:44:32) postgres=# \\luacode \nEnter code to be copied followed by a newline.\nEnd with a backslash and a period on a line by itself, or an EOF signal.\n>> function x(n)\n>>   return n + 10\n>> end\n>> \\.\n(2026-08-06 17:45:32) postgres=# \\luacode\nEnter code to be copied…",
+      "author": null,
+      "publishedAt": "2026-08-06T15:48:38.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9rD",
+      "title": "Antony Pegg: Postgres for Agentic AI: Your Database Is a Compute Layer, Not a Parking Lot",
+      "link": "https://postgr.es/p/9rD",
+      "summary": "PostgreSQL is already the default database for agentic AI. That question is settled. But the more agentic your workloads get, the more your database needs to do. Models and workflows flood it with signals, state, memory, and checkpoints, and most teams just absorb the flood, treating PostgreSQL…",
+      "author": null,
+      "publishedAt": "2026-08-06T12:20:29.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9rE",
+      "title": "Mayur B.: EXPLAIN ANALYZE the PGConf.EU CFP",
+      "link": "https://postgr.es/p/9rE",
+      "summary": "What I learned after moving from conference volunteer duty to the other side of the Call for Papers.\nDisclosure: This is my personal account of the experience, based on the publicly documented PostgreSQL Europe selection process and aggregate statistical analysis. I am intentionally not discussing…",
+      "author": null,
+      "publishedAt": "2026-08-06T07:20:51.000Z"
     }
   ],
-  "totalIndexed": 72
+  "totalIndexed": 75
 }

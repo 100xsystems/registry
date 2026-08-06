@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-08-05T02:29:21.944Z",
+  "updatedAt": "2026-08-06T23:52:11.149Z",
   "items": [
     {
       "guid": "https://devblogs.microsoft.com/dotnet/?p=60442",
@@ -127,7 +127,15 @@
       "summary": "Build a live speech-to-text app in C# with Foundry Local, a compact Nemotron model, and local model lifecycle management.\nThe post Beyond Chat: live Speech-to-Text with Foundry Local and C# appeared first on .NET Blog.",
       "author": "Bruno Capuano",
       "publishedAt": "2026-08-04T21:00:00.000Z"
+    },
+    {
+      "guid": "https://devblogs.microsoft.com/dotnet/?p=60537",
+      "title": "Test reporting in Microsoft.Testing.Platform: from red build to root cause",
+      "link": "https://devblogs.microsoft.com/dotnet/microsoft-testing-platform-reporting/",
+      "summary": "Microsoft.Testing.Platform brings failures into GitHub Actions and Azure DevOps, uses pipeline history to separate regressions from flakes, and preserves usable reports when a test host crashes.\nThe post Test reporting in Microsoft.Testing.Platform: from red build to root cause appeared first on…",
+      "author": "Amaury Levé",
+      "publishedAt": "2026-08-06T17:05:00.000Z"
     }
   ],
-  "totalIndexed": 15
+  "totalIndexed": 16
 }
