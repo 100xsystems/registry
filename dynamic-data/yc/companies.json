@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-06T02:32:11.912Z",
+  "fetchedAt": "2026-08-06T08:46:16.907Z",
   "count": 6124,
   "companies": [
     {
@@ -52,7 +52,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/db2b316be3ecf24cfbcfc09074b3e2b8a1f3bb05.png",
       "website": "https://qokedas.com/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Most of what happens on Earth is never written down. It passes through instruments as signal and disappears. Qokedas turns that signal into training data, so labs can build models that read the physical world and operate the machines that measure it",
+      "long_description": "Most of what happens on Earth is never written down. It passes through instruments as signal and disappears. Qokedas turns that signal into training data in the form of RL Environments, so labs can build models that read the physical world and operate the machines that measure it",
       "one_liner": "Teaching models to decode the physical world",
       "team_size": 3,
       "highlight_black": false,
@@ -62,8 +62,8 @@
       "subindustry": "B2B",
       "launched_at": 1785795073,
       "tags": [
-        "Artificial Intelligence",
-        "Deep Learning"
+        "Deep Learning",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -1678,9 +1678,11 @@
     },
     {
       "id": 33055,
-      "name": "chromie.dev",
-      "slug": "chromiedev",
-      "former_names": [],
+      "name": "Chromie",
+      "slug": "chromie",
+      "former_names": [
+        "chromie.dev"
+      ],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/5a2ef01980100f9fd5b3d0aa3fa9559b4b8ae93e.png",
       "website": "https://chromie.dev",
       "all_locations": "San Francisco, CA, USA",
@@ -1715,7 +1717,7 @@
       "demo_day_video_public": false,
       "app_answers": null,
       "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/chromiedev"
+      "url": "https://www.ycombinator.com/companies/chromie"
     },
     {
       "id": 33054,
@@ -4582,8 +4584,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/fac4fb7e32c7424e6eea88690415f386be2f5832.png",
       "website": "https://touchmark.ai",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "",
-      "one_liner": "Solving AI pricing",
+      "long_description": "Buy tokens over a time window from the provider of your choice at a price fixed today - 10-30% off the on-demand price. If your plans change - resell your reserved capacity to another buyer.",
+      "one_liner": "Market for future inference capacity",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -6080,7 +6082,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c87fe6e15005349864c9553a731d786c39f38f18.png",
       "website": "https://belvedir.ai/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Private AI models will win. Belvedir is the infrastructure needed to make billions of them.\r\n\r\nBelvedir is making it cheap and easy for anyone to make private AI. We autonomously train custom models + harnesses + routers, privately host them, and recursively improve them as they are used. ",
+      "long_description": "Private AI models are going to win. Belvedir is the all in one platform making it cheap and easy to make billions of them.\r\n\r\nBelvedir is making it cheap and easy for anyone to make private AI. We autonomously train custom models + harnesses + routers, privately host them, and recursively improve them as they are used. ",
       "one_liner": "The easiest way to make private AI models.",
       "team_size": 2,
       "highlight_black": false,
@@ -6540,6 +6542,7 @@
       "subindustry": "Consumer",
       "launched_at": 1785522137,
       "tags": [
+        "Consumer",
         "Investing"
       ],
       "tags_highlighted": [],
@@ -24097,12 +24100,12 @@
       "name": "Amera",
       "slug": "amera",
       "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/d7bb0bb02c318b2ce1debb47ea96eaba0ea5c5b3.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/07c1dd923ce928d5a06d772f09a234366daa3513.png",
       "website": "https://amerahealthsolutions.com/",
-      "all_locations": "",
+      "all_locations": "New York City, NY, USA",
       "long_description": "Amera automates claims processing for health insurance payers. We turn messy claim inputs (PDFs, bills, receipts, EDI and non-standard submissions) into structured data that plugs into existing systems. This cuts manual entry and exception handling, speeding up operations and reducing cost.\r\n\r\nWe are already working with payers / plan administrators representing ~100k members, giving them access to more affordable care options.",
       "one_liner": "Automating claims processing workflows for health insurance payers.",
-      "team_size": 8,
+      "team_size": 12,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -24121,6 +24124,8 @@
         "Insurance"
       ],
       "regions": [
+        "United States of America",
+        "America / Canada",
         "Remote",
         "Partly Remote"
       ],
@@ -33755,14 +33760,14 @@
       "subindustry": "B2B -> Engineering, Product and Design",
       "launched_at": 1752258104,
       "tags": [
+        "Artificial Intelligence",
         "Developer Tools",
         "Hardware",
-        "B2B",
-        "AI"
+        "B2B"
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": false,
+      "isHiring": true,
       "nonprofit": false,
       "batch": "Summer 2025",
       "status": "Active",
@@ -47626,7 +47631,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": true,
+      "isHiring": false,
       "nonprofit": false,
       "batch": "Winter 2025",
       "status": "Active",
@@ -52168,7 +52173,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/374e6b2cd282f5fe31c64fcc82aaebb3105153c9.png",
       "website": "https://innate.bot",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "We make personal AI robots - general-purpose physical machines that anyone can program with code, language and demonstrations.\r\n\r\nWe believe building open platforms like the first PCs this is the only way to bring the robotics future that we all want, where everyone can participate in the robotics revolution.",
+      "long_description": "We make personal AI robots - general-purpose physical machines that anyone can teach with code, language and demonstrations.\r\n\r\nWe believe building open platforms like the first PCs this is the only way to bring the robotics future that we all want, where everyone can participate in the robotics revolution.",
       "one_liner": "Personal AI Robots",
       "team_size": 7,
       "highlight_black": false,
@@ -52178,10 +52183,10 @@
       "subindustry": "Consumer -> Consumer Electronics",
       "launched_at": 1730365227,
       "tags": [
+        "Artificial Intelligence",
         "Developer Tools",
         "Hard Tech",
-        "Robotics",
-        "AI"
+        "Robotics"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -88738,8 +88743,8 @@
       ],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/34f2cd4e65f065f81d234d6cfb21f911860e50cc.png",
       "website": "https://www.litellm.ai/",
-      "all_locations": "Albany, NY, USA",
-      "long_description": "LiteLLM is an open-source LLM Gateway with 18K+ stars on GitHub and trusted by companies like Rocket Money, Samsara, Lemonade, and Adobe. LiteLLM provides an open source Python SDK and Python FastAPI Server that allows calling 100+ LLM APIs (Bedrock, Azure, OpenAI, VertexAI, Cohere, Anthropic) in the OpenAI format\r\n\r\nWe have raised a $1.6M seed round from Y Combinator, Gravity Fund and Pioneer Fund",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "LiteLLM is an open-source LLM Gateway with 50K+ stars on GitHub and trusted by companies like Rocket Money, Samsara, Lemonade, and Adobe. LiteLLM provides an open source Python SDK and Python FastAPI Server that allows calling 100+ LLM APIs (Bedrock, Azure, OpenAI, VertexAI, Cohere, Anthropic) in the OpenAI format\r\n\r\nWe have raised a $1.6M seed round from Y Combinator, Gravity Fund and Pioneer Fund",
       "one_liner": "Call every LLM API like it's OpenAI [100+ LLMs]",
       "team_size": 10,
       "highlight_black": false,
@@ -88750,10 +88755,10 @@
       "launched_at": 1675814900,
       "tags": [
         "AIOps",
+        "Artificial Intelligence",
         "Developer Tools",
         "Generative AI",
-        "Open Source",
-        "AI"
+        "Open Source"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -121027,8 +121032,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/36bc77538c7b2b901965b5e1ff49fe05b84cc1f1.png",
       "website": "https://velt.dev",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Add features like contextual Comments, Notifications, Recordings, Multiplayer editing, Huddles, Activity Logs to your product.",
-      "one_liner": "The Complete Collaboration Toolkit",
+      "long_description": "For most of software's history the hard part was making things. Writing the code, drafting the document, putting the report together. That is the part that is getting cheap. An agent can now produce in an afternoon what used to take a team a month.\r\n\r\nWhat doesn't get cheaper is verifying it. Someone still has to look at what the machine did, decide whether it's right, and answer for that decision later. Output goes up, review capacity doesn't, and that is where the work now piles up.\r\n\r\nVelt is the infrastructure for that step, and it treats agents and people as the same kind of reviewer. A review agent takes the first pass and catches what a machine can catch. A person makes the call on what actually matters. Both work on the same object, in the same thread, under the same rules. Only after approval is the change applied, through your own webhook, and every decision is recorded, so you can always show who allowed what and when.\r\n\r\nTeams build this themselves and it takes about two quarters. Comments, approvals, review agents, notifications, audit trails: the boring parts nobody thinks about until they're three months in. With Velt it's a few components you drop into a React, Next, Vue, or Angular app.",
+      "one_liner": "SDK for adding an agent and human governance layer to your product",
       "team_size": 15,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -121037,11 +121042,11 @@
       "subindustry": "B2B -> Productivity",
       "launched_at": 1646206414,
       "tags": [
-        "Artificial Intelligence",
         "Developer Tools",
         "SaaS",
         "Collaboration",
-        "Compliance"
+        "Compliance",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -141242,7 +141247,7 @@
         "Remote",
         "Fully Remote"
       ],
-      "stage": "Growth",
+      "stage": "Early",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -142392,6 +142397,7 @@
       "tags": [
         "AI-Enhanced Learning",
         "Medical Devices",
+        "Digital Health",
         "Therapeutics"
       ],
       "tags_highlighted": [],
