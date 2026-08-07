@@ -9,7 +9,7 @@
     "performance",
     "edge-computing"
   ],
-  "updatedAt": "2026-08-06T14:07:07.608Z",
+  "updatedAt": "2026-08-07T18:43:09.219Z",
   "items": [
     {
       "guid": "01KY2432VQPD5FTF2RARXXYQGH",
@@ -61474,7 +61474,39 @@
       "summary": "Today we're launching a developer preview of WebMCP on Cloudflare. With one switch, any site becomes usable by browser AI agents — no new APIs, no origin changes — while the human stays in control and creators keep their traffic.",
       "author": "Will Rowe",
       "publishedAt": "2026-08-06T13:00:00.000Z"
+    },
+    {
+      "guid": "01KZCHBWNB93JTTPTBKQZF0SG9",
+      "title": "Unveiling good and bad behaviors on the Agentic Internet",
+      "link": "https://blog.cloudflare.com/good-and-bad-agentic-behaviors/",
+      "summary": "Cloudflare is shifting bot mitigation from point-in-time Risk assessment to continuous Trust evaluation. Learn how new good and bad behaviors from bots and agents are assessed by our systems, including BotBase and Precursor — and try out our Precursor Trace simulation to see how your own cursor…",
+      "author": "Jin-Hee Lee",
+      "publishedAt": "2026-08-07T13:01:00.000Z"
+    },
+    {
+      "guid": "01KZCGVT7YXBW6BH8Y05159WAR",
+      "title": "Introducing Radar Researcher: An AI tool for exploring Internet data in plain language",
+      "link": "https://blog.cloudflare.com/introducing-radar-researcher/",
+      "summary": "Cloudflare Radar Researcher is a new AI-powered tool that lets you explore global Internet trends and traffic data using plain language. Built entirely on Cloudflare's Developer Platform, it turns natural language queries into real, interactive charts.",
+      "author": "Lai Yi Ohlsen",
+      "publishedAt": "2026-08-07T13:00:00.000Z"
+    },
+    {
+      "guid": "01KZCB7QVKW1EKYJAYCVTDKH4K",
+      "title": "Announcing Cloudflare Ambassadors, Community Engineers, and another $1M in open-source funding",
+      "link": "https://blog.cloudflare.com/community-program-refresh/",
+      "summary": "We are launching updated community programs, including Cloudflare Ambassadors and Community Engineers, backed by $1M in open-source funding. Learn how we are supporting maintainers and scaling our developer community.",
+      "author": "Kristian Freeman",
+      "publishedAt": "2026-08-07T13:00:00.000Z"
+    },
+    {
+      "guid": "01KZA4HFQTZ276N6FJQ3CS9ACG",
+      "title": "Unifying Workers AI and AI Gateway into a single AI control plane",
+      "link": "https://blog.cloudflare.com/workers-ai-gateway-unification/",
+      "summary": "Cloudflare is unifying AI Gateway and Workers AI into a single control plane, giving developers observability, billing, and dynamic routing across both managed GPUs and external providers. Learn how unified bindings and model-first routing simplify building resilient AI applications.",
+      "author": "Michelle Chen",
+      "publishedAt": "2026-08-07T13:00:00.000Z"
     }
   ],
-  "totalIndexed": 7683
+  "totalIndexed": 7687
 }

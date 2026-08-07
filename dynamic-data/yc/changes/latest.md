@@ -1,43 +1,65 @@
 # YC Company Changes for 2026-08-07
 
-- Previous total: 6130
-- Current total: 6131
+- Previous total: 6131
+- Current total: 6132
 - Added: 1
 - Removed: 0
-- Updated: 7
+- Updated: 11
 
 
 ## Added Companies
 
-- [Audun](https://www.ycombinator.com/companies/audun) (Summer 2026) — AI-native debt collection
+- [Hebbian Robotics](https://www.ycombinator.com/companies/hebbian-robotics) (Summer 2026) — APIs for searching and analyzing Physical AI data at scale
 
 ## Updated Companies
 
-### [Plate IQ](https://www.ycombinator.com/companies/plate-iq)
+### [Zerocater](https://www.ycombinator.com/companies/zerocater)
 
-- `stage`: Early → Growth
+- `all_locations`: San Francisco, CA, USA → Chicago, IL, USA
 
-### [Within](https://www.ycombinator.com/companies/within)
+### [SmartAsset](https://www.ycombinator.com/companies/smartasset)
 
-- `stage`: Early → Growth
+- `all_locations`: New York City, NY, USA; New York, NY, USA; Remote → New York City, NY, USA; Remote
+- `isHiring`: true → false
+- `stage`: Growth → Early
 
-### [Legionfarm](https://www.ycombinator.com/companies/legionfarm)
+### [Uberduck](https://www.ycombinator.com/companies/uberduck)
 
-- `website`: https://legionfarm.com/ → https://lfcarry.com/
-- `tags`: Gaming,AI,AI Assistant → Artificial Intelligence,Gaming,AI Assistant
+- `status`: Active → Inactive
 
-### [Numeral](https://www.ycombinator.com/companies/numeral)
+### [Pirros](https://www.ycombinator.com/companies/pirros)
 
-- `stage`: Early → Growth
+- `one_liner`: Github for Construction → AI Platform for Architects and Engineers
 
-### [Fortuna Health](https://www.ycombinator.com/companies/fortuna-health)
+### [Perspectives Health](https://www.ycombinator.com/companies/perspectives-health)
 
-- `stage`: Early → Growth
+- `one_liner`: Automating away admin for behavioral health clinics → AI to run behavioral health programs better
 
-### [AfterQuery](https://www.ycombinator.com/companies/afterquery)
+### [Discovered Materials](https://www.ycombinator.com/companies/discovered-materials)
 
-- `stage`: Early → Growth
+- `isHiring`: false → true
 
-### [Belvedir](https://www.ycombinator.com/companies/belvedir)
+### [Keyframe Labs](https://www.ycombinator.com/companies/keyframe-labs)
 
-- `team_size`: 2 → 1
+- `one_liner`: Turn agents into lifelike video calls with the word's best AI avatars → Bring AI to life with the world's best interactive avatars
+- `tags`:  → Artificial Intelligence,Developer Tools,SaaS,B2B,API
+
+### [CentralComs](https://www.ycombinator.com/companies/centralcoms)
+
+- `subindustry`: Real Estate and Construction -> Housing and Real Estate → Real Estate and Construction
+- `tags`:  → Home Services
+- `industries`: Real Estate and Construction,Housing and Real Estate → Real Estate and Construction
+
+### [Audun](https://www.ycombinator.com/companies/audun)
+
+- `launched_at`: 1778790479 → 1786093910
+
+### [screenpipe](https://www.ycombinator.com/companies/screenpipe)
+
+- `team_size`: 6 → 2
+
+### [Almanac](https://www.ycombinator.com/companies/almanac)
+
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/12b18390ac9aff0968a7a1c2e09e151efc7a0913.png → https://bookface-images.s3.amazonaws.com/small_logos/04034530613a233afe0d28a52bcfd6e9943b7ea7.png
+- `website`: https://codealmanac.com → https://usealmanac.com
+- `one_liner`: Self updating wiki for your coding agents → The AI that knows your company
