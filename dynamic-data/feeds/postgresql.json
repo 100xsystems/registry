@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-08-07T02:38:50.851Z",
+  "updatedAt": "2026-08-07T13:01:19.607Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -617,7 +617,31 @@
       "summary": "When a standby refuses to replay WAL that references pages that don't exist, `ignore_invalid_pages` converts the PANIC into a WARNING—but only as a last resort…",
       "author": null,
       "publishedAt": "2026-08-07T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9rN",
+      "title": "Shaun Thomas: Looking Forward to Postgres 19: Syntax Potpourri",
+      "link": "https://postgr.es/p/9rN",
+      "summary": "Before diving into this final post covering new Postgres 19 features, I just want to say it's been a wild ride. Postgres 19 has been a veritable treasure trove of enhancements, perhaps more than any previous release; or maybe that's just my perception. Usually I just skim through the release notes…",
+      "author": null,
+      "publishedAt": "2026-08-07T10:41:27.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9rM",
+      "title": "Cornelia Biacsics: Contributions for week 29 & 30",
+      "link": "https://postgr.es/p/9rM",
+      "summary": "The Talk Selection Committee of PGConf.EU 2026 met to finalize the conference schedule: \nSamed Yildirim (Non-Voting Chair)\nFloor Drees\nGülçin Yıldırım Jelinek\nJan Wieremjewicz\nMayuresh Bagayatkar\nAndrei Lepikhov\nJan Karremans\nPriyanka Chatterjee\nStefanie Janine Stölting\nOn 22 July 2026, the…",
+      "author": null,
+      "publishedAt": "2026-08-07T09:09:51.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9rL",
+      "title": "Andrei Mironov: PostgreSQL Row-Level Security for AI Agents: A Testable Setup",
+      "link": "https://postgr.es/p/9rL",
+      "summary": "Build and verify PostgreSQL row-level security for AI agents with non-owner roles, FORCE RLS, explicit policies, controlled writes, and denial tests.",
+      "author": null,
+      "publishedAt": "2026-08-07T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 76
+  "totalIndexed": 79
 }
