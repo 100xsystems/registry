@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-08-06T23:52:10.757Z",
+  "updatedAt": "2026-08-07T02:38:50.851Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -609,7 +609,15 @@
       "summary": "What I learned after moving from conference volunteer duty to the other side of the Call for Papers.\nDisclosure: This is my personal account of the experience, based on the publicly documented PostgreSQL Europe selection process and aggregate statistical analysis. I am intentionally not discussing…",
       "author": null,
       "publishedAt": "2026-08-06T07:20:51.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9rF",
+      "title": "Christophe Pettus: All Your GUCs in a Row: ignore_invalid_pages",
+      "link": "https://postgr.es/p/9rF",
+      "summary": "When a standby refuses to replay WAL that references pages that don't exist, `ignore_invalid_pages` converts the PANIC into a WARNING—but only as a last resort…",
+      "author": null,
+      "publishedAt": "2026-08-07T01:00:00.000Z"
     }
   ],
-  "totalIndexed": 75
+  "totalIndexed": 76
 }
