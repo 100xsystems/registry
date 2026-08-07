@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-08-07T02:39:12.828Z",
-  "count": 6129,
+  "fetchedAt": "2026-08-07T07:24:24.613Z",
+  "count": 6130,
   "companies": [
     {
       "id": 35094,
@@ -2170,7 +2170,7 @@
       "highlight_women": false,
       "industry": "Healthcare",
       "subindustry": "Healthcare",
-      "launched_at": 1780029412,
+      "launched_at": 1786061168,
       "tags": [
         "B2B",
         "Healthcare"
@@ -3182,7 +3182,7 @@
       "highlight_women": false,
       "industry": "Industrials",
       "subindustry": "Industrials -> Manufacturing and Robotics",
-      "launched_at": 1779493772,
+      "launched_at": 1786056544,
       "tags": [
         "Artificial Intelligence",
         "Hard Tech",
@@ -3339,6 +3339,49 @@
       "app_answers": null,
       "question_answers": false,
       "url": "https://www.ycombinator.com/companies/daqstra"
+    },
+    {
+      "id": 32625,
+      "name": "Qlo",
+      "slug": "qlo",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/6bdf97a8fbe4a8a51a745ce366d9c6c2bfc6d75c.png",
+      "website": "https://www.getqlo.com/",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "Qlo uses AI to automate commercial underwriting end to end, from submission through renewal, for MGAs and program administrators.",
+      "one_liner": "AI that automates underwriting for commercial insurance carriers",
+      "team_size": 2,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "Fintech",
+      "subindustry": "Fintech -> Insurance",
+      "launched_at": 1786080312,
+      "tags": [
+        "SaaS",
+        "Insurance",
+        "Enterprise"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Summer 2026",
+      "status": "Active",
+      "industries": [
+        "Fintech",
+        "Insurance"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/qlo"
     },
     {
       "id": 32624,
@@ -4756,10 +4799,10 @@
       "name": "Exosat",
       "slug": "exosat",
       "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/4ada0c6c689e415dd6275bd653f7e5171ef2d584.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c71c0447005f2a40e7e7610af283842dbce65e39.png",
       "website": "https://www.exosat.com",
       "all_locations": "Singapore, Singapore",
-      "long_description": "Exosat is building a sovereign alternative to Starlink by mass manufacturing thousands of satellites that work as cell towers in space. By designing our architecture with zero U.S-origin parts and manufacturing with overseas partners, our satellites can be built at under a tenth of the usual cost and launched from any nation to bypass bottlenecks in launch capacity.\r\n\r\nWe're starting off by selling connectivity to OEMs and network operators, but will eventually use the distributed compute across our satellite constellation to support sovereign AI use cases as well.\r\n\r\nWe've already signed $400M+ in LOIs to work with operators across Central Asia, Southeast Asia, and the Middle East, booked our first satellite launch next year, and hold an 11,000 satellite filing with the ITU to build the largest comms network outside of the U.S. and China.",
+      "long_description": "Exosat is building thousands of low-cost communication satellites to provide a neutral, sovereign alternative to Starlink. By building our satellites with zero ITAR/EAR-controlled content, we can leverage manufacturers anywhere in the world to produce our satellites at under a tenth of the cost and launch them from any nation to bypass launch capacity bottlenecks.\r\n\r\nWe're starting off by selling connectivity to device OEMs and network operators, but will eventually use the distributed compute across our constellation to run low-latency inference for robots and autonomous vehicles in remote and rural areas anywhere on the planet.\r\n\r\nWe've already signed $400M+ in LOIs to work with operators across Central Asia, Southeast Asia, and the Middle East, booked our first satellite launch next year, and hold an 11,000 satellite filing with the ITU to build the largest comms network outside of the U.S. and China.",
       "one_liner": "Building a sovereign Starlink",
       "team_size": 1,
       "highlight_black": false,
@@ -4767,7 +4810,7 @@
       "highlight_women": false,
       "industry": "Industrials",
       "subindustry": "Industrials -> Aviation and Space",
-      "launched_at": 1778823803,
+      "launched_at": 1786056981,
       "tags": [
         "IoT",
         "Space Exploration",
@@ -7996,8 +8039,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/537de46d97dcdac9c07b330a6a1a4b2ab0583b7b.png",
       "website": "https://tridentsecurity.io/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Traditional security tools drown teams in useless alerts and logs. Trident chains vulnerabilities together like a real attacker, mapping verified attack paths across AWS, Azure, GCP, web apps, and APIs to show the exploits that actually cause business impact",
-      "one_liner": "Your AI Security Team ",
+      "long_description": "Trident is the modern-day pentester. Instead of a slow, expensive report once a year, it's a continuous, agentic pentester that chains vulnerabilities together like a real attacker mapping verified attack paths across AWS, Azure, GCP, web apps, and APIs. Run AI attacks and get fixes.\r\n\r\nGet started today: tridentsecurity.io",
+      "one_liner": "Agents that find real exploitable vulnerabilities in your company ",
       "team_size": 4,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -8006,9 +8049,9 @@
       "subindustry": "B2B -> Security",
       "launched_at": 1785361922,
       "tags": [
+        "Artificial Intelligence",
         "Security",
-        "Cybersecurity",
-        "AI"
+        "Cybersecurity"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -19039,7 +19082,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/10c4b553697048031ea44635278f71a342e7f4dc.png",
       "website": "https://parameter.ai?utm_source=ycombinator&utm_medium=referral&utm_campaign=parameter-profile",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Parameter builds AI agents that run continuous penetration tests against your apps and infrastructure. Instead of a once-a-year penetration test, Hex Security's agents works 24/7 to find and verify critical vulnerabilities so you can prevent them before attackers.\r\n\r\nFormerly Hex Security",
+      "long_description": "Parameter builds AI agents that run continuous penetration tests against your apps and infrastructure. Instead of a once-a-year penetration test, Parameter's agents works 24/7 to find and verify critical vulnerabilities so you can prevent them before attackers.\r\n\r\nFormerly Hex Security",
       "one_liner": "Agentic Offensive Security at Scale",
       "team_size": 10,
       "highlight_black": false,
@@ -99197,7 +99240,7 @@
         "Pyq AI"
       ],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/cb7d742c0af1fc213b223ce6a9311844bfe178f6.png",
-      "website": "https://usemulligan.com",
+      "website": "https://insurestack.ai/",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Mulligan (now Insure Stack) is an end-to-end AI automation platform for commercial insurance brokers. Automates quoting, policy checking, proposals and more by up to 90%.\r\n\r\nIt was acquired in 2026 and is available here: https://insurestack.ai",
       "one_liner": "AI automation for insurance brokerages",
@@ -159249,9 +159292,9 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c8427a4df46d5bdea47426e5463c809db03232f1.png",
       "website": "https://versionstory.com/",
       "all_locations": "New York City, NY, USA",
-      "long_description": "Redline in Claude with perfect precision. Version Story is the redlining infrastructure partner for your legal business in the age of AI. Claude searches, summarizes, and creates. Version Story validates. We handcrafted our redline engine in partnership with law firms, including Dentons and Addleshaw Goddard. It is an algorithm, which means the result is the same every time. This is the perfect complement to the generative properties of AI. Wherever you work - whether in Claude, in ChatGPT, or in our standalone app - Version Story provides review and verification you can trust. And for those building out custom tools, we support embedding our redlining in your stack.",
-      "one_liner": "Claude Redlining Plugin",
-      "team_size": 6,
+      "long_description": "Version Story is the primary utility layer interface for agentic legal workflows. As tokens flow like water, Version Story provides deterministic redlining infrastructure that gives the trust layer shape. Claude searches, summarizes, and creates. Version Story validates.",
+      "one_liner": "Deterministic redlining at scale — now within Claude",
+      "team_size": 30,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -159259,11 +159302,11 @@
       "subindustry": "B2B -> Legal",
       "launched_at": 1616475139,
       "tags": [
+        "Artificial Intelligence",
         "SaaS",
         "B2B",
         "Legal",
-        "LegalTech",
-        "AI"
+        "LegalTech"
       ],
       "tags_highlighted": [],
       "top_company": false,
