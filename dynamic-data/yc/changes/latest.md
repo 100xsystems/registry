@@ -1,65 +1,49 @@
-# YC Company Changes for 2026-08-07
+# YC Company Changes for 2026-08-08
 
-- Previous total: 6131
-- Current total: 6132
+- Previous total: 6132
+- Current total: 6133
 - Added: 1
 - Removed: 0
-- Updated: 11
+- Updated: 8
 
 
 ## Added Companies
 
-- [Hebbian Robotics](https://www.ycombinator.com/companies/hebbian-robotics) (Summer 2026) — APIs for searching and analyzing Physical AI data at scale
+- [Dawn Industries](https://www.ycombinator.com/companies/dawn-industries) (Summer 2026) — Automatic Diagnosis & Fix for Industrial Automation Cells
 
 ## Updated Companies
 
-### [Zerocater](https://www.ycombinator.com/companies/zerocater)
+### [StackAI](https://www.ycombinator.com/companies/stackai)
 
-- `all_locations`: San Francisco, CA, USA → Chicago, IL, USA
+- `tags`: Artificial Intelligence,Enterprise,Automation → Enterprise,Automation,AI
 
-### [SmartAsset](https://www.ycombinator.com/companies/smartasset)
+### [Sohar Health](https://www.ycombinator.com/companies/sohar-health)
 
-- `all_locations`: New York City, NY, USA; New York, NY, USA; Remote → New York City, NY, USA; Remote
 - `isHiring`: true → false
-- `stage`: Growth → Early
 
-### [Uberduck](https://www.ycombinator.com/companies/uberduck)
+### [Units](https://www.ycombinator.com/companies/units)
 
-- `status`: Active → Inactive
+- `one_liner`: The school for a post-agi world. → Units is building an AI education infrastructure company.
 
-### [Pirros](https://www.ycombinator.com/companies/pirros)
+### [Tesora](https://www.ycombinator.com/companies/tesora)
 
-- `one_liner`: Github for Construction → AI Platform for Architects and Engineers
+- `team_size`: 4 → 5
+- `tags`: API,Insurance,AI → Artificial Intelligence,API,Insurance
 
-### [Perspectives Health](https://www.ycombinator.com/companies/perspectives-health)
+### [Helonic](https://www.ycombinator.com/companies/helonic)
 
-- `one_liner`: Automating away admin for behavioral health clinics → AI to run behavioral health programs better
+- `tags`: Construction,B2B,Workflow Automation,Architecture,AI → Artificial Intelligence,Construction,B2B,Workflow Automation,Architecture
+- `question_answers`: true → false
 
-### [Discovered Materials](https://www.ycombinator.com/companies/discovered-materials)
+### [Assemble](https://www.ycombinator.com/companies/assemble)
 
-- `isHiring`: false → true
+- `team_size`: 3 → 4
+- `tags`: SaaS,Enterprise Software,AI → Artificial Intelligence,SaaS,Enterprise Software
 
-### [Keyframe Labs](https://www.ycombinator.com/companies/keyframe-labs)
+### [Ekpa](https://www.ycombinator.com/companies/ekpa)
 
-- `one_liner`: Turn agents into lifelike video calls with the word's best AI avatars → Bring AI to life with the world's best interactive avatars
-- `tags`:  → Artificial Intelligence,Developer Tools,SaaS,B2B,API
-
-### [CentralComs](https://www.ycombinator.com/companies/centralcoms)
-
-- `subindustry`: Real Estate and Construction -> Housing and Real Estate → Real Estate and Construction
-- `tags`:  → Home Services
-- `industries`: Real Estate and Construction,Housing and Real Estate → Real Estate and Construction
-
-### [Audun](https://www.ycombinator.com/companies/audun)
-
-- `launched_at`: 1778790479 → 1786093910
-
-### [screenpipe](https://www.ycombinator.com/companies/screenpipe)
-
-- `team_size`: 6 → 2
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/6e4cd183ffca48da0b8c0ac22b9a4a380bdecc65.png → https://bookface-images.s3.amazonaws.com/small_logos/06c4988b8eff9db30a66dc2c4f5f513eba67b606.png
 
 ### [Almanac](https://www.ycombinator.com/companies/almanac)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/12b18390ac9aff0968a7a1c2e09e151efc7a0913.png → https://bookface-images.s3.amazonaws.com/small_logos/04034530613a233afe0d28a52bcfd6e9943b7ea7.png
-- `website`: https://codealmanac.com → https://usealmanac.com
-- `one_liner`: Self updating wiki for your coding agents → The AI that knows your company
+- `tags`: Generative AI → Generative AI,AI,AI Assistant

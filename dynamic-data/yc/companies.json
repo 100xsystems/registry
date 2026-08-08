@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-08-07T18:43:25.338Z",
-  "count": 6132,
+  "fetchedAt": "2026-08-08T01:37:35.780Z",
+  "count": 6133,
   "companies": [
     {
       "id": 35094,
@@ -750,6 +750,49 @@
       "app_answers": null,
       "question_answers": false,
       "url": "https://www.ycombinator.com/companies/hiloop"
+    },
+    {
+      "id": 33344,
+      "name": "Dawn Industries",
+      "slug": "dawn-industries",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/be237324cf82c0125a34763f99ffb0cf35ca384d.png",
+      "website": "https://www.dawnxr.com",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "VIM connects to the entire cell: PLCs, robots, CNC machines, sensors. When a cell faults, VIM finds the cause, stages the fix, and the operator approves with one click. When a part drifts, VIM catches it seconds after the cut, inside the machine, and recommends the correction. Recovery drops from 30 minutes to under two, saving more than $15,000 per fault in large factories.",
+      "one_liner": "Automatic Diagnosis & Fix for Industrial Automation Cells",
+      "team_size": 2,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "Industrials",
+      "subindustry": "Industrials -> Manufacturing and Robotics",
+      "launched_at": 1786150873,
+      "tags": [
+        "Artificial Intelligence"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": true,
+      "nonprofit": false,
+      "batch": "Summer 2026",
+      "status": "Active",
+      "industries": [
+        "Industrials",
+        "Manufacturing and Robotics"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada",
+        "Remote",
+        "Partly Remote"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/dawn-industries"
     },
     {
       "id": 33342,
@@ -3798,7 +3841,9 @@
       "subindustry": "B2B",
       "launched_at": 1784235632,
       "tags": [
-        "Generative AI"
+        "Generative AI",
+        "AI",
+        "AI Assistant"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -10334,7 +10379,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/cafd940f7349e6c612893fad752013b10458ce39.png",
       "website": "https://armature.tech",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Armature helps companies monitor, analyze, and optimize how AI agents experience their products.\r\n\r\nWe start with Product Analytics: user sessions on your Claude Connector, ChatGPT App or MCP live inside their AI client, not your UI. Armature captures and shows you what users ask, what agents think and how they use your product.\r\n\r\nThen, we provide automated testing infrastructure: run complex sessions against your MCPs/CLIs across all major harnesses and models to catch broken workflows before your users do.\r\n\r\nFinally, our MCP lets your internal coding agents plug into Armature to autonomously fix your product's AX based on our run data.\r\n\r\nThe next step is to provide the foundational infrastructure for the Agent Experience, powering agent-native revenue, lifecycle marketing, and customer support for the next generation of software.",
+      "long_description": "Armature helps companies monitor, analyze, and optimize how AI agents experience their products.\r\n\r\nWe start with Product Analytics: user sessions on your Claude Connector, ChatGPT App or MCP live inside their AI client, not your UI. Armature captures and shows you what users ask, what agents think and how they use your product.\r\n\r\nThen, we provide automated evals infrastructure: run complex sessions against your MCPs/CLIs across all major harnesses and models to catch broken workflows before your users do.\r\n\r\nFinally, our MCP lets your internal coding agents plug into Armature to autonomously fix your product's AX based on our run data.\r\n\r\nThe next step is to provide the foundational infrastructure for the Agent Experience, powering agent-native revenue, lifecycle marketing, and customer support for the next generation of software.",
       "one_liner": "Improve how users experience your product through AI Agents",
       "team_size": 3,
       "highlight_black": false,
@@ -16980,7 +17025,7 @@
       "name": "Ekpa",
       "slug": "ekpa",
       "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/6e4cd183ffca48da0b8c0ac22b9a4a380bdecc65.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/06c4988b8eff9db30a66dc2c4f5f513eba67b606.png",
       "website": "https://goekpa.com/",
       "all_locations": "Boston, MA, USA",
       "long_description": "",
@@ -17530,7 +17575,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/897b59e5d2b5dee40c471f153a2aee81587f2ad8.png",
       "website": "https://polymathlabs.ai/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Polymath is a data lab focused on improving long-horizon agent capabilities",
+      "long_description": "Polymath is a data lab focused on improving long-horizon agent capabilities and alignment\r\n",
       "one_liner": "Simulation environments to train & evaluate long-horizon AI agents",
       "team_size": 6,
       "highlight_black": false,
@@ -18765,7 +18810,7 @@
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Assemble accelerates IT teams by performing development work inside core enterprise systems like ERP, CRM, and HRIS. Our agents help IT teams scope dependencies, build logic, and validate changes across your systems.",
       "one_liner": "Agents for Enterprise IT",
-      "team_size": 3,
+      "team_size": 4,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -18773,9 +18818,9 @@
       "subindustry": "B2B",
       "launched_at": 1783894724,
       "tags": [
+        "Artificial Intelligence",
         "SaaS",
-        "Enterprise Software",
-        "AI"
+        "Enterprise Software"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -27249,11 +27294,11 @@
       "subindustry": "Real Estate and Construction -> Construction",
       "launched_at": 1760131149,
       "tags": [
+        "Artificial Intelligence",
         "Construction",
         "B2B",
         "Workflow Automation",
-        "Architecture",
-        "AI"
+        "Architecture"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -27273,7 +27318,7 @@
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
-      "question_answers": true,
+      "question_answers": false,
       "url": "https://www.ycombinator.com/companies/helonic"
     },
     {
@@ -35120,7 +35165,7 @@
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Tesora builds frontier AI agents for actuaries at P&C carriers, reinsurers, and MGAs. The agents handle the assembly, pulling the data, running the method, and deploying the rater, while you review the work and make every call. We deploy inside the stack you already run, on your infra and under your IT team's control, with no shared servers and nothing to rip out. Your data never trains our models, or anyone else's. We treat this as a partnership so we stay hands-on until the work is live and holding up in production. That standard runs through our security posture too: SOC 2 Type II certified, with a full audit trail behind every change.\r\n\r\nThe part of the job that matters is actuarial judgment, and we automate everything around it so you get back to the work only you can do. Built by AI technologists and actuaries who want to see this exist and backed by Y Combinator & other top investors.",
       "one_liner": "Frontier AI for Actuaries",
-      "team_size": 4,
+      "team_size": 5,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -35128,9 +35173,9 @@
       "subindustry": "B2B -> Analytics",
       "launched_at": 1755571936,
       "tags": [
+        "Artificial Intelligence",
         "API",
-        "Insurance",
-        "AI"
+        "Insurance"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -42198,7 +42243,7 @@
       "website": "https://units.school",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Units lets ambitious students graduate high school in 4 months instead of 4 years with real accredited diploma credits, plus a portfolio of real-world work, not just a transcript. \r\n\r\nWe're rebuilding school for a post-AGI world.",
-      "one_liner": "The school for a post-agi world.",
+      "one_liner": "Units is building an AI education infrastructure company.",
       "team_size": 1,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -87279,7 +87324,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": true,
+      "isHiring": false,
       "nonprofit": false,
       "batch": "Summer 2023",
       "status": "Active",
@@ -100779,7 +100824,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/f0b69f56464fb22aa0805117c2f93c2b32f1c717.png",
       "website": "https://www.stackai.com",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "StackAI partners with enterprises to deploy custom AI agents to automate their most complex back-office workflows. Teams at BAE Systems, Monzo, Morgan & Morgan, and Goodwill work with StackAI to bring AI Agents to their operations.\r\n\r\nEnterprises use StackAI no-code to automate large compliance audits, knowledge work, legal intake, due diligence research, and insurance claim underwriting.\r\n\r\nAcquired by Asana (NYSE:ASAN) in May 2026.",
+      "long_description": "Acquired by Asana (NYSE:ASAN) in May 2026.\r\n\r\nStackAI partners with enterprises to deploy custom AI agents to automate their most complex back-office workflows. Teams at BAE Systems, Monzo, Morgan & Morgan, and Goodwill work with StackAI to bring AI Agents to their operations.\r\n\r\nEnterprises use StackAI no-code to automate large compliance audits, knowledge work, legal intake, due diligence research, and insurance claim underwriting.",
       "one_liner": "The Enterprise AI Transformation Platform",
       "team_size": 62,
       "highlight_black": false,
@@ -100789,9 +100834,9 @@
       "subindustry": "B2B",
       "launched_at": 1673634480,
       "tags": [
-        "Artificial Intelligence",
         "Enterprise",
-        "Automation"
+        "Automation",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -241562,7 +241607,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/fd4b6f473c25066fa0c35c5798c0454e3791144f.png",
       "website": "http://www.vestfin.com",
       "all_locations": "McLean, VA, USA; Remote",
-      "long_description": "Vest, on a mission to bring wider access to financial derivatives and other institutional investment strategies, manages investment products worth $50+ billion (as of 9/30/25). Backed by private equity, the firm has a strategic partnership with Cboe Global Markets, Inc. (NASDAQ: CBOE), and First Trust, a global asset manager. \r\n\r\nVest created Target Outcome Investments in 2013, which target a defined return profile, with an allowance for a specific level of risk, at a particular point in time. Today, Target Outcome Investments are available as mutual funds, exchange-traded funds (ETFs), unit investment trusts (UITs), collective investment trusts (CITs), and customizable managed accounts / sub-advisory services. \r\n\r\nThe firm was launched and backed by preeminent venture firms such as Y-Combinator (Airbnb, Reddit, Dropbox), Payment Ventures (MicroVentures, CardFlight) and First Round Capital (Uber, Mint, Square).\r\n\r\nSee more at https://www.vestfin.com.",
+      "long_description": "Vest, on a mission to bring wider access to financial derivatives and other institutional investment strategies, manages investment products worth $70+ billion (as of 6/30/26). Backed by private equity, the firm has a strategic partnership with Cboe Global Markets, Inc. (NASDAQ: CBOE), and First Trust, a global asset manager. \r\n\r\nVest created Target Outcome Investments in 2013, which target a defined return profile, with an allowance for a specific level of risk, at a particular point in time. Today, Target Outcome Investments are available as mutual funds, exchange-traded funds (ETFs), unit investment trusts (UITs), collective investment trusts (CITs), and customizable managed accounts / sub-advisory services. \r\n\r\nThe firm was launched and backed by preeminent venture firms such as Y-Combinator (Airbnb, Reddit, Dropbox), First Round Capital (Uber, Mint, Square) and Payment Ventures (MicroVentures, CardFlight).\r\n\r\nSee more at https://www.vestfin.com.",
       "one_liner": "Bringing wider access to financial derivatives. ",
       "team_size": 50,
       "highlight_black": false,

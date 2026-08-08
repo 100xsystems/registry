@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-08-07T13:01:19.607Z",
+  "updatedAt": "2026-08-08T01:37:24.500Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -641,7 +641,15 @@
       "summary": "Build and verify PostgreSQL row-level security for AI agents with non-owner roles, FORCE RLS, explicit policies, controlled writes, and denial tests.",
       "author": null,
       "publishedAt": "2026-08-07T00:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9rP",
+      "title": "Christophe Pettus: All Your GUCs in a Row: ignore_system_indexes",
+      "link": "https://postgr.es/p/9rP",
+      "summary": "Recover from catalog index corruption by sequentially scanning system tables instead of using indexes.",
+      "author": null,
+      "publishedAt": "2026-08-08T01:00:00.000Z"
     }
   ],
-  "totalIndexed": 79
+  "totalIndexed": 80
 }

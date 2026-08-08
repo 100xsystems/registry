@@ -9,7 +9,7 @@
     "edge-computing",
     "nextjs"
   ],
-  "updatedAt": "2026-08-06T23:52:20.980Z",
+  "updatedAt": "2026-08-08T01:37:31.032Z",
   "items": [
     {
       "guid": "vercel-blog::https://vercel.com/changelog/ai-gateway-now-supports-streaming-transcription",
@@ -4242,7 +4242,39 @@
       "summary": "Agent Plugins 1.0.0 is now available. It is an open, vendor-neutral standard for packaging Agent Skills and MCP servers into portable plugins. Compatible agent clients can discover and load them.\nAgent Plugins defines a common format: a root  manifest, plus fixed locations for portable components.…",
       "author": "Jonathan Hefner",
       "publishedAt": "2026-08-06T00:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/vercel-ai-gateway-and-vercel-sandbox-now-available-on-hermes-agent",
+      "title": "Vercel AI Gateway and Vercel Sandbox now available on Hermes Agent",
+      "link": "https://vercel.com/changelog/vercel-ai-gateway-and-vercel-sandbox-now-available-on-hermes-agent",
+      "summary": "can now use  as its inference layer and run its agent commands in an isolated  microVM. Access 200+ models through AI Gateway at no markup on tokens, and every request appears in your AI Gateway dashboard with the rest of your usage and spend.\nHermes AgentVercel AI GatewayVercel Sandbox\nInstall…",
+      "author": "Jerilyn Zheng",
+      "publishedAt": "2026-08-07T19:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/vercel-container-registry-repositories-can-now-be-made-public",
+      "title": "Vercel Container Registry repositories can now be made public",
+      "link": "https://vercel.com/changelog/vercel-container-registry-repositories-can-now-be-made-public",
+      "summary": "now lets you make a repository public, so anyone with a Vercel account can pull and use its images.Vercel Container Registry\nSharing already granted read access to up to 100 teams, and making a repository public opens that access to every Vercel team rather than a named set. Public access is…",
+      "author": "Andy Waller",
+      "publishedAt": "2026-08-07T17:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/audit-log-drains-now-support-datadog-splunk-and-panther",
+      "title": "Audit Log Drains now support Datadog, Splunk, and Panther",
+      "link": "https://vercel.com/changelog/audit-log-drains-now-support-datadog-splunk-and-panther",
+      "summary": "Audit Log Drains now stream your team's audit events into , , and , joining the existing custom HTTPS endpoint and Amazon S3 destinations. DatadogSplunkPanther\nAn  forwards every event from your team's Activity Log, plus additional audit metadata, to the destination you choose. They're available on…",
+      "author": "Luka Hartwig",
+      "publishedAt": "2026-08-07T04:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/skill-packs-are-now-available",
+      "title": "Skill packs are now available on skills.sh",
+      "link": "https://vercel.com/changelog/skill-packs-are-now-available",
+      "summary": "You can now bundle multiple agent skills into a shareable pack on .skills.sh\nBuild a pack from community skills, your own local folders and zips, or public and private GitHub repositories. \nEvery pack is unlisted, with its own URL. Share that link with a single person, or your whole team to…",
+      "author": "Maya Lekhi",
+      "publishedAt": "2026-08-07T04:00:00.000Z"
     }
   ],
-  "totalIndexed": 529
+  "totalIndexed": 533
 }
