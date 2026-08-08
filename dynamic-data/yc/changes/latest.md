@@ -1,49 +1,35 @@
 # YC Company Changes for 2026-08-08
 
-- Previous total: 6132
-- Current total: 6133
+- Previous total: 6133
+- Current total: 6134
 - Added: 1
 - Removed: 0
-- Updated: 8
+- Updated: 5
 
 
 ## Added Companies
 
-- [Dawn Industries](https://www.ycombinator.com/companies/dawn-industries) (Summer 2026) — Automatic Diagnosis & Fix for Industrial Automation Cells
+- [Prodigy Research](https://www.ycombinator.com/companies/prodigy-research) (Summer 2026) — Training the world's best foundation model for quantitative finance.
 
 ## Updated Companies
 
-### [StackAI](https://www.ycombinator.com/companies/stackai)
+### [Wayline](https://www.ycombinator.com/companies/wayline)
 
-- `tags`: Artificial Intelligence,Enterprise,Automation → Enterprise,Automation,AI
+- `team_size`: 3 → 5
 
-### [Sohar Health](https://www.ycombinator.com/companies/sohar-health)
+### [Perceptron ML](https://www.ycombinator.com/companies/perceptron-ml)
 
-- `isHiring`: true → false
+- `tags`: Artificial Intelligence,B2B,Legal,Automation → B2B,Legal,Automation,AI
 
-### [Units](https://www.ycombinator.com/companies/units)
+### [Belvedir](https://www.ycombinator.com/companies/belvedir)
 
-- `one_liner`: The school for a post-agi world. → Units is building an AI education infrastructure company.
+- `tags`: Machine Learning → Machine Learning,Infrastructure
 
-### [Tesora](https://www.ycombinator.com/companies/tesora)
+### [Stratum Industries](https://www.ycombinator.com/companies/stratum-industries)
 
-- `team_size`: 4 → 5
-- `tags`: API,Insurance,AI → Artificial Intelligence,API,Insurance
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/0cc8b5375c42033d862e128777c8909550381c8d.png → https://bookface-images.s3.amazonaws.com/small_logos/cbb396809ed692f744f764e5cd86703142288a07.png
+- `tags`: GovTech,Automation,AI → Artificial Intelligence,GovTech,Automation
 
-### [Helonic](https://www.ycombinator.com/companies/helonic)
+### [Chromie](https://www.ycombinator.com/companies/chromie)
 
-- `tags`: Construction,B2B,Workflow Automation,Architecture,AI → Artificial Intelligence,Construction,B2B,Workflow Automation,Architecture
-- `question_answers`: true → false
-
-### [Assemble](https://www.ycombinator.com/companies/assemble)
-
-- `team_size`: 3 → 4
-- `tags`: SaaS,Enterprise Software,AI → Artificial Intelligence,SaaS,Enterprise Software
-
-### [Ekpa](https://www.ycombinator.com/companies/ekpa)
-
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/6e4cd183ffca48da0b8c0ac22b9a4a380bdecc65.png → https://bookface-images.s3.amazonaws.com/small_logos/06c4988b8eff9db30a66dc2c4f5f513eba67b606.png
-
-### [Almanac](https://www.ycombinator.com/companies/almanac)
-
-- `tags`: Generative AI → Generative AI,AI,AI Assistant
+- `one_liner`: find, qualify, & win contracts with AI → find, qualify, & win gov contracts with AI

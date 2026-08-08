@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-08-06T23:52:19.240Z",
+  "updatedAt": "2026-08-08T07:01:29.199Z",
   "items": [
     {
       "guid": "t-j-maher::https://www.tjmaher.com/2026/06/does-giving-presentation-via-zoom-to.html",
@@ -223,7 +223,15 @@
       "summary": "We covered in the last blog post how to install bun, a new package manager. \n\nIn this blog post, we will look into using bun to install a new Playwright framework. \n\n\nCreate the Playwright Framework\n\n\nOnce I installed bun on my Windows PC and was up and running I created a new folder,…",
       "author": "T.J. Maher",
       "publishedAt": "2026-08-06T17:37:06.209Z"
+    },
+    {
+      "guid": "t-j-maher::https://www.tjmaher.com/2026/08/add-type-checking-and-tsconfig-to-bun.html",
+      "title": "Add Type Checking and TSConfig to Bun-Create-Playwright",
+      "link": "https://www.tjmaher.com/2026/08/add-type-checking-and-tsconfig-to-bun.html",
+      "summary": "Now that we have installed bun, Anthropic's package manager, and scaffolded a Playwright framework and closely examined the results, we are going to explore with our Bun-Create-Playwright project ways to check if our code is correct. \n\n\nThe first method we will be exploring is typechecking. \n\n\nWhy…",
+      "author": "T.J. Maher",
+      "publishedAt": "2026-08-08T03:10:43.830Z"
     }
   ],
-  "totalIndexed": 27
+  "totalIndexed": 28
 }
