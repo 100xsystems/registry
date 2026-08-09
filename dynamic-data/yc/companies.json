@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-08T12:46:33.582Z",
+  "fetchedAt": "2026-08-09T01:43:16.435Z",
   "count": 6135,
   "companies": [
     {
@@ -3525,7 +3525,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/d3d83aa2013bbe6b22b37f316b294d0c717eea35.png",
       "website": "https://fabraix.com",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Fabraix builds state-of-the-art AI red-teaming agents that continuously detect security vulnerabilities in customer-facing AI. Our product, Nyx, has already found vulnerabilities in agents at dozens of Fortune 500 companies. On AgentHarm, the leading benchmark for offensive AI security, Nyx achieved a 78% attack success rate, compared with 67% for GPT-5.6 Sol.\r\n\r\nAI agents can change more often than teams can test them. A new model, prompt, tool, permission, or data source can change what an agent does, even when the application code stays the same. And AI is also increasing how much software companies produce and how often it changes.\r\n\r\nWe built Nyx to automate the work required to red-team AI agents. It is built around three capabilities:\r\n- Nyx draws on more than 10,000 jailbreaks that we have collected and continuously update from public records (the largest such library we know of) as starting points for attacks across a wide range of failure modes.\r\n- Nyx attacks itself through adversarial self-play, retaining successful jailbreaks and using them to generate stronger variants. This creates a continuous search for novel attacks rather than replaying a fixed set of payloads which compounds over time; thus massively improving its capabilities.\r\n- It can interact directly with chat, voice, browser, and coding agents without source code or a special integration. It can also attack indirectly through controlled replicas of SaaS products and websites that we maintain, placing malicious payloads in webpages, documents, files, messages, and tool outputs to test how an agent behaves under different conditions.\r\n\r\nNyx often finds its first vulnerability within minutes or hours rather than days or weeks. Because the work is fully automated, companies can repeat the test with every change and at a much lower cost than what a 7-figure red-teaming (and point-in-time) engagement would require.\r\n\r\nWe're also the team behind ACE (Adversarial Cost to Exploit), a benchmark that measures AI security in terms of how much it costs attackers to break an AI system; providing a game-theoretic framework to understand how motivated a rational attacker would be in exploiting the system.",
+      "long_description": "Fabraix builds state-of-the-art AI red-teaming agents that continuously detect security vulnerabilities in customer-facing AI. Our product, Nyx, has already found vulnerabilities in agents at dozens of Fortune 500 companies. On AgentHarm, the leading benchmark for offensive AI security, Nyx achieved a 78% attack success rate, compared with 67% for GPT-5.6 Sol.\r\n\r\nAI agents can change more often than teams can test them. A new model, prompt, tool, permission, or data source can change what an agent does, even when the application code stays the same. And AI is also increasing how much software companies produce and how often it changes. We built Nyx to automate the work required to red-team AI agents. It is multi modal by design and interacts with the target indirectly through controlled replicas of SaaS products and websites that we maintain, placing malicious payloads in webpages, documents, files, messages, and tool outputs to test how an agent behaves under different conditions.\r\n\r\nNyx often finds its first vulnerability within minutes or hours rather than days or weeks. Because the work is fully automated, companies can repeat the test with every change and at a much lower cost than what a 7-figure red-teaming (and point-in-time) engagement would require.\r\n\r\nWe're also the team behind ACE (Adversarial Cost to Exploit), a benchmark that measures AI security in terms of how much it costs attackers to break an AI system; providing a game-theoretic framework to understand how motivated a rational attacker would be in exploiting the system.",
       "one_liner": "The world's frontier hacker for AI agents.",
       "team_size": 2,
       "highlight_black": false,
@@ -3535,9 +3535,9 @@
       "subindustry": "B2B -> Security",
       "launched_at": 1783913331,
       "tags": [
+        "Artificial Intelligence",
         "Reinforcement Learning",
-        "Cybersecurity",
-        "AI"
+        "Cybersecurity"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -3744,7 +3744,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/3eb675c91f3464d134cd3d9c18712ad08bea23bb.png",
       "website": "https://www.useclick.ai",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Click lets you do more within Codex & Claude. It's an MCP that provides external context that the in-built web search misses - LinkedIn activity, YouTube transcripts, live flight fares, and more. \r\nWith Click, users do sales & GTM research, competitor ad analysis, travel planning, and financial analysis - all within their favorite agent surface.",
+      "long_description": "Click builds chat-native work services for ChatGPT and Claude. \r\nWe’re starting with a research service that brings live external context from professional & social platforms, financial markets, maps, travel sources - and a lot more - into the conversation. \r\nIt makes research on people & companies even deeper with specialized, source-backed context beyond built-in web search, while enabling new tasks like comparing live flight fares right inside the chat.",
       "one_liner": "Web search & connectors for agents",
       "team_size": 1,
       "highlight_black": false,
@@ -14396,7 +14396,7 @@
       ],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/72dfae7e6f3aa505626a7c902f014e294cc6ab91.png",
       "website": "https://www.illumelabs.ai",
-      "all_locations": "Boston, MA, USA",
+      "all_locations": "San Francisco, CA, USA",
       "long_description": "Illume is a 24/7 AI personal health & longevity companion that connects your wearables, blood panels, and genomic data to text you personalized and actionable insights. We pull in your health data and fuse it into one secure model. You get daily text updates on what changed, what it means, and what to do next; conversational health Q&A like \"What should I do to improve my bloodwork?\"; cross-data trend detection that catches patterns individual platforms miss; and a full platform to dig deeper, explore your health data, and text your Illume agent anytime. We're 3 MIT grads & friends, with experience at Windsurf, MIT CSAIL, Eli Lilly, & the Broad Institute. ",
       "one_liner": "24/7 Personal Health & Longevity Companion",
       "team_size": 3,
@@ -14407,11 +14407,11 @@
       "subindustry": "Healthcare -> Consumer Health and Wellness",
       "launched_at": 1784104321,
       "tags": [
+        "Artificial Intelligence",
         "Generative AI",
         "Health Tech",
         "Biotech",
-        "Health & Wellness",
-        "AI"
+        "Health & Wellness"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -16583,8 +16583,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c76a18751e4b95b7b3cf621f7752449405d71aa5.png",
       "website": "https://moda.dev",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Moda is the continual learning layer for agents. It surfaces patterns across agent hallucinations, laziness, context loss, and tool call failures, then attributes each issue to a specific layer of the agent harness: prompts, tools, workflows, retrieval, memory, and evals. It also discovers what users are actually trying to do and turns those findings into concrete counterfactuals the team can ship.\r\n\r\nIn the next 10 years, with more AI agents spawning and trying to get PMF, developing an agent that actually works for users is critical. Everyone has access to the same models, thus the ones that win on a product level will be the ones who learn fastest from real usage. Moda is that learning layer.",
-      "one_liner": "Continual learning for AI agents",
+      "long_description": "Moda is the continual learning layer for AI agents. It turns production agent traces into validated improvements for your agent harness. It surfaces patterns across agent hallucinations, laziness, context loss, and tool call failures, then attributes each issue to a specific layer of the agent harness: prompts, tools, workflows, retrieval, memory, and evals. It also discovers what users are actually trying to do and turns those findings into concrete counterfactuals the team can ship.\r\n\r\nIn the next 10 years, with more AI agents spawning and trying to get PMF, developing an agent that actually works for users is critical. Everyone has access to the same models, thus the ones that win on a product level will be the ones who learn fastest from real usage. Moda is that learning layer.",
+      "one_liner": "The continual learning layer for AI agents.",
       "team_size": 6,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -50020,9 +50020,9 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c5b9a8ffa191d64a12f160ab46ed4cf4f2dd85dc.png",
       "website": "https://closure-intel.com/",
       "all_locations": "New York City, NY, USA",
-      "long_description": "Law enforcement is drowning in data. Closure helps search it to solve crime.\r\n\r\n- Hiring: UX, Engineering, AI, Ops, Business Development\r\n- Supporting: law enforcement throughout the country\r\n- Expanding: Local, state, and federal law enforcement.",
+      "long_description": "Closure turns evidence overload into cases closed, with the most trusted AI agents in law enforcement.",
       "one_liner": "We help law enforcement solve crime",
-      "team_size": 10,
+      "team_size": 11,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -50030,8 +50030,9 @@
       "subindustry": "Government",
       "launched_at": 1739862740,
       "tags": [
-        "Artificial Intelligence",
-        "GovTech"
+        "GovTech",
+        "LegalTech",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -50044,7 +50045,9 @@
       ],
       "regions": [
         "United States of America",
-        "America / Canada"
+        "America / Canada",
+        "Remote",
+        "Partly Remote"
       ],
       "stage": "Early",
       "app_video_public": false,
