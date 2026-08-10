@@ -9,7 +9,7 @@
     "edge-computing",
     "nextjs"
   ],
-  "updatedAt": "2026-08-08T01:37:31.032Z",
+  "updatedAt": "2026-08-10T13:05:41.908Z",
   "items": [
     {
       "guid": "vercel-blog::https://vercel.com/changelog/ai-gateway-now-supports-streaming-transcription",
@@ -4274,7 +4274,15 @@
       "summary": "You can now bundle multiple agent skills into a shareable pack on .skills.sh\nBuild a pack from community skills, your own local folders and zips, or public and private GitHub repositories. \nEvery pack is unlisted, with its own URL. Share that link with a single person, or your whole team to…",
       "author": "Maya Lekhi",
       "publishedAt": "2026-08-07T04:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/bun-serve-entrypoint-for-vercel-functions",
+      "title": "Bun runtime for Vercel Functions now accepts Bun.serve as an entrypoint",
+      "link": "https://vercel.com/changelog/bun-serve-entrypoint-for-vercel-functions",
+      "summary": "The  for Vercel Functions now supports  as a function entrypoint, including WebSocket handlers. The server you run locally with Bun deploys as-is, without being wrapped in a framework.Bun runtimeBun.serve()\nEnable the runtime by setting  in .\"bunVersion\": \"1.x\"vercel.json\nCreate a server with a…",
+      "author": "Florentin Eckl",
+      "publishedAt": "2026-08-10T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 533
+  "totalIndexed": 534
 }

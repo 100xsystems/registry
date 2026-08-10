@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-08-03T19:22:11.547Z",
+  "updatedAt": "2026-08-10T13:05:42.085Z",
   "items": [
     {
       "guid": "https://linuxblog.io/?p=20337",
@@ -175,7 +175,15 @@
       "summary": "Password-based SSH login is a liability. This guide walks through generating SSH key pairs with ssh-keygen, deploying public keys, disabling password authentication, and managing multiple keys cleanly with ~/.ssh/config.\nContinue reading...",
       "author": "Hayden James",
       "publishedAt": "2026-08-03T10:53:19.000Z"
+    },
+    {
+      "guid": "https://linuxblog.io/?p=22298",
+      "title": "Linux nameservers and DNS Resolution",
+      "link": "https://linuxblog.io/linux-nameservers-dns-resolution/",
+      "summary": "A practical guide to DNS resolution on Linux: how /etc/resolv.conf, systemd-resolved, and dig work together, and how to troubleshoot common nameserver failures.\nContinue reading...",
+      "author": "Hayden James",
+      "publishedAt": "2026-08-10T10:56:20.000Z"
     }
   ],
-  "totalIndexed": 21
+  "totalIndexed": 22
 }

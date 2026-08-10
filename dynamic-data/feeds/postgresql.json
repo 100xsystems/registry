@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-08-10T01:46:15.516Z",
+  "updatedAt": "2026-08-10T13:05:33.556Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -673,7 +673,23 @@
       "summary": "Every PostgreSQL connection since 8.0 has heard the server announce `integer_datetimes`—a parameter that's had only one possible value since PostgreSQL 10.",
       "author": null,
       "publishedAt": "2026-08-10T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9rV",
+      "title": "Umair Shahid: Choosing the Right PostgreSQL Partition Key",
+      "link": "https://postgr.es/p/9rV",
+      "summary": "Partitioning gets sold as a performance switch. You flip it on a big table, and the slow queries get fast. Most of the time, that is exactly what happens. But there is a version of this where you do all the work, split a huge table into clean partitions, and the slow queries stay exactly as slow as…",
+      "author": null,
+      "publishedAt": "2026-08-10T10:01:35.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9rU",
+      "title": "Regina Obe: PostGIS 3.7.0beta2",
+      "link": "https://postgr.es/p/9rU",
+      "summary": "The PostGIS Team is pleased to release PostGIS 3.7.0beta2!\nBest Served with PostgreSQL 19 Beta2\nand GEOS 3.15.0beta2.\nThis version requires PostgreSQL 14 - 19beta2, GEOS 3.10 or higher, and Proj 6.1+.\nTo take advantage of all features, GEOS 3.15+ is needed.\nTo take advantage of all SFCGAL features…",
+      "author": null,
+      "publishedAt": "2026-08-10T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 83
+  "totalIndexed": 85
 }
