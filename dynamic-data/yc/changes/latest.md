@@ -1,65 +1,56 @@
 # YC Company Changes for 2026-08-10
 
-- Previous total: 6136
-- Current total: 6139
-- Added: 3
+- Previous total: 6139
+- Current total: 6140
+- Added: 1
 - Removed: 0
-- Updated: 11
+- Updated: 8
 
 
 ## Added Companies
 
-- [Enact](https://www.ycombinator.com/companies/enact) (Summer 2026) — The post-training layer for robotics.
-- [Mosaic](https://www.ycombinator.com/companies/mosaic-inc) (Summer 2026) — Defining the frontier of multiplayer AI.
-- [Pacific](https://www.ycombinator.com/companies/pacific) (Summer 2026) — Micro data centers for the harshest places on Earth and in space.
+- [Peer](https://www.ycombinator.com/companies/peer) (Summer 2026) — AI-native freight brokerage
 
 ## Updated Companies
 
-### [Fieldguide](https://www.ycombinator.com/companies/fieldguide)
+### [Emobi](https://www.ycombinator.com/companies/emobi)
 
-- `team_size`: 180 → 200
-- `tags`: B2B,Workflow Automation,Productivity,AI → Artificial Intelligence,B2B,Workflow Automation,Productivity
-- `stage`: Growth → Early
-
-### [Blaze](https://www.ycombinator.com/companies/blaze-2)
-
-- `one_liner`: Global Venmo for cross border payments → Agentic Finance for your Life and Business
-- `tags`: Artificial Intelligence,Fintech,Crypto / Web3,Payments,Finance → Fintech,Crypto / Web3,Payments,Finance,AI
+- `isHiring`: true → false
 
 ### [TraceRoot.AI](https://www.ycombinator.com/companies/traceroot-ai)
 
-- `tags`:  → Artificial Intelligence,Developer Tools,Infrastructure
+- `one_liner`: Open source self-healing layer for AI agents → Open source self-improving layer for AI agents
+- `tags`: Artificial Intelligence,Developer Tools,Infrastructure → Developer Tools,Infrastructure,AI
 
-### [shotwell.ai](https://www.ycombinator.com/companies/shotwellai)
+### [Golpo](https://www.ycombinator.com/companies/golpo)
 
-- `one_liner`: The Observability Layer for Robotics → Annotations for robotics data
+- `team_size`: 4 → 7
 
-### [Pango](https://www.ycombinator.com/companies/pango)
+### [Clerked](https://www.ycombinator.com/companies/clerked)
 
-- `all_locations`: Stockholm, Stockholm County, Sweden → New York City, NY, USA
-- `regions`: Sweden,Europe,Remote,Partly Remote → United States of America,America / Canada,Remote,Partly Remote
+- `name`: Mod AI → Clerked
+- `slug`: mod-ai → clerked
+- `former_names`:  → Mod AI
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/942d0cc053faa8bcd3d973b7c4ce50fda2e6defa.png → https://bookface-images.s3.amazonaws.com/small_logos/84eedde0d0f019eaafca3d59004098b0b94f6ffb.png
+- `website`: https://usemod.ai → https://clerked.ai
+- `one_liner`: Touchless AP Automation → AI clerks that automate your payables
+- `team_size`: 4 → 3
+- `tags`: Artificial Intelligence,Fintech,Finance,Enterprise → Fintech,Finance,Enterprise,AI
 
-### [Erinys](https://www.ycombinator.com/companies/erinys)
+### [Velvet](https://www.ycombinator.com/companies/velvet)
 
-- `one_liner`: The first network of AI-native law firms → Building the first network of AI-native law firms
+- `one_liner`: The multimodal data lab. → Infra and data for interactive AI.
+- `tags`: Artificial Intelligence,Generative AI,Data Engineering,Conversational AI → Generative AI,Data Engineering,AI,Conversational AI
 
-### [Nebula Security](https://www.ycombinator.com/companies/nebula-security)
+### [Rapidfolio](https://www.ycombinator.com/companies/rapidfolio)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/33d955b678b21d1907f01bee006dfaf515655e98.png → https://bookface-images.s3.amazonaws.com/small_logos/c60d9cd12e8c1b315e07ee45555c24b5f74d5654.png
+- `tags`: Fintech,SaaS,Automation,AI → Artificial Intelligence,Fintech,SaaS,Enterprise,Automation
 
-### [Stratum Industries](https://www.ycombinator.com/companies/stratum-industries)
+### [Neuromorphic](https://www.ycombinator.com/companies/neuromorphic)
 
-- `tags`: Artificial Intelligence,GovTech,Automation → GovTech,Automation,AI
+- `tags`: Artificial Intelligence,Hard Tech,Robotics,B2B,Biotech → Hard Tech,Robotics,B2B,Biotech,AI
 
-### [Agnost AI](https://www.ycombinator.com/companies/agnost-ai)
+### [Lumeria](https://www.ycombinator.com/companies/lumeria)
 
-- `one_liner`: Product analytics for teams building conversational agents → Product analytics for AI Agents
-
-### [Levocred AI](https://www.ycombinator.com/companies/levocred-ai)
-
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/0bbbf3d7f7c1c77264bdea3c5e95a8c6d460cd1f.png → https://bookface-images.s3.amazonaws.com/small_logos/4211252c17df7b0a89dc9c36ce49996bef59474d.png
-- `one_liner`: AI for every workflow inside a credit team → AI for credit funds, fintechs and banks
-
-### [Salem Robotics Inc](https://www.ycombinator.com/companies/salem-robotics-inc)
-
-- `one_liner`: We deploy robots for inspections in hazardous spaces, like nuclear. → Deploying robots for inspections in hazardous spaces, like nuclear.
+- `tags`: Artificial Intelligence,Consumer Health Services,Health Tech,Health & Wellness,Skincare → Consumer Health Services,Health Tech,Health & Wellness,Skincare,AI
+- `app_video_public`: false → true

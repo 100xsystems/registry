@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-08-10T01:46:28.225Z",
-  "count": 6139,
+  "fetchedAt": "2026-08-10T07:50:58.457Z",
+  "count": 6140,
   "companies": [
     {
       "id": 35094,
@@ -2655,11 +2655,11 @@
       "subindustry": "Healthcare -> Consumer Health and Wellness",
       "launched_at": 1785008787,
       "tags": [
-        "Artificial Intelligence",
         "Consumer Health Services",
         "Health Tech",
         "Health & Wellness",
-        "Skincare"
+        "Skincare",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -2676,7 +2676,7 @@
         "America / Canada"
       ],
       "stage": "Early",
-      "app_video_public": false,
+      "app_video_public": true,
       "demo_day_video_public": false,
       "app_answers": null,
       "question_answers": false,
@@ -3352,7 +3352,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/470f3b57cd018aad9c127e64e5b952d32a64d435.png",
       "website": "https://www.neuromorphic.vision/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Neuromorphic is building an embodiment-agnostic “brain” that makes robots fast to deploy, adaptable across different bodies, and easy to manage through natural interfaces like Slack, email, and phone.  Our goal is to make deploying robots in wet labs and other physical industries as easy as onboarding a new employee.",
+      "long_description": "Neuromorphic is building an embodiment-agnostic “brain” that makes robots fast to deploy and easy to manage through natural interfaces like Slack, email, and phone. Our goal is to make deploying robots in wet labs and other physical industries as easy as onboarding a new employee.",
       "one_liner": "Building embodiment agnostic robot brains.",
       "team_size": 3,
       "highlight_black": false,
@@ -3362,11 +3362,11 @@
       "subindustry": "Industrials -> Manufacturing and Robotics",
       "launched_at": 1786056544,
       "tags": [
-        "Artificial Intelligence",
         "Hard Tech",
         "Robotics",
         "B2B",
-        "Biotech"
+        "Biotech",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -4434,6 +4434,48 @@
       "app_answers": null,
       "question_answers": true,
       "url": "https://www.ycombinator.com/companies/stratum-industries"
+    },
+    {
+      "id": 32522,
+      "name": "Peer",
+      "slug": "peer",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/0047fd6626342e5850c5136fd718899a2c8c81cb.png",
+      "website": "https://peer-freight.com",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "Peer is building an AI-native freight brokerage that quotes freight, finds the right trucking companies, tracks shipments, and handles problems from pickup through delivery for shippers.",
+      "one_liner": "AI-native freight brokerage",
+      "team_size": 2,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "B2B",
+      "subindustry": "B2B -> Supply Chain and Logistics",
+      "launched_at": 1786336832,
+      "tags": [
+        "Digital Freight Brokerage",
+        "Logistics"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Summer 2026",
+      "status": "Active",
+      "industries": [
+        "B2B",
+        "Supply Chain and Logistics"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/peer"
     },
     {
       "id": 32521,
@@ -20038,10 +20080,11 @@
       "subindustry": "B2B",
       "launched_at": 1784234137,
       "tags": [
+        "Artificial Intelligence",
         "Fintech",
         "SaaS",
-        "Automation",
-        "AI"
+        "Enterprise",
+        "Automation"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -24693,8 +24736,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/3c02ad81894db8e1b1d0e71c379c7cae04211613.png",
       "website": "https://velvetlab.ai",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "The multimodal data lab.",
-      "one_liner": "The multimodal data lab.",
+      "long_description": "Infra and data for interactive AI.",
+      "one_liner": "Infra and data for interactive AI.",
       "team_size": 4,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -24703,9 +24746,9 @@
       "subindustry": "B2B",
       "launched_at": 1761236237,
       "tags": [
-        "Artificial Intelligence",
         "Generative AI",
         "Data Engineering",
+        "AI",
         "Conversational AI"
       ],
       "tags_highlighted": [],
@@ -28291,15 +28334,17 @@
     },
     {
       "id": 30886,
-      "name": "Mod AI",
-      "slug": "mod-ai",
-      "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/942d0cc053faa8bcd3d973b7c4ce50fda2e6defa.png",
-      "website": "https://usemod.ai",
+      "name": "Clerked",
+      "slug": "clerked",
+      "former_names": [
+        "Mod AI"
+      ],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/84eedde0d0f019eaafca3d59004098b0b94f6ffb.png",
+      "website": "https://clerked.ai",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "We're building the first fully autonomous accounts payable platform.\r\n\r\nOur AI clerks handle your entire AP workflow: invoice processing, GL coding, PO matching, approvals, responding to vendors, fraud detection and reporting. From the moment an invoice hits your inbox to the moment it's paid, no manual steps required.\r\n\r\nWe integrate with 16+ ERPs including QuickBooks, NetSuite, SAP, Dynamics 365, and Workday.\r\n\r\nFind out why enterprise teams choose Mod AI at usemod.ai.",
-      "one_liner": "Touchless AP Automation",
-      "team_size": 4,
+      "long_description": "Fully automate your accounts payable with the most advanced AI clerks in the world.\r\n\r\nThen ask them anything about your spend. They build custom reports, find savings, and tell you exactly when to pay to protect cash flow and capture discounts.\r\n\r\nClerked is the only AP platform that lets you manage your payables entirely from your phone, in Teams, Slack or iMessage.\r\n\r\nSee it work at clerked.ai",
+      "one_liner": "AI clerks that automate your payables",
+      "team_size": 3,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -28307,10 +28352,10 @@
       "subindustry": "B2B",
       "launched_at": 1759171972,
       "tags": [
-        "Artificial Intelligence",
         "Fintech",
         "Finance",
-        "Enterprise"
+        "Enterprise",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -28330,7 +28375,7 @@
       "demo_day_video_public": false,
       "app_answers": null,
       "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/mod-ai"
+      "url": "https://www.ycombinator.com/companies/clerked"
     },
     {
       "id": 30885,
@@ -37141,9 +37186,9 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/918421e6cceeb8c0fe7223230f5345ddad2d5145.png",
       "website": "https://video.golpoai.com/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Golpo AI is the world's best platform to create fully produced whiteboard explainer videos from just a prompt or document. Instead of hiring an agency, you simply input a prompt or document explaining what you want, and in minutes you get a whiteboard explainer video in a style similar to Khan Academy or RSA Animate. After creation, you have the ability to edit all aspects of the video with just prompts. \r\n\r\nIt's perfect for training, faceless YouTube, marketing, technical, and educational videos — any video where understanding is important. Trusted by over 150,000 users as of July '26, Golpo features include but are not limited to: \r\n\r\n1) Convert your narration into an explainer video (with your narration as audio and the video time aligned) \r\n2) Input your document or prompt. Document can be of virtually any format or type (text, audio, video etc.) \r\n3) Script-to-video with matching audio\r\n4) Videos up to 10 minutes\r\n5) 50+ languages\r\n6) dead-simple editing after generation\r\n7) Insert your own videos and images into the generation, used as-is without alteration.\r\n8) 10+ visuals styles, including pen in hand, voice cloning, vertical video, custom branding and more! API access available. \r\n",
+      "long_description": "Golpo AI is the world's best platform to create fully produced whiteboard explainer videos from just a prompt or document. Instead of hiring an agency, you simply input a prompt or document explaining what you want, and in minutes you get a whiteboard explainer video in a style similar to Khan Academy or RSA Animate. After creation, you have the ability to edit all aspects of the video with just prompts. \r\n\r\nIt's perfect for training, faceless YouTube, marketing, technical, and educational videos — any video where understanding is important. Trusted by over 170,000 users as of July '26, Golpo features include but are not limited to: \r\n\r\n1) Convert your narration into an explainer video (with your narration as audio and the video time aligned) \r\n2) Input your document or prompt. Document can be of virtually any format or type (text, audio, video etc.) \r\n3) Script-to-video with matching audio\r\n4) Videos up to 10 minutes\r\n5) 50+ languages\r\n6) dead-simple editing after generation\r\n7) Insert your own videos and images into the generation, used as-is without alteration.\r\n8) 10+ visuals styles, including pen in hand, voice cloning, vertical video, custom branding and more! API access available. \r\n",
       "one_liner": "Create Whiteboard Explainer Videos with AI from a Prompt or Document",
-      "team_size": 4,
+      "team_size": 7,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -37454,7 +37499,7 @@
       "website": "https://traceroot.ai",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "TraceRoot is the open-source self-improving layer for AI agents — observability that detects failures in production, root-causes them against your source code and GitHub history, opens verified fix PRs, and evals every fix — so your agent gets better with every release.",
-      "one_liner": "Open source self-healing layer for AI agents",
+      "one_liner": "Open source self-improving layer for AI agents",
       "team_size": 1,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -37463,9 +37508,9 @@
       "subindustry": "B2B -> Engineering, Product and Design",
       "launched_at": 1753318246,
       "tags": [
-        "Artificial Intelligence",
         "Developer Tools",
-        "Infrastructure"
+        "Infrastructure",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -123414,7 +123459,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": true,
+      "isHiring": false,
       "nonprofit": false,
       "batch": "Winter 2022",
       "status": "Active",
