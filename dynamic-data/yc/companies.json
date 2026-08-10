@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-08-09T18:28:50.308Z",
-  "count": 6136,
+  "fetchedAt": "2026-08-10T01:46:28.225Z",
+  "count": 6139,
   "companies": [
     {
       "id": 35094,
@@ -621,8 +621,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/5e1ebb1f65dc65dbec9a58c2d2d505adc9e79d36.png",
       "website": "https://salemroboticsinc.com",
       "all_locations": "Austin, TX, USA",
-      "long_description": "Our software turns any robot we deploy into an everyday independent worker at your facility. They are able to walk sites, handle instruments, overcome obstacles, collect measurements, and generate auditable compliance records, replacing hours of manual surveys and inspections. Built by Los Alamos robotics veterans and deterministic-manipulation researchers, we're starting in nuclear and expanding to other hazardous industries.",
-      "one_liner": "We deploy robots for inspections in hazardous spaces, like nuclear.",
+      "long_description": "Our software turns any robot we deploy into an everyday independent worker at your facility. They are able to walk sites, handle instruments, overcome obstacles, collect measurements, and generate auditable compliance records, replacing hours of mandatory manual surveys and inspections. Built by Los Alamos robotics veterans and deterministic-manipulation researchers, we're starting in nuclear and expanding to other hazardous industries.",
+      "one_liner": "Deploying robots for inspections in hazardous spaces, like nuclear.",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -2122,11 +2122,11 @@
       "name": "Levocred AI",
       "slug": "levocred-ai",
       "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/0bbbf3d7f7c1c77264bdea3c5e95a8c6d460cd1f.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/4211252c17df7b0a89dc9c36ce49996bef59474d.png",
       "website": "https://levocred.com/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Levocred AI is the Company Brain for credit teams — an AI employee that plugs into the fund's loan tape, credit agreements, servicer reports, and bank feeds, and runs the workflows analysts would otherwise grind on.",
-      "one_liner": "AI for every workflow inside a credit team",
+      "long_description": "Levocred AI is an AI-native platform for credit funds, fintechs and banks to automate workflows like back-office tasks, portfolio monitoring, compliance and underwriting. Live across multiple credit teams, running ~$1Bn in receivables through the platform.",
+      "one_liner": "AI for credit funds, fintechs and banks",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -2296,7 +2296,7 @@
       "website": "https://agnost.ai",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Agnost AI helps teams building chat and voice AI agents understand what users want, where they get stuck, and why they drop off.\r\n\r\nWe read production AI conversations, cluster recurring intents, feature requests, frustration, and failure patterns, then open PRs against prompts, tools, and harnesses to improve the agent.",
-      "one_liner": "Product analytics for teams building conversational agents",
+      "one_liner": "Product analytics for AI Agents",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -2855,6 +2855,50 @@
       "app_answers": null,
       "question_answers": false,
       "url": "https://www.ycombinator.com/companies/last-accounting-company"
+    },
+    {
+      "id": 32913,
+      "name": "Pacific",
+      "slug": "pacific",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/196624bfab919b6dd989cb601af1771954cb562e.png",
+      "website": "https://gopacific.ai/",
+      "all_locations": "London, England, United Kingdom",
+      "long_description": "We mass-produce modular data centers that deploy on stalled infrastructure projects losing billions per week.\r\n\r\nDelayed infrastructure projects hemorrhage $1B a week in the US alone - Pacific mass-produces modular data centers that deploy on those sites in days and turn their unused power into revenue.\r\n\r\nData centers are stuck for years waiting for power, while delayed construction sites across the world sit on unused interconnects, losing billions of dollars per week in interest on trillions of dollars of debt. Our pods deploy on those sites and generate revenue for them in days. They use diamond wafers in the cooling system so pods run anywhere on earth, even a desert. \r\n\r\nWe'll use the same mechanisms we're building today to deploy compute across the galaxy.\r\n",
+      "one_liner": "Micro data centers for the harshest places on Earth and in space.",
+      "team_size": 2,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "Industrials",
+      "subindustry": "Industrials",
+      "launched_at": 1786300632,
+      "tags": [
+        "Fintech",
+        "Robotics",
+        "Space Exploration",
+        "Manufacturing",
+        "AI"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Summer 2026",
+      "status": "Active",
+      "industries": [
+        "Industrials"
+      ],
+      "regions": [
+        "United Kingdom",
+        "Europe"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/pacific"
     },
     {
       "id": 32848,
@@ -4005,7 +4049,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/0f86336cad3f47d72897d04916a12380f1f0094b.png",
       "website": "https://www.graphify.com/",
       "all_locations": "London, England, United Kingdom",
-      "long_description": "Graphify builds queryable knowledge graphs from local codebases, docs, and Jira (100K+ GitHub stars, ~4.2M downloads, used in production by engineers at Rootly, Geotab, Tweddle Group, and Superagent). \r\n\r\nOn that graph, its enterprise layer reviews every pull request and formally verifies each code change, proving the new behavior matches the old or handing back the exact input that breaks it. The graph updates itself as the code changes and keeps context instead of forgetting it, so your whole team and their coding agents work from one shared, always-current graph of the codebase instead of a thousand private threads. \r\n\r\nRuns fully on-premise, so no data leaves the building.",
+      "long_description": "Graphify builds queryable knowledge graphs from local codebases, docs, and Jira (105K+ GitHub stars, ~4.2M downloads, used in production by engineers at Rootly, Geotab, Tweddle Group, and Superagent). \r\n\r\nOn that graph, its enterprise layer reviews every pull request and formally verifies each code change, proving the new behavior matches the old or handing back the exact input that breaks it. The graph updates itself as the code changes and keeps context instead of forgetting it, so your whole team and their coding agents work from one shared, always-current graph of the codebase instead of a thousand private threads. \r\n\r\nRuns fully on-premise, so no data leaves the building.",
       "one_liner": "On-device knowledge graph engine for enterprises",
       "team_size": 2,
       "highlight_black": false,
@@ -4367,9 +4411,9 @@
       "subindustry": "Government",
       "launched_at": 1785365250,
       "tags": [
-        "Artificial Intelligence",
         "GovTech",
-        "Automation"
+        "Automation",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -5418,6 +5462,50 @@
       "url": "https://www.ycombinator.com/companies/dialogus"
     },
     {
+      "id": 32201,
+      "name": "Mosaic",
+      "slug": "mosaic-inc",
+      "former_names": [
+        "Synq Labs",
+        "Emergent Computing"
+      ],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/ccea1a14d9a796c8e8670b1aa85ebb489e030d7e.png",
+      "website": "https://mosaic.inc",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "Mosaic's main product, Ocean, gives people and their coding agents shared memory across every session, so everyone can understand what happened, why decisions were made, and pick up where someone else left off.\r\n\r\nWe also built Mosaic, a real-time coding environment where multiple people and their agents can work together live. It went viral, defined the multiplayer AI category, and inspired frontier labs like Anthropic.\r\n\r\nTogether, we’re building the infrastructure for people and agents to share context and work together.",
+      "one_liner": "Defining the frontier of multiplayer AI.",
+      "team_size": 2,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "B2B",
+      "subindustry": "B2B",
+      "launched_at": 1786309056,
+      "tags": [
+        "Service Mesh",
+        "AI"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Summer 2026",
+      "status": "Active",
+      "industries": [
+        "B2B"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/mosaic-inc"
+    },
+    {
       "id": 32200,
       "name": "Bizmark",
       "slug": "bizmark",
@@ -6297,6 +6385,49 @@
       "url": "https://www.ycombinator.com/companies/maingen"
     },
     {
+      "id": 32156,
+      "name": "Enact",
+      "slug": "enact",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/6f79f9bbc22f20d6e3465ca66081c4a646834064.png",
+      "website": "https://enact.company",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "Enact generates the data that makes robotics models reliable in the real world. We run the full improvement loop: roll out, find failures, collect targeted data, train, evaluate, and repeat.",
+      "one_liner": "The post-training layer for robotics.",
+      "team_size": 2,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "Industrials",
+      "subindustry": "Industrials -> Manufacturing and Robotics",
+      "launched_at": 1786311090,
+      "tags": [
+        "Artificial Intelligence",
+        "Reinforcement Learning",
+        "Robotics"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Summer 2026",
+      "status": "Active",
+      "industries": [
+        "Industrials",
+        "Manufacturing and Robotics"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/enact"
+    },
+    {
       "id": 32155,
       "name": "Rex",
       "slug": "rex-inc",
@@ -6389,7 +6520,7 @@
       "name": "Nebula Security",
       "slug": "nebula-security",
       "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/33d955b678b21d1907f01bee006dfaf515655e98.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c60d9cd12e8c1b315e07ee45555c24b5f74d5654.png",
       "website": "https://nebusec.ai",
       "all_locations": "Vancouver, WA, USA; Remote",
       "long_description": "Nebula Security is an AI-native cybersecurity company founded by world-class hackers.\r\n\r\nNebula Security provides Mythos-level cybersecurity reviews and product security auditing, conducted by our state-of-the-art AI agent and world-class hackers themselves, covering everything from code-level vulnerabilities to architectural weak points.\r\n\r\nWe were the first team to build an nginx RCE and the first to root Android 17. Our co-founders include members of the world’s No. 1 CTF team, DEF CON winners, Black Hat speakers, and PhD in cybersecurity. We have won $400K in bug bounties by exploiting the Linux kernel and Chrome browser.\r\n\r\n“Audited by Nebula Security” is a mark of serious security credibility: a signal to customers, investors, and partners that your product has been reviewed by the world’s best hackers.",
@@ -6794,8 +6925,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/3ecec9425d412cfc7fa1460b155883f078a7f023.png",
       "website": "https://erinys.ai",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "",
-      "one_liner": "The first network of AI-native law firms",
+      "long_description": "Erinys is building the first AI-native plaintiff-side litigation law firm network. We use sophisticated technology to deliver high-quality legal representation faster, more affordably, and to more people.\r\n",
+      "one_liner": "Building the first network of AI-native law firms",
       "team_size": 3,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -7018,7 +7149,7 @@
       "former_names": [],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/d6fb7711e26bf57516e7dcfa35cfadeb5d98b5b2.png",
       "website": "https://pango.ai/",
-      "all_locations": "Stockholm, Stockholm County, Sweden",
+      "all_locations": "New York City, NY, USA",
       "long_description": "Autonomous digital employee that runs back-office operations for e-commerce companies: deliveries, tracking, returns, transport and CS.",
       "one_liner": "Agentic OS for e-commerce operations",
       "team_size": 5,
@@ -7045,8 +7176,8 @@
         "Retail"
       ],
       "regions": [
-        "Sweden",
-        "Europe",
+        "United States of America",
+        "America / Canada",
         "Remote",
         "Partly Remote"
       ],
@@ -12662,8 +12793,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/31e129a3b1f344b0b01705a950c37b68af60a957.png",
       "website": "http://shotwell.ai/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Robotics companies send Shotwell their video data and we detect failures. We do this for both their training data and for their deployments. We've developed models that can automatically produce these annotations with near-instant turnaround time.",
-      "one_liner": "The Observability Layer for Robotics",
+      "long_description": "Shotwell AI is building the data QA layer for dexterous robotics. We work with teams collecting teleoperation and egocentric data to provide dense semantic annotation and validate task adherence. This lets teams compress feedback loops from weeks to hours and iterate on models much faster.",
+      "one_liner": "Annotations for robotics data",
       "team_size": 4,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -37322,7 +37453,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/fc86727a443ac448343eba0a5ce27b88d63b2f8f.png",
       "website": "https://traceroot.ai",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "TraceRoot is an open-source observability and self-healing layer for AI agents. It captures traces, debug with AI that sees your source code and GitHub history.",
+      "long_description": "TraceRoot is the open-source self-improving layer for AI agents — observability that detects failures in production, root-causes them against your source code and GitHub history, opens verified fix PRs, and evals every fix — so your agent gets better with every release.",
       "one_liner": "Open source self-healing layer for AI agents",
       "team_size": 1,
       "highlight_black": false,
@@ -37331,7 +37462,11 @@
       "industry": "B2B",
       "subindustry": "B2B -> Engineering, Product and Design",
       "launched_at": 1753318246,
-      "tags": [],
+      "tags": [
+        "Artificial Intelligence",
+        "Developer Tools",
+        "Infrastructure"
+      ],
       "tags_highlighted": [],
       "top_company": false,
       "isHiring": true,
@@ -57728,7 +57863,7 @@
       "website": "https://blaze.money",
       "all_locations": "Remote",
       "long_description": "Blaze (YC S24) is the agentic finance platform. For businesses it's an AI CFO that pays bills, invoices clients, and forecasts cash. For people it's an agent that sends money, converts currencies, and manages your finances globally: you set the rules, it handles the rest. \r\n\r\nOther AI finance tools just report. Blaze moves the money, on your approval, in stablecoins or straight through the banking system. The founders scaled their last startup to $1M in ARR, studied at Duke, NYU, and Cornell, and led teams at Spotify and Artsy. npx @blaze-money/cli · https://blaze.money",
-      "one_liner": "Global Venmo for cross border payments",
+      "one_liner": "Agentic Finance for your Life and Business",
       "team_size": 5,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -57737,11 +57872,11 @@
       "subindustry": "Fintech -> Payments",
       "launched_at": 1724981206,
       "tags": [
-        "Artificial Intelligence",
         "Fintech",
         "Crypto / Web3",
         "Payments",
-        "Finance"
+        "Finance",
+        "AI"
       ],
       "tags_highlighted": [
         "Crypto / Web3"
@@ -165028,7 +165163,7 @@
       "all_locations": "San Francisco, CA, USA",
       "long_description": "‍Fieldguide is a vertical AI platform for modern assurance and advisory firms that digitizes the end-to-end engagement workflow on a single platform. Built by former Big Four practitioners and experienced technology leaders, Fieldguide is trusted by top CPA firms to improve margins, win new business, and build stronger client relationships. We’re based in San Francisco, CA, but built as a remote-first company that enables you to do your best work from anywhere. We're backed by top investors including Goldman Sachs, Bessemer Venture Partners, 8VC, Y Combinator, Floodgate, Elad Gil, Justin Kan, Qasar Younis, Eric Ries, and more.",
       "one_liner": "Vertical AI for Audit & Advisory Firms",
-      "team_size": 180,
+      "team_size": 200,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -165036,10 +165171,10 @@
       "subindustry": "B2B -> Productivity",
       "launched_at": 1598200142,
       "tags": [
+        "Artificial Intelligence",
         "B2B",
         "Workflow Automation",
-        "Productivity",
-        "AI"
+        "Productivity"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -165057,7 +165192,7 @@
         "Remote",
         "Partly Remote"
       ],
-      "stage": "Growth",
+      "stage": "Early",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,

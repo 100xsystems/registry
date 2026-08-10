@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-08-09T18:28:26.580Z",
+  "updatedAt": "2026-08-10T01:46:15.516Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -665,7 +665,15 @@
       "summary": "After becoming a PostgreSQL ACE, Zhang Chen explains why he uses the title “PostgreSQL Database Recovery Expert” and how PDU evolved from offline extraction and WAL mining to fragment scanning and recovery without a data dictionary.",
       "author": null,
       "publishedAt": "2026-08-09T00:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9rT",
+      "title": "Christophe Pettus: All Your GUCs in a Row: integer_datetimes",
+      "link": "https://postgr.es/p/9rT",
+      "summary": "Every PostgreSQL connection since 8.0 has heard the server announce `integer_datetimes`—a parameter that's had only one possible value since PostgreSQL 10.",
+      "author": null,
+      "publishedAt": "2026-08-10T01:00:00.000Z"
     }
   ],
-  "totalIndexed": 82
+  "totalIndexed": 83
 }
