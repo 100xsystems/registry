@@ -1,63 +1,66 @@
-# YC Company Changes for 2026-08-10
+# YC Company Changes for 2026-08-11
 
-- Previous total: 6140
-- Current total: 6143
-- Added: 3
+- Previous total: 6143
+- Current total: 6144
+- Added: 1
 - Removed: 0
-- Updated: 10
+- Updated: 11
 
 
 ## Added Companies
 
-- [Financial Datasets](https://www.ycombinator.com/companies/financial-datasets) (Summer 2026) — Connect your agent to the stock market 
-- [Verdict Machine](https://www.ycombinator.com/companies/verdict-machine) (Summer 2026) — AI cybersecurity for financial institutions' digital assets
-- [Antropi Robotics](https://www.ycombinator.com/companies/antropi-robotics) (Fall 2026) — Autonomous CNC factories for faster hardware
+- [RingMD](https://www.ycombinator.com/companies/ringmd) (Summer 2020) — We work with governments to implement telemedicine programs.  
 
 ## Updated Companies
 
-### [Swif.ai](https://www.ycombinator.com/companies/swif-ai)
-
-- `one_liner`: The guardrail for AI on every device → Manage every device. Govern every AI agent.
-
-### [Moonvalley](https://www.ycombinator.com/companies/moonvalley)
-
-- `all_locations`:  → Toronto, ON, Canada
-- `regions`: Remote,Partly Remote → Canada,America / Canada,Remote,Partly Remote
-
-### [Broccoli AI](https://www.ycombinator.com/companies/broccoli-ai)
-
-- `team_size`: 60 → 85
-- `stage`: Growth → Early
-
-### [BiggerPicture](https://www.ycombinator.com/companies/biggerpicture)
-
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/e055b18299158b18e062a6d3524e3415fe906e19.png → https://bookface-images.s3.amazonaws.com/small_logos/6639dccaea5b8ef9500bf764b86c635b323d7790.png
-- `one_liner`: Scheduling automation platform between trucking and warehousing  → The largest freight scheduling network in the industry.
-- `team_size`: 5 → 9
-- `tags`: Scheduling,Logistics → Scheduling,Logistics,Supply Chain
-
-### [Clearline](https://www.ycombinator.com/companies/clearline)
+### [Vouch](https://www.ycombinator.com/companies/vouch)
 
 - `isHiring`: true → false
 
-### [Propaya](https://www.ycombinator.com/companies/propaya)
+### [Superwall](https://www.ycombinator.com/companies/staffbar)
 
-- `one_liner`: AI commercial lease abstractions and review → 
-- `tags`: Artificial Intelligence,Real Estate,Housing,Proptech → Artificial Intelligence,Real Estate,Proptech
-- `question_answers`: true → false
+- `isHiring`: false → true
 
-### [SimCare](https://www.ycombinator.com/companies/simcare)
+### [PAYZE](https://www.ycombinator.com/companies/payze)
+
+- `status`: Active → Inactive
+
+### [Centauri AI](https://www.ycombinator.com/companies/centauri-ai)
+
+- `one_liner`: The Modern ETL and Data Science Platform for Finance → Helps teams work effectively with AI coding agents.
+- `industry`: Fintech → B2B
+- `subindustry`: Fintech -> Asset Management → B2B
+- `tags`:  → Developer Tools,Workflow Automation,AI
+- `industries`: Fintech,Asset Management → B2B
+
+### [Opusense AI](https://www.ycombinator.com/companies/opusense-ai)
 
 - `isHiring`: true → false
 
-### [chrt](https://www.ycombinator.com/companies/chrt)
+### [Tensr](https://www.ycombinator.com/companies/tensr)
 
-- `isHiring`: true → false
+- `batch`: Fall 2025 → Summer 2026
 
-### [Didit](https://www.ycombinator.com/companies/didit)
+### [Captain](https://www.ycombinator.com/companies/captain)
 
-- `isHiring`: true → false
+- `website`: https://runcaptain.com → https://captain.dev
 
-### [Discovered Materials](https://www.ycombinator.com/companies/discovered-materials)
+### [Narrative](https://www.ycombinator.com/companies/usenarrative)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/910cd5b0344664a22b57c59a7d459cabe1095bee.png → https://bookface-images.s3.amazonaws.com/small_logos/8369f21b7293d92e30b956a07f47bda16f550d10.png
+- `one_liner`: AI-Powered Sports Highlights → Video Intelligence for Sports
+- `tags`: Artificial Intelligence,Sports Tech,B2B,Video → Sports Tech,B2B,Video,AI
+
+### [CentralComs](https://www.ycombinator.com/companies/centralcoms)
+
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/54ba538a0dd95f0a3b77f6e1bf3245359e03da5f.png → https://bookface-images.s3.amazonaws.com/small_logos/5f6099883faaacd376e6491fdd0920b4de8a2c3c.png
+- `one_liner`: AI Agents for Property Management → We bring your home service company more jobs.
+- `subindustry`: Real Estate and Construction → Real Estate and Construction -> Construction
+- `industries`: Real Estate and Construction → Real Estate and Construction,Construction
+
+### [Risklytics](https://www.ycombinator.com/companies/risklytics)
+
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/9bea08668ad223dfeb2f0c2d3799c02476bc4493.png → https://bookface-images.s3.amazonaws.com/small_logos/879622d4fa103941586542ac659eaf9b60d897f0.png
+
+### [Arbital](https://www.ycombinator.com/companies/arbital)
+
+- `tags`: DeFi,Crypto / Web3,Trading → Fintech,Crypto / Web3,Investing,Trading,AI
