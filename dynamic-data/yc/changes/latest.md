@@ -1,63 +1,47 @@
 # YC Company Changes for 2026-08-11
 
-- Previous total: 6144
+- Previous total: 6145
 - Current total: 6145
-- Added: 2
-- Removed: 1
-- Updated: 9
+- Added: 0
+- Removed: 0
+- Updated: 8
 
-
-## Added Companies
-
-- [twentyfour26](https://www.ycombinator.com/companies/twentyfour26) (Fall 2026) — On Demand CNC Prototyping 
-- [Vorelios](https://www.ycombinator.com/companies/vorelios) (Fall 2026) — AI that simulates physics 1000x faster
-
-## Removed Companies
-
-- Antropi Robotics (Fall 2026)
 
 ## Updated Companies
 
 ### [DirectShifts](https://www.ycombinator.com/companies/directshifts)
 
-- `all_locations`: New York City, NY, USA; New York, NY, USA → New York City, NY, USA; Remote
-- `one_liner`: Helping healthcare workers find their next career opportunity  → Workforce platform to recruit, license, credential & manage clinicians
-- `regions`: United States of America,America / Canada,Remote,Partly Remote → United States of America,America / Canada,Remote,Fully Remote
-- `stage`: Growth → Early
+- `stage`: Early → Growth
 
-### [Sprites](https://www.ycombinator.com/companies/sprites)
+### [RingMD](https://www.ycombinator.com/companies/ringmd)
 
-- `isHiring`: true → false
+- `stage`: Early → Growth
 
-### [idler](https://www.ycombinator.com/companies/idler)
+### [Broccoli AI](https://www.ycombinator.com/companies/broccoli-ai)
 
-- `name`: Idler → idler
-- `former_names`:  → Idler
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/be10a2d11184480de4bc819bb87298c7d2766cce.png → https://bookface-images.s3.amazonaws.com/small_logos/3ab3b751ff1a6569beaba5e0f91c3c4dbcda3e55.png
-- `one_liner`: Reinforcement learning environments.  → reinforcement learning environments
+- `stage`: Early → Growth
 
-### [Amika](https://www.ycombinator.com/companies/amika)
+### [HyLight](https://www.ycombinator.com/companies/hylight)
 
-- `tags`: Artificial Intelligence,Machine Learning,B2B,Infrastructure → Machine Learning,B2B,Infrastructure,AI
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/17e115f6387d31c268302079d59ab1981c37d8ca.png → https://bookface-images.s3.amazonaws.com/small_logos/5bcbb9e93eb3ebbc3a622b3826ec8c2df9b276d7.png
+- `one_liner`: Small unmanned hydrogen airships for long range monitoring → Unmanned airships for inspecting our critical assets
+- `team_size`: 22 → 37
 
-### [CentralComs](https://www.ycombinator.com/companies/centralcoms)
+### [Piramidal](https://www.ycombinator.com/companies/piramidal)
 
-- `one_liner`: We bring your home service company more jobs. → AI agent platform for home services companies.
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/f3630d8d42df7b955f72674a1836830d42cbab30.png → https://bookface-images.s3.amazonaws.com/small_logos/498bf9290381446bf87d93fc0ef2a631960e646a.png
+- `tags`:  → Artificial Intelligence,Neurotechnology
 
-### [Trope](https://www.ycombinator.com/companies/trope)
+### [Vespper](https://www.ycombinator.com/companies/vespper)
 
-- `tags`: Artificial Intelligence,SaaS,B2B → SaaS,B2B,AI
+- `all_locations`: Tel Aviv-Yafo, Tel Aviv District, Israel; Remote → San Francisco, CA, USA; Remote
+- `tags`: Documents,Developer Tools,B2B,API,AI → Documents,Artificial Intelligence,Developer Tools,B2B,API
+- `regions`: Israel,Middle East and North Africa,Remote,Fully Remote → United States of America,America / Canada,Remote,Fully Remote
 
-### [Pacific](https://www.ycombinator.com/companies/pacific)
+### [Minerva](https://www.ycombinator.com/companies/minerva)
 
-- `one_liner`: Micro data centers for the harshest places on Earth and in space. → Mass-producing and deploying micro data centers for Earth and Space
-- `tags`: Fintech,Robotics,Space Exploration,Manufacturing,AI → Artificial Intelligence,Fintech,Robotics,Space Exploration,Manufacturing
+- `website`: https://www.tryminerva.ai → https://joinminerva.ai
 
-### [Inkbox](https://www.ycombinator.com/companies/inkbox)
+### [Omnara](https://www.ycombinator.com/companies/omnara)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/f2e10120a7184c6f7b716b22ea7167e079fcbd86.png → https://bookface-images.s3.amazonaws.com/small_logos/59d6214df81a05c739db52287017ae33c8c45f0d.png
-- `one_liner`: Give your AI agents email, phone, iMessage and an internet address → Let your agents communicate via email, phone, iMessage, & Agent2Agent
-
-### [Dawn Industries](https://www.ycombinator.com/companies/dawn-industries)
-
-- `isHiring`: true → false
+- `one_liner`: The Control Plane for Agents → The Open-Source Alternative to Claude Managed Agents
