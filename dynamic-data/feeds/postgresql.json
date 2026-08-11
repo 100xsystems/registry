@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-08-11T13:03:00.908Z",
+  "updatedAt": "2026-08-11T18:51:28.946Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -713,7 +713,15 @@
       "summary": "You have probably read a dozen tutorials on setting up PostgreSQL High Availability (HA). On paper, it looks simple: spin up a primary instance, spin up a standby, and let them replicate.\nBut what happens when you move to a multi-region architecture? What happens when your disaster recovery (DR)…",
       "author": null,
       "publishedAt": "2026-08-11T05:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9s3",
+      "title": "Dimitri Fontaine: Introducing sqlfmt: an SQL gofmt-style formatter",
+      "link": "https://postgr.es/p/9s3",
+      "summary": "Formatting SQL tends to bring some of the same questions again and again:\nshould we uppercase clause keywords? should we put the separating comma at\nthe start of a line to ease refactoring? how to align the SQL clauses with\none-another?\nOver the years I have grown my own SQL style and didn’t find…",
+      "author": null,
+      "publishedAt": "2026-08-11T12:30:37.000Z"
     }
   ],
-  "totalIndexed": 88
+  "totalIndexed": 89
 }
