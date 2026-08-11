@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-08-08T07:01:29.199Z",
+  "updatedAt": "2026-08-11T07:15:58.777Z",
   "items": [
     {
       "guid": "t-j-maher::https://www.tjmaher.com/2026/06/does-giving-presentation-via-zoom-to.html",
@@ -231,7 +231,23 @@
       "summary": "Now that we have installed bun, Anthropic's package manager, and scaffolded a Playwright framework and closely examined the results, we are going to explore with our Bun-Create-Playwright project ways to check if our code is correct. \n\n\nThe first method we will be exploring is typechecking. \n\n\nWhy…",
       "author": "T.J. Maher",
       "publishedAt": "2026-08-08T03:10:43.830Z"
+    },
+    {
+      "guid": "t-j-maher::https://www.tjmaher.com/2026/08/running-tests-with-playwright-test.html",
+      "title": "Running Tests with Playwright Test Explorer and Generating Tests with Codegen",
+      "link": "https://www.tjmaher.com/2026/08/running-tests-with-playwright-test.html",
+      "summary": "Finding the best locator for a web element can be a hassle:\n\nRight clicking on an element in Google Chrome. Inspecting the element. Going to Chrome Developer Tools. Try to decide what to do if there isn't a clear test id. \n\nPlaywright comes with a built in code generator where it can built out a…",
+      "author": "T.J. Maher",
+      "publishedAt": "2026-08-11T03:00:47.444Z"
+    },
+    {
+      "guid": "t-j-maher::https://www.tjmaher.com/2026/08/checking-code-with-lint-formatting-it.html",
+      "title": "Checking code with lint, formatting it with prettier",
+      "link": "https://www.tjmaher.com/2026/08/checking-code-with-lint-formatting-it.html",
+      "summary": "Now that we've installed bun, Anthropic's package manager, scaffolded a Playwright framework and closely examined the results, and added typechecking with TypeScript's compiler, it's time to add ways to check the code with lint, and reformat the code with prettier. \n\n\nWe will be using:\n\nESLint, as…",
+      "author": "T.J. Maher",
+      "publishedAt": "2026-08-10T23:23:45.625Z"
     }
   ],
-  "totalIndexed": 28
+  "totalIndexed": 30
 }

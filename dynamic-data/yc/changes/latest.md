@@ -1,66 +1,63 @@
 # YC Company Changes for 2026-08-11
 
-- Previous total: 6143
-- Current total: 6144
-- Added: 1
-- Removed: 0
-- Updated: 11
+- Previous total: 6144
+- Current total: 6145
+- Added: 2
+- Removed: 1
+- Updated: 9
 
 
 ## Added Companies
 
-- [RingMD](https://www.ycombinator.com/companies/ringmd) (Summer 2020) — We work with governments to implement telemedicine programs.  
+- [twentyfour26](https://www.ycombinator.com/companies/twentyfour26) (Fall 2026) — On Demand CNC Prototyping 
+- [Vorelios](https://www.ycombinator.com/companies/vorelios) (Fall 2026) — AI that simulates physics 1000x faster
+
+## Removed Companies
+
+- Antropi Robotics (Fall 2026)
 
 ## Updated Companies
 
-### [Vouch](https://www.ycombinator.com/companies/vouch)
+### [DirectShifts](https://www.ycombinator.com/companies/directshifts)
+
+- `all_locations`: New York City, NY, USA; New York, NY, USA → New York City, NY, USA; Remote
+- `one_liner`: Helping healthcare workers find their next career opportunity  → Workforce platform to recruit, license, credential & manage clinicians
+- `regions`: United States of America,America / Canada,Remote,Partly Remote → United States of America,America / Canada,Remote,Fully Remote
+- `stage`: Growth → Early
+
+### [Sprites](https://www.ycombinator.com/companies/sprites)
 
 - `isHiring`: true → false
 
-### [Superwall](https://www.ycombinator.com/companies/staffbar)
+### [idler](https://www.ycombinator.com/companies/idler)
 
-- `isHiring`: false → true
+- `name`: Idler → idler
+- `former_names`:  → Idler
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/be10a2d11184480de4bc819bb87298c7d2766cce.png → https://bookface-images.s3.amazonaws.com/small_logos/3ab3b751ff1a6569beaba5e0f91c3c4dbcda3e55.png
+- `one_liner`: Reinforcement learning environments.  → reinforcement learning environments
 
-### [PAYZE](https://www.ycombinator.com/companies/payze)
+### [Amika](https://www.ycombinator.com/companies/amika)
 
-- `status`: Active → Inactive
-
-### [Centauri AI](https://www.ycombinator.com/companies/centauri-ai)
-
-- `one_liner`: The Modern ETL and Data Science Platform for Finance → Helps teams work effectively with AI coding agents.
-- `industry`: Fintech → B2B
-- `subindustry`: Fintech -> Asset Management → B2B
-- `tags`:  → Developer Tools,Workflow Automation,AI
-- `industries`: Fintech,Asset Management → B2B
-
-### [Opusense AI](https://www.ycombinator.com/companies/opusense-ai)
-
-- `isHiring`: true → false
-
-### [Tensr](https://www.ycombinator.com/companies/tensr)
-
-- `batch`: Fall 2025 → Summer 2026
-
-### [Captain](https://www.ycombinator.com/companies/captain)
-
-- `website`: https://runcaptain.com → https://captain.dev
-
-### [Narrative](https://www.ycombinator.com/companies/usenarrative)
-
-- `one_liner`: AI-Powered Sports Highlights → Video Intelligence for Sports
-- `tags`: Artificial Intelligence,Sports Tech,B2B,Video → Sports Tech,B2B,Video,AI
+- `tags`: Artificial Intelligence,Machine Learning,B2B,Infrastructure → Machine Learning,B2B,Infrastructure,AI
 
 ### [CentralComs](https://www.ycombinator.com/companies/centralcoms)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/54ba538a0dd95f0a3b77f6e1bf3245359e03da5f.png → https://bookface-images.s3.amazonaws.com/small_logos/5f6099883faaacd376e6491fdd0920b4de8a2c3c.png
-- `one_liner`: AI Agents for Property Management → We bring your home service company more jobs.
-- `subindustry`: Real Estate and Construction → Real Estate and Construction -> Construction
-- `industries`: Real Estate and Construction → Real Estate and Construction,Construction
+- `one_liner`: We bring your home service company more jobs. → AI agent platform for home services companies.
 
-### [Risklytics](https://www.ycombinator.com/companies/risklytics)
+### [Trope](https://www.ycombinator.com/companies/trope)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/9bea08668ad223dfeb2f0c2d3799c02476bc4493.png → https://bookface-images.s3.amazonaws.com/small_logos/879622d4fa103941586542ac659eaf9b60d897f0.png
+- `tags`: Artificial Intelligence,SaaS,B2B → SaaS,B2B,AI
 
-### [Arbital](https://www.ycombinator.com/companies/arbital)
+### [Pacific](https://www.ycombinator.com/companies/pacific)
 
-- `tags`: DeFi,Crypto / Web3,Trading → Fintech,Crypto / Web3,Investing,Trading,AI
+- `one_liner`: Micro data centers for the harshest places on Earth and in space. → Mass-producing and deploying micro data centers for Earth and Space
+- `tags`: Fintech,Robotics,Space Exploration,Manufacturing,AI → Artificial Intelligence,Fintech,Robotics,Space Exploration,Manufacturing
+
+### [Inkbox](https://www.ycombinator.com/companies/inkbox)
+
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/f2e10120a7184c6f7b716b22ea7167e079fcbd86.png → https://bookface-images.s3.amazonaws.com/small_logos/59d6214df81a05c739db52287017ae33c8c45f0d.png
+- `one_liner`: Give your AI agents email, phone, iMessage and an internet address → Let your agents communicate via email, phone, iMessage, & Agent2Agent
+
+### [Dawn Industries](https://www.ycombinator.com/companies/dawn-industries)
+
+- `isHiring`: true → false
