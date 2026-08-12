@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-07-24T06:50:40.888Z",
+  "updatedAt": "2026-08-12T07:40:15.009Z",
   "items": [
     {
       "guid": "https://engineering.grab.com/how-grab-builds-and-runs-ai-agents-at-scale",
@@ -87,7 +87,15 @@
       "summary": "Introduction\nEnsuring the reliability of Apache Flink deployments in Grab is crucial for the availability of our business-critical, real-time applications. While all applications are tested in a staging environment before getting promoted to the production environment, there is still a class of…",
       "author": null,
       "publishedAt": "2026-05-07T00:23:00.000Z"
+    },
+    {
+      "guid": "https://engineering.grab.com/grab-bench-evaluating-ai",
+      "title": "Grab Bench: Evaluating AI on Grab-shaped production work",
+      "link": "https://engineering.grab.com/grab-bench-evaluating-ai",
+      "summary": "Introduction\nWhat worried us wasn’t the hallucination, it was the subtle plausibility. Answers an engineer could easily read past and accept: a right-looking Structured Query Language (SQL) query, a plausible tool call, an innocent profile update, or a patch that satisfied the surface tests.\nWhen…",
+      "author": null,
+      "publishedAt": "2026-08-12T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 10
+  "totalIndexed": 11
 }

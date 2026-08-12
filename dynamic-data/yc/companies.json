@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-08-12T01:54:51.896Z",
-  "count": 6151,
+  "fetchedAt": "2026-08-12T07:40:20.288Z",
+  "count": 6153,
   "companies": [
     {
       "id": 35784,
@@ -2114,6 +2114,49 @@
       "url": "https://www.ycombinator.com/companies/lamb-labs"
     },
     {
+      "id": 33053,
+      "name": "Shiraz AI",
+      "slug": "shiraz-ai",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/93d2ffb0a884b8a3781f59266189d89f4b30d975.png",
+      "website": "https://shiraz.ai",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "We deploy robots that learn new tasks from a single human demonstration in the factory. We're starting in contract manufacturing, where lines change every week and both traditional automation and today's VLAs fall over.\r\n\r\nOur founding team has 20+ years of experience in robotics. Navid was part of the core team that productized Spot at Boston Dynamics and led manipulation projects there. Before that, he was at Rethink Robotics. Mojtaba led whole-body control and manipulation efforts at Amazon Robotics and was a Research Assistant Professor at Northwestern University.",
+      "one_liner": "Robots that learn on the job",
+      "team_size": 2,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "Industrials",
+      "subindustry": "Industrials -> Manufacturing and Robotics",
+      "launched_at": 1786517990,
+      "tags": [
+        "Generative AI",
+        "Robotics",
+        "Manufacturing"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Summer 2026",
+      "status": "Active",
+      "industries": [
+        "Industrials",
+        "Manufacturing and Robotics"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/shiraz-ai"
+    },
+    {
       "id": 33052,
       "name": "Mireye",
       "slug": "mireye",
@@ -3442,7 +3485,7 @@
       "website": "https://movingatoms.ai/",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "We use World Models to evaluate  and train robots. This enables you to test your policy checkpoints easily, as well as augmenting your training dataset. Scaling GPUs is much cheaper than scaling robot arms and humans needed to moniter them.",
-      "one_liner": "Virtual Reality for Robots (World Models)",
+      "one_liner": "Virtual Reality for Evaluating Robots (World Models)",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -3451,9 +3494,9 @@
       "subindustry": "Industrials -> Manufacturing and Robotics",
       "launched_at": 1786481200,
       "tags": [
-        "Artificial Intelligence",
         "Robotics",
-        "Virtual Reality"
+        "Virtual Reality",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -3798,7 +3841,7 @@
       "website": "https://www.risklytics.ai/",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Risklytics is a commercial insurance brokerage for frontier tech: robotics, autonomy, data centers, and energy infrastructure. Insurers are writing AI exclusions into standard liability forms, so companies whose products act in the physical world end up holding risk they thought they had transferred. We specialize in that gap, and we know which carriers in the admitted and surplus lines markets will still underwrite it. If you're building anything that moves, lifts, drives, or powers something, we'd like to talk.",
-      "one_liner": "Commercial Insurance Brokerage for Frontier Tech",
+      "one_liner": "Insurance for the Frontier",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -3807,11 +3850,11 @@
       "subindustry": "Fintech -> Insurance",
       "launched_at": 1783123197,
       "tags": [
+        "Artificial Intelligence",
         "Hardware",
         "Machine Learning",
         "B2B",
-        "Insurance",
-        "AI"
+        "Insurance"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -5052,6 +5095,47 @@
       "app_answers": null,
       "question_answers": false,
       "url": "https://www.ycombinator.com/companies/standard-machines"
+    },
+    {
+      "id": 32484,
+      "name": "EdotEnv",
+      "slug": "edotenv",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/a53586c9aacc3d5c0003f5bde0beb3535a3613f6.png",
+      "website": "https://edotenv.com",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "EdotEnv is a Quant Neolab building toward RSI. They turn markets into self-improving research environments for AI agents.\r\n\r\nThe path to RSI is a continuous loop: agents conduct research, learn from the results, and autonomously become better at conducting the next round of research. For that loop to continue, each round must present a harder problem than the last.\r\n\r\nMarkets create this dynamic naturally. Every discovered inefficiency attracts competition, and every successful strategy makes future opportunities harder to find. Quant research therefore provides an advancing frontier for self-improving agents.\r\n\r\nEdotEnv captures this process in multi-step environments where agents form hypotheses, design experiments, verify results and iterate. They use these environments to evaluate and post-train agents on increasingly difficult research tasks.\r\n\r\nThey work with frontier AI labs and academic groups building research harnesses, evaluation benchmarks, and post-training environments.\r\n\r\nEdotEnv's team previously worked in quantitative research at G-Research, high frequency options trading at TransMarket Group, and LLM inference research at Etched.",
+      "one_liner": "A Quant Neolab building toward RSI via quant trading",
+      "team_size": 2,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "B2B",
+      "subindustry": "B2B",
+      "launched_at": 1786503507,
+      "tags": [
+        "Reinforcement Learning",
+        "Time Series"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Summer 2026",
+      "status": "Active",
+      "industries": [
+        "B2B"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/edotenv"
     },
     {
       "id": 32418,
@@ -34754,7 +34838,7 @@
       "all_locations": "New York City, NY, USA",
       "long_description": "We emulate the attacks real adversaries run today: help-desk vishing, deepfaked executives, MFA fatigue, and the payloads that follow. We run them against your people and the controls around them to reveal what is actually exploitable, not what looks compliant. Then we close the gap, retest until the fix holds, and give your leadership the evidence that risk actually went down. From initial access to remediation.",
       "one_liner": "Your always-on red team.",
-      "team_size": 10,
+      "team_size": 6,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -34762,9 +34846,9 @@
       "subindustry": "B2B -> Security",
       "launched_at": 1753230986,
       "tags": [
-        "Artificial Intelligence",
         "B2B",
-        "Cybersecurity"
+        "Cybersecurity",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -54367,7 +54451,7 @@
       "website": "https://freebuff.com",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "We're making consumer agent products completely free, using the best open source models, and funded by ads.\r\n\r\nOur first product is a coding agent CLI called Freebuff. Install it with \"npm i -g freebuff\". We're also working on a free Lovable competitor.",
-      "one_liner": "The 100% free coding agent",
+      "one_liner": "The free coding agent",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -54376,8 +54460,8 @@
       "subindustry": "B2B -> Engineering, Product and Design",
       "launched_at": 1728685475,
       "tags": [
-        "Artificial Intelligence",
-        "Developer Tools"
+        "Developer Tools",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -72852,7 +72936,7 @@
         "HostAI"
       ],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/b7203ae9cb780218b08e159ff4d1da47aae0c79a.png",
-      "website": "https://conduit.ai/?utm_source=referral&utm_medium=organic&utm_campaign=ycombinator",
+      "website": "https://conduit.ai",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Conduit is the leading AI agent platform for hospitality operations.\r\n\r\nOperators can create, test, and run AI agents on Conduit's harness purpose built for hospitality. On-brand agents handles the full guest journey, converting inquiries into bookings and driving upsell revenue, then runs internal operations and surfaces insights for leadership. All connected to the systems operators already use. \r\n\r\nTrusted by over 1000+ global hospitality brands across 120+ countries.",
       "one_liner": "AI Agents for Hospitality",
@@ -129789,7 +129873,7 @@
       "all_locations": "San Francisco, CA, USA; Remote",
       "long_description": "",
       "one_liner": "Search and automation for engineer-to-order companies",
-      "team_size": 4,
+      "team_size": 5,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -129797,10 +129881,10 @@
       "subindustry": "B2B",
       "launched_at": 1648654841,
       "tags": [
+        "Artificial Intelligence",
         "Manufacturing",
         "Defense",
-        "Search",
-        "AI"
+        "Search"
       ],
       "tags_highlighted": [],
       "top_company": false,
