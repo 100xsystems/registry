@@ -1,44 +1,62 @@
 # YC Company Changes for 2026-08-12
 
-- Previous total: 6151
-- Current total: 6153
-- Added: 2
-- Removed: 0
-- Updated: 6
+- Previous total: 6153
+- Current total: 6152
+- Added: 0
+- Removed: 1
+- Updated: 11
 
 
-## Added Companies
+## Removed Companies
 
-- [EdotEnv](https://www.ycombinator.com/companies/edotenv) (Summer 2026) — A Quant Neolab building toward RSI via quant trading
-- [Shiraz AI](https://www.ycombinator.com/companies/shiraz-ai) (Summer 2026) — Robots that learn on the job
+- Convictional (Winter 2019)
 
 ## Updated Companies
 
-### [Capuchin](https://www.ycombinator.com/companies/capuchin)
+### [Clever](https://www.ycombinator.com/companies/clever)
 
-- `team_size`: 4 → 5
-- `tags`: Manufacturing,Defense,Search,AI → Artificial Intelligence,Manufacturing,Defense,Search
+- `stage`: Early → Growth
 
-### [Conduit](https://www.ycombinator.com/companies/conduit-ai)
+### [RevenueCat](https://www.ycombinator.com/companies/revenuecat)
 
-- `website`: https://conduit.ai/?utm_source=referral&utm_medium=organic&utm_campaign=ycombinator → https://conduit.ai
+- `stage`: Early → Growth
 
-### [Freebuff](https://www.ycombinator.com/companies/freebuff)
+### [Nabis](https://www.ycombinator.com/companies/nabis)
 
-- `one_liner`: The 100% free coding agent → The free coding agent
-- `tags`: Artificial Intelligence,Developer Tools → Developer Tools,AI
+- `stage`: Early → Growth
 
-### [GhostEye](https://www.ycombinator.com/companies/ghosteye)
+### [NALA](https://www.ycombinator.com/companies/nala)
 
-- `team_size`: 10 → 6
-- `tags`: Artificial Intelligence,B2B,Cybersecurity → B2B,Cybersecurity,AI
+- `isHiring`: true → false
 
-### [Risklytics](https://www.ycombinator.com/companies/risklytics)
+### [Freshpaint](https://www.ycombinator.com/companies/freshpaint)
 
-- `one_liner`: Commercial Insurance Brokerage for Frontier Tech → Insurance for the Frontier
-- `tags`: Hardware,Machine Learning,B2B,Insurance,AI → Artificial Intelligence,Hardware,Machine Learning,B2B,Insurance
+- `stage`: Early → Growth
 
-### [Moving Atoms](https://www.ycombinator.com/companies/moving-atoms)
+### [Candid Health](https://www.ycombinator.com/companies/candid-health)
 
-- `one_liner`: Virtual Reality for Robots (World Models) → Virtual Reality for Evaluating Robots (World Models)
-- `tags`: Artificial Intelligence,Robotics,Virtual Reality → Robotics,Virtual Reality,AI
+- `stage`: Early → Growth
+
+### [Adaptyv](https://www.ycombinator.com/companies/adaptyv)
+
+- `stage`: Early → Growth
+
+### [Diffusion Studio](https://www.ycombinator.com/companies/diffusion-studio)
+
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/c6f433de4b4c642c9311574e0d72dda2296ffd27.png → https://bookface-images.s3.amazonaws.com/small_logos/d6afcff2711f9441590b0357af0a3115ddece5ad.png
+- `one_liner`: Professional-grade video editing, in your browser. → The professional video editor built for agents
+- `team_size`: 3 → 2
+
+### [Nitrode](https://www.ycombinator.com/companies/nitrode)
+
+- `team_size`: 6 → 10
+- `tags`: Machine Learning,B2B,Data Engineering,AI → Artificial Intelligence,Machine Learning,B2B,Data Engineering
+
+### [BioStack Platforms](https://www.ycombinator.com/companies/biostack-platforms)
+
+- `team_size`: 0 → 4
+
+### [Tenor](https://www.ycombinator.com/companies/tenor)
+
+- `one_liner`: Turn every employee into a manager of AI workers → AI workers that attribute the outcome back to the token spend
+- `tags`: Artificial Intelligence,B2B,Automation → B2B,Automation,AI

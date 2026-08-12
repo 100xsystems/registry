@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-08-11T13:03:02.985Z",
+  "updatedAt": "2026-08-12T13:07:19.796Z",
   "items": [
     {
       "guid": "freek-van-der-herten::https://freek.dev/3167-preventing-ssrf-in-laravel-why-blocking-private-ips-fails",
@@ -215,7 +215,15 @@
       "summary": null,
       "author": "Freek Van der Herten",
       "publishedAt": "2026-08-11T10:30:28.000Z"
+    },
+    {
+      "guid": "freek-van-der-herten::https://freek.dev/3177-exit-may-silently-break-your-parallel-tests",
+      "title": "`exit()` may silently break your parallel tests",
+      "link": "https://freek.dev/3177-exit-may-silently-break-your-parallel-tests",
+      "summary": null,
+      "author": "Freek Van der Herten",
+      "publishedAt": "2026-08-12T10:30:31.000Z"
     }
   ],
-  "totalIndexed": 26
+  "totalIndexed": 27
 }

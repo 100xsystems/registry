@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-08-12T01:54:31.893Z",
+  "updatedAt": "2026-08-12T13:07:17.500Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -729,7 +729,15 @@
       "summary": "PostgreSQL 17 introduced read streams that combine adjacent disk blocks into larger I/O requests.",
       "author": null,
       "publishedAt": "2026-08-12T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9s7",
+      "title": "Hans-Juergen Schoenig: Introducing the CYBERTEC PG Operator",
+      "link": "https://postgr.es/p/9s7",
+      "summary": "There is no shortage of PostgreSQL operators for Kubernetes. Projects such as CloudNativePG, the Zalando postgres-operator, Crunchy PGO, and StackGres have all helped shape the ecosystem.\nSo why did we build another one?\nOur answer is simple: multi-site PostgreSQL along with other capabilities.\nThe…",
+      "author": null,
+      "publishedAt": "2026-08-12T09:05:41.000Z"
     }
   ],
-  "totalIndexed": 90
+  "totalIndexed": 91
 }
