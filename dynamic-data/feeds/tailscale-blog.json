@@ -9,7 +9,7 @@
     "vpn",
     "wireguard"
   ],
-  "updatedAt": "2026-08-06T14:07:07.411Z",
+  "updatedAt": "2026-08-12T18:52:00.373Z",
   "items": [
     {
       "guid": "https://tailscale.com/blog/welcome-mike-shaver",
@@ -9682,7 +9682,15 @@
       "summary": "Keep AI agents useful without combining their riskiest capabilities.",
       "author": "Remy Guercio, Andrew Dunham",
       "publishedAt": "2026-08-06T14:00:00.000Z"
+    },
+    {
+      "guid": "https://tailscale.com/blog/sqlite-wal-reset-bug",
+      "title": "How we tracked down a 16-year-old SQLite bug",
+      "link": "https://tailscale.com/blog/sqlite-wal-reset-bug",
+      "summary": "SQLite corruption? Sorted.",
+      "author": "Alex Chan",
+      "publishedAt": "2026-08-12T14:00:00.000Z"
     }
   ],
-  "totalIndexed": 1209
+  "totalIndexed": 1210
 }

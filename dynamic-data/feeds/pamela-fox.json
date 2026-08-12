@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-07-24T07:02:05.219Z",
+  "updatedAt": "2026-08-12T18:52:08.745Z",
   "items": [
     {
       "guid": "pamela-fox::http://blog.pamelafox.org/2026/05/pycon-2026-reflections.html",
@@ -207,7 +207,15 @@
       "summary": "Everyone's going ga-ga for DeepSeek-R1, so I thought I'd try it out in a live stream today:\n\n\nI'll summarize my experience in this post.\nI tried Python through two different hosts, via the OpenAI Python SDK \nGitHub Models: Open to anyone with a GitHub account, free up to a certain number of…",
       "author": "Pamela Fox",
       "publishedAt": "2025-01-31T22:07:00.000Z"
+    },
+    {
+      "guid": "pamela-fox::http://blog.pamelafox.org/2026/08/building-safe-mcp-servers-for-your.html",
+      "title": "Building safe MCP servers for your PostgreSQL database",
+      "link": "http://blog.pamelafox.org/2026/08/building-safe-mcp-servers-for-your.html",
+      "summary": "Model Context Protocol (MCP) is an open protocol that describes how agents can connect to external tools and data sources,\nand is now widely supported by the most popular coding agents (like GitHub Copilot, Claude Code, and Codex) and agent frameworks (like LangChain and Pydantic AI).\nIf you want…",
+      "author": "Pamela Fox",
+      "publishedAt": "2026-08-12T18:07:30.495Z"
     }
   ],
-  "totalIndexed": 25
+  "totalIndexed": 26
 }

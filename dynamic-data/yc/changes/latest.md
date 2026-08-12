@@ -1,62 +1,55 @@
 # YC Company Changes for 2026-08-12
 
-- Previous total: 6153
-- Current total: 6152
-- Added: 0
-- Removed: 1
-- Updated: 11
+- Previous total: 6152
+- Current total: 6154
+- Added: 2
+- Removed: 0
+- Updated: 9
 
 
-## Removed Companies
+## Added Companies
 
-- Convictional (Winter 2019)
+- [Dipole Labs](https://www.ycombinator.com/companies/dipole-labs) (Summer 2026) — AI-controlled optical switching for AI clusters
+- [TovenAI](https://www.ycombinator.com/companies/tovenai) (Summer 2026) — AI agents for compliance at institutional trading firms
 
 ## Updated Companies
 
-### [Clever](https://www.ycombinator.com/companies/clever)
+### [EPIC AEROSPACE](https://www.ycombinator.com/companies/epic-aerospace)
 
-- `stage`: Early → Growth
+- `stage`: Growth → Early
 
-### [RevenueCat](https://www.ycombinator.com/companies/revenuecat)
+### [Adni](https://www.ycombinator.com/companies/adni)
 
-- `stage`: Early → Growth
+- `one_liner`: The AI career platform for healthcare workers → The AI healthcare recruiting platform
 
-### [Nabis](https://www.ycombinator.com/companies/nabis)
+### [Arintra](https://www.ycombinator.com/companies/arintra)
 
-- `stage`: Early → Growth
+- `stage`: Growth → Early
 
-### [NALA](https://www.ycombinator.com/companies/nala)
+### [Conduit](https://www.ycombinator.com/companies/conduit-ai)
 
-- `isHiring`: true → false
+- `website`: https://conduit.ai → https://conduit.ai/?utm_source=referral&utm_medium=organic&utm_campaign=ycombinator
 
-### [Freshpaint](https://www.ycombinator.com/companies/freshpaint)
+### [Vortexify](https://www.ycombinator.com/companies/vortexify)
 
-- `stage`: Early → Growth
+- `tags`: Supply Chain,Big Data,Operations,AI,AI Assistant → Artificial Intelligence,Supply Chain,Big Data,Operations,AI Assistant
 
-### [Candid Health](https://www.ycombinator.com/companies/candid-health)
+### [Andustry](https://www.ycombinator.com/companies/andustry)
 
-- `stage`: Early → Growth
+- `one_liner`: We help manufacturers find suppliers for industrial equipment. → 
+- `industry`: B2B → Industrials
+- `subindustry`: B2B -> Supply Chain and Logistics → Industrials
+- `industries`: B2B,Supply Chain and Logistics → Industrials
 
-### [Adaptyv](https://www.ycombinator.com/companies/adaptyv)
+### [Nori](https://www.ycombinator.com/companies/noril1)
 
-- `stage`: Early → Growth
+- `all_locations`: New York City, NY, USA → San Francisco, CA, USA
 
-### [Diffusion Studio](https://www.ycombinator.com/companies/diffusion-studio)
+### [Ooak Data](https://www.ycombinator.com/companies/ooak-data)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/c6f433de4b4c642c9311574e0d72dda2296ffd27.png → https://bookface-images.s3.amazonaws.com/small_logos/d6afcff2711f9441590b0357af0a3115ddece5ad.png
-- `one_liner`: Professional-grade video editing, in your browser. → The professional video editor built for agents
-- `team_size`: 3 → 2
+- `one_liner`: We build the world's largest library of real-world business workflow… → We turn company data into RL environnements.
+- `tags`: Artificial Intelligence,Reinforcement Learning → Reinforcement Learning,AI
 
-### [Nitrode](https://www.ycombinator.com/companies/nitrode)
+### [Decawork](https://www.ycombinator.com/companies/decawork)
 
-- `team_size`: 6 → 10
-- `tags`: Machine Learning,B2B,Data Engineering,AI → Artificial Intelligence,Machine Learning,B2B,Data Engineering
-
-### [BioStack Platforms](https://www.ycombinator.com/companies/biostack-platforms)
-
-- `team_size`: 0 → 4
-
-### [Tenor](https://www.ycombinator.com/companies/tenor)
-
-- `one_liner`: Turn every employee into a manager of AI workers → AI workers that attribute the outcome back to the token spend
-- `tags`: Artificial Intelligence,B2B,Automation → B2B,Automation,AI
+- `tags`: Artificial Intelligence,B2B,Infrastructure → B2B,Infrastructure,AI

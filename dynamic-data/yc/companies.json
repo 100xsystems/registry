@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-08-12T13:07:39.079Z",
-  "count": 6152,
+  "fetchedAt": "2026-08-12T18:52:18.386Z",
+  "count": 6154,
   "companies": [
     {
       "id": 35784,
@@ -1762,6 +1762,49 @@
       "url": "https://www.ycombinator.com/companies/verdict-machine"
     },
     {
+      "id": 33178,
+      "name": "TovenAI",
+      "slug": "tovenai",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/2b832a1e965bc59dfbc18a9817802870d7264332.png",
+      "website": "https://toven.ai",
+      "all_locations": "New York City, NY, USA",
+      "long_description": "We are automating the manual compliance work at institutional trading firms\r\n\r\nCompliance teams at institutional trading firms still spend hours manually sifting through mountains of data across recorded calls, chats, and trade records to investigate activity and produce defensible audit trails to regulators. \r\n\r\nTovenAI is building a platform of AI agents that connects to their systems and automates the manual compliance work at these brokerages—think the sales and trading businesses at banks like Bank of America and specialist brokerages like Marex.",
+      "one_liner": "AI agents for compliance at institutional trading firms",
+      "team_size": 2,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "Fintech",
+      "subindustry": "Fintech -> Banking and Exchange",
+      "launched_at": 1786560317,
+      "tags": [
+        "Fintech",
+        "Regtech",
+        "AI"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Summer 2026",
+      "status": "Active",
+      "industries": [
+        "Fintech",
+        "Banking and Exchange"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/tovenai"
+    },
+    {
       "id": 33177,
       "name": "HyperProbe",
       "slug": "hyperprobe",
@@ -2254,7 +2297,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/44fee5cae005d704af84e7ed5ed7418d4ca0580c.png",
       "website": "https://decawork.ai/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Decawork gives IT teams one place to deploy, govern and maintain the AI agents running across their company.\r\n\r\nEvery company is building AI agents internally now - it started with experiments, and now every team wants their own. What follows is agent sprawl: deployment gets messy, agents go live with access to real systems and real data, and maintenance falls in the gap. IT can't see any of it, so it does the only two things it can: first ignore, then block. Ignoring piles up risk; blocking kills the productivity people just found. \r\n\r\nWith Decawork, every agent ships one standard way: its own identity and scoped credentials, with IT's sign-off before it goes live. After that, every run is watched - IT is alerted the moment something fails, agents nobody uses get retired. And the whole time, IT sees every agent, controls what it can touch, and audits every action, with approvals gating anything sensitive.\r\n\r\nEvery big shift - cloud, SaaS, the digital workspace - ended with IT running it. AI agents are the next one. Decawork is what IT will run them with.",
+      "long_description": "Decawork gives IT teams one place to deploy, govern and maintain the AI agents running across their company.\r\n\r\nBuilding internal AI tools and agents is getting easier. Turning them into company-owned systems is still hard. What follows is agent sprawl: deployment gets messy, agents go live with access to real systems and real data, and maintenance falls in the gap. IT can't see any of it, so it does the only two things it can: first ignore, then block. Ignoring piles up risk; blocking kills the productivity people just found. \r\n\r\nWith Decawork, every agent ships one standard way: its own identity and scoped credentials, with IT's sign-off before it goes live. After that, every run is watched - IT is alerted the moment something fails, agents nobody uses get retired. And the whole time, IT sees every agent, controls what it can touch, and audits every action, with approvals gating anything sensitive.\r\n\r\nEvery big shift - cloud, SaaS, the digital workspace - ended with IT running it. Agents aren't just the next shift, they're the next workforce, bigger than the human one. Decawork is what IT will run them with.",
       "one_liner": "The Agent Control Plane for IT teams",
       "team_size": 2,
       "highlight_black": false,
@@ -2264,9 +2307,9 @@
       "subindustry": "B2B -> Infrastructure",
       "launched_at": 1785265630,
       "tags": [
-        "Artificial Intelligence",
         "B2B",
-        "Infrastructure"
+        "Infrastructure",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -4491,7 +4534,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/0f86336cad3f47d72897d04916a12380f1f0094b.png",
       "website": "https://www.graphify.com/",
       "all_locations": "London, England, United Kingdom",
-      "long_description": "Graphify builds queryable knowledge graphs from local codebases, docs, and Jira (105K+ GitHub stars, ~4.2M downloads, used in production by engineers at Rootly, Geotab, Tweddle Group, and Superagent). \r\n\r\nOn that graph, its enterprise layer reviews every pull request and formally verifies each code change, proving the new behavior matches the old or handing back the exact input that breaks it. The graph updates itself as the code changes and keeps context instead of forgetting it, so your whole team and their coding agents work from one shared, always-current graph of the codebase instead of a thousand private threads. \r\n\r\nRuns fully on-premise, so no data leaves the building.",
+      "long_description": "Graphify builds queryable knowledge graphs from local codebases, docs, and Jira (105K+ GitHub stars, ~5M+ downloads, used in production by engineers at Rootly, Geotab, Tweddle Group, and Superagent). \r\n\r\nOn that graph, its enterprise layer reviews every pull request and formally verifies each code change, proving the new behavior matches the old or handing back the exact input that breaks it. The graph updates itself as the code changes and keeps context instead of forgetting it, so your whole team and their coding agents work from one shared, always-current graph of the codebase instead of a thousand private threads. \r\n\r\nRuns fully on-premise, so no data leaves the building.",
       "one_liner": "On-device knowledge graph engine for enterprises",
       "team_size": 2,
       "highlight_black": false,
@@ -4536,8 +4579,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/ad1b7cce12014a7746a7f8b912560717f6e2f037.png",
       "website": "https://ooakdata.com/",
       "all_locations": "Paris, Île-de-France, France",
-      "long_description": "The promise of AI agents is still unmet in complex, real-world business environments. Our mission is to make it possible for agents to reliably accomplish concrete and useful tasks.\r\n\r\nThat’s why we're building **Alexandria,** the world's largest library of real-world business workflow datasets.",
-      "one_liner": "We build the world's largest library of real-world business workflow…",
+      "long_description": "Ooak Data turns internal company data into a training ground where AI agents can be tested on real work.\r\n",
+      "one_liner": "We turn company data into RL environnements.",
       "team_size": 5,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -4546,8 +4589,8 @@
       "subindustry": "B2B",
       "launched_at": 1783922301,
       "tags": [
-        "Artificial Intelligence",
-        "Reinforcement Learning"
+        "Reinforcement Learning",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -4578,7 +4621,7 @@
       "former_names": [],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/4b7cc06bfd9d08d6eae3bc20eca8c056f893bf8b.png",
       "website": "http://norirobotics.com",
-      "all_locations": "New York City, NY, USA",
+      "all_locations": "San Francisco, CA, USA",
       "long_description": "Nori builds home robots that cost less than $2,000 and that anyone can teach. Out of the box, the NORI L3 does household chores: loading the dishwasher, folding laundry, tidying up. But because anyone can train it, it also learns your specific tasks, like washing paintbrushes if you're an artist or flipping sheet music while you play guitar. It's a general-purpose robot, not an appliance.\r\n\r\nWe launched pre-orders 6 weeks ago and have already booked $100K in revenue.\r\n\r\nHumanoid robots exist, but they cost $20,000 or more and are demoed, not shipped. We got to $1,688 without sacrificing capability. Instead of expensive actuators, we use low-cost servos and get more out of them through smarter control and design. A wheeled base with a lift gives full floor-to-counter reach without the cost and fragility of legs, and we streamlined manufacturing from day one, assembling in the US.\r\n\r\nThe teachability is the moat. Every skill a user trains can be shared, so each customer makes every robot more capable. Hardware is the entry point; the skill ecosystem is the recurring revenue.\r\n\r\nWe're robotics researchers from Columbia labs like RoboPIL (robot learning) and CGUI. Working with $100K research robots that struggled with everyday tasks convinced us the problem isn't capability, it's cost. Good robots don't need to be expensive.\r\n\r\nHouseholds already spend $2,000+ on single-task machines: a dishwasher, a washing machine, a vacuum. We sell one robot at $1,688 that does the work of all of them and learns more. At 5% of US households and $25 a month for skills, that's $2B a year in recurring revenue, on top of hardware.",
       "one_liner": "Affordable robot you can teach to do anything",
       "team_size": 5,
@@ -5104,7 +5147,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/a53586c9aacc3d5c0003f5bde0beb3535a3613f6.png",
       "website": "https://edotenv.com",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "EdotEnv is a Quant Neolab building toward RSI. They turn markets into self-improving research environments for AI agents.\r\n\r\nThe path to RSI is a continuous loop: agents conduct research, learn from the results, and autonomously become better at conducting the next round of research. For that loop to continue, each round must present a harder problem than the last.\r\n\r\nMarkets create this dynamic naturally. Every discovered inefficiency attracts competition, and every successful strategy makes future opportunities harder to find. Quant research therefore provides an advancing frontier for self-improving agents.\r\n\r\nEdotEnv captures this process in multi-step environments where agents form hypotheses, design experiments, verify results and iterate. They use these environments to evaluate and post-train agents on increasingly difficult research tasks.\r\n\r\nThey work with frontier AI labs and academic groups building research harnesses, evaluation benchmarks, and post-training environments.\r\n\r\nEdotEnv's team previously worked in quantitative research at G-Research, high frequency options trading at TransMarket Group, and LLM inference research at Etched.",
+      "long_description": "A Quant Neolab building toward RSI by leveraging markets as self-improving research environments.\r\n\r\nThey work with frontier AI labs and academic groups building research harnesses, evaluation benchmarks, and post-training environments.\r\n",
       "one_liner": "A Quant Neolab building toward RSI via quant trading",
       "team_size": 2,
       "highlight_black": false,
@@ -14438,14 +14481,14 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/2189a7097412cbf54bc66b9495393ddfceb6282a.png",
       "website": "http://andustry.com/",
       "all_locations": "Munich, BY, Germany",
-      "long_description": "We are an AI-native broker, solving sourcing of machines and intermediate goods. We take over finding suppliers and getting the best quotes for our customers (based on price, quality, lead time, etc.). Our customers have limited resources for procurement and we help them reduce purchase prices by 30% on average.",
-      "one_liner": "We help manufacturers find suppliers for industrial equipment.",
+      "long_description": "Andustry is an AI-native hardware lab.",
+      "one_liner": "",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
-      "industry": "B2B",
-      "subindustry": "B2B -> Supply Chain and Logistics",
+      "industry": "Industrials",
+      "subindustry": "Industrials",
       "launched_at": 1773916364,
       "tags": [],
       "tags_highlighted": [],
@@ -14455,8 +14498,7 @@
       "batch": "Spring 2026",
       "status": "Active",
       "industries": [
-        "B2B",
-        "Supply Chain and Logistics"
+        "Industrials"
       ],
       "regions": [
         "Germany",
@@ -16517,6 +16559,48 @@
       "app_answers": null,
       "question_answers": false,
       "url": "https://www.ycombinator.com/companies/zymbly"
+    },
+    {
+      "id": 31277,
+      "name": "Dipole Labs",
+      "slug": "dipole-labs",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/b476fcfad147bfb48b55b119e09431103b41f4d8.png",
+      "website": "https://dipolelabs.com/",
+      "all_locations": "Boston, MA, USA",
+      "long_description": "",
+      "one_liner": "AI-controlled optical switching for AI clusters",
+      "team_size": 0,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "Industrials",
+      "subindustry": "Industrials",
+      "launched_at": 1765559793,
+      "tags": [
+        "Hard Tech",
+        "Semiconductors",
+        "AI"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Summer 2026",
+      "status": "Active",
+      "industries": [
+        "Industrials"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/dipole-labs"
     },
     {
       "id": 31276,
@@ -31973,7 +32057,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/d4d717434657a084785d53a7ab208f3a1b202dae.png",
       "website": "https://perspectiveshealth.ai/",
       "all_locations": "Chicago, IL, USA",
-      "long_description": "America is facing an addiction and mental health crisis, but the treatment programs trying to solve the problem are faced with administrative burden, staff shortages, and pressure from payers. \r\nWe work with treatment programs to incorporate AI that reduces administrative burden, prevents insurance denials, and helps directors run their program better.",
+      "long_description": "America is facing an addiction and mental health crisis, but the treatment programs trying to solve the problem are faced with administrative burden, staff shortages, and pressure from payers. \r\n\r\nWe work with treatment programs to incorporate AI that reduces administrative burden, prevents insurance denials, and helps directors run their program better.\r\n\r\nOur agents analyze charts to prevent insurance denials, complete documentation and insurance paperwork to save staff time, and sift through historical data to find opportunities for improvement.",
       "one_liner": "AI to run behavioral health programs better",
       "team_size": 5,
       "highlight_black": false,
@@ -55309,7 +55393,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/cb3be511411bbaed481f911d10c8dcbfcfbc8735.png",
       "website": "https://www.vortexify.ai",
       "all_locations": "New York City, NY, USA",
-      "long_description": "Vortexify is an AI application platform that enables developers and domain experts to build production-ready software with AI agents. Instead of writing thousands of lines of code, users can connect enterprise data, describe the problem they want to solve, and collaborate with AI agents to generate secure applications for data-intensive business processes.\r\n\r\nThe platform contextualizes millions of rows of data, and provides the runtime, execution engine, and UI framework agents need to generate and deploy custom applications through two integrated products: the Agent Data Warehouse, a data foundation for enterprise data, and the App Playground, where AI agents build and deploy applications using that data.\r\n\r\nThe Agent Data Warehouse connects to enterprise systems, continuously ingests and contextualizes operational data, and provides a unified understanding of your business. By transforming raw enterprise data into AI-ready context, the ADW enables agents to reason across systems and build intelligent applications.\r\n\r\nThe App Playground is a development environment built on top of the Agent Data Warehouse where developers, engineers, and domain experts collaborate with AI agents throughout the entire application lifecycle. Agents help users discover and define business problems, explore and understand enterprise data, plan and design solutions, and ultimately generate production-ready applications, including business logic, data pipelines, workflows, automations, analytics, and custom user interfaces.",
+      "long_description": "Vortexify is an AI app builder for full-stack, internal business apps. Businesses such as manufacturers, hospitals and logistics services use Vortexify to solve complex, operational problems such as scheduling, process optimization, forecasting, root cause analysis and scenario planning.\r\n\r\nOur agents encode business logic by mapping operational problems to the data in your systems and collaborating with domain experts. Operations teams can build apps without writing code. Engineering teams can edit and manage agent written code at any time.\r\n\r\nVortexify builds applications beyond simple dashboards with native support for databases, scheduled tasks, optimization solvers, machine learning models, data pipelines, API calls and more. Our secure, managed infrastructure enables our agents to build quickly and get it right the first time.\r\n\r\nSolve your hardest operations problems today! Create a free account to get started. For additional technical services or support, contact us or book a demo.",
       "one_liner": "Build full-stack applications for business operations with AI",
       "team_size": 2,
       "highlight_black": false,
@@ -55319,10 +55403,10 @@
       "subindustry": "B2B -> Operations",
       "launched_at": 1732148257,
       "tags": [
+        "Artificial Intelligence",
         "Supply Chain",
         "Big Data",
         "Operations",
-        "AI",
         "AI Assistant"
       ],
       "tags_highlighted": [],
@@ -72936,7 +73020,7 @@
         "HostAI"
       ],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/b7203ae9cb780218b08e159ff4d1da47aae0c79a.png",
-      "website": "https://conduit.ai",
+      "website": "https://conduit.ai/?utm_source=referral&utm_medium=organic&utm_campaign=ycombinator",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Conduit is the leading AI agent platform for hospitality operations.\r\n\r\nOperators can create, test, and run AI agents on Conduit's harness purpose built for hospitality. On-brand agents handles the full guest journey, converting inquiries into bookings and driving upsell revenue, then runs internal operations and surfaces insights for leadership. All connected to the systems operators already use. \r\n\r\nTrusted by over 1000+ global hospitality brands across 120+ countries.",
       "one_liner": "AI Agents for Hospitality",
@@ -120232,7 +120316,7 @@
         "Remote",
         "Partly Remote"
       ],
-      "stage": "Growth",
+      "stage": "Early",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -136473,8 +136557,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/48474c1b0337163fd12462fb6b72ee336a4ad010.png",
       "website": "https://www.adni.co/",
       "all_locations": "San Francisco, CA, USA; Remote",
-      "long_description": "Healthcare workers use Adni’s AI career app to find jobs, buy gear, connect with peers, store credentials, and more. Healthcare employers, like Penn Medicine, Medical Solutions, and MedPro use Adni’s clinician network and AI recruiting agents to hire healthcare talent faster.\r\n\r\nBacked by YC, Flare Capital, Liquid 2, Fresco, Augment, Crista Galli, Adam Grant, the founders of CareRev, Clipboard Health, Papa, and more.",
-      "one_liner": "The AI career platform for healthcare workers",
+      "long_description": "Healthcare employers tell Adni who they're hiring. Adni searches millions of healthcare workers across its own clinician network, proprietary data, external sources, and employer databases to identify the best candidates.\r\n\r\nRecruiters can search and contact candidates themselves, or deploy Allie, Adni's AI recruiting agent, to continuously source, engage, screen, and surface interested candidates automatically.\r\n\r\nUnlike traditional recruiting databases, Adni also operates a career community where healthcare workers find jobs, connect with peers, attend meetups, review facilities, and manage their careers, giving Adni a growing proprietary network of engaged clinicians.\r\n\r\nBacked by YC, Flare Capital, Liquid 2, Fresco, Augment, Crista Galli, Adam Grant, the founders of CareRev, Clipboard Health, Papa, and more.",
+      "one_liner": "The AI healthcare recruiting platform",
       "team_size": 5,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -185114,7 +185198,7 @@
         "Argentina",
         "Latin America"
       ],
-      "stage": "Growth",
+      "stage": "Early",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
