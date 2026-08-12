@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-08-11T18:51:46.818Z",
-  "count": 6147,
+  "fetchedAt": "2026-08-12T01:54:51.896Z",
+  "count": 6151,
   "companies": [
     {
       "id": 35784,
@@ -86,6 +86,48 @@
       "app_answers": null,
       "question_answers": false,
       "url": "https://www.ycombinator.com/companies/twentyfour26"
+    },
+    {
+      "id": 35522,
+      "name": "Hemlock",
+      "slug": "hemlock",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/bbacf68d8da77e7a11ad346712dd48cf4d50347d.png",
+      "website": "https://hemlock.info",
+      "all_locations": "Los Angeles, CA, USA",
+      "long_description": "Every serious robotics lab is bottlenecked on the same thing: demonstration data. The field has converged on egocentric video and hand pose as the substrate, and both are now cheap to collect at scale. What neither of them contains is force. A video of someone picking up an egg and a video of someone picking up a rock are nearly identical in pixel space and nearly identical in joint angles. They differ almost entirely in a quantity nobody is recording. Policies trained without it learn geometry and inherit no sense of touch.\r\n\r\nHemlock closes that gap at the source. Our device, the Bracelet, is a wrist-worn surface EMG band that reads the electrical activity of the forearm muscles that actually drive the hand, which means it recovers contraction force directly rather than inferring it from motion. This distinction is the whole thesis: force cannot be reconstructed downstream of kinematics, because a hand squeezing hard isometrically and a hand resting can occupy the identical pose. Muscle signal is the only non-invasive channel that separates them.",
+      "one_liner": "Force-sensing wristband for training robotic AI",
+      "team_size": 1,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "Industrials",
+      "subindustry": "Industrials -> Manufacturing and Robotics",
+      "launched_at": 1786491305,
+      "tags": [
+        "Hard Tech",
+        "Hardware"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": true,
+      "nonprofit": false,
+      "batch": "Fall 2026",
+      "status": "Active",
+      "industries": [
+        "Industrials",
+        "Manufacturing and Robotics"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/hemlock"
     },
     {
       "id": 35094,
@@ -1512,7 +1554,7 @@
       "slug": "hop-aero",
       "former_names": [],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/a5cab9ede70e23b0ea3f8e3b64b7a19735939c17.png",
-      "website": "https://hop-aero.com",
+      "website": "https://hopaero.com",
       "all_locations": "Los Angeles, CA, USA",
       "long_description": "Hop Aero is building rocket cargo vehicles that deliver to contested environments hundreds of miles away in minutes. Our rockets fly point-to-point into the most austere locations at hypersonic speeds. Hop Aero's goal is to provide the U.S. and allies the asymmetric advantage that deters a future major conflict.",
       "one_liner": "Rocket cargo delivery to contested environments",
@@ -1815,7 +1857,7 @@
       "former_names": [],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/dcac201e21fa70f9b3a8a1b827c8fd7759c25920.png",
       "website": "https://skymerse.com",
-      "all_locations": "San Francisco, CA, USA",
+      "all_locations": "Warsaw, Masovian Voivodeship, Poland",
       "long_description": "Skymerse is building one AI system for airline flight operations: from planning and monitoring in the operations center to real-time support in the cockpit. It is developing specialized aeronautical models that understand the data, constraints, and procedures behind each flight, replacing fragmented tools and manual interpretation. Notamify, its first product, already serves airline customers and thousands pilots and aviation professionals.",
       "one_liner": "Autopilot for Flight Operations",
       "team_size": 0,
@@ -1841,8 +1883,8 @@
         "Aviation and Space"
       ],
       "regions": [
-        "United States of America",
-        "America / Canada"
+        "Poland",
+        "Europe"
       ],
       "stage": "Early",
       "app_video_public": false,
@@ -3162,6 +3204,52 @@
       "url": "https://www.ycombinator.com/companies/financial-datasets"
     },
     {
+      "id": 32815,
+      "name": "TryNearby",
+      "slug": "trynearby",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/043d0df2ce658d03b7ad1d70bb0deaa3f2282ea5.png",
+      "website": "https://trynearby.com",
+      "all_locations": "Los Angeles, CA, USA",
+      "long_description": "TryNearby connects local businesses with creators who live nearby. Restaurants subscribe monthly and automatically get booked visits from local creators who film, edit, and post a review to the local algorithm. This creates a steady stream of content that compounds into discovery on TikTok, Instagram, and increasingly AI search. Over 100 restaurants and thousands of creators are on the platform across Southern California, with AI agents handling matching, booking, and every creator conversation.",
+      "one_liner": "Local creators for local businesses",
+      "team_size": 5,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "B2B",
+      "subindustry": "B2B -> Marketing",
+      "launched_at": 1786488480,
+      "tags": [
+        "Restaurant Tech",
+        "Marketing",
+        "Creator Economy",
+        "SMB"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Summer 2026",
+      "status": "Active",
+      "industries": [
+        "B2B",
+        "Marketing"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada",
+        "Remote",
+        "Partly Remote"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/trynearby"
+    },
+    {
       "id": 32814,
       "name": "Computable",
       "slug": "computable",
@@ -3337,6 +3425,56 @@
       "app_answers": null,
       "question_answers": false,
       "url": "https://www.ycombinator.com/companies/ekho-labs"
+    },
+    {
+      "id": 32752,
+      "name": "Moving Atoms",
+      "slug": "moving-atoms",
+      "former_names": [
+        "Run Lobster",
+        "RunLobster",
+        "Demon AI",
+        "RunDemon",
+        "Avicenna Care",
+        "Agent Insurance"
+      ],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/ef35741f33adf69268f7b972bd18d2a9b60f0fc8.png",
+      "website": "https://movingatoms.ai/",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "We use World Models to evaluate  and train robots. This enables you to test your policy checkpoints easily, as well as augmenting your training dataset. Scaling GPUs is much cheaper than scaling robot arms and humans needed to moniter them.",
+      "one_liner": "Virtual Reality for Robots (World Models)",
+      "team_size": 2,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "Industrials",
+      "subindustry": "Industrials -> Manufacturing and Robotics",
+      "launched_at": 1786481200,
+      "tags": [
+        "Artificial Intelligence",
+        "Robotics",
+        "Virtual Reality"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Summer 2026",
+      "status": "Active",
+      "industries": [
+        "Industrials",
+        "Manufacturing and Robotics"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/moving-atoms"
     },
     {
       "id": 32751,
@@ -3738,6 +3876,48 @@
       "url": "https://www.ycombinator.com/companies/daqstra"
     },
     {
+      "id": 32627,
+      "name": "Tenor",
+      "slug": "tenor",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/28b2676e2b5c4bb6bce97d4ce827f594e9743ce2.png",
+      "website": "https://heytenor.com/",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "Your AI spend becomes accountable labor: every AI worker gets a job, persistent context, a budget, guardrails, and outcomes you can measure.\r\n\r\nCopilots made individuals faster. Agent builders made automations easier to create. Both leave the organization unchanged: same roles, same capacity, same org chart, and leadership still sees AI as a software expense, not labor. \r\n\r\nTenor makes AI enter the company as labor instead: every employee manages a team of AI workers built around the recurring work of their role, each with a defined job, boundaries, a budget, and a record of what it delivered. Employees provide the judgment. AI workers provide the execution. Leadership finally sees what AI spend returns.",
+      "one_liner": "Turn every employee into a manager of AI workers",
+      "team_size": 3,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "B2B",
+      "subindustry": "B2B",
+      "launched_at": 1786480856,
+      "tags": [
+        "Artificial Intelligence",
+        "B2B",
+        "Automation"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Summer 2026",
+      "status": "Active",
+      "industries": [
+        "B2B"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/tenor"
+    },
+    {
       "id": 32625,
       "name": "Qlo",
       "slug": "qlo",
@@ -4007,7 +4187,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/3eb675c91f3464d134cd3d9c18712ad08bea23bb.png",
       "website": "https://www.useclick.ai",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Click builds chat-native work services for ChatGPT and Claude. \r\nWe’re starting with a research service that brings live external context from professional & social platforms, financial markets, maps, travel sources - and a lot more - into the conversation. \r\nIt makes research on people & companies even deeper with specialized, source-backed context beyond built-in web search, while enabling new tasks like comparing live flight fares right inside the chat.",
+      "long_description": "Click builds useful services that meet users right inside ChatGPT and Claude.\r\nWe're starting with a research service that provides external context that the built-in web search misses - like data from professional & social platforms, marketplaces, financials, and more. \r\nIt makes research on people & companies even deeper with specialized, source-backed context beyond built-in web search, while enabling new tasks like comparing live flight fares right inside the chat.",
       "one_liner": "Research services for ChatGPT and Claude",
       "team_size": 1,
       "highlight_black": false,
@@ -6474,7 +6654,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/034b1bab6d92bd99439aee47bf2312630046798c.png",
       "website": "https://understudylabs.com/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "An open-source toolkit to capture traces, evaluate cheaper models against benchmarks, and ship specialist routes you own.\r\n\r\nCapture traces from LLM production workflows with a single install that deploys within coding agents you already use. Hosted infrastructure is optional.\r\n\r\nEvaluate the captured traces and set a benchmark for success. Every future model switch meets or exceeds it in A/B testing.\r\n\r\nTrain and fine-tune a new model on prompts and weights you always own. Start locally and scale into cloud-hosted processes as you see success.\r\n\r\nDeploy a new model only when the held-out eval is beaten. Serve it wherever you want. Production data feeds back into training and compounds performance over time.\r\n\r\nTest. Learn. Deploy. Repeat.",
+      "long_description": "Understudy is an inference cloud. We capture your AI work traces, train smaller models, and automatically deploy them (only when they outperform the expensive model you are currently paying for).\r\n\r\nInstead of renting the same frontier model forever, your AI infrastructure gets faster, smarter, and cheaper every time it runs.\r\n\r\nSuppose your product uses Claude for a repetitive legal workflow.\r\n\r\nUnderstudy observes successful production runs, learns the specific tools and judgment required for that workflow, and trains a specialized open-weight model.\r\n\r\nOnce that model matches or beats Claude on a held-out evaluation, Understudy starts routing production traffic to it.\r\n\r\nAs more work is completed, the model keeps improving.\r\n\r\nWe started Understudy because we believe every company using AI should be accumulating intelligence, not accumulating API bills.",
       "one_liner": "Effortlessly move to open weight models",
       "team_size": 2,
       "highlight_black": false,
@@ -15964,7 +16144,7 @@
       "former_names": [],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/81520915f1b23922d076f3d69ef70548eb14face.png",
       "website": "https://www.daivin.tech/",
-      "all_locations": "San Francisco, CA, USA",
+      "all_locations": "Helsinki, Finland",
       "long_description": "DAIVIN! builds tankless dive gear that unlocks breath autonomy in extreme environments. Starting from underwater environment our mission is to remove the need for dangerous, heavy and bulky oxygen tanks in space, air and on land and replace them with water!",
       "one_liner": "Tankless Dive Gear - Breath Autonomy at Sea, Land & Space",
       "team_size": 1,
@@ -15986,8 +16166,8 @@
         "Defense"
       ],
       "regions": [
-        "United States of America",
-        "America / Canada"
+        "Finland",
+        "Europe"
       ],
       "stage": "Early",
       "app_video_public": false,
@@ -17842,22 +18022,24 @@
       "name": "Libra Robotics",
       "slug": "libra-robotics",
       "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/38569e8c7f99407654cda03fc6daff633822e414.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/e588f98ac537da3d55ea3c2b43b0bd505524c7f8.png",
       "website": "https://www.librabots.com/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "",
-      "one_liner": "Autonomous robots for solar farm construction",
-      "team_size": 0,
+      "long_description": "We build collaborative robot squads for solar farm construction.\r\n\r\nHigh labor costs, labor shortages, and unpredictable productivity make infrastructure difficult to build in places that are remote, harsh, or empty. We are building robots to unlock places once considered too difficult to develop. Solar is our first proving ground, spanning utility-scale, commercial and industrial, community solar, agrivoltaic, and other projects.\r\n\r\nUnlike solutions that automate only one task, or even part of one, we cover the workflow after PV module pallets arrive on-site: transportation, installation, alignment, and fastening. Each robot has a specific role, and fleets can be configured based on each project’s cost and schedule requirements.\r\n\r\nOur robots operate autonomously with remote supervision. One person can supervise 4+ robots through a screen and an e-stop button, without being physically present or teleoperating them. Our robotic fleet has also been tested at night, paving the way for 24/7 operation.\r\n\r\nWe work directly with EPCs through a Robotics-as-a-Service model, requiring no robot purchase or large upfront capital investment. We also work with racking and PV module manufacturers to certify compatibility and give customers confidence in deployment.\r\n\r\nPurpose-built hardware, multimodal sensing, and physical AI software help our robots handle real-world construction uncertainty.",
+      "one_liner": "Multi-robot collaboration for harsh environments on Earth.",
+      "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
       "industry": "Industrials",
-      "subindustry": "Industrials -> Energy",
+      "subindustry": "Industrials -> Manufacturing and Robotics",
       "launched_at": 1783647531,
       "tags": [
-        "Robotic Process Automation",
-        "Solar Power",
-        "Sustainability"
+        "Artificial Intelligence",
+        "Robotics",
+        "Construction",
+        "Sustainability",
+        "Energy"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -17867,7 +18049,7 @@
       "status": "Active",
       "industries": [
         "Industrials",
-        "Energy"
+        "Manufacturing and Robotics"
       ],
       "regions": [
         "United States of America",
@@ -20821,7 +21003,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/ab475a73fae950cedb2c238eb5a23d6a709d5cb2.png",
       "website": "https://www.usesalus.ai/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Your agent processed a refund without looking up the order ID, costing you thousands. You only found out three hours later from a support ticket. Evals, output scoring, and observability can reduce the likelihood of mistakes like these occurring - but there's no solution that inspects and prevents an action as it’s about to execute. Salus does that.\r\n\r\nWe’ve built an API that wraps around your agent and checks its actions at run time, blocking incorrect ones and providing immediate feedback to guide retries. Kevin and Vedant were roommates at Stanford, where they both studied computer science. ",
+      "long_description": "Your agent processed a refund without looking up the order ID, costing you thousands. You only found out three hours later from a support ticket. Evals, output scoring, and observability can reduce the likelihood of mistakes like these occurring - but there's no solution that inspects and prevents an action as it’s about to execute. Salus does that.\r\n\r\nWe’ve built an API that wraps around your agent and checks its actions at run time, blocking incorrect ones and providing immediate feedback to guide retries. ",
       "one_liner": "Guardrails to validate your agent's actions before they execute",
       "team_size": 2,
       "highlight_black": false,
@@ -20831,11 +21013,11 @@
       "subindustry": "B2B -> Infrastructure",
       "launched_at": 1770354850,
       "tags": [
+        "Artificial Intelligence",
         "Developer Tools",
         "B2B",
         "API",
-        "Infrastructure",
-        "AI"
+        "Infrastructure"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -21288,7 +21470,7 @@
       "tags": [],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": false,
+      "isHiring": true,
       "nonprofit": false,
       "batch": "Winter 2026",
       "status": "Active",
@@ -22910,6 +23092,7 @@
       "subindustry": "Healthcare",
       "launched_at": 1780947683,
       "tags": [
+        "B2B",
         "Health Insurance",
         "Insurance"
       ],
@@ -27743,7 +27926,7 @@
       "top_company": false,
       "isHiring": true,
       "nonprofit": false,
-      "batch": "Fall 2025",
+      "batch": "Summer 2026",
       "status": "Active",
       "industries": [
         "Consumer"
@@ -42825,7 +43008,7 @@
       "website": "https://units.school",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Units lets ambitious students graduate high school in 4 months instead of 4 years with real accredited diploma credits, plus a portfolio of real-world work, not just a transcript. \r\n\r\nWe're rebuilding school for a post-AGI world.",
-      "one_liner": "Units is building an AI education infrastructure company.",
+      "one_liner": "Units builds full-stack AI education infrastructure.",
       "team_size": 1,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -42834,9 +43017,9 @@
       "subindustry": "Education",
       "launched_at": 1745137302,
       "tags": [
-        "Artificial Intelligence",
         "Education",
-        "Consumer"
+        "Consumer",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -52241,7 +52424,7 @@
       "tags": [],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": true,
+      "isHiring": false,
       "nonprofit": false,
       "batch": "Fall 2024",
       "status": "Active",
@@ -52606,7 +52789,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": false,
+      "isHiring": true,
       "nonprofit": false,
       "batch": "Fall 2024",
       "status": "Active",
@@ -106800,7 +106983,7 @@
       "name": "Airhart Aeronautics",
       "slug": "airhart-aeronautics",
       "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/6d2c3077b0a260101b4efa34338d48f2bcb7a825.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/8754b2c358df7ab9263e0a74ddf008cb7c8cee4d.png",
       "website": "https://www.airhartaero.com/",
       "all_locations": "Los Angeles, CA, USA",
       "long_description": "Airhart is making airplanes anyone can fly. Our semi-autonomous tech will enable 10x more people to fly their own planes and make flying to Tahoe as easy as driving to the grocery store\r\n",
@@ -110424,17 +110607,18 @@
     },
     {
       "id": 26722,
-      "name": "Boundo",
-      "slug": "boundo",
+      "name": "Impractical",
+      "slug": "impractical",
       "former_names": [
         "Openpod",
-        "Sail"
+        "Sail",
+        "Boundo"
       ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/89dea1f7b9b523f2d5faa5e446dc7f5bb813a850.png",
-      "website": "https://boundo.com",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/496a25e4233f08a9c98a89b4cb57a9e0a977427e.png",
+      "website": "https://impractical.ai",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Boundo uses generative AI to replace SDRs. Tell our platform who you're looking for, and it will find and contact high quality sales leads in a fully automated way! We’ve tuned our models to write near-human outbound sales emails with proven conversion. Best of all, we're using our own tool to do all of our sales. ",
-      "one_liner": "Using generative AI to 10x outbound sales, all on autopilot!",
+      "long_description": "Impractical is your team's autonomous motion designer - trained off of hours of motion design courses, examples - built to ship stunning videos while your team ships features. \r\n\r\nInstead of hiring an agency, getting a freelancer, or getting subpar results with claude code, Impractical can make superior videos faster, and for much less. \r\n\r\nSignup at motion.impractical.ai for free! \r\n\r\n",
+      "one_liner": "Your autonomous motion designer that turns every feature into a…",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -110467,7 +110651,7 @@
       "demo_day_video_public": false,
       "app_answers": null,
       "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/boundo"
+      "url": "https://www.ycombinator.com/companies/impractical"
     },
     {
       "id": 26720,
@@ -152739,9 +152923,9 @@
       ],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/8915251968445e21f6c523ef791b6cee8e7d0c59.png",
       "website": "https://www.rejoyhealth.com/",
-      "all_locations": "San Francisco, CA, USA",
-      "long_description": "Our AI-powered healthcare information platform leverages  LLMs to deliver accurate, up-to-date medical knowledge",
-      "one_liner": "AI-powered healthcare information",
+      "all_locations": "San Francisco, CA, USA; Remote",
+      "long_description": "Rejoy Health is the AI care team for clinics. AI workers for healthcare that run the day end to end, from the first call to the last note.\r\n\r\nEvery missed call is a patient you never see. Every hour after clinic is time you don’t get back. Phones go unanswered, the schedule has holes, and clinicians are still charting, coding, and looking things up while the next patient waits. Rejoy takes that work off the team’s plate.\r\n\r\nThe AI Receptionist answers around the clock, books and reschedules visits, and never puts a patient on hold, so the calendar stays full. In the room, the AI Scribe turns the conversation into structured notes, the AI Interpreter handles live language in English, Spanish, French, Chinese, Korean, and more, and RejoyGPT plus clinical decision support answer questions while the patient is still there. After the visit, the AI Coder suggests ICD-10 and CPT codes so billing goes out cleaner and faster. A medical search engine and study companion sit in the same suite for guidelines, journals, and exam prep.\r\n\r\nNot another chatbot. One system for doctors, nurses, MAs, and the front desk. More accurate than ChatGPT. HIPAA-compliant. Trusted by 40,000+ clinicians at leading US hospitals and health systems.\r\n\r\nYou stay in charge. Rejoy does the work. Book more patients. See more patients. Chart less.",
+      "one_liner": "AI workers that book, scribe, code, interpret, and answer clinicians",
       "team_size": 8,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -152767,7 +152951,7 @@
         "United States of America",
         "America / Canada",
         "Remote",
-        "Partly Remote"
+        "Fully Remote"
       ],
       "stage": "Early",
       "app_video_public": false,
@@ -161429,8 +161613,8 @@
       ],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/a3b42d39456545bb9b0fc5c6bcccfb598bd73cfb.png",
       "website": "https://laudspeaker.com/?ref=bf",
-      "all_locations": "San Francisco, CA, USA; Mountain View, CA, USA; Remote",
-      "long_description": "Open source mobile marketing automation and customer onboarding platform. Alternative to braze customer io / iterable / pendo / appcues  . Segment and engage your users with complex scheduled push notification, sms and email campaigns.",
+      "all_locations": "San Francisco, CA, USA; Remote",
+      "long_description": "Open source mobile marketing automation and customer onboarding platform. Alternative to braze customer io / iterable / pendo / appcues  . Segment and engage your users with complex scheduled push notification, sms and email campaigns. (acquired by PostHog)",
       "one_liner": "Open source mobile marketing platform. Alternative to appcues /…",
       "team_size": 3,
       "highlight_black": false,
@@ -178809,12 +178993,12 @@
       "name": "Candid Health",
       "slug": "candid-health",
       "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/7f1fc72499603c65b614fa89ee6cd64919abda54.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/ce2becf86aa3d046e808ea6e1d2a53ae86579f7e.png",
       "website": "https://www.joincandidhealth.com",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "",
-      "one_liner": "The revenue cycle automation platform.",
-      "team_size": 125,
+      "one_liner": "The autonomous revenue cycle management platform.",
+      "team_size": 200,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -178836,7 +179020,7 @@
         "United States of America",
         "America / Canada"
       ],
-      "stage": "Growth",
+      "stage": "Early",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -178912,13 +179096,13 @@
       "subindustry": "B2B -> Finance and Accounting",
       "launched_at": 1594318518,
       "tags": [
-        "Artificial Intelligence",
         "SaaS",
-        "Finance"
+        "Finance",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": false,
+      "isHiring": true,
       "nonprofit": false,
       "batch": "Winter 2020",
       "status": "Active",
@@ -217601,18 +217785,20 @@
       ],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/71a94018030f7d7d85f1b0d093981745b4c3715c.png",
       "website": "http://rabbet.com",
-      "all_locations": "Denver, CO, USA; Austin, TX, USA",
-      "long_description": "Rabbet brings efficiency, accuracy and transparency to the complex construction finance industry. The platform uses machine learning to parse documents and connect information for reduced administrative burden, verifiable compliance, and faster decision-making for real estate lenders and developers.\r\n\r\nFormerly Contract Simply. ",
-      "one_liner": "Bringing efficiency, accuracy and transparency to construction finance",
+      "all_locations": "Denver, CO, USA",
+      "long_description": "Rabbet is a real estate software company with two products: Rabbet Development and Rabbet Construction Lending. Our mission is to take the friction out of real estate development execution through structured, connected financial data. We help real estate teams turn fragmented project information into trusted insights that can be shared, understood, and acted on throughout the development lifecycle. Learn more at rabbet.com. \r\n\r\nRabbet Development is real estate development management software for owners, developers, and asset managers. It brings budgets, anticipated costs, draw schedules, and funding sources together across every phase of development, so teams always know where every project stands, answer questions without chasing information, and spot financial changes before they become project problems. Learn more at rabbet.com/developers/product-overview \r\n\r\nRabbet Construction Lending is construction loan management software for banks, credit unions, and private lenders. It brings loan administration, documentation, draw review, and portfolio reporting into one system, so lending policies are applied consistently, portfolio risk is visible as projects evolve, and every funding decision is backed by the evidence and an audit trail required to move money. Learn more at rabbet.com/lenders/product-overview",
+      "one_liner": "The financial foundation for every real estate development decision",
       "team_size": 23,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
       "industry": "Real Estate and Construction",
-      "subindustry": "Real Estate and Construction -> Construction",
+      "subindustry": "Real Estate and Construction",
       "launched_at": 1493404227,
       "tags": [
-        "Real Estate"
+        "Fintech",
+        "Real Estate",
+        "Proptech"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -217621,8 +217807,7 @@
       "batch": "Summer 2017",
       "status": "Active",
       "industries": [
-        "Real Estate and Construction",
-        "Construction"
+        "Real Estate and Construction"
       ],
       "regions": [
         "United States of America",
