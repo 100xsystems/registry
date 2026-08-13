@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-08-12T13:07:17.500Z",
+  "updatedAt": "2026-08-13T01:56:31.015Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -737,7 +737,23 @@
       "summary": "There is no shortage of PostgreSQL operators for Kubernetes. Projects such as CloudNativePG, the Zalando postgres-operator, Crunchy PGO, and StackGres have all helped shape the ecosystem.\nSo why did we build another one?\nOur answer is simple: multi-site PostgreSQL along with other capabilities.\nThe…",
       "author": null,
       "publishedAt": "2026-08-12T09:05:41.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9s9",
+      "title": "Christophe Pettus: All Your GUCs in a Row: io_max_concurrency",
+      "link": "https://postgr.es/p/9s9",
+      "summary": "PostgreSQL 18's new io_max_concurrency caps per-process I/O operations in flight.",
+      "author": null,
+      "publishedAt": "2026-08-13T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9s8",
+      "title": "Jeremy Schneider: Postgres Checkpoint Followup and Collation Visualization and Codex Luna",
+      "link": "https://postgr.es/p/9s8",
+      "summary": "My previous article talked about the checkpoint happiness hint: You probably should not change the checkpoint_timeout setting from its default of 5 minutes.\nCheckpoint Followup Questions\nA good follow-up question was raised: can an HA replica can save you from downtime if you want to set a large…",
+      "author": null,
+      "publishedAt": "2026-08-12T21:05:30.000Z"
     }
   ],
-  "totalIndexed": 91
+  "totalIndexed": 93
 }
