@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-08-13T01:56:31.015Z",
+  "updatedAt": "2026-08-13T07:41:59.424Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -753,7 +753,15 @@
       "summary": "My previous article talked about the checkpoint happiness hint: You probably should not change the checkpoint_timeout setting from its default of 5 minutes.\nCheckpoint Followup Questions\nA good follow-up question was raised: can an HA replica can save you from downtime if you want to set a large…",
       "author": null,
       "publishedAt": "2026-08-12T21:05:30.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9sa",
+      "title": "Ryan Booz: Postgres in Production Special Series: Diagnosing High Cardinality Workloads in pg_stat_statements (Part 6)",
+      "link": "https://postgr.es/p/9sa",
+      "summary": "In Part 6 of this special Postgres in Production deep dive series, Ryan Booz asks a question that determines how useful pg_stat_statements can be for you at all: do you have a high cardinality workload? This episode covers what that actually means, why ORMs, dynamic SQL, and AI-assisted development…",
+      "author": null,
+      "publishedAt": "2026-08-13T02:00:31.000Z"
     }
   ],
-  "totalIndexed": 93
+  "totalIndexed": 94
 }

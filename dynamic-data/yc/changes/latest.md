@@ -1,96 +1,48 @@
 # YC Company Changes for 2026-08-13
 
-- Previous total: 6154
-- Current total: 6157
-- Added: 3
+- Previous total: 6157
+- Current total: 6162
+- Added: 5
 - Removed: 0
-- Updated: 15
+- Updated: 7
 
 
 ## Added Companies
 
-- [DeepReach Inc.](https://www.ycombinator.com/companies/deepreach-inc) (Summer 2026) — Real-world data network for robots & world models
-- [Familiar](https://www.ycombinator.com/companies/familiar) (Summer 2026) — World Models for Accurate Humans.
-- [Pennant](https://www.ycombinator.com/companies/pennant) (Summer 2026) — The Corporate Governance OS for Public Markets
+- [Meteoric](https://www.ycombinator.com/companies/meteoric) (Summer 2026) — Drones that clear clouds over solar farms
+- [Mentlio](https://www.ycombinator.com/companies/mentlio) (Summer 2026) — Engineering Intelligence and Token Optimization for the AI-Coding Era
+- [MOCHI.TV](https://www.ycombinator.com/companies/mochitv) (Summer 2026) — 1 Minute Anime
+- [PRINCEPS](https://www.ycombinator.com/companies/princeps) (Summer 2026) — AI-native insurance company for the compute economy
+- [Magma](https://www.ycombinator.com/companies/magma) (Summer 2026) — Monetize your agent's traces.
 
 ## Updated Companies
 
-### [Fieldguide](https://www.ycombinator.com/companies/fieldguide)
+### [Version Story Compare](https://www.ycombinator.com/companies/version-story-compare)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/44c799568df44fb4f129df3ebec9417b8d588116.png → https://bookface-images.s3.amazonaws.com/small_logos/03ab0a46259f7ce1ac30cf1d9aff41e90bcaad5e.png
-- `website`: http://fieldguide.io → http://fieldguide.com
+- `one_liner`: Deterministic redlining at scale — now within Claude → Git for Lawyers — now within Claude
+- `tags`: Artificial Intelligence,SaaS,B2B,Legal,LegalTech → SaaS,B2B,Legal,LegalTech,AI
 
-### [BLUUMBIO](https://www.ycombinator.com/companies/bluumbio)
+### [Feldy](https://www.ycombinator.com/companies/feldy)
 
-- `all_locations`: San Francisco, CA, USA; Berkeley, CA, USA → San Francisco, CA, USA
+- `website`: https://www.feldy.ai → https://feldy.ai/?utm_source=yc&utm_medium=directory&utm_campaign=profile&utm_content=channel_link
 
-### [Livedocs](https://www.ycombinator.com/companies/livedocs)
+### [Wedge](https://www.ycombinator.com/companies/wedge)
 
-- `status`: Active → Inactive
+- `isHiring`: false → true
 
-### [SyntheticFi](https://www.ycombinator.com/companies/syntheticfi)
+### [Sira](https://www.ycombinator.com/companies/sira)
 
-- `one_liner`: Low cost securities-backed lending for financial advisors and HNWI → The cheapest way to borrow money
-- `subindustry`: Fintech -> Asset Management → Fintech
-- `industries`: Fintech,Asset Management → Fintech
+- `isHiring`: false → true
 
-### [Conduit](https://www.ycombinator.com/companies/conduit-ai)
+### [o11](https://www.ycombinator.com/companies/o11)
 
-- `website`: https://conduit.ai/?utm_source=referral&utm_medium=organic&utm_campaign=ycombinator → https://conduit.ai/
+- `one_liner`: Bespoke AI For Financial Firms → The AI Data Warehouse For Financial Firms
+- `tags`:  → SaaS,Finance,B2B,AI
 
-### [camelAI](https://www.ycombinator.com/companies/camelai)
+### [Nori](https://www.ycombinator.com/companies/noril1)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/827e037c0aea7dec71df3f417e720db6c4d41d15.png → https://bookface-images.s3.amazonaws.com/small_logos/db5295154418cf383d1fd6006f379854b772ebda.png
-- `one_liner`: AI software engineer that lives on its own computer → Unlimited inference at $5 per stream
-- `tags`: SaaS,Data Science,Data Visualization,AI → Artificial Intelligence,SaaS,Data Science,Data Visualization
+- `one_liner`: Affordable robot you can teach to do anything → sub-2000$ humanoid robot you can teach to do anything
 
-### [Clearly AI](https://www.ycombinator.com/companies/clearly-ai)
+### [Nex](https://www.ycombinator.com/companies/nex)
 
-- `team_size`: 12 → 17
-
-### [Outlit](https://www.ycombinator.com/companies/outlit)
-
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/955d29f6fe86baf7c724d6dcd2933cef074c1171.png → https://bookface-images.s3.amazonaws.com/small_logos/16a8c8e06204be0874b7eb6c471380893195adbb.png
-- `one_liner`: Customer Context for Agents → Retain and Grow Every Customer
-- `team_size`: 2 → 3
-- `subindustry`: B2B -> Infrastructure → B2B
-- `tags`: Artificial Intelligence,B2B,API,Infrastructure → Artificial Intelligence,B2B,Customer Success
-- `industries`: B2B,Infrastructure → B2B
-
-### [Frekil](https://www.ycombinator.com/companies/frekil)
-
-- `all_locations`: Bengaluru, KA, India → San Francisco, CA, USA
-- `tags`: Artificial Intelligence,Health Tech,B2B,Biotech,Healthcare → Health Tech,B2B,Biotech,Healthcare,AI
-- `regions`: India,South Asia → United States of America,America / Canada
-
-### [Labric](https://www.ycombinator.com/companies/labric)
-
-- `isHiring`: true → false
-
-### [Relaw](https://www.ycombinator.com/companies/relaw)
-
-- `name`: Primer → Relaw
-- `slug`: primer → relaw
-- `former_names`: Relaw → Relaw,Primer
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/dfb9fdd67e9cec23e3f52f42df7e06dd89de9d57.png → https://bookface-images.s3.amazonaws.com/small_logos/bb0260bafa98dc299797de55569bc9898b1505c1.png
-- `website`: https://www.startprimer.com → https://www.relaw.ai
-- `one_liner`: AI Product Demos → AI Legal OS
-- `tags`: Artificial Intelligence,SaaS,Sales,Customer Support → Artificial Intelligence,SaaS,Legal
-
-### [Dipole Labs](https://www.ycombinator.com/companies/dipole-labs)
-
-- `launched_at`: 1765559793 → 1786560399
-
-### [Olam Labs](https://www.ycombinator.com/companies/olam-labs)
-
-- `tags`: Artificial Intelligence,Reinforcement Learning,Gaming,Data Engineering → Reinforcement Learning,Gaming,Data Engineering,AI
-
-### [LemonLime](https://www.ycombinator.com/companies/lemonlime)
-
-- `one_liner`: No-code AI that learns your business and self-creates automations. → Fully automated GTM for small business
-- `tags`: SaaS,Workflow Automation,AI → Artificial Intelligence,SaaS,Sales,Marketing
-
-### [Luca IQ](https://www.ycombinator.com/companies/luca-iq)
-
-- `one_liner`: API First Tax Calculator for CPAs → API First Tax Engine for CPAs
-- `tags`: Artificial Intelligence,B2B,API,Infrastructure → B2B,API,Infrastructure,AI
+- `one_liner`: Claude Cowork for GTM Automations → Claude Cowork using any AI model, starting with GTM agents
