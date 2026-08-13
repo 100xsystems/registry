@@ -8,7 +8,7 @@
     "infrastructure",
     "devops"
   ],
-  "updatedAt": "2026-08-05T19:18:40.593Z",
+  "updatedAt": "2026-08-13T18:52:42.310Z",
   "items": [
     {
       "guid": "hashicorp::https://www.hashicorp.com/blog/one-service-many-doors-multi-port-services-in-consul",
@@ -31009,7 +31009,15 @@
       "summary": "AI-driven infrastructure is broader than generating configuration. It is a growing set of workflows across the whole lifecycle: application teams composing infrastructure from approved patterns in natural language, platform teams designing modules and generating policy from compliance requirements,…",
       "author": "Simon Lynch",
       "publishedAt": "2026-08-05T16:00:00.000Z"
+    },
+    {
+      "guid": "hashicorp::https://www.hashicorp.com/blog/packer-v1160-brings-verifiable-provenance-to-machine-images",
+      "title": "Packer v1.16.0 brings verifiable provenance to machine images",
+      "link": "https://www.hashicorp.com/blog/packer-v1160-brings-verifiable-provenance-to-machine-images",
+      "summary": "Today we're announcing the release of Packer v1.16.0, which introduces native support for generating, signing, and verifying SLSA provenance attestations for every image Packer builds. Machine images are the foundation every workload runs on, and a compromised or tampered image can silently…",
+      "author": "Tanmay Jain",
+      "publishedAt": "2026-08-13T16:00:00.000Z"
     }
   ],
-  "totalIndexed": 3875
+  "totalIndexed": 3876
 }

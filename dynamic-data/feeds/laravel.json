@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-08-12T18:52:06.216Z",
+  "updatedAt": "2026-08-13T18:52:47.848Z",
   "items": [
     {
       "guid": "https://laravel-news.com/pest-5",
@@ -135,7 +135,15 @@
       "summary": "Laravel 13.25 adds queue:pause --all across every connection, runs artisan dev in a tabbed terminal UI, and returns images straight from routes.\nThe post Pause All Queues and a New artisan dev UI in Laravel 13.25 appeared first on Laravel News.\nJoin the Laravel Newsletter to get Laravel articles…",
       "author": "Paul Redmond",
       "publishedAt": "2026-08-11T22:49:40.000Z"
+    },
+    {
+      "guid": "https://laravel-news.com/laravel-pause-all-queues",
+      "title": "Pause All Laravel Queues During a Deploy",
+      "link": "https://laravel-news.com/laravel-pause-all-queues?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+      "summary": "Laravel 13.25 adds queue:pause --all and Queue::pauseAll() to stop job processing on every connection without putting the app in maintenance mode.\nThe post Pause All Laravel Queues During a Deploy appeared first on Laravel News.\nJoin the Laravel Newsletter to get Laravel articles like this directly…",
+      "author": "Paul Redmond",
+      "publishedAt": "2026-08-13T03:56:00.000Z"
     }
   ],
-  "totalIndexed": 16
+  "totalIndexed": 17
 }

@@ -8,7 +8,7 @@
     "ai",
     "research"
   ],
-  "updatedAt": "2026-08-07T18:43:09.296Z",
+  "updatedAt": "2026-08-13T18:52:41.604Z",
   "items": [
     {
       "guid": "environment-free",
@@ -137,7 +137,15 @@
       "summary": "Continuous diffusion and flow matching models could represent a powerful alternative to autoregressive approaches for language modelling (LM), as they unlock a host of advantages currently reserved for continuous modalities, including accelerated sampling and tilting. Recently, several works have…",
       "author": null,
       "publishedAt": "2026-08-07T00:00:00.000Z"
+    },
+    {
+      "guid": "unlearning-low-influence-points",
+      "title": "When Unlearning Is Free: Leveraging Low Influence Points to Reduce Computational Costs",
+      "link": "https://machinelearning.apple.com/research/unlearning-low-influence-points",
+      "summary": "As concerns around data privacy in machine learning grow, the ability to unlearn, or remove, specific data points from trained models becomes increasingly important. While state of the art unlearning methods have emerged in response, they typically treat all points in the forget set equally. In…",
+      "author": null,
+      "publishedAt": "2026-08-13T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 16
+  "totalIndexed": 17
 }

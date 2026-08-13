@@ -1,43 +1,55 @@
 # YC Company Changes for 2026-08-13
 
 - Previous total: 6162
-- Current total: 6162
-- Added: 0
+- Current total: 6165
+- Added: 3
 - Removed: 0
-- Updated: 8
+- Updated: 9
 
+
+## Added Companies
+
+- [Evergrove](https://www.ycombinator.com/companies/evergrove) (Summer 2026) — Voice agents that accelerate care coordination in workers' comp
+- [Dream](https://www.ycombinator.com/companies/dream) (Summer 2026) — Pocket-sized AI cameras that catch asset damage.
+- [Palisade](https://www.ycombinator.com/companies/palisade) (Summer 2026) — AI sales agents that run your marketplace
 
 ## Updated Companies
 
-### [EPIC AEROSPACE](https://www.ycombinator.com/companies/epic-aerospace)
+### [Koshex](https://www.ycombinator.com/companies/koshex)
 
-- `stage`: Early → Growth
-
-### [AlgoUniversity](https://www.ycombinator.com/companies/algouniversity)
-
-- `team_size`: 10 → 40
+- `isHiring`: true → false
 
 ### [Arintra](https://www.ycombinator.com/companies/arintra)
 
-- `stage`: Early → Growth
+- `stage`: Growth → Early
 
-### [Kastle](https://www.ycombinator.com/companies/kastle)
+### [Hindsight](https://www.ycombinator.com/companies/hindsight)
 
-- `stage`: Early → Growth
+- `isHiring`: true → false
 
-### [Diffusion Studio](https://www.ycombinator.com/companies/diffusion-studio)
+### [Feldy](https://www.ycombinator.com/companies/feldy)
 
-- `one_liner`: The professional video editor built for agents → Turn your agent into a professional video editor
+- `website`: https://feldy.ai/?utm_source=yc&utm_medium=directory&utm_campaign=profile&utm_content=channel_link → https://feldy.ai
 
-### [Efference](https://www.ycombinator.com/companies/efference)
+### [Oki](https://www.ycombinator.com/companies/oki)
 
-- `team_size`: 1 → 12
+- `one_liner`: The digital home for your personal memories that grows with you → The digital home for your personal memories
+- `team_size`: 2 → 6
+- `tags`: Artificial Intelligence,SaaS,B2B,Enterprise → SaaS,B2B,Enterprise,AI
 
-### [Riften](https://www.ycombinator.com/companies/riften)
+### [Channel3](https://www.ycombinator.com/companies/channel3)
 
-- `one_liner`: Earned Intelligence for every company.  → Cut LLM spend, then post-train owned models from production traffic.
-- `tags`: Artificial Intelligence,Developer Tools,Reinforcement Learning,Open Source,Infrastructure → Developer Tools,Reinforcement Learning,Open Source,Infrastructure,AI
+- `isHiring`: false → true
 
-### [Magma](https://www.ycombinator.com/companies/magma)
+### [Casey](https://www.ycombinator.com/companies/casey)
 
-- `launched_at`: 1781246447 → 1786606834
+- `all_locations`: ZH, Switzerland → San Francisco, CA, USA
+- `regions`: Switzerland,Europe → United States of America,America / Canada
+
+### [Lemma](https://www.ycombinator.com/companies/uselemma)
+
+- `isHiring`: false → true
+
+### [Nori](https://www.ycombinator.com/companies/noril1)
+
+- `one_liner`: sub-2000$ humanoid robot you can teach to do anything → sub-$2000 humanoid robot you can teach to do anything

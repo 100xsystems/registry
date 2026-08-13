@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-08-13T07:41:59.424Z",
+  "updatedAt": "2026-08-13T18:52:42.418Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -761,7 +761,23 @@
       "summary": "In Part 6 of this special Postgres in Production deep dive series, Ryan Booz asks a question that determines how useful pg_stat_statements can be for you at all: do you have a high cardinality workload? This episode covers what that actually means, why ORMs, dynamic SQL, and AI-assisted development…",
       "author": null,
       "publishedAt": "2026-08-13T02:00:31.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9sd",
+      "title": "Mark Wong: PDXPUG Septemter 8, 2026, MeetUp: Migrating to a Temporal Schema",
+      "link": "https://postgr.es/p/9sd",
+      "summary": "Please note different time and location this month at UpStart Collective at the U.S. Bancorp Tower (a.k.a. Big Pink).  Please RSVP on MeetUp.  Tuesday September 8, 2026 from 6:30pm to 8:30pm.\nCoinciding with devopsdays Portland, OR, Sept 8-10, 2026.\nIn v18, Postgres got temporal primary keys,…",
+      "author": null,
+      "publishedAt": "2026-08-13T17:54:04.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9sc",
+      "title": "Bertrand Drouvot: Welcome to pg_walviz: PostgreSQL WAL segment visualizer",
+      "link": "https://postgr.es/p/9sc",
+      "summary": "Introduction\nThe purpose of this blog post is to introduce pg_walviz, a new tool to\nvisualize PostgreSQL WAL segment files.\npg_waldump is very\nuseful to display a human-readable rendering of the WAL. However, sometimes we\nalso want to see how records are physically stored in a segment: the WAL…",
+      "author": null,
+      "publishedAt": "2026-08-13T01:00:00.000Z"
     }
   ],
-  "totalIndexed": 94
+  "totalIndexed": 96
 }
