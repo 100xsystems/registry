@@ -1,48 +1,43 @@
 # YC Company Changes for 2026-08-13
 
-- Previous total: 6157
+- Previous total: 6162
 - Current total: 6162
-- Added: 5
+- Added: 0
 - Removed: 0
-- Updated: 7
+- Updated: 8
 
-
-## Added Companies
-
-- [Meteoric](https://www.ycombinator.com/companies/meteoric) (Summer 2026) — Drones that clear clouds over solar farms
-- [Mentlio](https://www.ycombinator.com/companies/mentlio) (Summer 2026) — Engineering Intelligence and Token Optimization for the AI-Coding Era
-- [MOCHI.TV](https://www.ycombinator.com/companies/mochitv) (Summer 2026) — 1 Minute Anime
-- [PRINCEPS](https://www.ycombinator.com/companies/princeps) (Summer 2026) — AI-native insurance company for the compute economy
-- [Magma](https://www.ycombinator.com/companies/magma) (Summer 2026) — Monetize your agent's traces.
 
 ## Updated Companies
 
-### [Version Story Compare](https://www.ycombinator.com/companies/version-story-compare)
+### [EPIC AEROSPACE](https://www.ycombinator.com/companies/epic-aerospace)
 
-- `one_liner`: Deterministic redlining at scale — now within Claude → Git for Lawyers — now within Claude
-- `tags`: Artificial Intelligence,SaaS,B2B,Legal,LegalTech → SaaS,B2B,Legal,LegalTech,AI
+- `stage`: Early → Growth
 
-### [Feldy](https://www.ycombinator.com/companies/feldy)
+### [AlgoUniversity](https://www.ycombinator.com/companies/algouniversity)
 
-- `website`: https://www.feldy.ai → https://feldy.ai/?utm_source=yc&utm_medium=directory&utm_campaign=profile&utm_content=channel_link
+- `team_size`: 10 → 40
 
-### [Wedge](https://www.ycombinator.com/companies/wedge)
+### [Arintra](https://www.ycombinator.com/companies/arintra)
 
-- `isHiring`: false → true
+- `stage`: Early → Growth
 
-### [Sira](https://www.ycombinator.com/companies/sira)
+### [Kastle](https://www.ycombinator.com/companies/kastle)
 
-- `isHiring`: false → true
+- `stage`: Early → Growth
 
-### [o11](https://www.ycombinator.com/companies/o11)
+### [Diffusion Studio](https://www.ycombinator.com/companies/diffusion-studio)
 
-- `one_liner`: Bespoke AI For Financial Firms → The AI Data Warehouse For Financial Firms
-- `tags`:  → SaaS,Finance,B2B,AI
+- `one_liner`: The professional video editor built for agents → Turn your agent into a professional video editor
 
-### [Nori](https://www.ycombinator.com/companies/noril1)
+### [Efference](https://www.ycombinator.com/companies/efference)
 
-- `one_liner`: Affordable robot you can teach to do anything → sub-2000$ humanoid robot you can teach to do anything
+- `team_size`: 1 → 12
 
-### [Nex](https://www.ycombinator.com/companies/nex)
+### [Riften](https://www.ycombinator.com/companies/riften)
 
-- `one_liner`: Claude Cowork for GTM Automations → Claude Cowork using any AI model, starting with GTM agents
+- `one_liner`: Earned Intelligence for every company.  → Cut LLM spend, then post-train owned models from production traffic.
+- `tags`: Artificial Intelligence,Developer Tools,Reinforcement Learning,Open Source,Infrastructure → Developer Tools,Reinforcement Learning,Open Source,Infrastructure,AI
+
+### [Magma](https://www.ycombinator.com/companies/magma)
+
+- `launched_at`: 1781246447 → 1786606834
