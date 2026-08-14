@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-08-14T01:54:20.468Z",
+  "updatedAt": "2026-08-14T18:42:59.457Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -785,7 +785,15 @@
       "summary": "Choose your I/O execution engine with `io_method` and size the worker pool with `io_workers`—and yes, you can resize workers without restarting.",
       "author": null,
       "publishedAt": "2026-08-14T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9sh",
+      "title": "Joshua Drake: Parquet and Iceberg: An Overview",
+      "link": "https://postgr.es/p/9sh",
+      "summary": "A pile of containers is not a shipment. A shipment is containers plus a manifest.Apache Iceberg is the manifest. It is not a file format, it is a table format: a metadata layer that records exactly which Parquet files make up a table at every point in time. That one idea buys you things we used to…",
+      "author": null,
+      "publishedAt": "2026-08-14T15:06:00.000Z"
     }
   ],
-  "totalIndexed": 97
+  "totalIndexed": 98
 }

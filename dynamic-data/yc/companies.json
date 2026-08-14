@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-08-14T13:04:32.978Z",
-  "count": 6172,
+  "fetchedAt": "2026-08-14T18:43:15.840Z",
+  "count": 6173,
   "companies": [
     {
       "id": 35784,
@@ -2330,6 +2330,51 @@
       "url": "https://www.ycombinator.com/companies/mireye"
     },
     {
+      "id": 33051,
+      "name": "Touchy",
+      "slug": "touchy",
+      "former_names": [
+        "Tokenless"
+      ],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/e78313a9189e19195e360aee1598ec70854ce59b.png",
+      "website": "https://touchyapp.com",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "Touchy is your personal AI assistant that lives on your iPhone. It sees what you see and talks to your other apps to take care of work so you can get back to living in the moment.",
+      "one_liner": "The AI assistant that doesn't fight for your attention",
+      "team_size": 3,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "Consumer",
+      "subindustry": "Consumer",
+      "launched_at": 1780080714,
+      "tags": [
+        "Artificial Intelligence",
+        "Consumer",
+        "Productivity",
+        "AI Assistant"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Summer 2026",
+      "status": "Active",
+      "industries": [
+        "Consumer"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/touchy"
+    },
+    {
       "id": 33050,
       "name": "Derya",
       "slug": "derya",
@@ -3606,19 +3651,17 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/8126dcec05004e9a335df14d0116cf4774a61b06.png",
       "website": "https://trydenta.com",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Denta is the practice management platform that puts dental practices on autopilot. When a dentist starts a new practice, instead of finding an accounting firm, hiring two front desk workers, and then spending their nights posting insurance payments, they use Denta.\r\n\r\nI started Denta to help operate my Dad's 10 practices in Iowa. In supporting those, I realized the most painful part was both people and agents having messy access to fragmented data. So I solved for that and now spend my time automating work for dentists!",
-      "one_liner": "The dental practice that runs itself",
+      "long_description": "Denta saves you money on dental insurance.\r\n\r\nWhen you go to buy dental insurance, instead of picking the plan where 25% of your money goes to Brokers, CEOs, and Administrators, you pick the plan where 100% of your money goes to the dentist.\r\n\r\nI started Denta by building software for my dad's 10 dental practices in Iowa. In scaling that product to 13k MRR in 10 weeks, I realized I was working on a small problem in dentistry. Existing software sucks, no doubt, but what dentists complain about even more: insurance.\r\n\r\nInsurance is a massive burden on the industry. Dental Software companies make $6B/year. Dental Insurance Companies make $100B/year. 25% of that is wasted on administrators, brokers, and c-suite salaries. As the son of a dentist, I will not let these companies continue to burn $25B/year. That money should go to dentists via reimbursements, patients via more coverage, and employers via reduced costs.",
+      "one_liner": "Save Money on Dental Insurance",
       "team_size": 1,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
-      "industry": "Healthcare",
-      "subindustry": "Healthcare -> Healthcare IT",
+      "industry": "Fintech",
+      "subindustry": "Fintech -> Insurance",
       "launched_at": 1782407143,
       "tags": [
-        "Dental",
-        "Healthcare IT",
-        "AI"
+        "Health Insurance"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -3627,8 +3670,8 @@
       "batch": "Summer 2026",
       "status": "Active",
       "industries": [
-        "Healthcare",
-        "Healthcare IT"
+        "Fintech",
+        "Insurance"
       ],
       "regions": [
         "United States of America",
@@ -7527,7 +7570,7 @@
       "website": "https://www.rex.inc",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Rex is an AI-native service for order to cash. We replace people-heavy operations with AI agents that continuously manage invoices, customers and exceptions.\r\n\r\nOrder to cash is a $60B outsourced function because the work is too messy for traditional automation. Every customer has different context, exceptions do not follow clean rules, and the next step is often buried in emails, portals, handoffs, or someone’s memory. Rex agents run continuously in the background and resolve work to SLA standards so cash keeps moving. We're live with pre-IPO tech companies, managing  >$500m in receivables from F100 companies, cutting manual follow-up cycles from weeks to hours.\r\n\r\nWe founded Rex after spending four years building Sequence, an a16z-backed finance ops platform, from zero to Series A — where we saw firsthand that at-scale, O2C still runs on manual labour.\r\n\r\nRex is the #1 winner of the Vercel AI Accelerator out of 2,500 teams, selected by Guillermo Rauch and leaders from OpenAI, Anthropic, Browserbase and more.",
-      "one_liner": "AI Operations Partner for Enterprise Order to Cash",
+      "one_liner": "AI Native BPO for Enterprise Order to Cash",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -7536,10 +7579,10 @@
       "subindustry": "B2B -> Finance and Accounting",
       "launched_at": 1779903831,
       "tags": [
+        "Artificial Intelligence",
         "B2B",
         "Enterprise",
-        "Enterprise Software",
-        "AI"
+        "Enterprise Software"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -17189,8 +17232,8 @@
       "website": "https://www.zymbly.com",
       "all_locations": "London, England, United Kingdom",
       "long_description": "",
-      "one_liner": "Automates admin for aircraft mechanics",
-      "team_size": 3,
+      "one_liner": "The decision-support layer for aviation ops teams to know what to do…",
+      "team_size": 0,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -37429,8 +37472,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/18234851431f8da18d1f087abc867a57412f1a97.png",
       "website": "https://getlilac.com",
       "all_locations": "San Francisco, CA, USA; Remote",
-      "long_description": "Lilac taps idle GPUs from cloud providers and enterprises, giving startups and researchers cheaper inference while letting companies monetize unused capacity. Fully automated with Kubernetes integration.",
-      "one_liner": "We automatically monetize idle GPUs",
+      "long_description": "Lilac sells flexible GPU contracts and runs the software layer on top: monitoring, bare-metal provisioning, and managed Kubernetes and Slurm. We also run this layer for GPU cloud providers as their named operations and support partner.",
+      "one_liner": "We sell GPUs.",
       "team_size": 4,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -37439,10 +37482,10 @@
       "subindustry": "B2B",
       "launched_at": 1754345371,
       "tags": [
-        "Artificial Intelligence",
         "Machine Learning",
         "Cloud Computing",
-        "Infrastructure"
+        "Infrastructure",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -107246,7 +107289,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/5bd3e4de086fbafd70c63dbae211f55425382f05.png",
       "website": "https://www.quinnbio.com",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Quinn makes the highest-stakes scientific decisions in drug development. Which drugs to bet on, what to develop next, how to get them to patients. In days instead of months.",
+      "long_description": "Quinn makes the highest-stakes decisions in drug development. Which drugs to bet on, what to develop next, how to get them to patients. In days instead of months.",
       "one_liner": "The AI that delivers pharma R&D decisions in days, not months",
       "team_size": 4,
       "highlight_black": false,
@@ -107256,10 +107299,10 @@
       "subindustry": "Healthcare -> Drug Discovery and Delivery",
       "launched_at": 1656567327,
       "tags": [
-        "Artificial Intelligence",
         "Generative AI",
         "Biotech",
-        "Enterprise"
+        "Enterprise",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -107370,7 +107413,7 @@
         "Remote",
         "Partly Remote"
       ],
-      "stage": "Growth",
+      "stage": "Early",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -123948,7 +123991,7 @@
       "all_locations": "New York City, NY, USA",
       "long_description": "SkyLink is transforming corporate travel into a hassle-free, efficient experience. By integrating advanced route optimization and reducing the need for traditional travel agents, we're not only saving companies millions but also simplifying the travel process. \r\n\r\nWith SkyLink, employees can effortlessly book their travel, just like sending a Slack message. Trusted by leading global corporations, our platform acts as a pocket-sized travel agent, ensuring smart, cost-effective travel decisions and a smoother journey for everyone involved. \r\n\r\nSkyLink is where simplicity meets innovation in corporate travel.",
       "one_liner": "Travel Management Meets AI",
-      "team_size": 22,
+      "team_size": 53,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -123956,8 +123999,8 @@
       "subindustry": "B2B",
       "launched_at": 1646778535,
       "tags": [
-        "Travel",
-        "AI"
+        "Artificial Intelligence",
+        "Travel"
       ],
       "tags_highlighted": [],
       "top_company": false,

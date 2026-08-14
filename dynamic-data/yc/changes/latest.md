@@ -1,48 +1,50 @@
 # YC Company Changes for 2026-08-14
 
-- Previous total: 6171
-- Current total: 6172
+- Previous total: 6172
+- Current total: 6173
 - Added: 1
 - Removed: 0
-- Updated: 8
+- Updated: 7
 
 
 ## Added Companies
 
-- [Lyon](https://www.ycombinator.com/companies/lyon) (Summer 2026) — Foundation models on enterprise transaction data.
+- [Touchy](https://www.ycombinator.com/companies/touchy) (Summer 2026) — The AI assistant that doesn't fight for your attention
 
 ## Updated Companies
 
-### [Miso](https://www.ycombinator.com/companies/miso)
+### [SkyLink](https://www.ycombinator.com/companies/skylink)
 
-- `stage`: Early → Growth
+- `team_size`: 22 → 53
+- `tags`: Travel,AI → Artificial Intelligence,Travel
 
-### [Stacker](https://www.ycombinator.com/companies/stacker)
+### [Chowdeck](https://www.ycombinator.com/companies/chowdeck)
 
-- `stage`: Early → Growth
+- `stage`: Growth → Early
 
-### [Arintra](https://www.ycombinator.com/companies/arintra)
+### [Quinn](https://www.ycombinator.com/companies/quinn)
 
-- `stage`: Early → Growth
+- `tags`: Artificial Intelligence,Generative AI,Biotech,Enterprise → Generative AI,Biotech,Enterprise,AI
 
-### [Quindar](https://www.ycombinator.com/companies/quindar)
+### [Lilac](https://www.ycombinator.com/companies/lilac)
 
-- `stage`: Early → Growth
+- `one_liner`: We automatically monetize idle GPUs → We sell GPUs.
+- `tags`: Artificial Intelligence,Machine Learning,Cloud Computing,Infrastructure → Machine Learning,Cloud Computing,Infrastructure,AI
 
-### [Firecrawl](https://www.ycombinator.com/companies/firecrawl)
+### [Zymbly](https://www.ycombinator.com/companies/zymbly)
 
-- `stage`: Early → Growth
+- `one_liner`: Automates admin for aircraft mechanics → The decision-support layer for aviation ops teams to know what to do…
+- `team_size`: 3 → 0
 
-### [Mundo AI](https://www.ycombinator.com/companies/mundo-ai)
+### [Rex](https://www.ycombinator.com/companies/rex-inc)
 
-- `stage`: Early → Growth
+- `one_liner`: AI Operations Partner for Enterprise Order to Cash → AI Native BPO for Enterprise Order to Cash
+- `tags`: B2B,Enterprise,Enterprise Software,AI → Artificial Intelligence,B2B,Enterprise,Enterprise Software
 
-### [PowerMatrix](https://www.ycombinator.com/companies/powermatrix)
+### [Denta](https://www.ycombinator.com/companies/denta)
 
-- `one_liner`: Efficient and compact power supply for AI hardware → Connecting data cneters to the power grid, in weeks not decades
-
-### [Stratum Industries](https://www.ycombinator.com/companies/stratum-industries)
-
-- `one_liner`: AI agents that clear the U.S. government backlog. → Applied AI for Governments.
-- `tags`: GovTech,Automation,AI → Artificial Intelligence,GovTech,Automation
-- `question_answers`: true → false
+- `one_liner`: The dental practice that runs itself → Save Money on Dental Insurance
+- `industry`: Healthcare → Fintech
+- `subindustry`: Healthcare -> Healthcare IT → Fintech -> Insurance
+- `tags`: Dental,Healthcare IT,AI → Health Insurance
+- `industries`: Healthcare,Healthcare IT → Fintech,Insurance
