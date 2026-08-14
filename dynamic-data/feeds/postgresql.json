@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-08-13T18:52:42.418Z",
+  "updatedAt": "2026-08-14T01:54:20.468Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -777,7 +777,15 @@
       "summary": "Introduction\nThe purpose of this blog post is to introduce pg_walviz, a new tool to\nvisualize PostgreSQL WAL segment files.\npg_waldump is very\nuseful to display a human-readable rendering of the WAL. However, sometimes we\nalso want to see how records are physically stored in a segment: the WAL…",
       "author": null,
       "publishedAt": "2026-08-13T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9se",
+      "title": "Christophe Pettus: All Your GUCs in a Row: io_method and io_workers",
+      "link": "https://postgr.es/p/9se",
+      "summary": "Choose your I/O execution engine with `io_method` and size the worker pool with `io_workers`—and yes, you can resize workers without restarting.",
+      "author": null,
+      "publishedAt": "2026-08-14T01:00:00.000Z"
     }
   ],
-  "totalIndexed": 96
+  "totalIndexed": 97
 }
