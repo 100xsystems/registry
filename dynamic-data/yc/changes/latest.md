@@ -1,37 +1,48 @@
 # YC Company Changes for 2026-08-14
 
-- Previous total: 6168
-- Current total: 6171
-- Added: 3
+- Previous total: 6171
+- Current total: 6172
+- Added: 1
 - Removed: 0
-- Updated: 5
+- Updated: 8
 
 
 ## Added Companies
 
-- [Bernard](https://www.ycombinator.com/companies/bernard) (Summer 2026) — AI employees that run home appliance repair companies
-- [Tarifflo Inc.](https://www.ycombinator.com/companies/tarifflo-inc) (Summer 2026) — Supply chain compliance and cost savings
-- [Waybill](https://www.ycombinator.com/companies/waybill) (Summer 2026) — Managed procurement & inventory for hardware teams.
+- [Lyon](https://www.ycombinator.com/companies/lyon) (Summer 2026) — Foundation models on enterprise transaction data.
 
 ## Updated Companies
 
-### [Whip](https://www.ycombinator.com/companies/whip)
+### [Miso](https://www.ycombinator.com/companies/miso)
 
-- `isHiring`: true → false
+- `stage`: Early → Growth
 
-### [Novaflow](https://www.ycombinator.com/companies/novaflow)
+### [Stacker](https://www.ycombinator.com/companies/stacker)
 
-- `website`: https://www.novaflowapp.com/ → https://www.novaflow.ai
+- `stage`: Early → Growth
 
-### [10x Science](https://www.ycombinator.com/companies/10x-science)
+### [Arintra](https://www.ycombinator.com/companies/arintra)
 
-- `team_size`: 4 → 5
-- `tags`: Artificial Intelligence,SaaS,B2B,Biotech → SaaS,B2B,Biotech,AI
+- `stage`: Early → Growth
 
-### [Palisade](https://www.ycombinator.com/companies/palisade)
+### [Quindar](https://www.ycombinator.com/companies/quindar)
 
-- `tags`: Marketplace,Sales,E-commerce,AI → Artificial Intelligence,Marketplace,Sales,E-commerce
+- `stage`: Early → Growth
 
-### [Maingen](https://www.ycombinator.com/companies/maingen)
+### [Firecrawl](https://www.ycombinator.com/companies/firecrawl)
 
-- `one_liner`: RL environments for industrial operations → Simulating Agents Running Industrial Companies
+- `stage`: Early → Growth
+
+### [Mundo AI](https://www.ycombinator.com/companies/mundo-ai)
+
+- `stage`: Early → Growth
+
+### [PowerMatrix](https://www.ycombinator.com/companies/powermatrix)
+
+- `one_liner`: Efficient and compact power supply for AI hardware → Connecting data cneters to the power grid, in weeks not decades
+
+### [Stratum Industries](https://www.ycombinator.com/companies/stratum-industries)
+
+- `one_liner`: AI agents that clear the U.S. government backlog. → Applied AI for Governments.
+- `tags`: GovTech,Automation,AI → Artificial Intelligence,GovTech,Automation
+- `question_answers`: true → false
