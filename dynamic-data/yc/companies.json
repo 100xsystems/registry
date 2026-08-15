@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-08-14T18:43:15.840Z",
-  "count": 6173,
+  "fetchedAt": "2026-08-15T01:12:14.278Z",
+  "count": 6175,
   "companies": [
     {
       "id": 35784,
@@ -961,6 +961,48 @@
       "app_answers": null,
       "question_answers": false,
       "url": "https://www.ycombinator.com/companies/hiloop"
+    },
+    {
+      "id": 33345,
+      "name": "CueBench",
+      "slug": "cuebench",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/e7132e84c8b27f087db6e6d8e58db3f856fb87d6.png",
+      "website": "",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "",
+      "one_liner": "RL Environments for Scientific Reasoning & Performance Engineering",
+      "team_size": 0,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "B2B",
+      "subindustry": "B2B",
+      "launched_at": 1786744876,
+      "tags": [
+        "Reinforcement Learning",
+        "B2B",
+        "Data Labeling"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Summer 2026",
+      "status": "Active",
+      "industries": [
+        "B2B"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/cuebench"
     },
     {
       "id": 33344,
@@ -3916,7 +3958,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/41b5fd38dcf7826f6043c80c1a7e50338b8b5cb1.png",
       "website": "https://www.arbital.xyz",
       "all_locations": "Singapore, Singapore",
-      "long_description": "Arbital lets you trade perps, memes, stocks, and run market-making strategies from one place. In our first 7 months, 2,600 traders have traded $1.3B in volume through Arbital, and we're now doing $377M/month. \r\n\r\nWe're building towards a social, mobile-first trading app that brings tokenized equities, crypto, and perps to everyone.",
+      "long_description": "Arbital lets you trade perps, memes, stocks, and run market-making strategies from one place. In our first 7 months, 2,700 traders have traded $1.35B in volume through Arbital, and we're now doing $435M/month. \r\n\r\nWe're building towards a social, mobile-first trading app that brings tokenized equities, crypto, and perps to everyone.",
       "one_liner": "The trading terminal for perps, memes, and stocks.",
       "team_size": 3,
       "highlight_black": false,
@@ -3926,11 +3968,11 @@
       "subindustry": "Fintech -> Consumer Finance",
       "launched_at": 1785892617,
       "tags": [
+        "Artificial Intelligence",
         "Fintech",
         "Crypto / Web3",
         "Investing",
-        "Trading",
-        "AI"
+        "Trading"
       ],
       "tags_highlighted": [
         "Crypto / Web3"
@@ -5408,7 +5450,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/20aa62fc0a930e7bfdba7047f185bab421afd2b2.png",
       "website": "https://standardmachines.com",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "We build RL environments to teach AI to design chips.",
+      "long_description": "We build environments and evaluations to train and evaluate models on advanced chip design.",
       "one_liner": "RL Environments For Chip Design",
       "team_size": 0,
       "highlight_black": false,
@@ -5418,8 +5460,8 @@
       "subindustry": "B2B",
       "launched_at": 1785623138,
       "tags": [
-        "Semiconductors",
-        "AI"
+        "Artificial Intelligence",
+        "Semiconductors"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -5897,7 +5939,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/a2db1ee59cf597cd664444e784ae76e1f753d775.png",
       "website": "https://prodigy.markets",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Prodigy is the frontier AI trading research lab. We've trained the world's best foundation model for quantitative finance. We've already achieved more than 100% returns in live trading over the course of our YC batch, doubling our capital while major indices were flat. Our founders previously built strategies that generated billions in trading profits at Jane Street, trained frontier AI models at Google DeepMind and shipped cutting-edge AI at Apple to billions of customers. Join us as we use AI to solve the market.",
+      "long_description": "Prodigy is the frontier AI trading research lab. We've trained the world's best foundation model for quantitative finance. We've already achieved more than 100% returns in live trading over the course of our YC batch, doubling our capital while major indices were flat. Our founders previously worked at Jane Street, trained frontier AI models at Google DeepMind and shipped cutting-edge AI at Apple to billions of customers. Join us as we use AI to solve the market.",
       "one_liner": "Training the world's best foundation model for quantitative finance.",
       "team_size": 2,
       "highlight_black": false,
@@ -5907,11 +5949,11 @@
       "subindustry": "Fintech",
       "launched_at": 1786153448,
       "tags": [
+        "Artificial Intelligence",
         "Reinforcement Learning",
         "Finance",
         "Investing",
-        "Trading",
-        "AI"
+        "Trading"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -6113,7 +6155,7 @@
       "website": "https://www.tryglen.com/",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Glen is unified context for every agent and human on your team. Most MCP tools hand an agent a slice, one Slack thread, a single diff, and leave it to stitch the rest together itself. Glen reads from where your work already lives, code and PRs, issues, docs, and meetings, reconciles it, and gives your agents the full picture instead.\r\n\r\nWith Glen a coding agent knows why a line was written, not just what it says. Ask a PR assistant anything about a change and the clarifying-question relay disappears. Bug bots read the intent behind the code before they comment, so they stop flagging deliberate choices as defects and stop repeating mistakes they already made. A sales agent can coach your head of sales off the full account history, how teammates handle similar calls, what was promised, where the deal stalled, etc. \r\n\r\nAs the work gets done, Glen also distills it into skills and offers them back to the next agent, or person, who hits the same task.",
-      "one_liner": "Unified organizational context for agents and humans",
+      "one_liner": "Shared learning layer for agents",
       "team_size": 1,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -6122,9 +6164,9 @@
       "subindustry": "B2B -> Productivity",
       "launched_at": 1781114514,
       "tags": [
-        "Artificial Intelligence",
         "Generative AI",
-        "B2B"
+        "B2B",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -6601,8 +6643,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/4422075ddefbe2da912fc68b24148bca53aaa5b6.png",
       "website": "https://riften.ai",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Riften is a drop-in replacement for OpenAI and Anthropic APIs. Change one env var. We route each request to the cheapest model that can handle it, including open-weight models we host. Customers cut inference cost before any training begins.\r\n\r\nBecause Riften sits in the request path, real tasks and their outcomes become training data the company controls. We use that to post-train private models on open weights around recurring work. Those models earn production traffic by matching the APIs they replace.\r\n\r\nOver time, frontier APIs handle only the tasks that still require them. The rest runs on models the company owns, on infrastructure it controls.",
-      "one_liner": "Cut LLM spend, then post-train owned models from production traffic.",
+      "long_description": "Intelligence will be the most valuable asset a company owns. Today, almost every company rents it.\r\n\r\nCompanies pay a handful of labs one token at a time. Each dollar buys an answer, not an asset. They spend more, but own nothing more.\r\n\r\nRiften reverses that.\r\n\r\nChange one environment variable and Riften becomes the gateway for a company's AI traffic. We route each request to the lowest-cost model that can do the job, serving most work on open-weight models we host. Customers save money immediately without rebuilding their products.\r\n\r\nThe gateway is the entry point. Over time, Riften turns the company's work into private models built on open weights and shaped around the business. What begins as cheaper inference becomes an intelligence stack the company owns, runs on infrastructure it controls, and uses to power its most important applications.\r\n\r\nWe call this earned intelligence. It is created by the company's own work, controlled by the company, and accumulated over time.\r\n\r\nThe next generation of companies will not rent their intelligence. They will earn it, own it, and compound it. Riften is how they get there.",
+      "one_liner": "Earned intelligence for every company",
       "team_size": 0,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -7180,6 +7222,7 @@
       "subindustry": "Healthcare",
       "launched_at": 1785190964,
       "tags": [
+        "Consumer",
         "Biotech",
         "Personalization",
         "Health & Wellness"
@@ -8048,6 +8091,51 @@
       "app_answers": null,
       "question_answers": false,
       "url": "https://www.ycombinator.com/companies/egoist-machines"
+    },
+    {
+      "id": 32128,
+      "name": "Mass Magnetics",
+      "slug": "mass-magnetics",
+      "former_names": [
+        "Mass Energy Company"
+      ],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/26161cef0e683292e39a5da2d6258b38702473a0.png",
+      "website": "https://massmagnetics.com/",
+      "all_locations": "Boston, MA, USA",
+      "long_description": "Mass Magnetics turns recycled rare-earth scrap into high-performance permanent magnets, made in America. The materials we supply are the backbone of electric motors, sensors, speakers, hard drives, and electronics.\r\nOur process enables DFARS-compliant magnets for defense, aerospace, and industrial manufacturers who demand domestic supply without compromising on quality.\r\nOperations in Greater Boston, MA (Greentown Labs) and Columbus, IN.",
+      "one_liner": "USA-made magnetics for aerospace, robotics and defense. ",
+      "team_size": 3,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "Industrials",
+      "subindustry": "Industrials -> Defense",
+      "launched_at": 1786735839,
+      "tags": [
+        "Hard Tech",
+        "Drones",
+        "Manufacturing"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Summer 2026",
+      "status": "Active",
+      "industries": [
+        "Industrials",
+        "Defense"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/mass-magnetics"
     },
     {
       "id": 32127,
@@ -9633,9 +9721,9 @@
       "subindustry": "B2B -> Security",
       "launched_at": 1785361922,
       "tags": [
-        "Artificial Intelligence",
         "Security",
-        "Cybersecurity"
+        "Cybersecurity",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -9911,7 +9999,7 @@
       ],
       "stage": "Early",
       "app_video_public": false,
-      "demo_day_video_public": false,
+      "demo_day_video_public": true,
       "app_answers": null,
       "question_answers": false,
       "url": "https://www.ycombinator.com/companies/manicule"
@@ -13707,8 +13795,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/8eec4067ada1ceb62324834a6da7831196618472.png",
       "website": "https://dreach.ai",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "drip autonomously finds leads, sends first messages, follows up, and books meetings. Every conversation syncs for your team.",
-      "one_liner": "Never miss a lead",
+      "long_description": "AI agents watch hiring demand, leadership changes, and company events, then queue who to contact, why now, and what to say.",
+      "one_liner": "stop building lists. start booking clients.",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -18998,11 +19086,11 @@
       "subindustry": "Industrials -> Manufacturing and Robotics",
       "launched_at": 1783647531,
       "tags": [
-        "Artificial Intelligence",
         "Robotics",
         "Construction",
         "Sustainability",
-        "Energy"
+        "Energy",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -34412,7 +34500,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/3ab3b751ff1a6569beaba5e0f91c3c4dbcda3e55.png",
       "website": "https://idler.ai/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "idler builds reinforcement learning environments that teach AI models how to do expert-level work",
+      "long_description": "idler builds reinforcement learning environments that teach AI models how to do expert-level work.",
       "one_liner": "reinforcement learning environments",
       "team_size": 13,
       "highlight_black": false,
@@ -38524,7 +38612,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": true,
+      "isHiring": false,
       "nonprofit": false,
       "batch": "Summer 2025",
       "status": "Active",
@@ -41623,14 +41711,16 @@
     },
     {
       "id": 30510,
-      "name": "Cactus",
-      "slug": "cactus",
-      "former_names": [],
+      "name": "Cactus Compute",
+      "slug": "cactus-compute",
+      "former_names": [
+        "Cactus"
+      ],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/38edcfba2831cce5f05a5da045992ae4f758e655.png",
       "website": "https://www.cactuscompute.com/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Check out the project: https://github.com/cactus-compute/cactus",
-      "one_liner": "Low-latency AI engine for mobile devices & wearables",
+      "long_description": "On-device AI for phones, wearables, smart home, robots and small robots:\r\n- Cactus Needle: 14MB agentic LLM for tiny devices\r\n- Cactus Engine: fastest runtime for tiny devices\r\n- Cactus Hybrid: post-trained models fall back to cloud",
+      "one_liner": "Tiny Edge AI For Tiny Devices",
       "team_size": 8,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -41666,7 +41756,7 @@
       "demo_day_video_public": false,
       "app_answers": null,
       "question_answers": true,
-      "url": "https://www.ycombinator.com/companies/cactus"
+      "url": "https://www.ycombinator.com/companies/cactus-compute"
     },
     {
       "id": 30509,
@@ -41925,14 +42015,16 @@
     },
     {
       "id": 30502,
-      "name": "PowerMatrix",
-      "slug": "powermatrix",
-      "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/3151e6fee623bc4e7d2fd788b61365adf887f421.png",
-      "website": "https://pwrmatrix.com",
+      "name": "NODI Energy",
+      "slug": "nodi-energy",
+      "former_names": [
+        "PowerMatrix"
+      ],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/a4a4e15d9d456412939a83c9d998aaeedade968a.png",
+      "website": "https://www.nodienergy.com",
       "all_locations": "London, England, United Kingdom",
-      "long_description": "PowerMatrix provides the MOST efficient and compact next-generation high-performance power supplies for emerging technologies, such as GPUs, xPUs, AI server, datacenters, drones, EV, aerospace, etc. \r\n\r\nBased on patented circuit topology, embedded packaging, and novel magnetics, our power supply systems can reduce energy loss by up to 50%. \r\n\r\nWe have developed several prototypes and are collaborating with world-leading customers.",
-      "one_liner": "Connecting data cneters to the power grid, in weeks not decades",
+      "long_description": "NODI is building distributed energy infrastructure to rewire the grid. \r\n\r\nWe deploy and aggregate batteries at the edge and orchestrate them as distributed nodes, providing locational flexibility to the rigid grid — relieving congestion and unlocking capacity at constrained locations, so data centers can connect in weeks instead of waiting decades for reinforcement.",
+      "one_liner": "Distributed energy infrastructure unlocking grid power to data centers",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -41941,10 +42033,10 @@
       "subindustry": "Industrials -> Energy",
       "launched_at": 1748546232,
       "tags": [
+        "Energy Storage",
         "Hard Tech",
         "Hardware",
         "Energy",
-        "Semiconductors",
         "Electronics"
       ],
       "tags_highlighted": [],
@@ -41966,7 +42058,7 @@
       "demo_day_video_public": false,
       "app_answers": null,
       "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/powermatrix"
+      "url": "https://www.ycombinator.com/companies/nodi-energy"
     },
     {
       "id": 30501,
@@ -50669,7 +50761,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/cfc860ae54b7e3a7f3fdaf19550aa06087041ede.png",
       "website": "https://adam.new/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Adam is building AI CAD. It transforms text into parametric designs so engineering teams can ship 10x faster. Our mission is to eliminate the gap between engineering and reality so more great ideas come into existence.",
+      "long_description": "Applied AI lab building end-to-end agents for mechanical design.",
       "one_liner": "AI Powered CAD",
       "team_size": 4,
       "highlight_black": false,
@@ -50679,9 +50771,9 @@
       "subindustry": "B2B -> Engineering, Product and Design",
       "launched_at": 1737056992,
       "tags": [
+        "Artificial Intelligence",
         "Hardware",
-        "Design",
-        "AI"
+        "Design"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -56278,9 +56370,9 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/1eca61dd3b32e7b0f7174161cd567ec823504e49.png",
       "website": "https://www.revyl.com",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Revyl is a vertically integrated development platform for mobile teams",
-      "one_liner": "The mobile source of truth",
-      "team_size": 7,
+      "long_description": "Revyl is a development platform that lets agents, product, design, and engineering ask questions, collaborate, and code on a single source of truth; starting with mobile",
+      "one_liner": "The mobile development platform",
+      "team_size": 16,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -56288,10 +56380,10 @@
       "subindustry": "B2B -> Infrastructure",
       "launched_at": 1729643205,
       "tags": [
-        "Artificial Intelligence",
         "Developer Tools",
         "B2B",
-        "Infrastructure"
+        "Infrastructure",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -65336,8 +65428,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/4d8bd41bea120a97058cce60e2d04af90f42a4c8.png",
       "website": "https://parahelp.com/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Build and run an AI support agent that resolves even your most complex tickets end-to-end.\r\n\r\nIf a tool has an API, you can connect it to your agent - just by chatting with Parahelp. For example, you can connect Stripe so your agent can resolve billing questions and refund requests.",
-      "one_liner": "Build an AI support agent that can use all your tools",
+      "long_description": "Build and run an AI support agent that resolves even your most complex tickets end-to-end.\r\n\r\nIf a tool has an API, you can securely connect it to your agent - just by chatting with Parahelp. For example, you can connect Stripe so your agent can resolve billing questions and refund requests.",
+      "one_liner": "Build an AI support agent that securely uses all your tools",
       "team_size": 11,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -65346,10 +65438,10 @@
       "subindustry": "B2B -> Operations",
       "launched_at": 1720219864,
       "tags": [
-        "Artificial Intelligence",
         "Customer Success",
         "Customer Service",
         "Customer Support",
+        "AI",
         "Conversational AI"
       ],
       "tags_highlighted": [],
@@ -79438,7 +79530,7 @@
         "United States of America",
         "America / Canada"
       ],
-      "stage": "Growth",
+      "stage": "Early",
       "app_video_public": false,
       "demo_day_video_public": true,
       "app_answers": null,
@@ -83569,9 +83661,9 @@
         "Proof of Human, PBC"
       ],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/b3e5845bbb5f4bf270b3e5d25d9624f69e1bd986.png",
-      "website": "http://poh.org",
+      "website": "https://poh.org",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "The Proof of Human is an API that invisibly detects bots and verifies human identity.\r\n\r\nFounded by 2 Princeton cognitive scientists, Proof of Human leverages world-class research with enterprise-grade accuracy and latency so websites can verify their human users friction-free.",
+      "long_description": "Proof of Human is an API that invisibly detects bots and verifies human identity.\r\n\r\nFounded by Princeton cognitive scientists, Proof of Human leverages world-class research with industry-beating benchmarks so platforms can verify their human users friction-free.",
       "one_liner": "continuous human verification without CAPTCHAs or user friction",
       "team_size": 4,
       "highlight_black": false,

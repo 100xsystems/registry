@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-08-06T23:52:21.845Z",
+  "updatedAt": "2026-08-15T01:12:11.457Z",
   "items": [
     {
       "guid": "https://www.tigerdata.com/blog/whats-new-in-tiger-cloud",
@@ -31,7 +31,15 @@
       "summary": "Industrial IoT on TimescaleDB: ControlCom streams 1K-10K points/sec from thousands of assets, powering instant dashboards and AI that caught $160K billing errors.",
       "author": "Andrew Stebbins",
       "publishedAt": "2026-08-06T18:40:28.000Z"
+    },
+    {
+      "guid": "https://www.tigerdata.com/blog/continuous-aggregate-refresh-demystified",
+      "title": "Continuous Aggregate Refresh, Demystified: Invalidation, Lookback, and Late-Arriving Data",
+      "link": "https://www.tigerdata.com/blog/continuous-aggregate-refresh-demystified",
+      "summary": "TimescaleDB continuous aggregates and late-arriving data: invalidation tracking, lookback windows, and the two offsets that prevent stale aggregate buckets.",
+      "author": "Damaso Sanoja",
+      "publishedAt": "2026-08-14T12:00:28.000Z"
     }
   ],
-  "totalIndexed": 3
+  "totalIndexed": 4
 }

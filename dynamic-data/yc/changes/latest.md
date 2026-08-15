@@ -1,50 +1,100 @@
-# YC Company Changes for 2026-08-14
+# YC Company Changes for 2026-08-15
 
-- Previous total: 6172
-- Current total: 6173
-- Added: 1
+- Previous total: 6173
+- Current total: 6175
+- Added: 2
 - Removed: 0
-- Updated: 7
+- Updated: 18
 
 
 ## Added Companies
 
-- [Touchy](https://www.ycombinator.com/companies/touchy) (Summer 2026) — The AI assistant that doesn't fight for your attention
+- [Mass Magnetics](https://www.ycombinator.com/companies/mass-magnetics) (Summer 2026) — USA-made magnetics for aerospace, robotics and defense. 
+- [CueBench](https://www.ycombinator.com/companies/cuebench) (Summer 2026) — RL Environments for Scientific Reasoning & Performance Engineering
 
 ## Updated Companies
 
-### [SkyLink](https://www.ycombinator.com/companies/skylink)
+### [Proof of Human](https://www.ycombinator.com/companies/proof-of-human)
 
-- `team_size`: 22 → 53
-- `tags`: Travel,AI → Artificial Intelligence,Travel
+- `website`: http://poh.org → https://poh.org
 
-### [Chowdeck](https://www.ycombinator.com/companies/chowdeck)
+### [Greptile](https://www.ycombinator.com/companies/greptile)
 
 - `stage`: Growth → Early
 
-### [Quinn](https://www.ycombinator.com/companies/quinn)
+### [Parahelp](https://www.ycombinator.com/companies/parahelp)
 
-- `tags`: Artificial Intelligence,Generative AI,Biotech,Enterprise → Generative AI,Biotech,Enterprise,AI
+- `one_liner`: Build an AI support agent that can use all your tools → Build an AI support agent that securely uses all your tools
+- `tags`: Artificial Intelligence,Customer Success,Customer Service,Customer Support,Conversational AI → Customer Success,Customer Service,Customer Support,AI,Conversational AI
 
-### [Lilac](https://www.ycombinator.com/companies/lilac)
+### [Revyl](https://www.ycombinator.com/companies/revyl)
 
-- `one_liner`: We automatically monetize idle GPUs → We sell GPUs.
-- `tags`: Artificial Intelligence,Machine Learning,Cloud Computing,Infrastructure → Machine Learning,Cloud Computing,Infrastructure,AI
+- `one_liner`: The mobile source of truth → The mobile development platform
+- `team_size`: 7 → 16
+- `tags`: Artificial Intelligence,Developer Tools,B2B,Infrastructure → Developer Tools,B2B,Infrastructure,AI
 
-### [Zymbly](https://www.ycombinator.com/companies/zymbly)
+### [Adam](https://www.ycombinator.com/companies/adam)
 
-- `one_liner`: Automates admin for aircraft mechanics → The decision-support layer for aviation ops teams to know what to do…
-- `team_size`: 3 → 0
+- `tags`: Hardware,Design,AI → Artificial Intelligence,Hardware,Design
 
-### [Rex](https://www.ycombinator.com/companies/rex-inc)
+### [NODI Energy](https://www.ycombinator.com/companies/nodi-energy)
 
-- `one_liner`: AI Operations Partner for Enterprise Order to Cash → AI Native BPO for Enterprise Order to Cash
-- `tags`: B2B,Enterprise,Enterprise Software,AI → Artificial Intelligence,B2B,Enterprise,Enterprise Software
+- `name`: PowerMatrix → NODI Energy
+- `slug`: powermatrix → nodi-energy
+- `former_names`:  → PowerMatrix
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/3151e6fee623bc4e7d2fd788b61365adf887f421.png → https://bookface-images.s3.amazonaws.com/small_logos/a4a4e15d9d456412939a83c9d998aaeedade968a.png
+- `website`: https://pwrmatrix.com → https://www.nodienergy.com
+- `one_liner`: Connecting data cneters to the power grid, in weeks not decades → Distributed energy infrastructure unlocking grid power to data centers
+- `tags`: Hard Tech,Hardware,Energy,Semiconductors,Electronics → Energy Storage,Hard Tech,Hardware,Energy,Electronics
 
-### [Denta](https://www.ycombinator.com/companies/denta)
+### [Cactus Compute](https://www.ycombinator.com/companies/cactus-compute)
 
-- `one_liner`: The dental practice that runs itself → Save Money on Dental Insurance
-- `industry`: Healthcare → Fintech
-- `subindustry`: Healthcare -> Healthcare IT → Fintech -> Insurance
-- `tags`: Dental,Healthcare IT,AI → Health Insurance
-- `industries`: Healthcare,Healthcare IT → Fintech,Insurance
+- `name`: Cactus → Cactus Compute
+- `slug`: cactus → cactus-compute
+- `former_names`:  → Cactus
+- `one_liner`: Low-latency AI engine for mobile devices & wearables → Tiny Edge AI For Tiny Devices
+
+### [Liva AI](https://www.ycombinator.com/companies/liva-ai)
+
+- `isHiring`: true → false
+
+### [Libra Robotics](https://www.ycombinator.com/companies/libra-robotics)
+
+- `tags`: Artificial Intelligence,Robotics,Construction,Sustainability,Energy → Robotics,Construction,Sustainability,Energy,AI
+
+### [Dreach](https://www.ycombinator.com/companies/dreach)
+
+- `one_liner`: Never miss a lead → stop building lists. start booking clients.
+
+### [Manicule](https://www.ycombinator.com/companies/manicule)
+
+- `demo_day_video_public`: false → true
+
+### [Trident](https://www.ycombinator.com/companies/trident)
+
+- `tags`: Artificial Intelligence,Security,Cybersecurity → Security,Cybersecurity,AI
+
+### [Gutgutgoose](https://www.ycombinator.com/companies/gutgutgoose)
+
+- `tags`: Biotech,Personalization,Health & Wellness → Consumer,Biotech,Personalization,Health & Wellness
+
+### [Riften](https://www.ycombinator.com/companies/riften)
+
+- `one_liner`: Cut LLM spend, then post-train owned models from production traffic. → Earned intelligence for every company
+
+### [Glen](https://www.ycombinator.com/companies/glen)
+
+- `one_liner`: Unified organizational context for agents and humans → Shared learning layer for agents
+- `tags`: Artificial Intelligence,Generative AI,B2B → Generative AI,B2B,AI
+
+### [Prodigy Research](https://www.ycombinator.com/companies/prodigy-research)
+
+- `tags`: Reinforcement Learning,Finance,Investing,Trading,AI → Artificial Intelligence,Reinforcement Learning,Finance,Investing,Trading
+
+### [Standard Machines](https://www.ycombinator.com/companies/standard-machines)
+
+- `tags`: Semiconductors,AI → Artificial Intelligence,Semiconductors
+
+### [Arbital](https://www.ycombinator.com/companies/arbital)
+
+- `tags`: Fintech,Crypto / Web3,Investing,Trading,AI → Artificial Intelligence,Fintech,Crypto / Web3,Investing,Trading
