@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-07-24T06:47:35.967Z",
+  "updatedAt": "2026-08-15T06:46:23.218Z",
   "items": [
     {
       "guid": "daniel-doubrovkine-db::https://code.dblock.org/2026/05/05/coding-with-ai-agents-is-now-a-baseline-expectation-for-managers.html",
@@ -167,7 +167,15 @@
       "summary": "Most paying customers expect a certain level of (paid) support. One opens a ticket, gets a response, and any issue can be resolved.\nHow does “support” work in open-source? My rule of thumb is to meet users where they are.\nGitHub projects have issues, but opening an issue to ask a question is…",
       "author": "Daniel Doubrovkine",
       "publishedAt": "2025-01-08T01:00:00.000Z"
+    },
+    {
+      "guid": "daniel-doubrovkine-db::https://code.dblock.org/2026/08/15/benchmarks-are-free-now.html",
+      "title": "Benchmarks Are Free Now",
+      "link": "https://code.dblock.org/2026/08/15/benchmarks-are-free-now.html",
+      "summary": "My previous post walked through four bugs in ruby-enum, a gem I maintain, all stemming from the fact that class-level instance variables aren’t inherited by subclasses. The third fix, #59, made keys, key?, value?, key, value, to_h, parse and each walk up superclass and merge in a parent’s enums, so…",
+      "author": "Daniel Doubrovkine",
+      "publishedAt": "2026-08-15T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 20
+  "totalIndexed": 21
 }
