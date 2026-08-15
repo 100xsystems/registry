@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-08-15T01:12:02.615Z",
+  "updatedAt": "2026-08-15T18:17:40.992Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -809,7 +809,15 @@
       "summary": "Do you like building Postgres extensions? Of course you do! My \"Let's Build a Postgres Extension\" presentation garnered rave reviews at Postgres Conference 2026 in San Jose and PG Data 2026 in Chicago. But what if you didn't go? Sure the slides are available on both sites, but that's not quite the…",
       "author": null,
       "publishedAt": "2026-08-14T16:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9sl",
+      "title": "Radim Marek: The curious case of Google's AlloyDB",
+      "link": "https://postgr.es/p/9sl",
+      "summary": "Google launched AlloyDB in 2022. They claimed it is fully compatible with PostgreSQL. Can be up to 100 times faster for analytical queries than vanilla Postgres. Four years later, I haven't personally seen it gain significant traction. But it comes in discussions. When people ask me what AlloyDB…",
+      "author": null,
+      "publishedAt": "2026-08-15T15:45:42.000Z"
     }
   ],
-  "totalIndexed": 100
+  "totalIndexed": 101
 }

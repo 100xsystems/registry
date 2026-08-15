@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-08-04T14:09:57.942Z",
+  "updatedAt": "2026-08-15T18:17:42.291Z",
   "items": [
     {
       "guid": "eli-bendersky::https://eli.thegreenplace.net/2026/notes-on-the-fourier-transform/",
@@ -55,7 +55,15 @@
       "summary": "In Physics simulations or game engines it’s sometimes useful to\ndetermine the speed with which two objects are approaching each other.\nThis post will discuss the concept of closing speed, which is the\nnormal component of the relative velocity of two objects.\nRelative velocity and its components…",
       "author": "Eli Bendersky",
       "publishedAt": "2026-08-04T03:01:00.000Z"
+    },
+    {
+      "guid": "eli-bendersky::https://eli.thegreenplace.net/2026/concurrent-servers-part-7-rust/",
+      "title": "Concurrent Servers: Part 7 - Rust",
+      "link": "https://eli.thegreenplace.net/2026/concurrent-servers-part-7-rust/",
+      "summary": "This is part 7 in a series of posts on writing concurrent network servers.\nIn this part, we discuss how the challenges described in earlier parts are\ntackled in the Rust programming language.\nAll posts in the series:\nPart 1 - Introduction\nPart 2 - Threads\nPart 3 - Event-driven\nPart 4 - libuv\nPart 5…",
+      "author": "Eli Bendersky",
+      "publishedAt": "2026-08-15T16:41:00.000Z"
     }
   ],
-  "totalIndexed": 6
+  "totalIndexed": 7
 }

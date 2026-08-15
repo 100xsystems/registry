@@ -1,46 +1,41 @@
 # YC Company Changes for 2026-08-15
 
 - Previous total: 6176
-- Current total: 6176
-- Added: 0
+- Current total: 6177
+- Added: 1
 - Removed: 0
-- Updated: 8
+- Updated: 6
 
+
+## Added Companies
+
+- [Vernius Systems, Inc.](https://www.ycombinator.com/companies/vernius-systems-inc) (Summer 2026) — Autonomous radar guidance for interceptors
 
 ## Updated Companies
 
-### [Industrial Next](https://www.ycombinator.com/companies/industrial-next)
+### [Recall.ai](https://www.ycombinator.com/companies/recall-ai)
 
-- `all_locations`: San Francisco, CA, USA; Remote → San Francisco, CA, USA
-- `one_liner`: Tesla autonomous manufacturing for everyone → IndustrialNext builds the AI brain for manufacturing –…
-- `regions`: United States of America,America / Canada,Remote,Fully Remote → United States of America,America / Canada
+- `subindustry`: B2B -> Engineering, Product and Design → B2B -> Infrastructure
+- `tags`: API,AI → Artificial Intelligence,API
+- `industries`: B2B,Engineering, Product and Design → B2B,Infrastructure
 
-### [Chowdeck](https://www.ycombinator.com/companies/chowdeck)
+### [GovernGPT](https://www.ycombinator.com/companies/governgpt)
 
-- `stage`: Early → Growth
+- `team_size`: 6 → 7
 
-### [Greptile](https://www.ycombinator.com/companies/greptile)
+### [CollectWise](https://www.ycombinator.com/companies/collectwise)
 
-- `stage`: Early → Growth
+- `team_size`: 8 → 12
 
-### [Blacksmith](https://www.ycombinator.com/companies/blacksmith)
+### [Revion](https://www.ycombinator.com/companies/revion)
 
-- `stage`: Early → Growth
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/083700d7d477f8653353926e2c024cda96cf803d.png → https://bookface-images.s3.amazonaws.com/small_logos/84522703b8ea76ce25606b2150693133260bc1a1.png
 
-### [StarSling](https://www.ycombinator.com/companies/starsling)
+### [Synapse Semiconductor](https://www.ycombinator.com/companies/synapse-semiconductor)
 
-- `one_liner`: Self-Driving CI → Self-Driving CI: fast AI-native GitHub Actions runners
+- `one_liner`: Collapsing the edge AI vision hardware stack into one wafer → Frontier semiconductor research lab reimagining compute and vision…
+- `tags`: Artificial Intelligence,Edge Computing Semiconductors,Hard Tech,Robotics,Defense → Edge Computing Semiconductors,Hard Tech,Robotics,Defense,AI
 
-### [Bravi](https://www.ycombinator.com/companies/bravi)
+### [Denta](https://www.ycombinator.com/companies/denta)
 
-- `isHiring`: true → false
-
-### [Elyra](https://www.ycombinator.com/companies/elyra)
-
-- `team_size`: 2 → 5
-
-### [Moving Atoms](https://www.ycombinator.com/companies/moving-atoms)
-
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/ef35741f33adf69268f7b972bd18d2a9b60f0fc8.png → https://bookface-images.s3.amazonaws.com/small_logos/ee4bd602221f77fc05dda940b7202523dd2b9d10.png
-- `one_liner`: Virtual Reality for Evaluating Robots (World Models) → Solving Robotics with World Models Trained on Internet-Scale Video
-- `tags`: Artificial Intelligence,Hard Tech,Robotics,Virtual Reality → Hard Tech,Robotics,Virtual Reality,AI
+- `one_liner`: Save Money on Dental Insurance → Full Stack Dental Insurance

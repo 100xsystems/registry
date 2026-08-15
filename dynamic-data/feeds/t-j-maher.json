@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-08-11T07:15:58.777Z",
+  "updatedAt": "2026-08-15T18:17:50.419Z",
   "items": [
     {
       "guid": "t-j-maher::https://www.tjmaher.com/2026/06/does-giving-presentation-via-zoom-to.html",
@@ -247,7 +247,15 @@
       "summary": "Now that we've installed bun, Anthropic's package manager, scaffolded a Playwright framework and closely examined the results, and added typechecking with TypeScript's compiler, it's time to add ways to check the code with lint, and reformat the code with prettier. \n\n\nWe will be using:\n\nESLint, as…",
       "author": "T.J. Maher",
       "publishedAt": "2026-08-10T23:23:45.625Z"
+    },
+    {
+      "guid": "t-j-maher::https://www.tjmaher.com/2026/08/how-playwright-frameworks-get.html",
+      "title": "How Playwright Frameworks get configured with playwright.config.ts",
+      "link": "https://www.tjmaher.com/2026/08/how-playwright-frameworks-get.html",
+      "summary": "When we installed bun, a new package manager owned by Anthropic, then ran \"bun create playwright\", a new automation framework was stood up, along with sample tests, and a Playwright configuration file. In this post, we will be examining the file generated: playwright.config.ts.  \n\nPersonally, I…",
+      "author": "T.J. Maher",
+      "publishedAt": "2026-08-15T02:30:20.303Z"
     }
   ],
-  "totalIndexed": 30
+  "totalIndexed": 31
 }

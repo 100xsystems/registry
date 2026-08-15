@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-07-24T06:51:16.353Z",
+  "updatedAt": "2026-08-15T18:17:43.415Z",
   "items": [
     {
       "guid": "http://henrikwarne.com/?p=2611",
@@ -87,7 +87,15 @@
       "summary": "“Software design is preparation for change; change of behavior” Tidy First? is a new book by Kent Beck. It is a short little book, only about 100 pages (and lots of white space on them), but it contains some deep … Continue reading →",
       "author": "Henrik Warne",
       "publishedAt": "2024-01-10T19:47:51.000Z"
+    },
+    {
+      "guid": "http://henrikwarne.com/?p=2626",
+      "title": "Lessons Learned from Fixing Flaky Tests with Claude",
+      "link": "https://henrikwarne.com/2026/08/15/lessons-learned-from-fixing-flaky-tests-with-claude/",
+      "summary": "We recently sped up our integration tests by a factor of ten by running many of them in parallel. There were several flaky tests in the new test suite. Claude was really useful in getting rid of almost all flakyness, … Continue reading →",
+      "author": "Henrik Warne",
+      "publishedAt": "2026-08-15T15:50:33.000Z"
     }
   ],
-  "totalIndexed": 10
+  "totalIndexed": 11
 }
