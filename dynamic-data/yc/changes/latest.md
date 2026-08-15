@@ -1,32 +1,46 @@
 # YC Company Changes for 2026-08-15
 
-- Previous total: 6175
+- Previous total: 6176
 - Current total: 6176
-- Added: 1
+- Added: 0
 - Removed: 0
-- Updated: 4
+- Updated: 8
 
-
-## Added Companies
-
-- [Kandor](https://www.ycombinator.com/companies/kandor) (Summer 2026) — Making health insurance invisible
 
 ## Updated Companies
 
-### [Mindstate Design Labs](https://www.ycombinator.com/companies/mindstate-design-labs)
+### [Industrial Next](https://www.ycombinator.com/companies/industrial-next)
 
-- `one_liner`: Clinical-stage AI neuroengineering platform → Programmable biology platform for psychoactive effect design
-- `tags`: Machine Learning,Mental Health Tech,Biotech,Therapeutics,AI → Artificial Intelligence,Hard Tech,Neurotechnology,Biotech,AI
+- `all_locations`: San Francisco, CA, USA; Remote → San Francisco, CA, USA
+- `one_liner`: Tesla autonomous manufacturing for everyone → IndustrialNext builds the AI brain for manufacturing –…
+- `regions`: United States of America,America / Canada,Remote,Fully Remote → United States of America,America / Canada
 
-### [Naïve](https://www.ycombinator.com/companies/naive)
+### [Chowdeck](https://www.ycombinator.com/companies/chowdeck)
 
-- `one_liner`: Unified Agent Infrastructure → Autonomous Company Infrastructure
-- `tags`: Artificial Intelligence,Infrastructure → Infrastructure,AI
+- `stage`: Early → Growth
+
+### [Greptile](https://www.ycombinator.com/companies/greptile)
+
+- `stage`: Early → Growth
+
+### [Blacksmith](https://www.ycombinator.com/companies/blacksmith)
+
+- `stage`: Early → Growth
+
+### [StarSling](https://www.ycombinator.com/companies/starsling)
+
+- `one_liner`: Self-Driving CI → Self-Driving CI: fast AI-native GitHub Actions runners
+
+### [Bravi](https://www.ycombinator.com/companies/bravi)
+
+- `isHiring`: true → false
+
+### [Elyra](https://www.ycombinator.com/companies/elyra)
+
+- `team_size`: 2 → 5
 
 ### [Moving Atoms](https://www.ycombinator.com/companies/moving-atoms)
 
-- `tags`: Robotics,Virtual Reality,AI → Artificial Intelligence,Hard Tech,Robotics,Virtual Reality
-
-### [Pennant](https://www.ycombinator.com/companies/pennant)
-
-- `tags`: Fintech,Investing,Investments,AI → Artificial Intelligence,Fintech,Investing,Investments
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/ef35741f33adf69268f7b972bd18d2a9b60f0fc8.png → https://bookface-images.s3.amazonaws.com/small_logos/ee4bd602221f77fc05dda940b7202523dd2b9d10.png
+- `one_liner`: Virtual Reality for Evaluating Robots (World Models) → Solving Robotics with World Models Trained on Internet-Scale Video
+- `tags`: Artificial Intelligence,Hard Tech,Robotics,Virtual Reality → Hard Tech,Robotics,Virtual Reality,AI

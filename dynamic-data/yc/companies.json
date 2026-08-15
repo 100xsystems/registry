@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-15T06:46:55.871Z",
+  "fetchedAt": "2026-08-15T12:35:20.238Z",
   "count": 6176,
   "companies": [
     {
@@ -3826,11 +3826,11 @@
         "Avicenna Care",
         "Agent Insurance"
       ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/ef35741f33adf69268f7b972bd18d2a9b60f0fc8.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/ee4bd602221f77fc05dda940b7202523dd2b9d10.png",
       "website": "https://movingatoms.ai/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "We use World Models to evaluate  and train robots. This enables you to test your policy checkpoints easily, as well as augmenting your training dataset. Scaling GPUs is much cheaper than scaling robot arms and humans needed to moniter them.",
-      "one_liner": "Virtual Reality for Evaluating Robots (World Models)",
+      "long_description": "Moving Atoms is building world models trained on internet scale video: models that accurately predict physical interactions and are conditioned on robot actions. Our first model, Atom 1, already tops the Physics IQ benchmark. \r\n\r\nAn exceptional world model is what makes an exceptional robot model possible, and that's phase two.\r\nLLMs were unlocked by the trillions of text tokens sitting free on the internet. We believe robotics gets unlocked a similar way, by the latent physics information in online video content.",
+      "one_liner": "Solving Robotics with World Models Trained on Internet-Scale Video",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -3839,10 +3839,10 @@
       "subindustry": "Industrials -> Manufacturing and Robotics",
       "launched_at": 1786481200,
       "tags": [
-        "Artificial Intelligence",
         "Hard Tech",
         "Robotics",
-        "Virtual Reality"
+        "Virtual Reality",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -14560,7 +14560,7 @@
       "all_locations": "Stockholm, Stockholm County, Sweden",
       "long_description": "Elyra is an AI reservation system for restaurants. Instead of missing 40% of incoming phone calls and taking days to reply to emails, leaving over $100,000 in bookings on the table every year, restaurants get AI agents that answer every call and email instantly, 24/7, connected to a reservation system that optimizes table placements in real time so empty seats get filled with the right guests.\r\n\r\nFelix and Alan met in primary school in Stockholm and have been building things together ever since.\r\n\r\nWe launched with a single restaurant and within weeks they hit record occupancy, bookings they used to miss were suddenly being captured automatically, and empty Tuesday nights started filling up. Today we power top restaurants groups. \r\n\r\nThere are over 1 million restaurants in the US and Europe alone. The average restaurant loses $100K+ a year to missed calls and slow email replies. At our current pricing, that's a $10B+ market opportunity, and we're the only system that handles the call, the email, and the table allocation in one place.",
       "one_liner": "AI Reservation System for Restaurants ",
-      "team_size": 2,
+      "team_size": 5,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -28890,7 +28890,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": true,
+      "isHiring": false,
       "nonprofit": false,
       "batch": "Fall 2025",
       "status": "Active",
@@ -40393,8 +40393,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/fae29a98d132c4b435b336dbb5d6cf4a1aaf5de7.png",
       "website": "https://starsling.dev/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Fast GitHub Actions runners with AI agents that continuously improve your CI to make it up to 6x faster and 13x cheaper.",
-      "one_liner": "Self-Driving CI",
+      "long_description": "Drop-in Ubuntu runners plus AI agents that open optimization PRs for your workflows. StarSling Runners continuously improve your CI to make it up to 6x faster and 13x cheaper.",
+      "one_liner": "Self-Driving CI: fast AI-native GitHub Actions runners",
       "team_size": 3,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -69354,7 +69354,7 @@
       "regions": [
         "Unspecified"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -79573,7 +79573,7 @@
         "United States of America",
         "America / Canada"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": true,
       "app_answers": null,
@@ -107548,7 +107548,7 @@
         "Remote",
         "Partly Remote"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -128281,9 +128281,9 @@
       "former_names": [],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/f77b3fae4e9032c53ab1dabf92d2dde1c13be9a0.png",
       "website": "https://www.industrialnext.ai",
-      "all_locations": "San Francisco, CA, USA; Remote",
-      "long_description": "We bring Tesla autonomous manufacturing to every automaker and other producers. At Tesla, we were the core autonomous factory team and we’re now building the smart cameras and robotic guidance tools that provided the main advantages at Tesla",
-      "one_liner": "Tesla autonomous manufacturing for everyone",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "We're building the brain for the factory floor, developing AI-driven robotic systems powered by a proprietary foundation model for the difficult, contact-rich manufacturing tasks where conventional automation falls short.\r\n\r\nFounded by veterans of Tesla, Waymo, Ford, and GM who built the systems that brought modern autonomy into manufacturing, IndustrialNext is bringing that same intelligence to the factory floor: autonomous factories that are cost-competitive at any scale, anywhere.\r\n\r\nBacked by Y Combinator, Khosla Ventures, Lenovo, AlphaX Partners, and Plug and Play.",
+      "one_liner": "IndustrialNext builds the AI brain for manufacturing –…",
       "team_size": 9,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -128309,9 +128309,7 @@
       ],
       "regions": [
         "United States of America",
-        "America / Canada",
-        "Remote",
-        "Fully Remote"
+        "America / Canada"
       ],
       "stage": "Growth",
       "app_video_public": false,
