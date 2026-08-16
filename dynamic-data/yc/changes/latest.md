@@ -1,60 +1,55 @@
 # YC Company Changes for 2026-08-16
 
-- Previous total: 6177
-- Current total: 6179
-- Added: 2
-- Removed: 0
-- Updated: 10
+- Previous total: 6179
+- Current total: 6178
+- Added: 1
+- Removed: 2
+- Updated: 8
 
 
 ## Added Companies
 
-- [Standard Medical](https://www.ycombinator.com/companies/standard-medical) (Summer 2026) — A primary care clinic where AI earns clinical autonomy
-- [Lightfield](https://www.ycombinator.com/companies/lightfield) (Fall 2026) — AI legal intake & triage for in-house teams
+- [Veeza AI](https://www.ycombinator.com/companies/veeza-ai) (Fall 2026) — AI travel agent for people with weak passports, starting with visas.
+
+## Removed Companies
+
+- twentyfour26 (Fall 2026)
+- Kandor (Summer 2026)
 
 ## Updated Companies
 
-### [Rewbi](https://www.ycombinator.com/companies/rewbi)
+### [Industrial Next](https://www.ycombinator.com/companies/industrial-next)
 
-- `one_liner`: Rewbi uses AI to increase grid-connected battery storage revenue 2x → A stealth mode startup.
-- `tags`: Energy Storage,B2B,Energy,Renewable Energy,ClimateTech → B2B,Energy,Renewable Energy,Cloud Computing,ClimateTech
+- `tags`: Hard Tech,Robotics,Manufacturing,AI → Artificial Intelligence,Hard Tech,Robotics,Manufacturing
 
-### [Seals AI](https://www.ycombinator.com/companies/seals-ai)
-
-- `website`: https://www.hireseals.ai/ → https://www.titanio.ai/
-- `tags`: Artificial Intelligence,SaaS,B2B → SaaS,B2B,AI
-
-### [Diode Computers, Inc.](https://www.ycombinator.com/companies/diode-computers-inc)
-
-- `stage`: Growth → Early
-
-### [Voltair](https://www.ycombinator.com/companies/voltair)
+### [Rivet](https://www.ycombinator.com/companies/rivet)
 
 - `isHiring`: false → true
 
-### [GitCafe](https://www.ycombinator.com/companies/gitcafe)
+### [Async](https://www.ycombinator.com/companies/withasync)
 
-- `one_liner`: GitCafe is a modern replacement for GitHub. → The Git forge for the next hundred billion commits
+- `one_liner`: Transforming small businesses with AI agents → AI agents that run small businesses
+- `tags`: Artificial Intelligence,B2B → B2B,AI
 
-### [Rex](https://www.ycombinator.com/companies/rex-inc)
+### [SF Tensor](https://www.ycombinator.com/companies/sf-tensor)
 
-- `one_liner`: AI Native BPO for Enterprise Order to Cash → AI-native BPO for enterprise order-to-cash
-- `tags`: Artificial Intelligence,B2B,Enterprise,Enterprise Software → B2B,Enterprise,Enterprise Software,AI
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/7b80c521c36f8132868240eedba730602859b428.png → https://bookface-images.s3.amazonaws.com/small_logos/524a578009f692a6daadfe853089aabd437361d4.png
+
+### [Kebra](https://www.ycombinator.com/companies/kebra)
+
+- `one_liner`: Make your field service company AI-native → Field Service Companies that run themselves
+- `tags`: Artificial Intelligence,B2B,Home Services,Operations → B2B,Home Services,Operations,AI
+
+### [Floracene](https://www.ycombinator.com/companies/floracene)
+
+- `one_liner`: Optimized medical device purchasing for independent providers → Vibecode + deploy HIPAA-compliant internal tools, no eng team needed
+- `tags`: Health Tech,Medical Devices,Digital Health,Procurement,Healthcare IT → Health Tech,Medical Devices,Digital Health,Enterprise Software,Healthcare IT
 
 ### [Moving Atoms](https://www.ycombinator.com/companies/moving-atoms)
 
-- `one_liner`: Solving Robotics with World Models Trained on Internet-Scale Video → Solving Robotics with World Models trained on Internet-Scale Video
-- `tags`: Hard Tech,Robotics,Virtual Reality,AI → Artificial Intelligence,Hard Tech,Robotics,Virtual Reality
+- `one_liner`: Solving Robotics with World Models trained on Internet-Scale Video → World Model Lab for Evaluating and Training Robots.
+- `tags`: Artificial Intelligence,Hard Tech,Robotics,Virtual Reality → Hard Tech,Robotics,Virtual Reality,AI
 
-### [Pennant](https://www.ycombinator.com/companies/pennant)
+### [Denta](https://www.ycombinator.com/companies/denta)
 
-- `tags`: Artificial Intelligence,Fintech,Investing,Investments → Fintech,Investing,Investments,AI
-
-### [Coasty](https://www.ycombinator.com/companies/coasty)
-
-- `one_liner`: The computer-use agent that doesn't break on real software. We will… → Real World Evals and RL Environments for Computer-Use
-- `tags`: AIOps,Developer Tools,Workflow Automation → AIOps,Developer Tools,Reinforcement Learning,Workflow Automation,Data Labeling
-
-### [Edviro](https://www.ycombinator.com/companies/edviro)
-
-- `one_liner`: Energy world models that fix energy waste before it becomes expensive. → AI That Operates Energy Infrastructure
+- `one_liner`: Full Stack Dental Insurance → Dental Insurance for Startups
