@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-08-15T18:17:58.923Z",
-  "count": 6177,
+  "fetchedAt": "2026-08-16T01:16:34.720Z",
+  "count": 6179,
   "companies": [
     {
       "id": 35784,
@@ -478,8 +478,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c179a28044a3d4a8c3ceaf2a5b8cecbf90f66aa7.png",
       "website": "https://edviroenergy.com",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Edviro helps facilities managers at large buildings save on their energy bills. Facilities managers are overwhelmed with dashboards, alarms, and analytics for hundreds of boilers, HVAC units, and heat pumps across their buildings. Edviro continuously monitors and optimizes buildings using energy world models to detect anomalies, simulate interventions, and suggest the best options to the facilities manager.  Once the changes occur, we create a comprehensive M&V report to ensure savings show up on the bill. \r\n\r\nOur tools also allow institutions to maintain detailed service history & equipment logs, and perform maintenance with AR.  ",
-      "one_liner": "Energy world models that fix energy waste before it becomes expensive.",
+      "long_description": "Edviro builds AI that operates energy infrastructure. We connect to meters, HVAC systems, batteries, solar, and other energy equipment and continuously handle the work required to keep them efficient: detecting and diagnosing problems to forecasting demand, simulating fixes, creating work orders, coordinating maintenance, and controlling equipment where authorized. Our energy world models learn how each site behaves, choose the highest-value actions, and verify the results against real operational, meter, and billing data.",
+      "one_liner": "AI That Operates Energy Infrastructure",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -514,6 +514,51 @@
       "url": "https://www.ycombinator.com/companies/edviro"
     },
     {
+      "id": 33804,
+      "name": "Lightfield",
+      "slug": "lightfield",
+      "former_names": [
+        "Lightfield, Inc."
+      ],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/a5892847938d97ba24dce5c43342e5a6f22a2f34.png",
+      "website": "https://trylightfield.ai",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "Lightfield is the front door for in-house legal teams. Requests from Gmail, Outlook and Microsoft 365, Microsoft Teams, and Slack land in one queue with an owner, a status, and the source record. Lightfield also connects with the business systems legal teams already use, including Salesforce, Jira, ServiceNow, Ironclad, Zendesk, and HubSpot. Lightfield, Inc. is based in San Francisco.",
+      "one_liner": "AI legal intake & triage for in-house teams",
+      "team_size": 2,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "B2B",
+      "subindustry": "B2B -> Legal",
+      "launched_at": 1786835532,
+      "tags": [
+        "SaaS",
+        "B2B",
+        "Legal"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Fall 2026",
+      "status": "Active",
+      "industries": [
+        "B2B",
+        "Legal"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/lightfield"
+    },
+    {
       "id": 33738,
       "name": "Coasty",
       "slug": "coasty",
@@ -521,8 +566,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/49c533e34b6c887207ac5683dd8dfab22709a458.png",
       "website": "http://coasty.ai/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Coasty is a computer use agent that does real work inside softwares, companies already run. New web apps, old desktop tools, the legacy systems nobody wants to touch. You hand it a workflow and it owns the outcome.\r\nMost agents demo well and break the moment they hit real software. They get 18 steps out of 20 right, misclick once, and everything after is garbage. Coasty catches when it goes off track and fixes itself mid-task instead of starting over. It handles the messy parts, benchmarks never show. Permission dialogs, surprise pop-ups, a modal that steals focus, a page that loads slow. When a vendor pushes an overnight update and moves half the menus, brittle scripts break by morning. Coasty reads the screen instead of recording clicks, so it adapts and keeps going.\r\nIt also checks its own output and leaves a time-stamped trail you can replay. We won't pretend it gets every task right. Nothing automating this work does. What matters is what happens when something breaks. It catches the mistake, fixes what it can, and flags what it can't so a person can step in. Nothing fails quietly. That's what lets a team trust it on the work where a silent error gets someone fired.\r\nWe scored 82% on OSWorld, which puts us among the most reliable agents out there. Reliability is the whole product, not a feature.",
-      "one_liner": "The computer-use agent that doesn't break on real software. We will…",
+      "long_description": "Coasty is a computer use agent that officially reached 82.8% on OSWorld, which puts us among the most reliable agents out there. Going through the evaluation process, we realized a better crowdsourced benchmark was needed. So we created Coarena, real-world evals and RL environments for computer-use agents. We run a live arena where people post the computer-use tasks they actually need done, two frontier models race them head-to-head, and humans judge the outcome blind. Every battle produces something labs can't get from a static benchmark, an eval built on real demand instead of a memorized test set.\r\n\r\nMost benchmarks demo well and break the moment a model trains on them. They're fixed, they grade only the final screen, and they miss everything that matters, the run that spent $240 on an \"under $200\" task, the agent that subscribed to three newsletters on the way to checkout, the one that looped for 40 steps and quit. OSWorld and WebArena saturate in months. Ours are parameterized and demand-sourced, so the scores stay honest.\r\n\r\nOn top of the arena we build deterministic RL environments - flights, commerce, CRM, forms that reset bit-for-bit and grade outcome, trajectory, side-effects, and constraints, with per-step failure attribution and a dense reward you can train on. We also grade what nobody else does: whether an agent can be hijacked by instructions hidden in a page, and whether it knows when to stop and ask instead of spending someone's money.",
+      "one_liner": "Real World Evals and RL Environments for Computer-Use",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -533,7 +578,9 @@
       "tags": [
         "AIOps",
         "Developer Tools",
-        "Workflow Automation"
+        "Reinforcement Learning",
+        "Workflow Automation",
+        "Data Labeling"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -2518,7 +2565,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/7fbb4be6497bcd38a1210a0561cf3eb84422ab32.png",
       "website": "https://www.getpennant.ai",
       "all_locations": "New York City, NY, USA",
-      "long_description": "Led by former institutional proxy voters and technologists with 10+ years of experience, Pennant gives institutional investors, public companies, and corporate advisors voting and governance intelligence to act on their own principles at scale.",
+      "long_description": "Led by former institutional proxy voters and technologists with a collective 20+ years of experience, Pennant gives institutional investors, public companies, and corporate advisors voting and governance intelligence to act on their own principles at scale.",
       "one_liner": "The Corporate Governance OS for Public Markets",
       "team_size": 2,
       "highlight_black": false,
@@ -2528,10 +2575,10 @@
       "subindustry": "Fintech -> Asset Management",
       "launched_at": 1786584832,
       "tags": [
-        "Artificial Intelligence",
         "Fintech",
         "Investing",
-        "Investments"
+        "Investments",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -3877,7 +3924,7 @@
       "website": "https://movingatoms.ai/",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Moving Atoms is building world models trained on internet scale video: models that accurately predict physical interactions and are conditioned on robot actions. Our first model, Atom 1, already tops the Physics IQ benchmark. \r\n\r\nAn exceptional world model is what makes an exceptional robot model possible, and that's phase two.\r\nLLMs were unlocked by the trillions of text tokens sitting free on the internet. We believe robotics gets unlocked a similar way, by the latent physics information in online video content.",
-      "one_liner": "Solving Robotics with World Models Trained on Internet-Scale Video",
+      "one_liner": "Solving Robotics with World Models trained on Internet-Scale Video",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -3886,10 +3933,10 @@
       "subindustry": "Industrials -> Manufacturing and Robotics",
       "launched_at": 1786481200,
       "tags": [
+        "Artificial Intelligence",
         "Hard Tech",
         "Robotics",
-        "Virtual Reality",
-        "AI"
+        "Virtual Reality"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -6152,6 +6199,52 @@
       "url": "https://www.ycombinator.com/companies/codag"
     },
     {
+      "id": 32228,
+      "name": "Standard Medical",
+      "slug": "standard-medical",
+      "former_names": [
+        "Ion Health"
+      ],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/390777dec2649a1274798e8d8b3900081aeaadad.png",
+      "website": "https://standardmedical.com",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "Standard Medical is building a primary care clinic where AI earns clinical autonomy. Physician attention is the scarcest resource in medicine, and nearly everything wrong with healthcare follows from that scarcity: the waitlists, the prices, the counties with no doctor at all. We are building the way out.\r\n\r\nThe clinic is designed for AI to do more than draft notes or recommend next steps. For defined clinical workflows, the AI progresses on the same principle used in medical training: supervised first, then progressively entrusted as it demonstrates competence, clearing safety and performance gates for each capability. We'll begin with prescription renewals and routine lab ordering and review, then expand into the rest of longitudinal primary care and common, low-acuity urgent care. Physicians set its scope, supervise its work, and take every complex or unusual case. Any authority the AI earns can be revoked if performance slips.\r\n\r\nWe're pursuing participation in Utah's first-in-nation AI regulatory sandbox to test this model and seek authorization under state oversight, as Washington moves to take clinical AI national. First patients: Utah, 2026. The model is built to repeat state by state. Long term, we want routine care to be increasingly autonomous, nearly free to deliver, and available whenever a patient needs it. The goal is one physician safely caring for a hundred times more patients, with the marginal cost of routine care driven toward zero.",
+      "one_liner": "A primary care clinic where AI earns clinical autonomy",
+      "team_size": 2,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "Healthcare",
+      "subindustry": "Healthcare",
+      "launched_at": 1786820862,
+      "tags": [
+        "Health Tech",
+        "Telehealth",
+        "Digital Health",
+        "Healthcare",
+        "Primary Care"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Summer 2026",
+      "status": "Active",
+      "industries": [
+        "Healthcare"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/standard-medical"
+    },
+    {
       "id": 32227,
       "name": "Context.dev",
       "slug": "contextdev",
@@ -7703,7 +7796,7 @@
       "website": "https://www.rex.inc",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Rex is an AI-native service for order to cash. We replace people-heavy operations with AI agents that continuously manage invoices, customers and exceptions.\r\n\r\nOrder to cash is a $60B outsourced function because the work is too messy for traditional automation. Every customer has different context, exceptions do not follow clean rules, and the next step is often buried in emails, portals, handoffs, or someone’s memory. Rex agents run continuously in the background and resolve work to SLA standards so cash keeps moving. We're live with pre-IPO tech companies, managing  >$500m in receivables from F100 companies, cutting manual follow-up cycles from weeks to hours.\r\n\r\nWe founded Rex after spending four years building Sequence, an a16z-backed finance ops platform, from zero to Series A — where we saw firsthand that at-scale, O2C still runs on manual labour.\r\n\r\nRex is the #1 winner of the Vercel AI Accelerator out of 2,500 teams, selected by Guillermo Rauch and leaders from OpenAI, Anthropic, Browserbase and more.",
-      "one_liner": "AI Native BPO for Enterprise Order to Cash",
+      "one_liner": "AI-native BPO for enterprise order-to-cash",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -7712,10 +7805,10 @@
       "subindustry": "B2B -> Finance and Accounting",
       "launched_at": 1779903831,
       "tags": [
-        "Artificial Intelligence",
         "B2B",
         "Enterprise",
-        "Enterprise Software"
+        "Enterprise Software",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -8685,8 +8778,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/0368e97446261f618b077e5a2549ed76b47bbb0f.png",
       "website": "https://git.cafe",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "",
-      "one_liner": "GitCafe is a modern replacement for GitHub.",
+      "long_description": "We are GitCafe and we build GitHub for agents. We're rebuilding the infrastructure for the next hundred billion commits and CI jobs with hundreds of engineers already making the move.",
+      "one_liner": "The Git forge for the next hundred billion commits",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -26025,7 +26118,7 @@
       "tags": [],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": false,
+      "isHiring": true,
       "nonprofit": false,
       "batch": "Winter 2026",
       "status": "Active",
@@ -59261,7 +59354,7 @@
         "United States of America",
         "America / Canada"
       ],
-      "stage": "Growth",
+      "stage": "Early",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -63113,7 +63206,7 @@
         "Talk To Users AI"
       ],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/cfde4ebc7296b1d61f754907f5cf5a9a1f8fe26d.png",
-      "website": "https://www.hireseals.ai/",
+      "website": "https://www.titanio.ai/",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Seals is a suite of AI Employees for Wholesalers & Distributors. Instead of relying on humans to quote, take orders, collect payments, place purchase orders and enter data into ERPs. We build AI Employees that do these manual repetitive tasks for the 700k wholesalers in the US.\r\n\r\nWe’re a team of three Computer Science majors, and Fernando launched and grew AT&T in Mexico to $120M ARR. Previously, we all worked together at our last YC-backed startup, building it to over $6M in revenue. It was there that we placed thousands of purchase orders with wholesalers.\r\n\r\nWe realized that almost every physical product comes from B2B sales in the supply chain. However, it turns out that most of these operations are still done manually through phone and email, involving tasks like quoting, taking orders, collecting payments, entering data into ERPs, and providing support. By automating these tasks with AI agents in a human-like manner, we are creating a massive opportunity to convert $100B of payroll expenses into software spending.\r\n",
       "one_liner": "AI Employees for Wholesalers & Distributors",
@@ -63125,9 +63218,9 @@
       "subindustry": "B2B",
       "launched_at": 1725683549,
       "tags": [
-        "Artificial Intelligence",
         "SaaS",
-        "B2B"
+        "B2B",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -66109,8 +66202,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/05452330a078be465b5353a9b54ad87966552d0b.png",
       "website": "https://www.rewbi.com/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Rewbi uses AI to optimize grid-connected battery storage. We generate revenue by charging when electricity is cheap and discharging when electricity is expensive.\r\n\r\nWe rent battery storage for a fixed fee per month, and we earn 2x that fee in monthly revenue by dispatching the battery optimally.\r\n\r\nToday, power companies use human traders to manually track grid conditions and update the battery’s dispatch schedule. However batteries can adjust their power output 100x faster than traditional power generation (e.g. hydro, coal, nuclear, gas), with the ability to go from full-speed charging to full speed discharging in under a minute. Electricity prices change every 5 minutes, often by 300% or more. Our AI better tracks 100s of live inputs, and it makes decisions faster than a human operator (with lower overhead!), improving revenue 2x.",
-      "one_liner": "Rewbi uses AI to increase grid-connected battery storage revenue 2x",
+      "long_description": "A stealth mode startup.",
+      "one_liner": "A stealth mode startup.",
       "team_size": 3,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -66119,10 +66212,10 @@
       "subindustry": "Industrials -> Energy",
       "launched_at": 1724874761,
       "tags": [
-        "Energy Storage",
         "B2B",
         "Energy",
         "Renewable Energy",
+        "Cloud Computing",
         "ClimateTech"
       ],
       "tags_highlighted": [],

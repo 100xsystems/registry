@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-08-15T18:17:40.992Z",
+  "updatedAt": "2026-08-16T01:16:16.459Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -817,7 +817,23 @@
       "summary": "Google launched AlloyDB in 2022. They claimed it is fully compatible with PostgreSQL. Can be up to 100 times faster for analytical queries than vanilla Postgres. Four years later, I haven't personally seen it gain significant traction. But it comes in discussions. When people ask me what AlloyDB…",
       "author": null,
       "publishedAt": "2026-08-15T15:45:42.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9sn",
+      "title": "Christophe Pettus: All Your GUCs in a Row: jit_expressions and jit_tuple_deforming",
+      "link": "https://postgr.es/p/9sn",
+      "summary": "PostgreSQL's JIT compiler has two jobs: compiling expressions and deforming tuples. Here's how to isolate JIT bugs with two simple boolean toggles.",
+      "author": null,
+      "publishedAt": "2026-08-16T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9sm",
+      "title": "Payal Singh: The agent is not the system. Postgres is.",
+      "link": "https://postgr.es/p/9sm",
+      "summary": "The numbers here come from my own audit and design records as of 2026-08-15. Everything described as a redesign is a plan I have started building and have not proven yet.\nSince June I have been building Looper, an experimental system for running long-lived autonomous loops against real work. In…",
+      "author": null,
+      "publishedAt": "2026-08-15T21:00:00.000Z"
     }
   ],
-  "totalIndexed": 101
+  "totalIndexed": 103
 }
