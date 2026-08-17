@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-08-10T13:05:42.085Z",
+  "updatedAt": "2026-08-17T12:41:36.589Z",
   "items": [
     {
       "guid": "https://linuxblog.io/?p=20337",
@@ -183,7 +183,15 @@
       "summary": "A practical guide to DNS resolution on Linux: how /etc/resolv.conf, systemd-resolved, and dig work together, and how to troubleshoot common nameserver failures.\nContinue reading...",
       "author": "Hayden James",
       "publishedAt": "2026-08-10T10:56:20.000Z"
+    },
+    {
+      "guid": "https://linuxblog.io/?p=22354",
+      "title": "A Guide to Linux /proc Filesystem",
+      "link": "https://linuxblog.io/linux-proc-filesystem/",
+      "summary": "The /proc filesystem is a live window into the Linux kernel: process state, memory layout, CPU counters, network stats, and writable kernel tunables, all accessible with nothing but cat and grep. This guide walks through the most useful files and per-process directories with practical examples.…",
+      "author": "Hayden James",
+      "publishedAt": "2026-08-17T10:34:50.000Z"
     }
   ],
-  "totalIndexed": 22
+  "totalIndexed": 23
 }

@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-08-17T01:14:05.459Z",
+  "updatedAt": "2026-08-17T12:41:23.687Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -849,7 +849,15 @@
       "summary": "PostgreSQL's JIT compiler fires based on estimated query cost, but that estimate measures data volume, not expression complexity.",
       "author": null,
       "publishedAt": "2026-08-17T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9sq",
+      "title": "Gabriele Bartolini: CNPG Recipe 27 - Running OpenBao on Kubernetes with a CloudNativePG PostgreSQL backend",
+      "link": "https://postgr.es/p/9sq",
+      "summary": "A walkthrough of running OpenBao on Kubernetes with\nCloudNativePG as its PostgreSQL storage\nbackend. Every layer of this stack is open source, with no vendor lock-in:\nKubernetes and CloudNativePG are both CNCF\nprojects, authenticated entirely over TLS client certificates via the 1.30\nDatabaseRole…",
+      "author": null,
+      "publishedAt": "2026-08-17T08:48:42.000Z"
     }
   ],
-  "totalIndexed": 105
+  "totalIndexed": 106
 }
