@@ -1,83 +1,50 @@
-# YC Company Changes for 2026-08-16
+# YC Company Changes for 2026-08-17
 
 - Previous total: 6178
-- Current total: 6178
+- Current total: 6179
 - Added: 1
-- Removed: 1
-- Updated: 15
+- Removed: 0
+- Updated: 9
 
 
 ## Added Companies
 
-- [Aerogen Systems](https://www.ycombinator.com/companies/aerogen-systems) (Summer 2026) — Building the future of advanced chip manufacturing.
-
-## Removed Companies
-
-- Lightfield (Fall 2026)
+- [antimattr](https://www.ycombinator.com/companies/antimattr) (Fall 2026) — voice-first hardware interface for human-agent interaction
 
 ## Updated Companies
 
-### [Anima App](https://www.ycombinator.com/companies/anima-app)
+### [Verne Robotics](https://www.ycombinator.com/companies/verne-robotics)
 
-- `one_liner`: Design to Code & On-brand Vibe-coding → Anima - Design Agent | AgentGrid.io - Shared drive for humans & agents
+- `team_size`: 6 → 7
 
-### [Nabis](https://www.ycombinator.com/companies/nabis)
+### [Jarmin](https://www.ycombinator.com/companies/jarmin)
 
-- `all_locations`: San Francisco, CA, USA → New York City, NY, USA
-
-### [Atomic Industries](https://www.ycombinator.com/companies/atomic-industries)
-
-- `all_locations`: Detroit, MI, USA → Cleveland, OH, USA
-
-### [Gradia Health](https://www.ycombinator.com/companies/gradia-health)
-
-- `all_locations`: San Francisco, CA, USA → New York City, NY, USA; San Francisco, CA, USA
-
-### [Waydev](https://www.ycombinator.com/companies/waydev)
-
-- `all_locations`: San Francisco, CA, USA; Remote → Bucharest, Romania; Remote
-- `regions`: United States of America,America / Canada,Remote,Fully Remote → Romania,Europe,Remote,Fully Remote
-
-### [FrontPage](https://www.ycombinator.com/companies/frontpage)
-
-- `isHiring`: false → true
-
-### [Chowdeck](https://www.ycombinator.com/companies/chowdeck)
-
-- `team_size`: 14 → 103
-- `stage`: Growth → Early
-
-### [Forge Automation](https://www.ycombinator.com/companies/forge-automation)
-
-- `isHiring`: false → true
-
-### [Sparkles](https://www.ycombinator.com/companies/sparkles)
-
-- `all_locations`: San Francisco, CA, USA → London, England, United Kingdom
-- `regions`: United States of America,America / Canada → United Kingdom,Europe
-
-### [Dream](https://www.ycombinator.com/companies/dream)
-
-- `launched_at`: 1765334321 → 1786646316
-
-### [Supafax](https://www.ycombinator.com/companies/supafax)
-
-- `all_locations`: San Francisco, CA, USA → London, England, United Kingdom
-- `regions`: United States of America,America / Canada → United Kingdom,Europe
-
-### [Collar](https://www.ycombinator.com/companies/collar)
-
-- `one_liner`: The platform for AI-native private market investors. → AI for General Partners
 - `isHiring`: true → false
 
-### [Tarifflo Inc.](https://www.ycombinator.com/companies/tarifflo-inc)
+### [LunaBill](https://www.ycombinator.com/companies/lunabill)
 
-- `launched_at`: 1779036182 → 1786674718
+- `tags`: Artificial Intelligence,Generative AI,Health Tech,Healthcare,Healthcare IT → Generative AI,Health Tech,Healthcare,Healthcare IT,AI
 
-### [Touchy](https://www.ycombinator.com/companies/touchy)
+### [Parameter (fka Hex Security)](https://www.ycombinator.com/companies/parameter-fka-hex-security)
 
-- `launched_at`: 1780080714 → 1786732497
+- `team_size`: 10 → 11
 
-### [Vernius Systems, Inc.](https://www.ycombinator.com/companies/vernius-systems-inc)
+### [HERA](https://www.ycombinator.com/companies/manufacturingintelligence)
 
-- `launched_at`: 1780639543 → 1786812946
+- `all_locations`: Seattle, WA, USA → San Francisco, CA, USA
+
+### [Zaplar](https://www.ycombinator.com/companies/zaplar)
+
+- `tags`: B2B,AI → Artificial Intelligence,B2B
+
+### [Pluto](https://www.ycombinator.com/companies/talentpluto)
+
+- `tags`: AI,Careers,Conversational AI → Artificial Intelligence,Careers,Conversational AI
+
+### [Denta](https://www.ycombinator.com/companies/denta)
+
+- `one_liner`: Dental Insurance for Startups → Full Stack Dental Insurance
+
+### [SubVysion](https://www.ycombinator.com/companies/subvysion)
+
+- `one_liner`: We help contractors dig safer with 3D maps of underground… → 3D Maps of Underground Utilities

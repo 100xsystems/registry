@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-08-16T12:37:18.750Z",
+  "updatedAt": "2026-08-17T01:14:05.459Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -841,7 +841,15 @@
       "summary": "pgsonify is an experimental MIT-licensed tool that sonifies PostgreSQL health metrics as real elephant recordings. How it maps stats views to sound.",
       "author": null,
       "publishedAt": "2026-08-16T00:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9sp",
+      "title": "Christophe Pettus: All Your GUCs in a Row: jit_above_cost, jit_inline_above_cost, and jit_optimize_above_cost",
+      "link": "https://postgr.es/p/9sp",
+      "summary": "PostgreSQL's JIT compiler fires based on estimated query cost, but that estimate measures data volume, not expression complexity.",
+      "author": null,
+      "publishedAt": "2026-08-17T01:00:00.000Z"
     }
   ],
-  "totalIndexed": 104
+  "totalIndexed": 105
 }

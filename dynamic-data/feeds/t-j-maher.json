@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-08-15T18:17:50.419Z",
+  "updatedAt": "2026-08-17T01:14:12.344Z",
   "items": [
     {
       "guid": "t-j-maher::https://www.tjmaher.com/2026/06/does-giving-presentation-via-zoom-to.html",
@@ -255,7 +255,15 @@
       "summary": "When we installed bun, a new package manager owned by Anthropic, then ran \"bun create playwright\", a new automation framework was stood up, along with sample tests, and a Playwright configuration file. In this post, we will be examining the file generated: playwright.config.ts.  \n\nPersonally, I…",
       "author": "T.J. Maher",
       "publishedAt": "2026-08-15T02:30:20.303Z"
+    },
+    {
+      "guid": "t-j-maher::https://www.tjmaher.com/2026/08/implementing-page-objects-in-playwright.html",
+      "title": "Implementing Page Objects in Playwright",
+      "link": "https://www.tjmaher.com/2026/08/implementing-page-objects-in-playwright.html",
+      "summary": "Picture a login screen, such as The-Internet / Login. \n\n\n\n\nOn this LoginPage, there is:\n\na heading: Login Page\na user name textbox with the label, \"Username\"\na password textbox with the label, \"Password\"\na login button, with the role of a button, and the name of \"Login\"\na flash message that appears…",
+      "author": "T.J. Maher",
+      "publishedAt": "2026-08-16T22:04:38.139Z"
     }
   ],
-  "totalIndexed": 31
+  "totalIndexed": 32
 }
