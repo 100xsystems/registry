@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-08-17T12:41:23.687Z",
+  "updatedAt": "2026-08-17T18:26:30.338Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -857,7 +857,23 @@
       "summary": "A walkthrough of running OpenBao on Kubernetes with\nCloudNativePG as its PostgreSQL storage\nbackend. Every layer of this stack is open source, with no vendor lock-in:\nKubernetes and CloudNativePG are both CNCF\nprojects, authenticated entirely over TLS client certificates via the 1.30\nDatabaseRole…",
       "author": null,
       "publishedAt": "2026-08-17T08:48:42.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9ss",
+      "title": "Christophe Pettus: Sixteen Locks Ought to Be Enough for Anybody",
+      "link": "https://postgr.es/p/9ss",
+      "summary": "Every query locks every index on a table, even ones it doesn't use.",
+      "author": null,
+      "publishedAt": "2026-08-17T16:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9sr",
+      "title": "Maki Majima: What Flyway validate actually checks",
+      "link": "https://postgr.es/p/9sr",
+      "summary": "Tool capabilities and edition boundaries described here are accurate as of publication. Both vendors move these lines; check current documentation before making decisions based on this post.\nThere’s a specific moment this post is written for: your pipeline runs flyway validate, everything is green,…",
+      "author": null,
+      "publishedAt": "2026-08-17T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 106
+  "totalIndexed": 108
 }

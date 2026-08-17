@@ -9,7 +9,7 @@
     "edge-computing",
     "nextjs"
   ],
-  "updatedAt": "2026-08-15T01:12:12.020Z",
+  "updatedAt": "2026-08-17T18:26:40.936Z",
   "items": [
     {
       "guid": "vercel-blog::https://vercel.com/changelog/ai-gateway-now-supports-streaming-transcription",
@@ -4290,7 +4290,23 @@
       "summary": "Vercel CDN now supports Encrypted Client Hello (ECH) for domains managed by Vercel DNS. ECH encrypts the Server Name Indication (SNI) in the TLS handshake, the last part of an HTTPS connection that revealed which hostname a client was connecting to. With ECH, network observers see a connection to…",
       "author": "Faryal Siddiqui",
       "publishedAt": "2026-08-14T16:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/deploy-cursor-origin-repositories-with-vercel-in-public-beta",
+      "title": "Deploy Cursor Origin repositories with Vercel in public beta",
+      "link": "https://vercel.com/changelog/deploy-cursor-origin-repositories-with-vercel-in-public-beta",
+      "summary": "Pro and Enterprise customers can now connect  repositories to Vercel. Origin\nOnce connected, pull requests on Origin will automatically generate Preview deployments on Vercel, and merging will trigger a Production deployment.\nYou can connect Origin through , , or by clicking \"Continue with Origin\"…",
+      "author": "Cody Wong",
+      "publishedAt": "2026-08-17T00:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/gpt-5-6-sol-is-50-off-on-ai-gateway-for-the-next-month",
+      "title": "GPT-5.6 Sol is 50% off on AI Gateway for the next month",
+      "link": "https://vercel.com/changelog/gpt-5-6-sol-is-50-off-on-ai-gateway-for-the-next-month",
+      "summary": ", the flagship of OpenAI's GPT-5.6 series, is 50% off on AI Gateway through September 18. The discount applies on the OpenAI provider to all token types, tiers, regions, and modes, and it is available only on requests running directly through AI Gateway (not BYOK).GPT-5.6 Sol\nThe discount applies…",
+      "author": "Jerilyn Zheng",
+      "publishedAt": "2026-08-17T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 535
+  "totalIndexed": 537
 }

@@ -4,34 +4,68 @@
 - Current total: 6180
 - Added: 0
 - Removed: 0
-- Updated: 6
+- Updated: 12
 
 
 ## Updated Companies
 
-### [Chowdeck](https://www.ycombinator.com/companies/chowdeck)
+### [Caribou](https://www.ycombinator.com/companies/caribou)
 
-- `stage`: Early → Growth
+- `isHiring`: false → true
 
-### [222](https://www.ycombinator.com/companies/222)
+### [Glep](https://www.ycombinator.com/companies/glep)
+
+- `name`: Lenco → Glep
+- `slug`: lenco → glep
+- `former_names`:  → Lenco
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/53d4fde8908330833eed6ce703f14e2c329fe0aa.png → https://bookface-images.s3.amazonaws.com/small_logos/43385de74ef544ad440b821a7f4f5e3436bdc1a2.png
+- `website`: https://lenco.co → https://glep.com
+- `all_locations`: Lagos, LA, Nigeria; LA, Nigeria → San Francisco, CA, USA
+- `one_liner`: Pan-African digital bank for Africa's 50m businesses → AI-Native Spend platform built for Real Estate businesses
+- `team_size`: 13 → 30
+- `tags`: Banking as a Service,Fintech → Fintech,Enterprise Software,Neobank
+- `regions`: Nigeria,Africa,Remote,Partly Remote → United States of America,America / Canada,Remote,Partly Remote
+
+### [Midplane](https://www.ycombinator.com/companies/midplane)
+
+- `tags`: Artificial Intelligence,Generative AI,B2B,Productivity,Data Engineering → Generative AI,B2B,Productivity,Data Engineering,AI
+
+### [Vooma](https://www.ycombinator.com/companies/vooma)
+
+- `team_size`: 30 → 40
+
+### [Gauge](https://www.ycombinator.com/companies/gauge)
+
+- `one_liner`: Your marketing agent for organic, paid, and AI search. → Gauge helps you get recommended and implemented by agents.
+- `team_size`: 6 → 5
+- `tags`: Artificial Intelligence,SaaS,B2B,Analytics,Marketing → SaaS,B2B,Analytics,Marketing,AI
+
+### [Oway](https://www.ycombinator.com/companies/oway)
 
 - `isHiring`: true → false
 
-### [Entangl](https://www.ycombinator.com/companies/entangl)
+### [Asteroid](https://www.ycombinator.com/companies/asteroid)
 
-- `stage`: Early → Growth
+- `isHiring`: true → false
 
-### [Locke](https://www.ycombinator.com/companies/locke)
+### [Soren](https://www.ycombinator.com/companies/soren)
 
-- `one_liner`: Builders of the first AI-native government affairs firm. → Locke is changing the way companies and governments work together.
-- `tags`: Artificial Intelligence,GovTech → GovTech,AI
+- `one_liner`: Specialized AI for Real-World Deployment → The AI workforce for business operations.
+- `tags`: Artificial Intelligence,B2B,Enterprise,Enterprise Software → B2B,Enterprise,Enterprise Software,Operations,AI
 
-### [Nex](https://www.ycombinator.com/companies/nex)
+### [Libra Robotics](https://www.ycombinator.com/companies/libra-robotics)
 
-- `one_liner`: Claude Cowork using any AI model, starting with GTM agents → Claude Cowork for high-volume workflows, starting with GTM
-- `tags`: AIOps,Workflow Automation → AIOps,Workflow Automation,Sales
+- `one_liner`: Multi-robot collaboration for harsh environments on Earth. → Robot squads for solar farm construction
+- `tags`: Robotics,Construction,Sustainability,Energy,AI → Artificial Intelligence,Hard Tech,Robotics,Construction,Energy
+
+### [Polymorph](https://www.ycombinator.com/companies/polymorph)
+
+- `team_size`: 5 → 4
+
+### [Denta](https://www.ycombinator.com/companies/denta)
+
+- `website`: https://trydenta.com → https://denta.insure
 
 ### [Qokedas](https://www.ycombinator.com/companies/qokedas)
 
-- `one_liner`: Teaching models to decode the physical world → Data for AI Science
-- `tags`: Artificial Intelligence,Deep Learning → Deep Learning,AI
+- `tags`: Deep Learning,AI → Artificial Intelligence,Deep Learning
