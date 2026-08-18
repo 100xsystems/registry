@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-08-17T18:26:30.338Z",
+  "updatedAt": "2026-08-18T01:11:32.535Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -873,7 +873,23 @@
       "summary": "Tool capabilities and edition boundaries described here are accurate as of publication. Both vendors move these lines; check current documentation before making decisions based on this post.\nThere’s a specific moment this post is written for: your pipeline runs flyway validate, everything is green,…",
       "author": null,
       "publishedAt": "2026-08-17T00:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9sy",
+      "title": "Christophe Pettus: All Your GUCs in a Row: jit_debugging_support, jit_dump_bitcode, and jit_profiling_support",
+      "link": "https://postgr.es/p/9sy",
+      "summary": "Inspect the LLVM bitcode PostgreSQL generates with `jit_dump_bitcode`, or wire JIT-compiled functions into GDB and perf with `jit_debugging_support` and…",
+      "author": null,
+      "publishedAt": "2026-08-18T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9sx",
+      "title": "Ajin Cherian: Failover slot synchronization in PostgreSQL",
+      "link": "https://postgr.es/p/9sx",
+      "summary": "High availability is essential for logical replication environments, but until recently, failover could still leave subscribers disconnected from the replication slots they depend on. PostgreSQL 17 addressed this by introducing failover slot synchronization, allowing logical replication slots to be…",
+      "author": null,
+      "publishedAt": "2026-08-18T00:43:04.000Z"
     }
   ],
-  "totalIndexed": 108
+  "totalIndexed": 110
 }
