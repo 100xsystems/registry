@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-08-18T06:52:20.755Z",
+  "updatedAt": "2026-08-18T12:43:22.114Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -897,7 +897,23 @@
       "summary": "A production-ready approach to preventing duplicate leads and side effects with stable idempotency keys, PostgreSQL constraints, transactional outbox events, safe retries, and reconciliation.\nA visitor fills out a form, presses Submit, and sees nothing happen. They press it again. The first request…",
       "author": null,
       "publishedAt": "2026-08-17T20:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9sB",
+      "title": "Dimitri Fontaine: Introducing YeSQL: Practical PostgreSQL, One Concept at a Time",
+      "link": "https://postgr.es/p/9sB",
+      "summary": "I’m happy to share something new: YeSQL\nis live, a free set of 24 short PostgreSQL lessons — one concept, one\nrunnable query, real data, no signup. It’s free to use today, and it’s also\na prototype for something I’ve wanted to build for a while: making every\nquery in The Art of PostgreSQL runnable,…",
+      "author": null,
+      "publishedAt": "2026-08-18T08:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9sA",
+      "title": "Hans-Juergen Schoenig: Highly Available PostgreSQL on Kubernetes in 10 Minutes",
+      "link": "https://postgr.es/p/9sA",
+      "summary": "\"Highly available PostgreSQL\" usually means leader election, streaming replicas, automatic failover, health checks, and a lot of careful wiring. With the CYBERTEC PG Operator (CPO) it means a 14-line YAML file. Here's the whole thing, start to finish, on a laptop with minikube.\nEvery command and…",
+      "author": null,
+      "publishedAt": "2026-08-18T05:07:31.000Z"
     }
   ],
-  "totalIndexed": 111
+  "totalIndexed": 113
 }

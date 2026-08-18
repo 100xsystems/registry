@@ -1,59 +1,46 @@
 # YC Company Changes for 2026-08-18
 
-- Previous total: 6180
+- Previous total: 6184
 - Current total: 6184
-- Added: 4
+- Added: 0
 - Removed: 0
-- Updated: 9
+- Updated: 8
 
-
-## Added Companies
-
-- [Marker](https://www.ycombinator.com/companies/marker) (Summer 2026) — AI-native consultancy rebuilding businesses with agents
-- [Grocalo](https://www.ycombinator.com/companies/grocalo) (Summer 2026) — AI brain that runs content for creators
-- [Callbook AI](https://www.ycombinator.com/companies/callbook-ai) (Summer 2026) — AI collections agency for late stage portfolios
-- [Lantern AI](https://www.ycombinator.com/companies/lantern-ai) (Fall 2026) — Turn Your Taste Into Hires
 
 ## Updated Companies
 
-### [Wolfia](https://www.ycombinator.com/companies/wolfia)
+### [Stoke Space](https://www.ycombinator.com/companies/stoke-space)
 
-- `isHiring`: false → true
+- `stage`: Early → Growth
 
-### [mdhub](https://www.ycombinator.com/companies/mdhub)
+### [Hubble Network](https://www.ycombinator.com/companies/hubble-network)
 
-- `team_size`: 11 → 15
+- `stage`: Early → Growth
 
-### [MadeThis](https://www.ycombinator.com/companies/madethis)
+### [Vooma](https://www.ycombinator.com/companies/vooma)
 
-- `team_size`: 4 → 3
-- `tags`: Operations,AI → Artificial Intelligence,Operations
-- `isHiring`: false → true
+- `stage`: Early → Growth
 
-### [Khotan (formerly Pollinate)](https://www.ycombinator.com/companies/khotan)
-
-- `one_liner`: AI Agents for the supply chain. → FDE as a platform for rebuilding critical operations in software.
-
-### [Regbase](https://www.ycombinator.com/companies/regbase)
-
-- `isHiring`: false → true
-
-### [Manicule](https://www.ycombinator.com/companies/manicule)
+### [FirstWork](https://www.ycombinator.com/companies/firstwork)
 
 - `isHiring`: true → false
 
-### [Gigacatalyst](https://www.ycombinator.com/companies/gigacatalyst)
+### [AminoAnalytica](https://www.ycombinator.com/companies/aminoanalytica)
 
-- `one_liner`: Let software users build new features with our in-app AI agents → AI-first embedded analytics and reports for customer success
-- `team_size`: 4 → 3
+- `tags`: Nanosensors,Synthetic Biology,Biotech,Diagnostics,Therapeutics → Nanosensors,Synthetic Biology,Biotech,Diagnostics
 
-### [Palisade](https://www.ycombinator.com/companies/palisade-2)
+### [Amorphic Labs](https://www.ycombinator.com/companies/amorphic-labs)
 
-- `website`:  → https://palisade-ai.com/
-- `all_locations`: Los Angeles, CA, USA → San Francisco, CA, USA
-- `tags`: Artificial Intelligence,SaaS,B2B,Cybersecurity → SaaS,B2B,Cybersecurity,AI
+- `one_liner`: Agentic, Personalized Product Demo Videos for Sales → Software Commerce Infrastructure for Agents
+- `subindustry`: B2B -> Sales → B2B -> Engineering, Product and Design
+- `tags`: B2B,Sales,AI → Artificial Intelligence,Marketplace,B2B
+- `industries`: B2B,Sales → B2B,Engineering, Product and Design
 
-### [SubVysion](https://www.ycombinator.com/companies/subvysion)
+### [Insurf](https://www.ycombinator.com/companies/insurf)
 
-- `one_liner`: 3D Maps of Underground Utilities → Autonomous rovers to make the ‘Google Maps’ of underground utilities
-- `tags`: Augmented Reality,Construction → Hard Tech,Computer Vision,Real Estate,Construction
+- `tags`: Artificial Intelligence,Health Tech,Automation → Artificial Intelligence,Health Tech,Healthcare,Insurance,Automation
+
+### [Waybill](https://www.ycombinator.com/companies/waybill)
+
+- `tags`: Logistics,Procurement,AI → Artificial Intelligence,Logistics,Procurement
+- `isHiring`: false → true

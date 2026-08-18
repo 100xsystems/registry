@@ -8,7 +8,7 @@
     "architecture",
     "aws"
   ],
-  "updatedAt": "2026-08-15T01:12:10.432Z",
+  "updatedAt": "2026-08-18T12:43:30.570Z",
   "items": [
     {
       "guid": "79195fa586925a9b62c134acc83bb06b7b67a778",
@@ -177,7 +177,15 @@
       "summary": "Learn how Bosch Mobility Platform Solutions built L.OS, a serverless vehicle tracking platform on AWS that unifies India's fragmented spot logistics market into a single real-time visibility layer using Amazon ECS, AWS Lambda, and Amazon MSK.",
       "author": "Yogish Kutkunje Pai",
       "publishedAt": "2026-08-14T10:02:13.000Z"
+    },
+    {
+      "guid": "7849f6dd4756b52e47e36f73e05ce3d50161e20f",
+      "title": "Consistency is the new latency: AI at the data layer",
+      "link": "https://aws.amazon.com/blogs/architecture/consistency-is-the-new-latency-ai-at-the-data-layer/",
+      "summary": "As AI agents move from chatbots to taking action, their reliability depends on the consistency of the data layer beneath them. This post examines how replication lag poisons an agent's context and shows how to match Amazon Aurora, Amazon DynamoDB, and Amazon Keyspaces replication models to each…",
+      "author": "Suman Chatterjee",
+      "publishedAt": "2026-08-18T11:13:20.000Z"
     }
   ],
-  "totalIndexed": 21
+  "totalIndexed": 22
 }
