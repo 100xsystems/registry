@@ -8,7 +8,7 @@
     "ai",
     "research"
   ],
-  "updatedAt": "2026-08-13T18:52:41.604Z",
+  "updatedAt": "2026-08-18T18:26:17.269Z",
   "items": [
     {
       "guid": "environment-free",
@@ -145,7 +145,23 @@
       "summary": "As concerns around data privacy in machine learning grow, the ability to unlearn, or remove, specific data points from trained models becomes increasingly important. While state of the art unlearning methods have emerged in response, they typically treat all points in the forget set equally. In…",
       "author": null,
       "publishedAt": "2026-08-13T00:00:00.000Z"
+    },
+    {
+      "guid": "grpo-beyond-english",
+      "title": "GRPO Beyond English: A Large-Scale Study of GRPO in Non-English and Multilingual Settings",
+      "link": "https://machinelearning.apple.com/research/grpo-beyond-english",
+      "summary": "Reinforcement Learning with Verifiable Rewards (RLVR), often optimized with Group Relative Policy Optimization (GRPO), has become a central recipe for improving the reasoning capabilities of pretrained language models but current studies remain heavily English-centric. We conduct a large-scale…",
+      "author": null,
+      "publishedAt": "2026-08-18T00:00:00.000Z"
+    },
+    {
+      "guid": "mvicad2-delays-dilations",
+      "title": "MVICAD2: Multi-View Independent Component Analysis with Delays and Dilations",
+      "link": "https://machinelearning.apple.com/research/mvicad2-delays-dilations",
+      "summary": "Machine learning techniques in multi-view settings face significant challenges, particularly when integrating heterogeneous data, aligning feature spaces, and managing view-specific biases. These issues are prominent in neuroscience, where data from multiple subjects exposed to the same stimuli are…",
+      "author": null,
+      "publishedAt": "2026-08-18T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 17
+  "totalIndexed": 19
 }

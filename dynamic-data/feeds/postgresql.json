@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-08-18T12:43:22.114Z",
+  "updatedAt": "2026-08-18T18:26:17.729Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -913,7 +913,15 @@
       "summary": "\"Highly available PostgreSQL\" usually means leader election, streaming replicas, automatic failover, health checks, and a lot of careful wiring. With the CYBERTEC PG Operator (CPO) it means a 14-line YAML file. Here's the whole thing, start to finish, on a laptop with minikube.\nEvery command and…",
       "author": null,
       "publishedAt": "2026-08-18T05:07:31.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9sC",
+      "title": "Joshua Drake: PgColumnar 1.0Alpha2 released",
+      "link": "https://postgr.es/p/9sC",
+      "summary": "Release date: 2026-08-18Previous release: 1.0-alpha (2026-08-04)GithubChangelogpgColumnar is a columnar table access method for PostgreSQL. This is the second alpha. It adds read-only Apache Iceberg support, reads and writes over S3-compatible object storage, a maintenance daemon, and a broad round…",
+      "author": null,
+      "publishedAt": "2026-08-18T16:08:00.000Z"
     }
   ],
-  "totalIndexed": 113
+  "totalIndexed": 114
 }

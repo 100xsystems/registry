@@ -9,7 +9,7 @@
     "performance",
     "edge-computing"
   ],
-  "updatedAt": "2026-08-14T18:42:59.091Z",
+  "updatedAt": "2026-08-18T18:26:17.388Z",
   "items": [
     {
       "guid": "01KY2432VQPD5FTF2RARXXYQGH",
@@ -61562,7 +61562,15 @@
       "summary": "Cloudflare Gateway identifies MCP requests using protocol-level heuristics. Security teams can use that signal to find shadow MCP traffic, enforce Portal-only access for approved servers, and block direct connections on managed network paths.",
       "author": "AJ Gerstenhaber",
       "publishedAt": "2026-08-14T13:12:12.000Z"
+    },
+    {
+      "guid": "01M0ANY0TKGXDWAN9C58T3A1HR",
+      "title": "BGP Role model: tracking the adoption of RFC 9234",
+      "link": "https://blog.cloudflare.com/rfc9234-bgp-role-model/",
+      "summary": "RFC 9234 lets routers reject route leaks on their own, using BGP Roles and the Only to Customer attribute. We measured who has deployed it, and found two Tier 1 networks unexpectedly stripping OTC.",
+      "author": "Bryton Herdes",
+      "publishedAt": "2026-08-18T15:21:32.000Z"
     }
   ],
-  "totalIndexed": 7694
+  "totalIndexed": 7695
 }

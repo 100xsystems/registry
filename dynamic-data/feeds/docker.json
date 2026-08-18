@@ -8,7 +8,7 @@
     "devops",
     "cloud-native"
   ],
-  "updatedAt": "2026-08-17T18:26:39.723Z",
+  "updatedAt": "2026-08-18T18:26:26.434Z",
   "items": [
     {
       "guid": "https://www.docker.com/?p=92418",
@@ -145,7 +145,23 @@
       "summary": "Somewhere in the past year, supply-chain attacks stopped being isolated incidents. The compromises now reach the tools the industry trusts to defend itself, with Trivy and KICS among this year’s targets. Mark Lechner, Docker’s Chief Information Security Officer, called the latest wave “a permanent…",
       "author": "Vishrut Iyengar",
       "publishedAt": "2026-08-17T13:00:00.000Z"
+    },
+    {
+      "guid": "https://www.docker.com/?p=92915",
+      "title": "17,600 Actions: Agent Security Is a Systems Problem",
+      "link": "https://www.docker.com/blog/ai-agent-security-systems-problem/",
+      "summary": "The OpenAI/Hugging Face incident exposed a new challenge for AI agent security. 17,600 attacker actions show why AI agent security can’t rely on human review. Explore the controls needed to constrain, observe, and govern agents at speed.",
+      "author": "Jin Kim",
+      "publishedAt": "2026-08-18T16:00:00.000Z"
+    },
+    {
+      "guid": "https://www.docker.com/?p=92821",
+      "title": "Coding Agent Horror Stories: The Command You Already Approved",
+      "link": "https://www.docker.com/blog/coding-agent-horror-stories-the-command-you-already-approved/",
+      "summary": "Learn how AI coding agents can run attacker code through commands you already approved and how Docker Sandboxes limit what an attack can reach.",
+      "author": "Jennifer Kohl",
+      "publishedAt": "2026-08-18T13:00:00.000Z"
     }
   ],
-  "totalIndexed": 17
+  "totalIndexed": 19
 }

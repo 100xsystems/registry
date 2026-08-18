@@ -9,7 +9,7 @@
     "edge-computing",
     "nextjs"
   ],
-  "updatedAt": "2026-08-18T12:43:31.311Z",
+  "updatedAt": "2026-08-18T18:26:27.124Z",
   "items": [
     {
       "guid": "vercel-blog::https://vercel.com/changelog/ai-gateway-now-supports-streaming-transcription",
@@ -4314,7 +4314,39 @@
       "summary": "Vercel KMS lets you sign JWTs and arbitrary messages from your Vercel Functions using managed asymmetric signing keys, so private keys never live in your code or environment variables. Your function authenticates with its  token, and the private key stays inside Vercel's key management service…",
       "author": "Marc Greenstock",
       "publishedAt": "2026-08-18T00:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/chat-sdk-adds-instagram-adapter",
+      "title": "Chat SDK adds Instagram adapter",
+      "link": "https://vercel.com/changelog/chat-sdk-adds-instagram-adapter",
+      "summary": "You can now build bots for Instagram with the new  for Chat SDK.Instagram adapter\nBots can send and receive DMs and media, render cards as quick replies and link buttons, show typing indicators, receive reactions, and handle story replies.\nThe adapter connects through Meta's Instagram Messaging API…",
+      "author": "Ben Sabic",
+      "publishedAt": "2026-08-19T00:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/blog/one-million-dollar-hacker-challenge-for-vercel-sandbox",
+      "title": "$1 million hacker challenge for Vercel Sandbox",
+      "link": "https://vercel.com/blog/one-million-dollar-hacker-challenge-for-vercel-sandbox",
+      "summary": "Agents need to run untrusted code, and the microVM has become the standard way to do it: a dedicated guest kernel per workload, isolated from the host and from every other workload on the same machine. \nBut recent security research and real-world incidents have revealed that agents running…",
+      "author": "Andy Riancho",
+      "publishedAt": "2026-08-18T13:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/cline-harness-adapter",
+      "title": "Cline is now available in the AI SDK harness layer",
+      "link": "https://vercel.com/changelog/cline-harness-adapter",
+      "summary": "The  lets you run established coding-agent runtimes through one unified interface, so you can switch runtimes without changing your application code. Today we are adding Cline, which runs through the same  interface as other supported harness.AI SDK harness layerHarnessAgent\n is the official…",
+      "author": "Felix Arntz",
+      "publishedAt": "2026-08-18T00:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/glm-5-3-now-available-on-ai-gateway",
+      "title": "GLM 5.3 now available on AI Gateway",
+      "link": "https://vercel.com/changelog/glm-5-3-now-available-on-ai-gateway",
+      "summary": "is now available on AI Gateway.GLM 5.3 from Z.ai\nGLM 5.3 has improvements vs. GLM 5.2 at complex software engineering and at agent tasks that run across many steps, and it reaches those results while producing fewer output tokens than GLM 5.2 did at the same effort level.\nZ.ai also reports stronger…",
+      "author": "Walter Korman",
+      "publishedAt": "2026-08-18T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 538
+  "totalIndexed": 542
 }
