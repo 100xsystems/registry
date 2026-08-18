@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-08-18T01:11:32.535Z",
+  "updatedAt": "2026-08-18T06:52:20.755Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -889,7 +889,15 @@
       "summary": "High availability is essential for logical replication environments, but until recently, failover could still leave subscribers disconnected from the replication slots they depend on. PostgreSQL 17 addressed this by introducing failover slot synchronization, allowing logical replication slots to be…",
       "author": null,
       "publishedAt": "2026-08-18T00:43:04.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9sz",
+      "title": "uzair aslam: How to Prevent Duplicate Form Submissions in Next.js with Idempotency Keys",
+      "link": "https://postgr.es/p/9sz",
+      "summary": "A production-ready approach to preventing duplicate leads and side effects with stable idempotency keys, PostgreSQL constraints, transactional outbox events, safe retries, and reconciliation.\nA visitor fills out a form, presses Submit, and sees nothing happen. They press it again. The first request…",
+      "author": null,
+      "publishedAt": "2026-08-17T20:00:00.000Z"
     }
   ],
-  "totalIndexed": 110
+  "totalIndexed": 111
 }
