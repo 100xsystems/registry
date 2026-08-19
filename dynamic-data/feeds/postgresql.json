@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-08-18T18:26:17.729Z",
+  "updatedAt": "2026-08-19T01:12:49.959Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -921,7 +921,31 @@
       "summary": "Release date: 2026-08-18Previous release: 1.0-alpha (2026-08-04)GithubChangelogpgColumnar is a columnar table access method for PostgreSQL. This is the second alpha. It adds read-only Apache Iceberg support, reads and writes over S3-compatible object storage, a maintenance daemon, and a broad round…",
       "author": null,
       "publishedAt": "2026-08-18T16:08:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9sF",
+      "title": "Christophe Pettus: All Your GUCs in a Row: join_collapse_limit",
+      "link": "https://postgr.es/p/9sF",
+      "summary": "PostgreSQL famously does not implement query hints. This is about 95% true, and join_collapse_limit is the other 5%: set it to 1, and the planner joins your tables in exactly the order you wrote them. This is not an exploit or an accident of implementation; it is documented, and according to Tom …",
+      "author": null,
+      "publishedAt": "2026-08-19T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9sE",
+      "title": "Jeremy Schneider: Why Postgres Breaks Kubernetes container_memory_working_set_bytes Metric",
+      "link": "https://postgr.es/p/9sE",
+      "summary": "Kubernetes metric container_memory_working_set_bytes is used for evicting/killing pods with too much memory use, especially if request < limit (don’t do this with Postgres). The metric is calculated from cgroups v2 memory.stat metrics as current-inactive_file [source].\nYou’d assume it’s a good…",
+      "author": null,
+      "publishedAt": "2026-08-18T23:28:28.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9sD",
+      "title": "Christopher Winslett: Postgres 19: How Our Advice Has Changed Since We Wrote It",
+      "link": "https://postgr.es/p/9sD",
+      "summary": "Over the years we have written a lot about how data gets into Postgres, how it sits on disk, and how indexes help you find it again. Some of that advice was written against Postgres 10 or 11. A surprising amount of it is still exactly what we would tell you for the upcoming Postgres 19 release.…",
+      "author": null,
+      "publishedAt": "2026-08-18T19:00:00.000Z"
     }
   ],
-  "totalIndexed": 114
+  "totalIndexed": 117
 }
