@@ -9,7 +9,7 @@
     "edge-computing",
     "nextjs"
   ],
-  "updatedAt": "2026-08-18T18:26:27.124Z",
+  "updatedAt": "2026-08-19T12:43:45.257Z",
   "items": [
     {
       "guid": "vercel-blog::https://vercel.com/changelog/ai-gateway-now-supports-streaming-transcription",
@@ -4346,7 +4346,15 @@
       "summary": "is now available on AI Gateway.GLM 5.3 from Z.ai\nGLM 5.3 has improvements vs. GLM 5.2 at complex software engineering and at agent tasks that run across many steps, and it reaches those results while producing fewer output tokens than GLM 5.2 did at the same effort level.\nZ.ai also reports stronger…",
       "author": "Walter Korman",
       "publishedAt": "2026-08-18T00:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/vercel-for-platforms-can-now-deploy-from-your-users-github-repositories",
+      "title": "Vercel for Platforms can now deploy from your users' GitHub repositories",
+      "link": "https://vercel.com/changelog/vercel-for-platforms-can-now-deploy-from-your-users-github-repositories",
+      "summary": "Teams building on  can now create deployments directly from their users' GitHub repositories, without requiring them to install the Vercel GitHub App. When , pass a  alongside . Vercel uses the token to retrieve the source and build the deployment.Vercel for Platformscreating a…",
+      "author": "Cody Wong",
+      "publishedAt": "2026-08-18T17:00:00.000Z"
     }
   ],
-  "totalIndexed": 542
+  "totalIndexed": 543
 }

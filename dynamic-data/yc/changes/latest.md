@@ -1,58 +1,61 @@
 # YC Company Changes for 2026-08-19
 
-- Previous total: 6186
+- Previous total: 6187
 - Current total: 6187
-- Added: 1
+- Added: 0
 - Removed: 0
-- Updated: 9
+- Updated: 12
 
-
-## Added Companies
-
-- [Studio](https://www.ycombinator.com/companies/studio) (Summer 2026) — Engineer the future
 
 ## Updated Companies
 
+### [Vetcove](https://www.ycombinator.com/companies/vetcove)
+
+- `stage`: Early → Growth
+
+### [Groww](https://www.ycombinator.com/companies/groww)
+
+- `stage`: Early → Growth
+
+### [Stardex](https://www.ycombinator.com/companies/stardex)
+
+- `team_size`: 5 → 6
+
+### [Careerist](https://www.ycombinator.com/companies/careerist)
+
+- `website`: http://careerist.com/ → http://careerist.cc/
+- `all_locations`: San Francisco, CA, USA; Sunnyvale, CA, USA; Remote → San Francisco, CA, USA; Remote
+
+### [Fortuna Health](https://www.ycombinator.com/companies/fortuna-health)
+
+- `stage`: Early → Growth
+
+### [Corgi Insurance](https://www.ycombinator.com/companies/corgi-insurance)
+
+- `stage`: Early → Growth
+
 ### [cmux](https://www.ycombinator.com/companies/cmux)
 
-- `name`: Manaflow → cmux
-- `slug`: manaflow → cmux
-- `former_names`:  → Manaflow
+- `tags`: Artificial Intelligence,Developer Tools,Open Source → Developer Tools,Open Source,AI
 
-### [Nixo](https://www.ycombinator.com/companies/nixo)
+### [AfterQuery](https://www.ycombinator.com/companies/afterquery)
 
-- `one_liner`: Deployment intelligence for forward deployed engineers → Make every FDE on your team capable of moving any account forward.
-
-### [MarkIt](https://www.ycombinator.com/companies/markit)
-
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/7e5614f0ff0430254c23e0743e5e0490fb5f826c.png → https://bookface-images.s3.amazonaws.com/small_logos/7ce36c890b8eb86b7fc3b3abf554b5af589b3e9f.png
-- `one_liner`: AI Agents for Trade Compliance - Saving Companies from Tariffs → Workspaces for cross-border regulatory work
-- `subindustry`: B2B -> Supply Chain and Logistics → B2B -> Operations
-- `tags`: Workflow Automation,Logistics,Supply Chain,AI → Workflow Automation,Compliance,Consumer Products,AI
-- `industries`: B2B,Supply Chain and Logistics → B2B,Operations
-
-### [Ruma Care](https://www.ycombinator.com/companies/ruma-care)
-
-- `team_size`: 2 → 5
-
-### [Assemble](https://www.ycombinator.com/companies/assemble)
-
-- `one_liner`: Agents for Enterprise IT → AI Coworkers for IT teams
-- `tags`: Artificial Intelligence,SaaS,Enterprise Software → SaaS,Enterprise Software,AI
+- `stage`: Early → Growth
 
 ### [Kebra](https://www.ycombinator.com/companies/kebra)
 
-- `one_liner`: Field Service Companies that run themselves → Make the field queryable.
-- `tags`: B2B,Home Services,Operations,AI → Artificial Intelligence,B2B,Home Services,Operations
+- `one_liner`: Make the field queryable. → Making the field queryable.
+- `tags`: Artificial Intelligence,B2B,Home Services,Operations → B2B,Home Services,Operations,AI
 
-### [Grocalo](https://www.ycombinator.com/companies/grocalo)
+### [Familiar](https://www.ycombinator.com/companies/familiar)
 
-- `tags`: Entertainment,Creator Economy,AI → Artificial Intelligence,Entertainment,Creator Economy
+- `tags`: B2B,Media,Advertising,AI → Education,B2B,Entertainment,Marketing,AI
 
-### [Dawn Industries](https://www.ycombinator.com/companies/dawn-industries)
+### [Touchy](https://www.ycombinator.com/companies/touchy)
 
-- `isHiring`: false → true
+- `one_liner`: The AI assistant that doesn't fight for your attention → AI voice assistant that understands the world around you
+- `tags`: Consumer,Productivity,AI,AI Assistant → Artificial Intelligence,Consumer,Productivity,AI Assistant
 
-### [Gini](https://www.ycombinator.com/companies/gini)
+### [Atomarine](https://www.ycombinator.com/companies/atomarine)
 
-- `tags`: AIOps,B2B,Workflow Automation,Enterprise Software,AI → AIOps,Artificial Intelligence,B2B,Workflow Automation,Enterprise Software
+- `one_liner`: Off shore nuclear powered data centers at sea. → Floating nuclear powered data centers at sea.
