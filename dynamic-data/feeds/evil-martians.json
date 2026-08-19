@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-08-12T18:52:02.694Z",
+  "updatedAt": "2026-08-19T18:22:33.882Z",
   "items": [
     {
       "guid": "evil-martians::https://evilmartians.com/chronicles/which-ai-actually-reads-your-site-two-months-of-llm-traffic-measured",
@@ -199,7 +199,15 @@
       "summary": "Authors: Rita Klubochkina, Sr. Frontend Engineer, and Travis Turner, Tech Editor\nTopics: AI, DX, Agent Experience, LLMs, Jamstack\n\nHow to publish agent skills so any AI coding agent can find and install them: the .well-known/agent-skills/index.json discovery index, SHA-256 integrity digests,…",
       "author": "Rita Klubochkina",
       "publishedAt": "2026-08-12T00:00:00.000Z"
+    },
+    {
+      "guid": "evil-martians::https://evilmartians.com/chronicles/get-in-human-cut-rails-boot-time-with-require-profiler-and-this-guide",
+      "title": "Get in, human: cut Rails boot time with require-profiler and this guide",
+      "link": "https://evilmartians.com/chronicles/get-in-human-cut-rails-boot-time-with-require-profiler-and-this-guide",
+      "summary": "Authors: Artur Petrov, Backend Engineer, Vladimir Dementyev, Principal Backend Engineer, and Travis Turner, Tech Editor\nTopics: Rails, DX, Performance, Ruby\n\nRails boot time is a DX metric in the AI age: meet require-profiler, learn to actually read sampling profilers, and see the pit stop that cut…",
+      "author": "Artur Petrov",
+      "publishedAt": "2026-08-19T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 24
+  "totalIndexed": 25
 }

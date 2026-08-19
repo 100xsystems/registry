@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-08-18T18:26:21.869Z",
+  "updatedAt": "2026-08-19T18:22:37.623Z",
   "items": [
     {
       "guid": "https://laravel-news.com/pest-5",
@@ -175,7 +175,23 @@
       "summary": "Laravel Chores runs backfills, cleanups, and purges in checkpointed batches that survive deploys and crashes, then resumes where it left off.\nThe post Laravel Chores: Resumable Data Operations and Cleanups appeared first on Laravel News.\nJoin the Laravel Newsletter to get Laravel articles like this…",
       "author": "Paul Redmond",
       "publishedAt": "2026-08-18T00:37:09.000Z"
+    },
+    {
+      "guid": "https://laravel-news.com/laravel-read-through-filesystem",
+      "title": "Laravel Read-Through Filesystem: Lazy Storage Migration",
+      "link": "https://laravel-news.com/laravel-read-through-filesystem?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+      "summary": "Laravel's read-through filesystem driver layers a primary disk over a fallback and copies files on first read, so you can switch storage without a bulk sync.\nThe post Laravel Read-Through Filesystem: Lazy Storage Migration appeared first on Laravel News.\nJoin the Laravel Newsletter to get Laravel…",
+      "author": "Paul Redmond",
+      "publishedAt": "2026-08-18T22:44:29.000Z"
+    },
+    {
+      "guid": "https://laravel-news.com/laravel-13-26-0",
+      "title": "Read-Through Disks and Debounced Listeners in Laravel 13.26",
+      "link": "https://laravel-news.com/laravel-13-26-0?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+      "summary": "Laravel 13.26 adds a read-through filesystem driver, debounced queued event listeners, Queue::forward() routing, and new process testing helpers.\nThe post Read-Through Disks and Debounced Listeners in Laravel 13.26 appeared first on Laravel News.\nJoin the Laravel Newsletter to get Laravel articles…",
+      "author": "Paul Redmond",
+      "publishedAt": "2026-08-18T22:53:28.000Z"
     }
   ],
-  "totalIndexed": 21
+  "totalIndexed": 23
 }

@@ -9,7 +9,7 @@
     "performance",
     "edge-computing"
   ],
-  "updatedAt": "2026-08-18T18:26:17.388Z",
+  "updatedAt": "2026-08-19T18:22:31.670Z",
   "items": [
     {
       "guid": "01KY2432VQPD5FTF2RARXXYQGH",
@@ -61570,7 +61570,15 @@
       "summary": "RFC 9234 lets routers reject route leaks on their own, using BGP Roles and the Only to Customer attribute. We measured who has deployed it, and found two Tier 1 networks unexpectedly stripping OTC.",
       "author": "Bryton Herdes",
       "publishedAt": "2026-08-18T15:21:32.000Z"
+    },
+    {
+      "guid": "01M00Y54SDH5EBZBFJ1FQZ2BX9",
+      "title": "A revisit of remote Spectre attacks on Cloudflare Workers",
+      "link": "https://blog.cloudflare.com/revisiting-spectre-attacks-on-workers/",
+      "summary": "In 2024 and 2025, we reassessed remote Spectre attacks on our Workers infrastructure. We share details about the new attack primitives like Spectre gadgets, remote timers, achieving co-location  and how new defenses further harden Cloudflare Workers.",
+      "author": "Martin Schwarzl",
+      "publishedAt": "2026-08-19T16:00:28.000Z"
     }
   ],
-  "totalIndexed": 7695
+  "totalIndexed": 7696
 }

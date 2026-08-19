@@ -1,61 +1,70 @@
 # YC Company Changes for 2026-08-19
 
 - Previous total: 6187
-- Current total: 6187
-- Added: 0
+- Current total: 6188
+- Added: 1
 - Removed: 0
-- Updated: 12
+- Updated: 10
 
+
+## Added Companies
+
+- [Capveon](https://www.ycombinator.com/companies/capveon) (Fall 2026) — We help municipal government contractors win more work 
 
 ## Updated Companies
 
-### [Vetcove](https://www.ycombinator.com/companies/vetcove)
+### [PropelAuth](https://www.ycombinator.com/companies/propelauth)
 
-- `stage`: Early → Growth
+- `isHiring`: false → true
 
-### [Groww](https://www.ycombinator.com/companies/groww)
+### [Cellbyte](https://www.ycombinator.com/companies/cellbyte)
 
-- `stage`: Early → Growth
+- `tags`: Data Science,Healthcare IT,AI → Artificial Intelligence,Data Science,Healthcare IT
 
-### [Stardex](https://www.ycombinator.com/companies/stardex)
+### [222](https://www.ycombinator.com/companies/222)
 
-- `team_size`: 5 → 6
+- `team_size`: 16 → 23
+- `tags`: Artificial Intelligence,Machine Learning,Marketplace,Consumer,Social → Machine Learning,Marketplace,Consumer,Social,AI
 
-### [Careerist](https://www.ycombinator.com/companies/careerist)
+### [Zeit AI](https://www.ycombinator.com/companies/zeit-ai)
 
-- `website`: http://careerist.com/ → http://careerist.cc/
-- `all_locations`: San Francisco, CA, USA; Sunnyvale, CA, USA; Remote → San Francisco, CA, USA; Remote
+- `all_locations`:  → Munich, BY, Germany
+- `one_liner`: From data to enterprise insights in just a few words. → The autonomous data engineer for the mid-market
+- `team_size`: 9 → 12
+- `tags`:  → SaaS,B2B,Analytics,Data Engineering,AI
+- `regions`: Remote,Partly Remote → Germany,Europe,Remote,Partly Remote
+- `question_answers`: true → false
 
-### [Fortuna Health](https://www.ycombinator.com/companies/fortuna-health)
+### [Thunder Compute](https://www.ycombinator.com/companies/thunder-compute)
 
-- `stage`: Early → Growth
+- `team_size`: 7 → 9
+- `tags`: Developer Tools,Data Science,Cloud Computing,Infrastructure,AI → Artificial Intelligence,Developer Tools,Data Science,Cloud Computing,Infrastructure
 
-### [Corgi Insurance](https://www.ycombinator.com/companies/corgi-insurance)
+### [Praxos](https://www.ycombinator.com/companies/praxos)
 
-- `stage`: Early → Growth
+- `all_locations`: Miami, FL, USA; Remote → São Paulo, SP, Brazil; Remote
+- `regions`: United States of America,America / Canada,Remote,Fully Remote → Brazil,Latin America,Remote,Fully Remote
 
-### [cmux](https://www.ycombinator.com/companies/cmux)
+### [Freebuff](https://www.ycombinator.com/companies/freebuff)
 
-- `tags`: Artificial Intelligence,Developer Tools,Open Source → Developer Tools,Open Source,AI
+- `isHiring`: true → false
 
-### [AfterQuery](https://www.ycombinator.com/companies/afterquery)
+### [Clicks Health](https://www.ycombinator.com/companies/clicks-health)
 
-- `stage`: Early → Growth
+- `website`: https://clickshealth.com/ → https://www.goclicks.ai/
+- `tags`: Health Tech,Healthcare,Health Insurance,AI → Artificial Intelligence,Health Tech,Healthcare,Health Insurance
 
-### [Kebra](https://www.ycombinator.com/companies/kebra)
+### [Korso](https://www.ycombinator.com/companies/korso)
 
-- `one_liner`: Make the field queryable. → Making the field queryable.
-- `tags`: Artificial Intelligence,B2B,Home Services,Operations → B2B,Home Services,Operations,AI
+- `name`: afterfive → Korso
+- `slug`: afterfive → korso
+- `former_names`: Korso → Korso,afterfive
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/3ffe4f023354ca9c8b2f9a3ebb3669cf29726f1d.png → https://bookface-images.s3.amazonaws.com/small_logos/fd03c9be7cf358b8834377c00d3855af56d7f064.png
+- `website`: https://afterfive.club/ → https://korsoai.com/
+- `one_liner`: Life starts after five. → The AI-native agency
 
-### [Familiar](https://www.ycombinator.com/companies/familiar)
+### [6thSense](https://www.ycombinator.com/companies/6thsense)
 
-- `tags`: B2B,Media,Advertising,AI → Education,B2B,Entertainment,Marketing,AI
-
-### [Touchy](https://www.ycombinator.com/companies/touchy)
-
-- `one_liner`: The AI assistant that doesn't fight for your attention → AI voice assistant that understands the world around you
-- `tags`: Consumer,Productivity,AI,AI Assistant → Artificial Intelligence,Consumer,Productivity,AI Assistant
-
-### [Atomarine](https://www.ycombinator.com/companies/atomarine)
-
-- `one_liner`: Off shore nuclear powered data centers at sea. → Floating nuclear powered data centers at sea.
+- `one_liner`: A nervous system for physical AI → Nervous System for Physical AI
+- `team_size`: 0 → 4
+- `tags`: Robotics,Big Data,AI → Robotics
