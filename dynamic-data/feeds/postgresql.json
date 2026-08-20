@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-08-20T12:47:13.794Z",
+  "updatedAt": "2026-08-20T18:27:25.014Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -993,7 +993,23 @@
       "summary": "On 6 August, the Postgres Summit US 2026 Program Committee met to finalize the schedule: \nChelsea Dole\nJonathan Hinds\nJonathan Katz\nOn 11 August, the San Francisco Bay Area PostgreSQL Meetup Group, organized by Katharine Saar, Stacey Haysler and Christophe Pettus. Kalyani Madipadiga and Stacey…",
       "author": null,
       "publishedAt": "2026-08-20T07:51:13.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9sQ",
+      "title": "Jimmy Angelakos: pg_statviz 1.2 released with PostgreSQL 19 support and new features",
+      "link": "https://postgr.es/p/9sQ",
+      "summary": "Just in time for the PostgreSQL 19 betas, I'm excited to announce release 1.2 of pg_statviz, the minimalist extension and utility pair for time series analysis and visualization of PostgreSQL internal statistics.\nThis release adds support for the upcoming PostgreSQL 19:\npg_statviz now captures the…",
+      "author": null,
+      "publishedAt": "2026-08-20T18:00:22.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9sP",
+      "title": "Bertrand Drouvot: Welcome to pg_shmemviz: PostgreSQL shared memory visualizer",
+      "link": "https://postgr.es/p/9sP",
+      "summary": "Introduction\nThe purpose of this blog post is to introduce pg_shmemviz, a new tool to\nvisualize PostgreSQL shared memory.\nIt follows the same approach as\npg_walviz,\nbringing physical layout and byte level navigation to PostgreSQL shared memory\ninstead of WAL segments.\nViews such as…",
+      "author": null,
+      "publishedAt": "2026-08-20T01:00:00.000Z"
     }
   ],
-  "totalIndexed": 123
+  "totalIndexed": 125
 }

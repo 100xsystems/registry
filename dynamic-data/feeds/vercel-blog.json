@@ -9,7 +9,7 @@
     "edge-computing",
     "nextjs"
   ],
-  "updatedAt": "2026-08-19T12:43:45.257Z",
+  "updatedAt": "2026-08-20T18:27:35.780Z",
   "items": [
     {
       "guid": "vercel-blog::https://vercel.com/changelog/ai-gateway-now-supports-streaming-transcription",
@@ -4354,7 +4354,39 @@
       "summary": "Teams building on  can now create deployments directly from their users' GitHub repositories, without requiring them to install the Vercel GitHub App. When , pass a  alongside . Vercel uses the token to retrieve the source and build the deployment.Vercel for Platformscreating a…",
       "author": "Cody Wong",
       "publishedAt": "2026-08-18T17:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/manage-vercel-toolbar-comments-from-the-cli",
+      "title": "Manage Vercel Toolbar comments from the CLI",
+      "link": "https://vercel.com/changelog/manage-vercel-toolbar-comments-from-the-cli",
+      "summary": "You can now use the  to manage  comments.  covers the full triage loop:Vercel CLIVercel Toolbarvercel comments\nStart by listing all of the unresolved comments in the current branch:\nDig deeper into a specific thread:\nReply, resolve, edit:\nUpdate to the latest Vercel CLI version and run . Or just…",
+      "author": "Julian Benegas",
+      "publishedAt": "2026-08-20T18:03:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/custom-metrics-are-now-supported-in-vercel-observability",
+      "title": "Custom metrics are now supported in Vercel Observability",
+      "link": "https://vercel.com/changelog/custom-metrics-are-now-supported-in-vercel-observability",
+      "summary": "You can now emit your own metrics directly from your Vercel Functions and analyze them alongside Vercel's built-in observability data.\nUse the  function from the  package to record any value you care about, like request latency or business events, and attach attributes to filter and group…",
+      "author": "Tobias Lins",
+      "publishedAt": "2026-08-20T17:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/blog/how-v0-authenticates-to-snowflake-without-exposing-the-users-oauth-token",
+      "title": "How v0 authenticates to Snowflake without exposing the user's OAuth token",
+      "link": "https://vercel.com/blog/how-v0-authenticates-to-snowflake-without-exposing-the-users-oauth-token",
+      "summary": "AI-generated applications often need to authenticate to external services on behalf of their users. That creates a problem: generated code shouldn't have access to the user's credentials.\nWe faced that decision when building the v0 . It lets users connect Snowflake, inspect schemas, query data, and…",
+      "author": "Anika Sikka",
+      "publishedAt": "2026-08-20T04:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/bun-1-4-is-now-available-in-vercel-functions",
+      "title": "Bun 1.4 is now available in Vercel Functions",
+      "link": "https://vercel.com/changelog/bun-1-4-is-now-available-in-vercel-functions",
+      "summary": "Vercel Functions now support the new , a rewrite of Bun from Zig to Rust, with over 2,900 issues resolved, more than 1,500 additional Node.js compatibility tests passing, and new features and performance improvements.Bun 1.4 release\nBun on Vercel Functions:\nTo update from the previous Bun version,…",
+      "author": "Florentin Eckl",
+      "publishedAt": "2026-08-20T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 543
+  "totalIndexed": 547
 }

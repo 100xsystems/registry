@@ -8,7 +8,7 @@
     "performance",
     "runtime"
   ],
-  "updatedAt": "2026-07-28T06:53:08.137Z",
+  "updatedAt": "2026-08-20T18:27:24.902Z",
   "items": [
     {
       "guid": "https://bun.com/blog/bun-in-rust",
@@ -409,7 +409,15 @@
       "summary": "Fixes 12 bugs (addressing 196 👍). JSDOM & happy-dom work more reliably due to node:vm compatibility improvements. Single-file executables on Windows now support custom icons and hiding the console. throw: true in Bun.build throws an error instead of returning errors. bun install gets the…",
       "author": null,
       "publishedAt": "2024-12-20T13:57:57.000Z"
+    },
+    {
+      "guid": "https://bun.com/blog/bun-v1.4",
+      "title": "Bun 1.4",
+      "link": "https://bun.com/blog/bun-v1.4",
+      "summary": "Bun 1.4 rewrites Bun in Rust, ships built-in headless browser automation (Bun.WebView), Bun.Image, Bun.markdown, JSON5, JSONL, Terminal and cron APIs, Node.js 26.3.0 compatibility with 1,517 newly passing tests, parallel test and run, Windows ARM64, and an opt-in global virtual store for up to 7×…",
+      "author": null,
+      "publishedAt": "2026-08-20T00:53:44.000Z"
     }
   ],
-  "totalIndexed": 50
+  "totalIndexed": 51
 }

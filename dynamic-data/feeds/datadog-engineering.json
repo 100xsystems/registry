@@ -8,7 +8,7 @@
     "monitoring",
     "infrastructure"
   ],
-  "updatedAt": "2026-08-18T18:26:26.379Z",
+  "updatedAt": "2026-08-20T18:27:34.800Z",
   "items": [
     {
       "guid": "https://www.datadoghq.com/blog/engineering/jfr-cpu-time-profiling/",
@@ -29641,7 +29641,15 @@
       "summary": "Summing individual wins overstates true impact. See two accurate methods, holdouts and Datadog’s Cumulative Impact, and how to choose between them.",
       "author": null,
       "publishedAt": "2026-08-18T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.datadoghq.com/blog/ai-native-sast-detect-llm-vulnerabilities/",
+      "title": "Detect vulnerabilities in LLM applications with Datadog’s AI-native SAST",
+      "link": "https://www.datadoghq.com/blog/ai-native-sast-detect-llm-vulnerabilities/",
+      "summary": "Datadog Code Security’s AI-native SAST helps detect vulnerabilities specific to the OWASP Top 10 for LLM Applications before they reach production.",
+      "author": null,
+      "publishedAt": "2026-08-20T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 3704
+  "totalIndexed": 3705
 }

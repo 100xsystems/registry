@@ -9,7 +9,7 @@
     "performance",
     "edge-computing"
   ],
-  "updatedAt": "2026-08-19T18:22:31.670Z",
+  "updatedAt": "2026-08-20T18:27:24.727Z",
   "items": [
     {
       "guid": "01KY2432VQPD5FTF2RARXXYQGH",
@@ -61578,7 +61578,15 @@
       "summary": "In 2024 and 2025, we reassessed remote Spectre attacks on our Workers infrastructure. We share details about the new attack primitives like Spectre gadgets, remote timers, achieving co-location  and how new defenses further harden Cloudflare Workers.",
       "author": "Martin Schwarzl",
       "publishedAt": "2026-08-19T16:00:28.000Z"
+    },
+    {
+      "guid": "01M0E1JC8D74SDDVJCVBVX8EFA",
+      "title": "From all-or-nothing to task-based OAuth consent",
+      "link": "https://blog.cloudflare.com/task-based-oauth-consent/",
+      "summary": "Cloudflare OAuth now supports optional scopes, giving users more control over what an app can access and helping developers build secure consent flows around the task at hand.",
+      "author": "Miller Vargas",
+      "publishedAt": "2026-08-20T17:03:03.000Z"
     }
   ],
-  "totalIndexed": 7696
+  "totalIndexed": 7697
 }

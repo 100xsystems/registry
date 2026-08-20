@@ -8,7 +8,7 @@
     "ai",
     "research"
   ],
-  "updatedAt": "2026-08-19T18:22:31.627Z",
+  "updatedAt": "2026-08-20T18:27:24.654Z",
   "items": [
     {
       "guid": "environment-free",
@@ -177,7 +177,23 @@
       "summary": "Modern AI agents increasingly rely on search infrastructure to execute complex, neuro-symbolic reasoning workflows. These workflows often compile into deeply nested, non-monotonic Boolean queries over text fields. However, standard query evaluation strategies over inverted indices face severe…",
       "author": null,
       "publishedAt": "2026-08-19T00:00:00.000Z"
+    },
+    {
+      "guid": "multilingual-knowledge-transfer-lexical-interventions",
+      "title": "Multilingual Knowledge Transfer under Data Constraints via Lexical Interventions",
+      "link": "https://machinelearning.apple.com/research/multilingual-knowledge-transfer-lexical-interventions",
+      "summary": "Cross-lingual knowledge transfer is critical for building high-performing multilingual language models for languages with insufficient training data. When target language data is scarce, the knowledge required for many downstream tasks involving scientific reasoning, commonsense inference, and…",
+      "author": null,
+      "publishedAt": "2026-08-20T00:00:00.000Z"
+    },
+    {
+      "guid": "scaling-laws-mixture-pretraining",
+      "title": "Scaling Laws for Mixture Pretraining Under Data Constraints",
+      "link": "https://machinelearning.apple.com/research/scaling-laws-mixture-pretraining",
+      "summary": "As language models scale, the amount of data they require grows – yet many target data sources, such as low-resource languages or specialized domains, are inherently limited in size. A common strategy is to mix this scarce but valuable target data with abundant generic data, which presents a…",
+      "author": null,
+      "publishedAt": "2026-08-20T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 21
+  "totalIndexed": 23
 }
