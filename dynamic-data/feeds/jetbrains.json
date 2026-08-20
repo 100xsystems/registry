@@ -8,7 +8,7 @@
     "ide",
     "programming-languages"
   ],
-  "updatedAt": "2026-08-19T12:43:44.891Z",
+  "updatedAt": "2026-08-20T06:54:29.221Z",
   "items": [
     {
       "guid": "https://blog.jetbrains.com/?post_type=rscpp&p=725420",
@@ -297,7 +297,47 @@
       "summary": "Atlassian recently announced that they are suspending sales for Data Center Products, followed by the end of life for those products in 2029. Additionally, this August, Atlassian began using certain customer data to improve its AI experiences. In light of these changes, switching to an alternative…",
       "author": "Elena Pishkova",
       "publishedAt": "2026-08-19T10:27:05.000Z"
+    },
+    {
+      "guid": "https://blog.jetbrains.com/?post_type=air&p=732481",
+      "title": "New in Air: Claude Subscriptions, Multiproject View, and Improved Markdown",
+      "link": "https://blog.jetbrains.com/air/2026/08/new-in-air-claude-subscriptions-multiproject-view-and-improved-markdown/",
+      "summary": "You can now use Air with your existing Claude Pro, Max, or Team subscription. Usage counts against your subscription quota – there’s no need to purchase API credits and no per-token Console billing. Login goes through Anthropic’s own authentication flow. Air never sees or stores your credentials.…",
+      "author": "Vladimir Gromozdin",
+      "publishedAt": "2026-08-19T17:35:10.000Z"
+    },
+    {
+      "guid": "https://blog.jetbrains.com/?post_type=kotlin&p=732373",
+      "title": "Signatures, be true: domain errors and functional handling in Kotlin",
+      "link": "https://blog.jetbrains.com/kotlin/2026/08/signatures-be-true-domain-errors-and-functional-handling-in-kotlin/",
+      "summary": "Here’s a function that signs a document: In Kotlin, Unit means the function completes without returning a meaningful value – roughly equivalent to void in Java. Got it? Now, tell me what could go wrong. You can’t.  Yet, the code might be invalid. The signing window might have closed. The database…",
+      "author": "Viliam Sedliak",
+      "publishedAt": "2026-08-19T15:52:05.000Z"
+    },
+    {
+      "guid": "https://blog.jetbrains.com/?post_type=dotnet&p=727025",
+      "title": "Rider Hands AI Agents The Keys To Its Refactoring Engine For Safer, Faster, And Cheaper Results",
+      "link": "https://blog.jetbrains.com/dotnet/2026/08/19/rider-refactoring-code-skill/",
+      "summary": "We traced a frontier model through fifteen C# refactoring tasks and counted what it reached for. It piped text into interactive commands 468 times. It called git 422 times and sed 392 times. It ran dotnet build 163 times. Across 2,513 tool calls it performed a structural refactoring operation…",
+      "author": "Sasha Ivanova",
+      "publishedAt": "2026-08-19T15:37:39.000Z"
+    },
+    {
+      "guid": "https://blog.jetbrains.com/?post_type=dotnet&p=731097",
+      "title": "Rider 2026.2.1 and ReSharper 2026.2.1 Are Here!",
+      "link": "https://blog.jetbrains.com/dotnet/2026/08/19/rider-resharper-2026-2-1/",
+      "summary": "Our first minor update for the 2026.2 release cycle is ready to download. Here’s what’s new. Rider Rider 2026.2 put AI-assisted development front and center, and v2026.2.1 keeps that momentum going: The refactoring-code skill, bundled in JetBrains Rider Median task time before: 157.9s → after:…",
+      "author": "Alexander Kurakin",
+      "publishedAt": "2026-08-19T15:36:45.000Z"
+    },
+    {
+      "guid": "https://blog.jetbrains.com/?post_type=pycharm&p=731629",
+      "title": "What’s Fixed and Improved in PyCharm 2026.2",
+      "link": "https://blog.jetbrains.com/pycharm/2026/08/what-s-fixed-and-improved-in-pycharm-2026-2/",
+      "summary": "Across the PyCharm 2026.2 release line, we shipped 263 fixes and improvements. Many improve Python code insight directly, with more precise type inference, fewer false positives, smarter completion and imports, and more reliable refactoring. Here are some of the smaller changes you’re likely to…",
+      "author": "Will Vincent",
+      "publishedAt": "2026-08-19T13:54:13.000Z"
     }
   ],
-  "totalIndexed": 36
+  "totalIndexed": 41
 }
