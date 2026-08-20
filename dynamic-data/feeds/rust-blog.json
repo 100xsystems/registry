@@ -8,7 +8,7 @@
     "compiler",
     "performance"
   ],
-  "updatedAt": "2026-08-04T19:20:59.544Z",
+  "updatedAt": "2026-08-20T12:47:13.733Z",
   "items": [
     {
       "guid": "rust-blog::https://blog.rust-lang.org/2026/07/16/Rust-1.97.1/",
@@ -5945,7 +5945,15 @@
       "summary": "TL;DR We are enabling the next iteration of the borrow checker (coined Polonius Alpha)\non nightly in preparation for stabilization in the next few months.\n\nWhaaaaaat?\nYes! You heard it right! The next iteration of the Rust borrow checker is coming! Rust's first borrow checker (\"AST borrowck\") was…",
       "author": "Jack Huey",
       "publishedAt": "2026-08-04T00:00:00.000Z"
+    },
+    {
+      "guid": "rust-blog::https://blog.rust-lang.org/2026/08/20/supply-chain-attack-on-arrayref/",
+      "title": "Supply chain attack on arrayref",
+      "link": "https://blog.rust-lang.org/2026/08/20/supply-chain-attack-on-arrayref/",
+      "summary": "What happened\nOn 2026-08-20 at 7:15 UTC we got a report that the proc-macro1 crate was malicious.\nThe Rust Security Response Team verified this to be the case: the crate had a build script that was downloading a malicious payload.\nThis crate proc-macro1 and others like it (proc-macro-en, aovine,…",
+      "author": "Manish Goregaokar",
+      "publishedAt": "2026-08-20T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 742
+  "totalIndexed": 743
 }

@@ -1,56 +1,43 @@
 # YC Company Changes for 2026-08-20
 
-- Previous total: 6188
+- Previous total: 6187
 - Current total: 6187
 - Added: 0
-- Removed: 1
-- Updated: 9
+- Removed: 0
+- Updated: 8
 
-
-## Removed Companies
-
-- Orvixo (Summer 2026)
 
 ## Updated Companies
 
-### [Prodigal](https://www.ycombinator.com/companies/prodigal)
+### [Lezzoo](https://www.ycombinator.com/companies/lezzoo)
 
-- `team_size`: 65 → 99
+- `regions`: Iraq,Middle East and North Africa → Iraq,Middle East and North Africa,Remote,Partly Remote
 
-### [Jestor](https://www.ycombinator.com/companies/jestor)
+### [Openlayer](https://www.ycombinator.com/companies/openlayer)
 
-- `all_locations`: San Francisco, CA, USA; Remote → San Francisco, CA, USA
-- `one_liner`: Jestor is a no-code platform for creating custom business tools. → Jestor builds AI-powered internal systems for your operation.
-- `team_size`: 9 → 12
-- `tags`: B2B,Productivity,No-code,AI → Artificial Intelligence,B2B,Productivity,Operations
-- `regions`: United States of America,America / Canada,Remote,Fully Remote → United States of America,America / Canada,Remote,Partly Remote
+- `stage`: Early → Growth
 
-### [Galactic Resource Utilization Space, Inc. (GRU Space)](https://www.ycombinator.com/companies/galactic-resource-utilization-space-inc-gru-space)
+### [Tensr](https://www.ycombinator.com/companies/tensr)
 
-- `all_locations`: San Francisco, CA, USA → Los Angeles, CA, USA
+- `one_liner`: Fully autonomous robotic factories → Robotic factories that build robots.
 
-### [Shielded](https://www.ycombinator.com/companies/shielded)
+### [Philon](https://www.ycombinator.com/companies/philon)
 
-- `one_liner`: We automate supply chain and financial risk management  → Decision intelligence for the world’s largest supply chains
+- `all_locations`: Thessaloniki, Greece → San Francisco, CA, USA
+- `regions`: Greece,Europe → United States of America,America / Canada
+
+### [Skillsync](https://www.ycombinator.com/companies/skillsync)
+
+- `one_liner`: Github for agent sessions → Teleport your context across agents
+
+### [Meteoric](https://www.ycombinator.com/companies/meteoric)
+
+- `one_liner`: Drones that clear clouds over solar farms → Drones that clear clouds over solar farms and weaken hurricanes
 
 ### [Synapse Semiconductor](https://www.ycombinator.com/companies/synapse-semiconductor)
 
-- `one_liner`: Frontier semiconductor research lab reimagining compute and vision… → frontier semiconductor research lab reimagining physical AI
-- `tags`: Edge Computing Semiconductors,Hard Tech,Robotics,Defense,AI → Artificial Intelligence,Edge Computing Semiconductors,Hard Tech,Robotics,Defense
+- `tags`: Artificial Intelligence,Edge Computing Semiconductors,Hard Tech,Robotics,Defense → Edge Computing Semiconductors,Hard Tech,Robotics,Defense,AI
 
-### [MOCHI.TV](https://www.ycombinator.com/companies/mochitv)
+### [Agnost AI](https://www.ycombinator.com/companies/agnost-ai)
 
-- `tags`: Artificial Intelligence,Consumer → Consumer,AI
-
-### [Qlo](https://www.ycombinator.com/companies/qlo)
-
-- `one_liner`: AI that automates underwriting for commercial insurance carriers → AI agents that run commercial underwriting
-
-### [Hebbian Robotics](https://www.ycombinator.com/companies/hebbian-robotics)
-
-- `one_liner`: APIs for searching and analyzing Physical AI data at scale → Open source SDK for building quality control pipelines for Physical AI
-
-### [Capveon](https://www.ycombinator.com/companies/capveon)
-
-- `one_liner`: We help municipal government contractors win more work  → Turning infrastructure demand into action 
-- `launched_at`: 1785886008 → 1787160988
+- `one_liner`: Product analytics for AI Agents → We find where your agents fail & train a better model
