@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-08-19T06:52:36.479Z",
+  "updatedAt": "2026-08-20T01:11:58.514Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -953,7 +953,31 @@
       "summary": "Databricks’ acquisition of Electric is noteworthy for several reasons. Electric developed PGlite, a WebAssembly build of PostgreSQL that can run inside a browser, application, serverless environment, or AI agent sandbox. It also developed synchronization technology intended to connect these…",
       "author": null,
       "publishedAt": "2026-08-19T05:06:31.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9sJ",
+      "title": "Christophe Pettus: All Your GUCs in a Row: krb_caseins_users and krb_server_keyfile",
+      "link": "https://postgr.es/p/9sJ",
+      "summary": "PostgreSQL's GSSAPI authentication relies on two server-wide settings: `krb_server_keyfile` points to a dedicated keytab file (never share the system one), and…",
+      "author": null,
+      "publishedAt": "2026-08-20T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9sH",
+      "title": "uzair aslam: Reliable HubSpot Sync with a Transactional Outbox and QStash",
+      "link": "https://postgr.es/p/9sH",
+      "summary": "Build a retry-safe HubSpot synchronization pipeline with atomic outbox events, signed QStash workers, call-level rate control, reconciliation, and Sentry.\nA reliable HubSpot integration has to survive the worst possible success: HubSpot commits the change, but the worker loses the response before…",
+      "author": null,
+      "publishedAt": "2026-08-19T22:07:31.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9sI",
+      "title": "uzair aslam: Modeling Multi-Brand Subscription Routing in HubSpot",
+      "link": "https://postgr.es/p/9sI",
+      "summary": "A data-driven model for mapping websites and brands to HubSpot subscription types, Brands IDs, segments, contact properties, and analytics destinations.\nWhen brand A means six HubSpot segments, one communication subscription type, one HubSpot Brand ID, and several attribution properties, the…",
+      "author": null,
+      "publishedAt": "2026-08-19T22:07:27.000Z"
     }
   ],
-  "totalIndexed": 118
+  "totalIndexed": 121
 }

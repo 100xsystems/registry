@@ -1,70 +1,112 @@
-# YC Company Changes for 2026-08-19
+# YC Company Changes for 2026-08-20
 
-- Previous total: 6187
+- Previous total: 6188
 - Current total: 6188
 - Added: 1
-- Removed: 0
-- Updated: 10
+- Removed: 1
+- Updated: 21
 
 
 ## Added Companies
 
-- [Capveon](https://www.ycombinator.com/companies/capveon) (Fall 2026) — We help municipal government contractors win more work 
+- [Allia Health](https://www.ycombinator.com/companies/allia-health) (Summer 2026) — Clinically Integrated Group for Mental Health 
+
+## Removed Companies
+
+- Standard Medical (Summer 2026)
 
 ## Updated Companies
 
-### [PropelAuth](https://www.ycombinator.com/companies/propelauth)
+### [Bensen](https://www.ycombinator.com/companies/bensen)
 
-- `isHiring`: false → true
+- `status`: Active → Inactive
 
-### [Cellbyte](https://www.ycombinator.com/companies/cellbyte)
-
-- `tags`: Data Science,Healthcare IT,AI → Artificial Intelligence,Data Science,Healthcare IT
-
-### [222](https://www.ycombinator.com/companies/222)
-
-- `team_size`: 16 → 23
-- `tags`: Artificial Intelligence,Machine Learning,Marketplace,Consumer,Social → Machine Learning,Marketplace,Consumer,Social,AI
-
-### [Zeit AI](https://www.ycombinator.com/companies/zeit-ai)
-
-- `all_locations`:  → Munich, BY, Germany
-- `one_liner`: From data to enterprise insights in just a few words. → The autonomous data engineer for the mid-market
-- `team_size`: 9 → 12
-- `tags`:  → SaaS,B2B,Analytics,Data Engineering,AI
-- `regions`: Remote,Partly Remote → Germany,Europe,Remote,Partly Remote
-- `question_answers`: true → false
-
-### [Thunder Compute](https://www.ycombinator.com/companies/thunder-compute)
-
-- `team_size`: 7 → 9
-- `tags`: Developer Tools,Data Science,Cloud Computing,Infrastructure,AI → Artificial Intelligence,Developer Tools,Data Science,Cloud Computing,Infrastructure
-
-### [Praxos](https://www.ycombinator.com/companies/praxos)
-
-- `all_locations`: Miami, FL, USA; Remote → São Paulo, SP, Brazil; Remote
-- `regions`: United States of America,America / Canada,Remote,Fully Remote → Brazil,Latin America,Remote,Fully Remote
-
-### [Freebuff](https://www.ycombinator.com/companies/freebuff)
+### [Palla](https://www.ycombinator.com/companies/palla)
 
 - `isHiring`: true → false
 
-### [Clicks Health](https://www.ycombinator.com/companies/clicks-health)
+### [Openlayer](https://www.ycombinator.com/companies/openlayer)
 
-- `website`: https://clickshealth.com/ → https://www.goclicks.ai/
-- `tags`: Health Tech,Healthcare,Health Insurance,AI → Artificial Intelligence,Health Tech,Healthcare,Health Insurance
+- `team_size`: 19 → 24
+- `tags`: AIOps,Developer Tools,Generative AI,Machine Learning,AI → AIOps,Artificial Intelligence,Developer Tools,Generative AI,Machine Learning
+- `stage`: Growth → Early
 
-### [Korso](https://www.ycombinator.com/companies/korso)
+### [Andi](https://www.ycombinator.com/companies/andi)
 
-- `name`: afterfive → Korso
-- `slug`: afterfive → korso
-- `former_names`: Korso → Korso,afterfive
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/3ffe4f023354ca9c8b2f9a3ebb3669cf29726f1d.png → https://bookface-images.s3.amazonaws.com/small_logos/fd03c9be7cf358b8834377c00d3855af56d7f064.png
-- `website`: https://afterfive.club/ → https://korsoai.com/
-- `one_liner`: Life starts after five. → The AI-native agency
+- `all_locations`: Puerto Vallarta, Jal., Mexico → San Francisco, CA, USA
+- `tags`: Generative AI,Consumer,API,Search,AI → Artificial Intelligence,Generative AI,Consumer,API,Search
+- `regions`: Mexico,Latin America → United States of America,America / Canada
 
-### [6thSense](https://www.ycombinator.com/companies/6thsense)
+### [Ravion](https://www.ycombinator.com/companies/ravion)
 
-- `one_liner`: A nervous system for physical AI → Nervous System for Physical AI
-- `team_size`: 0 → 4
-- `tags`: Robotics,Big Data,AI → Robotics
+- `one_liner`: Ultimate command center for your cloud infrastructure → The agent-native cloud infrastructure platform for AWS.
+
+### [Feldy](https://www.ycombinator.com/companies/feldy)
+
+- `team_size`: 15 → 8
+
+### [Thunder Compute](https://www.ycombinator.com/companies/thunder-compute)
+
+- `tags`: Artificial Intelligence,Developer Tools,Data Science,Cloud Computing,Infrastructure → Developer Tools,Data Science,Cloud Computing,Infrastructure,AI
+
+### [Revyl](https://www.ycombinator.com/companies/revyl)
+
+- `one_liner`: The mobile development platform → The Mobile Development Platform
+- `tags`: Developer Tools,B2B,Infrastructure,AI → Artificial Intelligence,Developer Tools,B2B,Infrastructure
+
+### [CopyCat](https://www.ycombinator.com/companies/copycat)
+
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/e53b0a2f0edf2d0fa1b2684e2752773cf3f0afba.png → https://bookface-images.s3.amazonaws.com/small_logos/d0b6fa2626fafdcdd87ec75360df8375ffa48bb3.png
+
+### [Janet AI](https://www.ycombinator.com/companies/tryjanet)
+
+- `one_liner`: Agents that work 24/7 across the tools you already use → Agents that handle work 24/7 across the tools you already use
+- `team_size`: 4 → 5
+
+### [Proliferate](https://www.ycombinator.com/companies/proliferate)
+
+- `one_liner`: Manage a team of agents from your desktop → Do your life's work with agents
+- `tags`: Developer Tools,SaaS,B2B,AI → Artificial Intelligence,Developer Tools,SaaS,B2B
+
+### [Specific Labs](https://www.ycombinator.com/companies/specific-labs)
+
+- `one_liner`: Enterprise Coding Data for AI → Real World Environments and Data for AI
+
+### [Parameter](https://www.ycombinator.com/companies/parameter)
+
+- `name`: Parameter (fka Hex Security) → Parameter
+- `slug`: parameter-fka-hex-security → parameter
+- `former_names`: Anytool,Hex Security,Parameter → Anytool,Hex Security,Parameter,Parameter (fka Hex Security)
+
+### [Atlia](https://www.ycombinator.com/companies/atlia)
+
+- `one_liner`: We are the AI-native property management company → The first AI-native property management company
+
+### [Understudy Labs](https://www.ycombinator.com/companies/understudy-labs)
+
+- `one_liner`: Effortlessly move to open weight models → Self-optimizing neocloud that cuts LLM bills by 80%
+
+### [RealPact](https://www.ycombinator.com/companies/realpact)
+
+- `team_size`: 3 → 2
+- `tags`: Artificial Intelligence,Real Estate,Enterprise Software → Real Estate,Enterprise Software,AI
+
+### [EdotEnv](https://www.ycombinator.com/companies/edotenv)
+
+- `one_liner`: A Quant Neolab building toward RSI via quant trading → A Quant Neolab building self-improving agents from quant trading
+
+### [Ultrasonium](https://www.ycombinator.com/companies/ultrasonium)
+
+- `team_size`: 17 → 5
+
+### [Denta](https://www.ycombinator.com/companies/denta)
+
+- `one_liner`: Full Stack Dental Insurance → Dental Insurance
+
+### [Levocred AI](https://www.ycombinator.com/companies/levocred-ai)
+
+- `one_liner`: AI for credit funds, fintechs and banks → The AI analysts for lenders
+
+### [Nex](https://www.ycombinator.com/companies/nex)
+
+- `one_liner`: Claude Cowork for high-volume workflows, starting with GTM → AI GTM Engineer
