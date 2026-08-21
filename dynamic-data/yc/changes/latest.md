@@ -1,52 +1,67 @@
 # YC Company Changes for 2026-08-21
 
 - Previous total: 6187
-- Current total: 6187
-- Added: 0
+- Current total: 6188
+- Added: 1
 - Removed: 0
-- Updated: 10
+- Updated: 12
 
+
+## Added Companies
+
+- [Covera](https://www.ycombinator.com/companies/covera) (Fall 2026) — AI-native OS for insurance brokers
 
 ## Updated Companies
 
-### [Kalshi](https://www.ycombinator.com/companies/kalshi)
+### [Stoke Space](https://www.ycombinator.com/companies/stoke-space)
 
-- `stage`: Early → Growth
+- `stage`: Growth → Early
 
-### [Karat Financial](https://www.ycombinator.com/companies/karat-financial)
+### [Authologic](https://www.ycombinator.com/companies/authologic)
 
-- `stage`: Early → Growth
+- `team_size`: 33 → 44
 
-### [Sieve](https://www.ycombinator.com/companies/sieve)
+### [Onebrief](https://www.ycombinator.com/companies/onebrief)
 
-- `stage`: Early → Growth
+- `stage`: Growth → Early
 
-### [WhiteLab Genomics](https://www.ycombinator.com/companies/whitelab-genomics)
+### [GloGlo](https://www.ycombinator.com/companies/gloglo)
 
-- `stage`: Early → Growth
+- `tags`: Consumer Health Services,Consumer,E-commerce,AI,AI Assistant → Artificial Intelligence,Consumer Health Services,Consumer,E-commerce,AI Assistant
 
-### [Probo](https://www.ycombinator.com/companies/probo)
+### [Mendral](https://www.ycombinator.com/companies/mendral)
 
-- `website`: https://www.probo.com/ → https://www.probo.com?utm_source=yc-bookface
+- `status`: Active → Inactive
 
-### [Redapto](https://www.ycombinator.com/companies/redapto)
+### [Archal](https://www.ycombinator.com/companies/archal)
 
-- `team_size`: 2 → 7
+- `tags`: Developer Tools,API,Infrastructure,AI → Artificial Intelligence,Developer Tools,API,Infrastructure
 
-### [Arga Labs](https://www.ycombinator.com/companies/arga-labs)
+### [Libra Robotics](https://www.ycombinator.com/companies/libra-robotics)
 
-- `one_liner`: Real-world sandboxes to test agents and agent-facing software → Real-world sandboxes to test and train AI agents
+- `one_liner`: Robot squads for solar farm construction → Robotic crews for large-scale infrastructure construction
+- `tags`: Artificial Intelligence,Hard Tech,Robotics,Construction,Energy → Hard Tech,Robotics,Construction,Energy,AI
 
-### [Expanse](https://www.ycombinator.com/companies/expanse)
+### [Audun](https://www.ycombinator.com/companies/audun)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/26ca5cac6157441dd12d0352f7d3fd4a77c4c39a.png → https://bookface-images.s3.amazonaws.com/small_logos/af6cfe1f95da6fb2bfc1789fb605ed70b77da3b4.png
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/d28813053904611d6b5fc0391c683bdbe842a4ad.png → https://bookface-images.s3.amazonaws.com/small_logos/e7da249d05c3b78e6493d6546cc70a78c450280f.png
+- `website`: https://www.getaudun.com/ → https://audun.co
+- `team_size`: 4 → 5
 
-### [Levocred AI](https://www.ycombinator.com/companies/levocred-ai)
+### [Daqstra](https://www.ycombinator.com/companies/daqstra)
 
-- `tags`: Lending,Investments → Enterprise Software
+- `one_liner`: AI-native test infrastructure for hardware companies → AI-native test infrastructure to accelerate hardware companies.
+- `tags`: Artificial Intelligence,Hard Tech → Hard Tech,AI
 
-### [Skymerse](https://www.ycombinator.com/companies/skymerse)
+### [Vestris](https://www.ycombinator.com/companies/vestris)
 
-- `all_locations`: Warsaw, Masovian Voivodeship, Poland → San Francisco, CA, USA
-- `tags`: Airlines,Aerospace,AI → Artificial Intelligence,Airlines,Aerospace
-- `regions`: Poland,Europe → United States of America,America / Canada
+- `isHiring`: false → true
+
+### [Pacific](https://www.ycombinator.com/companies/pacific)
+
+- `team_size`: 2 → 3
+- `tags`: Artificial Intelligence,Fintech,Robotics,Space Exploration,Manufacturing → Fintech,Robotics,Space Exploration,Manufacturing,AI
+
+### [Conifer](https://www.ycombinator.com/companies/conifer)
+
+- `tags`: Artificial Intelligence,B2B,Security → B2B,Security,AI

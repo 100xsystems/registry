@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-08-21T01:15:14.216Z",
+  "updatedAt": "2026-08-21T18:25:09.884Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -1025,7 +1025,23 @@
       "summary": "In this article written for experienced PostgreSQL engineers and core developers, I want to describe how we tested one hypothesis — whether a shared hash table can be used to speed up parallel aggregation by hashing. A recent paper claims that the shared hash table is an unfairly dismissed way of…",
       "author": null,
       "publishedAt": "2026-08-20T17:50:37.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9sW",
+      "title": "Alexey Evlampiev: The Request Becomes a Transaction",
+      "link": "https://postgr.es/p/9sW",
+      "summary": "The Request Becomes a Transaction#\nA transactional API has two halves: a network edge and a transactional operation. Keep the first at that edge; give the second to PostgreSQL, where its authority already lives — and every declared outcome of every operation becomes provable in the same…",
+      "author": null,
+      "publishedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9sV",
+      "title": "Mikhail Shytsko: The Postgres Insert That Fails Right After a Successful Load",
+      "link": "https://postgr.es/p/9sV",
+      "summary": "The load finished without complaint, with row counts matching the fixture file and every foreign key resolving, but then the application inserts a row of its own, and Postgres refuses it:\nERROR:  duplicate key value violates unique constraint \"users_pkey\"\nDETAIL:  Key (id)=(1) already exists.…",
+      "author": null,
+      "publishedAt": "2026-08-21T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 127
+  "totalIndexed": 129
 }

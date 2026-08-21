@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-08-21T12:44:37.810Z",
-  "count": 6187,
+  "fetchedAt": "2026-08-21T18:25:34.541Z",
+  "count": 6188,
   "companies": [
     {
       "id": 36348,
@@ -46,6 +46,47 @@
       "app_answers": null,
       "question_answers": false,
       "url": "https://www.ycombinator.com/companies/antimattr"
+    },
+    {
+      "id": 36084,
+      "name": "Covera",
+      "slug": "covera",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/e711e58f600a9ea3c53a45d934c825989e9b5b57.png",
+      "website": "https://www.covera-agents.com/",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "Covera builds AI agents for insurance brokers. Our ready-to-use agents take over the day-to-day servicing work: submission intake, carrier quoting, quote comparison, claims handling, past-due collections, and account rounding. That means brokers can spend their time advising and selling clients instead of doing data entry. We work with agencies of every size and connect natively to the tools they already use.",
+      "one_liner": "AI-native OS for insurance brokers",
+      "team_size": 2,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "Fintech",
+      "subindustry": "Fintech -> Insurance",
+      "launched_at": 1787324338,
+      "tags": [
+        "AIOps"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": true,
+      "nonprofit": false,
+      "batch": "Fall 2026",
+      "status": "Active",
+      "industries": [
+        "Fintech",
+        "Insurance"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/covera"
     },
     {
       "id": 35784,
@@ -572,9 +613,9 @@
       "subindustry": "B2B",
       "launched_at": 1783524440,
       "tags": [
-        "Artificial Intelligence",
         "B2B",
-        "Security"
+        "Security",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -3789,7 +3830,7 @@
       "all_locations": "London, England, United Kingdom",
       "long_description": "We mass-produce modular data centers that deploy on stalled infrastructure projects losing billions per week.\r\n\r\nDelayed infrastructure projects hemorrhage $1B a week in the US alone - Pacific mass-produces modular data centers that deploy on those sites in days and turn their unused power into revenue.\r\n\r\nData centers are stuck for years waiting for power, while delayed construction sites across the world sit on unused interconnects, losing billions of dollars per week in interest on trillions of dollars of debt. Our pods deploy on those sites and generate revenue for them in days. They use diamond wafers in the cooling system so pods run anywhere on earth, even a desert. \r\n\r\nWe'll use the same mechanisms we're building today to deploy compute across the galaxy.\r\n",
       "one_liner": "Mass-producing and financing micro data center incredibly quickly.",
-      "team_size": 2,
+      "team_size": 3,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -3797,11 +3838,11 @@
       "subindustry": "Industrials",
       "launched_at": 1786300632,
       "tags": [
-        "Artificial Intelligence",
         "Fintech",
         "Robotics",
         "Space Exploration",
-        "Manufacturing"
+        "Manufacturing",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -4209,7 +4250,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": false,
+      "isHiring": true,
       "nonprofit": false,
       "batch": "Summer 2026",
       "status": "Active",
@@ -4553,7 +4594,7 @@
       "website": "https://www.daqstra.com",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Daqstra is the AI-native orchestration layer for physical R&D. It saves engineers in Aerospace, Energy and Robotics hundreds of man hours managing test infrastructure by connecting fragmented test hardware, bringing live and historical test data into one place, and by giving engineers an API to orchestrate their entire test setup. We enable teams to spend less time rebuilding test infrastructure and more time improving the hardware they test.",
-      "one_liner": "AI-native test infrastructure for hardware companies",
+      "one_liner": "AI-native test infrastructure to accelerate hardware companies.",
       "team_size": 3,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -4562,8 +4603,8 @@
       "subindustry": "B2B",
       "launched_at": 1784276991,
       "tags": [
-        "Artificial Intelligence",
-        "Hard Tech"
+        "Hard Tech",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -6684,12 +6725,12 @@
       "former_names": [
         "Solvva"
       ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/d28813053904611d6b5fc0391c683bdbe842a4ad.png",
-      "website": "https://www.getaudun.com/",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/e7da249d05c3b78e6493d6546cc70a78c450280f.png",
+      "website": "https://audun.co",
       "all_locations": "Oslo, Oslo, Norway",
       "long_description": "Audun automates debt collection.",
       "one_liner": "AI-native debt collection",
-      "team_size": 4,
+      "team_size": 5,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -19663,8 +19704,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/e588f98ac537da3d55ea3c2b43b0bd505524c7f8.png",
       "website": "https://www.librabots.com/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "We build collaborative robot squads for solar farm construction.\r\n\r\nHigh labor costs, labor shortages, and unpredictable productivity make infrastructure difficult to build in places that are remote, harsh, or empty. We are building robots to unlock places once considered too difficult to develop. Solar farm is our first proving ground.\r\n\r\nUnlike solutions that automate only one task, or even part of one, we cover the workflow after PV module pallets arrive on-site: transportation, installation, alignment, and fastening. Each robot has a specific role, and fleets can be configured based on each project’s cost and schedule requirements.\r\n\r\nOur robots operate autonomously with remote supervision. One person can supervise 4+ robots through a screen and an e-stop button, without being physically present or teleoperating them. Our robotic fleet has also been tested at night, paving the way for 24/7 operation.\r\n\r\nWe work directly with EPCs through a Robotics-as-a-Service model, requiring no robot purchase or large upfront capital investment. We also work with racking and PV module manufacturers to certify compatibility and give customers confidence in deployment.\r\n\r\nPurpose-built hardware, multimodal sensing, and physical AI software help our robots handle real-world construction uncertainty.",
-      "one_liner": "Robot squads for solar farm construction",
+      "long_description": "We’re building collaborative robotic crews for large-scale infrastructure projects, including solar farms and data centers.\r\n\r\n002C: “002A, 5.3 mm left.”\r\n002B: “002A, you’re running low. Next pallet is on the way.”\r\n002C: “Am I clear to come in?”\r\n002A: “Aligned. Panel released. You’re clear.”\r\n002C: “Fastening.”\r\n002B: “Next load arriving now.”\r\n\r\nThis isn’t a human crew talking. It’s three robots building a utility-scale solar farm together. \r\n\r\nOur AI control system enables specialized robots to collaborate, learn reusable construction skills, like alignment, fastening, and manipulation, and transfer them across workflows, from solar farms to data centers. 🚧 🦺 ",
+      "one_liner": "Robotic crews for large-scale infrastructure construction",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -19673,11 +19714,11 @@
       "subindustry": "Industrials -> Manufacturing and Robotics",
       "launched_at": 1783647531,
       "tags": [
-        "Artificial Intelligence",
         "Hard Tech",
         "Robotics",
         "Construction",
-        "Energy"
+        "Energy",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -20008,7 +20049,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/d5457b412312bd26ecc72ccead99d16248cd087a.png",
       "website": "https://www.archal.ai/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Test API integrations without test accounts, rate limits, or dirty state.",
+      "long_description": "Archal provisions sandboxes with the API environments your CI, tests, and evals need. Your coding agent can start the sandbox & environments, connect to your API integrations, run tests, and inspect state changes. Sandboxes and environments are startable within seconds and take milliseconds to reset.",
       "one_liner": "API sandboxes, built for AI agents",
       "team_size": 2,
       "highlight_black": false,
@@ -20018,10 +20059,10 @@
       "subindustry": "B2B -> Infrastructure",
       "launched_at": 1776709029,
       "tags": [
+        "Artificial Intelligence",
         "Developer Tools",
         "API",
-        "Infrastructure",
-        "AI"
+        "Infrastructure"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -20268,7 +20309,7 @@
       "isHiring": false,
       "nonprofit": false,
       "batch": "Winter 2026",
-      "status": "Active",
+      "status": "Inactive",
       "industries": [
         "B2B"
       ],
@@ -76127,7 +76168,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/bf27e2b5fff1afcb51538ca47d0ce384847305c2.png",
       "website": "https://gloglo.com",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "GloGlo is building a new consumer health brand for diabetics and the glucose-conscious.\r\n\r\nOur first products are the GloGlo AI glucose companion, which turns continuous glucose data into personalized insights and practical guidance, and GloGlo Energy Gummies, a fast, convenient, and enjoyable source of glucose for exercise, daily energy, and managing lows.\r\n\r\nWe are starting with the Type 1 diabetes community, where glucose management is urgent and constant, before expanding to athletes and the broader metabolic health market.\r\n\r\nOur long-term vision is to make managing glucose and energy simpler, more intuitive, and more human.",
+      "long_description": "Our mission: cure diabetes, and help every person with diabetes stay healthy until we do.\r\n\r\nGloGlo is building a new consumer health brand for diabetics and the glucose-conscious.\r\n\r\nOur first products are the GloGlo AI glucose companion, which turns continuous glucose data into personalized insights and practical guidance, and GloGlo Energy Gummies, a fast, convenient, and enjoyable source of glucose for exercise, daily energy, and managing lows.\r\n\r\n",
       "one_liner": "AI glucose companion for diabetics ",
       "team_size": 3,
       "highlight_black": false,
@@ -76137,10 +76178,10 @@
       "subindustry": "Consumer",
       "launched_at": 1700867535,
       "tags": [
+        "Artificial Intelligence",
         "Consumer Health Services",
         "Consumer",
         "E-commerce",
-        "AI",
         "AI Assistant"
       ],
       "tags_highlighted": [],
@@ -144100,7 +144141,7 @@
         "Remote",
         "Fully Remote"
       ],
-      "stage": "Growth",
+      "stage": "Early",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -146628,7 +146669,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/470c089d5fdf6f7b0bfaf2a2daa45b2ad5a4af33.png",
       "website": "https://www.rgilabs.com",
       "all_locations": "New York City, NY, USA; Remote",
-      "long_description": "RGI's mission is to build the world's first robust & recursively self-improving general intelligence. We're building the environment for intelligent systems to be able to develop in such a way where they can: \r\n- Recursively self-improve across all modifiable planes including scaffolding, parameters, and architecture. \r\n- Continually learn from online experiences and update its parameters while maintaining robustness against catastrophic failures. \r\n- Use its robust general intelligence of the world to acquire new skills in few or zero shots. \r\n- Use its world model to predict future states and plan via multi-step rollout. \r\n- Operate on a learned latent space that is compressed and feature-rich, including a robust latent space for reasoning.",
+      "long_description": "RGI's mission is to build the world's first robust & recursively self-improving general intelligence. We're building the environment for intelligent systems to be able to develop in such a way where they can: \r\n- Recursively self-improve across all modifiable planes including architecture, parameters, scaffolding, etc. \r\n- Continually learn from online experiences and update its parameters while maintaining robustness against catastrophic failures. \r\n- Use its robust general intelligence of the world to acquire new skills in few or zero shots. \r\n- Use its world model to predict future states and plan via multi-step rollout. \r\n- Operate on a learned latent space that is compressed and feature-rich, including a robust latent space for reasoning.",
       "one_liner": "Robust & recursively self-improving general intelligence",
       "team_size": 1,
       "highlight_black": false,
@@ -152219,7 +152260,7 @@
       "all_locations": "Warsaw, Masovian Voivodeship, Poland; Remote",
       "long_description": "Authologic is an orchestration and aggregation layer for local KYC & AML methods. We allow businesses to check the identity of their clients online using video/biometrics, banking data, and government issued digital IDs. Our API  allows a flexible definition of verification scenarios based on the risk profile of the client or risk involved in the given process.",
       "one_liner": "Stripe for online identity verification",
-      "team_size": 33,
+      "team_size": 44,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -157850,7 +157891,7 @@
         "Remote",
         "Partly Remote"
       ],
-      "stage": "Growth",
+      "stage": "Early",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,

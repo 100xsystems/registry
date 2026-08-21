@@ -8,7 +8,7 @@
     "compiler",
     "performance"
   ],
-  "updatedAt": "2026-08-20T18:27:25.123Z",
+  "updatedAt": "2026-08-21T18:25:09.701Z",
   "items": [
     {
       "guid": "rust-blog::https://blog.rust-lang.org/2026/07/16/Rust-1.97.1/",
@@ -5961,7 +5961,15 @@
       "summary": "The Rust team is happy to announce a new version of Rust, 1.98.0. Rust is a programming language empowering everyone to build reliable and efficient software.\nIf you have a previous version of Rust installed via rustup, you can get 1.98.0 with:\n$ rustup update stable\nIf you don't have it already,…",
       "author": "The Rust Release Team",
       "publishedAt": "2026-08-20T00:00:00.000Z"
+    },
+    {
+      "guid": "rust-blog::https://blog.rust-lang.org/2026/08/21/enabling-next-solver-on-nightly/",
+      "title": "Enabling the next-generation trait solver on nightly",
+      "link": "https://blog.rust-lang.org/2026/08/21/enabling-next-solver-on-nightly/",
+      "summary": "After nearly 4 years of active development, the next-generation trait solver is close to stabilization. We are enabling it by default on nightly to surface any remaining issues and plan to stabilize it in the next months. This is the largest single change to the Rust compiler since its initial…",
+      "author": "lcnr",
+      "publishedAt": "2026-08-21T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 744
+  "totalIndexed": 745
 }
