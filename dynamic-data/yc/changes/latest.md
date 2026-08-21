@@ -1,110 +1,51 @@
 # YC Company Changes for 2026-08-21
 
-- Previous total: 6188
+- Previous total: 6187
 - Current total: 6187
 - Added: 0
-- Removed: 1
-- Updated: 18
+- Removed: 0
+- Updated: 8
 
-
-## Removed Companies
-
-- Tally (Winter 2025)
 
 ## Updated Companies
 
-### [Vouch](https://www.ycombinator.com/companies/vouch)
+### [Sieve](https://www.ycombinator.com/companies/sieve)
 
-- `isHiring`: false → true
-
-### [Zeal](https://www.ycombinator.com/companies/zeal)
-
-- `isHiring`: true → false
-
-### [Karat Financial](https://www.ycombinator.com/companies/karat-financial)
-
+- `one_liner`: Video datasets for frontier AI → The multimodal data lab
+- `team_size`: 18 → 34
 - `stage`: Growth → Early
 
-### [Algen Biotechnologies](https://www.ycombinator.com/companies/algen-biotechnologies)
+### [Redapto](https://www.ycombinator.com/companies/redapto)
 
-- `tags`: AI-powered Drug Discovery,Artificial Intelligence,CRISPR → CRISPR,Biotech,Therapeutics,Drug discovery,AI
+- `one_liner`: Enterprise AI Transformation Platform → Intelligence that moves the world
+- `tags`: Artificial Intelligence,B2B → B2B,AI
 
-### [EdgeTrace](https://www.ycombinator.com/companies/edgetrace)
+### [Datoric](https://www.ycombinator.com/companies/datoric)
 
-- `team_size`: 4 → 2
-- `tags`: GovTech,Computer Vision,B2B,Video,AI → Artificial Intelligence,GovTech,Computer Vision,B2B,Video
+- `one_liner`: Security-first training data → Security-first training data your next model needs
+- `tags`: Artificial Intelligence,Data Labeling,ML → Data Labeling,AI,ML
 
-### [Superunit](https://www.ycombinator.com/companies/superunit)
+### [Qlo](https://www.ycombinator.com/companies/qlo)
 
-- `isHiring`: true → false
+- `tags`: Insurance,Enterprise Software,AI → Artificial Intelligence,Insurance,Enterprise Software
 
-### [Praxos](https://www.ycombinator.com/companies/praxos)
+### [Neuromorphic](https://www.ycombinator.com/companies/neuromorphic)
 
-- `all_locations`: São Paulo, SP, Brazil; Remote → São Paulo, SP, Brazil
-- `one_liner`: Messaging workspace for people and AI agents → Team messaging with built-in memory
-- `regions`: Brazil,Latin America,Remote,Fully Remote → Brazil,Latin America,Remote,Partly Remote
+- `one_liner`: Building embodiment agnostic robot brains. → Building robots to automate wetlabs
 
-### [Combinely](https://www.ycombinator.com/companies/combinely)
+### [Familiar](https://www.ycombinator.com/companies/familiar)
 
-- `isHiring`: true → false
+- `all_locations`: San Francisco, CA, USA → Toronto, ON, Canada
+- `one_liner`: World Models for Accurate Humans. → World Models for Accurate Humans. Real-Time Dubbing First.
+- `subindustry`: B2B → B2B -> Infrastructure
+- `tags`: Education,B2B,Entertainment,Marketing,AI → Artificial Intelligence,Generative AI,B2B,Entertainment
+- `industries`: B2B → B2B,Infrastructure
+- `regions`: United States of America,America / Canada → Canada,America / Canada
 
-### [Conviction](https://www.ycombinator.com/companies/conviction)
+### [Levocred AI](https://www.ycombinator.com/companies/levocred-ai)
 
-- `name`: Parachute → Conviction
-- `slug`: parachute → conviction
-- `former_names`: Parachute,Parachute AI,Parachute,Parachute AI → Parachute,Parachute AI,Parachute,Parachute AI,Parachute
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/ffdb102f014e8ce8401417ee051d9fbec55550e0.png → https://bookface-images.s3.amazonaws.com/small_logos/3d77bd0a212f97907bcda7fd8ba18232fbfdb55b.png
-- `website`: https://parachute-ai.com → https://convictiontrade.ai
-- `all_locations`: New York City, NY, USA → San Francisco, CA, USA
-- `one_liner`:  → Anyone Can Trade
-- `industry`: Healthcare → Fintech
-- `subindustry`: Healthcare -> Healthcare IT → Fintech -> Consumer Finance
-- `industries`: Healthcare,Healthcare IT → Fintech,Consumer Finance
+- `one_liner`: The AI analysts for lenders → The AI analyst for lenders
 
-### [OS3](https://www.ycombinator.com/companies/os3)
+### [Hubble](https://www.ycombinator.com/companies/hubble-ai)
 
-- `one_liner`: Intelligence and Machines for Physical Labor → Full Stack Robotics: US-Built Commercial Robots & Video Action Models
-- `tags`: Artificial Intelligence,Hardware,Robotics,B2B → Hardware,Robotics,B2B,AI
-
-### [Archal](https://www.ycombinator.com/companies/archal)
-
-- `one_liner`: The improvement loop for AI agents → API sandboxes, built for AI agents
-- `tags`: Artificial Intelligence,Developer Tools,API,Infrastructure → Developer Tools,API,Infrastructure,AI
-
-### [Insurf](https://www.ycombinator.com/companies/insurf)
-
-- `tags`: Artificial Intelligence,Health Tech,Healthcare,Insurance,Automation → Health Tech,Healthcare,Insurance,Automation,AI
-
-### [Daqstra](https://www.ycombinator.com/companies/daqstra)
-
-- `one_liner`: AI-native orchestration for physical R&D testing → AI-native test infrastructure for hardware companies
-- `tags`: Hard Tech,AI → Artificial Intelligence,Hard Tech
-
-### [Pacific](https://www.ycombinator.com/companies/pacific)
-
-- `one_liner`: Mass-producing and deploying micro data centers for Earth and Space → Mass-producing and financing micro data center incredibly quickly.
-
-### [Agnost AI](https://www.ycombinator.com/companies/agnost-ai)
-
-- `one_liner`: We find where your agents fail & train a better model → Product Analytics for Conversational Agents
-- `tags`: Developer Tools,Analytics,Monitoring,AI → Artificial Intelligence,Developer Tools,Analytics,Monitoring
-
-### [Lamb Labs](https://www.ycombinator.com/companies/lamb-labs)
-
-- `one_liner`: World's fastest AI models → Lightning fast chips with hardcoded AI models
-
-### [OneCLI](https://www.ycombinator.com/companies/onecli)
-
-- `one_liner`: The Identity Gateway for AI Agents → Give every employee a secured, sandboxed pro assistant agent
-- `tags`: Artificial Intelligence,B2B,Security,Open Source,Infrastructure → B2B,Security,Open Source,Infrastructure,AI
-
-### [CoArena](https://www.ycombinator.com/companies/coarena)
-
-- `name`: Coasty → CoArena
-- `slug`: coasty → coarena
-- `former_names`:  → Coasty
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/49c533e34b6c887207ac5683dd8dfab22709a458.png → https://bookface-images.s3.amazonaws.com/small_logos/1543623e6506eaf893b1c43e614688a6b2a32bda.png
-- `website`: http://coasty.ai/ → http://coarena.ai
-- `subindustry`: B2B → B2B -> Engineering, Product and Design
-- `tags`: AIOps,Developer Tools,Reinforcement Learning,Workflow Automation,Data Labeling → AIOps,Artificial Intelligence,Machine Learning,Reinforcement Learning,Data Labeling
-- `industries`: B2B → B2B,Engineering, Product and Design
+- `one_liner`: The intelligence layer for patient information → Retrieve records other APIs can't
