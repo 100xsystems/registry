@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-08-12T18:52:08.745Z",
+  "updatedAt": "2026-08-21T01:15:22.886Z",
   "items": [
     {
       "guid": "pamela-fox::http://blog.pamelafox.org/2026/05/pycon-2026-reflections.html",
@@ -215,7 +215,15 @@
       "summary": "Model Context Protocol (MCP) is an open protocol that describes how agents can connect to external tools and data sources,\nand is now widely supported by the most popular coding agents (like GitHub Copilot, Claude Code, and Codex) and agent frameworks (like LangChain and Pydantic AI).\nIf you want…",
       "author": "Pamela Fox",
       "publishedAt": "2026-08-12T18:07:30.495Z"
+    },
+    {
+      "guid": "pamela-fox::http://blog.pamelafox.org/2026/08/browser-automation-with-pydantic-ai.html",
+      "title": "Browser automation with Pydantic AI + Playwright",
+      "link": "http://blog.pamelafox.org/2026/08/browser-automation-with-pydantic-ai.html",
+      "summary": "When we build agents, we often want to give them the ability to browse the web: open webpages, navigate from one page to the other, and read the content of a webpage. By combining Pydantic AI with the Playwright capability from Pydantic AI Harness, we can build agents that browse the web safely and…",
+      "author": "Pamela Fox",
+      "publishedAt": "2026-08-20T21:57:18.970Z"
     }
   ],
-  "totalIndexed": 26
+  "totalIndexed": 27
 }

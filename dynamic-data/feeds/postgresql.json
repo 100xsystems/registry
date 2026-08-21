@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-08-20T18:27:25.014Z",
+  "updatedAt": "2026-08-21T01:15:14.216Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -1009,7 +1009,23 @@
       "summary": "Introduction\nThe purpose of this blog post is to introduce pg_shmemviz, a new tool to\nvisualize PostgreSQL shared memory.\nIt follows the same approach as\npg_walviz,\nbringing physical layout and byte level navigation to PostgreSQL shared memory\ninstead of WAL segments.\nViews such as…",
       "author": null,
       "publishedAt": "2026-08-20T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9sS",
+      "title": "Christophe Pettus: All Your GUCs in a Row: lock_timeout",
+      "link": "https://postgr.es/p/9sS",
+      "summary": "Prevent your migration from starving behind long-running queries.",
+      "author": null,
+      "publishedAt": "2026-08-21T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9sR",
+      "title": "Andrei Lepikhov: Do Global Hash Tables Strike Back in PostgreSQL?",
+      "link": "https://postgr.es/p/9sR",
+      "summary": "In this article written for experienced PostgreSQL engineers and core developers, I want to describe how we tested one hypothesis — whether a shared hash table can be used to speed up parallel aggregation by hashing. A recent paper claims that the shared hash table is an unfairly dismissed way of…",
+      "author": null,
+      "publishedAt": "2026-08-20T17:50:37.000Z"
     }
   ],
-  "totalIndexed": 125
+  "totalIndexed": 127
 }

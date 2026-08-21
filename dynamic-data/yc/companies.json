@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-08-20T18:27:39.049Z",
-  "count": 6188,
+  "fetchedAt": "2026-08-21T01:15:36.034Z",
+  "count": 6187,
   "companies": [
     {
       "id": 36348,
@@ -730,26 +730,28 @@
     },
     {
       "id": 33738,
-      "name": "Coasty",
-      "slug": "coasty",
-      "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/49c533e34b6c887207ac5683dd8dfab22709a458.png",
-      "website": "http://coasty.ai/",
+      "name": "CoArena",
+      "slug": "coarena",
+      "former_names": [
+        "Coasty"
+      ],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/1543623e6506eaf893b1c43e614688a6b2a32bda.png",
+      "website": "http://coarena.ai",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Coasty is a computer use agent that officially reached 82.8% on OSWorld, which puts us among the most reliable agents out there. Going through the evaluation process, we realized a better crowdsourced benchmark was needed. So we created Coarena, real-world evals and RL environments for computer-use agents. We run a live arena where people post the computer-use tasks they actually need done, two frontier models race them head-to-head, and humans judge the outcome blind. Every battle produces something labs can't get from a static benchmark, an eval built on real demand instead of a memorized test set.\r\n\r\nMost benchmarks demo well and break the moment a model trains on them. They're fixed, they grade only the final screen, and they miss everything that matters, the run that spent $240 on an \"under $200\" task, the agent that subscribed to three newsletters on the way to checkout, the one that looped for 40 steps and quit. OSWorld and WebArena saturate in months. Ours are parameterized and demand-sourced, so the scores stay honest.\r\n\r\nOn top of the arena we build deterministic RL environments - flights, commerce, CRM, forms that reset bit-for-bit and grade outcome, trajectory, side-effects, and constraints, with per-step failure attribution and a dense reward you can train on. We also grade what nobody else does: whether an agent can be hijacked by instructions hidden in a page, and whether it knows when to stop and ask instead of spending someone's money.",
+      "long_description": "CoArena is a live arena where anyone can use the world's top AI agents for free, including Fable, Sol, and models not yet released to the public, racing two of them on the same real computer task and judging which one did it better. Every battle becomes something the AI labs can't build themselves, an honest test of their agents on real work, and the data to make them better.",
       "one_liner": "Real World Evals and RL Environments for Computer-Use",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
       "industry": "B2B",
-      "subindustry": "B2B",
+      "subindustry": "B2B -> Engineering, Product and Design",
       "launched_at": 1782294083,
       "tags": [
         "AIOps",
-        "Developer Tools",
+        "Artificial Intelligence",
+        "Machine Learning",
         "Reinforcement Learning",
-        "Workflow Automation",
         "Data Labeling"
       ],
       "tags_highlighted": [],
@@ -759,7 +761,8 @@
       "batch": "Summer 2026",
       "status": "Active",
       "industries": [
-        "B2B"
+        "B2B",
+        "Engineering, Product and Design"
       ],
       "regions": [
         "United States of America",
@@ -770,7 +773,7 @@
       "demo_day_video_public": false,
       "app_answers": null,
       "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/coasty"
+      "url": "https://www.ycombinator.com/companies/coarena"
     },
     {
       "id": 33673,
@@ -1367,8 +1370,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/0405005492b7122ac5f4784e260fc64d7bd99053.png",
       "website": "https://onecli.sh",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "OneCLI is a credential isolation gateway for AI agents. Agents see placeholder tokens instead of real API keys and OAuth credentials, the real secrets are injected at the network layer, so a compromised or misbehaving agent can never leak them. \r\n\r\nTeams get per-agent access control, full audit logs, and one-click integrations with Gmail, GitHub, Jira, Slack, and 50+ other apps. OneCLI is open source (2.5K+ GitHub stars, 300K+ downloads), Already the default credential layer for products like NanoClaw.",
-      "one_liner": "The Identity Gateway for AI Agents",
+      "long_description": "OneCLI is an open source agent harness for teams. Each employee gets their own sandboxed pro assistant agent, connected to their GitHub, Gmail, Notion, Dropbox, or CRM right from the chat/Slack, while the whole workspace runs under one policy your admins control.\r\n\r\nAgents never hold real secrets: the credential is injected at the network layer, per request, after the call is authorized. You can't steal what isn't there.",
+      "one_liner": "Give every employee a secured, sandboxed pro assistant agent",
       "team_size": 0,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -1377,11 +1380,11 @@
       "subindustry": "B2B -> Security",
       "launched_at": 1783888956,
       "tags": [
-        "Artificial Intelligence",
         "B2B",
         "Security",
         "Open Source",
-        "Infrastructure"
+        "Infrastructure",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -2564,7 +2567,7 @@
       "website": "http://lamb-labs.com",
       "all_locations": "London, England, United Kingdom",
       "long_description": "Lamb Labs is building custom chips for AI inference and the world's fastest LLM model at the lowest power. We've developed a new post-training technique that converts existing models to a diffusion-based architecture that delivers 2× faster inference on existing GPUs. We then build the hardware, custom silicon chips targeting up to 20,000+ tok/s and a 63× higher intelligence per watt.",
-      "one_liner": "World's fastest AI models",
+      "one_liner": "Lightning fast chips with hardcoded AI models",
       "team_size": 0,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -3130,7 +3133,7 @@
       "website": "https://agnost.ai",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Agnost AI reads every conversation a company's AI Agent has with its users to find where it's silently failing and then turns that same data into custom models that run the agent better and cheaper than frontier models.",
-      "one_liner": "We find where your agents fail & train a better model",
+      "one_liner": "Product Analytics for Conversational Agents",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -3139,10 +3142,10 @@
       "subindustry": "B2B -> Analytics",
       "launched_at": 1783481375,
       "tags": [
+        "Artificial Intelligence",
         "Developer Tools",
         "Analytics",
-        "Monitoring",
-        "AI"
+        "Monitoring"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -3786,7 +3789,7 @@
       "website": "https://gopacific.ai/",
       "all_locations": "London, England, United Kingdom",
       "long_description": "We mass-produce modular data centers that deploy on stalled infrastructure projects losing billions per week.\r\n\r\nDelayed infrastructure projects hemorrhage $1B a week in the US alone - Pacific mass-produces modular data centers that deploy on those sites in days and turn their unused power into revenue.\r\n\r\nData centers are stuck for years waiting for power, while delayed construction sites across the world sit on unused interconnects, losing billions of dollars per week in interest on trillions of dollars of debt. Our pods deploy on those sites and generate revenue for them in days. They use diamond wafers in the cooling system so pods run anywhere on earth, even a desert. \r\n\r\nWe'll use the same mechanisms we're building today to deploy compute across the galaxy.\r\n",
-      "one_liner": "Mass-producing and deploying micro data centers for Earth and Space",
+      "one_liner": "Mass-producing and financing micro data center incredibly quickly.",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -4192,7 +4195,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/e17d90c0a32a27bdb75bac6bb8a2ca4e0ad1646d.png",
       "website": "https://vestris.ai/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "",
+      "long_description": "Vestris automates title processing end-to-end, from contract to close, so title shops can close more deals with fewer processors. Title insurance has famously high margins, but slow, manual processing is a constant pain — especially in today's bleeding housing market.",
       "one_liner": "AI native platform for real estate closings",
       "team_size": 2,
       "highlight_black": false,
@@ -4551,7 +4554,7 @@
       "website": "https://www.daqstra.com",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Daqstra is the AI-native orchestration layer for physical R&D. It saves engineers in Aerospace, Energy and Robotics hundreds of man hours managing test infrastructure by connecting fragmented test hardware, bringing live and historical test data into one place, and by giving engineers an API to orchestrate their entire test setup. We enable teams to spend less time rebuilding test infrastructure and more time improving the hardware they test.",
-      "one_liner": "AI-native orchestration for physical R&D testing",
+      "one_liner": "AI-native test infrastructure for hardware companies",
       "team_size": 3,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -4560,8 +4563,8 @@
       "subindustry": "B2B",
       "launched_at": 1784276991,
       "tags": [
-        "Hard Tech",
-        "AI"
+        "Artificial Intelligence",
+        "Hard Tech"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -7524,7 +7527,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/203aaca34875f8d2fd195e6c042414266aefc1ca.png",
       "website": "https://www.insurf.io",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Insurf is the AI-native data and decision layer for health insurance. Our first product, Inveto, automatically turns denied healthcare claims into source-cited, physician-attested appeals, recovering revenue practices lose today. Every claim it resolves builds the coverage-decision graph, the proprietary dataset of real payer behavior that powers our next product, Surely, which prices the true cost of a health plan for employers and brokers.",
+      "long_description": "Insurf is the AI-native data and decision layer for health insurance. Our first product, Inveto, automatically turns denied healthcare claims into source-cited, physician-attested appeals, recovering revenue practices lose today. Every claim it resolves builds the coverage-decision graph, the proprietary dataset of real payer behavior that powers our next product, Surely, that predicts what health plans actually cost, saving individuals, families, and companies thousands per employee.",
       "one_liner": "The AI-Native Decision Infrastructure for Health Insurance",
       "team_size": 2,
       "highlight_black": false,
@@ -7534,11 +7537,11 @@
       "subindustry": "Healthcare",
       "launched_at": 1782286226,
       "tags": [
-        "Artificial Intelligence",
         "Health Tech",
         "Healthcare",
         "Insurance",
-        "Automation"
+        "Automation",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -16768,7 +16771,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/fd03c9be7cf358b8834377c00d3855af56d7f064.png",
       "website": "https://korsoai.com/",
       "all_locations": "Irvine, CA, USA",
-      "long_description": "The AI-native consulting agency to help you ship at startup speeds.",
+      "long_description": "The AI-native engineering team to help you ship at startup speeds.",
       "one_liner": "The AI-native agency",
       "team_size": 3,
       "highlight_black": false,
@@ -20006,8 +20009,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/d5457b412312bd26ecc72ccead99d16248cd087a.png",
       "website": "https://www.archal.ai/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Modern AI agents can send emails, change code repos, and talk with external APIs. Archal verifies your agent takes the right actions, and opens a fix PR when it doesn't.",
-      "one_liner": "The improvement loop for AI agents",
+      "long_description": "Test API integrations without test accounts, rate limits, or dirty state.",
+      "one_liner": "API sandboxes, built for AI agents",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -20016,10 +20019,10 @@
       "subindustry": "B2B -> Infrastructure",
       "launched_at": 1776709029,
       "tags": [
-        "Artificial Intelligence",
         "Developer Tools",
         "API",
-        "Infrastructure"
+        "Infrastructure",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -35180,8 +35183,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/bd88161755dbb4d7513a2dc91e69b26930313524.png",
       "website": "https://os3robotics.com/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Semi-humanoid robots that do real physical labor. Building hardware and training models, each driving the other. Already deploying in hospitality.",
-      "one_liner": "Intelligence and Machines for Physical Labor",
+      "long_description": "We are building robots, including custom actuators and intelligence. Our first model is trained on 150k hours of video data.\r\n\r\nOur first commercial robot, a mobile semi-humanoid priced at $9,995, is already signed for deployments in hospitality and biotech. Our developer version helps startups deploy robots in their own industries, and we already have preorders.\r\n\r\nWe are scaling American robotics while making it accessible to more businesses.",
+      "one_liner": "Full Stack Robotics: US-Built Commercial Robots & Video Action Models",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -35190,10 +35193,10 @@
       "subindustry": "Industrials -> Manufacturing and Robotics",
       "launched_at": 1753297896,
       "tags": [
-        "Artificial Intelligence",
         "Hardware",
         "Robotics",
-        "B2B"
+        "B2B",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -36993,25 +36996,26 @@
     },
     {
       "id": 30681,
-      "name": "Parachute",
-      "slug": "parachute",
+      "name": "Conviction",
+      "slug": "conviction",
       "former_names": [
         "Parachute",
         "Parachute AI",
         "Parachute",
-        "Parachute AI"
+        "Parachute AI",
+        "Parachute"
       ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/ffdb102f014e8ce8401417ee051d9fbec55550e0.png",
-      "website": "https://parachute-ai.com",
-      "all_locations": "New York City, NY, USA",
-      "long_description": "",
-      "one_liner": "",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/3d77bd0a212f97907bcda7fd8ba18232fbfdb55b.png",
+      "website": "https://convictiontrade.ai",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "Conviction lets you create and discover trading ideas, then monitors the market and acts on them for you.\r\n\r\nStart with any idea you have - or discover one from traders you follow on X or Reddit - and turn it into a strategy in natural language. Backtest it, paper trade it, deploy it and share what you learn.",
+      "one_liner": "Anyone Can Trade",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
-      "industry": "Healthcare",
-      "subindustry": "Healthcare -> Healthcare IT",
+      "industry": "Fintech",
+      "subindustry": "Fintech -> Consumer Finance",
       "launched_at": 1752533752,
       "tags": [],
       "tags_highlighted": [],
@@ -37021,8 +37025,8 @@
       "batch": "Summer 2025",
       "status": "Active",
       "industries": [
-        "Healthcare",
-        "Healthcare IT"
+        "Fintech",
+        "Consumer Finance"
       ],
       "regions": [
         "United States of America",
@@ -37033,7 +37037,7 @@
       "demo_day_video_public": false,
       "app_answers": null,
       "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/parachute"
+      "url": "https://www.ycombinator.com/companies/conviction"
     },
     {
       "id": 30680,
@@ -43935,7 +43939,7 @@
       "tags": [],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": true,
+      "isHiring": false,
       "nonprofit": false,
       "batch": "Spring 2025",
       "status": "Active",
@@ -47078,55 +47082,6 @@
       "app_answers": null,
       "question_answers": false,
       "url": "https://www.ycombinator.com/companies/trainloop"
-    },
-    {
-      "id": 30349,
-      "name": "Tally",
-      "slug": "tallyhq",
-      "former_names": [
-        "Trestle",
-        "Tally",
-        "Merit",
-        "Tally",
-        "Candid",
-        "Argos",
-        "Tally",
-        "Hudson",
-        "Tally",
-        "Hudson"
-      ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/95f191208289dd979eacb9e65505248ad70ba4f8.png",
-      "website": "https://www.tallyhq.com",
-      "all_locations": "San Francisco, CA, USA",
-      "long_description": "",
-      "one_liner": "",
-      "team_size": 1,
-      "highlight_black": false,
-      "highlight_latinx": false,
-      "highlight_women": false,
-      "industry": "Fintech",
-      "subindustry": "Fintech",
-      "launched_at": 1739308183,
-      "tags": [],
-      "tags_highlighted": [],
-      "top_company": false,
-      "isHiring": false,
-      "nonprofit": false,
-      "batch": "Winter 2025",
-      "status": "Active",
-      "industries": [
-        "Fintech"
-      ],
-      "regions": [
-        "United States of America",
-        "America / Canada"
-      ],
-      "stage": "Early",
-      "app_video_public": false,
-      "demo_day_video_public": false,
-      "app_answers": null,
-      "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/tallyhq"
     },
     {
       "id": 30348,
@@ -62418,9 +62373,9 @@
       ],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/133daa5976316fea8822213f5f71c6bc57c7cc88.png",
       "website": "https://praxos.ai",
-      "all_locations": "São Paulo, SP, Brazil; Remote",
-      "long_description": "Messaging workspace for people and AI agents.",
-      "one_liner": "Messaging workspace for people and AI agents",
+      "all_locations": "São Paulo, SP, Brazil",
+      "long_description": "Praxos is team messaging where customer conversations, product decisions and agent conversations stay in context.",
+      "one_liner": "Team messaging with built-in memory",
       "team_size": 3,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -62447,7 +62402,7 @@
         "Brazil",
         "Latin America",
         "Remote",
-        "Fully Remote"
+        "Partly Remote"
       ],
       "stage": "Early",
       "app_video_public": false,
@@ -68877,7 +68832,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": true,
+      "isHiring": false,
       "nonprofit": false,
       "batch": "Summer 2024",
       "status": "Active",
@@ -73971,7 +73926,7 @@
       "all_locations": "San Francisco, CA, USA",
       "long_description": "EdgeTrace unifies your entire camera network into a single, powerful intelligence platform–helping public safety teams detect threats faster, respond in real time, and protect the community.",
       "one_liner": "Describe It. Find It. Act On It.",
-      "team_size": 4,
+      "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -73979,11 +73934,11 @@
       "subindustry": "B2B",
       "launched_at": 1710460608,
       "tags": [
+        "Artificial Intelligence",
         "GovTech",
         "Computer Vision",
         "B2B",
-        "Video",
-        "AI"
+        "Video"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -175589,9 +175544,11 @@
       "subindustry": "Healthcare -> Drug Discovery and Delivery",
       "launched_at": 1759774411,
       "tags": [
-        "AI-powered Drug Discovery",
-        "Artificial Intelligence",
-        "CRISPR"
+        "CRISPR",
+        "Biotech",
+        "Therapeutics",
+        "Drug discovery",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -186410,7 +186367,7 @@
         "Remote",
         "Partly Remote"
       ],
-      "stage": "Growth",
+      "stage": "Early",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -192606,7 +192563,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": true,
+      "isHiring": false,
       "nonprofit": false,
       "batch": "Summer 2019",
       "status": "Active",
@@ -194135,7 +194092,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": false,
+      "isHiring": true,
       "nonprofit": false,
       "batch": "Summer 2019",
       "status": "Active",

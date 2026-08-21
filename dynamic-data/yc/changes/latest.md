@@ -1,101 +1,110 @@
-# YC Company Changes for 2026-08-20
+# YC Company Changes for 2026-08-21
 
-- Previous total: 6187
-- Current total: 6188
-- Added: 1
-- Removed: 0
-- Updated: 17
+- Previous total: 6188
+- Current total: 6187
+- Added: 0
+- Removed: 1
+- Updated: 18
 
 
-## Added Companies
+## Removed Companies
 
-- [Antropi Robotics](https://www.ycombinator.com/companies/antropi-robotics) (Fall 2026) — Autonomous CNC factories for faster hardware
+- Tally (Winter 2025)
 
 ## Updated Companies
 
-### [Kalshi](https://www.ycombinator.com/companies/kalshi)
+### [Vouch](https://www.ycombinator.com/companies/vouch)
 
-- `stage`: Growth → Early
+- `isHiring`: false → true
 
-### [Jestor](https://www.ycombinator.com/companies/jestor)
-
-- `one_liner`: Jestor builds AI-powered internal systems for your operation. → Saving OPS from SLOPS. Jestor builds internal systems that last.
-- `tags`: Artificial Intelligence,B2B,Productivity,Operations → B2B,Productivity,Operations,AI
-
-### [RGI Labs](https://www.ycombinator.com/companies/rgi-labs)
-
-- `name`: VitalStrata → RGI Labs
-- `slug`: vitalstrata → rgi-labs
-- `former_names`: Superpass,PlusIdentity,Vansec,Aldermate → Superpass,PlusIdentity,Vansec,Aldermate,VitalStrata,Robust General Intelligence
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/dd0109481d906e6297d06b8dd77f7ea4ff307796.png → https://bookface-images.s3.amazonaws.com/small_logos/470c089d5fdf6f7b0bfaf2a2daa45b2ad5a4af33.png
-- `website`: https://www.vitalstrata.com → https://www.rgilabs.com
-- `one_liner`: AI for risk adjustment integrity  → Robust & recursively self-improving general intelligence
-- `industry`: Healthcare → B2B
-- `subindustry`: Healthcare -> Healthcare IT → B2B -> Engineering, Product and Design
-- `tags`: Health Tech,Healthcare,Health Insurance,Healthcare IT → Artificial Intelligence,AI
-- `industries`: Healthcare,Healthcare IT → B2B,Engineering, Product and Design
-
-### [WhiteLab Genomics](https://www.ycombinator.com/companies/whitelab-genomics)
-
-- `stage`: Growth → Early
-
-### [Airhart Aeronautics](https://www.ycombinator.com/companies/airhart-aeronautics)
-
-- `team_size`: 6 → 9
-
-### [YouShift](https://www.ycombinator.com/companies/youshift)
+### [Zeal](https://www.ycombinator.com/companies/zeal)
 
 - `isHiring`: true → false
 
-### [Char](https://www.ycombinator.com/companies/char)
+### [Karat Financial](https://www.ycombinator.com/companies/karat-financial)
 
-- `team_size`: 4 → 3
-- `tags`: SaaS,Productivity,Open Source,AI,AI Assistant → Artificial Intelligence,SaaS,Productivity,Open Source,AI Assistant
+- `stage`: Growth → Early
 
-### [Patent Watch](https://www.ycombinator.com/companies/patent-watch)
+### [Algen Biotechnologies](https://www.ycombinator.com/companies/algen-biotechnologies)
 
-- `all_locations`: Bucharest, Romania → San Francisco, CA, USA
-- `team_size`: 4 → 6
-- `regions`: Romania,Europe → United States of America,America / Canada
+- `tags`: AI-powered Drug Discovery,Artificial Intelligence,CRISPR → CRISPR,Biotech,Therapeutics,Drug discovery,AI
 
-### [TrustAI](https://www.ycombinator.com/companies/trustai)
+### [EdgeTrace](https://www.ycombinator.com/companies/edgetrace)
 
-- `one_liner`: Continuous compliance and governance for agents on sensitive systems → The cheapest, fastest lightweight inference. 
-- `team_size`: 3 → 4
-- `subindustry`: B2B -> Security → B2B -> Infrastructure
-- `tags`: B2B,Compliance,Security,AI → Artificial Intelligence,Smart Packaging,Open Source,Infrastructure
-- `industries`: B2B,Security → B2B,Infrastructure
+- `team_size`: 4 → 2
+- `tags`: GovTech,Computer Vision,B2B,Video,AI → Artificial Intelligence,GovTech,Computer Vision,B2B,Video
 
-### [Marker](https://www.ycombinator.com/companies/marker)
+### [Superunit](https://www.ycombinator.com/companies/superunit)
 
-- `one_liner`: AI-native consultancy rebuilding businesses with agents → Platform and FDEs for rebuilding businesses agent-first
+- `isHiring`: true → false
 
-### [Torus](https://www.ycombinator.com/companies/torus)
+### [Praxos](https://www.ycombinator.com/companies/praxos)
 
-- `team_size`: 5 → 6
+- `all_locations`: São Paulo, SP, Brazil; Remote → São Paulo, SP, Brazil
+- `one_liner`: Messaging workspace for people and AI agents → Team messaging with built-in memory
+- `regions`: Brazil,Latin America,Remote,Fully Remote → Brazil,Latin America,Remote,Partly Remote
 
-### [Nebula Security](https://www.ycombinator.com/companies/nebula-security)
+### [Combinely](https://www.ycombinator.com/companies/combinely)
 
-- `all_locations`: Vancouver, WA, USA; Remote → San Francisco, CA, USA; Remote
-- `tags`: Artificial Intelligence,B2B,Security,Cybersecurity,Enterprise → B2B,Security,Cybersecurity,Enterprise,AI
+- `isHiring`: true → false
 
-### [Synapse Semiconductor](https://www.ycombinator.com/companies/synapse-semiconductor)
+### [Conviction](https://www.ycombinator.com/companies/conviction)
 
-- `one_liner`: frontier semiconductor research lab reimagining physical AI → New semiconductors that merge compute and vision
-- `tags`: Edge Computing Semiconductors,Hard Tech,Robotics,Defense,AI → Artificial Intelligence,Edge Computing Semiconductors,Hard Tech,Robotics,Defense
+- `name`: Parachute → Conviction
+- `slug`: parachute → conviction
+- `former_names`: Parachute,Parachute AI,Parachute,Parachute AI → Parachute,Parachute AI,Parachute,Parachute AI,Parachute
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/ffdb102f014e8ce8401417ee051d9fbec55550e0.png → https://bookface-images.s3.amazonaws.com/small_logos/3d77bd0a212f97907bcda7fd8ba18232fbfdb55b.png
+- `website`: https://parachute-ai.com → https://convictiontrade.ai
+- `all_locations`: New York City, NY, USA → San Francisco, CA, USA
+- `one_liner`:  → Anyone Can Trade
+- `industry`: Healthcare → Fintech
+- `subindustry`: Healthcare -> Healthcare IT → Fintech -> Consumer Finance
+- `industries`: Healthcare,Healthcare IT → Fintech,Consumer Finance
 
-### [screenpipe](https://www.ycombinator.com/companies/screenpipe)
+### [OS3](https://www.ycombinator.com/companies/os3)
 
-- `tags`: Artificial Intelligence,SaaS,B2B,Enterprise,Enterprise Software → SaaS,B2B,Enterprise,Enterprise Software,AI
+- `one_liner`: Intelligence and Machines for Physical Labor → Full Stack Robotics: US-Built Commercial Robots & Video Action Models
+- `tags`: Artificial Intelligence,Hardware,Robotics,B2B → Hardware,Robotics,B2B,AI
 
-### [Qlo](https://www.ycombinator.com/companies/qlo)
+### [Archal](https://www.ycombinator.com/companies/archal)
 
-- `tags`: SaaS,Insurance,Enterprise → Insurance,Enterprise Software,AI
+- `one_liner`: The improvement loop for AI agents → API sandboxes, built for AI agents
+- `tags`: Artificial Intelligence,Developer Tools,API,Infrastructure → Developer Tools,API,Infrastructure,AI
 
-### [Denta](https://www.ycombinator.com/companies/denta)
+### [Insurf](https://www.ycombinator.com/companies/insurf)
 
-- `tags`: Health Insurance → Artificial Intelligence,Fintech,Healthcare,Health Insurance
+- `tags`: Artificial Intelligence,Health Tech,Healthcare,Insurance,Automation → Health Tech,Healthcare,Insurance,Automation,AI
 
-### [Allia Health](https://www.ycombinator.com/companies/allia-health)
+### [Daqstra](https://www.ycombinator.com/companies/daqstra)
 
-- `tags`: Healthcare,Mental Health,AI → Artificial Intelligence,Healthcare,Mental Health
+- `one_liner`: AI-native orchestration for physical R&D testing → AI-native test infrastructure for hardware companies
+- `tags`: Hard Tech,AI → Artificial Intelligence,Hard Tech
+
+### [Pacific](https://www.ycombinator.com/companies/pacific)
+
+- `one_liner`: Mass-producing and deploying micro data centers for Earth and Space → Mass-producing and financing micro data center incredibly quickly.
+
+### [Agnost AI](https://www.ycombinator.com/companies/agnost-ai)
+
+- `one_liner`: We find where your agents fail & train a better model → Product Analytics for Conversational Agents
+- `tags`: Developer Tools,Analytics,Monitoring,AI → Artificial Intelligence,Developer Tools,Analytics,Monitoring
+
+### [Lamb Labs](https://www.ycombinator.com/companies/lamb-labs)
+
+- `one_liner`: World's fastest AI models → Lightning fast chips with hardcoded AI models
+
+### [OneCLI](https://www.ycombinator.com/companies/onecli)
+
+- `one_liner`: The Identity Gateway for AI Agents → Give every employee a secured, sandboxed pro assistant agent
+- `tags`: Artificial Intelligence,B2B,Security,Open Source,Infrastructure → B2B,Security,Open Source,Infrastructure,AI
+
+### [CoArena](https://www.ycombinator.com/companies/coarena)
+
+- `name`: Coasty → CoArena
+- `slug`: coasty → coarena
+- `former_names`:  → Coasty
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/49c533e34b6c887207ac5683dd8dfab22709a458.png → https://bookface-images.s3.amazonaws.com/small_logos/1543623e6506eaf893b1c43e614688a6b2a32bda.png
+- `website`: http://coasty.ai/ → http://coarena.ai
+- `subindustry`: B2B → B2B -> Engineering, Product and Design
+- `tags`: AIOps,Developer Tools,Reinforcement Learning,Workflow Automation,Data Labeling → AIOps,Artificial Intelligence,Machine Learning,Reinforcement Learning,Data Labeling
+- `industries`: B2B → B2B,Engineering, Product and Design
