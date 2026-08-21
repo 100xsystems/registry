@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-08-12T07:40:15.009Z",
+  "updatedAt": "2026-08-21T12:44:31.097Z",
   "items": [
     {
       "guid": "https://engineering.grab.com/how-grab-builds-and-runs-ai-agents-at-scale",
@@ -95,7 +95,15 @@
       "summary": "Introduction\nWhat worried us wasn’t the hallucination, it was the subtle plausibility. Answers an engineer could easily read past and accept: a right-looking Structured Query Language (SQL) query, a plausible tool call, an innocent profile update, or a patch that satisfied the surface tests.\nWhen…",
       "author": null,
       "publishedAt": "2026-08-12T00:00:00.000Z"
+    },
+    {
+      "guid": "https://engineering.grab.com/jarvis-pro-route-firsr-answer-later",
+      "title": "Building Jarvis Pro: Route first, answer later",
+      "link": "https://engineering.grab.com/jarvis-pro-route-firsr-answer-later",
+      "summary": "Introduction\nThe first Jarvis Pro prototype could produce answers that sounded right.\nThat was the problem.\nOne early answer looked polished: it named the merchant, summarized the week, and recommended pushing promotions before the next review. It was also wrong. The merchant’s order volume was…",
+      "author": null,
+      "publishedAt": "2026-08-21T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 11
+  "totalIndexed": 12
 }

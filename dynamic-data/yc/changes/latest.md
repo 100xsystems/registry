@@ -4,48 +4,49 @@
 - Current total: 6187
 - Added: 0
 - Removed: 0
-- Updated: 8
+- Updated: 10
 
 
 ## Updated Companies
 
+### [Kalshi](https://www.ycombinator.com/companies/kalshi)
+
+- `stage`: Early → Growth
+
+### [Karat Financial](https://www.ycombinator.com/companies/karat-financial)
+
+- `stage`: Early → Growth
+
 ### [Sieve](https://www.ycombinator.com/companies/sieve)
 
-- `one_liner`: Video datasets for frontier AI → The multimodal data lab
-- `team_size`: 18 → 34
-- `stage`: Growth → Early
+- `stage`: Early → Growth
+
+### [WhiteLab Genomics](https://www.ycombinator.com/companies/whitelab-genomics)
+
+- `stage`: Early → Growth
+
+### [Probo](https://www.ycombinator.com/companies/probo)
+
+- `website`: https://www.probo.com/ → https://www.probo.com?utm_source=yc-bookface
 
 ### [Redapto](https://www.ycombinator.com/companies/redapto)
 
-- `one_liner`: Enterprise AI Transformation Platform → Intelligence that moves the world
-- `tags`: Artificial Intelligence,B2B → B2B,AI
+- `team_size`: 2 → 7
 
-### [Datoric](https://www.ycombinator.com/companies/datoric)
+### [Arga Labs](https://www.ycombinator.com/companies/arga-labs)
 
-- `one_liner`: Security-first training data → Security-first training data your next model needs
-- `tags`: Artificial Intelligence,Data Labeling,ML → Data Labeling,AI,ML
+- `one_liner`: Real-world sandboxes to test agents and agent-facing software → Real-world sandboxes to test and train AI agents
 
-### [Qlo](https://www.ycombinator.com/companies/qlo)
+### [Expanse](https://www.ycombinator.com/companies/expanse)
 
-- `tags`: Insurance,Enterprise Software,AI → Artificial Intelligence,Insurance,Enterprise Software
-
-### [Neuromorphic](https://www.ycombinator.com/companies/neuromorphic)
-
-- `one_liner`: Building embodiment agnostic robot brains. → Building robots to automate wetlabs
-
-### [Familiar](https://www.ycombinator.com/companies/familiar)
-
-- `all_locations`: San Francisco, CA, USA → Toronto, ON, Canada
-- `one_liner`: World Models for Accurate Humans. → World Models for Accurate Humans. Real-Time Dubbing First.
-- `subindustry`: B2B → B2B -> Infrastructure
-- `tags`: Education,B2B,Entertainment,Marketing,AI → Artificial Intelligence,Generative AI,B2B,Entertainment
-- `industries`: B2B → B2B,Infrastructure
-- `regions`: United States of America,America / Canada → Canada,America / Canada
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/26ca5cac6157441dd12d0352f7d3fd4a77c4c39a.png → https://bookface-images.s3.amazonaws.com/small_logos/af6cfe1f95da6fb2bfc1789fb605ed70b77da3b4.png
 
 ### [Levocred AI](https://www.ycombinator.com/companies/levocred-ai)
 
-- `one_liner`: The AI analysts for lenders → The AI analyst for lenders
+- `tags`: Lending,Investments → Enterprise Software
 
-### [Hubble](https://www.ycombinator.com/companies/hubble-ai)
+### [Skymerse](https://www.ycombinator.com/companies/skymerse)
 
-- `one_liner`: The intelligence layer for patient information → Retrieve records other APIs can't
+- `all_locations`: Warsaw, Masovian Voivodeship, Poland → San Francisco, CA, USA
+- `tags`: Airlines,Aerospace,AI → Artificial Intelligence,Airlines,Aerospace
+- `regions`: Poland,Europe → United States of America,America / Canada
