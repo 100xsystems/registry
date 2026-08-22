@@ -1,67 +1,118 @@
-# YC Company Changes for 2026-08-21
+# YC Company Changes for 2026-08-22
 
-- Previous total: 6187
-- Current total: 6188
+- Previous total: 6188
+- Current total: 6189
 - Added: 1
 - Removed: 0
-- Updated: 12
+- Updated: 22
 
 
 ## Added Companies
 
-- [Covera](https://www.ycombinator.com/companies/covera) (Fall 2026) — AI-native OS for insurance brokers
+- [Edgerun](https://www.ycombinator.com/companies/edgerun) (Summer 2026) — Military exoskeletons
 
 ## Updated Companies
 
-### [Stoke Space](https://www.ycombinator.com/companies/stoke-space)
+### [Flowspace](https://www.ycombinator.com/companies/flowspace)
 
+- `website`: http://www.flow.space → https://flow.space
+
+### [Adni](https://www.ycombinator.com/companies/adni)
+
+- `one_liner`: The AI healthcare recruiting platform → AI healthcare recruiting platform
+
+### [Ranla](https://www.ycombinator.com/companies/ranla)
+
+- `name`: SuperSend → Ranla
+- `slug`: supersend → ranla
+- `former_names`: EXO Freight,Super Send → EXO Freight,Super Send,SuperSend
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/30af84e0971fab8e280e8b2aa9d648d3cb85997b.png → https://bookface-images.s3.amazonaws.com/small_logos/e77030a95d7d1d6848dce062a119a876a2676952.png
+- `website`: https://supersend.io/ → https://ranla.ai/
+- `one_liner`: Super Send automates personalized outreach across email, LinkedIn,… → The AI growth marketer that turns SaaS signups into revenue
+- `team_size`: 8 → 3
 - `stage`: Growth → Early
 
-### [Authologic](https://www.ycombinator.com/companies/authologic)
+### [Invofox](https://www.ycombinator.com/companies/invofox)
 
-- `team_size`: 33 → 44
+- `website`: https://invofox.com → https://invofox.com?utm_source=yc
+- `one_liner`: INVOFOX is the document processing AI for software companies → Invofox is the document parsing and data extraction API for software…
 
-### [Onebrief](https://www.ycombinator.com/companies/onebrief)
+### [Dream3D](https://www.ycombinator.com/companies/dream3d)
 
-- `stage`: Growth → Early
+- `one_liner`: Generative AI Worlds → We build tools to help humanity predict the future.
+- `tags`: Generative AI,Computer Vision,AI → Artificial Intelligence,Generative AI,Computer Vision
 
-### [GloGlo](https://www.ycombinator.com/companies/gloglo)
+### [TamLabs](https://www.ycombinator.com/companies/tamlabs)
 
-- `tags`: Consumer Health Services,Consumer,E-commerce,AI,AI Assistant → Artificial Intelligence,Consumer Health Services,Consumer,E-commerce,AI Assistant
+- `one_liner`: Agent Teams for Professionals → Agent teams for complex work
 
-### [Mendral](https://www.ycombinator.com/companies/mendral)
+### [QFEX](https://www.ycombinator.com/companies/qfex)
 
-- `status`: Active → Inactive
+- `team_size`: 10 → 14
 
-### [Archal](https://www.ycombinator.com/companies/archal)
+### [Janet AI](https://www.ycombinator.com/companies/tryjanet)
 
-- `tags`: Developer Tools,API,Infrastructure,AI → Artificial Intelligence,Developer Tools,API,Infrastructure
+- `one_liner`: Agents that handle work 24/7 across the tools you already use → Agents that learn your company and work 24/7
 
-### [Libra Robotics](https://www.ycombinator.com/companies/libra-robotics)
+### [Embedder](https://www.ycombinator.com/companies/embedder)
 
-- `one_liner`: Robot squads for solar farm construction → Robotic crews for large-scale infrastructure construction
-- `tags`: Artificial Intelligence,Hard Tech,Robotics,Construction,Energy → Hard Tech,Robotics,Construction,Energy,AI
+- `isHiring`: true → false
 
-### [Audun](https://www.ycombinator.com/companies/audun)
+### [Atlia](https://www.ycombinator.com/companies/atlia)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/d28813053904611d6b5fc0391c683bdbe842a4ad.png → https://bookface-images.s3.amazonaws.com/small_logos/e7da249d05c3b78e6493d6546cc70a78c450280f.png
-- `website`: https://www.getaudun.com/ → https://audun.co
-- `team_size`: 4 → 5
+- `one_liner`: The first AI-native property management company → The AI-native property management company
+- `tags`: Real Estate,Big Data,AI → Artificial Intelligence,Real Estate,Big Data
 
-### [Daqstra](https://www.ycombinator.com/companies/daqstra)
+### [Litmus](https://www.ycombinator.com/companies/litmus-hiring)
 
-- `one_liner`: AI-native test infrastructure for hardware companies → AI-native test infrastructure to accelerate hardware companies.
-- `tags`: Artificial Intelligence,Hard Tech → Hard Tech,AI
+- `one_liner`: Run an async work trial on every engineer you interview. → Evals for humans
+- `subindustry`: B2B -> Recruiting and Talent → B2B
+- `tags`: Recruiting,Talent Acquisition → Recruiting,Data Engineering,AI
+- `industries`: B2B,Recruiting and Talent → B2B
 
-### [Vestris](https://www.ycombinator.com/companies/vestris)
+### [Alchemize](https://www.ycombinator.com/companies/alchemize)
 
-- `isHiring`: false → true
+- `one_liner`: Code Review Platform that Simplifies PRs to Ship Faster → Ship more code with confidence
 
-### [Pacific](https://www.ycombinator.com/companies/pacific)
+### [Kebra](https://www.ycombinator.com/companies/kebra)
 
-- `team_size`: 2 → 3
-- `tags`: Artificial Intelligence,Fintech,Robotics,Space Exploration,Manufacturing → Fintech,Robotics,Space Exploration,Manufacturing,AI
+- `one_liner`: Making the field queryable. → Making the field queryable
+- `tags`: B2B,Home Services,Operations,AI → Artificial Intelligence,B2B,Home Services,Operations
 
-### [Conifer](https://www.ycombinator.com/companies/conifer)
+### [Rex](https://www.ycombinator.com/companies/rex-inc)
 
-- `tags`: Artificial Intelligence,B2B,Security → B2B,Security,AI
+- `tags`: B2B,Enterprise,Enterprise Software,AI → Artificial Intelligence,B2B,Enterprise,Enterprise Software
+
+### [Jcode](https://www.ycombinator.com/companies/jcode)
+
+- `one_liner`: 20x more coding agents, 20x more productivity → The harness company
+- `tags`: Artificial Intelligence,Developer Tools → Developer Tools,AI
+
+### [Insurf](https://www.ycombinator.com/companies/insurf)
+
+- `tags`: Health Tech,Healthcare,Insurance,Automation,AI → Artificial Intelligence,Health Tech,Healthcare,Insurance,Automation
+
+### [Floracene](https://www.ycombinator.com/companies/floracene)
+
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/c309f42cb161ba287e4c1f2d4a89dc2a2ab1e03b.png → https://bookface-images.s3.amazonaws.com/small_logos/4083ec47b697a352249164c76574e273a5fa75d7.png
+
+### [Mosaic](https://www.ycombinator.com/companies/mosaic-inc)
+
+- `tags`: Service Mesh,AI → Artificial Intelligence
+
+### [Marengo](https://www.ycombinator.com/companies/marengo)
+
+- `one_liner`: Automating engineering design, starting with data centers. → AI-Native Engineering Firm designing Data Centers 
+- `tags`: Artificial Intelligence,Design,Energy,Architecture → Design,Energy,Architecture,AI
+
+### [Radley](https://www.ycombinator.com/companies/radley)
+
+- `one_liner`: AI-native, full-stack radiology practice → The first AI-native radiology practice
+
+### [Caution](https://www.ycombinator.com/companies/caution)
+
+- `one_liner`: Hosting platform for software you don't want to get hacked → Hosting platform for software you don't want to have hacked
+
+### [CoArena](https://www.ycombinator.com/companies/coarena)
+
+- `one_liner`: Real World Evals and RL Environments for Computer-Use → The biggest crowdsourced benchmark for Computer-Use

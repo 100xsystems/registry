@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-08-21T18:25:09.884Z",
+  "updatedAt": "2026-08-22T01:11:52.758Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -1041,7 +1041,23 @@
       "summary": "The load finished without complaint, with row counts matching the fixture file and every foreign key resolving, but then the application inserts a row of its own, and Postgres refuses it:\nERROR:  duplicate key value violates unique constraint \"users_pkey\"\nDETAIL:  Key (id)=(1) already exists.…",
       "author": null,
       "publishedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9sY",
+      "title": "Christophe Pettus: All Your GUCs in a Row: local_preload_libraries",
+      "link": "https://postgr.es/p/9sY",
+      "summary": "Load shared libraries per-session from a single curated directory, no superuser needed.",
+      "author": null,
+      "publishedAt": "2026-08-22T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9sX",
+      "title": "Shaun Thomas: The Time Traveler's Primary Key",
+      "link": "https://postgr.es/p/9sX",
+      "summary": "Every table needs a way to tell its rows apart, and auto-incrementing surrogate keys have been the go-to solution since practically the dawn of time. They're simple. They're fast. And perhaps most importantly, they're correct. But distributed systems demand unique values cluster-wide, preferably…",
+      "author": null,
+      "publishedAt": "2026-08-21T19:03:49.000Z"
     }
   ],
-  "totalIndexed": 129
+  "totalIndexed": 131
 }
