@@ -4,28 +4,35 @@
 - Current total: 6189
 - Added: 0
 - Removed: 0
-- Updated: 5
+- Updated: 7
 
 
 ## Updated Companies
 
-### [Laminar](https://www.ycombinator.com/companies/laminar-com)
+### [Stoke Space](https://www.ycombinator.com/companies/stoke-space)
 
-- `tags`: Artificial Intelligence,Developer Tools,B2B,Enterprise Software → B2B,Enterprise Software,AI
+- `stage`: Early → Growth
 
-### [OS3](https://www.ycombinator.com/companies/os3)
+### [Onebrief](https://www.ycombinator.com/companies/onebrief)
 
-- `one_liner`: Full Stack Robotics: US-Built Commercial Robots & Video Action Models → Full Stack Robotics: Deploying US-Built Robots & Video Action Models
-- `tags`: Hardware,Robotics,B2B,AI → Artificial Intelligence,Hardware,Robotics,B2B
+- `stage`: Early → Growth
 
-### [Control Seat](https://www.ycombinator.com/companies/control-seat)
+### [Ranla](https://www.ycombinator.com/companies/ranla)
 
-- `one_liner`: Control and Monitoring of Industrial Operations → Predictive maintenance on your plant data and sensors.
+- `stage`: Early → Growth
 
-### [Rise Reforming](https://www.ycombinator.com/companies/rise-reforming)
-
-- `isHiring`: true → false
-
-### [Aktoria Robotics](https://www.ycombinator.com/companies/aktoria-robotics)
+### [Elyra](https://www.ycombinator.com/companies/elyra)
 
 - `isHiring`: false → true
+
+### [Manicule](https://www.ycombinator.com/companies/manicule)
+
+- `isHiring`: false → true
+
+### [Edgerun](https://www.ycombinator.com/companies/edgerun)
+
+- `app_video_public`: false → true
+
+### [Petrarch](https://www.ycombinator.com/companies/petrarch)
+
+- `one_liner`: Unlocking enterprise data for tomorrow's economy → Internal industrial company data for frontier labs
