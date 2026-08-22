@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-08-15T18:17:42.291Z",
+  "updatedAt": "2026-08-22T18:18:14.313Z",
   "items": [
     {
       "guid": "eli-bendersky::https://eli.thegreenplace.net/2026/notes-on-the-fourier-transform/",
@@ -63,7 +63,15 @@
       "summary": "This is part 7 in a series of posts on writing concurrent network servers.\nIn this part, we discuss how the challenges described in earlier parts are\ntackled in the Rust programming language.\nAll posts in the series:\nPart 1 - Introduction\nPart 2 - Threads\nPart 3 - Event-driven\nPart 4 - libuv\nPart 5…",
       "author": "Eli Bendersky",
       "publishedAt": "2026-08-15T16:41:00.000Z"
+    },
+    {
+      "guid": "eli-bendersky::https://eli.thegreenplace.net/2026/concurrent-servers-part-8-go/",
+      "title": "Concurrent Servers: Part 8 - Go",
+      "link": "https://eli.thegreenplace.net/2026/concurrent-servers-part-8-go/",
+      "summary": "This is part 8 in a series of posts on writing concurrent network servers. In\nthis part, we'll switch to Go and see how it tackles the challenges described\nearlier in the series.\nAll posts in the series:\nPart 1 - Introduction\nPart 2 - Threads\nPart 3 - Event-driven\nPart 4 - libuv\nPart 5 - Redis case…",
+      "author": "Eli Bendersky",
+      "publishedAt": "2026-08-22T14:52:00.000Z"
     }
   ],
-  "totalIndexed": 7
+  "totalIndexed": 8
 }
