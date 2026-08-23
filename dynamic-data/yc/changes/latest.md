@@ -4,78 +4,48 @@
 - Current total: 6190
 - Added: 0
 - Removed: 0
-- Updated: 15
+- Updated: 9
 
 
 ## Updated Companies
 
-### [Culdesac](https://www.ycombinator.com/companies/culdesac)
+### [Apten](https://www.ycombinator.com/companies/apten)
 
-- `isHiring`: false → true
+- `team_size`: 4 → 6
 
-### [Keeper](https://www.ycombinator.com/companies/keeper-2)
-
-- `team_size`: 21 → 16
-
-### [Letterdrop](https://www.ycombinator.com/companies/letterdrop)
-
-- `all_locations`: New York City, NY, USA → San Francisco, CA, USA
-- `one_liner`: Book more meetings with conversational intent → Get into the competitive deals you can't see
-- `isHiring`: false → true
-
-### [Mintlify](https://www.ycombinator.com/companies/mintlify)
-
-- `team_size`: 55 → 75
-- `stage`: Growth → Early
-
-### [CODEXA](https://www.ycombinator.com/companies/codexa)
-
-- `team_size`: 0 → 40
-- `tags`: Artificial Intelligence,Fintech,Crypto / Web3,Payments,Supply Chain → Fintech,Crypto / Web3,Payments,Supply Chain,AI
-
-### [Planbase](https://www.ycombinator.com/companies/planbase)
+### [Educato](https://www.ycombinator.com/companies/educato)
 
 - `isHiring`: true → false
 
-### [Conductor](https://www.ycombinator.com/companies/conductor)
+### [Autostep](https://www.ycombinator.com/companies/autostep)
 
-- `team_size`: 6 → 8
-- `tags`: Developer Tools,AI → Artificial Intelligence,Developer Tools
-- `stage`: Growth → Early
+- `isHiring`: false → true
 
-### [Skillsync](https://www.ycombinator.com/companies/skillsync)
+### [Char](https://www.ycombinator.com/companies/char)
 
-- `one_liner`: Teleport your context across agents → Move context across agents and teammates
+- `team_size`: 3 → 2
+- `tags`: Artificial Intelligence,SaaS,Productivity,Open Source,AI Assistant → SaaS,Productivity,Open Source,AI,AI Assistant
 
-### [Datoric](https://www.ycombinator.com/companies/datoric)
+### [Replicas](https://www.ycombinator.com/companies/replicas)
 
-- `one_liner`: Security-first training data your next model needs → Secure training data shaped by experimentation
-- `tags`: Data Labeling,AI,ML → Artificial Intelligence,Data Labeling,ML
+- `website`: https://tryreplicas.com → https://replicas.dev
 
-### [Cova](https://www.ycombinator.com/companies/cova)
+### [Egoist Machines](https://www.ycombinator.com/companies/egoist-machines)
 
-- `one_liner`: AI-Native Home Care Agency → Financial infrastructure for family caregiving
-- `tags`: Artificial Intelligence,Consumer Health Services,Healthcare → Consumer Health Services,Healthcare,AI
+- `one_liner`: User-owned memory and preferences that work across every AI app → Secure, user-owned context for every AI app
 
-### [Manifold](https://www.ycombinator.com/companies/manifold-2)
+### [Whitespace](https://www.ycombinator.com/companies/whitespace)
 
-- `one_liner`: Low-cost, deployment-ready robotic labor for warehouses → Deployment-ready robotic labor for the supply chain industry 
-
-### [Ooak Data](https://www.ycombinator.com/companies/ooak-data)
-
-- `one_liner`: We turn company data into RL environnements. → We turn company data into training data
-- `tags`: Reinforcement Learning,AI → Artificial Intelligence,Reinforcement Learning
+- `all_locations`: London, England, United Kingdom → San Francisco, CA, USA
+- `tags`: Artificial Intelligence,SaaS,B2B,Supply Chain → SaaS,B2B,Supply Chain,AI
+- `regions`: United Kingdom,Europe → United States of America,America / Canada
 
 ### [Familiar](https://www.ycombinator.com/companies/familiar)
 
-- `tags`: Artificial Intelligence,Generative AI,B2B,Entertainment → Generative AI,B2B,Entertainment,AI
+- `one_liner`: World Models for Accurate Humans. Real-Time Dubbing First. → Dubbing is finally good. Audio-Visual Translation.
 
-### [Experiential Labs](https://www.ycombinator.com/companies/experiential-labs)
+### [HyperProbe](https://www.ycombinator.com/companies/hyperprobe)
 
-- `one_liner`: Turn your AI spend into a cheaper + better model you own → Open source OpenRouter that turns your traffic into a better model
-- `tags`: Artificial Intelligence,Infrastructure → Reinforcement Learning,Infrastructure,AI
-
-### [Simulithic](https://www.ycombinator.com/companies/simulithic)
-
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/57304390a5b5c762c389b95f1b769b4ac71ed64e.png → https://bookface-images.s3.amazonaws.com/small_logos/58a972cb3cb171dd4300267d241cc6705539f906.png
-- `tags`: AI → Artificial Intelligence
+- `website`: http://hyperprobe.co → https://hyperprobe.co
+- `one_liner`: Your coding agent writes code. Now let it fix prod too. → The runtime data layer for agents to monitor and debug apps
+- `tags`: Developer Tools,DevSecOps,SaaS → AIOps,Artificial Intelligence,Developer Tools,SaaS,DevOps
