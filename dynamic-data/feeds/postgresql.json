@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-08-23T01:17:18.153Z",
+  "updatedAt": "2026-08-23T12:37:44.316Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -1065,7 +1065,15 @@
       "summary": "lo_compat_privileges sets large-object security back to PostgreSQL 8.4, the last release in which a large object belonged to nobody in particular and any role that could connect to the database could read it, overwrite it, or delete it. PostgreSQL 9.0 gave large objects an owner and an ACL. This …",
       "author": null,
       "publishedAt": "2026-08-23T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9s-",
+      "title": "Regina Obe: PostGIS Tiger Geocoder 2025.2",
+      "link": "https://postgr.es/p/9s-",
+      "summary": "The PostGIS development team is pleased to provide postgis_tiger_geocoder extension.\nThis is the very second release since the break from the PostGIS core.\nThis version requires PostgreSQL 16 and above and should work with any supported PostGIS version.\nPostGIS 3.6 series is the last series to…",
+      "author": null,
+      "publishedAt": "2026-08-23T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 132
+  "totalIndexed": 133
 }

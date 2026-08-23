@@ -4,48 +4,34 @@
 - Current total: 6190
 - Added: 0
 - Removed: 0
-- Updated: 9
+- Updated: 5
 
 
 ## Updated Companies
 
-### [Apten](https://www.ycombinator.com/companies/apten)
+### [Tuxebo](https://www.ycombinator.com/companies/tuxebo)
 
-- `team_size`: 4 → 6
+- `small_logo_thumb_url`: /company/thumb/missing.png → https://bookface-images.s3.amazonaws.com/small_logos/6d586677ac0517071a56ffd560b3ab8a6c93c5ef.png
+- `website`:  → https://www.tuxebo.com
+- `all_locations`: Remote → London, England, United Kingdom; Remote
+- `one_liner`: Tuxebo was a platform for renting things → Online marketplace for equipment rental
+- `team_size`: 0 → 3
+- `tags`: Marketplace → Marketplace,Construction
+- `regions`: Remote,Fully Remote → United Kingdom,Europe,Remote,Fully Remote
+
+### [Mintlify](https://www.ycombinator.com/companies/mintlify)
+
+- `stage`: Early → Growth
 
 ### [Educato](https://www.ycombinator.com/companies/educato)
 
-- `isHiring`: true → false
-
-### [Autostep](https://www.ycombinator.com/companies/autostep)
-
 - `isHiring`: false → true
 
-### [Char](https://www.ycombinator.com/companies/char)
+### [Conductor](https://www.ycombinator.com/companies/conductor)
 
-- `team_size`: 3 → 2
-- `tags`: Artificial Intelligence,SaaS,Productivity,Open Source,AI Assistant → SaaS,Productivity,Open Source,AI,AI Assistant
+- `stage`: Early → Growth
 
-### [Replicas](https://www.ycombinator.com/companies/replicas)
+### [Inkbox](https://www.ycombinator.com/companies/inkbox)
 
-- `website`: https://tryreplicas.com → https://replicas.dev
-
-### [Egoist Machines](https://www.ycombinator.com/companies/egoist-machines)
-
-- `one_liner`: User-owned memory and preferences that work across every AI app → Secure, user-owned context for every AI app
-
-### [Whitespace](https://www.ycombinator.com/companies/whitespace)
-
-- `all_locations`: London, England, United Kingdom → San Francisco, CA, USA
-- `tags`: Artificial Intelligence,SaaS,B2B,Supply Chain → SaaS,B2B,Supply Chain,AI
-- `regions`: United Kingdom,Europe → United States of America,America / Canada
-
-### [Familiar](https://www.ycombinator.com/companies/familiar)
-
-- `one_liner`: World Models for Accurate Humans. Real-Time Dubbing First. → Dubbing is finally good. Audio-Visual Translation.
-
-### [HyperProbe](https://www.ycombinator.com/companies/hyperprobe)
-
-- `website`: http://hyperprobe.co → https://hyperprobe.co
-- `one_liner`: Your coding agent writes code. Now let it fix prod too. → The runtime data layer for agents to monitor and debug apps
-- `tags`: Developer Tools,DevSecOps,SaaS → AIOps,Artificial Intelligence,Developer Tools,SaaS,DevOps
+- `one_liner`: Let your agents communicate via email, phone, iMessage, & Agent2Agent → The identity and communication layer for AI agents
+- `tags`: Developer Tools,Infrastructure,AI → Artificial Intelligence,Developer Tools,Infrastructure
