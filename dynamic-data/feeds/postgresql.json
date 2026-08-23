@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-08-22T01:11:52.758Z",
+  "updatedAt": "2026-08-23T01:17:18.153Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -1057,7 +1057,15 @@
       "summary": "Every table needs a way to tell its rows apart, and auto-incrementing surrogate keys have been the go-to solution since practically the dawn of time. They're simple. They're fast. And perhaps most importantly, they're correct. But distributed systems demand unique values cluster-wide, preferably…",
       "author": null,
       "publishedAt": "2026-08-21T19:03:49.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9sZ",
+      "title": "Christophe Pettus: All Your GUCs in a Row: lo_compat_privileges",
+      "link": "https://postgr.es/p/9sZ",
+      "summary": "lo_compat_privileges sets large-object security back to PostgreSQL 8.4, the last release in which a large object belonged to nobody in particular and any role that could connect to the database could read it, overwrite it, or delete it. PostgreSQL 9.0 gave large objects an owner and an ACL. This …",
+      "author": null,
+      "publishedAt": "2026-08-23T01:00:00.000Z"
     }
   ],
-  "totalIndexed": 131
+  "totalIndexed": 132
 }

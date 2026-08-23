@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-08-17T12:41:36.589Z",
+  "updatedAt": "2026-08-23T01:17:28.549Z",
   "items": [
     {
       "guid": "https://linuxblog.io/?p=20337",
@@ -191,7 +191,15 @@
       "summary": "The /proc filesystem is a live window into the Linux kernel: process state, memory layout, CPU counters, network stats, and writable kernel tunables, all accessible with nothing but cat and grep. This guide walks through the most useful files and per-process directories with practical examples.…",
       "author": "Hayden James",
       "publishedAt": "2026-08-17T10:34:50.000Z"
+    },
+    {
+      "guid": "https://linuxblog.io/?p=22425",
+      "title": "Linux Kernel Parameters Tuning for Better Performance",
+      "link": "https://linuxblog.io/linux-kernel-parameters-tuning-better-performance/",
+      "summary": "Learn how to tune Linux kernel parameters using sysctl and /proc/sys for better network throughput, memory management, file I/O, and server security. Includes a ready-to-use baseline config.\nContinue reading...",
+      "author": "Hayden James",
+      "publishedAt": "2026-08-22T21:03:32.000Z"
     }
   ],
-  "totalIndexed": 23
+  "totalIndexed": 24
 }
