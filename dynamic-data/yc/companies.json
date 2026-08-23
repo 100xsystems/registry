@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-23T12:38:15.020Z",
+  "fetchedAt": "2026-08-23T18:18:08.759Z",
   "count": 6190,
   "companies": [
     {
@@ -603,9 +603,9 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/1cd2adb8270db80170ab62b4140817892372538a.png",
       "website": "https://www.conifer.build",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Conifer is one app that connects you to every AI model (local and cloud) and automatically routes each request to the cheapest model that accomplishes your goal. Most requests run free on your own hardware, so teams cut their AI bill by ~80% while replacing a dozen provider contracts with one interface and one invoice. For sensitive material like financials or user data, a secure mode pins everything on-device with no external API calls.",
-      "one_liner": "Local-first least cost routing system to reduce 80%+ token spend",
-      "team_size": 3,
+      "long_description": "There are thousands of models, providers, and harnesses, each with its own pricing and strengths, leaving an overwhelming number of choices when it comes to managing token spend and intelligence. Conifer uses intelligent routing and orchestration logic to handle the full path of each query: model selection, provider choice, and cache management. It all runs inside your existing harness, so tools like Claude Code and Codex work without changing your setup. By centralizing where inference occurs, Conifer lets companies save on their inference bill while leaving teams free to focus on what they are building.",
+      "one_liner": "Least cost routing system to reduce 80%+ token spend",
+      "team_size": 4,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -613,9 +613,10 @@
       "subindustry": "B2B",
       "launched_at": 1783524440,
       "tags": [
+        "Artificial Intelligence",
+        "Developer Tools",
         "B2B",
-        "Security",
-        "AI"
+        "Security"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -4680,7 +4681,7 @@
       "website": "https://www.getqlo.com/",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Qlo uses AI agents to run commercial underwriting operations from submission to renewal. Specialized agents handle each operational step, while supervisor agents coordinate the work and communicate with the underwriter.\r\n\r\nEvery commercial insurance program will be built and operated end to end by AI agents on Qlo.",
-      "one_liner": "AI agents that run commercial underwriting",
+      "one_liner": "Legora for commercial insurance carriers",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -4689,9 +4690,9 @@
       "subindustry": "Fintech -> Insurance",
       "launched_at": 1786080312,
       "tags": [
-        "Artificial Intelligence",
         "Insurance",
-        "Enterprise Software"
+        "Enterprise Software",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -5330,7 +5331,7 @@
       "former_names": [],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/ad1b7cce12014a7746a7f8b912560717f6e2f037.png",
       "website": "https://ooakdata.com/",
-      "all_locations": "Paris, Île-de-France, France",
+      "all_locations": "San Francisco, CA, USA",
       "long_description": "Ooak Data turns internal company data into a training ground where AI agents can be tested on real work.\r\n",
       "one_liner": "We turn company data into training data",
       "team_size": 5,
@@ -5354,8 +5355,8 @@
         "B2B"
       ],
       "regions": [
-        "France",
-        "Europe",
+        "United States of America",
+        "America / Canada",
         "Remote",
         "Partly Remote"
       ],
@@ -5374,7 +5375,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/4b7cc06bfd9d08d6eae3bc20eca8c056f893bf8b.png",
       "website": "http://norirobotics.com",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "We manufacture Nori: A sub-$2000 bimanual mobile manipulator that can clean rooms, restock shelves, and fold clothes. Nori can handle basic tasks out of the box, and its software lets anyone teach Nori to automate work specific to their home or business. \r\n\r\nNori aims to solve the robotics data bottleneck. By deploying affordable robots to customers around the world, we can gather the diverse data required to train the next generation of generalist robotic policies. Every user of Nori makes Nori smarter.\r\n\r\nSince launching 6 weeks ago we have already deployed our first robot and have over 200k in sales.\r\n\r\nWe can bring general-purpose robotics to homes and businesses that could never afford it before. There are 132.7 million households and 8.4 million employer business locations in the U.S. At $1,688 per robot, selling just one Nori to 0.5% of them represents a $1.2B market opportunity in the U.S. alone. ",
+      "long_description": "We manufacture Nori: A sub-$2000 bimanual mobile manipulator that can clean rooms, restock shelves, and fold clothes. Nori can handle basic tasks out of the box, and its software lets anyone teach Nori to automate work specific to their home or business. \r\n\r\nNori aims to solve the robotics data bottleneck. By deploying affordable robots to customers around the world, we can gather the diverse data required to train the next generation of generalist robotic policies. Every user of Nori makes Nori smarter.\r\n\r\nSince launching 6 weeks ago we have already deployed our first robot and have over 300k in sales.\r\n\r\nWe can bring general-purpose robotics to homes and businesses that could never afford it before. There are 132.7 million households and 8.4 million employer business locations in the U.S. At $1,688 per robot, selling just one Nori to 0.5% of them represents a $1.2B market opportunity in the U.S. alone. ",
       "one_liner": "sub-$2000 humanoid robot you can teach to do anything",
       "team_size": 5,
       "highlight_black": false,
@@ -6644,7 +6645,7 @@
       "website": "https://www.tryglen.com/",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Glen is the layer that unifies every agent your company runs. Glen pulls in agent sessions from Claude Code, Codex and Cursor, plus Slack messages, GitHub prs, tickets, docs and calls. When a new agent picks up a task, Glen finds relevant prior context and injects it in the agents context window to steer it, producing knowledge work that is significantly higher quality, faster and cheaper.\r\n\r\nGlen does more. You can query the original agent behind any line of code, or search every session your org has ever run. It distills what your team does into skills and surfaces the right one automatically. Agents work multiplayer, picking up the style and context of whoever else is on the file. Transcripts are unified across Claude Code, Codex and Cursor, so you can hand a session from one to another mid-task. And Glen can also double as a company brain, from Slack, in app, or by just installing Glen on any agent.",
-      "one_liner": "Shared learning layer for agents",
+      "one_liner": "Institutional knowledge for every agent in your company.",
       "team_size": 1,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -6653,9 +6654,9 @@
       "subindustry": "B2B -> Productivity",
       "launched_at": 1781114514,
       "tags": [
+        "Artificial Intelligence",
         "Generative AI",
-        "B2B",
-        "AI"
+        "B2B"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -13248,7 +13249,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/f82ae07ea418af65738a5555df328a4907b4da13.png",
       "website": "https://tryalchemize.com",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Alchemize helps teams review and test code written by humans and coding agents.\r\n\r\nAgentic coding has 10x’d code output. Teams are opening larger PRs more frequently, but existing review workflows have not kept up.\r\n\r\nAlchemize breaks large changes into smaller, dependency-ordered PRs and guided reviews. It shows the prompts and intent behind agent-written code, then uses browser agents to test affected workflows. Reviewers can quickly understand how a change works, what the agent assumed, and where human judgment is needed. Teams ship faster with more confidence.",
+      "long_description": "Alchemize is an AI code review platform that helps teams understand and test code.\r\n\r\nAgentic coding has 10x’d code output, creating larger PRs more frequently, but existing review workflows haven’t kept up. \r\n\r\nAlchemize breaks large changes into smaller, dependency-ordered PRs and guided reviews. It surfaces the prompts, intent, and assumptions behind agent-written code, then uses browser agents to test affected workflows.\r\n\r\nReviewers can quickly understand how a change works, identify where human judgment is needed, and ship faster with more confidence.",
       "one_liner": "Ship more code with confidence",
       "team_size": 2,
       "highlight_black": false,
@@ -36268,7 +36269,7 @@
       ],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c87367cd52d809c0b9a6f05ef79f3c162b4dd082.png",
       "website": "https://physicalturing.ai/",
-      "all_locations": "San Francisco, CA, USA",
+      "all_locations": "New York City, NY, USA",
       "long_description": "Physical Turing rolls out humanoids in the real world and captures failures for benchmarking and post-training.\r\n\r\nWe procure, staff, and operate a wide range of target environments for real-world rollouts, helping robot makers, model companies, and enterprises continuously evaluate where humanoids succeed, where they fail, and what needs to improve before each deployment.",
       "one_liner": "Evaluating humanoids in the real world",
       "team_size": 2,
@@ -79938,7 +79939,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": false,
+      "isHiring": true,
       "nonprofit": false,
       "batch": "Winter 2024",
       "status": "Active",
@@ -91628,7 +91629,7 @@
       ],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/621b935d9e98b45293833804f8d64d9f43348ad6.png",
       "website": "https://speedylabs.ai/",
-      "all_locations": "Remote",
+      "all_locations": "Toronto, ON, Canada; Remote",
       "long_description": "Speedy Labs helps manufacturers and distributors ditch error-prone spreadsheets that cost them millions in missed rebate opportunities for an AI-powered solution that not only tracks rebate payments and their performance but also unlocks insights from their financial data silos that uplifts their bottom-line profit margins.\r\n\r\n$1 trillion worth of rebates are exchanged every year in North America alone.",
       "one_liner": "Maximize profits with AI-powered rebate management.",
       "team_size": 8,
@@ -91650,6 +91651,8 @@
         "Finance and Accounting"
       ],
       "regions": [
+        "Canada",
+        "America / Canada",
         "Remote",
         "Fully Remote"
       ],
@@ -131488,7 +131491,7 @@
       ],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/75bea23e506870f2ee3b99b49411973c2d69914b.png",
       "website": "https://www.selia.co",
-      "all_locations": "Bogotá, Bogota, Colombia; Bogotá, Bogotá, Colombia",
+      "all_locations": "Miami, FL, USA; Bogotá, Bogotá, Colombia",
       "long_description": "Selia Connects individuals and certified psychologists and psychiatrists with an online platform for one-on-one therapy delivered via video call. \r\n\r\nSelia offers convenient and affordable access to a fully-credentialed network of highly qualified providers while giving individuals self-guided tools, journaling and mood tracking to help them achieve their goals. \r\n\r\nWe created Selia to address the unmet and growing demand for mental health services for Spanish speaking Latam everywhere.\r\nOur business-to-consumer (“B2C”) channel, made of individual consumers who pay directly to our platform, and our business-to-business (“B2B”) channel, that consist  from start ups to enterprise clients such as Experian, Starbucks, Habi and more",
       "one_liner": "Selia is an online platform connecting individuals with top-quality…",
       "team_size": 20,
@@ -131515,7 +131518,9 @@
         "Consumer Health and Wellness"
       ],
       "regions": [
+        "United States of America",
         "Colombia",
+        "America / Canada",
         "Latin America",
         "Remote",
         "Partly Remote"
@@ -214264,7 +214269,7 @@
       "former_names": [],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/8f57f5afcce30f36c43831a578b13163b110301a.png",
       "website": "https://www.modernhealth.com/",
-      "all_locations": "San Francisco, CA, USA; Remote",
+      "all_locations": "Boston, MA, USA; San Francisco, CA, USA; Remote",
       "long_description": "Modern Health is the leading mental wellness platform that combines clinically validated assessments, personalized stress management support, an international network of certified behavioral health coaches, and licensed therapists to deliver mental health support across a broad range of individual needs. Modern Health empowers employers to lead the charge in helping their employees be less stressed, more engaged, and happier through evidence-based technology and professional support.  Modern Health has raised over $170M from top investors Battery Ventures, Kleiner Perkins, Founders Fund, and John Doerr and supports over 200 companies globally including Lyft, Pixar, SoFi, Credit Karma, Electronic Arts, Cooley, and Okta.",
       "one_liner": "A mental health benefits platform for employers.",
       "team_size": 375,
@@ -225256,7 +225261,7 @@
       "former_names": [],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/b0e1a686e82d7baf1431c13fde889f55c35832d4.png",
       "website": "https://www.rankscience.com",
-      "all_locations": "San Francisco, CA, USA; New York, NY, USA; Remote",
+      "all_locations": "New York City, NY, USA; New York, NY, USA; Remote",
       "long_description": "RankScience is the #1 trusted agency to grow SEO traffic for venture-backed Silicon Valley startups to the Fortune 500.",
       "one_liner": "Automated SEO for Startups",
       "team_size": 16,
@@ -248417,7 +248422,7 @@
       "former_names": [],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/ed1836376602c7f94a02b0049a5258986172b1ac.png",
       "website": "http://mtailor.com",
-      "all_locations": "San Francisco, CA, USA",
+      "all_locations": "Salt Lake City, UT, USA; San Francisco, CA, USA",
       "long_description": "MTailor is an ipad or iphone service for men to capture their shirt size dimensions and have tailor made shirts made and delivered.",
       "one_liner": "Get measured by your phone in under 30 seconds for perfect fitting…",
       "team_size": 11,

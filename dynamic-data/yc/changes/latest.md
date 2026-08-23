@@ -4,34 +4,58 @@
 - Current total: 6190
 - Added: 0
 - Removed: 0
-- Updated: 5
+- Updated: 11
 
 
 ## Updated Companies
 
-### [Tuxebo](https://www.ycombinator.com/companies/tuxebo)
+### [MTailor](https://www.ycombinator.com/companies/mtailor)
 
-- `small_logo_thumb_url`: /company/thumb/missing.png → https://bookface-images.s3.amazonaws.com/small_logos/6d586677ac0517071a56ffd560b3ab8a6c93c5ef.png
-- `website`:  → https://www.tuxebo.com
-- `all_locations`: Remote → London, England, United Kingdom; Remote
-- `one_liner`: Tuxebo was a platform for renting things → Online marketplace for equipment rental
-- `team_size`: 0 → 3
-- `tags`: Marketplace → Marketplace,Construction
-- `regions`: Remote,Fully Remote → United Kingdom,Europe,Remote,Fully Remote
+- `all_locations`: San Francisco, CA, USA → Salt Lake City, UT, USA; San Francisco, CA, USA
 
-### [Mintlify](https://www.ycombinator.com/companies/mintlify)
+### [RankScience](https://www.ycombinator.com/companies/rankscience)
 
-- `stage`: Early → Growth
+- `all_locations`: San Francisco, CA, USA; New York, NY, USA; Remote → New York City, NY, USA; New York, NY, USA; Remote
 
-### [Educato](https://www.ycombinator.com/companies/educato)
+### [Modern Health](https://www.ycombinator.com/companies/modern-health)
+
+- `all_locations`: San Francisco, CA, USA; Remote → Boston, MA, USA; San Francisco, CA, USA; Remote
+
+### [Selia](https://www.ycombinator.com/companies/selia)
+
+- `all_locations`: Bogotá, Bogota, Colombia; Bogotá, Bogotá, Colombia → Miami, FL, USA; Bogotá, Bogotá, Colombia
+- `regions`: Colombia,Latin America,Remote,Partly Remote → United States of America,Colombia,America / Canada,Latin America,Remote,Partly Remote
+
+### [Speedy Labs](https://www.ycombinator.com/companies/speedy-labs)
+
+- `all_locations`: Remote → Toronto, ON, Canada; Remote
+- `regions`: Remote,Fully Remote → Canada,America / Canada,Remote,Fully Remote
+
+### [Sonia](https://www.ycombinator.com/companies/sonia)
 
 - `isHiring`: false → true
 
-### [Conductor](https://www.ycombinator.com/companies/conductor)
+### [Physical Turing](https://www.ycombinator.com/companies/physical-turing)
 
-- `stage`: Early → Growth
+- `all_locations`: San Francisco, CA, USA → New York City, NY, USA
 
-### [Inkbox](https://www.ycombinator.com/companies/inkbox)
+### [Glen](https://www.ycombinator.com/companies/glen)
 
-- `one_liner`: Let your agents communicate via email, phone, iMessage, & Agent2Agent → The identity and communication layer for AI agents
-- `tags`: Developer Tools,Infrastructure,AI → Artificial Intelligence,Developer Tools,Infrastructure
+- `one_liner`: Shared learning layer for agents → Institutional knowledge for every agent in your company.
+- `tags`: Generative AI,B2B,AI → Artificial Intelligence,Generative AI,B2B
+
+### [Ooak Data](https://www.ycombinator.com/companies/ooak-data)
+
+- `all_locations`: Paris, Île-de-France, France → San Francisco, CA, USA
+- `regions`: France,Europe,Remote,Partly Remote → United States of America,America / Canada,Remote,Partly Remote
+
+### [Qlo](https://www.ycombinator.com/companies/qlo)
+
+- `one_liner`: AI agents that run commercial underwriting → Legora for commercial insurance carriers
+- `tags`: Artificial Intelligence,Insurance,Enterprise Software → Insurance,Enterprise Software,AI
+
+### [Conifer](https://www.ycombinator.com/companies/conifer)
+
+- `one_liner`: Local-first least cost routing system to reduce 80%+ token spend → Least cost routing system to reduce 80%+ token spend
+- `team_size`: 3 → 4
+- `tags`: B2B,Security,AI → Artificial Intelligence,Developer Tools,B2B,Security
