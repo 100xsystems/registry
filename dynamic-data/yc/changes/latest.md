@@ -1,35 +1,49 @@
 # YC Company Changes for 2026-08-24
 
-- Previous total: 6190
+- Previous total: 6191
 - Current total: 6191
-- Added: 1
+- Added: 0
 - Removed: 0
-- Updated: 5
+- Updated: 7
 
-
-## Added Companies
-
-- [Ethos Space Resources](https://www.ycombinator.com/companies/ethos-space-resources) (Summer 2026) — We make Silicon on the Moon.
 
 ## Updated Companies
 
-### [Kalshi](https://www.ycombinator.com/companies/kalshi)
+### [Vest](https://www.ycombinator.com/companies/vest)
 
+- `team_size`: 50 → 65
 - `stage`: Growth → Early
 
-### [Autostep](https://www.ycombinator.com/companies/autostep)
+### [HEVN, inc](https://www.ycombinator.com/companies/hevn-inc)
 
-- `team_size`: 2 → 1
+- `all_locations`:  → San Francisco, CA, USA
+- `one_liner`: Global bank account for exporters → Cross-border payments for exporters of physical goods.
+- `team_size`: 4 → 8
+- `regions`: Remote,Partly Remote → United States of America,America / Canada,Remote,Partly Remote
 
-### [Synthetic Society](https://www.ycombinator.com/companies/synthetic-society)
+### [Kara](https://www.ycombinator.com/companies/kara)
 
-- `isHiring`: false → true
+- `one_liner`: Making diamond an engineering material → Making Diamond Engineerable
 
-### [OS3](https://www.ycombinator.com/companies/os3)
+### [Glen](https://www.ycombinator.com/companies/glen)
 
-- `tags`: Artificial Intelligence,Hardware,Robotics,B2B → Hardware,Robotics,B2B,AI
+- `tags`: Artificial Intelligence,Generative AI,B2B → Generative AI,B2B,AI
 
-### [Cohesion](https://www.ycombinator.com/companies/cohesion)
+### [Denta](https://www.ycombinator.com/companies/denta)
 
-- `one_liner`: Agents that automate research for institutional investors → Modern Intelligence for Finance
-- `tags`:  → Finance
+- `website`: https://denta.insure → https://denta.com
+- `tags`: Artificial Intelligence,Fintech,Healthcare,Health Insurance → Fintech,Health Insurance
+
+### [Dock](https://www.ycombinator.com/companies/dock)
+
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/0cba332f90be97dc4bf4f1ed2941969d74936204.png → https://bookface-images.s3.amazonaws.com/small_logos/94f67a762d3f3ae2966b1300c5b2c0c8e7e007de.png
+
+### [OpenTag](https://www.ycombinator.com/companies/opentag)
+
+- `name`: Gini → OpenTag
+- `slug`: gini → opentag
+- `former_names`: Gini Agent → Gini Agent,Gini
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/ae411b562c938cf0981eae247f0453d472e6dfe5.png → https://bookface-images.s3.amazonaws.com/small_logos/3523399de943bf46e546a3bb703261d27fd2fa69.png
+- `website`: https://ginicomputer.com/ → https://tryopentag.com/
+- `one_liner`: AI coworker in Slack and Teams → Model Agnostic Claude Tag
+- `tags`: AIOps,Artificial Intelligence,B2B,Workflow Automation,Enterprise Software → AIOps,B2B,Workflow Automation,Enterprise Software,AI
