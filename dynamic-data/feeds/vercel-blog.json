@@ -9,7 +9,7 @@
     "edge-computing",
     "nextjs"
   ],
-  "updatedAt": "2026-08-20T18:27:35.780Z",
+  "updatedAt": "2026-08-24T18:28:48.294Z",
   "items": [
     {
       "guid": "vercel-blog::https://vercel.com/changelog/ai-gateway-now-supports-streaming-transcription",
@@ -4386,7 +4386,31 @@
       "summary": "Vercel Functions now support the new , a rewrite of Bun from Zig to Rust, with over 2,900 issues resolved, more than 1,500 additional Node.js compatibility tests passing, and new features and performance improvements.Bun 1.4 release\nBun on Vercel Functions:\nTo update from the previous Bun version,…",
       "author": "Florentin Eckl",
       "publishedAt": "2026-08-20T00:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/vercel-sandbox-is-now-globally-available",
+      "title": "Vercel Sandbox is now globally available",
+      "link": "https://vercel.com/changelog/vercel-sandbox-is-now-globally-available",
+      "summary": "now runs globally, starting with four regions:  (Washington, D.C.),  (San Francisco),  (Cleveland), and  (Paris). Vercel Sandboxiad1sfo1cle1cdg1\n remains the default. Support for all Vercel regions is coming soon.iad1\nChoose a region close to the databases, object storage, and other services your…",
+      "author": "Marc Codina Segura",
+      "publishedAt": "2026-08-24T04:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/bun-runtime-now-supports-large-functions-and-extended-max-duration",
+      "title": "Bun runtime now supports large functions and extended max duration",
+      "link": "https://vercel.com/changelog/bun-runtime-now-supports-large-functions-and-extended-max-duration",
+      "summary": "The  on Vercel Functions now supports larger package sizes up to 5GB uncompressed and extended max duration for up to 30 minutes, two betas that previously ran on Node.js and Python only.Bun runtime\nLarge functions raise the standard 250MB package size limit to 5GB, and extended max duration raises…",
+      "author": "Florentin Eckl",
+      "publishedAt": "2026-08-24T00:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/connect-v0-apps-to-slack-google-and-100-other-services",
+      "title": "Connect v0 apps to Slack, Google, and 100+ other services",
+      "link": "https://vercel.com/changelog/connect-v0-apps-to-slack-google-and-100-other-services",
+      "summary": "Apps and agents built in v0 can now securely connect to , including Slack, Google, Notion, GitHub, and Salesforce, through .more than 100 servicesVercel Connect\nAsk v0 to connect your app to a service. It opens the connector setup and guides you through it.\nYou set up each connector once for your…",
+      "author": "Vishal Yathish",
+      "publishedAt": "2026-08-24T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 547
+  "totalIndexed": 550
 }

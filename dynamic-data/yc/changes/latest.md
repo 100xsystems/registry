@@ -1,50 +1,83 @@
 # YC Company Changes for 2026-08-24
 
-- Previous total: 6191
+- Previous total: 6192
 - Current total: 6192
-- Added: 1
+- Added: 0
 - Removed: 0
-- Updated: 8
+- Updated: 15
 
-
-## Added Companies
-
-- [Sentient OS](https://www.ycombinator.com/companies/sentient-os) (Fall 2026) — On-device AI that knows your entire life and does your work overnight.
 
 ## Updated Companies
 
-### [Vest](https://www.ycombinator.com/companies/vest)
+### [Perceptive Technologies](https://www.ycombinator.com/companies/perceptive-technologies)
 
-- `stage`: Early → Growth
+- `tags`: Robotics,Health Tech,Medical Devices,AI → Artificial Intelligence,Robotics,Health Tech,Medical Devices
 
-### [Nimble](https://www.ycombinator.com/companies/nimble)
+### [True3D](https://www.ycombinator.com/companies/true3d)
 
-- `isHiring`: false → true
+- `name`: Outpaint.com → True3D
+- `slug`: outpaintcom → true3d
+- `former_names`: True3D,Hyperplane,Hackpack,LeetDesign,QuickVid.ai,TutorAI.me,QuickVid.ai,QuickVid,True3D,True3D Labs → True3D,Hyperplane,Hackpack,LeetDesign,QuickVid.ai,TutorAI.me,QuickVid.ai,QuickVid,True3D,True3D Labs
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/76c9f51f32ec78b0012799fa749d0661d0d18633.png → https://bookface-images.s3.amazonaws.com/small_logos/a242a0c2ce6b1ca1518d1744187f98a3bf8eade9.png
+- `website`: https://outpaint.com/ → https://www.true3d.com/
+- `one_liner`: AI that expands any video to fit any screen. → Building the next generation of visual media
+- `team_size`: 4 → 5
+- `tags`: Video,Media,Infrastructure,AI → Artificial Intelligence,Video,Media,Infrastructure
 
-### [Kalshi](https://www.ycombinator.com/companies/kalshi)
-
-- `stage`: Early → Growth
-
-### [Letter AI](https://www.ycombinator.com/companies/letter-ai)
-
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/a8096b7e34c90c79f7c021254c675727052b60ef.png → https://bookface-images.s3.amazonaws.com/small_logos/780897b3519f82c91ac5a781f87078770774b6dd.png
-- `one_liner`: Empowering B2B sellers with AI-powered training, coaching, and content → End-to-end content, learning, & deal intelligence for B2B sales teams
-- `team_size`: 12 → 70
-- `regions`: United States of America,America / Canada,Remote,Partly Remote → United States of America,America / Canada
-
-### [Dexter](https://www.ycombinator.com/companies/dexter)
+### [Carbonfact](https://www.ycombinator.com/companies/carbonfact)
 
 - `isHiring`: true → false
 
-### [Verdant](https://www.ycombinator.com/companies/verdant)
+### [Onshore](https://www.ycombinator.com/companies/onshore)
 
-- `one_liner`: AI-native land-use permit management for local gov → AI-native planning & permitting software for local gov
+- `isHiring`: true → false
 
-### [Markov](https://www.ycombinator.com/companies/markov)
+### [Soundry AI](https://www.ycombinator.com/companies/soundry-ai)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/455a1b80a115b180bc211a79ff00bc48bf9cb451.png → https://bookface-images.s3.amazonaws.com/small_logos/046776ac55f648d0cff146a0a5a1b1b37ad1d681.png
-- `one_liner`: Data for computer-use ai → Data for computer-use AI
+- `status`: Active → Acquired
 
-### [SpaceFlow Technologies, Inc.](https://www.ycombinator.com/companies/spaceflow-technologies-inc)
+### [OneTriangle](https://www.ycombinator.com/companies/onetriangle)
 
-- `one_liner`: The managed runtime for enterprise AI agents → AI-native procurement services for the physical economy
+- `name`: TrustAI → OneTriangle
+- `slug`: trustai → onetriangle
+- `former_names`: EvalAI,TrustAI Labs → EvalAI,TrustAI Labs,TrustAI
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/882660c8a18b052eaabe5a10460a291038b111a7.png → https://bookface-images.s3.amazonaws.com/small_logos/107ba922031da90f3c856fadf8e7d472f94bfa62.png
+- `website`: https://trytrust.ai → https://onetriangle.ai/
+- `tags`: Artificial Intelligence,Smart Packaging,Open Source,Infrastructure → Smart Packaging,Open Source,Infrastructure,AI
+
+### [Totalis](https://www.ycombinator.com/companies/totalis)
+
+- `isHiring`: true → false
+
+### [Light Anchor](https://www.ycombinator.com/companies/light-anchor)
+
+- `all_locations`: San Francisco, CA, USA → Seoul, Seoul, South Korea
+- `regions`: United States of America,America / Canada → South Korea,East Asia
+
+### [Mass Magnetics](https://www.ycombinator.com/companies/mass-magnetics)
+
+- `tags`: Hard Tech,Drones,Manufacturing → Hard Tech,Robotics,Drones,Manufacturing,Defense
+
+### [Vestris](https://www.ycombinator.com/companies/vestris)
+
+- `isHiring`: true → false
+
+### [Ekho Labs](https://www.ycombinator.com/companies/ekho-labs)
+
+- `one_liner`: Decisions for disrupted freight → World Model for Freight
+
+### [Marengo](https://www.ycombinator.com/companies/marengo)
+
+- `team_size`: 10 → 5
+
+### [TovenAI](https://www.ycombinator.com/companies/tovenai)
+
+- `tags`: Fintech,Regtech,AI → Artificial Intelligence,Fintech,Compliance,Regtech
+
+### [PRINCEPS](https://www.ycombinator.com/companies/princeps)
+
+- `tags`: Machine Learning,AI → Artificial Intelligence,Machine Learning
+
+### [Sentient OS](https://www.ycombinator.com/companies/sentient-os)
+
+- `launched_at`: 1785372714 → 1787571928

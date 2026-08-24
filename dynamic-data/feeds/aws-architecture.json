@@ -8,7 +8,7 @@
     "architecture",
     "aws"
   ],
-  "updatedAt": "2026-08-20T06:54:29.202Z",
+  "updatedAt": "2026-08-24T18:28:47.753Z",
   "items": [
     {
       "guid": "79195fa586925a9b62c134acc83bb06b7b67a778",
@@ -209,7 +209,15 @@
       "summary": "AI agents built on Amazon Bedrock AgentCore help clinical trial teams make fast, accurate enrollment decisions while keeping clinicians in control. This post shows how to architect an eligibility and safety screening agent using AWS HealthLake, AgentCore, and AgentCore Evaluations.",
       "author": "Sachin Jain",
       "publishedAt": "2026-08-19T13:11:51.000Z"
+    },
+    {
+      "guid": "8f373005181e55a96d79518e8fa48db9eb211175",
+      "title": "How a global payment processor preserved AWS RAM shares and Lake Formation permissions during an AWS Organizations migration",
+      "link": "https://aws.amazon.com/blogs/architecture/how-a-global-payment-processor-preserved-aws-ram-shares-and-lake-formation-permissions-during-an-aws-organizations-migration/",
+      "summary": "When AWS accounts move between organizations, organization-bound AWS RAM resource shares break and control-plane access is lost. Learn how a global payment processor used temporary bridge shares to preserve AWS Lake Formation permissions across a 382-account AWS Organizations migration, then…",
+      "author": "Sam Mukherjee",
+      "publishedAt": "2026-08-24T15:23:21.000Z"
     }
   ],
-  "totalIndexed": 25
+  "totalIndexed": 26
 }

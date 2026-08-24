@@ -9,7 +9,7 @@
     "performance",
     "distributed-systems"
   ],
-  "updatedAt": "2026-08-06T08:46:01.694Z",
+  "updatedAt": "2026-08-24T18:28:47.698Z",
   "items": [
     {
       "guid": "https://engineering.fb.com/?p=24251",
@@ -23738,7 +23738,23 @@
       "summary": "Every day, Meta’s recommendation platforms handle billions of user interactions, generating rich temporal signals that capture individual preferences and intent across products, ads, and content. In our 2024 post on sequence learning for ads recommendations, we showed how modeling the order and…",
       "author": null,
       "publishedAt": "2026-08-05T19:20:20.000Z"
+    },
+    {
+      "guid": "https://engineering.fb.com/?p=24399",
+      "title": "MetaRoCE: A New RDMA Transport Built for AI-Scale Ethernet",
+      "link": "https://engineering.fb.com/2026/08/24/networking-traffic/metaroce-rdma-transport-ai-ethernet/",
+      "summary": "Training and serving frontier AI models depends on fast, reliable networks that move data between GPUs without wasting compute cycles.  To meet this challenge at scale, Meta designed MetaRoCE – a clean-sheet RDMA transport protocol purpose-built for AI workloads on commodity Ethernet.  We’re…",
+      "author": null,
+      "publishedAt": "2026-08-24T18:02:29.000Z"
+    },
+    {
+      "guid": "https://engineering.fb.com/?p=24394",
+      "title": "MTIA 300: Meta’s First Training Chip with Built-in NICs and Communication-Offloading Engines",
+      "link": "https://engineering.fb.com/2026/08/24/networking-traffic/mtia-300-meta-training-chip-built-in-nics/",
+      "summary": "MTIA 300 is the first of Meta’s family of in-house training and inference accelerators optimized for training ranking and recommendation models. We’re sharing how MTIA 300’s built-in NIC chiplets allow it to meet the communication needs associated with training recommendation models with superior…",
+      "author": null,
+      "publishedAt": "2026-08-24T17:45:52.000Z"
     }
   ],
-  "totalIndexed": 2966
+  "totalIndexed": 2968
 }

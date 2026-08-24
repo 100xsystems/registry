@@ -8,7 +8,7 @@
     "ide",
     "programming-languages"
   ],
-  "updatedAt": "2026-08-20T18:27:34.996Z",
+  "updatedAt": "2026-08-24T18:28:47.784Z",
   "items": [
     {
       "guid": "https://blog.jetbrains.com/?post_type=rscpp&p=725420",
@@ -353,7 +353,31 @@
       "summary": "The 2026 Django Developers Survey (results coming soon!) found that AI is part of the weekly or daily workflow for 90% of respondents. AI can write code quickly, but Django developers still need to understand the application, evaluate what the agent produces, and be accountable for what ships. That…",
       "author": "Will Vincent",
       "publishedAt": "2026-08-20T13:06:50.000Z"
+    },
+    {
+      "guid": "https://blog.jetbrains.com/?post_type=go&p=732265",
+      "title": "Help AI Coding Agents Write Up-To-Date Code With Modern Golang Skills",
+      "link": "https://blog.jetbrains.com/go/2026/08/24/help-ai-coding-agents-write-up-to-date-code-with-modern-golang-skills/",
+      "summary": "TL;DR Why AI coding agents need modern Go skills AI coding agents can produce working Go code, but they typically rely on outdated patterns. Older syntax appears more often in their training data. Newer language features and standard library additions may also fall outside their training cutoff.…",
+      "author": "Artem Pronichev",
+      "publishedAt": "2026-08-24T14:18:56.000Z"
+    },
+    {
+      "guid": "https://blog.jetbrains.com/?post_type=junie&p=733071",
+      "title": "How We Optimized the Qwen 3.6 Model for Our Junie Agent",
+      "link": "https://blog.jetbrains.com/junie/2026/08/qwen-for-junie/",
+      "summary": "A while ago, we launched a long-term project to enable users to run Junie entirely locally, with local inference, across a wide variety of hardware setups. After much anticipation, we recently released an initial version of Junie Local that works on a MacBook M5 with Qwen3.6-27B. In this blog post,…",
+      "author": "Stanislav Erokhin",
+      "publishedAt": "2026-08-24T14:11:34.000Z"
+    },
+    {
+      "guid": "https://blog.jetbrains.com/?post_type=junie&p=732899",
+      "title": "Junie Can Now Run Entirely on Your Mac – No Credits, No Cloud",
+      "link": "https://blog.jetbrains.com/junie/2026/08/junie-local-launch/",
+      "summary": "Our first step into on-device coding agents  Junie has been able to connect to local model runtimes for a while. Point it at Ollama or LM Studio, load a local model, and the agent runs against it. Plenty of people are already doing this. But it also means you have to pick the model, tune […]",
+      "author": "Dmitry Savelev",
+      "publishedAt": "2026-08-24T14:10:39.000Z"
     }
   ],
-  "totalIndexed": 43
+  "totalIndexed": 46
 }
