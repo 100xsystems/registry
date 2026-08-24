@@ -1,49 +1,50 @@
 # YC Company Changes for 2026-08-24
 
 - Previous total: 6191
-- Current total: 6191
-- Added: 0
+- Current total: 6192
+- Added: 1
 - Removed: 0
-- Updated: 7
+- Updated: 8
 
+
+## Added Companies
+
+- [Sentient OS](https://www.ycombinator.com/companies/sentient-os) (Fall 2026) — On-device AI that knows your entire life and does your work overnight.
 
 ## Updated Companies
 
 ### [Vest](https://www.ycombinator.com/companies/vest)
 
-- `team_size`: 50 → 65
-- `stage`: Growth → Early
+- `stage`: Early → Growth
 
-### [HEVN, inc](https://www.ycombinator.com/companies/hevn-inc)
+### [Nimble](https://www.ycombinator.com/companies/nimble)
 
-- `all_locations`:  → San Francisco, CA, USA
-- `one_liner`: Global bank account for exporters → Cross-border payments for exporters of physical goods.
-- `team_size`: 4 → 8
-- `regions`: Remote,Partly Remote → United States of America,America / Canada,Remote,Partly Remote
+- `isHiring`: false → true
 
-### [Kara](https://www.ycombinator.com/companies/kara)
+### [Kalshi](https://www.ycombinator.com/companies/kalshi)
 
-- `one_liner`: Making diamond an engineering material → Making Diamond Engineerable
+- `stage`: Early → Growth
 
-### [Glen](https://www.ycombinator.com/companies/glen)
+### [Letter AI](https://www.ycombinator.com/companies/letter-ai)
 
-- `tags`: Artificial Intelligence,Generative AI,B2B → Generative AI,B2B,AI
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/a8096b7e34c90c79f7c021254c675727052b60ef.png → https://bookface-images.s3.amazonaws.com/small_logos/780897b3519f82c91ac5a781f87078770774b6dd.png
+- `one_liner`: Empowering B2B sellers with AI-powered training, coaching, and content → End-to-end content, learning, & deal intelligence for B2B sales teams
+- `team_size`: 12 → 70
+- `regions`: United States of America,America / Canada,Remote,Partly Remote → United States of America,America / Canada
 
-### [Denta](https://www.ycombinator.com/companies/denta)
+### [Dexter](https://www.ycombinator.com/companies/dexter)
 
-- `website`: https://denta.insure → https://denta.com
-- `tags`: Artificial Intelligence,Fintech,Healthcare,Health Insurance → Fintech,Health Insurance
+- `isHiring`: true → false
 
-### [Dock](https://www.ycombinator.com/companies/dock)
+### [Verdant](https://www.ycombinator.com/companies/verdant)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/0cba332f90be97dc4bf4f1ed2941969d74936204.png → https://bookface-images.s3.amazonaws.com/small_logos/94f67a762d3f3ae2966b1300c5b2c0c8e7e007de.png
+- `one_liner`: AI-native land-use permit management for local gov → AI-native planning & permitting software for local gov
 
-### [OpenTag](https://www.ycombinator.com/companies/opentag)
+### [Markov](https://www.ycombinator.com/companies/markov)
 
-- `name`: Gini → OpenTag
-- `slug`: gini → opentag
-- `former_names`: Gini Agent → Gini Agent,Gini
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/ae411b562c938cf0981eae247f0453d472e6dfe5.png → https://bookface-images.s3.amazonaws.com/small_logos/3523399de943bf46e546a3bb703261d27fd2fa69.png
-- `website`: https://ginicomputer.com/ → https://tryopentag.com/
-- `one_liner`: AI coworker in Slack and Teams → Model Agnostic Claude Tag
-- `tags`: AIOps,Artificial Intelligence,B2B,Workflow Automation,Enterprise Software → AIOps,B2B,Workflow Automation,Enterprise Software,AI
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/455a1b80a115b180bc211a79ff00bc48bf9cb451.png → https://bookface-images.s3.amazonaws.com/small_logos/046776ac55f648d0cff146a0a5a1b1b37ad1d681.png
+- `one_liner`: Data for computer-use ai → Data for computer-use AI
+
+### [SpaceFlow Technologies, Inc.](https://www.ycombinator.com/companies/spaceflow-technologies-inc)
+
+- `one_liner`: The managed runtime for enterprise AI agents → AI-native procurement services for the physical economy

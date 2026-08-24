@@ -8,7 +8,7 @@
     "cloud-native",
     "service-mesh"
   ],
-  "updatedAt": "2026-07-28T06:53:04.052Z",
+  "updatedAt": "2026-08-24T12:48:24.226Z",
   "items": [
     {
       "guid": "https://istio.io/latest/blog/2026/traffic-extension-api/",
@@ -1305,7 +1305,15 @@
       "summary": "In a previous blog post, we announced that Istio will retire the gcr.io/istio-release container registry in late 2026 and switch to registry.istio.io/release as the new home for Istio images.\nThe original design was that registry.istio.io/release would be a Cloudflare worker that proxied requests…",
       "author": null,
       "publishedAt": "2026-07-23T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2026/toc-election-results/",
+      "title": "Istio Project Announces 2026 Technical Oversight Committee Election Results",
+      "link": "https://istio.io/latest/blog/2026/toc-election-results/",
+      "summary": "Under the governance system introduced in 2024 for the Technical Oversight Committee (TOC), the Istio project holds annual elections for three of the six seats. This ensures continuous technical leadership while maintaining community-driven momentum.\nThis year’s election saw four candidates stand…",
+      "author": null,
+      "publishedAt": "2026-08-24T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 162
+  "totalIndexed": 163
 }
