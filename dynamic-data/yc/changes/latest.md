@@ -1,61 +1,35 @@
-# YC Company Changes for 2026-08-23
+# YC Company Changes for 2026-08-24
 
 - Previous total: 6190
-- Current total: 6190
-- Added: 0
+- Current total: 6191
+- Added: 1
 - Removed: 0
-- Updated: 11
+- Updated: 5
 
+
+## Added Companies
+
+- [Ethos Space Resources](https://www.ycombinator.com/companies/ethos-space-resources) (Summer 2026) — We make Silicon on the Moon.
 
 ## Updated Companies
 
-### [MTailor](https://www.ycombinator.com/companies/mtailor)
+### [Kalshi](https://www.ycombinator.com/companies/kalshi)
 
-- `all_locations`: San Francisco, CA, USA → Salt Lake City, UT, USA; San Francisco, CA, USA
+- `stage`: Growth → Early
 
-### [RankScience](https://www.ycombinator.com/companies/rankscience)
+### [Autostep](https://www.ycombinator.com/companies/autostep)
 
-- `all_locations`: San Francisco, CA, USA; New York, NY, USA; Remote → New York City, NY, USA; New York, NY, USA; Remote
+- `team_size`: 2 → 1
 
-### [Modern Health](https://www.ycombinator.com/companies/modern-health)
-
-- `all_locations`: San Francisco, CA, USA; Remote → Boston, MA, USA; San Francisco, CA, USA; Remote
-
-### [Selia](https://www.ycombinator.com/companies/selia)
-
-- `all_locations`: Bogotá, Bogota, Colombia; Bogotá, Bogotá, Colombia → Miami, FL, USA; Bogotá, Bogotá, Colombia
-- `regions`: Colombia,Latin America,Remote,Partly Remote → United States of America,Colombia,America / Canada,Latin America,Remote,Partly Remote
-
-### [Speedy Labs](https://www.ycombinator.com/companies/speedy-labs)
-
-- `all_locations`: Remote → Toronto, ON, Canada; Remote
-- `regions`: Remote,Fully Remote → Canada,America / Canada,Remote,Fully Remote
-
-### [Sonia](https://www.ycombinator.com/companies/sonia)
+### [Synthetic Society](https://www.ycombinator.com/companies/synthetic-society)
 
 - `isHiring`: false → true
 
-### [Physical Turing](https://www.ycombinator.com/companies/physical-turing)
+### [OS3](https://www.ycombinator.com/companies/os3)
 
-- `all_locations`: San Francisco, CA, USA → New York City, NY, USA
+- `tags`: Artificial Intelligence,Hardware,Robotics,B2B → Hardware,Robotics,B2B,AI
 
-### [Glen](https://www.ycombinator.com/companies/glen)
+### [Cohesion](https://www.ycombinator.com/companies/cohesion)
 
-- `one_liner`: Shared learning layer for agents → Institutional knowledge for every agent in your company.
-- `tags`: Generative AI,B2B,AI → Artificial Intelligence,Generative AI,B2B
-
-### [Ooak Data](https://www.ycombinator.com/companies/ooak-data)
-
-- `all_locations`: Paris, Île-de-France, France → San Francisco, CA, USA
-- `regions`: France,Europe,Remote,Partly Remote → United States of America,America / Canada,Remote,Partly Remote
-
-### [Qlo](https://www.ycombinator.com/companies/qlo)
-
-- `one_liner`: AI agents that run commercial underwriting → Legora for commercial insurance carriers
-- `tags`: Artificial Intelligence,Insurance,Enterprise Software → Insurance,Enterprise Software,AI
-
-### [Conifer](https://www.ycombinator.com/companies/conifer)
-
-- `one_liner`: Local-first least cost routing system to reduce 80%+ token spend → Least cost routing system to reduce 80%+ token spend
-- `team_size`: 3 → 4
-- `tags`: B2B,Security,AI → Artificial Intelligence,Developer Tools,B2B,Security
+- `one_liner`: Agents that automate research for institutional investors → Modern Intelligence for Finance
+- `tags`:  → Finance

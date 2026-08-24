@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-08-23T12:37:44.316Z",
+  "updatedAt": "2026-08-24T01:15:37.435Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -1073,7 +1073,15 @@
       "summary": "The PostGIS development team is pleased to provide postgis_tiger_geocoder extension.\nThis is the very second release since the break from the PostGIS core.\nThis version requires PostgreSQL 16 and above and should work with any supported PostGIS version.\nPostGIS 3.6 series is the last series to…",
       "author": null,
       "publishedAt": "2026-08-23T00:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9t0",
+      "title": "Christophe Pettus: All Your GUCs in a Row: listen_addresses",
+      "link": "https://postgr.es/p/9t0",
+      "summary": "Listen_addresses decides which TCP sockets exist on your server—but it says nothing about who can use them.",
+      "author": null,
+      "publishedAt": "2026-08-24T01:00:00.000Z"
     }
   ],
-  "totalIndexed": 133
+  "totalIndexed": 134
 }
