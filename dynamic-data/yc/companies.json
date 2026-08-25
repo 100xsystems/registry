@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-08-24T18:29:10.279Z",
-  "count": 6192,
+  "fetchedAt": "2026-08-25T01:13:41.550Z",
+  "count": 6191,
   "companies": [
     {
       "id": 36348,
@@ -232,9 +232,11 @@
       "subindustry": "B2B -> Human Resources",
       "launched_at": 1787030206,
       "tags": [
+        "Artificial Intelligence",
         "Human Resources",
         "Recruiting",
-        "HR Tech"
+        "HR Tech",
+        "Talent Acquisition"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -2845,9 +2847,9 @@
       "subindustry": "Consumer",
       "launched_at": 1786732497,
       "tags": [
-        "Artificial Intelligence",
         "Consumer",
         "Productivity",
+        "AI",
         "AI Assistant"
       ],
       "tags_highlighted": [],
@@ -3481,48 +3483,6 @@
       "app_answers": null,
       "question_answers": false,
       "url": "https://www.ycombinator.com/companies/inkbox"
-    },
-    {
-      "id": 33013,
-      "name": "Operon",
-      "slug": "operon",
-      "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/aaeb7f2ff7aa5b0b7e64888230be2a7e46342f66.png",
-      "website": "https://operonsolutions.com/en",
-      "all_locations": "San Francisco, CA, USA",
-      "long_description": "Operon is the data intelligence layer for heavy industry. We ingest the messy documents a plant runs on (P&IDs, schematics, datasheets, scans) and turn them into one structured, queryable model of the facility.\r\n\r\nOn top of it, engineers query their plant in natural language and build agentic workflows for safety, compliance, and design. \r\n\r\n",
-      "one_liner": "Agentic data layer for manufacturing & process industries. ",
-      "team_size": 0,
-      "highlight_black": false,
-      "highlight_latinx": false,
-      "highlight_women": false,
-      "industry": "Industrials",
-      "subindustry": "Industrials",
-      "launched_at": 1782593141,
-      "tags": [
-        "Computer Vision",
-        "Manufacturing",
-        "Infrastructure"
-      ],
-      "tags_highlighted": [],
-      "top_company": false,
-      "isHiring": true,
-      "nonprofit": false,
-      "batch": "Summer 2026",
-      "status": "Active",
-      "industries": [
-        "Industrials"
-      ],
-      "regions": [
-        "United States of America",
-        "America / Canada"
-      ],
-      "stage": "Early",
-      "app_video_public": false,
-      "demo_day_video_public": false,
-      "app_answers": null,
-      "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/operon"
     },
     {
       "id": 33012,
@@ -5590,7 +5550,7 @@
       "name": "machine0",
       "slug": "machine0",
       "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c00ce2cbd95a0e0d81ff55b96ce241fb3462c28b.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/0eb24a85015d2fd30115c143876496fed0a17210.png",
       "website": "https://machine0.io",
       "all_locations": "Paris, Île-de-France, France",
       "long_description": "machine0 is a CLI for agent compute: `machine0 new mybox` gives your agent a full cloud VM, billed by the minute, from small up to 60 vCPU / 240 GB and 8×H100s. Agents drive it themselves via CLI or MCP.\r\n\r\nAgent workloads are moving from ephemeral to always-on. A coding agent working on a hard feature runs 6-8 hours. Auto-research agents run for days. machine0 is the environment in which these agents run.",
@@ -6042,7 +6002,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": true,
+      "isHiring": false,
       "nonprofit": false,
       "batch": "Summer 2026",
       "status": "Active",
@@ -8415,7 +8375,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/1db7948d6861e68f3fa79c81509a04c4aea01614.png",
       "website": "https://karalabs.ai/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Kara is building diamond semiconductors. We begin with growing ultra-high purity diamond wafers for advanced hardware. Used in data centers, spacecrafts, RF systems, and quantum hardware, our diamond moves heat up to 5× better than copper, helping critical systems run cooler, faster, and more reliably. Diamond has spent centuries as a symbol. We are turning it into infrastructure.",
+      "long_description": "Kara is building diamond semiconductors. \r\n\r\nWe begin with growing ultra-high purity diamond wafers for advanced hardware. Used in data centers, spacecrafts, RF systems, and quantum hardware, our diamond moves heat up to 5× better than copper, helping critical systems run cooler, faster, and more reliably. \r\n\r\nDiamond has spent centuries as a symbol. We are turning it into infrastructure.",
       "one_liner": "Making Diamond Engineerable",
       "team_size": 3,
       "highlight_black": false,
@@ -8904,8 +8864,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/caa902826145e78311e27007937976e8663a9265.png",
       "website": "https://www.manufacturingintelligence.org",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Every custom part starts as a 2D drawing, and every drawing has to be reviewed before manufacturing begins. Today that means senior engineers checking dimensions, tolerances, and GD&T callouts by hand against ASME and ISO standards. It takes days, it bottlenecks release, and errors still slip through to the shop floor, where they become scrap and rework. Hera automates design review. Upload a drawing, get back every violation with the standard it breaks and where. Engineer-to-order manufacturers in aerospace, medical devices, and pressure vessels use Hera to release drawings faster and catch mistakes before they cost real money.",
-      "one_liner": "Hera catches thousand dollar errors before they hit the shop floor.",
+      "long_description": "At Hera, we build tools that help heavy engineering teams bring products to market up to 20× faster. Today, we work with manufacturers of data center ancillary equipment, renewable energy systems, robotics, heat exchangers, power plants and pressure vessels.\r\n",
+      "one_liner": "Hera is the design verification layer for heavy industry.",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -8915,7 +8875,10 @@
       "launched_at": 1784416117,
       "tags": [
         "B2B",
-        "Manufacturing"
+        "Design",
+        "3D Printing",
+        "Manufacturing",
+        "Industrial"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -9769,10 +9732,10 @@
       "slug": "amorphic-labs",
       "former_names": [],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/d15b721a8d0e299e74b3561f196bb056b93f1fd9.png",
-      "website": "https://www.amorphiclabs.com",
+      "website": "https://www.agentmuxer.com",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "The next billion software users are AI agents, yet fully autonomous agents remain impossible while every account, bill, and tool still runs through a human. We solve this for both agents and software vendors: vendors use us to let agents sign up and get billed directly, and to improve their agent experience across interfaces like MCP. Agents use us to find, acquire, and pay for what they need, including MCP servers, APIs, datasets, and skills.",
-      "one_liner": "Software Commerce Infrastructure for Agents",
+      "long_description": "The next billion software users are AI agents, yet agents still can't act on their own: every paid tool they need runs through a human making accounts, managing API keys, and guessing which provider is best. We are the capability marketplace built for agents: one MCP and one balance through which agents find, pay for, and use APIs, data, skills, other agents, and software at runtime, with every request routed to the best provider based on benchmarks from real tasks and outcome feedback from the agents themselves.",
+      "one_liner": "OpenRouter for Agent Capabilities",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -10769,9 +10732,9 @@
       ],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/b53aed7c2d61caf968cbcb61a42f6cd0f7f65ef9.png",
       "website": "https://www.mochatrade.com",
-      "all_locations": "San Francisco, CA, USA",
-      "long_description": "Mochatrade lets global traders trade perpetual futures on US stocks with up to 20x leverage. Access 50+ US stocks including TSLA, NVDA, AAPL. Mocha is fully self-custodial and no US brokerage account is needed. Traders on-ramp in local currencies and get professional-grade execution on the world's most liquid equities. Starting with India (140M+ demat account holders), and expanding across other markets.",
-      "one_liner": "US stock perps for Indian traders",
+      "all_locations": "New York City, NY, USA",
+      "long_description": "Mochatrade lets global traders trade top US stocks using perpetual futures. Access all US stocks including TSLA, NVDA, and AAPL, plus pre-IPO companies and commodities, no US brokerage account needed. Money in and out in local currency (UPI in India), with professional-grade execution on the world's most liquid equities. Starting with India (140M+ demat account holders), expanding across other markets. Backed by Coinfund, Coinbase, and Y Combinator.\r\n\r\n",
+      "one_liner": "US stock trading, unlocked for the globe",
       "team_size": 3,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -10779,7 +10742,9 @@
       "industry": "Fintech",
       "subindustry": "Fintech -> Consumer Finance",
       "launched_at": 1775162589,
-      "tags": [],
+      "tags": [
+        "Consumer Finance"
+      ],
       "tags_highlighted": [],
       "top_company": false,
       "isHiring": false,
@@ -14306,17 +14271,17 @@
       "website": "https://stablebrowse.ai/",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "",
-      "one_liner": "Help frontier labs build better models.",
+      "one_liner": "Building the Data Infrastructure layer for Physical AI. ",
       "team_size": 3,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
-      "industry": "B2B",
-      "subindustry": "B2B -> Infrastructure",
+      "industry": "Industrials",
+      "subindustry": "Industrials -> Manufacturing and Robotics",
       "launched_at": 1774843315,
       "tags": [
-        "Artificial Intelligence",
-        "API"
+        "Robotics",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -14325,8 +14290,8 @@
       "batch": "Spring 2026",
       "status": "Active",
       "industries": [
-        "B2B",
-        "Infrastructure"
+        "Industrials",
+        "Manufacturing and Robotics"
       ],
       "regions": [
         "United States of America",
@@ -35367,8 +35332,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/1f34cf0cf02c3e2059e48082daf0ddc693722515.png",
       "website": "https://floot.com",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Floot lets non-coders & entrepreneurs build real web apps that actually work. We’re taking a new approach by building everything from the ground up for AI.\r\n\r\n✨ Try building an app at floot.com\r\n\r\nExisting AI app builders fall short of enabling non-coders to build real, serious apps. They often:\r\n- Break down when building anything more than a prototype or toy app\r\n- Have non-coders stuck with errors they don’t understand\r\n- Require non-coders to handle multiple services designed for developers (e.g. for backend, database, hosting, etc)\r\n\r\nThe fundamental problem: these AI app builders just cobble together existing developer tools and slap AI on top, but these tools were designed for humans and not for AI.\r\n\r\nThe result? Non-coders get excited, start building, hit a wall, and then abandon their projects.\r\n\r\nFloot is purpose-built for AI. Our secret sauce:\r\n\r\n1) Instead of reusing a coding framework designed for humans, we created a specialized framework that dictates how AI should write code and how the code runs on our infrastructure. This allows us to enforce best practices, detect errors earlier, and give the best feedback to the AI. As a result, Floot can write better code and fix issues more effectively.\r\n\r\n2) Floot has the entire tech stack built-in (backend, database, hosting, etc) so building and managing an app feels seamless, especially for non-coders. And because we control every layer of the stack, we can optimize each layer for AI-first coding.\r\n\r\nBecause of this, non-coders can get more done with less time and prompting. They can finally build serious apps that work, instead of getting stuck in frustrating error loops and then abandoning their projects.\r\n\r\nWe also built a highly scalable hosting system directly on AWS so Floot apps can handle real traffic and business demands. This means non-coders can build, deploy, and scale their apps on a single platform seamlessly.\r\n\r\nPlus, Floot is really fun to use! Try building an app at floot.com",
-      "one_liner": "The easiest way for non-coders to build apps with AI.",
+      "long_description": "Floot is the layer where vibecoded software runs.\r\n\r\nSaaS is dead. Hundreds of millions of people already spend their day in Claude or ChatGPT - and increasingly, when they need an app, they won't buy one. They'll describe it, and it will exist.\r\n\r\nWe're building the infrastructure that makes that real. When Claude creates an app, it needs somewhere for that app to live: a backend, a database, hosting, a domain, the ability to scale, various services, maybe even to be able to work as a mobile app. Floot is that place - a full stack purpose-built for AI to operate, from a specialized framework that defines how AI writes and runs code, down to scalable hosting on AWS.\r\n\r\nThis means you can now build and ship real apps directly inside Claude and ChatGPT. Connect Floot, and the model you already pay for writes and debugs the code, shows a live preview, and publishes to your own domain. No need to wire up git, vercel, supabase and a dozen other providers. And no AI credits - every message runs on the subscription you already have, because we charge for the platform, not for a token markup.\r\n\r\nWe built Floot this way because we've watched the model layer commoditize - every serious builder writes good code now, including us. The lasting value isn't another agent between you and the model. It's the layer underneath, from wherever people already are. We're building Floot to be the home for all operation software, for the decades where most new software on earth is written by AI.\r\n\r\n✨ Try it: floot.com\r\n",
+      "one_liner": "The app platform inside Claude and ChatGPT.",
       "team_size": 4,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -35377,10 +35342,10 @@
       "subindustry": "B2B -> Engineering, Product and Design",
       "launched_at": 1753721322,
       "tags": [
+        "Artificial Intelligence",
         "SaaS",
         "No-code",
-        "Web Development",
-        "AI"
+        "Web Development"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -37190,8 +37155,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/09fa077504ffa74fa4dfd4ddd54dca0ee40c3525.png",
       "website": "https://www.theorahq.com",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Making India the global hub for trusted clinical trials with multimodal AI oversight.\r\n\r\nWe are building an AI chaperone for clinical trials: multimodal AI that verifies protocol-required actions in real time, checks data against source evidence, and flags compliance risks before they compromise the study.\r\n",
-      "one_liner": "The AI verification layer for trusted clinical trials in India.",
+      "long_description": "Datasets and environments to help healthcare agents succeed at complex tasks.",
+      "one_liner": "Building medical school for AI Agents",
       "team_size": 3,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -45064,12 +45029,12 @@
       "former_names": [
         "Sim Studio"
       ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/d30a05126efbe52d99aaa0a58ec1be0f2e4ae855.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/4376dcee0d9f629b17716a4c480cf0b33c46b8c6.png",
       "website": "https://sim.ai",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Sim enables fast-growing technical teams to build and deploy AI agent workflows. \r\n\r\n70,000+ developers are already using Sim, integrating with 1000+ apps and LLMs to streamline workflows with AI agents.",
-      "one_liner": "Open source platform to build AI agent workflows",
-      "team_size": 6,
+      "long_description": "Sim enables fast-growing technical teams to build and deploy AI agent workflows. \r\n\r\n100,000+ developers are already using Sim, integrating with 1000+ apps and LLMs to streamline workflows with AI agents.",
+      "one_liner": "The AI Workspace for Building and Managing AI Agents.",
+      "team_size": 8,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -47679,7 +47644,7 @@
       "website": "https://runcopycat.com",
       "all_locations": "Seattle, WA, USA",
       "long_description": "CopyCat builds AI specifically for the commercial insurance industry. We save brokers 5-10hrs hours a week by automating repetitive CSR and Sales tasks.",
-      "one_liner": "AI agents built for insurance. ",
+      "one_liner": "AI agents built for insurance brokers",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -47688,8 +47653,8 @@
       "subindustry": "Fintech -> Insurance",
       "launched_at": 1734580429,
       "tags": [
-        "Artificial Intelligence",
-        "Insurance"
+        "Insurance",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -80698,24 +80663,27 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/d8724ca6da40d81a8aadbd3cf9cf5fbaa58ac997.png",
       "website": "https://www.relari.ai/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Relari is building the infrastructure for trustworthy AI agents in the Software 3.0 era.\r\nWe’re the company behind Nuvi.dev — a natural language agent builder that turns plain-English specifications into intelligent, verifiable agents — as well as the open-source frameworks Agent Contract and continuous-eval, which ensure AI systems behave as intended.",
-      "one_liner": "AI Agent Builder for Software 3.0",
+      "long_description": "Relari is a robotics research company developing new ways for robots to learn dexterous manipulation from humans. We use human muscle signals (electromyography, or EMG), vision, motion, and force to capture physical intent and transfer it to robots.",
+      "one_liner": "Building dexterous robots that learn from humans",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
-      "industry": "B2B",
-      "subindustry": "B2B",
+      "industry": "Industrials",
+      "subindustry": "Industrials -> Manufacturing and Robotics",
       "launched_at": 1709879960,
-      "tags": [],
+      "tags": [
+        "Robotics"
+      ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": true,
+      "isHiring": false,
       "nonprofit": false,
       "batch": "Winter 2024",
       "status": "Active",
       "industries": [
-        "B2B"
+        "Industrials",
+        "Manufacturing and Robotics"
       ],
       "regions": [
         "United States of America",
@@ -90588,7 +90556,7 @@
       "all_locations": "New York City, NY, USA",
       "long_description": "Clearest Health is an AI-enabled revenue recovery platform for independent healthcare practices with underpaid out-of-network claims. Through verified IDR benchmarks, claim analysis, and audit-ready dispute support, Clearest helps providers strengthen No Surprises Act appeals and recover revenue that might otherwise be written off.",
       "one_liner": "AI revenue recovery for underpaid healthcare claims.",
-      "team_size": 3,
+      "team_size": 11,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -90596,11 +90564,11 @@
       "subindustry": "Healthcare -> Healthcare IT",
       "launched_at": 1686714264,
       "tags": [
+        "Artificial Intelligence",
         "SaaS",
         "Health Tech",
         "B2B",
-        "Healthcare IT",
-        "AI"
+        "Healthcare IT"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -184472,7 +184440,7 @@
         "Remote",
         "Partly Remote"
       ],
-      "stage": "Growth",
+      "stage": "Early",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -202663,7 +202631,7 @@
         "Remote",
         "Partly Remote"
       ],
-      "stage": "Growth",
+      "stage": "Early",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -204584,8 +204552,8 @@
       "former_names": [],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/324bfa1e5d16ce99b583a7336b9027c846e41503.png",
       "website": "https://www.anniecannons.com",
-      "all_locations": "New York City, NY, USA; Oakland, CA, USA",
-      "long_description": "AnnieCannons (AC) is a 501(c)3 nonprofit dedicated to training survivors of human trafficking and gender-based violence to be programmers, giving them both the economic and technological empowerment to invent solutions to overcome the hardships they have survived, and the capacity to support themselves and their families. \r\n",
+      "all_locations": "New York City, NY, USA; Remote",
+      "long_description": "AnnieCannons' mission is to train, prepare, and connect human trafficking survivors of sustainable careers in tech. Through a trauma-informed coding and workforce development program, AnnieCannons trains survivors to become professional software developers and AI engineers and places them in paid apprenticeships with partner companies through a model that converts at over 80%, with median starting salaries of $75,000 or more. The program is tailored for people who have faced compounded barriers including poverty, housing insecurity, interrupted education, and trauma across multiple systems. ",
       "one_liner": "Connecting Survivors to Careers in Tech",
       "team_size": 14,
       "highlight_black": false,
@@ -204612,7 +204580,7 @@
         "United States of America",
         "America / Canada",
         "Remote",
-        "Partly Remote"
+        "Fully Remote"
       ],
       "stage": "Early",
       "app_video_public": false,
@@ -270385,7 +270353,7 @@
         "United States of America",
         "America / Canada"
       ],
-      "stage": "Growth",
+      "stage": "Early",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -275440,7 +275408,7 @@
         "United States of America",
         "America / Canada"
       ],
-      "stage": "Growth",
+      "stage": "Early",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,

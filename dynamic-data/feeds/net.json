@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-08-24T18:28:38.735Z",
+  "updatedAt": "2026-08-25T01:13:23.933Z",
   "items": [
     {
       "guid": "https://devblogs.microsoft.com/dotnet/?p=60442",
@@ -175,7 +175,15 @@
       "summary": "C# 15 ships with .NET 11. It adds union types, closed hierarchies, a preview of the updated unsafe model, and a few smaller changes that remove everyday ceremony.\nThe post Explore new features available in C# 15 preview appeared first on .NET Blog.",
       "author": "Bill Wagner",
       "publishedAt": "2026-08-24T17:00:00.000Z"
+    },
+    {
+      "guid": "https://devblogs.microsoft.com/dotnet/?p=60645",
+      "title": "From dotnet run to Foundry Hosted Agent in 3 lines of C#",
+      "link": "https://devblogs.microsoft.com/dotnet/from-dotnet-run-to-foundry-hosted-agent-in-3-lines-of-csharp/",
+      "summary": "You built an agent with Microsoft Agent Framework and it works great on your machine. Now what? Turns out deploying it to production takes 1 NuGet package, 3 lines of C#, and 2 commands. Let's do it.\nThe post From dotnet run to Foundry Hosted Agent in 3 lines of C# appeared first on .NET Blog.",
+      "author": "Bruno Capuano",
+      "publishedAt": "2026-08-24T19:00:00.000Z"
     }
   ],
-  "totalIndexed": 21
+  "totalIndexed": 22
 }

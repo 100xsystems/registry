@@ -1,83 +1,109 @@
-# YC Company Changes for 2026-08-24
+# YC Company Changes for 2026-08-25
 
 - Previous total: 6192
-- Current total: 6192
+- Current total: 6191
 - Added: 0
-- Removed: 0
-- Updated: 15
+- Removed: 1
+- Updated: 19
 
+
+## Removed Companies
+
+- Operon (Summer 2026)
 
 ## Updated Companies
 
+### [Chute](https://www.ycombinator.com/companies/chute)
+
+- `stage`: Growth → Early
+
+### [Comprehend](https://www.ycombinator.com/companies/comprehend)
+
+- `stage`: Growth → Early
+
+### [AnnieCannons](https://www.ycombinator.com/companies/anniecannons)
+
+- `all_locations`: New York City, NY, USA; Oakland, CA, USA → New York City, NY, USA; Remote
+- `regions`: United States of America,America / Canada,Remote,Partly Remote → United States of America,America / Canada,Remote,Fully Remote
+
+### [Kalshi](https://www.ycombinator.com/companies/kalshi)
+
+- `stage`: Growth → Early
+
 ### [Perceptive Technologies](https://www.ycombinator.com/companies/perceptive-technologies)
 
-- `tags`: Robotics,Health Tech,Medical Devices,AI → Artificial Intelligence,Robotics,Health Tech,Medical Devices
+- `stage`: Growth → Early
 
-### [True3D](https://www.ycombinator.com/companies/true3d)
+### [Clearest Health](https://www.ycombinator.com/companies/clearest-health)
 
-- `name`: Outpaint.com → True3D
-- `slug`: outpaintcom → true3d
-- `former_names`: True3D,Hyperplane,Hackpack,LeetDesign,QuickVid.ai,TutorAI.me,QuickVid.ai,QuickVid,True3D,True3D Labs → True3D,Hyperplane,Hackpack,LeetDesign,QuickVid.ai,TutorAI.me,QuickVid.ai,QuickVid,True3D,True3D Labs
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/76c9f51f32ec78b0012799fa749d0661d0d18633.png → https://bookface-images.s3.amazonaws.com/small_logos/a242a0c2ce6b1ca1518d1744187f98a3bf8eade9.png
-- `website`: https://outpaint.com/ → https://www.true3d.com/
-- `one_liner`: AI that expands any video to fit any screen. → Building the next generation of visual media
-- `team_size`: 4 → 5
-- `tags`: Video,Media,Infrastructure,AI → Artificial Intelligence,Video,Media,Infrastructure
+- `team_size`: 3 → 11
+- `tags`: SaaS,Health Tech,B2B,Healthcare IT,AI → Artificial Intelligence,SaaS,Health Tech,B2B,Healthcare IT
 
-### [Carbonfact](https://www.ycombinator.com/companies/carbonfact)
+### [Relari](https://www.ycombinator.com/companies/relari)
+
+- `one_liner`: AI Agent Builder for Software 3.0 → Building dexterous robots that learn from humans
+- `industry`: B2B → Industrials
+- `subindustry`: B2B → Industrials -> Manufacturing and Robotics
+- `tags`:  → Robotics
+- `isHiring`: true → false
+- `industries`: B2B → Industrials,Manufacturing and Robotics
+
+### [CopyCat](https://www.ycombinator.com/companies/copycat)
+
+- `one_liner`: AI agents built for insurance.  → AI agents built for insurance brokers
+- `tags`: Artificial Intelligence,Insurance → Insurance,AI
+
+### [Sim](https://www.ycombinator.com/companies/sim)
+
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/d30a05126efbe52d99aaa0a58ec1be0f2e4ae855.png → https://bookface-images.s3.amazonaws.com/small_logos/4376dcee0d9f629b17716a4c480cf0b33c46b8c6.png
+- `one_liner`: Open source platform to build AI agent workflows → The AI Workspace for Building and Managing AI Agents.
+- `team_size`: 6 → 8
+
+### [Theora](https://www.ycombinator.com/companies/theora)
+
+- `one_liner`: The AI verification layer for trusted clinical trials in India. → Building medical school for AI Agents
+
+### [Floot](https://www.ycombinator.com/companies/floot)
+
+- `one_liner`: The easiest way for non-coders to build apps with AI. → The app platform inside Claude and ChatGPT.
+- `tags`: SaaS,No-code,Web Development,AI → Artificial Intelligence,SaaS,No-code,Web Development
+
+### [StableBrowse](https://www.ycombinator.com/companies/stablebrowse)
+
+- `one_liner`: Help frontier labs build better models. → Building the Data Infrastructure layer for Physical AI. 
+- `industry`: B2B → Industrials
+- `subindustry`: B2B -> Infrastructure → Industrials -> Manufacturing and Robotics
+- `tags`: Artificial Intelligence,API → Robotics,AI
+- `industries`: B2B,Infrastructure → Industrials,Manufacturing and Robotics
+
+### [Mochatrade](https://www.ycombinator.com/companies/mochatrade)
+
+- `all_locations`: San Francisco, CA, USA → New York City, NY, USA
+- `one_liner`: US stock perps for Indian traders → US stock trading, unlocked for the globe
+- `tags`:  → Consumer Finance
+
+### [Amorphic Labs](https://www.ycombinator.com/companies/amorphic-labs)
+
+- `website`: https://www.amorphiclabs.com → https://www.agentmuxer.com
+- `one_liner`: Software Commerce Infrastructure for Agents → OpenRouter for Agent Capabilities
+
+### [HERA](https://www.ycombinator.com/companies/manufacturingintelligence)
+
+- `one_liner`: Hera catches thousand dollar errors before they hit the shop floor. → Hera is the design verification layer for heavy industry.
+- `tags`: B2B,Manufacturing → B2B,Design,3D Printing,Manufacturing,Industrial
+
+### [Traceforce](https://www.ycombinator.com/companies/traceforce)
 
 - `isHiring`: true → false
 
-### [Onshore](https://www.ycombinator.com/companies/onshore)
+### [machine0](https://www.ycombinator.com/companies/machine0)
 
-- `isHiring`: true → false
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/c00ce2cbd95a0e0d81ff55b96ce241fb3462c28b.png → https://bookface-images.s3.amazonaws.com/small_logos/0eb24a85015d2fd30115c143876496fed0a17210.png
 
-### [Soundry AI](https://www.ycombinator.com/companies/soundry-ai)
+### [Touchy](https://www.ycombinator.com/companies/touchy)
 
-- `status`: Active → Acquired
+- `tags`: Artificial Intelligence,Consumer,Productivity,AI Assistant → Consumer,Productivity,AI,AI Assistant
 
-### [OneTriangle](https://www.ycombinator.com/companies/onetriangle)
+### [Lantern AI](https://www.ycombinator.com/companies/lantern-ai)
 
-- `name`: TrustAI → OneTriangle
-- `slug`: trustai → onetriangle
-- `former_names`: EvalAI,TrustAI Labs → EvalAI,TrustAI Labs,TrustAI
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/882660c8a18b052eaabe5a10460a291038b111a7.png → https://bookface-images.s3.amazonaws.com/small_logos/107ba922031da90f3c856fadf8e7d472f94bfa62.png
-- `website`: https://trytrust.ai → https://onetriangle.ai/
-- `tags`: Artificial Intelligence,Smart Packaging,Open Source,Infrastructure → Smart Packaging,Open Source,Infrastructure,AI
-
-### [Totalis](https://www.ycombinator.com/companies/totalis)
-
-- `isHiring`: true → false
-
-### [Light Anchor](https://www.ycombinator.com/companies/light-anchor)
-
-- `all_locations`: San Francisco, CA, USA → Seoul, Seoul, South Korea
-- `regions`: United States of America,America / Canada → South Korea,East Asia
-
-### [Mass Magnetics](https://www.ycombinator.com/companies/mass-magnetics)
-
-- `tags`: Hard Tech,Drones,Manufacturing → Hard Tech,Robotics,Drones,Manufacturing,Defense
-
-### [Vestris](https://www.ycombinator.com/companies/vestris)
-
-- `isHiring`: true → false
-
-### [Ekho Labs](https://www.ycombinator.com/companies/ekho-labs)
-
-- `one_liner`: Decisions for disrupted freight → World Model for Freight
-
-### [Marengo](https://www.ycombinator.com/companies/marengo)
-
-- `team_size`: 10 → 5
-
-### [TovenAI](https://www.ycombinator.com/companies/tovenai)
-
-- `tags`: Fintech,Regtech,AI → Artificial Intelligence,Fintech,Compliance,Regtech
-
-### [PRINCEPS](https://www.ycombinator.com/companies/princeps)
-
-- `tags`: Machine Learning,AI → Artificial Intelligence,Machine Learning
-
-### [Sentient OS](https://www.ycombinator.com/companies/sentient-os)
-
-- `launched_at`: 1785372714 → 1787571928
+- `tags`: Human Resources,Recruiting,HR Tech → Artificial Intelligence,Human Resources,Recruiting,HR Tech,Talent Acquisition
