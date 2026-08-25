@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-08-20T06:54:28.167Z",
+  "updatedAt": "2026-08-25T18:28:12.945Z",
   "items": [
     {
       "guid": "t-j-maher::https://www.tjmaher.com/2026/06/does-giving-presentation-via-zoom-to.html",
@@ -271,7 +271,15 @@
       "summary": "Earlier, we went over how we could create scripts in the package.json file of our Playwright framework to add typechecking, linting, and formatting your code with prettier. \n\nWant to see the entire bun-create-playwright project? It is on tinyurl.com/bun-create-playwright!\n\nWith this post, we will…",
       "author": "T.J. Maher",
       "publishedAt": "2026-08-20T02:13:32.812Z"
+    },
+    {
+      "guid": "t-j-maher::https://www.tjmaher.com/2026/08/setting-up-ci-cd-pipeline-with-gitlab.html",
+      "title": "Setting up a CI/ CD pipeline with GitLab: Quality, Test and Report",
+      "link": "https://www.tjmaher.com/2026/08/setting-up-ci-cd-pipeline-with-gitlab.html",
+      "summary": "So far, we have reviewed how to review code with ES Lint + Prettier and Typecheck, how to set up and run smoke tests, how to run all Playwright + TypeScript tests, and reviewed the HTML report of results.\n\n\nIn this post, we are going to set up a three stage GitLab CI/ CD pipeline that will run…",
+      "author": "T.J. Maher",
+      "publishedAt": "2026-08-25T02:28:52.253Z"
     }
   ],
-  "totalIndexed": 33
+  "totalIndexed": 34
 }

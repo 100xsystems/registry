@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-08-24T12:48:36.147Z",
+  "updatedAt": "2026-08-25T18:28:15.060Z",
   "items": [
     {
       "guid": "https://thedailywtf.com/articles/classic-wtf-my-many-girlfriends",
@@ -231,7 +231,15 @@
       "summary": "The opposite of meritocracy is kakistocracy: the worst and least-qualified are the ones who rise to the top.\nGet real familiar with that word, dear readers. I think you'll need it.\nIf anyone can back me up on this, it's our submitter, Jared B:\n\nI am a teacher by profession, and worked for a year at…",
       "author": "Ellis Morning",
       "publishedAt": "2026-08-24T06:30:00.000Z"
+    },
+    {
+      "guid": "https://thedailywtf.com/articles/both-ways-bug-me",
+      "title": "Representative Line: Both Ways Bug Me",
+      "link": "https://thedailywtf.com/articles/both-ways-bug-me",
+      "summary": "There are many cases where some sort of debugging block sneaks by, especially cases where we see preprocessors or templates working, which leave us with nonsense like if (true == false) running in production. But Codemonkey found a new twist on that sort of thing, in a SQL query being run in…",
+      "author": "Remy Porter",
+      "publishedAt": "2026-08-25T06:30:00.000Z"
     }
   ],
-  "totalIndexed": 28
+  "totalIndexed": 29
 }

@@ -9,7 +9,7 @@
     "edge-computing",
     "nextjs"
   ],
-  "updatedAt": "2026-08-24T18:28:48.294Z",
+  "updatedAt": "2026-08-25T18:28:14.249Z",
   "items": [
     {
       "guid": "vercel-blog::https://vercel.com/changelog/ai-gateway-now-supports-streaming-transcription",
@@ -4410,7 +4410,79 @@
       "summary": "Apps and agents built in v0 can now securely connect to , including Slack, Google, Notion, GitHub, and Salesforce, through .more than 100 servicesVercel Connect\nAsk v0 to connect your app to a service. It opens the connector setup and guides you through it.\nYou set up each connector once for your…",
       "author": "Vishal Yathish",
       "publishedAt": "2026-08-24T00:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/speed-insights-free-tier",
+      "title": "Speed Insights adds a free tier",
+      "link": "https://vercel.com/changelog/speed-insights-free-tier",
+      "summary": "now has a free tier that gives you a high-level performance overview from your real users. The paid product, now called Speed Insights Plus, includes deeper diagnostics and historical data. If you were already paying for Speed Insights, only the name has changed, your capabilities and pricing stay…",
+      "author": "Damien Simonin Feugas",
+      "publishedAt": "2026-08-25T16:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/blog/the-end-of-credential-sprawl-for-agents",
+      "title": "The end of credential sprawl for agents",
+      "link": "https://vercel.com/blog/the-end-of-credential-sprawl-for-agents",
+      "summary": "Every useful agent reaches beyond your codebase. It posts to Slack, opens pull requests, queries Snowflake, or calls an internal API. That reach is what makes it valuable, and it's also where the risk lives, because for years, granting it meant provisioning a long-lived token and hoping it never…",
+      "author": "Hedi Zandi",
+      "publishedAt": "2026-08-25T04:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/minimax-m3-and-m2-7-are-free-on-ai-gateway",
+      "title": "MiniMax M3 and M2.7 are free on AI Gateway",
+      "link": "https://vercel.com/changelog/minimax-m3-and-m2-7-are-free-on-ai-gateway",
+      "summary": "and  are free on AI Gateway via GMI Cloud through Sunday, September 6.MiniMax M3M2.7\nUse the -free model IDs ( or ), which route to GMI Cloud. When the free period ends, the IDs will error:minimax/minimax-m3-freeminimax/minimax-m2.7-free\nOr keep the model ID () and put GMI Cloud as the preferred…",
+      "author": "Zachary Chen",
+      "publishedAt": "2026-08-25T00:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/wan-3-0-now-available-on-ai-gateway",
+      "title": "Wan 3.0 now available on AI Gateway",
+      "link": "https://vercel.com/changelog/wan-3-0-now-available-on-ai-gateway",
+      "summary": "is now available on AI Gateway as .Wan 3.0 from Alibabaalibaba/wan-v3.0-video\nOne model covers text to video, image to video, first and last frame conditioning, and reference-based generation, and it takes image, video, and audio as references. Clips run up to 30 seconds at 30fps, in 480p, 720p, or…",
+      "author": "Josh Lipman",
+      "publishedAt": "2026-08-25T00:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/ai-gateway-now-supports-asynchronous-video-generation",
+      "title": "AI Gateway now supports asynchronous video generation",
+      "link": "https://vercel.com/changelog/ai-gateway-now-supports-asynchronous-video-generation",
+      "summary": "on AI Gateway can now run asynchronously. Video generation\nBy default,  keeps one HTTP request to AI Gateway open until the result is ready. Because video generation can take seconds or minutes, that request can exceed request timeouts.generateVideo\nWith asynchronous generation, your application…",
+      "author": "Kevin Dawkins",
+      "publishedAt": "2026-08-25T00:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/vercel-connect-ga",
+      "title": "Vercel Connect is now generally available",
+      "link": "https://vercel.com/changelog/vercel-connect-ga",
+      "summary": "is now generally available on all plans and in . Instead of storing long-lived provider secrets, your code requests short-lived, scoped tokens at runtime. Deployments authenticate with their existing Vercel OIDC identity. Each token is scoped to the task, refreshed automatically, and expires on its…",
+      "author": "Hedi Zandi",
+      "publishedAt": "2026-08-25T00:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/chat-sdk-slack-enterprise-grid",
+      "title": "Chat SDK now supports Slack Enterprise Grid",
+      "link": "https://vercel.com/changelog/chat-sdk-slack-enterprise-grid",
+      "summary": "Chat SDK's Slack adapter now supports .Slack Enterprise Grid\nBots installed org-wide work across every workspace, with correct token resolution, tenant-scoped caches, and event retry deduplication.\nThe adapter now stores org-wide installations by enterprise ID. This matches how tokens are resolved…",
+      "author": "Ben Sabic",
+      "publishedAt": "2026-08-25T00:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/notion-chat-sdk",
+      "title": "Bring your agent to Notion with Chat SDK",
+      "link": "https://vercel.com/changelog/notion-chat-sdk",
+      "summary": "Your team already works in Notion. Now your agent can too.\nWith the new  for Chat SDK, the same agent you run on Slack, Discord, GitHub, Teams, or WhatsApp can join comment discussions on your Notion pages, no separate codebase required.Notion adapter\nEach Notion page maps to a channel and each…",
+      "author": "Ben Sabic",
+      "publishedAt": "2026-08-25T00:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/chat-sdk-now-supports-xchat",
+      "title": "Chat SDK now supports XChat",
+      "link": "https://vercel.com/changelog/chat-sdk-now-supports-xchat",
+      "summary": "You can now build bots that hold end-to-end encrypted 1:1 and group conversations on XChat with the new  for Chat SDK.XChat adapter\nThe adapter handles all encryption, key management, and signature verification automatically. Bots can also message users first, as long as the user has encrypted chat…",
+      "author": "Josh Singh",
+      "publishedAt": "2026-08-25T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 550
+  "totalIndexed": 559
 }

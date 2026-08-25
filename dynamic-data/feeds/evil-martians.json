@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-08-19T18:22:33.882Z",
+  "updatedAt": "2026-08-25T18:28:06.186Z",
   "items": [
     {
       "guid": "evil-martians::https://evilmartians.com/chronicles/which-ai-actually-reads-your-site-two-months-of-llm-traffic-measured",
@@ -207,7 +207,15 @@
       "summary": "Authors: Artur Petrov, Backend Engineer, Vladimir Dementyev, Principal Backend Engineer, and Travis Turner, Tech Editor\nTopics: Rails, DX, Performance, Ruby\n\nRails boot time is a DX metric in the AI age: meet require-profiler, learn to actually read sampling profilers, and see the pit stop that cut…",
       "author": "Artur Petrov",
       "publishedAt": "2026-08-19T00:00:00.000Z"
+    },
+    {
+      "guid": "evil-martians::https://evilmartians.com/chronicles/access-control-for-ai-on-rails-gating-sql-with-action-policy",
+      "title": "Access control for AI agents on Rails: gating SQL with Action Policy",
+      "link": "https://evilmartians.com/chronicles/access-control-for-ai-on-rails-gating-sql-with-action-policy",
+      "summary": "Authors: Igor Platonov, Backend Engineer, and Travis Turner, Tech Editor\nTopics: AI, Rails, Open Source, Ruby, LLMs\n\nOur Rails AI assistant had read-only SQL access and could still return peer review scores. Learn how we kept open-ended analytics in an in-app AI assistant while making database…",
+      "author": "Igor Platonov",
+      "publishedAt": "2026-08-25T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 25
+  "totalIndexed": 26
 }

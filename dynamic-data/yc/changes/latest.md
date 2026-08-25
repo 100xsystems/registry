@@ -1,78 +1,38 @@
 # YC Company Changes for 2026-08-25
 
-- Previous total: 6191
-- Current total: 6190
-- Added: 0
-- Removed: 1
-- Updated: 13
+- Previous total: 6190
+- Current total: 6191
+- Added: 1
+- Removed: 0
+- Updated: 5
 
 
-## Removed Companies
+## Added Companies
 
-- Andustry (Spring 2026)
+- [Lightfield](https://www.ycombinator.com/companies/lightfield) (Fall 2026) — AI that works for in-house legal teams
 
 ## Updated Companies
 
-### [Chute](https://www.ycombinator.com/companies/chute)
+### [Givefront](https://www.ycombinator.com/companies/givefront)
 
-- `stage`: Early → Growth
+- `team_size`: 4 → 6
 
-### [Comprehend](https://www.ycombinator.com/companies/comprehend)
-
-- `stage`: Early → Growth
-
-### [Microhealth](https://www.ycombinator.com/companies/microhealth)
-
-- `all_locations`: CT, Spain; Remote → Claymont, DE, USA; Remote
-- `one_liner`: Digital hematology → Rare Disease-Focused Care Delivery and Evidence Generation Platform
-- `team_size`: 10 → 25
-- `tags`: Digital Health,Healthcare → Digital Health,Healthcare,AI
-- `regions`: Spain,Europe,Remote,Fully Remote → United States of America,America / Canada,Remote,Fully Remote
-
-### [Kalshi](https://www.ycombinator.com/companies/kalshi)
-
-- `stage`: Early → Growth
-
-### [Perceptive Technologies](https://www.ycombinator.com/companies/perceptive-technologies)
-
-- `stage`: Early → Growth
-
-### [Sei AI](https://www.ycombinator.com/companies/sei-ai)
-
-- `tags`: Artificial Intelligence,AI Assistant → AI,AI Assistant
-
-### [Fuse AI](https://www.ycombinator.com/companies/fuse-ai)
-
-- `one_liner`: #1 AI Platform for Outbound Sales → Agentic Sales Platform
-
-### [Char](https://www.ycombinator.com/companies/char)
-
-- `tags`: SaaS,Productivity,Open Source,AI,AI Assistant → Artificial Intelligence,SaaS,Productivity,Open Source,AI Assistant
-
-### [Turnstone](https://www.ycombinator.com/companies/turnstone)
-
-- `name`: Crow → Turnstone
-- `slug`: crow → turnstone
-- `former_names`:  → Crow
-- `website`: https://www.usecrow.ai/ → https://myturnstone.ai
-- `one_liner`:  → Work with agents that already know you
-- `tags`:  → Artificial Intelligence
-
-### [AquaShield](https://www.ycombinator.com/companies/aquashield)
+### [YouShift](https://www.ycombinator.com/companies/youshift)
 
 - `isHiring`: false → true
 
-### [Edgerun](https://www.ycombinator.com/companies/edgerun)
+### [Tesora](https://www.ycombinator.com/companies/tesora)
 
-- `app_video_public`: true → false
+- `industry`: B2B → Fintech
+- `subindustry`: B2B -> Analytics → Fintech -> Insurance
+- `tags`: Artificial Intelligence,API,Insurance → API,Insurance,AI
+- `industries`: B2B,Analytics → Fintech,Insurance
 
-### [IMPACT Drones](https://www.ycombinator.com/companies/impact-drones)
+### [Sava](https://www.ycombinator.com/companies/savahq)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/51e28a022e68117f55cef18f71defaef380f1766.png → https://bookface-images.s3.amazonaws.com/small_logos/c7df3a5c9dfd6e7d9865e24f95f172c997a7183b.png
-- `tags`: Hardware,Drones,Swarm Robotics,AI → Artificial Intelligence,Hardware,Drones,Swarm Robotics
+- `team_size`: 3 → 7
 
-### [OpenTag](https://www.ycombinator.com/companies/opentag)
+### [Pennant](https://www.ycombinator.com/companies/pennant)
 
-- `former_names`: Gini Agent,Gini → Gini Agent,Gini,OpenTag,Open Tag
-- `website`: https://tryopentag.com/ → https://www.tryopentag.com/
-- `tags`: AIOps,B2B,Workflow Automation,Enterprise Software,AI → AIOps,Artificial Intelligence,B2B,Workflow Automation,Enterprise Software
+- `one_liner`: The Corporate Governance OS for Public Markets → The World Model for Corporate Governance
+- `tags`: Artificial Intelligence,Fintech,Investing → Fintech,Investing,AI

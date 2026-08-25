@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-08-25T12:44:52.029Z",
+  "updatedAt": "2026-08-25T18:28:05.209Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -1145,7 +1145,15 @@
       "summary": "Scenario-Tree Testing in PostgreSQL: Every Authored Branch, Shared History, Before COMMIT#\nExpress the branching scenarios of your business logic as a directory tree; walk it with\nsavepoints so each branch inherits its history instead of rebuilding it; and let the walk\ndecide whether your…",
       "author": null,
       "publishedAt": "2026-08-25T00:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9ta",
+      "title": "Gülçin Yıldırım Jelínek: Read your writes: WAIT FOR in PostgreSQL 19",
+      "link": "https://postgr.es/p/9ta",
+      "summary": "PostgreSQL 19 introduces a new SQL command, WAIT FOR, that lets a session block until WAL has reached a specific position. This gives us read-your-writes consistency on asynchronous replicas without paying the synchronous replication tax.\nWAIT FOR LSN 'lsn' WITH ( option [, ...] ) ];\nwhere option…",
+      "author": null,
+      "publishedAt": "2026-08-25T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 142
+  "totalIndexed": 143
 }

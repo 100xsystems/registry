@@ -8,7 +8,7 @@
     "linux",
     "cloud-native"
   ],
-  "updatedAt": "2026-08-24T18:28:39.165Z",
+  "updatedAt": "2026-08-25T18:28:05.076Z",
   "items": [
     {
       "guid": "redhat::https://www.redhat.com/ja/sitemap.xml",
@@ -745,7 +745,39 @@
       "summary": "In this article we're going to help you build the vocabulary you need to compare AI models before you start designing infrastructure around them. We'll talk about what a model is and the main types enterprises use, how to read names and packaging when you self-host, and what size, tokens, and…",
       "author": null,
       "publishedAt": "2026-08-24T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.redhat.com/en/blog/streamlining-container-security-red-hat-hardened-images-now-supported-aws-inspectorscan-api-and-ecr-basic-scanning",
+      "title": "Streamlining container security: Red Hat Hardened Images now supported in AWS InspectorScan API and ECR Basic scanning",
+      "link": "https://www.redhat.com/en/blog/streamlining-container-security-red-hat-hardened-images-now-supported-aws-inspectorscan-api-and-ecr-basic-scanning",
+      "summary": "Software security teams can face an overwhelming influx of vulnerability alerts, often stemming from non-essential packages bundled inside traditional container base images. When developers inherit base images packed with unneeded tools, shells, and package managers, security teams end up triaging…",
+      "author": null,
+      "publishedAt": "2026-08-25T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.redhat.com/en/blog/preparing-openstack-post-quantum-era-systematic-approach-crypto-agility",
+      "title": "Preparing OpenStack for the post-quantum era: A systematic approach to crypto-agility",
+      "link": "https://www.redhat.com/en/blog/preparing-openstack-post-quantum-era-systematic-approach-crypto-agility",
+      "summary": "OpenStack powers clouds used by some of the most security-sensitive organizations on the planet: government agencies, telecommunications providers, financial institutions, and healthcare systems. Behind every API call, every stored secret, and every tenant workload, cryptography quietly holds the…",
+      "author": null,
+      "publishedAt": "2026-08-25T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.redhat.com/en/blog/paying-it-forward-how-mentorship-comes-full-circle-early-talent",
+      "title": "Paying it forward: How mentorship comes full circle for early talent",
+      "link": "https://www.redhat.com/en/blog/paying-it-forward-how-mentorship-comes-full-circle-early-talent",
+      "summary": "Stepping into an early-career role is a pivotal experience, and having the right support system can make all the difference. Red Hat interns have the opportunity to tackle real-life business challenges, which helps them better understand the career paths that interest them. And they give back to…",
+      "author": null,
+      "publishedAt": "2026-08-25T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.redhat.com/en/blog/beyond-benchmarks-5-pillars-ai-evaluation-systems",
+      "title": "Beyond benchmarks: The 5 pillars of AI evaluation systems",
+      "link": "https://www.redhat.com/en/blog/beyond-benchmarks-5-pillars-ai-evaluation-systems",
+      "summary": "As AI agents move from demos into production, teams are discovering that benchmark scores alone rarely translate into business value. Routinely, a new frontier model is released, climbs to the top of the benchmark leaderboards, and enters production, but business metrics and code velocity remain…",
+      "author": null,
+      "publishedAt": "2026-08-25T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 92
+  "totalIndexed": 96
 }
