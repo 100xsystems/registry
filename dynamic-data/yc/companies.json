@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-08-25T06:56:28.935Z",
-  "count": 6191,
+  "fetchedAt": "2026-08-25T12:45:11.440Z",
+  "count": 6190,
   "companies": [
     {
       "id": 36348,
@@ -600,10 +600,12 @@
       "slug": "opentag",
       "former_names": [
         "Gini Agent",
-        "Gini"
+        "Gini",
+        "OpenTag",
+        "Open Tag"
       ],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/3523399de943bf46e546a3bb703261d27fd2fa69.png",
-      "website": "https://tryopentag.com/",
+      "website": "https://www.tryopentag.com/",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "OpenTag - is an AI coworker that lives in your Slack and Teams. It has full context on your company, so it can answer questions, join calls, and take real work off your team's plate. OpenTag also keeps your company wiki and knowledge base up to date automatically, so your team's knowledge never goes stale or walks out the door.",
       "one_liner": "Model Agnostic Claude Tag",
@@ -616,10 +618,10 @@
       "launched_at": 1787093671,
       "tags": [
         "AIOps",
+        "Artificial Intelligence",
         "B2B",
         "Workflow Automation",
-        "Enterprise Software",
-        "AI"
+        "Enterprise Software"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -7619,7 +7621,7 @@
       "name": "IMPACT Drones",
       "slug": "impact-drones",
       "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/51e28a022e68117f55cef18f71defaef380f1766.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c7df3a5c9dfd6e7d9865e24f95f172c997a7183b.png",
       "website": "https://www.impact-drones.com",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "IMPACT builds autonomous interceptor drones that ship in sealed containers. The box sits at the site it protects, data centers, power grids, airports, bases, with no crew on the pad. When sensors cue a hostile drone, an interceptor pierces its own frangible lid, launches, and rams the target, guided by onboard vision that keeps working when GPS is jammed. Legacy effectors cost $1M+ per shot against $30k threats; ours cost less than the threat and scale with the swarm, the same class of interceptor already downing Shahed drones over Ukraine. Sites subscribe to protection instead of buying missiles, hardware, reloads and monitoring included: Air Defense as a Service. 180M+ USD in signed letters of intent.",
@@ -7632,10 +7634,10 @@
       "subindustry": "Industrials -> Defense",
       "launched_at": 1785702345,
       "tags": [
+        "Artificial Intelligence",
         "Hardware",
         "Drones",
-        "Swarm Robotics",
-        "AI"
+        "Swarm Robotics"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -9340,7 +9342,7 @@
         "America / Canada"
       ],
       "stage": "Early",
-      "app_video_public": true,
+      "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
       "question_answers": false,
@@ -11965,7 +11967,7 @@
       "tags": [],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": false,
+      "isHiring": true,
       "nonprofit": false,
       "batch": "Spring 2026",
       "status": "Active",
@@ -15945,44 +15947,6 @@
       "url": "https://www.ycombinator.com/companies/zenbu-2"
     },
     {
-      "id": 31367,
-      "name": "Andustry",
-      "slug": "andustry",
-      "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/2189a7097412cbf54bc66b9495393ddfceb6282a.png",
-      "website": "http://andustry.com/",
-      "all_locations": "Munich, BY, Germany",
-      "long_description": "Andustry is an AI-native hardware lab.",
-      "one_liner": "",
-      "team_size": 2,
-      "highlight_black": false,
-      "highlight_latinx": false,
-      "highlight_women": false,
-      "industry": "Industrials",
-      "subindustry": "Industrials",
-      "launched_at": 1773916364,
-      "tags": [],
-      "tags_highlighted": [],
-      "top_company": false,
-      "isHiring": false,
-      "nonprofit": false,
-      "batch": "Spring 2026",
-      "status": "Active",
-      "industries": [
-        "Industrials"
-      ],
-      "regions": [
-        "Germany",
-        "Europe"
-      ],
-      "stage": "Early",
-      "app_video_public": false,
-      "demo_day_video_public": false,
-      "app_answers": null,
-      "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/andustry"
-    },
-    {
       "id": 31366,
       "name": "Nine Fives",
       "slug": "nine-fives",
@@ -19271,14 +19235,16 @@
     },
     {
       "id": 31244,
-      "name": "Crow",
-      "slug": "crow",
-      "former_names": [],
+      "name": "Turnstone",
+      "slug": "turnstone",
+      "former_names": [
+        "Crow"
+      ],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/83da57a5a7cd9d76b06d6dda92bb99843ca0edf1.png",
-      "website": "https://www.usecrow.ai/",
+      "website": "https://myturnstone.ai",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "",
-      "one_liner": "",
+      "long_description": "Turnstone is the AI workspace where your agents already know you. Connect your apps (e.g. email, calendar, Slack, Drive) and your local folders. Turnstone turns all of it into your second brain and continuously updates it.\r\n\r\nSpin up agents (e.g. chief of staff, research, GTM) that all share that brain, so you stop re-explaining yourself and start getting real work done.\r\n\r\nIt all lives on your machine and runs on any model you already pay for. Ask your agent once, and it's done.",
+      "one_liner": "Work with agents that already know you",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -19286,7 +19252,9 @@
       "industry": "B2B",
       "subindustry": "B2B",
       "launched_at": 1768862675,
-      "tags": [],
+      "tags": [
+        "Artificial Intelligence"
+      ],
       "tags_highlighted": [],
       "top_company": false,
       "isHiring": false,
@@ -19305,7 +19273,7 @@
       "demo_day_video_public": false,
       "app_answers": null,
       "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/crow"
+      "url": "https://www.ycombinator.com/companies/turnstone"
     },
     {
       "id": 31243,
@@ -36035,10 +36003,10 @@
       "subindustry": "B2B -> Productivity",
       "launched_at": 1755302445,
       "tags": [
+        "Artificial Intelligence",
         "SaaS",
         "Productivity",
         "Open Source",
-        "AI",
         "AI Assistant"
       ],
       "tags_highlighted": [],
@@ -48745,7 +48713,7 @@
       "website": "https://fuseai.com/",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "FuseAI is the AI-native sales platform for modern revenue teams.\r\n\r\nBuilt for high-performance outbound, FuseAI consolidates your entire GTM stack - data, enrichment, multi-channel automation, real-time buying signals, and AI-driven execution  into one seamless system.\r\n\r\nWith powerful integrations and intelligent workflows, FuseAI doesn’t just help you run campaigns. It turns every signal into pipeline, and every rep into a top performer.",
-      "one_liner": "#1 AI Platform for Outbound Sales",
+      "one_liner": "Agentic Sales Platform",
       "team_size": 12,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -130040,7 +130008,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/866cec0759154ee708c6b843e16d3f00f9d773be.png",
       "website": "https://seiright.com/",
       "all_locations": "New York City, NY, USA",
-      "long_description": "Sei is an AI platform for mortgage lenders, servicers & banks. We're already live with banks, and top IMBs.",
+      "long_description": "Sei is an AI platform for mortgage lenders, servicers & banks. We're already live with banks and top IMBs.",
       "one_liner": "AI Operations Partner for Mortgage & Banking",
       "team_size": 0,
       "highlight_black": false,
@@ -130050,7 +130018,7 @@
       "subindustry": "Fintech",
       "launched_at": 1646055749,
       "tags": [
-        "Artificial Intelligence",
+        "AI",
         "AI Assistant"
       ],
       "tags_highlighted": [],
@@ -184439,7 +184407,7 @@
         "Remote",
         "Partly Remote"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -202630,7 +202598,7 @@
         "Remote",
         "Partly Remote"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -239276,10 +239244,10 @@
       ],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/b4dff38384073b0991b2872c72a4ab9ba8a34087.png",
       "website": "http://microhealth.com",
-      "all_locations": "CT, Spain; Remote",
-      "long_description": "What we do?\r\n\r\nWe develop digital therapeutics to address unmet medical needs in hematology and oncology. \r\n\r\nHow it works?\r\n\r\nFirst we build networks of doctors and patients designed to track, predict and prevent disease. Second, we validate the safety and efficacy of our interventions in pivotal clinical studies to obtain regulatory clearance (SaMD). Finally, we aim to commercialize our products as prescription digital therapeutics (DTx).\r\n\r\nWhere are we now?\r\n\r\nToday, we are the standard in digital hematology:\r\n\r\n* Our hemophilia network covers 33% of all patients and providers in the US. \r\n* We bested 20+ competitors, including several Fortune 500 companies. \r\n* Our clients include: Sanofi, Bayer, Novo Nordisk, Biogen, and Roche. ",
-      "one_liner": "Digital hematology",
-      "team_size": 10,
+      "all_locations": "Claymont, DE, USA; Remote",
+      "long_description": "* Category leading RWE platform generating differentiated data through combination of a provider community and patient-reported outcomes; delivering personalized and comparative evidence at the point of care\r\n\r\n* Singular network architecture and data capturing capabilities help identify patients with unmet needs in real-time; unlocking opportunities to improve health outcomes and additional revenue for pharma\r\n\r\n* Microhealth has achieved product-market fit in the hemophilia and rare blood disorders space\r\n\r\nToday, we are the world's leader in digital hematology:\r\n\r\n- Our US hemophilia network covers 33%+ of patients on prophylaxis and 50%+ of hemophilia treatment centers\r\n \r\n- Average active-user retention is 52 months\r\n \r\n- Trusted by leading pharmaceutical sponsors: Novo Nordisk, Sanofi, Roche and Pfizer",
+      "one_liner": "Rare Disease-Focused Care Delivery and Evidence Generation Platform",
+      "team_size": 25,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -239288,7 +239256,8 @@
       "launched_at": 1430156126,
       "tags": [
         "Digital Health",
-        "Healthcare"
+        "Healthcare",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -239301,8 +239270,8 @@
         "Consumer Health and Wellness"
       ],
       "regions": [
-        "Spain",
-        "Europe",
+        "United States of America",
+        "America / Canada",
         "Remote",
         "Fully Remote"
       ],
@@ -270352,7 +270321,7 @@
         "United States of America",
         "America / Canada"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -275407,7 +275376,7 @@
         "United States of America",
         "America / Canada"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,

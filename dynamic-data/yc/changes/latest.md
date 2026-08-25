@@ -1,50 +1,78 @@
 # YC Company Changes for 2026-08-25
 
 - Previous total: 6191
-- Current total: 6191
+- Current total: 6190
 - Added: 0
-- Removed: 0
-- Updated: 9
+- Removed: 1
+- Updated: 13
 
+
+## Removed Companies
+
+- Andustry (Spring 2026)
 
 ## Updated Companies
 
-### [Firezone](https://www.ycombinator.com/companies/firezone)
+### [Chute](https://www.ycombinator.com/companies/chute)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/d77ec2f6117521699894a917f49c85927da9cf8f.png → https://bookface-images.s3.amazonaws.com/small_logos/a132fac978a20406108533801bb0a40f980f02e0.png
+- `stage`: Early → Growth
 
-### [Joon Health](https://www.ycombinator.com/companies/joon-health)
+### [Comprehend](https://www.ycombinator.com/companies/comprehend)
 
-- `isHiring`: true → false
+- `stage`: Early → Growth
 
-### [Openbenchmarks](https://www.ycombinator.com/companies/openbenchmarks)
+### [Microhealth](https://www.ycombinator.com/companies/microhealth)
 
-- `one_liner`: Openbenchmarks helps Agents pick the right vendors via Benchmarking → Openbenchmarks helps you pick vendors for your use-case via Benchmarks
-- `tags`: SaaS,B2B,SEO,AI → Artificial Intelligence,SaaS,B2B,SEO
+- `all_locations`: CT, Spain; Remote → Claymont, DE, USA; Remote
+- `one_liner`: Digital hematology → Rare Disease-Focused Care Delivery and Evidence Generation Platform
+- `team_size`: 10 → 25
+- `tags`: Digital Health,Healthcare → Digital Health,Healthcare,AI
+- `regions`: Spain,Europe,Remote,Fully Remote → United States of America,America / Canada,Remote,Fully Remote
 
-### [Artifact](https://www.ycombinator.com/companies/artifact-2)
+### [Kalshi](https://www.ycombinator.com/companies/kalshi)
 
-- `all_locations`: New York City, NY, USA → Los Angeles, CA, USA
-- `team_size`: 3 → 4
+- `stage`: Early → Growth
 
-### [Synthetic Society](https://www.ycombinator.com/companies/synthetic-society)
+### [Perceptive Technologies](https://www.ycombinator.com/companies/perceptive-technologies)
 
-- `one_liner`: Synthetic Users to Simulate Real Users → Synthetic Videos to Simulate Real Users
+- `stage`: Early → Growth
 
-### [Imperfect](https://www.ycombinator.com/companies/imperfect)
+### [Sei AI](https://www.ycombinator.com/companies/sei-ai)
 
-- `isHiring`: true → false
+- `tags`: Artificial Intelligence,AI Assistant → AI,AI Assistant
 
-### [Prized](https://www.ycombinator.com/companies/prized)
+### [Fuse AI](https://www.ycombinator.com/companies/fuse-ai)
 
-- `one_liner`: Lovable for internal tools → A cloud devbox that feels local
-- `tags`: Developer Tools,SaaS,Productivity → Developer Tools,SaaS
+- `one_liner`: #1 AI Platform for Outbound Sales → Agentic Sales Platform
 
-### [LemonLime](https://www.ycombinator.com/companies/lemonlime)
+### [Char](https://www.ycombinator.com/companies/char)
 
-- `website`: https://www.lemonlime.ai/ → https://www.lemonlime.com/
-- `tags`: Artificial Intelligence,SaaS,Sales,Marketing → SaaS,Sales,Marketing,AI
+- `tags`: SaaS,Productivity,Open Source,AI,AI Assistant → Artificial Intelligence,SaaS,Productivity,Open Source,AI Assistant
 
-### [Financial Datasets](https://www.ycombinator.com/companies/financial-datasets)
+### [Turnstone](https://www.ycombinator.com/companies/turnstone)
 
-- `tags`: Artificial Intelligence,Fintech,Stocks → Fintech,AI,Stocks
+- `name`: Crow → Turnstone
+- `slug`: crow → turnstone
+- `former_names`:  → Crow
+- `website`: https://www.usecrow.ai/ → https://myturnstone.ai
+- `one_liner`:  → Work with agents that already know you
+- `tags`:  → Artificial Intelligence
+
+### [AquaShield](https://www.ycombinator.com/companies/aquashield)
+
+- `isHiring`: false → true
+
+### [Edgerun](https://www.ycombinator.com/companies/edgerun)
+
+- `app_video_public`: true → false
+
+### [IMPACT Drones](https://www.ycombinator.com/companies/impact-drones)
+
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/51e28a022e68117f55cef18f71defaef380f1766.png → https://bookface-images.s3.amazonaws.com/small_logos/c7df3a5c9dfd6e7d9865e24f95f172c997a7183b.png
+- `tags`: Hardware,Drones,Swarm Robotics,AI → Artificial Intelligence,Hardware,Drones,Swarm Robotics
+
+### [OpenTag](https://www.ycombinator.com/companies/opentag)
+
+- `former_names`: Gini Agent,Gini → Gini Agent,Gini,OpenTag,Open Tag
+- `website`: https://tryopentag.com/ → https://www.tryopentag.com/
+- `tags`: AIOps,B2B,Workflow Automation,Enterprise Software,AI → AIOps,Artificial Intelligence,B2B,Workflow Automation,Enterprise Software
