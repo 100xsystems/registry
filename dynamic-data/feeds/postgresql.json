@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-08-25T01:13:22.874Z",
+  "updatedAt": "2026-08-25T06:56:08.500Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -1105,7 +1105,31 @@
       "summary": "Prepared statements switch from custom plans to generic plans on the sixth execution, and that switch can make your queries mysteriously slow.",
       "author": null,
       "publishedAt": "2026-08-24T20:14:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9t7",
+      "title": "Cornelia Biacsics: Contributions for week 33",
+      "link": "https://postgr.es/p/9t7",
+      "summary": "On 19 August 2026, the  Postgres Meetup for All - Group met online, organized by Elizabeth Christensen. James Nelson and Philip Johnston delivered a talk\nHyderabad PGDays 2026 took place from 20-21 August 2026\nOrganizers:\nAmeen Abbas\nHari Kiran P\nRajesh Madiwale\nProgram Selection Committee: \nDeepak…",
+      "author": null,
+      "publishedAt": "2026-08-25T05:55:55.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9t6",
+      "title": "Vibhor Kumar: Your PostgreSQL Platform Has Telemetry. Does It Have a Digital Twin?",
+      "link": "https://postgr.es/p/9t6",
+      "summary": "Beyond observability: building the synchronized, simulatable model AI agents\nneed before they touch production\n\n\n\n\nThe digital twin you are building may depend on one you have not built yet.\nMost digital-twin programs begin with a physical asset: a building, factory, vehicle, power grid, or…",
+      "author": null,
+      "publishedAt": "2026-08-25T04:09:57.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9t5",
+      "title": "Christophe Pettus: All Your GUCs in a Row: log_checkpoints, log_autovacuum_min_duration, and log_temp_files",
+      "link": "https://postgr.es/p/9t5",
+      "summary": "And now, we put on our waders and venture into the swamp that is all of the PostgreSQL logging GUCs.\nPostgreSQL 8.3 is the release in which the server started doing its own housekeeping in earnest: autovacuum on by default, checkpoints spread out over the interval instead of dumped at the end of …",
+      "author": null,
+      "publishedAt": "2026-08-25T01:00:00.000Z"
     }
   ],
-  "totalIndexed": 137
+  "totalIndexed": 140
 }
