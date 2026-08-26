@@ -1,7 +1,48 @@
 {
-  "fetchedAt": "2026-08-26T01:16:34.753Z",
-  "count": 6191,
+  "fetchedAt": "2026-08-26T06:57:36.134Z",
+  "count": 6192,
   "companies": [
+    {
+      "id": 37600,
+      "name": "Redoubt Insurance",
+      "slug": "redoubt-insurance",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/1d9f15d9866298e7635c4be5e45af4cd0cf8b920.png",
+      "website": "https://www.redoubt.agency",
+      "all_locations": "",
+      "long_description": "",
+      "one_liner": "Commercial insurance agency for small businesses",
+      "team_size": 0,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "Fintech",
+      "subindustry": "Fintech -> Insurance",
+      "launched_at": 1787707764,
+      "tags": [
+        "Artificial Intelligence",
+        "Insurance"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Fall 2026",
+      "status": "Active",
+      "industries": [
+        "Fintech",
+        "Insurance"
+      ],
+      "regions": [
+        "Unspecified"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/redoubt-insurance"
+    },
     {
       "id": 36348,
       "name": "antimattr",
@@ -1461,7 +1502,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/b8f563ce5c802b34a01e9ad0f5641eb4bb092c6c.png",
       "website": "https://nex.ai",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Nex is the AI GTM engineer that builds and runs the complex, high-volume workflows only the world's best GTM engineers know how to build, across 1000+ integrations. Built by ex-HubSpotters who ran its three largest customer platforms and backed by HubSpot founder Dharmesh Shah.",
+      "long_description": "Nex builds and runs the complex, high-volume GTM workflows that general-purpose agents struggle with. Built by ex-HubSpotters who ran its three largest customer platforms and backed by HubSpot founder Dharmesh Shah.",
       "one_liner": "AI GTM Engineer",
       "team_size": 5,
       "highlight_black": false,
@@ -3506,9 +3547,9 @@
       "subindustry": "B2B -> Infrastructure",
       "launched_at": 1782881612,
       "tags": [
-        "Artificial Intelligence",
         "Developer Tools",
-        "Infrastructure"
+        "Infrastructure",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -8508,8 +8549,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/1241956aa50c817e1c2feee9934ea253b0d12c38.png",
       "website": "https://trope.ai",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Trope is the AI-native ERP system integrator.\r\n\r\nWe accelerate months of hourly implementation work with agent-driven, fixed-fee delivery. Instead of leaving customers with a static system, we deploy AI agents that continue running and improving core business operations after go-live.\r\n\r\nTrope combines AI trained on ERP systems with principal consultants who have delivered 200+ implementations over 20 years. Together, they turn consulting services into software, shifting systems integration from one-time implementations to continuous AI-driven operations.",
-      "one_liner": "The AI-native ERP system integrator",
+      "long_description": "Trope deploys custom AI agents into ERPs for mid-market companies. Our AI FDE learns each company’s customized ERP and business processes, then builds and deploys the agents needed for their specific workflows.",
+      "one_liner": "AI FDE that deploys custom AI agents into ERPs",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -8518,9 +8559,9 @@
       "subindustry": "B2B",
       "launched_at": 1783447220,
       "tags": [
+        "Artificial Intelligence",
         "SaaS",
-        "B2B",
-        "AI"
+        "B2B"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -8732,7 +8773,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/cfd986a9205506ed6e96b2903d048ce2aa98626d.png",
       "website": "https://ego.ist/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "The bottleneck for consumer AI is shifting from the model to the personal context that model uses. \r\n\r\nModels are already capable of completing most tasks for the average user, but consumer AI products still starts cold and have to rebuild an incomplete picture of the same user before they can personalise well. \r\n\r\nWe’re building AI Passport so users can carry the personal context they create through everyday apps into new products, allowing those products to understand them from the first interaction instead of reconstructing the same incomplete picture from scratch. Users decide which parts of their context can move between products, while companies receive better information about their users.\r\n\r\nApps integrate AI Passport through a “Sign in with AI Passport” button, then request specific information for a stated purpose and duration rather than receiving broad, permanent access to everything the Passport holds. The user chooses what to share and can revoke access later, which makes the system particularly useful for sensitive health or financial context that may be valuable for a specific interaction but should not remain available indefinitely.\r\n\r\nTo support this permission model, AI Passport uses our own vector database as its memory backend, built for fast, compact per-user memory and cryptographically enforced access control. \r\n\r\nWe’re building first-party apps that give people reasons to create and use their Passport now, while also integrating it into consumer products with existing audiences across hospitality, travel, finance, and lifestyle.",
+      "long_description": "Egoist Machines is building the user-owned context layer that will be the unlock for the next generation of consumer AI applications. Our product, AI Passport, lets people carry the personal context they generate in everyday apps into any new product, so it understands them from the first interaction. Tell ChatGPT something and Claude already knows, for example, without any app ever owning your data.\n\nThe bottleneck for consumer AI is shifting from the model to context. Models can already handle most everyday tasks for the average user, but every new app starts cold, forcing users to re-explain themselves and forcing businesses to rebuild profiles of data that already exist.\n\nApps integrate with a \"Sign in with AI Passport\" button, then request specific information for a stated purpose and duration. Users stay in control of what moves between products and can revoke access later, which matters most for sensitive health and financial context. Under the hood, AI Passport runs on our own vector database built for fast, compact per-user memory with cryptographically enforced access control.\n\nWe're building first-party apps that give people a reason to create their Passport today, while integrating it into consumer products with existing audiences of billions.\n\nOur North Star: your context living on your own device, sovereign to you, with every model, app, and agent coming to you.",
       "one_liner": "Secure, user-owned context for every AI app",
       "team_size": 2,
       "highlight_black": false,
@@ -8742,9 +8783,11 @@
       "subindustry": "Consumer",
       "launched_at": 1784701469,
       "tags": [
+        "Artificial Intelligence",
+        "Personalization",
+        "Privacy",
         "Consumer Products",
-        "AI Assistant",
-        "Databases"
+        "AI Assistant"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -10436,8 +10479,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/537de46d97dcdac9c07b330a6a1a4b2ab0583b7b.png",
       "website": "https://tridentsecurity.io/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Trident is the modern-day pentester. Instead of a slow, expensive report once a year, it's a continuous, agentic pentester that chains vulnerabilities together like a real attacker mapping verified attack paths across AWS, Azure, GCP, web apps, and APIs. Run AI attacks and get fixes.\r\n\r\nGet started today: tridentsecurity.io",
-      "one_liner": "Agents that find real exploitable vulnerabilities in your company ",
+      "long_description": "Trident is the standard for modern day security. its an agentic pentester that chains vulnerabilities together like a real attacker mapping verified attack paths across AWS, Azure, GCP, web apps, and APIs. Run AI attacks and get fixes.\r\n\r\nGet started today: tridentsecurity.io",
+      "one_liner": "secure everything that ships",
       "team_size": 4,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -10446,9 +10489,9 @@
       "subindustry": "B2B -> Security",
       "launched_at": 1785361922,
       "tags": [
+        "Artificial Intelligence",
         "Security",
-        "Cybersecurity",
-        "AI"
+        "Cybersecurity"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -16671,25 +16714,26 @@
     },
     {
       "id": 31341,
-      "name": "Instance",
-      "slug": "instance",
-      "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/6294b12382598c88510ebe8d73568321732a7d00.png",
-      "website": "https://www.instancelabs.ai/",
+      "name": "Most Robotic",
+      "slug": "most-robotic",
+      "former_names": [
+        "Instance"
+      ],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/16ccadcbd2ec474ed470efbc872763f4a7984ec0.png",
+      "website": "https://mostrobotic.com/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "We’re automating robot evaluation– the loop where you wait for your robot to roll out, judge its success, and then reset the scene. We're starting with step one: a success detector that automatically tells you whether your robot actually completed its task along with detailed subtask breakdown. \r\n\r\nWe're MIT computer scientists & friends since middle school, with backgrounds at NASA JPL, SpaceX, and AWS.\r\n\r\nBook a demo with founders@instancelabs.ai.",
-      "one_liner": "Automated evals for robot policies",
+      "long_description": "We're a robotics research lab pushing what's possible with physical AI.\r\n\r\nWe're MIT computer scientists & friends since middle school, with robotics research backgrounds and industry experience at NASA JPL, SpaceX, and AWS.\r\n\r\nEmail founders@mostrobotic.com to learn more.",
+      "one_liner": "Research lab for physical AI",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
-      "industry": "B2B",
-      "subindustry": "B2B",
+      "industry": "Industrials",
+      "subindustry": "Industrials -> Manufacturing and Robotics",
       "launched_at": 1782761102,
       "tags": [
-        "Artificial Intelligence",
         "Robotics",
-        "Data Labeling"
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -16698,7 +16742,8 @@
       "batch": "Summer 2026",
       "status": "Active",
       "industries": [
-        "B2B"
+        "Industrials",
+        "Manufacturing and Robotics"
       ],
       "regions": [
         "United States of America",
@@ -16709,7 +16754,7 @@
       "demo_day_video_public": false,
       "app_answers": null,
       "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/instance"
+      "url": "https://www.ycombinator.com/companies/most-robotic"
     },
     {
       "id": 31340,
@@ -19470,7 +19515,7 @@
       "tags": [],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": true,
+      "isHiring": false,
       "nonprofit": false,
       "batch": "Winter 2026",
       "status": "Active",
@@ -35103,8 +35148,9 @@
       "subindustry": "Healthcare",
       "launched_at": 1786637393,
       "tags": [
-        "Artificial Intelligence",
-        "Healthcare"
+        "Healthcare",
+        "Insurance",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -45719,7 +45765,7 @@
       "website": "http://neoncoral.inc",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "",
-      "one_liner": "🪸 AI consumer social ",
+      "one_liner": "",
       "team_size": 1,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -45728,10 +45774,10 @@
       "subindustry": "Consumer",
       "launched_at": 1748371593,
       "tags": [
+        "Artificial Intelligence",
         "Consumer",
         "Social Media",
-        "Social",
-        "AI"
+        "Social"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -47117,7 +47163,7 @@
       "website": "https://www.axal.ai/",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "We help companies get custom PCBs built without having to manage multiple vendors themselves. We review or create PCB designs, find the right manufacturer, coordinate production, inspect and test every board, handle any manufacturing issues, and deliver the finished boards directly to your office.\r\n\r\nOur goal is to reduce manufacturing errors, shorten iteration cycles, and get your boards to you as quickly as possible without compromising on quality.",
-      "one_liner": "Service company that designs, sources, and quality-tests custom PCBs",
+      "one_liner": "We design, assemble, and test custom PCBs fast.",
       "team_size": 3,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -58423,7 +58469,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/a6d299272e28e28fc0eef5034541be246b698d0b.png",
       "website": "https://www.syntra.com",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Syntra's mission is to make healthcare faster, starting with healthcare payments. \r\n\r\nSyntra autonomous, our first product, automates pre-bill chart and claim review and submission. \r\n\r\nIn our first year post launch, Syntra autonomous has already processed over 1M patient encounters and over $200M in insurance collections, supporting hundreds of practice locations nationwide.\r\n\r\nIf you are interested in building towards infinitely fast healthcare. Reach out!\r\n\r\n",
+      "long_description": "Syntra’s mission is to make healthcare faster, starting with healthcare payments.\r\n\r\nSyntra Autonomous, our first product, automates pre-bill chart review, claim review, and submission.\r\n\r\nIn the 12 months since launch, Syntra Autonomous has processed more than 1 million patient encounters and over $200 million in insurance collections across hundreds of practice locations nationwide.\r\n\r\nIf you’re interested in building toward infinitely fast healthcare, reach out!",
       "one_liner": "Faster healthcare payments ",
       "team_size": 10,
       "highlight_black": false,
@@ -58433,9 +58479,10 @@
       "subindustry": "Healthcare -> Healthcare IT",
       "launched_at": 1723733582,
       "tags": [
-        "Big Data",
-        "Healthcare IT",
-        "AI"
+        "Artificial Intelligence",
+        "FinOps",
+        "Fintech",
+        "Healthcare IT"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -60327,7 +60374,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": false,
+      "isHiring": true,
       "nonprofit": false,
       "batch": "Summer 2024",
       "status": "Active",
@@ -72083,11 +72130,11 @@
         "DeepNight"
       ],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/419c6b136773af60713e2a4301554b4ef1bbd8a9.png",
-      "website": "https://www.deepnight.ai/",
+      "website": "https://www.deepnight.com",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "DeepNight is building the next generation of night vision with AI.",
       "one_liner": "Building The Next Generation of Night Vision Devices",
-      "team_size": 13,
+      "team_size": 16,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -72095,8 +72142,8 @@
       "subindustry": "Industrials -> Defense",
       "launched_at": 1709629638,
       "tags": [
-        "Computer Vision",
-        "AI"
+        "Artificial Intelligence",
+        "Computer Vision"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -72114,7 +72161,7 @@
         "Remote",
         "Partly Remote"
       ],
-      "stage": "Growth",
+      "stage": "Early",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -153673,7 +153720,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": true,
+      "isHiring": false,
       "nonprofit": true,
       "batch": "Winter 2021",
       "status": "Active",

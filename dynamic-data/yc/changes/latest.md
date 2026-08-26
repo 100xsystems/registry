@@ -1,65 +1,81 @@
 # YC Company Changes for 2026-08-26
 
 - Previous total: 6191
-- Current total: 6191
-- Added: 0
+- Current total: 6192
+- Added: 1
 - Removed: 0
-- Updated: 11
+- Updated: 13
 
+
+## Added Companies
+
+- [Redoubt Insurance](https://www.ycombinator.com/companies/redoubt-insurance) (Fall 2026) — Commercial insurance agency for small businesses
 
 ## Updated Companies
 
-### [EquipmentShare](https://www.ycombinator.com/companies/equipmentshare)
+### [UPchieve](https://www.ycombinator.com/companies/upchieve)
 
+- `isHiring`: true → false
+
+### [Deepnight](https://www.ycombinator.com/companies/deepnight)
+
+- `website`: https://www.deepnight.ai/ → https://www.deepnight.com
+- `team_size`: 13 → 16
+- `tags`: Computer Vision,AI → Artificial Intelligence,Computer Vision
 - `stage`: Growth → Early
 
-### [Ancana](https://www.ycombinator.com/companies/ancana)
+### [RentFlow](https://www.ycombinator.com/companies/rentflow)
 
-- `website`: https://www.ancana.co → https://ancanaliving.com/
-- `one_liner`: Marketplace to buy managed vacation homes through fractional ownership → Marketplace for vacation home co-ownership, fully managed
-- `team_size`: 7 → 12
-- `tags`: Marketplace,Travel,Proptech → Marketplace,Real Estate,Travel,Proptech
-
-### [Complif](https://www.ycombinator.com/companies/complif)
-
-- `one_liner`: Compliance tools for financial companies in LatAm KYC & AML → Compliance tools & AI agents for financial companies
-
-### [Airgoods](https://www.ycombinator.com/companies/airgoods)
-
-- `one_liner`: Wholesale marketplace for food & beverage → The modern distributor for grocers.
-- `tags`:  → Grocery,Supply Chain,Food & Beverage
+- `isHiring`: false → true
 
 ### [Syntra](https://www.ycombinator.com/companies/syntra)
 
-- `one_liner`: Medical chart intelligence → Faster healthcare payments 
-- `tags`: Artificial Intelligence,Big Data,Healthcare IT → Big Data,Healthcare IT,AI
+- `tags`: Big Data,Healthcare IT,AI → Artificial Intelligence,FinOps,Fintech,Healthcare IT
 
-### [Adentris](https://www.ycombinator.com/companies/adentris)
+### [Axal](https://www.ycombinator.com/companies/axal)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/924734540288bf8cd89e4e3406e3bc65fd236248.png → https://bookface-images.s3.amazonaws.com/small_logos/299342dc68e4bc077a079313853d9982af12d81d.png
-- `one_liner`: Real-time AI Compliance for Medical Documentation → Real-time AI Compliance & Revenue Integrity for Medical Providers
-- `team_size`: 4 → 5
-- `tags`: Health Tech,B2B,Compliance,Enterprise Software,AI → Artificial Intelligence,Health Tech,B2B,Compliance,Enterprise Software
-- `regions`: United States of America,America / Canada → United States of America,America / Canada,Remote,Partly Remote
-- `demo_day_video_public`: false → true
+- `one_liner`: Service company that designs, sources, and quality-tests custom PCBs → We design, assemble, and test custom PCBs fast.
 
-### [Velum Labs](https://www.ycombinator.com/companies/velum-labs)
+### [neoncoral](https://www.ycombinator.com/companies/neoncoral)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/4539d70682bb12a4a56caa059c5bb83cd4745ad1.png → https://bookface-images.s3.amazonaws.com/small_logos/4835d7d3adbc5c3756ca811175142dfc73c7ddbe.png
+- `one_liner`: 🪸 AI consumer social  → 
+- `tags`: Consumer,Social Media,Social,AI → Artificial Intelligence,Consumer,Social Media,Social
 
-### [OneTriangle](https://www.ycombinator.com/companies/onetriangle)
+### [Evergrove](https://www.ycombinator.com/companies/evergrove)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/107ba922031da90f3c856fadf8e7d472f94bfa62.png → https://bookface-images.s3.amazonaws.com/small_logos/c45501a034e0801b52fea8c488f574d2e60c8b18.png
+- `tags`: Artificial Intelligence,Healthcare → Healthcare,Insurance,AI
 
-### [/dev/fast](https://www.ycombinator.com/companies/devfast)
+### [General Legal](https://www.ycombinator.com/companies/general-legal)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/f469eb5ba6a411e5af0eabbb334d7879cbe6f9e5.png → https://bookface-images.s3.amazonaws.com/small_logos/fdf0aa48a8dc6d626f3dad009167a50e943af31a.png
-- `tags`:  → Developer Tools
+- `isHiring`: true → false
 
-### [Nebula Security](https://www.ycombinator.com/companies/nebula-security)
+### [Most Robotic](https://www.ycombinator.com/companies/most-robotic)
 
-- `one_liner`: Building Mythos for everyone → Autonomous AI defense system for cyber attack
+- `name`: Instance → Most Robotic
+- `slug`: instance → most-robotic
+- `former_names`:  → Instance
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/6294b12382598c88510ebe8d73568321732a7d00.png → https://bookface-images.s3.amazonaws.com/small_logos/16ccadcbd2ec474ed470efbc872763f4a7984ec0.png
+- `website`: https://www.instancelabs.ai/ → https://mostrobotic.com/
+- `one_liner`: Automated evals for robot policies → Research lab for physical AI
+- `industry`: B2B → Industrials
+- `subindustry`: B2B → Industrials -> Manufacturing and Robotics
+- `tags`: Artificial Intelligence,Robotics,Data Labeling → Robotics,AI
+- `industries`: B2B → Industrials,Manufacturing and Robotics
 
-### [Codag](https://www.ycombinator.com/companies/codag)
+### [Trident](https://www.ycombinator.com/companies/trident)
 
-- `one_liner`: Log compression for agents. → Tool call compression for agents.
+- `one_liner`: Agents that find real exploitable vulnerabilities in your company  → secure everything that ships
+- `tags`: Security,Cybersecurity,AI → Artificial Intelligence,Security,Cybersecurity
+
+### [Egoist Machines](https://www.ycombinator.com/companies/egoist-machines)
+
+- `tags`: Consumer Products,AI Assistant,Databases → Artificial Intelligence,Personalization,Privacy,Consumer Products,AI Assistant
+
+### [Trope](https://www.ycombinator.com/companies/trope)
+
+- `one_liner`: The AI-native ERP system integrator → AI FDE that deploys custom AI agents into ERPs
+- `tags`: SaaS,B2B,AI → Artificial Intelligence,SaaS,B2B
+
+### [Inkbox](https://www.ycombinator.com/companies/inkbox)
+
+- `tags`: Artificial Intelligence,Developer Tools,Infrastructure → Developer Tools,Infrastructure,AI
