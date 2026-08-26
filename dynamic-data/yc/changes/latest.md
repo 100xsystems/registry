@@ -1,51 +1,70 @@
 # YC Company Changes for 2026-08-26
 
 - Previous total: 6192
-- Current total: 6192
-- Added: 0
+- Current total: 6194
+- Added: 2
 - Removed: 0
-- Updated: 9
+- Updated: 13
 
+
+## Added Companies
+
+- [Talos](https://www.ycombinator.com/companies/talos-us) (Fall 2026) — Predictive maintenance for power infrastructure.
+- [Quippy](https://www.ycombinator.com/companies/quippy) (Fall 2026) — Helps build social skills through daily practice
 
 ## Updated Companies
 
-### [EquipmentShare](https://www.ycombinator.com/companies/equipmentshare)
+### [Ambient.ai](https://www.ycombinator.com/companies/ambient-ai)
 
-- `stage`: Early → Growth
+- `stage`: Growth → Early
 
-### [Typewise](https://www.ycombinator.com/companies/typewise)
+### [Within](https://www.ycombinator.com/companies/within)
+
+- `stage`: Growth → Early
+
+### [SiPhox Health](https://www.ycombinator.com/companies/siphox-health)
+
+- `one_liner`: Wearable and At-Home health monitoring with silicon photonic chips → At-Home health monitoring with silicon photonic chips
+
+### [Instant](https://www.ycombinator.com/companies/instant)
+
+- `isHiring`: true → false
+
+### [Landeed](https://www.ycombinator.com/companies/landeed)
+
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/6ad200a24281fdd6a8a1c278067a5acc87ff1dab.png → https://bookface-images.s3.amazonaws.com/small_logos/0810eca0d686750cb529fa49d82db4a6ef2d2a5b.png
+- `tags`: Documents,Artificial Intelligence,Fintech,Legal,Proptech → Documents,Fintech,Legal,Proptech,AI
+
+### [AgentCollect](https://www.ycombinator.com/companies/agentcollect)
+
+- `isHiring`: true → false
+
+### [AfterQuery](https://www.ycombinator.com/companies/afterquery)
+
+- `stage`: Growth → Early
+
+### [Adentris](https://www.ycombinator.com/companies/adentris)
 
 - `isHiring`: false → true
 
-### [Deepnight](https://www.ycombinator.com/companies/deepnight)
+### [Captain](https://www.ycombinator.com/companies/captain)
 
-- `stage`: Early → Growth
+- `one_liner`: Accurate, high-performance retrieval for AI agents → Self-tuning file search for AI agents
 
-### [Spott](https://www.ycombinator.com/companies/spott)
+### [Seeing Systems](https://www.ycombinator.com/companies/seeing-systems)
 
-- `team_size`: 15 → 50
-- `tags`: SaaS,B2B,HR Tech,Enterprise Software,AI → Artificial Intelligence,SaaS,B2B,HR Tech,Enterprise Software
+- `team_size`: 2 → 7
+- `tags`: Artificial Intelligence,Hardware,Drones,Aerospace → Hardware,Drones,Defense,AI
 
-### [Cardboard](https://www.ycombinator.com/companies/cardboard)
+### [Manicule](https://www.ycombinator.com/companies/manicule)
 
-- `website`: https://usecardboard.com → https://cardboard.ai
+- `website`: https://manicule.dev → https://manicule.com
+- `team_size`: 5 → 7
 
-### [Inth](https://www.ycombinator.com/companies/inth)
+### [Egoist Machines](https://www.ycombinator.com/companies/egoist-machines)
 
-- `all_locations`: San Francisco, CA, USA → London, England, United Kingdom
-- `one_liner`: Enterprise privacy governance for companies that ship fast → Monitor and fix product privacy issues before they block growth
-- `tags`: Artificial Intelligence,Developer Tools,Compliance,Web Development,Trust & Safety → Developer Tools,Compliance,Web Development,Trust & Safety,AI
-- `regions`: United States of America,America / Canada,Remote,Partly Remote → United Kingdom,Europe,Remote,Partly Remote
+- `one_liner`: Secure, user-owned context for every AI app → Your personal context, securely portable across every AI app and…
 
-### [transload](https://www.ycombinator.com/companies/transload)
+### [Gutgutgoose](https://www.ycombinator.com/companies/gutgutgoose)
 
-- `website`: https://www.transload.io → https://www.transload.ai
-
-### [Synapse Semiconductor](https://www.ycombinator.com/companies/synapse-semiconductor)
-
-- `tags`: Artificial Intelligence,Edge Computing Semiconductors,Hard Tech,Robotics,Defense → Edge Computing Semiconductors,Hard Tech,Robotics,Defense,AI
-- `isHiring`: false → true
-
-### [Rational](https://www.ycombinator.com/companies/rational)
-
-- `tags`: Enterprise,AI → Artificial Intelligence,Enterprise
+- `one_liner`: Personalized probiotics, guaranteed to colonize. → We sequence your gut and build the probiotics it’s missing

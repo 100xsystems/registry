@@ -8,7 +8,7 @@
     "ai",
     "research"
   ],
-  "updatedAt": "2026-08-25T18:28:04.708Z",
+  "updatedAt": "2026-08-26T19:39:40.461Z",
   "items": [
     {
       "guid": "environment-free",
@@ -209,7 +209,15 @@
       "summary": "Unified multimodal models that understand, reason over, and generate interleaved text–image sequences remain structurally fragmented: existing approaches either sacrifice visual fidelity through discrete tokenization, impose structural asymmetry by combining causal text generation with iterative…",
       "author": null,
       "publishedAt": "2026-08-25T00:00:00.000Z"
+    },
+    {
+      "guid": "proof-gen-optimized-distillation",
+      "title": "PROOF-Gen: From Optimized Data to Better Distillation",
+      "link": "https://machinelearning.apple.com/research/proof-gen-optimized-distillation",
+      "summary": "Supervised fine-tuning on teacher-generated trajectories is the standard first stage for distilling tool-calling capabilities into deployable models. Post-training pipelines that drive shipped tool-calling agents re-run this stage on a daily or weekly cadence, paying the frontier-teacher cost each…",
+      "author": null,
+      "publishedAt": "2026-08-26T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 25
+  "totalIndexed": 26
 }

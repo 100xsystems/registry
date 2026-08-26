@@ -8,7 +8,7 @@
     "linux",
     "cloud-native"
   ],
-  "updatedAt": "2026-08-25T18:28:05.076Z",
+  "updatedAt": "2026-08-26T19:39:41.193Z",
   "items": [
     {
       "guid": "redhat::https://www.redhat.com/ja/sitemap.xml",
@@ -777,7 +777,47 @@
       "summary": "As AI agents move from demos into production, teams are discovering that benchmark scores alone rarely translate into business value. Routinely, a new frontier model is released, climbs to the top of the benchmark leaderboards, and enters production, but business metrics and code velocity remain…",
       "author": null,
       "publishedAt": "2026-08-25T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.redhat.com/en/blog/taming-agent-beast-monolithic-prompt-modular-agentic-workflow",
+      "title": "Taming the agent beast: From monolithic prompt to modular agentic workflow",
+      "link": "https://www.redhat.com/en/blog/taming-agent-beast-monolithic-prompt-modular-agentic-workflow",
+      "summary": "What happens when you stop thinking of AI agents as chatbots and start treating them as workers in a pipeline? This is the story of turning a sprawling Jira backlog into a self-orchestrating system, and the lessons learned along the way.TL;DRWe built an agentic workflow that automatically discovers…",
+      "author": null,
+      "publishedAt": "2026-08-26T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.redhat.com/en/blog/open-telco-ai-training-model-industry",
+      "title": "Open telco AI: Training a model for an industry",
+      "link": "https://www.redhat.com/en/blog/open-telco-ai-training-model-industry",
+      "summary": "Domain-specific artificial intelligence (AI) is becoming a practical priority for the telecommunications industry. At AMD Advancing AI, ATT Chief Technology Officer Jeremy Legg joined AMD’s Dan McNamara, Senior Vice President and General Manager of Compute and Enterprise AI, to introduce OTel 2.0…",
+      "author": null,
+      "publishedAt": "2026-08-26T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.redhat.com/en/blog/modernizing-database-workloads-red-hat-openshift",
+      "title": "Modernizing database workloads on Red Hat OpenShift",
+      "link": "https://www.redhat.com/en/blog/modernizing-database-workloads-red-hat-openshift",
+      "summary": "As organizations continue to modernize their workloads, one of the most important questions is how to support the full range of database workloads, including SQL, NoSQL, vector, and in-memory databases. Modernizing database infrastructure requires a thoughtful strategy that considers vendor…",
+      "author": null,
+      "publishedAt": "2026-08-26T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.redhat.com/en/blog/migrate-confidence-how-red-hat-consulting-de-risks-your-linux-transition",
+      "title": "Modernize with confidence: Build a threat-resistant Linux foundation with Red Hat Consulting",
+      "link": "https://www.redhat.com/en/blog/migrate-confidence-how-red-hat-consulting-de-risks-your-linux-transition",
+      "summary": "Operating an unsupported or outdated Linux distribution can expose your organization to critical security risks, drive up maintenance costs, and keep you from using the newest and best tools. However, undergoing a successful Linux modernization effort requires deep insights into your current…",
+      "author": null,
+      "publishedAt": "2026-08-26T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.redhat.com/en/blog/how-ai-inference-works-clearly-explained",
+      "title": "How AI inference works, clearly explained",
+      "link": "https://www.redhat.com/en/blog/how-ai-inference-works-clearly-explained",
+      "summary": "If you're using or building on large language models (LLMs), perhaps the most important concept to understand is how inference and key-value (KV) cache work. That's because no matter if you're working with coding agents, retrieval-augmented generation (RAG), or fine-tuning, inference is what…",
+      "author": null,
+      "publishedAt": "2026-08-26T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 96
+  "totalIndexed": 101
 }
