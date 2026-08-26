@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-08-25T18:28:05.209Z",
+  "updatedAt": "2026-08-26T01:16:17.269Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -1153,7 +1153,23 @@
       "summary": "PostgreSQL 19 introduces a new SQL command, WAIT FOR, that lets a session block until WAL has reached a specific position. This gives us read-your-writes consistency on asynchronous replicas without paying the synchronous replication tax.\nWAIT FOR LSN 'lsn' WITH ( option [, ...] ) ];\nwhere option…",
       "author": null,
       "publishedAt": "2026-08-25T00:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9td",
+      "title": "Christophe Pettus: All Your GUCs in a Row: log_connections, log_disconnections, and log_hostname",
+      "link": "https://postgr.es/p/9td",
+      "summary": "PostgreSQL 18 adds granular connection logging.",
+      "author": null,
+      "publishedAt": "2026-08-26T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9tb",
+      "title": "Hubert 'depesz' Lubaczewski: New things for regular expressions in PostgreSQL (pg_tre and pg_re2)",
+      "link": "https://postgr.es/p/9tb",
+      "summary": "Well, truth be told these are not all that new (couple of months), but I finally have gotten around to research it. So, let's see what's what. For starters I need some test data. Luckily, I have explain.depesz.com DB… Extracted all plans to side table, with this structure: =$ \\d all_plans Table…",
+      "author": null,
+      "publishedAt": "2026-08-25T18:41:53.000Z"
     }
   ],
-  "totalIndexed": 143
+  "totalIndexed": 145
 }
