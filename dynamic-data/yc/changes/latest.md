@@ -1,81 +1,51 @@
 # YC Company Changes for 2026-08-26
 
-- Previous total: 6191
+- Previous total: 6192
 - Current total: 6192
-- Added: 1
+- Added: 0
 - Removed: 0
-- Updated: 13
+- Updated: 9
 
-
-## Added Companies
-
-- [Redoubt Insurance](https://www.ycombinator.com/companies/redoubt-insurance) (Fall 2026) — Commercial insurance agency for small businesses
 
 ## Updated Companies
 
-### [UPchieve](https://www.ycombinator.com/companies/upchieve)
+### [EquipmentShare](https://www.ycombinator.com/companies/equipmentshare)
 
-- `isHiring`: true → false
+- `stage`: Early → Growth
 
-### [Deepnight](https://www.ycombinator.com/companies/deepnight)
-
-- `website`: https://www.deepnight.ai/ → https://www.deepnight.com
-- `team_size`: 13 → 16
-- `tags`: Computer Vision,AI → Artificial Intelligence,Computer Vision
-- `stage`: Growth → Early
-
-### [RentFlow](https://www.ycombinator.com/companies/rentflow)
+### [Typewise](https://www.ycombinator.com/companies/typewise)
 
 - `isHiring`: false → true
 
-### [Syntra](https://www.ycombinator.com/companies/syntra)
+### [Deepnight](https://www.ycombinator.com/companies/deepnight)
 
-- `tags`: Big Data,Healthcare IT,AI → Artificial Intelligence,FinOps,Fintech,Healthcare IT
+- `stage`: Early → Growth
 
-### [Axal](https://www.ycombinator.com/companies/axal)
+### [Spott](https://www.ycombinator.com/companies/spott)
 
-- `one_liner`: Service company that designs, sources, and quality-tests custom PCBs → We design, assemble, and test custom PCBs fast.
+- `team_size`: 15 → 50
+- `tags`: SaaS,B2B,HR Tech,Enterprise Software,AI → Artificial Intelligence,SaaS,B2B,HR Tech,Enterprise Software
 
-### [neoncoral](https://www.ycombinator.com/companies/neoncoral)
+### [Cardboard](https://www.ycombinator.com/companies/cardboard)
 
-- `one_liner`: 🪸 AI consumer social  → 
-- `tags`: Consumer,Social Media,Social,AI → Artificial Intelligence,Consumer,Social Media,Social
+- `website`: https://usecardboard.com → https://cardboard.ai
 
-### [Evergrove](https://www.ycombinator.com/companies/evergrove)
+### [Inth](https://www.ycombinator.com/companies/inth)
 
-- `tags`: Artificial Intelligence,Healthcare → Healthcare,Insurance,AI
+- `all_locations`: San Francisco, CA, USA → London, England, United Kingdom
+- `one_liner`: Enterprise privacy governance for companies that ship fast → Monitor and fix product privacy issues before they block growth
+- `tags`: Artificial Intelligence,Developer Tools,Compliance,Web Development,Trust & Safety → Developer Tools,Compliance,Web Development,Trust & Safety,AI
+- `regions`: United States of America,America / Canada,Remote,Partly Remote → United Kingdom,Europe,Remote,Partly Remote
 
-### [General Legal](https://www.ycombinator.com/companies/general-legal)
+### [transload](https://www.ycombinator.com/companies/transload)
 
-- `isHiring`: true → false
+- `website`: https://www.transload.io → https://www.transload.ai
 
-### [Most Robotic](https://www.ycombinator.com/companies/most-robotic)
+### [Synapse Semiconductor](https://www.ycombinator.com/companies/synapse-semiconductor)
 
-- `name`: Instance → Most Robotic
-- `slug`: instance → most-robotic
-- `former_names`:  → Instance
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/6294b12382598c88510ebe8d73568321732a7d00.png → https://bookface-images.s3.amazonaws.com/small_logos/16ccadcbd2ec474ed470efbc872763f4a7984ec0.png
-- `website`: https://www.instancelabs.ai/ → https://mostrobotic.com/
-- `one_liner`: Automated evals for robot policies → Research lab for physical AI
-- `industry`: B2B → Industrials
-- `subindustry`: B2B → Industrials -> Manufacturing and Robotics
-- `tags`: Artificial Intelligence,Robotics,Data Labeling → Robotics,AI
-- `industries`: B2B → Industrials,Manufacturing and Robotics
+- `tags`: Artificial Intelligence,Edge Computing Semiconductors,Hard Tech,Robotics,Defense → Edge Computing Semiconductors,Hard Tech,Robotics,Defense,AI
+- `isHiring`: false → true
 
-### [Trident](https://www.ycombinator.com/companies/trident)
+### [Rational](https://www.ycombinator.com/companies/rational)
 
-- `one_liner`: Agents that find real exploitable vulnerabilities in your company  → secure everything that ships
-- `tags`: Security,Cybersecurity,AI → Artificial Intelligence,Security,Cybersecurity
-
-### [Egoist Machines](https://www.ycombinator.com/companies/egoist-machines)
-
-- `tags`: Consumer Products,AI Assistant,Databases → Artificial Intelligence,Personalization,Privacy,Consumer Products,AI Assistant
-
-### [Trope](https://www.ycombinator.com/companies/trope)
-
-- `one_liner`: The AI-native ERP system integrator → AI FDE that deploys custom AI agents into ERPs
-- `tags`: SaaS,B2B,AI → Artificial Intelligence,SaaS,B2B
-
-### [Inkbox](https://www.ycombinator.com/companies/inkbox)
-
-- `tags`: Artificial Intelligence,Developer Tools,Infrastructure → Developer Tools,Infrastructure,AI
+- `tags`: Enterprise,AI → Artificial Intelligence,Enterprise

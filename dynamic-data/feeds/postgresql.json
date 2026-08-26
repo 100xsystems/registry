@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-08-26T01:16:17.269Z",
+  "updatedAt": "2026-08-26T12:50:23.616Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -1169,7 +1169,15 @@
       "summary": "Well, truth be told these are not all that new (couple of months), but I finally have gotten around to research it. So, let's see what's what. For starters I need some test data. Luckily, I have explain.depesz.com DB… Extracted all plans to side table, with this structure: =$ \\d all_plans Table…",
       "author": null,
       "publishedAt": "2026-08-25T18:41:53.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9te",
+      "title": "Ismaël Mejía: MongoDB on PostgreSQL: DocumentDB with pglayers-azure",
+      "link": "https://postgr.es/p/9te",
+      "summary": "DocumentDB is a\n  MongoDB-compatible document database built on PostgreSQL. It adds the\n  BSON data type and a full CRUD API to Postgres, and ships a\n  gateway that speaks the MongoDB wire protocol -- so existing\n  MongoDB clients (mongosh, pymongo, the Node.js driver)\n  can connect to a PostgreSQL…",
+      "author": null,
+      "publishedAt": "2026-08-26T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 145
+  "totalIndexed": 146
 }
