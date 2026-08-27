@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-08-26T19:39:40.878Z",
+  "updatedAt": "2026-08-27T07:47:01.352Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -1185,7 +1185,23 @@
       "summary": "📌 Overview\nWe recently switched to version 7 (v7) uuid primary keys and saw significantly faster inserts for some tables.\nThe databases were running Postgres 18.4 and mostly used v1 with some v4 uuid values for primary keys.\nChanging the column default involved running a single alter table…",
       "author": null,
       "publishedAt": "2026-08-26T11:50:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9th",
+      "title": "Christophe Pettus: All Your GUCs in a Row: log_destination and logging_collector",
+      "link": "https://postgr.es/p/9th",
+      "summary": "PostgreSQL's logging collector is a small pipe-based daemon that prevents message loss and garbling—but turning it on requires a restart, which you'll want on…",
+      "author": null,
+      "publishedAt": "2026-08-27T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9tg",
+      "title": "Pavel Stehule: integration Lua to psql II",
+      "link": "https://postgr.es/p/9tg",
+      "summary": "Ten years ago, I attempted to enhance the \\dt+ command to sort results by size.\nThere were perhaps a hundred discussions, yet no consensus was reached on a new syntax. Eventually, I created the pspg tool,\nwhich allows results to be sorted by any column based on the vertical cursor position.\nNow, I…",
+      "author": null,
+      "publishedAt": "2026-08-26T20:34:21.000Z"
     }
   ],
-  "totalIndexed": 147
+  "totalIndexed": 149
 }
