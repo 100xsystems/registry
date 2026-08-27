@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-08-26T19:39:47.678Z",
+  "updatedAt": "2026-08-27T17:30:53.750Z",
   "items": [
     {
       "guid": "https://laravel-news.com/pest-5",
@@ -279,7 +279,15 @@
       "summary": "Laravel AI 0.11 adds a ToolSearch wrapper that defers tool definitions so OpenAI and Anthropic load them on demand instead of on every request.\nThe post Laravel AI: Load Tools On Demand With ToolSearch appeared first on Laravel News.\nJoin the Laravel Newsletter to get Laravel articles like this…",
       "author": "Yannick Lyn Fatt",
       "publishedAt": "2026-08-26T01:32:51.000Z"
+    },
+    {
+      "guid": "https://laravel-news.com/laravel-where-binary",
+      "title": "whereBinary(): Case-Sensitive MySQL Queries in Laravel",
+      "link": "https://laravel-news.com/laravel-where-binary?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+      "summary": "Laravel 13.27 adds whereBinary() to the query builder for byte-exact, case-sensitive comparisons on MySQL and MariaDB without dropping into whereRaw().\nThe post whereBinary(): Case-Sensitive MySQL Queries in Laravel appeared first on Laravel News.\nJoin the Laravel Newsletter to get Laravel articles…",
+      "author": "Paul Redmond",
+      "publishedAt": "2026-08-26T21:25:13.000Z"
     }
   ],
-  "totalIndexed": 34
+  "totalIndexed": 35
 }

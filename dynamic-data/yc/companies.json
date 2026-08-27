@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-27T07:47:24.352Z",
+  "fetchedAt": "2026-08-27T17:31:07.780Z",
   "count": 6194,
   "companies": [
     {
@@ -4244,7 +4244,7 @@
       "website": "https://getcomputable.com",
       "all_locations": "New York City, NY, USA",
       "long_description": "",
-      "one_liner": "Buy, sell, and redeem GPU hours for any week with instant liquidity",
+      "one_liner": "Exchange for Physical Compute",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -4253,11 +4253,11 @@
       "subindustry": "Fintech",
       "launched_at": 1784612730,
       "tags": [
+        "Artificial Intelligence",
         "Marketplace",
         "Finance",
         "Cloud Computing",
-        "Trading",
-        "AI"
+        "Trading"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -6754,11 +6754,11 @@
       "subindustry": "Industrials -> Aviation and Space",
       "launched_at": 1786056981,
       "tags": [
-        "IoT",
         "Space Exploration",
         "Satellites",
         "Aerospace",
-        "Telecommunications"
+        "Telecommunications",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -8330,7 +8330,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/2eb59fa1eb6f59fafb938607c641276931a20aef.png",
       "website": "https://www.maingen.ai/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Maingen builds simulations for industrial operations ($5 trillion slice of the US economy) so frontier labs can train models that actually run factories.",
+      "long_description": "Maingen builds simulations for industrial operations ($5 trillion slice of the US economy) so frontier labs can train models that actually run power plants, factories, and datacenters.",
       "one_liner": "Simulating Agents Running Industrial Companies",
       "team_size": 2,
       "highlight_black": false,
@@ -8864,8 +8864,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/cfd986a9205506ed6e96b2903d048ce2aa98626d.png",
       "website": "https://ego.ist/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Egoist Machines is building the user-owned context layer that will be the unlock for the next generation of consumer AI applications. Our product, AI Passport, lets people carry the personal context they generate in everyday apps into any new product, so it understands them from the first interaction. Tell ChatGPT something and Claude already knows, for example, without any app ever owning your data.\n\nThe bottleneck for consumer AI is shifting from the model to context. Models can already handle most everyday tasks for the average user, but every new app starts cold, forcing users to re-explain themselves and forcing businesses to rebuild profiles of data that already exist.\n\nApps integrate with a \"Sign in with AI Passport\" button, then request specific information for a stated purpose and duration. Users stay in control of what moves between products and can revoke access later, which matters most for sensitive health and financial context. Under the hood, AI Passport runs on our own vector database built for fast, compact per-user memory with cryptographically enforced access control.\n\nWe're building first-party apps that give people a reason to create their Passport today, while integrating it into consumer products with existing audiences of billions.\n\nOur North Star: your context living on your own device, sovereign to you, with every model, app, and agent coming to you.",
-      "one_liner": "Your personal context, securely portable across every AI app and…",
+      "long_description": "Egoist Machines is building the user-owned context layer that will be the unlock for the next generation of consumer AI applications. Our product, AI Passport, lets people carry the personal context they generate in everyday apps into any new product, so it understands them from the first interaction. Tell ChatGPT something and Claude already knows, for example, without any app ever owning your data.\r\n\r\nThe bottleneck for consumer AI is shifting from the model to context. Models can already handle most everyday tasks for the average user, but every new app starts cold, forcing users to re-explain themselves and forcing businesses to rebuild profiles of data that already exist.\r\n\r\nApps integrate with a \"Sign in with AI Passport\" button, then request specific information for a stated purpose and duration. Users stay in control of what moves between products and can revoke access later, which matters most for sensitive health and financial context. Under the hood, AI Passport runs on our own vector database built for fast, compact per-user memory with cryptographically enforced access control.\r\n\r\nWe're building first-party apps that give people a reason to create their Passport today, while integrating it into consumer products with existing audiences of billions.\r\n\r\nOur North Star: your context living on your own device, sovereign to you, with every model, app, and agent coming to you.",
+      "one_liner": "Your personal context, securely portable across every AI app.",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -8874,10 +8874,10 @@
       "subindustry": "Consumer",
       "launched_at": 1784701469,
       "tags": [
-        "Artificial Intelligence",
         "Personalization",
         "Privacy",
         "Consumer Products",
+        "AI",
         "AI Assistant"
       ],
       "tags_highlighted": [],
@@ -8955,7 +8955,7 @@
         "Perceptron ML",
         "Notyfi"
       ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/39ef9d285402475a966cd1a646ae8e3b72115c89.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/23f18bbbc3a1b4a54c0c7513b5b49d243b55ff07.png",
       "website": "https://perceptronml.com",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "We build AI systems for law firms, trained on each firm's own matters and deployed privately in their environment: timekeeping, intake and matter monitoring, research, discovery, and drafting. Our grounding engine verifies every fact against a primary source before a model can cite it, which is why firms trust us with work that off-the-shelf legal AI keeps getting wrong.",
@@ -8968,10 +8968,10 @@
       "subindustry": "B2B",
       "launched_at": 1782500527,
       "tags": [
+        "Artificial Intelligence",
         "B2B",
         "Legal",
-        "Automation",
-        "AI"
+        "Automation"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -18654,29 +18654,29 @@
     },
     {
       "id": 31263,
-      "name": "Supafax",
-      "slug": "supafax",
+      "name": "Veriad",
+      "slug": "veriad",
       "former_names": [
-        "Veriad"
+        "Veriad",
+        "Supafax"
       ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/3aad57490dc6ff8ef9e68566a4fbc4d7e6e484b8.png",
-      "website": "https://supafax.com",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/0a84742c8558c6378997c9b19b54dd6ad334ce0c.png",
+      "website": "https://veriad.com",
       "all_locations": "London, England, United Kingdom",
-      "long_description": "Supafax is an AI agent that lives in your inbox and proactively manages your email and calendar. ",
-      "one_liner": "AI assistant for your email and calendar",
+      "long_description": "Veriad is building marketing agents for enterprises.",
+      "one_liner": "Enterprise marketing agents",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
       "industry": "B2B",
-      "subindustry": "B2B -> Productivity",
+      "subindustry": "B2B",
       "launched_at": 1767420715,
       "tags": [
+        "Artificial Intelligence",
         "B2B",
-        "Productivity",
-        "Calendar",
-        "Email",
-        "AI Assistant"
+        "Marketing",
+        "Advertising"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -18685,8 +18685,7 @@
       "batch": "Winter 2026",
       "status": "Active",
       "industries": [
-        "B2B",
-        "Productivity"
+        "B2B"
       ],
       "regions": [
         "United Kingdom",
@@ -18697,7 +18696,7 @@
       "demo_day_video_public": false,
       "app_answers": null,
       "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/supafax"
+      "url": "https://www.ycombinator.com/companies/veriad"
     },
     {
       "id": 31262,
@@ -21630,7 +21629,7 @@
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Visibl makes custom chip development dramatically faster and lower cost for hardware companies.\r\n\r\nToday, most hardware companies that need a custom chip have bad options: sign a massive contract with an incumbent like Broadcom, pay a traditional design house millions of dollars and wait 18+ months, or keep using off-the-shelf chips and FPGAs that are not optimized for their product's cost, power, performance, size, or manufacturability.\r\n\r\nWe handle the full path from architecture and design through verification, foundry management, and production. That makes custom ASICs accessible to robotics, drones, industrial, IoT, and edge hardware companies that were previously priced out of the market.\r\n\r\nAs more hardware products need differentiated silicon, we think custom chip development should be available to far more companies than it is today.",
       "one_liner": "A faster, lower cost path to custom silicon",
-      "team_size": 2,
+      "team_size": 3,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -21638,11 +21637,11 @@
       "subindustry": "B2B -> Engineering, Product and Design",
       "launched_at": 1767637338,
       "tags": [
-        "Artificial Intelligence",
         "Hard Tech",
         "Enterprise",
         "Enterprise Software",
-        "Semiconductors"
+        "Semiconductors",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -45285,7 +45284,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/11644b045eb253141d3efc6875010730a886df27.png",
       "website": "https://www.trybeluga.ai/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Using our 6+ years of influencer marketing experience to help companies run their influencer campaigns at scale. Fully managed solution to drive real, attributable results to their marketing efforts.",
+      "long_description": "Using our 6+ years of creator marketing experience to help companies run their creator campaigns at scale. Fully managed solution to drive real, attributable results to their marketing efforts.",
       "one_liner": "Creator marketing that scales like paid ads",
       "team_size": 3,
       "highlight_black": false,
@@ -48845,7 +48844,7 @@
         "United States of America",
         "America / Canada"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -56804,8 +56803,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/43b9a65188d543037d433040e225613f5f256524.png",
       "website": "https://attimet.com/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "",
-      "one_liner": "we predict stuff",
+      "long_description": "Step 1: Build the Prime Radiant\r\nStep 2: Apply it to Financial Markets\r\nStep 3: Manage the world's assets",
+      "one_liner": "Building the Prime Radiant",
       "team_size": 3,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -56814,9 +56813,9 @@
       "subindustry": "Fintech",
       "launched_at": 1728431199,
       "tags": [
-        "Artificial Intelligence",
         "Finance",
-        "Trading"
+        "Trading",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -58803,7 +58802,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": true,
+      "isHiring": false,
       "nonprofit": false,
       "batch": "Summer 2024",
       "status": "Active",
@@ -78179,7 +78178,7 @@
       "all_locations": "New York City, NY, USA",
       "long_description": "Greenboard is building a singular, AI-powered platform to handle management of the entirety of financial firms’ compliance programs, and eventually all back office processes. Today, financial institutions use Greenboard to detect risk using AI and to rip out and replace the bad legacy back office tooling they have wanted to get rid of for years.\r\n \r\n\r\n\r\nGreenboard's mission is to enable financial institutions to operate their back office teams at a higher standard, with half of the headcount. We’re starting with compliance",
       "one_liner": "Modern OS for the financial back office. ",
-      "team_size": 26,
+      "team_size": 35,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -78187,11 +78186,11 @@
       "subindustry": "Fintech",
       "launched_at": 1700498020,
       "tags": [
-        "Artificial Intelligence",
         "Fintech",
         "SaaS",
         "Compliance",
-        "Operations"
+        "Operations",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -78206,7 +78205,7 @@
         "United States of America",
         "America / Canada"
       ],
-      "stage": "Growth",
+      "stage": "Early",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -108245,7 +108244,7 @@
         "Remote",
         "Partly Remote"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -142066,7 +142065,7 @@
         "Remote",
         "Partly Remote"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -162792,7 +162791,7 @@
         "United States of America",
         "America / Canada"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -169557,7 +169556,7 @@
         "Remote",
         "Fully Remote"
       ],
-      "stage": "Growth",
+      "stage": "Early",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -209620,7 +209619,7 @@
         "Remote",
         "Partly Remote"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -221169,7 +221168,7 @@
         "Remote",
         "Fully Remote"
       ],
-      "stage": "Growth",
+      "stage": "Early",
       "app_video_public": false,
       "demo_day_video_public": true,
       "app_answers": null,
@@ -225393,7 +225392,7 @@
         "Remote",
         "Partly Remote"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -232550,7 +232549,7 @@
         "United States of America",
         "America / Canada"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -257135,7 +257134,7 @@
         "Remote",
         "Partly Remote"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,

@@ -8,7 +8,7 @@
     "infrastructure",
     "devops"
   ],
-  "updatedAt": "2026-08-26T19:39:40.820Z",
+  "updatedAt": "2026-08-27T17:30:47.630Z",
   "items": [
     {
       "guid": "hashicorp::https://www.hashicorp.com/blog/one-service-many-doors-multi-port-services-in-consul",
@@ -31025,7 +31025,15 @@
       "summary": "Organizations rely on identity providers (IdPs) such as Microsoft Entra ID and Okta to manage access across applications. Without automated provisioning, user lifecycle management can become fragmented, time-consuming, and prone to inconsistencies. \nToday, HashiCorp Cloud Platform (HCP) introduces…",
       "author": "Trevor Powell",
       "publishedAt": "2026-08-26T15:00:00.000Z"
+    },
+    {
+      "guid": "hashicorp::https://www.hashicorp.com/blog/hcp-vault-dedicated-audit-logs-microsoft-sentinel",
+      "title": "Stream HCP Vault Dedicated audit logs to Microsoft Sentinel",
+      "link": "https://www.hashicorp.com/blog/hcp-vault-dedicated-audit-logs-microsoft-sentinel",
+      "summary": "HashiCorp Vault sits at the center of your organization's secrets, which makes its audit log some of the most valuable security telemetry you have. With a small set of documented exceptions, Vault audit devices record API requests and responses. Those records can show the requested path, the…",
+      "author": "Abhijeet Lokhande",
+      "publishedAt": "2026-08-27T16:00:00.000Z"
     }
   ],
-  "totalIndexed": 3877
+  "totalIndexed": 3878
 }
