@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-27T17:31:07.780Z",
+  "fetchedAt": "2026-08-27T21:50:24.555Z",
   "count": 6194,
   "companies": [
     {
@@ -2441,7 +2441,7 @@
       "website": "https://trydock.ai",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Dock is a multiplayer agent workspace where you spin up teams of specialized, proactive agents that can do the work of entire departments. They communicate, unblock each other, and manage each other to get work done, so you're not the bottleneck babysitting a dozen chat windows.",
-      "one_liner": "Multiplayer agent workspace to run your company ",
+      "one_liner": "Multiplayer workspace for AI teammates and humans",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -8732,7 +8732,7 @@
       "website": "https://belvedir.ai/",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Private AI models are going to win. Belvedir is the infrastructure needed to make trillions of them.\r\n\r\nBelvedir makes it cheap and easy for anyone to make private AI. Connect us to your agent traces through our SDK and we autonomously train custom models + harnesses + routers, privately deploy them, and recursively improve them as they are used. Our customers have seen up to 10x reductions in inference costs and 2x increases on benchmark scores.",
-      "one_liner": "The easiest way to make private AI models.",
+      "one_liner": "The easiest way to make private AI models",
       "team_size": 1,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -8911,7 +8911,7 @@
       "website": "https://massmagnetics.com/",
       "all_locations": "Boston, MA, USA",
       "long_description": "Mass Magnetics turns recycled rare-earth scrap into high-performance permanent magnets, made in America. The materials we supply are the backbone of electric motors, sensors, speakers, hard drives, and electronics.\r\nOur process enables DFARS-compliant magnets for defense, aerospace, and industrial manufacturers who demand domestic supply without compromising on quality.\r\nOperations in Greater Boston, MA (Greentown Labs) and Columbus, IN.",
-      "one_liner": "USA-made magnetics for aerospace, robotics, and defense. ",
+      "one_liner": "USA-made magnetics for robotics and defense. ",
       "team_size": 3,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -9619,22 +9619,21 @@
       "slug": "rindler",
       "former_names": [],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/ba85eb3919f954ce9bf661f9b9ee195327c93ceb.png",
-      "website": "https://rindler.ai",
+      "website": "https://maxxwell.dev",
       "all_locations": "Boston, MA, USA",
-      "long_description": "Rindler turns any website into deterministic abstractions that AI agents can operate on with speed, efficiency, and reliability.\r\n\r\nRindler drives a real browser to execute tasks on websites. It signs in, handles one-time verification codes, navigates to the right screen, retrieves records or completes forms, and returns structured output in a caller-defined schema.\r\n\r\nMost browser agents re-process and re-compute the same website every time they visit it. Rindler remembers. Our infrastructure gets faster and cheaper the more it is used, and when a site changes underneath it, Rindler detects the break and heals itself.\r\n\r\nFor operations leaders, Rindler takes on the repetitive website work your team does by hand, giving them their time back for the work that matters.\r\n\r\nFor agent builders, Rindler is a single endpoint that carries out tasks on the web, so you do not have to build or run browser infrastructure of your own.",
-      "one_liner": "The translation layer between AI agents and the web",
+      "long_description": "We build Maxxwell, a desktop app for people who run several coding agents at once.\r\n\r\nPast two or three sessions, you become the bottleneck. Every session asks you something, most of it small, and you spend the day answering instead of deciding. It is also hard to tell which sessions are making progress, which are stuck on something trivial, and which have quietly started building the wrong thing.\r\n\r\nMaxxwell puts every session in one window and marks each one working, idle, or waiting on you. On top of that sits an orchestrator, a real coding-agent session of its own that reads the others and reports back. You talk to it instead of to twelve terminals. It tells you what landed, what it decided for you, and what actually needs your call.\r\n\r\nEvery worker is your own tool, unmodified. Claude Code, Codex and Cursor Agent run in real terminal sessions you can attach to and take over at any point",
+      "one_liner": "The IDE for Tokenmaxxers",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
       "industry": "B2B",
-      "subindustry": "B2B -> Infrastructure",
+      "subindustry": "B2B -> Engineering, Product and Design",
       "launched_at": 1783408799,
       "tags": [
-        "B2B",
-        "Workflow Automation",
-        "Automation",
-        "Infrastructure"
+        "Artificial Intelligence",
+        "Developer Tools",
+        "B2B"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -9644,7 +9643,7 @@
       "status": "Active",
       "industries": [
         "B2B",
-        "Infrastructure"
+        "Engineering, Product and Design"
       ],
       "regions": [
         "United States of America",
@@ -10171,8 +10170,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/72c48d60b66c3872f55fda2ba7dbab9415312dd4.png",
       "website": "https://www.enjamb.ai",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Enjamb runs the entire drug program for biopharma teams, from discovery to FDA approval. Pharma runs on decades of closed legacy systems like Benchling, Veeva, Medidata, and SAS, with no AI layer and no MCP to connect agents to them. \r\n\r\nSo we built that connection layer in one platform. Our agents run on top of their existing systems and data, with no migration, and do the work across the whole program: clinical evidence, trial design, statistical programming, and regulatory submissions. \r\n\r\nIn just 3 weeks since launch, we're already being used by 500+ employees at top pharma companies, including Johnson & Johnson, AbbVie, Bristol Myers Squibb, Merck & Sanofi.",
-      "one_liner": "Where drug teams run their entire program, discovery to FDA approval",
+      "long_description": "Enjamb puts agents across the entire drug program for biopharma teams, from discovery to FDA approval. Pharma runs on decades of closed legacy systems like Benchling, Veeva, Medidata, and SAS, with no AI layer and no MCP to connect agents to them. \r\n\r\nEnjamb has that connection layer in one platform. Our agents run on top of their existing systems and data, with no migration, and do the work across the whole program: preclinical research, clinical evidence, trial design, statistical programming, and regulatory submissions. \r\n\r\nUsed by over 130 organizations, this is AI tailored for how medicine gets made.",
+      "one_liner": "The AI Workforce for Biopharma",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -10181,11 +10180,11 @@
       "subindustry": "B2B",
       "launched_at": 1779929226,
       "tags": [
-        "Artificial Intelligence",
         "SaaS",
         "B2B",
         "Biotech",
-        "Automation"
+        "Automation",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -22044,14 +22043,14 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/7c1f9c6555570a59695390a5a40a26ba79862a09.png",
       "website": "https://www.terminaluse.com/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Create a living digital twin for your data center construction to deliver on time",
-      "one_liner": "Digital twins for data center construction",
+      "long_description": "AI pilots are everywhere. Few organizations can point to a department that actually runs AI-first. Terminal Use changes that.\r\n\r\nWe help operations teams rebuild how work gets done, end to end. We begin with one critical process, map how it runs today and where it breaks, then redesign the workflow around AI agents, existing systems, and people at the right control points.\r\nThe result is a working AI-first process, measurable operational change, and a blueprint for transforming the broader department.\r\n\r\nFounded by ex-Palantir FDEs and engineers working on transformation at scale, Terminal Use works across construction, logistics, manufacturing, retail, and other complex operating environments.",
+      "one_liner": "AI-native transformation for operations-heavy companies",
       "team_size": 4,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
-      "industry": "Real Estate and Construction",
-      "subindustry": "Real Estate and Construction -> Construction",
+      "industry": "B2B",
+      "subindustry": "B2B -> Operations",
       "launched_at": 1770866075,
       "tags": [],
       "tags_highlighted": [],
@@ -22061,8 +22060,8 @@
       "batch": "Winter 2026",
       "status": "Active",
       "industries": [
-        "Real Estate and Construction",
-        "Construction"
+        "B2B",
+        "Operations"
       ],
       "regions": [
         "United States of America",
@@ -25442,7 +25441,7 @@
         "TrustAI Labs",
         "TrustAI"
       ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c45501a034e0801b52fea8c488f574d2e60c8b18.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/75197a50573558e4b8c16932b7db7c7c11f235a4.png",
       "website": "https://onetriangle.ai/",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Inference has surpassed training as AI’s largest compute cost, accelerated by increasing demand for AI and agents. By using proprietary KV cache transfer tech, OneTriangle has cut inference costs by 20% and time by 40% compared to present standards.",
@@ -25455,10 +25454,9 @@
       "subindustry": "B2B -> Infrastructure",
       "launched_at": 1783378352,
       "tags": [
-        "Smart Packaging",
+        "Artificial Intelligence",
         "Open Source",
-        "Infrastructure",
-        "AI"
+        "Infrastructure"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -29901,7 +29899,7 @@
       "name": "Sunflower",
       "slug": "sunflower",
       "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/0bf8a606a0267a7db66ed2ec72c3d40992e132b9.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/ae86a0721b6effe108baf0067f19c1305be5c48b.png",
       "website": "https://sunflowerclinic.com/",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Sunflower is building an AI-native telemedicine clinic for addiction. There are over 18,750 patients on a waitlist for Therapy or Meds, representing $153M worth of TAM just waiting to be served. \r\n\r\nWe started by launching Sunflower Sober, the first AI Sponsor for addiction which grew to 100 MAU in less than 6 months and currently driving about $1.5M in run-rate worth of subscription app revenue.  \r\n\r\nSunflower Sober is currently pacing to add over 800,000 new users a year which means we are growing literally faster than Alcoholics Anonymous. \r\n\r\nWe have built one of the largest and most deeply loved brands within sobriety, and now we are building the clinical services underneath this brand to better fulfill on our mission & serve Medicaid who spends over $30B a year on SUD services. \r\n\r\nSunflower is founded by Koby who previously led Growth at Rupa from $5M to $75M/year. Our team includes clinical leaders (MDs / LPCs) from the Mayo Clinic, Choose Your Horizon, & Charlie Health. ",
@@ -38719,7 +38717,7 @@
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Wafer builds AI agents that work as autonomous performance engineers, optimizing GPU kernels for AI inference. \r\n\r\nOur product is serverless and dedicated inference for the world’s fastest open source LLMs, achieved by Wafer's autonomous performance engineers. ",
       "one_liner": "AI that makes AI fast",
-      "team_size": 7,
+      "team_size": 10,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -38727,7 +38725,7 @@
       "subindustry": "B2B -> Engineering, Product and Design",
       "launched_at": 1751530242,
       "tags": [
-        "Artificial Intelligence"
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -63319,11 +63317,11 @@
       "subindustry": "B2B -> Analytics",
       "launched_at": 1722311835,
       "tags": [
+        "Artificial Intelligence",
         "SaaS",
         "B2B",
         "Analytics",
-        "Data Engineering",
-        "AI"
+        "Data Engineering"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -80824,8 +80822,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/d8724ca6da40d81a8aadbd3cf9cf5fbaa58ac997.png",
       "website": "https://www.relari.ai/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Relari is a robotics research company developing new ways for robots to learn dexterous manipulation from humans. We use human muscle signals (electromyography, or EMG), vision, motion, and force to capture physical intent and transfer it to robots.",
-      "one_liner": "Building dexterous robots that learn from humans",
+      "long_description": "Relari is a robotics research company developing new ways for robots to learn dexterous manipulation from humans. We combine video with rich, scalable biomechanical data—including electromyography (EMG), motion, force, and touch—to train robotics foundation models for more capable, human-like manipulation.",
+      "one_liner": "Building dexterous robots that learn from human biomechanics",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -126896,7 +126894,7 @@
       "name": "Firezone",
       "slug": "firezone",
       "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/a132fac978a20406108533801bb0a40f980f02e0.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/b332f151ea2bb27aee388d55b28c0e973525f259.png",
       "website": "https://www.firezone.dev",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Firezone connects your workforce to the computing resources they need, wherever they are, securely. Unlike traditional VPNs, Firezone uses a least-privileged approach to access control known as Zero Trust Access.\r\n\r\nConnect your identity provider and define granular policies in minutes, then rejoice in the IT support requests you won't receive due to our lightweight, WireGuard-powered clients which work great on all platforms.",
@@ -128637,7 +128635,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": true,
+      "isHiring": false,
       "nonprofit": false,
       "batch": "Winter 2022",
       "status": "Active",
@@ -131560,7 +131558,7 @@
         "Remote",
         "Partly Remote"
       ],
-      "stage": "Growth",
+      "stage": "Early",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,

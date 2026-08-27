@@ -4,98 +4,73 @@
 - Current total: 6194
 - Added: 0
 - Removed: 0
-- Updated: 19
+- Updated: 14
 
 
 ## Updated Companies
 
-### [BuildZoom](https://www.ycombinator.com/companies/buildzoom)
-
-- `stage`: Early → Growth
-
-### [Astranis](https://www.ycombinator.com/companies/astranis)
-
-- `stage`: Early → Growth
-
-### [Ambient.ai](https://www.ycombinator.com/companies/ambient-ai)
-
-- `stage`: Early → Growth
-
-### [Standard AI](https://www.ycombinator.com/companies/standard-ai)
+### [Hubble Network](https://www.ycombinator.com/companies/hubble-network)
 
 - `stage`: Growth → Early
 
-### [Within](https://www.ycombinator.com/companies/within)
-
-- `stage`: Early → Growth
-
-### [Supabase](https://www.ycombinator.com/companies/supabase)
-
-- `stage`: Growth → Early
-
-### [Axle Health](https://www.ycombinator.com/companies/axle-health)
-
-- `stage`: Early → Growth
-
-### [LemFi](https://www.ycombinator.com/companies/lemfi)
-
-- `stage`: Early → Growth
-
-### [Metriport](https://www.ycombinator.com/companies/metriport)
-
-- `stage`: Early → Growth
-
-### [Greenboard](https://www.ycombinator.com/companies/greenboard)
-
-- `team_size`: 26 → 35
-- `tags`: Artificial Intelligence,Fintech,SaaS,Compliance,Operations → Fintech,SaaS,Compliance,Operations,AI
-- `stage`: Growth → Early
-
-### [SimCare](https://www.ycombinator.com/companies/simcare)
+### [Myria](https://www.ycombinator.com/companies/myria)
 
 - `isHiring`: true → false
 
-### [attimet](https://www.ycombinator.com/companies/attimet)
+### [Firezone](https://www.ycombinator.com/companies/firezone)
 
-- `one_liner`: we predict stuff → Building the Prime Radiant
-- `tags`: Artificial Intelligence,Finance,Trading → Finance,Trading,AI
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/a132fac978a20406108533801bb0a40f980f02e0.png → https://bookface-images.s3.amazonaws.com/small_logos/b332f151ea2bb27aee388d55b28c0e973525f259.png
 
-### [AfterQuery](https://www.ycombinator.com/companies/afterquery)
+### [Relari](https://www.ycombinator.com/companies/relari)
 
-- `stage`: Early → Growth
+- `one_liner`: Building dexterous robots that learn from humans → Building dexterous robots that learn from human biomechanics
 
-### [Visibl Semiconductors](https://www.ycombinator.com/companies/visibl-semiconductors)
+### [Zeit AI](https://www.ycombinator.com/companies/zeit-ai)
 
-- `team_size`: 2 → 3
-- `tags`: Artificial Intelligence,Hard Tech,Enterprise,Enterprise Software,Semiconductors → Hard Tech,Enterprise,Enterprise Software,Semiconductors,AI
+- `tags`: SaaS,B2B,Analytics,Data Engineering,AI → Artificial Intelligence,SaaS,B2B,Analytics,Data Engineering
 
-### [Veriad](https://www.ycombinator.com/companies/veriad)
+### [Wafer](https://www.ycombinator.com/companies/wafer)
 
-- `name`: Supafax → Veriad
-- `slug`: supafax → veriad
-- `former_names`: Veriad → Veriad,Supafax
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/3aad57490dc6ff8ef9e68566a4fbc4d7e6e484b8.png → https://bookface-images.s3.amazonaws.com/small_logos/0a84742c8558c6378997c9b19b54dd6ad334ce0c.png
-- `website`: https://supafax.com → https://veriad.com
-- `one_liner`: AI assistant for your email and calendar → Enterprise marketing agents
-- `subindustry`: B2B -> Productivity → B2B
-- `tags`: B2B,Productivity,Calendar,Email,AI Assistant → Artificial Intelligence,B2B,Marketing,Advertising
-- `industries`: B2B,Productivity → B2B
+- `team_size`: 7 → 10
+- `tags`: Artificial Intelligence → AI
 
-### [Perceptron ML](https://www.ycombinator.com/companies/perceptron-ml)
+### [Sunflower](https://www.ycombinator.com/companies/sunflower)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/39ef9d285402475a966cd1a646ae8e3b72115c89.png → https://bookface-images.s3.amazonaws.com/small_logos/23f18bbbc3a1b4a54c0c7513b5b49d243b55ff07.png
-- `tags`: B2B,Legal,Automation,AI → Artificial Intelligence,B2B,Legal,Automation
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/0bf8a606a0267a7db66ed2ec72c3d40992e132b9.png → https://bookface-images.s3.amazonaws.com/small_logos/ae86a0721b6effe108baf0067f19c1305be5c48b.png
 
-### [Egoist Machines](https://www.ycombinator.com/companies/egoist-machines)
+### [OneTriangle](https://www.ycombinator.com/companies/onetriangle)
 
-- `one_liner`: Your personal context, securely portable across every AI app and… → Your personal context, securely portable across every AI app.
-- `tags`: Artificial Intelligence,Personalization,Privacy,Consumer Products,AI Assistant → Personalization,Privacy,Consumer Products,AI,AI Assistant
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/c45501a034e0801b52fea8c488f574d2e60c8b18.png → https://bookface-images.s3.amazonaws.com/small_logos/75197a50573558e4b8c16932b7db7c7c11f235a4.png
+- `tags`: Smart Packaging,Open Source,Infrastructure,AI → Artificial Intelligence,Open Source,Infrastructure
 
-### [Exosat](https://www.ycombinator.com/companies/exosat)
+### [Terminal Use](https://www.ycombinator.com/companies/terminal-use)
 
-- `tags`: IoT,Space Exploration,Satellites,Aerospace,Telecommunications → Space Exploration,Satellites,Aerospace,Telecommunications,AI
+- `one_liner`: Digital twins for data center construction → AI-native transformation for operations-heavy companies
+- `industry`: Real Estate and Construction → B2B
+- `subindustry`: Real Estate and Construction -> Construction → B2B -> Operations
+- `industries`: Real Estate and Construction,Construction → B2B,Operations
 
-### [Computable](https://www.ycombinator.com/companies/computable)
+### [Enjamb Labs](https://www.ycombinator.com/companies/enjamb-labs)
 
-- `one_liner`: Buy, sell, and redeem GPU hours for any week with instant liquidity → Exchange for Physical Compute
-- `tags`: Marketplace,Finance,Cloud Computing,Trading,AI → Artificial Intelligence,Marketplace,Finance,Cloud Computing,Trading
+- `one_liner`: Where drug teams run their entire program, discovery to FDA approval → The AI Workforce for Biopharma
+- `tags`: Artificial Intelligence,SaaS,B2B,Biotech,Automation → SaaS,B2B,Biotech,Automation,AI
+
+### [Rindler](https://www.ycombinator.com/companies/rindler)
+
+- `website`: https://rindler.ai → https://maxxwell.dev
+- `one_liner`: The translation layer between AI agents and the web → The IDE for Tokenmaxxers
+- `subindustry`: B2B -> Infrastructure → B2B -> Engineering, Product and Design
+- `tags`: B2B,Workflow Automation,Automation,Infrastructure → Artificial Intelligence,Developer Tools,B2B
+- `industries`: B2B,Infrastructure → B2B,Engineering, Product and Design
+
+### [Mass Magnetics](https://www.ycombinator.com/companies/mass-magnetics)
+
+- `one_liner`: USA-made magnetics for aerospace, robotics, and defense.  → USA-made magnetics for robotics and defense. 
+
+### [Belvedir](https://www.ycombinator.com/companies/belvedir)
+
+- `one_liner`: The easiest way to make private AI models. → The easiest way to make private AI models
+
+### [Dock](https://www.ycombinator.com/companies/dock)
+
+- `one_liner`: Multiplayer agent workspace to run your company  → Multiplayer workspace for AI teammates and humans
