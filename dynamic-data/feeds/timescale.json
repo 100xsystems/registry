@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-08-25T18:28:14.823Z",
+  "updatedAt": "2026-08-28T01:58:15.500Z",
   "items": [
     {
       "guid": "https://www.tigerdata.com/blog/whats-new-in-tiger-cloud",
@@ -47,7 +47,15 @@
       "summary": "The bottleneck isn't the brain. It's dexterity, reliability, and data, which is why purpose-built robots are winning first.",
       "author": "Matty Stratton",
       "publishedAt": "2026-08-25T12:59:27.000Z"
+    },
+    {
+      "guid": "https://www.tigerdata.com/blog/faster-planning-for-limit-queries-on-hypertables",
+      "title": "14,000x Faster Planning for LIMIT Queries on Hypertables",
+      "link": "https://www.tigerdata.com/blog/faster-planning-for-limit-queries-on-hypertables",
+      "summary": "TimescaleDB's DeferredChunkAppend keeps planning time constant for ORDER BY LIMIT queries, no matter how many chunks a hypertable has.",
+      "author": "Sven Klemm",
+      "publishedAt": "2026-08-27T14:18:10.000Z"
     }
   ],
-  "totalIndexed": 5
+  "totalIndexed": 6
 }

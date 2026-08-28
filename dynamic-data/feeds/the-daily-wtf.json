@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-08-25T18:28:15.060Z",
+  "updatedAt": "2026-08-28T01:58:15.721Z",
   "items": [
     {
       "guid": "https://thedailywtf.com/articles/classic-wtf-my-many-girlfriends",
@@ -239,7 +239,15 @@
       "summary": "There are many cases where some sort of debugging block sneaks by, especially cases where we see preprocessors or templates working, which leave us with nonsense like if (true == false) running in production. But Codemonkey found a new twist on that sort of thing, in a SQL query being run in…",
       "author": "Remy Porter",
       "publishedAt": "2026-08-25T06:30:00.000Z"
+    },
+    {
+      "guid": "https://thedailywtf.com/articles/the-big-family",
+      "title": "CodeSOD: The Big Family",
+      "link": "https://thedailywtf.com/articles/the-big-family",
+      "summary": "Some time ago, Charles shared with us some awful PHP, aka the most common sort. Today's code sample is maybe a little too big to sum up, but I'll let Charles take a crack at it.\nIt's so bad that even analyzing and laughing at it feels impossible. But it’s so bad, I couldn’t not share it.\nI’m the…",
+      "author": "Remy Porter",
+      "publishedAt": "2026-08-27T06:30:00.000Z"
     }
   ],
-  "totalIndexed": 29
+  "totalIndexed": 30
 }

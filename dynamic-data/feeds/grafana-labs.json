@@ -8,16 +8,8 @@
     "monitoring",
     "data-visualization"
   ],
-  "updatedAt": "2026-08-26T01:16:16.980Z",
+  "updatedAt": "2026-08-28T01:58:05.553Z",
   "items": [
-    {
-      "guid": "https://grafana.com/blog/full-stack-observability-in-grafana-cloud-how-to-investigate-issues-across-services-and-infrastructure/",
-      "title": "Full-stack observability in Grafana Cloud: How to investigate issues across services and infrastructure",
-      "link": "https://grafana.com/blog/full-stack-observability-in-grafana-cloud-how-to-investigate-issues-across-services-and-infrastructure/",
-      "summary": "Many times, the hardest part of troubleshooting isn’t fixing the actual problem. It’s figuring out where to start. \nAs engineers, it’s easy to lose count of how many times we’ve opened logs, then 10 metrics tabs, and another 10 tabs with trace queries, only to end up back in the logs trying to find…",
-      "author": "Victor Padilla",
-      "publishedAt": "2026-06-30T10:30:56.000Z"
-    },
     {
       "guid": "grafana-labs::https://grafana.com/docs/grafana-cloud/machine-learning/agent-observability/guides/conversations/",
       "title": "Conversations",
@@ -80009,7 +80001,15 @@
       "summary": "Starting an experiment with an LLM has never been easier. Keeping a growing collection of those experiments consistent is another matter.\nEarlier this year, as more teams began exploring AI features here at Grafana Labs, we repeatedly encountered the same pattern: a new experiment would start, move…",
       "author": "Luccas Quadros",
       "publishedAt": "2026-08-25T17:33:01.000Z"
+    },
+    {
+      "guid": "https://grafana.com/blog/how-to-measure-and-improve-instrumentation-quality-for-better-full-stack-observability/",
+      "title": "How to measure and improve instrumentation quality for better full-stack observability",
+      "link": "https://grafana.com/blog/how-to-measure-and-improve-instrumentation-quality-for-better-full-stack-observability/",
+      "summary": "Modern engineering teams instrument everything, with metrics, logs, traces, and profiles flowing from hundreds of services at once. But full-stack observability isn’t really about collecting more telemetry; it's about having a single, unified picture of how your services connect to every layer…",
+      "author": "Arpit kumar",
+      "publishedAt": "2026-08-27T13:03:49.000Z"
     }
   ],
-  "totalIndexed": 21910
+  "totalIndexed": 21911
 }

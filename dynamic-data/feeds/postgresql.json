@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-08-27T07:47:01.352Z",
+  "updatedAt": "2026-08-28T01:58:05.428Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -1201,7 +1201,15 @@
       "summary": "Ten years ago, I attempted to enhance the \\dt+ command to sort results by size.\nThere were perhaps a hundred discussions, yet no consensus was reached on a new syntax. Eventually, I created the pspg tool,\nwhich allows results to be sorted by any column based on the vertical cursor position.\nNow, I…",
       "author": null,
       "publishedAt": "2026-08-26T20:34:21.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9tq",
+      "title": "Christophe Pettus: All Your GUCs in a Row: log_directory, log_filename, and log_file_mode",
+      "link": "https://postgr.es/p/9tq",
+      "summary": "All three of these do nothing unless logging_collector is on; they describe the files the collector writes. Where, what they’re called, and who can read them. The defaults for all three are fine for a laptop and wrong for a server, and the reasons are more mechanical than the documentation lets o…",
+      "author": null,
+      "publishedAt": "2026-08-28T01:00:00.000Z"
     }
   ],
-  "totalIndexed": 149
+  "totalIndexed": 150
 }

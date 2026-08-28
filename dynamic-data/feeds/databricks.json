@@ -8,7 +8,7 @@
     "data-platform",
     "spark"
   ],
-  "updatedAt": "2026-08-27T17:30:48.212Z",
+  "updatedAt": "2026-08-28T01:58:05.434Z",
   "items": [
     {
       "guid": "https://www.databricks.com/blog/simplify-ai-agent-orchestration-lakebase-postgres",
@@ -689,7 +689,15 @@
       "summary": "Agents that interact with a traditional OLTP database often create bottlenecks at the storage layer. New deployments...",
       "author": null,
       "publishedAt": "2026-08-27T07:18:59.000Z"
+    },
+    {
+      "guid": "https://www.databricks.com/blog/fast-fault-tolerant-pytorch-training-ai-runtime",
+      "title": "Fast, fault-tolerant PyTorch training on AI Runtime",
+      "link": "https://www.databricks.com/blog/fast-fault-tolerant-pytorch-training-ai-runtime",
+      "summary": "At scale, your training efficiency is determined by a single metric: \"goodput\", the...",
+      "author": null,
+      "publishedAt": "2026-08-28T01:15:00.000Z"
     }
   ],
-  "totalIndexed": 85
+  "totalIndexed": 86
 }

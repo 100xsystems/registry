@@ -9,7 +9,7 @@
     "edge-computing",
     "nextjs"
   ],
-  "updatedAt": "2026-08-25T18:28:14.249Z",
+  "updatedAt": "2026-08-28T01:58:14.905Z",
   "items": [
     {
       "guid": "vercel-blog::https://vercel.com/changelog/ai-gateway-now-supports-streaming-transcription",
@@ -4482,7 +4482,31 @@
       "summary": "You can now build bots that hold end-to-end encrypted 1:1 and group conversations on XChat with the new  for Chat SDK.XChat adapter\nThe adapter handles all encryption, key management, and signature verification automatically. Bots can also message users first, as long as the user has encrypted chat…",
       "author": "Josh Singh",
       "publishedAt": "2026-08-25T00:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/cursor-ai-sdk-harness-adapter",
+      "title": "Cursor is now available in the AI SDK harness layer",
+      "link": "https://vercel.com/changelog/cursor-ai-sdk-harness-adapter",
+      "summary": "The  now supports Cursor through the official  adapter. The harness layer lets your application run different coding agents through the same  interface, so you can switch agents without changing your application code. AI SDK harness layer@ai-sdk/harness-cursorHarnessAgent\nPass  to…",
+      "author": "Felix Arntz",
+      "publishedAt": "2026-08-27T14:47:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/find-deployments-faster-with-redesigned-filters",
+      "title": "Find deployments faster with redesigned filters",
+      "link": "https://vercel.com/changelog/find-deployments-faster-with-redesigned-filters",
+      "summary": "The Deployments page now has redesigned filters that make it faster to find a specific deployment. \nYou can: \nOpen any project's  to try the new filters.Deployments page\nRead more\n\nApply suggested filters for common searches. \n\nType to find an option instead of scrolling through the list.\n\nDescribe…",
+      "author": "wits",
+      "publishedAt": "2026-08-27T13:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/blog/the-best-workflow-engine-is-a-programming-language",
+      "title": "The best workflow engine is a programming language",
+      "link": "https://vercel.com/blog/the-best-workflow-engine-is-a-programming-language",
+      "summary": "The idea of orchestrating long-running, stateful logic on top of unreliable, stateless infrastructure isn't new. We've had message queues, job runners, microservice choreographies, and full-blown workflow engines for a long time. What we never had was a version of it that felt good to write.\nI'd…",
+      "author": "Pranay Prakash",
+      "publishedAt": "2026-08-27T07:00:00.000Z"
     }
   ],
-  "totalIndexed": 559
+  "totalIndexed": 562
 }

@@ -1,76 +1,124 @@
-# YC Company Changes for 2026-08-27
+# YC Company Changes for 2026-08-28
 
 - Previous total: 6194
 - Current total: 6194
 - Added: 0
 - Removed: 0
-- Updated: 14
+- Updated: 24
 
 
 ## Updated Companies
 
-### [Hubble Network](https://www.ycombinator.com/companies/hubble-network)
+### [BuildZoom](https://www.ycombinator.com/companies/buildzoom)
+
+- `status`: Inactive → Acquired
+- `stage`: Growth → Early
+
+### [Pyka](https://www.ycombinator.com/companies/pyka)
 
 - `stage`: Growth → Early
 
-### [Myria](https://www.ycombinator.com/companies/myria)
+### [Shasta Health](https://www.ycombinator.com/companies/shasta-health)
 
-- `isHiring`: true → false
+- `isHiring`: false → true
 
-### [Firezone](https://www.ycombinator.com/companies/firezone)
+### [Respan](https://www.ycombinator.com/companies/respan)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/a132fac978a20406108533801bb0a40f980f02e0.png → https://bookface-images.s3.amazonaws.com/small_logos/b332f151ea2bb27aee388d55b28c0e973525f259.png
+- `team_size`: 15 → 23
+- `tags`: AIOps,Artificial Intelligence,Developer Tools,SaaS,Monitoring → AIOps,Developer Tools,SaaS,Monitoring,AI
+- `app_video_public`: false → true
 
-### [Relari](https://www.ycombinator.com/companies/relari)
+### [Weave Robotics](https://www.ycombinator.com/companies/weave-robotics)
 
-- `one_liner`: Building dexterous robots that learn from humans → Building dexterous robots that learn from human biomechanics
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/fa1669fc77240d5b136ed7eb12c167327e93c7e8.png → https://bookface-images.s3.amazonaws.com/small_logos/656bbbf27cb99ea496ba946f90963d0806212dab.png
+- `website`: https://www.weaverobots.com → https://www.weaverobotics.com
+- `one_liner`: Personal robots for the home--that ship in 2025 → Practical and delightful home robots
+- `team_size`: 10 → 26
 
-### [Zeit AI](https://www.ycombinator.com/companies/zeit-ai)
+### [Autumn AI](https://www.ycombinator.com/companies/autumn-ai)
 
-- `tags`: SaaS,B2B,Analytics,Data Engineering,AI → Artificial Intelligence,SaaS,B2B,Analytics,Data Engineering
+- `website`: https://autumnai.com → https://autumn.ai
 
-### [Wafer](https://www.ycombinator.com/companies/wafer)
+### [Pax Historia](https://www.ycombinator.com/companies/pax-historia)
 
-- `team_size`: 7 → 10
-- `tags`: Artificial Intelligence → AI
+- `one_liner`: The first AI-powered grand strategy platform → The first AI-powered worldbuilding and gameplay platform
+- `team_size`: 3 → 6
+- `isHiring`: false → true
 
-### [Sunflower](https://www.ycombinator.com/companies/sunflower)
+### [Trident](https://www.ycombinator.com/companies/trident)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/0bf8a606a0267a7db66ed2ec72c3d40992e132b9.png → https://bookface-images.s3.amazonaws.com/small_logos/ae86a0721b6effe108baf0067f19c1305be5c48b.png
+- `one_liner`: secure everything that ships → Autonomous red team agents. The best defense is offense
+- `tags`: Artificial Intelligence,Security,Cybersecurity → Security,Cybersecurity,AI
 
-### [OneTriangle](https://www.ycombinator.com/companies/onetriangle)
+### [Intelligence Factory](https://www.ycombinator.com/companies/intelligence-factory)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/c45501a034e0801b52fea8c488f574d2e60c8b18.png → https://bookface-images.s3.amazonaws.com/small_logos/75197a50573558e4b8c16932b7db7c7c11f235a4.png
-- `tags`: Smart Packaging,Open Source,Infrastructure,AI → Artificial Intelligence,Open Source,Infrastructure
+- `all_locations`: San Francisco, CA, USA → New York City, NY, USA
+- `team_size`: 5 → 10
 
-### [Terminal Use](https://www.ycombinator.com/companies/terminal-use)
+### [Proprio Robotics](https://www.ycombinator.com/companies/proprio-robotics)
 
-- `one_liner`: Digital twins for data center construction → AI-native transformation for operations-heavy companies
-- `industry`: Real Estate and Construction → B2B
-- `subindustry`: Real Estate and Construction -> Construction → B2B -> Operations
-- `industries`: Real Estate and Construction,Construction → B2B,Operations
+- `tags`: Artificial Intelligence,Robotics → Robotics,AI
 
-### [Enjamb Labs](https://www.ycombinator.com/companies/enjamb-labs)
+### [Erinys](https://www.ycombinator.com/companies/erinys)
 
-- `one_liner`: Where drug teams run their entire program, discovery to FDA approval → The AI Workforce for Biopharma
-- `tags`: Artificial Intelligence,SaaS,B2B,Biotech,Automation → SaaS,B2B,Biotech,Automation,AI
+- `one_liner`: Building the first network of AI-native law firms → We help lawyers start and scale AI-native law firms.
 
-### [Rindler](https://www.ycombinator.com/companies/rindler)
+### [Insurf](https://www.ycombinator.com/companies/insurf)
 
-- `website`: https://rindler.ai → https://maxxwell.dev
-- `one_liner`: The translation layer between AI agents and the web → The IDE for Tokenmaxxers
-- `subindustry`: B2B -> Infrastructure → B2B -> Engineering, Product and Design
-- `tags`: B2B,Workflow Automation,Automation,Infrastructure → Artificial Intelligence,Developer Tools,B2B
-- `industries`: B2B,Infrastructure → B2B,Engineering, Product and Design
+- `one_liner`: The AI-Native Decision Infrastructure for Health Insurance → The AI-Native Decision Layer for Health Insurance
+- `team_size`: 2 → 3
+- `tags`: Artificial Intelligence,Health Tech,Healthcare,Insurance,Automation → Health Tech,Healthcare,Insurance,Automation,AI
 
-### [Mass Magnetics](https://www.ycombinator.com/companies/mass-magnetics)
+### [GUILD](https://www.ycombinator.com/companies/guild)
 
-- `one_liner`: USA-made magnetics for aerospace, robotics, and defense.  → USA-made magnetics for robotics and defense. 
+- `one_liner`: Making aerospace parts faster and cheaper for defense → AI-Native Defense Contractor
 
-### [Belvedir](https://www.ycombinator.com/companies/belvedir)
+### [Glen](https://www.ycombinator.com/companies/glen)
 
-- `one_liner`: The easiest way to make private AI models. → The easiest way to make private AI models
+- `one_liner`: Institutional knowledge for every agent in your company. → Institutional Learning Layer for Every Agent in Your Company
 
-### [Dock](https://www.ycombinator.com/companies/dock)
+### [screenpipe](https://www.ycombinator.com/companies/screenpipe)
 
-- `one_liner`: Multiplayer agent workspace to run your company  → Multiplayer workspace for AI teammates and humans
+- `one_liner`: AI powered by everything you've seen, said or heard → Turn your company's computer work into AI agents.
+
+### [Rasyn](https://www.ycombinator.com/companies/rasyn)
+
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/076afb6659e399c99ca25bb457a92d8183d0aba2.png → https://bookface-images.s3.amazonaws.com/small_logos/ffda7ce34aee49cfec95fa8aef9ed1a70e4c3e28.png
+- `one_liner`: Towards a General Intelligence for Chemistry → Making chemicals 100,000x faster
+- `team_size`: 0 → 3
+- `subindustry`: Healthcare -> Drug Discovery and Delivery → Healthcare
+- `tags`: AI-powered Drug Discovery,Deep Learning,Biotech → Artificial Intelligence,Deep Learning,Biotech,Manufacturing
+- `industries`: Healthcare,Drug Discovery and Delivery → Healthcare
+
+### [FlowManual](https://www.ycombinator.com/companies/flowmanual)
+
+- `one_liner`: AI for Construction's Back Office. → AI for Construction's Back Office
+
+### [Pluto](https://www.ycombinator.com/companies/talentpluto)
+
+- `one_liner`: AI voice agent that helps professionals get discovered → Voice agent that learns about professionals and makes them searchable
+
+### [Derya](https://www.ycombinator.com/companies/derya)
+
+- `one_liner`: Agentic Supply Chain Automations → Agents for Industrial Supply Chains
+
+### [Locke](https://www.ycombinator.com/companies/locke)
+
+- `one_liner`: Locke is changing the way companies and governments work together. → AI agents that help companies and governments work together.
+
+### [Wondering](https://www.ycombinator.com/companies/wondering)
+
+- `one_liner`: Duolingo for learning anything, but 10x better → Duolingo for learning anything
+
+### [Nex](https://www.ycombinator.com/companies/nex)
+
+- `one_liner`: AI GTM Engineer → Claude Cowork for high volume GTM workflows
+
+### [hiloop](https://www.ycombinator.com/companies/hiloop)
+
+- `one_liner`: Infrastructure for recursive self-improvement → Autoresearch as a service
+
+### [Robocurve](https://www.ycombinator.com/companies/robocurve)
+
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/d6e8c861f1402c351c96ee862b0de398b987e645.png → https://bookface-images.s3.amazonaws.com/small_logos/1cfdafb2f71eef92d986496e842d5218b330742b.png
+- `one_liner`: Evaluating robots in the real world. → Real-world evals for robots

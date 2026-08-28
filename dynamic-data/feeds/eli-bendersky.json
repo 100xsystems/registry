@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-08-22T18:18:14.313Z",
+  "updatedAt": "2026-08-28T01:58:06.776Z",
   "items": [
     {
       "guid": "eli-bendersky::https://eli.thegreenplace.net/2026/notes-on-the-fourier-transform/",
@@ -71,7 +71,15 @@
       "summary": "This is part 8 in a series of posts on writing concurrent network servers. In\nthis part, we'll switch to Go and see how it tackles the challenges described\nearlier in the series.\nAll posts in the series:\nPart 1 - Introduction\nPart 2 - Threads\nPart 3 - Event-driven\nPart 4 - libuv\nPart 5 - Redis case…",
       "author": "Eli Bendersky",
       "publishedAt": "2026-08-22T14:52:00.000Z"
+    },
+    {
+      "guid": "eli-bendersky::https://eli.thegreenplace.net/2026/how-big-are-factorials/",
+      "title": "How big are factorials?",
+      "link": "https://eli.thegreenplace.net/2026/how-big-are-factorials/",
+      "summary": "The other day, I found myself wondering how big 52! (52 factorial) is,\nand that led me to ponder how these could be estimated without a\ncalculator or a computer.\nIt turns out there’s some fairly interesting math behind being able to\nestimate the size (number of digits) of a factorial reasonably…",
+      "author": "Eli Bendersky",
+      "publishedAt": "2026-08-28T01:52:00.000Z"
     }
   ],
-  "totalIndexed": 8
+  "totalIndexed": 9
 }
