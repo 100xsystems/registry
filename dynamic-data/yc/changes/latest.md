@@ -1,121 +1,82 @@
 # YC Company Changes for 2026-08-28
 
-- Previous total: 6194
+- Previous total: 6193
 - Current total: 6193
 - Added: 0
-- Removed: 1
-- Updated: 25
+- Removed: 0
+- Updated: 16
 
-
-## Removed Companies
-
-- Amulet (Summer 2026)
 
 ## Updated Companies
 
-### [BuildZoom](https://www.ycombinator.com/companies/buildzoom)
+### [DeepSource](https://www.ycombinator.com/companies/deepsource)
 
-- `stage`: Early → Growth
-
-### [Standard AI](https://www.ycombinator.com/companies/standard-ai)
-
-- `stage`: Early → Growth
-
-### [Pyka](https://www.ycombinator.com/companies/pyka)
-
-- `stage`: Early → Growth
-
-### [Supabase](https://www.ycombinator.com/companies/supabase)
-
-- `stage`: Early → Growth
-
-### [Hubble Network](https://www.ycombinator.com/companies/hubble-network)
-
-- `stage`: Early → Growth
-
-### [Arintra](https://www.ycombinator.com/companies/arintra)
-
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/c5062433c0cd2b53219dee1f6f03c41690b9965b.png → https://bookface-images.s3.amazonaws.com/small_logos/d63e7c7dfa79e75106d18dc572d76823b8a5b6b6.png
-- `website`: https://arintra.com → https://www.arintra.com/
-- `one_liner`: Medical coding automation → Enterprise-grade AI for revenue assurance 
-- `tags`: SaaS,Health Tech,B2B,Digital Health,Healthcare → SaaS,Health Tech,Digital Health,Healthcare,Enterprise Software
-
-### [Relari](https://www.ycombinator.com/companies/relari)
-
-- `isHiring`: false → true
-
-### [Greenboard](https://www.ycombinator.com/companies/greenboard)
-
-- `stage`: Early → Growth
-
-### [CodeAnt AI](https://www.ycombinator.com/companies/codeant-ai)
-
-- `one_liner`: Autonomous offensive and defensive security platform → Autonomous offensive and defensive cybersecurity platform
-
-### [cmux](https://www.ycombinator.com/companies/cmux)
-
-- `isHiring`: false → true
+- `tags`: Developer Tools,SaaS,AI,AI Assistant → Artificial Intelligence,Developer Tools,SaaS,AI Assistant
+- `isHiring`: true → false
 
 ### [Zeit AI](https://www.ycombinator.com/companies/zeit-ai)
 
-- `tags`: Artificial Intelligence,SaaS,B2B,Analytics,Data Engineering → SaaS,B2B,Analytics,Data Engineering,AI
-- `question_answers`: false → true
+- `tags`: SaaS,B2B,Analytics,Data Engineering,AI → Artificial Intelligence,SaaS,B2B,Analytics,Data Engineering
 
-### [Bindwell](https://www.ycombinator.com/companies/bindwell)
+### [attimet](https://www.ycombinator.com/companies/attimet)
 
-- `team_size`: 4 → 13
+- `tags`: Finance,Trading,AI → Artificial Intelligence,Finance,Trading
+- `isHiring`: false → true
 
-### [Parrot](https://www.ycombinator.com/companies/parrot)
+### [ArchiLabs](https://www.ycombinator.com/companies/archilabs)
 
-- `isHiring`: true → false
+- `one_liner`: AI CAD for AEC → AI Data Center Design
 
-### [Moda](https://www.ycombinator.com/companies/moda)
+### [Canvas](https://www.ycombinator.com/companies/canvas)
 
-- `one_liner`: The continual learning layer for AI agents. → Harness Engineering Infrastructure that developers love.
+- `one_liner`: Continual learning for agents → Building AI systems that improve from experience.
 
-### [Tsenta](https://www.ycombinator.com/companies/tsenta)
+### [Stillwind](https://www.ycombinator.com/companies/stillwind)
 
-- `tags`:  → Artificial Intelligence,Marketplace,Consumer,Recruiting,HR Tech
+- `tags`: AIOps,Electronics,AI → AIOps,Artificial Intelligence,Electronics
 
-### [Trident](https://www.ycombinator.com/companies/trident)
+### [Anana](https://www.ycombinator.com/companies/anana)
 
-- `one_liner`: Autonomous red team agents. The best defense is offense → Autonomous offensive security agents. The best defense is offense
-- `tags`: Security,Cybersecurity,AI → Artificial Intelligence,Security,Cybersecurity
+- `one_liner`: The agentic system of action for hotel groups and management companies → AI Workspace for Hospitality Commercial Teams
 
-### [HERA](https://www.ycombinator.com/companies/manufacturingintelligence)
+### [LightSprint](https://www.ycombinator.com/companies/lightsprint)
 
-- `one_liner`: Hera is the design verification layer for heavy industry. → We make sure every factory in the world builds without mistakes.
+- `name`: Lightsprint → LightSprint
+- `former_names`:  → Lightsprint
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/3feaf8d76278baf8b9fbde6cc73fdda3ea2a5b18.png → https://bookface-images.s3.amazonaws.com/small_logos/c43e010268551eab76be0368766c6aa0da142440.png
+- `one_liner`: Collaborative product development with cloud agents → Software factory for product teams
 
-### [Shielded](https://www.ycombinator.com/companies/shielded)
+### [Donkey](https://www.ycombinator.com/companies/donkey)
 
-- `one_liner`: Decision intelligence for the world’s largest supply chains → The agentic origination desk for supply chain risk.
+- `one_liner`: The AI-native trading company: China factory-direct for US importers → The AI-native trading company: factory prices, delivered, one number
 
-### [GUILD](https://www.ycombinator.com/companies/guild)
+### [Enact](https://www.ycombinator.com/companies/enact)
 
-- `tags`: Compliance,Manufacturing,Supply Chain,Defense,AI → Artificial Intelligence,Manufacturing,Supply Chain,Defense
+- `one_liner`: The post-training layer for robotics. → Real-world RL environments for robotics models
+- `tags`: Artificial Intelligence,Reinforcement Learning,Robotics → Reinforcement Learning,Robotics,AI
 
-### [Almanac](https://www.ycombinator.com/companies/almanac)
+### [Buildbox](https://www.ycombinator.com/companies/buildbox)
 
-- `one_liner`: The AI that knows your company → The AI that knows you
-- `tags`: Generative AI,AI,AI Assistant → Artificial Intelligence,Generative AI,AI Assistant
+- `one_liner`: Understand how users experience your AI agents → Agent analytics for real user outcomes
+- `tags`: Artificial Intelligence,Analytics,Enterprise Software → Analytics,Enterprise Software,AI
 
-### [Omanta](https://www.ycombinator.com/companies/omanta)
+### [Exosat](https://www.ycombinator.com/companies/exosat)
 
-- `team_size`: 4 → 5
+- `one_liner`: Building a sovereign Starlink → Building a sovereign alternative to Starlink
 
-### [RonanRx Inc.](https://www.ycombinator.com/companies/ronanrx-inc)
+### [Nori](https://www.ycombinator.com/companies/noril1)
 
-- `one_liner`: We use AI to personalize peptides to your biology → Full Stack Pharmaceutical Company for Personalized Peptides and GLP-1s
+- `one_liner`: sub-$2000 humanoid robot you can teach to do anything → American Humanoid which costs 3% of the competition
 
-### [Markov](https://www.ycombinator.com/companies/markov)
+### [Executor](https://www.ycombinator.com/companies/executor)
 
-- `one_liner`: Data for computer-use AI → Expert computer-use data for frontier AI labs
+- `one_liner`: The open source integration management layer for AI. → The open source tool gateway
 
-### [Decawork](https://www.ycombinator.com/companies/decawork)
+### [Familiar](https://www.ycombinator.com/companies/familiar)
 
-- `all_locations`: San Francisco, CA, USA → Bengaluru, KA, India
-- `regions`: United States of America,America / Canada → India,South Asia
+- `one_liner`: Dubbing is finally good. Audio-Visual Translation. → Dubbing is Finally Good. Audio-Visual Translation.
+- `tags`: Generative AI,B2B,Entertainment,AI → Artificial Intelligence,Generative AI,B2B,Entertainment
 
-### [hiloop](https://www.ycombinator.com/companies/hiloop)
+### [Ethos Space Resources](https://www.ycombinator.com/companies/ethos-space-resources)
 
-- `one_liner`: Autoresearch as a service → Autoresearch as a service: we solve your hardest measurable problems
+- `app_video_public`: false → true

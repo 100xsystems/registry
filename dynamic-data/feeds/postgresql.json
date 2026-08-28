@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-08-28T01:58:05.428Z",
+  "updatedAt": "2026-08-28T18:26:10.633Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -1209,7 +1209,31 @@
       "summary": "All three of these do nothing unless logging_collector is on; they describe the files the collector writes. Where, what they’re called, and who can read them. The defaults for all three are fine for a laptop and wrong for a server, and the reasons are more mechanical than the documentation lets o…",
       "author": null,
       "publishedAt": "2026-08-28T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9ts",
+      "title": "Umair Shahid: How Fast Should You Patch Production PostgreSQL?",
+      "link": "https://postgr.es/p/9ts",
+      "summary": "On August 13, 2026, PostgreSQL shipped its biggest security release ever: 28 CVEs closed in a single day. The old record was 11.\nThe community has done its job, a phenomenal one at that! If you run PostgreSQL for critical workloads in production, the number you should focus on is how long it takes…",
+      "author": null,
+      "publishedAt": "2026-08-28T11:41:21.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9tu",
+      "title": "Shaun Thomas: From the Trenches: My Path Through Postgres",
+      "link": "https://postgr.es/p/9tu",
+      "summary": "Hello fellow Postgres Enjoyer. I'd like to do something a little different this week and talk a bit about how I got ensnared by the Postgres ecosystem, and what I've done with it over the years. Maybe you have something better to do with your Friday than listen to some old guy reminiscing about…",
+      "author": null,
+      "publishedAt": "2026-08-28T11:26:07.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9tt",
+      "title": "Mikhail Shytsko: The Dump That Breaks Its Own Restore",
+      "link": "https://postgr.es/p/9tt",
+      "summary": "A pg_dump data-only restore into a fresh, empty copy of the schema is the safest-sounding restore in PostgreSQL, since there is not a single row in the target for the incoming data to collide with. It stops anyway, on a table sitting plainly in \\dt.\npsql:/tmp/data.sql:56: ERROR:  relation…",
+      "author": null,
+      "publishedAt": "2026-08-28T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 150
+  "totalIndexed": 153
 }

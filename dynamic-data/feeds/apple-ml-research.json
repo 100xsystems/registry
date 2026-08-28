@@ -8,7 +8,7 @@
     "ai",
     "research"
   ],
-  "updatedAt": "2026-08-26T19:39:40.461Z",
+  "updatedAt": "2026-08-28T18:26:10.350Z",
   "items": [
     {
       "guid": "environment-free",
@@ -217,7 +217,23 @@
       "summary": "Supervised fine-tuning on teacher-generated trajectories is the standard first stage for distilling tool-calling capabilities into deployable models. Post-training pipelines that drive shipped tool-calling agents re-run this stage on a daily or weekly cadence, paying the frontier-teacher cost each…",
       "author": null,
       "publishedAt": "2026-08-26T00:00:00.000Z"
+    },
+    {
+      "guid": "llms-not-consistently-bayesian",
+      "title": "LLMs Are Not (Consistently) Bayesian: Quantifying Internal (In)consistencies of LLMs’ Probabilistic Beliefs",
+      "link": "https://machinelearning.apple.com/research/llms-not-consistently-bayesian",
+      "summary": "Modern AI systems are being deployed in complex domains such as medicine, science, and law, where there is often not a single correct answer given the observed evidence. Such systems must be able to represent and update uncertain beliefs about the world as new evidence arrives to make rational…",
+      "author": null,
+      "publishedAt": "2026-08-28T00:00:00.000Z"
+    },
+    {
+      "guid": "agent-seer-synthesizing-scenarios",
+      "title": "Agent Seer: Synthesizing Scenarios from Specification Understanding",
+      "link": "https://machinelearning.apple.com/research/agent-seer-synthesizing-scenarios",
+      "summary": "Evaluating AI agents that use external tools requires realistic test scenarios that capture how practitioners compose tools and iterate across conversation turns. Constructing such scenarios by hand demands deep domain expertise, does not scale across tool ecosystems, and produces static benchmarks…",
+      "author": null,
+      "publishedAt": "2026-08-28T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 26
+  "totalIndexed": 28
 }

@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-08-27T17:30:53.750Z",
+  "updatedAt": "2026-08-28T18:26:17.249Z",
   "items": [
     {
       "guid": "https://laravel-news.com/pest-5",
@@ -287,7 +287,31 @@
       "summary": "Laravel 13.27 adds whereBinary() to the query builder for byte-exact, case-sensitive comparisons on MySQL and MariaDB without dropping into whereRaw().\nThe post whereBinary(): Case-Sensitive MySQL Queries in Laravel appeared first on Laravel News.\nJoin the Laravel Newsletter to get Laravel articles…",
       "author": "Paul Redmond",
       "publishedAt": "2026-08-26T21:25:13.000Z"
+    },
+    {
+      "guid": "https://laravel-news.com/laravel-starter-kits-vite-plus",
+      "title": "Laravel Starter Kits Now Ship with Vite+",
+      "link": "https://laravel-news.com/laravel-starter-kits-vite-plus?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+      "summary": "Every Laravel starter kit now builds with Vite+, trading ESLint and Prettier for a single vp check across React, Vue, Svelte, and Livewire.\nThe post Laravel Starter Kits Now Ship with Vite+ appeared first on Laravel News.\nJoin the Laravel Newsletter to get Laravel articles like this directly in…",
+      "author": "Paul Redmond",
+      "publishedAt": "2026-08-28T16:45:20.000Z"
+    },
+    {
+      "guid": "https://laravel-news.com/laravel-refresh-for-update",
+      "title": "Pessimistic Locking in Laravel Eloquent with refreshForUpdate()",
+      "link": "https://laravel-news.com/laravel-refresh-for-update?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+      "summary": "Laravel 13.27 adds refreshForUpdate() to Eloquent, reloading a model under lockForUpdate() so you can take a pessimistic lock without requerying by key.\nThe post Pessimistic Locking in Laravel Eloquent with refreshForUpdate() appeared first on Laravel News.\nJoin the Laravel Newsletter to get…",
+      "author": "Paul Redmond",
+      "publishedAt": "2026-08-28T01:55:47.000Z"
+    },
+    {
+      "guid": "https://laravel-news.com/laravel-mask-query-bindings",
+      "title": "Mask Query Bindings in Laravel Exception Messages",
+      "link": "https://laravel-news.com/laravel-mask-query-bindings?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+      "summary": "Laravel 13.27 adds a per-connection option that keeps query bindings out of QueryException messages, so customer data stops reaching logs and APM tools.\nThe post Mask Query Bindings in Laravel Exception Messages appeared first on Laravel News.\nJoin the Laravel Newsletter to get Laravel articles…",
+      "author": "Paul Redmond",
+      "publishedAt": "2026-08-27T23:33:55.000Z"
     }
   ],
-  "totalIndexed": 35
+  "totalIndexed": 38
 }
