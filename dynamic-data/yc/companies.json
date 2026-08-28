@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-08-28T01:58:18.102Z",
-  "count": 6194,
+  "fetchedAt": "2026-08-28T09:51:55.321Z",
+  "count": 6193,
   "companies": [
     {
       "id": 37600,
@@ -1455,7 +1455,7 @@
       "website": "https://hiloop.ai",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "hiloop helps teams train agents for tasks where general models are not good enough. Give us a task, your current agent or model, and an evaluation. hiloop runs an autoresearch campaign across data, SFT and other post-training methods, continual learning, prompts, tools, harnesses, and systems, then returns the best verified improvement. It runs hosted or in your cloud.\r\n\r\nWe provide the research system around models: persistent memory, full experiment lineage, compute orchestration, and statistical verification. We’re starting with agent and model training, continual learning, and optimization.\r\n\r\nReach out to us for early access at founders@hiloop.ai.",
-      "one_liner": "Autoresearch as a service",
+      "one_liner": "Autoresearch as a service: we solve your hardest measurable problems",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -1808,53 +1808,6 @@
       "app_answers": null,
       "question_answers": false,
       "url": "https://www.ycombinator.com/companies/tracer"
-    },
-    {
-      "id": 33315,
-      "name": "Amulet",
-      "slug": "amulet",
-      "former_names": [
-        "Quokka"
-      ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/a701d932d1defe46eb3a0feed27a1cd9efe8e13c.png",
-      "website": "https://amulet.so/",
-      "all_locations": "San Francisco, CA, USA",
-      "long_description": "Amulet is a high-performance filesystem that gives agent workloads fast access to petabytes of data stored in the cloud. \r\n\r\nWe provide isolated, writable workspaces that mount in under 100 ms and fork without copying data. Work persists across disposable compute, and every workspace can be snapshotted, reproduced, merged, or rolled back. We’re working with agentic automated-research labs, cloud agent providers, and other to bring this infrastructure to data-intensive AI teams.",
-      "one_liner": "High performance file system for agents",
-      "team_size": 2,
-      "highlight_black": false,
-      "highlight_latinx": false,
-      "highlight_women": false,
-      "industry": "B2B",
-      "subindustry": "B2B -> Infrastructure",
-      "launched_at": 1783403722,
-      "tags": [
-        "Developer Tools",
-        "Machine Learning",
-        "Big Data",
-        "Infrastructure",
-        "AI"
-      ],
-      "tags_highlighted": [],
-      "top_company": false,
-      "isHiring": false,
-      "nonprofit": false,
-      "batch": "Summer 2026",
-      "status": "Active",
-      "industries": [
-        "B2B",
-        "Infrastructure"
-      ],
-      "regions": [
-        "United States of America",
-        "America / Canada"
-      ],
-      "stage": "Early",
-      "app_video_public": false,
-      "demo_day_video_public": false,
-      "app_answers": null,
-      "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/amulet"
     },
     {
       "id": 33314,
@@ -3146,7 +3099,7 @@
       "former_names": [],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/44fee5cae005d704af84e7ed5ed7418d4ca0580c.png",
       "website": "https://decawork.ai/",
-      "all_locations": "San Francisco, CA, USA",
+      "all_locations": "Bengaluru, KA, India",
       "long_description": "Decawork gives IT teams one place to deploy, govern and maintain the AI agents running across their company.\r\n\r\nBuilding internal AI tools and agents is getting easier. Turning them into company-owned systems is still hard. What follows is agent sprawl: deployment gets messy, agents go live with access to real systems and real data, and maintenance falls in the gap. IT can't see any of it, so it does the only two things it can: first ignore, then block. Ignoring piles up risk; blocking kills the productivity people just found. \r\n\r\nWith Decawork, every agent ships one standard way: its own identity and scoped credentials, with IT's sign-off before it goes live. After that, every run is watched - IT is alerted the moment something fails, agents nobody uses get retired. And the whole time, IT sees every agent, controls what it can touch, and audits every action, with approvals gating anything sensitive.\r\n\r\nEvery big shift - cloud, SaaS, the digital workspace - ended with IT running it. Agents aren't just the next shift, they're the next workforce, bigger than the human one. Decawork is what IT will run them with.",
       "one_liner": "The Agent Control Plane for IT teams",
       "team_size": 2,
@@ -3172,8 +3125,8 @@
         "Infrastructure"
       ],
       "regions": [
-        "United States of America",
-        "America / Canada"
+        "India",
+        "South Asia"
       ],
       "stage": "Early",
       "app_video_public": false,
@@ -3714,7 +3667,7 @@
       "website": "https://www.markovstudios.com/",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Markov sells expert computer-use data to frontier labs. We’ve sold more than 33k+ hours and our open-source datasets have got over 200k+ downloads on hugging face.",
-      "one_liner": "Data for computer-use AI",
+      "one_liner": "Expert computer-use data for frontier AI labs",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -3892,7 +3845,7 @@
       "website": "https://ronanrx.com/",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "RonanRX helps you personalize GLP-1s like Ozempic, peptides, and other treatments using your labs, wearables, medical history, treatment response, and the latest medical research. Instead of treating the average patient, we continuously personalize your treatment as your body changes.\r\n\r\nWe've built the complete feedback loop for personalized medicine: your health data automatically syncs into one place, AI helps personalize treatment, licensed doctors make prescribing decisions, medications are delivered to your door, and every outcome continuously improves your protocol.\r\n\r\nConnect your health data once. RonanRX automatically syncs your labs, wearables, and medical records into a single AI-powered health profile that helps personalize GLP-1s like Ozempic, peptides, supplements, and other treatments around your biology. If prescribed, your medication is delivered to your door.\r\n\r\nOur founders have built and exited multiple companies, raised over $100M, and previously built a $50M U.S. medical manufacturing business.\r\n\r\nStart with a text at RonanRX.com and become the maximum version of yourself, \r\n\r\n",
-      "one_liner": "We use AI to personalize peptides to your biology",
+      "one_liner": "Full Stack Pharmaceutical Company for Personalized Peptides and GLP-1s",
       "team_size": 5,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -4999,7 +4952,7 @@
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Omanta is a personalized research lab for patients who have exhausted standard options, want to prepare proactively for recurrence, or are living with an unresolved diagnosis.\r\n\r\nWe direct the full operational infrastructure, personnel, expertise, and technology of a large research program toward understanding and addressing the challenges of individual patients across oncology, rare disease, and undiagnosed conditions.\r\n\r\nFor clinicians, we act as a collaborative partner, providing a living roadmap for ongoing patient care built on a rigorous and evolving scientific evidence base.\r\n\r\nWe fully operationalize patient-specific research programs, covering tissue logistics, diagnostic follow-up, data integration, multiomic analysis, therapeutic strategy development, and more.\r\n\r\nOmanta brings context and clarity to complex cases, helping clinicians see more of the scientific picture as they decide how best to care for their patients.",
       "one_liner": "A research lab for one",
-      "team_size": 4,
+      "team_size": 5,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -5300,8 +5253,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/04034530613a233afe0d28a52bcfd6e9943b7ea7.png",
       "website": "https://usealmanac.com",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Almanac is Hermes with a company brain. You message it in Slack or iMessage; it knows what is happening across your company and can use your accounts to get real tasks done for you. It has a full computer, browser and terminal. It takes your Gmail, Calendar, Attio, GitHub, AI convos, docs and meeting notes and compiles them into a Wiki that keeps itself up to date. It keeps a current understanding of what you’re building, who your customers are, what was decided, and what still needs to happen. It can use websites, run code, create files and take actions across your accounts. If it reaches a login, payment or decision it shouldn’t make alone, it pings you or hands you the live browser. \r\n",
-      "one_liner": "The AI that knows your company",
+      "long_description": "Almanac is the agent that knows you. You message it in Slack or iMessage; it knows what is happening across your company and can use your accounts to get real tasks done for you. It has a full computer, browser and terminal. It takes your Gmail, Calendar, Attio, GitHub, AI convos, docs and meeting notes and compiles them into a Wiki that keeps itself up to date. It keeps a current understanding of what you’re building, who your customers are, what was decided, and what still needs to happen. It can use websites, run code, create files and take actions across your accounts. If it reaches a login, payment or decision it shouldn’t make alone, it pings you or hands you the live browser. \r\n",
+      "one_liner": "The AI that knows you",
       "team_size": 0,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -5310,8 +5263,8 @@
       "subindustry": "B2B",
       "launched_at": 1784235632,
       "tags": [
+        "Artificial Intelligence",
         "Generative AI",
-        "AI",
         "AI Assistant"
       ],
       "tags_highlighted": [],
@@ -7535,7 +7488,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/efd3ccc04f842f9a3a1235ba1ef66aa4447fc993.png",
       "website": "https://www.guildai.co",
       "all_locations": "New York City, NY, USA",
-      "long_description": "GUILD is making aerospace parts faster and cheaper than today’s defense supply chain. We win defense contracts, automate manufacturing, and deliver to the government's door.\r\n\r\nWe’ve built an AI-native operating model for defense contracting: a company brain that connects requirements, pricing, supplier capability, compliance, manufacturing, finance, and delivery so each contract makes the next one faster and cheaper.",
+      "long_description": "GUILD is an AI-Native Defense contractor making aerospace parts faster and cheaper. We win defense contracts, automate manufacturing, and deliver to the government's door.",
       "one_liner": "AI-Native Defense Contractor",
       "team_size": 2,
       "highlight_black": false,
@@ -7545,11 +7498,10 @@
       "subindustry": "Industrials -> Defense",
       "launched_at": 1778869862,
       "tags": [
-        "Compliance",
+        "Artificial Intelligence",
         "Manufacturing",
         "Supply Chain",
-        "Defense",
-        "AI"
+        "Defense"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -8773,7 +8725,7 @@
       "website": "https://www.shieldedglobal.com/",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Shielded connects companies’ internal and external data to map market shifts, tariffs, and disruptions directly to suppliers, products, and margins. We turn those impacts into real-time decisions that grow and protect the business. ",
-      "one_liner": "Decision intelligence for the world’s largest supply chains",
+      "one_liner": "The agentic origination desk for supply chain risk.",
       "team_size": 0,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -9045,7 +8997,7 @@
       "website": "https://www.manufacturingintelligence.org",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "At Hera, we build tools that help heavy engineering teams bring products to market up to 20× faster. Today, we work with manufacturers of data center ancillary equipment, renewable energy systems, robotics, heat exchangers, power plants and pressure vessels.\r\n",
-      "one_liner": "Hera is the design verification layer for heavy industry.",
+      "one_liner": "We make sure every factory in the world builds without mistakes.",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -10570,7 +10522,7 @@
       "website": "https://tridentsecurity.io/",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Trident is the standard for modern day security. its an agentic pentester that chains vulnerabilities together like a real attacker mapping verified attack paths across AWS, Azure, GCP, web apps, and APIs. Run AI attacks and get fixes.\r\n\r\nGet started today: tridentsecurity.io",
-      "one_liner": "Autonomous red team agents. The best defense is offense",
+      "one_liner": "Autonomous offensive security agents. The best defense is offense",
       "team_size": 4,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -10579,9 +10531,9 @@
       "subindustry": "B2B -> Security",
       "launched_at": 1785361922,
       "tags": [
+        "Artificial Intelligence",
         "Security",
-        "Cybersecurity",
-        "AI"
+        "Cybersecurity"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -18844,7 +18796,13 @@
       "industry": "Consumer",
       "subindustry": "Consumer -> Job and Career Services",
       "launched_at": 1769729252,
-      "tags": [],
+      "tags": [
+        "Artificial Intelligence",
+        "Marketplace",
+        "Consumer",
+        "Recruiting",
+        "HR Tech"
+      ],
       "tags_highlighted": [],
       "top_company": false,
       "isHiring": false,
@@ -19132,8 +19090,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c76a18751e4b95b7b3cf621f7752449405d71aa5.png",
       "website": "https://moda.dev",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Moda is the continual learning layer for AI agents. It turns production agent traces into validated improvements for your agent harness. It surfaces patterns across agent hallucinations, laziness, context loss, and tool call failures, then attributes each issue to a specific layer of the agent harness: prompts, tools, workflows, retrieval, memory, and evals. It also discovers what users are actually trying to do and turns those findings into concrete counterfactuals the team can ship.\r\n\r\nIn the next 10 years, with more AI agents spawning and trying to get PMF, developing an agent that actually works for users is critical. Everyone has access to the same models, thus the ones that win on a product level will be the ones who learn fastest from real usage. Moda is that learning layer.",
-      "one_liner": "The continual learning layer for AI agents.",
+      "long_description": "Moda is a harness engineering platform. It turns production traces into verified improvements for your agent harness: prompts, tools, skills, evals, and memory.\r\n\r\nThe infra problems we actually take: transfer what a frontier model learned onto an open-source one without losing performance, and stand up a model router for your own system and task. Same loop both times. Name the layer that broke, ship the change, replay it on old traffic before it goes out. We've built the infrastructure to tackle these harness problems at scale.\r\n\r\nWe do not sell a platform that solves every harness problem. We sell those jobs, on an agent already in production.",
+      "one_liner": "Harness Engineering Infrastructure that developers love.",
       "team_size": 6,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -32329,7 +32287,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": true,
+      "isHiring": false,
       "nonprofit": false,
       "batch": "Fall 2025",
       "status": "Active",
@@ -50455,7 +50413,7 @@
       "all_locations": "San Francisco, CA, USA",
       "long_description": "We're developing better, safer pesticides in-house using custom AI models. ",
       "one_liner": "Discovering new pesticides with AI",
-      "team_size": 4,
+      "team_size": 13,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -63317,11 +63275,11 @@
       "subindustry": "B2B -> Analytics",
       "launched_at": 1722311835,
       "tags": [
-        "Artificial Intelligence",
         "SaaS",
         "B2B",
         "Analytics",
-        "Data Engineering"
+        "Data Engineering",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -63343,7 +63301,7 @@
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
-      "question_answers": false,
+      "question_answers": true,
       "url": "https://www.ycombinator.com/companies/zeit-ai"
     },
     {
@@ -64995,7 +64953,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": false,
+      "isHiring": true,
       "nonprofit": false,
       "batch": "Summer 2024",
       "status": "Active",
@@ -75374,7 +75332,7 @@
       "website": "https://codeant.ai/",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "CodeAnt AI attacks your systems the way a real adversary would, then it walks back into your code and helps you build the defenses exactly where the attack got through.\r\n\r\nContinuous attack. Continuous defense. One self-learning platform.\r\n\r\nTrigger a free pentest No engagement fee. Pay only if we find high or critical issues; low and medium issues are free.",
-      "one_liner": "Autonomous offensive and defensive security platform",
+      "one_liner": "Autonomous offensive and defensive cybersecurity platform",
       "team_size": 25,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -78203,7 +78161,7 @@
         "United States of America",
         "America / Canada"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -80836,7 +80794,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": false,
+      "isHiring": true,
       "nonprofit": false,
       "batch": "Winter 2024",
       "status": "Active",
@@ -122135,11 +122093,11 @@
         "Arintra",
         "Inc"
       ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c5062433c0cd2b53219dee1f6f03c41690b9965b.png",
-      "website": "https://arintra.com",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/d63e7c7dfa79e75106d18dc572d76823b8a5b6b6.png",
+      "website": "https://www.arintra.com/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "US hospitals and clinics are losing $125B every year due to delayed and inaccurate medical coding. Arintra is solving this problem by automating medical coding using clinical AI. Arintra converts a patient chart instantly into insurance claims with 96% accurate medical codes and zero human intervention.\r\n\r\nArintra has partnered with several provider clients that includes health systems and large physician groups with 100% success. Through automation of these charts, Arintra has reduced undercoding by 11% and coding-related claim denials by 43%. Arintra is headquartered in Austin, Texas. \r\n\r\nArintra is bi-directionally integrated with leading EHRs including Epic, Athena, Cerner, etc. to process patient charts directly from the EHR to create a direct-to-billing claim. This direct-to-billing claim includes precise E/M levels, CPT, ICD-10, HCC, HCPCS codes with appropriate modifiers and units.\r\n\r\nBoth founders have PhDs in AI, significant ML and NLP experience, 60+ patents and publications, and a combined 20+ years of experience working at B2B companies and startups in Silicon Valley.",
-      "one_liner": "Medical coding automation",
+      "long_description": "Arintra is an enterprise AI platform for revenue assurance in healthcare, empowering health systems to get paid accurately, promptly, and fairly. Combining agentic AI with deep clinical expertise, Arintra autonomously codes every chart, explainably, across 23+ specialties and every care setting a health system operates — then cascades that intelligence across the revenue cycle through documentation intelligence (CDI) and denial appeals. Leading enterprise health systems including UC Davis Health, Mercyhealth, Meritus Health, Rochester Regional Health, Reid Health, Mercy Medical Center, and more use Arintra as their centralized, audit-ready revenue cycle platform. Arintra is available in the Epic Toolbox and on the athenahealth Marketplace, is HITRUST e1 certified, and earned a 93/100 with A+ performance rating from KLAS Research.",
+      "one_liner": "Enterprise-grade AI for revenue assurance ",
       "team_size": 50,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -122150,9 +122108,9 @@
       "tags": [
         "SaaS",
         "Health Tech",
-        "B2B",
         "Digital Health",
-        "Healthcare"
+        "Healthcare",
+        "Enterprise Software"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -131558,7 +131516,7 @@
         "Remote",
         "Partly Remote"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -169554,7 +169512,7 @@
         "Remote",
         "Fully Remote"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -219402,7 +219360,7 @@
         "Remote",
         "Partly Remote"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -221166,7 +221124,7 @@
         "Remote",
         "Fully Remote"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": true,
       "app_answers": null,
@@ -257132,7 +257090,7 @@
         "Remote",
         "Partly Remote"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
