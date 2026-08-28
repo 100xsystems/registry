@@ -1,82 +1,120 @@
 # YC Company Changes for 2026-08-28
 
 - Previous total: 6193
-- Current total: 6193
-- Added: 0
+- Current total: 6194
+- Added: 1
 - Removed: 0
-- Updated: 16
+- Updated: 23
 
+
+## Added Companies
+
+- [Workers IO](https://www.ycombinator.com/companies/workers-io) (Fall 2026) — Deterministic Virtual Machines
 
 ## Updated Companies
 
-### [DeepSource](https://www.ycombinator.com/companies/deepsource)
+### [Biodock](https://www.ycombinator.com/companies/biodock)
 
-- `tags`: Developer Tools,SaaS,AI,AI Assistant → Artificial Intelligence,Developer Tools,SaaS,AI Assistant
-- `isHiring`: true → false
+- `all_locations`: Astana, Kazakhstan; Austin, TX, USA → Austin, TX, USA
+- `tags`: Artificial Intelligence,Deep Learning,SaaS → Deep Learning,SaaS,AI
+- `regions`: Kazakhstan,United States of America,Asia,America / Canada,Remote,Partly Remote → United States of America,America / Canada,Remote,Partly Remote
 
-### [Zeit AI](https://www.ycombinator.com/companies/zeit-ai)
+### [Confido](https://www.ycombinator.com/companies/confido)
 
-- `tags`: SaaS,B2B,Analytics,Data Engineering,AI → Artificial Intelligence,SaaS,B2B,Analytics,Data Engineering
+- `stage`: Growth → Early
 
-### [attimet](https://www.ycombinator.com/companies/attimet)
+### [Automat](https://www.ycombinator.com/companies/automat)
 
-- `tags`: Finance,Trading,AI → Artificial Intelligence,Finance,Trading
-- `isHiring`: false → true
+- `one_liner`: AI enabled RPA using ChatGPT and computer vision → Agentic automation that understands context, recovers, and improves.
 
-### [ArchiLabs](https://www.ycombinator.com/companies/archilabs)
+### [Baud](https://www.ycombinator.com/companies/baud)
 
-- `one_liner`: AI CAD for AEC → AI Data Center Design
+- `one_liner`: AI chips for ultra-fast model training and inference → AI chips for ultra-fast training and inference
 
-### [Canvas](https://www.ycombinator.com/companies/canvas)
+### [Shasta Health](https://www.ycombinator.com/companies/shasta-health)
 
-- `one_liner`: Continual learning for agents → Building AI systems that improve from experience.
+- `one_liner`: AI calling & browser agents for healthcare → The last healthcare admin hire
+- `team_size`: 2 → 5
+
+### [Reducto](https://www.ycombinator.com/companies/reducto)
+
+- `stage`: Growth → Early
+
+### [camfer](https://www.ycombinator.com/companies/camfer)
+
+- `status`: Active → Inactive
+
+### [Freebuff](https://www.ycombinator.com/companies/freebuff)
+
+- `team_size`: 2 → 4
+- `tags`: Developer Tools,AI → Artificial Intelligence,Developer Tools
 
 ### [Stillwind](https://www.ycombinator.com/companies/stillwind)
 
-- `tags`: AIOps,Electronics,AI → AIOps,Artificial Intelligence,Electronics
+- `team_size`: 4 → 3
+- `tags`: AIOps,Artificial Intelligence,Electronics → AIOps,Electronics,AI
 
-### [Anana](https://www.ycombinator.com/companies/anana)
+### [Paratus Health](https://www.ycombinator.com/companies/paratus-health)
 
-- `one_liner`: The agentic system of action for hotel groups and management companies → AI Workspace for Hospitality Commercial Teams
+- `website`: https://paratushealth.org/ → https://paratushealth.com/
+- `one_liner`: The first healthcare GTM data platform → healthcare AI
 
-### [LightSprint](https://www.ycombinator.com/companies/lightsprint)
+### [Sureform](https://www.ycombinator.com/companies/sureform)
 
-- `name`: Lightsprint → LightSprint
-- `former_names`:  → Lightsprint
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/3feaf8d76278baf8b9fbde6cc73fdda3ea2a5b18.png → https://bookface-images.s3.amazonaws.com/small_logos/c43e010268551eab76be0368766c6aa0da142440.png
-- `one_liner`: Collaborative product development with cloud agents → Software factory for product teams
+- `one_liner`: Real-world data for multimodal and embodied AI → Real-world data and RL environments for frontier AI
+- `tags`: Artificial Intelligence,Marketplace,Robotics,Data Labeling → Marketplace,Robotics,Data Labeling,AI
 
-### [Donkey](https://www.ycombinator.com/companies/donkey)
+### [OS3](https://www.ycombinator.com/companies/os3)
 
-- `one_liner`: The AI-native trading company: China factory-direct for US importers → The AI-native trading company: factory prices, delivered, one number
+- `tags`: Hardware,Robotics,B2B,AI → Artificial Intelligence,Hardware,Robotics,B2B
 
-### [Enact](https://www.ycombinator.com/companies/enact)
+### [MarkIt](https://www.ycombinator.com/companies/markit)
 
-- `one_liner`: The post-training layer for robotics. → Real-world RL environments for robotics models
-- `tags`: Artificial Intelligence,Reinforcement Learning,Robotics → Reinforcement Learning,Robotics,AI
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/7ce36c890b8eb86b7fc3b3abf554b5af589b3e9f.png → https://bookface-images.s3.amazonaws.com/small_logos/39b63a988d2773d1a5c1037f6450dfbc78231218.png
 
-### [Buildbox](https://www.ycombinator.com/companies/buildbox)
+### [Quotient Labs](https://www.ycombinator.com/companies/quotient-labs)
 
-- `one_liner`: Understand how users experience your AI agents → Agent analytics for real user outcomes
-- `tags`: Artificial Intelligence,Analytics,Enterprise Software → Analytics,Enterprise Software,AI
+- `name`: Syntropy → Quotient Labs
+- `slug`: syntropy → quotient-labs
+- `former_names`:  → Syntropy
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/e19b35070e7d07faf76c0c63ed399bd1286b5daf.png → https://bookface-images.s3.amazonaws.com/small_logos/67e517c455ab1e170ed6b2628a4dce9546f07490.png
+- `website`: https://syntropy.io → https://quotientlabs.com
+- `one_liner`: The agentic coding app for complex tasks. → Use Claude Code at 47% less cost in one line of installation.
 
-### [Exosat](https://www.ycombinator.com/companies/exosat)
+### [BioStack Platforms](https://www.ycombinator.com/companies/biostack-platforms)
 
-- `one_liner`: Building a sovereign Starlink → Building a sovereign alternative to Starlink
+- `team_size`: 4 → 7
 
-### [Nori](https://www.ycombinator.com/companies/noril1)
+### [Proprio Robotics](https://www.ycombinator.com/companies/proprio-robotics)
 
-- `one_liner`: sub-$2000 humanoid robot you can teach to do anything → American Humanoid which costs 3% of the competition
+- `team_size`: 2 → 1
+- `tags`: Robotics,AI → Artificial Intelligence,Robotics
 
-### [Executor](https://www.ycombinator.com/companies/executor)
+### [Instaplay](https://www.ycombinator.com/companies/instaplay)
 
-- `one_liner`: The open source integration management layer for AI. → The open source tool gateway
+- `tags`: Artificial Intelligence,Gaming → Gaming,AI
 
-### [Familiar](https://www.ycombinator.com/companies/familiar)
+### [Veltha](https://www.ycombinator.com/companies/veltha)
 
-- `one_liner`: Dubbing is finally good. Audio-Visual Translation. → Dubbing is Finally Good. Audio-Visual Translation.
-- `tags`: Generative AI,B2B,Entertainment,AI → Artificial Intelligence,Generative AI,B2B,Entertainment
+- `one_liner`: AI claims adjuster for regulated insurance → AI native TPA starting with workers comp
+
+### [Rational](https://www.ycombinator.com/companies/rational)
+
+- `isHiring`: false → true
+
+### [Luca IQ](https://www.ycombinator.com/companies/luca-iq)
+
+- `one_liner`: API First Tax Engine for CPAs → API-first tax engine for CPA firms and developers
+
+### [CarSignal](https://www.ycombinator.com/companies/carsignal)
+
+- `one_liner`: The Smart Operating System for Auto Shops. → The AI Operating System for Auto Shops.
+- `tags`: SaaS,B2B,AI,Automotive → Artificial Intelligence,Hardware,SaaS,B2B,Automotive
 
 ### [Ethos Space Resources](https://www.ycombinator.com/companies/ethos-space-resources)
 
-- `app_video_public`: false → true
+- `tags`: Hard Tech,Exascale Computing,3D Printing,Energy,Aerospace → Hard Tech,Exascale Computing,Energy,Aerospace,Industrial
+
+### [Billow AI Labs](https://www.ycombinator.com/companies/billow-ai-labs)
+
+- `one_liner`: AI-native Accounting Firm to Replace the Big-4 → AI-native Accounting Firm that's killing Deloitte
