@@ -4,55 +4,53 @@
 - Current total: 6194
 - Added: 0
 - Removed: 0
-- Updated: 10
+- Updated: 8
 
 
 ## Updated Companies
 
-### [Shasta Health](https://www.ycombinator.com/companies/shasta-health)
+### [Wolfia](https://www.ycombinator.com/companies/wolfia)
 
 - `isHiring`: true → false
 
-### [Garage](https://www.ycombinator.com/companies/garage-2)
+### [Autumn AI](https://www.ycombinator.com/companies/autumn-ai)
 
-- `stage`: Growth → Early
+- `one_liner`: Stalk your prospects at scale. → Everything on anyone.
 
-### [Olive](https://www.ycombinator.com/companies/olive)
+### [Convexia](https://www.ycombinator.com/companies/convexia)
 
-- `one_liner`: Curated stories, every day → 
-- `subindustry`: B2B -> Recruiting and Talent → B2B
-- `tags`: Productivity,Team Collaboration,AI → Artificial Intelligence,Productivity,Team Collaboration
-- `industries`: B2B,Recruiting and Talent → B2B
+- `isHiring`: true → false
 
-### [Rindler](https://www.ycombinator.com/companies/rindler)
+### [Anchorhead](https://www.ycombinator.com/companies/anchorhead)
 
-- `tags`: Artificial Intelligence,Developer Tools,B2B → Developer Tools,SaaS,Infrastructure,AI
+- `one_liner`: Fractional buyer for hardware companies in critical industries → Evals for frontier research agents
+- `team_size`: 2 → 1
+- `industry`: Industrials → B2B
+- `subindustry`: Industrials -> Manufacturing and Robotics → B2B -> Engineering, Product and Design
+- `tags`: Industrial → Reinforcement Learning
+- `industries`: Industrials,Manufacturing and Robotics → B2B,Engineering, Product and Design
 
-### [GitCafe](https://www.ycombinator.com/companies/gitcafe)
+### [Poth Labs](https://www.ycombinator.com/companies/poth-labs)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/0368e97446261f618b077e5a2549ed76b47bbb0f.png → https://bookface-images.s3.amazonaws.com/small_logos/7253a933be3a143635c29e5c657cccd546868c00.png
-- `tags`: Developer Tools,DevOps → Developer Tools,B2B,DevOps,AI
+- `one_liner`: Helping companies understand why users behave the way they do → Conversational surveys that replace Qualtrics for large brands
 
-### [Studio](https://www.ycombinator.com/companies/studio)
+### [Trope](https://www.ycombinator.com/companies/trope)
 
-- `one_liner`: Engineer the future → Accurately simulate market response at scale
-- `tags`: Artificial Intelligence,B2B,Analytics,AI → Artificial Intelligence,B2B,Analytics,Market Research,AI
+- `tags`: SaaS,B2B,AI → Artificial Intelligence,SaaS,B2B
 
-### [Pluto](https://www.ycombinator.com/companies/talentpluto)
+### [Dialogus](https://www.ycombinator.com/companies/dialogus)
 
-- `tags`: Artificial Intelligence,Careers,Conversational AI → AI,Careers,Conversational AI
+- `one_liner`: Infra for enterprise voice agents. → The AI-native contact center.
 
-### [Moving Atoms](https://www.ycombinator.com/companies/moving-atoms)
+### [CueBench](https://www.ycombinator.com/companies/cuebench)
 
-- `one_liner`: World Model Lab for Evaluating and Training Robots. → Robot Models designed to be controlled by LLMs
-- `tags`: Hard Tech,Robotics,Virtual Reality,AI → Artificial Intelligence,Hard Tech,Robotics,Virtual Reality
-
-### [Marengo](https://www.ycombinator.com/companies/marengo)
-
-- `tags`: Design,Energy,Architecture,AI → Artificial Intelligence,Design,Energy,Architecture
-
-### [Familiar](https://www.ycombinator.com/companies/familiar)
-
-- `one_liner`: Dubbing is Finally Good. Audio-Visual Translation. → Dubbing is Finally Good. Neolab for World Translation.
-- `team_size`: 7 → 8
-- `tags`: Artificial Intelligence,Generative AI,B2B,Entertainment → Generative AI,B2B,Entertainment,AI
+- `name`: Snap Poker → CueBench
+- `slug`: snap-poker → cuebench
+- `former_names`: CueBench → CueBench,Snap Poker
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/c3cbfb50100d2fd94d17a88d9cb684c797ac5fd6.png → https://bookface-images.s3.amazonaws.com/small_logos/8fc25d9ffc54b20b2ccee87e57733b12a6e8edf1.png
+- `website`: https://playsnappoker.com → https://cuebench.dev
+- `one_liner`: The social network for online poker → RL post-training for science reasoning and performance engineering
+- `industry`: Consumer → B2B
+- `subindustry`: Consumer -> Social → B2B
+- `tags`: Consumer,Gaming,Social Media → Reinforcement Learning,Data Engineering
+- `industries`: Consumer,Social → B2B

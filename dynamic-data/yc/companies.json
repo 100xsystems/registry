@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-29T01:21:50.443Z",
+  "fetchedAt": "2026-08-29T05:52:02.431Z",
   "count": 6194,
   "companies": [
     {
@@ -1536,27 +1536,27 @@
     },
     {
       "id": 33345,
-      "name": "Snap Poker",
-      "slug": "snap-poker",
+      "name": "CueBench",
+      "slug": "cuebench",
       "former_names": [
-        "CueBench"
+        "CueBench",
+        "Snap Poker"
       ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c3cbfb50100d2fd94d17a88d9cb684c797ac5fd6.png",
-      "website": "https://playsnappoker.com",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/8fc25d9ffc54b20b2ccee87e57733b12a6e8edf1.png",
+      "website": "https://cuebench.dev",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Snap Poker is the first social poker app, a real-money platform with a feed built in. Players post hands as interactive reels with voiceover and build a following, and we take zero rake because we monetize like a game rather than a casino. We're bringing everyone to online poker.",
-      "one_liner": "The social network for online poker",
+      "long_description": "",
+      "one_liner": "RL post-training for science reasoning and performance engineering",
       "team_size": 3,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
-      "industry": "Consumer",
-      "subindustry": "Consumer -> Social",
+      "industry": "B2B",
+      "subindustry": "B2B",
       "launched_at": 1786744876,
       "tags": [
-        "Consumer",
-        "Gaming",
-        "Social Media"
+        "Reinforcement Learning",
+        "Data Engineering"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -1565,8 +1565,7 @@
       "batch": "Summer 2026",
       "status": "Active",
       "industries": [
-        "Consumer",
-        "Social"
+        "B2B"
       ],
       "regions": [
         "United States of America",
@@ -1577,7 +1576,7 @@
       "demo_day_video_public": false,
       "app_answers": null,
       "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/snap-poker"
+      "url": "https://www.ycombinator.com/companies/cuebench"
     },
     {
       "id": 33344,
@@ -7272,7 +7271,7 @@
       "website": "https://www.dialoguslabs.com/",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Dialogus builds voice agent infrastructure for enterprises.\r\n\r\nMost companies can demo an AI voice agent, but getting one into production is hard. Enterprise agents need to connect to phone systems, internal tools, databases, CRMs, messaging channels, human escalation flows, monitoring, and compliance processes.\r\n\r\nDialogus provides the infrastructure to deploy production-grade voice agents that don’t just talk but complete real workflows. Our platform lets enterprises launch agents that collect information, validate it against internal systems, update records, send follow-up messages, and escalate edge cases to humans.",
-      "one_liner": "Infra for enterprise voice agents.",
+      "one_liner": "The AI-native contact center.",
       "team_size": 3,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -8637,7 +8636,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/1241956aa50c817e1c2feee9934ea253b0d12c38.png",
       "website": "https://trope.ai",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Trope deploys AI agents into ERPs for mid-market companies.\r\n\r\nNo two ERPs are the same. Every ERP has been configured over months by implementation consultants.\r\n\r\nThat means every useful AI agent requires customization, leaving ERP vendors, consulting firms, and customers stuck with slow deployments, subpar solutions, and services that are too expensive to scale.\r\n\r\nTrope’s AI FDE learns each company’s ERP and business processes, then builds, tests, and deploys the agents automatically, turning that last mile from services into software.",
+      "long_description": "Trope deploys custom AI agents into ERPs for mid-market companies. Every ERP is heavily customized, so useful agents need custom deployment too. Trope’s AI FDE learns each business and ERP, then builds and deploys agents, turning the last mile from services into software.",
       "one_liner": "AI FDE that deploys custom AI agents into ERPs",
       "team_size": 2,
       "highlight_black": false,
@@ -8647,9 +8646,9 @@
       "subindustry": "B2B",
       "launched_at": 1783447220,
       "tags": [
+        "Artificial Intelligence",
         "SaaS",
-        "B2B",
-        "AI"
+        "B2B"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -18457,7 +18456,7 @@
       "website": "https://pothlabs.com",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Poth is an agentic research platform that connects to your company data, creates hypotheses about what might be causing problems, and validates them using both existing data and adaptive user feedback.",
-      "one_liner": "Helping companies understand why users behave the way they do",
+      "one_liner": "Conversational surveys that replace Qualtrics for large brands",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -19851,17 +19850,17 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/7b4d1a0f867d8f5d24359da3d4d5fca3fbbabe57.png",
       "website": "https://buildwithglue.com",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Fractional buyer for hardware companies manufacturing experimental parts in critical industries",
-      "one_liner": "Fractional buyer for hardware companies in critical industries",
-      "team_size": 2,
+      "long_description": "We build environments and evals for frontier research agents. In these environments, models carry out research engineering work such as optimizing an algorithm, deploying a model, or running experiments to solve a novel problem. A grader scores the agent’s performance, and these scores serve as signals during evaluations.",
+      "one_liner": "Evals for frontier research agents",
+      "team_size": 1,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
-      "industry": "Industrials",
-      "subindustry": "Industrials -> Manufacturing and Robotics",
+      "industry": "B2B",
+      "subindustry": "B2B -> Engineering, Product and Design",
       "launched_at": 1772831162,
       "tags": [
-        "Industrial"
+        "Reinforcement Learning"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -19870,8 +19869,8 @@
       "batch": "Winter 2026",
       "status": "Active",
       "industries": [
-        "Industrials",
-        "Manufacturing and Robotics"
+        "B2B",
+        "Engineering, Product and Design"
       ],
       "regions": [
         "United States of America",
@@ -34818,7 +34817,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": true,
+      "isHiring": false,
       "nonprofit": false,
       "batch": "Summer 2025",
       "status": "Active",
@@ -36063,8 +36062,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c561ac3ff3132e3dda05b6de7836b2d1b55ed1aa.png",
       "website": "https://autumn.ai",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Autumn is building the first real-time signal intelligence platform for GTM teams. We monitor posts, commits, blogs, and announcements, surfacing buying signals the moment they appear. Define your ICP and the signals that matter, and we deliver a condensed, real-time feed filtered by intents.",
-      "one_liner": "Stalk your prospects at scale.",
+      "long_description": "Autumn is building the world’s most comprehensive index of people and companies.\r\n\r\nInformation about anyone is scattered across profiles, filings, event pages, code, posts, news, and the rest of the open web. Autumn reads across these sources, determines which records belong together, and creates a complete, source-backed profile of people and companies - including relationships, work history, contact information, and digital footprint.\r\n\r\nSearch for anyone, build a cohort, or research a company through our API.",
+      "one_liner": "Everything on anyone.",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -114427,7 +114426,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": true,
+      "isHiring": false,
       "nonprofit": false,
       "batch": "Summer 2022",
       "status": "Active",
