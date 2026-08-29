@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-08-28T01:58:15.500Z",
+  "updatedAt": "2026-08-29T01:21:45.476Z",
   "items": [
     {
       "guid": "https://www.tigerdata.com/blog/whats-new-in-tiger-cloud",
@@ -55,7 +55,15 @@
       "summary": "TimescaleDB's DeferredChunkAppend keeps planning time constant for ORDER BY LIMIT queries, no matter how many chunks a hypertable has.",
       "author": "Sven Klemm",
       "publishedAt": "2026-08-27T14:18:10.000Z"
+    },
+    {
+      "guid": "https://www.tigerdata.com/blog/time-series-cardinality",
+      "title": "Time-Series Cardinality: Why One More Indexed Column Costs More Than a Million More Rows",
+      "link": "https://www.tigerdata.com/blog/time-series-cardinality",
+      "summary": "Cardinality is a consequence of how many dimensions you index your readings by. Here is where the curve bends, measured, and what you can do about it without leaving Postgres.\n\nSomeone adds a firmware_ver column to the sensor table. It is one line of DDL, and it clears review in a minute. Two weeks…",
+      "author": "Damaso Sanoja",
+      "publishedAt": "2026-08-28T16:29:32.000Z"
     }
   ],
-  "totalIndexed": 6
+  "totalIndexed": 7
 }

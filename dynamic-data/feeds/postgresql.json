@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-08-28T18:26:10.633Z",
+  "updatedAt": "2026-08-29T01:21:33.678Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -1233,7 +1233,15 @@
       "summary": "A pg_dump data-only restore into a fresh, empty copy of the schema is the safest-sounding restore in PostgreSQL, since there is not a single row in the target for the incoming data to collide with. It stops anyway, on a table sitting plainly in \\dt.\npsql:/tmp/data.sql:56: ERROR:  relation…",
       "author": null,
       "publishedAt": "2026-08-28T00:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9tv",
+      "title": "Christophe Pettus: All Your GUCs in a Row: log_rotation_age, log_rotation_size, and log_truncate_on_rotation",
+      "link": "https://postgr.es/p/9tv",
+      "summary": "PostgreSQL's log rotation has three parameters that only make sense together: one rotates at clock boundaries, one at file sizes, and one decides whether to…",
+      "author": null,
+      "publishedAt": "2026-08-29T01:00:00.000Z"
     }
   ],
-  "totalIndexed": 153
+  "totalIndexed": 154
 }

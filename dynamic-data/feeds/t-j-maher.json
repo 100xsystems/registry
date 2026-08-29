@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-08-25T18:28:12.945Z",
+  "updatedAt": "2026-08-29T01:21:43.226Z",
   "items": [
     {
       "guid": "t-j-maher::https://www.tjmaher.com/2026/06/does-giving-presentation-via-zoom-to.html",
@@ -279,7 +279,15 @@
       "summary": "So far, we have reviewed how to review code with ES Lint + Prettier and Typecheck, how to set up and run smoke tests, how to run all Playwright + TypeScript tests, and reviewed the HTML report of results.\n\n\nIn this post, we are going to set up a three stage GitLab CI/ CD pipeline that will run…",
       "author": "T.J. Maher",
       "publishedAt": "2026-08-25T02:28:52.253Z"
+    },
+    {
+      "guid": "t-j-maher::https://www.tjmaher.com/2026/08/how-developers-can-test-their-feature.html",
+      "title": "How Developers Can Test Their Feature Branch Against Various Playwright Configurations Before Creating a Merge Request in GitLab CI/CD",
+      "link": "https://www.tjmaher.com/2026/08/how-developers-can-test-their-feature.html",
+      "summary": "Developers need the option to test out their feature branch before merging it into main. In the last section, we set up a GitLab CI/CD Pipeline in our bun-create-playwright project to check every GitLab Merge Request. \n\n\nNow, we will be giving developers option to create a new pipeline where they…",
+      "author": "T.J. Maher",
+      "publishedAt": "2026-08-28T20:18:08.540Z"
     }
   ],
-  "totalIndexed": 34
+  "totalIndexed": 35
 }

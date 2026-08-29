@@ -8,7 +8,7 @@
     "ide",
     "programming-languages"
   ],
-  "updatedAt": "2026-08-28T01:58:14.346Z",
+  "updatedAt": "2026-08-29T01:21:44.550Z",
   "items": [
     {
       "guid": "https://blog.jetbrains.com/?post_type=rscpp&p=725420",
@@ -401,7 +401,31 @@
       "summary": "This blog post covers the updates we plan to introduce over the next four months in the upcoming minor releases (2026.2.x) and the next stable release (2026.3). After reviewing your feedback and our strategic goals, we’ve decided to focus on improving agentic workflows, embedded development…",
       "author": "Oleg Zinovyev",
       "publishedAt": "2026-08-27T11:49:51.000Z"
+    },
+    {
+      "guid": "https://blog.jetbrains.com/?post_type=pycharm&p=734624",
+      "title": "The State of Django 2026: Boring is so back",
+      "link": "https://blog.jetbrains.com/pycharm/2026/08/the-state-of-django-2026-boring-is-so-back/",
+      "summary": "Welcome to the highlights from the fifth annual Django Developers Survey, a collaboration between the Django Software Foundation and PyCharm. This year’s report draws on responses from nearly 3,500 Django developers across more than 40 countries — from students in their first year to veterans with…",
+      "author": "Will Vincent",
+      "publishedAt": "2026-08-28T14:17:28.000Z"
+    },
+    {
+      "guid": "https://blog.jetbrains.com/?post_type=pycharm&p=734588",
+      "title": "Security Incident Affecting JetBrains Cadence",
+      "link": "https://blog.jetbrains.com/pycharm/2026/08/cadence-security-incident-august-2026/",
+      "summary": "We are investigating a security incident affecting JetBrains Cadence. Cadence is a JetBrains-hosted service that integrates with PyCharm through an optional plugin, and lets you run your projects on cloud compute resources. Our investigation has confirmed unauthorized access to the service and the…",
+      "author": "Daniel Gallo",
+      "publishedAt": "2026-08-28T09:50:14.000Z"
+    },
+    {
+      "guid": "https://blog.jetbrains.com/?post_type=idea&p=733843",
+      "title": "Project Loom in IntelliJ IDEA: Virtual Threads, Scoped Values, and Structured Concurrency",
+      "link": "https://blog.jetbrains.com/idea/2026/08/project-loom-in-intellij-idea-virtual-threads-scoped-values-and-structured-concurrency/",
+      "summary": "Java concurrency is a powerful feature, but it can be difficult to get right. Writing correct multithreaded code requires a deep understanding of thread pools, synchronization, cancellation, and error propagation. Even experienced developers regularly introduce subtle bugs like thread leaks,…",
+      "author": "Marit van Dijk",
+      "publishedAt": "2026-08-28T05:03:34.000Z"
     }
   ],
-  "totalIndexed": 49
+  "totalIndexed": 52
 }
