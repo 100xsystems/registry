@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-29T16:16:11.048Z",
+  "fetchedAt": "2026-08-29T20:14:58.737Z",
   "count": 6194,
   "companies": [
     {
@@ -958,7 +958,7 @@
       "website": "https://edviroenergy.com",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Edviro builds AI that operates energy infrastructure. We connect to meters, HVAC systems, batteries, solar, and other energy equipment and continuously handle the work required to keep them efficient: detecting and diagnosing problems to forecasting demand, simulating fixes, creating work orders, coordinating maintenance, and controlling equipment where authorized. Our energy world models learn how each site behaves, choose the highest-value actions, and verify the results against real operational, meter, and billing data.",
-      "one_liner": "AI That Operates Energy Infrastructure",
+      "one_liner": "AI That Operates Energy Infrastructure and Data Centers",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -1454,7 +1454,7 @@
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Robocurve builds open-source tools and independent benchmarks to measure how well robots can do real-world jobs. Instead of relying on unverified demo videos from frontier labs, we score their models on reproducible benchmarks that anyone can trust.\r\n\r\nToday there are no well-run, standardized robotics benchmarks. Labs evaluate in-house, and no independent group has stepped in to run continuous benchmarking as a service. The result is that no one actually knows how good anyone else is, or where the real frontier sits.\r\n\r\nGood benchmarks require operating and maintaining physical hardware and real-world setups. Simulation only goes so far, since models that look strong in sim can show large performance gaps once deployed in the real world. Building real-world benchmarks means coordinating job-domain experts, evals engineering, and hands-on robotics all at once.\r\n\r\nFrontier labs are targeting general-purpose robotics by 2028, yet the field of robotics evals barely exists. Whoever builds the trusted measure of robot capability becomes the reference everyone relies on. We combine backgrounds in AI evals and robotics to build and grow this field as fast as possible. We already shipped v1 of our open-source framework, Inspect Robots, and ran our first pilot scoring a frontier model on a real robot.",
       "one_liner": "Real-world evals for robots",
-      "team_size": 2,
+      "team_size": 3,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -1462,11 +1462,11 @@
       "subindustry": "Industrials -> Manufacturing and Robotics",
       "launched_at": 1783378088,
       "tags": [
+        "Artificial Intelligence",
         "Hard Tech",
         "Hardware",
         "Robotics",
-        "Open Source",
-        "AI"
+        "Open Source"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -3402,7 +3402,7 @@
       "website": "https://radley.health/",
       "all_locations": "San Francisco, CA, USA; Remote",
       "long_description": "Radley is the first AI-native radiology practice. We're acquiring a radiology practice bringing Radley to $4.3M in annualized revenue and rebuilding it with agents from the ground up.\r\n\r\nRadiology is already in crisis: there aren't enough radiologists to interpret 1 in 6 medical scans. In 10 years, that gap is growing to 1 in 3 - 246M scans a year.\r\n\r\nFrom past experience, we know that point solutions won’t cut it. While there is demand (we have $2.2M in contracts to prove it), bottleneck isn't just software, it's outdated systems and slow, inefficient operations. That's why we own the full stack, clinical and operational, end to end.\r\n\r\nWe met at Carbon Health as we scaled operations 31x and expanded to 100+ clinics. Now we're rebuilding radiology.",
-      "one_liner": "The first AI-native radiology practice",
+      "one_liner": "The AI-native radiology practice",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -4420,7 +4420,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/ee4bd602221f77fc05dda940b7202523dd2b9d10.png",
       "website": "https://movingatoms.ai/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Moving Atoms is frontier robotics lab. Our goal is to solve robotics, then solve abundance.\r\n\r\nOur first model, Atom 1, already tops the Physics IQ benchmark - this is stage 1 of the robot model we are building (a World Action Model).\r\n\r\nCurrently, robot models are trained end-to-end to recieve large scale tasks like \"fold t-shirt\". They were never designed to have an advanced LLM micromanaging them, telling them how to move and when (“reach(mug marked in frame)”, “grasp(marked mug at handle)”)\r\n\r\nBy training World Action Model that can be micro-managed, we allow robotics to use the orchestration and planning abilities of LLMs while having the physics, contact and timing be controlled by the robot model.",
+      "long_description": "Moving Atoms is frontier robotics lab. Our goal is to solve robotics, then solve abundance.\r\n\r\nOur first model, Atom 1, pre-trained on the internets video, and fine tuned for physics, already tops the Physics IQ benchmark.\r\n\r\nBy using this model, we can significantly reduce the amount of robot data we need to collect to build our robot model (a world action model).\r\n\r\nOur second core bet is to design our robot model to be micromanaged by LLMs, allow robotics to use the orchestration and planning abilities of LLMs while having the physics, contact and timing be controlled by the robot model (world action model).",
       "one_liner": "Robot Model Lab. Our goal is to solve robotics, then solve abundance.",
       "team_size": 2,
       "highlight_black": false,
@@ -4430,10 +4430,10 @@
       "subindustry": "Industrials -> Manufacturing and Robotics",
       "launched_at": 1786481200,
       "tags": [
+        "Artificial Intelligence",
         "Hard Tech",
         "Robotics",
-        "Virtual Reality",
-        "AI"
+        "Virtual Reality"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -44291,7 +44291,7 @@
       "all_locations": "London, England, United Kingdom",
       "long_description": "Built by an ex-Deloitte/Google team, Combinely’s AI-coworker works like a junior on your team. It handles workflows end-to-end across your systems - for tax, audit, and accounting.",
       "one_liner": "AI coworker for Accountants",
-      "team_size": 5,
+      "team_size": 8,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -145164,7 +145164,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": true,
+      "isHiring": false,
       "nonprofit": false,
       "batch": "Summer 2021",
       "status": "Active",
@@ -185227,7 +185227,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/37e8e62d8a79db7c006e15d1cce3365c5fc7e469.png",
       "website": "https://letterdrop.com",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "We name the accounts, buyers, and competitors in a live sales cycle right now, so you get into deals that would otherwise go to a competitor by default.\r\n",
+      "long_description": "If you beat your competitors in head to head bakeoffs, you should want to get into every active evaluation of them possible. Letterdrop makes that possible so you can sell customers on your better solution.",
       "one_liner": "Get into the competitive deals you can't see",
       "team_size": 10,
       "highlight_black": false,
