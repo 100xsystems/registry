@@ -1,74 +1,39 @@
 # YC Company Changes for 2026-08-30
 
-- Previous total: 6194
-- Current total: 6195
+- Previous total: 6195
+- Current total: 6196
 - Added: 1
 - Removed: 0
-- Updated: 14
+- Updated: 6
 
 
 ## Added Companies
 
-- [The Subvocal Company](https://www.ycombinator.com/companies/the-subvocal-company) (Fall 2026) — Talk to your computer without talking
+- [Nodus](https://www.ycombinator.com/companies/nodus) (Fall 2026) — Intelligent execution layer for AI workloads
 
 ## Updated Companies
 
-### [Parse](https://www.ycombinator.com/companies/parse-bot)
+### [Entangl](https://www.ycombinator.com/companies/entangl)
 
-- `team_size`: 2 → 4
+- `team_size`: 13 → 15
+- `tags`: Aerospace,Enterprise Software,Automation,AI,Automotive → Artificial Intelligence,Aerospace,Enterprise Software,Automation,Automotive
 
-### [SF Tensor](https://www.ycombinator.com/companies/sf-tensor)
+### [Candor](https://www.ycombinator.com/companies/candor-security)
 
-- `isHiring`: false → true
+- `tags`: Artificial Intelligence,Cybersecurity → Cybersecurity,AI
 
-### [Zarna](https://www.ycombinator.com/companies/zarna)
+### [Wafer](https://www.ycombinator.com/companies/wafer)
 
-- `one_liner`: AI Associates for Private Capital  → AI Associates for Middle-Market Private Equity 
+- `stage`: Early → Growth
 
-### [Prescience, Inc.](https://www.ycombinator.com/companies/prescience-inc)
+### [OS3](https://www.ycombinator.com/companies/os3)
 
-- `isHiring`: false → true
+- `one_liner`: Full Stack Robotics: Deploying US-Built Robots & Video Action Models → Deploying US-Built Robots & Training Video Action Models
 
-### [Osmaura](https://www.ycombinator.com/companies/osmaura)
+### [Avent](https://www.ycombinator.com/companies/avent)
 
-- `one_liner`: AI growth engine for law firms. → AI growth engine for corporate law firms.
-
-### [Atlas Discovery](https://www.ycombinator.com/companies/atlas-discovery)
-
-- `one_liner`: Predicting human response to drugs in clinical trials → AI-native pharma company
-
-### [Speko](https://www.ycombinator.com/companies/speko)
-
-- `one_liner`: OpenRouter for Voice → OpenRouter for Voice AI: one API, every call on the best speech model
-
-### [Bizmark](https://www.ycombinator.com/companies/bizmark)
-
-- `one_liner`: The OS for companies that make, move, or sell physical goods → Agentic supply chain optimization
-
-### [Bloomy](https://www.ycombinator.com/companies/bloomy)
-
-- `one_liner`: AI-powered mastery learning for K-12 → AI-driven 1-to-1 learning for every student
-- `tags`: AI-Enhanced Learning,Artificial Intelligence,Education,eLearning,Personalization → AI-Enhanced Learning,Education,eLearning,Personalization,AI
-
-### [Rational](https://www.ycombinator.com/companies/rational)
-
-- `one_liner`: AI Employees for Accounting → AI Employees for In-House Enterprise Accounting
-
-### [Moving Atoms](https://www.ycombinator.com/companies/moving-atoms)
-
-- `one_liner`: Robot Model Lab. Our goal is to solve robotics, then solve abundance. → Robot Model Lab.
-- `tags`: Artificial Intelligence,Hard Tech,Robotics,Virtual Reality → Hard Tech,Robotics,Virtual Reality,AI
+- `team_size`: 3 → 5
 
 ### [Familiar](https://www.ycombinator.com/companies/familiar)
 
-- `one_liner`: Dubbing is Finally Good. Neolab for World Translation. → Real-Time AI Dubbing. Neolab for World Translation.
-- `tags`: Artificial Intelligence,Generative AI,B2B,Entertainment → Generative AI,B2B,Entertainment,AI
-
-### [Grip](https://www.ycombinator.com/companies/grip)
-
-- `one_liner`: Robots for waste management → Robots for waste manipulation
-
-### [Redoubt Insurance](https://www.ycombinator.com/companies/redoubt-insurance)
-
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/1d9f15d9866298e7635c4be5e45af4cd0cf8b920.png → https://bookface-images.s3.amazonaws.com/small_logos/1ee4cc24084cdd9a8a0fe0d70982248244d6fd3a.png
-- `one_liner`: Commercial insurance agency for small businesses → Commercial insurance for small businesses
+- `tags`: Generative AI,B2B,Entertainment,AI → Artificial Intelligence,Generative AI,B2B,Entertainment
