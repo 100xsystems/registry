@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-08-29T01:21:43.226Z",
+  "updatedAt": "2026-08-30T03:55:36.820Z",
   "items": [
     {
       "guid": "t-j-maher::https://www.tjmaher.com/2026/06/does-giving-presentation-via-zoom-to.html",
@@ -287,7 +287,23 @@
       "summary": "Developers need the option to test out their feature branch before merging it into main. In the last section, we set up a GitLab CI/CD Pipeline in our bun-create-playwright project to check every GitLab Merge Request. \n\n\nNow, we will be giving developers option to create a new pipeline where they…",
       "author": "T.J. Maher",
       "publishedAt": "2026-08-28T20:18:08.540Z"
+    },
+    {
+      "guid": "t-j-maher::https://www.tjmaher.com/2026/08/publishing-playwright-html-reports-on.html",
+      "title": "Publishing Playwright HTML reports on GitLab Pages",
+      "link": "https://www.tjmaher.com/2026/08/publishing-playwright-html-reports-on.html",
+      "summary": "We've added a lot to our demo project, bun--create-playwright. \n\n\nWe've explored setting up a Playwright framework using bun, a new package manager bundled into Claude Code. We've added typechecking, and formatting and linting. We've set up a CI/ CD pipeline for our tests using GitLab, one with…",
+      "author": "T.J. Maher",
+      "publishedAt": "2026-08-29T23:56:10.788Z"
+    },
+    {
+      "guid": "t-j-maher::https://www.tjmaher.com/2026/08/examining-artifacts-job-of-playwright.html",
+      "title": "Examining the artifacts job of a Playwright GitLab CI / CD pipeline",
+      "link": "https://www.tjmaher.com/2026/08/examining-artifacts-job-of-playwright.html",
+      "summary": "You may have noticed that in the GitLab CI / CD Pipeline for our Playwright project, in the .gitlab-ci.yml file, after our scripts has run, in the Test stage, there is a subsection called \"artifacts\" with certain paths to something called \"playwright-report\", \"test-results\", and \"reports\". \n\n\nThe…",
+      "author": "T.J. Maher",
+      "publishedAt": "2026-08-29T23:19:22.027Z"
     }
   ],
-  "totalIndexed": 35
+  "totalIndexed": 37
 }
