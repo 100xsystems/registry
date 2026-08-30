@@ -4,83 +4,35 @@
 - Current total: 6196
 - Added: 0
 - Removed: 0
-- Updated: 16
+- Updated: 6
 
 
 ## Updated Companies
 
-### [Roomstorm](https://www.ycombinator.com/companies/roomstorm)
+### [SiPhox Health](https://www.ycombinator.com/companies/siphox-health)
 
-- `all_locations`: San Francisco, CA, USA; Redwood City, CA, USA → Prague, Prague, Czechia; Redwood City, CA, USA
-- `regions`: United States of America,America / Canada → Czechia,United States of America,Europe,America / Canada
+- `one_liner`: At-Home health monitoring with silicon photonic chips → At-Home health monitoring with silicon photonic chips for data centers
 
-### [Vouch](https://www.ycombinator.com/companies/vouch)
+### [Panelytic](https://www.ycombinator.com/companies/panelytic)
 
-- `all_locations`: San Francisco, CA, USA → Chicago, IL, USA; San Francisco, CA, USA
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/2adfd60610f060b139d1e1752fe74ca86d3be846.png → https://bookface-images.s3.amazonaws.com/small_logos/411e3f1da139551735b5ab4a397f77750d3f469d.png
+- `tags`: AI → Artificial Intelligence
 
-### [Shiru](https://www.ycombinator.com/companies/shiru)
+### [Vendra](https://www.ycombinator.com/companies/vendra)
 
-- `all_locations`: Emeryville, CA, USA → San Francisco, CA, USA; Emeryville, CA, USA
+- `team_size`: 7 → 10
 
-### [RMFG](https://www.ycombinator.com/companies/rmfg)
+### [AutoSitu](https://www.ycombinator.com/companies/autositu)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/da6c23e37cd7338b2276dfacd444e9175c6c2b9c.png → https://bookface-images.s3.amazonaws.com/small_logos/3d6481e53fac19208ab930fa400c6e6efc6e1d7b.png
+- `one_liner`: AI-native workspace for development plan reviews → The AI operating system for the built world
+- `tags`:  → Real Estate,Construction
 
-### [Toku](https://www.ycombinator.com/companies/toku)
+### [Zomma](https://www.ycombinator.com/companies/zomma)
 
-- `all_locations`: Mexico City, CDMX, Mexico → Santiago, Santiago Metropolitan Region, Chile; Mexico City, CDMX, Mexico
-- `regions`: Mexico,Latin America → Chile,Mexico,Latin America
+- `one_liner`: Computer Use Agents for back offices in finance → Computer-use agent swarms for financial back offices
+- `tags`: Artificial Intelligence,Robotic Process Automation,Finance,B2B,Workflow Automation → Robotic Process Automation,Finance,B2B,Workflow Automation,AI
 
-### [VantedgeAI](https://www.ycombinator.com/companies/vantedgeai)
+### [Moving Atoms](https://www.ycombinator.com/companies/moving-atoms)
 
-- `one_liner`: Scaling investing workflows with AI → FundOS — AI operations for fund managers
-- `tags`: Artificial Intelligence,Fintech,SaaS,Workflow Automation,Analytics → Fintech,SaaS,Workflow Automation,Analytics,AI
-
-### [Cleva](https://www.ycombinator.com/companies/cleva)
-
-- `all_locations`: Lagos, LA, Nigeria; Remote → San Francisco, CA, USA; Remote
-- `one_liner`: USD banking platform for Africa → Global neobank for emerging markets
-- `tags`: Fintech,B2B,Remote Work,Emerging Markets,Neobank → Fintech,Crypto / Web3,Remote Work,Emerging Markets,Neobank
-- `tags_highlighted`:  → Crypto / Web3
-- `regions`: Nigeria,Africa,Remote,Fully Remote → United States of America,America / Canada,Remote,Fully Remote
-
-### [Entangl](https://www.ycombinator.com/companies/entangl)
-
-- `stage`: Growth → Early
-
-### [Cova](https://www.ycombinator.com/companies/cova)
-
-- `all_locations`: Detroit, MI, USA → San Francisco, CA, USA
-
-### [Chert](https://www.ycombinator.com/companies/chert)
-
-- `all_locations`: San Francisco, CA, USA → New York City, NY, USA
-
-### [Tenet Industries](https://www.ycombinator.com/companies/tenet-industries)
-
-- `all_locations`: San Francisco, CA, USA → Stockholm, Stockholm County, Sweden
-- `regions`: United States of America,America / Canada → Sweden,Europe
-
-### [Complir](https://www.ycombinator.com/companies/complir)
-
-- `all_locations`: San Francisco, CA, USA → Copenhagen, Denmark
-- `regions`: United States of America,America / Canada,Remote,Partly Remote → Denmark,Europe,Remote,Partly Remote
-
-### [KugelAudio](https://www.ycombinator.com/companies/kugelaudio)
-
-- `all_locations`: San Francisco, CA, USA → Berlin, Berlin, Germany
-- `regions`: United States of America,America / Canada → Germany,Europe
-
-### [Alloovium](https://www.ycombinator.com/companies/alloovium)
-
-- `all_locations`: Brisbane, QLD, Australia → San Francisco, CA, USA
-- `regions`: Australia,Oceania → United States of America,America / Canada
-
-### [Workers IO](https://www.ycombinator.com/companies/workers-io)
-
-- `launched_at`: 1786070819 → 1787942068
-
-### [Redoubt Insurance](https://www.ycombinator.com/companies/redoubt-insurance)
-
-- `all_locations`:  → Salt Lake City, UT, USA
-- `regions`: Unspecified → United States of America,America / Canada
+- `one_liner`: Robot Model Lab. → World Models for Testing Robots
+- `tags`: Hard Tech,Robotics,Virtual Reality,AI → Artificial Intelligence,Hard Tech,Robotics,Virtual Reality
