@@ -1,38 +1,67 @@
-# YC Company Changes for 2026-08-30
+# YC Company Changes for 2026-08-31
 
 - Previous total: 6196
 - Current total: 6196
 - Added: 0
 - Removed: 0
-- Updated: 6
+- Updated: 13
 
 
 ## Updated Companies
 
-### [SiPhox Health](https://www.ycombinator.com/companies/siphox-health)
+### [Entangl](https://www.ycombinator.com/companies/entangl)
 
-- `one_liner`: At-Home health monitoring with silicon photonic chips → At-Home health monitoring with silicon photonic chips for data centers
+- `stage`: Early → Growth
 
-### [Panelytic](https://www.ycombinator.com/companies/panelytic)
+### [Hemut](https://www.ycombinator.com/companies/hemut)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/2adfd60610f060b139d1e1752fe74ca86d3be846.png → https://bookface-images.s3.amazonaws.com/small_logos/411e3f1da139551735b5ab4a397f77750d3f469d.png
-- `tags`: AI → Artificial Intelligence
+- `all_locations`: San Francisco, CA, USA → Fresno, CA, USA
 
-### [Vendra](https://www.ycombinator.com/companies/vendra)
+### [Exonic](https://www.ycombinator.com/companies/exonic)
 
-- `team_size`: 7 → 10
+- `one_liner`: Unsupervised Biological AI → Exonic is an AI-native cell and gene therapeutics company. 
 
-### [AutoSitu](https://www.ycombinator.com/companies/autositu)
+### [RoboDock](https://www.ycombinator.com/companies/robodock)
 
-- `one_liner`: AI-native workspace for development plan reviews → The AI operating system for the built world
-- `tags`:  → Real Estate,Construction
+- `team_size`: 3 → 4
 
-### [Zomma](https://www.ycombinator.com/companies/zomma)
+### [Talking Computers](https://www.ycombinator.com/companies/talking-computers)
 
-- `one_liner`: Computer Use Agents for back offices in finance → Computer-use agent swarms for financial back offices
-- `tags`: Artificial Intelligence,Robotic Process Automation,Finance,B2B,Workflow Automation → Robotic Process Automation,Finance,B2B,Workflow Automation,AI
+- `one_liner`: AI for AI Infrastructure → Real-time interaction models for voice agents
+- `tags`:  → Artificial Intelligence
+
+### [Panacea](https://www.ycombinator.com/companies/panacea)
+
+- `team_size`: 2 → 3
+
+### [Riften](https://www.ycombinator.com/companies/riften)
+
+- `tags`: Developer Tools,Reinforcement Learning,Open Source,Infrastructure,AI → Artificial Intelligence,Developer Tools,Reinforcement Learning,Open Source,Infrastructure
+
+### [Risklytics](https://www.ycombinator.com/companies/risklytics)
+
+- `one_liner`: Insurance for the Frontier → Insurance for Frontier Tech
+- `tags`: Artificial Intelligence,Hardware,Machine Learning,B2B,Insurance → Hardware,Machine Learning,B2B,Insurance,AI
 
 ### [Moving Atoms](https://www.ycombinator.com/companies/moving-atoms)
 
-- `one_liner`: Robot Model Lab. → World Models for Testing Robots
-- `tags`: Hard Tech,Robotics,Virtual Reality,AI → Artificial Intelligence,Hard Tech,Robotics,Virtual Reality
+- `one_liner`: World Models for Testing Robots → World models that train and test robots in sim, #1 on Physics-IQ
+- `tags`: Artificial Intelligence,Hard Tech,Robotics,Virtual Reality → Hard Tech,Robotics,Virtual Reality,AI
+
+### [Financial Datasets](https://www.ycombinator.com/companies/financial-datasets)
+
+- `tags`: Fintech,Investing,AI,Stocks → Artificial Intelligence,Fintech,Investing,Stocks
+
+### [Decawork](https://www.ycombinator.com/companies/decawork)
+
+- `all_locations`: Bengaluru, KA, India → San Francisco, CA, USA
+- `regions`: India,South Asia → United States of America,America / Canada
+
+### [Nodus](https://www.ycombinator.com/companies/nodus)
+
+- `website`: https://nodus-swart.vercel.app/ → https://www.nodus-compute.ai/
+- `tags`: Artificial Intelligence,Infrastructure → Infrastructure,AI
+
+### [The Subvocal Company](https://www.ycombinator.com/companies/the-subvocal-company)
+
+- `isHiring`: false → true

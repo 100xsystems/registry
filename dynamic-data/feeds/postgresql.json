@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-08-30T03:55:27.804Z",
+  "updatedAt": "2026-08-31T03:58:35.194Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -1257,7 +1257,15 @@
       "summary": "A log line has two parts: the message, which PostgreSQL decides, and everything in front of it, which you do. log_line_prefix is the join key. Every fact that lets you connect a line to a session, a transaction, a client, or a moment in another system’s logs has to be in the prefix, because the m…",
       "author": null,
       "publishedAt": "2026-08-30T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9ty",
+      "title": "Christophe Pettus: All Your GUCs in a Row: log_min_messages, log_min_error_statement, and log_error_verbosity",
+      "link": "https://postgr.es/p/9ty",
+      "summary": "Three parameters control what reaches your server log: a severity floor, whether to attach the triggering SQL, and how many fields each message prints.",
+      "author": null,
+      "publishedAt": "2026-08-31T01:00:00.000Z"
     }
   ],
-  "totalIndexed": 156
+  "totalIndexed": 157
 }

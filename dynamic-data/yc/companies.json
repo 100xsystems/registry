@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-30T20:21:16.223Z",
+  "fetchedAt": "2026-08-31T03:58:53.172Z",
   "count": 6196,
   "companies": [
     {
@@ -66,7 +66,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": false,
+      "isHiring": true,
       "nonprofit": false,
       "batch": "Fall 2026",
       "status": "Active",
@@ -392,7 +392,7 @@
       "slug": "nodus",
       "former_names": [],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/cf5d37476e8f7b170957ddb85fd0254d52fa2634.png",
-      "website": "https://nodus-swart.vercel.app/",
+      "website": "https://www.nodus-compute.ai/",
       "all_locations": "",
       "long_description": "Intelligent execution layer for AI workloads",
       "one_liner": "Intelligent execution layer for AI workloads",
@@ -404,8 +404,8 @@
       "subindustry": "B2B",
       "launched_at": 1788063210,
       "tags": [
-        "Artificial Intelligence",
-        "Infrastructure"
+        "Infrastructure",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -3223,7 +3223,7 @@
       "former_names": [],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/44fee5cae005d704af84e7ed5ed7418d4ca0580c.png",
       "website": "https://decawork.ai/",
-      "all_locations": "Bengaluru, KA, India",
+      "all_locations": "San Francisco, CA, USA",
       "long_description": "Decawork gives IT teams one place to deploy, govern and maintain the AI agents running across their company.\r\n\r\nBuilding internal AI tools and agents is getting easier. Turning them into company-owned systems is still hard. What follows is agent sprawl: deployment gets messy, agents go live with access to real systems and real data, and maintenance falls in the gap. IT can't see any of it, so it does the only two things it can: first ignore, then block. Ignoring piles up risk; blocking kills the productivity people just found. \r\n\r\nWith Decawork, every agent ships one standard way: its own identity and scoped credentials, with IT's sign-off before it goes live. After that, every run is watched - IT is alerted the moment something fails, agents nobody uses get retired. And the whole time, IT sees every agent, controls what it can touch, and audits every action, with approvals gating anything sensitive.\r\n\r\nEvery big shift - cloud, SaaS, the digital workspace - ended with IT running it. Agents aren't just the next shift, they're the next workforce, bigger than the human one. Decawork is what IT will run them with.",
       "one_liner": "The Agent Control Plane for IT teams",
       "team_size": 2,
@@ -3249,8 +3249,8 @@
         "Infrastructure"
       ],
       "regions": [
-        "India",
-        "South Asia"
+        "United States of America",
+        "America / Canada"
       ],
       "stage": "Early",
       "app_video_public": false,
@@ -4230,7 +4230,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/4b4bdae68fdd8f9d994fab11fca6b30709eb7e7c.png",
       "website": "https://financialdatasets.ai/",
       "all_locations": "New York City, NY, USA",
-      "long_description": "Financial Datasets gives agents access to real-time global market information.\r\n\r\nWe index the world's markets so agents can search every filing, answer any financial question, and monitor markets in real time.\r\n\r\nFor 40 years, market data was built for humans reading a screen. We are rebuilding it for agents that research every company, all day, across the world.",
+      "long_description": "Financial Datasets is the largest search index for stock market data, built for AI agents.\r\n\r\nWe index the world's markets so agents can search every filing, answer any financial question, and monitor markets in real time.\r\n\r\nFor 40 years, market data was built for humans reading a screen. We are rebuilding it for agents that research every company, all day, across the world.",
       "one_liner": "Connect your agent to the stock market ",
       "team_size": 1,
       "highlight_black": false,
@@ -4240,9 +4240,9 @@
       "subindustry": "B2B",
       "launched_at": 1786382003,
       "tags": [
+        "Artificial Intelligence",
         "Fintech",
         "Investing",
-        "AI",
         "Stocks"
       ],
       "tags_highlighted": [],
@@ -4503,7 +4503,7 @@
       "website": "https://movingatoms.ai/",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Our first model, Atom 1, pre-trained on the internets video, and fine tuned for physics, already tops the Physics IQ benchmark.\r\nIt has been action conditioned, so you can simulate robot actions within it.\r\nThis lets Robot Labs check every checkpoint, getting you results in minutes; instead of having to wait days for human evaluations. \r\nIt also lets you simulate unseen and hard to replicate environments.\r\n\r\nA world model good enough to grade robots is a world model good enough to drive one!\r\nOur second core bet is to design our robot model (world action model) to be micromanaged by LLMs, allow robotics to use the orchestration and planning abilities of LLMs while having the physics, contact and timing be controlled by the robot model (world action model).",
-      "one_liner": "World Models for Testing Robots",
+      "one_liner": "World models that train and test robots in sim, #1 on Physics-IQ",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -4512,10 +4512,10 @@
       "subindustry": "Industrials -> Manufacturing and Robotics",
       "launched_at": 1786481200,
       "tags": [
-        "Artificial Intelligence",
         "Hard Tech",
         "Robotics",
-        "Virtual Reality"
+        "Virtual Reality",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -4859,8 +4859,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/879622d4fa103941586542ac659eaf9b60d897f0.png",
       "website": "https://www.risklytics.ai/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Risklytics is a commercial insurance brokerage for frontier tech: robotics, autonomy, data centers, and energy infrastructure. Insurers are writing AI exclusions into standard liability forms, so companies whose products act in the physical world end up holding risk they thought they had transferred. We specialize in that gap, and we know which carriers in the admitted and surplus lines markets will still underwrite it. If you're building anything that moves, lifts, drives, or powers something, we'd like to talk.",
-      "one_liner": "Insurance for the Frontier",
+      "long_description": "Risklytics is the insurance company for frontier tech such as physical AI, robotics, and data centers. Companies answer 6 questions and we bind a tailored policy that other insurance companies won’t.",
+      "one_liner": "Insurance for Frontier Tech",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -4869,11 +4869,11 @@
       "subindustry": "Fintech -> Insurance",
       "launched_at": 1783123197,
       "tags": [
-        "Artificial Intelligence",
         "Hardware",
         "Machine Learning",
         "B2B",
-        "Insurance"
+        "Insurance",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -7492,11 +7492,11 @@
       "subindustry": "B2B -> Infrastructure",
       "launched_at": 1785872995,
       "tags": [
+        "Artificial Intelligence",
         "Developer Tools",
         "Reinforcement Learning",
         "Open Source",
-        "Infrastructure",
-        "AI"
+        "Infrastructure"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -10452,7 +10452,7 @@
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Panacea provides AI-native FDA regulatory services for Biotechs and Medical Device companies. We hire the most experienced FDA consultants in the industry (ex-FDA, decades of experience, hundreds of filings) and pair them with our AI platform to enable the fastest and lowest cost pathway to FDA approval.\r\n\r\nWhile other regulatory consultants bill hourly, our pricing model is simple: fixed, outcome-based pricing. Payment is only due when milestones are complete.\r\n\r\nWe support all FDA regulatory pathways including IND, NDA, BLA, ODD, Pre-Subs, 510(k), De Novo, PMA, IDE, BDD, etc.",
       "one_liner": "AI-Native FDA Regulatory Services",
-      "team_size": 2,
+      "team_size": 3,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -18793,8 +18793,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/2e45d3a6fae510b1b44b5ae6e844844cbfd29960.png",
       "website": "https://talkingcomputers.ai",
       "all_locations": "Toronto, ON, Canada",
-      "long_description": "We deploy fleets of AI Infrastructure Engineers to collaborate over week-long time horizons, run 100s of experiments in parallel, and learn from them to optimize your training/ inference infrastructure to your workloads.\r\n\r\nWe've partnered with companies to speed up their GPU kernels to 6x SOTA, and improved the latency of voice models to twice the competition.\r\n",
-      "one_liner": "AI for AI Infrastructure",
+      "long_description": "AI lab building interaction models to make AI symbiotic with humans.\r\n\r\nOur early models sit at the Pareto frontier of intelligence and interactivity, measured by time to first audio token, and enable voice agents that are both highly capable and genuinely human-like",
+      "one_liner": "Real-time interaction models for voice agents",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -18802,7 +18802,9 @@
       "industry": "B2B",
       "subindustry": "B2B",
       "launched_at": 1772563423,
-      "tags": [],
+      "tags": [
+        "Artificial Intelligence"
+      ],
       "tags_highlighted": [],
       "top_company": false,
       "isHiring": false,
@@ -23533,7 +23535,7 @@
       "all_locations": "San Francisco, CA, USA",
       "long_description": "RoboDock builds robots that automate depot operations, like charging and vehicle checks, for electric and autonomous vehicle fleets. We turn fleet depots from manual sites into self-running systems that lower operational costs and increase vehicle uptime.",
       "one_liner": "Robots that run autonomous depots for autonomous fleets.",
-      "team_size": 3,
+      "team_size": 4,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -27920,8 +27922,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/5cc27505c22c402a3b3d1ac7fac9315f0ab93577.png",
       "website": "https://exonic.ai",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "What if you could train a biological foundation model on... the entire internet?\r\n\r\nExonic is pioneering a new generation of biological foundation models, focused on heterogeneous, unstructured, and noisy datasets.\r\n\r\nOur first application is the design of safer gene therapies.\r\n\r\nIn 2025, we used AI to set a new state of the art in liver cancer targeted gene therapy, validated in vitro in our lab in San Francisco.\r\n\r\nSo far in 2026, we have trained a new model with unprecedented zero-shot generalization on genomic regulatory expression in hold-out biosample datasets. More to be shared soon.\r\n",
-      "one_liner": "Unsupervised Biological AI",
+      "long_description": "We program DNA sequences to be context-aware, unlocking new kinds of genetic therapies.",
+      "one_liner": "Exonic is an AI-native cell and gene therapeutics company. ",
       "team_size": 3,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -42371,7 +42373,7 @@
       "former_names": [],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/0130d4e41d286011dbbf71e01781948525f98d90.png",
       "website": "https://www.hemut.com/",
-      "all_locations": "San Francisco, CA, USA",
+      "all_locations": "Fresno, CA, USA",
       "long_description": "Next-generation truck management software to automate back-office operations for trucking companies. Features include AI agents to automate inbound/outbound calls, AI document upload to reduce manual data entry, load sourcing tools, automated accounting, and more.",
       "one_liner": "AI-powered operating system for trucking companies.",
       "team_size": 3,
@@ -68486,7 +68488,7 @@
         "United States of America",
         "America / Canada"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
