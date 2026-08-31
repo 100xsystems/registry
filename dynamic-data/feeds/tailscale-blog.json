@@ -9,7 +9,7 @@
     "vpn",
     "wireguard"
   ],
-  "updatedAt": "2026-08-28T18:26:10.370Z",
+  "updatedAt": "2026-08-31T18:49:23.915Z",
   "items": [
     {
       "guid": "https://tailscale.com/blog/welcome-mike-shaver",
@@ -9722,7 +9722,23 @@
       "summary": "Just-in-time access, resource policies, and session auditing",
       "author": "Kabir Sikand",
       "publishedAt": "2026-08-28T14:00:00.000Z"
+    },
+    {
+      "guid": "https://tailscale.com/blog/tailcat",
+      "title": "Tailcat: Tailscale without Tailscale, by Tailscale",
+      "link": "https://tailscale.com/blog/tailcat",
+      "summary": "A netcat-ish way to use Tailscale’s data plane without its control plane",
+      "author": "Brad Fitzpatrick",
+      "publishedAt": "2026-08-31T14:00:00.000Z"
+    },
+    {
+      "guid": "https://tailscale.com/blog/easier-building-with-tailscale",
+      "title": "Build with Tailscale. Build on Tailscale.",
+      "link": "https://tailscale.com/blog/easier-building-with-tailscale",
+      "summary": "Put secure networking inside what you build, then automate the rest.",
+      "author": "Kevin Purdy",
+      "publishedAt": "2026-08-31T14:00:00.000Z"
     }
   ],
-  "totalIndexed": 1214
+  "totalIndexed": 1216
 }

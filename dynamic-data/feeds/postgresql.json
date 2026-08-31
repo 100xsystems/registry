@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-08-31T03:58:35.194Z",
+  "updatedAt": "2026-08-31T18:49:24.189Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -1265,7 +1265,15 @@
       "summary": "Three parameters control what reaches your server log: a severity floor, whether to attach the triggering SQL, and how many fields each message prints.",
       "author": null,
       "publishedAt": "2026-08-31T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9tA",
+      "title": "Richard Yen: pg-catalog-almanac",
+      "link": "https://postgr.es/p/9tA",
+      "summary": "Did you know: PG19 is on track to contain the most changes to pg_catalog in history\nIntroduction\npg_catalog is one of the most important interfaces PostgreSQL gives us: it exposes the metadata that describes database structure – tables, columns, indexes, constraints, types, and dependencies –…",
+      "author": null,
+      "publishedAt": "2026-08-31T08:00:00.000Z"
     }
   ],
-  "totalIndexed": 157
+  "totalIndexed": 158
 }

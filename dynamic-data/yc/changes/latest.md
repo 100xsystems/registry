@@ -1,32 +1,35 @@
 # YC Company Changes for 2026-08-31
 
-- Previous total: 6196
-- Current total: 6198
-- Added: 2
+- Previous total: 6198
+- Current total: 6199
+- Added: 1
 - Removed: 0
-- Updated: 4
+- Updated: 5
 
 
 ## Added Companies
 
-- [Frontier Computing](https://www.ycombinator.com/companies/frontier-computing) (Summer 2026) — Frontier grows scalable biological brains as an ML training substrate
-- [Ascii](https://www.ycombinator.com/companies/ascii) (Fall 2026) — The best cloud VMs for billions of agents
+- [Asakana](https://www.ycombinator.com/companies/asakana) (Fall 2026) — AI order entry for food distributors: emails and texts to ERP
 
 ## Updated Companies
 
-### [Kaso](https://www.ycombinator.com/companies/kaso)
+### [Embrace](https://www.ycombinator.com/companies/embrace)
 
 - `isHiring`: true → false
 
-### [RoboDock](https://www.ycombinator.com/companies/robodock)
+### [Tiriel AI](https://www.ycombinator.com/companies/tiriel-ai)
+
+- `tags`: Logistics,Supply Chain,Transportation,AI → Artificial Intelligence,Logistics,Supply Chain,Transportation
+
+### [Hedgehog](https://www.ycombinator.com/companies/hedgehog-2)
 
 - `isHiring`: true → false
 
-### [Jcode](https://www.ycombinator.com/companies/jcode)
+### [Clearline](https://www.ycombinator.com/companies/clearline)
 
-- `tags`: Developer Tools,AI → Artificial Intelligence,Developer Tools
+- `one_liner`: AI operating system for car dealerships to capture missed revenue → AI for modern automotive dealerships
+- `tags`: SaaS,B2B,AI,Automotive → Artificial Intelligence,SaaS,B2B,Automotive
 
-### [Akon Labs](https://www.ycombinator.com/companies/akon-labs)
+### [Levocred AI](https://www.ycombinator.com/companies/levocred-ai)
 
-- `one_liner`: Nervous System for AI Agents → The Github For Coding Agents
-- `tags`: Deep Learning,Generative AI,SaaS → Artificial Intelligence,Generative AI,SaaS,B2B
+- `one_liner`: The AI analyst for lenders → AI Workforce for lenders
