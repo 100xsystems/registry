@@ -1,35 +1,31 @@
 # YC Company Changes for 2026-08-31
 
-- Previous total: 6198
-- Current total: 6199
+- Previous total: 6199
+- Current total: 6200
 - Added: 1
 - Removed: 0
-- Updated: 5
+- Updated: 4
 
 
 ## Added Companies
 
-- [Asakana](https://www.ycombinator.com/companies/asakana) (Fall 2026) — AI order entry for food distributors: emails and texts to ERP
+- [Maritime](https://www.ycombinator.com/companies/maritime) (Fall 2026) — The managed cloud for AI agents.
 
 ## Updated Companies
 
-### [Embrace](https://www.ycombinator.com/companies/embrace)
+### [Conduit](https://www.ycombinator.com/companies/conduit)
 
 - `isHiring`: true → false
 
-### [Tiriel AI](https://www.ycombinator.com/companies/tiriel-ai)
+### [Emergent](https://www.ycombinator.com/companies/emergent)
 
-- `tags`: Logistics,Supply Chain,Transportation,AI → Artificial Intelligence,Logistics,Supply Chain,Transportation
+- `stage`: Growth → Early
 
-### [Hedgehog](https://www.ycombinator.com/companies/hedgehog-2)
+### [Parameter](https://www.ycombinator.com/companies/parameter)
 
-- `isHiring`: true → false
+- `one_liner`: Agentic Offensive Security at Scale → Security builds trust. Strengthen both, all on one platform.
 
-### [Clearline](https://www.ycombinator.com/companies/clearline)
+### [Instaplay](https://www.ycombinator.com/companies/instaplay)
 
-- `one_liner`: AI operating system for car dealerships to capture missed revenue → AI for modern automotive dealerships
-- `tags`: SaaS,B2B,AI,Automotive → Artificial Intelligence,SaaS,B2B,Automotive
-
-### [Levocred AI](https://www.ycombinator.com/companies/levocred-ai)
-
-- `one_liner`: The AI analyst for lenders → AI Workforce for lenders
+- `team_size`: 3 → 4
+- `tags`: Gaming,AI → Artificial Intelligence,Gaming
