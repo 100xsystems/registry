@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-08-31T18:49:24.189Z",
+  "updatedAt": "2026-09-01T03:49:22.093Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -1273,7 +1273,23 @@
       "summary": "Did you know: PG19 is on track to contain the most changes to pg_catalog in history\nIntroduction\npg_catalog is one of the most important interfaces PostgreSQL gives us: it exposes the metadata that describes database structure – tables, columns, indexes, constraints, types, and dependencies –…",
       "author": null,
       "publishedAt": "2026-08-31T08:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9tC",
+      "title": "Henrietta Dombrovskaya: That’s how Postgres met Django!",
+      "link": "https://postgr.es/p/9tC",
+      "summary": "That was an experimental meetup: we never, ever scheduled meetups in August, especially during the last week of August! Still, when Keanya Phelps came up with the idea to have a Postgres meetup during the Djangocon.US conference, I couldn’t say no!\nUntil the last week before the meetup, I was…",
+      "author": null,
+      "publishedAt": "2026-09-01T02:26:28.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9tB",
+      "title": "Radim Marek: Read your own writes, off the primary",
+      "link": "https://postgr.es/p/9tB",
+      "summary": "Your API accepts the change. It returns 201 Created or 200 OK, the system has saved the user's change, and the moment the user clicks, the change disappears from the app, only to resurface seconds later. That's if you are lucky. There's no error. The change simply ceased to exist for a while.\nIn…",
+      "author": null,
+      "publishedAt": "2026-08-31T23:00:39.000Z"
     }
   ],
-  "totalIndexed": 158
+  "totalIndexed": 160
 }
