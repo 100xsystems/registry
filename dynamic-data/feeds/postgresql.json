@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-09-01T11:25:32.539Z",
+  "updatedAt": "2026-09-01T20:21:33.296Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -1297,7 +1297,23 @@
       "summary": "Why transactional evidence matters as AI moves from generating answers to changing business state\nImagine an AI agent handling a customer refund.\nIt receives the request, retrieves the order, evaluates the relevant information, decides the refund is allowed, and invokes the appropriate service.…",
       "author": null,
       "publishedAt": "2026-09-01T07:34:56.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9tF",
+      "title": "Gülçin Yıldırım Jelínek: New system views in PostgreSQL 19",
+      "link": "https://postgr.es/p/9tF",
+      "summary": "While writing about the monitoring improvements in PostgreSQL 19 and preparing my new talk on Postgres observability for PostgreSQL Conference Europe in October, I noticed the system views got their own section in this release. The last time they were similarly highlighted was in PG13 and PG14. So…",
+      "author": null,
+      "publishedAt": "2026-09-01T17:03:18.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9tE",
+      "title": "Maki Majima: Migration files and Git do not mix",
+      "link": "https://postgr.es/p/9tE",
+      "summary": "Your repository contains two version control systems.\nOne is Git. The other is your migration directory — a timestamped, append-only sequence of schema changes with its own applied-state tracking in the database. Two systems, two timelines, living in the same repo. And they do not synchronize.…",
+      "author": null,
+      "publishedAt": "2026-09-01T16:30:23.000Z"
     }
   ],
-  "totalIndexed": 161
+  "totalIndexed": 163
 }
