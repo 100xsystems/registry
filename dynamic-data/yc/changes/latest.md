@@ -1,53 +1,68 @@
 # YC Company Changes for 2026-09-01
 
 - Previous total: 6200
-- Current total: 6200
-- Added: 0
+- Current total: 6201
+- Added: 1
 - Removed: 0
-- Updated: 10
+- Updated: 11
 
+
+## Added Companies
+
+- [Andustry](https://www.ycombinator.com/companies/andustry) (Spring 2026) — 
 
 ## Updated Companies
 
-### [NuCypher (aka Threshold Network)](https://www.ycombinator.com/companies/nucypher-aka-threshold-network)
+### [TAG](https://www.ycombinator.com/companies/tag)
 
 - `status`: Active → Inactive
 
-### [Dart](https://www.ycombinator.com/companies/dart)
-
-- `one_liner`: The only truly AI-native project management tool → The work and agent management platform
-
 ### [Firecrawl](https://www.ycombinator.com/companies/firecrawl)
 
-- `stage`: Growth → Early
+- `stage`: Early → Growth
 
-### [Uplane](https://www.ycombinator.com/companies/uplane)
+### [Depot](https://www.ycombinator.com/companies/depot)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/f28d39fea2309ac2fc4d42b7be088ee964dccf6a.png → https://bookface-images.s3.amazonaws.com/small_logos/6f996a4ae5a6f6c50880fc529dd16c13be2500bd.png
-- `tags`: Artificial Intelligence,SaaS,B2B,Analytics,Advertising → SaaS,B2B,Analytics,Advertising,AI
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/4bc0c4958bdeddfb5cee7883f042a17f65e1bd00.png → https://bookface-images.s3.amazonaws.com/small_logos/ee26edbce33f1fe3229feaa137276afd82b5ea00.png
+- `one_liner`: Build faster. Waste less time. → Software delivery built for machine scale.
+- `team_size`: 8 → 22
 
-### [Prescience, Inc.](https://www.ycombinator.com/companies/prescience-inc)
-
-- `one_liner`: Healthcare for the age of abundant intelligence. → Health insurance for the age of abundant intelligence.
-
-### [Visibl Semiconductors](https://www.ycombinator.com/companies/visibl-semiconductors)
-
-- `one_liner`: A faster, lower cost path to custom silicon → Custom silicon for power electronics
-- `tags`: Hard Tech,Enterprise,Enterprise Software,Semiconductors,AI → Artificial Intelligence,Hard Tech,Enterprise,Enterprise Software,Semiconductors
-
-### [Sila](https://www.ycombinator.com/companies/sila)
-
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/4d42a1203f89ac735d99407d8bc5984bd464fe7d.png → https://bookface-images.s3.amazonaws.com/small_logos/cfd59b6ed20dc37d4d8cc17df4227ef9bed3a504.png
-
-### [Totalis](https://www.ycombinator.com/companies/totalis)
+### [Shasta Health](https://www.ycombinator.com/companies/shasta-health)
 
 - `isHiring`: false → true
 
-### [Enjamb Labs](https://www.ycombinator.com/companies/enjamb-labs)
+### [Conveo](https://www.ycombinator.com/companies/conveo)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/72c48d60b66c3872f55fda2ba7dbab9415312dd4.png → https://bookface-images.s3.amazonaws.com/small_logos/b1348d79301216902dfdfa731a133bfa809b1447.png
-- `tags`: SaaS,B2B,Biotech,Automation,AI → Artificial Intelligence,SaaS,B2B,Biotech,Automation
+- `all_locations`: Antwerp, Flanders, Belgium → London, England, United Kingdom
+- `one_liner`: Confident decisions in days with AI-led interviews. → Growth through always‑on consumer understanding
+- `team_size`: 75 → 90
+- `regions`: Belgium,Europe → United Kingdom,Europe
 
-### [Florin](https://www.ycombinator.com/companies/florin)
+### [Emergent](https://www.ycombinator.com/companies/emergent)
 
-- `tags`: Fintech,Insurance,AI → Artificial Intelligence,Fintech,Insurance
+- `stage`: Early → Growth
+
+### [Imagine AI](https://www.ycombinator.com/companies/imagine-ai)
+
+- `tags`: B2B,Sales,Marketing,AI → Artificial Intelligence,B2B,Sales,Marketing
+
+### [Philon](https://www.ycombinator.com/companies/philon)
+
+- `industry`: B2B → Industrials
+- `subindustry`: B2B → Industrials -> Manufacturing and Robotics
+- `tags`: Robotics,AI → Artificial Intelligence,Robotics
+- `industries`: B2B → Industrials,Manufacturing and Robotics
+
+### [Tsenta](https://www.ycombinator.com/companies/tsenta)
+
+- `one_liner`: AI career agent that finds matching jobs and applies for you → AI career agent that turns your professional footprint into offers
+- `tags`: Artificial Intelligence,Marketplace,Consumer,Recruiting,HR Tech → Marketplace,Consumer,Recruiting,HR Tech,AI
+
+### [Bloomy](https://www.ycombinator.com/companies/bloomy)
+
+- `one_liner`: AI-driven 1-to-1 learning for every student → AI-native learning for every school
+- `tags`: AI-Enhanced Learning,Education,eLearning,Personalization,AI → AI-Enhanced Learning,Artificial Intelligence,Education,eLearning,Personalization
+
+### [Edviro](https://www.ycombinator.com/companies/edviro)
+
+- `one_liner`: AI That Operates Energy Infrastructure and Data Centers → AI That Operates Energy Infrastructure
