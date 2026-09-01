@@ -8,7 +8,7 @@
     "debugging",
     "performance"
   ],
-  "updatedAt": "2026-08-28T18:26:10.826Z",
+  "updatedAt": "2026-09-01T16:07:29.584Z",
   "items": [
     {
       "guid": "https://blog.sentry.io/godot-dotnet-ga/",
@@ -313,7 +313,15 @@
       "summary": "Sentry SDKs replace the `sendDefaultPii` boolean with `dataCollection`, granular options for user data, headers, bodies, GenAI data, and more.",
       "author": null,
       "publishedAt": "2026-08-28T09:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.sentry.io/metrics-caught-ai-size-estimate/",
+      "title": "Application Metrics caught my broken size estimator",
+      "link": "https://blog.sentry.io/metrics-caught-ai-size-estimate/",
+      "summary": "The numbers your app lives on don't belong in logs or on sampled spans. Here's how a browser video converter's KPIs made the case for Application Metrics.",
+      "author": null,
+      "publishedAt": "2026-09-01T09:00:00.000Z"
     }
   ],
-  "totalIndexed": 38
+  "totalIndexed": 39
 }
