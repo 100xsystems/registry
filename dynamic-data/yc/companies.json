@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-09-01T20:21:53.584Z",
-  "count": 6200,
+  "fetchedAt": "2026-09-02T03:09:07.935Z",
+  "count": 6201,
   "companies": [
     {
       "id": 38061,
@@ -265,7 +265,7 @@
       "name": "Vorelios",
       "slug": "vorelios",
       "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/b4f39044267f59b55cfe15cd369dcd61b7e645f5.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c02b36f4ca2283601c8f20e89597a38768ae9db9.png",
       "website": "https://vorelios.com",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Engineering is bottlenecked by slow, costly simulations. We're fixing that by building foundation models that learn physics end-to-end and deliver the same results in seconds, at a fraction of the cost.",
@@ -278,9 +278,9 @@
       "subindustry": "B2B",
       "launched_at": 1786417769,
       "tags": [
-        "Artificial Intelligence",
         "Hard Tech",
-        "B2B"
+        "B2B",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -301,6 +301,52 @@
       "app_answers": null,
       "question_answers": false,
       "url": "https://www.ycombinator.com/companies/vorelios"
+    },
+    {
+      "id": 35525,
+      "name": "Orca Aerospace",
+      "slug": "orca-aerospace",
+      "former_names": [
+        "Otter Aerospace Inc.",
+        "Orca Aerospace Inc."
+      ],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/afa6ce6fe3345bb9e7b6296e9877371ada8e2155.png",
+      "website": "https://orcaaerospace.com/",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "At Orca, we are focused on creating the future of spacecraft operations by moving control onto the vehicle. By allowing LLMs to control the satellite using deterministic tooling, we are able to achieve the same holistic, high-quality decisions on \"what\" to do to carry out a mission while maintaining the safety of systems that decide \"how\" to execute it. ",
+      "one_liner": "AI spacecraft operator that lives onboard the vehicle.",
+      "team_size": 3,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "Industrials",
+      "subindustry": "Industrials -> Aviation and Space",
+      "launched_at": 1788312802,
+      "tags": [
+        "AIOps",
+        "Space Exploration",
+        "Satellites"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Fall 2026",
+      "status": "Active",
+      "industries": [
+        "Industrials",
+        "Aviation and Space"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/orca-aerospace"
     },
     {
       "id": 35522,
@@ -4004,7 +4050,7 @@
       "name": "Lumeria",
       "slug": "lumeria",
       "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/8820c77c59ad677aa1a11384b561d8e34ab06e47.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/5911b0640b4a7b63825ae466fa73c1fc1b24c0a3.png",
       "website": "https://lumeria.skin",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "The Lumoscope is a multispectral camera that clips onto your phone and scans your skin at home with the same light used in clinics. You see what a mirror can't: a breakout days before it surfaces, and wrinkles changing over time. Our software then reads that history, connects flare-ups to causes you'd never suspect, and matches products to what your own data shows works. \r\n",
@@ -4017,11 +4063,11 @@
       "subindustry": "Healthcare -> Consumer Health and Wellness",
       "launched_at": 1785008787,
       "tags": [
+        "Artificial Intelligence",
         "Consumer Health Services",
         "Health Tech",
         "Health & Wellness",
-        "Skincare",
-        "AI"
+        "Skincare"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -13072,7 +13118,7 @@
       "website": "https://usecollarai.com",
       "all_locations": "Singapore, Singapore",
       "long_description": "Collar (YC F26) is the AI for your investor relations and equity research reports. It reads every filing, transcript and comp, flags what actually changed, and drafts the note. So we want to take the IR stack off your plate: equity research, quarterly reports, filings, and investor updates.",
-      "one_liner": "AI for Investor Relations",
+      "one_liner": "AI for Investor Relations and Equity Research",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -13081,8 +13127,8 @@
       "subindustry": "B2B",
       "launched_at": 1777111023,
       "tags": [
-        "Finance",
-        "AI"
+        "Artificial Intelligence",
+        "Finance"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -19062,8 +19108,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c0363e9662e7db43e0292d57332e9650487ebdbb.png",
       "website": "https://tsenta.com",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Tsenta is an AI career agent that finds matching jobs, tailors your resume, and applies on your behalf.\r\n\r\nWe built it after manually applying to over 3,000 jobs ourselves, so nobody else would have to.\r\n\r\nToday, more than 70,000 job seekers use Tsenta to automate their job search.",
-      "one_liner": "AI career agent that turns your professional footprint into offers",
+      "long_description": "Tsenta is an AI career agent that matches you with jobs, tailors your resume and applies automatically on your behalf.\r\n\r\nWe grew from $15K MRR to $205k MRR (2.5M Annualized) in 9 weeks.\r\n\r\nWe built it after manually applying to over 3,000 jobs ourselves, so nobody else would have to.\r\n\r\nToday, more than 85,000 job seekers use Tsenta to automate their job search.",
+      "one_liner": "AI career agent that finds matching jobs & applies on your behalf",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -19072,11 +19118,11 @@
       "subindustry": "Consumer -> Job and Career Services",
       "launched_at": 1769729252,
       "tags": [
+        "Artificial Intelligence",
         "Marketplace",
         "Consumer",
         "Recruiting",
-        "HR Tech",
-        "AI"
+        "HR Tech"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -19285,8 +19331,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/cfd59b6ed20dc37d4d8cc17df4227ef9bed3a504.png",
       "website": "https://silahq.com",
       "all_locations": "New York City, NY, USA",
-      "long_description": "Sila is the agent-native messaging platform. We're defining the standard for how companies work in the AI era by creating new types of communication layers: team-agent, agent-agent, agent-customer interaction layers and more. The conversations that define the future will happen on Sila.",
-      "one_liner": "Agent-Native Messaging Platform",
+      "long_description": "Sila is an instant messaging app that makes agents as simple as messaging your team. Agents work, build, and keep running across your company. We're building for teams working with agents, agents working with each other, and companies working through both.",
+      "one_liner": "Instant Messaging With Agents",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -37501,7 +37547,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/fda446d464914642f213b7da0cd38f3f6fead898.png",
       "website": "https://ironledger.ai",
       "all_locations": "New York City, NY, USA",
-      "long_description": "IronLedger automates property accounting for property managers, developers and contractors, starting with accounts payable. We eliminate more than $70K of accounting costs annually for over 50K multifamily units.\r\n\r\nhttps://www.ironledger.ai/",
+      "long_description": "IronLedger automates property accounting for property managers, developers and contractors, starting with accounts payable. We eliminate more than $70K of accounting costs annually for over 80K multifamily units.\r\n\r\nhttps://www.ironledger.ai/",
       "one_liner": "AI-enabled Corporate Cards and Invoice Processing for Real Estate",
       "team_size": 0,
       "highlight_black": false,
@@ -40278,9 +40324,9 @@
       "subindustry": "B2B -> Engineering, Product and Design",
       "launched_at": 1753318246,
       "tags": [
-        "Artificial Intelligence",
         "Developer Tools",
-        "Infrastructure"
+        "Infrastructure",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -40478,10 +40524,10 @@
       "subindustry": "B2B -> Infrastructure",
       "launched_at": 1756399069,
       "tags": [
+        "Artificial Intelligence",
         "Developer Tools",
         "Workflow Automation",
-        "DevOps",
-        "AI"
+        "DevOps"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -59154,7 +59200,7 @@
       "website": "https://www.freestyle.sh",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Ben and Jacob met in Calculus class in 10th grade, and tried founding a startup in high school — it didn’t go anywhere.\r\n\r\nDuring high school, Ben lead the frontend team for the World Health Organization’s COVID-19 App Team.\r\n\r\nAfter high school, Jacob went to Apple and Ben went to college. When there was an opening on his team, Jacob had Ben apply, and Ben left UChicago to go work at Apple.\r\n\r\nThey spent about 2 years at Apple as Senior Engineers in the Conversational Engineering Department, before leaving to found Freestyle.\r\n\r\nFreestyle is directly inspired by what they saw as their failures of the tech they worked with at Apple.",
-      "one_liner": "We run and deploy code your AI wrote",
+      "one_liner": "The most powerful sandboxes for AI Agents",
       "team_size": 5,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -59163,9 +59209,8 @@
       "subindustry": "B2B -> Infrastructure",
       "launched_at": 1719115501,
       "tags": [
+        "Artificial Intelligence",
         "Developer Tools",
-        "Open Source",
-        "Web Development",
         "Cloud Computing"
       ],
       "tags_highlighted": [],
@@ -69988,7 +70033,7 @@
       "former_names": [
         "Datawave"
       ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/728ee9ea2b99fcf7119bc1be1f331371e8b80fc2.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/4f1b408f70436ba6c3b79b72819fce2462e9b4dc.png",
       "website": "https://coval.dev",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Coval is a simulation & evaluation platform for autonomous AI agents, helping engineers launch dependable assistants across chat, voice, and other modalities. \r\nWe simulate thousands of scenarios engineers don't have to manually test their agents. Our CI/CD evaluations automatically simulate and detect regressions.",
@@ -70001,11 +70046,11 @@
       "subindustry": "B2B -> Engineering, Product and Design",
       "launched_at": 1725341816,
       "tags": [
+        "Artificial Intelligence",
         "Developer Tools",
         "SaaS",
         "B2B",
-        "Monitoring",
-        "AI"
+        "Monitoring"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -72653,7 +72698,7 @@
         "AutoflowAI",
         "Ocular"
       ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c7d1b7d8fc2f64b1b430932a39db37a61d39131c.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/2d1b75bdedcefb73d59cc0a2f122bdc71abfcc6e.png",
       "website": "https://useocular.com",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "",
@@ -72666,10 +72711,10 @@
       "subindustry": "B2B",
       "launched_at": 1706216304,
       "tags": [
-        "Artificial Intelligence",
         "Machine Learning",
         "Speech Recognition",
-        "Data Engineering"
+        "Data Engineering",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -74712,7 +74757,7 @@
       "tags": [],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": true,
+      "isHiring": false,
       "nonprofit": false,
       "batch": "Winter 2024",
       "status": "Active",
@@ -118998,22 +119043,23 @@
     },
     {
       "id": 25973,
-      "name": "amiloz",
-      "slug": "amiloz",
+      "name": "BelozFi",
+      "slug": "belozfi",
       "former_names": [
         "Comerza (new name ---> Amiloz)",
         "AMILOZ",
         "amiloz",
         "Amiloz",
         "amiloz",
-        "Amiloz"
+        "Amiloz",
+        "amiloz"
       ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/979fcfdd0c4661a8729e2394fa1ade03b93f89bc.png",
-      "website": "https://www.beloz.com.mx/",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/2b7064954b699944273829fa9f99e428be9bfa6f.png",
+      "website": "https://www.belozfi.com.mx/",
       "all_locations": "Mexico City, CDMX, Mexico",
-      "long_description": "We are a Y Combinator / Latitud backed micro-lending platform in Mexico led by talent from companies such as Capital One, Bain & Company, Konfio, DiDi, Clip, Klarna, etc. We are hyper focused on making sure that customers improve their financial lives significantly through their relationship with us. In a very short time, we have achieved significant traction with exceptional consumer outcomes and unit economics. We are also building and incorporating a significant amount of AI into our operations, so this is a great place to work for anybody who has ambitions to build real time applications of AI. Our goal is to build the biggest AI enabled consumer fintech platform in Mexico and eventually LatAm.",
-      "one_liner": "Micro-lender in Mexico",
-      "team_size": 20,
+      "long_description": "We are a Y Combinator / Latitud backed financial health focused micro-lending platform in Mexico led by people from companies such as Capital One, Bain, Konfio, DiDi etc. We are hyper focused on making sure our users understand and improve their financial health through their relationship with us. In a very short time, we have achieved significant traction with very good consumer outcomes and unit economics. We have built a solid AI foundation in product development, data science and lending operations that powers our product. Our goal is to build the biggest AI enabled financial health platform in Mexico and eventually LatAm.",
+      "one_liner": "Financial health focused micro-lender in Mexico",
+      "team_size": 29,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -119046,7 +119092,7 @@
       "demo_day_video_public": false,
       "app_answers": null,
       "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/amiloz"
+      "url": "https://www.ycombinator.com/companies/belozfi"
     },
     {
       "id": 25972,
@@ -122526,11 +122572,10 @@
       "subindustry": "B2B -> Marketing",
       "launched_at": 1645693578,
       "tags": [
-        "Artificial Intelligence",
         "B2B",
         "Marketing",
         "Advertising",
-        "SEO"
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -138700,8 +138745,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/48474c1b0337163fd12462fb6b72ee336a4ad010.png",
       "website": "https://www.adni.co/",
       "all_locations": "San Francisco, CA, USA; Remote",
-      "long_description": "Healthcare employers tell Adni who they're hiring. Adni searches millions of healthcare workers across its own clinician network, proprietary data, external sources, and employer databases to identify the best candidates.\r\n\r\nRecruiters can search and contact candidates themselves, or deploy Allie, Adni's AI recruiting agent, to continuously source, screen, and surface interested candidates automatically.\r\n\r\nUnlike traditional recruiting databases, Adni operates a career community where healthcare workers find jobs, connect with peers, attend meetups, review facilities, and manage their careers. This gives Adni a growing proprietary network of engaged clinicians and real-time signals on who is looking for work and what they want.\r\n\r\nBacked by YC, Flare Capital, Liquid 2, Fresco, Augment, Crista Galli, Adam Grant, and the founders of CareRev, Clipboard Health, Papa, and more.",
-      "one_liner": "AI healthcare recruiting platform",
+      "long_description": "Adni is the career community for 200,000+ nurses and allied health workers. Members use our app to chat with career coaches, apply for jobs, store credentials, connect with recruiters, find meetups, and shop for gear.\r\n\r\nOrganizations partner with Adni to reach and hire healthcare workers through our network, a verified database of 2.4M clinicians, and AI-powered marketing tools. Customers have received 67,000+ clinician leads and acquire clinicians at 3x lower cost.\r\n\r\nCustomers include Massachusetts General Hospital, Penn Medicine, ChristianaCare, Medical Solutions, Medline, Jaanuu, Proliability, and more.\r\n\r\nFounded by two nurses. Backed by YC, Flare Capital, Liquid 2, Fresco, Augment, Crista Galli, Adam Grant, and the founders of CareRev, Clipboard Health, and Papa.",
+      "one_liner": "The career community for healthcare workers",
       "team_size": 5,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -187016,7 +187061,7 @@
         "Remote",
         "Partly Remote"
       ],
-      "stage": "Growth",
+      "stage": "Early",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -203079,7 +203124,7 @@
         "Remote",
         "Partly Remote"
       ],
-      "stage": "Growth",
+      "stage": "Early",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,

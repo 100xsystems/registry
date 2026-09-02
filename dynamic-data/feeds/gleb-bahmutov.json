@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-08-07T18:43:12.390Z",
+  "updatedAt": "2026-09-02T03:08:51.397Z",
   "items": [
     {
       "guid": "gleb-bahmutov::https://glebbahmutov.com/blog/when-it-reloads/",
@@ -263,7 +263,15 @@
       "summary": "Let's say you have a long-ish Cypress test and you know a place where it might fail. You want to stop / skip the test commands. What options do you have for stopping Cypress tests?\nImagine these two specs in our project\n\n\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n\n//…",
       "author": null,
       "publishedAt": "2026-08-07T04:00:00.000Z"
+    },
+    {
+      "guid": "gleb-bahmutov::https://glebbahmutov.com/blog/implicit-assertions-are-more-readable/",
+      "title": "Implicit Assertions Are More Readable",
+      "link": "https://glebbahmutov.com/blog/implicit-assertions-are-more-readable/",
+      "summary": "Recently I saw a Linkedin post that shows \"before & after\" API test using Cypress. Here is the screenshot included in the post.\n\nRight away, I want to say that the \"after\" test is better. It checks the response status first, then confirms the types and ranges of values, rather than hard codes the…",
+      "author": null,
+      "publishedAt": "2026-09-01T04:00:00.000Z"
     }
   ],
-  "totalIndexed": 32
+  "totalIndexed": 33
 }

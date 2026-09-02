@@ -1,79 +1,91 @@
-# YC Company Changes for 2026-09-01
+# YC Company Changes for 2026-09-02
 
 - Previous total: 6200
-- Current total: 6200
-- Added: 0
+- Current total: 6201
+- Added: 1
 - Removed: 0
-- Updated: 15
+- Updated: 16
 
+
+## Added Companies
+
+- [Orca Aerospace](https://www.ycombinator.com/companies/orca-aerospace) (Fall 2026) — AI spacecraft operator that lives onboard the vehicle.
 
 ## Updated Companies
 
-### [Ambient.ai](https://www.ycombinator.com/companies/ambient-ai)
+### [Kalshi](https://www.ycombinator.com/companies/kalshi)
 
 - `stage`: Growth → Early
 
-### [AXAR AI](https://www.ycombinator.com/companies/axar-ai)
-
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/52cb3520d9bab156b57aed7f3c76a564ce21c4cb.png → https://bookface-images.s3.amazonaws.com/small_logos/0c6547ecb9fa107a828426f050dc9ff06b380355.png
-- `website`:  → https://www.axar.ai/
-- `one_liner`: How great teams ship with AI → Multi-agent orchestration platform
-- `team_size`: 4 → 40
-
-### [Landeed](https://www.ycombinator.com/companies/landeed)
-
-- `tags`: Documents,Artificial Intelligence,Fintech,Legal,Proptech → Documents,Fintech,Legal,Proptech,AI
-
-### [Polymath Robotics](https://www.ycombinator.com/companies/polymath-robotics)
-
-- `team_size`: 13 → 25
-
-### [Loula](https://www.ycombinator.com/companies/loula)
-
-- `isHiring`: true → false
-
-### [Linc.](https://www.ycombinator.com/companies/linc)
-
-- `one_liner`: AI Copilot for Shippers, Carriers and Brokers → AI-Native Process Mining and Enterprise Transformation Platform
-- `team_size`: 3 → 5
-
-### [Zep AI](https://www.ycombinator.com/companies/zep-ai)
-
-- `team_size`: 5 → 10
-- `tags`: Artificial Intelligence,Developer Tools,Infrastructure,Conversational AI,AI Assistant → Developer Tools,Infrastructure,AI,Conversational AI,AI Assistant
-
-### [Conveo](https://www.ycombinator.com/companies/conveo)
+### [Karat Financial](https://www.ycombinator.com/companies/karat-financial)
 
 - `stage`: Growth → Early
 
-### [Bluedoor](https://www.ycombinator.com/companies/bluedoor)
+### [Adni](https://www.ycombinator.com/companies/adni)
 
-- `name`: bluedoor → Bluedoor
-- `former_names`: OpenIndex,Actionbase,actionbase,Actionbase,Pumpkin,Leviathan → OpenIndex,Actionbase,actionbase,Actionbase,Pumpkin,Leviathan,bluedoor
-- `one_liner`: The world's data, ready for AI → AI for public records request fulfillment
-- `tags`: API,Big Data → Artificial Intelligence,GovTech
+- `one_liner`: AI healthcare recruiting platform → The career community for healthcare workers
 
-### [RiskCube](https://www.ycombinator.com/companies/riskcube)
+### [Sprites](https://www.ycombinator.com/companies/sprites)
 
-- `one_liner`: Independent insurance brokerage for startups. → AI insurance company
-- `tags`: Artificial Intelligence,Fintech,Insurance,Defense → Fintech,Insurance,Defense,AI
+- `tags`: Artificial Intelligence,B2B,Marketing,Advertising,SEO → B2B,Marketing,Advertising,AI
 
-### [Proception Inc](https://www.ycombinator.com/companies/proception-inc)
+### [BelozFi](https://www.ycombinator.com/companies/belozfi)
+
+- `name`: amiloz → BelozFi
+- `slug`: amiloz → belozfi
+- `former_names`: Comerza (new name ---> Amiloz),AMILOZ,amiloz,Amiloz,amiloz,Amiloz → Comerza (new name ---> Amiloz),AMILOZ,amiloz,Amiloz,amiloz,Amiloz,amiloz
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/979fcfdd0c4661a8729e2394fa1ade03b93f89bc.png → https://bookface-images.s3.amazonaws.com/small_logos/2b7064954b699944273829fa9f99e428be9bfa6f.png
+- `website`: https://www.beloz.com.mx/ → https://www.belozfi.com.mx/
+- `one_liner`: Micro-lender in Mexico → Financial health focused micro-lender in Mexico
+- `team_size`: 20 → 29
+
+### [Voicepanel](https://www.ycombinator.com/companies/voicepanel)
 
 - `isHiring`: true → false
 
-### [Squid](https://www.ycombinator.com/companies/squid)
+### [Ocular AI](https://www.ycombinator.com/companies/ocular-ai)
 
-- `isHiring`: false → true
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/c7d1b7d8fc2f64b1b430932a39db37a61d39131c.png → https://bookface-images.s3.amazonaws.com/small_logos/2d1b75bdedcefb73d59cc0a2f122bdc71abfcc6e.png
+- `tags`: Artificial Intelligence,Machine Learning,Speech Recognition,Data Engineering → Machine Learning,Speech Recognition,Data Engineering,AI
+
+### [Coval](https://www.ycombinator.com/companies/coval)
+
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/728ee9ea2b99fcf7119bc1be1f331371e8b80fc2.png → https://bookface-images.s3.amazonaws.com/small_logos/4f1b408f70436ba6c3b79b72819fce2462e9b4dc.png
+- `tags`: Developer Tools,SaaS,B2B,Monitoring,AI → Artificial Intelligence,Developer Tools,SaaS,B2B,Monitoring
+
+### [Freestyle](https://www.ycombinator.com/companies/freestyle)
+
+- `one_liner`: We run and deploy code your AI wrote → The most powerful sandboxes for AI Agents
+- `tags`: Developer Tools,Open Source,Web Development,Cloud Computing → Artificial Intelligence,Developer Tools,Cloud Computing
+
+### [Dedalus Labs](https://www.ycombinator.com/companies/dedalus-labs)
+
+- `tags`: Developer Tools,Workflow Automation,DevOps,AI → Artificial Intelligence,Developer Tools,Workflow Automation,DevOps
+
+### [TraceRoot.AI](https://www.ycombinator.com/companies/traceroot-ai)
+
+- `tags`: Artificial Intelligence,Developer Tools,Infrastructure → Developer Tools,Infrastructure,AI
+
+### [Sila](https://www.ycombinator.com/companies/sila)
+
+- `one_liner`: Agent-Native Messaging Platform → Instant Messaging With Agents
+
+### [Tsenta](https://www.ycombinator.com/companies/tsenta)
+
+- `one_liner`: AI career agent that turns your professional footprint into offers → AI career agent that finds matching jobs & applies on your behalf
+- `tags`: Marketplace,Consumer,Recruiting,HR Tech,AI → Artificial Intelligence,Marketplace,Consumer,Recruiting,HR Tech
 
 ### [Collar](https://www.ycombinator.com/companies/collar)
 
-- `one_liner`: AI for General Partners → AI for Investor Relations
+- `one_liner`: AI for Investor Relations → AI for Investor Relations and Equity Research
+- `tags`: Finance,AI → Artificial Intelligence,Finance
 
-### [Pango](https://www.ycombinator.com/companies/pango)
+### [Lumeria](https://www.ycombinator.com/companies/lumeria)
 
-- `tags`: Logistics,E-commerce,Retail,AI → Artificial Intelligence,Logistics,E-commerce,Retail
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/8820c77c59ad677aa1a11384b561d8e34ab06e47.png → https://bookface-images.s3.amazonaws.com/small_logos/5911b0640b4a7b63825ae466fa73c1fc1b24c0a3.png
+- `tags`: Consumer Health Services,Health Tech,Health & Wellness,Skincare,AI → Artificial Intelligence,Consumer Health Services,Health Tech,Health & Wellness,Skincare
 
-### [COACH](https://www.ycombinator.com/companies/ai-coach)
+### [Vorelios](https://www.ycombinator.com/companies/vorelios)
 
-- `isHiring`: true → false
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/b4f39044267f59b55cfe15cd369dcd61b7e645f5.png → https://bookface-images.s3.amazonaws.com/small_logos/c02b36f4ca2283601c8f20e89597a38768ae9db9.png
+- `tags`: Artificial Intelligence,Hard Tech,B2B → Hard Tech,B2B,AI
