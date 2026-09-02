@@ -8,7 +8,7 @@
     "ai",
     "research"
   ],
-  "updatedAt": "2026-08-28T18:26:10.350Z",
+  "updatedAt": "2026-09-02T16:01:34.752Z",
   "items": [
     {
       "guid": "environment-free",
@@ -233,7 +233,15 @@
       "summary": "Evaluating AI agents that use external tools requires realistic test scenarios that capture how practitioners compose tools and iterate across conversation turns. Constructing such scenarios by hand demands deep domain expertise, does not scale across tool ecosystems, and produces static benchmarks…",
       "author": null,
       "publishedAt": "2026-08-28T00:00:00.000Z"
+    },
+    {
+      "guid": "refactor-vla-motor-programs",
+      "title": "REFACTOR-VLA: Unsupervised Library Learning of Typed Motor Programs",
+      "link": "https://machinelearning.apple.com/research/refactor-vla-motor-programs",
+      "summary": "Most current vision-language-action (VLA) models—such as OpenVLA, π0, RT-2, and RDT-1B—are “monolithic.” This means they generate raw motor commands or very short sequences of actions, without organizing behaviors into reusable, well-defined abstractions. As a result, these models perform poorly on…",
+      "author": null,
+      "publishedAt": "2026-09-02T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 28
+  "totalIndexed": 29
 }

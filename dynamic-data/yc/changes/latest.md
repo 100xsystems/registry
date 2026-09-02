@@ -4,80 +4,31 @@
 - Current total: 6201
 - Added: 0
 - Removed: 0
-- Updated: 15
+- Updated: 4
 
 
 ## Updated Companies
 
-### [Ambient.ai](https://www.ycombinator.com/companies/ambient-ai)
+### [Upflow](https://www.ycombinator.com/companies/upflow)
 
-- `stage`: Early → Growth
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/cfbbee59804a41493e50bd030cff5d6d1bc8fc97.png → https://bookface-images.s3.amazonaws.com/small_logos/b1ab8ca5ebabdab9b5b2a4f3b0349715907d614a.png
+- `one_liner`: Cash collection tech for B2B businesses → Cash collection technology for B2B businesses
 
-### [Kalshi](https://www.ycombinator.com/companies/kalshi)
+### [Integuru](https://www.ycombinator.com/companies/integuru)
 
-- `stage`: Early → Growth
+- `tags`: Developer Tools,B2B,API,Automation,AI → Artificial Intelligence,Developer Tools,B2B,API,Automation
 
-### [Karat Financial](https://www.ycombinator.com/companies/karat-financial)
+### [Cardamon](https://www.ycombinator.com/companies/cardamon)
 
-- `stage`: Early → Growth
+- `team_size`: 2 → 11
+- `tags`: Artificial Intelligence,Fintech,Compliance,Regtech → Fintech,Compliance,Regtech,AI
 
-### [Oneleet](https://www.ycombinator.com/companies/oneleet)
+### [Kimpton](https://www.ycombinator.com/companies/kimpton)
 
-- `stage`: Early → Growth
-
-### [Conveo](https://www.ycombinator.com/companies/conveo)
-
-- `stage`: Early → Growth
-
-### [Nitrode](https://www.ycombinator.com/companies/nitrode)
-
-- `team_size`: 10 → 5
-- `tags`: Artificial Intelligence,Machine Learning,B2B,Data Engineering → Machine Learning,B2B,Data Engineering,AI
-
-### [Browser Use](https://www.ycombinator.com/companies/browser-use)
-
-- `one_liner`: Leading open-source web agent project with 50k stars in 3 months → Agents that use the browser.
-- `tags`: Artificial Intelligence,Open Source,API,Automation → Open Source,API,Automation,AI
-
-### [Thesis](https://www.ycombinator.com/companies/thesis)
-
-- `one_liner`: Autonomous AI research → Humanoid robots
-- `industry`: B2B → Industrials
-- `subindustry`: B2B → Industrials -> Manufacturing and Robotics
-- `tags`: Hard Tech,Machine Learning,Automation,AI → Artificial Intelligence,Hard Tech,Machine Learning,Robotics
-- `industries`: B2B → Industrials,Manufacturing and Robotics
-
-### [Ressl AI](https://www.ycombinator.com/companies/ressl-ai)
-
-- `tags`: Artificial Intelligence,B2B,Operations → B2B,Operations,AI
-- `isHiring`: false → true
-
-### [Armature](https://www.ycombinator.com/companies/armature)
-
-- `one_liner`: Improve how users experience your product through AI Agents → We get your product picked by coding agents, then help improve the…
-- `tags`:  → Artificial Intelligence,Marketing,SEO,AI,APIs
-
-### [Tenor](https://www.ycombinator.com/companies/tenor)
-
-- `one_liner`: AI workers that attribute the outcome back to the token spend → AI that own jobs end-to-end and learn from every outcome
-- `tags`: B2B,Automation,AI → Artificial Intelligence,B2B,Automation
-
-### [Ultrasonium](https://www.ycombinator.com/companies/ultrasonium)
-
-- `one_liner`: Manufacturing the metal parts the world runs on faster, cheaper, safer → Metal manufacturing, faster, cheaper, and more versatile.
-
-### [Denta](https://www.ycombinator.com/companies/denta)
-
-- `one_liner`: Dental Insurance → AI-Native Dental Insurance
-- `tags`: Fintech,Health Insurance → Artificial Intelligence,Fintech,Healthcare,Health Insurance
-
-### [Osseus](https://www.ycombinator.com/companies/osseus)
-
-- `tags`: Robotics,B2B,Enterprise Software,Infrastructure,AI → Artificial Intelligence,Robotics,B2B,Enterprise Software,Infrastructure
-
-### [Nodus Compute](https://www.ycombinator.com/companies/nodus-compute)
-
-- `name`: Nodus → Nodus Compute
-- `slug`: nodus → nodus-compute
-- `former_names`:  → Nodus
-- `tags`: Infrastructure,AI → Artificial Intelligence,Infrastructure
+- `name`: Kimpton AI → Kimpton
+- `slug`: kimpton-ai → kimpton
+- `former_names`:  → Kimpton AI
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/472bbf99a385182b4cadc467c7e537399ce04100.png → https://bookface-images.s3.amazonaws.com/small_logos/dc55a7e4190cac127494553294ea19379fdf8fc3.png
+- `all_locations`: San Francisco, CA, USA; Remote → New York City, NY, USA; Remote
+- `one_liner`: The IDE for Investors → Live Evaluation Arenas for Financial Work
+- `tags`:  → Artificial Intelligence,B2B,Investments,Trading
