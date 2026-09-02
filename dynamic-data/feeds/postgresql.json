@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-09-01T20:21:33.296Z",
+  "updatedAt": "2026-09-02T10:59:03.262Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -1313,7 +1313,15 @@
       "summary": "Your repository contains two version control systems.\nOne is Git. The other is your migration directory — a timestamped, append-only sequence of schema changes with its own applied-state tracking in the database. Two systems, two timelines, living in the same repo. And they do not synchronize.…",
       "author": null,
       "publishedAt": "2026-09-01T16:30:23.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9tH",
+      "title": "Christophe Pettus: All Your GUCs in a Row: log_min_duration_sample, log_statement_sample_rate, and log_transaction_sample_rate",
+      "link": "https://postgr.es/p/9tH",
+      "summary": "Aggregate query statistics hide the forest of cheap queries.",
+      "author": null,
+      "publishedAt": "2026-09-02T01:00:00.000Z"
     }
   ],
-  "totalIndexed": 163
+  "totalIndexed": 164
 }

@@ -1,91 +1,83 @@
 # YC Company Changes for 2026-09-02
 
-- Previous total: 6200
+- Previous total: 6201
 - Current total: 6201
-- Added: 1
+- Added: 0
 - Removed: 0
-- Updated: 16
+- Updated: 15
 
-
-## Added Companies
-
-- [Orca Aerospace](https://www.ycombinator.com/companies/orca-aerospace) (Fall 2026) — AI spacecraft operator that lives onboard the vehicle.
 
 ## Updated Companies
 
+### [Ambient.ai](https://www.ycombinator.com/companies/ambient-ai)
+
+- `stage`: Early → Growth
+
 ### [Kalshi](https://www.ycombinator.com/companies/kalshi)
 
-- `stage`: Growth → Early
+- `stage`: Early → Growth
 
 ### [Karat Financial](https://www.ycombinator.com/companies/karat-financial)
 
-- `stage`: Growth → Early
+- `stage`: Early → Growth
 
-### [Adni](https://www.ycombinator.com/companies/adni)
+### [Oneleet](https://www.ycombinator.com/companies/oneleet)
 
-- `one_liner`: AI healthcare recruiting platform → The career community for healthcare workers
+- `stage`: Early → Growth
 
-### [Sprites](https://www.ycombinator.com/companies/sprites)
+### [Conveo](https://www.ycombinator.com/companies/conveo)
 
-- `tags`: Artificial Intelligence,B2B,Marketing,Advertising,SEO → B2B,Marketing,Advertising,AI
+- `stage`: Early → Growth
 
-### [BelozFi](https://www.ycombinator.com/companies/belozfi)
+### [Nitrode](https://www.ycombinator.com/companies/nitrode)
 
-- `name`: amiloz → BelozFi
-- `slug`: amiloz → belozfi
-- `former_names`: Comerza (new name ---> Amiloz),AMILOZ,amiloz,Amiloz,amiloz,Amiloz → Comerza (new name ---> Amiloz),AMILOZ,amiloz,Amiloz,amiloz,Amiloz,amiloz
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/979fcfdd0c4661a8729e2394fa1ade03b93f89bc.png → https://bookface-images.s3.amazonaws.com/small_logos/2b7064954b699944273829fa9f99e428be9bfa6f.png
-- `website`: https://www.beloz.com.mx/ → https://www.belozfi.com.mx/
-- `one_liner`: Micro-lender in Mexico → Financial health focused micro-lender in Mexico
-- `team_size`: 20 → 29
+- `team_size`: 10 → 5
+- `tags`: Artificial Intelligence,Machine Learning,B2B,Data Engineering → Machine Learning,B2B,Data Engineering,AI
 
-### [Voicepanel](https://www.ycombinator.com/companies/voicepanel)
+### [Browser Use](https://www.ycombinator.com/companies/browser-use)
 
-- `isHiring`: true → false
+- `one_liner`: Leading open-source web agent project with 50k stars in 3 months → Agents that use the browser.
+- `tags`: Artificial Intelligence,Open Source,API,Automation → Open Source,API,Automation,AI
 
-### [Ocular AI](https://www.ycombinator.com/companies/ocular-ai)
+### [Thesis](https://www.ycombinator.com/companies/thesis)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/c7d1b7d8fc2f64b1b430932a39db37a61d39131c.png → https://bookface-images.s3.amazonaws.com/small_logos/2d1b75bdedcefb73d59cc0a2f122bdc71abfcc6e.png
-- `tags`: Artificial Intelligence,Machine Learning,Speech Recognition,Data Engineering → Machine Learning,Speech Recognition,Data Engineering,AI
+- `one_liner`: Autonomous AI research → Humanoid robots
+- `industry`: B2B → Industrials
+- `subindustry`: B2B → Industrials -> Manufacturing and Robotics
+- `tags`: Hard Tech,Machine Learning,Automation,AI → Artificial Intelligence,Hard Tech,Machine Learning,Robotics
+- `industries`: B2B → Industrials,Manufacturing and Robotics
 
-### [Coval](https://www.ycombinator.com/companies/coval)
+### [Ressl AI](https://www.ycombinator.com/companies/ressl-ai)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/728ee9ea2b99fcf7119bc1be1f331371e8b80fc2.png → https://bookface-images.s3.amazonaws.com/small_logos/4f1b408f70436ba6c3b79b72819fce2462e9b4dc.png
-- `tags`: Developer Tools,SaaS,B2B,Monitoring,AI → Artificial Intelligence,Developer Tools,SaaS,B2B,Monitoring
+- `tags`: Artificial Intelligence,B2B,Operations → B2B,Operations,AI
+- `isHiring`: false → true
 
-### [Freestyle](https://www.ycombinator.com/companies/freestyle)
+### [Armature](https://www.ycombinator.com/companies/armature)
 
-- `one_liner`: We run and deploy code your AI wrote → The most powerful sandboxes for AI Agents
-- `tags`: Developer Tools,Open Source,Web Development,Cloud Computing → Artificial Intelligence,Developer Tools,Cloud Computing
+- `one_liner`: Improve how users experience your product through AI Agents → We get your product picked by coding agents, then help improve the…
+- `tags`:  → Artificial Intelligence,Marketing,SEO,AI,APIs
 
-### [Dedalus Labs](https://www.ycombinator.com/companies/dedalus-labs)
+### [Tenor](https://www.ycombinator.com/companies/tenor)
 
-- `tags`: Developer Tools,Workflow Automation,DevOps,AI → Artificial Intelligence,Developer Tools,Workflow Automation,DevOps
+- `one_liner`: AI workers that attribute the outcome back to the token spend → AI that own jobs end-to-end and learn from every outcome
+- `tags`: B2B,Automation,AI → Artificial Intelligence,B2B,Automation
 
-### [TraceRoot.AI](https://www.ycombinator.com/companies/traceroot-ai)
+### [Ultrasonium](https://www.ycombinator.com/companies/ultrasonium)
 
-- `tags`: Artificial Intelligence,Developer Tools,Infrastructure → Developer Tools,Infrastructure,AI
+- `one_liner`: Manufacturing the metal parts the world runs on faster, cheaper, safer → Metal manufacturing, faster, cheaper, and more versatile.
 
-### [Sila](https://www.ycombinator.com/companies/sila)
+### [Denta](https://www.ycombinator.com/companies/denta)
 
-- `one_liner`: Agent-Native Messaging Platform → Instant Messaging With Agents
+- `one_liner`: Dental Insurance → AI-Native Dental Insurance
+- `tags`: Fintech,Health Insurance → Artificial Intelligence,Fintech,Healthcare,Health Insurance
 
-### [Tsenta](https://www.ycombinator.com/companies/tsenta)
+### [Osseus](https://www.ycombinator.com/companies/osseus)
 
-- `one_liner`: AI career agent that turns your professional footprint into offers → AI career agent that finds matching jobs & applies on your behalf
-- `tags`: Marketplace,Consumer,Recruiting,HR Tech,AI → Artificial Intelligence,Marketplace,Consumer,Recruiting,HR Tech
+- `tags`: Robotics,B2B,Enterprise Software,Infrastructure,AI → Artificial Intelligence,Robotics,B2B,Enterprise Software,Infrastructure
 
-### [Collar](https://www.ycombinator.com/companies/collar)
+### [Nodus Compute](https://www.ycombinator.com/companies/nodus-compute)
 
-- `one_liner`: AI for Investor Relations → AI for Investor Relations and Equity Research
-- `tags`: Finance,AI → Artificial Intelligence,Finance
-
-### [Lumeria](https://www.ycombinator.com/companies/lumeria)
-
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/8820c77c59ad677aa1a11384b561d8e34ab06e47.png → https://bookface-images.s3.amazonaws.com/small_logos/5911b0640b4a7b63825ae466fa73c1fc1b24c0a3.png
-- `tags`: Consumer Health Services,Health Tech,Health & Wellness,Skincare,AI → Artificial Intelligence,Consumer Health Services,Health Tech,Health & Wellness,Skincare
-
-### [Vorelios](https://www.ycombinator.com/companies/vorelios)
-
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/b4f39044267f59b55cfe15cd369dcd61b7e645f5.png → https://bookface-images.s3.amazonaws.com/small_logos/c02b36f4ca2283601c8f20e89597a38768ae9db9.png
-- `tags`: Artificial Intelligence,Hard Tech,B2B → Hard Tech,B2B,AI
+- `name`: Nodus → Nodus Compute
+- `slug`: nodus → nodus-compute
+- `former_names`:  → Nodus
+- `tags`: Infrastructure,AI → Artificial Intelligence,Infrastructure
