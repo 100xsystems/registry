@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-02T16:01:54.158Z",
+  "fetchedAt": "2026-09-02T20:21:25.035Z",
   "count": 6201,
   "companies": [
     {
@@ -278,9 +278,9 @@
       "subindustry": "B2B",
       "launched_at": 1786417769,
       "tags": [
+        "Artificial Intelligence",
         "Hard Tech",
-        "B2B",
-        "AI"
+        "B2B"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -314,7 +314,7 @@
       "website": "https://orcaaerospace.com/",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "At Orca, we are focused on creating the future of spacecraft operations by moving control onto the vehicle. By allowing LLMs to control the satellite using deterministic tooling, we are able to achieve the same holistic, high-quality decisions on \"what\" to do to carry out a mission while maintaining the safety of systems that decide \"how\" to execute it. ",
-      "one_liner": "AI spacecraft operator that lives onboard the vehicle.",
+      "one_liner": "AI spacecraft operators that lives onboard the vehicle",
       "team_size": 3,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -329,7 +329,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": false,
+      "isHiring": true,
       "nonprofit": false,
       "batch": "Fall 2026",
       "status": "Active",
@@ -3965,7 +3965,7 @@
       "name": "Markov",
       "slug": "markov",
       "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/046776ac55f648d0cff146a0a5a1b1b37ad1d681.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/41a4a41e5482735389d2089a01ff2b862f56e307.png",
       "website": "https://www.markovstudios.com/",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Markov sells expert computer-use data to frontier labs. We’ve sold more than 33k+ hours and our open-source datasets have got over 200k+ downloads on hugging face.",
@@ -4681,7 +4681,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/ee4bd602221f77fc05dda940b7202523dd2b9d10.png",
       "website": "https://movingatoms.ai/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Our first model, Atom 1, pre-trained on the internets video, and fine tuned for physics, already tops the Physics IQ benchmark.\r\nIt has been action conditioned, so you can simulate robot actions within it.\r\nThis lets Robot Labs check every checkpoint, getting you results in minutes; instead of having to wait days for human evaluations. \r\nIt also lets you simulate unseen and hard to replicate environments.\r\n\r\nA world model good enough to grade robots is a world model good enough to drive one!\r\nOur second core bet is to design our robot model (world action model) to be micromanaged by LLMs, allow robotics to use the orchestration and planning abilities of LLMs while having the physics, contact and timing be controlled by the robot model (world action model).",
+      "long_description": "Our first model, Atom 1, pre-trained on the internets video, and fine tuned for physics, already tops the Physics IQ benchmark.\r\nIt has been action conditioned, so you can simulate robot actions within it.\r\nThis lets Robot Labs check every checkpoint, getting you results in minutes; instead of having to wait days for human evaluations. \r\nIt also lets you simulate unseen and hard to replicate environments.",
       "one_liner": "World models that train and test robots in sim, #1 on Physics-IQ",
       "team_size": 2,
       "highlight_black": false,
@@ -4691,10 +4691,10 @@
       "subindustry": "Industrials -> Manufacturing and Robotics",
       "launched_at": 1786481200,
       "tags": [
+        "Artificial Intelligence",
         "Hard Tech",
         "Robotics",
-        "Virtual Reality",
-        "AI"
+        "Virtual Reality"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -7003,7 +7003,7 @@
       "website": "https://www.exosat.com",
       "all_locations": "Singapore, Singapore",
       "long_description": "Exosat is building thousands of low-cost communication satellites to provide a neutral, sovereign alternative to Starlink. By designing our satellites with zero ITAR/EAR-controlled content, we can leverage manufacturers anywhere in the world to produce our satellites at under a tenth of the cost and launch them from other nations to bypass capacity bottlenecks and access equatorial orbits. \r\n\r\nWe're starting off by selling connectivity to device OEMs and network operators, but will eventually use the distributed compute across our constellation to run low-latency inference for robots and autonomous vehicles in remote and rural areas anywhere on the planet.\r\n\r\nWe've already signed hundreds of millions in LOIs to work with operators across Central Asia, Southeast Asia, and the Middle East, booked our first satellite launch next year, and hold an 11,000 satellite filing with the ITU to build the largest comms network outside of the U.S. and China.",
-      "one_liner": "Building a sovereign alternative to Starlink",
+      "one_liner": "Building a neutral and sovereign alternative to Starlink",
       "team_size": 1,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -19348,8 +19348,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/cfd59b6ed20dc37d4d8cc17df4227ef9bed3a504.png",
       "website": "https://silahq.com",
       "all_locations": "New York City, NY, USA",
-      "long_description": "Sila is an instant messaging app that makes agents as simple as messaging your team. Agents work, build, and keep running across your company. We're building for teams working with agents, agents working with each other, and companies working through both.",
-      "one_liner": "Instant Messaging With Agents",
+      "long_description": "Sila is where you message AI agents to get real work done. Describe your idea or work, and Sila creates the AI agents you message with your team. ",
+      "one_liner": "Message Agents",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -28586,20 +28586,21 @@
       "former_names": [
         "Clad Labs AI"
       ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/520e314c8c296821e00ad659cebecef2f5a3e76a.png",
-      "website": "https://cladlabs.ai",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/6d89c2eb858334a18c6c6eadb2a012e14e7400c4.png",
+      "website": "https://useclad.ai",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "free codegen from brainrot workflows in your IDE.",
-      "one_liner": "the brainrot ide",
+      "long_description": "Clad turns Slack, Teams, and email into one organized support queue. Agents investigate and resolve hard tickets the way a dedicated hire would, and every resolved conversation becomes knowledge, written up automatically.",
+      "one_liner": "AI support done right",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
-      "industry": "Consumer",
-      "subindustry": "Consumer",
+      "industry": "B2B",
+      "subindustry": "B2B",
       "launched_at": 1761263170,
       "tags": [
-        "Developer Tools"
+        "Customer Success",
+        "Customer Support"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -28608,7 +28609,7 @@
       "batch": "Fall 2025",
       "status": "Active",
       "industries": [
-        "Consumer"
+        "B2B"
       ],
       "regions": [
         "United States of America",
@@ -39318,10 +39319,10 @@
       "subindustry": "B2B -> Analytics",
       "launched_at": 1754374450,
       "tags": [
+        "Artificial Intelligence",
         "Developer Tools",
         "Data Science",
-        "Data Visualization",
-        "AI"
+        "Data Visualization"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -39338,7 +39339,7 @@
         "America / Canada"
       ],
       "stage": "Early",
-      "app_video_public": true,
+      "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
       "question_answers": false,
@@ -75468,7 +75469,7 @@
       "isHiring": false,
       "nonprofit": false,
       "batch": "Winter 2024",
-      "status": "Active",
+      "status": "Inactive",
       "industries": [
         "B2B",
         "Engineering, Product and Design"
@@ -167871,7 +167872,7 @@
       "isHiring": false,
       "nonprofit": false,
       "batch": "Summer 2020",
-      "status": "Inactive",
+      "status": "Acquired",
       "industries": [
         "Consumer",
         "Consumer Electronics"

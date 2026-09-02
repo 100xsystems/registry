@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-09-02T16:01:35.122Z",
+  "updatedAt": "2026-09-02T20:21:04.546Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -1329,7 +1329,15 @@
       "summary": "Note: I am presenting a tutorial for those who want to learn SQL at this year's Texas Linuxfest (https://pretalx.com/txlf2026/talk/DQ3XW7/) on November 6th.  This is a great opportunity at a fantastic community event and I encourage you to attend.\n\n\nDemo databases are good way to develop skills…",
       "author": null,
       "publishedAt": "2026-09-02T15:10:33.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9tL",
+      "title": "Christopher Winslett: Postgres Calculations and the Ambiguity of NULL",
+      "link": "https://postgr.es/p/9tL",
+      "summary": "When dividing by zero, Postgres fails and declares you ran an illegal operation. Cast 'abc' to an integer, and get an error. Divide by NULL and the query still runs. NULL isn't even a value. It is a marker for “unknown.” When using NULL, the concept of being unknown propagates through comparisons,…",
+      "author": null,
+      "publishedAt": "2026-09-02T17:00:00.000Z"
     }
   ],
-  "totalIndexed": 165
+  "totalIndexed": 166
 }

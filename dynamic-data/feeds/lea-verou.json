@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-08-06T14:07:21.593Z",
+  "updatedAt": "2026-09-02T20:21:20.674Z",
   "items": [
     {
       "guid": "lea-verou::https://lea.verou.me/2009/02/check-if-a-css-property-is-supported/",
@@ -415,7 +415,15 @@
       "summary": "A good two-state toggle can actually express all three data model states.\nUntil recently, if you looked at most websites with a theme toggle[1], you’d find three options: Light, Dark, and System.\n\n\n\n\n\n\n\n\nExamples of tri-state dark mode toggles.\nIn (LTR) reading direction: Ant Design, Red Hat Design…",
       "author": null,
       "publishedAt": "2026-08-06T00:00:00.000Z"
+    },
+    {
+      "guid": "lea-verou::https://lea.verou.me/blog/2026/dark-mode-toggles-2/",
+      "title": "The best dark mode toggle is probably none",
+      "link": "https://lea.verou.me/blog/2026/dark-mode-toggles-2/",
+      "summary": "About a month ago, I wrote an article recommending that if you are going to have an always visible control for switching between light and dark mode, it should be a two-state toggle that alternates between system and whatever the current opposite of system is, not a tri-state one (system, light,…",
+      "author": null,
+      "publishedAt": "2026-09-02T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 51
+  "totalIndexed": 52
 }
