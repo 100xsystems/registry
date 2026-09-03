@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-09-03T15:51:32.176Z",
+  "updatedAt": "2026-09-03T20:20:46.863Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -1353,7 +1353,39 @@
       "summary": "PostgreSQL 19 Beta 3 shipped on August 13, 2026, and the release\nnotes have been filled\nin as of 2026-07-18 — still marked subject to change, and the GA date isn’t\nannounced yet, but following the project’s usual September/October cadence\ngeneral availability should land within the next few weeks.…",
       "author": null,
       "publishedAt": "2026-09-03T13:09:30.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9tQ",
+      "title": "Umair Shahid: Database Availability Is a Stack: Rolling OS Patching",
+      "link": "https://postgr.es/p/9tQ",
+      "summary": "Key takeaways\nA routine OS patch can take Postgres offline even when Postgres itself was never touched. Here’s what rolling OS patching on a proper HA cluster changes:\n\nOS-level patches (kernel, glibc, container runtime, storage driver) can take Postgres down even though Postgres was never touched.…",
+      "author": null,
+      "publishedAt": "2026-09-03T16:13:03.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9tR",
+      "title": "Devrim GÜNDÜZ: PostgreSQL RPM repo comes to Amazon Linux 2023!",
+      "link": "https://postgr.es/p/9tR",
+      "summary": "If you run PostgreSQL on EC2, you've had two real choices until now: build from source, or fall back to whatever version Amazon Linux itself carries in its base repos. Neither matches what the rest of the PostgreSQL community gets from yum.postgresql.org — the full extension ecosystem, day-one…",
+      "author": null,
+      "publishedAt": "2026-09-03T14:50:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9tS",
+      "title": "Andrei Lepikhov: Why is numeric so popular in PostgreSQL databases?",
+      "link": "https://postgr.es/p/9tS",
+      "summary": "The PostgreSQL documentation on numeric contains two statements that don't sit well together:\"especially recommended for storing monetary amounts and other quantities where exactness is required\" — and right away: \"calculations on numeric values are very slow compared to the integer types, or to…",
+      "author": null,
+      "publishedAt": "2026-09-03T13:45:27.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9tP",
+      "title": "Alexander Ioffe: How One Extra JOIN Reliably Breaks Postgres",
+      "link": "https://postgr.es/p/9tP",
+      "summary": "Adding a 5-row lookup table to a 9-table billing query flips the plan from 0.3ms nested loops to 467ms hash joins. The cause is join_collapse_limit = 8, a default Postgres has shipped since 2005. SQL Server and MySQL don't have this cliff. Measured across three engines using ExoBench.",
+      "author": null,
+      "publishedAt": "2026-09-03T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 168
+  "totalIndexed": 172
 }
