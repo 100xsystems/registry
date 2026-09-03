@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-09-02T20:21:04.546Z",
+  "updatedAt": "2026-09-03T03:11:12.280Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -1337,7 +1337,15 @@
       "summary": "When dividing by zero, Postgres fails and declares you ran an illegal operation. Cast 'abc' to an integer, and get an error. Divide by NULL and the query still runs. NULL isn't even a value. It is a marker for “unknown.” When using NULL, the concept of being unknown propagates through comparisons,…",
       "author": null,
       "publishedAt": "2026-09-02T17:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9tM",
+      "title": "Christophe Pettus: All Your GUCs in a Row: log_replication_commands",
+      "link": "https://postgr.es/p/9tM",
+      "summary": "log_replication_commands is log_statement = all for walsenders, with the one difference that you should turn it on.\nA replication connection (replication=1 for physical, replication=database for logical) speaks a small language of its own: IDENTIFY_SYSTEM, CREATE_REPLICATION_SLOT, START_REPLICATI…",
+      "author": null,
+      "publishedAt": "2026-09-03T01:00:00.000Z"
     }
   ],
-  "totalIndexed": 166
+  "totalIndexed": 167
 }

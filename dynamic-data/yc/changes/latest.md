@@ -1,58 +1,81 @@
-# YC Company Changes for 2026-09-02
+# YC Company Changes for 2026-09-03
 
 - Previous total: 6201
-- Current total: 6201
+- Current total: 6200
 - Added: 0
-- Removed: 0
-- Updated: 10
+- Removed: 1
+- Updated: 14
 
+
+## Removed Companies
+
+- Terrasoft (Winter 2020)
 
 ## Updated Companies
 
-### [Quell](https://www.ycombinator.com/companies/quell)
+### [BuildZoom](https://www.ycombinator.com/companies/buildzoom)
 
-- `status`: Inactive → Acquired
+- `stage`: Growth → Early
 
-### [Preloop](https://www.ycombinator.com/companies/preloop)
+### [OneChronos](https://www.ycombinator.com/companies/onechronos)
 
-- `status`: Active → Inactive
+- `all_locations`: New York City, NY, USA; New York, NY, USA → New York City, NY, USA
+- `team_size`: 35 → 75
+- `tags`: Fintech,Marketplace,AI → Artificial Intelligence,Fintech,Marketplace
+- `stage`: Growth → Early
 
-### [Lotas](https://www.ycombinator.com/companies/lotas)
+### [Camber](https://www.ycombinator.com/companies/camber-2)
 
-- `tags`: Developer Tools,Data Science,Data Visualization,AI → Artificial Intelligence,Developer Tools,Data Science,Data Visualization
-- `app_video_public`: true → false
+- `team_size`: 85 → 101
+- `stage`: Growth → Early
 
-### [Clad Labs](https://www.ycombinator.com/companies/clad-labs)
+### [CrowdVolt](https://www.ycombinator.com/companies/crowdvolt)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/520e314c8c296821e00ad659cebecef2f5a3e76a.png → https://bookface-images.s3.amazonaws.com/small_logos/6d89c2eb858334a18c6c6eadb2a012e14e7400c4.png
-- `website`: https://cladlabs.ai → https://useclad.ai
-- `one_liner`: the brainrot ide → AI support done right
-- `industry`: Consumer → B2B
-- `subindustry`: Consumer → B2B
-- `tags`: Developer Tools → Customer Success,Customer Support
-- `industries`: Consumer → B2B
+- `isHiring`: true → false
 
-### [Sila](https://www.ycombinator.com/companies/sila)
+### [Coval](https://www.ycombinator.com/companies/coval)
 
-- `one_liner`: Instant Messaging With Agents → Message Agents
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/4f1b408f70436ba6c3b79b72819fce2462e9b4dc.png → https://bookface-images.s3.amazonaws.com/small_logos/adc31ffe74137f2876c08ce7153b3a5cfd5001ca.png
 
-### [Exosat](https://www.ycombinator.com/companies/exosat)
+### [Tensr](https://www.ycombinator.com/companies/tensr)
 
-- `one_liner`: Building a sovereign alternative to Starlink → Building a neutral and sovereign alternative to Starlink
+- `all_locations`: San Francisco, CA, USA → Emeryville, CA, USA
+- `team_size`: 3 → 7
+
+### [Thesis](https://www.ycombinator.com/companies/thesis)
+
+- `one_liner`: Humanoid robots → Intelligent humanoid robots
+
+### [Pixley AI](https://www.ycombinator.com/companies/pixley-ai)
+
+- `all_locations`: Los Angeles, CA, USA → San Francisco, CA, USA
+
+### [Ashr](https://www.ycombinator.com/companies/ashr)
+
+- `one_liner`: Automated Multi-Modal Testing for Agents → Enterprise post-training, monitoring, and continual learning platform
+- `subindustry`: B2B -> Engineering, Product and Design → B2B
+- `tags`:  → Artificial Intelligence,Deep Learning,Generative AI,Reinforcement Learning,Data Engineering
+- `industries`: B2B,Engineering, Product and Design → B2B
+
+### [Grocalo](https://www.ycombinator.com/companies/grocalo)
+
+- `one_liner`: AI brain that runs content for creators → AI software for creators that runs social content
+- `team_size`: 0 → 2
+- `tags`: Artificial Intelligence,Entertainment,Creator Economy → Entertainment,Creator Economy,AI
+
+### [Risklytics](https://www.ycombinator.com/companies/risklytics)
+
+- `one_liner`: Insurance for Frontier Tech → AI-Native Insurance for Frontier Tech
+- `tags`: Hardware,Machine Learning,B2B,Insurance,AI → Artificial Intelligence,Hardware,Machine Learning,B2B,Insurance
 
 ### [Moving Atoms](https://www.ycombinator.com/companies/moving-atoms)
 
-- `tags`: Hard Tech,Robotics,Virtual Reality,AI → Artificial Intelligence,Hard Tech,Robotics,Virtual Reality
+- `one_liner`: World models that train and test robots in sim, #1 on Physics-IQ → World Models that Train Robots, #1 on Physics-IQ
 
-### [Markov](https://www.ycombinator.com/companies/markov)
+### [HyperProbe](https://www.ycombinator.com/companies/hyperprobe)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/046776ac55f648d0cff146a0a5a1b1b37ad1d681.png → https://bookface-images.s3.amazonaws.com/small_logos/41a4a41e5482735389d2089a01ff2b862f56e307.png
-
-### [Orca Aerospace](https://www.ycombinator.com/companies/orca-aerospace)
-
-- `one_liner`: AI spacecraft operator that lives onboard the vehicle. → AI spacecraft operators that lives onboard the vehicle
-- `isHiring`: false → true
+- `one_liner`: The runtime data layer for agents to monitor and debug apps → AI engineer that fixes production issues on its own
 
 ### [Vorelios](https://www.ycombinator.com/companies/vorelios)
 
-- `tags`: Hard Tech,B2B,AI → Artificial Intelligence,Hard Tech,B2B
+- `tags`: Artificial Intelligence,Hard Tech,B2B → Hard Tech,B2B,AI

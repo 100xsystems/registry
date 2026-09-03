@@ -8,7 +8,7 @@
     "ide",
     "programming-languages"
   ],
-  "updatedAt": "2026-08-29T01:21:44.550Z",
+  "updatedAt": "2026-09-03T03:11:22.656Z",
   "items": [
     {
       "guid": "https://blog.jetbrains.com/?post_type=rscpp&p=725420",
@@ -425,7 +425,47 @@
       "summary": "Java concurrency is a powerful feature, but it can be difficult to get right. Writing correct multithreaded code requires a deep understanding of thread pools, synchronization, cancellation, and error propagation. Even experienced developers regularly introduce subtle bugs like thread leaks,…",
       "author": "Marit van Dijk",
       "publishedAt": "2026-08-28T05:03:34.000Z"
+    },
+    {
+      "guid": "https://blog.jetbrains.com/?post_type=idea&p=736048",
+      "title": "IntelliJ IDEA 2026.2.2 Is Out!",
+      "link": "https://blog.jetbrains.com/idea/2026/09/intellij-idea-2026-2-2/",
+      "summary": "IntelliJ IDEA 2026.2.2 is now available. You can update to this version from inside the IDE, using the Toolbox App, or by using snaps if you are a Ubuntu user. You can also download it from our website. IntelliJ IDEA 2026.2.2 brings the following refinements: To see the full list of issues…",
+      "author": "Maria Kosukhina",
+      "publishedAt": "2026-09-02T19:22:08.000Z"
+    },
+    {
+      "guid": "https://blog.jetbrains.com/?post_type=teamcity&p=734982",
+      "title": "TeamCity 2026.2: Pipelines General Availability, BYOK for AI Assistant, and More",
+      "link": "https://blog.jetbrains.com/teamcity/2026/09/teamcity-20262/",
+      "summary": "This major update for TeamCity On-Premises introduces a number of pipeline improvements that are now moving out of EAP and joining build configurations as official, stable options for designing CI/CD workflows. We are also shipping a number of AI-related features, including an MCP toolset extension…",
+      "author": "Dmitrii Korovin",
+      "publishedAt": "2026-09-02T14:38:38.000Z"
+    },
+    {
+      "guid": "https://blog.jetbrains.com/?post_type=mps&p=736213",
+      "title": "The MPS 2026.2 Early Access Program Has Started",
+      "link": "https://blog.jetbrains.com/mps/2026/09/the-mps-2026-2-eap-has-started-2-2/",
+      "summary": "MPS 2026.2 EAP1 offers several improvements to test reporting, enhances grouping of found items, and brings a smoother editing experience and a more maintainable foundation for launching MPS and MPS-based products. This release makes multi-node selection more predictable and aligns the MPS startup…",
+      "author": "Vaclav Pech",
+      "publishedAt": "2026-09-02T14:38:03.000Z"
+    },
+    {
+      "guid": "https://blog.jetbrains.com/?post_type=clion&p=735924",
+      "title": "Stop Guessing at Hard Faults",
+      "link": "https://blog.jetbrains.com/clion/2026/09/hard-fault-debugging/",
+      "summary": "CLion’s new AI skill lets agents find the root cause without manual digging. Embedded debugging takes a lot of manual work. You’re flashing real hardware, juggling debug probes or DAP adapters, and when something goes wrong at a lower level (a hard fault), the processor doesn’t tell you why, only…",
+      "author": "Oleg Zinovyev",
+      "publishedAt": "2026-09-02T13:32:30.000Z"
+    },
+    {
+      "guid": "https://blog.jetbrains.com/?post_type=go&p=735772",
+      "title": "How to Handle Errors in Go",
+      "link": "https://blog.jetbrains.com/go/2026/09/02/how-to-handle-errors-in-go/",
+      "summary": "This article was initially published by a community contributor, Christoph Berger, in the JetBrains’ Go Guide and has since been moved to the JetBrains Go blog. We have also updated it in August 2026 to reflect the most recent changes to the Go language. Error handling is one of the aspects in…",
+      "author": "Dominika Stankiewicz",
+      "publishedAt": "2026-09-02T08:48:31.000Z"
     }
   ],
-  "totalIndexed": 52
+  "totalIndexed": 57
 }
