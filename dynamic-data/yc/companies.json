@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-03T03:11:25.958Z",
+  "fetchedAt": "2026-09-03T10:58:14.847Z",
   "count": 6200,
   "companies": [
     {
@@ -4011,7 +4011,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c65a4389d81076a7a08b8c3d3c22a2bf1c54e49b.png",
       "website": "https://thefamiliarlab.com",
       "all_locations": "Toronto, ON, Canada",
-      "long_description": "Audio-visual translation infrastructure for all video, live and recorded -- the first and only that works in real time. World translation: not just changing voice and lips into a new language, but understanding the scene, the sound, and preserving the human.\r\n\r\n🦋 Movies & TV, Micro-dramas, Live Broadcasts, Live Shopping, Corporate & Education, Ads, Creators & Podcasts, Platforms. Day-and-date, in every territory.\r\n\r\nFounders An Zhu Liu, Jibin Song, Mingi Kwon, and Xu Zheng lead a team of PhDs, professors, and researchers from the world's top universities who started the field of joint audio-visual human models and co-authored the current state of the art in real-time human animation. Since 2021: over 10,000 citations and 100+ papers at ICLR, NeurIPS, CVPR, ECCV, and more.\r\n\r\nTranslation has to be a world model. A translator has to know who's speaking: where every sound in the dense polyphony originates (laughter, layered crowds). Laughter here, a short yell there, a voice from off-screen, someone on screen mouthing words before being interrupted. Everyone else scaffolds separate models and pre-processing; a world model simulates the scene. It's a spatio-temporal reasoner: predicting continuity across frames forces it to internalize 3D geometry, spatial reasoning, and permanence -- of objects, people, and the environment itself. The scene state survives the edit: when the shot pans or cuts away, someone off-screen still exists, still owns their voice, and is still there when the camera comes back. Multiple people, side views, off angles, dense polyphony, fast motion -- the hard cases hold.\r\n\r\nVs ElevenLabs: they lose the laughter, the music, the ambiance -- 270% more background-sound error -- and ours sounds 27.8% more like you. That means no recasting, no ADR, no M&E stems required -- it works from the final mix.\r\n\r\nVs human translators: 100.3% of their quality -- scalable, real time. Published benchmarks: https://thefamiliarlab.com/benchmark",
+      "long_description": "Audio-visual translation infrastructure for all video, live and recorded -- the first and only that works in real time. World translation: not just changing voice and lips into a new language, but understanding the scene, the sound, and preserving the human.\r\n\r\n🦋 Movies & TV, Micro-dramas, Live Broadcasts, Live Shopping, Corporate & Education, Ads, Creators & Podcasts, Platforms. Day-and-date, in every territory.\r\n\r\nFounders An Zhu Liu, Jibin Song, Mingi Kwon, and Xu Zheng lead a team of PhDs, professors, and researchers from the world's top universities who started the field of joint audio-visual human models and co-authored the current state of the art in real-time human animation. Since 2021: over 10,000 citations and 100+ papers at ICLR, NeurIPS, CVPR, ECCV, and more.\r\n\r\nTranslation needs 3D world understanding, permanence of identities. A translator has to know who's speaking: where every sound in the dense polyphony originates (laughter, layered crowds). Laughter here, a short yell there, a voice from off-screen, someone on screen mouthing words before being interrupted. Everyone else scaffolds separate models and pre-processing; a unified model simulates the scene. It's a spatio-temporal reasoner: predicting continuity across frames forces it to internalize 3D geometry, spatial reasoning, and permanence -- of objects, people, and the environment itself. The scene state survives the edit: when the shot pans or cuts away, someone off-screen still exists, still owns their voice, and is still there when the camera comes back. Multiple people, side views, off angles, dense polyphony, fast motion -- the hard cases hold.\r\n\r\nVs ElevenLabs: they lose the laughter, the music, the ambiance -- 270% more background-sound error -- and ours sounds 27.8% more like you. That means no recasting, no ADR, no M&E stems required -- it works from the final mix.\r\n\r\nVs human translators: 100.3% of their quality -- scalable, real time. Published benchmarks: https://thefamiliarlab.com/benchmark",
       "one_liner": "Real-Time AI Dubbing. Neolab for World Translation.",
       "team_size": 8,
       "highlight_black": false,
@@ -4021,10 +4021,10 @@
       "subindustry": "B2B -> Infrastructure",
       "launched_at": 1786578571,
       "tags": [
-        "Artificial Intelligence",
         "Generative AI",
         "B2B",
-        "Entertainment"
+        "Entertainment",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -4681,8 +4681,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/ee4bd602221f77fc05dda940b7202523dd2b9d10.png",
       "website": "https://movingatoms.ai/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Our first model, Atom 1, pre-trained on the internets video, and fine tuned for physics, already tops the Physics IQ benchmark.\r\nIt has been action conditioned, so you can simulate robot actions within it.\r\nThis lets Robot Labs train their robots using GPUs instead of relying on human collected manual data that is slow and expensive.\r\nIn unseen and hard to replicate environments, this is the only path to getting any training data.",
-      "one_liner": "World Models that Train Robots, #1 on Physics-IQ",
+      "long_description": "Our first model, Atom 1, pre-trained on the internets video, and fine tuned for physics, already tops the Physics IQ benchmark.\r\nIt has been action conditioned, so you can simulate robot actions within it.\r\nThis lets Robot Labs train their robots using GPUs instead of relying on human collected manual data that is slow and expensive.\r\nIn unseen and hard to replicate environments, this is the only path to getting ANY training data.",
+      "one_liner": "Solving the Data Problem in Robotics, #1 on Physics-IQ",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -4691,10 +4691,11 @@
       "subindustry": "Industrials -> Manufacturing and Robotics",
       "launched_at": 1786481200,
       "tags": [
-        "Artificial Intelligence",
         "Hard Tech",
         "Robotics",
-        "Virtual Reality"
+        "Virtual Reality",
+        "Data Labeling",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -14568,7 +14569,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": true,
+      "isHiring": false,
       "nonprofit": false,
       "batch": "Spring 2026",
       "status": "Active",
@@ -15706,7 +15707,7 @@
       "tags": [],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": false,
+      "isHiring": true,
       "nonprofit": false,
       "batch": "Spring 2026",
       "status": "Active",
@@ -24862,7 +24863,7 @@
       "tags": [],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": false,
+      "isHiring": true,
       "nonprofit": false,
       "batch": "Winter 2026",
       "status": "Active",
@@ -29686,7 +29687,7 @@
       "website": "https://thesislabs.ai",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Thesis is building Darwin, a humanoid robot for the home. AI is about to leave the screen and enter the physical world. Darwin will learn from real-world experience and continuously improve. First deployments begin in early 2027.",
-      "one_liner": "Intelligent humanoid robots",
+      "one_liner": "Humanoid robots",
       "team_size": 3,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -29695,10 +29696,10 @@
       "subindustry": "Industrials -> Manufacturing and Robotics",
       "launched_at": 1762476616,
       "tags": [
-        "Artificial Intelligence",
         "Hard Tech",
         "Machine Learning",
-        "Robotics"
+        "Robotics",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -35883,7 +35884,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/bd88161755dbb4d7513a2dc91e69b26930313524.png",
       "website": "https://os3robotics.com/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "We are deploying the robots we built, including custom actuators. Our first model is trained for the robot with 150k hours of video data. \r\n\r\nThe robot, a mobile semi-humanoid available as Robot as a service, is already signed for deployments in hospitality and biotech. Our developer version lets anyone deploy robots in their own verticals as well, and we are working with startups deploying in hospitals and data centers.\r\n\r\nWe are scaling American robotics while making it accessible to more businesses.",
+      "long_description": "OS3 deploys US-built mobile semi-humanoid robots for repetitive physical work.\r\n\r\nWe designed the robot, custom actuators, model and control stack as one system, then pretrained the model exclusively on 150,000 hours of video data spanning more than 2,000 tasks. Hospitality is our first deployment vertical. Through our Startup Partner program, teams are deploying OS3 robots in biotech, hospitals and data centers.\r\n\r\nOur two-person team built the robot and trained its first model in four months. We are making American robotics accessible to more businesses.",
       "one_liner": "Deploying US-Built Robots & Training Video Action Models",
       "team_size": 2,
       "highlight_black": false,
@@ -162174,7 +162175,7 @@
         "United States of America",
         "America / Canada"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -198595,7 +198596,7 @@
       "all_locations": "Seoul, Seoul, South Korea",
       "long_description": "Superb AI is a leading computer vision platform and professional services provider that provides enterprise-grade, end-to-end MLOps and DataOps workflows to accelerate the adoption and development of data-centric AI. Through the practical application of AI-based automation, Superb AI helps teams manage the entire ML lifecycle more efficiently, from data annotation to curation, model training, and deployment, while ensuring optimal data accuracy and consistency.",
       "one_liner": "Superb AI provides end-to-end computer vision MLOps platform",
-      "team_size": 65,
+      "team_size": 80,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -198604,9 +198605,9 @@
       "launched_at": 1541714572,
       "tags": [
         "AIOps",
-        "Artificial Intelligence",
         "SaaS",
         "B2B",
+        "AI",
         "ML"
       ],
       "tags_highlighted": [],
@@ -231031,7 +231032,7 @@
         "Remote",
         "Partly Remote"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -257431,7 +257432,7 @@
         "Remote",
         "Partly Remote"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
