@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-09-03T03:11:12.280Z",
+  "updatedAt": "2026-09-03T15:51:32.176Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -1345,7 +1345,15 @@
       "summary": "log_replication_commands is log_statement = all for walsenders, with the one difference that you should turn it on.\nA replication connection (replication=1 for physical, replication=database for logical) speaks a small language of its own: IDENTIFY_SYSTEM, CREATE_REPLICATION_SLOT, START_REPLICATI…",
       "author": null,
       "publishedAt": "2026-09-03T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9tO",
+      "title": "Dimitri Fontaine: Getting Ready for PostgreSQL 19",
+      "link": "https://postgr.es/p/9tO",
+      "summary": "PostgreSQL 19 Beta 3 shipped on August 13, 2026, and the release\nnotes have been filled\nin as of 2026-07-18 — still marked subject to change, and the GA date isn’t\nannounced yet, but following the project’s usual September/October cadence\ngeneral availability should land within the next few weeks.…",
+      "author": null,
+      "publishedAt": "2026-09-03T13:09:30.000Z"
     }
   ],
-  "totalIndexed": 167
+  "totalIndexed": 168
 }

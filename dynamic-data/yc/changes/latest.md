@@ -4,50 +4,31 @@
 - Current total: 6200
 - Added: 0
 - Removed: 0
-- Updated: 10
+- Updated: 5
 
 
 ## Updated Companies
 
-### [BuildZoom](https://www.ycombinator.com/companies/buildzoom)
+### [CareMessage](https://www.ycombinator.com/companies/caremessage)
 
-- `stage`: Early → Growth
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/257d91e86a36909e80fbbf60641fea27a4a61e02.png → https://bookface-images.s3.amazonaws.com/small_logos/6873bfb173c962e32b30d736838c71902e93e054.png
+- `all_locations`: Austin, TX, USA; San Francisco, CA, USA; Remote → Austin, TX, USA; Remote
+- `tags`: Health Tech,Digital Health → Artificial Intelligence,Nonprofit,Health Tech,Digital Health,Healthcare IT
 
-### [OneChronos](https://www.ycombinator.com/companies/onechronos)
+### [Ascen](https://www.ycombinator.com/companies/ascen)
 
-- `stage`: Early → Growth
+- `team_size`: 17 → 30
+- `tags`: SaaS,B2B,Compliance,HR Tech → B2B,Recruiting,Compliance,HR Tech
+- `stage`: Growth → Early
 
-### [Superb AI](https://www.ycombinator.com/companies/superb-ai)
+### [Cardboard](https://www.ycombinator.com/companies/cardboard)
 
-- `team_size`: 65 → 80
-- `tags`: AIOps,Artificial Intelligence,SaaS,B2B,ML → AIOps,SaaS,B2B,AI,ML
+- `team_size`: 5 → 8
 
-### [Camber](https://www.ycombinator.com/companies/camber-2)
+### [Sila](https://www.ycombinator.com/companies/sila)
 
-- `stage`: Early → Growth
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/cfd59b6ed20dc37d4d8cc17df4227ef9bed3a504.png → https://bookface-images.s3.amazonaws.com/small_logos/30eef975f26ed420159ac335c08eb8b950705ee2.png
 
-### [Thesis](https://www.ycombinator.com/companies/thesis)
+### [Armature](https://www.ycombinator.com/companies/armature)
 
-- `one_liner`: Intelligent humanoid robots → Humanoid robots
-- `tags`: Artificial Intelligence,Hard Tech,Machine Learning,Robotics → Hard Tech,Machine Learning,Robotics,AI
-
-### [LegalOS](https://www.ycombinator.com/companies/legalos)
-
-- `isHiring`: false → true
-
-### [Interfaze](https://www.ycombinator.com/companies/interfaze)
-
-- `isHiring`: false → true
-
-### [Lab0](https://www.ycombinator.com/companies/lab0)
-
-- `isHiring`: true → false
-
-### [Moving Atoms](https://www.ycombinator.com/companies/moving-atoms)
-
-- `one_liner`: World Models that Train Robots, #1 on Physics-IQ → Solving the Data Problem in Robotics, #1 on Physics-IQ
-- `tags`: Artificial Intelligence,Hard Tech,Robotics,Virtual Reality → Hard Tech,Robotics,Virtual Reality,Data Labeling,AI
-
-### [Familiar](https://www.ycombinator.com/companies/familiar)
-
-- `tags`: Artificial Intelligence,Generative AI,B2B,Entertainment → Generative AI,B2B,Entertainment,AI
+- `one_liner`: We get your product picked by coding agents, then help improve the… → We get your product picked by coding agents.
