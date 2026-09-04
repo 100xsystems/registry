@@ -1,56 +1,54 @@
 # YC Company Changes for 2026-09-04
 
-- Previous total: 6199
+- Previous total: 6200
 - Current total: 6200
-- Added: 1
+- Added: 0
 - Removed: 0
-- Updated: 8
+- Updated: 10
 
-
-## Added Companies
-
-- [OnePatch](https://www.ycombinator.com/companies/onepatch) (Fall 2026) — Automate on-call at agent-scale.
 
 ## Updated Companies
 
-### [Magnitude](https://www.ycombinator.com/companies/magnitude)
+### [Dear Brightly](https://www.ycombinator.com/companies/dear-brightly)
 
-- `one_liner`: Code with local models, zero setup → Open source inference server for local models
+- `status`: Active → Acquired
 
-### [Kestroll](https://www.ycombinator.com/companies/kestroll)
+### [Ascen](https://www.ycombinator.com/companies/ascen)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/791faaacaac3270c6ecc1890048190ca2903c6f0.png → https://bookface-images.s3.amazonaws.com/small_logos/7a2c085f8445d928a1f0f379cb3bc64ffb604707.png
-- `website`:  → https://www.kestroll.com/
-- `one_liner`:  → AI video editor
-- `industry`: B2B → Consumer
-- `subindustry`: B2B -> Operations → Consumer -> Content
-- `tags`: Artificial Intelligence → AI
-- `industries`: B2B,Operations → Consumer,Content
+- `stage`: Early → Growth
 
-### [Pangolin](https://www.ycombinator.com/companies/pangolin)
+### [Embrace](https://www.ycombinator.com/companies/embrace)
 
-- `one_liner`: Identity-aware VPN and proxy for remote access to anything, anywhere. → Open networking and security for your workforce, AI agents, and infra
-- `tags`: Open Source,Enterprise Software,Networks → Security,Open Source,Enterprise Software,Networks
+- `status`: Active → Acquired
 
-### [Structured AI](https://www.ycombinator.com/companies/structured-ai)
+### [Rally Tax](https://www.ycombinator.com/companies/rally-tax)
 
-- `team_size`: 10 → 11
-- `tags`: Computer Vision,Construction,Architecture,AI → Artificial Intelligence,Computer Vision,Construction,Architecture
+- `status`: Active → Acquired
 
-### [Sila](https://www.ycombinator.com/companies/sila)
+### [Hazel](https://www.ycombinator.com/companies/hazel-2)
 
-- `one_liner`: AI Agent Messaging Platform → AI Agents Messaging Platform
+- `team_size`: 6 → 7
+- `tags`: Artificial Intelligence,GovTech,Procurement → GovTech,Procurement,AI
+
+### [Manufact](https://www.ycombinator.com/companies/manufact)
+
+- `one_liner`: Cloud infrastructure for MCP servers and Claude / ChatGPT apps. → Cloud infrastructure for MCP servers and Claude / ChatGPT plugins.
+- `team_size`: 6 → 5
+
+### [OS3](https://www.ycombinator.com/companies/os3)
+
+- `one_liner`: Deploying US-Built Robots & Training Video Action Models → Deploying US-Built Humanoid Robots & Training Video Action Models
+- `tags`: Artificial Intelligence,Hardware,Robotics,B2B → Hardware,Robotics,B2B,AI
 
 ### [Osmaura](https://www.ycombinator.com/companies/osmaura)
 
-- `one_liner`: AI growth engine for corporate law firms. → AI-native managed legal services for businesses
-- `tags`: Sales Enablement,LegalTech,AI → Artificial Intelligence,B2B,Sales Enablement,LegalTech,Customer Service
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/f8f5bfc033ae31d6282044fe4ce792725cc090a1.png → https://bookface-images.s3.amazonaws.com/small_logos/9ac7ce1b60bd6ac7d06599970f59c5e8bd6aa53a.png
+- `tags`: Artificial Intelligence,B2B,Sales Enablement,LegalTech,Customer Service → B2B,Sales Enablement,LegalTech,Customer Service,AI
 
-### [Osseus](https://www.ycombinator.com/companies/osseus)
+### [Aktoria Robotics](https://www.ycombinator.com/companies/aktoria-robotics)
 
-- `one_liner`: The intelligent development platform for robotics → 
-- `tags`: Artificial Intelligence,Robotics,B2B,Enterprise Software,Infrastructure → Robotics,B2B,Biotech,Healthcare,AI
+- `isHiring`: true → false
 
-### [Workers IO](https://www.ycombinator.com/companies/workers-io)
+### [OnePatch](https://www.ycombinator.com/companies/onepatch)
 
-- `tags`: Developer Tools,B2B,AI → Artificial Intelligence,Developer Tools,B2B,Infrastructure
+- `launched_at`: 1785972273 → 1788469833

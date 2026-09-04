@@ -9,7 +9,7 @@
     "performance",
     "distributed-systems"
   ],
-  "updatedAt": "2026-08-24T18:28:47.698Z",
+  "updatedAt": "2026-09-04T10:59:20.271Z",
   "items": [
     {
       "guid": "https://engineering.fb.com/?p=24251",
@@ -23754,7 +23754,15 @@
       "summary": "MTIA 300 is the first of Meta’s family of in-house training and inference accelerators optimized for training ranking and recommendation models. We’re sharing how MTIA 300’s built-in NIC chiplets allow it to meet the communication needs associated with training recommendation models with superior…",
       "author": null,
       "publishedAt": "2026-08-24T17:45:52.000Z"
+    },
+    {
+      "guid": "https://engineering.fb.com/?p=24463",
+      "title": "ZGateway: Learnings from Putting a Proxy in Front of ZippyDB",
+      "link": "https://engineering.fb.com/2026/09/03/core-infra/zgateway-proxy-zippydb-meta/",
+      "summary": "We’re introducing ZGateway, the proxy we are using to unify traffic through ZippyDB, Meta’s most widely-used key value store. As a bonus, it also enables admission control, load balancing, cross-region resilience, and richer operations. ZippyDB is the most widely used key value store at Meta,…",
+      "author": null,
+      "publishedAt": "2026-09-03T16:00:20.000Z"
     }
   ],
-  "totalIndexed": 2968
+  "totalIndexed": 2969
 }

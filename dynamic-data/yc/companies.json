@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-04T03:10:16.561Z",
+  "fetchedAt": "2026-09-04T10:59:23.254Z",
   "count": 6200,
   "companies": [
     {
@@ -534,7 +534,7 @@
       "highlight_women": false,
       "industry": "B2B",
       "subindustry": "B2B -> Engineering, Product and Design",
-      "launched_at": 1785972273,
+      "launched_at": 1788469833,
       "tags": [
         "DevOps",
         "Automation",
@@ -5402,7 +5402,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": true,
+      "isHiring": false,
       "nonprofit": false,
       "batch": "Summer 2026",
       "status": "Active",
@@ -17102,10 +17102,10 @@
         "vizlog",
         "Halcyon"
       ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/f8f5bfc033ae31d6282044fe4ce792725cc090a1.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/9ac7ce1b60bd6ac7d06599970f59c5e8bd6aa53a.png",
       "website": "https://osmaura.com",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "We are the front door to quality legal services for businesses. We identify when a company may need legal help, connect it with the right specialized firm, and manage the client experience from intake through future matters.\r\n\r\nWe grew 0 -> 17.5k MRR in 5 weeks after launching.\r\n\r\nLawyers are trained to practice law - not to prospect, sell, and manage pipelines. We're here to help them grow while they focus on what they do best.",
+      "long_description": "We are the front door to quality, transparent legal services for businesses. We identify when a company may need legal help, connect it with the right specialized firm, and manage the client experience from intake through future matters.\r\n\r\nWe grew 0 -> 17.5k MRR in less than 5 weeks.\r\n\r\nFor our partner law firms, we're here to help them grow and care for their clients while they focus on what they do best. Lawyers are trained to practice law - not to prospect, sell, and manage clients.",
       "one_liner": "AI-native managed legal services for businesses",
       "team_size": 2,
       "highlight_black": false,
@@ -17115,11 +17115,11 @@
       "subindustry": "B2B",
       "launched_at": 1781994700,
       "tags": [
-        "Artificial Intelligence",
         "B2B",
         "Sales Enablement",
         "LegalTech",
-        "Customer Service"
+        "Customer Service",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -35930,8 +35930,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/bd88161755dbb4d7513a2dc91e69b26930313524.png",
       "website": "https://os3robotics.com/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "OS3 deploys US-built mobile semi-humanoid robots for repetitive physical work.\r\n\r\nWe designed the robot, custom actuators, model and control stack as one system, then pretrained the model exclusively on 150,000 hours of video data spanning more than 2,000 tasks. Hospitality is our first deployment vertical. Through our Startup Partner program, teams are deploying OS3 robots in biotech, hospitals and data centers.\r\n\r\nOur two-person team built the robot and trained its first model in four months. We are making American robotics accessible to more businesses.",
-      "one_liner": "Deploying US-Built Robots & Training Video Action Models",
+      "long_description": "OS3 deploys US-built mobile semi humanoid robots for repetitive physical work.\r\n\r\nWe designed the robot, custom actuators, model and control stack as one system, then pretrained the model exclusively on 150,000 hours of video data spanning more than 2,000 tasks. Hospitality is our first deployment vertical. Through our Startup Partner program, teams are deploying OS3 robots in biotech, hospitals and data centers.\r\n\r\nOur two-person team built the robot and trained its first model in four months. We are making American robotics accessible to more businesses.",
+      "one_liner": "Deploying US-Built Humanoid Robots & Training Video Action Models",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -35940,10 +35940,10 @@
       "subindustry": "Industrials -> Manufacturing and Robotics",
       "launched_at": 1753297896,
       "tags": [
-        "Artificial Intelligence",
         "Hardware",
         "Robotics",
-        "B2B"
+        "B2B",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -36628,9 +36628,9 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/3838f80b214ed1fcda53a2778860e8be11cfdb0d.png",
       "website": "https://manufact.com",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Manufact is the MCP cloud platform to get your product ready for Claude Connectors marketplace, ChatGPT / Codex plugins store and any AI agent that supports MCP.\r\nWe're the team behind mcp-use SDK, the open-source framework for building MCP Apps with 10k github stars and 8M+ downloads across python and typescript.\r\n\r\nIt's the fastest and most complete solution for production-ready MCP servers.",
-      "one_liner": "Cloud infrastructure for MCP servers and Claude / ChatGPT apps.",
-      "team_size": 6,
+      "long_description": "Manufact is the MCP cloud platform to get your product ready for Claude Connectors marketplace, ChatGPT / Codex plugins store and any AI agent that supports MCP.\r\nWe're the team behind mcp-use SDK, the open-source framework for building MCP Apps with 10k github stars and 10M+ downloads across python and typescript.\r\n\r\nIt's the fastest and most complete solution for production-ready MCP servers.",
+      "one_liner": "Cloud infrastructure for MCP servers and Claude / ChatGPT plugins.",
+      "team_size": 5,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -75042,9 +75042,9 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/27eb77e66d041fd97b3afe3275e43bfa07c30bf6.png",
       "website": "https://hazelai.com",
       "all_locations": "New York City, NY, USA",
-      "long_description": "Hazel builds AI-powered procurement software for U.S. state, local, and federal government agencies. We automate the full procurement process including requirements generation, market research, solicitation drafting, and proposal evaluation. Agencies use Hazel to save time and money while improving mission delivery.",
+      "long_description": "Hazel builds AI-powered procurement software for U.S. state, local, and federal government agencies. We automate the full procurement process including requirements generation, market research, solicitation drafting, and proposal evaluation. Agencies use Hazel to save time and money while improving compliance.",
       "one_liner": "AI-enabled procurement for government",
-      "team_size": 6,
+      "team_size": 7,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -75052,9 +75052,9 @@
       "subindustry": "Government",
       "launched_at": 1705430466,
       "tags": [
-        "Artificial Intelligence",
         "GovTech",
-        "Procurement"
+        "Procurement",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -96139,7 +96139,7 @@
       "isHiring": false,
       "nonprofit": false,
       "batch": "Winter 2023",
-      "status": "Active",
+      "status": "Acquired",
       "industries": [
         "Fintech"
       ],
@@ -192270,7 +192270,7 @@
       "isHiring": false,
       "nonprofit": false,
       "batch": "Summer 2019",
-      "status": "Active",
+      "status": "Acquired",
       "industries": [
         "B2B",
         "Engineering, Product and Design"
@@ -202370,7 +202370,7 @@
         "Remote",
         "Fully Remote"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -214519,7 +214519,7 @@
       "isHiring": false,
       "nonprofit": false,
       "batch": "Winter 2018",
-      "status": "Active",
+      "status": "Acquired",
       "industries": [
         "Healthcare",
         "Consumer Health and Wellness"

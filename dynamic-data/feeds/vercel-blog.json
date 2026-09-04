@@ -9,7 +9,7 @@
     "edge-computing",
     "nextjs"
   ],
-  "updatedAt": "2026-08-28T01:58:14.905Z",
+  "updatedAt": "2026-09-04T10:59:20.771Z",
   "items": [
     {
       "guid": "vercel-blog::https://vercel.com/changelog/ai-gateway-now-supports-streaming-transcription",
@@ -4506,7 +4506,15 @@
       "summary": "The idea of orchestrating long-running, stateful logic on top of unreliable, stateless infrastructure isn't new. We've had message queues, job runners, microservice choreographies, and full-blown workflow engines for a long time. What we never had was a version of it that felt good to write.\nI'd…",
       "author": "Pranay Prakash",
       "publishedAt": "2026-08-27T07:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/run-cursor-cloud-agents-vercel-sandbox",
+      "title": "Cursor Cloud Agents can now run in Vercel Sandbox",
+      "link": "https://vercel.com/changelog/run-cursor-cloud-agents-vercel-sandbox",
+      "summary": "can now run in  instead of Cursor's hosted machines. Cursor Cloud AgentsVercel Sandbox\nCursor manages the agent harness and inference loop. Its  APIs let you supply the execution environment where agents clone repositories, edit files, and run commands and tests. Self-Hosted Machines requires a…",
+      "author": "Allen Zhou",
+      "publishedAt": "2026-09-03T15:00:00.000Z"
     }
   ],
-  "totalIndexed": 562
+  "totalIndexed": 563
 }

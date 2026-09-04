@@ -8,7 +8,7 @@
     "performance",
     "runtime"
   ],
-  "updatedAt": "2026-08-20T18:27:24.902Z",
+  "updatedAt": "2026-09-04T10:59:10.490Z",
   "items": [
     {
       "guid": "https://bun.com/blog/bun-in-rust",
@@ -417,7 +417,15 @@
       "summary": "Bun 1.4 rewrites Bun in Rust, ships built-in headless browser automation (Bun.WebView), Bun.Image, Bun.markdown, JSON5, JSONL, Terminal and cron APIs, Node.js 26.3.0 compatibility with 1,517 newly passing tests, parallel test and run, Windows ARM64, and an opt-in global virtual store for up to 7×…",
       "author": null,
       "publishedAt": "2026-08-20T00:53:44.000Z"
+    },
+    {
+      "guid": "https://bun.com/blog/bun-v1.4.1",
+      "title": "Bun v1.4.1",
+      "link": "https://bun.com/blog/bun-v1.4.1",
+      "summary": "Fixes 202 issues, addressing 236 👍. HTTP/2 in Bun.serve, Bun.write() streams Response bodies to disk, self-contained workspace node_modules, bun install --offline and --prefer-offline, WebSocket pause() and resume(), crypto.argon2, tree-shaking through dynamic import(), smarter CommonJS to ESM…",
+      "author": null,
+      "publishedAt": "2026-09-04T06:47:12.000Z"
     }
   ],
-  "totalIndexed": 51
+  "totalIndexed": 52
 }
