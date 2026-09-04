@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-09-03T15:51:37.916Z",
+  "updatedAt": "2026-09-04T15:49:41.262Z",
   "items": [
     {
       "guid": "https://laravel-news.com/pest-5",
@@ -367,7 +367,15 @@
       "summary": "Laravel 13.30 writes the queue worker's stop reason to queue:work output, in plain text and as a structured JSON record for log pipelines.\nThe post Laravel queue:work Now Prints Why the Worker Stopped appeared first on Laravel News.\nJoin the Laravel Newsletter to get Laravel articles like this…",
       "author": "Paul Redmond",
       "publishedAt": "2026-09-03T02:56:05.000Z"
+    },
+    {
+      "guid": "https://laravel-news.com/artisan-dev-exclude-vendor-commands",
+      "title": "Exclude Vendor and Default Commands in `php artisan dev`",
+      "link": "https://laravel-news.com/artisan-dev-exclude-vendor-commands?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+      "summary": "Laravel 13.30 adds DevCommands::withoutVendorCommands() and withoutDefaultCommands(), so php artisan dev runs only the processes your application registers.\nThe post Exclude Vendor and Default Commands in `php artisan dev` appeared first on Laravel News.\nJoin the Laravel Newsletter to get Laravel…",
+      "author": "Paul Redmond",
+      "publishedAt": "2026-09-04T14:53:14.000Z"
     }
   ],
-  "totalIndexed": 45
+  "totalIndexed": 46
 }
