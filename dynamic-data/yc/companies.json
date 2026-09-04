@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-09-03T20:21:10.787Z",
-  "count": 6199,
+  "fetchedAt": "2026-09-04T03:10:16.561Z",
+  "count": 6200,
   "companies": [
     {
       "id": 38061,
@@ -408,9 +408,10 @@
       "subindustry": "B2B -> Engineering, Product and Design",
       "launched_at": 1787942068,
       "tags": [
+        "Artificial Intelligence",
         "Developer Tools",
         "B2B",
-        "AI"
+        "Infrastructure"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -516,6 +517,49 @@
       "app_answers": null,
       "question_answers": false,
       "url": "https://www.ycombinator.com/companies/asakana"
+    },
+    {
+      "id": 35260,
+      "name": "OnePatch",
+      "slug": "onepatch",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/7832df887d718a7dbfbcec376ef2b160c31b16da.png",
+      "website": "https://onepatch.dev",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "OnePatch is a forward-deployed AI SRE. It instruments your services, watches how they actually behave in prod, catches incidents, and drives each one to resolution. Think Datadog, except it doesn't stop at telling you something broke: it keeps going until the fix is shipped.",
+      "one_liner": "Automate on-call at agent-scale.",
+      "team_size": 2,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "B2B",
+      "subindustry": "B2B -> Engineering, Product and Design",
+      "launched_at": 1785972273,
+      "tags": [
+        "DevOps",
+        "Automation",
+        "AI"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Fall 2026",
+      "status": "Active",
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/onepatch"
     },
     {
       "id": 35257,
@@ -1577,7 +1621,7 @@
       "website": "https://osseus.ai/",
       "all_locations": "",
       "long_description": "",
-      "one_liner": "The intelligent development platform for robotics",
+      "one_liner": "",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -1586,11 +1630,11 @@
       "subindustry": "B2B -> Engineering, Product and Design",
       "launched_at": 1783740069,
       "tags": [
-        "Artificial Intelligence",
         "Robotics",
         "B2B",
-        "Enterprise Software",
-        "Infrastructure"
+        "Biotech",
+        "Healthcare",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -17061,8 +17105,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/f8f5bfc033ae31d6282044fe4ce792725cc090a1.png",
       "website": "https://osmaura.com",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Our agents scan the web to deliver new client & cross-selling opportunities for law firm partners. We grew 0 -> 15k MRR in 4 weeks after launching mid-batch.\r\n\r\nEvery day, our customers log onto our platform to see who to contact, why now, and what to say.\r\n\r\nPartners are trained to practice law - not to prospect, sell, and manage pipelines. We're here to help them grow while they focus on what they do best.",
-      "one_liner": "AI growth engine for corporate law firms.",
+      "long_description": "We are the front door to quality legal services for businesses. We identify when a company may need legal help, connect it with the right specialized firm, and manage the client experience from intake through future matters.\r\n\r\nWe grew 0 -> 17.5k MRR in 5 weeks after launching.\r\n\r\nLawyers are trained to practice law - not to prospect, sell, and manage pipelines. We're here to help them grow while they focus on what they do best.",
+      "one_liner": "AI-native managed legal services for businesses",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -17071,9 +17115,11 @@
       "subindustry": "B2B",
       "launched_at": 1781994700,
       "tags": [
+        "Artificial Intelligence",
+        "B2B",
         "Sales Enablement",
         "LegalTech",
-        "AI"
+        "Customer Service"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -19349,8 +19395,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/30eef975f26ed420159ac335c08eb8b950705ee2.png",
       "website": "https://silahq.com",
       "all_locations": "New York City, NY, USA",
-      "long_description": "Sila is where you message AI agents to get real work done. Describe your idea or work, and Sila creates the AI agents you message with your team. ",
-      "one_liner": "AI Agent Messaging Platform",
+      "long_description": "Sila is a messaging platform where you text agents to get work done. Describe your idea or task with a message and Sila creates agents that you and your team message together to build and run your company.",
+      "one_liner": "AI Agents Messaging Platform",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -32793,7 +32839,7 @@
       "all_locations": "New York City, NY, USA",
       "long_description": "Structured AI is the most advanced AI-powered QA/QC platform for drawing packages, working across both PDF drawings and native Revit models. Architects and engineers use our platform to make every drawing set leave the office with certainty. \r\n\r\nOur AI agents learn your firm's standards, apply the relevant codes, and read every page of a set, then return a clear list of what's wrong, where it sits, and how to fix it. Run compliance reviews across thousands of pages in minutes, chat with your drawings for sourced answers, build custom checks in plain English, compare versions, overlay disciplines, and close out comments - all within a single platform, with a full audit trail on every finding.\r\n\r\nFor decades, the last line of defense on a drawing set has been a red pen at the end of a deadline week. But buildings have outgrown the red pen. A modern set runs thousands of drawings, and the errors hiding between them threaten quality and safety, not just cost. What manual review misses resurfaces as RFIs, change orders, and field rework, paid for in time, margin, and reputation.\r\n\r\nStructured AI catches those errors before they leave the office, capturing the judgment of your best reviewer once and applying it everywhere.\r\n\r\nBetter drawings build a better world. #GetStructured",
       "one_liner": "The AI drawing review platform for architects and engineers.",
-      "team_size": 10,
+      "team_size": 11,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -32801,10 +32847,10 @@
       "subindustry": "Real Estate and Construction -> Construction",
       "launched_at": 1759212406,
       "tags": [
+        "Artificial Intelligence",
         "Computer Vision",
         "Construction",
-        "Architecture",
-        "AI"
+        "Architecture"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -38226,8 +38272,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/e255c0b8547eae92642ef5a790e42e33f9bed016.png",
       "website": "https://pangolin.net",
       "all_locations": "New York City, NY, USA",
-      "long_description": "Pangolin is an open-source, identity-based remote access platform built on WireGuard that enables secure, seamless connectivity to private and public resources.",
-      "one_liner": "Identity-aware VPN and proxy for remote access to anything, anywhere.",
+      "long_description": "Pangolin delivers seamless access and connectivity across your apps, infrastructure, and AI workloads while continuously enforcing enterprise-grade security. Built for agile IT teams, Pangolin eliminates the friction of bloated, legacy systems with an open platform that’s easier to deploy for your workforce.\r\n\r\nIt's open-source.",
+      "one_liner": "Open networking and security for your workforce, AI agents, and infra",
       "team_size": 3,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -38236,6 +38282,7 @@
       "subindustry": "B2B -> Infrastructure",
       "launched_at": 1752801073,
       "tags": [
+        "Security",
         "Open Source",
         "Enterprise Software",
         "Networks"
@@ -38270,20 +38317,20 @@
       "former_names": [
         "GameHawk"
       ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/791faaacaac3270c6ecc1890048190ca2903c6f0.png",
-      "website": "",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/7a2c085f8445d928a1f0f379cb3bc64ffb604707.png",
+      "website": "https://www.kestroll.com/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "",
-      "one_liner": "",
+      "long_description": "An AI video editing agent that one-shots tedious post-production tasks like turning raw recordings into publishable podcasts and clipping viral shorts for socials.\r\n\r\nThink Cursor for video editing.",
+      "one_liner": "AI video editor",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
-      "industry": "B2B",
-      "subindustry": "B2B -> Operations",
+      "industry": "Consumer",
+      "subindustry": "Consumer -> Content",
       "launched_at": 1751838348,
       "tags": [
-        "Artificial Intelligence"
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -38292,8 +38339,8 @@
       "batch": "Summer 2025",
       "status": "Active",
       "industries": [
-        "B2B",
-        "Operations"
+        "Consumer",
+        "Content"
       ],
       "regions": [
         "United States of America",
@@ -38455,8 +38502,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/9292b62c58dc81055b437ce647dc7c3ea10ffc5c.png",
       "website": "https://magnitude.dev",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Today, coding with local models means finding a model, choosing a quant, installing and tuning a runtime, connecting it to an agent, and keeping the stack working. Magnitude handles it all for you so you can focus on coding. npm install -g @magnitudedev/cli",
-      "one_liner": "Code with local models, zero setup",
+      "long_description": "Magnitude runs the best local models for your hardware, plugged into the agent you already use. Works with Pi, OpenCode, Hermes, OpenClaw, Codex, Claude Code, Oh My Pi, and Cline.",
+      "one_liner": "Open source inference server for local models",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -149323,7 +149370,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/60f75a909cd4fe5c8368c1b60a2257626955c988.png",
       "website": "https://replo.app/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Replo enables anyone around the world to sell anything, anytime, anywhere. We are building every company's GTM specialist — from ecommerce to SaaS. To date, we’ve raised over $8.2M from Figma, YCombinator, Vercel, General Catalyst, Infinity Ventures, MAGIC Fund, Base Case Capital.\r\n",
+      "long_description": "Agents that help you sell anything on the internet. Come build what the next million businesses launch on.\r\n\r\nTo date, we’ve raised over $8.2M from Figma, YCombinator, Vercel, General Catalyst, Infinity Ventures, MAGIC Fund, Base Case Capital.\r\n",
       "one_liner": "Sell anything",
       "team_size": 20,
       "highlight_black": false,

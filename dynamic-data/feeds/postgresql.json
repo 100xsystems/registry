@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-09-03T20:20:46.863Z",
+  "updatedAt": "2026-09-04T03:09:57.870Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -1385,7 +1385,15 @@
       "summary": "Adding a 5-row lookup table to a 9-table billing query flips the plan from 0.3ms nested loops to 467ms hash joins. The cause is join_collapse_limit = 8, a default Postgres has shipped since 2005. SQL Server and MySQL don't have this cliff. Measured across three engines using ExoBench.",
       "author": null,
       "publishedAt": "2026-09-03T00:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9tT",
+      "title": "Christophe Pettus: All Your GUCs in a Row: log_lock_waits and log_lock_failures",
+      "link": "https://postgr.es/p/9tT",
+      "summary": "log_lock_waits is the cheapest lock-contention detector PostgreSQL ships, and through version 18 it is off by default. Turn it on. PostgreSQL 19 will do it for you.\nThe mechanism is borrowed rather than built. When a backend has to sleep on a heavyweight lock (a row, a relation, a transaction ID,…",
+      "author": null,
+      "publishedAt": "2026-09-04T01:00:00.000Z"
     }
   ],
-  "totalIndexed": 172
+  "totalIndexed": 173
 }

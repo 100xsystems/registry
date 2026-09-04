@@ -1,43 +1,56 @@
-# YC Company Changes for 2026-09-03
+# YC Company Changes for 2026-09-04
 
-- Previous total: 6200
-- Current total: 6199
-- Added: 0
-- Removed: 1
-- Updated: 7
+- Previous total: 6199
+- Current total: 6200
+- Added: 1
+- Removed: 0
+- Updated: 8
 
 
-## Removed Companies
+## Added Companies
 
-- Talkito (Summer 2006)
+- [OnePatch](https://www.ycombinator.com/companies/onepatch) (Fall 2026) — Automate on-call at agent-scale.
 
 ## Updated Companies
 
-### [Replo](https://www.ycombinator.com/companies/replo)
+### [Magnitude](https://www.ycombinator.com/companies/magnitude)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/6d35b8ea019eb95e63016971bc2bcc28e3bffcaa.png → https://bookface-images.s3.amazonaws.com/small_logos/60f75a909cd4fe5c8368c1b60a2257626955c988.png
+- `one_liner`: Code with local models, zero setup → Open source inference server for local models
 
-### [CloudCruise](https://www.ycombinator.com/companies/cloudcruise)
+### [Kestroll](https://www.ycombinator.com/companies/kestroll)
 
-- `isHiring`: false → true
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/791faaacaac3270c6ecc1890048190ca2903c6f0.png → https://bookface-images.s3.amazonaws.com/small_logos/7a2c085f8445d928a1f0f379cb3bc64ffb604707.png
+- `website`:  → https://www.kestroll.com/
+- `one_liner`:  → AI video editor
+- `industry`: B2B → Consumer
+- `subindustry`: B2B -> Operations → Consumer -> Content
+- `tags`: Artificial Intelligence → AI
+- `industries`: B2B,Operations → Consumer,Content
 
-### [Reform](https://www.ycombinator.com/companies/reform)
+### [Pangolin](https://www.ycombinator.com/companies/pangolin)
 
-- `one_liner`: Workflow automation. Built for logistics. → AI Agents for high-stakes work.
-- `tags`: Workflow Automation,Logistics,AI → Workflow Automation,Compliance,Logistics,Supply Chain,AI
+- `one_liner`: Identity-aware VPN and proxy for remote access to anything, anywhere. → Open networking and security for your workforce, AI agents, and infra
+- `tags`: Open Source,Enterprise Software,Networks → Security,Open Source,Enterprise Software,Networks
 
-### [Docura Health](https://www.ycombinator.com/companies/docura-health)
+### [Structured AI](https://www.ycombinator.com/companies/structured-ai)
 
-- `isHiring`: false → true
+- `team_size`: 10 → 11
+- `tags`: Computer Vision,Construction,Architecture,AI → Artificial Intelligence,Computer Vision,Construction,Architecture
 
 ### [Sila](https://www.ycombinator.com/companies/sila)
 
-- `one_liner`: Message Agents → AI Agent Messaging Platform
+- `one_liner`: AI Agent Messaging Platform → AI Agents Messaging Platform
 
-### [machine0](https://www.ycombinator.com/companies/machine0)
+### [Osmaura](https://www.ycombinator.com/companies/osmaura)
 
-- `one_liner`: Cloud computers for AI agents → AWS for Agents
+- `one_liner`: AI growth engine for corporate law firms. → AI-native managed legal services for businesses
+- `tags`: Sales Enablement,LegalTech,AI → Artificial Intelligence,B2B,Sales Enablement,LegalTech,Customer Service
 
-### [Nori](https://www.ycombinator.com/companies/noril1)
+### [Osseus](https://www.ycombinator.com/companies/osseus)
 
-- `one_liner`: American Humanoid which costs 3% of the competition → The most capable American-made humanoid robot for $1,688
+- `one_liner`: The intelligent development platform for robotics → 
+- `tags`: Artificial Intelligence,Robotics,B2B,Enterprise Software,Infrastructure → Robotics,B2B,Biotech,Healthcare,AI
+
+### [Workers IO](https://www.ycombinator.com/companies/workers-io)
+
+- `tags`: Developer Tools,B2B,AI → Artificial Intelligence,Developer Tools,B2B,Infrastructure

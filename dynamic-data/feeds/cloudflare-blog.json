@@ -9,7 +9,7 @@
     "performance",
     "edge-computing"
   ],
-  "updatedAt": "2026-09-01T16:07:28.871Z",
+  "updatedAt": "2026-09-04T03:09:57.592Z",
   "items": [
     {
       "guid": "01KY2432VQPD5FTF2RARXXYQGH",
@@ -61634,7 +61634,15 @@
       "summary": "Could we get more cache space with the same hardware? We prototyped compression inside Cloudflare's cache to find out.",
       "author": "Aashi Patel",
       "publishedAt": "2026-09-01T12:59:00.000Z"
+    },
+    {
+      "guid": "01M1JE1CN6W3KJCTMCDZ6Y1M59",
+      "title": "Introducing context-aware vulnerability discovery and remediation with Cloudflare Managed Defense and OpenAI Daybreak models",
+      "link": "https://blog.cloudflare.com/vulnerability-discovery-remediation/",
+      "summary": "Use production traffic and security signals to prioritize findings, prepare edge mitigations when safe, and propose code patches. By combining WAF data with OpenAI Daybreak models, Vulnerability Discovery and Remediation helps teams identify and patch the most critical threats first.",
+      "author": "Ken Sanderson",
+      "publishedAt": "2026-09-03T21:03:02.000Z"
     }
   ],
-  "totalIndexed": 7703
+  "totalIndexed": 7704
 }
