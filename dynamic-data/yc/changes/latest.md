@@ -1,70 +1,93 @@
-# YC Company Changes for 2026-09-04
+# YC Company Changes for 2026-09-05
 
 - Previous total: 6200
-- Current total: 6200
-- Added: 0
+- Current total: 6203
+- Added: 3
 - Removed: 0
-- Updated: 12
+- Updated: 17
 
+
+## Added Companies
+
+- [Hopper](https://www.ycombinator.com/companies/hopper) (Fall 2026) — Fast inference for voice
+- [Dreamscale Labs](https://www.ycombinator.com/companies/dreamscale-labs) (Fall 2026) — Putting robot brains in the cloud
+- [Sinter](https://www.ycombinator.com/companies/sinter-systems) (Fall 2026) — Accelerating scaled plastics with additive technologies
 
 ## Updated Companies
 
-### [Embeddables](https://www.ycombinator.com/companies/embeddables)
+### [Female Invest](https://www.ycombinator.com/companies/female-invest)
 
-- `isHiring`: true → false
+- `one_liner`: Female Invest is a social e-learning app for finance and investing  → The world's largest financial education and community app for women
 
-### [Heron](https://www.ycombinator.com/companies/heron)
-
-- `name`: Heron Data → Heron
-- `slug`: heron-data → heron
-- `former_names`: Open Credit,OpenCredit,Open Credit → Open Credit,OpenCredit,Open Credit,Heron Data
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/a7b4c6ec0a994c7922188d2be45646b8d241734b.png → https://bookface-images.s3.amazonaws.com/small_logos/6ed4f65fcafeff8654b29d189aa9b82b0bddfd6f.png
-- `one_liner`: We automate document-heavy workflows in financial services and beyond → Underwriting automation for SMB finance
-- `industry`: B2B → Fintech
-- `subindustry`: B2B → Fintech
-- `tags`: Fintech,SaaS,B2B,AI → Artificial Intelligence,Fintech,SaaS,B2B
-- `industries`: B2B → Fintech
-
-### [Metriport](https://www.ycombinator.com/companies/metriport)
+### [Corgi Insurance](https://www.ycombinator.com/companies/corgi-insurance)
 
 - `stage`: Growth → Early
 
-### [Vooma](https://www.ycombinator.com/companies/vooma)
-
-- `stage`: Growth → Early
-
-### [Onyx](https://www.ycombinator.com/companies/onyx)
-
-- `isHiring`: true → false
-- `status`: Active → Acquired
-
-### [Corsair](https://www.ycombinator.com/companies/corsair)
-
-- `one_liner`: Connect your users to their apps → OpenRouter for Integrations
-
-### [Norra](https://www.ycombinator.com/companies/norra)
-
-- `team_size`: 2 → 3
-- `tags`: Artificial Intelligence,Hardware,Health Tech,Logistics,Healthcare → Hardware,Health Tech,Logistics,Healthcare,AI
-
-### [Specific](https://www.ycombinator.com/companies/specific)
-
-- `one_liner`: AWS for coding agents → The cloud platform built for coding agents
-- `tags`: Artificial Intelligence,Developer Tools,No-code,DevOps → Developer Tools,No-code,DevOps,AI
-- `app_video_public`: true → false
-
-### [Tsenta](https://www.ycombinator.com/companies/tsenta)
+### [FirstWork](https://www.ycombinator.com/companies/firstwork)
 
 - `isHiring`: false → true
 
-### [Osmaura](https://www.ycombinator.com/companies/osmaura)
+### [Kilvin](https://www.ycombinator.com/companies/kilvin)
 
-- `one_liner`: AI-native managed legal services for businesses → AI-native client care for corporate law firms
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/32467b13d36c9fed6c944cbb62eed3f24594bf45.png → https://bookface-images.s3.amazonaws.com/small_logos/b8aa78b8b96db85bb2ce800dc4eae6fc788564af.png
+- `one_liner`: Custom software for non-technical teams. → Build your own desktop
 
-### [Verdant](https://www.ycombinator.com/companies/verdant)
+### [CopyCat](https://www.ycombinator.com/companies/copycat)
 
-- `tags`: GovTech → GovTech,Real Estate,Construction,Housing
+- `tags`: Insurance,AI → Artificial Intelligence,Insurance
 
-### [OneCLI](https://www.ycombinator.com/companies/onecli)
+### [Mimos](https://www.ycombinator.com/companies/mimos)
 
-- `one_liner`: Give every employee a secured, sandboxed pro assistant agent → The open source AI teammates for your company.
+- `team_size`: 1 → 2
+- `tags`: SaaS,LegalTech,AI → Artificial Intelligence,SaaS,LegalTech
+
+### [Nivara](https://www.ycombinator.com/companies/nivara)
+
+- `name`: Terrain → Nivara
+- `slug`: terrain → nivara
+- `former_names`: Nivara AI,Nivara → Nivara AI,Nivara,Terrain
+- `one_liner`: AI native GTM platform for the physical economy → AI agents for the finance back office.
+- `subindustry`: B2B -> Sales → B2B -> Finance and Accounting
+- `isHiring`: false → true
+- `industries`: B2B,Sales → B2B,Finance and Accounting
+
+### [Rivet](https://www.ycombinator.com/companies/rivet-design)
+
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/27852a72a2c3864e7f9b2c7273ec39951f3e8d68.png → https://bookface-images.s3.amazonaws.com/small_logos/28bd19a3fc057798d00b7402f78d585553560d40.png
+- `one_liner`: Visual editor to design in production code → Explore dozens of design directions with your agent
+
+### [Opalite Health](https://www.ycombinator.com/companies/opalite-health)
+
+- `isHiring`: false → true
+
+### [Compresr](https://www.ycombinator.com/companies/compresr)
+
+- `team_size`: 4 → 3
+
+### [Memoir](https://www.ycombinator.com/companies/memoir)
+
+- `team_size`: 2 → 1
+
+### [Totalis](https://www.ycombinator.com/companies/totalis)
+
+- `all_locations`: San Francisco, CA, USA → New York City, NY, USA
+
+### [The Company Company](https://www.ycombinator.com/companies/the-company-company)
+
+- `isHiring`: true → false
+
+### [BioStack Platforms](https://www.ycombinator.com/companies/biostack-platforms)
+
+- `team_size`: 7 → 9
+
+### [Veltha](https://www.ycombinator.com/companies/veltha)
+
+- `batch`: Summer 2026 → Fall 2026
+
+### [Neuromorphic](https://www.ycombinator.com/companies/neuromorphic)
+
+- `tags`: Hard Tech,Robotics,B2B,Biotech,AI → Artificial Intelligence,Hard Tech,Robotics,B2B,Biotech
+
+### [Levocred AI](https://www.ycombinator.com/companies/levocred-ai)
+
+- `tags`: Enterprise Software → Finance,B2B,Enterprise Software

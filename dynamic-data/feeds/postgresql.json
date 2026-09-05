@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-09-04T03:09:57.870Z",
+  "updatedAt": "2026-09-05T03:12:14.329Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -1393,7 +1393,15 @@
       "summary": "log_lock_waits is the cheapest lock-contention detector PostgreSQL ships, and through version 18 it is off by default. Turn it on. PostgreSQL 19 will do it for you.\nThe mechanism is borrowed rather than built. When a backend has to sleep on a heavyweight lock (a row, a relation, a transaction ID,…",
       "author": null,
       "publishedAt": "2026-09-04T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9tY",
+      "title": "Christophe Pettus: All Your GUCs in a Row: log_startup_progress_interval and log_recovery_conflict_waits",
+      "link": "https://postgr.es/p/9tY",
+      "summary": "Track WAL replay progress on a primary, or diagnose why a standby stalled—two GUCs for the same startup question, answered only in the server log.",
+      "author": null,
+      "publishedAt": "2026-09-05T01:00:00.000Z"
     }
   ],
-  "totalIndexed": 173
+  "totalIndexed": 174
 }
