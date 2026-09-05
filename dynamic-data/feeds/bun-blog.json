@@ -8,7 +8,7 @@
     "performance",
     "runtime"
   ],
-  "updatedAt": "2026-09-04T10:59:10.490Z",
+  "updatedAt": "2026-09-05T10:19:38.061Z",
   "items": [
     {
       "guid": "https://bun.com/blog/bun-in-rust",
@@ -425,7 +425,15 @@
       "summary": "Fixes 202 issues, addressing 236 👍. HTTP/2 in Bun.serve, Bun.write() streams Response bodies to disk, self-contained workspace node_modules, bun install --offline and --prefer-offline, WebSocket pause() and resume(), crypto.argon2, tree-shaking through dynamic import(), smarter CommonJS to ESM…",
       "author": null,
       "publishedAt": "2026-09-04T06:47:12.000Z"
+    },
+    {
+      "guid": "https://bun.com/blog/bun-v1.4.2",
+      "title": "Bun v1.4.2",
+      "link": "https://bun.com/blog/bun-v1.4.2",
+      "summary": "This release fixes two regressions impacting Elysia and AsyncLocalStorage, a hang in @discordjs/ws, CMYK JPEG decoding in Bun.Image, a rare JIT crash, and a GC crash on musl.",
+      "author": null,
+      "publishedAt": "2026-09-05T05:39:32.000Z"
     }
   ],
-  "totalIndexed": 52
+  "totalIndexed": 53
 }

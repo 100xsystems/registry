@@ -1,93 +1,66 @@
 # YC Company Changes for 2026-09-05
 
-- Previous total: 6200
+- Previous total: 6203
 - Current total: 6203
-- Added: 3
+- Added: 0
 - Removed: 0
-- Updated: 17
+- Updated: 12
 
-
-## Added Companies
-
-- [Hopper](https://www.ycombinator.com/companies/hopper) (Fall 2026) — Fast inference for voice
-- [Dreamscale Labs](https://www.ycombinator.com/companies/dreamscale-labs) (Fall 2026) — Putting robot brains in the cloud
-- [Sinter](https://www.ycombinator.com/companies/sinter-systems) (Fall 2026) — Accelerating scaled plastics with additive technologies
 
 ## Updated Companies
 
-### [Female Invest](https://www.ycombinator.com/companies/female-invest)
+### [Metriport](https://www.ycombinator.com/companies/metriport)
 
-- `one_liner`: Female Invest is a social e-learning app for finance and investing  → The world's largest financial education and community app for women
+- `stage`: Early → Growth
+
+### [Vooma](https://www.ycombinator.com/companies/vooma)
+
+- `stage`: Early → Growth
 
 ### [Corgi Insurance](https://www.ycombinator.com/companies/corgi-insurance)
 
-- `stage`: Growth → Early
+- `stage`: Early → Growth
 
-### [FirstWork](https://www.ycombinator.com/companies/firstwork)
+### [KERNEL](https://www.ycombinator.com/companies/kernel)
 
-- `isHiring`: false → true
+- `stage`: Early → Growth
 
-### [Kilvin](https://www.ycombinator.com/companies/kilvin)
+### [Reason Machines](https://www.ycombinator.com/companies/reason-machines)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/32467b13d36c9fed6c944cbb62eed3f24594bf45.png → https://bookface-images.s3.amazonaws.com/small_logos/b8aa78b8b96db85bb2ce800dc4eae6fc788564af.png
-- `one_liner`: Custom software for non-technical teams. → Build your own desktop
+- `name`: Ara → Reason Machines
+- `slug`: ara → reason-machines
+- `former_names`: EasyClaw → EasyClaw,Ara
+- `website`: https://ara.so → https://reasonmachines.ai
+- `one_liner`: The Cloud Coding Agent → The coding agent that can access and reason across any machine. 
 
-### [CopyCat](https://www.ycombinator.com/companies/copycat)
+### [Traceforce](https://www.ycombinator.com/companies/traceforce)
 
-- `tags`: Insurance,AI → Artificial Intelligence,Insurance
+- `one_liner`: Securing AI native apps directly on devices → CrowdStrike for AI Agents
 
-### [Mimos](https://www.ycombinator.com/companies/mimos)
+### [Pluto](https://www.ycombinator.com/companies/talentpluto)
 
-- `team_size`: 1 → 2
-- `tags`: SaaS,LegalTech,AI → Artificial Intelligence,SaaS,LegalTech
+- `one_liner`: Voice agent that learns about professionals and makes them searchable → LinkedIn for agents
+- `tags`: AI,Careers,Conversational AI → Artificial Intelligence,Careers,Conversational AI
 
-### [Nivara](https://www.ycombinator.com/companies/nivara)
+### [Moving Atoms](https://www.ycombinator.com/companies/moving-atoms)
 
-- `name`: Terrain → Nivara
-- `slug`: terrain → nivara
-- `former_names`: Nivara AI,Nivara → Nivara AI,Nivara,Terrain
-- `one_liner`: AI native GTM platform for the physical economy → AI agents for the finance back office.
-- `subindustry`: B2B -> Sales → B2B -> Finance and Accounting
-- `isHiring`: false → true
-- `industries`: B2B,Sales → B2B,Finance and Accounting
-
-### [Rivet](https://www.ycombinator.com/companies/rivet-design)
-
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/27852a72a2c3864e7f9b2c7273ec39951f3e8d68.png → https://bookface-images.s3.amazonaws.com/small_logos/28bd19a3fc057798d00b7402f78d585553560d40.png
-- `one_liner`: Visual editor to design in production code → Explore dozens of design directions with your agent
-
-### [Opalite Health](https://www.ycombinator.com/companies/opalite-health)
-
-- `isHiring`: false → true
-
-### [Compresr](https://www.ycombinator.com/companies/compresr)
-
-- `team_size`: 4 → 3
-
-### [Memoir](https://www.ycombinator.com/companies/memoir)
-
-- `team_size`: 2 → 1
-
-### [Totalis](https://www.ycombinator.com/companies/totalis)
-
-- `all_locations`: San Francisco, CA, USA → New York City, NY, USA
-
-### [The Company Company](https://www.ycombinator.com/companies/the-company-company)
-
-- `isHiring`: true → false
-
-### [BioStack Platforms](https://www.ycombinator.com/companies/biostack-platforms)
-
-- `team_size`: 7 → 9
-
-### [Veltha](https://www.ycombinator.com/companies/veltha)
-
-- `batch`: Summer 2026 → Fall 2026
-
-### [Neuromorphic](https://www.ycombinator.com/companies/neuromorphic)
-
-- `tags`: Hard Tech,Robotics,B2B,Biotech,AI → Artificial Intelligence,Hard Tech,Robotics,B2B,Biotech
+- `one_liner`: Solving the Data Problem in Robotics, #1 on Physics-IQ → World Models for training and evaluating robots
+- `tags`: Hard Tech,Robotics,Virtual Reality,Data Labeling,AI → Artificial Intelligence,Hard Tech,Robotics,Virtual Reality,Data Labeling
 
 ### [Levocred AI](https://www.ycombinator.com/companies/levocred-ai)
 
-- `tags`: Enterprise Software → Finance,B2B,Enterprise Software
+- `one_liner`: AI Workforce for lenders → Foundation Model for Lenders
+
+### [Dock](https://www.ycombinator.com/companies/dock)
+
+- `one_liner`: Multiplayer workspace for AI teammates and humans → Multiplayer workspace for agents and humans
+- `tags`: Artificial Intelligence,B2B → B2B,AI
+
+### [Hemlock](https://www.ycombinator.com/companies/hemlock)
+
+- `all_locations`: Los Angeles, CA, USA → San Francisco, CA, USA
+
+### [Dreamscale Labs](https://www.ycombinator.com/companies/dreamscale-labs)
+
+- `one_liner`: Putting robot brains in the cloud → Running robot brains in the cloud
+- `launched_at`: 1786420476 → 1788577910
