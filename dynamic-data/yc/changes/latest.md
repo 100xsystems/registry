@@ -1,64 +1,96 @@
 # YC Company Changes for 2026-09-06
 
-- Previous total: 6202
+- Previous total: 6203
 - Current total: 6203
-- Added: 1
+- Added: 0
 - Removed: 0
-- Updated: 11
+- Updated: 21
 
-
-## Added Companies
-
-- [Familiar](https://www.ycombinator.com/companies/familiar) (Summer 2026) — Movies in Every Language. Better than Humans.
 
 ## Updated Companies
 
-### [Acely](https://www.ycombinator.com/companies/acely)
+### [Boom](https://www.ycombinator.com/companies/boom)
 
-- `stage`: Early → Growth
+- `all_locations`: Centennial, CO, USA; Englewood, CO, USA → Denver, CO, USA; Englewood, CO, USA
 
-### [AccioJob](https://www.ycombinator.com/companies/acciojob)
+### [Ledger Investing](https://www.ycombinator.com/companies/ledger-investing)
 
-- `stage`: Early → Growth
+- `all_locations`: United States; Remote → Washington, DC, USA; United States; Remote
+
+### [GiveAway](https://www.ycombinator.com/companies/giveaway)
+
+- `all_locations`: San Francisco, CA, USA; Minsk, Minsk Region, Belarus; Remote → Lisbon, Lisbon, Portugal; Minsk, Minsk Region, Belarus; Remote
+- `regions`: United States of America,Belarus,America / Canada,Europe,Remote,Fully Remote → Portugal,Belarus,Europe,Remote,Fully Remote
 
 ### [Luminai](https://www.ycombinator.com/companies/luminai)
 
-- `stage`: Early → Growth
+- `stage`: Growth → Early
 
-### [Dynamo AI](https://www.ycombinator.com/companies/dynamo-ai)
+### [Litnerd](https://www.ycombinator.com/companies/litnerd)
 
-- `stage`: Early → Growth
+- `all_locations`: New York City, NY, USA; New York, NY, USA; Remote → Miami, FL, USA; New York, NY, USA; Remote
 
-### [Zalos](https://www.ycombinator.com/companies/zalos)
+### [Pylon](https://www.ycombinator.com/companies/pylon-2)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/b1456a0cab6aece2240abb581d153d9212c6dd68.png → https://bookface-images.s3.amazonaws.com/small_logos/e1e6ee7d8a3b596506042ea8802d90c9c4292a17.png
-- `one_liner`: Computer Agents for Finance tasks like reconciliation, in your system! → Hire Zalos AI workers to run your finance department
-- `team_size`: 2 → 10
-- `subindustry`: B2B -> Operations → B2B -> Finance and Accounting
-- `tags`:  → Fintech,Finance,Enterprise,Billing,AI Assistant
-- `industries`: B2B,Operations → B2B,Finance and Accounting
+- `all_locations`: San Francisco, CA, USA → Bridgeton, MO, USA
 
-### [Tsenta](https://www.ycombinator.com/companies/tsenta)
+### [OpenTools](https://www.ycombinator.com/companies/opentools)
 
-- `tags`: Artificial Intelligence,Marketplace,Consumer,Recruiting,HR Tech → Marketplace,Consumer,Recruiting,HR Tech,AI
+- `all_locations`: New York City, NY, USA → San Francisco, CA, USA
 
-### [Marker](https://www.ycombinator.com/companies/marker)
+### [Cognitio Labs](https://www.ycombinator.com/companies/cognitio-labs)
 
-- `one_liner`: Platform and FDEs for rebuilding businesses agent-first → Platform + FDEs that rebuild enterprises agent-first
-- `tags`: Artificial Intelligence,Generative AI,SaaS,B2B,Workflow Automation → Generative AI,SaaS,B2B,Workflow Automation,AI
+- `all_locations`: San Francisco, CA, USA → Los Angeles, CA, USA
 
-### [Sidekick](https://www.ycombinator.com/companies/textsidekick)
+### [ReactWise](https://www.ycombinator.com/companies/reactwise)
 
-- `one_liner`: AI agent that handles frontline operations over text → AI agent that manages frontline operations over text
+- `all_locations`: London, England, United Kingdom → Cambridge, England, United Kingdom
 
-### [Instaplay](https://www.ycombinator.com/companies/instaplay)
+### [Consus](https://www.ycombinator.com/companies/consus)
 
-- `one_liner`: AI-Native Social Platform, Starting with Games → AI-native gaming platform turning every game into an RL environment
+- `isHiring`: false → true
 
-### [Levocred AI](https://www.ycombinator.com/companies/levocred-ai)
+### [Optifye.ai](https://www.ycombinator.com/companies/optifye-ai)
 
-- `one_liner`: Foundation Model for Lenders → The Bloomberg of Loans
+- `all_locations`: San Francisco, CA, USA → New Delhi, DL, India
+- `regions`: United States of America,America / Canada → India,South Asia
+
+### [Paratus Health](https://www.ycombinator.com/companies/paratus-health)
+
+- `all_locations`: San Francisco, CA, USA → New York City, NY, USA
+
+### [Evergrove](https://www.ycombinator.com/companies/evergrove)
+
+- `one_liner`: Interoperability for all of US healthcare, staring with work comp → Interoperability for all of US healthcare, starting with work comp
+
+### [FinalDose](https://www.ycombinator.com/companies/finaldose)
+
+- `all_locations`: London, England, United Kingdom → Oxford, England, United Kingdom
+
+### [Waddle Labs](https://www.ycombinator.com/companies/waddle-labs)
+
+- `all_locations`: Boston, MA, USA → San Francisco, CA, USA
+
+### [Palisade](https://www.ycombinator.com/companies/palisade)
+
+- `one_liner`: AI sales agents that run your marketplace → AI sales agents that run marketplaces
+
+### [Pluto](https://www.ycombinator.com/companies/talentpluto)
+
+- `all_locations`: New York City, NY, USA → San Francisco, CA, USA
+
+### [Waybill](https://www.ycombinator.com/companies/waybill)
+
+- `one_liner`: Managed procurement & inventory for hardware teams. → Agentic procurement & inventory for deep tech teams.
+
+### [CarSignal](https://www.ycombinator.com/companies/carsignal)
+
+- `all_locations`: Los Angeles, CA, USA → San Francisco, CA, USA
 
 ### [Ethos Space Resources](https://www.ycombinator.com/companies/ethos-space-resources)
 
-- `one_liner`: We make Silicon on the Moon. → We make Silicon on the Moon for Kardashev scaling.
+- `one_liner`: We make Silicon on the Moon for Kardashev scaling. → We make Silicon on the Moon.
+
+### [Atomarine](https://www.ycombinator.com/companies/atomarine)
+
+- `all_locations`: Boston, MA, USA → San Francisco, CA, USA
