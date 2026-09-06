@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-09-05T03:12:14.329Z",
+  "updatedAt": "2026-09-06T03:11:58.388Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -1401,7 +1401,15 @@
       "summary": "Track WAL replay progress on a primary, or diagnose why a standby stalled—two GUCs for the same startup question, answered only in the server log.",
       "author": null,
       "publishedAt": "2026-09-05T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9tZ",
+      "title": "Christophe Pettus: All Your GUCs in a Row: log_parser_stats, log_planner_stats, log_executor_stats, and log_statement_stats",
+      "link": "https://postgr.es/p/9tZ",
+      "summary": "PostgreSQL's oldest logging parameters measure CPU time, page faults, and context switches per statement—crude but irreplaceable when you need to know why a…",
+      "author": null,
+      "publishedAt": "2026-09-06T01:00:00.000Z"
     }
   ],
-  "totalIndexed": 174
+  "totalIndexed": 175
 }
