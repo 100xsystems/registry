@@ -1,73 +1,64 @@
 # YC Company Changes for 2026-09-06
 
-- Previous total: 6203
-- Current total: 6202
-- Added: 0
-- Removed: 1
-- Updated: 14
+- Previous total: 6202
+- Current total: 6203
+- Added: 1
+- Removed: 0
+- Updated: 11
 
 
-## Removed Companies
+## Added Companies
 
-- Familiar (Summer 2026)
+- [Familiar](https://www.ycombinator.com/companies/familiar) (Summer 2026) — Movies in Every Language. Better than Humans.
 
 ## Updated Companies
 
 ### [Acely](https://www.ycombinator.com/companies/acely)
 
-- `stage`: Growth → Early
+- `stage`: Early → Growth
+
+### [AccioJob](https://www.ycombinator.com/companies/acciojob)
+
+- `stage`: Early → Growth
 
 ### [Luminai](https://www.ycombinator.com/companies/luminai)
 
-- `one_liner`: Luminai helps automate repetitive manual work away from your mission… → Luminai is the AI platform for Health System Operations.
-- `team_size`: 31 → 50
-- `stage`: Growth → Early
-
-### [Nextera Robotics | DIDGE.ai](https://www.ycombinator.com/companies/nextera-robotics-didgeai)
-
-- `isHiring`: false → true
+- `stage`: Early → Growth
 
 ### [Dynamo AI](https://www.ycombinator.com/companies/dynamo-ai)
 
-- `stage`: Growth → Early
+- `stage`: Early → Growth
 
-### [Waddle Labs](https://www.ycombinator.com/companies/waddle-labs)
+### [Zalos](https://www.ycombinator.com/companies/zalos)
 
-- `one_liner`: Agents for robotics control.  → LLMs that control robots
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/b1456a0cab6aece2240abb581d153d9212c6dd68.png → https://bookface-images.s3.amazonaws.com/small_logos/e1e6ee7d8a3b596506042ea8802d90c9c4292a17.png
+- `one_liner`: Computer Agents for Finance tasks like reconciliation, in your system! → Hire Zalos AI workers to run your finance department
+- `team_size`: 2 → 10
+- `subindustry`: B2B -> Operations → B2B -> Finance and Accounting
+- `tags`:  → Fintech,Finance,Enterprise,Billing,AI Assistant
+- `industries`: B2B,Operations → B2B,Finance and Accounting
 
-### [Osmaura](https://www.ycombinator.com/companies/osmaura)
+### [Tsenta](https://www.ycombinator.com/companies/tsenta)
 
-- `tags`: B2B,Sales Enablement,LegalTech,Customer Service,AI → Artificial Intelligence,B2B,Sales Enablement,LegalTech,Customer Service
+- `tags`: Artificial Intelligence,Marketplace,Consumer,Recruiting,HR Tech → Marketplace,Consumer,Recruiting,HR Tech,AI
 
-### [Proprio Robotics](https://www.ycombinator.com/companies/proprio-robotics)
+### [Marker](https://www.ycombinator.com/companies/marker)
 
-- `one_liner`: Building autonomous data centers → Robots to maintain and assemble data centers
-- `tags`: Artificial Intelligence,Robotics → Robotics,AI
+- `one_liner`: Platform and FDEs for rebuilding businesses agent-first → Platform + FDEs that rebuild enterprises agent-first
+- `tags`: Artificial Intelligence,Generative AI,SaaS,B2B,Workflow Automation → Generative AI,SaaS,B2B,Workflow Automation,AI
 
-### [Verdant](https://www.ycombinator.com/companies/verdant)
+### [Sidekick](https://www.ycombinator.com/companies/textsidekick)
 
-- `one_liner`: AI-native planning & permitting software for local gov → AI infrastructure for local government, starting with permitting
+- `one_liner`: AI agent that handles frontline operations over text → AI agent that manages frontline operations over text
 
-### [Context.dev](https://www.ycombinator.com/companies/contextdev)
+### [Instaplay](https://www.ycombinator.com/companies/instaplay)
 
-- `one_liner`: We give AI agents realtime web context. → We give AI agents realtime web context via API
+- `one_liner`: AI-Native Social Platform, Starting with Games → AI-native gaming platform turning every game into an RL environment
 
-### [Rational](https://www.ycombinator.com/companies/rational)
+### [Levocred AI](https://www.ycombinator.com/companies/levocred-ai)
 
-- `tags`: Finance,B2B,Enterprise,AI → Artificial Intelligence,Finance,B2B,Enterprise
+- `one_liner`: Foundation Model for Lenders → The Bloomberg of Loans
 
-### [Qlo](https://www.ycombinator.com/companies/qlo)
+### [Ethos Space Resources](https://www.ycombinator.com/companies/ethos-space-resources)
 
-- `tags`: Insurance,Enterprise Software,AI → Artificial Intelligence,Insurance,Enterprise Software
-
-### [Chromie](https://www.ycombinator.com/companies/chromie)
-
-- `one_liner`: find, qualify, & win contracts with AI → We help startups win gov contracts
-
-### [Hebbian Robotics](https://www.ycombinator.com/companies/hebbian-robotics)
-
-- `one_liner`: Open source SDK for building quality control pipelines for Physical AI → APIs for robotics data teams to verify data quality for model training
-
-### [Vernius Systems, Inc.](https://www.ycombinator.com/companies/vernius-systems-inc)
-
-- `one_liner`: Autonomous radar guidance for interceptors → Low cost military radar systems
+- `one_liner`: We make Silicon on the Moon. → We make Silicon on the Moon for Kardashev scaling.
