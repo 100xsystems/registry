@@ -1,42 +1,64 @@
 # YC Company Changes for 2026-09-07
 
 - Previous total: 6203
-- Current total: 6203
-- Added: 0
+- Current total: 6204
+- Added: 1
 - Removed: 0
-- Updated: 6
+- Updated: 12
 
+
+## Added Companies
+
+- [Hesper AI](https://www.ycombinator.com/companies/hesper-ai) (Fall 2026) — AI Claims Investigator for Insurance
 
 ## Updated Companies
 
-### [Eden](https://www.ycombinator.com/companies/eden-2)
+### [Canix](https://www.ycombinator.com/companies/canix)
 
-- `all_locations`: Mexico City, CDMX, Mexico → San Francisco, CA, USA
-- `one_liner`: Developing AI to unleash diagnostic abundance. → Building Clinical Superintelligence.
-- `team_size`: 55 → 100
-- `subindustry`: Healthcare -> Healthcare IT → Healthcare -> Diagnostics
-- `tags`: Digital Health,Healthcare → Artificial Intelligence,Digital Health,Healthcare
-- `industries`: Healthcare,Healthcare IT → Healthcare,Diagnostics
-- `regions`: Mexico,Latin America,Remote,Partly Remote → United States of America,America / Canada,Remote,Partly Remote
 - `stage`: Growth → Early
 
-### [Typewise](https://www.ycombinator.com/companies/typewise)
+### [Agave](https://www.ycombinator.com/companies/agave)
 
-- `one_liner`: Boosting customer service and sales productivity by 2-3x. → Customer service AI that resolves requests end-to-end.
+- `team_size`: 40 → 50
 
-### [Pinch](https://www.ycombinator.com/companies/pinch)
+### [222](https://www.ycombinator.com/companies/222)
 
-- `one_liner`: Real-time AI Voice Translation for Developers → AI Voice Translation for live conversations or media
-- `tags`: Artificial Intelligence,Telecommunications → Telecommunications,AI
+- `isHiring`: false → true
 
-### [Blank Bio](https://www.ycombinator.com/companies/blank-bio)
+### [ArchiLabs](https://www.ycombinator.com/companies/archilabs)
 
-- `isHiring`: true → false
+- `team_size`: 2 → 3
 
-### [CellType](https://www.ycombinator.com/companies/celltype)
+### [Aviro](https://www.ycombinator.com/companies/aviro)
 
-- `team_size`: 2 → 5
+- `one_liner`: Environments for Long Horizon Tool Use → Environments for Long Horizon Work
 
-### [Halmos Labs](https://www.ycombinator.com/companies/halmos-labs)
+### [Evergrove](https://www.ycombinator.com/companies/evergrove)
 
-- `launched_at`: 1786429775 → 1788773241
+- `one_liner`: Care coordination for all of US healthcare, starting with work comp → Instant healthcare for all, starting with work comp
+
+### [Bubble Lab](https://www.ycombinator.com/companies/bubble-lab)
+
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/3ff46390128d2a3a9098a5a430b66444fd364775.png → https://bookface-images.s3.amazonaws.com/small_logos/8a94fc548c8500f0d7e462b5e941cb7f149637d0.png
+- `one_liner`: Operating system for premium professional communities → Turn gatherings into lasting relationships.
+- `tags`: Artificial Intelligence,Automation,Operations → Community,Automation,Operations,AI
+
+### [Palette](https://www.ycombinator.com/companies/palette-2)
+
+- `tags`: Generative AI,Video,AI → Artificial Intelligence,Generative AI,Video
+
+### [Moonshot](https://www.ycombinator.com/companies/moonshot-computer)
+
+- `tags`:  → Consumer,Productivity,AI,AI Assistant
+
+### [HyperProbe](https://www.ycombinator.com/companies/hyperprobe)
+
+- `one_liner`: Data layer AI Agents call to fix production apps on their own → Data layer AI Agents call to fix production apps
+
+### [Hebbian Robotics](https://www.ycombinator.com/companies/hebbian-robotics)
+
+- `tags`: Artificial Intelligence,Robotics,Data Science,Data Engineering,Databases → Robotics,Data Science,Data Engineering,AI,Databases
+
+### [Allia Health](https://www.ycombinator.com/companies/allia-health)
+
+- `one_liner`: Clinically Integrated Group for Mental Health  → First AI-Native Medical Group for Mental Health
