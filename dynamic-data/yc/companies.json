@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-07T12:06:06.833Z",
+  "fetchedAt": "2026-09-07T17:19:43.073Z",
   "count": 6203,
   "companies": [
     {
@@ -319,7 +319,7 @@
       "highlight_women": false,
       "industry": "Healthcare",
       "subindustry": "Healthcare -> Industrial Bio",
-      "launched_at": 1786429775,
+      "launched_at": 1788773241,
       "tags": [
         "AI-powered Drug Discovery",
         "Swarm AI",
@@ -3179,7 +3179,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/8d58ef930283a4163ee9544b3936abd1327a463a.png",
       "website": "https://hubble.ai/",
       "all_locations": "Seattle, WA, USA",
-      "long_description": "Hubble is the AI Plaid for healthcare: we use AI to retrieve patient medical records and deliver them to developers through a single API. We're the team behind the AI agents at Grow Therapy and Amazon's One Medical, used by millions of patients (Prabha was Grow's first PM building and scaling their AI agents, and Aaron built the AI infrastructure at One Medical serving 1M+ patients). Companies building in legal, life insurance underwriting, clinical trials, and digital health all need a patient's records to make decisions, but pulling that data out of thousands of EHRs and payors is still slow and manual. Our AI agents retrieve records the way a person would and normalize them into one clean API. We signed our first paying customers within three weeks of launching, all on usage-based pricing. https://hubble.ai",
+      "long_description": "Hubble is the AI-native retrieval engine for medical records, delivered in one API. I scaled Grow Therapy to a $3B valuation; my cofounder built One Medical's first AI agents, now used by millions of patients. Four weeks in, we already have ten signed customers and 7-figure year-one revenue across platform and usage fees. Every new agentic use case across industries like legal, clinical trials, consumer health, insurance, needs a complete medical record, and today that still means faxes and phone calls. Hubble fixes that with voice and browser agents that reach the providers APIs can't, in a market worth $45B just in the verticals we've mapped so far.",
       "one_liner": "AI-native retrieval engine for medical records",
       "team_size": 2,
       "highlight_black": false,
@@ -24643,7 +24643,7 @@
       "all_locations": "New York City, NY, USA",
       "long_description": "CellType is building an agentic drug company. AI agents that run the full drug discovery pipeline on top of biological foundation models that simulate human biology. Our core technology, developed with Google DeepMind, has already discovered and validated a new cancer treatment signal. We’re working with Top 10 pharma.",
       "one_liner": "The agentic drug company. We simulate human biology.",
-      "team_size": 2,
+      "team_size": 5,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -40418,7 +40418,7 @@
       "tags": [],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": true,
+      "isHiring": false,
       "nonprofit": false,
       "batch": "Summer 2025",
       "status": "Active",
@@ -49139,8 +49139,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c2b1286659e2efa47062a920134725070dce12f1.png",
       "website": "https://startpinch.com",
       "all_locations": "VC, Spain; Remote",
-      "long_description": "Robust live speech translation models with 50+ languages and simple integration",
-      "one_liner": "Real-time AI Voice Translation for Developers",
+      "long_description": "Video/audio dubbing that preserves your tone and timing.  Real-time speech translation for any online meeting.",
+      "one_liner": "AI Voice Translation for live conversations or media",
       "team_size": 3,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -49149,8 +49149,8 @@
       "subindustry": "B2B -> Productivity",
       "launched_at": 1737597498,
       "tags": [
-        "Artificial Intelligence",
-        "Telecommunications"
+        "Telecommunications",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -110059,8 +110059,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/037b66c1bbe3365f03b5de5fac263f8ea652ae3f.png",
       "website": "https://typewise.app",
       "all_locations": "Zürich, ZH, Switzerland",
-      "long_description": "Typewise is an AI-first customer service platform where orchestrated agents resolve requests end-to-end by taking real actions across your stack. Teams describe outcomes in natural language and the platform compiles them into working automations—no flowcharts, no code. You can safely simulate changes and roll them out step by step.\r\n\r\nFortune 500 brands such as Unilever and DPD use Typewise to cut support effort by 50%+ while increasing CSAT and NPS. With 200+ integrations, Typewise reads from and writes to CRM, ERP, and other systems to fully resolve cases, handing off to humans only where they add the most value. Hybrid intelligence enables partial hand-offs, review-before-send, and context-preserving resumption—so teams stay in control.\r\n\r\nOperate natively within Typewise Ticketing, with optional integrations into your existing CRM or helpdesk systems such as Zendesk, Salesforce, or Freshdesk, and enhance agents with a CRM-embedded copilot. A company-specific AI language model keeps every interaction on-brand. EU-hosted and ISO 27001 certified, Typewise delivers measurable ROI in weeks—so you can start small and scale automation with confidence.",
-      "one_liner": "Boosting customer service and sales productivity by 2-3x.",
+      "long_description": "Typewise resolves customer service requests end-to-end. Someone sends a request; it reads the message, looks up the real order or account in your own systems, takes the action, and replies. Anything it shouldn't touch goes to a human. It works across email, chat, WhatsApp and social, and is MCP-native.\r\n\r\nUntil now, that took a proper setup project, which is why it was mostly larger companies using it. Nova does the setup for you. You describe how you want things handled, in plain sentences:\r\n- \"Handle refunds under €50 yourself.\"\r\n- \"Anything about enterprise pricing goes to a human.\"\r\n- \"Turn bug reports into Linear issues and assign them to the Excellence team.\"\r\n\r\nNova connects the tools, configures the agents, tests them against your past conversations, and shows you what it got wrong before anything goes live. Nothing ships without your approval. First deployment takes 15 minutes. After that, it keeps going: it surfaces what customers keep complaining about, proposes fixes, and ships the ones you approve. We call it an AI Operator because it doesn't just answer customers; it keeps the entire operation working and improving. Across live accounts, that means 90% of requests resolved without human involvement.\r\n\r\nYour team stays in control of what it may do on its own. Hybrid intelligence handles partial hand-offs, review-before-send, and context-preserving resumption.\r\n\r\nWe're YC S22 and work with companies like Superhuman and Unilever. Fortune 500 brands such as Unilever and DPD use Typewise to cut support effort by 50%+ while increasing CSAT and NPS. Run it natively in Typewise Ticketing or inside Zendesk, Salesforce or Freshdesk, with a CRM-embedded copilot for your human agents. EU-hosted, ISO 27001 certified.",
+      "one_liner": "Customer service AI that resolves requests end-to-end.",
       "team_size": 12,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -205851,17 +205851,18 @@
       ],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/e9ed624456ba1fbda4567d62416d80343145cd4d.png",
       "website": "https://edenmed.com",
-      "all_locations": "Mexico City, CDMX, Mexico",
-      "long_description": "Developing AI to unleash diagnostic abundance: accurate and timely medical imaging for all of humanity.\r\n\r\nEden is the leading AI-and-cloud-native Diagnostic OS, empowering over 2,600 medical institutions across 18 countries and impacting millions of patients every year.\r\n\r\nAll, with one purpose: building the best tools to perform medicine at its highest level.\r\n\r\n",
-      "one_liner": "Developing AI to unleash diagnostic abundance.",
-      "team_size": 55,
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "\r\nWe create the infrastructure and frontier AI that turn diagnostic data into precise clinical answers.\r\n\r\nOur Diagnostic OS supports the care of more than one patient every two seconds across 2,800+ healthcare systems in 20 countries.\r\n\r\nWe believe medicine is humanity’s most sacred work and we build the tools it deserves: Tools for Miracles.\r\n",
+      "one_liner": "Building Clinical Superintelligence.",
+      "team_size": 100,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
       "industry": "Healthcare",
-      "subindustry": "Healthcare -> Healthcare IT",
+      "subindustry": "Healthcare -> Diagnostics",
       "launched_at": 1525846177,
       "tags": [
+        "Artificial Intelligence",
         "Digital Health",
         "Healthcare"
       ],
@@ -205873,15 +205874,15 @@
       "status": "Active",
       "industries": [
         "Healthcare",
-        "Healthcare IT"
+        "Diagnostics"
       ],
       "regions": [
-        "Mexico",
-        "Latin America",
+        "United States of America",
+        "America / Canada",
         "Remote",
         "Partly Remote"
       ],
-      "stage": "Growth",
+      "stage": "Early",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,

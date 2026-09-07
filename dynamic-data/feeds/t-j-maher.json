@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-08-30T03:55:36.820Z",
+  "updatedAt": "2026-09-07T17:19:34.763Z",
   "items": [
     {
       "guid": "t-j-maher::https://www.tjmaher.com/2026/06/does-giving-presentation-via-zoom-to.html",
@@ -303,7 +303,15 @@
       "summary": "You may have noticed that in the GitLab CI / CD Pipeline for our Playwright project, in the .gitlab-ci.yml file, after our scripts has run, in the Test stage, there is a subsection called \"artifacts\" with certain paths to something called \"playwright-report\", \"test-results\", and \"reports\". \n\n\nThe…",
       "author": "T.J. Maher",
       "publishedAt": "2026-08-29T23:19:22.027Z"
+    },
+    {
+      "guid": "t-j-maher::https://www.tjmaher.com/2026/09/testing-swagger-petstore-manually.html",
+      "title": "Testing the Swagger Petstore: Manually Testing An API Using Swagger UI",
+      "link": "https://www.tjmaher.com/2026/09/testing-swagger-petstore-manually.html",
+      "summary": "With the last post, Testing the Swagger Petstore: Reviewing API Documentation Formatted in OpenAPI 3.0 with Swagger UI we started exploring an API with Swagger UI, such as the Swagger Petstore at https://petstore3.swagger.io/\n\nHere, we will start exploring how to test an API using the Swagger UI.…",
+      "author": "T.J. Maher",
+      "publishedAt": "2026-09-07T16:43:41.791Z"
     }
   ],
-  "totalIndexed": 37
+  "totalIndexed": 38
 }
