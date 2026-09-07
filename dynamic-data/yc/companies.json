@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-07T03:10:19.364Z",
+  "fetchedAt": "2026-09-07T12:06:06.833Z",
   "count": 6203,
   "companies": [
     {
@@ -302,6 +302,49 @@
       "app_answers": null,
       "question_answers": false,
       "url": "https://www.ycombinator.com/companies/covera"
+    },
+    {
+      "id": 35883,
+      "name": "Halmos Labs",
+      "slug": "halmos-labs",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/093fdc6d2122e7140cab391f450941fd3922b145.png",
+      "website": "https://halmoslabs.com/",
+      "all_locations": "Lund, Skåne County, Sweden",
+      "long_description": "Halmos Labs builds automated biotech R&D on the principles of validity and interpretabillity. We run research, and simulations answering open questions ranging from wetlab experiment design to full cancer vaccine manufacturing.",
+      "one_liner": "Maximum information per experiment, minimum experiments per conclusion",
+      "team_size": 3,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "Healthcare",
+      "subindustry": "Healthcare -> Industrial Bio",
+      "launched_at": 1786429775,
+      "tags": [
+        "AI-powered Drug Discovery",
+        "Swarm AI",
+        "Biotech"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Fall 2026",
+      "status": "Active",
+      "industries": [
+        "Healthcare",
+        "Industrial Bio"
+      ],
+      "regions": [
+        "Sweden",
+        "Europe"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/halmos-labs"
     },
     {
       "id": 35850,
@@ -698,7 +741,7 @@
       ],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/cf5d37476e8f7b170957ddb85fd0254d52fa2634.png",
       "website": "https://www.nodus-compute.ai/",
-      "all_locations": "",
+      "all_locations": "San Francisco, CA, USA",
       "long_description": "Intelligent execution layer for AI workloads",
       "one_liner": "Intelligent execution layer for AI workloads",
       "team_size": 2,
@@ -722,7 +765,8 @@
         "B2B"
       ],
       "regions": [
-        "Unspecified"
+        "United States of America",
+        "America / Canada"
       ],
       "stage": "Early",
       "app_video_public": false,
@@ -910,7 +954,7 @@
       ],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/7ab4963f9bacc76a0a31b94f8773cad5138d2dc3.png",
       "website": "https://box.ascii.dev",
-      "all_locations": "Remote",
+      "all_locations": "Paris, Île-de-France, France; Remote",
       "long_description": "**Problem**\r\n\r\nHumans used to need laptops to do their work. Now they prompt agents instead, and those agents need computers too: always-on, in large quantities, and with unlimited capabilities. \r\n\r\nBuilding and maintaining that yourself is far from trivial.\r\n\r\n**Solution**\r\n\r\nBox provides powerful, simple, permissive Ubuntu VMs in the cloud. In a box, an agent can work for long periods on code or on knowledge work like legal, research, reporting, and auditing.\r\n\r\n**Why Box and not any other cloud VM?**\r\n\r\n1. It is ready out of the box: every box ships with a desktop, chrome, languages, docker, snapshots, and templates, plus a CLI, SDK, API, and control pane for your fleet.\r\n2. It is permissive and paradigm agnostic: any number of agents can use any number of boxes. Agents can run inside or use boxes as an external tool.\r\n3. It is expertly crafted: we manage everything from the individual CPU to the orchestration software, which makes boxes stable, persistent, scalable, and secure.\r\n4. It is the best performance and price in town: our CPUs rank first on HPC benchmarks, and boxes are typically 9x to 18x cheaper than other leading sandboxes.\r\n\r\n**Further notes**\r\n\r\nBoxes are hosted in Europe, which keeps prices low, and more regions are coming. Unless compliance requires it, agents don't notice the region they run in.",
       "one_liner": "The best cloud VMs for billions of agents",
       "team_size": 3,
@@ -935,6 +979,8 @@
         "Infrastructure"
       ],
       "regions": [
+        "France",
+        "Europe",
         "Remote",
         "Fully Remote"
       ],
@@ -1212,7 +1258,7 @@
       "website": "https://www.tryopentag.com/",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "OpenTag - is an AI coworker that lives in your Slack and Teams. It has full context on your company, so it can answer questions, join calls, and take real work off your team's plate. OpenTag also keeps your company wiki and knowledge base up to date automatically, so your team's knowledge never goes stale or walks out the door.",
-      "one_liner": "Model Agnostic Claude Tag",
+      "one_liner": "The AI coworker that lives in Slack",
       "team_size": 3,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -2698,9 +2744,9 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/8face6fd127a729a79aa67ef1d9e4669f91060ab.png",
       "website": "https://princeps.dev",
       "all_locations": "London, England, United Kingdom",
-      "long_description": "PRINCEPS is the first purpose-built insurance company (and MGA) for the trillion-dollar compute buildout. We underwrite SLA, GPU residual value, and outage risk, and price the coverage that unlocks cheaper financing for data centers and neoclouds.",
+      "long_description": "PRINCEPS is the first purpose-built insurance company for the trillion-dollar compute buildout. We underwrite SLA, GPU residual value, and outage risk, and price the coverage that unlocks cheaper financing for data centers and neoclouds.",
       "one_liner": "AI-native insurance company for the compute economy",
-      "team_size": 3,
+      "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -2709,7 +2755,9 @@
       "launched_at": 1786600478,
       "tags": [
         "Artificial Intelligence",
-        "Machine Learning"
+        "Fintech",
+        "Machine Learning",
+        "Insurance"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -3572,8 +3620,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/44fee5cae005d704af84e7ed5ed7418d4ca0580c.png",
       "website": "https://decawork.ai/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Decawork is building AI models that control what agents do inside companies.\r\n\r\nGiving an agent access to a system does not tell it when using that access is right for the business. The same action can be appropriate for one task and wrong for another. IT teams understand the business, but they can’t turn every judgment into a rule or manually approve every step.\r\n\r\nWe train individual models for companies that understand its business, critical systems, and priorities. It learns from the policies IT teams set and the decisions they make in practice. We’re training these models to combine that understanding with an agent’s task and past actions to decide what it should be allowed to do in real time.\r\n\r\nCompanies will rent intelligence from AI labs or run open-source models. They’ll own the models that keep their entire AI workforce acting in their interests. And Decawork is building those models.",
-      "one_liner": "AI models that control AI agents inside your company.",
+      "long_description": "Giving an agent access to a system doesn’t tell it when using that access is right for the business. The same action can be appropriate for one task and wrong for another. Companies can’t turn every business judgment into a rule or have people manually approve every step.\r\n\r\nWe train a model for each company using its policies and the decisions its teams make in practice. The model is designed to understand the company’s business, critical systems, and priorities, and combine that context with an agent’s task and past actions. Its job is to decide, in real time, whether a proposed action serves the company’s interests and should be approved.\r\n\r\nCompanies will rent intelligence from AI labs or run open-source models to power their agents. They’ll own the models that keep their entire AI workforce acting in their interests. Decawork is building those models.",
+      "one_liner": "Training company-specific models that approve AI actions.",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -3582,10 +3630,10 @@
       "subindustry": "B2B -> Infrastructure",
       "launched_at": 1785265630,
       "tags": [
-        "Artificial Intelligence",
         "B2B",
         "Security",
-        "Infrastructure"
+        "Infrastructure",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -3874,10 +3922,10 @@
       "name": "Agnost AI",
       "slug": "agnost-ai",
       "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/dbe9d7776c9e4cb65614fb4e463059ba0e869b12.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/e1595f92ea75b1f367addedb5703852b1c7efded.png",
       "website": "https://agnost.ai",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Agnost AI reads every conversation a company's AI Agent has with its users to find where it's silently failing and then turns that same data into custom models that run the agent better and cheaper than frontier models.",
+      "long_description": "Agnost AI reads every conversation a company's AI Agent has with its users to find where it's silently failing and then turns that same data into custom models that run the agent better, faster & cheaper than frontier models.",
       "one_liner": "We find where AI agents fail, then train better models to run them.",
       "team_size": 2,
       "highlight_black": false,
@@ -3889,6 +3937,7 @@
       "tags": [
         "Artificial Intelligence",
         "Developer Tools",
+        "Machine Learning",
         "Analytics",
         "Monitoring"
       ],
@@ -5303,8 +5352,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/28b2676e2b5c4bb6bce97d4ce827f594e9743ce2.png",
       "website": "https://heytenor.com/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Tenor lets service businesses grow revenue without growing headcount. Our AI agents run entire jobs across existing tools, with persistent memory, budgets, guardrails, and measurable outcomes. They learn which decisions produce better results and improve over time.\r\n\r\nFor one customer, Tenor completed 1,500 hours of work in a month and increased revenue by 30%, with zero new hires. We signed $504k in ARR in four weeks and are already profitable.",
-      "one_liner": "The infrastructure for service businesses to build and scale with AI",
+      "long_description": "Tenor enables domain experts to build, run, and scale AI-native service businesses.\r\nThe next generation of successful white-collar service businesses will be built and scaled around AI from the ground up. These companies need more than capable AI models. They need a company data layer, governed workflows that AI can execute, and harnesses that continuously improve based on outcomes and decision checkpoints. Tenor is building this infrastructure so millions of AI-native businesses don’t have to build it themselves.",
+      "one_liner": "Infrastructure for building and scaling AI-native service businesses.",
       "team_size": 3,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -5313,9 +5362,9 @@
       "subindustry": "B2B",
       "launched_at": 1786480856,
       "tags": [
+        "Artificial Intelligence",
         "B2B",
-        "Automation",
-        "AI"
+        "Automation"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -5389,7 +5438,7 @@
       "website": "https://fabraix.com",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Fabraix builds state-of-the-art AI red-teaming agents that continuously detect security vulnerabilities in customer-facing AI. Our product, Nyx, has already found vulnerabilities in agents at dozens of Fortune 500 companies. On AgentHarm, the leading benchmark for offensive AI security, Nyx achieved a 78% attack success rate, compared with 67% for GPT-5.6 Sol.\r\n\r\nAI agents can change more often than teams can test them. A new model, prompt, tool, permission, or data source can change what an agent does, even when the application code stays the same. And AI is also increasing how much software companies produce and how often it changes. We built Nyx to automate the work required to red-team AI agents. It is multi modal by design and interacts with the target indirectly through controlled replicas of SaaS products and websites that we maintain, placing malicious payloads in webpages, documents, files, messages, and tool outputs to test how an agent behaves under different conditions.\r\n\r\nNyx often finds its first vulnerability within minutes or hours rather than days or weeks. Because the work is fully automated, companies can repeat the test with every change and at a much lower cost than what a 7-figure red-teaming (and point-in-time) engagement would require.\r\n\r\nWe're also the team behind ACE (Adversarial Cost to Exploit), a benchmark that measures AI security in terms of how much it costs attackers to break an AI system; providing a game-theoretic framework to understand how motivated a rational attacker would be in exploiting the system.",
-      "one_liner": "The world's frontier hacker for AI agents.",
+      "one_liner": "The world's frontier hacker of AI agents.",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -7184,7 +7233,7 @@
       "website": "https://www.exosat.com",
       "all_locations": "Singapore, Singapore",
       "long_description": "Exosat is building thousands of low-cost communication satellites to provide a neutral, sovereign alternative to Starlink. By designing our satellites with zero ITAR/EAR-controlled content, we can leverage manufacturers anywhere in the world to produce our satellites at under a tenth of the cost and launch them from other nations to bypass capacity bottlenecks and access equatorial orbits. \r\n\r\nWe're starting off by selling connectivity to device OEMs and network operators, but will eventually use the distributed compute across our constellation to run low-latency inference for robots and autonomous vehicles in remote and rural areas anywhere on the planet.\r\n\r\nWe've already signed hundreds of millions in LOIs to work with operators across Central Asia, Southeast Asia, and the Middle East, booked our first satellite launch next year, and hold an 11,000 satellite filing with the ITU to build the largest comms network outside of the U.S. and China.",
-      "one_liner": "Building a neutral and sovereign alternative to Starlink",
+      "one_liner": "Building a neutral, sovereign alternative to Starlink",
       "team_size": 1,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -7617,16 +7666,17 @@
     },
     {
       "id": 32205,
-      "name": "MOCHI.TV",
-      "slug": "mochitv",
+      "name": "Mochi",
+      "slug": "mochi",
       "former_names": [
-        "Mochi"
+        "Mochi",
+        "MOCHI.TV"
       ],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/f190f58f8300e2403a89619d8522badbb222ad8f.png",
       "website": "https://www.mochi.tv/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Mochi is a mobile-first entertainment platform for vertical anime shorts. Users can scroll to discover shows and binge bite-sized episodes, unlocking them with either coins or a subscription. We produce new shows daily with AI, and they've hit 200M+ views organically across all platforms.",
-      "one_liner": "Watch and create anime microdramas",
+      "long_description": "Mochi is an app to watch and create anime microdramas: fast paced shows with a cliffhanger every minute. We produce originals with AI, collaborating with writers from Marvel, Cartoon Network, and Toei Animation, and our users can also create in app too - with over 500 episodes created each day from 3,000+ creators.",
+      "one_liner": "Watch and create anime",
       "team_size": 3,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -7635,8 +7685,8 @@
       "subindustry": "Consumer -> Content",
       "launched_at": 1786602622,
       "tags": [
-        "Consumer",
-        "AI"
+        "Artificial Intelligence",
+        "Consumer"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -7657,7 +7707,7 @@
       "demo_day_video_public": false,
       "app_answers": null,
       "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/mochitv"
+      "url": "https://www.ycombinator.com/companies/mochi"
     },
     {
       "id": 32204,
@@ -7714,7 +7764,7 @@
       "website": "https://www.dialoguslabs.com/",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Dialogus builds voice agent infrastructure for enterprises.\r\n\r\nMost companies can demo an AI voice agent, but getting one into production is hard. Enterprise agents need to connect to phone systems, internal tools, databases, CRMs, messaging channels, human escalation flows, monitoring, and compliance processes.\r\n\r\nDialogus provides the infrastructure to deploy production-grade voice agents that don’t just talk but complete real workflows. Our platform lets enterprises launch agents that collect information, validate it against internal systems, update records, send follow-up messages, and escalate edge cases to humans.",
-      "one_liner": "The AI-native contact center.",
+      "one_liner": "The AI-native contact center",
       "team_size": 3,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -8547,7 +8597,7 @@
       "former_names": [
         "Understudy Labs"
       ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c3256dade0a8238b6c265f966b52c26ba9052e1e.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/900e0fabf138d248123ff3ddf28833736fbfb71d.png",
       "website": "https://orchestra.ai/",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Orchestra is an inference cloud. We capture your AI work traces, train smaller models, and automatically deploy them (only when they outperform the expensive model you are currently paying for).\r\n\r\nInstead of renting the same frontier model forever, your AI infrastructure gets faster, smarter, and cheaper every time it runs.\r\n\r\nSuppose your product uses Claude for a repetitive legal workflow.\r\n\r\nOrchestra observes successful production runs, learns the specific tools and judgment required for that workflow, and trains a specialized open-weight model.\r\n\r\nOnce that model matches or beats Claude on a held-out evaluation, Orchestra starts routing production traffic to it.\r\n\r\nAs more work is completed, the model keeps improving.\r\n\r\nWe started Orchestra because we believe every company using AI should be accumulating intelligence, not accumulating API bills.",
@@ -8905,7 +8955,7 @@
       "website": "https://zommalabs.com",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Zomma builds Computer Use Agents that do the repetitive screen work in finance: logging into portals, pulling reports, reconciling books, and filling forms across systems that will never get an API. Our agents use the same screens your ops team uses today, so there is no integration project. Every action stops for human approval before anything submits.",
-      "one_liner": "AI BPO for financial services, run by computer-use agents",
+      "one_liner": "The AI BPO for finance, run on computer-use agents",
       "team_size": 5,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -9170,7 +9220,7 @@
         "Belvedir",
         "Fractal Machine Research"
       ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/f4b8eaafe85179ae4c489b98d4477c6fa97bced3.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/823732d3a67703ee105bf266f45c3e43c175ef96.png",
       "website": "https://belvedir.ai/",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Belvedir makes it cheap and easy for anyone to make custom AI. Connect us to your agent traces through our SDK and we autonomously train custom models + harnesses + routers, privately deploy them, and recursively improve them as they are used. \r\n\r\nOur customers have seen 10x reductions in inference costs and 2x increases on benchmark scores.\r\n\r\nCustom AI models are going to win. Belvedir is the infrastructure needed to make trillions of them.",
@@ -9183,8 +9233,8 @@
       "subindustry": "B2B",
       "launched_at": 1784319754,
       "tags": [
-        "Machine Learning",
-        "AI"
+        "Artificial Intelligence",
+        "Machine Learning"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -9306,7 +9356,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/cfd986a9205506ed6e96b2903d048ce2aa98626d.png",
       "website": "https://ego.ist/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Egoist Machines is building the user-owned context layer that will be the unlock for the next generation of consumer AI applications. Our product, AI Passport, lets people carry the personal context they generate in everyday apps into any new product, so it understands them from the first interaction. Tell ChatGPT something and Claude already knows, for example, without any app ever owning your data.\r\n\r\nThe bottleneck for consumer AI is shifting from the model to context. Models can already handle most everyday tasks for the average user, but every new app starts cold, forcing users to re-explain themselves and forcing businesses to rebuild profiles of data that already exist.\r\n\r\nApps integrate with a \"Sign in with AI Passport\" button, then request specific information for a stated purpose and duration. Users stay in control of what moves between products and can revoke access later, which matters most for sensitive health and financial context. Under the hood, AI Passport runs on our own vector database built for fast, compact per-user memory with cryptographically enforced access control.\r\n\r\nWe're building first-party apps that give people a reason to create their Passport today, while integrating it into consumer products with existing audiences of billions.\r\n\r\nOur North Star: your context living on your own device, sovereign to you, with every model, app, and agent coming to you.",
+      "long_description": "Egoist Machines is building infrastructure for a world where your personal context belongs to you, rather than to the apps and AI companies you use. Today, every assistant and consumer app builds its own version of you. We think that architecture is backwards. Your context should live with you, persist across products, and be available to any model, app or agent you choose.\r\n\r\nAI Passport is the first layer of that infrastructure. It brings the context you generate across AI assistants and everyday apps into one portable profile you control. Tell ChatGPT something and Claude can already know it, for example. Switch to a new product and it can understand you from the first interaction, without the new company needing to own the underlying data.\r\n\r\nApps integrate through Sign in with AI Passport, requesting only the context they need for a specific purpose and duration. Users can see what is being accessed and revoke that access later. Underneath, we have built our own memory infrastructure for fast, compact per-user retrieval and permissioned access.\r\n\r\nWe are distributing AI Passport directly to consumers through first-party products, while integrating it into consumer applications with existing distribution. Every new product that uses Passport gives users another reason to maintain their context there, and every additional Passport holder makes the context layer more useful to developers.\r\n\r\nThe next step is to build a true Egoist Machine: an intelligent system whose memory, incentives and actions are governed by the individual it represents. We call it Digital Domovoy, the hardware extension of AI Passport. Instead of your most personal context ultimately living on somebody else's servers, it lives and is processed locally on hardware you control. AI Passport becomes the permission layer between that private local context and the cloud models and internet services you choose to use.\r\n\r\nOur North Star is the Egoist Machine: an intelligent system whose memory, incentives and actions are governed by the individual it represents.",
       "one_liner": "Your personal context, securely portable across every AI app.",
       "team_size": 2,
       "highlight_black": false,
@@ -9316,10 +9366,10 @@
       "subindustry": "Consumer",
       "launched_at": 1784701469,
       "tags": [
+        "Hardware",
         "Personalization",
         "Privacy",
         "Consumer Products",
-        "AI",
         "AI Assistant"
       ],
       "tags_highlighted": [],
@@ -9572,16 +9622,17 @@
     },
     {
       "id": 32121,
-      "name": "OpenTrade",
-      "slug": "opentrade",
+      "name": "Moonshot",
+      "slug": "moonshot-computer",
       "former_names": [
-        "Moonshot"
+        "Moonshot",
+        "OpenTrade"
       ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/2b3f64adc26505359934c58cacea3f1c48facac8.png",
-      "website": "https://opentrade.live/",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/609d8457269ad1be9496a28a67f4cd8fd8c26af1.png",
+      "website": "https://moonshot.computer/",
       "all_locations": "Seattle, WA, USA",
-      "long_description": "OpenTrade is rebuilding the trading experience for a generation raised on games, social products, and AI.",
-      "one_liner": "The new interface for investing.",
+      "long_description": "We want to bring AI agents to a billion people.\r\n\r\nTo do this, we believe it needs to be 1. proactive and 2. personal. A billion people already carry the right device, but none of them have the right connector.\r\n\r\nMoonshot is personal intelligence that lives on your iPhone and listens to you 24/7. It continuously builds up a greater understanding of you through constantly listening and building context. It just pays deep attention, the way a good friend does. Through this, Moonshot monitors your conscious and subconscious life, figuring out what you need before you know, reminding you about open loops, identifying life and emotional trends before you recognize it, and covering a lot more of what we gloss over in daily life.\r\n\r\nFor fifty years, software has waited to be asked. We think tools are just good enough to flip this, and the next great software will provide value before asking for something first. We're doing it through Moonshot.\r\n\r\nOur thesis is simple: you're only living half your life. The half that you actively remember. The other half just evaporates into your subconscious: what you said, felt, promised, and forgot. It's the more interesting half, and until now nothing could catch it, making it not actionable.\r\n\r\nMoonshot catches your subconscious half and understands you well enough to take actions on your behalf.\r\n\r\nTake life personally.\r\n\r\nThe iOS app is designed around ambient listening and clear user control. Short microphone chunks are sent securely to Moonshot's private transcription service and deleted when transcription finishes. Text and selected context can be sent through Moonshot's server to a model when the app needs to understand a moment. Nothing leaves without your yes. The privacy policy explains every data path, stored copy, permission, and deletion control in detail.\r\n\r\nMoonshot is in early access. Join the waitlist to hear when access opens, read more about the team and product on the About page, or use the Contact page for a direct written response from the Moonshot team.\r\n\r\nLet's make it a Moonshot.",
+      "one_liner": "agents for the rest of us",
       "team_size": 3,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -9589,13 +9640,7 @@
       "industry": "Consumer",
       "subindustry": "Consumer",
       "launched_at": 1783572660,
-      "tags": [
-        "Finance",
-        "Gaming",
-        "Investing",
-        "Consumer Finance",
-        "Stocks"
-      ],
+      "tags": [],
       "tags_highlighted": [],
       "top_company": false,
       "isHiring": false,
@@ -9614,7 +9659,7 @@
       "demo_day_video_public": false,
       "app_answers": null,
       "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/opentrade"
+      "url": "https://www.ycombinator.com/companies/moonshot-computer"
     },
     {
       "id": 32089,
@@ -9937,9 +9982,9 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/8fb84bc8b7f8d02b776dec7685bbaf102fdadf1c.png",
       "website": "https://edgerun.com",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Edgerun Industries builds military exoskeletons. Our hip-mounted system assists every step a soldier takes under combat load, so they can travel farther, carry more, and arrive ready to fight.",
+      "long_description": "Edgerun builds powered legs that double a soldier's range. Started this year. $100M+ in Ukrainian LOIs, requested by the most combat-experienced infantry on Earth. Our work is just beginning.",
       "one_liner": "Military exoskeletons",
-      "team_size": 8,
+      "team_size": 5,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -9947,6 +9992,8 @@
       "subindustry": "Industrials -> Defense",
       "launched_at": 1787343759,
       "tags": [
+        "Hard Tech",
+        "Hardware",
         "Robotics",
         "Defense"
       ],
@@ -17230,58 +17277,6 @@
       "url": "https://www.ycombinator.com/companies/multiplier"
     },
     {
-      "id": 31342,
-      "name": "Osmaura",
-      "slug": "osmaura",
-      "former_names": [
-        "Basis Labs",
-        "Basis",
-        "Osmaura",
-        "justreheat",
-        "JustReheat",
-        "vizlog",
-        "Halcyon"
-      ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/9ac7ce1b60bd6ac7d06599970f59c5e8bd6aa53a.png",
-      "website": "https://osmaura.com",
-      "all_locations": "San Francisco, CA, USA",
-      "long_description": "We surface client engagement, cross selling, upselling, and new client opportunities that a firm is well positioned to take advantage of. We manage the client experience from sourcing to onboarding to future matters.\r\n\r\nWe grew 0 -> 17.5k MRR in less than 5 weeks.\r\n\r\nWe're here to help law firms grow and care for their clients while they focus on what they do best. Lawyers are trained to practice law - not to prospect, sell, and manage clients.",
-      "one_liner": "AI-native network of corporate law firms",
-      "team_size": 2,
-      "highlight_black": false,
-      "highlight_latinx": false,
-      "highlight_women": false,
-      "industry": "B2B",
-      "subindustry": "B2B",
-      "launched_at": 1781994700,
-      "tags": [
-        "B2B",
-        "Sales Enablement",
-        "LegalTech",
-        "Customer Service",
-        "AI"
-      ],
-      "tags_highlighted": [],
-      "top_company": false,
-      "isHiring": false,
-      "nonprofit": false,
-      "batch": "Summer 2026",
-      "status": "Active",
-      "industries": [
-        "B2B"
-      ],
-      "regions": [
-        "United States of America",
-        "America / Canada"
-      ],
-      "stage": "Early",
-      "app_video_public": false,
-      "demo_day_video_public": false,
-      "app_answers": null,
-      "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/osmaura"
-    },
-    {
       "id": 31341,
       "name": "Most Robotic",
       "slug": "most-robotic",
@@ -19410,7 +19405,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/7a4b2fb5aaa99f5f795d2aa898508681eae26222.png",
       "website": "https://www.atlia.com",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "We manage short-term rental properties by running operations completely autonomously. By replacing costly human coordination with AI agents, we cut traditional management fees in half so Airbnb hosts take home 10% to 20% more revenue with zero effort. This lets us offer the best owner and guest experiences with the lowest management rates in the country.",
+      "long_description": "We use AI agents to manage short-term rental properties by running operations completely autonomously. We cut traditional human management fees in half so owners take home 20% to 30% more revenue. And we operate with near-zero boots-on-the-ground so we can scale nationwide with software margins and at venture speed in a traditionally physical industry.",
       "one_liner": "The AI-native property management company for short-term rentals",
       "team_size": 2,
       "highlight_black": false,
@@ -19422,7 +19417,9 @@
       "tags": [
         "Artificial Intelligence",
         "Real Estate",
-        "Big Data"
+        "Proptech",
+        "Big Data",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -41001,11 +40998,11 @@
         "Dart Labs",
         "prox"
       ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/243748cd44668d7819fa6c9fccf9c7ae41fe71ea.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/98f30fc74152325f6e0cd4158a192d0c292aefd1.png",
       "website": "https://useprox.com",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Every product ever sold needs support at some point. That support falls into one of two buckets.\r\n\r\nBucket 1: Simple stuff. T-shirts, screen protectors, keyboards. You buy it, it shows up, maybe you ask “where's my order?” once. This is solved. Zendesk and a hundred other horizontal companies solved it.\r\n\r\nBucket 2: Hard stuff. $20,000 industrial heaters. HVAC systems. CNC machines. Car parts. Products where buying wrong means your building doesn't have heat or your manufacturing line is down. Support for these products can only be performed by highly trained domain specialists and there aren't enough of them.\r\n\r\nIf you're selling EV charging stations, your support person needs to be a certified electrician who understands local power grids, installation codes, and compatibility matrices. You can't hire this off the street. You can't outsource it overseas.\r\n\r\nYou'd think LLMs would have solved this by now. They haven't. Three years into the LLM era, penetration in this industry is very low & the reason is twofold.\r\n\r\nFirst, off-the-shelf models don't actually understand these products. The knowledge lives in 48-page technical manuals buried on some manufacturer's website in terrible formatting — wiring schematics, compatibility matrices, installation diagrams that can only make sense visually. A general-purpose LLM can't draw you the diagram showing how to connect terminal A to terminal B. It doesn't have the spatial understanding or the product-specific reasoning to be a real technical advisor. So companies still rely entirely on human experts.\r\n\r\nSecond, even if the models were good enough, there are no harnesses to make them useful in the business.\r\n\r\nNo engine to capture deep technical knowledge about complex physical products and keep it updated. No way for a company to offload tribal knowledge from their senior technicians into a system. No way to see what questions customers are actually asking and feed that back into the knowledge base. No generative multimodal presentation and no expressive voice support.\r\n\r\nProx is building the best technical product expert for extremely complicated physical products.\r\n\r\nA multimodal agent that can draw wiring schemes, share CAD models, process incoming videos from a technician in the field, and support people over the phone with voice that can pass the Turing test. To get there, we're solving multimodal knowledge graph building at a very deep level. A huge portion of your work will be developing SOTA knowledge engines that can truly understand complex physical products.\r\n",
-      "one_liner": "AI technical support for complex physical products",
+      "long_description": "Prox turns product expertise into revenue for equipment manufacturers.\r\n\r\nEquipment buyers rarely begin with a model number. They begin with a job, an installed system, a constraint, or a problem. The knowledge needed to qualify, recommend, configure, quote, repair, replace, or upgrade the product is scattered across manuals, catalogs, spreadsheets, calculators, product managers, applications engineers, dealer processes, support teams, and legacy systems. The result is abandoned demand, slow qualification, wrong-fit recommendations, quote delays, weak dealer follow-up, missed parts and service revenue, and dependence on a few experienced people.\r\n\r\nProx builds AI product specialists for equipment manufacturers. A product specialist uses the manufacturer's approved product knowledge, expert rules, calculators, and connected systems to move customers and frontline teams from a complex product question to the right purchase, quote, dealer, parts, service, replacement, or upgrade path.\r\n\r\nHow it works:\r\n\r\n1. Understand what the person is trying to accomplish.\r\n2. Resolve the product, application, and operating context already available.\r\n3. Ask only for the missing information that changes the result.\r\n4. Apply approved sources, expert rules, and deterministic tools (calculators, selectors, configurators, comparisons).\r\n5. Produce a supported, cited recommendation, configuration, procedure, or decision artifact.\r\n6. Move the person into the correct cart, quote, RFQ, BOM, dealer, sales, parts, service, replacement, upgrade, or expert action with the context preserved.\r\n\r\nOne product specialist, many governed skills: product discovery and comparison, sizing and configuration, competitive defense, quote preparation, dealer enablement, installation and commissioning, troubleshooting, parts identification, and approved service, replacement, and upgrade paths. Manufacturers deploy those skills to customers, dealers, sales teams, applications engineers, support teams, or field service. Existing CRM, CPQ, commerce, and support systems stay in place.\r\n\r\nSupport and service are revenue-bearing surfaces. The specialist resolves the customer's problem first, then surfaces the approved part, service, replacement, or upgrade path only when the evidence supports it.",
+      "one_liner": "AI product specialists for equipment manufacturers",
       "team_size": 7,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -41014,10 +41011,10 @@
       "subindustry": "B2B -> Retail",
       "launched_at": 1759337800,
       "tags": [
-        "Artificial Intelligence",
         "Customer Success",
         "E-commerce",
-        "Customer Support"
+        "Customer Support",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -103443,7 +103440,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": false,
+      "isHiring": true,
       "nonprofit": false,
       "batch": "Winter 2023",
       "status": "Active",
@@ -210201,7 +210198,7 @@
         "Crypto / Web3"
       ],
       "top_company": false,
-      "isHiring": true,
+      "isHiring": false,
       "nonprofit": false,
       "batch": "Summer 2018",
       "status": "Active",
