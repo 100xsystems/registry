@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-08T16:04:02.604Z",
+  "fetchedAt": "2026-09-08T20:33:01.618Z",
   "count": 6204,
   "companies": [
     {
@@ -563,6 +563,51 @@
       "url": "https://www.ycombinator.com/companies/hemlock"
     },
     {
+      "id": 35521,
+      "name": "ORO AI",
+      "slug": "oro-ai",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/b66a9717c54294ba9f6e296bb8c04f9c3da74d27.png",
+      "website": "https://www.oroagents.com",
+      "all_locations": "Vancouver, BC, Canada",
+      "long_description": "We're building the open benchmark for commerce.\r\n\r\nBuilders submit shopping agents. Independent validators run them against problems that change daily. The best agent earns the rewards, and every run becomes training data.",
+      "one_liner": "Continuously improving evals for agentic commerce",
+      "team_size": 2,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "B2B",
+      "subindustry": "B2B -> Engineering, Product and Design",
+      "launched_at": 1788891308,
+      "tags": [
+        "Artificial Intelligence",
+        "Crypto / Web3",
+        "Consumer Products"
+      ],
+      "tags_highlighted": [
+        "Crypto / Web3"
+      ],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Fall 2026",
+      "status": "Active",
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "regions": [
+        "Canada",
+        "America / Canada"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/oro-ai"
+    },
+    {
       "id": 35395,
       "name": "Workers IO",
       "slug": "workers-io",
@@ -570,8 +615,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/12ec3720a247bad2e5a39d162b68e217ed6b74bd.png",
       "website": "https://workers.io",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Workers IO makes sure everything you ship works. Our platform maps every scenario your software can face in production and verifies each release against all of them in simulation environments, every failure comes back as an exact, replayable run.\r\n\r\nEngineering teams stop chasing bugs and ship at agent speed, with certainty that used to be impossible.",
-      "one_liner": "Deterministic Virtual Machines",
+      "long_description": "Workers IO verifies your entire system across millions of interleaving, faults, and timings to find the exact conditions that break the software properties you care about.\r\n\r\nBuilt for teams where 99.99% uptime is table-stakes. ",
+      "one_liner": "Simulation Environments for Verifying Mission Critical Software",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -580,10 +625,10 @@
       "subindustry": "B2B -> Engineering, Product and Design",
       "launched_at": 1787942068,
       "tags": [
-        "Artificial Intelligence",
         "Developer Tools",
         "B2B",
-        "Infrastructure"
+        "Infrastructure",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -1085,7 +1130,7 @@
       "all_locations": "",
       "long_description": "Billions of people need tourist visas to travel the world. We use AI agents to prepare applications, verify documents, secure appointments, and handle the visa process end to end.\r\n",
       "one_liner": "AI travel agent for people with weak passports, starting with visas.",
-      "team_size": 1,
+      "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -1094,8 +1139,8 @@
       "launched_at": 1786858536,
       "tags": [
         "AIOps",
-        "Consumer",
-        "AI"
+        "Artificial Intelligence",
+        "Consumer"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -1792,7 +1837,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/3c2193e7412febe2e812491e1a73617bb09eb897.png",
       "website": "https://hardwareintelligence.ai",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "",
+      "long_description": "Hardware Intelligence makes chip design tools that cut simulation and debugging time by an order of magnitude. When a chip test fails, engineers need a recording of every internal signal - a waveform. We’ve developed WaveZip, which captures waveforms 500x smaller with 200x less overhead. We’re Rishov Sarkar (Georgia Tech PhD in chip simulation) and Athreya Anand (ex-Google, M.S. ML/AI).",
       "one_liner": "AI tools for the chips your AI runs on",
       "team_size": 2,
       "highlight_black": false,
@@ -1802,11 +1847,11 @@
       "subindustry": "B2B -> Engineering, Product and Design",
       "launched_at": 1784052551,
       "tags": [
-        "Artificial Intelligence",
         "Developer Tools",
         "Hardware",
         "Enterprise Software",
-        "Semiconductors"
+        "Semiconductors",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -2153,7 +2198,7 @@
       "website": "https://nex.ai",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Nex builds and runs the complex, high-volume GTM workflows that general-purpose agents struggle with. Built by ex-HubSpotters who ran its three largest customer platforms and backed by HubSpot founder Dharmesh Shah.",
-      "one_liner": "Claude Cowork for high volume GTM workflows",
+      "one_liner": "AI for high volume GTM Engineering",
       "team_size": 5,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -2242,8 +2287,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/b6b4e6b2f945df4b3400a22fc1d287a788bc4215.png",
       "website": "https://www.vernius.systems",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "We make radar seekers for interceptors. The seeker — the sensor that finds and locks onto targets — is the most critical and costly component in every interceptor. Developing a radar seeker takes a 200+ person team at Raytheon and hundreds of millions of dollars. We’ve built a pipeline which automates their entire engineering pipeline, and can produce working seekers in weeks, not years.",
-      "one_liner": "Low cost radars for air defense",
+      "long_description": "We make mass-deployable radars for unmanned systems. Our first product is Archimedes, a radar seeker that finds and locks onto targets, enabling autonomous intercept on any drone. We have over $580M in LOIs for Archimedes, across some of the largest defense primes in Ukraine, the EU, and the Middle East.\r\n\r\nSeekers are the most critical and costly component in every autonomous interceptor. Developing a radar seeker takes a 200+ person team at Raytheon and hundreds of millions of dollars. Archimedes is 100x cheaper than existing radar seekers on the market - and is the first product to make it feasible to deploy radars on every drone.",
+      "one_liner": "Mass-deployable radars for air defense",
       "team_size": 3,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -4951,8 +4996,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/ee4bd602221f77fc05dda940b7202523dd2b9d10.png",
       "website": "https://movingatoms.ai/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Our first model, Atom 1, pre-trained on the internets video, and fine tuned for physics.\r\nIt has been action conditioned, so you can simulate robot actions within it.\r\nThis lets Robot Labs train their robots using GPUs instead of relying on human collected manual data that is slow and expensive.\r\nIn unseen and hard to replicate environments, this is the only path to getting ANY training data.",
-      "one_liner": "World Models for training robots",
+      "long_description": "Our first model, Atom 1, pre-trained on the internets video, and fine tuned for physics. \r\nIt has been action conditioned, so you can simulate robot actions within it.\r\nThis lets Robot Labs train their robots using GPUs instead of relying on human collected manual data that is slow and expensive.\r\nIn unseen and hard to replicate environments, this is the only path to getting ANY training data.",
+      "one_liner": "World Models (Virtual Reality) for training robots",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -5702,7 +5747,7 @@
       "website": "https://akonlabs.com",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "",
-      "one_liner": "The Github For Coding Agents",
+      "one_liner": "Databricks for Enterprise Codebases",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -5711,10 +5756,10 @@
       "subindustry": "B2B",
       "launched_at": 1786669281,
       "tags": [
-        "Artificial Intelligence",
         "Generative AI",
         "SaaS",
-        "B2B"
+        "B2B",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -13449,7 +13494,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/abb178493b637223c4623f43b2c209131939af8e.png",
       "website": "https://plan0.ai/",
       "all_locations": "",
-      "long_description": "PLAN0 is building the Bloomberg of construction for real estate developers, investors, and general contractors — $20B of projects are already running through the platform.\r\n\r\nWe analyze architectural plans using vision models to generate detailed cost estimates and analytics in minutes. Through industry partnerships, the platform also aggregates historical and real-time project data across all major geographies to power ML-driven analytics, decomposing costs into market-observable factors and creating an agentic layer for cost optimization.",
+      "long_description": "PLAN0 is building the Bloomberg of construction for real estate developers, investors, and general contractors — $30B of projects are already running through the platform.\r\n\r\nWe analyze architectural plans using vision models to generate detailed cost estimates and analytics in minutes. Through industry partnerships, the platform also aggregates historical and real-time project data across all major geographies to power ML-driven analytics, decomposing costs into market-observable factors and creating an agentic layer for cost optimization.",
       "one_liner": "Construction Cost Intelligence.",
       "team_size": 4,
       "highlight_black": false,
@@ -14026,50 +14071,6 @@
       "app_answers": null,
       "question_answers": false,
       "url": "https://www.ycombinator.com/companies/runharbor"
-    },
-    {
-      "id": 31444,
-      "name": "Alchemize",
-      "slug": "alchemize",
-      "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/f82ae07ea418af65738a5555df328a4907b4da13.png",
-      "website": "https://tryalchemize.com",
-      "all_locations": "San Francisco, CA, USA",
-      "long_description": "Alchemize is an AI code review platform that helps teams understand and test code.\r\n\r\nAgentic coding has 10x’d code output, creating larger PRs more frequently, but existing review workflows haven’t kept up. \r\n\r\nAlchemize breaks large changes into smaller, dependency-ordered PRs and guided reviews. It surfaces the prompts, intent, and assumptions behind agent-written code, then uses browser agents to test affected workflows.\r\n\r\nReviewers can quickly understand how a change works, identify where human judgment is needed, and ship faster with more confidence.",
-      "one_liner": "Ship more code with confidence",
-      "team_size": 2,
-      "highlight_black": false,
-      "highlight_latinx": false,
-      "highlight_women": false,
-      "industry": "B2B",
-      "subindustry": "B2B -> Engineering, Product and Design",
-      "launched_at": 1778526600,
-      "tags": [
-        "Developer Tools",
-        "B2B",
-        "Productivity",
-        "Enterprise Software"
-      ],
-      "tags_highlighted": [],
-      "top_company": false,
-      "isHiring": false,
-      "nonprofit": false,
-      "batch": "Spring 2026",
-      "status": "Active",
-      "industries": [
-        "B2B",
-        "Engineering, Product and Design"
-      ],
-      "regions": [
-        "United States of America",
-        "America / Canada"
-      ],
-      "stage": "Early",
-      "app_video_public": false,
-      "demo_day_video_public": false,
-      "app_answers": null,
-      "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/alchemize"
     },
     {
       "id": 31443,
@@ -19409,7 +19410,7 @@
       "website": "https://www.pingdream.com/",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Dream makes AI cameras that catch damage teams miss. Car dealerships, equipment rental companies, fleets, and more move expensive assets in and out all day, and undocumented damage is a costly leak.\r\n\r\nDream cameras are simple to set up and work automatically. Each vehicle or machine that passes is photographed from every angle, identified, and reconstructed into a complete condition record. On return or intake, Dream instantly flags new dents, scrapes, and changes your team might miss, giving one source of truth for every asset's condition over time.\r\n\r\nRyland worked at X/xAI and built aerial damage-detection vision at Vexcel Imaging. Alexander worked at AWS and trained edge-camera models deployed in the wild across Africa and India to detect poachers.",
-      "one_liner": "AI cameras that catch asset damage",
+      "one_liner": "Using VLMs to Catch Real World Damage",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -22552,7 +22553,7 @@
       "tags": [],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": false,
+      "isHiring": true,
       "nonprofit": false,
       "batch": "Winter 2026",
       "status": "Active",
@@ -48161,8 +48162,8 @@
     },
     {
       "id": 30345,
-      "name": "Tee Time Tommy",
-      "slug": "tee-time-tommy",
+      "name": "Codevisor",
+      "slug": "codevisor",
       "former_names": [
         "851 Inc.",
         "851",
@@ -48170,24 +48171,25 @@
         "emojis",
         "emojis.com",
         "Lightbox",
-        "emojis.com"
+        "emojis.com",
+        "Tee Time Tommy"
       ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/da12abcb76c9086dab8dd1259bef41c842d90d23.png",
-      "website": "https://teetimetommy.com/",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/36fd79daacb53819fc86fd68b564556a5bd51a64.png",
+      "website": "https://www.codevisor.dev",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "",
-      "one_liner": "Book and manage all of your golf tee times in one place.",
+      "long_description": "Codevisor is an open-source native macOS app for agentic engineering. Run Claude Code, Codex, Pi, and any ACP-compatible coding agent on your own machines in one place.\r\n\r\nCodevisor brings agent chats, projects, and an integrated terminal into a single workspace. Connect remote Macs or Linux servers to run agents where your code lives and keep working across machines.",
+      "one_liner": "The fastest native app for agentic engineering.",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
-      "industry": "Consumer",
-      "subindustry": "Consumer",
+      "industry": "B2B",
+      "subindustry": "B2B -> Engineering, Product and Design",
       "launched_at": 1740542821,
       "tags": [
-        "Sports Tech",
-        "Consumer",
-        "Booking"
+        "Artificial Intelligence",
+        "Developer Tools",
+        "Open Source"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -48196,7 +48198,8 @@
       "batch": "Winter 2025",
       "status": "Active",
       "industries": [
-        "Consumer"
+        "B2B",
+        "Engineering, Product and Design"
       ],
       "regions": [
         "United States of America",
@@ -48207,7 +48210,7 @@
       "demo_day_video_public": false,
       "app_answers": null,
       "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/tee-time-tommy"
+      "url": "https://www.ycombinator.com/companies/codevisor"
     },
     {
       "id": 30343,
@@ -77104,7 +77107,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": true,
+      "isHiring": false,
       "nonprofit": false,
       "batch": "Winter 2024",
       "status": "Active",
@@ -86548,8 +86551,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/bd215af97ab581709a04ff6284c6091f29c2058e.png",
       "website": "https://rimward.ai/",
       "all_locations": "Paris, Île-de-France, France",
-      "long_description": "Rimward helps operators of solar farms and other remote outdoor infrastructure detect intrusions from existing camera networks. We turn existing CCTV into operator-ready alerts with video verification, so security teams can reduce false alarms, respond faster, and avoid heavy hardware retrofits.\r\n\r\nWe are focused on sites where recurring theft, perimeter intrusion, and low staffing make traditional monitoring noisy and operationally weak. Our approach is software-heavy, field-oriented, and built to work with real site constraints.",
-      "one_liner": "Low-false-positive intrusion detection for remote outdoor sites",
+      "long_description": "Rimward helps solar asset managers detect intrusions using the cameras already installed across their sites. It flags camera failures and coverage gaps, and gathers video evidence from multiple cameras to help their team or monitoring provider filter out false alarms and decide when to act.",
+      "one_liner": "Solar farm security software for existing cameras",
       "team_size": 1,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -99398,14 +99401,16 @@
     },
     {
       "id": 27875,
-      "name": "Iliad",
-      "slug": "iliad",
-      "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/704cabf9ad75f0fbbf74aa11aa3372df14b27ea1.png",
-      "website": "https://iliad.ai",
+      "name": "Aqueduct",
+      "slug": "aqueduct",
+      "former_names": [
+        "Iliad"
+      ],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/9942f88e0ad31a3c3da6a0f408886f28f73dabbd.png",
+      "website": "https://aqueduct.sh",
       "all_locations": "Pittsburgh, PA, USA",
-      "long_description": "Iliad is building a procedural material engine and editor that runs in the browser and is easily readable and editable by agents. Environment artists and ArchViz teams use Iliad to author or turn references into new digital PBR materials.",
-      "one_liner": "Create adjustable procedural materials with agents.",
+      "long_description": "Aqueduct is a browser-based procedural material engine and editor.\r\n\r\nThink Substance Designer, with live-sync to Unreal, agents that can read and edit material graphs, and shareable links to those graphs.",
+      "one_liner": "Create, edit, and share procedural material graphs.",
       "team_size": 1,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -99414,10 +99419,10 @@
       "subindustry": "B2B",
       "launched_at": 1674524413,
       "tags": [
-        "Generative AI",
+        "Artificial Intelligence",
+        "Developer Tools",
         "Gaming",
-        "Design Tools",
-        "AI"
+        "Design Tools"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -99437,7 +99442,7 @@
       "demo_day_video_public": false,
       "app_answers": null,
       "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/iliad"
+      "url": "https://www.ycombinator.com/companies/aqueduct"
     },
     {
       "id": 27874,
@@ -129702,7 +129707,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": true,
+      "isHiring": false,
       "nonprofit": false,
       "batch": "Winter 2022",
       "status": "Active",
@@ -130238,7 +130243,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/72afaac30b2857360fd2c20810a8d2c00083b39a.png",
       "website": "https://www.fleetzero.com",
       "all_locations": "Houston, TX, USA",
-      "long_description": "Fleetzero builds electric and hybrid propulsion systems for large ships and is developing unmanned cargo vessels. ",
+      "long_description": "Fleetzero builds robot ships to deliver cargo for customers.",
       "one_liner": "Making all ships robots. ",
       "team_size": 40,
       "highlight_black": false,
@@ -130248,7 +130253,11 @@
       "subindustry": "Industrials",
       "launched_at": 1643126180,
       "tags": [
-        "Climate"
+        "Autonomous Shipping",
+        "Hard Tech",
+        "Hardware",
+        "Robotics",
+        "Transportation"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -194497,7 +194506,7 @@
       "isHiring": false,
       "nonprofit": false,
       "batch": "Summer 2019",
-      "status": "Active",
+      "status": "Inactive",
       "industries": [
         "B2B"
       ],
@@ -195378,7 +195387,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": true,
+      "isHiring": false,
       "nonprofit": false,
       "batch": "Winter 2019",
       "status": "Active",
@@ -238363,7 +238372,7 @@
         "Remote",
         "Fully Remote"
       ],
-      "stage": "Growth",
+      "stage": "Early",
       "app_video_public": false,
       "demo_day_video_public": true,
       "app_answers": null,
@@ -266952,12 +266961,12 @@
       "name": "Olark",
       "slug": "olark",
       "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/7ff33564bb52577d5950335e7ae4c2e1fab8f9fa.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/f2971ba804a1fb214a567b3c22e4e6fd1b271fdf.png",
       "website": "http://olark.com",
-      "all_locations": "San Francisco, CA, USA; Ann Arbor, MI, USA",
-      "long_description": "Olark is easy-to-use live chat software that lets you talk to customers on your website. \r\n\r\nOlark can help you track leads, drive sales, increase conversions, and provide great customer service. Real-time visitor information like login name, geographic location, purchase history and cart contents help you personalize every interaction and strengthen customer relationships. \r\n\r\nSign up and start making your customers happier today!\r\n\r\nClick here to sign up for a demo:\r\nhttps://hello.olark.com/sales",
-      "one_liner": "The best live chat software on the planet.  We help you build…",
-      "team_size": 28,
+      "all_locations": "San Francisco, CA, USA; Remote",
+      "long_description": "Built for the marketer doing five jobs at once. Easily install an Olark AI agent to answer questions, qualify visitors, and know exactly when to bring in a human.\r\n\r\nOlark is easy-to-use live chat software that lets you talk to customers on your website. \r\n\r\nOlark can help you track leads, drive sales, increase conversions, and provide great customer service. Real-time visitor information like login name, geographic location, purchase history and cart contents help you personalize every interaction and strengthen customer relationships. \r\n\r\nSign up and start making your customers happier today!\r\n\r\nUse our previewer on https://olark.com to try it on your website in less than 60 seconds.",
+      "one_liner": "Olark gives you an AI agent that works your marketing funnel 24/7",
+      "team_size": 15,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -266966,8 +266975,10 @@
       "launched_at": 1326790657,
       "tags": [
         "Sales",
+        "Marketing",
         "Customer Service",
-        "Chat"
+        "Chat",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -266981,7 +266992,9 @@
       ],
       "regions": [
         "United States of America",
-        "America / Canada"
+        "America / Canada",
+        "Remote",
+        "Fully Remote"
       ],
       "stage": "Early",
       "app_video_public": false,

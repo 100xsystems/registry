@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-07-24T07:03:41.261Z",
+  "updatedAt": "2026-09-08T20:32:51.762Z",
   "items": [
     {
       "guid": "postmark::https://postmarkapp.com/blog/the-postmark-mcp-server-one-year-later-from-4-tools-to-24",
@@ -87,7 +87,15 @@
       "summary": "We recently became aware of a malicious npm package called \"postmark-mcp\" on npm that was impersonating Postmark and stealing user emails. We want to be crystal clear: Postmark had absolutely nothing to do with this package or the malicious activity.\nHere's what happened: A malicious actor created…",
       "author": "Postmark team",
       "publishedAt": "2025-09-25T22:02:00.000Z"
+    },
+    {
+      "guid": "postmark::https://postmarkapp.com/blog/restrict-email-sending-api-with-ip-allowlisting",
+      "title": "Introducing IP Allowlisting",
+      "link": "https://postmarkapp.com/blog/restrict-email-sending-api-with-ip-allowlisting",
+      "summary": "Good security is layered and each layer does a job the others can't. Scoping a token to a Server limits what it reaches. Rotating a token limits how long it lasts. Neither can say anything about where a request came from.\nWe've been hard at work to ship a new layer of protection that can.\nIP…",
+      "author": "Dan DiGangi",
+      "publishedAt": "2026-09-08T17:37:00.000Z"
     }
   ],
-  "totalIndexed": 10
+  "totalIndexed": 11
 }
