@@ -4,97 +4,97 @@
 - Current total: 6204
 - Added: 0
 - Removed: 0
-- Updated: 19
+- Updated: 20
 
 
 ## Updated Companies
 
-### [The Essential](https://www.ycombinator.com/companies/the-essential)
+### [Eden](https://www.ycombinator.com/companies/eden-2)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/690fb6b08cd23a5001d2df61c2014c2b652d1650.png → https://bookface-images.s3.amazonaws.com/small_logos/45582b16a5d938bbad091f36c2df3206414b1b7e.png
-- `tags`: E-commerce,Food Tech → Consumer,Manufacturing,E-commerce,Supply Chain
+- `stage`: Early → Growth
 
-### [AYC Fund](https://www.ycombinator.com/companies/ayc-fund)
+### [Canix](https://www.ycombinator.com/companies/canix)
 
-- `tags`: Crypto / Web3,Finance,Trading,AI,Cryptocurrency → Artificial Intelligence,Crypto / Web3,Finance,Trading,Cryptocurrency
-
-### [Quinn](https://www.ycombinator.com/companies/quinn)
-
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/5bd3e4de086fbafd70c63dbae211f55425382f05.png → https://bookface-images.s3.amazonaws.com/small_logos/bbcdfea1d8de2241298588710c23af6fc6a61bf6.png
-- `one_liner`: The AI that delivers pharma R&D decisions in days, not months → Your biopharma team, from molecule design to portfolio strategy
-- `team_size`: 4 → 5
-- `tags`: Generative AI,Biotech,Enterprise,AI → Artificial Intelligence,Generative AI,Biotech,Enterprise
-
-### [Concourse](https://www.ycombinator.com/companies/concourse)
-
-- `website`: https://concourse.co/ → https://concourse.ai/
-- `one_liner`: AI Agents for corporate finance teams → The AI Agent platform for finance
-- `team_size`: 7 → 15
+- `stage`: Early → Growth
 
 ### [Gumloop](https://www.ycombinator.com/companies/gumloop)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/9fb7e0ce6656ba8369bfc7fdddd4235e6657221b.png → https://bookface-images.s3.amazonaws.com/small_logos/3eebd709f02fd63448eb63570e4c5981fbd6651a.png
-- `one_liner`: A no-code platform for creating agents and automating workflows with… → The multiplayer AI agent builder. Let anyone build, IT controls access
-- `team_size`: 37 → 44
-- `tags`:  → Artificial Intelligence,Automation
-- `stage`: Growth → Early
+- `stage`: Early → Growth
 
-### [Tensr](https://www.ycombinator.com/companies/tensr)
+### [Magic Hour](https://www.ycombinator.com/companies/magic-hour)
 
-- `one_liner`: Robotic factories that build robots. → Robotic factories that build robots
+- `one_liner`: Platform for AI video generation. → AI media creation platform for creators and developers
+- `tags`: Artificial Intelligence,B2B,Video,Media,Creator Economy → Generative AI,Video,Media,API,Creator Economy
+- `regions`: United States of America,America / Canada → United States of America,America / Canada,Remote,Partly Remote
 
-### [Rapidfolio](https://www.ycombinator.com/companies/rapidfolio)
+### [Async](https://www.ycombinator.com/companies/withasync)
 
-- `one_liner`: AI for fintechs & banks → AI-native back-office for banks and fintechs
+- `tags`: B2B,AI → Artificial Intelligence,B2B
 
-### [Parameter](https://www.ycombinator.com/companies/parameter)
+### [OS3](https://www.ycombinator.com/companies/os3)
 
-- `team_size`: 11 → 14
-
-### [Datoric](https://www.ycombinator.com/companies/datoric)
-
-- `tags`: Machine Learning,Robotics,Data Labeling,AI → Artificial Intelligence,Machine Learning,Robotics,Data Labeling
-
-### [Poth Labs](https://www.ycombinator.com/companies/poth-labs)
-
-- `one_liner`: Conversational surveys that replace Qualtrics for large brands → The customer brain that connects data to explain customer behavior
+- `tags`: Hardware,Robotics,B2B,AI → Artificial Intelligence,Hardware,Robotics,B2B
 
 ### [Most Robotic](https://www.ycombinator.com/companies/most-robotic)
 
-- `one_liner`: Research lab for physical AI → Research lab building the world's most robotic household
+- `one_liner`: Research lab building the world's most robotic household → Research lab building the most robotic household in the world
+- `tags`: Robotics,AI → Artificial Intelligence,Robotics
 
-### [Kebra](https://www.ycombinator.com/companies/kebra)
+### [Sidekick](https://www.ycombinator.com/companies/textsidekick)
 
-- `one_liner`: Making the field queryable → AI For The Skilled Workforce
-- `tags`: Artificial Intelligence,B2B,Home Services,Operations → B2B,Home Services,Operations,AI
+- `one_liner`: AI agent that manages frontline operations over text → AI agent that manages manufacturing operations over text
 
-### [Shielded](https://www.ycombinator.com/companies/shielded)
+### [E1O](https://www.ycombinator.com/companies/e1o)
 
-- `one_liner`: The agentic origination desk for supply chain risk. → We help Fortune 500 companies hedge their supply chain risk
+- `name`: ED1TH → E1O
+- `slug`: ed1th → e1o
+- `former_names`: Datost → Datost,ED1TH
+- `website`: https://www.ed1th.com → https://e1o.com
+- `one_liner`: Jarvis IRL → Camera-free AI glasses. Your AI, out in the world.
 
-### [Glen](https://www.ycombinator.com/companies/glen)
+### [Belvedir](https://www.ycombinator.com/companies/belvedir)
 
-- `isHiring`: false → true
+- `one_liner`: The easiest way to make custom AI models → Custom Model Factory For Cheaper, Better, Faster AI
+- `tags`: Artificial Intelligence,Machine Learning → Machine Learning,AI
 
-### [Manifold](https://www.ycombinator.com/companies/manifold-2)
+### [Kara](https://www.ycombinator.com/companies/kara)
 
-- `one_liner`: Deployment-ready robotic labor for the supply chain industry  → Drop-in robotic labor that works on Day 1
+- `one_liner`: Making Diamond Engineerable → Making Diamond Semiconductors
 
-### [Graphify Labs](https://www.ycombinator.com/companies/graphify-labs)
+### [Zomma](https://www.ycombinator.com/companies/zomma)
 
-- `all_locations`: London, England, United Kingdom → San Francisco, CA, USA
-- `one_liner`: On-device knowledge graph engine for enterprises → On-device Knowledge Graph engine for Enterprise Codebases 
-- `team_size`: 2 → 1
-- `regions`: United Kingdom,Europe,Remote,Partly Remote → United States of America,America / Canada,Remote,Partly Remote
+- `one_liner`: The AI BPO for finance, run on computer-use agents → The AI BPO for financial servies, run by computer-use agents
+- `tags`: Robotic Process Automation,Finance,B2B,Workflow Automation,AI → Artificial Intelligence,Robotic Process Automation,Finance,B2B,Workflow Automation
 
-### [Aktoria Robotics](https://www.ycombinator.com/companies/aktoria-robotics)
+### [Alloovium](https://www.ycombinator.com/companies/alloovium)
 
-- `isHiring`: false → true
+- `tags`: Construction,AI → Artificial Intelligence,Construction
 
-### [Decawork](https://www.ycombinator.com/companies/decawork)
+### [COACH](https://www.ycombinator.com/companies/ai-coach)
 
-- `tags`: B2B,Security,Infrastructure,AI → Artificial Intelligence,B2B,Security,Infrastructure
+- `tags`: Artificial Intelligence,SaaS,B2B,Sales,Sales Enablement → SaaS,B2B,Sales,Sales Enablement,AI
 
-### [OpenTag](https://www.ycombinator.com/companies/opentag)
+### [Prodigy Research](https://www.ycombinator.com/companies/prodigy-research)
 
-- `one_liner`: The AI coworker that lives in Slack → Model Agnostic Claude Tag
+- `one_liner`: Training the world's best foundation model for quantitative finance. → Training the world's best AI model for quantitative finance.
+
+### [Greypoint Industries](https://www.ycombinator.com/companies/greypoint-industries)
+
+- `one_liner`: Building drone swarms that hunt drone operators → Building drone swarms that hunt hidden enemies.
+
+### [Almanac](https://www.ycombinator.com/companies/almanac)
+
+- `one_liner`: The agent that knows your work absurdly well → Organizing company knowledge
+- `tags`: Artificial Intelligence,Generative AI,AI Assistant → Generative AI,AI,AI Assistant
+
+### [Marengo](https://www.ycombinator.com/companies/marengo)
+
+- `tags`: Artificial Intelligence,Design,Energy,Architecture → Design,Energy,Architecture,AI
+
+### [Derya](https://www.ycombinator.com/companies/derya)
+
+- `one_liner`: Agents for Industrial Supply Chains → AI Brokers for Industrial Trade
+
+### [HyperProbe](https://www.ycombinator.com/companies/hyperprobe)
+
+- `one_liner`: Data layer AI Agents call to fix production apps → AI engineer that debugs and fixes production incidents in realtime
