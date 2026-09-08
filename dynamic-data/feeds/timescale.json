@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-09-04T10:59:21.410Z",
+  "updatedAt": "2026-09-08T16:03:57.134Z",
   "items": [
     {
       "guid": "https://www.tigerdata.com/blog/whats-new-in-tiger-cloud",
@@ -79,7 +79,15 @@
       "summary": "Tiger Cloud on Azure vs self-hosting TimescaleDB: skip-scan, compression, continuous aggregates, tiered storage, private endpoints, and cross-region backups—fully managed.",
       "author": "Nicole Ghalwash",
       "publishedAt": "2026-09-03T17:50:14.000Z"
+    },
+    {
+      "guid": "https://www.tigerdata.com/blog/ai-agent-production-database-access",
+      "title": "Is It Safe to Give an AI Agent Access to Your Production Database?",
+      "link": "https://www.tigerdata.com/blog/ai-agent-production-database-access",
+      "summary": "Giving an AI agent unrestricted database access isn't safe. Scoped, read-only, database-enforced access can be. See the framework and guardrails.",
+      "author": "Nicole Ghalwash",
+      "publishedAt": "2026-09-08T13:19:27.000Z"
     }
   ],
-  "totalIndexed": 9
+  "totalIndexed": 10
 }

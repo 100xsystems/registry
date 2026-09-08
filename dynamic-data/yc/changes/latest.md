@@ -4,97 +4,38 @@
 - Current total: 6204
 - Added: 0
 - Removed: 0
-- Updated: 20
+- Updated: 7
 
 
 ## Updated Companies
 
-### [Eden](https://www.ycombinator.com/companies/eden-2)
+### [Brite](https://www.ycombinator.com/companies/brite)
 
-- `stage`: Early → Growth
-
-### [Canix](https://www.ycombinator.com/companies/canix)
-
-- `stage`: Early → Growth
-
-### [Gumloop](https://www.ycombinator.com/companies/gumloop)
-
-- `stage`: Early → Growth
-
-### [Magic Hour](https://www.ycombinator.com/companies/magic-hour)
-
-- `one_liner`: Platform for AI video generation. → AI media creation platform for creators and developers
-- `tags`: Artificial Intelligence,B2B,Video,Media,Creator Economy → Generative AI,Video,Media,API,Creator Economy
-- `regions`: United States of America,America / Canada → United States of America,America / Canada,Remote,Partly Remote
+- `team_size`: 15 → 30
+- `stage`: Growth → Early
 
 ### [Async](https://www.ycombinator.com/companies/withasync)
 
-- `tags`: B2B,AI → Artificial Intelligence,B2B
+- `tags`: Artificial Intelligence,B2B → B2B,AI
 
-### [OS3](https://www.ycombinator.com/companies/os3)
+### [Oxus](https://www.ycombinator.com/companies/oxus)
 
-- `tags`: Hardware,Robotics,B2B,AI → Artificial Intelligence,Hardware,Robotics,B2B
+- `isHiring`: false → true
 
-### [Most Robotic](https://www.ycombinator.com/companies/most-robotic)
+### [OneTriangle](https://www.ycombinator.com/companies/onetriangle)
 
-- `one_liner`: Research lab building the world's most robotic household → Research lab building the most robotic household in the world
-- `tags`: Robotics,AI → Artificial Intelligence,Robotics
+- `one_liner`: The cheapest, fastest lightweight inference.  → The cheapest, fastest inference cloud
 
-### [Sidekick](https://www.ycombinator.com/companies/textsidekick)
+### [Donkey](https://www.ycombinator.com/companies/donkey)
 
-- `one_liner`: AI agent that manages frontline operations over text → AI agent that manages manufacturing operations over text
+- `team_size`: 7 → 5
+- `tags`: Artificial Intelligence,Logistics,Manufacturing,Supply Chain → Logistics,Manufacturing,Supply Chain,AI
 
-### [E1O](https://www.ycombinator.com/companies/e1o)
+### [Axelrod](https://www.ycombinator.com/companies/axelrod)
 
-- `name`: ED1TH → E1O
-- `slug`: ed1th → e1o
-- `former_names`: Datost → Datost,ED1TH
-- `website`: https://www.ed1th.com → https://e1o.com
-- `one_liner`: Jarvis IRL → Camera-free AI glasses. Your AI, out in the world.
+- `one_liner`: Boutique Hotels that run themselves → Hotels that run themselves
+- `tags`: Artificial Intelligence,Travel → Travel,AI
 
-### [Belvedir](https://www.ycombinator.com/companies/belvedir)
+### [Vernius Systems, Inc.](https://www.ycombinator.com/companies/vernius-systems-inc)
 
-- `one_liner`: The easiest way to make custom AI models → Custom Model Factory For Cheaper, Better, Faster AI
-- `tags`: Artificial Intelligence,Machine Learning → Machine Learning,AI
-
-### [Kara](https://www.ycombinator.com/companies/kara)
-
-- `one_liner`: Making Diamond Engineerable → Making Diamond Semiconductors
-
-### [Zomma](https://www.ycombinator.com/companies/zomma)
-
-- `one_liner`: The AI BPO for finance, run on computer-use agents → The AI BPO for financial servies, run by computer-use agents
-- `tags`: Robotic Process Automation,Finance,B2B,Workflow Automation,AI → Artificial Intelligence,Robotic Process Automation,Finance,B2B,Workflow Automation
-
-### [Alloovium](https://www.ycombinator.com/companies/alloovium)
-
-- `tags`: Construction,AI → Artificial Intelligence,Construction
-
-### [COACH](https://www.ycombinator.com/companies/ai-coach)
-
-- `tags`: Artificial Intelligence,SaaS,B2B,Sales,Sales Enablement → SaaS,B2B,Sales,Sales Enablement,AI
-
-### [Prodigy Research](https://www.ycombinator.com/companies/prodigy-research)
-
-- `one_liner`: Training the world's best foundation model for quantitative finance. → Training the world's best AI model for quantitative finance.
-
-### [Greypoint Industries](https://www.ycombinator.com/companies/greypoint-industries)
-
-- `one_liner`: Building drone swarms that hunt drone operators → Building drone swarms that hunt hidden enemies.
-
-### [Almanac](https://www.ycombinator.com/companies/almanac)
-
-- `one_liner`: The agent that knows your work absurdly well → Organizing company knowledge
-- `tags`: Artificial Intelligence,Generative AI,AI Assistant → Generative AI,AI,AI Assistant
-
-### [Marengo](https://www.ycombinator.com/companies/marengo)
-
-- `tags`: Artificial Intelligence,Design,Energy,Architecture → Design,Energy,Architecture,AI
-
-### [Derya](https://www.ycombinator.com/companies/derya)
-
-- `one_liner`: Agents for Industrial Supply Chains → AI Brokers for Industrial Trade
-
-### [HyperProbe](https://www.ycombinator.com/companies/hyperprobe)
-
-- `one_liner`: Data layer AI Agents call to fix production apps → AI engineer that debugs and fixes production incidents in realtime
+- `one_liner`: Distributed radar systems for air defense → Low cost radars for air defense

@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-09-08T10:58:16.178Z",
+  "updatedAt": "2026-09-08T16:03:44.811Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -1433,7 +1433,15 @@
       "summary": "Context\nAt Swiss PG Day 2026, I had the privilege of moderating a Birds of a Feather (BoF) session. A BoF session is a community-driven event designed for focused, interactive discussion among participants with shared interests.\nI gave a brief introduction to the topic \"How about being a speaker\",…",
       "author": null,
       "publishedAt": "2026-09-07T15:54:39.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9u2",
+      "title": "David Wheeler: Introducing chdb Postgres extension: High-performance imports from cloud storage",
+      "link": "https://postgr.es/p/9u2",
+      "summary": "We're happy to announce a new Postgres extension: chdb. This extension expands Postgres import and export features via the chDB library, an in-process ClickHouse engine, providing efficient, flexible conversion to and from a wide array of data formats living on your favorite cloud storage systems.…",
+      "author": null,
+      "publishedAt": "2026-09-08T15:42:52.000Z"
     }
   ],
-  "totalIndexed": 178
+  "totalIndexed": 179
 }

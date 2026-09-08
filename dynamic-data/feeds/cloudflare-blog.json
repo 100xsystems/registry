@@ -9,7 +9,7 @@
     "performance",
     "edge-computing"
   ],
-  "updatedAt": "2026-09-04T03:09:57.592Z",
+  "updatedAt": "2026-09-08T16:03:44.747Z",
   "items": [
     {
       "guid": "01KY2432VQPD5FTF2RARXXYQGH",
@@ -61642,7 +61642,15 @@
       "summary": "Use production traffic and security signals to prioritize findings, prepare edge mitigations when safe, and propose code patches. By combining WAF data with OpenAI Daybreak models, Vulnerability Discovery and Remediation helps teams identify and patch the most critical threats first.",
       "author": "Ken Sanderson",
       "publishedAt": "2026-09-03T21:03:02.000Z"
+    },
+    {
+      "guid": "01M1PVWQ383YJ6PFVFNJM3X122",
+      "title": "Automatic Key Exchange: faster, post-quantum secure origin handshakes for 45 billion daily connections (and counting)",
+      "link": "https://blog.cloudflare.com/automatic-key-exchange-for-origins/",
+      "summary": "Automatic Key Exchange probes TLS 1.3-capable customer origins to learn which key agreement algorithms they support. We then lead with the most secure algorithm when connecting to the origin, preferring post-quantum connections wherever the origin supports it.",
+      "author": "Suleman Ahmad",
+      "publishedAt": "2026-09-08T13:10:00.000Z"
     }
   ],
-  "totalIndexed": 7704
+  "totalIndexed": 7705
 }
