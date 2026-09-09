@@ -1,49 +1,99 @@
 # YC Company Changes for 2026-09-09
 
-- Previous total: 6204
-- Current total: 6206
-- Added: 2
+- Previous total: 6206
+- Current total: 6207
+- Added: 1
 - Removed: 0
-- Updated: 6
+- Updated: 16
 
 
 ## Added Companies
 
-- [Frontrunner](https://www.ycombinator.com/companies/frontrunner) (Fall 2026) — Cursor for GTM
-- [The Agentic Data Co.](https://www.ycombinator.com/companies/the-agentic-data-co) (Fall 2026) — Training Data For Speech Models.
+- [ByteAsk](https://www.ycombinator.com/companies/byteask) (Fall 2026) — The AI coding agent for C and C++
 
 ## Updated Companies
 
-### [Whatnot](https://www.ycombinator.com/companies/whatnot)
+### [Nectome](https://www.ycombinator.com/companies/nectome)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/8cc4364cbc36079057551f98544d5fb6be675455.png → https://bookface-images.s3.amazonaws.com/small_logos/448fec72747426b9340a6c62d2889b4cc976d888.png
+- `small_logo_thumb_url`: /company/thumb/missing.png → https://bookface-images.s3.amazonaws.com/small_logos/11927d4ef4719b09f11846ce29e426087c662622.png
+- `all_locations`: Portland, OR, USA; South San Francisco, CA, USA → Portland, OR, USA
+- `one_liner`: Building a way to preserve long-term memories. → Human whole body end-of-life preservation for later revival.
+- `team_size`: 5 → 9
+- `tags`: Neurotechnology → Neurotechnology,Biotech,Healthcare
 
-### [Loops](https://www.ycombinator.com/companies/loops)
+### [Embrace](https://www.ycombinator.com/companies/embrace)
 
-- `isHiring`: true → false
+- `stage`: Growth → Early
 
-### [Jamble](https://www.ycombinator.com/companies/jamble)
+### [Forage](https://www.ycombinator.com/companies/forage-2)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/aafce3da646fb5bdc4a18a9ad09cd597e6540dba.png → https://bookface-images.s3.amazonaws.com/small_logos/8964c1f86d1269f9dbee0a1067368d0a96636bdc.png
-- `website`: https://www.jambleapp.com/ → https://www.jamble.com/
-- `all_locations`: Paris, Île-de-France, France → São Paulo, SP, Brazil
-- `one_liner`: Fashion resale marketplace powered by live streaming and video → Live shopping for collectibles in Brazil
-- `team_size`: 3 → 15
-- `subindustry`: Consumer -> Apparel and Cosmetics → Consumer
-- `tags`: Marketplace,Sustainable Fashion,Consumer,Social,Creator Economy → Marketplace,Consumer,Social,E-commerce,Creator Economy
-- `industries`: Consumer,Apparel and Cosmetics → Consumer
-- `regions`: France,Europe → Brazil,Latin America,Remote,Partly Remote
-- `question_answers`: false → true
+- `all_locations`: San Diego, CA, USA → San Francisco, CA, USA
+- `one_liner`: Payments infrastructure for government benefits → Payments powering people
 
-### [Maven Bio](https://www.ycombinator.com/companies/maven-bio)
+### [Aqua](https://www.ycombinator.com/companies/aqua)
 
-- `one_liner`: The AI Platform for Life Sciences Intelligence → Live intelligence for biopharma teams.
+- `team_size`: 34 → 23
 
-### [Fuse AI](https://www.ycombinator.com/companies/fuse-ai)
+### [Serve AI](https://www.ycombinator.com/companies/serve-ai)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/31bcea60ffb3d8a33af2866a492802486933e372.png → https://bookface-images.s3.amazonaws.com/small_logos/b35775b402fe5b455dc597de9a7000386d936776.png
+- `name`: pap! → Serve AI
+- `slug`: pap → serve-ai
+- `former_names`:  → pap!
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/91957da820be361c716d7cafd0c4078a1c7333e0.png → https://bookface-images.s3.amazonaws.com/small_logos/7e1603c58a6b9ecb46ac26ec775f8201dd3c1d3d.png
+- `website`: https://joinpap.com/ → https://tryserve.ai/
+- `one_liner`: Agents that earn consumers dollars when they shop, travel, and live. → AI for Home Services Operators
+- `tags`: Fintech,Consumer,Consumer Finance,AI Assistant → Artificial Intelligence,B2B,Home Services
 
-### [transload](https://www.ycombinator.com/companies/transload)
+### [Prism](https://www.ycombinator.com/companies/prism)
 
-- `all_locations`: San Francisco, CA, USA → Munich, BY, Germany
-- `regions`: United States of America,America / Canada → Germany,Europe
+- `website`: https://herm.run → https://prisminference.com
+
+### [Besimple AI](https://www.ycombinator.com/companies/besimple-ai)
+
+- `team_size`: 6 → 10
+- `tags`: AIOps,Artificial Intelligence,Data Labeling → AIOps,Data Labeling,AI
+
+### [Narrative](https://www.ycombinator.com/companies/usenarrative)
+
+- `website`: http://www.narrative-sports.com → http://www.usenarrative.ai
+- `one_liner`: Video Intelligence for Sports → AI Video Editor
+- `industry`: B2B → Consumer
+- `subindustry`: B2B -> Marketing → Consumer -> Content
+- `tags`: Sports Tech,B2B,Video,AI → Artificial Intelligence,Consumer,Video
+- `industries`: B2B,Marketing → Consumer,Content
+
+### [Denki](https://www.ycombinator.com/companies/denki)
+
+- `team_size`: 3 → 4
+- `tags`: Artificial Intelligence,FinOps,Compliance,AI Assistant → FinOps,Compliance,AI,AI Assistant
+
+### [Layers](https://www.ycombinator.com/companies/layers)
+
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/f8e38f7ff1a982099e585e1be50508d13d821286.png → https://bookface-images.s3.amazonaws.com/small_logos/0392f6cc4b38e3757dfde807152e63044285166f.png
+- `one_liner`: A 30 min appointment to measure everything in your body → Improve your appearance by measuring, understanding, and tracking…
+
+### [Most Robotic](https://www.ycombinator.com/companies/most-robotic)
+
+- `tags`: Artificial Intelligence,Robotics → Robotics,AI
+
+### [Collar](https://www.ycombinator.com/companies/collar)
+
+- `one_liner`: AI for Investor Relations and Equity Research → AI for Investor Relations
+
+### [Speko](https://www.ycombinator.com/companies/speko)
+
+- `tags`: Developer Tools,AI,Conversational AI → Artificial Intelligence,Developer Tools,Conversational AI
+
+### [Riften](https://www.ycombinator.com/companies/riften)
+
+- `team_size`: 0 → 5
+- `tags`: Artificial Intelligence,Developer Tools,Reinforcement Learning,Open Source,Infrastructure → Developer Tools,Reinforcement Learning,Open Source,Infrastructure,AI
+
+### [Graphify Labs](https://www.ycombinator.com/companies/graphify-labs)
+
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/0f86336cad3f47d72897d04916a12380f1f0094b.png → https://bookface-images.s3.amazonaws.com/small_logos/827fabd6e00bab1febd0feb00c906a6a3809b989.png
+- `one_liner`: On-device Knowledge Graph engine for Enterprise Codebases  → On-device Knowledge Graph engine for Enterprise Software
+
+### [Moving Atoms](https://www.ycombinator.com/companies/moving-atoms)
+
+- `one_liner`: World Models (Virtual Reality) for training robots → Virtual Reality for Training Robots

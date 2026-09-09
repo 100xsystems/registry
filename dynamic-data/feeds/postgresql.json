@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-09-09T03:21:25.617Z",
+  "updatedAt": "2026-09-09T20:15:06.684Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -1473,7 +1473,31 @@
       "summary": "Way back in 2015, I opened a PGXN API issue to allow links between documents rendered by PGXN to work. In 2024 I followed up with another issue to enable relative links to images to work. I mean, everyone wants this, right? It’s how your favorite source code sit works.\nNow so does PGXN. As of…",
       "author": null,
       "publishedAt": "2026-09-08T22:11:02.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9uc",
+      "title": "Dave Stokes: Structured Query Language 101 at Texas Linuxfest",
+      "link": "https://postgr.es/p/9uc",
+      "summary": "Structured Query Language 101 -15:00–16:20\nNov. 6, 2026 · 15:00 - 6:20\nI will be teaching the basics of SQL at the 2026 Texas Linuxfest. The session is listed for only 100 minutes, but I wrote the materials for a 3-hour course. We will cover as much of those three hours as the audience can stand…",
+      "author": null,
+      "publishedAt": "2026-09-09T19:27:43.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9ub",
+      "title": "Jimmy Angelakos: 100,000 Lines of C Later: pgSafe at PGDay UK 2026",
+      "link": "https://postgr.es/p/9ub",
+      "summary": "Yesterday I had the pleasure of speaking at PGDay UK 2026 in London, at the Cavendish Conference Centre. The talk was called 100,000 Lines of C Later: Re-architecting Enterprise Postgres Backups in Go. It was about the design of a Postgres backup tool: the rules such a tool has to obey, and what…",
+      "author": null,
+      "publishedAt": "2026-09-09T16:46:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9ua",
+      "title": "Viacheslav Sarzhan: Percona Operator for PostgreSQL 3.1.0: Transparent Data Encryption, Logical Replicas, and Persistent Logging",
+      "link": "https://postgr.es/p/9ua",
+      "summary": "Percona Operator for PostgreSQL 3.1.0 takes on three things that decide whether a PostgreSQL platform passes review: is the data encrypted at rest, can it serve reads without straining the primary, and are the logs there when you need them. This release answers all three inside the custom resource,…",
+      "author": null,
+      "publishedAt": "2026-09-09T16:08:31.000Z"
     }
   ],
-  "totalIndexed": 183
+  "totalIndexed": 186
 }
