@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-09-08T20:32:42.786Z",
+  "updatedAt": "2026-09-09T03:21:25.617Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -1457,7 +1457,23 @@
       "summary": "Both reverts landed after Robert Haas asked the pgsql-hackers list on August 25 whether any of six heavily patched features should come out before 19 ships. One of the two was on his list. One was not.",
       "author": null,
       "publishedAt": "2026-09-08T18:41:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9u9",
+      "title": "Christophe Pettus: All Your GUCs in a Row: maintenance_work_mem",
+      "link": "https://postgr.es/p/9u9",
+      "summary": "Unlock faster index builds and vacuum operations by understanding maintenance_work_mem: PostgreSQL's one-allocation memory budget that actually behaves like…",
+      "author": null,
+      "publishedAt": "2026-09-09T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9u6",
+      "title": "David E. Wheeler: From the Department of It&rsquo;s About Time: Inter-documentation and image links now work on PGXN",
+      "link": "https://postgr.es/p/9u6",
+      "summary": "Way back in 2015, I opened a PGXN API issue to allow links between documents rendered by PGXN to work. In 2024 I followed up with another issue to enable relative links to images to work. I mean, everyone wants this, right? It’s how your favorite source code sit works.\nNow so does PGXN. As of…",
+      "author": null,
+      "publishedAt": "2026-09-08T22:11:02.000Z"
     }
   ],
-  "totalIndexed": 181
+  "totalIndexed": 183
 }

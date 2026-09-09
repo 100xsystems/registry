@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-08T20:33:01.618Z",
+  "fetchedAt": "2026-09-09T03:21:44.156Z",
   "count": 6204,
   "companies": [
     {
@@ -473,6 +473,51 @@
       "app_answers": null,
       "question_answers": false,
       "url": "https://www.ycombinator.com/companies/vorelios"
+    },
+    {
+      "id": 35652,
+      "name": "SuperRadiant",
+      "slug": "superradiant",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/15a7e2a5caa04595d7620cd8161f3b2cffd00a51.png",
+      "website": "https://superradiant.co",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "Every instance of intelligence occurring in nature is embodied. Scientific intelligence is no different. We are building general-purpose robotic experimentalists: systems that unite scientific reasoning and physical action to iterate toward discovery by observing, hypothesizing and experimenting.",
+      "one_liner": "Embodied Scientific Intelligence",
+      "team_size": 3,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "Industrials",
+      "subindustry": "Industrials -> Manufacturing and Robotics",
+      "launched_at": 1788918386,
+      "tags": [
+        "Robotics",
+        "Energy",
+        "Advanced Materials",
+        "AI",
+        "Biotechnology"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Fall 2026",
+      "status": "Active",
+      "industries": [
+        "Industrials",
+        "Manufacturing and Robotics"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/superradiant"
     },
     {
       "id": 35525,
@@ -4689,7 +4734,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": false,
+      "isHiring": true,
       "nonprofit": false,
       "batch": "Summer 2026",
       "status": "Active",
@@ -5572,7 +5617,7 @@
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Omanta is a personalized research lab for patients who have exhausted standard options, want to prepare proactively for recurrence, or are living with an unresolved diagnosis.\r\n\r\nWe direct the full operational infrastructure, personnel, expertise, and technology of a large research program toward understanding and addressing the challenges of individual patients across oncology, rare disease, and undiagnosed conditions.\r\n\r\nFor clinicians, we act as a collaborative partner, providing a living roadmap for ongoing patient care built on a rigorous and evolving scientific evidence base.\r\n\r\nWe fully operationalize patient-specific research programs, covering tissue logistics, diagnostic follow-up, data integration, multiomic analysis, therapeutic strategy development, and more.\r\n\r\nOmanta brings context and clarity to complex cases, helping clinicians see more of the scientific picture as they decide how best to care for their patients.",
       "one_liner": "A research lab for one",
-      "team_size": 5,
+      "team_size": 6,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -5580,11 +5625,11 @@
       "subindustry": "Healthcare",
       "launched_at": 1785793252,
       "tags": [
+        "Artificial Intelligence",
         "Digital Health",
         "Healthcare",
         "Health & Wellness",
-        "Oncology",
-        "AI"
+        "Oncology"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -6434,27 +6479,27 @@
     },
     {
       "id": 32523,
-      "name": "Stratum Industries",
-      "slug": "stratum-industries",
+      "name": "Elite",
+      "slug": "elite",
       "former_names": [
-        "Stratum"
+        "Stratum",
+        "Stratum Industries"
       ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/cbb396809ed692f744f764e5cd86703142288a07.png",
-      "website": "https://stratumindustries.co/",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/06ca537cbfe800d30e97dbdac341238a77b5fde5.png",
+      "website": "https://elitehq.ai/",
       "all_locations": "New York City, NY, USA",
-      "long_description": "Stratum Industries is the applied AI company for governments. We build AI agents that automate the slow, complex manual workflows governments run on, starting with application review, where files are still reviewed by hand, one at a time, leaving millions stuck in queues. \r\n\r\nStratum's agents review applications end to end with a human in the loop and full auditability, clearing entire backlogs in a fraction of the time. Our mission is to deploy AI across every vertical inside the government, saving agencies tens of billions in administrative cost and making the government one of the most efficient institutions in the world.",
-      "one_liner": "Applied AI for Governments.",
+      "long_description": "Elite builds AI voice agents that run the front office for healthcare practices. Elite answers every patient call instantly and finishes the job inside the practice's EHR: scheduling, triage, referrals, refills, eligibility, intake, and billing, across voice, SMS, and web, around the clock.\n\nFront offices are drowning in phone volume, so patients wait on hold, calls go unanswered, and staff get pulled away from care. Elite picks up every call, resolves the routine ones end to end, and escalates anything complex to the team with full context. It ships knowing the scheduling protocols of 18 specialties and writes back to more than 19 EHRs including Epic, athenahealth, eClinicalWorks, and ModMed. There is no rip-and-replace, it goes live in days, and every resolved patient interaction is what we charge for.\n\nOur starting point is healthcare. The mission is to rebuild the critical industries America runs on, including government, finance, insurance, and manufacturing, by deploying AI agents into the slow, manual workflows at their core.",
+      "one_liner": "AI voice agents that run the healthcare front office.",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
-      "industry": "Government",
-      "subindustry": "Government",
+      "industry": "Healthcare",
+      "subindustry": "Healthcare -> Healthcare IT",
       "launched_at": 1785365250,
       "tags": [
-        "Artificial Intelligence",
-        "GovTech",
-        "Automation"
+        "Healthcare",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -6463,7 +6508,8 @@
       "batch": "Summer 2026",
       "status": "Active",
       "industries": [
-        "Government"
+        "Healthcare",
+        "Healthcare IT"
       ],
       "regions": [
         "United States of America",
@@ -6474,7 +6520,7 @@
       "demo_day_video_public": false,
       "app_answers": null,
       "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/stratum-industries"
+      "url": "https://www.ycombinator.com/companies/elite"
     },
     {
       "id": 32522,
@@ -10204,7 +10250,7 @@
       "former_names": [],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/ba85eb3919f954ce9bf661f9b9ee195327c93ceb.png",
       "website": "https://maxxwell.dev",
-      "all_locations": "Boston, MA, USA",
+      "all_locations": "San Francisco, CA, USA",
       "long_description": "We build Maxxwell, a desktop app for people who run several coding agents at once.\r\n\r\nPast two or three sessions, you become the bottleneck. Every session asks you something, most of it small, and you spend the day answering instead of deciding. It is also hard to tell which sessions are making progress, which are stuck on something trivial, and which have quietly started building the wrong thing.\r\n\r\nMaxxwell puts every session in one window and marks each one working, idle, or waiting on you. On top of that sits an orchestrator, a real coding-agent session of its own that reads the others and reports back. You talk to it instead of to twelve terminals. It tells you what landed, what it decided for you, and what actually needs your call.\r\n\r\nEvery worker is your own tool, unmodified. Claude Code, Codex and Cursor Agent run in real terminal sessions you can attach to and take over at any point",
       "one_liner": "The IDE for Tokenmaxxers",
       "team_size": 2,
@@ -10697,52 +10743,6 @@
       "app_answers": null,
       "question_answers": false,
       "url": "https://www.ycombinator.com/companies/arctic-health"
-    },
-    {
-      "id": 31550,
-      "name": "Playabl.ai",
-      "slug": "playablai",
-      "former_names": [
-        "Playabl.ai",
-        "NeonRain, Inc."
-      ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/484b887f79a6e0d055be256cbacda5f8badb1317.png",
-      "website": "https://playabl.ai",
-      "all_locations": "San Francisco, CA, USA",
-      "long_description": "Playabl is the TikTok for user-generated games, where anyone can play, create, publish, and monetize games.\r\n\r\n[June 19 Update] three weeks ago we went public, users are creating games and posting them on playabl.ai - since then we had over:\r\n\r\n• 4m unique plays on 15k user-generated games built on playabl.ai\r\n• 40k DAU \r\n• 300k WAU \r\n",
-      "one_liner": "TikTok for User-generated Games",
-      "team_size": 10,
-      "highlight_black": false,
-      "highlight_latinx": false,
-      "highlight_women": false,
-      "industry": "Consumer",
-      "subindustry": "Consumer -> Gaming",
-      "launched_at": 1773783180,
-      "tags": [
-        "Consumer",
-        "Gaming",
-        "AI"
-      ],
-      "tags_highlighted": [],
-      "top_company": false,
-      "isHiring": false,
-      "nonprofit": false,
-      "batch": "Spring 2026",
-      "status": "Active",
-      "industries": [
-        "Consumer",
-        "Gaming"
-      ],
-      "regions": [
-        "United States of America",
-        "America / Canada"
-      ],
-      "stage": "Early",
-      "app_video_public": false,
-      "demo_day_video_public": false,
-      "app_answers": null,
-      "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/playablai"
     },
     {
       "id": 31549,
@@ -12599,7 +12599,7 @@
       "all_locations": "San Francisco, CA, USA; Remote",
       "long_description": "TesterArmy is an AI agent that tests websites and mobile apps. It monitors production on a schedule and runs automatically on every GitHub Pull Request, delivering screenshots, recordings, and actionable bug reports.\r\n\r\nDescribe tests in plain English. The agent handles login flows, OAuth, and OTPs, no scripts to write or maintain. We catch the regressions and UX issues that code review misses.",
       "one_liner": "Test your app with AI, catch bugs before users do",
-      "team_size": 4,
+      "team_size": 6,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -18055,7 +18055,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/54df715903ce304e2b9e3b2fe1f375caf7811ea6.png",
       "website": "https://openvector.com",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "OpenVector transforms any existing camera into an automated 24/7 workforce without requiring new hardware. Users simply describe a task in plain English, and OpenVector automatically builds a custom AI vision model to monitor the feed. When it detects an important physical event—like a stalled production cycle, a safety violation, or a waiting customer—it operates a computer just like a human to take immediate action. It integrates with legacy systems to make calls, send emails, update a POS/CRM, or trigger webhooks in real time. OpenVector enables any camera to do real work.",
+      "long_description": "OpenVector transforms any existing camera into an automated 24/7 workforce without requiring new hardware. We've built the world's fastest vision-language model inference engine that allows users to simply describe a task in plain English and automatically build a custom AI vision model to monitor the feed. When it detects an important physical event—like a stalled production cycle, a safety violation, or a waiting customer—it operates a computer just like a human to take immediate action. It integrates with legacy systems to make calls, send emails, update a POS/CRM, or trigger webhooks in real time. OpenVector enables any camera to do real work.",
       "one_liner": "AI that turns any camera to an autonomous worker with real-time vision",
       "team_size": 4,
       "highlight_black": false,
@@ -19588,7 +19588,7 @@
       "website": "https://silahq.com",
       "all_locations": "New York City, NY, USA",
       "long_description": "Sila is a messaging platform where you text agents to get work done. Describe your idea or task with a message and Sila creates agents that you and your team message together to build and run your company.",
-      "one_liner": "AI Agents Messaging Platform",
+      "one_liner": "Agent Messaging Platform",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -36567,7 +36567,7 @@
       "website": "https://getirongrid.com/",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "",
-      "one_liner": "Foundational models for risk and quality.",
+      "one_liner": "Foundation models for physical systems",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -75021,7 +75021,7 @@
       "former_names": [
         "Speak Analytics"
       ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/8778b22211636a64dbe5a5a1808ef49e63ed7613.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/d3c9f350427485d59a19cdcf2c5773c321148f67.png",
       "website": "https://voicepanel.com",
       "all_locations": "",
       "long_description": "We help teams evaluate products with real people.\r\n\r\nNew features. AI experiences. Websites. Apps. Ads. Messaging.\r\n\r\nEvery evaluation builds confidence in what to build, what to launch, and what to improve next.",
@@ -144018,7 +144018,7 @@
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Tiriel is the AI workforce for freight dispatch.\r\n\r\nNot dispatch software. A workforce: specialized AI agents, each with one job, one standard, and one boss, the dispatcher. Scout finds freight across 14+ load boards. Closer negotiates rates with brokers by phone, in parallel, within the rate floors you set. Coordinator manages your drivers in English, Spanish, or whatever language your fleet speaks. Auditor closes the paperwork, files detention and TONU claims, and processes PODs. Analyst learns your operation and makes the team better every week.\r\n\r\nEvery call is recorded, transcribed, and attached to the load. You direct. They execute.\r\n\r\nBuilt by a family that has operated trucking companies for over 20 years. Live across the United States.\r\n\r\nStart with $99 at https://tiriel.ai",
       "one_liner": "The AI workforce for freight dispatch",
-      "team_size": 20,
+      "team_size": 10,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -144026,10 +144026,10 @@
       "subindustry": "B2B -> Supply Chain and Logistics",
       "launched_at": 1627584758,
       "tags": [
-        "Artificial Intelligence",
         "Logistics",
         "Supply Chain",
-        "Transportation"
+        "Transportation",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
