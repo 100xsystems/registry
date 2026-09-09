@@ -9,7 +9,7 @@
     "edge-computing",
     "nextjs"
   ],
-  "updatedAt": "2026-09-04T10:59:20.771Z",
+  "updatedAt": "2026-09-09T11:03:14.429Z",
   "items": [
     {
       "guid": "vercel-blog::https://vercel.com/changelog/ai-gateway-now-supports-streaming-transcription",
@@ -4514,7 +4514,31 @@
       "summary": "can now run in  instead of Cursor's hosted machines. Cursor Cloud AgentsVercel Sandbox\nCursor manages the agent harness and inference loop. Its  APIs let you supply the execution environment where agents clone repositories, edit files, and run commands and tests. Self-Hosted Machines requires a…",
       "author": "Allen Zhou",
       "publishedAt": "2026-09-03T15:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/password-protection-now-costs-20-per-project-per-month-on-pro",
+      "title": "Password Protection is now priced per project on Pro",
+      "link": "https://vercel.com/changelog/password-protection-now-costs-20-per-project-per-month-on-pro",
+      "summary": "Pro teams can now enable  for $20 per project per month. It requires visitors to enter a password you set to view the project's deployments.Password Protection\nPreviously, Pro teams needed to purchase password protection for every project at the team level, but now it can be purchased individually.…",
+      "author": "Kit Foster",
+      "publishedAt": "2026-09-09T06:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/protect-production-deployments-for-free-on-every-plan",
+      "title": "Protect production deployments for free on every plan",
+      "link": "https://vercel.com/changelog/protect-production-deployments-for-free-on-every-plan",
+      "summary": "can now protect every deployment URL for a project, including its production domains, at no additional cost on Hobby, Pro, and Enterprise. Previously, protecting all deployments with Vercel Authentication required the $150-per-month Advanced Deployment Protection add-on.Vercel Authentication\nWhen…",
+      "author": "Kit Foster",
+      "publishedAt": "2026-09-09T06:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/vercel-sandbox-routing-is-now-18x-faster-globally",
+      "title": "Vercel Sandbox routing is now 18x faster globally",
+      "link": "https://vercel.com/changelog/vercel-sandbox-routing-is-now-18x-faster-globally",
+      "summary": "Requests to  public domains are now routed 18x faster.Vercel Sandbox\nDomains created with the  SDK call are now resolved from the nearest regional replica, instead of a single centralized store. Incoming requests reach the process running in the sandbox with less latency.sandbox.domain()\nMedian…",
+      "author": "Marc Codina Segura",
+      "publishedAt": "2026-09-08T20:00:00.000Z"
     }
   ],
-  "totalIndexed": 563
+  "totalIndexed": 566
 }

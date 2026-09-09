@@ -2,64 +2,47 @@
 
 - Previous total: 6204
 - Current total: 6204
-- Added: 1
-- Removed: 1
-- Updated: 9
+- Added: 0
+- Removed: 0
+- Updated: 8
 
-
-## Added Companies
-
-- [SuperRadiant](https://www.ycombinator.com/companies/superradiant) (Fall 2026) — Embodied Scientific Intelligence
-
-## Removed Companies
-
-- Playabl.ai (Spring 2026)
 
 ## Updated Companies
 
-### [Tiriel AI](https://www.ycombinator.com/companies/tiriel-ai)
+### [Eight Sleep](https://www.ycombinator.com/companies/eight-sleep)
 
-- `team_size`: 20 → 10
-- `tags`: Artificial Intelligence,Logistics,Supply Chain,Transportation → Logistics,Supply Chain,Transportation,AI
+- `stage`: Early → Growth
 
-### [Voicepanel](https://www.ycombinator.com/companies/voicepanel)
+### [Brite](https://www.ycombinator.com/companies/brite)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/8778b22211636a64dbe5a5a1808ef49e63ed7613.png → https://bookface-images.s3.amazonaws.com/small_logos/d3c9f350427485d59a19cdcf2c5773c321148f67.png
+- `stage`: Early → Growth
 
-### [Iron Grid](https://www.ycombinator.com/companies/iron-grid)
+### [WarpBuild](https://www.ycombinator.com/companies/warpbuild)
 
-- `one_liner`: Foundational models for risk and quality. → Foundation models for physical systems
+- `all_locations`: Sydney, NSW, Australia; Remote → San Francisco, CA, USA; Remote
+- `regions`: Australia,Oceania,Remote,Fully Remote → United States of America,America / Canada,Remote,Fully Remote
 
-### [Sila](https://www.ycombinator.com/companies/sila)
+### [Trendex - Connect with stars](https://www.ycombinator.com/companies/trendex-connect-with-stars)
 
-- `one_liner`: AI Agents Messaging Platform → Agent Messaging Platform
+- `website`: https://trendex.gg → 
 
-### [TesterArmy](https://www.ycombinator.com/companies/testerarmy)
+### [Browser Buddy](https://www.ycombinator.com/companies/browser-buddy)
 
-- `team_size`: 4 → 6
+- `one_liner`: A recommendation system for great Internet writing → A recommendation system for the Internet
+- `tags`: Consumer,AI → Artificial Intelligence,Consumer
 
-### [Rindler](https://www.ycombinator.com/companies/rindler)
+### [Denki](https://www.ycombinator.com/companies/denki)
 
-- `all_locations`: Boston, MA, USA → San Francisco, CA, USA
+- `all_locations`: London, England, United Kingdom → San Francisco, CA, USA
+- `tags`: FinOps,Compliance,AI,AI Assistant → Artificial Intelligence,FinOps,Compliance,AI Assistant
+- `regions`: United Kingdom,Europe → United States of America,America / Canada
+
+### [DAIVIN!](https://www.ycombinator.com/companies/daivin)
+
+- `all_locations`: Helsinki, Finland → San Francisco, CA, USA
+- `regions`: Finland,Europe → United States of America,America / Canada
 
 ### [Elite](https://www.ycombinator.com/companies/elite)
 
-- `name`: Stratum Industries → Elite
-- `slug`: stratum-industries → elite
-- `former_names`: Stratum → Stratum,Stratum Industries
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/cbb396809ed692f744f764e5cd86703142288a07.png → https://bookface-images.s3.amazonaws.com/small_logos/06ca537cbfe800d30e97dbdac341238a77b5fde5.png
-- `website`: https://stratumindustries.co/ → https://elitehq.ai/
-- `one_liner`: Applied AI for Governments. → AI voice agents that run the healthcare front office.
-- `industry`: Government → Healthcare
-- `subindustry`: Government → Healthcare -> Healthcare IT
-- `tags`: Artificial Intelligence,GovTech,Automation → Healthcare,AI
-- `industries`: Government → Healthcare,Healthcare IT
-
-### [Omanta](https://www.ycombinator.com/companies/omanta)
-
-- `team_size`: 5 → 6
-- `tags`: Digital Health,Healthcare,Health & Wellness,Oncology,AI → Artificial Intelligence,Digital Health,Healthcare,Health & Wellness,Oncology
-
-### [Luca IQ](https://www.ycombinator.com/companies/luca-iq)
-
-- `isHiring`: false → true
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/06ca537cbfe800d30e97dbdac341238a77b5fde5.png → https://bookface-images.s3.amazonaws.com/small_logos/43b0b3923cf1e5272885bc93999098a208c85926.png
+- `one_liner`: AI voice agents that run the healthcare front office. → Healthcare AI

@@ -8,7 +8,7 @@
     "ide",
     "programming-languages"
   ],
-  "updatedAt": "2026-09-07T17:19:35.861Z",
+  "updatedAt": "2026-09-09T11:03:13.885Z",
   "items": [
     {
       "guid": "https://blog.jetbrains.com/?post_type=rscpp&p=725420",
@@ -489,7 +489,23 @@
       "summary": "The first Early Access build for Rider 2026.3 is now available! It includes rainbow brackets, an easier way to set data breakpoints, a new Game Development plugin category, and filters in code completion. You can get the build from our website or through the Toolbox App. Here’s a look at what’s…",
       "author": "Alexander Kurakin",
       "publishedAt": "2026-09-07T09:35:21.000Z"
+    },
+    {
+      "guid": "https://blog.jetbrains.com/?post_type=dotnet&p=737726",
+      "title": "dotInsights | September 2026",
+      "link": "https://blog.jetbrains.com/dotnet/2026/09/08/dotinsights-september-2026/",
+      "summary": "Did you know? Fun fact: The C# compiler (Roslyn) is open source and written in C#. It exposes APIs to analyze and generate code.  Welcome to dotInsights by JetBrains! This newsletter is the home for recent .NET and software development related information. 🔗 Links Here’s the latest from the…",
+      "author": "Rachel Appel",
+      "publishedAt": "2026-09-08T14:16:12.000Z"
+    },
+    {
+      "guid": "https://blog.jetbrains.com/?post_type=idea&p=730371",
+      "title": "Debug Past an HTTP 403 Without Breaking Spring Security",
+      "link": "https://blog.jetbrains.com/idea/2026/09/debug-past-an-http-403-without-breaking-spring-security/",
+      "summary": "You set a breakpoint inside a Spring MVC controller, or a service, send the request to an HTTP endpoint, and nothing happens. The response is back – and it is a 403 (or 401, or a redirect to a login page). At that point, the bug you were trying to catch is no longer the […]",
+      "author": "Andrey Belyaev",
+      "publishedAt": "2026-09-08T12:34:18.000Z"
     }
   ],
-  "totalIndexed": 60
+  "totalIndexed": 62
 }
