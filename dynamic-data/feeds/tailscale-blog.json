@@ -9,7 +9,7 @@
     "vpn",
     "wireguard"
   ],
-  "updatedAt": "2026-08-31T18:49:23.915Z",
+  "updatedAt": "2026-09-09T15:59:26.022Z",
   "items": [
     {
       "guid": "https://tailscale.com/blog/welcome-mike-shaver",
@@ -9738,7 +9738,15 @@
       "summary": "Put secure networking inside what you build, then automate the rest.",
       "author": "Kevin Purdy",
       "publishedAt": "2026-08-31T14:00:00.000Z"
+    },
+    {
+      "guid": "https://tailscale.com/blog/kubernetes-operator-1102",
+      "title": "Tailscale Kubernetes Operator 1.102: In-cluster Peer Relays, better IPv6, and optimized certificates",
+      "link": "https://tailscale.com/blog/kubernetes-operator-1102",
+      "summary": "Faster cross-cluster connections, fewer IPv6 dead ends, less certificate churn.",
+      "author": "Mike Stefaniak",
+      "publishedAt": "2026-09-09T14:00:00.000Z"
     }
   ],
-  "totalIndexed": 1216
+  "totalIndexed": 1217
 }

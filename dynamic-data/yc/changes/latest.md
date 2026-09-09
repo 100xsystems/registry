@@ -1,48 +1,49 @@
 # YC Company Changes for 2026-09-09
 
 - Previous total: 6204
-- Current total: 6204
-- Added: 0
+- Current total: 6206
+- Added: 2
 - Removed: 0
-- Updated: 8
+- Updated: 6
 
+
+## Added Companies
+
+- [Frontrunner](https://www.ycombinator.com/companies/frontrunner) (Fall 2026) — Cursor for GTM
+- [The Agentic Data Co.](https://www.ycombinator.com/companies/the-agentic-data-co) (Fall 2026) — Training Data For Speech Models.
 
 ## Updated Companies
 
-### [Eight Sleep](https://www.ycombinator.com/companies/eight-sleep)
+### [Whatnot](https://www.ycombinator.com/companies/whatnot)
 
-- `stage`: Early → Growth
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/8cc4364cbc36079057551f98544d5fb6be675455.png → https://bookface-images.s3.amazonaws.com/small_logos/448fec72747426b9340a6c62d2889b4cc976d888.png
 
-### [Brite](https://www.ycombinator.com/companies/brite)
+### [Loops](https://www.ycombinator.com/companies/loops)
 
-- `stage`: Early → Growth
+- `isHiring`: true → false
 
-### [WarpBuild](https://www.ycombinator.com/companies/warpbuild)
+### [Jamble](https://www.ycombinator.com/companies/jamble)
 
-- `all_locations`: Sydney, NSW, Australia; Remote → San Francisco, CA, USA; Remote
-- `regions`: Australia,Oceania,Remote,Fully Remote → United States of America,America / Canada,Remote,Fully Remote
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/aafce3da646fb5bdc4a18a9ad09cd597e6540dba.png → https://bookface-images.s3.amazonaws.com/small_logos/8964c1f86d1269f9dbee0a1067368d0a96636bdc.png
+- `website`: https://www.jambleapp.com/ → https://www.jamble.com/
+- `all_locations`: Paris, Île-de-France, France → São Paulo, SP, Brazil
+- `one_liner`: Fashion resale marketplace powered by live streaming and video → Live shopping for collectibles in Brazil
+- `team_size`: 3 → 15
+- `subindustry`: Consumer -> Apparel and Cosmetics → Consumer
+- `tags`: Marketplace,Sustainable Fashion,Consumer,Social,Creator Economy → Marketplace,Consumer,Social,E-commerce,Creator Economy
+- `industries`: Consumer,Apparel and Cosmetics → Consumer
+- `regions`: France,Europe → Brazil,Latin America,Remote,Partly Remote
+- `question_answers`: false → true
 
-### [Trendex - Connect with stars](https://www.ycombinator.com/companies/trendex-connect-with-stars)
+### [Maven Bio](https://www.ycombinator.com/companies/maven-bio)
 
-- `website`: https://trendex.gg → 
+- `one_liner`: The AI Platform for Life Sciences Intelligence → Live intelligence for biopharma teams.
 
-### [Browser Buddy](https://www.ycombinator.com/companies/browser-buddy)
+### [Fuse AI](https://www.ycombinator.com/companies/fuse-ai)
 
-- `one_liner`: A recommendation system for great Internet writing → A recommendation system for the Internet
-- `tags`: Consumer,AI → Artificial Intelligence,Consumer
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/31bcea60ffb3d8a33af2866a492802486933e372.png → https://bookface-images.s3.amazonaws.com/small_logos/b35775b402fe5b455dc597de9a7000386d936776.png
 
-### [Denki](https://www.ycombinator.com/companies/denki)
+### [transload](https://www.ycombinator.com/companies/transload)
 
-- `all_locations`: London, England, United Kingdom → San Francisco, CA, USA
-- `tags`: FinOps,Compliance,AI,AI Assistant → Artificial Intelligence,FinOps,Compliance,AI Assistant
-- `regions`: United Kingdom,Europe → United States of America,America / Canada
-
-### [DAIVIN!](https://www.ycombinator.com/companies/daivin)
-
-- `all_locations`: Helsinki, Finland → San Francisco, CA, USA
-- `regions`: Finland,Europe → United States of America,America / Canada
-
-### [Elite](https://www.ycombinator.com/companies/elite)
-
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/06ca537cbfe800d30e97dbdac341238a77b5fde5.png → https://bookface-images.s3.amazonaws.com/small_logos/43b0b3923cf1e5272885bc93999098a208c85926.png
-- `one_liner`: AI voice agents that run the healthcare front office. → Healthcare AI
+- `all_locations`: San Francisco, CA, USA → Munich, BY, Germany
+- `regions`: United States of America,America / Canada → Germany,Europe

@@ -9,7 +9,7 @@
     "performance",
     "edge-computing"
   ],
-  "updatedAt": "2026-09-08T16:03:44.747Z",
+  "updatedAt": "2026-09-09T15:59:26.246Z",
   "items": [
     {
       "guid": "01KY2432VQPD5FTF2RARXXYQGH",
@@ -61650,7 +61650,15 @@
       "summary": "Automatic Key Exchange probes TLS 1.3-capable customer origins to learn which key agreement algorithms they support. We then lead with the most secure algorithm when connecting to the origin, preferring post-quantum connections wherever the origin supports it.",
       "author": "Suleman Ahmad",
       "publishedAt": "2026-09-08T13:10:00.000Z"
+    },
+    {
+      "guid": "01M1WCCYXD65TK4WBQW6QVC79V",
+      "title": "How we rebuilt Cloudflare Workers’ module registry for Node.js compatibility",
+      "link": "https://blog.cloudflare.com/workers-module-registry-nodejs/",
+      "summary": "Workers now enables Node.js compatibility by default, supports applications up to 64 mebibytes, and adds a URL-based module registry with import.meta, lazy compilation, shared code caches, and clearer errors.",
+      "author": "Logan Gatlin",
+      "publishedAt": "2026-09-09T13:00:00.000Z"
     }
   ],
-  "totalIndexed": 7705
+  "totalIndexed": 7706
 }

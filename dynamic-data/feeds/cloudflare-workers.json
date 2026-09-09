@@ -8,7 +8,7 @@
     "edge-computing",
     "javascript"
   ],
-  "updatedAt": "2026-08-25T01:13:23.826Z",
+  "updatedAt": "2026-09-09T15:59:26.216Z",
   "items": [
     {
       "guid": "1WYEYtVwQSo4H3jKHTcKmO",
@@ -61313,7 +61313,15 @@
       "summary": "We migrated the Cloudflare Blog to EmDash to prove our stack at massive scale. Here is how we stress-tested performance, safely routed production traffic, and redesigned the frontend experience.",
       "author": "Kody Jackson",
       "publishedAt": "2026-08-24T19:00:00.000Z"
+    },
+    {
+      "guid": "01M1WCCYXD65TK4WBQW6QVC79V",
+      "title": "How we rebuilt Cloudflare Workers’ module registry for Node.js compatibility",
+      "link": "https://blog.cloudflare.com/workers-module-registry-nodejs/",
+      "summary": "Workers now enables Node.js compatibility by default, supports applications up to 64 mebibytes, and adds a URL-based module registry with import.meta, lazy compilation, shared code caches, and clearer errors.",
+      "author": "Logan Gatlin",
+      "publishedAt": "2026-09-09T13:00:00.000Z"
     }
   ],
-  "totalIndexed": 7663
+  "totalIndexed": 7664
 }
