@@ -8,7 +8,7 @@
     "linux",
     "cloud-native"
   ],
-  "updatedAt": "2026-09-09T15:59:26.261Z",
+  "updatedAt": "2026-09-10T15:53:41.870Z",
   "items": [
     {
       "guid": "redhat::https://www.redhat.com/ja/sitemap.xml",
@@ -1049,7 +1049,31 @@
       "summary": "The realities of quantum computing and its inevitable impact on enterprise cryptography are already taking shape:Red Hat Enterprise Linux has been post-quantum cryptographically (PQC)-capable since the launch of Red Hat Enterprise Linux 10 (RHEL) in 2025.Hyperscalers like AWS and Google Cloud…",
       "author": null,
       "publishedAt": "2026-09-09T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.redhat.com/en/blog/insights-client-updates-rhel-package-management",
+      "title": "Insights-client updates standardize RHEL package management",
+      "link": "https://www.redhat.com/en/blog/insights-client-updates-rhel-package-management",
+      "summary": "If you manage Red Hat Enterprise Linux (RHEL) systems connected to Red Hat Lightspeed, you're likely familiar with insights-client, the tool responsible for reading system information and reporting it to Red Hat Lightspeed's hosted services.Starting with RHEL 9.8 and RHEL 10.2, Red Hat is changing…",
+      "author": null,
+      "publishedAt": "2026-09-10T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.redhat.com/en/blog/closing-loop-network-policy-intent-verified-reality",
+      "title": "Closing the loop: From network policy intent to verified reality",
+      "link": "https://www.redhat.com/en/blog/closing-loop-network-policy-intent-verified-reality",
+      "summary": "Part 3 of a series on implementing zero trust security in Red Hat OpenShift with the layered zero trust validated pattern.Kubernetes NetworkPolicies are one of the most powerful—and most misunderstood—security primitives available to platform engineers. They declare intent: \"This pod should only…",
+      "author": null,
+      "publishedAt": "2026-09-10T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.redhat.com/en/blog/build-compliance-assistant-autorag-and-red-hat-openshift-ai",
+      "title": "Build a compliance assistant with AutoRAG and Red Hat OpenShift AI",
+      "link": "https://www.redhat.com/en/blog/build-compliance-assistant-autorag-and-red-hat-openshift-ai",
+      "summary": "If you run AI platforms for a bank, an insurer, or anyone else living under a stack of regulations, you already know the use case everyone asks for first: let our compliance and risk teams ask questions against our own policy documents and get an answer they can trust, with a citation they can…",
+      "author": null,
+      "publishedAt": "2026-09-10T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 130
+  "totalIndexed": 133
 }

@@ -9,7 +9,7 @@
     "performance",
     "edge-computing"
   ],
-  "updatedAt": "2026-09-09T15:59:26.246Z",
+  "updatedAt": "2026-09-10T15:53:41.556Z",
   "items": [
     {
       "guid": "01KY2432VQPD5FTF2RARXXYQGH",
@@ -61658,7 +61658,15 @@
       "summary": "Workers now enables Node.js compatibility by default, supports applications up to 64 mebibytes, and adds a URL-based module registry with import.meta, lazy compilation, shared code caches, and clearer errors.",
       "author": "Logan Gatlin",
       "publishedAt": "2026-09-09T13:00:00.000Z"
+    },
+    {
+      "guid": "01M23Q2R3K11Z1TNGRS35GYWR6",
+      "title": "1.1.1.1 now supports post-quantum DNSSEC, all 2,420 bytes of it",
+      "link": "https://blog.cloudflare.com/post-quantum-dnssec-1111/",
+      "summary": "1.1.1.1 now validates DNSSEC signatures using NIST’s post-quantum ML-DSA-44 algorithm. Here is how we manage 2,420-byte signatures and downgrade risks at scale.",
+      "author": "Sebastiaan Neuteboom",
+      "publishedAt": "2026-09-10T13:00:00.000Z"
     }
   ],
-  "totalIndexed": 7706
+  "totalIndexed": 7707
 }
