@@ -1,99 +1,123 @@
-# YC Company Changes for 2026-09-09
+# YC Company Changes for 2026-09-10
 
-- Previous total: 6206
-- Current total: 6207
-- Added: 1
+- Previous total: 6207
+- Current total: 6209
+- Added: 2
 - Removed: 0
-- Updated: 16
+- Updated: 25
 
 
 ## Added Companies
 
-- [ByteAsk](https://www.ycombinator.com/companies/byteask) (Fall 2026) — The AI coding agent for C and C++
+- [Shepherd Robotics](https://www.ycombinator.com/companies/shepherd-robotics) (Fall 2026) — Robots for high skilled labor powering AI infrastructure
+- [Sona8](https://www.ycombinator.com/companies/sona8) (Fall 2026) — Voice agents that talk to employees enabling transformations 
 
 ## Updated Companies
 
-### [Nectome](https://www.ycombinator.com/companies/nectome)
-
-- `small_logo_thumb_url`: /company/thumb/missing.png → https://bookface-images.s3.amazonaws.com/small_logos/11927d4ef4719b09f11846ce29e426087c662622.png
-- `all_locations`: Portland, OR, USA; South San Francisco, CA, USA → Portland, OR, USA
-- `one_liner`: Building a way to preserve long-term memories. → Human whole body end-of-life preservation for later revival.
-- `team_size`: 5 → 9
-- `tags`: Neurotechnology → Neurotechnology,Biotech,Healthcare
-
-### [Embrace](https://www.ycombinator.com/companies/embrace)
+### [Meesho](https://www.ycombinator.com/companies/meesho)
 
 - `stage`: Growth → Early
 
-### [Forage](https://www.ycombinator.com/companies/forage-2)
+### [Ambient.ai](https://www.ycombinator.com/companies/ambient-ai)
 
-- `all_locations`: San Diego, CA, USA → San Francisco, CA, USA
-- `one_liner`: Payments infrastructure for government benefits → Payments powering people
+- `stage`: Growth → Early
 
-### [Aqua](https://www.ycombinator.com/companies/aqua)
+### [Julius](https://www.ycombinator.com/companies/julius)
 
-- `team_size`: 34 → 23
+- `one_liner`: AI Data Scientist → Build and analyze things with AI
+- `tags`: AI → Artificial Intelligence
 
-### [Serve AI](https://www.ycombinator.com/companies/serve-ai)
+### [Infisical](https://www.ycombinator.com/companies/infisical)
 
-- `name`: pap! → Serve AI
-- `slug`: pap → serve-ai
-- `former_names`:  → pap!
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/91957da820be361c716d7cafd0c4078a1c7333e0.png → https://bookface-images.s3.amazonaws.com/small_logos/7e1603c58a6b9ecb46ac26ec775f8201dd3c1d3d.png
-- `website`: https://joinpap.com/ → https://tryserve.ai/
-- `one_liner`: Agents that earn consumers dollars when they shop, travel, and live. → AI for Home Services Operators
-- `tags`: Fintech,Consumer,Consumer Finance,AI Assistant → Artificial Intelligence,B2B,Home Services
+- `stage`: Growth → Early
 
-### [Prism](https://www.ycombinator.com/companies/prism)
+### [Dream3D](https://www.ycombinator.com/companies/dream3d)
 
-- `website`: https://herm.run → https://prisminference.com
+- `isHiring`: true → false
 
-### [Besimple AI](https://www.ycombinator.com/companies/besimple-ai)
+### [Alex](https://www.ycombinator.com/companies/alex-com)
+
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/06a520b90e3747c6cceea7df4f038dc6a8cb3432.png → https://bookface-images.s3.amazonaws.com/small_logos/98b76c25c75fac04ce234cc570b0dd988698507a.png
+- `one_liner`: Your AI recruiter for interviewing and identifying the best talent → Alex is the AI recruiter for hiring great people.
+
+### [Basalt](https://www.ycombinator.com/companies/basalt)
 
 - `team_size`: 6 → 10
-- `tags`: AIOps,Artificial Intelligence,Data Labeling → AIOps,Data Labeling,AI
+- `tags`: Artificial Intelligence,Satellites,Aerospace,Automation,Defense → Satellites,Aerospace,Automation,Defense,AI
 
-### [Narrative](https://www.ycombinator.com/companies/usenarrative)
+### [Voicepanel](https://www.ycombinator.com/companies/voicepanel)
 
-- `website`: http://www.narrative-sports.com → http://www.usenarrative.ai
-- `one_liner`: Video Intelligence for Sports → AI Video Editor
-- `industry`: B2B → Consumer
-- `subindustry`: B2B -> Marketing → Consumer -> Content
-- `tags`: Sports Tech,B2B,Video,AI → Artificial Intelligence,Consumer,Video
-- `industries`: B2B,Marketing → Consumer,Content
+- `one_liner`: Build with conviction → Evals for products
 
-### [Denki](https://www.ycombinator.com/companies/denki)
+### [Deepnight](https://www.ycombinator.com/companies/deepnight)
 
-- `team_size`: 3 → 4
-- `tags`: Artificial Intelligence,FinOps,Compliance,AI Assistant → FinOps,Compliance,AI,AI Assistant
+- `isHiring`: false → true
 
-### [Layers](https://www.ycombinator.com/companies/layers)
+### [Gauge](https://www.ycombinator.com/companies/gauge)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/f8e38f7ff1a982099e585e1be50508d13d821286.png → https://bookface-images.s3.amazonaws.com/small_logos/0392f6cc4b38e3757dfde807152e63044285166f.png
-- `one_liner`: A 30 min appointment to measure everything in your body → Improve your appearance by measuring, understanding, and tracking…
+- `one_liner`: Gauge helps you get recommended and implemented by agents. → Gauge helps you get recommended and implemented by AI.
 
-### [Most Robotic](https://www.ycombinator.com/companies/most-robotic)
+### [Ficra](https://www.ycombinator.com/companies/ficra)
 
-- `tags`: Artificial Intelligence,Robotics → Robotics,AI
+- `one_liner`: Getting creators more deals → Automating workflows.
+- `tags`: B2B,Social Media,Automation,Creator Economy,AI → Artificial Intelligence,B2B,Automation
 
-### [Collar](https://www.ycombinator.com/companies/collar)
+### [x1](https://www.ycombinator.com/companies/x1)
 
-- `one_liner`: AI for Investor Relations and Equity Research → AI for Investor Relations
+- `isHiring`: true → false
 
-### [Speko](https://www.ycombinator.com/companies/speko)
+### [Operand](https://www.ycombinator.com/companies/operand)
 
-- `tags`: Developer Tools,AI,Conversational AI → Artificial Intelligence,Developer Tools,Conversational AI
+- `stage`: Growth → Early
 
-### [Riften](https://www.ycombinator.com/companies/riften)
+### [Olive](https://www.ycombinator.com/companies/olive)
 
-- `team_size`: 0 → 5
-- `tags`: Artificial Intelligence,Developer Tools,Reinforcement Learning,Open Source,Infrastructure → Developer Tools,Reinforcement Learning,Open Source,Infrastructure,AI
+- `one_liner`:  → Build internal tools with AI
+- `tags`: Artificial Intelligence,Productivity,Team Collaboration → Productivity,Team Collaboration,AI
 
-### [Graphify Labs](https://www.ycombinator.com/companies/graphify-labs)
+### [Bitrig](https://www.ycombinator.com/companies/bitrig)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/0f86336cad3f47d72897d04916a12380f1f0094b.png → https://bookface-images.s3.amazonaws.com/small_logos/827fabd6e00bab1febd0feb00c906a6a3809b989.png
-- `one_liner`: On-device Knowledge Graph engine for Enterprise Codebases  → On-device Knowledge Graph engine for Enterprise Software
+- `name`: bitrig → Bitrig
+- `former_names`: Aurelia,BitRig → Aurelia,BitRig,bitrig
+- `one_liner`: Vibe code, test, and deploy Swift apps. All from your iPhone. → Build and ship native Swift apps with AI
 
-### [Moving Atoms](https://www.ycombinator.com/companies/moving-atoms)
+### [Humoniq](https://www.ycombinator.com/companies/humoniq)
 
-- `one_liner`: World Models (Virtual Reality) for training robots → Virtual Reality for Training Robots
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/5b4b4793c04b2144e6d808676c5d789049433c7b.png → https://bookface-images.s3.amazonaws.com/small_logos/dd360d85931a0845b568ab55a8dd586fb4c3941c.png
+
+### [Travo](https://www.ycombinator.com/companies/travo)
+
+- `one_liner`: The brokerage that never sleeps → .
+
+### [Lemma](https://www.ycombinator.com/companies/uselemma)
+
+- `tags`: Artificial Intelligence,Developer Tools,B2B,Infrastructure,AI → Artificial Intelligence,Developer Tools,Analytics,Infrastructure,Monitoring
+
+### [Antigen](https://www.ycombinator.com/companies/antigen)
+
+- `isHiring`: true → false
+
+### [Palette](https://www.ycombinator.com/companies/palette-2)
+
+- `one_liner`: An AI-Native Media Platform → The Media Engine of the AI Era
+
+### [Lab0](https://www.ycombinator.com/companies/lab0)
+
+- `isHiring`: false → true
+
+### [Bizmark](https://www.ycombinator.com/companies/bizmark)
+
+- `one_liner`: OpenClaw for manufacturers → AI employee for manufacturers
+
+### [Financial Datasets](https://www.ycombinator.com/companies/financial-datasets)
+
+- `one_liner`: Connect your agent to the stock market  → Connect your agents to the stock market 
+- `tags`: Artificial Intelligence,Fintech,Investing,Stocks → Fintech,Investing,AI,Stocks
+
+### [Ethos Space Resources](https://www.ycombinator.com/companies/ethos-space-resources)
+
+- `one_liner`: We make silicon on the Moon for the terawatt era of space power. → We make silicon on the Moon, to power everything in space.
+
+### [ByteAsk](https://www.ycombinator.com/companies/byteask)
+
+- `launched_at`: 1786027126 → 1788984366

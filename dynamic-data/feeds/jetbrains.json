@@ -8,7 +8,7 @@
     "ide",
     "programming-languages"
   ],
-  "updatedAt": "2026-09-09T15:59:34.008Z",
+  "updatedAt": "2026-09-10T03:20:41.503Z",
   "items": [
     {
       "guid": "https://blog.jetbrains.com/?post_type=rscpp&p=725420",
@@ -537,7 +537,15 @@
       "summary": "JetBrains IDEs have worked with WSL for many years, and over time, several ways of using it have emerged across our products. Depending on the entry point, the IDE could rely on a different underlying architecture, leading to a different experience. Starting with the 2026.2 release, there is one…",
       "author": "Kristina Pchelintseva",
       "publishedAt": "2026-09-09T10:39:49.000Z"
+    },
+    {
+      "guid": "https://blog.jetbrains.com/?post_type=dotnet&p=738228",
+      "title": "Why Rider and ReSharper Were Slow to Start, and How Microsoft Helped Fix the Problem",
+      "link": "https://blog.jetbrains.com/dotnet/2026/09/09/why-rider-and-resharper-were-slow-to-start-and-how-microsoft-helped-fix-the-problem/",
+      "summary": "When we launched ReSharper’s out-of-process (OOP) architecture, users reported slower startup times for IDEs using ReSharper on Windows. After profiling, the cause surprised us: Microsoft Defender was scanning our process for longer than we expected. This post is about what we found, what we…",
+      "author": "Alexander Ulitin",
+      "publishedAt": "2026-09-09T16:45:27.000Z"
     }
   ],
-  "totalIndexed": 66
+  "totalIndexed": 67
 }

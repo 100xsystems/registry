@@ -8,7 +8,7 @@
     "architecture",
     "aws"
   ],
-  "updatedAt": "2026-08-24T18:28:47.753Z",
+  "updatedAt": "2026-09-10T03:20:41.451Z",
   "items": [
     {
       "guid": "79195fa586925a9b62c134acc83bb06b7b67a778",
@@ -217,7 +217,23 @@
       "summary": "When AWS accounts move between organizations, organization-bound AWS RAM resource shares break and control-plane access is lost. Learn how a global payment processor used temporary bridge shares to preserve AWS Lake Formation permissions across a 382-account AWS Organizations migration, then…",
       "author": "Sam Mukherjee",
       "publishedAt": "2026-08-24T15:23:21.000Z"
+    },
+    {
+      "guid": "a0b33820c0272b6c8f5a55af98ae45e8da62656d",
+      "title": "Testing application resilience with Amazon SQS and AWS Fault Injection Service",
+      "link": "https://aws.amazon.com/blogs/architecture/testing-application-resilience-with-amazon-sqs-and-aws-fault-injection-service/",
+      "summary": "Learn how to use AWS Fault Injection Service and AWS Systems Manager Automation to run progressive chaos experiments against Amazon SQS queues. Validate that your retry logic, circuit breakers, and dead-letter queues actually work under failure before a real outage hits production.",
+      "author": "Richard Whitworth",
+      "publishedAt": "2026-09-09T21:33:59.000Z"
+    },
+    {
+      "guid": "a407526979b70b94a801af92b401656e5712788d",
+      "title": "Validating multi-Region DR for Terraform Enterprise with AWS FIS",
+      "link": "https://aws.amazon.com/blogs/architecture/validating-multi-region-dr-for-terraform-enterprise-with-aws-fis/",
+      "summary": "Learn how AWS, HashiCorp, and Athenahealth designed and chaos-tested a multi-Region disaster recovery strategy for Terraform Enterprise on AWS. This post walks through three-phase AWS Fault Injection Service experiments across Amazon EC2, Aurora, and Amazon S3, the 12-14 minute recovery times…",
+      "author": "Frenil Randeria",
+      "publishedAt": "2026-09-09T21:05:02.000Z"
     }
   ],
-  "totalIndexed": 26
+  "totalIndexed": 28
 }

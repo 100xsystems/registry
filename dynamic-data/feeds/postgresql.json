@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-09-09T20:15:06.684Z",
+  "updatedAt": "2026-09-10T03:20:31.426Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -1497,7 +1497,23 @@
       "summary": "Percona Operator for PostgreSQL 3.1.0 takes on three things that decide whether a PostgreSQL platform passes review: is the data encrypted at rest, can it serve reads without straining the primary, and are the logs there when you need them. This release answers all three inside the custom resource,…",
       "author": null,
       "publishedAt": "2026-09-09T16:08:31.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9ud",
+      "title": "Christophe Pettus: All Your GUCs in a Row: max_active_replication_origins",
+      "link": "https://postgr.es/p/9ud",
+      "summary": "max_active_replication_origins is a ten-year-old XXX comment that finally got paid off. It arrived in PostgreSQL 18, and it exists because the thing it controls had been borrowing another parameter’s number since 9.5. On 14 through 17, the number of replication origins a subscriber can track is s…",
+      "author": null,
+      "publishedAt": "2026-09-10T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9ue",
+      "title": "Elizabeth Garrett Christensen: 30 Years of Postgres Architecture: Tom Lane Interview",
+      "link": "https://postgr.es/p/9ue",
+      "summary": "Elizabeth: I know a little bit of your history prior to joining the Postgres project. I think you did work on JPEG — the image specification. The internet thinks that you did some work on libjpeg, which was part of the Mars Perseverance camera work. Tell me a little bit about that and how that…",
+      "author": null,
+      "publishedAt": "2026-09-09T17:40:00.000Z"
     }
   ],
-  "totalIndexed": 186
+  "totalIndexed": 188
 }
