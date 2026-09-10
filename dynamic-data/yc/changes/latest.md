@@ -1,123 +1,80 @@
 # YC Company Changes for 2026-09-10
 
-- Previous total: 6207
-- Current total: 6209
+- Previous total: 6209
+- Current total: 6211
 - Added: 2
 - Removed: 0
-- Updated: 25
+- Updated: 14
 
 
 ## Added Companies
 
-- [Shepherd Robotics](https://www.ycombinator.com/companies/shepherd-robotics) (Fall 2026) — Robots for high skilled labor powering AI infrastructure
-- [Sona8](https://www.ycombinator.com/companies/sona8) (Fall 2026) — Voice agents that talk to employees enabling transformations 
+- [Mirrors](https://www.ycombinator.com/companies/mirrors) (Fall 2026) — Catch and fix AI agent regressions before they reach production
+- [DeepMark](https://www.ycombinator.com/companies/deepmark) (Fall 2026) — A live watermark inside AI voice that survives phone calls
 
 ## Updated Companies
 
 ### [Meesho](https://www.ycombinator.com/companies/meesho)
 
-- `stage`: Growth → Early
+- `stage`: Early → Growth
 
 ### [Ambient.ai](https://www.ycombinator.com/companies/ambient-ai)
 
-- `stage`: Growth → Early
+- `stage`: Early → Growth
 
-### [Julius](https://www.ycombinator.com/companies/julius)
+### [Embrace](https://www.ycombinator.com/companies/embrace)
 
-- `one_liner`: AI Data Scientist → Build and analyze things with AI
-- `tags`: AI → Artificial Intelligence
+- `stage`: Early → Growth
+
+### [FrontPage](https://www.ycombinator.com/companies/frontpage)
+
+- `isHiring`: true → false
 
 ### [Infisical](https://www.ycombinator.com/companies/infisical)
 
-- `stage`: Growth → Early
+- `stage`: Early → Growth
 
-### [Dream3D](https://www.ycombinator.com/companies/dream3d)
+### [Model ML](https://www.ycombinator.com/companies/model-ml)
 
-- `isHiring`: true → false
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/d8ddf0e7dc8427a9d923647c11b57a6c3f2be032.png → https://bookface-images.s3.amazonaws.com/small_logos/9534078fe1346cc9c5c1cef87076db8b67768589.png
+- `one_liner`: AI Workspace for Financial Services. → The AI for Financial Services.
+- `team_size`: 80 → 180
+- `tags`: Artificial Intelligence,SaaS,Finance,B2B → SaaS,Finance,B2B,AI
 
-### [Alex](https://www.ycombinator.com/companies/alex-com)
+### [Reform](https://www.ycombinator.com/companies/reform)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/06a520b90e3747c6cceea7df4f038dc6a8cb3432.png → https://bookface-images.s3.amazonaws.com/small_logos/98b76c25c75fac04ce234cc570b0dd988698507a.png
-- `one_liner`: Your AI recruiter for interviewing and identifying the best talent → Alex is the AI recruiter for hiring great people.
-
-### [Basalt](https://www.ycombinator.com/companies/basalt)
-
-- `team_size`: 6 → 10
-- `tags`: Artificial Intelligence,Satellites,Aerospace,Automation,Defense → Satellites,Aerospace,Automation,Defense,AI
-
-### [Voicepanel](https://www.ycombinator.com/companies/voicepanel)
-
-- `one_liner`: Build with conviction → Evals for products
-
-### [Deepnight](https://www.ycombinator.com/companies/deepnight)
-
-- `isHiring`: false → true
-
-### [Gauge](https://www.ycombinator.com/companies/gauge)
-
-- `one_liner`: Gauge helps you get recommended and implemented by agents. → Gauge helps you get recommended and implemented by AI.
-
-### [Ficra](https://www.ycombinator.com/companies/ficra)
-
-- `one_liner`: Getting creators more deals → Automating workflows.
-- `tags`: B2B,Social Media,Automation,Creator Economy,AI → Artificial Intelligence,B2B,Automation
-
-### [x1](https://www.ycombinator.com/companies/x1)
-
-- `isHiring`: true → false
+- `tags`: Workflow Automation,Compliance,Logistics,Supply Chain,AI → Artificial Intelligence,Workflow Automation,Compliance,Logistics,Supply Chain
 
 ### [Operand](https://www.ycombinator.com/companies/operand)
 
-- `stage`: Growth → Early
+- `stage`: Early → Growth
 
-### [Olive](https://www.ycombinator.com/companies/olive)
+### [Shor](https://www.ycombinator.com/companies/shor)
 
-- `one_liner`:  → Build internal tools with AI
-- `tags`: Artificial Intelligence,Productivity,Team Collaboration → Productivity,Team Collaboration,AI
-
-### [Bitrig](https://www.ycombinator.com/companies/bitrig)
-
-- `name`: bitrig → Bitrig
-- `former_names`: Aurelia,BitRig → Aurelia,BitRig,bitrig
-- `one_liner`: Vibe code, test, and deploy Swift apps. All from your iPhone. → Build and ship native Swift apps with AI
-
-### [Humoniq](https://www.ycombinator.com/companies/humoniq)
-
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/5b4b4793c04b2144e6d808676c5d789049433c7b.png → https://bookface-images.s3.amazonaws.com/small_logos/dd360d85931a0845b568ab55a8dd586fb4c3941c.png
-
-### [Travo](https://www.ycombinator.com/companies/travo)
-
-- `one_liner`: The brokerage that never sleeps → .
-
-### [Lemma](https://www.ycombinator.com/companies/uselemma)
-
-- `tags`: Artificial Intelligence,Developer Tools,B2B,Infrastructure,AI → Artificial Intelligence,Developer Tools,Analytics,Infrastructure,Monitoring
+- `website`: https://www.shorpay.com → https://shorpay.com
 
 ### [Antigen](https://www.ycombinator.com/companies/antigen)
 
-- `isHiring`: true → false
-
-### [Palette](https://www.ycombinator.com/companies/palette-2)
-
-- `one_liner`: An AI-Native Media Platform → The Media Engine of the AI Era
-
-### [Lab0](https://www.ycombinator.com/companies/lab0)
-
+- `tags`: Cybersecurity,AI → Artificial Intelligence,Cybersecurity
 - `isHiring`: false → true
+
+### [Verdant](https://www.ycombinator.com/companies/verdant)
+
+- `all_locations`: Washington, DC, USA → San Francisco, CA, USA
+- `one_liner`: AI infrastructure for local government, starting with permitting → AI Agents to Make Local Gov Efficient
+- `tags`: GovTech,AI → Artificial Intelligence,GovTech
 
 ### [Bizmark](https://www.ycombinator.com/companies/bizmark)
 
-- `one_liner`: OpenClaw for manufacturers → AI employee for manufacturers
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/4791de2dabb8bec7ed5148dd8de1f8400f029cbd.png → https://bookface-images.s3.amazonaws.com/small_logos/ee2b3b896d33b5af63938bfada70f7377592ac49.png
+- `one_liner`: AI employee for manufacturers → OpenClaw for manufacturers
 
-### [Financial Datasets](https://www.ycombinator.com/companies/financial-datasets)
+### [Denta](https://www.ycombinator.com/companies/denta)
 
-- `one_liner`: Connect your agent to the stock market  → Connect your agents to the stock market 
-- `tags`: Artificial Intelligence,Fintech,Investing,Stocks → Fintech,Investing,AI,Stocks
+- `one_liner`: AI-Native Dental Insurance → Dental Insurance
+- `tags`: Artificial Intelligence,Fintech,Healthcare,Health Insurance → Fintech,Healthcare,Health Insurance,AI
 
-### [Ethos Space Resources](https://www.ycombinator.com/companies/ethos-space-resources)
+### [OpenTag](https://www.ycombinator.com/companies/opentag)
 
-- `one_liner`: We make silicon on the Moon for the terawatt era of space power. → We make silicon on the Moon, to power everything in space.
-
-### [ByteAsk](https://www.ycombinator.com/companies/byteask)
-
-- `launched_at`: 1786027126 → 1788984366
+- `one_liner`: Model Agnostic Claude Tag → Model Agnostic AI coworker in Slack
+- `tags`: AIOps,B2B,Workflow Automation,Enterprise Software,AI → AIOps,Artificial Intelligence,B2B,Workflow Automation,Enterprise Software
