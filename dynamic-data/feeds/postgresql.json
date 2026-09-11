@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-09-11T10:57:33.300Z",
+  "updatedAt": "2026-09-11T15:55:59.396Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -1545,7 +1545,15 @@
       "summary": "Aggregates in PostgreSQL aren't particularly efficient, computationally speaking. It shows most in a scenario where partial aggregation doesn't help: when aggregation only prepares data for the query, processing a large stream of rows and producing, at the output, a not-much-smaller set of groups…",
       "author": null,
       "publishedAt": "2026-09-10T17:33:44.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9uk",
+      "title": "Shaun Thomas: PG Phriday: The Folder That Ate the Publisher",
+      "link": "https://postgr.es/p/9uk",
+      "summary": "Logical replication has been part of Postgres since version 10, and the syntax page that governs it is almost comically brief.  wants a name, a connection string, a list of publications, and then it offers one innocuous line:That single line expands to more than a dozen options, and several of them…",
+      "author": null,
+      "publishedAt": "2026-09-11T11:18:55.000Z"
     }
   ],
-  "totalIndexed": 192
+  "totalIndexed": 193
 }
