@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-09-11T03:16:22.903Z",
+  "updatedAt": "2026-09-11T10:57:33.300Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -1529,7 +1529,23 @@
       "summary": "max_connections is a memory budget and a circuit breaker wearing a capacity costume. It does not decide how many queries your server can run at once; the core count and the storage decide that, and they were decided when you bought the hardware. What max_connections decides is how many client bac…",
       "author": null,
       "publishedAt": "2026-09-11T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9uh",
+      "title": "Radim Marek: The unbearable lightness of one more index",
+      "link": "https://postgr.es/p/9uh",
+      "summary": "Being \"the database guy\" comes with a lot of questions, and over the last eight months those questions changed. The repetitive ones disappeared, nobody asks how to avoid putting things in the database any more, and the code arriving for review got noticeably more polished. Then this summer a schema…",
+      "author": null,
+      "publishedAt": "2026-09-11T08:15:45.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9ui",
+      "title": "Andrei Lepikhov: Optimising PostgreSQL Aggregates: What Can an Extension Do?",
+      "link": "https://postgr.es/p/9ui",
+      "summary": "Aggregates in PostgreSQL aren't particularly efficient, computationally speaking. It shows most in a scenario where partial aggregation doesn't help: when aggregation only prepares data for the query, processing a large stream of rows and producing, at the output, a not-much-smaller set of groups…",
+      "author": null,
+      "publishedAt": "2026-09-10T17:33:44.000Z"
     }
   ],
-  "totalIndexed": 190
+  "totalIndexed": 192
 }
