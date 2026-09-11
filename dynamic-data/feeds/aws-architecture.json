@@ -8,7 +8,7 @@
     "architecture",
     "aws"
   ],
-  "updatedAt": "2026-09-11T03:16:31.387Z",
+  "updatedAt": "2026-09-11T20:16:28.225Z",
   "items": [
     {
       "guid": "79195fa586925a9b62c134acc83bb06b7b67a778",
@@ -241,7 +241,15 @@
       "summary": "Real-time streaming workers that hold hundreds of persistent WebSocket connections lose data when a worker fails. Learn how to build a WebSocket fleet management system on Amazon ECS and AWS Fargate that uses Amazon DynamoDB conditional writes as a distributed lease to track ownership, fail over…",
       "author": "Siddhesh Tiwari",
       "publishedAt": "2026-09-10T16:14:22.000Z"
+    },
+    {
+      "guid": "b3d811007dba109422cf57f9148a494b3144ee73",
+      "title": "From zero-shot forecast to purchase order with Amazon Bedrock AgentCore",
+      "link": "https://aws.amazon.com/blogs/architecture/from-zero-shot-forecast-to-purchase-order-with-amazon-bedrock-agentcore/",
+      "summary": "Combine zero-shot forecasting with Amazon Chronos2 and multi-agent orchestration on Amazon Bedrock AgentCore to turn demand forecasts into validated purchase orders. No per-product model training, with business rules, auditability, and cost that scales to zero.",
+      "author": "Hyunsoo Kim, Ph.D.",
+      "publishedAt": "2026-09-11T14:08:01.000Z"
     }
   ],
-  "totalIndexed": 29
+  "totalIndexed": 30
 }

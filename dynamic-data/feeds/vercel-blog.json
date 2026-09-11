@@ -9,7 +9,7 @@
     "edge-computing",
     "nextjs"
   ],
-  "updatedAt": "2026-09-11T03:16:32.019Z",
+  "updatedAt": "2026-09-11T20:16:28.860Z",
   "items": [
     {
       "guid": "vercel-blog::https://vercel.com/changelog/ai-gateway-now-supports-streaming-transcription",
@@ -4562,7 +4562,31 @@
       "summary": "FastAPI frontends and static files, served with  or , are now promoted to the  at build time. Requests for those paths are served directly from the CDN, without invoking your Vercel Function.app.frontend()StaticFilesVercel CDN\nFastAPI evaluates routes in declaration order. A route declared before a…",
       "author": "Daniel Park",
       "publishedAt": "2026-09-10T17:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/blog/how-featureds-users-make-100k-media-pitches-per-month-on-vercel",
+      "title": "How Featured's users make 100K media pitches per month on Vercel",
+      "link": "https://vercel.com/blog/how-featureds-users-make-100k-media-pitches-per-month-on-vercel",
+      "summary": "Featured on Vercel \nCompute without the clusters\nAI SDK and AI Gateway: one abstraction for every model\nWorkflow SDK for long-running backend jobs\n\n3 engineers supporting 3 brands and 100,000+ users on Vercel \n\nMigrated 374 Sanity sites from AWS Elastic Beanstalk to Vercel\n\n and  power Featured's…",
+      "author": "Susan Aziz",
+      "publishedAt": "2026-09-11T04:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/blog/how-tailscale-built-a-customer-facing-model-router-on-ai-gateway",
+      "title": "How Tailscale built a customer-facing model router on AI Gateway",
+      "link": "https://vercel.com/blog/how-tailscale-built-a-customer-facing-model-router-on-ai-gateway",
+      "summary": "Tailscale on Vercel\n\nHundreds of AI models shipped to customers in-product\n\nModel access granted and revoked by tailnet network identity\n\nWent from model routing prototype to paying customers in months\n\n\nThe AI Gateway itself retains no data. \n\nThey can set ZDR globally or use the per-request…",
+      "author": "Eric Dodds",
+      "publishedAt": "2026-09-11T04:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/control-who-can-manage-connectors-in-vercel-connect",
+      "title": "Control who can manage connectors in Vercel Connect",
+      "link": "https://vercel.com/changelog/control-who-can-manage-connectors-in-vercel-connect",
+      "summary": "Pro and Enterprise teams can now control who can create and manage  connectors. Connectors let applications and agents access external services using credentials managed by your team.Vercel Connect\nOwners can enable this restriction under  in . Once enabled, only people with the Owner role or…",
+      "author": "Mark Roberts",
+      "publishedAt": "2026-09-11T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 569
+  "totalIndexed": 572
 }

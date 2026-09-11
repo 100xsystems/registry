@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-09-11T15:55:59.396Z",
+  "updatedAt": "2026-09-11T20:16:18.448Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -1553,7 +1553,15 @@
       "summary": "Logical replication has been part of Postgres since version 10, and the syntax page that governs it is almost comically brief.  wants a name, a connection string, a list of publications, and then it offers one innocuous line:That single line expands to more than a dozen options, and several of them…",
       "author": null,
       "publishedAt": "2026-09-11T11:18:55.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9ul",
+      "title": "Mikhail Shytsko: Your Agent Can Turn Off Its Own Kill Switch",
+      "link": "https://postgr.es/p/9ul",
+      "summary": "A new agent needs a database login, so the role it logs in as gets the treatment every runbook recommends. Two ALTER ROLE lines go in, one capping how long a single statement may run and one making transactions read-only by default. From the operator's side, the Postgres role for AI agent sessions…",
+      "author": null,
+      "publishedAt": "2026-09-11T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 193
+  "totalIndexed": 194
 }
