@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-09-10T10:59:20.034Z",
+  "updatedAt": "2026-09-11T03:16:22.903Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -1521,7 +1521,15 @@
       "summary": "pgsql.cc is live, with Chinese documentation for all 11 PostgreSQL major versions from 10 through 20, a redesigned mirror of the official website, and better full-text search. Kept in sync with upstream, with no ads.",
       "author": null,
       "publishedAt": "2026-09-10T00:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9ug",
+      "title": "Christophe Pettus: All Your GUCs in a Row: max_connections",
+      "link": "https://postgr.es/p/9ug",
+      "summary": "max_connections is a memory budget and a circuit breaker wearing a capacity costume. It does not decide how many queries your server can run at once; the core count and the storage decide that, and they were decided when you bought the hardware. What max_connections decides is how many client bac…",
+      "author": null,
+      "publishedAt": "2026-09-11T01:00:00.000Z"
     }
   ],
-  "totalIndexed": 189
+  "totalIndexed": 190
 }

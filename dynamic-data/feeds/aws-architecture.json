@@ -8,7 +8,7 @@
     "architecture",
     "aws"
   ],
-  "updatedAt": "2026-09-10T03:20:41.451Z",
+  "updatedAt": "2026-09-11T03:16:31.387Z",
   "items": [
     {
       "guid": "79195fa586925a9b62c134acc83bb06b7b67a778",
@@ -233,7 +233,15 @@
       "summary": "Learn how AWS, HashiCorp, and Athenahealth designed and chaos-tested a multi-Region disaster recovery strategy for Terraform Enterprise on AWS. This post walks through three-phase AWS Fault Injection Service experiments across Amazon EC2, Aurora, and Amazon S3, the 12-14 minute recovery times…",
       "author": "Frenil Randeria",
       "publishedAt": "2026-09-09T21:05:02.000Z"
+    },
+    {
+      "guid": "e80ba765852a275e648b3690d469ab3e875ece2e",
+      "title": "Building resilient real-time streaming workers with Amazon DynamoDB leases",
+      "link": "https://aws.amazon.com/blogs/architecture/building-resilient-real-time-streaming-workers-with-amazon-dynamodb-leases/",
+      "summary": "Real-time streaming workers that hold hundreds of persistent WebSocket connections lose data when a worker fails. Learn how to build a WebSocket fleet management system on Amazon ECS and AWS Fargate that uses Amazon DynamoDB conditional writes as a distributed lease to track ownership, fail over…",
+      "author": "Siddhesh Tiwari",
+      "publishedAt": "2026-09-10T16:14:22.000Z"
     }
   ],
-  "totalIndexed": 28
+  "totalIndexed": 29
 }
