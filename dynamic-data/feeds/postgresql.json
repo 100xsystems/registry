@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-09-11T20:16:18.448Z",
+  "updatedAt": "2026-09-12T03:22:06.432Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -1561,7 +1561,15 @@
       "summary": "A new agent needs a database login, so the role it logs in as gets the treatment every runbook recommends. Two ALTER ROLE lines go in, one capping how long a single statement may run and one making transactions read-only by default. From the operator's side, the Postgres role for AI agent sessions…",
       "author": null,
       "publishedAt": "2026-09-11T00:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9um",
+      "title": "Christophe Pettus: All Your GUCs in a Row: max_files_per_process",
+      "link": "https://postgr.es/p/9um",
+      "summary": "PostgreSQL's max_files_per_process isn't a hard limit—it's a descriptor pool that quietly recycles old files when full.",
+      "author": null,
+      "publishedAt": "2026-09-12T01:00:00.000Z"
     }
   ],
-  "totalIndexed": 194
+  "totalIndexed": 195
 }

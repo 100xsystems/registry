@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-09-08T16:03:57.134Z",
+  "updatedAt": "2026-09-12T03:22:16.030Z",
   "items": [
     {
       "guid": "https://www.tigerdata.com/blog/whats-new-in-tiger-cloud",
@@ -87,7 +87,15 @@
       "summary": "Giving an AI agent unrestricted database access isn't safe. Scoped, read-only, database-enforced access can be. See the framework and guardrails.",
       "author": "Nicole Ghalwash",
       "publishedAt": "2026-09-08T13:19:27.000Z"
+    },
+    {
+      "guid": "https://www.tigerdata.com/blog/real-cost-of-single-insert-in-postgres",
+      "title": "The Real Cost of a Single Insert in Postgres",
+      "link": "https://www.tigerdata.com/blog/real-cost-of-single-insert-in-postgres",
+      "summary": "PostgreSQL write amplification explained: why indexes multiply WAL volume, how to measure it on your tables, and four ways to reduce it without schema changes.",
+      "author": "NanoHertz Communications",
+      "publishedAt": "2026-09-11T20:23:58.000Z"
     }
   ],
-  "totalIndexed": 10
+  "totalIndexed": 11
 }

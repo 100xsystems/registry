@@ -1,107 +1,88 @@
-# YC Company Changes for 2026-09-11
+# YC Company Changes for 2026-09-12
 
-- Previous total: 6212
-- Current total: 6213
-- Added: 1
+- Previous total: 6213
+- Current total: 6215
+- Added: 2
 - Removed: 0
-- Updated: 21
+- Updated: 16
 
 
 ## Added Companies
 
-- [Micora](https://www.ycombinator.com/companies/micora) (Fall 2026) — Solar farm in a box built anywhere in days
+- [Sigma](https://www.ycombinator.com/companies/sigma-2) (Fall 2026) — AI Operating System for Mergers & Acquisitions
+- [Vyra](https://www.ycombinator.com/companies/vyra) (Fall 2026) — Autonomous video editing for non-editors. Instead of making users…
 
 ## Updated Companies
 
-### [Beacons](https://www.ycombinator.com/companies/beacons)
+### [OneSchema](https://www.ycombinator.com/companies/oneschema)
 
-- `team_size`: 35 → 25
-- `stage`: Growth → Early
+- `one_liner`: AI Agents for Data Operations → The AI Cowork for big data
 
-### [Vitau](https://www.ycombinator.com/companies/vitau)
+### [Kapital Bank](https://www.ycombinator.com/companies/kapital-bank)
 
-- `demo_day_video_public`: true → false
+- `one_liner`: Data driven neobank for SMBs in LATAM → Empowering businesses to grow. 
+- `team_size`: 500 → 3600
 
-### [Expent Inc](https://www.ycombinator.com/companies/expent-inc)
+### [Designbase](https://www.ycombinator.com/companies/designbase)
 
-- `tags`: Machine Learning,SaaS,B2B,AI → Artificial Intelligence,Machine Learning,SaaS,B2B
+- `isHiring`: true → false
 
-### [TAG](https://www.ycombinator.com/companies/tag)
+### [Forge](https://www.ycombinator.com/companies/forge)
 
-- `team_size`: 36 → 100
+- `one_liner`: Getting companies refunds on tariffs & duties → AI native freight forwarder and customs broker
+- `team_size`: 6 → 7
+- `tags`: Artificial Intelligence,B2B,Logistics,Supply Chain → B2B,Logistics,Supply Chain,AI
 
-### [Lago](https://www.ycombinator.com/companies/lago)
+### [Drillbit](https://www.ycombinator.com/companies/drillbit)
 
-- `team_size`: 45 → 27
-- `stage`: Growth → Early
+- `team_size`: 10 → 12
 
-### [Stably AI (Orca)](https://www.ycombinator.com/companies/stably-ai-orca)
+### [Arva AI](https://www.ycombinator.com/companies/arva-ai)
 
-- `team_size`: 4 → 25
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/637fd6f0b41173fce58a7cc13944c42be5d808ec.png → https://bookface-images.s3.amazonaws.com/small_logos/2ae299aabd083b7f6ae2fc0bfa29903e922b33af.png
+- `all_locations`: London, England, United Kingdom → New York City, NY, USA
+- `one_liner`: AI Agents to scale AML, KYB and KYC operations → AI for critical banking operations
+- `tags`: Artificial Intelligence,Fintech,B2B,Compliance,Regtech → Fintech,B2B,Compliance,Regtech,AI
+- `regions`: United Kingdom,Europe → United States of America,America / Canada
 
-### [FlexWash](https://www.ycombinator.com/companies/flexwash)
+### [Blaxel](https://www.ycombinator.com/companies/blaxel)
 
-- `website`: https://www.flexwashtech.com/ → https://www.flexwash.com/
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/60e390e449209c3c990c56045efeb692cf4ce77a.png → https://bookface-images.s3.amazonaws.com/small_logos/daedc1e66e212180bb678c683cd4595f1c7cd149.png
+- `one_liner`: The perpetual sandbox platform → The infrastructure for autonomous agents
+- `team_size`: 8 → 12
 
-### [HockeyStack](https://www.ycombinator.com/companies/hockeystack)
+### [Prism](https://www.ycombinator.com/companies/tryprism)
 
-- `team_size`: 65 → 32
-- `stage`: Growth → Early
+- `team_size`: 4 → 3
 
-### [Proof of Human](https://www.ycombinator.com/companies/proof-of-human)
+### [Velvet](https://www.ycombinator.com/companies/velvet)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/b3e5845bbb5f4bf270b3e5d25d9624f69e1bd986.png → https://bookface-images.s3.amazonaws.com/small_logos/2b427f260d9fc4b16ea2dd80662ee50a49dc6fee.png
-- `team_size`: 4 → 5
+- `team_size`: 4 → 3
 
-### [CreativeMode](https://www.ycombinator.com/companies/creativemode)
+### [Maven](https://www.ycombinator.com/companies/maven)
+
+- `one_liner`: Payments Infrastructure for Voice Agents → Payments Infrastructure for Conversational Agents
+
+### [River Markets](https://www.ycombinator.com/companies/river-markets)
+
+- `isHiring`: true → false
+
+### [rekursiv.ai](https://www.ycombinator.com/companies/rekursivai)
+
+- `team_size`: 2 → 5
+
+### [Instaplay](https://www.ycombinator.com/companies/instaplay)
+
+- `team_size`: 4 → 3
+
+### [Zaplar](https://www.ycombinator.com/companies/zaplar)
+
+- `team_size`: 8 → 3
+
+### [Luca IQ](https://www.ycombinator.com/companies/luca-iq)
 
 - `team_size`: 5 → 2
 
-### [Curo](https://www.ycombinator.com/companies/curo)
+### [Waybill](https://www.ycombinator.com/companies/waybill)
 
-- `isHiring`: true → false
-- `status`: Active → Acquired
-
-### [Pangolin](https://www.ycombinator.com/companies/pangolin)
-
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/e255c0b8547eae92642ef5a790e42e33f9bed016.png → https://bookface-images.s3.amazonaws.com/small_logos/1ddd59479807f1000294d305ca0a4a84f2d40f97.png
-
-### [Costream](https://www.ycombinator.com/companies/costream)
-
-- `team_size`: 2 → 7
-
-### [Novaflow](https://www.ycombinator.com/companies/novaflow)
-
-- `team_size`: 5 → 4
-
-### [Soren](https://www.ycombinator.com/companies/soren)
-
-- `team_size`: 0 → 1
-
-### [Nessie](https://www.ycombinator.com/companies/nessie)
-
-- `one_liner`: A shared context layer for you, your team, and your agents. → The shared context layer for recursive companies - your work, your…
-- `industry`: Consumer → B2B
-- `subindustry`: Consumer → B2B
-- `industries`: Consumer → B2B
-
-### [Coasts](https://www.ycombinator.com/companies/coasts)
-
-- `status`: Active → Inactive
-
-### [Rex](https://www.ycombinator.com/companies/rex-inc)
-
-- `tags`: Artificial Intelligence,B2B,Enterprise,Enterprise Software → B2B,Enterprise,Enterprise Software,AI
-
-### [Nex](https://www.ycombinator.com/companies/nex)
-
-- `former_names`: GarageSpace, Inc.,Nex,Nex.ai → GarageSpace,Inc.,Nex,Nex.ai
-
-### [Vorelios](https://www.ycombinator.com/companies/vorelios)
-
-- `one_liner`: AI that simulates physics 1000x faster → A foundation model for engineering physics
-- `tags`: Hard Tech,B2B,AI → Artificial Intelligence,Hard Tech,B2B
-
-### [Sona8](https://www.ycombinator.com/companies/sona8)
-
-- `tags`: HR Tech,AI,Conversational AI → Artificial Intelligence,HR Tech,Conversational AI
+- `team_size`: 5 → 3
