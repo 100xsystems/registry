@@ -1,88 +1,42 @@
 # YC Company Changes for 2026-09-12
 
-- Previous total: 6213
-- Current total: 6215
-- Added: 2
+- Previous total: 6215
+- Current total: 6216
+- Added: 1
 - Removed: 0
-- Updated: 16
+- Updated: 7
 
 
 ## Added Companies
 
-- [Sigma](https://www.ycombinator.com/companies/sigma-2) (Fall 2026) — AI Operating System for Mergers & Acquisitions
-- [Vyra](https://www.ycombinator.com/companies/vyra) (Fall 2026) — Autonomous video editing for non-editors. Instead of making users…
+- [Tilion](https://www.ycombinator.com/companies/tilion) (Fall 2026) — Super fast, unblockable browser infra for agents
 
 ## Updated Companies
 
-### [OneSchema](https://www.ycombinator.com/companies/oneschema)
+### [Beacons](https://www.ycombinator.com/companies/beacons)
 
-- `one_liner`: AI Agents for Data Operations → The AI Cowork for big data
+- `stage`: Early → Growth
 
-### [Kapital Bank](https://www.ycombinator.com/companies/kapital-bank)
+### [Lago](https://www.ycombinator.com/companies/lago)
 
-- `one_liner`: Data driven neobank for SMBs in LATAM → Empowering businesses to grow. 
-- `team_size`: 500 → 3600
+- `stage`: Early → Growth
 
-### [Designbase](https://www.ycombinator.com/companies/designbase)
+### [HockeyStack](https://www.ycombinator.com/companies/hockeystack)
 
-- `isHiring`: true → false
+- `stage`: Early → Growth
 
-### [Forge](https://www.ycombinator.com/companies/forge)
+### [Artisan](https://www.ycombinator.com/companies/artisan)
 
-- `one_liner`: Getting companies refunds on tariffs & duties → AI native freight forwarder and customs broker
-- `team_size`: 6 → 7
-- `tags`: Artificial Intelligence,B2B,Logistics,Supply Chain → B2B,Logistics,Supply Chain,AI
+- `one_liner`: The GTM orchestration platform. Ava, Aaron and Aria replace your stack → AI employees that take on real work, starting with sales
 
-### [Drillbit](https://www.ycombinator.com/companies/drillbit)
+### [Proception Inc](https://www.ycombinator.com/companies/proception-inc)
 
-- `team_size`: 10 → 12
+- `isHiring`: false → true
 
-### [Arva AI](https://www.ycombinator.com/companies/arva-ai)
+### [LemonLime](https://www.ycombinator.com/companies/lemonlime)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/637fd6f0b41173fce58a7cc13944c42be5d808ec.png → https://bookface-images.s3.amazonaws.com/small_logos/2ae299aabd083b7f6ae2fc0bfa29903e922b33af.png
-- `all_locations`: London, England, United Kingdom → New York City, NY, USA
-- `one_liner`: AI Agents to scale AML, KYB and KYC operations → AI for critical banking operations
-- `tags`: Artificial Intelligence,Fintech,B2B,Compliance,Regtech → Fintech,B2B,Compliance,Regtech,AI
-- `regions`: United Kingdom,Europe → United States of America,America / Canada
+- `isHiring`: false → true
 
-### [Blaxel](https://www.ycombinator.com/companies/blaxel)
+### [Mirrors](https://www.ycombinator.com/companies/mirrors)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/60e390e449209c3c990c56045efeb692cf4ce77a.png → https://bookface-images.s3.amazonaws.com/small_logos/daedc1e66e212180bb678c683cd4595f1c7cd149.png
-- `one_liner`: The perpetual sandbox platform → The infrastructure for autonomous agents
-- `team_size`: 8 → 12
-
-### [Prism](https://www.ycombinator.com/companies/tryprism)
-
-- `team_size`: 4 → 3
-
-### [Velvet](https://www.ycombinator.com/companies/velvet)
-
-- `team_size`: 4 → 3
-
-### [Maven](https://www.ycombinator.com/companies/maven)
-
-- `one_liner`: Payments Infrastructure for Voice Agents → Payments Infrastructure for Conversational Agents
-
-### [River Markets](https://www.ycombinator.com/companies/river-markets)
-
-- `isHiring`: true → false
-
-### [rekursiv.ai](https://www.ycombinator.com/companies/rekursivai)
-
-- `team_size`: 2 → 5
-
-### [Instaplay](https://www.ycombinator.com/companies/instaplay)
-
-- `team_size`: 4 → 3
-
-### [Zaplar](https://www.ycombinator.com/companies/zaplar)
-
-- `team_size`: 8 → 3
-
-### [Luca IQ](https://www.ycombinator.com/companies/luca-iq)
-
-- `team_size`: 5 → 2
-
-### [Waybill](https://www.ycombinator.com/companies/waybill)
-
-- `team_size`: 5 → 3
+- `tags`: Developer Tools,SaaS,B2B,DevOps,AI → Artificial Intelligence,Developer Tools,SaaS,B2B,DevOps

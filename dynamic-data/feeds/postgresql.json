@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-09-12T03:22:06.432Z",
+  "updatedAt": "2026-09-12T10:25:40.497Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -1569,7 +1569,15 @@
       "summary": "PostgreSQL's max_files_per_process isn't a hard limit—it's a descriptor pool that quietly recycles old files when full.",
       "author": null,
       "publishedAt": "2026-09-12T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9un",
+      "title": "Jeremy Schneider: Misc Learnings: SBOMs, Provenance and Attestations",
+      "link": "https://postgr.es/p/9un",
+      "summary": "In the past couple weeks, I’ve learned more about renovate, SBOMs, provenance and attestations than I ever wanted to know. (But if I’m being honest, I do enjoy learning a bit more about it.)\nBackstory is that I decided to make CNPG-Extensions an actually serious project. The original name was…",
+      "author": null,
+      "publishedAt": "2026-09-12T04:30:54.000Z"
     }
   ],
-  "totalIndexed": 195
+  "totalIndexed": 196
 }
