@@ -4,21 +4,27 @@
 - Current total: 6216
 - Added: 0
 - Removed: 0
-- Updated: 3
+- Updated: 4
 
 
 ## Updated Companies
 
-### [ReasonBlocks](https://www.ycombinator.com/companies/reasonblocks)
+### [Sully](https://www.ycombinator.com/companies/sully)
 
-- `one_liner`: The runtime layer that makes AI agents cheaper and more reliable → Specialized models that make your AI agents cheaper and more reliable.
+- `name`: Sully.ai → Sully
+- `slug`: sully-ai → sully
+- `former_names`: Odiggo → Odiggo,Sully.ai
+- `team_size`: 49 → 44
+- `regions`: United States of America,America / Canada,Remote,Partly Remote → United States of America,America / Canada
 
-### [Sentient OS](https://www.ycombinator.com/companies/sentient-os)
+### [Kombo](https://www.ycombinator.com/companies/kombo)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/597c9491c6951c83af2828c9a596ca67477a0157.png → https://bookface-images.s3.amazonaws.com/small_logos/108c3aadc4e00e665b12a9b3e77b6f0a5caa7d7b.png
+- `team_size`: 20 → 77
+
+### [Flai](https://www.ycombinator.com/companies/flai)
+
+- `stage`: Early → Growth
+
+### [Marble](https://www.ycombinator.com/companies/joinmarble)
+
 - `isHiring`: false → true
-
-### [Vorelios](https://www.ycombinator.com/companies/vorelios)
-
-- `one_liner`: AI that simulates physics 1000x faster → A foundation model for engineering physics
-- `tags`: Hard Tech,B2B,AI → Artificial Intelligence,Hard Tech,B2B
