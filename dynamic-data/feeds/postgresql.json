@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-09-12T10:25:40.497Z",
+  "updatedAt": "2026-09-13T03:27:27.598Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -1577,7 +1577,15 @@
       "summary": "In the past couple weeks, I’ve learned more about renovate, SBOMs, provenance and attestations than I ever wanted to know. (But if I’m being honest, I do enjoy learning a bit more about it.)\nBackstory is that I decided to make CNPG-Extensions an actually serious project. The original name was…",
       "author": null,
       "publishedAt": "2026-09-12T04:30:54.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9up",
+      "title": "Christophe Pettus: All Your GUCs in a Row: max_function_args",
+      "link": "https://postgr.es/p/9up",
+      "summary": "PostgreSQL won't let you pass more than 100 arguments to a function, and changing it requires rebuilding every extension on your machine.",
+      "author": null,
+      "publishedAt": "2026-09-13T01:00:00.000Z"
     }
   ],
-  "totalIndexed": 196
+  "totalIndexed": 197
 }
