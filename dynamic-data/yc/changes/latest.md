@@ -1,47 +1,56 @@
 # YC Company Changes for 2026-09-14
 
 - Previous total: 6215
-- Current total: 6215
-- Added: 0
+- Current total: 6217
+- Added: 2
 - Removed: 0
 - Updated: 9
 
 
+## Added Companies
+
+- [Roma](https://www.ycombinator.com/companies/roma) (Fall 2026) — The AI task app that gets to work for you.
+- [Papaya](https://www.ycombinator.com/companies/papaya) (Fall 2026) — Continuous optimization for AI agents
+
 ## Updated Companies
 
-### [Curri](https://www.ycombinator.com/companies/curri)
+### [Zenflow](https://www.ycombinator.com/companies/zenflow)
 
-- `stage`: Early → Growth
+- `stage`: Growth → Early
 
-### [SureBright](https://www.ycombinator.com/companies/surebright)
+### [Ravion](https://www.ycombinator.com/companies/ravion)
+
+- `one_liner`: The agent-native cloud infrastructure platform for AWS. → The easiest way to use AWS for agents and humans
+
+### [Rebill](https://www.ycombinator.com/companies/rebill)
+
+- `one_liner`: Global payments infrastructure in LATAM and US → Financial infrastructure for the Americas
+- `team_size`: 10 → 11
+- `isHiring`: false → true
+
+### [truemetrics](https://www.ycombinator.com/companies/truemetrics)
 
 - `isHiring`: true → false
 
-### [Infinite](https://www.ycombinator.com/companies/infinite)
+### [Sage Care](https://www.ycombinator.com/companies/sagecare)
 
-- `website`: https://infinite.dev → https://infinite.net
+- `isHiring`: true → false
 
-### [Waffle](https://www.ycombinator.com/companies/waffle)
+### [Soff](https://www.ycombinator.com/companies/soff)
 
-- `one_liner`: Discover & Build AI Chatbots → AI generated podcasts
-- `tags`: Consumer,AI → Artificial Intelligence,Consumer
+- `isHiring`: true → false
 
-### [Labric](https://www.ycombinator.com/companies/labric)
+### [Socratix AI](https://www.ycombinator.com/companies/socratix-ai)
 
-- `team_size`: 5 → 6
+- `team_size`: 4 → 5
 
-### [Prism](https://www.ycombinator.com/companies/prism)
+### [ANORIA](https://www.ycombinator.com/companies/anoria)
 
-- `one_liner`: Deploy AI Agents with a Single API Call → Abundant Intelligence for Everyone
+- `isHiring`: true → false
 
-### [Flai](https://www.ycombinator.com/companies/flai)
+### [NebuSec](https://www.ycombinator.com/companies/nebusec)
 
-- `stage`: Early → Growth
-
-### [Dreach](https://www.ycombinator.com/companies/dreach)
-
-- `one_liner`: stop building lists. start booking clients. → staffing firms with dreach grow revenue faster.
-
-### [Kara](https://www.ycombinator.com/companies/kara)
-
-- `team_size`: 3 → 2
+- `name`: Nebula Security → NebuSec
+- `slug`: nebula-security → nebusec
+- `former_names`:  → Nebula Security
+- `tags`: B2B,Security,Cybersecurity,Enterprise,AI → Artificial Intelligence,B2B,Security,Cybersecurity,Enterprise
