@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-09-14T03:38:03.386Z",
+  "updatedAt": "2026-09-14T12:21:21.615Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -1593,7 +1593,15 @@
       "summary": "max_identifier_length reports a number, 63, and the number is the least interesting thing about it. Every relational database caps the length of a name. What is unusual about PostgreSQL is what happens when you go over: MySQL, SQL Server and Oracle reject the statement, while PostgreSQL cuts the …",
       "author": null,
       "publishedAt": "2026-09-14T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9ur",
+      "title": "Cornelia Biacsics: Contributions for week 36",
+      "link": "https://postgr.es/p/9ur",
+      "summary": "On 8 September 2026, PGDay UK 2026 was held in London. \nOrganized by: \nChris Ellis\nDave Page\nDevrim Gunduz\nProgram Committee: \nAlastair Turner (chair, non-voting)\nCeleste Horgan\nGreg Clough\nSastry Karamcheti\nCode of Conduct Committee: \nAyşe Bilge İnce\nJimmy Angelakos\nSpeakers:\nAfroditi Loukidou…",
+      "author": null,
+      "publishedAt": "2026-09-14T08:29:19.000Z"
     }
   ],
-  "totalIndexed": 198
+  "totalIndexed": 199
 }
