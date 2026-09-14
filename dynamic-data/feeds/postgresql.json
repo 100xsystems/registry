@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-09-13T03:27:27.598Z",
+  "updatedAt": "2026-09-14T03:38:03.386Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -1585,7 +1585,15 @@
       "summary": "PostgreSQL won't let you pass more than 100 arguments to a function, and changing it requires rebuilding every extension on your machine.",
       "author": null,
       "publishedAt": "2026-09-13T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9uq",
+      "title": "Christophe Pettus: All Your GUCs in a Row: max_identifier_length",
+      "link": "https://postgr.es/p/9uq",
+      "summary": "max_identifier_length reports a number, 63, and the number is the least interesting thing about it. Every relational database caps the length of a name. What is unusual about PostgreSQL is what happens when you go over: MySQL, SQL Server and Oracle reject the statement, while PostgreSQL cuts the …",
+      "author": null,
+      "publishedAt": "2026-09-14T01:00:00.000Z"
     }
   ],
-  "totalIndexed": 197
+  "totalIndexed": 198
 }

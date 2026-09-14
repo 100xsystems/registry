@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-09-13T20:04:02.214Z",
-  "count": 6216,
+  "fetchedAt": "2026-09-14T03:38:20.363Z",
+  "count": 6215,
   "companies": [
     {
       "id": 38127,
@@ -354,7 +354,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/bbb7f2bc6b3848168f970a704b24b37c2b125f25.png",
       "website": "https://sona8.com",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Sona8 is a voice agent that talks to every employee in a company about how their work gets done.\r\n\r\nEach employee gets a link and talks to the agent for about 20 minutes. The agent asks follow-up questions, for example why a step is still done by hand or who else is involved. From the conversations we build process maps and a list of the problems people described, sorted by site and team.\r\n\r\nThat is the start. We then stay on through the implementation. After each initiative is rolled out, the agent goes back to the employees involved and asks whether it was implemented and what changed in their daily work. The transformation team sees this after every rollout step.\r\n\r\nThe result is a project management office that has talked to every employee. That context did not exist before, because nobody had the time to collect it.\r\n\r\nConsulting firms use it to gather ideas at the start of an engagement instead. Transformation and corporate development teams use it to guide the execution of strategic transformation.",
+      "long_description": "Sona8 is a voice agent that talks to every employee about how their work gets done. Consulting, transformation and corporate development teams spend a large part of every project on stakeholder interviews and stakeholder alignment, and still only hear from a small share of the people affected.\r\n\r\nEach employee gets a link and talks to the agent for about 20 minutes. The agent asks follow-up questions, for example why a step is still done by hand or who else is involved. From the conversations we build process maps and a list of the problems people described, by site and team.\r\n\r\nDuring the implementation, the agent goes back to the employees involved after each initiative and asks whether it was implemented and what changed. The result is a project management office that has talked to every employee. Today consulting firms buy it for the stakeholder interviews at the start of an engagement. Transformation and corporate development teams buy it to run the implementation of a change program.\r\n\r\nOver time this becomes the way a company knows how it runs. Sona8 reads the systems the company already uses, connects them to what employees said, and keeps the picture current by asking again. Before a decision, you ask what it would do across sites and teams and get an answer from the whole company. A small team steers a company-wide program that used to need a large one. And AI agents inside the company come here first to learn how the work is done before they change anything.",
       "one_liner": "Voice agents that talk to employees enabling transformations ",
       "team_size": 4,
       "highlight_black": false,
@@ -364,8 +364,8 @@
       "subindustry": "B2B -> Operations",
       "launched_at": 1788994017,
       "tags": [
-        "Artificial Intelligence",
         "HR Tech",
+        "AI",
         "Conversational AI"
       ],
       "tags_highlighted": [],
@@ -386,7 +386,7 @@
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
-      "question_answers": false,
+      "question_answers": true,
       "url": "https://www.ycombinator.com/companies/sona8"
     },
     {
@@ -915,8 +915,8 @@
       "name": "Deploy",
       "slug": "deploy",
       "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/6dfc92f7424bb0bf42d6c2a92684adaf6b5189a9.png",
-      "website": "https://deploy-robo.com/",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/9baf9dee045cc202f815dc0769d662dbd53ad269.png",
+      "website": "https://deployrobotics.co/",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Deploy's core belief is that robots should be useful. Getting a generalist robot to do real work is fundamentally the same problem across industries. We build everything between the model and the task to bring generalist robots to the businesses that actually need them.",
       "one_liner": "The generalist robot deployment company.",
@@ -4685,7 +4685,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": false,
+      "isHiring": true,
       "nonprofit": false,
       "batch": "Summer 2026",
       "status": "Active",
@@ -5422,7 +5422,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/8126dcec05004e9a335df14d0116cf4774a61b06.png",
       "website": "https://denta.com",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Denta is dental insurance. As a full stack carrier, Denta makes insurance 30% cheaper by selling plans directly to employers and processing claims instantly with AI.\r\n\r\nI grew up in the back office of my dad’s dental practices, spent my high school years answering patient calls, and built software for over 300 dentists during college. I'm now solving the industry's biggest problem: insurance.\r\n\r\nEveryone knows how bad health insurance is, dental insurance is worse. In the US, dental insurers collect $100B per year. Despite the $25B of that spent on administration, it still takes insurers three weeks to pay claims with paper checks that Denta can pay electronically in seconds.\r\n\r\nDenta will insure every American, sparing patients and dentists the $25B burden of dealing with legacy carriers.",
+      "long_description": "Denta is a full-stack insurance carrier rewriting healthcare. Starting with dental insurance, we are relentlessly simplifying the process for patients to receive better coverage at a lower cost.",
       "one_liner": "Dental Insurance",
       "team_size": 1,
       "highlight_black": false,
@@ -5432,14 +5432,14 @@
       "subindustry": "Fintech -> Insurance",
       "launched_at": 1782407143,
       "tags": [
+        "Artificial Intelligence",
         "Fintech",
         "Healthcare",
-        "Health Insurance",
-        "AI"
+        "Health Insurance"
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": false,
+      "isHiring": true,
       "nonprofit": false,
       "batch": "Summer 2026",
       "status": "Active",
@@ -38134,7 +38134,7 @@
       "all_locations": "San Francisco, CA, USA",
       "long_description": "The problem we solve: 56% of dealership leads arrive after business hours, and most dealers lose these potential customers to competitors who happen to be available 24/7. Missing after-hours calls alone costs the average dealership $1M annually in lost revenue.\r\n\r\nWe built Flai to fix this - AI assistants that answer dealership calls 24/7, scheduling test drives, oil changes, or running outbound recall campaigns so no opportunity slips away.\r\n\r\nThe result: No more missed opportunities, no more losing customers to competitors.\r\n\r\nOur founding team has built voice AI products at HappyRobot, scaled infrastructure at Uber for millions of users, and applied data science at Netflix to solve operational challenges.\r\n\r\nWe're not just answering phones, we're helping dealerships win in an AI-first world where availability determine who gets the sale.",
       "one_liner": "We Bring Customers to Your Dealership",
-      "team_size": 23,
+      "team_size": 35,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -38156,7 +38156,7 @@
         "United States of America",
         "America / Canada"
       ],
-      "stage": "Growth",
+      "stage": "Early",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -43278,7 +43278,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/ed09e878f16f40414804fdb218d878e11639bd1e.png",
       "website": "https://usenaive.ai",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "The full stack your agent needs to run a business — compute, payments, identity, incorporation, 10,000+ tools — in one config file. \r\n\r\nPaste a prompt into your coding agent, it writes naive.config.ts, and provisions all infrastructure for your apps, agents, businesses. One API, one balance, every action governed.\r\n\r\nWe're a small, fast-moving, remote-first team.",
+      "long_description": "Naïve is an AI research lab building autonomous companies.\r\n\r\nWe develop the systems, environments, and agent infrastructure required for AI to operate real businesses end-to-end, then release increasingly capable autonomous companies into the world.",
       "one_liner": "Autonomous Company Infrastructure",
       "team_size": 8,
       "highlight_black": false,
@@ -43288,8 +43288,8 @@
       "subindustry": "B2B -> Infrastructure",
       "launched_at": 1747424808,
       "tags": [
-        "Infrastructure",
-        "AI"
+        "Artificial Intelligence",
+        "Infrastructure"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -94392,7 +94392,7 @@
       "tags": [],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": true,
+      "isHiring": false,
       "nonprofit": false,
       "batch": "Winter 2023",
       "status": "Active",
@@ -107787,52 +107787,6 @@
       "app_answers": null,
       "question_answers": false,
       "url": "https://www.ycombinator.com/companies/sunpia"
-    },
-    {
-      "id": 27143,
-      "name": "TypeLess",
-      "slug": "typeless",
-      "former_names": [
-        "Delight"
-      ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/9051729e9b529a474279cd2a8fa061cc7d5031fe.png",
-      "website": "https://apps.apple.com/us/app/typeless-ai-messenger/id6478489620",
-      "all_locations": "San Francisco, CA, USA",
-      "long_description": "Typeless is an AI messaging API designed to facilitate communication for businesses and professionals. Our API generates smart, context-aware response suggestions to enhance messaging platforms in a variety of industries, from real estate to customer support.\r\n\r\nFor example, a real estate platform can use Typeless to automate responses for scheduling property viewings, answering client inquiries, and handling follow-ups. Similarly, a customer service platform can enable agents to respond faster with personalized, AI-driven suggestions for customer questions and issues.\r\n\r\nYou can download our demo messaging app built with the TypeLess API on the app store: https://apps.apple.com/us/app/typeless-ai-messenger/id6478489620",
-      "one_liner": "AI messaging API for smarter, faster communication.",
-      "team_size": 2,
-      "highlight_black": false,
-      "highlight_latinx": false,
-      "highlight_women": false,
-      "industry": "B2B",
-      "subindustry": "B2B",
-      "launched_at": 1658105881,
-      "tags": [
-        "Generative AI",
-        "Machine Learning",
-        "Messaging",
-        "API",
-        "AI"
-      ],
-      "tags_highlighted": [],
-      "top_company": false,
-      "isHiring": false,
-      "nonprofit": false,
-      "batch": "Summer 2022",
-      "status": "Active",
-      "industries": [
-        "B2B"
-      ],
-      "regions": [
-        "United States of America",
-        "America / Canada"
-      ],
-      "stage": "Early",
-      "app_video_public": false,
-      "demo_day_video_public": false,
-      "app_answers": null,
-      "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/typeless"
     },
     {
       "id": 27142,

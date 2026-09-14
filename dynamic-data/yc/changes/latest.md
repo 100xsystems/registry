@@ -1,35 +1,46 @@
-# YC Company Changes for 2026-09-13
+# YC Company Changes for 2026-09-14
 
 - Previous total: 6216
-- Current total: 6216
+- Current total: 6215
 - Added: 0
-- Removed: 0
-- Updated: 4
+- Removed: 1
+- Updated: 7
 
+
+## Removed Companies
+
+- TypeLess (Summer 2022)
 
 ## Updated Companies
 
-### [National Finance Olympiad](https://www.ycombinator.com/companies/national-finance-olympiad)
+### [Untether Labs](https://www.ycombinator.com/companies/untether-labs)
 
-- `name`: Streak → National Finance Olympiad
-- `slug`: streak-2 → national-finance-olympiad
-- `former_names`:  → Streak
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/f8c6b91146b5976c6d0c9571ae55fc265975f90e.png → https://bookface-images.s3.amazonaws.com/small_logos/fb094811d5892fc129c2da8f28246098b5d70f42.png
-- `website`: https://www.streakcard.com/ → https://www.nationalfinanceolympiad.com
-- `one_liner`: A neo-banking platform for children in India → The SAT of Financial Education in India.
-- `industry`: Fintech → Education
-- `subindustry`: Fintech -> Payments → Education
-- `tags`: Fintech → Finance,Edtech,Consumer Finance,AI
-- `industries`: Fintech,Payments → Education
+- `isHiring`: true → false
 
-### [Forge](https://www.ycombinator.com/companies/forge)
+### [Naïve](https://www.ycombinator.com/companies/naive)
+
+- `tags`: Infrastructure,AI → Artificial Intelligence,Infrastructure
+
+### [Flai](https://www.ycombinator.com/companies/flai)
+
+- `team_size`: 23 → 35
+- `stage`: Growth → Early
+
+### [Denta](https://www.ycombinator.com/companies/denta)
+
+- `tags`: Fintech,Healthcare,Health Insurance,AI → Artificial Intelligence,Fintech,Healthcare,Health Insurance
+- `isHiring`: false → true
+
+### [ProvenMetal](https://www.ycombinator.com/companies/provenmetal)
 
 - `isHiring`: false → true
 
-### [hardware intelligence](https://www.ycombinator.com/companies/hardware-intelligence)
+### [Deploy](https://www.ycombinator.com/companies/deploy)
 
-- `tags`: Developer Tools,Hardware,Enterprise Software,Semiconductors,AI → Artificial Intelligence,Developer Tools,Hardware,Enterprise Software,Semiconductors
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/6dfc92f7424bb0bf42d6c2a92684adaf6b5189a9.png → https://bookface-images.s3.amazonaws.com/small_logos/9baf9dee045cc202f815dc0769d662dbd53ad269.png
+- `website`: https://deploy-robo.com/ → https://deployrobotics.co/
 
-### [Vyra](https://www.ycombinator.com/companies/vyra)
+### [Sona8](https://www.ycombinator.com/companies/sona8)
 
-- `one_liner`: Autonomous video editing for non-editors. Instead of making users… → Autonomous video editing for non-editors.
+- `tags`: Artificial Intelligence,HR Tech,Conversational AI → HR Tech,AI,Conversational AI
+- `question_answers`: false → true
