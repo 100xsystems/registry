@@ -1,56 +1,70 @@
 # YC Company Changes for 2026-09-14
 
-- Previous total: 6215
-- Current total: 6217
-- Added: 2
+- Previous total: 6217
+- Current total: 6218
+- Added: 1
 - Removed: 0
-- Updated: 9
+- Updated: 11
 
 
 ## Added Companies
 
-- [Roma](https://www.ycombinator.com/companies/roma) (Fall 2026) — The AI task app that gets to work for you.
-- [Papaya](https://www.ycombinator.com/companies/papaya) (Fall 2026) — Continuous optimization for AI agents
+- [Aviern](https://www.ycombinator.com/companies/aviern) (Fall 2026) — Unmanned airplanes for geospatial intelligence
 
 ## Updated Companies
 
-### [Zenflow](https://www.ycombinator.com/companies/zenflow)
+### [Duffel](https://www.ycombinator.com/companies/duffel)
 
 - `stage`: Growth → Early
 
-### [Ravion](https://www.ycombinator.com/companies/ravion)
+### [Posh](https://www.ycombinator.com/companies/posh)
 
-- `one_liner`: The agent-native cloud infrastructure platform for AWS. → The easiest way to use AWS for agents and humans
-
-### [Rebill](https://www.ycombinator.com/companies/rebill)
-
-- `one_liner`: Global payments infrastructure in LATAM and US → Financial infrastructure for the Americas
-- `team_size`: 10 → 11
 - `isHiring`: false → true
 
-### [truemetrics](https://www.ycombinator.com/companies/truemetrics)
+### [Empirical Health](https://www.ycombinator.com/companies/empirical-health)
 
+- `tags`: Generative AI,Machine Learning,Consumer Health Services,Healthcare,AI → Artificial Intelligence,Generative AI,Machine Learning,Consumer Health Services,Healthcare
 - `isHiring`: true → false
 
-### [Sage Care](https://www.ycombinator.com/companies/sagecare)
+### [Forge](https://www.ycombinator.com/companies/forge)
 
-- `isHiring`: true → false
+- `tags`: B2B,Logistics,Supply Chain,AI → Artificial Intelligence,B2B,Logistics,Supply Chain
 
 ### [Soff](https://www.ycombinator.com/companies/soff)
 
+- `isHiring`: false → true
+
+### [RiskCube](https://www.ycombinator.com/companies/riskcube)
+
+- `one_liner`: AI insurance company → America’s first reinsurer for emerging risks.
+
+### [Ressl AI](https://www.ycombinator.com/companies/ressl-ai)
+
 - `isHiring`: true → false
 
-### [Socratix AI](https://www.ycombinator.com/companies/socratix-ai)
+### [Antinuous](https://www.ycombinator.com/companies/antinuous)
 
-- `team_size`: 4 → 5
+- `name`: Salesgraph → Antinuous
+- `slug`: salesgraph → antinuous
+- `former_names`:  → Salesgraph
+- `website`: https://www.salesgraph.com/ → https://www.antinuous.com/
+- `one_liner`: Proactive revenue agents that move enterprise deals forward → Autonomous research agents for R&D and education
+- `subindustry`: B2B -> Sales → B2B
+- `tags`:  → Artificial Intelligence
+- `industries`: B2B,Sales → B2B
 
-### [ANORIA](https://www.ycombinator.com/companies/anoria)
+### [Runtime](https://www.ycombinator.com/companies/runtime)
 
-- `isHiring`: true → false
+- `one_liner`: Build and run internal agents, without managing the infrastructure → AI agents for financial operations
+- `team_size`: 3 → 5
 
-### [NebuSec](https://www.ycombinator.com/companies/nebusec)
+### [OneCLI](https://www.ycombinator.com/companies/onecli)
 
-- `name`: Nebula Security → NebuSec
-- `slug`: nebula-security → nebusec
-- `former_names`:  → Nebula Security
-- `tags`: B2B,Security,Cybersecurity,Enterprise,AI → Artificial Intelligence,B2B,Security,Cybersecurity,Enterprise
+- `subindustry`: B2B -> Security → B2B -> Productivity
+- `tags`: B2B,Security,Open Source,Infrastructure,AI → AIOps,Artificial Intelligence,B2B,Workflow Automation,Open Source
+- `industries`: B2B,Security → B2B,Productivity
+
+### [Papaya](https://www.ycombinator.com/companies/papaya)
+
+- `launched_at`: 1786837208 → 1789407516
+- `tags`: AIOps,Artificial Intelligence,B2B,Enterprise Software,Infrastructure → AIOps,B2B,Enterprise Software,Infrastructure,AI

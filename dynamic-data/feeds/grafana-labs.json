@@ -8,16 +8,8 @@
     "monitoring",
     "data-visualization"
   ],
-  "updatedAt": "2026-09-10T20:16:48.808Z",
+  "updatedAt": "2026-09-14T21:14:14.474Z",
   "items": [
-    {
-      "guid": "grafana-labs::https://grafana.com/docs/grafana-cloud/machine-learning/assistant/platform/workspace/",
-      "title": "Workspace",
-      "link": "https://grafana.com/docs/grafana-cloud/machine-learning/assistant/platform/workspace/",
-      "summary": null,
-      "author": null,
-      "publishedAt": "2001-01-31T18:30:00.000Z"
-    },
     {
       "guid": "grafana-labs::https://grafana.com/docs/grafana-cloud/machine-learning/assistant/configure/mcp-servers/",
       "title": "Mcp Servers",
@@ -80009,7 +80001,15 @@
       "summary": "Labels are a powerful way to organize telemetry and define policies across Grafana Cloud, helping to streamline alerting, attribution, access control, and more. But traditionally, custom labels in Synthetic Monitoring have worked a little differently: they only lived on a single sm_check_info…",
       "author": "Anant Sharma",
       "publishedAt": "2026-09-10T16:11:53.000Z"
+    },
+    {
+      "guid": "https://grafana.com/blog/digital-experience-monitoring-with-grafana-cloud-session-replay-synthetic-checks-and-faster-investigations/",
+      "title": "Digital Experience Monitoring with Grafana Cloud: Session Replay, synthetic checks, and faster investigations",
+      "link": "https://grafana.com/blog/digital-experience-monitoring-with-grafana-cloud-session-replay-synthetic-checks-and-faster-investigations/",
+      "summary": "When something breaks in production, the questions that matter most are also the toughest to answer from metrics alone: who was affected, what did they actually see, and is this worth waking someone up for? Answering those questions requires a fuller picture of the issue and its impact on your…",
+      "author": "Bukola Ayodele",
+      "publishedAt": "2026-09-14T18:02:58.000Z"
     }
   ],
-  "totalIndexed": 21913
+  "totalIndexed": 21914
 }

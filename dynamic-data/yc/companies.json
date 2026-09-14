@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-09-14T17:48:16.172Z",
-  "count": 6217,
+  "fetchedAt": "2026-09-14T21:14:33.054Z",
+  "count": 6218,
   "companies": [
     {
       "id": 38127,
@@ -440,7 +440,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/90437a276bb22b842ea04cd42e19389e216c984c.png",
       "website": "https://papaya.fyi/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Papaya is the optimization engine for AI agents. Engineers don't have time to continually improve the agents they've shipped — the context bloat, overly chatty subagents, and broken tool calls sit in production traces nobody reads quietly hurting agent efficiency. With Papaya they connect their agent directly via SDK, get actionable recommendations on how to improve quality, latency, and cost, and the ones they approve are pushed to production as pull requests.\r\n\r\nPapaya runs 200+ research-backed analyses across context, prompts, prompt caching, subagents, and tool calls. Every recommendation is ranked by impact and comes with the production runs that produced it — typically a 10%+ quality improvement on the first workflow analysis.",
+      "long_description": "Papaya is the optimization engine for AI agents. Engineers don't have time to continually improve the agents they've shipped — the context bloat, overly chatty subagents, and broken tool calls sit in production traces nobody reads, quietly hurting agent efficiency. With Papaya they connect their agent directly via SDK, get actionable recommendations on how to improve quality, latency, and cost, and the ones they approve are pushed to production as pull requests.\r\n\r\nPapaya runs 200+ research-backed analyses across context, prompts, prompt caching, subagents, and tool calls. Every recommendation is ranked by impact and comes with the production runs that produced it — typically a 10%+ quality improvement on the first workflow analysis.",
       "one_liner": "Continuous optimization for AI agents",
       "team_size": 3,
       "highlight_black": false,
@@ -448,13 +448,13 @@
       "highlight_women": false,
       "industry": "B2B",
       "subindustry": "B2B",
-      "launched_at": 1786837208,
+      "launched_at": 1789407516,
       "tags": [
         "AIOps",
-        "Artificial Intelligence",
         "B2B",
         "Enterprise Software",
-        "Infrastructure"
+        "Infrastructure",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -1561,6 +1561,52 @@
       "app_answers": null,
       "question_answers": false,
       "url": "https://www.ycombinator.com/companies/useforward"
+    },
+    {
+      "id": 35093,
+      "name": "Aviern",
+      "slug": "aviern",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/906b7c01faee6d9632f1f941bfe737812ec7d0b9.png",
+      "website": "https://aviern.com/",
+      "all_locations": "Los Angeles, CA, USA",
+      "long_description": "Aviern builds unmanned airplanes that turn the sky into a geospatial intelligence source. Our fixed-wing aircraft launch, fly, and land from unattended docks along infrastructure corridors, with onboard perception that flags leaks, encroachments, and vegetation risk with no pilot in the loop. We're starting with PHMSA-mandated pipeline patrol, where operators still pay helicopter crews to fly their lines up to 26 times a year, and we sell per mile as a service. The same aircraft, docks, and intelligence stack extend to the power grid, rail, borders, and bases.",
+      "one_liner": "Unmanned airplanes for geospatial intelligence",
+      "team_size": 4,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "Industrials",
+      "subindustry": "Industrials -> Drones",
+      "launched_at": 1789408162,
+      "tags": [
+        "Geographic Information System",
+        "Airplanes",
+        "Aerospace",
+        "Infrastructure"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Fall 2026",
+      "status": "Active",
+      "industries": [
+        "Industrials",
+        "Drones"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada",
+        "Remote",
+        "Partly Remote"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/aviern"
     },
     {
       "id": 35058,
@@ -2855,21 +2901,21 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/0405005492b7122ac5f4784e260fc64d7bd99053.png",
       "website": "https://onecli.sh",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "OneCLI is an open source agent harness for teams. Each employee gets their own sandboxed pro assistant agent, connected to their GitHub, Gmail, Notion, Dropbox, or CRM right from the chat/Slack, while the whole workspace runs under one policy your admins control.\r\n\r\nAgents never hold real secrets: the credential is injected at the network layer, per request, after the call is authorized. You can't steal what isn't there.",
+      "long_description": "OneCLI (YC S26) is an open-source AI teammates platform for teams. Like Grok Bot, but self-hostable, loved by developers. \r\n\r\nEach employee gets their own sandboxed pro assistant agent, connected to their GitHub, Gmail, Notion, Dropbox, or CRM right from the chat/Slack, while the whole workspace runs under one policy your admins control.\r\n\r\nAgents never hold real secrets: the credential is injected at the network layer, per request, after the call is authorized. You can't steal what isn't there.",
       "one_liner": "The open source AI teammates for your company.",
       "team_size": 0,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
       "industry": "B2B",
-      "subindustry": "B2B -> Security",
+      "subindustry": "B2B -> Productivity",
       "launched_at": 1783888956,
       "tags": [
+        "AIOps",
+        "Artificial Intelligence",
         "B2B",
-        "Security",
-        "Open Source",
-        "Infrastructure",
-        "AI"
+        "Workflow Automation",
+        "Open Source"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -2879,7 +2925,7 @@
       "status": "Active",
       "industries": [
         "B2B",
-        "Security"
+        "Productivity"
       ],
       "regions": [
         "United States of America",
@@ -12442,9 +12488,9 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/0fb7d11f60217eaded2ae0e96dbee3bf9ebcd68c.png",
       "website": "https://www.runtm.com/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Runtime (runtm.com) gives engineering teams control and visibility to enable anyone in their org to use coding agents securely.\r\n\r\nEng leaders rolling out coding agents have no way to see what's happening, set boundaries, or safely let non-engineers use them. We provide sandboxed environments, session-level observability, and configurable guardrails so anyone on your team can ship with coding agents without breaking prod.\r\n\r\nWe're live with fast-growing YC scaleups empowering their Engineers, PMs, designers, marketers, and ops to contribute to their codebase or build prod-grade zero-to-one apps.",
-      "one_liner": "Build and run internal agents, without managing the infrastructure",
-      "team_size": 3,
+      "long_description": "Runtime helps fast-growing fintechs build and run AI agents for financial operations. Teams turn their procedures into specialized agents that work across their systems, with scoped access, human approvals, and a full audit trail.",
+      "one_liner": "AI agents for financial operations",
+      "team_size": 5,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -16026,22 +16072,26 @@
     },
     {
       "id": 31408,
-      "name": "Salesgraph",
-      "slug": "salesgraph",
-      "former_names": [],
+      "name": "Antinuous",
+      "slug": "antinuous",
+      "former_names": [
+        "Salesgraph"
+      ],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/febca88acc45186c0d3c21c31cb8dfbdd7f32484.png",
-      "website": "https://www.salesgraph.com/",
+      "website": "https://www.antinuous.com/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Salesgraph learns and automates 99% of the work that AEs do between calls with a dynamic context graph to give agents structure.\r\n\r\nResearch briefs, call gaps, follow ups, committee mapping, business cases, pricing calculators, anything that moves a deal forward. \r\n\r\nWe’re now building the context graph to power our agents for early partners at Mintlify, Tex, and Strala.",
-      "one_liner": "Proactive revenue agents that move enterprise deals forward",
+      "long_description": "Antinuous is building autonomous research agents to help people in research, development, discovery, and knowledge work do faster, more accurate research end to end without a human in the loop.\r\n\r\nWe believe humans should be able to ask a single question, and no matter how simple or complex, agents should look at the question, break it down, research the answer, test new ideas, simulate new environments, and repeat autonomously using as much or little compute as necessary elastically.",
+      "one_liner": "Autonomous research agents for R&D and education",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
       "industry": "B2B",
-      "subindustry": "B2B -> Sales",
+      "subindustry": "B2B",
       "launched_at": 1775259755,
-      "tags": [],
+      "tags": [
+        "Artificial Intelligence"
+      ],
       "tags_highlighted": [],
       "top_company": false,
       "isHiring": false,
@@ -16049,8 +16099,7 @@
       "batch": "Spring 2026",
       "status": "Active",
       "industries": [
-        "B2B",
-        "Sales"
+        "B2B"
       ],
       "regions": [
         "United States of America",
@@ -16061,7 +16110,7 @@
       "demo_day_video_public": false,
       "app_answers": null,
       "question_answers": true,
-      "url": "https://www.ycombinator.com/companies/salesgraph"
+      "url": "https://www.ycombinator.com/companies/antinuous"
     },
     {
       "id": 31407,
@@ -22133,7 +22182,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": true,
+      "isHiring": false,
       "nonprofit": false,
       "batch": "Winter 2026",
       "status": "Active",
@@ -57844,8 +57893,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/93b1b4fbe4b8807a5770f0fad5c76f3b8685dee9.png",
       "website": "https://riskcube.com",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "RiskCube provides insurance for startups in AI, robotics, space & defense tech. When you're days from closing an enterprise or gov contract and procurement asks for a Certificate of Insurance (COI), a traditional broker can take weeks — and the deal stalls. RiskCube fixes that: we compare 40+ AM Best-rated U.S. carriers, pair that with licensed human broker review, and bind the right coverage and issue your COI within a day, not weeks. Founders get D&O, Tech E&O, Cyber, General Liability, Product Liability, Key Person Life, and COIs — to pass procurement, satisfy investors, and close deals. RiskCube is an independent broker, not an insurance carrier, built for AI, Space and Defense, and government-contractor startups. Licensed in CA, TX, and DE (expanding nationwide). ",
-      "one_liner": "AI insurance company",
+      "long_description": "RiskCube is building the first AI-native reinsurer for emerging risks.\r\n\r\nToday, we operate an insurance brokerage focused on startups in AI, robotics, space, and defense. Through the brokerage, we see firsthand where traditional insurance products fail, from AI liability and autonomous systems to defense technology and new space risks.\r\n\r\nWe are now building proprietary risk models that can price risks even when little historical claims data exists. Our approach uses stochastic simulation, then applies traditional, explainable models to make the output transparent to underwriters and regulators.\r\n\r\nThis allows us to create new insurance and reinsurance products for emerging industries much faster than traditional carriers.\r\n\r\nThe U.S. insurance market still relies heavily on foreign reinsurance capacity.\r\nOur goal is to build new reinsurance capacity on American soil for the industries defining the next generation of the U.S. economy, while reducing America's dependence on foreign reinsurance capacity.\r\n",
+      "one_liner": "America’s first reinsurer for emerging risks.",
       "team_size": 3,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -64178,7 +64227,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": false,
+      "isHiring": true,
       "nonprofit": false,
       "batch": "Summer 2024",
       "status": "Active",
@@ -71889,10 +71938,10 @@
       "subindustry": "B2B -> Supply Chain and Logistics",
       "launched_at": 1705516248,
       "tags": [
+        "Artificial Intelligence",
         "B2B",
         "Logistics",
-        "Supply Chain",
-        "AI"
+        "Supply Chain"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -87499,15 +87548,15 @@
       "subindustry": "Healthcare -> Consumer Health and Wellness",
       "launched_at": 1689658487,
       "tags": [
+        "Artificial Intelligence",
         "Generative AI",
         "Machine Learning",
         "Consumer Health Services",
-        "Healthcare",
-        "AI"
+        "Healthcare"
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": true,
+      "isHiring": false,
       "nonprofit": false,
       "batch": "Summer 2023",
       "status": "Active",
@@ -125137,7 +125186,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": false,
+      "isHiring": true,
       "nonprofit": false,
       "batch": "Winter 2022",
       "status": "Active",
@@ -208189,7 +208238,7 @@
         "Remote",
         "Partly Remote"
       ],
-      "stage": "Growth",
+      "stage": "Early",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,

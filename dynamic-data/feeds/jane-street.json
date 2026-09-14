@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-09-10T20:17:00.072Z",
+  "updatedAt": "2026-09-14T21:14:28.845Z",
   "items": [
     {
       "guid": "https://blog.janestreet.com/oxcaml-typesafe-reference-counting-python/",
@@ -415,7 +415,15 @@
       "summary": "<p><a href=\"/protocol-emulator-asic-competition/oscilloscope-clean.png\"><img src=\"/protocol-emulator-asic-competition/oscilloscope-clean.png\" alt=\"Vintage oscilloscope illustration with UART, SPI, I2C, USB and 10BASE-T traces; independent time scales, not a real acquisition\" style=\"display: block;…",
       "author": null,
       "publishedAt": "2026-09-10T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.janestreet.com/a-study-of-sequence-weighting-at-scale/",
+      "title": "A study of sequence weighting at scale",
+      "link": "https://blog.janestreet.com/a-study-of-sequence-weighting-at-scale/",
+      "summary": "TL;DR: We study the scaling laws of data weighting across in-house and open-weight LMs, finding non-monotonic behavior across scales.\nWe vary the weight assigned to sequences during training and measure how strongly the model’s loss reduction on a sequence depends on the sequence’s weight.\nTaken…",
+      "author": null,
+      "publishedAt": "2026-09-14T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 51
+  "totalIndexed": 52
 }
