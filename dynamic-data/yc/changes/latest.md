@@ -4,33 +4,61 @@
 - Current total: 6220
 - Added: 0
 - Removed: 0
-- Updated: 6
+- Updated: 12
 
 
 ## Updated Companies
 
-### [Navattic](https://www.ycombinator.com/companies/navattic)
-
-- `team_size`: 35 → 40
-
-### [Peoplebox.ai](https://www.ycombinator.com/companies/peoplebox)
+### [Tara AI](https://www.ycombinator.com/companies/tara-ai)
 
 - `isHiring`: true → false
 
-### [malibou](https://www.ycombinator.com/companies/malibou)
+### [Superwall](https://www.ycombinator.com/companies/staffbar)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/9637a17ef68e79a0e70a53729e5937278fffb4ea.png → https://bookface-images.s3.amazonaws.com/small_logos/d58137f5ea9c3d97a49e190602fc6dd4331ccf6d.png
-- `website`: https://www.malibou.co → https://www.malibou.com
+- `isHiring`: true → false
 
-### [Forge](https://www.ycombinator.com/companies/forge)
+### [Kurios](https://www.ycombinator.com/companies/kurios)
 
-- `tags`: Artificial Intelligence,B2B,Logistics,Supply Chain → B2B,Logistics,Supply Chain,AI
+- `status`: Active → Inactive
 
-### [Liva AI](https://www.ycombinator.com/companies/liva-ai)
+### [Instant](https://www.ycombinator.com/companies/instant)
 
-- `one_liner`: Audio & Video Data → Building socially intelligent AI
-- `tags`: Artificial Intelligence,Marketplace,B2B,Data Labeling,Big Data → Marketplace,B2B,Data Labeling,Big Data,AI
+- `status`: Active → Acquired
 
-### [Kebra](https://www.ycombinator.com/companies/kebra)
+### [Pivot Robotics](https://www.ycombinator.com/companies/pivot-robotics)
 
-- `tags`: B2B,Home Services,Operations,AI → Artificial Intelligence,B2B,Home Services,Operations
+- `team_size`: 7 → 8
+- `tags`: Artificial Intelligence,Robotics,Industrial → Robotics,AI,Industrial
+
+### [Octolane AI](https://www.ycombinator.com/companies/octolane-ai)
+
+- `team_size`: 5 → 4
+
+### [Anthrogen](https://www.ycombinator.com/companies/anthrogen)
+
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/b82e4439479abc4af4baa257faf13f88240781b4.png → https://bookface-images.s3.amazonaws.com/small_logos/fd834838e899b193bf63adbb6160e2a6faf66041.png
+- `one_liner`: We're training the next generation of protein foundation models. → We work on generalizable tools for the next era of biotech. 
+- `team_size`: 6 → 15
+- `tags`: Artificial Intelligence,Deep Learning,Biotech → Deep Learning,Biotech,AI
+
+### [Parley](https://www.ycombinator.com/companies/parley)
+
+- `one_liner`: Automating flat-fee legal work, starting with work visas + green cards → Legal Agent that delivers finished work
+- `tags`: Artificial Intelligence,SaaS,Legal,LegalTech,Immigration → SaaS,Legal,LegalTech,Immigration,AI
+
+### [Liquid Compute](https://www.ycombinator.com/companies/liquid-compute)
+
+- `tags`: FinOps,Fintech,Infrastructure,AI → Artificial Intelligence,FinOps,Fintech,Infrastructure
+
+### [Nitrode](https://www.ycombinator.com/companies/nitrode)
+
+- `team_size`: 5 → 8
+- `tags`: Machine Learning,B2B,Data Engineering,AI → Artificial Intelligence,Machine Learning,B2B,Data Engineering
+
+### [Aside](https://www.ycombinator.com/companies/aside)
+
+- `team_size`: 5 → 8
+
+### [Lyon](https://www.ycombinator.com/companies/lyon)
+
+- `batch`: Summer 2026 → Fall 2026

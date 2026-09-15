@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-09-15T16:21:39.975Z",
+  "updatedAt": "2026-09-15T20:42:37.661Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -1649,7 +1649,15 @@
       "summary": "Every now and then I need a break from writing code. In those cases I\nlike looking at data about a subject I’m interested in - looking for\ntrends, quantifying the expected effects, and so on. I needed just such\na break a couple days ago, and I decided to look at statistics about the\ndevelopment…",
       "author": null,
       "publishedAt": "2026-09-15T10:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9uC",
+      "title": "Dimitri Fontaine: Plan Advice in PostgreSQL 19",
+      "link": "https://postgr.es/p/9uC",
+      "summary": "There is a conversation that happens in every PostgreSQL shop eventually. A\nquery that has been fine for a year gets slow overnight. Nothing was\ndeployed. The data grew a little, ANALYZE ran, and the planner — entirely\nreasonably, on the numbers it had — picked a different plan. The old plan\nwas…",
+      "author": null,
+      "publishedAt": "2026-09-15T16:27:53.000Z"
     }
   ],
-  "totalIndexed": 205
+  "totalIndexed": 206
 }

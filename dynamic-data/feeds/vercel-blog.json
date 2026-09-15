@@ -9,7 +9,7 @@
     "edge-computing",
     "nextjs"
   ],
-  "updatedAt": "2026-09-15T11:28:10.594Z",
+  "updatedAt": "2026-09-15T20:42:46.096Z",
   "items": [
     {
       "guid": "vercel-blog::https://vercel.com/changelog/ai-gateway-now-supports-streaming-transcription",
@@ -4594,7 +4594,23 @@
       "summary": "The  now supports authenticating harnesses through their native subscriptions, where the underlying harness supports them. The harness layer runs different coding agents through the same  interface, so you can switch agents without changing your application code.AI SDK harness layerHarnessAgent\nNo…",
       "author": "Felix Arntz",
       "publishedAt": "2026-09-14T21:28:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/blog/how-delphi-ships-100-times-a-day-with-its-python-backend-on-vercel",
+      "title": "How Delphi ships 100 times a day with its Python backend on Vercel",
+      "link": "https://vercel.com/blog/how-delphi-ships-100-times-a-day-with-its-python-backend-on-vercel",
+      "summary": "Delphi on Vercel\nThe backend slowed every change\nPreview deployments are how agents check their work\n\n10 engineers with no dedicated infrastructure role\n\nEveryone ships code, including product and design\n\n100+ production deploys a day behind feature flags\n\n\n builds digital minds. They capture what…",
+      "author": "Susan Aziz",
+      "publishedAt": "2026-09-15T04:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/gemini-3-8-live-models-now-available-on-ai-gateway",
+      "title": "Gemini 3.8 Live models now available on AI Gateway",
+      "link": "https://vercel.com/changelog/gemini-3-8-live-models-now-available-on-ai-gateway",
+      "summary": "and  from Google are now available on AI Gateway.Gemini 3.8 LiveGemini 3.8 Live Extended Thinking\nBoth models support real-time spoken interactions for voice assistants, conversational experiences, and applications that respond through audio.\nUse either model through the AI SDK's realtime API.…",
+      "author": "Kevin Dawkins",
+      "publishedAt": "2026-09-15T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 573
+  "totalIndexed": 575
 }
