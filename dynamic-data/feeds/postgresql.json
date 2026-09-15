@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-09-14T17:47:53.277Z",
+  "updatedAt": "2026-09-15T03:38:57.251Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -1609,7 +1609,15 @@
       "summary": "On October 1, I’ll be speaking at PG Summit 2026 about benchmarking hardware with Postgres.  I’m looking forward to sharing some tips and learnings that I’ve picked up over the years.  In anticipation of the presentation, I just wanted to share a little bit about some of my motivations for the…",
       "author": null,
       "publishedAt": "2026-09-14T08:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9uv",
+      "title": "Christophe Pettus: All Your GUCs in a Row: max_index_keys",
+      "link": "https://postgr.es/p/9uv",
+      "summary": "PostgreSQL's `max_index_keys` has counted more than keys since INCLUDE columns arrived in version 11, but stays locked at 32 due to on-disk tuple format…",
+      "author": null,
+      "publishedAt": "2026-09-15T01:00:00.000Z"
     }
   ],
-  "totalIndexed": 200
+  "totalIndexed": 201
 }

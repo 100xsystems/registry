@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-09-14T12:21:30.139Z",
+  "updatedAt": "2026-09-15T03:39:09.746Z",
   "items": [
     {
       "guid": "https://www.sitepoint.com/how-ai-and-apis-are-changing-everyday-development-work/",
@@ -1311,7 +1311,79 @@
       "summary": "Migrate your web application to Tailwind CSS v4 by decoupling Vite and PostCSS pipelines into native CSS toolchains.\nTailwind CSS v4 Migration: Decouple Vite and PostCSS Pipelines\n          on SitePoint.",
       "author": "SitePoint Team",
       "publishedAt": "2026-09-13T20:27:24.000Z"
+    },
+    {
+      "guid": "https://www.sitepoint.com/modeling-llm-context-costs-tiered-pricing-beyond-200k-tokens/",
+      "title": "Modeling LLM Context Costs and Tiered Pricing Beyond 200k Tokens",
+      "link": "https://www.sitepoint.com/modeling-llm-context-costs-tiered-pricing-beyond-200k-tokens/?utm_source=rss",
+      "summary": "Calculate nonlinear LLM context pricing tiers, prompt caching break-evens, and context compaction trade-offs across major foundation model APIs.\nModeling LLM Context Costs and Tiered Pricing Beyond 200k Tokens\n          on SitePoint.",
+      "author": "SitePoint Team",
+      "publishedAt": "2026-09-14T20:10:25.000Z"
+    },
+    {
+      "guid": "https://www.sitepoint.com/build-hybrid-automated-code-review-deterministic-rules-llms/",
+      "title": "Build Hybrid Automated Code Review with Deterministic Rules and LLMs",
+      "link": "https://www.sitepoint.com/build-hybrid-automated-code-review-deterministic-rules-llms/?utm_source=rss",
+      "summary": "Construct a two-tier GitHub Actions code review workflow that combines fast deterministic linters and AST rules with structured semantic LLM evaluators.\nBuild Hybrid Automated Code Review with Deterministic Rules and LLMs\n          on SitePoint.",
+      "author": "SitePoint Team",
+      "publishedAt": "2026-09-14T20:10:23.000Z"
+    },
+    {
+      "guid": "https://www.sitepoint.com/build-edge-support-desk-workers-d1-r2-queues/",
+      "title": "Build an Edge Support Desk with Workers, D1, R2, and Queues",
+      "link": "https://www.sitepoint.com/build-edge-support-desk-workers-d1-r2-queues/?utm_source=rss",
+      "summary": "Architect and deploy an asynchronous, full-stack support desk entirely on Cloudflare edge primitives using Hono, D1 relational storage, R2 uploads, and Queues.\nBuild an Edge Support Desk with Workers, D1, R2, and Queues\n          on SitePoint.",
+      "author": "SitePoint Team",
+      "publishedAt": "2026-09-14T20:10:21.000Z"
+    },
+    {
+      "guid": "https://www.sitepoint.com/securing-ai-agent-extensions-signed-registries-ast-gates/",
+      "title": "Securing AI Agent Extensions with Signed Registries and AST Gates",
+      "link": "https://www.sitepoint.com/securing-ai-agent-extensions-signed-registries-ast-gates/?utm_source=rss",
+      "summary": "Enforce cryptographic verification, static AST analysis, and runtime capability sandboxing on external AI agent skills and extensions before execution.\nSecuring AI Agent Extensions with Signed Registries and AST Gates\n          on SitePoint.",
+      "author": "SitePoint Team",
+      "publishedAt": "2026-09-14T20:10:19.000Z"
+    },
+    {
+      "guid": "https://www.sitepoint.com/preventing-ai-agent-context-poisoning-with-typescript-hmac-middleware/",
+      "title": "Preventing AI Agent Context Poisoning with TypeScript HMAC Middleware",
+      "link": "https://www.sitepoint.com/preventing-ai-agent-context-poisoning-with-typescript-hmac-middleware/?utm_source=rss",
+      "summary": "Learn how to mitigate AI agent context injection and poisoning by implementing cryptographic frame isolation and HMAC verification in TypeScript middleware.\nPreventing AI Agent Context Poisoning with TypeScript HMAC Middleware\n          on SitePoint.",
+      "author": "SitePoint Team",
+      "publishedAt": "2026-09-14T20:10:18.000Z"
+    },
+    {
+      "guid": "https://www.sitepoint.com/detecting-ai-package-hallucinations-in-cicd-across-npm-pypi-and-rubygems/",
+      "title": "Detecting AI Package Hallucinations in CI/CD Across npm, PyPI, and RubyGems",
+      "link": "https://www.sitepoint.com/detecting-ai-package-hallucinations-in-cicd-across-npm-pypi-and-rubygems/?utm_source=rss",
+      "summary": "Build a multi-ecosystem lockfile auditor in GitHub Actions to detect and block slopsquatting attacks targeting hallucinated AI package recommendations.\nDetecting AI Package Hallucinations in CI/CD Across npm, PyPI, and RubyGems\n          on SitePoint.",
+      "author": "SitePoint Team",
+      "publishedAt": "2026-09-14T20:10:16.000Z"
+    },
+    {
+      "guid": "https://www.sitepoint.com/building-a-zero-dependency-client-side-pdf-generator-in-typescript/",
+      "title": "Building a Zero-Dependency Client-Side PDF Generator in TypeScript",
+      "link": "https://www.sitepoint.com/building-a-zero-dependency-client-side-pdf-generator-in-typescript/?utm_source=rss",
+      "summary": "Construct a minimal, high-performance client-side PDF 1.7 binary generator from scratch using TypeScript and TypedArrays without bloated external libraries.\nBuilding a Zero-Dependency Client-Side PDF Generator in TypeScript\n          on SitePoint.",
+      "author": "SitePoint Team",
+      "publishedAt": "2026-09-14T20:10:14.000Z"
+    },
+    {
+      "guid": "https://www.sitepoint.com/migrating-large-system-prompts-to-ollama-without-attention-loss/",
+      "title": "Migrating Large System Prompts to Ollama Without Attention Loss",
+      "link": "https://www.sitepoint.com/migrating-large-system-prompts-to-ollama-without-attention-loss/?utm_source=rss",
+      "summary": "A practical engineering guide to moving complex cloud LLM system prompts to local Ollama runtimes with RoPE frequency scaling and Modelfile tuning.\nMigrating Large System Prompts to Ollama Without Attention Loss\n          on SitePoint.",
+      "author": "SitePoint Team",
+      "publishedAt": "2026-09-14T20:10:13.000Z"
+    },
+    {
+      "guid": "https://www.sitepoint.com/how-to-test-region-dependent-web-apps-on-windows-without-fooling-yourself/",
+      "title": "How to Test Region-Dependent Web Apps on Windows Without Fooling Yourself",
+      "link": "https://www.sitepoint.com/how-to-test-region-dependent-web-apps-on-windows-without-fooling-yourself/?utm_source=rss",
+      "summary": "null\nHow to Test Region-Dependent Web Apps on Windows Without Fooling Yourself\n          on SitePoint.",
+      "author": "Saifullah Adenwalla",
+      "publishedAt": "2026-09-14T12:33:07.000Z"
     }
   ],
-  "totalIndexed": 163
+  "totalIndexed": 172
 }

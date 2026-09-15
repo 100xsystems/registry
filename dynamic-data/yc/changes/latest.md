@@ -1,70 +1,78 @@
-# YC Company Changes for 2026-09-14
+# YC Company Changes for 2026-09-15
 
-- Previous total: 6217
-- Current total: 6218
-- Added: 1
+- Previous total: 6218
+- Current total: 6220
+- Added: 2
 - Removed: 0
-- Updated: 11
+- Updated: 14
 
 
 ## Added Companies
 
-- [Aviern](https://www.ycombinator.com/companies/aviern) (Fall 2026) — Unmanned airplanes for geospatial intelligence
+- [Agent 37](https://www.ycombinator.com/companies/agent-37) (Fall 2026) — Persistent sandboxes for agents like hermes, openclaw, claude code
+- [Ignition Benefits](https://www.ycombinator.com/companies/ignition-benefits) (Fall 2026) — The AI-Native Benefits Brokerage
 
 ## Updated Companies
 
-### [Duffel](https://www.ycombinator.com/companies/duffel)
+### [Verse Medical](https://www.ycombinator.com/companies/jetlenses)
+
+- `all_locations`: New York City, NY, USA; New York, NY, USA → New York City, NY, USA
+- `one_liner`: Software platform for in-home healthcare → AI-enabled ordering for medical equipment & supplies
+- `subindustry`: Healthcare -> Consumer Health and Wellness → Healthcare -> Healthcare IT
+- `tags`: Consumer Health Services,Medical Devices → 
+- `industries`: Healthcare,Consumer Health and Wellness → Healthcare,Healthcare IT
+- `stage`: Growth → Early
+
+### [Palifer](https://www.ycombinator.com/companies/palifer)
+
+- `tags`: Artificial Intelligence → AI
+
+### [Domu Technology Inc.](https://www.ycombinator.com/companies/domu-technology-inc)
 
 - `stage`: Growth → Early
 
-### [Posh](https://www.ycombinator.com/companies/posh)
+### [Lingo.dev](https://www.ycombinator.com/companies/lingodotdev)
+
+- `tags`: Developer Tools,B2B,International,Infrastructure,AI → Artificial Intelligence,B2B,International,Infrastructure
+- `isHiring`: false → true
+
+### [Tire Swing](https://www.ycombinator.com/companies/tire-swing)
+
+- `batch`: Winter 2025 → Fall 2026
+
+### [Spott](https://www.ycombinator.com/companies/spott)
+
+- `stage`: Growth → Early
+
+### [Kaizen](https://www.ycombinator.com/companies/kaizen)
 
 - `isHiring`: false → true
 
-### [Empirical Health](https://www.ycombinator.com/companies/empirical-health)
+### [Modelence](https://www.ycombinator.com/companies/modelence)
 
-- `tags`: Generative AI,Machine Learning,Consumer Health Services,Healthcare,AI → Artificial Intelligence,Generative AI,Machine Learning,Consumer Health Services,Healthcare
+- `one_liner`: Build production-ready apps with AI → Production infrastructure on autopilot
+- `tags`: Artificial Intelligence,Developer Tools,Infrastructure → Developer Tools,Open Source,Infrastructure
+
+### [AtlasGrid](https://www.ycombinator.com/companies/atlasgrid)
+
 - `isHiring`: true → false
 
-### [Forge](https://www.ycombinator.com/companies/forge)
+### [Semble](https://www.ycombinator.com/companies/semble)
 
-- `tags`: B2B,Logistics,Supply Chain,AI → Artificial Intelligence,B2B,Logistics,Supply Chain
+- `tags`: SaaS,AI → Artificial Intelligence,SaaS
 
-### [Soff](https://www.ycombinator.com/companies/soff)
+### [Canary](https://www.ycombinator.com/companies/canary)
+
+- `one_liner`: The first AI QA engineer that understands your code → Adversarial AI that breaks your AI
+
+### [Rindler](https://www.ycombinator.com/companies/rindler)
+
+- `tags`: Developer Tools,SaaS,Infrastructure,AI → Artificial Intelligence,Developer Tools,SaaS,Infrastructure
+
+### [Whitespace](https://www.ycombinator.com/companies/whitespace)
+
+- `tags`: Artificial Intelligence,SaaS,B2B,Supply Chain → SaaS,B2B,Supply Chain,AI
+
+### [Petrarch](https://www.ycombinator.com/companies/petrarch)
 
 - `isHiring`: false → true
-
-### [RiskCube](https://www.ycombinator.com/companies/riskcube)
-
-- `one_liner`: AI insurance company → America’s first reinsurer for emerging risks.
-
-### [Ressl AI](https://www.ycombinator.com/companies/ressl-ai)
-
-- `isHiring`: true → false
-
-### [Antinuous](https://www.ycombinator.com/companies/antinuous)
-
-- `name`: Salesgraph → Antinuous
-- `slug`: salesgraph → antinuous
-- `former_names`:  → Salesgraph
-- `website`: https://www.salesgraph.com/ → https://www.antinuous.com/
-- `one_liner`: Proactive revenue agents that move enterprise deals forward → Autonomous research agents for R&D and education
-- `subindustry`: B2B -> Sales → B2B
-- `tags`:  → Artificial Intelligence
-- `industries`: B2B,Sales → B2B
-
-### [Runtime](https://www.ycombinator.com/companies/runtime)
-
-- `one_liner`: Build and run internal agents, without managing the infrastructure → AI agents for financial operations
-- `team_size`: 3 → 5
-
-### [OneCLI](https://www.ycombinator.com/companies/onecli)
-
-- `subindustry`: B2B -> Security → B2B -> Productivity
-- `tags`: B2B,Security,Open Source,Infrastructure,AI → AIOps,Artificial Intelligence,B2B,Workflow Automation,Open Source
-- `industries`: B2B,Security → B2B,Productivity
-
-### [Papaya](https://www.ycombinator.com/companies/papaya)
-
-- `launched_at`: 1786837208 → 1789407516
-- `tags`: AIOps,Artificial Intelligence,B2B,Enterprise Software,Infrastructure → AIOps,B2B,Enterprise Software,Infrastructure,AI
