@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-09-15T03:38:57.251Z",
+  "updatedAt": "2026-09-15T16:21:39.975Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -1617,7 +1617,39 @@
       "summary": "PostgreSQL's `max_index_keys` has counted more than keys since INCLUDE columns arrived in version 11, but stays locked at 32 due to on-disk tuple format…",
       "author": null,
       "publishedAt": "2026-09-15T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9uB",
+      "title": "Christophe Pettus: 19th Nervous Breakdown",
+      "link": "https://postgr.es/p/9uB",
+      "summary": "PostgreSQL 19's release crumbled under its own ambition: eight major features landed in five weeks before freeze, three committers pulled their work, and a…",
+      "author": null,
+      "publishedAt": "2026-09-15T16:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9uA",
+      "title": "Jimmy Angelakos: Send us a contribution straight from the site",
+      "link": "https://postgr.es/p/9uA",
+      "summary": "Until now, the only way to tell us about a contribution worth listing was\nemail. There is now a\nform on the site instead.\nYou do not need an account, and you do not have to tell us who you are. Write\nthe contribution in one box, in plain text or Markdown, and send it. If you\nwould like us to be…",
+      "author": null,
+      "publishedAt": "2026-09-15T15:02:40.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9ux",
+      "title": "Jimmy Angelakos: PostgreSQL Commitfest Metrics: PGConf.dev 2026 Part One",
+      "link": "https://postgr.es/p/9ux",
+      "summary": "Obviously I would have liked to post this closer to the event, but life got in the way. The talk was in May and the recording has been up for a while. Here it is.\nPGConf.dev 2026 took place from May 19th to 22nd, 2026, at Simon Fraser University's Harbour Centre campus in downtown Vancouver, BC,…",
+      "author": null,
+      "publishedAt": "2026-09-15T12:37:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9uw",
+      "title": "Tomas Vondra: Postgres development activity",
+      "link": "https://postgr.es/p/9uw",
+      "summary": "Every now and then I need a break from writing code. In those cases I\nlike looking at data about a subject I’m interested in - looking for\ntrends, quantifying the expected effects, and so on. I needed just such\na break a couple days ago, and I decided to look at statistics about the\ndevelopment…",
+      "author": null,
+      "publishedAt": "2026-09-15T10:00:00.000Z"
     }
   ],
-  "totalIndexed": 201
+  "totalIndexed": 205
 }
