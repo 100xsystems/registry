@@ -9,7 +9,7 @@
     "edge-computing",
     "nextjs"
   ],
-  "updatedAt": "2026-09-11T20:16:28.860Z",
+  "updatedAt": "2026-09-15T11:28:10.594Z",
   "items": [
     {
       "guid": "vercel-blog::https://vercel.com/changelog/ai-gateway-now-supports-streaming-transcription",
@@ -4586,7 +4586,15 @@
       "summary": "Pro and Enterprise teams can now control who can create and manage  connectors. Connectors let applications and agents access external services using credentials managed by your team.Vercel Connect\nOwners can enable this restriction under  in . Once enabled, only people with the Owner role or…",
       "author": "Mark Roberts",
       "publishedAt": "2026-09-11T00:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/ai-sdk-harness-native-subscription-authentication",
+      "title": "AI SDK harness layer now supports native subscription authentication",
+      "link": "https://vercel.com/changelog/ai-sdk-harness-native-subscription-authentication",
+      "summary": "The  now supports authenticating harnesses through their native subscriptions, where the underlying harness supports them. The harness layer runs different coding agents through the same  interface, so you can switch agents without changing your application code.AI SDK harness layerHarnessAgent\nNo…",
+      "author": "Felix Arntz",
+      "publishedAt": "2026-09-14T21:28:00.000Z"
     }
   ],
-  "totalIndexed": 572
+  "totalIndexed": 573
 }
