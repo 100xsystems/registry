@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-09-15T20:42:37.661Z",
+  "updatedAt": "2026-09-16T03:35:33.534Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -1657,7 +1657,23 @@
       "summary": "There is a conversation that happens in every PostgreSQL shop eventually. A\nquery that has been fine for a year gets slow overnight. Nothing was\ndeployed. The data grew a little, ANALYZE ran, and the planner — entirely\nreasonably, on the numbers it had — picked a different plan. The old plan\nwas…",
       "author": null,
       "publishedAt": "2026-09-15T16:27:53.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9uG",
+      "title": "Christophe Pettus: All Your GUCs in a Row: max_locks_per_transaction",
+      "link": "https://postgr.es/p/9uG",
+      "summary": "`max_locks_per_transaction` isn't about transactions or limits—it sizes the cluster-wide lock table, and its misleading name has confused PostgreSQL users for…",
+      "author": null,
+      "publishedAt": "2026-09-16T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9uE",
+      "title": "Jeremy Schneider: Agents Gone Awry on Postgres SBOMs: Start Over",
+      "link": "https://postgr.es/p/9uE",
+      "summary": "If you were wondering, it’s the SBOM thing that I mentioned the other day.\nPostgres Extensions in containers with full inventory, provenance and attestation. I’ve been using plenty of AI Agents to put this together. This blog is a little scattered (apologies) but as they say, I didn’t have time to…",
+      "author": null,
+      "publishedAt": "2026-09-15T21:40:07.000Z"
     }
   ],
-  "totalIndexed": 206
+  "totalIndexed": 208
 }

@@ -1,64 +1,64 @@
-# YC Company Changes for 2026-09-15
+# YC Company Changes for 2026-09-16
 
 - Previous total: 6220
-- Current total: 6220
-- Added: 0
+- Current total: 6221
+- Added: 1
 - Removed: 0
-- Updated: 12
+- Updated: 9
 
+
+## Added Companies
+
+- [gbrain.io](https://www.ycombinator.com/companies/gbrainio) (Spring 2026) — A personal or team assistant that works while you sleep
 
 ## Updated Companies
 
-### [Tara AI](https://www.ycombinator.com/companies/tara-ai)
+### [Atmeto](https://www.ycombinator.com/companies/atmeto)
 
-- `isHiring`: true → false
+- `one_liner`: We develop ML that optimizes how batteries in the grid store energy → Building a frontier world model for power
+- `tags`: Energy Storage,Reinforcement Learning,Climate,Energy,ClimateTech → Machine Learning,Climate,Energy,ClimateTech,AI
 
-### [Superwall](https://www.ycombinator.com/companies/staffbar)
+### [RiskCube](https://www.ycombinator.com/companies/riskcube)
 
-- `isHiring`: true → false
+- `one_liner`: America’s first reinsurer for emerging risks. → America’s first AI-native reinsurer for emerging risks.
+- `tags`: Fintech,Insurance,Defense,AI → Artificial Intelligence,Fintech,Insurance,Defense
 
-### [Kurios](https://www.ycombinator.com/companies/kurios)
+### [HABIT](https://www.ycombinator.com/companies/habit)
 
-- `status`: Active → Inactive
+- `website`: https://habitrobotics.com → https://habit.inc
+- `one_liner`: Conversational robots for physical businesses. → Accelerating world models.
+- `subindustry`: B2B -> Retail → B2B
+- `tags`: Robotics,Consumer,B2B,Retail,AI → Artificial Intelligence,Generative AI,Robotics,B2B,API
+- `industries`: B2B,Retail → B2B
 
-### [Instant](https://www.ycombinator.com/companies/instant)
+### [Phases](https://www.ycombinator.com/companies/phases)
+
+- `one_liner`: Automated clinical trial oversight and execution → AI for the physical world
+- `industry`: Healthcare → Industrials
+- `subindustry`: Healthcare -> Healthcare IT → Industrials -> Manufacturing and Robotics
+- `tags`: Healthcare IT,AI,Conversational AI → Artificial Intelligence,Healthcare IT,Conversational AI
+- `industries`: Healthcare,Healthcare IT → Industrials,Manufacturing and Robotics
+
+### [Relaw](https://www.ycombinator.com/companies/relaw)
+
+- `subindustry`: B2B → B2B -> Legal
+- `tags`: Artificial Intelligence,SaaS,Legal → SaaS,Legal,AI
+- `industries`: B2B → B2B,Legal
+
+### [Memoir](https://www.ycombinator.com/companies/memoir)
+
+- `one_liner`: Marketing campaigns from everything your team ships → Everything your team ships, explained to everyone it affects.
+- `subindustry`: B2B -> Marketing → B2B
+- `industries`: B2B,Marketing → B2B
+
+### [Prototyping.io](https://www.ycombinator.com/companies/prototypingio)
 
 - `status`: Active → Acquired
 
-### [Pivot Robotics](https://www.ycombinator.com/companies/pivot-robotics)
+### [Reason Machines](https://www.ycombinator.com/companies/reason-machines)
 
-- `team_size`: 7 → 8
-- `tags`: Artificial Intelligence,Robotics,Industrial → Robotics,AI,Industrial
+- `website`: https://reasonmachines.ai → https://reasonmachines.com
 
-### [Octolane AI](https://www.ycombinator.com/companies/octolane-ai)
+### [Mirrors](https://www.ycombinator.com/companies/mirrors)
 
-- `team_size`: 5 → 4
-
-### [Anthrogen](https://www.ycombinator.com/companies/anthrogen)
-
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/b82e4439479abc4af4baa257faf13f88240781b4.png → https://bookface-images.s3.amazonaws.com/small_logos/fd834838e899b193bf63adbb6160e2a6faf66041.png
-- `one_liner`: We're training the next generation of protein foundation models. → We work on generalizable tools for the next era of biotech. 
-- `team_size`: 6 → 15
-- `tags`: Artificial Intelligence,Deep Learning,Biotech → Deep Learning,Biotech,AI
-
-### [Parley](https://www.ycombinator.com/companies/parley)
-
-- `one_liner`: Automating flat-fee legal work, starting with work visas + green cards → Legal Agent that delivers finished work
-- `tags`: Artificial Intelligence,SaaS,Legal,LegalTech,Immigration → SaaS,Legal,LegalTech,Immigration,AI
-
-### [Liquid Compute](https://www.ycombinator.com/companies/liquid-compute)
-
-- `tags`: FinOps,Fintech,Infrastructure,AI → Artificial Intelligence,FinOps,Fintech,Infrastructure
-
-### [Nitrode](https://www.ycombinator.com/companies/nitrode)
-
-- `team_size`: 5 → 8
-- `tags`: Machine Learning,B2B,Data Engineering,AI → Artificial Intelligence,Machine Learning,B2B,Data Engineering
-
-### [Aside](https://www.ycombinator.com/companies/aside)
-
-- `team_size`: 5 → 8
-
-### [Lyon](https://www.ycombinator.com/companies/lyon)
-
-- `batch`: Summer 2026 → Fall 2026
+- `tags`: Developer Tools,SaaS,B2B,DevOps,AI → Artificial Intelligence,Developer Tools,SaaS,B2B,DevOps
