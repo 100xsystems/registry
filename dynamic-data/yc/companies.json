@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-16T16:13:46.622Z",
+  "fetchedAt": "2026-09-16T20:43:32.690Z",
   "count": 6222,
   "companies": [
     {
@@ -1405,11 +1405,11 @@
       "subindustry": "B2B -> Infrastructure",
       "launched_at": 1789011304,
       "tags": [
-        "Artificial Intelligence",
         "Developer Tools",
         "SaaS",
         "B2B",
-        "DevOps"
+        "DevOps",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -1739,15 +1739,16 @@
     },
     {
       "id": 34928,
-      "name": "Ascii",
-      "slug": "ascii",
+      "name": "Boat",
+      "slug": "boat",
       "former_names": [
-        "Ascii box"
+        "Ascii box",
+        "Ascii"
       ],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/7ab4963f9bacc76a0a31b94f8773cad5138d2dc3.png",
-      "website": "https://box.ascii.dev",
+      "website": "https://boat.dev",
       "all_locations": "Paris, Île-de-France, France; Remote",
-      "long_description": "**Problem**\r\n\r\nHumans used to need laptops to do their work. Now they prompt agents instead, and those agents need computers too: always-on, in large quantities, and with unlimited capabilities. \r\n\r\nBuilding and maintaining that yourself is far from trivial.\r\n\r\n**Solution**\r\n\r\nBox provides powerful, simple, permissive Ubuntu VMs in the cloud. In a box, an agent can work for long periods on code or on knowledge work like legal, research, reporting, and auditing.\r\n\r\n**Why Box and not any other cloud VM?**\r\n\r\n1. It is ready out of the box: every box ships with a desktop, chrome, languages, docker, snapshots, and templates, plus a CLI, SDK, API, and control pane for your fleet.\r\n2. It is permissive and paradigm agnostic: any number of agents can use any number of boxes. Agents can run inside or use boxes as an external tool.\r\n3. It is expertly crafted: we manage everything from the individual CPU to the orchestration software, which makes boxes stable, persistent, scalable, and secure.\r\n4. It is the best performance and price in town: our CPUs rank first on HPC benchmarks, and boxes are typically 9x to 18x cheaper than other leading sandboxes.\r\n\r\n**Further notes**\r\n\r\nBoxes are hosted in Europe, which keeps prices low, and more regions are coming. Unless compliance requires it, agents don't notice the region they run in.",
+      "long_description": "**Problem**\r\n\r\nHumans used to need laptops to do their work. Now they prompt agents instead, and those agents need computers too: always-on, in large quantities, and with unlimited capabilities. \r\n\r\nBuilding and maintaining that yourself is far from trivial.\r\n\r\n**Solution**\r\n\r\nBoat provides powerful, simple, permissive Ubuntu VMs in the cloud. In a sandbox, an agent can work for long periods on code or on knowledge work like legal, research, reporting, and auditing.\r\n\r\n**Why Boat and not any other cloud VM?**\r\n\r\n1. It is ready out of the box: every sandbox ships with a desktop, chrome, languages, docker, snapshots, and templates, plus a CLI, SDK, API, and control pane for your fleet.\r\n2. It is permissive and paradigm agnostic: any number of agents can use any number of sandboxes. Agents can run inside or use sandboxes as an external tool.\r\n3. It is expertly crafted: we manage everything from the individual CPU to the orchestration software, which makes sandboxes stable, persistent, scalable, and secure.\r\n4. It is the best performance and price in town: our CPUs rank first on HPC benchmarks, and sandboxes are typically 9x to 18x cheaper than other leading sandboxes.\r\n\r\n**Further notes**\r\n\r\nSandboxes are hosted in Europe, which keeps prices low, and more regions are coming. Unless compliance requires it, agents don't notice the region they run in.",
       "one_liner": "The best cloud VMs for billions of agents",
       "team_size": 3,
       "highlight_black": false,
@@ -1781,7 +1782,7 @@
       "demo_day_video_public": false,
       "app_answers": null,
       "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/ascii"
+      "url": "https://www.ycombinator.com/companies/boat"
     },
     {
       "id": 34895,
@@ -8837,7 +8838,7 @@
       "top_company": false,
       "isHiring": false,
       "nonprofit": false,
-      "batch": "Summer 2026",
+      "batch": "Fall 2026",
       "status": "Active",
       "industries": [
         "B2B",
@@ -15902,7 +15903,7 @@
       "tags": [],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": false,
+      "isHiring": true,
       "nonprofit": false,
       "batch": "Spring 2026",
       "status": "Active",
@@ -15912,7 +15913,9 @@
       ],
       "regions": [
         "United States of America",
-        "America / Canada"
+        "America / Canada",
+        "Remote",
+        "Partly Remote"
       ],
       "stage": "Early",
       "app_video_public": false,
@@ -18056,7 +18059,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/45f1eda8aab66eabaa151ae4c6fdca3a6325a068.png",
       "website": "https://replicas.dev",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Replicas is a background coding agent that allows you to delegate tasks to Claude Code or Codex from Slack, Linear, GitHub, and more. Each task works inside of a sandboxed virtual machine, allowing teams to heavily parallelize work and burn through tickets.\r\n\r\nReplicas agents output higher quality PRs via feedback loops - each task automatically is notified and fixes CI failures and reads all code reviews. With Environments, engineering teams can configure agents to run their entire codebase locally, verify its work, and provide preview URLs.",
+      "long_description": "Replicas is a cloud coding agent that allows you to delegate tasks to Claude Code or Codex from the app, Slack, Linear, and more. Each task works inside of a sandboxed virtual machine, allowing teams to heavily parallelize work and burn through tickets.\r\n\r\nReplicas agents output higher quality PRs via feedback loops - each task automatically is notified and fixes CI failures and reads all code reviews. With Environments, engineering teams can configure agents to run their entire codebase locally, verify its work, and provide preview URLs.",
       "one_liner": "Run any coding agent harness in the cloud",
       "team_size": 2,
       "highlight_black": false,
@@ -18065,7 +18068,9 @@
       "industry": "B2B",
       "subindustry": "B2B -> Engineering, Product and Design",
       "launched_at": 1773355936,
-      "tags": [],
+      "tags": [
+        "Developer Tools"
+      ],
       "tags_highlighted": [],
       "top_company": false,
       "isHiring": true,
@@ -20031,11 +20036,11 @@
         "Veriad",
         "Supafax"
       ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/0a84742c8558c6378997c9b19b54dd6ad334ce0c.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/eaa1f350e1d2268092bb11e534ea52120e4c5b0f.png",
       "website": "https://veriad.com",
       "all_locations": "London, England, United Kingdom",
-      "long_description": "Veriad is building marketing agents for enterprises.",
-      "one_liner": "Enterprise marketing agents",
+      "long_description": "Veriad is building marketing agents for enterprises to run advertising campaigns end-to-end in-house.",
+      "one_liner": "AI operating system for marketing",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -20044,10 +20049,10 @@
       "subindustry": "B2B",
       "launched_at": 1767420715,
       "tags": [
-        "Artificial Intelligence",
         "B2B",
         "Marketing",
-        "Advertising"
+        "Advertising",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -20434,7 +20439,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/30eef975f26ed420159ac335c08eb8b950705ee2.png",
       "website": "https://silahq.com",
       "all_locations": "New York City, NY, USA",
-      "long_description": "Sila is a messaging platform where you text agents to get work done. Describe your idea or task with a message and Sila creates agents that you and your team message together to build and run your company.",
+      "long_description": "Sila is an agent messaging platform where you text agents with your team to get work done. ",
       "one_liner": "Agent Messaging Platform",
       "team_size": 2,
       "highlight_black": false,
@@ -25121,7 +25126,7 @@
       "website": "https://tepali.com",
       "all_locations": "New York City, NY, USA",
       "long_description": "Tepali is the AI-native operating system for medspas. We replace fragmented software and manual work with a single system of record powered by AI agents that handle front desk, patient documentation, and lead conversion.",
-      "one_liner": "AI operating system for modern medspas",
+      "one_liner": "AI EMR for medspas & wellness clinics",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -28586,7 +28591,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": true,
+      "isHiring": false,
       "nonprofit": false,
       "batch": "Fall 2025",
       "status": "Active",
@@ -49246,16 +49251,17 @@
     },
     {
       "id": 30338,
-      "name": "CopyCat",
-      "slug": "copycat",
+      "name": "CopyCat AI",
+      "slug": "copycat-ai",
       "former_names": [
-        "Platter"
+        "Platter",
+        "CopyCat"
       ],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/d0b6fa2626fafdcdd87ec75360df8375ffa48bb3.png",
       "website": "https://runcopycat.com",
       "all_locations": "Seattle, WA, USA",
-      "long_description": "CopyCat builds AI for commercial insurance brokers. It turns carrier quotes and policy documents into branded proposals, quote comparisons, and coverage reviews, and helps teams check policies and review insurance contracts, flagging discrepancies and documenting findings with source references. ",
-      "one_liner": "AI agents built for insurance brokers",
+      "long_description": "CopyCat builds AI for commercial, personal & benefits insurance brokers. It turns carrier quotes and policy documents into branded proposals, quote comparisons, and coverage reviews, and helps teams check policies and review insurance contracts, flagging discrepancies and documenting findings with source references. ",
+      "one_liner": "AI for Commercial Insurance Agencies",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -49264,8 +49270,8 @@
       "subindustry": "Fintech -> Insurance",
       "launched_at": 1734580429,
       "tags": [
-        "Artificial Intelligence",
-        "Insurance"
+        "Insurance",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -49286,7 +49292,7 @@
       "demo_day_video_public": false,
       "app_answers": null,
       "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/copycat"
+      "url": "https://www.ycombinator.com/companies/copycat-ai"
     },
     {
       "id": 30337,
@@ -69147,15 +69153,17 @@
     },
     {
       "id": 29647,
-      "name": "Maitai",
-      "slug": "maitai",
-      "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c3c6b9b422d6e861a26fcf29a7acd2c4eae136af.png",
-      "website": "https://trymaitai.com",
+      "name": "Party",
+      "slug": "party",
+      "former_names": [
+        "Maitai"
+      ],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/338e5b72183a79e0cc2f337341f8e76e89c641a2.png",
+      "website": "https://party.build",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Maitai makes building reliable AI applications easy. We autocorrect faulty model output in real-time and automatically fine-tune models that learn from their mistakes. This means our customers get more reliable results immediately, and over time, they gain custom models built specifically for their application that only get better and faster. You wouldn’t hire an employee who doesn’t learn from their mistakes—so why use a model that doesn’t? Maitai is here to deliver the next generation of reliable AI inference.",
-      "one_liner": "Reliable, self-improving enterprise AI",
-      "team_size": 6,
+      "long_description": "Party is the secure workspace for your team and agents to build together, in the open. Agent Flows handle 95% of the work and your team can see it all happen and step in when needed to steer. It's built for teams, but caters to the solo builder as well. Use any harness/model - your keys or ours. Cost observability. Memory. Dual-level session sandboxing.\r\nSlack/Teams are comm-first with agents as second-class citizens. Party is work-first and the communication happens where the work is being done. Party is for teams who want to build better and faster than their competition. ",
+      "one_liner": "Secure multiplayer software factory for your whole team in minutes",
+      "team_size": 7,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -69163,15 +69171,15 @@
       "subindustry": "B2B -> Engineering, Product and Design",
       "launched_at": 1716914094,
       "tags": [
-        "AIOps",
         "Artificial Intelligence",
         "Developer Tools",
-        "Enterprise",
+        "Productivity",
+        "Collaboration",
         "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": true,
+      "isHiring": false,
       "nonprofit": false,
       "batch": "Summer 2024",
       "status": "Active",
@@ -69188,7 +69196,7 @@
       "demo_day_video_public": false,
       "app_answers": null,
       "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/maitai"
+      "url": "https://www.ycombinator.com/companies/party"
     },
     {
       "id": 29646,
@@ -80707,7 +80715,7 @@
       "all_locations": "New York City, NY, USA",
       "long_description": "Garage is modernizing how America buys and sells the vehicles and equipment that keep communities safe. Our AI-powered marketplace automates every part of the transaction—appraisals, payments, paperwork, freight, warranty, and financing—reducing what once took months down to minutes.\r\n\r\nBy replacing broken, manual processes with modern software, Garage helps critical equipment reach communities faster—saving taxpayer dollars and supporting the industries that keep America running.\r\n\r\nWe've raised $18M to date, and are backed by Y Combinator, Initialized Capital, Infinity Ventures, FJ Labs, and other leading investors.\r\n",
       "one_liner": "Marketplace for America's most essential assets",
-      "team_size": 25,
+      "team_size": 35,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -80715,7 +80723,9 @@
       "subindustry": "B2B",
       "launched_at": 1709146834,
       "tags": [
-        "Marketplace"
+        "Artificial Intelligence",
+        "Marketplace",
+        "Industrial"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -80732,7 +80742,7 @@
         "Remote",
         "Partly Remote"
       ],
-      "stage": "Growth",
+      "stage": "Early",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -81276,7 +81286,7 @@
         "United States of America",
         "America / Canada"
       ],
-      "stage": "Growth",
+      "stage": "Early",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -132714,8 +132724,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c65d6fe451c746d928cfe1511810bc3f77971cb3.png",
       "website": "https://WeReno.com",
       "all_locations": "Toronto, ON, Canada",
-      "long_description": "WeReno is an AI owner's representative that helps building owners plan and manage renovations, capital projects, and property improvements. It automatically analyzes drawings, generates scopes of work, estimates costs, prepares RFQs, coordinates vendors, and tracks project execution, giving owners the capabilities of an experienced owner's rep through software.",
-      "one_liner": "AI owner's representative for commercial construction and renovations.",
+      "long_description": "WeReno is the AI operating layer for property improvement.\r\n\r\nWe spent more than a decade representing property owners, coordinating contractors, and managing renovations and capital projects. Across that time, we’ve helped facilitate $1B+ in project value and turned that operating playbook into AI agents that help property owners and contractors get work done.\r\n\r\nCapital by WeReno manages complex commercial projects. Handyman.ai helps homeowners handle everyday repairs and maintenance. Renobot.ai represents homeowners through renovations. Opsonic.ai gives contractors an AI back office for quoting, scheduling, follow-up, and operations.",
+      "one_liner": "The AI operating layer for property improvement.",
       "team_size": 12,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -132724,10 +132734,10 @@
       "subindustry": "Real Estate and Construction -> Construction",
       "launched_at": 1647622736,
       "tags": [
-        "Artificial Intelligence",
         "Real Estate",
         "Construction",
-        "Proptech"
+        "Proptech",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -155206,7 +155216,7 @@
       "isHiring": false,
       "nonprofit": false,
       "batch": "Winter 2021",
-      "status": "Active",
+      "status": "Inactive",
       "industries": [
         "B2B",
         "Infrastructure"
@@ -183701,7 +183711,7 @@
       "slug": "whatnot",
       "former_names": [],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/448fec72747426b9340a6c62d2889b4cc976d888.png",
-      "website": "https://www.whatnot.com",
+      "website": "https://www.whatnot.com/careers/discover",
       "all_locations": "Los Angeles, CA, USA; Remote",
       "long_description": "Whatnot is the largest livestream shopping platform in the U.S., connecting buyers and sellers in real-time across any category – from collectibles like trading cards to comics, fashion, sneakers, and more. ",
       "one_liner": "Whatnot is the largest livestream shopping platform in the U.S.",
@@ -183718,7 +183728,7 @@
       ],
       "tags_highlighted": [],
       "top_company": true,
-      "isHiring": false,
+      "isHiring": true,
       "nonprofit": false,
       "batch": "Winter 2020",
       "status": "Active",

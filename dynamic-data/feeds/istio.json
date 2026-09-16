@@ -8,7 +8,7 @@
     "cloud-native",
     "service-mesh"
   ],
-  "updatedAt": "2026-08-24T12:48:24.226Z",
+  "updatedAt": "2026-09-16T20:43:15.601Z",
   "items": [
     {
       "guid": "https://istio.io/latest/blog/2026/traffic-extension-api/",
@@ -1313,7 +1313,15 @@
       "summary": "Under the governance system introduced in 2024 for the Technical Oversight Committee (TOC), the Istio project holds annual elections for three of the six seats. This ensures continuous technical leadership while maintaining community-driven momentum.\nThis year’s election saw four candidates stand…",
       "author": null,
       "publishedAt": "2026-08-24T00:00:00.000Z"
+    },
+    {
+      "guid": "https://istio.io/latest/blog/2026/retirement-of-k8s-integration-jobs/",
+      "title": "Retirement of Kubernetes integration jobs for unsupported Kubernetes versions",
+      "link": "https://istio.io/latest/blog/2026/retirement-of-k8s-integration-jobs/",
+      "summary": "The Istio Test and Release Working Group is retiring CI integration tests for older Kubernetes versions from the master branch, affecting Istio versions 1.32 and newer.\nWhat’s changing\nPreviously, Istio would have a supported range of Kubernetes versions that were typically N-3 or N-4 of the latest…",
+      "author": null,
+      "publishedAt": "2026-09-16T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 163
+  "totalIndexed": 164
 }

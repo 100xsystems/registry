@@ -8,7 +8,7 @@
     "ai",
     "research"
   ],
-  "updatedAt": "2026-09-16T16:13:32.940Z",
+  "updatedAt": "2026-09-16T20:43:15.336Z",
   "items": [
     {
       "guid": "environment-free",
@@ -273,7 +273,15 @@
       "summary": "Agentic LLM systems that generate code through multi-turn tool use face a fundamental context problem: each session starts from zero, discarding the configuration choices, domain constraints, data schemas, and tool-use patterns that made previous sessions productive. Naively persisting entire…",
       "author": null,
       "publishedAt": "2026-09-16T00:00:00.000Z"
+    },
+    {
+      "guid": "glyph-column-description-tagging",
+      "title": "Glyph: A Multi-Strategy Agentic System for Column Description and Sensitivity-Ontology Tagging of Enterprise Data Catalogs",
+      "link": "https://machinelearning.apple.com/research/glyph-column-description-tagging",
+      "summary": "Enterprise data lakes accumulate tables faster than human stewards can document or classify them, leaving columns with missing descriptions and unassigned governance labels. This documentation debt undermines data discovery, access control, and regulatory compliance. We present Glyph, a production…",
+      "author": null,
+      "publishedAt": "2026-09-16T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 33
+  "totalIndexed": 34
 }
