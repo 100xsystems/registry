@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-16T11:14:12.501Z",
+  "fetchedAt": "2026-09-16T16:13:46.622Z",
   "count": 6222,
   "companies": [
     {
@@ -22155,7 +22155,7 @@
       "tags": [],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": true,
+      "isHiring": false,
       "nonprofit": false,
       "batch": "Winter 2026",
       "status": "Active",
@@ -30860,15 +30860,17 @@
     },
     {
       "id": 30925,
-      "name": "Play Health",
-      "slug": "play-health",
-      "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/757bc1cfa9101d42dcc0cd813d53a54fd8552a06.png",
-      "website": "http://playhealth.com",
+      "name": "Paceline Bio",
+      "slug": "paceline-bio",
+      "former_names": [
+        "Play Health"
+      ],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/52ae3355c425a5e6bfaad9876e3d186dff23a243.png",
+      "website": "https://paceline.bio/",
       "all_locations": "Boulder, CO, USA",
-      "long_description": "Play Health is building a perimenopause care platform to provide women and their providers with the tools they need to relieve symptoms fast. It is led by technical, second-time, YC-backed founders Andrea Mazzocchi, PhD and Ian Miller, with an exit and a unicorn between them.\r\n\r\nOver 30 million women in the U.S. are experiencing perimenopause symptoms, spending an estimated $15B+ annually on symptom management.  Despite this most only receive generic solutions and struggle to find effective symptom relief.\r\n\r\nWe're bringing evidence-based perimenopause care to women through partnerships with medical practices and employer and health benefits programs. Our platform integrates personalized symptom, medication, and lifestyle data to generate AI-powered insights and  clinical protocols, enabling providers to deliver specialized care.\r\n\r\nEvery clinical interaction enriches our longitudinal dataset allowing us to create better outcomes for patients, deeper insights for providers, and expand into women’s health broadly. This also enables us to partner with pharma and biotech companies developing therapeutics and diagnostics for women's health.",
-      "one_liner": "Perimenopause Care Platform",
-      "team_size": 4,
+      "long_description": "Paceline Bio runs the research and clinical ops layer behind biotech and pharma company who want to move fast, starting with biospecimen collection, logistics, and storage. We're built to get you from scope to signature in just one session so you can accelerate your programs today.",
+      "one_liner": "Accelerating clinical ops for biotech & pharma",
+      "team_size": 3,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -30876,11 +30878,10 @@
       "subindustry": "Healthcare",
       "launched_at": 1760457684,
       "tags": [
-        "Biometrics",
+        "AI-powered Drug Discovery",
         "Biotech",
-        "Digital Health",
-        "Health & Wellness",
-        "Women's Health"
+        "Drug discovery",
+        "Biotechnology"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -30902,7 +30903,7 @@
       "demo_day_video_public": false,
       "app_answers": null,
       "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/play-health"
+      "url": "https://www.ycombinator.com/companies/paceline-bio"
     },
     {
       "id": 30924,
@@ -35803,8 +35804,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/37f1f3fac3b53d55834007e8aa34e2f8bb7a1198.png",
       "website": "https://www.rebulk.com",
       "all_locations": "Olathe, KS, USA",
-      "long_description": "Rebulk accurately measures and monitors bulk inventory like piles of feed, sand, and other assets that do not fit into boxes and barcodes using cameras, LiDAR, and computer vision.\r\n\r\nMost bulk inventory is still managed with rough estimates, manual checks, delayed updates, and too much guesswork. Because it lives in piles, bays, yards, and truck beds instead of boxes with barcodes, it is much harder to track accurately. When teams do not know what is actually on site, it leads to shrink, stockouts, bad planning, and unnecessary fire drills.\r\n\r\nWe’ve lived this problem, and we know how to solve it. Warren saw it firsthand as a Product Manager at Milk Moovement, a $20M Series A AgTech startup, working closely with feed suppliers and farm managers. Cole was engineer #3 at Tropic, scaling it from seed to Series B, and later led engineering at an AI startup.\r\n\r\nWe’ve built an integrated hardware and software platform and is working with one of the largest agricultural company in North America and Charm Industrial. As industries demand real-time visibility into the physical world, RebuIk is positioned to become the operating system for bulk assets from inventory tracking to procurement and logistics.",
-      "one_liner": "Accurately measure and monitor bulk inventory",
+      "long_description": "Rebulk builds AI-native software for rail, transload, and bulk operations. We help teams manage railcars and trucks, transloading, maintenance, yard switching, railcar tracking, bulk inventory, documents, customer reporting, and billing.\r\n\r\nMuch of this work still runs on spreadsheets, paper tickets, phone calls, and disconnected legacy systems. That means teams spend too much time entering the same information twice, tracking down paperwork, figuring out where railcars and inventory are, and putting together reports by hand. Rebulk brings that work into modern software built around how each business actually operates.\r\n\r\nWe’ve lived this problem, and we know how to build for it. Warren previously led product at a Series A supply chain software startup, where he worked closely with companies moving and managing bulk commodities. Cole was engineer #3 at Tropic, helping scale it from seed to Series B, and later led engineering at an AI startup.\r\n\r\nRebulk runs operations at Venezia Transport, Usher Transport, Cicada Logistics, McDonald Farms, and TransloadX across transloading, rail maintenance, switching, railcar tracking, and bulk inventory.",
+      "one_liner": "AI-native software for managing rail and bulk operations.",
       "team_size": 3,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -35813,10 +35814,9 @@
       "subindustry": "B2B -> Supply Chain and Logistics",
       "launched_at": 1752017595,
       "tags": [
-        "Computer Vision",
+        "Artificial Intelligence",
+        "Logistics",
         "Supply Chain",
-        "Agriculture",
-        "AI",
         "Industrial"
       ],
       "tags_highlighted": [],
@@ -84028,10 +84028,10 @@
       ],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/3c4ee33b19412517e139da731ca8d250eae8eee8.png",
       "website": "https://aisdr.com/",
-      "all_locations": "San Francisco, CA, USA; Remote",
-      "long_description": "AiSDR automates sales prospecting. Our software uses AI to automatically write and send sales emails, once a prospective customer engages – we then automatically correspond and book meetings with them. \r\n\r\nAiSDR's sales emails have an average response rate of 7.1%, which is already on par with the industry response rate from emails written by humans. \r\n\r\nWe are aiming to replace over 600k SDRs, that cost US companies $48B a year. ",
-      "one_liner": "AI sales prospecting. Replace your SDR with AiSDR",
-      "team_size": 5,
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "AiSDR builds Ami, an AI sales agent that helps B2B companies find customers and book meetings.\r\n\r\nGive Ami your website. It researches your business, recommends who to target and why now, and builds an outreach plan. Once you approve, it runs personalized campaigns across email and LinkedIn, follows up, handles replies, and books meetings.\r\n\r\nAmi keeps working after launch. It monitors results, spots problems with targeting or messaging, and recommends changes or applies them within the rules you set. It remembers your decisions and campaign results, so each campaign builds on the last.\r\n\r\nBuilt on lessons from 17,000+ real AiSDR campaigns, Ami gives founders and small teams sales strategy and execution in one place, without having to manage every step themselves.",
+      "one_liner": "AI that finds the right buyers and books sales meetings",
+      "team_size": 34,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -84059,7 +84059,7 @@
         "United States of America",
         "America / Canada",
         "Remote",
-        "Fully Remote"
+        "Partly Remote"
       ],
       "stage": "Early",
       "app_video_public": false,
@@ -87057,7 +87057,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": false,
+      "isHiring": true,
       "nonprofit": false,
       "batch": "Summer 2023",
       "status": "Active",

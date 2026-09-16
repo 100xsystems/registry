@@ -8,7 +8,7 @@
     "ai",
     "research"
   ],
-  "updatedAt": "2026-09-11T15:55:59.107Z",
+  "updatedAt": "2026-09-16T16:13:32.940Z",
   "items": [
     {
       "guid": "environment-free",
@@ -265,7 +265,15 @@
       "summary": "Proteins are fundamental to biological processes, with their function determined by the complex interplay between the amino acid sequence and the three-dimensional structure. Developing generative models capable of understanding this intrinsically multi-modal relationship is crucial for fields like…",
       "author": null,
       "publishedAt": "2026-09-11T00:00:00.000Z"
+    },
+    {
+      "guid": "shared-selective-persistent-memory",
+      "title": "Shared Selective Persistent Memory for Agentic LLM Systems",
+      "link": "https://machinelearning.apple.com/research/shared-selective-persistent-memory",
+      "summary": "Agentic LLM systems that generate code through multi-turn tool use face a fundamental context problem: each session starts from zero, discarding the configuration choices, domain constraints, data schemas, and tool-use patterns that made previous sessions productive. Naively persisting entire…",
+      "author": null,
+      "publishedAt": "2026-09-16T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 32
+  "totalIndexed": 33
 }

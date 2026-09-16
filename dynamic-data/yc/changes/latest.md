@@ -1,55 +1,41 @@
 # YC Company Changes for 2026-09-16
 
-- Previous total: 6221
+- Previous total: 6222
 - Current total: 6222
-- Added: 1
+- Added: 0
 - Removed: 0
-- Updated: 9
+- Updated: 5
 
-
-## Added Companies
-
-- [Memorable](https://www.ycombinator.com/companies/memorable) (Summer 2027) — Self-evolving workflows for AI agents
 
 ## Updated Companies
 
-### [Veriff](https://www.ycombinator.com/companies/veriff)
+### [Kobalt Labs](https://www.ycombinator.com/companies/kobalt-labs)
 
-- `stage`: Early → Growth
+- `isHiring`: false → true
 
-### [Apero Health](https://www.ycombinator.com/companies/apero-health)
+### [AiSDR](https://www.ycombinator.com/companies/aisdr)
 
-- `stage`: Early → Growth
+- `all_locations`: San Francisco, CA, USA; Remote → San Francisco, CA, USA
+- `one_liner`: AI sales prospecting. Replace your SDR with AiSDR → AI that finds the right buyers and books sales meetings
+- `team_size`: 5 → 34
+- `regions`: United States of America,America / Canada,Remote,Fully Remote → United States of America,America / Canada,Remote,Partly Remote
 
-### [Cogram](https://www.ycombinator.com/companies/cogram)
+### [Rebulk](https://www.ycombinator.com/companies/rebulk)
 
-- `one_liner`: The AI Platform for Architects, Builders, and Engineers → The AI Platform for Architects and Engineers
-- `tags`: Artificial Intelligence,B2B → B2B,AI
+- `one_liner`: Accurately measure and monitor bulk inventory → AI-native software for managing rail and bulk operations.
+- `tags`: Computer Vision,Supply Chain,Agriculture,AI,Industrial → Artificial Intelligence,Logistics,Supply Chain,Industrial
 
-### [Cypher](https://www.ycombinator.com/companies/cypher)
+### [Paceline Bio](https://www.ycombinator.com/companies/paceline-bio)
 
-- `status`: Active → Acquired
+- `name`: Play Health → Paceline Bio
+- `slug`: play-health → paceline-bio
+- `former_names`:  → Play Health
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/757bc1cfa9101d42dcc0cd813d53a54fd8552a06.png → https://bookface-images.s3.amazonaws.com/small_logos/52ae3355c425a5e6bfaad9876e3d186dff23a243.png
+- `website`: http://playhealth.com → https://paceline.bio/
+- `one_liner`: Perimenopause Care Platform → Accelerating clinical ops for biotech & pharma
+- `team_size`: 4 → 3
+- `tags`: Biometrics,Biotech,Digital Health,Health & Wellness,Women's Health → AI-powered Drug Discovery,Biotech,Drug discovery,Biotechnology
 
-### [HABIT](https://www.ycombinator.com/companies/habit)
-
-- `all_locations`: Los Angeles, CA, USA → San Francisco, CA, USA
-- `tags`: Artificial Intelligence,Generative AI,Robotics,B2B,API → Generative AI,Robotics,B2B,API,AI
-
-### [Char](https://www.ycombinator.com/companies/char)
-
-- `all_locations`: Seoul, Seoul, South Korea → Seoul, Seoul, South Korea; Remote
-- `team_size`: 2 → 3
-- `regions`: South Korea,East Asia,Remote,Partly Remote → South Korea,East Asia,Remote,Fully Remote
-
-### [Quotient Labs](https://www.ycombinator.com/companies/quotient-labs)
-
-- `tags`:  → Artificial Intelligence,Developer Tools
-
-### [Sentient OS](https://www.ycombinator.com/companies/sentient-os)
+### [Samora AI](https://www.ycombinator.com/companies/samora-ai)
 
 - `isHiring`: true → false
-
-### [Nodus Compute](https://www.ycombinator.com/companies/nodus-compute)
-
-- `one_liner`: Intelligent execution layer for AI workloads → Intelligent Cloud for AI workloads
-- `tags`: Artificial Intelligence,Infrastructure → Infrastructure,AI

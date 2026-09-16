@@ -9,7 +9,7 @@
     "edge-computing",
     "nextjs"
   ],
-  "updatedAt": "2026-09-15T20:42:46.096Z",
+  "updatedAt": "2026-09-16T16:13:42.877Z",
   "items": [
     {
       "guid": "vercel-blog::https://vercel.com/changelog/ai-gateway-now-supports-streaming-transcription",
@@ -4610,7 +4610,31 @@
       "summary": "and  from Google are now available on AI Gateway.Gemini 3.8 LiveGemini 3.8 Live Extended Thinking\nBoth models support real-time spoken interactions for voice assistants, conversational experiences, and applications that respond through audio.\nUse either model through the AI SDK's realtime API.…",
       "author": "Kevin Dawkins",
       "publishedAt": "2026-09-15T00:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/secure-compute-and-static-ip-builds-start-64-faster",
+      "title": "Secure Compute and Static IP builds start 64% faster",
+      "link": "https://vercel.com/changelog/secure-compute-and-static-ip-builds-start-64-faster",
+      "summary": "Builds using  or  now start 64% faster, with the average time from deployment creation to build start dropping from 6.7 seconds to 2.4 seconds.Secure ComputeStatic IPs\nPreviously, each build waited for a new build container to boot with its network configuration. These builds now use prewarmed…",
+      "author": "Ali Smesseim",
+      "publishedAt": "2026-09-16T17:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/mem0-joins-the-vercel-marketplace",
+      "title": "Mem0 joins the Vercel Marketplace",
+      "link": "https://vercel.com/changelog/mem0-joins-the-vercel-marketplace",
+      "summary": "is now available as a native integration on the , giving your AI agents and apps long-term memory. Mem0 remembers user preferences, facts, and context across sessions, so your app stops starting from scratch.Mem0Vercel Marketplace\nTo see it end to end, deploy the , an eve agent with long-term…",
+      "author": "Hedi Zandi",
+      "publishedAt": "2026-09-16T17:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/is-agentic-report-categories",
+      "title": "Is Agentic now tailors its audit by site type",
+      "link": "https://vercel.com/changelog/is-agentic-report-categories",
+      "summary": "reports now let you view your checks through one of four site types: Docs & content, Business, App, or Commerce.Is Agentic\nFor example, the Commerce view highlights payment and checkout standards like x402, UCP, and ACP, while the App view highlights API discovery, authentication, error handling,…",
+      "author": "Andrew Qu",
+      "publishedAt": "2026-09-16T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 575
+  "totalIndexed": 578
 }

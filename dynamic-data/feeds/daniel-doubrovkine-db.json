@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-08-15T06:46:23.218Z",
+  "updatedAt": "2026-09-16T16:13:34.221Z",
   "items": [
     {
       "guid": "daniel-doubrovkine-db::https://code.dblock.org/2026/05/05/coding-with-ai-agents-is-now-a-baseline-expectation-for-managers.html",
@@ -175,7 +175,15 @@
       "summary": "My previous post walked through four bugs in ruby-enum, a gem I maintain, all stemming from the fact that class-level instance variables aren’t inherited by subclasses. The third fix, #59, made keys, key?, value?, key, value, to_h, parse and each walk up superclass and merge in a parent’s enums, so…",
       "author": "Daniel Doubrovkine",
       "publishedAt": "2026-08-15T00:00:00.000Z"
+    },
+    {
+      "guid": "daniel-doubrovkine-db::https://code.dblock.org/2026/09/16/porting-strata-to-microsoft-teams-entirely-with-ai.html",
+      "title": "Porting a Discord Bot to Microsoft Teams, Entirely With AI",
+      "link": "https://code.dblock.org/2026/09/16/porting-strata-to-microsoft-teams-entirely-with-ai.html",
+      "summary": "Slava (slack-strava) connects a Strava account to a chat and posts a card for every activity, complete with map, pace, and elevation, plus commands like connect, disconnect, stats, and leaderboard. In 2023 I ported Slava to Discord by hand, evening by evening over about three weeks, and it took…",
+      "author": "Daniel Doubrovkine",
+      "publishedAt": "2026-09-16T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 21
+  "totalIndexed": 22
 }

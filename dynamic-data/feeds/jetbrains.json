@@ -8,7 +8,7 @@
     "ide",
     "programming-languages"
   ],
-  "updatedAt": "2026-09-15T20:42:45.669Z",
+  "updatedAt": "2026-09-16T16:13:42.556Z",
   "items": [
     {
       "guid": "https://blog.jetbrains.com/?post_type=rscpp&p=725420",
@@ -569,7 +569,39 @@
       "summary": "In line with the six-month release cadence, Java 27 was released on September 15, 2026. In this blog post, we will look at what’s included in this release, how IntelliJ IDEA continues to support the latest Java versions, and even how IntelliJ IDEA is benefiting from some of the changes to the JDK.…",
       "author": "Marit van Dijk",
       "publishedAt": "2026-09-15T14:49:02.000Z"
+    },
+    {
+      "guid": "https://blog.jetbrains.com/?post_type=idea&p=739428",
+      "title": "Logpoints Walkthrough",
+      "link": "https://blog.jetbrains.com/idea/2026/09/logpoints-walkthrough/",
+      "summary": "Modern development tools, especially IntelliJ IDEA, have such comprehensive debugging support that for virtually any niche use case, there is a specialized tool for the job. This can make it hard to know where to begin. If you are new to debugging tools and want the biggest return on your learning…",
+      "author": "Igor Kulakov",
+      "publishedAt": "2026-09-16T14:14:04.000Z"
+    },
+    {
+      "guid": "https://blog.jetbrains.com/?post_type=dotnet&p=738908",
+      "title": "Rider and ReSharper 2026.2.2 Are Out!",
+      "link": "https://blog.jetbrains.com/dotnet/2026/09/16/rd-rs-2026-2-2/",
+      "summary": "We’ve released version 2026.2.2 of ReSharper, Rider, and .NET tools. You can install this update from inside the tools themselves, through the Toolbox App, or on our website. Here’s what’s new in this update. Rider 2026.2.2 AI Agent Setup widget We’ve recently added a wide range of features to help…",
+      "author": "Alexander Kurakin",
+      "publishedAt": "2026-09-16T14:12:44.000Z"
+    },
+    {
+      "guid": "https://blog.jetbrains.com/?post_type=platform&p=740440",
+      "title": "Behind the Scenes: How the OpenTelemetry Plugin Maps Your Microservices in Real-Time",
+      "link": "https://blog.jetbrains.com/platform/2026/09/how-to-service-map-with-opentelemetry/",
+      "summary": "We’ve all been there: you join a new project, and the first thing you ask for is the architecture diagram. You’re handed a diagram that looks great, but after a week of debugging, you realize it’s six months out of date. Service A hasn’t talked to Service B since the spring, and there’s a new […]",
+      "author": "Nikita Dukin",
+      "publishedAt": "2026-09-16T12:34:47.000Z"
+    },
+    {
+      "guid": "https://blog.jetbrains.com/?post_type=idea&p=740052",
+      "title": "IntelliJ IDEA 2026.2.3 Is Out!",
+      "link": "https://blog.jetbrains.com/idea/2026/09/intellij-idea-2026-2-3/",
+      "summary": "We’ve just released IntelliJ IDEA 2026.2.3. You can update to this version from inside the IDE, using the Toolbox App, or using snaps if you are a Ubuntu user. You can also download it from our website. The latest update brings the following improvements: For a comprehensive overview of the fixes,…",
+      "author": "Maria Kosukhina",
+      "publishedAt": "2026-09-16T10:53:53.000Z"
     }
   ],
-  "totalIndexed": 70
+  "totalIndexed": 74
 }

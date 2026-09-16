@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-09-12T03:22:16.030Z",
+  "updatedAt": "2026-09-16T16:13:43.674Z",
   "items": [
     {
       "guid": "https://www.tigerdata.com/blog/whats-new-in-tiger-cloud",
@@ -95,7 +95,15 @@
       "summary": "PostgreSQL write amplification explained: why indexes multiply WAL volume, how to measure it on your tables, and four ways to reduce it without schema changes.",
       "author": "NanoHertz Communications",
       "publishedAt": "2026-09-11T20:23:58.000Z"
+    },
+    {
+      "guid": "https://www.tigerdata.com/blog/meshtastic-metrics-exporter-case-study-tiger-data",
+      "title": "How Meshtastic Metrics Exporter Turned Eight Prometheus Queries Into One with Tiger Data",
+      "link": "https://www.tigerdata.com/blog/meshtastic-metrics-exporter-case-study-tiger-data",
+      "summary": "Meshtastic Metrics Exporter reduced 500K+ Prometheus metric series to one Postgres database: consolidated eight queries into one with Tiger Data for 10,000 mesh radio nodes.",
+      "author": "Andrew Stebbins",
+      "publishedAt": "2026-09-16T12:44:25.000Z"
     }
   ],
-  "totalIndexed": 11
+  "totalIndexed": 12
 }

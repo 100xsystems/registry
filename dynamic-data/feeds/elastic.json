@@ -8,7 +8,7 @@
     "observability",
     "security"
   ],
-  "updatedAt": "2026-09-15T20:42:37.501Z",
+  "updatedAt": "2026-09-16T16:13:33.237Z",
   "items": [
     {
       "guid": "https://www.elastic.co/blog/cursor",
@@ -713,7 +713,23 @@
       "summary": "Version 9.5.4 of the Elastic Stack was released today. We recommend you upgrade to this latest version. We recommend 9.5.4 over the previous versions 9.5.3\nFor details of the issues that have been fixed and a full list of changes for each product in this version, please refer to the release notes.",
       "author": "adrian brown",
       "publishedAt": "2026-09-15T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.elastic.co/blog/cisa-logging-omb-m-26-14",
+      "title": "CISA's Logging Reference Architecture for OMB M-26-14: What federal agencies should do next",
+      "link": "https://www.elastic.co/blog/cisa-logging-omb-m-26-14",
+      "summary": "Now that CISA has released its Logging Reference Architecture (LRA) for OMB M-26-14, federal agencies tasked to complete their logging plans. In this blog, we walk you through the most important aspects of the LRA guidance.",
+      "author": "Woody Walton",
+      "publishedAt": "2026-09-16T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.elastic.co/blog/cross-project-search-elastic-serverless-ga",
+      "title": "Elastic announces GA of cross-project search on Serverless, enabling teams to query across all linked projects without moving a byte",
+      "link": "https://www.elastic.co/blog/cross-project-search-elastic-serverless-ga",
+      "summary": "Cross-project search is now GA on Elastic Cloud Serverless. Link multiple projects and query all of them from a single Discover or ES|QL session: no certificates, no remote cluster config, and three clicks to set up. Available from September 1, 2026.",
+      "author": "Jordi Mon Companys,Lucy Wang",
+      "publishedAt": "2026-09-16T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 88
+  "totalIndexed": 90
 }
