@@ -1,7 +1,7 @@
 # YC Company Changes for 2026-09-16
 
-- Previous total: 6220
-- Current total: 6221
+- Previous total: 6221
+- Current total: 6222
 - Added: 1
 - Removed: 0
 - Updated: 9
@@ -9,56 +9,47 @@
 
 ## Added Companies
 
-- [gbrain.io](https://www.ycombinator.com/companies/gbrainio) (Spring 2026) — A personal or team assistant that works while you sleep
+- [Memorable](https://www.ycombinator.com/companies/memorable) (Summer 2027) — Self-evolving workflows for AI agents
 
 ## Updated Companies
 
-### [Atmeto](https://www.ycombinator.com/companies/atmeto)
+### [Veriff](https://www.ycombinator.com/companies/veriff)
 
-- `one_liner`: We develop ML that optimizes how batteries in the grid store energy → Building a frontier world model for power
-- `tags`: Energy Storage,Reinforcement Learning,Climate,Energy,ClimateTech → Machine Learning,Climate,Energy,ClimateTech,AI
+- `stage`: Early → Growth
 
-### [RiskCube](https://www.ycombinator.com/companies/riskcube)
+### [Apero Health](https://www.ycombinator.com/companies/apero-health)
 
-- `one_liner`: America’s first reinsurer for emerging risks. → America’s first AI-native reinsurer for emerging risks.
-- `tags`: Fintech,Insurance,Defense,AI → Artificial Intelligence,Fintech,Insurance,Defense
+- `stage`: Early → Growth
 
-### [HABIT](https://www.ycombinator.com/companies/habit)
+### [Cogram](https://www.ycombinator.com/companies/cogram)
 
-- `website`: https://habitrobotics.com → https://habit.inc
-- `one_liner`: Conversational robots for physical businesses. → Accelerating world models.
-- `subindustry`: B2B -> Retail → B2B
-- `tags`: Robotics,Consumer,B2B,Retail,AI → Artificial Intelligence,Generative AI,Robotics,B2B,API
-- `industries`: B2B,Retail → B2B
+- `one_liner`: The AI Platform for Architects, Builders, and Engineers → The AI Platform for Architects and Engineers
+- `tags`: Artificial Intelligence,B2B → B2B,AI
 
-### [Phases](https://www.ycombinator.com/companies/phases)
-
-- `one_liner`: Automated clinical trial oversight and execution → AI for the physical world
-- `industry`: Healthcare → Industrials
-- `subindustry`: Healthcare -> Healthcare IT → Industrials -> Manufacturing and Robotics
-- `tags`: Healthcare IT,AI,Conversational AI → Artificial Intelligence,Healthcare IT,Conversational AI
-- `industries`: Healthcare,Healthcare IT → Industrials,Manufacturing and Robotics
-
-### [Relaw](https://www.ycombinator.com/companies/relaw)
-
-- `subindustry`: B2B → B2B -> Legal
-- `tags`: Artificial Intelligence,SaaS,Legal → SaaS,Legal,AI
-- `industries`: B2B → B2B,Legal
-
-### [Memoir](https://www.ycombinator.com/companies/memoir)
-
-- `one_liner`: Marketing campaigns from everything your team ships → Everything your team ships, explained to everyone it affects.
-- `subindustry`: B2B -> Marketing → B2B
-- `industries`: B2B,Marketing → B2B
-
-### [Prototyping.io](https://www.ycombinator.com/companies/prototypingio)
+### [Cypher](https://www.ycombinator.com/companies/cypher)
 
 - `status`: Active → Acquired
 
-### [Reason Machines](https://www.ycombinator.com/companies/reason-machines)
+### [HABIT](https://www.ycombinator.com/companies/habit)
 
-- `website`: https://reasonmachines.ai → https://reasonmachines.com
+- `all_locations`: Los Angeles, CA, USA → San Francisco, CA, USA
+- `tags`: Artificial Intelligence,Generative AI,Robotics,B2B,API → Generative AI,Robotics,B2B,API,AI
 
-### [Mirrors](https://www.ycombinator.com/companies/mirrors)
+### [Char](https://www.ycombinator.com/companies/char)
 
-- `tags`: Developer Tools,SaaS,B2B,DevOps,AI → Artificial Intelligence,Developer Tools,SaaS,B2B,DevOps
+- `all_locations`: Seoul, Seoul, South Korea → Seoul, Seoul, South Korea; Remote
+- `team_size`: 2 → 3
+- `regions`: South Korea,East Asia,Remote,Partly Remote → South Korea,East Asia,Remote,Fully Remote
+
+### [Quotient Labs](https://www.ycombinator.com/companies/quotient-labs)
+
+- `tags`:  → Artificial Intelligence,Developer Tools
+
+### [Sentient OS](https://www.ycombinator.com/companies/sentient-os)
+
+- `isHiring`: true → false
+
+### [Nodus Compute](https://www.ycombinator.com/companies/nodus-compute)
+
+- `one_liner`: Intelligent execution layer for AI workloads → Intelligent Cloud for AI workloads
+- `tags`: Artificial Intelligence,Infrastructure → Infrastructure,AI
