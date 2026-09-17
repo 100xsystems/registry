@@ -8,7 +8,7 @@
     "ai",
     "research"
   ],
-  "updatedAt": "2026-09-16T20:43:15.336Z",
+  "updatedAt": "2026-09-17T16:19:51.179Z",
   "items": [
     {
       "guid": "environment-free",
@@ -281,7 +281,15 @@
       "summary": "Enterprise data lakes accumulate tables faster than human stewards can document or classify them, leaving columns with missing descriptions and unassigned governance labels. This documentation debt undermines data discovery, access control, and regulatory compliance. We present Glyph, a production…",
       "author": null,
       "publishedAt": "2026-09-16T00:00:00.000Z"
+    },
+    {
+      "guid": "reversal-bench-rl-cliff",
+      "title": "REVERSAL-BENCH: A Reversibility Axis and Reset Oracle for Measuring the Reset-Free RL Cliff",
+      "link": "https://machinelearning.apple.com/research/reversal-bench-rl-cliff",
+      "summary": "A central goal of autonomous reinforcement learning is continuous policy training without external resets. However, existing paradigms largely depend on underlying environmental reversibility, a property absent in real world manipulation, where events such as pushing objects off tables or spilling…",
+      "author": null,
+      "publishedAt": "2026-09-17T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 34
+  "totalIndexed": 35
 }

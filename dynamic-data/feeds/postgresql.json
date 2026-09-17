@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-09-17T11:22:03.446Z",
+  "updatedAt": "2026-09-17T16:19:51.623Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -1713,7 +1713,23 @@
       "summary": "In PostgreSQL, every tuple starts with 23-byte header, and the first eight bytes are two transaction IDs. t_xmin for the transaction that created the row and t_xmax for the one that deleted or updated it. That is the visibility story covered in PostgreSQL MVCC, Byte by Byte. For now we have…",
       "author": null,
       "publishedAt": "2026-09-17T05:00:52.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9uY",
+      "title": "Christophe Pettus: The Call Is Coming From Inside the Session",
+      "link": "https://postgr.es/p/9uY",
+      "summary": "Role-level timeouts and read-only flags sound safe until you realize the session can change them in one statement.",
+      "author": null,
+      "publishedAt": "2026-09-17T16:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9uX",
+      "title": "Gülçin Yıldırım Jelínek: Postgres week in the Netherlands: PGDay Lowlands & Percona Live 2026",
+      "link": "https://postgr.es/p/9uX",
+      "summary": "Last week, I spent three days in the Netherlands and gave two talks at two conferences: a lightning talk at PGDay Lowlands in Utrecht on Thursday, September 10, and a session at Percona Live in Amsterdam on Friday, September 11\\. In this blog post, I’m going to share my notes from both.\nAs often…",
+      "author": null,
+      "publishedAt": "2026-09-17T14:02:33.000Z"
     }
   ],
-  "totalIndexed": 213
+  "totalIndexed": 215
 }

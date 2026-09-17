@@ -1,78 +1,47 @@
 # YC Company Changes for 2026-09-17
 
-- Previous total: 6225
-- Current total: 6226
+- Previous total: 6226
+- Current total: 6227
 - Added: 1
 - Removed: 0
-- Updated: 12
+- Updated: 8
 
 
 ## Added Companies
 
-- [Nxtcure Labs](https://www.ycombinator.com/companies/nxtcure-labs) (Fall 2026) — The full-stack AI CRO for drug discovery.
+- [Oasive](https://www.ycombinator.com/companies/oasive) (Fall 2026) — Automating research, valuation, and reporting for the bond market
 
 ## Updated Companies
 
-### [WarpBuild](https://www.ycombinator.com/companies/warpbuild)
+### [OWNY](https://www.ycombinator.com/companies/owny)
+
+- `tags`: Artificial Intelligence,Banking as a Service,Fintech,Crypto / Web3 → Banking as a Service,Fintech,Crypto / Web3,AI
+
+### [Whatnot](https://www.ycombinator.com/companies/whatnot)
+
+- `team_size`: 731 → 1500
+- `stage`: Growth → Early
+
+### [Pirouette Pharma](https://www.ycombinator.com/companies/pirouette-pharma)
+
+- `isHiring`: false → true
+
+### [Optery](https://www.ycombinator.com/companies/optery)
+
+- `isHiring`: false → true
+
+### [Quinn](https://www.ycombinator.com/companies/quinn)
 
 - `isHiring`: true → false
 
-### [Greptile](https://www.ycombinator.com/companies/greptile)
+### [Perspectives Health](https://www.ycombinator.com/companies/perspectives-health)
 
-- `stage`: Early → Growth
+- `isHiring`: true → false
 
-### [Reducto](https://www.ycombinator.com/companies/reducto)
+### [Haladir](https://www.ycombinator.com/companies/haladir)
 
-- `stage`: Early → Growth
+- `isHiring`: true → false
 
-### [Garage](https://www.ycombinator.com/companies/garage-2)
+### [Hemlock](https://www.ycombinator.com/companies/hemlock)
 
-- `stage`: Early → Growth
-
-### [Plume](https://www.ycombinator.com/companies/plume)
-
-- `team_size`: 4 → 9
-- `tags`: Artificial Intelligence,Solar Power,B2B,Energy,Industrial → Solar Power,B2B,Energy,AI,Industrial
-
-### [Aviro](https://www.ycombinator.com/companies/aviro)
-
-- `all_locations`: San Francisco, CA, USA → New York City, NY, USA
-
-### [Dexto](https://www.ycombinator.com/companies/dexto)
-
-- `name`: Truffle AI → Dexto
-- `slug`: truffle-ai → dexto
-- `former_names`:  → Truffle AI
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/17f1a1e21672fa03c69b669feef31d2a59b2c849.png → https://bookface-images.s3.amazonaws.com/small_logos/151976ce07fb22bf59209dda8531a283a9eeda58.png
-- `website`: https://www.trytruffle.ai/ → https://www.dexto.ai/
-- `all_locations`: Bengaluru, KA, India → San Francisco, CA, USA
-- `regions`: India,South Asia,Remote,Partly Remote → United States of America,America / Canada,Remote,Partly Remote
-
-### [10x](https://www.ycombinator.com/companies/10x)
-
-- `team_size`: 2 → 3
-
-### [Vesence](https://www.ycombinator.com/companies/vesence)
-
-- `all_locations`: Stockholm, Stockholm County, Sweden → San Francisco, CA, USA
-- `one_liner`: Cursor for Lawyers. Agentic AI in MS Office. → AI for High-Stakes Work
-- `team_size`: 2 → 10
-- `subindustry`: B2B -> Legal → B2B
-- `tags`:  → Artificial Intelligence,Finance,B2B,Legal
-- `isHiring`: false → true
-- `industries`: B2B,Legal → B2B
-- `regions`: Sweden,Europe → United States of America,America / Canada
-
-### [Liva AI](https://www.ycombinator.com/companies/liva-ai)
-
-- `team_size`: 4 → 6
-- `tags`: Marketplace,B2B,Data Labeling,Big Data,AI → Artificial Intelligence,Marketplace,B2B,Data Labeling,Big Data
-
-### [Simulithic](https://www.ycombinator.com/companies/simulithic)
-
-- `one_liner`: Simulate how any product change will perform before shipping. → User simulations for production monitoring.
-
-### [Memorable](https://www.ycombinator.com/companies/memorable)
-
-- `one_liner`: Self-evolving workflows for AI agents → reducing agent reasoning into a graph search problem
-- `question_answers`: false → true
+- `website`: https://hemlock.info → https://hemlock.inc
