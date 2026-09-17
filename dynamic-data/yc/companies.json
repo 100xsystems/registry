@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-09-17T03:41:04.640Z",
-  "count": 6225,
+  "fetchedAt": "2026-09-17T11:22:19.270Z",
+  "count": 6226,
   "companies": [
     {
       "id": 38127,
@@ -397,7 +397,7 @@
       "website": "https://www.memorable.sh/",
       "all_locations": "San Francisco, CA, USA; Remote",
       "long_description": "",
-      "one_liner": "Self-evolving workflows for AI agents",
+      "one_liner": "reducing agent reasoning into a graph search problem",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -429,7 +429,7 @@
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
-      "question_answers": false,
+      "question_answers": true,
       "url": "https://www.ycombinator.com/companies/memorable"
     },
     {
@@ -2044,8 +2044,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/58a972cb3cb171dd4300267d241cc6705539f906.png",
       "website": "https://simulithic.com",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "We build simulations of your real users, grounded in your session data, so you can predict how any product change will perform before you ship it.",
-      "one_liner": "Simulate how any product change will perform before shipping.",
+      "long_description": "Simulithic continuously uses your production product like your real users do. We learn representative user journeys and run agents across different devices, browsers, account states, and environments to find failures that traditional automated tests miss. When something breaks, we reproduce it and alert engineering before they hear about it from a customer.",
+      "one_liner": "User simulations for production monitoring.",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -13600,6 +13600,52 @@
       "app_answers": null,
       "question_answers": false,
       "url": "https://www.ycombinator.com/companies/testerarmy"
+    },
+    {
+      "id": 31490,
+      "name": "Nxtcure Labs",
+      "slug": "nxtcure-labs",
+      "former_names": [
+        "NxtCure",
+        "Nxtcure Labs",
+        "NxtCure"
+      ],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/96ae92a8adbb85f9a1045d9323611d53252e2d64.png",
+      "website": "https://nxtcure.com",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "Reinventing medicine from lab to drug discovery.\r\nNxtCure CRO- an AI-native, full-stack CRO built to take therapeutics from discovery to market faster.\r\nNxtCure Cancer- the all-in-one mobile platform guiding patients through the cancer journey.\r\nWe’re building the operating system for the future of medicine.",
+      "one_liner": "The full-stack AI CRO for drug discovery.",
+      "team_size": 0,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "Healthcare",
+      "subindustry": "Healthcare -> Therapeutics",
+      "launched_at": 1789623428,
+      "tags": [
+        "Health Tech",
+        "Healthcare"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Fall 2026",
+      "status": "Active",
+      "industries": [
+        "Healthcare",
+        "Therapeutics"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/nxtcure-labs"
     },
     {
       "id": 31489,
@@ -41124,7 +41170,7 @@
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Helping to build more socially intelligent AI, starting with voice.",
       "one_liner": "Building socially intelligent AI",
-      "team_size": 4,
+      "team_size": 6,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -41132,11 +41178,11 @@
       "subindustry": "B2B",
       "launched_at": 1753401226,
       "tags": [
+        "Artificial Intelligence",
         "Marketplace",
         "B2B",
         "Data Labeling",
-        "Big Data",
-        "AI"
+        "Big Data"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -44511,30 +44557,34 @@
       ],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/ae7f81743afec55a338f8ebe26d07f21e2696ebc.png",
       "website": "https://vesence.com",
-      "all_locations": "Stockholm, Stockholm County, Sweden",
-      "long_description": "Vesence is building Cursor for Lawyers.\r\n\r\nAlready rolled out firm-wide with a first major law firm. We launched in February.\r\n\r\nImagine programming in Apple Notes. No linting, no cursor, you are on your own. That is how it is for many lawyers to draft and review contracts in Microsoft Word. We are here to change that.",
-      "one_liner": "Cursor for Lawyers. Agentic AI in MS Office.",
-      "team_size": 2,
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "Vesence is building AI for High-Stakes Work.\r\n\r\nAlready rolled out at law firms, investment funds, consultants, and where details matters the most.\r\n\r\nVesence is a browser-based desktop where professionals work alongside agents to review work, send emails, manage their calendar, and edit decks, documents and spreadsheets.",
+      "one_liner": "AI for High-Stakes Work",
+      "team_size": 10,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
       "industry": "B2B",
-      "subindustry": "B2B -> Legal",
+      "subindustry": "B2B",
       "launched_at": 1747133222,
-      "tags": [],
+      "tags": [
+        "Artificial Intelligence",
+        "Finance",
+        "B2B",
+        "Legal"
+      ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": false,
+      "isHiring": true,
       "nonprofit": false,
       "batch": "Spring 2025",
       "status": "Active",
       "industries": [
-        "B2B",
-        "Legal"
+        "B2B"
       ],
       "regions": [
-        "Sweden",
-        "Europe"
+        "United States of America",
+        "America / Canada"
       ],
       "stage": "Early",
       "app_video_public": false,
@@ -52604,7 +52654,7 @@
       "all_locations": "San Francisco, CA, USA",
       "long_description": "10x helps dental practices turn missed revenue opportunities into booked appointments. We connect to a practice’s patient database, identify overdue recalls, lapsed patients, and unscheduled treatment plans, then use AI calling and texting to bring those patients back into the chair.",
       "one_liner": "AI Sales Teams for Dental Practices",
-      "team_size": 2,
+      "team_size": 3,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -54135,13 +54185,15 @@
     },
     {
       "id": 30213,
-      "name": "Truffle AI",
-      "slug": "truffle-ai",
-      "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/17f1a1e21672fa03c69b669feef31d2a59b2c849.png",
-      "website": "https://www.trytruffle.ai/",
-      "all_locations": "Bengaluru, KA, India",
-      "long_description": "Truffle AI makes it easy for developers to integrate AI agents into any software application. We do this by exposing agents as simple APIs that can be called from anywhere. Developers have used Truffle to add customer support agents into WhatsApp and analytics agents into Slack.",
+      "name": "Dexto",
+      "slug": "dexto",
+      "former_names": [
+        "Truffle AI"
+      ],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/151976ce07fb22bf59209dda8531a283a9eeda58.png",
+      "website": "https://www.dexto.ai/",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "Dexto makes it easy for developers to integrate AI agents into any software application. We do this by exposing agents as simple APIs that can be called from anywhere. Developers have used Dexto to add customer support agents into WhatsApp and analytics agents into Slack.",
       "one_liner": "AWS for AI Agents",
       "team_size": 2,
       "highlight_black": false,
@@ -54168,8 +54220,8 @@
         "Engineering, Product and Design"
       ],
       "regions": [
-        "India",
-        "South Asia",
+        "United States of America",
+        "America / Canada",
         "Remote",
         "Partly Remote"
       ],
@@ -54178,7 +54230,7 @@
       "demo_day_video_public": false,
       "app_answers": null,
       "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/truffle-ai"
+      "url": "https://www.ycombinator.com/companies/dexto"
     },
     {
       "id": 30212,
@@ -55528,7 +55580,7 @@
       ],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/3625aa6dc8b9ca3fedb43ca1043c7246c8185306.png",
       "website": "https://www.aviro.ai/",
-      "all_locations": "San Francisco, CA, USA",
+      "all_locations": "New York City, NY, USA",
       "long_description": "We design challenging worlds where AI models learn to explore and solve problems. We turn these worlds into post-training datasets and reinforcement learning environments to train the next frontier of AI. We're research partners with four top frontier AI labs, several Fortune 100 companies, and leading RL data vendors.",
       "one_liner": "Environments for Long Horizon Work",
       "team_size": 2,
@@ -67273,7 +67325,7 @@
       "all_locations": "Paris, Île-de-France, France",
       "long_description": "Plume is an AI-powered geospatial platform for site selection in energy infrastructure projects. \r\n\r\nSelecting the right sites requires analysis of +50 geospatial, grid, and regulatory constraints across fragmented data sources. \r\n\r\nPlume changes the process by enabling users to interact with geospatial data using natural language.",
       "one_liner": "Renewable infrastructure deployment at scale.",
-      "team_size": 4,
+      "team_size": 9,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -67281,10 +67333,10 @@
       "subindustry": "Industrials -> Climate",
       "launched_at": 1724527338,
       "tags": [
-        "Artificial Intelligence",
         "Solar Power",
         "B2B",
         "Energy",
+        "AI",
         "Industrial"
       ],
       "tags_highlighted": [],
@@ -80871,7 +80923,7 @@
         "Remote",
         "Partly Remote"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -81415,7 +81467,7 @@
         "United States of America",
         "America / Canada"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -82038,7 +82090,7 @@
         "United States of America",
         "America / Canada"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": true,
       "app_answers": null,
@@ -108823,7 +108875,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/50ca8d41b39a068d2cab43c4e9626ae1e0fe9966.png",
       "website": "",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Trendex is a next-gen fan engagement platform built at the intersection of sports, entertainment, and applied technology.\r\n\r\nWe partner directly with world-class athletes and celebrities to create official digital  fan passes, backed by real stars—then use technology to automate and personalize the fan-talent relationship at scale.\r\n\r\nFans can get and use these official passes across Trendex’s growing ecosystem: from IRL rewards like signed memorabilia and meet-and-greets, to online experiences to smart, automated fan journeys (content, perks, access, loyalty) powered by tech—so every supporter feels recognized, rewarded, and closer to the athlete they follow.\r\n\r\nWith Trendex, fans don’t just watch the game—they participate in it.\r\nJoin us in building a fair, transparent, and athlete-first future for sports and entertainment.",
+      "long_description": "Trendex is the world leader in digital solutions for fans in the football ecosystem.\r\nWe partnered with Zinedine Zidane, Karim Benzema, Luis Suarez, Luka Modric, Blaise Matuidi and many other ballon d'or winners and superstars (1B+ followers on Instagram totalized).\r\nRecently, we opened NBA, F1 and Hollywood partnerships including names like Jean Claude Van Damme, Rudy Gobert (3x NBA All-Stars), Marcus Smart (Lakers) and many others.\r\nWe build digital experiences for fans and organize exclusive events for our most selected partners.",
       "one_liner": "Bringing fans closer to the world’s greatest athletes",
       "team_size": 9,
       "highlight_black": false,
@@ -144360,7 +144412,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": true,
+      "isHiring": false,
       "nonprofit": false,
       "batch": "Summer 2021",
       "status": "Active",

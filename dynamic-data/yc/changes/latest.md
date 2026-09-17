@@ -1,129 +1,78 @@
 # YC Company Changes for 2026-09-17
 
-- Previous total: 6222
-- Current total: 6225
-- Added: 3
+- Previous total: 6225
+- Current total: 6226
+- Added: 1
 - Removed: 0
-- Updated: 20
+- Updated: 12
 
 
 ## Added Companies
 
-- [Hickory & Company](https://www.ycombinator.com/companies/hickory-and-company) (Fall 2026) — Hickory offers agentic compliance and BSA for banks and fintechs
-- [Perit.AI](https://www.ycombinator.com/companies/peritai) (Fall 2026) — Expert-led data and RL platform for AI labs
-- [Lark](https://www.ycombinator.com/companies/lark-2) (Fall 2026) — Lark - Specialized agents for wholesale distributors
+- [Nxtcure Labs](https://www.ycombinator.com/companies/nxtcure-labs) (Fall 2026) — The full-stack AI CRO for drug discovery.
 
 ## Updated Companies
 
-### [SnapBite](https://www.ycombinator.com/companies/snapbite)
+### [WarpBuild](https://www.ycombinator.com/companies/warpbuild)
 
-- `name`: Airshared → SnapBite
-- `slug`: airshared → snapbite
-- `former_names`: Snapbite → Snapbite,Airshared
-
-### [Supadock](https://www.ycombinator.com/companies/supadock)
-
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/ba044f166f0d448b96ee68727d9064e936c25a6e.png → https://bookface-images.s3.amazonaws.com/small_logos/44eaa170064932f0f6ff9f82a862bede5c2e3e68.png
-- `all_locations`: Toronto, ON, Canada; Remote → San Francisco, CA, USA; Remote
-- `one_liner`: AI workers for logistics operations → Multi-agent AI for physical logistics operations
-- `tags`: Artificial Intelligence,Logistics,Conversational AI → Logistics,AI,Conversational AI
-- `regions`: Canada,America / Canada,Remote,Fully Remote → United States of America,America / Canada,Remote,Fully Remote
-
-### [CODEXA](https://www.ycombinator.com/companies/codexa)
-
-- `website`: https://codexa.com.br/desembaraco-aduaneiro → https://codexa.com.br
-- `one_liner`: AI Agent runs the entire international trade operation → The AI-native financial platform for enterprises
-- `team_size`: 40 → 38
-- `tags`: Fintech,Crypto / Web3,Payments,Supply Chain,AI → Artificial Intelligence,Fintech,Crypto / Web3,Payments,Supply Chain
-
-### [Unify](https://www.ycombinator.com/companies/unify)
-
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/fb15970521caafcd30f313c8eaa1359733d2d2dd.png → https://bookface-images.s3.amazonaws.com/small_logos/e774ce4075900b79265af766add42f9dcb133d49.png
-- `one_liner`: AI teammates for everyone else 🤖 → Models that keep learning
-- `team_size`: 6 → 4
-- `tags`: Artificial Intelligence,Productivity,Open Source,AI,AI Assistant → Artificial Intelligence,Reinforcement Learning,Open Source,Infrastructure,AI
-
-### [Teclada](https://www.ycombinator.com/companies/teclada)
-
-- `name`: KV Cash → Teclada
-- `slug`: kv-cash → teclada
-- `former_names`: Teclada,Logital (Teclada),Logital AI (Teclada) → Teclada,Logital (Teclada),Logital AI (Teclada),KV Cash
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/5b5e56a9b5e26e2dce5d150c6db8702733501105.png → https://bookface-images.s3.amazonaws.com/small_logos/bd91b72016ac0b1503fe195f48b2a6eee5112fcb.png
-- `website`: https://kv.cash → https://www.teclada.com/
-- `one_liner`: KV Cash, a blockchain where contracts can finally think → Remote Shell Access in the Browser
-- `tags`: Crypto / Web3,Open Source,AI,Cryptocurrency → Open Source
-- `tags_highlighted`: Crypto / Web3 → 
-
-### [Rainmaker](https://www.ycombinator.com/companies/rainmaker)
-
-- `status`: Active → Inactive
-
-### [Variance](https://www.ycombinator.com/companies/variance)
-
-- `tags`: Artificial Intelligence,Compliance,Cybersecurity,Enterprise Software → Compliance,Cybersecurity,Enterprise Software,AI
+- `isHiring`: true → false
 
 ### [Greptile](https://www.ycombinator.com/companies/greptile)
 
-- `stage`: Growth → Early
+- `stage`: Early → Growth
 
-### [Thunder Compute](https://www.ycombinator.com/companies/thunder-compute)
+### [Reducto](https://www.ycombinator.com/companies/reducto)
 
-- `one_liner`: VMware for GPUs → GPUs for Agents
-- `team_size`: 9 → 10
-- `tags`: Developer Tools,Data Science,Cloud Computing,Infrastructure,AI → Artificial Intelligence,Developer Tools,Data Science,Cloud Computing,Infrastructure
+- `stage`: Early → Growth
 
-### [Intryc](https://www.ycombinator.com/companies/intryc)
+### [Garage](https://www.ycombinator.com/companies/garage-2)
 
-- `one_liner`: Intryc uses AI to automate quality assurance for customer support → Intryc is the unified quality assurance, governance, and training…
-- `team_size`: 14 → 12
+- `stage`: Early → Growth
 
-### [Zettascale Computing](https://www.ycombinator.com/companies/zettascale-computing)
+### [Plume](https://www.ycombinator.com/companies/plume)
 
-- `name`: Zettascale → Zettascale Computing
-- `slug`: zettascale → zettascale-computing
-- `former_names`: Exa Labs,Exa Laboratories → Exa Labs,Exa Laboratories,Zettascale
-- `one_liner`: Energy efficient chips for AI → Chips for frontier AI
-- `tags`: Hard Tech,Semiconductors,Infrastructure,AI → Artificial Intelligence,Hard Tech,Semiconductors,Infrastructure
+- `team_size`: 4 → 9
+- `tags`: Artificial Intelligence,Solar Power,B2B,Energy,Industrial → Solar Power,B2B,Energy,AI,Industrial
 
-### [Oway](https://www.ycombinator.com/companies/oway)
+### [Aviro](https://www.ycombinator.com/companies/aviro)
 
-- `one_liner`: Turning America’s supply chain inefficiency into infrastructure. → The coordination OS for the physical economy. 
-- `tags`: B2B,API,Supply Chain,Infrastructure,AI → Artificial Intelligence,B2B,API,Supply Chain,Infrastructure
+- `all_locations`: San Francisco, CA, USA → New York City, NY, USA
 
-### [Fira](https://www.ycombinator.com/companies/fira)
+### [Dexto](https://www.ycombinator.com/companies/dexto)
 
-- `all_locations`:  → London, England, United Kingdom
-- `regions`: Unspecified → United Kingdom,Europe
+- `name`: Truffle AI → Dexto
+- `slug`: truffle-ai → dexto
+- `former_names`:  → Truffle AI
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/17f1a1e21672fa03c69b669feef31d2a59b2c849.png → https://bookface-images.s3.amazonaws.com/small_logos/151976ce07fb22bf59209dda8531a283a9eeda58.png
+- `website`: https://www.trytruffle.ai/ → https://www.dexto.ai/
+- `all_locations`: Bengaluru, KA, India → San Francisco, CA, USA
+- `regions`: India,South Asia,Remote,Partly Remote → United States of America,America / Canada,Remote,Partly Remote
 
-### [Imperfect](https://www.ycombinator.com/companies/imperfect)
+### [10x](https://www.ycombinator.com/companies/10x)
 
-- `team_size`: 4 → 5
-- `tags`: Artificial Intelligence,Digital Health,Health & Wellness,AI Assistant → Digital Health,Health & Wellness,AI,AI Assistant
+- `team_size`: 2 → 3
+
+### [Vesence](https://www.ycombinator.com/companies/vesence)
+
+- `all_locations`: Stockholm, Stockholm County, Sweden → San Francisco, CA, USA
+- `one_liner`: Cursor for Lawyers. Agentic AI in MS Office. → AI for High-Stakes Work
+- `team_size`: 2 → 10
+- `subindustry`: B2B -> Legal → B2B
+- `tags`:  → Artificial Intelligence,Finance,B2B,Legal
 - `isHiring`: false → true
+- `industries`: B2B,Legal → B2B
+- `regions`: Sweden,Europe → United States of America,America / Canada
 
-### [Sila](https://www.ycombinator.com/companies/sila)
+### [Liva AI](https://www.ycombinator.com/companies/liva-ai)
 
-- `all_locations`: New York City, NY, USA → 
-- `regions`: United States of America,America / Canada → Unspecified
+- `team_size`: 4 → 6
+- `tags`: Marketplace,B2B,Data Labeling,Big Data,AI → Artificial Intelligence,Marketplace,B2B,Data Labeling,Big Data
 
-### [The Company Company](https://www.ycombinator.com/companies/the-company-company)
+### [Simulithic](https://www.ycombinator.com/companies/simulithic)
 
-- `batch`: Spring 2026 → Fall 2026
+- `one_liner`: Simulate how any product change will perform before shipping. → User simulations for production monitoring.
 
-### [Limrun](https://www.ycombinator.com/companies/limrun)
+### [Memorable](https://www.ycombinator.com/companies/memorable)
 
-- `isHiring`: false → true
-
-### [Context.dev](https://www.ycombinator.com/companies/contextdev)
-
-- `team_size`: 1 → 6
-- `tags`: B2B,AI,APIs → Artificial Intelligence,B2B,APIs
-
-### [Pacific](https://www.ycombinator.com/companies/pacific)
-
-- `website`: https://gopacific.ai/ → https://pacific.space
-- `team_size`: 3 → 6
-
-### [Nodus Compute](https://www.ycombinator.com/companies/nodus-compute)
-
-- `tags`: Infrastructure,AI → Artificial Intelligence,Infrastructure
+- `one_liner`: Self-evolving workflows for AI agents → reducing agent reasoning into a graph search problem
+- `question_answers`: false → true

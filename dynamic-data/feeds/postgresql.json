@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-09-17T03:40:47.297Z",
+  "updatedAt": "2026-09-17T11:22:03.446Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -1705,7 +1705,15 @@
       "summary": "Postgres 19 won't make the expected release date. PostgreSQL has shipped its major version every fall for the last several years. But this year, the code is in a heavy review cycle, major features have been reverted during beta, and many others are under heavy revision. Beta 4 is scheduled for…",
       "author": null,
       "publishedAt": "2026-09-16T22:49:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9uL",
+      "title": "Radim Marek: Row locks at the page level",
+      "link": "https://postgr.es/p/9uL",
+      "summary": "In PostgreSQL, every tuple starts with 23-byte header, and the first eight bytes are two transaction IDs. t_xmin for the transaction that created the row and t_xmax for the one that deleted or updated it. That is the visibility story covered in PostgreSQL MVCC, Byte by Byte. For now we have…",
+      "author": null,
+      "publishedAt": "2026-09-17T05:00:52.000Z"
     }
   ],
-  "totalIndexed": 212
+  "totalIndexed": 213
 }
