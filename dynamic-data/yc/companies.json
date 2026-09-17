@@ -1,13 +1,13 @@
 {
-  "fetchedAt": "2026-09-17T16:20:07.934Z",
-  "count": 6227,
+  "fetchedAt": "2026-09-17T20:48:29.475Z",
+  "count": 6229,
   "companies": [
     {
       "id": 38127,
       "name": "DeepMark",
       "slug": "deepmark",
       "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c443c87dd89559f3656ebd3f92b941ded93ff4dd.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/1bd6059d7d9d25b086256c7ab3a4a2b53f609362.png",
       "website": "https://www.deepmark.me",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "DeepMark is the authentication layer for AI voice. When an AI agent speaks, we embed a compact, machine-readable ID directly into the audio, not in metadata, which gets stripped the moment a file is touched. The ID resolves to a trust record, so a bank, a call center, or the person on the line can verify in real time who the agent is.",
@@ -1003,7 +1003,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/afa6ce6fe3345bb9e7b6296e9877371ada8e2155.png",
       "website": "https://orcaaerospace.com/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "At Orca, we are focused on creating the future of spacecraft operations by moving control onto the vehicle. By allowing LLMs to control the satellite using deterministic tooling, we are able to achieve the same holistic, high-quality decisions on \"what\" to do to carry out a mission while maintaining the safety of systems that decide \"how\" to execute it. ",
+      "long_description": "At Orca, we are focused on creating the future of spacecraft operations by moving control onto the vehicle. By allowing AI models to control the satellite using deterministic tooling, we are able to achieve the same holistic, high-quality decisions on \"what\" to do to carry out a mission while maintaining the safety of systems that decide \"how\" to execute it. ",
       "one_liner": "AI spacecraft operators that lives onboard the vehicle",
       "team_size": 3,
       "highlight_black": false,
@@ -1037,6 +1037,49 @@
       "app_answers": null,
       "question_answers": false,
       "url": "https://www.ycombinator.com/companies/orca-aerospace"
+    },
+    {
+      "id": 35523,
+      "name": "twentyfour26",
+      "slug": "twentyfour26",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/ceb91f5325b460f109e85bc25abd1618a24863cb.png",
+      "website": "https://twentyfour26.com/",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "twentyfour26 builds autonomous CNC machining cells for rapid prototyping, so hardware teams can iterate with software speed.",
+      "one_liner": "On Demand CNC Prototyping ",
+      "team_size": 2,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "Industrials",
+      "subindustry": "Industrials -> Manufacturing and Robotics",
+      "launched_at": 1786424480,
+      "tags": [
+        "Robotics",
+        "Manufacturing",
+        "Industrial"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Fall 2026",
+      "status": "Active",
+      "industries": [
+        "Industrials",
+        "Manufacturing and Robotics"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/twentyfour26"
     },
     {
       "id": 35522,
@@ -1426,6 +1469,48 @@
       "app_answers": null,
       "question_answers": false,
       "url": "https://www.ycombinator.com/companies/hopper"
+    },
+    {
+      "id": 35263,
+      "name": "River",
+      "slug": "rivereditor",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/47198fc0e393650eaf6b3a2b120ff40b912a2645.png",
+      "website": "https://meetriver.com/",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "AI made software engineers 100x more productive. We're bringing that same transformation to knowledge workers with the AI desktop.",
+      "one_liner": "The AI desktop.",
+      "team_size": 2,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "B2B",
+      "subindustry": "B2B -> Productivity",
+      "launched_at": 1785983847,
+      "tags": [
+        "Artificial Intelligence",
+        "Productivity"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Fall 2026",
+      "status": "Active",
+      "industries": [
+        "B2B",
+        "Productivity"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/rivereditor"
     },
     {
       "id": 35261,
@@ -5636,7 +5721,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/4b4bdae68fdd8f9d994fab11fca6b30709eb7e7c.png",
       "website": "https://financialdatasets.ai/",
       "all_locations": "New York City, NY, USA",
-      "long_description": "Financial Datasets is the largest search index for stock market data, built for AI agents.\r\n\r\nWe index the world's markets so agents can search every filing, answer any financial question, and monitor markets in real time.\r\n\r\nFor 40 years, market data was built for humans reading a screen. We are rebuilding it for agents that research every company, all day, across the world.",
+      "long_description": "Financial Datasets is an applied AI research lab building search and data infrastructure for agents, starting with financial markets.\r\n\r\nWe turn filings, company disclosures, and market data into structured, searchable information - helping agents find relevant facts, answer financial questions, and monitor markets in real time.\r\n\r\nFor 40 years, market data was built for people reading screens. We're rebuilding it for agents that research every company, all day, across the world.",
       "one_liner": "Connect your agents to the stock market ",
       "team_size": 1,
       "highlight_black": false,
@@ -10233,7 +10318,7 @@
       "website": "https://belvedir.ai/",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Belvedir makes it cheap and easy for anyone to make custom AI. We collect your agent traces through our SDK and autonomously train custom models + harnesses + routers, privately deploy them, and recursively improve them as they are used. \r\n\r\nOur customers have seen 10x reductions in inference costs and 2x increases on benchmark scores.\r\n\r\nCustom AI models are going to win. Belvedir is the infrastructure needed to make trillions of them.",
-      "one_liner": "Custom Model Factory For Cheaper, Better, Faster AI",
+      "one_liner": "Custom model factory for cheaper, better, faster AI",
       "team_size": 1,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -10242,8 +10327,8 @@
       "subindustry": "B2B",
       "launched_at": 1784319754,
       "tags": [
-        "Machine Learning",
-        "AI"
+        "Artificial Intelligence",
+        "Machine Learning"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -23806,8 +23891,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/4f2c4947196f35e938655df560aee5ba21c58b51.png",
       "website": "https://instinct.xyz",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "We believe in the next generation of finance where everyone around the world can access the global market and liquidity from the tip of their hands. \r\n\r\nWe are building the best mobile trading app that will enable this vision. \r\n\r\nHyperliquid is the house of all finance, Instinct is the app of all finance. \r\n\r\nHyperliquid.",
-      "one_liner": "Trade your instinct",
+      "long_description": "Capital allocation is becoming a more important part of individual economic life.\r\nFinance is moving toward a global, onchain, 24/7 future with thousands of markets trading at once.\r\n\r\nThe asset management industry is built around the scarcity of financial expertise and the cost of organizing people around capital. \r\n\r\nInstitutions cover global markets by employing analysts, researchers, and quants around the clock. \r\n\r\nAI turns this organizational capacity into software.\r\n\r\nInstinct is building the harness for this transition.\r\n\r\nInstinct is a proactive team of agents that searches thousands of markets, investigates opportunities, and operates 24/7. The individual becomes the portfolio manager, Instinct becomes the investment firm operating around them.\r\n\r\nAs institutional advantages become widely accessible, the edge concentrates in each trader’s worldview, judgment, and bets. \r\n\r\nThe first one-person investment firm managing $1 billion will emerge within two years.\r\n\r\nIt will run on Instinct.",
+      "one_liner": "Trade with superhuman instinct",
       "team_size": 5,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -44338,8 +44423,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/38edcfba2831cce5f05a5da045992ae4f758e655.png",
       "website": "https://www.cactuscompute.com/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "On-device AI for phones, wearables, smart home, robots and small robots:\r\n- Cactus Needle: 14MB agentic LLM for tiny devices\r\n- Cactus Engine: fastest runtime for tiny devices\r\n- Cactus Hybrid: post-trained models fall back to cloud",
-      "one_liner": "Tiny Edge AI For Tiny Devices",
+      "long_description": "On-device AI for phones, wearables, smart home, robots and small robots: \r\n- 2bit\r\n- 8-29MB\r\n- up to 4k tokens/sec decode speed",
+      "one_liner": "Automation Foundation Models For Tiny Devices",
       "team_size": 8,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -62082,21 +62167,21 @@
         "pap!"
       ],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/7e1603c58a6b9ecb46ac26ec775f8201dd3c1d3d.png",
-      "website": "https://tryserve.ai/",
+      "website": "https://serveaiglobal.com/",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "",
-      "one_liner": "AI for Home Services Operators",
-      "team_size": 3,
+      "one_liner": "AI for Field Service Enterprises",
+      "team_size": 6,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
-      "industry": "Consumer",
-      "subindustry": "Consumer",
+      "industry": "B2B",
+      "subindustry": "B2B -> Operations",
       "launched_at": 1724803143,
       "tags": [
-        "Artificial Intelligence",
         "B2B",
-        "Home Services"
+        "Home Services",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -62105,7 +62190,8 @@
       "batch": "Summer 2024",
       "status": "Active",
       "industries": [
-        "Consumer"
+        "B2B",
+        "Operations"
       ],
       "regions": [
         "United States of America",
@@ -69340,7 +69426,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/ff410def03c8c58c3adc7db9615becc8164804e3.png",
       "website": "https://wordware.ai/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Most AI products hand you a coworker on day one and hope you trust it. Sauna is the coworker you raise: it starts by learning how you work, earns autonomy task by task, and ends up running hours of work on its own while you keep taste, review, and the final say. Wordware is the ~20-person team behind it, backed by Spark Capital, Felicis, and Y Combinator with a $30M seed, the largest in YC history. We build from a San Francisco office in the shadow of the Golden Gate Bridge, and we work absurdly hard because we can see and feel the outcome every day.",
+      "long_description": "Every tool you use was built as an island, so you became the glue between them. You carry a name from Gmail into the CRM, a time from the CRM into Calendly, a note from Calendly into a doc. AI showed up and mostly became an eleventh window to paste into. \r\n\r\nSauna is a hybrid of AI and software standing on one shared brain. It holds your context and hands you real software built on top of it. You talk to it like a chatbot and use what it builds like an app: software for the path you repeat, AI for the edge that never repeats. Keep it to yourself, or share the brain with your team. \r\n\r\nThe clearest way to see it is a tool doing what its whole category cannot. An ordinary Calendly shows a stranger your free slots. Your Calendly writes the invite email itself, because it knows how the two of you know each other, and it offers a board member the slot over your gym block, because it knows which of your busy hours bend and for whom. \r\n\r\nWordware is the team behind it, 15 people backed by Spark Capital, Felicis, and Y Combinator with a $30M seed, the largest in YC's history. We build from an office in the Presidio, fifty metres from Crissy Field beach, and we work absurdly hard because we can see and feel the outcome every day.",
       "one_liner": "AI agents you can rely on",
       "team_size": 15,
       "highlight_black": false,
@@ -69351,9 +69437,9 @@
       "launched_at": 1715713232,
       "tags": [
         "AIOps",
+        "Artificial Intelligence",
         "Developer Tools",
-        "Infrastructure",
-        "AI"
+        "Infrastructure"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -79862,7 +79948,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/b27383428d763a236956940e76e892fc851162b4.png",
       "website": "https://www.greenboard.com",
       "all_locations": "New York City, NY, USA",
-      "long_description": "Greenboard is building a singular, AI-powered platform to handle management of the entirety of financial firms’ compliance programs, and eventually all back office processes. Today, financial institutions use Greenboard to detect risk using AI and to rip out and replace the bad legacy back office tooling they have wanted to get rid of for years.\r\n \r\n\r\n\r\nGreenboard's mission is to enable financial institutions to operate their back office teams at a higher standard, with half of the headcount. We’re starting with compliance",
+      "long_description": "At Greenboard, we're building the future of financial compliance. Greenboard is the unified, AI-native compliance operating system for RIAs, fintechs, private funds, hedge funds, and more. It replaces the fragmented mix of legacy tools and automates more than previously possible. By centralizing data and workflows, Greenboard helps firms reduce regulatory risk, simplify their technology stack, modernize how they run compliance, and save money. \r\n\r\n\r\nGreenboard's mission is to enable financial institutions to operate their back office teams at a higher standard, with half of the headcount. We’re starting with compliance",
       "one_liner": "Modern OS for the financial back office. ",
       "team_size": 35,
       "highlight_black": false,
@@ -79872,11 +79958,11 @@
       "subindustry": "Fintech",
       "launched_at": 1700498020,
       "tags": [
+        "Artificial Intelligence",
         "Fintech",
         "SaaS",
         "Compliance",
-        "Operations",
-        "AI"
+        "Operations"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -87999,7 +88085,7 @@
       "all_locations": "New York City, NY, USA",
       "long_description": "Fortuna is a one-stop solution that helps consumers navigate Medicaid end-to-end from eligibility and enrollment to renewing coverage. \r\n\r\nOur platform creates value as the middleware layer for the $800B Medicaid ecosystem.",
       "one_liner": "TurboTax for Medicaid",
-      "team_size": 22,
+      "team_size": 25,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -88025,7 +88111,7 @@
         "United States of America",
         "America / Canada"
       ],
-      "stage": "Growth",
+      "stage": "Early",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -91098,7 +91184,7 @@
       "all_locations": "New York City, NY, USA",
       "long_description": "Prosper builds AI phone agents for healthcare providers. Our agents automate manual, time-intensive workflows like patient scheduling, balance reminders, claims status checks, benefit verification, and prior authorizations. We integrate with 80+ EHRs, go live in 3 weeks, and offer a no-code interface for customization.\r\n\r\nToday, Prosper handles thousands of daily calls for dozens of providers, reducing costs by 50% and tripling productivity. We’re building the AI-first operating system for healthcare to eliminate the $200B lost to administrative overhead every year.",
       "one_liner": "AI Phone Agents for Healthcare Operations",
-      "team_size": 9,
+      "team_size": 60,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -143719,7 +143805,7 @@
         "Remote",
         "Partly Remote"
       ],
-      "stage": "Growth",
+      "stage": "Early",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -154739,7 +154825,7 @@
       "all_locations": "Paris, Île-de-France, France",
       "long_description": "Routine is an all-in-one workspace that allows individuals and team to manage their work and life through a single app.\r\n\r\nRoutine centralizes work (tasks, meetings, tickets, clients etc.) from third-party services (Github, Salesforce, Hubspot, Slack, Dropbox etc.) into a graph-based unified workspace allowing seamless cross-referencing, 360-degree overview, data enrichment and visualization.\r\n\r\nBy integrating with existing tools, Routine connects and enriches fragmented information, allowing users to track projects, collaborate efficiently, and make better decisions without having to constantly switch between multiple apps.\r\n\r\nIts data-driven and local-first approach ensures the information remains accessible and performant even without cloud connectivity.",
       "one_liner": "AI-native all-in-one workspace for startups",
-      "team_size": 8,
+      "team_size": 6,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -179030,7 +179116,7 @@
       "all_locations": "Montreal, QC, Canada",
       "long_description": "Nomic is doing for protein profiling, what Illumina did for DNA sequencing. Our core technology, the nELISA, is a next-gen immunoassay platform that transforms the ELISA into a high-throughput, high-content, and high-versatility tool. \r\n\r\nToday we developed the nELISA for high-throughput drug discovery scientists, enabling them profile 100s of proteins at 10x higher throughput and 10x lower cost compared to existing solutions. We're offering the nELISA through early access programs to HTS groups in top pharmas as well as pioneering biotechs in the space.\r\n\r\nOur goal is to create a ubiquitous technology that consolidates the broad range of legacy immunoassay toolkits that scientists use today with a single platform that can carry the science end-to-end, from discovery all the way to the clinic. \r\n\r\nWe're a team of engineers, biologists, and highly-skilled lab operators that are looking to grow quickly to keep up with customer demand but also to continue developing our core technology, scale our multiplexing/throughput, and build our software stack. We're hiring on a number of positions including engineering, software, biology, and ops. Come talk to us!",
       "one_liner": "Nomic is doing for proteins what Illumina has done for DNA",
-      "team_size": 24,
+      "team_size": 100,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -179056,7 +179142,7 @@
         "Remote",
         "Partly Remote"
       ],
-      "stage": "Growth",
+      "stage": "Early",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -183394,8 +183480,8 @@
       "subindustry": "Education",
       "launched_at": 1584136938,
       "tags": [
-        "Education",
-        "AI"
+        "Artificial Intelligence",
+        "Education"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -211281,9 +211367,9 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/4b73cfea31b6ff0a32c8d2664edc429dc8262268.png",
       "website": "https://www.owny.com",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Owny provides businesses with a turn-key portal to issue Funds, SAFEs and Notes. Your portal is fully equipped to manage investors, treasury, multi-currency accounts and ability to send and request ACH/Wire payments globally. Optional features include seamless crypto custody and solutions through Coinbase Institutional.",
-      "one_liner": "Manage capital, investors & banking in one place.",
-      "team_size": 10,
+      "long_description": "OWNY gives emerging-market banks a more efficient access to global payment rails.",
+      "one_liner": "AI driven payment rails for emerging market banks.",
+      "team_size": 15,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -211291,10 +211377,10 @@
       "subindustry": "Fintech",
       "launched_at": 1524539152,
       "tags": [
+        "Artificial Intelligence",
         "Banking as a Service",
         "Fintech",
-        "Crypto / Web3",
-        "AI"
+        "Crypto / Web3"
       ],
       "tags_highlighted": [
         "Crypto / Web3"

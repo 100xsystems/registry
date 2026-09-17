@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-09-17T16:19:51.623Z",
+  "updatedAt": "2026-09-17T20:48:11.142Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -1729,7 +1729,31 @@
       "summary": "Last week, I spent three days in the Netherlands and gave two talks at two conferences: a lightning talk at PGDay Lowlands in Utrecht on Thursday, September 10, and a session at Percona Live in Amsterdam on Friday, September 11\\. In this blog post, I’m going to share my notes from both.\nAs often…",
       "author": null,
       "publishedAt": "2026-09-17T14:02:33.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9v1",
+      "title": "Joshua Drake: pgColumnar 1.0-alpha4 released",
+      "link": "https://postgr.es/p/9v1",
+      "summary": "SourceDocsProduct page2026-09-17pgColumnar 1.0-alpha4 release notesRelease date: 2026-09-17 Previous release: 1.0-alpha3 (2026-09-02)pgColumnar is a columnar table access method for PostgreSQL. This is the fourth alpha. Its theme is layout and skipping. A table can now be laid out on the Hilbert…",
+      "author": null,
+      "publishedAt": "2026-09-17T19:18:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9u_",
+      "title": "Muhammad Aqeel: Flexible Deployment: What Enterprise-Grade Self-Hosting Actually Demands",
+      "link": "https://postgr.es/p/9u_",
+      "summary": "Ask a database vendor about on-prem and you'll usually get a one-line answer: 'we're open source, you can just self-host it.' For a hobby project, fine. For an enterprise, that line rarely survives contact with production. And enterprises want on-prem more than ever right now, largely because of…",
+      "author": null,
+      "publishedAt": "2026-09-17T15:31:54.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9uZ",
+      "title": "Ryan Booz: Postgres Monitoring for SQL Server DBAs: Statistics and Logs 101",
+      "link": "https://postgr.es/p/9uZ",
+      "summary": "As a SQL Server developer and DBA learning Postgres, it’s easy to expect that the information you need for meaningful query and performance tuning will be readily available. For years (decades, maybe) you’ve learned the DMVs, set up Extended Events sessions, relied on Query Store, and regularly run…",
+      "author": null,
+      "publishedAt": "2026-09-17T12:00:00.000Z"
     }
   ],
-  "totalIndexed": 215
+  "totalIndexed": 218
 }
