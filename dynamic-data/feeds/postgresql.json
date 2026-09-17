@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-09-16T16:13:33.290Z",
+  "updatedAt": "2026-09-17T03:40:47.297Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -1689,7 +1689,23 @@
       "summary": "Version 19: 71 commits on REL_19_STABLE. Version 20: 46 commits on master. Reverted out of 19: 74 commits, in 6 reverts. Six features tracked, 2 still shipping. Window closed at d8408e8d682.Summary71 commits landed on the 19 branch in nine days. The six reverts in the same window name 74 commits…",
       "author": null,
       "publishedAt": "2026-09-16T15:42:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9uK",
+      "title": "Christophe Pettus: All Your GUCs in a Row: max_logical_replication_workers",
+      "link": "https://postgr.es/p/9uK",
+      "summary": "When a logical replication worker pool runs dry, subscriptions don't fail—they just stop making progress, filling your logs with warnings every five seconds…",
+      "author": null,
+      "publishedAt": "2026-09-17T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9uJ",
+      "title": "Elizabeth Garrett Christensen: PostgreSQL 19 Delayed: Key Feature Reversions &amp; Release Updates",
+      "link": "https://postgr.es/p/9uJ",
+      "summary": "Postgres 19 won't make the expected release date. PostgreSQL has shipped its major version every fall for the last several years. But this year, the code is in a heavy review cycle, major features have been reverted during beta, and many others are under heavy revision. Beta 4 is scheduled for…",
+      "author": null,
+      "publishedAt": "2026-09-16T22:49:00.000Z"
     }
   ],
-  "totalIndexed": 210
+  "totalIndexed": 212
 }
