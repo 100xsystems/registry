@@ -1,46 +1,55 @@
 # YC Company Changes for 2026-09-18
 
-- Previous total: 6232
-- Current total: 6233
-- Added: 1
+- Previous total: 6233
+- Current total: 6236
+- Added: 3
 - Removed: 0
-- Updated: 6
+- Updated: 8
 
 
 ## Added Companies
 
-- [Invertix](https://www.ycombinator.com/companies/invertix) (Fall 2026) — Energy Superintelligence, AI that runs energy operations.
+- [Kailash Labs](https://www.ycombinator.com/companies/kailash-labs) (Fall 2026) — A factory for small and specialized video reasoning models
+- [Agent Relay](https://www.ycombinator.com/companies/agent-relay) (Fall 2026) — The infrastructure to run coding agents for your team
+- [Streamline Systems](https://www.ycombinator.com/companies/streamline-systems) (Fall 2026) — Precision navigation for UAVs operating without GPS. 
 
 ## Updated Companies
 
-### [Handle](https://www.ycombinator.com/companies/handle)
+### [Heron](https://www.ycombinator.com/companies/heron)
 
-- `team_size`: 55 → 203
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/6ed4f65fcafeff8654b29d189aa9b82b0bddfd6f.png → https://bookface-images.s3.amazonaws.com/small_logos/f86f1836e1bd65adb93aa3f9f5e5db9c12222c15.png
+- `one_liner`: Underwriting automation for SMB finance → Underwriting automation for small business finance
+- `tags`: Artificial Intelligence,Fintech,SaaS,B2B → Fintech,SaaS,B2B,AI
 
-### [Designbase](https://www.ycombinator.com/companies/designbase)
-
-- `tags`: Developer Tools,Design Tools,AI → Artificial Intelligence,Developer Tools,Design,Design Tools,Web Development
-
-### [Bravi](https://www.ycombinator.com/companies/bravi)
-
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/f454d5ba03bb70a84b22fc085d9687287771440b.png → https://bookface-images.s3.amazonaws.com/small_logos/293f67239064e77044472c7d1555aed47f6899c7.png
-- `all_locations`: Paris, Île-de-France, France → New York City, NY, USA
-- `one_liner`: The AI operating system powering home services businesses → AI operating system for home improvement manufacturers
-- `team_size`: 2 → 8
-- `regions`: France,Europe → United States of America,America / Canada
-
-### [Avoice](https://www.ycombinator.com/companies/avoice)
-
-- `all_locations`:  → San Francisco, CA, USA
-- `one_liner`: Harvey for Architecture → AI-native workspace for AEC
-- `team_size`: 4 → 7
-- `regions`: Remote,Partly Remote → United States of America,America / Canada,Remote,Partly Remote
-
-### [Lab0](https://www.ycombinator.com/companies/lab0)
-
-- `team_size`: 5 → 7
-- `tags`: Artificial Intelligence,SaaS,B2B,Enterprise → SaaS,B2B,Enterprise,AI
-
-### [Edgerun](https://www.ycombinator.com/companies/edgerun)
+### [Conduit](https://www.ycombinator.com/companies/conduit)
 
 - `isHiring`: false → true
+
+### [Consul](https://www.ycombinator.com/companies/consul)
+
+- `status`: Active → Acquired
+
+### [Origami](https://www.ycombinator.com/companies/origami-2)
+
+- `isHiring`: true → false
+
+### [Conviction](https://www.ycombinator.com/companies/conviction)
+
+- `subindustry`: Fintech -> Consumer Finance → Fintech
+- `tags`:  → Artificial Intelligence,Fintech,Crypto / Web3,Consumer Finance,Stocks
+- `tags_highlighted`:  → Crypto / Web3
+- `industries`: Fintech,Consumer Finance → Fintech
+
+### [Darwin](https://www.ycombinator.com/companies/darwin)
+
+- `website`: https://thesislabs.ai → https://darwinrobotics.ai
+- `tags`: Hard Tech,Machine Learning,Robotics,AI → Artificial Intelligence,Hard Tech,Machine Learning,Robotics
+
+### [Turnstone](https://www.ycombinator.com/companies/turnstone)
+
+- `team_size`: 2 → 3
+- `tags`: Artificial Intelligence → AI
+
+### [LemonLime](https://www.ycombinator.com/companies/lemonlime)
+
+- `tags`: SaaS,Sales,Marketing,AI → Artificial Intelligence,SaaS,Sales,Marketing

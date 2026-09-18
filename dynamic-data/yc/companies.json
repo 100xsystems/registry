@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-09-18T15:54:48.731Z",
-  "count": 6233,
+  "fetchedAt": "2026-09-18T20:13:55.753Z",
+  "count": 6236,
   "companies": [
     {
       "id": 38127,
@@ -1212,6 +1212,48 @@
       "url": "https://www.ycombinator.com/companies/oro-ai"
     },
     {
+      "id": 35487,
+      "name": "Streamline Systems",
+      "slug": "streamline-systems",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/989b85da2420d6592fdbd561cfe2e0802ebf6933.png",
+      "website": "https://streamlinesystems.ltd/",
+      "all_locations": "",
+      "long_description": "Streamline Systems is building the replacement for GPS. \r\n\r\nSatellite positioning has become the single point of failure for almost every modern system, both military and civil. We've built the replacement. A drop-in module that integrates with existing Ardupilot, INAV and PX4 flight controllers, with demonstrated satellite-independent autonomous flight and GPS handoff. We're currently working with commercial and military end users to deploy the capability.",
+      "one_liner": "Precision navigation for UAVs operating without GPS. ",
+      "team_size": 2,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "Industrials",
+      "subindustry": "Industrials -> Defense",
+      "launched_at": 1789759565,
+      "tags": [
+        "Autonomous Delivery",
+        "Drones",
+        "Navigation"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": true,
+      "nonprofit": false,
+      "batch": "Fall 2026",
+      "status": "Active",
+      "industries": [
+        "Industrials",
+        "Defense"
+      ],
+      "regions": [
+        "Unspecified"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/streamline-systems"
+    },
+    {
       "id": 35455,
       "name": "Deploy",
       "slug": "deploy",
@@ -1426,6 +1468,48 @@
       "app_answers": null,
       "question_answers": false,
       "url": "https://www.ycombinator.com/companies/invertix"
+    },
+    {
+      "id": 35292,
+      "name": "Agent Relay",
+      "slug": "agent-relay",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/cd30717450b2c4e90d7bcd129a9d826c6faaa345.png",
+      "website": "https://agentrelay.com",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "Agent Relay helps software teams work better with coding agents, and helps those agents work better as a team. It gives Claude Code, Codex, OpenCode, and custom agents shared messaging, session history, and access to tools like GitHub, Linear, and Slack. Teams can see what every agent is doing, run checked and resumable workflows, and step in when human judgment is needed. Run it in our cloud, locally, or on your own hardware.",
+      "one_liner": "The infrastructure to run coding agents for your team",
+      "team_size": 2,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "B2B",
+      "subindustry": "B2B -> Engineering, Product and Design",
+      "launched_at": 1789747031,
+      "tags": [
+        "Developer Tools",
+        "Swarm AI"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Fall 2026",
+      "status": "Active",
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/agent-relay"
     },
     {
       "id": 35290,
@@ -2256,6 +2340,48 @@
       "app_answers": null,
       "question_answers": false,
       "url": "https://www.ycombinator.com/companies/agent-37"
+    },
+    {
+      "id": 34828,
+      "name": "Kailash Labs",
+      "slug": "kailash-labs",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/9a65a6096b4135a40d95b668829c8fca7b87354d.png",
+      "website": "https://www.kailashlabs.com/",
+      "all_locations": "Bengaluru, KA, India",
+      "long_description": "The world generates petabytes of video every day, and almost none of it is readable to machines.  Frontier VLMs that can unlock this (like Gemini) are too expensive to run at the volume real industries have, too generic for any single task, and can't be deployed on-prem where sensitive video lives.\r\n\r\nWe are building an auto vision factory: take video plus a customer's objective, distill a frontier model, and post-train a small open model that is SOTA on that one task and serve it blazingly fast. Our first product, Marlin, is a 2B-parameter open-weights video VLM that matches Gemini-2.5-flash on dense captioning and temporal grounding at a fraction of the cost. ",
+      "one_liner": "A factory for small and specialized video reasoning models",
+      "team_size": 2,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "B2B",
+      "subindustry": "B2B -> Analytics",
+      "launched_at": 1789754590,
+      "tags": [
+        "Deep Learning",
+        "Edge Computing Semiconductors"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Fall 2026",
+      "status": "Active",
+      "industries": [
+        "B2B",
+        "Analytics"
+      ],
+      "regions": [
+        "India",
+        "South Asia"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/kailash-labs"
     },
     {
       "id": 34794,
@@ -5458,7 +5584,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/41a4a41e5482735389d2089a01ff2b862f56e307.png",
       "website": "https://www.markovstudios.com/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Markov sells expert computer-use data to frontier labs. We’ve sold more than 33k+ hours and our open-source datasets have got over 200k+ downloads on hugging face.",
+      "long_description": "Markov builds expert computer-use datasets for frontier AI labs. Our datasets include screen recordings + mouse/keyboard actions of professionals using CAD, design and enterprise software.\r\n\r\nWe work with the top AI labs and we’ve gotten more than 350k downloads on HuggingFace. Our long-term goal is to be the full stack platform for computer-use AI, starting with data and then the infrastructure to train and deploy computer-use models.\r\n\r\nDev and Harish are technical co-founders. Dev studied aerospace engineering at IIT Madras and was the youngest team member at Sarvam - India’s top AI lab. Harish is an Emergent Ventures grantee and his prior robotics work was featured in top national publications.",
       "one_liner": "Expert computer-use data for frontier AI labs",
       "team_size": 2,
       "highlight_black": false,
@@ -9699,10 +9825,10 @@
       "subindustry": "B2B",
       "launched_at": 1783367890,
       "tags": [
+        "Artificial Intelligence",
         "SaaS",
         "Sales",
-        "Marketing",
-        "AI"
+        "Marketing"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -10493,7 +10619,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/823732d3a67703ee105bf266f45c3e43c175ef96.png",
       "website": "https://belvedir.ai/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Belvedir makes it cheap and easy for anyone to make custom AI. We collect your agent traces through our SDK and autonomously train custom models + harnesses + routers, privately deploy them, and recursively improve them as they are used. \r\n\r\nOur customers have seen 10x reductions in inference costs and 2x increases on benchmark scores.\r\n\r\nCustom AI models are going to win. Belvedir is the infrastructure needed to make trillions of them.",
+      "long_description": "Belvedir makes it cheap and easy for anyone to make custom AI. We autonomously collect your data via trace SDK / app MCP / CUA agents and autonomously train custom models + harnesses + routers, privately deploy them, and recursively improve them as they are used. \r\n\r\nOur customers have seen 10x reductions in inference costs and 2x increases on benchmark scores.\r\n\r\nCustom AI models are going to win. Belvedir is the infrastructure needed to make trillions of them.",
       "one_liner": "Custom model factory for cheaper, better, faster AI",
       "team_size": 1,
       "highlight_black": false,
@@ -21292,7 +21418,7 @@
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Turnstone is the AI workspace where your agents already know you. Connect your apps (e.g. email, calendar, Slack, Drive) and your local folders. Turnstone turns all of it into your second brain and continuously updates it.\r\n\r\nSpin up agents (e.g. chief of staff, research, GTM) that all share that brain, so you stop re-explaining yourself and start getting real work done.\r\n\r\nIt all lives on your machine and runs on any model you already pay for. Ask your agent once, and it's done.",
       "one_liner": "Work with agents that already know you",
-      "team_size": 2,
+      "team_size": 3,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -21300,7 +21426,7 @@
       "subindustry": "B2B",
       "launched_at": 1768862675,
       "tags": [
-        "Artificial Intelligence"
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -31270,7 +31396,7 @@
         "Thesis"
       ],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/834b16b30c5de79bf9dbcd0a4819289bfa937936.png",
-      "website": "https://thesislabs.ai",
+      "website": "https://darwinrobotics.ai",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Darwin is building general-purpose humanoid robots for real-world work. Our first robot, Darwin One, will learn from real-world experience and continuously improve as AI moves from the screen into the physical world. First deployments begin in early 2027.",
       "one_liner": "Humanoid robots",
@@ -31282,10 +31408,10 @@
       "subindustry": "Industrials -> Manufacturing and Robotics",
       "launched_at": 1762476616,
       "tags": [
+        "Artificial Intelligence",
         "Hard Tech",
         "Machine Learning",
-        "Robotics",
-        "AI"
+        "Robotics"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -39301,18 +39427,25 @@
       "highlight_latinx": false,
       "highlight_women": false,
       "industry": "Fintech",
-      "subindustry": "Fintech -> Consumer Finance",
+      "subindustry": "Fintech",
       "launched_at": 1752533752,
-      "tags": [],
-      "tags_highlighted": [],
+      "tags": [
+        "Artificial Intelligence",
+        "Fintech",
+        "Crypto / Web3",
+        "Consumer Finance",
+        "Stocks"
+      ],
+      "tags_highlighted": [
+        "Crypto / Web3"
+      ],
       "top_company": false,
       "isHiring": true,
       "nonprofit": false,
       "batch": "Summer 2025",
       "status": "Active",
       "industries": [
-        "Fintech",
-        "Consumer Finance"
+        "Fintech"
       ],
       "regions": [
         "United States of America",
@@ -48993,7 +49126,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c1261383b7f5f7d5fcba63a49453bf6d9148fcfc.png",
       "website": "https://www.ambral.com/",
       "all_locations": "New York City, NY, USA",
-      "long_description": "AI for account management and customer success. Ambral has already been used to drive hundreds of millions of dollars in attributable expansion revenue at multi-billion dollar enterprises and top scale-ups.\r\n\r\nAmbral synthesizes signals from all customer activity and interactions into AI-powered models of every account. It pinpoints who needs attention and why, and autonomously takes the best next action to drive expansions, prevent churn, and ensure no customer slips through the cracks. \r\n\r\nTeam: \r\nSam (CEO): 2x founder. Led AI at Everlywell and early PM at Wonder (now valued at $7bn). Lived the pain of losing customer intimacy at scale and is obsessed with solving it. \r\n\r\nJack (CTO): Ex-SpaceX Flight Software Special Projects, where he developed telemetry routing and analysis systems for the most complex machines ever created. He’s now doing the same for the complexities of customer relationships. ",
+      "long_description": "AI for account management and customer success. Ambral has already been used to drive hundreds of millions of dollars in attributable expansion revenue at multi-billion dollar enterprises and top scale-ups.\r\n\r\nAmbral synthesizes signals from all customer activity and interactions into AI-powered models of every account. It pinpoints who needs attention and why, and autonomously takes the best next action to drive expansions, prevent churn, and ensure no customer slips through the cracks. \r\n\r\nTeam: \r\nSam (CEO): 2x founder. Led AI at Everlywell and early PM at Wonder (now valued at $7bn). Lived the pain of losing customer intimacy at scale and is obsessed with solving it. \r\n\r\nJack (CTO): Ex-SpaceX Flight Software Special Projects, where he developed telemetry routing and analysis systems for the some of most complex machines ever created. He’s now doing the same for the complexities of customer relationships. ",
       "one_liner": "AI for account management and customer success",
       "team_size": 4,
       "highlight_black": false,
@@ -57491,7 +57624,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": true,
+      "isHiring": false,
       "nonprofit": false,
       "batch": "Fall 2024",
       "status": "Active",
@@ -78590,7 +78723,7 @@
       "isHiring": false,
       "nonprofit": false,
       "batch": "Winter 2024",
-      "status": "Active",
+      "status": "Acquired",
       "industries": [
         "Fintech",
         "Payments"
@@ -95764,7 +95897,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": false,
+      "isHiring": true,
       "nonprofit": false,
       "batch": "Winter 2023",
       "status": "Active",
@@ -169573,11 +169706,11 @@
         "Open Credit",
         "Heron Data"
       ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/6ed4f65fcafeff8654b29d189aa9b82b0bddfd6f.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/f86f1836e1bd65adb93aa3f9f5e5db9c12222c15.png",
       "website": "https://www.herondata.io",
       "all_locations": "New York City, NY, USA",
-      "long_description": "Heron analyzes 60,000+ small businesses a day to make sure good deals reach your underwriters in minutes, and bad deals never do. We power underwriting across small business finance and insurance: MCA, term loans, SBA, and commercial insurance\r\n",
-      "one_liner": "Underwriting automation for SMB finance",
+      "long_description": "Heron is on a mission to eliminate the underwriting tax on American businesses. When a consumer applies for credit, a spinning wheel can return an offer in seconds; when a business applies for a loan or insurance policy, humans still spend hours reading documents, verifying the business, detecting fraud, and deciding what to offer. Heron does that work in software: lenders, insurers, and credit brokers send applications in and get declines and offers out in minutes instead of days. We have underwritten roughly 1 in 8 US employer businesses in the past year. That scale allows us to go beyond what any individual could ever do: identify cross-customer signals across millions of businesses to build new data products, and ultimately become the data layer for private businesses in the US. Backed by Insight Partners and Y Combinator.",
+      "one_liner": "Underwriting automation for small business finance",
       "team_size": 60,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -169586,10 +169719,10 @@
       "subindustry": "Fintech",
       "launched_at": 1597867558,
       "tags": [
-        "Artificial Intelligence",
         "Fintech",
         "SaaS",
-        "B2B"
+        "B2B",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,

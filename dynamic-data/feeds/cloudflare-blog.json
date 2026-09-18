@@ -9,7 +9,7 @@
     "performance",
     "edge-computing"
   ],
-  "updatedAt": "2026-09-16T20:43:15.140Z",
+  "updatedAt": "2026-09-18T20:13:39.775Z",
   "items": [
     {
       "guid": "01KY2432VQPD5FTF2RARXXYQGH",
@@ -61698,7 +61698,15 @@
       "summary": "A modern storefront can look healthy while malicious JavaScript quietly siphons revenue, hijacks clicks, or rewrites analytics. See how Cloudflare's machine learning models surface evasive client-side attacks for analyst investigation.",
       "author": "Juan Miguel Cejuela",
       "publishedAt": "2026-09-16T20:06:17.000Z"
+    },
+    {
+      "guid": "01M2PG0CV1HQN5RRFVQ49YYMWY",
+      "title": "Saving another 100TB of RAM with math (and Rust)",
+      "link": "https://blog.cloudflare.com/saving-100-tb-of-ram-with-math/",
+      "summary": "Cloudflare's global network is immense but not limitless. As we look for small ways to trim our resource usage, we sometimes get lucky and we can cut significantly more. Here’s how we reduced one of our Pingora-based service's RAM usage with statistics.",
+      "author": "Kevin Guthrie",
+      "publishedAt": "2026-09-18T17:23:58.000Z"
     }
   ],
-  "totalIndexed": 7711
+  "totalIndexed": 7712
 }

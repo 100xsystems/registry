@@ -9,7 +9,7 @@
     "edge-computing",
     "nextjs"
   ],
-  "updatedAt": "2026-09-18T15:54:42.154Z",
+  "updatedAt": "2026-09-18T20:13:49.801Z",
   "items": [
     {
       "guid": "vercel-blog::https://vercel.com/changelog/ai-gateway-now-supports-streaming-transcription",
@@ -4674,7 +4674,31 @@
       "summary": "adds  as an install source for agent skills .skills@1.7.0Notion skills databases\nNotion skills are reusable agent skills written as Notion pages. Teams author, review, and update them in the workspace they already use, then install them into any agent the skills CLI supports. No Git repository…",
       "author": "Andrew Qu",
       "publishedAt": "2026-09-17T18:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/spend-management-enterprise-flex",
+      "title": "Spend Management expands to Enterprise Flexible Commitment plans",
+      "link": "https://vercel.com/changelog/spend-management-enterprise-flex",
+      "summary": "Enterprise teams on Flexible Commitment plans can now use , already , at no additional cost.Spend Managementavailable on Pro\nYou can set a budget at any time in .Spend Management settings\nSet a budget per billing cycle, and when your team's metered usage approaches or crosses it, Spend Management…",
+      "author": "Lakshmi Subbramanian",
+      "publishedAt": "2026-09-18T20:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/webmcp-mcp-handler",
+      "title": "WebMCP support now available in mcp-handler",
+      "link": "https://vercel.com/changelog/webmcp-mcp-handler",
+      "summary": "now has experimental support for , the proposed web standard for exposing tools to in-browser agents. Add a single script tag to your site, and your existing MCP tools become available there too.mcp-handlerWebMCP\nOpt tools in by adding them to the  object:experimental_webMcp\nThen load the script…",
+      "author": "Andrew Qu",
+      "publishedAt": "2026-09-18T18:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/v0-now-reads-npm-credentials-from-shared-environment-variables",
+      "title": "v0 now reads npm credentials from shared environment variables",
+      "link": "https://vercel.com/changelog/v0-now-reads-npm-credentials-from-shared-environment-variables",
+      "summary": "now installs private packages from npm and custom registries using credentials stored as shared environment variables on Vercel.v0\nThis makes it easier for teams to build with their existing design systems, component libraries, and internal packages directly in v0.\nTo get started, add one of the…",
+      "author": "Vishal Yathish",
+      "publishedAt": "2026-09-18T17:00:00.000Z"
     }
   ],
-  "totalIndexed": 583
+  "totalIndexed": 586
 }
