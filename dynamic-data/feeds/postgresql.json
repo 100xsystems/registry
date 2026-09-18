@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-09-18T03:26:55.791Z",
+  "updatedAt": "2026-09-18T10:55:40.919Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -1761,7 +1761,15 @@
       "summary": "Nobody asked for max_notify_queue_pages. It exists because a limit that used to enforce itself stopped doing so, and something had to take its place.\nLISTEN/NOTIFY runs on a single queue for the whole cluster, stored as SLRU pages under pg_notify/ in the data directory. Through PostgreSQL 16 that…",
       "author": null,
       "publishedAt": "2026-09-18T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9v3",
+      "title": "Jimmy Angelakos: postgres.scot is live, August PostgresEDI meetup",
+      "link": "https://postgr.es/p/9v3",
+      "summary": "postgres.scot is live\nPostgres events in Scotland now have a permanent address: postgres.scot \nIt is a deliberately small page. Right now it points at the PostgreSQL Edinburgh User Group (PostgresEDI) on cloomba, where you will find RSVPs, a calendar subscription and an RSS feed, and it will carry…",
+      "author": null,
+      "publishedAt": "2026-09-18T08:30:00.000Z"
     }
   ],
-  "totalIndexed": 219
+  "totalIndexed": 220
 }
