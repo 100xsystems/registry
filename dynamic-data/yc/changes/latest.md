@@ -1,74 +1,46 @@
 # YC Company Changes for 2026-09-18
 
 - Previous total: 6232
-- Current total: 6232
-- Added: 0
+- Current total: 6233
+- Added: 1
 - Removed: 0
-- Updated: 14
+- Updated: 6
 
+
+## Added Companies
+
+- [Invertix](https://www.ycombinator.com/companies/invertix) (Fall 2026) — Energy Superintelligence, AI that runs energy operations.
 
 ## Updated Companies
 
-### [Whatnot](https://www.ycombinator.com/companies/whatnot)
+### [Handle](https://www.ycombinator.com/companies/handle)
 
-- `stage`: Early → Growth
+- `team_size`: 55 → 203
 
-### [Nomic Bio](https://www.ycombinator.com/companies/nomic-bio)
+### [Designbase](https://www.ycombinator.com/companies/designbase)
 
-- `stage`: Early → Growth
+- `tags`: Developer Tools,Design Tools,AI → Artificial Intelligence,Developer Tools,Design,Design Tools,Web Development
 
-### [LemFi](https://www.ycombinator.com/companies/lemfi)
+### [Bravi](https://www.ycombinator.com/companies/bravi)
 
-- `stage`: Early → Growth
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/f454d5ba03bb70a84b22fc085d9687287771440b.png → https://bookface-images.s3.amazonaws.com/small_logos/293f67239064e77044472c7d1555aed47f6899c7.png
+- `all_locations`: Paris, Île-de-France, France → New York City, NY, USA
+- `one_liner`: The AI operating system powering home services businesses → AI operating system for home improvement manufacturers
+- `team_size`: 2 → 8
+- `regions`: France,Europe → United States of America,America / Canada
 
-### [Juicebox](https://www.ycombinator.com/companies/juicebox)
+### [Avoice](https://www.ycombinator.com/companies/avoice)
 
-- `one_liner`: AI-powered talent sourcing for recruiters → AI Agents for Recruiting
-- `team_size`: 65 → 80
+- `all_locations`:  → San Francisco, CA, USA
+- `one_liner`: Harvey for Architecture → AI-native workspace for AEC
+- `team_size`: 4 → 7
+- `regions`: Remote,Partly Remote → United States of America,America / Canada,Remote,Partly Remote
 
-### [Fortuna Health](https://www.ycombinator.com/companies/fortuna-health)
+### [Lab0](https://www.ycombinator.com/companies/lab0)
 
-- `stage`: Early → Growth
+- `team_size`: 5 → 7
+- `tags`: Artificial Intelligence,SaaS,B2B,Enterprise → SaaS,B2B,Enterprise,AI
 
-### [Patched](https://www.ycombinator.com/companies/patched)
-
-- `isHiring`: false → true
-
-### [Lingo.dev](https://www.ycombinator.com/companies/lingodotdev)
-
-- `tags`: Artificial Intelligence,B2B,International,Infrastructure → B2B,International,Infrastructure,AI
-
-### [Char](https://www.ycombinator.com/companies/char)
-
-- `tags`: Artificial Intelligence,SaaS,Productivity,Open Source,AI Assistant → SaaS,Productivity,Open Source,AI,AI Assistant
-
-### [Brickanta](https://www.ycombinator.com/companies/brickanta)
-
-- `team_size`: 11 → 25
-- `tags`: Machine Learning,Construction,AI,AI Assistant → Artificial Intelligence,Machine Learning,Construction,AI Assistant
-
-### [Zavo](https://www.ycombinator.com/companies/zavo)
-
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/9a1286c1ed0f215411585d2faaf1c76a245ee266.png → https://bookface-images.s3.amazonaws.com/small_logos/6c070e5b38f25a46eb16f93b2a21cfccf8ec446a.png
-- `website`: https://zavopay.com → https://zavo.ai
-- `one_liner`: AI Operating System for Restaurants  → Unlocking the world’s most valuable data for frontier AI.
-- `industry`: Fintech → B2B
-- `subindustry`: Fintech -> Payments → B2B
-- `tags`: Artificial Intelligence,Fintech,Payments,B2B,Restaurant Tech → B2B,Big Data,AI
-- `industries`: Fintech,Payments → B2B
-
-### [Darwin](https://www.ycombinator.com/companies/darwin)
-
-- `tags`: Artificial Intelligence,Hard Tech,Machine Learning,Robotics → Hard Tech,Machine Learning,Robotics,AI
-
-### [Quotient Labs](https://www.ycombinator.com/companies/quotient-labs)
-
-- `tags`: Artificial Intelligence,Developer Tools → Artificial Intelligence,Developer Tools,SaaS
-
-### [Multiplier](https://www.ycombinator.com/companies/multiplier)
+### [Edgerun](https://www.ycombinator.com/companies/edgerun)
 
 - `isHiring`: false → true
-
-### [Sentient OS](https://www.ycombinator.com/companies/sentient-os)
-
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/108c3aadc4e00e665b12a9b3e77b6f0a5caa7d7b.png → https://bookface-images.s3.amazonaws.com/small_logos/39c30a4d604edd955f2c2b37f1f7281571ae18fb.png

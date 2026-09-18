@@ -9,7 +9,7 @@
     "edge-computing",
     "nextjs"
   ],
-  "updatedAt": "2026-09-16T16:13:42.877Z",
+  "updatedAt": "2026-09-18T15:54:42.154Z",
   "items": [
     {
       "guid": "vercel-blog::https://vercel.com/changelog/ai-gateway-now-supports-streaming-transcription",
@@ -4634,7 +4634,47 @@
       "summary": "reports now let you view your checks through one of four site types: Docs & content, Business, App, or Commerce.Is Agentic\nFor example, the Commerce view highlights payment and checkout standards like x402, UCP, and ACP, while the App view highlights API discovery, authentication, error handling,…",
       "author": "Andrew Qu",
       "publishedAt": "2026-09-16T00:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/glm-5-3-flashx-now-available-on-ai-gateway",
+      "title": "GLM 5.3 FlashX now available on AI Gateway",
+      "link": "https://vercel.com/changelog/glm-5-3-flashx-now-available-on-ai-gateway",
+      "summary": "is now available on AI Gateway.GLM 5.3 FlashX\nGLM 5.3 FlashX is a high-speed serving option for Z.ai's multimodal coding model, delivering inference at ~200 tokens per second for faster streamed responses.\nThe higher serving speed is useful for coding agents, tool loops, and interactive…",
+      "author": "Zachary Chen",
+      "publishedAt": "2026-09-18T00:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/sub-second-artifact-deployments-are-now-supported-in-vercel-cli",
+      "title": "Sub-second artifact deployments are now supported in Vercel CLI",
+      "link": "https://vercel.com/changelog/sub-second-artifact-deployments-are-now-supported-in-vercel-cli",
+      "summary": "You and your agents can now deploy static artifacts to Vercel in under one second through Vercel CLI. \nRun  to share a prototype, publish an HTML report, or preview a page created by your coding agent. vercel deploy\nVercel automatically detects eligible deployments, and valid artifacts will skip…",
+      "author": "Melkey Moksyakov",
+      "publishedAt": "2026-09-17T22:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/turbo-build-machines-can-now-be-enabled-per-deployment",
+      "title": "Turbo build machines can now be enabled per deployment",
+      "link": "https://vercel.com/changelog/turbo-build-machines-can-now-be-enabled-per-deployment",
+      "summary": "You can now opt into Turbo build machines on any individual deployment. This is useful when you need to increase resources temporarily without changing project settings. You can do this in three ways:\nLearn more in the .managing builds documentation\nRead more\n\nInclude  in your Git commit message…",
+      "author": "Mehul Kar",
+      "publishedAt": "2026-09-17T20:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/run-terminal-bench-and-other-harbor-evals-on-vercel-sandbox",
+      "title": "Run Terminal-Bench and other Harbor evals on Vercel Sandbox",
+      "link": "https://vercel.com/changelog/run-terminal-bench-and-other-harbor-evals-on-vercel-sandbox",
+      "summary": "You can now run Harbor evals on Vercel Sandbox. \n is the open-source harness behind , whose registry includes many other benchmarks such as SWE-bench, tau3-bench and OSWorld. Pass  to  and each trial executes in its own isolated Firecracker microVM, so you can parallelize far beyond what your local…",
+      "author": "Elisabeth Rülke",
+      "publishedAt": "2026-09-17T19:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/skills-cli-notion-skills",
+      "title": "The skills CLI now supports Notion hosted skills",
+      "link": "https://vercel.com/changelog/skills-cli-notion-skills",
+      "summary": "adds  as an install source for agent skills .skills@1.7.0Notion skills databases\nNotion skills are reusable agent skills written as Notion pages. Teams author, review, and update them in the workspace they already use, then install them into any agent the skills CLI supports. No Git repository…",
+      "author": "Andrew Qu",
+      "publishedAt": "2026-09-17T18:00:00.000Z"
     }
   ],
-  "totalIndexed": 578
+  "totalIndexed": 583
 }

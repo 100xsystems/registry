@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-09-18T10:55:40.919Z",
+  "updatedAt": "2026-09-18T15:54:31.629Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -1769,7 +1769,15 @@
       "summary": "postgres.scot is live\nPostgres events in Scotland now have a permanent address: postgres.scot \nIt is a deliberately small page. Right now it points at the PostgreSQL Edinburgh User Group (PostgresEDI) on cloomba, where you will find RSVPs, a calendar subscription and an RSS feed, and it will carry…",
       "author": null,
       "publishedAt": "2026-09-18T08:30:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9v4",
+      "title": "Mikhail Shytsko: Your Agent Is Reading Someone Else's Tenant",
+      "link": "https://postgr.es/p/9v4",
+      "summary": "Two client connections, opened one after the other through PgBouncer transaction mode, asked the same database whose rows they were allowed to see, and the second one got the first one's answer. It had set nothing, it had never met the first caller, and the rows it read belonged to that caller's…",
+      "author": null,
+      "publishedAt": "2026-09-18T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 220
+  "totalIndexed": 221
 }

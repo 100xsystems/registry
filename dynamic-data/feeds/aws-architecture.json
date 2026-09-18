@@ -8,7 +8,7 @@
     "architecture",
     "aws"
   ],
-  "updatedAt": "2026-09-11T20:16:28.225Z",
+  "updatedAt": "2026-09-18T15:54:41.289Z",
   "items": [
     {
       "guid": "79195fa586925a9b62c134acc83bb06b7b67a778",
@@ -249,7 +249,23 @@
       "summary": "Combine zero-shot forecasting with Amazon Chronos2 and multi-agent orchestration on Amazon Bedrock AgentCore to turn demand forecasts into validated purchase orders. No per-product model training, with business rules, auditability, and cost that scales to zero.",
       "author": "Hyunsoo Kim, Ph.D.",
       "publishedAt": "2026-09-11T14:08:01.000Z"
+    },
+    {
+      "guid": "b39eaaf3888a3d0bda8d6b3ca86f328b3e6e56af",
+      "title": "How CSIRO built scalable, cost-optimized genomic variant querying on AWS",
+      "link": "https://aws.amazon.com/blogs/architecture/how-csiro-built-scalable-cost-optimized-genomic-variant-querying-on-aws/",
+      "summary": "Learn how researchers at CSIRO, Australia's national science agency, built Serverless Beacon (sBeacon), a scalable serverless solution for securely querying genomic variant data on AWS. sBeacon implements the GA4GH Beacon standard using Amazon S3, AWS Lambda, Amazon DynamoDB, and Amazon Athena to…",
+      "author": "Prof. Denis Bauer",
+      "publishedAt": "2026-09-18T14:35:42.000Z"
+    },
+    {
+      "guid": "abde72628d20a0fb06d89f38a8faa222bb07078f",
+      "title": "How Equinix cut operational overhead with a shared services architecture on Amazon EKS",
+      "link": "https://aws.amazon.com/blogs/architecture/how-equinix-cut-operational-overhead-with-a-shared-services-architecture-on-amazon-eks/",
+      "summary": "Equinix, the world's digital infrastructure company, built a shared services architecture on Amazon EKS to eliminate the operational sprawl of its self-managed Kubernetes environment. Learn how a multi-account North Star architecture centralized governance and shared services, delivering 4x faster…",
+      "author": "Chhavi Kaushik",
+      "publishedAt": "2026-09-17T18:00:56.000Z"
     }
   ],
-  "totalIndexed": 30
+  "totalIndexed": 32
 }

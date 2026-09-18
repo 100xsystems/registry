@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-09-18T10:55:58.716Z",
-  "count": 6232,
+  "fetchedAt": "2026-09-18T15:54:48.731Z",
+  "count": 6233,
   "companies": [
     {
       "id": 38127,
@@ -1383,6 +1383,49 @@
       "app_answers": null,
       "question_answers": false,
       "url": "https://www.ycombinator.com/companies/workers-io"
+    },
+    {
+      "id": 35355,
+      "name": "Invertix",
+      "slug": "invertix",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c2332aa776f979c1ef83d3026fd24932b6576eea.png",
+      "website": "https://www.invertix.ai",
+      "all_locations": "Munich, BY, Germany",
+      "long_description": "The next constraint is not intelligence, it is the energy cost of running it.\r\nWe deploy custom AI models inside energy companies that ingest SCADA data, work orders, and grid topology,  operational data no public model has seen, grounded in physics-informed neural networks and differentiable grid simulators. \r\nThis creates a flywheel: more operator data → better process understanding → more efficient operations → cheaper energy → cheaper AI → more deployment → more data. \r\n\r\nhttps://www.youtube.com/watch?v=0uDH6pMn5OE\r\n\r\nAI compute doubles every 2.2 years. Data center demand grows from 415 to 945 TWh by 2030. Without near-zero energy cost, AI remains limited by human infrastructure. We are the layer that runs AI at zero energy cost.\r\nEnergy is a $10 trillion market. The infrastructure layer doesn't exist yet. \r\nWe are building it.",
+      "one_liner": "Energy Superintelligence, AI that runs energy operations.",
+      "team_size": 8,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "Industrials",
+      "subindustry": "Industrials -> Energy",
+      "launched_at": 1789740763,
+      "tags": [
+        "Artificial Intelligence",
+        "Generative AI",
+        "Solar Power"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Fall 2026",
+      "status": "Active",
+      "industries": [
+        "Industrials",
+        "Energy"
+      ],
+      "regions": [
+        "Germany",
+        "Europe"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/invertix"
     },
     {
       "id": 35290,
@@ -11324,7 +11367,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": false,
+      "isHiring": true,
       "nonprofit": false,
       "batch": "Summer 2026",
       "status": "Active",
@@ -16113,7 +16156,7 @@
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Enterprise software implementation is broken,  and it has been for decades. \r\nEvery rollout, whether it's a traditional ERP or a new AI system, requires months of manual integration, configuration, and tuning done by armies of system integrators and forward-deployed engineers. \r\nLab0 builds agentic systems that automate this layer, compressing months-long implementations into weeks.",
       "one_liner": "AI FDEs to make your B2B SaaS Go Live in Days, not Months",
-      "team_size": 5,
+      "team_size": 7,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -16121,10 +16164,10 @@
       "subindustry": "B2B",
       "launched_at": 1775188246,
       "tags": [
-        "Artificial Intelligence",
         "SaaS",
         "B2B",
-        "Enterprise"
+        "Enterprise",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -25683,10 +25726,10 @@
       ],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/09b00897bad7b286c988185a245a471be3726665.png",
       "website": "https://avoice.co/",
-      "all_locations": "",
-      "long_description": "Avoice is an AI-native workspace for architecture firms that automates the non-design work that takes time away from design. The platform uses AI agents that understand drawings, specifications, schedules, materials, codes, and research. Today, firms using Avoice manage over $300M in active projects on the platform.\r\n\r\nArchitecture is a massive market ($300B+) but a deeply underserved one: highly fragmented, dominated by small firms, and reliant on legacy tools that require heavy customization. AI creates a unique opportunity to deliver firm-specific automation at scale, and Avoice brings these workflows into become the operating system for architectural practice.",
-      "one_liner": "Harvey for Architecture",
-      "team_size": 4,
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "Avoice is an all-in-one, AI-native platform for running an architecture practice. It covers the whole arc of a project: pricing and proposals to win the work, research and schedules in early design, specifications and QA/QC checks through documentation, contract particulars and preliminaries at tender, then RFIs, submittals, instructions, certificates and valuations through construction, and the compliance record at handover. Timesheets, fees, financials and invoicing run alongside, with Xero and QuickBooks.\r\n\r\nSpecification is the most-used part of the platform. Avoice drafts coordinated, tender-ready specifications from a practice's own drawings, schedules and office masters, then checks them back against those drawings. Work that normally takes weeks takes an afternoon.\r\n\r\nPractices in the UK, US, Australia and New Zealand use Avoice, from boutique studios to firms of several hundred people. It integrates with Revit and ArchiCAD. ",
+      "one_liner": "AI-native workspace for AEC",
+      "team_size": 7,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -25704,6 +25747,8 @@
         "B2B"
       ],
       "regions": [
+        "United States of America",
+        "America / Canada",
         "Remote",
         "Partly Remote"
       ],
@@ -31658,12 +31703,12 @@
       "name": "Bravi",
       "slug": "bravi",
       "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/f454d5ba03bb70a84b22fc085d9687287771440b.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/293f67239064e77044472c7d1555aed47f6899c7.png",
       "website": "https://www.bravi.app/",
-      "all_locations": "Paris, Île-de-France, France",
-      "long_description": "Bravi is building the AI operating system for home-services businesses, using AI-powered customer communication as the wedge.\r\n\r\nWe replace the front office (calls, chats, follow-ups) with AI agents that never miss a lead, then layer an internal AI copilot that understands products, pricing, and technical documentation.\r\n\r\nWe started with fenestration (shutters, windows, garage doors), a large, complex vertical with no modern software, before expanding to adjacent trades.\r\n\r\nBravi is already live with leading installers and manufacturers across Europe and the US, turning missed demand into revenue.",
-      "one_liner": "The AI operating system powering home services businesses",
-      "team_size": 2,
+      "all_locations": "New York City, NY, USA",
+      "long_description": "Bravi helps manufacturers of windows, doors, and other home improvement products turn fragmented technical and commercial data into tools their teams can use instantly. \r\n\r\nOur AI platform helps sales, customer service, and field teams answer technical questions, configure complex products, generate quotes, and retrieve order information by connecting to existing documentation, catalogs, ERP, CRM, and pricing systems.\r\n\r\nBravi is already live with leading installers and manufacturers across Europe and the US, turning missed demand into revenue.",
+      "one_liner": "AI operating system for home improvement manufacturers",
+      "team_size": 8,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -31687,8 +31732,8 @@
         "B2B"
       ],
       "regions": [
-        "France",
-        "Europe"
+        "United States of America",
+        "America / Canada"
       ],
       "stage": "Early",
       "app_video_public": false,
@@ -105493,9 +105538,11 @@
       "subindustry": "B2B -> Engineering, Product and Design",
       "launched_at": 1675796536,
       "tags": [
+        "Artificial Intelligence",
         "Developer Tools",
+        "Design",
         "Design Tools",
-        "AI"
+        "Web Development"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -201504,7 +201551,7 @@
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Handle builds software that helps simplify construction financial management by automating manual and repetitive tasks throughout the life cycle of construction payments.",
       "one_liner": "Simplifying Payments and Compliance for Construction Suppliers",
-      "team_size": 55,
+      "team_size": 203,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,

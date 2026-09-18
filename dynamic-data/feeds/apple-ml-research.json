@@ -8,7 +8,7 @@
     "ai",
     "research"
   ],
-  "updatedAt": "2026-09-17T16:19:51.179Z",
+  "updatedAt": "2026-09-18T15:54:30.949Z",
   "items": [
     {
       "guid": "environment-free",
@@ -289,7 +289,15 @@
       "summary": "A central goal of autonomous reinforcement learning is continuous policy training without external resets. However, existing paradigms largely depend on underlying environmental reversibility, a property absent in real world manipulation, where events such as pushing objects off tables or spilling…",
       "author": null,
       "publishedAt": "2026-09-17T00:00:00.000Z"
+    },
+    {
+      "guid": "dynamically-scaled-activation-steering",
+      "title": "Dynamically Scaled Activation Steering",
+      "link": "https://machinelearning.apple.com/research/dynamically-scaled-activation-steering",
+      "summary": "Activation steering has emerged as a powerful method for guiding the behavior of generative models towards desired outcomes such as toxicity mitigation. However, most existing methods apply interventions uniformly across all inputs, degrading model performance when steering is unnecessary. We…",
+      "author": null,
+      "publishedAt": "2026-09-18T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 35
+  "totalIndexed": 36
 }

@@ -8,7 +8,7 @@
     "infrastructure",
     "devops"
   ],
-  "updatedAt": "2026-09-17T16:19:51.547Z",
+  "updatedAt": "2026-09-18T15:54:31.121Z",
   "items": [
     {
       "guid": "hashicorp::https://www.hashicorp.com/blog/one-service-many-doors-multi-port-services-in-consul",
@@ -31081,7 +31081,15 @@
       "summary": "HashiCorp is deprecating HCP Vagrant through a phased process.  The Vagrant CLI and source repository will remain available, but customers must move their Vagrant boxes to another hosting provider and assume the associated hosting costs.  \nHCP Vagrant will stop supporting new box and registry…",
       "author": "Kala Gullick",
       "publishedAt": "2026-09-17T16:00:00.000Z"
+    },
+    {
+      "guid": "hashicorp::https://www.hashicorp.com/blog/simplify-compliance-with-a-native-pre-written-policy-experience-in-terraform",
+      "title": "Simplify compliance with the native pre-written policy experience in HCP Terraform",
+      "link": "https://www.hashicorp.com/blog/simplify-compliance-with-a-native-pre-written-policy-experience-in-terraform",
+      "summary": "As organizations face growing security and regulatory requirements, maintaining compliant infrastructure becomes increasingly complex. Many organizations use policy as code to define and enforce guardrails consistently across their infrastructure estates. But operationalizing policy as code can…",
+      "author": "Mitchell Ross",
+      "publishedAt": "2026-09-17T16:00:00.000Z"
     }
   ],
-  "totalIndexed": 3884
+  "totalIndexed": 3885
 }

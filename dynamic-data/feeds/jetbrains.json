@@ -8,7 +8,7 @@
     "ide",
     "programming-languages"
   ],
-  "updatedAt": "2026-09-17T03:40:58.243Z",
+  "updatedAt": "2026-09-18T15:54:41.407Z",
   "items": [
     {
       "guid": "https://blog.jetbrains.com/?post_type=rscpp&p=725420",
@@ -609,7 +609,39 @@
       "summary": "We’ve released updates for multiple major MPS versions that fix several issues. DOWNLOAD MPS 2026.1.1 Check out all the updates in each particular version below: MPS 2026.1.1 The Projectional Agent Toolkit receives several practical improvements that allow agents to: See and invoke intentions and…",
       "author": "Vaclav Pech",
       "publishedAt": "2026-09-16T20:06:31.000Z"
+    },
+    {
+      "guid": "https://blog.jetbrains.com/?post_type=research&p=737296",
+      "title": "The AIDEs Framework: How We Built a “Theory of Everything” for AI Development Tools",
+      "link": "https://blog.jetbrains.com/research/2026/09/levels-of-ai-delegation/",
+      "summary": "We are living in genuinely interesting times. AI is disrupting software development at a pace where new models, tools, and practices appear almost daily. Many teams’ natural first instinct is to spend ever more time chasing updates. After almost two years of AI product and market research at…",
+      "author": "Stanislav Tikhomirov",
+      "publishedAt": "2026-09-18T13:52:30.000Z"
+    },
+    {
+      "guid": "https://blog.jetbrains.com/?post_type=junie&p=741086",
+      "title": "Making Local AI Smarter and Faster",
+      "link": "https://blog.jetbrains.com/junie/2026/09/smarter-local-al/",
+      "summary": "We want local coding agents to be smart and fast, with the ability to understand a codebase, do useful work, and finish tasks without long waits. This Junie Local update makes it practical to use a more capable model on your own machine. In the first release, we had to choose between two versions…",
+      "author": "Vladimir Sotnikov",
+      "publishedAt": "2026-09-18T13:42:27.000Z"
+    },
+    {
+      "guid": "https://blog.jetbrains.com/?post_type=junie&p=741001",
+      "title": "Your diff has a demo now with Junie /demo",
+      "link": "https://blog.jetbrains.com/junie/2026/09/junie-demo/",
+      "summary": "You have the change ready and the tests are green. Now someone has to launch the app, find the right screen, and check the flow. Often, that someone is still you, even when an agent helped write the code. You should be able to delegate that part too. Junie /demo is a new mode in […]",
+      "author": "Aliaksei Kartynnik",
+      "publishedAt": "2026-09-18T11:51:27.000Z"
+    },
+    {
+      "guid": "https://blog.jetbrains.com/?post_type=ktor&p=740808",
+      "title": "Ktor 3.6.0 Is Now Available!",
+      "link": "https://blog.jetbrains.com/ktor/2026/09/18/ktor-3-6-0-is-now-available/",
+      "summary": "Ktor 3.6.0 is here! This release is full of new experimental features, including typed authentication capabilities with specialized support for OpenID Connect and HTTP/3 support for the Netty engine. There are also a few quality-of-life improvements for routing and request handling, more convenient…",
+      "author": "Simon Vergauwen",
+      "publishedAt": "2026-09-18T10:45:56.000Z"
     }
   ],
-  "totalIndexed": 75
+  "totalIndexed": 79
 }
