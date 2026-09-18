@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-09-17T20:48:11.142Z",
+  "updatedAt": "2026-09-18T03:26:55.791Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -1753,7 +1753,15 @@
       "summary": "As a SQL Server developer and DBA learning Postgres, it’s easy to expect that the information you need for meaningful query and performance tuning will be readily available. For years (decades, maybe) you’ve learned the DMVs, set up Extended Events sessions, relied on Query Store, and regularly run…",
       "author": null,
       "publishedAt": "2026-09-17T12:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9v2",
+      "title": "Christophe Pettus: All Your GUCs in a Row: max_notify_queue_pages",
+      "link": "https://postgr.es/p/9v2",
+      "summary": "Nobody asked for max_notify_queue_pages. It exists because a limit that used to enforce itself stopped doing so, and something had to take its place.\nLISTEN/NOTIFY runs on a single queue for the whole cluster, stored as SLRU pages under pg_notify/ in the data directory. Through PostgreSQL 16 that…",
+      "author": null,
+      "publishedAt": "2026-09-18T01:00:00.000Z"
     }
   ],
-  "totalIndexed": 218
+  "totalIndexed": 219
 }

@@ -1,82 +1,85 @@
-# YC Company Changes for 2026-09-17
+# YC Company Changes for 2026-09-18
 
-- Previous total: 6227
-- Current total: 6229
-- Added: 2
+- Previous total: 6229
+- Current total: 6232
+- Added: 3
 - Removed: 0
-- Updated: 14
+- Updated: 12
 
 
 ## Added Companies
 
-- [River](https://www.ycombinator.com/companies/rivereditor) (Fall 2026) — The AI desktop.
-- [twentyfour26](https://www.ycombinator.com/companies/twentyfour26) (Fall 2026) — On Demand CNC Prototyping 
+- [Applied Kinetics](https://www.ycombinator.com/companies/applied-kinetics) (Fall 2026) — AI for the industries that power America. 
+- [Inflection Space Systems](https://www.ycombinator.com/companies/inflection-space-systems) (Fall 2026) — Hyperscaling space manufacturing
+- [Sintropix](https://www.ycombinator.com/companies/sintropix) (Fall 2026) — Autonomous accounting platform for global companies
 
 ## Updated Companies
 
-### [OWNY](https://www.ycombinator.com/companies/owny)
+### [mdhub](https://www.ycombinator.com/companies/mdhub)
 
-- `one_liner`: Manage capital, investors & banking in one place. → AI driven payment rails for emerging market banks.
-- `team_size`: 10 → 15
-- `tags`: Banking as a Service,Fintech,Crypto / Web3,AI → Artificial Intelligence,Banking as a Service,Fintech,Crypto / Web3
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/dd82f4e0241c51007ca4b9aef139a8ebeb515e7f.png → https://bookface-images.s3.amazonaws.com/small_logos/c645ee5ac2dfc857e6927bf9a9ef4fb62efe8521.png
+- `team_size`: 15 → 25
 
-### [Ello](https://www.ycombinator.com/companies/ello)
+### [Method](https://www.ycombinator.com/companies/method)
 
-- `tags`: Education,AI → Artificial Intelligence,Education
+- `name`: Alpha Research → Method
+- `slug`: alpha-research → method
+- `former_names`: Zenobia Pay,Dolphin → Zenobia Pay,Dolphin,Alpha Research
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/9da4ac9dd6be01478b419bbfd282d5e379179bc8.png → https://bookface-images.s3.amazonaws.com/small_logos/9706bbce9dc3489f8db897884b3967bde457e6ca.png
+- `website`: https://alpharesearch.nyc/ → https://withmethod.ai/
+- `one_liner`: Open source, agentic knowledge bases for all of humanity's knowledge. → Agents that improve
+- `tags`: Market Research → Artificial Intelligence
 
-### [Nomic Bio](https://www.ycombinator.com/companies/nomic-bio)
+### [Prism](https://www.ycombinator.com/companies/prism)
 
-- `team_size`: 24 → 100
-- `stage`: Growth → Early
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/973718be82b1053c971c2efe1c5263b785ae3711.png → https://bookface-images.s3.amazonaws.com/small_logos/12dc6e609224f33b9c452f9656b3020116496003.png
 
-### [Routine](https://www.ycombinator.com/companies/routine)
+### [Cashew Labs](https://www.ycombinator.com/companies/cashew-labs)
 
-- `team_size`: 8 → 6
+- `name`: Libretto → Cashew Labs
+- `slug`: libretto → cashew-labs
+- `former_names`: Saffron Health → Saffron Health,Libretto
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/2ab7b1807b8d28eb8c42b24701e5f9b9db153ee8.png → https://bookface-images.s3.amazonaws.com/small_logos/75b5481cd9f0b4c66c6e8e42e15816b3489d5c81.png
+- `website`: https://libretto.sh → https://cashew-labs.com/
+- `one_liner`: Turn website workflows into reliable APIs → Recursive self improving harnesses and models
+- `industry`: Healthcare → B2B
+- `subindustry`: Healthcare -> Healthcare Services → B2B
+- `industries`: Healthcare,Healthcare Services → B2B
 
-### [LemFi](https://www.ycombinator.com/companies/lemfi)
+### [F4 Industries](https://www.ycombinator.com/companies/f4-industries)
 
-- `stage`: Growth → Early
+- `subindustry`: Industrials → Industrials -> Aviation and Space
+- `industries`: Industrials → Industrials,Aviation and Space
 
-### [Prosper](https://www.ycombinator.com/companies/prosper)
+### [Darwin](https://www.ycombinator.com/companies/darwin)
 
-- `team_size`: 9 → 60
+- `name`: Thesis → Darwin
+- `slug`: thesis → darwin
+- `former_names`: Thesis Labs → Thesis Labs,Thesis,Darwin,Thesis
+- `tags`: Hard Tech,Machine Learning,Robotics,AI → Artificial Intelligence,Hard Tech,Machine Learning,Robotics
 
-### [Fortuna Health](https://www.ycombinator.com/companies/fortuna-health)
+### [Dispatch](https://www.ycombinator.com/companies/dispatch)
 
-- `team_size`: 22 → 25
-- `stage`: Growth → Early
+- `team_size`: 2 → 4
 
-### [Greenboard](https://www.ycombinator.com/companies/greenboard)
+### [Runtime](https://www.ycombinator.com/companies/runtime)
 
-- `tags`: Fintech,SaaS,Compliance,Operations,AI → Artificial Intelligence,Fintech,SaaS,Compliance,Operations
+- `team_size`: 5 → 7
 
-### [Wordware](https://www.ycombinator.com/companies/wordware)
+### [Micora](https://www.ycombinator.com/companies/micora)
 
-- `tags`: AIOps,Developer Tools,Infrastructure,AI → AIOps,Artificial Intelligence,Developer Tools,Infrastructure
+- `one_liner`: Solar farm in a box built anywhere in days → Microgrids in a box built anywhere in days
+- `team_size`: 2 → 3
 
-### [Serve AI](https://www.ycombinator.com/companies/serve-ai)
+### [Hopper](https://www.ycombinator.com/companies/hopper)
 
-- `website`: https://tryserve.ai/ → https://serveaiglobal.com/
-- `one_liner`: AI for Home Services Operators → AI for Field Service Enterprises
-- `team_size`: 3 → 6
-- `industry`: Consumer → B2B
-- `subindustry`: Consumer → B2B -> Operations
-- `tags`: Artificial Intelligence,B2B,Home Services → B2B,Home Services,AI
-- `industries`: Consumer → B2B,Operations
+- `tags`: Infrastructure,AI → Artificial Intelligence,Infrastructure
 
-### [Cactus Compute](https://www.ycombinator.com/companies/cactus-compute)
+### [Hemlock](https://www.ycombinator.com/companies/hemlock)
 
-- `one_liner`: Tiny Edge AI For Tiny Devices → Automation Foundation Models For Tiny Devices
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/bbacf68d8da77e7a11ad346712dd48cf4d50347d.png → https://bookface-images.s3.amazonaws.com/small_logos/f772c44a8588e4bf3012c9f219bcb8503834bddb.png
 
-### [Instinct](https://www.ycombinator.com/companies/instinct-xyz)
+### [Lark](https://www.ycombinator.com/companies/lark-2)
 
-- `one_liner`: Trade your instinct → Trade with superhuman instinct
-
-### [Belvedir](https://www.ycombinator.com/companies/belvedir)
-
-- `one_liner`: Custom Model Factory For Cheaper, Better, Faster AI → Custom model factory for cheaper, better, faster AI
-- `tags`: Machine Learning,AI → Artificial Intelligence,Machine Learning
-
-### [DeepMark](https://www.ycombinator.com/companies/deepmark)
-
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/c443c87dd89559f3656ebd3f92b941ded93ff4dd.png → https://bookface-images.s3.amazonaws.com/small_logos/1bd6059d7d9d25b086256c7ab3a4a2b53f609362.png
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/1fa063810ecce7347eb451a813a33fc49dd7242c.png → https://bookface-images.s3.amazonaws.com/small_logos/658417946c5809d1681eb90f9636442c2526cc5c.png
+- `tags`: B2B,Supply Chain,AI → Artificial Intelligence,B2B,Supply Chain

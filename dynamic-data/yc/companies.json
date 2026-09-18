@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-09-17T20:48:29.475Z",
-  "count": 6229,
+  "fetchedAt": "2026-09-18T03:27:09.435Z",
+  "count": 6232,
   "companies": [
     {
       "id": 38127,
@@ -91,11 +91,54 @@
       "url": "https://www.ycombinator.com/companies/maritime"
     },
     {
+      "id": 37995,
+      "name": "Sintropix",
+      "slug": "sintropix",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/8e0565abd52682e4249720fb4eb646f17fbbdd65.png",
+      "website": "https://sintropix.com/",
+      "all_locations": "Santiago, Santiago Metropolitan Region, Chile",
+      "long_description": "Autonomous accounting platform for global companies. We close your books and give you financial clarity while you run your business. ",
+      "one_liner": "Autonomous accounting platform for global companies",
+      "team_size": 2,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "B2B",
+      "subindustry": "B2B -> Finance and Accounting",
+      "launched_at": 1789679183,
+      "tags": [
+        "Fintech",
+        "B2B",
+        "AI"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Fall 2026",
+      "status": "Active",
+      "industries": [
+        "B2B",
+        "Finance and Accounting"
+      ],
+      "regions": [
+        "Chile",
+        "Latin America"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/sintropix"
+    },
+    {
       "id": 37601,
       "name": "Lark",
       "slug": "lark-2",
       "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/1fa063810ecce7347eb451a813a33fc49dd7242c.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/658417946c5809d1681eb90f9636442c2526cc5c.png",
       "website": "https://trylark.ai",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Lark builds specialized AI agents that automate manual workflows for wholesale distributors. Our agents work with existing ERP systems, learning from each distributor’s historical data and the team’s decisions. Together, these agents can run a distributor’s entire operation.",
@@ -108,9 +151,9 @@
       "subindustry": "Industrials",
       "launched_at": 1789595493,
       "tags": [
+        "Artificial Intelligence",
         "B2B",
-        "Supply Chain",
-        "AI"
+        "Supply Chain"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -1086,7 +1129,7 @@
       "name": "Hemlock",
       "slug": "hemlock",
       "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/bbacf68d8da77e7a11ad346712dd48cf4d50347d.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/f772c44a8588e4bf3012c9f219bcb8503834bddb.png",
       "website": "https://hemlock.inc",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Every serious robotics lab is bottlenecked on the same thing: demonstration data. The field has converged on egocentric video and hand pose as the substrate, and both are now cheap to collect at scale. What neither of them contains is force. A video of someone picking up an egg and a video of someone picking up a rock are nearly identical in pixel space and nearly identical in joint angles. They differ almost entirely in a quantity nobody is recording. Policies trained without it learn geometry and inherit no sense of touch.\r\n\r\nHemlock closes that gap at the source. Our device, the Bracelet, is a wrist-worn surface EMG band that reads the electrical activity of the forearm muscles that actually drive the hand, which means it recovers contraction force directly rather than inferring it from motion. This distinction is the whole thesis: force cannot be reconstructed downstream of kinematics, because a hand squeezing hard isometrically and a hand resting can occupy the identical pose. Muscle signal is the only non-invasive channel that separates them.",
@@ -1436,7 +1479,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/6640b732eb4efe17f2fb11ff75f6f6bc14184872.png",
       "website": "https://withhopper.com",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Our customers use Hopper today for two things: replacing GPT-4.1 with Gemma-4 (6x faster), and replacing Elevenlabs with qwen3-tts (8x cheaper).",
+      "long_description": "Hopper post-trains STT, TTS, and speech LLMs on your production calls, then serves and improves them against your live traffic",
       "one_liner": "Fast inference for voice",
       "team_size": 2,
       "highlight_black": false,
@@ -1446,8 +1489,8 @@
       "subindustry": "B2B -> Infrastructure",
       "launched_at": 1788561875,
       "tags": [
-        "Infrastructure",
-        "AI"
+        "Artificial Intelligence",
+        "Infrastructure"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -1696,8 +1739,8 @@
       "website": "https://micora.com",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Micora builds a solar-farm-in-a-box that can be shipped anywhere and built without specialized labor. We have designed a new type of solar farm micorgrid that is palletized, lightweight, and deployable. Our system autonomously builds 100kWp of capacity per day and is easily scalable to MWs of capacity which is a size currently only serviced by slow moving and at capacity EPCs. \r\n\r\nAs demand from data centers, advanced manufacturing, and electrification strains existing power infrastructure, the ability to deploy substantial generation quickly is becoming increasingly valuable and unavailable. We are the only company that services utility-scale power needs in weeks. ",
-      "one_liner": "Solar farm in a box built anywhere in days",
-      "team_size": 2,
+      "one_liner": "Microgrids in a box built anywhere in days",
+      "team_size": 3,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -1946,6 +1989,96 @@
       "app_answers": null,
       "question_answers": false,
       "url": "https://www.ycombinator.com/companies/capveon"
+    },
+    {
+      "id": 35025,
+      "name": "Inflection Space Systems",
+      "slug": "inflection-space-systems",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/9391545f5f098175eca1fe35fba695db3a2e0766.png",
+      "website": "https://inflection-space.com/",
+      "all_locations": "Los Angeles, CA, USA",
+      "long_description": "Inflection is building the industrial capacity to manufacture tens of thousands of spacecraft per year for next generation commercial and government space applications. Imagine a factory that looks like an Amazon fulfillment center instead of a NASA clean room.",
+      "one_liner": "Hyperscaling space manufacturing",
+      "team_size": 0,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "Industrials",
+      "subindustry": "Industrials -> Aviation and Space",
+      "launched_at": 1789683191,
+      "tags": [
+        "Satellites",
+        "Manufacturing",
+        "Defense"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Fall 2026",
+      "status": "Active",
+      "industries": [
+        "Industrials",
+        "Aviation and Space"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada",
+        "Remote",
+        "Partly Remote"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/inflection-space-systems"
+    },
+    {
+      "id": 34959,
+      "name": "Applied Kinetics",
+      "slug": "applied-kinetics",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/37b9d51b8dac4842b77d6d1cdc4770519c02f477.png",
+      "website": "https://appliedkinetics.ai",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "Applied Kinetics builds and deploys specialized AI employees to handle the coordination work behind America's energy and data center buildout. Our agents chase suppliers, track equipment approvals and delivery dates, and flag delays so project teams can keep critical equipment moving without hunting for updates across emails and spreadsheets.",
+      "one_liner": "AI for the industries that power America. ",
+      "team_size": 2,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "B2B",
+      "subindustry": "B2B -> Supply Chain and Logistics",
+      "launched_at": 1789683444,
+      "tags": [
+        "B2B",
+        "Supply Chain",
+        "Procurement",
+        "Energy",
+        "AI"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Fall 2026",
+      "status": "Active",
+      "industries": [
+        "B2B",
+        "Supply Chain and Logistics"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/applied-kinetics"
     },
     {
       "id": 34928,
@@ -12924,9 +13057,9 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/0fb7d11f60217eaded2ae0e96dbee3bf9ebcd68c.png",
       "website": "https://www.runtm.com/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Runtime helps fast-growing fintechs build and run AI agents for financial operations. Teams turn their procedures into specialized agents that work across their systems, with scoped access, human approvals, and a full audit trail.",
+      "long_description": "Runtime helps fast-growing fintechs build and run AI agents for mission-critical financial operations. Teams turn their procedures into specialized agents that work across their systems, with scoped access, human approvals, and a full audit trail.",
       "one_liner": "AI agents for financial operations",
-      "team_size": 5,
+      "team_size": 7,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -19468,7 +19601,7 @@
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Dispatch is building refurbishable reentry vehicles that host and return payloads for companies making ultra-high-value materials (semiconductors, biotech, and pharma) that can only be manufactured in space. Right now, these companies have no practical way to manufacture and get their products back to Earth. We solve this bottleneck.\r\n\r\nWe just returned from the Mojave Desert testing our first full-scale reentry heat shield designed to protect the satellite as it returns from space at Mach 20+, built in an apartment for 100x cheaper than competitors. To test, we held it behind a rocket engine to simulate the forces of atmospheric reentry. IT WORKED! Watch here - https://youtu.be/dhlQmnIoptg\r\n\r\nTo scale, we anchor permanent infrastructure in orbit - building high power Autonomous Space Stations designed from day one for \"lights-out\" manufacturing serviced by the reentry vehicles.",
       "one_liner": "Satellites for Manufacturing in Space",
-      "team_size": 2,
+      "team_size": 4,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -31082,15 +31215,18 @@
     },
     {
       "id": 30928,
-      "name": "Thesis",
-      "slug": "thesis",
+      "name": "Darwin",
+      "slug": "darwin",
       "former_names": [
-        "Thesis Labs"
+        "Thesis Labs",
+        "Thesis",
+        "Darwin",
+        "Thesis"
       ],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/834b16b30c5de79bf9dbcd0a4819289bfa937936.png",
       "website": "https://thesislabs.ai",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Thesis is building Darwin, a humanoid robot for the home. AI is about to leave the screen and enter the physical world. Darwin will learn from real-world experience and continuously improve. First deployments begin in early 2027.",
+      "long_description": "Darwin is building general-purpose humanoid robots for real-world work. Our first robot, Darwin One, will learn from real-world experience and continuously improve as AI moves from the screen into the physical world. First deployments begin in early 2027.",
       "one_liner": "Humanoid robots",
       "team_size": 3,
       "highlight_black": false,
@@ -31100,10 +31236,10 @@
       "subindustry": "Industrials -> Manufacturing and Robotics",
       "launched_at": 1762476616,
       "tags": [
+        "Artificial Intelligence",
         "Hard Tech",
         "Machine Learning",
-        "Robotics",
-        "AI"
+        "Robotics"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -31124,7 +31260,7 @@
       "demo_day_video_public": false,
       "app_answers": null,
       "question_answers": true,
-      "url": "https://www.ycombinator.com/companies/thesis"
+      "url": "https://www.ycombinator.com/companies/darwin"
     },
     {
       "id": 30927,
@@ -36734,7 +36870,7 @@
       "highlight_latinx": false,
       "highlight_women": false,
       "industry": "Industrials",
-      "subindustry": "Industrials",
+      "subindustry": "Industrials -> Aviation and Space",
       "launched_at": 1752681359,
       "tags": [
         "Hardware",
@@ -36748,7 +36884,8 @@
       "batch": "Summer 2025",
       "status": "Active",
       "industries": [
-        "Industrials"
+        "Industrials",
+        "Aviation and Space"
       ],
       "regions": [
         "United States of America",
@@ -44206,22 +44343,23 @@
     },
     {
       "id": 30515,
-      "name": "Libretto",
-      "slug": "libretto",
+      "name": "Cashew Labs",
+      "slug": "cashew-labs",
       "former_names": [
-        "Saffron Health"
+        "Saffron Health",
+        "Libretto"
       ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/2ab7b1807b8d28eb8c42b24701e5f9b9db153ee8.png",
-      "website": "https://libretto.sh",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/75b5481cd9f0b4c66c6e8e42e15816b3489d5c81.png",
+      "website": "https://cashew-labs.com/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Libretto is an open-source CLI that lets agents turn website workflows into fast, reusable scripts you can deploy\r\n\r\nThe problem: Most browser automation tools work by sending an AI agent to operate a website in real time, like a robot typing and clicking on your behalf. This is slow, expensive, and unpredictable. They rely on fragile DOM parsing that breaks on legacy and complex sites, and you can never fully trust what the agent will do on unintuitive or inconsistent workflows.\r\n\r\nOur approach: Libretto helps your coding agents generate workflows as actual, readable code during development, not at runtime. Under the hood it combines Playwright with direct in-session network/API calls for reliability and bot detection evasion. It also supports step-through debugging and a read-only mode to prevent accidental data changes while your agent builds and debugs workflows.\r\n\r\nThis makes Libretto cheaper, faster, and easier to maintain, especially for more complex websites and high stakes workflows.",
-      "one_liner": "Turn website workflows into reliable APIs",
+      "long_description": "Cashew Labs builds open source tools for recursive self improvement. Their tools enable self-modifying interfaces and LLMs that post-train themselves.",
+      "one_liner": "Recursive self improving harnesses and models",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
-      "industry": "Healthcare",
-      "subindustry": "Healthcare -> Healthcare Services",
+      "industry": "B2B",
+      "subindustry": "B2B",
       "launched_at": 1762272308,
       "tags": [],
       "tags_highlighted": [],
@@ -44231,8 +44369,7 @@
       "batch": "Spring 2025",
       "status": "Active",
       "industries": [
-        "Healthcare",
-        "Healthcare Services"
+        "B2B"
       ],
       "regions": [
         "United States of America",
@@ -44243,7 +44380,7 @@
       "demo_day_video_public": false,
       "app_answers": null,
       "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/libretto"
+      "url": "https://www.ycombinator.com/companies/cashew-labs"
     },
     {
       "id": 30514,
@@ -45037,7 +45174,7 @@
       "former_names": [
         "Prism AI"
       ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/973718be82b1053c971c2efe1c5263b785ae3711.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/12dc6e609224f33b9c452f9656b3020116496003.png",
       "website": "https://prisminference.com",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "We sell tokens",
@@ -47124,17 +47261,18 @@
     },
     {
       "id": 30435,
-      "name": "Alpha Research",
-      "slug": "alpha-research",
+      "name": "Method",
+      "slug": "method",
       "former_names": [
         "Zenobia Pay",
-        "Dolphin"
+        "Dolphin",
+        "Alpha Research"
       ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/9da4ac9dd6be01478b419bbfd282d5e379179bc8.png",
-      "website": "https://alpharesearch.nyc/",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/9706bbce9dc3489f8db897884b3967bde457e6ca.png",
+      "website": "https://withmethod.ai/",
       "all_locations": "New York City, NY, USA",
-      "long_description": "Alpha Research builds open source agentic knowledge bases. Our mission is to help knowledge workers work 100x faster. We launched and open sourced our first platform, Alpha Book on a mirror of the Project Gutenberg dataset (75,000 books).\r\n\r\nKnowledge work is bottlenecked in two key ways: finding evidence and testing hypotheses. We make both 100x faster. We extend keyword search and RAG with general coding agents, which use filesystem tools like ripgrep and reason iteratively to find broad evidence. Coding agents also write ad-hoc scripts to label datasets and test hypotheses.\r\n\r\nOur timeline is simple: repeat Alpha Book across every public dataset of humanity's knowledge. Next we'll launch Alpha Econ with US Census, BLS, NBER, etc datasets. Alpha Justice with US Supreme Court Cases, and so on. We support museums, research libraries, historical societies, and archives. We also do custom integration work for enterprise.",
-      "one_liner": "Open source, agentic knowledge bases for all of humanity's knowledge.",
+      "long_description": "Method turns repeated work into workflows your coding agent can run, check, and improve.",
+      "one_liner": "Agents that improve",
       "team_size": 1,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -47143,7 +47281,7 @@
       "subindustry": "B2B -> Engineering, Product and Design",
       "launched_at": 1747591533,
       "tags": [
-        "Market Research"
+        "Artificial Intelligence"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -47164,7 +47302,7 @@
       "demo_day_video_public": false,
       "app_answers": null,
       "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/alpha-research"
+      "url": "https://www.ycombinator.com/companies/method"
     },
     {
       "id": 30434,
@@ -70216,12 +70354,12 @@
       "former_names": [
         "mdhub Inc"
       ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/dd82f4e0241c51007ca4b9aef139a8ebeb515e7f.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c645ee5ac2dfc857e6927bf9a9ef4fb62efe8521.png",
       "website": "https://www.mdhub.ai/",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "mdhub is the AI-native operating system for behavioral health. \r\n\r\nWe combine AI workers with a purpose-built EHR, CRM, and RCM into one platform where clinical teams and AI collaborate across every workflow.\r\n\r\nMid to large-sized behavioral health clinics run on disconnected legacy systems that weren't designed for today's demand. The result: clinician burnout, admin bloat, and patients waiting weeks for care. mdhub replaces the entire fragmented stack with a single AI-first platform.\r\n\r\nOur AI workers:\r\n\r\nEmma, AI Clinical Assistant: automates documentation and gives clinicians back hours every day.\r\nSarah, AI Admissions Coordinator: handles 100% of inbound calls, verifies insurance, and books patients 24/7.\r\nEric, AI Billing Agent: manages coding, claims submission, and denial management same-day.\r\n\r\nOur platform:\r\n\r\nmdhub EHR: the first clinical workspace built for AI from day one. Documentation, intake, treatment planning, e-prescribing, and billing in one place.\r\nmdhub CRM: every lead captured, every follow-up automated, nothing falls through the cracks.\r\nmdhub RCM: end-to-end revenue cycle management. From claim submission to collections, AI-powered and fully integrated.\r\n\r\nWe're not another EHR with AI bolted on. We're not a point solution. We're the full operating system where AI workers and human teams run a clinic together. Hundreds of mid to large-sized behavioral health clinics use mdhub today, including some of the largest organizations in the country. One platform, less overhead, more patients seen.",
       "one_liner": "AI-native operating system for behavioral health clinics.",
-      "team_size": 15,
+      "team_size": 25,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
