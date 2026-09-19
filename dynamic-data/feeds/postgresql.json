@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-09-18T15:54:31.629Z",
+  "updatedAt": "2026-09-19T03:23:27.841Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -1777,7 +1777,31 @@
       "summary": "Two client connections, opened one after the other through PgBouncer transaction mode, asked the same database whose rows they were allowed to see, and the second one got the first one's answer. It had set nothing, it had never met the first caller, and the rows it read belonged to that caller's…",
       "author": null,
       "publishedAt": "2026-09-18T00:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9v7",
+      "title": "Christophe Pettus: All Your GUCs in a Row: max_parallel_maintenance_workers",
+      "link": "https://postgr.es/p/9v7",
+      "summary": "max_parallel_maintenance_workers is a ceiling, and most of the time something lower gets there first. It caps the number of parallel workers a single utility command may start. The default is 2, the context is user, and the range is 0 to 1024, with 0 turning parallel maintenance off. Raising it i…",
+      "author": null,
+      "publishedAt": "2026-09-19T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9v6",
+      "title": "Mark Wong: Sizing an OLTP TPC-E-like workload, Part 1",
+      "link": "https://postgr.es/p/9v6",
+      "summary": "I used AI tools to size an OLTP workload on an EC2 system, with DBT-5, a TPC-E-like fair-use implementation. I provided a systematic and mechanical plan for running a series of tests to determine what the appropriate scale factor is on a system.\nI pre-configured the database with some settings that…",
+      "author": null,
+      "publishedAt": "2026-09-19T00:41:25.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9v8",
+      "title": "Shaun Thomas: Looking Forward to Postgres 19: Epilogue",
+      "link": "https://postgr.es/p/9v8",
+      "summary": "The future of Postgres is bright. So bright in fact, that I spent almost a dozen posts expounding on the upcoming features it would bring, with veritable stars in my eyes. Unfortunately, while I was out counting my chickens, it would seem some of these exciting new features failed to hatch.How, and…",
+      "author": null,
+      "publishedAt": "2026-09-18T16:52:18.000Z"
     }
   ],
-  "totalIndexed": 221
+  "totalIndexed": 224
 }
