@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-09-16T16:13:34.221Z",
+  "updatedAt": "2026-09-19T19:50:10.146Z",
   "items": [
     {
       "guid": "daniel-doubrovkine-db::https://code.dblock.org/2026/05/05/coding-with-ai-agents-is-now-a-baseline-expectation-for-managers.html",
@@ -183,7 +183,15 @@
       "summary": "Slava (slack-strava) connects a Strava account to a chat and posts a card for every activity, complete with map, pace, and elevation, plus commands like connect, disconnect, stats, and leaderboard. In 2023 I ported Slava to Discord by hand, evening by evening over about three weeks, and it took…",
       "author": "Daniel Doubrovkine",
       "publishedAt": "2026-09-16T00:00:00.000Z"
+    },
+    {
+      "guid": "daniel-doubrovkine-db::https://code.dblock.org/2026/09/19/serving-markdown-with-a-jekyll-plugin.html",
+      "title": "Serving Markdown for AI Agents, Now as a Jekyll Plugin",
+      "link": "https://code.dblock.org/2026/09/19/serving-markdown-with-a-jekyll-plugin.html",
+      "summary": "Back in January I wrote Serving Markdown for AI Agents: for every page on this blog, there’s also a .md version at the same URL, discoverable via a <link rel=\"alternate\" type=\"text/markdown\"> tag, so AI agents can fetch clean Markdown instead of parsing HTML. It also made me $360, via referral…",
+      "author": "Daniel Doubrovkine",
+      "publishedAt": "2026-09-19T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 22
+  "totalIndexed": 23
 }

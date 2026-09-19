@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-08-28T01:58:06.776Z",
+  "updatedAt": "2026-09-19T19:50:10.968Z",
   "items": [
     {
       "guid": "eli-bendersky::https://eli.thegreenplace.net/2026/notes-on-the-fourier-transform/",
@@ -79,7 +79,15 @@
       "summary": "The other day, I found myself wondering how big 52! (52 factorial) is,\nand that led me to ponder how these could be estimated without a\ncalculator or a computer.\nIt turns out there’s some fairly interesting math behind being able to\nestimate the size (number of digits) of a factorial reasonably…",
       "author": "Eli Bendersky",
       "publishedAt": "2026-08-28T01:52:00.000Z"
+    },
+    {
+      "guid": "eli-bendersky::https://eli.thegreenplace.net/2026/notes-on-discrete-time-fourier-series-and-transform/",
+      "title": "Notes on discrete-time Fourier series and transform",
+      "link": "https://eli.thegreenplace.net/2026/notes-on-discrete-time-fourier-series-and-transform/",
+      "summary": "The following are my notes on discrete-time Fourier series (DTFS), as\nwell as the discrete-time Fourier transform (DTFT). These topics serve\nas an important theoretical underpinning to the digital processing of\nsignals by computers using the DFT (which will be covered in a future\npost).\nFor…",
+      "author": "Eli Bendersky",
+      "publishedAt": "2026-09-19T16:39:00.000Z"
     }
   ],
-  "totalIndexed": 9
+  "totalIndexed": 10
 }
