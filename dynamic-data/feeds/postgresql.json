@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-09-19T03:23:27.841Z",
+  "updatedAt": "2026-09-20T03:40:23.589Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -1801,7 +1801,23 @@
       "summary": "The future of Postgres is bright. So bright in fact, that I spent almost a dozen posts expounding on the upcoming features it would bring, with veritable stars in my eyes. Unfortunately, while I was out counting my chickens, it would seem some of these exciting new features failed to hatch.How, and…",
       "author": null,
       "publishedAt": "2026-09-18T16:52:18.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9va",
+      "title": "Christophe Pettus: All Your GUCs in a Row: max_parallel_workers and max_parallel_workers_per_gather",
+      "link": "https://postgr.es/p/9va",
+      "summary": "Neither of these parameters means what its name says. max_parallel_workers_per_gather is the most workers the planner is allowed to request for one plan node, and the planner usually requests fewer. max_parallel_workers is documented as a limit for the whole cluster, and it is enforced by compari…",
+      "author": null,
+      "publishedAt": "2026-09-20T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9v9",
+      "title": "Henrietta Dombrovskaya: Major updates to pg_acm",
+      "link": "https://postgr.es/p/9v9",
+      "summary": "I did it! The most important thing I anticipated after leaving DRW was having more time for important work, and one of the top items on my to-do list was the pg_acm update. \nI already knew about two dozen bugs I needed to fix; several new functions people asked about. In addition, I had several…",
+      "author": null,
+      "publishedAt": "2026-09-20T00:16:32.000Z"
     }
   ],
-  "totalIndexed": 224
+  "totalIndexed": 226
 }
