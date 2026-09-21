@@ -1,52 +1,95 @@
 # YC Company Changes for 2026-09-21
 
 - Previous total: 6242
-- Current total: 6242
-- Added: 0
+- Current total: 6244
+- Added: 2
 - Removed: 0
-- Updated: 10
+- Updated: 19
 
+
+## Added Companies
+
+- [Grep AI](https://www.ycombinator.com/companies/grep-ai) (Fall 2026) — AI agents that automate high-stakes knowledge work you can't afford…
+- [Bryel](https://www.ycombinator.com/companies/bryel) (Fall 2026) — Devin for AI Research Engineering
 
 ## Updated Companies
 
-### [Vastrm](https://www.ycombinator.com/companies/vastrm)
-
-- `status`: Active → Acquired
-
-### [AmberBox Gunshot Detection](https://www.ycombinator.com/companies/amberbox-gunshot-detection)
-
-- `all_locations`: Hamilton, Pembroke Parish, Bermuda; San Francisco, CA, USA → New York City, NY, USA
-- `regions`: Bermuda,United States of America,America / Canada → United States of America,America / Canada
-
-### [Keeper](https://www.ycombinator.com/companies/keeper-2)
+### [Mux](https://www.ycombinator.com/companies/mux)
 
 - `isHiring`: true → false
 
-### [Repool](https://www.ycombinator.com/companies/repool)
+### [Lygos](https://www.ycombinator.com/companies/lygos)
 
-- `isHiring`: true → false
+- `one_liner`: Lygos engineers yeast to convert sugar into high-value industrial… → Lygos (W16) built and commercialized sustainable, high-performance…
+- `stage`: Growth → Early
 
-### [Govly](https://www.ycombinator.com/companies/govly)
+### [Camber](https://www.ycombinator.com/companies/camber-2)
 
-- `isHiring`: true → false
+- `stage`: Growth → Early
 
-### [Starling](https://www.ycombinator.com/companies/starling)
+### [Andson Biotech](https://www.ycombinator.com/companies/andson-biotech)
 
-- `isHiring`: true → false
+- `isHiring`: false → true
 
-### [Multifactor](https://www.ycombinator.com/companies/multifactor)
+### [LiteLLM](https://www.ycombinator.com/companies/litellm)
 
-- `isHiring`: true → false
+- `team_size`: 10 → 20
 
-### [Prescience, Inc.](https://www.ycombinator.com/companies/prescience-inc)
+### [Roame](https://www.ycombinator.com/companies/roame)
+
+- `team_size`: 2 → 3
+- `tags`: Artificial Intelligence,SaaS,Travel,Airlines,Consumer Finance → SaaS,Travel,Airlines,Consumer Finance,AI
+
+### [Tracecat](https://www.ycombinator.com/companies/tracecat)
+
+- `one_liner`: The open source AI-native security automation platform → Open-source agentic security automation platform
+
+### [Unsloth AI](https://www.ycombinator.com/companies/unsloth-ai)
+
+- `team_size`: 8 → 12
+
+### [Party](https://www.ycombinator.com/companies/party)
+
+- `team_size`: 7 → 8
+
+### [Presti AI](https://www.ycombinator.com/companies/presti-ai)
+
+- `team_size`: 16 → 3
+
+### [Helium](https://www.ycombinator.com/companies/helium)
+
+- `team_size`: 7 → 9
+
+### [Origami](https://www.ycombinator.com/companies/origami-2)
+
+- `one_liner`: Get your perfect customers with one prompt → Enter your domain & Origami gets you customers.
+
+### [Outlit](https://www.ycombinator.com/companies/outlit)
+
+- `one_liner`: Retain and Grow Every Customer → Protect and Grow Long-tail Revenue 
+
+### [Fernstone](https://www.ycombinator.com/companies/fernstone)
 
 - `team_size`: 2 → 5
 
-### [LegalOS](https://www.ycombinator.com/companies/legalos)
+### [TectoAI](https://www.ycombinator.com/companies/tectoai)
 
-- `isHiring`: true → false
+- `status`: Active → Inactive
 
-### [Veriad](https://www.ycombinator.com/companies/veriad)
+### [Copperlane](https://www.ycombinator.com/companies/copperlane)
 
-- `one_liner`: AI operating system for marketing → AI operating system for advertising
-- `tags`: B2B,Marketing,Advertising,AI → Artificial Intelligence,B2B,Marketing,Advertising
+- `isHiring`: false → true
+
+### [Arzana](https://www.ycombinator.com/companies/arzana)
+
+- `team_size`: 6 → 9
+
+### [GBrain](https://www.ycombinator.com/companies/gbrain)
+
+- `name`: gbrain.io → GBrain
+- `slug`: gbrainio → gbrain
+- `former_names`: The Overton Window Company,Gbrain.io → The Overton Window Company,Gbrain.io,gbrain.io
+
+### [Simulithic](https://www.ycombinator.com/companies/simulithic)
+
+- `tags`: Artificial Intelligence → AI

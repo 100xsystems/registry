@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-09-21T12:28:44.393Z",
+  "updatedAt": "2026-09-21T21:30:09.068Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -1833,7 +1833,15 @@
       "summary": "Parallel apply workers speed up logical replication of large transactions—but only if you have enough of them.",
       "author": null,
       "publishedAt": "2026-09-21T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9vk",
+      "title": "Bruce Momjian: The Promise of Non-Volatile Memory",
+      "link": "https://postgr.es/p/9vk",
+      "summary": "Relational databases like Postgres provide many unique features, specifically atomicity, consistency, isolation, and durability\n(ACID), but providing durability has always been a challenge.  Though computers originally used non-volatile\nmagnetic-core memory, the past five decades have been…",
+      "author": null,
+      "publishedAt": "2026-09-21T19:00:01.000Z"
     }
   ],
-  "totalIndexed": 228
+  "totalIndexed": 229
 }
