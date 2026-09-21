@@ -8,7 +8,7 @@
     "compiler",
     "performance"
   ],
-  "updatedAt": "2026-09-17T20:48:11.302Z",
+  "updatedAt": "2026-09-21T17:54:50.063Z",
   "items": [
     {
       "guid": "rust-blog::https://blog.rust-lang.org/2026/07/16/Rust-1.97.1/",
@@ -6009,7 +6009,15 @@
       "summary": "We believe that there is an ongoing campaign targeting rust-lang members and\nowners of popular crates that is attempting to compromise devices and accounts\nin order to use them to publish malware.\n\nWhat we've seen\nA video call is set up for something positive — maybe for a job, maybe for a\nproject,…",
       "author": "Adam Harvey",
       "publishedAt": "2026-09-17T00:00:00.000Z"
+    },
+    {
+      "guid": "rust-blog::https://blog.rust-lang.org/2026/09/21/github-actions-leaking-secrets-when-miri-output-is-cached/",
+      "title": "GitHub Actions leaking secrets when Miri output is cached",
+      "link": "https://blog.rust-lang.org/2026/09/21/github-actions-leaking-secrets-when-miri-output-is-cached/",
+      "summary": "The Rust Security Response Team was notified that Miri stores all environment variables to target/, allowing secrets to persist in caches.\nWhile not necessary a vulnerability in and of itself, when paired with GitHub Actions caching behavior, it is possible for this to expose secrets to PRs.…",
+      "author": "Manish Goregaokar",
+      "publishedAt": "2026-09-21T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 750
+  "totalIndexed": 751
 }

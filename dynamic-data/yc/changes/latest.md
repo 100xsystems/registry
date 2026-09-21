@@ -1,32 +1,52 @@
 # YC Company Changes for 2026-09-21
 
-- Previous total: 6241
+- Previous total: 6242
 - Current total: 6242
-- Added: 1
+- Added: 0
 - Removed: 0
-- Updated: 4
+- Updated: 10
 
-
-## Added Companies
-
-- [Decent](https://www.ycombinator.com/companies/decent-com) (Fall 2026) — Continuous optimization for employer health plans.
 
 ## Updated Companies
 
-### [Patched](https://www.ycombinator.com/companies/patched)
+### [Vastrm](https://www.ycombinator.com/companies/vastrm)
+
+- `status`: Active → Acquired
+
+### [AmberBox Gunshot Detection](https://www.ycombinator.com/companies/amberbox-gunshot-detection)
+
+- `all_locations`: Hamilton, Pembroke Parish, Bermuda; San Francisco, CA, USA → New York City, NY, USA
+- `regions`: Bermuda,United States of America,America / Canada → United States of America,America / Canada
+
+### [Keeper](https://www.ycombinator.com/companies/keeper-2)
 
 - `isHiring`: true → false
 
-### [Wafer](https://www.ycombinator.com/companies/wafer)
+### [Repool](https://www.ycombinator.com/companies/repool)
 
-- `stage`: Early → Growth
+- `isHiring`: true → false
 
-### [stagewise](https://www.ycombinator.com/companies/stagewise)
+### [Govly](https://www.ycombinator.com/companies/govly)
 
-- `tags`:  → Artificial Intelligence,Developer Tools,Open Source
+- `isHiring`: true → false
 
-### [Juno](https://www.ycombinator.com/companies/juno-chat)
+### [Starling](https://www.ycombinator.com/companies/starling)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/e0c6bb59547978fc3036953e8d43c990c8c000fc.png → https://bookface-images.s3.amazonaws.com/small_logos/3a72885d00b3ce4174fa9f0ed74a4a9a2a0a0898.png
-- `all_locations`: San Francisco, CA, USA → London, England, United Kingdom
-- `regions`: United States of America,America / Canada → United Kingdom,Europe
+- `isHiring`: true → false
+
+### [Multifactor](https://www.ycombinator.com/companies/multifactor)
+
+- `isHiring`: true → false
+
+### [Prescience, Inc.](https://www.ycombinator.com/companies/prescience-inc)
+
+- `team_size`: 2 → 5
+
+### [LegalOS](https://www.ycombinator.com/companies/legalos)
+
+- `isHiring`: true → false
+
+### [Veriad](https://www.ycombinator.com/companies/veriad)
+
+- `one_liner`: AI operating system for marketing → AI operating system for advertising
+- `tags`: B2B,Marketing,Advertising,AI → Artificial Intelligence,B2B,Marketing,Advertising

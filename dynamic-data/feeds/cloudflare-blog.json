@@ -9,7 +9,7 @@
     "performance",
     "edge-computing"
   ],
-  "updatedAt": "2026-09-18T20:13:39.775Z",
+  "updatedAt": "2026-09-21T17:54:50.039Z",
   "items": [
     {
       "guid": "01KY2432VQPD5FTF2RARXXYQGH",
@@ -61706,7 +61706,15 @@
       "summary": "Cloudflare's global network is immense but not limitless. As we look for small ways to trim our resource usage, we sometimes get lucky and we can cut significantly more. Here’s how we reduced one of our Pingora-based service's RAM usage with statistics.",
       "author": "Kevin Guthrie",
       "publishedAt": "2026-09-18T17:23:58.000Z"
+    },
+    {
+      "guid": "01M2V3682PGT0BQZV5H15J7FSE",
+      "title": "Python Workers are now generally available",
+      "link": "https://blog.cloudflare.com/python-workers-ga/",
+      "summary": "Python Workers allow developers to run Python web frameworks and AI orchestration libraries natively in the Cloudflare Workers runtime. You can seamlessly integrate with Cloudflare's ecosystem including D1, R2, and Workers AI without writing any JavaScript glue code.",
+      "author": "Gyeongjae Choi",
+      "publishedAt": "2026-09-21T13:00:00.000Z"
     }
   ],
-  "totalIndexed": 7712
+  "totalIndexed": 7713
 }
