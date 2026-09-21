@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-09-20T03:40:23.589Z",
+  "updatedAt": "2026-09-21T12:28:44.393Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -1817,7 +1817,23 @@
       "summary": "I did it! The most important thing I anticipated after leaving DRW was having more time for important work, and one of the top items on my to-do list was the pg_acm update. \nI already knew about two dozen bugs I needed to fix; several new functions people asked about. In addition, I had several…",
       "author": null,
       "publishedAt": "2026-09-20T00:16:32.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9vg",
+      "title": "Cornelia Biacsics: Contributions for week 37",
+      "link": "https://postgr.es/p/9vg",
+      "summary": "On 16 September 2026, the Postgres Meetup for All user group met, organized by Elizabeth Christensen and Ryan Booz. Ryan Booz and Greg Potter delivered a talk. \nOn 18 September 2026, Claire Giordano and Aaron Wislang hosted and published a new podcast episode “25 years of contributing to Postgres…",
+      "author": null,
+      "publishedAt": "2026-09-21T07:07:18.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9vf",
+      "title": "Christophe Pettus: All Your GUCs in a Row: max_parallel_apply_workers_per_subscription",
+      "link": "https://postgr.es/p/9vf",
+      "summary": "Parallel apply workers speed up logical replication of large transactions—but only if you have enough of them.",
+      "author": null,
+      "publishedAt": "2026-09-21T01:00:00.000Z"
     }
   ],
-  "totalIndexed": 226
+  "totalIndexed": 228
 }

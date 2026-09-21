@@ -1,47 +1,32 @@
 # YC Company Changes for 2026-09-21
 
 - Previous total: 6241
-- Current total: 6241
-- Added: 0
+- Current total: 6242
+- Added: 1
 - Removed: 0
-- Updated: 8
+- Updated: 4
 
+
+## Added Companies
+
+- [Decent](https://www.ycombinator.com/companies/decent-com) (Fall 2026) — Continuous optimization for employer health plans.
 
 ## Updated Companies
 
-### [LFcarry](https://www.ycombinator.com/companies/lfcarry)
-
-- `name`: Legionfarm → LFcarry
-- `slug`: legionfarm → lfcarry
-- `former_names`: Rocket Games Entertainment LLC,Rocket Games Entertainment Inc,Legionfarm,Legionfarm Group,LegionFarm → Rocket Games Entertainment LLC,Rocket Games Entertainment Inc,Legionfarm,Legionfarm Group,LegionFarm
-- `team_size`: 7 → 3
-
-### [Codes Health](https://www.ycombinator.com/companies/codes-health)
-
-- `team_size`: 25 → 35
-- `tags`: Health Tech,B2B,LegalTech,AI → Artificial Intelligence,Health Tech,B2B,LegalTech
-
-### [Pave Robotics](https://www.ycombinator.com/companies/pave-robotics)
+### [Patched](https://www.ycombinator.com/companies/patched)
 
 - `isHiring`: true → false
 
-### [MindFort](https://www.ycombinator.com/companies/mindfort)
+### [Wafer](https://www.ycombinator.com/companies/wafer)
 
-- `team_size`: 5 → 6
-- `tags`:  → Artificial Intelligence,Developer Tools,Cybersecurity,Enterprise Software
+- `stage`: Early → Growth
 
-### [Pentagon](https://www.ycombinator.com/companies/pentagon)
+### [stagewise](https://www.ycombinator.com/companies/stagewise)
 
-- `all_locations`: Salt Lake City, UT, USA → San Francisco, CA, USA
+- `tags`:  → Artificial Intelligence,Developer Tools,Open Source
 
-### [flowscope](https://www.ycombinator.com/companies/flowscope)
+### [Juno](https://www.ycombinator.com/companies/juno-chat)
 
-- `isHiring`: false → true
-
-### [Maingen](https://www.ycombinator.com/companies/maingen)
-
-- `website`: https://www.maingen.ai/ → https://www.maingen.com/
-
-### [Jcode](https://www.ycombinator.com/companies/jcode)
-
-- `one_liner`: The harness company → High performance coding agents
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/e0c6bb59547978fc3036953e8d43c990c8c000fc.png → https://bookface-images.s3.amazonaws.com/small_logos/3a72885d00b3ce4174fa9f0ed74a4a9a2a0a0898.png
+- `all_locations`: San Francisco, CA, USA → London, England, United Kingdom
+- `regions`: United States of America,America / Canada → United Kingdom,Europe
