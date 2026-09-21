@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-09-19T15:26:23.639Z",
+  "updatedAt": "2026-09-21T03:35:26.286Z",
   "items": [
     {
       "guid": "https://www.sitepoint.com/how-ai-and-apis-are-changing-everyday-development-work/",
@@ -1583,7 +1583,47 @@
       "summary": "null\n**Data-Driven vs Event-Driven Architecture: How to Pick the Right One**\n          on SitePoint.",
       "author": "TechPanda",
       "publishedAt": "2026-09-19T05:38:46.000Z"
+    },
+    {
+      "guid": "https://www.sitepoint.com/ai-code-hallucinations-typescript-compiler-diagnostics-tdd/",
+      "title": "Eliminating AI Code Hallucinations with TypeScript Compiler Diagnostics and TDD Loops",
+      "link": "https://www.sitepoint.com/ai-code-hallucinations-typescript-compiler-diagnostics-tdd/?utm_source=rss",
+      "summary": "Build a TypeScript diagnostic feedback loop that feeds compiler diagnostics and test failures back to coding agents for verified self-correction.\nEliminating AI Code Hallucinations with TypeScript Compiler Diagnostics and TDD Loops\n          on SitePoint.",
+      "author": "SitePoint Team",
+      "publishedAt": "2026-09-20T14:39:28.000Z"
+    },
+    {
+      "guid": "https://www.sitepoint.com/ci-cd-verification-gates-ai-pull-requests/",
+      "title": "Building Multi-Tier CI/CD Verification Gates for AI Pull Requests",
+      "link": "https://www.sitepoint.com/ci-cd-verification-gates-ai-pull-requests/?utm_source=rss",
+      "summary": "Build a multi-tier GitHub Actions verification pipeline combining AST parsing, property-based, and mutation testing to catch AI logic flaws before review.\nBuilding Multi-Tier CI/CD Verification Gates for AI Pull Requests\n          on SitePoint.",
+      "author": "SitePoint Team",
+      "publishedAt": "2026-09-20T14:39:11.000Z"
+    },
+    {
+      "guid": "https://www.sitepoint.com/distributed-sliding-window-rate-limiter-typescript-redis/",
+      "title": "Building Distributed Sliding-Window Rate Limiters in TypeScript and Redis",
+      "link": "https://www.sitepoint.com/distributed-sliding-window-rate-limiter-typescript-redis/?utm_source=rss",
+      "summary": "Implement an atomic sliding-window rate limiter in TypeScript with Redis sorted sets and Lua, enforcing dual RPM/TPM quotas with standard rate-limit headers.\nBuilding Distributed Sliding-Window Rate Limiters in TypeScript and Redis\n          on SitePoint.",
+      "author": "SitePoint Team",
+      "publishedAt": "2026-09-20T14:38:55.000Z"
+    },
+    {
+      "guid": "https://www.sitepoint.com/postgresql-index-bloat-write-amplification-buffer-cache/",
+      "title": "Diagnosing PostgreSQL Index Bloat, Write Amplification, and Buffer Cache Hit Ratios",
+      "link": "https://www.sitepoint.com/postgresql-index-bloat-write-amplification-buffer-cache/?utm_source=rss",
+      "summary": "Diagnose PostgreSQL index bloat, write amplification, and buffer cache hit ratios with system-catalog SQL queries, then reindex with zero downtime.\nDiagnosing PostgreSQL Index Bloat, Write Amplification, and Buffer Cache Hit Ratios\n          on SitePoint.",
+      "author": "SitePoint Team",
+      "publishedAt": "2026-09-20T14:38:13.000Z"
+    },
+    {
+      "guid": "https://www.sitepoint.com/streaming-generative-ui-react-server-components/",
+      "title": "Architecting Generative UI with Streaming JSON Schemas and React Server Components",
+      "link": "https://www.sitepoint.com/streaming-generative-ui-react-server-components/?utm_source=rss",
+      "summary": "Build streaming Generative UI: parse incremental JSON streams with Zod and hydrate type-safe React Server Component trees in Next.js.\nArchitecting Generative UI with Streaming JSON Schemas and React Server Components\n          on SitePoint.",
+      "author": "SitePoint Team",
+      "publishedAt": "2026-09-20T14:37:41.000Z"
     }
   ],
-  "totalIndexed": 197
+  "totalIndexed": 202
 }

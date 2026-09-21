@@ -1,34 +1,47 @@
-# YC Company Changes for 2026-09-20
+# YC Company Changes for 2026-09-21
 
 - Previous total: 6241
 - Current total: 6241
 - Added: 0
 - Removed: 0
-- Updated: 5
+- Updated: 8
 
 
 ## Updated Companies
 
-### [Precip](https://www.ycombinator.com/companies/precip)
+### [LFcarry](https://www.ycombinator.com/companies/lfcarry)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/509a20e3b0b9622f4073ee1f59c7bb2cb9f1714a.png → https://bookface-images.s3.amazonaws.com/small_logos/ce5bdc762563a51d03ff83ec08044222b14c450e.png
-- `tags`: Consumer,Climate,API,Agriculture,AI → Artificial Intelligence,Consumer,Climate,API,Agriculture
+- `name`: Legionfarm → LFcarry
+- `slug`: legionfarm → lfcarry
+- `former_names`: Rocket Games Entertainment LLC,Rocket Games Entertainment Inc,Legionfarm,Legionfarm Group,LegionFarm → Rocket Games Entertainment LLC,Rocket Games Entertainment Inc,Legionfarm,Legionfarm Group,LegionFarm
+- `team_size`: 7 → 3
 
-### [Wafer](https://www.ycombinator.com/companies/wafer)
+### [Codes Health](https://www.ycombinator.com/companies/codes-health)
 
-- `team_size`: 10 → 15
-- `tags`: AI → Artificial Intelligence
-- `stage`: Growth → Early
+- `team_size`: 25 → 35
+- `tags`: Health Tech,B2B,LegalTech,AI → Artificial Intelligence,Health Tech,B2B,LegalTech
 
-### [Multiplier](https://www.ycombinator.com/companies/multiplier)
+### [Pave Robotics](https://www.ycombinator.com/companies/pave-robotics)
 
-- `tags`: Artificial Intelligence,Fintech,Productivity,Investing,Stocks → Fintech,Productivity,Investing,AI,Stocks
-- `demo_day_video_public`: false → true
+- `isHiring`: true → false
 
-### [General Aviation](https://www.ycombinator.com/companies/general-aviation)
+### [MindFort](https://www.ycombinator.com/companies/mindfort)
 
-- `one_liner`: Fix ATC by connecting aircraft to the internet → Fixing air traffic control with remote towers
+- `team_size`: 5 → 6
+- `tags`:  → Artificial Intelligence,Developer Tools,Cybersecurity,Enterprise Software
 
-### [Oasive](https://www.ycombinator.com/companies/oasive)
+### [Pentagon](https://www.ycombinator.com/companies/pentagon)
 
-- `one_liner`: Automating research, valuation, and reporting for the bond market → Helping bond investors find what's rich or cheap, and why
+- `all_locations`: Salt Lake City, UT, USA → San Francisco, CA, USA
+
+### [flowscope](https://www.ycombinator.com/companies/flowscope)
+
+- `isHiring`: false → true
+
+### [Maingen](https://www.ycombinator.com/companies/maingen)
+
+- `website`: https://www.maingen.ai/ → https://www.maingen.com/
+
+### [Jcode](https://www.ycombinator.com/companies/jcode)
+
+- `one_liner`: The harness company → High performance coding agents
