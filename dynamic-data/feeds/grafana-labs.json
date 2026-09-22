@@ -8,16 +8,8 @@
     "monitoring",
     "data-visualization"
   ],
-  "updatedAt": "2026-09-14T21:14:14.474Z",
+  "updatedAt": "2026-09-22T11:17:54.889Z",
   "items": [
-    {
-      "guid": "grafana-labs::https://grafana.com/docs/grafana-cloud/machine-learning/assistant/configure/mcp-servers/",
-      "title": "Mcp Servers",
-      "link": "https://grafana.com/docs/grafana-cloud/machine-learning/assistant/configure/mcp-servers/",
-      "summary": null,
-      "author": null,
-      "publishedAt": "2001-01-31T18:30:00.000Z"
-    },
     {
       "guid": "grafana-labs::https://grafana.com/docs/grafana-cloud/machine-learning/assistant/pricing/",
       "title": "Pricing",
@@ -80009,7 +80001,15 @@
       "summary": "When something breaks in production, the questions that matter most are also the toughest to answer from metrics alone: who was affected, what did they actually see, and is this worth waking someone up for? Answering those questions requires a fuller picture of the issue and its impact on your…",
       "author": "Bukola Ayodele",
       "publishedAt": "2026-09-14T18:02:58.000Z"
+    },
+    {
+      "guid": "https://grafana.com/blog/grafana-alerting-scale-alert-routing-without-scaling-complexity-using-multiple-notification-policies/",
+      "title": "Grafana Alerting: Scale alert routing without scaling complexity using multiple notification policies",
+      "link": "https://grafana.com/blog/grafana-alerting-scale-alert-routing-without-scaling-complexity-using-multiple-notification-policies/",
+      "summary": "Alert routing often starts simple. A team creates a few contact points, adds some label matchers, and builds a notification policy tree that sends each alert to the right destination.\nBut alerting configurations rarely stay simple.\nAs an organization grows, its notification policy tree must…",
+      "author": "Matt Jacobson",
+      "publishedAt": "2026-09-21T18:45:23.000Z"
     }
   ],
-  "totalIndexed": 21914
+  "totalIndexed": 21915
 }
