@@ -1,95 +1,77 @@
-# YC Company Changes for 2026-09-21
+# YC Company Changes for 2026-09-22
 
-- Previous total: 6242
-- Current total: 6244
-- Added: 2
+- Previous total: 6244
+- Current total: 6245
+- Added: 1
 - Removed: 0
-- Updated: 19
+- Updated: 13
 
 
 ## Added Companies
 
-- [Grep AI](https://www.ycombinator.com/companies/grep-ai) (Fall 2026) — AI agents that automate high-stakes knowledge work you can't afford…
-- [Bryel](https://www.ycombinator.com/companies/bryel) (Fall 2026) — Devin for AI Research Engineering
+- [TrueMile](https://www.ycombinator.com/companies/truemile) (Fall 2026) — AI agents that run trucking operations.
 
 ## Updated Companies
 
-### [Mux](https://www.ycombinator.com/companies/mux)
-
-- `isHiring`: true → false
-
-### [Lygos](https://www.ycombinator.com/companies/lygos)
-
-- `one_liner`: Lygos engineers yeast to convert sugar into high-value industrial… → Lygos (W16) built and commercialized sustainable, high-performance…
-- `stage`: Growth → Early
-
-### [Camber](https://www.ycombinator.com/companies/camber-2)
+### [Kalshi](https://www.ycombinator.com/companies/kalshi)
 
 - `stage`: Growth → Early
+
+### [Yoneda Health](https://www.ycombinator.com/companies/yoneda-health)
+
+- `name`: Tambua Health → Yoneda Health
+- `slug`: tambua-health → yoneda-health
+- `former_names`:  → Tambua Health
+
+### [Slope](https://www.ycombinator.com/companies/slope)
+
+- `isHiring`: false → true
 
 ### [Andson Biotech](https://www.ycombinator.com/companies/andson-biotech)
 
-- `isHiring`: false → true
+- `team_size`: 4 → 12
 
-### [LiteLLM](https://www.ycombinator.com/companies/litellm)
+### [Truewind](https://www.ycombinator.com/companies/truewind)
 
-- `team_size`: 10 → 20
+- `website`: https://truewind.ai → https://www.trytruewind.com
+- `tags`: Fintech,Generative AI,SaaS,B2B,AI → Artificial Intelligence,Fintech,Generative AI,SaaS,B2B
 
-### [Roame](https://www.ycombinator.com/companies/roame)
+### [Kirana AI](https://www.ycombinator.com/companies/kirana-ai)
 
-- `team_size`: 2 → 3
-- `tags`: Artificial Intelligence,SaaS,Travel,Airlines,Consumer Finance → SaaS,Travel,Airlines,Consumer Finance,AI
+- `status`: Active → Acquired
 
-### [Tracecat](https://www.ycombinator.com/companies/tracecat)
+### [Clerked](https://www.ycombinator.com/companies/clerked)
 
-- `one_liner`: The open source AI-native security automation platform → Open-source agentic security automation platform
+- `subindustry`: B2B → B2B -> Finance and Accounting
+- `tags`: Fintech,Finance,Enterprise,AI → Artificial Intelligence,Fintech,Finance,Enterprise
+- `industries`: B2B → B2B,Finance and Accounting
 
-### [Unsloth AI](https://www.ycombinator.com/companies/unsloth-ai)
+### [Corvera](https://www.ycombinator.com/companies/corvera)
 
-- `team_size`: 8 → 12
+- `one_liner`: The context layer for AI-native CPG brands → The AI sales engine for CPG brands
+- `subindustry`: B2B -> Operations → B2B -> Sales
+- `tags`: SaaS,Consumer,B2B,Data Engineering,AI → Artificial Intelligence,SaaS,Consumer,B2B,Data Engineering
+- `industries`: B2B,Operations → B2B,Sales
 
-### [Party](https://www.ycombinator.com/companies/party)
+### [Jinba](https://www.ycombinator.com/companies/jinba)
 
-- `team_size`: 7 → 8
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/0e1ea09f9ebfce235fbcbc7d7e58d95f1f735597.png → https://bookface-images.s3.amazonaws.com/small_logos/98895085a5f266d769869118dd2031844509bfec.png
+- `team_size`: 2 → 11
 
-### [Presti AI](https://www.ycombinator.com/companies/presti-ai)
-
-- `team_size`: 16 → 3
-
-### [Helium](https://www.ycombinator.com/companies/helium)
-
-- `team_size`: 7 → 9
-
-### [Origami](https://www.ycombinator.com/companies/origami-2)
-
-- `one_liner`: Get your perfect customers with one prompt → Enter your domain & Origami gets you customers.
-
-### [Outlit](https://www.ycombinator.com/companies/outlit)
-
-- `one_liner`: Retain and Grow Every Customer → Protect and Grow Long-tail Revenue 
-
-### [Fernstone](https://www.ycombinator.com/companies/fernstone)
-
-- `team_size`: 2 → 5
-
-### [TectoAI](https://www.ycombinator.com/companies/tectoai)
-
-- `status`: Active → Inactive
-
-### [Copperlane](https://www.ycombinator.com/companies/copperlane)
+### [TryNearby](https://www.ycombinator.com/companies/trynearby)
 
 - `isHiring`: false → true
 
-### [Arzana](https://www.ycombinator.com/companies/arzana)
+### [Vernius Systems, Inc.](https://www.ycombinator.com/companies/vernius-systems-inc)
 
-- `team_size`: 6 → 9
+- `isHiring`: false → true
 
-### [GBrain](https://www.ycombinator.com/companies/gbrain)
+### [Volaren Inc.](https://www.ycombinator.com/companies/volaren-inc)
 
-- `name`: gbrain.io → GBrain
-- `slug`: gbrainio → gbrain
-- `former_names`: The Overton Window Company,Gbrain.io → The Overton Window Company,Gbrain.io,gbrain.io
+- `one_liner`: Democratizing investing. Volaren collapses the hedge fund model and… → Volaren collapses the hedge fund model and making it accessible to…
+- `team_size`: 2 → 4
+- `tags`: Fintech,Marketplace,Finance,Creator Economy,AI → Artificial Intelligence,Fintech,Marketplace,Finance,Creator Economy
 
-### [Simulithic](https://www.ycombinator.com/companies/simulithic)
+### [Sintropix](https://www.ycombinator.com/companies/sintropix)
 
-- `tags`: Artificial Intelligence → AI
+- `tags`: Fintech,B2B,AI → Artificial Intelligence,Fintech,B2B
