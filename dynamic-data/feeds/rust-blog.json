@@ -8,7 +8,7 @@
     "compiler",
     "performance"
   ],
-  "updatedAt": "2026-09-21T17:54:50.063Z",
+  "updatedAt": "2026-09-22T16:21:44.269Z",
   "items": [
     {
       "guid": "rust-blog::https://blog.rust-lang.org/2026/07/16/Rust-1.97.1/",
@@ -6017,7 +6017,15 @@
       "summary": "The Rust Security Response Team was notified that Miri stores all environment variables to target/, allowing secrets to persist in caches.\nWhile not necessary a vulnerability in and of itself, when paired with GitHub Actions caching behavior, it is possible for this to expose secrets to PRs.…",
       "author": "Manish Goregaokar",
       "publishedAt": "2026-09-21T00:00:00.000Z"
+    },
+    {
+      "guid": "rust-blog::https://blog.rust-lang.org/2026/09/22/announcing-a-maintainer-in-residence-scott-schafer-for-the-cargo-team/",
+      "title": "Announcing a Maintainer in Residence: Scott Schafer for the Cargo team",
+      "link": "https://blog.rust-lang.org/2026/09/22/announcing-a-maintainer-in-residence-scott-schafer-for-the-cargo-team/",
+      "summary": "At the end of August, we announced our first Maintainers in Residence, Rust Project contributors who are funded for their upstream contributions and maintenance work from the Rust Foundation Maintainers Fund (RFMF). Since then, the Rust Leadership Council has dedicated more funds from its Project…",
+      "author": "Jakub Beránek",
+      "publishedAt": "2026-09-22T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 751
+  "totalIndexed": 752
 }

@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-09-22T03:33:49.649Z",
+  "updatedAt": "2026-09-22T16:21:44.503Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -1849,7 +1849,47 @@
       "summary": "PostgreSQL's serializable isolation remembers what each transaction reads with limited shared memory, so it trades tuple locks for page locks, then page locks…",
       "author": null,
       "publishedAt": "2026-09-22T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9vu",
+      "title": "Christophe Pettus: The Shadow Knows",
+      "link": "https://postgr.es/p/9vu",
+      "summary": "ClickHouse released WalShadow last week, and it does something very… brave: it replicates PostgreSQL into ClickHouse without using logical decoding at all. It reads the physical WAL stream, the same bytes a streaming replica gets, decodes heap records itself, and writes ClickHouse-native blocks. …",
+      "author": null,
+      "publishedAt": "2026-09-22T16:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9vt",
+      "title": "Dimitri Fontaine: Ten years of Postgres logical replication",
+      "link": "https://postgr.es/p/9vt",
+      "summary": "A long time ago I ran a write-heavy system on a hub and a handful of workers.\nEach worker took a share of the application traffic and wrote events\nlocally. The hub owned the reference data (customers, plans, prices),\npushed it down to the workers, and pulled every worker’s events back up to\ncompute…",
+      "author": null,
+      "publishedAt": "2026-09-22T15:26:01.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9vp",
+      "title": "Tomas Vondra: Being considerate of other people's time",
+      "link": "https://postgr.es/p/9vp",
+      "summary": "If I could give one piece of advice to the past me, starting to\ncontribute to open source projects, it’d be to value other developers'\ntime more. It took me a while to appreciate the “economy” behind this,\nand adjust how I work to increase my chance of getting patches done.\nHopefully some new…",
+      "author": null,
+      "publishedAt": "2026-09-22T10:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9vq",
+      "title": "Mikhail Shytsko: Forty Deletes Vanished From pg_stat_statements",
+      "link": "https://postgr.es/p/9vq",
+      "summary": "On the server this article was written against, pg_stat_statements_info.dealloc reads 20, and that counter is all the database has left to say about forty rows an agent deleted. The forty entries were there while the DELETE statements ran, one per table, counted and timed like anything else. Then…",
+      "author": null,
+      "publishedAt": "2026-09-22T00:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9vl",
+      "title": "Chris van Eijk: Multi-tenant SaaS on PostgreSQL: six decisions",
+      "link": "https://postgr.es/p/9vl",
+      "summary": "The six choices a multi-tenant SaaS locks into PostgreSQL: isolation model, RLS, indexes, money, restoring one tenant and migrating at scale. All measured.",
+      "author": null,
+      "publishedAt": "2026-09-21T22:00:05.000Z"
     }
   ],
-  "totalIndexed": 230
+  "totalIndexed": 235
 }

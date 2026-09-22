@@ -8,7 +8,7 @@
     "linux",
     "cloud-native"
   ],
-  "updatedAt": "2026-09-21T21:30:09.273Z",
+  "updatedAt": "2026-09-22T16:21:44.801Z",
   "items": [
     {
       "guid": "redhat::https://www.redhat.com/ja/sitemap.xml",
@@ -1281,7 +1281,23 @@
       "summary": "A year ago, I wrote about the road to quantum-safe cryptography in Red Hat OpenShift. At the time, much of that road was forward-looking: TLS 1.3 was not yet the default, Go did not support post-quantum algorithms, and the first NIST post-quantum cryptography (PQC) standards had only just been…",
       "author": null,
       "publishedAt": "2026-09-21T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.redhat.com/en/blog/evolving-your-automation-pt-2-architectural-decisions-upgrading-red-hat-ansible-automation-platform-27",
+      "title": "Evolving your automation (Pt. 2): Architectural decisions for upgrading to Red Hat Ansible Automation Platform 2.7",
+      "link": "https://www.redhat.com/en/blog/evolving-your-automation-pt-2-architectural-decisions-upgrading-red-hat-ansible-automation-platform-27",
+      "summary": "Red Hat Ansible Automation Platform 2.7 introduces many new enhancements designed to scale enterprise automation, improve platform engineering productivity, and bridge the gap with AI-driven operations. Key updates include high-level advancements in AI orchestration through the Model Context…",
+      "author": null,
+      "publishedAt": "2026-09-22T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.redhat.com/en/blog/autorag-pipeline-optimization-red-hat-openshift-ai",
+      "title": "AutoRAG pipeline optimization in Red Hat OpenShift AI",
+      "link": "https://www.redhat.com/en/blog/autorag-pipeline-optimization-red-hat-openshift-ai",
+      "summary": "If you're an AI or machine learning engineer, you've seen the classic demo: ingest a clean PDF into a prototype, build a vector database index using standard tutorial code, and submit a simple question. The model returns a pristine answer, everyone nods, and the project gets greenlit.Then it meets…",
+      "author": null,
+      "publishedAt": "2026-09-22T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 159
+  "totalIndexed": 161
 }
