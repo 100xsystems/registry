@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-09-02T03:08:51.397Z",
+  "updatedAt": "2026-09-22T20:42:37.889Z",
   "items": [
     {
       "guid": "gleb-bahmutov::https://glebbahmutov.com/blog/when-it-reloads/",
@@ -271,7 +271,15 @@
       "summary": "Recently I saw a Linkedin post that shows \"before & after\" API test using Cypress. Here is the screenshot included in the post.\n\nRight away, I want to say that the \"after\" test is better. It checks the response status first, then confirms the types and ranges of values, rather than hard codes the…",
       "author": null,
       "publishedAt": "2026-09-01T04:00:00.000Z"
+    },
+    {
+      "guid": "gleb-bahmutov::https://glebbahmutov.com/blog/cypress-cloud-test-triage-using-ai/",
+      "title": "Cypress Cloud Test Triage Using AI",
+      "link": "https://glebbahmutov.com/blog/cypress-cloud-test-triage-using-ai/",
+      "summary": "Let's take a sample Cypress project bahmutov/cypress-cloud-skill-example with recorded Cypress test runs on CI. For simplicity there is just one spec cypress/e2e/spec.cy.js with 3 passing tests\ncypress/e2e/spec.cy.js\n\n1\n2\n3\n4\n5\n\ndescribe('Suite A', () => {\n  it('works 1', () => {})\n  it('works 2',…",
+      "author": null,
+      "publishedAt": "2026-09-22T04:00:00.000Z"
     }
   ],
-  "totalIndexed": 33
+  "totalIndexed": 34
 }
