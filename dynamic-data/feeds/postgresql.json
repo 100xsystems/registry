@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-09-23T03:33:53.889Z",
+  "updatedAt": "2026-09-23T16:11:57.395Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -1897,7 +1897,23 @@
       "summary": "max_pred_locks_per_transaction has the naming problem of max_locks_per_transaction, and then one of its own. Like its namesake, it is a table size quoted per backend slot, not a limit on any transaction. Unlike its namesake, most of what its table holds at any given moment belongs to transactions…",
       "author": null,
       "publishedAt": "2026-09-23T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9vy",
+      "title": "Stefan Fercot: pgBackRest and PostgreSQL failover: why archive_mode matters",
+      "link": "https://postgr.es/p/9vy",
+      "summary": "A recent question on the community channels described a difficult situation: a standby had been promoted with archive_mode=off, and restarting the new primary was something the team wanted to avoid. Could they enable archiving on a downstream standby and take a pgBackRest backup from there instead?…",
+      "author": null,
+      "publishedAt": "2026-09-23T13:35:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9vw",
+      "title": "Mehmet Ince: Part 2/6 | Breaking the Postgres Superuser Guardrails: Attacking Security-Hardening Extensions |Systemic Risks in the Managed PostgreSQL Industry",
+      "link": "https://postgr.es/p/9vw",
+      "summary": "It’s been a month since I published the first part of this research, and interest from the Postgres community has been higher than I expected. Most vendors I contacted were shy to respond, so the Databricks team’s blog post Collaboration makes us all stronger was one of the first examples of a…",
+      "author": null,
+      "publishedAt": "2026-09-23T01:05:18.000Z"
     }
   ],
-  "totalIndexed": 236
+  "totalIndexed": 238
 }
