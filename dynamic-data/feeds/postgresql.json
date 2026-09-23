@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-09-22T16:21:44.503Z",
+  "updatedAt": "2026-09-23T03:33:53.889Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -1889,7 +1889,15 @@
       "summary": "The six choices a multi-tenant SaaS locks into PostgreSQL: isolation model, RLS, indexes, money, restoring one tenant and migrating at scale. All measured.",
       "author": null,
       "publishedAt": "2026-09-21T22:00:05.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9vv",
+      "title": "Christophe Pettus: All Your GUCs in a Row: max_pred_locks_per_transaction",
+      "link": "https://postgr.es/p/9vv",
+      "summary": "max_pred_locks_per_transaction has the naming problem of max_locks_per_transaction, and then one of its own. Like its namesake, it is a table size quoted per backend slot, not a limit on any transaction. Unlike its namesake, most of what its table holds at any given moment belongs to transactions…",
+      "author": null,
+      "publishedAt": "2026-09-23T01:00:00.000Z"
     }
   ],
-  "totalIndexed": 235
+  "totalIndexed": 236
 }

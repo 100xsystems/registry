@@ -1,66 +1,116 @@
-# YC Company Changes for 2026-09-22
+# YC Company Changes for 2026-09-23
 
-- Previous total: 6246
-- Current total: 6247
-- Added: 1
-- Removed: 0
-- Updated: 12
+- Previous total: 6247
+- Current total: 6246
+- Added: 0
+- Removed: 1
+- Updated: 18
 
 
-## Added Companies
+## Removed Companies
 
-- [Cyclon](https://www.ycombinator.com/companies/cyclon) (Fall 2026) — a phone where AI is the interface
+- Buildbox (Fall 2026)
 
 ## Updated Companies
 
-### [Whatnot](https://www.ycombinator.com/companies/whatnot)
+### [Draftaid](https://www.ycombinator.com/companies/draftaid)
+
+- `isHiring`: true → false
+
+### [Corgi Insurance](https://www.ycombinator.com/companies/corgi-insurance)
 
 - `stage`: Growth → Early
 
-### [Supabase](https://www.ycombinator.com/companies/supabase)
+### [Swerve](https://www.ycombinator.com/companies/swerve)
 
-- `stage`: Growth → Early
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/756ce7de62795d0a5985463eaff07dec98a3a6d4.png → https://bookface-images.s3.amazonaws.com/small_logos/4cd4e09aaeb1f46dcf793d0eae3575ece7ac1c84.png
+- `tags`: Artificial Intelligence,Consumer,Entertainment → Consumer,Entertainment,AI
 
-### [trii](https://www.ycombinator.com/companies/trii)
+### [Bluejay](https://www.ycombinator.com/companies/bluejay)
 
-- `stage`: Growth → Early
+- `tags`: AI → Artificial Intelligence,Conversational AI
 
-### [Diode Computers, Inc.](https://www.ycombinator.com/companies/diode-computers-inc)
+### [Prism](https://www.ycombinator.com/companies/prism)
 
-- `stage`: Growth → Early
+- `team_size`: 3 → 2
 
-### [Struct](https://www.ycombinator.com/companies/struct-ai)
+### [Mesmer](https://www.ycombinator.com/companies/mesmer)
 
-- `one_liner`: Agents that keep prod running → Struct keeps prod running
-- `tags`: Artificial Intelligence,Developer Tools,B2B,DevOps,Enterprise Software → Developer Tools,B2B,DevOps,Enterprise Software,AI
+- `isHiring`: false → true
 
-### [Stillwind](https://www.ycombinator.com/companies/stillwind)
+### [Alder](https://www.ycombinator.com/companies/alder)
 
-- `one_liner`: Electrical Engineering Components Compaion → PCB component librarian
-- `tags`: AIOps,Electronics,AI → AIOps,Artificial Intelligence,Electronics
+- `name`: Nivara → Alder
+- `slug`: nivara → alder
+- `former_names`: Nivara AI,Nivara,Terrain → Nivara AI,Nivara,Terrain,Nivara
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/f3725baa6ed275d3fe7064a6f04d7c57debd641c.png → https://bookface-images.s3.amazonaws.com/small_logos/f394904d91685ab676105f88e9090848b7a6f1b2.png
+- `website`: https://getnivara.com/ → https://meetalder.com/
+- `one_liner`: AI agents for the finance back office. → AI employees for finance, starting with accounts receivable. 
+- `tags`: B2B,AI → Artificial Intelligence,B2B
 
-### [Cashew Labs](https://www.ycombinator.com/companies/cashew-labs)
+### [RunAnywhere](https://www.ycombinator.com/companies/runanywhere)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/75b5481cd9f0b4c66c6e8e42e15816b3489d5c81.png → https://bookface-images.s3.amazonaws.com/small_logos/adbf4af78cd2152aba5757fd512d22adb6606a12.png
+- `one_liner`: The default way of running on-device AI at Scale → Fastest inference anywhere: open models on-prem, hosted or on-device
+- `tags`:  → Artificial Intelligence,Developer Tools,Open Source,Infrastructure,AI
 
-### [Wedge](https://www.ycombinator.com/companies/wedge)
+### [Masterpiece](https://www.ycombinator.com/companies/masterpiece)
 
-- `one_liner`: Palantir for Healthcare AI Agents → AI Employees for Healthcare
+- `name`: Archer → Masterpiece
+- `slug`: archer → masterpiece
+- `former_names`:  → Archer
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/8149769a0781242dca23d1bed75bdf39b4b9dba6.png → https://bookface-images.s3.amazonaws.com/small_logos/ed4420b560c26926fdea2bf9ca3f82e062da887b.png
+- `website`: https://archermoney.com/ → https://masterpiecelabs.xyz/
+- `one_liner`: Global payouts for the workforce powering AI → Working capital for data companies training frontier AI
+- `team_size`: 4 → 3
+- `subindustry`: Fintech -> Payments → Fintech -> Credit and Lending
+- `tags`: Crypto / Web3,Neobank,AI → Crypto / Web3,Lending,AI
+- `industries`: Fintech,Payments → Fintech,Credit and Lending
 
-### [Zavo](https://www.ycombinator.com/companies/zavo)
+### [Rindler](https://www.ycombinator.com/companies/rindler)
 
-- `tags`: B2B,Big Data,AI → Artificial Intelligence,B2B,Big Data
+- `all_locations`: San Francisco, CA, USA → Boston, MA, USA
 
-### [Superlog](https://www.ycombinator.com/companies/superlog)
+### [Moonshot](https://www.ycombinator.com/companies/moonshot-computer)
 
-- `all_locations`: San Francisco, CA, USA → Paris, Île-de-France, France
-- `regions`: United States of America,America / Canada → France,Europe
+- `all_locations`: Seattle, WA, USA → San Francisco, CA, USA
 
-### [flowscope](https://www.ycombinator.com/companies/flowscope)
+### [Luca IQ](https://www.ycombinator.com/companies/luca-iq)
 
-- `one_liner`: AI-native consulting to map and automate business processes → AI implementation firm that maps and automates business processes
+- `team_size`: 2 → 5
+- `tags`: B2B,API,Infrastructure,AI → Artificial Intelligence,B2B,API,Infrastructure
 
-### [Osseus](https://www.ycombinator.com/companies/osseus)
+### [Marengo](https://www.ycombinator.com/companies/marengo)
 
-- `one_liner`: The frontier data platform for health and biological AI → The frontier data platform for aligned health and biological AI
-- `tags`: Artificial Intelligence,Robotics,B2B,Biotech,Healthcare → Artificial Intelligence,B2B,Biotech,Healthcare,Data Engineering
+- `tags`: Design,Energy,Architecture,AI → Artificial Intelligence,Construction,Design,Energy
+
+### [OpenRelay](https://www.ycombinator.com/companies/openrelay)
+
+- `all_locations`: Seattle, WA, USA → San Francisco, CA, USA
+- `tags`: Artificial Intelligence → AI
+
+### [isoquant](https://www.ycombinator.com/companies/isoquant)
+
+- `name`: Agent FM → isoquant
+- `slug`: agent-fm → isoquant
+- `former_names`:  → Agent FM,Isoquant
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/1cc0ea423493737ae6717d834b6bdb19aaf41f58.png → https://bookface-images.s3.amazonaws.com/small_logos/2393ff6f2bb8fa724b4d08301f7b560ba116be78.png
+- `website`: https://www.agentfm.ai/ → https://isoquant.ai/
+- `one_liner`: One group chat to hear and steer your coding agents. → Self-optimizing inference cloud for faster, cheaper AI
+- `subindustry`: B2B -> Engineering, Product and Design → B2B
+- `tags`: Artificial Intelligence,Developer Tools,Productivity → AI
+- `batch`: Summer 2026 → Fall 2026
+- `industries`: B2B,Engineering, Product and Design → B2B
+
+### [Mirrors](https://www.ycombinator.com/companies/mirrors)
+
+- `one_liner`: Catch and fix AI agent regressions before they reach production → Fix your AI agent's errors at runtime, so they never happen twice
+- `tags`: Artificial Intelligence,Developer Tools,SaaS,B2B,DevOps → AIOps,Artificial Intelligence,Developer Tools,SaaS,B2B
+
+### [Shepherd Robotics](https://www.ycombinator.com/companies/shepherd-robotics)
+
+- `team_size`: 3 → 4
+- `tags`: Hardware,Robotics,Manufacturing,Automation,AI → Artificial Intelligence,Hardware,Robotics,Manufacturing,Automation
+
+### [The Subvocal Company](https://www.ycombinator.com/companies/the-subvocal-company)
+
+- `isHiring`: true → false
