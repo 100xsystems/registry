@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-09-02T20:21:07.451Z",
+  "updatedAt": "2026-09-23T20:54:58.454Z",
   "items": [
     {
       "guid": "github::https://github.blog/engineering/the-cost-of-saying-yes-has-changed/",
@@ -135,7 +135,15 @@
       "summary": "Output quality is important when working with AI coding agents, but true efficiency comes from getting work done quickly, efficiently, and with the right context.\nThat’s why token count of individual interactions alone isn’t a meaningful measure of efficiency. The goal shouldn’t be to use fewer…",
       "author": "Erik Kristensen",
       "publishedAt": "2026-09-02T18:00:00.000Z"
+    },
+    {
+      "guid": "github::https://github.blog/engineering/user-experience/rendering-huge-pull-requests-in-the-github-copilot-app/",
+      "title": "Rendering huge pull requests in the GitHub Copilot app",
+      "link": "https://github.blog/engineering/user-experience/rendering-huge-pull-requests-in-the-github-copilot-app/",
+      "summary": "Broad refactors and migrations often have to land as one change.\nStacked pull requests are a great way to split work into smaller changes, which makes reviews easier and helps teams ship with less risk. But some changes, like this one, can’t be split cleanly. That leaves you with a single pull…",
+      "author": "Alberto Gimeno",
+      "publishedAt": "2026-09-23T18:29:49.000Z"
     }
   ],
-  "totalIndexed": 16
+  "totalIndexed": 17
 }
