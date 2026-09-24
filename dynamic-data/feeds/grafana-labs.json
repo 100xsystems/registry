@@ -8,16 +8,8 @@
     "monitoring",
     "data-visualization"
   ],
-  "updatedAt": "2026-09-22T11:17:54.889Z",
+  "updatedAt": "2026-09-24T20:59:20.450Z",
   "items": [
-    {
-      "guid": "grafana-labs::https://grafana.com/docs/grafana-cloud/machine-learning/assistant/pricing/",
-      "title": "Pricing",
-      "link": "https://grafana.com/docs/grafana-cloud/machine-learning/assistant/pricing/",
-      "summary": null,
-      "author": null,
-      "publishedAt": "2001-01-31T18:30:00.000Z"
-    },
     {
       "guid": "grafana-labs::https://grafana.com/docs/grafana-cloud/machine-learning/agent-observability/guides/dashboards/",
       "title": "Dashboards",
@@ -80009,7 +80001,15 @@
       "summary": "Alert routing often starts simple. A team creates a few contact points, adds some label matchers, and builds a notification policy tree that sends each alert to the right destination.\nBut alerting configurations rarely stay simple.\nAs an organization grows, its notification policy tree must…",
       "author": "Matt Jacobson",
       "publishedAt": "2026-09-21T18:45:23.000Z"
+    },
+    {
+      "guid": "https://grafana.com/blog/what-if-your-agent-s-hallucinations-had-a-budget-how-to-start-using-slos-for-agent-behavior/",
+      "title": "What if your agent's hallucinations had a budget? How to start using SLOs for agent behavior",
+      "link": "https://grafana.com/blog/what-if-your-agent-s-hallucinations-had-a-budget-how-to-start-using-slos-for-agent-behavior/",
+      "summary": "At Grafana Labs, observability is what we do. So as we started building AI agents, we naturally reached for the same instincts we bring to every system: measure it, set targets, and make reliability something you can reason about instead of hope for.\nThat instinct led us somewhere unexpectedly…",
+      "author": "Ivana Huckova",
+      "publishedAt": "2026-09-24T17:14:13.000Z"
     }
   ],
-  "totalIndexed": 21915
+  "totalIndexed": 21916
 }

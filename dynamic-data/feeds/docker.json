@@ -8,7 +8,7 @@
     "devops",
     "cloud-native"
   ],
-  "updatedAt": "2026-09-09T11:03:13.845Z",
+  "updatedAt": "2026-09-24T20:59:31.054Z",
   "items": [
     {
       "guid": "https://www.docker.com/?p=92418",
@@ -209,7 +209,39 @@
       "summary": "Learn about the key benefits of sandbox environments with Docker including isolation, definable controls, secrets credential handling, and more.",
       "author": "Kevin Wittek",
       "publishedAt": "2026-09-08T23:05:55.000Z"
+    },
+    {
+      "guid": "https://www.docker.com/?p=94134",
+      "title": "Manufacturing Trust for AI Agents | Docker’s WeAreDevelopers Keynote",
+      "link": "https://www.docker.com/blog/manufacturing-trust-for-ai-agents-keynote/",
+      "summary": "Docker's WeAreDevelopers keynote shows how Sandboxes, Kits, and Cloud Sandboxes give AI agents strong isolation and reproducible authority.",
+      "author": "PeiFang Sung",
+      "publishedAt": "2026-09-24T17:15:00.000Z"
+    },
+    {
+      "guid": "https://www.docker.com/?p=94091",
+      "title": "From Dockerfile to Kit: the Docker Sandboxes Kit Specification",
+      "link": "https://www.docker.com/blog/docker-sandbox-kit-spec/",
+      "summary": "Docker's Sandbox Kit Specification v3 packages an AI agent's network rules, credentials, and volumes as an ordinary, pinnable OCI image.",
+      "author": "Jin Kim",
+      "publishedAt": "2026-09-24T16:00:00.000Z"
+    },
+    {
+      "guid": "https://www.docker.com/?p=94077",
+      "title": "Docker and CNCF partner on an open spec for agent permissions",
+      "link": "https://www.docker.com/blog/docker-sandbox-kit-spec-cncf/",
+      "summary": "Docker is bringing the open source Sandbox Kit Spec to the CNCF, so AI agent permissions become a neutral, vendor independent standard built on OCI.",
+      "author": "Jin Kim",
+      "publishedAt": "2026-09-24T16:00:00.000Z"
+    },
+    {
+      "guid": "https://www.docker.com/?p=93924",
+      "title": "Introducing Cloud Sandboxes: Start on Your Laptop, Finish in the Cloud",
+      "link": "https://www.docker.com/blog/introducing-cloud-sandboxes-start-on-your-laptop-finish-in-the-cloud/",
+      "summary": "Run agents on your laptop, in the cloud, and move between them with one command, all safely. Earlier this year we launched Docker Sandboxes: microVM environments where coding agents can work autonomously in a safe way.",
+      "author": "PeiFang Sung",
+      "publishedAt": "2026-09-24T16:00:00.000Z"
     }
   ],
-  "totalIndexed": 25
+  "totalIndexed": 29
 }

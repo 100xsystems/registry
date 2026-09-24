@@ -8,7 +8,7 @@
     "ai",
     "research"
   ],
-  "updatedAt": "2026-09-24T16:34:42.649Z",
+  "updatedAt": "2026-09-24T20:59:20.284Z",
   "items": [
     {
       "guid": "environment-free",
@@ -305,7 +305,15 @@
       "summary": "System-wide Dictation on Apple devices runs entirely on-device, and the speech it transcribes reaches the foundation model through a tokenizer: an encoder that maps short windows of waveform onto the representation the language model reads. Because that model is sparsely activated under…",
       "author": null,
       "publishedAt": "2026-09-24T00:00:00.000Z"
+    },
+    {
+      "guid": "practical-recipe-federated-asr",
+      "title": "A Practical Recipe for Semi-Supervised Federated ASR: Online Pseudo-Labels with Server Update Stabilization",
+      "link": "https://machinelearning.apple.com/research/practical-recipe-federated-asr",
+      "summary": "Semi-supervised federated learning (SSFL) trains models on clients’ unlabeled data using a teacher to generate pseudo-labels, with a small labeled seed dataset on the server. Automatic Speech Recognition (ASR) is particularly fragile here: pseudo-label errors compound across the output sequence and…",
+      "author": null,
+      "publishedAt": "2026-09-24T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 37
+  "totalIndexed": 38
 }

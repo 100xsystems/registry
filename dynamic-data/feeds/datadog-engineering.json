@@ -8,7 +8,7 @@
     "monitoring",
     "infrastructure"
   ],
-  "updatedAt": "2026-09-18T15:54:41.236Z",
+  "updatedAt": "2026-09-24T20:59:30.999Z",
   "items": [
     {
       "guid": "https://www.datadoghq.com/blog/engineering/jfr-cpu-time-profiling/",
@@ -29705,7 +29705,15 @@
       "summary": "Create, test, and publish custom IaC Security rules in Datadog to detect organization-specific policy violations before deployment.",
       "author": null,
       "publishedAt": "2026-09-18T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.datadoghq.com/blog/jev-evals-agent-observability/",
+      "title": "Using TypeSafe’s Jev for evals in Datadog Agent Observability",
+      "link": "https://www.datadoghq.com/blog/jev-evals-agent-observability/",
+      "summary": "See how we wired Jev into online evals on live spans and offline evals inside Datadog experiments, using a single rubric for both.",
+      "author": null,
+      "publishedAt": "2026-09-24T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 3712
+  "totalIndexed": 3713
 }
