@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-09-19T19:50:10.146Z",
+  "updatedAt": "2026-09-24T16:34:44.260Z",
   "items": [
     {
       "guid": "daniel-doubrovkine-db::https://code.dblock.org/2026/05/05/coding-with-ai-agents-is-now-a-baseline-expectation-for-managers.html",
@@ -191,7 +191,15 @@
       "summary": "Back in January I wrote Serving Markdown for AI Agents: for every page on this blog, there’s also a .md version at the same URL, discoverable via a <link rel=\"alternate\" type=\"text/markdown\"> tag, so AI agents can fetch clean Markdown instead of parsing HTML. It also made me $360, via referral…",
       "author": "Daniel Doubrovkine",
       "publishedAt": "2026-09-19T00:00:00.000Z"
+    },
+    {
+      "guid": "daniel-doubrovkine-db::https://code.dblock.org/2026/09/24/porting-my-1996-pascal-calculator-to-rust.html",
+      "title": "Porting My 1996 Pascal/Delphi Calculator to Rust (CLI + MCP)",
+      "link": "https://code.dblock.org/2026/09/24/porting-my-1996-pascal-calculator-to-rust.html",
+      "summary": "In his Rails World 2026 keynote DHH talks about one-shot apps built almost instantly with an agent as part of Omarchy. His canonical example is Omacalc, a dead simple calculator. It’s a good demo and not a hard problem. Let’s take it further and rewrite a more advanced calculator in Rust that we…",
+      "author": "Daniel Doubrovkine",
+      "publishedAt": "2026-09-24T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 23
+  "totalIndexed": 24
 }

@@ -4,44 +4,57 @@
 - Current total: 6248
 - Added: 0
 - Removed: 0
-- Updated: 9
+- Updated: 11
 
 
 ## Updated Companies
 
-### [TrueNorth](https://www.ycombinator.com/companies/truenorth)
-
-- `stage`: Early → Growth
-
-### [Caire Health](https://www.ycombinator.com/companies/caire-health)
-
-- `website`: http://cairehealth.com → http://cairehealthinc.com
-- `tags`: Artificial Intelligence,Medical Devices → Medical Devices,AI
-
-### [Corgi Insurance](https://www.ycombinator.com/companies/corgi-insurance)
-
-- `stage`: Early → Growth
-
-### [Cifrato](https://www.ycombinator.com/companies/cifrato)
-
-- `isHiring`: true → false
-
-### [Spott](https://www.ycombinator.com/companies/spott)
-
-- `stage`: Early → Growth
-
-### [Luminal](https://www.ycombinator.com/companies/luminal)
-
-- `stage`: Early → Growth
-
-### [tday.com](https://www.ycombinator.com/companies/tdaycom)
-
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/1049b2a12a458752491fa999a03f90cda4a5dce9.png → https://bookface-images.s3.amazonaws.com/small_logos/99c54ec6b342aa4e94d68533a5a72b02a59ec8d4.png
-
-### [Volaren Inc.](https://www.ycombinator.com/companies/volaren-inc)
+### [Culdesac](https://www.ycombinator.com/companies/culdesac)
 
 - `isHiring`: false → true
 
-### [Cyclon](https://www.ycombinator.com/companies/cyclon)
+### [trii](https://www.ycombinator.com/companies/trii)
 
-- `tags`: Hardware,Consumer,AI → Artificial Intelligence,Hardware,Consumer
+- `all_locations`: Miami, FL, USA → Medellín, Antioquia, Colombia
+- `regions`: United States of America,America / Canada,Remote,Partly Remote → Colombia,Latin America,Remote,Partly Remote
+
+### [Infinia](https://www.ycombinator.com/companies/infinia)
+
+- `one_liner`: Move money programmatically → Move money programmatically - built for developers
+- `team_size`: 12 → 28
+- `stage`: Growth → Early
+
+### [Envelope](https://www.ycombinator.com/companies/envelope)
+
+- `team_size`: 2 → 3
+
+### [SimCare](https://www.ycombinator.com/companies/simcare)
+
+- `isHiring`: false → true
+
+### [Zenbu](https://www.ycombinator.com/companies/zenbu-2)
+
+- `one_liner`: The extensible IDE for coding agents → The browser for agentic development
+- `tags`: Artificial Intelligence,Developer Tools,Open Source → Developer Tools,Open Source,AI
+
+### [Gojiberry AI](https://www.ycombinator.com/companies/gojiberry-ai)
+
+- `isHiring`: false → true
+
+### [Ontora](https://www.ycombinator.com/companies/ontora)
+
+- `tags`: Artificial Intelligence,Robotic Process Automation,Enterprise → Robotic Process Automation,Enterprise,AI
+- `app_video_public`: true → false
+- `demo_day_video_public`: true → false
+
+### [AgentPhone](https://www.ycombinator.com/companies/agentphone)
+
+- `team_size`: 2 → 0
+
+### [GBrain](https://www.ycombinator.com/companies/gbrain)
+
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/ff8cf14993c5561f746df91370537e12f858f957.png → https://bookface-images.s3.amazonaws.com/small_logos/f7bf7b8a84de5df5cb99d1a5f1024ec159e9c14d.png
+
+### [COACH](https://www.ycombinator.com/companies/ai-coach)
+
+- `isHiring`: false → true

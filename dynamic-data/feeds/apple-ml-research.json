@@ -8,7 +8,7 @@
     "ai",
     "research"
   ],
-  "updatedAt": "2026-09-18T15:54:30.949Z",
+  "updatedAt": "2026-09-24T16:34:42.649Z",
   "items": [
     {
       "guid": "environment-free",
@@ -297,7 +297,15 @@
       "summary": "Activation steering has emerged as a powerful method for guiding the behavior of generative models towards desired outcomes such as toxicity mitigation. However, most existing methods apply interventions uniformly across all inputs, degrading model performance when steering is unnecessary. We…",
       "author": null,
       "publishedAt": "2026-09-18T00:00:00.000Z"
+    },
+    {
+      "guid": "latent-space-distillation",
+      "title": "Compressing Streaming Neural Audio Encoders via Latent-Space Distillation",
+      "link": "https://machinelearning.apple.com/research/latent-space-distillation",
+      "summary": "System-wide Dictation on Apple devices runs entirely on-device, and the speech it transcribes reaches the foundation model through a tokenizer: an encoder that maps short windows of waveform onto the representation the language model reads. Because that model is sparsely activated under…",
+      "author": null,
+      "publishedAt": "2026-09-24T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 36
+  "totalIndexed": 37
 }

@@ -9,7 +9,7 @@
     "performance",
     "edge-computing"
   ],
-  "updatedAt": "2026-09-22T16:21:44.224Z",
+  "updatedAt": "2026-09-24T16:34:42.747Z",
   "items": [
     {
       "guid": "01KY2432VQPD5FTF2RARXXYQGH",
@@ -61730,7 +61730,15 @@
       "summary": "Worker Previews gives every branch its own URL, configuration, state, and observability, so you and your agents can test changes in parallel without affecting production.",
       "author": "Yomna Shousha",
       "publishedAt": "2026-09-22T13:00:00.000Z"
+    },
+    {
+      "guid": "01M38DRFS3KYJZFDF0GNHZHXGF",
+      "title": "How Cloudflare addressed a cross-tenant data exposure vulnerability in Containers",
+      "link": "https://blog.cloudflare.com/containers-cross-tenant-vulnerability/",
+      "summary": "External security researchers at Accomplish identified a vulnerability in Cloudflare Containers that could expose residual disk data from previous workloads. We explain how the issue worked, how we investigated it, and the steps we took to remediate it.",
+      "author": "Rushil Mehra",
+      "publishedAt": "2026-09-24T15:00:00.000Z"
     }
   ],
-  "totalIndexed": 7715
+  "totalIndexed": 7716
 }
