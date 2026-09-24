@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-09-23T20:54:56.440Z",
+  "updatedAt": "2026-09-24T11:27:15.063Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -1921,7 +1921,15 @@
       "summary": "October's hacking workshop will cover my talk, pg_plan_advice: Plan Stability and User Planner Control for PostgreSQL?. If you're interesting in joining us, please sign up using this form and I will send you an invite to one of the sessions.\nRead more »",
       "author": null,
       "publishedAt": "2026-09-23T19:16:42.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9vC",
+      "title": "Christophe Pettus: All Your GUCs in a Row: max_prepared_transactions",
+      "link": "https://postgr.es/p/9vC",
+      "summary": "Prepared transactions are orphaned sessions that hold locks and block vacuum indefinitely.",
+      "author": null,
+      "publishedAt": "2026-09-24T01:00:00.000Z"
     }
   ],
-  "totalIndexed": 239
+  "totalIndexed": 240
 }

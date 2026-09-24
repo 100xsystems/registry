@@ -4,73 +4,44 @@
 - Current total: 6248
 - Added: 0
 - Removed: 0
-- Updated: 13
+- Updated: 9
 
 
 ## Updated Companies
 
 ### [TrueNorth](https://www.ycombinator.com/companies/truenorth)
 
-- `status`: Active → Inactive
-- `stage`: Growth → Early
+- `stage`: Early → Growth
 
-### [DeepSource](https://www.ycombinator.com/companies/deepsource)
+### [Caire Health](https://www.ycombinator.com/companies/caire-health)
 
-- `status`: Active → Acquired
+- `website`: http://cairehealth.com → http://cairehealthinc.com
+- `tags`: Artificial Intelligence,Medical Devices → Medical Devices,AI
 
-### [Optery](https://www.ycombinator.com/companies/optery)
+### [Corgi Insurance](https://www.ycombinator.com/companies/corgi-insurance)
+
+- `stage`: Early → Growth
+
+### [Cifrato](https://www.ycombinator.com/companies/cifrato)
 
 - `isHiring`: true → false
-- `status`: Active → Acquired
 
-### [Alex](https://www.ycombinator.com/companies/alex-com)
+### [Spott](https://www.ycombinator.com/companies/spott)
 
-- `tags`: SaaS,B2B,Recruiting,HR Tech,AI → Artificial Intelligence,SaaS,B2B,Recruiting,HR Tech
+- `stage`: Early → Growth
 
-### [Gale](https://www.ycombinator.com/companies/gale)
+### [Luminal](https://www.ycombinator.com/companies/luminal)
 
-- `all_locations`: Vancouver, BC, Canada → San Francisco, CA, USA
-- `tags`: Artificial Intelligence,B2B,Legal,HR Tech,Immigration → B2B,Legal,HR Tech,Immigration,AI
-- `regions`: Canada,America / Canada → United States of America,America / Canada
+- `stage`: Early → Growth
 
-### [Frontier Computing](https://www.ycombinator.com/companies/frontier-computing)
+### [tday.com](https://www.ycombinator.com/companies/tdaycom)
 
-- `team_size`: 1 → 3
-- `tags`: Artificial Intelligence,Hard Tech,Hardware → Hard Tech,Hardware,AI
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/1049b2a12a458752491fa999a03f90cda4a5dce9.png → https://bookface-images.s3.amazonaws.com/small_logos/99c54ec6b342aa4e94d68533a5a72b02a59ec8d4.png
 
-### [Axis](https://www.ycombinator.com/companies/axis-2)
+### [Volaren Inc.](https://www.ycombinator.com/companies/volaren-inc)
 
-- `all_locations`: San Francisco, CA, USA → New York City, NY, USA
-
-### [Superset](https://www.ycombinator.com/companies/superset)
-
-- `team_size`: 3 → 4
-- `tags`: Artificial Intelligence,Developer Tools,Consumer,B2B,Enterprise Software → Developer Tools,Consumer,B2B,Enterprise Software,AI
-
-### [Ontora](https://www.ycombinator.com/companies/ontora)
-
-- `tags`: Robotic Process Automation,Enterprise,AI → Artificial Intelligence,Robotic Process Automation,Enterprise
-- `app_video_public`: false → true
-- `demo_day_video_public`: false → true
-
-### [Maquoketa Research](https://www.ycombinator.com/companies/maquoketa-research)
-
-- `one_liner`: The intelligence layer for drones → Automated LiveOps for Game Studios
-- `industry`: Industrials → B2B
-- `subindustry`: Industrials -> Defense → B2B
-- `industries`: Industrials,Defense → B2B
-
-### [Pennant](https://www.ycombinator.com/companies/pennant)
-
-- `tags`: Fintech,Investing,AI → Artificial Intelligence,Fintech,Investing
 - `isHiring`: false → true
 
-### [Hebbian Robotics](https://www.ycombinator.com/companies/hebbian-robotics)
+### [Cyclon](https://www.ycombinator.com/companies/cyclon)
 
-- `one_liner`: APIs for robotics data teams to verify data quality for model training → Automate Data Evaluations for Physical AI and Robotics
-- `tags`: Robotics,Data Science,Data Engineering,AI,Databases → Artificial Intelligence,Robotics,Data Science,Data Engineering,Databases
-
-### [Vorelios](https://www.ycombinator.com/companies/vorelios)
-
-- `one_liner`: A Foundation Model for Industrial Physics Simulation → A foundation model for engineering physics
-- `tags`: Hard Tech,B2B,AI → Artificial Intelligence,Hard Tech,B2B
+- `tags`: Hardware,Consumer,AI → Artificial Intelligence,Hardware,Consumer
