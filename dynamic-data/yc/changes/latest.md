@@ -1,75 +1,76 @@
-# YC Company Changes for 2026-09-23
+# YC Company Changes for 2026-09-24
 
 - Previous total: 6248
 - Current total: 6248
-- Added: 1
-- Removed: 1
-- Updated: 12
+- Added: 0
+- Removed: 0
+- Updated: 13
 
-
-## Added Companies
-
-- [Mantle](https://www.ycombinator.com/companies/mantle-2) (Fall 2026) — The pit crew for deployed machines and robots.
-
-## Removed Companies
-
-- Meridian Industries (Summer 2019)
 
 ## Updated Companies
 
-### [PrimeVault](https://www.ycombinator.com/companies/primevault)
+### [TrueNorth](https://www.ycombinator.com/companies/truenorth)
 
-- `all_locations`: San Francisco, CA, USA; Remote → Bengaluru, KA, India; Remote
-- `regions`: United States of America,America / Canada,Remote,Fully Remote → India,South Asia,Remote,Fully Remote
-
-### [Corgi Insurance](https://www.ycombinator.com/companies/corgi-insurance)
-
+- `status`: Active → Inactive
 - `stage`: Growth → Early
 
-### [Praxos](https://www.ycombinator.com/companies/praxos)
+### [DeepSource](https://www.ycombinator.com/companies/deepsource)
 
-- `all_locations`: São Paulo, SP, Brazil → 
-- `tags`: B2B,Messaging,AI,Conversational AI → Artificial Intelligence,B2B,Messaging,Conversational AI
-- `regions`: Brazil,Latin America,Remote,Partly Remote → Remote,Partly Remote
+- `status`: Active → Acquired
 
-### [fixa](https://www.ycombinator.com/companies/fixa)
+### [Optery](https://www.ycombinator.com/companies/optery)
 
-- `name`: Clarus → fixa
-- `slug`: clarus → fixa
-- `former_names`: pixa,Apex,pixa,fixa,verso,Verso → pixa,Apex,pixa,fixa,verso,Verso,Clarus
-- `website`: https://www.clarus.finance → https://www.fixa.dev
-- `one_liner`: LP clarity across private markets → Fix your voice agents faster
+- `isHiring`: true → false
+- `status`: Active → Acquired
 
-### [Outlit](https://www.ycombinator.com/companies/outlit)
+### [Alex](https://www.ycombinator.com/companies/alex-com)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/16a8c8e06204be0874b7eb6c471380893195adbb.png → https://bookface-images.s3.amazonaws.com/small_logos/973d0a8062099dffcc4d6355a5ee07462b41be8b.png
+- `tags`: SaaS,B2B,Recruiting,HR Tech,AI → Artificial Intelligence,SaaS,B2B,Recruiting,HR Tech
 
-### [Spott](https://www.ycombinator.com/companies/spott)
+### [Gale](https://www.ycombinator.com/companies/gale)
 
-- `stage`: Growth → Early
+- `all_locations`: Vancouver, BC, Canada → San Francisco, CA, USA
+- `tags`: Artificial Intelligence,B2B,Legal,HR Tech,Immigration → B2B,Legal,HR Tech,Immigration,AI
+- `regions`: Canada,America / Canada → United States of America,America / Canada
 
-### [GroundControl](https://www.ycombinator.com/companies/groundcontrol)
+### [Frontier Computing](https://www.ycombinator.com/companies/frontier-computing)
 
-- `isHiring`: false → true
+- `team_size`: 1 → 3
+- `tags`: Artificial Intelligence,Hard Tech,Hardware → Hard Tech,Hardware,AI
 
-### [Lilac](https://www.ycombinator.com/companies/lilac)
+### [Axis](https://www.ycombinator.com/companies/axis-2)
 
-- `tags`: Machine Learning,Cloud Computing,Infrastructure,AI → Artificial Intelligence,Machine Learning,Cloud Computing,Infrastructure
+- `all_locations`: San Francisco, CA, USA → New York City, NY, USA
+
+### [Superset](https://www.ycombinator.com/companies/superset)
+
+- `team_size`: 3 → 4
+- `tags`: Artificial Intelligence,Developer Tools,Consumer,B2B,Enterprise Software → Developer Tools,Consumer,B2B,Enterprise Software,AI
+
+### [Ontora](https://www.ycombinator.com/companies/ontora)
+
+- `tags`: Robotic Process Automation,Enterprise,AI → Artificial Intelligence,Robotic Process Automation,Enterprise
+- `app_video_public`: false → true
 - `demo_day_video_public`: false → true
 
-### [Physical Turing](https://www.ycombinator.com/companies/physical-turing)
+### [Maquoketa Research](https://www.ycombinator.com/companies/maquoketa-research)
 
-- `one_liner`: Evaluating humanoids in the real world → Next generation robot deployer
-- `tags`: Robotics,B2B,AI → Artificial Intelligence,Robotics,B2B
+- `one_liner`: The intelligence layer for drones → Automated LiveOps for Game Studios
+- `industry`: Industrials → B2B
+- `subindustry`: Industrials -> Defense → B2B
+- `industries`: Industrials,Defense → B2B
 
-### [tday.com](https://www.ycombinator.com/companies/tdaycom)
+### [Pennant](https://www.ycombinator.com/companies/pennant)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/be18e0389cf4e054ea9daa993ce4e9131722dfb7.png → https://bookface-images.s3.amazonaws.com/small_logos/1049b2a12a458752491fa999a03f90cda4a5dce9.png
+- `tags`: Fintech,Investing,AI → Artificial Intelligence,Fintech,Investing
+- `isHiring`: false → true
 
-### [Definite](https://www.ycombinator.com/companies/definite)
+### [Hebbian Robotics](https://www.ycombinator.com/companies/hebbian-robotics)
 
-- `batch`: Summer 2026 → Fall 2026
+- `one_liner`: APIs for robotics data teams to verify data quality for model training → Automate Data Evaluations for Physical AI and Robotics
+- `tags`: Robotics,Data Science,Data Engineering,AI,Databases → Artificial Intelligence,Robotics,Data Science,Data Engineering,Databases
 
-### [Ageospatial](https://www.ycombinator.com/companies/ageospatial)
+### [Vorelios](https://www.ycombinator.com/companies/vorelios)
 
-- `tags`: Computer Vision,Insurance,AI → Artificial Intelligence,Computer Vision,Insurance
+- `one_liner`: A Foundation Model for Industrial Physics Simulation → A foundation model for engineering physics
+- `tags`: Hard Tech,B2B,AI → Artificial Intelligence,Hard Tech,B2B
