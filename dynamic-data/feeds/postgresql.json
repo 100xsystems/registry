@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-09-25T16:39:08.022Z",
+  "updatedAt": "2026-09-25T20:56:13.219Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -1961,7 +1961,15 @@
       "summary": "I’m happy to share that I was a guest on the Rails Business podcast and the episode is now live. Here’s a recap of the topics we discussed.\nEngineering Work at Aura\nWe spent most of the time discussing engineering work last year related to scaling the database workload for peak traffic at Aura…",
       "author": null,
       "publishedAt": "2026-09-25T10:40:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9vH",
+      "title": "Christophe Pettus: All Your GUCs in a Row: max_replication_slots",
+      "link": "https://postgr.es/p/9vH",
+      "summary": "`max_replication_slots` sizes a shared-memory array that holds every replication slot, regardless of type or state.",
+      "author": null,
+      "publishedAt": "2026-09-25T01:00:00.000Z"
     }
   ],
-  "totalIndexed": 244
+  "totalIndexed": 245
 }

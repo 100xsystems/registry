@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-09-23T20:54:56.757Z",
+  "updatedAt": "2026-09-25T20:56:13.246Z",
   "items": [
     {
       "guid": "https://devblogs.microsoft.com/dotnet/?p=60442",
@@ -279,7 +279,15 @@
       "summary": "Starting September 23, 2026, Microsoft is updating the author-signing certificate used for NuGet packages. Customers using trusted signer policies or certificate fingerprint verification should add the new certificate as soon as possible.\nThe post Microsoft is updating its author-signing…",
       "author": "The NuGet Team",
       "publishedAt": "2026-09-23T20:00:00.000Z"
+    },
+    {
+      "guid": "https://devblogs.microsoft.com/dotnet/?p=60885",
+      "title": "AG-UI Protocol now has a first-class .NET SDK",
+      "link": "https://devblogs.microsoft.com/dotnet/ag-ui-dotnet-sdk/",
+      "summary": "The new AG-UI .NET SDK enables .NET services to expose and consume interoperable agent endpoints using Microsoft.Extensions.AI.\nThe post AG-UI Protocol now has a first-class .NET SDK appeared first on .NET Blog.",
+      "author": "Daniel Roth",
+      "publishedAt": "2026-09-25T17:05:00.000Z"
     }
   ],
-  "totalIndexed": 34
+  "totalIndexed": 35
 }
