@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-09-25T11:33:06.115Z",
-  "count": 6248,
+  "fetchedAt": "2026-09-25T16:39:25.337Z",
+  "count": 6249,
   "companies": [
     {
       "id": 38492,
@@ -2068,7 +2068,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": true,
+      "isHiring": false,
       "nonprofit": false,
       "batch": "Fall 2026",
       "status": "Active",
@@ -2105,8 +2105,8 @@
       "subindustry": "B2B -> Infrastructure",
       "launched_at": 1788561875,
       "tags": [
-        "Infrastructure",
-        "AI"
+        "Artificial Intelligence",
+        "Infrastructure"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -3263,6 +3263,46 @@
       "app_answers": null,
       "question_answers": false,
       "url": "https://www.ycombinator.com/companies/herdr"
+    },
+    {
+      "id": 34431,
+      "name": "Hue",
+      "slug": "hue",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/1c5e6f96d14890d7f03f32c22ceed76e4fc923f2.png",
+      "website": "https://www.hue.run/",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "Hue turns production usage of agents into repeatable tests that preserve the tools, data, and state behind the real run. As AI agents take on real work, their behavior depends increasingly on the nuances of the world around them. With Hue, teams can test and improve their agents under conditions that mimic real usage.",
+      "one_liner": "Test agents in realistic worlds built from production usage",
+      "team_size": 2,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "B2B",
+      "subindustry": "B2B",
+      "launched_at": 1790353230,
+      "tags": [
+        "Artificial Intelligence"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Fall 2026",
+      "status": "Active",
+      "industries": [
+        "B2B"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/hue"
     },
     {
       "id": 34365,
@@ -18754,7 +18794,7 @@
       "all_locations": "BY, Germany",
       "long_description": "We are building AI-native fulfillment powered by robotics.\r\nWarehouses without human labor that get better, faster, and cheaper with every order.\r\n\r\nMost robotics companies wait until their system is perfect before deploying. We don't. We ship imperfect policies into real warehouses, detect failures in real time, recover automatically when we can, and bring in a remote human operator when we can't.\r\n\r\nEvery failure becomes training data. Every intervention makes the system better. The result is a fulfillment system that continuously learns from production.",
       "one_liner": "Robotic arms that pick and pack your orders.",
-      "team_size": 4,
+      "team_size": 10,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -28780,7 +28820,7 @@
       "tags": [],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": true,
+      "isHiring": false,
       "nonprofit": false,
       "batch": "Winter 2026",
       "status": "Active",
@@ -51118,7 +51158,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": true,
+      "isHiring": false,
       "nonprofit": false,
       "batch": "Winter 2025",
       "status": "Active",
@@ -115919,7 +115959,7 @@
       "isHiring": false,
       "nonprofit": false,
       "batch": "Summer 2022",
-      "status": "Active",
+      "status": "Inactive",
       "industries": [
         "B2B",
         "Marketing"
@@ -134931,30 +134971,34 @@
     },
     {
       "id": 25279,
-      "name": "Moots",
-      "slug": "moots",
+      "name": "Drama Drama",
+      "slug": "drama-drama",
       "former_names": [
         "Take1 Financial",
         "Muse Card",
         "OnScale",
         "Muse - OnScale",
-        "Moots AI"
+        "Moots AI",
+        "Moots"
       ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/fde6c91673da136f18472357605fb80d656f17b9.png",
-      "website": "https://www.moots.ai/",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c317c036345682d427208c925256d74c3cc72666.png",
+      "website": "https://dramadrama.ai/",
       "all_locations": "New York City, NY, USA",
-      "long_description": "Moots is the Guest Intelligence platform. We engineer the room so every guest walks away with the conversation they came for, and with a relationship that lasts beyond it. Built for the events where the room matters: brand activations, advisory retreats, investor gatherings, members clubs, donor cultivation, political fundraisers, and recurring tech communities on Luma.",
-      "one_liner": "The guest intelligence platform for high-value client events",
+      "long_description": "Drama Drama is building the monetization platform for AI character and drama creators.\r\n\r\nCreators are already building AI characters and serialized stories that attract audiences on TikTok, Instagram, YouTube and other social platforms, but turning that fandom into direct revenue is still difficult.\r\n\r\nDrama Drama lets creators monetize their existing characters and series through gated episodes, paid AI character chat across text, voice and video, personalized fan experiences and other direct-to-fan products.\r\n\r\nCreators can bring the content and audience they already have. For selected creators who want help producing a series, we also offer optional co-production.",
+      "one_liner": "Monetization platform for AI characters and dramas",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
-      "industry": "B2B",
-      "subindustry": "B2B",
+      "industry": "Consumer",
+      "subindustry": "Consumer -> Content",
       "launched_at": 1644842544,
       "tags": [
         "Artificial Intelligence",
-        "Collaboration"
+        "Payments",
+        "Entertainment",
+        "Advertising",
+        "Creator Economy"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -134963,20 +135007,19 @@
       "batch": "Winter 2022",
       "status": "Active",
       "industries": [
-        "B2B"
+        "Consumer",
+        "Content"
       ],
       "regions": [
         "United States of America",
-        "America / Canada",
-        "Remote",
-        "Partly Remote"
+        "America / Canada"
       ],
       "stage": "Early",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
       "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/moots"
+      "url": "https://www.ycombinator.com/companies/drama-drama"
     },
     {
       "id": 25278,
@@ -163399,7 +163442,7 @@
       "name": "Care Weather",
       "slug": "care-weather",
       "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/81e671e33f39e0cff34d99aac6c503ed578d8189.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/6bd70155aa26748f0d48ecc4507276f1f296e759.png",
       "website": "https://www.careweather.com",
       "all_locations": "Orem, UT, USA",
       "long_description": "Care Weather collects the highest-accuracy global weather data to help governments and shipping companies adapt to extreme weather. The data is collected by Care Weather’s unique flat-panel radar satellite, which is 1000X more cost effective because it’s vertically integrated, gets more solar power, and sails on top of the atmosphere for a closer view of the surface. Our team includes CEO Patrick Walton (NASA Earth science fellow) and CTO Alex Laraway (mach 4 rockets). In the last 4 months, we built and launched the smallest radar satellite ever. We have $35M worth of LOIs, including one from the Air Force and others from cargo shippers. Care Weather is backed by Boost VC, Kickstart Seed Fund, Y Combinator, and more.",

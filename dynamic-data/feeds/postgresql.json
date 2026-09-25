@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-09-25T03:41:54.925Z",
+  "updatedAt": "2026-09-25T16:39:08.022Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -1937,7 +1937,31 @@
       "summary": "With PGConf.dev 2027 now on the horizon, I found myself thinking back to PGConf.dev 2026 and all the moments that stayed with me.\nFrom 19–22 May 2026, I attended PGConf.dev for the very first time in Vancouver, Canada.\nWhat started with two accepted talk submissions for the Community Day at…",
       "author": null,
       "publishedAt": "2026-09-24T23:34:52.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9vF",
+      "title": "Umair Shahid: Your Postgres Database Is Slow, and It Isn’t Postgres",
+      "link": "https://postgr.es/p/9vF",
+      "summary": "What a 4 TiB Azure Disk Taught Us about Slow Reads\nOne of our customers spent most of a week tuning PostgreSQL to fix slow reads. They worked through shared_buffers, effective_cache_size, work_mem, and the rest of the checklist, and set all of them sensibly. The reads stayed slow. And the reason…",
+      "author": null,
+      "publishedAt": "2026-09-25T14:02:33.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9vE",
+      "title": "Dmitry Narizhnykh: How to Inspect a pg_dump Without Restoring It",
+      "link": "https://postgr.es/p/9vE",
+      "summary": "You can't read a pg_dump file the way you read a table. To see what is inside, you normally restore it into a PostgreSQL server first.\npg_restore and grep can list the tables without a restore, and even print a table's rows as raw text. They can't filter, sort or join them.\nThe free PostgreSQL Dump…",
+      "author": null,
+      "publishedAt": "2026-09-25T12:56:50.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9vG",
+      "title": "Andrew Atkinson: Let’s Get Down to Business with Rails and PostgreSQL",
+      "link": "https://postgr.es/p/9vG",
+      "summary": "I’m happy to share that I was a guest on the Rails Business podcast and the episode is now live. Here’s a recap of the topics we discussed.\nEngineering Work at Aura\nWe spent most of the time discussing engineering work last year related to scaling the database workload for peak traffic at Aura…",
+      "author": null,
+      "publishedAt": "2026-09-25T10:40:00.000Z"
     }
   ],
-  "totalIndexed": 241
+  "totalIndexed": 244
 }

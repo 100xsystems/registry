@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-09-18T15:54:42.724Z",
+  "updatedAt": "2026-09-25T16:39:19.697Z",
   "items": [
     {
       "guid": "https://www.tigerdata.com/blog/whats-new-in-tiger-cloud",
@@ -111,7 +111,15 @@
       "summary": "Composite indexes charge every insert and pay back only some queries. Four steps to price both sides and audit the indexes you already run.",
       "author": "NanoHertz Communications",
       "publishedAt": "2026-09-18T12:49:15.000Z"
+    },
+    {
+      "guid": "https://www.tigerdata.com/blog/sizing-your-iiot-table-before-you-deploy",
+      "title": "Sizing Your IIoT Table Before You Deploy",
+      "link": "https://www.tigerdata.com/blog/sizing-your-iiot-table-before-you-deploy",
+      "summary": "A 20-byte sensor reading costs 95.6 on disk. Measure bytes per row, project 631 billion rows, and test your ingest ceiling before the schema review.",
+      "author": "John Shi",
+      "publishedAt": "2026-09-25T11:57:49.000Z"
     }
   ],
-  "totalIndexed": 13
+  "totalIndexed": 14
 }

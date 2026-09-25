@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-09-23T20:54:58.454Z",
+  "updatedAt": "2026-09-25T16:39:10.334Z",
   "items": [
     {
       "guid": "github::https://github.blog/engineering/the-cost-of-saying-yes-has-changed/",
@@ -143,7 +143,15 @@
       "summary": "Broad refactors and migrations often have to land as one change.\nStacked pull requests are a great way to split work into smaller changes, which makes reviews easier and helps teams ship with less risk. But some changes, like this one, can’t be split cleanly. That leaves you with a single pull…",
       "author": "Alberto Gimeno",
       "publishedAt": "2026-09-23T18:29:49.000Z"
+    },
+    {
+      "guid": "github::https://github.blog/engineering/architecture-optimization/improving-site-performance-by-shipping-more-css/",
+      "title": "Improving site performance by shipping more CSS",
+      "link": "https://github.blog/engineering/architecture-optimization/improving-site-performance-by-shipping-more-css/",
+      "summary": "The Primer Design System powers many of the experiences you see on GitHub today. From buttons to banners to breadcrumbs, these foundational components are required to be accessible, flexible, and performant across a wide variety of scenarios.\nBack in 2023, the number of components on certain pages…",
+      "author": "Josh Black",
+      "publishedAt": "2026-09-25T15:00:00.000Z"
     }
   ],
-  "totalIndexed": 17
+  "totalIndexed": 18
 }

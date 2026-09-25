@@ -9,7 +9,7 @@
     "performance",
     "edge-computing"
   ],
-  "updatedAt": "2026-09-24T16:34:42.747Z",
+  "updatedAt": "2026-09-25T16:39:07.785Z",
   "items": [
     {
       "guid": "01KY2432VQPD5FTF2RARXXYQGH",
@@ -61738,7 +61738,15 @@
       "summary": "External security researchers at Accomplish identified a vulnerability in Cloudflare Containers that could expose residual disk data from previous workloads. We explain how the issue worked, how we investigated it, and the steps we took to remediate it.",
       "author": "Rushil Mehra",
       "publishedAt": "2026-09-24T15:00:00.000Z"
+    },
+    {
+      "guid": "01M39NRWHQ3A97HJ70DRJS7VGM",
+      "title": "Agents can now set up your website’s security with Turnstile Spin",
+      "link": "https://blog.cloudflare.com/turnstile-spin/",
+      "summary": "Misconfiguring Turnstile by skipping backend validation leaves sites exposed to bots. Turnstile Spin fixes incomplete setups by using your preferred AI coding agent to wire up server-side verification.",
+      "author": "Jules Lemee",
+      "publishedAt": "2026-09-25T13:00:00.000Z"
     }
   ],
-  "totalIndexed": 7716
+  "totalIndexed": 7717
 }

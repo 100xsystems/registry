@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-09-24T16:34:48.970Z",
+  "updatedAt": "2026-09-25T16:39:13.437Z",
   "items": [
     {
       "guid": "https://laravel-news.com/pest-5",
@@ -551,7 +551,31 @@
       "summary": "Laravel's new Refreshes attribute reloads storedAs and virtualAs columns after create() and update(), so the model has the database value without refresh().\nThe post Eloquent Refreshes: Load Generated Columns After Save appeared first on Laravel News.\nJoin the Laravel Newsletter to get Laravel…",
       "author": "Paul Redmond",
       "publishedAt": "2026-09-23T23:29:37.000Z"
+    },
+    {
+      "guid": "https://laravel-news.com/decide-with-jev-laravel-ai-that-answers-with-a-probability",
+      "title": "Decide with Jev: Laravel AI That Answers with a Probability",
+      "link": "https://laravel-news.com/decide-with-jev-laravel-ai-that-answers-with-a-probability?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+      "summary": "Decide with Jev is a new mini course where we build an app that checks if a draft does what its brief asked for. It uses Jev, an AI model from TypeSafe that answers with a number instead of text. In episode 1 we set it up and test it: a complete draft scores 0.96, and a thin one scores 0.02.\nThe…",
+      "author": "Harris Raftopoulos",
+      "publishedAt": "2026-09-25T09:41:18.000Z"
+    },
+    {
+      "guid": "https://laravel-news.com/jetbrains-air",
+      "title": "JetBrains Air: Run AI Coding Agents in JetBrains IDEs",
+      "link": "https://laravel-news.com/jetbrains-air?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+      "summary": "JetBrains Air runs Claude Agent, Codex, Junie, and other AI coding agents in PhpStorm and other JetBrains IDEs, with team automations and AI cost controls.\nThe post JetBrains Air: Run AI Coding Agents in JetBrains IDEs appeared first on Laravel News.\nJoin the Laravel Newsletter to get Laravel…",
+      "author": "Paul Redmond",
+      "publishedAt": "2026-09-25T02:20:50.000Z"
+    },
+    {
+      "guid": "https://laravel-news.com/laravel-tagged-memoized-cache",
+      "title": "Memoize Tagged Cache Reads in Laravel",
+      "link": "https://laravel-news.com/laravel-tagged-memoized-cache?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+      "summary": "Use Cache::memo()->tags() in Laravel to read tagged cache values once per request and serve repeat lookups from memory, with writes and flushes kept in sync.\nThe post Memoize Tagged Cache Reads in Laravel appeared first on Laravel News.\nJoin the Laravel Newsletter to get Laravel articles like this…",
+      "author": "Paul Redmond",
+      "publishedAt": "2026-09-25T02:21:03.000Z"
     }
   ],
-  "totalIndexed": 68
+  "totalIndexed": 71
 }
