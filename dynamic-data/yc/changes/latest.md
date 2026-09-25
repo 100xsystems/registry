@@ -1,96 +1,79 @@
-# YC Company Changes for 2026-09-24
+# YC Company Changes for 2026-09-25
 
-- Previous total: 6248
-- Current total: 6247
-- Added: 0
-- Removed: 1
-- Updated: 17
+- Previous total: 6247
+- Current total: 6248
+- Added: 1
+- Removed: 0
+- Updated: 13
 
 
-## Removed Companies
+## Added Companies
 
-- Soteris (Summer 2019)
+- [Rhem Labs](https://www.ycombinator.com/companies/rhem-labs) (Fall 2026) — Home care technology for aging parents and their families
 
 ## Updated Companies
 
-### [Gemnote](https://www.ycombinator.com/companies/gemnote)
+### [Inden](https://www.ycombinator.com/companies/inden)
 
-- `all_locations`: San Francisco, CA, USA → Los Angeles, CA, USA
+- `name`: Trueplace → Inden
+- `slug`: trueplace → inden
+- `former_names`: Trueplace,Argo → Trueplace,Argo,Trueplace
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/090425d1ebc2eddd72adac73fbef7428d9357414.png → https://bookface-images.s3.amazonaws.com/small_logos/16c3d8359a5e6781d8a200a4bfb9d014b212608a.png
+- `website`: https://www.trueplace.ca/ → https://inden.ai
+- `one_liner`: AI to prepare you for the future → How people actually talk to machines.
 
-### [Upflow](https://www.ycombinator.com/companies/upflow)
+### [Massdriver](https://www.ycombinator.com/companies/massdriver)
 
-- `all_locations`: New York City, NY, USA → Paris, Île-de-France, France
-- `regions`: United States of America,America / Canada,Remote,Partly Remote → France,Europe,Remote,Partly Remote
+- `one_liner`: Deploy secure, scalable cloud infrastructure in minutes not days → Internal developer platform for Terraform, OpenTofu and Helm
 
-### [Tella](https://www.ycombinator.com/companies/tella)
+### [Alphawatch AI](https://www.ycombinator.com/companies/alphawatch-ai)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/a50066f6c17f94be44746c6c53060ebd41629453.png → https://bookface-images.s3.amazonaws.com/small_logos/9b22307de491a8293929a87e95c1f3af5978045a.png
-- `team_size`: 6 → 7
+- `one_liner`: Discover new opportunities (jobs, deals, investors) → Relationship Coverage for Deal Teams
 
-### [Redbean](https://www.ycombinator.com/companies/redbean)
-
-- `all_locations`: Singapore, Singapore; Remote → Ho Chi Minh City, Vietnam; Remote
-- `regions`: Singapore,Southeast Asia,Remote,Fully Remote → Vietnam,Southeast Asia,Remote,Fully Remote
-
-### [Stardex](https://www.ycombinator.com/companies/stardex)
-
-- `all_locations`: San Francisco, CA, USA → New York City, NY, USA
-
-### [Squire.ai](https://www.ycombinator.com/companies/squire-ai)
-
-- `regions`: United States of America,Canada,America / Canada,Remote,Partly Remote → United States of America,Canada,America / Canada,America / Canada,Remote,Partly Remote
-
-### [Apoxy](https://www.ycombinator.com/companies/apoxy)
-
-- `all_locations`:  → San Francisco, CA, USA
-- `regions`: Remote,Partly Remote → United States of America,America / Canada,Remote,Partly Remote
-
-### [Treblo](https://www.ycombinator.com/companies/treblo)
-
-- `name`: Sonauto → Treblo
-- `slug`: sonauto → treblo
-- `former_names`:  → Sonauto
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/30eb9790545896983b2bcc8e7e3026af2fc31212.png → https://bookface-images.s3.amazonaws.com/small_logos/06f5522b7fa85084b0dbcbf4b215da1780123f6f.png
-- `website`: https://sonauto.ai/ → https://treblo.com/
-
-### [Corgi Insurance](https://www.ycombinator.com/companies/corgi-insurance)
-
-- `stage`: Growth → Early
-
-### [InLoop Robotics](https://www.ycombinator.com/companies/inloop-robotics)
-
-- `all_locations`: San Francisco, CA, USA → BY, Germany
-- `regions`: United States of America,America / Canada → Germany,Europe
-
-### [BentoLabs AI](https://www.ycombinator.com/companies/bentolabs-ai)
-
-- `all_locations`: San Francisco, CA, USA → Bengaluru, KA, India
-- `regions`: United States of America,America / Canada → India,South Asia
-
-### [AICE](https://www.ycombinator.com/companies/aice)
-
-- `all_locations`: San Francisco, CA, USA → Paris, Île-de-France, France
-- `regions`: United States of America,America / Canada → France,Europe
-
-### [Kuli](https://www.ycombinator.com/companies/kuli)
-
-- `all_locations`: San Francisco, CA, USA → Paris, Île-de-France, France
-- `regions`: United States of America,America / Canada → France,Europe
-
-### [Modern](https://www.ycombinator.com/companies/modern)
-
-- `all_locations`: San Francisco, CA, USA → Melbourne, VIC, Australia
-- `regions`: United States of America,America / Canada → Australia,Oceania
-
-### [Pacific](https://www.ycombinator.com/companies/pacific)
-
-- `all_locations`: London, England, United Kingdom → San Francisco, CA, USA
-- `regions`: United Kingdom,Europe → United States of America,America / Canada
-
-### [Hop Aero](https://www.ycombinator.com/companies/hop-aero)
+### [Constant](https://www.ycombinator.com/companies/constant)
 
 - `isHiring`: true → false
 
-### [Hopper](https://www.ycombinator.com/companies/hopper)
+### [Readily](https://www.ycombinator.com/companies/readily)
 
-- `tags`: Artificial Intelligence,Infrastructure → Infrastructure,AI
+- `website`: https://readily.co → https://readily.ai
+- `stage`: Growth → Early
+
+### [Blaxel](https://www.ycombinator.com/companies/blaxel)
+
+- `isHiring`: true → false
+- `status`: Active → Acquired
+
+### [Serafis](https://www.ycombinator.com/companies/serafis)
+
+- `one_liner`: Narrative intelligence for investors → Deep intelligence for private markets
+- `tags`: Artificial Intelligence,SaaS,Finance,Investing,Search → SaaS,Finance,Investing,Search,AI
+
+### [Sim](https://www.ycombinator.com/companies/sim)
+
+- `one_liner`: The AI Workspace for Building and Managing AI Agents. → Build autonomous AI agents for enterprise systems
+- `team_size`: 8 → 10
+- `tags`: AI → Artificial Intelligence
+
+### [hillclimb](https://www.ycombinator.com/companies/hillclimb)
+
+- `isHiring`: true → false
+
+### [Antinuous](https://www.ycombinator.com/companies/antinuous)
+
+- `tags`: Artificial Intelligence → AI
+
+### [BioStack Platforms](https://www.ycombinator.com/companies/biostack-platforms)
+
+- `team_size`: 9 → 10
+
+### [OpenRelay](https://www.ycombinator.com/companies/openrelay)
+
+- `tags`: AI → Artificial Intelligence
+- `regions`: United States of America,America / Canada → United States of America,America / Canada,Remote,Partly Remote
+
+### [Allia Health](https://www.ycombinator.com/companies/allia-health)
+
+- `all_locations`: New York City, NY, USA → San Francisco, CA, USA
+- `one_liner`: First AI-Native Medical Group for Mental Health → AI-Native Medical Group for Mental Health
+- `isHiring`: false → true
