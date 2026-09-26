@@ -4,22 +4,27 @@
 - Current total: 6253
 - Added: 0
 - Removed: 0
-- Updated: 2
+- Updated: 5
 
 
 ## Updated Companies
 
-### [Scope](https://www.ycombinator.com/companies/scope)
+### [Jupiter](https://www.ycombinator.com/companies/jupiter)
 
-- `website`: https://tryscope.app → https://tryscope.com
+- `one_liner`: AppLovin for the food community  → AppLovin for the food & CPG 
 
-### [PumpGTM](https://www.ycombinator.com/companies/pumpgtm)
+### [SafeBeat](https://www.ycombinator.com/companies/safebeat)
 
-- `name`: Gigacatalyst → PumpGTM
-- `slug`: gigacatalyst → pumpgtm
-- `former_names`: Giga Next Inc,Giga Catalyst → Giga Next Inc,Giga Catalyst,Gigacatalyst
-- `website`: https://gigacatalyst.com/ → https://pumpgtm.com/
-- `one_liner`: AI-first embedded analytics and reports for customer success → Find and engage with desperate buyers across LinkedIn, Email, and X
-- `team_size`: 3 → 5
-- `subindustry`: B2B -> Engineering, Product and Design → B2B -> Marketing
-- `industries`: B2B,Engineering, Product and Design → B2B,Marketing
+- `one_liner`: Guiding cardiac therapeutics - all from your phone → First ECG AI to go beyond diagnostics and recommend treatment
+
+### [Feanix Biotechnologies](https://www.ycombinator.com/companies/feanix-biotechnologies)
+
+- `isHiring`: true → false
+
+### [Sila](https://www.ycombinator.com/companies/sila)
+
+- `one_liner`: Messaging built for agents and teams → Agentic Whatsapp
+
+### [Petrarch](https://www.ycombinator.com/companies/petrarch)
+
+- `tags`: Marketplace,B2B,Data Engineering → Artificial Intelligence,Reinforcement Learning,B2B,Privacy,Data Engineering

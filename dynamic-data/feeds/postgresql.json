@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-09-26T03:47:42.258Z",
+  "updatedAt": "2026-09-26T20:27:42.088Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -1977,7 +1977,15 @@
       "summary": "Replication slots can silently fill your disk and crash the primary, or you can set `max_slot_wal_keep_size` to kill a stalled replica instead.",
       "author": null,
       "publishedAt": "2026-09-26T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9vJ",
+      "title": "Mikhail Shytsko: Our Interleaved Backfill Wrote Three Times the WAL",
+      "link": "https://postgr.es/p/9vJ",
+      "summary": "TypeSafe opened early access to its Jev model on 15 September 2026, pricing input at $0.042 per million tokens and listing output tokens as free, so at our own estimate of 150 input tokens a support ticket, labelling ten million tickets comes to about $63. Storing those labels in new category and…",
+      "author": null,
+      "publishedAt": "2026-09-26T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 246
+  "totalIndexed": 247
 }
