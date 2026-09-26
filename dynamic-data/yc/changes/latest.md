@@ -4,25 +4,22 @@
 - Current total: 6253
 - Added: 0
 - Removed: 0
-- Updated: 4
+- Updated: 2
 
 
 ## Updated Companies
 
-### [Mindbase](https://www.ycombinator.com/companies/tradex)
+### [Scope](https://www.ycombinator.com/companies/scope)
 
-- `isHiring`: true → false
+- `website`: https://tryscope.app → https://tryscope.com
 
-### [x1](https://www.ycombinator.com/companies/x1)
+### [PumpGTM](https://www.ycombinator.com/companies/pumpgtm)
 
-- `isHiring`: false → true
-
-### [Swerve](https://www.ycombinator.com/companies/swerve)
-
-- `one_liner`: Chat with AI Characters → AI Chat & Stories
-- `tags`: Consumer,Entertainment,AI → Artificial Intelligence,Consumer,Entertainment
-
-### [antimattr](https://www.ycombinator.com/companies/antimattr)
-
-- `website`: https://antimattr.one/ → https://www.antimattr.one/project-mnemosyne
-- `tags`: Hardware,Consumer,AI → Artificial Intelligence,Hardware,Consumer
+- `name`: Gigacatalyst → PumpGTM
+- `slug`: gigacatalyst → pumpgtm
+- `former_names`: Giga Next Inc,Giga Catalyst → Giga Next Inc,Giga Catalyst,Gigacatalyst
+- `website`: https://gigacatalyst.com/ → https://pumpgtm.com/
+- `one_liner`: AI-first embedded analytics and reports for customer success → Find and engage with desperate buyers across LinkedIn, Email, and X
+- `team_size`: 3 → 5
+- `subindustry`: B2B -> Engineering, Product and Design → B2B -> Marketing
+- `industries`: B2B,Engineering, Product and Design → B2B,Marketing

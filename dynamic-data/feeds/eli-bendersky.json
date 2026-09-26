@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-09-19T19:50:10.968Z",
+  "updatedAt": "2026-09-26T15:52:40.557Z",
   "items": [
     {
       "guid": "eli-bendersky::https://eli.thegreenplace.net/2026/notes-on-the-fourier-transform/",
@@ -87,7 +87,15 @@
       "summary": "The following are my notes on discrete-time Fourier series (DTFS), as\nwell as the discrete-time Fourier transform (DTFT). These topics serve\nas an important theoretical underpinning to the digital processing of\nsignals by computers using the DFT (which will be covered in a future\npost).\nFor…",
       "author": "Eli Bendersky",
       "publishedAt": "2026-09-19T16:39:00.000Z"
+    },
+    {
+      "guid": "eli-bendersky::https://eli.thegreenplace.net/2026/rusty-thoughts-on-parse-dont-validate/",
+      "title": "Rusty thoughts on \"Parse, don't validate\"",
+      "link": "https://eli.thegreenplace.net/2026/rusty-thoughts-on-parse-dont-validate/",
+      "summary": "Like many programmers, I find Alexis King's Parse, don't validate\narticle fascinating, because it gives a name to an idiom that seems familiar and\nimportant - one I've observed and used in the past without naming it explicitly.\nThis post is a review of the \"Parse, don't validate\" pattern applied to…",
+      "author": "Eli Bendersky",
+      "publishedAt": "2026-09-26T15:25:00.000Z"
     }
   ],
-  "totalIndexed": 10
+  "totalIndexed": 11
 }
