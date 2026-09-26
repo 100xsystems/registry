@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-09-25T20:56:13.219Z",
+  "updatedAt": "2026-09-26T03:47:42.258Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -1969,7 +1969,15 @@
       "summary": "`max_replication_slots` sizes a shared-memory array that holds every replication slot, regardless of type or state.",
       "author": null,
       "publishedAt": "2026-09-25T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9vI",
+      "title": "Christophe Pettus: All Your GUCs in a Row: max_slot_wal_keep_size",
+      "link": "https://postgr.es/p/9vI",
+      "summary": "Replication slots can silently fill your disk and crash the primary, or you can set `max_slot_wal_keep_size` to kill a stalled replica instead.",
+      "author": null,
+      "publishedAt": "2026-09-26T01:00:00.000Z"
     }
   ],
-  "totalIndexed": 245
+  "totalIndexed": 246
 }
