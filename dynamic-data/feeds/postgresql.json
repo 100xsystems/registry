@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-09-26T20:27:42.088Z",
+  "updatedAt": "2026-09-27T11:45:57.835Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -1985,7 +1985,15 @@
       "summary": "TypeSafe opened early access to its Jev model on 15 September 2026, pricing input at $0.042 per million tokens and listing output tokens as free, so at our own estimate of 150 input tokens a support ticket, labelling ten million tickets comes to about $63. Storing those labels in new category and…",
       "author": null,
       "publishedAt": "2026-09-26T00:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9vK",
+      "title": "Christophe Pettus: All Your GUCs in a Row: max_standby_archive_delay and max_standby_streaming_delay",
+      "link": "https://postgr.es/p/9vK",
+      "summary": "`max_standby_streaming_delay` buys you replication lag, not query time—and when the budget runs out, queries get canceled regardless of how long they've…",
+      "author": null,
+      "publishedAt": "2026-09-27T01:00:00.000Z"
     }
   ],
-  "totalIndexed": 247
+  "totalIndexed": 248
 }

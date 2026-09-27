@@ -4,33 +4,25 @@
 - Current total: 6253
 - Added: 0
 - Removed: 0
-- Updated: 6
+- Updated: 4
 
 
 ## Updated Companies
 
-### [fixa](https://www.ycombinator.com/companies/fixa)
+### [Craze](https://www.ycombinator.com/companies/craze)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/5f17067469d8941e888938ae1ab75180ca2c2330.png → https://bookface-images.s3.amazonaws.com/small_logos/bd9d8fdd660acfd5b49d596c3ebc27e9317844b4.png
+- `one_liner`: The AI Video Maker → Plan, edit and turn creative direction into videos people watch
+- `tags`: Artificial Intelligence,Video,Media → Video,Media,AI
 
-### [RiskCube](https://www.ycombinator.com/companies/riskcube)
+### [Crimson](https://www.ycombinator.com/companies/crimson)
 
-- `tags`: Artificial Intelligence,Fintech,Insurance,Defense → Fintech,Insurance,Defense,AI
+- `team_size`: 6 → 7
+- `tags`: SaaS,Legal,AI → Artificial Intelligence,SaaS,Legal
 
-### [Loombotic](https://www.ycombinator.com/companies/loombotic)
+### [Neuromorphic](https://www.ycombinator.com/companies/neuromorphic)
 
-- `team_size`: 11 → 25
-- `isHiring`: true → false
+- `tags`: Artificial Intelligence,Hard Tech,Robotics,B2B,Biotech → Hard Tech,Robotics,B2B,Biotech,AI
 
-### [Conviction](https://www.ycombinator.com/companies/conviction)
+### [The Subvocal Company](https://www.ycombinator.com/companies/the-subvocal-company)
 
-- `team_size`: 2 → 3
-- `tags`: Artificial Intelligence,Fintech,Crypto / Web3,Consumer Finance,Stocks → Fintech,Crypto / Web3,Consumer Finance,AI,Stocks
-
-### [Physical Turing](https://www.ycombinator.com/companies/physical-turing)
-
-- `tags`: Artificial Intelligence,Robotics,B2B → Robotics,B2B,AI
-
-### [Ageospatial](https://www.ycombinator.com/companies/ageospatial)
-
-- `one_liner`: Helping insurance companies value risk on properties remotely. → Physical intelligence for every decision with Geospatial AI.
+- `isHiring`: false → true
