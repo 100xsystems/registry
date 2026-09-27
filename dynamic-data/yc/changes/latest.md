@@ -4,25 +4,38 @@
 - Current total: 6253
 - Added: 0
 - Removed: 0
-- Updated: 4
+- Updated: 7
 
 
 ## Updated Companies
 
-### [Craze](https://www.ycombinator.com/companies/craze)
+### [Squire.ai](https://www.ycombinator.com/companies/squire-ai)
 
-- `one_liner`: The AI Video Maker → Plan, edit and turn creative direction into videos people watch
-- `tags`: Artificial Intelligence,Video,Media → Video,Media,AI
+- `regions`: United States of America,Canada,America / Canada,America / Canada,Remote,Partly Remote → United States of America,Canada,America / Canada,Remote,Partly Remote
+
+### [Fortuna Health](https://www.ycombinator.com/companies/fortuna-health)
+
+- `team_size`: 25 → 29
+- `stage`: Growth → Early
+
+### [Vera Health](https://www.ycombinator.com/companies/vera-health)
+
+- `isHiring`: false → true
+
+### [Artificial Societies](https://www.ycombinator.com/companies/artificial-societies)
+
+- `isHiring`: true → false
+
+### [Proception Inc](https://www.ycombinator.com/companies/proception-inc)
+
+- `isHiring`: false → true
 
 ### [Crimson](https://www.ycombinator.com/companies/crimson)
 
-- `team_size`: 6 → 7
-- `tags`: SaaS,Legal,AI → Artificial Intelligence,SaaS,Legal
+- `team_size`: 7 → 6
+- `tags`: Artificial Intelligence,SaaS,Legal → SaaS,Legal,AI
 
-### [Neuromorphic](https://www.ycombinator.com/companies/neuromorphic)
+### [Norra](https://www.ycombinator.com/companies/norra)
 
-- `tags`: Artificial Intelligence,Hard Tech,Robotics,B2B,Biotech → Hard Tech,Robotics,B2B,Biotech,AI
-
-### [The Subvocal Company](https://www.ycombinator.com/companies/the-subvocal-company)
-
-- `isHiring`: false → true
+- `one_liner`: Automating equipment operations for nursing facilities → The AI equipment manager for post-acute care
+- `tags`: Hardware,Health Tech,Logistics,Healthcare,AI → Artificial Intelligence,Hardware,Health Tech,Logistics,Healthcare
