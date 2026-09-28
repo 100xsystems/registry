@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-09-27T20:39:42.198Z",
+  "updatedAt": "2026-09-28T03:57:39.741Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -2001,7 +2001,39 @@
       "summary": "The phrase now appears on almost every technology vendor’s website. That’s exactly why it has stopped meaning much.\nA database is called AI-ready because it supports vectors. A cloud platform is AI-ready because it offers foundation models. A data platform is AI-ready because it can build a RAG…",
       "author": null,
       "publishedAt": "2026-09-27T18:49:09.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9wk",
+      "title": "Devrim GÜNDÜZ: RHEL / Rocky Linux / AlmaLinux repository RPMs now follow the OS minor version",
+      "link": "https://postgr.es/p/9wk",
+      "summary": "Since I started building packages separately on each supported RHEL minor version, there has been a repository RPM for each minor version (9.6, 9.7, 9.8, 10.0, ...) in addition to the one for the major versio  (9, 10). All of them share the same package name, and the minor version specific ones are…",
+      "author": null,
+      "publishedAt": "2026-09-28T00:57:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9wj",
+      "title": "Radim Marek: What REPACK (CONCURRENTLY) costs while it runs",
+      "link": "https://postgr.es/p/9wj",
+      "summary": "Two years ago I compared pg_repack and pg_squeeze, the two extensions most of us reach for when a table has bloated beyond what autovacuum will ever give back and VACUUM FULL isn't an option.\nPostgreSQL 19 changes the starting point. REPACK brings VACUUM FULL and CLUSTER together under one command,…",
+      "author": null,
+      "publishedAt": "2026-09-27T23:30:40.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9wi",
+      "title": "Chris van Eijk: PostgreSQL indexes for multi-tenant SaaS: tenant_id first",
+      "link": "https://postgr.es/p/9wi",
+      "summary": "Five indexes, 1,000 tenants, one query, measured in PostgreSQL 17: why tenant_id goes first, what RLS does to the plan, and when partitioning pays off.",
+      "author": null,
+      "publishedAt": "2026-09-27T22:30:10.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9wh",
+      "title": "Chris van Eijk: Invoice numbers per tenant in PostgreSQL, without gaps",
+      "link": "https://postgr.es/p/9wh",
+      "summary": "Sequence, max()+1, SERIALIZABLE or a counter row: five ways to number invoices per tenant, measured under load in PostgreSQL 17 for duplicates, gaps and speed.",
+      "author": null,
+      "publishedAt": "2026-09-27T22:30:10.000Z"
     }
   ],
-  "totalIndexed": 249
+  "totalIndexed": 253
 }
