@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-09-07T12:05:54.300Z",
+  "updatedAt": "2026-09-28T13:26:59.473Z",
   "items": [
     {
       "guid": "https://blog.jetbrains.com/?post_type=kotlin&p=721999",
@@ -191,7 +191,15 @@
       "summary": "The Kotlin 2.4.20 release is out! Here are the main highlights: For the complete list of changes, see What’s new in Kotlin 2.4.20 or the release notes on GitHub. How to install Kotlin 2.4.20 The latest version of Kotlin is included in the latest versions of IntelliJ IDEA and Android Studio. To…",
       "author": "Daniel Csorba",
       "publishedAt": "2026-09-07T11:30:57.000Z"
+    },
+    {
+      "guid": "https://blog.jetbrains.com/?post_type=kotlin&p=742576",
+      "title": "A More Reliable Compilation Scheme for Kotlin Multiplatform Modules",
+      "link": "https://blog.jetbrains.com/kotlin/2026/09/a-more-reliable-compilation-scheme-for-kotlin-multiplatform-modules/",
+      "summary": "The current compilation approach to Kotlin Multiplatform projects works, but sometimes can lead to unexpected or hard-to-predict behavior. For example: With Kotlin 2.5.0-Beta1, we introduced an optional “separate compilation” approach to KMP that solves both problems: make the compilation results…",
+      "author": "Aleksey Zamulla",
+      "publishedAt": "2026-09-28T09:38:26.000Z"
     }
   ],
-  "totalIndexed": 23
+  "totalIndexed": 24
 }

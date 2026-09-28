@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-09-28T03:57:39.741Z",
+  "updatedAt": "2026-09-28T13:26:52.795Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -2033,7 +2033,23 @@
       "summary": "Sequence, max()+1, SERIALIZABLE or a counter row: five ways to number invoices per tenant, measured under load in PostgreSQL 17 for duplicates, gaps and speed.",
       "author": null,
       "publishedAt": "2026-09-27T22:30:10.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9wm",
+      "title": "Cornelia Biacsics: Contributions for week 38",
+      "link": "https://postgr.es/p/9wm",
+      "summary": "On 22 September, the Toulouse PUG met, organized by \nGeoffrey Coulaud\nXavier SIMON\nJean-Christophe Arnu\nStéphane Tachoires\nSpeakers:\nDimitri Vanoverbeke \nMarc Rechté\nOn 23 September 2026, the Postgres Meetup Group Valencia met, organized by \nMarcelo Diaz \nLaura Minen\nMartín Marqués\nSpeakers: \nHeidi…",
+      "author": null,
+      "publishedAt": "2026-09-28T07:11:26.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9wl",
+      "title": "Christophe Pettus: All Your GUCs in a Row: max_sync_workers_per_subscription",
+      "link": "https://postgr.es/p/9wl",
+      "summary": "max_sync_workers_per_subscription parallelizes table copies across tables, not within them.",
+      "author": null,
+      "publishedAt": "2026-09-28T06:07:00.000Z"
     }
   ],
-  "totalIndexed": 253
+  "totalIndexed": 255
 }

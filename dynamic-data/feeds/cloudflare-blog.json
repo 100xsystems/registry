@@ -9,7 +9,7 @@
     "performance",
     "edge-computing"
   ],
-  "updatedAt": "2026-09-27T20:39:41.782Z",
+  "updatedAt": "2026-09-28T13:26:52.521Z",
   "items": [
     {
       "guid": "01KY2432VQPD5FTF2RARXXYQGH",
@@ -61754,7 +61754,55 @@
       "summary": "The Internet is changing more today than at any point since Cloudflare launched back on September 27, 2010. As automated traffic surpasses human activity, we reflect on the rise of AI agents, new creators, and how we can help build a fair, sustainable future for the web.",
       "author": "Matthew Prince",
       "publishedAt": "2026-09-27T17:00:00.000Z"
+    },
+    {
+      "guid": "01M3JF3DKKQ5XNFGNAX8ZFJ833",
+      "title": "Four months of VoidZero at Cloudflare: making the open-source JavaScript toolchain faster for all humans and agents",
+      "link": "https://blog.cloudflare.com/voidzero-update/",
+      "summary": "Since joining Cloudflare, VoidZero has delivered more than 80 releases that drastically speed up JavaScript compilation, linting, and testing. From a 10x faster React compiler to Vite+ 1.0, here’s how we are building faster tools for developers and AI agents.",
+      "author": "Evan You",
+      "publishedAt": "2026-09-28T13:00:00.000Z"
+    },
+    {
+      "guid": "01M3J4F24CZJFAYS930VMKY6WH",
+      "title": "Introducing Forge: the open source pipeline for generating SDKs, CLIs, docs, and more",
+      "link": "https://blog.cloudflare.com/forge-open-source-generation-pipeline/",
+      "summary": "Forge is a pluggable, open-source pipeline that runs in CI to generate SDKs, CLIs, and documentation directly from API definitions. By shifting generation upstream into individual team repositories, Forge keeps developer tools continuously in sync.",
+      "author": "Dimitri Mitropoulos",
+      "publishedAt": "2026-09-28T13:00:00.000Z"
+    },
+    {
+      "guid": "01M3D84K773S7FMQR5NBJQNFWC",
+      "title": "The road to the agentic browser: A Kitesurf update",
+      "link": "https://blog.cloudflare.com/kitesurf-update/",
+      "summary": "We’ve updated Kitesurf, our Workers-based browser for AI agents, with WebMCP support, improved DOM performance, and terminal-based rendering. With over 730,000 Web Platform subtests passing, agents can now navigate complex sites faster.",
+      "author": "Celso Martinho",
+      "publishedAt": "2026-09-28T13:00:00.000Z"
+    },
+    {
+      "guid": "01M3D7BYYAG8E9BRD4A78X2A11",
+      "title": "Introducing The Cold Start: pitch your startup live at Cloudflare Connect",
+      "link": "https://blog.cloudflare.com/introducing-the-cold-start/",
+      "summary": "Cloudflare is launching The Cold Start, a startup competition giving five early-stage companies five minutes on stage at Cloudflare Connect. Grand Prize winner receives $500,000 in credits, a San Francisco billboard, and an invitation to our VIP speakers dinner.",
+      "author": "Fatima Yusuf",
+      "publishedAt": "2026-09-28T13:00:00.000Z"
+    },
+    {
+      "guid": "01M3D0TCHNJ5AZAV6G5YWHXSBZ",
+      "title": "EmDash 1.0: the stable CMS with a secure plugin registry",
+      "link": "https://blog.cloudflare.com/emdash-cms-plugin-registry/",
+      "summary": "EmDash 1.0 is a stable, open source CMS built for Astro, with agent-friendly workflows, secure sandboxed plugins, and a decentralized registry that keeps publishers in control.",
+      "author": "Scott Buscemi",
+      "publishedAt": "2026-09-28T13:00:00.000Z"
+    },
+    {
+      "guid": "01M3AJJ8KD2XWQ7A10RS71WEQ4",
+      "title": "Supporting native Rust in Workers with the new Emscripten target for wasm-bindgen",
+      "link": "https://blog.cloudflare.com/rust-workers-emscripten-target/",
+      "summary": "With the new experimental support for the Emscripten target in Rust Workers, many previously unsupported Rust libraries and applications can now be built and deployed directly to Cloudflare’s global Workers platform, including upcoming support for Tokio async.",
+      "author": "Guy Bedford",
+      "publishedAt": "2026-09-28T13:00:00.000Z"
     }
   ],
-  "totalIndexed": 7718
+  "totalIndexed": 7724
 }

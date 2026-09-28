@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-09-28T03:57:59.306Z",
-  "count": 6254,
+  "fetchedAt": "2026-09-28T13:27:13.863Z",
+  "count": 6255,
   "companies": [
     {
       "id": 38492,
@@ -1226,6 +1226,51 @@
       "app_answers": null,
       "question_answers": false,
       "url": "https://www.ycombinator.com/companies/shire-intelligence"
+    },
+    {
+      "id": 36180,
+      "name": "Vexo",
+      "slug": "vexo",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/f84f5f591774f936621b20e46974eb630302aa68.png",
+      "website": "https://www.vexoai.com/",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "Every AI today waits for a prompt. Vexo already has the context: the restaurant a friend mentioned, the intro you promised, the idea you had on a walk. It turns what it hears into private memories and acts on them, booking the table, sending the follow-up, and ordering the groceries through the apps you already use.\r\n\r\nIt's a woven bracelet with a microphone and health sensors. No screen, and nothing to open.\r\n\r\nVexo never keeps your audio. Only you can see your memories, and you can delete them anytime.",
+      "one_liner": "An AI bracelet that remembers your day and acts before you ask.",
+      "team_size": 3,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "Consumer",
+      "subindustry": "Consumer -> Consumer Electronics",
+      "launched_at": 1790588061,
+      "tags": [
+        "AI-Enhanced Learning",
+        "Hardware",
+        "Productivity",
+        "Conversational AI",
+        "AI Assistant"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Fall 2026",
+      "status": "Active",
+      "industries": [
+        "Consumer",
+        "Consumer Electronics"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/vexo"
     },
     {
       "id": 36086,
@@ -7690,8 +7735,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/28b2676e2b5c4bb6bce97d4ce827f594e9743ce2.png",
       "website": "https://heytenor.com/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Tenor enables domain experts to build, run, and scale AI-native service businesses.\r\nThe next generation of successful white-collar service businesses will be built and scaled around AI from the ground up. These companies need more than capable AI models. They need a company data layer, governed workflows that AI can execute, and harnesses that continuously improve based on outcomes and decision checkpoints. Tenor is building this infrastructure so millions of AI-native businesses don’t have to build it themselves.",
-      "one_liner": "Infrastructure for building and scaling AI-native service businesses.",
+      "long_description": "Tenor is a full-stack infrastructure for building and running AI-native businesses. We’re not just an agent framework, we manage the entire loop from how AI executes work to how every action, decision, and business outcome is captured and learned from. Owning the full stack lets companies deploy governed AI workflows, understand what actually drives results, and continuously improve how their business operates without building the infrastructure themselves.",
+      "one_liner": "Infrastructure for building and scaling AI-native businesses.",
       "team_size": 3,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -10676,7 +10721,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/0d863d3cf6091c132bb3f8d22d57b3597bc971de.png",
       "website": "https://jcode.sh/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "We produce the most capable, fast, and efficient coding agent harness. Our harness has 20k+ github stars, and $1m+/month of inference throughput.",
+      "long_description": "Jcode is a high-performance coding-agent harness that makes it possible for developers to scale up multi-agent/swarm workflows. It's built from the ground up with a different architecture to solve the memory bottleneck (it's 20x more memory efficient than Claude Code) that has kept agent swarms from going mainstream. It has 20K GitHub stars, and throughputs $1mil per month of inference spend",
       "one_liner": "High performance coding agents",
       "team_size": 1,
       "highlight_black": false,
@@ -11567,7 +11612,7 @@
       "website": "https://belvedir.ai/",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Belvedir makes it cheap and easy for anyone to make custom AI models. We autonomously collect your data via trace SDK / app MCP / CUA agents and autonomously train custom models + harnesses + routers, privately deploy them, and recursively improve them as they are used. \r\n\r\nOur customers have seen 10x reductions in inference costs and 2x increases on benchmark scores.\r\n\r\nCustom AI models are going to win. Belvedir is the infrastructure needed to make trillions of them.",
-      "one_liner": "The custom AI model factory.",
+      "one_liner": "The custom AI model factories",
       "team_size": 1,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -12128,7 +12173,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": false,
+      "isHiring": true,
       "nonprofit": false,
       "batch": "Summer 2026",
       "status": "Active",
@@ -16101,7 +16146,7 @@
         "markup.one",
         "tday"
       ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/99c54ec6b342aa4e94d68533a5a72b02a59ec8d4.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/15ec63fc78e093a5b7f3e3bd3fa5d9b3e40ec232.png",
       "website": "https://tday.com",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "tday automatically turns a software company's product into on-brand marketing creative. Connect your product and git repo, and tday generates polished launch videos, social graphics, and ads, the content a team would normally spend hours making in a design tool or pay a freelancer for. tday then publishes the creative and measures how it performs across your social and ad channels, closing the loop from what you ship to what you post.",
@@ -74503,17 +74548,18 @@
     },
     {
       "id": 29466,
-      "name": "OpenFoundry",
-      "slug": "openfoundry",
+      "name": "Overheard",
+      "slug": "overheard",
       "former_names": [
         "FlowState",
-        "Unidata"
+        "Unidata",
+        "OpenFoundry"
       ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/7ce4129c96ae12a1f36222fb4e03f8ee4c1b0306.png",
-      "website": "https://www.openfoundry.ai/",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/156a31d542f37c25abdebb50a956a376276e0f5b.png",
+      "website": "https://withoverheard.com",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "OpenFoundry is an open source platform that helps engineers build, deploy, and scale their open source AI stack 10x faster. Ship your AI stack with just one line of code. You could think of us as an open source alternative to Hugging Face.\r\n\r\nLearn more and check out a demo of this in action in our Launch YC post: https://www.ycombinator.com/launches/KhY-openfoundry-developer-infrastructure-for-open-source-ai",
-      "one_liner": "The fastest developer experience for building on open source AI.",
+      "long_description": "Overheard is an AI product researcher. Tell it what you're deciding, and it designs the study, interviews your users by voice, and comes back with an answer backed by what they actually said, with every finding linked to the quotes behind it.\r\n\r\nTeams at fast-growing software companies make product calls every week, often without talking to users, because real research takes weeks. Overheard gets them an answer in days, so they ship the right thing sooner.",
+      "one_liner": "An AI product researcher that interviews your users.",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -74522,10 +74568,10 @@
       "subindustry": "B2B -> Engineering, Product and Design",
       "launched_at": 1711038198,
       "tags": [
-        "Developer Tools",
         "B2B",
-        "Open Source",
-        "Infrastructure",
+        "Productivity",
+        "Design",
+        "Market Research",
         "AI"
       ],
       "tags_highlighted": [],
@@ -74547,7 +74593,7 @@
       "demo_day_video_public": false,
       "app_answers": null,
       "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/openfoundry"
+      "url": "https://www.ycombinator.com/companies/overheard"
     },
     {
       "id": 29465,
@@ -89406,7 +89452,7 @@
         "United States of America",
         "America / Canada"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -92405,7 +92451,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": false,
+      "isHiring": true,
       "nonprofit": false,
       "batch": "Summer 2023",
       "status": "Active",
@@ -112769,12 +112815,12 @@
         "Unify",
         "Ivy"
       ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/e774ce4075900b79265af766add42f9dcb133d49.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/90e213981ccee521dac2989633ba8959528e318e.png",
       "website": "https://unify.ai",
       "all_locations": "London, England, United Kingdom; Remote",
       "long_description": "Building the next frontier of models that continually learn from a stream of experience.",
       "one_liner": "Models that keep learning",
-      "team_size": 4,
+      "team_size": 3,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,

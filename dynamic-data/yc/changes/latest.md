@@ -1,71 +1,53 @@
 # YC Company Changes for 2026-09-28
 
-- Previous total: 6253
-- Current total: 6254
+- Previous total: 6254
+- Current total: 6255
 - Added: 1
 - Removed: 0
-- Updated: 12
+- Updated: 8
 
 
 ## Added Companies
 
-- [UFO.ai](https://www.ycombinator.com/companies/ufoai) (Fall 2026) — Next-generation agent operating system
+- [Vexo](https://www.ycombinator.com/companies/vexo) (Fall 2026) — An AI bracelet that remembers your day and acts before you ask.
 
 ## Updated Companies
 
-### [WeReno](https://www.ycombinator.com/companies/wereno)
+### [Unify](https://www.ycombinator.com/companies/unify)
 
-- `tags`: Real Estate,Construction,Proptech,AI → Artificial Intelligence,Real Estate,Construction,Proptech
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/e774ce4075900b79265af766add42f9dcb133d49.png → https://bookface-images.s3.amazonaws.com/small_logos/90e213981ccee521dac2989633ba8959528e318e.png
+- `team_size`: 4 → 3
 
-### [Momentic](https://www.ycombinator.com/companies/momentic)
-
-- `one_liner`: The agentic quality platform for web and mobile → Mo, the AI QA engineer that bug-bashes your app before every release
-- `team_size`: 15 → 18
-- `tags`: Artificial Intelligence,Developer Tools,B2B,Enterprise Software → Developer Tools,B2B,Enterprise Software,AI
-
-### [Bucket Robotics](https://www.ycombinator.com/companies/bucket-robotics)
-
-- `team_size`: 7 → 8
-
-### [Candle](https://www.ycombinator.com/companies/candle)
-
-- `all_locations`: New York City, NY, USA → San Francisco, CA, USA
-
-### [Mundo AI](https://www.ycombinator.com/companies/mundo-ai)
-
-- `one_liner`: High Quality Multilingual Training Data for AI Models → The data layer for perceptual intelligence
-
-### [NOSO LABS](https://www.ycombinator.com/companies/noso-labs)
-
-- `one_liner`: Build AI agents for field technicians to diagnose and sell 10x better → AGI for home service
-- `tags`: Artificial Intelligence → AI
-
-### [Darwin](https://www.ycombinator.com/companies/darwin)
-
-- `team_size`: 3 → 4
-- `tags`: Artificial Intelligence,Hard Tech,Machine Learning,Robotics → Hard Tech,Machine Learning,Robotics,AI
-
-### [Poth Labs](https://www.ycombinator.com/companies/poth-labs)
-
-- `tags`: Artificial Intelligence,SaaS,B2B,Workflow Automation,Market Research → SaaS,B2B,Workflow Automation,Market Research,AI
-
-### [TesterArmy](https://www.ycombinator.com/companies/testerarmy)
-
-- `all_locations`: San Francisco, CA, USA; Remote → Warsaw, Masovian Voivodeship, Poland; Remote
-- `regions`: United States of America,America / Canada,Remote,Fully Remote → Poland,Europe,Remote,Fully Remote
-
-### [Neuromorphic](https://www.ycombinator.com/companies/neuromorphic)
+### [Craftwork](https://www.ycombinator.com/companies/craftwork)
 
 - `isHiring`: false → true
 
-### [Asakana](https://www.ycombinator.com/companies/asakana)
+### [Fortuna Health](https://www.ycombinator.com/companies/fortuna-health)
 
-- `team_size`: 0 → 4
-- `industry`: Consumer → B2B
-- `subindustry`: Consumer -> Food and Beverage → B2B -> Supply Chain and Logistics
-- `industries`: Consumer,Food and Beverage → B2B,Supply Chain and Logistics
+- `stage`: Early → Growth
 
-### [Asim](https://www.ycombinator.com/companies/asim-group)
+### [Overheard](https://www.ycombinator.com/companies/overheard)
 
-- `all_locations`:  → San Francisco, CA, USA
-- `regions`: Unspecified → United States of America,America / Canada
+- `name`: OpenFoundry → Overheard
+- `slug`: openfoundry → overheard
+- `former_names`: FlowState,Unidata → FlowState,Unidata,OpenFoundry
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/7ce4129c96ae12a1f36222fb4e03f8ee4c1b0306.png → https://bookface-images.s3.amazonaws.com/small_logos/156a31d542f37c25abdebb50a956a376276e0f5b.png
+- `website`: https://www.openfoundry.ai/ → https://withoverheard.com
+- `one_liner`: The fastest developer experience for building on open source AI. → An AI product researcher that interviews your users.
+- `tags`: Developer Tools,B2B,Open Source,Infrastructure,AI → B2B,Productivity,Design,Market Research,AI
+
+### [tday.com](https://www.ycombinator.com/companies/tdaycom)
+
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/99c54ec6b342aa4e94d68533a5a72b02a59ec8d4.png → https://bookface-images.s3.amazonaws.com/small_logos/15ec63fc78e093a5b7f3e3bd3fa5d9b3e40ec232.png
+
+### [Pango](https://www.ycombinator.com/companies/pango)
+
+- `isHiring`: false → true
+
+### [Belvedir](https://www.ycombinator.com/companies/belvedir)
+
+- `one_liner`: The custom AI model factory. → The custom AI model factories
+
+### [Tenor](https://www.ycombinator.com/companies/tenor)
+
+- `one_liner`: Infrastructure for building and scaling AI-native service businesses. → Infrastructure for building and scaling AI-native businesses.

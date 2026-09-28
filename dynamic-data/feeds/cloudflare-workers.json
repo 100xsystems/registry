@@ -8,7 +8,7 @@
     "edge-computing",
     "javascript"
   ],
-  "updatedAt": "2026-09-09T15:59:26.216Z",
+  "updatedAt": "2026-09-28T13:26:53.050Z",
   "items": [
     {
       "guid": "1WYEYtVwQSo4H3jKHTcKmO",
@@ -61321,7 +61321,23 @@
       "summary": "Workers now enables Node.js compatibility by default, supports applications up to 64 mebibytes, and adds a URL-based module registry with import.meta, lazy compilation, shared code caches, and clearer errors.",
       "author": "Logan Gatlin",
       "publishedAt": "2026-09-09T13:00:00.000Z"
+    },
+    {
+      "guid": "01M3D0TCHNJ5AZAV6G5YWHXSBZ",
+      "title": "EmDash 1.0: the stable CMS with a secure plugin registry",
+      "link": "https://blog.cloudflare.com/emdash-cms-plugin-registry/",
+      "summary": "EmDash 1.0 is a stable, open source CMS built for Astro, with agent-friendly workflows, secure sandboxed plugins, and a decentralized registry that keeps publishers in control.",
+      "author": "Scott Buscemi",
+      "publishedAt": "2026-09-28T13:00:00.000Z"
+    },
+    {
+      "guid": "01M3AJJ8KD2XWQ7A10RS71WEQ4",
+      "title": "Supporting native Rust in Workers with the new Emscripten target for wasm-bindgen",
+      "link": "https://blog.cloudflare.com/rust-workers-emscripten-target/",
+      "summary": "With the new experimental support for the Emscripten target in Rust Workers, many previously unsupported Rust libraries and applications can now be built and deployed directly to Cloudflare’s global Workers platform, including upcoming support for Tokio async.",
+      "author": "Guy Bedford",
+      "publishedAt": "2026-09-28T13:00:00.000Z"
     }
   ],
-  "totalIndexed": 7664
+  "totalIndexed": 7666
 }
