@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-09-28T13:26:52.795Z",
+  "updatedAt": "2026-09-28T19:17:41.157Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -2049,7 +2049,31 @@
       "summary": "max_sync_workers_per_subscription parallelizes table copies across tables, not within them.",
       "author": null,
       "publishedAt": "2026-09-28T06:07:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9wp",
+      "title": "Jobin Augustine: PgQ and PgQue: Workflow Engines you might need in PostgreSQL",
+      "link": "https://postgr.es/p/9wp",
+      "summary": "In many real production databases, we often see some tables receiving high-frequency updates (millions per day) and autovacuum running repeatedly (hundreds of times per day). Additionally, those tables can sometimes become heavily bloated. The end effect is poor performance, poor concurrency, and…",
+      "author": null,
+      "publishedAt": "2026-09-28T14:43:56.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9wo",
+      "title": "Devrim GÜNDÜZ: Using the PGDG RPM repositories are now way easier!",
+      "link": "https://postgr.es/p/9wo",
+      "summary": "and zypp.postgresql.org have a new look!\n\nUsers no longer have to navigate through pages on the website. Instead, the front page has a clear layout and easy-to-follow instructions. Just select your OS, version, architecture, and PostgreSQL version, and you'll see instructions that you can copy and…",
+      "author": null,
+      "publishedAt": "2026-09-28T13:42:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9wn",
+      "title": "Phillip Merrick: Why We Built pgEdge Starfleet",
+      "link": "https://postgr.es/p/9wn",
+      "summary": "Some of you may have seen our pgEdge Starfleet announcement, and be pondering the question of “why?”  Why did we build it, why now, and does the world really need another cloud Postgres service?It's a fair question, and the answer starts where most things at pgEdge start: with our customers.\nIt…",
+      "author": null,
+      "publishedAt": "2026-09-28T13:12:30.000Z"
     }
   ],
-  "totalIndexed": 255
+  "totalIndexed": 258
 }

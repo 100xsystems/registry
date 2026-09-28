@@ -8,7 +8,7 @@
     "ide",
     "programming-languages"
   ],
-  "updatedAt": "2026-09-24T20:59:31.043Z",
+  "updatedAt": "2026-09-28T19:17:51.247Z",
   "items": [
     {
       "guid": "https://blog.jetbrains.com/?post_type=rscpp&p=725420",
@@ -673,7 +673,31 @@
       "summary": "In this post, I’ll share how we designed and built the new TeamCity integration for Kotlin Multiplatform. Our guided onboarding helps KMP developers building for iOS go from their first Git push to a tested build, a TestFlight release, and a fully automated pipeline, all within their IDE. Making…",
       "author": "Bozidar Rakicevic",
       "publishedAt": "2026-09-24T08:44:33.000Z"
+    },
+    {
+      "guid": "https://blog.jetbrains.com/?post_type=air&p=742944",
+      "title": "Air Teams: Bring Your Best Agentic Workflows to the Whole Team – and Automate Repeatable Work",
+      "link": "https://blog.jetbrains.com/air/2026/09/introducing-air-teams/",
+      "summary": "Today, we’re introducing JetBrains Air Teams – the team layer for agentic development. It gives humans and agents the shared context, environments, tools, and instructions they need to work effectively together across the full development lifecycle. Air Teams is already available to JetBrains…",
+      "author": "Vladimir Gromozdin",
+      "publishedAt": "2026-09-28T13:15:11.000Z"
+    },
+    {
+      "guid": "https://blog.jetbrains.com/?post_type=dotnet&p=742624",
+      "title": "Rider 2026.2.3 Is Released!",
+      "link": "https://blog.jetbrains.com/dotnet/2026/09/28/rd-2026-2-3/",
+      "summary": "Rider 2026.2.3 brings AI performance analysis to the Monitoring tool window and fixes an issue with the AI Agent Setup widget on Windows. You can update directly from the IDE, through the Toolbox App, or by downloading the latest version from our website. AI performance insights from the Monitoring…",
+      "author": "Alexander Kurakin",
+      "publishedAt": "2026-09-28T12:25:44.000Z"
+    },
+    {
+      "guid": "https://blog.jetbrains.com/?post_type=kotlin&p=742576",
+      "title": "A More Reliable Compilation Scheme for Kotlin Multiplatform Modules",
+      "link": "https://blog.jetbrains.com/kotlin/2026/09/a-more-reliable-compilation-scheme-for-kotlin-multiplatform-modules/",
+      "summary": "The current compilation approach to Kotlin Multiplatform projects works, but sometimes can lead to unexpected or hard-to-predict behavior. For example: With Kotlin 2.5.0-Beta1, we introduced an optional “separate compilation” approach to KMP that solves both problems: make the compilation results…",
+      "author": "Aleksey Zamulla",
+      "publishedAt": "2026-09-28T09:38:26.000Z"
     }
   ],
-  "totalIndexed": 83
+  "totalIndexed": 86
 }

@@ -8,7 +8,7 @@
     "ai",
     "research"
   ],
-  "updatedAt": "2026-09-24T20:59:20.284Z",
+  "updatedAt": "2026-09-28T19:17:40.584Z",
   "items": [
     {
       "guid": "environment-free",
@@ -313,7 +313,15 @@
       "summary": "Semi-supervised federated learning (SSFL) trains models on clients’ unlabeled data using a teacher to generate pseudo-labels, with a small labeled seed dataset on the server. Automatic Speech Recognition (ASR) is particularly fragile here: pseudo-label errors compound across the output sequence and…",
       "author": null,
       "publishedAt": "2026-09-24T00:00:00.000Z"
+    },
+    {
+      "guid": "federated-variational-inequalities",
+      "title": "Faster Rates for Federated Variational Inequalities",
+      "link": "https://machinelearning.apple.com/research/federated-variational-inequalities",
+      "summary": "In this paper, we study federated optimization for solving stochastic variational inequalities (VIs), a problem that has attracted growing attention in recent years. Despite substantial progress, a significant gap remains between existing convergence rates and the state-of-the-art bounds known for…",
+      "author": null,
+      "publishedAt": "2026-09-28T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 38
+  "totalIndexed": 39
 }

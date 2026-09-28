@@ -9,7 +9,7 @@
     "performance",
     "edge-computing"
   ],
-  "updatedAt": "2026-09-28T13:26:52.521Z",
+  "updatedAt": "2026-09-28T19:17:40.649Z",
   "items": [
     {
       "guid": "01KY2432VQPD5FTF2RARXXYQGH",
@@ -61802,7 +61802,31 @@
       "summary": "With the new experimental support for the Emscripten target in Rust Workers, many previously unsupported Rust libraries and applications can now be built and deployed directly to Cloudflare’s global Workers platform, including upcoming support for Tokio async.",
       "author": "Guy Bedford",
       "publishedAt": "2026-09-28T13:00:00.000Z"
+    },
+    {
+      "guid": "01M3AZRN7QXCG8CS98YQVRRM60",
+      "title": "Next.js applications, powered by Vite: introducing Vinext 1.0",
+      "link": "https://blog.cloudflare.com/vinext-nextjs-on-vite/",
+      "summary": "Vinext 1.0 graduates from an AI experiment to a production-ready framework, letting developers run Next.js apps on Vite. This release brings advanced cache warming, broader compatibility, and an automated testing pipeline.",
+      "author": "James Anderson",
+      "publishedAt": "2026-09-28T14:51:57.000Z"
+    },
+    {
+      "guid": "01M3KR05M9ZET98RWX42EJ7YMG",
+      "title": "Introducing cf: the agentic CLI for the entire Cloudflare API",
+      "link": "https://blog.cloudflare.com/cloudflare-cf-cli-launch/",
+      "summary": "We are releasing cf, our new command-line tool that mirrors the entire Cloudflare API and supports programmatic TypeScript configuration. We are also open-sourcing Forge, our internal SDK generator.",
+      "author": "Matt “TK” Taylor",
+      "publishedAt": "2026-09-28T14:50:37.000Z"
+    },
+    {
+      "guid": "01M3CW0C8PVD170DBSKBTM8666",
+      "title": "How fast is the web? Explore billions of real-user measurements with BEACON",
+      "link": "https://blog.cloudflare.com/how-fast-is-the-web/",
+      "summary": "Cloudflare is open-sourcing the BEACON dataset, making billions of anonymized Real User Monitoring (RUM) performance records publicly available on Google BigQuery. Explore real-world Core Web Vitals, soft navigation metrics, and performance breakdowns across browsers and regions.",
+      "author": "Ryan Townsend",
+      "publishedAt": "2026-09-28T14:43:05.000Z"
     }
   ],
-  "totalIndexed": 7724
+  "totalIndexed": 7727
 }

@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-07-31T08:57:17.926Z",
+  "updatedAt": "2026-09-28T19:17:50.104Z",
   "items": [
     {
       "guid": "2145",
@@ -135,7 +135,15 @@
       "summary": "I almost shipped a bad AI integration once. The feature worked technically: the model answered questions correctly, the UI looked clean, and everyone nodded along in our internal demo. Then we put real users on it, and within 48 hours a product manager Slack'd me asking why 60% of sessions",
       "author": "Zia Ullah",
       "publishedAt": null
+    },
+    {
+      "guid": "2149",
+      "title": "Building a Secure Client-Server Protocol in Python: Sockets, Framing & Key Exchange",
+      "link": "https://stackabuse.com/building-a-secure-client-server-protocol-in-python-sockets-framing-key-exchange/",
+      "summary": "This course focuses on constructing a Secure Client-Server Protocol using the Python programming language, including security for sockets, framing, and key exchange. If you ever wanted to implement your own secure communication protocol in Python, using only the standard Python socket library and…",
+      "author": "Hamna Fayyaz",
+      "publishedAt": null
     }
   ],
-  "totalIndexed": 16
+  "totalIndexed": 17
 }

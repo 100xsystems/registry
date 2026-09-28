@@ -9,7 +9,7 @@
     "edge-computing",
     "nextjs"
   ],
-  "updatedAt": "2026-09-25T20:56:21.649Z",
+  "updatedAt": "2026-09-28T19:17:51.173Z",
   "items": [
     {
       "guid": "vercel-blog::https://vercel.com/changelog/ai-gateway-now-supports-streaming-transcription",
@@ -4706,7 +4706,23 @@
       "summary": "In seven months, the  registry grew to one million agent skills and recorded nearly 280 million installs.skills.sh\nA skill gives an AI agent reusable instructions for a particular job. Agents are capable but generic; they can do many jobs, but they don't know how a specific person, team, or company…",
       "author": "Amelia Charles",
       "publishedAt": "2026-09-25T06:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/claude-sonnet-5-5-now-available-on-ai-gateway",
+      "title": "Claude Sonnet 5.5 now available on AI Gateway",
+      "link": "https://vercel.com/changelog/claude-sonnet-5-5-now-available-on-ai-gateway",
+      "summary": "from  is now available on  as .Claude Sonnet 5.5AnthropicAI Gatewayanthropic/claude-sonnet-5.5\nSonnet 5.5 improves on  for well-scoped everyday work, from building features and fixing bugs to creating documents, slides, and spreadsheets.Claude Sonnet 5\nOn coding tasks, Sonnet 5.5 carries changes…",
+      "author": "Rohan Taneja",
+      "publishedAt": "2026-09-28T00:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/vercel-sandbox-now-supports-memory-observability",
+      "title": "Vercel Sandbox now supports memory observability",
+      "link": "https://vercel.com/changelog/vercel-sandbox-now-supports-memory-observability",
+      "summary": "now includes memory usage data.Vercel Sandbox observability\nYou can access sandbox memory usage data in the dashboard and through the CLI via the  command. vercel metrics\nThe Memory Usage card reports average, P75, and P95 memory across your sandboxes, alongside the existing CPU usage and data…",
+      "author": "Tom Lienard",
+      "publishedAt": "2026-09-28T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 587
+  "totalIndexed": 589
 }
