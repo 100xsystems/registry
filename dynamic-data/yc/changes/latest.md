@@ -1,46 +1,68 @@
 # YC Company Changes for 2026-09-29
 
-- Previous total: 6257
-- Current total: 6260
-- Added: 3
+- Previous total: 6260
+- Current total: 6261
+- Added: 1
 - Removed: 0
-- Updated: 7
+- Updated: 12
 
 
 ## Added Companies
 
-- [Lapel](https://www.ycombinator.com/companies/lapel) (Spring 2025) — Bringing hospitality to the internet.
-- [Clean](https://www.ycombinator.com/companies/clean) (Fall 2026) — Origination engine for deal transactional flow.
-- [Boxes.dev](https://www.ycombinator.com/companies/boxesdev) (Fall 2026) — Cloud development environments for AI coding
+- [CONUS](https://www.ycombinator.com/companies/conus) (Fall 2026) — The AI knowledge layer for medical devices
 
 ## Updated Companies
 
-### [AirMyne](https://www.ycombinator.com/companies/airmyne)
+### [Gem](https://www.ycombinator.com/companies/gem)
 
-- `isHiring`: true → false
+- `stage`: Early → Growth
 
-### [Treblo](https://www.ycombinator.com/companies/treblo)
+### [Taiv](https://www.ycombinator.com/companies/taiv)
 
-- `tags`:  → Artificial Intelligence,Generative AI,Social Media,Music
+- `stage`: Early → Growth
 
-### [Serve AI](https://www.ycombinator.com/companies/serve-ai)
+### [Racer](https://www.ycombinator.com/companies/racer)
+
+- `all_locations`: New York City, NY, USA; New York, NY, USA → New York City, NY, USA
+
+### [Coderhouse](https://www.ycombinator.com/companies/coderhouse)
+
+- `stage`: Early → Growth
+
+### [Langfuse](https://www.ycombinator.com/companies/langfuse)
+
+- `team_size`: 19 → 26
+
+### [Tiptap](https://www.ycombinator.com/companies/tiptap)
+
+- `team_size`: 19 → 20
+- `tags`: Artificial Intelligence,Developer Tools,Open Source → Developer Tools,Open Source,AI
+
+### [Costream](https://www.ycombinator.com/companies/costream)
+
+- `all_locations`: Los Angeles, CA, USA → San Francisco, CA, USA
+- `team_size`: 7 → 8
+
+### [Brumby (Formerly GrazeMate)](https://www.ycombinator.com/companies/brumby)
 
 - `isHiring`: false → true
 
-### [PAX Markets](https://www.ycombinator.com/companies/pax-markets)
+### [tday.com](https://www.ycombinator.com/companies/tdaycom)
 
-- `one_liner`: More 𝛼, less latency: exchange and HFT on one chip. → Co-located trading facility and matching engine on one chip.
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/15ec63fc78e093a5b7f3e3bd3fa5d9b3e40ec232.png → https://bookface-images.s3.amazonaws.com/small_logos/56be7129960cd50835ff96f316fe88a3f6bbbc3a.png
 
-### [Uplift AI](https://www.ycombinator.com/companies/uplift-ai)
+### [Gutgutgoose](https://www.ycombinator.com/companies/gutgutgoose)
 
-- `isHiring`: true → false
+- `team_size`: 2 → 7
 
-### [Origin](https://www.ycombinator.com/companies/origin-bio)
+### [Neomatter](https://www.ycombinator.com/companies/neomatter)
 
-- `tags`: AI-powered Drug Discovery,Artificial Intelligence,Biotech → AI-powered Drug Discovery,Biotech,AI
-- `isHiring`: false → true
+- `name`: Lightfield → Neomatter
+- `slug`: lightfield → neomatter
+- `former_names`: Lightfield, Inc. → Lightfield, Inc.,Lightfield
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/a5892847938d97ba24dce5c43342e5a6f22a2f34.png → https://bookface-images.s3.amazonaws.com/small_logos/a30dd6a7d86e342da32a42b330195358721c4571.png
+- `website`: https://trylightfield.ai → https://neomatter.ai
 
-### [Roma](https://www.ycombinator.com/companies/roma)
+### [Clean](https://www.ycombinator.com/companies/clean)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/d8439855d6cd42db2eae7c90e93a336c3ce8596b.png → https://bookface-images.s3.amazonaws.com/small_logos/0acebf173c06922baca9b12940df90492d951704.png
-- `one_liner`: The AI task app that gets to work for you. → Roma is the to-do list that does itself
+- `one_liner`: Origination engine for deal transactional flow. → We tell sellers exactly when a company is ready to buy.
