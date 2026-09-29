@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-08-24T12:48:35.191Z",
+  "updatedAt": "2026-09-29T21:43:25.912Z",
   "items": [
     {
       "guid": "armin-ronacher::https://lucumr.pocoo.org/2026/7/13/the-tower-keeps-rising/",
@@ -103,7 +103,15 @@
       "summary": "Sean Goedecke wrote a post arguing that you should never be angry at\nwork — a post\nwith which I strongly agree.  Anger can be a useful signal, but being angry at\nwork rarely improves the situation.  More often, it makes life worse for the\npeople around you, many of whom have no more power over the…",
       "author": "Armin Ronacher",
       "publishedAt": "2026-08-24T00:00:00.000Z"
+    },
+    {
+      "guid": "armin-ronacher::https://lucumr.pocoo.org/2026/9/29/deser/",
+      "title": "Deser: Rethinking Rust Serialization",
+      "link": "https://lucumr.pocoo.org/2026/9/29/deser/",
+      "summary": "Serde is an amazing serialization library for Rust and it\nhas been a huge reason why I felt productive with it for years.  However already\nwhile at Sentry I got quite frustrated with some of the limitations with it but\nactually replacing Serde is tricky because of the might that it has in the…",
+      "author": "Armin Ronacher",
+      "publishedAt": "2026-09-29T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 12
+  "totalIndexed": 13
 }

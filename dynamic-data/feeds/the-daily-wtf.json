@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-09-28T19:17:52.275Z",
+  "updatedAt": "2026-09-29T21:43:27.089Z",
   "items": [
     {
       "guid": "https://thedailywtf.com/articles/classic-wtf-my-many-girlfriends",
@@ -383,7 +383,15 @@
       "summary": "Our submitter Tim C. is back as his bureaucratic nightmare continues. Read Part 1 here.\nAfter I'd thrown the WTF Exchange (WTFX) for a loop, they managed to eventually right the ship. But then I faced another hurdle: I had run out of disk space. The software was not live, we were still developing…",
       "author": "Ellis Morning",
       "publishedAt": "2026-09-28T06:30:00.000Z"
+    },
+    {
+      "guid": "https://thedailywtf.com/articles/unique-testing",
+      "title": "Representative Line: Unique Testing",
+      "link": "https://thedailywtf.com/articles/unique-testing",
+      "summary": "Nikolai M's team had a flaky CI/CD build. About 0.5% of the time, one of their tests would fail: frequent enough to be annoying, but not so frequent that it motivated management to assign anybody to investigate. Nikolai eventually dug in, taking the initiative.\nMicrosoft's implementation of UUIDs…",
+      "author": "Remy Porter",
+      "publishedAt": "2026-09-29T06:30:00.000Z"
     }
   ],
-  "totalIndexed": 47
+  "totalIndexed": 48
 }

@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-09-28T19:17:52.087Z",
+  "updatedAt": "2026-09-29T21:43:27.049Z",
   "items": [
     {
       "guid": "https://www.tigerdata.com/blog/whats-new-in-tiger-cloud",
@@ -127,7 +127,15 @@
       "summary": "41 experiments in 6 days took LoCoMo memory from F1 0.392 to 0.666. Claude wrote the code; the human caught the metrics that were lying.",
       "author": "Matvey Arye",
       "publishedAt": "2026-09-28T12:47:44.000Z"
+    },
+    {
+      "guid": "https://www.tigerdata.com/blog/agent-memory-search-problem-not-storage-problem",
+      "title": "Agent Memory Is a Search Problem, Not a Storage Problem",
+      "link": "https://www.tigerdata.com/blog/agent-memory-search-problem-not-storage-problem",
+      "summary": "No fact extraction, no graphs, no memory manager. One Postgres table and three search tools scored F1 0.665 on LoCoMo.",
+      "author": "Matvey Arye",
+      "publishedAt": "2026-09-29T13:00:52.000Z"
     }
   ],
-  "totalIndexed": 15
+  "totalIndexed": 16
 }
