@@ -1,68 +1,40 @@
 # YC Company Changes for 2026-09-29
 
-- Previous total: 6260
+- Previous total: 6261
 - Current total: 6261
-- Added: 1
+- Added: 0
 - Removed: 0
-- Updated: 12
+- Updated: 7
 
-
-## Added Companies
-
-- [CONUS](https://www.ycombinator.com/companies/conus) (Fall 2026) — The AI knowledge layer for medical devices
 
 ## Updated Companies
 
-### [Gem](https://www.ycombinator.com/companies/gem)
+### [Zeit Medical](https://www.ycombinator.com/companies/zeit-medical)
 
-- `stage`: Early → Growth
+- `status`: Active → Inactive
 
-### [Taiv](https://www.ycombinator.com/companies/taiv)
+### [Seabound](https://www.ycombinator.com/companies/seabound)
 
-- `stage`: Early → Growth
+- `isHiring`: true → false
 
-### [Racer](https://www.ycombinator.com/companies/racer)
-
-- `all_locations`: New York City, NY, USA; New York, NY, USA → New York City, NY, USA
-
-### [Coderhouse](https://www.ycombinator.com/companies/coderhouse)
-
-- `stage`: Early → Growth
-
-### [Langfuse](https://www.ycombinator.com/companies/langfuse)
-
-- `team_size`: 19 → 26
-
-### [Tiptap](https://www.ycombinator.com/companies/tiptap)
-
-- `team_size`: 19 → 20
-- `tags`: Artificial Intelligence,Developer Tools,Open Source → Developer Tools,Open Source,AI
-
-### [Costream](https://www.ycombinator.com/companies/costream)
-
-- `all_locations`: Los Angeles, CA, USA → San Francisco, CA, USA
-- `team_size`: 7 → 8
-
-### [Brumby (Formerly GrazeMate)](https://www.ycombinator.com/companies/brumby)
+### [AirMyne](https://www.ycombinator.com/companies/airmyne)
 
 - `isHiring`: false → true
 
-### [tday.com](https://www.ycombinator.com/companies/tdaycom)
+### [Ora AI](https://www.ycombinator.com/companies/ora-ai)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/15ec63fc78e093a5b7f3e3bd3fa5d9b3e40ec232.png → https://bookface-images.s3.amazonaws.com/small_logos/56be7129960cd50835ff96f316fe88a3f6bbbc3a.png
+- `website`: http://oraai.com/ → https://www.oraai.com/
+- `tags`: Artificial Intelligence,Education,Healthcare → Education,Healthcare,AI
 
-### [Gutgutgoose](https://www.ycombinator.com/companies/gutgutgoose)
+### [Focal](https://www.ycombinator.com/companies/focal)
 
-- `team_size`: 2 → 7
+- `status`: Active → Acquired
 
-### [Neomatter](https://www.ycombinator.com/companies/neomatter)
+### [NetworkOcean](https://www.ycombinator.com/companies/networkocean)
 
-- `name`: Lightfield → Neomatter
-- `slug`: lightfield → neomatter
-- `former_names`: Lightfield, Inc. → Lightfield, Inc.,Lightfield
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/a5892847938d97ba24dce5c43342e5a6f22a2f34.png → https://bookface-images.s3.amazonaws.com/small_logos/a30dd6a7d86e342da32a42b330195358721c4571.png
-- `website`: https://trylightfield.ai → https://neomatter.ai
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/9218c4f6be619084edb67499824064edfcb87f57.png → https://bookface-images.s3.amazonaws.com/small_logos/4ea43063c4846025feacfa937099e20519f804c8.png
+- `one_liner`: We build and operate underwater data centers. → We build floating solar data centers
 
-### [Clean](https://www.ycombinator.com/companies/clean)
+### [Curo](https://www.ycombinator.com/companies/curo)
 
-- `one_liner`: Origination engine for deal transactional flow. → We tell sellers exactly when a company is ready to buy.
+- `status`: Acquired → Inactive

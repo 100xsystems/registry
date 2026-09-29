@@ -8,7 +8,7 @@
     "ai",
     "research"
   ],
-  "updatedAt": "2026-09-28T19:17:40.584Z",
+  "updatedAt": "2026-09-29T17:42:57.735Z",
   "items": [
     {
       "guid": "environment-free",
@@ -321,7 +321,15 @@
       "summary": "In this paper, we study federated optimization for solving stochastic variational inequalities (VIs), a problem that has attracted growing attention in recent years. Despite substantial progress, a significant gap remains between existing convergence rates and the state-of-the-art bounds known for…",
       "author": null,
       "publishedAt": "2026-09-28T00:00:00.000Z"
+    },
+    {
+      "guid": "communication-bottleneck-serialization",
+      "title": "The Communication Bottleneck: A Round-Trip Study of Tree-Structured Expression Serialization in Language Models",
+      "link": "https://machinelearning.apple.com/research/communication-bottleneck-serialization",
+      "summary": "When language models reason in chain-of-thought or exchange free-text intermediates, they serialize structured information into natural language. How much tree-structured compositional content survives this bottleneck? We propose a round-trip protocol that answers this question empirically for…",
+      "author": null,
+      "publishedAt": "2026-09-29T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 39
+  "totalIndexed": 40
 }

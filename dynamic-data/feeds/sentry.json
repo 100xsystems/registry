@@ -8,7 +8,7 @@
     "debugging",
     "performance"
   ],
-  "updatedAt": "2026-09-24T20:59:20.840Z",
+  "updatedAt": "2026-09-29T17:42:58.236Z",
   "items": [
     {
       "guid": "https://blog.sentry.io/godot-dotnet-ga/",
@@ -337,7 +337,15 @@
       "summary": "A bfcache hit leaves no trace in ordinary metrics. Here's how Sentry's bfcacheMetricsIntegration makes back/forward cache health measurable.",
       "author": null,
       "publishedAt": "2026-09-24T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.sentry.io/big-improvements-to-seer-agent/",
+      "title": "Big improvements to Seer Agent",
+      "link": "https://blog.sentry.io/big-improvements-to-seer-agent/",
+      "summary": "Seer Agent can now write to your Sentry projects and pull in infrastructure data from Datadog and Google Cloud Platform — turning it from a debugging rubber duck into a full-time assistant.",
+      "author": null,
+      "publishedAt": "2026-09-29T07:00:00.000Z"
     }
   ],
-  "totalIndexed": 41
+  "totalIndexed": 42
 }

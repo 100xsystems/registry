@@ -9,7 +9,7 @@
     "performance",
     "edge-computing"
   ],
-  "updatedAt": "2026-09-28T19:17:40.649Z",
+  "updatedAt": "2026-09-29T17:42:57.790Z",
   "items": [
     {
       "guid": "01KY2432VQPD5FTF2RARXXYQGH",
@@ -61826,7 +61826,79 @@
       "summary": "Cloudflare is open-sourcing the BEACON dataset, making billions of anonymized Real User Monitoring (RUM) performance records publicly available on Google BigQuery. Explore real-world Core Web Vitals, soft navigation metrics, and performance breakdowns across browsers and regions.",
       "author": "Ryan Townsend",
       "publishedAt": "2026-09-28T14:43:05.000Z"
+    },
+    {
+      "guid": "01M3NESWHMHMZYRDST3MNM46GJ",
+      "title": "Using AI to chart a course for our post-quantum migration",
+      "link": "https://blog.cloudflare.com/ai-driven-cryptography-discovery/",
+      "summary": "We’re building CryptoLabe, an internal AI-powered tool that discovers cryptography across our codebase, surfaces dependencies, and helps us progress toward a full post-quantum migration by 2029. Here’s what we’ve learned so far.",
+      "author": "Sharon Goldberg",
+      "publishedAt": "2026-09-29T13:00:00.000Z"
+    },
+    {
+      "guid": "01M3NDPTPSCDWFTMFBHE9JAF51",
+      "title": "Building a certificate authority for the whole Internet",
+      "link": "https://blog.cloudflare.com/cloudflare-certificate-authority/",
+      "summary": "Twelve years after launching Universal SSL, Cloudflare is applying to become a certificate authority. By combining an established root, an ACME-first approach, and Merkle Tree Certificates, we are building a post-quantum CA for the open web.",
+      "author": "Steve Goldsmith",
+      "publishedAt": "2026-09-29T13:00:00.000Z"
+    },
+    {
+      "guid": "01M3N44EM60WP9JA2PGE4ZS5YX",
+      "title": "Adaptive application security for the AI era: how Cloudflare connects code, traffic, and intelligence to stop attacks",
+      "link": "https://blog.cloudflare.com/ai-era-framework/",
+      "summary": "Cloudflare introduces an adaptive security framework connecting risk discovery, agent governance, runtime protection, and AI-powered response in a continuous learning loop.",
+      "author": "Daniele Molteni",
+      "publishedAt": "2026-09-29T13:00:00.000Z"
+    },
+    {
+      "guid": "01M3MX1WMY7FQZXQH4QK6575ZF",
+      "title": "Building a post-quantum certificate authority with Merkle Tree Certificates",
+      "link": "https://blog.cloudflare.com/pq-ca-with-mtcs/",
+      "summary": "As post-quantum signatures threaten to inflate TLS handshakes and certificate transparency logs, Merkle Tree Certificates offer a path to compact, auditable authentication. Cloudflare’s new certificate authority will support MTC issuance at scale.",
+      "author": "Mari Galicer",
+      "publishedAt": "2026-09-29T13:00:00.000Z"
+    },
+    {
+      "guid": "01M3MTBRK8BVPBQW7H8PYZ32D4",
+      "title": "We tested our own WAF with frontier AI models. Here’s what we found",
+      "link": "https://blog.cloudflare.com/adaptive-ai-waf-testing/",
+      "summary": "We built a WAF tester that adapted each request based on what the WAF blocked or passed. This helped us explore variations that a fixed test might miss. We ran it across six attack categories on an authorized staging environment and discovered detection gaps worth fixing.  Here’s how the loop…",
+      "author": "Vikram Grover",
+      "publishedAt": "2026-09-29T13:00:00.000Z"
+    },
+    {
+      "guid": "01M3MS7574S6W13H4PAB4XT834",
+      "title": "Introducing Threat Signals: agentic skills for open-source threat intelligence, free for every Cloudflare account",
+      "link": "https://blog.cloudflare.com/threat-signals/",
+      "summary": "We are expanding access to Cloudforce One's Threat Events Platform to every Cloudflare account and introducing Threat Signals. Threat Signals automatically parses open-source threat reporting, extracts structured indicators, and connects threat context directly to your WAF rules.",
+      "author": "Emilia Yoffie",
+      "publishedAt": "2026-09-29T13:00:00.000Z"
+    },
+    {
+      "guid": "01M3MRVFZ0YWJMY67Q1E65J979",
+      "title": "Is your domain using post-quantum encryption? Now you can see for yourself",
+      "link": "https://blog.cloudflare.com/post-quantum-visibility/",
+      "summary": "Cloudflare has added visibility into post-quantum (PQ) encryption in TLS 1.3 directly into HTTP Analytics, Log Explorer, and Logpush. Learn how to make sure your domain is protected with PQ encryption.",
+      "author": "Andrew Depke",
+      "publishedAt": "2026-09-29T13:00:00.000Z"
+    },
+    {
+      "guid": "01M3B05E9MPC89J9MR8JZ7NDE2",
+      "title": "Enforce positive security with Cloudflare Application Profiles",
+      "link": "https://blog.cloudflare.com/application-profiles/",
+      "summary": "Cloudflare learns the structure of your HTTP requests and identifies deviations. You can add a positive security layer that helps reduce attack surface as AI makes it easier for attackers to generate and vary payloads.",
+      "author": "Daniele Molteni",
+      "publishedAt": "2026-09-29T13:00:00.000Z"
+    },
+    {
+      "guid": "01KXDH1HXQQK6WKDPTP4HR9A2V",
+      "title": "Preventing quantum downgrade attacks against IPsec",
+      "link": "https://blog.cloudflare.com/ipsec-downgrade-protection/",
+      "summary": "A sophisticated attacker with a quantum computer can exploit a protocol design flaw to downgrade post-quantum IPsec tunnels to classical crypto. We helped the IETF develop a transcript authentication extension to prevent these attacks.",
+      "author": "Christopher Patton",
+      "publishedAt": "2026-09-29T13:00:00.000Z"
     }
   ],
-  "totalIndexed": 7727
+  "totalIndexed": 7736
 }

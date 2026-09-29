@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-09-29T04:31:22.004Z",
+  "updatedAt": "2026-09-29T17:42:57.969Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -2089,7 +2089,15 @@
       "summary": "Use PostgreSQL ALTER FUNCTION SET work_mem to stop one function's sorts spilling to disk without a global change. A production fix: 150 GB a day to 0.",
       "author": null,
       "publishedAt": "2026-09-29T00:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9ww",
+      "title": "Devrim GÜNDÜZ: Rust extensions started landing PostgreSQL RPM repository",
+      "link": "https://postgr.es/p/9ww",
+      "summary": "After trying not to add any Rust packages to the PostgreSQL RPM repository, I finally bit the bullet and pushed pgrx and postgresql_anonymizer to the RPM repos, along with packaging guidelines:\n\nhttps://github.com/pgdg-packaging/pgdg-rpms/wiki/Packaging-Rust-extensions-(pgrx\n\nSome limitations exist…",
+      "author": null,
+      "publishedAt": "2026-09-29T13:44:00.000Z"
     }
   ],
-  "totalIndexed": 260
+  "totalIndexed": 261
 }
