@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-09-28T19:17:41.157Z",
+  "updatedAt": "2026-09-29T04:31:22.004Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -2073,7 +2073,23 @@
       "summary": "Some of you may have seen our pgEdge Starfleet announcement, and be pondering the question of “why?”  Why did we build it, why now, and does the world really need another cloud Postgres service?It's a fair question, and the answer starts where most things at pgEdge start: with our customers.\nIt…",
       "author": null,
       "publishedAt": "2026-09-28T13:12:30.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9wt",
+      "title": "Christophe Pettus: All Your GUCs in a Row: max_wal_senders",
+      "link": "https://postgr.es/p/9wt",
+      "summary": "Errata: the max_connections post told you to size that parameter for “the replication connections.” On 12 and later, don’t. WAL senders have their own seats, sized by this parameter, and have not drawn from max_connections since PostgreSQL 12. The rest of that post stands; that clause is wrong fo…",
+      "author": null,
+      "publishedAt": "2026-09-29T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9wu",
+      "title": "Dinesh Kumar: ALTER FUNCTION SET work_mem: Fixing PostgreSQL Disk Spills Without a Global Change",
+      "link": "https://postgr.es/p/9wu",
+      "summary": "Use PostgreSQL ALTER FUNCTION SET work_mem to stop one function's sorts spilling to disk without a global change. A production fix: 150 GB a day to 0.",
+      "author": null,
+      "publishedAt": "2026-09-29T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 258
+  "totalIndexed": 260
 }
