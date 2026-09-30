@@ -9,7 +9,7 @@
     "performance",
     "edge-computing"
   ],
-  "updatedAt": "2026-09-29T17:42:57.790Z",
+  "updatedAt": "2026-09-30T17:40:11.187Z",
   "items": [
     {
       "guid": "01KY2432VQPD5FTF2RARXXYQGH",
@@ -61898,7 +61898,79 @@
       "summary": "A sophisticated attacker with a quantum computer can exploit a protocol design flaw to downgrade post-quantum IPsec tunnels to classical crypto. We helped the IETF develop a transcript authentication extension to prevent these attacks.",
       "author": "Christopher Patton",
       "publishedAt": "2026-09-29T13:00:00.000Z"
+    },
+    {
+      "guid": "01M3RVQ97H21055GVJRNRSNH97",
+      "title": "Cloudflare Impact reaches $100 million in donations",
+      "link": "https://blog.cloudflare.com/100-million-donations/",
+      "summary": "This week, Cloudflare's Impact programs will reach $100 million in donated services. This milestone means that thousands of entities including journalists, civil society, state and local governments, election management bodies, and public schools are being protected from cyberattacks.",
+      "author": "Patrick Day",
+      "publishedAt": "2026-09-30T13:01:55.000Z"
+    },
+    {
+      "guid": "01M3QZKAM72WCF4RKVH06BKQYZ",
+      "title": "Cut your AI spend with AI Gateway's Auto Router",
+      "link": "https://blog.cloudflare.com/auto-router/",
+      "summary": "Cloudflare AI Gateway now features a model router that evaluates request complexity using an edge-deployed classifier to select the optimal model. By balancing expected output quality against token costs, organizations can dramatically cut AI spend while maintaining performance.",
+      "author": "Ming Lu",
+      "publishedAt": "2026-09-30T13:00:00.000Z"
+    },
+    {
+      "guid": "01M3QYT7CXBGJWT89M2NJE3DPH",
+      "title": "Detect and send production issues straight to your agent",
+      "link": "https://blog.cloudflare.com/real-time-issue-detection/",
+      "summary": "You can now use built-in error monitoring in Cloudflare Workers to group production failures and send stack traces, logs, traces, and application context directly to a coding agent to investigate further and open a pull request.",
+      "author": "Thomas Ankcorn",
+      "publishedAt": "2026-09-30T13:00:00.000Z"
+    },
+    {
+      "guid": "01M3QWRKWVNFA0DF9FYY3RTFKV",
+      "title": "Simplifying domains for people and agents",
+      "link": "https://blog.cloudflare.com/simplifying-domains/",
+      "summary": "Cloudflare Registrar’s new search delivers fast, transparent results across 420+ extensions using Workers, Durable Objects, and WebSockets. Its expanded API and cf CLI also let agents search, register, and transfer domains.",
+      "author": "Ankit Shah",
+      "publishedAt": "2026-09-30T13:00:00.000Z"
+    },
+    {
+      "guid": "01M3QKBTCVGSPDD7VHVA777Q74",
+      "title": "Monetization Gateway beta: charge AI agents for consumption with HTTP 402",
+      "link": "https://blog.cloudflare.com/monetization-gateway-beta/",
+      "summary": "Cloudflare’s AI Gateway, Ceramic.ai, Stocktwits, and more are using the Cloudflare Monetization Gateway today to charge agents for access to tokens, APIs, and MCP tools. U.S.-based sellers can now apply for access to the closed beta.",
+      "author": "Rohin Lohe",
+      "publishedAt": "2026-09-30T13:00:00.000Z"
+    },
+    {
+      "guid": "01M3Q8WH85THBJED6145W6NR6Y",
+      "title": "Pay Per Use: when AI uses your work, you should get paid",
+      "link": "https://blog.cloudflare.com/pay-per-use/",
+      "summary": "Pay Per Use is now in beta. AI companies report when they use publishers’ content, and Cloudflare handles billing, payouts, and reporting, so our customers are paid according to use.",
+      "author": "Rúben Teixeira",
+      "publishedAt": "2026-09-30T13:00:00.000Z"
+    },
+    {
+      "guid": "01M3AZ7A42599J7AVPSGKJKD04",
+      "title": "Identify AI model overuse with User Insights",
+      "link": "https://blog.cloudflare.com/ai-model-overuse-user-insights/",
+      "summary": "AI Gateway User Insights now adds task, model, turn, and user categories to help teams understand AI adoption and make better model decisions. This is available free to AI Gateway users.",
+      "author": "Ayush Kumar",
+      "publishedAt": "2026-09-30T13:00:00.000Z"
+    },
+    {
+      "guid": "01M3RXHW8HAZ70SW0D1ANC4CVT",
+      "title": "Cloudflare Containers, rebuilt to scale agent sandboxes",
+      "link": "https://blog.cloudflare.com/faster-agent-sandboxes/",
+      "summary": "Cloudflare Containers now start 6x faster, let your agent choose each sandbox's image and instance type at runtime, and support filesystem snapshots in public beta, all controlled from a Durable Object.",
+      "author": "Thomas Gauvin",
+      "publishedAt": "2026-09-30T12:58:00.000Z"
+    },
+    {
+      "guid": "01M3Q403X7R4RSZ8DY9C27CPWB",
+      "title": "The Internet has a second audience",
+      "link": "https://blog.cloudflare.com/agentic-web/",
+      "summary": "More than half the traffic reaching sites on Cloudflare is now automated, and AI agents are the fastest-growing part of it. We're giving site owners the tools to see who's visiting, decide who gets in, and charge for access.",
+      "author": "Matthew Conroy",
+      "publishedAt": "2026-09-30T12:58:00.000Z"
     }
   ],
-  "totalIndexed": 7736
+  "totalIndexed": 7745
 }

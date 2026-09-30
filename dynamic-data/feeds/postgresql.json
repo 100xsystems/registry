@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-09-29T21:43:15.923Z",
+  "updatedAt": "2026-09-30T17:40:11.630Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -2105,7 +2105,15 @@
       "summary": "The SQL standard is written by a committee I sit on, so what people think it ought to contain is a professional interest of mine. The various social media algorithms seem to know this, and they serve me mostly relevant content. This one came via LinkedIn, and here it is in full:",
       "author": null,
       "publishedAt": "2026-09-29T00:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9wA",
+      "title": "David Wheeler: pg_clickhouse & chdb updates: Encoding, nesting, and types",
+      "link": "https://postgr.es/p/9wA",
+      "summary": "Out now on GitHub and PGXN, pg_clickhouse v0.11.0 and the chdb extension v0.1.2 continue our dogged focus on cross-database compatibility. A slew of these enhancements derive from our header-only C libraries, clickhouse-c and pg-clickhouse-c. Let's take a look at just three of the changes in these…",
+      "author": null,
+      "publishedAt": "2026-09-30T16:29:40.000Z"
     }
   ],
-  "totalIndexed": 262
+  "totalIndexed": 263
 }

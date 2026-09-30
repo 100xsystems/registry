@@ -8,7 +8,7 @@
     "ai",
     "research"
   ],
-  "updatedAt": "2026-09-29T17:42:57.735Z",
+  "updatedAt": "2026-09-30T17:40:11.104Z",
   "items": [
     {
       "guid": "environment-free",
@@ -329,7 +329,15 @@
       "summary": "When language models reason in chain-of-thought or exchange free-text intermediates, they serialize structured information into natural language. How much tree-structured compositional content survives this bottleneck? We propose a round-trip protocol that answers this question empirically for…",
       "author": null,
       "publishedAt": "2026-09-29T00:00:00.000Z"
+    },
+    {
+      "guid": "effectiveness-fluency-llm-conditioning",
+      "title": "On the Effectiveness-Fluency Trade-Off in LLM Conditioning: A Systematic Study",
+      "link": "https://machinelearning.apple.com/research/effectiveness-fluency-llm-conditioning",
+      "summary": "Controlling the output of Large Language Models (LLMs) is a central challenge for their reliable deployment, yet a clear understanding of the involved trade-offs remains elusive. Current approaches to conditioning are often evaluated with a narrow focus on their effectiveness at injecting or…",
+      "author": null,
+      "publishedAt": "2026-09-30T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 40
+  "totalIndexed": 41
 }
