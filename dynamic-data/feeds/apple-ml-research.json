@@ -8,7 +8,7 @@
     "ai",
     "research"
   ],
-  "updatedAt": "2026-09-30T17:40:11.104Z",
+  "updatedAt": "2026-09-30T21:43:20.019Z",
   "items": [
     {
       "guid": "environment-free",
@@ -337,7 +337,15 @@
       "summary": "Controlling the output of Large Language Models (LLMs) is a central challenge for their reliable deployment, yet a clear understanding of the involved trade-offs remains elusive. Current approaches to conditioning are often evaluated with a narrow focus on their effectiveness at injecting or…",
       "author": null,
       "publishedAt": "2026-09-30T00:00:00.000Z"
+    },
+    {
+      "guid": "sclate-agent-training-evaluation",
+      "title": "SCLATE: A Substrate for Continual-Learning Agent Training and Evaluation",
+      "link": "https://machinelearning.apple.com/research/sclate-agent-training-evaluation",
+      "summary": "Continual-learning agents are systems of models, harnesses, and memory operating over long multi-session horizons. Evaluating and training them requires interleaving tasks with agent-side events such as session stop and start, crons, and memory consolidation. Yet existing benchmarks and training…",
+      "author": null,
+      "publishedAt": "2026-09-30T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 41
+  "totalIndexed": 42
 }

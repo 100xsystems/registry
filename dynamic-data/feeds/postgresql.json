@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-09-30T17:40:11.630Z",
+  "updatedAt": "2026-09-30T21:43:20.417Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -2113,7 +2113,23 @@
       "summary": "Out now on GitHub and PGXN, pg_clickhouse v0.11.0 and the chdb extension v0.1.2 continue our dogged focus on cross-database compatibility. A slew of these enhancements derive from our header-only C libraries, clickhouse-c and pg-clickhouse-c. Let's take a look at just three of the changes in these…",
       "author": null,
       "publishedAt": "2026-09-30T16:29:40.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9wB",
+      "title": "Elizabeth Garrett Christensen: Query Plan Hints in PostgreSQL 19: How &amp; When to Use Advice",
+      "link": "https://postgr.es/p/9wB",
+      "summary": "Query hints: You asked for it, Postgres 19 gave it to you. Now, they are just waiting to see how you use it.\nFor years the Postgres community was against adding support for hints. They felt if you had correctly analyzed tables, the Postgres query planner would make the right choice. And they're not…",
+      "author": null,
+      "publishedAt": "2026-09-30T17:25:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9wC",
+      "title": "Christophe Pettus: All Your GUCs in a Row: max_wal_size",
+      "link": "https://postgr.es/p/9wC",
+      "summary": "`max_wal_size` is a checkpoint trigger, not a maximum—and the real cost is paid by setting it too low, not too high.",
+      "author": null,
+      "publishedAt": "2026-09-30T01:00:00.000Z"
     }
   ],
-  "totalIndexed": 263
+  "totalIndexed": 265
 }

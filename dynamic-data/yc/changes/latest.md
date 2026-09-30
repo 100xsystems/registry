@@ -1,44 +1,78 @@
 # YC Company Changes for 2026-09-30
 
-- Previous total: 6268
+- Previous total: 6269
 - Current total: 6269
-- Added: 1
+- Added: 0
 - Removed: 0
-- Updated: 6
+- Updated: 15
 
-
-## Added Companies
-
-- [Hundred](https://www.ycombinator.com/companies/hundred) (Fall 2026) — 100% automated inspection for consumer electronics parts
 
 ## Updated Companies
 
-### [Overheard](https://www.ycombinator.com/companies/overheard)
+### [BillionToOne](https://www.ycombinator.com/companies/billiontoone)
 
-- `one_liner`: An AI product researcher that interviews your users. → AI-led user interviews for product teams.
-- `tags`: B2B,Productivity,Design,Market Research,AI → Artificial Intelligence,B2B,Productivity,Design,Market Research
+- `stage`: Growth → Early
 
-### [Finbar](https://www.ycombinator.com/companies/finbar)
+### [The Flex Company](https://www.ycombinator.com/companies/the-flex-company)
 
-- `name`: finbar → Finbar
-- `former_names`:  → finbar
-- `one_liner`: The AI investment analyst → Financial intelligence for every investor
+- `stage`: Growth → Early
 
-### [Lapel](https://www.ycombinator.com/companies/lapel)
+### [Squire Technologies](https://www.ycombinator.com/companies/squire-technologies)
 
-- `one_liner`: Bringing hospitality to the internet. → Infrastructure to power every customer interaction.
-- `tags`: Customer Success,Sales,Customer Support,AI → Artificial Intelligence,Customer Success,Sales,Customer Support
+- `stage`: Growth → Early
 
-### [Wealor](https://www.ycombinator.com/companies/wealor)
+### [Ledger Investing](https://www.ycombinator.com/companies/ledger-investing)
 
-- `all_locations`: San Francisco, CA, USA → Paris, Île-de-France, France
-- `regions`: United States of America,America / Canada → France,Europe
+- `stage`: Growth → Early
 
-### [Rex](https://www.ycombinator.com/companies/rex-inc)
+### [Pulse](https://www.ycombinator.com/companies/pulse)
 
-- `isHiring`: false → true
+- `stage`: Growth → Early
 
-### [Streamline Systems](https://www.ycombinator.com/companies/streamline-systems)
+### [Bulletin](https://www.ycombinator.com/companies/bulletin)
 
-- `all_locations`:  → San Francisco, CA, USA
-- `regions`: Unspecified → United States of America,America / Canada
+- `stage`: Growth → Early
+
+### [ZBiotics](https://www.ycombinator.com/companies/zbiotics)
+
+- `stage`: Growth → Early
+
+### [Verse Medical](https://www.ycombinator.com/companies/jetlenses)
+
+- `stage`: Growth → Early
+
+### [Stardex](https://www.ycombinator.com/companies/stardex)
+
+- `team_size`: 6 → 7
+
+### [Hamming AI](https://www.ycombinator.com/companies/hamming-ai)
+
+- `all_locations`: Austin, TX, USA → San Francisco, CA, USA
+- `team_size`: 8 → 10
+- `regions`: United States of America,America / Canada → United States of America,America / Canada,Remote,Partly Remote
+
+### [Mica AI](https://www.ycombinator.com/companies/mica-ai)
+
+- `one_liner`: Replace the humans fixing bad data → Turn employees' AI skills into shared company infrastructure
+- `subindustry`: B2B -> Operations → B2B -> Infrastructure
+- `tags`: Data Science,Data Engineering,Enterprise Software → Artificial Intelligence,Marketplace,B2B,Infrastructure,AI
+- `industries`: B2B,Operations → B2B,Infrastructure
+
+### [Visibl Semiconductors](https://www.ycombinator.com/companies/visibl-semiconductors)
+
+- `tags`: Artificial Intelligence,Hard Tech,Enterprise,Enterprise Software,Semiconductors → Hard Tech,Enterprise,Enterprise Software,Semiconductors,AI
+
+### [Uno Wallet](https://www.ycombinator.com/companies/uno-wallet)
+
+- `tags`: Artificial Intelligence,Fintech,Payments,Consumer,Infrastructure → Fintech,Payments,Consumer,Infrastructure,AI
+
+### [Revnu](https://www.ycombinator.com/companies/revnu)
+
+- `one_liner`: The growth infrastructure for the autonomous business → Your AI growth hire.
+- `team_size`: 2 → 3
+- `tags`: B2B,Advertising,AI → Artificial Intelligence,B2B,Advertising
+
+### [Simantic](https://www.ycombinator.com/companies/simantic)
+
+- `website`: https://simantic.dev → https://simantic.com
+- `tags`: Developer Tools,Hardware,Semiconductors,Electronics,AI → Artificial Intelligence,Developer Tools,Hardware,Semiconductors,Electronics
