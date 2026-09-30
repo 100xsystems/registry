@@ -9,7 +9,7 @@
     "edge-computing",
     "nextjs"
   ],
-  "updatedAt": "2026-09-28T19:17:51.173Z",
+  "updatedAt": "2026-09-30T12:15:35.838Z",
   "items": [
     {
       "guid": "vercel-blog::https://vercel.com/changelog/ai-gateway-now-supports-streaming-transcription",
@@ -4722,7 +4722,23 @@
       "summary": "now includes memory usage data.Vercel Sandbox observability\nYou can access sandbox memory usage data in the dashboard and through the CLI via the  command. vercel metrics\nThe Memory Usage card reports average, P75, and P95 memory across your sandboxes, alongside the existing CPU usage and data…",
       "author": "Tom Lienard",
       "publishedAt": "2026-09-28T00:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/vercel-connect-service-submissions",
+      "title": "Vercel Connect now accepts service submissions",
+      "link": "https://vercel.com/changelog/vercel-connect-service-submissions",
+      "summary": "now lets you submit your own service to the , so you no longer need to wait for Vercel to build a connector for it.Vercel Connectconnectors directory\nSubmitting a service takes four steps:\nVercel reviews each submission before publishing it to the directory.\nGet started from  in the dashboard, or…",
+      "author": "Bhrigu Srivastava",
+      "publishedAt": "2026-09-29T22:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/search-trace-spans-from-the-vercel-cli",
+      "title": "Search trace spans from the Vercel CLI",
+      "link": "https://vercel.com/changelog/search-trace-spans-from-the-vercel-cli",
+      "summary": "You and your coding agents can now search a project’s trace spans from the terminal with . vercel traces search\nEach span represents one step in a request, helping you investigate errors, latency, and security-related behavior without opening the dashboard.\nBy default,  returns up to 100 spans from…",
+      "author": "Darpan Kakadia",
+      "publishedAt": "2026-09-29T13:00:00.000Z"
     }
   ],
-  "totalIndexed": 589
+  "totalIndexed": 591
 }

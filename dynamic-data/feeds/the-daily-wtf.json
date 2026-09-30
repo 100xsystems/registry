@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-09-29T21:43:27.089Z",
+  "updatedAt": "2026-09-30T12:15:36.170Z",
   "items": [
     {
       "guid": "https://thedailywtf.com/articles/classic-wtf-my-many-girlfriends",
@@ -391,7 +391,15 @@
       "summary": "Nikolai M's team had a flaky CI/CD build. About 0.5% of the time, one of their tests would fail: frequent enough to be annoying, but not so frequent that it motivated management to assign anybody to investigate. Nikolai eventually dug in, taking the initiative.\nMicrosoft's implementation of UUIDs…",
       "author": "Remy Porter",
       "publishedAt": "2026-09-29T06:30:00.000Z"
+    },
+    {
+      "guid": "https://thedailywtf.com/articles/quite-a-distance-from-the-right-solution",
+      "title": "CodeSOD: Quite a Distance from the Right Solution",
+      "link": "https://thedailywtf.com/articles/quite-a-distance-from-the-right-solution",
+      "summary": "Fritz's team needed to see if one point was within a certain distance from a center point. You or I would likely try and answer this question using a simple distance calculation, since that's the question we're trying to answer. But what if you didn't understand distances at all? Then you could…",
+      "author": "Remy Porter",
+      "publishedAt": "2026-09-30T06:30:00.000Z"
     }
   ],
-  "totalIndexed": 48
+  "totalIndexed": 49
 }

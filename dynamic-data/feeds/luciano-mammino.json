@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-07-24T06:58:46.952Z",
+  "updatedAt": "2026-09-30T12:15:30.109Z",
   "items": [
     {
       "guid": "https://loige.co/2016-a-year-in-review/",
@@ -407,7 +407,15 @@
       "summary": "This article summarizes the experience of two developers learning Rust by building an open source project and having it reviewed live by a Rust expert. It covers the improvements suggested during the review, including simplifying project structure, adding documentation, handling strings, removing…",
       "author": "Luciano Mammino",
       "publishedAt": "2020-10-11T19:50:00.000Z"
+    },
+    {
+      "guid": "https://loige.co/hidden-design-compromises-of-docker-layers/",
+      "title": "The hidden design compromises of Docker layers",
+      "link": "https://loige.co/hidden-design-compromises-of-docker-layers/",
+      "summary": "How Docker and OCI image layers represent filesystem changes, why deleting a file needs special whiteout entries, and what happens if you create a file called .wh.foo.",
+      "author": "Luciano Mammino",
+      "publishedAt": "2026-09-30T08:17:55.000Z"
     }
   ],
-  "totalIndexed": 50
+  "totalIndexed": 51
 }

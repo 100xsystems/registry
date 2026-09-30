@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-09-29T21:43:27.049Z",
+  "updatedAt": "2026-09-30T12:15:36.613Z",
   "items": [
     {
       "guid": "https://www.tigerdata.com/blog/whats-new-in-tiger-cloud",
@@ -135,7 +135,15 @@
       "summary": "No fact extraction, no graphs, no memory manager. One Postgres table and three search tools scored F1 0.665 on LoCoMo.",
       "author": "Matvey Arye",
       "publishedAt": "2026-09-29T13:00:52.000Z"
+    },
+    {
+      "guid": "https://www.tigerdata.com/blog/rag-complexity-bet-against-model",
+      "title": "RAG Complexity Is a Bet Against the Model",
+      "link": "https://www.tigerdata.com/blog/rag-complexity-bet-against-model",
+      "summary": "One Postgres table with two indexes beat every published RAG pipeline on MuSiQue. Every architectural addition is a bet the model stays weak.",
+      "author": "Matvey Arye",
+      "publishedAt": "2026-09-30T12:00:17.000Z"
     }
   ],
-  "totalIndexed": 16
+  "totalIndexed": 17
 }
