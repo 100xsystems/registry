@@ -8,7 +8,7 @@
     "edge-computing",
     "javascript"
   ],
-  "updatedAt": "2026-09-30T17:40:11.472Z",
+  "updatedAt": "2026-10-01T18:05:17.720Z",
   "items": [
     {
       "guid": "1WYEYtVwQSo4H3jKHTcKmO",
@@ -61361,7 +61361,15 @@
       "summary": "You can now use built-in error monitoring in Cloudflare Workers to group production failures and send stack traces, logs, traces, and application context directly to a coding agent to investigate further and open a pull request.",
       "author": "Thomas Ankcorn",
       "publishedAt": "2026-09-30T13:00:00.000Z"
+    },
+    {
+      "guid": "01KYQH5JZFJAX4F7Z4J5171FGK",
+      "title": "Support for modern cryptographic algorithms in Workers",
+      "link": "https://blog.cloudflare.com/workers-ml-kem-ml-dsa-support/",
+      "summary": "Cloudflare Workers is adding opt-in support for post-quantum-resistant algorithms ML-KEM and ML-DSA. You can try it today.",
+      "author": "Thibault Meunier",
+      "publishedAt": "2026-10-01T13:00:00.000Z"
     }
   ],
-  "totalIndexed": 7669
+  "totalIndexed": 7670
 }

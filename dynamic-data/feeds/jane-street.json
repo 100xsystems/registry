@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-09-14T21:14:28.845Z",
+  "updatedAt": "2026-10-01T18:05:31.309Z",
   "items": [
     {
       "guid": "https://blog.janestreet.com/oxcaml-typesafe-reference-counting-python/",
@@ -423,7 +423,23 @@
       "summary": "TL;DR: We study the scaling laws of data weighting across in-house and open-weight LMs, finding non-monotonic behavior across scales.\nWe vary the weight assigned to sequences during training and measure how strongly the model’s loss reduction on a sequence depends on the sequence’s weight.\nTaken…",
       "author": null,
       "publishedAt": "2026-09-14T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.janestreet.com/linux-engineering-kernel-reporter-index/",
+      "title": "A resilient kernel log reporter",
+      "link": "https://blog.janestreet.com/linux-engineering-kernel-reporter-index/",
+      "summary": "The following is part of a series of posts about 2026 summer intern projects—for more, see “What the interns have wrought, special jumbo 2026 edition”",
+      "author": null,
+      "publishedAt": "2026-10-01T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.janestreet.com/linux-engineering-depot-fuse-index/",
+      "title": "A FUSE server for our in-house storage backend",
+      "link": "https://blog.janestreet.com/linux-engineering-depot-fuse-index/",
+      "summary": "The following is part of a series of posts about 2026 summer intern projects—for more, see “What the interns have wrought, special jumbo 2026 edition”",
+      "author": null,
+      "publishedAt": "2026-10-01T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 52
+  "totalIndexed": 54
 }

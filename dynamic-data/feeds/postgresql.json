@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-10-01T12:50:01.125Z",
+  "updatedAt": "2026-10-01T18:05:17.762Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -2153,7 +2153,23 @@
       "summary": "Over the past month, several major features got reverted from Postgres\n19. At this point, even if everything else goes perfectly, Postgres 19\nwill be released about a month later than originally planned.\nA couple recent blog posts seem to suggest the reverts happened due to\nAI finding complex bugs…",
       "author": null,
       "publishedAt": "2026-10-01T10:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9wG",
+      "title": "Jimmy Angelakos: PostgresEDI September 2026 Meetup Recap: tiering to Iceberg, and Postgres from Nuxt",
+      "link": "https://postgr.es/p/9wG",
+      "summary": "Last week we had our September PostgresEDI meetup, the first since postgres.scot went up as the home for Postgres events in Scotland. \n\nThursday, September 24th took us back to Paterson's Land at the University of Edinburgh, room 1.27 this time, for two talks that could hardly have come at the…",
+      "author": null,
+      "publishedAt": "2026-10-01T14:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9wH",
+      "title": "Ming Ying: PlanetScale Released Text Search and We Have a Lot to Say (Part I)",
+      "link": "https://postgr.es/p/9wH",
+      "summary": "Two BM25 optimizations and benchmark configuration changes inspired by PlanetScale's TIN benchmarks make ParadeDB's text search faster without changing its document identifiers.",
+      "author": null,
+      "publishedAt": "2026-10-01T12:00:00.000Z"
     }
   ],
-  "totalIndexed": 268
+  "totalIndexed": 270
 }
