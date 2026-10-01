@@ -1,95 +1,61 @@
 # YC Company Changes for 2026-10-01
 
 - Previous total: 6268
-- Current total: 6268
+- Current total: 6267
 - Added: 0
-- Removed: 0
-- Updated: 18
+- Removed: 1
+- Updated: 9
 
+
+## Removed Companies
+
+- qomplement (Spring 2026)
 
 ## Updated Companies
 
-### [BillionToOne](https://www.ycombinator.com/companies/billiontoone)
+### [KorrAI](https://www.ycombinator.com/companies/korrai)
 
-- `stage`: Early → Growth
+- `team_size`: 24 → 20
+- `tags`: Artificial Intelligence,Construction,Insurance,Mining → Artificial Intelligence,Climate,Mining
 
-### [The Flex Company](https://www.ycombinator.com/companies/the-flex-company)
+### [Upstream](https://www.ycombinator.com/companies/upstream)
 
-- `stage`: Early → Growth
+- `one_liner`: The first inbox designed for humans and agents → The inbox that handles itself
 
-### [Squire Technologies](https://www.ycombinator.com/companies/squire-technologies)
+### [Tenet Industries](https://www.ycombinator.com/companies/tenet-industries)
 
-- `stage`: Early → Growth
+- `one_liner`: AI-automated PCB assembly factories → AI-automated factory for PCBAs
 
-### [Ledger Investing](https://www.ycombinator.com/companies/ledger-investing)
+### [Runtime](https://www.ycombinator.com/companies/runtime)
 
-- `stage`: Early → Growth
+- `one_liner`: AI agents for financial operations → The AI agent harness for payment teams
 
-### [Pulse](https://www.ycombinator.com/companies/pulse)
+### [General Context Labs](https://www.ycombinator.com/companies/general-context-labs)
 
-- `stage`: Early → Growth
+- `name`: Instaplay → General Context Labs
+- `slug`: instaplay → general-context-labs
+- `former_names`: General Context Labs → General Context Labs,Instaplay
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/f33f486af4ab2bd216ae15d9ac94f4d38738b34a.png → https://bookface-images.s3.amazonaws.com/small_logos/b5bd13525df7f105f51baa15bdb06d6c238303aa.png
+- `website`: https://instaplay.ai → https://generalcontextlabs.com
+- `one_liner`: AI-native gaming platform turning every game into an RL environment → Building Products and Datasets for Frontier Models
+- `team_size`: 3 → 4
+- `tags`: Gaming,AI → Artificial Intelligence,Gaming
 
-### [Bulletin](https://www.ycombinator.com/companies/bulletin)
-
-- `stage`: Early → Growth
-
-### [ZBiotics](https://www.ycombinator.com/companies/zbiotics)
-
-- `stage`: Early → Growth
-
-### [Verse Medical](https://www.ycombinator.com/companies/jetlenses)
-
-- `stage`: Early → Growth
-
-### [Enerjazz](https://www.ycombinator.com/companies/enerjazz)
-
-- `all_locations`: Delhi, DL, India → Berlin, Berlin, Germany; Delhi, DL, India
-- `regions`: India,South Asia → Germany,India,Europe,South Asia
-
-### [Y/n](https://www.ycombinator.com/companies/yn)
-
-- `team_size`: 5 → 4
-
-### [truemetrics](https://www.ycombinator.com/companies/truemetrics)
+### [Floracene](https://www.ycombinator.com/companies/floracene)
 
 - `isHiring`: false → true
 
-### [Combinely](https://www.ycombinator.com/companies/combinely)
+### [Exosat](https://www.ycombinator.com/companies/exosat)
 
-- `one_liner`: AI coworker for Accountants → AI Coworker for Accountants
+- `team_size`: 1 → 3
+- `tags`: Space Exploration,Satellites,Aerospace,Telecommunications,AI → Artificial Intelligence,Space Exploration,Satellites,Aerospace,Telecommunications
 
-### [Halluminate](https://www.ycombinator.com/companies/halluminate)
+### [Denta](https://www.ycombinator.com/companies/denta)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/b8aa250417be3c8c72069f938a492da564c11b69.png → https://bookface-images.s3.amazonaws.com/small_logos/cfaedb4fd05adec967fa47a152e7df6f7765ef6c.png
+- `one_liner`: Dental Insurance → Dental Benefits for Startups
+- `tags`: Artificial Intelligence,Fintech,Healthcare,Health Insurance → Fintech,Healthcare,Health Insurance,AI
 
-### [shortkit](https://www.ycombinator.com/companies/shortkit)
+### [Familiar](https://www.ycombinator.com/companies/familiar)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/0a0714fa881cb99f3080456e1c76e5b495a45be7.png → https://bookface-images.s3.amazonaws.com/small_logos/cd6943aa08a6062cd8e0e6aba456f3d77558d5e3.png
-
-### [Squid](https://www.ycombinator.com/companies/squid)
-
-- `team_size`: 3 → 5
-- `isHiring`: true → false
-
-### [Talking Computers](https://www.ycombinator.com/companies/talking-computers)
-
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/2e45d3a6fae510b1b44b5ae6e844844cbfd29960.png → https://bookface-images.s3.amazonaws.com/small_logos/128accc2541817ad412100385d460be4311cfcf8.png
-
-### [Antinuous](https://www.ycombinator.com/companies/antinuous)
-
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/febca88acc45186c0d3c21c31cb8dfbdd7f32484.png → https://bookface-images.s3.amazonaws.com/small_logos/f8a9a44d645fcd8622b7c1a0e23c0aa5695d5983.png
-- `one_liner`: Autonomous research agents for R&D and education → Autonomous research agents for R&D and applied science
-- `tags`: AI → Artificial Intelligence
-
-### [Tokenless](https://www.ycombinator.com/companies/tokenless)
-
-- `name`: Touchy → Tokenless
-- `slug`: touchy → tokenless
-- `former_names`: Tokenless → Tokenless,Touchy
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/e78313a9189e19195e360aee1598ec70854ce59b.png → https://bookface-images.s3.amazonaws.com/small_logos/7f250ec6cc81104148d8bd5bafdd6b96bc77d023.png
-- `website`: https://touchyapp.com → https://usetokenless.com
-- `one_liner`: AI iOS assistant that instantly uses voice and video to take action → We find flaws in RL environments and evals and help you fix them.
-- `industry`: Consumer → B2B
-- `subindustry`: Consumer → B2B -> Infrastructure
-- `tags`: Consumer,Productivity,AI,AI Assistant → Developer Tools,Machine Learning,Reinforcement Learning,B2B,AI
-- `industries`: Consumer → B2B,Infrastructure
+- `one_liner`: Movies in Every Language. Better than Humans. → Multimodal Translation
+- `tags`: Generative AI,B2B,Entertainment,AI → Artificial Intelligence,Generative AI,B2B,Entertainment

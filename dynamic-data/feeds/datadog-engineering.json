@@ -8,7 +8,7 @@
     "monitoring",
     "infrastructure"
   ],
-  "updatedAt": "2026-09-25T20:56:20.978Z",
+  "updatedAt": "2026-10-01T22:11:40.288Z",
   "items": [
     {
       "guid": "https://www.datadoghq.com/blog/engineering/jfr-cpu-time-profiling/",
@@ -29721,7 +29721,31 @@
       "summary": "Use Datadog RUM and Product Analytics to monitor checkout journeys on Shopify and customer experiences in Salesforce Experience Cloud.",
       "author": null,
       "publishedAt": "2026-09-25T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.datadoghq.com/blog/engineering/distributed-datafusion/",
+      "title": "How we extended Apache DataFusion to execute one query across many machines",
+      "link": "https://www.datadoghq.com/blog/engineering/distributed-datafusion/",
+      "summary": "Learn how Datadog built Distributed DataFusion to scale interactive Apache DataFusion queries across multiple machines.",
+      "author": null,
+      "publishedAt": "2026-10-01T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.datadoghq.com/blog/monitor-warehouse-data-quality-beyond-pipeline-health/",
+      "title": "Monitor warehouse data quality beyond pipeline health",
+      "link": "https://www.datadoghq.com/blog/monitor-warehouse-data-quality-beyond-pipeline-health/",
+      "summary": "Learn how to monitor warehouse data quality at rest, detect issues that happen even when pipelines succeed, and trace issues to their source.",
+      "author": null,
+      "publishedAt": "2026-10-01T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.datadoghq.com/blog/supply-chain-firewall-code-security/",
+      "title": "Block malicious packages across your organization with Supply Chain Firewall and Datadog Code Security",
+      "link": "https://www.datadoghq.com/blog/supply-chain-firewall-code-security/",
+      "summary": "Datadog Code Security now supports Supply Chain Firewall, adding central management with allowlists, blocklists, and retroactive scanning of installed packages.",
+      "author": null,
+      "publishedAt": "2026-10-01T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 3714
+  "totalIndexed": 3717
 }
