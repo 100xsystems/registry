@@ -1,78 +1,73 @@
-# YC Company Changes for 2026-09-30
+# YC Company Changes for 2026-10-01
 
 - Previous total: 6269
-- Current total: 6269
+- Current total: 6268
 - Added: 0
-- Removed: 0
-- Updated: 15
+- Removed: 1
+- Updated: 13
 
+
+## Removed Companies
+
+- Cascade (Winter 2026)
 
 ## Updated Companies
 
-### [BillionToOne](https://www.ycombinator.com/companies/billiontoone)
+### [Clerky](https://www.ycombinator.com/companies/clerky)
 
-- `stage`: Growth → Early
+- `status`: Active → Acquired
 
-### [The Flex Company](https://www.ycombinator.com/companies/the-flex-company)
+### [LFcarry](https://www.ycombinator.com/companies/lfcarry)
 
-- `stage`: Growth → Early
+- `one_liner`: AI workspace for professional gamers → Marketplace for game boosting, carries and coaching
 
-### [Squire Technologies](https://www.ycombinator.com/companies/squire-technologies)
-
-- `stage`: Growth → Early
-
-### [Ledger Investing](https://www.ycombinator.com/companies/ledger-investing)
-
-- `stage`: Growth → Early
-
-### [Pulse](https://www.ycombinator.com/companies/pulse)
-
-- `stage`: Growth → Early
-
-### [Bulletin](https://www.ycombinator.com/companies/bulletin)
-
-- `stage`: Growth → Early
-
-### [ZBiotics](https://www.ycombinator.com/companies/zbiotics)
-
-- `stage`: Growth → Early
-
-### [Verse Medical](https://www.ycombinator.com/companies/jetlenses)
-
-- `stage`: Growth → Early
-
-### [Stardex](https://www.ycombinator.com/companies/stardex)
+### [Ohm](https://www.ycombinator.com/companies/ohm-2)
 
 - `team_size`: 6 → 7
 
-### [Hamming AI](https://www.ycombinator.com/companies/hamming-ai)
+### [Omnistrate](https://www.ycombinator.com/companies/omnistrate)
 
-- `all_locations`: Austin, TX, USA → San Francisco, CA, USA
-- `team_size`: 8 → 10
-- `regions`: United States of America,America / Canada → United States of America,America / Canada,Remote,Partly Remote
+- `one_liner`: Transform any software to multi-cloud SaaS in minutes not years → Build your control plane to deploy your product in your customer VPC…
 
-### [Mica AI](https://www.ycombinator.com/companies/mica-ai)
+### [Scritch](https://www.ycombinator.com/companies/scritch)
 
-- `one_liner`: Replace the humans fixing bad data → Turn employees' AI skills into shared company infrastructure
-- `subindustry`: B2B -> Operations → B2B -> Infrastructure
-- `tags`: Data Science,Data Engineering,Enterprise Software → Artificial Intelligence,Marketplace,B2B,Infrastructure,AI
-- `industries`: B2B,Operations → B2B,Infrastructure
+- `isHiring`: true → false
 
-### [Visibl Semiconductors](https://www.ycombinator.com/companies/visibl-semiconductors)
+### [Arini](https://www.ycombinator.com/companies/arini)
 
-- `tags`: Artificial Intelligence,Hard Tech,Enterprise,Enterprise Software,Semiconductors → Hard Tech,Enterprise,Enterprise Software,Semiconductors,AI
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/1592d841d2bf7a7c1bbe388bce6eed056114383b.png → https://bookface-images.s3.amazonaws.com/small_logos/bdcb5cc5f47d4cd58aab24de81261482dd66020a.png
+- `one_liner`: AI receptionist for dentists → The single platform to run all healthcare operations
 
-### [Uno Wallet](https://www.ycombinator.com/companies/uno-wallet)
+### [Titanio](https://www.ycombinator.com/companies/titanio)
 
-- `tags`: Artificial Intelligence,Fintech,Payments,Consumer,Infrastructure → Fintech,Payments,Consumer,Infrastructure,AI
+- `name`: Seals AI → Titanio
+- `slug`: seals-ai → titanio
+- `former_names`: Talk To Users AI → Talk To Users AI,Seals AI
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/cfde4ebc7296b1d61f754907f5cf5a9a1f8fe26d.png → https://bookface-images.s3.amazonaws.com/small_logos/5b929e31ab64052ab433ff5445d5704e41934381.png
+- `one_liner`: AI Employees for Wholesalers & Distributors → AI Employees for Distributors
 
-### [Revnu](https://www.ycombinator.com/companies/revnu)
+### [Freebuff](https://www.ycombinator.com/companies/freebuff)
 
-- `one_liner`: The growth infrastructure for the autonomous business → Your AI growth hire.
-- `team_size`: 2 → 3
-- `tags`: B2B,Advertising,AI → Artificial Intelligence,B2B,Advertising
+- `isHiring`: false → true
 
-### [Simantic](https://www.ycombinator.com/companies/simantic)
+### [Ergo](https://www.ycombinator.com/companies/ergo)
 
-- `website`: https://simantic.dev → https://simantic.com
-- `tags`: Developer Tools,Hardware,Semiconductors,Electronics,AI → Artificial Intelligence,Developer Tools,Hardware,Semiconductors,Electronics
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/6d306e43299c0c7361faa4ee78066a9912cf4151.png → https://bookface-images.s3.amazonaws.com/small_logos/a2d5f1e26b979ee4eabfed131c5f771fc09a4639.png
+- `one_liner`: AI agents and unified data layer for revenue teams → Ergo is the context layer that helps revenue teams close more deals.
+- `team_size`: 0 → 9
+
+### [Magnitude](https://www.ycombinator.com/companies/magnitude)
+
+- `one_liner`: Open source inference server for local models → Run open models as fast as your hardware allows
+
+### [shortkit](https://www.ycombinator.com/companies/shortkit)
+
+- `isHiring`: false → true
+
+### [Enjamb Labs](https://www.ycombinator.com/companies/enjamb-labs)
+
+- `tags`: Artificial Intelligence,SaaS,B2B,Biotech,Automation → SaaS,B2B,Biotech,Automation,AI
+
+### [Tilion](https://www.ycombinator.com/companies/tilion)
+
+- `website`: https://tilion.dev → https://tilion.com

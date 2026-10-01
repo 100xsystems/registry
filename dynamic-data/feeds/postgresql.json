@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-09-30T21:43:20.417Z",
+  "updatedAt": "2026-10-01T04:26:41.062Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -2129,7 +2129,23 @@
       "summary": "`max_wal_size` is a checkpoint trigger, not a maximum—and the real cost is paid by setting it too low, not too high.",
       "author": null,
       "publishedAt": "2026-09-30T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9wE",
+      "title": "Chris van Eijk: Row-level security performance in PostgreSQL, measured",
+      "link": "https://postgr.es/p/9wE",
+      "summary": "What an RLS policy costs in PostgreSQL 17: function volatility, the (select …) wrapper, membership subqueries and the leakproof rule that disables your index.",
+      "author": null,
+      "publishedAt": "2026-09-30T23:30:11.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9wD",
+      "title": "Chris van Eijk: PgBouncer and RLS: tenant context, SET LOCAL, shared plans",
+      "link": "https://postgr.es/p/9wD",
+      "summary": "RLS behind PgBouncer in transaction mode, measured: which tenant context leaks, what SET LOCAL does outside a transaction, and one plan shared by tenants.",
+      "author": null,
+      "publishedAt": "2026-09-30T23:30:11.000Z"
     }
   ],
-  "totalIndexed": 265
+  "totalIndexed": 267
 }

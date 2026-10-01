@@ -9,7 +9,7 @@
     "edge-computing",
     "nextjs"
   ],
-  "updatedAt": "2026-09-30T12:15:35.838Z",
+  "updatedAt": "2026-10-01T04:26:50.994Z",
   "items": [
     {
       "guid": "vercel-blog::https://vercel.com/changelog/ai-gateway-now-supports-streaming-transcription",
@@ -4738,7 +4738,31 @@
       "summary": "You and your coding agents can now search a project’s trace spans from the terminal with . vercel traces search\nEach span represents one step in a request, helping you investigate errors, latency, and security-related behavior without opening the dashboard.\nBy default,  returns up to 100 spans from…",
       "author": "Darpan Kakadia",
       "publishedAt": "2026-09-29T13:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/vercel-agent-now-installs-private-packages-from-npm-and-custom-registries",
+      "title": "Vercel Agent now installs private packages from npm and custom registries",
+      "link": "https://vercel.com/changelog/vercel-agent-now-installs-private-packages-from-npm-and-custom-registries",
+      "summary": "Vercel Agent can install private dependencies from npm and custom registries using credentials stored as shared environment variables on Vercel. , , and classic Yarn running in Agent sessions authenticate as they do in Vercel builds.npmpnpm\nTo get started, add a  for Development or Preview:shared…",
+      "author": "Matan Kushner",
+      "publishedAt": "2026-09-30T23:22:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/ai-gateway-adds-browserbase-search-and-fetch-tools",
+      "title": "AI Gateway adds Browserbase Search and Fetch tools",
+      "link": "https://vercel.com/changelog/ai-gateway-adds-browserbase-search-and-fetch-tools",
+      "summary": "are now available through . Give your models access to current information, find relevant pages, and retrieve their contents, alongside Browserbase's existing AI SDK and Vercel Marketplace integrations.Browserbase Search and FetchAI Gateway\nAI Gateway lets you use Browserbase's tools across model…",
+      "author": "Josh Lipman",
+      "publishedAt": "2026-09-30T21:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/edge-requests-are-now-called-cdn-requests",
+      "title": "Edge Requests are now called CDN Requests",
+      "link": "https://vercel.com/changelog/edge-requests-are-now-called-cdn-requests",
+      "summary": "CDN Requests is now the name for the usage metric previously called Edge Requests. This is a naming change only: pricing, limits, and how usage is measured are all unchanged.\nThe new name appears on the usage dashboard, the Observability Events chart, usage notifications, and invoice line items. It…",
+      "author": "Steren",
+      "publishedAt": "2026-09-30T20:00:00.000Z"
     }
   ],
-  "totalIndexed": 591
+  "totalIndexed": 594
 }
