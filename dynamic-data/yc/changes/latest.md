@@ -1,73 +1,95 @@
 # YC Company Changes for 2026-10-01
 
-- Previous total: 6269
+- Previous total: 6268
 - Current total: 6268
 - Added: 0
-- Removed: 1
-- Updated: 13
+- Removed: 0
+- Updated: 18
 
-
-## Removed Companies
-
-- Cascade (Winter 2026)
 
 ## Updated Companies
 
-### [Clerky](https://www.ycombinator.com/companies/clerky)
+### [BillionToOne](https://www.ycombinator.com/companies/billiontoone)
 
-- `status`: Active → Acquired
+- `stage`: Early → Growth
 
-### [LFcarry](https://www.ycombinator.com/companies/lfcarry)
+### [The Flex Company](https://www.ycombinator.com/companies/the-flex-company)
 
-- `one_liner`: AI workspace for professional gamers → Marketplace for game boosting, carries and coaching
+- `stage`: Early → Growth
 
-### [Ohm](https://www.ycombinator.com/companies/ohm-2)
+### [Squire Technologies](https://www.ycombinator.com/companies/squire-technologies)
 
-- `team_size`: 6 → 7
+- `stage`: Early → Growth
 
-### [Omnistrate](https://www.ycombinator.com/companies/omnistrate)
+### [Ledger Investing](https://www.ycombinator.com/companies/ledger-investing)
 
-- `one_liner`: Transform any software to multi-cloud SaaS in minutes not years → Build your control plane to deploy your product in your customer VPC…
+- `stage`: Early → Growth
 
-### [Scritch](https://www.ycombinator.com/companies/scritch)
+### [Pulse](https://www.ycombinator.com/companies/pulse)
 
-- `isHiring`: true → false
+- `stage`: Early → Growth
 
-### [Arini](https://www.ycombinator.com/companies/arini)
+### [Bulletin](https://www.ycombinator.com/companies/bulletin)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/1592d841d2bf7a7c1bbe388bce6eed056114383b.png → https://bookface-images.s3.amazonaws.com/small_logos/bdcb5cc5f47d4cd58aab24de81261482dd66020a.png
-- `one_liner`: AI receptionist for dentists → The single platform to run all healthcare operations
+- `stage`: Early → Growth
 
-### [Titanio](https://www.ycombinator.com/companies/titanio)
+### [ZBiotics](https://www.ycombinator.com/companies/zbiotics)
 
-- `name`: Seals AI → Titanio
-- `slug`: seals-ai → titanio
-- `former_names`: Talk To Users AI → Talk To Users AI,Seals AI
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/cfde4ebc7296b1d61f754907f5cf5a9a1f8fe26d.png → https://bookface-images.s3.amazonaws.com/small_logos/5b929e31ab64052ab433ff5445d5704e41934381.png
-- `one_liner`: AI Employees for Wholesalers & Distributors → AI Employees for Distributors
+- `stage`: Early → Growth
 
-### [Freebuff](https://www.ycombinator.com/companies/freebuff)
+### [Verse Medical](https://www.ycombinator.com/companies/jetlenses)
+
+- `stage`: Early → Growth
+
+### [Enerjazz](https://www.ycombinator.com/companies/enerjazz)
+
+- `all_locations`: Delhi, DL, India → Berlin, Berlin, Germany; Delhi, DL, India
+- `regions`: India,South Asia → Germany,India,Europe,South Asia
+
+### [Y/n](https://www.ycombinator.com/companies/yn)
+
+- `team_size`: 5 → 4
+
+### [truemetrics](https://www.ycombinator.com/companies/truemetrics)
 
 - `isHiring`: false → true
 
-### [Ergo](https://www.ycombinator.com/companies/ergo)
+### [Combinely](https://www.ycombinator.com/companies/combinely)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/6d306e43299c0c7361faa4ee78066a9912cf4151.png → https://bookface-images.s3.amazonaws.com/small_logos/a2d5f1e26b979ee4eabfed131c5f771fc09a4639.png
-- `one_liner`: AI agents and unified data layer for revenue teams → Ergo is the context layer that helps revenue teams close more deals.
-- `team_size`: 0 → 9
+- `one_liner`: AI coworker for Accountants → AI Coworker for Accountants
 
-### [Magnitude](https://www.ycombinator.com/companies/magnitude)
+### [Halluminate](https://www.ycombinator.com/companies/halluminate)
 
-- `one_liner`: Open source inference server for local models → Run open models as fast as your hardware allows
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/b8aa250417be3c8c72069f938a492da564c11b69.png → https://bookface-images.s3.amazonaws.com/small_logos/cfaedb4fd05adec967fa47a152e7df6f7765ef6c.png
 
 ### [shortkit](https://www.ycombinator.com/companies/shortkit)
 
-- `isHiring`: false → true
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/0a0714fa881cb99f3080456e1c76e5b495a45be7.png → https://bookface-images.s3.amazonaws.com/small_logos/cd6943aa08a6062cd8e0e6aba456f3d77558d5e3.png
 
-### [Enjamb Labs](https://www.ycombinator.com/companies/enjamb-labs)
+### [Squid](https://www.ycombinator.com/companies/squid)
 
-- `tags`: Artificial Intelligence,SaaS,B2B,Biotech,Automation → SaaS,B2B,Biotech,Automation,AI
+- `team_size`: 3 → 5
+- `isHiring`: true → false
 
-### [Tilion](https://www.ycombinator.com/companies/tilion)
+### [Talking Computers](https://www.ycombinator.com/companies/talking-computers)
 
-- `website`: https://tilion.dev → https://tilion.com
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/2e45d3a6fae510b1b44b5ae6e844844cbfd29960.png → https://bookface-images.s3.amazonaws.com/small_logos/128accc2541817ad412100385d460be4311cfcf8.png
+
+### [Antinuous](https://www.ycombinator.com/companies/antinuous)
+
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/febca88acc45186c0d3c21c31cb8dfbdd7f32484.png → https://bookface-images.s3.amazonaws.com/small_logos/f8a9a44d645fcd8622b7c1a0e23c0aa5695d5983.png
+- `one_liner`: Autonomous research agents for R&D and education → Autonomous research agents for R&D and applied science
+- `tags`: AI → Artificial Intelligence
+
+### [Tokenless](https://www.ycombinator.com/companies/tokenless)
+
+- `name`: Touchy → Tokenless
+- `slug`: touchy → tokenless
+- `former_names`: Tokenless → Tokenless,Touchy
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/e78313a9189e19195e360aee1598ec70854ce59b.png → https://bookface-images.s3.amazonaws.com/small_logos/7f250ec6cc81104148d8bd5bafdd6b96bc77d023.png
+- `website`: https://touchyapp.com → https://usetokenless.com
+- `one_liner`: AI iOS assistant that instantly uses voice and video to take action → We find flaws in RL environments and evals and help you fix them.
+- `industry`: Consumer → B2B
+- `subindustry`: Consumer → B2B -> Infrastructure
+- `tags`: Consumer,Productivity,AI,AI Assistant → Developer Tools,Machine Learning,Reinforcement Learning,B2B,AI
+- `industries`: Consumer → B2B,Infrastructure

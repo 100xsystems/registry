@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-10-01T04:26:41.062Z",
+  "updatedAt": "2026-10-01T12:50:01.125Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -2145,7 +2145,15 @@
       "summary": "RLS behind PgBouncer in transaction mode, measured: which tenant context leaks, what SET LOCAL does outside a transaction, and one plan shared by tenants.",
       "author": null,
       "publishedAt": "2026-09-30T23:30:11.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9wF",
+      "title": "Tomas Vondra: Are we reverting patches because of bugs found by AI?",
+      "link": "https://postgr.es/p/9wF",
+      "summary": "Over the past month, several major features got reverted from Postgres\n19. At this point, even if everything else goes perfectly, Postgres 19\nwill be released about a month later than originally planned.\nA couple recent blog posts seem to suggest the reverts happened due to\nAI finding complex bugs…",
+      "author": null,
+      "publishedAt": "2026-10-01T10:00:00.000Z"
     }
   ],
-  "totalIndexed": 267
+  "totalIndexed": 268
 }

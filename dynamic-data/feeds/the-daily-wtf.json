@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-09-30T12:15:36.170Z",
+  "updatedAt": "2026-10-01T12:50:13.002Z",
   "items": [
     {
       "guid": "https://thedailywtf.com/articles/classic-wtf-my-many-girlfriends",
@@ -399,7 +399,15 @@
       "summary": "Fritz's team needed to see if one point was within a certain distance from a center point. You or I would likely try and answer this question using a simple distance calculation, since that's the question we're trying to answer. But what if you didn't understand distances at all? Then you could…",
       "author": "Remy Porter",
       "publishedAt": "2026-09-30T06:30:00.000Z"
+    },
+    {
+      "guid": "https://thedailywtf.com/articles/very-valid-tokens",
+      "title": "CodeSOD: Very Valid Tokens",
+      "link": "https://thedailywtf.com/articles/very-valid-tokens",
+      "summary": "Today's anonymous submitter shares with us the function their company uses to validate authentication tokens.\npublic bool IsTokenValid(string token)\n{\n    //TODO\n    return true;\n}\n\nThis is running in production. So that's fun. The user they've authenticated as is tracked separately at the start of…",
+      "author": "Remy Porter",
+      "publishedAt": "2026-10-01T06:30:00.000Z"
     }
   ],
-  "totalIndexed": 49
+  "totalIndexed": 50
 }

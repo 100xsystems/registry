@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-01T04:26:57.057Z",
+  "fetchedAt": "2026-10-01T12:50:15.884Z",
   "count": 6268,
   "companies": [
     {
@@ -6305,28 +6305,30 @@
     },
     {
       "id": 33051,
-      "name": "Touchy",
-      "slug": "touchy",
+      "name": "Tokenless",
+      "slug": "tokenless",
       "former_names": [
-        "Tokenless"
+        "Tokenless",
+        "Touchy"
       ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/e78313a9189e19195e360aee1598ec70854ce59b.png",
-      "website": "https://touchyapp.com",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/7f250ec6cc81104148d8bd5bafdd6b96bc77d023.png",
+      "website": "https://usetokenless.com",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Touchy is your personal AI assistant that lives on your iPhone. One button press and you're talking to an assistant that sees what you see, remembers what you tell it, and takes action across 1,000+ apps--so you can get back to living in the moment.",
-      "one_liner": "AI iOS assistant that instantly uses voice and video to take action",
+      "long_description": "Tokenless is an applied AI research lab, and our goal is to end reward hacking. We do research and build tools to detect issues with environments and evals, understand model behavior in those environments, and prevent those issues from happening. Correcting them makes training more effective, makes model performance easier to interpret, and is crucial to solving the AI alignment problem.\r\n\r\nIf you’re training models with RL, building environments, or running agent evals, and want more confidence in your environments, we're here to help.",
+      "one_liner": "We find flaws in RL environments and evals and help you fix them.",
       "team_size": 3,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
-      "industry": "Consumer",
-      "subindustry": "Consumer",
+      "industry": "B2B",
+      "subindustry": "B2B -> Infrastructure",
       "launched_at": 1786732497,
       "tags": [
-        "Consumer",
-        "Productivity",
-        "AI",
-        "AI Assistant"
+        "Developer Tools",
+        "Machine Learning",
+        "Reinforcement Learning",
+        "B2B",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -6335,7 +6337,8 @@
       "batch": "Summer 2026",
       "status": "Active",
       "industries": [
-        "Consumer"
+        "B2B",
+        "Infrastructure"
       ],
       "regions": [
         "United States of America",
@@ -6346,7 +6349,7 @@
       "demo_day_video_public": false,
       "app_answers": null,
       "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/touchy"
+      "url": "https://www.ycombinator.com/companies/tokenless"
     },
     {
       "id": 33050,
@@ -18390,11 +18393,11 @@
       "former_names": [
         "Salesgraph"
       ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/febca88acc45186c0d3c21c31cb8dfbdd7f32484.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/f8a9a44d645fcd8622b7c1a0e23c0aa5695d5983.png",
       "website": "https://www.antinuous.com/",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Antinuous is building autonomous research agents to help people in research, development, discovery, and knowledge work do faster, more accurate research end to end without a human in the loop.\r\n\r\nWe believe humans should be able to ask a single question, and no matter how simple or complex, agents should look at the question, break it down, research the answer, test new ideas, simulate new environments, and repeat autonomously using as much or little compute as necessary elastically.",
-      "one_liner": "Autonomous research agents for R&D and education",
+      "one_liner": "Autonomous research agents for R&D and applied science",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -18403,7 +18406,7 @@
       "subindustry": "B2B",
       "launched_at": 1775259755,
       "tags": [
-        "AI"
+        "Artificial Intelligence"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -20620,7 +20623,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/fd03c9be7cf358b8834377c00d3855af56d7f064.png",
       "website": "https://korsoai.com/",
       "all_locations": "Irvine, CA, USA",
-      "long_description": "",
+      "long_description": "Korso is building a voice-based overlay interface for the new age of AI. We believe that the way people are using technology will continue to evolve, and that we can be at the center of it. \r\n\r\nOur desktop app adds a small app overlayed on your screen, so that you can harness the power of AI agents and point the assistant at anything that you are currently viewing. ",
       "one_liner": "The last assistant you'll need",
       "team_size": 3,
       "highlight_black": false,
@@ -22213,7 +22216,7 @@
         "Speedtrain",
         "Also"
       ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/2e45d3a6fae510b1b44b5ae6e844844cbfd29960.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/128accc2541817ad412100385d460be4311cfcf8.png",
       "website": "https://talkingcomputers.ai",
       "all_locations": "Toronto, ON, Canada",
       "long_description": "AI lab building interaction models to make AI symbiotic with humans.\r\n\r\nOur early models sit at the Pareto frontier of intelligence and interactivity, measured by time to first audio token, and enable voice agents that are both highly capable and genuinely human-like",
@@ -22902,7 +22905,7 @@
       "all_locations": "London, England, United Kingdom",
       "long_description": "We believe the electricity grid is the most important machine on Earth. If we want electrification to move fast, the teams planning and operating networks need software that is as modern as the challenge.\r\n\r\nOur thesis is simple. Better decisions come from one unified, trusted network model. When everyone works from the same model, planning becomes consistent, assumptions are visible, and progress stops getting lost in spreadsheets and static reports.\r\n\r\nSquid is AI powered grid planning in your browser. We have spent years inside National Grid, Octopus Energy, and AWS, building and learning what breaks. Now we are building what we wished existed.",
       "one_liner": "AI agents for power grid planning  🦑 ",
-      "team_size": 3,
+      "team_size": 5,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -22912,7 +22915,7 @@
       "tags": [],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": true,
+      "isHiring": false,
       "nonprofit": false,
       "batch": "Winter 2026",
       "status": "Active",
@@ -28201,7 +28204,7 @@
       "former_names": [
         "Embassi"
       ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/0a0714fa881cb99f3080456e1c76e5b495a45be7.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/cd6943aa08a6062cd8e0e6aba456f3d77558d5e3.png",
       "website": "https://www.shortkit.dev",
       "all_locations": "",
       "long_description": "ShortKit lets any consumer app launch a TikTok-grade media expereinces. \r\n\r\nMichael, spent 6 years at YouTube building the infrastructure that powers YouTube Shorts. Neil, prev. scaled a SaaS company from 0 to $6M ARR as employee #1. \r\n\r\nWe handle the full media stack, starting with short form video - client SDKs, video infrastructure, rec systems, and monetization - so product teams don't have to.",
@@ -43603,10 +43606,10 @@
       "name": "Halluminate",
       "slug": "halluminate",
       "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/b8aa250417be3c8c72069f938a492da564c11b69.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/cfaedb4fd05adec967fa47a152e7df6f7765ef6c.png",
       "website": "https://halluminate.ai/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "We help foundation model labs and enterprises train computer use AI with data and sandboxes.\r\n\r\nA knowledge worker spends 90% of their day on a computer. A productive AI agent must similarly learn how to use our computers, browsers, and software to deliver real world value. \r\n\r\nToday, browser and computer use AI is inaccurate, slow, and expensive. Model labs and enterprises who want to improve these agents are bottlenecked by two resources: \r\n\r\n1) High quality datasets for benchmarking and evaluations\r\n2) Realistic sandbox environments for safe and accurate testing/training (ex. a simulated version of Salesforce) \r\n\r\nHalluminate offers a suite of products and services to address both these issues. \r\n\r\nOur evaluation service combines proprietary datasets with high quality annotations to help our customers identify and prioritize the biggest failure modes of their computer- and browser- use AI. \r\n\r\nOur platform provides a catalog of fully managed sandboxes, empowering our customers to safely and accurately test/train at scale, resulting in improved performance. \r\n\r\nOur customers see\r\n- Improved browser- and computer-use agent performance\r\n- New and emergent frontier agent capabilities\r\n- Data driven prioritization leading to exponentially faster development speed\r\n- Increased revenue/sales via marketing from public benchmarks\r\n\r\nOur paying customers already include leading computer use model labs and the two largest browser agent companies in the space. \r\n\r\nWyatt and Jerry are friends that met their first week of school studying CS at Cornell University. They’ve been working and studying together for 7+ years. \r\n",
+      "long_description": "AI today is capable of solving the world’s most complex math problems, writing the majority of our software, and soon automating research itself. The world of verifiable domains is being mastered at a stunning rate.\r\n\r\nHowever, these same systems still struggle to build realistic financial models, deliver client ready powerpoint presentations, or grasp the nuance of well-balanced strategic analyses. Generally intelligent AI coworkers across finance, consulting, insurance, operations, and other forms of knowledge work will transform our economy. But they haven’t arrived yet.\r\n\r\nThe good news is that we have the recipe to build them.\r\n\r\nHalluminate is a data research lab building the benchmarks and RL environments needed to push the frontier of AI in knowledge work. Our first area of focus is financial services, but we are rapidly expanding to adjacent verticals.\r\n\r\nIn the last 10 months we have:\r\n\r\n- Grown from $0 to a mid-eight-figure revenue run rate while remaining strongly profitable\r\n- Built and scaled RL environments with four of the five leading closed-source U.S. AI labs\r\n- Released Westworld Due Diligence, a leading frontier benchmark for realistic financial work\r\n- Built an interdisciplinary team of former founders, researchers, particle physicists, experts, and engineers from Meta, Scale AI, Capital One Labs, McKinsey, Goldman Sachs and more\r\n\r\nIf that excites you, join us! ",
       "one_liner": "Data and RL environments to automate knowledge work",
       "team_size": 5,
       "highlight_black": false,
@@ -47912,8 +47915,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/d60074c98f74b46443d4cb4aaad793b532b48401.png",
       "website": "https://combinely.ai",
       "all_locations": "London, England, United Kingdom",
-      "long_description": "Built by an ex-Deloitte/Google team, Combinely’s AI-coworker works like a junior on your team. It handles workflows end-to-end across your systems - for tax, audit, and accounting.",
-      "one_liner": "AI coworker for Accountants",
+      "long_description": "Coco is the AI coworker for accountants. It joins your firm like an employee to run end-to-end accounting workflows. It uses your tools, learns your clients and your firm's standards. It comes ready on day one with 50+ agents for bookkeeping, VAT, payroll, tax and accounts. Nothing to set up, no prompting to learn.",
+      "one_liner": "AI Coworker for Accountants",
       "team_size": 8,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -85682,7 +85685,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": false,
+      "isHiring": true,
       "nonprofit": false,
       "batch": "Summer 2023",
       "status": "Active",
@@ -95108,7 +95111,7 @@
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Y/n is the most entertaining app in the world.\r\n\r\nOn Y/n, you play a character in your story. Be a boarding school student and get the boys to fall in love with you, or plan a jailbreak with Sherlock Holmes.\r\n\r\nStories are made for you. Your texts change the plot and how characters feel about you, so no two playthroughs are the same (but you can rewind).\r\n\r\nThere's a Y/n story for every mood: romance, fanfiction, fluff, mystery, and more. Discover 10M+ stories created by the community.\r\n\r\nCan't find the one you want? Write and publish your own.",
       "one_liner": "Play your story",
-      "team_size": 5,
+      "team_size": 4,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -147402,7 +147405,7 @@
       ],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/01c24744d6258fd6efd2c9b5f35465ca85adc1e0.png",
       "website": "https://www.enerjazz.tech/",
-      "all_locations": "Delhi, DL, India",
+      "all_locations": "Berlin, Berlin, Germany; Delhi, DL, India",
       "long_description": "Enerjazz is building a battery swapping network (like gasoline stations) for 2M+ commercial electric vehicles in India. We make batteries affordable for EV owners and enable them to earn 80% more. ",
       "one_liner": "Making electric vehicle batteries affordable ",
       "team_size": 9,
@@ -147426,7 +147429,9 @@
         "Climate"
       ],
       "regions": [
+        "Germany",
         "India",
+        "Europe",
         "South Asia"
       ],
       "stage": "Early",
@@ -212709,7 +212714,7 @@
         "Remote",
         "Partly Remote"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -214820,7 +214825,7 @@
         "Remote",
         "Partly Remote"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -227240,7 +227245,7 @@
         "Remote",
         "Partly Remote"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -229764,7 +229769,7 @@
         "India",
         "South Asia"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -229809,7 +229814,7 @@
         "Remote",
         "Fully Remote"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -232813,7 +232818,7 @@
         "Remote",
         "Partly Remote"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -234091,7 +234096,7 @@
         "Remote",
         "Partly Remote"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -235653,7 +235658,7 @@
         "Remote",
         "Partly Remote"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
