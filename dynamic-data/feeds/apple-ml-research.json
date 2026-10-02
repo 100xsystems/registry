@@ -8,7 +8,7 @@
     "ai",
     "research"
   ],
-  "updatedAt": "2026-10-01T18:05:16.799Z",
+  "updatedAt": "2026-10-02T17:31:36.005Z",
   "items": [
     {
       "guid": "environment-free",
@@ -361,7 +361,15 @@
       "summary": "The common paradigm of reinforcement learning with verifiable rewards (RLVR) is to let agents make multiple attempts at a task, and optimize towards the successful ones. This becomes problematic in the realms of self-improvement, where tasks are so difficult that the agent has a low or even no…",
       "author": null,
       "publishedAt": "2026-10-01T00:00:00.000Z"
+    },
+    {
+      "guid": "language-discrimination-multilingual-learning",
+      "title": "Language Discrimination Improves Linguistic Learning in Multilingual Speech Models",
+      "link": "https://machinelearning.apple.com/research/language-discrimination-multilingual-learning",
+      "summary": "Multilingual self-supervised speech models can benefit from sharing information across languages, but under a matched total pretraining data budget they still fall short of monolingual models. We show that strengthening the model’s ability to discriminate languages during pretraining reduces and,…",
+      "author": null,
+      "publishedAt": "2026-10-02T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 44
+  "totalIndexed": 45
 }

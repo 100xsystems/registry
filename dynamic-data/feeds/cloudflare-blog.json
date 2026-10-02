@@ -9,7 +9,7 @@
     "performance",
     "edge-computing"
   ],
-  "updatedAt": "2026-10-01T18:05:16.869Z",
+  "updatedAt": "2026-10-02T17:31:36.091Z",
   "items": [
     {
       "guid": "01KY2432VQPD5FTF2RARXXYQGH",
@@ -62042,7 +62042,87 @@
       "summary": "Cloudflare Basin is built on Apache Iceberg and R2 Object Storage. With general availability, developers can ingest, manage, and query large datasets at scale without paying data egress fees.",
       "author": "Marc Selwan",
       "publishedAt": "2026-10-01T12:58:00.000Z"
+    },
+    {
+      "guid": "01M3XKBJCTDTMBBCNNHA141F04",
+      "title": "Streamline: custom video pipelines with Cloudflare Stream and Workers",
+      "link": "https://blog.cloudflare.com/streamline/",
+      "summary": "Streamline demonstrates how to build long-running, continuous video processing pipelines by pairing Cloudflare Workers and Durable Objects with a containerized media engine.",
+      "author": "Willi Geiger",
+      "publishedAt": "2026-10-02T16:13:45.000Z"
+    },
+    {
+      "guid": "01M3XM9KVCRB6JKE07Q88EPGD2",
+      "title": "Introducing Web Search API via AI Gateway",
+      "link": "https://blog.cloudflare.com/introducing-web-search-api/",
+      "summary": "Cloudflare AI Gateway now supports native web search API integration in partnership with Ceramic.ai, Exa, and Linkup. Developers can now inject real-time web context into model inference calls via AI Gateway, REST APIs, or Workers bindings.",
+      "author": "Michelle Chen",
+      "publishedAt": "2026-10-02T13:28:10.000Z"
+    },
+    {
+      "guid": "01M3XHCB64KZ1NTN3N83GY590B",
+      "title": "8 major updates to Cloudflare Observability",
+      "link": "https://blog.cloudflare.com/one-observability-platform/",
+      "summary": "Cloudflare is launching eight major updates that bring logs, traces, analytics, alerts, dashboards, querying, and telemetry export into one observability platform, with simpler and more predictable pricing.",
+      "author": "Nevi Shah",
+      "publishedAt": "2026-10-02T13:00:00.000Z"
+    },
+    {
+      "guid": "01M3XE7G2V6JJXPKX92B1D4080",
+      "title": "Introducing Cloudflare Traces: follow requests through our entire platform",
+      "link": "https://blog.cloudflare.com/cloudflare-tracing/",
+      "summary": "Cloudflare Traces shows how a request moves through security rules, transformations, cache, routing, Workers, and your origin, then follows it across services running anywhere in your stack.",
+      "author": "Mar Witek",
+      "publishedAt": "2026-10-02T13:00:00.000Z"
+    },
+    {
+      "guid": "01M3XD0M307DCDJ5QYA2RFTW87",
+      "title": "Updates on our pledge to make Cloudflare features accessible to everyone",
+      "link": "https://blog.cloudflare.com/enterprise-for-all-update/",
+      "summary": "A year after pledging to eliminate two-tier product access, Cloudflare has expanded Logpush, multi-account governance, and higher platform limits to all accounts. Here is an update on our progress, how we dogfood these tools internally, and what is coming next.",
+      "author": "Oliver Roup",
+      "publishedAt": "2026-10-02T13:00:00.000Z"
+    },
+    {
+      "guid": "01M3WRXHGNF2ZH02N0GWY6FHVV",
+      "title": "Announcing Cloudflare OHTTP Gateway – expanding access to Cloudflare’s privacy-preserving infrastructure",
+      "link": "https://blog.cloudflare.com/announcing-cloudflare-ohttp-gateway/",
+      "summary": "We’re announcing the closed beta of a self-serve Cloudflare OHTTP Gateway. We’re also renaming our Privacy Gateway to Cloudflare OHTTP Relay to better distinguish the two products.",
+      "author": "Lara Schull",
+      "publishedAt": "2026-10-02T13:00:00.000Z"
+    },
+    {
+      "guid": "01M3WNK9KTV3615MEM25RN3E4H",
+      "title": "Follow the thread: a new dashboard to investigate account abuse",
+      "link": "https://blog.cloudflare.com/account-abuse-protection-dashboard/",
+      "summary": "Fraudsters are increasingly using AI to bypass stateless security checks. Cloudflare's new Account Abuse Protection dashboard uses stateful analysis and edge-generated Hashed User IDs to help teams investigate and block account abuse.",
+      "author": "Nicole Justus",
+      "publishedAt": "2026-10-02T13:00:00.000Z"
+    },
+    {
+      "guid": "01M3WEQR3N79CDBSMHD5V067HA",
+      "title": "Protected Quick Tunnels: simple accountless authentication for your next dev project",
+      "link": "https://blog.cloudflare.com/protected-quick-tunnels/",
+      "summary": "Quick Tunnels now support email authentication. Add --allowed-mail to one cloudflared command, and only the addresses or domains you list can reach your local app. No Cloudflare account required on either side.",
+      "author": "Nikita Cano",
+      "publishedAt": "2026-10-02T13:00:00.000Z"
+    },
+    {
+      "guid": "01M3W899F5N6P98MYP180WJMS4",
+      "title": "Building for good: How civil society organizations are automating on Cloudflare",
+      "link": "https://blog.cloudflare.com/civil-society-automation/",
+      "summary": "Some of the world's leading organizations are building the future of non-profit work with Cloudflare.",
+      "author": "Allie Funk",
+      "publishedAt": "2026-10-02T13:00:00.000Z"
+    },
+    {
+      "guid": "01M3T5GMDCTRDCS7CFJSMSJ2TS",
+      "title": "2026 Birthday week: network performance update",
+      "link": "https://blog.cloudflare.com/network-performance-birthday-week-2026/",
+      "summary": "Cloudflare now ranks as the fastest provider across 74% of the top 1,000 global networks. By incorporating background telemetry from Cloudflare Challenge Pages, we have expanded our real-user measurement scale while maintaining user privacy.",
+      "author": "Lai Yi Ohlsen",
+      "publishedAt": "2026-10-02T13:00:00.000Z"
     }
   ],
-  "totalIndexed": 7754
+  "totalIndexed": 7764
 }

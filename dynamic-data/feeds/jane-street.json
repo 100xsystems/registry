@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-10-01T18:05:31.309Z",
+  "updatedAt": "2026-10-02T17:31:45.029Z",
   "items": [
     {
       "guid": "https://blog.janestreet.com/oxcaml-typesafe-reference-counting-python/",
@@ -439,7 +439,23 @@
       "summary": "The following is part of a series of posts about 2026 summer intern projects—for more, see “What the interns have wrought, special jumbo 2026 edition”",
       "author": null,
       "publishedAt": "2026-10-01T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.janestreet.com/how-recurring-network-maintenance-exposed-6-bugs/",
+      "title": "How recurring network maintenance exposed 6 bugs",
+      "link": "https://blog.janestreet.com/how-recurring-network-maintenance-exposed-6-bugs/",
+      "summary": "Jane Street does a lot of network maintenance over the weekends. In each maintenance, a\ncabinet may lose connectivity for 15 to 25 minutes. Our internal Kafka infrastructure is\nsupposed to be resilient to these partitions, and reconnect when connectivity resumes. For\nseveral months this year, it…",
+      "author": null,
+      "publishedAt": "2026-10-02T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.janestreet.com/asic-puzzle-results/",
+      "title": "Results from the ASIC puzzle",
+      "link": "https://blog.janestreet.com/asic-puzzle-results/",
+      "summary": "<p><a href=\"/asic-puzzle-results/puzzle-to-stars.png\"><img src=\"/asic-puzzle-results/puzzle-to-stars.png\" alt=\"Physical layout of the puzzle ASIC beside the solved 11-by-11 Star Battle grid, with 22 stars and regions spelling JSC\" style=\"display: block; width: 100%; height: auto; margin: 2em auto;\"…",
+      "author": null,
+      "publishedAt": "2026-10-02T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 54
+  "totalIndexed": 56
 }
