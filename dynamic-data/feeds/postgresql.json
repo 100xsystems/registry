@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-10-02T04:19:24.663Z",
+  "updatedAt": "2026-10-02T21:39:13.243Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -2185,7 +2185,15 @@
       "summary": "In this post, I walk through integrating JFrog Artifactory with Fujitsu Enterprise Postgres and using Transparent Data Encryption to encrypt the Artifactory metadata stored in the database.",
       "author": null,
       "publishedAt": "2026-10-02T00:30:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9wU",
+      "title": "Christophe Pettus: Nobody Patches the Pooler",
+      "link": "https://postgr.es/p/9wU",
+      "summary": "PgBouncer 1.26.0 patches three CVEs, two triggerable without authentication.",
+      "author": null,
+      "publishedAt": "2026-10-02T18:30:00.000Z"
     }
   ],
-  "totalIndexed": 272
+  "totalIndexed": 273
 }

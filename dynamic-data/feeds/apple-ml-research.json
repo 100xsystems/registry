@@ -8,7 +8,7 @@
     "ai",
     "research"
   ],
-  "updatedAt": "2026-10-02T17:31:36.005Z",
+  "updatedAt": "2026-10-02T21:39:12.720Z",
   "items": [
     {
       "guid": "environment-free",
@@ -369,7 +369,15 @@
       "summary": "Multilingual self-supervised speech models can benefit from sharing information across languages, but under a matched total pretraining data budget they still fall short of monolingual models. We show that strengthening the model’s ability to discriminate languages during pretraining reduces and,…",
       "author": null,
       "publishedAt": "2026-10-02T00:00:00.000Z"
+    },
+    {
+      "guid": "limits-confidence-diffusion",
+      "title": "Limits of Confidence in Diffusion",
+      "link": "https://machinelearning.apple.com/research/limits-confidence-diffusion",
+      "summary": "Discrete diffusion, including remasking and uniform-state samplers, generate a sequence by writing multiple token positions per step, drawing each from a per-position distribution and choosing which positions to write from those same distributions. For domains of general interest (pixels, phonemes,…",
+      "author": null,
+      "publishedAt": "2026-10-02T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 45
+  "totalIndexed": 46
 }

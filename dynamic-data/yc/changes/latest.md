@@ -1,50 +1,77 @@
 # YC Company Changes for 2026-10-02
 
-- Previous total: 6268
+- Previous total: 6269
 - Current total: 6269
-- Added: 1
+- Added: 0
 - Removed: 0
-- Updated: 8
+- Updated: 13
 
-
-## Added Companies
-
-- [Silica](https://www.ycombinator.com/companies/silica) (Fall 2026) — Actuators for Physical AI
 
 ## Updated Companies
 
-### [Hirebolt](https://www.ycombinator.com/companies/hirebolt)
+### [Slik](https://www.ycombinator.com/companies/slik)
 
-- `isHiring`: false → true
+- `one_liner`: Slik enables the long tail to use email outreach.  → Slik automates your sales.
+- `tags`: Marketing,Email → Artificial Intelligence,Marketing,Email
+- `demo_day_video_public`: false → true
 
-### [Rownd](https://www.ycombinator.com/companies/rownd)
-
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/8c9dcd6e10984a18f91f153e7efc538957c387fd.png → https://bookface-images.s3.amazonaws.com/small_logos/b3fb21e9b70226a262919d3a7737f14e63ee8352.png
-- `team_size`: 7 → 9
-- `tags`: Artificial Intelligence,Drones,Open Source,ML → Autonomous Delivery,Drones,Open Source,AI
-
-### [AirMyne](https://www.ycombinator.com/companies/airmyne)
-
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/5aa405139fe4cdf0cab1a9d2f6220f51247655a3.png → https://bookface-images.s3.amazonaws.com/small_logos/41288cd5105aae41d1cae37fa2544b168a76b040.png
-- `all_locations`: San Francisco, CA, USA; Berkeley, CA, USA → San Francisco, CA, USA
-
-### [sync.](https://www.ycombinator.com/companies/sync-2)
+### [Fondo](https://www.ycombinator.com/companies/fondo)
 
 - `isHiring`: true → false
 
-### [Mito Health](https://www.ycombinator.com/companies/mito-health)
+### [Curri](https://www.ycombinator.com/companies/curri)
 
-- `tags`: Consumer Health Services,Digital Health,AI → Artificial Intelligence,Consumer Health Services,Digital Health
+- `stage`: Growth → Early
 
-### [Oki](https://www.ycombinator.com/companies/oki)
+### [Broccoli AI](https://www.ycombinator.com/companies/broccoli-ai)
 
-- `tags`: Hardware,Consumer,AI → Artificial Intelligence,Hardware,Consumer
+- `stage`: Growth → Early
 
-### [Absurd](https://www.ycombinator.com/companies/absurd)
+### [Sohar Health](https://www.ycombinator.com/companies/sohar-health)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/2a8caed7d0a490086d7e541276710ed25029450f.png → https://bookface-images.s3.amazonaws.com/small_logos/0753ba314978809fa3b7fa403a9b3a5c6982748c.png
-- `one_liner`: The Creative OS for AI video → The production canvas for AI film teams
+- `status`: Active → Acquired
+- `stage`: Growth → Early
 
-### [Mirabelle](https://www.ycombinator.com/companies/mirabelle)
+### [Chicory](https://www.ycombinator.com/companies/chicory)
 
-- `one_liner`: Your robot chef → Your own chef at home
+- `name`: Moonshine → Chicory
+- `slug`: moonshine → chicory
+- `former_names`:  → Moonshine
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/b168616a2e0ef551e8a1be5dfe50f9700bc903c0.png → https://bookface-images.s3.amazonaws.com/small_logos/be712cd699fd2b897b2f5250f2ff8e722cfa125f.png
+- `website`: https://usemoonshine.com → https://chicory.so
+- `one_liner`: Extending AI to interact with the real world → The platform for automated hiring and workforce decisions.
+- `tags`: Artificial Intelligence,Machine Learning → Artificial Intelligence,Developer Tools,Human Resources
+
+### [Helonic](https://www.ycombinator.com/companies/helonic)
+
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/b26a35750dbae152a692ea82c2b00bb8f78d4d9b.png → https://bookface-images.s3.amazonaws.com/small_logos/336d43aeb77b236c25b003848175a054e780ccbc.png
+
+### [The Hog](https://www.ycombinator.com/companies/the-hog)
+
+- `isHiring`: true → false
+
+### [Ressl AI](https://www.ycombinator.com/companies/ressl-ai)
+
+- `isHiring`: false → true
+
+### [GodHands](https://www.ycombinator.com/companies/godhands)
+
+- `website`: https://godhands.dev → https://godhands.ai
+- `one_liner`: We reconstruct how employees actually work, so nothing breaks when… → Your company’s operating model, learned from the work.
+
+### [Collar](https://www.ycombinator.com/companies/collar)
+
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/9eb4e7455b35796c4972c68f65a621d21e458003.png → https://bookface-images.s3.amazonaws.com/small_logos/35110e6bdfbfbf5706627685cbb370e170ff4a03.png
+- `all_locations`: Singapore, Singapore → San Francisco, CA, USA
+- `tags`: Artificial Intelligence,Finance → Finance,AI
+- `regions`: Singapore,Southeast Asia → United States of America,America / Canada
+
+### [Antropi Robotics](https://www.ycombinator.com/companies/antropi-robotics)
+
+- `all_locations`: Bengaluru, KA, India → San Francisco, CA, USA
+- `regions`: India,South Asia → United States of America,America / Canada
+
+### [Decent](https://www.ycombinator.com/companies/decent-com)
+
+- `one_liner`: Continuous optimization for employer health plans. → Your health plan should get better year-round. Not just once a year.
+- `tags`: AIOps,Fintech,Health Tech,B2B,Health Insurance → Artificial Intelligence,Fintech,Health Tech,B2B,Health Insurance
