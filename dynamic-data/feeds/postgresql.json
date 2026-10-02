@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-10-01T18:05:17.762Z",
+  "updatedAt": "2026-10-02T04:19:24.663Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -2169,7 +2169,23 @@
       "summary": "Two BM25 optimizations and benchmark configuration changes inspired by PlanetScale's TIN benchmarks make ParadeDB's text search faster without changing its document identifiers.",
       "author": null,
       "publishedAt": "2026-10-01T12:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9wJ",
+      "title": "Christophe Pettus: All Your GUCs in a Row: md5_password_warnings",
+      "link": "https://postgr.es/p/9wJ",
+      "summary": "PostgreSQL 18 added md5_password_warnings to suppress deprecation notices about MD5 passwords—but it only warns when setting them, not when using them.",
+      "author": null,
+      "publishedAt": "2026-10-02T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9wI",
+      "title": "Greg Nancarrow: How to integrate JFrog Artifactory with Fujitsu Enterprise Postgres",
+      "link": "https://postgr.es/p/9wI",
+      "summary": "In this post, I walk through integrating JFrog Artifactory with Fujitsu Enterprise Postgres and using Transparent Data Encryption to encrypt the Artifactory metadata stored in the database.",
+      "author": null,
+      "publishedAt": "2026-10-02T00:30:00.000Z"
     }
   ],
-  "totalIndexed": 270
+  "totalIndexed": 272
 }

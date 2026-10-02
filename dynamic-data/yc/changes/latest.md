@@ -1,61 +1,63 @@
-# YC Company Changes for 2026-10-01
+# YC Company Changes for 2026-10-02
 
-- Previous total: 6268
+- Previous total: 6267
 - Current total: 6267
 - Added: 0
-- Removed: 1
-- Updated: 9
+- Removed: 0
+- Updated: 11
 
-
-## Removed Companies
-
-- qomplement (Spring 2026)
 
 ## Updated Companies
 
-### [KorrAI](https://www.ycombinator.com/companies/korrai)
+### [Elevate (formerly Bloom)](https://www.ycombinator.com/companies/elevate)
 
-- `team_size`: 24 → 20
-- `tags`: Artificial Intelligence,Construction,Insurance,Mining → Artificial Intelligence,Climate,Mining
+- `isHiring`: true → false
 
-### [Upstream](https://www.ycombinator.com/companies/upstream)
+### [Lingo.dev](https://www.ycombinator.com/companies/lingodotdev)
 
-- `one_liner`: The first inbox designed for humans and agents → The inbox that handles itself
+- `isHiring`: true → false
 
-### [Tenet Industries](https://www.ycombinator.com/companies/tenet-industries)
+### [HUD](https://www.ycombinator.com/companies/hud)
 
-- `one_liner`: AI-automated PCB assembly factories → AI-automated factory for PCBAs
+- `one_liner`: Platform for building RL environments and evals  → Platform and marketplace for RL environments and AI data
+- `team_size`: 15 → 24
+- `tags`: Artificial Intelligence,Reinforcement Learning → Artificial Intelligence,Marketplace,Reinforcement Learning,B2B
 
-### [Runtime](https://www.ycombinator.com/companies/runtime)
+### [Velvet](https://www.ycombinator.com/companies/velvet)
 
-- `one_liner`: AI agents for financial operations → The AI agent harness for payment teams
+- `one_liner`: World model datasets and research → Conversational datasets and models
+- `tags`: Artificial Intelligence,Generative AI,Data Engineering,Conversational AI → Generative AI,Data Engineering,AI,Conversational AI
 
-### [General Context Labs](https://www.ycombinator.com/companies/general-context-labs)
+### [Ditto Biosciences](https://www.ycombinator.com/companies/ditto-biosciences)
 
-- `name`: Instaplay → General Context Labs
-- `slug`: instaplay → general-context-labs
-- `former_names`: General Context Labs → General Context Labs,Instaplay
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/f33f486af4ab2bd216ae15d9ac94f4d38738b34a.png → https://bookface-images.s3.amazonaws.com/small_logos/b5bd13525df7f105f51baa15bdb06d6c238303aa.png
-- `website`: https://instaplay.ai → https://generalcontextlabs.com
-- `one_liner`: AI-native gaming platform turning every game into an RL environment → Building Products and Datasets for Frontier Models
 - `team_size`: 3 → 4
-- `tags`: Gaming,AI → Artificial Intelligence,Gaming
 
-### [Floracene](https://www.ycombinator.com/companies/floracene)
+### [Korso](https://www.ycombinator.com/companies/korso)
+
+- `one_liner`: The last assistant you'll need → Your Capable Desktop AI Companion
+
+### [Elite](https://www.ycombinator.com/companies/elite)
+
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/43b0b3923cf1e5272885bc93999098a208c85926.png → https://bookface-images.s3.amazonaws.com/small_logos/950a2e88427ff9cd0ec85f5da8c2e8bd7d8333df.png
+- `tags`: Healthcare,AI → Artificial Intelligence,Healthcare
+
+### [Locke](https://www.ycombinator.com/companies/locke)
+
+- `one_liner`: Locke powers agentic government work. → The AI-native firm for public influence.
+- `team_size`: 2 → 3
+- `tags`: GovTech,AI → Artificial Intelligence,GovTech
+
+### [Edviro](https://www.ycombinator.com/companies/edviro)
 
 - `isHiring`: false → true
 
-### [Exosat](https://www.ycombinator.com/companies/exosat)
+### [Sigma](https://www.ycombinator.com/companies/sigma-2)
 
-- `team_size`: 1 → 3
-- `tags`: Space Exploration,Satellites,Aerospace,Telecommunications,AI → Artificial Intelligence,Space Exploration,Satellites,Aerospace,Telecommunications
+- `one_liner`: Lakehouse-as-a-Service (LaaS) for pre and post-acquisition → Lakehouse-as-a-Service (LaaS)
+- `subindustry`: B2B -> Finance and Accounting → B2B
+- `tags`: Finance,B2B,AI → Artificial Intelligence,B2B
+- `industries`: B2B,Finance and Accounting → B2B
 
-### [Denta](https://www.ycombinator.com/companies/denta)
+### [Hemlock](https://www.ycombinator.com/companies/hemlock)
 
-- `one_liner`: Dental Insurance → Dental Benefits for Startups
-- `tags`: Artificial Intelligence,Fintech,Healthcare,Health Insurance → Fintech,Healthcare,Health Insurance,AI
-
-### [Familiar](https://www.ycombinator.com/companies/familiar)
-
-- `one_liner`: Movies in Every Language. Better than Humans. → Multimodal Translation
-- `tags`: Generative AI,B2B,Entertainment,AI → Artificial Intelligence,Generative AI,B2B,Entertainment
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/f772c44a8588e4bf3012c9f219bcb8503834bddb.png → https://bookface-images.s3.amazonaws.com/small_logos/9593981f6acf78f7e8d4417ca9346aed3d279da4.png
