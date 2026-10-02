@@ -8,7 +8,7 @@
     "compiler",
     "performance"
   ],
-  "updatedAt": "2026-10-01T12:50:01.073Z",
+  "updatedAt": "2026-10-02T12:13:24.754Z",
   "items": [
     {
       "guid": "rust-blog::https://blog.rust-lang.org/2026/07/16/Rust-1.97.1/",
@@ -6033,7 +6033,15 @@
       "summary": "The Rust team is happy to announce a new version of Rust, 1.99.0. Rust is a programming language empowering everyone to build reliable and efficient software.\nIf you have a previous version of Rust installed via rustup, you can get 1.99.0 with:\n$ rustup update stable\nIf you don't have it already,…",
       "author": "The Rust Release Team",
       "publishedAt": "2026-10-01T00:00:00.000Z"
+    },
+    {
+      "guid": "rust-blog::https://blog.rust-lang.org/2026/10/02/demoting-i686-windows-targets-to-std-only/",
+      "title": "Demoting i686 Windows targets to std-only",
+      "link": "https://blog.rust-lang.org/2026/10/02/demoting-i686-windows-targets-to-std-only/",
+      "summary": "With Rust 1.100.0, the following changes to 32-bit Windows targets will happen:\ni686-pc-windows-msvc Tier 1 with host tools target will be demoted to Tier 1 without host tools.\ni686-pc-windows-gnu Tier 2 with host tools target will be demoted to Tier 2 without host tools.\nBuilds of the standard…",
+      "author": "Mateusz Mikuła, Ralf Jung",
+      "publishedAt": "2026-10-02T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 753
+  "totalIndexed": 754
 }

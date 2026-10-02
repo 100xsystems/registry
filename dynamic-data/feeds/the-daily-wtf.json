@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-10-01T12:50:13.002Z",
+  "updatedAt": "2026-10-02T12:13:36.769Z",
   "items": [
     {
       "guid": "https://thedailywtf.com/articles/classic-wtf-my-many-girlfriends",
@@ -407,7 +407,15 @@
       "summary": "Today's anonymous submitter shares with us the function their company uses to validate authentication tokens.\npublic bool IsTokenValid(string token)\n{\n    //TODO\n    return true;\n}\n\nThis is running in production. So that's fun. The user they've authenticated as is tracked separately at the start of…",
       "author": "Remy Porter",
       "publishedAt": "2026-10-01T06:30:00.000Z"
+    },
+    {
+      "guid": "https://thedailywtf.com/articles/12345",
+      "title": "Error'd: 12345",
+      "link": "https://thedailywtf.com/articles/12345",
+      "summary": "We have for you this week a full set of the Error'd we most love to hate: the perverse password policy.\n\n\nAn anonymous reader drops this, with little to say except to note \"Speciaal passwords\". \nEvidently they supplied a password which satisfied each of the five green critera, but still it was…",
+      "author": "Lyle Seaman",
+      "publishedAt": "2026-10-02T06:30:00.000Z"
     }
   ],
-  "totalIndexed": 50
+  "totalIndexed": 51
 }
