@@ -8,7 +8,7 @@
     "architecture",
     "aws"
   ],
-  "updatedAt": "2026-10-01T22:11:40.321Z",
+  "updatedAt": "2026-10-03T15:46:34.835Z",
   "items": [
     {
       "guid": "79195fa586925a9b62c134acc83bb06b7b67a778",
@@ -297,7 +297,31 @@
       "summary": "Datalex, a leader in airline ecommerce, partnered with AWS on a three-day Experience-Based Acceleration (EBA) workshop to prove modernization feasibility. Learn how they migrated a core reservation component from EJB/Java 8 to Spring Boot/Java 21, built a secure CI/CD pipeline, added observability,…",
       "author": "Kanniah Vagathupatti Jaikumar",
       "publishedAt": "2026-10-01T15:37:06.000Z"
+    },
+    {
+      "guid": "7a57e88e8494b509df8ed41d9262cd07afd2d993",
+      "title": "Deploy Oracle Database step by step on Amazon EVS with FSx for ONTAP",
+      "link": "https://aws.amazon.com/blogs/architecture/deploy-oracle-database-step-by-step-on-amazon-evs-with-fsx-for-ontap/",
+      "summary": "This post provides step-by-step procedures to deploy Oracle Database on Amazon Elastic VMware Service (Amazon EVS) with Amazon FSx for NetApp ONTAP as NFS datastore storage. You provision storage volumes, mount NFS datastores, install Oracle, and configure SnapMirror replication for cross-region…",
+      "author": "Satish Bhoi",
+      "publishedAt": "2026-10-02T17:57:15.000Z"
+    },
+    {
+      "guid": "5f1dd9f2813fb7a47d9f87475e6ac0e1297ada91",
+      "title": "Architect highly available Oracle Database on Amazon EVS and FSx for ONTAP",
+      "link": "https://aws.amazon.com/blogs/architecture/architect-highly-available-oracle-database-on-amazon-evs-and-fsx-for-ontap/",
+      "summary": "Learn how to architect a highly available Oracle Database environment on Amazon Elastic VMware Service (Amazon EVS) with Amazon FSx for NetApp ONTAP. This post covers EC2 bare metal instance selection, vSAN and FSx storage tiering, NSX networking, and SnapMirror cross-region disaster recovery for…",
+      "author": "Satish Bhoi",
+      "publishedAt": "2026-10-02T17:57:01.000Z"
+    },
+    {
+      "guid": "cbe15ece3906624c625eaa03c8397538ddd51d2a",
+      "title": "Deploy open source Regional availability tools in your VPC",
+      "link": "https://aws.amazon.com/blogs/architecture/deploy-open-source-regional-availability-tools-in-your-vpc/",
+      "summary": "Deploy AWS Regional availability data as infrastructure you own. Capability Insights for AWS runs a self-hosted dashboard in your VPC that auto-refreshes daily, and Workload Analysis narrows the catalog to the services your account actually runs, so your Regional expansion gap analysis focuses only…",
+      "author": "Stefan Janjic",
+      "publishedAt": "2026-10-02T17:50:56.000Z"
     }
   ],
-  "totalIndexed": 36
+  "totalIndexed": 39
 }
