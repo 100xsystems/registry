@@ -1,77 +1,45 @@
-# YC Company Changes for 2026-10-02
+# YC Company Changes for 2026-10-03
 
 - Previous total: 6269
 - Current total: 6269
 - Added: 0
 - Removed: 0
-- Updated: 13
+- Updated: 8
 
 
 ## Updated Companies
 
-### [Slik](https://www.ycombinator.com/companies/slik)
+### [Rome](https://www.ycombinator.com/companies/rome)
 
-- `one_liner`: Slik enables the long tail to use email outreach.  → Slik automates your sales.
-- `tags`: Marketing,Email → Artificial Intelligence,Marketing,Email
-- `demo_day_video_public`: false → true
+- `tags`: Marketplace,Logistics → Marketplace,Logistics,AI
 
-### [Fondo](https://www.ycombinator.com/companies/fondo)
+### [Bystreet](https://www.ycombinator.com/companies/bystreet)
 
-- `isHiring`: true → false
+- `one_liner`: Connect with hoteliers around the world. → Connect with hotel owners around the world.
 
-### [Curri](https://www.ycombinator.com/companies/curri)
+### [Quotain](https://www.ycombinator.com/companies/quotain)
 
-- `stage`: Growth → Early
+- `one_liner`: AI sales simulations using your real deals → AI sales roleplay built from your real deals
+- `tags`: Sales,Sales Enablement,AI → Artificial Intelligence,Sales,Sales Enablement
 
-### [Broccoli AI](https://www.ycombinator.com/companies/broccoli-ai)
-
-- `stage`: Growth → Early
-
-### [Sohar Health](https://www.ycombinator.com/companies/sohar-health)
-
-- `status`: Active → Acquired
-- `stage`: Growth → Early
-
-### [Chicory](https://www.ycombinator.com/companies/chicory)
-
-- `name`: Moonshine → Chicory
-- `slug`: moonshine → chicory
-- `former_names`:  → Moonshine
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/b168616a2e0ef551e8a1be5dfe50f9700bc903c0.png → https://bookface-images.s3.amazonaws.com/small_logos/be712cd699fd2b897b2f5250f2ff8e722cfa125f.png
-- `website`: https://usemoonshine.com → https://chicory.so
-- `one_liner`: Extending AI to interact with the real world → The platform for automated hiring and workforce decisions.
-- `tags`: Artificial Intelligence,Machine Learning → Artificial Intelligence,Developer Tools,Human Resources
-
-### [Helonic](https://www.ycombinator.com/companies/helonic)
-
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/b26a35750dbae152a692ea82c2b00bb8f78d4d9b.png → https://bookface-images.s3.amazonaws.com/small_logos/336d43aeb77b236c25b003848175a054e780ccbc.png
-
-### [The Hog](https://www.ycombinator.com/companies/the-hog)
-
-- `isHiring`: true → false
-
-### [Ressl AI](https://www.ycombinator.com/companies/ressl-ai)
+### [Visibl Semiconductors](https://www.ycombinator.com/companies/visibl-semiconductors)
 
 - `isHiring`: false → true
 
-### [GodHands](https://www.ycombinator.com/companies/godhands)
+### [Bloom](https://www.ycombinator.com/companies/trybloom)
 
-- `website`: https://godhands.dev → https://godhands.ai
-- `one_liner`: We reconstruct how employees actually work, so nothing breaks when… → Your company’s operating model, learned from the work.
+- `isHiring`: false → true
 
-### [Collar](https://www.ycombinator.com/companies/collar)
+### [Plena Health](https://www.ycombinator.com/companies/plena-health)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/9eb4e7455b35796c4972c68f65a621d21e458003.png → https://bookface-images.s3.amazonaws.com/small_logos/35110e6bdfbfbf5706627685cbb370e170ff4a03.png
-- `all_locations`: Singapore, Singapore → San Francisco, CA, USA
-- `tags`: Artificial Intelligence,Finance → Finance,AI
-- `regions`: Singapore,Southeast Asia → United States of America,America / Canada
+- `isHiring`: false → true
 
-### [Antropi Robotics](https://www.ycombinator.com/companies/antropi-robotics)
+### [RightNow](https://www.ycombinator.com/companies/rightnow)
 
-- `all_locations`: Bengaluru, KA, India → San Francisco, CA, USA
-- `regions`: India,South Asia → United States of America,America / Canada
+- `one_liner`: Enabling Model-Hardware Co-Design at Scale → Co-designing the fastest intelligence
 
-### [Decent](https://www.ycombinator.com/companies/decent-com)
+### [Sona8](https://www.ycombinator.com/companies/sona8)
 
-- `one_liner`: Continuous optimization for employer health plans. → Your health plan should get better year-round. Not just once a year.
-- `tags`: AIOps,Fintech,Health Tech,B2B,Health Insurance → Artificial Intelligence,Fintech,Health Tech,B2B,Health Insurance
+- `one_liner`: Voice agents that talk to employees enabling transformations  → Context layer for enterprise AI surveying employees with voice agents 
+- `team_size`: 4 → 5
+- `tags`: HR Tech,AI,Conversational AI → Artificial Intelligence,HR Tech,Infrastructure,Conversational AI

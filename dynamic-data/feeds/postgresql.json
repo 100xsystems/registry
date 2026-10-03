@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-10-02T21:39:13.243Z",
+  "updatedAt": "2026-10-03T04:01:40.016Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -2193,7 +2193,15 @@
       "summary": "PgBouncer 1.26.0 patches three CVEs, two triggerable without authentication.",
       "author": null,
       "publishedAt": "2026-10-02T18:30:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9wW",
+      "title": "Christophe Pettus: All Your GUCs in a Row: min_parallel_index_scan_size and min_parallel_table_scan_size",
+      "link": "https://postgr.es/p/9wW",
+      "summary": "Parallel scans need a minimum table or index size to be considered—but that minimum also sets the bottom rung of the ladder the planner climbs to decide how…",
+      "author": null,
+      "publishedAt": "2026-10-03T01:00:00.000Z"
     }
   ],
-  "totalIndexed": 273
+  "totalIndexed": 274
 }
