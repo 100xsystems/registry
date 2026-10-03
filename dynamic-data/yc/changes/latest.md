@@ -9,37 +9,36 @@
 
 ## Updated Companies
 
-### [Rome](https://www.ycombinator.com/companies/rome)
+### [Curri](https://www.ycombinator.com/companies/curri)
 
-- `tags`: Marketplace,Logistics → Marketplace,Logistics,AI
+- `stage`: Early → Growth
 
-### [Bystreet](https://www.ycombinator.com/companies/bystreet)
+### [Abatable](https://www.ycombinator.com/companies/abatable)
 
-- `one_liner`: Connect with hoteliers around the world. → Connect with hotel owners around the world.
+- `stage`: Early → Growth
 
-### [Quotain](https://www.ycombinator.com/companies/quotain)
+### [Broccoli AI](https://www.ycombinator.com/companies/broccoli-ai)
 
-- `one_liner`: AI sales simulations using your real deals → AI sales roleplay built from your real deals
-- `tags`: Sales,Sales Enablement,AI → Artificial Intelligence,Sales,Sales Enablement
+- `stage`: Early → Growth
 
-### [Visibl Semiconductors](https://www.ycombinator.com/companies/visibl-semiconductors)
+### [Firecrawl](https://www.ycombinator.com/companies/firecrawl)
+
+- `one_liner`: Give your AI agents web data and beyond. → Building the library for superintelligence.
+- `tags`: Developer Tools,Open Source,AI → Artificial Intelligence,Developer Tools,Open Source
+
+### [Sohar Health](https://www.ycombinator.com/companies/sohar-health)
+
+- `stage`: Early → Growth
+
+### [Uplift AI](https://www.ycombinator.com/companies/uplift-ai)
 
 - `isHiring`: false → true
 
-### [Bloom](https://www.ycombinator.com/companies/trybloom)
+### [tday.com](https://www.ycombinator.com/companies/tdaycom)
 
-- `isHiring`: false → true
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/245e0417e254483c5d2213e33598312271a5bbd8.png → https://bookface-images.s3.amazonaws.com/small_logos/3f0ffe6b713cd1d09640befb7d9ecff3dd9facdb.png
 
-### [Plena Health](https://www.ycombinator.com/companies/plena-health)
+### [General Context Labs](https://www.ycombinator.com/companies/general-context-labs)
 
-- `isHiring`: false → true
-
-### [RightNow](https://www.ycombinator.com/companies/rightnow)
-
-- `one_liner`: Enabling Model-Hardware Co-Design at Scale → Co-designing the fastest intelligence
-
-### [Sona8](https://www.ycombinator.com/companies/sona8)
-
-- `one_liner`: Voice agents that talk to employees enabling transformations  → Context layer for enterprise AI surveying employees with voice agents 
-- `team_size`: 4 → 5
-- `tags`: HR Tech,AI,Conversational AI → Artificial Intelligence,HR Tech,Infrastructure,Conversational AI
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/b5bd13525df7f105f51baa15bdb06d6c238303aa.png → https://bookface-images.s3.amazonaws.com/small_logos/0321fc7ea5809962e3910e985c4d9d2acbbed27a.png
+- `tags`: Artificial Intelligence,Gaming → Gaming,AI
