@@ -4,44 +4,26 @@
 - Current total: 6269
 - Added: 0
 - Removed: 0
-- Updated: 8
+- Updated: 4
 
 
 ## Updated Companies
 
-### [Lizza](https://www.ycombinator.com/companies/lizza)
+### [DeepSim, Inc.](https://www.ycombinator.com/companies/deepsim-inc)
 
-- `all_locations`: Guadalajara, Jal., Mexico; Remote → Heidelberg, BW, Germany; Guadalajara, Jal., Mexico; Remote
-- `regions`: Mexico,Latin America,Remote,Fully Remote → Germany,Mexico,Europe,Latin America,Remote,Fully Remote
+- `team_size`: 4 → 7
+- `tags`: B2B,Semiconductors,AI → Artificial Intelligence,B2B,Semiconductors
 
-### [Crimson](https://www.ycombinator.com/companies/crimson)
+### [o11](https://www.ycombinator.com/companies/o11)
 
-- `team_size`: 6 → 7
-- `tags`: SaaS,Legal,AI → Artificial Intelligence,SaaS,Legal
+- `one_liner`: The AI account manager for consumer and self-serve applications → AI account managers for consumer/self-serve apps
+- `tags`: SaaS,B2B,Customer Success,AI → Artificial Intelligence,SaaS,B2B,Customer Success
 
-### [Brickwise](https://www.ycombinator.com/companies/brickwise)
+### [Denta](https://www.ycombinator.com/companies/denta)
 
-- `team_size`: 13 → 2
-- `isHiring`: true → false
+- `one_liner`: Dental Benefits for Startups → Fortune 500 Dental Benefits for Startups
+- `tags`: Artificial Intelligence,Fintech,Healthcare,Health Insurance → Fintech,Healthcare,Health Insurance,AI
 
-### [Litmus](https://www.ycombinator.com/companies/litmus-hiring)
+### [Deploy](https://www.ycombinator.com/companies/deploy)
 
-- `all_locations`: New York City, NY, USA → San Francisco, CA, USA
-
-### [Keyframe Labs](https://www.ycombinator.com/companies/keyframe-labs)
-
-- `all_locations`: San Francisco, CA, USA → Los Angeles, CA, USA
-
-### [RASPIRE](https://www.ycombinator.com/companies/raspire)
-
-- `all_locations`: San Francisco, CA, USA → Cairo, Cairo Governorate, Egypt
-- `regions`: United States of America,America / Canada → Egypt,Middle East and North Africa
-
-### [Arlo Industries](https://www.ycombinator.com/companies/arlo-industries)
-
-- `all_locations`: San Francisco, CA, USA → New York City, NY, USA
-
-### [Markov](https://www.ycombinator.com/companies/markov)
-
-- `all_locations`: San Francisco, CA, USA → Bengaluru, KA, India
-- `regions`: United States of America,America / Canada → India,South Asia
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/9baf9dee045cc202f815dc0769d662dbd53ad269.png → https://bookface-images.s3.amazonaws.com/small_logos/6d01c6f3a4b9cb73c5468cd6441f7c93909edb6a.png
