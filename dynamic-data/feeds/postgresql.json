@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-10-03T04:01:40.016Z",
+  "updatedAt": "2026-10-04T04:34:52.849Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -2201,7 +2201,15 @@
       "summary": "Parallel scans need a minimum table or index size to be considered—but that minimum also sets the bottom rung of the ladder the planner climbs to decide how…",
       "author": null,
       "publishedAt": "2026-10-03T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9wX",
+      "title": "Christophe Pettus: All Your GUCs in a Row: min_wal_size",
+      "link": "https://postgr.es/p/9wX",
+      "summary": "`min_wal_size` sets a floor under WAL recycling, not a retention policy—confusing many operators who lose standbys when the floor causes segments to be…\n\n(I consult on PostgreSQL through PGX Inc..)",
+      "author": null,
+      "publishedAt": "2026-10-04T01:00:00.000Z"
     }
   ],
-  "totalIndexed": 274
+  "totalIndexed": 275
 }

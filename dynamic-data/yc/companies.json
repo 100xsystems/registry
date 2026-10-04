@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-03T20:25:45.398Z",
+  "fetchedAt": "2026-10-04T04:35:11.111Z",
   "count": 6269,
   "companies": [
     {
@@ -2974,14 +2974,14 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/e98a564b21ba044528e16126406d35b7464044b7.png",
       "website": "https://www.runmirrors.com",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Your agent worked fine yesterday. Today it loops, drops context, or calls a tool with the wrong arguments, and you find out from a user.\r\n\r\nTeams shipping AI agents change prompts, models, and tools constantly, and the same failures keep coming back in production: context loss, loops, broken tool calls, regressions after a refactor.\r\n\r\nMirrors learns from your agent's production traces. It captures what worked and what failed in real sessions, then delivers the fix at runtime. Instead of waiting for someone to notice a regression and patch it by hand, the fix is applied automatically, so the same error never happens twice.\r\n\r\nBuilt for teams whose agents do things they can't undo, like issuing refunds, updating customer records, or sending outbound email.",
-      "one_liner": "Fix your AI agent's errors at runtime, so they never happen twice",
+      "long_description": "Production agents handle many different customer workflows. Currently, when one handles a situation badly, an engineer reads the trace and patches the prompt. The next situation needs another exception. Soon, improving the agent becomes a recurring engineering job, and the prompt keeps growing.\r\n\r\nMirrors finds patterns in past runs and feedback. Engineers review guidance for a specific situation and preview where it would apply. Mirrors then delivers that guidance while the agent works, inside the team’s existing setup. The team can check whether the change improved the outcome.\r\n\r\nWe’re building Mirrors for engineering teams running customer-facing agents across varied workflows, so they can improve behavior without hardcoding every lesson in the global prompt.",
+      "one_liner": "Steer AI agents in real time using lessons from production runs",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
       "industry": "B2B",
-      "subindustry": "B2B -> Infrastructure",
+      "subindustry": "B2B -> Engineering, Product and Design",
       "launched_at": 1789011304,
       "tags": [
         "AIOps",
@@ -2998,7 +2998,7 @@
       "status": "Active",
       "industries": [
         "B2B",
-        "Infrastructure"
+        "Engineering, Product and Design"
       ],
       "regions": [
         "United States of America",
@@ -10944,8 +10944,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/efd3ccc04f842f9a3a1235ba1ef66aa4447fc993.png",
       "website": "https://www.guildai.co",
       "all_locations": "New York City, NY, USA",
-      "long_description": "GUILD is an AI-Native Defense contractor making aerospace parts faster and cheaper. We win defense contracts, automate manufacturing, and deliver to the government's door.",
-      "one_liner": "AI-Native Defense Contractor",
+      "long_description": "GUILD is an AI-Native Defense prime making aerospace parts faster and cheaper. We win defense contracts, automate manufacturing, and deliver to the government's door.",
+      "one_liner": "Making Defense Manufacturing Faster and Cheaper",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -10954,10 +10954,10 @@
       "subindustry": "Industrials -> Defense",
       "launched_at": 1778869862,
       "tags": [
-        "Artificial Intelligence",
         "Manufacturing",
         "Supply Chain",
-        "Defense"
+        "Defense",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -10975,7 +10975,7 @@
       ],
       "stage": "Early",
       "app_video_public": false,
-      "demo_day_video_public": false,
+      "demo_day_video_public": true,
       "app_answers": null,
       "question_answers": false,
       "url": "https://www.ycombinator.com/companies/guild"
@@ -31846,7 +31846,7 @@
       "all_locations": "Los Angeles, CA, USA",
       "long_description": "Absurd is an online whiteboard for filmmakers working with AI.\r\n\r\nWe use it for our own work: our Kalshi spot \"Election Day\" did 1M+ views, and our videos average 400K+ organic views.\r\n\r\nTry it at absurd.com",
       "one_liner": "The production canvas for AI film teams",
-      "team_size": 6,
+      "team_size": 10,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -72749,10 +72749,10 @@
       "subindustry": "Healthcare",
       "launched_at": 1715876832,
       "tags": [
+        "Artificial Intelligence",
         "Health Tech",
         "Healthcare",
         "Health Insurance",
-        "AI",
         "AI Assistant"
       ],
       "tags_highlighted": [],
@@ -136068,8 +136068,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/7d66896afcf3127a39f735586c48cd210cab0a7f.png",
       "website": "https://www.useagave.com",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "We're building the financial ops platform for construction, a $12T global industry run by software built 20-40 years ago, much of it on-prem with no APIs and no documentation.\r\n\r\nWe spent 3 years building the rails to read and write across those systems, and we use them to deploy AI for invoicing, expenses, compliance, billing, and more.\r\n\r\nWe have 500+ customers and have been profitable & cashflow positive for over two years. We're backed by Accel and Y Combinator, with investors from Procore, Autodesk, and Plaid.\r\n\r\nOur three co-founders have worked together for 12+ years, across Graphiq (acquired by Amazon in 2017) and Amazon.",
-      "one_liner": "AI Financial Operations for Construction",
+      "long_description": "Agave builds applied AI for construction, a $12T global industry run on financial software built 20-50 years ago, much of it on-prem with no APIs and no documentation.\r\n\r\nWe spent 4 years building proprietary rails that read and write across those systems. Our AI agents run on those rails and take over the back-office work contractors still do by hand: invoice matching, expenses, compliance, billing, and financial reporting. Contractors keep the systems they already use; our agents work across them.\r\n\r\n600+ contractors run on Agave, including teams building hyperscaler data centers, mass transit systems, and other critical infrastructure. We're backed by Accel and Y Combinator, who both reinvested in our $15M Series A, plus execs from Procore, Autodesk, PlanGrid, and Plaid.\r\n\r\nOur three co-founders have worked together for 12+ years, across Graphiq (acquired by Amazon in 2017) and Amazon, and started Agave in YC's W22 batch.",
+      "one_liner": "Applied AI for Construction",
       "team_size": 50,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -136078,10 +136078,10 @@
       "subindustry": "B2B",
       "launched_at": 1642541270,
       "tags": [
-        "SaaS",
         "Construction",
         "B2B",
-        "Proptech"
+        "Proptech",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
