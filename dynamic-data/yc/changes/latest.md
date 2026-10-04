@@ -4,34 +4,44 @@
 - Current total: 6269
 - Added: 0
 - Removed: 0
-- Updated: 6
+- Updated: 8
 
 
 ## Updated Companies
 
-### [Juicebox](https://www.ycombinator.com/companies/juicebox)
+### [Lizza](https://www.ycombinator.com/companies/lizza)
 
-- `stage`: Early → Growth
+- `all_locations`: Guadalajara, Jal., Mexico; Remote → Heidelberg, BW, Germany; Guadalajara, Jal., Mexico; Remote
+- `regions`: Mexico,Latin America,Remote,Fully Remote → Germany,Mexico,Europe,Latin America,Remote,Fully Remote
 
-### [Palomma](https://www.ycombinator.com/companies/palomma)
+### [Crimson](https://www.ycombinator.com/companies/crimson)
 
-- `stage`: Early → Growth
-
-### [Artisan](https://www.ycombinator.com/companies/artisan)
-
-- `tags`: Artificial Intelligence,B2B,Sales,Automation,AI Assistant → B2B,Sales,Automation,AI,AI Assistant
+- `team_size`: 6 → 7
+- `tags`: SaaS,Legal,AI → Artificial Intelligence,SaaS,Legal
 
 ### [Brickwise](https://www.ycombinator.com/companies/brickwise)
 
-- `team_size`: 2 → 13
+- `team_size`: 13 → 2
+- `isHiring`: true → false
 
-### [o11](https://www.ycombinator.com/companies/o11)
+### [Litmus](https://www.ycombinator.com/companies/litmus-hiring)
 
-- `one_liner`: The AI Data Warehouse For Financial Firms → The AI account manager for consumer and self-serve applications
-- `subindustry`: B2B -> Finance and Accounting → B2B -> Sales
-- `tags`: SaaS,Finance,B2B,AI → SaaS,B2B,Customer Success,AI
-- `industries`: B2B,Finance and Accounting → B2B,Sales
+- `all_locations`: New York City, NY, USA → San Francisco, CA, USA
 
-### [Vela](https://www.ycombinator.com/companies/vela)
+### [Keyframe Labs](https://www.ycombinator.com/companies/keyframe-labs)
 
-- `team_size`: 2 → 15
+- `all_locations`: San Francisco, CA, USA → Los Angeles, CA, USA
+
+### [RASPIRE](https://www.ycombinator.com/companies/raspire)
+
+- `all_locations`: San Francisco, CA, USA → Cairo, Cairo Governorate, Egypt
+- `regions`: United States of America,America / Canada → Egypt,Middle East and North Africa
+
+### [Arlo Industries](https://www.ycombinator.com/companies/arlo-industries)
+
+- `all_locations`: San Francisco, CA, USA → New York City, NY, USA
+
+### [Markov](https://www.ycombinator.com/companies/markov)
+
+- `all_locations`: San Francisco, CA, USA → Bengaluru, KA, India
+- `regions`: United States of America,America / Canada → India,South Asia
