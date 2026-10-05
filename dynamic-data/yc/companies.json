@@ -1,7 +1,50 @@
 {
-  "fetchedAt": "2026-10-04T20:43:51.244Z",
-  "count": 6269,
+  "fetchedAt": "2026-10-05T04:20:48.963Z",
+  "count": 6270,
   "companies": [
+    {
+      "id": 38589,
+      "name": "Keres",
+      "slug": "keres",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/d410d4ceb3965f8c5b5e653e10007865ff03aaf9.png",
+      "website": "https://www.keresaero.com/",
+      "all_locations": "Denver, CO, USA",
+      "long_description": "Keres builds reusable unmanned jet interceptors for air defense. The Garmur launches on cue, closes at jet speed, positively identifies and kills drones and cruise missiles, then lands to fly again. It gives commanders a fighter-class response at a fraction of the cost.",
+      "one_liner": "Kill the drone, keep the jet. Reusable unmanned interceptors.",
+      "team_size": 3,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "Industrials",
+      "subindustry": "Industrials -> Defense",
+      "launched_at": 1791171647,
+      "tags": [
+        "Airplanes",
+        "Aerospace",
+        "Defense"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Fall 2026",
+      "status": "Active",
+      "industries": [
+        "Industrials",
+        "Defense"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/keres"
+    },
     {
       "id": 38492,
       "name": "Mantle",
@@ -11228,7 +11271,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": false,
+      "isHiring": true,
       "nonprofit": false,
       "batch": "Summer 2026",
       "status": "Active",
@@ -34186,7 +34229,7 @@
       ],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/524a578009f692a6daadfe853089aabd437361d4.png",
       "website": "https://sf-tensor.com",
-      "all_locations": "",
+      "all_locations": "San Francisco, CA, USA",
       "long_description": "AI researchers should be pushing the boundaries of what's possible with new architectures and training methods. Instead, they waste weeks configuring cloud infrastructure, debugging distributed systems, and optimizing their GPU code. We know because we lived it: While training our own models across thousands of GPUs earlier this year, we spent more time fighting our infrastructure than doing actual research.\r\n\r\nThat's why we're building two things. First, Elastic Cloud: a managed platform that automatically finds the cheapest GPUs across all providers, handles spot instance preemption, and cuts compute costs by up to 80%. Second, automatic kernel optimization that makes training code run faster by modeling hardware topology, often beating hand-tuned implementations.\r\n\r\nThe problem is that getting high performance across different hardware is genuinely hard. NVIDIA's CUDA moat exists because writing fast kernels requires deep expertise. Most teams either accept vendor lock-in or hire expensive kernel engineers. Our goal is to break the CUDA moat.\r\n\r\nThe compute bottleneck is the biggest constraint on AI progress. NVIDIA can't manufacture enough GPUs, and their monopoly keeps prices astronomical. Meanwhile, AMD, Google, and Amazon are shipping capable alternative hardware that nobody uses because the software is too hard. We're breaking that moat. If we succeed, anyone will be able to train state-of-the-art models without thinking past their PyTorch code.",
       "one_liner": "Infrastructure for AI labs to focus on research.",
       "team_size": 6,
@@ -34208,7 +34251,8 @@
         "Infrastructure"
       ],
       "regions": [
-        "Unspecified"
+        "United States of America",
+        "America / Canada"
       ],
       "stage": "Early",
       "app_video_public": false,
@@ -54317,7 +54361,7 @@
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Asteroid is the AI-powered integration layer for healthcare. One connector for EHRs, payer portals, and legacy desktop systems, with 100+ pre-built integrations that go live in days, not months. Built for developers and operations teams, with integrations that maintain themselves.",
       "one_liner": "The integration layer for healthcare: EHRs, payer portals & more ",
-      "team_size": 8,
+      "team_size": 6,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -54325,15 +54369,15 @@
       "subindustry": "B2B",
       "launched_at": 1734639467,
       "tags": [
-        "Artificial Intelligence",
         "Robotic Process Automation",
         "Health Tech",
         "B2B",
-        "Automation"
+        "Automation",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": false,
+      "isHiring": true,
       "nonprofit": false,
       "batch": "Winter 2025",
       "status": "Active",
@@ -54765,7 +54809,7 @@
       "tags": [],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": false,
+      "isHiring": true,
       "nonprofit": false,
       "batch": "Winter 2025",
       "status": "Active",
@@ -57951,7 +57995,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": false,
+      "isHiring": true,
       "nonprofit": false,
       "batch": "Fall 2024",
       "status": "Active",
@@ -58508,25 +58552,26 @@
     },
     {
       "id": 30110,
-      "name": "Forerunner AI",
-      "slug": "forerunner-ai",
-      "former_names": [],
+      "name": "Forerunner",
+      "slug": "forerunner",
+      "former_names": [
+        "Forerunner AI"
+      ],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/683490b8ed63456c153999da3c193d23b5d08e78.png",
       "website": "https://tryforerunner.com",
-      "all_locations": "San Francisco, CA, USA",
-      "long_description": "Forerunner is the AI-powered platform for aircraft maintenance, repair, and overhaul.",
-      "one_liner": "AI that gets aircraft flying faster",
+      "all_locations": "Los Angeles, CA, USA",
+      "long_description": "Forerunner is an AI-native factory building precision bent-tubes for aerospace, defense, energy, and industrials.",
+      "one_liner": "Quick-turn bent tube shop for aerospace, energy, industrials",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
       "industry": "Industrials",
-      "subindustry": "Industrials -> Aviation and Space",
+      "subindustry": "Industrials -> Manufacturing and Robotics",
       "launched_at": 1730181783,
       "tags": [
-        "Airlines",
-        "Aerospace",
-        "AI"
+        "Manufacturing",
+        "Aerospace"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -58536,7 +58581,7 @@
       "status": "Active",
       "industries": [
         "Industrials",
-        "Aviation and Space"
+        "Manufacturing and Robotics"
       ],
       "regions": [
         "United States of America",
@@ -58547,7 +58592,7 @@
       "demo_day_video_public": false,
       "app_answers": null,
       "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/forerunner-ai"
+      "url": "https://www.ycombinator.com/companies/forerunner"
     },
     {
       "id": 30109,
@@ -98813,7 +98858,7 @@
       "former_names": [],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/412a6b3ef532664df77532bc5d7ae3c1233de965.png",
       "website": "https://usepylon.com/?utm_source=bookface&utm_medium=referral&utm_campaign=pylon-profile",
-      "all_locations": "Bridgeton, MO, USA",
+      "all_locations": "San Francisco, CA, USA",
       "long_description": "Pylon is the only agentic support platform, purpose-built for B2B companies. For leaders scaling AI-native support teams, Pylon lets humans and agents collaborate on customer work – investigating, resolving, and acting on every signal across every channel that matters.\r\n\r\nUnlike platforms built before the AI era, Pylon enriches every interaction with deep account-level context, automates the low impact customer work, and surfaces answers before your team even has to ask. The result: faster responses, happier customers, and a system that continuously improves itself.\r\n\r\nHundreds of fast-growing YC companies of all sizes like Retool, Hightouch, and Deel use Pylon to manage their customers.\r\n\r\nLearn more at usepylon.com",
       "one_liner": "The Agentic Support Platform purpose-built for B2B.",
       "team_size": 120,
@@ -98824,10 +98869,10 @@
       "subindustry": "B2B -> Operations",
       "launched_at": 1676268747,
       "tags": [
+        "Artificial Intelligence",
         "B2B",
         "Customer Success",
-        "Customer Support",
-        "AI"
+        "Customer Support"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -206164,7 +206209,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": false,
+      "isHiring": true,
       "nonprofit": false,
       "batch": "Winter 2019",
       "status": "Active",

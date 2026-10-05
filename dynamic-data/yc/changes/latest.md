@@ -1,29 +1,57 @@
-# YC Company Changes for 2026-10-04
+# YC Company Changes for 2026-10-05
 
 - Previous total: 6269
-- Current total: 6269
-- Added: 0
+- Current total: 6270
+- Added: 1
 - Removed: 0
-- Updated: 4
+- Updated: 8
 
+
+## Added Companies
+
+- [Keres](https://www.ycombinator.com/companies/keres) (Fall 2026) — Kill the drone, keep the jet. Reusable unmanned interceptors.
 
 ## Updated Companies
 
-### [DeepSim, Inc.](https://www.ycombinator.com/companies/deepsim-inc)
+### [Centaur](https://www.ycombinator.com/companies/centaur)
 
-- `team_size`: 4 → 7
-- `tags`: B2B,Semiconductors,AI → Artificial Intelligence,B2B,Semiconductors
+- `isHiring`: false → true
 
-### [o11](https://www.ycombinator.com/companies/o11)
+### [Pylon](https://www.ycombinator.com/companies/pylon-2)
 
-- `one_liner`: The AI account manager for consumer and self-serve applications → AI account managers for consumer/self-serve apps
-- `tags`: SaaS,B2B,Customer Success,AI → Artificial Intelligence,SaaS,B2B,Customer Success
+- `all_locations`: Bridgeton, MO, USA → San Francisco, CA, USA
+- `tags`: B2B,Customer Success,Customer Support,AI → Artificial Intelligence,B2B,Customer Success,Customer Support
 
-### [Denta](https://www.ycombinator.com/companies/denta)
+### [Forerunner](https://www.ycombinator.com/companies/forerunner)
 
-- `one_liner`: Dental Benefits for Startups → Fortune 500 Dental Benefits for Startups
-- `tags`: Artificial Intelligence,Fintech,Healthcare,Health Insurance → Fintech,Healthcare,Health Insurance,AI
+- `name`: Forerunner AI → Forerunner
+- `slug`: forerunner-ai → forerunner
+- `former_names`:  → Forerunner AI
+- `all_locations`: San Francisco, CA, USA → Los Angeles, CA, USA
+- `one_liner`: AI that gets aircraft flying faster → Quick-turn bent tube shop for aerospace, energy, industrials
+- `subindustry`: Industrials -> Aviation and Space → Industrials -> Manufacturing and Robotics
+- `tags`: Airlines,Aerospace,AI → Manufacturing,Aerospace
+- `industries`: Industrials,Aviation and Space → Industrials,Manufacturing and Robotics
 
-### [Deploy](https://www.ycombinator.com/companies/deploy)
+### [Loombotic](https://www.ycombinator.com/companies/loombotic)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/9baf9dee045cc202f815dc0769d662dbd53ad269.png → https://bookface-images.s3.amazonaws.com/small_logos/6d01c6f3a4b9cb73c5468cd6441f7c93909edb6a.png
+- `isHiring`: false → true
+
+### [HealthKey](https://www.ycombinator.com/companies/healthkey)
+
+- `isHiring`: false → true
+
+### [Asteroid](https://www.ycombinator.com/companies/asteroid)
+
+- `team_size`: 8 → 6
+- `tags`: Artificial Intelligence,Robotic Process Automation,Health Tech,B2B,Automation → Robotic Process Automation,Health Tech,B2B,Automation,AI
+- `isHiring`: false → true
+
+### [SF Tensor](https://www.ycombinator.com/companies/sf-tensor)
+
+- `all_locations`:  → San Francisco, CA, USA
+- `regions`: Unspecified → United States of America,America / Canada
+
+### [IMPACT Drones](https://www.ycombinator.com/companies/impact-drones)
+
+- `isHiring`: false → true

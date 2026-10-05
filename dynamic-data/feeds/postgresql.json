@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-10-04T04:34:52.849Z",
+  "updatedAt": "2026-10-05T04:20:30.064Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -2209,7 +2209,15 @@
       "summary": "`min_wal_size` sets a floor under WAL recycling, not a retention policy—confusing many operators who lose standbys when the floor causes segments to be…\n\n(I consult on PostgreSQL through PGX Inc..)",
       "author": null,
       "publishedAt": "2026-10-04T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9wZ",
+      "title": "Christophe Pettus: All Your GUCs in a Row: multixact_member_buffers and multixact_offset_buffers",
+      "link": "https://postgr.es/p/9wZ",
+      "summary": "When one long transaction holds row locks on thousands of parents, multixact cache misses can tank insert throughput.\n\n(I consult on PostgreSQL through PGX Inc..)",
+      "author": null,
+      "publishedAt": "2026-10-05T01:00:00.000Z"
     }
   ],
-  "totalIndexed": 275
+  "totalIndexed": 276
 }
