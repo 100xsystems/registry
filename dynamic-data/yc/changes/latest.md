@@ -1,57 +1,50 @@
 # YC Company Changes for 2026-10-05
 
-- Previous total: 6269
-- Current total: 6270
+- Previous total: 6270
+- Current total: 6271
 - Added: 1
 - Removed: 0
-- Updated: 8
+- Updated: 7
 
 
 ## Added Companies
 
-- [Keres](https://www.ycombinator.com/companies/keres) (Fall 2026) — Kill the drone, keep the jet. Reusable unmanned interceptors.
+- [Melty](https://www.ycombinator.com/companies/melty-gg) (Fall 2026) — Mashup any game
 
 ## Updated Companies
 
-### [Centaur](https://www.ycombinator.com/companies/centaur)
+### [Serna Bio](https://www.ycombinator.com/companies/serna-bio)
 
+- `all_locations`: Ontario, CA, USA; Remote → San Francisco, CA, USA
+- `regions`: United States of America,America / Canada,Remote,Fully Remote → United States of America,America / Canada,Remote,Partly Remote
+
+### [Humance](https://www.ycombinator.com/companies/humance)
+
+- `all_locations`: Remote → Seoul, Seoul, South Korea; Remote
+- `regions`: Remote,Fully Remote → South Korea,East Asia,Remote,Fully Remote
+
+### [WhiteLab Genomics](https://www.ycombinator.com/companies/whitelab-genomics)
+
+- `all_locations`: Paris, Île-de-France, France; Boston, MA, USA → Paris, Île-de-France, France
+- `tags`: Artificial Intelligence,Gene Therapy,Cell Therapy,Genomics → Gene Therapy,Cell Therapy,Genomics,AI
+- `regions`: France,United States of America,Europe,America / Canada,Remote,Partly Remote → France,Europe,Remote,Partly Remote
+
+### [Soff](https://www.ycombinator.com/companies/soff)
+
+- `stage`: Early → Growth
+
+### [Brickwise](https://www.ycombinator.com/companies/brickwise)
+
+- `team_size`: 2 → 13
 - `isHiring`: false → true
 
-### [Pylon](https://www.ycombinator.com/companies/pylon-2)
+### [Trelium](https://www.ycombinator.com/companies/trelium)
 
-- `all_locations`: Bridgeton, MO, USA → San Francisco, CA, USA
-- `tags`: B2B,Customer Success,Customer Support,AI → Artificial Intelligence,B2B,Customer Success,Customer Support
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/b0c983ddfd3fa9bc66481090e877261b8325bea1.png → https://bookface-images.s3.amazonaws.com/small_logos/4cf7ff003fba8201e539d2872cb8344bd10cf9b4.png
+- `one_liner`: The Agent to Build Your Agents → AI Agents for Enterprise Wide Operations
+- `team_size`: 6 → 11
+- `tags`: B2B,Workflow Automation,AI → Artificial Intelligence,B2B,Workflow Automation,Enterprise Software
 
-### [Forerunner](https://www.ycombinator.com/companies/forerunner)
+### [Vexo](https://www.ycombinator.com/companies/vexo)
 
-- `name`: Forerunner AI → Forerunner
-- `slug`: forerunner-ai → forerunner
-- `former_names`:  → Forerunner AI
-- `all_locations`: San Francisco, CA, USA → Los Angeles, CA, USA
-- `one_liner`: AI that gets aircraft flying faster → Quick-turn bent tube shop for aerospace, energy, industrials
-- `subindustry`: Industrials -> Aviation and Space → Industrials -> Manufacturing and Robotics
-- `tags`: Airlines,Aerospace,AI → Manufacturing,Aerospace
-- `industries`: Industrials,Aviation and Space → Industrials,Manufacturing and Robotics
-
-### [Loombotic](https://www.ycombinator.com/companies/loombotic)
-
-- `isHiring`: false → true
-
-### [HealthKey](https://www.ycombinator.com/companies/healthkey)
-
-- `isHiring`: false → true
-
-### [Asteroid](https://www.ycombinator.com/companies/asteroid)
-
-- `team_size`: 8 → 6
-- `tags`: Artificial Intelligence,Robotic Process Automation,Health Tech,B2B,Automation → Robotic Process Automation,Health Tech,B2B,Automation,AI
-- `isHiring`: false → true
-
-### [SF Tensor](https://www.ycombinator.com/companies/sf-tensor)
-
-- `all_locations`:  → San Francisco, CA, USA
-- `regions`: Unspecified → United States of America,America / Canada
-
-### [IMPACT Drones](https://www.ycombinator.com/companies/impact-drones)
-
-- `isHiring`: false → true
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/f84f5f591774f936621b20e46974eb630302aa68.png → https://bookface-images.s3.amazonaws.com/small_logos/16f5a22fcf5a6680c6393b3e9a8d4a4c477c2f10.png

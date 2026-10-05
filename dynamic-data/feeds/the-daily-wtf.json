@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-10-02T12:13:36.769Z",
+  "updatedAt": "2026-10-05T14:10:11.515Z",
   "items": [
     {
       "guid": "https://thedailywtf.com/articles/classic-wtf-my-many-girlfriends",
@@ -415,7 +415,15 @@
       "summary": "We have for you this week a full set of the Error'd we most love to hate: the perverse password policy.\n\n\nAn anonymous reader drops this, with little to say except to note \"Speciaal passwords\". \nEvidently they supplied a password which satisfied each of the five green critera, but still it was…",
       "author": "Lyle Seaman",
       "publishedAt": "2026-10-02T06:30:00.000Z"
+    },
+    {
+      "guid": "https://thedailywtf.com/articles/the-date-and-time-and-time",
+      "title": "CodeSOD: The Date and Time and Time",
+      "link": "https://thedailywtf.com/articles/the-date-and-time-and-time",
+      "summary": "Today's anonymous submitter sends us some legacy Java code.\nThe task is this: check what time it is. And fortunately, even in the older Java datetime libraries that were terrible, this was an easy task. You just needed to do something like new Date(), which constructs a date time object set to the…",
+      "author": "Remy Porter",
+      "publishedAt": "2026-10-05T06:30:00.000Z"
     }
   ],
-  "totalIndexed": 51
+  "totalIndexed": 52
 }

@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-10-05T04:20:30.064Z",
+  "updatedAt": "2026-10-05T14:09:59.171Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -2217,7 +2217,15 @@
       "summary": "When one long transaction holds row locks on thousands of parents, multixact cache misses can tank insert throughput.\n\n(I consult on PostgreSQL through PGX Inc..)",
       "author": null,
       "publishedAt": "2026-10-05T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9w-",
+      "title": "Cornelia Biacsics: Contributions for week 39",
+      "link": "https://postgr.es/p/9w-",
+      "summary": "On 29 September, the PostgreSQL Usergroup NL met, organized by Gerard Zuidweg and Sebastiaan Mannem \nSpeakers: \nPeter Lengkeek \nEllert Van Koperen\nJan Karremans\nThe Postgres US Summit 2026 was held from 30 September to 2 October.\nOrganizers: \nMark Wong\nMichael Alan Brewer\nMila Zhou\nChelsea Dole\nPat…",
+      "author": null,
+      "publishedAt": "2026-10-05T06:08:06.000Z"
     }
   ],
-  "totalIndexed": 276
+  "totalIndexed": 277
 }
