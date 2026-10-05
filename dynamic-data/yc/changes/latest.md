@@ -1,50 +1,119 @@
 # YC Company Changes for 2026-10-05
 
-- Previous total: 6270
-- Current total: 6271
-- Added: 1
-- Removed: 0
-- Updated: 7
+- Previous total: 6271
+- Current total: 6272
+- Added: 2
+- Removed: 1
+- Updated: 19
 
 
 ## Added Companies
 
-- [Melty](https://www.ycombinator.com/companies/melty-gg) (Fall 2026) — Mashup any game
+- [Operon](https://www.ycombinator.com/companies/operon) (Summer 2026) — Agentic data layer for manufacturing & process industries. 
+- [Ploid](https://www.ycombinator.com/companies/ploid) (Fall 2026) — The people data company for the agent era
+
+## Removed Companies
+
+- Vendo (Summer 2026)
 
 ## Updated Companies
 
-### [Serna Bio](https://www.ycombinator.com/companies/serna-bio)
+### [Parakey](https://www.ycombinator.com/companies/parakey)
 
-- `all_locations`: Ontario, CA, USA; Remote → San Francisco, CA, USA
-- `regions`: United States of America,America / Canada,Remote,Fully Remote → United States of America,America / Canada,Remote,Partly Remote
+- `batch`: Summer 2005 → Winter 2007
 
-### [Humance](https://www.ycombinator.com/companies/humance)
+### [UpEquity](https://www.ycombinator.com/companies/upequity)
 
-- `all_locations`: Remote → Seoul, Seoul, South Korea; Remote
-- `regions`: Remote,Fully Remote → South Korea,East Asia,Remote,Fully Remote
+- `isHiring`: true → false
+
+### [Curri](https://www.ycombinator.com/companies/curri)
+
+- `stage`: Growth → Early
+
+### [Kinter](https://www.ycombinator.com/companies/kinter)
+
+- `isHiring`: true → false
+
+### [PostEra](https://www.ycombinator.com/companies/postera)
+
+- `isHiring`: false → true
+
+### [Bluelight](https://www.ycombinator.com/companies/bluelight)
+
+- `isHiring`: true → false
 
 ### [WhiteLab Genomics](https://www.ycombinator.com/companies/whitelab-genomics)
 
-- `all_locations`: Paris, Île-de-France, France; Boston, MA, USA → Paris, Île-de-France, France
-- `tags`: Artificial Intelligence,Gene Therapy,Cell Therapy,Genomics → Gene Therapy,Cell Therapy,Genomics,AI
-- `regions`: France,United States of America,Europe,America / Canada,Remote,Partly Remote → France,Europe,Remote,Partly Remote
+- `one_liner`: Unleashing the potential of DNA and RNA based therapies using AI → Unleash the potential of genomic medicine using AI
+- `team_size`: 40 → 52
+- `tags`: Gene Therapy,Cell Therapy,Genomics,AI → Artificial Intelligence,Gene Therapy,Cell Therapy,Genomics
+- `stage`: Growth → Early
 
-### [Soff](https://www.ycombinator.com/companies/soff)
+### [Malama Health](https://www.ycombinator.com/companies/malama-health)
 
-- `stage`: Early → Growth
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/cd9812690dc5fdaacde45cb51420730836439447.png → https://bookface-images.s3.amazonaws.com/small_logos/9d2943532a551a14832239d052659c01f6312821.png
+- `one_liner`: Doula-led holistic support during and after pregnancy  → Making motherhood safe, not scary
+- `team_size`: 3 → 35
 
-### [Brickwise](https://www.ycombinator.com/companies/brickwise)
+### [Artie](https://www.ycombinator.com/companies/artie)
 
-- `team_size`: 2 → 13
-- `isHiring`: false → true
+- `team_size`: 16 → 20
+- `stage`: Growth → Early
+
+### [Chicory](https://www.ycombinator.com/companies/chicory)
+
+- `tags`: Artificial Intelligence,Developer Tools,Human Resources → Developer Tools,Human Resources,AI
+
+### [Ladder](https://www.ycombinator.com/companies/ladderai)
+
+- `name`: Maive → Ladder
+- `slug`: maive → ladderai
+- `former_names`: MAIVE (Manufacturing AI Vision Engine) → MAIVE (Manufacturing AI Vision Engine),Maive
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/c8c2773604bbaf5a32094fbcb757b92f9d29a32e.png → https://bookface-images.s3.amazonaws.com/small_logos/ef4fb1ec65991d77ddde754653bbc0aac091de49.png
+- `website`: https://maive.ai → https://ladderai.com
+- `one_liner`: AI for Home Services → AI personal assistant for in-home sales
+- `tags`: Artificial Intelligence,Home Services → Artificial Intelligence,Sales,Sales Enablement,Home Services
 
 ### [Trelium](https://www.ycombinator.com/companies/trelium)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/b0c983ddfd3fa9bc66481090e877261b8325bea1.png → https://bookface-images.s3.amazonaws.com/small_logos/4cf7ff003fba8201e539d2872cb8344bd10cf9b4.png
-- `one_liner`: The Agent to Build Your Agents → AI Agents for Enterprise Wide Operations
-- `team_size`: 6 → 11
-- `tags`: B2B,Workflow Automation,AI → Artificial Intelligence,B2B,Workflow Automation,Enterprise Software
+- `tags`: Artificial Intelligence,B2B,Workflow Automation,Enterprise Software → B2B,Workflow Automation,Enterprise Software,AI
 
-### [Vexo](https://www.ycombinator.com/companies/vexo)
+### [Teaflask](https://www.ycombinator.com/companies/teaflask)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/f84f5f591774f936621b20e46974eb630302aa68.png → https://bookface-images.s3.amazonaws.com/small_logos/16f5a22fcf5a6680c6393b3e9a8d4a4c477c2f10.png
+- `name`: TakeCareOS → Teaflask
+- `slug`: takecareos → teaflask
+- `former_names`: Something Labs,Waffer → Something Labs,Waffer,TakeCareOS
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/6ae7dea18b41ec38482c8a5138befb84756ece8b.png → https://bookface-images.s3.amazonaws.com/small_logos/60aeb885d926aa8c00319dc0338da8f9a62f3786.png
+- `website`: https://takecareos.com → https://teaflask.com
+- `all_locations`: Adelaide, SA, Australia → San Francisco, CA, USA
+- `one_liner`: AI-native operating system for long term care providers → Make your product AI native by tomorrow.
+- `regions`: Australia,Oceania → United States of America,America / Canada
+
+### [Vector Legal](https://www.ycombinator.com/companies/vector-legal)
+
+- `team_size`: 7 → 9
+
+### [o11](https://www.ycombinator.com/companies/o11)
+
+- `tags`: Artificial Intelligence,SaaS,B2B,Customer Success → SaaS,B2B,Customer Success,AI
+
+### [Klarify](https://www.ycombinator.com/companies/klarify)
+
+- `team_size`: 4 → 3
+- `isHiring`: false → true
+- `regions`: United States of America,America / Canada → United States of America,America / Canada,Remote,Partly Remote
+
+### [GodHands](https://www.ycombinator.com/companies/godhands)
+
+- `tags`: Enterprise,Operations → B2B,Enterprise,Operations
+
+### [Hubble](https://www.ycombinator.com/companies/hubble-ai)
+
+- `isHiring`: false → true
+
+### [Open Actuation](https://www.ycombinator.com/companies/open-actuation)
+
+- `name`: Pendulum Robotics → Open Actuation
+- `slug`: pendulum-robotics → open-actuation
+- `former_names`:  → Pendulum Robotics
+- `website`: https://pendulumrobotics.com → https://openactuation.com
