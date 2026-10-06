@@ -1,119 +1,56 @@
-# YC Company Changes for 2026-10-05
+# YC Company Changes for 2026-10-06
 
-- Previous total: 6271
-- Current total: 6272
+- Previous total: 6272
+- Current total: 6274
 - Added: 2
-- Removed: 1
-- Updated: 19
+- Removed: 0
+- Updated: 8
 
 
 ## Added Companies
 
-- [Operon](https://www.ycombinator.com/companies/operon) (Summer 2026) — Agentic data layer for manufacturing & process industries. 
-- [Ploid](https://www.ycombinator.com/companies/ploid) (Fall 2026) — The people data company for the agent era
-
-## Removed Companies
-
-- Vendo (Summer 2026)
+- [Latent](https://www.ycombinator.com/companies/trylatent) (Fall 2026) — Catch wrong LLM answers before your customers do
+- [Acyclic Labs](https://www.ycombinator.com/companies/acyclic) (Fall 2026) — building infra for scaling agent swarms efficiently
 
 ## Updated Companies
 
-### [Parakey](https://www.ycombinator.com/companies/parakey)
+### [Onlook](https://www.ycombinator.com/companies/onlook)
 
-- `batch`: Summer 2005 → Winter 2007
+- `one_liner`: Cursor for Designers → The Developer tool for Designers
+- `tags`: Artificial Intelligence,Developer Tools,Design,Design Tools → Developer Tools,Design,Design Tools,AI
 
-### [UpEquity](https://www.ycombinator.com/companies/upequity)
+### [Normal](https://www.ycombinator.com/companies/normal)
 
-- `isHiring`: true → false
+- `website`: https://www.normalfactory.com/ → https://www.normal.ai
+- `one_liner`: Testing and certifying the hardware of the future → Applied research lab for hardware design
+- `team_size`: 2 → 4
+- `tags`: Artificial Intelligence,Hardware,Manufacturing,Industrial → Hardware,Manufacturing,AI,Industrial
 
-### [Curri](https://www.ycombinator.com/companies/curri)
+### [Captain](https://www.ycombinator.com/companies/captain)
 
-- `stage`: Growth → Early
+- `one_liner`: Self-tuning file search for AI agents → Self-tuning search for products and files
+- `tags`: B2B,API,Data Engineering,Infrastructure → B2B,API,Data Engineering,Search,Infrastructure
 
-### [Kinter](https://www.ycombinator.com/companies/kinter)
+### [Corvera](https://www.ycombinator.com/companies/corvera)
 
-- `isHiring`: true → false
+- `one_liner`: The AI sales engine for CPG brands → The AI sales agent for CPG brands
+- `tags`: Artificial Intelligence,SaaS,Consumer,B2B,Data Engineering → SaaS,Consumer,B2B,Data Engineering,AI
 
-### [PostEra](https://www.ycombinator.com/companies/postera)
+### [Belvedir](https://www.ycombinator.com/companies/belvedir)
 
-- `isHiring`: false → true
+- `one_liner`: Your custom AI model factory → The custom AI model factory
+- `team_size`: 1 → 2
+- `tags`: Artificial Intelligence,Machine Learning → Machine Learning,Reinforcement Learning,AI
 
-### [Bluelight](https://www.ycombinator.com/companies/bluelight)
+### [Riften](https://www.ycombinator.com/companies/riften)
 
-- `isHiring`: true → false
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/4422075ddefbe2da912fc68b24148bca53aaa5b6.png → https://bookface-images.s3.amazonaws.com/small_logos/d3c58cea1afce06f81a0352c8f3ecc8554d707c7.png
+- `tags`: Developer Tools,Reinforcement Learning,Open Source,Infrastructure,AI → Developer Tools,Reinforcement Learning,Infrastructure,AI
 
-### [WhiteLab Genomics](https://www.ycombinator.com/companies/whitelab-genomics)
+### [TrueMile](https://www.ycombinator.com/companies/truemile)
 
-- `one_liner`: Unleashing the potential of DNA and RNA based therapies using AI → Unleash the potential of genomic medicine using AI
-- `team_size`: 40 → 52
-- `tags`: Gene Therapy,Cell Therapy,Genomics,AI → Artificial Intelligence,Gene Therapy,Cell Therapy,Genomics
-- `stage`: Growth → Early
+- `one_liner`: AI agents that run trucking operations. → An AI-operated logistics company.
 
-### [Malama Health](https://www.ycombinator.com/companies/malama-health)
+### [Clean](https://www.ycombinator.com/companies/clean)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/cd9812690dc5fdaacde45cb51420730836439447.png → https://bookface-images.s3.amazonaws.com/small_logos/9d2943532a551a14832239d052659c01f6312821.png
-- `one_liner`: Doula-led holistic support during and after pregnancy  → Making motherhood safe, not scary
-- `team_size`: 3 → 35
-
-### [Artie](https://www.ycombinator.com/companies/artie)
-
-- `team_size`: 16 → 20
-- `stage`: Growth → Early
-
-### [Chicory](https://www.ycombinator.com/companies/chicory)
-
-- `tags`: Artificial Intelligence,Developer Tools,Human Resources → Developer Tools,Human Resources,AI
-
-### [Ladder](https://www.ycombinator.com/companies/ladderai)
-
-- `name`: Maive → Ladder
-- `slug`: maive → ladderai
-- `former_names`: MAIVE (Manufacturing AI Vision Engine) → MAIVE (Manufacturing AI Vision Engine),Maive
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/c8c2773604bbaf5a32094fbcb757b92f9d29a32e.png → https://bookface-images.s3.amazonaws.com/small_logos/ef4fb1ec65991d77ddde754653bbc0aac091de49.png
-- `website`: https://maive.ai → https://ladderai.com
-- `one_liner`: AI for Home Services → AI personal assistant for in-home sales
-- `tags`: Artificial Intelligence,Home Services → Artificial Intelligence,Sales,Sales Enablement,Home Services
-
-### [Trelium](https://www.ycombinator.com/companies/trelium)
-
-- `tags`: Artificial Intelligence,B2B,Workflow Automation,Enterprise Software → B2B,Workflow Automation,Enterprise Software,AI
-
-### [Teaflask](https://www.ycombinator.com/companies/teaflask)
-
-- `name`: TakeCareOS → Teaflask
-- `slug`: takecareos → teaflask
-- `former_names`: Something Labs,Waffer → Something Labs,Waffer,TakeCareOS
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/6ae7dea18b41ec38482c8a5138befb84756ece8b.png → https://bookface-images.s3.amazonaws.com/small_logos/60aeb885d926aa8c00319dc0338da8f9a62f3786.png
-- `website`: https://takecareos.com → https://teaflask.com
-- `all_locations`: Adelaide, SA, Australia → San Francisco, CA, USA
-- `one_liner`: AI-native operating system for long term care providers → Make your product AI native by tomorrow.
-- `regions`: Australia,Oceania → United States of America,America / Canada
-
-### [Vector Legal](https://www.ycombinator.com/companies/vector-legal)
-
-- `team_size`: 7 → 9
-
-### [o11](https://www.ycombinator.com/companies/o11)
-
-- `tags`: Artificial Intelligence,SaaS,B2B,Customer Success → SaaS,B2B,Customer Success,AI
-
-### [Klarify](https://www.ycombinator.com/companies/klarify)
-
-- `team_size`: 4 → 3
-- `isHiring`: false → true
-- `regions`: United States of America,America / Canada → United States of America,America / Canada,Remote,Partly Remote
-
-### [GodHands](https://www.ycombinator.com/companies/godhands)
-
-- `tags`: Enterprise,Operations → B2B,Enterprise,Operations
-
-### [Hubble](https://www.ycombinator.com/companies/hubble-ai)
-
-- `isHiring`: false → true
-
-### [Open Actuation](https://www.ycombinator.com/companies/open-actuation)
-
-- `name`: Pendulum Robotics → Open Actuation
-- `slug`: pendulum-robotics → open-actuation
-- `former_names`:  → Pendulum Robotics
-- `website`: https://pendulumrobotics.com → https://openactuation.com
+- `website`: http://tryclean.ai → http://www.tryclean.ai

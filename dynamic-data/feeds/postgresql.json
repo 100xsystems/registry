@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-10-05T23:31:48.455Z",
+  "updatedAt": "2026-10-06T05:08:22.877Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -2241,7 +2241,23 @@
       "summary": "pgvector 0.8.7 fixes CVE-2026-103484: a database user who can create an IVFFlat index can write out of bounds in the backend, which can lead to arbitrary code execution. Every version through 0.8.6 is affected. Upgrade.\nThat part is simple. Two other parts are not: who can actually reach the bug,……",
       "author": null,
       "publishedAt": "2026-10-05T15:45:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9x2",
+      "title": "Christophe Pettus: All Your GUCs in a Row: notify_buffers",
+      "link": "https://postgr.es/p/9x2",
+      "summary": "The `notify_buffers` GUC tunes a 128kB cache for PostgreSQL's LISTEN/NOTIFY queue—and almost never matters.\n\n(I consult on PostgreSQL through PGX Inc..)",
+      "author": null,
+      "publishedAt": "2026-10-06T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9x1",
+      "title": "Alexander Ioffe: I ran the same query twice and Postgres disagreed with itself",
+      "link": "https://postgr.es/p/9x1",
+      "summary": "Two EXPLAIN ANALYZE runs on statistically identical data produced opposite plans, 73 heap blocks against 3,449. The margin was 1.5%. Here's the mechanism, measured with ExoBench, and the index shape that takes the coin out of the planner's hand.",
+      "author": null,
+      "publishedAt": "2026-10-06T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 279
+  "totalIndexed": 281
 }
