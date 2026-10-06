@@ -1,76 +1,55 @@
 # YC Company Changes for 2026-10-06
 
-- Previous total: 6274
-- Current total: 6276
-- Added: 2
+- Previous total: 6276
+- Current total: 6277
+- Added: 1
 - Removed: 0
-- Updated: 13
+- Updated: 9
 
 
 ## Added Companies
 
-- [Saccade](https://www.ycombinator.com/companies/saccade) (Fall 2026) — World's Earliest Test for Alzheimer's Biomarkers
-- [Preload](https://www.ycombinator.com/companies/preload) (Fall 2026) — Motor cortex for physical AI
+- [Resin Technologies](https://www.ycombinator.com/companies/resin-technologies) (Fall 2026) — Resin helps engineers design electronics faster and more reliably
 
 ## Updated Companies
 
-### [Banner](https://www.ycombinator.com/companies/banner)
+### [Backdrop](https://www.ycombinator.com/companies/backdrop)
 
-- `isHiring`: true → false
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/dcbaa3bb5c44063d7f8556a66262b6a2852f72aa.png → https://bookface-images.s3.amazonaws.com/small_logos/ef96baea5567e19f4ad9f5f92c3cb740d9f0f09f.png
+- `one_liner`: AI coworkers for running projects and operations → Building your AI coworkers for any team, workflow, or industry. 
 
-### [Signadot](https://www.ycombinator.com/companies/signadot)
+### [Axal](https://www.ycombinator.com/companies/axal)
 
-- `isHiring`: true → false
+- `one_liner`: We design, assemble, and test custom PCBs fast. → We assemble PCBs in under 48 hours for quantities under 10
 
-### [Truss](https://www.ycombinator.com/companies/truss)
+### [Lapel](https://www.ycombinator.com/companies/lapel)
 
-- `one_liner`: Banking for construction → Truss is a banking and payments network for blue-collar trades.
+- `team_size`: 15 → 14
+- `isHiring`: false → true
 
-### [GetDot](https://www.ycombinator.com/companies/getdot)
+### [Pollen](https://www.ycombinator.com/companies/pollen)
+
+- `one_liner`: AI agents that automate customer success → AI employees trained on your firm's workflows.
+
+### [ValCtrl](https://www.ycombinator.com/companies/valctrl)
+
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/1765dfae476622be6f06883ebedd8aeed86f8664.png → https://bookface-images.s3.amazonaws.com/small_logos/e3baf656ebe6d7298a56a2799b4143c1d8a6e653.png
+
+### [Molagri](https://www.ycombinator.com/companies/molagri)
 
 - `isHiring`: false → true
 
-### [Sensible Biotechnologies](https://www.ycombinator.com/companies/sensible-biotechnologies)
+### [Bryel](https://www.ycombinator.com/companies/bryel)
 
-- `team_size`: 24 → 55
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/1d6a77d9b2b1e807ae20d6e37b65cac4cbdcc89c.png → https://bookface-images.s3.amazonaws.com/small_logos/e4fc1c46193139a87be8a9d372f3ac8ccd413c42.png
+- `one_liner`: Devin for AI Research Engineering → Building in-house, frontier AI labs for companies
+- `tags`: B2B,AI → Artificial Intelligence,B2B
 
-### [Fieldproxy](https://www.ycombinator.com/companies/fieldproxy)
+### [Preload](https://www.ycombinator.com/companies/preload)
 
-- `website`: http://fieldproxy.com/ → http://fieldproxy.ai/
-- `one_liner`: Retool for 20 Million Field Teams → Building AI agents for complex operations
-- `tags`: SaaS,Productivity → Artificial Intelligence,SaaS,Productivity
+- `launched_at`: 1786749576 → 1791309539
 
-### [Linc.](https://www.ycombinator.com/companies/linc)
+### [Redoubt Insurance](https://www.ycombinator.com/companies/redoubt-insurance)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/b4dfe042d86555241f416bc157b7951897545353.png → https://bookface-images.s3.amazonaws.com/small_logos/edeb2950ef8623edd1101ecf078b8af20c07a0a8.png
-- `website`: https://www.linc-ai.com/ → https://withlinc.com
-
-### [Zaymo](https://www.ycombinator.com/companies/zaymo)
-
-- `one_liner`: Interactive email builder for ecommerce brands → Zaymo is building an AI marketing agency
-- `team_size`: 13 → 18
-- `tags`: E-commerce,Marketing,Email → E-commerce,Marketing,Email,AI
-- `demo_day_video_public`: true → false
-
-### [Soff](https://www.ycombinator.com/companies/soff)
-
-- `stage`: Growth → Early
-
-### [RentFlow](https://www.ycombinator.com/companies/rentflow)
-
-- `all_locations`: New York City, NY, USA → Miami, FL, USA
-- `isHiring`: true → false
-
-### [Conntour](https://www.ycombinator.com/companies/conntour)
-
-- `one_liner`: AI to monitor thousands of security cameras. → Query mission-critical video
-- `team_size`: 15 → 20
-- `tags`:  → Artificial Intelligence,Computer Vision,Defense
-
-### [Oki](https://www.ycombinator.com/companies/oki)
-
-- `tags`: Artificial Intelligence,Hardware,Consumer → Hardware,Consumer,AI
-
-### [Sorce](https://www.ycombinator.com/companies/sorce)
-
-- `isHiring`: true → false
+- `website`: https://www.redoubt.agency → https://www.redoubt.insure
+- `tags`: Artificial Intelligence,Insurance → Insurance,AI
