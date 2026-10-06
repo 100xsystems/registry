@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-10-06T05:08:22.877Z",
+  "updatedAt": "2026-10-06T13:06:42.077Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -2257,7 +2257,15 @@
       "summary": "Two EXPLAIN ANALYZE runs on statistically identical data produced opposite plans, 73 heap blocks against 3,449. The margin was 1.5%. Here's the mechanism, measured with ExoBench, and the index shape that takes the coin out of the planner's hand.",
       "author": null,
       "publishedAt": "2026-10-06T00:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9x3",
+      "title": "Dimitri Fontaine: Consolidating databases with Postgres logical replication",
+      "link": "https://postgr.es/p/9x3",
+      "summary": "This is part 2 of a series about Postgres logical replication use-cases,\nand about how the feature set has evolved over the past ten years and ten\nreleases, one architecture at a time.\nPart 1 built a\nhub-and-workers system for write scalability and has the table of what\neach release added, which…",
+      "author": null,
+      "publishedAt": "2026-10-06T11:45:23.000Z"
     }
   ],
-  "totalIndexed": 281
+  "totalIndexed": 282
 }

@@ -1,56 +1,39 @@
 # YC Company Changes for 2026-10-06
 
-- Previous total: 6272
+- Previous total: 6274
 - Current total: 6274
-- Added: 2
+- Added: 0
 - Removed: 0
-- Updated: 8
+- Updated: 7
 
-
-## Added Companies
-
-- [Latent](https://www.ycombinator.com/companies/trylatent) (Fall 2026) — Catch wrong LLM answers before your customers do
-- [Acyclic Labs](https://www.ycombinator.com/companies/acyclic) (Fall 2026) — building infra for scaling agent swarms efficiently
 
 ## Updated Companies
 
-### [Onlook](https://www.ycombinator.com/companies/onlook)
+### [Curri](https://www.ycombinator.com/companies/curri)
 
-- `one_liner`: Cursor for Designers → The Developer tool for Designers
-- `tags`: Artificial Intelligence,Developer Tools,Design,Design Tools → Developer Tools,Design,Design Tools,AI
+- `stage`: Early → Growth
 
-### [Normal](https://www.ycombinator.com/companies/normal)
+### [Writesonic](https://www.ycombinator.com/companies/writesonic)
 
-- `website`: https://www.normalfactory.com/ → https://www.normal.ai
-- `one_liner`: Testing and certifying the hardware of the future → Applied research lab for hardware design
-- `team_size`: 2 → 4
-- `tags`: Artificial Intelligence,Hardware,Manufacturing,Industrial → Hardware,Manufacturing,AI,Industrial
+- `isHiring`: true → false
 
-### [Captain](https://www.ycombinator.com/companies/captain)
+### [WhiteLab Genomics](https://www.ycombinator.com/companies/whitelab-genomics)
 
-- `one_liner`: Self-tuning file search for AI agents → Self-tuning search for products and files
-- `tags`: B2B,API,Data Engineering,Infrastructure → B2B,API,Data Engineering,Search,Infrastructure
+- `stage`: Early → Growth
 
-### [Corvera](https://www.ycombinator.com/companies/corvera)
+### [Artie](https://www.ycombinator.com/companies/artie)
 
-- `one_liner`: The AI sales engine for CPG brands → The AI sales agent for CPG brands
-- `tags`: Artificial Intelligence,SaaS,Consumer,B2B,Data Engineering → SaaS,Consumer,B2B,Data Engineering,AI
+- `stage`: Early → Growth
 
-### [Belvedir](https://www.ycombinator.com/companies/belvedir)
+### [Shasta Health](https://www.ycombinator.com/companies/shasta-health)
 
-- `one_liner`: Your custom AI model factory → The custom AI model factory
-- `team_size`: 1 → 2
-- `tags`: Artificial Intelligence,Machine Learning → Machine Learning,Reinforcement Learning,AI
+- `one_liner`: The last healthcare admin hire → Helping rehab practices book more patients
 
-### [Riften](https://www.ycombinator.com/companies/riften)
+### [Party](https://www.ycombinator.com/companies/party)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/4422075ddefbe2da912fc68b24148bca53aaa5b6.png → https://bookface-images.s3.amazonaws.com/small_logos/d3c58cea1afce06f81a0352c8f3ecc8554d707c7.png
-- `tags`: Developer Tools,Reinforcement Learning,Open Source,Infrastructure,AI → Developer Tools,Reinforcement Learning,Infrastructure,AI
+- `one_liner`: Secure multiplayer software factory for your whole team in minutes → Secure multiplayer workspace for teams building with agents
 
-### [TrueMile](https://www.ycombinator.com/companies/truemile)
+### [ComplyDo](https://www.ycombinator.com/companies/complydo)
 
-- `one_liner`: AI agents that run trucking operations. → An AI-operated logistics company.
-
-### [Clean](https://www.ycombinator.com/companies/clean)
-
-- `website`: http://tryclean.ai → http://www.tryclean.ai
+- `team_size`: 10 → 17
+- `tags`: B2B,Compliance,LegalTech,Cybersecurity,AI → Artificial Intelligence,B2B,Compliance,LegalTech,Cybersecurity
