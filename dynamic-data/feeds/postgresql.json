@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-10-06T13:06:42.077Z",
+  "updatedAt": "2026-10-06T17:59:06.958Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -2265,7 +2265,23 @@
       "summary": "This is part 2 of a series about Postgres logical replication use-cases,\nand about how the feature set has evolved over the past ten years and ten\nreleases, one architecture at a time.\nPart 1 built a\nhub-and-workers system for write scalability and has the table of what\neach release added, which…",
       "author": null,
       "publishedAt": "2026-10-06T11:45:23.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9x5",
+      "title": "Christophe Pettus: The Deep End",
+      "link": "https://postgr.es/p/9x5",
+      "summary": "Dive deeper into connection pooling with five more PostgreSQL poolers: Odyssey, pgagroal, Supavisor, PgDoorman, and ProxySQL, plus where your cloud already…\n\n(I consult on PostgreSQL through PGX Inc..)",
+      "author": null,
+      "publishedAt": "2026-10-06T16:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9x4",
+      "title": "Prateek Arora: I timed 179 index recommendations on real data. 18% made the query slower.",
+      "link": "https://postgr.es/p/9x4",
+      "summary": "My tool tells you things like “this index cuts the query’s cost by 91%”. Before releasing it, I\nwanted to know what that number is actually worth.\nThe tool is PgLens, a Postgres index advisor I’m\nbuilding. Like several other advisors, it checks each suggestion with HypoPG:\ncreate a hypothetical…",
+      "author": null,
+      "publishedAt": "2026-10-05T18:30:00.000Z"
     }
   ],
-  "totalIndexed": 282
+  "totalIndexed": 284
 }
