@@ -9,7 +9,7 @@
     "performance",
     "edge-computing"
   ],
-  "updatedAt": "2026-10-06T17:59:06.713Z",
+  "updatedAt": "2026-10-07T18:29:01.593Z",
   "items": [
     {
       "guid": "01KY2432VQPD5FTF2RARXXYQGH",
@@ -62146,7 +62146,15 @@
       "summary": "On October 11, 2026, the DNS root switches to a new key-signing key (KSK-2024). Learn what this means for you, and how RFC 8509 trust anchor sentinels allow you to test whether your DNS resolver is ready for the rollover.",
       "author": "Sebastiaan Neuteboom",
       "publishedAt": "2026-10-06T17:50:11.000Z"
+    },
+    {
+      "guid": "01M49SJF5QT2EPN5CTQ3C99EZW",
+      "title": "Building an evidence-grounded agentic security operations harness on Cloudflare",
+      "link": "https://blog.cloudflare.com/agentic-security-operations/",
+      "summary": "Cloudflare Managed Defense uses a team of specialized AI agents built on Workers and global network telemetry to analyze security alerts. By separating deterministic evidence collection from model inference, the system delivers grounded recommendations to Managed Defense Analysts.",
+      "author": "Deanna Tran",
+      "publishedAt": "2026-10-07T16:30:36.000Z"
     }
   ],
-  "totalIndexed": 7767
+  "totalIndexed": 7768
 }

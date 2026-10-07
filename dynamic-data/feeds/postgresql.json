@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-10-07T04:35:11.488Z",
+  "updatedAt": "2026-10-07T18:29:02.032Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -2289,7 +2289,15 @@
       "summary": "PostgreSQL 18's new `num_os_semaphores` preset reports how many OS semaphores the server needs—a formula that drifted wrong for twelve years until the…\n\n(I consult on PostgreSQL through PGX Inc..)",
       "author": null,
       "publishedAt": "2026-10-07T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9xa",
+      "title": "Igor Suhorukov: Vectorized Query Execution in PostgreSQL 19: Arrow, ORCA and Flight SQL in a PostgreSQL Extension",
+      "link": "https://postgr.es/p/9xa",
+      "summary": "Last week I ported Apache Cloudberry to PostgreSQL 19 as a set of extensions and described where the port falls behind the original fork. On ClickBench, columnar engines beat it by an order of magnitude. The culprit isn’t the MPP implementation but PostgreSQL’s executor, which works on rows. Each…",
+      "author": null,
+      "publishedAt": "2026-10-07T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 285
+  "totalIndexed": 286
 }

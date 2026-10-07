@@ -8,16 +8,8 @@
     "monitoring",
     "data-visualization"
   ],
-  "updatedAt": "2026-10-01T12:50:00.891Z",
+  "updatedAt": "2026-10-07T18:29:01.658Z",
   "items": [
-    {
-      "guid": "grafana-labs::https://grafana.com/docs/grafana-cloud/machine-learning/agent-observability/guides/evaluation/",
-      "title": "Evaluation",
-      "link": "https://grafana.com/docs/grafana-cloud/machine-learning/agent-observability/guides/evaluation/",
-      "summary": null,
-      "author": null,
-      "publishedAt": "2001-01-31T18:30:00.000Z"
-    },
     {
       "guid": "grafana-labs::https://grafana.com/docs/grafana-cloud/machine-learning/assistant/platform/infrastructure-memory/",
       "title": "Infrastructure Memory",
@@ -80009,7 +80001,15 @@
       "summary": "Building on the major release of Tempo 3.0, Tempo 3.1 is here, delivering community-contributed Kafka client improvements, query-based trace redaction, sampling-aware TraceQL metrics, and more. \nTogether, the updates in 3.1 make it easier to operate Tempo, get accurate insights from your trace…",
       "author": "Tiffany Jernigan",
       "publishedAt": "2026-09-30T19:03:30.000Z"
+    },
+    {
+      "guid": "https://grafana.com/blog/manage-synthetic-checks-at-scale-introducing-folders-in-grafana-cloud-synthetic-monitoring/",
+      "title": "Manage synthetic checks at scale: Introducing folders in Grafana Cloud Synthetic Monitoring",
+      "link": "https://grafana.com/blog/manage-synthetic-checks-at-scale-introducing-folders-in-grafana-cloud-synthetic-monitoring/",
+      "summary": "As your use of Grafana Cloud Synthetic Monitoring grows, so does the number of checks you need to manage across services, environments, and teams. Eventually, a single flat list of checks becomes difficult to navigate, and even simple questions get harder to answer: Which checks belong to the…",
+      "author": "Virginia Cepeda",
+      "publishedAt": "2026-10-07T15:00:41.000Z"
     }
   ],
-  "totalIndexed": 21917
+  "totalIndexed": 21918
 }
