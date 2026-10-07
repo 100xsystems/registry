@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-09-30T17:40:13.366Z",
+  "updatedAt": "2026-10-07T13:01:18.962Z",
   "items": [
     {
       "guid": "evil-martians::https://evilmartians.com/chronicles/which-ai-actually-reads-your-site-two-months-of-llm-traffic-measured",
@@ -279,7 +279,15 @@
       "summary": "Authors: Camila Mirabal, Tech writer, and Travis Turner, Tech Editor\nTopics: Developer Community, Rails, AI\n\nRegular SF Ruby Conference tickets are $450 through September 30. Meet Ruby friends, play The Pier, join small-group conversations, and explore the 2026 program in San Francisco.\nNot a…",
       "author": "Camila Mirabal",
       "publishedAt": "2026-09-30T00:00:00.000Z"
+    },
+    {
+      "guid": "evil-martians::https://evilmartians.com/chronicles/dont-bet-on-select-order-shuffle-your-rows-see-what-folds",
+      "title": "Don't bet on SELECT's order: shuffle your rows and see what folds",
+      "link": "https://evilmartians.com/chronicles/dont-bet-on-select-order-shuffle-your-rows-see-what-folds",
+      "summary": "Authors: Yaroslav Kurbatov, Backend Engineer, and Travis Turner, Tech Editor\nTopics: DX, Rails, PostgreSQL, Ruby, Python, Continuous Integration\n\nPostgreSQL does not guarantee row order without ORDER BY. Use Rails 8.2 or pg_disorder to shuffle unordered SELECT results and expose hidden order…",
+      "author": "Yaroslav Kurbatov",
+      "publishedAt": "2026-10-07T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 34
+  "totalIndexed": 35
 }

@@ -4,38 +4,83 @@
 - Current total: 6277
 - Added: 0
 - Removed: 0
-- Updated: 7
+- Updated: 17
 
 
 ## Updated Companies
 
-### [OWNY](https://www.ycombinator.com/companies/owny)
+### [Bunkerhill Health](https://www.ycombinator.com/companies/bunkerhill-health)
+
+- `one_liner`: Bunkerhill is the agentic AI platform for health systems → Bunkerhill is a long-horizon agent for health systems
+
+### [Stayflexi](https://www.ycombinator.com/companies/stayflexi)
 
 - `isHiring`: false → true
 
-### [Finic](https://www.ycombinator.com/companies/finic)
+### [Authologic](https://www.ycombinator.com/companies/authologic)
 
-- `one_liner`: The AI fraud hunter → Frontier AI to stop fraud, abuse, and financial crimes.
-- `tags`: Compliance,Enterprise,Automation,Fraud Detection,AI → Artificial Intelligence,Compliance,Enterprise,Automation,Fraud Detection
+- `isHiring`: false → true
 
-### [Asteroid](https://www.ycombinator.com/companies/asteroid)
+### [MobileBoost](https://www.ycombinator.com/companies/mobileboost)
 
-- `tags`: Robotic Process Automation,Health Tech,B2B,Automation,AI → Artificial Intelligence,Robotic Process Automation,Health Tech,B2B,Automation
+- `all_locations`: Berlin, Berlin, Germany; Remote → San Francisco, CA, USA; Remote
+- `one_liner`: AI native mobile testing. → AI SDET for mobile apps
+- `tags`: Artificial Intelligence,Developer Tools,Generative AI,B2B,No-code → Developer Tools,Generative AI,B2B,No-code,AI
+- `regions`: Germany,Europe,Remote,Fully Remote → United States of America,America / Canada,Remote,Fully Remote
 
-### [Flai](https://www.ycombinator.com/companies/flai)
+### [LaunchFlow](https://www.ycombinator.com/companies/launchflow)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/6b90c0f9fa101c9a96455820ea0a553837b94f49.png → https://bookface-images.s3.amazonaws.com/small_logos/6dac83b2368a92474bd578939ebe5277cac40f91.png
+- `all_locations`: Remote → Eugene, OR, USA; Remote
+- `regions`: Remote,Fully Remote → United States of America,America / Canada,Remote,Fully Remote
 
-### [Standout](https://www.ycombinator.com/companies/standout)
+### [Gooseworks](https://www.ycombinator.com/companies/gooseworks)
 
-- `team_size`: 5 → 7
+- `one_liner`: Self-Improving Ad Creative Engines → Self-Improving Marketing Harness
 
-### [OpenTag](https://www.ycombinator.com/companies/opentag)
+### [Eris Biotech](https://www.ycombinator.com/companies/eris-biotech)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/3523399de943bf46e546a3bb703261d27fd2fa69.png → https://bookface-images.s3.amazonaws.com/small_logos/c893158d06fb0a2865c30711a691fd486b8a7dcf.png
-- `tags`: AIOps,Artificial Intelligence,B2B,Workflow Automation,Enterprise Software → AIOps,B2B,Workflow Automation,Enterprise Software,AI
+- `all_locations`: Lehi, UT, USA → Salt Lake City, UT, USA
 
-### [Mirrors](https://www.ycombinator.com/companies/mirrors)
+### [Soff](https://www.ycombinator.com/companies/soff)
 
-- `website`: https://www.runmirrors.com → https://www.mirrors.dev
-- `tags`: AIOps,Artificial Intelligence,Developer Tools,SaaS,B2B → AIOps,Developer Tools,SaaS,B2B,AI
+- `stage`: Early → Growth
+
+### [Outerport](https://www.ycombinator.com/companies/outerport)
+
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/b04f0fee59f28a3fa66d41bb63e4aef150ce2812.png → https://bookface-images.s3.amazonaws.com/small_logos/d2fd2342d3ea6b9592dfb0ad90c6249ad7c9ee05.png
+- `one_liner`: EDA for Industrial Control Systems → Design automation for industrial electrical controls
+- `tags`: Hardware,Manufacturing,Semiconductors,Industrial → Hardware,Design,Manufacturing,Industrial
+
+### [Acolite](https://www.ycombinator.com/companies/acolite)
+
+- `all_locations`: New York City, NY, USA → Philadelphia, PA, USA
+
+### [stagewise](https://www.ycombinator.com/companies/stagewise)
+
+- `isHiring`: true → false
+
+### [Deep Interactions](https://www.ycombinator.com/companies/deep-interactions)
+
+- `team_size`: 4 → 6
+- `tags`:  → Artificial Intelligence,Developer Tools,Collaboration,Design Tools,No-code
+
+### [Collar](https://www.ycombinator.com/companies/collar)
+
+- `tags`: Finance,AI → Artificial Intelligence,Generative AI,Finance,Enterprise,Operations
+
+### [tash](https://www.ycombinator.com/companies/tash)
+
+- `website`: https://www.tash.cards/ → https://www.tradetash.com
+
+### [Rasyn](https://www.ycombinator.com/companies/rasyn)
+
+- `tags`: Artificial Intelligence,Deep Learning,Biotech,Manufacturing → Deep Learning,Biotech,Manufacturing,AI
+
+### [PRINCEPS](https://www.ycombinator.com/companies/princeps)
+
+- `isHiring`: false → true
+
+### [Petrichor Bio](https://www.ycombinator.com/companies/petrichor-bio)
+
+- `one_liner`: Wet labs for AI → Wet lab infrastructure that turns AI experiments into training data.
+- `tags`: Artificial Intelligence,Deep Learning → Deep Learning,AI
