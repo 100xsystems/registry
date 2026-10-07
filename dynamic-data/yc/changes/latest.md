@@ -1,55 +1,41 @@
-# YC Company Changes for 2026-10-06
+# YC Company Changes for 2026-10-07
 
-- Previous total: 6276
+- Previous total: 6277
 - Current total: 6277
-- Added: 1
+- Added: 0
 - Removed: 0
-- Updated: 9
+- Updated: 7
 
-
-## Added Companies
-
-- [Resin Technologies](https://www.ycombinator.com/companies/resin-technologies) (Fall 2026) — Resin helps engineers design electronics faster and more reliably
 
 ## Updated Companies
 
-### [Backdrop](https://www.ycombinator.com/companies/backdrop)
-
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/dcbaa3bb5c44063d7f8556a66262b6a2852f72aa.png → https://bookface-images.s3.amazonaws.com/small_logos/ef96baea5567e19f4ad9f5f92c3cb740d9f0f09f.png
-- `one_liner`: AI coworkers for running projects and operations → Building your AI coworkers for any team, workflow, or industry. 
-
-### [Axal](https://www.ycombinator.com/companies/axal)
-
-- `one_liner`: We design, assemble, and test custom PCBs fast. → We assemble PCBs in under 48 hours for quantities under 10
-
-### [Lapel](https://www.ycombinator.com/companies/lapel)
-
-- `team_size`: 15 → 14
-- `isHiring`: false → true
-
-### [Pollen](https://www.ycombinator.com/companies/pollen)
-
-- `one_liner`: AI agents that automate customer success → AI employees trained on your firm's workflows.
-
-### [ValCtrl](https://www.ycombinator.com/companies/valctrl)
-
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/1765dfae476622be6f06883ebedd8aeed86f8664.png → https://bookface-images.s3.amazonaws.com/small_logos/e3baf656ebe6d7298a56a2799b4143c1d8a6e653.png
-
-### [Molagri](https://www.ycombinator.com/companies/molagri)
+### [OWNY](https://www.ycombinator.com/companies/owny)
 
 - `isHiring`: false → true
 
-### [Bryel](https://www.ycombinator.com/companies/bryel)
+### [Finic](https://www.ycombinator.com/companies/finic)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/1d6a77d9b2b1e807ae20d6e37b65cac4cbdcc89c.png → https://bookface-images.s3.amazonaws.com/small_logos/e4fc1c46193139a87be8a9d372f3ac8ccd413c42.png
-- `one_liner`: Devin for AI Research Engineering → Building in-house, frontier AI labs for companies
-- `tags`: B2B,AI → Artificial Intelligence,B2B
+- `one_liner`: The AI fraud hunter → Frontier AI to stop fraud, abuse, and financial crimes.
+- `tags`: Compliance,Enterprise,Automation,Fraud Detection,AI → Artificial Intelligence,Compliance,Enterprise,Automation,Fraud Detection
 
-### [Preload](https://www.ycombinator.com/companies/preload)
+### [Asteroid](https://www.ycombinator.com/companies/asteroid)
 
-- `launched_at`: 1786749576 → 1791309539
+- `tags`: Robotic Process Automation,Health Tech,B2B,Automation,AI → Artificial Intelligence,Robotic Process Automation,Health Tech,B2B,Automation
 
-### [Redoubt Insurance](https://www.ycombinator.com/companies/redoubt-insurance)
+### [Flai](https://www.ycombinator.com/companies/flai)
 
-- `website`: https://www.redoubt.agency → https://www.redoubt.insure
-- `tags`: Artificial Intelligence,Insurance → Insurance,AI
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/6b90c0f9fa101c9a96455820ea0a553837b94f49.png → https://bookface-images.s3.amazonaws.com/small_logos/6dac83b2368a92474bd578939ebe5277cac40f91.png
+
+### [Standout](https://www.ycombinator.com/companies/standout)
+
+- `team_size`: 5 → 7
+
+### [OpenTag](https://www.ycombinator.com/companies/opentag)
+
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/3523399de943bf46e546a3bb703261d27fd2fa69.png → https://bookface-images.s3.amazonaws.com/small_logos/c893158d06fb0a2865c30711a691fd486b8a7dcf.png
+- `tags`: AIOps,Artificial Intelligence,B2B,Workflow Automation,Enterprise Software → AIOps,B2B,Workflow Automation,Enterprise Software,AI
+
+### [Mirrors](https://www.ycombinator.com/companies/mirrors)
+
+- `website`: https://www.runmirrors.com → https://www.mirrors.dev
+- `tags`: AIOps,Artificial Intelligence,Developer Tools,SaaS,B2B → AIOps,Developer Tools,SaaS,B2B,AI

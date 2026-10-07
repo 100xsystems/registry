@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-10-06T17:59:06.958Z",
+  "updatedAt": "2026-10-07T04:35:11.488Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -2281,7 +2281,15 @@
       "summary": "My tool tells you things like “this index cuts the query’s cost by 91%”. Before releasing it, I\nwanted to know what that number is actually worth.\nThe tool is PgLens, a Postgres index advisor I’m\nbuilding. Like several other advisors, it checks each suggestion with HypoPG:\ncreate a hypothetical…",
       "author": null,
       "publishedAt": "2026-10-05T18:30:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9x7",
+      "title": "Christophe Pettus: All Your GUCs in a Row: num_os_semaphores",
+      "link": "https://postgr.es/p/9x7",
+      "summary": "PostgreSQL 18's new `num_os_semaphores` preset reports how many OS semaphores the server needs—a formula that drifted wrong for twelve years until the…\n\n(I consult on PostgreSQL through PGX Inc..)",
+      "author": null,
+      "publishedAt": "2026-10-07T01:00:00.000Z"
     }
   ],
-  "totalIndexed": 284
+  "totalIndexed": 285
 }

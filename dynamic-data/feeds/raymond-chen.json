@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-10-06T05:08:34.851Z",
+  "updatedAt": "2026-10-07T04:35:26.957Z",
   "items": [
     {
       "guid": "https://devblogs.microsoft.com/oldnewthing/?p=112560",
@@ -359,7 +359,15 @@
       "summary": "Hot-patching is for Windows, not for you.\nThe post If somebody tries to hot-patch an already-hot-patched function, how do they avoid conflicts? appeared first on The Old New Thing.",
       "author": "Raymond Chen",
       "publishedAt": "2026-10-05T14:00:00.000Z"
+    },
+    {
+      "guid": "https://devblogs.microsoft.com/oldnewthing/?p=112757",
+      "title": "Why does the compiler sometimes use ud2 and sometimes int 3 for code that shouldn’t execute?",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20261006-00/?p=112757/",
+      "summary": "It shouldn't execute, but for different reasons.\nThe post Why does the compiler sometimes use <CODE>ud2</CODE> and sometimes <CODE>int 3</CODE> for code that shouldn’t execute? appeared first on The Old New Thing.",
+      "author": "Raymond Chen",
+      "publishedAt": "2026-10-06T14:00:00.000Z"
     }
   ],
-  "totalIndexed": 44
+  "totalIndexed": 45
 }
