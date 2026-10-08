@@ -8,7 +8,7 @@
     "debugging",
     "performance"
   ],
-  "updatedAt": "2026-10-06T22:04:56.162Z",
+  "updatedAt": "2026-10-08T22:42:24.334Z",
   "items": [
     {
       "guid": "https://blog.sentry.io/godot-dotnet-ga/",
@@ -369,7 +369,15 @@
       "summary": "Unreal Engine 5.8's Unreal MCP lets coding agents drive the editor. Sentry's plugin adds tools and skills to set up Sentry and debug crashes.",
       "author": null,
       "publishedAt": "2026-10-06T09:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.sentry.io/flutter-android-scope-sync/",
+      "title": "Reducing Android scope-sync overhead in Sentry Flutter",
+      "link": "https://blog.sentry.io/flutter-android-scope-sync/",
+      "summary": "How Sentry Flutter uses a worker isolate for Android SDK operations and reduces duplicate normalization and JSON encoding overhead.",
+      "author": null,
+      "publishedAt": "2026-10-08T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 45
+  "totalIndexed": 46
 }

@@ -8,7 +8,7 @@
     "community",
     "platform"
   ],
-  "updatedAt": "2026-10-08T18:28:22.996Z",
+  "updatedAt": "2026-10-08T22:42:24.382Z",
   "items": [
     {
       "guid": "7d3f8aee-808d-4366-8271-c6db78d3811d",
@@ -31401,7 +31401,15 @@
       "summary": "Agents don't build trust for another reason, structurally worse than the first. It isn't only that the tool keeps changing shape. It's that the feedback loop you would need in order to learn the tool is broken at the point of measurement.",
       "author": "Chase W. Hughes",
       "publishedAt": "2026-10-08T14:00:00.000Z"
+    },
+    {
+      "guid": "004e0789-dc2d-496b-a8af-b6e6aefde5f7",
+      "title": "Part 5: Operating an LLM system: observability, cost, routing, and the platform underneath",
+      "link": "https://stackoverflow.blog/2026/10/08/part-5-operating-an-llm-system-observability-cost-routing-and-the-platform-underneath/",
+      "summary": "Your service can be 100% up and still quietly approving the wrong things, burning its budget, or failing over into untested quality. Level 5 is the infrastructure that lets you see your decisions, bound your spend, route and fail over between models, kill bad behavior in seconds — and the platform…",
+      "author": "Varun Jindal",
+      "publishedAt": "2026-10-08T20:08:53.000Z"
     }
   ],
-  "totalIndexed": 3924
+  "totalIndexed": 3925
 }

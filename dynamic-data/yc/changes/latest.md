@@ -1,54 +1,97 @@
 # YC Company Changes for 2026-10-08
 
-- Previous total: 6280
-- Current total: 6281
+- Previous total: 6281
+- Current total: 6282
 - Added: 1
 - Removed: 0
-- Updated: 8
+- Updated: 19
 
 
 ## Added Companies
 
-- [Lucebox](https://www.ycombinator.com/companies/lucebox) (Winter 2027) — Self-improving inference workstation
+- [Stacktrace](https://www.ycombinator.com/companies/stacktrace) (Fall 2026) — See and control what your agents actually do
 
 ## Updated Companies
 
-### [Atlas](https://www.ycombinator.com/companies/atlas-2)
+### [Hubla](https://www.ycombinator.com/companies/chatpay)
 
-- `status`: Active → Inactive
+- `team_size`: 86 → 100
+- `stage`: Growth → Early
 
-### [Pledge Health](https://www.ycombinator.com/companies/pledge-health)
+### [Truss](https://www.ycombinator.com/companies/truss)
 
-- `status`: Active → Acquired
+- `team_size`: 12 → 15
 
-### [ParadeDB](https://www.ycombinator.com/companies/paradedb)
+### [GrowthBook](https://www.ycombinator.com/companies/growthbook)
 
-- `one_liner`: Unify application data, vectors, and full-text search in one Postgres → You should just use Postgres.
+- `team_size`: 40 → 46
+- `stage`: Growth → Early
 
-### [ReactWise](https://www.ycombinator.com/companies/reactwise)
+### [Trigger.dev](https://www.ycombinator.com/companies/trigger-dev)
 
-- `team_size`: 2 → 10
+- `team_size`: 9 → 17
+- `stage`: Growth → Early
+
+### [Mercoa](https://www.ycombinator.com/companies/mercoa)
+
+- `team_size`: 2 → 1
+
+### [Venta AI](https://www.ycombinator.com/companies/venta-ai)
+
+- `team_size`: 7 → 8
+
+### [Studdy](https://www.ycombinator.com/companies/studdy)
+
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/7c393d498133fcae007a35fc93ee607796fdb687.png → https://bookface-images.s3.amazonaws.com/small_logos/c0821a1683c61a3940f8574e68efe0f27f930177.png
+- `website`: https://www.studdy.ai/ → https://www.studdyai.com
+- `one_liner`: An AI math tutor for every student → An AI tutor that helps you study
+
+### [Yondu](https://www.ycombinator.com/companies/yondu)
+
+- `team_size`: 12 → 7
+
+### [Datacurve](https://www.ycombinator.com/companies/datacurve)
+
+- `team_size`: 4 → 25
+- `stage`: Growth → Early
+
+### [Oway](https://www.ycombinator.com/companies/oway)
+
 - `isHiring`: false → true
 
-### [Velvet](https://www.ycombinator.com/companies/velvet)
+### [Sandra AI](https://www.ycombinator.com/companies/sandra-ai)
 
-- `one_liner`: Conversational datasets and models → Expressive conversational AI
+- `team_size`: 3 → 14
 
-### [Beyond Reach Labs](https://www.ycombinator.com/companies/beyond-reach-labs)
+### [Doe](https://www.ycombinator.com/companies/doe)
 
-- `team_size`: 8 → 15
+- `team_size`: 4 → 2
 
-### [Korso](https://www.ycombinator.com/companies/korso)
+### [Hub](https://www.ycombinator.com/companies/hub)
 
-- `industry`: B2B → Consumer
-- `subindustry`: B2B → Consumer
-- `tags`: SaaS,B2B,AI Assistant → SaaS,AI Assistant
-- `industries`: B2B → Consumer
+- `tags`: Robotics,Crowdsourcing,Big Data,Infrastructure,AI → Artificial Intelligence,Robotics,Crowdsourcing,Big Data,Infrastructure
 
-### [Quivly AI](https://www.ycombinator.com/companies/quivly-ai)
+### [Arga Labs](https://www.ycombinator.com/companies/arga-labs)
 
-- `one_liner`: Quivly - The AI workforce for B2B post-sales → AI agents that run onboarding, adoption, and renewals
-- `team_size`: 2 → 4
-- `subindustry`: B2B -> Sales → B2B
-- `tags`: Artificial Intelligence,SaaS,Enterprise Software → SaaS,Enterprise Software,AI
-- `industries`: B2B,Sales → B2B
+- `team_size`: 4 → 5
+
+### [General Instinct](https://www.ycombinator.com/companies/general-instinct)
+
+- `one_liner`: Inference Infrastructure for Physical AI → Deployment infrastructure for Physical AI
+
+### [Grep AI](https://www.ycombinator.com/companies/grep-ai)
+
+- `one_liner`: AI agents that automate high-stakes knowledge work you can't afford… → Self-improving agents that automate tedious operational work
+- `tags`: Fintech,AI → Artificial Intelligence,Fintech
+
+### [Forward](https://www.ycombinator.com/companies/useforward)
+
+- `team_size`: 5 → 4
+
+### [Ploid](https://www.ycombinator.com/companies/ploid)
+
+- `team_size`: 0 → 2
+
+### [Ignition Benefits](https://www.ycombinator.com/companies/ignition-benefits)
+
+- `team_size`: 8 → 12
