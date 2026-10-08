@@ -1,72 +1,48 @@
 # YC Company Changes for 2026-10-08
 
-- Previous total: 6277
-- Current total: 6279
-- Added: 2
+- Previous total: 6279
+- Current total: 6280
+- Added: 1
 - Removed: 0
-- Updated: 12
+- Updated: 7
 
 
 ## Added Companies
 
-- [Databuddy](https://www.ycombinator.com/companies/databuddy) (Fall 2026) — AI Data Analyst for fast-growing teams
-- [UXDuck](https://www.ycombinator.com/companies/uxduck) (Fall 2026) — Android for drones
+- [Quivly AI](https://www.ycombinator.com/companies/quivly-ai) (Fall 2026) — Quivly - The AI workforce for B2B post-sales
 
 ## Updated Companies
 
-### [ModernLoop](https://www.ycombinator.com/companies/modernloop)
+### [Industrial Next](https://www.ycombinator.com/companies/industrial-next)
 
-- `isHiring`: true → false
+- `stage`: Early → Growth
 
-### [loopfour](https://www.ycombinator.com/companies/loopfour)
+### [Craze](https://www.ycombinator.com/companies/craze)
 
-- `website`: https://www.loopfour.ai → https://www.loopfour.com
+- `one_liner`: Plan, edit and turn creative direction into videos people watch → The AI video platform where creatives make something people watch
 
 ### [Sohar Health](https://www.ycombinator.com/companies/sohar-health)
 
-- `stage`: Growth → Early
+- `stage`: Early → Growth
 
-### [Mito Health](https://www.ycombinator.com/companies/mito-health)
+### [Naïve](https://www.ycombinator.com/companies/naive)
 
-- `one_liner`: At-cost lab testing marketplace that profits when you test less → At-cost preventive health: Labs, Scans, Genetics, Supplements and Rx
-- `tags`: Artificial Intelligence,Consumer Health Services,Digital Health → Consumer Health Services,Digital Health,AI
-
-### [Agentin AI](https://www.ycombinator.com/companies/agentin-ai)
-
-- `one_liner`: AI Agents that automate enterprise software processes → Foundational model research
-- `tags`: Reinforcement Learning,Enterprise,AI → Artificial Intelligence,Reinforcement Learning
-
-### [Paratus Health](https://www.ycombinator.com/companies/paratus-health)
-
-- `team_size`: 2 → 4
-
-### [Lapel](https://www.ycombinator.com/companies/lapel)
-
-- `tags`: Artificial Intelligence,Customer Success,Sales,Customer Support → Customer Success,Sales,Customer Support,AI
-
-### [Booko](https://www.ycombinator.com/companies/booko)
-
-- `website`: https://bookoapp.com → https://booko.com
-- `team_size`: 2 → 4
-
-### [Hub](https://www.ycombinator.com/companies/hub)
-
-- `team_size`: 10 → 40
-
-### [Voyager](https://www.ycombinator.com/companies/voyager)
-
-- `name`: Moda → Voyager
-- `slug`: moda-2 → voyager
-- `former_names`: moda.app → moda.app,Moda
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/1693e94e6d5a17016b287d6917bdefebbef1d367.png → https://bookface-images.s3.amazonaws.com/small_logos/4c6a49b867492868c7c12a9622e59839c26e0b5a.png
-- `website`:  → https://voyager.so
-- `one_liner`: Fully editable slides, designs and video. → Open harness for video and other creative work.
-- `tags`: AI-Enhanced Learning,Design,Sales,Video,Marketing → Design,Video,Marketing
-
-### [Hopper](https://www.ycombinator.com/companies/hopper)
-
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/ed09e878f16f40414804fdb218d878e11639bd1e.png → https://bookface-images.s3.amazonaws.com/small_logos/4a69089a2a0c9f75ef6115c3f5aebf4d621f71e8.png
 - `tags`: Artificial Intelligence,Infrastructure → Infrastructure,AI
 
-### [Orca Aerospace](https://www.ycombinator.com/companies/orca-aerospace)
+### [Netter](https://www.ycombinator.com/companies/netter)
 
-- `team_size`: 3 → 5
+- `one_liner`: AI native Palantir for mid market. → AI agents for data science (enterprise)
+
+### [Arzana](https://www.ycombinator.com/companies/arzana)
+
+- `isHiring`: true → false
+
+### [Autoresearch, Inc.](https://www.ycombinator.com/companies/autoresearch-inc)
+
+- `name`: hiloop → Autoresearch, Inc.
+- `slug`: hiloop → autoresearch-inc
+- `former_names`:  → hiloop
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/3757083c195e320f3b98de96aa489419197b9463.png → https://bookface-images.s3.amazonaws.com/small_logos/5b91efea37962386a163af58e2f2920b1e9d0aa7.png
+- `website`: https://hiloop.ai → https://autoresearch.inc
+- `team_size`: 2 → 3
