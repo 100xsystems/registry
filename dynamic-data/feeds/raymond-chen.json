@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-10-07T04:35:26.957Z",
+  "updatedAt": "2026-10-08T04:46:06.559Z",
   "items": [
     {
       "guid": "https://devblogs.microsoft.com/oldnewthing/?p=112560",
@@ -367,7 +367,15 @@
       "summary": "It shouldn't execute, but for different reasons.\nThe post Why does the compiler sometimes use <CODE>ud2</CODE> and sometimes <CODE>int 3</CODE> for code that shouldn’t execute? appeared first on The Old New Thing.",
       "author": "Raymond Chen",
       "publishedAt": "2026-10-06T14:00:00.000Z"
+    },
+    {
+      "guid": "https://devblogs.microsoft.com/oldnewthing/?p=112759",
+      "title": "How can undefined opcodes ud0 and ud1 have parameters? How undefined were they?",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20261007-00/?p=112759/",
+      "summary": "They weren't defined, not even as undefined.\nThe post How can undefined opcodes <CODE>ud0</CODE> and <CODE>ud1</CODE> have parameters? How undefined were they? appeared first on The Old New Thing.",
+      "author": "Raymond Chen",
+      "publishedAt": "2026-10-07T14:00:00.000Z"
     }
   ],
-  "totalIndexed": 45
+  "totalIndexed": 46
 }

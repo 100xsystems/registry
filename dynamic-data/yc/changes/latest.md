@@ -1,59 +1,72 @@
-# YC Company Changes for 2026-10-07
+# YC Company Changes for 2026-10-08
 
 - Previous total: 6277
-- Current total: 6277
-- Added: 0
+- Current total: 6279
+- Added: 2
 - Removed: 0
-- Updated: 8
+- Updated: 12
 
+
+## Added Companies
+
+- [Databuddy](https://www.ycombinator.com/companies/databuddy) (Fall 2026) — AI Data Analyst for fast-growing teams
+- [UXDuck](https://www.ycombinator.com/companies/uxduck) (Fall 2026) — Android for drones
 
 ## Updated Companies
 
-### [Industrial Next](https://www.ycombinator.com/companies/industrial-next)
+### [ModernLoop](https://www.ycombinator.com/companies/modernloop)
+
+- `isHiring`: true → false
+
+### [loopfour](https://www.ycombinator.com/companies/loopfour)
+
+- `website`: https://www.loopfour.ai → https://www.loopfour.com
+
+### [Sohar Health](https://www.ycombinator.com/companies/sohar-health)
 
 - `stage`: Growth → Early
 
-### [Overheard](https://www.ycombinator.com/companies/overheard)
+### [Mito Health](https://www.ycombinator.com/companies/mito-health)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/156a31d542f37c25abdebb50a956a376276e0f5b.png → https://bookface-images.s3.amazonaws.com/small_logos/c8cc29d94168b1ca418d0d8737e0185bb99095a7.png
-- `one_liner`: AI-led user interviews for product teams. → Know what your customers want, because they told you.
-- `subindustry`: B2B -> Engineering, Product and Design → B2B
-- `tags`: Artificial Intelligence,B2B,Productivity,Design,Market Research → Artificial Intelligence,SaaS,Design,Feedback,Market Research
-- `industries`: B2B,Engineering, Product and Design → B2B
+- `one_liner`: At-cost lab testing marketplace that profits when you test less → At-cost preventive health: Labs, Scans, Genetics, Supplements and Rx
+- `tags`: Artificial Intelligence,Consumer Health Services,Digital Health → Consumer Health Services,Digital Health,AI
 
-### [Pingo](https://www.ycombinator.com/companies/pingo)
+### [Agentin AI](https://www.ycombinator.com/companies/agentin-ai)
 
-- `team_size`: 5 → 4
+- `one_liner`: AI Agents that automate enterprise software processes → Foundational model research
+- `tags`: Reinforcement Learning,Enterprise,AI → Artificial Intelligence,Reinforcement Learning
 
-### [Meteor](https://www.ycombinator.com/companies/meteor)
+### [Paratus Health](https://www.ycombinator.com/companies/paratus-health)
 
-- `website`: https://browse.dev → https://meteorlabs.ai
-- `one_liner`: An AI-Native Browser → We provide hedge funds with information they can trade on
-- `industry`: Consumer → B2B
-- `subindustry`: Consumer → B2B
-- `tags`: Artificial Intelligence,Consumer,AI Assistant → Artificial Intelligence,Big Data,Data Engineering
-- `industries`: Consumer → B2B
+- `team_size`: 2 → 4
 
-### [Embedder](https://www.ycombinator.com/companies/embedder)
+### [Lapel](https://www.ycombinator.com/companies/lapel)
 
-- `one_liner`: The Enterprise AI Platform for Embedded Software → Hardware-Aware AI for Embedded Software
-- `tags`: Developer Tools,Hardware,B2B,AI → Artificial Intelligence,Developer Tools,Hardware,B2B
+- `tags`: Artificial Intelligence,Customer Success,Sales,Customer Support → Customer Success,Sales,Customer Support,AI
 
-### [Nine Fives](https://www.ycombinator.com/companies/nine-fives)
+### [Booko](https://www.ycombinator.com/companies/booko)
 
-- `team_size`: 2 → 3
+- `website`: https://bookoapp.com → https://booko.com
+- `team_size`: 2 → 4
 
-### [Viraj Aero](https://www.ycombinator.com/companies/viraj-aero)
+### [Hub](https://www.ycombinator.com/companies/hub)
 
-- `one_liner`: Next generation engines for aircraft and data centers → Next generation gas turbines for data centers & aviation
-- `subindustry`: Industrials -> Aviation and Space → Industrials -> Energy
-- `tags`: Hard Tech,Energy,Aerospace,ClimateTech,AI → Artificial Intelligence,Hard Tech,Energy,Aerospace,ClimateTech
-- `industries`: Industrials,Aviation and Space → Industrials,Energy
+- `team_size`: 10 → 40
 
-### [Primordiant (Formerly SuperRadiant)](https://www.ycombinator.com/companies/primordiant)
+### [Voyager](https://www.ycombinator.com/companies/voyager)
 
-- `name`: SuperRadiant → Primordiant (Formerly SuperRadiant)
-- `slug`: superradiant → primordiant
-- `former_names`:  → SuperRadiant
-- `website`: https://superradiant.co → https://primordiant.com
-- `tags`: Robotics,Energy,Advanced Materials,AI,Biotechnology → Artificial Intelligence,Robotics,Energy,Advanced Materials,Biotechnology
+- `name`: Moda → Voyager
+- `slug`: moda-2 → voyager
+- `former_names`: moda.app → moda.app,Moda
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/1693e94e6d5a17016b287d6917bdefebbef1d367.png → https://bookface-images.s3.amazonaws.com/small_logos/4c6a49b867492868c7c12a9622e59839c26e0b5a.png
+- `website`:  → https://voyager.so
+- `one_liner`: Fully editable slides, designs and video. → Open harness for video and other creative work.
+- `tags`: AI-Enhanced Learning,Design,Sales,Video,Marketing → Design,Video,Marketing
+
+### [Hopper](https://www.ycombinator.com/companies/hopper)
+
+- `tags`: Artificial Intelligence,Infrastructure → Infrastructure,AI
+
+### [Orca Aerospace](https://www.ycombinator.com/companies/orca-aerospace)
+
+- `team_size`: 3 → 5
