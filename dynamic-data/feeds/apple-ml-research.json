@@ -8,7 +8,7 @@
     "ai",
     "research"
   ],
-  "updatedAt": "2026-10-05T23:31:48.085Z",
+  "updatedAt": "2026-10-08T18:28:22.595Z",
   "items": [
     {
       "guid": "environment-free",
@@ -385,7 +385,15 @@
       "summary": "Designed artifacts are ontological, shaping, and at times limiting, what becomes possible or imaginable. One path toward mitigating such foreclosures is giving people power over how systems are designed and built. Despite decades of scholarship around systems that enable such authorship, these…",
       "author": null,
       "publishedAt": "2026-10-05T00:00:00.000Z"
+    },
+    {
+      "guid": "normalizing-trajectory-models",
+      "title": "Normalizing Trajectory Models",
+      "link": "https://machinelearning.apple.com/research/normalizing-trajectory-models",
+      "summary": "Diffusion-based models decompose sampling into many small Gaussian denoising steps, an assumption that breaks down when generation is compressed to a few coarse transitions. Existing few-step methods address this through distillation, consistency training, or adversarial objectives, but sacrifice…",
+      "author": null,
+      "publishedAt": "2026-10-08T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 47
+  "totalIndexed": 48
 }

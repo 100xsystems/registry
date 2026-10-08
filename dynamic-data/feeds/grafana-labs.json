@@ -8,24 +8,8 @@
     "monitoring",
     "data-visualization"
   ],
-  "updatedAt": "2026-10-07T18:29:01.658Z",
+  "updatedAt": "2026-10-08T18:28:22.722Z",
   "items": [
-    {
-      "guid": "grafana-labs::https://grafana.com/docs/grafana-cloud/machine-learning/assistant/platform/infrastructure-memory/",
-      "title": "Infrastructure Memory",
-      "link": "https://grafana.com/docs/grafana-cloud/machine-learning/assistant/platform/infrastructure-memory/",
-      "summary": null,
-      "author": null,
-      "publishedAt": "2001-01-31T18:30:00.000Z"
-    },
-    {
-      "guid": "grafana-labs::https://grafana.com/docs/grafana-cloud/machine-learning/agent-observability/guides/guards/",
-      "title": "Guards",
-      "link": "https://grafana.com/docs/grafana-cloud/machine-learning/agent-observability/guides/guards/",
-      "summary": null,
-      "author": null,
-      "publishedAt": "2001-01-31T18:30:00.000Z"
-    },
     {
       "guid": "grafana-labs::https://grafana.com/docs/grafana-cloud/machine-learning/assistant/platform/investigation/",
       "title": "Investigation",
@@ -80009,7 +79993,23 @@
       "summary": "As your use of Grafana Cloud Synthetic Monitoring grows, so does the number of checks you need to manage across services, environments, and teams. Eventually, a single flat list of checks becomes difficult to navigate, and even simple questions get harder to answer: Which checks belong to the…",
       "author": "Virginia Cepeda",
       "publishedAt": "2026-10-07T15:00:41.000Z"
+    },
+    {
+      "guid": "https://grafana.com/blog/take-grafana-labs-5th-annual-observability-survey/",
+      "title": "Take Grafana Labs' 5th annual Observability Survey",
+      "link": "https://grafana.com/blog/take-grafana-labs-5th-annual-observability-survey/",
+      "summary": "Over the past year, \"agentic\" has gone from an emerging buzzword to an integral part of worklife for many engineers—and that's just scratching the surface on all that's changed. With so much upheaval, there's never been a better time to capture the pulse of the industry, which is why we want you to…",
+      "author": "Trevor Jones",
+      "publishedAt": "2026-10-08T17:00:28.000Z"
+    },
+    {
+      "guid": "https://grafana.com/blog/manage-your-opentelemetry-collectors-with-fleet-management-in-grafana-cloud/",
+      "title": "Manage your OpenTelemetry Collectors with Fleet Management in Grafana Cloud",
+      "link": "https://grafana.com/blog/manage-your-opentelemetry-collectors-with-fleet-management-in-grafana-cloud/",
+      "summary": "If you’ve built your telemetry pipelines around OpenTelemetry Collectors, you’ve already invested in a collector distribution, YAML configuration, and a deployment model that fits your infrastructure. As that deployment grows, managing it means keeping shared configuration consistent, accommodating…",
+      "author": "Marko Bachvarovski",
+      "publishedAt": "2026-10-08T14:04:56.000Z"
     }
   ],
-  "totalIndexed": 21918
+  "totalIndexed": 21920
 }

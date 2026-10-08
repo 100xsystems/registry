@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-10-07T18:29:02.032Z",
+  "updatedAt": "2026-10-08T18:28:22.951Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -2297,7 +2297,23 @@
       "summary": "Last week I ported Apache Cloudberry to PostgreSQL 19 as a set of extensions and described where the port falls behind the original fork. On ClickBench, columnar engines beat it by an order of magnitude. The culprit isn’t the MPP implementation but PostgreSQL’s executor, which works on rows. Each…",
       "author": null,
       "publishedAt": "2026-10-07T00:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9xh",
+      "title": "Christophe Pettus: The International Ice Patrol",
+      "link": "https://postgr.es/p/9xh",
+      "summary": "On September 30, AWS announced that Aurora PostgreSQL can now query Apache Iceberg and Parquet data directly. That brings the number of things a vendor might mean by “Postgres reads Iceberg” to at least four, and they have about as much in common as the four things a vendor might mean by “serverl……",
+      "author": null,
+      "publishedAt": "2026-10-08T16:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9xi",
+      "title": "Andrei Lepikhov: Why is PostgreSQL's Numeric Type so Slow?",
+      "link": "https://postgr.es/p/9xi",
+      "summary": "The numeric type has existed in Postgres for more than 25 years. Over that time, it has undergone many optimisations and refinements. And yet operations on this type - aggregation in particular - still look rather inefficient.Since the PostgreSQL community always fixes problems with more or less…",
+      "author": null,
+      "publishedAt": "2026-10-08T11:53:23.000Z"
     }
   ],
-  "totalIndexed": 286
+  "totalIndexed": 288
 }

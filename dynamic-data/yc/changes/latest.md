@@ -1,48 +1,54 @@
 # YC Company Changes for 2026-10-08
 
-- Previous total: 6279
-- Current total: 6280
+- Previous total: 6280
+- Current total: 6281
 - Added: 1
 - Removed: 0
-- Updated: 7
+- Updated: 8
 
 
 ## Added Companies
 
-- [Quivly AI](https://www.ycombinator.com/companies/quivly-ai) (Fall 2026) — Quivly - The AI workforce for B2B post-sales
+- [Lucebox](https://www.ycombinator.com/companies/lucebox) (Winter 2027) — Self-improving inference workstation
 
 ## Updated Companies
 
-### [Industrial Next](https://www.ycombinator.com/companies/industrial-next)
+### [Atlas](https://www.ycombinator.com/companies/atlas-2)
 
-- `stage`: Early → Growth
+- `status`: Active → Inactive
 
-### [Craze](https://www.ycombinator.com/companies/craze)
+### [Pledge Health](https://www.ycombinator.com/companies/pledge-health)
 
-- `one_liner`: Plan, edit and turn creative direction into videos people watch → The AI video platform where creatives make something people watch
+- `status`: Active → Acquired
 
-### [Sohar Health](https://www.ycombinator.com/companies/sohar-health)
+### [ParadeDB](https://www.ycombinator.com/companies/paradedb)
 
-- `stage`: Early → Growth
+- `one_liner`: Unify application data, vectors, and full-text search in one Postgres → You should just use Postgres.
 
-### [Naïve](https://www.ycombinator.com/companies/naive)
+### [ReactWise](https://www.ycombinator.com/companies/reactwise)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/ed09e878f16f40414804fdb218d878e11639bd1e.png → https://bookface-images.s3.amazonaws.com/small_logos/4a69089a2a0c9f75ef6115c3f5aebf4d621f71e8.png
-- `tags`: Artificial Intelligence,Infrastructure → Infrastructure,AI
+- `team_size`: 2 → 10
+- `isHiring`: false → true
 
-### [Netter](https://www.ycombinator.com/companies/netter)
+### [Velvet](https://www.ycombinator.com/companies/velvet)
 
-- `one_liner`: AI native Palantir for mid market. → AI agents for data science (enterprise)
+- `one_liner`: Conversational datasets and models → Expressive conversational AI
 
-### [Arzana](https://www.ycombinator.com/companies/arzana)
+### [Beyond Reach Labs](https://www.ycombinator.com/companies/beyond-reach-labs)
 
-- `isHiring`: true → false
+- `team_size`: 8 → 15
 
-### [Autoresearch, Inc.](https://www.ycombinator.com/companies/autoresearch-inc)
+### [Korso](https://www.ycombinator.com/companies/korso)
 
-- `name`: hiloop → Autoresearch, Inc.
-- `slug`: hiloop → autoresearch-inc
-- `former_names`:  → hiloop
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/3757083c195e320f3b98de96aa489419197b9463.png → https://bookface-images.s3.amazonaws.com/small_logos/5b91efea37962386a163af58e2f2920b1e9d0aa7.png
-- `website`: https://hiloop.ai → https://autoresearch.inc
-- `team_size`: 2 → 3
+- `industry`: B2B → Consumer
+- `subindustry`: B2B → Consumer
+- `tags`: SaaS,B2B,AI Assistant → SaaS,AI Assistant
+- `industries`: B2B → Consumer
+
+### [Quivly AI](https://www.ycombinator.com/companies/quivly-ai)
+
+- `one_liner`: Quivly - The AI workforce for B2B post-sales → AI agents that run onboarding, adoption, and renewals
+- `team_size`: 2 → 4
+- `subindustry`: B2B -> Sales → B2B
+- `tags`: Artificial Intelligence,SaaS,Enterprise Software → SaaS,Enterprise Software,AI
+- `industries`: B2B,Sales → B2B
