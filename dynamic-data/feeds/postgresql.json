@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-10-09T04:49:04.440Z",
+  "updatedAt": "2026-10-09T12:55:18.278Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -2329,7 +2329,39 @@
       "summary": "Yay, “That time of the year”™ again soon 🎉 This time maybe with a bit more fuzz / excitement / anxiety as usual - due to various obstacles surrounding the release as detailed in a few recent posts by various people. Not going into the “Is AI to blame or...",
       "author": null,
       "publishedAt": "2026-10-08T21:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9xr",
+      "title": "SHRIDHAR KHANAL: The Database Restarted Without Restarting: The Basics of PostgreSQL Signals (Part 1)",
+      "link": "https://postgr.es/p/9xr",
+      "summary": "Key Takeaways \n\nSignal 1 (SIGHUP) normally tells PostgreSQL to reload its configuration. A log line saying a process was terminated by signal 1 means that process didn’t handle the signal and died from it.\nreceived SIGHUP, reloading configuration files is a harmless reload. server process (PID …)…",
+      "author": null,
+      "publishedAt": "2026-10-09T09:36:51.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9xn",
+      "title": "Radim Marek: Postgres relation files, filed under base/",
+      "link": "https://postgr.es/p/9xn",
+      "summary": "The buffers article followed an 8KB page from disk into shared memory and back. What it didn't do is name the file. Every page that passes through the buffer pool is block number N of some file under the data directory, and the file has a naming scheme, a size limit, and companion files that share…",
+      "author": null,
+      "publishedAt": "2026-10-09T06:45:48.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9xo",
+      "title": "Peter Eisentraut: The reverts will continue until morale improves",
+      "link": "https://postgr.es/p/9xo",
+      "summary": "Many readers will be aware that an unusually high number of features\nhave been reverted from the PostgreSQL 19 branch after the beta period\nbegan.  Having some reverts is not unusual, maybe one per cycle could\nbe expected.  But this time around, about 8 to 10 significant\nfeatures, depending on how…",
+      "author": null,
+      "publishedAt": "2026-10-09T04:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9xp",
+      "title": "Hollis Varden: Five PostgreSQL queries that did more work than I asked for",
+      "link": "https://postgr.es/p/9xp",
+      "summary": "Most slow queries I have looked at are not doing anything clever. They are doing extra work that nobody asked for, because one word in the SQL told PostgreSQL to.\nI took five of those words and measured each one against the version without it, on the same table. The biggest gap was UNION: 13.6…",
+      "author": null,
+      "publishedAt": "2026-10-09T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 290
+  "totalIndexed": 294
 }

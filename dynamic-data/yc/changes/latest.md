@@ -1,54 +1,63 @@
 # YC Company Changes for 2026-10-09
 
-- Previous total: 6282
+- Previous total: 6283
 - Current total: 6283
-- Added: 1
+- Added: 0
 - Removed: 0
-- Updated: 8
+- Updated: 12
 
-
-## Added Companies
-
-- [Composal](https://www.ycombinator.com/companies/composal) (Fall 2026) — Swarms of agents acting like users to find bugs before release
 
 ## Updated Companies
 
-### [In The Room](https://www.ycombinator.com/companies/in-the-room)
+### [Hubla](https://www.ycombinator.com/companies/chatpay)
 
-- `name`: Autodial prev Qwest → In The Room
-- `slug`: autodial-prev-qwest → in-the-room
-- `former_names`: Qwest,qwest.,Qwest Social Club,qwest.,In The Room,In The Room, Inc.,In The Room → Qwest,qwest.,Qwest Social Club,qwest.,In The Room,In The Room, Inc.,In The Room,Autodial prev Qwest
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/7b3eee35a4bfe7106117bae88bb555be906669dc.png → https://bookface-images.s3.amazonaws.com/small_logos/8326335b93cdee4cc807e67e988f374214e6ef12.png
-- `website`: https://www.autodial.com → https://www.intheroom.social
-- `one_liner`: Skip Busy Phone Lines → Connect with people around you—IRL
-- `tags`: Artificial Intelligence,Machine Learning,Telecommunications,AI → Machine Learning,Social,AI
+- `stage`: Early → Growth
 
-### [Craze](https://www.ycombinator.com/companies/craze)
+### [GrowthBook](https://www.ycombinator.com/companies/growthbook)
 
-- `tags`: Video,Media,AI → Artificial Intelligence,Video,Media
+- `stage`: Early → Growth
 
-### [Tivara](https://www.ycombinator.com/companies/tivara)
+### [Lamin](https://www.ycombinator.com/companies/lamin)
 
-- `isHiring`: true → false
-- `status`: Active → Inactive
+- `team_size`: 10 → 12
 
-### [Oway](https://www.ycombinator.com/companies/oway)
+### [Trigger.dev](https://www.ycombinator.com/companies/trigger-dev)
 
-- `tags`: Artificial Intelligence,B2B,API,Supply Chain,Infrastructure → B2B,API,Infrastructure,AI,Industrial
+- `stage`: Early → Growth
 
-### [AutoComputer](https://www.ycombinator.com/companies/autocomputer)
+### [Readily](https://www.ycombinator.com/companies/readily)
 
-- `one_liner`: Desktop RPA with AI computer use → Forward Deployed Research Services
-- `tags`: Artificial Intelligence,Deep Learning,B2B,Enterprise,Automation → Deep Learning,B2B,Enterprise,AI
+- `tags`: B2B,Compliance,Healthcare,Regtech,AI → Artificial Intelligence,B2B,Compliance,Healthcare,Regtech
 
-### [Swerve](https://www.ycombinator.com/companies/swerve)
+### [Datacurve](https://www.ycombinator.com/companies/datacurve)
 
-- `tags`: Artificial Intelligence,Consumer,Entertainment → Consumer,Entertainment,AI
+- `stage`: Early → Growth
 
-### [Maven](https://www.ycombinator.com/companies/maven)
+### [Entangl](https://www.ycombinator.com/companies/entangl)
 
-- `one_liner`: Payments Infrastructure for Conversational Agents → Payments for Conversational Agents
+- `team_size`: 15 → 22
+- `tags`: Artificial Intelligence,Aerospace,Enterprise Software,Automation,Automotive → Artificial Intelligence,Enterprise Software,Infrastructure
 
-### [Acyclic Labs](https://www.ycombinator.com/companies/acyclic)
+### [Conntour](https://www.ycombinator.com/companies/conntour)
 
-- `one_liner`: building infra for scaling agent swarms efficiently → Rapid agent swarms: make any agentic workflow exponentially faster
+- `tags`: Artificial Intelligence,Computer Vision,Defense → Computer Vision,Defense,AI
+
+### [Darwin](https://www.ycombinator.com/companies/darwin)
+
+- `one_liner`: Humanoid robots → Robots to build civilization
+
+### [Belvedir](https://www.ycombinator.com/companies/belvedir)
+
+- `one_liner`: The custom AI model factory → The autonomous AI model factory
+- `tags`: Machine Learning,Reinforcement Learning,AI → Artificial Intelligence,Machine Learning,Reinforcement Learning
+
+### [Mirrors](https://www.ycombinator.com/companies/mirrors)
+
+- `one_liner`: Steer AI agents in real time using lessons from production runs → Give AI agents the right instructions at the right moment
+- `tags`: AIOps,Developer Tools,SaaS,B2B,AI → AIOps,Artificial Intelligence,Developer Tools,SaaS,B2B
+
+### [Volaren Inc.](https://www.ycombinator.com/companies/volaren-inc)
+
+- `one_liner`: Volaren collapses the hedge fund model and making it accessible to… → Turning Ideas into Trades. Volaren puts the hedge fund in the hands…
+- `tags`: Artificial Intelligence,Fintech,Marketplace,Finance,Creator Economy → Fintech,Marketplace,Finance,Creator Economy,AI
+- `regions`: United States of America,America / Canada,Remote,Partly Remote → United States of America,America / Canada

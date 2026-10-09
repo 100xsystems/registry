@@ -9,7 +9,7 @@
     "edge-computing",
     "nextjs"
   ],
-  "updatedAt": "2026-10-02T17:31:45.015Z",
+  "updatedAt": "2026-10-09T12:55:27.298Z",
   "items": [
     {
       "guid": "vercel-blog::https://vercel.com/changelog/ai-gateway-now-supports-streaming-transcription",
@@ -4794,7 +4794,15 @@
       "summary": "Rogo on Vercel\n\n73,000+ deployments in a single month\n\nAgent-written code shipped to production in 5 minutes\n\n6 production AI agents automating work from churn analysis to deal desk\n\nZero manual triage during production incidents with agent swarms on AI SDK\n\n\n builds Felix, an AI agent that…",
       "author": "Susan Aziz",
       "publishedAt": "2026-10-02T04:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/skip-sending-request-bodies-to-routing-middleware",
+      "title": "Skip sending request bodies to Routing Middleware",
+      "link": "https://vercel.com/changelog/skip-sending-request-bodies-to-routing-middleware",
+      "summary": "You can now skip sending client request bodies to  with . This reduces incoming  usage for middleware invocations and can improve time to first byte, especially for requests with large bodies.Routing MiddlewareFast Origin TransferskipMiddlewareRequestBody\nEnable this option only if your Routing…",
+      "author": "Shohei Maeda",
+      "publishedAt": "2026-10-08T16:05:00.000Z"
     }
   ],
-  "totalIndexed": 598
+  "totalIndexed": 599
 }
