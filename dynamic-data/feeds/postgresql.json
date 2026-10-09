@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-10-09T12:55:18.278Z",
+  "updatedAt": "2026-10-09T18:00:09.283Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -2361,7 +2361,15 @@
       "summary": "Most slow queries I have looked at are not doing anything clever. They are doing extra work that nobody asked for, because one word in the SQL told PostgreSQL to.\nI took five of those words and measured each one against the version without it, on the same table. The biggest gap was UNION: 13.6…",
       "author": null,
       "publishedAt": "2026-10-09T00:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9xt",
+      "title": "Christophe Pettus: Portions Copyright",
+      "link": "https://postgr.es/p/9xt",
+      "summary": "In October 2014, a developer wrote to a PostgreSQL mailing list with a problem. His employer’s open source office required a signed contributor license agreement before he could contribute, and he could not find PostgreSQL’s. Tom Lane answered:\n\nThere are no such agreements for Postgres work. The……",
+      "author": null,
+      "publishedAt": "2026-10-09T13:51:00.000Z"
     }
   ],
-  "totalIndexed": 294
+  "totalIndexed": 295
 }

@@ -4,60 +4,51 @@
 - Current total: 6283
 - Added: 0
 - Removed: 0
-- Updated: 12
+- Updated: 10
 
 
 ## Updated Companies
 
-### [Hubla](https://www.ycombinator.com/companies/chatpay)
+### [Trackstar](https://www.ycombinator.com/companies/trackstar)
 
-- `stage`: Early → Growth
+- `team_size`: 7 → 10
 
-### [GrowthBook](https://www.ycombinator.com/companies/growthbook)
+### [Numeral](https://www.ycombinator.com/companies/numeral)
 
-- `stage`: Early → Growth
+- `team_size`: 110 → 130
+- `stage`: Growth → Early
 
-### [Lamin](https://www.ycombinator.com/companies/lamin)
+### [Benchmark](https://www.ycombinator.com/companies/benchmark)
 
-- `team_size`: 10 → 12
+- `status`: Active → Acquired
 
-### [Trigger.dev](https://www.ycombinator.com/companies/trigger-dev)
+### [Oway](https://www.ycombinator.com/companies/oway)
 
-- `stage`: Early → Growth
+- `one_liner`: The coordination OS for the physical economy.  → Building the open operating system for the automated physical economy.
 
-### [Readily](https://www.ycombinator.com/companies/readily)
+### [Bud](https://www.ycombinator.com/companies/bud)
 
-- `tags`: B2B,Compliance,Healthcare,Regtech,AI → Artificial Intelligence,B2B,Compliance,Healthcare,Regtech
+- `status`: Active → Acquired
 
-### [Datacurve](https://www.ycombinator.com/companies/datacurve)
+### [Astro](https://www.ycombinator.com/companies/astro)
 
-- `stage`: Early → Growth
+- `one_liner`: The world’s first AI energy developer → Power-ready land for AI data centers
 
-### [Entangl](https://www.ycombinator.com/companies/entangl)
+### [Altur](https://www.ycombinator.com/companies/altur)
 
-- `team_size`: 15 → 22
-- `tags`: Artificial Intelligence,Aerospace,Enterprise Software,Automation,Automotive → Artificial Intelligence,Enterprise Software,Infrastructure
+- `team_size`: 5 → 9
+- `tags`: Artificial Intelligence → AI
 
-### [Conntour](https://www.ycombinator.com/companies/conntour)
+### [Semble](https://www.ycombinator.com/companies/semble)
 
-- `tags`: Artificial Intelligence,Computer Vision,Defense → Computer Vision,Defense,AI
+- `one_liner`: The all-in-one software for integrators. → Takeoffs, design, and field work. Powered by AI.
+- `tags`: Artificial Intelligence,SaaS → SaaS,AI
 
-### [Darwin](https://www.ycombinator.com/companies/darwin)
+### [Stage](https://www.ycombinator.com/companies/stage)
 
-- `one_liner`: Humanoid robots → Robots to build civilization
+- `all_locations`: San Francisco, CA, USA → New York City, NY, USA
 
-### [Belvedir](https://www.ycombinator.com/companies/belvedir)
+### [Acyclic Labs](https://www.ycombinator.com/companies/acyclic)
 
-- `one_liner`: The custom AI model factory → The autonomous AI model factory
-- `tags`: Machine Learning,Reinforcement Learning,AI → Artificial Intelligence,Machine Learning,Reinforcement Learning
-
-### [Mirrors](https://www.ycombinator.com/companies/mirrors)
-
-- `one_liner`: Steer AI agents in real time using lessons from production runs → Give AI agents the right instructions at the right moment
-- `tags`: AIOps,Developer Tools,SaaS,B2B,AI → AIOps,Artificial Intelligence,Developer Tools,SaaS,B2B
-
-### [Volaren Inc.](https://www.ycombinator.com/companies/volaren-inc)
-
-- `one_liner`: Volaren collapses the hedge fund model and making it accessible to… → Turning Ideas into Trades. Volaren puts the hedge fund in the hands…
-- `tags`: Artificial Intelligence,Fintech,Marketplace,Finance,Creator Economy → Fintech,Marketplace,Finance,Creator Economy,AI
-- `regions`: United States of America,America / Canada,Remote,Partly Remote → United States of America,America / Canada
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/28f8a7a30ed4c8ddd3df528c98ebc77233935fc2.png → https://bookface-images.s3.amazonaws.com/small_logos/e0ab38690d05797c7ccebecaf6f40e8c72b69516.png
+- `one_liner`: Rapid agent swarms: make any agentic workflow exponentially faster → Agent swarms that make long-running tasks exponentially faster
