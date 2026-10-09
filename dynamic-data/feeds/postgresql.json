@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-10-08T18:28:22.951Z",
+  "updatedAt": "2026-10-09T04:49:04.440Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -2313,7 +2313,23 @@
       "summary": "The numeric type has existed in Postgres for more than 25 years. Over that time, it has undergone many optimisations and refinements. And yet operations on this type - aggregation in particular - still look rather inefficient.Since the PostgreSQL community always fixes problems with more or less…",
       "author": null,
       "publishedAt": "2026-10-08T11:53:23.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9xm",
+      "title": "Christophe Pettus: All Your GUCs in a Row: array_nulls (Special Update)",
+      "link": "https://postgr.es/p/9xm",
+      "summary": "Tom Lane deleted `array_nulls` in PostgreSQL 20, but `pg_dump` never set it, so restores into databases with it disabled silently corrupt text arrays.\n\n(I consult on PostgreSQL through PGX Inc..)",
+      "author": null,
+      "publishedAt": "2026-10-09T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9xl",
+      "title": "Kaarel Moppel: An OLTP perf check on Postgres 19 Beta 3.5",
+      "link": "https://postgr.es/p/9xl",
+      "summary": "Yay, “That time of the year”™ again soon 🎉 This time maybe with a bit more fuzz / excitement / anxiety as usual - due to various obstacles surrounding the release as detailed in a few recent posts by various people. Not going into the “Is AI to blame or...",
+      "author": null,
+      "publishedAt": "2026-10-08T21:00:00.000Z"
     }
   ],
-  "totalIndexed": 288
+  "totalIndexed": 290
 }
