@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-10-09T18:01:51.890Z",
-  "count": 6283,
+  "fetchedAt": "2026-10-09T22:04:45.715Z",
+  "count": 6286,
   "companies": [
     {
       "id": 38589,
@@ -700,6 +700,49 @@
       "url": "https://www.ycombinator.com/companies/ascenix"
     },
     {
+      "id": 37401,
+      "name": "Theseus Robotics",
+      "slug": "theseus-robotics",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/0985c4e6c6734c8e730ab16124ab8ee4c127df5c.png",
+      "website": "https://theseus.bot/",
+      "all_locations": "ZH, Switzerland",
+      "long_description": "Theseus Robotics creates the OS & Physical AI to deploys humanoids to automate menial tasks in supermarkets. During the day, our robotics pick orders for e-grocery orders. Overnight, they restocks shelves with goods from the back warehouse. ",
+      "one_liner": "Humanoids to restock retail shelves & pick orders",
+      "team_size": 7,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "Industrials",
+      "subindustry": "Industrials -> Manufacturing and Robotics",
+      "launched_at": 1791578688,
+      "tags": [
+        "Hard Tech",
+        "Robotics",
+        "Retail Tech"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Fall 2026",
+      "status": "Active",
+      "industries": [
+        "Industrials",
+        "Manufacturing and Robotics"
+      ],
+      "regions": [
+        "Switzerland",
+        "Europe"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/theseus-robotics"
+    },
+    {
       "id": 37274,
       "name": "Decent",
       "slug": "decent-com",
@@ -1058,7 +1101,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/e0ab38690d05797c7ccebecaf6f40e8c72b69516.png",
       "website": "https://acyclic.dev",
       "all_locations": "London, England, United Kingdom",
-      "long_description": "Acyclic runs agent swarms. Hand it a task from the CLI, the dashboard, or a coding agent over MCP, and it splits the work across many agents, each in its own sandbox, then merges what they produce into one result. Long agentic workflows finish in a fraction of the wall-clock time. Bring your own model keys or run the sandboxes in your own cloud; the harness underneath is open source. Coding is the first workload, and research and data work run the same way. Founded by Ram Vinjamuri and Varun Latthe. YC F26, London.",
+      "long_description": "Acyclic builds the infrastructure for agent swarms: open-source primitives for running agents in parallel, and a managed agents platform that runs swarms for you. Complex, long-running tasks are split across many agents, each working in its own instant fork of the workspace, and finish in a fraction of the time.\n\nWe built Acyclic because we believe there are huge gains to be had in how agents are run, beyond the models themselves. Agents can already do real work, but they still do it one step at a time, so complex tasks take hours or days. Running them as swarms is an infrastructure problem: isolating each agent, dividing the work, and merging the results without conflicts. Today, teams use Acyclic to run heavy document-processing pipelines in minutes instead of hours.\n\nAt Cambridge, we researched ML and auto-parallelising compilers, and then we built multi-agent systems in production: Ram as a Palantir FDE for pharma clients, shipping systems for clinical trial design, and Varun leading agent architecture at Tracelight for Big 4 accounting firms. We kept asking the same question: the agents were good enough, so why couldn't we run thousands of them at once to make everything faster and cheaper? Acyclic is our answer.",
       "one_liner": "Agent swarms that make long-running tasks exponentially faster",
       "team_size": 2,
       "highlight_black": false,
@@ -1839,6 +1882,49 @@
       "app_answers": null,
       "question_answers": false,
       "url": "https://www.ycombinator.com/companies/shire-intelligence"
+    },
+    {
+      "id": 36279,
+      "name": "Native",
+      "slug": "native",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/150e28c9ae3ba8f6c0bac4696c53752a638f59ff.png",
+      "website": "https://native.no/",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "Native is building an autonomous marketing platform where business can do all of their marketing within one platform using our artificial intuition model called Norn, that predicts what people will respond to, researched and built in house.",
+      "one_liner": "Artificial Intuition for marketing",
+      "team_size": 6,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "B2B",
+      "subindustry": "B2B -> Marketing",
+      "launched_at": 1791575550,
+      "tags": [
+        "Artificial Intelligence",
+        "Machine Learning",
+        "Social Media"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Fall 2026",
+      "status": "Active",
+      "industries": [
+        "B2B",
+        "Marketing"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/native"
     },
     {
       "id": 36181,
@@ -3585,6 +3671,53 @@
       "app_answers": null,
       "question_answers": false,
       "url": "https://www.ycombinator.com/companies/micora"
+    },
+    {
+      "id": 35191,
+      "name": "Munito AI",
+      "slug": "munito-ai",
+      "former_names": [
+        "zugzug.ai"
+      ],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/287fb0bcb8cbc376d57a3e34f3cd0cdda9966268.png",
+      "website": "https://munito.ai",
+      "all_locations": "Paris, Île-de-France, France; Remote",
+      "long_description": "Munito is an open-model inference provider for Europe, private by default. Its API lets users choose their models and keep inference and storage in the EU. \r\nFounded by the former inference lead at Mistral AI, Munito is built on one belief: open and independent intelligence, both models and inference, is key to economic growth and prosperity.",
+      "one_liner": "Open-model inference provider for Europe, private by default.",
+      "team_size": 1,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "B2B",
+      "subindustry": "B2B -> Engineering, Product and Design",
+      "launched_at": 1791574997,
+      "tags": [
+        "Artificial Intelligence",
+        "Enterprise",
+        "Infrastructure"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Fall 2026",
+      "status": "Active",
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "regions": [
+        "France",
+        "Europe",
+        "Remote",
+        "Fully Remote"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": true,
+      "url": "https://www.ycombinator.com/companies/munito-ai"
     },
     {
       "id": 35190,
@@ -13622,7 +13755,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/8edd99606159933b27bd8c7f3992e7ad9e5b4dea.png",
       "website": "https://www.conus-med.com",
       "all_locations": "Cologne, NRW, Germany",
-      "long_description": "CONUS structures fragmented medical device information for surgeons. We combine manufacturer documentation, hospital protocols and medical research in one place, giving surgeons and MedTech teams reliable answers across products and procedures.\r\n\r\nWe already work with leading manufacturers including Johnson & Johnson, Stryker and Zimmer Biomet, and since launching six months ago we’ve gone live in 18 hospitals.\r\n\r\nLong term, hospitals will use CONUS to select and order implants across manufacturers.",
+      "long_description": "CONUS structures fragmented medical device information for surgeons. We combine manufacturer documentation, hospital protocols and medical research in one place, giving surgeons and MedTech teams reliable answers across products and procedures.\r\n\r\nWe already work with leading manufacturers including Johnson & Johnson, Stryker and Zimmer Biomet, and since launching six months ago we’ve gone live in 20 hospitals.\r\n\r\nLong term, hospitals will use CONUS to select and order implants across manufacturers.",
       "one_liner": "The AI knowledge layer for medical devices",
       "team_size": 3,
       "highlight_black": false,
@@ -13632,8 +13765,8 @@
       "subindustry": "Healthcare",
       "launched_at": 1790675017,
       "tags": [
-        "Artificial Intelligence",
-        "Healthcare"
+        "Healthcare",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -22147,10 +22280,10 @@
       "slug": "fixture",
       "former_names": [],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/254f079e6b0c874fa6ce2878fd0a9d39b229bdd5.png",
-      "website": "https://fixture.app",
+      "website": "https://fixture.ai",
       "all_locations": "",
-      "long_description": "Fixture is an AI-native CRM built for startups. It integrates with all the tools you use to communicate with customers, tracks marketing channels (e.g. website traffic), and pulls everything into a single go-to-market context store. Our AI agents proactively help you move your deals forward, and you can use Fixture from our web UI or any of your favorite AI tools (e.g. Claude Code). ",
-      "one_liner": "An AI-first CRM built for Startups",
+      "long_description": "Fixture is an agentic CRM built for startups. It integrates with all the tools you use to communicate with customers, tracks marketing channels (e.g. website traffic), and pulls everything into a single go-to-market context store. Our AI agents proactively help you move your deals forward, and you can use Fixture from our web UI or any of your favorite AI tools (e.g. Claude Code). ",
+      "one_liner": "An agentic CRM built for Startups",
       "team_size": 5,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -47221,7 +47354,7 @@
       "tags": [],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": true,
+      "isHiring": false,
       "nonprofit": false,
       "batch": "Spring 2025",
       "status": "Active",
@@ -61233,7 +61366,7 @@
       ],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/077de5cdaa18c1c7dd719188ef7fdeadce5020aa.png",
       "website": "https://reticular.com",
-      "all_locations": "San Francisco, CA, USA",
+      "all_locations": "Boston, MA, USA",
       "long_description": "Reticular is scaling polygenic prediction for embryo selection, helping IVF couples plan their families today while building a platform to unlock cures for complex heritable diseases long-term.\r\n\r\nJohn competed Biology Olympiads before spending 4 years at MIT publishing ML/bio research in NeurIPS and Nature. We believe biological models encode far more information than anyone is currently using - our goal is to unlock this potential.",
       "one_liner": "Scaling Genomic AI for Embryo Selection",
       "team_size": 2,
@@ -69816,7 +69949,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/b7d5b3d9d49d514698e3998f8986079a0af9f826.png",
       "website": "https://mitohealth.com/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Mito Health is a U.S. service that lets individuals order more than 1,000 laboratory markers, panels, scans, and at-home kits without going through a traditional doctor’s visit. Members pay $9 per month to access every test at the company’s published cost, see itemized receipts with no hidden mark-ups, and receive priority turnaround on results. \r\n\r\nAfter answering an online questionnaire, users receive personalized test recommendations, can schedule a nearby draw at the lowest available price, and obtain clinician-reviewed action plans that cover sleep, supplements, exercise, and other lifestyle factors. The platform also allows members to upload past lab data, view longitudinal trends, and chat year-round with clinicians or AI health coaching through the built-in Mito Concierge. ",
+      "long_description": "Mito Health is a U.S. service that lets individuals order 12,000+ lab tests, scans, supplements, genetics, home kits, and Rx without a traditional doctor’s visit. Members pay $9 per month to access every product at cost and get itemized receipts with no hidden markups.\r\n\r\nThe average member saves about $300 a year on a full baseline panel.\r\n\r\nWhat the $9/mth Mito membership gets you:\r\n\r\n- 11,000+ practitioner-grade supplements at 35% below Amazon (Thorne, Pure Encapsulations, Life Extension, Ritual, Momentous, Seed)\r\n- 1,200+ lab tests from Quest, Labcorp and BioReference at cost · 49 states · HSA/FSA eligible\r\n- DEXA body composition, bone density, coronary calcium (CAC), whole-body MRI, 30x whole genome sequencing, gut microbiome, multi-cancer early detection\r\n- Every result in one longitudinal record, ordered and reviewed by a partner clinician over concierge\r\n- No markups on tests. No commissions from labs or brands.\r\n- No padded \"wellness panels,\" no upsells, no annual contract; you can cancel anytime.\r\n",
       "one_liner": "At-cost preventive health: Labs, Scans, Genetics, Supplements and Rx",
       "team_size": 5,
       "highlight_black": false,
@@ -69826,9 +69959,9 @@
       "subindustry": "Healthcare -> Consumer Health and Wellness",
       "launched_at": 1721173093,
       "tags": [
+        "Artificial Intelligence",
         "Consumer Health Services",
-        "Digital Health",
-        "AI"
+        "Digital Health"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -106838,7 +106971,7 @@
         "SelectIQ"
       ],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/7c996f3a2f99cc3139f3821e758390c21efe8183.png",
-      "website": "https://www.novel.care",
+      "website": "https://www.novelcare.com",
       "all_locations": "New York City, NY, USA; Remote",
       "long_description": "Novelcare addresses the primary bottleneck in drug development: recruiting patients into clinical trials.\r\n\r\nWe analyze electronic health records to help doctors find clinical trials for their patients, and to help trial sites find patients for their studies. 72% of doctors want to inform their patients of clinical trials, but only 5% do. We're on a mission to close that gap, ultimately bringing safer, more effective drugs to the patients who need them.",
       "one_liner": "Empowering every doctor and every patient to participate in research",
@@ -106850,11 +106983,11 @@
       "subindustry": "Healthcare -> Drug Discovery and Delivery",
       "launched_at": 1677470068,
       "tags": [
-        "Artificial Intelligence",
         "Health Tech",
         "B2B",
         "Healthcare",
-        "Enterprise Software"
+        "Enterprise Software",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -145376,7 +145509,7 @@
       "isHiring": false,
       "nonprofit": false,
       "batch": "Summer 2021",
-      "status": "Active",
+      "status": "Inactive",
       "industries": [
         "B2B",
         "Human Resources"
@@ -186537,7 +186670,7 @@
       "website": "https://reframe.dev/",
       "all_locations": "",
       "long_description": "Shutdown to pursue fundamental computing research",
-      "one_liner": "Zoomable generative UI for codebase architecture",
+      "one_liner": "Model and visualize codebase architecture",
       "team_size": 0,
       "highlight_black": false,
       "highlight_latinx": false,

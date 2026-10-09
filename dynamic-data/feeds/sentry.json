@@ -8,7 +8,7 @@
     "debugging",
     "performance"
   ],
-  "updatedAt": "2026-10-08T22:42:24.334Z",
+  "updatedAt": "2026-10-09T22:04:28.521Z",
   "items": [
     {
       "guid": "https://blog.sentry.io/godot-dotnet-ga/",
@@ -377,7 +377,15 @@
       "summary": "How Sentry Flutter uses a worker isolate for Android SDK operations and reduces duplicate normalization and JSON encoding overhead.",
       "author": null,
       "publishedAt": "2026-10-08T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.sentry.io/tracing-for-all-js-platforms/",
+      "title": "Sentry JavaScript SDK v11 adds tracing for all JS platforms",
+      "link": "https://blog.sentry.io/tracing-for-all-js-platforms/",
+      "summary": "Sentry's v11 JavaScript SDKs trace dependencies with a code transformer instead of OpenTelemetry instrumentation, adding Cloudflare Workers, Bun, and Deno",
+      "author": null,
+      "publishedAt": "2026-10-09T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 46
+  "totalIndexed": 47
 }

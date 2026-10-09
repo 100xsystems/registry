@@ -1,54 +1,50 @@
 # YC Company Changes for 2026-10-09
 
 - Previous total: 6283
-- Current total: 6283
-- Added: 0
+- Current total: 6286
+- Added: 3
 - Removed: 0
-- Updated: 10
+- Updated: 8
 
+
+## Added Companies
+
+- [Munito AI](https://www.ycombinator.com/companies/munito-ai) (Fall 2026) — Open-model inference provider for Europe, private by default.
+- [Native](https://www.ycombinator.com/companies/native) (Fall 2026) — Artificial Intuition for marketing
+- [Theseus Robotics](https://www.ycombinator.com/companies/theseus-robotics) (Fall 2026) — Humanoids to restock retail shelves & pick orders
 
 ## Updated Companies
 
-### [Trackstar](https://www.ycombinator.com/companies/trackstar)
+### [Reframe](https://www.ycombinator.com/companies/reframe-2)
 
-- `team_size`: 7 → 10
+- `one_liner`: Zoomable generative UI for codebase architecture → Model and visualize codebase architecture
 
-### [Numeral](https://www.ycombinator.com/companies/numeral)
+### [Zoios.](https://www.ycombinator.com/companies/zoios)
 
-- `team_size`: 110 → 130
-- `stage`: Growth → Early
+- `status`: Active → Inactive
 
-### [Benchmark](https://www.ycombinator.com/companies/benchmark)
+### [Novelcare](https://www.ycombinator.com/companies/novelcare)
 
-- `status`: Active → Acquired
+- `website`: https://www.novel.care → https://www.novelcare.com
+- `tags`: Artificial Intelligence,Health Tech,B2B,Healthcare,Enterprise Software → Health Tech,B2B,Healthcare,Enterprise Software,AI
 
-### [Oway](https://www.ycombinator.com/companies/oway)
+### [Mito Health](https://www.ycombinator.com/companies/mito-health)
 
-- `one_liner`: The coordination OS for the physical economy.  → Building the open operating system for the automated physical economy.
+- `tags`: Consumer Health Services,Digital Health,AI → Artificial Intelligence,Consumer Health Services,Digital Health
 
-### [Bud](https://www.ycombinator.com/companies/bud)
+### [Reticular](https://www.ycombinator.com/companies/reticular)
 
-- `status`: Active → Acquired
+- `all_locations`: San Francisco, CA, USA → Boston, MA, USA
 
-### [Astro](https://www.ycombinator.com/companies/astro)
+### [Third Chair](https://www.ycombinator.com/companies/third-chair)
 
-- `one_liner`: The world’s first AI energy developer → Power-ready land for AI data centers
+- `isHiring`: true → false
 
-### [Altur](https://www.ycombinator.com/companies/altur)
+### [Fixture](https://www.ycombinator.com/companies/fixture)
 
-- `team_size`: 5 → 9
-- `tags`: Artificial Intelligence → AI
+- `website`: https://fixture.app → https://fixture.ai
+- `one_liner`: An AI-first CRM built for Startups → An agentic CRM built for Startups
 
-### [Semble](https://www.ycombinator.com/companies/semble)
+### [CONUS](https://www.ycombinator.com/companies/conus)
 
-- `one_liner`: The all-in-one software for integrators. → Takeoffs, design, and field work. Powered by AI.
-- `tags`: Artificial Intelligence,SaaS → SaaS,AI
-
-### [Stage](https://www.ycombinator.com/companies/stage)
-
-- `all_locations`: San Francisco, CA, USA → New York City, NY, USA
-
-### [Acyclic Labs](https://www.ycombinator.com/companies/acyclic)
-
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/28f8a7a30ed4c8ddd3df528c98ebc77233935fc2.png → https://bookface-images.s3.amazonaws.com/small_logos/e0ab38690d05797c7ccebecaf6f40e8c72b69516.png
-- `one_liner`: Rapid agent swarms: make any agentic workflow exponentially faster → Agent swarms that make long-running tasks exponentially faster
+- `tags`: Artificial Intelligence,Healthcare → Healthcare,AI
