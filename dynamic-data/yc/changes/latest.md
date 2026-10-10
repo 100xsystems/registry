@@ -1,50 +1,50 @@
-# YC Company Changes for 2026-10-09
+# YC Company Changes for 2026-10-10
 
-- Previous total: 6283
-- Current total: 6286
-- Added: 3
-- Removed: 0
-- Updated: 8
+- Previous total: 6286
+- Current total: 6285
+- Added: 0
+- Removed: 1
+- Updated: 7
 
 
-## Added Companies
+## Removed Companies
 
-- [Munito AI](https://www.ycombinator.com/companies/munito-ai) (Fall 2026) — Open-model inference provider for Europe, private by default.
-- [Native](https://www.ycombinator.com/companies/native) (Fall 2026) — Artificial Intuition for marketing
-- [Theseus Robotics](https://www.ycombinator.com/companies/theseus-robotics) (Fall 2026) — Humanoids to restock retail shelves & pick orders
+- Familiar (Summer 2026)
 
 ## Updated Companies
 
-### [Reframe](https://www.ycombinator.com/companies/reframe-2)
+### [Evidence](https://www.ycombinator.com/companies/evidence)
 
-- `one_liner`: Zoomable generative UI for codebase architecture → Model and visualize codebase architecture
+- `isHiring`: false → true
 
-### [Zoios.](https://www.ycombinator.com/companies/zoios)
+### [Starcloud](https://www.ycombinator.com/companies/starcloud)
 
-- `status`: Active → Inactive
+- `isHiring`: false → true
 
-### [Novelcare](https://www.ycombinator.com/companies/novelcare)
+### [RiskCube](https://www.ycombinator.com/companies/riskcube)
 
-- `website`: https://www.novel.care → https://www.novelcare.com
-- `tags`: Artificial Intelligence,Health Tech,B2B,Healthcare,Enterprise Software → Health Tech,B2B,Healthcare,Enterprise Software,AI
+- `one_liner`: America’s first AI-native reinsurer for emerging risks. → The new American reinsurance company.
+- `tags`: Fintech,Insurance,Defense,AI → Artificial Intelligence,Fintech,Insurance,Defense
 
-### [Mito Health](https://www.ycombinator.com/companies/mito-health)
+### [Polymath](https://www.ycombinator.com/companies/polymath)
 
-- `tags`: Consumer Health Services,Digital Health,AI → Artificial Intelligence,Consumer Health Services,Digital Health
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/897b59e5d2b5dee40c471f153a2aee81587f2ad8.png → https://bookface-images.s3.amazonaws.com/small_logos/76bb13df5212f06b3a237b0ede4cf3adcc8c13e7.png
 
-### [Reticular](https://www.ycombinator.com/companies/reticular)
+### [Capto](https://www.ycombinator.com/companies/capto)
 
-- `all_locations`: San Francisco, CA, USA → Boston, MA, USA
+- `name`: Chromie → Capto
+- `slug`: chromie → capto
+- `former_names`: chromie.dev → chromie.dev,Chromie
+- `website`: https://chromie.dev → https://gocapto.com/
+- `one_liner`: We help startups win gov contracts → Helping startups win gov contracts
 
-### [Third Chair](https://www.ycombinator.com/companies/third-chair)
+### [Petrarch](https://www.ycombinator.com/companies/petrarch)
 
 - `isHiring`: true → false
 
-### [Fixture](https://www.ycombinator.com/companies/fixture)
+### [Stacktrace](https://www.ycombinator.com/companies/stacktrace)
 
-- `website`: https://fixture.app → https://fixture.ai
-- `one_liner`: An AI-first CRM built for Startups → An agentic CRM built for Startups
-
-### [CONUS](https://www.ycombinator.com/companies/conus)
-
-- `tags`: Artificial Intelligence,Healthcare → Healthcare,AI
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/902b46e418653f41629fec03fce33e1e6a3e6bc9.png → https://bookface-images.s3.amazonaws.com/small_logos/e79ba1ad9464ac22023bbed994e2299d2ae8addf.png
+- `subindustry`: B2B -> Security → B2B -> Infrastructure
+- `tags`: DevSecOps,Cybersecurity,AI → Artificial Intelligence,DevSecOps,Cybersecurity,Infrastructure
+- `industries`: B2B,Security → B2B,Infrastructure

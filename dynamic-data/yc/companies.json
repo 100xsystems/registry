@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-10-09T22:04:45.715Z",
-  "count": 6286,
+  "fetchedAt": "2026-10-10T04:34:52.760Z",
+  "count": 6285,
   "companies": [
     {
       "id": 38589,
@@ -3859,22 +3859,23 @@
       "former_names": [
         "OpenACA"
       ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/902b46e418653f41629fec03fce33e1e6a3e6bc9.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/e79ba1ad9464ac22023bbed994e2299d2ae8addf.png",
       "website": "https://stacktrace.ai",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "We’re building Stacktrace to help teams see what AI agents actually do, detect risky\r\nbehavior, and alert the people responsible. Administrators can also deploy policies that block unapproved tools, such as MCP servers and plugins, before agents use them.\r\n",
+      "long_description": "Agents will do most of the work in the future, but only if teams can trust them unsupervised.\r\nStacktrace is the control layer for every agent: it sees every action, detects risky behavior, enforces the bounds your team sets, and steps in when an agent drifts from intent.",
       "one_liner": "See and control what your agents actually do",
       "team_size": 3,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
       "industry": "B2B",
-      "subindustry": "B2B -> Security",
+      "subindustry": "B2B -> Infrastructure",
       "launched_at": 1790912378,
       "tags": [
+        "Artificial Intelligence",
         "DevSecOps",
         "Cybersecurity",
-        "AI"
+        "Infrastructure"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -3884,7 +3885,7 @@
       "status": "Active",
       "industries": [
         "B2B",
-        "Security"
+        "Infrastructure"
       ],
       "regions": [
         "United States of America",
@@ -6158,7 +6159,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": true,
+      "isHiring": false,
       "nonprofit": false,
       "batch": "Summer 2026",
       "status": "Active",
@@ -6931,16 +6932,17 @@
     },
     {
       "id": 33055,
-      "name": "Chromie",
-      "slug": "chromie",
+      "name": "Capto",
+      "slug": "capto",
       "former_names": [
-        "chromie.dev"
+        "chromie.dev",
+        "Chromie"
       ],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/9e9ad437e503d6309ddcdb7e3b79f52406e3f03e.png",
-      "website": "https://chromie.dev",
+      "website": "https://gocapto.com/",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "The intelligent operating system for government contracting. Built by former AI engineers and government officials.",
-      "one_liner": "We help startups win gov contracts",
+      "one_liner": "Helping startups win gov contracts",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -6970,7 +6972,7 @@
       "demo_day_video_public": false,
       "app_answers": null,
       "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/chromie"
+      "url": "https://www.ycombinator.com/companies/capto"
     },
     {
       "id": 33054,
@@ -7897,50 +7899,6 @@
       "app_answers": null,
       "question_answers": false,
       "url": "https://www.ycombinator.com/companies/markov"
-    },
-    {
-      "id": 32987,
-      "name": "Familiar",
-      "slug": "familiar",
-      "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c65a4389d81076a7a08b8c3d3c22a2bf1c54e49b.png",
-      "website": "https://thefamiliarlab.com",
-      "all_locations": "Toronto, ON, Canada",
-      "long_description": "Familiar is the Neolab for world translation. Dubbing into 30 languages. Now with Familiar, the same actor's performance is preserved instead of a mismatched voice over a mismatched face. One model does the voice, the lips, and the scene together, with identity permanence and scene & world understanding. Built by the researchers who pioneered joint audio-visual human models. ",
-      "one_liner": "Multimodal Translation",
-      "team_size": 8,
-      "highlight_black": false,
-      "highlight_latinx": false,
-      "highlight_women": false,
-      "industry": "B2B",
-      "subindustry": "B2B -> Infrastructure",
-      "launched_at": 1786578571,
-      "tags": [
-        "Artificial Intelligence",
-        "Generative AI",
-        "B2B",
-        "Entertainment"
-      ],
-      "tags_highlighted": [],
-      "top_company": false,
-      "isHiring": false,
-      "nonprofit": false,
-      "batch": "Summer 2026",
-      "status": "Active",
-      "industries": [
-        "B2B",
-        "Infrastructure"
-      ],
-      "regions": [
-        "Canada",
-        "America / Canada"
-      ],
-      "stage": "Early",
-      "app_video_public": false,
-      "demo_day_video_public": false,
-      "app_answers": null,
-      "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/familiar"
     },
     {
       "id": 32985,
@@ -24692,10 +24650,10 @@
       "former_names": [
         "Palette AI"
       ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/897b59e5d2b5dee40c471f153a2aee81587f2ad8.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/76bb13df5212f06b3a237b0ede4cf3adcc8c13e7.png",
       "website": "https://polymathlabs.ai/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Polymath is a data lab focused on improving long-horizon agent capabilities and alignment\r\n",
+      "long_description": "Polymath is a data lab focused on improving long-horizon agent capabilities and alignment.\r\n",
       "one_liner": "Simulation environments to train & evaluate long-horizon AI agents",
       "team_size": 6,
       "highlight_black": false,
@@ -61104,7 +61062,7 @@
       "website": "https://riskcube.com",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "RiskCube is building the first AI-native reinsurer for emerging risks.\r\n\r\nMission: Building products & services focused on lowering the protection gap for the innovation economy on a national and global scale. \r\n\r\nToday, we operate an insurance brokerage focused on startups in AI, robotics, space, and defense. Through the brokerage, we see firsthand where traditional insurance products fail, from AI liability and autonomous systems to defense technology and new space risks.\r\n\r\nWe are now building proprietary risk models that can price risks even when little historical claims data exists. Our approach uses stochastic simulation, then applies traditional, explainable models to make the output transparent to underwriters and regulators.\r\n\r\nThis allows us to create new insurance and reinsurance products for emerging industries much faster than traditional carriers.\r\n\r\nThe U.S. insurance market still relies heavily on foreign reinsurance capacity.\r\nOur goal is to build new reinsurance capacity on American soil for the industries defining the next generation of the U.S. economy, while reducing America's dependence on foreign reinsurance capacity.\r\n",
-      "one_liner": "America’s first AI-native reinsurer for emerging risks.",
+      "one_liner": "The new American reinsurance company.",
       "team_size": 3,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -61113,10 +61071,10 @@
       "subindustry": "Fintech -> Insurance",
       "launched_at": 1731782052,
       "tags": [
+        "Artificial Intelligence",
         "Fintech",
         "Insurance",
-        "Defense",
-        "AI"
+        "Defense"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -65964,7 +65922,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": false,
+      "isHiring": true,
       "nonprofit": false,
       "batch": "Summer 2024",
       "status": "Active",
@@ -139578,7 +139536,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": false,
+      "isHiring": true,
       "nonprofit": false,
       "batch": "Summer 2021",
       "status": "Active",

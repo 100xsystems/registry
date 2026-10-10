@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-10-09T22:04:28.253Z",
+  "updatedAt": "2026-10-10T04:34:36.024Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -2385,7 +2385,31 @@
       "summary": "Plenty of Postgres services end up managed by application developers, whether they like it or not. Some dabble in databases on the side, and some inherited the job when the last DBA scampered off for greener pastures. Regardless, they’re put in charge of something they barely understand. Heck, that…",
       "author": null,
       "publishedAt": "2026-10-09T12:14:01.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9xz",
+      "title": "Christophe Pettus: All Your GUCs in a Row: parallel_leader_participation",
+      "link": "https://postgr.es/p/9xz",
+      "summary": "Whether your query's leader process joins the work or just supervises depends on this boolean, and the performance question it settles is subtle.\n\n(I consult on PostgreSQL through PGX Inc..)",
+      "author": null,
+      "publishedAt": "2026-10-10T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9xy",
+      "title": "Christophe Pettus: All Your GUCs in a Row: parallel_setup_cost and parallel_tuple_cost",
+      "link": "https://postgr.es/p/9xy",
+      "summary": "PostgreSQL's parallel query planner charges two fees for going parallel: a setup cost per Gather node and a per-row cost for moving data from workers to…\n\n(I consult on PostgreSQL through PGX Inc..)",
+      "author": null,
+      "publishedAt": "2026-10-10T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9xw",
+      "title": "Chris van Eijk: new row violates row-level security policy: the causes",
+      "link": "https://postgr.es/p/9xw",
+      "summary": "What raised 'new row violates row-level security policy for table' in PostgreSQL 17, measured: inserts, RETURNING, upserts, MERGE and four message forms.",
+      "author": null,
+      "publishedAt": "2026-10-09T23:15:10.000Z"
     }
   ],
-  "totalIndexed": 297
+  "totalIndexed": 300
 }
