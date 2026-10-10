@@ -1,50 +1,43 @@
 # YC Company Changes for 2026-10-10
 
-- Previous total: 6286
+- Previous total: 6285
 - Current total: 6285
 - Added: 0
-- Removed: 1
-- Updated: 7
+- Removed: 0
+- Updated: 8
 
-
-## Removed Companies
-
-- Familiar (Summer 2026)
 
 ## Updated Companies
 
-### [Evidence](https://www.ycombinator.com/companies/evidence)
+### [Numeral](https://www.ycombinator.com/companies/numeral)
 
-- `isHiring`: false → true
+- `stage`: Early → Growth
 
-### [Starcloud](https://www.ycombinator.com/companies/starcloud)
+### [Astro Mechanica](https://www.ycombinator.com/companies/astro-mechanica)
 
-- `isHiring`: false → true
+- `stage`: Early → Growth
 
-### [RiskCube](https://www.ycombinator.com/companies/riskcube)
-
-- `one_liner`: America’s first AI-native reinsurer for emerging risks. → The new American reinsurance company.
-- `tags`: Fintech,Insurance,Defense,AI → Artificial Intelligence,Fintech,Insurance,Defense
-
-### [Polymath](https://www.ycombinator.com/companies/polymath)
-
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/897b59e5d2b5dee40c471f153a2aee81587f2ad8.png → https://bookface-images.s3.amazonaws.com/small_logos/76bb13df5212f06b3a237b0ede4cf3adcc8c13e7.png
-
-### [Capto](https://www.ycombinator.com/companies/capto)
-
-- `name`: Chromie → Capto
-- `slug`: chromie → capto
-- `former_names`: chromie.dev → chromie.dev,Chromie
-- `website`: https://chromie.dev → https://gocapto.com/
-- `one_liner`: We help startups win gov contracts → Helping startups win gov contracts
-
-### [Petrarch](https://www.ycombinator.com/companies/petrarch)
+### [Paasa](https://www.ycombinator.com/companies/paasa)
 
 - `isHiring`: true → false
 
-### [Stacktrace](https://www.ycombinator.com/companies/stacktrace)
+### [Conntour](https://www.ycombinator.com/companies/conntour)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/902b46e418653f41629fec03fce33e1e6a3e6bc9.png → https://bookface-images.s3.amazonaws.com/small_logos/e79ba1ad9464ac22023bbed994e2299d2ae8addf.png
-- `subindustry`: B2B -> Security → B2B -> Infrastructure
-- `tags`: DevSecOps,Cybersecurity,AI → Artificial Intelligence,DevSecOps,Cybersecurity,Infrastructure
-- `industries`: B2B,Security → B2B,Infrastructure
+- `tags`: Computer Vision,Defense,AI → Artificial Intelligence,Computer Vision,Defense
+
+### [SalesPatriot](https://www.ycombinator.com/companies/salespatriot)
+
+- `one_liner`: AI powered operating system for distributors and OEMs → Supply chain superintelligence for distribution and procurement
+
+### [stagewise](https://www.ycombinator.com/companies/stagewise)
+
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/d9ff55657c9c6cb094a914f151062d5bc781a912.png → https://bookface-images.s3.amazonaws.com/small_logos/f23d4a87e54104479dda1da414cfdf2d79192208.png
+- `tags`: Artificial Intelligence,Developer Tools,Open Source → Developer Tools,Open Source,AI
+
+### [Atrisa](https://www.ycombinator.com/companies/atrisa)
+
+- `isHiring`: false → true
+
+### [tday.com](https://www.ycombinator.com/companies/tdaycom)
+
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/3f0ffe6b713cd1d09640befb7d9ecff3dd9facdb.png → https://bookface-images.s3.amazonaws.com/small_logos/dcb95bbd996c96bdc7fb6f2b3eded9623e44edd6.png

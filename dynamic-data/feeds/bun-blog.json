@@ -8,7 +8,7 @@
     "performance",
     "runtime"
   ],
-  "updatedAt": "2026-09-05T10:19:38.061Z",
+  "updatedAt": "2026-10-10T12:13:12.711Z",
   "items": [
     {
       "guid": "https://bun.com/blog/bun-in-rust",
@@ -433,7 +433,15 @@
       "summary": "This release fixes two regressions impacting Elysia and AsyncLocalStorage, a hang in @discordjs/ws, CMYK JPEG decoding in Bun.Image, a rare JIT crash, and a GC crash on musl.",
       "author": null,
       "publishedAt": "2026-09-05T05:39:32.000Z"
+    },
+    {
+      "guid": "https://bun.com/blog/bun-v1.4.3",
+      "title": "Bun v1.4.3",
+      "link": "https://bun.com/blog/bun-v1.4.3",
+      "summary": "Fixes 166 issues, addressing 122 👍. bun check, a TypeScript type checker built into Bun that is 3x to 6.4x faster than tsc 7, --check for bun run, bun build and bun test, 67–89% less idle CPU, Bun.FetchSession, experimental Bun.ModuleGraph, --disallow-code-generation-from-strings, up to 2.7x…",
+      "author": null,
+      "publishedAt": "2026-10-10T03:18:05.000Z"
     }
   ],
-  "totalIndexed": 53
+  "totalIndexed": 54
 }

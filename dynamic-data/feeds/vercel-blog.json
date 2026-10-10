@@ -9,7 +9,7 @@
     "edge-computing",
     "nextjs"
   ],
-  "updatedAt": "2026-10-09T12:55:27.298Z",
+  "updatedAt": "2026-10-10T12:13:23.499Z",
   "items": [
     {
       "guid": "vercel-blog::https://vercel.com/changelog/ai-gateway-now-supports-streaming-transcription",
@@ -4802,7 +4802,31 @@
       "summary": "You can now skip sending client request bodies to  with . This reduces incoming  usage for middleware invocations and can improve time to first byte, especially for requests with large bodies.Routing MiddlewareFast Origin TransferskipMiddlewareRequestBody\nEnable this option only if your Routing…",
       "author": "Shohei Maeda",
       "publishedAt": "2026-10-08T16:05:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/agents-can-now-buy-domains-with-the-vercel-cli",
+      "title": "Agents can now buy domains with the Vercel CLI",
+      "link": "https://vercel.com/changelog/agents-can-now-buy-domains-with-the-vercel-cli",
+      "summary": "Your agent can now use the  to buy a domain. Vercel CLI\nThe  agent discovers candidates with , checks availability and registrar pricing with  and , and initiates the purchase with .vercel domains searchvercel domains checkvercel domains pricevercel domains buy\nThe purchase decision itself stays…",
+      "author": "Melkey Moksyakov",
+      "publishedAt": "2026-10-09T20:24:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/new-pro-teams-now-default-to-30-day-deployment-retention",
+      "title": "New Pro teams now default to 30-day deployment retention",
+      "link": "https://vercel.com/changelog/new-pro-teams-now-default-to-30-day-deployment-retention",
+      "summary": "New Pro teams now default to a 30-day deployment retention period.\nCoding agents have accelerated development, increasing deployment frequency and the amount of stored deployment history. Shorter retention keeps recent history available while limiting older history and its storage costs.\nYou can…",
+      "author": "Pranav Kanchi",
+      "publishedAt": "2026-10-09T18:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/deployment-storage-pricing-expands-to-existing-teams",
+      "title": "Deployment Storage billing begins for existing Pro teams",
+      "link": "https://vercel.com/changelog/deployment-storage-pricing-expands-to-existing-teams",
+      "summary": "and Functions Storage billing will begin for all Pro teams at $0.10 per GB-month. Check your email for details about when billing will start for your team. To keep storage costs low, the deployment retention window also changes to 30 days.Deployment Storage\nDeployments older than 30 days will be…",
+      "author": "Jay Gengelbach",
+      "publishedAt": "2026-10-09T18:00:00.000Z"
     }
   ],
-  "totalIndexed": 599
+  "totalIndexed": 602
 }
