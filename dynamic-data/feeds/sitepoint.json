@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-10-10T20:57:49.684Z",
+  "updatedAt": "2026-10-11T17:23:36.846Z",
   "items": [
     {
       "guid": "https://www.sitepoint.com/how-ai-and-apis-are-changing-everyday-development-work/",
@@ -2295,7 +2295,71 @@
       "summary": "null\nMaking JavaScript API Requests More Reliable with Timeouts, Retries, and Cancellation\n          on SitePoint.",
       "author": "Businessnewsbreak USA",
       "publishedAt": "2026-10-10T09:28:23.000Z"
+    },
+    {
+      "guid": "https://www.sitepoint.com/test-readme-with-real-users/",
+      "title": "Test README with Users and Docker: Two-Layer Verification",
+      "link": "https://www.sitepoint.com/test-readme-with-real-users/?utm_source=rss",
+      "summary": "Verify your project setup documentation using a two-layer testing workflow: automate commands in a clean Docker container to catch mechanical setup errors, then observe a real user think aloud to identify missing prerequisites and unclear steps.\nTest README with Users and Docker: Two-Layer…",
+      "author": "SitePoint Team",
+      "publishedAt": "2026-10-11T15:48:35.000Z"
+    },
+    {
+      "guid": "https://www.sitepoint.com/ai-agent-tool-calling-typescript-guardrails/",
+      "title": "AI Agent Tool Calling in TypeScript: Guardrails Against Runaway Loops",
+      "link": "https://www.sitepoint.com/ai-agent-tool-calling-typescript-guardrails/?utm_source=rss",
+      "summary": "Add bounded retries, execution timeouts, and a best-effort budget guard to your TypeScript AI agent tool-calling loop to stop runaway LLM API loops and token overruns.\nAI Agent Tool Calling in TypeScript: Guardrails Against Runaway Loops\n          on SitePoint.",
+      "author": "SitePoint Team",
+      "publishedAt": "2026-10-11T15:47:00.000Z"
+    },
+    {
+      "guid": "https://www.sitepoint.com/self-host-nextjs-production-docker-standalone/",
+      "title": "Self Host Next.js in Production with Docker Standalone",
+      "link": "https://www.sitepoint.com/self-host-nextjs-production-docker-standalone/?utm_source=rss",
+      "summary": "Learn how to self-host Next.js in production using Docker standalone output, Nginx reverse proxying, health checks, and shared cache handling across containers.\nSelf Host Next.js in Production with Docker Standalone\n          on SitePoint.",
+      "author": "SitePoint Team",
+      "publishedAt": "2026-10-11T15:45:21.000Z"
+    },
+    {
+      "guid": "https://www.sitepoint.com/tailwind-css-v4-dynamic-themes/",
+      "title": "Tailwind CSS v4 Dynamic Themes Using Semantic CSS Tokens",
+      "link": "https://www.sitepoint.com/tailwind-css-v4-dynamic-themes/?utm_source=rss",
+      "summary": "Combine multiple color themes and dark modes in Tailwind CSS v4 using @theme inline and CSS custom properties, enabling utilities like bg-primary to adapt at runtime without dark: variants.\nTailwind CSS v4 Dynamic Themes Using Semantic CSS Tokens\n          on SitePoint.",
+      "author": "SitePoint Team",
+      "publishedAt": "2026-10-11T15:42:16.000Z"
+    },
+    {
+      "guid": "https://www.sitepoint.com/tilde-in-path-security-fix/",
+      "title": "Tilde in PATH Security: How Quoted Tildes Cause Relative Execution",
+      "link": "https://www.sitepoint.com/tilde-in-path-security-fix/?utm_source=rss",
+      "summary": "Quoting a tilde in PATH suppresses expansion, creating a literal '~' entry that resolves relative to the current working directory. If an attacker can write to that relative path and PATH search order reaches it, the shell executes the foreign binary. Here is how to audit your shell configuration…",
+      "author": "SitePoint Team",
+      "publishedAt": "2026-10-11T15:40:55.000Z"
+    },
+    {
+      "guid": "https://www.sitepoint.com/flexbox-space-between-no-effect-free-space/",
+      "title": "Flexbox space-between Not Working on Wide Screens? How to Fix It",
+      "link": "https://www.sitepoint.com/flexbox-space-between-no-effect-free-space/?utm_source=rss",
+      "summary": "Understand why justify-content: space-between fails on wide screens, how flex-grow consumes distributable free space, and how to restore alignment using proper flex item sizing.\nFlexbox space-between Not Working on Wide Screens? How to Fix It\n          on SitePoint.",
+      "author": "SitePoint Team",
+      "publishedAt": "2026-10-11T15:40:26.000Z"
+    },
+    {
+      "guid": "https://www.sitepoint.com/building-reliable-marketplace-listing-workflows-a-developer-s-guide/",
+      "title": "Building Reliable Marketplace Listing Workflows: A Developer’s Guide",
+      "link": "https://www.sitepoint.com/building-reliable-marketplace-listing-workflows-a-developer-s-guide/?utm_source=rss",
+      "summary": "null\nBuilding Reliable Marketplace Listing Workflows: A Developer’s Guide\n          on SitePoint.",
+      "author": "Saifullah Adenwalla",
+      "publishedAt": "2026-10-11T09:35:30.000Z"
+    },
+    {
+      "guid": "https://www.sitepoint.com/design-workflow-ai-era-vitalii-khomenko/",
+      "title": "The Design Workflow Is Broken. Here Is How Vitalii Khomenko Thinks It Should Be Fixed",
+      "link": "https://www.sitepoint.com/design-workflow-ai-era-vitalii-khomenko/?utm_source=rss",
+      "summary": "Principal Designer Vitalii Khomenko argues the real bottleneck in AI-accelerated product teams isn't engineering anymore, it's the Figma-to-code handoff, and here's his fix.\nThe Design Workflow Is Broken. Here Is How Vitalii Khomenko Thinks It Should Be Fixed\n          on SitePoint.",
+      "author": "Vitalii Khomenko",
+      "publishedAt": "2026-10-11T06:14:25.000Z"
     }
   ],
-  "totalIndexed": 286
+  "totalIndexed": 294
 }

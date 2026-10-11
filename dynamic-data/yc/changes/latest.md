@@ -1,29 +1,45 @@
 # YC Company Changes for 2026-10-11
 
 - Previous total: 6286
-- Current total: 6286
-- Added: 0
+- Current total: 6287
+- Added: 1
 - Removed: 0
-- Updated: 4
+- Updated: 7
 
+
+## Added Companies
+
+- [Rodeo Robotics](https://www.ycombinator.com/companies/rodeo-robotics) (Fall 2026) — Robots for vehicle maintenance.
 
 ## Updated Companies
 
-### [Duffl](https://www.ycombinator.com/companies/duffl)
+### [Slash](https://www.ycombinator.com/companies/slash)
 
-- `team_size`: 12 → 50
-- `stage`: Growth → Early
+- `all_locations`: San Francisco, CA, USA → Minneapolis, MN, USA
 
-### [Sureform](https://www.ycombinator.com/companies/sureform)
+### [Morph](https://www.ycombinator.com/companies/morph)
 
-- `one_liner`: Real-world data and RL environments for frontier AI → Real-world company data for frontier AI
-- `team_size`: 2 → 4
-- `tags`: Marketplace,Robotics,Data Labeling,AI → Marketplace,Data Labeling,AI
+- `all_locations`: San Francisco, CA, USA → Columbus, OH, USA
 
-### [tday.com](https://www.ycombinator.com/companies/tdaycom)
+### [General Trajectory](https://www.ycombinator.com/companies/general-trajectory)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/dcb95bbd996c96bdc7fb6f2b3eded9623e44edd6.png → https://bookface-images.s3.amazonaws.com/small_logos/e44ed02ee8401d33164908d2c6b159fb262e1bcf.png
+- `all_locations`: San Francisco, CA, USA → Los Angeles, CA, USA
 
-### [Reason Machines](https://www.ycombinator.com/companies/reason-machines)
+### [stagewise](https://www.ycombinator.com/companies/stagewise)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/1f536d08b73147eb71c0665fe5c2d6c6ffed0663.png → https://bookface-images.s3.amazonaws.com/small_logos/41ce981200cf7566e83cab9db3f721b243d01db5.png
+- `one_liner`: The Open Source Agentic IDE → The makers of Klex Bots, your own team of digital coworkers.
+- `tags`: Developer Tools,Open Source,AI → Artificial Intelligence,Developer Tools,Open Source
+
+### [Redapto](https://www.ycombinator.com/companies/redapto)
+
+- `all_locations`: San Francisco, CA, USA → Bengaluru, KA, India
+- `regions`: United States of America,America / Canada → India,South Asia
+
+### [Osseus](https://www.ycombinator.com/companies/osseus)
+
+- `all_locations`:  → London, England, United Kingdom
+- `regions`: Unspecified → United Kingdom,Europe
+
+### [Viraj Aero](https://www.ycombinator.com/companies/viraj-aero)
+
+- `tags`: Artificial Intelligence,Hard Tech,Energy,Aerospace → Hard Tech,Energy,Aerospace,AI
