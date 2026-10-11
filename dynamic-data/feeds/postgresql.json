@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-10-10T04:34:36.024Z",
+  "updatedAt": "2026-10-11T21:18:56.689Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -2409,7 +2409,15 @@
       "summary": "What raised 'new row violates row-level security policy for table' in PostgreSQL 17, measured: inserts, RETURNING, upserts, MERGE and four message forms.",
       "author": null,
       "publishedAt": "2026-10-09T23:15:10.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9xB",
+      "title": "Radim Marek: How TABLESAMPLE picks rows",
+      "link": "https://postgr.es/p/9xB",
+      "summary": "Most exploratory questions against a large table only need a rough answer, but without an index on status, even \"roughly how many shipped orders\" costs a full scan. On the two-million-row orders table, Postgres has to read every single 8 kB page, all 18,085 of them (141 MB), just to count matching…",
+      "author": null,
+      "publishedAt": "2026-10-11T18:45:40.000Z"
     }
   ],
-  "totalIndexed": 300
+  "totalIndexed": 301
 }

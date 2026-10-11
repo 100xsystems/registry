@@ -1,197 +1,75 @@
 {
   "date": "2026-10-11",
-  "fetchedAt": "2026-10-11T17:23:41.922Z",
-  "previousCount": 6286,
+  "fetchedAt": "2026-10-11T21:19:17.877Z",
+  "previousCount": 6287,
   "currentCount": 6287,
-  "added": [
-    {
-      "id": 31509,
-      "name": "Rodeo Robotics",
-      "slug": "rodeo-robotics",
-      "former_names": [
-        "Lasso (temporary, naming conflict exists)",
-        "Lasso"
-      ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/ed94f83ed341c4f879d7c08c2570c04ba145e07c.png",
-      "website": "https://www.rodeorobotics.com/",
-      "all_locations": "San Francisco, CA, USA",
-      "long_description": "Rodeo builds a robotic technician that automates maintenance so fleets can get vehicles back on the road sooner. Initial deployments focus on oil changes at centralized depots, where routine maintenance competes for scarce technician time.\r\n\r\nCofounders Michael Hazard and Colby Duke met at Applied Intuition, where they worked with OEMs like Toyota and General Motors to bring software and autonomy to vehicles. They saw firsthand how much manual work it takes to keep vehicle fleets running, and learned how to make autonomy reliable through structured testing, real-world data, and human intervention.\r\n\r\nThey’re now applying their experience to the roughly $600B annual US vehicle maintenance market. The average US vehicle is older than ever, driving up maintenance demand at a time when shops already struggle to hire and retain technicians. That gap leaves fleets facing costly downtime and preventable breakdowns.\r\n\r\nDespite this need, vehicle maintenance has resisted traditional automation. Service information is fragmented and unreliable, and vehicle hardware varies significantly between makes and models. Rodeo builds on advances in robotic foundation models to learn maintenance skills that transfer across vehicles.\r\n\r\nRodeo pairs robots with human technicians who ensure each job is completed correctly, handling work the robots can’t yet perform autonomously. These deployments generate training data for Rodeo’s models through both teleoperation and hand tools augmented to record how technicians work. This lets Rodeo earn revenue while collecting the data needed to automate more of each job and improve margins.",
-      "one_liner": "Robots for vehicle maintenance.",
-      "team_size": 2,
-      "highlight_black": false,
-      "highlight_latinx": false,
-      "highlight_women": false,
-      "industry": "Industrials",
-      "subindustry": "Industrials -> Manufacturing and Robotics",
-      "launched_at": 1791737469,
-      "tags": [
-        "Artificial Intelligence",
-        "Hard Tech",
-        "Robotics",
-        "Automotive"
-      ],
-      "tags_highlighted": [],
-      "top_company": false,
-      "isHiring": false,
-      "nonprofit": false,
-      "batch": "Fall 2026",
-      "status": "Active",
-      "industries": [
-        "Industrials",
-        "Manufacturing and Robotics"
-      ],
-      "regions": [
-        "United States of America",
-        "America / Canada"
-      ],
-      "stage": "Early",
-      "app_video_public": false,
-      "demo_day_video_public": false,
-      "app_answers": null,
-      "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/rodeo-robotics"
-    }
-  ],
+  "added": [],
   "removed": [],
   "updated": [
     {
-      "id": 23120,
-      "name": "Slash",
-      "slug": "slash",
-      "batch": "Summer 2021",
-      "url": "https://www.ycombinator.com/companies/slash",
+      "id": 21795,
+      "name": "QuestDB",
+      "slug": "questdb",
+      "batch": "Summer 2020",
+      "url": "https://www.ycombinator.com/companies/questdb",
       "changes": [
         {
-          "field": "all_locations",
-          "before": "San Francisco, CA, USA",
-          "after": "Minneapolis, MN, USA"
+          "field": "team_size",
+          "before": 30,
+          "after": 20
         }
       ]
     },
     {
-      "id": 29120,
-      "name": "Morph",
-      "slug": "morph",
-      "batch": "Summer 2023",
-      "url": "https://www.ycombinator.com/companies/morph",
+      "id": 30111,
+      "name": "x1",
+      "slug": "x1",
+      "batch": "Fall 2024",
+      "url": "https://www.ycombinator.com/companies/x1",
       "changes": [
         {
-          "field": "all_locations",
-          "before": "San Francisco, CA, USA",
-          "after": "Columbus, OH, USA"
+          "field": "isHiring",
+          "before": true,
+          "after": false
         }
       ]
     },
     {
-      "id": 30276,
-      "name": "General Trajectory",
-      "slug": "general-trajectory",
-      "batch": "Winter 2025",
-      "url": "https://www.ycombinator.com/companies/general-trajectory",
-      "changes": [
-        {
-          "field": "all_locations",
-          "before": "San Francisco, CA, USA",
-          "after": "Los Angeles, CA, USA"
-        }
-      ]
-    },
-    {
-      "id": 30772,
-      "name": "stagewise",
-      "slug": "stagewise",
+      "id": 30818,
+      "name": "Nox Metals",
+      "slug": "nox-metals",
       "batch": "Summer 2025",
-      "url": "https://www.ycombinator.com/companies/stagewise",
+      "url": "https://www.ycombinator.com/companies/nox-metals",
       "changes": [
         {
-          "field": "one_liner",
-          "before": "The Open Source Agentic IDE",
-          "after": "The makers of Klex Bots, your own team of digital coworkers."
-        },
-        {
-          "field": "tags",
-          "before": [
-            "Developer Tools",
-            "Open Source",
-            "AI"
-          ],
-          "after": [
-            "Artificial Intelligence",
-            "Developer Tools",
-            "Open Source"
-          ]
+          "field": "team_size",
+          "before": 35,
+          "after": 52
         }
       ]
     },
     {
-      "id": 30912,
-      "name": "Redapto",
-      "slug": "redapto",
-      "batch": "Fall 2025",
-      "url": "https://www.ycombinator.com/companies/redapto",
-      "changes": [
-        {
-          "field": "all_locations",
-          "before": "San Francisco, CA, USA",
-          "after": "Bengaluru, KA, India"
-        },
-        {
-          "field": "regions",
-          "before": [
-            "United States of America",
-            "America / Canada"
-          ],
-          "after": [
-            "India",
-            "South Asia"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 33540,
-      "name": "Osseus",
-      "slug": "osseus",
-      "batch": "Summer 2026",
-      "url": "https://www.ycombinator.com/companies/osseus",
-      "changes": [
-        {
-          "field": "all_locations",
-          "before": "",
-          "after": "London, England, United Kingdom"
-        },
-        {
-          "field": "regions",
-          "before": [
-            "Unspecified"
-          ],
-          "after": [
-            "United Kingdom",
-            "Europe"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 34904,
-      "name": "Viraj Aero",
-      "slug": "viraj-aero",
+      "id": 36577,
+      "name": "OpEra",
+      "slug": "opera",
       "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/viraj-aero",
+      "url": "https://www.ycombinator.com/companies/opera",
       "changes": [
         {
           "field": "tags",
           "before": [
-            "Artificial Intelligence",
-            "Hard Tech",
-            "Energy",
-            "Aerospace"
+            "Logistics",
+            "Manufacturing",
+            "Supply Chain",
+            "Operations",
+            "AI"
           ],
           "after": [
-            "Hard Tech",
-            "Energy",
-            "Aerospace",
-            "AI"
+            "Artificial Intelligence",
+            "Logistics",
+            "Manufacturing",
+            "Supply Chain",
+            "Operations"
           ]
         }
       ]

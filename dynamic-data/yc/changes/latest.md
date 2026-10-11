@@ -1,45 +1,26 @@
 # YC Company Changes for 2026-10-11
 
-- Previous total: 6286
+- Previous total: 6287
 - Current total: 6287
-- Added: 1
+- Added: 0
 - Removed: 0
-- Updated: 7
+- Updated: 4
 
-
-## Added Companies
-
-- [Rodeo Robotics](https://www.ycombinator.com/companies/rodeo-robotics) (Fall 2026) — Robots for vehicle maintenance.
 
 ## Updated Companies
 
-### [Slash](https://www.ycombinator.com/companies/slash)
+### [QuestDB](https://www.ycombinator.com/companies/questdb)
 
-- `all_locations`: San Francisco, CA, USA → Minneapolis, MN, USA
+- `team_size`: 30 → 20
 
-### [Morph](https://www.ycombinator.com/companies/morph)
+### [x1](https://www.ycombinator.com/companies/x1)
 
-- `all_locations`: San Francisco, CA, USA → Columbus, OH, USA
+- `isHiring`: true → false
 
-### [General Trajectory](https://www.ycombinator.com/companies/general-trajectory)
+### [Nox Metals](https://www.ycombinator.com/companies/nox-metals)
 
-- `all_locations`: San Francisco, CA, USA → Los Angeles, CA, USA
+- `team_size`: 35 → 52
 
-### [stagewise](https://www.ycombinator.com/companies/stagewise)
+### [OpEra](https://www.ycombinator.com/companies/opera)
 
-- `one_liner`: The Open Source Agentic IDE → The makers of Klex Bots, your own team of digital coworkers.
-- `tags`: Developer Tools,Open Source,AI → Artificial Intelligence,Developer Tools,Open Source
-
-### [Redapto](https://www.ycombinator.com/companies/redapto)
-
-- `all_locations`: San Francisco, CA, USA → Bengaluru, KA, India
-- `regions`: United States of America,America / Canada → India,South Asia
-
-### [Osseus](https://www.ycombinator.com/companies/osseus)
-
-- `all_locations`:  → London, England, United Kingdom
-- `regions`: Unspecified → United Kingdom,Europe
-
-### [Viraj Aero](https://www.ycombinator.com/companies/viraj-aero)
-
-- `tags`: Artificial Intelligence,Hard Tech,Energy,Aerospace → Hard Tech,Energy,Aerospace,AI
+- `tags`: Logistics,Manufacturing,Supply Chain,Operations,AI → Artificial Intelligence,Logistics,Manufacturing,Supply Chain,Operations
