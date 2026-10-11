@@ -1,77 +1,158 @@
 {
-  "date": "2026-10-10",
-  "fetchedAt": "2026-10-10T20:57:52.106Z",
-  "previousCount": 6285,
+  "date": "2026-10-11",
+  "fetchedAt": "2026-10-11T04:19:24.843Z",
+  "previousCount": 6286,
   "currentCount": 6286,
-  "added": [
-    {
-      "id": 37999,
-      "name": "RATLOG",
-      "slug": "ratlog",
-      "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c91e646aa134e7ed3da1082d56c2a3cdd68f8337.png",
-      "website": "",
-      "all_locations": "Dresden, SN, Germany",
-      "long_description": "",
-      "one_liner": "Reusable heavy-lift rockets",
-      "team_size": 4,
-      "highlight_black": false,
-      "highlight_latinx": false,
-      "highlight_women": false,
-      "industry": "Industrials",
-      "subindustry": "Industrials -> Aviation and Space",
-      "launched_at": 1791657873,
-      "tags": [
-        "Commercial Space Launch"
-      ],
-      "tags_highlighted": [],
-      "top_company": false,
-      "isHiring": false,
-      "nonprofit": false,
-      "batch": "Fall 2026",
-      "status": "Active",
-      "industries": [
-        "Industrials",
-        "Aviation and Space"
-      ],
-      "regions": [
-        "Germany",
-        "Europe"
-      ],
-      "stage": "Early",
-      "app_video_public": false,
-      "demo_day_video_public": false,
-      "app_answers": null,
-      "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/ratlog"
-    }
-  ],
+  "added": [],
   "removed": [],
   "updated": [
     {
-      "id": 30442,
-      "name": "YouLearn",
-      "slug": "youlearn",
-      "batch": "Spring 2025",
-      "url": "https://www.ycombinator.com/companies/youlearn",
+      "id": 1836,
+      "name": "Orangewood Labs",
+      "slug": "orangewood-labs",
+      "batch": "Winter 2018",
+      "url": "https://www.ycombinator.com/companies/orangewood-labs",
       "changes": [
         {
+          "field": "all_locations",
+          "before": "San Francisco, CA, USA; Noida, UP, India",
+          "after": "San Francisco, CA, USA"
+        },
+        {
+          "field": "one_liner",
+          "before": "Orangewood Labs makes worlds most affordable and easiest AI robot arms",
+          "after": "Orangewood democratises robotics"
+        },
+        {
           "field": "team_size",
-          "before": 4,
-          "after": 3
+          "before": 40,
+          "after": 8
         },
         {
           "field": "tags",
           "before": [
-            "AI-Enhanced Learning",
-            "Education",
-            "AI"
+            "Artificial Intelligence",
+            "Generative AI",
+            "Hardware",
+            "Robotics"
           ],
           "after": [
-            "AI-Enhanced Learning",
-            "Artificial Intelligence",
-            "Education"
+            "Generative AI",
+            "Hardware",
+            "Robotics",
+            "AI"
           ]
+        },
+        {
+          "field": "regions",
+          "before": [
+            "United States of America",
+            "India",
+            "America / Canada",
+            "South Asia"
+          ],
+          "after": [
+            "United States of America",
+            "America / Canada",
+            "Remote",
+            "Partly Remote"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 25318,
+      "name": "Handyman.ai",
+      "slug": "handymanai",
+      "batch": "Winter 2022",
+      "url": "https://www.ycombinator.com/companies/handymanai",
+      "changes": [
+        {
+          "field": "name",
+          "before": "WeReno",
+          "after": "Handyman.ai"
+        },
+        {
+          "field": "slug",
+          "before": "wereno",
+          "after": "handymanai"
+        },
+        {
+          "field": "former_names",
+          "before": [
+            "WeReno",
+            "Inc.",
+            "VIDCALL",
+            "Inc",
+            "WeReno",
+            "WeReno (Vidcall",
+            "Inc.)",
+            "WeReno",
+            "Scope3D (fka WeReno)",
+            "Scope3D",
+            "Built OS",
+            "BuiltOS"
+          ],
+          "after": [
+            "WeReno",
+            "Inc.",
+            "VIDCALL",
+            "Inc",
+            "WeReno",
+            "WeReno (Vidcall",
+            "Inc.)",
+            "WeReno",
+            "Scope3D (fka WeReno)",
+            "Scope3D",
+            "Built OS",
+            "BuiltOS",
+            "WeReno",
+            "Handyman.ai by WeReno"
+          ]
+        },
+        {
+          "field": "small_logo_thumb_url",
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/c65d6fe451c746d928cfe1511810bc3f77971cb3.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/5b2cd4bcd46eaa5a921d4398a930a8db159d40bd.png"
+        },
+        {
+          "field": "website",
+          "before": "https://WeReno.com",
+          "after": "https://handyman.ai"
+        },
+        {
+          "field": "one_liner",
+          "before": "The AI operating layer for property improvement.",
+          "after": "Handyman.ai by WeReno- The AI operating layer for property improvement"
+        },
+        {
+          "field": "tags",
+          "before": [
+            "Artificial Intelligence",
+            "Real Estate",
+            "Construction",
+            "Proptech"
+          ],
+          "after": [
+            "Real Estate",
+            "Construction",
+            "Proptech",
+            "AI"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 30243,
+      "name": "Cifrato",
+      "slug": "cifrato",
+      "batch": "Winter 2025",
+      "url": "https://www.ycombinator.com/companies/cifrato",
+      "changes": [
+        {
+          "field": "isHiring",
+          "before": false,
+          "after": true
         }
       ]
     },
@@ -84,56 +165,75 @@
       "changes": [
         {
           "field": "one_liner",
-          "before": "Industrial aOS between humans, agents, and robots",
-          "after": "AI agents that run end to end operations for industrial enterprises"
+          "before": "AI agents that run end to end operations for industrial enterprises",
+          "after": "Agents running industrial enterprises from back office to shop floor"
+        }
+      ]
+    },
+    {
+      "id": 34904,
+      "name": "Viraj Aero",
+      "slug": "viraj-aero",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/viraj-aero",
+      "changes": [
+        {
+          "field": "all_locations",
+          "before": "Toulouse, Occitanie, France",
+          "after": ""
         },
         {
-          "field": "subindustry",
-          "before": "Industrials -> Manufacturing and Robotics",
-          "after": "Industrials"
-        },
-        {
-          "field": "industries",
+          "field": "tags",
           "before": [
-            "Industrials",
-            "Manufacturing and Robotics"
+            "Artificial Intelligence",
+            "Hard Tech",
+            "Energy",
+            "Aerospace",
+            "ClimateTech"
           ],
           "after": [
-            "Industrials"
+            "Artificial Intelligence",
+            "Hard Tech",
+            "Energy",
+            "Aerospace"
+          ]
+        },
+        {
+          "field": "regions",
+          "before": [
+            "France",
+            "Europe"
+          ],
+          "after": [
+            "Unspecified"
           ]
         }
       ]
     },
     {
-      "id": 35850,
-      "name": "Dreamscale Labs",
-      "slug": "dreamscale-labs",
+      "id": 37601,
+      "name": "Lark",
+      "slug": "lark-2",
       "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/dreamscale-labs",
+      "url": "https://www.ycombinator.com/companies/lark-2",
       "changes": [
         {
           "field": "one_liner",
-          "before": "Running robot brains in the cloud",
-          "after": "Real-time cloud inference for robotics."
-        }
-      ]
-    },
-    {
-      "id": 36577,
-      "name": "OpEra",
-      "slug": "opera",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/opera",
-      "changes": [
-        {
-          "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/8ab2731276f4a748d3087f83aa4d1ed311a0690b.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/31457ec77d0c307cc8c7986a68fd9d81c50a99ce.png"
+          "before": "Lark - Specialized agents for wholesale distributors",
+          "after": "Lark - AI agents that automate workflows for wholesale distributors"
         },
         {
-          "field": "one_liner",
-          "before": "Automated operations research (OR) lab",
-          "after": "The AI decision engine for factories, warehouses and fleets"
+          "field": "tags",
+          "before": [
+            "B2B",
+            "Supply Chain",
+            "AI"
+          ],
+          "after": [
+            "Artificial Intelligence",
+            "B2B",
+            "Supply Chain"
+          ]
         }
       ]
     }

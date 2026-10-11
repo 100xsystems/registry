@@ -1,34 +1,47 @@
-# YC Company Changes for 2026-10-10
+# YC Company Changes for 2026-10-11
 
-- Previous total: 6285
+- Previous total: 6286
 - Current total: 6286
-- Added: 1
+- Added: 0
 - Removed: 0
-- Updated: 4
+- Updated: 6
 
-
-## Added Companies
-
-- [RATLOG](https://www.ycombinator.com/companies/ratlog) (Fall 2026) — Reusable heavy-lift rockets
 
 ## Updated Companies
 
-### [YouLearn](https://www.ycombinator.com/companies/youlearn)
+### [Orangewood Labs](https://www.ycombinator.com/companies/orangewood-labs)
 
-- `team_size`: 4 → 3
-- `tags`: AI-Enhanced Learning,Education,AI → AI-Enhanced Learning,Artificial Intelligence,Education
+- `all_locations`: San Francisco, CA, USA; Noida, UP, India → San Francisco, CA, USA
+- `one_liner`: Orangewood Labs makes worlds most affordable and easiest AI robot arms → Orangewood democratises robotics
+- `team_size`: 40 → 8
+- `tags`: Artificial Intelligence,Generative AI,Hardware,Robotics → Generative AI,Hardware,Robotics,AI
+- `regions`: United States of America,India,America / Canada,South Asia → United States of America,America / Canada,Remote,Partly Remote
+
+### [Handyman.ai](https://www.ycombinator.com/companies/handymanai)
+
+- `name`: WeReno → Handyman.ai
+- `slug`: wereno → handymanai
+- `former_names`: WeReno,Inc.,VIDCALL,Inc,WeReno,WeReno (Vidcall,Inc.),WeReno,Scope3D (fka WeReno),Scope3D,Built OS,Bu → WeReno,Inc.,VIDCALL,Inc,WeReno,WeReno (Vidcall,Inc.),WeReno,Scope3D (fka WeReno),Scope3D,Built OS,Bu
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/c65d6fe451c746d928cfe1511810bc3f77971cb3.png → https://bookface-images.s3.amazonaws.com/small_logos/5b2cd4bcd46eaa5a921d4398a930a8db159d40bd.png
+- `website`: https://WeReno.com → https://handyman.ai
+- `one_liner`: The AI operating layer for property improvement. → Handyman.ai by WeReno- The AI operating layer for property improvement
+- `tags`: Artificial Intelligence,Real Estate,Construction,Proptech → Real Estate,Construction,Proptech,AI
+
+### [Cifrato](https://www.ycombinator.com/companies/cifrato)
+
+- `isHiring`: false → true
 
 ### [Faraday](https://www.ycombinator.com/companies/faraday)
 
-- `one_liner`: Industrial aOS between humans, agents, and robots → AI agents that run end to end operations for industrial enterprises
-- `subindustry`: Industrials -> Manufacturing and Robotics → Industrials
-- `industries`: Industrials,Manufacturing and Robotics → Industrials
+- `one_liner`: AI agents that run end to end operations for industrial enterprises → Agents running industrial enterprises from back office to shop floor
 
-### [Dreamscale Labs](https://www.ycombinator.com/companies/dreamscale-labs)
+### [Viraj Aero](https://www.ycombinator.com/companies/viraj-aero)
 
-- `one_liner`: Running robot brains in the cloud → Real-time cloud inference for robotics.
+- `all_locations`: Toulouse, Occitanie, France → 
+- `tags`: Artificial Intelligence,Hard Tech,Energy,Aerospace,ClimateTech → Artificial Intelligence,Hard Tech,Energy,Aerospace
+- `regions`: France,Europe → Unspecified
 
-### [OpEra](https://www.ycombinator.com/companies/opera)
+### [Lark](https://www.ycombinator.com/companies/lark-2)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/8ab2731276f4a748d3087f83aa4d1ed311a0690b.png → https://bookface-images.s3.amazonaws.com/small_logos/31457ec77d0c307cc8c7986a68fd9d81c50a99ce.png
-- `one_liner`: Automated operations research (OR) lab → The AI decision engine for factories, warehouses and fleets
+- `one_liner`: Lark - Specialized agents for wholesale distributors → Lark - AI agents that automate workflows for wholesale distributors
+- `tags`: B2B,Supply Chain,AI → Artificial Intelligence,B2B,Supply Chain
