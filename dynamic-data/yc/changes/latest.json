@@ -1,239 +1,88 @@
 {
   "date": "2026-10-11",
-  "fetchedAt": "2026-10-11T04:19:24.843Z",
+  "fetchedAt": "2026-10-11T12:27:56.723Z",
   "previousCount": 6286,
   "currentCount": 6286,
   "added": [],
   "removed": [],
   "updated": [
     {
-      "id": 1836,
-      "name": "Orangewood Labs",
-      "slug": "orangewood-labs",
-      "batch": "Winter 2018",
-      "url": "https://www.ycombinator.com/companies/orangewood-labs",
+      "id": 13204,
+      "name": "Duffl",
+      "slug": "duffl",
+      "batch": "Winter 2020",
+      "url": "https://www.ycombinator.com/companies/duffl",
       "changes": [
         {
-          "field": "all_locations",
-          "before": "San Francisco, CA, USA; Noida, UP, India",
-          "after": "San Francisco, CA, USA"
+          "field": "team_size",
+          "before": 12,
+          "after": 50
         },
         {
+          "field": "stage",
+          "before": "Growth",
+          "after": "Early"
+        }
+      ]
+    },
+    {
+      "id": 30561,
+      "name": "Sureform",
+      "slug": "sureform",
+      "batch": "Spring 2025",
+      "url": "https://www.ycombinator.com/companies/sureform",
+      "changes": [
+        {
           "field": "one_liner",
-          "before": "Orangewood Labs makes worlds most affordable and easiest AI robot arms",
-          "after": "Orangewood democratises robotics"
+          "before": "Real-world data and RL environments for frontier AI",
+          "after": "Real-world company data for frontier AI"
         },
         {
           "field": "team_size",
-          "before": 40,
-          "after": 8
+          "before": 2,
+          "after": 4
         },
         {
           "field": "tags",
           "before": [
-            "Artificial Intelligence",
-            "Generative AI",
-            "Hardware",
-            "Robotics"
-          ],
-          "after": [
-            "Generative AI",
-            "Hardware",
+            "Marketplace",
             "Robotics",
+            "Data Labeling",
             "AI"
-          ]
-        },
-        {
-          "field": "regions",
-          "before": [
-            "United States of America",
-            "India",
-            "America / Canada",
-            "South Asia"
           ],
           "after": [
-            "United States of America",
-            "America / Canada",
-            "Remote",
-            "Partly Remote"
+            "Marketplace",
+            "Data Labeling",
+            "AI"
           ]
         }
       ]
     },
     {
-      "id": 25318,
-      "name": "Handyman.ai",
-      "slug": "handymanai",
-      "batch": "Winter 2022",
-      "url": "https://www.ycombinator.com/companies/handymanai",
+      "id": 31455,
+      "name": "tday.com",
+      "slug": "tdaycom",
+      "batch": "Spring 2026",
+      "url": "https://www.ycombinator.com/companies/tdaycom",
       "changes": [
-        {
-          "field": "name",
-          "before": "WeReno",
-          "after": "Handyman.ai"
-        },
-        {
-          "field": "slug",
-          "before": "wereno",
-          "after": "handymanai"
-        },
-        {
-          "field": "former_names",
-          "before": [
-            "WeReno",
-            "Inc.",
-            "VIDCALL",
-            "Inc",
-            "WeReno",
-            "WeReno (Vidcall",
-            "Inc.)",
-            "WeReno",
-            "Scope3D (fka WeReno)",
-            "Scope3D",
-            "Built OS",
-            "BuiltOS"
-          ],
-          "after": [
-            "WeReno",
-            "Inc.",
-            "VIDCALL",
-            "Inc",
-            "WeReno",
-            "WeReno (Vidcall",
-            "Inc.)",
-            "WeReno",
-            "Scope3D (fka WeReno)",
-            "Scope3D",
-            "Built OS",
-            "BuiltOS",
-            "WeReno",
-            "Handyman.ai by WeReno"
-          ]
-        },
         {
           "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/c65d6fe451c746d928cfe1511810bc3f77971cb3.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/5b2cd4bcd46eaa5a921d4398a930a8db159d40bd.png"
-        },
-        {
-          "field": "website",
-          "before": "https://WeReno.com",
-          "after": "https://handyman.ai"
-        },
-        {
-          "field": "one_liner",
-          "before": "The AI operating layer for property improvement.",
-          "after": "Handyman.ai by WeReno- The AI operating layer for property improvement"
-        },
-        {
-          "field": "tags",
-          "before": [
-            "Artificial Intelligence",
-            "Real Estate",
-            "Construction",
-            "Proptech"
-          ],
-          "after": [
-            "Real Estate",
-            "Construction",
-            "Proptech",
-            "AI"
-          ]
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/dcb95bbd996c96bdc7fb6f2b3eded9623e44edd6.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/e44ed02ee8401d33164908d2c6b159fb262e1bcf.png"
         }
       ]
     },
     {
-      "id": 30243,
-      "name": "Cifrato",
-      "slug": "cifrato",
-      "batch": "Winter 2025",
-      "url": "https://www.ycombinator.com/companies/cifrato",
+      "id": 31458,
+      "name": "Reason Machines",
+      "slug": "reason-machines",
+      "batch": "Spring 2026",
+      "url": "https://www.ycombinator.com/companies/reason-machines",
       "changes": [
         {
-          "field": "isHiring",
-          "before": false,
-          "after": true
-        }
-      ]
-    },
-    {
-      "id": 34896,
-      "name": "Faraday",
-      "slug": "faraday",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/faraday",
-      "changes": [
-        {
-          "field": "one_liner",
-          "before": "AI agents that run end to end operations for industrial enterprises",
-          "after": "Agents running industrial enterprises from back office to shop floor"
-        }
-      ]
-    },
-    {
-      "id": 34904,
-      "name": "Viraj Aero",
-      "slug": "viraj-aero",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/viraj-aero",
-      "changes": [
-        {
-          "field": "all_locations",
-          "before": "Toulouse, Occitanie, France",
-          "after": ""
-        },
-        {
-          "field": "tags",
-          "before": [
-            "Artificial Intelligence",
-            "Hard Tech",
-            "Energy",
-            "Aerospace",
-            "ClimateTech"
-          ],
-          "after": [
-            "Artificial Intelligence",
-            "Hard Tech",
-            "Energy",
-            "Aerospace"
-          ]
-        },
-        {
-          "field": "regions",
-          "before": [
-            "France",
-            "Europe"
-          ],
-          "after": [
-            "Unspecified"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 37601,
-      "name": "Lark",
-      "slug": "lark-2",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/lark-2",
-      "changes": [
-        {
-          "field": "one_liner",
-          "before": "Lark - Specialized agents for wholesale distributors",
-          "after": "Lark - AI agents that automate workflows for wholesale distributors"
-        },
-        {
-          "field": "tags",
-          "before": [
-            "B2B",
-            "Supply Chain",
-            "AI"
-          ],
-          "after": [
-            "Artificial Intelligence",
-            "B2B",
-            "Supply Chain"
-          ]
+          "field": "small_logo_thumb_url",
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/1f536d08b73147eb71c0665fe5c2d6c6ffed0663.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/41ce981200cf7566e83cab9db3f721b243d01db5.png"
         }
       ]
     }
