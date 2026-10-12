@@ -1,67 +1,68 @@
 # YC Company Changes for 2026-10-12
 
-- Previous total: 6288
-- Current total: 6289
-- Added: 1
+- Previous total: 6289
+- Current total: 6292
+- Added: 3
 - Removed: 0
-- Updated: 10
+- Updated: 11
 
 
 ## Added Companies
 
-- [Pomerado](https://www.ycombinator.com/companies/pomerado) (Fall 2026) — Turn any website into an MCP for your agents, in minutes
+- [Sintem](https://www.ycombinator.com/companies/sintem) (Fall 2026) — Agentic phones for teams
+- [Polemos Industries](https://www.ycombinator.com/companies/polemos-industries) (Fall 2026) — AI-guided ballistic missiles, cheap enough to field in numbers that…
+- [Reconero](https://www.ycombinator.com/companies/reconero) (Fall 2026) — Reconero helps police officers automate their workflows with AI
 
 ## Updated Companies
 
-### [Duffl](https://www.ycombinator.com/companies/duffl)
+### [Spice Data](https://www.ycombinator.com/companies/spice-data)
 
-- `stage`: Early → Growth
+- `isHiring`: false → true
 
-### [Typewise](https://www.ycombinator.com/companies/typewise)
+### [Yoneda Research](https://www.ycombinator.com/companies/yoneda-research)
+
+- `name`: Yoneda Health → Yoneda Research
+- `slug`: yoneda-health → yoneda-research
+- `former_names`: Tambua Health → Tambua Health,Yoneda Health
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/0c6d7367572dbd0fc40b24d0143efd38dc5f71af.png → https://bookface-images.s3.amazonaws.com/small_logos/8f2be1b92c6f23be3b2f4b25c374939796cd9bdc.png
+- `website`: https://tambua.health/ → https://www.y0n3da.xyz/
+
+### [QuestDB](https://www.ycombinator.com/companies/questdb)
+
+- `team_size`: 20 → 0
+
+### [Ponyrun](https://www.ycombinator.com/companies/ponyrun)
+
+- `status`: Active → Inactive
+
+### [KorrAI](https://www.ycombinator.com/companies/korrai)
+
+- `tags`: Artificial Intelligence,Climate,Mining → Climate,Mining,AI
+
+### [Smobi](https://www.ycombinator.com/companies/smobi)
+
+- `status`: Active → Inactive
+
+### [Corgi Insurance](https://www.ycombinator.com/companies/corgi-insurance)
+
+- `stage`: Growth → Early
+
+### [Knowlify](https://www.ycombinator.com/companies/knowlify)
+
+- `one_liner`: The AI Explainer Video Maker → DFY video paid ads agency for startups
+- `subindustry`: B2B → B2B -> Marketing
+- `tags`: Artificial Intelligence,Education,Generative AI,Video,Enterprise Software → Video,Marketing,Advertising
+- `industries`: B2B → B2B,Marketing
+
+### [Imperfect](https://www.ycombinator.com/companies/imperfect)
 
 - `isHiring`: true → false
 
-### [The Vibe Company](https://www.ycombinator.com/companies/the-vibe-company)
+### [Orthogonal](https://www.ycombinator.com/companies/orthogonal)
 
-- `name`: Quivr → The Vibe Company
-- `slug`: quivr → the-vibe-company
-- `former_names`:  → Quivr
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/55e2d5d59eda45392b5f80742e4d67462860257e.png → https://bookface-images.s3.amazonaws.com/small_logos/48a2e57e5dd1d60b9593214bad1c5d81f0340c27.png
-- `website`: https://www.quivr.app/ → https://thevibecompany.co
-- `one_liner`: AI-powered auto-resolutions and reply suggestions for customer… → AI-native agency that scales like software, run on our own AI agents.
-- `subindustry`: B2B -> Productivity → B2B
-- `isHiring`: false → true
-- `industries`: B2B,Productivity → B2B
-
-### [Conntour](https://www.ycombinator.com/companies/conntour)
-
-- `tags`: Computer Vision,Defense,AI → Artificial Intelligence,Computer Vision,Defense
-
-### [RamAIn](https://www.ycombinator.com/companies/ramain)
-
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/84a4e967f95d9b8d27dc1c449093e93017aa4beb.png → https://bookface-images.s3.amazonaws.com/small_logos/e2b50a0163e4e9b6028ca59700b409129a13fe04.png
-- `one_liner`: Automate any UI task with natural language → RamAIn - AI Employees with a computer to perform business tasks just…
-- `team_size`: 4 → 7
-- `tags`: Artificial Intelligence,Robotic Process Automation,Automation → Robotic Process Automation,Automation,AI
-
-### [Pocket](https://www.ycombinator.com/companies/pocket)
-
-- `team_size`: 15 → 35
-
-### [tday.com](https://www.ycombinator.com/companies/tdaycom)
-
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/e44ed02ee8401d33164908d2c6b159fb262e1bcf.png → https://bookface-images.s3.amazonaws.com/small_logos/826a45ec885ec85fd4365a46539e3e25d71b2d4b.png
-
-### [Pluto](https://www.ycombinator.com/companies/talentpluto)
-
-- `tags`: AI,Careers,Conversational AI → Artificial Intelligence,Careers,Conversational AI
 - `isHiring`: false → true
 
-### [Nex](https://www.ycombinator.com/companies/nex)
+### [GovGuard](https://www.ycombinator.com/companies/govguard)
 
-- `one_liner`: AI for high volume GTM Engineering → Grok bot for GTM & Revenue teams
-
-### [OpEra](https://www.ycombinator.com/companies/opera)
-
-- `all_locations`: New York City, NY, USA → San Francisco, CA, USA
-- `tags`: Artificial Intelligence,Logistics,Manufacturing,Supply Chain,Operations → Logistics,Manufacturing,Supply Chain,Operations,AI
+- `all_locations`: Chicago, IL, USA → 
+- `regions`: United States of America,America / Canada → Unspecified
