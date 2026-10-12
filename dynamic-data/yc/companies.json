@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-10-12T04:35:55.867Z",
-  "count": 6288,
+  "fetchedAt": "2026-10-12T14:59:09.016Z",
+  "count": 6289,
   "companies": [
     {
       "id": 38589,
@@ -1625,7 +1625,7 @@
       ],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/31457ec77d0c307cc8c7986a68fd9d81c50a99ce.png",
       "website": "https://operatechnologies.com",
-      "all_locations": "New York City, NY, USA",
+      "all_locations": "San Francisco, CA, USA",
       "long_description": "OpEra Technologies is the AI decision engine for factories, warehouses and fleets. Companies with physical operations make thousands of decisions every day, and we help their teams make the best one at every step from production to delivery: (1) Planning: how much to make, buy and stock. (2) Scheduling: what runs when, and who works on what. (3) Allocation: which warehouse or store gets each order. (4) Routing: boat, plane or truck, and which route each one takes. Founded out of MIT's Operations Research Center.",
       "one_liner": "The AI decision engine for factories, warehouses and fleets",
       "team_size": 2,
@@ -1636,11 +1636,11 @@
       "subindustry": "B2B -> Supply Chain and Logistics",
       "launched_at": 1790381980,
       "tags": [
-        "Artificial Intelligence",
         "Logistics",
         "Manufacturing",
         "Supply Chain",
-        "Operations"
+        "Operations",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -2188,6 +2188,53 @@
       "app_answers": null,
       "question_answers": false,
       "url": "https://www.ycombinator.com/companies/covera"
+    },
+    {
+      "id": 36016,
+      "name": "Pomerado",
+      "slug": "pomerado",
+      "former_names": [
+        "Toolsmith"
+      ],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/4d4ea3739a0bbffad42b3f827b3d69b5ad605a8f.png",
+      "website": "https://www.pomerado.ai",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "Pomerado turns any website into an API / MCP in minutes. Empower your agents to use previously inaccessable consumer websites, legacy portals, and internal tools. \r\n\r\nYou or your agent describe a task, Pomerado asks a few clarifying questions, and then delivers an integration. We manage hosting, permissioning, testing, and maintenance, so you can focus on building. \r\n\r\nAs consultants at McKinsey and Scale AI, we saw that legacy systems were the true blocker to agentic workflows. Pomerado connects those systems to agents.",
+      "one_liner": "Turn any website into an MCP for your agents, in minutes",
+      "team_size": 2,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "B2B",
+      "subindustry": "B2B -> Infrastructure",
+      "launched_at": 1791788322,
+      "tags": [
+        "Artificial Intelligence",
+        "Developer Tools",
+        "B2B",
+        "Workflow Automation",
+        "API"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Fall 2026",
+      "status": "Active",
+      "industries": [
+        "B2B",
+        "Infrastructure"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/pomerado"
     },
     {
       "id": 36015,
@@ -5815,8 +5862,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/b8f563ce5c802b34a01e9ad0f5641eb4bb092c6c.png",
       "website": "https://nex.ai",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Nex builds and runs the complex, high-volume GTM workflows that general-purpose agents struggle with. Built by ex-HubSpotters who ran its three largest customer platforms and backed by HubSpot founder Dharmesh Shah.",
-      "one_liner": "AI for high volume GTM Engineering",
+      "long_description": "We build and deploy AI agents that manage prospecting, qualification, CRM hygiene, forecasting, lead routing, revenue recovery, and all the complex revenue work in between, on autopilot.",
+      "one_liner": "Grok bot for GTM & Revenue teams",
       "team_size": 5,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -9942,13 +9989,13 @@
       "subindustry": "B2B -> Recruiting and Talent",
       "launched_at": 1782230867,
       "tags": [
-        "AI",
+        "Artificial Intelligence",
         "Careers",
         "Conversational AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": false,
+      "isHiring": true,
       "nonprofit": false,
       "batch": "Summer 2026",
       "status": "Active",
@@ -17566,7 +17613,7 @@
         "markup.one",
         "tday"
       ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/e44ed02ee8401d33164908d2c6b159fb262e1bcf.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/826a45ec885ec85fd4365a46539e3e25d71b2d4b.png",
       "website": "https://tday.com",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "tday automatically turns a software company's product into on-brand marketing creative. Connect your product and git repo, and tday generates polished launch videos, social graphics, and ads, the content a team would normally spend hours making in a design tool or pay a freelancer for. tday then publishes the creative and measures how it performs across your social and ad channels, closing the loop from what you ship to what you post.",
@@ -24912,7 +24959,7 @@
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Pocket is a Y Combinator W26 company building a premium hardware plus software product in the AI voice recorder space. We are obsessed with quality and speed. We are scaling very fast in the US and now European markets and building a device experience that can become the category leader.",
       "one_liner": "Take Notes in the Real World",
-      "team_size": 15,
+      "team_size": 35,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -27546,12 +27593,12 @@
       "former_names": [
         "Ramain"
       ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/84a4e967f95d9b8d27dc1c449093e93017aa4beb.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/e2b50a0163e4e9b6028ca59700b409129a13fe04.png",
       "website": "https://ramain.ai",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "RamAIn can intelligently automate any super complex and repetitive process across applications (Browser & Desktop) super fast. It doesn’t matter whether you have API access or not - if you can see it, RamAIn can do it. \r\n\r\nSimply chat with it and get your UI task as a composable API - fully managed, self-healing and self-evolving!",
-      "one_liner": "Automate any UI task with natural language",
-      "team_size": 4,
+      "long_description": "RamAIn Employees join your team just like a human. Teach them to work across systems just like a new hire and watch them work autonomously to do the work 24/7. ",
+      "one_liner": "RamAIn - AI Employees with a computer to perform business tasks just…",
+      "team_size": 7,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -27559,9 +27606,9 @@
       "subindustry": "B2B",
       "launched_at": 1767663208,
       "tags": [
-        "Artificial Intelligence",
         "Robotic Process Automation",
-        "Automation"
+        "Automation",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -57210,7 +57257,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c972b0925a72b8923c709c1b48733059aafb73d3.png",
       "website": "https://www.conntour.com/",
       "all_locations": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-      "long_description": "Conntour enables government agencies to query their video - from security cameras, body cams, and drones.\r\n\r\nUsers can search past footage (“Find a man with tattoos on his left arm”), configure real-time alerts (“Notify me if someone climbs over the wall”), and extract data (“How many pickup trucks entered yesterday?”).\r\n\r\nUnlike traditional video analytics solutions, which are limited to fixed parameters (like a weapon, bag, or car color), Conntour supports an unlimited range of highly specific scenarios described in plain language. This enables a single human to monitor thousands of cameras, or find a specific moment in minutes instead of days.\r\n\r\nWhat makes Conntour's technology unique is its ability to process video using natural language at scale, fully on-premises, with minimal hardware requirements. The system is already deployed with mission-critical teams at leading intelligence and homeland security agencies.\r\n\r\nConntour is backed by top-tier investors including General Catalyst and Y Combinator, was selected for the first-ever Palantir Fellowship, and has the former CTO of the CIA on its advisory board.",
+      "long_description": "Conntour enables government agencies to query their video - from security cameras, body cams, and drones.\r\n\r\nUsers can search past footage (“Find a man with tattoos on his left arm”), configure real-time alerts (“Notify me if someone climbs over the wall”), and extract data (“How many pickup trucks entered yesterday?”).\r\n\r\nUnlike traditional video analytics solutions, which are limited to fixed parameters (like a weapon, bag, or car color), Conntour supports an unlimited range of highly specific scenarios described in plain language. This enables a single human to monitor thousands of cameras, or find a specific moment in minutes instead of days.\r\n\r\nWhat makes Conntour's technology unique is its ability to process video using natural language at scale, fully on-premises, with minimal hardware requirements. The system is deployed with mission-critical teams at leading intelligence and homeland security agencies.\r\n\r\nConntour is backed by top-tier investors including General Catalyst and Y Combinator, was selected for the first-ever Palantir Fellowship, and has the former CTO of the CIA on its advisory board.",
       "one_liner": "Query mission-critical video",
       "team_size": 20,
       "highlight_black": false,
@@ -57220,9 +57267,9 @@
       "subindustry": "Industrials -> Defense",
       "launched_at": 1738284252,
       "tags": [
+        "Artificial Intelligence",
         "Computer Vision",
-        "Defense",
-        "AI"
+        "Defense"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -74989,31 +75036,32 @@
     },
     {
       "id": 29504,
-      "name": "Quivr",
-      "slug": "quivr",
-      "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/55e2d5d59eda45392b5f80742e4d67462860257e.png",
-      "website": "https://www.quivr.app/",
+      "name": "The Vibe Company",
+      "slug": "the-vibe-company",
+      "former_names": [
+        "Quivr"
+      ],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/48a2e57e5dd1d60b9593214bad1c5d81f0340c27.png",
+      "website": "https://thevibecompany.co",
       "all_locations": "Paris, Île-de-France, France",
-      "long_description": "Quivr is an AI-powered customer support tool that helps teams draft responses, automate replies, and resolve tickets directly inside platforms like Zendesk or other helpdesk solutions.\r\n\r\nThe platform augments agent productivity by reducing repetitive work and accelerating resolution time.",
-      "one_liner": "AI-powered auto-resolutions and reply suggestions for customer…",
+      "long_description": "The Vibe Company (formerly Quivr, YC W24) is an AI-native agency. We build custom products and internal tools for companies, deploy agentic automations (agents, skills, workflows), and train teams on AI adoption.\r\n\r\nOur bet: agencies don’t scale because they sell hours. We’re building one that does, by automating our own internal processes with AI agents. Every workflow we automate for ourselves becomes something we can ship to clients.",
+      "one_liner": "AI-native agency that scales like software, run on our own AI agents.",
       "team_size": 5,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
       "industry": "B2B",
-      "subindustry": "B2B -> Productivity",
+      "subindustry": "B2B",
       "launched_at": 1706766974,
       "tags": [],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": false,
+      "isHiring": true,
       "nonprofit": false,
       "batch": "Winter 2024",
       "status": "Active",
       "industries": [
-        "B2B",
-        "Productivity"
+        "B2B"
       ],
       "regions": [
         "France",
@@ -75026,7 +75074,7 @@
       "demo_day_video_public": false,
       "app_answers": null,
       "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/quivr"
+      "url": "https://www.ycombinator.com/companies/the-vibe-company"
     },
     {
       "id": 29503,
@@ -114072,7 +114120,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": true,
+      "isHiring": false,
       "nonprofit": false,
       "batch": "Summer 2022",
       "status": "Active",
@@ -187057,7 +187105,7 @@
         "Remote",
         "Partly Remote"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,

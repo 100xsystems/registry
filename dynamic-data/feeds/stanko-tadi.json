@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-07-24T07:09:52.301Z",
+  "updatedAt": "2026-10-12T14:58:59.565Z",
   "items": [
     {
       "guid": "stanko-tadi::https://muffinman.io/blog/spacedeck-x-july-devlog/",
@@ -407,7 +407,15 @@
       "summary": "Recently I implemented a fly out menu in React, and stumbled on the following problem - I had to catch a blur event on the menu, but it had multiple focusable children. When user is tabbing between these menu items, blur event is triggered every time on the parent, followed by the focus event on…",
       "author": "Stanko",
       "publishedAt": "2021-09-19T00:00:00.000Z"
+    },
+    {
+      "guid": "stanko-tadi::https://muffinman.io/blog/gameboy-pixel-art-jam-2026-spacedeck-trio/",
+      "title": "GB Pixel Art Jam 2026 - SpaceDeck Trio",
+      "link": "https://muffinman.io/blog/gameboy-pixel-art-jam-2026-spacedeck-trio/",
+      "summary": "I participated in my first pixel art jam! It was a Game Boy themed one. It was a lot of fun to work with such a limited palette. The theme was Three, and I went with three player ships from SpaceDeck X. I was happy to see how well my sprites translate into the Game Boy's original colors.\nOnce I…",
+      "author": "Stanko",
+      "publishedAt": "2026-12-10T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 50
+  "totalIndexed": 51
 }

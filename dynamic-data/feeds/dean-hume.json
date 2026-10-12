@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-10-08T18:28:24.146Z",
+  "updatedAt": "2026-10-12T14:58:51.485Z",
   "items": [
     {
       "guid": "6a214333a5fdd000011796ba",
@@ -167,7 +167,15 @@
       "summary": "Get an OAuth 2.0 access token in Node.js with MSAL, then call Microsoft Graph using built-in fetch and credentials loaded from an environment file.",
       "author": "Dean Hume",
       "publishedAt": "2026-10-08T00:00:00.000Z"
+    },
+    {
+      "guid": "https://deanhume.com/oauth-2-0-vs-openid-connect/",
+      "title": "OAuth 2.0 vs OpenID Connect: What's the Difference and Which Do You Need?",
+      "link": "https://deanhume.com/oauth-2-0-vs-openid-connect/",
+      "summary": "OAuth 2.0 handles authorization, OpenID Connect handles authentication. Learn the difference, how the tokens compare, and which one your app needs.",
+      "author": "Dean Hume",
+      "publishedAt": "2026-10-12T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 20
+  "totalIndexed": 21
 }

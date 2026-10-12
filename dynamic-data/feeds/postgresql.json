@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-10-12T04:35:36.334Z",
+  "updatedAt": "2026-10-12T14:58:50.244Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -2425,7 +2425,39 @@
       "summary": "For anyone with an interest in the long-term health and longevity of the\nbroader ecosystem of Postgres extensions and tools, we’d like to hear your\nideas and inspirations for its assurance. Come to the PGConf.EU half-day\nCommunity Events Day session in València this year, cheekily called A\nPostgres…",
       "author": null,
       "publishedAt": "2026-10-11T21:21:15.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9xN",
+      "title": "Devrim GÜNDÜZ: PostgreSQL RPM repository meets AI with pg_statviz",
+      "link": "https://postgr.es/p/9xN",
+      "summary": "pg_statviz can now ask Claude, a local Ollama model, OpenAI or Gemini to explain your PostgreSQL statistics on every distro we ship it for. Getting there took three days and a few dozen new Python packages \npg_statviz is a small tool that snapshots PostgreSQL's internal statistics and draws charts…",
+      "author": null,
+      "publishedAt": "2026-10-12T06:40:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9xM",
+      "title": "Devrim GÜNDÜZ: PostgreSQL RPM repository meets AI with pg_statviz",
+      "link": "https://postgr.es/p/9xM",
+      "summary": "pg_statviz can now ask Claude, a local Ollama model, OpenAI or Gemini to explain your PostgreSQL statistics on every distro we ship it for. Getting there took three days and a few dozen new Python packages \npg_statviz is a small tool that snapshots PostgreSQL's internal statistics and draws charts…",
+      "author": null,
+      "publishedAt": "2026-10-12T06:40:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9xL",
+      "title": "Cornelia Biacsics: Contributions for week 40",
+      "link": "https://postgr.es/p/9xL",
+      "summary": "On 7 October, the London PostgreSQL Meetup group met. \nOrganizers: \nValeria Kaplan\nChris Ellis \nAlastair Turner\nSpeakers: \nElizabeth Christensen\nAlex Kasko\nJimmy Angelakos\nOn 8 October the PostgreSQL England North Meetup Group. Joseph Bharath Reddy Allam delivered a talk. \nOrganized by: \nDaniel…",
+      "author": null,
+      "publishedAt": "2026-10-12T06:27:57.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9xJ",
+      "title": "Christophe Pettus: All Your GUCs in a Row: plan_cache_mode",
+      "link": "https://postgr.es/p/9xJ",
+      "summary": "Override PostgreSQL's prepared statement plan choice when its cost estimates go wrong on skewed data.\n\n(I consult on PostgreSQL through PGX Inc..)",
+      "author": null,
+      "publishedAt": "2026-10-12T01:00:00.000Z"
     }
   ],
-  "totalIndexed": 302
+  "totalIndexed": 306
 }

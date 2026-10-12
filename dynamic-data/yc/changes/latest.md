@@ -1,69 +1,67 @@
 # YC Company Changes for 2026-10-12
 
-- Previous total: 6287
-- Current total: 6288
+- Previous total: 6288
+- Current total: 6289
 - Added: 1
 - Removed: 0
-- Updated: 11
+- Updated: 10
 
 
 ## Added Companies
 
-- [ChemPilot.ai](https://www.ycombinator.com/companies/chempilotai) (Fall 2026) — Discover novel defense related materials/molecules.
+- [Pomerado](https://www.ycombinator.com/companies/pomerado) (Fall 2026) — Turn any website into an MCP for your agents, in minutes
 
 ## Updated Companies
 
-### [Output Labs](https://www.ycombinator.com/companies/output-labs)
+### [Duffl](https://www.ycombinator.com/companies/duffl)
 
-- `name`: Output Biosciences → Output Labs
-- `slug`: output → output-labs
-- `former_names`: Jingu Health → Jingu Health,Output Biosciences
-- `website`: https://www.outputbio.com/ → https://www.outputlabs.ai/
-- `one_liner`: The foundation for the next era of biology → The foundation for the next era of science
-- `tags`: AI-powered Drug Discovery,Generative AI,Biotech,AI → AI-powered Drug Discovery,Artificial Intelligence,Generative AI,Biotech
+- `stage`: Early → Growth
 
-### [Carma](https://www.ycombinator.com/companies/carma)
-
-- `team_size`: 15 → 5
-
-### [expand.ai](https://www.ycombinator.com/companies/expand-ai)
-
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/9a4ca900e14bd5e1d1e19fc8edf43b165d078ff8.png → https://bookface-images.s3.amazonaws.com/small_logos/cbb3378711a3516d3cc0bdd3c41a57f151832b9b.png
-- `one_liner`: Turn any website into an API. → Lossless web data.
-- `team_size`: 2 → 3
-
-### [Pipeshift](https://www.ycombinator.com/companies/pipeshift)
-
-- `one_liner`: Ultra-low latency inference cloud for real-time workloads → Inference for real-time voice and chat
-- `tags`: AIOps,Artificial Intelligence,Infrastructure,AI,ML → AIOps,Infrastructure
-
-### [Fuse AI](https://www.ycombinator.com/companies/fuse-ai)
-
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/b35775b402fe5b455dc597de9a7000386d936776.png → https://bookface-images.s3.amazonaws.com/small_logos/3867f5ddc00eb6796cf0b3718c7f1e735656fe4b.png
-
-### [Mentra](https://www.ycombinator.com/companies/mentra)
+### [Typewise](https://www.ycombinator.com/companies/typewise)
 
 - `isHiring`: true → false
 
-### [Leadbay](https://www.ycombinator.com/companies/leadbay)
+### [The Vibe Company](https://www.ycombinator.com/companies/the-vibe-company)
 
-- `isHiring`: true → false
+- `name`: Quivr → The Vibe Company
+- `slug`: quivr → the-vibe-company
+- `former_names`:  → Quivr
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/55e2d5d59eda45392b5f80742e4d67462860257e.png → https://bookface-images.s3.amazonaws.com/small_logos/48a2e57e5dd1d60b9593214bad1c5d81f0340c27.png
+- `website`: https://www.quivr.app/ → https://thevibecompany.co
+- `one_liner`: AI-powered auto-resolutions and reply suggestions for customer… → AI-native agency that scales like software, run on our own AI agents.
+- `subindustry`: B2B -> Productivity → B2B
+- `isHiring`: false → true
+- `industries`: B2B,Productivity → B2B
 
-### [Moda](https://www.ycombinator.com/companies/moda)
+### [Conntour](https://www.ycombinator.com/companies/conntour)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/c76a18751e4b95b7b3cf621f7752449405d71aa5.png → https://bookface-images.s3.amazonaws.com/small_logos/fd64626b0d2bee14b3f5a65475f8e788a52bf6d2.png
-- `one_liner`: Harness Engineering Infrastructure that developers love. → Your agents should never make the same mistake twice.
+- `tags`: Computer Vision,Defense,AI → Artificial Intelligence,Computer Vision,Defense
 
-### [Mirrors](https://www.ycombinator.com/companies/mirrors)
+### [RamAIn](https://www.ycombinator.com/companies/ramain)
 
-- `one_liner`: Give AI agents the right instructions at the right moment → Give AI agents the right context at the right moment
-- `tags`: AIOps,Artificial Intelligence,Developer Tools,SaaS,B2B → AIOps,Developer Tools,SaaS,B2B,AI
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/84a4e967f95d9b8d27dc1c449093e93017aa4beb.png → https://bookface-images.s3.amazonaws.com/small_logos/e2b50a0163e4e9b6028ca59700b409129a13fe04.png
+- `one_liner`: Automate any UI task with natural language → RamAIn - AI Employees with a computer to perform business tasks just…
+- `team_size`: 4 → 7
+- `tags`: Artificial Intelligence,Robotic Process Automation,Automation → Robotic Process Automation,Automation,AI
 
-### [Asakana](https://www.ycombinator.com/companies/asakana)
+### [Pocket](https://www.ycombinator.com/companies/pocket)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/582ebf9f01453d95f2c02b9bac341aff365af875.png → https://bookface-images.s3.amazonaws.com/small_logos/b17bfb784fbfd8ce18bf9fc551a8a6c2a2c68f02.png
-- `one_liner`: AI order entry for food distributors: emails and texts to ERP → Automating away manual admin for food distributors: texts to ERP
+- `team_size`: 15 → 35
 
-### [Streamline Systems](https://www.ycombinator.com/companies/streamline-systems)
+### [tday.com](https://www.ycombinator.com/companies/tdaycom)
 
-- `isHiring`: true → false
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/e44ed02ee8401d33164908d2c6b159fb262e1bcf.png → https://bookface-images.s3.amazonaws.com/small_logos/826a45ec885ec85fd4365a46539e3e25d71b2d4b.png
+
+### [Pluto](https://www.ycombinator.com/companies/talentpluto)
+
+- `tags`: AI,Careers,Conversational AI → Artificial Intelligence,Careers,Conversational AI
+- `isHiring`: false → true
+
+### [Nex](https://www.ycombinator.com/companies/nex)
+
+- `one_liner`: AI for high volume GTM Engineering → Grok bot for GTM & Revenue teams
+
+### [OpEra](https://www.ycombinator.com/companies/opera)
+
+- `all_locations`: New York City, NY, USA → San Francisco, CA, USA
+- `tags`: Artificial Intelligence,Logistics,Manufacturing,Supply Chain,Operations → Logistics,Manufacturing,Supply Chain,Operations,AI
