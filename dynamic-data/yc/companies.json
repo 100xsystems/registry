@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-10-11T21:19:17.879Z",
-  "count": 6287,
+  "fetchedAt": "2026-10-12T04:35:55.867Z",
+  "count": 6288,
   "companies": [
     {
       "id": 38589,
@@ -2742,7 +2742,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": true,
+      "isHiring": false,
       "nonprofit": false,
       "batch": "Fall 2026",
       "status": "Active",
@@ -3500,11 +3500,11 @@
       "name": "Asakana",
       "slug": "asakana",
       "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/582ebf9f01453d95f2c02b9bac341aff365af875.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/b17bfb784fbfd8ce18bf9fc551a8a6c2a2c68f02.png",
       "website": "https://www.asakana.co/",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Restaurants send orders to food distributors by email, text, and photo. Someone at the distributor retypes every one of them into the ERP. Asakana does that entry instead: orders land in the ERP already entered, and anything unclear goes to a person before it goes in. Live at US seafood distributors today, returning 40%+ of order-desk time to selling. Founded by a seafood distributor and a Gemini builder.",
-      "one_liner": "AI order entry for food distributors: emails and texts to ERP",
+      "one_liner": "Automating away manual admin for food distributors: texts to ERP",
       "team_size": 4,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -3589,7 +3589,7 @@
       "website": "https://www.mirrors.dev",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Production agents handle many different customer workflows. Currently, when one handles a situation badly, an engineer reads the trace and patches the prompt. The next situation needs another exception. Soon, improving the agent becomes a recurring engineering job, and the prompt keeps growing.\r\n\r\nMirrors finds patterns in past runs. Engineers review guidance for a specific situation and preview where it would apply. Mirrors then delivers that guidance while the agent works, inside the team’s existing setup. The team can check whether the change improved the outcome.\r\n\r\nWe’re building Mirrors for engineering teams running customer-facing agents across varied workflows, so they can improve behavior without hardcoding every lesson in the global prompt.",
-      "one_liner": "Give AI agents the right instructions at the right moment",
+      "one_liner": "Give AI agents the right context at the right moment",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -3599,10 +3599,10 @@
       "launched_at": 1789011304,
       "tags": [
         "AIOps",
-        "Artificial Intelligence",
         "Developer Tools",
         "SaaS",
-        "B2B"
+        "B2B",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -4551,6 +4551,49 @@
       "app_answers": null,
       "question_answers": false,
       "url": "https://www.ycombinator.com/companies/veeza-ai"
+    },
+    {
+      "id": 34696,
+      "name": "ChemPilot.ai",
+      "slug": "chempilotai",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/4c3f8543148c3a53ebe369d21ece622228018917.png",
+      "website": "https://chempilot.ai/",
+      "all_locations": "Haifa, Haifa District, Israel",
+      "long_description": "We use AI and quantum-based simulations to discover and develop new materials for defense and dual-use applications, from energetics and propellants to carbon fibers, polymers, coatings and composites. Developing a new material today takes 10+ years of trial-and-error lab work. We compress that to months, using physics-based simulation, machine learning and AI agents that only send labs candidates that can actually be made.\r\n\r\nSam, Ofir and Maor have spent the past two years researching the discovery of these exact materials together at the Technion lab of our CSO, Prof. Alon Grinberg Dana (former MIT postdoc), working directly with defense primes and government R&D agencies. Together we bring deep expertise in chemical engineering, computational chemistry and AI, and the production systems to put them to work. ChemPilot spun out of that work.\r\n\r\nThe defense and dual-use industrial base runs on materials with fragile, sole-source and often adversarial supply chains, from energetics and propellants to carbon fibers, high-temperature composites and specialty polymers. Demand for new capabilities is surging, and materials take decades to develop. The West needs new materials it can make securely, fast and cheap - ChemPilot will help find and develop them.",
+      "one_liner": "Discover novel defense related materials/molecules.",
+      "team_size": 3,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "Industrials",
+      "subindustry": "Industrials -> Defense",
+      "launched_at": 1791753586,
+      "tags": [
+        "Machine Learning",
+        "Advanced Materials",
+        "Defense"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Fall 2026",
+      "status": "Active",
+      "industries": [
+        "Industrials",
+        "Defense"
+      ],
+      "regions": [
+        "Israel",
+        "Middle East and North Africa"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/chempilotai"
     },
     {
       "id": 34629,
@@ -17223,7 +17266,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/cafd940f7349e6c612893fad752013b10458ce39.png",
       "website": "https://armature.tech",
       "all_locations": "Paris, Île-de-France, France",
-      "long_description": "Coding agents like Claude Code, Codex and Cursor now decide which tools get installed in a codebase. Armature runs the real agents inside a panel of realistic repositories, measures whether they pick you, and works with your team on the docs, SDK and content changes that make them choose you. Every change is tested on real agent runs before it ships.\r\n\r\nOnce agents use your product, Armature shows you what users do with it through AI, with self-serve MCP analytics and evals that catch regressions before your users see them.",
+      "long_description": "Coding agents like Claude Code, Codex and Cursor now decide which tools get installed in a codebase. Armature runs the real agents inside a panel of realistic repositories, measures whether they pick you, and works with your team on the docs, SDK and content that make them choose you.\r\n\r\nWe call this Agent-Led Growth (~coding agents GEO for dev tools).\r\n\r\nAnd once agents use your product, Armature shows you what users do with it through AI, with self-serve MCP analytics and evals that catch regressions before your users see them.",
       "one_liner": "We get your product picked by coding agents.",
       "team_size": 3,
       "highlight_black": false,
@@ -23554,11 +23597,11 @@
       "name": "Moda",
       "slug": "moda",
       "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c76a18751e4b95b7b3cf621f7752449405d71aa5.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/fd64626b0d2bee14b3f5a65475f8e788a52bf6d2.png",
       "website": "https://moda.dev",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Moda is a harness engineering platform. It turns production traces into verified improvements for your agent harness: prompts, tools, skills, evals, and memory.\r\n\r\nThe infra problems we actually take: transfer what a frontier model learned onto an open-source one without losing performance, and stand up a model router for your own system and task. Same loop both times. Name the layer that broke, ship the change, replay it on old traffic before it goes out. We've built the infrastructure to tackle these harness problems at scale.\r\n\r\nWe do not sell a platform that solves every harness problem. We sell those jobs, on an agent already in production.",
-      "one_liner": "Harness Engineering Infrastructure that developers love.",
+      "long_description": "Your agents should never make the same mistake twice. Moda helps you engineer better agents from production data. Find recurring failures, understand what caused them, and build evals from real agent runs. Compare models on the tasks your users actually need. Test changes to your prompts, tools, and workflows against past production traffic before you ship. Know what broke, what to change, and whether the fix worked.",
+      "one_liner": "Your agents should never make the same mistake twice.",
       "team_size": 6,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -33593,7 +33636,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": true,
+      "isHiring": false,
       "nonprofit": false,
       "batch": "Fall 2025",
       "status": "Active",
@@ -51434,7 +51477,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": true,
+      "isHiring": false,
       "nonprofit": false,
       "batch": "Winter 2025",
       "status": "Active",
@@ -53410,7 +53453,7 @@
         "KompassAI",
         "FuseAI"
       ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/b35775b402fe5b455dc597de9a7000386d936776.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/3867f5ddc00eb6796cf0b3718c7f1e735656fe4b.png",
       "website": "https://fuseai.com/",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "FuseAI is the AI-native sales platform for modern revenue teams.\r\n\r\nBuilt for high-performance outbound, FuseAI consolidates your entire GTM stack - data, enrichment, multi-channel automation, real-time buying signals, and AI-driven execution  into one seamless system.\r\n\r\nWith powerful integrations and intelligent workflows, FuseAI doesn’t just help you run campaigns. It turns every signal into pipeline, and every rep into a top performer.",
@@ -64248,8 +64291,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/6dc8136429eadec250bda86f1102143f81a24beb.png",
       "website": "https://pipeshift.com",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Pipeshift helps engineering teams run real-time inference in production. We offer optimized runtimes to meet latency/throughput SLAs, paired with infrastructure orchestration that auto-scales and routes workloads across clusters and regions at cost-effective rates.",
-      "one_liner": "Ultra-low latency inference cloud for real-time workloads",
+      "long_description": "Pipeshift offers ultra-low latency infrastructure for engineering teams to run real-time inference in production. We offer latency-optimized runtimes for voice, chat, and physical AI, paired with distributed orchestration that routes and auto-scales across clusters and regions — typically 3 to 5X lower time-to-first-audio, so teams serve 2x the users on the same hardware.",
+      "one_liner": "Inference for real-time voice and chat",
       "team_size": 10,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -64259,10 +64302,7 @@
       "launched_at": 1717199794,
       "tags": [
         "AIOps",
-        "Artificial Intelligence",
-        "Infrastructure",
-        "AI",
-        "ML"
+        "Infrastructure"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -69231,12 +69271,12 @@
       "former_names": [
         "ExpandAI"
       ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/9a4ca900e14bd5e1d1e19fc8edf43b165d078ff8.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/cbb3378711a3516d3cc0bdd3c41a57f151832b9b.png",
       "website": "https://expand.ai/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "expand.ai instantly turns any website into a type-safe API you can rely on.\r\n\r\nYou can either request data from any website instantly or let expand.ai build up datasets for you.\r\n\r\nWe take care of the hard parts like dealing with bot protection, scaling browser infrastructure and making sure that we only extract verified, correct information.",
-      "one_liner": "Turn any website into an API.",
-      "team_size": 2,
+      "long_description": "Let your agent fetch and crawl with SOTA extraction.",
+      "one_liner": "Lossless web data.",
+      "team_size": 3,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -79594,9 +79634,9 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/995749b249373d88528eca173b29dc4d2d8e77da.png",
       "website": "https://www.joincarma.com/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Carma is building an AI-native platform that transforms fleet operations from tedious, manual work into effortless, automated workflows.\r\n\r\nWe’re the fastest-growing company in fleet management software. Carma already powers some of the largest fleets in the U.S., including Fortune 500 clients, saving operations teams thousands of hours by eliminating busywork and keeping vehicles on the road.\r\n\r\nBacked by Soma Capital, Y Combinator, founders of Superhuman, and Tier-1 investors, we raised our $5.5M seed and are sprinting toward a Series A in 2026.\r\n\r\nWe’re hiring the top 0.1% of engineers who want real ownership and impact—starting Day 1, you’ll build and ship fast to production for enterprise clients. Fleet operations run in real time, so your work is immediately used in the field and gets real customer feedback in hours, not months.",
+      "long_description": "Carma is building an AI-native platform that transforms fleet operations from tedious, manual work into effortless, automated workflows.\r\n\r\nWe’re the fastest-growing company in fleet management software. Carma already powers some of the largest fleets in the U.S., saving operations teams thousands of hours by eliminating busywork and keeping vehicles on the road.\r\n\r\nBacked by Soma Capital, Y Combinator, founders of Superhuman, and Tier-1 investors, we are sprinting toward a Series A in 2026.\r\n\r\nWe’re hiring the top 0.1% of engineers who want real ownership and impact—starting Day 1, you’ll build and ship fast to production for enterprise clients. Fleet operations run in real time, so your work is immediately used in the field and gets real customer feedback in hours, not months.",
       "one_liner": "The AI Operating System For Modern Fleets.",
-      "team_size": 15,
+      "team_size": 5,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -140622,16 +140662,17 @@
     },
     {
       "id": 24727,
-      "name": "Output Biosciences",
-      "slug": "output",
+      "name": "Output Labs",
+      "slug": "output-labs",
       "former_names": [
-        "Jingu Health"
+        "Jingu Health",
+        "Output Biosciences"
       ],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/45a8d72beb3c47955dd9a980cc0185312b3b7e63.png",
-      "website": "https://www.outputbio.com/",
+      "website": "https://www.outputlabs.ai/",
       "all_locations": "New York City, NY, USA",
-      "long_description": "Output is a fully integrated AI lab building Artificial General Biological Intelligence, from the molecular level up to whole systems. The discovery of new biology and the design of therapeutic moonshots become routine.",
-      "one_liner": "The foundation for the next era of biology",
+      "long_description": "Output Labs is a frontier AI research lab. We created Mechanistic Reasoning, a new kind of AI that learns how and why complex systems work. It lets us understand the systems behind science's hardest problems, and control them.",
+      "one_liner": "The foundation for the next era of science",
       "team_size": 8,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -140641,9 +140682,9 @@
       "launched_at": 1628006072,
       "tags": [
         "AI-powered Drug Discovery",
+        "Artificial Intelligence",
         "Generative AI",
-        "Biotech",
-        "AI"
+        "Biotech"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -140664,7 +140705,7 @@
       "demo_day_video_public": false,
       "app_answers": null,
       "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/output"
+      "url": "https://www.ycombinator.com/companies/output-labs"
     },
     {
       "id": 24726,

@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-10-11T21:18:56.689Z",
+  "updatedAt": "2026-10-12T04:35:36.334Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -2417,7 +2417,15 @@
       "summary": "Most exploratory questions against a large table only need a rough answer, but without an index on status, even \"roughly how many shipped orders\" costs a full scan. On the two-million-row orders table, Postgres has to read every single 8 kB page, all 18,085 of them (141 MB), just to count matching…",
       "author": null,
       "publishedAt": "2026-10-11T18:45:40.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9xC",
+      "title": "David Wheeler: PGConf.EU Community Day: A Postgres Ecosystem Foundation?",
+      "link": "https://postgr.es/p/9xC",
+      "summary": "For anyone with an interest in the long-term health and longevity of the\nbroader ecosystem of Postgres extensions and tools, we’d like to hear your\nideas and inspirations for its assurance. Come to the PGConf.EU half-day\nCommunity Events Day session in València this year, cheekily called A\nPostgres…",
+      "author": null,
+      "publishedAt": "2026-10-11T21:21:15.000Z"
     }
   ],
-  "totalIndexed": 301
+  "totalIndexed": 302
 }

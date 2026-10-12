@@ -1,31 +1,195 @@
 {
-  "date": "2026-10-11",
-  "fetchedAt": "2026-10-11T21:19:17.877Z",
+  "date": "2026-10-12",
+  "fetchedAt": "2026-10-12T04:35:55.866Z",
   "previousCount": 6287,
-  "currentCount": 6287,
-  "added": [],
+  "currentCount": 6288,
+  "added": [
+    {
+      "id": 34696,
+      "name": "ChemPilot.ai",
+      "slug": "chempilotai",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/4c3f8543148c3a53ebe369d21ece622228018917.png",
+      "website": "https://chempilot.ai/",
+      "all_locations": "Haifa, Haifa District, Israel",
+      "long_description": "We use AI and quantum-based simulations to discover and develop new materials for defense and dual-use applications, from energetics and propellants to carbon fibers, polymers, coatings and composites. Developing a new material today takes 10+ years of trial-and-error lab work. We compress that to months, using physics-based simulation, machine learning and AI agents that only send labs candidates that can actually be made.\r\n\r\nSam, Ofir and Maor have spent the past two years researching the discovery of these exact materials together at the Technion lab of our CSO, Prof. Alon Grinberg Dana (former MIT postdoc), working directly with defense primes and government R&D agencies. Together we bring deep expertise in chemical engineering, computational chemistry and AI, and the production systems to put them to work. ChemPilot spun out of that work.\r\n\r\nThe defense and dual-use industrial base runs on materials with fragile, sole-source and often adversarial supply chains, from energetics and propellants to carbon fibers, high-temperature composites and specialty polymers. Demand for new capabilities is surging, and materials take decades to develop. The West needs new materials it can make securely, fast and cheap - ChemPilot will help find and develop them.",
+      "one_liner": "Discover novel defense related materials/molecules.",
+      "team_size": 3,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "Industrials",
+      "subindustry": "Industrials -> Defense",
+      "launched_at": 1791753586,
+      "tags": [
+        "Machine Learning",
+        "Advanced Materials",
+        "Defense"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Fall 2026",
+      "status": "Active",
+      "industries": [
+        "Industrials",
+        "Defense"
+      ],
+      "regions": [
+        "Israel",
+        "Middle East and North Africa"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/chempilotai"
+    }
+  ],
   "removed": [],
   "updated": [
     {
-      "id": 21795,
-      "name": "QuestDB",
-      "slug": "questdb",
-      "batch": "Summer 2020",
-      "url": "https://www.ycombinator.com/companies/questdb",
+      "id": 24727,
+      "name": "Output Labs",
+      "slug": "output-labs",
+      "batch": "Summer 2021",
+      "url": "https://www.ycombinator.com/companies/output-labs",
       "changes": [
         {
-          "field": "team_size",
-          "before": 30,
-          "after": 20
+          "field": "name",
+          "before": "Output Biosciences",
+          "after": "Output Labs"
+        },
+        {
+          "field": "slug",
+          "before": "output",
+          "after": "output-labs"
+        },
+        {
+          "field": "former_names",
+          "before": [
+            "Jingu Health"
+          ],
+          "after": [
+            "Jingu Health",
+            "Output Biosciences"
+          ]
+        },
+        {
+          "field": "website",
+          "before": "https://www.outputbio.com/",
+          "after": "https://www.outputlabs.ai/"
+        },
+        {
+          "field": "one_liner",
+          "before": "The foundation for the next era of biology",
+          "after": "The foundation for the next era of science"
+        },
+        {
+          "field": "tags",
+          "before": [
+            "AI-powered Drug Discovery",
+            "Generative AI",
+            "Biotech",
+            "AI"
+          ],
+          "after": [
+            "AI-powered Drug Discovery",
+            "Artificial Intelligence",
+            "Generative AI",
+            "Biotech"
+          ]
         }
       ]
     },
     {
-      "id": 30111,
-      "name": "x1",
-      "slug": "x1",
-      "batch": "Fall 2024",
-      "url": "https://www.ycombinator.com/companies/x1",
+      "id": 29376,
+      "name": "Carma",
+      "slug": "carma",
+      "batch": "Winter 2024",
+      "url": "https://www.ycombinator.com/companies/carma",
+      "changes": [
+        {
+          "field": "team_size",
+          "before": 15,
+          "after": 5
+        }
+      ]
+    },
+    {
+      "id": 29728,
+      "name": "expand.ai",
+      "slug": "expand-ai",
+      "batch": "Summer 2024",
+      "url": "https://www.ycombinator.com/companies/expand-ai",
+      "changes": [
+        {
+          "field": "small_logo_thumb_url",
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/9a4ca900e14bd5e1d1e19fc8edf43b165d078ff8.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/cbb3378711a3516d3cc0bdd3c41a57f151832b9b.png"
+        },
+        {
+          "field": "one_liner",
+          "before": "Turn any website into an API.",
+          "after": "Lossless web data."
+        },
+        {
+          "field": "team_size",
+          "before": 2,
+          "after": 3
+        }
+      ]
+    },
+    {
+      "id": 29950,
+      "name": "Pipeshift",
+      "slug": "pipeshift",
+      "batch": "Summer 2024",
+      "url": "https://www.ycombinator.com/companies/pipeshift",
+      "changes": [
+        {
+          "field": "one_liner",
+          "before": "Ultra-low latency inference cloud for real-time workloads",
+          "after": "Inference for real-time voice and chat"
+        },
+        {
+          "field": "tags",
+          "before": [
+            "AIOps",
+            "Artificial Intelligence",
+            "Infrastructure",
+            "AI",
+            "ML"
+          ],
+          "after": [
+            "AIOps",
+            "Infrastructure"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 30301,
+      "name": "Fuse AI",
+      "slug": "fuse-ai",
+      "batch": "Winter 2025",
+      "url": "https://www.ycombinator.com/companies/fuse-ai",
+      "changes": [
+        {
+          "field": "small_logo_thumb_url",
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/b35775b402fe5b455dc597de9a7000386d936776.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/3867f5ddc00eb6796cf0b3718c7f1e735656fe4b.png"
+        }
+      ]
+    },
+    {
+      "id": 30365,
+      "name": "Mentra",
+      "slug": "mentra",
+      "batch": "Winter 2025",
+      "url": "https://www.ycombinator.com/companies/mentra",
       "changes": [
         {
           "field": "isHiring",
@@ -35,42 +199,99 @@
       ]
     },
     {
-      "id": 30818,
-      "name": "Nox Metals",
-      "slug": "nox-metals",
-      "batch": "Summer 2025",
-      "url": "https://www.ycombinator.com/companies/nox-metals",
+      "id": 30932,
+      "name": "Leadbay",
+      "slug": "leadbay",
+      "batch": "Fall 2025",
+      "url": "https://www.ycombinator.com/companies/leadbay",
       "changes": [
         {
-          "field": "team_size",
-          "before": 35,
-          "after": 52
+          "field": "isHiring",
+          "before": true,
+          "after": false
         }
       ]
     },
     {
-      "id": 36577,
-      "name": "OpEra",
-      "slug": "opera",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/opera",
+      "id": 31252,
+      "name": "Moda",
+      "slug": "moda",
+      "batch": "Winter 2026",
+      "url": "https://www.ycombinator.com/companies/moda",
       "changes": [
+        {
+          "field": "small_logo_thumb_url",
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/c76a18751e4b95b7b3cf621f7752449405d71aa5.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/fd64626b0d2bee14b3f5a65475f8e788a52bf6d2.png"
+        },
+        {
+          "field": "one_liner",
+          "before": "Harness Engineering Infrastructure that developers love.",
+          "after": "Your agents should never make the same mistake twice."
+        }
+      ]
+    },
+    {
+      "id": 35258,
+      "name": "Mirrors",
+      "slug": "mirrors",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/mirrors",
+      "changes": [
+        {
+          "field": "one_liner",
+          "before": "Give AI agents the right instructions at the right moment",
+          "after": "Give AI agents the right context at the right moment"
+        },
         {
           "field": "tags",
           "before": [
-            "Logistics",
-            "Manufacturing",
-            "Supply Chain",
-            "Operations",
-            "AI"
+            "AIOps",
+            "Artificial Intelligence",
+            "Developer Tools",
+            "SaaS",
+            "B2B"
           ],
           "after": [
-            "Artificial Intelligence",
-            "Logistics",
-            "Manufacturing",
-            "Supply Chain",
-            "Operations"
+            "AIOps",
+            "Developer Tools",
+            "SaaS",
+            "B2B",
+            "AI"
           ]
+        }
+      ]
+    },
+    {
+      "id": 35261,
+      "name": "Asakana",
+      "slug": "asakana",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/asakana",
+      "changes": [
+        {
+          "field": "small_logo_thumb_url",
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/582ebf9f01453d95f2c02b9bac341aff365af875.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/b17bfb784fbfd8ce18bf9fc551a8a6c2a2c68f02.png"
+        },
+        {
+          "field": "one_liner",
+          "before": "AI order entry for food distributors: emails and texts to ERP",
+          "after": "Automating away manual admin for food distributors: texts to ERP"
+        }
+      ]
+    },
+    {
+      "id": 35487,
+      "name": "Streamline Systems",
+      "slug": "streamline-systems",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/streamline-systems",
+      "changes": [
+        {
+          "field": "isHiring",
+          "before": true,
+          "after": false
         }
       ]
     }
