@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-10-13T13:55:21.766Z",
-  "count": 6295,
+  "fetchedAt": "2026-10-13T18:56:37.382Z",
+  "count": 6296,
   "companies": [
     {
       "id": 38589,
@@ -1175,6 +1175,49 @@
       "app_answers": null,
       "question_answers": false,
       "url": "https://www.ycombinator.com/companies/acyclic"
+    },
+    {
+      "id": 37038,
+      "name": "Caveman",
+      "slug": "caveman",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/255bbf73f87bb02fde740dd7da4814d8d2b5f4e1.png",
+      "website": "https://caveman.so",
+      "all_locations": "Amsterdam, NH, Netherlands",
+      "long_description": "Caveman is the optimization stack for AI agents. It observes real agent workloads, finds cost and performance inefficiencies, tests improvements, and safely deploys the ones that work.",
+      "one_liner": "Caveman cuts what AI agents cost without making them dumber.",
+      "team_size": 1,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "B2B",
+      "subindustry": "B2B",
+      "launched_at": 1791916413,
+      "tags": [
+        "Developer Tools",
+        "Open Source",
+        "Infrastructure",
+        "AI"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Fall 2026",
+      "status": "Active",
+      "industries": [
+        "B2B"
+      ],
+      "regions": [
+        "Netherlands",
+        "Europe"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/caveman"
     },
     {
       "id": 36972,
@@ -4985,15 +5028,18 @@
     },
     {
       "id": 34365,
-      "name": "Lambda Robotics",
-      "slug": "lambda-robotics",
-      "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/751b6f5898f8cb0549b80d5a13c551d0c7c0e12f.png",
-      "website": "https://lambdarobotics.ai",
+      "name": "Runtime.si",
+      "slug": "runtimesi",
+      "former_names": [
+        "Lambda Robotics",
+        "Runtime"
+      ],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/461a9d05728add7a3449b82167ac418e94d301eb.png",
+      "website": "https://runtime.si/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Lambda Robotics builds and deploys robots for the infrastructure powering frontier AI.",
-      "one_liner": "Robotics for AI Infrastructure",
-      "team_size": 6,
+      "long_description": "Runtime is building the evaluation layer for physical intelligence. We push robot policies to their limits across thousands of simulated worlds, before they face the real one.",
+      "one_liner": "Evaluation Infrastructure for Robotics (YC F26)",
+      "team_size": 5,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -5001,9 +5047,9 @@
       "subindustry": "Industrials -> Manufacturing and Robotics",
       "launched_at": 1785385611,
       "tags": [
+        "Artificial Intelligence",
         "Robotics",
-        "Infrastructure",
-        "AI"
+        "Infrastructure"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -5024,7 +5070,7 @@
       "demo_day_video_public": false,
       "app_answers": null,
       "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/lambda-robotics"
+      "url": "https://www.ycombinator.com/companies/runtimesi"
     },
     {
       "id": 34134,
@@ -6080,8 +6126,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/0405005492b7122ac5f4784e260fc64d7bd99053.png",
       "website": "https://onecli.sh",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "OneCLI (YC S26) is an open-source AI teammates platform for teams. Like Grok Bot, but self-hostable, loved by developers. \r\n\r\nEach employee gets their own sandboxed pro assistant agent, connected to their GitHub, Gmail, Notion, Dropbox, or CRM right from the chat/Slack, while the whole workspace runs under one policy your admins control.\r\n\r\nAgents never hold real secrets: the credential is injected at the network layer, per request, after the call is authorized. You can't steal what isn't there.",
-      "one_liner": "The open source AI teammates for your company.",
+      "long_description": "OneCLI (YC S26) is an open-source platform for delegating business-critical work to AI agents, from Salesforce updates to data analysis and engineering investigations.\r\n\r\nAgents work across your company’s apps, prepare changes, and pause for approval when your rules require it. Your team controls what they can access and change, while credentials stay out of the agents’ reach and every call is logged.\r\n\r\nhttps://www.onecli.sh",
+      "one_liner": "AI teammates for your business-critical work.",
       "team_size": 0,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -6091,10 +6137,10 @@
       "launched_at": 1783888956,
       "tags": [
         "AIOps",
-        "Artificial Intelligence",
         "B2B",
         "Workflow Automation",
-        "Open Source"
+        "Open Source",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -27810,7 +27856,7 @@
       "former_names": [
         "Ramain"
       ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/e2b50a0163e4e9b6028ca59700b409129a13fe04.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/1a10a6d3695c38f916de546238a447f1633ea982.png",
       "website": "https://ramain.ai",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "RamAIn Employees join your team just like a human. Teach them to work across systems just like a new hire and watch them work autonomously to do the work 24/7. ",
@@ -27823,9 +27869,9 @@
       "subindustry": "B2B",
       "launched_at": 1767663208,
       "tags": [
+        "Artificial Intelligence",
         "Robotic Process Automation",
-        "Automation",
-        "AI"
+        "Automation"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -34084,10 +34130,10 @@
       "subindustry": "Industrials -> Manufacturing and Robotics",
       "launched_at": 1762476616,
       "tags": [
+        "Artificial Intelligence",
         "Hard Tech",
         "Machine Learning",
-        "Robotics",
-        "AI"
+        "Robotics"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -34654,7 +34700,7 @@
       "tags": [],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": false,
+      "isHiring": true,
       "nonprofit": false,
       "batch": "Summer 2026",
       "status": "Active",
@@ -45303,7 +45349,7 @@
       "website": "https://pingo.ai",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Pingo is an AI language learning app that helps users build fluency through speaking. It immerses learners in realistic conversations and personalized lessons with an AI tutor who sounds like a native speaker. Our goal is to make learning a language as simple as talking with Pingo — a companion who understands your goals, remembers your progress, and keeps you motivated.",
-      "one_liner": "AI companion that helps you learn languages",
+      "one_liner": "Your personal AI for language learning",
       "team_size": 4,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -46447,12 +46493,12 @@
       "former_names": [
         "Holtzman"
       ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/206decabd9d62821656d84ac331ecdfb83854063.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c50bede6546396b2ac97015979b5f1979c3c8f35.png",
       "website": "https://cotool.ai",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Cotool is an agentic security platform that eliminates manual and repetitive work for security teams.\r\n\r\nToday’s cybersecurity teams remain bogged down by alert fatigue, context switching, and documentation overhead. Security teams don't need more dashboards with \"AI-powered insights\" — they need their time back.\r\n\r\nCotool empowers teams to build security their way. Our platform provides an AI co-pilot that automatically assembles context across tools, a no-code agent builder that transforms successful investigations into reusable automations, and automated report generation, providing comprehensive documentation in seconds.\r\n\r\nUnlike solutions that force teams to adapt to vendor workflows, Cotool puts the power of AI directly in practitioners' hands, letting them shape tools around their unique processes. Early users have already cut time spent on investigation and detection engineering by 70%.",
-      "one_liner": "AI Agents for Security Operations Teams",
-      "team_size": 4,
+      "long_description": "Cotool builds AI agents and the infrastructure around them to help security teams detect threats, investigate alerts, hunt for attacks, and respond.\r\n\r\nOur agents work across a team's security tools and data. They investigate alerts, write and tune Python detections, and turn threat intelligence into hunts and new coverage. Teams can customize agents around their workflows, inspect the evidence, edit detection logic, and bring humans in when judgment or approval matters.\r\n\r\nUnderneath the agents, Cotool provides log storage and search built for their workloads, with access to data where it already lives. The goal is to give security teams more capacity to defend their companies as their environments and workloads grow.\r\n\r\nTeams at Ramp, EliseAI, ClickHouse, Legora, and many more use Cotool.",
+      "one_liner": "Security operations optimized for agents.",
+      "team_size": 8,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -72975,7 +73021,7 @@
         "flyflow"
       ],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/d6cf2cff5039ac20f139cd495d3537b825c8ac73.png",
-      "website": "https://flyflow.ai",
+      "website": "",
       "all_locations": "",
       "long_description": "\"I don’t know how I would have found these leads myself.\"  - YC Founder\r\n\r\nFlyflow enables companies to find prospective customers using AI workflows instead of drowning in tables. Try out our product at app.flyflow.ai.\r\n\r\nHow are we different?\r\n\r\n(1) Higher quality leads: get to a list that’s so relevant, you’ll want to spend time getting introduced to people there, instead of sending another 1,000 cold emails\r\n\r\n(2) Incredibly easy to set up: get up and running with a list of prospects in hand  in under 10 minutes\r\n\r\n(3) Integrate the best of different sales tools all in one place: no need to switch between different tabs for web research, filtering by company size, and finding prospect LinkedIns",
       "one_liner": "The easiest way to find high-quality sales leads",
@@ -77340,9 +77386,9 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/7ce5fb2bc6ecc51b550577fdf7ed50f0b62b585d.png",
       "website": "https://rove.com",
       "all_locations": "New York City, NY, USA",
-      "long_description": "Rove is building the first accessible and universal airline mile, redeemable across dozens of international airlines and hotel chains worldwide.",
-      "one_liner": "Travel the world for free.",
-      "team_size": 4,
+      "long_description": "Earn flexible airline miles on booking travel, shopping, and dining, all on top of your credit card rewards.",
+      "one_liner": "Earn airline miles on hotels and everyday spend.",
+      "team_size": 32,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -77350,10 +77396,9 @@
       "subindustry": "Consumer -> Travel, Leisure and Tourism",
       "launched_at": 1701568382,
       "tags": [
-        "Artificial Intelligence",
-        "Fintech",
         "Consumer",
-        "Travel"
+        "Travel",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -79765,9 +79810,8 @@
       "launched_at": 1707775068,
       "tags": [
         "Travel",
-        "Sales",
         "Customer Service",
-        "AI"
+        "Operations"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -112728,27 +112772,29 @@
     },
     {
       "id": 27046,
-      "name": "Atlas",
-      "slug": "atlaswork",
+      "name": "Accountable",
+      "slug": "accountable",
       "former_names": [
         "Hostfi",
-        "Accountable"
+        "Accountable",
+        "Atlas"
       ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/98f68049bfdd41edf9f9b38ee72e792b28ec89a9.png",
-      "website": "https://atlaswork.ai",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/e4710968823e20b9c7b3a37ba3b9ca6b199fe6ec.png",
+      "website": "https://accountablevr.com",
       "all_locations": "New York City, NY, USA",
-      "long_description": "Atlas is an AI contract agent. It fills your agreement template, gets every signature, then runs next actions: files the signed copy to your CRM, pings your team, and watches the renewal. \r\n\r\nTeams use Atlas from chat (Claude, ChatGPT, Cursor), from the dashboard, or through our API and MCP.",
-      "one_liner": "AI contract agent: Fill a template, get signed, and run next actions.",
+      "long_description": "Accountable is AI-powered accounting automation for vacation rental property managers. These companies spend money on behalf of hundreds or thousands of property owners on cleaning, maintenance, supplies and repairs. Every dollar has to be paid, tracked, and charged back to the right owner, which most teams still do by hand across disconnected systems.\r\n\r\nAccountable handles payments, cards, approvals and expense tracking in one place, and syncs everything to the tools property managers already use: their property management software, field operations tools and accounting system. The result is fewer people doing data entry, accurate owner statements, and books that close 90% faster.\r\n\r\nServing tens of thousands of properties. ",
+      "one_liner": "Smarter Spending for Vacation Property Managers",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
-      "industry": "B2B",
-      "subindustry": "B2B",
+      "industry": "Real Estate and Construction",
+      "subindustry": "Real Estate and Construction -> Housing and Real Estate",
       "launched_at": 1659966857,
       "tags": [
-        "B2B",
-        "AI"
+        "Fintech",
+        "Real Estate",
+        "Proptech"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -112757,7 +112803,8 @@
       "batch": "Summer 2022",
       "status": "Active",
       "industries": [
-        "B2B"
+        "Real Estate and Construction",
+        "Housing and Real Estate"
       ],
       "regions": [
         "United States of America",
@@ -112768,7 +112815,7 @@
       "demo_day_video_public": false,
       "app_answers": null,
       "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/atlaswork"
+      "url": "https://www.ycombinator.com/companies/accountable"
     },
     {
       "id": 27045,
@@ -121137,7 +121184,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": true,
+      "isHiring": false,
       "nonprofit": false,
       "batch": "Winter 2022",
       "status": "Active",
@@ -121450,7 +121497,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/bc09b4ea9334ecf8e0b870238b77cbe372f82c39.png",
       "website": "https://www.offbeast.com",
       "all_locations": "New York City, NY, USA",
-      "long_description": "We make premium plant-based whole-cuts with an authentic texture through our proprietary Cross-Fiber Assembly™ platform. More than 85% of our customers agree that Offbeast products have the best texture they've ever had in a plant-based meat product.",
+      "long_description": "We add authentic meat-like textures to plant-based and animal proteins. By upscaling low-value minced meat into higher-value whole cuts, we increase meat producers' margins by 50-300%, while maintaining a clean label and protein content.",
       "one_liner": "We make plant-based steaks with an authentic texture",
       "team_size": 15,
       "highlight_black": false,
@@ -127918,10 +127965,10 @@
       "slug": "elphinstone-inc",
       "former_names": [],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c11e382bc061b3d293fc3a3374fb5e8104bfe299.png",
-      "website": "https://elphinstone.com.pk/",
+      "website": "https://elphinstone.us/",
       "all_locations": "Sindh, Pakistan",
-      "long_description": "We're building the equivalent of 401ks for Pakistan as the first step towards building a comprehensive wealth management platform for the country.",
-      "one_liner": "Robo-advisory platform for Pakistan",
+      "long_description": "The median 401k plan costs 25 times the fees you pay on a regular brokerage account. We are building the next generation of retirement savings platform to help fix that price gap.",
+      "one_liner": "AI-enabled investment advisory and custodial services",
       "team_size": 15,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -128836,8 +128883,8 @@
       "website": "https://tokotutor.com/",
       "all_locations": "New York City, NY, USA",
       "long_description": "Toko helps English learners in East Asia achieve speaking fluency. Through our mobile app, learners engage in short, realistic conversations with an AI and receive feedback on their grammar.\r\n\r\nWith over 500 topics, learners can practice real-world scenarios ranging from small talk to workplace discussions. Toko offers a low-pressure environment to help learners build up their confidence.\r\n\r\nWe make language fluency accessible to everyone - not just those with the means to meet 1:1 with a tutor.\r\n\r\nIn Taiwan (our first market), Toko is ranked top 3 in the App Store for Education!",
-      "one_liner": "Learn English by speaking with an AI",
-      "team_size": 5,
+      "one_liner": "AI English Tutor",
+      "team_size": 3,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -128862,7 +128909,9 @@
       ],
       "regions": [
         "United States of America",
-        "America / Canada"
+        "America / Canada",
+        "Remote",
+        "Partly Remote"
       ],
       "stage": "Early",
       "app_video_public": false,
@@ -163335,7 +163384,7 @@
         "Remote",
         "Partly Remote"
       ],
-      "stage": "Growth",
+      "stage": "Early",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -165352,10 +165401,10 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": true,
+      "isHiring": false,
       "nonprofit": false,
       "batch": "Winter 2021",
-      "status": "Active",
+      "status": "Acquired",
       "industries": [
         "B2B",
         "Productivity"
@@ -165366,7 +165415,7 @@
         "Remote",
         "Fully Remote"
       ],
-      "stage": "Growth",
+      "stage": "Early",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -208918,7 +208967,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": true,
+      "isHiring": false,
       "nonprofit": false,
       "batch": "Summer 2018",
       "status": "Active",

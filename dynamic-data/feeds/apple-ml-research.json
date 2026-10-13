@@ -8,7 +8,7 @@
     "ai",
     "research"
   ],
-  "updatedAt": "2026-10-12T23:59:44.627Z",
+  "updatedAt": "2026-10-13T18:56:19.519Z",
   "items": [
     {
       "guid": "environment-free",
@@ -417,7 +417,15 @@
       "summary": "Long agent traces composed of chains of thought and tool calls accumulate stale content that anchor subsequent generations, and eventually outgrow the context window. Existing scaffolds mitigate it with fixed-interval compaction triggered at a token threshold. Such triggers pay no heed to…",
       "author": null,
       "publishedAt": "2026-10-12T00:00:00.000Z"
+    },
+    {
+      "guid": "mix-dont-tune",
+      "title": "Mix, Don't Tune: Bilingual Pre-Training Outperforms Hyperparameter Search in Data-Constrained Settings",
+      "link": "https://machinelearning.apple.com/research/mix-dont-tune",
+      "summary": "For most languages of the world, language model pre-training operates in a data-constrained regime where models must repeat their training data many times, degrading generalization. Two remedies exist: aggressive hyperparameter tuning such as high weight decay, and mixing in data from a…",
+      "author": null,
+      "publishedAt": "2026-10-13T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 51
+  "totalIndexed": 52
 }

@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-10-13T13:55:03.926Z",
+  "updatedAt": "2026-10-13T18:56:20.000Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -2537,7 +2537,15 @@
       "summary": "Some advice gets repeated in code review because it sounds like it should matter. I picked four I have seen argued about and measured them. I expected at least two clear winners. I got three ties and one result that went the opposite way from the advice.\nSetup\nPostgreSQL 18.6, default settings.…",
       "author": null,
       "publishedAt": "2026-10-13T00:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9xY",
+      "title": "Ming Ying: Making COUNTs and the Rest of Search Really Fast (Part II)",
+      "link": "https://postgr.es/p/9xY",
+      "summary": "How ctid-aware segment partitioning, an inverted DocId map, and bitmap postings accelerated ParadeDB's Wikipedia COUNT queries—then a look at the rest of search, where ParadeDB delivered 10–22x TIN's throughput on filtered and time-sorted Hacker News queries.",
+      "author": null,
+      "publishedAt": "2026-10-13T12:00:00.000Z"
     }
   ],
-  "totalIndexed": 316
+  "totalIndexed": 317
 }
