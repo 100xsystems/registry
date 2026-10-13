@@ -1,52 +1,76 @@
 # YC Company Changes for 2026-10-13
 
 - Previous total: 6294
-- Current total: 6294
-- Added: 0
+- Current total: 6295
+- Added: 1
 - Removed: 0
-- Updated: 8
+- Updated: 13
 
+
+## Added Companies
+
+- [Gradon](https://www.ycombinator.com/companies/gradon) (Fall 2026) — Legora for AEC (Architecture, Engineering, & Construction) firms
 
 ## Updated Companies
 
-### [Craze](https://www.ycombinator.com/companies/craze)
+### [Middesk](https://www.ycombinator.com/companies/middesk)
 
-- `tags`: Artificial Intelligence,Video,Media → Video,Media,AI
+- `team_size`: 130 → 140
+- `stage`: Growth → Early
 
-### [Sculpt](https://www.ycombinator.com/companies/sculpt)
+### [QuestDB](https://www.ycombinator.com/companies/questdb)
 
-- `website`: https://www.sculptcosting.com/ → 
-- `all_locations`: Pune, MH, India; MH, India → Pune, MH, India
-- `one_liner`: Fully automated should-cost analysis for precision manufacturers. → World Models for Aviation MROs
+- `one_liner`: High-performance time series database → Data platform for mission-critical real-time workloads
 
-### [Freestyle](https://www.ycombinator.com/companies/freestyle-ai)
+### [Corgi Insurance](https://www.ycombinator.com/companies/corgi-insurance)
 
-- `website`: https://www.freestyle.ai → https://freestyle.ai/yc
-- `tags`: Artificial Intelligence,Productivity,Email,AI Assistant → Productivity,Email,AI,AI Assistant
+- `stage`: Early → Growth
 
-### [Janeen](https://www.ycombinator.com/companies/janeen)
+### [Pickle](https://www.ycombinator.com/companies/pickle-2)
 
-- `name`: Ruma Care → Janeen
-- `slug`: ruma-care → janeen
-- `former_names`:  → Ruma Care
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/34241c57767208be0982fd04163c52d69a91a82c.png → https://bookface-images.s3.amazonaws.com/small_logos/841e137150527d4b0f94be4164e696d52b970a81.png
-- `website`: https://rumacare.com → https://janeen.care
-- `one_liner`: The operations stack for biologic infusion clinics → Prior auths and benefits investigation for infusion clinics 
+- `one_liner`: Where your life context becomes understanding. → The personal AI agent for Korea.
+- `team_size`: 15 → 6
+- `tags`: Artificial Intelligence,Hardware,Augmented Reality,Consumer → Consumer,AI
 
-### [MochaCare](https://www.ycombinator.com/companies/mochacare)
+### [stagewise](https://www.ycombinator.com/companies/stagewise)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/47ffd397ae9768c410e6f2ccb34010e6de9587b6.png → https://bookface-images.s3.amazonaws.com/small_logos/8f0d0e6f741a56de1899f97dfa05142761a40372.png
+- `team_size`: 2 → 3
+- `tags`: Artificial Intelligence,Developer Tools,Open Source → Developer Tools,Open Source,AI
 
-### [Belvedir](https://www.ycombinator.com/companies/belvedir)
+### [Instinct](https://www.ycombinator.com/companies/instinct-xyz)
 
-- `tags`: Artificial Intelligence,Machine Learning,Reinforcement Learning → Machine Learning,Reinforcement Learning,AI
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/4f2c4947196f35e938655df560aee5ba21c58b51.png → https://bookface-images.s3.amazonaws.com/small_logos/95bc87269a98980418f0859561c98e4d5a516586.png
+- `tags`: Artificial Intelligence,Machine Learning,Trading,Cryptocurrency → Machine Learning,Trading,AI,Cryptocurrency
+
+### [Libra Robotics](https://www.ycombinator.com/companies/libra-robotics)
+
+- `one_liner`: Robotic crews for large-scale infrastructure construction → A self-evolving robot workforce for infrastructure.
+- `tags`: Hard Tech,Robotics,Construction,Energy,AI → Artificial Intelligence,Hard Tech,Robotics,Construction,Energy
+
+### [tday.com](https://www.ycombinator.com/companies/tdaycom)
+
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/826a45ec885ec85fd4365a46539e3e25d71b2d4b.png → https://bookface-images.s3.amazonaws.com/small_logos/a94caadf8004552b353aeca398228131adaa7b30.png
+
+### [Collar](https://www.ycombinator.com/companies/collar)
+
+- `one_liner`: AI for Investor Relations → AI-Native Investor Relations
+- `team_size`: 2 → 4
+- `tags`: Artificial Intelligence,Generative AI,Finance,Enterprise,Operations → Generative AI,Finance,Enterprise,Operations,AI
+
+### [sintem](https://www.ycombinator.com/companies/sintem)
+
+- `name`: Sintem → sintem
+- `former_names`:  → Sintem,sintem,sintem inc.
+- `one_liner`: Agentic phones for teams → An agentic phone that does your busywork
+
+### [Shepherd Robotics](https://www.ycombinator.com/companies/shepherd-robotics)
+
+- `tags`: Hardware,Robotics,Manufacturing,Automation,AI → Artificial Intelligence,Hardware,Robotics,Manufacturing,Automation
+
+### [Primordiant (Formerly SuperRadiant)](https://www.ycombinator.com/companies/primordiant)
+
+- `tags`: Artificial Intelligence,Robotics,Energy,Advanced Materials,Biotechnology → Robotics,Energy,Advanced Materials,AI,Biotechnology
 
 ### [Sutrix](https://www.ycombinator.com/companies/sutrix)
 
-- `one_liner`: Sutrix delivers patient outcomes 80% faster for clinical research  → AI-native statistical analysis for patient outcomes
-- `launched_at`: 1786812875 → 1791849574
-
-### [Sona8](https://www.ycombinator.com/companies/sona8)
-
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/bbb7f2bc6b3848168f970a704b24b37c2b125f25.png → https://bookface-images.s3.amazonaws.com/small_logos/68fe01dae2c3bf0906f880c9a0f3fca2b2a16863.png
-- `tags`: Artificial Intelligence,HR Tech,Infrastructure,Conversational AI → HR Tech,Infrastructure,AI,Conversational AI
+- `one_liner`: AI-native statistical analysis for patient outcomes → Patient outcomes research at the speed of care

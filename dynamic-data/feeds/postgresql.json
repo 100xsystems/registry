@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-10-13T05:41:36.081Z",
+  "updatedAt": "2026-10-13T13:55:03.926Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -2497,7 +2497,47 @@
       "summary": "Ten enterprise customers own 80% of the orders. On uniform test data the query runs in ~1ms; on that real skew it runs ~1,000x slower. The fix doesn't transfer between engines: Postgres is rescued by one free session setting, SQL Server can't be touched by it and needs a completely different…",
       "author": null,
       "publishedAt": "2026-10-13T00:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9xW",
+      "title": "Dimitri Fontaine: Zero-downtime Postgres upgrades with logical replication",
+      "link": "https://postgr.es/p/9xW",
+      "summary": "This is part 3 of a series about Postgres logical replication use-cases,\nand about how the feature set has evolved over the past ten years and ten\nreleases (Postgres 10 through the Postgres 19 beta), one architecture at\na time.\nPart 1 built\na hub-and-workers system for write scalability and has the…",
+      "author": null,
+      "publishedAt": "2026-10-13T12:14:03.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9xT",
+      "title": "Floor Drees: Conference Preview: EDB at PGConf.Asia 2026",
+      "link": "https://postgr.es/p/9xT",
+      "summary": "PGConf Asia 2026 is heading to Hong Kong from November 17–18! As a premier regional event for the PostgreSQL community, PGConf.Asia brings together developers, contributors, DBAs, and enterprise users from across the continent. Several EDB team members will be presenting sessions this year.…",
+      "author": null,
+      "publishedAt": "2026-10-13T08:36:07.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9xX",
+      "title": "Abhisek Goswami: CUDA and PostgreSQL: Twins from two Worlds",
+      "link": "https://postgr.es/p/9xX",
+      "summary": "Do you know about the Winklevoss twins, Cameron and Tyler? They grew up together, went to the same university, and eventually built very different things around technology, finance, and entrepreneurship. Whatever you think of their story, there is something fascinating about twins who start from…",
+      "author": null,
+      "publishedAt": "2026-10-13T03:00:07.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9xV",
+      "title": "Hollis Varden: What deleting rows does to a PostgreSQL table",
+      "link": "https://postgr.es/p/9xV",
+      "summary": "A table that shrinks in rows does not shrink on disk. Everyone who has run PostgreSQL for a while knows this in general. I wanted the actual numbers, because \"VACUUM reclaims space\" means something narrower than it sounds.\nShort answer: I deleted every second row of a 2,000,000-row table. The table…",
+      "author": null,
+      "publishedAt": "2026-10-13T00:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9xU",
+      "title": "Hollis Varden: Four PostgreSQL arguments that came out even",
+      "link": "https://postgr.es/p/9xU",
+      "summary": "Some advice gets repeated in code review because it sounds like it should matter. I picked four I have seen argued about and measured them. I expected at least two clear winners. I got three ties and one result that went the opposite way from the advice.\nSetup\nPostgreSQL 18.6, default settings.…",
+      "author": null,
+      "publishedAt": "2026-10-13T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 311
+  "totalIndexed": 316
 }

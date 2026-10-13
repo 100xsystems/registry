@@ -1,159 +1,349 @@
 {
   "date": "2026-10-13",
-  "fetchedAt": "2026-10-13T05:41:57.197Z",
+  "fetchedAt": "2026-10-13T13:55:21.764Z",
   "previousCount": 6294,
-  "currentCount": 6294,
-  "added": [],
+  "currentCount": 6295,
+  "added": [
+    {
+      "id": 32620,
+      "name": "Gradon",
+      "slug": "gradon",
+      "former_names": [
+        "Vendo"
+      ],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/7505a6a55a850d54a7b75a5750c0282f58f9001f.png",
+      "website": "https://heygradon.com/",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "Gradon is Legora for the firms that design the world's buildings and infrastructure. Every road, bridge, water system and building starts with engineers, and there aren't nearly enough of them for everything the world needs to build. \r\n\r\nGradon works across every workflow and tool an engineering firm runs on, from CAD design and calculations to full plan sets, and firms using it today have decreased average project times by more than 75%. We're building the platform that makes every engineer a 10x engineer, and with it, how the world gets built.",
+      "one_liner": "Legora for AEC (Architecture, Engineering, & Construction) firms",
+      "team_size": 2,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "B2B",
+      "subindustry": "B2B -> Engineering, Product and Design",
+      "launched_at": 1784444284,
+      "tags": [
+        "Artificial Intelligence",
+        "Construction",
+        "B2B"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Fall 2026",
+      "status": "Active",
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/gradon"
+    }
+  ],
   "removed": [],
   "updated": [
     {
-      "id": 26739,
-      "name": "Craze",
-      "slug": "craze",
-      "batch": "Summer 2022",
-      "url": "https://www.ycombinator.com/companies/craze",
+      "id": 11983,
+      "name": "Middesk",
+      "slug": "middesk",
+      "batch": "Winter 2019",
+      "url": "https://www.ycombinator.com/companies/middesk",
       "changes": [
+        {
+          "field": "team_size",
+          "before": 130,
+          "after": 140
+        },
+        {
+          "field": "stage",
+          "before": "Growth",
+          "after": "Early"
+        }
+      ]
+    },
+    {
+      "id": 21795,
+      "name": "QuestDB",
+      "slug": "questdb",
+      "batch": "Summer 2020",
+      "url": "https://www.ycombinator.com/companies/questdb",
+      "changes": [
+        {
+          "field": "one_liner",
+          "before": "High-performance time series database",
+          "after": "Data platform for mission-critical real-time workloads"
+        }
+      ]
+    },
+    {
+      "id": 29646,
+      "name": "Corgi Insurance",
+      "slug": "corgi-insurance",
+      "batch": "Summer 2024",
+      "url": "https://www.ycombinator.com/companies/corgi-insurance",
+      "changes": [
+        {
+          "field": "stage",
+          "before": "Early",
+          "after": "Growth"
+        }
+      ]
+    },
+    {
+      "id": 30262,
+      "name": "Pickle",
+      "slug": "pickle-2",
+      "batch": "Winter 2025",
+      "url": "https://www.ycombinator.com/companies/pickle-2",
+      "changes": [
+        {
+          "field": "one_liner",
+          "before": "Where your life context becomes understanding.",
+          "after": "The personal AI agent for Korea."
+        },
+        {
+          "field": "team_size",
+          "before": 15,
+          "after": 6
+        },
         {
           "field": "tags",
           "before": [
             "Artificial Intelligence",
-            "Video",
-            "Media"
+            "Hardware",
+            "Augmented Reality",
+            "Consumer"
           ],
           "after": [
-            "Video",
-            "Media",
+            "Consumer",
             "AI"
           ]
         }
       ]
     },
     {
-      "id": 27190,
-      "name": "Sculpt",
-      "slug": "sculpt",
-      "batch": "Summer 2022",
-      "url": "https://www.ycombinator.com/companies/sculpt",
+      "id": 30772,
+      "name": "stagewise",
+      "slug": "stagewise",
+      "batch": "Summer 2025",
+      "url": "https://www.ycombinator.com/companies/stagewise",
       "changes": [
         {
-          "field": "website",
-          "before": "https://www.sculptcosting.com/",
-          "after": ""
-        },
-        {
-          "field": "all_locations",
-          "before": "Pune, MH, India; MH, India",
-          "after": "Pune, MH, India"
-        },
-        {
-          "field": "one_liner",
-          "before": "Fully automated should-cost analysis for precision manufacturers.",
-          "after": "World Models for Aviation MROs"
-        }
-      ]
-    },
-    {
-      "id": 30116,
-      "name": "Freestyle",
-      "slug": "freestyle-ai",
-      "batch": "Fall 2024",
-      "url": "https://www.ycombinator.com/companies/freestyle-ai",
-      "changes": [
-        {
-          "field": "website",
-          "before": "https://www.freestyle.ai",
-          "after": "https://freestyle.ai/yc"
+          "field": "team_size",
+          "before": 2,
+          "after": 3
         },
         {
           "field": "tags",
           "before": [
             "Artificial Intelligence",
-            "Productivity",
-            "Email",
-            "AI Assistant"
+            "Developer Tools",
+            "Open Source"
           ],
           "after": [
-            "Productivity",
-            "Email",
-            "AI",
-            "AI Assistant"
+            "Developer Tools",
+            "Open Source",
+            "AI"
           ]
         }
       ]
     },
     {
-      "id": 31085,
-      "name": "Janeen",
-      "slug": "janeen",
+      "id": 31168,
+      "name": "Instinct",
+      "slug": "instinct-xyz",
       "batch": "Winter 2026",
-      "url": "https://www.ycombinator.com/companies/janeen",
+      "url": "https://www.ycombinator.com/companies/instinct-xyz",
+      "changes": [
+        {
+          "field": "small_logo_thumb_url",
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/4f2c4947196f35e938655df560aee5ba21c58b51.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/95bc87269a98980418f0859561c98e4d5a516586.png"
+        },
+        {
+          "field": "tags",
+          "before": [
+            "Artificial Intelligence",
+            "Machine Learning",
+            "Trading",
+            "Cryptocurrency"
+          ],
+          "after": [
+            "Machine Learning",
+            "Trading",
+            "AI",
+            "Cryptocurrency"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 31226,
+      "name": "Libra Robotics",
+      "slug": "libra-robotics",
+      "batch": "Summer 2026",
+      "url": "https://www.ycombinator.com/companies/libra-robotics",
+      "changes": [
+        {
+          "field": "one_liner",
+          "before": "Robotic crews for large-scale infrastructure construction",
+          "after": "A self-evolving robot workforce for infrastructure."
+        },
+        {
+          "field": "tags",
+          "before": [
+            "Hard Tech",
+            "Robotics",
+            "Construction",
+            "Energy",
+            "AI"
+          ],
+          "after": [
+            "Artificial Intelligence",
+            "Hard Tech",
+            "Robotics",
+            "Construction",
+            "Energy"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 31455,
+      "name": "tday.com",
+      "slug": "tdaycom",
+      "batch": "Spring 2026",
+      "url": "https://www.ycombinator.com/companies/tdaycom",
+      "changes": [
+        {
+          "field": "small_logo_thumb_url",
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/826a45ec885ec85fd4365a46539e3e25d71b2d4b.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/a94caadf8004552b353aeca398228131adaa7b30.png"
+        }
+      ]
+    },
+    {
+      "id": 31461,
+      "name": "Collar",
+      "slug": "collar",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/collar",
+      "changes": [
+        {
+          "field": "one_liner",
+          "before": "AI for Investor Relations",
+          "after": "AI-Native Investor Relations"
+        },
+        {
+          "field": "team_size",
+          "before": 2,
+          "after": 4
+        },
+        {
+          "field": "tags",
+          "before": [
+            "Artificial Intelligence",
+            "Generative AI",
+            "Finance",
+            "Enterprise",
+            "Operations"
+          ],
+          "after": [
+            "Generative AI",
+            "Finance",
+            "Enterprise",
+            "Operations",
+            "AI"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 35356,
+      "name": "sintem",
+      "slug": "sintem",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/sintem",
       "changes": [
         {
           "field": "name",
-          "before": "Ruma Care",
-          "after": "Janeen"
-        },
-        {
-          "field": "slug",
-          "before": "ruma-care",
-          "after": "janeen"
+          "before": "Sintem",
+          "after": "sintem"
         },
         {
           "field": "former_names",
           "before": [],
           "after": [
-            "Ruma Care"
+            "Sintem",
+            "sintem",
+            "sintem inc."
           ]
         },
         {
-          "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/34241c57767208be0982fd04163c52d69a91a82c.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/841e137150527d4b0f94be4164e696d52b970a81.png"
-        },
-        {
-          "field": "website",
-          "before": "https://rumacare.com",
-          "after": "https://janeen.care"
-        },
-        {
           "field": "one_liner",
-          "before": "The operations stack for biologic infusion clinics",
-          "after": "Prior auths and benefits investigation for infusion clinics "
+          "before": "Agentic phones for teams",
+          "after": "An agentic phone that does your busywork"
         }
       ]
     },
     {
-      "id": 31269,
-      "name": "MochaCare",
-      "slug": "mochacare",
-      "batch": "Winter 2026",
-      "url": "https://www.ycombinator.com/companies/mochacare",
+      "id": 35454,
+      "name": "Shepherd Robotics",
+      "slug": "shepherd-robotics",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/shepherd-robotics",
       "changes": [
         {
-          "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/47ffd397ae9768c410e6f2ccb34010e6de9587b6.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/8f0d0e6f741a56de1899f97dfa05142761a40372.png"
+          "field": "tags",
+          "before": [
+            "Hardware",
+            "Robotics",
+            "Manufacturing",
+            "Automation",
+            "AI"
+          ],
+          "after": [
+            "Artificial Intelligence",
+            "Hardware",
+            "Robotics",
+            "Manufacturing",
+            "Automation"
+          ]
         }
       ]
     },
     {
-      "id": 32133,
-      "name": "Belvedir",
-      "slug": "belvedir",
-      "batch": "Summer 2026",
-      "url": "https://www.ycombinator.com/companies/belvedir",
+      "id": 35652,
+      "name": "Primordiant (Formerly SuperRadiant)",
+      "slug": "primordiant",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/primordiant",
       "changes": [
         {
           "field": "tags",
           "before": [
             "Artificial Intelligence",
-            "Machine Learning",
-            "Reinforcement Learning"
+            "Robotics",
+            "Energy",
+            "Advanced Materials",
+            "Biotechnology"
           ],
           "after": [
-            "Machine Learning",
-            "Reinforcement Learning",
-            "AI"
+            "Robotics",
+            "Energy",
+            "Advanced Materials",
+            "AI",
+            "Biotechnology"
           ]
         }
       ]
@@ -167,42 +357,8 @@
       "changes": [
         {
           "field": "one_liner",
-          "before": "Sutrix delivers patient outcomes 80% faster for clinical research ",
-          "after": "AI-native statistical analysis for patient outcomes"
-        },
-        {
-          "field": "launched_at",
-          "before": 1786812875,
-          "after": 1791849574
-        }
-      ]
-    },
-    {
-      "id": 36777,
-      "name": "Sona8",
-      "slug": "sona8",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/sona8",
-      "changes": [
-        {
-          "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/bbb7f2bc6b3848168f970a704b24b37c2b125f25.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/68fe01dae2c3bf0906f880c9a0f3fca2b2a16863.png"
-        },
-        {
-          "field": "tags",
-          "before": [
-            "Artificial Intelligence",
-            "HR Tech",
-            "Infrastructure",
-            "Conversational AI"
-          ],
-          "after": [
-            "HR Tech",
-            "Infrastructure",
-            "AI",
-            "Conversational AI"
-          ]
+          "before": "AI-native statistical analysis for patient outcomes",
+          "after": "Patient outcomes research at the speed of care"
         }
       ]
     }
