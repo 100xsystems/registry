@@ -1,68 +1,55 @@
-# YC Company Changes for 2026-10-12
+# YC Company Changes for 2026-10-13
 
-- Previous total: 6289
-- Current total: 6292
-- Added: 3
+- Previous total: 6292
+- Current total: 6294
+- Added: 2
 - Removed: 0
-- Updated: 11
+- Updated: 9
 
 
 ## Added Companies
 
-- [Sintem](https://www.ycombinator.com/companies/sintem) (Fall 2026) — Agentic phones for teams
-- [Polemos Industries](https://www.ycombinator.com/companies/polemos-industries) (Fall 2026) — AI-guided ballistic missiles, cheap enough to field in numbers that…
-- [Reconero](https://www.ycombinator.com/companies/reconero) (Fall 2026) — Reconero helps police officers automate their workflows with AI
+- [Sherpa Labs](https://www.ycombinator.com/companies/sherpa-labs) (Winter 2025) — Frontier Data
+- [Sutrix](https://www.ycombinator.com/companies/sutrix) (Fall 2026) — Sutrix delivers patient outcomes 80% faster for clinical research 
 
 ## Updated Companies
 
-### [Spice Data](https://www.ycombinator.com/companies/spice-data)
+### [Orangewood Labs](https://www.ycombinator.com/companies/orangewood-labs)
 
-- `isHiring`: false → true
+- `one_liner`: Orangewood democratises robotics → Orangewood builds amazing robots that people want 
+- `tags`: Generative AI,Hardware,Robotics,AI → Artificial Intelligence,Generative AI,Hardware,Robotics
 
 ### [Yoneda Research](https://www.ycombinator.com/companies/yoneda-research)
 
-- `name`: Yoneda Health → Yoneda Research
-- `slug`: yoneda-health → yoneda-research
-- `former_names`: Tambua Health → Tambua Health,Yoneda Health
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/0c6d7367572dbd0fc40b24d0143efd38dc5f71af.png → https://bookface-images.s3.amazonaws.com/small_logos/8f2be1b92c6f23be3b2f4b25c374939796cd9bdc.png
-- `website`: https://tambua.health/ → https://www.y0n3da.xyz/
+- `one_liner`: Bloodless, blood diagnostic app → 
+- `team_size`: 13 → 30
 
-### [QuestDB](https://www.ycombinator.com/companies/questdb)
+### [Agave](https://www.ycombinator.com/companies/agave)
 
-- `team_size`: 20 → 0
+- `tags`: Construction,B2B,Proptech,AI → Artificial Intelligence,Construction,B2B,Proptech
 
-### [Ponyrun](https://www.ycombinator.com/companies/ponyrun)
-
-- `status`: Active → Inactive
-
-### [KorrAI](https://www.ycombinator.com/companies/korrai)
-
-- `tags`: Artificial Intelligence,Climate,Mining → Climate,Mining,AI
-
-### [Smobi](https://www.ycombinator.com/companies/smobi)
-
-- `status`: Active → Inactive
-
-### [Corgi Insurance](https://www.ycombinator.com/companies/corgi-insurance)
-
-- `stage`: Growth → Early
-
-### [Knowlify](https://www.ycombinator.com/companies/knowlify)
-
-- `one_liner`: The AI Explainer Video Maker → DFY video paid ads agency for startups
-- `subindustry`: B2B → B2B -> Marketing
-- `tags`: Artificial Intelligence,Education,Generative AI,Video,Enterprise Software → Video,Marketing,Advertising
-- `industries`: B2B → B2B,Marketing
-
-### [Imperfect](https://www.ycombinator.com/companies/imperfect)
-
-- `isHiring`: true → false
-
-### [Orthogonal](https://www.ycombinator.com/companies/orthogonal)
+### [Cotool](https://www.ycombinator.com/companies/cotool)
 
 - `isHiring`: false → true
 
-### [GovGuard](https://www.ycombinator.com/companies/govguard)
+### [TraceRoot.AI](https://www.ycombinator.com/companies/traceroot-ai)
 
-- `all_locations`: Chicago, IL, USA → 
-- `regions`: United States of America,America / Canada → Unspecified
+- `one_liner`: Open source self-improving layer for AI agents → Open Source AI Agent Improvement Platform
+
+### [Antigen](https://www.ycombinator.com/companies/antigen)
+
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/714f71e97009698c591e79370e41cb52734e724e.png → https://bookface-images.s3.amazonaws.com/small_logos/8dccef83823a85d888578112126c72cae4a92e61.png
+
+### [Aviern](https://www.ycombinator.com/companies/aviern)
+
+- `one_liner`: Unmanned airplanes for geospatial intelligence → Unmanned cargo airplanes
+- `tags`: Geographic Information System,Airplanes,Aerospace,Infrastructure → Airplanes,Logistics,Aerospace,Infrastructure
+
+### [Sintem](https://www.ycombinator.com/companies/sintem)
+
+- `launched_at`: 1786052033 → 1791832761
+
+### [Polemos Industries](https://www.ycombinator.com/companies/polemos-industries)
+
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/314441f73d1b785ed1b53e31fed8cfe36a98ca56.png → https://bookface-images.s3.amazonaws.com/small_logos/52d6be23c1a08e2020010a26b5bd336554572d38.png
+- `tags`: Artificial Intelligence,Defense → Defense,AI

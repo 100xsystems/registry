@@ -8,7 +8,7 @@
     "ai",
     "research"
   ],
-  "updatedAt": "2026-10-08T18:28:22.595Z",
+  "updatedAt": "2026-10-12T23:59:44.627Z",
   "items": [
     {
       "guid": "environment-free",
@@ -393,7 +393,31 @@
       "summary": "Diffusion-based models decompose sampling into many small Gaussian denoising steps, an assumption that breaks down when generation is compressed to a few coarse transitions. Existing few-step methods address this through distillation, consistency training, or adversarial objectives, but sacrifice…",
       "author": null,
       "publishedAt": "2026-10-08T00:00:00.000Z"
+    },
+    {
+      "guid": "llm-translation-quality-annotation",
+      "title": "Large Language Models for Machine Translation Quality Annotation: Humans and Models Are Both Challenged",
+      "link": "https://machinelearning.apple.com/research/llm-translation-quality-annotation",
+      "summary": "Large Language Models (LLMs) are considered to be a more efficient and cost-effective alternative to human judgment for Machine Translation (MT) evaluation. With MT evaluation spanning a large number of language pairs, domains and levels of annotation granularity, LLMs must be thoroughly evaluated…",
+      "author": null,
+      "publishedAt": "2026-10-12T00:00:00.000Z"
+    },
+    {
+      "guid": "distributed-gpu-cloud",
+      "title": "Minions: A Dynamic and Distributed Virtual GPU Cloud Built on Idle Apple Silicon Devices",
+      "link": "https://machinelearning.apple.com/research/distributed-gpu-cloud",
+      "summary": "The increasing demand for GPU-accelerated machine learning inference has exposed limitations in centralized GPU infrastructures, including high cost, limited elasticity, and long wait times under resource constraints. At the same time, modern Apple Silicon–based macOS devices are equipped with…",
+      "author": null,
+      "publishedAt": "2026-10-12T00:00:00.000Z"
+    },
+    {
+      "guid": "self-compacting-language-agents",
+      "title": "Self-Compacting Language Model Agents",
+      "link": "https://machinelearning.apple.com/research/self-compacting-language-agents",
+      "summary": "Long agent traces composed of chains of thought and tool calls accumulate stale content that anchor subsequent generations, and eventually outgrow the context window. Existing scaffolds mitigate it with fixed-interval compaction triggered at a token threshold. Such triggers pay no heed to…",
+      "author": null,
+      "publishedAt": "2026-10-12T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 48
+  "totalIndexed": 51
 }

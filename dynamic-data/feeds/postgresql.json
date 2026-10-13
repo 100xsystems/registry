@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-10-12T20:57:15.898Z",
+  "updatedAt": "2026-10-12T23:59:45.041Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -2465,7 +2465,23 @@
       "summary": "On August 25, Robert Haas opened a pgsql-hackers thread like this:\n\nI asked Claude to evaluate which v19 patches were the scariest based on the number and type of bugs fixed post-freeze. Results below, with a few particularly cutting remarks from the LLM edited out.\n\nThe subject line was “scary p……",
       "author": null,
       "publishedAt": "2026-10-12T16:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9xQ",
+      "title": "Chris van Eijk: PostgreSQL row-level security for SaaS: what we measured",
+      "link": "https://postgr.es/p/9xQ",
+      "summary": "Row-level security for a multi-tenant SaaS on PostgreSQL 17, result by result: what leaks, what it costs, how to set the tenant, and where each test is.",
+      "author": null,
+      "publishedAt": "2026-10-12T23:15:10.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9xP",
+      "title": "Chris van Eijk: Go, pgx and PostgreSQL row-level security, measured",
+      "link": "https://postgr.es/p/9xP",
+      "summary": "Setting the tenant for PostgreSQL row-level security in Go with pgx 5.11, measured: pgxpool, PrepareConn hooks, transactions, batches and PgBouncer.",
+      "author": null,
+      "publishedAt": "2026-10-12T23:15:10.000Z"
     }
   ],
-  "totalIndexed": 307
+  "totalIndexed": 309
 }
