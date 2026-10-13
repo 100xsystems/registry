@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-10-12T23:59:45.041Z",
+  "updatedAt": "2026-10-13T05:41:36.081Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -2481,7 +2481,23 @@
       "summary": "Setting the tenant for PostgreSQL row-level security in Go with pgx 5.11, measured: pgxpool, PrepareConn hooks, transactions, batches and PgBouncer.",
       "author": null,
       "publishedAt": "2026-10-12T23:15:10.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9xS",
+      "title": "Christophe Pettus: All Your GUCs in a Row: port",
+      "link": "https://postgr.es/p/9xS",
+      "summary": "The `port` parameter does double duty: it names the TCP socket and the Unix socket file too.\n\n(I consult on PostgreSQL through PGX Inc..)",
+      "author": null,
+      "publishedAt": "2026-10-13T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9xR",
+      "title": "Alexander Ioffe: Why is my Whale Query 1000x Slower in Prod? Databases hate skew, each hates it differently",
+      "link": "https://postgr.es/p/9xR",
+      "summary": "Ten enterprise customers own 80% of the orders. On uniform test data the query runs in ~1ms; on that real skew it runs ~1,000x slower. The fix doesn't transfer between engines: Postgres is rescued by one free session setting, SQL Server can't be touched by it and needs a completely different…",
+      "author": null,
+      "publishedAt": "2026-10-13T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 309
+  "totalIndexed": 311
 }
