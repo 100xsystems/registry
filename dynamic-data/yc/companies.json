@@ -1,7 +1,49 @@
 {
-  "fetchedAt": "2026-10-13T18:56:37.382Z",
-  "count": 6296,
+  "fetchedAt": "2026-10-13T22:08:02.701Z",
+  "count": 6297,
   "companies": [
+    {
+      "id": 39117,
+      "name": "Godpack",
+      "slug": "godpack",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/5cf26da4e502d22859bba31a1834d27e69baf813.png",
+      "website": "https://godpack.gg/",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "",
+      "one_liner": "100% EV fair gacha",
+      "team_size": 2,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "Consumer",
+      "subindustry": "Consumer",
+      "launched_at": 1791917830,
+      "tags": [
+        "Marketplace",
+        "Consumer",
+        "Trading"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Winter 2027",
+      "status": "Active",
+      "industries": [
+        "Consumer"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/godpack"
+    },
     {
       "id": 38589,
       "name": "Keres",
@@ -1714,8 +1756,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/10aa0357ff173a9e31708ec1fdba33b53c40c20f.png",
       "website": "https://www.sutrix.ai/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Sutrix enables hospital clinical research teams to deliver tailored patient outcomes 80% faster. We deploy software to turn data from EHRs, wearables, and other sources into validated, analysis-ready datasets and run auditable statistical analyses.",
-      "one_liner": "Patient outcomes research at the speed of care",
+      "long_description": "Sutrix turns messy EHR records into clean, study-ready datasets for hospital research teams.\n\nBefore a clinical study can start, research staff spend weeks pulling records, reading notes chart by chart and fixing conflicting entries in spreadsheets. Sutrix automates that work inside each hospital's own systems. It applies the study's rules and flags unclear cases for staff to review.\n\nPaying research teams at HSS, Emory, and Mount Sinai cut data prep from 3 weeks per study to 4 days, so they start studies sooner and run more of them.\n\nWe built Sutrix because we lived this problem. Ritvik ran clinical research at HSS and Emory, and Supratik previously founded Kairo (a16z Speedrun, exited) and was an engineer at Amazon.",
+      "one_liner": "Turns EHR data into study-ready datasets for hospital research teams",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -3648,8 +3690,8 @@
       "subindustry": "B2B -> Infrastructure",
       "launched_at": 1788561875,
       "tags": [
-        "Infrastructure",
-        "AI"
+        "Artificial Intelligence",
+        "Infrastructure"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -13339,8 +13381,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/d6d9543a0527b0b5ac428e043f211c75ac5d1d59.png",
       "website": "https://olamlabs.ai",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Multi-agent environments let us evaluate and train models in complex, simulated worlds. We work with researchers on both evaluations and training for character and agentic performance typically difficult to assess for using current popular datasets. \r\n\r\nPlay one of our first releases, Multi-Agent Arena (https://olamlabs.ai/arena), where humans come play social strategy games against multiple AI agents. It's currently top 50 on OpenRouter and has thousands of matches played each day. We use Multi-Agent Arena to build datasets on agentic performance and real-world socialization.",
-      "one_liner": "Building multi-agent simulations for model evals and training.",
+      "long_description": "Craftsmen that research complex, high-fidelity simulations for training and evaluating frontier AI models alongside the infrastructure to test and deploy them at scale. Our research focuses on simulations with realistic socialization, multi-agent interaction, swarms, and ultra-long-horizon tasks.\r\n\r\nTry one of our first releases, Multi-Agent Arena (https://olamarena.com/), where humans come play social strategy games against multiple AI agents. It has multi-agent social games like Poker, Diplomacy, Risk, and more.",
+      "one_liner": "Crafting simulations for frontier lab model training",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -30962,20 +31004,22 @@
     },
     {
       "id": 31023,
-      "name": "Inviscid AI",
-      "slug": "inviscid-ai",
-      "former_names": [],
+      "name": "Standard Physics",
+      "slug": "standard-physics",
+      "former_names": [
+        "Inviscid AI"
+      ],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/edd438978013e82ecd281b761baafad0dab9c68e.png",
-      "website": "https://inviscidai.com/",
-      "all_locations": "Singapore, Singapore; Remote",
-      "long_description": "Inviscid AI builds physics-informed AI solutions that transform how buildings and data centers operate. By combining real-time IoT sensor data with computational fluid dynamics (CFD) modeling, we create digital twins that simulate building performance in real time and autonomously optimize operations.\r\n\r\nOur platform optimizes airflow patterns and ventilation strategies to eliminate dead zones, improve air distribution, and reduce the load on mechanical systems. On the energy side, we minimize HVAC power consumption, reduce cooling costs, and lower overall operational expenses while maintaining optimal thermal comfort and indoor air quality. Beyond immediate operational efficiency, we optimize equipment scheduling and maintenance cycles by predicting system behavior under different conditions, allowing facilities managers to proactively address issues before they become problems.\r\n\r\nOur physics first approach ensures that we're not just optimizing against historical patterns, but optimizing based on a deep understanding of how air, heat, and energy actually move through your building, enabling us to find solutions that traditional rule-based or purely data-driven systems would miss.",
-      "one_liner": "Real-time Physics Simulations for Industrial Facilities & Data Centers",
+      "website": "https://standardphysics.com/",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "Standard Physics (formerly Inviscid AI) builds AI that does real physics. Most AI tools approximate physical behavior and get it wrong in ways engineers can’t see. Ours run actual numerical solvers, so the results are accurate enough to make real engineering decisions on.\r\n\r\nWe have three products built on one engine.\r\n\r\nReynolds runs computational fluid dynamics for you. An engineer describes the flow in plain language, and Reynolds writes the OpenFOAM case, builds the mesh, runs the solver, and returns the figures, the numbers, and a case they can rerun. It’s open source.\r\n\r\nArchimedes searches the design itself. Swarms of agents try thousands of layouts in parallel, simulate each one through Reynolds, keep what the physics rewards, and redraw the search space when the best answer was never in the original plan. We sell it as outcome-based engineering: customers pay for a better design, not for compute.\r\n\r\nInviscid AI (now a product!) points the same engine at a running building. It holds a data center within its thermal limits in real time, computed continuously from live telemetry. Our platform optimizes airflow patterns and ventilation strategies to eliminate dead zones, improve air distribution, and reduce the load on mechanical systems. On the energy side, we minimize HVAC power consumption, reduce cooling costs, and lower overall operational expenses while maintaining optimal thermal comfort and indoor air quality. \r\n\r\nWe work with hardware startups and engineering teams on data center cooling, drones, energy systems, piping, and electronics. Reynolds earns engineers’ trust in daily use, and Archimedes and Inviscid AI turn that trust into large contracts.",
+      "one_liner": "Fast Physics Simulations for Rapid Design and Real Time Control",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
       "industry": "Industrials",
-      "subindustry": "Industrials -> Energy",
+      "subindustry": "Industrials",
       "launched_at": 1769244149,
       "tags": [],
       "tags_highlighted": [],
@@ -30985,21 +31029,18 @@
       "batch": "Winter 2026",
       "status": "Active",
       "industries": [
-        "Industrials",
-        "Energy"
+        "Industrials"
       ],
       "regions": [
-        "Singapore",
-        "Southeast Asia",
-        "Remote",
-        "Fully Remote"
+        "United States of America",
+        "America / Canada"
       ],
       "stage": "Early",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
       "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/inviscid-ai"
+      "url": "https://www.ycombinator.com/companies/standard-physics"
     },
     {
       "id": 31022,
@@ -33022,10 +33063,10 @@
       "launched_at": 1760446134,
       "tags": [
         "Generative AI",
+        "Entertainment",
         "Video",
         "Media",
-        "Marketing",
-        "Advertising"
+        "Marketing"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -108719,7 +108760,7 @@
         "United States of America",
         "America / Canada"
       ],
-      "stage": "Growth",
+      "stage": "Early",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -125852,25 +125893,27 @@
     },
     {
       "id": 25822,
-      "name": "Rome",
-      "slug": "rome",
-      "former_names": [],
+      "name": "Rome AI",
+      "slug": "rome-ai",
+      "former_names": [
+        "Rome"
+      ],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/b3ce533baa712c5f3600e9396283ebfae0b33da7.png",
       "website": "https://rome.ai",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "We started Rome AI in 2022 as a freight marketplace for truck drivers, helping 80+ drivers earn up to 40% more by finding 10x more loads. What we learned there pointed us toward something bigger, and that's what we're building now, in stealth. More soon.",
-      "one_liner": "The marketplace for truckers",
+      "long_description": "Rome AI (formerly Rome Trucking) started in 2022 as a freight marketplace for truck drivers. We helped 80+ drivers earn up to 40% more by finding 10x more loads. What we learned there pointed us toward something bigger, and that's what we're building now, in stealth. More soon.",
+      "one_liner": "Stealth AI Lab",
       "team_size": 1,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
       "industry": "B2B",
-      "subindustry": "B2B -> Supply Chain and Logistics",
+      "subindustry": "B2B",
       "launched_at": 1648261394,
       "tags": [
-        "Marketplace",
-        "Logistics",
-        "AI"
+        "Artificial Intelligence",
+        "Consumer",
+        "Enterprise Software"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -125879,8 +125922,7 @@
       "batch": "Winter 2022",
       "status": "Active",
       "industries": [
-        "B2B",
-        "Supply Chain and Logistics"
+        "B2B"
       ],
       "regions": [
         "United States of America",
@@ -125891,7 +125933,7 @@
       "demo_day_video_public": false,
       "app_answers": null,
       "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/rome"
+      "url": "https://www.ycombinator.com/companies/rome-ai"
     },
     {
       "id": 25820,
@@ -239925,7 +239967,7 @@
         "Remote",
         "Partly Remote"
       ],
-      "stage": "Growth",
+      "stage": "Early",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -261239,12 +261281,12 @@
       "name": "Meldium",
       "slug": "meldium",
       "former_names": [],
-      "small_logo_thumb_url": "/company/thumb/missing.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/e01b3234d6048fe3e9f02ccbc928599dc7005921.png",
       "website": "http://meldium.com",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "The easiest way for companies to connect their empoyees to the apps they need.\n\nMeldium is a YC-backed startup helping teams & companies manage accounts & passwords for cloud apps. From shared passwords to user provisioning, Meldium is a central dashboard that connects to every cloud app and makes it simple to create, edit and remove user accounts across all of them. All without IT.",
+      "long_description": "The easiest way for companies to connect their empoyees to the apps they need.\r\n\r\nMeldium is a YC-backed startup helping teams & companies manage accounts & passwords for cloud apps. From shared passwords to user provisioning, Meldium is a central dashboard that connects to every cloud app and makes it simple to create, edit and remove user accounts across all of them. All without IT.",
       "one_liner": "Simple password & identity management for teams. Acquired by LogMeIn…",
-      "team_size": 2,
+      "team_size": 4,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,

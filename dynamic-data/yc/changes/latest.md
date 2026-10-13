@@ -1,109 +1,65 @@
 # YC Company Changes for 2026-10-13
 
-- Previous total: 6295
-- Current total: 6296
+- Previous total: 6296
+- Current total: 6297
 - Added: 1
 - Removed: 0
-- Updated: 17
+- Updated: 9
 
 
 ## Added Companies
 
-- [Caveman](https://www.ycombinator.com/companies/caveman) (Fall 2026) — Caveman cuts what AI agents cost without making them dumber.
+- [Godpack](https://www.ycombinator.com/companies/godpack) (Winter 2027) — 100% EV fair gacha
 
 ## Updated Companies
 
-### [Culdesac](https://www.ycombinator.com/companies/culdesac)
+### [Meldium](https://www.ycombinator.com/companies/meldium)
 
-- `isHiring`: true → false
+- `small_logo_thumb_url`: /company/thumb/missing.png → https://bookface-images.s3.amazonaws.com/small_logos/e01b3234d6048fe3e9f02ccbc928599dc7005921.png
+- `team_size`: 2 → 4
 
-### [Fathom](https://www.ycombinator.com/companies/fathom)
-
-- `isHiring`: true → false
-- `status`: Active → Acquired
-- `stage`: Growth → Early
-
-### [Tractian](https://www.ycombinator.com/companies/tractian)
+### [Opentrons](https://www.ycombinator.com/companies/opentrons)
 
 - `stage`: Growth → Early
 
-### [Toko](https://www.ycombinator.com/companies/toko)
+### [Rome AI](https://www.ycombinator.com/companies/rome-ai)
 
-- `one_liner`: Learn English by speaking with an AI → AI English Tutor
-- `team_size`: 5 → 3
-- `regions`: United States of America,America / Canada → United States of America,America / Canada,Remote,Partly Remote
+- `name`: Rome → Rome AI
+- `slug`: rome → rome-ai
+- `former_names`:  → Rome
+- `one_liner`: The marketplace for truckers → Stealth AI Lab
+- `subindustry`: B2B -> Supply Chain and Logistics → B2B
+- `tags`: Marketplace,Logistics,AI → Artificial Intelligence,Consumer,Enterprise Software
+- `industries`: B2B,Supply Chain and Logistics → B2B
 
-### [Elphinstone, Inc.](https://www.ycombinator.com/companies/elphinstone-inc)
+### [Avoca](https://www.ycombinator.com/companies/avoca)
 
-- `website`: https://elphinstone.com.pk/ → https://elphinstone.us/
-- `one_liner`: Robo-advisory platform for Pakistan → AI-enabled investment advisory and custodial services
+- `stage`: Growth → Early
 
-### [KorrAI](https://www.ycombinator.com/companies/korrai)
+### [Absurd](https://www.ycombinator.com/companies/absurd)
 
-- `isHiring`: true → false
+- `tags`: Generative AI,Video,Media,Marketing,Advertising → Generative AI,Entertainment,Video,Media,Marketing
 
-### [Accountable](https://www.ycombinator.com/companies/accountable)
+### [Standard Physics](https://www.ycombinator.com/companies/standard-physics)
 
-- `name`: Atlas → Accountable
-- `slug`: atlaswork → accountable
-- `former_names`: Hostfi,Accountable → Hostfi,Accountable,Atlas
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/98f68049bfdd41edf9f9b38ee72e792b28ec89a9.png → https://bookface-images.s3.amazonaws.com/small_logos/e4710968823e20b9c7b3a37ba3b9ca6b199fe6ec.png
-- `website`: https://atlaswork.ai → https://accountablevr.com
-- `one_liner`: AI contract agent: Fill a template, get signed, and run next actions. → Smarter Spending for Vacation Property Managers
-- `industry`: B2B → Real Estate and Construction
-- `subindustry`: B2B → Real Estate and Construction -> Housing and Real Estate
-- `tags`: B2B,AI → Fintech,Real Estate,Proptech
-- `industries`: B2B → Real Estate and Construction,Housing and Real Estate
+- `name`: Inviscid AI → Standard Physics
+- `slug`: inviscid-ai → standard-physics
+- `former_names`:  → Inviscid AI
+- `website`: https://inviscidai.com/ → https://standardphysics.com/
+- `all_locations`: Singapore, Singapore; Remote → San Francisco, CA, USA
+- `one_liner`: Real-time Physics Simulations for Industrial Facilities & Data Centers → Fast Physics Simulations for Rapid Design and Real Time Control
+- `subindustry`: Industrials -> Energy → Industrials
+- `industries`: Industrials,Energy → Industrials
+- `regions`: Singapore,Southeast Asia,Remote,Fully Remote → United States of America,America / Canada
 
-### [Conduit](https://www.ycombinator.com/companies/conduit-ai)
+### [Olam Labs](https://www.ycombinator.com/companies/olam-labs)
 
-- `tags`: Travel,Sales,Customer Service,AI → Travel,Customer Service,Operations
+- `one_liner`: Building multi-agent simulations for model evals and training. → Crafting simulations for frontier lab model training
 
-### [Rove](https://www.ycombinator.com/companies/rove)
+### [Hopper](https://www.ycombinator.com/companies/hopper)
 
-- `one_liner`: Travel the world for free. → Earn airline miles on hotels and everyday spend.
-- `team_size`: 4 → 32
-- `tags`: Artificial Intelligence,Fintech,Consumer,Travel → Consumer,Travel,AI
+- `tags`: Infrastructure,AI → Artificial Intelligence,Infrastructure
 
-### [Flyflow](https://www.ycombinator.com/companies/flyflow)
+### [Sutrix](https://www.ycombinator.com/companies/sutrix)
 
-- `website`: https://flyflow.ai → 
-
-### [Cotool](https://www.ycombinator.com/companies/cotool)
-
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/206decabd9d62821656d84ac331ecdfb83854063.png → https://bookface-images.s3.amazonaws.com/small_logos/c50bede6546396b2ac97015979b5f1979c3c8f35.png
-- `one_liner`: AI Agents for Security Operations Teams → Security operations optimized for agents.
-- `team_size`: 4 → 8
-
-### [Pingo](https://www.ycombinator.com/companies/pingo)
-
-- `one_liner`: AI companion that helps you learn languages → Your personal AI for language learning
-
-### [Sunflower](https://www.ycombinator.com/companies/sunflower)
-
-- `isHiring`: false → true
-
-### [Darwin](https://www.ycombinator.com/companies/darwin)
-
-- `tags`: Hard Tech,Machine Learning,Robotics,AI → Artificial Intelligence,Hard Tech,Machine Learning,Robotics
-
-### [RamAIn](https://www.ycombinator.com/companies/ramain)
-
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/e2b50a0163e4e9b6028ca59700b409129a13fe04.png → https://bookface-images.s3.amazonaws.com/small_logos/1a10a6d3695c38f916de546238a447f1633ea982.png
-- `tags`: Robotic Process Automation,Automation,AI → Artificial Intelligence,Robotic Process Automation,Automation
-
-### [OneCLI](https://www.ycombinator.com/companies/onecli)
-
-- `one_liner`: The open source AI teammates for your company. → AI teammates for your business-critical work.
-- `tags`: AIOps,Artificial Intelligence,B2B,Workflow Automation,Open Source → AIOps,B2B,Workflow Automation,Open Source,AI
-
-### [Runtime.si](https://www.ycombinator.com/companies/runtimesi)
-
-- `name`: Lambda Robotics → Runtime.si
-- `slug`: lambda-robotics → runtimesi
-- `former_names`:  → Lambda Robotics,Runtime
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/751b6f5898f8cb0549b80d5a13c551d0c7c0e12f.png → https://bookface-images.s3.amazonaws.com/small_logos/461a9d05728add7a3449b82167ac418e94d301eb.png
-- `website`: https://lambdarobotics.ai → https://runtime.si/
-- `one_liner`: Robotics for AI Infrastructure → Evaluation Infrastructure for Robotics (YC F26)
-- `team_size`: 6 → 5
-- `tags`: Robotics,Infrastructure,AI → Artificial Intelligence,Robotics,Infrastructure
+- `one_liner`: Patient outcomes research at the speed of care → Turns EHR data into study-ready datasets for hospital research teams

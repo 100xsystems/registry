@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-10-13T18:56:20.000Z",
+  "updatedAt": "2026-10-13T22:07:42.205Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -2545,7 +2545,23 @@
       "summary": "How ctid-aware segment partitioning, an inverted DocId map, and bitmap postings accelerated ParadeDB's Wikipedia COUNT queries—then a look at the rest of search, where ParadeDB delivered 10–22x TIN's throughput on filtered and time-sorted Hacker News queries.",
       "author": null,
       "publishedAt": "2026-10-13T12:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9x-",
+      "title": "Chris van Eijk: permission denied for table in PostgreSQL: which grant?",
+      "link": "https://postgr.es/p/9x-",
+      "summary": "What raised 'permission denied for table', schema and sequence in PostgreSQL 17, measured: the privilege each statement needs, and why default privileges miss.",
+      "author": null,
+      "publishedAt": "2026-10-13T00:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9xZ",
+      "title": "Chris van Eijk: current_setting and set_config in PostgreSQL, measured",
+      "link": "https://postgr.es/p/9xZ",
+      "summary": "What current_setting and set_config do with a custom setting in PostgreSQL 17, measured: NULL or empty string, how long a value lasts, defaults, who may set it.",
+      "author": null,
+      "publishedAt": "2026-10-13T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 317
+  "totalIndexed": 319
 }
