@@ -8,7 +8,7 @@
     "debugging",
     "performance"
   ],
-  "updatedAt": "2026-10-09T22:04:28.521Z",
+  "updatedAt": "2026-10-14T21:09:15.033Z",
   "items": [
     {
       "guid": "https://blog.sentry.io/godot-dotnet-ga/",
@@ -385,7 +385,15 @@
       "summary": "Sentry's v11 JavaScript SDKs trace dependencies with a code transformer instead of OpenTelemetry instrumentation, adding Cloudflare Workers, Bun, and Deno",
       "author": null,
       "publishedAt": "2026-10-09T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.sentry.io/flutter-sdk-10/",
+      "title": "Sentry's Flutter SDK 10.0: Streaming Traces and More Accurate Crash-Free Rates",
+      "link": "https://blog.sentry.io/flutter-sdk-10/",
+      "summary": "Flutter SDK 10.0: streaming traces by default, accurate crash-free rates, dedicated app startup traces, and expanded Dio network error capture.",
+      "author": null,
+      "publishedAt": "2026-10-14T09:00:00.000Z"
     }
   ],
-  "totalIndexed": 47
+  "totalIndexed": 48
 }

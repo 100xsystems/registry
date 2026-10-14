@@ -9,7 +9,7 @@
     "performance",
     "edge-computing"
   ],
-  "updatedAt": "2026-10-14T16:37:44.593Z",
+  "updatedAt": "2026-10-14T21:09:14.370Z",
   "items": [
     {
       "guid": "01KY2432VQPD5FTF2RARXXYQGH",
@@ -62218,7 +62218,15 @@
       "summary": "While adding MySQL support to Hyperdrive, we found a subtle protocol bug when caching query results. Here is how we tracked down a 0.001% rate error and made Hyperdrive MySQL generally available.",
       "author": "Pranoy Dutta",
       "publishedAt": "2026-10-14T13:00:00.000Z"
+    },
+    {
+      "guid": "01M4Y1477Z7DBJHXRZDP6MM2FN",
+      "title": "Yandex outage: Data shows that instead of going dark, malicious bots went on the move",
+      "link": "https://blog.cloudflare.com/yandex-outage/",
+      "summary": "When strikes hit Yandex data centers, many assumed Russian bot operations went dark. Cloudflare data reveals that while search crawling stopped, malicious bots simply migrated to other networks.",
+      "author": "Marina Elmore",
+      "publishedAt": "2026-10-14T20:24:19.000Z"
     }
   ],
-  "totalIndexed": 7776
+  "totalIndexed": 7777
 }

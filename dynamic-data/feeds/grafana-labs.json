@@ -8,16 +8,8 @@
     "monitoring",
     "data-visualization"
   ],
-  "updatedAt": "2026-10-08T18:28:22.722Z",
+  "updatedAt": "2026-10-14T21:09:14.451Z",
   "items": [
-    {
-      "guid": "grafana-labs::https://grafana.com/docs/grafana-cloud/machine-learning/assistant/platform/investigation/",
-      "title": "Investigation",
-      "link": "https://grafana.com/docs/grafana-cloud/machine-learning/assistant/platform/investigation/",
-      "summary": null,
-      "author": null,
-      "publishedAt": "2001-01-31T18:30:00.000Z"
-    },
     {
       "guid": "grafana-labs::https://grafana.com/docs/grafana-cloud/machine-learning/assistant/guides/k6-script-authoring/",
       "title": "K6 Script Authoring",
@@ -80009,7 +80001,15 @@
       "summary": "If you’ve built your telemetry pipelines around OpenTelemetry Collectors, you’ve already invested in a collector distribution, YAML configuration, and a deployment model that fits your infrastructure. As that deployment grows, managing it means keeping shared configuration consistent, accommodating…",
       "author": "Marko Bachvarovski",
       "publishedAt": "2026-10-08T14:04:56.000Z"
+    },
+    {
+      "guid": "https://grafana.com/blog/go-from-alert-to-post-incident-review-with-grafana-cloud-irm-and-ai/",
+      "title": "Go from alert to post-incident review with Grafana Cloud IRM and AI",
+      "link": "https://grafana.com/blog/go-from-alert-to-post-incident-review-with-grafana-cloud-irm-and-ai/",
+      "summary": "You’ve got 10 minutes before your next meeting when your phone starts ringing. You’re being paged because the frontend is erroring with failed API requests.\nYou open one tool to see what fired, then another to figure out what’s going on. You message a teammate in Slack to see if they’re noticing…",
+      "author": "Ashley Somerville",
+      "publishedAt": "2026-10-14T17:39:29.000Z"
     }
   ],
-  "totalIndexed": 21920
+  "totalIndexed": 21921
 }

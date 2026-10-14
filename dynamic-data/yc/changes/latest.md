@@ -1,39 +1,78 @@
 # YC Company Changes for 2026-10-14
 
 - Previous total: 6297
-- Current total: 6297
-- Added: 0
+- Current total: 6298
+- Added: 1
 - Removed: 0
-- Updated: 7
+- Updated: 14
 
+
+## Added Companies
+
+- [Graphide](https://www.ycombinator.com/companies/graphide) (Fall 2026) — A graph based IDE for when agents program faster than you can read
 
 ## Updated Companies
 
-### [Orbio Earth](https://www.ycombinator.com/companies/orbio-earth)
-
-- `isHiring`: true → false
-
-### [Legora](https://www.ycombinator.com/companies/legora)
+### [Deako](https://www.ycombinator.com/companies/deako)
 
 - `stage`: Growth → Early
 
-### [Spur](https://www.ycombinator.com/companies/spur)
+### [Courier](https://www.ycombinator.com/companies/courier)
 
-- `one_liner`: Spur is your AI QA Engineer. Test your websites with natural language. → Spur is the validation infrastructure enterprises use to ship at the…
+- `status`: Active → Acquired
+- `stage`: Growth → Early
 
-### [Knowlify](https://www.ycombinator.com/companies/knowlify)
+### [Zuma](https://www.ycombinator.com/companies/resident-boost)
 
-- `one_liner`: DFY video paid ads agency → Done-for-you AI video ads and Meta campaign management
+- `isHiring`: true → false
+- `status`: Active → Acquired
+- `stage`: Growth → Early
 
-### [Kalpa Labs](https://www.ycombinator.com/companies/kalpa-labs)
+### [Amenli](https://www.ycombinator.com/companies/amenli)
 
-- `team_size`: 2 → 3
+- `stage`: Growth → Early
 
-### [Zaplar](https://www.ycombinator.com/companies/zaplar)
+### [KERNEL](https://www.ycombinator.com/companies/kernel)
 
-- `team_size`: 3 → 7
-- `tags`: Artificial Intelligence,B2B → B2B,AI
+- `stage`: Growth → Early
 
-### [Simulithic](https://www.ycombinator.com/companies/simulithic)
+### [Imagine AI](https://www.ycombinator.com/companies/imagine-ai)
 
-- `one_liner`: User simulations for production monitoring. → AI users that test your app on every device and browser
+- `one_liner`: We reverse engineer B2B growth, starting with LinkedIn. → Content agent that makes data-driven decisions for B2B growth
+
+### [Klaus AI](https://www.ycombinator.com/companies/klaus-ai)
+
+- `status`: Active → Inactive
+
+### [Synthetic Sciences](https://www.ycombinator.com/companies/synthetic-sciences)
+
+- `tags`:  → Reinforcement Learning
+
+### [Sila](https://www.ycombinator.com/companies/sila)
+
+- `one_liner`: Agentic Whatsapp → Agentic Messenger
+
+### [The Company Company](https://www.ycombinator.com/companies/the-company-company)
+
+- `one_liner`: The last agent your company will ever need. → The operating system for tech startups.
+- `subindustry`: B2B → B2B -> Engineering, Product and Design
+- `industries`: B2B → B2B,Engineering, Product and Design
+
+### [Click](https://www.ycombinator.com/companies/click)
+
+- `one_liner`: Research services for ChatGPT and Claude → Managed Agents API
+- `subindustry`: B2B -> Analytics → B2B -> Engineering, Product and Design
+- `tags`: Artificial Intelligence,API,Infrastructure → API,Infrastructure,AI
+- `industries`: B2B,Analytics → B2B,Engineering, Product and Design
+
+### [Rystic](https://www.ycombinator.com/companies/rystic)
+
+- `tags`: Developer Tools,B2B,Enterprise Software,AI → Artificial Intelligence,Developer Tools,B2B,Enterprise Software
+
+### [Papaya](https://www.ycombinator.com/companies/papaya)
+
+- `tags`: AIOps,B2B,Enterprise Software,Infrastructure,AI → AIOps,Artificial Intelligence,B2B,Enterprise Software,Infrastructure
+
+### [Decent](https://www.ycombinator.com/companies/decent-com)
+
+- `tags`: Fintech,Health Tech,B2B,Health Insurance,AI → Artificial Intelligence,Fintech,Health Tech,B2B,Health Insurance
