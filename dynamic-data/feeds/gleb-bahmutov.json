@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-09-22T20:42:37.889Z",
+  "updatedAt": "2026-10-14T16:37:47.285Z",
   "items": [
     {
       "guid": "gleb-bahmutov::https://glebbahmutov.com/blog/when-it-reloads/",
@@ -279,7 +279,15 @@
       "summary": "Let's take a sample Cypress project bahmutov/cypress-cloud-skill-example with recorded Cypress test runs on CI. For simplicity there is just one spec cypress/e2e/spec.cy.js with 3 passing tests\ncypress/e2e/spec.cy.js\n\n1\n2\n3\n4\n5\n\ndescribe('Suite A', () => {\n  it('works 1', () => {})\n  it('works 2',…",
       "author": null,
       "publishedAt": "2026-09-22T04:00:00.000Z"
+    },
+    {
+      "guid": "gleb-bahmutov::https://glebbahmutov.com/blog/cypress-test-for-optional-data/",
+      "title": "Cypress Test For Optional Data",
+      "link": "https://glebbahmutov.com/blog/cypress-test-for-optional-data/",
+      "summary": "Imagine you are building an online shopping site. Your goal is to build the best customer-to-customer site, similar to mercari.com 😉. When the user enters a new listing details. the system tries to suggest the best shipping option; the online commerce lives and dies by the shipping rates. So you…",
+      "author": null,
+      "publishedAt": "2026-10-14T04:00:00.000Z"
     }
   ],
-  "totalIndexed": 34
+  "totalIndexed": 35
 }

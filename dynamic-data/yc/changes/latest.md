@@ -4,81 +4,36 @@
 - Current total: 6297
 - Added: 0
 - Removed: 0
-- Updated: 15
+- Updated: 7
 
 
 ## Updated Companies
 
-### [Opentrons](https://www.ycombinator.com/companies/opentrons)
+### [Orbio Earth](https://www.ycombinator.com/companies/orbio-earth)
 
-- `stage`: Early → Growth
+- `isHiring`: true → false
 
-### [Lynks](https://www.ycombinator.com/companies/lynks)
+### [Legora](https://www.ycombinator.com/companies/legora)
 
-- `all_locations`: Alexandria Governorate, Egypt → Cairo, Cairo Governorate, Egypt; Alexandria Governorate, Egypt
-
-### [Middesk](https://www.ycombinator.com/companies/middesk)
-
-- `stage`: Early → Growth
-
-### [Fathom](https://www.ycombinator.com/companies/fathom)
-
-- `stage`: Early → Growth
-
-### [Tractian](https://www.ycombinator.com/companies/tractian)
-
-- `stage`: Early → Growth
-
-### [Sprites](https://www.ycombinator.com/companies/sprites)
-
-- `tags`: Artificial Intelligence,B2B,Marketing,Advertising → B2B,Marketing,Advertising,AI
-
-### [Zudo](https://www.ycombinator.com/companies/zudo)
-
-- `name`: zudo.work → Zudo
-- `slug`: zudowork → zudo
-- `former_names`: Treasury,Nucleus,LazyEditor → Treasury,Nucleus,LazyEditor,zudo.work
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/9b55d5948e24e4f011a2289892580ecd680e947a.png → https://bookface-images.s3.amazonaws.com/small_logos/02c705489ccd24391e34d49ce6425e36196c1fcb.png
-- `one_liner`: AI Workers for Warranty → AI Workers for Extended Service Contracts
-- `team_size`: 3 → 4
-- `tags`: AI → Artificial Intelligence
-
-### [Avoca](https://www.ycombinator.com/companies/avoca)
-
-- `stage`: Early → Growth
-
-### [Texel.ai](https://www.ycombinator.com/companies/texel-ai)
-
-- `all_locations`: Remote → New York City, NY, USA; Remote
-- `regions`: Remote,Fully Remote → United States of America,America / Canada,Remote,Fully Remote
+- `stage`: Growth → Early
 
 ### [Spur](https://www.ycombinator.com/companies/spur)
 
-- `team_size`: 8 → 15
-- `tags`: Developer Tools,B2B,AI → Artificial Intelligence,Developer Tools,B2B
-- `demo_day_video_public`: true → false
+- `one_liner`: Spur is your AI QA Engineer. Test your websites with natural language. → Spur is the validation infrastructure enterprises use to ship at the…
 
-### [Juno](https://www.ycombinator.com/companies/juno-chat)
+### [Knowlify](https://www.ycombinator.com/companies/knowlify)
 
-- `team_size`: 2 → 5
+- `one_liner`: DFY video paid ads agency → Done-for-you AI video ads and Meta campaign management
 
-### [tday.com](https://www.ycombinator.com/companies/tdaycom)
+### [Kalpa Labs](https://www.ycombinator.com/companies/kalpa-labs)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/a94caadf8004552b353aeca398228131adaa7b30.png → https://bookface-images.s3.amazonaws.com/small_logos/0fcdc7fa679394923342a76be3a9b2874ba3c501.png
+- `team_size`: 2 → 3
 
-### [Reason Machines](https://www.ycombinator.com/companies/reason-machines)
+### [Zaplar](https://www.ycombinator.com/companies/zaplar)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/41ce981200cf7566e83cab9db3f721b243d01db5.png → https://bookface-images.s3.amazonaws.com/small_logos/ac8d1fbd9622030ddfab1cc9a6fac1907350004f.png
+- `team_size`: 3 → 7
+- `tags`: Artificial Intelligence,B2B → B2B,AI
 
-### [Exosat](https://www.ycombinator.com/companies/exosat)
+### [Simulithic](https://www.ycombinator.com/companies/simulithic)
 
-- `all_locations`: Singapore, Singapore → San Francisco, CA, USA
-- `regions`: Singapore,Southeast Asia → United States of America,America / Canada
-
-### [Dydema](https://www.ycombinator.com/companies/dydema)
-
-- `one_liner`: The model company for neurotech. → A consumer brain-computer interface you can map to anything.
-- `industry`: B2B → Consumer
-- `subindustry`: B2B → Consumer
-- `tags`: Neurotechnology,Neuroinformatics,AI → Hardware,Neurotechnology,Consumer,Big Data,AI
-- `industries`: B2B → Consumer
+- `one_liner`: User simulations for production monitoring. → AI users that test your app on every device and browser

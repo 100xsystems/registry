@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-10-07T13:01:18.962Z",
+  "updatedAt": "2026-10-14T16:37:46.540Z",
   "items": [
     {
       "guid": "evil-martians::https://evilmartians.com/chronicles/which-ai-actually-reads-your-site-two-months-of-llm-traffic-measured",
@@ -287,7 +287,15 @@
       "summary": "Authors: Yaroslav Kurbatov, Backend Engineer, and Travis Turner, Tech Editor\nTopics: DX, Rails, PostgreSQL, Ruby, Python, Continuous Integration\n\nPostgreSQL does not guarantee row order without ORDER BY. Use Rails 8.2 or pg_disorder to shuffle unordered SELECT results and expose hidden order…",
       "author": "Yaroslav Kurbatov",
       "publishedAt": "2026-10-07T00:00:00.000Z"
+    },
+    {
+      "guid": "evil-martians::https://evilmartians.com/chronicles/dont-get-burned-make-your-stripe-mrr-boring-and-correct",
+      "title": "Don’t get burned, make your Stripe MRR boring and correct",
+      "link": "https://evilmartians.com/chronicles/dont-get-burned-make-your-stripe-mrr-boring-and-correct",
+      "summary": "Authors: Kirill Yakovenko, Account Manager, Valentin Kiselev, Backend Engineer, and Travis Turner, Tech Editor\nTopics: Developer Products, Product development, Ruby on Rails, Ruby\n\nMRR is easy to calculate and easy to get subtly wrong. Here's how to normalize Stripe subscriptions, classify every…",
+      "author": "Kirill Yakovenko",
+      "publishedAt": "2026-10-14T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 35
+  "totalIndexed": 36
 }

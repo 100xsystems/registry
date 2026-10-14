@@ -8,7 +8,7 @@
     "ai",
     "research"
   ],
-  "updatedAt": "2026-10-13T18:56:19.519Z",
+  "updatedAt": "2026-10-14T16:37:44.481Z",
   "items": [
     {
       "guid": "environment-free",
@@ -425,7 +425,23 @@
       "summary": "For most languages of the world, language model pre-training operates in a data-constrained regime where models must repeat their training data many times, degrading generalization. Two remedies exist: aggressive hyperparameter tuning such as high weight decay, and mixing in data from a…",
       "author": null,
       "publishedAt": "2026-10-13T00:00:00.000Z"
+    },
+    {
+      "guid": "tri-modal-masked-diffusion",
+      "title": "The Design Space of Tri-Modal Masked Diffusion Models",
+      "link": "https://machinelearning.apple.com/research/tri-modal-masked-diffusion",
+      "summary": "Discrete diffusion models have emerged as strong alternatives to autoregressive language models, with recent work initializing and finetuning a base unimodal model for bi-modal generation. Diverging from previous approaches, we introduce the first tri-modal Masked Diffusion Models (MDM) pretrained…",
+      "author": null,
+      "publishedAt": "2026-10-14T00:00:00.000Z"
+    },
+    {
+      "guid": "code-switching-detection",
+      "title": "Code-Switching Detection via Language-Selective Dimensions in Speech Foundation Models",
+      "link": "https://machinelearning.apple.com/research/code-switching-detection",
+      "summary": "Code-switching (CS), the alternation between languages within an utterance, is common in multilingual speech but underrepresented in pretraining corpora. Increasing CS coverage requires finding relevant utterances in large speech collections so that they can be included in training data. One way to…",
+      "author": null,
+      "publishedAt": "2026-10-14T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 52
+  "totalIndexed": 54
 }
