@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-10-13T22:07:42.205Z",
+  "updatedAt": "2026-10-14T03:45:05.311Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -2561,7 +2561,23 @@
       "summary": "What current_setting and set_config do with a custom setting in PostgreSQL 17, measured: NULL or empty string, how long a value lasts, defaults, who may set it.",
       "author": null,
       "publishedAt": "2026-10-13T00:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9y0",
+      "title": "Christophe Pettus: All Your GUCs in a Row: post_auth_delay and pre_auth_delay",
+      "link": "https://postgr.es/p/9y0",
+      "summary": "Debugging PostgreSQL connections requires stopping a backend before it does anything interesting.\n\n(I consult on PostgreSQL through PGX Inc..)",
+      "author": null,
+      "publishedAt": "2026-10-14T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9x_",
+      "title": "Mayur B.: PGConf.EU 2026: Into the PostgreSQL Multiverse",
+      "link": "https://postgr.es/p/9x_",
+      "summary": "Somewhere in the multiverse, there is a version of you who attends every interesting talk at PGConf.EU.\n\nUnfortunately, in this universe, PostgreSQL has parallel query execution. Humans don’t.\nLast year, I created an Underground Map for Database Nerds to navigate PGConf.EU without getting lost in…",
+      "author": null,
+      "publishedAt": "2026-10-13T20:08:07.000Z"
     }
   ],
-  "totalIndexed": 319
+  "totalIndexed": 321
 }
