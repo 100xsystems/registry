@@ -8,7 +8,7 @@
     "architecture",
     "api-design"
   ],
-  "updatedAt": "2026-10-13T18:56:19.541Z",
+  "updatedAt": "2026-10-15T16:23:01.582Z",
   "items": [
     {
       "guid": "https://stripe.com/blog/analyzing-the-evidence-that-helps-businesses-win-product-not-received-disputes",
@@ -169,7 +169,15 @@
       "summary": "As usage, costs, and customer expectations change, AI companies are moving beyond traditional SaaS pricing. Leaders at Monetize 2026 shared how they’re combining subscriptions with usage-based billing, building spend controls into products, adapting packaging and value metrics, and making pricing…",
       "author": null,
       "publishedAt": "2026-10-13T00:00:00.000Z"
+    },
+    {
+      "guid": "https://stripe.com/blog/real-time-stripe-data-postgres",
+      "title": "New: Sync real-time Stripe data to Postgres with Stripe Data Pipeline",
+      "link": "https://stripe.com/blog/real-time-stripe-data-postgres",
+      "summary": "Applications rely on current Stripe data to fulfill orders, update customer accounts, and manage access to paid features. Until now, developers have had to build and maintain custom integrations to keep application databases in sync with Stripe. We’re introducing real-time sync to Postgres for…",
+      "author": null,
+      "publishedAt": "2026-10-15T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 20
+  "totalIndexed": 21
 }

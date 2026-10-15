@@ -1,112 +1,74 @@
 # YC Company Changes for 2026-10-15
 
-- Previous total: 6300
+- Previous total: 6304
 - Current total: 6304
-- Added: 4
+- Added: 0
 - Removed: 0
-- Updated: 22
+- Updated: 12
 
-
-## Added Companies
-
-- [Fire Wallet](https://www.ycombinator.com/companies/fire-wallet) (Fall 2026) — Fire Wallet is a privacy-first crypto wallet designed to just work,…
-- [Particularity](https://www.ycombinator.com/companies/particularity) (Fall 2026) — Building the tech stack for government regulators
-- [ObsessionDB](https://www.ycombinator.com/companies/obsessiondb) (Fall 2026) — Real-time data warehouse for agents
-- [Tilo](https://www.ycombinator.com/companies/tilo) (Fall 2026) — A Linux-based, AI-native operating system.
 
 ## Updated Companies
 
-### [MBX](https://www.ycombinator.com/companies/mbx)
+### [Carbonfact](https://www.ycombinator.com/companies/carbonfact)
 
-- `stage`: Early → Growth
+- `team_size`: 22 → 45
+- `stage`: Growth → Early
 
-### [Deako](https://www.ycombinator.com/companies/deako)
+### [Omnistrate](https://www.ycombinator.com/companies/omnistrate)
 
-- `stage`: Early → Growth
+- `team_size`: 15 → 25
+- `tags`: Developer Tools,SaaS,B2B,Cloud Computing,Infrastructure → Artificial Intelligence,Developer Tools,B2B,Cloud Computing,Infrastructure
 
-### [Routable](https://www.ycombinator.com/companies/routable)
+### [222](https://www.ycombinator.com/companies/222)
 
-- `stage`: Early → Growth
+- `team_size`: 23 → 28
+- `tags`: Machine Learning,Marketplace,Consumer,Social,AI → Artificial Intelligence,Machine Learning,Marketplace,Consumer,Social
 
-### [Doppler](https://www.ycombinator.com/companies/doppler)
+### [withHuman](https://www.ycombinator.com/companies/withhuman)
 
-- `stage`: Early → Growth
+- `name`: Metoro → withHuman
+- `slug`: metoro → withhuman
+- `former_names`:  → Metoro
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/6fa41154d43a3a3e4861f884623a00efb64e06f5.png → https://bookface-images.s3.amazonaws.com/small_logos/39484d89d4533e876c43bf392647fed770ecf14d.png
+- `website`: https://metoro.io → https://withhuman.ai
+- `one_liner`: AI SRE For Teams on Kubernetes → The Approval Layer for AI Agents
+- `tags`: Developer Tools,Kubernetes,DevOps,AI → Open Source
 
-### [Courier](https://www.ycombinator.com/companies/courier)
+### [OffDeal](https://www.ycombinator.com/companies/offdeal)
 
-- `stage`: Early → Growth
+- `team_size`: 15 → 25
+- `tags`: Artificial Intelligence,Fintech,B2B,SMB → Fintech,B2B,SMB,AI
+- `stage`: Growth → Early
 
-### [Karat Financial](https://www.ycombinator.com/companies/karat-financial)
+### [Smooth](https://www.ycombinator.com/companies/smooth)
 
-- `stage`: Early → Growth
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/f6e3f2bcd9ca9ba0984a5ab69a69597d088c3b3e.png → https://bookface-images.s3.amazonaws.com/small_logos/bcfa8b54cf4b1b39fd0cb9dbb6a8d775676107b8.png
 
-### [Zuma](https://www.ycombinator.com/companies/resident-boost)
+### [Artil](https://www.ycombinator.com/companies/artil)
 
-- `stage`: Early → Growth
+- `one_liner`: Persistent email inbox, phone number and secret storage for agents → Agent identity and communication infrastructure
+- `tags`: Artificial Intelligence,Developer Tools,B2B,Email,Infrastructure → Developer Tools,B2B,Email,Infrastructure,AI
 
-### [Amenli](https://www.ycombinator.com/companies/amenli)
+### [Stockline](https://www.ycombinator.com/companies/stockline)
 
-- `stage`: Early → Growth
+- `all_locations`: Paris, Île-de-France, France → San Francisco, CA, USA
+- `tags`: SaaS,B2B,Food & Beverage,AI → Artificial Intelligence,SaaS,B2B,Food & Beverage
+- `regions`: France,Europe → United States of America,America / Canada
 
-### [Handyman.ai](https://www.ycombinator.com/companies/handymanai)
+### [OctaPulse](https://www.ycombinator.com/companies/octapulse)
 
-- `one_liner`: Handyman.ai by WeReno- The AI operating layer for property improvement → Handyman.ai by WeReno | The AI Agent That Knows and Runs Your Property
-- `tags`: Real Estate,Construction,Proptech,AI → Artificial Intelligence,Real Estate,Construction,Proptech
+- `one_liner`: Building the robotics layer for seafood production → OctaPulse builds computer vision and robotics for fish farms and…
 
-### [Juicebox](https://www.ycombinator.com/companies/juicebox)
+### [Arzana](https://www.ycombinator.com/companies/arzana)
 
-- `tags`: Artificial Intelligence,Generative AI,B2B,Recruiting,HR Tech → Generative AI,B2B,Recruiting,HR Tech,AI
+- `one_liner`: The autonomous ERP for every manufacturer → Adaptive AI built for manufacturers
+- `team_size`: 9 → 13
 
-### [Cobbery](https://www.ycombinator.com/companies/cobbery)
+### [Waybill](https://www.ycombinator.com/companies/waybill)
 
-- `one_liner`: Superpowers for litigators → For winning matters, when winning matters
-- `tags`: Artificial Intelligence → AI
+- `all_locations`: Gurugram, HR, India → Bengaluru, KA, India
+- `tags`: Artificial Intelligence,Logistics,Procurement → Logistics,Procurement,AI
 
-### [Outset](https://www.ycombinator.com/companies/outset)
+### [Sutrix](https://www.ycombinator.com/companies/sutrix)
 
-- `stage`: Early → Growth
-
-### [Legora](https://www.ycombinator.com/companies/legora)
-
-- `stage`: Early → Growth
-
-### [Freestyle](https://www.ycombinator.com/companies/freestyle)
-
-- `tags`: Artificial Intelligence,Developer Tools,Cloud Computing → Developer Tools,Cloud Computing,AI
-
-### [Blueshoe](https://www.ycombinator.com/companies/blueshoe)
-
-- `all_locations`: Boston, MA, USA → San Francisco, CA, USA
-- `tags`: Artificial Intelligence,Consumer,B2B,Legal,LegalTech → Consumer,B2B,Legal,LegalTech,AI
-
-### [Meteor Labs](https://www.ycombinator.com/companies/meteor-labs)
-
-- `name`: Meteor → Meteor Labs
-- `slug`: meteor → meteor-labs
-- `former_names`:  → Meteor
-- `tags`: Artificial Intelligence,Big Data,Data Engineering → Big Data,Data Engineering,AI
-
-### [Normal](https://www.ycombinator.com/companies/normal)
-
-- `tags`: Hardware,Manufacturing,AI,Industrial → Artificial Intelligence,Hardware,Manufacturing,Industrial
-
-### [Solva](https://www.ycombinator.com/companies/solva)
-
-- `team_size`: 15 → 7
-
-### [KERNEL](https://www.ycombinator.com/companies/kernel)
-
-- `stage`: Early → Growth
-
-### [tday.com](https://www.ycombinator.com/companies/tdaycom)
-
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/0fcdc7fa679394923342a76be3a9b2874ba3c501.png → https://bookface-images.s3.amazonaws.com/small_logos/749cda8e6bd8bf9125edf56605d0a1fea2ea6497.png
-
-### [Manicule](https://www.ycombinator.com/companies/manicule)
-
-- `team_size`: 7 → 8
-
-### [Sona8](https://www.ycombinator.com/companies/sona8)
-
-- `one_liner`: Context layer for enterprise AI surveying employees with voice agents  → Context layer from employee voices to improve & automate workflows
-- `tags`: Artificial Intelligence,HR Tech,Infrastructure,Conversational AI → HR Tech,Infrastructure,AI,Conversational AI
+- `one_liner`: Turns EHR data into study-ready datasets for hospital research teams → Deployed AI to turn EHR data into study-ready datasets 

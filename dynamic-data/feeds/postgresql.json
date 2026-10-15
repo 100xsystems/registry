@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-10-15T11:10:14.525Z",
+  "updatedAt": "2026-10-15T16:23:02.202Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -2601,7 +2601,15 @@
       "summary": "2026년 11월 17~18일 홍콩에서 열리는 PGConf.Asia 2026에서 EDB 전문가들이 PostgreSQL의 주요 기술과 운영 과제를 소개합니다. AI 기반 SQL 생성과 검색·RAG부터 스케일아웃 아키텍처, 성능 튜닝, CloudNativePG 및 TPA 기반 클러스터 관리까지 주요 발표 세션을 미리 살펴보세요.",
       "author": null,
       "publishedAt": "2026-10-15T01:04:31.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9ys",
+      "title": "Christophe Pettus: A Parade of Horribles, in Serial Order",
+      "link": "https://postgr.es/p/9ys",
+      "summary": "Sooner or later, someone on the team reads about write skew. It is an unsettling read: two transactions, each correct on its own, each looking at data the other is about to change, both committing, and the database ending up in a state that no ordering of the two could have produced. READ COMMITT……",
+      "author": null,
+      "publishedAt": "2026-10-15T16:00:00.000Z"
     }
   ],
-  "totalIndexed": 324
+  "totalIndexed": 325
 }
