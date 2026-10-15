@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-10-08T04:46:04.785Z",
+  "updatedAt": "2026-10-15T11:10:24.759Z",
   "items": [
     {
       "guid": "t-j-maher::https://www.tjmaher.com/2026/06/does-giving-presentation-via-zoom-to.html",
@@ -335,7 +335,15 @@
       "summary": "With this blog post, we will be taking Dave Haeffner's The-Internet, https://the-internet.herokuapp.com/, a ten-year old web app test site, fork it, investigate using Google AI how to modernize the server architecture, and port it over to a new home at Render.com. \n\nSpoilers: The original version,…",
       "author": "T.J. Maher",
       "publishedAt": "2026-10-07T21:00:32.519Z"
+    },
+    {
+      "guid": "t-j-maher::https://www.tjmaher.com/2026/10/how-to-add-static-application-security.html",
+      "title": "How to add Static Application Security Testing (SAST) with SonarQube Cloud Free Tier to a GitLab CI/ CD pipeline",
+      "link": "https://www.tjmaher.com/2026/10/how-to-add-static-application-security.html",
+      "summary": "ESLint catches code quality issues. Typecheckers ensures variables and functions use the correct data types. Prettier automatically formats code for consistent style. But how can we start incorporating security testing into this GitLab CI/CD pipeline we have built? \n\nGitLab repo:…",
+      "author": "T.J. Maher",
+      "publishedAt": "2026-10-15T03:30:55.282Z"
     }
   ],
-  "totalIndexed": 41
+  "totalIndexed": 42
 }

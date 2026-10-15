@@ -8,7 +8,7 @@
     "devops",
     "cloud-native"
   ],
-  "updatedAt": "2026-10-01T22:11:40.365Z",
+  "updatedAt": "2026-10-15T11:10:25.773Z",
   "items": [
     {
       "guid": "https://www.docker.com/?p=92418",
@@ -249,7 +249,23 @@
       "summary": "At WeAreDevelopers, Docker introduced Cloud Sandboxes, the open Sandbox Kit specification, and a commitment to bring Kits to the CNCF for neutral governance.",
       "author": "Jin Kim",
       "publishedAt": "2026-10-01T18:26:12.000Z"
+    },
+    {
+      "guid": "https://www.docker.com/?p=94888",
+      "title": "AI Agent Security Risks: What Can Go Wrong When Agents Act on Their Own",
+      "link": "https://www.docker.com/blog/ai-agent-security-risks/",
+      "summary": "Learn the top AI agent security risks, from prompt injection to excessive autonomy and credential exposure, and how to contain them.",
+      "author": "Jackie Frederick",
+      "publishedAt": "2026-10-14T22:08:33.000Z"
+    },
+    {
+      "guid": "https://www.docker.com/?p=94820",
+      "title": "Harbor + Docker Sandboxes: Run Safe, Reproducible Agent Evals",
+      "link": "https://www.docker.com/blog/harbor-docker-sandboxes-run-safe-reproducible-agent-evals/",
+      "summary": "Harbor can now run every eval task in Docker Sandboxes Docker Sandboxes are MicroVM environments to run agents like Claude Code, Codex, Cursor, and more safely With Sandboxes, define custom network policies for fair, reproducible evals Run your evals locally or in the cloud: starting for free on…",
+      "author": "Srini Sekaran",
+      "publishedAt": "2026-10-14T21:45:27.000Z"
     }
   ],
-  "totalIndexed": 30
+  "totalIndexed": 32
 }

@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-10-15T03:26:56.546Z",
-  "count": 6300,
+  "fetchedAt": "2026-10-15T11:10:31.695Z",
+  "count": 6304,
   "companies": [
     {
       "id": 39117,
@@ -390,6 +390,52 @@
       "app_answers": null,
       "question_answers": false,
       "url": "https://www.ycombinator.com/companies/openhack"
+    },
+    {
+      "id": 37830,
+      "name": "Tilo",
+      "slug": "tilo",
+      "former_names": [
+        "Podesta AI"
+      ],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/5ee5f7b68452b3800941d6ce5bfbfacd28c318f2.png",
+      "website": "https://tilo.so",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "Tilo is a Linux-based operating system built for AI agents to work alongside people. On Tilo, computer use is up to 15x cheaper than on a normal OS.\r\n\r\nToday agents use computers the way people do. They take screenshots and click through apps, which is slow, expensive, and brittle. In Tilo, every app exports actions, so agents work over MCP while people use the UI. You still see what each agent does in your apps, and anything it changes can be undone.\r\n\r\nAny number of people and agents can work in one workspace in real time, across apps. Tilo runs as your OS, in our cloud, or headless on your machine, and you can open and share any workspace from the browser.",
+      "one_liner": "A Linux-based, AI-native operating system.",
+      "team_size": 2,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "B2B",
+      "subindustry": "B2B -> Infrastructure",
+      "launched_at": 1787865531,
+      "tags": [
+        "AIOps",
+        "AI"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Fall 2026",
+      "status": "Active",
+      "industries": [
+        "B2B",
+        "Infrastructure"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada",
+        "Remote",
+        "Partly Remote"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/tilo"
     },
     {
       "id": 37732,
@@ -1450,8 +1496,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/68fe01dae2c3bf0906f880c9a0f3fca2b2a16863.png",
       "website": "https://sona8.com",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Sona8 is a voice agent that talks to every employee about how their work gets done. Consulting, transformation and corporate development teams spend a large part of every project on stakeholder interviews and stakeholder alignment, and still only hear from a small share of the people affected.\r\n\r\nEach employee gets a link and talks to the agent for about 20 minutes. The agent asks follow-up questions, for example why a step is still done by hand or who else is involved. From the conversations we build process maps and a list of the problems people described, by site and team.\r\n\r\nDuring the implementation, the agent goes back to the employees involved after each initiative and asks whether it was implemented and what changed. The result is a project management office that has talked to every employee. Today consulting firms buy it for the stakeholder interviews at the start of an engagement. Transformation and corporate development teams buy it to run the implementation of a change program.\r\n\r\nOver time this becomes the way a company knows how it runs. Sona8 reads the systems the company already uses, connects them to what employees said, and keeps the picture current by asking again. Before a decision, you ask what it would do across sites and teams and get an answer from the whole company. A small team steers a company-wide program that used to need a large one. And AI agents inside the company come here first to learn how the work is done before they change anything.",
-      "one_liner": "Context layer for enterprise AI surveying employees with voice agents ",
+      "long_description": "Sona8 uses AI voice agents to interview employees about how work gets done. Consulting, transformation and corporate development teams use it to hear from more people and follow up after changes.\r\n\r\nEmployees open a link and speak in their own language. The agent asks follow-up questions, and teams compare problems across sites and departments. We’ve completed 10,000+ employee interviews and signed one of the world’s top three consulting firms.\r\n\r\nWe’re building the context layer and operating system for strategy teams: combining employee knowledge with company data to understand operations, improve processes and put decisions into action. The same context will guide AI agents as they take over work, so the company keeps what it learns.",
+      "one_liner": "Context layer from employee voices to improve & automate workflows",
       "team_size": 5,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -1460,9 +1506,9 @@
       "subindustry": "B2B -> Operations",
       "launched_at": 1788994017,
       "tags": [
-        "Artificial Intelligence",
         "HR Tech",
         "Infrastructure",
+        "AI",
         "Conversational AI"
       ],
       "tags_highlighted": [],
@@ -1573,6 +1619,51 @@
       "app_answers": null,
       "question_answers": false,
       "url": "https://www.ycombinator.com/companies/asim-group"
+    },
+    {
+      "id": 36774,
+      "name": "ObsessionDB",
+      "slug": "obsessiondb",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/4d02f08af0be569fcf511900d03b0d8eccfdf473.png",
+      "website": "https://obsessiondb.com",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "ObsessionDB is a blazing-fast data warehouse built for the explosive amounts of data created by software and AI agents.\r\n\r\nWe make massive datasets instantly queryable at a fraction of the cost, powered by our own more efficient fork of ClickHouse®.",
+      "one_liner": "Real-time data warehouse for agents",
+      "team_size": 5,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "B2B",
+      "subindustry": "B2B -> Infrastructure",
+      "launched_at": 1787064993,
+      "tags": [
+        "Analytics",
+        "Big Data",
+        "Databases"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Fall 2026",
+      "status": "Active",
+      "industries": [
+        "B2B",
+        "Infrastructure"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada",
+        "Remote",
+        "Partly Remote"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/obsessiondb"
     },
     {
       "id": 36741,
@@ -2267,6 +2358,46 @@
       "url": "https://www.ycombinator.com/companies/reconero"
     },
     {
+      "id": 36114,
+      "name": "Particularity",
+      "slug": "particularity",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/bcbf7ec4217465351ee9a2745d3429e194218ed3.png",
+      "website": "https://particularity.io",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "Agentic case sourcing: proactively find violations of consumer protection statutes in public data and prepackage cases for regulators",
+      "one_liner": "Building the tech stack for government regulators",
+      "team_size": 2,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "Government",
+      "subindustry": "Government",
+      "launched_at": 1792043635,
+      "tags": [
+        "GovTech"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Fall 2026",
+      "status": "Active",
+      "industries": [
+        "Government"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/particularity"
+    },
+    {
       "id": 36088,
       "name": "OpenSEO",
       "slug": "openseo",
@@ -2810,7 +2941,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/bb8cfe58317eeba078abcb4a9b1d2c14affb42f9.png",
       "website": "https://ploid.com",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Ploid is the AI-native people data infrastructure for building products, workflows, and agents around people. We’ve built an index of 2B+ people across professional and social sources, with the infrastructure to search, resolve, enrich, and retrieve up-to-date information about anyone on demand.\r\n\r\nThrough Ploid’s API, CLI, and MCP, developers and companies can search for people, enrich profiles, find emails and phone numbers, resolve identities across different data points, and access the broader web context associated with a person. Unlike traditional people databases that rely primarily on static records, Ploid is designed for AI-native workflows. We combine our people index with real-time retrieval and entity resolution so data can be refreshed and expanded at the moment it is requested.\r\n\r\nPloid can power everything from sales and recruiting products to customer intelligence, identity resolution, trust and safety, and AI agents that need reliable information about people. Instead of building and maintaining dozens of data integrations yourself, Ploid gives you one infrastructure layer for people data.\r\n\r\n2B+ people. One API. Built for AI.",
+      "long_description": "Ploid is the AI-native people data infrastructure for developers and companies building products, workflows, and agents around people.\r\n\r\nWe've built an index of 2B+ people across professional and social sources, giving developers one API to search for people, enrich profiles, find emails and phone numbers, resolve identities, and retrieve up-to-date information from across the web. Unlike traditional people databases built around static records, Ploid combines its massive people index with real-time retrieval and identity resolution, delivering fresh, reliable information whenever it's needed. From sales and recruiting to customer intelligence, trust and safety, and AI agents, Ploid replaces fragmented data providers with a single infrastructure layer.\r\n\r\n2B+ people. One API. Built for AI.",
       "one_liner": "The people data company for the agent era",
       "team_size": 2,
       "highlight_black": false,
@@ -14408,6 +14539,51 @@
       "url": "https://www.ycombinator.com/companies/akkari"
     },
     {
+      "id": 31575,
+      "name": "Fire Wallet",
+      "slug": "fire-wallet",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/b24edcd9c30661e9d4cf818ec14536902f2b2c41.png",
+      "website": "https://fire.co",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "🔥FIRE WALLET 🔥\r\n\r\nhttps://www.youtube.com/watch?v=JeXDDegwhgA\r\n\r\nTL;DR: Fire Wallet is a fast, end-to-end encrypted, non-custodial stablecoin wallet with built-in payment processing and fiat on/off ramps, built by the team that created MobileCoin, the cryptocurrency inside Signal.\r\n\r\nHey Bookface! We're Josh, Michael, and Manny and we're building Fire Wallet!\r\n\r\n🔥Why we built this\r\n\r\nMost wallets and payment processors don’t work FOR you. They're slow, route your payments in the way that earns them the most, and they leak your financial life to anyone asking. Worse: every single one hold the keys to your money.\r\n\r\nWe believe your financial tools should act in your interest and, frankly, that your money should be yours.\r\n\r\n 🔥What Fire does\r\n\r\nMulti-chain, non-custodial, end-to-end encrypted wallet. \r\nYour keys, your money, your assets: you are in full control of your funds at all times. \r\nLeast Cost Routing. Every swap and payment takes the cheapest path, not the one that pays a middleman the most.\r\nSelf-sovereign payment processing. Send an invoice straight from the wallet. Get paid from your web checkout. No middleman.\r\nEasy fiat on/off ramps. Move stablecoins to USD and back without the pain.\r\nBuilt for agentic commerce. Manage per-agent sub-wallets for agentic workflows.\r\nEncrypted by default. Protecting you from bad actors and surveillance capitalism.\r\n\r\n🔥Early traction\r\n\r\nSigned our first major LOI with @Trustboop (founded by Justice Laub of Drone Racing League and Rob Rhinehart of Soylent).\r\n\r\nOnboarding our first enterprise customer in ecommerce packaging and marketing, doing about $1.5M/month in volume. They've connected us to 10 more companies in the same vertical at similar volume, roughly a $100M/yr GMV opportunity.\r\n\r\n🔥Why us\r\n\r\nJosh and Manuel led the creation of MobileCoin, the cryptocurrency in Signal Messenger: $100M+ raised, $1.16B peak valuation, $4B+ peak coin market cap, acquired in 2026.\r\n\r\nMichael runs product and design. He's an internationally exhibited artist with two published art books, and he builds sick products.\r\n\r\nManuel runs operations and orchestrates systems that actually work at scale.\r\n\r\n🔥Asks\r\n\r\nIntros to businesses moving $1M+/month in payments, especially cross-border, ecommerce, and DTC, who want lower fees and more control over their funds.\r\n\r\nStrategic partners in fintech and payments interested in integrating our infrastructure.\r\nTell us what's broken. Reply here or email founders@fire.co.\r\n\r\nWe're looking for our first 100 customers. If that's you or someone you know, we'd love to talk.",
+      "one_liner": "Fire Wallet is a privacy-first crypto wallet designed to just work,…",
+      "team_size": 3,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "Fintech",
+      "subindustry": "Fintech",
+      "launched_at": 1792046296,
+      "tags": [
+        "FinOps",
+        "Fintech",
+        "Security",
+        "Cryptocurrency"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Fall 2026",
+      "status": "Active",
+      "industries": [
+        "Fintech"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada",
+        "Remote",
+        "Partly Remote"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/fire-wallet"
+    },
+    {
       "id": 31574,
       "name": "HeyClicky",
       "slug": "heyclicky",
@@ -15679,7 +15855,7 @@
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Manicule does AgentRel. We get companies discovered and used by AI agents. Think DevRel, rebuilt for a world where agents make all the decisions. We own developer documentation and technical content across social channels, end-to-end. We've grown 100% MoM over the last three months to $53K in monthly revenue, with customers like Supermemory, Greptile, Reducto, and Mastra.\r\n  \r\nGetting discovered and used by agents is its own job now, and the market for it is broken. The SEO/GEO SaaS tools just show you data like where you rank in AI answers. The agencies are slow and lack know-how with agents. The one person who could own all of it end-to-end, a DevRel, is nearly impossible to hire: our customers have had roles open for months at $300K+ and still can't find anyone good. \r\n\r\nWe solve all these gaps. Naman has been doing fractional DevRel since he was 13, working with companies like PromptLayer, Brightdata, and Courier.com. Shreyans has been building since 14 — he built an AI app that hit App Store Productivity Trending within a month, and\r\nwas the founding engineer at Supermemory. We met in high school and have built multiple startups together since.",
       "one_liner": "AgentRel — Devrel For Agents",
-      "team_size": 7,
+      "team_size": 8,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -18058,7 +18234,7 @@
         "markup.one",
         "tday"
       ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/0fcdc7fa679394923342a76be3a9b2874ba3c501.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/749cda8e6bd8bf9125edf56605d0a1fea2ea6497.png",
       "website": "https://tday.com",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "tday automatically turns a software company's product into on-brand marketing creative. Connect your product and git repo, and tday generates polished launch videos, social graphics, and ads, the content a team would normally spend hours making in a design tool or pay a freelancer for. tday then publishes the creative and measures how it performs across your social and ad channels, closing the loop from what you ship to what you post.",
@@ -39410,7 +39586,7 @@
         "Remote",
         "Partly Remote"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -41378,7 +41554,7 @@
       "all_locations": "New York City, NY, USA",
       "long_description": "Insurance is 7% of worldwide GDP and we’re building the infrastructure for how the world handles risk",
       "one_liner": "Building the new superintelligence for insurance",
-      "team_size": 15,
+      "team_size": 7,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -41736,9 +41912,9 @@
       "subindustry": "Industrials",
       "launched_at": 1754954871,
       "tags": [
+        "Artificial Intelligence",
         "Hardware",
         "Manufacturing",
-        "AI",
         "Industrial"
       ],
       "tags_highlighted": [],
@@ -45302,9 +45478,11 @@
     },
     {
       "id": 30602,
-      "name": "Meteor",
-      "slug": "meteor",
-      "former_names": [],
+      "name": "Meteor Labs",
+      "slug": "meteor-labs",
+      "former_names": [
+        "Meteor"
+      ],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/463b3d216b98b96d985f820caa0a09e2c3c9ee44.png",
       "website": "https://meteorlabs.ai",
       "all_locations": "San Francisco, CA, USA",
@@ -45318,9 +45496,9 @@
       "subindustry": "B2B",
       "launched_at": 1754469732,
       "tags": [
-        "Artificial Intelligence",
         "Big Data",
-        "Data Engineering"
+        "Data Engineering",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -45340,7 +45518,7 @@
       "demo_day_video_public": false,
       "app_answers": null,
       "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/meteor"
+      "url": "https://www.ycombinator.com/companies/meteor-labs"
     },
     {
       "id": 30598,
@@ -46062,7 +46240,7 @@
       "former_names": [],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/7df632e4878b4cdf452b698c74d065153a45564b.png",
       "website": "https://blueshoe.com",
-      "all_locations": "Boston, MA, USA",
+      "all_locations": "San Francisco, CA, USA",
       "long_description": "Blueshoe is a full-stack law firm that helps people with everything from everyday legal issues to high-stakes litigation and trial.\r\n\r\nPeople can access legal guidance directly through our web app or the AI interfaces where they are already seeking answers. If representation is needed, Blueshoe attorneys handle many cases all the way to resolution, equipped with cutting-edge data, AI-native tools, and operational support.",
       "one_liner": "The AI-Native Consumer + Plaintiff Law Firm",
       "team_size": 2,
@@ -46073,11 +46251,11 @@
       "subindustry": "B2B -> Legal",
       "launched_at": 1746075411,
       "tags": [
-        "Artificial Intelligence",
         "Consumer",
         "B2B",
         "Legal",
-        "LegalTech"
+        "LegalTech",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -63987,7 +64165,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c4c248db416a898fa7c553e48dd6ec3f458817e5.png",
       "website": "https://www.freestyle.sh",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Ben and Jacob met in Calculus class in 10th grade, and tried founding a startup in high school — it didn’t go anywhere.\r\n\r\nDuring high school, Ben lead the frontend team for the World Health Organization’s COVID-19 App Team.\r\n\r\nAfter high school, Jacob went to Apple and Ben went to college. When there was an opening on his team, Jacob had Ben apply, and Ben left UChicago to go work at Apple.\r\n\r\nThey spent about 2 years at Apple as Senior Engineers in the Conversational Engineering Department, before leaving to found Freestyle.\r\n\r\nFreestyle is directly inspired by what they saw as their failures of the tech they worked with at Apple.",
+      "long_description": "Freestyle builds the most powerful VMs for AI Agents. \r\n\r\n- **Instant Startup**: Freestyle VMs provision in milliseconds, with p99s under 400ms.\r\n- **Persistence**: Freestyle VMs can run forever, they can be hibernated with their exact memory in place and come back to life weeks later instantly, in that exact state.\r\n- **Powerful**: Freestyle VMs go up to 64GB of RAM for public tiers and much further for enterprise. Freestyle does high quality hardware virtualization supporting nested virtualization, FUSE, eBPF, full Linux networking and more. If it can run in an EC2, it can run in a Freestyle VM.\r\n- **Cheaply Snapshottable and Branchable**: Freestyle VMs are instantly and cheaply snapshottable (sub 1ms interruption, sub 50ms to snapshot ready). These snapshots can be used to create new VMs in the exact state of the original VM (memory and disk). This enables powerful workflows like branching, cloning, and rapid recovery from failures.\r\n\r\n",
       "one_liner": "The most powerful sandboxes for AI Agents",
       "team_size": 5,
       "highlight_black": false,
@@ -63997,9 +64175,9 @@
       "subindustry": "B2B -> Infrastructure",
       "launched_at": 1719115501,
       "tags": [
-        "Artificial Intelligence",
         "Developer Tools",
-        "Cloud Computing"
+        "Cloud Computing",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -85755,7 +85933,7 @@
         "Remote",
         "Partly Remote"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -93115,7 +93293,7 @@
         "United States of America",
         "America / Canada"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -113223,7 +113401,7 @@
       "website": "https://cobbery.com",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Born out of 9-figure litigation, Cobbery AI agents are staffed on every matter to give your litigation teams superpowers",
-      "one_liner": "Superpowers for litigators",
+      "one_liner": "For winning matters, when winning matters",
       "team_size": 4,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -113232,7 +113410,7 @@
       "subindustry": "B2B -> Legal",
       "launched_at": 1653598743,
       "tags": [
-        "Artificial Intelligence"
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -115584,7 +115762,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/2a2858087cb4a0409dfdf9550fd470d4f1798ec6.png",
       "website": "https://juicebox.ai/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Juicebox is on a mission to help teams win the talent war.\r\n\r\nIn the age of AI, human ingenuity is the ultimate scarce resource. Recruiting is a zero-sum game where you either compete or lose.\r\n\r\nTeams at Ramp, Perplexity, and leading AI labs use Juicebox to power their hiring, alongside 5,000+ customers from early-stage startups to Fortune 500 companies.\r\n\r\nWe’ve crossed $10M in ARR with 20%+ monthly growth, powering thousands of searches every day and making Juicebox one of the fastest-growing AI SaaS companies in the world.\r\n\r\nJuicebox has raised $110M+ in funding, including a $30M Series A led by Sequoia Capital and a $80M Series B led by DST Global. Additional investors in Juicebox include Coatue, NFDG, Lux Capital, Y Combinator, and BOND Capital.",
+      "long_description": "Juicebox is on a mission to help teams win the talent war.\r\n\r\nIn the age of AI, human ingenuity is the ultimate scarce resource. Recruiting is a zero-sum game where you either compete or lose.\r\n\r\nTeams at Ramp, Notion, and leading AI labs use Juicebox to power their hiring, alongside 5,000+ customers from early-stage startups to Fortune 500 companies.\r\n\r\nWe’re on the path to $100M in ARR with 20%+ monthly growth, powering thousands of searches every day and making Juicebox one of the fastest-growing AI SaaS companies in the world. In 2026, Juicebox was named to Forbes’ Next Billion-Dollar Startups list and LinkedIn’s Top Startups list.\r\n\r\nJuicebox has raised $116M in funding, including a $30M Series A led by Sequoia Capital and an $80M Series B led by DST Global. NFDG lead out seed round, and additional investors include Y Combinator, Coatue, BOND, Lux Capital, Verified Capital, and Committed Capital.",
       "one_liner": "AI Agents for Recruiting",
       "team_size": 100,
       "highlight_black": false,
@@ -115594,11 +115772,11 @@
       "subindustry": "B2B -> Recruiting and Talent",
       "launched_at": 1659905940,
       "tags": [
-        "Artificial Intelligence",
         "Generative AI",
         "B2B",
         "Recruiting",
-        "HR Tech"
+        "HR Tech",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -136405,7 +136583,7 @@
       "website": "https://handyman.ai",
       "all_locations": "Toronto, ON, Canada",
       "long_description": "While building WeReno.com, we managed over $1B in renovations and noticed something: property owners kept coming back long after projects ended. We realized buildings have no memory, and every repair, maintenance issue, and service request starts from scratch.\r\n\r\nSo we built Handyman.ai, an AI agent that remembers your property, anticipates problems, and handles everything from maintenance to repairs.\r\n\r\nIn our first three months, we facilitated over $10M in GMV, validating the opportunity to build an AI agent for every property.",
-      "one_liner": "Handyman.ai by WeReno- The AI operating layer for property improvement",
+      "one_liner": "Handyman.ai by WeReno | The AI Agent That Knows and Runs Your Property",
       "team_size": 12,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -136414,10 +136592,10 @@
       "subindustry": "Real Estate and Construction -> Construction",
       "launched_at": 1647622736,
       "tags": [
+        "Artificial Intelligence",
         "Real Estate",
         "Construction",
-        "Proptech",
-        "AI"
+        "Proptech"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -139060,7 +139238,7 @@
         "Egypt",
         "Middle East and North Africa"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -142741,7 +142919,7 @@
         "Remote",
         "Partly Remote"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -191801,7 +191979,7 @@
         "Remote",
         "Partly Remote"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -198974,7 +199152,7 @@
         "Remote",
         "Partly Remote"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -204078,7 +204256,7 @@
         "Remote",
         "Fully Remote"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -222404,7 +222582,7 @@
         "Remote",
         "Fully Remote"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -241079,7 +241257,7 @@
         "United States of America",
         "America / Canada"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -257080,7 +257258,7 @@
         "United States of America",
         "America / Canada"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": true,
       "app_answers": null,

@@ -1,107 +1,112 @@
 # YC Company Changes for 2026-10-15
 
-- Previous total: 6298
-- Current total: 6300
-- Added: 2
+- Previous total: 6300
+- Current total: 6304
+- Added: 4
 - Removed: 0
-- Updated: 17
+- Updated: 22
 
 
 ## Added Companies
 
-- [Altair Health](https://www.ycombinator.com/companies/altair-health) (Fall 2026) — Stripe for medical billing
-- [Praxis](https://www.ycombinator.com/companies/praxis) (Fall 2026) — AI agents that run law firm operations.
+- [Fire Wallet](https://www.ycombinator.com/companies/fire-wallet) (Fall 2026) — Fire Wallet is a privacy-first crypto wallet designed to just work,…
+- [Particularity](https://www.ycombinator.com/companies/particularity) (Fall 2026) — Building the tech stack for government regulators
+- [ObsessionDB](https://www.ycombinator.com/companies/obsessiondb) (Fall 2026) — Real-time data warehouse for agents
+- [Tilo](https://www.ycombinator.com/companies/tilo) (Fall 2026) — A Linux-based, AI-native operating system.
 
 ## Updated Companies
 
 ### [MBX](https://www.ycombinator.com/companies/mbx)
 
-- `stage`: Growth → Early
+- `stage`: Early → Growth
+
+### [Deako](https://www.ycombinator.com/companies/deako)
+
+- `stage`: Early → Growth
 
 ### [Routable](https://www.ycombinator.com/companies/routable)
 
-- `isHiring`: true → false
-- `status`: Active → Acquired
-- `stage`: Growth → Early
+- `stage`: Early → Growth
 
 ### [Doppler](https://www.ycombinator.com/companies/doppler)
 
-- `isHiring`: true → false
-- `status`: Active → Acquired
-- `stage`: Growth → Early
+- `stage`: Early → Growth
+
+### [Courier](https://www.ycombinator.com/companies/courier)
+
+- `stage`: Early → Growth
 
 ### [Karat Financial](https://www.ycombinator.com/companies/karat-financial)
 
-- `one_liner`: Better financial services for creators → Business banking that helps you grow
-- `team_size`: 40 → 25
-- `stage`: Growth → Early
+- `stage`: Early → Growth
 
-### [Syncly](https://www.ycombinator.com/companies/syncly)
+### [Zuma](https://www.ycombinator.com/companies/resident-boost)
 
-- `isHiring`: true → false
+- `stage`: Early → Growth
+
+### [Amenli](https://www.ycombinator.com/companies/amenli)
+
+- `stage`: Early → Growth
+
+### [Handyman.ai](https://www.ycombinator.com/companies/handymanai)
+
+- `one_liner`: Handyman.ai by WeReno- The AI operating layer for property improvement → Handyman.ai by WeReno | The AI Agent That Knows and Runs Your Property
+- `tags`: Real Estate,Construction,Proptech,AI → Artificial Intelligence,Real Estate,Construction,Proptech
+
+### [Juicebox](https://www.ycombinator.com/companies/juicebox)
+
+- `tags`: Artificial Intelligence,Generative AI,B2B,Recruiting,HR Tech → Generative AI,B2B,Recruiting,HR Tech,AI
+
+### [Cobbery](https://www.ycombinator.com/companies/cobbery)
+
+- `one_liner`: Superpowers for litigators → For winning matters, when winning matters
+- `tags`: Artificial Intelligence → AI
+
+### [Outset](https://www.ycombinator.com/companies/outset)
+
+- `stage`: Early → Growth
 
 ### [Legora](https://www.ycombinator.com/companies/legora)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/05171178ffc17b0e9580f51631921117958c778c.png → https://bookface-images.s3.amazonaws.com/small_logos/8ab1e73f4b43c259e677e877d53fe26dfac90b65.png
-- `one_liner`: The AI workspace for lawyers → The agentic operating system for legal work
-- `team_size`: 400 → 900
-- `tags`: Artificial Intelligence,Generative AI,LegalTech → Generative AI,LegalTech,AI
-- `question_answers`: false → true
+- `stage`: Early → Growth
 
-### [TrainLoop](https://www.ycombinator.com/companies/trainloop)
+### [Freestyle](https://www.ycombinator.com/companies/freestyle)
 
-- `isHiring`: false → true
+- `tags`: Artificial Intelligence,Developer Tools,Cloud Computing → Developer Tools,Cloud Computing,AI
 
-### [Artil](https://www.ycombinator.com/companies/artil)
+### [Blueshoe](https://www.ycombinator.com/companies/blueshoe)
 
-- `name`: Fira → Artil
-- `slug`: fira → artil
-- `former_names`:  → Fira
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/8180359e4edaaddd169f88aafc0eb2338fe0116f.png → https://bookface-images.s3.amazonaws.com/small_logos/e50d8dfa254f692b3d51a22620ca8519141e9ed2.png
-- `website`: https://firaresearch.com/ → https://artil.dev/
-- `one_liner`: Financial research platform for investment firms → Persistent email inbox, phone number and secret storage for agents
-- `team_size`: 4 → 2
-- `subindustry`: B2B -> Finance and Accounting → B2B -> Infrastructure
-- `tags`:  → Artificial Intelligence,Developer Tools,B2B,Email,Infrastructure
-- `industries`: B2B,Finance and Accounting → B2B,Infrastructure
+- `all_locations`: Boston, MA, USA → San Francisco, CA, USA
+- `tags`: Artificial Intelligence,Consumer,B2B,Legal,LegalTech → Consumer,B2B,Legal,LegalTech,AI
 
-### [OnDeck AI](https://www.ycombinator.com/companies/ondeck-ai)
+### [Meteor Labs](https://www.ycombinator.com/companies/meteor-labs)
 
-- `team_size`: 7 → 6
+- `name`: Meteor → Meteor Labs
+- `slug`: meteor → meteor-labs
+- `former_names`:  → Meteor
+- `tags`: Artificial Intelligence,Big Data,Data Engineering → Big Data,Data Engineering,AI
 
-### [Imagine AI](https://www.ycombinator.com/companies/imagine-ai)
+### [Normal](https://www.ycombinator.com/companies/normal)
 
-- `one_liner`: Content agent that makes data-driven decisions for B2B growth → We reverse engineer B2B growth, starting with LinkedIn.
+- `tags`: Hardware,Manufacturing,AI,Industrial → Artificial Intelligence,Hardware,Manufacturing,Industrial
 
-### [Libra Robotics](https://www.ycombinator.com/companies/libra-robotics)
+### [Solva](https://www.ycombinator.com/companies/solva)
 
-- `one_liner`: A self-evolving robot workforce for infrastructure. → The robot workforce for infrastructure
+- `team_size`: 15 → 7
 
-### [GodHands](https://www.ycombinator.com/companies/godhands)
+### [KERNEL](https://www.ycombinator.com/companies/kernel)
 
-- `one_liner`: Your company’s operating model, learned from the work. → Turn how your team works into playbooks and agents
-- `tags`: B2B,Enterprise,Operations → B2B,Workflow Automation,Enterprise,Automation,Operations
-- `regions`: United States of America,America / Canada,Remote,Partly Remote → United States of America,America / Canada
+- `stage`: Early → Growth
 
-### [Avea Robotics](https://www.ycombinator.com/companies/avea-robotics)
+### [tday.com](https://www.ycombinator.com/companies/tdaycom)
 
-- `status`: Active → Acquired
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/0fcdc7fa679394923342a76be3a9b2874ba3c501.png → https://bookface-images.s3.amazonaws.com/small_logos/749cda8e6bd8bf9125edf56605d0a1fea2ea6497.png
 
-### [Lamb Labs](https://www.ycombinator.com/companies/lamb-labs)
+### [Manicule](https://www.ycombinator.com/companies/manicule)
 
-- `isHiring`: false → true
+- `team_size`: 7 → 8
 
-### [Petrichor](https://www.ycombinator.com/companies/petrichor)
+### [Sona8](https://www.ycombinator.com/companies/sona8)
 
-- `name`: Petrichor Bio → Petrichor
-- `slug`: petrichor-bio → petrichor
-- `former_names`: Qokedas → Qokedas,Petrichor Bio
-- `tags`: Deep Learning,AI → Artificial Intelligence,Deep Learning
-
-### [Agent Relay](https://www.ycombinator.com/companies/agent-relay)
-
-- `tags`: Developer Tools,Swarm AI → Artificial Intelligence,Developer Tools,Swarm AI,Open Source,AI
-
-### [Graphide](https://www.ycombinator.com/companies/graphide)
-
-- `launched_at`: 1786757512 → 1792011169
+- `one_liner`: Context layer for enterprise AI surveying employees with voice agents  → Context layer from employee voices to improve & automate workflows
+- `tags`: Artificial Intelligence,HR Tech,Infrastructure,Conversational AI → HR Tech,Infrastructure,AI,Conversational AI
