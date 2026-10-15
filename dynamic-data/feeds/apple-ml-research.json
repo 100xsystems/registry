@@ -8,7 +8,7 @@
     "ai",
     "research"
   ],
-  "updatedAt": "2026-10-14T16:37:44.481Z",
+  "updatedAt": "2026-10-15T20:47:40.750Z",
   "items": [
     {
       "guid": "environment-free",
@@ -441,7 +441,31 @@
       "summary": "Code-switching (CS), the alternation between languages within an utterance, is common in multilingual speech but underrepresented in pretraining corpora. Increasing CS coverage requires finding relevant utterances in large speech collections so that they can be included in training data. One way to…",
       "author": null,
       "publishedAt": "2026-10-14T00:00:00.000Z"
+    },
+    {
+      "guid": "mlx-distributed-inference",
+      "title": "Local and Distributed Large LLM Inference with MLX and RDMA on Mac Studio",
+      "link": "https://machinelearning.apple.com/research/mlx-distributed-inference",
+      "summary": "on Mac with Apple silicon lets AI researchers and developers experiment locally with the latest models and methods in a private environment. The open-source array framework leverages the unified memory architecture of Apple silicon, enabling anyone to run new inference and fine-tuning methods on…",
+      "author": null,
+      "publishedAt": "2026-10-15T00:00:00.000Z"
+    },
+    {
+      "guid": "selection-structured-reasoning",
+      "title": "Selection-Based Structured Reasoning: Toward Efficient Multimodal Search Agents",
+      "link": "https://machinelearning.apple.com/research/selection-structured-reasoning",
+      "summary": "Multimodal agents commonly generate freeform reasoning before each action. For small models, limited model capacity can result in lengthy reasoning that provides little useful guidance for action generation while incurring substantial inference cost. To address this challenge, we introduce…",
+      "author": null,
+      "publishedAt": "2026-10-15T00:00:00.000Z"
+    },
+    {
+      "guid": "plan-retrieve-tool-discovery",
+      "title": "Plan or Retrieve First? A Scale Study of Tool Discovery Architectures",
+      "link": "https://machinelearning.apple.com/research/plan-retrieve-tool-discovery",
+      "summary": "Tool-augmented LLM agents discover relevant APIs from large registries before planning execution, yet finite context windows prohibit injecting all tool definitions into a single prompt. The dominant approach, which we term Retrieve-then-Plan (RtP), embeds the user query and retrieves similar tools…",
+      "author": null,
+      "publishedAt": "2026-10-15T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 54
+  "totalIndexed": 57
 }

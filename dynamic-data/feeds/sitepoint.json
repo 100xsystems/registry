@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-10-15T11:10:26.760Z",
+  "updatedAt": "2026-10-15T20:47:54.751Z",
   "items": [
     {
       "guid": "https://www.sitepoint.com/how-ai-and-apis-are-changing-everyday-development-work/",
@@ -2487,7 +2487,47 @@
       "summary": "Why emulators and simulators miss the bugs that only show up on real phones - network drops, battery throttling, OEM quirks and how to build a real-device testing process that catches them first.\nHow to Test Real Mobile Behavior on Actual Devices\n          on SitePoint.",
       "author": "SitePoint Sponsors",
       "publishedAt": "2026-10-14T18:21:37.000Z"
+    },
+    {
+      "guid": "https://www.sitepoint.com/ai-generated-documentation-human-readable/",
+      "title": "When AI-Generated Documentation Is Unreadable: A CI Playbook",
+      "link": "https://www.sitepoint.com/ai-generated-documentation-human-readable/?utm_source=rss",
+      "summary": "Stop unreadable AI-written docs from merging. A four-section skeleton, PR checklist, Vale prose rules, and a tested shell check, all enforced in GitHub Actions CI.\nWhen AI-Generated Documentation Is Unreadable: A CI Playbook\n          on SitePoint.",
+      "author": "SitePoint Team",
+      "publishedAt": "2026-10-15T16:05:42.000Z"
+    },
+    {
+      "guid": "https://www.sitepoint.com/vibe-coded-app-security-audit-playbook/",
+      "title": "Vibe Coded App Security Audit: How to Vet Code Before Running It",
+      "link": "https://www.sitepoint.com/vibe-coded-app-security-audit-playbook/?utm_source=rss",
+      "summary": "A repeatable checklist to audit an AI-generated Node.js app before you run it: Docker isolation, npm --ignore-scripts, npm audit, Semgrep rules and --network none.\nVibe Coded App Security Audit: How to Vet Code Before Running It\n          on SitePoint.",
+      "author": "SitePoint Team",
+      "publishedAt": "2026-10-15T16:03:50.000Z"
+    },
+    {
+      "guid": "https://www.sitepoint.com/dark-mode-css-variables-light-dark/",
+      "title": "Dark Mode CSS Variables: Build a Modern Theme with light-dark()",
+      "link": "https://www.sitepoint.com/dark-mode-css-variables-light-dark/?utm_source=rss",
+      "summary": "Build a no-flash dark mode toggle with plain CSS and JS. Use color-scheme, light-dark() and CSS variables, persist the choice in localStorage, and add a fallback.\nDark Mode CSS Variables: Build a Modern Theme with light-dark()\n          on SitePoint.",
+      "author": "SitePoint Team",
+      "publishedAt": "2026-10-15T16:01:42.000Z"
+    },
+    {
+      "guid": "https://www.sitepoint.com/nextjs-caching-revalidate-not-working/",
+      "title": "Next.js Caching: How to Fix revalidate Failures and Stale Data",
+      "link": "https://www.sitepoint.com/nextjs-caching-revalidate-not-working/?utm_source=rss",
+      "summary": "Fix Next.js pages that stay stale or turn into cached 404s. Learn why revalidate fails, how notFound() can cache a 404 during a CMS outage, and a safer fetch helper.\nNext.js Caching: How to Fix revalidate Failures and Stale Data\n          on SitePoint.",
+      "author": "SitePoint Team",
+      "publishedAt": "2026-10-15T15:48:29.000Z"
+    },
+    {
+      "guid": "https://www.sitepoint.com/typescript-discriminated-unions-exhaustive-checking/",
+      "title": "TypeScript Discriminated Unions: Refactoring Boolean Flags into State Machines",
+      "link": "https://www.sitepoint.com/typescript-discriminated-unions-exhaustive-checking/?utm_source=rss",
+      "summary": "Replace boolean flags and optional fields with TypeScript discriminated unions. Covers narrowing, exhaustive checks with never, and a typed form state machine.\nTypeScript Discriminated Unions: Refactoring Boolean Flags into State Machines\n          on SitePoint.",
+      "author": "SitePoint Team",
+      "publishedAt": "2026-10-15T15:40:11.000Z"
     }
   ],
-  "totalIndexed": 310
+  "totalIndexed": 315
 }

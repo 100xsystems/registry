@@ -8,7 +8,7 @@
     "compiler",
     "performance"
   ],
-  "updatedAt": "2026-10-02T12:13:24.754Z",
+  "updatedAt": "2026-10-15T20:47:41.146Z",
   "items": [
     {
       "guid": "rust-blog::https://blog.rust-lang.org/2026/07/16/Rust-1.97.1/",
@@ -6041,7 +6041,15 @@
       "summary": "With Rust 1.100.0, the following changes to 32-bit Windows targets will happen:\ni686-pc-windows-msvc Tier 1 with host tools target will be demoted to Tier 1 without host tools.\ni686-pc-windows-gnu Tier 2 with host tools target will be demoted to Tier 2 without host tools.\nBuilds of the standard…",
       "author": "Mateusz Mikuła, Ralf Jung",
       "publishedAt": "2026-10-02T00:00:00.000Z"
+    },
+    {
+      "guid": "rust-blog::https://blog.rust-lang.org/2026/10/15/Rust-1.99.1/",
+      "title": "Announcing Rust 1.99.1",
+      "link": "https://blog.rust-lang.org/2026/10/15/Rust-1.99.1/",
+      "summary": "The Rust team has published a new point release of Rust, 1.99.1. Rust is a programming language that is empowering everyone to build reliable and efficient software.\nIf you have a previous version of Rust installed via rustup, getting Rust 1.99.1 is as easy as:\nrustup update stable\nIf you don't…",
+      "author": "The Rust Release Team",
+      "publishedAt": "2026-10-15T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 754
+  "totalIndexed": 755
 }

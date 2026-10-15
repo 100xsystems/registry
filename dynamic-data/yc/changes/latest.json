@@ -1,36 +1,93 @@
 {
   "date": "2026-10-15",
-  "fetchedAt": "2026-10-15T16:23:19.136Z",
+  "fetchedAt": "2026-10-15T20:47:59.270Z",
   "previousCount": 6304,
-  "currentCount": 6304,
-  "added": [],
+  "currentCount": 6305,
+  "added": [
+    {
+      "id": 38358,
+      "name": "Plyxl",
+      "slug": "plyxl",
+      "former_names": [
+        "PLYX",
+        "PLYXL",
+        "Plyxl",
+        "PLYXL"
+      ],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/f11b86229c223b308077ff5287d39738a4aad756.png",
+      "website": "https://plyxl.com/",
+      "all_locations": "",
+      "long_description": "Plyxl is the workspace that molds to your business. It builds apps, creates automations, and works across your entire company.",
+      "one_liner": "The workspace that does the work",
+      "team_size": 4,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "B2B",
+      "subindustry": "B2B -> Operations",
+      "launched_at": 1792084503,
+      "tags": [
+        "Artificial Intelligence",
+        "B2B",
+        "Enterprise"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Winter 2027",
+      "status": "Active",
+      "industries": [
+        "B2B",
+        "Operations"
+      ],
+      "regions": [
+        "Unspecified"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/plyxl"
+    }
+  ],
   "removed": [],
   "updated": [
     {
-      "id": 23960,
-      "name": "Carbonfact",
-      "slug": "carbonfact",
-      "batch": "Summer 2021",
-      "url": "https://www.ycombinator.com/companies/carbonfact",
+      "id": 90,
+      "name": "AgileMD",
+      "slug": "agilemd",
+      "batch": "Summer 2011",
+      "url": "https://www.ycombinator.com/companies/agilemd",
       "changes": [
         {
-          "field": "team_size",
-          "before": 22,
-          "after": 45
-        },
-        {
-          "field": "stage",
-          "before": "Growth",
-          "after": "Early"
+          "field": "isHiring",
+          "before": true,
+          "after": false
         }
       ]
     },
     {
-      "id": 27813,
-      "name": "Omnistrate",
-      "slug": "omnistrate",
-      "batch": "Winter 2023",
-      "url": "https://www.ycombinator.com/companies/omnistrate",
+      "id": 892,
+      "name": "Shotput",
+      "slug": "shotput",
+      "batch": "Summer 2015",
+      "url": "https://www.ycombinator.com/companies/shotput",
+      "changes": [
+        {
+          "field": "small_logo_thumb_url",
+          "before": "/company/thumb/missing.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/5485038f7b525cb9b25bb96164bd20b909d775c7.png"
+        }
+      ]
+    },
+    {
+      "id": 2023,
+      "name": "SPATE",
+      "slug": "spate",
+      "batch": "Summer 2018",
+      "url": "https://www.ycombinator.com/companies/spate",
       "changes": [
         {
           "field": "team_size",
@@ -40,296 +97,366 @@
         {
           "field": "tags",
           "before": [
-            "Developer Tools",
-            "SaaS",
-            "B2B",
-            "Cloud Computing",
-            "Infrastructure"
-          ],
-          "after": [
-            "Artificial Intelligence",
-            "Developer Tools",
-            "B2B",
-            "Cloud Computing",
-            "Infrastructure"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 27925,
-      "name": "222",
-      "slug": "222",
-      "batch": "Winter 2023",
-      "url": "https://www.ycombinator.com/companies/222",
-      "changes": [
-        {
-          "field": "team_size",
-          "before": 23,
-          "after": 28
-        },
-        {
-          "field": "tags",
-          "before": [
             "Machine Learning",
-            "Marketplace",
-            "Consumer",
-            "Social",
             "AI"
           ],
           "after": [
             "Artificial Intelligence",
-            "Machine Learning",
-            "Marketplace",
-            "Consumer",
-            "Social"
+            "Machine Learning"
           ]
         }
       ]
     },
     {
-      "id": 28779,
-      "name": "withHuman",
-      "slug": "withhuman",
-      "batch": "Summer 2023",
-      "url": "https://www.ycombinator.com/companies/withhuman",
+      "id": 22707,
+      "name": "Wyndly",
+      "slug": "wyndly",
+      "batch": "Winter 2021",
+      "url": "https://www.ycombinator.com/companies/wyndly",
+      "changes": [
+        {
+          "field": "team_size",
+          "before": 10,
+          "after": 18
+        }
+      ]
+    },
+    {
+      "id": 24876,
+      "name": "Nash",
+      "slug": "nash",
+      "batch": "Summer 2021",
+      "url": "https://www.ycombinator.com/companies/nash",
+      "changes": [
+        {
+          "field": "small_logo_thumb_url",
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/85d1c8b167dc541ab5c546bde5eef2173f5264c6.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/8931d523c719bb8419658e9193f7363a4c6df72f.png"
+        }
+      ]
+    },
+    {
+      "id": 27882,
+      "name": "Velos",
+      "slug": "velos",
+      "batch": "Winter 2023",
+      "url": "https://www.ycombinator.com/companies/velos",
+      "changes": [
+        {
+          "field": "tags",
+          "before": [
+            "Artificial Intelligence",
+            "Generative AI",
+            "Reinforcement Learning",
+            "Robotic Process Automation",
+            "Automation"
+          ],
+          "after": [
+            "Generative AI",
+            "Reinforcement Learning",
+            "Robotic Process Automation",
+            "Automation",
+            "AI"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 29326,
+      "name": "Monumint",
+      "slug": "monumint",
+      "batch": "Winter 2024",
+      "url": "https://www.ycombinator.com/companies/monumint",
+      "changes": [
+        {
+          "field": "team_size",
+          "before": 5,
+          "after": 10
+        },
+        {
+          "field": "tags",
+          "before": [
+            "Fintech",
+            "Finance",
+            "B2B",
+            "AI"
+          ],
+          "after": [
+            "Artificial Intelligence",
+            "Fintech",
+            "Finance",
+            "B2B"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 29751,
+      "name": "Opslane",
+      "slug": "opslane",
+      "batch": "Summer 2024",
+      "url": "https://www.ycombinator.com/companies/opslane",
+      "changes": [
+        {
+          "field": "small_logo_thumb_url",
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/d93b9323bb2d6146f1e9e67bf29441615e86a467.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/2f632f905565346c94d60925b5fcc1728cf28368.png"
+        },
+        {
+          "field": "one_liner",
+          "before": "Verify AI-generated code before you ship it",
+          "after": "Catch bugs that code review tools miss"
+        },
+        {
+          "field": "tags",
+          "before": [
+            "Artificial Intelligence",
+            "Developer Tools",
+            "Open Source",
+            "Enterprise",
+            "DevOps"
+          ],
+          "after": [
+            "Developer Tools",
+            "Open Source",
+            "Enterprise",
+            "DevOps",
+            "AI"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 30329,
+      "name": "Waffle",
+      "slug": "waffle",
+      "batch": "Spring 2025",
+      "url": "https://www.ycombinator.com/companies/waffle",
+      "changes": [
+        {
+          "field": "one_liner",
+          "before": "AI generated podcasts",
+          "after": "AI Video Editor"
+        }
+      ]
+    },
+    {
+      "id": 30690,
+      "name": "Flai",
+      "slug": "flai",
+      "batch": "Summer 2025",
+      "url": "https://www.ycombinator.com/companies/flai",
+      "changes": [
+        {
+          "field": "team_size",
+          "before": 35,
+          "after": 40
+        },
+        {
+          "field": "stage",
+          "before": "Growth",
+          "after": "Early"
+        }
+      ]
+    },
+    {
+      "id": 30715,
+      "name": "Autumn",
+      "slug": "autumn-ai",
+      "batch": "Winter 2026",
+      "url": "https://www.ycombinator.com/companies/autumn-ai",
       "changes": [
         {
           "field": "name",
-          "before": "Metoro",
-          "after": "withHuman"
+          "before": "Autumn AI",
+          "after": "Autumn"
+        },
+        {
+          "field": "former_names",
+          "before": [
+            "Chiral Labs"
+          ],
+          "after": [
+            "Chiral Labs",
+            "Autumn AI"
+          ]
+        },
+        {
+          "field": "small_logo_thumb_url",
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/c561ac3ff3132e3dda05b6de7836b2d1b55ed1aa.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/e9869ac74d16e219c2c3c7a63c96b676e8281762.png"
+        },
+        {
+          "field": "one_liner",
+          "before": "Everything on anyone.",
+          "after": "The people-intelligence company."
+        },
+        {
+          "field": "team_size",
+          "before": 2,
+          "after": 4
+        }
+      ]
+    },
+    {
+      "id": 31226,
+      "name": "Libra Robotics",
+      "slug": "libra-robotics",
+      "batch": "Summer 2026",
+      "url": "https://www.ycombinator.com/companies/libra-robotics",
+      "changes": [
+        {
+          "field": "tags",
+          "before": [
+            "Artificial Intelligence",
+            "Hard Tech",
+            "Robotics",
+            "Construction",
+            "Energy"
+          ],
+          "after": [
+            "Hard Tech",
+            "Robotics",
+            "Construction",
+            "Energy",
+            "AI"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 31293,
+      "name": "Rainbrand",
+      "slug": "rainbrand",
+      "batch": "Spring 2026",
+      "url": "https://www.ycombinator.com/companies/rainbrand",
+      "changes": [
+        {
+          "field": "name",
+          "before": "Bloom",
+          "after": "Rainbrand"
         },
         {
           "field": "slug",
-          "before": "metoro",
-          "after": "withhuman"
+          "before": "trybloom",
+          "after": "rainbrand"
         },
         {
           "field": "former_names",
           "before": [],
           "after": [
-            "Metoro"
+            "Bloom"
           ]
         },
         {
           "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/6fa41154d43a3a3e4861f884623a00efb64e06f5.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/39484d89d4533e876c43bf392647fed770ecf14d.png"
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/69e41f29f70735fdb2645501787e9a1ddf8d46dc.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/c555444a2d853513769feaea1a31560875f72134.png"
         },
         {
           "field": "website",
-          "before": "https://metoro.io",
-          "after": "https://withhuman.ai"
-        },
-        {
-          "field": "one_liner",
-          "before": "AI SRE For Teams on Kubernetes",
-          "after": "The Approval Layer for AI Agents"
-        },
-        {
-          "field": "tags",
-          "before": [
-            "Developer Tools",
-            "Kubernetes",
-            "DevOps",
-            "AI"
-          ],
-          "after": [
-            "Open Source"
-          ]
+          "before": "https://trybloom.ai",
+          "after": "https://rainbrand.com"
         }
       ]
     },
     {
-      "id": 29390,
-      "name": "OffDeal",
-      "slug": "offdeal",
-      "batch": "Winter 2024",
-      "url": "https://www.ycombinator.com/companies/offdeal",
-      "changes": [
-        {
-          "field": "team_size",
-          "before": 15,
-          "after": 25
-        },
-        {
-          "field": "tags",
-          "before": [
-            "Artificial Intelligence",
-            "Fintech",
-            "B2B",
-            "SMB"
-          ],
-          "after": [
-            "Fintech",
-            "B2B",
-            "SMB",
-            "AI"
-          ]
-        },
-        {
-          "field": "stage",
-          "before": "Growth",
-          "after": "Early"
-        }
-      ]
-    },
-    {
-      "id": 30050,
-      "name": "Smooth",
-      "slug": "smooth",
-      "batch": "Fall 2024",
-      "url": "https://www.ycombinator.com/companies/smooth",
-      "changes": [
-        {
-          "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/f6e3f2bcd9ca9ba0984a5ab69a69597d088c3b3e.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/bcfa8b54cf4b1b39fd0cb9dbb6a8d775676107b8.png"
-        }
-      ]
-    },
-    {
-      "id": 30356,
-      "name": "Artil",
-      "slug": "artil",
-      "batch": "Winter 2025",
-      "url": "https://www.ycombinator.com/companies/artil",
-      "changes": [
-        {
-          "field": "one_liner",
-          "before": "Persistent email inbox, phone number and secret storage for agents",
-          "after": "Agent identity and communication infrastructure"
-        },
-        {
-          "field": "tags",
-          "before": [
-            "Artificial Intelligence",
-            "Developer Tools",
-            "B2B",
-            "Email",
-            "Infrastructure"
-          ],
-          "after": [
-            "Developer Tools",
-            "B2B",
-            "Email",
-            "Infrastructure",
-            "AI"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 30661,
-      "name": "Stockline",
-      "slug": "stockline",
-      "batch": "Summer 2025",
-      "url": "https://www.ycombinator.com/companies/stockline",
+      "id": 31350,
+      "name": "Hexa",
+      "slug": "hexa",
+      "batch": "Spring 2026",
+      "url": "https://www.ycombinator.com/companies/hexa",
       "changes": [
         {
           "field": "all_locations",
-          "before": "Paris, Île-de-France, France",
-          "after": "San Francisco, CA, USA"
-        },
-        {
-          "field": "tags",
-          "before": [
-            "SaaS",
-            "B2B",
-            "Food & Beverage",
-            "AI"
-          ],
-          "after": [
-            "Artificial Intelligence",
-            "SaaS",
-            "B2B",
-            "Food & Beverage"
-          ]
+          "before": "San Francisco, CA, USA",
+          "after": "London, England, United Kingdom"
         },
         {
           "field": "regions",
           "before": [
-            "France",
-            "Europe"
-          ],
-          "after": [
             "United States of America",
             "America / Canada"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 31141,
-      "name": "OctaPulse",
-      "slug": "octapulse",
-      "batch": "Winter 2026",
-      "url": "https://www.ycombinator.com/companies/octapulse",
-      "changes": [
-        {
-          "field": "one_liner",
-          "before": "Building the robotics layer for seafood production",
-          "after": "OctaPulse builds computer vision and robotics for fish farms and…"
-        }
-      ]
-    },
-    {
-      "id": 31511,
-      "name": "Arzana",
-      "slug": "arzana",
-      "batch": "Spring 2026",
-      "url": "https://www.ycombinator.com/companies/arzana",
-      "changes": [
-        {
-          "field": "one_liner",
-          "before": "The autonomous ERP for every manufacturer",
-          "after": "Adaptive AI built for manufacturers"
-        },
-        {
-          "field": "team_size",
-          "before": 9,
-          "after": 13
-        }
-      ]
-    },
-    {
-      "id": 32948,
-      "name": "Waybill",
-      "slug": "waybill",
-      "batch": "Summer 2026",
-      "url": "https://www.ycombinator.com/companies/waybill",
-      "changes": [
-        {
-          "field": "all_locations",
-          "before": "Gurugram, HR, India",
-          "after": "Bengaluru, KA, India"
-        },
-        {
-          "field": "tags",
-          "before": [
-            "Artificial Intelligence",
-            "Logistics",
-            "Procurement"
           ],
           "after": [
-            "Logistics",
-            "Procurement",
-            "AI"
+            "United Kingdom",
+            "Europe"
           ]
         }
       ]
     },
     {
-      "id": 36576,
-      "name": "Sutrix",
-      "slug": "sutrix",
+      "id": 31453,
+      "name": "Minicor",
+      "slug": "minicor",
+      "batch": "Spring 2026",
+      "url": "https://www.ycombinator.com/companies/minicor",
+      "changes": [
+        {
+          "field": "team_size",
+          "before": 8,
+          "after": 9
+        }
+      ]
+    },
+    {
+      "id": 33055,
+      "name": "Capto",
+      "slug": "capto",
+      "batch": "Summer 2026",
+      "url": "https://www.ycombinator.com/companies/capto",
+      "changes": [
+        {
+          "field": "small_logo_thumb_url",
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/9e9ad437e503d6309ddcdb7e3b79f52406e3f03e.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/300579f704f4971abc355f226a91f0da7f7f38b4.png"
+        },
+        {
+          "field": "one_liner",
+          "before": "Helping startups win gov contracts",
+          "after": "Build something the government wants"
+        }
+      ]
+    },
+    {
+      "id": 35395,
+      "name": "Workers IO",
+      "slug": "workers-io",
       "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/sutrix",
+      "url": "https://www.ycombinator.com/companies/workers-io",
       "changes": [
         {
           "field": "one_liner",
-          "before": "Turns EHR data into study-ready datasets for hospital research teams",
-          "after": "Deployed AI to turn EHR data into study-ready datasets "
+          "before": "Simulation Environments for Verifying Mission Critical Software",
+          "after": "Simulation environments for verifying mission-critical software"
+        }
+      ]
+    },
+    {
+      "id": 36774,
+      "name": "ObsessionDB",
+      "slug": "obsessiondb",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/obsessiondb",
+      "changes": [
+        {
+          "field": "launched_at",
+          "before": 1787064993,
+          "after": 1792056940
+        }
+      ]
+    },
+    {
+      "id": 37830,
+      "name": "Tilo",
+      "slug": "tilo",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/tilo",
+      "changes": [
+        {
+          "field": "launched_at",
+          "before": 1787865531,
+          "after": 1792039962
         }
       ]
     }

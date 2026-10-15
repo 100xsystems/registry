@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-10-15T16:23:02.202Z",
+  "updatedAt": "2026-10-15T20:47:41.184Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -2609,7 +2609,39 @@
       "summary": "Sooner or later, someone on the team reads about write skew. It is an unsettling read: two transactions, each correct on its own, each looking at data the other is about to change, both committing, and the database ending up in a state that no ordering of the two could have produced. READ COMMITT……",
       "author": null,
       "publishedAt": "2026-10-15T16:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9yu",
+      "title": "Tejaswi Thimmaiah: PostgreSQL Roles and Privileges Explained: A Practical RBAC Guide",
+      "link": "https://postgr.es/p/9yu",
+      "summary": "Build Your PostgreSQL RBAC Lab\n Meet Our Credit Card Application — The RBAC Scenario\n Understanding PostgreSQL Roles — LOGIN vs NOLOGIN\n Hands-On — Create Our PostgreSQL Roles\n Creating Our PostgreSQL Application Database\n Creating Our Application Schema\n Creating Our Application Tables…",
+      "author": null,
+      "publishedAt": "2026-10-15T18:10:08.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9yt",
+      "title": "Robert Haas: Hacking Workshop for November 2026",
+      "link": "https://postgr.es/p/9yt",
+      "summary": "Álvaro Herrera will be joining us in November to discuss, when our monthly hacking workshop will cover Table repacking, done right. If you're interesting in joining us, please sign up using this form and I will send you an invite to one of the sessions.Read more »",
+      "author": null,
+      "publishedAt": "2026-10-15T17:04:53.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9yw",
+      "title": "Dave Page: Moving the pgAdmin Build Farm to GitHub Actions",
+      "link": "https://postgr.es/p/9yw",
+      "summary": "For most of the last decade, every copy of pgAdmin that anyone has ever downloaded was built by a Jenkins server, and for most of that time it did the job perfectly well. It built the Debian and Red Hat packages, the Windows installer, the macOS app bundle, the Python wheel, the container image,…",
+      "author": null,
+      "publishedAt": "2026-10-15T12:55:50.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9yv",
+      "title": "Devrim GÜNDÜZ: bigquery_fdw works again on every distribution we ship in the RPM repo",
+      "link": "https://postgr.es/p/9yv",
+      "summary": "I packaged bigquery_fdw over 6 years ago. However if you tried to use bigquery_fdw from the PostgreSQL YUM or zypper repositories recently, there is a good chance it did not work: the Python modules it needs could not be imported by the interpreter it runs in. The packages that are in the…",
+      "author": null,
+      "publishedAt": "2026-10-14T22:35:00.000Z"
     }
   ],
-  "totalIndexed": 325
+  "totalIndexed": 329
 }

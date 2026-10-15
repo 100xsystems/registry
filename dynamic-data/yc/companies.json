@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-10-15T16:23:19.137Z",
-  "count": 6304,
+  "fetchedAt": "2026-10-15T20:47:59.355Z",
+  "count": 6305,
   "companies": [
     {
       "id": 39117,
@@ -175,6 +175,53 @@
       "app_answers": null,
       "question_answers": false,
       "url": "https://www.ycombinator.com/companies/boxesdev"
+    },
+    {
+      "id": 38358,
+      "name": "Plyxl",
+      "slug": "plyxl",
+      "former_names": [
+        "PLYX",
+        "PLYXL",
+        "Plyxl",
+        "PLYXL"
+      ],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/f11b86229c223b308077ff5287d39738a4aad756.png",
+      "website": "https://plyxl.com/",
+      "all_locations": "",
+      "long_description": "Plyxl is the workspace that molds to your business. It builds apps, creates automations, and works across your entire company.",
+      "one_liner": "The workspace that does the work",
+      "team_size": 4,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "B2B",
+      "subindustry": "B2B -> Operations",
+      "launched_at": 1792084503,
+      "tags": [
+        "Artificial Intelligence",
+        "B2B",
+        "Enterprise"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Winter 2027",
+      "status": "Active",
+      "industries": [
+        "B2B",
+        "Operations"
+      ],
+      "regions": [
+        "Unspecified"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/plyxl"
     },
     {
       "id": 38127,
@@ -409,7 +456,7 @@
       "highlight_women": false,
       "industry": "B2B",
       "subindustry": "B2B -> Infrastructure",
-      "launched_at": 1787865531,
+      "launched_at": 1792039962,
       "tags": [
         "AIOps",
         "AI"
@@ -1636,7 +1683,7 @@
       "highlight_women": false,
       "industry": "B2B",
       "subindustry": "B2B -> Infrastructure",
-      "launched_at": 1787064993,
+      "launched_at": 1792056940,
       "tags": [
         "Analytics",
         "Big Data",
@@ -3462,8 +3509,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/12ec3720a247bad2e5a39d162b68e217ed6b74bd.png",
       "website": "https://workers.io",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Workers IO verifies your entire system across millions of interleaving, faults, and timings to find the exact conditions that break the software properties you care about.\r\n\r\nBuilt for teams where 99.99% uptime is table-stakes. ",
-      "one_liner": "Simulation Environments for Verifying Mission Critical Software",
+      "long_description": "Workers IO verifies your entire system across millions of interleaving, faults, and timings to find the exact conditions that break the properties you care about.\r\n\r\nBuilt for teams where 99.99% uptime is table-stakes. ",
+      "one_liner": "Simulation environments for verifying mission-critical software",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -7598,11 +7645,11 @@
         "chromie.dev",
         "Chromie"
       ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/9e9ad437e503d6309ddcdb7e3b79f52406e3f03e.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/300579f704f4971abc355f226a91f0da7f7f38b4.png",
       "website": "https://gocapto.com/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "The intelligent operating system for government contracting. Built by former AI engineers and government officials.",
-      "one_liner": "Helping startups win gov contracts",
+      "long_description": "The intelligent operating system for government contracting. Built by AI engineers and former government officials.",
+      "one_liner": "Build something the government wants",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -18326,7 +18373,7 @@
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Minicor connects AI startups to legacy desktop apps that have no API. Reliably, quickly and at scale.\r\n\r\nDescribe a workflow and get an API endpoint. Each call triggers a self-healing desktop automation on a Windows VM. On-prem, cloud, or Citrix. Build through your coding agent via our MCP.\r\n\r\nComplete with the observability tools to manage your customer relationship: full video replay of every automation, granular logging, and slack enabled alerts.",
       "one_liner": "Scalable windows desktop automations",
-      "team_size": 8,
+      "team_size": 9,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -21638,7 +21685,7 @@
       "former_names": [],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/18de5d109d1472eebb05fe3ee80832938d3c1cef.png",
       "website": "https://www.hexaagents.com",
-      "all_locations": "San Francisco, CA, USA",
+      "all_locations": "London, England, United Kingdom",
       "long_description": "Hexa helps industrial distributors automate their sales and procurement workflows to quote faster and win more bids. ",
       "one_liner": "Autonomous operations for industrial distributors",
       "team_size": 3,
@@ -21660,8 +21707,8 @@
         "Supply Chain and Logistics"
       ],
       "regions": [
-        "United States of America",
-        "America / Canada"
+        "United Kingdom",
+        "Europe"
       ],
       "stage": "Early",
       "app_video_public": false,
@@ -22951,13 +22998,15 @@
     },
     {
       "id": 31293,
-      "name": "Bloom",
-      "slug": "trybloom",
-      "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/69e41f29f70735fdb2645501787e9a1ddf8d46dc.png",
-      "website": "https://trybloom.ai",
+      "name": "Rainbrand",
+      "slug": "rainbrand",
+      "former_names": [
+        "Bloom"
+      ],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c555444a2d853513769feaea1a31560875f72134.png",
+      "website": "https://rainbrand.com",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Bloom is the brand layer for agents. It turns a brand’s identity, guidance, and assets into shared context that agents and products can use. That context evolves with the brand, alongside the tools where it is created and managed.\r\n\r\nStarting with websites, social media, and files, Bloom develops and maintains versioned brand context. Through MCP or the API, connected agents and products can retrieve and update that context, then apply it to images, websites, slides, video, copy, and other brand work.\r\n\r\nWe’re an ai infra company making brand as operable as software.\r\n",
+      "long_description": "Rainbrand is the brand layer for agents. It turns a brand’s identity, guidance, and assets into shared context that agents and products can use. That context evolves with the brand, alongside the tools where it is created and managed.\r\n\r\nStarting with websites, social media, and files, Rainbrand develops and maintains versioned brand context. Through MCP or the API, connected agents and products can retrieve and update that context, then apply it to images, websites, slides, video, copy, and other brand work.\r\n\r\nWe’re an ai infra company making brand as operable as software.\r\n",
       "one_liner": "The brand layer for agents.",
       "team_size": 3,
       "highlight_black": false,
@@ -22985,7 +23034,7 @@
       "demo_day_video_public": false,
       "app_answers": null,
       "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/trybloom"
+      "url": "https://www.ycombinator.com/companies/rainbrand"
     },
     {
       "id": 31292,
@@ -25154,11 +25203,11 @@
       "subindustry": "Industrials -> Manufacturing and Robotics",
       "launched_at": 1783647531,
       "tags": [
-        "Artificial Intelligence",
         "Hard Tech",
         "Robotics",
         "Construction",
-        "Energy"
+        "Energy",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -41202,17 +41251,18 @@
     },
     {
       "id": 30715,
-      "name": "Autumn AI",
+      "name": "Autumn",
       "slug": "autumn-ai",
       "former_names": [
-        "Chiral Labs"
+        "Chiral Labs",
+        "Autumn AI"
       ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c561ac3ff3132e3dda05b6de7836b2d1b55ed1aa.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/e9869ac74d16e219c2c3c7a63c96b676e8281762.png",
       "website": "https://autumn.ai",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Autumn is building the world’s most comprehensive index of people and companies.\r\n\r\nInformation about anyone is scattered across profiles, filings, event pages, code, posts, news, and the rest of the open web. Autumn reads across these sources, determines which records belong together, and creates a complete, source-backed profile of people and companies - including relationships, work history, contact information, and digital footprint.\r\n\r\nSearch for anyone, build a cohort, or research a company through our API.",
-      "one_liner": "Everything on anyone.",
-      "team_size": 2,
+      "long_description": "Autumn is building the world’s most comprehensive search index of people.\r\n\r\nInformation on anyone is scattered across profiles, filings, event pages, code, posts, news, and the rest of the open web. Autumn reads across these sources, determines which records belong together, and creates a complete, source-backed profile of people and companies - including relationships, work history, contact information, and digital footprint.\r\n\r\nSearch for anyone, build a cohort, or research a company through our platform.",
+      "one_liner": "The people-intelligence company.",
+      "team_size": 4,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -42163,7 +42213,7 @@
       "all_locations": "San Francisco, CA, USA",
       "long_description": "The problem we solve: 56% of dealership leads arrive after business hours, and most dealers lose these potential customers to competitors who happen to be available 24/7. Missing after-hours calls alone costs the average dealership $1M annually in lost revenue.\r\n\r\nWe built Flai to fix this - AI assistants that answer dealership calls 24/7, scheduling test drives, oil changes, or running outbound recall campaigns so no opportunity slips away.\r\n\r\nThe result: No more missed opportunities, no more losing customers to competitors.\r\n\r\nOur founding team has built voice AI products at HappyRobot, scaled infrastructure at Uber for millions of users, and applied data science at Netflix to solve operational challenges.\r\n\r\nWe're not just answering phones, we're helping dealerships win in an AI-first world where availability determine who gets the sale.",
       "one_liner": "We Bring Customers to Your Dealership",
-      "team_size": 35,
+      "team_size": 40,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -42185,7 +42235,7 @@
         "United States of America",
         "America / Canada"
       ],
-      "stage": "Growth",
+      "stage": "Early",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -53300,8 +53350,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/2861a984e502a76a5886684436e1887e14b08c0f.png",
       "website": "https://www.waffle.ai",
       "all_locations": "London, England, United Kingdom",
-      "long_description": "Learn new ideas in 20 minutes! Explore hundreds of AI generated podcasts based on top books.",
-      "one_liner": "AI generated podcasts",
+      "long_description": "AI video editor with hundreds of templates for reels, shorts, and tiktoks. Make short-form content for marketing or personal use. ",
+      "one_liner": "AI Video Editor",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -69083,11 +69133,11 @@
         "Opslane",
         "Octopipe"
       ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/d93b9323bb2d6146f1e9e67bf29441615e86a467.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/2f632f905565346c94d60925b5fcc1728cf28368.png",
       "website": "https://opslane.com",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Opslane verifies that AI-written code actually works. Opslane opens your app in a real browser, clicks through what the PR changed, and posts screenshots, video, and data checks as proof it works.",
-      "one_liner": "Verify AI-generated code before you ship it",
+      "long_description": "Opslane catches the bugs code review misses. On every PR, it runs your app against test versions of the services it calls, from Stripe to the LLM. Then it tries what breaks in production: a service failing, two requests at once, a restart mid-job.",
+      "one_liner": "Catch bugs that code review tools miss",
       "team_size": 1,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -69096,11 +69146,11 @@
       "subindustry": "B2B -> Infrastructure",
       "launched_at": 1721925789,
       "tags": [
-        "Artificial Intelligence",
         "Developer Tools",
         "Open Source",
         "Enterprise",
-        "DevOps"
+        "DevOps",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -82336,7 +82386,7 @@
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Monumint is conversational AI for financial services. We help banks, credit unions, and lenders build lasting customer relationships across the entire customer journey from account opening and loan origination to servicing and collections. Our AI agents are omni-channel, take action inside the systems financial institutions already use, and are built with compliance at their core.",
       "one_liner": "Conversational AI purpose-built for financial services",
-      "team_size": 5,
+      "team_size": 10,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -82344,10 +82394,10 @@
       "subindustry": "B2B",
       "launched_at": 1699651931,
       "tags": [
+        "Artificial Intelligence",
         "Fintech",
         "Finance",
-        "B2B",
-        "AI"
+        "B2B"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -103801,11 +103851,11 @@
       "subindustry": "B2B -> Operations",
       "launched_at": 1674503496,
       "tags": [
-        "Artificial Intelligence",
         "Generative AI",
         "Reinforcement Learning",
         "Robotic Process Automation",
-        "Automation"
+        "Automation",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -108752,7 +108802,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/708f104e98cf6195b515828cadc85b8d47cfc8d4.png",
       "website": "http://www.miracleml.com",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Miracle is the control room for clinical trials. Our platform consolidates data from multiple trial systems into real-time dashboards, delivering automated insights that empower clinical-stage biopharmaceutical companies to streamline operations, reduce manual workflows, and accelerate data-driven decision-making. By transforming complex trial data into actionable insights, Miracle helps biopharma teams speed up clinical trials, and ultimately, improve patient outcomes.",
+      "long_description": "Miracle is building the control room for clinical trials. Today, biotech companies rely on fragmented software systems, spreadsheet trackers, and manual processes to manage complex clinical trials. Miracle integrates and consolidates data from disparate sources into a single platform, giving teams real-time visibility, helping them identify risks early, and streamlining workflows to make faster, better decisions.\r\n\r\nBy unifying clinical trial data, we're also laying the foundation for AI-powered analytics and automation.\r\n\r\nOur mission is to modernize how clinical trials are run so new treatments can reach patients faster.",
       "one_liner": "Accelerate clinical trials with real-time, actionable insights",
       "team_size": 7,
       "highlight_black": false,
@@ -139339,7 +139389,7 @@
       "name": "Nash",
       "slug": "nash",
       "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/85d1c8b167dc541ab5c546bde5eef2173f5264c6.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/8931d523c719bb8419658e9193f7363a4c6df72f.png",
       "website": "https://www.usenash.com/",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Last mile is a $500B industry powering digital commerce but managed largely with self managed API integrations. Nash approaches last mile orchestration with information completeness solutions from checkout, courier management, customer engagement, and post-purchase experience. Doing this enables merchants and customers to capture immense efficiencies, drive better customer experience, reliability and business outcomes.\r\nWe are working towards a mission of processing a double digit percentage of every physical last-mile transaction. We achieve this by providing top of the market modules for each step of the customer journey and leveraging the network effects from having more information that allows traditional competitors to collaborate. It’s a big mission, but we are already seeing strong market pull as we are already serving some of the largest retailers in the world like Walmart, 7-Eleven and Woolworths.\r\nNash was founded in 2021 by Mahmoud Ghulman (2x Founder, MIT) and Aziz Alghunaim (2x Founder, 2x YC, Ex-Palantir, MIT) and has raised funding from top investors, including Y-Combinator and a16z, to build the world’s best logistics infrastructure platform. We are based in SF.",
@@ -169647,7 +169697,7 @@
       "all_locations": "New York City, NY, USA; New York, NY, USA; Remote",
       "long_description": "Wyndly (https://www.wyndly.com) fixes allergies by training patients' bodies to ignore their allergy triggers. Frustrated allergy suffers come to us when they no longer want to deal with pills and sprays. We diagnose the patient’s unique allergy profile and create a personalized treatment plan to give the patient lifelong allergy relief. Specifically, Wyndly is increasing access to  sublingual immunotherapy (SLIT) for allergy care. For our patients, we're combining the convenience of telehealth and direct-to-consumer care with an exceptional patient experience that never loses the context of care.\r\n\r\nWyndly represents an opportunity to change allergy care forever. With 60 million Americans suffering from allergies today, and with this number doubling over the coming years, there's simply an incredible need for the convenient care Wyndly provides. \r\n\r\nYou can read more about us in [Techcrunch](https://techcrunch.com/2021/02/12/wyndly-aims-to-bring-allergy-drops-to-the-masses/).\r\n\r\nThe Wyndly Model \r\n\r\nAt Wyndly, we believe that better connections lead to better care, and we’re committed to making both happen at every step of the patient journey. Our allergy practice allows our patients to work with expert providers to develop personalized treatment plans for long-term allergy relief using clinically proven therapies. From a patient’s initial consultation to their final treatment delivery, we want the Wyndly experience to be a breath of fresh air for allergy sufferers – truly effective allergy relief, simply and efficiently delivered.\r\n\r\nOnce we've conquered allergies, we're transforming the care model for every chronic condition. While transactional care for purchasing pills has flourished in telehealth, no one has gone after chronic care. Patients with chronic conditions are shuffled between providers, insurance, and more -- and they never feel heard. These patients deserve better, and we're going to give it to them. Wyndly is starting with allergies, but we'll expand into asthma, sleep apnea, and other conditions in the near future.\r\n\r\nOur values\r\n\r\n**Compassion**: We approach all our patients and partners with an open mind and a genuine desire to be of service.\r\n\r\n**Focus**: We do a few things very well, and are always clear about our boundaries and direction of travel.\r\n\r\n**Courage**: We embrace ambiguity and discomfort because we know that’s how we grow.\r\n\r\n**Progress**: We make something better every single day.\r\n\r\n*It boils down to empathy and forward momentum in everything we do.*\r\n\r\nThe team\r\n\r\nWyndly is proudly backed by Y Combinator and a leading group of angel investors and VCs. The founders are Dr. Manan Shah (Chief Medical Officer), an ear-nose-and-throat surgeon who’s a leading practitioner of telehealth in his specialty, and his cousin Aakash Shah (CEO), who led growth  engineering at SparkGift (acquired by Stockpile in 2016) and Parse.ly (acquired by Automattic in 2021).",
       "one_liner": "Life's better without allergies",
-      "team_size": 10,
+      "team_size": 18,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -209653,7 +209703,7 @@
       "all_locations": "New York City, NY, USA; New York, NY, USA; Remote",
       "long_description": "Spate is your machine intelligence solution for finding the next big trend in Beauty and Food. For example, we spotted trends such as turmeric, face masks, and cold brew.",
       "one_liner": "Trends prediction for marketers",
-      "team_size": 15,
+      "team_size": 25,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -209661,8 +209711,8 @@
       "subindustry": "B2B -> Retail",
       "launched_at": 1527062926,
       "tags": [
-        "Machine Learning",
-        "AI"
+        "Artificial Intelligence",
+        "Machine Learning"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -245812,7 +245862,7 @@
       "name": "Shotput",
       "slug": "shotput",
       "former_names": [],
-      "small_logo_thumb_url": "/company/thumb/missing.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/5485038f7b525cb9b25bb96164bd20b909d775c7.png",
       "website": "http://theshotput.com",
       "all_locations": "San Francisco, CA, USA; Oakland, CA, USA; Remote",
       "long_description": "Carefully engineered software to get products to your customers across the world faster and on time. We're trusted to simplify e-commerce and logistics by building the necessary tools for companies to improve their operations. These include determining key shipping routes, understanding customer demand, or reducing shipping and material costs.\r\n\r\nWe built Shotput so that people can use new technologies to manage work across companies which will allow them to precisely calculate costs & time. We'll enter a world where people no longer have to work on boring tasks of calling each other to find statuses or putting things into a box all day. Instead we can be free to think strategically about what we're building, who's the customer, and how to best serve their needs.",
@@ -278143,7 +278193,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": true,
+      "isHiring": false,
       "nonprofit": false,
       "batch": "Summer 2011",
       "status": "Active",
