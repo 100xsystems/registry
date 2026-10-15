@@ -1,78 +1,107 @@
-# YC Company Changes for 2026-10-14
+# YC Company Changes for 2026-10-15
 
-- Previous total: 6297
-- Current total: 6298
-- Added: 1
+- Previous total: 6298
+- Current total: 6300
+- Added: 2
 - Removed: 0
-- Updated: 14
+- Updated: 17
 
 
 ## Added Companies
 
-- [Graphide](https://www.ycombinator.com/companies/graphide) (Fall 2026) — A graph based IDE for when agents program faster than you can read
+- [Altair Health](https://www.ycombinator.com/companies/altair-health) (Fall 2026) — Stripe for medical billing
+- [Praxis](https://www.ycombinator.com/companies/praxis) (Fall 2026) — AI agents that run law firm operations.
 
 ## Updated Companies
 
-### [Deako](https://www.ycombinator.com/companies/deako)
+### [MBX](https://www.ycombinator.com/companies/mbx)
 
 - `stage`: Growth → Early
 
-### [Courier](https://www.ycombinator.com/companies/courier)
-
-- `status`: Active → Acquired
-- `stage`: Growth → Early
-
-### [Zuma](https://www.ycombinator.com/companies/resident-boost)
+### [Routable](https://www.ycombinator.com/companies/routable)
 
 - `isHiring`: true → false
 - `status`: Active → Acquired
 - `stage`: Growth → Early
 
-### [Amenli](https://www.ycombinator.com/companies/amenli)
+### [Doppler](https://www.ycombinator.com/companies/doppler)
 
+- `isHiring`: true → false
+- `status`: Active → Acquired
 - `stage`: Growth → Early
 
-### [KERNEL](https://www.ycombinator.com/companies/kernel)
+### [Karat Financial](https://www.ycombinator.com/companies/karat-financial)
 
+- `one_liner`: Better financial services for creators → Business banking that helps you grow
+- `team_size`: 40 → 25
 - `stage`: Growth → Early
+
+### [Syncly](https://www.ycombinator.com/companies/syncly)
+
+- `isHiring`: true → false
+
+### [Legora](https://www.ycombinator.com/companies/legora)
+
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/05171178ffc17b0e9580f51631921117958c778c.png → https://bookface-images.s3.amazonaws.com/small_logos/8ab1e73f4b43c259e677e877d53fe26dfac90b65.png
+- `one_liner`: The AI workspace for lawyers → The agentic operating system for legal work
+- `team_size`: 400 → 900
+- `tags`: Artificial Intelligence,Generative AI,LegalTech → Generative AI,LegalTech,AI
+- `question_answers`: false → true
+
+### [TrainLoop](https://www.ycombinator.com/companies/trainloop)
+
+- `isHiring`: false → true
+
+### [Artil](https://www.ycombinator.com/companies/artil)
+
+- `name`: Fira → Artil
+- `slug`: fira → artil
+- `former_names`:  → Fira
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/8180359e4edaaddd169f88aafc0eb2338fe0116f.png → https://bookface-images.s3.amazonaws.com/small_logos/e50d8dfa254f692b3d51a22620ca8519141e9ed2.png
+- `website`: https://firaresearch.com/ → https://artil.dev/
+- `one_liner`: Financial research platform for investment firms → Persistent email inbox, phone number and secret storage for agents
+- `team_size`: 4 → 2
+- `subindustry`: B2B -> Finance and Accounting → B2B -> Infrastructure
+- `tags`:  → Artificial Intelligence,Developer Tools,B2B,Email,Infrastructure
+- `industries`: B2B,Finance and Accounting → B2B,Infrastructure
+
+### [OnDeck AI](https://www.ycombinator.com/companies/ondeck-ai)
+
+- `team_size`: 7 → 6
 
 ### [Imagine AI](https://www.ycombinator.com/companies/imagine-ai)
 
-- `one_liner`: We reverse engineer B2B growth, starting with LinkedIn. → Content agent that makes data-driven decisions for B2B growth
+- `one_liner`: Content agent that makes data-driven decisions for B2B growth → We reverse engineer B2B growth, starting with LinkedIn.
 
-### [Klaus AI](https://www.ycombinator.com/companies/klaus-ai)
+### [Libra Robotics](https://www.ycombinator.com/companies/libra-robotics)
 
-- `status`: Active → Inactive
+- `one_liner`: A self-evolving robot workforce for infrastructure. → The robot workforce for infrastructure
 
-### [Synthetic Sciences](https://www.ycombinator.com/companies/synthetic-sciences)
+### [GodHands](https://www.ycombinator.com/companies/godhands)
 
-- `tags`:  → Reinforcement Learning
+- `one_liner`: Your company’s operating model, learned from the work. → Turn how your team works into playbooks and agents
+- `tags`: B2B,Enterprise,Operations → B2B,Workflow Automation,Enterprise,Automation,Operations
+- `regions`: United States of America,America / Canada,Remote,Partly Remote → United States of America,America / Canada
 
-### [Sila](https://www.ycombinator.com/companies/sila)
+### [Avea Robotics](https://www.ycombinator.com/companies/avea-robotics)
 
-- `one_liner`: Agentic Whatsapp → Agentic Messenger
+- `status`: Active → Acquired
 
-### [The Company Company](https://www.ycombinator.com/companies/the-company-company)
+### [Lamb Labs](https://www.ycombinator.com/companies/lamb-labs)
 
-- `one_liner`: The last agent your company will ever need. → The operating system for tech startups.
-- `subindustry`: B2B → B2B -> Engineering, Product and Design
-- `industries`: B2B → B2B,Engineering, Product and Design
+- `isHiring`: false → true
 
-### [Click](https://www.ycombinator.com/companies/click)
+### [Petrichor](https://www.ycombinator.com/companies/petrichor)
 
-- `one_liner`: Research services for ChatGPT and Claude → Managed Agents API
-- `subindustry`: B2B -> Analytics → B2B -> Engineering, Product and Design
-- `tags`: Artificial Intelligence,API,Infrastructure → API,Infrastructure,AI
-- `industries`: B2B,Analytics → B2B,Engineering, Product and Design
+- `name`: Petrichor Bio → Petrichor
+- `slug`: petrichor-bio → petrichor
+- `former_names`: Qokedas → Qokedas,Petrichor Bio
+- `tags`: Deep Learning,AI → Artificial Intelligence,Deep Learning
 
-### [Rystic](https://www.ycombinator.com/companies/rystic)
+### [Agent Relay](https://www.ycombinator.com/companies/agent-relay)
 
-- `tags`: Developer Tools,B2B,Enterprise Software,AI → Artificial Intelligence,Developer Tools,B2B,Enterprise Software
+- `tags`: Developer Tools,Swarm AI → Artificial Intelligence,Developer Tools,Swarm AI,Open Source,AI
 
-### [Papaya](https://www.ycombinator.com/companies/papaya)
+### [Graphide](https://www.ycombinator.com/companies/graphide)
 
-- `tags`: AIOps,B2B,Enterprise Software,Infrastructure,AI → AIOps,Artificial Intelligence,B2B,Enterprise Software,Infrastructure
-
-### [Decent](https://www.ycombinator.com/companies/decent-com)
-
-- `tags`: Fintech,Health Tech,B2B,Health Insurance,AI → Artificial Intelligence,Fintech,Health Tech,B2B,Health Insurance
+- `launched_at`: 1786757512 → 1792011169

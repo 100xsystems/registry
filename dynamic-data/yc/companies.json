@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-10-14T21:09:36.235Z",
-  "count": 6298,
+  "fetchedAt": "2026-10-15T03:26:56.546Z",
+  "count": 6300,
   "companies": [
     {
       "id": 39117,
@@ -1806,7 +1806,7 @@
       "highlight_women": false,
       "industry": "B2B",
       "subindustry": "B2B",
-      "launched_at": 1786757512,
+      "launched_at": 1792011169,
       "tags": [
         "Generative AI",
         "DevOps",
@@ -3194,6 +3194,49 @@
       "url": "https://www.ycombinator.com/companies/shepherd-robotics"
     },
     {
+      "id": 35422,
+      "name": "Praxis",
+      "slug": "praxis",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/aac3b9688bfcfe828ca1449c50d9d85d7e55ad89.png",
+      "website": "https://runpraxis.ai",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "At Praxis, we’ve built AI agents that run law firm operations, from first inquiry to paid invoice. Agents do the admin end to end, and the lawyer supervises and approves every step. Firms reply in minutes, onboard clients in days instead of weeks, and spend their time practicing law.\r\n\r\nLawyers spend 62% of their day on admin nobody pays for: intake, conflict checks, chasing documents, engagement letters, follow-ups, billing. Every hour on admin is an hour a client waits, and clients go to the firm that answers first. One law firm owner shared: “Every month we lose 3-5 clients, $10k each, because we’re 3 paralegals to handle the process, it’s too slow.”\r\n\r\nWe’re live with law firms across the US.",
+      "one_liner": "AI agents that run law firm operations.",
+      "team_size": 2,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "B2B",
+      "subindustry": "B2B -> Legal",
+      "launched_at": 1792015189,
+      "tags": [
+        "Artificial Intelligence",
+        "Legal",
+        "LegalTech"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Fall 2026",
+      "status": "Active",
+      "industries": [
+        "B2B",
+        "Legal"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/praxis"
+    },
+    {
       "id": 35397,
       "name": "Quivly AI",
       "slug": "quivly-ai",
@@ -3522,8 +3565,11 @@
       "subindustry": "B2B -> Engineering, Product and Design",
       "launched_at": 1789747031,
       "tags": [
+        "Artificial Intelligence",
         "Developer Tools",
-        "Swarm AI"
+        "Swarm AI",
+        "Open Source",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -4246,6 +4292,51 @@
       "url": "https://www.ycombinator.com/companies/rhem-labs"
     },
     {
+      "id": 35125,
+      "name": "Altair Health",
+      "slug": "altair-health",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/54aa8da5f81192f8484dda70b284e56e5b9cb6a6.png",
+      "website": "https://www.altair-health.com",
+      "all_locations": "Austin, TX, USA",
+      "long_description": "Altair is an AI-native medical billing service for independent practices. We take over a practice's billing end to end and get doctors paid by insurers. AI does the work; our billers handle the exceptions.\r\n\r\nThat can only work if a practice can trust an agent alone with its revenue. So we formalized insurers' billing policies and put a theorem prover under the agent. Before the agent acts on a claim, the prover checks the action against that insurer's policies, and anything that fails goes to one of our billers. \r\n\r\nEvery claim teaches Altair how each insurer behaves, so the longer we run a practice's billing, the better we predict what its insurers will pay, deny or delay.\r\n\r\nWe're building the default way a new practice gets paid: a doctor connects their EHR and bills clean from the first patient, completely self-serve and on auto-pilot.\r\n\r\nAltair will be the financial platform every independent practice in America starts on and stays on.",
+      "one_liner": "Stripe for medical billing",
+      "team_size": 4,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "Healthcare",
+      "subindustry": "Healthcare -> Healthcare Services",
+      "launched_at": 1792016571,
+      "tags": [
+        "Artificial Intelligence",
+        "Health Tech",
+        "Healthcare"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Fall 2026",
+      "status": "Active",
+      "industries": [
+        "Healthcare",
+        "Healthcare Services"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada",
+        "Remote",
+        "Partly Remote"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/altair-health"
+    },
+    {
       "id": 35096,
       "name": "Stacktrace",
       "slug": "stacktrace",
@@ -4821,10 +4912,11 @@
     },
     {
       "id": 34794,
-      "name": "Petrichor Bio",
-      "slug": "petrichor-bio",
+      "name": "Petrichor",
+      "slug": "petrichor",
       "former_names": [
-        "Qokedas"
+        "Qokedas",
+        "Petrichor Bio"
       ],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/fdb7aea2b5558307f53190af023d8e6a2c7ac3be.png",
       "website": "https://petrichorbio.com/",
@@ -4839,8 +4931,8 @@
       "subindustry": "B2B",
       "launched_at": 1785795073,
       "tags": [
-        "Deep Learning",
-        "AI"
+        "Artificial Intelligence",
+        "Deep Learning"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -4860,7 +4952,7 @@
       "demo_day_video_public": false,
       "app_answers": null,
       "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/petrichor-bio"
+      "url": "https://www.ycombinator.com/companies/petrichor"
     },
     {
       "id": 34761,
@@ -7421,7 +7513,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c5ba47505a760393e85b91acdb4b3933cf8df0a7.png",
       "website": "http://lamb-labs.com",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Lamb Labs is building MPUs (Model Processing Units), custom chips that hardcode LLM weights directly into the chip. Unlike GPUs, which move weights between memory and compute, MPUs keep the model on-chip, targeting up to 20,000+ tok/s and a 63× higher intelligence per watt.\r\n\r\n",
+      "long_description": "Lamb Labs is building Model Processing Units (MPUs), custom AI chips that hardcode LLM weights directly into silicon. Rather than adapting general-purpose processors to run AI models, we're rethinking how LLMs are implemented in hardware to make inference dramatically faster and more energy-efficient.\r\n",
       "one_liner": "Lightning fast chips with hardcoded AI models",
       "team_size": 0,
       "highlight_black": false,
@@ -7439,7 +7531,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": false,
+      "isHiring": true,
       "nonprofit": false,
       "batch": "Summer 2026",
       "status": "Active",
@@ -15641,7 +15733,7 @@
       "isHiring": false,
       "nonprofit": false,
       "batch": "Spring 2026",
-      "status": "Active",
+      "status": "Acquired",
       "industries": [
         "Industrials",
         "Manufacturing and Robotics"
@@ -20514,8 +20606,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/5ec540989c0e572731406bc02714d7608e407cc3.png",
       "website": "https://godhands.ai",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "GodHands learns how your teams actually work, capturing the steps, decisions, and exceptions that never get written down. It turns that knowledge into living playbooks and answers with sources, so people and AI agents can put it to work. Teams use GodHands to run operations, onboard employees, hand over roles, integrate acquisitions, and automate work.",
-      "one_liner": "Your company’s operating model, learned from the work.",
+      "long_description": "GodHands learns how your teams actually work from the apps they already use, capturing the steps, decisions and exceptions that never get written down. It turns them into playbooks, gives people and AI agents the answers, and builds agents that do the work the same way. Teams use GodHands to run operations, onboard new hires, hand over roles, integrate acquisitions and automate repetitive work.",
+      "one_liner": "Turn how your team works into playbooks and agents",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -20525,7 +20617,9 @@
       "launched_at": 1777151399,
       "tags": [
         "B2B",
+        "Workflow Automation",
         "Enterprise",
+        "Automation",
         "Operations"
       ],
       "tags_highlighted": [],
@@ -20540,9 +20634,7 @@
       ],
       "regions": [
         "United States of America",
-        "America / Canada",
-        "Remote",
-        "Partly Remote"
+        "America / Canada"
       ],
       "stage": "Early",
       "app_video_public": false,
@@ -24876,8 +24968,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/e588f98ac537da3d55ea3c2b43b0bd505524c7f8.png",
       "website": "https://www.librabots.com/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Libra is building a self-evolving robot workforce for infrastructure, including data centers and energy infrastructure. We developed an AI robotics engineer that autonomously designs, simulates, tests, deploys, and improves robotic systems, allowing our robots to take on different jobs. We started with utility-scale solar, where our robots have already been deployed on real construction sites, and are now expanding into electrician work in data centers. Powered by Recursive Self-Improvement (RSI), each new capability builds on what came before, making the next task much faster to engineer and deploy.",
-      "one_liner": "A self-evolving robot workforce for infrastructure.",
+      "long_description": "Infrastructure faces a labor shortage, but robots struggle to scale with high-mix work. Libra builds AI that engineers robots for new tasks across embodiments, cutting zero-to-deployment time from months to days. We deploy across solar farms, data centers, and beyond. Customers pay for completed work, not robots. Our goal is to achieve 100 million hours of robotic work annually by 2031.",
+      "one_liner": "The robot workforce for infrastructure",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -33764,8 +33856,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/970910171a94d4462949dcdc9bf32a46422e39bc.png",
       "website": "https://imagineai.me",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Imagine AI is a content agent built to generate revenue at high-growth companies. It creates coordinated content precisely for your ICP and maps your content to your pipeline and closed revenue.\r\n\r\nWe build coordinated content systems for executive teams, where the CEO, VP of Sales, and Head of Marketing post aligned narratives from a single calendar, producing compounding reach that single-founder posting cannot reach.\r\n\r\n50+ B2B companies are now using Imagine AI, including MongoDB, Rippling, Slash, and Corgi Insurance. Customers have generated $31M in attributed revenue, 12M impressions, and 1,400 hours of executive time saved.\r\n\r\nFree public benchmark of how 1,000+ B2B companies and their execs perform on LinkedIn: https://benchmark.useimagine.ai",
-      "one_liner": "Content agent that makes data-driven decisions for B2B growth",
+      "long_description": "Imagine AI is a research and software company reverse engineering modern B2B growth, starting with LinkedIn.\r\n\r\nAs companies get more automated, more of B2B growth will happen between agents, and the companies that connect will compound each other's output. We're building the connective layer between them. We start with content because it's still the fastest way to build B2B relationships at scale.\r\n\r\nToday our content agent decides what your team should post based on data from 1M+ people (who posts what, who engages, where they work and how they're connected). It drafts the posts and graphics, schedules them for your execs and company page, and maps engagement back to your pipeline.\r\n\r\nRippling, MarqVision, Slash, Corgi and Fondo use Imagine AI. Customers have generated $40M in revenue, 100M impressions and 14,341 MQLs.\r\n\r\nFree public benchmark of how 1,000+ B2B companies and their execs perform on LinkedIn: https://benchmark.useimagine.ai",
+      "one_liner": "We reverse engineer B2B growth, starting with LinkedIn.",
       "team_size": 5,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -43268,7 +43360,7 @@
       "all_locations": "Vancouver, BC, Canada",
       "long_description": "OnDeck is the infrastructure layer that makes Vision Language Models accessible and scalable for enterprise. Our model, Perception-0, let organizations instantly find any object, behavior or event, in any footage, without needing to train a model or collect any training data.\r\n\r\nThe Pain: Creating vision models usually takes months: collecting training data, training, then deployment.  Worse yet: \r\n+ it’s often impossible to get enough data for a specific task, and \r\n+ even the best cv models struggle to generalize across diverse camera setups, workflows and environments. \r\n\r\nTo overcome these blockers, we bet early on the power of VLMs and built a vision engine that can generalize across any task and doesn’t need any training data. We published a NeurIPS workshop paper showing our new methods with VLMs beat traditional CV even at niche tasks. Now, our model Perception-0 beats the best VLMs including Gemini at long video understanding.\r\n\r\nOur current customers include:\r\n- National Defense Organizations\r\n- Robotics Research\r\n- Security cameras\r\n- Behaviour analysis for port monitoring\r\n- Off-shore oil & gas monitoring",
       "one_liner": "Analyze any footage, without training a model",
-      "team_size": 7,
+      "team_size": 6,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -52084,22 +52176,30 @@
     },
     {
       "id": 30356,
-      "name": "Fira",
-      "slug": "fira",
-      "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/8180359e4edaaddd169f88aafc0eb2338fe0116f.png",
-      "website": "https://firaresearch.com/",
+      "name": "Artil",
+      "slug": "artil",
+      "former_names": [
+        "Fira"
+      ],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/e50d8dfa254f692b3d51a22620ca8519141e9ed2.png",
+      "website": "https://artil.dev/",
       "all_locations": "London, England, United Kingdom",
-      "long_description": "Fira accelerates financial research for investment analysts by instantly searching and analyzing thousands of pages of company filings and earnings reports, delivering source-cited answers and verifiable calculations.\r\n\r\nOur mission is to build a comprehensive research platform that integrates seamlessly with internal and external data sources, handles research and analysis, generates investment documents, and automates repetitive workflows. This frees investment professionals to focus on what matters most: building relationships and making strategic decisions.",
-      "one_liner": "Financial research platform for investment firms",
-      "team_size": 4,
+      "long_description": "Artil gives AI agents their own email addresses and phone numbers so they can communicate and use online services. Agents can send and receive emails and text messages, sign up for services, and complete email and SMS verification. We’re building the identity and communication infrastructure for teams developing agents and people putting them to work.",
+      "one_liner": "Persistent email inbox, phone number and secret storage for agents",
+      "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
       "industry": "B2B",
-      "subindustry": "B2B -> Finance and Accounting",
+      "subindustry": "B2B -> Infrastructure",
       "launched_at": 1736800806,
-      "tags": [],
+      "tags": [
+        "Artificial Intelligence",
+        "Developer Tools",
+        "B2B",
+        "Email",
+        "Infrastructure"
+      ],
       "tags_highlighted": [],
       "top_company": false,
       "isHiring": false,
@@ -52108,7 +52208,7 @@
       "status": "Active",
       "industries": [
         "B2B",
-        "Finance and Accounting"
+        "Infrastructure"
       ],
       "regions": [
         "United Kingdom",
@@ -52119,7 +52219,7 @@
       "demo_day_video_public": false,
       "app_answers": null,
       "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/fira"
+      "url": "https://www.ycombinator.com/companies/artil"
     },
     {
       "id": 30355,
@@ -52373,7 +52473,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": false,
+      "isHiring": true,
       "nonprofit": false,
       "batch": "Winter 2025",
       "status": "Active",
@@ -85622,12 +85722,12 @@
         "Legora",
         "Legora (formerly Leya)"
       ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/05171178ffc17b0e9580f51631921117958c778c.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/8ab1e73f4b43c259e677e877d53fe26dfac90b65.png",
       "website": "https://www.legora.com/",
       "all_locations": "Stockholm, Stockholm County, Sweden",
-      "long_description": "Legora is an AI-powered workspace for law firms and legal professionals. \r\n\r\nLegora lets lawyers automate their repetitive tasks and access public sources and their own data on one single platform.\r\n\r\nLearn more at https://www.legora.com/",
-      "one_liner": "The AI workspace for lawyers",
-      "team_size": 400,
+      "long_description": "Legora is redefining how legal work gets done. Built alongside lawyers, our AI-native workspace helps legal teams research, review documents, draft and complete complex workflows so they can focus on judgment, strategy and outcomes.\r\n\r\nMore than 2,100 customers across 80+ markets trust Legora, including Cleary Gottlieb, Goodwin, Linklaters, White & Case, Dentons and Barclays. We have scaled to $200M+ in ARR, with more than 900 people across 18 offices spanning Europe, North America and APAC.\r\n\r\nLegora raised $600M in Series D financing, including a $50M extension announced in April 2026, at a $5.6B valuation. The round was led by Accel, with Atlassian and NVentures joining in the extension.\r\n\r\nLearn more at https://legora.com/",
+      "one_liner": "The agentic operating system for legal work",
+      "team_size": 900,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -85635,9 +85735,9 @@
       "subindustry": "B2B -> Legal",
       "launched_at": 1695641655,
       "tags": [
-        "Artificial Intelligence",
         "Generative AI",
-        "LegalTech"
+        "LegalTech",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -85659,7 +85759,7 @@
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
-      "question_answers": false,
+      "question_answers": true,
       "url": "https://www.ycombinator.com/companies/legora"
     },
     {
@@ -107927,7 +108027,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": true,
+      "isHiring": false,
       "nonprofit": false,
       "batch": "Winter 2023",
       "status": "Active",
@@ -191672,9 +191772,9 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/b45b4a40ee6990bb094f256f20eeef3730bba066.png",
       "website": "http://trykarat.com",
       "all_locations": "Los Angeles, CA, USA",
-      "long_description": "We're building the one-stop shop for creator finances.\r\n\r\nYour favorite digital creators—the ones you follow every day on YouTube, Instagram, TikTok or Twitch—aren’t just extraordinarily talented personalities and community builders. They’re also businesses. That means they have business needs—managing revenues, expenses, savings, credit, banking. \r\n\r\nWe’re building products that help creators spend less time worrying about finances so they can focus on creating.",
-      "one_liner": "Better financial services for creators",
-      "team_size": 40,
+      "long_description": "\r\nWe provide business banking, credit, & payments for fast growing businesses & creators.",
+      "one_liner": "Business banking that helps you grow",
+      "team_size": 25,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -191701,7 +191801,7 @@
         "Remote",
         "Partly Remote"
       ],
-      "stage": "Growth",
+      "stage": "Early",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -203964,10 +204064,10 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": true,
+      "isHiring": false,
       "nonprofit": false,
       "batch": "Winter 2019",
-      "status": "Active",
+      "status": "Acquired",
       "industries": [
         "B2B",
         "Engineering, Product and Design"
@@ -203978,7 +204078,7 @@
         "Remote",
         "Fully Remote"
       ],
-      "stage": "Growth",
+      "stage": "Early",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -222290,10 +222390,10 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": true,
+      "isHiring": false,
       "nonprofit": false,
       "batch": "Summer 2017",
-      "status": "Active",
+      "status": "Acquired",
       "industries": [
         "B2B",
         "Finance and Accounting"
@@ -222304,7 +222404,7 @@
         "Remote",
         "Fully Remote"
       ],
-      "stage": "Growth",
+      "stage": "Early",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -256980,7 +257080,7 @@
         "United States of America",
         "America / Canada"
       ],
-      "stage": "Growth",
+      "stage": "Early",
       "app_video_public": false,
       "demo_day_video_public": true,
       "app_answers": null,

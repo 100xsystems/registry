@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-10-14T11:32:14.874Z",
+  "updatedAt": "2026-10-15T03:26:37.170Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -2585,7 +2585,15 @@
       "summary": "We’re wrapping up our series of articles reviewing the changes in PostgreSQL 19. The previous articles covered the first four CommitFests: 2025-07, 2025-09, 2025-11, 2026-01.\nToday we begin our review of the March 2026 CommitFest. Why «begin»? As in previous years, the March review is going to be a…",
       "author": null,
       "publishedAt": "2026-10-14T00:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9y5",
+      "title": "Christophe Pettus: All Your GUCs in a Row: primary_conninfo",
+      "link": "https://postgr.es/p/9y5",
+      "summary": "`primary_conninfo` tells a standby where to stream WAL from—but only after the archive and pg_wal run dry.\n\n(I consult on PostgreSQL through PGX Inc..)",
+      "author": null,
+      "publishedAt": "2026-10-15T01:00:00.000Z"
     }
   ],
-  "totalIndexed": 322
+  "totalIndexed": 323
 }
