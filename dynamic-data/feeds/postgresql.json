@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-10-16T11:05:07.288Z",
+  "updatedAt": "2026-10-16T16:09:11.124Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -2665,7 +2665,39 @@
       "summary": "Prairie Postgres just turned two! We say “community building” often, maybe not always thinking about what it means, but looking back on the past two years, I can confidently say the most important achievement, the one I’m most proud of, is reshaping the Chicago Postgres Community. \nGradually, our…",
       "author": null,
       "publishedAt": "2026-10-16T08:34:25.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9yG",
+      "title": "Álvaro Hernández: Open-source Citus matches PlanetScale's Neki at 10M QPS on half the data nodes",
+      "link": "https://postgr.es/p/9yG",
+      "summary": "Open-source Citus delivers millions of queries per second more efficiently than Neki, the only other published data point at this scale\nLast month PlanetScale published a blog post on how they achieved 118 million queries per second on Neki, their sharded Postgres. It included data points at 5, 50…",
+      "author": null,
+      "publishedAt": "2026-10-16T15:11:58.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9yE",
+      "title": "Chris Travers: PostgreSQL 18 and libnuma",
+      "link": "https://postgr.es/p/9yE",
+      "summary": "PostgreSQL and NUMA, Part 3 of 4\nThis series covers the specifics of running PostgreSQL on large systems with many processors. My experience is that people spend months often learning the basics when confronted with the problem. This series tries to dispel these difficulties by providing a clear…",
+      "author": null,
+      "publishedAt": "2026-10-16T15:11:10.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9yD",
+      "title": "Dave Page: pgbuild, and Knowing What Ships with pgAdmin",
+      "link": "https://postgr.es/p/9yD",
+      "summary": "My job at pgEdge allows me a significant amount of time to work on pgAdmin, a project I started nearly 30 years ago. The previous blog and this followup is an update on some of the recent work I’ve been doing.In my last post I wrote about moving pgAdmin's build farm from Jenkins to GitHub Actions,…",
+      "author": null,
+      "publishedAt": "2026-10-16T11:57:03.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9yF",
+      "title": "Pavel Luzanov: PostgreSQL 19: part 5.2 (DBA1 and DBA2) of CommitFest 2026-03",
+      "link": "https://postgr.es/p/9yF",
+      "summary": "We’re continuing our review of the March CommitFest for PostgreSQL 19. This second article in the series covers the changes related to our DBA1 and DBA2 courses.\nAs a reminder, here’s the plan for our coverage of the final PostgreSQL 19 CommitFest:\nPart 5.1 (QPT)\nPart 5.2 (DBA1, DBA2) -- you are…",
+      "author": null,
+      "publishedAt": "2026-10-16T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 332
+  "totalIndexed": 336
 }

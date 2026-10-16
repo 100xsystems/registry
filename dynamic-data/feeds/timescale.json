@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-10-09T12:55:27.968Z",
+  "updatedAt": "2026-10-16T16:09:21.613Z",
   "items": [
     {
       "guid": "https://www.tigerdata.com/blog/whats-new-in-tiger-cloud",
@@ -167,7 +167,15 @@
       "summary": "Stop waiting for the dashboard to get slow. Record latency against row count, fit the curve, and get a date when your query breaches its target.",
       "author": "John Shi",
       "publishedAt": "2026-10-09T12:00:40.000Z"
+    },
+    {
+      "guid": "https://www.tigerdata.com/blog/building-ingest-safety-monitor-iiot-pipeline-sql",
+      "title": "Building an Ingest Safety Monitor for Your IIoT Pipeline in SQL",
+      "link": "https://www.tigerdata.com/blog/building-ingest-safety-monitor-iiot-pipeline-sql",
+      "summary": "Ingest fails suddenly, not gradually. Sample WAL volume, replica lag, and dead tuples every minute, and get one headroom percentage you can alert on.",
+      "author": "John Shi",
+      "publishedAt": "2026-10-16T12:55:08.000Z"
     }
   ],
-  "totalIndexed": 20
+  "totalIndexed": 21
 }

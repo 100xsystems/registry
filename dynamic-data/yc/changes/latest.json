@@ -1,246 +1,60 @@
 {
   "date": "2026-10-16",
-  "fetchedAt": "2026-10-16T11:05:32.091Z",
+  "fetchedAt": "2026-10-16T16:09:27.613Z",
   "previousCount": 6307,
   "currentCount": 6307,
-  "added": [
-    {
-      "id": 37896,
-      "name": "Aucert",
-      "slug": "aucert",
-      "former_names": [
-        "Aucert Inc."
-      ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/fcf314b4f1f24f66082b93a3ec4084c76234c436.png",
-      "website": "https://www.aucert.ai/",
-      "all_locations": "San Francisco, CA, USA",
-      "long_description": "Top apps need weeks and multiple teams to test every release. Aucert does it in hours, and plugs into agentic coding workflows so issues get fixed in the same loop.\r\n\r\nAgents: Functional QA · Accessibility · Google Play Policy · App Store Policy\r\n\r\nNext: Performance · Security. DM if you need either.",
-      "one_liner": "A team of expert AI agents that test mobile apps on their own.",
-      "team_size": 0,
-      "highlight_black": false,
-      "highlight_latinx": false,
-      "highlight_women": false,
-      "industry": "B2B",
-      "subindustry": "B2B -> Engineering, Product and Design",
-      "launched_at": 1792125836,
-      "tags": [
-        "Developer Tools",
-        "B2B",
-        "AI"
-      ],
-      "tags_highlighted": [],
-      "top_company": false,
-      "isHiring": false,
-      "nonprofit": false,
-      "batch": "Fall 2026",
-      "status": "Active",
-      "industries": [
-        "B2B",
-        "Engineering, Product and Design"
-      ],
-      "regions": [
-        "United States of America",
-        "America / Canada"
-      ],
-      "stage": "Early",
-      "app_video_public": false,
-      "demo_day_video_public": false,
-      "app_answers": null,
-      "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/aucert"
-    }
-  ],
-  "removed": [
-    {
-      "id": 31368,
-      "name": "Zenbu",
-      "slug": "zenbu-2",
-      "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/cac51a9c6d5e214ddcaeb4498d21b0b6a8e87e58.png",
-      "website": "https://www.zenbu.dev/",
-      "all_locations": "San Francisco, CA, USA; Remote",
-      "long_description": "https://github.com/zenbu-labs/terminal-browser",
-      "one_liner": "The browser for agentic development",
-      "team_size": 1,
-      "highlight_black": false,
-      "highlight_latinx": false,
-      "highlight_women": false,
-      "industry": "B2B",
-      "subindustry": "B2B -> Engineering, Product and Design",
-      "launched_at": 1780458165,
-      "tags": [
-        "Developer Tools",
-        "Open Source",
-        "AI"
-      ],
-      "tags_highlighted": [],
-      "top_company": false,
-      "isHiring": false,
-      "nonprofit": false,
-      "batch": "Spring 2026",
-      "status": "Active",
-      "industries": [
-        "B2B",
-        "Engineering, Product and Design"
-      ],
-      "regions": [
-        "United States of America",
-        "America / Canada",
-        "Remote",
-        "Fully Remote"
-      ],
-      "stage": "Early",
-      "app_video_public": false,
-      "demo_day_video_public": false,
-      "app_answers": null,
-      "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/zenbu-2"
-    }
-  ],
+  "added": [],
+  "removed": [],
   "updated": [
     {
-      "id": 11943,
-      "name": "Kalshi",
-      "slug": "kalshi",
-      "batch": "Winter 2019",
-      "url": "https://www.ycombinator.com/companies/kalshi",
+      "id": 584,
+      "name": "Camperoo",
+      "slug": "camperoo",
+      "batch": "Winter 2014",
+      "url": "https://www.ycombinator.com/companies/camperoo",
       "changes": [
         {
-          "field": "stage",
-          "before": "Early",
-          "after": "Growth"
-        }
-      ]
-    },
-    {
-      "id": 13415,
-      "name": "Angle Health",
-      "slug": "angle-health",
-      "batch": "Winter 2020",
-      "url": "https://www.ycombinator.com/companies/angle-health",
-      "changes": [
-        {
-          "field": "stage",
-          "before": "Early",
-          "after": "Growth"
-        }
-      ]
-    },
-    {
-      "id": 23960,
-      "name": "Carbonfact",
-      "slug": "carbonfact",
-      "batch": "Summer 2021",
-      "url": "https://www.ycombinator.com/companies/carbonfact",
-      "changes": [
-        {
-          "field": "stage",
-          "before": "Early",
-          "after": "Growth"
-        }
-      ]
-    },
-    {
-      "id": 27041,
-      "name": "Feather",
-      "slug": "feather-2",
-      "batch": "Summer 2022",
-      "url": "https://www.ycombinator.com/companies/feather-2",
-      "changes": [
-        {
-          "field": "isHiring",
-          "before": true,
-          "after": false
-        }
-      ]
-    },
-    {
-      "id": 27882,
-      "name": "Velos",
-      "slug": "velos",
-      "batch": "Winter 2023",
-      "url": "https://www.ycombinator.com/companies/velos",
-      "changes": [
-        {
-          "field": "tags",
-          "before": [
-            "Artificial Intelligence",
-            "Reinforcement Learning",
-            "Robotic Process Automation",
-            "Insurance",
-            "Automation"
-          ],
-          "after": [
-            "Reinforcement Learning",
-            "Robotic Process Automation",
-            "Insurance",
-            "Automation",
-            "AI"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 28971,
-      "name": "Kobalt Labs",
-      "slug": "kobalt-labs",
-      "batch": "Summer 2023",
-      "url": "https://www.ycombinator.com/companies/kobalt-labs",
-      "changes": [
-        {
-          "field": "stage",
-          "before": "Early",
-          "after": "Growth"
-        }
-      ]
-    },
-    {
-      "id": 29390,
-      "name": "OffDeal",
-      "slug": "offdeal",
-      "batch": "Winter 2024",
-      "url": "https://www.ycombinator.com/companies/offdeal",
-      "changes": [
-        {
-          "field": "stage",
-          "before": "Early",
-          "after": "Growth"
-        }
-      ]
-    },
-    {
-      "id": 30103,
-      "name": "Metreecs",
-      "slug": "metreecs",
-      "batch": "Fall 2024",
-      "url": "https://www.ycombinator.com/companies/metreecs",
-      "changes": [
-        {
-          "field": "team_size",
-          "before": 6,
-          "after": 20
+          "field": "name",
+          "before": "Futureleague",
+          "after": "Camperoo"
         },
         {
-          "field": "tags",
+          "field": "slug",
+          "before": "futureleague",
+          "after": "camperoo"
+        },
+        {
+          "field": "former_names",
           "before": [
-            "Machine Learning",
-            "Retail Tech",
-            "AI"
+            "Camperoo"
           ],
           "after": [
-            "Artificial Intelligence",
-            "Machine Learning",
-            "Retail Tech"
+            "Camperoo",
+            "Futureleague"
           ]
         }
       ]
     },
     {
-      "id": 30258,
-      "name": "Gale",
-      "slug": "gale",
-      "batch": "Winter 2025",
-      "url": "https://www.ycombinator.com/companies/gale",
+      "id": 21769,
+      "name": "Roboflow",
+      "slug": "roboflow",
+      "batch": "Summer 2020",
+      "url": "https://www.ycombinator.com/companies/roboflow",
+      "changes": [
+        {
+          "field": "stage",
+          "before": "Growth",
+          "after": "Early"
+        }
+      ]
+    },
+    {
+      "id": 28131,
+      "name": "Untether Labs",
+      "slug": "untether-labs",
+      "batch": "Winter 2023",
+      "url": "https://www.ycombinator.com/companies/untether-labs",
       "changes": [
         {
           "field": "isHiring",
@@ -250,262 +64,52 @@
       ]
     },
     {
-      "id": 30503,
-      "name": "Vesence",
-      "slug": "vesence",
-      "batch": "Spring 2025",
-      "url": "https://www.ycombinator.com/companies/vesence",
+      "id": 29850,
+      "name": "SureBright",
+      "slug": "surebright",
+      "batch": "Summer 2024",
+      "url": "https://www.ycombinator.com/companies/surebright",
       "changes": [
         {
-          "field": "tags",
-          "before": [
-            "Finance",
-            "B2B",
-            "Legal",
-            "AI"
-          ],
-          "after": [
-            "Artificial Intelligence",
-            "Finance",
-            "B2B",
-            "Legal"
-          ]
+          "field": "isHiring",
+          "before": false,
+          "after": true
         }
       ]
     },
     {
-      "id": 30690,
-      "name": "Flai",
-      "slug": "flai",
-      "batch": "Summer 2025",
-      "url": "https://www.ycombinator.com/companies/flai",
-      "changes": [
-        {
-          "field": "stage",
-          "before": "Early",
-          "after": "Growth"
-        }
-      ]
-    },
-    {
-      "id": 30804,
-      "name": "Luminal",
-      "slug": "luminal",
-      "batch": "Summer 2025",
-      "url": "https://www.ycombinator.com/companies/luminal",
-      "changes": [
-        {
-          "field": "stage",
-          "before": "Early",
-          "after": "Growth"
-        }
-      ]
-    },
-    {
-      "id": 31181,
-      "name": "Synthetic Sciences",
-      "slug": "synthetic-sciences",
-      "batch": "Winter 2026",
-      "url": "https://www.ycombinator.com/companies/synthetic-sciences",
+      "id": 30067,
+      "name": "Beglaubigt.de",
+      "slug": "beglaubigtde",
+      "batch": "Fall 2024",
+      "url": "https://www.ycombinator.com/companies/beglaubigtde",
       "changes": [
         {
           "field": "team_size",
-          "before": 2,
-          "after": 4
+          "before": 15,
+          "after": 30
         }
       ]
     },
     {
-      "id": 31191,
-      "name": "Traverse",
-      "slug": "traverse",
-      "batch": "Winter 2026",
-      "url": "https://www.ycombinator.com/companies/traverse",
-      "changes": [
-        {
-          "field": "one_liner",
-          "before": "Frontier intelligence for enterprises, faster and at a fraction of…",
-          "after": "Custom models and inference, built and run for enterprises"
-        },
-        {
-          "field": "tags",
-          "before": [
-            "Artificial Intelligence",
-            "Machine Learning",
-            "Reinforcement Learning"
-          ],
-          "after": [
-            "Machine Learning",
-            "Reinforcement Learning",
-            "AI"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 31455,
-      "name": "tday.com",
-      "slug": "tdaycom",
-      "batch": "Spring 2026",
-      "url": "https://www.ycombinator.com/companies/tdaycom",
-      "changes": [
-        {
-          "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/749cda8e6bd8bf9125edf56605d0a1fea2ea6497.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/4bcde06b6b762322fe29601e0b4b4c56466218cb.png"
-        }
-      ]
-    },
-    {
-      "id": 31545,
-      "name": "Modern",
-      "slug": "modern",
-      "batch": "Spring 2026",
-      "url": "https://www.ycombinator.com/companies/modern",
-      "changes": [
-        {
-          "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/3d2529e7f9c6b526eaa04259dba132d262fb29fc.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/bc2a391c24694c5a70f0448e5a56886ff59f5cdc.png"
-        },
-        {
-          "field": "one_liner",
-          "before": "Modern - the ServiceNow killer",
-          "after": "Modern automates the entire order-to-cash process for B2B companies."
-        },
-        {
-          "field": "tags",
-          "before": [],
-          "after": [
-            "Artificial Intelligence",
-            "Finance",
-            "B2B",
-            "Enterprise",
-            "Enterprise Software"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 32988,
-      "name": "Markov",
-      "slug": "markov",
-      "batch": "Summer 2026",
-      "url": "https://www.ycombinator.com/companies/markov",
-      "changes": [
-        {
-          "field": "all_locations",
-          "before": "Bengaluru, KA, India",
-          "after": "San Francisco, CA, USA"
-        },
-        {
-          "field": "regions",
-          "before": [
-            "India",
-            "South Asia"
-          ],
-          "after": [
-            "United States of America",
-            "America / Canada"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 34629,
-      "name": "Simulithic",
-      "slug": "simulithic",
+      "id": 37238,
+      "name": "Terse",
+      "slug": "useterse",
       "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/simulithic",
+      "url": "https://www.ycombinator.com/companies/useterse",
       "changes": [
         {
           "field": "tags",
           "before": [
-            "Artificial Intelligence"
-          ],
-          "after": [
-            "Developer Tools",
-            "Infrastructure",
-            "AI"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 36016,
-      "name": "Pomerado",
-      "slug": "pomerado",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/pomerado",
-      "changes": [
-        {
-          "field": "tags",
-          "before": [
-            "Developer Tools",
-            "B2B",
-            "Workflow Automation",
             "API",
+            "Infrastructure",
             "AI"
           ],
           "after": [
             "Artificial Intelligence",
-            "Developer Tools",
-            "B2B",
-            "Workflow Automation",
-            "API"
+            "API",
+            "Infrastructure"
           ]
-        }
-      ]
-    },
-    {
-      "id": 36777,
-      "name": "Sona8",
-      "slug": "sona8",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/sona8",
-      "changes": [
-        {
-          "field": "tags",
-          "before": [
-            "HR Tech",
-            "Infrastructure",
-            "AI",
-            "Conversational AI"
-          ],
-          "after": [
-            "Artificial Intelligence",
-            "HR Tech",
-            "Infrastructure",
-            "Conversational AI"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 37999,
-      "name": "RATLOG",
-      "slug": "ratlog",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/ratlog",
-      "changes": [
-        {
-          "field": "website",
-          "before": "",
-          "after": "https://www.ratlog.space/"
-        }
-      ]
-    },
-    {
-      "id": 39117,
-      "name": "Godpack",
-      "slug": "godpack",
-      "batch": "Winter 2027",
-      "url": "https://www.ycombinator.com/companies/godpack",
-      "changes": [
-        {
-          "field": "one_liner",
-          "before": "100% EV fair gacha",
-          "after": "100% fair packs for collectors"
         }
       ]
     }
