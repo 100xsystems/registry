@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-10-15T20:47:41.184Z",
+  "updatedAt": "2026-10-16T03:22:15.284Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -2641,7 +2641,15 @@
       "summary": "I packaged bigquery_fdw over 6 years ago. However if you tried to use bigquery_fdw from the PostgreSQL YUM or zypper repositories recently, there is a good chance it did not work: the Python modules it needs could not be imported by the interpreter it runs in. The packages that are in the…",
       "author": null,
       "publishedAt": "2026-10-14T22:35:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9yz",
+      "title": "Christophe Pettus: All Your GUCs in a Row: primary_slot_name",
+      "link": "https://postgr.es/p/9yz",
+      "summary": "Configure a replication slot name on your standby and the upstream keeps WAL forever—until the slot itself fills your disk or the standby dies holding an old…\n\n(I consult on PostgreSQL through PGX Inc..)",
+      "author": null,
+      "publishedAt": "2026-10-16T01:00:00.000Z"
     }
   ],
-  "totalIndexed": 329
+  "totalIndexed": 330
 }

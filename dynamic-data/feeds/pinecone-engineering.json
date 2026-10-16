@@ -8,7 +8,7 @@
     "vector-databases",
     "infrastructure"
   ],
-  "updatedAt": "2026-09-25T20:56:21.748Z",
+  "updatedAt": "2026-10-16T03:22:24.950Z",
   "items": [
     {
       "guid": "https://www.pinecone.io/blog/behind-the-benchmarking-pipeline/",
@@ -4905,7 +4905,15 @@
       "summary": "Add hybrid search to a Postgres app with Pinecone: full-text and vector search in one index, Postgres as the source of truth. Built around a snack shop example.",
       "author": null,
       "publishedAt": "2026-09-25T20:38:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/byoc-on-demand/",
+      "title": "On-demand mode for Pinecone BYOC",
+      "link": "https://www.pinecone.io/blog/byoc-on-demand/",
+      "summary": "Pinecone BYOC now supports on-demand capacity mode, so you can create indexes in your own cloud account without sizing shards upfront.",
+      "author": null,
+      "publishedAt": "2026-10-15T12:00:00.000Z"
     }
   ],
-  "totalIndexed": 612
+  "totalIndexed": 613
 }

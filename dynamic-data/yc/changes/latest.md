@@ -1,105 +1,137 @@
-# YC Company Changes for 2026-10-15
+# YC Company Changes for 2026-10-16
 
-- Previous total: 6304
-- Current total: 6305
-- Added: 1
+- Previous total: 6305
+- Current total: 6307
+- Added: 2
 - Removed: 0
-- Updated: 19
+- Updated: 27
 
 
 ## Added Companies
 
-- [Plyxl](https://www.ycombinator.com/companies/plyxl) (Winter 2027) — The workspace that does the work
+- [Obia](https://www.ycombinator.com/companies/obia) (Fall 2026) — AI-native commercial real estate brokerage
+- [Adside.ai](https://www.ycombinator.com/companies/adsideai) (Fall 2026) — AI agency that manages paid ads on Meta, Google, LinkedIn, etc. 
 
 ## Updated Companies
 
-### [AgileMD](https://www.ycombinator.com/companies/agilemd)
+### [Kalshi](https://www.ycombinator.com/companies/kalshi)
 
-- `isHiring`: true → false
+- `stage`: Growth → Early
 
-### [Shotput](https://www.ycombinator.com/companies/shotput)
+### [Angle Health](https://www.ycombinator.com/companies/angle-health)
 
-- `small_logo_thumb_url`: /company/thumb/missing.png → https://bookface-images.s3.amazonaws.com/small_logos/5485038f7b525cb9b25bb96164bd20b909d775c7.png
+- `stage`: Growth → Early
 
-### [SPATE](https://www.ycombinator.com/companies/spate)
+### [FirstQuadrant](https://www.ycombinator.com/companies/firstquadrant)
 
-- `team_size`: 15 → 25
-- `tags`: Machine Learning,AI → Artificial Intelligence,Machine Learning
+- `demo_day_video_public`: false → true
 
-### [Wyndly](https://www.ycombinator.com/companies/wyndly)
+### [Synder](https://www.ycombinator.com/companies/synder)
 
-- `team_size`: 10 → 18
+- `one_liner`: Easy accounting for e-commerce → Financial data your AI can actually trust
+- `tags`: E-Commerce → SaaS,E-commerce
 
-### [Nash](https://www.ycombinator.com/companies/nash)
+### [Signatur Biosciences](https://www.ycombinator.com/companies/signatur-biosciences)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/85d1c8b167dc541ab5c546bde5eef2173f5264c6.png → https://bookface-images.s3.amazonaws.com/small_logos/8931d523c719bb8419658e9193f7363a4c6df72f.png
+- `isHiring`: false → true
+
+### [AnythingLLM](https://www.ycombinator.com/companies/anythingllm)
+
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/09de3d530cdabdf26d6739b7f443a35022608a76.png → https://bookface-images.s3.amazonaws.com/small_logos/33d296040fb4ce26e9922ae20db732c90a4f11ce.png
+- `one_liner`: Building the definitive all-in-one on-device AI productivity tool → The open-source AI platform enterprises run on their own hardware
+- `tags`: Artificial Intelligence,Open Source,AI Assistant → Open Source,AI,AI Assistant
 
 ### [Velos](https://www.ycombinator.com/companies/velos)
 
-- `tags`: Artificial Intelligence,Generative AI,Reinforcement Learning,Robotic Process Automation,Automation → Generative AI,Reinforcement Learning,Robotic Process Automation,Automation,AI
+- `one_liner`: Platform to automate manual back-office work → AI BPO for Specialty Insurance MGAs
+- `industry`: B2B → Fintech
+- `subindustry`: B2B -> Operations → Fintech -> Insurance
+- `tags`: Generative AI,Reinforcement Learning,Robotic Process Automation,Automation,AI → Artificial Intelligence,Reinforcement Learning,Robotic Process Automation,Insurance,Automation
+- `industries`: B2B,Operations → Fintech,Insurance
 
-### [Monumint](https://www.ycombinator.com/companies/monumint)
+### [OpenTools](https://www.ycombinator.com/companies/opentools)
 
-- `team_size`: 5 → 10
-- `tags`: Fintech,Finance,B2B,AI → Artificial Intelligence,Fintech,Finance,B2B
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/3927ff309d52d222fc423bc00c5c7f463f090703.png → https://bookface-images.s3.amazonaws.com/small_logos/a9bcfe9761e073ad33344f49653b2ae4ea849d91.png
+- `tags`: Marketplace,AI → Artificial Intelligence,Marketplace
 
-### [Opslane](https://www.ycombinator.com/companies/opslane)
+### [Kobalt Labs](https://www.ycombinator.com/companies/kobalt-labs)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/d93b9323bb2d6146f1e9e67bf29441615e86a467.png → https://bookface-images.s3.amazonaws.com/small_logos/2f632f905565346c94d60925b5fcc1728cf28368.png
-- `one_liner`: Verify AI-generated code before you ship it → Catch bugs that code review tools miss
-- `tags`: Artificial Intelligence,Developer Tools,Open Source,Enterprise,DevOps → Developer Tools,Open Source,Enterprise,DevOps,AI
-
-### [Waffle](https://www.ycombinator.com/companies/waffle)
-
-- `one_liner`: AI generated podcasts → AI Video Editor
-
-### [Flai](https://www.ycombinator.com/companies/flai)
-
-- `team_size`: 35 → 40
+- `team_size`: 12 → 13
 - `stage`: Growth → Early
+
+### [floatingpoint](https://www.ycombinator.com/companies/floatingpoint)
+
+- `status`: Active → Acquired
+
+### [Pax](https://www.ycombinator.com/companies/pax)
+
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/70cdd1fa78c63083ab6a70c63195a46e8f6cad04.png → https://bookface-images.s3.amazonaws.com/small_logos/504c0f3948154b11b0ce8c13dc39653602f56d0a.png
+- `one_liner`: AI Broker for Tariff Refunds → AI Native Operating System for Global Trade
+
+### [Vesence](https://www.ycombinator.com/companies/vesence)
+
+- `one_liner`: AI for High-Stakes Work → The Agent-Native Computer
+- `tags`: Artificial Intelligence,Finance,B2B,Legal → Finance,B2B,Legal,AI
+
+### [Verne Robotics](https://www.ycombinator.com/companies/verne-robotics)
+
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/08842805c015165cf0d7e591168f2b15a9e9c85a.png → https://bookface-images.s3.amazonaws.com/small_logos/d892cc07af7461203238df538f63d3eafe2a9635.png
 
 ### [Autumn](https://www.ycombinator.com/companies/autumn-ai)
 
-- `name`: Autumn AI → Autumn
-- `former_names`: Chiral Labs → Chiral Labs,Autumn AI
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/c561ac3ff3132e3dda05b6de7836b2d1b55ed1aa.png → https://bookface-images.s3.amazonaws.com/small_logos/e9869ac74d16e219c2c3c7a63c96b676e8281762.png
-- `one_liner`: Everything on anyone. → The people-intelligence company.
-- `team_size`: 2 → 4
+- `isHiring`: false → true
 
-### [Libra Robotics](https://www.ycombinator.com/companies/libra-robotics)
+### [Luminal](https://www.ycombinator.com/companies/luminal)
 
-- `tags`: Artificial Intelligence,Hard Tech,Robotics,Construction,Energy → Hard Tech,Robotics,Construction,Energy,AI
+- `stage`: Growth → Early
 
-### [Rainbrand](https://www.ycombinator.com/companies/rainbrand)
+### [Brickwise](https://www.ycombinator.com/companies/brickwise)
 
-- `name`: Bloom → Rainbrand
-- `slug`: trybloom → rainbrand
-- `former_names`:  → Bloom
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/69e41f29f70735fdb2645501787e9a1ddf8d46dc.png → https://bookface-images.s3.amazonaws.com/small_logos/c555444a2d853513769feaea1a31560875f72134.png
-- `website`: https://trybloom.ai → https://rainbrand.com
+- `team_size`: 13 → 12
 
-### [Hexa](https://www.ycombinator.com/companies/hexa)
+### [Traverse](https://www.ycombinator.com/companies/traverse)
 
-- `all_locations`: San Francisco, CA, USA → London, England, United Kingdom
-- `regions`: United States of America,America / Canada → United Kingdom,Europe
+- `one_liner`: Research lab solving non-verifiable work → Frontier intelligence for enterprises, faster and at a fraction of…
+- `tags`: Machine Learning,Reinforcement Learning,AI → Artificial Intelligence,Machine Learning,Reinforcement Learning
 
-### [Minicor](https://www.ycombinator.com/companies/minicor)
+### [Emdash](https://www.ycombinator.com/companies/emdash)
 
-- `team_size`: 8 → 9
+- `one_liner`: Open-source Agentic Development Environment → Agentic Development Environment
 
-### [Capto](https://www.ycombinator.com/companies/capto)
+### [Ressl AI](https://www.ycombinator.com/companies/ressl-ai)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/9e9ad437e503d6309ddcdb7e3b79f52406e3f03e.png → https://bookface-images.s3.amazonaws.com/small_logos/300579f704f4971abc355f226a91f0da7f7f38b4.png
-- `one_liner`: Helping startups win gov contracts → Build something the government wants
+- `isHiring`: true → false
 
-### [Workers IO](https://www.ycombinator.com/companies/workers-io)
+### [Regbase](https://www.ycombinator.com/companies/regbase)
 
-- `one_liner`: Simulation Environments for Verifying Mission Critical Software → Simulation environments for verifying mission-critical software
+- `isHiring`: true → false
 
-### [ObsessionDB](https://www.ycombinator.com/companies/obsessiondb)
+### [Light Anchor](https://www.ycombinator.com/companies/light-anchor)
 
-- `launched_at`: 1787064993 → 1792056940
+- `one_liner`: AI-run consumer brands → AI-native growth agency for consumer brands
+- `tags`: Artificial Intelligence,E-commerce → E-commerce,AI
 
-### [Tilo](https://www.ycombinator.com/companies/tilo)
+### [Olam Labs](https://www.ycombinator.com/companies/olam-labs)
 
-- `launched_at`: 1787865531 → 1792039962
+- `tags`: Artificial Intelligence,Reinforcement Learning,Gaming,Data Engineering → Reinforcement Learning,Gaming,Data Engineering,AI
+
+### [Belvedir](https://www.ycombinator.com/companies/belvedir)
+
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/823732d3a67703ee105bf266f45c3e43c175ef96.png → https://bookface-images.s3.amazonaws.com/small_logos/7f68cfb5228c7e522deffed4be2be94da5eab6d3.png
+- `tags`: Machine Learning,Reinforcement Learning,AI → Artificial Intelligence,Machine Learning,Reinforcement Learning
+
+### [Grep AI](https://www.ycombinator.com/companies/grep-ai)
+
+- `question_answers`: false → true
+
+### [Nodus Compute](https://www.ycombinator.com/companies/nodus-compute)
+
+- `tags`: Artificial Intelligence,Infrastructure → Infrastructure,AI
+
+### [Agent Relay](https://www.ycombinator.com/companies/agent-relay)
+
+- `one_liner`: The infrastructure to run coding agents for your team → Let your team's coding agents message each other
+
+### [OpEra](https://www.ycombinator.com/companies/opera)
+
+- `tags`: Artificial Intelligence,Logistics,Manufacturing,Supply Chain,Operations → Logistics,Manufacturing,Supply Chain,Operations,AI

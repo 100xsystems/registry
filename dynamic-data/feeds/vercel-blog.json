@@ -9,7 +9,7 @@
     "edge-computing",
     "nextjs"
   ],
-  "updatedAt": "2026-10-10T12:13:23.499Z",
+  "updatedAt": "2026-10-16T03:22:24.680Z",
   "items": [
     {
       "guid": "vercel-blog::https://vercel.com/changelog/ai-gateway-now-supports-streaming-transcription",
@@ -4826,7 +4826,63 @@
       "summary": "and Functions Storage billing will begin for all Pro teams at $0.10 per GB-month. Check your email for details about when billing will start for your team. To keep storage costs low, the deployment retention window also changes to 30 days.Deployment Storage\nDeployments older than 30 days will be…",
       "author": "Jay Gengelbach",
       "publishedAt": "2026-10-09T18:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/blog/ai-gateway-production-index-october-2026",
+      "title": "Open weight takes 71.5% of tokens and 23% of spend",
+      "link": "https://vercel.com/blog/ai-gateway-production-index-october-2026",
+      "summary": "AI Gateway Production Index — October 2026\nEvery month,  routes tens of trillions of tokens between production applications and AI labs. That traffic gives us a view of what AI usage actually looks like in today's enterprise, and we publish it here monthly. See the Production Index reports from , ,…",
+      "author": "Amelia Charles",
+      "publishedAt": "2026-10-15T07:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/blog/vercel-for-enterprise",
+      "title": "Vercel for Enterprise",
+      "link": "https://vercel.com/blog/vercel-for-enterprise",
+      "summary": "AI adoption in the enterprise is growing rapidly, and expanding beyond engineering users. \nIn the last three months, token usage by enterprise companies on AI Gateway has quadrupled, and  that from August 2025 to June 2026, non-developer Codex users grew 189x. OpenAI recently reported\nOur customers…",
+      "author": "Jeanne Grosser",
+      "publishedAt": "2026-10-15T07:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/blog/introducing-vercel-drives-persistent-storage-for-agents",
+      "title": "Introducing Vercel Drives: persistent storage for agents",
+      "link": "https://vercel.com/blog/introducing-vercel-drives-persistent-storage-for-agents",
+      "summary": "Agents often handle complex work that continues across runs. As that work evolves, they may need a new environment with different tools, runtimes, or compute. They should be able to continue working with the same files when they change environments.\nWe built  to keep an agent’s files independent of…",
+      "author": "Kevin Sundstrom",
+      "publishedAt": "2026-10-15T07:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/blog/backends-on-vercel-python-containers-and-daemons",
+      "title": "Backends on Vercel: Python, containers, and Daemons",
+      "link": "https://vercel.com/blog/backends-on-vercel-python-containers-and-daemons",
+      "summary": "Last year, we expanded  for Python and TypeScript backend frameworks. By this summer, developers could deploy their frontend and backend together with  and coordinate background work with  and .zero-config supportVercel Servicesqueuesdurable workflows\nToday at , we are expanding the backend…",
+      "author": "Steren",
+      "publishedAt": "2026-10-15T07:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/blog/python-on-vercel-is-now-generally-available",
+      "title": "Python on Vercel is now generally available",
+      "link": "https://vercel.com/blog/python-on-vercel-is-now-generally-available",
+      "summary": "Python on Vercel is now generally available. Build and run Python applications with the frameworks, libraries, and tools you already use.\nVercel automatically detects supported frameworks and configures the build and deployment. Your applications run on Fluid compute, which manages concurrent…",
+      "author": "Yury Selivanov",
+      "publishedAt": "2026-10-15T07:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/introducing-token-pass",
+      "title": "Introducing Token Pass",
+      "link": "https://vercel.com/changelog/introducing-token-pass",
+      "summary": "Vercel Token Pass is now in early access for Pro teams. For $30 per month, your team gets $80 in monthly credit for GLM 5.3 and Kimi K3, with more models to come.\nUse Token Pass with coding agents such as fx, Command Code, and Pi, or build your own personal agent with the AI SDK. Token Pass runs…",
+      "author": "Jas Garcha",
+      "publishedAt": "2026-10-15T07:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/vercel-daemons-is-now-in-public-beta",
+      "title": "Vercel Daemons is now in public beta",
+      "link": "https://vercel.com/changelog/vercel-daemons-is-now-in-public-beta",
+      "summary": "is now in public beta, allowing you to run long-running processes that pull and execute work from , databases, or third-party systems without requiring an HTTP server:Vercel DaemonsVercel Queues\nDaemons run containers on Fluid compute and deploy alongside your app in the same project. Vercel builds…",
+      "author": "Steren",
+      "publishedAt": "2026-10-15T07:00:00.000Z"
     }
   ],
-  "totalIndexed": 602
+  "totalIndexed": 609
 }
