@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-10-12T14:58:52.682Z",
+  "updatedAt": "2026-10-16T20:20:39.588Z",
   "items": [
     {
       "guid": "934ab302-3024-430f-856d-f850cdbedbb4",
@@ -95,7 +95,15 @@
       "summary": "In the tradition started by Colin Percival and Thomas Ptacek, a set of “Cryptographic Right Answers” updated for the accelerated post-quantum transition timeline.",
       "author": "Filippo Valsorda <feed@filippo.io>",
       "publishedAt": "2026-10-12T12:00:27.000Z"
+    },
+    {
+      "guid": "bae3afac-15d1-47eb-ac6c-8551068b168b",
+      "title": "The NIST Elliptic Curves Seeds Bounty Has Been Claimed",
+      "link": "https://words.filippo.io/seeds-solved/",
+      "summary": "We now know how the seeds of the NIST elliptic curves were generated: they’re not the hash of some saucy sentence, but the output of drand48() seeded with the time, which was indeed in 1997–98.",
+      "author": "Filippo Valsorda <feed@filippo.io>",
+      "publishedAt": "2026-10-16T18:57:20.000Z"
     }
   ],
-  "totalIndexed": 11
+  "totalIndexed": 12
 }
