@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-10-16T03:22:15.284Z",
+  "updatedAt": "2026-10-16T11:05:07.288Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -2649,7 +2649,23 @@
       "summary": "Configure a replication slot name on your standby and the upstream keeps WAL forever—until the slot itself fills your disk or the standby dies holding an old…\n\n(I consult on PostgreSQL through PGX Inc..)",
       "author": null,
       "publishedAt": "2026-10-16T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9yC",
+      "title": "Hubert 'depesz' Lubaczewski: Old tech is sometimes better – a case study based on blogpost from Now-Next…",
+      "link": "https://postgr.es/p/9yC",
+      "summary": "Some time ago I read this blogpost. They wrote about logging changes to table using a trigger, but one thing that caught my attention was: Storing only the changed columns made the log five times smaller and the trigger slower. Figured I can try it myself… Unfortunately they didn't provide schema…",
+      "author": null,
+      "publishedAt": "2026-10-16T10:09:03.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9yB",
+      "title": "Henrietta Dombrovskaya: Two Years of Community Building!",
+      "link": "https://postgr.es/p/9yB",
+      "summary": "Prairie Postgres just turned two! We say “community building” often, maybe not always thinking about what it means, but looking back on the past two years, I can confidently say the most important achievement, the one I’m most proud of, is reshaping the Chicago Postgres Community. \nGradually, our…",
+      "author": null,
+      "publishedAt": "2026-10-16T08:34:25.000Z"
     }
   ],
-  "totalIndexed": 330
+  "totalIndexed": 332
 }
