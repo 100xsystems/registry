@@ -1,135 +1,130 @@
 {
   "date": "2026-10-17",
-  "fetchedAt": "2026-10-17T15:01:42.531Z",
+  "fetchedAt": "2026-10-17T19:55:40.768Z",
   "previousCount": 6307,
   "currentCount": 6307,
   "added": [],
   "removed": [],
   "updated": [
     {
-      "id": 1842,
-      "name": "AlgoSurg Inc",
-      "slug": "algosurg-inc",
-      "batch": "Winter 2018",
-      "url": "https://www.ycombinator.com/companies/algosurg-inc",
+      "id": 28867,
+      "name": "Shasta Health",
+      "slug": "shasta-health",
+      "batch": "Summer 2023",
+      "url": "https://www.ycombinator.com/companies/shasta-health",
       "changes": [
         {
-          "field": "website",
-          "before": "http://www.algosurg.com",
-          "after": "http://www.algosurg.ai"
-        },
-        {
-          "field": "one_liner",
-          "before": "We make AI technology for Robotic and AR Surgeries",
-          "after": "Surgical AI for medical device companies: Patient scan to robot-ready…"
-        },
-        {
-          "field": "team_size",
-          "before": 8,
-          "after": 3
-        },
-        {
-          "field": "tags",
-          "before": [
-            "Augmented Reality",
-            "Robotic Surgery",
-            "Medical Devices"
-          ],
-          "after": [
-            "Robotic Surgery",
-            "Medical Devices",
-            "Healthcare IT",
-            "AI"
-          ]
+          "field": "isHiring",
+          "before": true,
+          "after": false
         }
       ]
     },
     {
-      "id": 29350,
-      "name": "Feldy",
-      "slug": "feldy",
+      "id": 29246,
+      "name": "Tracecat",
+      "slug": "tracecat",
       "batch": "Winter 2024",
-      "url": "https://www.ycombinator.com/companies/feldy",
+      "url": "https://www.ycombinator.com/companies/tracecat",
       "changes": [
         {
-          "field": "team_size",
-          "before": 8,
-          "after": 4
+          "field": "isHiring",
+          "before": false,
+          "after": true
         }
       ]
     },
     {
-      "id": 31359,
-      "name": "Twolabs",
-      "slug": "twolabs",
-      "batch": "Spring 2026",
-      "url": "https://www.ycombinator.com/companies/twolabs",
+      "id": 30027,
+      "name": "Durate",
+      "slug": "durate",
+      "batch": "Fall 2024",
+      "url": "https://www.ycombinator.com/companies/durate",
       "changes": [
         {
-          "field": "website",
-          "before": "https://www.twolabs.ai",
-          "after": "https://twolabs.ai"
-        },
+          "field": "isHiring",
+          "before": false,
+          "after": true
+        }
+      ]
+    },
+    {
+      "id": 30755,
+      "name": "Pally",
+      "slug": "pally",
+      "batch": "Summer 2025",
+      "url": "https://www.ycombinator.com/companies/pally",
+      "changes": [
         {
-          "field": "one_liner",
-          "before": "Humanoid robot platform for builders.",
-          "after": "RL environments for underexplored domains."
-        },
-        {
-          "field": "industry",
-          "before": "Industrials",
-          "after": "B2B"
-        },
-        {
-          "field": "subindustry",
-          "before": "Industrials -> Manufacturing and Robotics",
-          "after": "B2B -> Infrastructure"
-        },
+          "field": "tags",
+          "before": [
+            "Consumer",
+            "B2B",
+            "Productivity",
+            "Search",
+            "AI"
+          ],
+          "after": [
+            "Artificial Intelligence",
+            "Consumer",
+            "B2B",
+            "Productivity",
+            "Search"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 35751,
+      "name": "Rystic",
+      "slug": "rystic",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/rystic",
+      "changes": [
         {
           "field": "tags",
           "before": [
             "Artificial Intelligence",
-            "Robotics"
+            "Developer Tools",
+            "B2B",
+            "Enterprise Software"
           ],
           "after": [
-            "Robotics",
+            "Developer Tools",
+            "B2B",
+            "Enterprise Software",
             "AI"
           ]
+        }
+      ]
+    },
+    {
+      "id": 36643,
+      "name": "Papaya",
+      "slug": "papaya",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/papaya",
+      "changes": [
+        {
+          "field": "one_liner",
+          "before": "Continuous optimization for AI agents",
+          "after": "Continuously improve the quality of your AI agents."
         },
         {
-          "field": "industries",
+          "field": "tags",
           "before": [
-            "Industrials",
-            "Manufacturing and Robotics"
-          ],
-          "after": [
+            "AIOps",
+            "Artificial Intelligence",
             "B2B",
+            "Enterprise Software",
             "Infrastructure"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 33248,
-      "name": "Dock",
-      "slug": "dock",
-      "batch": "Summer 2026",
-      "url": "https://www.ycombinator.com/companies/dock",
-      "changes": [
-        {
-          "field": "one_liner",
-          "before": "Multiplayer workspace for agents and humans",
-          "after": "Hire AI agents to start and run your business"
-        },
-        {
-          "field": "tags",
-          "before": [
-            "B2B",
-            "AI"
           ],
           "after": [
-            "Artificial Intelligence",
-            "B2B"
+            "AIOps",
+            "B2B",
+            "Enterprise Software",
+            "Infrastructure",
+            "AI"
           ]
         }
       ]

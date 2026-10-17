@@ -4,32 +4,32 @@
 - Current total: 6307
 - Added: 0
 - Removed: 0
-- Updated: 4
+- Updated: 6
 
 
 ## Updated Companies
 
-### [AlgoSurg Inc](https://www.ycombinator.com/companies/algosurg-inc)
+### [Shasta Health](https://www.ycombinator.com/companies/shasta-health)
 
-- `website`: http://www.algosurg.com → http://www.algosurg.ai
-- `one_liner`: We make AI technology for Robotic and AR Surgeries → Surgical AI for medical device companies: Patient scan to robot-ready…
-- `team_size`: 8 → 3
-- `tags`: Augmented Reality,Robotic Surgery,Medical Devices → Robotic Surgery,Medical Devices,Healthcare IT,AI
+- `isHiring`: true → false
 
-### [Feldy](https://www.ycombinator.com/companies/feldy)
+### [Tracecat](https://www.ycombinator.com/companies/tracecat)
 
-- `team_size`: 8 → 4
+- `isHiring`: false → true
 
-### [Twolabs](https://www.ycombinator.com/companies/twolabs)
+### [Durate](https://www.ycombinator.com/companies/durate)
 
-- `website`: https://www.twolabs.ai → https://twolabs.ai
-- `one_liner`: Humanoid robot platform for builders. → RL environments for underexplored domains.
-- `industry`: Industrials → B2B
-- `subindustry`: Industrials -> Manufacturing and Robotics → B2B -> Infrastructure
-- `tags`: Artificial Intelligence,Robotics → Robotics,AI
-- `industries`: Industrials,Manufacturing and Robotics → B2B,Infrastructure
+- `isHiring`: false → true
 
-### [Dock](https://www.ycombinator.com/companies/dock)
+### [Pally](https://www.ycombinator.com/companies/pally)
 
-- `one_liner`: Multiplayer workspace for agents and humans → Hire AI agents to start and run your business
-- `tags`: B2B,AI → Artificial Intelligence,B2B
+- `tags`: Consumer,B2B,Productivity,Search,AI → Artificial Intelligence,Consumer,B2B,Productivity,Search
+
+### [Rystic](https://www.ycombinator.com/companies/rystic)
+
+- `tags`: Artificial Intelligence,Developer Tools,B2B,Enterprise Software → Developer Tools,B2B,Enterprise Software,AI
+
+### [Papaya](https://www.ycombinator.com/companies/papaya)
+
+- `one_liner`: Continuous optimization for AI agents → Continuously improve the quality of your AI agents.
+- `tags`: AIOps,Artificial Intelligence,B2B,Enterprise Software,Infrastructure → AIOps,B2B,Enterprise Software,Infrastructure,AI

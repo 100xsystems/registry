@@ -9,7 +9,7 @@
     "edge-computing",
     "nextjs"
   ],
-  "updatedAt": "2026-10-16T16:09:21.084Z",
+  "updatedAt": "2026-10-17T19:55:37.901Z",
   "items": [
     {
       "guid": "vercel-blog::https://vercel.com/changelog/ai-gateway-now-supports-streaming-transcription",
@@ -4890,7 +4890,23 @@
       "summary": "Agents already shop on the web, but they often use pages and tools originally built for people and search engines. Building a better shopping experience for agents means treating them as first-class shoppers, with product information they can read directly and tools designed for agents to shop.…",
       "author": "Kevin Sundstrom",
       "publishedAt": "2026-10-16T07:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/ai-gateway-logs-now-show-session-affinity",
+      "title": "AI Gateway logs now show session affinity",
+      "link": "https://vercel.com/changelog/ai-gateway-logs-now-show-session-affinity",
+      "summary": "now have a  that groups requests into sessions and shows how session affinity routed each one. Each row shows the  or app that ran the session, such as Claude Code, Codex, or Cursor, along with its cost, models, providers, and how much of its input was cached across every turn.AI Gateway…",
+      "author": "Sam Chitgopekar",
+      "publishedAt": "2026-10-17T20:03:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/deepseek-v4-1-flash-1017-now-available-on-ai-gateway",
+      "title": "DeepSeek V4.1 Flash 1017 now available on AI Gateway",
+      "link": "https://vercel.com/changelog/deepseek-v4-1-flash-1017-now-available-on-ai-gateway",
+      "summary": "is now available on .DeepSeek V4.1 Flash 1017AI Gateway\nDeepSeek V4.1 Flash 1017 is a minor update to  that improves reasoning, coding, agentic tasks, and image understanding.DeepSeek V4.1 Flash\nThe coding gains show up in terminal work and in building and editing whole repositories, and the…",
+      "author": "Zachary Chen",
+      "publishedAt": "2026-10-17T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 610
+  "totalIndexed": 612
 }
