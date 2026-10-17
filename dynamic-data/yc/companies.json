@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-17T03:12:41.818Z",
+  "fetchedAt": "2026-10-17T10:25:06.157Z",
   "count": 6307,
   "companies": [
     {
@@ -886,7 +886,7 @@
       "website": "https://www.graypass.org",
       "all_locations": "Toronto, ON, Canada",
       "long_description": "Login tells you who signed in. GrayPass helps apps check who’s behind sensitive actions and whether they’re authorized before those actions go through.\r\n\r\nIt combines identity, device and session context with behavioral signals like typing rhythm, cursor movement and scrolling. Before a sensitive action goes through, GrayPass evaluates that evidence against your team’s policy and returns a decision: allow, challenge, hold or deny. Your app enforces the decision.\r\n\r\nThis applies to actions like exporting sensitive data, changing admin permissions or allowing an AI agent to act on someone’s behalf. Allowed actions receive short-lived, signed proof tied to the exact action and your app.\r\n\r\nYour existing login and authentication stack stays in place.",
-      "one_liner": "Verify that the expected person is in control before key actions.",
+      "one_liner": "Verify the expected person is still in control before sensitive…",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -2730,11 +2730,11 @@
       "subindustry": "B2B -> Infrastructure",
       "launched_at": 1791788322,
       "tags": [
+        "Artificial Intelligence",
         "Developer Tools",
         "B2B",
         "Workflow Automation",
-        "API",
-        "AI"
+        "API"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -3638,7 +3638,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/12ec3720a247bad2e5a39d162b68e217ed6b74bd.png",
       "website": "https://workers.io",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Workers IO is building deterministic simulation environments to verify mission-critical software. We run your entire system through millions of production scenarios and prove that its properties hold in every one.\r\n\r\nThe problem:\r\n\r\nCoding agents write code faster than teams can review it. At the same time, software and the infrastructure under it grow more complex every year. Tests only checks a few cases someone wrote, in isolation, in an environment that does not match production. Making the most expensive failures reach production first.\r\n\r\nOur solution:\r\n\r\nWe run your system unmodified in our simulation environments, against network partitions, disk failures, crashes, and clock drift. We build those fault models for you and verify every promise across millions of scenarios. Because these simulations are deterministic, every failure is perfectly reproducible. No one writes scenarios by hand, so verification becomes a compute problem.",
+      "long_description": "Workers IO is building simulation environments to catch failures in mission-critical software before they reach production. We run your entire system through millions of simulated production scenarios to verify its correctness and performance properties.\r\n\r\nCoding agents can now generate code faster than teams can review it. Meanwhile, software and the infrastructure it runs on keep getting more complex. Tests check a small set of cases in isolation, in environments that are different from production. Some of the most expensive failures only surface when customers encounter them.\r\n\r\nWe run your entire system unmodified and simulate network faults, disk failures, crashes, and clock drift. We build the fault models for you and check your system’s requirements across millions of scenarios. Every failure we find can be perfectly reproduced.",
       "one_liner": "Simulation environments for verifying mission-critical software",
       "team_size": 2,
       "highlight_black": false,
@@ -3648,10 +3648,10 @@
       "subindustry": "B2B -> Engineering, Product and Design",
       "launched_at": 1787942068,
       "tags": [
+        "Artificial Intelligence",
         "Developer Tools",
         "B2B",
-        "Infrastructure",
-        "AI"
+        "Infrastructure"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -4001,11 +4001,11 @@
       "subindustry": "B2B -> Engineering, Product and Design",
       "launched_at": 1788984366,
       "tags": [
-        "Artificial Intelligence",
         "Developer Tools",
         "Generative AI",
         "SaaS",
-        "Enterprise Software"
+        "Enterprise Software",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -5366,9 +5366,9 @@
       "subindustry": "B2B -> Engineering, Product and Design",
       "launched_at": 1786468833,
       "tags": [
+        "Artificial Intelligence",
         "Developer Tools",
-        "Infrastructure",
-        "AI"
+        "Infrastructure"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -5495,7 +5495,7 @@
       "subindustry": "B2B -> Engineering, Product and Design",
       "launched_at": 1790353230,
       "tags": [
-        "AI"
+        "Artificial Intelligence"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -6044,8 +6044,8 @@
       "subindustry": "B2B -> Productivity",
       "launched_at": 1790019866,
       "tags": [
-        "Fintech",
-        "AI"
+        "Artificial Intelligence",
+        "Fintech"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -18424,7 +18424,7 @@
         "markup.one",
         "tday"
       ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/4bcde06b6b762322fe29601e0b4b4c56466218cb.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/9d0a0c041aba138ec10680007f17d9a6a80deb12.png",
       "website": "https://tday.com",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "tday automatically turns a software company's product into on-brand marketing creative. Connect your product and git repo, and tday generates polished launch videos, social graphics, and ads, the content a team would normally spend hours making in a design tool or pay a freelancer for. tday then publishes the creative and measures how it performs across your social and ad channels, closing the loop from what you ship to what you post.",
@@ -180734,7 +180734,7 @@
         "Remote",
         "Partly Remote"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -182586,7 +182586,7 @@
         "Remote",
         "Partly Remote"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -194405,7 +194405,7 @@
         "Remote",
         "Partly Remote"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -208100,7 +208100,7 @@
         "Remote",
         "Partly Remote"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -278008,7 +278008,7 @@
         "Remote",
         "Partly Remote"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,

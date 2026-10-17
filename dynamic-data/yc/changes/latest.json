@@ -1,6 +1,6 @@
 {
   "date": "2026-10-17",
-  "fetchedAt": "2026-10-17T03:12:41.816Z",
+  "fetchedAt": "2026-10-17T10:25:06.156Z",
   "previousCount": 6307,
   "currentCount": 6307,
   "added": [],
@@ -15,8 +15,22 @@
       "changes": [
         {
           "field": "stage",
-          "before": "Growth",
-          "after": "Early"
+          "before": "Early",
+          "after": "Growth"
+        }
+      ]
+    },
+    {
+      "id": 11943,
+      "name": "Kalshi",
+      "slug": "kalshi",
+      "batch": "Winter 2019",
+      "url": "https://www.ycombinator.com/companies/kalshi",
+      "changes": [
+        {
+          "field": "stage",
+          "before": "Early",
+          "after": "Growth"
         }
       ]
     },
@@ -29,8 +43,8 @@
       "changes": [
         {
           "field": "stage",
-          "before": "Growth",
-          "after": "Early"
+          "before": "Early",
+          "after": "Growth"
         }
       ]
     },
@@ -42,317 +56,147 @@
       "url": "https://www.ycombinator.com/companies/stable",
       "changes": [
         {
-          "field": "team_size",
-          "before": 30,
-          "after": 60
-        },
-        {
           "field": "stage",
-          "before": "Growth",
-          "after": "Early"
+          "before": "Early",
+          "after": "Growth"
         }
       ]
     },
     {
-      "id": 22108,
-      "name": "Ready",
-      "slug": "ready",
+      "id": 21769,
+      "name": "Roboflow",
+      "slug": "roboflow",
       "batch": "Summer 2020",
-      "url": "https://www.ycombinator.com/companies/ready",
+      "url": "https://www.ycombinator.com/companies/roboflow",
       "changes": [
         {
-          "field": "one_liner",
-          "before": "Collaborative platform for optimizing regulated utilities such as…",
-          "after": "Ensuring AI delivers what people need, when and where they need it,…"
-        },
+          "field": "stage",
+          "before": "Early",
+          "after": "Growth"
+        }
+      ]
+    },
+    {
+      "id": 31455,
+      "name": "tday.com",
+      "slug": "tdaycom",
+      "batch": "Spring 2026",
+      "url": "https://www.ycombinator.com/companies/tdaycom",
+      "changes": [
         {
-          "field": "team_size",
-          "before": 60,
-          "after": 75
-        },
-        {
-          "field": "industry",
-          "before": "B2B",
-          "after": "Government"
-        },
-        {
-          "field": "subindustry",
-          "before": "B2B",
-          "after": "Government"
-        },
+          "field": "small_logo_thumb_url",
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/4bcde06b6b762322fe29601e0b4b4c56466218cb.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/9d0a0c041aba138ec10680007f17d9a6a80deb12.png"
+        }
+      ]
+    },
+    {
+      "id": 33672,
+      "name": "Grep AI",
+      "slug": "grep-ai",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/grep-ai",
+      "changes": [
         {
           "field": "tags",
           "before": [
             "Fintech",
-            "SaaS",
-            "B2B",
-            "Telecommunications"
+            "AI"
           ],
           "after": [
-            "Hardware",
-            "Telecommunications",
+            "Artificial Intelligence",
+            "Fintech"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 34431,
+      "name": "Hue",
+      "slug": "hue",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/hue",
+      "changes": [
+        {
+          "field": "tags",
+          "before": [
+            "AI"
+          ],
+          "after": [
+            "Artificial Intelligence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 34629,
+      "name": "Simulithic",
+      "slug": "simulithic",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/simulithic",
+      "changes": [
+        {
+          "field": "tags",
+          "before": [
+            "Developer Tools",
             "Infrastructure",
             "AI"
-          ]
-        },
-        {
-          "field": "industries",
-          "before": [
-            "B2B"
-          ],
-          "after": [
-            "Government"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 25984,
-      "name": "Rally",
-      "slug": "rallyuxr",
-      "batch": "Winter 2022",
-      "url": "https://www.ycombinator.com/companies/rallyuxr",
-      "changes": [
-        {
-          "field": "team_size",
-          "before": 35,
-          "after": 33
-        }
-      ]
-    },
-    {
-      "id": 27882,
-      "name": "Velos",
-      "slug": "velos",
-      "batch": "Winter 2023",
-      "url": "https://www.ycombinator.com/companies/velos",
-      "changes": [
-        {
-          "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/ea18b8898b03249e01295dac0dccb51928c38c2e.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/1521d60e05f3fa5d010d16b7722a46d4fb586f90.png"
-        },
-        {
-          "field": "tags",
-          "before": [
-            "Reinforcement Learning",
-            "Robotic Process Automation",
-            "Insurance",
-            "Automation",
-            "AI"
-          ],
-          "after": [
-            "Artificial Intelligence",
-            "Reinforcement Learning",
-            "Robotic Process Automation",
-            "Insurance",
-            "Automation"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 30067,
-      "name": "Beglaubigt.de",
-      "slug": "beglaubigtde",
-      "batch": "Fall 2024",
-      "url": "https://www.ycombinator.com/companies/beglaubigtde",
-      "changes": [
-        {
-          "field": "one_liner",
-          "before": "The legal back-office for European founders - the incorporation API…",
-          "after": "The legal backoffice for every company. For founders and AI agents."
-        }
-      ]
-    },
-    {
-      "id": 30606,
-      "name": "Acrely",
-      "slug": "acrely",
-      "batch": "Summer 2025",
-      "url": "https://www.ycombinator.com/companies/acrely",
-      "changes": [
-        {
-          "field": "status",
-          "before": "Active",
-          "after": "Inactive"
-        }
-      ]
-    },
-    {
-      "id": 30755,
-      "name": "Pally",
-      "slug": "pally",
-      "batch": "Summer 2025",
-      "url": "https://www.ycombinator.com/companies/pally",
-      "changes": [
-        {
-          "field": "tags",
-          "before": [
-            "Artificial Intelligence",
-            "Consumer",
-            "B2B",
-            "Productivity",
-            "Search"
-          ],
-          "after": [
-            "Consumer",
-            "B2B",
-            "Productivity",
-            "Search",
-            "AI"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 31176,
-      "name": "Rhizome AI",
-      "slug": "rhizome-ai",
-      "batch": "Winter 2026",
-      "url": "https://www.ycombinator.com/companies/rhizome-ai",
-      "changes": [
-        {
-          "field": "isHiring",
-          "before": true,
-          "after": false
-        }
-      ]
-    },
-    {
-      "id": 31226,
-      "name": "Libra Robotics",
-      "slug": "libra-robotics",
-      "batch": "Summer 2026",
-      "url": "https://www.ycombinator.com/companies/libra-robotics",
-      "changes": [
-        {
-          "field": "tags",
-          "before": [
-            "Hard Tech",
-            "Robotics",
-            "Construction",
-            "Energy",
-            "AI"
-          ],
-          "after": [
-            "Artificial Intelligence",
-            "Hard Tech",
-            "Robotics",
-            "Construction",
-            "Energy"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 31592,
-      "name": "GitCafe",
-      "slug": "gitcafe",
-      "batch": "Summer 2026",
-      "url": "https://www.ycombinator.com/companies/gitcafe",
-      "changes": [
-        {
-          "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/7253a933be3a143635c29e5c657cccd546868c00.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/10ae63bcc494b6d92bd37c0a46800fc12762436c.png"
-        },
-        {
-          "field": "team_size",
-          "before": 1,
-          "after": 2
-        },
-        {
-          "field": "tags",
-          "before": [
-            "Developer Tools",
-            "B2B",
-            "DevOps",
-            "AI"
           ],
           "after": [
             "Artificial Intelligence",
             "Developer Tools",
-            "B2B",
-            "DevOps"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 31923,
-      "name": "tash",
-      "slug": "tash",
-      "batch": "Summer 2026",
-      "url": "https://www.ycombinator.com/companies/tash",
-      "changes": [
-        {
-          "field": "one_liner",
-          "before": "The BlackRock of collectibles",
-          "after": "The S&P of Trading Cards"
-        }
-      ]
-    },
-    {
-      "id": 32520,
-      "name": "Cerenovus",
-      "slug": "cerenovus",
-      "batch": "Summer 2026",
-      "url": "https://www.ycombinator.com/companies/cerenovus",
-      "changes": [
-        {
-          "field": "website",
-          "before": "https://www.cerenovus.ai/",
-          "after": "https://snowstone.ai"
-        },
-        {
-          "field": "one_liner",
-          "before": "AI that finds value creation opportunities across enterprise…",
-          "after": "AI-Driven Value Creation and Margin Expansion for Private Equity"
-        },
-        {
-          "field": "team_size",
-          "before": 5,
-          "after": 0
-        }
-      ]
-    },
-    {
-      "id": 35265,
-      "name": "Hopper",
-      "slug": "hopper",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/hopper",
-      "changes": [
-        {
-          "field": "tags",
-          "before": [
-            "Artificial Intelligence",
             "Infrastructure"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 35289,
+      "name": "ByteAsk",
+      "slug": "byteask",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/byteask",
+      "changes": [
+        {
+          "field": "tags",
+          "before": [
+            "Artificial Intelligence",
+            "Developer Tools",
+            "Generative AI",
+            "SaaS",
+            "Enterprise Software"
           ],
           "after": [
-            "Infrastructure",
+            "Developer Tools",
+            "Generative AI",
+            "SaaS",
+            "Enterprise Software",
             "AI"
           ]
         }
       ]
     },
     {
-      "id": 35292,
-      "name": "Agent Relay",
-      "slug": "agent-relay",
+      "id": 35395,
+      "name": "Workers IO",
+      "slug": "workers-io",
       "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/agent-relay",
+      "url": "https://www.ycombinator.com/companies/workers-io",
       "changes": [
         {
-          "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/cd30717450b2c4e90d7bcd129a9d826c6faaa345.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/819b1618d86a223b725a999a980a27a830ef8441.png"
-        },
-        {
-          "field": "one_liner",
-          "before": "Let your team's coding agents message each other",
-          "after": "Let your teams' coding agents message each other"
+          "field": "tags",
+          "before": [
+            "Developer Tools",
+            "B2B",
+            "Infrastructure",
+            "AI"
+          ],
+          "after": [
+            "Artificial Intelligence",
+            "Developer Tools",
+            "B2B",
+            "Infrastructure"
+          ]
         }
       ]
     },
@@ -366,84 +210,33 @@
         {
           "field": "tags",
           "before": [
-            "Artificial Intelligence",
-            "Developer Tools",
-            "B2B",
-            "Workflow Automation",
-            "API"
-          ],
-          "after": [
             "Developer Tools",
             "B2B",
             "Workflow Automation",
             "API",
             "AI"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 37038,
-      "name": "Caveman",
-      "slug": "caveman",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/caveman",
-      "changes": [
-        {
-          "field": "tags",
-          "before": [
-            "Artificial Intelligence",
-            "Developer Tools",
-            "Open Source",
-            "Infrastructure"
           ],
           "after": [
-            "Developer Tools",
-            "Open Source",
-            "Infrastructure",
-            "AI"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 37401,
-      "name": "Theseus Robotics",
-      "slug": "theseus-robotics",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/theseus-robotics",
-      "changes": [
-        {
-          "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/0985c4e6c6734c8e730ab16124ab8ee4c127df5c.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/7e2fc8bde838b206a0f59886a05a00e2d3d89335.png"
-        }
-      ]
-    },
-    {
-      "id": 37896,
-      "name": "Aucert",
-      "slug": "aucert",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/aucert",
-      "changes": [
-        {
-          "field": "team_size",
-          "before": 0,
-          "after": 2
-        },
-        {
-          "field": "tags",
-          "before": [
+            "Artificial Intelligence",
             "Developer Tools",
             "B2B",
-            "AI"
-          ],
-          "after": [
-            "Artificial Intelligence",
-            "Developer Tools",
-            "B2B"
+            "Workflow Automation",
+            "API"
           ]
+        }
+      ]
+    },
+    {
+      "id": 37435,
+      "name": "GrayPass",
+      "slug": "graypass",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/graypass",
+      "changes": [
+        {
+          "field": "one_liner",
+          "before": "Verify that the expected person is in control before key actions.",
+          "after": "Verify the expected person is still in control before sensitive…"
         }
       ]
     }
