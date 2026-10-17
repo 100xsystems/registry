@@ -1,60 +1,103 @@
-# YC Company Changes for 2026-10-16
+# YC Company Changes for 2026-10-17
 
 - Previous total: 6307
 - Current total: 6307
 - Added: 0
 - Removed: 0
-- Updated: 11
+- Updated: 20
 
 
 ## Updated Companies
 
-### [Kalshi](https://www.ycombinator.com/companies/kalshi)
+### [GoCardless](https://www.ycombinator.com/companies/gocardless)
 
 - `stage`: Growth → Early
 
-### [PostHog](https://www.ycombinator.com/companies/posthog)
+### [Loop Health](https://www.ycombinator.com/companies/loop-health)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/7f1b6d1787ae32a7ebc0d417ec6fb8a204a3bbe9.png → https://bookface-images.s3.amazonaws.com/small_logos/ccbd4a516fad6b8adc9892a766f23308db7a6cda.png
+- `stage`: Growth → Early
 
-### [Complif](https://www.ycombinator.com/companies/complif)
+### [Stable](https://www.ycombinator.com/companies/stable)
 
-- `isHiring`: false → true
+- `team_size`: 30 → 60
+- `stage`: Growth → Early
 
-### [Converge](https://www.ycombinator.com/companies/converge)
+### [Ready](https://www.ycombinator.com/companies/ready)
 
-- `team_size`: 6 → 11
+- `one_liner`: Collaborative platform for optimizing regulated utilities such as… → Ensuring AI delivers what people need, when and where they need it,…
+- `team_size`: 60 → 75
+- `industry`: B2B → Government
+- `subindustry`: B2B → Government
+- `tags`: Fintech,SaaS,B2B,Telecommunications → Hardware,Telecommunications,Infrastructure,AI
+- `industries`: B2B → Government
 
-### [Durate](https://www.ycombinator.com/companies/durate)
+### [Rally](https://www.ycombinator.com/companies/rallyuxr)
 
-- `one_liner`: Automated physician scheduling → Self-running physician scheduling
-- `team_size`: 2 → 3
+- `team_size`: 35 → 33
 
-### [Gecko Security](https://www.ycombinator.com/companies/gecko-security)
+### [Velos](https://www.ycombinator.com/companies/velos)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/475ae1459a273ef4827fe78aeed097961151b782.png → https://bookface-images.s3.amazonaws.com/small_logos/45adce9bea5991ec16d5af841bb7bca96948baf2.png
-- `one_liner`: The AI Security Engineer to Find and Fix Vulnerabilities  → Security that understands your company
-- `tags`: SaaS,B2B,Security,Cybersecurity,AI → Artificial Intelligence,SaaS,B2B,Security,Cybersecurity
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/ea18b8898b03249e01295dac0dccb51928c38c2e.png → https://bookface-images.s3.amazonaws.com/small_logos/1521d60e05f3fa5d010d16b7722a46d4fb586f90.png
+- `tags`: Reinforcement Learning,Robotic Process Automation,Insurance,Automation,AI → Artificial Intelligence,Reinforcement Learning,Robotic Process Automation,Insurance,Automation
 
-### [Bron](https://www.ycombinator.com/companies/bron)
+### [Beglaubigt.de](https://www.ycombinator.com/companies/beglaubigtde)
 
-- `one_liner`: TikTok for Sports Trading → TikTok for Sports Betting
-- `tags`: Artificial Intelligence,Sports Tech,Analytics,AI Assistant → Sports Tech,Analytics,AI,AI Assistant
+- `one_liner`: The legal back-office for European founders - the incorporation API… → The legal backoffice for every company. For founders and AI agents.
 
-### [Dialogus](https://www.ycombinator.com/companies/dialogus)
+### [Acrely](https://www.ycombinator.com/companies/acrely)
 
-- `one_liner`: The AI-native contact center → AI agents that learn how your company actually works
+- `status`: Active → Inactive
+
+### [Pally](https://www.ycombinator.com/companies/pally)
+
+- `tags`: Artificial Intelligence,Consumer,B2B,Productivity,Search → Consumer,B2B,Productivity,Search,AI
+
+### [Rhizome AI](https://www.ycombinator.com/companies/rhizome-ai)
+
+- `isHiring`: true → false
+
+### [Libra Robotics](https://www.ycombinator.com/companies/libra-robotics)
+
+- `tags`: Hard Tech,Robotics,Construction,Energy,AI → Artificial Intelligence,Hard Tech,Robotics,Construction,Energy
+
+### [GitCafe](https://www.ycombinator.com/companies/gitcafe)
+
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/7253a933be3a143635c29e5c657cccd546868c00.png → https://bookface-images.s3.amazonaws.com/small_logos/10ae63bcc494b6d92bd37c0a46800fc12762436c.png
+- `team_size`: 1 → 2
+- `tags`: Developer Tools,B2B,DevOps,AI → Artificial Intelligence,Developer Tools,B2B,DevOps
+
+### [tash](https://www.ycombinator.com/companies/tash)
+
+- `one_liner`: The BlackRock of collectibles → The S&P of Trading Cards
 
 ### [Cerenovus](https://www.ycombinator.com/companies/cerenovus)
 
-- `tags`:  → Artificial Intelligence,Finance,Operations
-- `app_video_public`: true → false
+- `website`: https://www.cerenovus.ai/ → https://snowstone.ai
+- `one_liner`: AI that finds value creation opportunities across enterprise… → AI-Driven Value Creation and Margin Expansion for Private Equity
+- `team_size`: 5 → 0
 
-### [Talos](https://www.ycombinator.com/companies/talos-us)
+### [Hopper](https://www.ycombinator.com/companies/hopper)
 
-- `tags`: Deep Learning,IoT,Energy → Artificial Intelligence,Deep Learning,Hardware,IoT,Energy
+- `tags`: Artificial Intelligence,Infrastructure → Infrastructure,AI
 
-### [Polemos Industries](https://www.ycombinator.com/companies/polemos-industries)
+### [Agent Relay](https://www.ycombinator.com/companies/agent-relay)
 
-- `team_size`: 0 → 3
-- `tags`: Defense,AI → Artificial Intelligence,Defense
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/cd30717450b2c4e90d7bcd129a9d826c6faaa345.png → https://bookface-images.s3.amazonaws.com/small_logos/819b1618d86a223b725a999a980a27a830ef8441.png
+- `one_liner`: Let your team's coding agents message each other → Let your teams' coding agents message each other
+
+### [Pomerado](https://www.ycombinator.com/companies/pomerado)
+
+- `tags`: Artificial Intelligence,Developer Tools,B2B,Workflow Automation,API → Developer Tools,B2B,Workflow Automation,API,AI
+
+### [Caveman](https://www.ycombinator.com/companies/caveman)
+
+- `tags`: Artificial Intelligence,Developer Tools,Open Source,Infrastructure → Developer Tools,Open Source,Infrastructure,AI
+
+### [Theseus Robotics](https://www.ycombinator.com/companies/theseus-robotics)
+
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/0985c4e6c6734c8e730ab16124ab8ee4c127df5c.png → https://bookface-images.s3.amazonaws.com/small_logos/7e2fc8bde838b206a0f59886a05a00e2d3d89335.png
+
+### [Aucert](https://www.ycombinator.com/companies/aucert)
+
+- `team_size`: 0 → 2
+- `tags`: Developer Tools,B2B,AI → Artificial Intelligence,Developer Tools,B2B
