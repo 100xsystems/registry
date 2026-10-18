@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-10-17T03:12:26.480Z",
+  "updatedAt": "2026-10-18T03:16:28.589Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -2713,7 +2713,15 @@
       "summary": "Dumping across major versions? A reserved keyword can silently break constraints and policies.\n\n(I consult on PostgreSQL through PGX Inc..)",
       "author": null,
       "publishedAt": "2026-10-17T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9yN",
+      "title": "Christophe Pettus: All Your GUCs in a Row: random_page_cost and seq_page_cost",
+      "link": "https://postgr.es/p/9yN",
+      "summary": "The planner charges `random_page_cost` per index page based on how uncorrelated the index is—but the name lies.\n\n(I consult on PostgreSQL through PGX Inc..)",
+      "author": null,
+      "publishedAt": "2026-10-18T01:00:00.000Z"
     }
   ],
-  "totalIndexed": 338
+  "totalIndexed": 339
 }
