@@ -1,131 +1,82 @@
 {
   "date": "2026-10-18",
-  "fetchedAt": "2026-10-18T10:43:52.466Z",
+  "fetchedAt": "2026-10-18T15:26:37.503Z",
   "previousCount": 6306,
   "currentCount": 6306,
   "added": [],
   "removed": [],
   "updated": [
     {
-      "id": 802,
-      "name": "Cleanly",
-      "slug": "cleanly",
-      "batch": "Winter 2015",
-      "url": "https://www.ycombinator.com/companies/cleanly",
+      "id": 1527,
+      "name": "Nomba",
+      "slug": "nomba",
+      "batch": "Winter 2017",
+      "url": "https://www.ycombinator.com/companies/nomba",
       "changes": [
+        {
+          "field": "one_liner",
+          "before": "Banking and payments for businesses in Africa",
+          "after": "Global Business Banking for Africa's Ambitious Businesses."
+        },
         {
           "field": "team_size",
-          "before": 40,
-          "after": 200
-        }
-      ]
-    },
-    {
-      "id": 27664,
-      "name": "Infisical",
-      "slug": "infisical",
-      "batch": "Winter 2023",
-      "url": "https://www.ycombinator.com/companies/infisical",
-      "changes": [
+          "before": 200,
+          "after": 350
+        },
+        {
+          "field": "subindustry",
+          "before": "Fintech -> Payments",
+          "after": "Fintech"
+        },
+        {
+          "field": "tags",
+          "before": [
+            "Fintech"
+          ],
+          "after": [
+            "Fintech",
+            "Neobank"
+          ]
+        },
+        {
+          "field": "industries",
+          "before": [
+            "Fintech",
+            "Payments"
+          ],
+          "after": [
+            "Fintech"
+          ]
+        },
         {
           "field": "stage",
-          "before": "Early",
-          "after": "Growth"
+          "before": "Growth",
+          "after": "Early"
         }
       ]
     },
     {
-      "id": 31455,
-      "name": "tday.com",
-      "slug": "tdaycom",
+      "id": 31326,
+      "name": "Klarify",
+      "slug": "klarify",
       "batch": "Spring 2026",
-      "url": "https://www.ycombinator.com/companies/tdaycom",
+      "url": "https://www.ycombinator.com/companies/klarify",
       "changes": [
         {
-          "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/9d0a0c041aba138ec10680007f17d9a6a80deb12.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/d434bfe79a0737da7ae10fe268d7778546fdd689.png"
-        }
-      ]
-    },
-    {
-      "id": 35751,
-      "name": "Rystic",
-      "slug": "rystic",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/rystic",
-      "changes": [
-        {
-          "field": "tags",
-          "before": [
-            "Developer Tools",
-            "B2B",
-            "Enterprise Software",
-            "AI"
-          ],
-          "after": [
-            "Artificial Intelligence",
-            "Developer Tools",
-            "B2B",
-            "Enterprise Software"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 36016,
-      "name": "Pomerado",
-      "slug": "pomerado",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/pomerado",
-      "changes": [
-        {
-          "field": "tags",
-          "before": [
-            "Artificial Intelligence",
-            "Developer Tools",
-            "B2B",
-            "Workflow Automation",
-            "API"
-          ],
-          "after": [
-            "Developer Tools",
-            "B2B",
-            "Workflow Automation",
-            "API",
-            "AI"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 37864,
-      "name": "OpenHack",
-      "slug": "openhack",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/openhack",
-      "changes": [
-        {
-          "field": "tags",
-          "before": [
-            "DevSecOps",
-            "Cybersecurity",
-            "AI"
-          ],
-          "after": [
-            "Artificial Intelligence",
-            "DevSecOps",
-            "Cybersecurity"
-          ]
+          "field": "all_locations",
+          "before": "San Francisco, CA, USA",
+          "after": "Toronto, ON, Canada"
         },
         {
           "field": "regions",
           "before": [
             "United States of America",
-            "America / Canada"
+            "America / Canada",
+            "Remote",
+            "Partly Remote"
           ],
           "after": [
-            "United States of America",
+            "Canada",
             "America / Canada",
             "Remote",
             "Partly Remote"
