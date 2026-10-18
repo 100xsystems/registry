@@ -1,6 +1,6 @@
 {
   "date": "2026-10-18",
-  "fetchedAt": "2026-10-18T15:26:37.503Z",
+  "fetchedAt": "2026-10-18T19:55:28.547Z",
   "previousCount": 6306,
   "currentCount": 6306,
   "added": [],
@@ -15,57 +15,71 @@
       "changes": [
         {
           "field": "one_liner",
-          "before": "Banking and payments for businesses in Africa",
-          "after": "Global Business Banking for Africa's Ambitious Businesses."
+          "before": "Global Business Banking for Africa's Ambitious Businesses.",
+          "after": "Banking and payments for businesses in Africa"
         },
         {
           "field": "team_size",
-          "before": 200,
-          "after": 350
+          "before": 350,
+          "after": 200
         },
         {
           "field": "subindustry",
-          "before": "Fintech -> Payments",
-          "after": "Fintech"
+          "before": "Fintech",
+          "after": "Fintech -> Payments"
         },
         {
           "field": "tags",
           "before": [
-            "Fintech"
-          ],
-          "after": [
             "Fintech",
             "Neobank"
+          ],
+          "after": [
+            "Fintech"
           ]
         },
         {
           "field": "industries",
           "before": [
-            "Fintech",
-            "Payments"
+            "Fintech"
           ],
           "after": [
-            "Fintech"
+            "Fintech",
+            "Payments"
           ]
         },
         {
           "field": "stage",
-          "before": "Growth",
-          "after": "Early"
+          "before": "Early",
+          "after": "Growth"
         }
       ]
     },
     {
-      "id": 31326,
-      "name": "Klarify",
-      "slug": "klarify",
-      "batch": "Spring 2026",
-      "url": "https://www.ycombinator.com/companies/klarify",
+      "id": 12259,
+      "name": "Pulse Active Stations Network",
+      "slug": "pulse-active-stations-network",
+      "batch": "Winter 2019",
+      "url": "https://www.ycombinator.com/companies/pulse-active-stations-network",
+      "changes": [
+        {
+          "field": "all_locations",
+          "before": "India",
+          "after": "Hyderabad, Telangana, India; India"
+        }
+      ]
+    },
+    {
+      "id": 25522,
+      "name": "Unlayer",
+      "slug": "unlayer",
+      "batch": "Winter 2022",
+      "url": "https://www.ycombinator.com/companies/unlayer",
       "changes": [
         {
           "field": "all_locations",
           "before": "San Francisco, CA, USA",
-          "after": "Toronto, ON, Canada"
+          "after": "Dubai, Dubai, United Arab Emirates"
         },
         {
           "field": "regions",
@@ -76,10 +90,239 @@
             "Partly Remote"
           ],
           "after": [
-            "Canada",
+            "United Arab Emirates",
+            "Middle East and North Africa",
+            "Remote",
+            "Partly Remote"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 25714,
+      "name": "Strong Compute",
+      "slug": "strong-compute",
+      "batch": "Winter 2022",
+      "url": "https://www.ycombinator.com/companies/strong-compute",
+      "changes": [
+        {
+          "field": "all_locations",
+          "before": "Sydney, NSW, Australia",
+          "after": "Merritt Island, FL, USA; Sydney, NSW, Australia"
+        },
+        {
+          "field": "regions",
+          "before": [
+            "Australia",
+            "Oceania",
+            "Remote",
+            "Partly Remote"
+          ],
+          "after": [
+            "United States of America",
+            "Australia",
+            "America / Canada",
+            "Oceania",
+            "Remote",
+            "Partly Remote"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 29002,
+      "name": "Envelope",
+      "slug": "envelope",
+      "batch": "Summer 2023",
+      "url": "https://www.ycombinator.com/companies/envelope",
+      "changes": [
+        {
+          "field": "all_locations",
+          "before": "San Francisco, CA, USA",
+          "after": "Phoenix, AZ, USA"
+        }
+      ]
+    },
+    {
+      "id": 29073,
+      "name": "Terracotta AI",
+      "slug": "terracotta-ai",
+      "batch": "Summer 2023",
+      "url": "https://www.ycombinator.com/companies/terracotta-ai",
+      "changes": [
+        {
+          "field": "all_locations",
+          "before": "",
+          "after": "Las Vegas, NV, USA"
+        },
+        {
+          "field": "regions",
+          "before": [
+            "Remote",
+            "Partly Remote"
+          ],
+          "after": [
+            "United States of America",
             "America / Canada",
             "Remote",
             "Partly Remote"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 29420,
+      "name": "Alai",
+      "slug": "alai",
+      "batch": "Winter 2024",
+      "url": "https://www.ycombinator.com/companies/alai",
+      "changes": [
+        {
+          "field": "all_locations",
+          "before": "",
+          "after": "San Francisco, CA, USA"
+        },
+        {
+          "field": "regions",
+          "before": [
+            "Unspecified"
+          ],
+          "after": [
+            "United States of America",
+            "America / Canada"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 30476,
+      "name": "Nomi",
+      "slug": "nomi",
+      "batch": "Spring 2025",
+      "url": "https://www.ycombinator.com/companies/nomi",
+      "changes": [
+        {
+          "field": "all_locations",
+          "before": "Paris, Île-de-France, France; Remote",
+          "after": "San Francisco, CA, USA; Remote"
+        },
+        {
+          "field": "regions",
+          "before": [
+            "France",
+            "Europe",
+            "Remote",
+            "Fully Remote"
+          ],
+          "after": [
+            "United States of America",
+            "America / Canada",
+            "Remote",
+            "Fully Remote"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 31080,
+      "name": "Didit",
+      "slug": "didit",
+      "batch": "Winter 2026",
+      "url": "https://www.ycombinator.com/companies/didit",
+      "changes": [
+        {
+          "field": "all_locations",
+          "before": "San Francisco, CA, USA",
+          "after": "CT, Spain"
+        },
+        {
+          "field": "regions",
+          "before": [
+            "United States of America",
+            "America / Canada",
+            "Remote",
+            "Partly Remote"
+          ],
+          "after": [
+            "Spain",
+            "Europe",
+            "Remote",
+            "Partly Remote"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 31413,
+      "name": "Arga Labs",
+      "slug": "arga-labs",
+      "batch": "Spring 2026",
+      "url": "https://www.ycombinator.com/companies/arga-labs",
+      "changes": [
+        {
+          "field": "all_locations",
+          "before": "San Francisco, CA, USA",
+          "after": "Vancouver, BC, Canada"
+        },
+        {
+          "field": "regions",
+          "before": [
+            "United States of America",
+            "America / Canada"
+          ],
+          "after": [
+            "Canada",
+            "America / Canada"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 31424,
+      "name": "Lab0",
+      "slug": "lab0",
+      "batch": "Spring 2026",
+      "url": "https://www.ycombinator.com/companies/lab0",
+      "changes": [
+        {
+          "field": "all_locations",
+          "before": "San Francisco, CA, USA",
+          "after": "Bengaluru, KA, India"
+        },
+        {
+          "field": "regions",
+          "before": [
+            "United States of America",
+            "America / Canada"
+          ],
+          "after": [
+            "India",
+            "South Asia"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 31563,
+      "name": "Thomas",
+      "slug": "thomas",
+      "batch": "Spring 2026",
+      "url": "https://www.ycombinator.com/companies/thomas",
+      "changes": [
+        {
+          "field": "all_locations",
+          "before": "San Francisco, CA, USA",
+          "after": "Medellín, Antioquia, Colombia"
+        },
+        {
+          "field": "regions",
+          "before": [
+            "United States of America",
+            "America / Canada"
+          ],
+          "after": [
+            "Colombia",
+            "Latin America"
           ]
         }
       ]
