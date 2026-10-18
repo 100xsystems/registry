@@ -1,51 +1,25 @@
 {
   "date": "2026-10-18",
-  "fetchedAt": "2026-10-18T03:16:48.216Z",
-  "previousCount": 6307,
+  "fetchedAt": "2026-10-18T10:43:52.466Z",
+  "previousCount": 6306,
   "currentCount": 6306,
   "added": [],
-  "removed": [
-    {
-      "id": 31106,
-      "name": "Protent",
-      "slug": "protent",
-      "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/08fe208eabd322adf04efcdf91f3bf0f7efc1a4a.png",
-      "website": "https://protent.ai",
-      "all_locations": "San Francisco, CA, USA",
-      "long_description": "We provide real-time video intelligence that identifies escalating incidents as they unfold. Protent detects early escalation patterns and predictive threat signals, giving security teams the immediate context they need to prioritize alerts and intervene before situations spiral out of control.",
-      "one_liner": "Real time intelligence for law enforcement & security teams.",
-      "team_size": 2,
-      "highlight_black": false,
-      "highlight_latinx": false,
-      "highlight_women": false,
-      "industry": "B2B",
-      "subindustry": "B2B -> Security",
-      "launched_at": 1767579587,
-      "tags": [],
-      "tags_highlighted": [],
-      "top_company": false,
-      "isHiring": false,
-      "nonprofit": false,
-      "batch": "Winter 2026",
-      "status": "Active",
-      "industries": [
-        "B2B",
-        "Security"
-      ],
-      "regions": [
-        "United States of America",
-        "America / Canada"
-      ],
-      "stage": "Early",
-      "app_video_public": false,
-      "demo_day_video_public": false,
-      "app_answers": null,
-      "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/protent"
-    }
-  ],
+  "removed": [],
   "updated": [
+    {
+      "id": 802,
+      "name": "Cleanly",
+      "slug": "cleanly",
+      "batch": "Winter 2015",
+      "url": "https://www.ycombinator.com/companies/cleanly",
+      "changes": [
+        {
+          "field": "team_size",
+          "before": 40,
+          "after": 200
+        }
+      ]
+    },
     {
       "id": 27664,
       "name": "Infisical",
@@ -54,196 +28,23 @@
       "url": "https://www.ycombinator.com/companies/infisical",
       "changes": [
         {
-          "field": "one_liner",
-          "before": "Unified platform for secrets, certs, and privileged access management",
-          "after": "Security infrastructure for developers and agents"
-        },
-        {
-          "field": "team_size",
-          "before": 50,
-          "after": 70
-        },
-        {
           "field": "stage",
-          "before": "Growth",
-          "after": "Early"
+          "before": "Early",
+          "after": "Growth"
         }
       ]
     },
     {
-      "id": 29568,
-      "name": "Augment Inc.",
-      "slug": "augment-inc",
-      "batch": "Summer 2024",
-      "url": "https://www.ycombinator.com/companies/augment-inc",
-      "changes": [
-        {
-          "field": "name",
-          "before": "Roger",
-          "after": "Augment Inc."
-        },
-        {
-          "field": "slug",
-          "before": "roger-2",
-          "after": "augment-inc"
-        },
-        {
-          "field": "former_names",
-          "before": [
-            "CardLift",
-            "Augment Inc.",
-            "Hire Roger"
-          ],
-          "after": [
-            "CardLift",
-            "Augment Inc.",
-            "Hire Roger",
-            "Roger"
-          ]
-        },
-        {
-          "field": "website",
-          "before": "https://hireroger.com",
-          "after": "https://augmentinc.co"
-        },
-        {
-          "field": "one_liner",
-          "before": "Roger is an AI SDR that automates outbound sales and follows up 24/7.",
-          "after": "Everything. All at once."
-        }
-      ]
-    },
-    {
-      "id": 29844,
-      "name": "Oway",
-      "slug": "oway",
-      "batch": "Summer 2024",
-      "url": "https://www.ycombinator.com/companies/oway",
-      "changes": [
-        {
-          "field": "website",
-          "before": "https://www.shipoway.com",
-          "after": "https://www.oway.io"
-        }
-      ]
-    },
-    {
-      "id": 32520,
-      "name": "Snowstone",
-      "slug": "snowstone",
-      "batch": "Summer 2026",
-      "url": "https://www.ycombinator.com/companies/snowstone",
-      "changes": [
-        {
-          "field": "name",
-          "before": "Cerenovus",
-          "after": "Snowstone"
-        },
-        {
-          "field": "slug",
-          "before": "cerenovus",
-          "after": "snowstone"
-        },
-        {
-          "field": "former_names",
-          "before": [],
-          "after": [
-            "Cerenovus"
-          ]
-        },
-        {
-          "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/a13c4ae7edff5a24b83b854a2058c28537c3a533.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/5fd1252bd802d29775f848bb916f4456301ae679.png"
-        },
-        {
-          "field": "tags",
-          "before": [
-            "Artificial Intelligence",
-            "Finance",
-            "Operations"
-          ],
-          "after": [
-            "Finance",
-            "Operations",
-            "AI"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 33023,
-      "name": "Levocred AI",
-      "slug": "levocred-ai",
-      "batch": "Summer 2026",
-      "url": "https://www.ycombinator.com/companies/levocred-ai",
-      "changes": [
-        {
-          "field": "one_liner",
-          "before": "The Bloomberg of Loans",
-          "after": "AI Workforce for lenders"
-        }
-      ]
-    },
-    {
-      "id": 34928,
-      "name": "Boat",
-      "slug": "boat",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/boat",
+      "id": 31455,
+      "name": "tday.com",
+      "slug": "tdaycom",
+      "batch": "Spring 2026",
+      "url": "https://www.ycombinator.com/companies/tdaycom",
       "changes": [
         {
           "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/7ab4963f9bacc76a0a31b94f8773cad5138d2dc3.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/dd00ca6a15fbe23bc8d3447bda9de39006326892.png"
-        }
-      ]
-    },
-    {
-      "id": 35125,
-      "name": "Altair Health",
-      "slug": "altair-health",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/altair-health",
-      "changes": [
-        {
-          "field": "tags",
-          "before": [
-            "Artificial Intelligence",
-            "Health Tech",
-            "Healthcare"
-          ],
-          "after": [
-            "Health Tech",
-            "Healthcare",
-            "AI"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 35258,
-      "name": "Mirrors",
-      "slug": "mirrors",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/mirrors",
-      "changes": [
-        {
-          "field": "tags",
-          "before": [
-            "AIOps",
-            "Developer Tools",
-            "SaaS",
-            "B2B",
-            "AI"
-          ],
-          "after": [
-            "AIOps",
-            "Artificial Intelligence",
-            "Developer Tools",
-            "SaaS",
-            "B2B"
-          ]
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/9d0a0c041aba138ec10680007f17d9a6a80deb12.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/d434bfe79a0737da7ae10fe268d7778546fdd689.png"
         }
       ]
     },
@@ -255,38 +56,43 @@
       "url": "https://www.ycombinator.com/companies/rystic",
       "changes": [
         {
-          "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/1259ed8e91fea5ce7bb3da813020323417f96fae.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/bfa5e505d77a3f64c4f5ed8941cc14f8318a3a34.png"
-        },
-        {
-          "field": "one_liner",
-          "before": "API simulators for testing and training agents locally",
-          "after": "Train models and test agents in high-fidelity simulated environments"
+          "field": "tags",
+          "before": [
+            "Developer Tools",
+            "B2B",
+            "Enterprise Software",
+            "AI"
+          ],
+          "after": [
+            "Artificial Intelligence",
+            "Developer Tools",
+            "B2B",
+            "Enterprise Software"
+          ]
         }
       ]
     },
     {
-      "id": 36643,
-      "name": "Papaya",
-      "slug": "papaya",
+      "id": 36016,
+      "name": "Pomerado",
+      "slug": "pomerado",
       "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/papaya",
+      "url": "https://www.ycombinator.com/companies/pomerado",
       "changes": [
         {
           "field": "tags",
           "before": [
-            "AIOps",
-            "B2B",
-            "Enterprise Software",
-            "Infrastructure",
-            "AI"
-          ],
-          "after": [
-            "AIOps",
+            "Artificial Intelligence",
             "Developer Tools",
             "B2B",
-            "Enterprise Software",
+            "Workflow Automation",
+            "API"
+          ],
+          "after": [
+            "Developer Tools",
+            "B2B",
+            "Workflow Automation",
+            "API",
             "AI"
           ]
         }
@@ -302,14 +108,27 @@
         {
           "field": "tags",
           "before": [
-            "Artificial Intelligence",
-            "DevSecOps",
-            "Cybersecurity"
-          ],
-          "after": [
             "DevSecOps",
             "Cybersecurity",
             "AI"
+          ],
+          "after": [
+            "Artificial Intelligence",
+            "DevSecOps",
+            "Cybersecurity"
+          ]
+        },
+        {
+          "field": "regions",
+          "before": [
+            "United States of America",
+            "America / Canada"
+          ],
+          "after": [
+            "United States of America",
+            "America / Canada",
+            "Remote",
+            "Partly Remote"
           ]
         }
       ]
