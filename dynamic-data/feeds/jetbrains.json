@@ -8,7 +8,7 @@
     "ide",
     "programming-languages"
   ],
-  "updatedAt": "2026-10-16T16:09:20.643Z",
+  "updatedAt": "2026-10-19T03:29:12.467Z",
   "items": [
     {
       "guid": "https://blog.jetbrains.com/?post_type=rscpp&p=725420",
@@ -913,7 +913,15 @@
       "summary": "Junie Local is supported on the NVIDIA RTX Spark from day one, and Windows support moves from experimental to stable. NVIDIA’s RTX Spark platform pairs a Blackwell RTX GPU with a Grace CPU to run larger local AI models in slim laptops and compact desktops. Junie Local leverages this hardware to…",
       "author": "Vladimir Sotnikov",
       "publishedAt": "2026-10-16T13:53:12.000Z"
+    },
+    {
+      "guid": "https://blog.jetbrains.com/?post_type=ai&p=747426",
+      "title": "Can you bake Maven into a neural network?",
+      "link": "https://blog.jetbrains.com/ai/2026/10/can-you-bake-maven-into-a-neural-network/",
+      "summary": "We tried, and it builds. We compiled the decision-making part of a Maven-style build tool into a fixed weight matrix and used it to build a real Java library. The output matches Apache Maven's byte for byte. A clean build with tests took 1.49× as long as the same logic written in Python (95%…",
+      "author": "Denis Shiryaev",
+      "publishedAt": "2026-10-18T16:36:08.000Z"
     }
   ],
-  "totalIndexed": 113
+  "totalIndexed": 114
 }
