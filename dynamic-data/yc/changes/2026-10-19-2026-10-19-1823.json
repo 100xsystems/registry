@@ -1,0 +1,292 @@
+{
+  "date": "2026-10-19",
+  "fetchedAt": "2026-10-19T18:23:19.792Z",
+  "previousCount": 6307,
+  "currentCount": 6309,
+  "added": [
+    {
+      "id": 35126,
+      "name": "Armorer Labs",
+      "slug": "armorer-labs",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/9fd9c58c48b1017644c81d6d495140aab28b5782.png",
+      "website": "https://armorerlabs.com",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "Armorer helps companies in regulated industries ship their own AI agents faster and keep them secure in production.\n\nMost security tools flag an issue and file a ticket. Armorer assesses your agent and simulates attacks to find the real issues. Then it creates a verified fix that stops the attack without breaking the business, ready for your approval in about 4 hours.\n\nIn production, Armorer checks every agent action in milliseconds, with no GPU needed. It detects malicious behavior such as prompt injection, goal hijacking and data leaks, then allows, holds or denies the action.\n\nArmorer's detection models beat every other detector we tested on six public benchmarks. Armorer is 22% more accurate than JEV while being 88x faster, so users won't feel the delay.\n\nWe spent years building and evaluating AI security systems together at AWS, including its first customer-facing AI security agent, which scaled to 100k+ customers. Armorer is backed by Paul Vixie, Internet Hall of Fame inductee and former AWS Deputy CISO.",
+      "one_liner": "Continuous security verification for AI agents in regulated industries",
+      "team_size": 2,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "B2B",
+      "subindustry": "B2B -> Security",
+      "launched_at": 1792423718,
+      "tags": [
+        "Developer Tools",
+        "DevSecOps",
+        "Cybersecurity",
+        "AI"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Fall 2026",
+      "status": "Active",
+      "industries": [
+        "B2B",
+        "Security"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/armorer-labs"
+    },
+    {
+      "id": 37831,
+      "name": "Kairos Health",
+      "slug": "kairos-health",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/2d10a5b9186b6b90521d447c81f5fffdf97d2c25.png",
+      "website": "https://kairoshealthai.com",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "Kairos Health automates patient engagement for dentists by handling phones and insurance.\r\n\r\nKairos plugs into a dental practice's software, calls patients who are overdue for care, and books them directly into the schedule. It also answers every inbound call 24/7 and verifies insurance.\r\n\r\nOur mission is to put practice operations on autopilot and keep every chair filled.",
+      "one_liner": "AI front desk that fills every chair for dental practices",
+      "team_size": 4,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "Healthcare",
+      "subindustry": "Healthcare -> Healthcare IT",
+      "launched_at": 1792433200,
+      "tags": [
+        "SaaS",
+        "Health Tech",
+        "Conversational AI"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Fall 2026",
+      "status": "Active",
+      "industries": [
+        "Healthcare",
+        "Healthcare IT"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/kairos-health"
+    }
+  ],
+  "removed": [],
+  "updated": [
+    {
+      "id": 12640,
+      "name": "KubeSail",
+      "slug": "kubesail",
+      "batch": "Summer 2019",
+      "url": "https://www.ycombinator.com/companies/kubesail",
+      "changes": [
+        {
+          "field": "status",
+          "before": "Active",
+          "after": "Inactive"
+        }
+      ]
+    },
+    {
+      "id": 22826,
+      "name": "FifthTry",
+      "slug": "fifthtry",
+      "batch": "Winter 2021",
+      "url": "https://www.ycombinator.com/companies/fifthtry",
+      "changes": [
+        {
+          "field": "status",
+          "before": "Active",
+          "after": "Inactive"
+        }
+      ]
+    },
+    {
+      "id": 25363,
+      "name": "Gym Class",
+      "slug": "gym-class",
+      "batch": "Winter 2022",
+      "url": "https://www.ycombinator.com/companies/gym-class",
+      "changes": [
+        {
+          "field": "small_logo_thumb_url",
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/90fc62ba6240bfed64d6f34df4390cc401252d92.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/e438633e05de663b191967c5704ad238e1070ea1.png"
+        }
+      ]
+    },
+    {
+      "id": 25526,
+      "name": "Complif",
+      "slug": "complif",
+      "batch": "Winter 2022",
+      "url": "https://www.ycombinator.com/companies/complif",
+      "changes": [
+        {
+          "field": "one_liner",
+          "before": "Compliance tools & AI agents for financial companies",
+          "after": "Compliance tools & AI agents for financial entities"
+        },
+        {
+          "field": "team_size",
+          "before": 45,
+          "after": 100
+        },
+        {
+          "field": "tags",
+          "before": [
+            "Fintech",
+            "SaaS",
+            "B2B",
+            "Compliance",
+            "Regtech"
+          ],
+          "after": [
+            "SaaS",
+            "B2B",
+            "Compliance",
+            "Regtech"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 29297,
+      "name": "Eggnog",
+      "slug": "eggnog",
+      "batch": "Winter 2024",
+      "url": "https://www.ycombinator.com/companies/eggnog",
+      "changes": [
+        {
+          "field": "small_logo_thumb_url",
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/b8db4ae69ffa9fe27a2e056c7825fa07368367d7.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/192e30253e4b85adfd668365bd902971b258835c.png"
+        },
+        {
+          "field": "one_liner",
+          "before": "Fun with AI video",
+          "after": "AI-native entertainment"
+        }
+      ]
+    },
+    {
+      "id": 29385,
+      "name": "Hazel",
+      "slug": "hazel-2",
+      "batch": "Winter 2024",
+      "url": "https://www.ycombinator.com/companies/hazel-2",
+      "changes": [
+        {
+          "field": "isHiring",
+          "before": false,
+          "after": true
+        }
+      ]
+    },
+    {
+      "id": 29851,
+      "name": "Diode Computers, Inc.",
+      "slug": "diode-computers-inc",
+      "batch": "Summer 2024",
+      "url": "https://www.ycombinator.com/companies/diode-computers-inc",
+      "changes": [
+        {
+          "field": "stage",
+          "before": "Growth",
+          "after": "Early"
+        }
+      ]
+    },
+    {
+      "id": 30080,
+      "name": "Dexter",
+      "slug": "dexter",
+      "batch": "Fall 2024",
+      "url": "https://www.ycombinator.com/companies/dexter",
+      "changes": [
+        {
+          "field": "isHiring",
+          "before": false,
+          "after": true
+        }
+      ]
+    },
+    {
+      "id": 30095,
+      "name": "Consus",
+      "slug": "consus",
+      "batch": "Fall 2024",
+      "url": "https://www.ycombinator.com/companies/consus",
+      "changes": [
+        {
+          "field": "isHiring",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 31455,
+      "name": "tday.com",
+      "slug": "tdaycom",
+      "batch": "Spring 2026",
+      "url": "https://www.ycombinator.com/companies/tdaycom",
+      "changes": [
+        {
+          "field": "small_logo_thumb_url",
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/d434bfe79a0737da7ae10fe268d7778546fdd689.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/0407fd665b690944a7e3117449a6850bf1f45e9f.png"
+        }
+      ]
+    },
+    {
+      "id": 31494,
+      "name": "RASPIRE",
+      "slug": "raspire",
+      "batch": "Spring 2026",
+      "url": "https://www.ycombinator.com/companies/raspire",
+      "changes": [
+        {
+          "field": "team_size",
+          "before": 3,
+          "after": 5
+        }
+      ]
+    },
+    {
+      "id": 33672,
+      "name": "Grep AI",
+      "slug": "grep-ai",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/grep-ai",
+      "changes": [
+        {
+          "field": "one_liner",
+          "before": "Self-improving agents that automate tedious operational work",
+          "after": "Self-improving agents that automate your growth bottlenecks"
+        }
+      ]
+    }
+  ]
+}

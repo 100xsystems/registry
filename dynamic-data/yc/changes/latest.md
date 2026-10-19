@@ -1,40 +1,66 @@
 # YC Company Changes for 2026-10-19
 
 - Previous total: 6307
-- Current total: 6307
-- Added: 0
+- Current total: 6309
+- Added: 2
 - Removed: 0
-- Updated: 6
+- Updated: 12
 
+
+## Added Companies
+
+- [Armorer Labs](https://www.ycombinator.com/companies/armorer-labs) (Fall 2026) — Continuous security verification for AI agents in regulated industries
+- [Kairos Health](https://www.ycombinator.com/companies/kairos-health) (Fall 2026) — AI front desk that fills every chair for dental practices
 
 ## Updated Companies
 
-### [Nomba](https://www.ycombinator.com/companies/nomba)
+### [KubeSail](https://www.ycombinator.com/companies/kubesail)
 
-- `one_liner`: Banking and payments for businesses in Africa → Global Business Banking for Africa's Ambitious Businesses.
-- `team_size`: 200 → 350
-- `subindustry`: Fintech -> Payments → Fintech
-- `tags`: Fintech → Fintech,Neobank
-- `industries`: Fintech,Payments → Fintech
+- `status`: Active → Inactive
 
-### [Rome AI](https://www.ycombinator.com/companies/rome-ai)
+### [FifthTry](https://www.ycombinator.com/companies/fifthtry)
 
-- `one_liner`: Stealth AI Lab → AI lab in San Francisco
+- `status`: Active → Inactive
 
-### [Raven](https://www.ycombinator.com/companies/raven)
+### [Gym Class](https://www.ycombinator.com/companies/gym-class)
+
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/90fc62ba6240bfed64d6f34df4390cc401252d92.png → https://bookface-images.s3.amazonaws.com/small_logos/e438633e05de663b191967c5704ad238e1070ea1.png
+
+### [Complif](https://www.ycombinator.com/companies/complif)
+
+- `one_liner`: Compliance tools & AI agents for financial companies → Compliance tools & AI agents for financial entities
+- `team_size`: 45 → 100
+- `tags`: Fintech,SaaS,B2B,Compliance,Regtech → SaaS,B2B,Compliance,Regtech
+
+### [Eggnog](https://www.ycombinator.com/companies/eggnog)
+
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/b8db4ae69ffa9fe27a2e056c7825fa07368367d7.png → https://bookface-images.s3.amazonaws.com/small_logos/192e30253e4b85adfd668365bd902971b258835c.png
+- `one_liner`: Fun with AI video → AI-native entertainment
+
+### [Hazel](https://www.ycombinator.com/companies/hazel-2)
+
+- `isHiring`: false → true
+
+### [Diode Computers, Inc.](https://www.ycombinator.com/companies/diode-computers-inc)
+
+- `stage`: Growth → Early
+
+### [Dexter](https://www.ycombinator.com/companies/dexter)
+
+- `isHiring`: false → true
+
+### [Consus](https://www.ycombinator.com/companies/consus)
 
 - `isHiring`: true → false
 
-### [Floracene](https://www.ycombinator.com/companies/floracene)
+### [tday.com](https://www.ycombinator.com/companies/tdaycom)
 
-- `isHiring`: true → false
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/d434bfe79a0737da7ae10fe268d7778546fdd689.png → https://bookface-images.s3.amazonaws.com/small_logos/0407fd665b690944a7e3117449a6850bf1f45e9f.png
 
-### [Lantern AI](https://www.ycombinator.com/companies/lantern-ai)
+### [RASPIRE](https://www.ycombinator.com/companies/raspire)
 
-- `website`: https://www.lantern.md → https://lantern.md
+- `team_size`: 3 → 5
 
-### [Vorelios](https://www.ycombinator.com/companies/vorelios)
+### [Grep AI](https://www.ycombinator.com/companies/grep-ai)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/c02b36f4ca2283601c8f20e89597a38768ae9db9.png → https://bookface-images.s3.amazonaws.com/small_logos/511019d13a19f348d6a7c3fc8a084d6b838d2243.png
-- `subindustry`: B2B → B2B -> Engineering, Product and Design
-- `industries`: B2B → B2B,Engineering, Product and Design
+- `one_liner`: Self-improving agents that automate tedious operational work → Self-improving agents that automate your growth bottlenecks

@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-10-18T03:16:28.589Z",
+  "updatedAt": "2026-10-19T18:23:03.803Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -2721,7 +2721,39 @@
       "summary": "The planner charges `random_page_cost` per index page based on how uncorrelated the index is—but the name lies.\n\n(I consult on PostgreSQL through PGX Inc..)",
       "author": null,
       "publishedAt": "2026-10-18T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9z2",
+      "title": "Devrim GÜNDÜZ: Every package in the PostgreSQL RPM repositories now has a page",
+      "link": "https://postgr.es/p/9z2",
+      "summary": "For years, https://yum.postgresql.org and https://zypp.postgresql.org have had documentation pages for the extensions we package. But the PGDG repositories hold much more than PostgreSQL and its extensions: backup tools, high availability managers, connection poolers, monitoring tools, drivers,…",
+      "author": null,
+      "publishedAt": "2026-10-19T17:08:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9z1",
+      "title": "Tom Kincaid: PostgreSQL 19: What Changed, What Matters, and What to Test Now",
+      "link": "https://postgr.es/p/9z1",
+      "summary": "With the first release candidate available, PostgreSQL 19 brings practical advances in database maintenance, query planning, and replication.",
+      "author": null,
+      "publishedAt": "2026-10-19T00:09:46.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9z0",
+      "title": "Vadim Yatsenko: Awide Labs open-sources Awide Polar: a PostgreSQL fork with compute-storage disaggregation and HTAP capabilities",
+      "link": "https://postgr.es/p/9z0",
+      "summary": "Awide Labs releases Awide Polar, its PostgreSQL fork with compute-storage disaggregation and HTAP capabilities, alongside enhanced PolarFS storage and Polar Proxy for consistent replica reads.",
+      "author": null,
+      "publishedAt": "2026-10-19T00:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9yZ",
+      "title": "Stefanie Janine Stölting: pgsql_tweaks Version 1.1.0 Released",
+      "link": "https://postgr.es/p/9yZ",
+      "summary": "pgsql_tweaks is a bundle of functions and views for PostgreSQL\nChanges In The pgsql_tweaks 1.1.0 Release\npgsql_tweaks is a bundle of functions and views for PostgreSQL\nThe source code is available on Codeberg.\nThe extension is also available on PGXN.\nThe extension is also availabe through the…",
+      "author": null,
+      "publishedAt": "2026-10-18T22:00:00.000Z"
     }
   ],
-  "totalIndexed": 339
+  "totalIndexed": 343
 }

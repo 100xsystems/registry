@@ -9,7 +9,7 @@
     "performance",
     "edge-computing"
   ],
-  "updatedAt": "2026-10-16T16:09:10.804Z",
+  "updatedAt": "2026-10-19T18:23:03.479Z",
   "items": [
     {
       "guid": "01KY2432VQPD5FTF2RARXXYQGH",
@@ -62258,7 +62258,23 @@
       "summary": "Identity alone doesn't guarantee a bot will behave responsibly. We are introducing a system to continuously evaluate whether Verified bots honor site preferences, like robots.txt and HTTP 429s, ensuring they remain accountable over time.",
       "author": "Chris Tsoukaladelis",
       "publishedAt": "2026-10-16T13:00:00.000Z"
+    },
+    {
+      "guid": "01M5AKCKW0449M3Q6FW10XB4K3",
+      "title": "Introducing Clairic, a new System One class of extraction models",
+      "link": "https://blog.cloudflare.com/clairic-extraction-model/",
+      "summary": "Add your teaser here. It should complement the headline, not repeat it. Teaser cannot be longer than 240 characters. The Blog Review Gem will suggest an excerpt.\nClairic is a new model from Cloudflare that is a System One extraction modeI, capable of extracting, computing, estimating, and…",
+      "author": "Alex Reneau",
+      "publishedAt": "2026-10-19T17:48:26.000Z"
+    },
+    {
+      "guid": "01M537RHECVHNJPV12N2E54ZR7",
+      "title": "Beyond the patch: Protecting your NetScaler gateway against future vulnerabilities",
+      "link": "https://blog.cloudflare.com/protect-your-netscaler-gateway/",
+      "summary": "CVE-2026-88771 lets attackers run commands on NetScaler Gateway before anyone signs in. Patching takes time most teams don't have, so the sign-in decision has to move in front of the vulnerable code.",
+      "author": "Grant Bourzikas",
+      "publishedAt": "2026-10-19T13:00:00.000Z"
     }
   ],
-  "totalIndexed": 7781
+  "totalIndexed": 7783
 }
