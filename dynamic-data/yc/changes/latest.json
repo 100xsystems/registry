@@ -1,31 +1,30 @@
 {
   "date": "2026-10-19",
-  "fetchedAt": "2026-10-19T18:23:19.792Z",
-  "previousCount": 6307,
-  "currentCount": 6309,
+  "fetchedAt": "2026-10-19T21:54:05.767Z",
+  "previousCount": 6309,
+  "currentCount": 6310,
   "added": [
     {
-      "id": 35126,
-      "name": "Armorer Labs",
-      "slug": "armorer-labs",
+      "id": 36213,
+      "name": "Yam",
+      "slug": "yam",
       "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/9fd9c58c48b1017644c81d6d495140aab28b5782.png",
-      "website": "https://armorerlabs.com",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c297c8850d0327ee68a350cb20ee3ca0b6946537.png",
+      "website": "https://hiyam.ai/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Armorer helps companies in regulated industries ship their own AI agents faster and keep them secure in production.\n\nMost security tools flag an issue and file a ticket. Armorer assesses your agent and simulates attacks to find the real issues. Then it creates a verified fix that stops the attack without breaking the business, ready for your approval in about 4 hours.\n\nIn production, Armorer checks every agent action in milliseconds, with no GPU needed. It detects malicious behavior such as prompt injection, goal hijacking and data leaks, then allows, holds or denies the action.\n\nArmorer's detection models beat every other detector we tested on six public benchmarks. Armorer is 22% more accurate than JEV while being 88x faster, so users won't feel the delay.\n\nWe spent years building and evaluating AI security systems together at AWS, including its first customer-facing AI security agent, which scaled to 100k+ customers. Armorer is backed by Paul Vixie, Internet Hall of Fame inductee and former AWS Deputy CISO.",
-      "one_liner": "Continuous security verification for AI agents in regulated industries",
-      "team_size": 2,
+      "long_description": "Yam simulates a Love Island–style dating experience for women, starring their favorite characters. Avg playtime per DAU is 3+ hrs! ",
+      "one_liner": "AI-powered dating sims for women",
+      "team_size": 3,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
-      "industry": "B2B",
-      "subindustry": "B2B -> Security",
-      "launched_at": 1792423718,
+      "industry": "Consumer",
+      "subindustry": "Consumer",
+      "launched_at": 1786600319,
       "tags": [
-        "Developer Tools",
-        "DevSecOps",
-        "Cybersecurity",
-        "AI"
+        "Generative AI",
+        "Gaming",
+        "Creator Economy"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -34,8 +33,7 @@
       "batch": "Fall 2026",
       "status": "Active",
       "industries": [
-        "B2B",
-        "Security"
+        "Consumer"
       ],
       "regions": [
         "United States of America",
@@ -46,156 +44,17 @@
       "demo_day_video_public": false,
       "app_answers": null,
       "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/armorer-labs"
-    },
-    {
-      "id": 37831,
-      "name": "Kairos Health",
-      "slug": "kairos-health",
-      "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/2d10a5b9186b6b90521d447c81f5fffdf97d2c25.png",
-      "website": "https://kairoshealthai.com",
-      "all_locations": "San Francisco, CA, USA",
-      "long_description": "Kairos Health automates patient engagement for dentists by handling phones and insurance.\r\n\r\nKairos plugs into a dental practice's software, calls patients who are overdue for care, and books them directly into the schedule. It also answers every inbound call 24/7 and verifies insurance.\r\n\r\nOur mission is to put practice operations on autopilot and keep every chair filled.",
-      "one_liner": "AI front desk that fills every chair for dental practices",
-      "team_size": 4,
-      "highlight_black": false,
-      "highlight_latinx": false,
-      "highlight_women": false,
-      "industry": "Healthcare",
-      "subindustry": "Healthcare -> Healthcare IT",
-      "launched_at": 1792433200,
-      "tags": [
-        "SaaS",
-        "Health Tech",
-        "Conversational AI"
-      ],
-      "tags_highlighted": [],
-      "top_company": false,
-      "isHiring": false,
-      "nonprofit": false,
-      "batch": "Fall 2026",
-      "status": "Active",
-      "industries": [
-        "Healthcare",
-        "Healthcare IT"
-      ],
-      "regions": [
-        "United States of America",
-        "America / Canada"
-      ],
-      "stage": "Early",
-      "app_video_public": false,
-      "demo_day_video_public": false,
-      "app_answers": null,
-      "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/kairos-health"
+      "url": "https://www.ycombinator.com/companies/yam"
     }
   ],
   "removed": [],
   "updated": [
     {
-      "id": 12640,
-      "name": "KubeSail",
-      "slug": "kubesail",
-      "batch": "Summer 2019",
-      "url": "https://www.ycombinator.com/companies/kubesail",
-      "changes": [
-        {
-          "field": "status",
-          "before": "Active",
-          "after": "Inactive"
-        }
-      ]
-    },
-    {
-      "id": 22826,
-      "name": "FifthTry",
-      "slug": "fifthtry",
-      "batch": "Winter 2021",
-      "url": "https://www.ycombinator.com/companies/fifthtry",
-      "changes": [
-        {
-          "field": "status",
-          "before": "Active",
-          "after": "Inactive"
-        }
-      ]
-    },
-    {
-      "id": 25363,
-      "name": "Gym Class",
-      "slug": "gym-class",
-      "batch": "Winter 2022",
-      "url": "https://www.ycombinator.com/companies/gym-class",
-      "changes": [
-        {
-          "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/90fc62ba6240bfed64d6f34df4390cc401252d92.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/e438633e05de663b191967c5704ad238e1070ea1.png"
-        }
-      ]
-    },
-    {
-      "id": 25526,
-      "name": "Complif",
-      "slug": "complif",
-      "batch": "Winter 2022",
-      "url": "https://www.ycombinator.com/companies/complif",
-      "changes": [
-        {
-          "field": "one_liner",
-          "before": "Compliance tools & AI agents for financial companies",
-          "after": "Compliance tools & AI agents for financial entities"
-        },
-        {
-          "field": "team_size",
-          "before": 45,
-          "after": 100
-        },
-        {
-          "field": "tags",
-          "before": [
-            "Fintech",
-            "SaaS",
-            "B2B",
-            "Compliance",
-            "Regtech"
-          ],
-          "after": [
-            "SaaS",
-            "B2B",
-            "Compliance",
-            "Regtech"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 29297,
-      "name": "Eggnog",
-      "slug": "eggnog",
-      "batch": "Winter 2024",
-      "url": "https://www.ycombinator.com/companies/eggnog",
-      "changes": [
-        {
-          "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/b8db4ae69ffa9fe27a2e056c7825fa07368367d7.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/192e30253e4b85adfd668365bd902971b258835c.png"
-        },
-        {
-          "field": "one_liner",
-          "before": "Fun with AI video",
-          "after": "AI-native entertainment"
-        }
-      ]
-    },
-    {
-      "id": 29385,
-      "name": "Hazel",
-      "slug": "hazel-2",
-      "batch": "Winter 2024",
-      "url": "https://www.ycombinator.com/companies/hazel-2",
+      "id": 28976,
+      "name": "Bolto",
+      "slug": "bolto",
+      "batch": "Summer 2023",
+      "url": "https://www.ycombinator.com/companies/bolto",
       "changes": [
         {
           "field": "isHiring",
@@ -205,39 +64,11 @@
       ]
     },
     {
-      "id": 29851,
-      "name": "Diode Computers, Inc.",
-      "slug": "diode-computers-inc",
-      "batch": "Summer 2024",
-      "url": "https://www.ycombinator.com/companies/diode-computers-inc",
-      "changes": [
-        {
-          "field": "stage",
-          "before": "Growth",
-          "after": "Early"
-        }
-      ]
-    },
-    {
-      "id": 30080,
-      "name": "Dexter",
-      "slug": "dexter",
-      "batch": "Fall 2024",
-      "url": "https://www.ycombinator.com/companies/dexter",
-      "changes": [
-        {
-          "field": "isHiring",
-          "before": false,
-          "after": true
-        }
-      ]
-    },
-    {
-      "id": 30095,
-      "name": "Consus",
-      "slug": "consus",
-      "batch": "Fall 2024",
-      "url": "https://www.ycombinator.com/companies/consus",
+      "id": 29317,
+      "name": "CloudCruise",
+      "slug": "cloudcruise",
+      "batch": "Winter 2024",
+      "url": "https://www.ycombinator.com/companies/cloudcruise",
       "changes": [
         {
           "field": "isHiring",
@@ -247,44 +78,263 @@
       ]
     },
     {
-      "id": 31455,
-      "name": "tday.com",
-      "slug": "tdaycom",
-      "batch": "Spring 2026",
-      "url": "https://www.ycombinator.com/companies/tdaycom",
+      "id": 30079,
+      "name": "Moonshine",
+      "slug": "moonshine",
+      "batch": "Fall 2024",
+      "url": "https://www.ycombinator.com/companies/moonshine",
       "changes": [
+        {
+          "field": "name",
+          "before": "Chicory",
+          "after": "Moonshine"
+        },
+        {
+          "field": "slug",
+          "before": "chicory",
+          "after": "moonshine"
+        },
+        {
+          "field": "former_names",
+          "before": [
+            "Moonshine"
+          ],
+          "after": [
+            "Moonshine",
+            "Chicory"
+          ]
+        },
         {
           "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/d434bfe79a0737da7ae10fe268d7778546fdd689.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/0407fd665b690944a7e3117449a6850bf1f45e9f.png"
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/be712cd699fd2b897b2f5250f2ff8e722cfa125f.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/ecc043e2a363eb7efc3c684adfca1d873931cbba.png"
+        },
+        {
+          "field": "website",
+          "before": "https://chicory.so",
+          "after": "https://usemoonshine.com"
+        },
+        {
+          "field": "tags",
+          "before": [
+            "Developer Tools",
+            "Human Resources",
+            "AI"
+          ],
+          "after": [
+            "Developer Tools",
+            "Compliance",
+            "AI"
+          ]
         }
       ]
     },
     {
-      "id": 31494,
-      "name": "RASPIRE",
-      "slug": "raspire",
-      "batch": "Spring 2026",
-      "url": "https://www.ycombinator.com/companies/raspire",
+      "id": 30542,
+      "name": "Linewise",
+      "slug": "linewise",
+      "batch": "Spring 2025",
+      "url": "https://www.ycombinator.com/companies/linewise",
       "changes": [
         {
+          "field": "name",
+          "before": "Vision Lab",
+          "after": "Linewise"
+        },
+        {
+          "field": "slug",
+          "before": "vision-lab",
+          "after": "linewise"
+        },
+        {
+          "field": "former_names",
+          "before": [
+            "Comply Genie",
+            "Vision Nexus",
+            "LineWise"
+          ],
+          "after": [
+            "Comply Genie",
+            "Vision Nexus",
+            "LineWise",
+            "Vision Lab"
+          ]
+        },
+        {
+          "field": "small_logo_thumb_url",
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/f9c8aab3bb47bc9402833acb64276f52de063681.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/2b6523fd3e82e786169b750e69bb81160c422bc6.png"
+        },
+        {
+          "field": "website",
+          "before": "https://thevisionlab.ai/",
+          "after": "https://linewise.io/"
+        },
+        {
+          "field": "one_liner",
+          "before": "Industrial data layer for robotics training",
+          "after": "Industrial data layer for physical RSI"
+        },
+        {
           "field": "team_size",
-          "before": 3,
-          "after": 5
+          "before": 11,
+          "after": 25
         }
       ]
     },
     {
-      "id": 33672,
-      "name": "Grep AI",
-      "slug": "grep-ai",
+      "id": 31378,
+      "name": "GodHands",
+      "slug": "godhands",
       "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/grep-ai",
+      "url": "https://www.ycombinator.com/companies/godhands",
       "changes": [
         {
           "field": "one_liner",
-          "before": "Self-improving agents that automate tedious operational work",
-          "after": "Self-improving agents that automate your growth bottlenecks"
+          "before": "Turn how your team works into playbooks and agents",
+          "after": "Turn how your team works into playbooks and agents."
+        },
+        {
+          "field": "tags",
+          "before": [
+            "B2B",
+            "Workflow Automation",
+            "Enterprise",
+            "Automation",
+            "Operations"
+          ],
+          "after": [
+            "B2B",
+            "Enterprise",
+            "Automation",
+            "Operations",
+            "AI"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 31512,
+      "name": "Aernata",
+      "slug": "aernata",
+      "batch": "Spring 2026",
+      "url": "https://www.ycombinator.com/companies/aernata",
+      "changes": [
+        {
+          "field": "name",
+          "before": "Pentagon",
+          "after": "Aernata"
+        },
+        {
+          "field": "slug",
+          "before": "pentagon",
+          "after": "aernata"
+        },
+        {
+          "field": "former_names",
+          "before": [],
+          "after": [
+            "Pentagon"
+          ]
+        },
+        {
+          "field": "small_logo_thumb_url",
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/668fe720bcb2a436a1056efc2df9c0c22d5922cc.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/ab4158325222f50847060cb687cc1b6c81e65dbc.png"
+        },
+        {
+          "field": "website",
+          "before": "https://pentagon.run",
+          "after": "https://aernata.com"
+        },
+        {
+          "field": "one_liner",
+          "before": "The control plane for agent-native work.",
+          "after": "Making clean methanol out of CO2."
+        },
+        {
+          "field": "team_size",
+          "before": 1,
+          "after": 2
+        },
+        {
+          "field": "industry",
+          "before": "B2B",
+          "after": "Industrials"
+        },
+        {
+          "field": "subindustry",
+          "before": "B2B -> Productivity",
+          "after": "Industrials -> Energy"
+        },
+        {
+          "field": "tags",
+          "before": [],
+          "after": [
+            "Carbon Capture and Removal",
+            "Alternative Fuels",
+            "Climate",
+            "Energy"
+          ]
+        },
+        {
+          "field": "industries",
+          "before": [
+            "B2B",
+            "Productivity"
+          ],
+          "after": [
+            "Industrials",
+            "Energy"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 31591,
+      "name": "RightNow",
+      "slug": "rightnow",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/rightnow",
+      "changes": [
+        {
+          "field": "tags",
+          "before": [],
+          "after": [
+            "Developer Tools",
+            "Generative AI",
+            "Machine Learning",
+            "Infrastructure",
+            "AI"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 32202,
+      "name": "Dialogus",
+      "slug": "dialogus",
+      "batch": "Summer 2026",
+      "url": "https://www.ycombinator.com/companies/dialogus",
+      "changes": [
+        {
+          "field": "one_liner",
+          "before": "AI agents that learn how your company actually works",
+          "after": "voice AI agents that learn how your company actually works"
+        }
+      ]
+    },
+    {
+      "id": 32553,
+      "name": "Nori",
+      "slug": "noril1",
+      "batch": "Summer 2026",
+      "url": "https://www.ycombinator.com/companies/noril1",
+      "changes": [
+        {
+          "field": "isHiring",
+          "before": false,
+          "after": true
         }
       ]
     }

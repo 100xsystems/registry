@@ -9,7 +9,7 @@
     "performance",
     "edge-computing"
   ],
-  "updatedAt": "2026-10-19T18:23:03.479Z",
+  "updatedAt": "2026-10-19T21:53:49.999Z",
   "items": [
     {
       "guid": "01KY2432VQPD5FTF2RARXXYQGH",
@@ -62274,7 +62274,15 @@
       "summary": "CVE-2026-88771 lets attackers run commands on NetScaler Gateway before anyone signs in. Patching takes time most teams don't have, so the sign-in decision has to move in front of the vulnerable code.",
       "author": "Grant Bourzikas",
       "publishedAt": "2026-10-19T13:00:00.000Z"
+    },
+    {
+      "guid": "01M58NMKW6A1DQJNZXH37VZ9JH",
+      "title": "Cutting our inference bill by 68% by being obsessive about optimization",
+      "link": "https://blog.cloudflare.com/obsessive-inference-optimization/",
+      "summary": "When our AI code reviewer's cost per run doubled, we dug into the token usage to find out why. Learn how we used prompt caching and intelligent model routing to slash our inference bill by 68% while speeding up reviews.",
+      "author": "Ryan Skidmore",
+      "publishedAt": "2026-10-19T19:12:53.000Z"
     }
   ],
-  "totalIndexed": 7783
+  "totalIndexed": 7784
 }

@@ -9,7 +9,7 @@
     "performance",
     "distributed-systems"
   ],
-  "updatedAt": "2026-10-16T03:22:23.941Z",
+  "updatedAt": "2026-10-19T21:53:58.290Z",
   "items": [
     {
       "guid": "https://engineering.fb.com/?p=24251",
@@ -23794,7 +23794,31 @@
       "summary": "Ke Mao, Mark Harman, and Yue Jia have been recognized with the ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA) 2026 Most Influential Paper Award for their 2016 research, “Sapienz: multi-objective automated testing for Android applications.” The recognition celebrates a…",
       "author": null,
       "publishedAt": "2026-10-15T16:00:59.000Z"
+    },
+    {
+      "guid": "https://engineering.fb.com/?p=24783",
+      "title": "GenRecs Tokenization: Transforming Ads Recommendation at Meta with Stable Model Vocabulary",
+      "link": "https://engineering.fb.com/2026/10/19/ml-applications/genrecs-tokenization-transforming-ads-recommendation-at-meta-with-stable-model-vocabulary/",
+      "summary": "Generative Recommenders (GenRecs) represent a paradigm shift from scoring every ad to reasoning about ad content and user preferences together in order to predict the best outcome for advertisers. Leveraging the world knowledge built into LLMs makes ad matching more intelligent and precise,…",
+      "author": null,
+      "publishedAt": "2026-10-19T16:00:47.000Z"
+    },
+    {
+      "guid": "https://engineering.fb.com/?p=24724",
+      "title": "The Thin Orchestrator: How We Made Our AI Agents More Reliable by Giving the Router Less to Do",
+      "link": "https://engineering.fb.com/2026/10/19/ml-applications/thin-orchestrator-ai-agent-architecture/",
+      "summary": "Sometimes, giving an AI agent all of the knowledge it needs is the wrong approach.  At Meta, we’ve seen notable improvements in efficiency and accuracy by keeping the orchestration layer of our data pipeline agents deliberately thin: It routes work and enforces reliability checks, while specialized…",
+      "author": null,
+      "publishedAt": "2026-10-19T15:30:37.000Z"
+    },
+    {
+      "guid": "https://engineering.fb.com/?p=24763",
+      "title": "Inside Prometheus: Meta’s Journey to a Gigawatt-Scale Supercluster",
+      "link": "https://engineering.fb.com/2026/10/19/data-center-engineering/inside-prometheus-meta-gigawatt-scale-supercluster/",
+      "summary": "With the recent release of the Muse family of foundational models, we want to take you inside the infrastructure that has made it all possible. The first phase of Prometheus, our gigawatt-scale supercluster, is already complete and we’re working toward scaling it to comprise  ~1 million GPUs.…",
+      "author": null,
+      "publishedAt": "2026-10-19T13:00:10.000Z"
     }
   ],
-  "totalIndexed": 2973
+  "totalIndexed": 2976
 }
