@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-10-20T11:14:14.446Z",
+  "updatedAt": "2026-10-20T16:24:38.750Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -2761,7 +2761,31 @@
       "summary": "A hook that fires exactly once at promotion or restore completion—but the server is neither ready nor recovering while your command runs.\n\n(I consult on PostgreSQL through PGX Inc..)",
       "author": null,
       "publishedAt": "2026-10-20T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9za",
+      "title": "Christophe Pettus: Binary read replicas in PostgreSQL, Part 1",
+      "link": "https://postgr.es/p/9za",
+      "summary": "A read replica is a PostgreSQL server in permanent recovery that accepts queries—and nearly every surprise it causes follows from that fact.\n\n(I consult on PostgreSQL through PGX Inc..)",
+      "author": null,
+      "publishedAt": "2026-10-20T16:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9z9",
+      "title": "Christophe Pettus: All Your GUCs in a Row: recovery_min_apply_delay",
+      "link": "https://postgr.es/p/9z9",
+      "summary": "recovery_min_apply_delay makes a standby late on purpose. For the length of the delay there is a running, queryable copy of your database on which the DELETE without a WHERE clause has not happened yet. That is the whole feature, and it is a good one. The problem is that almost everyone who sets ……",
+      "author": null,
+      "publishedAt": "2026-10-20T13:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9z7",
+      "title": "Pavel Luzanov: PostgreSQL 19: part 5.3 (DBA3 and DBS) of CommitFest 2026-03",
+      "link": "https://postgr.es/p/9z7",
+      "summary": "We’re continuing our review of the March CommitFest for PostgreSQL 19. This third article in the series covers the changes related to our DBA3 and DBS courses.\nAs a reminder, here’s the plan for our coverage of the final PostgreSQL 19 CommitFest:\nPart 5.1 (QPT)\nPart 5.2 (DBA1, DBA2)\nPart 5.3 (DBA3,…",
+      "author": null,
+      "publishedAt": "2026-10-20T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 344
+  "totalIndexed": 347
 }

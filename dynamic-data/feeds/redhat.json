@@ -8,7 +8,7 @@
     "linux",
     "cloud-native"
   ],
-  "updatedAt": "2026-10-19T18:23:03.930Z",
+  "updatedAt": "2026-10-20T16:24:39.258Z",
   "items": [
     {
       "guid": "redhat::https://www.redhat.com/ja/sitemap.xml",
@@ -1753,7 +1753,47 @@
       "summary": "If you're a platform engineer, you've likely lived this: your team has assembled a toolchain for CI/CD, monitoring, security scanning, GitOps, and networking. Each tool does its specific job well, but over time, you realize you’re spending more hours maintaining the integrations between those tools…",
       "author": null,
       "publishedAt": "2026-10-19T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.redhat.com/en/blog/shared-gpus-without-shared-latency-priority-aware-serving-in-red-hat-ai",
+      "title": "Shared GPUs without shared latency: Priority-aware serving in Red Hat AI",
+      "link": "https://www.redhat.com/en/blog/shared-gpus-without-shared-latency-priority-aware-serving-in-red-hat-ai",
+      "summary": "Chat, batch, and agentic traffic can run on the same graphics processing unit (GPU) without the chatbot waiting for the batch job to complete. Built on llm-d flow control and generally available in Red Hat AI 3.5, priority-aware serving decides which request goes first when the pool is full, and…",
+      "author": null,
+      "publishedAt": "2026-10-20T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.redhat.com/en/blog/mlops-edge-ai-managing-ai-models-across-distributed-fleets",
+      "title": "MLOps for edge AI: Managing AI models across distributed fleets",
+      "link": "https://www.redhat.com/en/blog/mlops-edge-ai-managing-ai-models-across-distributed-fleets",
+      "summary": "Deploying AI at the edge is both rewarding and challenging. In previous articles, you've seen how to optimize and package your edge AI models and how to execute them to fulfill common use case requirements at the edge, but there's more.In this article, we'll switch our focus from model and service…",
+      "author": null,
+      "publishedAt": "2026-10-20T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.redhat.com/en/blog/how-delta-air-lines-scaled-ai-native-development-1200-engineers-cloud-development-environments",
+      "title": "How Delta Air Lines scaled AI-native development to 1,200 engineers with cloud development environments",
+      "link": "https://www.redhat.com/en/blog/how-delta-air-lines-scaled-ai-native-development-1200-engineers-cloud-development-environments",
+      "summary": "When Delta Air Lines' Developer Experience team started measuring its Net Promoter Score (NPS), they faced a brutal reality: It was very low. Two years later, after deploying cloud development environments (CDEs) to more than 1,200 developers, that same team achieved:NPS improvement.Performance…",
+      "author": null,
+      "publishedAt": "2026-10-20T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.redhat.com/en/blog/crossing-threshold-dependable-open-source-ai-serving",
+      "title": "Crossing the threshold to dependable open source AI serving",
+      "link": "https://www.redhat.com/en/blog/crossing-threshold-dependable-open-source-ai-serving",
+      "summary": "When large open weight models first captured attention, the industry was faced with a challenge. Powerful open models were becoming available, but technologists lacked an open inference serving system that could run them efficiently. Having spent years building inference engines for CPUs, my team…",
+      "author": null,
+      "publishedAt": "2026-10-20T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.redhat.com/en/blog/building-ai-open-source-way-research-insights-red-hat-and-linux-foundation",
+      "title": "Building AI the open source way: Research insights from Red Hat and the Linux Foundation",
+      "link": "https://www.redhat.com/en/blog/building-ai-open-source-way-research-insights-red-hat-and-linux-foundation",
+      "summary": "The technologies that shape computing don't have to be built behind closed doors. Some of the most important foundations of modern software - from operating systems to cloud infrastructure - have grown through open source, where communities can collaborate, improve the technology, and build on…",
+      "author": null,
+      "publishedAt": "2026-10-20T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 218
+  "totalIndexed": 223
 }

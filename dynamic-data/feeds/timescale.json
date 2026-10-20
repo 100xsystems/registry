@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-10-16T16:09:21.613Z",
+  "updatedAt": "2026-10-20T16:24:48.891Z",
   "items": [
     {
       "guid": "https://www.tigerdata.com/blog/whats-new-in-tiger-cloud",
@@ -175,7 +175,15 @@
       "summary": "Ingest fails suddenly, not gradually. Sample WAL volume, replica lag, and dead tuples every minute, and get one headroom percentage you can alert on.",
       "author": "John Shi",
       "publishedAt": "2026-10-16T12:55:08.000Z"
+    },
+    {
+      "guid": "https://www.tigerdata.com/blog/introducing-searchgres-js-composable-search-postgresql",
+      "title": "Introducing searchgres.js: Composable Search in PostgreSQL",
+      "link": "https://www.tigerdata.com/blog/introducing-searchgres-js-composable-search-postgresql",
+      "summary": "searchgres.js composes BM25, semantic ranking, and filters for hierarchy, metadata, and time in a single Postgres query. Open-source TypeScript, Apache-2.0.",
+      "author": "John Pruitt",
+      "publishedAt": "2026-10-20T13:00:20.000Z"
     }
   ],
-  "totalIndexed": 21
+  "totalIndexed": 22
 }
