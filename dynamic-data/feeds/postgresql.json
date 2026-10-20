@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-10-19T18:23:03.803Z",
+  "updatedAt": "2026-10-20T11:14:14.446Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -2753,7 +2753,15 @@
       "summary": "pgsql_tweaks is a bundle of functions and views for PostgreSQL\nChanges In The pgsql_tweaks 1.1.0 Release\npgsql_tweaks is a bundle of functions and views for PostgreSQL\nThe source code is available on Codeberg.\nThe extension is also available on PGXN.\nThe extension is also availabe through the…",
       "author": null,
       "publishedAt": "2026-10-18T22:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9z6",
+      "title": "Christophe Pettus: All Your GUCs in a Row: recovery_end_command",
+      "link": "https://postgr.es/p/9z6",
+      "summary": "A hook that fires exactly once at promotion or restore completion—but the server is neither ready nor recovering while your command runs.\n\n(I consult on PostgreSQL through PGX Inc..)",
+      "author": null,
+      "publishedAt": "2026-10-20T01:00:00.000Z"
     }
   ],
-  "totalIndexed": 343
+  "totalIndexed": 344
 }

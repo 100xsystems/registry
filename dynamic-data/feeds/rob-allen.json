@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-10-05T14:10:08.607Z",
+  "updatedAt": "2026-10-20T11:14:23.615Z",
   "items": [
     {
       "guid": "https://akrabat.com/?p=7569",
@@ -95,7 +95,15 @@
       "summary": "Last week I attended FOST London 2026, mostly I was there for apidays and the OpenAPI Initiative track. As ever, there was a set of excellent talks and I particularly liked Abby Bangser's opening keynote, Steven Willmott's talk on how to think about software systems as AI is added to them, and…",
       "author": "Rob",
       "publishedAt": "2026-10-05T10:00:00.000Z"
+    },
+    {
+      "guid": "https://akrabat.com/?p=7595",
+      "title": "Find the slowest PHPUnit tests",
+      "link": "https://akrabat.com/find-the-slowest-phpunit-tests/",
+      "summary": "We have a PHPUnit test suite that's taking a while, so I wanted to find out the which tests were taking the longest. With the help of Google, I discovered the --log-junit phpunit-results.xml command line option to phpunit which creates an XML file with the info I need. Running on Slim's codebase,…",
+      "author": "Rob",
+      "publishedAt": "2026-10-20T10:26:02.000Z"
     }
   ],
-  "totalIndexed": 11
+  "totalIndexed": 12
 }
