@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-10-20T16:24:38.750Z",
+  "updatedAt": "2026-10-20T21:04:28.226Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -2785,7 +2785,15 @@
       "summary": "We’re continuing our review of the March CommitFest for PostgreSQL 19. This third article in the series covers the changes related to our DBA3 and DBS courses.\nAs a reminder, here’s the plan for our coverage of the final PostgreSQL 19 CommitFest:\nPart 5.1 (QPT)\nPart 5.2 (DBA1, DBA2)\nPart 5.3 (DBA3,…",
       "author": null,
       "publishedAt": "2026-10-20T00:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9zb",
+      "title": "Christophe Pettus: All Your GUCs in a Row: recovery_init_sync_method",
+      "link": "https://postgr.es/p/9zb",
+      "summary": "After a crash, PostgreSQL syncs every file in your data directory before replaying any WAL—and on large clusters, this can consume minutes.\n\n(I consult on PostgreSQL through PGX Inc..)",
+      "author": null,
+      "publishedAt": "2026-10-20T01:00:00.000Z"
     }
   ],
-  "totalIndexed": 347
+  "totalIndexed": 348
 }

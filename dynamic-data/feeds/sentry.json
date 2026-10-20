@@ -8,7 +8,7 @@
     "debugging",
     "performance"
   ],
-  "updatedAt": "2026-10-14T21:09:15.033Z",
+  "updatedAt": "2026-10-20T21:04:28.276Z",
   "items": [
     {
       "guid": "https://blog.sentry.io/godot-dotnet-ga/",
@@ -393,7 +393,15 @@
       "summary": "Flutter SDK 10.0: streaming traces by default, accurate crash-free rates, dedicated app startup traces, and expanded Dio network error capture.",
       "author": null,
       "publishedAt": "2026-10-14T09:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.sentry.io/android-sdk-faster-startup/",
+      "title": "The Sentry Android SDK is now 20-30% faster!",
+      "link": "https://blog.sentry.io/android-sdk-faster-startup/",
+      "summary": "Sentry Android SDK 8.54.0 initializes 20-30% faster. See how build-time options, faster DSN parsing, and shared thread pools cut startup cost.",
+      "author": null,
+      "publishedAt": "2026-10-20T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 48
+  "totalIndexed": 49
 }
