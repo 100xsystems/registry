@@ -1,72 +1,109 @@
-# YC Company Changes for 2026-10-19
+# YC Company Changes for 2026-10-20
 
-- Previous total: 6309
-- Current total: 6310
-- Added: 1
+- Previous total: 6310
+- Current total: 6312
+- Added: 2
 - Removed: 0
-- Updated: 9
+- Updated: 17
 
 
 ## Added Companies
 
-- [Yam](https://www.ycombinator.com/companies/yam) (Fall 2026) — AI-powered dating sims for women
+- [Probe](https://www.ycombinator.com/companies/probe) (Spring 2026) — The Agent-Native Research Stack
+- [Super Powers Mobility (SPM)](https://www.ycombinator.com/companies/super-powers-mobility-spm) (Fall 2026) — Modular battery packs for mobility/vehicles
 
 ## Updated Companies
 
-### [Bolto](https://www.ycombinator.com/companies/bolto)
+### [Benepass](https://www.ycombinator.com/companies/benepass)
 
-- `isHiring`: false → true
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/8bbc8c4c109a4e7f7a7911309aa1f0821059a311.png → https://bookface-images.s3.amazonaws.com/small_logos/a0db17e735e0435e1ce25ac6c35d96e72b62cd59.png
+- `website`: http://www.getbenepass.com → https://www.benepass.com
+- `one_liner`: Fintech for corporate compensation → Pre-tax and lifestyle benefits, managed in one place.
+- `team_size`: 45 → 130
 
-### [CloudCruise](https://www.ycombinator.com/companies/cloudcruise)
+### [LemFi](https://www.ycombinator.com/companies/lemfi)
+
+- `stage`: Growth → Early
+
+### [Infinia](https://www.ycombinator.com/companies/infinia)
 
 - `isHiring`: true → false
 
-### [Moonshine](https://www.ycombinator.com/companies/moonshine)
+### [Soundry AI](https://www.ycombinator.com/companies/soundry-ai)
 
-- `name`: Chicory → Moonshine
-- `slug`: chicory → moonshine
-- `former_names`: Moonshine → Moonshine,Chicory
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/be712cd699fd2b897b2f5250f2ff8e722cfa125f.png → https://bookface-images.s3.amazonaws.com/small_logos/ecc043e2a363eb7efc3c684adfca1d873931cbba.png
-- `website`: https://chicory.so → https://usemoonshine.com
-- `tags`: Developer Tools,Human Resources,AI → Developer Tools,Compliance,AI
+- `status`: Acquired → Inactive
 
-### [Linewise](https://www.ycombinator.com/companies/linewise)
+### [Westgate](https://www.ycombinator.com/companies/westgate)
 
-- `name`: Vision Lab → Linewise
-- `slug`: vision-lab → linewise
-- `former_names`: Comply Genie,Vision Nexus,LineWise → Comply Genie,Vision Nexus,LineWise,Vision Lab
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/f9c8aab3bb47bc9402833acb64276f52de063681.png → https://bookface-images.s3.amazonaws.com/small_logos/2b6523fd3e82e786169b750e69bb81160c422bc6.png
-- `website`: https://thevisionlab.ai/ → https://linewise.io/
-- `one_liner`: Industrial data layer for robotics training → Industrial data layer for physical RSI
-- `team_size`: 11 → 25
-
-### [GodHands](https://www.ycombinator.com/companies/godhands)
-
-- `one_liner`: Turn how your team works into playbooks and agents → Turn how your team works into playbooks and agents.
-- `tags`: B2B,Workflow Automation,Enterprise,Automation,Operations → B2B,Enterprise,Automation,Operations,AI
-
-### [Aernata](https://www.ycombinator.com/companies/aernata)
-
-- `name`: Pentagon → Aernata
-- `slug`: pentagon → aernata
-- `former_names`:  → Pentagon
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/668fe720bcb2a436a1056efc2df9c0c22d5922cc.png → https://bookface-images.s3.amazonaws.com/small_logos/ab4158325222f50847060cb687cc1b6c81e65dbc.png
-- `website`: https://pentagon.run → https://aernata.com
-- `one_liner`: The control plane for agent-native work. → Making clean methanol out of CO2.
-- `team_size`: 1 → 2
+- `name`: Soff → Westgate
+- `slug`: soff → westgate
+- `former_names`:  → Soff
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/6da2b305915dd2f4090a9cd55210079b59c3095d.png → https://bookface-images.s3.amazonaws.com/small_logos/679477aa332e127fa7c131252a831d4cc5d8bf84.png
+- `website`: https://soff.ai → https://westgatesupply.com/
+- `one_liner`: AI Agents for Distributors → Westgate Supply is an ai-native industrial distributor.
 - `industry`: B2B → Industrials
-- `subindustry`: B2B -> Productivity → Industrials -> Energy
-- `tags`:  → Carbon Capture and Removal,Alternative Fuels,Climate,Energy
-- `industries`: B2B,Productivity → Industrials,Energy
+- `subindustry`: B2B -> Supply Chain and Logistics → Industrials
+- `tags`: B2B,Sales,Manufacturing,Supply Chain,AI → AI,Industrial
+- `industries`: B2B,Supply Chain and Logistics → Industrials
+- `stage`: Growth → Early
 
-### [RightNow](https://www.ycombinator.com/companies/rightnow)
+### [Bindwell](https://www.ycombinator.com/companies/bindwell)
 
-- `tags`:  → Developer Tools,Generative AI,Machine Learning,Infrastructure,AI
+- `team_size`: 13 → 24
 
-### [Dialogus](https://www.ycombinator.com/companies/dialogus)
+### [Koyal](https://www.ycombinator.com/companies/koyal)
 
-- `one_liner`: AI agents that learn how your company actually works → voice AI agents that learn how your company actually works
+- `isHiring`: true → false
 
-### [Nori](https://www.ycombinator.com/companies/noril1)
+### [o11](https://www.ycombinator.com/companies/o11)
+
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/b91d12799d3c1083cf13c1c333bde8b754cfd8dd.png → https://bookface-images.s3.amazonaws.com/small_logos/34cf69944142b4ae981a790f75fe9293d52369a2.png
+- `all_locations`: New York City, NY, USA → San Francisco, CA, USA
+- `one_liner`: AI account managers for consumer/self-serve apps → OpenRouter wallet for paid goods and services
+- `subindustry`: B2B -> Sales → B2B
+- `tags`: SaaS,B2B,Customer Success,AI → Developer Tools,Fintech,SaaS,B2B,AI
+- `industries`: B2B,Sales → B2B
+
+### [General Instinct](https://www.ycombinator.com/companies/general-instinct)
+
+- `tags`:  → Robotics,AI
+- `regions`: United States of America,America / Canada → United States of America,America / Canada,Remote,Partly Remote
+- `demo_day_video_public`: true → false
+
+### [Mochi](https://www.ycombinator.com/companies/mochi)
+
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/f190f58f8300e2403a89619d8522badbb222ad8f.png → https://bookface-images.s3.amazonaws.com/small_logos/49a6b24fc91b9bae1c825be608651c20ecb90c31.png
+- `all_locations`: San Francisco, CA, USA → Los Angeles, CA, USA
+- `team_size`: 3 → 5
+- `isHiring`: false → true
+
+### [Tenor](https://www.ycombinator.com/companies/tenor)
 
 - `isHiring`: false → true
+
+### [Agentcard](https://www.ycombinator.com/companies/agentcard)
+
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/aba1ff38c8593a6ce1ecdd01f1125330e298ac04.png → https://bookface-images.s3.amazonaws.com/small_logos/5470e0782b6543d28db5fba3d76fabbdb0b65435.png
+- `website`: https://agentcard.sh → https://www.agentcard.com
+- `one_liner`: cards for AI agents → let agents buy anything online
+- `team_size`: 0 → 4
+
+### [Bryel](https://www.ycombinator.com/companies/bryel)
+
+- `one_liner`: Building in-house, frontier AI labs for companies → Perceptual reasoning models that are easily customizable
+
+### [Hopper](https://www.ycombinator.com/companies/hopper)
+
+- `one_liner`: Fast inference for voice → Inference and post-training for realtime agents
+
+### [Yam](https://www.ycombinator.com/companies/yam)
+
+- `launched_at`: 1786600319 → 1792446812
+
+### [UXDuck](https://www.ycombinator.com/companies/uxduck)
+
+- `one_liner`: Android for drones → Build better drones. Run better missions.
+
+### [Adside.ai](https://www.ycombinator.com/companies/adsideai)
+
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/924baaaf60804210430329e604f7a68c0670bc03.png → https://bookface-images.s3.amazonaws.com/small_logos/4e762367db2ece01156d1933d40f463f680d2397.png
