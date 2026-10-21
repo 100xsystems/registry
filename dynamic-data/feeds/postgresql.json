@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-10-20T21:04:28.226Z",
+  "updatedAt": "2026-10-21T11:29:57.862Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -2793,7 +2793,31 @@
       "summary": "After a crash, PostgreSQL syncs every file in your data directory before replaying any WAL—and on large clusters, this can consume minutes.\n\n(I consult on PostgreSQL through PGX Inc..)",
       "author": null,
       "publishedAt": "2026-10-20T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9zf",
+      "title": "Jeremy Schneider: Postgres recovery_prefetch Considered Harmful and Causing Outages",
+      "link": "https://postgr.es/p/9zf",
+      "summary": "Another story of something I saw in the field which surprised me. Turns out recovery_prefetch can cause outages.\nSomething which has been happening quietly in the background all the time, but we didn’t notice until we looked close enough to see it.\nAfter a lot of work I discovered this was partly a…",
+      "author": null,
+      "publishedAt": "2026-10-21T06:59:12.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9zh",
+      "title": "Igor Suhorukov: My PostgreSQL is faster than yours and has almost caught up with ClickHouse",
+      "link": "https://postgr.es/p/9zh",
+      "summary": "A friend of mine is an excellent architect but a complete snob. He has four different databases in production: PostgreSQL for OLTP, ClickHouse for OpenTelemetry data and web analytics, Elasticsearch for full-text search in the application, and MongoDB, “for historical reasons.”\nIn between, there…",
+      "author": null,
+      "publishedAt": "2026-10-21T00:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9ze",
+      "title": "Regina Obe: PostGIS 3.7.0rc3",
+      "link": "https://postgr.es/p/9ze",
+      "summary": "The PostGIS Team is pleased to release PostGIS 3.7.0rc3!\nBest Served with PostgreSQL 19 RC 1\n, GEOS 3.15.0\n, postgis_tiger_geocoder 2025.2\n, and address_standardizer.\nThis version requires GEOS 3.10+, PostgreSQL 14-19beta3, Proj 6.1+, and libgmp. To take advantage of all postgis extension features,…",
+      "author": null,
+      "publishedAt": "2026-10-21T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 348
+  "totalIndexed": 351
 }

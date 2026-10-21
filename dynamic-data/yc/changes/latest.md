@@ -1,87 +1,93 @@
 # YC Company Changes for 2026-10-21
 
-- Previous total: 6318
-- Current total: 6321
-- Added: 4
-- Removed: 1
-- Updated: 13
+- Previous total: 6321
+- Current total: 6322
+- Added: 1
+- Removed: 0
+- Updated: 17
 
 
 ## Added Companies
 
-- [ClaimKit](https://www.ycombinator.com/companies/claimkit) (Fall 2026) — AI-native professional services agency 
-- [Audora](https://www.ycombinator.com/companies/audora) (Summer 2026) — Audiobooks where every character has their own voice.
-- [Kiwi](https://www.ycombinator.com/companies/kiwi) (Fall 2026) — Kiwi is your GTM agent's favorite data engineer.
-- [Spacesheep](https://www.ycombinator.com/companies/spacesheep) (Fall 2026) — Documents of the future: the collaboration surface for people and…
-
-## Removed Companies
-
-- Enhanced Radar (Winter 2025)
+- [BayMachines](https://www.ycombinator.com/companies/baymachines) (Spring 2026) — AI compute for defense contractors
 
 ## Updated Companies
 
 ### [GoCardless](https://www.ycombinator.com/companies/gocardless)
 
-- `status`: Active → Acquired
-- `stage`: Growth → Early
+- `stage`: Early → Growth
+
+### [teaBOT](https://www.ycombinator.com/companies/teabot)
+
+- `regions`: Canada,United States of America,America / Canada,Remote,Partly Remote → Canada,United States of America,America / Canada,America / Canada,Remote,Partly Remote
+
+### [Focal Systems](https://www.ycombinator.com/companies/focal-systems)
+
+- `regions`: United States of America,Canada,United Kingdom,America / Canada,Europe,Remote,Partly Remote → United States of America,Canada,United Kingdom,America / Canada,America / Canada,Europe,Remote,Partl
 
 ### [Routable](https://www.ycombinator.com/companies/routable)
 
-- `stage`: Growth → Early
+- `stage`: Early → Growth
 
-### [AIOS](https://www.ycombinator.com/companies/aios)
+### [Vendr](https://www.ycombinator.com/companies/vendr)
 
-- `website`: https://www.aiosmedical.com/ → https://aiosmedical.notion.site/
-- `one_liner`: Building AI-native infrastructure for the next era of care. → The world’s first full-stack AI doctor
+- `stage`: Early → Growth
 
-### [Artil](https://www.ycombinator.com/companies/artil)
+### [Solo](https://www.ycombinator.com/companies/solo)
 
-- `website`: https://artil.dev/ → https://artil.ai/
+- `all_locations`: Provo, UT, USA; Remote → Salt Lake City, UT, USA; Remote
 
-### [Astor](https://www.ycombinator.com/companies/astor)
+### [Verata](https://www.ycombinator.com/companies/verata)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/84b5fdcf24f0c61830898968d03a605cac559df3.png → https://bookface-images.s3.amazonaws.com/small_logos/ecb843975bfa83319d3f9b4eb4fd844e83793a08.png
-- `one_liner`: AI advisor for retail investors → Your personal investing agent
+- `all_locations`: San Francisco, CA, USA; Remote → New York City, NY, USA; Remote
 
-### [Nozomio](https://www.ycombinator.com/companies/nozomio)
+### [Outset](https://www.ycombinator.com/companies/outset)
 
-- `one_liner`: product lab. focused on personal ai and context. → creators of folk.com
-- `team_size`: 3 → 4
-- `tags`: Developer Tools,Consumer,AI → Consumer,AI
+- `stage`: Early → Growth
 
-### [Booko](https://www.ycombinator.com/companies/booko)
+### [Legora](https://www.ycombinator.com/companies/legora)
 
-- `team_size`: 4 → 5
+- `stage`: Early → Growth
 
-### [Paper Star](https://www.ycombinator.com/companies/paper-star)
+### [Toma](https://www.ycombinator.com/companies/toma)
 
-- `name`: Napkin Math → Paper Star
-- `slug`: napkin-math → paper-star
-- `former_names`: Paper Star → Paper Star,Napkin Math
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/43a02b84a6b28b5fb26796fe822a596c638d433c.png → https://bookface-images.s3.amazonaws.com/small_logos/b742e44edb8947d9dc31423fa049239d2316de2f.png
-- `website`: https://napkinmath.club → https://paperstar.cc
-- `one_liner`: AI nutrition coach in your pocket → Building the next generation of agents
-- `industry`: Consumer → B2B
-- `subindustry`: Consumer → B2B
-- `tags`:  → AI
-- `industries`: Consumer → B2B
+- `stage`: Early → Growth
 
-### [River](https://www.ycombinator.com/companies/rivereditor)
+### [Model ML](https://www.ycombinator.com/companies/model-ml)
 
-- `one_liner`: The AI desktop. → The AI computer.
+- `stage`: Early → Growth
 
-### [antimattr](https://www.ycombinator.com/companies/antimattr)
+### [Biblo](https://www.ycombinator.com/companies/biblo)
 
-- `website`: https://www.antimattr.one/project-mnemosyne → https://www.antimattr.one/project-mnemosyne?utm_source=bookface&utm_medium=social&utm_campaign=bookf
+- `name`: x1 → Biblo
+- `slug`: x1 → biblo
+- `former_names`: FoundryAI,Foundry → FoundryAI,Foundry,x1
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/c86ce92c78b4bd9698a823b31a8ee51eff7418e7.png → https://bookface-images.s3.amazonaws.com/small_logos/d59ea04d2922990026b151b55ead83cbc174bff1.png
+- `website`: https://x1.new/ → https://www.heybiblo.com/
+- `one_liner`: AI app builder for creating and launching iPhone apps → Your personal AI fitness coach, over iMessage.
+- `team_size`: 5 → 7
+- `tags`: AI-Enhanced Learning,Developer Tools,Generative AI,No-code,Automation → Generative AI,Consumer,Fitness,Health & Wellness,AI Assistant
 
-### [GrayPass](https://www.ycombinator.com/companies/graypass)
+### [Koyal](https://www.ycombinator.com/companies/koyal)
 
-- `website`: https://www.graypass.org → https://graypass.com/
+- `isHiring`: false → true
 
-### [Lark](https://www.ycombinator.com/companies/lark-2)
+### [Skillsync](https://www.ycombinator.com/companies/skillsync)
 
-- `one_liner`: Lark - AI agents that automate workflows for wholesale distributors → AI agents that automate workflows for distributors
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/9cbaacf18216a2c670dfe6e49d4332b592214780.png → https://bookface-images.s3.amazonaws.com/small_logos/74db8ee9ac823e859d8f4544a01d6e33b5507273.png
+- `one_liner`: Notion for AI chats → Search your agent session history
+- `tags`: Developer Tools → AIOps,Developer Tools,Enterprise Software,AI
 
-### [Wondersearch](https://www.ycombinator.com/companies/wondersearch)
+### [Polymath](https://www.ycombinator.com/companies/polymath)
 
-- `launched_at`: 1788220800 → 1792520464
+- `stage`: Early → Growth
+
+### [Audora](https://www.ycombinator.com/companies/audora)
+
+- `launched_at`: 1779286359 → 1792547058
+
+### [Preload](https://www.ycombinator.com/companies/preload)
+
+- `website`:  → https://preload.ai
+- `one_liner`: Motor cortex for physical AI → Sensorimotor context for physical AI
+- `tags`: Neurotechnology,Robotics,B2B,AI → Neurotechnology,Robotics,Robotic Surgery,B2B,AI
