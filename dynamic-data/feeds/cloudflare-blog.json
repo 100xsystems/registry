@@ -9,7 +9,7 @@
     "performance",
     "edge-computing"
   ],
-  "updatedAt": "2026-10-21T03:31:06.771Z",
+  "updatedAt": "2026-10-21T16:41:00.929Z",
   "items": [
     {
       "guid": "01KY2432VQPD5FTF2RARXXYQGH",
@@ -62298,7 +62298,31 @@
       "summary": "Following the discovery that eight eMudhra intermediate certificates use weak keys, Cloudflare is deploying mitigations and releasing client updates. We explain the impact, our response, and what customers and developers should do next.",
       "author": "Christopher Patton",
       "publishedAt": "2026-10-20T22:20:16.000Z"
+    },
+    {
+      "guid": "01M5E1HXVZGTKAKEYZ0KMZQ65Q",
+      "title": "Introducing full transaction detection for Cloudflare WAF",
+      "link": "https://blog.cloudflare.com/full-transaction-waf/",
+      "summary": "Cloudflare's web application firewall can now correlate an HTTP request with its response. Full transaction detection helps every customer find successful exploits, data exposure, and risky misconfigurations that request-only inspection can miss.",
+      "author": "Daniele Molteni",
+      "publishedAt": "2026-10-21T14:10:42.000Z"
+    },
+    {
+      "guid": "01M5FBPW0VHJGHYHGS7CWWKGSP",
+      "title": "Cloudflare deploys protections against php2shell vulnerability",
+      "link": "https://blog.cloudflare.com/php-vulnerabilities-waf-protection/",
+      "summary": "Cloudflare has deployed default web application firewall (WAF) protections for newly disclosed PHP vulnerabilities before public disclosure. The rules use request and response signals to stop exploit attempts and prevent exposed data from reaching attackers.",
+      "author": "Daniele Molteni",
+      "publishedAt": "2026-10-21T13:56:45.000Z"
+    },
+    {
+      "guid": "01M5AYSGXBWG00KS9KC299XDR8",
+      "title": "How Commerce.com and Cloudflare are getting storefronts ready for AI agents",
+      "link": "https://blog.cloudflare.com/webmcp-commerce/",
+      "summary": "Almost 100,000 Commerce.com domains now give AI agents real shopping tools through WebMCP on Cloudflare. Here's how we turned it on across every store at once, while keeping each merchant in control.",
+      "author": "Jenny Lea",
+      "publishedAt": "2026-10-21T13:00:00.000Z"
     }
   ],
-  "totalIndexed": 7786
+  "totalIndexed": 7789
 }

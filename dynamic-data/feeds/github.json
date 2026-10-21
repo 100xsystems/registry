@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-10-16T03:22:16.942Z",
+  "updatedAt": "2026-10-21T16:41:03.695Z",
   "items": [
     {
       "guid": "github::https://github.blog/engineering/the-cost-of-saying-yes-has-changed/",
@@ -175,7 +175,15 @@
       "summary": "Working with outside collaborators can add more work for a repository owner. You need to confirm who still needs access, change permissions as projects evolve, and archive repositories once they’ve served their purpose.\nTo keep up, repository owners need to track collaborators, deadlines, and…",
       "author": "Greg Mohler",
       "publishedAt": "2026-10-15T18:00:00.000Z"
+    },
+    {
+      "guid": "github::https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/",
+      "title": "The bridge to agent-scale Git infrastructure",
+      "link": "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/",
+      "summary": "Over the past year, while Git traffic grew exponentially, 99.99999% of the Git repositories on GitHub began living in two places at once: our own data centers and Azure. The rest are among the busiest on the platform, and they’re held back by just one thing: a 25ms round trip.\nIn an earlier blog…",
+      "author": "Eleanor White",
+      "publishedAt": "2026-10-21T16:00:00.000Z"
     }
   ],
-  "totalIndexed": 21
+  "totalIndexed": 22
 }
