@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-10-12T04:35:41.488Z",
+  "updatedAt": "2026-10-21T21:04:42.237Z",
   "items": [
     {
       "guid": "https://www.jeremykun.com/2011/06/20/featured-posts/",
@@ -439,7 +439,15 @@
       "summary": "Table of Contents\nThis is part of a tutorial series on the CKKS homomorphic encryption scheme.\nIn the last article, we introduced symmetric and public-key encryption and decryption routines, and implemented modular polynomial arithmetic (using NTTs as a black box). This article covers the addition…",
       "author": null,
       "publishedAt": "2026-10-11T21:31:19.000Z"
+    },
+    {
+      "guid": "https://www.jeremykun.com/2026/10/21/ckks-key-switching-and-relinearization/",
+      "title": "CKKS — Key Switching and Relinearization",
+      "link": "https://www.jeremykun.com/2026/10/21/ckks-key-switching-and-relinearization/",
+      "summary": "Table of Contents\nThis is part of a tutorial series on the CKKS homomorphic encryption scheme.\nIn the last article, we described the ciphertext-ciphertext addition and multiplication operations. We ended with two challenges, one to restore the squared scaling factor $\\Delta^2$ back to $\\Delta$, and…",
+      "author": null,
+      "publishedAt": "2026-10-21T18:27:41.000Z"
     }
   ],
-  "totalIndexed": 54
+  "totalIndexed": 55
 }
