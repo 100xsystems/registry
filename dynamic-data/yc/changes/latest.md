@@ -1,98 +1,87 @@
-# YC Company Changes for 2026-10-20
+# YC Company Changes for 2026-10-21
 
-- Previous total: 6315
-- Current total: 6318
-- Added: 3
-- Removed: 0
-- Updated: 17
+- Previous total: 6318
+- Current total: 6321
+- Added: 4
+- Removed: 1
+- Updated: 13
 
 
 ## Added Companies
 
-- [Synara](https://www.ycombinator.com/companies/synara) (Fall 2026) — We are the last monitoring station, run by AI
-- [Phone Harness](https://www.ycombinator.com/companies/phone-harness) (Fall 2026) — Let your agent control your phone
-- [Wondersearch](https://www.ycombinator.com/companies/wondersearch) (Fall 2026) — Instant semantic search over your data without embeddings.
+- [ClaimKit](https://www.ycombinator.com/companies/claimkit) (Fall 2026) — AI-native professional services agency 
+- [Audora](https://www.ycombinator.com/companies/audora) (Summer 2026) — Audiobooks where every character has their own voice.
+- [Kiwi](https://www.ycombinator.com/companies/kiwi) (Fall 2026) — Kiwi is your GTM agent's favorite data engineer.
+- [Spacesheep](https://www.ycombinator.com/companies/spacesheep) (Fall 2026) — Documents of the future: the collaboration surface for people and…
+
+## Removed Companies
+
+- Enhanced Radar (Winter 2025)
 
 ## Updated Companies
 
-### [PiinPoint](https://www.ycombinator.com/companies/piinpoint)
+### [GoCardless](https://www.ycombinator.com/companies/gocardless)
 
-- `isHiring`: true → false
+- `status`: Active → Acquired
+- `stage`: Growth → Early
 
-### [Orangewood Labs](https://www.ycombinator.com/companies/orangewood-labs)
-
-- `one_liner`: Orangewood builds amazing robots that people want  → Orangewood builds amazing robots that people want. 
-
-### [Pocket Worlds](https://www.ycombinator.com/companies/pocket-worlds)
-
-- `subindustry`: Consumer -> Social → Consumer -> Gaming
-- `industries`: Consumer,Social → Consumer,Gaming
-
-### [Vendr](https://www.ycombinator.com/companies/vendr)
+### [Routable](https://www.ycombinator.com/companies/routable)
 
 - `stage`: Growth → Early
 
-### [digi](https://www.ycombinator.com/companies/digi)
+### [AIOS](https://www.ycombinator.com/companies/aios)
 
-- `isHiring`: true → false
+- `website`: https://www.aiosmedical.com/ → https://aiosmedical.notion.site/
+- `one_liner`: Building AI-native infrastructure for the next era of care. → The world’s first full-stack AI doctor
 
-### [Outset](https://www.ycombinator.com/companies/outset)
+### [Artil](https://www.ycombinator.com/companies/artil)
 
-- `team_size`: 30 → 120
-- `stage`: Growth → Early
+- `website`: https://artil.dev/ → https://artil.ai/
 
-### [Nowadays](https://www.ycombinator.com/companies/nowadays)
+### [Astor](https://www.ycombinator.com/companies/astor)
 
-- `team_size`: 6 → 11
-- `tags`: B2B,Logistics,Marketing,AI → B2B,Travel,Logistics,Enterprise,AI
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/84b5fdcf24f0c61830898968d03a605cac559df3.png → https://bookface-images.s3.amazonaws.com/small_logos/ecb843975bfa83319d3f9b4eb4fd844e83793a08.png
+- `one_liner`: AI advisor for retail investors → Your personal investing agent
 
-### [Legora](https://www.ycombinator.com/companies/legora)
+### [Nozomio](https://www.ycombinator.com/companies/nozomio)
 
-- `stage`: Growth → Early
+- `one_liner`: product lab. focused on personal ai and context. → creators of folk.com
+- `team_size`: 3 → 4
+- `tags`: Developer Tools,Consumer,AI → Consumer,AI
 
-### [Respan](https://www.ycombinator.com/companies/respan)
+### [Booko](https://www.ycombinator.com/companies/booko)
 
-- `one_liner`: Self-driving observability, evals, and gateway for AI agents → Open-source, extensible AI gateway with observability and evals
-- `team_size`: 23 → 20
+- `team_size`: 4 → 5
 
-### [Toma](https://www.ycombinator.com/companies/toma)
+### [Paper Star](https://www.ycombinator.com/companies/paper-star)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/30c720ae0d8e011f3d717a623f88d12d48f2a84c.png → https://bookface-images.s3.amazonaws.com/small_logos/487d262a82be5ca0a686f315a9b5fa293f2006b9.png
-- `subindustry`: B2B -> Operations → B2B -> Engineering, Product and Design
-- `tags`: Marketing,Customer Support,AI,Automotive,Conversational AI → Marketplace,B2B,Productivity,HR Tech,AI
-- `industries`: B2B,Operations → B2B,Engineering, Product and Design
-- `regions`: United States of America,America / Canada,Remote,Partly Remote → United States of America,America / Canada
-- `stage`: Growth → Early
+- `name`: Napkin Math → Paper Star
+- `slug`: napkin-math → paper-star
+- `former_names`: Paper Star → Paper Star,Napkin Math
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/43a02b84a6b28b5fb26796fe822a596c638d433c.png → https://bookface-images.s3.amazonaws.com/small_logos/b742e44edb8947d9dc31423fa049239d2316de2f.png
+- `website`: https://napkinmath.club → https://paperstar.cc
+- `one_liner`: AI nutrition coach in your pocket → Building the next generation of agents
+- `industry`: Consumer → B2B
+- `subindustry`: Consumer → B2B
+- `tags`:  → AI
+- `industries`: Consumer → B2B
 
-### [Model ML](https://www.ycombinator.com/companies/model-ml)
+### [River](https://www.ycombinator.com/companies/rivereditor)
 
-- `stage`: Growth → Early
+- `one_liner`: The AI desktop. → The AI computer.
 
-### [Closera](https://www.ycombinator.com/companies/closera)
+### [antimattr](https://www.ycombinator.com/companies/antimattr)
 
-- `status`: Active → Inactive
+- `website`: https://www.antimattr.one/project-mnemosyne → https://www.antimattr.one/project-mnemosyne?utm_source=bookface&utm_medium=social&utm_campaign=bookf
 
-### [Smartbase](https://www.ycombinator.com/companies/smartbase)
+### [GrayPass](https://www.ycombinator.com/companies/graypass)
 
-- `status`: Active → Inactive
+- `website`: https://www.graypass.org → https://graypass.com/
 
-### [Cranston AI](https://www.ycombinator.com/companies/cranston-ai)
+### [Lark](https://www.ycombinator.com/companies/lark-2)
 
-- `team_size`: 2 → 8
+- `one_liner`: Lark - AI agents that automate workflows for wholesale distributors → AI agents that automate workflows for distributors
 
-### [Sava Trust Company](https://www.ycombinator.com/companies/sava-trust-company)
+### [Wondersearch](https://www.ycombinator.com/companies/wondersearch)
 
-- `name`: Sava → Sava Trust Company
-- `slug`: savahq → sava-trust-company
-- `former_names`:  → Sava
-- `website`: https://www.savahq.com → https://www.savatrustcompany.com
-- `team_size`: 7 → 8
-
-### [Click](https://www.ycombinator.com/companies/click)
-
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/3eb675c91f3464d134cd3d9c18712ad08bea23bb.png → https://bookface-images.s3.amazonaws.com/small_logos/1ed30d715c1d9c492a56975e2eb6c95ba888810e.png
-- `one_liner`: Managed Agents API → Serverless agents
-
-### [Cesara](https://www.ycombinator.com/companies/cesara)
-
-- `one_liner`: Faster & Accurate payments for health systems → Faster & accurate transactions for health systems
+- `launched_at`: 1788220800 → 1792520464
