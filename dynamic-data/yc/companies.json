@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-10-22T03:31:10.037Z",
-  "count": 6322,
+  "fetchedAt": "2026-10-22T11:30:21.431Z",
+  "count": 6324,
   "companies": [
     {
       "id": 39117,
@@ -1545,7 +1545,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/0e143f02ee81e74efcd4497792528526f512482b.png",
       "website": "https://www.volaren.ai",
       "all_locations": "New York City, NY, USA",
-      "long_description": "Turning ideas into trades. Every great investment starts as an idea about the world. Institutions have teams of analysts turning those ideas into positions. Volaren is that team, processing data through fundamentals and quantitative models that can be personalized with AI.\r\n\r\nTurn your views into trades, portfolios, and back-testable frameworks and strategies, and Volaren stays with you from there, showing you what's actually driving each position and what it means for your next move.",
+      "long_description": "Volaren is an agent for your portfolio that explains every move, suggests your next move, and trades it for you. We're going to replace the wealth management industry by giving everyone a family office.",
       "one_liner": "Turning Ideas into Trades. Volaren puts the hedge fund in the hands…",
       "team_size": 4,
       "highlight_black": false,
@@ -2606,7 +2606,6 @@
       "subindustry": "B2B -> Security",
       "launched_at": 1791243197,
       "tags": [
-        "Fraud Detection",
         "AI"
       ],
       "tags_highlighted": [],
@@ -3810,6 +3809,51 @@
       "app_answers": null,
       "question_answers": false,
       "url": "https://www.ycombinator.com/companies/streamline-systems"
+    },
+    {
+      "id": 35457,
+      "name": "Kairox Systems",
+      "slug": "kairox-systems",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/737f3333be41dc7af0dd82ff9092c0e46f2105a6.png",
+      "website": "http://www.kairoxsys.com/",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "Kairox Systems combines the speed of aerial drones and the stealth of underwater drones into one vehicle. We can look for mines in a strait, fly out of the water to inspect a coastline, and then engage maritime threats in one go. \r\n\r\nJoel, Alex, and Jorge all met at MIT. After conversations with warfighters and drone researchers, they decided to create a vehicle unlike any before: A long-range vehicle that is truly amphibious, low-cost enough for one-way swarms, can operate fully autonomously, and can be repurposed on the front lines. Engaged with the Marine Corps and validated with end users across the U.S. and allied militaries.",
+      "one_liner": "Autonomous drones that fly and swim",
+      "team_size": 3,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "Industrials",
+      "subindustry": "Industrials -> Defense",
+      "launched_at": 1792645652,
+      "tags": [
+        "Hardware",
+        "Drones",
+        "Aerospace",
+        "Maritime",
+        "Defense"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Fall 2026",
+      "status": "Active",
+      "industries": [
+        "Industrials",
+        "Defense"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/kairox-systems"
     },
     {
       "id": 35456,
@@ -5563,6 +5607,49 @@
       "app_answers": null,
       "question_answers": false,
       "url": "https://www.ycombinator.com/companies/viraj-aero"
+    },
+    {
+      "id": 34897,
+      "name": "AnyAlpha",
+      "slug": "anyalpha",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/16d8f89e75a1b0b3b62443d7ba1069722a5f4591.png",
+      "website": "https://anyalpha.ai/",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "AnyAlpha is the agentic trading platform. It turns your trading idea into an agent that trades it for you, 24/7.\r\n\r\nStart with an idea. AnyAlpha builds the agent on institutional-grade data, backtests it on historical data, and trades it live on multiple exchanges. We're starting with prediction markets, with more asset classes to follow.",
+      "one_liner": "The agentic trading platform",
+      "team_size": 2,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "Fintech",
+      "subindustry": "Fintech",
+      "launched_at": 1792643362,
+      "tags": [
+        "Fintech",
+        "Marketplace",
+        "Consumer Finance",
+        "Trading"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Fall 2026",
+      "status": "Active",
+      "industries": [
+        "Fintech"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/anyalpha"
     },
     {
       "id": 34896,
@@ -7590,8 +7677,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/091a0f9893d5a0f66b65399660fc8041716acd4e.png",
       "website": "https://petrarch.co/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Petrarch brings internal company data to frontier labs, starting with manufacturing and industrial companies. We source data including codebases, project files, and payments from bankruptcy courts, then de-identify and prepare the data for model training. \r\n",
-      "one_liner": "Internal industrial company data for frontier labs",
+      "long_description": "Petrarch works with bankruptcy courts to source records from enterprises in the critical infrastructure sectors, then rigorously de-identifies and transforms the data into RL environments and tasks.",
+      "one_liner": "Advancing model capabilities for critical infrastructure",
       "team_size": 3,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -14394,7 +14481,7 @@
       "website": "https://belvedir.ai/",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "",
-      "one_liner": "The autonomous AI model factory",
+      "one_liner": "Autonomous AI Model Training",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -17321,7 +17408,7 @@
       "website": "https://aernata.com",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Aernata is an American chemicals company producing clean fuel from industrial emissions.\r\n\r\nWe're starting by converting CO2 to methanol for synthetic fuel production.",
-      "one_liner": "Making clean methanol out of CO2.",
+      "one_liner": "Making clean fuels out of CO2.",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -43694,8 +43781,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/e968a9edc53bbf932ccbe0585917fe2029077b90.png",
       "website": "https://www.panoptive.com",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "We turn unstructured monitoring data - monitoring visit reports, EDC data - into structured deviation, safety, and quality findings for human review. Panoptive generates an audit-ready oversight trail as a natural byproduct. \r\n\r\nThe platform aggregates findings and identifies systemic patterns across sites and subjects before they compound, and tracks every finding through decision, follow-up, and resolution.",
-      "one_liner": "The continuous oversight engine for clinical trials",
+      "long_description": "Building simulation environments and agents for clinical development operations.\r\n\r\nPut agents to work across clinical data management, clinical operations, and quality assurance workflows on a shared, secure data foundation.",
+      "one_liner": "Agent systems for clinical development work",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -55553,7 +55640,7 @@
         "United States of America",
         "America / Canada"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -57617,7 +57704,7 @@
       "former_names": [
         "Vertex Health"
       ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/2236b25dd12c87c047e1fa71435b329c187e2c47.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/bc49e34423d3918787728d1f1297c2d2b4ace138.png",
       "website": "https://tryamby.com",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Your wearable tells you what happened. Amby texts you what to do next, checks in, and adjusts when life gets in the way.",
@@ -74494,10 +74581,10 @@
       "former_names": [],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/84c63763f18d7ea0f559f538047cb3865f092ccc.png",
       "website": "https://claimsorted.com",
-      "all_locations": "London, England, United Kingdom",
+      "all_locations": "New York City, NY, USA",
       "long_description": "ClaimSorted helps insurance companies remove the hassle of managing claims by enabling them to outsource their claim operations to us. This service is known as a Third Party Administrator (TPA). Unlike traditional TPAs, we blend AI and best-in-class experts to deliver a 5-star customer experience, minimise mistakes and speed up claim assessment.",
       "one_liner": "Making it easy for insurance companies to process claims",
-      "team_size": 20,
+      "team_size": 50,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -74516,8 +74603,8 @@
         "Insurance"
       ],
       "regions": [
-        "United Kingdom",
-        "Europe",
+        "United States of America",
+        "America / Canada",
         "Remote",
         "Partly Remote"
       ],
@@ -76174,7 +76261,7 @@
       "tags": [],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": true,
+      "isHiring": false,
       "nonprofit": false,
       "batch": "Winter 2024",
       "status": "Active",
@@ -86183,14 +86270,16 @@
     },
     {
       "id": 29245,
-      "name": "Kabilah",
-      "slug": "kabilah",
-      "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/559be3dbe8db39ee44373d9f21cfd1f1f146092e.png",
-      "website": "https://www.kabilah.com",
+      "name": "Aren",
+      "slug": "aren",
+      "former_names": [
+        "Kabilah"
+      ],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/364d4894b0a1316d1031d75709cb12f94ced7b77.png",
+      "website": "https://www.aren.com/",
       "all_locations": "",
-      "long_description": "Kabilah is the most trusted enterprise-grade AI platform designed specifically for nursing workflows. We reduce burnout, enhance system efficiency, and enable high quality care.",
-      "one_liner": "Agentic AI for Nursing Workflows",
+      "long_description": "Empowering nurses to execute successful shifts, while illuminating their critical role in health system financial performance.",
+      "one_liner": "Powering Successful Nursing Shifts",
       "team_size": 0,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -86221,7 +86310,7 @@
       "demo_day_video_public": false,
       "app_answers": null,
       "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/kabilah"
+      "url": "https://www.ycombinator.com/companies/aren"
     },
     {
       "id": 29244,
@@ -89974,7 +90063,7 @@
         "Remote",
         "Partly Remote"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -93104,14 +93193,16 @@
     },
     {
       "id": 28900,
-      "name": "Epsilla",
-      "slug": "epsilla",
-      "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/a2a1e40bf12e61df1ea8d4d6a4f8b7691ac3982f.png",
-      "website": "https://www.epsilla.com/",
-      "all_locations": "San Francisco, CA, USA; Remote",
-      "long_description": "Epsilla is an all-in-one platform for building AI agents powered by your private data and knowledge. Easy to use for domain professionals, deeply customizable for AI experts, and fully equipped for enterprise customers with security, scalability, and integration.",
-      "one_liner": "All-in-one platform to create AI agents with your private knowledge",
+      "name": "HarnessRouter",
+      "slug": "harnessrouter",
+      "former_names": [
+        "Epsilla"
+      ],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/f2e582140d05a49c2195e6fa0ed3e3fe192c9467.png",
+      "website": "https://harnessrouter.ai/",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "Build agent-powered products without rebuilding the runtime infrastructure. HarnessRouter is the world's first unified interface for agent harnesses, connecting your app to Codex, Claude Code, Hermes, DeepSeek Harness, and other supported harnesses through one API.\r\n\r\nHarnessRouter Cloud runs tasks in isolated, serverless sandboxes and handles sessions, streaming, files, artifacts, recovery, and execution tracing. Teams can compare harness and model configurations on their own tasks to choose the right balance of quality, latency, and cost.\r\n\r\nUse the managed Cloud or self-host the Apache 2.0 Community Edition on infrastructure you control. Both implement the Unified Harness Protocol (UHP).",
+      "one_liner": "The world's first unified interface for agent harnesses.",
       "team_size": 3,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -93120,10 +93211,11 @@
       "subindustry": "B2B -> Infrastructure",
       "launched_at": 1687398753,
       "tags": [
+        "Developer Tools",
         "SaaS",
+        "Open Source",
         "Infrastructure",
-        "AI",
-        "Databases"
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -93139,14 +93231,14 @@
         "United States of America",
         "America / Canada",
         "Remote",
-        "Fully Remote"
+        "Partly Remote"
       ],
       "stage": "Early",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
-      "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/epsilla"
+      "question_answers": true,
+      "url": "https://www.ycombinator.com/companies/harnessrouter"
     },
     {
       "id": 28899,
@@ -142139,7 +142231,7 @@
       "all_locations": "New York City, NY, USA",
       "long_description": "Output Labs is a frontier AI research lab. We created Mechanistic Reasoning, a new kind of AI that learns how and why complex systems work. It lets us understand the systems behind science's hardest problems, and control them.",
       "one_liner": "The foundation for the next era of science",
-      "team_size": 8,
+      "team_size": 10,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -150497,7 +150589,7 @@
         "Remote",
         "Fully Remote"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -157719,7 +157811,7 @@
         "United States of America",
         "America / Canada"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -175811,7 +175903,7 @@
         "Remote",
         "Fully Remote"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -218814,7 +218906,7 @@
         "Remote",
         "Fully Remote"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -227034,7 +227126,7 @@
         "Remote",
         "Fully Remote"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": true,
       "app_answers": null,

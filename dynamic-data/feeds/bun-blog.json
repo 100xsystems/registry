@@ -8,7 +8,7 @@
     "performance",
     "runtime"
   ],
-  "updatedAt": "2026-10-10T12:13:12.711Z",
+  "updatedAt": "2026-10-22T11:30:02.444Z",
   "items": [
     {
       "guid": "https://bun.com/blog/bun-in-rust",
@@ -441,7 +441,15 @@
       "summary": "Fixes 166 issues, addressing 122 👍. bun check, a TypeScript type checker built into Bun that is 3x to 6.4x faster than tsc 7, --check for bun run, bun build and bun test, 67–89% less idle CPU, Bun.FetchSession, experimental Bun.ModuleGraph, --disallow-code-generation-from-strings, up to 2.7x…",
       "author": null,
       "publishedAt": "2026-10-10T03:18:05.000Z"
+    },
+    {
+      "guid": "https://bun.com/blog/bun-v1.4.4",
+      "title": "Bun v1.4.4",
+      "link": "https://bun.com/blog/bun-v1.4.4",
+      "summary": "Fixes 271 issues, addressing 544 👍. bun fmt, a Prettier-compatible formatter built into Bun that is 3x to 6x faster than oxfmt, bun check is 1.4x to 7.8x faster on large projects, bun install migrates Yarn Berry lockfiles, retries with exponential backoff and closes 133 issues, up to 3.2x faster…",
+      "author": null,
+      "publishedAt": "2026-10-22T00:58:24.000Z"
     }
   ],
-  "totalIndexed": 54
+  "totalIndexed": 55
 }

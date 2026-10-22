@@ -1,86 +1,100 @@
 {
   "date": "2026-10-22",
-  "fetchedAt": "2026-10-22T03:31:10.036Z",
-  "previousCount": 6323,
-  "currentCount": 6322,
-  "added": [],
-  "removed": [
+  "fetchedAt": "2026-10-22T11:30:21.429Z",
+  "previousCount": 6322,
+  "currentCount": 6324,
+  "added": [
     {
-      "id": 31500,
-      "name": "OpenProse",
-      "slug": "openprose",
+      "id": 34897,
+      "name": "AnyAlpha",
+      "slug": "anyalpha",
       "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/64b6d546d22917532ccb4e5251eb0d9aa20d25d4.png",
-      "website": "https://prose.md",
-      "all_locations": "Boston, MA, USA; Remote",
-      "long_description": "OpenProse is building open-source infrastructure for long-running AI work: a declarative language plus a reactive harness/runtime for reliable agent workflows.",
-      "one_liner": "An open-source operating system for reliable long-running agents",
-      "team_size": 3,
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/16d8f89e75a1b0b3b62443d7ba1069722a5f4591.png",
+      "website": "https://anyalpha.ai/",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "AnyAlpha is the agentic trading platform. It turns your trading idea into an agent that trades it for you, 24/7.\r\n\r\nStart with an idea. AnyAlpha builds the agent on institutional-grade data, backtests it on historical data, and trades it live on multiple exchanges. We're starting with prediction markets, with more asset classes to follow.",
+      "one_liner": "The agentic trading platform",
+      "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
-      "industry": "B2B",
-      "subindustry": "B2B -> Engineering, Product and Design",
-      "launched_at": 1779199533,
-      "tags": [],
+      "industry": "Fintech",
+      "subindustry": "Fintech",
+      "launched_at": 1792643362,
+      "tags": [
+        "Fintech",
+        "Marketplace",
+        "Consumer Finance",
+        "Trading"
+      ],
       "tags_highlighted": [],
       "top_company": false,
       "isHiring": false,
       "nonprofit": false,
-      "batch": "Spring 2026",
+      "batch": "Fall 2026",
       "status": "Active",
       "industries": [
-        "B2B",
-        "Engineering, Product and Design"
+        "Fintech"
       ],
       "regions": [
         "United States of America",
-        "America / Canada",
-        "Remote",
-        "Fully Remote"
+        "America / Canada"
       ],
       "stage": "Early",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
       "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/openprose"
+      "url": "https://www.ycombinator.com/companies/anyalpha"
+    },
+    {
+      "id": 35457,
+      "name": "Kairox Systems",
+      "slug": "kairox-systems",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/737f3333be41dc7af0dd82ff9092c0e46f2105a6.png",
+      "website": "http://www.kairoxsys.com/",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "Kairox Systems combines the speed of aerial drones and the stealth of underwater drones into one vehicle. We can look for mines in a strait, fly out of the water to inspect a coastline, and then engage maritime threats in one go. \r\n\r\nJoel, Alex, and Jorge all met at MIT. After conversations with warfighters and drone researchers, they decided to create a vehicle unlike any before: A long-range vehicle that is truly amphibious, low-cost enough for one-way swarms, can operate fully autonomously, and can be repurposed on the front lines. Engaged with the Marine Corps and validated with end users across the U.S. and allied militaries.",
+      "one_liner": "Autonomous drones that fly and swim",
+      "team_size": 3,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "Industrials",
+      "subindustry": "Industrials -> Defense",
+      "launched_at": 1792645652,
+      "tags": [
+        "Hardware",
+        "Drones",
+        "Aerospace",
+        "Maritime",
+        "Defense"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Fall 2026",
+      "status": "Active",
+      "industries": [
+        "Industrials",
+        "Defense"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/kairox-systems"
     }
   ],
+  "removed": [],
   "updated": [
-    {
-      "id": 160,
-      "name": "Close",
-      "slug": "close",
-      "batch": "Winter 2011",
-      "url": "https://www.ycombinator.com/companies/close",
-      "changes": [
-        {
-          "field": "one_liner",
-          "before": "CRM and sales automation tools for startups and SMBs",
-          "after": "CRM and sales automation suite"
-        },
-        {
-          "field": "team_size",
-          "before": 120,
-          "after": 130
-        },
-        {
-          "field": "tags",
-          "before": [
-            "SaaS",
-            "B2B"
-          ],
-          "after": [
-            "SaaS",
-            "B2B",
-            "Sales",
-            "Sales Enablement",
-            "CRM"
-          ]
-        }
-      ]
-    },
     {
       "id": 1603,
       "name": "Standard AI",
@@ -90,8 +104,22 @@
       "changes": [
         {
           "field": "stage",
-          "before": "Growth",
-          "after": "Early"
+          "before": "Early",
+          "after": "Growth"
+        }
+      ]
+    },
+    {
+      "id": 1808,
+      "name": "Universe",
+      "slug": "universe",
+      "batch": "Winter 2018",
+      "url": "https://www.ycombinator.com/companies/universe",
+      "changes": [
+        {
+          "field": "stage",
+          "before": "Early",
+          "after": "Growth"
         }
       ]
     },
@@ -104,8 +132,22 @@
       "changes": [
         {
           "field": "stage",
-          "before": "Growth",
-          "after": "Early"
+          "before": "Early",
+          "after": "Growth"
+        }
+      ]
+    },
+    {
+      "id": 23634,
+      "name": "Ollama",
+      "slug": "ollama",
+      "batch": "Winter 2021",
+      "url": "https://www.ycombinator.com/companies/ollama",
+      "changes": [
+        {
+          "field": "stage",
+          "before": "Early",
+          "after": "Growth"
         }
       ]
     },
@@ -118,152 +160,310 @@
       "changes": [
         {
           "field": "stage",
-          "before": "Growth",
-          "after": "Early"
+          "before": "Early",
+          "after": "Growth"
         }
       ]
     },
     {
-      "id": 25341,
-      "name": "Wagetap",
-      "slug": "wagetap",
-      "batch": "Winter 2022",
-      "url": "https://www.ycombinator.com/companies/wagetap",
+      "id": 24727,
+      "name": "Output Labs",
+      "slug": "output-labs",
+      "batch": "Summer 2021",
+      "url": "https://www.ycombinator.com/companies/output-labs",
       "changes": [
         {
+          "field": "team_size",
+          "before": 8,
+          "after": 10
+        }
+      ]
+    },
+    {
+      "id": 28900,
+      "name": "HarnessRouter",
+      "slug": "harnessrouter",
+      "batch": "Summer 2023",
+      "url": "https://www.ycombinator.com/companies/harnessrouter",
+      "changes": [
+        {
+          "field": "name",
+          "before": "Epsilla",
+          "after": "HarnessRouter"
+        },
+        {
+          "field": "slug",
+          "before": "epsilla",
+          "after": "harnessrouter"
+        },
+        {
+          "field": "former_names",
+          "before": [],
+          "after": [
+            "Epsilla"
+          ]
+        },
+        {
           "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/d38ad7785b7af1240fa55c48a8574a60cc6bf8c3.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/5250364c80e7e3b7bcd2e34ff62e9ccf670b9cd5.png"
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/a2a1e40bf12e61df1ea8d4d6a4f8b7691ac3982f.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/f2e582140d05a49c2195e6fa0ed3e3fe192c9467.png"
+        },
+        {
+          "field": "website",
+          "before": "https://www.epsilla.com/",
+          "after": "https://harnessrouter.ai/"
+        },
+        {
+          "field": "all_locations",
+          "before": "San Francisco, CA, USA; Remote",
+          "after": "San Francisco, CA, USA"
         },
         {
           "field": "one_liner",
-          "before": "Advance next payday, and BNPL for bills",
-          "after": "Access up to $2,000 of your wage in advance"
+          "before": "All-in-one platform to create AI agents with your private knowledge",
+          "after": "The world's first unified interface for agent harnesses."
+        },
+        {
+          "field": "tags",
+          "before": [
+            "SaaS",
+            "Infrastructure",
+            "AI",
+            "Databases"
+          ],
+          "after": [
+            "Developer Tools",
+            "SaaS",
+            "Open Source",
+            "Infrastructure",
+            "AI"
+          ]
+        },
+        {
+          "field": "regions",
+          "before": [
+            "United States of America",
+            "America / Canada",
+            "Remote",
+            "Fully Remote"
+          ],
+          "after": [
+            "United States of America",
+            "America / Canada",
+            "Remote",
+            "Partly Remote"
+          ]
+        },
+        {
+          "field": "question_answers",
+          "before": false,
+          "after": true
+        }
+      ]
+    },
+    {
+      "id": 29069,
+      "name": "HappyRobot",
+      "slug": "happyrobot",
+      "batch": "Summer 2023",
+      "url": "https://www.ycombinator.com/companies/happyrobot",
+      "changes": [
+        {
+          "field": "stage",
+          "before": "Early",
+          "after": "Growth"
+        }
+      ]
+    },
+    {
+      "id": 29245,
+      "name": "Aren",
+      "slug": "aren",
+      "batch": "Winter 2024",
+      "url": "https://www.ycombinator.com/companies/aren",
+      "changes": [
+        {
+          "field": "name",
+          "before": "Kabilah",
+          "after": "Aren"
+        },
+        {
+          "field": "slug",
+          "before": "kabilah",
+          "after": "aren"
+        },
+        {
+          "field": "former_names",
+          "before": [],
+          "after": [
+            "Kabilah"
+          ]
+        },
+        {
+          "field": "small_logo_thumb_url",
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/559be3dbe8db39ee44373d9f21cfd1f1f146092e.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/364d4894b0a1316d1031d75709cb12f94ced7b77.png"
+        },
+        {
+          "field": "website",
+          "before": "https://www.kabilah.com",
+          "after": "https://www.aren.com/"
+        },
+        {
+          "field": "one_liner",
+          "before": "Agentic AI for Nursing Workflows",
+          "after": "Powering Successful Nursing Shifts"
+        }
+      ]
+    },
+    {
+      "id": 29512,
+      "name": "Reprompt",
+      "slug": "reprompt",
+      "batch": "Winter 2024",
+      "url": "https://www.ycombinator.com/companies/reprompt",
+      "changes": [
+        {
+          "field": "isHiring",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 29613,
+      "name": "ClaimSorted",
+      "slug": "claimsorted",
+      "batch": "Summer 2024",
+      "url": "https://www.ycombinator.com/companies/claimsorted",
+      "changes": [
+        {
+          "field": "all_locations",
+          "before": "London, England, United Kingdom",
+          "after": "New York City, NY, USA"
         },
         {
           "field": "team_size",
-          "before": 10,
-          "after": 40
+          "before": 20,
+          "after": 50
+        },
+        {
+          "field": "regions",
+          "before": [
+            "United Kingdom",
+            "Europe",
+            "Remote",
+            "Partly Remote"
+          ],
+          "after": [
+            "United States of America",
+            "America / Canada",
+            "Remote",
+            "Partly Remote"
+          ]
         }
       ]
     },
     {
-      "id": 26837,
-      "name": "Unify",
-      "slug": "unify",
-      "batch": "Winter 2023",
-      "url": "https://www.ycombinator.com/companies/unify",
+      "id": 30238,
+      "name": "Amby Health",
+      "slug": "amby-health",
+      "batch": "Winter 2025",
+      "url": "https://www.ycombinator.com/companies/amby-health",
       "changes": [
         {
           "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/90e213981ccee521dac2989633ba8959528e318e.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/6b96fdc50d7076ac83595fe19f86409c50f7819d.png"
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/2236b25dd12c87c047e1fa71435b329c187e2c47.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/bc49e34423d3918787728d1f1297c2d2b4ace138.png"
         }
       ]
     },
     {
-      "id": 30091,
-      "name": "CollectWise",
-      "slug": "collectwise",
-      "batch": "Fall 2024",
-      "url": "https://www.ycombinator.com/companies/collectwise",
+      "id": 30288,
+      "name": "Harper",
+      "slug": "harper",
+      "batch": "Winter 2025",
+      "url": "https://www.ycombinator.com/companies/harper",
       "changes": [
         {
-          "field": "team_size",
-          "before": 12,
-          "after": 22
+          "field": "stage",
+          "before": "Early",
+          "after": "Growth"
         }
       ]
     },
     {
-      "id": 31230,
-      "name": "o11",
-      "slug": "o11",
-      "batch": "Winter 2026",
-      "url": "https://www.ycombinator.com/companies/o11",
+      "id": 30671,
+      "name": "Panoptive",
+      "slug": "panoptive",
+      "batch": "Summer 2025",
+      "url": "https://www.ycombinator.com/companies/panoptive",
       "changes": [
         {
-          "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/34cf69944142b4ae981a790f75fe9293d52369a2.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/4edfe3d4258c78116408991c64d915432a53435a.png"
+          "field": "one_liner",
+          "before": "The continuous oversight engine for clinical trials",
+          "after": "Agent systems for clinical development work"
         }
       ]
     },
     {
-      "id": 31306,
-      "name": "Martini",
-      "slug": "martini",
-      "batch": "Winter 2026",
-      "url": "https://www.ycombinator.com/companies/martini",
+      "id": 31512,
+      "name": "Aernata",
+      "slug": "aernata",
+      "batch": "Spring 2026",
+      "url": "https://www.ycombinator.com/companies/aernata",
+      "changes": [
+        {
+          "field": "one_liner",
+          "before": "Making clean methanol out of CO2.",
+          "after": "Making clean fuels out of CO2."
+        }
+      ]
+    },
+    {
+      "id": 32133,
+      "name": "Belvedir",
+      "slug": "belvedir",
+      "batch": "Summer 2026",
+      "url": "https://www.ycombinator.com/companies/belvedir",
+      "changes": [
+        {
+          "field": "one_liner",
+          "before": "The autonomous AI model factory",
+          "after": "Autonomous AI Model Training"
+        }
+      ]
+    },
+    {
+      "id": 33310,
+      "name": "Petrarch",
+      "slug": "petrarch",
+      "batch": "Summer 2026",
+      "url": "https://www.ycombinator.com/companies/petrarch",
+      "changes": [
+        {
+          "field": "one_liner",
+          "before": "Internal industrial company data for frontier labs",
+          "after": "Advancing model capabilities for critical infrastructure"
+        }
+      ]
+    },
+    {
+      "id": 36347,
+      "name": "Latent",
+      "slug": "trylatent",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/trylatent",
       "changes": [
         {
           "field": "tags",
-          "before": [],
-          "after": [
-            "Generative AI",
-            "Entertainment",
-            "Design Tools",
-            "Video",
-            "Media"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 35784,
-      "name": "Vorelios",
-      "slug": "vorelios",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/vorelios",
-      "changes": [
-        {
-          "field": "one_liner",
-          "before": "A foundation model for engineering physics",
-          "after": "Solving engineering, then using it to solve everything else"
-        }
-      ]
-    },
-    {
-      "id": 36444,
-      "name": "Odin Robotics",
-      "slug": "odin-robotics",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/odin-robotics",
-      "changes": [
-        {
-          "field": "industry",
-          "before": "Consumer",
-          "after": "Industrials"
-        },
-        {
-          "field": "subindustry",
-          "before": "Consumer -> Home and Personal",
-          "after": "Industrials -> Manufacturing and Robotics"
-        },
-        {
-          "field": "industries",
           "before": [
-            "Consumer",
-            "Home and Personal"
+            "Fraud Detection",
+            "AI"
           ],
           "after": [
-            "Industrials",
-            "Manufacturing and Robotics"
+            "AI"
           ]
-        }
-      ]
-    },
-    {
-      "id": 36777,
-      "name": "Sona8",
-      "slug": "sona8",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/sona8",
-      "changes": [
-        {
-          "field": "one_liner",
-          "before": "Context layer from employee voices to improve & automate workflows",
-          "after": "Voice agents survey employees to map, improve & automate workflows"
         }
       ]
     }
