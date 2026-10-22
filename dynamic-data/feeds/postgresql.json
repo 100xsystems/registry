@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-10-22T16:41:52.861Z",
+  "updatedAt": "2026-10-22T21:02:39.552Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -2857,7 +2857,15 @@
       "summary": "Yesterday, a colleague of mine opened a simple PR. The business needed a region on an existing table, so he added a text column to hold it. Clean, small, ready to review and merge. Database internals? No problem. This was going to be a five-minute approval.\nI did not approve it.\nNot because the…",
       "author": null,
       "publishedAt": "2026-10-22T00:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9zD",
+      "title": "Muhammad Aqeel: Undo for Postgres, without losing the rest of your day",
+      "link": "https://postgr.es/p/9zD",
+      "summary": "Postgres gives you no way to take back a single statement. When someone runs an UPDATE without its WHERE clause, recovery is a procedure rather than a command. You restore a copy of the database to the moment before the mistake, pull out the rows that were damaged, and reconcile them by hand…",
+      "author": null,
+      "publishedAt": "2026-10-22T16:41:16.000Z"
     }
   ],
-  "totalIndexed": 356
+  "totalIndexed": 357
 }
