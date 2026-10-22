@@ -8,7 +8,7 @@
     "developer-tools",
     "platform"
   ],
-  "updatedAt": "2026-10-16T03:22:24.117Z",
+  "updatedAt": "2026-10-22T03:30:49.659Z",
   "items": [
     {
       "guid": "https://github.blog/?p=97604",
@@ -145,7 +145,15 @@
       "summary": "Put native GitHub features to work to review outside collaborator access and archive stale repositories.\nThe post Staying Evergreen: How we automated secure access and repo hygiene in a shared org appeared first on The GitHub Blog.",
       "author": "Greg Mohler",
       "publishedAt": "2026-10-15T18:00:00.000Z"
+    },
+    {
+      "guid": "https://github.blog/?p=99628",
+      "title": "The bridge to agent-scale Git infrastructure",
+      "link": "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/",
+      "summary": "We moved a copy of 99.99999% of GitHub's repositories to Azure. Here's how per-reference quorums will bring over the rest, and how object storage lets reads scale independently.\nThe post The bridge to agent-scale Git infrastructure appeared first on The GitHub Blog.",
+      "author": "Eleanor White",
+      "publishedAt": "2026-10-21T16:00:00.000Z"
     }
   ],
-  "totalIndexed": 17
+  "totalIndexed": 18
 }

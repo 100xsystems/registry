@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-10-20T16:24:48.989Z",
+  "updatedAt": "2026-10-22T03:30:51.034Z",
   "items": [
     {
       "guid": "https://thedailywtf.com/articles/classic-wtf-my-many-girlfriends",
@@ -487,7 +487,15 @@
       "summary": "At my employer, we use a service called Coveralls, which is a code coverage reporting tool that hooks into your CI pipeline. It takes your lcov reports and gives you some insights, and also makes it easy to cause the CI pipeline to fail if newly added code doesn't have reasonable coverage.\nI have…",
       "author": "Remy Porter",
       "publishedAt": "2026-10-20T06:30:00.000Z"
+    },
+    {
+      "guid": "https://thedailywtf.com/articles/doing-the-assignment",
+      "title": "CodeSOD: Doing the Assignment",
+      "link": "https://thedailywtf.com/articles/doing-the-assignment",
+      "summary": "Today's code maybe isn't much of a WTF, but it does point in the general direction of, \"Damn, you live like this?\" Poor Nancy unfortunately does.\nint x = 3;\nint y = 4;\nint z = 4;\nx = y = z;\n\nEach variable is declared and initialized, and then they're set equal to each other. It just raises the…",
+      "author": "Remy Porter",
+      "publishedAt": "2026-10-21T06:30:00.000Z"
     }
   ],
-  "totalIndexed": 60
+  "totalIndexed": 61
 }

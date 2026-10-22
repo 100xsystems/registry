@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-10-20T16:24:48.891Z",
+  "updatedAt": "2026-10-22T03:30:51.026Z",
   "items": [
     {
       "guid": "https://www.tigerdata.com/blog/whats-new-in-tiger-cloud",
@@ -183,7 +183,15 @@
       "summary": "searchgres.js composes BM25, semantic ranking, and filters for hierarchy, metadata, and time in a single Postgres query. Open-source TypeScript, Apache-2.0.",
       "author": "John Pruitt",
       "publishedAt": "2026-10-20T13:00:20.000Z"
+    },
+    {
+      "guid": "https://www.tigerdata.com/blog/designing-iiot-ingest-that-survives-cut-uplink",
+      "title": "Designing IIoT Ingest That Survives a Cut Uplink",
+      "link": "https://www.tigerdata.com/blog/designing-iiot-ingest-that-survives-cut-uplink",
+      "summary": "IIoT ingest that survives a cut uplink: enforce each reading’s identity, buffer durably at the edge, and cap the replay so catch-up can’t starve live sites.",
+      "author": "John Shi",
+      "publishedAt": "2026-10-21T12:08:45.000Z"
     }
   ],
-  "totalIndexed": 22
+  "totalIndexed": 23
 }

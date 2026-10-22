@@ -1,77 +1,68 @@
-# YC Company Changes for 2026-10-21
+# YC Company Changes for 2026-10-22
 
 - Previous total: 6323
-- Current total: 6323
+- Current total: 6322
 - Added: 0
-- Removed: 0
-- Updated: 15
+- Removed: 1
+- Updated: 12
 
+
+## Removed Companies
+
+- OpenProse (Spring 2026)
 
 ## Updated Companies
 
-### [Universe](https://www.ycombinator.com/companies/universe)
+### [Close](https://www.ycombinator.com/companies/close)
 
-- `status`: Active → Inactive
-- `stage`: Growth → Early
+- `one_liner`: CRM and sales automation tools for startups and SMBs → CRM and sales automation suite
+- `team_size`: 120 → 130
+- `tags`: SaaS,B2B → SaaS,B2B,Sales,Sales Enablement,CRM
 
-### [Ollama](https://www.ycombinator.com/companies/ollama)
-
-- `stage`: Growth → Early
-
-### [Pantore Pay](https://www.ycombinator.com/companies/pantore-pay)
-
-- `status`: Active → Inactive
-
-### [HappyRobot](https://www.ycombinator.com/companies/happyrobot)
+### [Standard AI](https://www.ycombinator.com/companies/standard-ai)
 
 - `stage`: Growth → Early
 
-### [FirstWork](https://www.ycombinator.com/companies/firstwork)
-
-- `one_liner`: Rippling for seasonal workers → Applied AI for workforce operations
-
-### [Harper](https://www.ycombinator.com/companies/harper)
+### [Formal](https://www.ycombinator.com/companies/formal)
 
 - `stage`: Growth → Early
 
-### [Casey](https://www.ycombinator.com/companies/casey)
+### [Onebrief](https://www.ycombinator.com/companies/onebrief)
 
-- `isHiring`: false → true
+- `stage`: Growth → Early
 
-### [Sparkles](https://www.ycombinator.com/companies/sparkles)
+### [Wagetap](https://www.ycombinator.com/companies/wagetap)
 
-- `team_size`: 1 → 2
-- `isHiring`: true → false
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/d38ad7785b7af1240fa55c48a8574a60cc6bf8c3.png → https://bookface-images.s3.amazonaws.com/small_logos/5250364c80e7e3b7bcd2e34ff62e9ccf670b9cd5.png
+- `one_liner`: Advance next payday, and BNPL for bills → Access up to $2,000 of your wage in advance
+- `team_size`: 10 → 40
 
-### [SideKit](https://www.ycombinator.com/companies/sidekit)
+### [Unify](https://www.ycombinator.com/companies/unify)
 
-- `name`: Approxima → SideKit
-- `slug`: approxima → sidekit
-- `former_names`: Sidekit,SideKit → Sidekit,SideKit,Approxima
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/e6e6d183a6369dfc8a86aad778e45ad07d16406f.png → https://bookface-images.s3.amazonaws.com/small_logos/3f92328a175964c6444951d5ecf374ac25667dab.png
-- `website`: https://approxima.ai → https://appsidekit.com
-- `one_liner`: Your software should build itself. → Consumer app studio.
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/90e213981ccee521dac2989633ba8959528e318e.png → https://bookface-images.s3.amazonaws.com/small_logos/6b96fdc50d7076ac83595fe19f86409c50f7819d.png
 
-### [Libra Robotics](https://www.ycombinator.com/companies/libra-robotics)
+### [CollectWise](https://www.ycombinator.com/companies/collectwise)
 
-- `one_liner`: The robot workforce for infrastructure → The robot workforce for infrastructure of the AI era
+- `team_size`: 12 → 22
 
-### [ClaimKit](https://www.ycombinator.com/companies/claimkit)
+### [o11](https://www.ycombinator.com/companies/o11)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/84c9108b678be20aa2eb043ad910ef1419471630.png → https://bookface-images.s3.amazonaws.com/small_logos/3fc859869ec0d44cca04573f4fc8c9c6680e3a6c.png
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/34cf69944142b4ae981a790f75fe9293d52369a2.png → https://bookface-images.s3.amazonaws.com/small_logos/4edfe3d4258c78116408991c64d915432a53435a.png
 
-### [Olam Labs](https://www.ycombinator.com/companies/olam-labs)
+### [Martini](https://www.ycombinator.com/companies/martini)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/d6d9543a0527b0b5ac428e043f211c75ac5d1d59.png → https://bookface-images.s3.amazonaws.com/small_logos/493b89aecabc7b6fc643db9bad0535c31df8681d.png
+- `tags`:  → Generative AI,Entertainment,Design Tools,Video,Media
 
-### [Click](https://www.ycombinator.com/companies/click)
+### [Vorelios](https://www.ycombinator.com/companies/vorelios)
 
-- `one_liner`: Serverless agents → Managed Agents API
+- `one_liner`: A foundation model for engineering physics → Solving engineering, then using it to solve everything else
 
-### [Kiwi](https://www.ycombinator.com/companies/kiwi)
+### [Odin Robotics](https://www.ycombinator.com/companies/odin-robotics)
 
-- `launched_at`: 1787879276 → 1792546887
+- `industry`: Consumer → Industrials
+- `subindustry`: Consumer -> Home and Personal → Industrials -> Manufacturing and Robotics
+- `industries`: Consumer,Home and Personal → Industrials,Manufacturing and Robotics
 
-### [Boxes.dev](https://www.ycombinator.com/companies/boxesdev)
+### [Sona8](https://www.ycombinator.com/companies/sona8)
 
-- `one_liner`: Cloud development environments for AI coding → A better place to run your coding agents.
+- `one_liner`: Context layer from employee voices to improve & automate workflows → Voice agents survey employees to map, improve & automate workflows

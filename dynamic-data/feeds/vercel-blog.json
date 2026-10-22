@@ -9,7 +9,7 @@
     "edge-computing",
     "nextjs"
   ],
-  "updatedAt": "2026-10-20T21:04:36.976Z",
+  "updatedAt": "2026-10-22T03:30:50.162Z",
   "items": [
     {
       "guid": "vercel-blog::https://vercel.com/changelog/ai-gateway-now-supports-streaming-transcription",
@@ -4938,7 +4938,15 @@
       "summary": "support in  is now generally available.WebSocketVercel Functions\nSince the , Vercel CDN has served 300 million WebSocket connections, and now serves 15 million per day.public beta launched in late June\nCustomers use WebSockets for AI chat, streaming, and realtime multiplayer apps. WebSockets also…",
       "author": "Matthew Stanciu",
       "publishedAt": "2026-10-20T20:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/routing-middleware-now-supports-python",
+      "title": "Routing Middleware now supports Python",
+      "link": "https://vercel.com/changelog/routing-middleware-now-supports-python",
+      "summary": "You can now write  in Python for FastAPI, Flask, Django, and other Python frameworks. It runs before requests reach your app, and can rewrite, redirect, or answer them.routing middleware\nTo set it up, point the  entrypoint in  at your proxy:proxyvercel.toml\nYour middleware is an ASGI or WSGI app…",
+      "author": "Daniel Park",
+      "publishedAt": "2026-10-21T17:00:00.000Z"
     }
   ],
-  "totalIndexed": 616
+  "totalIndexed": 617
 }

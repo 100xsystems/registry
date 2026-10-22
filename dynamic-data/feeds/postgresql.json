@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-10-21T16:41:01.204Z",
+  "updatedAt": "2026-10-22T03:30:40.864Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -2825,7 +2825,15 @@
       "summary": "Read replicas are one tool, but tuning a replica for one job and sending it another is a recipe for conflict.\n\n(I consult on PostgreSQL through PGX Inc..)",
       "author": null,
       "publishedAt": "2026-10-21T16:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9zw",
+      "title": "Christophe Pettus: All Your GUCs in a Row: recovery_prefetch",
+      "link": "https://postgr.es/p/9zw",
+      "summary": "Standby lagging on network storage? `recovery_prefetch` lets WAL replay ask the kernel to read pages before it needs them, turning seventeen minutes of…\n\n(I consult on PostgreSQL through PGX Inc..)",
+      "author": null,
+      "publishedAt": "2026-10-22T01:00:00.000Z"
     }
   ],
-  "totalIndexed": 352
+  "totalIndexed": 353
 }
