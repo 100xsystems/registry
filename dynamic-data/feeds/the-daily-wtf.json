@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-10-22T03:30:51.034Z",
+  "updatedAt": "2026-10-22T16:42:05.149Z",
   "items": [
     {
       "guid": "https://thedailywtf.com/articles/classic-wtf-my-many-girlfriends",
@@ -495,7 +495,15 @@
       "summary": "Today's code maybe isn't much of a WTF, but it does point in the general direction of, \"Damn, you live like this?\" Poor Nancy unfortunately does.\nint x = 3;\nint y = 4;\nint z = 4;\nx = y = z;\n\nEach variable is declared and initialized, and then they're set equal to each other. It just raises the…",
       "author": "Remy Porter",
       "publishedAt": "2026-10-21T06:30:00.000Z"
+    },
+    {
+      "guid": "https://thedailywtf.com/articles/readable-formats",
+      "title": "Representative Line: Readable Formats",
+      "link": "https://thedailywtf.com/articles/readable-formats",
+      "summary": "We all love format strings for generating human readable text. Certainly, they're a better choice than string concatenation. Even if I have a blind spot that keeps me from remembering the printf format tokens, I still prefer to use format strings.\nJasmine has a co-worker that does use format…",
+      "author": "Remy Porter",
+      "publishedAt": "2026-10-22T06:30:00.000Z"
     }
   ],
-  "totalIndexed": 61
+  "totalIndexed": 62
 }

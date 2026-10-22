@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-10-22T03:30:40.864Z",
+  "updatedAt": "2026-10-22T16:41:52.861Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -2833,7 +2833,31 @@
       "summary": "Standby lagging on network storage? `recovery_prefetch` lets WAL replay ask the kernel to read pages before it needs them, turning seventeen minutes of…\n\n(I consult on PostgreSQL through PGX Inc..)",
       "author": null,
       "publishedAt": "2026-10-22T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9zC",
+      "title": "Umair Shahid: Your app does not need PostgreSQL superuser",
+      "link": "https://postgr.es/p/9zC",
+      "summary": "A PostgreSQL superuser can read any file on the server, write to it, and run shell commands on the host. That is more than just a powerful database account. It is shell access.\nThis is also why the role your application logs in with should almost never be a superuser. Most tools ask for it anyway,…",
+      "author": null,
+      "publishedAt": "2026-10-22T16:29:10.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9zA",
+      "title": "Christophe Pettus: Binary read replicas in PostgreSQL, Part 3",
+      "link": "https://postgr.es/p/9zA",
+      "summary": "Create replicas with a single command, but master the procedure for replacing a failed primary—that's where things get tricky and installations break.\n\n(I consult on PostgreSQL through PGX Inc..)",
+      "author": null,
+      "publishedAt": "2026-10-22T16:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9zB",
+      "title": "Lætitia AVROT: Region : a lesson in data integrity",
+      "link": "https://postgr.es/p/9zB",
+      "summary": "Yesterday, a colleague of mine opened a simple PR. The business needed a region on an existing table, so he added a text column to hold it. Clean, small, ready to review and merge. Database internals? No problem. This was going to be a five-minute approval.\nI did not approve it.\nNot because the…",
+      "author": null,
+      "publishedAt": "2026-10-22T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 353
+  "totalIndexed": 356
 }

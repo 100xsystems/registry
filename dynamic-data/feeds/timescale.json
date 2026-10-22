@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-10-22T03:30:51.026Z",
+  "updatedAt": "2026-10-22T16:42:05.166Z",
   "items": [
     {
       "guid": "https://www.tigerdata.com/blog/whats-new-in-tiger-cloud",
@@ -191,7 +191,15 @@
       "summary": "IIoT ingest that survives a cut uplink: enforce each reading’s identity, buffer durably at the edge, and cap the replay so catch-up can’t starve live sites.",
       "author": "John Shi",
       "publishedAt": "2026-10-21T12:08:45.000Z"
+    },
+    {
+      "guid": "https://www.tigerdata.com/blog/we-built-three-memory-systems-most-expressive-wasnt-most-useful",
+      "title": "We built three memory systems. The most expressive one wasn’t the most useful.",
+      "link": "https://www.tigerdata.com/blog/we-built-three-memory-systems-most-expressive-wasnt-most-useful",
+      "summary": "Facts, then a knowledge graph, then a tree. The most expressive system wasn’t the most useful, and the reason shaped searchgres.js.",
+      "author": "John Pruitt",
+      "publishedAt": "2026-10-22T12:16:21.000Z"
     }
   ],
-  "totalIndexed": 23
+  "totalIndexed": 24
 }
