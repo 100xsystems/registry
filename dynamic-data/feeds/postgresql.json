@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-10-23T03:35:55.335Z",
+  "updatedAt": "2026-10-23T11:19:38.684Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -2881,7 +2881,23 @@
       "summary": "The PostgreSQL RPM repository has supported Amazon Linux 2023 for a while, but until this week it had no GIS packages there: a few weeks ago I removed the AL2023 build of the GIS stack, as the distribution does not ship several libraries our GDAL was built against (hdf5, netcdf, xerces-c, Qt and…",
       "author": null,
       "publishedAt": "2026-10-22T21:08:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9zJ",
+      "title": "Karen Jex: Tuning Postgres for Analytics - PGConf.EU",
+      "link": "https://postgr.es/p/9zJ",
+      "summary": "Please enjoy the slides and transcript from\n  Tuning Postgres for Analytics\n  at PostgreSQL Conference Europe (PGConf.EU) in Valencia, Spain on 20 Oct 2026.\n\nI'll add a link to the recording once it's available.\n\n\n\n\n\n  Obviously, I don't know the specifics of your particular Postgres environment.…",
+      "author": null,
+      "publishedAt": "2026-10-23T06:05:47.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9zI",
+      "title": "Igor Suhorukov: A knowledge base without a second database: Oxigraph’s SPARQL in PostgreSQL 19",
+      "link": "https://postgr.es/p/9zI",
+      "summary": "In my last post, a friend of mine kept four databases in production. Ask a team like that for a knowledge graph, and you can guess the fifth: a triple store. Search over company data, an ontology of products or skills, facts for an LLM application: a knowledge base often means RDF and SPARQL, and…",
+      "author": null,
+      "publishedAt": "2026-10-23T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 359
+  "totalIndexed": 361
 }

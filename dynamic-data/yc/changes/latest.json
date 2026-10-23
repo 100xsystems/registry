@@ -1,31 +1,31 @@
 {
   "date": "2026-10-23",
-  "fetchedAt": "2026-10-23T03:36:11.255Z",
-  "previousCount": 6328,
-  "currentCount": 6329,
+  "fetchedAt": "2026-10-23T11:19:56.791Z",
+  "previousCount": 6329,
+  "currentCount": 6331,
   "added": [
     {
-      "id": 37797,
-      "name": "STASIS",
-      "slug": "stasis",
+      "id": 32847,
+      "name": "Liquid Energy",
+      "slug": "liquid-energy",
       "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/670dd0e2fb9cb21d4541907259f19468dcbf4a1f.png",
-      "website": "https://www.get-stasis.com/",
-      "all_locations": "San Francisco, CA, USA",
-      "long_description": "",
-      "one_liner": "The WHOOP for 16 billion eyes",
-      "team_size": 2,
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/0cd0771f97af67208bd0d5a30aaee3a43988fec3.png",
+      "website": "https://www.liquidenergy.world",
+      "all_locations": "Waterloo, ON, Canada",
+      "long_description": "Liquid Energy delivers the most scalable and cost effective inference. Our compute is hosted in our proprietary data center modules that we call NanoDC - the Nano Data Center. \r\n\r\nNanoDC is engineered to be rapidly deployable and scalable without traditional bottlenecks like power, permitting, and supply chains. Using NanoDC, Liquid Energy is able to provide the most efficient and sustainable way to scale compute to meet global AI demand.",
+      "one_liner": "Self contained solar-powered AI inference modules: the NanoDC",
+      "team_size": 5,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
-      "industry": "Consumer",
-      "subindustry": "Consumer",
-      "launched_at": 1792723639,
+      "industry": "Industrials",
+      "subindustry": "Industrials -> Energy",
+      "launched_at": 1792731495,
       "tags": [
-        "Hardware",
-        "Sports Tech",
-        "Consumer Health Services",
-        "Health & Wellness"
+        "Hard Tech",
+        "Solar Power",
+        "Energy",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -34,7 +34,52 @@
       "batch": "Fall 2026",
       "status": "Active",
       "industries": [
-        "Consumer"
+        "Industrials",
+        "Energy"
+      ],
+      "regions": [
+        "Canada",
+        "America / Canada"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/liquid-energy"
+    },
+    {
+      "id": 36974,
+      "name": "Epsilab",
+      "slug": "epsilab-com",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/164ea33865ee89b7b5313a5260d5dec8510fb8ec.png",
+      "website": "https://www.epsilab.com",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "Applied AI research lab focused on RL for frontier model training. Our research and evals cover real-world environment simulation, long-horizon workflows, and multi-player agents, etc.",
+      "one_liner": "Long horizon RL environments from real-life data",
+      "team_size": 4,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "B2B",
+      "subindustry": "B2B",
+      "launched_at": 1792729092,
+      "tags": [
+        "Machine Learning",
+        "Reinforcement Learning",
+        "B2B",
+        "Data Labeling",
+        "AI"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Fall 2026",
+      "status": "Active",
+      "industries": [
+        "B2B"
       ],
       "regions": [
         "United States of America",
@@ -45,7 +90,7 @@
       "demo_day_video_public": false,
       "app_answers": null,
       "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/stasis"
+      "url": "https://www.ycombinator.com/companies/epsilab-com"
     }
   ],
   "removed": [],
@@ -59,8 +104,22 @@
       "changes": [
         {
           "field": "stage",
-          "before": "Growth",
-          "after": "Early"
+          "before": "Early",
+          "after": "Growth"
+        }
+      ]
+    },
+    {
+      "id": 1266,
+      "name": "Meesho",
+      "slug": "meesho",
+      "batch": "Summer 2016",
+      "url": "https://www.ycombinator.com/companies/meesho",
+      "changes": [
+        {
+          "field": "stage",
+          "before": "Early",
+          "after": "Growth"
         }
       ]
     },
@@ -73,22 +132,8 @@
       "changes": [
         {
           "field": "stage",
-          "before": "Growth",
-          "after": "Early"
-        }
-      ]
-    },
-    {
-      "id": 2028,
-      "name": "Rejuvenation Technologies Inc.",
-      "slug": "rejuvenation-technologies-inc",
-      "batch": "Summer 2018",
-      "url": "https://www.ycombinator.com/companies/rejuvenation-technologies-inc",
-      "changes": [
-        {
-          "field": "team_size",
-          "before": 2,
-          "after": 7
+          "before": "Early",
+          "after": "Growth"
         }
       ]
     },
@@ -101,279 +146,36 @@
       "changes": [
         {
           "field": "stage",
-          "before": "Growth",
-          "after": "Early"
+          "before": "Early",
+          "after": "Growth"
         }
       ]
     },
     {
-      "id": 29767,
-      "name": "Thunder Compute",
-      "slug": "thunder-compute",
+      "id": 29788,
+      "name": "Refactor",
+      "slug": "refactor",
       "batch": "Summer 2024",
-      "url": "https://www.ycombinator.com/companies/thunder-compute",
+      "url": "https://www.ycombinator.com/companies/refactor",
       "changes": [
         {
-          "field": "one_liner",
-          "before": "GPUs for Agents",
-          "after": "The GPU sandbox company"
-        }
-      ]
-    },
-    {
-      "id": 30554,
-      "name": "Bond",
-      "slug": "bond",
-      "batch": "Spring 2025",
-      "url": "https://www.ycombinator.com/companies/bond",
-      "changes": [
-        {
-          "field": "demo_day_video_public",
+          "field": "isHiring",
           "before": true,
           "after": false
         }
       ]
     },
     {
-      "id": 30592,
-      "name": "Prox",
-      "slug": "prox",
-      "batch": "Fall 2025",
-      "url": "https://www.ycombinator.com/companies/prox",
+      "id": 29851,
+      "name": "Diode Computers, Inc.",
+      "slug": "diode-computers-inc",
+      "batch": "Summer 2024",
+      "url": "https://www.ycombinator.com/companies/diode-computers-inc",
       "changes": [
         {
-          "field": "website",
-          "before": "https://useprox.com",
-          "after": ""
-        },
-        {
-          "field": "one_liner",
-          "before": "AI product specialists for equipment manufacturers",
-          "after": "..."
-        },
-        {
-          "field": "team_size",
-          "before": 7,
-          "after": 3
-        },
-        {
-          "field": "industry",
-          "before": "B2B",
-          "after": "Industrials"
-        },
-        {
-          "field": "subindustry",
-          "before": "B2B -> Retail",
-          "after": "Industrials -> Defense"
-        },
-        {
-          "field": "tags",
-          "before": [
-            "Customer Success",
-            "E-commerce",
-            "Customer Support",
-            "AI"
-          ],
-          "after": [
-            "Defense"
-          ]
-        },
-        {
-          "field": "industries",
-          "before": [
-            "B2B",
-            "Retail"
-          ],
-          "after": [
-            "Industrials",
-            "Defense"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 31171,
-      "name": "Overshoot",
-      "slug": "overshoot",
-      "batch": "Winter 2026",
-      "url": "https://www.ycombinator.com/companies/overshoot",
-      "changes": [
-        {
-          "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/cabbe8c8fd17d316132f3dc3a13e469c74ebb408.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/75ab36afe66f4bda5eff13ae18da37d871c835e7.png"
-        },
-        {
-          "field": "one_liner",
-          "before": "AI Infra for real-time vision applications",
-          "after": "We optimize inference stacks for teams"
-        },
-        {
-          "field": "tags",
-          "before": [],
-          "after": [
-            "Infrastructure",
-            "AI"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 31223,
-      "name": "Datoric",
-      "slug": "datoric",
-      "batch": "Summer 2026",
-      "url": "https://www.ycombinator.com/companies/datoric",
-      "changes": [
-        {
-          "field": "one_liner",
-          "before": "The secure training data R&D engine for physical AI",
-          "after": "The training data R&D engine for physical AI"
-        }
-      ]
-    },
-    {
-      "id": 31306,
-      "name": "Martini",
-      "slug": "martini",
-      "batch": "Winter 2026",
-      "url": "https://www.ycombinator.com/companies/martini",
-      "changes": [
-        {
-          "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/6c61a438eef6d3a1fe29d67dd180ddaaac257b9d.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/db10d91f7f05057c62a3c61e66da7a84cd7591fb.png"
-        }
-      ]
-    },
-    {
-      "id": 31335,
-      "name": "Memoir",
-      "slug": "memoir",
-      "batch": "Spring 2026",
-      "url": "https://www.ycombinator.com/companies/memoir",
-      "changes": [
-        {
-          "field": "website",
-          "before": "https://www.trymemoir.ai/",
-          "after": "https://www.memoirmeet.com/"
-        },
-        {
-          "field": "one_liner",
-          "before": "Everything your team ships, explained to everyone it affects.",
-          "after": "The Zoom alternative where agents build what you discuss in real time"
-        }
-      ]
-    },
-    {
-      "id": 31454,
-      "name": "decuff",
-      "slug": "decuff",
-      "batch": "Spring 2026",
-      "url": "https://www.ycombinator.com/companies/decuff",
-      "changes": [
-        {
-          "field": "name",
-          "before": "E1O",
-          "after": "decuff"
-        },
-        {
-          "field": "slug",
-          "before": "e1o",
-          "after": "decuff"
-        },
-        {
-          "field": "former_names",
-          "before": [
-            "Datost",
-            "ED1TH"
-          ],
-          "after": [
-            "Datost",
-            "ED1TH",
-            "E1O"
-          ]
-        },
-        {
-          "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/9320ae60dfd7f05401e99f8ca644e1ab6704289e.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/8bed27862086c517104b2beaea42a6396e84ca95.png"
-        },
-        {
-          "field": "website",
-          "before": "https://e1o.com",
-          "after": "https://decuff.ai"
-        },
-        {
-          "field": "one_liner",
-          "before": "Camera-free AI glasses. Your AI, out in the world.",
-          "after": "Uncensored AI models, served at scale with zero data retention."
-        },
-        {
-          "field": "tags",
-          "before": [
-            "Hardware",
-            "Consumer",
-            "AI Assistant"
-          ],
-          "after": [
-            "Developer Tools",
-            "Consumer",
-            "Infrastructure",
-            "AI Assistant"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 32225,
-      "name": "Stoa",
-      "slug": "stoa",
-      "batch": "Summer 2026",
-      "url": "https://www.ycombinator.com/companies/stoa",
-      "changes": [
-        {
-          "field": "isHiring",
-          "before": false,
-          "after": true
-        }
-      ]
-    },
-    {
-      "id": 37005,
-      "name": "Verdun",
-      "slug": "verdun",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/verdun",
-      "changes": [
-        {
-          "field": "launched_at",
-          "before": 1787161911,
-          "after": 1792693117
-        }
-      ]
-    },
-    {
-      "id": 37203,
-      "name": "Volaren Inc.",
-      "slug": "volaren-inc",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/volaren-inc",
-      "changes": [
-        {
-          "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/0e143f02ee81e74efcd4497792528526f512482b.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/be43cf0580fc71ee690f3408420f4280b5e3665f.png"
-        },
-        {
-          "field": "all_locations",
-          "before": "New York City, NY, USA",
-          "after": "San Francisco, CA, USA"
-        },
-        {
-          "field": "one_liner",
-          "before": "Turning Ideas into Trades. Volaren puts the hedge fund in the hands…",
-          "after": "The investing agent that comes to you"
+          "field": "stage",
+          "before": "Early",
+          "after": "Growth"
         }
       ]
     }

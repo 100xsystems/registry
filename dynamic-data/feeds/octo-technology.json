@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-10-20T11:14:21.465Z",
+  "updatedAt": "2026-10-23T11:19:46.208Z",
   "items": [
     {
       "guid": "octo-technology::https://blog.octo.com/let's-code-drift-and-detect!",
@@ -439,7 +439,23 @@
       "summary": "iOS 27 fait tourner un LLM local sur iPhone : Core AI charge un modèle .aimodel derrière les mêmes API que FoundationModels, en une dizaine de  lignes. Mesures sur iPhone 16, iOS 27.0 : 3 des 10 familles du catalogue exportables, 874 Mo pour Qwen2.5-1.5B, 2 min au premier lancement, 14 à 25 s par…",
       "author": "Guillaume Sabatie",
       "publishedAt": "2026-10-20T08:39:10.000Z"
+    },
+    {
+      "guid": "octo-technology::https://blog.octo.com/harnais-agentiques-(12)--pourquoi-les-bonnes-pratiques-d'hier-coutent-cher-aujourd'hui",
+      "title": "Harnais agentiques (1/2) : pourquoi les bonnes pratiques d'hier coûtent cher aujourd'hui",
+      "link": "https://blog.octo.com/harnais-agentiques-(12)--pourquoi-les-bonnes-pratiques-d'hier-coutent-cher-aujourd'hui",
+      "summary": "Un agent de codage ne se résume pas au modèle qui l'anime. Le modèle de langage en est le moteur, mais il ne travaille jamais seul : il est intégré dans un harnais, c'est-à-dire l'ensemble des instructions, outils, règles, étapes d'orchestration et mécanismes de contrôle qui encadrent son travail.",
+      "author": "Bruno Boucard",
+      "publishedAt": "2026-10-23T09:08:10.000Z"
+    },
+    {
+      "guid": "octo-technology::https://blog.octo.com/mes-agents-lisaient-trop--ce-que-dix-semaines-de-chasse-aux-tokens-m'ont-appris",
+      "title": "Mes agents lisaient trop : ce que dix semaines de chasse aux tokens m'ont appris",
+      "link": "https://blog.octo.com/mes-agents-lisaient-trop--ce-que-dix-semaines-de-chasse-aux-tokens-m'ont-appris",
+      "summary": "Mes agents IA relisaient tout le journal pour y trouver une ligne. Depuis le 30 juillet, je chasse les tokens : mesurer d'abord, écrire des règles de lecture, retirer ce qui ne sert pas, borner chaque tâche. Des chiffres sourcés, des estimations assumées, et cinq gestes à appliquer dès demain, sans…",
+      "author": "Claude Camus",
+      "publishedAt": "2026-10-23T08:36:10.000Z"
     }
   ],
-  "totalIndexed": 54
+  "totalIndexed": 56
 }
