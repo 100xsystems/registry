@@ -1,29 +1,30 @@
 {
   "date": "2026-10-23",
-  "fetchedAt": "2026-10-23T16:32:19.102Z",
-  "previousCount": 6331,
-  "currentCount": 6332,
+  "fetchedAt": "2026-10-23T20:50:44.128Z",
+  "previousCount": 6332,
+  "currentCount": 6333,
   "added": [
     {
-      "id": 34861,
-      "name": "Topos",
-      "slug": "topos",
+      "id": 35157,
+      "name": "Nitroduck",
+      "slug": "nitroduck",
       "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/07dc8cbe943d3786ff88a0ef85951aa9f324ee98.png",
-      "website": "https://www.toposlab.com",
-      "all_locations": "San Francisco, CA, USA",
-      "long_description": "Topos is a neolab founded by two Harvard math dropouts, building agent swarms to bring the rigor and verifiability of mathematics to other fields. Starting in biology, we’re optimizing how agents communicate, formalize problems, and verify each other’s reasoning.",
-      "one_liner": "Agent swarms for formal verification",
-      "team_size": 2,
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/7e416670a0235f0c59a215dc6e113e1bf72a82f5.png",
+      "website": "https://nitroduck.tech/",
+      "all_locations": "Brno, South Moravian Region, Czechia",
+      "long_description": "We make gene editing easy for all crops. To make pesticides obsolete across vegetables and fruits, enabling coffee to withstand heat waves, making almonds independent of pollinators, pistachios independent of winter chill, and much more. To let breeders create novel, consumer-facing crop varieties like pink pineapples, seedless cherries, and non-browning avocados.",
+      "one_liner": "Monsanto for yummy crops, but without pesticides",
+      "team_size": 3,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
       "industry": "Industrials",
-      "subindustry": "Industrials",
-      "launched_at": 1792768801,
+      "subindustry": "Industrials -> Agriculture",
+      "launched_at": 1785947487,
       "tags": [
-        "Swarm AI",
-        "AI"
+        "CRISPR",
+        "Sustainable Agriculture",
+        "Biotechnology"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -32,42 +33,57 @@
       "batch": "Fall 2026",
       "status": "Active",
       "industries": [
-        "Industrials"
+        "Industrials",
+        "Agriculture"
       ],
       "regions": [
-        "United States of America",
-        "America / Canada"
+        "Czechia",
+        "Europe"
       ],
       "stage": "Early",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
       "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/topos"
+      "url": "https://www.ycombinator.com/companies/nitroduck"
     }
   ],
   "removed": [],
   "updated": [
     {
-      "id": 24407,
-      "name": "Stardex",
-      "slug": "stardex",
-      "batch": "Summer 2021",
-      "url": "https://www.ycombinator.com/companies/stardex",
+      "id": 13579,
+      "name": "Tasker AI",
+      "slug": "tasker-ai",
+      "batch": "Winter 2020",
+      "url": "https://www.ycombinator.com/companies/tasker-ai",
       "changes": [
         {
           "field": "team_size",
           "before": 7,
-          "after": 9
+          "after": 1
         }
       ]
     },
     {
-      "id": 25865,
-      "name": "Andson Biotech",
-      "slug": "andson-biotech",
-      "batch": "Winter 2022",
-      "url": "https://www.ycombinator.com/companies/andson-biotech",
+      "id": 30055,
+      "name": "RiskCube",
+      "slug": "riskcube",
+      "batch": "Fall 2024",
+      "url": "https://www.ycombinator.com/companies/riskcube",
+      "changes": [
+        {
+          "field": "one_liner",
+          "before": "New American insurance company. ",
+          "after": "New American insurance company for hard tech, defense & AI."
+        }
+      ]
+    },
+    {
+      "id": 30338,
+      "name": "CopyCat AI",
+      "slug": "copycat-ai",
+      "batch": "Winter 2025",
+      "url": "https://www.ycombinator.com/companies/copycat-ai",
       "changes": [
         {
           "field": "isHiring",
@@ -77,44 +93,81 @@
       ]
     },
     {
-      "id": 31164,
-      "name": "Compresr",
-      "slug": "compresr",
-      "batch": "Winter 2026",
-      "url": "https://www.ycombinator.com/companies/compresr",
-      "changes": [
-        {
-          "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/7768e73d87dc6915fd2a78cbdff56013e194c8de.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/9a3f6ebbbbeecfb666ee2d21e63085d3fc18670e.png"
-        }
-      ]
-    },
-    {
-      "id": 31369,
-      "name": "InLoop Robotics",
-      "slug": "inloop-robotics",
+      "id": 31327,
+      "name": "Korso",
+      "slug": "korso",
       "batch": "Spring 2026",
-      "url": "https://www.ycombinator.com/companies/inloop-robotics",
-      "changes": [
-        {
-          "field": "isHiring",
-          "before": false,
-          "after": true
-        }
-      ]
-    },
-    {
-      "id": 32155,
-      "name": "Rex",
-      "slug": "rex-inc",
-      "batch": "Summer 2026",
-      "url": "https://www.ycombinator.com/companies/rex-inc",
+      "url": "https://www.ycombinator.com/companies/korso",
       "changes": [
         {
           "field": "one_liner",
-          "before": "AI-native BPO for enterprise order-to-cash",
-          "after": "AI operations partner for enterprise order-to-cash "
+          "before": "Your Capable Desktop AI Companion",
+          "after": "In Development"
+        },
+        {
+          "field": "industry",
+          "before": "Consumer",
+          "after": "B2B"
+        },
+        {
+          "field": "subindustry",
+          "before": "Consumer",
+          "after": "B2B -> Infrastructure"
+        },
+        {
+          "field": "tags",
+          "before": [
+            "SaaS",
+            "AI Assistant"
+          ],
+          "after": [
+            "Developer Tools",
+            "SaaS",
+            "AI"
+          ]
+        },
+        {
+          "field": "industries",
+          "before": [
+            "Consumer"
+          ],
+          "after": [
+            "B2B",
+            "Infrastructure"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 31529,
+      "name": "Mochatrade",
+      "slug": "mochatrade",
+      "batch": "Spring 2026",
+      "url": "https://www.ycombinator.com/companies/mochatrade",
+      "changes": [
+        {
+          "field": "small_logo_thumb_url",
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/b53aed7c2d61caf968cbcb61a42f6cd0f7f65ef9.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/41f6bb0885038cff5deb3b8cceebac0e314d969c.png"
+        },
+        {
+          "field": "one_liner",
+          "before": "US stock trading, unlocked for the globe",
+          "after": "Trade US markets from India, in Rupees"
+        }
+      ]
+    },
+    {
+      "id": 34959,
+      "name": "Applied Kinetics",
+      "slug": "applied-kinetics",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/applied-kinetics",
+      "changes": [
+        {
+          "field": "one_liner",
+          "before": "End-to-end manufacturing for data center and energy projects",
+          "after": "AI-native manufacturing for data center and energy projects"
         }
       ]
     }

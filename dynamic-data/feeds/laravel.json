@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-10-23T16:32:11.287Z",
+  "updatedAt": "2026-10-23T20:50:32.350Z",
   "items": [
     {
       "guid": "https://laravel-news.com/pest-5",
@@ -863,7 +863,15 @@
       "summary": "Laravel's PreventStaleDatabaseReads middleware keeps a user's reads on the write database after they save, so read replica lag doesn't show them old data.\nThe post Laravel Read Replicas: Prevent Stale Reads After a Write appeared first on Laravel News.\nJoin the Laravel Newsletter to get Laravel…",
       "author": "Paul Redmond",
       "publishedAt": "2026-10-22T23:20:21.000Z"
+    },
+    {
+      "guid": "https://laravel-news.com/volker-dusch-php-rce-disclosure",
+      "title": "Volker Dusch on the PHP RCE Vulnerabilities and Disclosure",
+      "link": "https://laravel-news.com/volker-dusch-php-rce-disclosure?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+      "summary": "Volker Dusch of the PHP Foundation explains how the two critical PHP RCE vulnerabilities were found, fixed, and disclosed, plus the leak and the broken embargo.\nThe post Volker Dusch on the PHP RCE Vulnerabilities and Disclosure appeared first on Laravel News.\nJoin the Laravel Newsletter to get…",
+      "author": "Eric L. Barnes",
+      "publishedAt": "2026-10-23T15:41:26.000Z"
     }
   ],
-  "totalIndexed": 107
+  "totalIndexed": 108
 }

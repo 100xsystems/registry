@@ -9,7 +9,7 @@
     "edge-computing",
     "nextjs"
   ],
-  "updatedAt": "2026-10-23T16:32:16.923Z",
+  "updatedAt": "2026-10-23T20:50:37.914Z",
   "items": [
     {
       "guid": "vercel-blog::https://vercel.com/changelog/ai-gateway-now-supports-streaming-transcription",
@@ -4978,7 +4978,55 @@
       "summary": "can now create a separate  for each agent or task. When you create a Stripe connector, you can now choose Managed API Key as the connection method. Vercel Connectrestricted Stripe API key\nVercel creates the key in your Stripe account, limited to the permissions you pick. The existing MCP and…",
       "author": "Dima Voytenko",
       "publishedAt": "2026-10-23T17:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/vercel-cli-adds-spend-management",
+      "title": "Vercel CLI adds Spend Management",
+      "link": "https://vercel.com/changelog/vercel-cli-adds-spend-management",
+      "summary": "You can now view and manage your team's  budget from the Vercel CLI. Run  and you, or the scripts and agents you run, get back your current spend and the active budget.Spend Managementvercel budgets\nThis is the same On-Demand Budget shown in your team's billing settings. Setting a budget does not…",
+      "author": "Lakshmi Subbramanian",
+      "publishedAt": "2026-10-23T21:44:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/send-feedback-from-vercel-mcp",
+      "title": "Send feedback from the Vercel MCP",
+      "link": "https://vercel.com/changelog/send-feedback-from-vercel-mcp",
+      "summary": "now includes , a tool for sending bug reports, friction reports, and feature requests directly to the Vercel team from your agent or harness.Vercel MCPsubmit_feedback\nAsk your agent to give feedback in plain language: \nYour assistant can attach structured context that describes the task, the…",
+      "author": "Krish",
+      "publishedAt": "2026-10-23T20:53:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/deployments-now-show-build-cache-size",
+      "title": "Deployments now show build cache size",
+      "link": "https://vercel.com/changelog/deployments-now-show-build-cache-size",
+      "summary": "Deployment summaries now show the size of the build cache each deployment saved and how close it is to the limit for its . The same information is in the CLI with  on version 65.1.0 or newer, and in the .build machineget-deployment REST API endpointvercel inspect\nUploading the build cache is…",
+      "author": "Mehul Kar",
+      "publishedAt": "2026-10-23T19:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/blog/how-interfaze-serves-50-million-requests-a-month-on-vercel",
+      "title": "How Interfaze serves 50 million requests a month on Vercel",
+      "link": "https://vercel.com/blog/how-interfaze-serves-50-million-requests-a-month-on-vercel",
+      "summary": "Interfaze on Vercel\n\n50 million requests a month \n\nBackend running on Fluid compute\n\nMultiple model providers behind one fallback layer with AI Gateway\n\n\n builds models for deterministic work that general-purpose LLMs handle poorly: document processing, OCR, object detection, web scraping, speech…",
+      "author": "Susan Aziz",
+      "publishedAt": "2026-10-23T04:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/send-feedback-from-vercel-cli",
+      "title": "Send feedback from the Vercel CLI",
+      "link": "https://vercel.com/changelog/send-feedback-from-vercel-cli",
+      "summary": "The  now includes , which sends bugs, friction reports, and feature requests to the Vercel team from your terminal.Vercel CLIvercel feedback\nCoding agents can also send feedback when they run into issues. Use  with  or  to include structured context as  pairs. Repeat the flag to describe the task,…",
+      "author": "Krish",
+      "publishedAt": "2026-10-23T02:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/kimi-k3-1-pro-and-kimi-k3-1-pro-highspeed-are-available-now-in-ai-gateway",
+      "title": "Kimi K3.1 Pro and Kimi K3.1 Pro Highspeed are available now in AI Gateway",
+      "link": "https://vercel.com/changelog/kimi-k3-1-pro-and-kimi-k3-1-pro-highspeed-are-available-now-in-ai-gateway",
+      "summary": "from  is now available on , along with , a faster version for interactive use.Kimi K3.1 ProMoonshot AIAI GatewayKimi K3.1 Pro Highspeed\nK3.1 Pro is the first model in Moonshot's K3.1 series. It builds on  with improvements in coding, 3D modeling, financial analysis, and agentic tasks, and keeps the…",
+      "author": "Zachary Chen",
+      "publishedAt": "2026-10-23T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 621
+  "totalIndexed": 627
 }

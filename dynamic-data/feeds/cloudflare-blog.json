@@ -9,7 +9,7 @@
     "performance",
     "edge-computing"
   ],
-  "updatedAt": "2026-10-22T16:41:52.633Z",
+  "updatedAt": "2026-10-23T20:50:27.266Z",
   "items": [
     {
       "guid": "01KY2432VQPD5FTF2RARXXYQGH",
@@ -62330,7 +62330,23 @@
       "summary": "Cloudflare has achieved South Korea's ISMS certification following an audit across 80 controls. Learn how we localized user consent flows, adapted social sign-up paths at the edge, and validated our global security program.",
       "author": "Kabin Calan",
       "publishedAt": "2026-10-22T13:00:00.000Z"
+    },
+    {
+      "guid": "01M5MZPETYH27RS72QV5V85YZ8",
+      "title": "Origin Range Requests: Serving large files without range-request tuning",
+      "link": "https://blog.cloudflare.com/origin-range-requests/",
+      "summary": "Naive byte-range caching can waste gigabytes of origin bandwidth on small requests. We rebuilt our cache architecture in Pingora to coordinate partial fetches automatically, cutting R2 p99 latency in half.",
+      "author": "Matthew Gumport",
+      "publishedAt": "2026-10-23T18:22:59.000Z"
+    },
+    {
+      "guid": "01M5MYFG0SHDEYME96N0A4Z6PH",
+      "title": "Bringing post-quantum cryptography to geographically fenced key management",
+      "link": "https://blog.cloudflare.com/post-quantum-geo-key-manager/",
+      "summary": "Cloudflare's new post-quantum GeoKey Manager protects geographically fenced decryption keys from harvest now, decrypt later attacks. Learn how we redesigned our cryptography stack to support strict data sovereignty in a post-quantum world.",
+      "author": "Chetan Agrawal",
+      "publishedAt": "2026-10-23T18:06:56.000Z"
     }
   ],
-  "totalIndexed": 7790
+  "totalIndexed": 7792
 }

@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-10-23T11:19:38.684Z",
+  "updatedAt": "2026-10-23T20:50:27.631Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -2897,7 +2897,31 @@
       "summary": "In my last post, a friend of mine kept four databases in production. Ask a team like that for a knowledge graph, and you can guess the fifth: a triple store. Search over company data, an ontology of products or skills, facts for an LLM application: a knowledge base often means RDF and SPARQL, and…",
       "author": null,
       "publishedAt": "2026-10-23T00:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9zO",
+      "title": "Henrietta Dombrovskaya: pg_acm at PGConf.EU",
+      "link": "https://postgr.es/p/9zO",
+      "summary": "Yesterday, I spoke about pg_acm at PGConf.EU. Speaking at the biggest Postgres conference in the world is an honor in itself, and it’s not that I have a chance to present there every year, so I am incredibly thankful to the CfP committee for choosing this talk.\nThis talk has a long history of…",
+      "author": null,
+      "publishedAt": "2026-10-23T17:57:12.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9zN",
+      "title": "Ahsan Hadi: Zero Downtime Rolling Major PostgreSQL Upgrades on a Distributed PostgreSQL Cluster",
+      "link": "https://postgr.es/p/9zN",
+      "summary": "Every major PostgreSQL upgrade I have done on a single primary came with the same conversation: how long can the application be down?  is fast, but it is still an outage, and you still have to rebuild or resync the standbys afterwards.A multi-master cluster gives you a different option. Spock is…",
+      "author": null,
+      "publishedAt": "2026-10-23T11:15:08.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9zM",
+      "title": "Pavel Luzanov: PostgreSQL 19: part 5.4 (SQL, DEV1 and DEV2) of CommitFest 2026-03",
+      "link": "https://postgr.es/p/9zM",
+      "summary": "We’re wrapping up our review of the March CommitFest for PostgreSQL 19. This fourth and final article in the series covers the changes related to SQL and to our DEV1 and DEV2 courses.\nAs a reminder, here’s the plan for our coverage of the final PostgreSQL 19 CommitFest:\nPart 5.1 (QPT)\nPart 5.2…",
+      "author": null,
+      "publishedAt": "2026-10-23T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 361
+  "totalIndexed": 364
 }
