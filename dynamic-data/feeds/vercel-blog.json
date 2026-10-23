@@ -9,7 +9,7 @@
     "edge-computing",
     "nextjs"
   ],
-  "updatedAt": "2026-10-22T03:30:50.162Z",
+  "updatedAt": "2026-10-23T03:36:04.374Z",
   "items": [
     {
       "guid": "vercel-blog::https://vercel.com/changelog/ai-gateway-now-supports-streaming-transcription",
@@ -4946,7 +4946,23 @@
       "summary": "You can now write  in Python for FastAPI, Flask, Django, and other Python frameworks. It runs before requests reach your app, and can rewrite, redirect, or answer them.routing middleware\nTo set it up, point the  entrypoint in  at your proxy:proxyvercel.toml\nYour middleware is an ASGI or WSGI app…",
       "author": "Daniel Park",
       "publishedAt": "2026-10-21T17:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/eight-more-tlds-now-eligible-for-a-free-domain-with-pro",
+      "title": "Eight more TLDs now eligible for a free domain with Pro",
+      "link": "https://vercel.com/changelog/eight-more-tlds-now-eligible-for-a-free-domain-with-pro",
+      "summary": "Every Pro team can claim a free domain for one year. That offer now includes , , , , , , , and , bringing the eligible TLDs to sixteen..co.studio.company.info.pro.live.digital.agency\nThe offer still covers one domain per team, and premium domains are not eligible. After the first year, your domain…",
+      "author": "Jeremy Dopkin",
+      "publishedAt": "2026-10-22T22:28:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/blog/death-to-long-lived-static-credentials",
+      "title": "Death to long-lived static credentials",
+      "link": "https://vercel.com/blog/death-to-long-lived-static-credentials",
+      "summary": "Fifteen years ago, TLS was something you'd use to protect the most sensitive areas of your app. Then Google, Let's Encrypt, the EFF, and others led the push for HTTPS everywhere, making encryption the default for every request. Without it, anyone between the browser and server can read and tamper…",
+      "author": "Malte Ubl",
+      "publishedAt": "2026-10-22T04:00:00.000Z"
     }
   ],
-  "totalIndexed": 617
+  "totalIndexed": 619
 }

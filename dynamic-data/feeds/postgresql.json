@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-10-22T21:02:39.552Z",
+  "updatedAt": "2026-10-23T03:35:55.335Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -2865,7 +2865,23 @@
       "summary": "Postgres gives you no way to take back a single statement. When someone runs an UPDATE without its WHERE clause, recovery is a procedure rather than a command. You restore a copy of the database to the moment before the mistake, pull out the rows that were damaged, and reconcile them by hand…",
       "author": null,
       "publishedAt": "2026-10-22T16:41:16.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9zH",
+      "title": "Christophe Pettus: All Your GUCs in a Row: the recovery_target parameters",
+      "link": "https://postgr.es/p/9zH",
+      "summary": "Restore to the moment before the disaster using eight parameters that answer where replay stops, which timeline to follow, and what to do when you get there.\n\n(I consult on PostgreSQL through PGX Inc..)",
+      "author": null,
+      "publishedAt": "2026-10-23T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9zE",
+      "title": "Devrim GÜNDÜZ: PostGIS is back on Amazon Linux 2023 (with SFCGAL this time)",
+      "link": "https://postgr.es/p/9zE",
+      "summary": "The PostgreSQL RPM repository has supported Amazon Linux 2023 for a while, but until this week it had no GIS packages there: a few weeks ago I removed the AL2023 build of the GIS stack, as the distribution does not ship several libraries our GDAL was built against (hdf5, netcdf, xerces-c, Qt and…",
+      "author": null,
+      "publishedAt": "2026-10-22T21:08:00.000Z"
     }
   ],
-  "totalIndexed": 357
+  "totalIndexed": 359
 }
