@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-10-22T16:42:05.166Z",
+  "updatedAt": "2026-10-23T16:32:16.331Z",
   "items": [
     {
       "guid": "https://www.tigerdata.com/blog/whats-new-in-tiger-cloud",
@@ -199,7 +199,15 @@
       "summary": "Facts, then a knowledge graph, then a tree. The most expressive system wasn’t the most useful, and the reason shaped searchgres.js.",
       "author": "John Pruitt",
       "publishedAt": "2026-10-22T12:16:21.000Z"
+    },
+    {
+      "guid": "https://www.tigerdata.com/blog/how-retention-policies-silently-break-continuous-aggregates",
+      "title": "How Retention Policies Silently Break Continuous Aggregates",
+      "link": "https://www.tigerdata.com/blog/how-retention-policies-silently-break-continuous-aggregates",
+      "summary": "Retention at 3 days with a refresh window reaching back 7 means the aggregate keeps no more history than the raw table. Here’s the invariant that fixes it.",
+      "author": "John Shi",
+      "publishedAt": "2026-10-23T12:28:41.000Z"
     }
   ],
-  "totalIndexed": 24
+  "totalIndexed": 25
 }

@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-10-22T16:41:58.108Z",
+  "updatedAt": "2026-10-23T16:32:11.287Z",
   "items": [
     {
       "guid": "https://laravel-news.com/pest-5",
@@ -847,7 +847,23 @@
       "summary": "Laravel 13.36 adds Worker::$flushStickyConnections so queue jobs go back to your read replicas after an earlier job writes to the database.\nThe post Reset Sticky Database Connections Between Laravel Queue Jobs appeared first on Laravel News.\nJoin the Laravel Newsletter to get Laravel articles like…",
       "author": "Paul Redmond",
       "publishedAt": "2026-10-21T22:24:26.000Z"
+    },
+    {
+      "guid": "https://laravel-news.com/decide-with-jev-turn-ai-answers-into-decisions-with-php-rules",
+      "title": "Decide with Jev: Turn AI Answers into Decisions with PHP Rules",
+      "link": "https://laravel-news.com/decide-with-jev-turn-ai-answers-into-decisions-with-php-rules?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+      "summary": "Jev can answer three questions about a draft, but the model should not decide what happens next. In episode 3 of Decide with Jev, we write a small PHP class that turns those answers into one label. When the answers are unclear, the draft goes to a person.\nThe post Decide with Jev: Turn AI Answers…",
+      "author": "Harris Raftopoulos",
+      "publishedAt": "2026-10-23T09:08:28.000Z"
+    },
+    {
+      "guid": "https://laravel-news.com/laravel-prevent-stale-database-reads",
+      "title": "Laravel Read Replicas: Prevent Stale Reads After a Write",
+      "link": "https://laravel-news.com/laravel-prevent-stale-database-reads?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
+      "summary": "Laravel's PreventStaleDatabaseReads middleware keeps a user's reads on the write database after they save, so read replica lag doesn't show them old data.\nThe post Laravel Read Replicas: Prevent Stale Reads After a Write appeared first on Laravel News.\nJoin the Laravel Newsletter to get Laravel…",
+      "author": "Paul Redmond",
+      "publishedAt": "2026-10-22T23:20:21.000Z"
     }
   ],
-  "totalIndexed": 105
+  "totalIndexed": 107
 }

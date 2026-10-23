@@ -9,7 +9,7 @@
     "edge-computing",
     "nextjs"
   ],
-  "updatedAt": "2026-10-23T03:36:04.374Z",
+  "updatedAt": "2026-10-23T16:32:16.923Z",
   "items": [
     {
       "guid": "vercel-blog::https://vercel.com/changelog/ai-gateway-now-supports-streaming-transcription",
@@ -4962,7 +4962,23 @@
       "summary": "Fifteen years ago, TLS was something you'd use to protect the most sensitive areas of your app. Then Google, Let's Encrypt, the EFF, and others led the push for HTTPS everywhere, making encryption the default for every request. Without it, anyone between the browser and server can read and tamper…",
       "author": "Malte Ubl",
       "publishedAt": "2026-10-22T04:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/blog/how-vercel-agent-accesses-production-safely",
+      "title": "How Vercel Agent accesses production safely",
+      "link": "https://vercel.com/blog/how-vercel-agent-accesses-production-safely",
+      "summary": "An agent working on production systems needs permission to act. A request like “fix this deployment” doesn’t tell you upfront which actions it will take or what access it will need. Grant agents broad access and a mistake can affect unrelated resources. Ask for approval at every step and the user…",
+      "author": "Tom Dale",
+      "publishedAt": "2026-10-23T20:29:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/vercel-connect-adds-managed-stripe-api-keys",
+      "title": "Vercel Connect adds managed Stripe API keys",
+      "link": "https://vercel.com/changelog/vercel-connect-adds-managed-stripe-api-keys",
+      "summary": "can now create a separate  for each agent or task. When you create a Stripe connector, you can now choose Managed API Key as the connection method. Vercel Connectrestricted Stripe API key\nVercel creates the key in your Stripe account, limited to the permissions you pick. The existing MCP and…",
+      "author": "Dima Voytenko",
+      "publishedAt": "2026-10-23T17:00:00.000Z"
     }
   ],
-  "totalIndexed": 619
+  "totalIndexed": 621
 }

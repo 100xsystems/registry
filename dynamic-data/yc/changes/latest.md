@@ -1,39 +1,34 @@
 # YC Company Changes for 2026-10-23
 
-- Previous total: 6329
-- Current total: 6331
-- Added: 2
+- Previous total: 6331
+- Current total: 6332
+- Added: 1
 - Removed: 0
-- Updated: 6
+- Updated: 5
 
 
 ## Added Companies
 
-- [Liquid Energy](https://www.ycombinator.com/companies/liquid-energy) (Fall 2026) — Self contained solar-powered AI inference modules: the NanoDC
-- [Epsilab](https://www.ycombinator.com/companies/epsilab-com) (Fall 2026) — Long horizon RL environments from real-life data
+- [Topos](https://www.ycombinator.com/companies/topos) (Fall 2026) — Agent swarms for formal verification
 
 ## Updated Companies
 
-### [Rappi](https://www.ycombinator.com/companies/rappi)
+### [Stardex](https://www.ycombinator.com/companies/stardex)
 
-- `stage`: Early → Growth
+- `team_size`: 7 → 9
 
-### [Meesho](https://www.ycombinator.com/companies/meesho)
-
-- `stage`: Early → Growth
-
-### [Standard AI](https://www.ycombinator.com/companies/standard-ai)
-
-- `stage`: Early → Growth
-
-### [Atlas](https://www.ycombinator.com/companies/atlas-3)
-
-- `stage`: Early → Growth
-
-### [Refactor](https://www.ycombinator.com/companies/refactor)
+### [Andson Biotech](https://www.ycombinator.com/companies/andson-biotech)
 
 - `isHiring`: true → false
 
-### [Diode Computers, Inc.](https://www.ycombinator.com/companies/diode-computers-inc)
+### [Compresr](https://www.ycombinator.com/companies/compresr)
 
-- `stage`: Early → Growth
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/7768e73d87dc6915fd2a78cbdff56013e194c8de.png → https://bookface-images.s3.amazonaws.com/small_logos/9a3f6ebbbbeecfb666ee2d21e63085d3fc18670e.png
+
+### [InLoop Robotics](https://www.ycombinator.com/companies/inloop-robotics)
+
+- `isHiring`: false → true
+
+### [Rex](https://www.ycombinator.com/companies/rex-inc)
+
+- `one_liner`: AI-native BPO for enterprise order-to-cash → AI operations partner for enterprise order-to-cash 
