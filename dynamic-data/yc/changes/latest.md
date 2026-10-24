@@ -1,43 +1,53 @@
-# YC Company Changes for 2026-10-23
+# YC Company Changes for 2026-10-24
 
-- Previous total: 6332
-- Current total: 6333
-- Added: 1
+- Previous total: 6333
+- Current total: 6335
+- Added: 2
 - Removed: 0
-- Updated: 6
+- Updated: 8
 
 
 ## Added Companies
 
-- [Nitroduck](https://www.ycombinator.com/companies/nitroduck) (Fall 2026) — Monsanto for yummy crops, but without pesticides
+- [Monzo Bank](https://www.ycombinator.com/companies/monzo-bank) (other) — A bank as smart as your phone.
+- [Convoy](https://www.ycombinator.com/companies/convoy) (other) — The world's most efficient digital freight network.
 
 ## Updated Companies
 
-### [Tasker AI](https://www.ycombinator.com/companies/tasker-ai)
+### [Olive](https://www.ycombinator.com/companies/olive)
 
-- `team_size`: 7 → 1
+- `status`: Active → Inactive
+- `stage`: Growth → Early
 
-### [RiskCube](https://www.ycombinator.com/companies/riskcube)
+### [Altur](https://www.ycombinator.com/companies/altur)
 
-- `one_liner`: New American insurance company.  → New American insurance company for hard tech, defense & AI.
+- `isHiring`: false → true
 
-### [CopyCat AI](https://www.ycombinator.com/companies/copycat-ai)
+### [Clerked](https://www.ycombinator.com/companies/clerked)
 
-- `isHiring`: true → false
+- `team_size`: 3 → 4
 
-### [Korso](https://www.ycombinator.com/companies/korso)
+### [Talking Computers](https://www.ycombinator.com/companies/talking-computers)
 
-- `one_liner`: Your Capable Desktop AI Companion → In Development
-- `industry`: Consumer → B2B
-- `subindustry`: Consumer → B2B -> Infrastructure
-- `tags`: SaaS,AI Assistant → Developer Tools,SaaS,AI
-- `industries`: Consumer → B2B,Infrastructure
+- `all_locations`: Toronto, ON, Canada → San Francisco, CA, USA
+- `regions`: Canada,America / Canada → United States of America,America / Canada
 
-### [Mochatrade](https://www.ycombinator.com/companies/mochatrade)
+### [tday.com](https://www.ycombinator.com/companies/tdaycom)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/b53aed7c2d61caf968cbcb61a42f6cd0f7f65ef9.png → https://bookface-images.s3.amazonaws.com/small_logos/41f6bb0885038cff5deb3b8cceebac0e314d969c.png
-- `one_liner`: US stock trading, unlocked for the globe → Trade US markets from India, in Rupees
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/3757196228dee380b044009d7e4a7d8ebc8d7894.png → https://bookface-images.s3.amazonaws.com/small_logos/a139d4bd2b1aedf042570058457fd929dda968e7.png
 
-### [Applied Kinetics](https://www.ycombinator.com/companies/applied-kinetics)
+### [OpenScaffold](https://www.ycombinator.com/companies/openscaffold)
 
-- `one_liner`: End-to-end manufacturing for data center and energy projects → AI-native manufacturing for data center and energy projects
+- `name`: Sigma → OpenScaffold
+- `slug`: sigma-2 → openscaffold
+- `former_names`:  → Sigma
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/0281f5236edcd7fb1960cb57da29592acd65e490.png → https://bookface-images.s3.amazonaws.com/small_logos/f7d38b3eee0095a6968f8c9f98029c1e58d352d1.png
+- `one_liner`: Lakehouse-as-a-Service (LaaS) → Superagent for Deployment Teams
+
+### [Composal](https://www.ycombinator.com/companies/composal)
+
+- `website`: https://composal.ai → https://composal.com
+
+### [The Subvocal Company](https://www.ycombinator.com/companies/the-subvocal-company)
+
+- `tags`: Hard Tech → Hard Tech,Hardware,Consumer

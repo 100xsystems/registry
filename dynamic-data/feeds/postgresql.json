@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-10-23T20:50:27.631Z",
+  "updatedAt": "2026-10-24T03:29:51.441Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -2921,7 +2921,15 @@
       "summary": "We’re wrapping up our review of the March CommitFest for PostgreSQL 19. This fourth and final article in the series covers the changes related to SQL and to our DEV1 and DEV2 courses.\nAs a reminder, here’s the plan for our coverage of the final PostgreSQL 19 CommitFest:\nPart 5.1 (QPT)\nPart 5.2…",
       "author": null,
       "publishedAt": "2026-10-23T00:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9zP",
+      "title": "Christophe Pettus: All Your GUCs in a Row: recursive_worktable_factor",
+      "link": "https://postgr.es/p/9zP",
+      "summary": "PostgreSQL 15's `recursive_worktable_factor` helps you fix slow recursive CTEs by tuning a single estimate.\n\n(I consult on PostgreSQL through PGX Inc..)",
+      "author": null,
+      "publishedAt": "2026-10-24T01:00:00.000Z"
     }
   ],
-  "totalIndexed": 364
+  "totalIndexed": 365
 }
