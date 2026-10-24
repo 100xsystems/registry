@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-10-24T10:39:34.729Z",
+  "updatedAt": "2026-10-24T20:01:32.938Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -2937,7 +2937,23 @@
       "summary": "On 12 October, the PostgreSQL User Group Vienna met, organized by \n* Cornelia Biacsics\n* Ranjeet Kumar\nSpeakers: \nMayur B. \nRadim Marek \nOn 13 October, the San Francisco Bay Area PostgreSQL Meetup Group met online. Christophe Pettus delivered a talk. The meetup was organized by: \nKatharine Saar…",
       "author": null,
       "publishedAt": "2026-10-24T09:20:56.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9zS",
+      "title": "Gabriele Bartolini: CNPG Recipe 28 - Generated and rotating PostgreSQL user passwords in CloudNativePG 1.31",
+      "link": "https://postgr.es/p/9zS",
+      "summary": "A first look at what CloudNativePG 1.31 will bring to PostgreSQL credentials:\na DatabaseRole can now generate its own password, keep it in a Secret the\noperator owns, shape it with criteria and rotate it on a schedule, with\nPostgreSQL enforcing the lifetime through VALID UNTIL. The feature is…",
+      "author": null,
+      "publishedAt": "2026-10-24T16:34:09.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9zT",
+      "title": "Vadim Yatsenko: PolarFS: Disk-Paxos RW Leases That Keep Shared Storage Out of Split-Brain",
+      "link": "https://postgr.es/p/9zT",
+      "summary": "PolarDB separates compute from storage. Many machines can reach the same block device. Exactly one of them may write to it. A second read-write mount corrupts data, and there is no recovery from it.",
+      "author": null,
+      "publishedAt": "2026-10-24T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 366
+  "totalIndexed": 368
 }
