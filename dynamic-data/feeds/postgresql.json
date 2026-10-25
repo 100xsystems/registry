@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-10-25T03:26:02.837Z",
+  "updatedAt": "2026-10-25T15:36:54.712Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -2961,7 +2961,31 @@
       "summary": "Protect your disk from orphaned temporary files after a backend crash.\n\n(I consult on PostgreSQL through PGX Inc..)",
       "author": null,
       "publishedAt": "2026-10-25T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9zW",
+      "title": "Vadim Yatsenko: Speech at PGDay Israel 2026：Durability, Consistency, and Performance",
+      "link": "https://postgr.es/p/9zW",
+      "summary": "AwideLabs Tech Column: How we took PolarDB from a promising open-source project to production-ready Awide Polar.",
+      "author": null,
+      "publishedAt": "2026-10-25T11:16:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9zY",
+      "title": "Vadim Yatsenko: DataMax: A Dedicated WAL Log-Store Node for Near-Synchronous Durability",
+      "link": "https://postgr.es/p/9zY",
+      "summary": "Every durable database change in PolarDB passes through one place before it is safe: the write-ahead log. A replica is just a machine that stores that log and replays it. But how if a cluster need a pure copy of the WAL?",
+      "author": null,
+      "publishedAt": "2026-10-25T11:15:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9zX",
+      "title": "Vadim Yatsenko: Commit Sequence Number (CSN) MVCC: Lock-Free Snapshot Acquisition",
+      "link": "https://postgr.es/p/9zX",
+      "summary": "Every time PostgreSQL decides whether a row is visible to your query, it asks the same question: was the transaction that wrote this row already committed when my snapshot was taken?",
+      "author": null,
+      "publishedAt": "2026-10-25T11:15:00.000Z"
     }
   ],
-  "totalIndexed": 369
+  "totalIndexed": 372
 }

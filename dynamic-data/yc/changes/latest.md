@@ -4,31 +4,28 @@
 - Current total: 6336
 - Added: 0
 - Removed: 0
-- Updated: 6
+- Updated: 5
 
 
 ## Updated Companies
 
-### [Dagger](https://www.ycombinator.com/companies/dagger)
+### [teaBOT](https://www.ycombinator.com/companies/teabot)
 
-- `stage`: Early → Growth
+- `regions`: Canada,United States of America,America / Canada,America / Canada,Remote,Partly Remote → Canada,United States of America,America / Canada,Remote,Partly Remote
 
-### [Mederva](https://www.ycombinator.com/companies/mederva)
+### [Focal Systems](https://www.ycombinator.com/companies/focal-systems)
 
-- `isHiring`: false → true
+- `regions`: United States of America,Canada,United Kingdom,America / Canada,America / Canada,Europe,Remote,Partl → United States of America,Canada,United Kingdom,America / Canada,Europe,Remote,Partly Remote
 
-### [RiskCube](https://www.ycombinator.com/companies/riskcube)
+### [Stipop](https://www.ycombinator.com/companies/stipop)
 
-- `one_liner`: New American insurance company for hard tech, defense & AI. → Commercial insurance brokerage for startups. 
+- `all_locations`: Los Angeles, CA, USA; Santa Monica, CA, USA → Seoul, Seoul, South Korea; Santa Monica, CA, USA
+- `regions`: United States of America,America / Canada → South Korea,United States of America,East Asia,America / Canada
 
-### [Trelium](https://www.ycombinator.com/companies/trelium)
+### [Coupl](https://www.ycombinator.com/companies/coupl)
 
-- `isHiring`: true → false
+- `all_locations`: Bengaluru, KA, India → Mumbai, MH, India
 
-### [Forward](https://www.ycombinator.com/companies/useforward)
+### [Nitroduck](https://www.ycombinator.com/companies/nitroduck)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/717ea600e14829731cf877a194aca957195d9b27.png → https://bookface-images.s3.amazonaws.com/small_logos/6ed6f18a3f6a1aa7d3729a667c4da28221cda1f6.png
-
-### [Ageospatial](https://www.ycombinator.com/companies/ageospatial)
-
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/74f6c9e933a7a4a3c86d3c81c6964ca26989ba26.png → https://bookface-images.s3.amazonaws.com/small_logos/83235957278f55744117e59eee39de71b5266a09.png
+- `launched_at`: 1785947487 → 1792787501
