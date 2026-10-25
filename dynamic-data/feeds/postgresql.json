@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-10-24T20:01:32.938Z",
+  "updatedAt": "2026-10-25T03:26:02.837Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -2953,7 +2953,15 @@
       "summary": "PolarDB separates compute from storage. Many machines can reach the same block device. Exactly one of them may write to it. A second read-write mount corrupts data, and there is no recovery from it.",
       "author": null,
       "publishedAt": "2026-10-24T00:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9zU",
+      "title": "Christophe Pettus: All Your GUCs in a Row: remove_temp_files_after_crash",
+      "link": "https://postgr.es/p/9zU",
+      "summary": "Protect your disk from orphaned temporary files after a backend crash.\n\n(I consult on PostgreSQL through PGX Inc..)",
+      "author": null,
+      "publishedAt": "2026-10-25T01:00:00.000Z"
     }
   ],
-  "totalIndexed": 368
+  "totalIndexed": 369
 }
