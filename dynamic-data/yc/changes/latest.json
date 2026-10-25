@@ -1,121 +1,105 @@
 {
   "date": "2026-10-25",
-  "fetchedAt": "2026-10-25T15:37:11.242Z",
+  "fetchedAt": "2026-10-25T20:13:20.014Z",
   "previousCount": 6336,
   "currentCount": 6336,
   "added": [],
   "removed": [],
   "updated": [
     {
-      "id": 864,
-      "name": "teaBOT",
-      "slug": "teabot",
-      "batch": "Summer 2015",
-      "url": "https://www.ycombinator.com/companies/teabot",
+      "id": 25314,
+      "name": "Trellus",
+      "slug": "trellus",
+      "batch": "Winter 2022",
+      "url": "https://www.ycombinator.com/companies/trellus",
       "changes": [
         {
-          "field": "regions",
-          "before": [
-            "Canada",
-            "United States of America",
-            "America / Canada",
-            "America / Canada",
-            "Remote",
-            "Partly Remote"
-          ],
-          "after": [
-            "Canada",
-            "United States of America",
-            "America / Canada",
-            "Remote",
-            "Partly Remote"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 999,
-      "name": "Focal Systems",
-      "slug": "focal-systems",
-      "batch": "Winter 2016",
-      "url": "https://www.ycombinator.com/companies/focal-systems",
-      "changes": [
-        {
-          "field": "regions",
-          "before": [
-            "United States of America",
-            "Canada",
-            "United Kingdom",
-            "America / Canada",
-            "America / Canada",
-            "Europe",
-            "Remote",
-            "Partly Remote"
-          ],
-          "after": [
-            "United States of America",
-            "Canada",
-            "United Kingdom",
-            "America / Canada",
-            "Europe",
-            "Remote",
-            "Partly Remote"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 23957,
-      "name": "Stipop",
-      "slug": "stipop",
-      "batch": "Summer 2021",
-      "url": "https://www.ycombinator.com/companies/stipop",
-      "changes": [
-        {
-          "field": "all_locations",
-          "before": "Los Angeles, CA, USA; Santa Monica, CA, USA",
-          "after": "Seoul, Seoul, South Korea; Santa Monica, CA, USA"
+          "field": "one_liner",
+          "before": "Real-time sales coach for SDRs ",
+          "after": "Power and parallel dialing with AI coaching, inside your CRM"
         },
         {
-          "field": "regions",
+          "field": "team_size",
+          "before": 3,
+          "after": 8
+        },
+        {
+          "field": "tags",
           "before": [
-            "United States of America",
-            "America / Canada"
+            "AI-Enhanced Learning",
+            "SaaS",
+            "B2B",
+            "Sales",
+            "AI"
           ],
           "after": [
-            "South Korea",
-            "United States of America",
-            "East Asia",
-            "America / Canada"
+            "SaaS",
+            "B2B",
+            "Sales",
+            "Sales Enablement",
+            "AI"
           ]
         }
       ]
     },
     {
-      "id": 26724,
-      "name": "Coupl",
-      "slug": "coupl",
-      "batch": "Summer 2022",
-      "url": "https://www.ycombinator.com/companies/coupl",
+      "id": 29365,
+      "name": "Ellipsis",
+      "slug": "ellipsis",
+      "batch": "Winter 2024",
+      "url": "https://www.ycombinator.com/companies/ellipsis",
       "changes": [
         {
-          "field": "all_locations",
-          "before": "Bengaluru, KA, India",
-          "after": "Mumbai, MH, India"
+          "field": "one_liner",
+          "before": "Cloud platform for coding agents",
+          "after": "Managed Agent platform "
         }
       ]
     },
     {
-      "id": 35157,
-      "name": "Nitroduck",
-      "slug": "nitroduck",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/nitroduck",
+      "id": 29477,
+      "name": "Piramidal",
+      "slug": "piramidal",
+      "batch": "Winter 2024",
+      "url": "https://www.ycombinator.com/companies/piramidal",
       "changes": [
         {
-          "field": "launched_at",
-          "before": 1785947487,
-          "after": 1792787501
+          "field": "small_logo_thumb_url",
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/498bf9290381446bf87d93fc0ef2a631960e646a.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/31f1fadb4293e57afe421f93282f2132834e1777.png"
+        },
+        {
+          "field": "one_liner",
+          "before": "Foundation Model for the Brain",
+          "after": "Foundation Models for the Brain"
+        }
+      ]
+    },
+    {
+      "id": 31010,
+      "name": "Amika",
+      "slug": "amika",
+      "batch": "Fall 2025",
+      "url": "https://www.ycombinator.com/companies/amika",
+      "changes": [
+        {
+          "field": "one_liner",
+          "before": "Infra to build your own software factory",
+          "after": "Turn any spare computer into agent devboxes or CI runners"
+        }
+      ]
+    },
+    {
+      "id": 32782,
+      "name": "Denta",
+      "slug": "denta",
+      "batch": "Summer 2026",
+      "url": "https://www.ycombinator.com/companies/denta",
+      "changes": [
+        {
+          "field": "one_liner",
+          "before": "Fortune 500 Dental Benefits for Startups",
+          "after": "Fortune 500 Dental Benefits"
         }
       ]
     }

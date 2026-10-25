@@ -9,23 +9,25 @@
 
 ## Updated Companies
 
-### [teaBOT](https://www.ycombinator.com/companies/teabot)
+### [Trellus](https://www.ycombinator.com/companies/trellus)
 
-- `regions`: Canada,United States of America,America / Canada,America / Canada,Remote,Partly Remote → Canada,United States of America,America / Canada,Remote,Partly Remote
+- `one_liner`: Real-time sales coach for SDRs  → Power and parallel dialing with AI coaching, inside your CRM
+- `team_size`: 3 → 8
+- `tags`: AI-Enhanced Learning,SaaS,B2B,Sales,AI → SaaS,B2B,Sales,Sales Enablement,AI
 
-### [Focal Systems](https://www.ycombinator.com/companies/focal-systems)
+### [Ellipsis](https://www.ycombinator.com/companies/ellipsis)
 
-- `regions`: United States of America,Canada,United Kingdom,America / Canada,America / Canada,Europe,Remote,Partl → United States of America,Canada,United Kingdom,America / Canada,Europe,Remote,Partly Remote
+- `one_liner`: Cloud platform for coding agents → Managed Agent platform 
 
-### [Stipop](https://www.ycombinator.com/companies/stipop)
+### [Piramidal](https://www.ycombinator.com/companies/piramidal)
 
-- `all_locations`: Los Angeles, CA, USA; Santa Monica, CA, USA → Seoul, Seoul, South Korea; Santa Monica, CA, USA
-- `regions`: United States of America,America / Canada → South Korea,United States of America,East Asia,America / Canada
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/498bf9290381446bf87d93fc0ef2a631960e646a.png → https://bookface-images.s3.amazonaws.com/small_logos/31f1fadb4293e57afe421f93282f2132834e1777.png
+- `one_liner`: Foundation Model for the Brain → Foundation Models for the Brain
 
-### [Coupl](https://www.ycombinator.com/companies/coupl)
+### [Amika](https://www.ycombinator.com/companies/amika)
 
-- `all_locations`: Bengaluru, KA, India → Mumbai, MH, India
+- `one_liner`: Infra to build your own software factory → Turn any spare computer into agent devboxes or CI runners
 
-### [Nitroduck](https://www.ycombinator.com/companies/nitroduck)
+### [Denta](https://www.ycombinator.com/companies/denta)
 
-- `launched_at`: 1785947487 → 1792787501
+- `one_liner`: Fortune 500 Dental Benefits for Startups → Fortune 500 Dental Benefits
