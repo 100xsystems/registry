@@ -1,53 +1,34 @@
 # YC Company Changes for 2026-10-25
 
-- Previous total: 6335
+- Previous total: 6336
 - Current total: 6336
-- Added: 2
-- Removed: 1
+- Added: 0
+- Removed: 0
 - Updated: 6
 
 
-## Added Companies
-
-- [Vouch](https://www.ycombinator.com/companies/vouchwealth) (Fall 2026) — The AI wealth manager for every Indian
-- [Canos](https://www.ycombinator.com/companies/canos) (Fall 2026) — AI-powered blood test to detect cancer in dogs (and cats soon).
-
-## Removed Companies
-
-- Rounder (Summer 2026)
-
 ## Updated Companies
 
-### [Baud](https://www.ycombinator.com/companies/baud)
+### [Dagger](https://www.ycombinator.com/companies/dagger)
 
-- `team_size`: 3 → 4
+- `stage`: Early → Growth
 
-### [Vassar Robotics](https://www.ycombinator.com/companies/vassar-robotics)
+### [Mederva](https://www.ycombinator.com/companies/mederva)
 
-- `one_liner`: Open-source semi-humanoid dev kit → home data → autonomy → 20h/wk → Gearless robot joints for better embodied AI.
-- `team_size`: 3 → 2
+- `isHiring`: false → true
 
-### [Dreach](https://www.ycombinator.com/companies/dreach)
+### [RiskCube](https://www.ycombinator.com/companies/riskcube)
 
-- `one_liner`: staffing firms with dreach grow revenue faster. → staffing firms with dreach know before they hire.
+- `one_liner`: New American insurance company for hard tech, defense & AI. → Commercial insurance brokerage for startups. 
 
-### [AGI Deploy Co](https://www.ycombinator.com/companies/agi-deploy-co)
+### [Trelium](https://www.ycombinator.com/companies/trelium)
 
-- `name`: Mount → AGI Deploy Co
-- `slug`: mount → agi-deploy-co
-- `former_names`: Cybe → Cybe,Mount
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/fa5208859312a795f7e72dfb9eb2a5149785a216.png → https://bookface-images.s3.amazonaws.com/small_logos/f2b58875705e5d8f04a9d448eaeb56170a6b9785.png
-- `website`: https://mount.insure → https://agideploy.co
-- `one_liner`: The AI Agent Insurance Carrier → Diffusing AI into critical industries
-- `industry`: Fintech → B2B
-- `subindustry`: Fintech -> Insurance → B2B -> Operations
-- `tags`:  → Health Tech,Healthcare,Health & Wellness,AI
-- `industries`: Fintech,Insurance → B2B,Operations
+- `isHiring`: true → false
 
-### [Bryel](https://www.ycombinator.com/companies/bryel)
+### [Forward](https://www.ycombinator.com/companies/useforward)
 
-- `one_liner`: Perceptual reasoning models that are easily customizable → Building the next generation of visual perceptual intelligence
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/717ea600e14829731cf877a194aca957195d9b27.png → https://bookface-images.s3.amazonaws.com/small_logos/6ed6f18a3f6a1aa7d3729a667c4da28221cda1f6.png
 
-### [Terse](https://www.ycombinator.com/companies/useterse)
+### [Ageospatial](https://www.ycombinator.com/companies/ageospatial)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/21712c0189bc22ccc5e9bfeb15e67a527077b8f7.png → https://bookface-images.s3.amazonaws.com/small_logos/cd6be2cf6a34817d94716dd43cba7de917787b78.png
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/74f6c9e933a7a4a3c86d3c81c6964ca26989ba26.png → https://bookface-images.s3.amazonaws.com/small_logos/83235957278f55744117e59eee39de71b5266a09.png
