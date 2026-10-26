@@ -1,105 +1,273 @@
 {
-  "date": "2026-10-25",
-  "fetchedAt": "2026-10-25T20:13:20.014Z",
+  "date": "2026-10-26",
+  "fetchedAt": "2026-10-26T03:28:52.225Z",
   "previousCount": 6336,
-  "currentCount": 6336,
-  "added": [],
+  "currentCount": 6337,
+  "added": [
+    {
+      "id": 40140,
+      "name": "Tesser",
+      "slug": "tesser",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/44cedc147f95098824e26f980f27c0f8d621d93b.png",
+      "website": "https://tesser.sh/",
+      "all_locations": "",
+      "long_description": "Tesser is a cloud development runtime that lets developers run multiple dev environments in parallel without overloading their laptops.\r\n\r\nOur CLI moves workloads like servers, builds, tests, and typechecking to isolated cloud machines while developers continue using their existing editors and coding agents. Tesser handles provisioning, networking, and port forwarding. Teams can access each other's environments through our gateway, share live previews, and run Tesser on our infrastructure or their own cloud (BYOC).\r\n",
+      "one_liner": "Seamless cloud dev environments",
+      "team_size": 0,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "B2B",
+      "subindustry": "B2B -> Infrastructure",
+      "launched_at": 1792979810,
+      "tags": [
+        "Developer Tools"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Winter 2027",
+      "status": "Active",
+      "industries": [
+        "B2B",
+        "Infrastructure"
+      ],
+      "regions": [
+        "Unspecified"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/tesser"
+    }
+  ],
   "removed": [],
   "updated": [
     {
-      "id": 25314,
-      "name": "Trellus",
-      "slug": "trellus",
-      "batch": "Winter 2022",
-      "url": "https://www.ycombinator.com/companies/trellus",
+      "id": 21914,
+      "name": "Bits",
+      "slug": "bits",
+      "batch": "Summer 2020",
+      "url": "https://www.ycombinator.com/companies/bits",
+      "changes": [
+        {
+          "field": "team_size",
+          "before": 15,
+          "after": 25
+        },
+        {
+          "field": "stage",
+          "before": "Growth",
+          "after": "Early"
+        }
+      ]
+    },
+    {
+      "id": 29376,
+      "name": "Carma",
+      "slug": "carma",
+      "batch": "Winter 2024",
+      "url": "https://www.ycombinator.com/companies/carma",
       "changes": [
         {
           "field": "one_liner",
-          "before": "Real-time sales coach for SDRs ",
-          "after": "Power and parallel dialing with AI coaching, inside your CRM"
-        },
-        {
-          "field": "team_size",
-          "before": 3,
-          "after": 8
+          "before": "The AI Operating System For Modern Fleets.",
+          "after": "The agentic workspace that runs construction operations for profit"
         },
         {
           "field": "tags",
           "before": [
-            "AI-Enhanced Learning",
-            "SaaS",
             "B2B",
-            "Sales",
-            "AI"
+            "Workflow Automation",
+            "Compliance",
+            "AI",
+            "Automotive"
           ],
           "after": [
-            "SaaS",
-            "B2B",
-            "Sales",
-            "Sales Enablement",
+            "Construction",
+            "Enterprise",
             "AI"
           ]
         }
       ]
     },
     {
-      "id": 29365,
-      "name": "Ellipsis",
-      "slug": "ellipsis",
-      "batch": "Winter 2024",
-      "url": "https://www.ycombinator.com/companies/ellipsis",
+      "id": 30653,
+      "name": "Async",
+      "slug": "withasync",
+      "batch": "Summer 2026",
+      "url": "https://www.ycombinator.com/companies/withasync",
       "changes": [
         {
           "field": "one_liner",
-          "before": "Cloud platform for coding agents",
-          "after": "Managed Agent platform "
+          "before": "AI agents that run small businesses",
+          "after": "AI agents that run businesses"
         }
       ]
     },
     {
-      "id": 29477,
-      "name": "Piramidal",
-      "slug": "piramidal",
-      "batch": "Winter 2024",
-      "url": "https://www.ycombinator.com/companies/piramidal",
+      "id": 34893,
+      "name": "Agent 37",
+      "slug": "agent-37",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/agent-37",
       "changes": [
         {
-          "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/498bf9290381446bf87d93fc0ef2a631960e646a.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/31f1fadb4293e57afe421f93282f2132834e1777.png"
+          "field": "one_liner",
+          "before": "Persistent sandboxes for agents like hermes, openclaw, claude code",
+          "after": "Cloud Sandbox for Agents"
+        }
+      ]
+    },
+    {
+      "id": 35025,
+      "name": "Inflection Space Systems",
+      "slug": "inflection-space-systems",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/inflection-space-systems",
+      "changes": [
+        {
+          "field": "isHiring",
+          "before": false,
+          "after": true
+        }
+      ]
+    },
+    {
+      "id": 36088,
+      "name": "EveryApp",
+      "slug": "everyapp",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/everyapp",
+      "changes": [
+        {
+          "field": "name",
+          "before": "OpenSEO",
+          "after": "EveryApp"
+        },
+        {
+          "field": "slug",
+          "before": "openseo",
+          "after": "everyapp"
+        },
+        {
+          "field": "former_names",
+          "before": [
+            "Every App"
+          ],
+          "after": [
+            "Every App",
+            "OpenSEO"
+          ]
+        },
+        {
+          "field": "website",
+          "before": "https://openseo.so/",
+          "after": "https://everyapp.com"
+        },
+        {
+          "field": "all_locations",
+          "before": "Boston, MA, USA",
+          "after": ""
         },
         {
           "field": "one_liner",
-          "before": "Foundation Model for the Brain",
-          "after": "Foundation Models for the Brain"
+          "before": "Open source alternative to Semrush and Ahrefs",
+          "after": "Make every app open source"
+        },
+        {
+          "field": "subindustry",
+          "before": "B2B -> Marketing",
+          "after": "B2B"
+        },
+        {
+          "field": "tags",
+          "before": [
+            "Open Source",
+            "Marketing",
+            "SEO"
+          ],
+          "after": [
+            "Developer Tools",
+            "Open Source",
+            "Marketing"
+          ]
+        },
+        {
+          "field": "industries",
+          "before": [
+            "B2B",
+            "Marketing"
+          ],
+          "after": [
+            "B2B"
+          ]
+        },
+        {
+          "field": "regions",
+          "before": [
+            "United States of America",
+            "America / Canada",
+            "Remote",
+            "Partly Remote"
+          ],
+          "after": [
+            "Remote",
+            "Partly Remote"
+          ]
         }
       ]
     },
     {
-      "id": 31010,
-      "name": "Amika",
-      "slug": "amika",
-      "batch": "Fall 2025",
-      "url": "https://www.ycombinator.com/companies/amika",
+      "id": 36411,
+      "name": "Vyra",
+      "slug": "vyra",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/vyra",
       "changes": [
         {
           "field": "one_liner",
-          "before": "Infra to build your own software factory",
-          "after": "Turn any spare computer into agent devboxes or CI runners"
+          "before": "Autonomous video editing for non-editors.",
+          "after": "Personal video editing agent for shortform content"
         }
       ]
     },
     {
-      "id": 32782,
-      "name": "Denta",
-      "slug": "denta",
-      "batch": "Summer 2026",
-      "url": "https://www.ycombinator.com/companies/denta",
+      "id": 36644,
+      "name": "Vouch",
+      "slug": "vouchwealth",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/vouchwealth",
       "changes": [
         {
-          "field": "one_liner",
-          "before": "Fortune 500 Dental Benefits for Startups",
-          "after": "Fortune 500 Dental Benefits"
+          "field": "tags",
+          "before": [
+            "Fintech",
+            "Consumer Finance"
+          ],
+          "after": [
+            "Fintech",
+            "Consumer",
+            "Consumer Finance"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 37272,
+      "name": "The Subvocal Company",
+      "slug": "the-subvocal-company",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/the-subvocal-company",
+      "changes": [
+        {
+          "field": "small_logo_thumb_url",
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/cacc4ab40596ece6b5c77c3f350ee25ddf5cb079.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/932b2d47f36f3bce67a23cc2ce77599b9f364edd.png"
         }
       ]
     }

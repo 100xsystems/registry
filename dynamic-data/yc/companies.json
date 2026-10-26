@@ -1,7 +1,47 @@
 {
-  "fetchedAt": "2026-10-25T20:13:20.016Z",
-  "count": 6336,
+  "fetchedAt": "2026-10-26T03:28:52.341Z",
+  "count": 6337,
   "companies": [
+    {
+      "id": 40140,
+      "name": "Tesser",
+      "slug": "tesser",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/44cedc147f95098824e26f980f27c0f8d621d93b.png",
+      "website": "https://tesser.sh/",
+      "all_locations": "",
+      "long_description": "Tesser is a cloud development runtime that lets developers run multiple dev environments in parallel without overloading their laptops.\r\n\r\nOur CLI moves workloads like servers, builds, tests, and typechecking to isolated cloud machines while developers continue using their existing editors and coding agents. Tesser handles provisioning, networking, and port forwarding. Teams can access each other's environments through our gateway, share live previews, and run Tesser on our infrastructure or their own cloud (BYOC).\r\n",
+      "one_liner": "Seamless cloud dev environments",
+      "team_size": 0,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "B2B",
+      "subindustry": "B2B -> Infrastructure",
+      "launched_at": 1792979810,
+      "tags": [
+        "Developer Tools"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Winter 2027",
+      "status": "Active",
+      "industries": [
+        "B2B",
+        "Infrastructure"
+      ],
+      "regions": [
+        "Unspecified"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/tesser"
+    },
     {
       "id": 39117,
       "name": "Godpack",
@@ -1497,7 +1537,7 @@
       "name": "The Subvocal Company",
       "slug": "the-subvocal-company",
       "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/cacc4ab40596ece6b5c77c3f350ee25ddf5cb079.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/932b2d47f36f3bce67a23cc2ce77599b9f364edd.png",
       "website": "https://subvocal.company",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "We're building a silent speech wearable that lets you talk to your computer at the speed of voice, but silently and completely imperceptibly to everyone around you.",
@@ -2388,6 +2428,7 @@
       "launched_at": 1792888503,
       "tags": [
         "Fintech",
+        "Consumer",
         "Consumer Finance"
       ],
       "tags_highlighted": [],
@@ -2728,7 +2769,7 @@
       "website": "https://usevyra.com",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Instead of making users learn a timeline, we let them upload footage, describe what they want, and get back a polished edit in minutes.",
-      "one_liner": "Autonomous video editing for non-editors.",
+      "one_liner": "Personal video editing agent for shortform content",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -3235,27 +3276,28 @@
     },
     {
       "id": 36088,
-      "name": "OpenSEO",
-      "slug": "openseo",
+      "name": "EveryApp",
+      "slug": "everyapp",
       "former_names": [
-        "Every App"
+        "Every App",
+        "OpenSEO"
       ],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/4748ea4cce3f5b77e3f8a5d77e2720edaffb5983.png",
-      "website": "https://openseo.so/",
-      "all_locations": "Boston, MA, USA",
-      "long_description": "Connect to your AI Agent in 2 minutes.\r\n\r\nGet expert level advice tailored to your business backed by real data like keyword search traffic, backlinks, and technical audits of your site.\r\n\r\nHere are some good skills to start with:\r\n\r\n/seo-audit What 1-2 changes to your website will drive more traffic?\r\n/keyword-research Find topics worth writing about?\r\n/competitor-analysis Understand your competitors’ SEO strategy.",
-      "one_liner": "Open source alternative to Semrush and Ahrefs",
+      "website": "https://everyapp.com",
+      "all_locations": "",
+      "long_description": "EveryApp is building open source alternatives to every SaaS. It’s a platform to host these open source apps and personal software. Everything runs behind one secure sign-in in your own Cloudflare account.",
+      "one_liner": "Make every app open source",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
       "industry": "B2B",
-      "subindustry": "B2B -> Marketing",
+      "subindustry": "B2B",
       "launched_at": 1790725906,
       "tags": [
+        "Developer Tools",
         "Open Source",
-        "Marketing",
-        "SEO"
+        "Marketing"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -3264,12 +3306,9 @@
       "batch": "Fall 2026",
       "status": "Active",
       "industries": [
-        "B2B",
-        "Marketing"
+        "B2B"
       ],
       "regions": [
-        "United States of America",
-        "America / Canada",
         "Remote",
         "Partly Remote"
       ],
@@ -3278,7 +3317,7 @@
       "demo_day_video_public": false,
       "app_answers": null,
       "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/openseo"
+      "url": "https://www.ycombinator.com/companies/everyapp"
     },
     {
       "id": 36086,
@@ -5802,7 +5841,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": false,
+      "isHiring": true,
       "nonprofit": false,
       "batch": "Fall 2026",
       "status": "Active",
@@ -6144,7 +6183,7 @@
       "website": "https://www.agent37.com/cloud",
       "all_locations": "New York City, NY, USA",
       "long_description": "* Ready to Use Instantly: Skip the complex server setup. It comes pre loaded with top AI Agents (like Claude Code and Hermes) so your agents can start working immediately.\r\n\r\n* Keep Your Work Safe: Unlike other systems that delete everything when they finish a task, these sandboxes remember your files, code, and settings forever until you delete them.\r\n\r\n* Pay Only for What You Use: Stop paying for idle servers. You pay a tiny fee to store your files, but you only pay for compute power during the exact minutes your AI is actively running.\r\n\r\n* Zero Infrastructure Headaches: You don’t need to be a senior DevOps engineer or manage complex cloud networks. One simple command handles the entire backend for you.\r\n\r\n* Connect to Any App: Allow your AI agents to securely log into and interact with everyday tools like Slack, Gmail, and GitHub in just a few clicks.",
-      "one_liner": "Persistent sandboxes for agents like hermes, openclaw, claude code",
+      "one_liner": "Cloud Sandbox for Agents",
       "team_size": 0,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -14999,7 +15038,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/493b89aecabc7b6fc643db9bad0535c31df8681d.png",
       "website": "https://olamlabs.ai",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "We push the complexity of simulations in order to provide labs with better model training and evaluations for their capability and safety needs. We achieve this through methods like multi-agent interaction and swarm RL.\r\n\r\nWe also run olamarena.com where humans come play multi-agent social games against models and inform our public evaluations on human <> agent interaction.",
+      "long_description": "We push the complexity of simulated environments in order to provide labs with better model training and evaluations for their capability and safety needs.\r\n\r\nWe also run olamarena.com where humans come play multi-agent social games against models and inform our public evaluations on human <> agent interaction.",
       "one_liner": "Crafting simulations for frontier lab model training",
       "team_size": 2,
       "highlight_black": false,
@@ -44897,8 +44936,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/1c746a958222a919c90dfff3a0cd3a949fa81bcc.png",
       "website": "https://withasync.com",
       "all_locations": "New York City, NY, USA",
-      "long_description": "Async builds AI agents that run small businesses. Law firms, healthcare clinics and real estate companies hire our AI agents to automate complex work that's never been economical to staff with humans, letting us capture labor spend that didn't previously exist.",
-      "one_liner": "AI agents that run small businesses",
+      "long_description": "Async builds AI agents that run businesses.",
+      "one_liner": "AI agents that run businesses",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -81675,8 +81714,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/995749b249373d88528eca173b29dc4d2d8e77da.png",
       "website": "https://www.joincarma.com/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Carma is building an AI-native platform that transforms fleet operations from tedious, manual work into effortless, automated workflows.\r\n\r\nWe’re the fastest-growing company in fleet management software. Carma already powers some of the largest fleets in the U.S., saving operations teams thousands of hours by eliminating busywork and keeping vehicles on the road.\r\n\r\nBacked by Soma Capital, Y Combinator, founders of Superhuman, and Tier-1 investors, we are sprinting toward a Series A in 2026.\r\n\r\nWe’re hiring the top 0.1% of engineers who want real ownership and impact—starting Day 1, you’ll build and ship fast to production for enterprise clients. Fleet operations run in real time, so your work is immediately used in the field and gets real customer feedback in hours, not months.",
-      "one_liner": "The AI Operating System For Modern Fleets.",
+      "long_description": "Carma is the agentic workspace that runs construction operations for profit.\r\n\r\nOur customers are the $100M+ contractors building America’s data centers.\r\n\r\nThe AGI race is a construction race. More than 40% of America’s 2026 data centers are late, and every month of delay is a gift to the CCP. They’re late because contractors still coordinate every jobsite by phone and spreadsheet.\r\n\r\nContractors sell their work at fixed prices, so every hour a crew waits comes out of their margin. One broken machine stops every crew behind it, and the repair invoice shows only a fraction of the cost. The rest lands in idle crews and higher bids on the next job.\r\n\r\nAdam, our AI operator, runs equipment operations for the whole company’s profit. He prices every idle hour, picks the repair with the lowest total cost, audits every bill before it’s paid, reallocates idle machines to the jobs that need them, and tells the company which machines to buy, repair, or sell. Managers approve every cost and Adam handles the coordination in between.\r\n\r\nIn three months, Adam increased operating profit by $4.21M a year for a $500M electrical contracting customer: a 12% increase. Across customers, the time people spend coordinating each repair fell 93%, and equipment downtime fell 30%.\r\n\r\nWe crossed $2M ARR three months after our first invoice, with five enterprise customers and a five-person team. Customers pay annually upfront, so we’re cash-flow positive. Carma sells no parts, rentals, or machines, so Adam’s only incentive is our customer’s profit.\r\n\r\nWhoever builds faster wins. We will make sure it’s America.",
+      "one_liner": "The agentic workspace that runs construction operations for profit",
       "team_size": 5,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -81685,11 +81724,9 @@
       "subindustry": "B2B -> Operations",
       "launched_at": 1701065445,
       "tags": [
-        "B2B",
-        "Workflow Automation",
-        "Compliance",
-        "AI",
-        "Automotive"
+        "Construction",
+        "Enterprise",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -178978,7 +179015,7 @@
       "all_locations": "London, England, United Kingdom",
       "long_description": "",
       "one_liner": "Bits is a credit card designed to help people build credit",
-      "team_size": 15,
+      "team_size": 25,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -179004,7 +179041,7 @@
         "Remote",
         "Partly Remote"
       ],
-      "stage": "Growth",
+      "stage": "Early",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
