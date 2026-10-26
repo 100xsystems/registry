@@ -9,7 +9,7 @@
     "performance",
     "edge-computing"
   ],
-  "updatedAt": "2026-10-23T20:50:27.266Z",
+  "updatedAt": "2026-10-26T22:08:05.955Z",
   "items": [
     {
       "guid": "01KY2432VQPD5FTF2RARXXYQGH",
@@ -62346,7 +62346,15 @@
       "summary": "Cloudflare's new post-quantum GeoKey Manager protects geographically fenced decryption keys from harvest now, decrypt later attacks. Learn how we redesigned our cryptography stack to support strict data sovereignty in a post-quantum world.",
       "author": "Chetan Agrawal",
       "publishedAt": "2026-10-23T18:06:56.000Z"
+    },
+    {
+      "guid": "01M5X2P6CQYMNAESRJ922DG5J3",
+      "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model, and our remediation with SGLang",
+      "link": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
+      "summary": "A configuration mismatch in GLM 5.3 on Workers AI triggered an SGLang bug that exposed KV cache pages across requests. Here is how we addressed the issue.",
+      "author": "Kevin Flansburg",
+      "publishedAt": "2026-10-26T22:01:23.000Z"
     }
   ],
-  "totalIndexed": 7792
+  "totalIndexed": 7793
 }
