@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-10-20T11:14:23.615Z",
+  "updatedAt": "2026-10-26T18:18:19.188Z",
   "items": [
     {
       "guid": "https://akrabat.com/?p=7569",
@@ -103,7 +103,15 @@
       "summary": "We have a PHPUnit test suite that's taking a while, so I wanted to find out the which tests were taking the longest. With the help of Google, I discovered the --log-junit phpunit-results.xml command line option to phpunit which creates an XML file with the info I need. Running on Slim's codebase,…",
       "author": "Rob",
       "publishedAt": "2026-10-20T10:26:02.000Z"
+    },
+    {
+      "guid": "https://akrabat.com/?p=7602",
+      "title": "Sort git branches by date",
+      "link": "https://akrabat.com/sort-git-branches-by-date/",
+      "summary": "I'm sure everyone is already doing this, but I've just discovered: git config --global branch.sort -committerdate Now, `git branch` sorts my branches by last commit date, most recent first. To reset: git config --global --unset branch.sort",
+      "author": "Rob",
+      "publishedAt": "2026-10-26T15:16:58.000Z"
     }
   ],
-  "totalIndexed": 12
+  "totalIndexed": 13
 }

@@ -1,34 +1,33 @@
 {
   "date": "2026-10-26",
-  "fetchedAt": "2026-10-26T12:36:58.226Z",
-  "previousCount": 6337,
-  "currentCount": 6338,
+  "fetchedAt": "2026-10-26T18:18:27.921Z",
+  "previousCount": 6338,
+  "currentCount": 6340,
   "added": [
     {
-      "id": 32197,
-      "name": "Evident Machines",
-      "slug": "evident-machines",
+      "id": 31198,
+      "name": "Wingman Law",
+      "slug": "wingman-law",
       "former_names": [
-        "Buildbox"
+        "Haven Law",
+        "Helios Law"
       ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/295be512801662b8dbfc7a0247cb6e74b367b70c.png",
-      "website": "https://evidentmachines.com/",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/2127606306fa68c80f746873e01b87bbfb011128.png",
+      "website": "https://www.wingmanlaw.com",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Evident Machines builds benchmarks for frontier AI in electrical engineering. We turn real research and engineering projects into evaluations grounded in computation, simulation, and physical experimentation. Our work helps frontier labs understand how models exercise scientific judgment and develop the capabilities needed to carry out research in the physical world.",
-      "one_liner": "Real-world benchmarks for electrical engineering",
+      "long_description": "Wingman Law is an AI-native personal injury law firm. Attorneys lead a team of AI agents to recover compensation for people injured in accidents. We are solving the human bottle neck in personal injury. \r\n\r\n",
+      "one_liner": "AI-native personal injury law firm",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
       "industry": "B2B",
-      "subindustry": "B2B",
-      "launched_at": 1785235599,
+      "subindustry": "B2B -> Legal",
+      "launched_at": 1764179577,
       "tags": [
-        "Hardware",
-        "Machine Learning",
-        "Robotics",
-        "Electronics",
-        "AI"
+        "Generative AI",
+        "Legal",
+        "LegalTech"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -37,7 +36,8 @@
       "batch": "Fall 2026",
       "status": "Active",
       "industries": [
-        "B2B"
+        "B2B",
+        "Legal"
       ],
       "regions": [
         "United States of America",
@@ -48,174 +48,86 @@
       "demo_day_video_public": false,
       "app_answers": null,
       "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/evident-machines"
+      "url": "https://www.ycombinator.com/companies/wingman-law"
+    },
+    {
+      "id": 37170,
+      "name": "Blinka",
+      "slug": "blinka",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/5b085876c74a1777f6976de94c51ed667db1b832.png",
+      "website": "https://blinka.co",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "",
+      "one_liner": "Banking for US companies operating globally",
+      "team_size": 0,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "Fintech",
+      "subindustry": "Fintech -> Banking and Exchange",
+      "launched_at": 1787257965,
+      "tags": [
+        "Fintech"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Fall 2026",
+      "status": "Active",
+      "industries": [
+        "Fintech",
+        "Banking and Exchange"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/blinka"
     }
   ],
   "removed": [],
   "updated": [
     {
-      "id": 12278,
-      "name": "Verto",
-      "slug": "verto",
-      "batch": "Winter 2019",
-      "url": "https://www.ycombinator.com/companies/verto",
+      "id": 22077,
+      "name": "Akiflow",
+      "slug": "akiflow",
+      "batch": "Summer 2020",
+      "url": "https://www.ycombinator.com/companies/akiflow",
       "changes": [
         {
           "field": "isHiring",
-          "before": true,
-          "after": false
+          "before": false,
+          "after": true
         }
       ]
     },
     {
-      "id": 21914,
-      "name": "Bits",
-      "slug": "bits",
-      "batch": "Summer 2020",
-      "url": "https://www.ycombinator.com/companies/bits",
+      "id": 23048,
+      "name": "Stoke Space",
+      "slug": "stoke-space",
+      "batch": "Winter 2021",
+      "url": "https://www.ycombinator.com/companies/stoke-space",
       "changes": [
         {
           "field": "stage",
-          "before": "Early",
-          "after": "Growth"
+          "before": "Growth",
+          "after": "Early"
         }
       ]
     },
     {
-      "id": 24258,
-      "name": "Enerjazz",
-      "slug": "enerjazz",
-      "batch": "Summer 2021",
-      "url": "https://www.ycombinator.com/companies/enerjazz",
-      "changes": [
-        {
-          "field": "all_locations",
-          "before": "Berlin, Berlin, Germany; Delhi, DL, India",
-          "after": "San Francisco, CA, USA; Delhi, DL, India"
-        },
-        {
-          "field": "regions",
-          "before": [
-            "Germany",
-            "India",
-            "Europe",
-            "South Asia"
-          ],
-          "after": [
-            "United States of America",
-            "India",
-            "America / Canada",
-            "South Asia"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 26890,
-      "name": "OpenScale",
-      "slug": "openscale",
-      "batch": "Summer 2022",
-      "url": "https://www.ycombinator.com/companies/openscale",
-      "changes": [
-        {
-          "field": "name",
-          "before": "Latent Space",
-          "after": "OpenScale"
-        },
-        {
-          "field": "slug",
-          "before": "latent-space",
-          "after": "openscale"
-        },
-        {
-          "field": "former_names",
-          "before": [
-            "wagmi",
-            "Payable"
-          ],
-          "after": [
-            "wagmi",
-            "Payable",
-            "Latent Space"
-          ]
-        },
-        {
-          "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/6c0b56165e84e87a8ef9fc8ec4eddc18beadea9d.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/ac8dea3a9e37379ddfaa9b0b53f21208acf79b25.png"
-        },
-        {
-          "field": "website",
-          "before": "https://latentspace.sh/",
-          "after": "https://openscale.so/"
-        },
-        {
-          "field": "one_liner",
-          "before": "Applied AI for The Emerging Economies",
-          "after": "The cheapest, fastest way to run open models and agent sandboxes"
-        },
-        {
-          "field": "team_size",
-          "before": 100,
-          "after": 50
-        },
-        {
-          "field": "industry",
-          "before": "Consumer",
-          "after": "B2B"
-        },
-        {
-          "field": "subindustry",
-          "before": "Consumer",
-          "after": "B2B -> Infrastructure"
-        },
-        {
-          "field": "tags",
-          "before": [
-            "SaaS",
-            "Workflow Automation",
-            "AI"
-          ],
-          "after": [
-            "Developer Tools",
-            "API",
-            "Cloud Computing",
-            "Infrastructure",
-            "AI"
-          ]
-        },
-        {
-          "field": "industries",
-          "before": [
-            "Consumer"
-          ],
-          "after": [
-            "B2B",
-            "Infrastructure"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 29950,
-      "name": "Pipeshift",
-      "slug": "pipeshift",
-      "batch": "Summer 2024",
-      "url": "https://www.ycombinator.com/companies/pipeshift",
-      "changes": [
-        {
-          "field": "one_liner",
-          "before": "Inference for real-time voice and chat",
-          "after": "Inference for real-time agents"
-        }
-      ]
-    },
-    {
-      "id": 30036,
-      "name": "Rulebase",
-      "slug": "rulebase",
-      "batch": "Fall 2024",
-      "url": "https://www.ycombinator.com/companies/rulebase",
+      "id": 28837,
+      "name": "Subsets",
+      "slug": "subsets",
+      "batch": "Summer 2023",
+      "url": "https://www.ycombinator.com/companies/subsets",
       "changes": [
         {
           "field": "isHiring",
@@ -225,150 +137,30 @@
       ]
     },
     {
-      "id": 30262,
-      "name": "Pickle",
-      "slug": "pickle-2",
-      "batch": "Winter 2025",
-      "url": "https://www.ycombinator.com/companies/pickle-2",
+      "id": 29509,
+      "name": "Blacksmith",
+      "slug": "blacksmith",
+      "batch": "Winter 2024",
+      "url": "https://www.ycombinator.com/companies/blacksmith",
       "changes": [
         {
-          "field": "one_liner",
-          "before": "The personal AI agent for Korea.",
-          "after": "The personal AI agent network for Asia"
+          "field": "stage",
+          "before": "Growth",
+          "after": "Early"
         }
       ]
     },
     {
-      "id": 30624,
-      "name": "Verne Robotics",
-      "slug": "verne-robotics",
+      "id": 30696,
+      "name": "GhostEye",
+      "slug": "ghosteye",
       "batch": "Summer 2025",
-      "url": "https://www.ycombinator.com/companies/verne-robotics",
+      "url": "https://www.ycombinator.com/companies/ghosteye",
       "changes": [
         {
-          "field": "team_size",
-          "before": 7,
-          "after": 8
-        }
-      ]
-    },
-    {
-      "id": 31222,
-      "name": "Paradev (formerly Superset)",
-      "slug": "paradev",
-      "batch": "Spring 2026",
-      "url": "https://www.ycombinator.com/companies/paradev",
-      "changes": [
-        {
-          "field": "name",
-          "before": "Superset",
-          "after": "Paradev (formerly Superset)"
-        },
-        {
-          "field": "slug",
-          "before": "superset",
-          "after": "paradev"
-        },
-        {
-          "field": "former_names",
-          "before": [],
-          "after": [
-            "Superset"
-          ]
-        },
-        {
-          "field": "website",
-          "before": "https://www.superset.sh/",
-          "after": "https://paradev.com/"
-        }
-      ]
-    },
-    {
-      "id": 31375,
-      "name": "Hub",
-      "slug": "hub",
-      "batch": "Spring 2026",
-      "url": "https://www.ycombinator.com/companies/hub",
-      "changes": [
-        {
-          "field": "team_size",
-          "before": 40,
-          "after": 60
-        }
-      ]
-    },
-    {
-      "id": 31385,
-      "name": "Zolvo",
-      "slug": "zolvo",
-      "batch": "Spring 2026",
-      "url": "https://www.ycombinator.com/companies/zolvo",
-      "changes": [
-        {
-          "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/13449379aadac83de276a47cb8ee88b50b55c4f8.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/b666a649770aa03e873bbfd549d566bd445e8766.png"
-        },
-        {
-          "field": "one_liner",
-          "before": "AI Back-Office Automation for Commercial Lenders",
-          "after": "AI for Commercial Lending"
-        },
-        {
-          "field": "team_size",
-          "before": 3,
-          "after": 4
-        }
-      ]
-    },
-    {
-      "id": 31564,
-      "name": "Huscarl",
-      "slug": "huscarl",
-      "batch": "Spring 2026",
-      "url": "https://www.ycombinator.com/companies/huscarl",
-      "changes": [
-        {
-          "field": "all_locations",
-          "before": "San Francisco, CA, USA; Remote",
-          "after": "San Francisco, CA, USA"
-        },
-        {
-          "field": "one_liner",
-          "before": "AI-native actuary enabling self-insurance for corporations",
-          "after": "Autonomous AI actuary for corporate insurance"
-        },
-        {
-          "field": "team_size",
-          "before": 2,
-          "after": 3
-        },
-        {
-          "field": "regions",
-          "before": [
-            "United States of America",
-            "America / Canada",
-            "Remote",
-            "Fully Remote"
-          ],
-          "after": [
-            "United States of America",
-            "America / Canada"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 32752,
-      "name": "Moving Atoms",
-      "slug": "moving-atoms",
-      "batch": "Summer 2026",
-      "url": "https://www.ycombinator.com/companies/moving-atoms",
-      "changes": [
-        {
-          "field": "one_liner",
-          "before": "Virtual Reality for Training Robots",
-          "after": "Scan to 3D Model"
+          "field": "isHiring",
+          "before": false,
+          "after": true
         }
       ]
     }
