@@ -9,7 +9,7 @@
     "edge-computing",
     "nextjs"
   ],
-  "updatedAt": "2026-10-23T20:50:37.914Z",
+  "updatedAt": "2026-10-26T12:36:53.264Z",
   "items": [
     {
       "guid": "vercel-blog::https://vercel.com/changelog/ai-gateway-now-supports-streaming-transcription",
@@ -5026,7 +5026,15 @@
       "summary": "from  is now available on , along with , a faster version for interactive use.Kimi K3.1 ProMoonshot AIAI GatewayKimi K3.1 Pro Highspeed\nK3.1 Pro is the first model in Moonshot's K3.1 series. It builds on  with improvements in coding, 3D modeling, financial analysis, and agentic tasks, and keeps the…",
       "author": "Zachary Chen",
       "publishedAt": "2026-10-23T00:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/faster-pnpm-installs",
+      "title": "Faster pnpm installs",
+      "link": "https://vercel.com/changelog/faster-pnpm-installs",
+      "summary": "pnpm installs on Vercel are now faster, reducing the time spent installing dependencies before your build.\nFor Pro deployments with restored build cache, we observed 14% lower average install times with the optimization enabled.\nVercel now reuses successful dependency verification across…",
+      "author": "Andrew Healey ",
+      "publishedAt": "2026-10-26T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 627
+  "totalIndexed": 628
 }

@@ -1,61 +1,85 @@
 # YC Company Changes for 2026-10-26
 
-- Previous total: 6336
-- Current total: 6337
+- Previous total: 6337
+- Current total: 6338
 - Added: 1
 - Removed: 0
-- Updated: 9
+- Updated: 13
 
 
 ## Added Companies
 
-- [Tesser](https://www.ycombinator.com/companies/tesser) (Winter 2027) — Seamless cloud dev environments
+- [Evident Machines](https://www.ycombinator.com/companies/evident-machines) (Fall 2026) — Real-world benchmarks for electrical engineering
 
 ## Updated Companies
 
+### [Verto](https://www.ycombinator.com/companies/verto)
+
+- `isHiring`: true → false
+
 ### [Bits](https://www.ycombinator.com/companies/bits)
 
-- `team_size`: 15 → 25
-- `stage`: Growth → Early
+- `stage`: Early → Growth
 
-### [Carma](https://www.ycombinator.com/companies/carma)
+### [Enerjazz](https://www.ycombinator.com/companies/enerjazz)
 
-- `one_liner`: The AI Operating System For Modern Fleets. → The agentic workspace that runs construction operations for profit
-- `tags`: B2B,Workflow Automation,Compliance,AI,Automotive → Construction,Enterprise,AI
+- `all_locations`: Berlin, Berlin, Germany; Delhi, DL, India → San Francisco, CA, USA; Delhi, DL, India
+- `regions`: Germany,India,Europe,South Asia → United States of America,India,America / Canada,South Asia
 
-### [Async](https://www.ycombinator.com/companies/withasync)
+### [OpenScale](https://www.ycombinator.com/companies/openscale)
 
-- `one_liner`: AI agents that run small businesses → AI agents that run businesses
+- `name`: Latent Space → OpenScale
+- `slug`: latent-space → openscale
+- `former_names`: wagmi,Payable → wagmi,Payable,Latent Space
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/6c0b56165e84e87a8ef9fc8ec4eddc18beadea9d.png → https://bookface-images.s3.amazonaws.com/small_logos/ac8dea3a9e37379ddfaa9b0b53f21208acf79b25.png
+- `website`: https://latentspace.sh/ → https://openscale.so/
+- `one_liner`: Applied AI for The Emerging Economies → The cheapest, fastest way to run open models and agent sandboxes
+- `team_size`: 100 → 50
+- `industry`: Consumer → B2B
+- `subindustry`: Consumer → B2B -> Infrastructure
+- `tags`: SaaS,Workflow Automation,AI → Developer Tools,API,Cloud Computing,Infrastructure,AI
+- `industries`: Consumer → B2B,Infrastructure
 
-### [Agent 37](https://www.ycombinator.com/companies/agent-37)
+### [Pipeshift](https://www.ycombinator.com/companies/pipeshift)
 
-- `one_liner`: Persistent sandboxes for agents like hermes, openclaw, claude code → Cloud Sandbox for Agents
+- `one_liner`: Inference for real-time voice and chat → Inference for real-time agents
 
-### [Inflection Space Systems](https://www.ycombinator.com/companies/inflection-space-systems)
+### [Rulebase](https://www.ycombinator.com/companies/rulebase)
 
-- `isHiring`: false → true
+- `isHiring`: true → false
 
-### [EveryApp](https://www.ycombinator.com/companies/everyapp)
+### [Pickle](https://www.ycombinator.com/companies/pickle-2)
 
-- `name`: OpenSEO → EveryApp
-- `slug`: openseo → everyapp
-- `former_names`: Every App → Every App,OpenSEO
-- `website`: https://openseo.so/ → https://everyapp.com
-- `all_locations`: Boston, MA, USA → 
-- `one_liner`: Open source alternative to Semrush and Ahrefs → Make every app open source
-- `subindustry`: B2B -> Marketing → B2B
-- `tags`: Open Source,Marketing,SEO → Developer Tools,Open Source,Marketing
-- `industries`: B2B,Marketing → B2B
-- `regions`: United States of America,America / Canada,Remote,Partly Remote → Remote,Partly Remote
+- `one_liner`: The personal AI agent for Korea. → The personal AI agent network for Asia
 
-### [Vyra](https://www.ycombinator.com/companies/vyra)
+### [Verne Robotics](https://www.ycombinator.com/companies/verne-robotics)
 
-- `one_liner`: Autonomous video editing for non-editors. → Personal video editing agent for shortform content
+- `team_size`: 7 → 8
 
-### [Vouch](https://www.ycombinator.com/companies/vouchwealth)
+### [Paradev (formerly Superset)](https://www.ycombinator.com/companies/paradev)
 
-- `tags`: Fintech,Consumer Finance → Fintech,Consumer,Consumer Finance
+- `name`: Superset → Paradev (formerly Superset)
+- `slug`: superset → paradev
+- `former_names`:  → Superset
+- `website`: https://www.superset.sh/ → https://paradev.com/
 
-### [The Subvocal Company](https://www.ycombinator.com/companies/the-subvocal-company)
+### [Hub](https://www.ycombinator.com/companies/hub)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/cacc4ab40596ece6b5c77c3f350ee25ddf5cb079.png → https://bookface-images.s3.amazonaws.com/small_logos/932b2d47f36f3bce67a23cc2ce77599b9f364edd.png
+- `team_size`: 40 → 60
+
+### [Zolvo](https://www.ycombinator.com/companies/zolvo)
+
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/13449379aadac83de276a47cb8ee88b50b55c4f8.png → https://bookface-images.s3.amazonaws.com/small_logos/b666a649770aa03e873bbfd549d566bd445e8766.png
+- `one_liner`: AI Back-Office Automation for Commercial Lenders → AI for Commercial Lending
+- `team_size`: 3 → 4
+
+### [Huscarl](https://www.ycombinator.com/companies/huscarl)
+
+- `all_locations`: San Francisco, CA, USA; Remote → San Francisco, CA, USA
+- `one_liner`: AI-native actuary enabling self-insurance for corporations → Autonomous AI actuary for corporate insurance
+- `team_size`: 2 → 3
+- `regions`: United States of America,America / Canada,Remote,Fully Remote → United States of America,America / Canada
+
+### [Moving Atoms](https://www.ycombinator.com/companies/moving-atoms)
+
+- `one_liner`: Virtual Reality for Training Robots → Scan to 3D Model

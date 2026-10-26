@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-10-25T15:36:54.712Z",
+  "updatedAt": "2026-10-26T12:36:42.424Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -2985,7 +2985,23 @@
       "summary": "Every time PostgreSQL decides whether a row is visible to your query, it asks the same question: was the transaction that wrote this row already committed when my snapshot was taken?",
       "author": null,
       "publishedAt": "2026-10-25T11:15:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9A8",
+      "title": "Karen Jex: Fostering Inclusivity with the PostgreSQL Europe Diversity Committee",
+      "link": "https://postgr.es/p/9A8",
+      "summary": "As promised during the session, I'm sharing the slides from the \"Fostering Inclusivity with the PostgreSQL Europe Diversity Committee\" presentation at the\n  New PostgreSQL Community Members - Summit at\n  PostgreSQL Conference Europe (PGConf.EU) 2026.\n\n\n\n\nThe community day sessions weren't recorded,…",
+      "author": null,
+      "publishedAt": "2026-10-26T11:07:35.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9A7",
+      "title": "semab tariq: Your backups are green. That does not mean you can restore.",
+      "link": "https://postgr.es/p/9A7",
+      "summary": "Most teams I work with have a backup dashboard, and most days it is green. The job ran; it finished; nothing failed. That green tick feels like safety, and it is the reason nobody thinks about backups again until the day they need one. Then something breaks, someone asks how long it will take to…",
+      "author": null,
+      "publishedAt": "2026-10-26T10:54:10.000Z"
     }
   ],
-  "totalIndexed": 372
+  "totalIndexed": 374
 }

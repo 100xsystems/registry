@@ -1,52 +1,72 @@
 {
   "date": "2026-10-26",
-  "fetchedAt": "2026-10-26T03:28:52.225Z",
-  "previousCount": 6336,
-  "currentCount": 6337,
+  "fetchedAt": "2026-10-26T12:36:58.226Z",
+  "previousCount": 6337,
+  "currentCount": 6338,
   "added": [
     {
-      "id": 40140,
-      "name": "Tesser",
-      "slug": "tesser",
-      "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/44cedc147f95098824e26f980f27c0f8d621d93b.png",
-      "website": "https://tesser.sh/",
-      "all_locations": "",
-      "long_description": "Tesser is a cloud development runtime that lets developers run multiple dev environments in parallel without overloading their laptops.\r\n\r\nOur CLI moves workloads like servers, builds, tests, and typechecking to isolated cloud machines while developers continue using their existing editors and coding agents. Tesser handles provisioning, networking, and port forwarding. Teams can access each other's environments through our gateway, share live previews, and run Tesser on our infrastructure or their own cloud (BYOC).\r\n",
-      "one_liner": "Seamless cloud dev environments",
-      "team_size": 0,
+      "id": 32197,
+      "name": "Evident Machines",
+      "slug": "evident-machines",
+      "former_names": [
+        "Buildbox"
+      ],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/295be512801662b8dbfc7a0247cb6e74b367b70c.png",
+      "website": "https://evidentmachines.com/",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "Evident Machines builds benchmarks for frontier AI in electrical engineering. We turn real research and engineering projects into evaluations grounded in computation, simulation, and physical experimentation. Our work helps frontier labs understand how models exercise scientific judgment and develop the capabilities needed to carry out research in the physical world.",
+      "one_liner": "Real-world benchmarks for electrical engineering",
+      "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
       "industry": "B2B",
-      "subindustry": "B2B -> Infrastructure",
-      "launched_at": 1792979810,
+      "subindustry": "B2B",
+      "launched_at": 1785235599,
       "tags": [
-        "Developer Tools"
+        "Hardware",
+        "Machine Learning",
+        "Robotics",
+        "Electronics",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
       "isHiring": false,
       "nonprofit": false,
-      "batch": "Winter 2027",
+      "batch": "Fall 2026",
       "status": "Active",
       "industries": [
-        "B2B",
-        "Infrastructure"
+        "B2B"
       ],
       "regions": [
-        "Unspecified"
+        "United States of America",
+        "America / Canada"
       ],
       "stage": "Early",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
       "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/tesser"
+      "url": "https://www.ycombinator.com/companies/evident-machines"
     }
   ],
   "removed": [],
   "updated": [
+    {
+      "id": 12278,
+      "name": "Verto",
+      "slug": "verto",
+      "batch": "Winter 2019",
+      "url": "https://www.ycombinator.com/companies/verto",
+      "changes": [
+        {
+          "field": "isHiring",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
     {
       "id": 21914,
       "name": "Bits",
@@ -55,157 +75,273 @@
       "url": "https://www.ycombinator.com/companies/bits",
       "changes": [
         {
-          "field": "team_size",
-          "before": 15,
-          "after": 25
-        },
-        {
           "field": "stage",
-          "before": "Growth",
-          "after": "Early"
+          "before": "Early",
+          "after": "Growth"
         }
       ]
     },
     {
-      "id": 29376,
-      "name": "Carma",
-      "slug": "carma",
-      "batch": "Winter 2024",
-      "url": "https://www.ycombinator.com/companies/carma",
+      "id": 24258,
+      "name": "Enerjazz",
+      "slug": "enerjazz",
+      "batch": "Summer 2021",
+      "url": "https://www.ycombinator.com/companies/enerjazz",
       "changes": [
         {
-          "field": "one_liner",
-          "before": "The AI Operating System For Modern Fleets.",
-          "after": "The agentic workspace that runs construction operations for profit"
+          "field": "all_locations",
+          "before": "Berlin, Berlin, Germany; Delhi, DL, India",
+          "after": "San Francisco, CA, USA; Delhi, DL, India"
         },
         {
-          "field": "tags",
+          "field": "regions",
           "before": [
-            "B2B",
-            "Workflow Automation",
-            "Compliance",
-            "AI",
-            "Automotive"
+            "Germany",
+            "India",
+            "Europe",
+            "South Asia"
           ],
           "after": [
-            "Construction",
-            "Enterprise",
-            "AI"
+            "United States of America",
+            "India",
+            "America / Canada",
+            "South Asia"
           ]
         }
       ]
     },
     {
-      "id": 30653,
-      "name": "Async",
-      "slug": "withasync",
-      "batch": "Summer 2026",
-      "url": "https://www.ycombinator.com/companies/withasync",
-      "changes": [
-        {
-          "field": "one_liner",
-          "before": "AI agents that run small businesses",
-          "after": "AI agents that run businesses"
-        }
-      ]
-    },
-    {
-      "id": 34893,
-      "name": "Agent 37",
-      "slug": "agent-37",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/agent-37",
-      "changes": [
-        {
-          "field": "one_liner",
-          "before": "Persistent sandboxes for agents like hermes, openclaw, claude code",
-          "after": "Cloud Sandbox for Agents"
-        }
-      ]
-    },
-    {
-      "id": 35025,
-      "name": "Inflection Space Systems",
-      "slug": "inflection-space-systems",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/inflection-space-systems",
-      "changes": [
-        {
-          "field": "isHiring",
-          "before": false,
-          "after": true
-        }
-      ]
-    },
-    {
-      "id": 36088,
-      "name": "EveryApp",
-      "slug": "everyapp",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/everyapp",
+      "id": 26890,
+      "name": "OpenScale",
+      "slug": "openscale",
+      "batch": "Summer 2022",
+      "url": "https://www.ycombinator.com/companies/openscale",
       "changes": [
         {
           "field": "name",
-          "before": "OpenSEO",
-          "after": "EveryApp"
+          "before": "Latent Space",
+          "after": "OpenScale"
         },
         {
           "field": "slug",
-          "before": "openseo",
-          "after": "everyapp"
+          "before": "latent-space",
+          "after": "openscale"
         },
         {
           "field": "former_names",
           "before": [
-            "Every App"
+            "wagmi",
+            "Payable"
           ],
           "after": [
-            "Every App",
-            "OpenSEO"
+            "wagmi",
+            "Payable",
+            "Latent Space"
           ]
         },
         {
-          "field": "website",
-          "before": "https://openseo.so/",
-          "after": "https://everyapp.com"
+          "field": "small_logo_thumb_url",
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/6c0b56165e84e87a8ef9fc8ec4eddc18beadea9d.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/ac8dea3a9e37379ddfaa9b0b53f21208acf79b25.png"
         },
         {
-          "field": "all_locations",
-          "before": "Boston, MA, USA",
-          "after": ""
+          "field": "website",
+          "before": "https://latentspace.sh/",
+          "after": "https://openscale.so/"
         },
         {
           "field": "one_liner",
-          "before": "Open source alternative to Semrush and Ahrefs",
-          "after": "Make every app open source"
+          "before": "Applied AI for The Emerging Economies",
+          "after": "The cheapest, fastest way to run open models and agent sandboxes"
+        },
+        {
+          "field": "team_size",
+          "before": 100,
+          "after": 50
+        },
+        {
+          "field": "industry",
+          "before": "Consumer",
+          "after": "B2B"
         },
         {
           "field": "subindustry",
-          "before": "B2B -> Marketing",
-          "after": "B2B"
+          "before": "Consumer",
+          "after": "B2B -> Infrastructure"
         },
         {
           "field": "tags",
           "before": [
-            "Open Source",
-            "Marketing",
-            "SEO"
+            "SaaS",
+            "Workflow Automation",
+            "AI"
           ],
           "after": [
             "Developer Tools",
-            "Open Source",
-            "Marketing"
+            "API",
+            "Cloud Computing",
+            "Infrastructure",
+            "AI"
           ]
         },
         {
           "field": "industries",
           "before": [
-            "B2B",
-            "Marketing"
+            "Consumer"
           ],
           "after": [
-            "B2B"
+            "B2B",
+            "Infrastructure"
           ]
+        }
+      ]
+    },
+    {
+      "id": 29950,
+      "name": "Pipeshift",
+      "slug": "pipeshift",
+      "batch": "Summer 2024",
+      "url": "https://www.ycombinator.com/companies/pipeshift",
+      "changes": [
+        {
+          "field": "one_liner",
+          "before": "Inference for real-time voice and chat",
+          "after": "Inference for real-time agents"
+        }
+      ]
+    },
+    {
+      "id": 30036,
+      "name": "Rulebase",
+      "slug": "rulebase",
+      "batch": "Fall 2024",
+      "url": "https://www.ycombinator.com/companies/rulebase",
+      "changes": [
+        {
+          "field": "isHiring",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 30262,
+      "name": "Pickle",
+      "slug": "pickle-2",
+      "batch": "Winter 2025",
+      "url": "https://www.ycombinator.com/companies/pickle-2",
+      "changes": [
+        {
+          "field": "one_liner",
+          "before": "The personal AI agent for Korea.",
+          "after": "The personal AI agent network for Asia"
+        }
+      ]
+    },
+    {
+      "id": 30624,
+      "name": "Verne Robotics",
+      "slug": "verne-robotics",
+      "batch": "Summer 2025",
+      "url": "https://www.ycombinator.com/companies/verne-robotics",
+      "changes": [
+        {
+          "field": "team_size",
+          "before": 7,
+          "after": 8
+        }
+      ]
+    },
+    {
+      "id": 31222,
+      "name": "Paradev (formerly Superset)",
+      "slug": "paradev",
+      "batch": "Spring 2026",
+      "url": "https://www.ycombinator.com/companies/paradev",
+      "changes": [
+        {
+          "field": "name",
+          "before": "Superset",
+          "after": "Paradev (formerly Superset)"
+        },
+        {
+          "field": "slug",
+          "before": "superset",
+          "after": "paradev"
+        },
+        {
+          "field": "former_names",
+          "before": [],
+          "after": [
+            "Superset"
+          ]
+        },
+        {
+          "field": "website",
+          "before": "https://www.superset.sh/",
+          "after": "https://paradev.com/"
+        }
+      ]
+    },
+    {
+      "id": 31375,
+      "name": "Hub",
+      "slug": "hub",
+      "batch": "Spring 2026",
+      "url": "https://www.ycombinator.com/companies/hub",
+      "changes": [
+        {
+          "field": "team_size",
+          "before": 40,
+          "after": 60
+        }
+      ]
+    },
+    {
+      "id": 31385,
+      "name": "Zolvo",
+      "slug": "zolvo",
+      "batch": "Spring 2026",
+      "url": "https://www.ycombinator.com/companies/zolvo",
+      "changes": [
+        {
+          "field": "small_logo_thumb_url",
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/13449379aadac83de276a47cb8ee88b50b55c4f8.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/b666a649770aa03e873bbfd549d566bd445e8766.png"
+        },
+        {
+          "field": "one_liner",
+          "before": "AI Back-Office Automation for Commercial Lenders",
+          "after": "AI for Commercial Lending"
+        },
+        {
+          "field": "team_size",
+          "before": 3,
+          "after": 4
+        }
+      ]
+    },
+    {
+      "id": 31564,
+      "name": "Huscarl",
+      "slug": "huscarl",
+      "batch": "Spring 2026",
+      "url": "https://www.ycombinator.com/companies/huscarl",
+      "changes": [
+        {
+          "field": "all_locations",
+          "before": "San Francisco, CA, USA; Remote",
+          "after": "San Francisco, CA, USA"
+        },
+        {
+          "field": "one_liner",
+          "before": "AI-native actuary enabling self-insurance for corporations",
+          "after": "Autonomous AI actuary for corporate insurance"
+        },
+        {
+          "field": "team_size",
+          "before": 2,
+          "after": 3
         },
         {
           "field": "regions",
@@ -213,61 +349,26 @@
             "United States of America",
             "America / Canada",
             "Remote",
-            "Partly Remote"
+            "Fully Remote"
           ],
           "after": [
-            "Remote",
-            "Partly Remote"
+            "United States of America",
+            "America / Canada"
           ]
         }
       ]
     },
     {
-      "id": 36411,
-      "name": "Vyra",
-      "slug": "vyra",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/vyra",
+      "id": 32752,
+      "name": "Moving Atoms",
+      "slug": "moving-atoms",
+      "batch": "Summer 2026",
+      "url": "https://www.ycombinator.com/companies/moving-atoms",
       "changes": [
         {
           "field": "one_liner",
-          "before": "Autonomous video editing for non-editors.",
-          "after": "Personal video editing agent for shortform content"
-        }
-      ]
-    },
-    {
-      "id": 36644,
-      "name": "Vouch",
-      "slug": "vouchwealth",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/vouchwealth",
-      "changes": [
-        {
-          "field": "tags",
-          "before": [
-            "Fintech",
-            "Consumer Finance"
-          ],
-          "after": [
-            "Fintech",
-            "Consumer",
-            "Consumer Finance"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 37272,
-      "name": "The Subvocal Company",
-      "slug": "the-subvocal-company",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/the-subvocal-company",
-      "changes": [
-        {
-          "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/cacc4ab40596ece6b5c77c3f350ee25ddf5cb079.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/932b2d47f36f3bce67a23cc2ce77599b9f364edd.png"
+          "before": "Virtual Reality for Training Robots",
+          "after": "Scan to 3D Model"
         }
       ]
     }
