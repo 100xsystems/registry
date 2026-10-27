@@ -9,7 +9,7 @@
     "performance",
     "edge-computing"
   ],
-  "updatedAt": "2026-10-26T22:08:05.955Z",
+  "updatedAt": "2026-10-27T17:31:37.103Z",
   "items": [
     {
       "guid": "01KY2432VQPD5FTF2RARXXYQGH",
@@ -62354,7 +62354,23 @@
       "summary": "A configuration mismatch in GLM 5.3 on Workers AI triggered an SGLang bug that exposed KV cache pages across requests. Here is how we addressed the issue.",
       "author": "Kevin Flansburg",
       "publishedAt": "2026-10-26T22:01:23.000Z"
+    },
+    {
+      "guid": "01M5YGNW60G1XYREPZQ9W8PSTD",
+      "title": "Introducing the Cloudflare PHP Capture the Flag challenge",
+      "link": "https://blog.cloudflare.com/php-ctf/",
+      "summary": "We are launching a PHP Capture the Flag challenge integrated with our Bug Bounty program to test our WAF protections. Security researchers are invited to bypass our defenses and capture the flag to help make the Internet safer.",
+      "author": "Celso Martinho",
+      "publishedAt": "2026-10-27T13:00:00.000Z"
+    },
+    {
+      "guid": "01M5G72REK3978980FNZCPDBRR",
+      "title": "What took the Internet offline in Q3 2026",
+      "link": "https://blog.cloudflare.com/q3-2026-internet-disruption-summary/",
+      "summary": "An examination of global Internet disruptions observed by Cloudflare Radar during the third quarter of 2026. This review analyzes how power failures, natural disasters, and government shutdowns impacted network connectivity and traffic.",
+      "author": "Lai Yi Ohlsen",
+      "publishedAt": "2026-10-27T13:00:00.000Z"
     }
   ],
-  "totalIndexed": 7793
+  "totalIndexed": 7795
 }

@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-10-24T20:01:45.544Z",
+  "updatedAt": "2026-10-27T17:31:51.571Z",
   "items": [
     {
       "guid": "https://linuxblog.io/?p=20337",
@@ -247,7 +247,15 @@
       "summary": "Updated October 2026: MySQL Monitor has had a major update. The single table of counters is now a live dashboard with per-second rates, alerts, health checks and process and top-query views.\nContinue reading...",
       "author": "Hayden James",
       "publishedAt": "2026-10-24T15:52:11.000Z"
+    },
+    {
+      "guid": "https://linuxblog.io/?p=20926",
+      "title": "I was wrong! zswap IS better than zram",
+      "link": "https://linuxblog.io/zswap-better-than-zram/",
+      "summary": "Update (October 2026): I first published this article on September 1, 2025. In March 2026, kernel developer Chris Down published Debunking zswap and zram myths, which reaches the same conclusion: if in doubt, prefer zswap.\nContinue reading...",
+      "author": "Hayden James",
+      "publishedAt": "2026-10-27T12:30:49.000Z"
     }
   ],
-  "totalIndexed": 30
+  "totalIndexed": 31
 }

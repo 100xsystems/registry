@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-10-27T03:54:50.619Z",
+  "updatedAt": "2026-10-27T17:31:37.598Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -3009,7 +3009,23 @@
       "summary": "For years, installing many packages from the PostgreSQL RPM repository on RHEL and its rebuilds started with the same step: `dnf install epel-release`. PostGIS, pgBackRest, pgcli, patroni, pg_statviz, ora2pg and lots of extensions pulled at least one dependency from EPEL.\nContinue reading \"The…",
       "author": null,
       "publishedAt": "2026-10-26T22:07:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9Ab",
+      "title": "Christophe Pettus: All Your GUCs in a Row: restart_after_crash",
+      "link": "https://postgr.es/p/9Ab",
+      "summary": "When a PostgreSQL backend crashes, the postmaster can restart itself automatically or exit and wait for external intervention.\n\n(I consult on PostgreSQL through PGX Inc..)",
+      "author": null,
+      "publishedAt": "2026-10-27T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9Ac",
+      "title": "Dinesh Kumar: SQL vs PL/pgSQL in PostgreSQL: Plan Caching",
+      "link": "https://postgr.es/p/9Ac",
+      "summary": "SQL vs PL/pgSQL functions in PostgreSQL 16: why a SQL function is re-planned on every loop call, how to reduce plan time.",
+      "author": null,
+      "publishedAt": "2026-10-27T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 375
+  "totalIndexed": 377
 }
