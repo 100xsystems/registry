@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-10-26T12:36:42.424Z",
+  "updatedAt": "2026-10-27T03:54:50.619Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -3001,7 +3001,15 @@
       "summary": "Most teams I work with have a backup dashboard, and most days it is green. The job ran; it finished; nothing failed. That green tick feels like safety, and it is the reason nobody thinks about backups again until the day they need one. Then something breaks, someone asks how long it will take to…",
       "author": null,
       "publishedAt": "2026-10-26T10:54:10.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9A9",
+      "title": "Devrim GÜNDÜZ: The PostgreSQL RPM repository needs a lot less EPEL now",
+      "link": "https://postgr.es/p/9A9",
+      "summary": "For years, installing many packages from the PostgreSQL RPM repository on RHEL and its rebuilds started with the same step: `dnf install epel-release`. PostGIS, pgBackRest, pgcli, patroni, pg_statviz, ora2pg and lots of extensions pulled at least one dependency from EPEL.\nContinue reading \"The…",
+      "author": null,
+      "publishedAt": "2026-10-26T22:07:00.000Z"
     }
   ],
-  "totalIndexed": 374
+  "totalIndexed": 375
 }

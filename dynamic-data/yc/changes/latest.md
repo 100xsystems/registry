@@ -1,43 +1,65 @@
-# YC Company Changes for 2026-10-26
+# YC Company Changes for 2026-10-27
 
 - Previous total: 6340
-- Current total: 6340
-- Added: 0
+- Current total: 6341
+- Added: 1
 - Removed: 0
-- Updated: 5
+- Updated: 10
 
+
+## Added Companies
+
+- [0.security](https://www.ycombinator.com/companies/0security) (Fall 2026) — The autonomous cybersecurity team
 
 ## Updated Companies
 
-### [Terraferma](https://www.ycombinator.com/companies/terraferma)
+### [Lamin](https://www.ycombinator.com/companies/lamin)
 
-- `name`: Ten Lives → Terraferma
-- `slug`: ten-lives → terraferma
-- `former_names`: Terraferma Foods → Terraferma Foods,Ten Lives
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/e831961d555ac79ac4d50f463f10bdbd3cfc71ad.png → https://bookface-images.s3.amazonaws.com/small_logos/a42a54af1e4135c740b51a74240219ed4392b644.png
-- `website`: https://tenlives.com → https://terraferma.ai
-- `one_liner`: Manufacturing more proteins with AI. → The world's best protein manufacturing platform.
-- `industry`: Consumer → Industrials
-- `subindustry`: Consumer -> Food and Beverage → Industrials -> Manufacturing and Robotics
-- `tags`:  → Machine Learning,Synthetic Biology,Manufacturing,Automation,Biotechnology
-- `industries`: Consumer,Food and Beverage → Industrials,Manufacturing and Robotics
+- `all_locations`:  → BY, Germany
+- `regions`: Remote,Partly Remote → Germany,Europe,Remote,Partly Remote
 
-### [Rivet](https://www.ycombinator.com/companies/rivet)
+### [Zaymo](https://www.ycombinator.com/companies/zaymo)
 
-- `one_liner`: Rivet Actors are the primitive for stateful workloads → The orchestrator for agentic workloads.
-- `team_size`: 5 → 7
-- `tags`: B2B,Open Source,Infrastructure → B2B,Open Source,Infrastructure,AI
+- `one_liner`: Zaymo is building an AI marketing agency → Tools for AI agents to run marketing for the world's biggest…
+- `team_size`: 18 → 19
 
-### [ClaimKit](https://www.ycombinator.com/companies/claimkit)
+### [Opslane](https://www.ycombinator.com/companies/opslane)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/3fc859869ec0d44cca04573f4fc8c9c6680e3a6c.png → https://bookface-images.s3.amazonaws.com/small_logos/b90bb870bed1955c5ae08362040a4b0a5beed802.png
-- `one_liner`: AI-native professional services agency  → AI-native tax firm
+- `one_liner`: Catch bugs that code review tools miss → AI Code Review tool that runs your app
 
-### [Reason Machines](https://www.ycombinator.com/companies/reason-machines)
+### [RiskCube](https://www.ycombinator.com/companies/riskcube)
 
-- `one_liner`: Reason Machines builds Reason Agent, the autonomous software engineer… → Reason is the AI teammate for work and code.
+- `one_liner`: Commercial insurance brokerage for startups.  → AI commercial insurance brokerage for startups. 
 
-### [Blinka](https://www.ycombinator.com/companies/blinka)
+### [Synthetic Society](https://www.ycombinator.com/companies/synthetic-society)
 
-- `launched_at`: 1787257965 → 1793035530
-- `tags`: Fintech → Fintech,AI
+- `one_liner`: Synthetic Videos to Simulate Real Users → Synthetic Videos to Power Marketing
+- `subindustry`: B2B -> Engineering, Product and Design → B2B -> Marketing
+- `industries`: B2B,Engineering, Product and Design → B2B,Marketing
+
+### [Manufact](https://www.ycombinator.com/companies/manufact)
+
+- `all_locations`: ZH, Switzerland → San Francisco, CA, USA
+- `regions`: Switzerland,Europe → United States of America,America / Canada
+
+### [Aside](https://www.ycombinator.com/companies/aside)
+
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/2e9196c93cd4fc802b51eabcb6432760d1efd3fb.png → https://bookface-images.s3.amazonaws.com/small_logos/433466322b82d033544acff5354641108752eb11.png
+
+### [Faraday](https://www.ycombinator.com/companies/faraday)
+
+- `tags`: Robotics,B2B,Manufacturing,Enterprise Software,AI → B2B,Manufacturing,Enterprise Software,AI
+
+### [OpenCrawl](https://www.ycombinator.com/companies/opencrawl)
+
+- `name`: OnePatch → OpenCrawl
+- `slug`: onepatch → opencrawl
+- `former_names`:  → OnePatch
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/7832df887d718a7dbfbcec376ef2b160c31b16da.png → https://bookface-images.s3.amazonaws.com/small_logos/9596390d36aa4aa0fc71e53dba1dc5db18a89293.png
+- `website`: https://onepatch.dev → https://getopencrawl.com
+- `one_liner`: Automate on-call at agent-scale. → Search infrastructure, built for your agents.
+- `tags`: DevOps,Automation,AI → Data Engineering,Search,AI
+
+### [Super Powers Mobility (SPM)](https://www.ycombinator.com/companies/super-powers-mobility-spm)
+
+- `one_liner`: Modular battery packs for mobility/vehicles → The highest performance modular battery packs for mobility/vehicles
