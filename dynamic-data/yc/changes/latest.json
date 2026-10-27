@@ -1,38 +1,32 @@
 {
   "date": "2026-10-27",
-  "fetchedAt": "2026-10-27T03:55:07.050Z",
-  "previousCount": 6340,
-  "currentCount": 6341,
+  "fetchedAt": "2026-10-27T11:53:38.167Z",
+  "previousCount": 6341,
+  "currentCount": 6343,
   "added": [
     {
-      "id": 35553,
-      "name": "0.security",
-      "slug": "0security",
+      "id": 36048,
+      "name": "Archgen Labs",
+      "slug": "archgen-labs",
       "former_names": [
-        "0sec Labs",
-        "0sec",
-        "0sec Labs",
-        "0sec",
-        "0security"
+        "Archgen AI"
       ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/a4a356af2535effc85a23e22046de196453243ce.png",
-      "website": "https://0.security",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/859bb4acfd797a8066a3332a29dbfc4ee42fcb0e.png",
+      "website": "https://www.archgen.tech/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "0.security is an applied AI research lab helping developers, AI-native startups, growing teams, and enterprises to continuously find & fix security risks 24/7.\r\n\r\nOur autonomous cybersecurity team has found & fixed previously unknown vulnerabilities in operating systems, government code and software powering more than 3 billion devices.\r\n\r\nWe work with EY, big pharma, financial services, AI-native startups and defense organisations to secure systems at the pace & depth needed to defend against AI-powered attackers.",
-      "one_liner": "The autonomous cybersecurity team",
+      "long_description": "Archgen Labs builds AI-powered chip design tools for the next generation of 3D semiconductors.\r\n\r\nStacking compute vertically shortens connections and reduces the energy and delay of moving data. But it also makes heat harder to remove. Our tools help engineers optimize placement, timing, and temperature together so they can build faster, more power-efficient 3D chips.\r\n\r\nOur GPU-accelerated placement engine ranked first in the Hudson River Trading macro-placement challenge. LayerTherm, our thermal analysis tool, predicts chip temperatures roughly 5,000× faster than conventional simulation in our benchmarks, helping engineers explore more designs and identify hotspots earlier. Newton, our AI chip design engineer, automates work across placement, routing, design-rule fixes, and timing closure.\r\n\r\nWe’re working with GlobalFoundries on 3D chip development, targeting our first tapeout in 2027.",
+      "one_liner": "AI-powered EDA tools for faster, cooler 3D chips",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
-      "industry": "B2B",
-      "subindustry": "B2B -> Security",
-      "launched_at": 1793060379,
+      "industry": "Industrials",
+      "subindustry": "Industrials -> Manufacturing and Robotics",
+      "launched_at": 1793077746,
       "tags": [
-        "B2B",
-        "Open Source",
-        "Cybersecurity",
-        "Enterprise",
-        "Defense"
+        "Hardware",
+        "Semiconductors",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -41,256 +35,222 @@
       "batch": "Fall 2026",
       "status": "Active",
       "industries": [
-        "B2B",
-        "Security"
+        "Industrials",
+        "Manufacturing and Robotics"
       ],
       "regions": [
         "United States of America",
-        "America / Canada"
+        "America / Canada",
+        "Remote",
+        "Partly Remote"
       ],
       "stage": "Early",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
       "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/0security"
+      "url": "https://www.ycombinator.com/companies/archgen-labs"
+    },
+    {
+      "id": 36840,
+      "name": "Axonnic",
+      "slug": "axonnic",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/f269fdfc703083f216ecc708a1d72e1eec821657.png",
+      "website": "https://www.axonnic.com",
+      "all_locations": "San Francisco, CA, USA; Remote",
+      "long_description": "Axonnic is building the missing data layer for dexterous robotics. Our wearable EMG technology captures human intent, effort and force directly from muscle activity as people demonstrate physical tasks. By revealing the physical signals that video cannot capture, Axonnic gives AI models the data they need to learn more precise and dexterous behaviour. Beyond robotics, this creates a foundation for new forms of human–computer interaction in which technology can understand and respond directly to human movement and intent.",
+      "one_liner": "Bringing human dexterity to every robot",
+      "team_size": 2,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "Industrials",
+      "subindustry": "Industrials -> Manufacturing and Robotics",
+      "launched_at": 1793084250,
+      "tags": [
+        "Neurotechnology",
+        "Robotics",
+        "Data Labeling"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Fall 2026",
+      "status": "Active",
+      "industries": [
+        "Industrials",
+        "Manufacturing and Robotics"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada",
+        "Remote",
+        "Fully Remote"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/axonnic"
     }
   ],
   "removed": [],
   "updated": [
     {
-      "id": 27092,
-      "name": "Lamin",
-      "slug": "lamin",
-      "batch": "Summer 2022",
-      "url": "https://www.ycombinator.com/companies/lamin",
+      "id": 23048,
+      "name": "Stoke Space",
+      "slug": "stoke-space",
+      "batch": "Winter 2021",
+      "url": "https://www.ycombinator.com/companies/stoke-space",
       "changes": [
         {
-          "field": "all_locations",
-          "before": "",
-          "after": "BY, Germany"
-        },
-        {
-          "field": "regions",
-          "before": [
-            "Remote",
-            "Partly Remote"
-          ],
-          "after": [
-            "Germany",
-            "Europe",
-            "Remote",
-            "Partly Remote"
-          ]
+          "field": "stage",
+          "before": "Early",
+          "after": "Growth"
         }
       ]
     },
     {
-      "id": 29323,
-      "name": "Zaymo",
-      "slug": "zaymo",
+      "id": 29509,
+      "name": "Blacksmith",
+      "slug": "blacksmith",
       "batch": "Winter 2024",
-      "url": "https://www.ycombinator.com/companies/zaymo",
+      "url": "https://www.ycombinator.com/companies/blacksmith",
       "changes": [
         {
-          "field": "one_liner",
-          "before": "Zaymo is building an AI marketing agency",
-          "after": "Tools for AI agents to run marketing for the world's biggest…"
+          "field": "stage",
+          "before": "Early",
+          "after": "Growth"
+        }
+      ]
+    },
+    {
+      "id": 29613,
+      "name": "ClaimSorted",
+      "slug": "claimsorted",
+      "batch": "Summer 2024",
+      "url": "https://www.ycombinator.com/companies/claimsorted",
+      "changes": [
+        {
+          "field": "small_logo_thumb_url",
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/84c63763f18d7ea0f559f538047cb3865f092ccc.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/dfcd7979c97f774f10a38a9a706ca6f632e07d98.png"
+        }
+      ]
+    },
+    {
+      "id": 29986,
+      "name": "Exin Therapeutics",
+      "slug": "exin-therapeutics",
+      "batch": "Winter 2025",
+      "url": "https://www.ycombinator.com/companies/exin-therapeutics",
+      "changes": [
+        {
+          "field": "small_logo_thumb_url",
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/61d9c34b51f9b98cbfdb92bc0014e3569c29b36c.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/635299b51df3aa2c7acb4b5c679a9b0b74fdaf5b.png"
         },
         {
-          "field": "team_size",
-          "before": 18,
-          "after": 19
-        }
-      ]
-    },
-    {
-      "id": 29751,
-      "name": "Opslane",
-      "slug": "opslane",
-      "batch": "Summer 2024",
-      "url": "https://www.ycombinator.com/companies/opslane",
-      "changes": [
-        {
           "field": "one_liner",
-          "before": "Catch bugs that code review tools miss",
-          "after": "AI Code Review tool that runs your app"
-        }
-      ]
-    },
-    {
-      "id": 30055,
-      "name": "RiskCube",
-      "slug": "riskcube",
-      "batch": "Fall 2024",
-      "url": "https://www.ycombinator.com/companies/riskcube",
-      "changes": [
-        {
-          "field": "one_liner",
-          "before": "Commercial insurance brokerage for startups. ",
-          "after": "AI commercial insurance brokerage for startups. "
-        }
-      ]
-    },
-    {
-      "id": 30520,
-      "name": "Synthetic Society",
-      "slug": "synthetic-society",
-      "batch": "Summer 2025",
-      "url": "https://www.ycombinator.com/companies/synthetic-society",
-      "changes": [
-        {
-          "field": "one_liner",
-          "before": "Synthetic Videos to Simulate Real Users",
-          "after": "Synthetic Videos to Power Marketing"
+          "before": "AI drug discovery platform for neurotherapeutics",
+          "after": "Agentic platform for predictive neuro drug discovery + data foundry."
         },
         {
           "field": "subindustry",
-          "before": "B2B -> Engineering, Product and Design",
-          "after": "B2B -> Marketing"
+          "before": "Healthcare -> Therapeutics",
+          "after": "Healthcare -> Drug Discovery and Delivery"
+        },
+        {
+          "field": "tags",
+          "before": [
+            "Neurotechnology",
+            "Biotech",
+            "Therapeutics"
+          ],
+          "after": [
+            "AI-powered Drug Discovery",
+            "Neurotechnology"
+          ]
         },
         {
           "field": "industries",
           "before": [
-            "B2B",
-            "Engineering, Product and Design"
+            "Healthcare",
+            "Therapeutics"
           ],
           "after": [
-            "B2B",
-            "Marketing"
+            "Healthcare",
+            "Drug Discovery and Delivery"
           ]
         }
       ]
     },
     {
-      "id": 30710,
-      "name": "Manufact",
-      "slug": "manufact",
-      "batch": "Summer 2025",
-      "url": "https://www.ycombinator.com/companies/manufact",
+      "id": 30338,
+      "name": "CopyCat AI",
+      "slug": "copycat-ai",
+      "batch": "Winter 2025",
+      "url": "https://www.ycombinator.com/companies/copycat-ai",
       "changes": [
         {
-          "field": "all_locations",
-          "before": "ZH, Switzerland",
-          "after": "San Francisco, CA, USA"
-        },
-        {
-          "field": "regions",
-          "before": [
-            "Switzerland",
-            "Europe"
-          ],
-          "after": [
-            "United States of America",
-            "America / Canada"
-          ]
+          "field": "team_size",
+          "before": 2,
+          "after": 4
         }
       ]
     },
     {
-      "id": 30943,
-      "name": "Aside",
-      "slug": "aside",
+      "id": 30522,
+      "name": "Naïve",
+      "slug": "naive",
+      "batch": "Spring 2025",
+      "url": "https://www.ycombinator.com/companies/naive",
+      "changes": [
+        {
+          "field": "team_size",
+          "before": 8,
+          "after": 12
+        }
+      ]
+    },
+    {
+      "id": 30922,
+      "name": "Selfin",
+      "slug": "selfin",
       "batch": "Fall 2025",
-      "url": "https://www.ycombinator.com/companies/aside",
-      "changes": [
-        {
-          "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/2e9196c93cd4fc802b51eabcb6432760d1efd3fb.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/433466322b82d033544acff5354641108752eb11.png"
-        }
-      ]
-    },
-    {
-      "id": 34896,
-      "name": "Faraday",
-      "slug": "faraday",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/faraday",
+      "url": "https://www.ycombinator.com/companies/selfin",
       "changes": [
         {
           "field": "tags",
           "before": [
-            "Robotics",
-            "B2B",
-            "Manufacturing",
-            "Enterprise Software",
-            "AI"
+            "Fintech",
+            "Finance",
+            "Investing",
+            "Trading"
           ],
           "after": [
-            "B2B",
-            "Manufacturing",
-            "Enterprise Software",
-            "AI"
+            "Fintech",
+            "Finance",
+            "Insurance",
+            "Trading"
           ]
         }
       ]
     },
     {
-      "id": 35260,
-      "name": "OpenCrawl",
-      "slug": "opencrawl",
+      "id": 31725,
+      "name": "Hickory & Company",
+      "slug": "hickory-and-company",
       "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/opencrawl",
-      "changes": [
-        {
-          "field": "name",
-          "before": "OnePatch",
-          "after": "OpenCrawl"
-        },
-        {
-          "field": "slug",
-          "before": "onepatch",
-          "after": "opencrawl"
-        },
-        {
-          "field": "former_names",
-          "before": [],
-          "after": [
-            "OnePatch"
-          ]
-        },
-        {
-          "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/7832df887d718a7dbfbcec376ef2b160c31b16da.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/9596390d36aa4aa0fc71e53dba1dc5db18a89293.png"
-        },
-        {
-          "field": "website",
-          "before": "https://onepatch.dev",
-          "after": "https://getopencrawl.com"
-        },
-        {
-          "field": "one_liner",
-          "before": "Automate on-call at agent-scale.",
-          "after": "Search infrastructure, built for your agents."
-        },
-        {
-          "field": "tags",
-          "before": [
-            "DevOps",
-            "Automation",
-            "AI"
-          ],
-          "after": [
-            "Data Engineering",
-            "Search",
-            "AI"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 38094,
-      "name": "Super Powers Mobility (SPM)",
-      "slug": "super-powers-mobility-spm",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/super-powers-mobility-spm",
+      "url": "https://www.ycombinator.com/companies/hickory-and-company",
       "changes": [
         {
           "field": "one_liner",
-          "before": "Modular battery packs for mobility/vehicles",
-          "after": "The highest performance modular battery packs for mobility/vehicles"
+          "before": "Hickory offers agentic compliance and BSA for banks and fintechs",
+          "after": "Hickory is agentic compliance and BSA for banks and fintechs"
         }
       ]
     }

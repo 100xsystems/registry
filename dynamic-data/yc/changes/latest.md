@@ -1,65 +1,51 @@
 # YC Company Changes for 2026-10-27
 
-- Previous total: 6340
-- Current total: 6341
-- Added: 1
+- Previous total: 6341
+- Current total: 6343
+- Added: 2
 - Removed: 0
-- Updated: 10
+- Updated: 8
 
 
 ## Added Companies
 
-- [0.security](https://www.ycombinator.com/companies/0security) (Fall 2026) — The autonomous cybersecurity team
+- [Archgen Labs](https://www.ycombinator.com/companies/archgen-labs) (Fall 2026) — AI-powered EDA tools for faster, cooler 3D chips
+- [Axonnic](https://www.ycombinator.com/companies/axonnic) (Fall 2026) — Bringing human dexterity to every robot
 
 ## Updated Companies
 
-### [Lamin](https://www.ycombinator.com/companies/lamin)
+### [Stoke Space](https://www.ycombinator.com/companies/stoke-space)
 
-- `all_locations`:  → BY, Germany
-- `regions`: Remote,Partly Remote → Germany,Europe,Remote,Partly Remote
+- `stage`: Early → Growth
 
-### [Zaymo](https://www.ycombinator.com/companies/zaymo)
+### [Blacksmith](https://www.ycombinator.com/companies/blacksmith)
 
-- `one_liner`: Zaymo is building an AI marketing agency → Tools for AI agents to run marketing for the world's biggest…
-- `team_size`: 18 → 19
+- `stage`: Early → Growth
 
-### [Opslane](https://www.ycombinator.com/companies/opslane)
+### [ClaimSorted](https://www.ycombinator.com/companies/claimsorted)
 
-- `one_liner`: Catch bugs that code review tools miss → AI Code Review tool that runs your app
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/84c63763f18d7ea0f559f538047cb3865f092ccc.png → https://bookface-images.s3.amazonaws.com/small_logos/dfcd7979c97f774f10a38a9a706ca6f632e07d98.png
 
-### [RiskCube](https://www.ycombinator.com/companies/riskcube)
+### [Exin Therapeutics](https://www.ycombinator.com/companies/exin-therapeutics)
 
-- `one_liner`: Commercial insurance brokerage for startups.  → AI commercial insurance brokerage for startups. 
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/61d9c34b51f9b98cbfdb92bc0014e3569c29b36c.png → https://bookface-images.s3.amazonaws.com/small_logos/635299b51df3aa2c7acb4b5c679a9b0b74fdaf5b.png
+- `one_liner`: AI drug discovery platform for neurotherapeutics → Agentic platform for predictive neuro drug discovery + data foundry.
+- `subindustry`: Healthcare -> Therapeutics → Healthcare -> Drug Discovery and Delivery
+- `tags`: Neurotechnology,Biotech,Therapeutics → AI-powered Drug Discovery,Neurotechnology
+- `industries`: Healthcare,Therapeutics → Healthcare,Drug Discovery and Delivery
 
-### [Synthetic Society](https://www.ycombinator.com/companies/synthetic-society)
+### [CopyCat AI](https://www.ycombinator.com/companies/copycat-ai)
 
-- `one_liner`: Synthetic Videos to Simulate Real Users → Synthetic Videos to Power Marketing
-- `subindustry`: B2B -> Engineering, Product and Design → B2B -> Marketing
-- `industries`: B2B,Engineering, Product and Design → B2B,Marketing
+- `team_size`: 2 → 4
 
-### [Manufact](https://www.ycombinator.com/companies/manufact)
+### [Naïve](https://www.ycombinator.com/companies/naive)
 
-- `all_locations`: ZH, Switzerland → San Francisco, CA, USA
-- `regions`: Switzerland,Europe → United States of America,America / Canada
+- `team_size`: 8 → 12
 
-### [Aside](https://www.ycombinator.com/companies/aside)
+### [Selfin](https://www.ycombinator.com/companies/selfin)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/2e9196c93cd4fc802b51eabcb6432760d1efd3fb.png → https://bookface-images.s3.amazonaws.com/small_logos/433466322b82d033544acff5354641108752eb11.png
+- `tags`: Fintech,Finance,Investing,Trading → Fintech,Finance,Insurance,Trading
 
-### [Faraday](https://www.ycombinator.com/companies/faraday)
+### [Hickory & Company](https://www.ycombinator.com/companies/hickory-and-company)
 
-- `tags`: Robotics,B2B,Manufacturing,Enterprise Software,AI → B2B,Manufacturing,Enterprise Software,AI
-
-### [OpenCrawl](https://www.ycombinator.com/companies/opencrawl)
-
-- `name`: OnePatch → OpenCrawl
-- `slug`: onepatch → opencrawl
-- `former_names`:  → OnePatch
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/7832df887d718a7dbfbcec376ef2b160c31b16da.png → https://bookface-images.s3.amazonaws.com/small_logos/9596390d36aa4aa0fc71e53dba1dc5db18a89293.png
-- `website`: https://onepatch.dev → https://getopencrawl.com
-- `one_liner`: Automate on-call at agent-scale. → Search infrastructure, built for your agents.
-- `tags`: DevOps,Automation,AI → Data Engineering,Search,AI
-
-### [Super Powers Mobility (SPM)](https://www.ycombinator.com/companies/super-powers-mobility-spm)
-
-- `one_liner`: Modular battery packs for mobility/vehicles → The highest performance modular battery packs for mobility/vehicles
+- `one_liner`: Hickory offers agentic compliance and BSA for banks and fintechs → Hickory is agentic compliance and BSA for banks and fintechs
