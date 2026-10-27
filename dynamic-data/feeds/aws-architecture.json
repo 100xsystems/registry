@@ -8,7 +8,7 @@
     "architecture",
     "aws"
   ],
-  "updatedAt": "2026-10-27T03:54:59.511Z",
+  "updatedAt": "2026-10-27T21:39:47.718Z",
   "items": [
     {
       "guid": "79195fa586925a9b62c134acc83bb06b7b67a778",
@@ -361,7 +361,31 @@
       "summary": "The next generation of AWS Resilience Hub introduces recommended resilience testing: four pre-configured, AWS FIS-powered tests that validate how your service detects and recovers from failures across Availability Zones, dependencies, and Regions, turning your resilience policy into evidence-backed…",
       "author": "Jennifer Moran",
       "publishedAt": "2026-10-26T17:35:01.000Z"
+    },
+    {
+      "guid": "644bfb8c6ef932df30dfaa7f8a8e2abd2134ed01",
+      "title": "Publishing LMS courses with a Kiro SCORM pipeline",
+      "link": "https://aws.amazon.com/blogs/architecture/publishing-lms-courses-with-a-kiro-scorm-pipeline/",
+      "summary": "See how to use Kiro, an agentic AI, to automate converting raw training material into compliant SCORM packages that are ready to upload to a learning management system (LMS).",
+      "author": "Omar Gonzalez",
+      "publishedAt": "2026-10-27T17:23:23.000Z"
+    },
+    {
+      "guid": "80bd9c10bc47f0c51d261c7793bed51ada46e7aa",
+      "title": "Vessel-specific voyage optimization with machine learning: Manta on AWS",
+      "link": "https://aws.amazon.com/blogs/architecture/vessel-specific-voyage-optimization-with-machine-learning-manta-on-aws/",
+      "summary": "Manta Marine Technologies closes the gap between seemingly identical ships by training machine learning models on each vessel's own operational history. Learn how Manta delivers vessel-specific voyage optimization on AWS to help shipowners reduce fuel consumption and improve voyage efficiency.",
+      "author": "Borja Rojo",
+      "publishedAt": "2026-10-27T17:14:32.000Z"
+    },
+    {
+      "guid": "f413b7c2a217297655ef9310f383a082afd64b46",
+      "title": "How Anchorage Digital and Turnkey verify code with AWS Nitro Enclaves",
+      "link": "https://aws.amazon.com/blogs/architecture/how-anchorage-digital-and-turnkey-verify-code-with-aws-nitro-enclaves/",
+      "summary": "Anchorage Digital and Turnkey built verifiable infrastructure on AWS Nitro Enclaves so crypto wallets can cryptographically verify which code parsed a transaction. This post covers the architecture, the attestation-gated access pattern, and how it extends to any high-trust workflow beyond…",
+      "author": "Alexander Qin",
+      "publishedAt": "2026-10-27T17:10:35.000Z"
     }
   ],
-  "totalIndexed": 44
+  "totalIndexed": 47
 }

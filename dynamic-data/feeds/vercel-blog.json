@@ -9,7 +9,7 @@
     "edge-computing",
     "nextjs"
   ],
-  "updatedAt": "2026-10-27T03:55:00.300Z",
+  "updatedAt": "2026-10-27T21:39:48.967Z",
   "items": [
     {
       "guid": "vercel-blog::https://vercel.com/changelog/ai-gateway-now-supports-streaming-transcription",
@@ -5074,7 +5074,39 @@
       "summary": "now lets you send input to running commands through standard input (stdin). Use it to exchange messages with stdio MCP servers such as , or send data to other command-line programs while they run.Vercel Sandboxagent-browser\nIn the TypeScript SDK, set  and  in . Use  to send input and  when you’re…",
       "author": "Kishore Devireddy",
       "publishedAt": "2026-10-26T06:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/blog/elevenlabs-on-ai-gateway",
+      "title": "ElevenLabs on AI Gateway",
+      "link": "https://vercel.com/blog/elevenlabs-on-ai-gateway",
+      "summary": "Vercel and  are partnering to bring 14 ElevenLabs models to . To celebrate the launch, all ElevenLabs models are 50% off on AI Gateway for the first 14 days, through November 9th.ElevenLabsAI Gateway\nAI Gateway supports six different types of ElevenLabs audio models:\nAll of these audio models are…",
+      "author": "Kevin Dawkins",
+      "publishedAt": "2026-10-27T07:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/ai-traffic-insights-now-available-in-vercel-observability",
+      "title": "AI traffic insights now available in Vercel Observability",
+      "link": "https://vercel.com/changelog/ai-traffic-insights-now-available-in-vercel-observability",
+      "summary": "You can now query AI traffic in  to understand how AI bots are accessing your site.Vercel Observability\nAI traffic insights show:\nTo view AI traffic insights, open  in the Vercel dashboard.Observability > AI Traffic\nYou and your agents can also query these metrics with  in the . CLI queries require…",
+      "author": "Mark Knichel",
+      "publishedAt": "2026-10-27T00:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/vercel-agent-sessions-now-cost-67-percent-less",
+      "title": "Vercel Agent sessions now cost 67% less",
+      "link": "https://vercel.com/changelog/vercel-agent-sessions-now-cost-67-percent-less",
+      "summary": "Vercel Agent sessions in the dashboard and Slack now cost 67% less on average. We rebuilt how Agent manages context, reducing the tokens needed per session and improving prompt-cache reuse. These improvements are live and require no action. \nWhat changed: \n are unchanged. Paid sessions are billed…",
+      "author": "Bryan Hunter",
+      "publishedAt": "2026-10-27T00:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/harness-agent-image-inputs",
+      "title": "HarnessAgent now supports image inputs for all harness adapters",
+      "link": "https://vercel.com/changelog/harness-agent-image-inputs",
+      "summary": "The AI SDK  layer now accepts image inputs across every harness adapter.HarnessAgent\nPass images alongside text in the standard AI SDK message format: a  array mixing  and  parts.content{ type: 'text' }{ type: 'file' }\nImage input is processed by the harnesses' underlying vision models and…",
+      "author": "Felix Arntz",
+      "publishedAt": "2026-10-27T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 633
+  "totalIndexed": 637
 }

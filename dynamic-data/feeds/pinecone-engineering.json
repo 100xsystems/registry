@@ -8,7 +8,7 @@
     "vector-databases",
     "infrastructure"
   ],
-  "updatedAt": "2026-10-27T03:54:59.814Z",
+  "updatedAt": "2026-10-27T21:39:49.297Z",
   "items": [
     {
       "guid": "https://www.pinecone.io/blog/behind-the-benchmarking-pipeline/",
@@ -4937,7 +4937,15 @@
       "summary": "Chroma Cloud stops accepting writes on November 22, 2026 and stops serving reads on December 22, 2026. This guide migrates a Chroma Cloud collection to Pinecone Database during a planned write pause.",
       "author": null,
       "publishedAt": "2026-10-26T14:00:32.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/introducing-pg-pinecone/",
+      "title": "Introducing pg_pinecone: Open-Source Search for Your Postgres Data",
+      "link": "https://www.pinecone.io/blog/introducing-pg-pinecone/",
+      "summary": "pg_pinecone is an open source (Apache 2.0) Postgres extension for search on the data you already store, built on the search engine Pinecone runs at scale.",
+      "author": null,
+      "publishedAt": "2026-10-27T13:00:00.000Z"
     }
   ],
-  "totalIndexed": 616
+  "totalIndexed": 617
 }
