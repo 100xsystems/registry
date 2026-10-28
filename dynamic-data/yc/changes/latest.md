@@ -1,55 +1,46 @@
 # YC Company Changes for 2026-10-28
 
 - Previous total: 6349
-- Current total: 6349
-- Added: 0
+- Current total: 6350
+- Added: 1
 - Removed: 0
-- Updated: 10
+- Updated: 7
 
+
+## Added Companies
+
+- [HillStar](https://www.ycombinator.com/companies/hillstar) (Fall 2026) — Agents to help utilities make better buying decisions.
 
 ## Updated Companies
 
-### [Delee](https://www.ycombinator.com/companies/delee)
+### [OddsView](https://www.ycombinator.com/companies/oddsview)
 
-- `website`: http://www.delee.co     → http://www.delee.bio
+- `status`: Active → Inactive
 
-### [Postal](https://www.ycombinator.com/companies/postal)
+### [Spherecast](https://www.ycombinator.com/companies/spherecast)
 
-- `isHiring`: true → false
+- `team_size`: 7 → 10
 
-### [Blitz](https://www.ycombinator.com/companies/blitz)
+### [Cheers](https://www.ycombinator.com/companies/cheers)
 
-- `all_locations`: Porto, Porto District, Portugal; Remote → San Francisco, CA, USA; Remote
-- `regions`: Portugal,Europe,Remote,Fully Remote → United States of America,America / Canada,Remote,Fully Remote
+- `one_liner`: Win local search on ChatGPT & other LLMs → Helping AI choose the best local business
+- `team_size`: 2 → 5
 
-### [FactIQ](https://www.ycombinator.com/companies/factiq)
+### [LedgerUp](https://www.ycombinator.com/companies/ledgerup)
 
-- `one_liner`: Investment research data for AI agents → Economic and financial intel for AI agents
-- `tags`: Investing,Data Visualization,AI,AI Assistant → Fintech,Investing,Data Labeling
+- `one_liner`: AI agents that handles complex billing and revenue → AI agents for manual Accounts Receivable
 
-### [Strada](https://www.ycombinator.com/companies/strada)
+### [Artil](https://www.ycombinator.com/companies/artil)
 
-- `team_size`: 21 → 16
+- `website`: https://artil.ai/ → https://artil.ai/connect
+- `one_liner`: Agent identity and communication infrastructure → Let your agents message teammates and other agents
+- `tags`: Developer Tools,B2B,Email,Infrastructure,AI → Developer Tools,B2B,Messaging,Email,AI
 
-### [Decisional AI](https://www.ycombinator.com/companies/decisional-ai)
+### [Zatanna](https://www.ycombinator.com/companies/zatanna)
 
-- `one_liner`: AI Coworkers for Business Automation → AI Agents for the Trades
+- `one_liner`: Turning all software into agent-first APIs → Building the infrastructure for AI to interact with software
 - `isHiring`: false → true
-- `app_video_public`: true → false
 
-### [Mesmer](https://www.ycombinator.com/companies/mesmer)
+### [Litmus](https://www.ycombinator.com/companies/litmus-hiring)
 
-- `one_liner`: The operating system for the 100x Engineering Team → We build software factories for engineering teams
-
-### [Lumius](https://www.ycombinator.com/companies/lumius)
-
-- `isHiring`: true → false
-
-### [Helios Intelligence](https://www.ycombinator.com/companies/helios-intelligence)
-
-- `website`: https://www.heliosinc.ai/ → https://www.myhelios.com/
-
-### [Telamont](https://www.ycombinator.com/companies/telamont)
-
-- `one_liner`: Sentry for risks in construction documents → Sentry for errors in construction documents
-- `tags`: Documents,Construction,AI → Documents,Real Estate,Construction,AI
+- `team_size`: 3 → 4
