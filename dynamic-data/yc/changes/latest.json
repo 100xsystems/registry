@@ -1,122 +1,30 @@
 {
   "date": "2026-10-28",
-  "fetchedAt": "2026-10-28T04:16:38.387Z",
-  "previousCount": 6344,
-  "currentCount": 6347,
+  "fetchedAt": "2026-10-28T12:29:00.677Z",
+  "previousCount": 6347,
+  "currentCount": 6349,
   "added": [
     {
-      "id": 32229,
-      "name": "Confetti",
-      "slug": "confetti",
-      "former_names": [
-        "Isolate",
-        "Asteria"
-      ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c81aab8c34b634bf0e3fda422dd809248f73531a.png",
-      "website": "https://confetti.build",
-      "all_locations": "San Francisco, CA, USA",
-      "long_description": "Confetti lets anybody design and build hardware projects using plain-English prompts. Making hardware used to take weeks of learning CAD, sourcing compatible parts, and writing firmware. With Confetti, it takes one conversation. Create and edit designs, find components, and order printed parts straight to your doorstep. Start from scratch or remix a community project to make it your own.",
-      "one_liner": "Build hardware projects using plain-English prompts",
-      "team_size": 2,
-      "highlight_black": false,
-      "highlight_latinx": false,
-      "highlight_women": false,
-      "industry": "Consumer",
-      "subindustry": "Consumer",
-      "launched_at": 1793137306,
-      "tags": [
-        "Hardware",
-        "Design",
-        "3D Printing",
-        "Personalization",
-        "AI"
-      ],
-      "tags_highlighted": [],
-      "top_company": false,
-      "isHiring": false,
-      "nonprofit": false,
-      "batch": "Fall 2026",
-      "status": "Active",
-      "industries": [
-        "Consumer"
-      ],
-      "regions": [
-        "United States of America",
-        "America / Canada"
-      ],
-      "stage": "Early",
-      "app_video_public": false,
-      "demo_day_video_public": false,
-      "app_answers": null,
-      "question_answers": true,
-      "url": "https://www.ycombinator.com/companies/confetti"
-    },
-    {
-      "id": 35322,
-      "name": "Helios Intelligence",
-      "slug": "helios-intelligence",
+      "id": 34899,
+      "name": "The Letter Company",
+      "slug": "the-letter-company",
       "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/7dc9a239cf834c9434b809e9cda6ac12630153db.png",
-      "website": "https://www.heliosinc.ai/",
-      "all_locations": "Boston, MA, USA",
-      "long_description": "Helios is building a molecular body test from a single drop of blood. Our at-home test measures more than 1,000 biomarkers and turns them into a living model of the body—designed to show what is happening now, surface risk earlier, and become more useful with every test.\n\nBy combining longitudinal molecular data with labs, wearables, health records, and outcomes, we are building toward a world model of human biology. Our goal is to simulate all of human health and use that intelligence to help people perform, recover, and live longer.",
-      "one_liner": "At-home molecular body test: 1,000+ biomarkers from a drop of blood",
-      "team_size": 5,
-      "highlight_black": false,
-      "highlight_latinx": false,
-      "highlight_women": false,
-      "industry": "Healthcare",
-      "subindustry": "Healthcare -> Consumer Health and Wellness",
-      "launched_at": 1793143659,
-      "tags": [
-        "Health Tech",
-        "Consumer",
-        "Diagnostics",
-        "Health & Wellness",
-        "AI"
-      ],
-      "tags_highlighted": [],
-      "top_company": false,
-      "isHiring": true,
-      "nonprofit": false,
-      "batch": "Fall 2026",
-      "status": "Active",
-      "industries": [
-        "Healthcare",
-        "Consumer Health and Wellness"
-      ],
-      "regions": [
-        "United States of America",
-        "America / Canada"
-      ],
-      "stage": "Early",
-      "app_video_public": false,
-      "demo_day_video_public": false,
-      "app_answers": null,
-      "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/helios-intelligence"
-    },
-    {
-      "id": 37602,
-      "name": "Superserve",
-      "slug": "superserve",
-      "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/30c23ee4b16858a917c5254b034633777d99a5f2.png",
-      "website": "https://superserve.ai",
-      "all_locations": "San Francisco, CA, USA",
-      "long_description": "Traditional cloud infrastructure was built to run a single app for many users. Agents work differently. Each one needs its own isolated machine to write software on the fly, run tools and act on its own for hours or weeks. And everything it produces has to persist between sessions.\r\n\r\nSuperserve gives every agent and RL rollout its own virtual machine that starts in under 50ms. Machines start from templates with your repo and dependencies already loaded, pause with memory and files intact at zero compute cost, and resume or fork from that exact state. You can run docker, databases, browsers or any services on these VMs. \r\n\r\nAPI keys stay outside the machine and egress rules control what agents can reach.\r\n\r\nFor teams building coding agents, autonomous workers, or eval and training environments, that means elastic infrastructure with no servers or warm pools to manage, and control over what every agent can reach and which credentials it can see. \r\n\r\nWe run over 100K machines (as of Oct 2026) every week for world-class teams, including Lindy, and Y Combinator itself.",
-      "one_liner": "Virtual machines for autonomous agents",
-      "team_size": 3,
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/52ab0840253398a6b68d120c27e1324adecaa262.png",
+      "website": "https://letter.dev",
+      "all_locations": "New York City, NY, USA",
+      "long_description": "The Letter Company creates engineering tools and models purpose-built for growth. ",
+      "one_liner": "The world's first coding agent, harness, & IDE for growth engineering.",
+      "team_size": 6,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
       "industry": "B2B",
-      "subindustry": "B2B -> Infrastructure",
-      "launched_at": 1793143459,
+      "subindustry": "B2B -> Engineering, Product and Design",
+      "launched_at": 1785817189,
       "tags": [
-        "Cloud Computing",
-        "Infrastructure",
-        "AI"
+        "Developer Tools",
+        "SaaS",
+        "Web Development"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -126,7 +34,7 @@
       "status": "Active",
       "industries": [
         "B2B",
-        "Infrastructure"
+        "Engineering, Product and Design"
       ],
       "regions": [
         "United States of America",
@@ -139,98 +47,286 @@
       "demo_day_video_public": false,
       "app_answers": null,
       "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/superserve"
+      "url": "https://www.ycombinator.com/companies/the-letter-company"
+    },
+    {
+      "id": 36908,
+      "name": "RouterPlus",
+      "slug": "routerplus",
+      "former_names": [
+        "Evo",
+        "EVO"
+      ],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/6bb3c1b091b775faf5b88bf2fdc28cd10b50bb08.png",
+      "website": "https://routerplus.com",
+      "all_locations": "Bengaluru, KA, India",
+      "long_description": "RouterPlus is a marketplace for AI inference. We find the right AI model for a team's product, then get it served at the team's scale, at the best price.\r\n\r\nMost teams that run AI in production pay for a top model on every task, when a cheaper model can do most of the work. The same model can also cost twice as much depending on which provider runs it, and many providers fail at peak traffic.\r\n\r\nRouterPlus tests models on a team's own traffic and recommends one. Providers then compete for the workload. We check that the chosen provider can hold the team's real peak, and we keep a second provider ready as a backup. Teams call the model through one API.\r\n\r\nOur largest customer runs 3 million agent conversations a day on RouterPlus.",
+      "one_liner": "Marketplace for AI inference: the right model at the best price",
+      "team_size": 3,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "B2B",
+      "subindustry": "B2B",
+      "launched_at": 1793169017,
+      "tags": [
+        "Developer Tools",
+        "Marketplace",
+        "B2B",
+        "AI"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Fall 2026",
+      "status": "Active",
+      "industries": [
+        "B2B"
+      ],
+      "regions": [
+        "India",
+        "South Asia"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/routerplus"
     }
   ],
   "removed": [],
   "updated": [
     {
-      "id": 27691,
-      "name": "Magic Patterns",
-      "slug": "magic-patterns",
-      "batch": "Winter 2023",
-      "url": "https://www.ycombinator.com/companies/magic-patterns",
+      "id": 164,
+      "name": "Mino Games",
+      "slug": "mino-games",
+      "batch": "Winter 2011",
+      "url": "https://www.ycombinator.com/companies/mino-games",
       "changes": [
         {
-          "field": "one_liner",
-          "before": "Go from idea to production with AI.",
-          "after": "The AI-native workspace to design your product."
-        }
-      ]
-    },
-    {
-      "id": 28111,
-      "name": "Berry",
-      "slug": "berry",
-      "batch": "Winter 2023",
-      "url": "https://www.ycombinator.com/companies/berry",
-      "changes": [
-        {
-          "field": "one_liner",
-          "before": "Scale customer success and onboarding with AI ",
-          "after": "AI Renewal Agent for Your Long Tail. "
-        },
-        {
-          "field": "tags",
+          "field": "regions",
           "before": [
-            "Generative AI",
-            "Customer Success",
-            "AI",
-            "Conversational AI"
+            "United States of America",
+            "Canada",
+            "America / Canada"
           ],
           "after": [
-            "SaaS",
-            "Customer Success",
-            "Operations"
+            "United States of America",
+            "Canada",
+            "America / Canada",
+            "America / Canada"
           ]
         }
       ]
     },
     {
-      "id": 29517,
-      "name": "RetailReady",
-      "slug": "retailready",
-      "batch": "Winter 2024",
-      "url": "https://www.ycombinator.com/companies/retailready",
+      "id": 864,
+      "name": "teaBOT",
+      "slug": "teabot",
+      "batch": "Summer 2015",
+      "url": "https://www.ycombinator.com/companies/teabot",
       "changes": [
         {
-          "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/199d48c929434ddb64281cd83b9621eb37c3ed62.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/7041a514cb0f55bb5a909ae255a7e808b73d9b77.png"
+          "field": "regions",
+          "before": [
+            "Canada",
+            "United States of America",
+            "America / Canada",
+            "Remote",
+            "Partly Remote"
+          ],
+          "after": [
+            "Canada",
+            "United States of America",
+            "America / Canada",
+            "America / Canada",
+            "Remote",
+            "Partly Remote"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1211,
+      "name": "SimpleCitizen",
+      "slug": "simplecitizen",
+      "batch": "Summer 2016",
+      "url": "https://www.ycombinator.com/companies/simplecitizen",
+      "changes": [
+        {
+          "field": "tags",
+          "before": [
+            "Civic Tech",
+            "GovTech"
+          ],
+          "after": [
+            "Civic Tech",
+            "GovTech",
+            "Legal",
+            "LegalTech"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1528,
+      "name": "BIOS Health",
+      "slug": "bios-health",
+      "batch": "Winter 2017",
+      "url": "https://www.ycombinator.com/companies/bios-health",
+      "changes": [
+        {
+          "field": "all_locations",
+          "before": "Cambridge, England, United Kingdom; England, United Kingdom",
+          "after": "Boston, MA, USA; England, United Kingdom"
         },
         {
-          "field": "team_size",
-          "before": 12,
-          "after": 16
+          "field": "regions",
+          "before": [
+            "United Kingdom",
+            "Europe",
+            "Remote",
+            "Partly Remote"
+          ],
+          "after": [
+            "United States of America",
+            "United Kingdom",
+            "America / Canada",
+            "Europe",
+            "Remote",
+            "Partly Remote"
+          ]
         }
       ]
     },
     {
-      "id": 30887,
-      "name": "SellRaze",
-      "slug": "sellraze",
-      "batch": "Fall 2025",
-      "url": "https://www.ycombinator.com/companies/sellraze",
+      "id": 1573,
+      "name": "Humi",
+      "slug": "humi",
+      "batch": "Winter 2017",
+      "url": "https://www.ycombinator.com/companies/humi",
       "changes": [
         {
-          "field": "team_size",
-          "before": 6,
-          "after": 7
+          "field": "stage",
+          "before": "Early",
+          "after": "Growth"
         }
       ]
     },
     {
-      "id": 30907,
-      "name": "Logical",
-      "slug": "logical",
-      "batch": "Fall 2025",
-      "url": "https://www.ycombinator.com/companies/logical",
+      "id": 1901,
+      "name": "Verse Medical",
+      "slug": "jetlenses",
+      "batch": "Summer 2018",
+      "url": "https://www.ycombinator.com/companies/jetlenses",
+      "changes": [
+        {
+          "field": "stage",
+          "before": "Early",
+          "after": "Growth"
+        }
+      ]
+    },
+    {
+      "id": 13673,
+      "name": "Jet Admin",
+      "slug": "jet-admin",
+      "batch": "Winter 2020",
+      "url": "https://www.ycombinator.com/companies/jet-admin",
+      "changes": [
+        {
+          "field": "all_locations",
+          "before": "San Francisco, CA, USA",
+          "after": "Frankfurt, HE, Germany; San Francisco, CA, USA"
+        },
+        {
+          "field": "regions",
+          "before": [
+            "United States of America",
+            "America / Canada"
+          ],
+          "after": [
+            "Germany",
+            "United States of America",
+            "Europe",
+            "America / Canada"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 24787,
+      "name": "Squire.ai",
+      "slug": "squire-ai",
+      "batch": "Summer 2021",
+      "url": "https://www.ycombinator.com/companies/squire-ai",
+      "changes": [
+        {
+          "field": "regions",
+          "before": [
+            "United States of America",
+            "Canada",
+            "America / Canada",
+            "Remote",
+            "Partly Remote"
+          ],
+          "after": [
+            "United States of America",
+            "Canada",
+            "America / Canada",
+            "America / Canada",
+            "Remote",
+            "Partly Remote"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 28205,
+      "name": "Modulari-T",
+      "slug": "modulari-t",
+      "batch": "Winter 2023",
+      "url": "https://www.ycombinator.com/companies/modulari-t",
+      "changes": [
+        {
+          "field": "regions",
+          "before": [
+            "Canada",
+            "United States of America",
+            "America / Canada"
+          ],
+          "after": [
+            "Canada",
+            "United States of America",
+            "America / Canada",
+            "America / Canada"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 28965,
+      "name": "Yenmo",
+      "slug": "yenmo",
+      "batch": "Winter 2024",
+      "url": "https://www.ycombinator.com/companies/yenmo",
       "changes": [
         {
           "field": "one_liner",
-          "before": "A proactive desktop copilot. Clippy, but actually good.",
-          "after": "Proactive AI that knows what's important"
-        },
+          "before": "Secured consumer lending in India",
+          "after": "Loans against mutual funds and shares from 9.89% p.a"
+        }
+      ]
+    },
+    {
+      "id": 29317,
+      "name": "CloudCruise",
+      "slug": "cloudcruise",
+      "batch": "Winter 2024",
+      "url": "https://www.ycombinator.com/companies/cloudcruise",
+      "changes": [
         {
           "field": "isHiring",
           "before": false,
@@ -239,72 +335,112 @@
       ]
     },
     {
-      "id": 31215,
-      "name": "Bubble Lab",
-      "slug": "bubble-lab",
+      "id": 29973,
+      "name": "Arva AI",
+      "slug": "arva-ai",
+      "batch": "Summer 2024",
+      "url": "https://www.ycombinator.com/companies/arva-ai",
+      "changes": [
+        {
+          "field": "stage",
+          "before": "Early",
+          "after": "Growth"
+        }
+      ]
+    },
+    {
+      "id": 30511,
+      "name": "Vassar Robotics",
+      "slug": "vassar-robotics",
+      "batch": "Spring 2025",
+      "url": "https://www.ycombinator.com/companies/vassar-robotics",
+      "changes": [
+        {
+          "field": "all_locations",
+          "before": "Los Angeles, CA, USA",
+          "after": "Boston, MA, USA"
+        }
+      ]
+    },
+    {
+      "id": 30640,
+      "name": "Monarcha",
+      "slug": "monarcha",
+      "batch": "Summer 2025",
+      "url": "https://www.ycombinator.com/companies/monarcha",
+      "changes": [
+        {
+          "field": "all_locations",
+          "before": "San Francisco, CA, USA",
+          "after": "New York City, NY, USA"
+        }
+      ]
+    },
+    {
+      "id": 31051,
+      "name": "Corvera",
+      "slug": "corvera",
       "batch": "Winter 2026",
-      "url": "https://www.ycombinator.com/companies/bubble-lab",
+      "url": "https://www.ycombinator.com/companies/corvera",
       "changes": [
         {
-          "field": "one_liner",
-          "before": "Turn gatherings into lasting relationships.",
-          "after": "The intelligence layer for communities and events."
-        }
-      ]
-    },
-    {
-      "id": 31528,
-      "name": "Asendia AI",
-      "slug": "asendia-ai",
-      "batch": "Spring 2026",
-      "url": "https://www.ycombinator.com/companies/asendia-ai",
-      "changes": [
-        {
-          "field": "team_size",
-          "before": 3,
-          "after": 10
-        }
-      ]
-    },
-    {
-      "id": 33310,
-      "name": "Petrarch",
-      "slug": "petrarch",
-      "batch": "Summer 2026",
-      "url": "https://www.ycombinator.com/companies/petrarch",
-      "changes": [
-        {
-          "field": "demo_day_video_public",
+          "field": "isHiring",
           "before": false,
           "after": true
         }
       ]
     },
     {
-      "id": 35396,
-      "name": "Oasive",
-      "slug": "oasive",
+      "id": 31198,
+      "name": "Wingman Law",
+      "slug": "wingman-law",
       "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/oasive",
+      "url": "https://www.ycombinator.com/companies/wingman-law",
       "changes": [
         {
-          "field": "one_liner",
-          "before": "Helping bond investors find what's rich or cheap, and why",
-          "after": "Credit research for municipal bond analysts"
+          "field": "launched_at",
+          "before": 1764179577,
+          "after": 1793035947
         }
       ]
     },
     {
-      "id": 36972,
-      "name": "Composal",
-      "slug": "composal",
+      "id": 31240,
+      "name": "General Legal",
+      "slug": "general-legal",
+      "batch": "Winter 2026",
+      "url": "https://www.ycombinator.com/companies/general-legal",
+      "changes": [
+        {
+          "field": "team_size",
+          "before": 25,
+          "after": 40
+        }
+      ]
+    },
+    {
+      "id": 31412,
+      "name": "ClaimKit",
+      "slug": "claimkit",
       "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/composal",
+      "url": "https://www.ycombinator.com/companies/claimkit",
       "changes": [
         {
           "field": "subindustry",
           "before": "B2B",
-          "after": "B2B -> Engineering, Product and Design"
+          "after": "B2B -> Finance and Accounting"
+        },
+        {
+          "field": "tags",
+          "before": [
+            "B2B",
+            "AI"
+          ],
+          "after": [
+            "Finance",
+            "B2B",
+            "AI"
+          ]
         },
         {
           "field": "industries",
@@ -313,7 +449,46 @@
           ],
           "after": [
             "B2B",
-            "Engineering, Product and Design"
+            "Finance and Accounting"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 31452,
+      "name": "Degla Inc",
+      "slug": "degla-inc",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/degla-inc",
+      "changes": [
+        {
+          "field": "all_locations",
+          "before": "Boston, MA, USA",
+          "after": "San Francisco, CA, USA"
+        }
+      ]
+    },
+    {
+      "id": 33320,
+      "name": "OneCLI",
+      "slug": "onecli",
+      "batch": "Summer 2026",
+      "url": "https://www.ycombinator.com/companies/onecli",
+      "changes": [
+        {
+          "field": "all_locations",
+          "before": "San Francisco, CA, USA",
+          "after": "Tel Aviv-Yafo, Tel Aviv District, Israel"
+        },
+        {
+          "field": "regions",
+          "before": [
+            "United States of America",
+            "America / Canada"
+          ],
+          "after": [
+            "Israel",
+            "Middle East and North Africa"
           ]
         }
       ]

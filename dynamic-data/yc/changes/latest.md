@@ -1,60 +1,100 @@
 # YC Company Changes for 2026-10-28
 
-- Previous total: 6344
-- Current total: 6347
-- Added: 3
+- Previous total: 6347
+- Current total: 6349
+- Added: 2
 - Removed: 0
-- Updated: 10
+- Updated: 20
 
 
 ## Added Companies
 
-- [Confetti](https://www.ycombinator.com/companies/confetti) (Fall 2026) — Build hardware projects using plain-English prompts
-- [Helios Intelligence](https://www.ycombinator.com/companies/helios-intelligence) (Fall 2026) — At-home molecular body test: 1,000+ biomarkers from a drop of blood
-- [Superserve](https://www.ycombinator.com/companies/superserve) (Fall 2026) — Virtual machines for autonomous agents
+- [The Letter Company](https://www.ycombinator.com/companies/the-letter-company) (Fall 2026) — The world's first coding agent, harness, & IDE for growth engineering.
+- [RouterPlus](https://www.ycombinator.com/companies/routerplus) (Fall 2026) — Marketplace for AI inference: the right model at the best price
 
 ## Updated Companies
 
-### [Magic Patterns](https://www.ycombinator.com/companies/magic-patterns)
+### [Mino Games](https://www.ycombinator.com/companies/mino-games)
 
-- `one_liner`: Go from idea to production with AI. → The AI-native workspace to design your product.
+- `regions`: United States of America,Canada,America / Canada → United States of America,Canada,America / Canada,America / Canada
 
-### [Berry](https://www.ycombinator.com/companies/berry)
+### [teaBOT](https://www.ycombinator.com/companies/teabot)
 
-- `one_liner`: Scale customer success and onboarding with AI  → AI Renewal Agent for Your Long Tail. 
-- `tags`: Generative AI,Customer Success,AI,Conversational AI → SaaS,Customer Success,Operations
+- `regions`: Canada,United States of America,America / Canada,Remote,Partly Remote → Canada,United States of America,America / Canada,America / Canada,Remote,Partly Remote
 
-### [RetailReady](https://www.ycombinator.com/companies/retailready)
+### [SimpleCitizen](https://www.ycombinator.com/companies/simplecitizen)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/199d48c929434ddb64281cd83b9621eb37c3ed62.png → https://bookface-images.s3.amazonaws.com/small_logos/7041a514cb0f55bb5a909ae255a7e808b73d9b77.png
-- `team_size`: 12 → 16
+- `tags`: Civic Tech,GovTech → Civic Tech,GovTech,Legal,LegalTech
 
-### [SellRaze](https://www.ycombinator.com/companies/sellraze)
+### [BIOS Health](https://www.ycombinator.com/companies/bios-health)
 
-- `team_size`: 6 → 7
+- `all_locations`: Cambridge, England, United Kingdom; England, United Kingdom → Boston, MA, USA; England, United Kingdom
+- `regions`: United Kingdom,Europe,Remote,Partly Remote → United States of America,United Kingdom,America / Canada,Europe,Remote,Partly Remote
 
-### [Logical](https://www.ycombinator.com/companies/logical)
+### [Humi](https://www.ycombinator.com/companies/humi)
 
-- `one_liner`: A proactive desktop copilot. Clippy, but actually good. → Proactive AI that knows what's important
+- `stage`: Early → Growth
+
+### [Verse Medical](https://www.ycombinator.com/companies/jetlenses)
+
+- `stage`: Early → Growth
+
+### [Jet Admin](https://www.ycombinator.com/companies/jet-admin)
+
+- `all_locations`: San Francisco, CA, USA → Frankfurt, HE, Germany; San Francisco, CA, USA
+- `regions`: United States of America,America / Canada → Germany,United States of America,Europe,America / Canada
+
+### [Squire.ai](https://www.ycombinator.com/companies/squire-ai)
+
+- `regions`: United States of America,Canada,America / Canada,Remote,Partly Remote → United States of America,Canada,America / Canada,America / Canada,Remote,Partly Remote
+
+### [Modulari-T](https://www.ycombinator.com/companies/modulari-t)
+
+- `regions`: Canada,United States of America,America / Canada → Canada,United States of America,America / Canada,America / Canada
+
+### [Yenmo](https://www.ycombinator.com/companies/yenmo)
+
+- `one_liner`: Secured consumer lending in India → Loans against mutual funds and shares from 9.89% p.a
+
+### [CloudCruise](https://www.ycombinator.com/companies/cloudcruise)
+
 - `isHiring`: false → true
 
-### [Bubble Lab](https://www.ycombinator.com/companies/bubble-lab)
+### [Arva AI](https://www.ycombinator.com/companies/arva-ai)
 
-- `one_liner`: Turn gatherings into lasting relationships. → The intelligence layer for communities and events.
+- `stage`: Early → Growth
 
-### [Asendia AI](https://www.ycombinator.com/companies/asendia-ai)
+### [Vassar Robotics](https://www.ycombinator.com/companies/vassar-robotics)
 
-- `team_size`: 3 → 10
+- `all_locations`: Los Angeles, CA, USA → Boston, MA, USA
 
-### [Petrarch](https://www.ycombinator.com/companies/petrarch)
+### [Monarcha](https://www.ycombinator.com/companies/monarcha)
 
-- `demo_day_video_public`: false → true
+- `all_locations`: San Francisco, CA, USA → New York City, NY, USA
 
-### [Oasive](https://www.ycombinator.com/companies/oasive)
+### [Corvera](https://www.ycombinator.com/companies/corvera)
 
-- `one_liner`: Helping bond investors find what's rich or cheap, and why → Credit research for municipal bond analysts
+- `isHiring`: false → true
 
-### [Composal](https://www.ycombinator.com/companies/composal)
+### [Wingman Law](https://www.ycombinator.com/companies/wingman-law)
 
-- `subindustry`: B2B → B2B -> Engineering, Product and Design
-- `industries`: B2B → B2B,Engineering, Product and Design
+- `launched_at`: 1764179577 → 1793035947
+
+### [General Legal](https://www.ycombinator.com/companies/general-legal)
+
+- `team_size`: 25 → 40
+
+### [ClaimKit](https://www.ycombinator.com/companies/claimkit)
+
+- `subindustry`: B2B → B2B -> Finance and Accounting
+- `tags`: B2B,AI → Finance,B2B,AI
+- `industries`: B2B → B2B,Finance and Accounting
+
+### [Degla Inc](https://www.ycombinator.com/companies/degla-inc)
+
+- `all_locations`: Boston, MA, USA → San Francisco, CA, USA
+
+### [OneCLI](https://www.ycombinator.com/companies/onecli)
+
+- `all_locations`: San Francisco, CA, USA → Tel Aviv-Yafo, Tel Aviv District, Israel
+- `regions`: United States of America,America / Canada → Israel,Middle East and North Africa
