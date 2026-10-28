@@ -1,64 +1,60 @@
-# YC Company Changes for 2026-10-27
+# YC Company Changes for 2026-10-28
 
 - Previous total: 6344
-- Current total: 6344
-- Added: 0
+- Current total: 6347
+- Added: 3
 - Removed: 0
-- Updated: 12
+- Updated: 10
 
+
+## Added Companies
+
+- [Confetti](https://www.ycombinator.com/companies/confetti) (Fall 2026) — Build hardware projects using plain-English prompts
+- [Helios Intelligence](https://www.ycombinator.com/companies/helios-intelligence) (Fall 2026) — At-home molecular body test: 1,000+ biomarkers from a drop of blood
+- [Superserve](https://www.ycombinator.com/companies/superserve) (Fall 2026) — Virtual machines for autonomous agents
 
 ## Updated Companies
 
-### [Verse Medical](https://www.ycombinator.com/companies/jetlenses)
+### [Magic Patterns](https://www.ycombinator.com/companies/magic-patterns)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/2aff3fe26c747fac4d0b2d1e8d6b67a0b034d6e6.png → https://bookface-images.s3.amazonaws.com/small_logos/5edc6f39318198baa65774d95ec3874e786a52ec.png
-- `team_size`: 200 → 250
-- `tags`:  → Health Tech,Healthcare,Healthcare IT
-- `stage`: Growth → Early
+- `one_liner`: Go from idea to production with AI. → The AI-native workspace to design your product.
 
-### [Canix](https://www.ycombinator.com/companies/canix)
+### [Berry](https://www.ycombinator.com/companies/berry)
 
-- `isHiring`: true → false
+- `one_liner`: Scale customer success and onboarding with AI  → AI Renewal Agent for Your Long Tail. 
+- `tags`: Generative AI,Customer Success,AI,Conversational AI → SaaS,Customer Success,Operations
 
-### [aSim](https://www.ycombinator.com/companies/asim)
+### [RetailReady](https://www.ycombinator.com/companies/retailready)
 
-- `one_liner`: Build and share apps with friends → create and share mini-apps with friends
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/199d48c929434ddb64281cd83b9621eb37c3ed62.png → https://bookface-images.s3.amazonaws.com/small_logos/7041a514cb0f55bb5a909ae255a7e808b73d9b77.png
+- `team_size`: 12 → 16
 
-### [Converge](https://www.ycombinator.com/companies/converge)
+### [SellRaze](https://www.ycombinator.com/companies/sellraze)
 
-- `one_liner`: All-in-one marketing measurement for B2C → AI-native growth platform for DTC
-- `team_size`: 11 → 13
-
-### [Nowadays](https://www.ycombinator.com/companies/nowadays)
-
-- `team_size`: 11 → 12
-
-### [Crustdata](https://www.ycombinator.com/companies/crustdata)
-
-- `all_locations`:  → San Francisco, CA, USA
-- `regions`: Remote,Partly Remote → United States of America,America / Canada,Remote,Partly Remote
-
-### [Blue](https://www.ycombinator.com/companies/blue)
-
-- `one_liner`: Your phone finally has someone to run it. Plug in Blue, just ask. → AI rebuilt coding. We’re rebuilding the phone
 - `team_size`: 6 → 7
 
-### [Lapis](https://www.ycombinator.com/companies/lapis)
+### [Logical](https://www.ycombinator.com/companies/logical)
 
-- `team_size`: 5 → 4
+- `one_liner`: A proactive desktop copilot. Clippy, but actually good. → Proactive AI that knows what's important
+- `isHiring`: false → true
 
-### [Nessie](https://www.ycombinator.com/companies/nessie)
+### [Bubble Lab](https://www.ycombinator.com/companies/bubble-lab)
 
-- `team_size`: 3 → 2
+- `one_liner`: Turn gatherings into lasting relationships. → The intelligence layer for communities and events.
 
-### [BayMachines](https://www.ycombinator.com/companies/baymachines)
+### [Asendia AI](https://www.ycombinator.com/companies/asendia-ai)
 
-- `one_liner`: AI compute for defense contractors → Deployable compute for defense contractors
+- `team_size`: 3 → 10
 
-### [Callab AI](https://www.ycombinator.com/companies/callab-ai)
+### [Petrarch](https://www.ycombinator.com/companies/petrarch)
 
-- `isHiring`: true → false
+- `demo_day_video_public`: false → true
 
-### [Aikido Technologies](https://www.ycombinator.com/companies/aikido-technologies)
+### [Oasive](https://www.ycombinator.com/companies/oasive)
 
-- `launched_at`: 1789166065 → 1793103088
+- `one_liner`: Helping bond investors find what's rich or cheap, and why → Credit research for municipal bond analysts
+
+### [Composal](https://www.ycombinator.com/companies/composal)
+
+- `subindustry`: B2B → B2B -> Engineering, Product and Design
+- `industries`: B2B → B2B,Engineering, Product and Design

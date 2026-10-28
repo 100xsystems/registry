@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-10-27T21:39:55.527Z",
-  "count": 6344,
+  "fetchedAt": "2026-10-28T04:16:38.389Z",
+  "count": 6347,
   "companies": [
     {
       "id": 40140,
@@ -1100,6 +1100,51 @@
       "url": "https://www.ycombinator.com/companies/canos"
     },
     {
+      "id": 37602,
+      "name": "Superserve",
+      "slug": "superserve",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/30c23ee4b16858a917c5254b034633777d99a5f2.png",
+      "website": "https://superserve.ai",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "Traditional cloud infrastructure was built to run a single app for many users. Agents work differently. Each one needs its own isolated machine to write software on the fly, run tools and act on its own for hours or weeks. And everything it produces has to persist between sessions.\r\n\r\nSuperserve gives every agent and RL rollout its own virtual machine that starts in under 50ms. Machines start from templates with your repo and dependencies already loaded, pause with memory and files intact at zero compute cost, and resume or fork from that exact state. You can run docker, databases, browsers or any services on these VMs. \r\n\r\nAPI keys stay outside the machine and egress rules control what agents can reach.\r\n\r\nFor teams building coding agents, autonomous workers, or eval and training environments, that means elastic infrastructure with no servers or warm pools to manage, and control over what every agent can reach and which credentials it can see. \r\n\r\nWe run over 100K machines (as of Oct 2026) every week for world-class teams, including Lindy, and Y Combinator itself.",
+      "one_liner": "Virtual machines for autonomous agents",
+      "team_size": 3,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "B2B",
+      "subindustry": "B2B -> Infrastructure",
+      "launched_at": 1793143459,
+      "tags": [
+        "Cloud Computing",
+        "Infrastructure",
+        "AI"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Fall 2026",
+      "status": "Active",
+      "industries": [
+        "B2B",
+        "Infrastructure"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada",
+        "Remote",
+        "Partly Remote"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/superserve"
+    },
+    {
       "id": 37601,
       "name": "Lark",
       "slug": "lark-2",
@@ -2074,7 +2119,7 @@
       "highlight_latinx": false,
       "highlight_women": false,
       "industry": "B2B",
-      "subindustry": "B2B",
+      "subindustry": "B2B -> Engineering, Product and Design",
       "launched_at": 1791500162,
       "tags": [
         "Developer Tools",
@@ -2089,7 +2134,8 @@
       "batch": "Fall 2026",
       "status": "Active",
       "industries": [
-        "B2B"
+        "B2B",
+        "Engineering, Product and Design"
       ],
       "regions": [
         "United Kingdom",
@@ -4655,8 +4701,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/bc57ec29fb0414ace78c3d3c1e5d7acfef9c0c5c.png",
       "website": "https://www.oasive.ai",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Oasive helps bond investors figure out which bonds are rich or cheap, and why. We give portfolio managers, traders, analysts and investment advisers a team of AI analysts, combining fixed income research, proprietary quantitative models and scenario analysis to move from trade idea to decision in minutes. Our focus is Macro and Rates Research and MBS, with munis, ABS and corporates next.",
-      "one_liner": "Helping bond investors find what's rich or cheap, and why",
+      "long_description": "Oasive gives bond investors the data, models and research to decide what to buy. For muni credit analysts, Oasive brings a borrower's audited financials, debt, board meetings and local news into one page built around what matters for that sector, with every number linked to its source. Before a fund buys a bond from a city, school district, hospital or airport, that's the information its analyst has to dig up by hand from PDFs on local websites, board minutes and local news. We also serve agency MBS investors (collateral analytics, our own prepayment model and loan-level relative value) and rates investors (US and global macro with Treasury rich/cheap models).",
+      "one_liner": "Credit research for municipal bond analysts",
       "team_size": 1,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -4956,6 +5002,51 @@
       "app_answers": null,
       "question_answers": false,
       "url": "https://www.ycombinator.com/companies/invertix"
+    },
+    {
+      "id": 35322,
+      "name": "Helios Intelligence",
+      "slug": "helios-intelligence",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/7dc9a239cf834c9434b809e9cda6ac12630153db.png",
+      "website": "https://www.heliosinc.ai/",
+      "all_locations": "Boston, MA, USA",
+      "long_description": "Helios is building a molecular body test from a single drop of blood. Our at-home test measures more than 1,000 biomarkers and turns them into a living model of the body—designed to show what is happening now, surface risk earlier, and become more useful with every test.\n\nBy combining longitudinal molecular data with labs, wearables, health records, and outcomes, we are building toward a world model of human biology. Our goal is to simulate all of human health and use that intelligence to help people perform, recover, and live longer.",
+      "one_liner": "At-home molecular body test: 1,000+ biomarkers from a drop of blood",
+      "team_size": 5,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "Healthcare",
+      "subindustry": "Healthcare -> Consumer Health and Wellness",
+      "launched_at": 1793143659,
+      "tags": [
+        "Health Tech",
+        "Consumer",
+        "Diagnostics",
+        "Health & Wellness",
+        "AI"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": true,
+      "nonprofit": false,
+      "batch": "Fall 2026",
+      "status": "Active",
+      "industries": [
+        "Healthcare",
+        "Consumer Health and Wellness"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/helios-intelligence"
     },
     {
       "id": 35292,
@@ -8415,7 +8506,7 @@
       ],
       "stage": "Early",
       "app_video_public": false,
-      "demo_day_video_public": false,
+      "demo_day_video_public": true,
       "app_answers": null,
       "question_answers": false,
       "url": "https://www.ycombinator.com/companies/petrarch"
@@ -13274,6 +13365,53 @@
       "url": "https://www.ycombinator.com/companies/codag"
     },
     {
+      "id": 32229,
+      "name": "Confetti",
+      "slug": "confetti",
+      "former_names": [
+        "Isolate",
+        "Asteria"
+      ],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c81aab8c34b634bf0e3fda422dd809248f73531a.png",
+      "website": "https://confetti.build",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "Confetti lets anybody design and build hardware projects using plain-English prompts. Making hardware used to take weeks of learning CAD, sourcing compatible parts, and writing firmware. With Confetti, it takes one conversation. Create and edit designs, find components, and order printed parts straight to your doorstep. Start from scratch or remix a community project to make it your own.",
+      "one_liner": "Build hardware projects using plain-English prompts",
+      "team_size": 2,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "Consumer",
+      "subindustry": "Consumer",
+      "launched_at": 1793137306,
+      "tags": [
+        "Hardware",
+        "Design",
+        "3D Printing",
+        "Personalization",
+        "AI"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Fall 2026",
+      "status": "Active",
+      "industries": [
+        "Consumer"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": true,
+      "url": "https://www.ycombinator.com/companies/confetti"
+    },
+    {
       "id": 32227,
       "name": "Context.dev",
       "slug": "contextdev",
@@ -17658,7 +17796,7 @@
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Asendia AI replaces the top-of-funnel recruiter. Our AI agents clone each agency's best human recruiter: their knowledge base, screening logic, outreach style, and judgment, then run the full workflow across phone, SMS, WhatsApp, and email, 24/7. A req comes in; by the time a recruiter sits down, Asendia has already sourced, screened, and drafted submittals. Staffing is a $200B+ industry where speed is the entire margin.",
       "one_liner": "AI recruiters for staffing agencies",
-      "team_size": 3,
+      "team_size": 10,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -27294,8 +27432,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/8a94fc548c8500f0d7e462b5e941cb7f149637d0.png",
       "website": "https://bubblelab.ai/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Bubble Lab helps event organizers and professional communities turn a room full of people into meaningful connections. We help them understand who’s in the room, identify who should meet, make the introduction, and remember those relationships for the next event.\r\n\r\nAttendee enrichment, matchmaking, searchable member directories, applications, payments, Luma and Slack sync, onboarding, and analytics all live in one place, so a single operator can run better gatherings and build a smarter community over time.",
-      "one_liner": "Turn gatherings into lasting relationships.",
+      "long_description": "Bubble Lab is the all-in-one platform for running professional communities and events. From member data and operations to automations and billing, everything in one place. Try it now or book a demo!",
+      "one_liner": "The intelligence layer for communities and events.",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -37047,7 +37185,7 @@
       "website": "https://logical.io",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Logical is a desktop AI that acts as a proactive and largely promptless copilot, designed to reduce the friction of using AI for everyday tasks. It transfers context across apps, and allows taking action on many apps with just a few clicks. Logical can assist with drafting emails, writing docs, noting meetings and can even automatically detect action items. Need to prompt? Logical can understand intent in much fewer words than a regular chatbot. Plus, user data is never sent to Logical servers. Logical is the AI resurrection of Clippy, but actually good.",
-      "one_liner": "A proactive desktop copilot. Clippy, but actually good.",
+      "one_liner": "Proactive AI that knows what's important",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -37064,7 +37202,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": false,
+      "isHiring": true,
       "nonprofit": false,
       "batch": "Fall 2025",
       "status": "Active",
@@ -37665,7 +37803,7 @@
       "all_locations": "San Francisco, CA, USA",
       "long_description": "SellRaze is an AI-powered selling assistant that helps anyone sell anything in seconds. Point your camera at any item and we'll identify it, price it, and create an engaging listing across multiple marketplaces, including our own.\r\n\r\nEach day, more than 2,500 items are added to SellRaze, representing over $326,000 in inventory value.",
       "one_liner": "The fastest way to sell online.",
-      "team_size": 6,
+      "team_size": 7,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -76911,12 +77049,12 @@
       "name": "RetailReady",
       "slug": "retailready",
       "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/199d48c929434ddb64281cd83b9621eb37c3ed62.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/7041a514cb0f55bb5a909ae255a7e808b73d9b77.png",
       "website": "https://www.retailreadyai.com/",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Every time workers in a warehouse box an order, they reference a 100 page manual with instructions like where to put the shipping label. RetailReady replaces the instruction manual with a tablet application.",
       "one_liner": "An AI-powered supply chain compliance engine",
-      "team_size": 12,
+      "team_size": 16,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -100714,8 +100852,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/59005c33d3a0d40259f58fdc4a12bc21a5d29d73.png",
       "website": "https://berryai.com/",
       "all_locations": "San Francisco, CA, USA; Remote",
-      "long_description": "Berry offers an AI CSM that scales customer success for SaaS companies.\r\n\r\nEvery post-sales organization faces the challenge of scaling customer success without having to hire more. Berry combines the best of the two worlds - taking the white-glove onboarding experience and offering it at scale. \r\n\r\nOur AI CSM onboards, trains and grows accounts for you non-stop. It’s a 10x hire to your team - at a fraction of the cost.",
-      "one_liner": "Scale customer success and onboarding with AI ",
+      "long_description": "Berry is the AI Renewal Agent for B2B SaaS. We help you retain and grow long-tail revenue while cutting labor costs.\r\n\r\nYour long-tail customers are too costly for dedicated rep coverage, but their collective revenue is too valuable to ignore.\r\n\r\nBerry fully manages your long tail, freeing your reps to grow top accounts. It drives value realization, closes renewals, and unlocks cross-sells and upsells. From proactive outreach to commercial negotiation, it engages your customers across channels and languages, 24/7.\r\n\r\nBuilt for revenue and CS leaders who want higher NRR at a lower cost to serve. \r\n",
+      "one_liner": "AI Renewal Agent for Your Long Tail. ",
       "team_size": 8,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -100724,10 +100862,9 @@
       "subindustry": "B2B -> Operations",
       "launched_at": 1673362428,
       "tags": [
-        "Generative AI",
+        "SaaS",
         "Customer Success",
-        "AI",
-        "Conversational AI"
+        "Operations"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -109655,8 +109792,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/102836faf8c777a7201bce15ad9d99bab17c4a16.png",
       "website": "https://www.magicpatterns.com/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Magic Patterns is an AI design tool used by 2,500+ product teams at companies like Vanta, Doordash, and Freedom Mortgage to iterate on product ideas, get user feedback, and deploy to a website.",
-      "one_liner": "Go from idea to production with AI.",
+      "long_description": "Magic Patterns is a design tool used by more than 3,000 product teams at companies like Toast, Ramp, and Headway to brainstorm on product ideas, get user feedback, and ship to production.",
+      "one_liner": "The AI-native workspace to design your product.",
       "team_size": 10,
       "highlight_black": false,
       "highlight_latinx": false,

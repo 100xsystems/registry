@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-10-27T17:31:37.598Z",
+  "updatedAt": "2026-10-28T04:16:23.074Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -3025,7 +3025,15 @@
       "summary": "SQL vs PL/pgSQL functions in PostgreSQL 16: why a SQL function is re-planned on every loop call, how to reduce plan time.",
       "author": null,
       "publishedAt": "2026-10-27T00:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9Ad",
+      "title": "Chris van Eijk: no pg_hba.conf entry for host: what it means, measured",
+      "link": "https://postgr.es/p/9Ad",
+      "summary": "PostgreSQL's no pg_hba.conf entry for host, measured on 12 to 18 (not 15): the 'no encryption' tail, Docker's gateway address, hostssl, replication and reload.",
+      "author": null,
+      "publishedAt": "2026-10-28T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 377
+  "totalIndexed": 378
 }
