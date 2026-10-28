@@ -8,16 +8,8 @@
     "monitoring",
     "data-visualization"
   ],
-  "updatedAt": "2026-10-27T17:31:37.159Z",
+  "updatedAt": "2026-10-28T17:56:07.154Z",
   "items": [
-    {
-      "guid": "grafana-labs::https://grafana.com/grafana/dashboards/11802-1-kubernetes-cluster-overview/",
-      "title": "11802 1 Kubernetes Cluster Overview",
-      "link": "https://grafana.com/grafana/dashboards/11802-1-kubernetes-cluster-overview/",
-      "summary": null,
-      "author": null,
-      "publishedAt": "2001-01-31T18:30:00.000Z"
-    },
     {
       "guid": "grafana-labs::https://grafana.com/grafana/dashboards/14731-1-linux-stats-with-node-exporter/",
       "title": "14731 1 Linux Stats With Node Exporter",
@@ -80009,7 +80001,15 @@
       "summary": "Agents have quickly become part of the tech landscape as organizations embrace AI across their businesses. But embracing agents also means embracing the monitoring best practices that have long been part of engineers' workflows: tracking performance, catching errors, and responding to incidents…",
       "author": "Aishlee Kailey",
       "publishedAt": "2026-10-27T14:32:18.000Z"
+    },
+    {
+      "guid": "https://grafana.com/blog/evaluate-ai-models-for-observability-o11y-bench-joins-fireworks-specialized-intelligence-index-and-reaches-v1-1/",
+      "title": "Evaluate AI models for observability: o11y-bench joins Fireworks' Specialized Intelligence Index and reaches v1.1",
+      "link": "https://grafana.com/blog/evaluate-ai-models-for-observability-o11y-bench-joins-fireworks-specialized-intelligence-index-and-reaches-v1-1/",
+      "summary": "When evaluating AI models for observability, generating a plausible query or explanation isn't enough. Teams need to know whether an agent's conclusions are supported by telemetry, whether its changes to dashboards actually work, and whether it can deliver reliable results consistently.\nThis is why…",
+      "author": "Sean Porter",
+      "publishedAt": "2026-10-28T16:08:24.000Z"
     }
   ],
-  "totalIndexed": 21932
+  "totalIndexed": 21933
 }

@@ -1,100 +1,55 @@
 # YC Company Changes for 2026-10-28
 
-- Previous total: 6347
+- Previous total: 6349
 - Current total: 6349
-- Added: 2
+- Added: 0
 - Removed: 0
-- Updated: 20
+- Updated: 10
 
-
-## Added Companies
-
-- [The Letter Company](https://www.ycombinator.com/companies/the-letter-company) (Fall 2026) — The world's first coding agent, harness, & IDE for growth engineering.
-- [RouterPlus](https://www.ycombinator.com/companies/routerplus) (Fall 2026) — Marketplace for AI inference: the right model at the best price
 
 ## Updated Companies
 
-### [Mino Games](https://www.ycombinator.com/companies/mino-games)
+### [Delee](https://www.ycombinator.com/companies/delee)
 
-- `regions`: United States of America,Canada,America / Canada → United States of America,Canada,America / Canada,America / Canada
+- `website`: http://www.delee.co     → http://www.delee.bio
 
-### [teaBOT](https://www.ycombinator.com/companies/teabot)
+### [Postal](https://www.ycombinator.com/companies/postal)
 
-- `regions`: Canada,United States of America,America / Canada,Remote,Partly Remote → Canada,United States of America,America / Canada,America / Canada,Remote,Partly Remote
+- `isHiring`: true → false
 
-### [SimpleCitizen](https://www.ycombinator.com/companies/simplecitizen)
+### [Blitz](https://www.ycombinator.com/companies/blitz)
 
-- `tags`: Civic Tech,GovTech → Civic Tech,GovTech,Legal,LegalTech
+- `all_locations`: Porto, Porto District, Portugal; Remote → San Francisco, CA, USA; Remote
+- `regions`: Portugal,Europe,Remote,Fully Remote → United States of America,America / Canada,Remote,Fully Remote
 
-### [BIOS Health](https://www.ycombinator.com/companies/bios-health)
+### [FactIQ](https://www.ycombinator.com/companies/factiq)
 
-- `all_locations`: Cambridge, England, United Kingdom; England, United Kingdom → Boston, MA, USA; England, United Kingdom
-- `regions`: United Kingdom,Europe,Remote,Partly Remote → United States of America,United Kingdom,America / Canada,Europe,Remote,Partly Remote
+- `one_liner`: Investment research data for AI agents → Economic and financial intel for AI agents
+- `tags`: Investing,Data Visualization,AI,AI Assistant → Fintech,Investing,Data Labeling
 
-### [Humi](https://www.ycombinator.com/companies/humi)
+### [Strada](https://www.ycombinator.com/companies/strada)
 
-- `stage`: Early → Growth
+- `team_size`: 21 → 16
 
-### [Verse Medical](https://www.ycombinator.com/companies/jetlenses)
+### [Decisional AI](https://www.ycombinator.com/companies/decisional-ai)
 
-- `stage`: Early → Growth
-
-### [Jet Admin](https://www.ycombinator.com/companies/jet-admin)
-
-- `all_locations`: San Francisco, CA, USA → Frankfurt, HE, Germany; San Francisco, CA, USA
-- `regions`: United States of America,America / Canada → Germany,United States of America,Europe,America / Canada
-
-### [Squire.ai](https://www.ycombinator.com/companies/squire-ai)
-
-- `regions`: United States of America,Canada,America / Canada,Remote,Partly Remote → United States of America,Canada,America / Canada,America / Canada,Remote,Partly Remote
-
-### [Modulari-T](https://www.ycombinator.com/companies/modulari-t)
-
-- `regions`: Canada,United States of America,America / Canada → Canada,United States of America,America / Canada,America / Canada
-
-### [Yenmo](https://www.ycombinator.com/companies/yenmo)
-
-- `one_liner`: Secured consumer lending in India → Loans against mutual funds and shares from 9.89% p.a
-
-### [CloudCruise](https://www.ycombinator.com/companies/cloudcruise)
-
+- `one_liner`: AI Coworkers for Business Automation → AI Agents for the Trades
 - `isHiring`: false → true
+- `app_video_public`: true → false
 
-### [Arva AI](https://www.ycombinator.com/companies/arva-ai)
+### [Mesmer](https://www.ycombinator.com/companies/mesmer)
 
-- `stage`: Early → Growth
+- `one_liner`: The operating system for the 100x Engineering Team → We build software factories for engineering teams
 
-### [Vassar Robotics](https://www.ycombinator.com/companies/vassar-robotics)
+### [Lumius](https://www.ycombinator.com/companies/lumius)
 
-- `all_locations`: Los Angeles, CA, USA → Boston, MA, USA
+- `isHiring`: true → false
 
-### [Monarcha](https://www.ycombinator.com/companies/monarcha)
+### [Helios Intelligence](https://www.ycombinator.com/companies/helios-intelligence)
 
-- `all_locations`: San Francisco, CA, USA → New York City, NY, USA
+- `website`: https://www.heliosinc.ai/ → https://www.myhelios.com/
 
-### [Corvera](https://www.ycombinator.com/companies/corvera)
+### [Telamont](https://www.ycombinator.com/companies/telamont)
 
-- `isHiring`: false → true
-
-### [Wingman Law](https://www.ycombinator.com/companies/wingman-law)
-
-- `launched_at`: 1764179577 → 1793035947
-
-### [General Legal](https://www.ycombinator.com/companies/general-legal)
-
-- `team_size`: 25 → 40
-
-### [ClaimKit](https://www.ycombinator.com/companies/claimkit)
-
-- `subindustry`: B2B → B2B -> Finance and Accounting
-- `tags`: B2B,AI → Finance,B2B,AI
-- `industries`: B2B → B2B,Finance and Accounting
-
-### [Degla Inc](https://www.ycombinator.com/companies/degla-inc)
-
-- `all_locations`: Boston, MA, USA → San Francisco, CA, USA
-
-### [OneCLI](https://www.ycombinator.com/companies/onecli)
-
-- `all_locations`: San Francisco, CA, USA → Tel Aviv-Yafo, Tel Aviv District, Israel
-- `regions`: United States of America,America / Canada → Israel,Middle East and North Africa
+- `one_liner`: Sentry for risks in construction documents → Sentry for errors in construction documents
+- `tags`: Documents,Construction,AI → Documents,Real Estate,Construction,AI

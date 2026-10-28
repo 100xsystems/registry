@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-10-21T16:41:03.166Z",
+  "updatedAt": "2026-10-28T17:56:09.180Z",
   "items": [
     {
       "guid": "evil-martians::https://evilmartians.com/chronicles/which-ai-actually-reads-your-site-two-months-of-llm-traffic-measured",
@@ -311,7 +311,15 @@
       "summary": "Authors: Vladimir Dementyev, Principal Backend Engineer, and Travis Turner, Tech Editor\nTopics: AI, Rails, DX, LLM benchmarking, Agentic development, LLMs\n\nTips and tricks on writing robust evals for coding agents that test apps whose code we've never seen: different UI/UX contract strategies, UI…",
       "author": "Vladimir Dementyev",
       "publishedAt": "2026-10-21T00:00:00.000Z"
+    },
+    {
+      "guid": "evil-martians::https://evilmartians.com/chronicles/how-to-make-postmessage-type-safe-in-under-350-bytes",
+      "title": "How to make postMessage type-safe in under 350 bytes",
+      "link": "https://evilmartians.com/chronicles/how-to-make-postmessage-type-safe-in-under-350-bytes",
+      "summary": "Authors: Pavel Grinchenko, Frontend Engineer, and Travis Turner, Tech Editor\nTopics: DX, Open Source, TypeScript, JavaScript\n\nTyped-channel is a library for typed messages and requests across workers, iframes, tabs, and event buses.\ntyped-channel makes postMessage type-safe in about 350 bytes. You…",
+      "author": "Pavel Grinchenko",
+      "publishedAt": "2026-10-28T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 38
+  "totalIndexed": 39
 }
