@@ -1,37 +1,142 @@
 {
   "date": "2026-10-29",
-  "fetchedAt": "2026-10-29T12:40:08.358Z",
+  "fetchedAt": "2026-10-29T18:04:28.556Z",
   "previousCount": 6350,
   "currentCount": 6350,
   "added": [],
   "removed": [],
   "updated": [
     {
-      "id": 25522,
-      "name": "Unlayer",
-      "slug": "unlayer",
-      "batch": "Winter 2022",
-      "url": "https://www.ycombinator.com/companies/unlayer",
+      "id": 13512,
+      "name": "Stable",
+      "slug": "stable",
+      "batch": "Winter 2020",
+      "url": "https://www.ycombinator.com/companies/stable",
       "changes": [
         {
-          "field": "all_locations",
-          "before": "Dubai, Dubai, United Arab Emirates",
-          "after": "San Francisco, CA, USA"
-        },
+          "field": "stage",
+          "before": "Growth",
+          "after": "Early"
+        }
+      ]
+    },
+    {
+      "id": 23634,
+      "name": "Ollama",
+      "slug": "ollama",
+      "batch": "Winter 2021",
+      "url": "https://www.ycombinator.com/companies/ollama",
+      "changes": [
         {
-          "field": "regions",
+          "field": "stage",
+          "before": "Growth",
+          "after": "Early"
+        }
+      ]
+    },
+    {
+      "id": 28404,
+      "name": "Cercli",
+      "slug": "cercli",
+      "batch": "Summer 2023",
+      "url": "https://www.ycombinator.com/companies/cercli",
+      "changes": [
+        {
+          "field": "tags",
           "before": [
-            "United Arab Emirates",
-            "Middle East and North Africa",
-            "Remote",
-            "Partly Remote"
+            "SaaS",
+            "HR Tech",
+            "Payroll"
           ],
           "after": [
-            "United States of America",
-            "America / Canada",
-            "Remote",
-            "Partly Remote"
+            "SaaS",
+            "HR Tech"
           ]
+        },
+        {
+          "field": "isHiring",
+          "before": false,
+          "after": true
+        }
+      ]
+    },
+    {
+      "id": 28976,
+      "name": "Bolto",
+      "slug": "bolto",
+      "batch": "Summer 2023",
+      "url": "https://www.ycombinator.com/companies/bolto",
+      "changes": [
+        {
+          "field": "small_logo_thumb_url",
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/bd164a122dacc9defa9cfe1e3478f126b401b963.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/2548670025f1af86eae748821647afe6ca71f1e9.png"
+        }
+      ]
+    },
+    {
+      "id": 29627,
+      "name": "Codes Health",
+      "slug": "codes-health",
+      "batch": "Summer 2024",
+      "url": "https://www.ycombinator.com/companies/codes-health",
+      "changes": [
+        {
+          "field": "small_logo_thumb_url",
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/ae2e103cef868d10d11f8eda1c9371448e8a4640.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/ecaa2ad1fa8b8a90a0535cc7f454d156973ef158.png"
+        },
+        {
+          "field": "one_liner",
+          "before": "Medical Record Retrieval with Zero Human Error",
+          "after": "AI-native medical record retrieval"
+        },
+        {
+          "field": "team_size",
+          "before": 35,
+          "after": 45
+        }
+      ]
+    },
+    {
+      "id": 29808,
+      "name": "Starcloud",
+      "slug": "starcloud",
+      "batch": "Summer 2024",
+      "url": "https://www.ycombinator.com/companies/starcloud",
+      "changes": [
+        {
+          "field": "demo_day_video_public",
+          "before": false,
+          "after": true
+        }
+      ]
+    },
+    {
+      "id": 30095,
+      "name": "Consus",
+      "slug": "consus",
+      "batch": "Fall 2024",
+      "url": "https://www.ycombinator.com/companies/consus",
+      "changes": [
+        {
+          "field": "isHiring",
+          "before": false,
+          "after": true
+        }
+      ]
+    },
+    {
+      "id": 30198,
+      "name": ".Wave",
+      "slug": "dotwave",
+      "batch": "Winter 2025",
+      "url": "https://www.ycombinator.com/companies/dotwave",
+      "changes": [
+        {
+          "field": "one_liner",
+          "before": "Continuous inference for streaming AI models",
+          "after": "Inference for real-time AI"
         }
       ]
     },
@@ -43,46 +148,168 @@
       "url": "https://www.ycombinator.com/companies/mercura",
       "changes": [
         {
-          "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/84ad3ef04aef30c103f98a1ef15865998e62738e.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/412bc91c6f03fdb96750f7c26fe6f8736584703b.png"
+          "field": "one_liner",
+          "before": "AI Quote and Order Automation for Distributors & Manufacturers",
+          "after": "AI quote & order processing for technical distributors & manufacturers"
         }
       ]
     },
     {
-      "id": 30672,
-      "name": "Induction Labs",
-      "slug": "induction-labs",
-      "batch": "Summer 2026",
-      "url": "https://www.ycombinator.com/companies/induction-labs",
+      "id": 30758,
+      "name": "Hera",
+      "slug": "hera-video",
+      "batch": "Summer 2025",
+      "url": "https://www.ycombinator.com/companies/hera-video",
       "changes": [
         {
-          "field": "team_size",
-          "before": 2,
-          "after": 0
+          "field": "one_liner",
+          "before": "AI Motion Designer",
+          "after": "The AI-native creative canvas"
         }
       ]
     },
     {
-      "id": 31455,
-      "name": "tday.com",
-      "slug": "tdaycom",
+      "id": 31244,
+      "name": "Turnstone",
+      "slug": "turnstone",
+      "batch": "Winter 2026",
+      "url": "https://www.ycombinator.com/companies/turnstone",
+      "changes": [
+        {
+          "field": "small_logo_thumb_url",
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/83da57a5a7cd9d76b06d6dda92bb99843ca0edf1.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/de14bff48baddc020902509267a2e1597b7250ab.png"
+        },
+        {
+          "field": "one_liner",
+          "before": "Work with agents that already know you",
+          "after": "The best model-agnostic Grokbot alternative"
+        }
+      ]
+    },
+    {
+      "id": 31501,
+      "name": "General Aviation Company",
+      "slug": "general-aviation-company",
       "batch": "Spring 2026",
-      "url": "https://www.ycombinator.com/companies/tdaycom",
+      "url": "https://www.ycombinator.com/companies/general-aviation-company",
       "changes": [
         {
+          "field": "name",
+          "before": "General Aviation",
+          "after": "General Aviation Company"
+        },
+        {
+          "field": "slug",
+          "before": "general-aviation",
+          "after": "general-aviation-company"
+        },
+        {
+          "field": "former_names",
+          "before": [
+            "Fastsky"
+          ],
+          "after": [
+            "Fastsky",
+            "General Aviation"
+          ]
+        },
+        {
           "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/c8df062c9a1b77cc6ec53fabfaa7f2f047434c52.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/4a7b817f20e0bd6a303cd048f6bf9a5bbe395773.png"
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/0ea954602807b3490b23ce9d1c2e1a7490777284.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/db3595db32bc50ed7ead65d6f662bea977b6c455.png"
+        },
+        {
+          "field": "tags",
+          "before": [],
+          "after": [
+            "Hard Tech",
+            "Hardware",
+            "Robotics",
+            "Aerospace"
+          ]
         }
       ]
     },
     {
-      "id": 38094,
-      "name": "Super Powers Mobility (SPM)",
-      "slug": "super-powers-mobility-spm",
+      "id": 32194,
+      "name": "GUILD",
+      "slug": "guild",
+      "batch": "Summer 2026",
+      "url": "https://www.ycombinator.com/companies/guild",
+      "changes": [
+        {
+          "field": "isHiring",
+          "before": false,
+          "after": true
+        }
+      ]
+    },
+    {
+      "id": 35356,
+      "name": "Raven",
+      "slug": "ravenphone",
       "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/super-powers-mobility-spm",
+      "url": "https://www.ycombinator.com/companies/ravenphone",
+      "changes": [
+        {
+          "field": "name",
+          "before": "sintem",
+          "after": "Raven"
+        },
+        {
+          "field": "slug",
+          "before": "sintem",
+          "after": "ravenphone"
+        },
+        {
+          "field": "former_names",
+          "before": [
+            "Sintem",
+            "sintem",
+            "sintem inc."
+          ],
+          "after": [
+            "Sintem",
+            "sintem",
+            "sintem inc.",
+            "sintem"
+          ]
+        },
+        {
+          "field": "website",
+          "before": "https://sintem.co",
+          "after": "https://ravenphone.com"
+        },
+        {
+          "field": "industry",
+          "before": "B2B",
+          "after": "Consumer"
+        },
+        {
+          "field": "subindustry",
+          "before": "B2B -> Infrastructure",
+          "after": "Consumer -> Consumer Electronics"
+        },
+        {
+          "field": "industries",
+          "before": [
+            "B2B",
+            "Infrastructure"
+          ],
+          "after": [
+            "Consumer",
+            "Consumer Electronics"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 35456,
+      "name": "Lucebox",
+      "slug": "lucebox",
+      "batch": "Winter 2027",
+      "url": "https://www.ycombinator.com/companies/lucebox",
       "changes": [
         {
           "field": "isHiring",

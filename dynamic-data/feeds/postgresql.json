@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-10-28T12:28:44.753Z",
+  "updatedAt": "2026-10-29T18:04:08.889Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -3057,7 +3057,15 @@
       "summary": "PostgreSQL's `restore_command` asks for WAL segments one at a time until the command fails—and that failure marks the archive's end, whether it's real or not.\n\n(I consult on PostgreSQL through PGX Inc..)",
       "author": null,
       "publishedAt": "2026-10-28T01:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9AA",
+      "title": "Munaf Khatri: Supabase is one part of your HIPAA compliance",
+      "link": "https://postgr.es/p/9AA",
+      "summary": "If you store PHI on Supabase, you need a signed BAA and a project set to High Compliance. That takes care of the platform. It doesn't cover your RLS policies, your functions or your audit tables, and a HIPAA review will ask about those too.\nSupabase's shared responsibility model says the same. It…",
+      "author": null,
+      "publishedAt": "2026-10-29T12:00:00.000Z"
     }
   ],
-  "totalIndexed": 381
+  "totalIndexed": 382
 }

@@ -8,7 +8,7 @@
     "debugging",
     "performance"
   ],
-  "updatedAt": "2026-10-28T22:03:15.078Z",
+  "updatedAt": "2026-10-29T18:04:09.021Z",
   "items": [
     {
       "guid": "https://blog.sentry.io/godot-dotnet-ga/",
@@ -433,7 +433,15 @@
       "summary": "Five Sentry Agent Tracing recipes: turn agent conversations into evals, automate triage, track LLM costs, alert on spend, and send OTel spans to Sentry.",
       "author": null,
       "publishedAt": "2026-10-28T09:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.sentry.io/measuring-soft-navigation-web-vitals/",
+      "title": "Measuring soft navigation web vitals",
+      "link": "https://blog.sentry.io/measuring-soft-navigation-web-vitals/",
+      "summary": "The Sentry JavaScript SDK v11 reports LCP, CLS, and INP for soft navigations. Here's what that reveals about your SPA, with interactive demos.",
+      "author": null,
+      "publishedAt": "2026-10-29T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 53
+  "totalIndexed": 54
 }
