@@ -1,320 +1,144 @@
 {
   "date": "2026-10-29",
-  "fetchedAt": "2026-10-29T18:04:28.556Z",
+  "fetchedAt": "2026-10-29T22:15:05.552Z",
   "previousCount": 6350,
-  "currentCount": 6350,
-  "added": [],
+  "currentCount": 6351,
+  "added": [
+    {
+      "id": 39381,
+      "name": "Nuum Robotics",
+      "slug": "nuum-robotics",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/a4f040d2ad978975fb53388fe8a75b43530b417d.png",
+      "website": "https://nuumrobotics.com/",
+      "all_locations": "Waterloo, ON, Canada",
+      "long_description": "",
+      "one_liner": "Snake-like robots for maintenance inside machinery.",
+      "team_size": 0,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "Industrials",
+      "subindustry": "Industrials -> Manufacturing and Robotics",
+      "launched_at": 1793303208,
+      "tags": [
+        "Robotics",
+        "Energy",
+        "Aerospace",
+        "Automation"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Winter 2027",
+      "status": "Active",
+      "industries": [
+        "Industrials",
+        "Manufacturing and Robotics"
+      ],
+      "regions": [
+        "Canada",
+        "America / Canada"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/nuum-robotics"
+    }
+  ],
   "removed": [],
   "updated": [
     {
-      "id": 13512,
-      "name": "Stable",
-      "slug": "stable",
-      "batch": "Winter 2020",
-      "url": "https://www.ycombinator.com/companies/stable",
-      "changes": [
-        {
-          "field": "stage",
-          "before": "Growth",
-          "after": "Early"
-        }
-      ]
-    },
-    {
-      "id": 23634,
-      "name": "Ollama",
-      "slug": "ollama",
+      "id": 22995,
+      "name": "Quicknode",
+      "slug": "quicknode",
       "batch": "Winter 2021",
-      "url": "https://www.ycombinator.com/companies/ollama",
+      "url": "https://www.ycombinator.com/companies/quicknode",
       "changes": [
         {
-          "field": "stage",
-          "before": "Growth",
-          "after": "Early"
+          "field": "one_liner",
+          "before": "Tools & infra to build and scale high-quality blockchain applications.",
+          "after": "Infrastructure and tools to build and scale blockchain applications."
         }
       ]
     },
     {
-      "id": 28404,
-      "name": "Cercli",
-      "slug": "cercli",
-      "batch": "Summer 2023",
-      "url": "https://www.ycombinator.com/companies/cercli",
-      "changes": [
-        {
-          "field": "tags",
-          "before": [
-            "SaaS",
-            "HR Tech",
-            "Payroll"
-          ],
-          "after": [
-            "SaaS",
-            "HR Tech"
-          ]
-        },
-        {
-          "field": "isHiring",
-          "before": false,
-          "after": true
-        }
-      ]
-    },
-    {
-      "id": 28976,
-      "name": "Bolto",
-      "slug": "bolto",
-      "batch": "Summer 2023",
-      "url": "https://www.ycombinator.com/companies/bolto",
+      "id": 25308,
+      "name": "Selia",
+      "slug": "selia",
+      "batch": "Winter 2022",
+      "url": "https://www.ycombinator.com/companies/selia",
       "changes": [
         {
           "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/bd164a122dacc9defa9cfe1e3478f126b401b963.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/2548670025f1af86eae748821647afe6ca71f1e9.png"
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/75bea23e506870f2ee3b99b49411973c2d69914b.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/0bf48f1a543251dca694dfed07e03b9fc49d3474.png"
         }
       ]
     },
     {
-      "id": 29627,
-      "name": "Codes Health",
-      "slug": "codes-health",
+      "id": 29850,
+      "name": "SureBright",
+      "slug": "surebright",
       "batch": "Summer 2024",
-      "url": "https://www.ycombinator.com/companies/codes-health",
-      "changes": [
-        {
-          "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/ae2e103cef868d10d11f8eda1c9371448e8a4640.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/ecaa2ad1fa8b8a90a0535cc7f454d156973ef158.png"
-        },
-        {
-          "field": "one_liner",
-          "before": "Medical Record Retrieval with Zero Human Error",
-          "after": "AI-native medical record retrieval"
-        },
-        {
-          "field": "team_size",
-          "before": 35,
-          "after": 45
-        }
-      ]
-    },
-    {
-      "id": 29808,
-      "name": "Starcloud",
-      "slug": "starcloud",
-      "batch": "Summer 2024",
-      "url": "https://www.ycombinator.com/companies/starcloud",
-      "changes": [
-        {
-          "field": "demo_day_video_public",
-          "before": false,
-          "after": true
-        }
-      ]
-    },
-    {
-      "id": 30095,
-      "name": "Consus",
-      "slug": "consus",
-      "batch": "Fall 2024",
-      "url": "https://www.ycombinator.com/companies/consus",
+      "url": "https://www.ycombinator.com/companies/surebright",
       "changes": [
         {
           "field": "isHiring",
-          "before": false,
-          "after": true
+          "before": true,
+          "after": false
         }
       ]
     },
     {
-      "id": 30198,
-      "name": ".Wave",
-      "slug": "dotwave",
+      "id": 30279,
+      "name": "Bystreet",
+      "slug": "bystreet",
       "batch": "Winter 2025",
-      "url": "https://www.ycombinator.com/companies/dotwave",
+      "url": "https://www.ycombinator.com/companies/bystreet",
       "changes": [
         {
           "field": "one_liner",
-          "before": "Continuous inference for streaming AI models",
-          "after": "Inference for real-time AI"
+          "before": "Connect with hotel owners around the world.",
+          "after": "Connect with hoteliers around the world."
         }
       ]
     },
     {
-      "id": 30346,
-      "name": "Mercura",
-      "slug": "mercura",
-      "batch": "Winter 2025",
-      "url": "https://www.ycombinator.com/companies/mercura",
-      "changes": [
-        {
-          "field": "one_liner",
-          "before": "AI Quote and Order Automation for Distributors & Manufacturers",
-          "after": "AI quote & order processing for technical distributors & manufacturers"
-        }
-      ]
-    },
-    {
-      "id": 30758,
-      "name": "Hera",
-      "slug": "hera-video",
-      "batch": "Summer 2025",
-      "url": "https://www.ycombinator.com/companies/hera-video",
-      "changes": [
-        {
-          "field": "one_liner",
-          "before": "AI Motion Designer",
-          "after": "The AI-native creative canvas"
-        }
-      ]
-    },
-    {
-      "id": 31244,
-      "name": "Turnstone",
-      "slug": "turnstone",
+      "id": 31192,
+      "name": "SideKit",
+      "slug": "sidekit",
       "batch": "Winter 2026",
-      "url": "https://www.ycombinator.com/companies/turnstone",
+      "url": "https://www.ycombinator.com/companies/sidekit",
       "changes": [
-        {
-          "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/83da57a5a7cd9d76b06d6dda92bb99843ca0edf1.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/de14bff48baddc020902509267a2e1597b7250ab.png"
-        },
-        {
-          "field": "one_liner",
-          "before": "Work with agents that already know you",
-          "after": "The best model-agnostic Grokbot alternative"
-        }
-      ]
-    },
-    {
-      "id": 31501,
-      "name": "General Aviation Company",
-      "slug": "general-aviation-company",
-      "batch": "Spring 2026",
-      "url": "https://www.ycombinator.com/companies/general-aviation-company",
-      "changes": [
-        {
-          "field": "name",
-          "before": "General Aviation",
-          "after": "General Aviation Company"
-        },
-        {
-          "field": "slug",
-          "before": "general-aviation",
-          "after": "general-aviation-company"
-        },
-        {
-          "field": "former_names",
-          "before": [
-            "Fastsky"
-          ],
-          "after": [
-            "Fastsky",
-            "General Aviation"
-          ]
-        },
-        {
-          "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/0ea954602807b3490b23ce9d1c2e1a7490777284.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/db3595db32bc50ed7ead65d6f662bea977b6c455.png"
-        },
         {
           "field": "tags",
-          "before": [],
-          "after": [
-            "Hard Tech",
-            "Hardware",
-            "Robotics",
-            "Aerospace"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 32194,
-      "name": "GUILD",
-      "slug": "guild",
-      "batch": "Summer 2026",
-      "url": "https://www.ycombinator.com/companies/guild",
-      "changes": [
-        {
-          "field": "isHiring",
-          "before": false,
-          "after": true
-        }
-      ]
-    },
-    {
-      "id": 35356,
-      "name": "Raven",
-      "slug": "ravenphone",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/ravenphone",
-      "changes": [
-        {
-          "field": "name",
-          "before": "sintem",
-          "after": "Raven"
-        },
-        {
-          "field": "slug",
-          "before": "sintem",
-          "after": "ravenphone"
-        },
-        {
-          "field": "former_names",
           "before": [
-            "Sintem",
-            "sintem",
-            "sintem inc."
-          ],
-          "after": [
-            "Sintem",
-            "sintem",
-            "sintem inc.",
-            "sintem"
-          ]
-        },
-        {
-          "field": "website",
-          "before": "https://sintem.co",
-          "after": "https://ravenphone.com"
-        },
-        {
-          "field": "industry",
-          "before": "B2B",
-          "after": "Consumer"
-        },
-        {
-          "field": "subindustry",
-          "before": "B2B -> Infrastructure",
-          "after": "Consumer -> Consumer Electronics"
-        },
-        {
-          "field": "industries",
-          "before": [
-            "B2B",
-            "Infrastructure"
+            "Enterprise Software",
+            "Infrastructure",
+            "AI"
           ],
           "after": [
             "Consumer",
-            "Consumer Electronics"
+            "AI"
           ]
         }
       ]
     },
     {
-      "id": 35456,
-      "name": "Lucebox",
-      "slug": "lucebox",
-      "batch": "Winter 2027",
-      "url": "https://www.ycombinator.com/companies/lucebox",
+      "id": 34896,
+      "name": "Faraday",
+      "slug": "faraday",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/faraday",
       "changes": [
         {
-          "field": "isHiring",
-          "before": false,
-          "after": true
+          "field": "one_liner",
+          "before": "Agents running manufacturers from the back office to the shop floor",
+          "after": "Agents running manufacturing companies from the back office to the…"
         }
       ]
     }
