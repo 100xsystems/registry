@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-10-30T17:44:56.997Z",
+  "updatedAt": "2026-10-30T21:50:24.260Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -3073,7 +3073,31 @@
       "summary": "Over the past decade, the timing of PostgreSQL major releases has become very predictable: no earlier than the middle of September, and no later than the middle of October. This year is going to be different. PostgreSQL 19 most likely won’t be released until November, and it’s not impossible that…",
       "author": null,
       "publishedAt": "2026-10-30T15:53:50.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9AF",
+      "title": "Igor Suhorukov: pg_vexec one month on: ahead of ClickHouse on Parquet, close behind on MergeTree",
+      "link": "https://postgr.es/p/9AF",
+      "summary": "It’s been exactly one month since I published my work porting Greenplum to PostgreSQL 19 and isolating the minimal PostgreSQL core patches needed to run this minimal fork. It all started as a way to extract its ORCA analytical query planner and turn PostgreSQL into a modern, vectorized,…",
+      "author": null,
+      "publishedAt": "2026-10-30T16:07:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9AD",
+      "title": "Shaun Thomas: Burnt TOAST",
+      "link": "https://postgr.es/p/9AD",
+      "summary": "A financial firm hired me in 2010 to revise their Postgres cluster architecture. During my stint there, I learned a healthy respect for their event_log table. But perhaps “respect” is the wrong word here, as it was more of a deep loathing. This table, you see, was the canonical ledger of system…",
+      "author": null,
+      "publishedAt": "2026-10-30T16:04:25.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9AE",
+      "title": "Regina Obe: PostGIS 3.7.0",
+      "link": "https://postgr.es/p/9AE",
+      "summary": "The PostGIS Team is pleased to release PostGIS 3.7.0!\nBest Served with PostgreSQL 19 RC 1\n, GEOS 3.15.0\n, postgis_tiger_geocoder 2025.2\n, and address_standardizer.\nThis version requires GEOS 3.10+, PostgreSQL 14-19, Proj 6.1+, and libgmp. To take advantage of all postgis extension features, GEOS…",
+      "author": null,
+      "publishedAt": "2026-10-30T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 383
+  "totalIndexed": 386
 }

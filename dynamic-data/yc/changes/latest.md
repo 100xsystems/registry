@@ -1,27 +1,37 @@
 # YC Company Changes for 2026-10-30
 
 - Previous total: 6355
-- Current total: 6355
-- Added: 0
+- Current total: 6356
+- Added: 1
 - Removed: 0
-- Updated: 4
+- Updated: 5
 
+
+## Added Companies
+
+- [Limnion](https://www.ycombinator.com/companies/limnion) (Fall 2026) — Telemetry storage for the agentic era.
 
 ## Updated Companies
 
-### [Cardinal Gray](https://www.ycombinator.com/companies/cardinal-gray)
+### [Mistle](https://www.ycombinator.com/companies/mistle)
 
-- `one_liner`: Automating lenders' interactions with the DMV → Streamlined DMV lien filing for auto lenders
-- `team_size`: 6 → 4
+- `status`: Active → Inactive
 
-### [Asteroid](https://www.ycombinator.com/companies/asteroid)
+### [Paper Star](https://www.ycombinator.com/companies/paper-star)
 
-- `isHiring`: true → false
+- `website`: https://paperstar.cc → https://echoecho.ai/
+- `one_liner`: Building the next generation of agents → Long-horizon agents for teams
 
-### [Knowlify](https://www.ycombinator.com/companies/knowlify)
+### [General Aviation Company](https://www.ycombinator.com/companies/general-aviation-company)
 
-- `one_liner`: Done-for-you AI video ads and Meta campaign management → Done-for-you AI video paid ads and Meta campaign management
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/db3595db32bc50ed7ead65d6f662bea977b6c455.png → https://bookface-images.s3.amazonaws.com/small_logos/84c88c61540eb4bc3abfbdc41b8995a7dc890140.png
+- `team_size`: 0 → 5
 
-### [Specific Labs](https://www.ycombinator.com/companies/specific-labs)
+### [EdotEnv](https://www.ycombinator.com/companies/edotenv)
 
-- `team_size`: 6 → 7
+- `one_liner`: Quant Neolab building self-improving agents from quant data → Building quant finance environments and services
+- `tags`: Reinforcement Learning,Time Series → Fintech
+
+### [Super Powers Mobility (SPM)](https://www.ycombinator.com/companies/super-powers-mobility-spm)
+
+- `website`: https://www.spm.fun → https://www.spm.us

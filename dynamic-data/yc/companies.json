@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-10-30T17:45:14.180Z",
-  "count": 6355,
+  "fetchedAt": "2026-10-30T21:50:42.457Z",
+  "count": 6356,
   "companies": [
     {
       "id": 40140,
@@ -580,7 +580,7 @@
       "slug": "super-powers-mobility-spm",
       "former_names": [],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/a5c35648a3ac00d7da1ce27b5b0a62372c6a5f2e.png",
-      "website": "https://www.spm.fun",
+      "website": "https://www.spm.us",
       "all_locations": "Pittsburgh, PA, USA",
       "long_description": "We started off building the highest performance, 470 volt electric off-road vehicles but we realized our ultra power dense battery packs are useful for mobile and stationary energy storage and power export, for military and consumer use cases. We develop battery packs, power electronics, and traction powertrain systems for vehicles.\r\n\r\nFor the majority of 2026 we were marketing our electric off-road vehicles, but we pivoted to selling our high performance battery packs and power export capabilities in the month of September. We went from having $769,000 in consumer pre-orders (possibly low conversion rate to sales) to $421,815 in realized revenue in 1 month, with a $792,000 qualified pipeline. \r\n\r\nOur tech is so compelling because the safety and layout of high voltage battery packs has only been mastered by large, well funded OEM companies who have brought it in-house. That means all other companies without the in-house expertise rely on battery companies to develop packs, and power electronics companies to develop power export capabilities. SPM has both of those capabilities in-house so we can ensure a fast turnaround and much more reliable product. \r\n\r\nOne of the biggest priorities of the department of war is energy dominance. We're seeing it constantly in new solicitations. Our strategy is superior - become a prime, but simultaneously service primes because most of then don't actually have the battery and power electronics expertise we have.\r\n\r\nFounded by Jon Powers - Ex-Tesla Sr. Mechanical Integration Engineer leading Cybertruck vehicle integration. ",
       "one_liner": "The highest performance modular battery packs for mobility/vehicles",
@@ -1192,7 +1192,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/30c23ee4b16858a917c5254b034633777d99a5f2.png",
       "website": "https://superserve.ai",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Traditional cloud infrastructure was built to run a single app for many users. Agents work differently. Each one needs its own isolated machine to write software on the fly, run tools and act on its own for hours or weeks. And everything it produces has to persist between sessions.\r\n\r\nSuperserve gives every agent and RL rollout its own virtual machine that starts in under 50ms. Machines start from templates with your repo and dependencies already loaded, pause with memory and files intact at zero compute cost, and resume or fork from that exact state. You can run docker, databases, browsers or any services on these VMs. \r\n\r\nAPI keys stay outside the machine and egress rules control what agents can reach.\r\n\r\nFor teams building coding agents, autonomous workers, or eval and training environments, that means elastic infrastructure with no servers or warm pools to manage, and control over what every agent can reach and which credentials it can see. \r\n\r\nWe run over 100K machines (as of Oct 2026) every week for world-class teams, including Lindy, and Y Combinator itself.",
+      "long_description": "Superserve gives every AI agent its own computer in the cloud. Each one is an isolated VM that starts in under 50ms, sleeps between turns, and picks up exactly where it left off, for hours, weeks or indefinitely.\n\nTraditional cloud infrastructure was built to run one app for many users. Agents flip that. Each agent needs its own isolated machine where it can write and run code, use tools and work on its own for long stretches. Everything it produces has to persist the whole time, the way your laptop keeps your work.\n\nThat means agent computers have to be stateful, secure and cheap to run. For agents that talk to customers, they also have to start, sleep and wake almost instantly.\n\nFast. Machines start in under 50ms, either cold or from a template with your repo and dependencies already loaded. You don't need to keep a pool of servers running and waiting.\n\nPersistent. Paused machines keep their full memory and disk state at zero compute cost. They can resume or fork from that exact state. Pausing and resuming is fast enough that a machine can sleep between inference calls and wake on the next turn. Agents can run Docker, databases, browsers or any other service inside.\n\nSecure. Every machine is a microVM with its own kernel. You can program the rules for what traffic can come in and go out, and they're enforced at the network boundary where the agent can't reach them. API secrets are handled at the network layer too, so they never enter the machine. Every action is logged for audits.\n\nTeams building coding agents, autonomous workers, and eval or RL training environments use Superserve to give every agent session or rollout its own machine, with no infrastructure to manage.\n\nWe run 100K+ machines every week for teams including Lindy and QM, Y Combinator's agent harness.",
       "one_liner": "Virtual machines for autonomous agents",
       "team_size": 3,
       "highlight_black": false,
@@ -6740,7 +6740,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/fbde4bac30252064b1c0af408469172eea1d9b55.png",
       "website": "https://faradaycompute.com",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Industrial enterprises still rely on people to coordinate disconnected software and machines, with critical knowledge held by a few experienced employees.\r\n\r\nFaraday builds self-improving AI agents that take on this operational work. We connect to existing software and machines and build training and evaluation environments around each company’s workflows and data.\r\n\r\nContinuous learning turns each company’s expertise into a compounding asset. Completed work, corrections, and employee feedback improve the agents, and those improvements carry into future jobs. The business preserves its knowledge while becoming more capable over time.\r\n\r\nAs these agents take on more workflows, Faraday will be the shared runtime coordinating work between humans, agents, and robots across the business.",
+      "long_description": "Industrial enterprises still rely on people to coordinate disconnected software and machines, with critical knowledge held by a few experienced employees. \r\n\r\nFaraday builds self-improving systems that take on this operational work. We connect to existing software and machines and build training and evaluation environments around each company’s workflows and data.\r\n\r\nContinuous learning turns each company’s expertise into a compounding asset. Completed work, corrections, and employee feedback improve the agents, and those improvements carry into future jobs. The business preserves its knowledge while becoming more capable over time.\r\n\r\nAs these agents take on more workflows, Faraday will be the shared runtime coordinating work between humans, agents, and robots across the business.",
       "one_liner": "Industrial AI coordinating humans, agents, and machines ",
       "team_size": 2,
       "highlight_black": false,
@@ -9321,6 +9321,51 @@
       "app_answers": null,
       "question_answers": false,
       "url": "https://www.ycombinator.com/companies/dock"
+    },
+    {
+      "id": 33243,
+      "name": "Limnion",
+      "slug": "limnion",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/717af69f91680aebaf844c3d21687d8e728c80c2.png",
+      "website": "https://limnion.ai",
+      "all_locations": "Seattle, WA, USA; Remote",
+      "long_description": "Limnion is building an open-standards telemetry storage platform for observability at scale, including agentic workflows. Siglake is the open-source project that sits at the heart of it, designed around OTel, Parquet, and Iceberg. No proprietary storage, no vendor lock-in.",
+      "one_liner": "Telemetry storage for the agentic era.",
+      "team_size": 3,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "B2B",
+      "subindustry": "B2B -> Infrastructure",
+      "launched_at": 1793384261,
+      "tags": [
+        "Open Source",
+        "Infrastructure",
+        "Databases"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Fall 2026",
+      "status": "Active",
+      "industries": [
+        "B2B",
+        "Infrastructure"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada",
+        "Remote",
+        "Fully Remote"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/limnion"
     },
     {
       "id": 33179,
@@ -13035,8 +13080,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/a53586c9aacc3d5c0003f5bde0beb3535a3613f6.png",
       "website": "https://edotenv.com",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "A Quant Neolab building toward RSI by leveraging markets as self-improving research environments.\r\n\r\nThey work with frontier AI labs and academic groups building research harnesses, evaluation benchmarks, and post-training environments.\r\n",
-      "one_liner": "Quant Neolab building self-improving agents from quant data",
+      "long_description": "We are a B2B quant finance data and environment provider.",
+      "one_liner": "Building quant finance environments and services",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -13045,8 +13090,7 @@
       "subindustry": "B2B",
       "launched_at": 1786503507,
       "tags": [
-        "Reinforcement Learning",
-        "Time Series"
+        "Fintech"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -19045,12 +19089,12 @@
         "Fastsky",
         "General Aviation"
       ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/db3595db32bc50ed7ead65d6f662bea977b6c455.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/84c88c61540eb4bc3abfbdc41b8995a7dc890140.png",
       "website": "https://generalaviation.com",
       "all_locations": "New York City, NY, USA",
       "long_description": "Remote ATC towers to solve the controller shortage and unblock the capacity constraints on our airspace",
       "one_liner": "Fixing air traffic control with remote towers",
-      "team_size": 0,
+      "team_size": 5,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -21544,10 +21588,10 @@
         "Napkin Math"
       ],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/b742e44edb8947d9dc31423fa049239d2316de2f.png",
-      "website": "https://paperstar.cc",
+      "website": "https://echoecho.ai/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "more coming soon...",
-      "one_liner": "Building the next generation of agents",
+      "long_description": "For companies that want to 10x, Echo agents learn the work, do it end to end, and scale it",
+      "one_liner": "Long-horizon agents for teams",
       "team_size": 3,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -35672,7 +35716,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/1716cc43aa0fee3a4f60b9708b803805a0a152b1.png",
       "website": "https://kalpalabs.ai/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "We're building the next frontier of speech models. Generalist speech models that unlock in-context learning & strong instruction following for speech models alongside unifying existing speech capabilities like speech to text, text to speech, voice cloning, etc.",
+      "long_description": "We are an audio research lab building steerable voice models. Our conversational models are among the most human-like voice models, ranking ahead of ElevenLabs and Cartesia on Design Arena's AudioRealismBench, and have access to the whole conversation history to deliver the most natural experience over long conversations.",
       "one_liner": "Scaling Generalist Speech models",
       "team_size": 3,
       "highlight_black": false,
@@ -117110,7 +117154,7 @@
       "isHiring": false,
       "nonprofit": false,
       "batch": "Summer 2022",
-      "status": "Active",
+      "status": "Inactive",
       "industries": [
         "B2B",
         "Engineering, Product and Design"
