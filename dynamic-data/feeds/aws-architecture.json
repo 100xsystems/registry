@@ -8,7 +8,7 @@
     "architecture",
     "aws"
   ],
-  "updatedAt": "2026-10-27T21:39:47.718Z",
+  "updatedAt": "2026-10-30T12:30:58.442Z",
   "items": [
     {
       "guid": "79195fa586925a9b62c134acc83bb06b7b67a778",
@@ -385,7 +385,23 @@
       "summary": "Anchorage Digital and Turnkey built verifiable infrastructure on AWS Nitro Enclaves so crypto wallets can cryptographically verify which code parsed a transaction. This post covers the architecture, the attestation-gated access pattern, and how it extends to any high-trust workflow beyond…",
       "author": "Alexander Qin",
       "publishedAt": "2026-10-27T17:10:35.000Z"
+    },
+    {
+      "guid": "1bba751f546476a4c71e3c9ad8177dbf258e30d5",
+      "title": "How BMW Group accelerated connected vehicle workloads on AWS Graviton",
+      "link": "https://aws.amazon.com/blogs/architecture/how-bmw-group-accelerated-connected-vehicle-workloads-on-aws-graviton/",
+      "summary": "Learn how BMW Group migrated its connected vehicle platform from x86 to AWS Graviton. Using Karpenter, multi-architecture container builds, and Graviton-based CI/CD runners, the team moved workloads without disruption, cutting NGINX ingress CPU by about 57 percent and delivering about 40 percent…",
+      "author": "Tomislav Lozančić",
+      "publishedAt": "2026-10-29T20:11:14.000Z"
+    },
+    {
+      "guid": "33198c11d42658bd0f7e628bbd694ad37985d7c7",
+      "title": "How boAt delivers personalized fitness coaching with Amazon Bedrock",
+      "link": "https://aws.amazon.com/blogs/architecture/how-boat-delivers-personalized-fitness-coaching-with-amazon-bedrock/",
+      "summary": "Learn how boAt built its AI Coach feature on Amazon Bedrock and AWS Lambda to deliver personalized, real-time fitness coaching to millions of smartwatch users across India, and the design choices that made the solution scalable and cost-effective.",
+      "author": "Natasha Sah",
+      "publishedAt": "2026-10-29T18:16:38.000Z"
     }
   ],
-  "totalIndexed": 47
+  "totalIndexed": 49
 }

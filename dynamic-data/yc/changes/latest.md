@@ -1,100 +1,64 @@
 # YC Company Changes for 2026-10-30
 
-- Previous total: 6351
-- Current total: 6354
-- Added: 4
-- Removed: 1
-- Updated: 17
+- Previous total: 6354
+- Current total: 6355
+- Added: 1
+- Removed: 0
+- Updated: 11
 
 
 ## Added Companies
 
-- [ernd](https://www.ycombinator.com/companies/ernd) (Fall 2026) — The credit card for companies that pay for AI
-- [Fleety](https://www.ycombinator.com/companies/fleety) (Fall 2026) — Fleety is an AI dispatcher for plumbing and HVAC companies.
-- [Routant](https://www.ycombinator.com/companies/routant) (Fall 2026) — Last mile deployment and connectivity for Agents as a Service
-- [Jinko](https://www.ycombinator.com/companies/jinko) (Fall 2026) — Travel Search & Booking Infrastructure for AI agents
-
-## Removed Companies
-
-- Faraday (Fall 2026)
+- [Faraday](https://www.ycombinator.com/companies/faraday) (Fall 2026) — Industrial AI coordinating humans, agents, and machines 
 
 ## Updated Companies
 
-### [Artie](https://www.ycombinator.com/companies/artie)
+### [Stable](https://www.ycombinator.com/companies/stable)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/973d2f0c6c4d07505113e974a08d18864eb95d54.png → https://bookface-images.s3.amazonaws.com/small_logos/32f4c1a0575242b68e48c83cbace5d113c929c1c.png
+- `stage`: Early → Growth
 
-### [SuretyNow](https://www.ycombinator.com/companies/suretynow)
+### [Ollama](https://www.ycombinator.com/companies/ollama)
 
-- `one_liner`: The Modern Surety Bond Platform → AI-enabled Surety Bond Broker
-- `team_size`: 4 → 20
+- `stage`: Early → Growth
 
-### [Syntra](https://www.ycombinator.com/companies/syntra)
-
-- `team_size`: 10 → 8
-
-### [Almond](https://www.ycombinator.com/companies/almond-2)
-
-- `one_liner`: A dual-arm robot built for physical AI. → America's robot factory
-
-### [Embedder](https://www.ycombinator.com/companies/embedder)
-
-- `one_liner`: Hardware-Aware AI for Embedded Software → Autonomous Firmware Engineer
-
-### [Imagine AI](https://www.ycombinator.com/companies/imagine-ai)
-
-- `website`: https://imagineai.me → https://useimagine.ai
-
-### [Wingman Law](https://www.ycombinator.com/companies/wingman-law)
+### [CommodityAI](https://www.ycombinator.com/companies/commodityai)
 
 - `isHiring`: false → true
 
-### [Sazabi](https://www.ycombinator.com/companies/sazabi)
+### [Design Arena](https://www.ycombinator.com/companies/design-arena)
 
-- `one_liner`: The AI-native observability platform for fast-moving engineering teams → AI-native observability and security platform
+- `stage`: Early → Growth
 
-### [VOYGR](https://www.ycombinator.com/companies/voygr)
+### [tday.com](https://www.ycombinator.com/companies/tdaycom)
 
-- `one_liner`: Real-world place intelligence for AI apps and agents → The real-world intelligence and action layer
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/4a7b817f20e0bd6a303cd048f6bf9a5bbe395773.png → https://bookface-images.s3.amazonaws.com/small_logos/1123d387e4b516167a9cfd6ca07f65801c739a56.png
 
-### [Speko](https://www.ycombinator.com/companies/speko)
+### [InstaBox](https://www.ycombinator.com/companies/instabox)
+
+- `name`: InsForge (InstaCloud) → InstaBox
+- `slug`: insforge-instacloud → instabox
+- `former_names`: InsForge → InsForge,InsForge (InstaCloud)
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/de52713fe1552551dbe8aa2a5e60202c09bfc0d7.png → https://bookface-images.s3.amazonaws.com/small_logos/365d05cde45dc153baba3f6edad1e12fd88febf4.png
+- `website`: https://insforge.dev/ → https://instabox.sh/
+- `one_liner`: The agent-native serverless cloud → Cloud computers for AI agents
+- `regions`: United States of America,America / Canada → United States of America,America / Canada,Remote,Partly Remote
+
+### [Risklytics](https://www.ycombinator.com/companies/risklytics)
+
+- `batch`: Summer 2026 → Fall 2026
+
+### [LATO](https://www.ycombinator.com/companies/lato)
 
 - `isHiring`: false → true
 
-### [ChemPilot.ai](https://www.ycombinator.com/companies/chempilotai)
+### [Cardinal Square](https://www.ycombinator.com/companies/cardinal-square)
 
-- `all_locations`: Haifa, Haifa District, Israel → San Francisco, CA, USA
-- `tags`: Machine Learning,Advanced Materials,Defense → Robotics,Workflow Automation,Aerospace,Advanced Materials,Defense
-- `regions`: Israel,Middle East and North Africa → United States of America,America / Canada
+- `launched_at`: 1785893820 → 1793227316
 
 ### [Mirrors](https://www.ycombinator.com/companies/mirrors)
 
-- `one_liner`: Give AI agents the right context at the right moment → Fix recurring agent mistakes with real-time guidance
-- `tags`: AIOps,Developer Tools,SaaS,B2B,AI → AIOps,Developer Tools,B2B,Infrastructure,AI
+- `one_liner`: Fix recurring agent mistakes with real-time guidance → Fix recurring AI agent mistakes with real-time guidance
 
 ### [Perceptual Labs](https://www.ycombinator.com/companies/perceptual-labs)
 
-- `name`: Bryel → Perceptual Labs
-- `slug`: bryel → perceptual-labs
-- `former_names`: Bryel Labs → Bryel Labs,Bryel
-- `one_liner`: Building the next generation of visual perceptual intelligence → Building the next generation of visual intelligence
-
-### [Dydema](https://www.ycombinator.com/companies/dydema)
-
-- `tags`: Hardware,Neurotechnology,Consumer,Big Data,AI → Hardware,Neurotechnology,Neuroinformatics,Consumer,AI
-
-### [Polemos Industries](https://www.ycombinator.com/companies/polemos-industries)
-
-- `website`: https://lokberg.com/ → https://polemosindustries.com/
-- `one_liner`: AI-guided ballistic missiles, cheap enough to field in numbers that… → AI-guided ballistic missiles, built for mass manufacturing
-
-### [Lux Foods](https://www.ycombinator.com/companies/lux-foods)
-
-- `tags`: Cellular Agriculture,Robotics,Agriculture,AI,Biotechnology → Cellular Agriculture,Robotics,Manufacturing,Agriculture,Biotechnology
-
-### [Volaren](https://www.ycombinator.com/companies/volaren)
-
-- `name`: Volaren Inc. → Volaren
-- `slug`: volaren-inc → volaren
-- `former_names`:  → Volaren Inc.
-- `one_liner`: The investing agent that comes to you → The personal investing agent that comes to you
+- `website`: https://www.bryel.ai/ → https://www.perceptuallabs.com/

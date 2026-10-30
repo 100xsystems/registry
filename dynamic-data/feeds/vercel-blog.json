@@ -9,7 +9,7 @@
     "edge-computing",
     "nextjs"
   ],
-  "updatedAt": "2026-10-27T21:39:48.967Z",
+  "updatedAt": "2026-10-30T12:30:58.852Z",
   "items": [
     {
       "guid": "vercel-blog::https://vercel.com/changelog/ai-gateway-now-supports-streaming-transcription",
@@ -5106,7 +5106,23 @@
       "summary": "The AI SDK  layer now accepts image inputs across every harness adapter.HarnessAgent\nPass images alongside text in the standard AI SDK message format: a  array mixing  and  parts.content{ type: 'text' }{ type: 'file' }\nImage input is processed by the harnesses' underlying vision models and…",
       "author": "Felix Arntz",
       "publishedAt": "2026-10-27T00:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/strix-now-supports-vercel-ai-gateway",
+      "title": "Strix now supports Vercel AI Gateway",
+      "link": "https://vercel.com/changelog/strix-now-supports-vercel-ai-gateway",
+      "summary": ", the open-source AI penetration testing tool, can now run on any of the 400+ models on Vercel .StrixAI Gateway\nStrix can reach models from Anthropic, OpenAI, Kimi, GLM, Deepseek, and others through a single API with no markup, removing the need to sign up for multiple providers. Usage and cost are…",
+      "author": "Harpreet Arora",
+      "publishedAt": "2026-10-29T18:44:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/improved-ip-geolocation-data",
+      "title": "IP geolocation now covers more visitors at higher resolution",
+      "link": "https://vercel.com/changelog/improved-ip-geolocation-data",
+      "summary": "on Vercel now resolves visitor locations with finer network granularity, delivering city-level data for nearly all requests and postal-code data for 90% of traffic.IP geolocation\nGeolocation data is now refreshed more often, so locations keep up as IP ranges are reassigned and routing changes. This…",
+      "author": "Adrien Thebo",
+      "publishedAt": "2026-10-29T17:00:00.000Z"
     }
   ],
-  "totalIndexed": 637
+  "totalIndexed": 639
 }
