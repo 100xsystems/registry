@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-10-29T18:04:08.889Z",
+  "updatedAt": "2026-10-30T17:44:56.997Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -3065,7 +3065,15 @@
       "summary": "If you store PHI on Supabase, you need a signed BAA and a project set to High Compliance. That takes care of the platform. It doesn't cover your RLS policies, your functions or your audit tables, and a HIPAA review will ask about those too.\nSupabase's shared responsibility model says the same. It…",
       "author": null,
       "publishedAt": "2026-10-29T12:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9AC",
+      "title": "Robert Haas: Postgres 19 is late, and it's AI's fault",
+      "link": "https://postgr.es/p/9AC",
+      "summary": "Over the past decade, the timing of PostgreSQL major releases has become very predictable: no earlier than the middle of September, and no later than the middle of October. This year is going to be different. PostgreSQL 19 most likely won’t be released until November, and it’s not impossible that…",
+      "author": null,
+      "publishedAt": "2026-10-30T15:53:50.000Z"
     }
   ],
-  "totalIndexed": 382
+  "totalIndexed": 383
 }

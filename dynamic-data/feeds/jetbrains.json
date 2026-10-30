@@ -8,7 +8,7 @@
     "ide",
     "programming-languages"
   ],
-  "updatedAt": "2026-10-30T12:30:58.492Z",
+  "updatedAt": "2026-10-30T17:45:07.884Z",
   "items": [
     {
       "guid": "https://blog.jetbrains.com/?post_type=rscpp&p=725420",
@@ -1049,7 +1049,47 @@
       "summary": "Amsterdam, Netherlands — October 29, 2026 SEGGER’s embedded development tools are now more deeply integrated into JetBrains CLion. CLion provides dedicated configuration for J-Link debug probes as well as direct access to SEGGER’s Ozone debugger and SystemView real-time software analysis tool,…",
       "author": "Artemy Pestretsov",
       "publishedAt": "2026-10-29T12:59:21.000Z"
+    },
+    {
+      "guid": "https://blog.jetbrains.com/?post_type=idea&p=748199",
+      "title": "IntelliJ IDEA 2026.2.4 Is Out!",
+      "link": "https://blog.jetbrains.com/idea/2026/10/intellij-idea-2026-2-4/",
+      "summary": "IntelliJ IDEA 2026.2.4 is now available! You can update to this version from inside the IDE, using the Toolbox App, or using snaps if you are a Ubuntu user. You can also download it from our website. The latest update brings the following improvements: For a comprehensive overview of the fixes, see…",
+      "author": "Julia Shashkova",
+      "publishedAt": "2026-10-30T16:11:52.000Z"
+    },
+    {
+      "guid": "https://blog.jetbrains.com/?post_type=platform&p=749537",
+      "title": "Remote Development in 2026.3: What’s New?",
+      "link": "https://blog.jetbrains.com/platform/2026/10/remote-development-in-2026-3-what-s-new/",
+      "summary": "Working on a remote machine should feel just like working on a local project: open it, start coding, and pick up where you left off. In 2026.3, JetBrains IDEs move closer to that goal. You can now start and manage remote sessions directly inside the IDE, connect over SSH using native OpenSSH, and…",
+      "author": "Dejan Milicic",
+      "publishedAt": "2026-10-30T15:55:39.000Z"
+    },
+    {
+      "guid": "https://blog.jetbrains.com/?post_type=security&p=750280",
+      "title": "eMudhra Certificate Authority Incident: Status and Guidance for JetBrains Products",
+      "link": "https://blog.jetbrains.com/security/2026/10/emudhra-certificate-authority-incident-status-and-guidance-for-jetbrains-products/",
+      "summary": "JetBrains is responding to the industry-wide eMudhra Certificate Authority (CA) security incident, which affects certificate trust in a number of software products and development environments, including several JetBrains products. Our Security and product teams are working to address the impact…",
+      "author": "Anastasia Kilichenko",
+      "publishedAt": "2026-10-30T15:33:00.000Z"
+    },
+    {
+      "guid": "https://blog.jetbrains.com/?post_type=security&p=750273",
+      "title": "Compromised eMudhra Certificates: Update Your JetBrains IDEs, ReSharper, .NET Tools, Toolbox App, and Gateway Now",
+      "link": "https://blog.jetbrains.com/security/2026/10/compromised-emudhra-certificates-ides/",
+      "summary": "Summary Available fixed versions The issue is fixed in the following versions: The 2025.2.6.* updates for all IDEs now contain only the JBR fix. They will get a separate hotfix for the JCEF problem. Until then, use a workaround to disable JCEF in your IDE (see instructions below). IDE versions…",
+      "author": "Ilya Petrov",
+      "publishedAt": "2026-10-30T15:24:48.000Z"
+    },
+    {
+      "guid": "https://blog.jetbrains.com/?post_type=kotlin&p=750101",
+      "title": "Kodee’s Kotlin Roundup: Shipaton 2026 Winners, Kotlin 2.5.0-Beta2, and KotlinConf 2027",
+      "link": "https://blog.jetbrains.com/kotlin/2026/10/kodee-s-kotlin-roundup-shipaton-2026-winners-kotlin-2-5-0-beta2-and-kotlinconf-2027/",
+      "summary": "Hi everyone! It’s been a busy few weeks since my last roundup: the Shipaton 2026 winners are in, and three Kotlin Multiplatform apps took the Ship Kotlin Everywhere Award. In other news, Kotlin 2.5.0 is taking shape with its second Beta, KotlinConf 2027 is officially heading to Kraków with the call…",
+      "author": "Kodee",
+      "publishedAt": "2026-10-30T12:02:33.000Z"
     }
   ],
-  "totalIndexed": 130
+  "totalIndexed": 135
 }

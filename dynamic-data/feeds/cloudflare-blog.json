@@ -9,7 +9,7 @@
     "performance",
     "edge-computing"
   ],
-  "updatedAt": "2026-10-29T18:04:08.218Z",
+  "updatedAt": "2026-10-30T17:44:56.745Z",
   "items": [
     {
       "guid": "01KY2432VQPD5FTF2RARXXYQGH",
@@ -62378,7 +62378,23 @@
       "summary": "Cloudflare mitigated over 8,200 DDoS attacks per hour in Q3 2026 as attackers shifted to shorter, high-frequency strikes. Explore the latest threat data, including the collapse of CLDAP vectors and the impact of recent botnet takedowns.",
       "author": "Cloudforce One",
       "publishedAt": "2026-10-29T12:55:00.000Z"
+    },
+    {
+      "guid": "01M66XYRNK559YY01V2P37EBD7",
+      "title": "4 real? Tracking exploitation and patching of eMudhra’s weak keys",
+      "link": "https://blog.cloudflare.com/emudhra-patching/",
+      "summary": "Four, just four: that’s the key to break into any unpatched connection on the Internet that is using eMudhra certificates. Here’s how we quickly patched Cloudflare, what evidence we can see of attempted exploitation, and how much of the rest of the Internet remains exposed.",
+      "author": "Maxime Guerreiro",
+      "publishedAt": "2026-10-30T17:38:50.000Z"
+    },
+    {
+      "guid": "01M64V2TDYZYSS8RE60T3MWKSM",
+      "title": "Cloudflare services for private origins is now generally available",
+      "link": "https://blog.cloudflare.com/private-origins-public-to-private/",
+      "summary": "Public traffic to private origins, with WAF, bot management, caching, and Workers, is now available to every customer with Cloudflare One connectivity.",
+      "author": "Enrique Somoza",
+      "publishedAt": "2026-10-30T14:23:43.000Z"
     }
   ],
-  "totalIndexed": 7796
+  "totalIndexed": 7798
 }

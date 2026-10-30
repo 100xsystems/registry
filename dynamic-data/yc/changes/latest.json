@@ -1,254 +1,69 @@
 {
   "date": "2026-10-30",
-  "fetchedAt": "2026-10-30T12:31:03.765Z",
-  "previousCount": 6354,
+  "fetchedAt": "2026-10-30T17:45:14.180Z",
+  "previousCount": 6355,
   "currentCount": 6355,
-  "added": [
-    {
-      "id": 34896,
-      "name": "Faraday",
-      "slug": "faraday",
-      "former_names": [
-        "Faraday Cage",
-        "Faraday",
-        "Faraday Cage"
-      ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/fbde4bac30252064b1c0af408469172eea1d9b55.png",
-      "website": "https://faradaycompute.com",
-      "all_locations": "San Francisco, CA, USA",
-      "long_description": "Industrial enterprises still rely on people to coordinate disconnected software and machines, with critical knowledge held by a few experienced employees.\r\n\r\nFaraday builds self-improving AI agents that take on this operational work. We connect to existing software and machines and build training and evaluation environments around each company’s workflows and data.\r\n\r\nContinuous learning turns each company’s expertise into a compounding asset. Completed work, corrections, and employee feedback improve the agents, and those improvements carry into future jobs. The business preserves its knowledge while becoming more capable over time.\r\n\r\nAs these agents take on more workflows, Faraday will be the shared runtime coordinating work between humans, agents, and robots across the business.",
-      "one_liner": "Industrial AI coordinating humans, agents, and machines ",
-      "team_size": 2,
-      "highlight_black": false,
-      "highlight_latinx": false,
-      "highlight_women": false,
-      "industry": "Industrials",
-      "subindustry": "Industrials",
-      "launched_at": 1789851118,
-      "tags": [
-        "B2B",
-        "Manufacturing",
-        "Enterprise Software",
-        "AI",
-        "Industrial"
-      ],
-      "tags_highlighted": [],
-      "top_company": false,
-      "isHiring": false,
-      "nonprofit": false,
-      "batch": "Fall 2026",
-      "status": "Active",
-      "industries": [
-        "Industrials"
-      ],
-      "regions": [
-        "United States of America",
-        "America / Canada"
-      ],
-      "stage": "Early",
-      "app_video_public": false,
-      "demo_day_video_public": false,
-      "app_answers": null,
-      "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/faraday"
-    }
-  ],
+  "added": [],
   "removed": [],
   "updated": [
     {
-      "id": 13512,
-      "name": "Stable",
-      "slug": "stable",
-      "batch": "Winter 2020",
-      "url": "https://www.ycombinator.com/companies/stable",
+      "id": 28886,
+      "name": "Cardinal Gray",
+      "slug": "cardinal-gray",
+      "batch": "Summer 2023",
+      "url": "https://www.ycombinator.com/companies/cardinal-gray",
       "changes": [
         {
-          "field": "stage",
-          "before": "Early",
-          "after": "Growth"
+          "field": "one_liner",
+          "before": "Automating lenders' interactions with the DMV",
+          "after": "Streamlined DMV lien filing for auto lenders"
+        },
+        {
+          "field": "team_size",
+          "before": 6,
+          "after": 4
         }
       ]
     },
     {
-      "id": 23634,
-      "name": "Ollama",
-      "slug": "ollama",
-      "batch": "Winter 2021",
-      "url": "https://www.ycombinator.com/companies/ollama",
-      "changes": [
-        {
-          "field": "stage",
-          "before": "Early",
-          "after": "Growth"
-        }
-      ]
-    },
-    {
-      "id": 29455,
-      "name": "CommodityAI",
-      "slug": "commodityai",
-      "batch": "Winter 2024",
-      "url": "https://www.ycombinator.com/companies/commodityai",
+      "id": 30259,
+      "name": "Asteroid",
+      "slug": "asteroid",
+      "batch": "Winter 2025",
+      "url": "https://www.ycombinator.com/companies/asteroid",
       "changes": [
         {
           "field": "isHiring",
-          "before": false,
-          "after": true
+          "before": true,
+          "after": false
         }
       ]
     },
     {
-      "id": 30637,
-      "name": "Design Arena",
-      "slug": "design-arena",
+      "id": 30721,
+      "name": "Knowlify",
+      "slug": "knowlify",
       "batch": "Summer 2025",
-      "url": "https://www.ycombinator.com/companies/design-arena",
-      "changes": [
-        {
-          "field": "stage",
-          "before": "Early",
-          "after": "Growth"
-        }
-      ]
-    },
-    {
-      "id": 31455,
-      "name": "tday.com",
-      "slug": "tdaycom",
-      "batch": "Spring 2026",
-      "url": "https://www.ycombinator.com/companies/tdaycom",
-      "changes": [
-        {
-          "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/4a7b817f20e0bd6a303cd048f6bf9a5bbe395773.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/1123d387e4b516167a9cfd6ca07f65801c739a56.png"
-        }
-      ]
-    },
-    {
-      "id": 31547,
-      "name": "InstaBox",
-      "slug": "instabox",
-      "batch": "Spring 2026",
-      "url": "https://www.ycombinator.com/companies/instabox",
-      "changes": [
-        {
-          "field": "name",
-          "before": "InsForge (InstaCloud)",
-          "after": "InstaBox"
-        },
-        {
-          "field": "slug",
-          "before": "insforge-instacloud",
-          "after": "instabox"
-        },
-        {
-          "field": "former_names",
-          "before": [
-            "InsForge"
-          ],
-          "after": [
-            "InsForge",
-            "InsForge (InstaCloud)"
-          ]
-        },
-        {
-          "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/de52713fe1552551dbe8aa2a5e60202c09bfc0d7.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/365d05cde45dc153baba3f6edad1e12fd88febf4.png"
-        },
-        {
-          "field": "website",
-          "before": "https://insforge.dev/",
-          "after": "https://instabox.sh/"
-        },
-        {
-          "field": "one_liner",
-          "before": "The agent-native serverless cloud",
-          "after": "Cloud computers for AI agents"
-        },
-        {
-          "field": "regions",
-          "before": [
-            "United States of America",
-            "America / Canada"
-          ],
-          "after": [
-            "United States of America",
-            "America / Canada",
-            "Remote",
-            "Partly Remote"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 32650,
-      "name": "Risklytics",
-      "slug": "risklytics",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/risklytics",
-      "changes": [
-        {
-          "field": "batch",
-          "before": "Summer 2026",
-          "after": "Fall 2026"
-        }
-      ]
-    },
-    {
-      "id": 32682,
-      "name": "LATO",
-      "slug": "lato",
-      "batch": "Summer 2026",
-      "url": "https://www.ycombinator.com/companies/lato",
-      "changes": [
-        {
-          "field": "isHiring",
-          "before": false,
-          "after": true
-        }
-      ]
-    },
-    {
-      "id": 35092,
-      "name": "Cardinal Square",
-      "slug": "cardinal-square",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/cardinal-square",
-      "changes": [
-        {
-          "field": "launched_at",
-          "before": 1785893820,
-          "after": 1793227316
-        }
-      ]
-    },
-    {
-      "id": 35258,
-      "name": "Mirrors",
-      "slug": "mirrors",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/mirrors",
+      "url": "https://www.ycombinator.com/companies/knowlify",
       "changes": [
         {
           "field": "one_liner",
-          "before": "Fix recurring agent mistakes with real-time guidance",
-          "after": "Fix recurring AI agent mistakes with real-time guidance"
+          "before": "Done-for-you AI video ads and Meta campaign management",
+          "after": "Done-for-you AI video paid ads and Meta campaign management"
         }
       ]
     },
     {
-      "id": 35262,
-      "name": "Perceptual Labs",
-      "slug": "perceptual-labs",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/perceptual-labs",
+      "id": 31009,
+      "name": "Specific Labs",
+      "slug": "specific-labs",
+      "batch": "Fall 2025",
+      "url": "https://www.ycombinator.com/companies/specific-labs",
       "changes": [
         {
-          "field": "website",
-          "before": "https://www.bryel.ai/",
-          "after": "https://www.perceptuallabs.com/"
+          "field": "team_size",
+          "before": 6,
+          "after": 7
         }
       ]
     }
