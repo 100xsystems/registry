@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-10-29T22:15:05.554Z",
-  "count": 6351,
+  "fetchedAt": "2026-10-30T04:37:31.720Z",
+  "count": 6354,
   "companies": [
     {
       "id": 40140,
@@ -352,6 +352,47 @@
       "app_answers": null,
       "question_answers": false,
       "url": "https://www.ycombinator.com/companies/mantle-2"
+    },
+    {
+      "id": 38490,
+      "name": "Jinko",
+      "slug": "jinko",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/94899e15d10f620110f9390e865fcdb324fbce08.png",
+      "website": "https://gojinko.com",
+      "all_locations": "Paris, Île-de-France, France",
+      "long_description": "",
+      "one_liner": "Travel Search & Booking Infrastructure for AI agents",
+      "team_size": 6,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "B2B",
+      "subindustry": "B2B",
+      "launched_at": 1793315232,
+      "tags": [
+        "Travel",
+        "APIs"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Fall 2026",
+      "status": "Active",
+      "industries": [
+        "B2B"
+      ],
+      "regions": [
+        "France",
+        "Europe"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/jinko"
     },
     {
       "id": 38391,
@@ -1802,14 +1843,16 @@
     },
     {
       "id": 37203,
-      "name": "Volaren Inc.",
-      "slug": "volaren-inc",
-      "former_names": [],
+      "name": "Volaren",
+      "slug": "volaren",
+      "former_names": [
+        "Volaren Inc."
+      ],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/be43cf0580fc71ee690f3408420f4280b5e3665f.png",
       "website": "https://www.volaren.ai",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Volaren is an agent for your portfolio that explains each move, suggests your next idea, and trades it for you. \r\n\r\nConnect your bank accounts & brokerage and Volaren tells you what changed and why, answers any question about your money, and turns any idea into a trade. You can copy the moves of famous investors, politicians, proven strategies and themed baskets in a tap, or set up your own AI agents to watch the market and act within the limits you choose. \r\n\r\nEverything works from the app, the web or a simple text, so managing your money feels like texting a portfolio manager who never sleeps.",
-      "one_liner": "The investing agent that comes to you",
+      "long_description": "Volaren is the personal investing agent that comes to you. It knows why your portfolio moved, suggests your next idea, and trades it for you. \r\n\r\nConnect your bank accounts & brokerage and Volaren tells you what changed and why, answers any question about your money, and turns any idea into a trade. You can copy the moves of famous investors, politicians, proven strategies and themed baskets in a tap, or set up your own AI agents to watch the market and act within the limits you choose. \r\n\r\nEverything works from the app, the web or a simple text, so managing your money feels like texting a portfolio manager who never sleeps.",
+      "one_liner": "The personal investing agent that comes to you",
       "team_size": 4,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -1842,7 +1885,7 @@
       "demo_day_video_public": false,
       "app_answers": null,
       "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/volaren-inc"
+      "url": "https://www.ycombinator.com/companies/volaren"
     },
     {
       "id": 37170,
@@ -2915,8 +2958,8 @@
       "tags": [
         "Cellular Agriculture",
         "Robotics",
+        "Manufacturing",
         "Agriculture",
-        "AI",
         "Biotechnology"
       ],
       "tags_highlighted": [],
@@ -3684,10 +3727,10 @@
         "Lokberg Industries"
       ],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/52d6be23c1a08e2020010a26b5bd336554572d38.png",
-      "website": "https://lokberg.com/",
+      "website": "https://polemosindustries.com/",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Precision strike is rationed. Forces see more targets than they can afford to hit.\r\n\r\nPolemos builds AI-guided ballistic missiles and the compact launchers that fire them, designed for mass manufacturing. Our launchers form a strike network wired into the recon drones already in the sky: a drone geolocates a target, the nearest launcher fires, and a guided round lands in seconds.\r\n\r\nShort range, no wasted kilometers, no modified trucks. Built on production lines that already exist, so output scales when it matters most.",
-      "one_liner": "AI-guided ballistic missiles, cheap enough to field in numbers that…",
+      "one_liner": "AI-guided ballistic missiles, built for mass manufacturing",
       "team_size": 3,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -3902,6 +3945,51 @@
       "app_answers": null,
       "question_answers": false,
       "url": "https://www.ycombinator.com/companies/telamont"
+    },
+    {
+      "id": 35982,
+      "name": "Routant",
+      "slug": "routant",
+      "former_names": [
+        "AlphaDI Labs"
+      ],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/447dd9475c7b300e10d5e9da6bfeb6b3c50ed0d3.png",
+      "website": "https://routant.ai/",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "AI agents won’t stay inside the companies that build them. The most valuable agents will work across company boundaries, inside customers’ private systems. In those environments, intelligence is no longer the barrier to deployment. Trust and access are. Routant is the zero-trust access layer for this new agentic world. Vendors integrate once, while customers retain governance over every deployment, deciding what agents can access and which actions need human review, with a complete audit trail of every action.",
+      "one_liner": "Last mile deployment and connectivity for Agents as a Service",
+      "team_size": 0,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "B2B",
+      "subindustry": "B2B -> Infrastructure",
+      "launched_at": 1786494509,
+      "tags": [
+        "AIOps",
+        "Cybersecurity",
+        "AI"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Fall 2026",
+      "status": "Active",
+      "industries": [
+        "B2B",
+        "Infrastructure"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/routant"
     },
     {
       "id": 35950,
@@ -4304,6 +4392,49 @@
       "app_answers": null,
       "question_answers": false,
       "url": "https://www.ycombinator.com/companies/0security"
+    },
+    {
+      "id": 35527,
+      "name": "Fleety",
+      "slug": "fleety",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/db07ec09ef8192bbc52f5bc207031df3e5646dac.png",
+      "website": "https://usefleety.com",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "A typical customer handles 100+ jobs a day, with their best technician generating $500,000 more revenue than the average. Fleety listens to every call and automatically routes each job to the technician most likely to generate the most revenue.",
+      "one_liner": "Fleety is an AI dispatcher for plumbing and HVAC companies.",
+      "team_size": 4,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "B2B",
+      "subindustry": "B2B",
+      "launched_at": 1793314840,
+      "tags": [
+        "SaaS",
+        "B2B",
+        "Home Services",
+        "AI"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Fall 2026",
+      "status": "Active",
+      "industries": [
+        "B2B"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": true,
+      "url": "https://www.ycombinator.com/companies/fleety"
     },
     {
       "id": 35525,
@@ -4934,8 +5065,8 @@
       "tags": [
         "Hardware",
         "Neurotechnology",
+        "Neuroinformatics",
         "Consumer",
-        "Big Data",
         "AI"
       ],
       "tags_highlighted": [],
@@ -5441,16 +5572,17 @@
     },
     {
       "id": 35262,
-      "name": "Bryel",
-      "slug": "bryel",
+      "name": "Perceptual Labs",
+      "slug": "perceptual-labs",
       "former_names": [
-        "Bryel Labs"
+        "Bryel Labs",
+        "Bryel"
       ],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/e4fc1c46193139a87be8a9d372f3ac8ccd413c42.png",
       "website": "https://www.bryel.ai/",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "",
-      "one_liner": "Building the next generation of visual perceptual intelligence",
+      "one_liner": "Building the next generation of visual intelligence",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -5481,7 +5613,7 @@
       "demo_day_video_public": false,
       "app_answers": null,
       "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/bryel"
+      "url": "https://www.ycombinator.com/companies/perceptual-labs"
     },
     {
       "id": 35261,
@@ -5579,7 +5711,7 @@
       "website": "https://www.mirrors.dev",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Production agents handle many different customer workflows. Currently, when one handles a situation badly, an engineer reads the trace and patches the prompt. The next situation needs another exception. Soon, improving the agent becomes a recurring engineering job, and the prompt keeps growing.\r\n\r\nMirrors finds patterns in past runs. Engineers review guidance for a specific situation and preview where it would apply. Mirrors then delivers that guidance while the agent works, inside the team’s existing setup. The team can check whether the change improved the outcome.\r\n\r\nWe’re building Mirrors for engineering teams running customer-facing agents across varied workflows, so they can improve behavior without hardcoding every lesson in the global prompt.",
-      "one_liner": "Give AI agents the right context at the right moment",
+      "one_liner": "Fix recurring agent mistakes with real-time guidance",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -5590,8 +5722,8 @@
       "tags": [
         "AIOps",
         "Developer Tools",
-        "SaaS",
         "B2B",
+        "Infrastructure",
         "AI"
       ],
       "tags_highlighted": [],
@@ -6597,53 +6729,6 @@
       "url": "https://www.ycombinator.com/companies/anyalpha"
     },
     {
-      "id": 34896,
-      "name": "Faraday",
-      "slug": "faraday",
-      "former_names": [
-        "Faraday Cage",
-        "Faraday",
-        "Faraday Cage"
-      ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/fbde4bac30252064b1c0af408469172eea1d9b55.png",
-      "website": "https://faradaycompute.com",
-      "all_locations": "San Francisco, CA, USA",
-      "long_description": "Faraday builds industrial AI that learns how companies operate and executes complex workflows from the back office to the shop floor. We connect existing systems and expertise in company specific environments where agents learn from human feedback and operating results. We’re extending this feedback loop to industrial hardware and live production data.",
-      "one_liner": "Agents running manufacturing companies from the back office to the…",
-      "team_size": 2,
-      "highlight_black": false,
-      "highlight_latinx": false,
-      "highlight_women": false,
-      "industry": "Industrials",
-      "subindustry": "Industrials",
-      "launched_at": 1789851118,
-      "tags": [
-        "B2B",
-        "Manufacturing",
-        "Enterprise Software",
-        "AI"
-      ],
-      "tags_highlighted": [],
-      "top_company": false,
-      "isHiring": false,
-      "nonprofit": false,
-      "batch": "Fall 2026",
-      "status": "Active",
-      "industries": [
-        "Industrials"
-      ],
-      "regions": [
-        "United States of America",
-        "America / Canada"
-      ],
-      "stage": "Early",
-      "app_video_public": false,
-      "demo_day_video_public": false,
-      "app_answers": null,
-      "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/faraday"
-    },
-    {
       "id": 34895,
       "name": "OpenScaffold",
       "slug": "openscaffold",
@@ -6951,8 +7036,8 @@
       "former_names": [],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/4c3f8543148c3a53ebe369d21ece622228018917.png",
       "website": "https://chempilot.ai/",
-      "all_locations": "Haifa, Haifa District, Israel",
-      "long_description": "We use AI and quantum-based simulations to discover and develop new materials for defense and dual-use applications, from energetics and propellants to carbon fibers, polymers, coatings and composites. Developing a new material today takes 10+ years of trial-and-error lab work. We compress that to months, using physics-based simulation, machine learning and AI agents that only send labs candidates that can actually be made.\r\n\r\nSam, Ofir and Maor have spent the past two years researching the discovery of these exact materials together at the Technion lab of our CSO, Prof. Alon Grinberg Dana (former MIT postdoc), working directly with defense primes and government R&D agencies. Together we bring deep expertise in chemical engineering, computational chemistry and AI, and the production systems to put them to work. ChemPilot spun out of that work.\r\n\r\nThe defense and dual-use industrial base runs on materials with fragile, sole-source and often adversarial supply chains, from energetics and propellants to carbon fibers, high-temperature composites and specialty polymers. Demand for new capabilities is surging, and materials take decades to develop. The West needs new materials it can make securely, fast and cheap - ChemPilot will help find and develop them.",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "ChemPilot accelerates the discovery and development of next generation defense materials using AI and data from our automated wet lab. Developing a new material today takes 10+ years of trial and error. We compress that to months by screening for what can actually be made, then closing the loop: every lab result feeds back into the models so the next round is faster and smarter.\r\n\r\nSam, Ofir and Maor spent two years researching these materials at the Technion lab of our CSO, Prof. Alon Grinberg Dana (former MIT postdoc), working directly with defense primes and government R&D agencies. Together we bring chemical engineering, computational chemistry and AI, plus the production systems to put them to work. ChemPilot spun out of that research.\r\n\r\nThe West’s defense and dual-use industrial base runs on materials with fragile, sole-source and often adversarial supply chains. Demand for new capability is surging, and materials still take decades to develop. We’re building a new kind of chemical prime: one that can discover, develop and ultimately manufacture the materials the West needs, securely, fast and at cost.",
       "one_liner": "Discover novel defense related materials/molecules.",
       "team_size": 3,
       "highlight_black": false,
@@ -6962,7 +7047,9 @@
       "subindustry": "Industrials -> Defense",
       "launched_at": 1791753586,
       "tags": [
-        "Machine Learning",
+        "Robotics",
+        "Workflow Automation",
+        "Aerospace",
         "Advanced Materials",
         "Defense"
       ],
@@ -6977,8 +7064,8 @@
         "Defense"
       ],
       "regions": [
-        "Israel",
-        "Middle East and North Africa"
+        "United States of America",
+        "America / Canada"
       ],
       "stage": "Early",
       "app_video_public": false,
@@ -7610,6 +7697,52 @@
       "app_answers": null,
       "question_answers": false,
       "url": "https://www.ycombinator.com/companies/coarena"
+    },
+    {
+      "id": 33705,
+      "name": "ernd",
+      "slug": "ernd",
+      "former_names": [
+        "Lattice",
+        "Provenance Research Inc.",
+        "Provenance",
+        "Stitch Labs"
+      ],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/0abccc9bf2a6589b531983e558b31a32246f63fb.png",
+      "website": "https://ernd.io/",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "ernd is the card for companies that pay for AI, offering up to 6% back on AI spend and 2% on everything else. We pool startups’ purchasing power to negotiate discounts, higher usage limits and priority support from AI providers. In our first 48hrs, we onboarded 10 startups and landed 5 vendor partnerships. \r\n\r\nWe combine experience in quant finance at Bridgewater and IMC, payments at Ripple, financial AI at Farsight, and founding an investment fund focused on distressed industrial acquisitions.",
+      "one_liner": "The credit card for companies that pay for AI",
+      "team_size": 3,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "Fintech",
+      "subindustry": "Fintech",
+      "launched_at": 1793313451,
+      "tags": [
+        "Fintech",
+        "AI"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Fall 2026",
+      "status": "Active",
+      "industries": [
+        "Fintech"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/ernd"
     },
     {
       "id": 33674,
@@ -14860,7 +14993,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": false,
+      "isHiring": true,
       "nonprofit": false,
       "batch": "Summer 2026",
       "status": "Active",
@@ -23637,7 +23770,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/f6140e69d64bb482f52d28db6644ebb4a4c700ef.png",
       "website": "https://twolabs.ai",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "We build verifiable reinforcement-learning environments, evaluations, and proprietary training datasets to improve frontier AI models and robot policies.\r\n\r\nWe focus on complex, underexplored domains like PCB and chip design, embedded systems, robotics, and specialized coding environments, where high-quality training data is scarce and existing models fall short.\r\n\r\nOur long-term goal is to develop self-improving training infrastructure that can autonomously generate increasingly challenging tasks, evaluate performance, and continuously advance model capabilities toward recursive self-improvement.",
+      "long_description": "We build verifiable reinforcement-learning environments, evaluations, and proprietary training datasets to improve frontier AI models and robot policies.\r\n\r\nWe focus on complex, underexplored domains where high-quality training data is scarce and existing models fall short.\r\n\r\nOur long-term goal is to develop self-improving training infrastructure that can autonomously generate increasingly challenging tasks, evaluate performance, and continuously advance model capabilities toward recursive self-improvement.",
       "one_liner": "RL environments for underexplored domains.",
       "team_size": 2,
       "highlight_black": false,
@@ -25764,7 +25897,7 @@
       "website": "https://voygr.tech",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "VOYGR is a better maps API every agent and AI app will need. Google says '4.2 stars, open till 10 – VOYGR knows the chef left, wait times doubled, and locals moved on. Our intelligent local search combines accurate place data with fresh web context – news, articles, and events. We expand beyond 10-15 map attributes into infinite, queryable place profiles, enabling agents to reason and act in the real world.\r\n\r\nMaps are no longer browsed – LLMs/agents use them to reason and act. 20M+ apps/websites, up to 40% of search queries, and 20% of LLM prompts need local context. \r\n10-15 attributes per place are not enough for AI. Places change constantly - restaurants close, hours change, businesses move. LLMs struggle with semantic queries “Specialty coffee shops in SF with Wi-Fi, popular with YC founders”. Agents cannot reliably “parse half the internet” - they need real-world ontology\r\n\r\nWe’re experienced builders in maps, search, and ML to solve this. Vlad knows this space inside and out – he worked on the Google Maps APIs GTM, plus firsthand customer experience from building in ridesharing and travel. Yarik has spent over a decade leading ML/search teams at Apple, Google, and Meta. \r\n\r\nGoogle Places alone is a $XXB/Yr monopoly. Agents turn it into a transactional layer opportunity for local commerce and ads.",
-      "one_liner": "Real-world place intelligence for AI apps and agents",
+      "one_liner": "The real-world intelligence and action layer",
       "team_size": 0,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -27836,8 +27969,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/2fca2808f8b0ea2f65302051164b0360bec51746.png",
       "website": "https://www.sazabi.com/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "The AI-native observability platform for fast-moving engineering teams. Backed by tastemakers from the world's top AI companies: Vercel, Graphite, Daytona, Browserbase, LangChain, Mastra, Replit, and more.",
-      "one_liner": "The AI-native observability platform for fast-moving engineering teams",
+      "long_description": "The AI-native observability and security platform for fast-moving engineering teams. Backed by tastemakers from the world's top AI companies: Vercel, Graphite, Daytona, Browserbase, LangChain, Mastra, Replit, and more.",
+      "one_liner": "AI-native observability and security platform",
       "team_size": 10,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -28337,7 +28470,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": false,
+      "isHiring": true,
       "nonprofit": false,
       "batch": "Fall 2026",
       "status": "Active",
@@ -36183,7 +36316,7 @@
       "slug": "imagine-ai",
       "former_names": [],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/970910171a94d4462949dcdc9bf32a46422e39bc.png",
-      "website": "https://imagineai.me",
+      "website": "https://useimagine.ai",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Imagine AI is a research and software company reverse engineering modern B2B growth, starting with LinkedIn.\r\n\r\nAs companies get more automated, more of B2B growth will happen between agents, and the companies that connect will compound each other's output. We're building the connective layer between them. We start with content because it's still the fastest way to build B2B relationships at scale.\r\n\r\nToday our content agent decides what your team should post based on data from 1M+ people (who posts what, who engages, where they work and how they're connected). It drafts the posts and graphics, schedules them for your execs and company page, and maps engagement back to your pipeline.\r\n\r\nRippling, MarqVision, Slash, Corgi and Fondo use Imagine AI. Customers have generated $40M in revenue, 100M impressions and 14,341 MQLs.\r\n\r\nFree public benchmark of how 1,000+ B2B companies and their execs perform on LinkedIn: https://benchmark.useimagine.ai",
       "one_liner": "We reverse engineer B2B growth, starting with LinkedIn.",
@@ -44265,8 +44398,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/be01ab7ec03dfffcf2a6f87ab306a19bf22fe64b.png",
       "website": "https://www.embedder.com",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Building AI agents for autonomous embedded software development.",
-      "one_liner": "Hardware-Aware AI for Embedded Software",
+      "long_description": "Embedder is building an autonomous firmware engineer. It reads your datasheets, flashes and tests on your own boards, and won't stop until the firmware passes on real hardware.\r\n\r\n",
+      "one_liner": "Autonomous Firmware Engineer",
       "team_size": 6,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -52960,8 +53093,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/37312e12dc6f12e2470a531052ec0e30ee697a75.png",
       "website": "https://almond.bot/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "We build robots for physical AI. Meet Axol - A dual-arm robot designed for real-world tasks using AI.",
-      "one_liner": "A dual-arm robot built for physical AI.",
+      "long_description": "We build robots for physical AI. Axol, is a wheeled-humanoid robot designed for real-world tasks using AI.",
+      "one_liner": "America's robot factory",
       "team_size": 6,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -65946,7 +66079,7 @@
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Syntra’s mission is to make healthcare faster, starting with healthcare payments.\r\n\r\nSyntra Autonomous, our first product, automates pre-bill chart review, claim review, and submission.\r\n\r\nIn the 12 months since launch, Syntra Autonomous has processed more than 1 million patient encounters and over $200 million in insurance collections across hundreds of practice locations nationwide.\r\n\r\nIf you’re interested in building toward infinitely fast healthcare, reach out!",
       "one_liner": "Faster healthcare payments ",
-      "team_size": 10,
+      "team_size": 8,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -85764,8 +85897,8 @@
       "website": "https://suretynow.com/",
       "all_locations": "Austin, TX, USA",
       "long_description": "Surety bonds are financial guarantees that businesses must purchase to comply with government regulations. For example, all contractors must have a surety bond to bid and work on federal construction projects. It is a $8b opportunity in the US. \r\n\r\nSuretyNow is building the surety bond platform for the 21st century. Businesses can apply for bonds and receive affordable quotes online in minutes. We offer the fastest and simplest online experience for getting surety bonds.",
-      "one_liner": "The Modern Surety Bond Platform",
-      "team_size": 4,
+      "one_liner": "AI-enabled Surety Bond Broker",
+      "team_size": 20,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -98654,7 +98787,7 @@
       "former_names": [
         "Artie Technologies"
       ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/973d2f0c6c4d07505113e974a08d18864eb95d54.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/32f4c1a0575242b68e48c83cbace5d113c929c1c.png",
       "website": "https://www.artie.com/",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Artie is software that streams data from databases to data warehouses in real-time. Today, most companies run their ETL process every few hours or overnight, so their data warehouse is always out of date; with Artie, the warehouse always has live production data.",
