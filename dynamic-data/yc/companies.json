@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-10-31T04:20:41.136Z",
-  "count": 6359,
+  "fetchedAt": "2026-10-31T11:58:26.538Z",
+  "count": 6360,
   "companies": [
     {
       "id": 40140,
@@ -95,7 +95,7 @@
       "website": "https://godpack.gg/",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "",
-      "one_liner": "100% fair packs for collectors",
+      "one_liner": "The marketplace for internet culture.",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -2949,8 +2949,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/6a8a1620a1957b907f1e344c44b332ea9f5af430.png",
       "website": "https://Graphide.com",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Coding agents now write more code than teams can check, making verification pipelines the new bottleneck. Graphide builds that verification, starting with CI.\r\n\r\nGraphide CI runs faster and cheaper because we own both the hardware and the optimizations and configs that run on it, which lets us do what owning only one could not. A graph of the codebase runs only the tests each change can reach, and always-on agents tune machines, caches and test splits together, around the clock. Optionally, we also patch the tests themselves with our own libraries so they run faster. We have seen most of our customers cut CI time 80-90% compared to their existing setups.\r\n\r\nOur PR review agent then runs the old and new code in our live environments, finding bugs and proving them by writing tests, as well as analyzing synthetic and production data through the PR before it merges. The first 150 reviews are free.\r\n\r\nGraphide verifies the code agents write.",
-      "one_liner": "CI 10–20× faster than GitHub runners, with a 24/7 agent optimizing it.",
+      "long_description": "Coding agents now write more code than teams can check, making verification pipelines the new bottleneck. Graphide builds that verification, starting with CI.\r\n\r\nGraphide CI runs faster and cheaper because we own both the hardware and the optimizations and configs that run on it, which lets us do what owning only one could not. A graph of the codebase runs only the tests each change can reach, and always-on agents tune machines, caches and test splits together, around the clock. Optionally, we also patch the tests themselves with our own libraries so they run faster. We have seen most of our customers cut CI time 80-95% compared to their existing setups.\r\n\r\nOur PR review agent then runs the old and new code in our live environments, finding bugs and proving them by writing tests, as well as analyzing synthetic and production data through the PR before it merges.\r\n\r\nFinally, our visualizer allows you to see these data flows and graph based diffs to both easily analyze the found bugs, run custom data flows, and see / understand a PR in seconds.\r\n\r\nGraphide's focus is on verifying the code agents write.",
+      "one_liner": "CI 10-20× faster than GitHub runners, with a 24/7 agent optimizing it.",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -6283,6 +6283,46 @@
       "url": "https://www.ycombinator.com/companies/stacktrace"
     },
     {
+      "id": 35095,
+      "name": "Taan.ai",
+      "slug": "taanai",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/e81be68dcd0ecbbf3a0f1bdcbf4488f4e6bdcc21.png",
+      "website": "https://taan.ai/",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "Taan builds foundation music models that do what you tell them to, when you tell them to. We're starting with music for video. Give Taan a video and it watches it, then composes an original score that follows the emotion and timing of every cut. If the scene is tense for 10 seconds and then turns happy, the music changes at that exact moment. You get back a fully mixed .mp4. Agents and apps call Taan through our API, so any video tool can add scored, synced music with one call. \r\n\r\nToday's music models can make catchy tracks, but you can't steer them. Ask for \"violin at exactly the 11th second\" and they usually skip it. We trained Taan from the ground up for control. \r\n\r\nWe measured Taan on prompt adherence and instruction success. And against every leading model we tested, Taan was at least 4x better.  \r\n\r\nWe work with teams building video agents, ad and creative tools, micro-dramas and games. We're musicians and ML researchers. Adithya (CEO) comes from eight generations of Indian classical musicians, tours as a metal guitarist, has done music ML research since 2023, and has filed two patents on music generation architectures. Devansh (CTO) did signal-processing research at IIT Kanpur and was previously an ML engineer at American Express.",
+      "one_liner": "the most precise & controllable foundation music models ",
+      "team_size": 0,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "B2B",
+      "subindustry": "B2B",
+      "launched_at": 1793427352,
+      "tags": [
+        "Generative AI"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Fall 2026",
+      "status": "Active",
+      "industries": [
+        "B2B"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/taanai"
+    },
+    {
       "id": 35094,
       "name": "Forward",
       "slug": "useforward",
@@ -7847,7 +7887,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/0abccc9bf2a6589b531983e558b31a32246f63fb.png",
       "website": "https://ernd.io/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "ernd is the card for companies that pay for AI, with 4% back on AI spend and 2% on everything else planned for launch. We pool startups’ purchasing power to negotiate discounts, higher usage limits and priority support from AI providers. In our first 48hrs, we onboarded 10 startups and landed 5 vendor partnerships. \r\n\r\nWe combine experience in quant finance at Bridgewater and IMC, payments at Ripple, financial AI at Farsight, and founding an investment fund focused on distressed industrial acquisitions.",
+      "long_description": "ernd is the card for companies that pay for AI, with 4% back on AI spend and 2% on everything else planned for launch. We pool startups’ purchasing power to negotiate discounts, higher usage limits and priority support from AI providers. In our first 48hrs, we onboarded 10 startups and landed 5 vendor partnerships. \r\n\r\nWe combine experience in quant finance at Bridgewater and IMC, payments at Ripple, financial AI at Farsight, and founding an investment fund focused on distressed industrial acquisitions. We're also credit card nerds, with at least five cards each that we rotate to maximize points!",
       "one_liner": "The Credit Card for the AI stack ",
       "team_size": 3,
       "highlight_black": false,
@@ -22806,7 +22846,7 @@
       "website": "https://deepinteractions.ai/",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Deep Interactions is a collaborative AI builder. We don't leave you with a spaghetti mess of a code. We bring product intelligence and power the context layer that enables your team to build in sync - saving companies tokens, time, and nerves. You give us a problem and we ship a working AI product in the same afternoon.\r\n",
-      "one_liner": "Collaborative AI app builder for teams",
+      "one_liner": "Multiplayer AI app builder",
       "team_size": 6,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -29644,7 +29684,7 @@
       "name": "Laurence",
       "slug": "laurence",
       "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/68ac6b4c3dd34328cb86f2f81c4d868040f3557d.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/db6da4cd27c16fd721b2bc69aab6f5c1f7055637.png",
       "website": "https://laurence.com",
       "all_locations": "New York City, NY, USA",
       "long_description": "Advertising today is like trading in the 1980s pits: archaic, manual, and iterative guesswork. Humans update bids and keywords with noisy, delayed data using simple if-else rules that both break at scale and ignore stochasticity.\r\n\r\nLaurence advertises like modern hedge funds trade markets, driving a 15-40% improvement in net profit for Amazon brands within a month of onboarding.",
@@ -106064,7 +106104,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": true,
+      "isHiring": false,
       "nonprofit": false,
       "batch": "Winter 2023",
       "status": "Active",
@@ -131721,7 +131761,7 @@
         "Switzerland",
         "Europe"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -135360,8 +135400,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/29d280b26b9013cd722967a3c3239ae0da94db1c.png",
       "website": "http://fieldproxy.ai/",
       "all_locations": "Chennai, TN, India",
-      "long_description": "Fieldproxy is Retool for Field Teams. Our no-code SaaS application allows organizations to build internal mobile applications to manage field teams of any size.\r\n\r\nFieldproxy's vision is to be the Operating System for Field teams.",
-      "one_liner": "Building AI agents for complex operations",
+      "long_description": "Fieldproxy is AI-native field service management software that is set up around how each business already works. It covers jobs, scheduling and dispatch, an offline technician app, quotes, invoices and checklists, with AI agents that answer calls and texts, read photos and documents, and flag problems. Fieldproxy's team builds each customer's fields, stages and forms, so a rollout takes days, and it connects to Claude and ChatGPT through an official MCP server.",
+      "one_liner": "AI-native field service software built around how you work",
       "team_size": 15,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -166613,7 +166653,7 @@
       ],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/40f593ffbf87115d864ecfbdee92baad6860322a.png",
       "website": "http://www.gethomebase.com/",
-      "all_locations": "Ho Chi Minh City, Ho Chi Minh City, Vietnam; Ho Chi Minh City, Vietnam",
+      "all_locations": "Singapore, Singapore; Ho Chi Minh City, Vietnam",
       "long_description": "Homebase provides Rent-To-Own real estate financing for buyers in Southeast Asia - the only alternative to inflexible/high-interest rate (12%+) mortgages in the region. We strive to provide more innovative, compelling, and empathetic solutions for those who aspire to own a home.\r\n\r\nHomebase was founded in 2019 in Singapore and is backed by Y Combinator, VinaCapital Ventures, Class 5 Global, Pegasus Technology Ventures, 1982 Ventures, Iterative VC and Antler, as well as the founders and executives at disruptive real estate financing companies including Opendoor, Zerodown, 99.co and Divvy Homes.",
       "one_liner": "Personalized rent-to-own real estate financing using technology in SEA",
       "team_size": 20,
@@ -166638,6 +166678,7 @@
         "Housing and Real Estate"
       ],
       "regions": [
+        "Singapore",
         "Vietnam",
         "Southeast Asia"
       ],
@@ -189388,7 +189429,7 @@
         "Remote",
         "Fully Remote"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -196887,7 +196928,7 @@
         "Remote",
         "Partly Remote"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -198475,7 +198516,7 @@
         "Remote",
         "Partly Remote"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -199916,7 +199957,7 @@
         "Remote",
         "Fully Remote"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -207858,7 +207899,7 @@
         "United States of America",
         "America / Canada"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -214694,7 +214735,7 @@
         "Remote",
         "Partly Remote"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -214785,7 +214826,7 @@
         "Remote",
         "Fully Remote"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -215709,7 +215750,7 @@
         "United States of America",
         "America / Canada"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -218716,7 +218757,7 @@
         "Remote",
         "Fully Remote"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -224721,7 +224762,7 @@
         "United States of America",
         "America / Canada"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -227758,7 +227799,7 @@
         "United States of America",
         "America / Canada"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -229489,7 +229530,7 @@
         "United States of America",
         "America / Canada"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -233838,7 +233879,7 @@
         "India",
         "South Asia"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -235408,7 +235449,7 @@
         "Remote",
         "Fully Remote"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -236710,7 +236751,7 @@
         "United States of America",
         "America / Canada"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -243831,7 +243872,7 @@
         "United States of America",
         "America / Canada"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -243875,7 +243916,7 @@
         "Remote",
         "Fully Remote"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -243960,7 +244001,7 @@
         "Remote",
         "Partly Remote"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -255634,7 +255675,7 @@
         "Remote",
         "Partly Remote"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -256550,7 +256591,7 @@
         "Remote",
         "Partly Remote"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -258457,7 +258498,7 @@
         "United States of America",
         "America / Canada"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -263625,7 +263666,7 @@
         "United States of America",
         "America / Canada"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -276341,7 +276382,7 @@
         "United States of America",
         "America / Canada"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -278951,7 +278992,7 @@
         "United States of America",
         "America / Canada"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -282592,7 +282633,7 @@
         "United States of America",
         "America / Canada"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
