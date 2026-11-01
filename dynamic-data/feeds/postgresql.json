@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-10-30T21:50:24.260Z",
+  "updatedAt": "2026-11-01T04:39:53.524Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -3097,7 +3097,15 @@
       "summary": "The PostGIS Team is pleased to release PostGIS 3.7.0!\nBest Served with PostgreSQL 19 RC 1\n, GEOS 3.15.0\n, postgis_tiger_geocoder 2025.2\n, and address_standardizer.\nThis version requires GEOS 3.10+, PostgreSQL 14-19, Proj 6.1+, and libgmp. To take advantage of all postgis extension features, GEOS…",
       "author": null,
       "publishedAt": "2026-10-30T00:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9AI",
+      "title": "Radim Marek: Getting rid of a 4 TB table in PostgreSQL",
+      "link": "https://postgr.es/p/9AI",
+      "summary": "GitLab has a public story about deleting the wrong thing. In January 2017 an engineer who was trying to restore replication wiped a data directory they believed was on the secondary. It was on the primary. The postmortem they published afterwards is still one of the better things written about a…",
+      "author": null,
+      "publishedAt": "2026-10-31T22:00:50.000Z"
     }
   ],
-  "totalIndexed": 386
+  "totalIndexed": 387
 }
