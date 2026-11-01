@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-11-01T12:58:32.862Z",
+  "updatedAt": "2026-11-01T17:40:20.515Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -3113,7 +3113,15 @@
       "summary": "Read/write splitting is easy for single, autocommit statements. It gets hard the moment a client opens a transaction. Most proxies give up and send every statement inside a transaction to the primary, even the reads. This article is about a middle path we built into Polar Proxy: keep the…",
       "author": null,
       "publishedAt": "2026-11-01T08:37:13.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9AL",
+      "title": "Christophe Pettus: All Your GUCs in a Row: row_security",
+      "link": "https://postgr.es/p/9AL",
+      "summary": "`row_security = off` doesn't disable row-level security—it triggers an error when a policy would apply.\n\n(I consult on PostgreSQL through PGX Inc..)",
+      "author": null,
+      "publishedAt": "2026-11-01T14:00:00.000Z"
     }
   ],
-  "totalIndexed": 388
+  "totalIndexed": 389
 }
