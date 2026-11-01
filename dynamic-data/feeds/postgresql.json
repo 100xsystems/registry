@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-11-01T04:39:53.524Z",
+  "updatedAt": "2026-11-01T12:58:32.862Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -3105,7 +3105,15 @@
       "summary": "GitLab has a public story about deleting the wrong thing. In January 2017 an engineer who was trying to restore replication wiped a data directory they believed was on the secondary. It was on the primary. The postmortem they published afterwards is still one of the better things written about a…",
       "author": null,
       "publishedAt": "2026-10-31T22:00:50.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9AK",
+      "title": "Vadim Yatsenko: Splitting the Read-Only Transaction: Replica Reads Inside an Open Transaction",
+      "link": "https://postgr.es/p/9AK",
+      "summary": "Read/write splitting is easy for single, autocommit statements. It gets hard the moment a client opens a transaction. Most proxies give up and send every statement inside a transaction to the primary, even the reads. This article is about a middle path we built into Polar Proxy: keep the…",
+      "author": null,
+      "publishedAt": "2026-11-01T08:37:13.000Z"
     }
   ],
-  "totalIndexed": 387
+  "totalIndexed": 388
 }
