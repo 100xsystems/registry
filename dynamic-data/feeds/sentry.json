@@ -8,7 +8,7 @@
     "debugging",
     "performance"
   ],
-  "updatedAt": "2026-10-29T18:04:09.021Z",
+  "updatedAt": "2026-11-02T21:25:55.802Z",
   "items": [
     {
       "guid": "https://blog.sentry.io/godot-dotnet-ga/",
@@ -441,7 +441,15 @@
       "summary": "The Sentry JavaScript SDK v11 reports LCP, CLS, and INP for soft navigations. Here's what that reveals about your SPA, with interactive demos.",
       "author": null,
       "publishedAt": "2026-10-29T00:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.sentry.io/android-profilingmanager-perfetto/",
+      "title": "Android profiling now uses Perfetto via ProfilingManager",
+      "link": "https://blog.sentry.io/android-profilingmanager-perfetto/",
+      "summary": "Sentry Android SDK 8.51.0 profiles Android 15+ devices with Perfetto via ProfilingManager: fewer tracer crashes, lower overhead, better profiles",
+      "author": null,
+      "publishedAt": "2026-11-02T09:00:00.000Z"
     }
   ],
-  "totalIndexed": 54
+  "totalIndexed": 55
 }
