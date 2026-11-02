@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-11-02T04:41:47.678Z",
+  "updatedAt": "2026-11-02T15:18:10.723Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -3129,7 +3129,31 @@
       "summary": "PostgreSQL's server closed the connection unexpectedly, measured in six clients: what the server log says per cause, where the reason goes, and lost COMMITs.",
       "author": null,
       "publishedAt": "2026-11-02T00:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9AP",
+      "title": "Gabriele Bartolini: CloudNativePG reaches CNCF Incubation: another rung on the ladder",
+      "link": "https://postgr.es/p/9AP",
+      "summary": "CloudNativePG is now a CNCF Incubating project, and it is a long way from the\ndays when running PostgreSQL in Kubernetes was called an anti-pattern. This is\na personal look at the road that led here: a cloud native initiative started\nat 2ndQuadrant in 2019, its quality-first mindset, the long-term…",
+      "author": null,
+      "publishedAt": "2026-11-02T13:36:58.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9AO",
+      "title": "Vibhor Kumar: Autonomous Postgres at PGConf.EU 2026: From Scripts to Self-Driving, and the Primitives in Between",
+      "link": "https://postgr.es/p/9AO",
+      "summary": "A morning in Valencia\nOn Friday, 23 October 2026, the last day of PGConf.EU in Valencia, almost 40 practitioners, builders, and skeptics gave up a community-day morning to ask one question: how real is “Autonomous Postgres” today?\nMarc Linster, Ryan Booz, and I organized the session as a working…",
+      "author": null,
+      "publishedAt": "2026-11-02T10:48:29.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9AN",
+      "title": "Aleksei Aleinikov: Navicat 18 Review: Is It Worth It for PostgreSQL? Tested on 10M Rows",
+      "link": "https://postgr.es/p/9AN",
+      "summary": "Most database client reviews are a tour of the feature list. I wanted to know something narrower: when you open Navicat 18 and put it in front of a real table, which of the new features do you actually find, and which of them hold up?\nSo I connected it to PostgreSQL with a table of 10 million rows…",
+      "author": null,
+      "publishedAt": "2026-11-02T06:30:08.000Z"
     }
   ],
-  "totalIndexed": 390
+  "totalIndexed": 393
 }

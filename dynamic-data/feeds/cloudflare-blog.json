@@ -9,7 +9,7 @@
     "performance",
     "edge-computing"
   ],
-  "updatedAt": "2026-10-30T17:44:56.745Z",
+  "updatedAt": "2026-11-02T15:18:10.514Z",
   "items": [
     {
       "guid": "01KY2432VQPD5FTF2RARXXYQGH",
@@ -62394,7 +62394,15 @@
       "summary": "Public traffic to private origins, with WAF, bot management, caching, and Workers, is now available to every customer with Cloudflare One connectivity.",
       "author": "Enrique Somoza",
       "publishedAt": "2026-10-30T14:23:43.000Z"
+    },
+    {
+      "guid": "01M5J4YTFMTRT7PG1Y8HAPNPYG",
+      "title": "How we halved DNS build delay and cut memory use by 85%",
+      "link": "https://blog.cloudflare.com/dns-targeted-zone-builds/",
+      "summary": "Zone setting changes used to rebuild entire DNS zones, even ones with tens of millions of records. Here is how we built a planner that picks the smallest safe build, cutting full builds by 40%, peak memory by 85%, and halving build delay.",
+      "author": "Alex Fattouche",
+      "publishedAt": "2026-11-02T14:00:00.000Z"
     }
   ],
-  "totalIndexed": 7798
+  "totalIndexed": 7799
 }

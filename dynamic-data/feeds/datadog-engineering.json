@@ -8,7 +8,7 @@
     "monitoring",
     "infrastructure"
   ],
-  "updatedAt": "2026-10-20T21:04:36.398Z",
+  "updatedAt": "2026-11-02T15:18:18.990Z",
   "items": [
     {
       "guid": "https://www.datadoghq.com/blog/engineering/jfr-cpu-time-profiling/",
@@ -29801,7 +29801,47 @@
       "summary": "Learn when to use RUM and synthetic monitoring for SLIs, what each source misses, and how to interpret their results together.",
       "author": null,
       "publishedAt": "2026-10-20T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.datadoghq.com/blog/datadog-electron-sdk/",
+      "title": "Extend RUM to Electron’s main process with the Datadog Electron SDK",
+      "link": "https://www.datadoghq.com/blog/datadog-electron-sdk/",
+      "summary": "Use the Datadog Electron SDK to connect RUM data across Node.js and Chromium, capture main process failures, and trace requests.",
+      "author": null,
+      "publishedAt": "2026-11-02T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.datadoghq.com/blog/rum-managed-archive/",
+      "title": "Store and recover user sessions with RUM Managed Archive",
+      "link": "https://www.datadoghq.com/blog/rum-managed-archive/",
+      "summary": "Store every ingested RUM session and recover specific sessions on demand for support, debugging, incident investigations, and audits.",
+      "author": null,
+      "publishedAt": "2026-11-02T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.datadoghq.com/blog/export-pipelines/",
+      "title": "Export RUM and Product Analytics data with Export Pipelines",
+      "link": "https://www.datadoghq.com/blog/export-pipelines/",
+      "summary": "Send Datadog RUM and Product Analytics events to your cloud storage for data analysis, ML model training, and long-term data access.",
+      "author": null,
+      "publishedAt": "2026-11-02T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.datadoghq.com/blog/monitor-native-apps-datadog-rum/",
+      "title": "Monitor C and C++ applications with Datadog RUM",
+      "link": "https://www.datadoghq.com/blog/monitor-native-apps-datadog-rum/",
+      "summary": "Use Datadog RUM to investigate native C and C++ application crashes, track user activity, and monitor workflows across desktop and other native apps.",
+      "author": null,
+      "publishedAt": "2026-11-02T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.datadoghq.com/blog/runtime-security-for-ai-agents/",
+      "title": "Agents make decisions at runtime—your security controls should too",
+      "link": "https://www.datadoghq.com/blog/runtime-security-for-ai-agents/",
+      "summary": "Learn how we’re building AI Guard to secure AI agents at by detecting and blocking threats at runtime.",
+      "author": null,
+      "publishedAt": "2026-11-02T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 3724
+  "totalIndexed": 3729
 }

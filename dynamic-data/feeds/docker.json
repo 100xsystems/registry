@@ -8,7 +8,7 @@
     "devops",
     "cloud-native"
   ],
-  "updatedAt": "2026-10-30T12:30:58.431Z",
+  "updatedAt": "2026-11-02T15:18:19.131Z",
   "items": [
     {
       "guid": "https://www.docker.com/?p=92418",
@@ -321,7 +321,23 @@
       "summary": "An AI code review agent invented a CVE and recommended dangerous fixes. Learn how Docker Sandboxes contain agents and why their output needs verification.",
       "author": "Jennifer Kohl",
       "publishedAt": "2026-10-29T13:00:00.000Z"
+    },
+    {
+      "guid": "https://www.docker.com/?p=95691",
+      "title": "The Ecosystem is the Answer: Docker, the Blueprint Alliance, and the Importance of Collaboration in the Agentic Era",
+      "link": "https://www.docker.com/blog/docker-blueprint-alliance-agent-baseline/",
+      "summary": "Docker is a founding member of the Blueprint Alliance, a 12-company reference architecture for securing AI agents, built around four governance questions.",
+      "author": "Jin Kim",
+      "publishedAt": "2026-11-02T14:00:00.000Z"
+    },
+    {
+      "guid": "https://www.docker.com/?p=95666",
+      "title": "Where should your code live in a Docker Sandbox?",
+      "link": "https://www.docker.com/blog/docker-sandbox-code-checkout-workflows/",
+      "summary": "Docker Sandboxes support three ways to organize an agent’s code: shared mounts, Git worktrees, and clone mode. Here’s how to choose between them.",
+      "author": "Jin Kim",
+      "publishedAt": "2026-11-02T14:00:00.000Z"
     }
   ],
-  "totalIndexed": 39
+  "totalIndexed": 41
 }

@@ -9,7 +9,7 @@
     "edge-computing",
     "nextjs"
   ],
-  "updatedAt": "2026-10-30T21:50:35.426Z",
+  "updatedAt": "2026-11-02T15:18:20.190Z",
   "items": [
     {
       "guid": "vercel-blog::https://vercel.com/changelog/ai-gateway-now-supports-streaming-transcription",
@@ -5170,7 +5170,15 @@
       "summary": "now support configuring HTTP liveness checks.Vercel Daemons\nStart with an HTTP endpoint in your daemon that reports its health. Keep it lightweight so it responds quickly, and have it return an error status when the daemon is no longer healthy:\nThe daemon configuration now accepts a  value pointing…",
       "author": "Gal Schlezinger",
       "publishedAt": "2026-10-30T00:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/evaluate-vercel-flags-from-another-project-without-sharing-sdk-keys",
+      "title": "Evaluate Vercel Flags from another project without sharing SDK keys.",
+      "link": "https://vercel.com/changelog/evaluate-vercel-flags-from-another-project-without-sharing-sdk-keys",
+      "summary": "let applications evaluate flags defined in another Vercel project within the same team, without managing SDK keys.Project Connections\nPreviously, sharing flags between projects required copying a server SDK key into an environment variable and managing it manually. Connected projects authenticate…",
+      "author": "Vincent Derks",
+      "publishedAt": "2026-11-02T16:00:00.000Z"
     }
   ],
-  "totalIndexed": 645
+  "totalIndexed": 646
 }
