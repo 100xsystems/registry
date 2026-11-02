@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-11-01T17:40:20.515Z",
+  "updatedAt": "2026-11-02T04:41:47.678Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -3121,7 +3121,15 @@
       "summary": "`row_security = off` doesn't disable row-level security—it triggers an error when a policy would apply.\n\n(I consult on PostgreSQL through PGX Inc..)",
       "author": null,
       "publishedAt": "2026-11-01T14:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9AM",
+      "title": "Chris van Eijk: server closed the connection unexpectedly in PostgreSQL",
+      "link": "https://postgr.es/p/9AM",
+      "summary": "PostgreSQL's server closed the connection unexpectedly, measured in six clients: what the server log says per cause, where the reason goes, and lost COMMITs.",
+      "author": null,
+      "publishedAt": "2026-11-02T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 389
+  "totalIndexed": 390
 }

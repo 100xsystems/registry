@@ -1,28 +1,28 @@
-# YC Company Changes for 2026-11-01
+# YC Company Changes for 2026-11-02
 
-- Previous total: 6359
-- Current total: 6360
-- Added: 1
+- Previous total: 6360
+- Current total: 6362
+- Added: 2
 - Removed: 0
 - Updated: 3
 
 
 ## Added Companies
 
-- [Ryhla](https://www.ycombinator.com/companies/ryhla) (Fall 2026) — Faster power grid connection for energy projects
+- [Caladh](https://www.ycombinator.com/companies/caladh) (Fall 2026) — Anti-drone defense for the maritime domain 
+- [Kanopy](https://www.ycombinator.com/companies/kanopy) (Fall 2026) — Computer vision operating layer for physical infrastructure
 
 ## Updated Companies
 
-### [Pibit.ai](https://www.ycombinator.com/companies/pibit-ai)
+### [WarpBuild](https://www.ycombinator.com/companies/warpbuild)
 
-- `one_liner`: The fastest path from submission to better decisions. → The AI Underwriting OS for Commercial, Specialty & E&S insurance
-- `team_size`: 116 → 200
-- `stage`: Growth → Early
+- `isHiring`: true → false
 
-### [Lanesurf](https://www.ycombinator.com/companies/lanesurf)
+### [Ryhla](https://www.ycombinator.com/companies/ryhla)
 
-- `team_size`: 11 → 14
+- `one_liner`: Faster power grid connection for energy projects → Faster power grid connection for your projects
 
-### [Runtime.si](https://www.ycombinator.com/companies/runtimesi)
+### [ProjectX](https://www.ycombinator.com/companies/projectx)
 
-- `one_liner`: Evaluation Infrastructure for Robotics (YC F26) → Real-time simulation infrastructure for robots
+- `all_locations`: San Francisco, CA, USA → Kolkata, WB, India
+- `regions`: United States of America,America / Canada,Remote,Partly Remote → India,South Asia,Remote,Partly Remote
