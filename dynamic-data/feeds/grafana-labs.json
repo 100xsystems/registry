@@ -8,16 +8,8 @@
     "monitoring",
     "data-visualization"
   ],
-  "updatedAt": "2026-11-03T19:06:50.581Z",
+  "updatedAt": "2026-11-03T22:44:16.553Z",
   "items": [
-    {
-      "guid": "grafana-labs::https://grafana.com/grafana/dashboards/11557-1-zentao-dashboard/",
-      "title": "11557 1 Zentao Dashboard",
-      "link": "https://grafana.com/grafana/dashboards/11557-1-zentao-dashboard/",
-      "summary": null,
-      "author": null,
-      "publishedAt": "2001-01-31T18:30:00.000Z"
-    },
     {
       "guid": "grafana-labs::https://grafana.com/grafana/dashboards/8588-1-kubernetes-deployment-statefulset-daemonset-metrics/",
       "title": "8588 1 Kubernetes Deployment Statefulset Daemonset Metrics",
@@ -80009,7 +80001,15 @@
       "summary": "When an application request slows down, a trace can show a database call. Finding the database query behind it can be tedious, requiring you to switch between traces and database telemetry, as well as match timestamps or query text by hand. \nIn Grafana Cloud, the Database Observability app already…",
       "author": "Shirley",
       "publishedAt": "2026-11-03T15:05:03.000Z"
+    },
+    {
+      "guid": "https://grafana.com/blog/bridging-alloy-and-opentelemetry-the-otel-engine-is-now-in-public-preview/",
+      "title": "Bridging Alloy and OpenTelemetry: the OTel engine is now in Public Preview",
+      "link": "https://grafana.com/blog/bridging-alloy-and-opentelemetry-the-otel-engine-is-now-in-public-preview/",
+      "summary": "Many Grafana Cloud customers love what Alloy offers them, but we're also seeing a growing base of users who feel the same way about the OpenTelemetry Collector. We want to make it easy for customers to make the decision that makes the most sense, regardless of their preference.\nWhen we introduced…",
+      "author": "Bejal Lewis",
+      "publishedAt": "2026-11-03T21:32:18.000Z"
     }
   ],
-  "totalIndexed": 21936
+  "totalIndexed": 21937
 }

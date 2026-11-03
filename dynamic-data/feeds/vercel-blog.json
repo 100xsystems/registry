@@ -9,7 +9,7 @@
     "edge-computing",
     "nextjs"
   ],
-  "updatedAt": "2026-11-03T19:07:01.691Z",
+  "updatedAt": "2026-11-03T22:44:26.741Z",
   "items": [
     {
       "guid": "vercel-blog::https://vercel.com/changelog/ai-gateway-now-supports-streaming-transcription",
@@ -5242,7 +5242,31 @@
       "summary": "OpenEvidence on Vercel\n\nServes 650,000 doctors with medical search\n\nCompletes production deployments in about five minutes\n\nAbsorbs traffic spikes without additional capacity provisioning\n\nReduced serverless spend by 90% with Fluid compute\n\nUpdates doctor- and patient-facing applications…",
       "author": "Susan Aziz",
       "publishedAt": "2026-11-03T00:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/vercel-security-review-public-beta",
+      "title": "Vercel Security Review now in public beta",
+      "link": "https://vercel.com/changelog/vercel-security-review-public-beta",
+      "summary": "is now in public beta for Pro and Enterprise teams. Once enabled, every push to a connected GitHub repository is automatically reviewed for vulnerabilities, and findings are reported in the .Vercel Security ReviewVulnerabilities dashboard\nSecurity Review runs automatically when code is pushed to a…",
+      "author": "Nate McGrady",
+      "publishedAt": "2026-11-03T20:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/vercel-ci-no-longer-requires-a-linked-vercel-project",
+      "title": "Vercel CI no longer requires a linked Vercel project",
+      "link": "https://vercel.com/changelog/vercel-ci-no-longer-requires-a-linked-vercel-project",
+      "summary": "Vercel CI can now run on a GitHub repository that has no Vercel project. Until now you had to create an empty project just to connect the repository.\nTo enable it, you need:\nThen, from a clone of the repository, run:\nCI is enabled for the team your CLI is set to. Pass  to use a different one. From…",
+      "author": "Vojtech Miksu",
+      "publishedAt": "2026-11-03T18:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/vercel-cli-now-diagnoses-setup-problems-with-vercel-doctor",
+      "title": "Diagnose Vercel CLI setup problems with vercel doctor",
+      "link": "https://vercel.com/changelog/vercel-cli-now-diagnoses-setup-problems-with-vercel-doctor",
+      "summary": "Vercel CLI now includes , which checks your setup and shows the command that fixes each problem it finds.vercel doctor\nIt checks the CLI version and install, your login and current team, the project link, and your project configuration in . It also reports active incidents from the Vercel status…",
+      "author": "Melkey Moksyakov",
+      "publishedAt": "2026-11-03T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 654
+  "totalIndexed": 657
 }

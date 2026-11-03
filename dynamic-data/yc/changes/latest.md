@@ -4,51 +4,40 @@
 - Current total: 6362
 - Added: 0
 - Removed: 0
-- Updated: 9
+- Updated: 7
 
 
 ## Updated Companies
 
-### [Unthread](https://www.ycombinator.com/companies/unthread)
+### [SharpestMinds](https://www.ycombinator.com/companies/sharpestminds)
 
-- `one_liner`: Automate support ops natively in Slack → AI helpdesk built for Slack & Teams
-- `status`: Active → Acquired
+- `status`: Acquired → Inactive
 
-### [ShortLoop](https://www.ycombinator.com/companies/shortloop)
+### [Tractian](https://www.ycombinator.com/companies/tractian)
+
+- `stage`: Growth → Early
+
+### [Saga AI](https://www.ycombinator.com/companies/saga-ai)
+
+- `one_liner`: Voice Agents for Healthcare Operations → AI agents for patient access: referral intake, eligibility, and prior…
+
+### [Voicepanel](https://www.ycombinator.com/companies/voicepanel)
 
 - `isHiring`: false → true
 
-### [Feldy](https://www.ycombinator.com/companies/feldy)
+### [Vespin](https://www.ycombinator.com/companies/vespin)
 
-- `team_size`: 4 → 10
+- `name`: Stage → Vespin
+- `slug`: stage → vespin
+- `former_names`:  → Stage
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/ac5a6cce941f973ff80cb4496e195f4010e5c21b.png → https://bookface-images.s3.amazonaws.com/small_logos/488e0bf1da9ca12d399f04d8cafa2b336585587d.png
+- `website`: https://www.tryluke.dev/ → https://www.vespin.dev/
+- `one_liner`: Code review platform for humans and agents → An inbox for your coding agents
 
-### [Nucleo](https://www.ycombinator.com/companies/nucleo)
+### [Rise Reforming](https://www.ycombinator.com/companies/rise-reforming)
 
-- `isHiring`: false → true
+- `team_size`: 4 → 5
 
-### [Andco](https://www.ycombinator.com/companies/andco)
+### [Perit.AI](https://www.ycombinator.com/companies/peritai)
 
-- `tags`:  → Consumer,B2B,LegalTech,AI
-- `isHiring`: true → false
-
-### [Dreach](https://www.ycombinator.com/companies/dreach)
-
-- `team_size`: 2 → 5
-
-### [e2e](https://www.ycombinator.com/companies/e2e)
-
-- `name`: TesterArmy → e2e
-- `slug`: testerarmy → e2e
-- `former_names`: Tester Army → Tester Army,TesterArmy
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/c2383517bbad408b44b80d2d5f5912ef81073ff0.png → https://bookface-images.s3.amazonaws.com/small_logos/67b593bc15edf4c74365d55d734a00481f57bcfd.png
-- `website`: https://tester.army → https://e2e.com
-- `one_liner`: Test your app with AI, catch bugs before users do → the software verification layer for the agentic coding era
-- `team_size`: 6 → 8
-
-### [Edgerun](https://www.ycombinator.com/companies/edgerun)
-
-- `team_size`: 5 → 12
-
-### [Neuromorphic](https://www.ycombinator.com/companies/neuromorphic)
-
-- `isHiring`: true → false
+- `one_liner`: Expert-led data and RL platform for AI labs → Expert-collected voice, egocentric and RL training data for frontier…

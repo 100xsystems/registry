@@ -8,7 +8,7 @@
     "performance",
     "cloud"
   ],
-  "updatedAt": "2026-11-03T19:07:02.473Z",
+  "updatedAt": "2026-11-03T22:44:27.459Z",
   "items": [
     {
       "guid": "https://www.mongodb.com/company/blog/news/10-years-mongodb-atlas-built-for-whats-next",
@@ -425,7 +425,111 @@
       "summary": "The federated Copilot connector for MongoDB Atlas gives organizations a governed way to bring live operational data into the flow of work across Copilot experiences.\nTo operate efficiently, businesses require timely information about the systems that underpin their organizations. For example, they…",
       "author": null,
       "publishedAt": "2026-11-03T14:00:00.000Z"
+    },
+    {
+      "guid": "https://www.mongodb.com/company/blog/technical/quick-start-c-sharp-and-mongodb-starting-and-setup",
+      "title": "Quick Start: C# and MongoDB - Starting and Setup",
+      "link": "https://www.mongodb.com/company/blog/technical/quick-start-c-sharp-and-mongodb-starting-and-setup",
+      "summary": "In the first of the C# Quick Start series, I'll show how to set up connections between C# and MongoDB.\nIn future parts we'll move on and work through:\n\nDatabase Create, Read, Update, and Delete (CRUD) operations\nMap MongoDB to C# objects\nLook at MongoDB aggregation\nHow to use LINQ with MongoDB\n\nAs…",
+      "author": null,
+      "publishedAt": "2026-11-03T20:09:41.000Z"
+    },
+    {
+      "guid": "https://www.mongodb.com/company/blog/product-release-announcements/introducing-atlas-app-connections-secure-one-click-access-for-ai-tools",
+      "title": "Introducing Atlas App Connections: Secure, One-Click Access for AI Tools",
+      "link": "https://www.mongodb.com/company/blog/product-release-announcements/introducing-atlas-app-connections-secure-one-click-access-for-ai-tools",
+      "summary": "For builders using AI coding tools, speed is everything. Integrations that require generating a credential, filing an access request, or waiting on a custom build can stop momentum (and productivity) in its tracks.\nUntil now, connecting an external application like an AI coding assistant to a…",
+      "author": null,
+      "publishedAt": "2026-11-03T20:08:21.000Z"
+    },
+    {
+      "guid": "https://www.mongodb.com/company/blog/innovation/building-next-gen-ai-agents-mongodb-atlas-integration-microsoft-foundry",
+      "title": "Building Next-gen AI agents: The MongoDB Atlas-Microsoft Foundry Integration",
+      "link": "https://www.mongodb.com/company/blog/innovation/building-next-gen-ai-agents-mongodb-atlas-integration-microsoft-foundry",
+      "summary": "Generative AI is rapidly evolving from experimenting with models to relying on intelligent, autonomous multi-agent workflows that can reason, act, and adapt in real time. Together, Microsoft and MongoDB are defining the future of AI by providing companies everywhere a robust, secure, scalable…",
+      "author": null,
+      "publishedAt": "2026-11-03T20:02:58.000Z"
+    },
+    {
+      "guid": "https://www.mongodb.com/company/blog/innovation/automated-secure-scalable-reference-implementation-mongodb-atlas-on-azure",
+      "title": "Automated, Secure, and Scalable: Reference Implementation for Atlas on Azure",
+      "link": "https://www.mongodb.com/company/blog/innovation/automated-secure-scalable-reference-implementation-mongodb-atlas-on-azure",
+      "summary": "Today’s cloud-driven world is characterized by the requirement to scale—and to do so massively and faster than ever. But standing up secure and compliant environments on the cloud is complex and requires huge efforts, as teams have to figure out networking, policies, identity, and governance…",
+      "author": null,
+      "publishedAt": "2026-11-03T20:02:16.000Z"
+    },
+    {
+      "guid": "https://www.mongodb.com/company/blog/innovation/financial-crime-mitigation-part-iv-agentic-ai-for-case-management",
+      "title": "Financial Crime Mitigation with MongoDB / Part IV: Agentic AI for Case Management",
+      "link": "https://www.mongodb.com/company/blog/innovation/financial-crime-mitigation-part-iv-agentic-ai-for-case-management",
+      "summary": "Welcome back to the last part of our series on Building a Financial Crime Mitigation Platform. We have shown how MongoDB ideally supports the technical capabilities of modern digital financial operations as a unified data platform. In case you missed it, be sure to check out the series overview.\nIn…",
+      "author": null,
+      "publishedAt": "2026-11-03T20:00:16.000Z"
+    },
+    {
+      "guid": "https://www.mongodb.com/company/blog/innovation/layer-mongodb-atlas-resource-policies-for-defense-in-depth",
+      "title": "Layer MongoDB Atlas Resource Policies for Defense-in-Depth",
+      "link": "https://www.mongodb.com/company/blog/innovation/layer-mongodb-atlas-resource-policies-for-defense-in-depth",
+      "summary": "Editor’s note: This post is the second in a five-part series exploring how MongoDB Atlas Resource Policies help you strengthen database security and enforce consistent guardrails across your organization. Read the first post on IP access list management here. Future posts will cover topics like…",
+      "author": null,
+      "publishedAt": "2026-11-03T19:56:14.000Z"
+    },
+    {
+      "guid": "https://www.mongodb.com/company/blog/innovation/secure-mongodb-atlas-automated-ip-access-list-policies",
+      "title": "Secure MongoDB Atlas With Automated IP Access List Policies",
+      "link": "https://www.mongodb.com/company/blog/innovation/secure-mongodb-atlas-automated-ip-access-list-policies",
+      "summary": "Editor’s note: This post is the first in a five-part series exploring how MongoDB Atlas Resource Policies help you strengthen database security and enforce consistent guardrails across your organization. Future posts will cover topics like defense-in-depth, blocking wildcard IP access, and…",
+      "author": null,
+      "publishedAt": "2026-11-03T19:55:16.000Z"
+    },
+    {
+      "guid": "https://www.mongodb.com/company/blog/engineering/leaf-distillation-state-of-the-art-text-embedding-models",
+      "title": "LEAF: Distillation of State‑of‑the‑Art Text Embedding Models",
+      "link": "https://www.mongodb.com/company/blog/engineering/leaf-distillation-state-of-the-art-text-embedding-models",
+      "summary": "At MongoDB Research, we’re exploring how to make cutting‑edge AI models smaller, faster, and more flexible.\nIn this blog post, we present LEAF (Lightweight Embedding Alignment Framework), a new knowledge distillation framework for text embedding models.\nWe’re also releasing two best‑in‑class…",
+      "author": null,
+      "publishedAt": "2026-11-03T19:54:38.000Z"
+    },
+    {
+      "guid": "https://www.mongodb.com/company/blog/innovation/building-financial-crime-mitigation-platform-with-mongodb-series-overview",
+      "title": "Financial Crime Mitigation with MongoDB / Series Overview",
+      "link": "https://www.mongodb.com/company/blog/innovation/building-financial-crime-mitigation-platform-with-mongodb-series-overview",
+      "summary": "Where money moves, crime evolves. As banking becomes fully digital—with instant payments, open finance APIs, and mobile-first onboarding—it has opened new roads for cyberattacks, forcing financial institutions to respond in real-time. With just seconds to detect, prevent, and react to suspicious…",
+      "author": null,
+      "publishedAt": "2026-11-03T19:53:52.000Z"
+    },
+    {
+      "guid": "https://www.mongodb.com/company/blog/innovation/enforce-data-sovereignty-with-mongodb-atlas-resource-policies",
+      "title": "Enforce Data Sovereignty With MongoDB Atlas Resource Policies",
+      "link": "https://www.mongodb.com/company/blog/innovation/enforce-data-sovereignty-with-mongodb-atlas-resource-policies",
+      "summary": "Editor’s note: This post is the fourth in a five-part series exploring how MongoDB Atlas Resource Policies help you strengthen database security and enforce consistent guardrails across your organization. Read the first post on IP access list management, the second on defense in depth strategies,…",
+      "author": null,
+      "publishedAt": "2026-11-03T19:52:56.000Z"
+    },
+    {
+      "guid": "https://www.mongodb.com/company/blog/technical/quick-start-nodejs-mongodb-how-to-get-connected-to-your-database",
+      "title": "Connect to a MongoDB Database Using Node.js",
+      "link": "https://www.mongodb.com/company/blog/technical/quick-start-nodejs-mongodb-how-to-get-connected-to-your-database",
+      "summary": "Use Node.js? Want to learn MongoDB? This is the blog series for you!\nIn this Quick Start series, I’ll walk you through the basics of how to get started using MongoDB with Node.js. In today’s post, we’ll work through connecting to a MongoDB database from a Node.js script, retrieving a list of…",
+      "author": null,
+      "publishedAt": "2026-11-03T19:51:39.000Z"
+    },
+    {
+      "guid": "https://www.mongodb.com/company/blog/innovation/ai-powered-customer-retention-with-mongodb-real-time-behavioral-triggers",
+      "title": "AI-Powered Customer Retention with MongoDB: Real-Time Behavioral Triggers for Retail IT Leaders",
+      "link": "https://www.mongodb.com/company/blog/innovation/ai-powered-customer-retention-with-mongodb-real-time-behavioral-triggers",
+      "summary": "Every customer relationship is an investment, and like any investment, its value grows over time—when relationships are properly nurtured. Industry research has shown that retaining existing customers is far more cost-effective than acquiring new ones. For example, a 2025 article by Startup Guru…",
+      "author": null,
+      "publishedAt": "2026-11-03T19:48:13.000Z"
+    },
+    {
+      "guid": "https://www.mongodb.com/company/blog/innovation/simplifying-enterprise-security-management-mongodb-atlas-logs-microsoft-sentinel",
+      "title": "Simplifying Enterprise Security Management: MongoDB Atlas Logs in Microsoft Sentinel",
+      "link": "https://www.mongodb.com/company/blog/innovation/simplifying-enterprise-security-management-mongodb-atlas-logs-microsoft-sentinel",
+      "summary": "Security teams face increasing pressure to maintain visibility and control across complex, hybrid environments. With data spread across multiple systems, detecting threats, correlating incidents, and enforcing governance can become fragmented and time-consuming—especially as organizations…",
+      "author": null,
+      "publishedAt": "2026-11-03T19:46:59.000Z"
     }
   ],
-  "totalIndexed": 52
+  "totalIndexed": 65
 }
