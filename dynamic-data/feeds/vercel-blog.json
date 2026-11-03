@@ -9,7 +9,7 @@
     "edge-computing",
     "nextjs"
   ],
-  "updatedAt": "2026-11-03T05:33:15.151Z",
+  "updatedAt": "2026-11-03T19:07:01.691Z",
   "items": [
     {
       "guid": "vercel-blog::https://vercel.com/changelog/ai-gateway-now-supports-streaming-transcription",
@@ -5218,7 +5218,31 @@
       "summary": "Vercel Sandboxes that mount  now start faster. Median creation time dropped from 1.7s to 0.7s, and p95 dropped from 2.2s to 1.6s.Drives\nThe speedup applies automatically to every sandbox that uses Drives, with no SDK upgrade or configuration changes needed. Pricing stays the same.\nLearn more in the…",
       "author": "Joe Haddad",
       "publishedAt": "2026-11-02T16:39:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/blog/how-zapier-turns-ideas-into-working-software-in-hours-with-vercel",
+      "title": "How Zapier turns ideas into working software in hours with Vercel",
+      "link": "https://vercel.com/blog/how-zapier-turns-ideas-into-working-software-in-hours-with-vercel",
+      "summary": "Zapier on Vercel\nFrom weeks of prototype work to a demo in under two hours\nSharing sensitive internal data securely\nInternal apps for marketing and sales\nModel access and isolated code execution\nWhat's next\n\nInteractive partner demos in under two hours with v0, replacing a process that could take…",
+      "author": "Susan Aziz",
+      "publishedAt": "2026-11-03T04:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/blog/how-mercor-ships-internal-apps-and-billions-of-production-tokens-on-one-platform",
+      "title": "How Mercor ships internal apps and billions of production tokens on one platform",
+      "link": "https://vercel.com/blog/how-mercor-ships-internal-apps-and-billions-of-production-tokens-on-one-platform",
+      "summary": "Mercor on Vercel\n\nBatch jobs cut from 12 hours to 2 hours\n\n18M requests and 63B tokens routed through AI Gateway in 10 days\n\nExpert access provisioned in seconds via Vercel Passport\n\nOver 2,000 projects created by hundreds of internal builders\n\n\n connects hundreds of thousands of domain experts…",
+      "author": "Susan Aziz",
+      "publishedAt": "2026-11-03T04:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/blog/how-openevidence-scales-medical-search-for-doctors",
+      "title": "How OpenEvidence scales medical search for 650K doctors",
+      "link": "https://vercel.com/blog/how-openevidence-scales-medical-search-for-doctors",
+      "summary": "OpenEvidence on Vercel\n\nServes 650,000 doctors with medical search\n\nCompletes production deployments in about five minutes\n\nAbsorbs traffic spikes without additional capacity provisioning\n\nReduced serverless spend by 90% with Fluid compute\n\nUpdates doctor- and patient-facing applications…",
+      "author": "Susan Aziz",
+      "publishedAt": "2026-11-03T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 651
+  "totalIndexed": 654
 }

@@ -8,7 +8,7 @@
     "ide",
     "programming-languages"
   ],
-  "updatedAt": "2026-11-02T15:18:19.064Z",
+  "updatedAt": "2026-11-03T19:07:01.139Z",
   "items": [
     {
       "guid": "https://blog.jetbrains.com/?post_type=rscpp&p=725420",
@@ -1113,7 +1113,55 @@
       "summary": "We’ve released updates for multiple MPS versions that fix a critical security issue. MPS 2026.1.2 and 2026.2 RC2 additionally bring a substantial improvement to the Projectional Agent Toolkit plugin. For the latest information on the security issue and the steps we’ve taken to address it, please…",
       "author": "Vaclav Pech",
       "publishedAt": "2026-11-02T05:13:55.000Z"
+    },
+    {
+      "guid": "https://blog.jetbrains.com/?post_type=air&p=751861",
+      "title": "Use Your GitHub Copilot Plan in JetBrains Air – in Your IDE and in the Cloud",
+      "link": "https://blog.jetbrains.com/air/2026/11/github-copilot-in-air/",
+      "summary": "GitHub and JetBrains are bringing GitHub Copilot to JetBrains Air. Air lets you hand coding tasks to agents, run them in parallel, and review their changes in one place. You can now pick GitHub Copilot as the agent in Air – locally in your JetBrains IDE, and in the cloud with Air Teams. Tasks run…",
+      "author": "Vladimir Gromozdin",
+      "publishedAt": "2026-11-03T18:04:19.000Z"
+    },
+    {
+      "guid": "https://blog.jetbrains.com/?post_type=platform&p=750752",
+      "title": "Hear What Your IDE Is Doing: New Sound Cues in JetBrains IDEs",
+      "link": "https://blog.jetbrains.com/platform/2026/11/accessibility-sound-cues-in-jetbrains-ides/",
+      "summary": "You can use the audio player below to listen to this blog post. With JetBrains IDEs 2026.3, we’re adding a new way to stay connected to your work: sound cues. A short sound can tell you if a build has finished successfully or failed, a breakpoint has been hit, or there’s something at the caret […]",
+      "author": "Sasha Ivanova",
+      "publishedAt": "2026-11-03T15:36:11.000Z"
+    },
+    {
+      "guid": "https://blog.jetbrains.com/?post_type=teamcity&p=750259",
+      "title": "The eMudhra Certificate Authority Compromise: What It Means for TeamCity",
+      "link": "https://blog.jetbrains.com/teamcity/2026/11/emudhra-certificate-authority-compromise-what-it-means-for-teamcity/",
+      "summary": "Summary In October 2026, the private keys of eight intermediate certificate authorities operated by eMudhra were found to be weak and recoverable from public data. According to eMudhra’s official statement, none of the affected intermediate CAs had issued end-entity (leaf) certificates, and eMudhra…",
+      "author": "Andrey Koltsov",
+      "publishedAt": "2026-11-03T13:59:06.000Z"
+    },
+    {
+      "guid": "https://blog.jetbrains.com/?post_type=teamcity&p=751167",
+      "title": "TeamCity 2026.2.2 and 2026.1.6 Updates",
+      "link": "https://blog.jetbrains.com/teamcity/2026/11/teamcity-2026-2-2-2026-1-6-bugfix/",
+      "summary": "TeamCity On-Premises 2026.2.2 and 2026.1.6 bug-fix updates are now available. These updates resolve a significant number of issues, including security and performance issues, as well as the following bugs: As always, we strongly recommend installing these updates, as they address security…",
+      "author": "Dmitrii Korovin",
+      "publishedAt": "2026-11-03T13:58:44.000Z"
+    },
+    {
+      "guid": "https://blog.jetbrains.com/?post_type=idea&p=751061",
+      "title": "Where Did the Saved Bytes Go? Compact Object Headers in IntelliJ IDEA",
+      "link": "https://blog.jetbrains.com/idea/2026/11/where-did-the-saved-bytes-go-compact-object-headers-in-intellij-idea/",
+      "summary": "AI agents may make code faster to produce, but they don’t make it cheaper to run. In applications managing millions of objects, memory allocation and garbage collection still matter. The JVM has been addressing these costs on several fronts: ZGC targets garbage collection pauses, Project Leyden…",
+      "author": "Igor Kulakov",
+      "publishedAt": "2026-11-03T12:20:40.000Z"
+    },
+    {
+      "guid": "https://blog.jetbrains.com/?post_type=datagrip&p=750870",
+      "title": "DataGrip and Database Tools User Experience Survey #3 Results",
+      "link": "https://blog.jetbrains.com/datagrip/2026/11/03/datagrip-and-database-tools-user-experience-survey-3-results/",
+      "summary": "Introduction Hello, DataGrip community! We’re back with the results of our third DataGrip and Database Tools User Experience Survey. A big thank you to everyone who took the time to participate! This year, 1,420 people shared their experiences with DataGrip and the built-in database tools in other…",
+      "author": "Dmitry Romanov",
+      "publishedAt": "2026-11-03T09:19:36.000Z"
     }
   ],
-  "totalIndexed": 138
+  "totalIndexed": 144
 }

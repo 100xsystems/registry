@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-11-02T15:18:20.341Z",
+  "updatedAt": "2026-11-03T19:07:02.276Z",
   "items": [
     {
       "guid": "https://thedailywtf.com/articles/classic-wtf-my-many-girlfriends",
@@ -551,7 +551,15 @@
       "summary": "\"TODO\" comments are an inescapable part of our work. Yes, yes, you should just do it right the first time, everything should probably have a ticket in whatever your ticket system is for visibility, but at some point, you're just going to leave a \"TODO\" behind.\nBut hopefully, the TODO gets TODONE,…",
       "author": "Remy Porter",
       "publishedAt": "2026-11-02T06:30:00.000Z"
+    },
+    {
+      "guid": "https://thedailywtf.com/articles/death-of-the-auth-er",
+      "title": "CodeSOD: Death of the Auth-Er",
+      "link": "https://thedailywtf.com/articles/death-of-the-auth-er",
+      "summary": "When writing Perl, it's not unusual to want to die. The die function ends your Perl program with an error string, and you'll often see code like: die \"My error\" unless $i > 5 or die \"Other error\" if check(), because Perl just loves the backwards conditionals. What's even more fun with die is how it…",
+      "author": "Remy Porter",
+      "publishedAt": "2026-11-03T06:30:00.000Z"
     }
   ],
-  "totalIndexed": 68
+  "totalIndexed": 69
 }

@@ -8,16 +8,8 @@
     "monitoring",
     "data-visualization"
   ],
-  "updatedAt": "2026-11-02T21:25:55.058Z",
+  "updatedAt": "2026-11-03T19:06:50.581Z",
   "items": [
-    {
-      "guid": "grafana-labs::https://grafana.com/grafana/dashboards/12171-openebs-by-dguyhasnoname/",
-      "title": "12171 Openebs By Dguyhasnoname",
-      "link": "https://grafana.com/grafana/dashboards/12171-openebs-by-dguyhasnoname/",
-      "summary": null,
-      "author": null,
-      "publishedAt": "2001-01-31T18:30:00.000Z"
-    },
     {
       "guid": "grafana-labs::https://grafana.com/grafana/dashboards/11557-1-zentao-dashboard/",
       "title": "11557 1 Zentao Dashboard",
@@ -80009,7 +80001,15 @@
       "summary": "It's no secret that getting started with observability can be much harder than it should be. That's why, at ObservabilityCon 2025, we introduced Instrumentation Hub: a guided, scalable way to roll out observability coverage while still keeping you in control. \nToday, we’re excited to announce that…",
       "author": "Fabian Stäber",
       "publishedAt": "2026-11-02T15:44:53.000Z"
+    },
+    {
+      "guid": "https://grafana.com/blog/trace-linkage-connect-the-dots-between-your-app-traces-and-database-queries/",
+      "title": "Trace linkage: connect the dots between your app traces and database queries",
+      "link": "https://grafana.com/blog/trace-linkage-connect-the-dots-between-your-app-traces-and-database-queries/",
+      "summary": "When an application request slows down, a trace can show a database call. Finding the database query behind it can be tedious, requiring you to switch between traces and database telemetry, as well as match timestamps or query text by hand. \nIn Grafana Cloud, the Database Observability app already…",
+      "author": "Shirley",
+      "publishedAt": "2026-11-03T15:05:03.000Z"
     }
   ],
-  "totalIndexed": 21935
+  "totalIndexed": 21936
 }

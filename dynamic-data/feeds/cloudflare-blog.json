@@ -9,7 +9,7 @@
     "performance",
     "edge-computing"
   ],
-  "updatedAt": "2026-11-02T15:18:10.514Z",
+  "updatedAt": "2026-11-03T19:06:50.325Z",
   "items": [
     {
       "guid": "01KY2432VQPD5FTF2RARXXYQGH",
@@ -62402,7 +62402,15 @@
       "summary": "Zone setting changes used to rebuild entire DNS zones, even ones with tens of millions of records. Here is how we built a planner that picks the smallest safe build, cutting full builds by 40%, peak memory by 85%, and halving build delay.",
       "author": "Alex Fattouche",
       "publishedAt": "2026-11-02T14:00:00.000Z"
+    },
+    {
+      "guid": "01M6GJ3RNQ17SDPWXJVW49JAFW",
+      "title": "Introducing Zero Wire, a hub for investigating critical Internet vulnerabilities",
+      "link": "https://blog.cloudflare.com/zero-wire/",
+      "summary": "Zero Wire on Cloudflare Radar pairs plain-language briefings with global attack telemetry and remediation steps. Triage critical CVEs faster and decide how to protect your infrastructure.",
+      "author": "Daniele Molteni",
+      "publishedAt": "2026-11-03T14:00:00.000Z"
     }
   ],
-  "totalIndexed": 7799
+  "totalIndexed": 7800
 }

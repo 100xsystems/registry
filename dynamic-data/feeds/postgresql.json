@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-11-03T13:54:57.142Z",
+  "updatedAt": "2026-11-03T19:06:50.846Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -3177,7 +3177,31 @@
       "summary": "PostgreSQL Conference Europe 2026\nThis years conference took place in Valencia, Spain, from Tuesday October 20 until Friday, October 23. We had a whole conference center for the conference, the Palacio de Congresos Valencia.\n\nIn previous years the first day was training, later community stuff. Now…",
       "author": null,
       "publishedAt": "2026-11-02T23:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9AY",
+      "title": "Jimmy Angelakos: Postgres Edinburgh October 2026 Meetup Recap",
+      "link": "https://postgr.es/p/9AY",
+      "summary": "Right after the Apache Software Foundation's Community Over Code in Glasgow, we found ourselves the following day in Edinburgh for our October meetup, where Elizabeth Christensen (Snowflake) went over what's new in Postgres 18 and 19.\n\nElizabeth Christensen walking us through the Postgres versions…",
+      "author": null,
+      "publishedAt": "2026-11-03T18:16:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9AX",
+      "title": "Dave Stokes: Is PostgreSQL Really Winning?",
+      "link": "https://postgr.es/p/9AX",
+      "summary": "The November 2026 DB-Engines rankings are out. PostgreSQL is the only database in the top four whose line is going up and to the right.\nOracle, MySQL and Microsoft SQL Server all lost points this month, and all three are down from a year ago. PostgreSQL gained points on both counts. It now sits…",
+      "author": null,
+      "publishedAt": "2026-11-03T15:18:18.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9AU",
+      "title": "Dimitri Fontaine: Postgres logical replication beyond one writer",
+      "link": "https://postgr.es/p/9AU",
+      "summary": "In 2014, if you wanted Postgres servers on several continents, each of them\naccepting writes and all of them sharing their rows, there was one serious\nopen source answer: BDR, from 2ndQuadrant. It needed a patched PostgreSQL 9.4\nand a plugin, which means it needed a server that was not Postgres.…",
+      "author": null,
+      "publishedAt": "2026-11-03T13:50:00.000Z"
     }
   ],
-  "totalIndexed": 396
+  "totalIndexed": 399
 }

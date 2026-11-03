@@ -8,7 +8,7 @@
     "debugging",
     "performance"
   ],
-  "updatedAt": "2026-11-02T21:25:55.802Z",
+  "updatedAt": "2026-11-03T19:06:50.783Z",
   "items": [
     {
       "guid": "https://blog.sentry.io/godot-dotnet-ga/",
@@ -449,7 +449,15 @@
       "summary": "Sentry Android SDK 8.51.0 profiles Android 15+ devices with Perfetto via ProfilingManager: fewer tracer crashes, lower overhead, better profiles",
       "author": null,
       "publishedAt": "2026-11-02T09:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.sentry.io/performance-wins-traces-coding-agent/",
+      "title": "Finding performance wins in our own traces with a coding agent",
+      "link": "https://blog.sentry.io/performance-wins-traces-coding-agent/",
+      "summary": "How we used a coding agent and the Sentry MCP to find backend performance wins in Sentry's own traces and remove hundreds of millions of queries a week.",
+      "author": null,
+      "publishedAt": "2026-11-03T09:00:00.000Z"
     }
   ],
-  "totalIndexed": 55
+  "totalIndexed": 56
 }

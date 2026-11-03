@@ -4,52 +4,51 @@
 - Current total: 6362
 - Added: 0
 - Removed: 0
-- Updated: 11
+- Updated: 9
 
 
 ## Updated Companies
 
-### [CoVerified](https://www.ycombinator.com/companies/coverified)
+### [Unthread](https://www.ycombinator.com/companies/unthread)
 
-- `stage`: Early → Growth
+- `one_liner`: Automate support ops natively in Slack → AI helpdesk built for Slack & Teams
+- `status`: Active → Acquired
 
-### [Unravel Carbon](https://www.ycombinator.com/companies/unravel-carbon)
-
-- `isHiring`: false → true
-
-### [Chariot](https://www.ycombinator.com/companies/chariot-2)
-
-- `stage`: Early → Growth
-
-### [erad](https://www.ycombinator.com/companies/erad)
+### [ShortLoop](https://www.ycombinator.com/companies/shortloop)
 
 - `isHiring`: false → true
 
-### [Vera Health](https://www.ycombinator.com/companies/vera-health)
+### [Feldy](https://www.ycombinator.com/companies/feldy)
 
-- `one_liner`: AI-powered clinical decision support for healthcare providers → Medical search engine built to reason like a clinician.
-- `team_size`: 6 → 12
+- `team_size`: 4 → 10
 
-### [Wafer](https://www.ycombinator.com/companies/wafer)
+### [Nucleo](https://www.ycombinator.com/companies/nucleo)
 
-- `stage`: Early → Growth
+- `isHiring`: false → true
 
-### [tday.com](https://www.ycombinator.com/companies/tdaycom)
+### [Andco](https://www.ycombinator.com/companies/andco)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/1123d387e4b516167a9cfd6ca07f65801c739a56.png → https://bookface-images.s3.amazonaws.com/small_logos/0bf4800e0ecc3bb9489a098b655e95d398a9ad10.png
+- `tags`:  → Consumer,B2B,LegalTech,AI
+- `isHiring`: true → false
 
-### [OpenScaffold](https://www.ycombinator.com/companies/openscaffold)
+### [Dreach](https://www.ycombinator.com/companies/dreach)
 
-- `website`:  → https://openscaffold.ai
+- `team_size`: 2 → 5
 
-### [Graphide](https://www.ycombinator.com/companies/graphide)
+### [e2e](https://www.ycombinator.com/companies/e2e)
 
-- `website`: https://Graphide.com → https://graphide.com
+- `name`: TesterArmy → e2e
+- `slug`: testerarmy → e2e
+- `former_names`: Tester Army → Tester Army,TesterArmy
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/c2383517bbad408b44b80d2d5f5912ef81073ff0.png → https://bookface-images.s3.amazonaws.com/small_logos/67b593bc15edf4c74365d55d734a00481f57bcfd.png
+- `website`: https://tester.army → https://e2e.com
+- `one_liner`: Test your app with AI, catch bugs before users do → the software verification layer for the agentic coding era
+- `team_size`: 6 → 8
 
-### [Verdun](https://www.ycombinator.com/companies/verdun)
+### [Edgerun](https://www.ycombinator.com/companies/edgerun)
 
-- `all_locations`: Los Angeles, CA, USA → San Francisco, CA, USA
+- `team_size`: 5 → 12
 
-### [Godpack](https://www.ycombinator.com/companies/godpack)
+### [Neuromorphic](https://www.ycombinator.com/companies/neuromorphic)
 
-- `all_locations`: San Francisco, CA, USA → New York City, NY, USA
+- `isHiring`: true → false
