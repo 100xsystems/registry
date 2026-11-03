@@ -9,7 +9,7 @@
     "edge-computing",
     "nextjs"
   ],
-  "updatedAt": "2026-11-02T15:18:20.190Z",
+  "updatedAt": "2026-11-03T05:33:15.151Z",
   "items": [
     {
       "guid": "vercel-blog::https://vercel.com/changelog/ai-gateway-now-supports-streaming-transcription",
@@ -5178,7 +5178,47 @@
       "summary": "let applications evaluate flags defined in another Vercel project within the same team, without managing SDK keys.Project Connections\nPreviously, sharing flags between projects required copying a server SDK key into an environment variable and managing it manually. Connected projects authenticate…",
       "author": "Vincent Derks",
       "publishedAt": "2026-11-02T16:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/projects-can-now-be-configured-with-vercel-toml",
+      "title": "Projects can now be configured with vercel.toml",
+      "link": "https://vercel.com/changelog/projects-can-now-be-configured-with-vercel-toml",
+      "summary": "Vercel now supports , which allows you to to configure your project using the . All of the same configuration properties are supported as in , but it supports comments and has a flatter structure. vercel.tomlvercel.jsonTOML configuration format\nAll projects can now use . Use only one project…",
+      "author": "Michael J. Sullivan",
+      "publishedAt": "2026-11-02T21:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/vercel-mcp-now-supports-client-id-metadata-documents",
+      "title": "Vercel MCP now supports Client ID Metadata Documents",
+      "link": "https://vercel.com/changelog/vercel-mcp-now-supports-client-id-metadata-documents",
+      "summary": "Any MCP client can now ask to connect to . You still log in and approve each connection, but the client no longer has to be reviewed by Vercel first. Previously, Vercel reviewed and allowlisted each client and its redirect URIs by hand, and anything not on the list was rejected.Vercel MCP\nTo…",
+      "author": "Josh Souphanthong",
+      "publishedAt": "2026-11-02T20:09:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/monitor-vercel-deployments-in-chatgpt",
+      "title": "Vercel MCP now renders deployments as an interactive card",
+      "link": "https://vercel.com/changelog/monitor-vercel-deployments-in-chatgpt",
+      "summary": "can now show your deployments as an interactive card inside ChatGPT and other chat clients that support .Vercel MCPMCP Apps\nThe card shows live deployment status, build logs, and source and commit details, with a Visit button once the deployment URL is ready. You can send logs into the chat to…",
+      "author": "Josh Souphanthong",
+      "publishedAt": "2026-11-02T17:05:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/flags-explorer-redesigned-for-easier-override-sharing",
+      "title": "Flags Explorer redesigned for easier override sharing",
+      "link": "https://vercel.com/changelog/flags-explorer-redesigned-for-easier-override-sharing",
+      "summary": "is a tool in the Vercel Toolbar where you can see which feature flags are active on your end, and share them with your team, either by setting them for the branch or through a URL.Flags Explorer\nThe Explorer surface has been redesigned to co-locate overrides, branch recommendations, and any related…",
+      "author": "Rauno Freiberg",
+      "publishedAt": "2026-11-02T16:58:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/vercel-sandbox-with-drives-now-starts-up-to-2-4x-faster",
+      "title": "Vercel Sandbox with Drives now starts up to 2.4x faster",
+      "link": "https://vercel.com/changelog/vercel-sandbox-with-drives-now-starts-up-to-2-4x-faster",
+      "summary": "Vercel Sandboxes that mount  now start faster. Median creation time dropped from 1.7s to 0.7s, and p95 dropped from 2.2s to 1.6s.Drives\nThe speedup applies automatically to every sandbox that uses Drives, with no SDK upgrade or configuration changes needed. Pricing stays the same.\nLearn more in the…",
+      "author": "Joe Haddad",
+      "publishedAt": "2026-11-02T16:39:00.000Z"
     }
   ],
-  "totalIndexed": 646
+  "totalIndexed": 651
 }

@@ -4,69 +4,44 @@
 - Current total: 6362
 - Added: 0
 - Removed: 0
-- Updated: 11
+- Updated: 8
 
 
 ## Updated Companies
 
-### [Trexo Robotics](https://www.ycombinator.com/companies/trexo-robotics)
+### [InferEdge](https://www.ycombinator.com/companies/inferedge)
 
 - `isHiring`: false → true
 
-### [Alrighty](https://www.ycombinator.com/companies/alrighty)
+### [Fours](https://www.ycombinator.com/companies/fours)
 
-- `name`: Miniloop → Alrighty
-- `slug`: miniloop → alrighty
-- `former_names`: Goodseed,Invezo,Multibase,Update,Pod,Pod AI,Paperbook → Goodseed,Invezo,Multibase,Update,Pod,Pod AI,Paperbook,Miniloop
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/aeed5cd44236d1a01c6e9a140c5fea1bd7489cac.png → https://bookface-images.s3.amazonaws.com/small_logos/b4dd92fd129337a5cc1b3409b9d8bd4faa271160.png
-- `website`: https://miniloop.ai → https://alrighty.me
-- `one_liner`: AI workflow engine for reliable systems → Email that only shows you what matters.
-- `industry`: B2B → Consumer
-- `subindustry`: B2B → Consumer
-- `industries`: B2B → Consumer
+- `name`: Suger → Fours
+- `slug`: suger → fours
+- `former_names`: Suger Inc → Suger Inc,Suger
+- `website`: https://www.suger.io/ → https://fours.com
+- `one_liner`: Salesforce for Cloud marketplaces on AWS, Azure, GCP → Infrastructure for indirect revenue channels
+- `team_size`: 50 → 76
 
-### [Syncly](https://www.ycombinator.com/companies/syncly)
+### [VibeFlow](https://www.ycombinator.com/companies/vibeflow)
 
-- `isHiring`: false → true
+- `tags`: Developer Tools,Consumer,B2B,AI → B2B,Social Media,Marketing,AI
 
-### [Gleam](https://www.ycombinator.com/companies/gleam)
+### [OneTriangle](https://www.ycombinator.com/companies/onetriangle)
 
-- `one_liner`: Automating Data Entry for Clinical Trials → Running clinical trials with AI
-- `industry`: B2B → Healthcare
-- `subindustry`: B2B → Healthcare
-- `industries`: B2B → Healthcare
+- `one_liner`: The cheapest, fastest inference cloud → Prefill optimizations for the fastest inference
 
-### [Poka Labs](https://www.ycombinator.com/companies/poka-labs)
+### [Discovered Materials](https://www.ycombinator.com/companies/discovered-materials)
 
-- `one_liner`: Helping industrial manufacturers win deals fast, at the right price. → Helping industrial manufacturers win more business at the best price.
-- `team_size`: 5 → 6
+- `team_size`: 2 → 4
 
-### [Blue](https://www.ycombinator.com/companies/blue)
+### [Prized](https://www.ycombinator.com/companies/prized)
 
-- `isHiring`: false → true
+- `team_size`: 2 → 3
 
-### [Memoir](https://www.ycombinator.com/companies/memoir)
+### [Lumeria](https://www.ycombinator.com/companies/lumeria)
 
-- `one_liner`: The AI note-taker that talks back and builds what you discuss → An AI teammate that answers and builds live on your calls
+- `website`: https://lumeria.skin → https://lumeria.com
 
-### [Torus](https://www.ycombinator.com/companies/torus)
+### [Saccade](https://www.ycombinator.com/companies/saccade)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/79a2f7b5a083998db3fcc9309c0435a2ccb05016.png → https://bookface-images.s3.amazonaws.com/small_logos/ffc220a3adf43fb693f44c6ce6b833979f79939a.png
-- `one_liner`: Legora for physical engineering firms → Superintelligence for Infrastructure
-- `team_size`: 6 → 8
-
-### [Runtime.si](https://www.ycombinator.com/companies/runtimesi)
-
-- `one_liner`: Real-time simulation infrastructure for robots → Eval infrastructure for robots
-
-### [Vorelios](https://www.ycombinator.com/companies/vorelios)
-
-- `one_liner`: Solving engineering, then using it to solve everything else → AI that can engineer anything
-- `industry`: B2B → Industrials
-- `subindustry`: B2B -> Engineering, Product and Design → Industrials
-- `tags`: Hard Tech,B2B,AI → Hard Tech,AI
-- `industries`: B2B,Engineering, Product and Design → Industrials
-
-### [Lux Foods](https://www.ycombinator.com/companies/lux-foods)
-
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/2472fad71829e7d871161e07c00b9d90d3b65af1.png → https://bookface-images.s3.amazonaws.com/small_logos/70e9b745ac33a56539f3038ba0c3e2c84a81500d.png
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/751432518cccc3177c9fa321a442fcfaf7e00fdd.png → https://bookface-images.s3.amazonaws.com/small_logos/e30db37d0cbb762632d614afb3918a8e0b4131cb.png

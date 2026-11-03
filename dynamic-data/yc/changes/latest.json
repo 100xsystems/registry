@@ -1,17 +1,17 @@
 {
   "date": "2026-11-03",
-  "fetchedAt": "2026-11-03T00:14:59.462Z",
+  "fetchedAt": "2026-11-03T05:33:22.289Z",
   "previousCount": 6362,
   "currentCount": 6362,
   "added": [],
   "removed": [],
   "updated": [
     {
-      "id": 11922,
-      "name": "Trexo Robotics",
-      "slug": "trexo-robotics",
-      "batch": "Winter 2019",
-      "url": "https://www.ycombinator.com/companies/trexo-robotics",
+      "id": 25394,
+      "name": "InferEdge",
+      "slug": "inferedge",
+      "batch": "Winter 2022",
+      "url": "https://www.ycombinator.com/companies/inferedge",
       "changes": [
         {
           "field": "isHiring",
@@ -21,269 +21,140 @@
       ]
     },
     {
-      "id": 24395,
-      "name": "Alrighty",
-      "slug": "alrighty",
-      "batch": "Summer 2021",
-      "url": "https://www.ycombinator.com/companies/alrighty",
+      "id": 27854,
+      "name": "Fours",
+      "slug": "fours",
+      "batch": "Winter 2023",
+      "url": "https://www.ycombinator.com/companies/fours",
       "changes": [
         {
           "field": "name",
-          "before": "Miniloop",
-          "after": "Alrighty"
+          "before": "Suger",
+          "after": "Fours"
         },
         {
           "field": "slug",
-          "before": "miniloop",
-          "after": "alrighty"
+          "before": "suger",
+          "after": "fours"
         },
         {
           "field": "former_names",
           "before": [
-            "Goodseed",
-            "Invezo",
-            "Multibase",
-            "Update",
-            "Pod",
-            "Pod AI",
-            "Paperbook"
+            "Suger Inc"
           ],
           "after": [
-            "Goodseed",
-            "Invezo",
-            "Multibase",
-            "Update",
-            "Pod",
-            "Pod AI",
-            "Paperbook",
-            "Miniloop"
+            "Suger Inc",
+            "Suger"
           ]
-        },
-        {
-          "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/aeed5cd44236d1a01c6e9a140c5fea1bd7489cac.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/b4dd92fd129337a5cc1b3409b9d8bd4faa271160.png"
         },
         {
           "field": "website",
-          "before": "https://miniloop.ai",
-          "after": "https://alrighty.me"
+          "before": "https://www.suger.io/",
+          "after": "https://fours.com"
         },
         {
           "field": "one_liner",
-          "before": "AI workflow engine for reliable systems",
-          "after": "Email that only shows you what matters."
-        },
-        {
-          "field": "industry",
-          "before": "B2B",
-          "after": "Consumer"
-        },
-        {
-          "field": "subindustry",
-          "before": "B2B",
-          "after": "Consumer"
-        },
-        {
-          "field": "industries",
-          "before": [
-            "B2B"
-          ],
-          "after": [
-            "Consumer"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 27685,
-      "name": "Syncly",
-      "slug": "syncly",
-      "batch": "Winter 2023",
-      "url": "https://www.ycombinator.com/companies/syncly",
-      "changes": [
-        {
-          "field": "isHiring",
-          "before": false,
-          "after": true
-        }
-      ]
-    },
-    {
-      "id": 28974,
-      "name": "Gleam",
-      "slug": "gleam",
-      "batch": "Summer 2023",
-      "url": "https://www.ycombinator.com/companies/gleam",
-      "changes": [
-        {
-          "field": "one_liner",
-          "before": "Automating Data Entry for Clinical Trials",
-          "after": "Running clinical trials with AI"
-        },
-        {
-          "field": "industry",
-          "before": "B2B",
-          "after": "Healthcare"
-        },
-        {
-          "field": "subindustry",
-          "before": "B2B",
-          "after": "Healthcare"
-        },
-        {
-          "field": "industries",
-          "before": [
-            "B2B"
-          ],
-          "after": [
-            "Healthcare"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 29251,
-      "name": "Poka Labs",
-      "slug": "poka-labs",
-      "batch": "Summer 2024",
-      "url": "https://www.ycombinator.com/companies/poka-labs",
-      "changes": [
-        {
-          "field": "one_liner",
-          "before": "Helping industrial manufacturers win deals fast, at the right price.",
-          "after": "Helping industrial manufacturers win more business at the best price."
+          "before": "Salesforce for Cloud marketplaces on AWS, Azure, GCP",
+          "after": "Infrastructure for indirect revenue channels"
         },
         {
           "field": "team_size",
-          "before": 5,
-          "after": 6
+          "before": 50,
+          "after": 76
         }
       ]
     },
     {
-      "id": 30813,
-      "name": "Blue",
-      "slug": "blue",
+      "id": 30699,
+      "name": "VibeFlow",
+      "slug": "vibeflow",
       "batch": "Summer 2025",
-      "url": "https://www.ycombinator.com/companies/blue",
+      "url": "https://www.ycombinator.com/companies/vibeflow",
       "changes": [
-        {
-          "field": "isHiring",
-          "before": false,
-          "after": true
-        }
-      ]
-    },
-    {
-      "id": 31335,
-      "name": "Memoir",
-      "slug": "memoir",
-      "batch": "Spring 2026",
-      "url": "https://www.ycombinator.com/companies/memoir",
-      "changes": [
-        {
-          "field": "one_liner",
-          "before": "The AI note-taker that talks back and builds what you discuss",
-          "after": "An AI teammate that answers and builds live on your calls"
-        }
-      ]
-    },
-    {
-      "id": 31858,
-      "name": "Torus",
-      "slug": "torus",
-      "batch": "Summer 2026",
-      "url": "https://www.ycombinator.com/companies/torus",
-      "changes": [
-        {
-          "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/79a2f7b5a083998db3fcc9309c0435a2ccb05016.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/ffc220a3adf43fb693f44c6ce6b833979f79939a.png"
-        },
-        {
-          "field": "one_liner",
-          "before": "Legora for physical engineering firms",
-          "after": "Superintelligence for Infrastructure"
-        },
-        {
-          "field": "team_size",
-          "before": 6,
-          "after": 8
-        }
-      ]
-    },
-    {
-      "id": 34365,
-      "name": "Runtime.si",
-      "slug": "runtimesi",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/runtimesi",
-      "changes": [
-        {
-          "field": "one_liner",
-          "before": "Real-time simulation infrastructure for robots",
-          "after": "Eval infrastructure for robots"
-        }
-      ]
-    },
-    {
-      "id": 35784,
-      "name": "Vorelios",
-      "slug": "vorelios",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/vorelios",
-      "changes": [
-        {
-          "field": "one_liner",
-          "before": "Solving engineering, then using it to solve everything else",
-          "after": "AI that can engineer anything"
-        },
-        {
-          "field": "industry",
-          "before": "B2B",
-          "after": "Industrials"
-        },
-        {
-          "field": "subindustry",
-          "before": "B2B -> Engineering, Product and Design",
-          "after": "Industrials"
-        },
         {
           "field": "tags",
           "before": [
-            "Hard Tech",
+            "Developer Tools",
+            "Consumer",
             "B2B",
             "AI"
           ],
           "after": [
-            "Hard Tech",
-            "AI"
-          ]
-        },
-        {
-          "field": "industries",
-          "before": [
             "B2B",
-            "Engineering, Product and Design"
-          ],
-          "after": [
-            "Industrials"
+            "Social Media",
+            "Marketing",
+            "AI"
           ]
         }
       ]
     },
     {
-      "id": 36512,
-      "name": "Lux Foods",
-      "slug": "lux-foods",
+      "id": 31074,
+      "name": "OneTriangle",
+      "slug": "onetriangle",
+      "batch": "Summer 2026",
+      "url": "https://www.ycombinator.com/companies/onetriangle",
+      "changes": [
+        {
+          "field": "one_liner",
+          "before": "The cheapest, fastest inference cloud",
+          "after": "Prefill optimizations for the fastest inference"
+        }
+      ]
+    },
+    {
+      "id": 31362,
+      "name": "Discovered Materials",
+      "slug": "discovered-materials",
+      "batch": "Spring 2026",
+      "url": "https://www.ycombinator.com/companies/discovered-materials",
+      "changes": [
+        {
+          "field": "team_size",
+          "before": 2,
+          "after": 4
+        }
+      ]
+    },
+    {
+      "id": 32164,
+      "name": "Prized",
+      "slug": "prized",
+      "batch": "Summer 2026",
+      "url": "https://www.ycombinator.com/companies/prized",
+      "changes": [
+        {
+          "field": "team_size",
+          "before": 2,
+          "after": 3
+        }
+      ]
+    },
+    {
+      "id": 32985,
+      "name": "Lumeria",
+      "slug": "lumeria",
+      "batch": "Summer 2026",
+      "url": "https://www.ycombinator.com/companies/lumeria",
+      "changes": [
+        {
+          "field": "website",
+          "before": "https://lumeria.skin",
+          "after": "https://lumeria.com"
+        }
+      ]
+    },
+    {
+      "id": 34862,
+      "name": "Saccade",
+      "slug": "saccade",
       "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/lux-foods",
+      "url": "https://www.ycombinator.com/companies/saccade",
       "changes": [
         {
           "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/2472fad71829e7d871161e07c00b9d90d3b65af1.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/70e9b745ac33a56539f3038ba0c3e2c84a81500d.png"
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/751432518cccc3177c9fa321a442fcfaf7e00fdd.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/e30db37d0cbb762632d614afb3918a8e0b4131cb.png"
         }
       ]
     }
