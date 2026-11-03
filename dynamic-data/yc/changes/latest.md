@@ -1,125 +1,72 @@
-# YC Company Changes for 2026-11-02
+# YC Company Changes for 2026-11-03
 
 - Previous total: 6362
 - Current total: 6362
 - Added: 0
 - Removed: 0
-- Updated: 27
+- Updated: 11
 
 
 ## Updated Companies
 
-### [Mino Games](https://www.ycombinator.com/companies/mino-games)
-
-- `regions`: United States of America,Canada,America / Canada → United States of America,Canada,America / Canada,America / Canada
-
-### [CodeNow](https://www.ycombinator.com/companies/codenow)
-
-- `website`:  → http://codenow.org
-
-### [Fondo](https://www.ycombinator.com/companies/fondo)
+### [Trexo Robotics](https://www.ycombinator.com/companies/trexo-robotics)
 
 - `isHiring`: false → true
 
-### [Postscript](https://www.ycombinator.com/companies/postscript)
+### [Alrighty](https://www.ycombinator.com/companies/alrighty)
 
-- `one_liner`: The SMS revenue platform for e-commerce merchants → The AI Retention Platform for Brands & Retailers
+- `name`: Miniloop → Alrighty
+- `slug`: miniloop → alrighty
+- `former_names`: Goodseed,Invezo,Multibase,Update,Pod,Pod AI,Paperbook → Goodseed,Invezo,Multibase,Update,Pod,Pod AI,Paperbook,Miniloop
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/aeed5cd44236d1a01c6e9a140c5fea1bd7489cac.png → https://bookface-images.s3.amazonaws.com/small_logos/b4dd92fd129337a5cc1b3409b9d8bd4faa271160.png
+- `website`: https://miniloop.ai → https://alrighty.me
+- `one_liner`: AI workflow engine for reliable systems → Email that only shows you what matters.
+- `industry`: B2B → Consumer
+- `subindustry`: B2B → Consumer
+- `industries`: B2B → Consumer
 
-### [Ravn](https://www.ycombinator.com/companies/ravn)
+### [Syncly](https://www.ycombinator.com/companies/syncly)
 
-- `website`:  → https://ravn.com/
+- `isHiring`: false → true
 
-### [Zealth](https://www.ycombinator.com/companies/zealth)
+### [Gleam](https://www.ycombinator.com/companies/gleam)
 
-- `website`:  → https://zealth-ai.com/
+- `one_liner`: Automating Data Entry for Clinical Trials → Running clinical trials with AI
+- `industry`: B2B → Healthcare
+- `subindustry`: B2B → Healthcare
+- `industries`: B2B → Healthcare
 
-### [Meru.com](https://www.ycombinator.com/companies/meru-com)
+### [Poka Labs](https://www.ycombinator.com/companies/poka-labs)
 
-- `website`:  → https://meru.com
+- `one_liner`: Helping industrial manufacturers win deals fast, at the right price. → Helping industrial manufacturers win more business at the best price.
+- `team_size`: 5 → 6
 
-### [Lumina](https://www.ycombinator.com/companies/lumina)
+### [Blue](https://www.ycombinator.com/companies/blue)
 
-- `website`:  → https://www.lumibot.com
-
-### [Embedded Labs](https://www.ycombinator.com/companies/embedded-labs)
-
-- `website`:  → https://getironleap.io/
-
-### [Chariot](https://www.ycombinator.com/companies/chariot-2)
-
-- `stage`: Growth → Early
-
-### [Pair AI](https://www.ycombinator.com/companies/pair-ai)
-
-- `all_locations`: New York City, NY, USA → 
-- `regions`: United States of America,America / Canada → Unspecified
-
-### [Plutis](https://www.ycombinator.com/companies/plutis)
-
-- `website`:  → https://plutis.io
-
-### [Kino AI](https://www.ycombinator.com/companies/kino-ai)
-
-- `one_liner`: Kino is an AI media manager and video editor for humans and agents. → A video editor your team and coding agents work in together
-
-### [Centralize](https://www.ycombinator.com/companies/centralize)
-
-- `isHiring`: true → false
-
-### [Solari AI](https://www.ycombinator.com/companies/solari-ai)
-
-- `all_locations`: New York City, NY, USA → Mumbai, MH, India
-- `regions`: United States of America,America / Canada → India,South Asia
-
-### [Diana](https://www.ycombinator.com/companies/diana)
-
-- `website`:  → https://getdiana.com/
-
-### [Substrate](https://www.ycombinator.com/companies/substrate)
-
-- `isHiring`: true → false
-
-### [Galini](https://www.ycombinator.com/companies/galini)
-
-- `website`:  → https://www.galini.ai/
-
-### [MindFort](https://www.ycombinator.com/companies/mindfort)
-
-- `one_liner`: Autonomous Security Agents → Autonomous Security Swarms
-
-### [Wafer](https://www.ycombinator.com/companies/wafer)
-
-- `stage`: Growth → Early
-
-### [Magnitude](https://www.ycombinator.com/companies/magnitude)
-
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/9292b62c58dc81055b437ce647dc7c3ea10ffc5c.png → https://bookface-images.s3.amazonaws.com/small_logos/d75c6fc87f7aedd2c005292797d52930e29e7759.png
-
-### [Semiotic](https://www.ycombinator.com/companies/semiotic)
-
-- `website`:  → http://semiotic.com
-
-### [Scott AI](https://www.ycombinator.com/companies/scott-ai)
-
-- `website`:  → https://tryscott.ai
-
-### [Efficient Computation Inc.](https://www.ycombinator.com/companies/efficient-computation-inc)
-
-- `name`: Perseus → Efficient Computation Inc.
-- `slug`: perseus → efficient-computation-inc
-- `former_names`: Starling,Mantle → Starling,Mantle,Perseus
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/9765cfac6d122dea71443fd13f227ed6e9c5257b.png → https://bookface-images.s3.amazonaws.com/small_logos/678706eb08ce2f058506e0505078e08ff0be69a0.png
-- `website`: https://perseus.computer → https://ecomp.so/
-- `one_liner`: Applied Lab focused on Search in Latent Spaces. → building principled reinforcement learning environments
+- `isHiring`: false → true
 
 ### [Memoir](https://www.ycombinator.com/companies/memoir)
 
-- `one_liner`: The Zoom alternative where agents build what you discuss in real time → The AI note-taker that talks back and builds what you discuss
+- `one_liner`: The AI note-taker that talks back and builds what you discuss → An AI teammate that answers and builds live on your calls
 
-### [OpenCrawl](https://www.ycombinator.com/companies/opencrawl)
+### [Torus](https://www.ycombinator.com/companies/torus)
 
-- `one_liner`: High-performant hyper-personalized search indexes. → High-performance hyper-personalized search indexes.
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/79a2f7b5a083998db3fcc9309c0435a2ccb05016.png → https://bookface-images.s3.amazonaws.com/small_logos/ffc220a3adf43fb693f44c6ce6b833979f79939a.png
+- `one_liner`: Legora for physical engineering firms → Superintelligence for Infrastructure
+- `team_size`: 6 → 8
 
-### [Ascenix](https://www.ycombinator.com/companies/ascenix)
+### [Runtime.si](https://www.ycombinator.com/companies/runtimesi)
 
-- `one_liner`: Clinical intelligence layer for skilled nursing facilities. → One interface for senior care facilities.
+- `one_liner`: Real-time simulation infrastructure for robots → Eval infrastructure for robots
+
+### [Vorelios](https://www.ycombinator.com/companies/vorelios)
+
+- `one_liner`: Solving engineering, then using it to solve everything else → AI that can engineer anything
+- `industry`: B2B → Industrials
+- `subindustry`: B2B -> Engineering, Product and Design → Industrials
+- `tags`: Hard Tech,B2B,AI → Hard Tech,AI
+- `industries`: B2B,Engineering, Product and Design → Industrials
+
+### [Lux Foods](https://www.ycombinator.com/companies/lux-foods)
+
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/2472fad71829e7d871161e07c00b9d90d3b65af1.png → https://bookface-images.s3.amazonaws.com/small_logos/70e9b745ac33a56539f3038ba0c3e2c84a81500d.png
