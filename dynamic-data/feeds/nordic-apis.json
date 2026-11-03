@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-10-29T22:14:55.059Z",
+  "updatedAt": "2026-11-03T13:55:03.979Z",
   "items": [
     {
       "guid": "https://nordicapis.com/?p=23772",
@@ -287,7 +287,15 @@
       "summary": "Prompt injection is currently the top risk when it comes to building applications driven by large language models (LLMs), like AI agents. That’s because prompts are the main control interface for these models, and they can follow text instructions embedded in user input or any external content the…",
       "author": "Janet Wagner",
       "publishedAt": "2026-10-29T18:00:00.000Z"
+    },
+    {
+      "guid": "https://nordicapis.com/?p=24400",
+      "title": "The Three Silent Failure States Every Streaming API Should Document",
+      "link": "https://nordicapis.com/the-three-silent-failure-states-every-streaming-api-should-document/",
+      "summary": "Streaming data has a big upside over a normal request-response API. Instead of asking for the latest state over and over, you keep a connection open and receive changes as they happen. The problem is that streams can give you a false sense of security when something goes wrong. A normal request…",
+      "author": "Rhyan Morice",
+      "publishedAt": "2026-11-03T08:00:00.000Z"
     }
   ],
-  "totalIndexed": 35
+  "totalIndexed": 36
 }

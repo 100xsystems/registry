@@ -1,17 +1,31 @@
 {
   "date": "2026-11-03",
-  "fetchedAt": "2026-11-03T05:33:22.289Z",
+  "fetchedAt": "2026-11-03T13:55:20.845Z",
   "previousCount": 6362,
   "currentCount": 6362,
   "added": [],
   "removed": [],
   "updated": [
     {
-      "id": 25394,
-      "name": "InferEdge",
-      "slug": "inferedge",
+      "id": 22710,
+      "name": "CoVerified",
+      "slug": "coverified",
+      "batch": "Winter 2021",
+      "url": "https://www.ycombinator.com/companies/coverified",
+      "changes": [
+        {
+          "field": "stage",
+          "before": "Early",
+          "after": "Growth"
+        }
+      ]
+    },
+    {
+      "id": 25986,
+      "name": "Unravel Carbon",
+      "slug": "unravel-carbon",
       "batch": "Winter 2022",
-      "url": "https://www.ycombinator.com/companies/inferedge",
+      "url": "https://www.ycombinator.com/companies/unravel-carbon",
       "changes": [
         {
           "field": "isHiring",
@@ -21,140 +35,133 @@
       ]
     },
     {
-      "id": 27854,
-      "name": "Fours",
-      "slug": "fours",
-      "batch": "Winter 2023",
-      "url": "https://www.ycombinator.com/companies/fours",
+      "id": 26707,
+      "name": "Chariot",
+      "slug": "chariot-2",
+      "batch": "Summer 2022",
+      "url": "https://www.ycombinator.com/companies/chariot-2",
       "changes": [
         {
-          "field": "name",
-          "before": "Suger",
-          "after": "Fours"
-        },
-        {
-          "field": "slug",
-          "before": "suger",
-          "after": "fours"
-        },
-        {
-          "field": "former_names",
-          "before": [
-            "Suger Inc"
-          ],
-          "after": [
-            "Suger Inc",
-            "Suger"
-          ]
-        },
-        {
-          "field": "website",
-          "before": "https://www.suger.io/",
-          "after": "https://fours.com"
-        },
-        {
-          "field": "one_liner",
-          "before": "Salesforce for Cloud marketplaces on AWS, Azure, GCP",
-          "after": "Infrastructure for indirect revenue channels"
-        },
-        {
-          "field": "team_size",
-          "before": 50,
-          "after": 76
+          "field": "stage",
+          "before": "Early",
+          "after": "Growth"
         }
       ]
     },
     {
-      "id": 30699,
-      "name": "VibeFlow",
-      "slug": "vibeflow",
+      "id": 26716,
+      "name": "erad",
+      "slug": "erad",
+      "batch": "Summer 2022",
+      "url": "https://www.ycombinator.com/companies/erad",
+      "changes": [
+        {
+          "field": "isHiring",
+          "before": false,
+          "after": true
+        }
+      ]
+    },
+    {
+      "id": 29858,
+      "name": "Vera Health",
+      "slug": "vera-health",
+      "batch": "Summer 2024",
+      "url": "https://www.ycombinator.com/companies/vera-health",
+      "changes": [
+        {
+          "field": "one_liner",
+          "before": "AI-powered clinical decision support for healthcare providers",
+          "after": "Medical search engine built to reason like a clinician."
+        },
+        {
+          "field": "team_size",
+          "before": 6,
+          "after": 12
+        }
+      ]
+    },
+    {
+      "id": 30644,
+      "name": "Wafer",
+      "slug": "wafer",
       "batch": "Summer 2025",
-      "url": "https://www.ycombinator.com/companies/vibeflow",
+      "url": "https://www.ycombinator.com/companies/wafer",
       "changes": [
         {
-          "field": "tags",
-          "before": [
-            "Developer Tools",
-            "Consumer",
-            "B2B",
-            "AI"
-          ],
-          "after": [
-            "B2B",
-            "Social Media",
-            "Marketing",
-            "AI"
-          ]
+          "field": "stage",
+          "before": "Early",
+          "after": "Growth"
         }
       ]
     },
     {
-      "id": 31074,
-      "name": "OneTriangle",
-      "slug": "onetriangle",
-      "batch": "Summer 2026",
-      "url": "https://www.ycombinator.com/companies/onetriangle",
-      "changes": [
-        {
-          "field": "one_liner",
-          "before": "The cheapest, fastest inference cloud",
-          "after": "Prefill optimizations for the fastest inference"
-        }
-      ]
-    },
-    {
-      "id": 31362,
-      "name": "Discovered Materials",
-      "slug": "discovered-materials",
+      "id": 31455,
+      "name": "tday.com",
+      "slug": "tdaycom",
       "batch": "Spring 2026",
-      "url": "https://www.ycombinator.com/companies/discovered-materials",
-      "changes": [
-        {
-          "field": "team_size",
-          "before": 2,
-          "after": 4
-        }
-      ]
-    },
-    {
-      "id": 32164,
-      "name": "Prized",
-      "slug": "prized",
-      "batch": "Summer 2026",
-      "url": "https://www.ycombinator.com/companies/prized",
-      "changes": [
-        {
-          "field": "team_size",
-          "before": 2,
-          "after": 3
-        }
-      ]
-    },
-    {
-      "id": 32985,
-      "name": "Lumeria",
-      "slug": "lumeria",
-      "batch": "Summer 2026",
-      "url": "https://www.ycombinator.com/companies/lumeria",
-      "changes": [
-        {
-          "field": "website",
-          "before": "https://lumeria.skin",
-          "after": "https://lumeria.com"
-        }
-      ]
-    },
-    {
-      "id": 34862,
-      "name": "Saccade",
-      "slug": "saccade",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/saccade",
+      "url": "https://www.ycombinator.com/companies/tdaycom",
       "changes": [
         {
           "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/751432518cccc3177c9fa321a442fcfaf7e00fdd.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/e30db37d0cbb762632d614afb3918a8e0b4131cb.png"
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/1123d387e4b516167a9cfd6ca07f65801c739a56.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/0bf4800e0ecc3bb9489a098b655e95d398a9ad10.png"
+        }
+      ]
+    },
+    {
+      "id": 34895,
+      "name": "OpenScaffold",
+      "slug": "openscaffold",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/openscaffold",
+      "changes": [
+        {
+          "field": "website",
+          "before": "",
+          "after": "https://openscaffold.ai"
+        }
+      ]
+    },
+    {
+      "id": 36513,
+      "name": "Graphide",
+      "slug": "graphide",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/graphide",
+      "changes": [
+        {
+          "field": "website",
+          "before": "https://Graphide.com",
+          "after": "https://graphide.com"
+        }
+      ]
+    },
+    {
+      "id": 37005,
+      "name": "Verdun",
+      "slug": "verdun",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/verdun",
+      "changes": [
+        {
+          "field": "all_locations",
+          "before": "Los Angeles, CA, USA",
+          "after": "San Francisco, CA, USA"
+        }
+      ]
+    },
+    {
+      "id": 39117,
+      "name": "Godpack",
+      "slug": "godpack",
+      "batch": "Winter 2027",
+      "url": "https://www.ycombinator.com/companies/godpack",
+      "changes": [
+        {
+          "field": "all_locations",
+          "before": "San Francisco, CA, USA",
+          "after": "New York City, NY, USA"
         }
       ]
     }

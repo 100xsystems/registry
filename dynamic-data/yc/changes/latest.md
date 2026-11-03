@@ -4,44 +4,52 @@
 - Current total: 6362
 - Added: 0
 - Removed: 0
-- Updated: 8
+- Updated: 11
 
 
 ## Updated Companies
 
-### [InferEdge](https://www.ycombinator.com/companies/inferedge)
+### [CoVerified](https://www.ycombinator.com/companies/coverified)
+
+- `stage`: Early → Growth
+
+### [Unravel Carbon](https://www.ycombinator.com/companies/unravel-carbon)
 
 - `isHiring`: false → true
 
-### [Fours](https://www.ycombinator.com/companies/fours)
+### [Chariot](https://www.ycombinator.com/companies/chariot-2)
 
-- `name`: Suger → Fours
-- `slug`: suger → fours
-- `former_names`: Suger Inc → Suger Inc,Suger
-- `website`: https://www.suger.io/ → https://fours.com
-- `one_liner`: Salesforce for Cloud marketplaces on AWS, Azure, GCP → Infrastructure for indirect revenue channels
-- `team_size`: 50 → 76
+- `stage`: Early → Growth
 
-### [VibeFlow](https://www.ycombinator.com/companies/vibeflow)
+### [erad](https://www.ycombinator.com/companies/erad)
 
-- `tags`: Developer Tools,Consumer,B2B,AI → B2B,Social Media,Marketing,AI
+- `isHiring`: false → true
 
-### [OneTriangle](https://www.ycombinator.com/companies/onetriangle)
+### [Vera Health](https://www.ycombinator.com/companies/vera-health)
 
-- `one_liner`: The cheapest, fastest inference cloud → Prefill optimizations for the fastest inference
+- `one_liner`: AI-powered clinical decision support for healthcare providers → Medical search engine built to reason like a clinician.
+- `team_size`: 6 → 12
 
-### [Discovered Materials](https://www.ycombinator.com/companies/discovered-materials)
+### [Wafer](https://www.ycombinator.com/companies/wafer)
 
-- `team_size`: 2 → 4
+- `stage`: Early → Growth
 
-### [Prized](https://www.ycombinator.com/companies/prized)
+### [tday.com](https://www.ycombinator.com/companies/tdaycom)
 
-- `team_size`: 2 → 3
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/1123d387e4b516167a9cfd6ca07f65801c739a56.png → https://bookface-images.s3.amazonaws.com/small_logos/0bf4800e0ecc3bb9489a098b655e95d398a9ad10.png
 
-### [Lumeria](https://www.ycombinator.com/companies/lumeria)
+### [OpenScaffold](https://www.ycombinator.com/companies/openscaffold)
 
-- `website`: https://lumeria.skin → https://lumeria.com
+- `website`:  → https://openscaffold.ai
 
-### [Saccade](https://www.ycombinator.com/companies/saccade)
+### [Graphide](https://www.ycombinator.com/companies/graphide)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/751432518cccc3177c9fa321a442fcfaf7e00fdd.png → https://bookface-images.s3.amazonaws.com/small_logos/e30db37d0cbb762632d614afb3918a8e0b4131cb.png
+- `website`: https://Graphide.com → https://graphide.com
+
+### [Verdun](https://www.ycombinator.com/companies/verdun)
+
+- `all_locations`: Los Angeles, CA, USA → San Francisco, CA, USA
+
+### [Godpack](https://www.ycombinator.com/companies/godpack)
+
+- `all_locations`: San Francisco, CA, USA → New York City, NY, USA
