@@ -1,31 +1,76 @@
 {
   "date": "2026-11-04",
-  "fetchedAt": "2026-11-04T19:25:06.272Z",
-  "previousCount": 6365,
-  "currentCount": 6367,
+  "fetchedAt": "2026-11-04T23:02:26.242Z",
+  "previousCount": 6367,
+  "currentCount": 6369,
   "added": [
     {
-      "id": 35223,
-      "name": "OpenLake Technologies",
-      "slug": "openlake-technologies",
-      "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/b1d7d1c63b80a9929499e7b55e2263eaf7cb1a4f.png",
-      "website": "https://openlakehq.com",
+      "id": 33210,
+      "name": "Anywhere",
+      "slug": "anywhere",
+      "former_names": [
+        "Fenn AI"
+      ],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/769d3180f44947b97b5b8bd1565740dfae11fa62.png",
+      "website": "http://anywhere.fenn.chat",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Own your Intelligence. OpenLake is a real time inference platform which improves your model quality in real time. Plug in your datasets, RL environments and conversations. Get the intelligence your company deserves without needing an AI research lab. \r\n\r\nPick an open model like Kimi K3 or GLM 5.3 and deploy it in one click. OpenLake keeps your model upto date with real time data sources, so the model you run tomorrow is more accurate than the last. ",
-      "one_liner": "OpenLake deploys, trains, and serves models that update in real time.",
+      "long_description": "Anywhere is a personal, social map that brings your places, friends, plans, memories, and AI agents together. It gives you one place to discover where to go, organize the places you care about, and remember where you’ve been.",
+      "one_liner": "Your places, plans, friends and memories, all on one living map",
       "team_size": 2,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "Consumer",
+      "subindustry": "Consumer",
+      "launched_at": 1780361675,
+      "tags": [
+        "Social",
+        "Conversational AI"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Fall 2026",
+      "status": "Active",
+      "industries": [
+        "Consumer"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/anywhere"
+    },
+    {
+      "id": 37104,
+      "name": "Axiomat",
+      "slug": "axiomat",
+      "former_names": [
+        "Signiture",
+        "Signiture Inc."
+      ],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/73e5297e01ab55a8cd3d54127a27671c6d5e6934.png",
+      "website": "https://www.axiomat.com",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "Axiomat makes it impossible for AI agents to make mistakes when querying a company’s data. It formally verifies that the agents’ queries are correct before employees or customers rely on the answers. \r\n\r\nIt is becoming increasingly important for companies to rely on AI without the need for humans to manually check the answers. This has created a need for systems which can guarantee correctness without limiting the agent’s capabilities. Axiomat provides the infrastructure to prove that answers are correct, starting with data queries and analysis. It brings mathematical guarantees to the agents working with your data.\r\n\r\nThe team brings direct experience solving AI hallucinations through Ethan’s work as an Applied Scientist at AWS, where he worked on formally verifying AI responses. They also bring research experience in AI, LLMs, and formal methods from EPFL, the University of Toronto, and Georgia Tech. ",
+      "one_liner": "We make AI that never hallucinates.",
+      "team_size": 3,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
       "industry": "B2B",
       "subindustry": "B2B",
-      "launched_at": 1793817363,
+      "launched_at": 1787243323,
       "tags": [
-        "Generative AI",
         "SaaS",
         "Big Data",
-        "Infrastructure"
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -45,183 +90,161 @@
       "demo_day_video_public": false,
       "app_answers": null,
       "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/openlake-technologies"
-    },
-    {
-      "id": 36082,
-      "name": "Organizely",
-      "slug": "organizely",
-      "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/26f181ecd0a89fb752608405bfab226e7b6bf3a0.png",
-      "website": "https://organizely.io/",
-      "all_locations": "San Francisco, CA, USA",
-      "long_description": "Organizely helps American manufacturers use AI to lower production costs. \r\n\r\nFactories depend on three resources: materials, equipment, and labor. Costs rise unexpectedly when components are missing, machines go down, or staffing doesn’t match demand. We experienced this firsthand while owning and operating a factory in the U.S. for six years. As we scaled, it was expensive to resolve factory-wide bottlenecks quickly and it became harder to stay competitive on price. \r\n\r\nOther companies are trying to layer AI agents on top of legacy ERPs to do logistics work, but the underlying data architectures limit how much those agents can understand and do. So we’re building a new ERP from the ground up for the era of AI. \r\n\r\nOrganizely is an AI-native ERP with AI reasoning and machine learning algorithms embedded throughout for a single intelligent platform that can model, predict, and act. We natively automate all core manufacturing workflows including demand planning, raw material tracking, machine maintenance, and production scheduling. \r\n\r\nOrganizely continuously improves over time, suggesting new ways for manufacturers to reduce costs and produce more with their existing facilities and teams. It's the whole factory solved. \r\n\r\nWe’ve deployed to factories across six U.S. states and now we’re bringing AI to all factories across America. 🇺🇸 ",
-      "one_liner": "A New AI-Native ERP for American Manufacturers 🇺🇸",
-      "team_size": 0,
-      "highlight_black": false,
-      "highlight_latinx": false,
-      "highlight_women": false,
-      "industry": "B2B",
-      "subindustry": "B2B -> Supply Chain and Logistics",
-      "launched_at": 1793817753,
-      "tags": [
-        "Logistics",
-        "Manufacturing",
-        "E-commerce",
-        "Supply Chain",
-        "AI"
-      ],
-      "tags_highlighted": [],
-      "top_company": false,
-      "isHiring": false,
-      "nonprofit": false,
-      "batch": "Fall 2026",
-      "status": "Active",
-      "industries": [
-        "B2B",
-        "Supply Chain and Logistics"
-      ],
-      "regions": [
-        "United States of America",
-        "America / Canada"
-      ],
-      "stage": "Early",
-      "app_video_public": false,
-      "demo_day_video_public": false,
-      "app_answers": null,
-      "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/organizely"
+      "url": "https://www.ycombinator.com/companies/axiomat"
     }
   ],
   "removed": [],
   "updated": [
     {
-      "id": 1832,
-      "name": "Tilt (f.k.a. Delphia)",
-      "slug": "tilt-fka-delphia",
+      "id": 1784,
+      "name": "Draftbit",
+      "slug": "draftbit",
       "batch": "Winter 2018",
-      "url": "https://www.ycombinator.com/companies/tilt-fka-delphia",
+      "url": "https://www.ycombinator.com/companies/draftbit",
       "changes": [
+        {
+          "field": "all_locations",
+          "before": "Carmel, IN, USA; Chicago, IL, USA; Remote",
+          "after": "Chicago, IL, USA; Remote"
+        },
         {
           "field": "one_liner",
-          "before": "GitHub for Investment Methodology",
-          "after": ""
-        }
-      ]
-    },
-    {
-      "id": 22667,
-      "name": "Finley",
-      "slug": "finley",
-      "batch": "Winter 2021",
-      "url": "https://www.ycombinator.com/companies/finley",
-      "changes": [
-        {
-          "field": "stage",
-          "before": "Growth",
-          "after": "Early"
-        }
-      ]
-    },
-    {
-      "id": 23948,
-      "name": "Superwall",
-      "slug": "staffbar",
-      "batch": "Summer 2021",
-      "url": "https://www.ycombinator.com/companies/staffbar",
-      "changes": [
-        {
-          "field": "isHiring",
-          "before": true,
-          "after": false
-        }
-      ]
-    },
-    {
-      "id": 28825,
-      "name": "Solve Intelligence",
-      "slug": "solve-intelligence",
-      "batch": "Summer 2023",
-      "url": "https://www.ycombinator.com/companies/solve-intelligence",
-      "changes": [
-        {
-          "field": "team_size",
-          "before": 50,
-          "after": 70
+          "before": "Build mobile apps visually. Source-code included. ",
+          "after": "Build mobile apps, web apps, and games with AI. Start for free. "
         },
         {
-          "field": "stage",
-          "before": "Growth",
-          "after": "Early"
-        }
-      ]
-    },
-    {
-      "id": 29957,
-      "name": "Anglera",
-      "slug": "anglera",
-      "batch": "Summer 2024",
-      "url": "https://www.ycombinator.com/companies/anglera",
-      "changes": [
-        {
-          "field": "isHiring",
-          "before": true,
-          "after": false
-        },
-        {
-          "field": "status",
-          "before": "Active",
-          "after": "Acquired"
-        }
-      ]
-    },
-    {
-      "id": 29989,
-      "name": "Conductor",
-      "slug": "conductor",
-      "batch": "Summer 2024",
-      "url": "https://www.ycombinator.com/companies/conductor",
-      "changes": [
-        {
-          "field": "isHiring",
-          "before": true,
-          "after": false
-        }
-      ]
-    },
-    {
-      "id": 31463,
-      "name": "Armature",
-      "slug": "armature",
-      "batch": "Spring 2026",
-      "url": "https://www.ycombinator.com/companies/armature",
-      "changes": [
-        {
-          "field": "isHiring",
-          "before": false,
-          "after": true
-        },
-        {
-          "field": "regions",
+          "field": "tags",
           "before": [
-            "France",
-            "Europe",
-            "Remote",
-            "Partly Remote"
+            "Developer Tools",
+            "Design Tools"
           ],
           "after": [
-            "France",
-            "Europe"
+            "Developer Tools",
+            "Design Tools",
+            "AI"
           ]
         }
       ]
     },
     {
-      "id": 34596,
-      "name": "Bayworks",
-      "slug": "bayworks",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/bayworks",
+      "id": 12297,
+      "name": "Numero",
+      "slug": "numero",
+      "batch": "Winter 2019",
+      "url": "https://www.ycombinator.com/companies/numero",
+      "changes": [
+        {
+          "field": "isHiring",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 24191,
+      "name": "Secoda",
+      "slug": "secoda",
+      "batch": "Summer 2021",
+      "url": "https://www.ycombinator.com/companies/secoda",
+      "changes": [
+        {
+          "field": "team_size",
+          "before": 27,
+          "after": 45
+        },
+        {
+          "field": "stage",
+          "before": "Growth",
+          "after": "Early"
+        }
+      ]
+    },
+    {
+      "id": 26810,
+      "name": "Terraferma",
+      "slug": "terraferma",
+      "batch": "Summer 2022",
+      "url": "https://www.ycombinator.com/companies/terraferma",
+      "changes": [
+        {
+          "field": "one_liner",
+          "before": "The world's best protein manufacturing platform.",
+          "after": "TSMC for protein manufacturing."
+        }
+      ]
+    },
+    {
+      "id": 28921,
+      "name": "Surface Labs",
+      "slug": "surface-labs",
+      "batch": "Summer 2023",
+      "url": "https://www.ycombinator.com/companies/surface-labs",
+      "changes": [
+        {
+          "field": "one_liner",
+          "before": "Building the AI-powered marketing ops platform that turns website…",
+          "after": "We deploy agent teams that run critical business operations on your…"
+        },
+        {
+          "field": "team_size",
+          "before": 6,
+          "after": 10
+        },
+        {
+          "field": "subindustry",
+          "before": "B2B -> Marketing",
+          "after": "B2B"
+        },
+        {
+          "field": "industries",
+          "before": [
+            "B2B",
+            "Marketing"
+          ],
+          "after": [
+            "B2B"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 29679,
+      "name": "Dodo",
+      "slug": "dodo",
+      "batch": "Summer 2024",
+      "url": "https://www.ycombinator.com/companies/dodo",
+      "changes": [
+        {
+          "field": "team_size",
+          "before": 6,
+          "after": 10
+        }
+      ]
+    },
+    {
+      "id": 31369,
+      "name": "InLoop Robotics",
+      "slug": "inloop-robotics",
+      "batch": "Spring 2026",
+      "url": "https://www.ycombinator.com/companies/inloop-robotics",
+      "changes": [
+        {
+          "field": "tags",
+          "before": [],
+          "after": [
+            "Robotics",
+            "Logistics",
+            "Manufacturing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 31441,
+      "name": "Infera",
+      "slug": "infera",
+      "batch": "Spring 2026",
+      "url": "https://www.ycombinator.com/companies/infera",
       "changes": [
         {
           "field": "isHiring",
@@ -231,16 +254,55 @@
       ]
     },
     {
-      "id": 35521,
-      "name": "ORO AI",
-      "slug": "oro-ai",
+      "id": 31490,
+      "name": "Nxtcure Labs",
+      "slug": "nxtcure-labs",
       "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/oro-ai",
+      "url": "https://www.ycombinator.com/companies/nxtcure-labs",
       "changes": [
         {
           "field": "one_liner",
-          "before": "RL environments that teach AI to run businesses autonomously",
-          "after": "RL environments for AI that can safely run a business."
+          "before": "The full-stack AI CRO for drug discovery.",
+          "after": "Engineering the future of Cancer Drug Discovery"
+        }
+      ]
+    },
+    {
+      "id": 35094,
+      "name": "Forward",
+      "slug": "useforward",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/useforward",
+      "changes": [
+        {
+          "field": "one_liner",
+          "before": "Unifying Global Private Credit",
+          "after": "Origination network for private credit funds"
+        },
+        {
+          "field": "team_size",
+          "before": 4,
+          "after": 7
+        },
+        {
+          "field": "industry",
+          "before": "B2B",
+          "after": "Fintech"
+        },
+        {
+          "field": "subindustry",
+          "before": "B2B",
+          "after": "Fintech -> Credit and Lending"
+        },
+        {
+          "field": "industries",
+          "before": [
+            "B2B"
+          ],
+          "after": [
+            "Fintech",
+            "Credit and Lending"
+          ]
         }
       ]
     }

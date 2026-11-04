@@ -1,54 +1,65 @@
 # YC Company Changes for 2026-11-04
 
-- Previous total: 6365
-- Current total: 6367
+- Previous total: 6367
+- Current total: 6369
 - Added: 2
 - Removed: 0
-- Updated: 9
+- Updated: 10
 
 
 ## Added Companies
 
-- [OpenLake Technologies](https://www.ycombinator.com/companies/openlake-technologies) (Fall 2026) — OpenLake deploys, trains, and serves models that update in real time.
-- [Organizely](https://www.ycombinator.com/companies/organizely) (Fall 2026) — A New AI-Native ERP for American Manufacturers 🇺🇸
+- [Anywhere](https://www.ycombinator.com/companies/anywhere) (Fall 2026) — Your places, plans, friends and memories, all on one living map
+- [Axiomat](https://www.ycombinator.com/companies/axiomat) (Fall 2026) — We make AI that never hallucinates.
 
 ## Updated Companies
 
-### [Tilt (f.k.a. Delphia)](https://www.ycombinator.com/companies/tilt-fka-delphia)
+### [Draftbit](https://www.ycombinator.com/companies/draftbit)
 
-- `one_liner`: GitHub for Investment Methodology → 
+- `all_locations`: Carmel, IN, USA; Chicago, IL, USA; Remote → Chicago, IL, USA; Remote
+- `one_liner`: Build mobile apps visually. Source-code included.  → Build mobile apps, web apps, and games with AI. Start for free. 
+- `tags`: Developer Tools,Design Tools → Developer Tools,Design Tools,AI
 
-### [Finley](https://www.ycombinator.com/companies/finley)
+### [Numero](https://www.ycombinator.com/companies/numero)
 
+- `isHiring`: true → false
+
+### [Secoda](https://www.ycombinator.com/companies/secoda)
+
+- `team_size`: 27 → 45
 - `stage`: Growth → Early
 
-### [Superwall](https://www.ycombinator.com/companies/staffbar)
+### [Terraferma](https://www.ycombinator.com/companies/terraferma)
 
-- `isHiring`: true → false
+- `one_liner`: The world's best protein manufacturing platform. → TSMC for protein manufacturing.
 
-### [Solve Intelligence](https://www.ycombinator.com/companies/solve-intelligence)
+### [Surface Labs](https://www.ycombinator.com/companies/surface-labs)
 
-- `team_size`: 50 → 70
-- `stage`: Growth → Early
+- `one_liner`: Building the AI-powered marketing ops platform that turns website… → We deploy agent teams that run critical business operations on your…
+- `team_size`: 6 → 10
+- `subindustry`: B2B -> Marketing → B2B
+- `industries`: B2B,Marketing → B2B
 
-### [Anglera](https://www.ycombinator.com/companies/anglera)
+### [Dodo](https://www.ycombinator.com/companies/dodo)
 
-- `isHiring`: true → false
-- `status`: Active → Acquired
+- `team_size`: 6 → 10
 
-### [Conductor](https://www.ycombinator.com/companies/conductor)
+### [InLoop Robotics](https://www.ycombinator.com/companies/inloop-robotics)
 
-- `isHiring`: true → false
+- `tags`:  → Robotics,Logistics,Manufacturing
 
-### [Armature](https://www.ycombinator.com/companies/armature)
-
-- `isHiring`: false → true
-- `regions`: France,Europe,Remote,Partly Remote → France,Europe
-
-### [Bayworks](https://www.ycombinator.com/companies/bayworks)
+### [Infera](https://www.ycombinator.com/companies/infera)
 
 - `isHiring`: false → true
 
-### [ORO AI](https://www.ycombinator.com/companies/oro-ai)
+### [Nxtcure Labs](https://www.ycombinator.com/companies/nxtcure-labs)
 
-- `one_liner`: RL environments that teach AI to run businesses autonomously → RL environments for AI that can safely run a business.
+- `one_liner`: The full-stack AI CRO for drug discovery. → Engineering the future of Cancer Drug Discovery
+
+### [Forward](https://www.ycombinator.com/companies/useforward)
+
+- `one_liner`: Unifying Global Private Credit → Origination network for private credit funds
+- `team_size`: 4 → 7
+- `industry`: B2B → Fintech
+- `subindustry`: B2B → Fintech -> Credit and Lending
+- `industries`: B2B → Fintech,Credit and Lending
