@@ -8,7 +8,7 @@
     "community",
     "platform"
   ],
-  "updatedAt": "2026-11-03T13:54:57.512Z",
+  "updatedAt": "2026-11-04T19:24:45.134Z",
   "items": [
     {
       "guid": "7d3f8aee-808d-4366-8271-c6db78d3811d",
@@ -31577,7 +31577,15 @@
       "summary": "Recorded at LDX3 by LeadDev, Ryan chats with Dan Moore, Senior Director of CIAM Strategy and Identity Standards at FusionAuth, about adapting established OAuth2 protocols for the agentic era, the security necessity of giving autonomous AI agents their own distinct identities, and how AI coding…",
       "author": "Phoebe Sajor",
       "publishedAt": "2026-11-03T08:40:00.000Z"
+    },
+    {
+      "guid": "36d88082-2c6e-437a-abae-0a265d2acd72",
+      "title": "Your .NET parallel loop can become serial in a one-CPU container",
+      "link": "https://stackoverflow.blog/2026/11/04/your-net-parallel-loop-can-become-serial-in-a-one-cpu-container/",
+      "summary": "CPU-based defaults can leave an I/O-heavy loop processing one record at a time. Raising the limit helps, but each downstream service still needs a concurrency budget it can handle.",
+      "author": "Guilherme Appel",
+      "publishedAt": "2026-11-04T16:34:13.000Z"
     }
   ],
-  "totalIndexed": 3946
+  "totalIndexed": 3947
 }

@@ -1,32 +1,31 @@
 {
   "date": "2026-11-04",
-  "fetchedAt": "2026-11-04T14:07:03.801Z",
-  "previousCount": 6364,
-  "currentCount": 6365,
+  "fetchedAt": "2026-11-04T19:25:06.272Z",
+  "previousCount": 6365,
+  "currentCount": 6367,
   "added": [
     {
-      "id": 37731,
-      "name": "Trepo",
-      "slug": "trepo",
+      "id": 35223,
+      "name": "OpenLake Technologies",
+      "slug": "openlake-technologies",
       "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/b665bafb6e74d729c276a76da1d06f81bdac762a.png",
-      "website": "https://hellotrepo.com/",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/b1d7d1c63b80a9929499e7b55e2263eaf7cb1a4f.png",
+      "website": "https://openlakehq.com",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Trepo is building agents that shop for you, starting with groceries.\r\n\r\nTo know what your household needs, a shopper has to understand what happens at home. Today, that information is scattered across cupboards, receipts, recipes, and the people living there, leaving one person to remember what’s running low, what needs using, and what’s for dinner.\r\n\r\nOur Kitchen Assistant and connected app help households track their food, decide what to cook, and use what they already have. A shared device lives in the kitchen, where groceries are unpacked, meals are prepared, and leftovers are saved. That makes it easy to keep Trepo informed as those things happen, giving our agents the context to understand what your household needs and buy it for you.\r\n\r\nWe’re starting with food. Our ambition is a home that knows what it has, what it needs, and what to do next.",
-      "one_liner": "The agentic grocery shopper that knows what you have and need.",
+      "long_description": "Own your Intelligence. OpenLake is a real time inference platform which improves your model quality in real time. Plug in your datasets, RL environments and conversations. Get the intelligence your company deserves without needing an AI research lab. \r\n\r\nPick an open model like Kimi K3 or GLM 5.3 and deploy it in one click. OpenLake keeps your model upto date with real time data sources, so the model you run tomorrow is more accurate than the last. ",
+      "one_liner": "OpenLake deploys, trains, and serves models that update in real time.",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
-      "industry": "Consumer",
-      "subindustry": "Consumer",
-      "launched_at": 1793788241,
+      "industry": "B2B",
+      "subindustry": "B2B",
+      "launched_at": 1793817363,
       "tags": [
-        "Grocery",
-        "Hardware",
-        "Consumer",
-        "E-commerce",
-        "AI"
+        "Generative AI",
+        "SaaS",
+        "Big Data",
+        "Infrastructure"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -35,7 +34,7 @@
       "batch": "Fall 2026",
       "status": "Active",
       "industries": [
-        "Consumer"
+        "B2B"
       ],
       "regions": [
         "United States of America",
@@ -46,386 +45,174 @@
       "demo_day_video_public": false,
       "app_answers": null,
       "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/trepo"
+      "url": "https://www.ycombinator.com/companies/openlake-technologies"
+    },
+    {
+      "id": 36082,
+      "name": "Organizely",
+      "slug": "organizely",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/26f181ecd0a89fb752608405bfab226e7b6bf3a0.png",
+      "website": "https://organizely.io/",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "Organizely helps American manufacturers use AI to lower production costs. \r\n\r\nFactories depend on three resources: materials, equipment, and labor. Costs rise unexpectedly when components are missing, machines go down, or staffing doesn’t match demand. We experienced this firsthand while owning and operating a factory in the U.S. for six years. As we scaled, it was expensive to resolve factory-wide bottlenecks quickly and it became harder to stay competitive on price. \r\n\r\nOther companies are trying to layer AI agents on top of legacy ERPs to do logistics work, but the underlying data architectures limit how much those agents can understand and do. So we’re building a new ERP from the ground up for the era of AI. \r\n\r\nOrganizely is an AI-native ERP with AI reasoning and machine learning algorithms embedded throughout for a single intelligent platform that can model, predict, and act. We natively automate all core manufacturing workflows including demand planning, raw material tracking, machine maintenance, and production scheduling. \r\n\r\nOrganizely continuously improves over time, suggesting new ways for manufacturers to reduce costs and produce more with their existing facilities and teams. It's the whole factory solved. \r\n\r\nWe’ve deployed to factories across six U.S. states and now we’re bringing AI to all factories across America. 🇺🇸 ",
+      "one_liner": "A New AI-Native ERP for American Manufacturers 🇺🇸",
+      "team_size": 0,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "B2B",
+      "subindustry": "B2B -> Supply Chain and Logistics",
+      "launched_at": 1793817753,
+      "tags": [
+        "Logistics",
+        "Manufacturing",
+        "E-commerce",
+        "Supply Chain",
+        "AI"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Fall 2026",
+      "status": "Active",
+      "industries": [
+        "B2B",
+        "Supply Chain and Logistics"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/organizely"
     }
   ],
   "removed": [],
   "updated": [
     {
-      "id": 999,
-      "name": "Focal Systems",
-      "slug": "focal-systems",
-      "batch": "Winter 2016",
-      "url": "https://www.ycombinator.com/companies/focal-systems",
+      "id": 1832,
+      "name": "Tilt (f.k.a. Delphia)",
+      "slug": "tilt-fka-delphia",
+      "batch": "Winter 2018",
+      "url": "https://www.ycombinator.com/companies/tilt-fka-delphia",
       "changes": [
-        {
-          "field": "regions",
-          "before": [
-            "United States of America",
-            "Canada",
-            "United Kingdom",
-            "America / Canada",
-            "Europe",
-            "Remote",
-            "Partly Remote"
-          ],
-          "after": [
-            "United States of America",
-            "Canada",
-            "United Kingdom",
-            "America / Canada",
-            "America / Canada",
-            "Europe",
-            "Remote",
-            "Partly Remote"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 13548,
-      "name": "Yoneda Research",
-      "slug": "yoneda-research",
-      "batch": "Winter 2020",
-      "url": "https://www.ycombinator.com/companies/yoneda-research",
-      "changes": [
-        {
-          "field": "all_locations",
-          "before": "San Francisco, CA, USA",
-          "after": "Nairobi, Nairobi County, Kenya"
-        },
-        {
-          "field": "regions",
-          "before": [
-            "United States of America",
-            "America / Canada",
-            "Remote",
-            "Partly Remote"
-          ],
-          "after": [
-            "Kenya",
-            "Africa",
-            "Remote",
-            "Partly Remote"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 22080,
-      "name": "Orange Health Labs",
-      "slug": "orange-health-labs",
-      "batch": "Summer 2020",
-      "url": "https://www.ycombinator.com/companies/orange-health-labs",
-      "changes": [
-        {
-          "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/3e07e4f8af878b1c646ca1ca04c557bb4e10c4a8.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/90aef60bf146a53036a1452d26da41ffa51922ee.png"
-        },
         {
           "field": "one_liner",
-          "before": "India's Fastest Diagnostics Service",
-          "after": "India's leading on-demand diagnostics company"
-        },
-        {
-          "field": "team_size",
-          "before": 1100,
-          "after": 2000
+          "before": "GitHub for Investment Methodology",
+          "after": ""
         }
       ]
     },
     {
-      "id": 22776,
-      "name": "Sivo",
-      "slug": "sivo",
+      "id": 22667,
+      "name": "Finley",
+      "slug": "finley",
       "batch": "Winter 2021",
-      "url": "https://www.ycombinator.com/companies/sivo",
-      "changes": [
-        {
-          "field": "regions",
-          "before": [
-            "Canada",
-            "United States of America",
-            "America / Canada",
-            "Remote",
-            "Fully Remote"
-          ],
-          "after": [
-            "Canada",
-            "United States of America",
-            "America / Canada",
-            "America / Canada",
-            "Remote",
-            "Fully Remote"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 23017,
-      "name": "Tractian",
-      "slug": "tractian",
-      "batch": "Winter 2021",
-      "url": "https://www.ycombinator.com/companies/tractian",
+      "url": "https://www.ycombinator.com/companies/finley",
       "changes": [
         {
           "field": "stage",
-          "before": "Early",
-          "after": "Growth"
+          "before": "Growth",
+          "after": "Early"
         }
       ]
     },
     {
-      "id": 24787,
-      "name": "Squire.ai",
-      "slug": "squire-ai",
+      "id": 23948,
+      "name": "Superwall",
+      "slug": "staffbar",
       "batch": "Summer 2021",
-      "url": "https://www.ycombinator.com/companies/squire-ai",
+      "url": "https://www.ycombinator.com/companies/staffbar",
       "changes": [
         {
-          "field": "regions",
-          "before": [
-            "United States of America",
-            "Canada",
-            "America / Canada",
-            "Remote",
-            "Partly Remote"
-          ],
-          "after": [
-            "United States of America",
-            "Canada",
-            "America / Canada",
-            "America / Canada",
-            "Remote",
-            "Partly Remote"
-          ]
+          "field": "isHiring",
+          "before": true,
+          "after": false
         }
       ]
     },
     {
-      "id": 26307,
-      "name": "TradeX",
-      "slug": "tradex",
-      "batch": "Winter 2022",
-      "url": "https://www.ycombinator.com/companies/tradex",
+      "id": 28825,
+      "name": "Solve Intelligence",
+      "slug": "solve-intelligence",
+      "batch": "Summer 2023",
+      "url": "https://www.ycombinator.com/companies/solve-intelligence",
       "changes": [
-        {
-          "field": "name",
-          "before": "Mindbase",
-          "after": "TradeX"
-        },
-        {
-          "field": "former_names",
-          "before": [
-            "TradeX"
-          ],
-          "after": [
-            "TradeX",
-            "Mindbase"
-          ]
-        },
-        {
-          "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/138a9ab05de536189c7973eacdc2ce67a9ebddc0.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/062e01d0acf57c192fc2f68d09c32b60a7f6e71b.png"
-        },
-        {
-          "field": "website",
-          "before": "https://mymindbase.ai",
-          "after": "https://tradexapp.co"
-        },
-        {
-          "field": "one_liner",
-          "before": "Build AI influencers that autonomously create content, engage fans…",
-          "after": "Prediction Market exchange for Asian market"
-        },
         {
           "field": "team_size",
-          "before": 7,
-          "after": 9
+          "before": 50,
+          "after": 70
         },
         {
-          "field": "industry",
-          "before": "B2B",
-          "after": "Consumer"
-        },
-        {
-          "field": "subindustry",
-          "before": "B2B -> Marketing",
-          "after": "Consumer"
-        },
-        {
-          "field": "tags",
-          "before": [
-            "Consumer",
-            "Gaming",
-            "Social",
-            "Marketing"
-          ],
-          "after": [
-            "Consumer",
-            "Gaming",
-            "Social"
-          ]
-        },
-        {
-          "field": "industries",
-          "before": [
-            "B2B",
-            "Marketing"
-          ],
-          "after": [
-            "Consumer"
-          ]
+          "field": "stage",
+          "before": "Growth",
+          "after": "Early"
         }
       ]
     },
     {
-      "id": 28205,
-      "name": "Modulari-T",
-      "slug": "modulari-t",
-      "batch": "Winter 2023",
-      "url": "https://www.ycombinator.com/companies/modulari-t",
+      "id": 29957,
+      "name": "Anglera",
+      "slug": "anglera",
+      "batch": "Summer 2024",
+      "url": "https://www.ycombinator.com/companies/anglera",
       "changes": [
+        {
+          "field": "isHiring",
+          "before": true,
+          "after": false
+        },
+        {
+          "field": "status",
+          "before": "Active",
+          "after": "Acquired"
+        }
+      ]
+    },
+    {
+      "id": 29989,
+      "name": "Conductor",
+      "slug": "conductor",
+      "batch": "Summer 2024",
+      "url": "https://www.ycombinator.com/companies/conductor",
+      "changes": [
+        {
+          "field": "isHiring",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 31463,
+      "name": "Armature",
+      "slug": "armature",
+      "batch": "Spring 2026",
+      "url": "https://www.ycombinator.com/companies/armature",
+      "changes": [
+        {
+          "field": "isHiring",
+          "before": false,
+          "after": true
+        },
         {
           "field": "regions",
           "before": [
-            "Canada",
-            "United States of America",
-            "America / Canada"
+            "France",
+            "Europe",
+            "Remote",
+            "Partly Remote"
           ],
           "after": [
-            "Canada",
-            "United States of America",
-            "America / Canada",
-            "America / Canada"
+            "France",
+            "Europe"
           ]
-        }
-      ]
-    },
-    {
-      "id": 30230,
-      "name": "SalesPatriot",
-      "slug": "salespatriot",
-      "batch": "Winter 2025",
-      "url": "https://www.ycombinator.com/companies/salespatriot",
-      "changes": [
-        {
-          "field": "stage",
-          "before": "Early",
-          "after": "Growth"
-        }
-      ]
-    },
-    {
-      "id": 30837,
-      "name": "AirCaps AI",
-      "slug": "aircaps-ai",
-      "batch": "Fall 2025",
-      "url": "https://www.ycombinator.com/companies/aircaps-ai",
-      "changes": [
-        {
-          "field": "name",
-          "before": "AirCaps",
-          "after": "AirCaps AI"
-        },
-        {
-          "field": "slug",
-          "before": "aircaps",
-          "after": "aircaps-ai"
-        },
-        {
-          "field": "former_names",
-          "before": [
-            "Vued"
-          ],
-          "after": [
-            "Vued",
-            "AirCaps"
-          ]
-        },
-        {
-          "field": "website",
-          "before": "https://aircaps.com",
-          "after": "https://aircaps.ai"
-        },
-        {
-          "field": "one_liner",
-          "before": "The AI copilot for in-person conversations.",
-          "after": "Voice AI that hears what other models miss."
-        },
-        {
-          "field": "industry",
-          "before": "Consumer",
-          "after": "B2B"
-        },
-        {
-          "field": "subindustry",
-          "before": "Consumer",
-          "after": "B2B -> Infrastructure"
-        },
-        {
-          "field": "tags",
-          "before": [],
-          "after": [
-            "Developer Tools",
-            "Speech Recognition",
-            "API",
-            "AI"
-          ]
-        },
-        {
-          "field": "industries",
-          "before": [
-            "Consumer"
-          ],
-          "after": [
-            "B2B",
-            "Infrastructure"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 31025,
-      "name": "ClaimGlide",
-      "slug": "claimglide",
-      "batch": "Winter 2026",
-      "url": "https://www.ycombinator.com/companies/claimglide",
-      "changes": [
-        {
-          "field": "all_locations",
-          "before": "Seattle, WA, USA",
-          "after": "San Francisco, CA, USA"
-        }
-      ]
-    },
-    {
-      "id": 31455,
-      "name": "tday.com",
-      "slug": "tdaycom",
-      "batch": "Spring 2026",
-      "url": "https://www.ycombinator.com/companies/tdaycom",
-      "changes": [
-        {
-          "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/0bf4800e0ecc3bb9489a098b655e95d398a9ad10.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/f80ddec3ab2129b38019b4f900cf1babc539c15b.png"
-        }
-      ]
-    },
-    {
-      "id": 32197,
-      "name": "Evident Machines",
-      "slug": "evident-machines",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/evident-machines",
-      "changes": [
-        {
-          "field": "one_liner",
-          "before": "Real-world benchmarks for electrical engineering",
-          "after": "Benchmarks and RL environments for electrical engineering"
         }
       ]
     },
@@ -437,37 +224,23 @@
       "url": "https://www.ycombinator.com/companies/bayworks",
       "changes": [
         {
-          "field": "one_liner",
-          "before": "Intelligence that runs Automotive Operations ",
-          "after": "Intelligence that keeps America’s vehicles running"
+          "field": "isHiring",
+          "before": false,
+          "after": true
         }
       ]
     },
     {
-      "id": 35356,
-      "name": "Raven",
-      "slug": "ravenphone",
+      "id": 35521,
+      "name": "ORO AI",
+      "slug": "oro-ai",
       "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/ravenphone",
+      "url": "https://www.ycombinator.com/companies/oro-ai",
       "changes": [
         {
           "field": "one_liner",
-          "before": "An agentic phone that does your busywork",
-          "after": "A new phone rebuilt around agents: more done, less time on screen."
-        }
-      ]
-    },
-    {
-      "id": 39117,
-      "name": "Godpack",
-      "slug": "godpack",
-      "batch": "Winter 2027",
-      "url": "https://www.ycombinator.com/companies/godpack",
-      "changes": [
-        {
-          "field": "team_size",
-          "before": 2,
-          "after": 5
+          "before": "RL environments that teach AI to run businesses autonomously",
+          "after": "RL environments for AI that can safely run a business."
         }
       ]
     }
