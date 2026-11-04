@@ -1,43 +1,31 @@
-# YC Company Changes for 2026-11-03
+# YC Company Changes for 2026-11-04
 
 - Previous total: 6362
-- Current total: 6362
-- Added: 0
+- Current total: 6364
+- Added: 2
 - Removed: 0
-- Updated: 7
+- Updated: 4
 
+
+## Added Companies
+
+- [Evardi](https://www.ycombinator.com/companies/evardi) (Fall 2026) — Agents that engineer the grid edge
+- [Ailit](https://www.ycombinator.com/companies/ailit) (Fall 2026) — Electrifying North American freight rail with swappable batteries.
 
 ## Updated Companies
 
-### [SharpestMinds](https://www.ycombinator.com/companies/sharpestminds)
+### [ernd](https://www.ycombinator.com/companies/ernd)
 
-- `status`: Acquired → Inactive
+- `website`: https://ernd.io/ → https://ernd.ai/
 
-### [Tractian](https://www.ycombinator.com/companies/tractian)
+### [ORO AI](https://www.ycombinator.com/companies/oro-ai)
 
-- `stage`: Growth → Early
+- `one_liner`: Continuously improving evals for agentic commerce → RL environments that teach AI to run businesses autonomously
 
-### [Saga AI](https://www.ycombinator.com/companies/saga-ai)
+### [Ascenix](https://www.ycombinator.com/companies/ascenix)
 
-- `one_liner`: Voice Agents for Healthcare Operations → AI agents for patient access: referral intake, eligibility, and prior…
+- `one_liner`: One interface for senior care facilities. → Custom software for senior care facilities.
 
-### [Voicepanel](https://www.ycombinator.com/companies/voicepanel)
+### [Godpack](https://www.ycombinator.com/companies/godpack)
 
-- `isHiring`: false → true
-
-### [Vespin](https://www.ycombinator.com/companies/vespin)
-
-- `name`: Stage → Vespin
-- `slug`: stage → vespin
-- `former_names`:  → Stage
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/ac5a6cce941f973ff80cb4496e195f4010e5c21b.png → https://bookface-images.s3.amazonaws.com/small_logos/488e0bf1da9ca12d399f04d8cafa2b336585587d.png
-- `website`: https://www.tryluke.dev/ → https://www.vespin.dev/
-- `one_liner`: Code review platform for humans and agents → An inbox for your coding agents
-
-### [Rise Reforming](https://www.ycombinator.com/companies/rise-reforming)
-
-- `team_size`: 4 → 5
-
-### [Perit.AI](https://www.ycombinator.com/companies/peritai)
-
-- `one_liner`: Expert-led data and RL platform for AI labs → Expert-collected voice, egocentric and RL training data for frontier…
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/5cf26da4e502d22859bba31a1834d27e69baf813.png → https://bookface-images.s3.amazonaws.com/small_logos/efed4a76a2a7ec64512d28d0184feb711e11215b.png
