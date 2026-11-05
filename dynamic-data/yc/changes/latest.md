@@ -1,56 +1,53 @@
 # YC Company Changes for 2026-11-05
 
 - Previous total: 6370
-- Current total: 6370
-- Added: 0
+- Current total: 6371
+- Added: 1
 - Removed: 0
-- Updated: 11
+- Updated: 9
 
+
+## Added Companies
+
+- [Versine](https://www.ycombinator.com/companies/versine) (Fall 2026) — Let your agents send and receive money. We're Venmo for agents.
 
 ## Updated Companies
 
-### [Whatnot](https://www.ycombinator.com/companies/whatnot)
+### [Relay Health](https://www.ycombinator.com/companies/relay-health)
 
-- `stage`: Growth → Early
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/30d3e979e397be92cd1208bf6710469387ba0593.png → https://bookface-images.s3.amazonaws.com/small_logos/a130b8834ba5a2e8ea96f00d9474120b7ee5ddd9.png
 
-### [Airbyte](https://www.ycombinator.com/companies/airbyte)
+### [Trellis AI](https://www.ycombinator.com/companies/trellis-ai)
 
-- `one_liner`: Context layer for production-grade AI agents → The open standard in data connectivity for AI and analytics.
+- `team_size`: 34 → 55
 
-### [Encord](https://www.ycombinator.com/companies/encord)
-
-- `stage`: Growth → Early
-
-### [FINNY AI](https://www.ycombinator.com/companies/finny-ai)
-
-- `stage`: Growth → Early
-
-### [No Logo](https://www.ycombinator.com/companies/no-logo)
+### [Saphira AI](https://www.ycombinator.com/companies/saphira-ai)
 
 - `isHiring`: true → false
 
 ### [Mbodi AI](https://www.ycombinator.com/companies/mbodi-ai)
 
-- `isHiring`: true → false
+- `isHiring`: false → true
 
-### [Klavis AI](https://www.ycombinator.com/companies/klavis-ai)
+### [TraceRoot.AI](https://www.ycombinator.com/companies/traceroot-ai)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/81ca0035244a123067c03e5df2d892bbd9cb7d00.png → https://bookface-images.s3.amazonaws.com/small_logos/2f7e8d041a457b1443dbc13971c0970dda898155.png
-- `one_liner`: High Quality Coding & Agentic Data for AI labs → RL environments and training data for frontier AI labs
-- `team_size`: 3 → 5
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/fc86727a443ac448343eba0a5ce27b88d63b2f8f.png → https://bookface-images.s3.amazonaws.com/small_logos/2b960cd1912da7a2d242a9f8b16360d7fac3bed4.png
+- `one_liner`: Open Source AI Agent Improvement Platform → The open-source platform that continuously improves your ai agents
 
-### [Reason Machines](https://www.ycombinator.com/companies/reason-machines)
+### [GRU Space](https://www.ycombinator.com/companies/gru-space)
 
-- `batch`: Spring 2026 → Fall 2026
+- `name`: Galactic Resource Utilization Space, Inc. (GRU Space) → GRU Space
+- `slug`: galactic-resource-utilization-space-inc-gru-space → gru-space
+- `former_names`: Galactic Resource Utilization Space, Inc. → Galactic Resource Utilization Space,Inc.
 
-### [Locke](https://www.ycombinator.com/companies/locke)
+### [Valence](https://www.ycombinator.com/companies/valence)
 
-- `one_liner`: The AI-native firm for public influence. → The first AI government affairs firm.
+- `status`: Active → Inactive
 
-### [Conifer](https://www.ycombinator.com/companies/conifer)
+### [Soria](https://www.ycombinator.com/companies/soria)
 
-- `one_liner`: Least cost routing system to reduce 70%+ token spend → Intelligent decisions for critical AI operations
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/05b2506991797891dcda24e0fe6be2c7f7a60423.png → https://bookface-images.s3.amazonaws.com/small_logos/9e9a1559016fef7b747ad779eba0455ef78c5c18.png
 
-### [Plover Labs](https://www.ycombinator.com/companies/plover-labs)
+### [Sona8](https://www.ycombinator.com/companies/sona8)
 
-- `launched_at`: 1786220704 → 1793862065
+- `tags`: HR Tech,Infrastructure,AI,Conversational AI → B2B,Infrastructure,AI,Conversational AI

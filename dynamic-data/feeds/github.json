@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-10-21T16:41:03.695Z",
+  "updatedAt": "2026-11-05T23:06:07.532Z",
   "items": [
     {
       "guid": "github::https://github.blog/engineering/the-cost-of-saying-yes-has-changed/",
@@ -183,7 +183,15 @@
       "summary": "Over the past year, while Git traffic grew exponentially, 99.99999% of the Git repositories on GitHub began living in two places at once: our own data centers and Azure. The rest are among the busiest on the platform, and they’re held back by just one thing: a 25ms round trip.\nIn an earlier blog…",
       "author": "Eleanor White",
       "publishedAt": "2026-10-21T16:00:00.000Z"
+    },
+    {
+      "guid": "github::https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/",
+      "title": "Inside GitHub&#8217;s new Git storage architecture",
+      "link": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/",
+      "summary": "Last week at GitHub Universe, we announced our new Git storage architecture, capable of handling thousands of writes per second with reads that scale on demand. Through internal testing, we’ve demonstrated the ability to support 5,000 concurrent agents working on a repository, sending 7,200 pushes…",
+      "author": "Karthik Raman",
+      "publishedAt": "2026-11-05T20:23:21.000Z"
     }
   ],
-  "totalIndexed": 22
+  "totalIndexed": 23
 }

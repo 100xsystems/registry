@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-11-05T19:32:46.562Z",
+  "updatedAt": "2026-11-05T23:06:05.685Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -3241,7 +3241,23 @@
       "summary": "In my last post I walked through a rolling major version upgrade: add a brand new node on the new version, let it join the Spock cluster, retire the old node. It works well, but it assumes you can stand up an extra server for every node you need to upgrade. A lot of customers I talk to cannot.…",
       "author": null,
       "publishedAt": "2026-11-05T16:35:55.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9B7",
+      "title": "Jimmy Angelakos: PGConf.EU 2026 MEGAPOST: a busy week in Valencia",
+      "link": "https://postgr.es/p/9B7",
+      "summary": "This year's PostgreSQL Conference Europe, PGConf.EU 2026, took place from October 20th to 23rd in wonderful Valencia, at the Palacio de Congresos. There was far too much going on to cover it all, so I'm just going to go over what I was involved with: a panel on Tuesday, a book signing on Wednesday,…",
+      "author": null,
+      "publishedAt": "2026-11-05T19:57:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9B8",
+      "title": "Nikolay Samokhvalov: UUIDv4 vs UUIDv7: what a random primary key costs in Postgres",
+      "link": "https://postgr.es/p/9B8",
+      "summary": "Same table, same insert stream, three primary keys on Postgres 18. At 100M rows, UUIDv4 inserted at 0.62 to 0.69 of the rate of an ordered key on the same server, and wrote 1.5 to 1.9 times the WAL per row. Where the cost starts, and what it is made of.",
+      "author": null,
+      "publishedAt": "2026-11-05T12:00:00.000Z"
     }
   ],
-  "totalIndexed": 404
+  "totalIndexed": 406
 }

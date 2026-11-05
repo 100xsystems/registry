@@ -8,16 +8,8 @@
     "monitoring",
     "data-visualization"
   ],
-  "updatedAt": "2026-11-03T22:44:16.553Z",
+  "updatedAt": "2026-11-05T23:06:05.125Z",
   "items": [
-    {
-      "guid": "grafana-labs::https://grafana.com/grafana/dashboards/8588-1-kubernetes-deployment-statefulset-daemonset-metrics/",
-      "title": "8588 1 Kubernetes Deployment Statefulset Daemonset Metrics",
-      "link": "https://grafana.com/grafana/dashboards/8588-1-kubernetes-deployment-statefulset-daemonset-metrics/",
-      "summary": null,
-      "author": null,
-      "publishedAt": "2001-01-31T18:30:00.000Z"
-    },
     {
       "guid": "grafana-labs::https://grafana.com/grafana/dashboards/12385-1-cpu/",
       "title": "12385 1 Cpu",
@@ -80009,7 +80001,15 @@
       "summary": "Many Grafana Cloud customers love what Alloy offers them, but we're also seeing a growing base of users who feel the same way about the OpenTelemetry Collector. We want to make it easy for customers to make the decision that makes the most sense, regardless of their preference.\nWhen we introduced…",
       "author": "Bejal Lewis",
       "publishedAt": "2026-11-03T21:32:18.000Z"
+    },
+    {
+      "guid": "https://grafana.com/blog/whats-new-with-grafana-variables-less-clutter-easier-reuse-across-dashboards-and-more/",
+      "title": "What’s new with Grafana variables: less clutter, easier reuse across dashboards, and more",
+      "link": "https://grafana.com/blog/whats-new-with-grafana-variables-less-clutter-easier-reuse-across-dashboards-and-more/",
+      "summary": "Template variables are one of the most used features in Grafana, providing users with a dropdown to turn one dashboard into hundreds: pick a different cluster, region, or service, and every panel updates.\nFor most of Grafana's history, variables had a single home at the top of the dashboard. Each…",
+      "author": "Haris Rozajac",
+      "publishedAt": "2026-11-05T19:25:32.000Z"
     }
   ],
-  "totalIndexed": 21937
+  "totalIndexed": 21938
 }

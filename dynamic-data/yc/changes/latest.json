@@ -1,73 +1,94 @@
 {
   "date": "2026-11-05",
-  "fetchedAt": "2026-11-05T19:33:09.161Z",
+  "fetchedAt": "2026-11-05T23:06:32.498Z",
   "previousCount": 6370,
-  "currentCount": 6370,
-  "added": [],
+  "currentCount": 6371,
+  "added": [
+    {
+      "id": 36873,
+      "name": "Versine",
+      "slug": "versine",
+      "former_names": [
+        "Merge",
+        "Oversine"
+      ],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/e05e06df74feac459085063f7f1530f7706b17bf.png",
+      "website": "https://versine.com/",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "Versine lets your agents send and receive money. We’re Venmo for agents.\r\n\r\nConnect it to ChatGPT, Claude, Muse or your own agent through our MCP. Then send your agent a dinner receipt and it splits the bill. Tell it “if I don’t run 10k tomorrow, pay Jake $10” and it checks Strava and pays out if you miss. It can also pay invoices that land in your inbox, or split rent and utilities with your roommates every month. \r\n\r\nRecipients don’t need an account: they get a link to cash out to their bank.\r\n\r\nBanking and payout services are provided by licensed partners.",
+      "one_liner": "Let your agents send and receive money. We're Venmo for agents.",
+      "team_size": 3,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "Fintech",
+      "subindustry": "Fintech -> Consumer Finance",
+      "launched_at": 1793913679,
+      "tags": [
+        "Fintech",
+        "Consumer Finance",
+        "Consumer Products",
+        "Neobank",
+        "AI"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Fall 2026",
+      "status": "Active",
+      "industries": [
+        "Fintech",
+        "Consumer Finance"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/versine"
+    }
+  ],
   "removed": [],
   "updated": [
     {
-      "id": 13208,
-      "name": "Whatnot",
-      "slug": "whatnot",
-      "batch": "Winter 2020",
-      "url": "https://www.ycombinator.com/companies/whatnot",
+      "id": 27095,
+      "name": "Relay Health",
+      "slug": "relay-health",
+      "batch": "Summer 2022",
+      "url": "https://www.ycombinator.com/companies/relay-health",
       "changes": [
         {
-          "field": "stage",
-          "before": "Growth",
-          "after": "Early"
+          "field": "small_logo_thumb_url",
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/30d3e979e397be92cd1208bf6710469387ba0593.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/a130b8834ba5a2e8ea96f00d9474120b7ee5ddd9.png"
         }
       ]
     },
     {
-      "id": 13549,
-      "name": "Airbyte",
-      "slug": "airbyte",
-      "batch": "Winter 2020",
-      "url": "https://www.ycombinator.com/companies/airbyte",
+      "id": 29300,
+      "name": "Trellis AI",
+      "slug": "trellis-ai",
+      "batch": "Winter 2024",
+      "url": "https://www.ycombinator.com/companies/trellis-ai",
       "changes": [
         {
-          "field": "one_liner",
-          "before": "Context layer for production-grade AI agents",
-          "after": "The open standard in data connectivity for AI and analytics."
+          "field": "team_size",
+          "before": 34,
+          "after": 55
         }
       ]
     },
     {
-      "id": 22744,
-      "name": "Encord",
-      "slug": "encord",
-      "batch": "Winter 2021",
-      "url": "https://www.ycombinator.com/companies/encord",
-      "changes": [
-        {
-          "field": "stage",
-          "before": "Growth",
-          "after": "Early"
-        }
-      ]
-    },
-    {
-      "id": 29735,
-      "name": "FINNY AI",
-      "slug": "finny-ai",
+      "id": 29588,
+      "name": "Saphira AI",
+      "slug": "saphira-ai",
       "batch": "Summer 2024",
-      "url": "https://www.ycombinator.com/companies/finny-ai",
-      "changes": [
-        {
-          "field": "stage",
-          "before": "Growth",
-          "after": "Early"
-        }
-      ]
-    },
-    {
-      "id": 29853,
-      "name": "No Logo",
-      "slug": "no-logo",
-      "batch": "Summer 2024",
-      "url": "https://www.ycombinator.com/companies/no-logo",
+      "url": "https://www.ycombinator.com/companies/saphira-ai",
       "changes": [
         {
           "field": "isHiring",
@@ -85,88 +106,108 @@
       "changes": [
         {
           "field": "isHiring",
-          "before": true,
-          "after": false
+          "before": false,
+          "after": true
         }
       ]
     },
     {
-      "id": 30506,
-      "name": "Klavis AI",
-      "slug": "klavis-ai",
-      "batch": "Spring 2025",
-      "url": "https://www.ycombinator.com/companies/klavis-ai",
+      "id": 30610,
+      "name": "TraceRoot.AI",
+      "slug": "traceroot-ai",
+      "batch": "Summer 2025",
+      "url": "https://www.ycombinator.com/companies/traceroot-ai",
       "changes": [
         {
           "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/81ca0035244a123067c03e5df2d892bbd9cb7d00.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/2f7e8d041a457b1443dbc13971c0970dda898155.png"
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/fc86727a443ac448343eba0a5ce27b88d63b2f8f.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/2b960cd1912da7a2d242a9f8b16360d7fac3bed4.png"
         },
         {
           "field": "one_liner",
-          "before": "High Quality Coding & Agentic Data for AI labs",
-          "after": "RL environments and training data for frontier AI labs"
+          "before": "Open Source AI Agent Improvement Platform",
+          "after": "The open-source platform that continuously improves your ai agents"
+        }
+      ]
+    },
+    {
+      "id": 30635,
+      "name": "GRU Space",
+      "slug": "gru-space",
+      "batch": "Winter 2026",
+      "url": "https://www.ycombinator.com/companies/gru-space",
+      "changes": [
+        {
+          "field": "name",
+          "before": "Galactic Resource Utilization Space, Inc. (GRU Space)",
+          "after": "GRU Space"
         },
         {
-          "field": "team_size",
-          "before": 3,
-          "after": 5
+          "field": "slug",
+          "before": "galactic-resource-utilization-space-inc-gru-space",
+          "after": "gru-space"
+        },
+        {
+          "field": "former_names",
+          "before": [
+            "Galactic Resource Utilization Space, Inc."
+          ],
+          "after": [
+            "Galactic Resource Utilization Space",
+            "Inc."
+          ]
         }
       ]
     },
     {
-      "id": 31458,
-      "name": "Reason Machines",
-      "slug": "reason-machines",
+      "id": 31194,
+      "name": "Valence",
+      "slug": "valence",
+      "batch": "Winter 2026",
+      "url": "https://www.ycombinator.com/companies/valence",
+      "changes": [
+        {
+          "field": "status",
+          "before": "Active",
+          "after": "Inactive"
+        }
+      ]
+    },
+    {
+      "id": 31464,
+      "name": "Soria",
+      "slug": "soria",
+      "batch": "Spring 2026",
+      "url": "https://www.ycombinator.com/companies/soria",
+      "changes": [
+        {
+          "field": "small_logo_thumb_url",
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/05b2506991797891dcda24e0fe6be2c7f7a60423.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/9e9a1559016fef7b747ad779eba0455ef78c5c18.png"
+        }
+      ]
+    },
+    {
+      "id": 36777,
+      "name": "Sona8",
+      "slug": "sona8",
       "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/reason-machines",
+      "url": "https://www.ycombinator.com/companies/sona8",
       "changes": [
         {
-          "field": "batch",
-          "before": "Spring 2026",
-          "after": "Fall 2026"
-        }
-      ]
-    },
-    {
-      "id": 33283,
-      "name": "Locke",
-      "slug": "locke",
-      "batch": "Summer 2026",
-      "url": "https://www.ycombinator.com/companies/locke",
-      "changes": [
-        {
-          "field": "one_liner",
-          "before": "The AI-native firm for public influence.",
-          "after": "The first AI government affairs firm."
-        }
-      ]
-    },
-    {
-      "id": 33936,
-      "name": "Conifer",
-      "slug": "conifer",
-      "batch": "Summer 2026",
-      "url": "https://www.ycombinator.com/companies/conifer",
-      "changes": [
-        {
-          "field": "one_liner",
-          "before": "Least cost routing system to reduce 70%+ token spend",
-          "after": "Intelligent decisions for critical AI operations"
-        }
-      ]
-    },
-    {
-      "id": 35586,
-      "name": "Plover Labs",
-      "slug": "plover-labs",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/plover-labs",
-      "changes": [
-        {
-          "field": "launched_at",
-          "before": 1786220704,
-          "after": 1793862065
+          "field": "tags",
+          "before": [
+            "HR Tech",
+            "Infrastructure",
+            "AI",
+            "Conversational AI"
+          ],
+          "after": [
+            "B2B",
+            "Infrastructure",
+            "AI",
+            "Conversational AI"
+          ]
         }
       ]
     }
