@@ -1,72 +1,56 @@
 # YC Company Changes for 2026-11-05
 
-- Previous total: 6369
+- Previous total: 6370
 - Current total: 6370
-- Added: 1
+- Added: 0
 - Removed: 0
-- Updated: 14
+- Updated: 11
 
-
-## Added Companies
-
-- [Plover Labs](https://www.ycombinator.com/companies/plover-labs) (Fall 2026) — Enable enterprises to ship agent code without human review
 
 ## Updated Companies
 
-### [Finley](https://www.ycombinator.com/companies/finley)
+### [Whatnot](https://www.ycombinator.com/companies/whatnot)
 
-- `stage`: Early → Growth
+- `stage`: Growth → Early
 
-### [Secoda](https://www.ycombinator.com/companies/secoda)
+### [Airbyte](https://www.ycombinator.com/companies/airbyte)
 
-- `stage`: Early → Growth
+- `one_liner`: Context layer for production-grade AI agents → The open standard in data connectivity for AI and analytics.
 
-### [BiggerPicture](https://www.ycombinator.com/companies/biggerpicture)
+### [Encord](https://www.ycombinator.com/companies/encord)
 
-- `one_liner`: The largest freight scheduling network in the industry. → The freight appointment network for carriers, shippers and warehouses
+- `stage`: Growth → Early
 
-### [Solve Intelligence](https://www.ycombinator.com/companies/solve-intelligence)
+### [FINNY AI](https://www.ycombinator.com/companies/finny-ai)
 
-- `stage`: Early → Growth
+- `stage`: Growth → Early
 
-### [truemetrics](https://www.ycombinator.com/companies/truemetrics)
+### [No Logo](https://www.ycombinator.com/companies/no-logo)
 
 - `isHiring`: true → false
 
-### [EdgeTrace](https://www.ycombinator.com/companies/edgetrace)
+### [Mbodi AI](https://www.ycombinator.com/companies/mbodi-ai)
 
-- `team_size`: 2 → 0
+- `isHiring`: true → false
 
-### [Macadamia](https://www.ycombinator.com/companies/macadamia)
+### [Klavis AI](https://www.ycombinator.com/companies/klavis-ai)
 
-- `regions`: Belgium,Europe → Belgium,Europe,Remote,Partly Remote
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/81ca0035244a123067c03e5df2d892bbd9cb7d00.png → https://bookface-images.s3.amazonaws.com/small_logos/2f7e8d041a457b1443dbc13971c0970dda898155.png
+- `one_liner`: High Quality Coding & Agentic Data for AI labs → RL environments and training data for frontier AI labs
+- `team_size`: 3 → 5
 
-### [Third Chair](https://www.ycombinator.com/companies/third-chair)
+### [Reason Machines](https://www.ycombinator.com/companies/reason-machines)
 
-- `isHiring`: false → true
+- `batch`: Spring 2026 → Fall 2026
 
-### [Didit](https://www.ycombinator.com/companies/didit)
+### [Locke](https://www.ycombinator.com/companies/locke)
 
-- `team_size`: 16 → 20
+- `one_liner`: The AI-native firm for public influence. → The first AI government affairs firm.
 
-### [tday.com](https://www.ycombinator.com/companies/tdaycom)
+### [Conifer](https://www.ycombinator.com/companies/conifer)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/f80ddec3ab2129b38019b4f900cf1babc539c15b.png → https://bookface-images.s3.amazonaws.com/small_logos/f67e29054c02cce725831968e75ca3cc8d058968.png
+- `one_liner`: Least cost routing system to reduce 70%+ token spend → Intelligent decisions for critical AI operations
 
-### [Belvedir](https://www.ycombinator.com/companies/belvedir)
+### [Plover Labs](https://www.ycombinator.com/companies/plover-labs)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/fdbbbe883c8bc36d2de50d07c6d7cb80cde6ad0a.png → https://bookface-images.s3.amazonaws.com/small_logos/f1794d17c880df4210c90a741d54b5d0320d8dba.png
-
-### [Riften](https://www.ycombinator.com/companies/riften)
-
-- `one_liner`: Earned intelligence for every company → Earned intelligence. An independent AI research lab.
-
-### [Forward](https://www.ycombinator.com/companies/useforward)
-
-- `one_liner`: Origination network for private credit funds → The private credit network for leading debt advisors
-
-### [antimattr](https://www.ycombinator.com/companies/antimattr)
-
-- `all_locations`: San Francisco, CA, USA → San Francisco, CA, USA; Remote
-- `tags`: Hardware,Consumer,AI → Hard Tech,Hardware,Consumer,AI,AI Assistant
-- `regions`: United States of America,America / Canada,Remote,Partly Remote → United States of America,America / Canada,Remote,Fully Remote
+- `launched_at`: 1786220704 → 1793862065

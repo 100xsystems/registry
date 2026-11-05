@@ -8,7 +8,7 @@
     "ai",
     "research"
   ],
-  "updatedAt": "2026-11-02T15:18:10.340Z",
+  "updatedAt": "2026-11-05T19:32:46.202Z",
   "items": [
     {
       "guid": "environment-free",
@@ -481,7 +481,15 @@
       "summary": "While frontier vision-language models demonstrate strong capabilities in user interface (UI) navigation, their high inference costs prohibit everyday use. Conversely, smaller models trained via supervised fine-tuning (SFT) or offline reinforcement learning often memorize static trajectories,…",
       "author": null,
       "publishedAt": "2026-11-02T00:00:00.000Z"
+    },
+    {
+      "guid": "faster-retrieval",
+      "title": "Faster Retrieval for Better, More Efficient RAG",
+      "link": "https://machinelearning.apple.com/research/faster-retrieval",
+      "summary": "Maximum inner product search (MIPS) sits at the core of recommendation systems, search, and retrieval-augmented generation (RAG). Given a query vector, MIPS systems search within a database of millions of candidate key vectors for the one that best matches the query. The original data point…",
+      "author": null,
+      "publishedAt": "2026-11-05T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 59
+  "totalIndexed": 60
 }

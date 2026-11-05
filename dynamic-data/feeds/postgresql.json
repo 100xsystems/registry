@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-11-05T14:24:55.434Z",
+  "updatedAt": "2026-11-05T19:32:46.562Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -3233,7 +3233,15 @@
       "summary": "Key Takeaways\nA minor upgrade, such as 15.13 to 15.19, only replaces the binaries. The data directory stays as it is, so there is no pg_upgrade, dump and restore, or new cluster.\nThe upgrade command takes seconds. The real risk is not having a tested plan for when the server doesn’t come back as…",
       "author": null,
       "publishedAt": "2026-11-05T13:47:27.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9B4",
+      "title": "Ahsan Hadi: Zero Downtime In-Place Major PostgreSQL Upgrades on a Distributed PostgreSQL Cluster",
+      "link": "https://postgr.es/p/9B4",
+      "summary": "In my last post I walked through a rolling major version upgrade: add a brand new node on the new version, let it join the Spock cluster, retire the old node. It works well, but it assumes you can stand up an extra server for every node you need to upgrade. A lot of customers I talk to cannot.…",
+      "author": null,
+      "publishedAt": "2026-11-05T16:35:55.000Z"
     }
   ],
-  "totalIndexed": 403
+  "totalIndexed": 404
 }

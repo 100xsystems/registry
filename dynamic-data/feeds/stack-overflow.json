@@ -8,7 +8,7 @@
     "community",
     "platform"
   ],
-  "updatedAt": "2026-11-04T19:24:45.134Z",
+  "updatedAt": "2026-11-05T19:32:46.665Z",
   "items": [
     {
       "guid": "7d3f8aee-808d-4366-8271-c6db78d3811d",
@@ -31585,7 +31585,15 @@
       "summary": "CPU-based defaults can leave an I/O-heavy loop processing one record at a time. Raising the limit helps, but each downstream service still needs a concurrency budget it can handle.",
       "author": "Guilherme Appel",
       "publishedAt": "2026-11-04T16:34:13.000Z"
+    },
+    {
+      "guid": "ab816818-65bf-497b-a765-d7c6250deb92",
+      "title": "Don’t Build the Reusable Component Yet",
+      "link": "https://stackoverflow.blog/2026/11/05/don-t-build-the-reusable-component-yet/",
+      "summary": null,
+      "author": "Vaishnavi Khosla",
+      "publishedAt": "2026-11-05T16:02:13.000Z"
     }
   ],
-  "totalIndexed": 3947
+  "totalIndexed": 3948
 }
