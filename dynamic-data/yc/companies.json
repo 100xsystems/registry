@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-11-05T05:24:02.654Z",
-  "count": 6369,
+  "fetchedAt": "2026-11-05T14:25:14.158Z",
+  "count": 6370,
   "companies": [
     {
       "id": 41229,
@@ -3385,8 +3385,8 @@
       "former_names": [],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/3266646a9815f7e3ed31c088c4008df6e8fb0101.png",
       "website": "https://www.antimattr.one/project-mnemosyne?utm_source=bookface&utm_medium=social&utm_campaign=bookface_antimattr_profile",
-      "all_locations": "San Francisco, CA, USA",
-      "long_description": "antimattr builds a voice-first hardware interface for human-agent interaction that includes a ring and a pair of earphones. Designed to make more of your voice, the ring can record and summarise your conversations, capture thoughts on the go, or control your agents. The earphones use proprietary voice isolation technology to block out background noise entirely, so you can take a clear call from a loud pub or dictate with real accuracy.",
+      "all_locations": "San Francisco, CA, USA; Remote",
+      "long_description": "antimattr is building the hardware interface for human–agent interaction: an AI wearable system made up of a smart ring and voice-isolating earbuds.\r\n\r\nVoice is the fastest way to instruct an AI agent, but most people won’t use it in public because it’s noisy and unreliable. We think voice AI adoption is held back by hardware, not by model quality.\r\n\r\nThe earbuds use our proprietary voice isolation to capture your voice clearly anywhere, whether that’s a loud pub, a factory floor or a busy street. That means clear calls and dictation/transcription you can trust.\r\n\r\nThe ring is a discreet way to control your agents. Tap to capture a thought, trigger a workflow, or record/summarise a conversation into a searchable personal memory.",
       "one_liner": "voice-first hardware interface for human-agent interaction",
       "team_size": 2,
       "highlight_black": false,
@@ -3396,9 +3396,11 @@
       "subindustry": "Consumer -> Consumer Electronics",
       "launched_at": 1786922449,
       "tags": [
+        "Hard Tech",
         "Hardware",
         "Consumer",
-        "AI"
+        "AI",
+        "AI Assistant"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -3414,7 +3416,7 @@
         "United States of America",
         "America / Canada",
         "Remote",
-        "Partly Remote"
+        "Fully Remote"
       ],
       "stage": "Early",
       "app_video_public": false,
@@ -4649,6 +4651,51 @@
       "app_answers": null,
       "question_answers": false,
       "url": "https://www.ycombinator.com/companies/ploid"
+    },
+    {
+      "id": 35586,
+      "name": "Plover Labs",
+      "slug": "plover-labs",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/a310be93d13c548ee674125ec85077cd90ed1e23.png",
+      "website": "https://ploverlabs.ai/",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "Plover Labs is building toward a future where AI agents write, ship, and maintain most of a company's software. We make it possible for agents to own real engineering roles, not just suggest code for someone else to approve.\r\n\r\nCoding models keep getting more capable, but enterprise adoption lags behind AI-native startups because enterprises don't yet trust agent output. Each codebase has conventions, history, and failure modes that a general-purpose model doesn't know. We learn those continuously from the code, how the team works, and the mistakes agents make. Then we fix the codebase and add merge gates that use deterministic verifiers instead of another model's judgment, so the same mistake can't ship twice. As the gates build up, agents can be trusted with more of the work.\r\n\r\nWe have five-figure monthly contracts with Series C companies Envoy and Fieldguide. At Fieldguide, we tripled PRs per engineer in one quarter, with the same headcount and PR size.",
+      "one_liner": "Enable enterprises to ship agent code without human review",
+      "team_size": 2,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "B2B",
+      "subindustry": "B2B -> Engineering, Product and Design",
+      "launched_at": 1786220704,
+      "tags": [
+        "Developer Tools",
+        "B2B",
+        "Enterprise",
+        "Enterprise Software",
+        "AI"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Fall 2026",
+      "status": "Active",
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/plover-labs"
     },
     {
       "id": 35553,
@@ -6726,8 +6773,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/da8faffaa022dc56157a591e901324e4d786a015.png",
       "website": "https://www.useforward.co/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Founded in 2026, Forward is a San Francisco-based technology company, helping private credit funds across America source mandate matching deals through exclusive partnerships with debt advisors. ",
-      "one_liner": "Origination network for private credit funds",
+      "long_description": "Founded in 2026, Forward is a San Francisco-based technology company, connecting private credit funds with exclusive loan opportunities, sourced from leading debt advisors across America.",
+      "one_liner": "The private credit network for leading debt advisors",
       "team_size": 7,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -15019,8 +15066,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/d3c58cea1afce06f81a0352c8f3ecc8554d707c7.png",
       "website": "https://riften.ai",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Riften builds model routing, evaluations, private models, and training environments for AI labs, AI-native companies, and enterprises.\r\n\r\nWe help teams choose models for their workloads, evaluate how they perform, and build private models around company-specific work. We’re also developing coding environments where agents learn through backend engineering tasks.",
-      "one_liner": "Earned intelligence for every company",
+      "long_description": "Riften is an independent AI research lab exploring intelligence in software and the physical world.\r\n\r\nWe study how models learn and represent knowledge, and build systems that put that research to work. Our work spans model routing, evaluations, post-training, and physical AI.\r\n\r\nEarned intelligence.",
+      "one_liner": "Earned intelligence. An independent AI research lab.",
       "team_size": 5,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -16393,7 +16440,7 @@
         "Belvedir",
         "Fractal Machine Research"
       ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/fdbbbe883c8bc36d2de50d07c6d7cb80cde6ad0a.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/f1794d17c880df4210c90a741d54b5d0320d8dba.png",
       "website": "https://belvedir.ai/",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "",
@@ -21102,7 +21149,7 @@
         "markup.one",
         "tday"
       ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/f80ddec3ab2129b38019b4f900cf1babc539c15b.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/f67e29054c02cce725831968e75ca3cc8d058968.png",
       "website": "https://tday.com",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "tday automatically turns a software company's product into on-brand marketing creative. Connect your product and git repo, and tday generates polished launch videos, social graphics, and ads, the content a team would normally spend hours making in a design tool or pay a freelancer for. tday then publishes the creative and measures how it performs across your social and ad channels, closing the loop from what you ship to what you post.",
@@ -33448,9 +33495,9 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/202e6cd94d0ec2c8de835c56ce6b880f99f033d5.png",
       "website": "https://didit.me/",
       "all_locations": "CT, Spain",
-      "long_description": "One API for KYC, KYB, AML, biometrics, and fraud — powered by 1,000+ data sources, 200+ signals, and in-house AI models. Global coverage. Integrate in minutes, pay as you go, 500 free checks/month. Start free at business.didit.me.",
+      "long_description": "One API for KYC, KYB, AML, authentication, biometrics, and fraud — powered by 1,000+ data sources, 200+ signals, and in-house AI models. Global coverage. Integrate in minutes, pay as you go. Start free at business.didit.me.",
       "one_liner": "Infrastructure for identity and fraud.",
-      "team_size": 16,
+      "team_size": 20,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -51120,7 +51167,7 @@
       "tags": [],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": false,
+      "isHiring": true,
       "nonprofit": false,
       "batch": "Spring 2025",
       "status": "Active",
@@ -58872,7 +58919,9 @@
       ],
       "regions": [
         "Belgium",
-        "Europe"
+        "Europe",
+        "Remote",
+        "Partly Remote"
       ],
       "stage": "Early",
       "app_video_public": false,
@@ -82558,7 +82607,7 @@
       "all_locations": "San Francisco, CA, USA",
       "long_description": "EdgeTrace unifies your entire camera network into a single, powerful intelligence platform–helping public safety teams detect threats faster, respond in real time, and protect the community.",
       "one_liner": "Describe It. Find It. Act On It.",
-      "team_size": 2,
+      "team_size": 0,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -90288,7 +90337,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": true,
+      "isHiring": false,
       "nonprofit": false,
       "batch": "Summer 2023",
       "status": "Active",
@@ -97523,7 +97572,7 @@
         "United Kingdom",
         "Europe"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -117861,8 +117910,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/6639dccaea5b8ef9500bf764b86c635b323d7790.png",
       "website": "http://biggerpicture.co",
       "all_locations": "San Francisco, CA, USA; Remote",
-      "long_description": "BiggerPicture, Inc. runs the largest freight scheduling network in the industry.\r\n\r\nIt is a freight appointment network. Carriers, shippers, and facilities work from one shared shipment record, so the appointment a carrier requests is the same appointment the facility confirms and the shipper sees. Nothing to reconcile between systems, no email threads to chase.\r\n\r\nOne workspace covers every scheduling channel: email, bulk email, and direct portal integrations. Automation handles routine booking and routes anything that needs a human into an exception queue. Every party is graded on one shared, published compliance standard rather than each provider's own unpublished metrics.\r\n\r\nSome of the largest brokers and carriers in the country run on our network. SOC 2 Type II. Women-led.",
-      "one_liner": "The largest freight scheduling network in the industry.",
+      "long_description": "BiggerPicture is a freight appointment network. Carriers, shippers and warehouses schedule from one shared shipment record, each in their own view.\r\n\r\nCarriers and brokers automate appointment booking across customer portals and email, with an exception queue for anything that needs a person. Warehouses run their docks and yards with a live dock schedule, QR driver self check-in, detention tracking and carrier compliance scorecards. Shippers see every order across facilities and grade carriers on the same compliance standard their warehouses use.\r\n\r\nBecause every party sees the same record, a confirmed time updates everyone at once. No reconciling emails, portals and spreadsheets.\r\n\r\nBiggerPicture runs the largest freight scheduling network. Founded in 2020 by Deema Adada and Guillaume Lo Re. SOC 2 Type I certified.",
+      "one_liner": "The freight appointment network for carriers, shippers and warehouses",
       "team_size": 9,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -153307,7 +153356,7 @@
         "Remote",
         "Partly Remote"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -173719,7 +173768,7 @@
         "Remote",
         "Partly Remote"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,

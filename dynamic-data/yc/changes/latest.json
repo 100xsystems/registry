@@ -1,53 +1,119 @@
 {
   "date": "2026-11-05",
-  "fetchedAt": "2026-11-05T05:24:02.653Z",
+  "fetchedAt": "2026-11-05T14:25:14.156Z",
   "previousCount": 6369,
-  "currentCount": 6369,
-  "added": [],
+  "currentCount": 6370,
+  "added": [
+    {
+      "id": 35586,
+      "name": "Plover Labs",
+      "slug": "plover-labs",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/a310be93d13c548ee674125ec85077cd90ed1e23.png",
+      "website": "https://ploverlabs.ai/",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "Plover Labs is building toward a future where AI agents write, ship, and maintain most of a company's software. We make it possible for agents to own real engineering roles, not just suggest code for someone else to approve.\r\n\r\nCoding models keep getting more capable, but enterprise adoption lags behind AI-native startups because enterprises don't yet trust agent output. Each codebase has conventions, history, and failure modes that a general-purpose model doesn't know. We learn those continuously from the code, how the team works, and the mistakes agents make. Then we fix the codebase and add merge gates that use deterministic verifiers instead of another model's judgment, so the same mistake can't ship twice. As the gates build up, agents can be trusted with more of the work.\r\n\r\nWe have five-figure monthly contracts with Series C companies Envoy and Fieldguide. At Fieldguide, we tripled PRs per engineer in one quarter, with the same headcount and PR size.",
+      "one_liner": "Enable enterprises to ship agent code without human review",
+      "team_size": 2,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "B2B",
+      "subindustry": "B2B -> Engineering, Product and Design",
+      "launched_at": 1786220704,
+      "tags": [
+        "Developer Tools",
+        "B2B",
+        "Enterprise",
+        "Enterprise Software",
+        "AI"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Fall 2026",
+      "status": "Active",
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/plover-labs"
+    }
+  ],
   "removed": [],
   "updated": [
     {
-      "id": 28070,
-      "name": "Clad",
-      "slug": "clad",
-      "batch": "Winter 2023",
-      "url": "https://www.ycombinator.com/companies/clad",
+      "id": 22667,
+      "name": "Finley",
+      "slug": "finley",
+      "batch": "Winter 2021",
+      "url": "https://www.ycombinator.com/companies/finley",
       "changes": [
         {
-          "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/5ab0e3d7b0de12617818a986b541a5e524c146ae.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/90c830f0ffefa33c0437d5ac4e919e2d5b606b3b.png"
-        },
-        {
-          "field": "one_liner",
-          "before": "Project management software for building infrastructure.",
-          "after": "Billing and project management for utility construction"
-        },
-        {
-          "field": "tags",
-          "before": [
-            "Marketplace",
-            "SaaS",
-            "Construction",
-            "B2B",
-            "Collaboration"
-          ],
-          "after": [
-            "SaaS",
-            "Construction",
-            "B2B",
-            "Collaboration",
-            "AI"
-          ]
+          "field": "stage",
+          "before": "Early",
+          "after": "Growth"
         }
       ]
     },
     {
-      "id": 30215,
-      "name": "Contrario",
-      "slug": "contrario",
-      "batch": "Winter 2025",
-      "url": "https://www.ycombinator.com/companies/contrario",
+      "id": 24191,
+      "name": "Secoda",
+      "slug": "secoda",
+      "batch": "Summer 2021",
+      "url": "https://www.ycombinator.com/companies/secoda",
+      "changes": [
+        {
+          "field": "stage",
+          "before": "Early",
+          "after": "Growth"
+        }
+      ]
+    },
+    {
+      "id": 26850,
+      "name": "BiggerPicture",
+      "slug": "biggerpicture",
+      "batch": "Summer 2022",
+      "url": "https://www.ycombinator.com/companies/biggerpicture",
+      "changes": [
+        {
+          "field": "one_liner",
+          "before": "The largest freight scheduling network in the industry.",
+          "after": "The freight appointment network for carriers, shippers and warehouses"
+        }
+      ]
+    },
+    {
+      "id": 28825,
+      "name": "Solve Intelligence",
+      "slug": "solve-intelligence",
+      "batch": "Summer 2023",
+      "url": "https://www.ycombinator.com/companies/solve-intelligence",
+      "changes": [
+        {
+          "field": "stage",
+          "before": "Early",
+          "after": "Growth"
+        }
+      ]
+    },
+    {
+      "id": 29125,
+      "name": "truemetrics",
+      "slug": "truemetrics",
+      "batch": "Summer 2023",
+      "url": "https://www.ycombinator.com/companies/truemetrics",
       "changes": [
         {
           "field": "isHiring",
@@ -57,44 +123,108 @@
       ]
     },
     {
-      "id": 31246,
-      "name": "Inth",
-      "slug": "inth",
+      "id": 29396,
+      "name": "EdgeTrace",
+      "slug": "edgetrace",
+      "batch": "Winter 2024",
+      "url": "https://www.ycombinator.com/companies/edgetrace",
+      "changes": [
+        {
+          "field": "team_size",
+          "before": 2,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": 30260,
+      "name": "Macadamia",
+      "slug": "macadamia",
+      "batch": "Winter 2025",
+      "url": "https://www.ycombinator.com/companies/macadamia",
+      "changes": [
+        {
+          "field": "regions",
+          "before": [
+            "Belgium",
+            "Europe"
+          ],
+          "after": [
+            "Belgium",
+            "Europe",
+            "Remote",
+            "Partly Remote"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 30504,
+      "name": "Third Chair",
+      "slug": "third-chair",
+      "batch": "Spring 2025",
+      "url": "https://www.ycombinator.com/companies/third-chair",
+      "changes": [
+        {
+          "field": "isHiring",
+          "before": false,
+          "after": true
+        }
+      ]
+    },
+    {
+      "id": 31080,
+      "name": "Didit",
+      "slug": "didit",
+      "batch": "Winter 2026",
+      "url": "https://www.ycombinator.com/companies/didit",
+      "changes": [
+        {
+          "field": "team_size",
+          "before": 16,
+          "after": 20
+        }
+      ]
+    },
+    {
+      "id": 31455,
+      "name": "tday.com",
+      "slug": "tdaycom",
       "batch": "Spring 2026",
-      "url": "https://www.ycombinator.com/companies/inth",
+      "url": "https://www.ycombinator.com/companies/tdaycom",
       "changes": [
         {
-          "field": "one_liner",
-          "before": "Monitor and fix product privacy issues before they block growth",
-          "after": "Privacy and consent infrastructure that ships with your code"
+          "field": "small_logo_thumb_url",
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/f80ddec3ab2129b38019b4f900cf1babc539c15b.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/f67e29054c02cce725831968e75ca3cc8d058968.png"
         }
       ]
     },
     {
-      "id": 33210,
-      "name": "Anywhere",
-      "slug": "anywhere",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/anywhere",
+      "id": 32133,
+      "name": "Belvedir",
+      "slug": "belvedir",
+      "batch": "Summer 2026",
+      "url": "https://www.ycombinator.com/companies/belvedir",
       "changes": [
         {
-          "field": "launched_at",
-          "before": 1780361675,
-          "after": 1793826781
+          "field": "small_logo_thumb_url",
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/fdbbbe883c8bc36d2de50d07c6d7cb80cde6ad0a.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/f1794d17c880df4210c90a741d54b5d0320d8dba.png"
         }
       ]
     },
     {
-      "id": 34365,
-      "name": "Runtime.si",
-      "slug": "runtimesi",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/runtimesi",
+      "id": 32198,
+      "name": "Riften",
+      "slug": "riften",
+      "batch": "Summer 2026",
+      "url": "https://www.ycombinator.com/companies/riften",
       "changes": [
         {
           "field": "one_liner",
-          "before": "Eval infrastructure for robots",
-          "after": "Robots that think in simulation"
+          "before": "Earned intelligence for every company",
+          "after": "Earned intelligence. An independent AI research lab."
         }
       ]
     },
@@ -106,51 +236,53 @@
       "url": "https://www.ycombinator.com/companies/useforward",
       "changes": [
         {
-          "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/6ed6f18a3f6a1aa7d3729a667c4da28221cda1f6.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/da8faffaa022dc56157a591e901324e4d786a015.png"
-        }
-      ]
-    },
-    {
-      "id": 35322,
-      "name": "Helios Intelligence",
-      "slug": "helios-intelligence",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/helios-intelligence",
-      "changes": [
-        {
-          "field": "website",
-          "before": "https://www.myhelios.com/",
-          "after": "https://www.heliosinc.ai/"
-        }
-      ]
-    },
-    {
-      "id": 35521,
-      "name": "ORO AI",
-      "slug": "oro-ai",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/oro-ai",
-      "changes": [
-        {
           "field": "one_liner",
-          "before": "RL environments for AI that can safely run a business.",
-          "after": "RL environments & simulations for autonomous businesses."
+          "before": "Origination network for private credit funds",
+          "after": "The private credit network for leading debt advisors"
         }
       ]
     },
     {
-      "id": 37104,
-      "name": "Axiomat",
-      "slug": "axiomat",
+      "id": 36348,
+      "name": "antimattr",
+      "slug": "antimattr",
       "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/axiomat",
+      "url": "https://www.ycombinator.com/companies/antimattr",
       "changes": [
         {
-          "field": "launched_at",
-          "before": 1787243323,
-          "after": 1793825871
+          "field": "all_locations",
+          "before": "San Francisco, CA, USA",
+          "after": "San Francisco, CA, USA; Remote"
+        },
+        {
+          "field": "tags",
+          "before": [
+            "Hardware",
+            "Consumer",
+            "AI"
+          ],
+          "after": [
+            "Hard Tech",
+            "Hardware",
+            "Consumer",
+            "AI",
+            "AI Assistant"
+          ]
+        },
+        {
+          "field": "regions",
+          "before": [
+            "United States of America",
+            "America / Canada",
+            "Remote",
+            "Partly Remote"
+          ],
+          "after": [
+            "United States of America",
+            "America / Canada",
+            "Remote",
+            "Fully Remote"
+          ]
         }
       ]
     }

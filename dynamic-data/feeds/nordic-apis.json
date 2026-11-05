@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-11-03T13:55:03.979Z",
+  "updatedAt": "2026-11-05T14:25:00.202Z",
   "items": [
     {
       "guid": "https://nordicapis.com/?p=23772",
@@ -295,7 +295,15 @@
       "summary": "Streaming data has a big upside over a normal request-response API. Instead of asking for the latest state over and over, you keep a connection open and receive changes as they happen. The problem is that streams can give you a false sense of security when something goes wrong. A normal request…",
       "author": "Rhyan Morice",
       "publishedAt": "2026-11-03T08:00:00.000Z"
+    },
+    {
+      "guid": "https://nordicapis.com/?p=24412",
+      "title": "OAuth and OIDC Beyond the Login Button: Identity as the API Security Control Plane",
+      "link": "https://nordicapis.com/oauth-and-oidc-beyond-the-login-button-identity-as-the-api-security-control-plane/",
+      "summary": "Most of us first run into OAuth and OpenID Connect (OIDC) through a login button. The product needs “Sign in with Google,” someone wires up the authorization code flow, and the API checks a bearer token and maybe a scope. It works, it ships, and everyone moves on. The trouble is that this path…",
+      "author": "Guilliano Molaire",
+      "publishedAt": "2026-11-05T08:00:00.000Z"
     }
   ],
-  "totalIndexed": 36
+  "totalIndexed": 37
 }
