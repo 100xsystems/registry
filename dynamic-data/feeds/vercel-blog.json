@@ -9,7 +9,7 @@
     "edge-computing",
     "nextjs"
   ],
-  "updatedAt": "2026-11-03T22:44:26.741Z",
+  "updatedAt": "2026-11-05T05:23:51.038Z",
   "items": [
     {
       "guid": "vercel-blog::https://vercel.com/changelog/ai-gateway-now-supports-streaming-transcription",
@@ -5266,7 +5266,23 @@
       "summary": "Vercel CLI now includes , which checks your setup and shows the command that fixes each problem it finds.vercel doctor\nIt checks the CLI version and install, your login and current team, the project link, and your project configuration in . It also reports active incidents from the Vercel status…",
       "author": "Melkey Moksyakov",
       "publishedAt": "2026-11-03T00:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/atomic-start-hooks-in-the-workflow-sdk",
+      "title": "Workflow SDK adds idempotent starts",
+      "link": "https://vercel.com/changelog/atomic-start-hooks-in-the-workflow-sdk",
+      "summary": "The 's  function can now admit a run and claim a hook in one atomic step. Duplicate workflow starts fail safely. The atomic start replaces the previous -then- pattern, whose gap between the lookup and the start left a documented duplicate-start race.Workflow SDKstart()getHookByToken()start()\nThe…",
+      "author": "Alex Langenfeld",
+      "publishedAt": "2026-11-04T18:55:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/kimi-k3-1-pro-now-has-more-zdr-providers-on-ai-gateway",
+      "title": "Kimi K3.1 Pro now has more ZDR providers on AI Gateway",
+      "link": "https://vercel.com/changelog/kimi-k3-1-pro-now-has-more-zdr-providers-on-ai-gateway",
+      "summary": "and its higher-speed version, , are now available on  from more   (ZDR) providers. Until today,  was the only provider serving either model.Kimi K3.1 ProKimi K3.1 Pro HighspeedAI GatewayZero Data RetentionMoonshot AI\nK3.1 Pro improves on earlier Kimi models in coding, 3D modeling, and financial…",
+      "author": "Jerilyn Zheng",
+      "publishedAt": "2026-11-04T17:00:00.000Z"
     }
   ],
-  "totalIndexed": 657
+  "totalIndexed": 659
 }

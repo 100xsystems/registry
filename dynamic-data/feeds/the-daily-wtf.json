@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-11-03T19:07:02.276Z",
+  "updatedAt": "2026-11-05T05:23:52.165Z",
   "items": [
     {
       "guid": "https://thedailywtf.com/articles/classic-wtf-my-many-girlfriends",
@@ -559,7 +559,15 @@
       "summary": "When writing Perl, it's not unusual to want to die. The die function ends your Perl program with an error string, and you'll often see code like: die \"My error\" unless $i > 5 or die \"Other error\" if check(), because Perl just loves the backwards conditionals. What's even more fun with die is how it…",
       "author": "Remy Porter",
       "publishedAt": "2026-11-03T06:30:00.000Z"
+    },
+    {
+      "guid": "https://thedailywtf.com/articles/what-it-doesn-t-do",
+      "title": "Representative Line: What it Doesn't Do",
+      "link": "https://thedailywtf.com/articles/what-it-doesn-t-do",
+      "summary": "Alastair found this comment in his codebase, and wondered, \"who wrote this comment?\" A quick blame answered the question: he did. He did not, however, write the code.\n public function getAllMailers() {\n        // This function neither returns Mailers, nor all of them.\n        ...\n }\n\nI suppose the…",
+      "author": "Remy Porter",
+      "publishedAt": "2026-11-04T06:30:00.000Z"
     }
   ],
-  "totalIndexed": 69
+  "totalIndexed": 70
 }
