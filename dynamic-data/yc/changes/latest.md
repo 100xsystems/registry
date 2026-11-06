@@ -4,50 +4,41 @@
 - Current total: 6374
 - Added: 0
 - Removed: 0
-- Updated: 10
+- Updated: 6
 
 
 ## Updated Companies
 
-### [Lovage](https://www.ycombinator.com/companies/lovage)
+### [Broccoli AI](https://www.ycombinator.com/companies/broccoli-ai)
 
-- `status`: Active → Inactive
-
-### [Signatur Biosciences](https://www.ycombinator.com/companies/signatur-biosciences)
-
-- `isHiring`: true → false
-
-### [Catamaran](https://www.ycombinator.com/companies/catamaran)
-
-- `website`: https://www.trycatamaran.com → https://www.catxre.com
-- `one_liner`: The AI-powered risk decision platform  → A regulated marketplace and analytics platform where investors buy…
-- `team_size`: 5 → 11
-
-### [Leeroo](https://www.ycombinator.com/companies/leeroo)
-
-- `one_liner`: Organizational Superintelligence → AI Building AI For Enterprise
-
-### [Autumn](https://www.ycombinator.com/companies/autumn)
-
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/6a032c69ab86b17f432855010110e329002ec9e2.png → https://bookface-images.s3.amazonaws.com/small_logos/0a07377904941bf4027e71549ec3b3c15a3b60dd.png
-
-### [SalesPatriot](https://www.ycombinator.com/companies/salespatriot)
-
-- `team_size`: 15 → 30
 - `stage`: Growth → Early
 
-### [Laurence](https://www.ycombinator.com/companies/laurence)
+### [Hyperdesk](https://www.ycombinator.com/companies/hyperdesk)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/db6da4cd27c16fd721b2bc69aab6f5c1f7055637.png → https://bookface-images.s3.amazonaws.com/small_logos/04d5d1a4b0f6a85bb0acdba717da56c25f8ca196.png
+- `name`: Helios → Hyperdesk
+- `slug`: helios → hyperdesk
+- `former_names`: Holacasa → Holacasa,Helios
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/1a19c2e4abf0702ea3bce9c8e6b7cffbae37f7d2.png → https://bookface-images.s3.amazonaws.com/small_logos/ba744fd34833ae425b2e5eead3763e6d10c264fc.png
+- `website`: https://www.usehelios.ai/ → https://www.hyperdesk.com/
+- `all_locations`: Mexico City, CDMX, Mexico → San Francisco, CA, USA
+- `one_liner`: Create your AI workforce → Improve performance marketing with your agents.
+- `tags`: SaaS,B2B,AI → SaaS,B2B,Marketing,AI
+- `regions`: Mexico,Latin America → United States of America,America / Canada
 
-### [Mentlio](https://www.ycombinator.com/companies/mentlio)
+### [Codevisor](https://www.ycombinator.com/companies/codevisor)
 
-- `status`: Active → Inactive
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/36fd79daacb53819fc86fd68b564556a5bd51a64.png → https://bookface-images.s3.amazonaws.com/small_logos/681aa94a92bcc7782953966da553da33659dae28.png
 
-### [Osseus](https://www.ycombinator.com/companies/osseus)
+### [Alkera AI](https://www.ycombinator.com/companies/alkera-ai)
 
-- `one_liner`: The frontier data platform for aligned health and biological AI → Data research lab for aligned health and biological AI
+- `former_names`: Alkera AI, Inc.,Alkera AI,Alkera AI, Inc. → Alkera AI,Inc.,Alkera AI,Alkera AI,Inc.
+- `batch`: Summer 2026 → Fall 2026
 
-### [Versine](https://www.ycombinator.com/companies/versine)
+### [Odin Robotics](https://www.ycombinator.com/companies/odin-robotics)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/e05e06df74feac459085063f7f1530f7706b17bf.png → https://bookface-images.s3.amazonaws.com/small_logos/d050f0a413a5ab639b307ecb868a328a76d67965.png
+- `all_locations`: ZH, Switzerland → San Francisco, CA, USA
+- `regions`: Switzerland,Europe → United States of America,America / Canada
+
+### [ChampionEffect Inc.](https://www.ycombinator.com/companies/championeffect-inc)
+
+- `website`: https://championeffect.com/home → https://championeffect.com

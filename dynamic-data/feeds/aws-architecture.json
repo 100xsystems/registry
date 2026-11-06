@@ -8,7 +8,7 @@
     "architecture",
     "aws"
   ],
-  "updatedAt": "2026-11-03T05:33:14.010Z",
+  "updatedAt": "2026-11-06T22:36:13.861Z",
   "items": [
     {
       "guid": "79195fa586925a9b62c134acc83bb06b7b67a778",
@@ -433,7 +433,15 @@
       "summary": "Keeping a large Amazon EC2 fleet continuously recoverable with AWS Elastic Disaster Recovery is a lifecycle challenge. This post shows how to automate the full DRS agent lifecycle (install, heal, and offboard) using AWS Systems Manager Automation and Amazon EventBridge, driven by a single EC2 tag…",
       "author": "Manisha Yadav",
       "publishedAt": "2026-11-02T17:21:29.000Z"
+    },
+    {
+      "guid": "e9cebe410ee846061537dbbffb133b4878afc216",
+      "title": "How OrderServ achieved up to 64% cost savings with multi-tenant ECS",
+      "link": "https://aws.amazon.com/blogs/architecture/how-orderserv-achieved-up-to-64-cost-savings-with-multi-tenant-ecs/",
+      "summary": "See how Cognizant and AWS Professional Services transformed the OrderServ food-ordering platform into a multi-tenant SaaS offering on shared Amazon ECS, cutting compute costs up to 64%, reducing scaling time from minutes to seconds, and lowering authentication costs by 80%.",
+      "author": "Chetan Yewale",
+      "publishedAt": "2026-11-06T00:09:41.000Z"
     }
   ],
-  "totalIndexed": 53
+  "totalIndexed": 54
 }

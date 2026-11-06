@@ -8,7 +8,7 @@
     "devops",
     "cloud-native"
   ],
-  "updatedAt": "2026-11-05T14:25:06.087Z",
+  "updatedAt": "2026-11-06T22:36:13.922Z",
   "items": [
     {
       "guid": "https://www.docker.com/?p=92418",
@@ -345,7 +345,15 @@
       "summary": "See how CNCF Score improved container security with Docker Scout, Hardened Images, and the Docker-Sponsored Open Source Program.",
       "author": "Jennifer Kohl",
       "publishedAt": "2026-11-05T14:00:00.000Z"
+    },
+    {
+      "guid": "https://www.docker.com/?p=96008",
+      "title": "Docker Sandboxes vs. Containers: Choosing the Right Isolation for AI Agents",
+      "link": "https://www.docker.com/blog/docker-sandboxes-vs-containers/",
+      "summary": "A container shares the host kernel. Docker Sandboxes are microVMs with their own kernel and private Docker Engine. See how they differ and when to use each.",
+      "author": "Jackie Frederick",
+      "publishedAt": "2026-11-06T03:17:04.000Z"
     }
   ],
-  "totalIndexed": 42
+  "totalIndexed": 43
 }
