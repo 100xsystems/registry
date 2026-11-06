@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-10-14T16:37:47.285Z",
+  "updatedAt": "2026-11-06T18:55:53.125Z",
   "items": [
     {
       "guid": "gleb-bahmutov::https://glebbahmutov.com/blog/when-it-reloads/",
@@ -287,7 +287,15 @@
       "summary": "Imagine you are building an online shopping site. Your goal is to build the best customer-to-customer site, similar to mercari.com 😉. When the user enters a new listing details. the system tries to suggest the best shipping option; the online commerce lives and dies by the shipping rates. So you…",
       "author": null,
       "publishedAt": "2026-10-14T04:00:00.000Z"
+    },
+    {
+      "guid": "gleb-bahmutov::https://glebbahmutov.com/blog/branded-phone-type/",
+      "title": "Branded Phone Type",
+      "link": "https://glebbahmutov.com/blog/branded-phone-type/",
+      "summary": "In my previous blog post Branded Types I have shown a useful technique for representing time durations as \"branded types\" which removes the confusion between seconds and milliseconds.\n\n\n1\n2\n3\n4\n\n// value is in seconds\nconst duration = 1\n// oops, I thought the duration was in milliseconds…",
+      "author": null,
+      "publishedAt": "2026-11-06T05:00:00.000Z"
     }
   ],
-  "totalIndexed": 35
+  "totalIndexed": 36
 }

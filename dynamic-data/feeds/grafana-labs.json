@@ -8,16 +8,8 @@
     "monitoring",
     "data-visualization"
   ],
-  "updatedAt": "2026-11-05T23:06:05.125Z",
+  "updatedAt": "2026-11-06T18:55:49.999Z",
   "items": [
-    {
-      "guid": "grafana-labs::https://grafana.com/grafana/dashboards/12385-1-cpu/",
-      "title": "12385 1 Cpu",
-      "link": "https://grafana.com/grafana/dashboards/12385-1-cpu/",
-      "summary": null,
-      "author": null,
-      "publishedAt": "2001-01-31T18:30:00.000Z"
-    },
     {
       "guid": "grafana-labs::https://grafana.com/grafana/dashboards/9276-1-cpu/",
       "title": "9276 1 Cpu",
@@ -80009,7 +80001,15 @@
       "summary": "Template variables are one of the most used features in Grafana, providing users with a dropdown to turn one dashboard into hundreds: pick a different cluster, region, or service, and every panel updates.\nFor most of Grafana's history, variables had a single home at the top of the dashboard. Each…",
       "author": "Haris Rozajac",
       "publishedAt": "2026-11-05T19:25:32.000Z"
+    },
+    {
+      "guid": "https://grafana.com/blog/any-agent-anywhere-how-to-use-grafana-cloud-with-claude-cursor-and-any-other-ai-agent/",
+      "title": "Any agent anywhere: How to use Grafana Cloud with Claude, Cursor, and any other AI agent",
+      "link": "https://grafana.com/blog/any-agent-anywhere-how-to-use-grafana-cloud-with-claude-cursor-and-any-other-ai-agent/",
+      "summary": "AI agents are becoming part of everyday engineering workflows, helping teams write code, troubleshoot issues, and automate tasks. But to be truly useful in production, these agents need access to more than code. They also need observability data and context to understand what's happening across…",
+      "author": "Gianni Baiardi",
+      "publishedAt": "2026-11-06T18:37:07.000Z"
     }
   ],
-  "totalIndexed": 21938
+  "totalIndexed": 21939
 }

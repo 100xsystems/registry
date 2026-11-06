@@ -1,67 +1,53 @@
 # YC Company Changes for 2026-11-06
 
-- Previous total: 6373
+- Previous total: 6374
 - Current total: 6374
-- Added: 1
+- Added: 0
 - Removed: 0
-- Updated: 11
+- Updated: 10
 
-
-## Added Companies
-
-- [Reific](https://www.ycombinator.com/companies/reific) (Fall 2026) — RL environments for superhuman reasoning over time
 
 ## Updated Companies
 
-### [Whatnot](https://www.ycombinator.com/companies/whatnot)
+### [Lovage](https://www.ycombinator.com/companies/lovage)
 
-- `stage`: Early → Growth
+- `status`: Active → Inactive
 
-### [Encord](https://www.ycombinator.com/companies/encord)
+### [Signatur Biosciences](https://www.ycombinator.com/companies/signatur-biosciences)
 
-- `stage`: Early → Growth
+- `isHiring`: true → false
 
-### [Groundmail](https://www.ycombinator.com/companies/groundmail)
+### [Catamaran](https://www.ycombinator.com/companies/catamaran)
 
-- `stage`: Early → Growth
+- `website`: https://www.trycatamaran.com → https://www.catxre.com
+- `one_liner`: The AI-powered risk decision platform  → A regulated marketplace and analytics platform where investors buy…
+- `team_size`: 5 → 11
 
-### [Mintlify](https://www.ycombinator.com/companies/mintlify)
+### [Leeroo](https://www.ycombinator.com/companies/leeroo)
 
-- `one_liner`: The intelligent knowledge platform → The intelligent documentation platform
+- `one_liner`: Organizational Superintelligence → AI Building AI For Enterprise
 
-### [Trueplace](https://www.ycombinator.com/companies/trueplace)
+### [Autumn](https://www.ycombinator.com/companies/autumn)
 
-- `name`: Inden → Trueplace
-- `slug`: inden → trueplace
-- `former_names`: Trueplace,Argo,Trueplace → Trueplace,Argo,Trueplace,Inden
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/16c3d8359a5e6781d8a200a4bfb9d014b212608a.png → https://bookface-images.s3.amazonaws.com/small_logos/8ac66a4d432434bcfa3584f3b5edb68a3103a350.png
-- `website`: https://inden.ai → https://trueplace.ca/
-- `one_liner`: How people actually talk to machines. → Supercharging humans
-- `industry`: B2B → Consumer
-- `subindustry`: B2B → Consumer
-- `industries`: B2B → Consumer
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/6a032c69ab86b17f432855010110e329002ec9e2.png → https://bookface-images.s3.amazonaws.com/small_logos/0a07377904941bf4027e71549ec3b3c15a3b60dd.png
 
-### [Contour](https://www.ycombinator.com/companies/contour)
+### [SalesPatriot](https://www.ycombinator.com/companies/salespatriot)
 
-- `website`:  → https://trycontour.com
+- `team_size`: 15 → 30
+- `stage`: Growth → Early
 
-### [Solve Intelligence](https://www.ycombinator.com/companies/solve-intelligence)
+### [Laurence](https://www.ycombinator.com/companies/laurence)
 
-- `stage`: Early → Growth
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/db6da4cd27c16fd721b2bc69aab6f5c1f7055637.png → https://bookface-images.s3.amazonaws.com/small_logos/04d5d1a4b0f6a85bb0acdba717da56c25f8ca196.png
 
-### [FINNY AI](https://www.ycombinator.com/companies/finny-ai)
+### [Mentlio](https://www.ycombinator.com/companies/mentlio)
 
-- `stage`: Early → Growth
+- `status`: Active → Inactive
 
-### [StarSling](https://www.ycombinator.com/companies/starsling)
+### [Osseus](https://www.ycombinator.com/companies/osseus)
 
-- `website`: https://starsling.dev/ → https://starsling.dev
-- `one_liner`: Self-Driving CI: fast AI-native GitHub Actions runners → Agent-native GitHub Actions runners
+- `one_liner`: The frontier data platform for aligned health and biological AI → Data research lab for aligned health and biological AI
 
-### [Polymath](https://www.ycombinator.com/companies/polymath)
+### [Versine](https://www.ycombinator.com/companies/versine)
 
-- `one_liner`: Simulation environments to train & evaluate long-horizon AI agents → Simulation environments for training & evaluating autonomous agents
-
-### [Belvedir](https://www.ycombinator.com/companies/belvedir)
-
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/f1794d17c880df4210c90a741d54b5d0320d8dba.png → https://bookface-images.s3.amazonaws.com/small_logos/e95629da52ae523f5bc187a7d2c603bc773cc2e8.png
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/e05e06df74feac459085063f7f1530f7706b17bf.png → https://bookface-images.s3.amazonaws.com/small_logos/d050f0a413a5ab639b307ecb868a328a76d67965.png

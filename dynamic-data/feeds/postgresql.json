@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-11-05T23:06:05.685Z",
+  "updatedAt": "2026-11-06T18:55:50.444Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -3257,7 +3257,15 @@
       "summary": "Same table, same insert stream, three primary keys on Postgres 18. At 100M rows, UUIDv4 inserted at 0.62 to 0.69 of the rate of an ordered key on the same server, and wrote 1.5 to 1.9 times the WAL per row. Where the cost starts, and what it is made of.",
       "author": null,
       "publishedAt": "2026-11-05T12:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9Bb",
+      "title": "Chris Travers: PostgreSQL, NUMA, and the Cloud",
+      "link": "https://postgr.es/p/9Bb",
+      "summary": "PostgreSQL and NUMA, Part 4 of 4\nThis series covers the specifics of running PostgreSQL on large systems with many processors. My experience is that people spend months often learning the basics when confronted with the problem. This series tries to dispel these difficulties by providing a clear…",
+      "author": null,
+      "publishedAt": "2026-11-06T16:11:22.000Z"
     }
   ],
-  "totalIndexed": 406
+  "totalIndexed": 407
 }
