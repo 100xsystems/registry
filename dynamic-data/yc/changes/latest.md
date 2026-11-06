@@ -1,53 +1,115 @@
-# YC Company Changes for 2026-11-05
+# YC Company Changes for 2026-11-06
 
-- Previous total: 6370
-- Current total: 6371
-- Added: 1
+- Previous total: 6371
+- Current total: 6373
+- Added: 2
 - Removed: 0
-- Updated: 9
+- Updated: 19
 
 
 ## Added Companies
 
-- [Versine](https://www.ycombinator.com/companies/versine) (Fall 2026) — Let your agents send and receive money. We're Venmo for agents.
+- [Adalat AI](https://www.ycombinator.com/companies/adalat-ai) (Fall 2026) — AI OS transforming courts, accelerating justice
+- [ChampionEffect Inc.](https://www.ycombinator.com/companies/championeffect-inc) (Fall 2026) — An AI coach for every employee!
 
 ## Updated Companies
 
-### [Relay Health](https://www.ycombinator.com/companies/relay-health)
+### [Mino Games](https://www.ycombinator.com/companies/mino-games)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/30d3e979e397be92cd1208bf6710469387ba0593.png → https://bookface-images.s3.amazonaws.com/small_logos/a130b8834ba5a2e8ea96f00d9474120b7ee5ddd9.png
+- `regions`: United States of America,Canada,America / Canada,America / Canada → United States of America,Canada,America / Canada
 
-### [Trellis AI](https://www.ycombinator.com/companies/trellis-ai)
+### [Focal Systems](https://www.ycombinator.com/companies/focal-systems)
 
-- `team_size`: 34 → 55
+- `regions`: United States of America,Canada,United Kingdom,America / Canada,America / Canada,Europe,Remote,Partl → United States of America,Canada,United Kingdom,America / Canada,Europe,Remote,Partly Remote
 
-### [Saphira AI](https://www.ycombinator.com/companies/saphira-ai)
+### [Sivo](https://www.ycombinator.com/companies/sivo)
 
-- `isHiring`: true → false
+- `regions`: Canada,United States of America,America / Canada,America / Canada,Remote,Fully Remote → Canada,United States of America,America / Canada,Remote,Fully Remote
 
-### [Mbodi AI](https://www.ycombinator.com/companies/mbodi-ai)
+### [Squire.ai](https://www.ycombinator.com/companies/squire-ai)
 
+- `regions`: United States of America,Canada,America / Canada,America / Canada,Remote,Partly Remote → United States of America,Canada,America / Canada,Remote,Partly Remote
+
+### [Groundmail](https://www.ycombinator.com/companies/groundmail)
+
+- `name`: Ranla → Groundmail
+- `slug`: ranla → groundmail
+- `former_names`: EXO Freight,Super Send,SuperSend → EXO Freight,Super Send,SuperSend,Ranla
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/e77030a95d7d1d6848dce062a119a876a2676952.png → https://bookface-images.s3.amazonaws.com/small_logos/a4f4ae559ddcb48e28bda7b41bd34e91608c107c.png
+- `website`: https://ranla.ai/ → https://groundmail.dev/
+- `one_liner`: The AI growth marketer that turns SaaS signups into revenue → Email for your app and your agents
+- `stage`: Growth → Early
+
+### [Modulari-T](https://www.ycombinator.com/companies/modulari-t)
+
+- `regions`: Canada,United States of America,America / Canada,America / Canada → Canada,United States of America,America / Canada
+
+### [Solve Intelligence](https://www.ycombinator.com/companies/solve-intelligence)
+
+- `stage`: Growth → Early
+
+### [Pharos](https://www.ycombinator.com/companies/pharos)
+
+- `team_size`: 5 → 10
 - `isHiring`: false → true
 
-### [TraceRoot.AI](https://www.ycombinator.com/companies/traceroot-ai)
+### [Rebolt](https://www.ycombinator.com/companies/rebolt)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/fc86727a443ac448343eba0a5ce27b88d63b2f8f.png → https://bookface-images.s3.amazonaws.com/small_logos/2b960cd1912da7a2d242a9f8b16360d7fac3bed4.png
-- `one_liner`: Open Source AI Agent Improvement Platform → The open-source platform that continuously improves your ai agents
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/1c24ec3a4e8dad0268813a9fa6aad15a4b1d9c34.png → https://bookface-images.s3.amazonaws.com/small_logos/0a1d167707d30b6992ede3ff8973e04998fc0697.png
+- `one_liner`: AI-Powered Company OS → Agentic AI for aircraft maintenance
 
-### [GRU Space](https://www.ycombinator.com/companies/gru-space)
+### [Monte](https://www.ycombinator.com/companies/monte)
 
-- `name`: Galactic Resource Utilization Space, Inc. (GRU Space) → GRU Space
-- `slug`: galactic-resource-utilization-space-inc-gru-space → gru-space
-- `former_names`: Galactic Resource Utilization Space, Inc. → Galactic Resource Utilization Space,Inc.
+- `one_liner`: Continual Learning for Agents → Specialized Models for Agents
 
-### [Valence](https://www.ycombinator.com/companies/valence)
+### [Third Chair](https://www.ycombinator.com/companies/third-chair)
 
-- `status`: Active → Inactive
+- `one_liner`: AI-Native IP Enforcement Agent → AI-Native IP Enforcement
+- `team_size`: 8 → 19
 
-### [Soria](https://www.ycombinator.com/companies/soria)
+### [Gentle Health](https://www.ycombinator.com/companies/gentle-health)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/05b2506991797891dcda24e0fe6be2c7f7a60423.png → https://bookface-images.s3.amazonaws.com/small_logos/9e9a1559016fef7b747ad779eba0455ef78c5c18.png
+- `name`: Tell if AI → Gentle Health
+- `slug`: tell-if-ai → gentle-health
+- `former_names`: Pando Technologies,Tellif,Tellif AI,Tell if AI,Land.dev → Pando Technologies,Tellif,Tellif AI,Tell if AI,Land.dev,Tell if AI
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/da77fda94e244c20522deac6fb0556be091b2804.png → https://bookface-images.s3.amazonaws.com/small_logos/e55b2321392235ecf805f12c1f1d0f0b8d948308.png
+- `website`: https://tellif.ai → https://gentle.health
+- `one_liner`: AI agents on real phones, growing brands across every platform. → The healthcare you want without the hassle 
+- `team_size`: 2 → 4
+- `industry`: B2B → Healthcare
+- `subindustry`: B2B -> Marketing → Healthcare -> Consumer Health and Wellness
+- `industries`: B2B,Marketing → Healthcare,Consumer Health and Wellness
 
-### [Sona8](https://www.ycombinator.com/companies/sona8)
+### [Clicks Health](https://www.ycombinator.com/companies/clicks-health)
 
-- `tags`: HR Tech,Infrastructure,AI,Conversational AI → B2B,Infrastructure,AI,Conversational AI
+- `all_locations`: San Francisco, CA, USA → ZH, Switzerland
+- `regions`: United States of America,America / Canada → Switzerland,Europe
+
+### [Khotan (formerly Pollinate)](https://www.ycombinator.com/companies/khotan)
+
+- `all_locations`: San Francisco, CA, USA → Brisbane, QLD, Australia
+- `regions`: United States of America,America / Canada → Australia,Oceania
+
+### [Memoir](https://www.ycombinator.com/companies/memoir)
+
+- `one_liner`: An AI teammate that answers and builds live on your calls → AI in your calls
+
+### [Arga Labs](https://www.ycombinator.com/companies/arga-labs)
+
+- `all_locations`: Vancouver, BC, Canada → San Francisco, CA, USA
+- `team_size`: 5 → 6
+- `regions`: Canada,America / Canada → United States of America,America / Canada
+
+### [Dreach](https://www.ycombinator.com/companies/dreach)
+
+- `subindustry`: B2B -> Infrastructure → B2B -> Sales
+- `industries`: B2B,Infrastructure → B2B,Sales
+
+### [Result](https://www.ycombinator.com/companies/result)
+
+- `all_locations`:  → Mumbai, MH, India
+- `regions`: Unspecified → India,South Asia
+
+### [Definite](https://www.ycombinator.com/companies/definite)
+
+- `one_liner`: Build everyday back-office agents on one live model of your books → Connect operational data with finance to optimize how your business…
