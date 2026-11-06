@@ -1,77 +1,31 @@
 {
   "date": "2026-11-06",
-  "fetchedAt": "2026-11-06T05:23:31.471Z",
-  "previousCount": 6371,
-  "currentCount": 6373,
+  "fetchedAt": "2026-11-06T14:00:40.551Z",
+  "previousCount": 6373,
+  "currentCount": 6374,
   "added": [
     {
-      "id": 34695,
-      "name": "Adalat AI",
-      "slug": "adalat-ai",
+      "id": 34860,
+      "name": "Reific",
+      "slug": "reific",
       "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/254631818b4716658c7ec0681d562a9e3ac23b48.png",
-      "website": "https://adalat.ai/",
-      "all_locations": "Bengaluru, KA, India; Remote",
-      "long_description": "",
-      "one_liner": "AI OS transforming courts, accelerating justice",
-      "team_size": 80,
-      "highlight_black": false,
-      "highlight_latinx": false,
-      "highlight_women": false,
-      "industry": "Government",
-      "subindustry": "Government",
-      "launched_at": 1793932152,
-      "tags": [
-        "GovTech",
-        "Nonprofit",
-        "Legal",
-        "NLP",
-        "AI"
-      ],
-      "tags_highlighted": [],
-      "top_company": false,
-      "isHiring": true,
-      "nonprofit": false,
-      "batch": "Fall 2026",
-      "status": "Active",
-      "industries": [
-        "Government"
-      ],
-      "regions": [
-        "India",
-        "South Asia",
-        "Remote",
-        "Fully Remote"
-      ],
-      "stage": "Early",
-      "app_video_public": false,
-      "demo_day_video_public": false,
-      "app_answers": null,
-      "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/adalat-ai"
-    },
-    {
-      "id": 39216,
-      "name": "ChampionEffect Inc.",
-      "slug": "championeffect-inc",
-      "former_names": [
-        "ChampionEffect"
-      ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/2386602bfda42032649bbf371ee6b886ac1fd56d.png",
-      "website": "https://championeffect.com/home",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/15150d0dab29e0b9d4c44b12fc87e17632fb4819.png",
+      "website": "https://www.reific.co/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "ChampionEffect is an AI Coach that teaches AI to every employee at a company, in Slack and Teams.\r\n\r\nCoach helps with a new AI concept, a new workflow or any tool. It jumps on a call and walks you through the work, just like a coworker would. It points to the top use cases in your industry and tailors everything to your company’s needs and tools. Every time someone does a walkthrough with Coach, it learns from it and suggests a better way to the next coworker.\r\n\r\nBefore this, we ran a YC company (Cambly) that taught English to millions of professionals and generated $100M+ in revenue. Now we’re using what we learned to teach millions about AI.",
-      "one_liner": "An AI coach for every employee!",
-      "team_size": 2,
+      "long_description": "Reific builds RL environments for superhuman reasoning over time, for the frontier labs that train agents. Each comes from real, de-identified records (health data, industrial sensors, compute-cluster logs), in three families: personal agents, industry, and science and compute. The world keeps moving while the agent works, so the agent must keep learning: data arrive on a clock, and every answer is checked against what actually happened. In each family, the best frontier model averages below half, and models that train on our environments improve.\r\n\r\nWe specialise in time series because almost everything that matters is recorded that way: a heartbeat, a power grid, a factory line, a GPU cluster, an experiment. No person can turn thousands of moving signals at once into the state of a system and what happens next. AI can pass the bar exam, but it still can’t watch a system for weeks and act at the right moment. It learned from what people wrote down, in environments that freeze the world and abstract it to our understanding.\r\n\r\nTime series let us ride the exponential. The world records new data every second and time keeps grading, so each generation of models gets harder, fresher tasks. We believe humans always strive to explore. Our mission is to build the infrastructure for that exploration: the layer of the AI stack where models keep improving, out into what no one understands yet.",
+      "one_liner": "RL environments for superhuman reasoning over time",
+      "team_size": 1,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
       "industry": "B2B",
-      "subindustry": "B2B",
-      "launched_at": 1793920366,
+      "subindustry": "B2B -> Infrastructure",
+      "launched_at": 1793965137,
       "tags": [
         "Generative AI",
-        "eLearning",
+        "Machine Learning",
+        "Reinforcement Learning",
+        "Infrastructure",
         "AI"
       ],
       "tags_highlighted": [],
@@ -81,7 +35,8 @@
       "batch": "Fall 2026",
       "status": "Active",
       "industries": [
-        "B2B"
+        "B2B",
+        "Infrastructure"
       ],
       "regions": [
         "United States of America",
@@ -92,116 +47,36 @@
       "demo_day_video_public": false,
       "app_answers": null,
       "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/championeffect-inc"
+      "url": "https://www.ycombinator.com/companies/reific"
     }
   ],
   "removed": [],
   "updated": [
     {
-      "id": 164,
-      "name": "Mino Games",
-      "slug": "mino-games",
-      "batch": "Winter 2011",
-      "url": "https://www.ycombinator.com/companies/mino-games",
+      "id": 13208,
+      "name": "Whatnot",
+      "slug": "whatnot",
+      "batch": "Winter 2020",
+      "url": "https://www.ycombinator.com/companies/whatnot",
       "changes": [
         {
-          "field": "regions",
-          "before": [
-            "United States of America",
-            "Canada",
-            "America / Canada",
-            "America / Canada"
-          ],
-          "after": [
-            "United States of America",
-            "Canada",
-            "America / Canada"
-          ]
+          "field": "stage",
+          "before": "Early",
+          "after": "Growth"
         }
       ]
     },
     {
-      "id": 999,
-      "name": "Focal Systems",
-      "slug": "focal-systems",
-      "batch": "Winter 2016",
-      "url": "https://www.ycombinator.com/companies/focal-systems",
-      "changes": [
-        {
-          "field": "regions",
-          "before": [
-            "United States of America",
-            "Canada",
-            "United Kingdom",
-            "America / Canada",
-            "America / Canada",
-            "Europe",
-            "Remote",
-            "Partly Remote"
-          ],
-          "after": [
-            "United States of America",
-            "Canada",
-            "United Kingdom",
-            "America / Canada",
-            "Europe",
-            "Remote",
-            "Partly Remote"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 22776,
-      "name": "Sivo",
-      "slug": "sivo",
+      "id": 22744,
+      "name": "Encord",
+      "slug": "encord",
       "batch": "Winter 2021",
-      "url": "https://www.ycombinator.com/companies/sivo",
+      "url": "https://www.ycombinator.com/companies/encord",
       "changes": [
         {
-          "field": "regions",
-          "before": [
-            "Canada",
-            "United States of America",
-            "America / Canada",
-            "America / Canada",
-            "Remote",
-            "Fully Remote"
-          ],
-          "after": [
-            "Canada",
-            "United States of America",
-            "America / Canada",
-            "Remote",
-            "Fully Remote"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 24787,
-      "name": "Squire.ai",
-      "slug": "squire-ai",
-      "batch": "Summer 2021",
-      "url": "https://www.ycombinator.com/companies/squire-ai",
-      "changes": [
-        {
-          "field": "regions",
-          "before": [
-            "United States of America",
-            "Canada",
-            "America / Canada",
-            "America / Canada",
-            "Remote",
-            "Partly Remote"
-          ],
-          "after": [
-            "United States of America",
-            "Canada",
-            "America / Canada",
-            "Remote",
-            "Partly Remote"
-          ]
+          "field": "stage",
+          "before": "Early",
+          "after": "Growth"
         }
       ]
     },
@@ -213,71 +88,104 @@
       "url": "https://www.ycombinator.com/companies/groundmail",
       "changes": [
         {
-          "field": "name",
-          "before": "Ranla",
-          "after": "Groundmail"
-        },
-        {
-          "field": "slug",
-          "before": "ranla",
-          "after": "groundmail"
-        },
-        {
-          "field": "former_names",
-          "before": [
-            "EXO Freight",
-            "Super Send",
-            "SuperSend"
-          ],
-          "after": [
-            "EXO Freight",
-            "Super Send",
-            "SuperSend",
-            "Ranla"
-          ]
-        },
-        {
-          "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/e77030a95d7d1d6848dce062a119a876a2676952.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/a4f4ae559ddcb48e28bda7b41bd34e91608c107c.png"
-        },
-        {
-          "field": "website",
-          "before": "https://ranla.ai/",
-          "after": "https://groundmail.dev/"
-        },
-        {
-          "field": "one_liner",
-          "before": "The AI growth marketer that turns SaaS signups into revenue",
-          "after": "Email for your app and your agents"
-        },
-        {
           "field": "stage",
-          "before": "Growth",
-          "after": "Early"
+          "before": "Early",
+          "after": "Growth"
         }
       ]
     },
     {
-      "id": 28205,
-      "name": "Modulari-T",
-      "slug": "modulari-t",
-      "batch": "Winter 2023",
-      "url": "https://www.ycombinator.com/companies/modulari-t",
+      "id": 25643,
+      "name": "Mintlify",
+      "slug": "mintlify",
+      "batch": "Winter 2022",
+      "url": "https://www.ycombinator.com/companies/mintlify",
       "changes": [
         {
-          "field": "regions",
+          "field": "one_liner",
+          "before": "The intelligent knowledge platform",
+          "after": "The intelligent documentation platform"
+        }
+      ]
+    },
+    {
+      "id": 25913,
+      "name": "Trueplace",
+      "slug": "trueplace",
+      "batch": "Winter 2022",
+      "url": "https://www.ycombinator.com/companies/trueplace",
+      "changes": [
+        {
+          "field": "name",
+          "before": "Inden",
+          "after": "Trueplace"
+        },
+        {
+          "field": "slug",
+          "before": "inden",
+          "after": "trueplace"
+        },
+        {
+          "field": "former_names",
           "before": [
-            "Canada",
-            "United States of America",
-            "America / Canada",
-            "America / Canada"
+            "Trueplace",
+            "Argo",
+            "Trueplace"
           ],
           "after": [
-            "Canada",
-            "United States of America",
-            "America / Canada"
+            "Trueplace",
+            "Argo",
+            "Trueplace",
+            "Inden"
           ]
+        },
+        {
+          "field": "small_logo_thumb_url",
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/16c3d8359a5e6781d8a200a4bfb9d014b212608a.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/8ac66a4d432434bcfa3584f3b5edb68a3103a350.png"
+        },
+        {
+          "field": "website",
+          "before": "https://inden.ai",
+          "after": "https://trueplace.ca/"
+        },
+        {
+          "field": "one_liner",
+          "before": "How people actually talk to machines.",
+          "after": "Supercharging humans"
+        },
+        {
+          "field": "industry",
+          "before": "B2B",
+          "after": "Consumer"
+        },
+        {
+          "field": "subindustry",
+          "before": "B2B",
+          "after": "Consumer"
+        },
+        {
+          "field": "industries",
+          "before": [
+            "B2B"
+          ],
+          "after": [
+            "Consumer"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 28816,
+      "name": "Contour",
+      "slug": "contour",
+      "batch": "Summer 2023",
+      "url": "https://www.ycombinator.com/companies/contour",
+      "changes": [
+        {
+          "field": "website",
+          "before": "",
+          "after": "https://trycontour.com"
         }
       ]
     },
@@ -290,314 +198,69 @@
       "changes": [
         {
           "field": "stage",
-          "before": "Growth",
-          "after": "Early"
+          "before": "Early",
+          "after": "Growth"
         }
       ]
     },
     {
-      "id": 29857,
-      "name": "Pharos",
-      "slug": "pharos",
+      "id": 29735,
+      "name": "FINNY AI",
+      "slug": "finny-ai",
       "batch": "Summer 2024",
-      "url": "https://www.ycombinator.com/companies/pharos",
+      "url": "https://www.ycombinator.com/companies/finny-ai",
       "changes": [
         {
-          "field": "team_size",
-          "before": 5,
-          "after": 10
-        },
-        {
-          "field": "isHiring",
-          "before": false,
-          "after": true
+          "field": "stage",
+          "before": "Early",
+          "after": "Growth"
         }
       ]
     },
     {
-      "id": 30324,
-      "name": "Rebolt",
-      "slug": "rebolt",
-      "batch": "Winter 2025",
-      "url": "https://www.ycombinator.com/companies/rebolt",
-      "changes": [
-        {
-          "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/1c24ec3a4e8dad0268813a9fa6aad15a4b1d9c34.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/0a1d167707d30b6992ede3ff8973e04998fc0697.png"
-        },
-        {
-          "field": "one_liner",
-          "before": "AI-Powered Company OS",
-          "after": "Agentic AI for aircraft maintenance"
-        }
-      ]
-    },
-    {
-      "id": 30352,
-      "name": "Monte",
-      "slug": "monte",
-      "batch": "Summer 2025",
-      "url": "https://www.ycombinator.com/companies/monte",
-      "changes": [
-        {
-          "field": "one_liner",
-          "before": "Continual Learning for Agents",
-          "after": "Specialized Models for Agents"
-        }
-      ]
-    },
-    {
-      "id": 30504,
-      "name": "Third Chair",
-      "slug": "third-chair",
+      "id": 30545,
+      "name": "StarSling",
+      "slug": "starsling",
       "batch": "Spring 2025",
-      "url": "https://www.ycombinator.com/companies/third-chair",
+      "url": "https://www.ycombinator.com/companies/starsling",
       "changes": [
-        {
-          "field": "one_liner",
-          "before": "AI-Native IP Enforcement Agent",
-          "after": "AI-Native IP Enforcement"
-        },
-        {
-          "field": "team_size",
-          "before": 8,
-          "after": 19
-        }
-      ]
-    },
-    {
-      "id": 30873,
-      "name": "Gentle Health",
-      "slug": "gentle-health",
-      "batch": "Fall 2025",
-      "url": "https://www.ycombinator.com/companies/gentle-health",
-      "changes": [
-        {
-          "field": "name",
-          "before": "Tell if AI",
-          "after": "Gentle Health"
-        },
-        {
-          "field": "slug",
-          "before": "tell-if-ai",
-          "after": "gentle-health"
-        },
-        {
-          "field": "former_names",
-          "before": [
-            "Pando Technologies",
-            "Tellif",
-            "Tellif AI",
-            "Tell if AI",
-            "Land.dev"
-          ],
-          "after": [
-            "Pando Technologies",
-            "Tellif",
-            "Tellif AI",
-            "Tell if AI",
-            "Land.dev",
-            "Tell if AI"
-          ]
-        },
-        {
-          "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/da77fda94e244c20522deac6fb0556be091b2804.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/e55b2321392235ecf805f12c1f1d0f0b8d948308.png"
-        },
         {
           "field": "website",
-          "before": "https://tellif.ai",
-          "after": "https://gentle.health"
+          "before": "https://starsling.dev/",
+          "after": "https://starsling.dev"
         },
         {
           "field": "one_liner",
-          "before": "AI agents on real phones, growing brands across every platform.",
-          "after": "The healthcare you want without the hassle "
-        },
-        {
-          "field": "team_size",
-          "before": 2,
-          "after": 4
-        },
-        {
-          "field": "industry",
-          "before": "B2B",
-          "after": "Healthcare"
-        },
-        {
-          "field": "subindustry",
-          "before": "B2B -> Marketing",
-          "after": "Healthcare -> Consumer Health and Wellness"
-        },
-        {
-          "field": "industries",
-          "before": [
-            "B2B",
-            "Marketing"
-          ],
-          "after": [
-            "Healthcare",
-            "Consumer Health and Wellness"
-          ]
+          "before": "Self-Driving CI: fast AI-native GitHub Actions runners",
+          "after": "Agent-native GitHub Actions runners"
         }
       ]
     },
     {
-      "id": 31002,
-      "name": "Clicks Health",
-      "slug": "clicks-health",
-      "batch": "Fall 2025",
-      "url": "https://www.ycombinator.com/companies/clicks-health",
-      "changes": [
-        {
-          "field": "all_locations",
-          "before": "San Francisco, CA, USA",
-          "after": "ZH, Switzerland"
-        },
-        {
-          "field": "regions",
-          "before": [
-            "United States of America",
-            "America / Canada"
-          ],
-          "after": [
-            "Switzerland",
-            "Europe"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 31274,
-      "name": "Khotan (formerly Pollinate)",
-      "slug": "khotan",
+      "id": 31217,
+      "name": "Polymath",
+      "slug": "polymath",
       "batch": "Winter 2026",
-      "url": "https://www.ycombinator.com/companies/khotan",
-      "changes": [
-        {
-          "field": "all_locations",
-          "before": "San Francisco, CA, USA",
-          "after": "Brisbane, QLD, Australia"
-        },
-        {
-          "field": "regions",
-          "before": [
-            "United States of America",
-            "America / Canada"
-          ],
-          "after": [
-            "Australia",
-            "Oceania"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 31335,
-      "name": "Memoir",
-      "slug": "memoir",
-      "batch": "Spring 2026",
-      "url": "https://www.ycombinator.com/companies/memoir",
+      "url": "https://www.ycombinator.com/companies/polymath",
       "changes": [
         {
           "field": "one_liner",
-          "before": "An AI teammate that answers and builds live on your calls",
-          "after": "AI in your calls"
+          "before": "Simulation environments to train & evaluate long-horizon AI agents",
+          "after": "Simulation environments for training & evaluating autonomous agents"
         }
       ]
     },
     {
-      "id": 31413,
-      "name": "Arga Labs",
-      "slug": "arga-labs",
-      "batch": "Spring 2026",
-      "url": "https://www.ycombinator.com/companies/arga-labs",
+      "id": 32133,
+      "name": "Belvedir",
+      "slug": "belvedir",
+      "batch": "Summer 2026",
+      "url": "https://www.ycombinator.com/companies/belvedir",
       "changes": [
         {
-          "field": "all_locations",
-          "before": "Vancouver, BC, Canada",
-          "after": "San Francisco, CA, USA"
-        },
-        {
-          "field": "team_size",
-          "before": 5,
-          "after": 6
-        },
-        {
-          "field": "regions",
-          "before": [
-            "Canada",
-            "America / Canada"
-          ],
-          "after": [
-            "United States of America",
-            "America / Canada"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 31414,
-      "name": "Dreach",
-      "slug": "dreach",
-      "batch": "Spring 2026",
-      "url": "https://www.ycombinator.com/companies/dreach",
-      "changes": [
-        {
-          "field": "subindustry",
-          "before": "B2B -> Infrastructure",
-          "after": "B2B -> Sales"
-        },
-        {
-          "field": "industries",
-          "before": [
-            "B2B",
-            "Infrastructure"
-          ],
-          "after": [
-            "B2B",
-            "Sales"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 31438,
-      "name": "Result",
-      "slug": "result",
-      "batch": "Spring 2026",
-      "url": "https://www.ycombinator.com/companies/result",
-      "changes": [
-        {
-          "field": "all_locations",
-          "before": "",
-          "after": "Mumbai, MH, India"
-        },
-        {
-          "field": "regions",
-          "before": [
-            "Unspecified"
-          ],
-          "after": [
-            "India",
-            "South Asia"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 32286,
-      "name": "Definite",
-      "slug": "definite",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/definite",
-      "changes": [
-        {
-          "field": "one_liner",
-          "before": "Build everyday back-office agents on one live model of your books",
-          "after": "Connect operational data with finance to optimize how your business…"
+          "field": "small_logo_thumb_url",
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/f1794d17c880df4210c90a741d54b5d0320d8dba.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/e95629da52ae523f5bc187a7d2c603bc773cc2e8.png"
         }
       ]
     }
