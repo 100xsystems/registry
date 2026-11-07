@@ -1,99 +1,25 @@
 {
   "date": "2026-11-07",
-  "fetchedAt": "2026-11-07T04:52:07.812Z",
+  "fetchedAt": "2026-11-07T12:45:09.395Z",
   "previousCount": 6374,
   "currentCount": 6374,
-  "added": [
-    {
-      "id": 37171,
-      "name": "Rezora IO",
-      "slug": "rezora-io",
-      "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/28f85e2fbd991f8396599925f9f3bdcdddde5aaf.png",
-      "website": "https://rezora.io/",
-      "all_locations": "New York City, NY, USA; Remote",
-      "long_description": "Rezora IO is an AI voice platform for real estate and home services that answers, qualifies, and schedules every lead, automatically filling your calendar while you focus on closing.",
-      "one_liner": "AI voice agents for home services and real estate",
-      "team_size": 5,
-      "highlight_black": false,
-      "highlight_latinx": false,
-      "highlight_women": false,
-      "industry": "B2B",
-      "subindustry": "B2B",
-      "launched_at": 1794009938,
-      "tags": [
-        "SaaS",
-        "AI",
-        "AI Assistant"
-      ],
-      "tags_highlighted": [],
-      "top_company": false,
-      "isHiring": false,
-      "nonprofit": false,
-      "batch": "Fall 2026",
-      "status": "Active",
-      "industries": [
-        "B2B"
-      ],
-      "regions": [
-        "United States of America",
-        "America / Canada",
-        "Remote",
-        "Fully Remote"
-      ],
-      "stage": "Early",
-      "app_video_public": false,
-      "demo_day_video_public": false,
-      "app_answers": null,
-      "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/rezora-io"
-    }
-  ],
-  "removed": [
-    {
-      "id": 30712,
-      "name": "Relling",
-      "slug": "relling",
-      "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/e003594279b3a4474845b643ff2ee16c26f34a1a.png",
-      "website": "https://relling.co",
-      "all_locations": "San Francisco, CA, USA",
-      "long_description": "",
-      "one_liner": "deploying the first billion robots for manufacturing",
-      "team_size": 0,
-      "highlight_black": false,
-      "highlight_latinx": false,
-      "highlight_women": false,
-      "industry": "B2B",
-      "subindustry": "B2B -> Infrastructure",
-      "launched_at": 1756070413,
-      "tags": [
-        "Robotics",
-        "AI"
-      ],
-      "tags_highlighted": [],
-      "top_company": false,
-      "isHiring": true,
-      "nonprofit": false,
-      "batch": "Summer 2025",
-      "status": "Active",
-      "industries": [
-        "B2B",
-        "Infrastructure"
-      ],
-      "regions": [
-        "United States of America",
-        "America / Canada"
-      ],
-      "stage": "Early",
-      "app_video_public": false,
-      "demo_day_video_public": false,
-      "app_answers": null,
-      "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/relling"
-    }
-  ],
+  "added": [],
+  "removed": [],
   "updated": [
+    {
+      "id": 25819,
+      "name": "Broccoli AI",
+      "slug": "broccoli-ai",
+      "batch": "Winter 2022",
+      "url": "https://www.ycombinator.com/companies/broccoli-ai",
+      "changes": [
+        {
+          "field": "stage",
+          "before": "Early",
+          "after": "Growth"
+        }
+      ]
+    },
     {
       "id": 26707,
       "name": "Chariot",
@@ -103,231 +29,50 @@
       "changes": [
         {
           "field": "stage",
-          "before": "Growth",
-          "after": "Early"
+          "before": "Early",
+          "after": "Growth"
         }
       ]
     },
     {
-      "id": 26733,
-      "name": "Trebu",
-      "slug": "trebu",
-      "batch": "Summer 2022",
-      "url": "https://www.ycombinator.com/companies/trebu",
+      "id": 30230,
+      "name": "SalesPatriot",
+      "slug": "salespatriot",
+      "batch": "Winter 2025",
+      "url": "https://www.ycombinator.com/companies/salespatriot",
       "changes": [
         {
-          "field": "name",
-          "before": "Roxels",
-          "after": "Trebu"
-        },
+          "field": "stage",
+          "before": "Early",
+          "after": "Growth"
+        }
+      ]
+    },
+    {
+      "id": 30922,
+      "name": "Selfin",
+      "slug": "selfin",
+      "batch": "Fall 2025",
+      "url": "https://www.ycombinator.com/companies/selfin",
+      "changes": [
         {
-          "field": "slug",
-          "before": "roxels",
-          "after": "trebu"
-        },
-        {
-          "field": "former_names",
-          "before": [
-            "Trebu",
-            "trebu"
-          ],
-          "after": [
-            "Trebu",
-            "trebu",
-            "Roxels"
-          ]
-        },
-        {
-          "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/0cf53490864092dbff595fc62f53545226e16ac0.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/f1ea718ab51ac3d5f67fb219123a1b48b224d48d.png"
-        },
+          "field": "isHiring",
+          "before": false,
+          "after": true
+        }
+      ]
+    },
+    {
+      "id": 30958,
+      "name": "Absurd",
+      "slug": "absurd",
+      "batch": "Fall 2025",
+      "url": "https://www.ycombinator.com/companies/absurd",
+      "changes": [
         {
           "field": "website",
-          "before": "https://www.roxels.ai/",
-          "after": "https://www.trebu.ai/"
-        },
-        {
-          "field": "one_liner",
-          "before": "Founder-level assistance whenever customers need it, at scale",
-          "after": "AI coworker that automates freight tendering and shipment monitoring…"
-        },
-        {
-          "field": "team_size",
-          "before": 7,
-          "after": 5
-        }
-      ]
-    },
-    {
-      "id": 29317,
-      "name": "CloudCruise",
-      "slug": "cloudcruise",
-      "batch": "Winter 2024",
-      "url": "https://www.ycombinator.com/companies/cloudcruise",
-      "changes": [
-        {
-          "field": "team_size",
-          "before": 7,
-          "after": 8
-        }
-      ]
-    },
-    {
-      "id": 29511,
-      "name": "InspectMind AI",
-      "slug": "inspectmind-ai",
-      "batch": "Winter 2024",
-      "url": "https://www.ycombinator.com/companies/inspectmind-ai",
-      "changes": [
-        {
-          "field": "team_size",
-          "before": 2,
-          "after": 6
-        }
-      ]
-    },
-    {
-      "id": 30733,
-      "name": "Nautilus",
-      "slug": "nautilus",
-      "batch": "Summer 2025",
-      "url": "https://www.ycombinator.com/companies/nautilus",
-      "changes": [
-        {
-          "field": "team_size",
-          "before": 4,
-          "after": 7
-        }
-      ]
-    },
-    {
-      "id": 31009,
-      "name": "Specific Labs",
-      "slug": "specific-labs",
-      "batch": "Fall 2025",
-      "url": "https://www.ycombinator.com/companies/specific-labs",
-      "changes": [
-        {
-          "field": "tags",
-          "before": [
-            "Generative AI",
-            "SaaS",
-            "B2B"
-          ],
-          "after": [
-            "Generative AI",
-            "Reinforcement Learning",
-            "B2B",
-            "AI"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 31199,
-      "name": "Emdash",
-      "slug": "emdash",
-      "batch": "Winter 2026",
-      "url": "https://www.ycombinator.com/companies/emdash",
-      "changes": [
-        {
-          "field": "one_liner",
-          "before": "Agentic Development Environment",
-          "after": "One app for all your coding agents"
-        },
-        {
-          "field": "team_size",
-          "before": 2,
-          "after": 4
-        }
-      ]
-    },
-    {
-      "id": 32171,
-      "name": "LemonLime",
-      "slug": "lemonlime",
-      "batch": "Summer 2026",
-      "url": "https://www.ycombinator.com/companies/lemonlime",
-      "changes": [
-        {
-          "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/8ffbde2e695962be35fad4bb6260c320a8d18271.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/e3deefc6c501d46d5744f36f55494c2a5909f8d4.png"
-        },
-        {
-          "field": "one_liner",
-          "before": "Fully automated GTM for small business",
-          "after": "Fully automated growth for small business"
-        }
-      ]
-    },
-    {
-      "id": 35258,
-      "name": "Mirrors",
-      "slug": "mirrors",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/mirrors",
-      "changes": [
-        {
-          "field": "tags",
-          "before": [
-            "AIOps",
-            "Developer Tools",
-            "B2B",
-            "Infrastructure",
-            "AI"
-          ],
-          "after": [
-            "AIOps",
-            "Developer Tools",
-            "SaaS",
-            "B2B",
-            "AI"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 35260,
-      "name": "OpenCrawl",
-      "slug": "opencrawl",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/opencrawl",
-      "changes": [
-        {
-          "field": "one_liner",
-          "before": "High-performance hyper-personalized search indexes.",
-          "after": "Shared context for your agents."
-        }
-      ]
-    },
-    {
-      "id": 35521,
-      "name": "ORO AI",
-      "slug": "oro-ai",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/oro-ai",
-      "changes": [
-        {
-          "field": "tags",
-          "before": [
-            "Crypto / Web3",
-            "Consumer Products",
-            "AI"
-          ],
-          "after": [
-            "Deep Learning",
-            "Reinforcement Learning",
-            "AI"
-          ]
-        },
-        {
-          "field": "tags_highlighted",
-          "before": [
-            "Crypto / Web3"
-          ],
-          "after": []
+          "before": "https://absurd.com/",
+          "after": "https://absurd.com"
         }
       ]
     }
