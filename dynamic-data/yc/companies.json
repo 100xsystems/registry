@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-06T22:36:22.125Z",
+  "fetchedAt": "2026-11-07T04:52:07.814Z",
   "count": 6374,
   "companies": [
     {
@@ -2061,6 +2061,50 @@
       "app_answers": null,
       "question_answers": false,
       "url": "https://www.ycombinator.com/companies/volaren"
+    },
+    {
+      "id": 37171,
+      "name": "Rezora IO",
+      "slug": "rezora-io",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/28f85e2fbd991f8396599925f9f3bdcdddde5aaf.png",
+      "website": "https://rezora.io/",
+      "all_locations": "New York City, NY, USA; Remote",
+      "long_description": "Rezora IO is an AI voice platform for real estate and home services that answers, qualifies, and schedules every lead, automatically filling your calendar while you focus on closing.",
+      "one_liner": "AI voice agents for home services and real estate",
+      "team_size": 5,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "B2B",
+      "subindustry": "B2B",
+      "launched_at": 1794009938,
+      "tags": [
+        "SaaS",
+        "AI",
+        "AI Assistant"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Fall 2026",
+      "status": "Active",
+      "industries": [
+        "B2B"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada",
+        "Remote",
+        "Fully Remote"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/rezora-io"
     },
     {
       "id": 37170,
@@ -5032,13 +5076,11 @@
       "subindustry": "B2B -> Engineering, Product and Design",
       "launched_at": 1788891308,
       "tags": [
-        "Crypto / Web3",
-        "Consumer Products",
+        "Deep Learning",
+        "Reinforcement Learning",
         "AI"
       ],
-      "tags_highlighted": [
-        "Crypto / Web3"
-      ],
+      "tags_highlighted": [],
       "top_company": false,
       "isHiring": false,
       "nonprofit": false,
@@ -6204,8 +6246,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/a4fa8d15d930712db8c5f88de73e777865076822.png",
       "website": "https://getopencrawl.com",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "OpenCrawl Builds high-performance search indexes over hyper-personalized hard-to-find multimodal data.\r\n\r\nAgents describe the data they need; OpenCrawl finds the sources, then builds and hosts custom crawlers, processing and search indexes. Each index is tuned to be the fastest, most accurate search over that data. Developers wire it into their products through MCP, CLI or API.",
-      "one_liner": "High-performance hyper-personalized search indexes.",
+      "long_description": "OpenCrawl proactively steers your agents so they meet their goals in fewer turns.\r\n\r\nWe ingest context from your other agents, your teammates and your tools already have.",
+      "one_liner": "Shared context for your agents.",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -6259,8 +6301,8 @@
       "tags": [
         "AIOps",
         "Developer Tools",
+        "SaaS",
         "B2B",
-        "Infrastructure",
         "AI"
       ],
       "tags_highlighted": [],
@@ -15779,11 +15821,11 @@
       "name": "LemonLime",
       "slug": "lemonlime",
       "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/8ffbde2e695962be35fad4bb6260c320a8d18271.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/e3deefc6c501d46d5744f36f55494c2a5909f8d4.png",
       "website": "https://www.lemonlime.com/",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "LemonLime runs fully automated sales and marketing for small businesses.\r\n\r\nEvery morning, LemonLime finds you new leads and drafts personalized outreach, prepares branded content, and identifies untapped sales & marketing opportunities.\r\n\r\nAll you have to do is click send.",
-      "one_liner": "Fully automated GTM for small business",
+      "one_liner": "Fully automated growth for small business",
       "team_size": 5,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -27413,7 +27455,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/30eef975f26ed420159ac335c08eb8b950705ee2.png",
       "website": "https://silahq.com",
       "all_locations": "",
-      "long_description": "Sila is the team messenger where your people use agents to work together, and the infrastructure your company runs on from day one. Our mission is to bring superintelligence to all businesses around the world.\r\n",
+      "long_description": "Sila is the team messenger where your people use agents to work together, becoming the infrastructure your company runs on. Our mission is to bring superintelligence to all businesses around the world. ",
       "one_liner": "Agentic Messenger",
       "team_size": 2,
       "highlight_black": false,
@@ -29366,9 +29408,9 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/65f0b89667ff290bb9620bcc2fa2d4c1e952c051.png",
       "website": "https://emdash.com",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Agent-first development environment. Emdash enables engineering teams to develop software faster, by running multiple coding agents in parallel. We're an open-source and provider-agnostic desktop application.",
-      "one_liner": "Agentic Development Environment",
-      "team_size": 2,
+      "long_description": "Emdash brings Claude Code, Codex and other coding agents into one app.\r\n\r\nRun agents in parallel on your own infrastructure, Emdash Cloud or locally. Start tasks from Slack, Linear or GitHub, and let agents keep working after you close your laptop. Access sessions from web, desktop or mobile.\r\n\r\nShare environments, skills, MCP servers and secrets across your team, with centralized access and spend controls. Bring your existing AI subscriptions and cloud commitments. No lock-in.",
+      "one_liner": "One app for all your coding agents",
+      "team_size": 4,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -35024,8 +35066,9 @@
       "launched_at": 1757825190,
       "tags": [
         "Generative AI",
-        "SaaS",
-        "B2B"
+        "Reinforcement Learning",
+        "B2B",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -36616,7 +36659,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/0753ba314978809fa3b7fa403a9b3a5c6982748c.png",
       "website": "https://absurd.com/",
       "all_locations": "Los Angeles, CA, USA",
-      "long_description": "Absurd is an online whiteboard for filmmakers working with AI.\r\n\r\nWe use it for our own work: our Kalshi spot \"Election Day\" did 1M+ views, and our videos average 400K+ organic views.\r\n\r\nTry it at absurd.com",
+      "long_description": "Absurd is an online whiteboard for filmmakers working with AI.\r\n\r\nWe use it for our own work: our Kalshi spot \"Election Day\" did 1M+ views.\r\n\r\nTry it at absurd.com",
       "one_liner": "The production canvas for AI film teams",
       "team_size": 10,
       "highlight_black": false,
@@ -43721,7 +43764,7 @@
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Nautilus is the first modern platform built for car washes, replacing expensive legacy systems that cost operators thousands monthly. Nautilus delivers mobile-first e-commerce, membership management, and automated marketing. Learn more at nautilus.co.",
       "one_liner": "AI platform to grow and to optimize car washes",
-      "team_size": 4,
+      "team_size": 7,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -44531,48 +44574,6 @@
       "app_answers": null,
       "question_answers": false,
       "url": "https://www.ycombinator.com/companies/motives"
-    },
-    {
-      "id": 30712,
-      "name": "Relling",
-      "slug": "relling",
-      "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/e003594279b3a4474845b643ff2ee16c26f34a1a.png",
-      "website": "https://relling.co",
-      "all_locations": "San Francisco, CA, USA",
-      "long_description": "",
-      "one_liner": "deploying the first billion robots for manufacturing",
-      "team_size": 0,
-      "highlight_black": false,
-      "highlight_latinx": false,
-      "highlight_women": false,
-      "industry": "B2B",
-      "subindustry": "B2B -> Infrastructure",
-      "launched_at": 1756070413,
-      "tags": [
-        "Robotics",
-        "AI"
-      ],
-      "tags_highlighted": [],
-      "top_company": false,
-      "isHiring": true,
-      "nonprofit": false,
-      "batch": "Summer 2025",
-      "status": "Active",
-      "industries": [
-        "B2B",
-        "Infrastructure"
-      ],
-      "regions": [
-        "United States of America",
-        "America / Canada"
-      ],
-      "stage": "Early",
-      "app_video_public": false,
-      "demo_day_video_public": false,
-      "app_answers": null,
-      "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/relling"
     },
     {
       "id": 30711,
@@ -78620,7 +78621,7 @@
       "all_locations": "San Francisco, CA, USA",
       "long_description": "An AI agent that catches issues in construction drawings before they become costly rework and project delays",
       "one_liner": "AI agent for construction drawings review",
-      "team_size": 2,
+      "team_size": 6,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -85890,7 +85891,7 @@
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Build healthcare browser automations faster. Run self-healing payer portal and EHR workflows on a fully managed infrastructure.",
       "one_liner": "The developer platform for fast and reliable browser agents",
-      "team_size": 7,
+      "team_size": 8,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -120700,18 +120701,19 @@
     },
     {
       "id": 26733,
-      "name": "Roxels",
-      "slug": "roxels",
+      "name": "Trebu",
+      "slug": "trebu",
       "former_names": [
         "Trebu",
-        "trebu"
+        "trebu",
+        "Roxels"
       ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/0cf53490864092dbff595fc62f53545226e16ac0.png",
-      "website": "https://www.roxels.ai/",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/f1ea718ab51ac3d5f67fb219123a1b48b224d48d.png",
+      "website": "https://www.trebu.ai/",
       "all_locations": "San Francisco, CA, USA; Remote",
-      "long_description": "Roxels is a vision-enabled voice agent that can handle complex flows for your users. For example, it can onboard and give the “Collison Installation” experience to every customer, not just the first ten.",
-      "one_liner": "Founder-level assistance whenever customers need it, at scale",
-      "team_size": 7,
+      "long_description": "Trebu is an AI coworker for road freight. Tendering and tracking loads still run on emails, calls and WhatsApp messages between shippers, brokers and carriers. Trebu reads those messages, pulls out load details, matches loads to carriers and handles the back-and-forth until each load is covered. Once a truck is moving, Trebu monitors the shipment, follows up with drivers and flags delays or incidents before they become problems. Ops teams move more freight with fewer people, and every load is tracked in one place from tender to delivery.",
+      "one_liner": "AI coworker that automates freight tendering and shipment monitoring…",
+      "team_size": 5,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -120743,7 +120745,7 @@
       "demo_day_video_public": false,
       "app_answers": null,
       "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/roxels"
+      "url": "https://www.ycombinator.com/companies/trebu"
     },
     {
       "id": 26732,
@@ -121730,7 +121732,7 @@
         "United States of America",
         "America / Canada"
       ],
-      "stage": "Growth",
+      "stage": "Early",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
