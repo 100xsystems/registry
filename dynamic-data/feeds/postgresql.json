@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-11-07T04:51:43.810Z",
+  "updatedAt": "2026-11-07T17:28:20.961Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -3273,7 +3273,15 @@
       "summary": "`scram_iterations` embeds itself in each password when set and stays there forever, making it a per-password property masquerading as a server setting.\n\n(I consult on PostgreSQL through PGX Inc..)",
       "author": null,
       "publishedAt": "2026-11-07T02:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9Be",
+      "title": "Dave Stokes: Is PostgreSQL Really Winning Part 2: The Evidence Beyond the Rankings",
+      "link": "https://postgr.es/p/9Be",
+      "summary": "My last post leaned hard on the DB-Engines ranking, and I admitted that ranking measures popularity, not installed base or revenue. Several of you called me on that, politely and otherwise. Fair enough.\nSo this time I went looking for evidence that does not come from one ranking site. Usage…",
+      "author": null,
+      "publishedAt": "2026-11-07T17:11:16.000Z"
     }
   ],
-  "totalIndexed": 408
+  "totalIndexed": 409
 }

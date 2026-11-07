@@ -4,27 +4,11 @@
 - Current total: 6374
 - Added: 0
 - Removed: 0
-- Updated: 5
+- Updated: 1
 
 
 ## Updated Companies
 
-### [Broccoli AI](https://www.ycombinator.com/companies/broccoli-ai)
-
-- `stage`: Early → Growth
-
-### [Chariot](https://www.ycombinator.com/companies/chariot-2)
-
-- `stage`: Early → Growth
-
-### [SalesPatriot](https://www.ycombinator.com/companies/salespatriot)
-
-- `stage`: Early → Growth
-
-### [Selfin](https://www.ycombinator.com/companies/selfin)
+### [e2e](https://www.ycombinator.com/companies/e2e)
 
 - `isHiring`: false → true
-
-### [Absurd](https://www.ycombinator.com/companies/absurd)
-
-- `website`: https://absurd.com/ → https://absurd.com
