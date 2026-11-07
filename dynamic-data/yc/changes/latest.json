@@ -1,22 +1,78 @@
 {
   "date": "2026-11-07",
-  "fetchedAt": "2026-11-07T17:28:54.336Z",
+  "fetchedAt": "2026-11-07T21:16:30.203Z",
   "previousCount": 6374,
   "currentCount": 6374,
   "added": [],
   "removed": [],
   "updated": [
     {
-      "id": 31491,
-      "name": "e2e",
-      "slug": "e2e",
-      "batch": "Spring 2026",
-      "url": "https://www.ycombinator.com/companies/e2e",
+      "id": 1226,
+      "name": "OneChronos",
+      "slug": "onechronos",
+      "batch": "Summer 2016",
+      "url": "https://www.ycombinator.com/companies/onechronos",
       "changes": [
         {
-          "field": "isHiring",
-          "before": false,
-          "after": true
+          "field": "one_liner",
+          "before": "The Smart Market for Institutional Investors",
+          "after": "The Smart Market Powering The Future"
+        }
+      ]
+    },
+    {
+      "id": 29394,
+      "name": "Opencall",
+      "slug": "opencall",
+      "batch": "Winter 2024",
+      "url": "https://www.ycombinator.com/companies/opencall",
+      "changes": [
+        {
+          "field": "stage",
+          "before": "Growth",
+          "after": "Early"
+        }
+      ]
+    },
+    {
+      "id": 30512,
+      "name": "MorphoAI",
+      "slug": "morphoai",
+      "batch": "Spring 2025",
+      "url": "https://www.ycombinator.com/companies/morphoai",
+      "changes": [
+        {
+          "field": "team_size",
+          "before": 7,
+          "after": 12
+        },
+        {
+          "field": "tags",
+          "before": [
+            "Robotics",
+            "Manufacturing",
+            "AI"
+          ],
+          "after": [
+            "Machine Learning",
+            "Robotics",
+            "Manufacturing",
+            "AI"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 31091,
+      "name": "Mirabelle",
+      "slug": "mirabelle",
+      "batch": "Winter 2026",
+      "url": "https://www.ycombinator.com/companies/mirabelle",
+      "changes": [
+        {
+          "field": "small_logo_thumb_url",
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/7963bab6d5c6ef48744322024ee1f71a74fde623.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/0115f268d55ca8cee972b7676f04f1488725cfe4.png"
         }
       ]
     }
