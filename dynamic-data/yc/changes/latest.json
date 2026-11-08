@@ -1,93 +1,135 @@
 {
   "date": "2026-11-08",
-  "fetchedAt": "2026-11-08T13:02:59.702Z",
+  "fetchedAt": "2026-11-08T17:39:31.976Z",
   "previousCount": 6376,
   "currentCount": 6376,
   "added": [],
   "removed": [],
   "updated": [
     {
-      "id": 29394,
-      "name": "Opencall",
-      "slug": "opencall",
-      "batch": "Winter 2024",
-      "url": "https://www.ycombinator.com/companies/opencall",
+      "id": 28707,
+      "name": "Kino AI",
+      "slug": "kino-ai",
+      "batch": "Summer 2023",
+      "url": "https://www.ycombinator.com/companies/kino-ai",
       "changes": [
         {
-          "field": "stage",
-          "before": "Early",
-          "after": "Growth"
+          "field": "all_locations",
+          "before": "San Francisco, CA, USA",
+          "after": "Boston, MA, USA"
         }
       ]
     },
     {
-      "id": 30412,
-      "name": "Bloom",
-      "slug": "bloom-4",
-      "batch": "Spring 2025",
-      "url": "https://www.ycombinator.com/companies/bloom-4",
+      "id": 30260,
+      "name": "Macadamia",
+      "slug": "macadamia",
+      "batch": "Winter 2025",
+      "url": "https://www.ycombinator.com/companies/macadamia",
       "changes": [
         {
-          "field": "isHiring",
-          "before": true,
-          "after": false
-        }
-      ]
-    },
-    {
-      "id": 32988,
-      "name": "Markov",
-      "slug": "markov",
-      "batch": "Summer 2026",
-      "url": "https://www.ycombinator.com/companies/markov",
-      "changes": [
-        {
-          "field": "one_liner",
-          "before": "Expert computer-use data for frontier AI labs",
-          "after": "The data lab for engineering and computer-use AI."
-        }
-      ]
-    },
-    {
-      "id": 35523,
-      "name": "twentyfour26",
-      "slug": "twentyfour26",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/twentyfour26",
-      "changes": [
-        {
-          "field": "one_liner",
-          "before": "On Demand CNC Prototyping ",
-          "after": "Building Autonomous Factories in America, Starting with On-Demand CNC…"
+          "field": "all_locations",
+          "before": "Ghent, Flanders, Belgium",
+          "after": "Amsterdam, NH, Netherlands"
         },
         {
-          "field": "tags",
+          "field": "regions",
           "before": [
-            "Robotics",
-            "Manufacturing",
-            "Industrial"
+            "Belgium",
+            "Europe",
+            "Remote",
+            "Partly Remote"
           ],
           "after": [
-            "Hard Tech",
-            "Hardware",
-            "Manufacturing",
-            "AI",
-            "Industrial"
+            "Netherlands",
+            "Europe",
+            "Remote",
+            "Partly Remote"
           ]
         }
       ]
     },
     {
-      "id": 36974,
-      "name": "Epsilab",
-      "slug": "epsilab-com",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/epsilab-com",
+      "id": 30403,
+      "name": "Aravolta",
+      "slug": "aravolta",
+      "batch": "Spring 2025",
+      "url": "https://www.ycombinator.com/companies/aravolta",
       "changes": [
         {
-          "field": "isHiring",
-          "before": false,
-          "after": true
+          "field": "all_locations",
+          "before": "San Francisco, CA, USA",
+          "after": "Indianapolis, IN, USA"
+        }
+      ]
+    },
+    {
+      "id": 30624,
+      "name": "Verne Robotics",
+      "slug": "verne-robotics",
+      "batch": "Summer 2025",
+      "url": "https://www.ycombinator.com/companies/verne-robotics",
+      "changes": [
+        {
+          "field": "all_locations",
+          "before": "San Francisco, CA, USA",
+          "after": "Sacramento, CA, USA"
+        }
+      ]
+    },
+    {
+      "id": 30791,
+      "name": "Spotlight Realty",
+      "slug": "spotlight-realty",
+      "batch": "Summer 2025",
+      "url": "https://www.ycombinator.com/companies/spotlight-realty",
+      "changes": [
+        {
+          "field": "all_locations",
+          "before": "San Francisco, CA, USA",
+          "after": "Portland, OR, USA"
+        }
+      ]
+    },
+    {
+      "id": 30796,
+      "name": "Sapien",
+      "slug": "outrove",
+      "batch": "Summer 2025",
+      "url": "https://www.ycombinator.com/companies/outrove",
+      "changes": [
+        {
+          "field": "all_locations",
+          "before": "San Francisco, CA, USA",
+          "after": "Cairo, Cairo Governorate, Egypt"
+        },
+        {
+          "field": "regions",
+          "before": [
+            "United States of America",
+            "America / Canada"
+          ],
+          "after": [
+            "Egypt",
+            "Middle East and North Africa"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 35126,
+      "name": "Armorer Labs",
+      "slug": "armorer-labs",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/armorer-labs",
+      "changes": [
+        {
+          "field": "former_names",
+          "before": [],
+          "after": [
+            "Armorer Labs",
+            "Odin Robotics"
+          ]
         }
       ]
     }

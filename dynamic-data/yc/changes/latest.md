@@ -4,28 +4,37 @@
 - Current total: 6376
 - Added: 0
 - Removed: 0
-- Updated: 5
+- Updated: 7
 
 
 ## Updated Companies
 
-### [Opencall](https://www.ycombinator.com/companies/opencall)
+### [Kino AI](https://www.ycombinator.com/companies/kino-ai)
 
-- `stage`: Early → Growth
+- `all_locations`: San Francisco, CA, USA → Boston, MA, USA
 
-### [Bloom](https://www.ycombinator.com/companies/bloom-4)
+### [Macadamia](https://www.ycombinator.com/companies/macadamia)
 
-- `isHiring`: true → false
+- `all_locations`: Ghent, Flanders, Belgium → Amsterdam, NH, Netherlands
+- `regions`: Belgium,Europe,Remote,Partly Remote → Netherlands,Europe,Remote,Partly Remote
 
-### [Markov](https://www.ycombinator.com/companies/markov)
+### [Aravolta](https://www.ycombinator.com/companies/aravolta)
 
-- `one_liner`: Expert computer-use data for frontier AI labs → The data lab for engineering and computer-use AI.
+- `all_locations`: San Francisco, CA, USA → Indianapolis, IN, USA
 
-### [twentyfour26](https://www.ycombinator.com/companies/twentyfour26)
+### [Verne Robotics](https://www.ycombinator.com/companies/verne-robotics)
 
-- `one_liner`: On Demand CNC Prototyping  → Building Autonomous Factories in America, Starting with On-Demand CNC…
-- `tags`: Robotics,Manufacturing,Industrial → Hard Tech,Hardware,Manufacturing,AI,Industrial
+- `all_locations`: San Francisco, CA, USA → Sacramento, CA, USA
 
-### [Epsilab](https://www.ycombinator.com/companies/epsilab-com)
+### [Spotlight Realty](https://www.ycombinator.com/companies/spotlight-realty)
 
-- `isHiring`: false → true
+- `all_locations`: San Francisco, CA, USA → Portland, OR, USA
+
+### [Sapien](https://www.ycombinator.com/companies/outrove)
+
+- `all_locations`: San Francisco, CA, USA → Cairo, Cairo Governorate, Egypt
+- `regions`: United States of America,America / Canada → Egypt,Middle East and North Africa
+
+### [Armorer Labs](https://www.ycombinator.com/companies/armorer-labs)
+
+- `former_names`:  → Armorer Labs,Odin Robotics
