@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-11-08T17:39:31.977Z",
-  "count": 6376,
+  "fetchedAt": "2026-11-08T21:31:08.947Z",
+  "count": 6375,
   "companies": [
     {
       "id": 41229,
@@ -1848,9 +1848,9 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/a9d85abe63d98ee4de2bf8d852d5f9cf4ad82e21.png",
       "website": "https://usefr.com/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Build agents that research accounts, find prospects, run campaigns, update your CRM, qualify inbound, and more. Connect them to the systems you already use and let them work alongside your GTM team.\r\n\r\nEngineer your revenue factory on Frontrunner. ",
-      "one_liner": "Cursor for GTM",
-      "team_size": 2,
+      "long_description": "Frontrunner lets GTM teams describe the work they need done and deploy agents that run it, connected to their existing tools and data. Our customers are building agents for everything from inbound lead routing to signal-based outbound and multi-touch attribution. Think Cursor for GTM: the place to engineer your revenue factory. \r\n\r\nGTM engineers and rev ops teams spend their days stitching tools together; and fielding requests from sales and marketing. Each campaign has its own version of who the customer is, what makes a lead qualified, and which signals matter. When the business changes, someone has to update that logic everywhere. Even teams that can build their own tools end up depending on the person who built them to keep everything running.\r\n\r\nNot only does Frontrunner give those agents a shared understanding of your ICP, customers, and gtm motion, but persists that shared understanding automatically when business context changes so that it remains in sync. Sales and marketing build, run, and manage agents against that shared context, using the tools they already know. As prospects move from first touch to closed deal, the results feed back into how agents target, qualify, and engage the next account. Your revenue factory gets smarter with every cycle, optimizing for conversion across the full sales journey.\r\n\r\nOur customers range from AI native startups to agencies running GTM for their clients to established businesses supporting large sales teams. They use Frontrunner to turn their best plays into agents their whole team can use.",
+      "one_liner": "Engineer your GTM",
+      "team_size": 3,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -3387,48 +3387,6 @@
       "app_answers": null,
       "question_answers": false,
       "url": "https://www.ycombinator.com/companies/lux-foods"
-    },
-    {
-      "id": 36511,
-      "name": "Constor",
-      "slug": "constor",
-      "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/bbcd76441dee2bdb14c3fd289a0e0506402935ad.png",
-      "website": "https://constor.ai",
-      "all_locations": "",
-      "long_description": "",
-      "one_liner": "AI native OS for the construction industry",
-      "team_size": 0,
-      "highlight_black": false,
-      "highlight_latinx": false,
-      "highlight_women": false,
-      "industry": "Real Estate and Construction",
-      "subindustry": "Real Estate and Construction -> Construction",
-      "launched_at": 1794102902,
-      "tags": [
-        "Computer Vision",
-        "Construction",
-        "AI"
-      ],
-      "tags_highlighted": [],
-      "top_company": false,
-      "isHiring": false,
-      "nonprofit": false,
-      "batch": "Fall 2026",
-      "status": "Active",
-      "industries": [
-        "Real Estate and Construction",
-        "Construction"
-      ],
-      "regions": [
-        "Unspecified"
-      ],
-      "stage": "Early",
-      "app_video_public": false,
-      "demo_day_video_public": false,
-      "app_answers": null,
-      "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/constor"
     },
     {
       "id": 36510,
@@ -8685,17 +8643,18 @@
     },
     {
       "id": 33674,
-      "name": "UFO.ai",
-      "slug": "ufoai",
+      "name": "Metalcraft",
+      "slug": "metalcraft",
       "former_names": [
         "Metalcraft",
-        "ufo.ai"
+        "ufo.ai",
+        "UFO.ai"
       ],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/5f7933f1917a47bf844572cf253da02eeececc9f.png",
-      "website": "https://ufo.ai",
+      "website": "https://metalcraft.ai",
       "all_locations": "San Francisco, CA, USA; Remote",
-      "long_description": "UFO is the operating platform for your business built by the creators of Github Copilot and Perplexity Computer. \r\n\r\nUFO learns your company, goals, tools, and workflows. UFO builds what your team needs to keep work moving.",
-      "one_liner": "Next-generation agent operating system",
+      "long_description": "Metalcraft develops tasks that test how models analyze data, design experiments, and use evidence. ",
+      "one_liner": "Advancing biological models",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -8704,9 +8663,8 @@
       "subindustry": "B2B",
       "launched_at": 1790567216,
       "tags": [
-        "SaaS",
-        "B2B",
-        "Automation",
+        "Reinforcement Learning",
+        "Data Labeling",
         "AI"
       ],
       "tags_highlighted": [],
@@ -8729,7 +8687,7 @@
       "demo_day_video_public": false,
       "app_answers": null,
       "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/ufoai"
+      "url": "https://www.ycombinator.com/companies/metalcraft"
     },
     {
       "id": 33673,
@@ -14949,7 +14907,7 @@
       "all_locations": "New York City, NY, USA",
       "long_description": "Marble is the first AI-native operating system for the restaurant back-of-house. \r\n\r\nRestaurants, cafes and bars still run on a patchwork of disconnected point solutions, spreadsheets, clipboards and tribal knowledge, which costs the industry billions each year in stockouts, food waste, and lost profit. \r\n\r\nMarble replaces that entire stack with one system. Computer vision and voice AI capture real-time inventory levels 90% faster than manual counts, ML models forecast item-level demand at 97% accuracy, and AI agents run dozens of end-to-end workflows autonomously, from procurement and invoice reconciliation to scheduling, food prep, menu engineering, and more.",
       "one_liner": "The autonomous back-of-house for restaurants.",
-      "team_size": 2,
+      "team_size": 3,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -22660,7 +22618,7 @@
       "all_locations": "Bengaluru, KA, India",
       "long_description": "Enterprise software implementation is broken,  and it has been for decades. \r\nEvery rollout, whether it's a traditional ERP or a new AI system, requires months of manual integration, configuration, and tuning done by armies of system integrators and forward-deployed engineers. \r\nLab0 builds agentic systems that automate this layer, compressing months-long implementations into weeks.",
       "one_liner": "AI FDEs to make your B2B SaaS Go Live in Days, not Months",
-      "team_size": 7,
+      "team_size": 10,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -48960,10 +48918,10 @@
         "prox"
       ],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/98f30fc74152325f6e0cd4158a192d0c292aefd1.png",
-      "website": "",
-      "all_locations": "San Francisco, CA, USA",
-      "long_description": "",
-      "one_liner": "...",
+      "website": "https://useprox.com",
+      "all_locations": "Hawthorne, CA, USA",
+      "long_description": "Parity is a moving target. Every advance in offense prompts a response in defense, and every response starts another race. The West cannot take military superiority for granted. It has to keep building, fielding, and improving technology at scale.\r\n\r\nWe believe hypersonics at scale can be the West's ultimate equalizer. Our mission is to give the United States and its allies the capacity to close capability gaps and sustain credible deterrence as threats evolve.\r\n\r\nProx is developing a stand-in attack weapon platform powered by solid-fuel ducted ramjet propulsion (SFRJ), with repeatable production at the center of the effort.\r\n\r\nBased in Hawthorne, California.\r\nuseprox.com",
+      "one_liner": "Air-breathing hypersonics for scale.",
       "team_size": 3,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -62310,7 +62268,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": true,
+      "isHiring": false,
       "nonprofit": false,
       "batch": "Winter 2025",
       "status": "Active",
@@ -94181,9 +94139,9 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/1c0b0e768a324b2566a3f866bf380445d3ae2fb8.png",
       "website": "https://www.kobaltlabs.com/",
       "all_locations": "New York City, NY, USA",
-      "long_description": "Automate and strengthen manual risk and compliance operations for fintechs and banks. Given a third party contracts and documentation, Kobalt’s reasoning engine ingests internal policies and procedures, legal commitments, past privacy and compliance assessments, and syncs with external legislation to instantly auto-surface and track risks.\r\n\r\nWe're helping community/regional/sponsor banks increase revenue and scale their partnership and vendor volume, and we're helping fintechs conduct their partner diligence in 1/10 the time, all without needing to increase headcount.\r\n",
+      "long_description": "Kobalt Labs is the AI-native TPRM and compliance platform built for financial institutions. Kobalt eliminates the manual steps from third-party reviews of vendors and fintech partners by extracting critical evidence, identifying control gaps, and generating defensible risk analyses within minutes. Always synchronized with evolving federal and state regulations, Kobalt helps financial institutions improve consistency, accelerate review cycles, and strengthen risk management across ERM, compliance, information security, and third-party oversight.\r\n\r\nUsed by banks (community, regionals, sponsor banks), credit unions, and fintechs.\r\n",
       "one_liner": "AI-powered risk and compliance for financial institutions",
-      "team_size": 13,
+      "team_size": 15,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -94192,7 +94150,9 @@
       "launched_at": 1688528207,
       "tags": [
         "Banking as a Service",
-        "Fintech"
+        "Fintech",
+        "Compliance",
+        "Neobank"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -94208,7 +94168,7 @@
         "United States of America",
         "America / Canada"
       ],
-      "stage": "Growth",
+      "stage": "Early",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -95693,7 +95653,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": true,
+      "isHiring": false,
       "nonprofit": false,
       "batch": "Summer 2023",
       "status": "Active",
@@ -126089,8 +126049,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/36b2967ecdee30281d3d29d5db5d7f53cf62c2dc.png",
       "website": "https://heptabase.com/",
       "all_locations": "Manchester, England, United Kingdom; Remote",
-      "long_description": "Heptabase is an intelligent, visual knowledge base built for students, researchers, and lifelong learners. Our product helps you master anything you learn and do your best research with AI.\r\n\r\nHeptabase is backed by Y Combinator, HOF Capital, Kleiner Perkins, Moving Capital, Tonic Fund, and other investors, including the founders of Socialcam, Triplebyte, Codementor, and more.",
-      "one_liner": "An intelligent, visual knowledge base for learning complex topics.",
+      "long_description": "Heptabase is an intelligent, visual knowledge base to understand and create knowledge. It is backed by Y Combinator, HOF Capital, Kleiner Perkins, Moving Capital, Tonic Fund, and other investors, including the founders of Socialcam, Triplebyte, Codementor, and more.",
+      "one_liner": "An AI visual knowledge base to understand and create knowledge.",
       "team_size": 10,
       "highlight_black": false,
       "highlight_latinx": false,

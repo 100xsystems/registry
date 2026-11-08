@@ -1,40 +1,60 @@
 # YC Company Changes for 2026-11-08
 
 - Previous total: 6376
-- Current total: 6376
+- Current total: 6375
 - Added: 0
-- Removed: 0
-- Updated: 7
+- Removed: 1
+- Updated: 9
 
+
+## Removed Companies
+
+- Constor (Fall 2026)
 
 ## Updated Companies
 
-### [Kino AI](https://www.ycombinator.com/companies/kino-ai)
+### [Heptabase](https://www.ycombinator.com/companies/heptabase)
 
-- `all_locations`: San Francisco, CA, USA → Boston, MA, USA
+- `one_liner`: An intelligent, visual knowledge base for learning complex topics. → An AI visual knowledge base to understand and create knowledge.
 
-### [Macadamia](https://www.ycombinator.com/companies/macadamia)
+### [Maintouch](https://www.ycombinator.com/companies/maintouch)
 
-- `all_locations`: Ghent, Flanders, Belgium → Amsterdam, NH, Netherlands
-- `regions`: Belgium,Europe,Remote,Partly Remote → Netherlands,Europe,Remote,Partly Remote
+- `isHiring`: true → false
 
-### [Aravolta](https://www.ycombinator.com/companies/aravolta)
+### [Kobalt Labs](https://www.ycombinator.com/companies/kobalt-labs)
 
-- `all_locations`: San Francisco, CA, USA → Indianapolis, IN, USA
+- `team_size`: 13 → 15
+- `tags`: Banking as a Service,Fintech → Banking as a Service,Fintech,Compliance,Neobank
+- `stage`: Growth → Early
 
-### [Verne Robotics](https://www.ycombinator.com/companies/verne-robotics)
+### [Leaping AI](https://www.ycombinator.com/companies/leaping-ai)
 
-- `all_locations`: San Francisco, CA, USA → Sacramento, CA, USA
+- `isHiring`: true → false
 
-### [Spotlight Realty](https://www.ycombinator.com/companies/spotlight-realty)
+### [Prox](https://www.ycombinator.com/companies/prox)
 
-- `all_locations`: San Francisco, CA, USA → Portland, OR, USA
+- `website`:  → https://useprox.com
+- `all_locations`: San Francisco, CA, USA → Hawthorne, CA, USA
+- `one_liner`: ... → Air-breathing hypersonics for scale.
 
-### [Sapien](https://www.ycombinator.com/companies/outrove)
+### [Lab0](https://www.ycombinator.com/companies/lab0)
 
-- `all_locations`: San Francisco, CA, USA → Cairo, Cairo Governorate, Egypt
-- `regions`: United States of America,America / Canada → Egypt,Middle East and North Africa
+- `team_size`: 7 → 10
 
-### [Armorer Labs](https://www.ycombinator.com/companies/armorer-labs)
+### [Marble](https://www.ycombinator.com/companies/joinmarble)
 
-- `former_names`:  → Armorer Labs,Odin Robotics
+- `team_size`: 2 → 3
+
+### [Metalcraft](https://www.ycombinator.com/companies/metalcraft)
+
+- `name`: UFO.ai → Metalcraft
+- `slug`: ufoai → metalcraft
+- `former_names`: Metalcraft,ufo.ai → Metalcraft,ufo.ai,UFO.ai
+- `website`: https://ufo.ai → https://metalcraft.ai
+- `one_liner`: Next-generation agent operating system → Advancing biological models
+- `tags`: SaaS,B2B,Automation,AI → Reinforcement Learning,Data Labeling,AI
+
+### [Frontrunner](https://www.ycombinator.com/companies/frontrunner)
+
+- `one_liner`: Cursor for GTM → Engineer your GTM
+- `team_size`: 2 → 3
