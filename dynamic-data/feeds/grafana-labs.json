@@ -8,16 +8,8 @@
     "monitoring",
     "data-visualization"
   ],
-  "updatedAt": "2026-11-06T18:55:49.999Z",
+  "updatedAt": "2026-11-09T21:57:46.339Z",
   "items": [
-    {
-      "guid": "grafana-labs::https://grafana.com/grafana/dashboards/9276-1-cpu/",
-      "title": "9276 1 Cpu",
-      "link": "https://grafana.com/grafana/dashboards/9276-1-cpu/",
-      "summary": null,
-      "author": null,
-      "publishedAt": "2001-01-31T18:30:00.000Z"
-    },
     {
       "guid": "grafana-labs::https://grafana.com/grafana/dashboards/12790-wakatime-coding-stats/",
       "title": "12790 Wakatime Coding Stats",
@@ -80009,7 +80001,15 @@
       "summary": "AI agents are becoming part of everyday engineering workflows, helping teams write code, troubleshoot issues, and automate tasks. But to be truly useful in production, these agents need access to more than code. They also need observability data and context to understand what's happening across…",
       "author": "Gianni Baiardi",
       "publishedAt": "2026-11-06T18:37:07.000Z"
+    },
+    {
+      "guid": "https://grafana.com/blog/run-cost-effective-always-on-agents-to-monitor-your-environment-the-engineering-behind-watchers/",
+      "title": "Run cost-effective, always-on agents to monitor your environment: the engineering behind Watchers",
+      "link": "https://grafana.com/blog/run-cost-effective-always-on-agents-to-monitor-your-environment-the-engineering-behind-watchers/",
+      "summary": "Alert rules are great for the failures you can predict, but they fall short on the ones you can't. With the advent of modern AI, you might think the solution is to swarm your stack with agents that monitor every last detail, but that can quickly lead to astronomical bills.\nAnd those are the gaps…",
+      "author": "William Dumont",
+      "publishedAt": "2026-11-09T16:30:31.000Z"
     }
   ],
-  "totalIndexed": 21939
+  "totalIndexed": 21940
 }

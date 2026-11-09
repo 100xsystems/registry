@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-11-09T15:45:45.654Z",
+  "updatedAt": "2026-11-09T21:57:46.777Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -3321,7 +3321,23 @@
       "summary": "On 4 November, the PostgreSQL Meetup Group Berlin met. \nOrganized by:\nAndreas Scherbaum\nDaria Aleshkova\nOleksii Kliukin\nSergey Dudoladov\nSpeakers: \nDaria Nikolaenko\nMehmet Ince\nOn 6 November, Claire Giordano and Aaron Wislang hosted and published a new podcast episode “How I got started in Postgres…",
       "author": null,
       "publishedAt": "2026-11-09T08:58:17.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9Bq",
+      "title": "Hubert 'depesz' Lubaczewski: What LLMs do to PostgreSQL and DBAs",
+      "link": "https://postgr.es/p/9Bq",
+      "summary": "Recently there has been some discussion about why so many features got reverted from PostgreSQL 19. I've read blogposts, talked with people, spent some time thinking. And it got me curious. I noticed lately that there is more mails to pgsql-bugs mailing list – basically reports of bugs, or…",
+      "author": null,
+      "publishedAt": "2026-11-09T20:54:04.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9Bp",
+      "title": "Richard Yen: An Index Scan Is Only Half the Story",
+      "link": "https://postgr.es/p/9Bp",
+      "summary": "Also posted in Microsoft Blog for PostgreSQL\nSame Query, Same Index, Different Performance\nI recently worked with a customer planning a migration from on-premises PostgreSQL to Azure Database for PostgreSQL.  During performance testing, they noticed something troubling: a query that completed in…",
+      "author": null,
+      "publishedAt": "2026-11-09T05:00:00.000Z"
     }
   ],
-  "totalIndexed": 414
+  "totalIndexed": 416
 }

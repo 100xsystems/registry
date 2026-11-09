@@ -8,7 +8,7 @@
     "debugging",
     "performance"
   ],
-  "updatedAt": "2026-11-03T19:06:50.783Z",
+  "updatedAt": "2026-11-09T21:57:47.009Z",
   "items": [
     {
       "guid": "https://blog.sentry.io/godot-dotnet-ga/",
@@ -457,7 +457,15 @@
       "summary": "How we used a coding agent and the Sentry MCP to find backend performance wins in Sentry's own traces and remove hundreds of millions of queries a week.",
       "author": null,
       "publishedAt": "2026-11-03T09:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.sentry.io/broken-release-database-load/",
+      "title": "How a broken release name overloaded our symbolication database",
+      "link": "https://blog.sentry.io/broken-release-database-load/",
+      "summary": "An unexpanded env var filled one release with 44M URL index rows. Capping lookups cut database CPU from 76% to 19% and symbolication timeouts by 98%.",
+      "author": null,
+      "publishedAt": "2026-11-09T09:00:00.000Z"
     }
   ],
-  "totalIndexed": 56
+  "totalIndexed": 57
 }

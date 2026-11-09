@@ -1,83 +1,97 @@
 # YC Company Changes for 2026-11-09
 
-- Previous total: 6378
-- Current total: 6381
+- Previous total: 6381
+- Current total: 6384
 - Added: 3
 - Removed: 0
-- Updated: 15
+- Updated: 18
 
 
 ## Added Companies
 
-- [Vorflux](https://www.ycombinator.com/companies/vorflux) (Fall 2026) — A cloud-based AI coding agent for teams
-- [Ordo Labs](https://www.ycombinator.com/companies/ordo-labs) (Fall 2026) — The AI-native OS for regulated labs
-- [HyperBench](https://www.ycombinator.com/companies/hyperbench) (Fall 2026) — AI agents for hardware/software co-development
+- [Mendelia](https://www.ycombinator.com/companies/mendelia) (Winter 2026) — AI-powered back office employees for surgical practices
+- [Summer Engine](https://www.ycombinator.com/companies/summer-engine) (Fall 2026) — The AI game engine.
+- [SE3 Labs](https://www.ycombinator.com/companies/se3-labs) (Fall 2026) — Real-World RL Environments for Physical AI
 
 ## Updated Companies
 
-### [Bagaveev Corporation](https://www.ycombinator.com/companies/bagaveev-corporation)
+### [Expo](https://www.ycombinator.com/companies/expo)
 
-- `website`: http://bagaveev.com → 
+- `one_liner`: Expo brings together the best of web and native app development → The fastest way to build and run apps
+- `team_size`: 40 → 75
+- `stage`: Growth → Early
 
-### [Phonic](https://www.ycombinator.com/companies/phonic)
+### [Flock Safety](https://www.ycombinator.com/companies/flock-safety)
 
-- `website`: https://phonic.ai → 
+- `isHiring`: true → false
 
-### [Roboflow](https://www.ycombinator.com/companies/roboflow)
+### [Wyndly](https://www.ycombinator.com/companies/wyndly)
 
-- `stage`: Early → Growth
+- `status`: Active → Acquired
 
-### [Whalesync](https://www.ycombinator.com/companies/whalesync)
+### [Secoda](https://www.ycombinator.com/companies/secoda)
 
-- `website`: https://www.whalesync.com → https://www.whalesync.com/?utm_source=ycombinator&utm_medium=directory&utm_campaign=listing&utm_cont
-- `all_locations`: St. Petersburg, FL, USA; Remote → Saint Petersburg, FL, USA; Remote
-- `one_liner`: Manage your website from your favorite tools like Airtable and Notion → Two-way sync for your CRM, spreadsheets, database, and website
-- `team_size`: 8 → 5
-- `tags`: SaaS,Remote Work,No-code,Data Engineering,Web Development → SaaS,Workflow Automation,No-code,Data Engineering,Automation
+- `status`: Active → Acquired
+- `stage`: Growth → Early
 
-### [Mecho Autotech](https://www.ycombinator.com/companies/mecho-autotech)
+### [Tank Payments](https://www.ycombinator.com/companies/tank-payments)
 
-- `website`: https://mechoautotech.com/ → 
+- `isHiring`: true → false
 
-### [Credal.ai](https://www.ycombinator.com/companies/credal-ai)
+### [Kyber](https://www.ycombinator.com/companies/kyber)
 
-- `one_liner`: The Control Plane for Enterprise Agents → Context in, Accurate, cost-efficient agents out
+- `isHiring`: true → false
 
-### [Yuma AI](https://www.ycombinator.com/companies/yuma-ai)
+### [Storia AI](https://www.ycombinator.com/companies/storia-ai)
 
-- `isHiring`: false → true
+- `status`: Active → Inactive
 
-### [Kobalt Labs](https://www.ycombinator.com/companies/kobalt-labs)
+### [SimCare](https://www.ycombinator.com/companies/simcare)
 
-- `stage`: Early → Growth
+- `isHiring`: true → false
 
-### [Respan](https://www.ycombinator.com/companies/respan)
+### [A1Base](https://www.ycombinator.com/companies/a1base)
 
-- `team_size`: 20 → 17
+- `name`: A1Zap by A1Base → A1Base
+- `slug`: a1zap-by-a1base → a1base
+- `former_names`: A101,A1Base → A101,A1Base,A1Zap by A1Base
+- `website`: https://www.a1zap.com/ → https://www.a1base.com/
 
-### [Wafer](https://www.ycombinator.com/companies/wafer)
+### [Tire Swing](https://www.ycombinator.com/companies/tire-swing)
 
-- `stage`: Early → Growth
+- `one_liner`: AI Compliance for Affordable Housing → The AI Affordable Housing Platform
 
-### [Zavo](https://www.ycombinator.com/companies/zavo)
+### [Optifye.ai](https://www.ycombinator.com/companies/optifye-ai)
 
-- `one_liner`: Unlocking the world’s most valuable data for frontier AI. → Data research lab for frontier AI.
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/d86ffdce2296389239f29bc23023bc7867815208.png → https://bookface-images.s3.amazonaws.com/small_logos/ca159b5ffbe4e6827837bc3d6df03b067bce6cb2.png
+- `one_liner`: AI performance monitoring for factory workers → AI cameras for workforce monitoring 
+- `team_size`: 8 → 12
 
-### [Darwin Robotics](https://www.ycombinator.com/companies/darwin-robotics)
+### [Opusense AI](https://www.ycombinator.com/companies/opusense-ai)
 
-- `name`: Darwin → Darwin Robotics
-- `slug`: darwin → darwin-robotics
-- `former_names`: Thesis Labs,Thesis,Darwin,Thesis → Thesis Labs,Thesis,Darwin,Thesis,Darwin
+- `isHiring`: true → false
 
-### [Laurence](https://www.ycombinator.com/companies/laurence)
+### [OpenSpec](https://www.ycombinator.com/companies/openspec)
 
-- `one_liner`: Quantitative research for autonomous e-commerce growth → Agents that run your Amazon ads
+- `all_locations`: Sydney, NSW, Australia → San Francisco, CA, USA
+- `regions`: Australia,Oceania → United States of America,America / Canada
 
-### [Samora AI](https://www.ycombinator.com/companies/samora-ai)
+### [Sherpa](https://www.ycombinator.com/companies/sherpa)
 
-- `isHiring`: false → true
+- `tags`:  → SaaS,B2B,Marketing,AI
 
-### [Locke](https://www.ycombinator.com/companies/locke)
+### [Reason Machines](https://www.ycombinator.com/companies/reason-machines)
 
-- `one_liner`: The first AI government affairs firm. → The First AI Government Affairs Firm.
-- `team_size`: 3 → 4
+- `one_liner`: Reason is the AI teammate for work and code. → Reason is most world's effective agent on cost per task
+
+### [Nxtcure Labs](https://www.ycombinator.com/companies/nxtcure-labs)
+
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/96ae92a8adbb85f9a1045d9323611d53252e2d64.png → https://bookface-images.s3.amazonaws.com/small_logos/b4d6319538171495ccc1876c381fe69a4f658969.png
+
+### [TryNearby](https://www.ycombinator.com/companies/trynearby)
+
+- `isHiring`: true → false
+
+### [OpEra](https://www.ycombinator.com/companies/opera)
+
+- `team_size`: 2 → 3
