@@ -1,33 +1,30 @@
 {
   "date": "2026-11-09",
-  "fetchedAt": "2026-11-09T04:53:21.826Z",
-  "previousCount": 6375,
-  "currentCount": 6378,
+  "fetchedAt": "2026-11-09T15:46:02.327Z",
+  "previousCount": 6378,
+  "currentCount": 6381,
   "added": [
     {
-      "id": 37237,
-      "name": "Elithia",
-      "slug": "elithia",
-      "former_names": [
-        "Minerva Labs"
-      ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/20436ab063ed4eb9cfc3c31dc2982dbc3d245463.png",
-      "website": "https://elithia.com",
+      "id": 33574,
+      "name": "Vorflux",
+      "slug": "vorflux",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/376bda82fa73bd6edadb1859b1ee16cb3d4d1558.png",
+      "website": "https://vorflux.ai",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "US workers' compensation paid out $64.1 billion in 2023. Personal injury, malpractice, and other insurance claims add billions more. Behind every one of these claims sit thousands of pages of medical records, and a clinician spends hours or days reading them to reconstruct what happened to the patient.\n\nElithia is building agents to do this work.\n\nOur agents reconstruct patient histories, reason across conflicting evidence, and produce defensible analyses, with every finding cited to the original record.\n\nWe've sold to physician expert witnesses and medical-legal firms, turning thousands of pages into court-ready chronologies an expert can verify in minutes. Next: TPAs and insurers, where the same review sits behind every injury claim.",
-      "one_liner": "Agents for the medical review behind every claim",
-      "team_size": 1,
+      "long_description": "Vorflux is a cloud-based AI coding agent for teams that takes work from an idea, ticket, or message through planning, implementation, review, testing, and a pull request.\r\n\r\nIts harness coordinates parallel agents, uses different models for planning and adversarial review, and retains codebase knowledge across sessions. Each team's repository and full stack run on dedicated compute, where QA agents test the application in a real browser and record video evidence.\r\n\r\nVorflux connects to tools such as GitHub, GitLab, Linear, Slack, Figma, and Jira, as well as cloud infrastructure and observability tools. Teams can bring their own models, with tasks routed to the best-value model. Vorflux also helps teams set up the harness and work through their first backlog.",
+      "one_liner": "A cloud-based AI coding agent for teams",
+      "team_size": 0,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
       "industry": "B2B",
-      "subindustry": "B2B -> Legal",
-      "launched_at": 1794174834,
+      "subindustry": "B2B -> Engineering, Product and Design",
+      "launched_at": 1794214000,
       "tags": [
-        "Health Tech",
+        "Developer Tools",
         "B2B",
-        "LegalTech",
-        "Insurance",
+        "Enterprise Software",
         "AI"
       ],
       "tags_highlighted": [],
@@ -38,7 +35,7 @@
       "status": "Active",
       "industries": [
         "B2B",
-        "Legal"
+        "Engineering, Product and Design"
       ],
       "regions": [
         "United States of America",
@@ -49,29 +46,32 @@
       "demo_day_video_public": false,
       "app_answers": null,
       "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/elithia"
+      "url": "https://www.ycombinator.com/companies/vorflux"
     },
     {
-      "id": 37599,
-      "name": "BioDelivera",
-      "slug": "biodelivera",
-      "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/103574b8d0b5907b8788ed0e0c0ce09af40e81be.png",
-      "website": "https://biodelivera.com/",
+      "id": 35421,
+      "name": "Ordo Labs",
+      "slug": "ordo-labs",
+      "former_names": [
+        "Ordo Labs Sweden AB"
+      ],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/5db3ba9e7d7bb9c75e6f53fd5737442d244c4f85.png",
+      "website": "https://ordolabs.ai/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "BioDelivera has developed proprietary GCV™, a drug delivery platform designed to travel through the body and selectively target diseased cells while sparing healthy ones. GCVs can carry genetic medicines, DNA, RNA, small molecules, or combinations of these at the same time. BioDelivera has demonstrated efficacy in tumors, muscle, and brain and is expanding to additional tissues. The company’s mission is to enable cures for every patient, across every disease.",
-      "one_liner": "Programmable drug delivery precisely targets only diseased cells",
-      "team_size": 2,
+      "long_description": "Ordo Labs is bringing AI into regulated labs. In paid pilots with labs in the US and Europe, Ordo cut post-analysis work by 90%+.\r\n\r\nCROs and CDMOs are a $314.8B industry, but they can't rely on generic AI tools, because every result must be traceable, every system validated, and every change QA-approved. Ordo is the AI-native OS for regulated labs: each lab gets its own deployment built to be validated, every output links back to its source data, and scientists and QA sign off on every result. Every workflow on Ordo inherits these controls.\r\n\r\nLive today: data analysis, quality review and reporting. We're advised by laboratory executives and have interviewed 100+ scientists. Our goal is to make regulated labs AI-native, so science can move at the speed of AI.\r\n\r\nRun a CRO or CDMO? Email us at founders@ordolabs.ai.",
+      "one_liner": "The AI-native OS for regulated labs",
+      "team_size": 4,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
       "industry": "Healthcare",
       "subindustry": "Healthcare -> Drug Discovery and Delivery",
-      "launched_at": 1794176993,
+      "launched_at": 1786113457,
       "tags": [
-        "Gene Therapy",
-        "Cell Therapy",
-        "Drug Delivery"
+        "Biotech",
+        "Compliance",
+        "Automation",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -92,35 +92,37 @@
       "demo_day_video_public": false,
       "app_answers": null,
       "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/biodelivera"
+      "url": "https://www.ycombinator.com/companies/ordo-labs"
     },
     {
-      "id": 41660,
-      "name": "Xulux",
-      "slug": "xulux",
-      "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/a2bcfe6701a07343c8f73809ddf413dc66bfbf31.png",
-      "website": "https://xulux.ai/",
+      "id": 35524,
+      "name": "HyperBench",
+      "slug": "hyperbench",
+      "former_names": [
+        "Metryxa Studio"
+      ],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/4577a9f33ff1caa656255245607b5054740ac2ab.png",
+      "website": "https://hyperbench.ai/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Xulux helps Devtool companies increase their user conversion. \r\n\r\nProblem: Companies lose customers to failed agent implementations\r\n\r\nSolution: We proactively create evals and benchmarks to find out why agents drop your tools and fixe them automatically.\r\nOur evals keeps up with the changes and generate evolving tests forever. And we run these evals across models and harnesses.",
-      "one_liner": "Prepare your devtool for agents",
+      "long_description": "An agentic engineering platform for hardware and software co-development, with specialized AI agents that understand your system, work across repositories, and verify their changes on real hardware.",
+      "one_liner": "AI agents for hardware/software co-development",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
       "industry": "B2B",
       "subindustry": "B2B -> Engineering, Product and Design",
-      "launched_at": 1794184378,
+      "launched_at": 1794203510,
       "tags": [
-        "Developer Tools",
-        "Reinforcement Learning",
+        "Hardware",
+        "Enterprise Software",
         "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
       "isHiring": false,
       "nonprofit": false,
-      "batch": "Winter 2027",
+      "batch": "Fall 2026",
       "status": "Active",
       "industries": [
         "B2B",
@@ -135,11 +137,39 @@
       "demo_day_video_public": false,
       "app_answers": null,
       "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/xulux"
+      "url": "https://www.ycombinator.com/companies/hyperbench"
     }
   ],
   "removed": [],
   "updated": [
+    {
+      "id": 843,
+      "name": "Bagaveev Corporation",
+      "slug": "bagaveev-corporation",
+      "batch": "Winter 2015",
+      "url": "https://www.ycombinator.com/companies/bagaveev-corporation",
+      "changes": [
+        {
+          "field": "website",
+          "before": "http://bagaveev.com",
+          "after": ""
+        }
+      ]
+    },
+    {
+      "id": 13074,
+      "name": "Phonic",
+      "slug": "phonic",
+      "batch": "Winter 2020",
+      "url": "https://www.ycombinator.com/companies/phonic",
+      "changes": [
+        {
+          "field": "website",
+          "before": "https://phonic.ai",
+          "after": ""
+        }
+      ]
+    },
     {
       "id": 21769,
       "name": "Roboflow",
@@ -148,28 +178,125 @@
       "url": "https://www.ycombinator.com/companies/roboflow",
       "changes": [
         {
-          "field": "team_size",
-          "before": 100,
-          "after": 150
-        },
-        {
           "field": "stage",
-          "before": "Growth",
-          "after": "Early"
+          "before": "Early",
+          "after": "Growth"
         }
       ]
     },
     {
-      "id": 29205,
-      "name": "ego",
-      "slug": "ego",
-      "batch": "Winter 2024",
-      "url": "https://www.ycombinator.com/companies/ego",
+      "id": 24384,
+      "name": "Whalesync",
+      "slug": "whalesync",
+      "batch": "Summer 2021",
+      "url": "https://www.ycombinator.com/companies/whalesync",
+      "changes": [
+        {
+          "field": "website",
+          "before": "https://www.whalesync.com",
+          "after": "https://www.whalesync.com/?utm_source=ycombinator&utm_medium=directory&utm_campaign=listing&utm_content=website"
+        },
+        {
+          "field": "all_locations",
+          "before": "St. Petersburg, FL, USA; Remote",
+          "after": "Saint Petersburg, FL, USA; Remote"
+        },
+        {
+          "field": "one_liner",
+          "before": "Manage your website from your favorite tools like Airtable and Notion",
+          "after": "Two-way sync for your CRM, spreadsheets, database, and website"
+        },
+        {
+          "field": "team_size",
+          "before": 8,
+          "after": 5
+        },
+        {
+          "field": "tags",
+          "before": [
+            "SaaS",
+            "Remote Work",
+            "No-code",
+            "Data Engineering",
+            "Web Development"
+          ],
+          "after": [
+            "SaaS",
+            "Workflow Automation",
+            "No-code",
+            "Data Engineering",
+            "Automation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 24915,
+      "name": "Mecho Autotech",
+      "slug": "mecho-autotech",
+      "batch": "Summer 2021",
+      "url": "https://www.ycombinator.com/companies/mecho-autotech",
+      "changes": [
+        {
+          "field": "website",
+          "before": "https://mechoautotech.com/",
+          "after": ""
+        }
+      ]
+    },
+    {
+      "id": 27690,
+      "name": "Credal.ai",
+      "slug": "credal-ai",
+      "batch": "Winter 2023",
+      "url": "https://www.ycombinator.com/companies/credal-ai",
+      "changes": [
+        {
+          "field": "one_liner",
+          "before": "The Control Plane for Enterprise Agents",
+          "after": "Context in, Accurate, cost-efficient agents out"
+        }
+      ]
+    },
+    {
+      "id": 28417,
+      "name": "Yuma AI",
+      "slug": "yuma-ai",
+      "batch": "Winter 2023",
+      "url": "https://www.ycombinator.com/companies/yuma-ai",
       "changes": [
         {
           "field": "isHiring",
-          "before": true,
-          "after": false
+          "before": false,
+          "after": true
+        }
+      ]
+    },
+    {
+      "id": 28971,
+      "name": "Kobalt Labs",
+      "slug": "kobalt-labs",
+      "batch": "Summer 2023",
+      "url": "https://www.ycombinator.com/companies/kobalt-labs",
+      "changes": [
+        {
+          "field": "stage",
+          "before": "Early",
+          "after": "Growth"
+        }
+      ]
+    },
+    {
+      "id": 29325,
+      "name": "Respan",
+      "slug": "respan",
+      "batch": "Winter 2024",
+      "url": "https://www.ycombinator.com/companies/respan",
+      "changes": [
+        {
+          "field": "team_size",
+          "before": 20,
+          "after": 17
         }
       ]
     },
@@ -181,167 +308,105 @@
       "url": "https://www.ycombinator.com/companies/wafer",
       "changes": [
         {
-          "field": "team_size",
-          "before": 15,
-          "after": 21
+          "field": "stage",
+          "before": "Early",
+          "after": "Growth"
+        }
+      ]
+    },
+    {
+      "id": 30850,
+      "name": "Zavo",
+      "slug": "zavo",
+      "batch": "Fall 2025",
+      "url": "https://www.ycombinator.com/companies/zavo",
+      "changes": [
+        {
+          "field": "one_liner",
+          "before": "Unlocking the world’s most valuable data for frontier AI.",
+          "after": "Data research lab for frontier AI."
+        }
+      ]
+    },
+    {
+      "id": 30928,
+      "name": "Darwin Robotics",
+      "slug": "darwin-robotics",
+      "batch": "Fall 2025",
+      "url": "https://www.ycombinator.com/companies/darwin-robotics",
+      "changes": [
+        {
+          "field": "name",
+          "before": "Darwin",
+          "after": "Darwin Robotics"
         },
         {
-          "field": "stage",
-          "before": "Growth",
-          "after": "Early"
-        }
-      ]
-    },
-    {
-      "id": 31433,
-      "name": "Savant",
-      "slug": "savant",
-      "batch": "Spring 2026",
-      "url": "https://www.ycombinator.com/companies/savant",
-      "changes": [
+          "field": "slug",
+          "before": "darwin",
+          "after": "darwin-robotics"
+        },
         {
-          "field": "team_size",
-          "before": 2,
-          "after": 7
+          "field": "former_names",
+          "before": [
+            "Thesis Labs",
+            "Thesis",
+            "Darwin",
+            "Thesis"
+          ],
+          "after": [
+            "Thesis Labs",
+            "Thesis",
+            "Darwin",
+            "Thesis",
+            "Darwin"
+          ]
         }
       ]
     },
     {
-      "id": 32123,
-      "name": "HERA",
-      "slug": "manufacturingintelligence",
-      "batch": "Summer 2026",
-      "url": "https://www.ycombinator.com/companies/manufacturingintelligence",
-      "changes": [
-        {
-          "field": "one_liner",
-          "before": "We make sure every factory in the world builds without mistakes.",
-          "after": "Agents for Industrials"
-        }
-      ]
-    },
-    {
-      "id": 32286,
-      "name": "Definite",
-      "slug": "definite",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/definite",
+      "id": 31173,
+      "name": "Laurence",
+      "slug": "laurence",
+      "batch": "Winter 2026",
+      "url": "https://www.ycombinator.com/companies/laurence",
       "changes": [
         {
           "field": "one_liner",
-          "before": "Connect operational data with finance to optimize how your business…",
-          "after": "Connect operational data with finance to see what drives the numbers."
+          "before": "Quantitative research for autonomous e-commerce growth",
+          "after": "Agents that run your Amazon ads"
         }
       ]
     },
     {
-      "id": 35126,
-      "name": "Armorer Labs",
-      "slug": "armorer-labs",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/armorer-labs",
-      "changes": [
-        {
-          "field": "one_liner",
-          "before": "Continuous security verification for AI agents in regulated industries",
-          "after": "Continuous security verification for AI systems in regulated…"
-        }
-      ]
-    },
-    {
-      "id": 35265,
-      "name": "Hopper",
-      "slug": "hopper",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/hopper",
-      "changes": [
-        {
-          "field": "one_liner",
-          "before": "Inference and post-training for realtime agents",
-          "after": "Fast, open-source inference for voice"
-        }
-      ]
-    },
-    {
-      "id": 35587,
-      "name": "Ploid",
-      "slug": "ploid",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/ploid",
-      "changes": [
-        {
-          "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/bb8cfe58317eeba078abcb4a9b1d2c14affb42f9.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/0818fc968494e08cc15fca10a1d1c43ca33aa3e0.png"
-        }
-      ]
-    },
-    {
-      "id": 36084,
-      "name": "Covera",
-      "slug": "covera",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/covera",
+      "id": 31206,
+      "name": "Samora AI",
+      "slug": "samora-ai",
+      "batch": "Winter 2026",
+      "url": "https://www.ycombinator.com/companies/samora-ai",
       "changes": [
         {
           "field": "isHiring",
-          "before": true,
-          "after": false
+          "before": false,
+          "after": true
         }
       ]
     },
     {
-      "id": 36088,
-      "name": "EveryApp",
-      "slug": "everyapp",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/everyapp",
+      "id": 33283,
+      "name": "Locke",
+      "slug": "locke",
+      "batch": "Summer 2026",
+      "url": "https://www.ycombinator.com/companies/locke",
       "changes": [
         {
           "field": "one_liner",
-          "before": "Make every app open source",
-          "after": "Making every SaaS open source"
-        }
-      ]
-    },
-    {
-      "id": 37272,
-      "name": "The Subvocal Company",
-      "slug": "the-subvocal-company",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/the-subvocal-company",
-      "changes": [
-        {
-          "field": "one_liner",
-          "before": "Talk to your computer without talking",
-          "after": "Glasses that turn silent speech into text"
-        }
-      ]
-    },
-    {
-      "id": 37830,
-      "name": "Tilo",
-      "slug": "tilo",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/tilo",
-      "changes": [
-        {
-          "field": "one_liner",
-          "before": "A Linux-based, AI-native operating system.",
-          "after": "The Microsoft of the AI era: the operating system for AI agents."
+          "before": "The first AI government affairs firm.",
+          "after": "The First AI Government Affairs Firm."
         },
         {
-          "field": "tags",
-          "before": [
-            "AIOps",
-            "AI"
-          ],
-          "after": [
-            "Developer Tools",
-            "Open Source",
-            "Infrastructure",
-            "AI"
-          ]
+          "field": "team_size",
+          "before": 3,
+          "after": 4
         }
       ]
     }
