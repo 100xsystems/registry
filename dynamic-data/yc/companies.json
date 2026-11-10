@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-11-10T19:22:26.621Z",
-  "count": 6388,
+  "fetchedAt": "2026-11-10T22:42:01.403Z",
+  "count": 6389,
   "companies": [
     {
       "id": 42087,
@@ -6401,6 +6401,7 @@
       "launched_at": 1788984366,
       "tags": [
         "Developer Tools",
+        "Open Source",
         "Enterprise Software",
         "AI"
       ],
@@ -7231,7 +7232,7 @@
       "website": "https://stacktrace.ai",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Agents will do most of the work in the future, but only if teams can trust them unsupervised.\r\nStacktrace is the control layer for every agent: it sees every action, detects risky behavior, enforces the bounds your team sets, and steps in when an agent drifts from intent.",
-      "one_liner": "See and control what your agents actually do",
+      "one_liner": "Give agents autonomy without losing control",
       "team_size": 3,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -7446,6 +7447,50 @@
       "app_answers": null,
       "question_answers": false,
       "url": "https://www.ycombinator.com/companies/cardinal-square"
+    },
+    {
+      "id": 35091,
+      "name": "Ample Computer",
+      "slug": "ample-computer",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/20a58a6cb709fda329d24b263a54b787cd53d4bc.png",
+      "website": "https://ample.computer/",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "Cloud hosting and infrastructure platform that has everything your agent needs to ship web applications. We set up compute, frontend, database, storage, CDN, email and (soon) text, analytics, and payments. We then monitor, patch and scale your app so you never migrate anything again.\r\n\r\nWe're doing for the internet software economy what Shopify did for e-commerce - remove the technical barriers to anyone can launch anything.",
+      "one_liner": "Everything your agent needs to ship a web app",
+      "team_size": 2,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "B2B",
+      "subindustry": "B2B -> Infrastructure",
+      "launched_at": 1794340768,
+      "tags": [
+        "B2B",
+        "Cloud Computing",
+        "Infrastructure",
+        "AI"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Fall 2026",
+      "status": "Active",
+      "industries": [
+        "B2B",
+        "Infrastructure"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/ample-computer"
     },
     {
       "id": 35058,
@@ -8071,7 +8116,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/15150d0dab29e0b9d4c44b12fc87e17632fb4819.png",
       "website": "https://www.reific.co/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Reific builds RL environments for superhuman reasoning over time, for the frontier labs that train agents. Each comes from real, de-identified records (health data, industrial sensors, compute-cluster logs), in three families: personal agents, industry, and science and compute. The world keeps moving while the agent works, so the agent must keep learning: data arrive on a clock, and every answer is checked against what actually happened. In each family, the best frontier model averages below half, and models that train on our environments improve.\r\n\r\nWe specialise in time series because almost everything that matters is recorded that way: a heartbeat, a power grid, a factory line, a GPU cluster, an experiment. No person can turn thousands of moving signals at once into the state of a system and what happens next. AI can pass the bar exam, but it still can’t watch a system for weeks and act at the right moment. It learned from what people wrote down, in environments that freeze the world and abstract it to our understanding.\r\n\r\nTime series let us ride the exponential. The world records new data every second and time keeps grading, so each generation of models gets harder, fresher tasks. We believe humans always strive to explore. Our mission is to build the infrastructure for that exploration: the layer of the AI stack where models keep improving, out into what no one understands yet.",
+      "long_description": "Reific builds RL environments for superhuman reasoning over time, for the frontier labs that train agents. AI has learned to reason over text and code. But most of what matters in the real world shows up as numbers that change every second: a heartbeat, a gearbox, a GPU cluster. No human can track thousands of signals at once, but AI should be able to.\r\n\r\nIn our environments, data streams in on a clock while the agent works, and every action is graded by what actually happened. Most AI training today teaches models to match human experts. We treat human performance as the floor. Each environment comes from real, de-identified records, in three task families: personal agents, industry, and science & compute.\r\n\r\nToday, even the best frontier model averages under 50% on each family. Training an open model on our environments raised its full-solve rate on unseen tasks by 54% (from 25.6% to 39.5%), with no loss on general benchmarks. Our mission is to build the infrastructure that keeps AI climbing the frontier, long past human level in the real world.",
       "one_liner": "RL environments for superhuman reasoning over time",
       "team_size": 1,
       "highlight_black": false,
@@ -36176,7 +36221,7 @@
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Expressive conversational AI",
       "one_liner": "Expressive conversational AI",
-      "team_size": 3,
+      "team_size": 4,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -47783,7 +47828,7 @@
         "United States of America",
         "America / Canada"
       ],
-      "stage": "Growth",
+      "stage": "Early",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -57512,37 +57557,39 @@
     },
     {
       "id": 30318,
-      "name": "Wildcard",
-      "slug": "wildcard",
-      "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/f6dd000652c5e77966ee483897c0ffed9dac2d80.png",
-      "website": "https://wild-card.ai",
+      "name": "Goodshelf",
+      "slug": "goodshelf",
+      "former_names": [
+        "Wildcard"
+      ],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/199e9c30db41323c06b0606bc6de1260ab946d37.png",
+      "website": "https://goodshelf.com",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Wildcard is the full-stack AEO & GEO platform for ecommerce and retail brands. We audit and action on how you show up across across AI search and AI shopping platforms like ChatGPT, Google AI Overviews, Gemini, Amazon Rufus/Alexa, and Walmart Sparky. We build the roadmap to close the gaps, and create the content that gets you recommended.\r\n\r\nMost tools stop at a visibility score. We do the work, and are built for ecommerce brands and retailers, not SaaS. Brands using Wildcard now show up first in AI answers where they used to be invisible.\r\n\r\nWildcard is building the command center for agentic commerce, everything brands need to serve a new type of shopper: AI agents; including support for emerging standards like the Agentic Commerce Protocol (ACP) and Universal Commerce Protocol (UCP).",
-      "one_liner": "AEO/GEO for E-Commerce and Retail",
+      "long_description": "Goodshelf is an AI-native online retailer built to help people and AI shopping agents discover, understand, recommend, and buy the right products.\r\n\r\nGoodshelf sells curated products across electronics, home goods, travel, beauty, furniture, everyday essentials, and more. Unlike traditional online marketplaces, Goodshelf prioritizes product quality, transparent comparisons, and evidence-backed recommendations over sponsored rankings and advertising.\r\n\r\nGoodshelf brings together products from brands and suppliers, combining detailed product specifications, real-world use cases, independent reviews, testing insights, and evidence-based comparisons. We make pricing, availability, product strengths, limitations, and tradeoffs clear upfront, giving AI agents and consumers the information they need to evaluate alternatives and choose the products that best fit their needs.\r\n\r\nGoodshelf is built for both human shoppers and AI agents like ChatGPT, Gemini, Muse, and Instinct. Our structured product catalog, machine-readable product pages, and agent-compatible shopping tools make it easier for AI assistants to research products, compare alternatives, and help customers complete purchases.\r\n\r\nOur mission is to help AI agents find the right product for every consumer, while giving brands and suppliers a new distribution channel as shopping shifts toward AI.",
+      "one_liner": "The online retailer for AI shopping agents",
       "team_size": 0,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
-      "industry": "B2B",
-      "subindustry": "B2B -> Engineering, Product and Design",
+      "industry": "Consumer",
+      "subindustry": "Consumer -> Home and Personal",
       "launched_at": 1738308751,
       "tags": [
-        "Generative AI",
+        "Marketplace",
         "E-commerce",
-        "Marketing",
         "Retail Tech",
+        "Retail",
         "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": true,
+      "isHiring": false,
       "nonprofit": false,
       "batch": "Winter 2025",
       "status": "Active",
       "industries": [
-        "B2B",
-        "Engineering, Product and Design"
+        "Consumer",
+        "Home and Personal"
       ],
       "regions": [
         "United States of America",
@@ -57553,7 +57600,7 @@
       "demo_day_video_public": false,
       "app_answers": null,
       "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/wildcard"
+      "url": "https://www.ycombinator.com/companies/goodshelf"
     },
     {
       "id": 30317,
@@ -185995,7 +186042,7 @@
       "isHiring": false,
       "nonprofit": false,
       "batch": "Winter 2020",
-      "status": "Active",
+      "status": "Acquired",
       "industries": [
         "Industrials"
       ],
@@ -186005,7 +186052,7 @@
         "Remote",
         "Partly Remote"
       ],
-      "stage": "Growth",
+      "stage": "Early",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -206952,7 +206999,7 @@
         "Remote",
         "Fully Remote"
       ],
-      "stage": "Growth",
+      "stage": "Early",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -208167,7 +208214,7 @@
       "all_locations": "San Francisco, CA, USA; Remote",
       "long_description": "Deel is the all-in-one payroll and HR platform for global teams. Built for the way the world works today, Deel combines HRIS, payroll, compliance, benefits, performance, and equipment management into one seamless platform. With AI-powered tools and a fully owned payroll infrastructure, Deel supports every worker type in 120+ countries—helping businesses scale smarter, faster, and more compliantly. Discover how Deel makes global work simple at deel.com.",
       "one_liner": "The all-in-one HR and payroll platform for global teams",
-      "team_size": 5000,
+      "team_size": 7000,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -208197,7 +208244,7 @@
         "Remote",
         "Fully Remote"
       ],
-      "stage": "Growth",
+      "stage": "Early",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -233265,7 +233312,7 @@
         "Remote",
         "Partly Remote"
       ],
-      "stage": "Growth",
+      "stage": "Early",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -246604,7 +246651,7 @@
       ],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/f7613d4b5db392ae5fc21774c6519b239f932651.png",
       "website": "",
-      "all_locations": "Blountville, TN, USA",
+      "all_locations": "",
       "long_description": "Flirtey is the leading drone delivery service. We are reinventing the on-demand economy with our network of flying robots for last mile delivery. Our mission is to save lives and change lifestyles by making delivery instant.\r\n\r\nFlirtey’s drone delivery service is faster, more efficient and the ultimate customer experience. We’re rapidly growing our team and achieving a record number of historic firsts in the drone delivery industry, advancing autonomy, safety systems and advanced delivery technology.\r\n\r\nIf you are interested in having your goods delivered via Flirtey, or joining the team that is transforming the delivery industry, visit www.flirtey.com \r\n\r\nRecent Company Milestones:\r\n- October 2017 – Announced a partnership to launch the first automated external defibrillator (AED) drone delivery service in the U.S.\r\n- January 2017 – Raised $16 million in Series A funding from top Silicon Valley investors.\r\n- August 2016 – Launched the world’s first commercial pizza-by-drone delivery model in partnership with Domino’s.\r\n- July 2016 – Conducted the first fully autonomous, FAA-approved drone delivery from a store to a home in partnership with 7-Eleven. \r\n- June 2016 – Completed the first fully autonomous, FAA-approved ship-to-shore drone delivery in collaboration with Johns Hopkins. \r\n- April 2016 – The Flirtey drone used to make the first FAA-approved delivery in the U.S. accepted into the Smithsonian’s National Air and Space Museum, alongside the Space Shuttle Discovery and the Wright Flyer. \r\n- March 2016 – Conducted the first fully autonomous, FAA-approved urban drone delivery in the U.S. \r\n- July 2015 – Completed the first FAA-approved drone delivery on U.S. soil in collaboration with NASA Langley Research Center.\r\n- Summer 2015 – Graduated Y Combinator.\r\n- 2013 – Founded the first drone delivery service in the world.",
       "one_liner": "Flirtey is the world’s first commercial drone delivery service and…",
       "team_size": 11,
@@ -246629,10 +246676,9 @@
         "Drones"
       ],
       "regions": [
-        "United States of America",
-        "America / Canada"
+        "Unspecified"
       ],
-      "stage": "Growth",
+      "stage": "Early",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -278546,7 +278592,7 @@
         "Remote",
         "Partly Remote"
       ],
-      "stage": "Growth",
+      "stage": "Early",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,

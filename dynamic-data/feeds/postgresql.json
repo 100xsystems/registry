@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-11-10T19:22:08.359Z",
+  "updatedAt": "2026-11-10T22:41:43.875Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -3353,7 +3353,23 @@
       "summary": "AI-First, AI-Ready, AI-Accountable, AI-Value-Driven. Four phrases now crowd enterprise strategy decks. They aren’t stages, and they aren’t interchangeable. They’re four questions every leader needs to answer about the same piece of work.\nThe Problem Isn’t Too Little AI\nIn more than twenty years of…",
       "author": null,
       "publishedAt": "2026-11-10T15:57:09.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9Bw",
+      "title": "Radim Marek: B-tree pages, sorted and sparse",
+      "link": "https://postgr.es/p/9Bw",
+      "summary": "So far, the storage internals series has focused on heap pages. We began by opening the 8KB page, then traced MVCC visibility through xmin, xmax, and snapshots. Next we observed HOT updates evade index maintenance, and finally tracked VACUUM as it went through its phases. Each time an index came…",
+      "author": null,
+      "publishedAt": "2026-11-10T22:15:49.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9Bv",
+      "title": "Mats Kindahl: Building a Table Access Method, Part 8: Cache invalidation",
+      "link": "https://postgr.es/p/9Bv",
+      "summary": "A backend keeps its mapping of the arena in its cache. As a result, if another backend drops or truncates the table, the memory of the old arena is not returned until that backend disconnects, so the cache has to be invalidated when the relation changes. This post uses the relcache invalidation…",
+      "author": null,
+      "publishedAt": "2026-11-10T20:21:39.000Z"
     }
   ],
-  "totalIndexed": 418
+  "totalIndexed": 420
 }
