@@ -1,79 +1,149 @@
 {
   "date": "2026-11-10",
-  "fetchedAt": "2026-11-10T01:01:36.611Z",
-  "previousCount": 6384,
-  "currentCount": 6385,
+  "fetchedAt": "2026-11-10T06:08:26.738Z",
+  "previousCount": 6385,
+  "currentCount": 6387,
   "added": [
     {
-      "id": 42087,
-      "name": "DataNode",
-      "slug": "datanode",
+      "id": 30712,
+      "name": "Relling",
+      "slug": "relling",
       "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/92a9fbb5f568a74e91b6062e29764cec118e28b3.png",
-      "website": "https://datanodelabs.com",
-      "all_locations": "",
-      "long_description": "DataNode is building the structuring data layer for event risk. Our engine combines prediction markets with traditional derivatives to quantify and risk assess any event exposure and build a priced, tailored hedge, even before a market for it exists.",
-      "one_liner": "Structured products on prediction markets",
-      "team_size": 3,
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/e003594279b3a4474845b643ff2ee16c26f34a1a.png",
+      "website": "https://relling.co",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "",
+      "one_liner": "deploying the first billion robots for manufacturing",
+      "team_size": 0,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
-      "industry": "Fintech",
-      "subindustry": "Fintech",
-      "launched_at": 1794268053,
+      "industry": "B2B",
+      "subindustry": "B2B -> Infrastructure",
+      "launched_at": 1756070413,
       "tags": [
-        "Machine Learning",
-        "Analytics",
-        "Investments"
+        "Robotics",
+        "AI"
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": false,
+      "isHiring": true,
       "nonprofit": false,
-      "batch": "Winter 2027",
+      "batch": "Summer 2025",
       "status": "Active",
       "industries": [
-        "Fintech"
+        "B2B",
+        "Infrastructure"
       ],
       "regions": [
-        "Remote",
-        "Partly Remote"
+        "United States of America",
+        "America / Canada"
       ],
       "stage": "Early",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
       "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/datanode"
+      "url": "https://www.ycombinator.com/companies/relling"
+    },
+    {
+      "id": 36511,
+      "name": "Constor",
+      "slug": "constor",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/bbcd76441dee2bdb14c3fd289a0e0506402935ad.png",
+      "website": "https://constor.ai",
+      "all_locations": "",
+      "long_description": "",
+      "one_liner": "AI native OS for the construction industry",
+      "team_size": 3,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "Real Estate and Construction",
+      "subindustry": "Real Estate and Construction -> Construction",
+      "launched_at": 1794102902,
+      "tags": [
+        "Computer Vision",
+        "Construction",
+        "AI"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Fall 2026",
+      "status": "Active",
+      "industries": [
+        "Real Estate and Construction",
+        "Construction"
+      ],
+      "regions": [
+        "Unspecified"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/constor"
     }
   ],
   "removed": [],
   "updated": [
     {
-      "id": 31122,
-      "name": "Mendelia",
-      "slug": "mendelia",
-      "batch": "Winter 2026",
-      "url": "https://www.ycombinator.com/companies/mendelia",
+      "id": 30221,
+      "name": "A1Base",
+      "slug": "a1base",
+      "batch": "Winter 2025",
+      "url": "https://www.ycombinator.com/companies/a1base",
       "changes": [
         {
-          "field": "launched_at",
-          "before": 1763574394,
-          "after": 1794246450
+          "field": "small_logo_thumb_url",
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/9b25e6db85435aae7d3185331b3d10ca0ba1f730.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/324e9d6a709cf130925173197ab778a682e2aca3.png"
         }
       ]
     },
     {
-      "id": 31244,
-      "name": "Turnstone",
-      "slug": "turnstone",
-      "batch": "Winter 2026",
-      "url": "https://www.ycombinator.com/companies/turnstone",
+      "id": 30720,
+      "name": "Autosana",
+      "slug": "autosana",
+      "batch": "Summer 2025",
+      "url": "https://www.ycombinator.com/companies/autosana",
       "changes": [
         {
           "field": "isHiring",
           "before": false,
           "after": true
+        }
+      ]
+    },
+    {
+      "id": 31051,
+      "name": "Corvera",
+      "slug": "corvera",
+      "batch": "Winter 2026",
+      "url": "https://www.ycombinator.com/companies/corvera",
+      "changes": [
+        {
+          "field": "team_size",
+          "before": 4,
+          "after": 3
+        }
+      ]
+    },
+    {
+      "id": 31455,
+      "name": "tday.com",
+      "slug": "tdaycom",
+      "batch": "Spring 2026",
+      "url": "https://www.ycombinator.com/companies/tdaycom",
+      "changes": [
+        {
+          "field": "small_logo_thumb_url",
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/f67e29054c02cce725831968e75ca3cc8d058968.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/cd01de76c710a2c4f0f17b3f1279bf99762055c3.png"
         }
       ]
     },
@@ -86,8 +156,50 @@
       "changes": [
         {
           "field": "one_liner",
-          "before": "Foundation models on enterprise transaction data.",
-          "after": "Private foundation models for financial institutions"
+          "before": "Private foundation models for financial institutions",
+          "after": "Foundation models on enterprise event data."
+        }
+      ]
+    },
+    {
+      "id": 35223,
+      "name": "OpenLake Technologies",
+      "slug": "openlake-technologies",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/openlake-technologies",
+      "changes": [
+        {
+          "field": "one_liner",
+          "before": "OpenLake deploys, trains, and serves models that update in real time.",
+          "after": "Models which improve the more you use them"
+        }
+      ]
+    },
+    {
+      "id": 35421,
+      "name": "Ordo Labs",
+      "slug": "ordo-labs",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/ordo-labs",
+      "changes": [
+        {
+          "field": "launched_at",
+          "before": 1786113457,
+          "after": 1794236148
+        }
+      ]
+    },
+    {
+      "id": 36510,
+      "name": "Preload",
+      "slug": "preload",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/preload",
+      "changes": [
+        {
+          "field": "isHiring",
+          "before": false,
+          "after": true
         }
       ]
     }

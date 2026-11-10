@@ -9,7 +9,7 @@
     "edge-computing",
     "nextjs"
   ],
-  "updatedAt": "2026-11-06T22:36:14.420Z",
+  "updatedAt": "2026-11-10T06:08:19.518Z",
   "items": [
     {
       "guid": "vercel-blog::https://vercel.com/changelog/ai-gateway-now-supports-streaming-transcription",
@@ -5314,7 +5314,15 @@
       "summary": "is now available on AI Gateway for free through November 13, 2026.Ampersand from Humans&\nAmpersand is a language model built to take part in group conversations, such as a team chat, and to decide on each turn whether to speak or stay quiet. It is designed to understand individual and shared goals,…",
       "author": "Gregor Martynus",
       "publishedAt": "2026-11-06T00:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/vercel-sandbox-snapshot-creation-is-now-up-to-10x-faster",
+      "title": "Vercel Sandbox snapshot creation is now up to 10x faster",
+      "link": "https://vercel.com/changelog/vercel-sandbox-snapshot-creation-is-now-up-to-10x-faster",
+      "summary": "now creates snapshots up to 10x faster. Median time to snapshot is under 0.4 seconds, down from 4.4 seconds. Snapshot restore speed has also improved by 50% from 500ms to 250ms at p50.Vercel Sandbox\nSnapshots are now able to write and restore by re-using frames within the Vercel Hive Snapshot (VHS)…",
+      "author": "Andy Waller",
+      "publishedAt": "2026-11-09T21:00:00.000Z"
     }
   ],
-  "totalIndexed": 663
+  "totalIndexed": 664
 }

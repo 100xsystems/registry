@@ -8,7 +8,7 @@
     "code-search",
     "platform"
   ],
-  "updatedAt": "2026-11-09T21:57:59.121Z",
+  "updatedAt": "2026-11-10T06:08:20.315Z",
   "items": [
     {
       "guid": "sourcegraph::http://localhost:5174/blog/vulnerability-remediation-at-codebase-scale",
@@ -273,7 +273,15 @@
       "summary": "Sourcegraph Cody reaches end of life on January 31, 2027. Here is why, what Sourcegraph is building next for developers and coding agents, and how Cody customers can plan their transition.",
       "author": "Dan Adler",
       "publishedAt": "2026-11-09T00:00:00.000Z"
+    },
+    {
+      "guid": "sourcegraph::https://sourcegraph.com/blog/what-we-learned-building-a-pr-approval-bot",
+      "title": "Keeping code moving with clearer review expectations",
+      "link": "https://sourcegraph.com/blog/what-we-learned-building-a-pr-approval-bot",
+      "summary": "As agents help us produce more code, review becomes more of a bottleneck. We built a bot to reduce approval chasing and make review expectations explicit.",
+      "author": "Constantin Nicolae",
+      "publishedAt": "2026-11-10T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 33
+  "totalIndexed": 34
 }

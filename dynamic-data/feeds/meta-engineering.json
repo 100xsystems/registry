@@ -9,7 +9,7 @@
     "performance",
     "distributed-systems"
   ],
-  "updatedAt": "2026-11-03T22:44:26.070Z",
+  "updatedAt": "2026-11-10T06:08:19.334Z",
   "items": [
     {
       "guid": "https://engineering.fb.com/?p=24251",
@@ -23866,7 +23866,15 @@
       "summary": "Facebook Feature Framework (F3) is Meta’s framework for authoring, compiling, and serving the machine learning features underlying ads ranking models, where a single request can require more than 20,000 features. We first presented F3 at AI @ Scale 2020.  F3 reduced execution computational costs by…",
       "author": null,
       "publishedAt": "2026-11-03T17:00:35.000Z"
+    },
+    {
+      "guid": "https://engineering.fb.com/?p=24955",
+      "title": "Extending LLDB to Debug Applications That Span CPUs and GPUs",
+      "link": "https://engineering.fb.com/2026/11/09/developer-tools/extending-lldb-to-debug-applications-that-span-cpus-and-gpus/",
+      "summary": "We built a vendor-neutral accelerator plugin architecture in lldb-server for debugging applications that span CPUs and GPUs. It separates shared debugger infrastructure from hardware-specific device control. The design represents the CPU and GPU as separate debugger processes while presenting them…",
+      "author": null,
+      "publishedAt": "2026-11-09T17:00:12.000Z"
     }
   ],
-  "totalIndexed": 2982
+  "totalIndexed": 2983
 }
