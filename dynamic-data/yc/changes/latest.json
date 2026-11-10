@@ -1,135 +1,284 @@
 {
   "date": "2026-11-10",
-  "fetchedAt": "2026-11-10T06:08:26.738Z",
-  "previousCount": 6385,
+  "fetchedAt": "2026-11-10T14:38:52.814Z",
+  "previousCount": 6387,
   "currentCount": 6387,
-  "added": [
-    {
-      "id": 30712,
-      "name": "Relling",
-      "slug": "relling",
-      "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/e003594279b3a4474845b643ff2ee16c26f34a1a.png",
-      "website": "https://relling.co",
-      "all_locations": "San Francisco, CA, USA",
-      "long_description": "",
-      "one_liner": "deploying the first billion robots for manufacturing",
-      "team_size": 0,
-      "highlight_black": false,
-      "highlight_latinx": false,
-      "highlight_women": false,
-      "industry": "B2B",
-      "subindustry": "B2B -> Infrastructure",
-      "launched_at": 1756070413,
-      "tags": [
-        "Robotics",
-        "AI"
-      ],
-      "tags_highlighted": [],
-      "top_company": false,
-      "isHiring": true,
-      "nonprofit": false,
-      "batch": "Summer 2025",
-      "status": "Active",
-      "industries": [
-        "B2B",
-        "Infrastructure"
-      ],
-      "regions": [
-        "United States of America",
-        "America / Canada"
-      ],
-      "stage": "Early",
-      "app_video_public": false,
-      "demo_day_video_public": false,
-      "app_answers": null,
-      "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/relling"
-    },
-    {
-      "id": 36511,
-      "name": "Constor",
-      "slug": "constor",
-      "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/bbcd76441dee2bdb14c3fd289a0e0506402935ad.png",
-      "website": "https://constor.ai",
-      "all_locations": "",
-      "long_description": "",
-      "one_liner": "AI native OS for the construction industry",
-      "team_size": 3,
-      "highlight_black": false,
-      "highlight_latinx": false,
-      "highlight_women": false,
-      "industry": "Real Estate and Construction",
-      "subindustry": "Real Estate and Construction -> Construction",
-      "launched_at": 1794102902,
-      "tags": [
-        "Computer Vision",
-        "Construction",
-        "AI"
-      ],
-      "tags_highlighted": [],
-      "top_company": false,
-      "isHiring": false,
-      "nonprofit": false,
-      "batch": "Fall 2026",
-      "status": "Active",
-      "industries": [
-        "Real Estate and Construction",
-        "Construction"
-      ],
-      "regions": [
-        "Unspecified"
-      ],
-      "stage": "Early",
-      "app_video_public": false,
-      "demo_day_video_public": false,
-      "app_answers": null,
-      "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/constor"
-    }
-  ],
+  "added": [],
   "removed": [],
   "updated": [
     {
-      "id": 30221,
-      "name": "A1Base",
-      "slug": "a1base",
-      "batch": "Winter 2025",
-      "url": "https://www.ycombinator.com/companies/a1base",
+      "id": 1347,
+      "name": "Expo",
+      "slug": "expo",
+      "batch": "Summer 2016",
+      "url": "https://www.ycombinator.com/companies/expo",
+      "changes": [
+        {
+          "field": "stage",
+          "before": "Early",
+          "after": "Growth"
+        }
+      ]
+    },
+    {
+      "id": 22660,
+      "name": "RocketSDR",
+      "slug": "rocketsdr",
+      "batch": "Winter 2021",
+      "url": "https://www.ycombinator.com/companies/rocketsdr",
       "changes": [
         {
           "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/9b25e6db85435aae7d3185331b3d10ca0ba1f730.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/324e9d6a709cf130925173197ab778a682e2aca3.png"
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/e709fbbd586b69b614e78a934b3926dac2456289.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/4df2d9d8df119585101a20b1846b64e395c52650.png"
         }
       ]
     },
     {
-      "id": 30720,
-      "name": "Autosana",
-      "slug": "autosana",
-      "batch": "Summer 2025",
-      "url": "https://www.ycombinator.com/companies/autosana",
+      "id": 24191,
+      "name": "Secoda",
+      "slug": "secoda",
+      "batch": "Summer 2021",
+      "url": "https://www.ycombinator.com/companies/secoda",
+      "changes": [
+        {
+          "field": "stage",
+          "before": "Early",
+          "after": "Growth"
+        }
+      ]
+    },
+    {
+      "id": 24539,
+      "name": "HitPay",
+      "slug": "hitpay",
+      "batch": "Summer 2021",
+      "url": "https://www.ycombinator.com/companies/hitpay",
       "changes": [
         {
           "field": "isHiring",
-          "before": false,
-          "after": true
+          "before": true,
+          "after": false
         }
       ]
     },
     {
-      "id": 31051,
-      "name": "Corvera",
-      "slug": "corvera",
-      "batch": "Winter 2026",
-      "url": "https://www.ycombinator.com/companies/corvera",
+      "id": 26750,
+      "name": "NuMind",
+      "slug": "numind",
+      "batch": "Summer 2022",
+      "url": "https://www.ycombinator.com/companies/numind",
       "changes": [
         {
+          "field": "all_locations",
+          "before": "Boston, MA, USA; Cambridge, MA, USA",
+          "after": "Paris, Île-de-France, France; Cambridge, MA, USA"
+        },
+        {
+          "field": "one_liner",
+          "before": "Create custom NLP models",
+          "after": "The LLM provider for Document Extraction"
+        },
+        {
           "field": "team_size",
-          "before": 4,
-          "after": 3
+          "before": 6,
+          "after": 12
+        },
+        {
+          "field": "subindustry",
+          "before": "B2B -> Engineering, Product and Design",
+          "after": "B2B"
+        },
+        {
+          "field": "tags",
+          "before": [
+            "AIOps",
+            "Machine Learning",
+            "NLP",
+            "AI"
+          ],
+          "after": [
+            "Documents",
+            "Machine Learning",
+            "Data Engineering",
+            "Enterprise Software",
+            "AI"
+          ]
+        },
+        {
+          "field": "industries",
+          "before": [
+            "B2B",
+            "Engineering, Product and Design"
+          ],
+          "after": [
+            "B2B"
+          ]
+        },
+        {
+          "field": "regions",
+          "before": [
+            "United States of America",
+            "America / Canada",
+            "Remote",
+            "Partly Remote"
+          ],
+          "after": [
+            "France",
+            "United States of America",
+            "Europe",
+            "America / Canada"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 27814,
+      "name": "Narrative",
+      "slug": "narrative",
+      "batch": "Winter 2023",
+      "url": "https://www.ycombinator.com/companies/narrative",
+      "changes": [
+        {
+          "field": "isHiring",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 29504,
+      "name": "The Vibe Company",
+      "slug": "the-vibe-company",
+      "batch": "Winter 2024",
+      "url": "https://www.ycombinator.com/companies/the-vibe-company",
+      "changes": [
+        {
+          "field": "isHiring",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 31057,
+      "name": "Valgo",
+      "slug": "valgo",
+      "batch": "Winter 2026",
+      "url": "https://www.ycombinator.com/companies/valgo",
+      "changes": [
+        {
+          "field": "one_liner",
+          "before": "Insurance risk layer for physical AI",
+          "after": "Insurance risk layer for autonomy"
+        }
+      ]
+    },
+    {
+      "id": 31183,
+      "name": "Patientdesk.ai",
+      "slug": "patientdeskai",
+      "batch": "Winter 2026",
+      "url": "https://www.ycombinator.com/companies/patientdeskai",
+      "changes": [
+        {
+          "field": "all_locations",
+          "before": "",
+          "after": "San Francisco, CA, USA"
+        },
+        {
+          "field": "regions",
+          "before": [
+            "Unspecified"
+          ],
+          "after": [
+            "United States of America",
+            "America / Canada"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 31375,
+      "name": "Hub Labs",
+      "slug": "hub-labs",
+      "batch": "Spring 2026",
+      "url": "https://www.ycombinator.com/companies/hub-labs",
+      "changes": [
+        {
+          "field": "name",
+          "before": "Hub",
+          "after": "Hub Labs"
+        },
+        {
+          "field": "slug",
+          "before": "hub",
+          "after": "hub-labs"
+        },
+        {
+          "field": "former_names",
+          "before": [
+            "Hub",
+            "Hub.xyz"
+          ],
+          "after": [
+            "Hub",
+            "Hub.xyz",
+            "Hub"
+          ]
+        },
+        {
+          "field": "website",
+          "before": "https://hub.xyz",
+          "after": "https://hublabs.com"
+        },
+        {
+          "field": "one_liner",
+          "before": "Real-world training data for frontier AI labs and robotics.",
+          "after": "Deployment and data infrastructure for Embodied AI."
+        },
+        {
+          "field": "team_size",
+          "before": 60,
+          "after": 50
+        },
+        {
+          "field": "industry",
+          "before": "B2B",
+          "after": "Industrials"
+        },
+        {
+          "field": "subindustry",
+          "before": "B2B -> Infrastructure",
+          "after": "Industrials -> Manufacturing and Robotics"
+        },
+        {
+          "field": "tags",
+          "before": [
+            "Robotics",
+            "Crowdsourcing",
+            "Big Data",
+            "Infrastructure",
+            "AI"
+          ],
+          "after": [
+            "Robotics",
+            "Big Data",
+            "Infrastructure",
+            "AI",
+            "Industrial"
+          ]
+        },
+        {
+          "field": "industries",
+          "before": [
+            "B2B",
+            "Infrastructure"
+          ],
+          "after": [
+            "Industrials",
+            "Manufacturing and Robotics"
+          ]
         }
       ]
     },
@@ -142,64 +291,126 @@
       "changes": [
         {
           "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/f67e29054c02cce725831968e75ca3cc8d058968.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/cd01de76c710a2c4f0f17b3f1279bf99762055c3.png"
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/cd01de76c710a2c4f0f17b3f1279bf99762055c3.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/189d7dfda58ad5b8ba218fc5332926319e00c2d5.png"
         }
       ]
     },
     {
-      "id": 32191,
-      "name": "Lyon",
-      "slug": "lyon",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/lyon",
+      "id": 33014,
+      "name": "Inkbox",
+      "slug": "inkbox",
+      "batch": "Summer 2026",
+      "url": "https://www.ycombinator.com/companies/inkbox",
       "changes": [
         {
           "field": "one_liner",
-          "before": "Private foundation models for financial institutions",
-          "after": "Foundation models on enterprise event data."
+          "before": "The identity and communication layer for AI agents",
+          "after": "Give agents a computer with their own email, phone, iMsg, and WhatsApp"
         }
       ]
     },
     {
-      "id": 35223,
-      "name": "OpenLake Technologies",
-      "slug": "openlake-technologies",
+      "id": 34898,
+      "name": "SE3 Labs",
+      "slug": "se3-labs",
       "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/openlake-technologies",
+      "url": "https://www.ycombinator.com/companies/se3-labs",
+      "changes": [
+        {
+          "field": "stage",
+          "before": "Early",
+          "after": "Growth"
+        }
+      ]
+    },
+    {
+      "id": 34899,
+      "name": "Letter",
+      "slug": "letter-dev",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/letter-dev",
+      "changes": [
+        {
+          "field": "name",
+          "before": "The Letter Company",
+          "after": "Letter"
+        },
+        {
+          "field": "slug",
+          "before": "the-letter-company",
+          "after": "letter-dev"
+        },
+        {
+          "field": "former_names",
+          "before": [],
+          "after": [
+            "The Letter Company"
+          ]
+        },
+        {
+          "field": "one_liner",
+          "before": "The world's first coding agent, harness, & IDE for growth engineering.",
+          "after": "The world's first coding agent, IDE & infra for growth engineering."
+        }
+      ]
+    },
+    {
+      "id": 35393,
+      "name": "Plek",
+      "slug": "plek",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/plek",
       "changes": [
         {
           "field": "one_liner",
-          "before": "OpenLake deploys, trains, and serves models that update in real time.",
-          "after": "Models which improve the more you use them"
+          "before": "Maps what employees do and what it costs",
+          "after": "The AI company brain for PE value creation"
         }
       ]
     },
     {
-      "id": 35421,
-      "name": "Ordo Labs",
-      "slug": "ordo-labs",
+      "id": 36644,
+      "name": "Vouch",
+      "slug": "vouchwealth",
       "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/ordo-labs",
+      "url": "https://www.ycombinator.com/companies/vouchwealth",
       "changes": [
         {
-          "field": "launched_at",
-          "before": 1786113457,
-          "after": 1794236148
+          "field": "small_logo_thumb_url",
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/4f44b0f4612d673d1fb95ac06176334a01b6326b.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/088bf2ca78d1e97cb6ffd946a34c10c5e183795a.png"
         }
       ]
     },
     {
-      "id": 36510,
-      "name": "Preload",
-      "slug": "preload",
+      "id": 36873,
+      "name": "Versine",
+      "slug": "versine",
       "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/preload",
+      "url": "https://www.ycombinator.com/companies/versine",
       "changes": [
         {
-          "field": "isHiring",
-          "before": false,
-          "after": true
+          "field": "small_logo_thumb_url",
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/d050f0a413a5ab639b307ecb868a328a76d67965.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/586c3fb683e34649e1401cfc1d48117092317176.png"
+        },
+        {
+          "field": "tags",
+          "before": [
+            "Fintech",
+            "Consumer Finance",
+            "Consumer Products",
+            "Neobank",
+            "AI"
+          ],
+          "after": [
+            "Fintech",
+            "Consumer",
+            "Consumer Finance",
+            "Neobank",
+            "AI"
+          ]
         }
       ]
     }
