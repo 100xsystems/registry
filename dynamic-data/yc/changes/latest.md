@@ -1,98 +1,72 @@
 # YC Company Changes for 2026-11-10
 
 - Previous total: 6387
-- Current total: 6387
-- Added: 0
+- Current total: 6388
+- Added: 1
 - Removed: 0
-- Updated: 17
+- Updated: 11
 
+
+## Added Companies
+
+- [Verno](https://www.ycombinator.com/companies/verno) (Fall 2026) — AI that helps engineers draft, edit and check documents
 
 ## Updated Companies
 
-### [Expo](https://www.ycombinator.com/companies/expo)
-
-- `stage`: Early → Growth
-
-### [RocketSDR](https://www.ycombinator.com/companies/rocketsdr)
-
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/e709fbbd586b69b614e78a934b3926dac2456289.png → https://bookface-images.s3.amazonaws.com/small_logos/4df2d9d8df119585101a20b1846b64e395c52650.png
-
-### [Secoda](https://www.ycombinator.com/companies/secoda)
-
-- `stage`: Early → Growth
-
-### [HitPay](https://www.ycombinator.com/companies/hitpay)
+### [Coderhouse](https://www.ycombinator.com/companies/coderhouse)
 
 - `isHiring`: true → false
 
-### [NuMind](https://www.ycombinator.com/companies/numind)
+### [Soco](https://www.ycombinator.com/companies/soco)
 
-- `all_locations`: Boston, MA, USA; Cambridge, MA, USA → Paris, Île-de-France, France; Cambridge, MA, USA
-- `one_liner`: Create custom NLP models → The LLM provider for Document Extraction
-- `team_size`: 6 → 12
-- `subindustry`: B2B -> Engineering, Product and Design → B2B
-- `tags`: AIOps,Machine Learning,NLP,AI → Documents,Machine Learning,Data Engineering,Enterprise Software,AI
-- `industries`: B2B,Engineering, Product and Design → B2B
-- `regions`: United States of America,America / Canada,Remote,Partly Remote → France,United States of America,Europe,America / Canada
+- `all_locations`: New York City, NY, USA → Dallas, TX, USA
 
-### [Narrative](https://www.ycombinator.com/companies/narrative)
+### [Exa](https://www.ycombinator.com/companies/exa)
+
+- `stage`: Growth → Early
+
+### [Garage](https://www.ycombinator.com/companies/garage-2)
+
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/b097e3ed808fe533aff49062b2a59a6f1f2805fd.png → https://bookface-images.s3.amazonaws.com/small_logos/c7fdddf8ec5888d8687aed85602772057188b1cd.png
+- `one_liner`: Marketplace for America's most essential assets → America's marketplace for mission-critical assets.
+- `team_size`: 35 → 45
+- `stage`: Growth → Early
+
+### [Paasa](https://www.ycombinator.com/companies/paasa)
+
+- `isHiring`: false → true
+
+### [Subimage](https://www.ycombinator.com/companies/subimage)
+
+- `name`: SubImage → Subimage
+- `former_names`:  → SubImage
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/85fc2e3ee1b407fdf958403fc2fbd25fff6a7cac.png → https://bookface-images.s3.amazonaws.com/small_logos/dc6d5313405e83291b56d62e380a825c0eff1cbd.png
+
+### [Elip AI](https://www.ycombinator.com/companies/elip-ai)
+
+- `one_liner`: Cooking something sweet and salty!  → Your agent books the table. Elip finds the people worth sitting with.
+
+### [Reason Machines](https://www.ycombinator.com/companies/reason-machines)
+
+- `one_liner`: Reason is most world's effective agent on cost per task → Reason is world's most effective agent on cost per task
+
+### [Wakeshift](https://www.ycombinator.com/companies/wakeshift)
+
+- `name`: Clawvisor → Wakeshift
+- `slug`: clawvisor → wakeshift
+- `former_names`:  → Clawvisor
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/7b7343f0662dc74045154f30ca2872d79b80c650.png → https://bookface-images.s3.amazonaws.com/small_logos/2a5226c21889607f955fa818e06531d04bc44b82.png
+- `website`: https://clawvisor.com → https://wakeshift.ai
+- `one_liner`: The Authorization Layer for AI Agents → The Wake-up Call for AI Agents
+- `team_size`: 1 → 3
+- `subindustry`: B2B -> Security → B2B -> Productivity
+- `tags`:  → AI
+- `industries`: B2B,Security → B2B,Productivity
+
+### [Hubble](https://www.ycombinator.com/companies/hubble-ai)
 
 - `isHiring`: true → false
 
-### [The Vibe Company](https://www.ycombinator.com/companies/the-vibe-company)
+### [Hop Aero](https://www.ycombinator.com/companies/hop-aero)
 
-- `isHiring`: true → false
-
-### [Valgo](https://www.ycombinator.com/companies/valgo)
-
-- `one_liner`: Insurance risk layer for physical AI → Insurance risk layer for autonomy
-
-### [Patientdesk.ai](https://www.ycombinator.com/companies/patientdeskai)
-
-- `all_locations`:  → San Francisco, CA, USA
-- `regions`: Unspecified → United States of America,America / Canada
-
-### [Hub Labs](https://www.ycombinator.com/companies/hub-labs)
-
-- `name`: Hub → Hub Labs
-- `slug`: hub → hub-labs
-- `former_names`: Hub,Hub.xyz → Hub,Hub.xyz,Hub
-- `website`: https://hub.xyz → https://hublabs.com
-- `one_liner`: Real-world training data for frontier AI labs and robotics. → Deployment and data infrastructure for Embodied AI.
-- `team_size`: 60 → 50
-- `industry`: B2B → Industrials
-- `subindustry`: B2B -> Infrastructure → Industrials -> Manufacturing and Robotics
-- `tags`: Robotics,Crowdsourcing,Big Data,Infrastructure,AI → Robotics,Big Data,Infrastructure,AI,Industrial
-- `industries`: B2B,Infrastructure → Industrials,Manufacturing and Robotics
-
-### [tday.com](https://www.ycombinator.com/companies/tdaycom)
-
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/cd01de76c710a2c4f0f17b3f1279bf99762055c3.png → https://bookface-images.s3.amazonaws.com/small_logos/189d7dfda58ad5b8ba218fc5332926319e00c2d5.png
-
-### [Inkbox](https://www.ycombinator.com/companies/inkbox)
-
-- `one_liner`: The identity and communication layer for AI agents → Give agents a computer with their own email, phone, iMsg, and WhatsApp
-
-### [SE3 Labs](https://www.ycombinator.com/companies/se3-labs)
-
-- `stage`: Early → Growth
-
-### [Letter](https://www.ycombinator.com/companies/letter-dev)
-
-- `name`: The Letter Company → Letter
-- `slug`: the-letter-company → letter-dev
-- `former_names`:  → The Letter Company
-- `one_liner`: The world's first coding agent, harness, & IDE for growth engineering. → The world's first coding agent, IDE & infra for growth engineering.
-
-### [Plek](https://www.ycombinator.com/companies/plek)
-
-- `one_liner`: Maps what employees do and what it costs → The AI company brain for PE value creation
-
-### [Vouch](https://www.ycombinator.com/companies/vouchwealth)
-
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/4f44b0f4612d673d1fb95ac06176334a01b6326b.png → https://bookface-images.s3.amazonaws.com/small_logos/088bf2ca78d1e97cb6ffd946a34c10c5e183795a.png
-
-### [Versine](https://www.ycombinator.com/companies/versine)
-
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/d050f0a413a5ab639b307ecb868a328a76d67965.png → https://bookface-images.s3.amazonaws.com/small_logos/586c3fb683e34649e1401cfc1d48117092317176.png
-- `tags`: Fintech,Consumer Finance,Consumer Products,Neobank,AI → Fintech,Consumer,Consumer Finance,Neobank,AI
+- `isHiring`: false → true

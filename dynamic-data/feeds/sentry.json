@@ -8,7 +8,7 @@
     "debugging",
     "performance"
   ],
-  "updatedAt": "2026-11-09T21:57:47.009Z",
+  "updatedAt": "2026-11-10T19:22:08.837Z",
   "items": [
     {
       "guid": "https://blog.sentry.io/godot-dotnet-ga/",
@@ -465,7 +465,15 @@
       "summary": "An unexpanded env var filled one release with 44M URL index rows. Capping lookups cut database CPU from 76% to 19% and symbolication timeouts by 98%.",
       "author": null,
       "publishedAt": "2026-11-09T09:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.sentry.io/mcp-or-cli/",
+      "title": "MCP or CLI? Yes.",
+      "link": "https://blog.sentry.io/mcp-or-cli/",
+      "summary": "Sentry now bridges its CLI and MCP server: shared auth, CLI-only capabilities like a filesystem, and native MCP steering. Here's why you want both.",
+      "author": null,
+      "publishedAt": "2026-11-10T09:00:00.000Z"
     }
   ],
-  "totalIndexed": 57
+  "totalIndexed": 58
 }
