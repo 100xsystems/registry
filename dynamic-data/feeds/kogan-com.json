@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-09-09T11:03:09.150Z",
+  "updatedAt": "2026-11-10T01:01:23.127Z",
   "items": [
     {
       "guid": "5664c2f3e4b0957c43aa14f4:5666531469a91a17ec801e9c:6a13e7765ea2a14cf4ce09d1",
@@ -183,7 +183,15 @@
       "summary": "Everyone asks the same question about our coding bots. Can it actually write the code?\nIt can. That turned out to be the least interesting part.\nThe interesting part is everything around the code. What the bot is allowed to touch. How you brief it. What you do when it tells you it’s finished.\nWhat…",
       "author": "Karen Fehmer",
       "publishedAt": "2026-09-09T05:32:33.000Z"
+    },
+    {
+      "guid": "5664c2f3e4b0957c43aa14f4:5666531469a91a17ec801e9c:6af242c4937aff7b074f0190",
+      "title": "Eventually Consistent: How Do We Know the Systems Eventually Agree?",
+      "link": "https://devblog.kogan.com/blog/eventually-consistent-how-do-we-know-the-systems-eventually-agree",
+      "summary": "Event-driven systems only agree eventually. Here’s how we check they \r\nactually got there: deadlines, data ownership, and a reconciliation job \r\nthat walks the floor.",
+      "author": "Victor Wenas",
+      "publishedAt": "2026-11-09T22:10:23.000Z"
     }
   ],
-  "totalIndexed": 22
+  "totalIndexed": 23
 }

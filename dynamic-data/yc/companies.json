@@ -1,7 +1,49 @@
 {
-  "fetchedAt": "2026-11-09T21:58:04.344Z",
-  "count": 6384,
+  "fetchedAt": "2026-11-10T01:01:36.612Z",
+  "count": 6385,
   "companies": [
+    {
+      "id": 42087,
+      "name": "DataNode",
+      "slug": "datanode",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/92a9fbb5f568a74e91b6062e29764cec118e28b3.png",
+      "website": "https://datanodelabs.com",
+      "all_locations": "",
+      "long_description": "DataNode is building the structuring data layer for event risk. Our engine combines prediction markets with traditional derivatives to quantify and risk assess any event exposure and build a priced, tailored hedge, even before a market for it exists.",
+      "one_liner": "Structured products on prediction markets",
+      "team_size": 3,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "Fintech",
+      "subindustry": "Fintech",
+      "launched_at": 1794268053,
+      "tags": [
+        "Machine Learning",
+        "Analytics",
+        "Investments"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Winter 2027",
+      "status": "Active",
+      "industries": [
+        "Fintech"
+      ],
+      "regions": [
+        "Remote",
+        "Partly Remote"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/datanode"
+    },
     {
       "id": 41660,
       "name": "Xulux",
@@ -15969,8 +16011,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/27ce3fff3af03da64bc8cfefeb3efef7b6d080b7.png",
       "website": "https://lyon.so",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Lyon builds private foundation models for banks, insurance companies, and fintechs. Each model learns from the company’s proprietary transactions, payments, clicks, and customer interactions to predict credit, fraud, collections, income, churn, and lifetime value; and runs inside the company’s cloud, so its data and intelligence remain under its control. Lyon is already working with a major insurer and trained a model on 28B transactions for a fintech serving tens of millions of active users, identifying premium-card converters 4x more precisely than its existing rules; the model is now being deployed for credit.",
-      "one_liner": "Foundation models on enterprise transaction data.",
+      "long_description": "Lyon builds private foundation models for banks, fintechs, funds, brokers and payments companies, turning their own data into better predictions.\r\n\r\nThese models apply the transformer technology behind large language models to transaction histories, loan records and customer activity. They learn relationships across events and over time that manually engineered features can miss, producing richer signals for existing models and new applications.\r\n\r\nThe same model can support fraud detection, credit default prediction, loss given default estimation and product recommendations. Lyon develops and deploys each institution’s model, with software to keep it current and integrate its predictions into existing systems.",
+      "one_liner": "Private foundation models for financial institutions",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -21915,7 +21957,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/9b4aa40c1f823de9d3ec9a6c4b04e1e382dc5a85.png",
       "website": "https://degla.ai",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "We turn natural Language into Multi-Drone Mission execution. Degla is built around a simple idea: once you’ve expressed your intent, the system owns the problem.You don’t babysit drones. You don’t micromanage failures. You don’t rewrite plans. You state the goal, Degla figures out how.",
+      "long_description": "Degla AI builds autonomy software that enables drones to understand spoken instructions, reason onboard, and adapt as the mission unfolds. Once you’ve expressed your intent, the system owns the problem.\r\n\r\nAn operator can say, “Find the missing hiker wearing a red sweater.” The drone plans the mission, interprets what it sees, and adjusts its flight as new information emerges. The operator sets the objective and the aircraft handles the execution.\r\n\r\nAt the core is an onboard vision-language model that interprets what the drone sees, understands the operator’s intent, and guides mission planning, execution, and adaptation. Running locally on NVIDIA Jetson, it makes mission decisions without relying on cloud inference.\r\n",
       "one_liner": "The fully autonomous intelligence layer in the sky.",
       "team_size": 2,
       "highlight_black": false,
@@ -28253,7 +28295,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": false,
+      "isHiring": true,
       "nonprofit": false,
       "batch": "Winter 2026",
       "status": "Active",
@@ -32743,7 +32785,7 @@
       "highlight_women": false,
       "industry": "Healthcare",
       "subindustry": "Healthcare",
-      "launched_at": 1763574394,
+      "launched_at": 1794246450,
       "tags": [
         "Healthcare",
         "Healthcare IT"
