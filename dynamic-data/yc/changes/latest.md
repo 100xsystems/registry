@@ -1,71 +1,154 @@
 # YC Company Changes for 2026-11-11
 
-- Previous total: 6389
+- Previous total: 6387
 - Current total: 6387
 - Added: 0
-- Removed: 2
-- Updated: 12
+- Removed: 0
+- Updated: 34
 
-
-## Removed Companies
-
-- Cardinal Square (Fall 2026)
-- Bindwell (Winter 2025)
 
 ## Updated Companies
 
-### [Bystreet](https://www.ycombinator.com/companies/bystreet)
+### [Zerocater](https://www.ycombinator.com/companies/zerocater)
 
-- `one_liner`: Connect with hoteliers around the world. → Connect with hotel owners around the world.
+- `stage`: Early → Growth
 
-### [Exla](https://www.ycombinator.com/companies/exla)
+### [teaBOT](https://www.ycombinator.com/companies/teabot)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/94cd00784e37842fc455ee2fd7b22d487b0693cf.png → https://bookface-images.s3.amazonaws.com/small_logos/74b03d66013c57fb583f1bf25c91cf444cd932c2.png
+- `regions`: Canada,United States of America,America / Canada,Remote,Partly Remote → Canada,United States of America,America / Canada,America / Canada,Remote,Partly Remote
 
-### [Flick](https://www.ycombinator.com/companies/flick)
+### [Flirtey (SkyDrop)](https://www.ycombinator.com/companies/flirtey)
 
-- `all_locations`: Santa Barbara, CA, USA → Santa Barbara, CA, USA; Remote
-- `team_size`: 2 → 5
-- `regions`: United States of America,America / Canada,Remote,Partly Remote → United States of America,America / Canada,Remote,Fully Remote
+- `stage`: Early → Growth
 
-### [Palette](https://www.ycombinator.com/companies/palette-2)
+### [Solugen](https://www.ycombinator.com/companies/solugen)
 
-- `one_liner`: The Media Engine of the AI Era → Generative models for the creative and physical worlds
-- `tags`: Generative AI,Video,AI → Generative AI,Video,Manufacturing,AI
+- `stage`: Early → Growth
 
-### [Collar](https://www.ycombinator.com/companies/collar)
+### [Deel](https://www.ycombinator.com/companies/deel)
 
-- `one_liner`: AI-Native Investor Relations → AI-Native Investor Relations For Public Companies
+- `stage`: Early → Growth
 
-### [Rhem Labs](https://www.ycombinator.com/companies/rhem-labs)
+### [Alpaca](https://www.ycombinator.com/companies/alpaca)
 
-- `one_liner`: Home care technology for aging parents and their families → 
+- `stage`: Early → Growth
+
+### [Atmo](https://www.ycombinator.com/companies/atmo)
+
+- `stage`: Early → Growth
+
+### [Safepay](https://www.ycombinator.com/companies/safepay)
+
+- `all_locations`: San Francisco, CA, USA; Remote → Dubai, Dubai, United Arab Emirates; San Francisco, CA, USA; Remote
+- `regions`: United States of America,America / Canada,Remote,Fully Remote → United Arab Emirates,United States of America,Middle East and North Africa,America / Canada,Remote,F
+
+### [BIK](https://www.ycombinator.com/companies/bik)
+
+- `all_locations`: San Francisco, CA, USA; Remote → New York City, NY, USA; Remote
+
+### [Supabase](https://www.ycombinator.com/companies/supabase)
+
+- `all_locations`: San Francisco, CA, USA; Remote → Singapore, Singapore; Remote
+- `regions`: United States of America,America / Canada,Remote,Fully Remote → Singapore,Southeast Asia,Remote,Fully Remote
+
+### [Tiriel AI](https://www.ycombinator.com/companies/tiriel-ai)
+
+- `all_locations`: Monterrey, N.L., Mexico → San Francisco, CA, USA
+- `regions`: Mexico,Latin America,Remote,Partly Remote → United States of America,America / Canada,Remote,Partly Remote
+
+### [Nomod](https://www.ycombinator.com/companies/nomod)
+
+- `team_size`: 68 → 88
+
+### [Exa](https://www.ycombinator.com/companies/exa)
+
+- `stage`: Early → Growth
+
+### [goodfin](https://www.ycombinator.com/companies/goodfin)
+
+- `all_locations`: Los Angeles, CA, USA → New York City, NY, USA
+
+### [Blockscope](https://www.ycombinator.com/companies/blockscope)
+
+- `all_locations`: New York City, NY, USA → Toronto, ON, Canada
+- `regions`: United States of America,America / Canada → Canada,America / Canada
+
+### [Kivo Health](https://www.ycombinator.com/companies/kivo-health)
+
+- `all_locations`: San Francisco, CA, USA → Seattle, WA, USA
+
+### [Morph](https://www.ycombinator.com/companies/morph)
+
+- `isHiring`: true → false
+
+### [Aren](https://www.ycombinator.com/companies/aren)
+
+- `all_locations`:  → New York City, NY, USA
+- `regions`: Unspecified → United States of America,America / Canada
+
+### [Garage](https://www.ycombinator.com/companies/garage-2)
+
+- `stage`: Early → Growth
+
+### [Feldy](https://www.ycombinator.com/companies/feldy)
+
+- `all_locations`: San Francisco, CA, USA; Remote → Denver, CO, USA; Remote
+
+### [Wafer](https://www.ycombinator.com/companies/wafer)
+
+- `stage`: Early → Growth
+
+### [Uplift AI](https://www.ycombinator.com/companies/uplift-ai)
+
+- `isHiring`: true → false
+
+### [Travo](https://www.ycombinator.com/companies/travo)
+
+- `isHiring`: false → true
+
+### [Klarify](https://www.ycombinator.com/companies/klarify)
+
+- `isHiring`: true → false
+
+### [tday.com](https://www.ycombinator.com/companies/tdaycom)
+
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/189d7dfda58ad5b8ba218fc5332926319e00c2d5.png → https://bookface-images.s3.amazonaws.com/small_logos/e529b62be0f05fefb8d967abe1c768c14f7b964e.png
+
+### [BioStack Platforms](https://www.ycombinator.com/companies/biostack-platforms)
+
+- `team_size`: 11 → 13
+
+### [Huscarl](https://www.ycombinator.com/companies/huscarl)
+
+- `all_locations`: San Francisco, CA, USA → Paris, Île-de-France, France
+- `regions`: United States of America,America / Canada → France,Europe
+
+### [Rote](https://www.ycombinator.com/companies/rote)
+
+- `all_locations`: San Francisco, CA, USA → Ithaca, NY, USA
+
+### [Fabraix](https://www.ycombinator.com/companies/fabraix)
+
+- `team_size`: 2 → 3
+
+### [Care GP](https://www.ycombinator.com/companies/care-gp)
+
+- `batch`: Summer 2026 → Winter 2027
+
+### [Conifer](https://www.ycombinator.com/companies/conifer)
+
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/1cd2adb8270db80170ab62b4140817892372538a.png → https://bookface-images.s3.amazonaws.com/small_logos/e1683f4d302e40ce6dad6719b268139065b19753.png
 
 ### [Nodus Compute](https://www.ycombinator.com/companies/nodus-compute)
 
-- `one_liner`: Intelligent Cloud for AI workloads → More AI from your GPUs
+- `one_liner`: More AI from your GPUs → Maximize the AI you get from your Infrastructure
 
-### [Hopper](https://www.ycombinator.com/companies/hopper)
+### [TrueMile](https://www.ycombinator.com/companies/truemile)
 
-- `one_liner`: Fast, open-source inference for voice → The Inference cloud for voice 
+- `regions`: United States of America,America / Canada → United States of America,America / Canada,Remote,Partly Remote
 
-### [Plek AI](https://www.ycombinator.com/companies/plek-ai)
+### [Sintropix](https://www.ycombinator.com/companies/sintropix)
 
-- `name`: Plek → Plek AI
-- `slug`: plek → plek-ai
-- `former_names`: Plek AI → Plek AI,Plek
-
-### [Verno](https://www.ycombinator.com/companies/verno)
-
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/44049e90156e0d9c30c0c4aebd27d6d82a285255.png → https://bookface-images.s3.amazonaws.com/small_logos/74ef12c285d4addcc60a88f490fbbb178260035f.png
-- `one_liner`: AI that helps engineers draft, edit and check documents → AI engineering industrials like chip fabs, refineries and power plants
-- `team_size`: 3 → 4
-
-### [Latent](https://www.ycombinator.com/companies/trylatent)
-
-- `one_liner`: Catch wrong LLM answers before your customers do → Stop AI agent mistakes by reading the model’s mind
-
-### [Rezora IO](https://www.ycombinator.com/companies/rezora-io)
-
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/28f85e2fbd991f8396599925f9f3bdcdddde5aaf.png → https://bookface-images.s3.amazonaws.com/small_logos/22b8fb8db1fec9cd1b1b6da222946a31fcfe5373.png
-- `tags`: SaaS,AI,AI Assistant → Home Services,AI,Conversational AI,AI Assistant
+- `all_locations`: Santiago, Santiago Metropolitan Region, Chile → San Francisco, CA, USA
+- `one_liner`: Autonomous accounting platform for global companies → AI-native ERP that closes your books and files your taxes
+- `regions`: Chile,Latin America → United States of America,America / Canada

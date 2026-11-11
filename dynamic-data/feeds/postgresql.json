@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-11-10T22:41:43.875Z",
+  "updatedAt": "2026-11-11T13:54:01.715Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -3369,7 +3369,15 @@
       "summary": "A backend keeps its mapping of the arena in its cache. As a result, if another backend drops or truncates the table, the memory of the old arena is not returned until that backend disconnects, so the cache has to be invalidated when the relation changes. This post uses the relcache invalidation…",
       "author": null,
       "publishedAt": "2026-11-10T20:21:39.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9Bx",
+      "title": "Andreas Scherbaum: PostgreSQL Berlin November 2026 Meetup",
+      "link": "https://postgr.es/p/9Bx",
+      "summary": "On 4th of November, 2026, we had the PostgreSQL November Meetup in Berlin. AWS hosted it again, this time we had two speakers from Germany and UK.\nThe Meetup took place in the Amazontower (EDGE East Side Tower Berlin) in Berlin, across the Uber Arena and right next to the East Side Mall.\nOleksii…",
+      "author": null,
+      "publishedAt": "2026-11-10T22:00:00.000Z"
     }
   ],
-  "totalIndexed": 420
+  "totalIndexed": 421
 }
