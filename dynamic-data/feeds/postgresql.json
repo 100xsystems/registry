@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-11-11T19:16:45.496Z",
+  "updatedAt": "2026-11-11T23:54:16.147Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -3393,7 +3393,31 @@
       "summary": "A PostgreSQL database holds logic as well as data, in functions, triggers and Row-Level Security (RLS) policies. On Supabase and Neon much of that logic can be reached straight from the browser. UnitAutogen for PostgreSQL generates three kinds of test for it, together with the mock data each test…",
       "author": null,
       "publishedAt": "2026-11-11T12:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9BB",
+      "title": "uzair aslam: Vercel Cron Jobs in Production: Secure, Retry-Safe Jobs with Next.js",
+      "link": "https://postgr.es/p/9BB",
+      "summary": "Build Vercel Cron Jobs in Next.js with CRON_SECRET, PostgreSQL locks, bounded backfill, safe retries, and a practical production debugging guide.\nYour daily report runs at 02:00 UTC. One morning it never reaches the app. The following day it arrives twice, and both invocations try to produce the…",
+      "author": null,
+      "publishedAt": "2026-11-11T22:51:35.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9BC",
+      "title": "uzair aslam: PostgreSQL Vector Search with pgvector: Hybrid Search in Next.js",
+      "link": "https://postgr.es/p/9BC",
+      "summary": "Build PostgreSQL vector search with pgvector and Next.js. Compare keyword and hybrid ranking, enforce tenant access, and reproduce filtered HNSW recall.\nA support engineer searches for AUTH-4017. The most useful result is the ticket with that exact error code. Another engineer types “sign-in works…",
+      "author": null,
+      "publishedAt": "2026-11-11T22:51:31.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9BA",
+      "title": "Christophe Pettus: Stop Using AI to Report PostgreSQL Bugs",
+      "link": "https://postgr.es/p/9BA",
+      "summary": "Lately, the PostgreSQL’s bug-report mailing list has been receiving a large number of AI-generated bug reports. Often, these come in flurries of 10-15 bugs, each from the same email address.\nThese bug reports are of, shall we say, highly variable quality.\nJust looking through a few of the recent ……",
+      "author": null,
+      "publishedAt": "2026-11-11T17:37:00.000Z"
     }
   ],
-  "totalIndexed": 423
+  "totalIndexed": 426
 }

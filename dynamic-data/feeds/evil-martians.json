@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-11-03T19:06:52.219Z",
+  "updatedAt": "2026-11-11T23:54:17.713Z",
   "items": [
     {
       "guid": "evil-martians::https://evilmartians.com/chronicles/which-ai-actually-reads-your-site-two-months-of-llm-traffic-measured",
@@ -327,7 +327,15 @@
       "summary": "Authors: Vladimir Dementyev, Principal Backend Engineer, Artur Petrov, Backend Engineer, and Travis Turner, Tech Editor\nTopics: Rails, AI, Open Source, LLM benchmarking, Ruby, LLMs\n\nA tour of lemans, the open source Ruby harness behind Agents on Rails: eval task anatomy, how it runs and grades…",
       "author": "Vladimir Dementyev",
       "publishedAt": "2026-11-03T00:00:00.000Z"
+    },
+    {
+      "guid": "evil-martians::https://evilmartians.com/chronicles/building-uscreens-remote-multi-tenant-mcp-server-inside-a-rails-app",
+      "title": "Building Uscreen’s remote, multi-tenant MCP server inside a Rails app",
+      "link": "https://evilmartians.com/chronicles/building-uscreens-remote-multi-tenant-mcp-server-inside-a-rails-app",
+      "summary": "Authors: Aibek Izhanov, Backend Engineer, and Travis Turner, Tech Editor\nTopics: AI, Rails, Case Study, Ruby, LLMs\n\nHow Evil Martians moved Uscreen’s MCP server into its Rails app as a remote, multi-tenant service: Doorkeeper OAuth, tenant-scoped tools, and dry-run previews for destructive…",
+      "author": "Aibek Izhanov",
+      "publishedAt": "2026-11-11T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 40
+  "totalIndexed": 41
 }

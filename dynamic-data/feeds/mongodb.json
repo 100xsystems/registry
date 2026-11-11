@@ -8,7 +8,7 @@
     "performance",
     "cloud"
   ],
-  "updatedAt": "2026-11-11T19:16:56.615Z",
+  "updatedAt": "2026-11-11T23:54:26.778Z",
   "items": [
     {
       "guid": "https://www.mongodb.com/company/blog/news/10-years-mongodb-atlas-built-for-whats-next",
@@ -569,7 +569,23 @@
       "summary": "Sometimes the biggest performance gains come not from making core operations faster, but from eliminating unnecessary work surrounding them. That is exactly what we discovered while optimizing document lookup in MongoDB Atlas Search and Vector Search. By removing redundant query planning and…",
       "author": null,
       "publishedAt": "2026-11-11T15:00:00.000Z"
+    },
+    {
+      "guid": "https://www.mongodb.com/company/blog/product-release-announcements/introducing-mongodb-vercel-ai-sdk-integration-persistent-memory-applications",
+      "title": "Introducing the MongoDB Vercel AI SDK Integration: Persistent Memory for AI Applications",
+      "link": "https://www.mongodb.com/company/blog/product-release-announcements/introducing-mongodb-vercel-ai-sdk-integration-persistent-memory-applications",
+      "summary": "We are excited to announce the release of the MongoDB Vercel AI SDK integration, which provides AI applications and agents built with Vercel’s SDK with a persistent memory store in MongoDB Atlas. It's now open source and generally available on npm.\nThis integration adds MongoDB Atlas as the memory…",
+      "author": null,
+      "publishedAt": "2026-11-11T20:55:20.000Z"
+    },
+    {
+      "guid": "https://www.mongodb.com/company/blog/product-release-announcements/introducing-claude-sdk-session-adapter-durable-session-storage-for-agents",
+      "title": "Introducing the MongoDB Claude SDK Session Adapter: Durable Session Storage for Agents",
+      "link": "https://www.mongodb.com/company/blog/product-release-announcements/introducing-claude-sdk-session-adapter-durable-session-storage-for-agents",
+      "summary": "The Claude Agent SDK is a package that lets you embed Claude Code's own agent loop directly into your application: web search, file search, file editing, MCP server connections, and more, all without having to define those tools or manage the agent loop yourself. The SDK also automatically persists…",
+      "author": null,
+      "publishedAt": "2026-11-11T20:54:41.000Z"
     }
   ],
-  "totalIndexed": 70
+  "totalIndexed": 72
 }
