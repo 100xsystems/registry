@@ -9,7 +9,7 @@
     "refactoring",
     "design"
   ],
-  "updatedAt": "2026-11-10T14:38:36.269Z",
+  "updatedAt": "2026-11-11T19:16:45.374Z",
   "items": [
     {
       "guid": "martin-fowler::https://martinfowler.com/fragments/2026-07-21.html",
@@ -554,7 +554,15 @@
       "summary": "Long-horizon agents can automate complex tasks that take days or weeks\n     to complete and involve multiple exchanges with people and external\n     systems. Many things can go wrong during this time, including process\n     crashes, network failures, and unanticipated real-world behavior.…",
       "author": "Martin Fowler",
       "publishedAt": "2026-11-10T14:10:00.000Z"
+    },
+    {
+      "guid": "martin-fowler::https://martinfowler.com/articles/tests-as-data.html",
+      "title": "Tests as data: ensuring AI-generated code does what we want",
+      "link": "https://martinfowler.com/articles/tests-as-data.html",
+      "summary": "Automated testing in the age of AI coding assistants is problematic:\n     when AI agents write both production and test code, developers risk losing\n     the assurance that automated tests protect against functional errors.\n     Matteo Vaccari makes three claims: (1) when AI writes the\n     code,…",
+      "author": "Martin Fowler",
+      "publishedAt": "2026-11-11T15:17:00.000Z"
     }
   ],
-  "totalIndexed": 68
+  "totalIndexed": 69
 }

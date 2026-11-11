@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-11-11T13:54:01.715Z",
+  "updatedAt": "2026-11-11T19:16:45.496Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -3377,7 +3377,23 @@
       "summary": "On 4th of November, 2026, we had the PostgreSQL November Meetup in Berlin. AWS hosted it again, this time we had two speakers from Germany and UK.\nThe Meetup took place in the Amazontower (EDGE East Side Tower Berlin) in Berlin, across the Uber Arena and right next to the East Side Mall.\nOleksii…",
       "author": null,
       "publishedAt": "2026-11-10T22:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9By",
+      "title": "Umair Shahid: Life After PostgreSQL 14",
+      "link": "https://postgr.es/p/9By",
+      "summary": "PostgreSQL 14 receives its final minor release tomorrow, November 12, 2026. No new security or bug fixes ship for it after that. Your database keeps running, but every vulnerability found after that date stays open on your servers.\nPostgreSQL 15 follows on November 11, 2027. If you run either…",
+      "author": null,
+      "publishedAt": "2026-11-11T13:50:12.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9Bz",
+      "title": "Munaf Khatri: Testing: Auto-generated Unit, Integration and Data leakage tests for PostgreSQL, Supabase and Neon",
+      "link": "https://postgr.es/p/9Bz",
+      "summary": "A PostgreSQL database holds logic as well as data, in functions, triggers and Row-Level Security (RLS) policies. On Supabase and Neon much of that logic can be reached straight from the browser. UnitAutogen for PostgreSQL generates three kinds of test for it, together with the mock data each test…",
+      "author": null,
+      "publishedAt": "2026-11-11T12:00:00.000Z"
     }
   ],
-  "totalIndexed": 421
+  "totalIndexed": 423
 }

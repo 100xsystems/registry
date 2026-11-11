@@ -9,7 +9,7 @@
     "edge-computing",
     "nextjs"
   ],
-  "updatedAt": "2026-11-10T06:08:19.518Z",
+  "updatedAt": "2026-11-11T19:16:55.489Z",
   "items": [
     {
       "guid": "vercel-blog::https://vercel.com/changelog/ai-gateway-now-supports-streaming-transcription",
@@ -5322,7 +5322,15 @@
       "summary": "now creates snapshots up to 10x faster. Median time to snapshot is under 0.4 seconds, down from 4.4 seconds. Snapshot restore speed has also improved by 50% from 500ms to 250ms at p50.Vercel Sandbox\nSnapshots are now able to write and restore by re-using frames within the Vercel Hive Snapshot (VHS)…",
       "author": "Andy Waller",
       "publishedAt": "2026-11-09T21:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/gemini-decision-1-now-available-on-ai-gateway",
+      "title": "Gemini Decision 1 now available on AI Gateway",
+      "link": "https://vercel.com/changelog/gemini-decision-1-now-available-on-ai-gateway",
+      "summary": "is now available on AI Gateway. The multimodal decision model works with text, images, audio, video, and PDF documents, returning Boolean probabilities, choices, and scores. Use it to route requests, check policies, filter agent tools, or rank results without generating output tokens.Gemini…",
+      "author": "Aayush Kapoor",
+      "publishedAt": "2026-11-11T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 664
+  "totalIndexed": 665
 }
