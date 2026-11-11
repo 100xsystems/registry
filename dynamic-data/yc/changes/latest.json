@@ -1,30 +1,40 @@
 {
-  "date": "2026-11-10",
-  "fetchedAt": "2026-11-10T22:42:01.402Z",
-  "previousCount": 6388,
-  "currentCount": 6389,
-  "added": [
+  "date": "2026-11-11",
+  "fetchedAt": "2026-11-11T04:55:17.380Z",
+  "previousCount": 6389,
+  "currentCount": 6387,
+  "added": [],
+  "removed": [
     {
-      "id": 35091,
-      "name": "Ample Computer",
-      "slug": "ample-computer",
-      "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/20a58a6cb709fda329d24b263a54b787cd53d4bc.png",
-      "website": "https://ample.computer/",
+      "id": 35092,
+      "name": "Cardinal Square",
+      "slug": "cardinal-square",
+      "former_names": [
+        "Neolithic",
+        "Biomes",
+        "Biomes Academy",
+        "Biomes",
+        "Biomes Academy",
+        "Biomes",
+        "Cardinal Square Academy",
+        "Cardinal Square",
+        "Cardinal Square Academy"
+      ],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/87a9ad77df8ff03bf6998f4f2007f263b31dbba5.png",
+      "website": "https://cardinalsquare.com/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Cloud hosting and infrastructure platform that has everything your agent needs to ship web applications. We set up compute, frontend, database, storage, CDN, email and (soon) text, analytics, and payments. We then monitor, patch and scale your app so you never migrate anything again.\r\n\r\nWe're doing for the internet software economy what Shopify did for e-commerce - remove the technical barriers to anyone can launch anything.",
-      "one_liner": "Everything your agent needs to ship a web app",
+      "long_description": "First, we build AI teachers that read every step of a kid’s work, remember how that kid learns, and adapt to them every day. Our goal is an AI that teaches as well as the best human tutor.\r\n\r\nThen we take the programs families already pay hundreds a month for (tutoring centers, writing schools, daily practice programs) and rebuild them around our AI teacher, so every family gets personalized education for a fraction of the price. It’s the same ritual families trust from Kumon or a writing school, with the AI teacher doing the teaching.",
+      "one_liner": "AI-native schools",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
-      "industry": "B2B",
-      "subindustry": "B2B -> Infrastructure",
-      "launched_at": 1794340768,
+      "industry": "Education",
+      "subindustry": "Education",
+      "launched_at": 1793227316,
       "tags": [
-        "B2B",
-        "Cloud Computing",
-        "Infrastructure",
+        "Education",
+        "Consumer",
         "AI"
       ],
       "tags_highlighted": [],
@@ -34,8 +44,7 @@
       "batch": "Fall 2026",
       "status": "Active",
       "industries": [
-        "B2B",
-        "Infrastructure"
+        "Education"
       ],
       "regions": [
         "United States of America",
@@ -46,225 +55,241 @@
       "demo_day_video_public": false,
       "app_answers": null,
       "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/ample-computer"
+      "url": "https://www.ycombinator.com/companies/cardinal-square"
+    },
+    {
+      "id": 30263,
+      "name": "Bindwell",
+      "slug": "bindwell",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/27909408e945386b5dab99b0a68f5cede01bee40.png",
+      "website": "https://www.bindwell.ai/",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "We're developing better, safer pesticides in-house using custom AI models. ",
+      "one_liner": "Discovering new pesticides with AI",
+      "team_size": 24,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "Industrials",
+      "subindustry": "Industrials -> Agriculture",
+      "launched_at": 1740392812,
+      "tags": [],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Winter 2025",
+      "status": "Active",
+      "industries": [
+        "Industrials",
+        "Agriculture"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/bindwell"
     }
   ],
-  "removed": [],
   "updated": [
     {
-      "id": 171,
-      "name": "Zerocater",
-      "slug": "zerocater",
-      "batch": "Winter 2011",
-      "url": "https://www.ycombinator.com/companies/zerocater",
+      "id": 30279,
+      "name": "Bystreet",
+      "slug": "bystreet",
+      "batch": "Winter 2025",
+      "url": "https://www.ycombinator.com/companies/bystreet",
       "changes": [
         {
-          "field": "stage",
-          "before": "Growth",
-          "after": "Early"
+          "field": "one_liner",
+          "before": "Connect with hoteliers around the world.",
+          "after": "Connect with hotel owners around the world."
         }
       ]
     },
     {
-      "id": 966,
-      "name": "Flirtey (SkyDrop)",
-      "slug": "flirtey",
-      "batch": "Summer 2015",
-      "url": "https://www.ycombinator.com/companies/flirtey",
+      "id": 30284,
+      "name": "Exla",
+      "slug": "exla",
+      "batch": "Winter 2025",
+      "url": "https://www.ycombinator.com/companies/exla",
+      "changes": [
+        {
+          "field": "small_logo_thumb_url",
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/94cd00784e37842fc455ee2fd7b22d487b0693cf.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/74b03d66013c57fb583f1bf25c91cf444cd932c2.png"
+        }
+      ]
+    },
+    {
+      "id": 30884,
+      "name": "Flick",
+      "slug": "flick",
+      "batch": "Fall 2025",
+      "url": "https://www.ycombinator.com/companies/flick",
       "changes": [
         {
           "field": "all_locations",
-          "before": "Blountville, TN, USA",
-          "after": ""
+          "before": "Santa Barbara, CA, USA",
+          "after": "Santa Barbara, CA, USA; Remote"
+        },
+        {
+          "field": "team_size",
+          "before": 2,
+          "after": 5
         },
         {
           "field": "regions",
           "before": [
             "United States of America",
-            "America / Canada"
+            "America / Canada",
+            "Remote",
+            "Partly Remote"
           ],
           "after": [
-            "Unspecified"
+            "United States of America",
+            "America / Canada",
+            "Remote",
+            "Fully Remote"
           ]
-        },
-        {
-          "field": "stage",
-          "before": "Growth",
-          "after": "Early"
         }
       ]
     },
     {
-      "id": 1513,
-      "name": "Solugen",
-      "slug": "solugen",
-      "batch": "Winter 2017",
-      "url": "https://www.ycombinator.com/companies/solugen",
+      "id": 31349,
+      "name": "Palette",
+      "slug": "palette-2",
+      "batch": "Summer 2026",
+      "url": "https://www.ycombinator.com/companies/palette-2",
       "changes": [
-        {
-          "field": "stage",
-          "before": "Growth",
-          "after": "Early"
-        }
-      ]
-    },
-    {
-      "id": 12064,
-      "name": "Deel",
-      "slug": "deel",
-      "batch": "Winter 2019",
-      "url": "https://www.ycombinator.com/companies/deel",
-      "changes": [
-        {
-          "field": "team_size",
-          "before": 5000,
-          "after": 7000
-        },
-        {
-          "field": "stage",
-          "before": "Growth",
-          "after": "Early"
-        }
-      ]
-    },
-    {
-      "id": 12119,
-      "name": "Alpaca",
-      "slug": "alpaca",
-      "batch": "Winter 2019",
-      "url": "https://www.ycombinator.com/companies/alpaca",
-      "changes": [
-        {
-          "field": "stage",
-          "before": "Growth",
-          "after": "Early"
-        }
-      ]
-    },
-    {
-      "id": 13522,
-      "name": "Atmo",
-      "slug": "atmo",
-      "batch": "Winter 2020",
-      "url": "https://www.ycombinator.com/companies/atmo",
-      "changes": [
-        {
-          "field": "status",
-          "before": "Active",
-          "after": "Acquired"
-        },
-        {
-          "field": "stage",
-          "before": "Growth",
-          "after": "Early"
-        }
-      ]
-    },
-    {
-      "id": 30318,
-      "name": "Goodshelf",
-      "slug": "goodshelf",
-      "batch": "Winter 2025",
-      "url": "https://www.ycombinator.com/companies/goodshelf",
-      "changes": [
-        {
-          "field": "name",
-          "before": "Wildcard",
-          "after": "Goodshelf"
-        },
-        {
-          "field": "slug",
-          "before": "wildcard",
-          "after": "goodshelf"
-        },
-        {
-          "field": "former_names",
-          "before": [],
-          "after": [
-            "Wildcard"
-          ]
-        },
-        {
-          "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/f6dd000652c5e77966ee483897c0ffed9dac2d80.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/199e9c30db41323c06b0606bc6de1260ab946d37.png"
-        },
-        {
-          "field": "website",
-          "before": "https://wild-card.ai",
-          "after": "https://goodshelf.com"
-        },
         {
           "field": "one_liner",
-          "before": "AEO/GEO for E-Commerce and Retail",
-          "after": "The online retailer for AI shopping agents"
-        },
-        {
-          "field": "industry",
-          "before": "B2B",
-          "after": "Consumer"
-        },
-        {
-          "field": "subindustry",
-          "before": "B2B -> Engineering, Product and Design",
-          "after": "Consumer -> Home and Personal"
+          "before": "The Media Engine of the AI Era",
+          "after": "Generative models for the creative and physical worlds"
         },
         {
           "field": "tags",
           "before": [
             "Generative AI",
-            "E-commerce",
-            "Marketing",
-            "Retail Tech",
+            "Video",
             "AI"
           ],
           "after": [
-            "Marketplace",
-            "E-commerce",
-            "Retail Tech",
-            "Retail",
+            "Generative AI",
+            "Video",
+            "Manufacturing",
             "AI"
           ]
+        }
+      ]
+    },
+    {
+      "id": 31461,
+      "name": "Collar",
+      "slug": "collar",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/collar",
+      "changes": [
+        {
+          "field": "one_liner",
+          "before": "AI-Native Investor Relations",
+          "after": "AI-Native Investor Relations For Public Companies"
+        }
+      ]
+    },
+    {
+      "id": 35127,
+      "name": "Rhem Labs",
+      "slug": "rhem-labs",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/rhem-labs",
+      "changes": [
+        {
+          "field": "one_liner",
+          "before": "Home care technology for aging parents and their families",
+          "after": ""
+        }
+      ]
+    },
+    {
+      "id": 35257,
+      "name": "Nodus Compute",
+      "slug": "nodus-compute",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/nodus-compute",
+      "changes": [
+        {
+          "field": "one_liner",
+          "before": "Intelligent Cloud for AI workloads",
+          "after": "More AI from your GPUs"
+        }
+      ]
+    },
+    {
+      "id": 35265,
+      "name": "Hopper",
+      "slug": "hopper",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/hopper",
+      "changes": [
+        {
+          "field": "one_liner",
+          "before": "Fast, open-source inference for voice",
+          "after": "The Inference cloud for voice "
+        }
+      ]
+    },
+    {
+      "id": 35393,
+      "name": "Plek AI",
+      "slug": "plek-ai",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/plek-ai",
+      "changes": [
+        {
+          "field": "name",
+          "before": "Plek",
+          "after": "Plek AI"
         },
         {
-          "field": "isHiring",
-          "before": true,
-          "after": false
+          "field": "slug",
+          "before": "plek",
+          "after": "plek-ai"
         },
         {
-          "field": "industries",
+          "field": "former_names",
           "before": [
-            "B2B",
-            "Engineering, Product and Design"
+            "Plek AI"
           ],
           "after": [
-            "Consumer",
-            "Home and Personal"
+            "Plek AI",
+            "Plek"
           ]
         }
       ]
     },
     {
-      "id": 30644,
-      "name": "Wafer",
-      "slug": "wafer",
-      "batch": "Summer 2025",
-      "url": "https://www.ycombinator.com/companies/wafer",
+      "id": 35949,
+      "name": "Verno",
+      "slug": "verno",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/verno",
       "changes": [
         {
-          "field": "stage",
-          "before": "Growth",
-          "after": "Early"
-        }
-      ]
-    },
-    {
-      "id": 30995,
-      "name": "Velvet",
-      "slug": "velvet",
-      "batch": "Fall 2025",
-      "url": "https://www.ycombinator.com/companies/velvet",
-      "changes": [
+          "field": "small_logo_thumb_url",
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/44049e90156e0d9c30c0c4aebd27d6d82a285255.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/74ef12c285d4addcc60a88f490fbbb178260035f.png"
+        },
+        {
+          "field": "one_liner",
+          "before": "AI that helps engineers draft, edit and check documents",
+          "after": "AI engineering industrials like chip fabs, refineries and power plants"
+        },
         {
           "field": "team_size",
           "before": 3,
@@ -273,38 +298,43 @@
       ]
     },
     {
-      "id": 35096,
-      "name": "Stacktrace",
-      "slug": "stacktrace",
+      "id": 36347,
+      "name": "Latent",
+      "slug": "trylatent",
       "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/stacktrace",
+      "url": "https://www.ycombinator.com/companies/trylatent",
       "changes": [
         {
           "field": "one_liner",
-          "before": "See and control what your agents actually do",
-          "after": "Give agents autonomy without losing control"
+          "before": "Catch wrong LLM answers before your customers do",
+          "after": "Stop AI agent mistakes by reading the model’s mind"
         }
       ]
     },
     {
-      "id": 35289,
-      "name": "ByteAsk",
-      "slug": "byteask",
+      "id": 37171,
+      "name": "Rezora IO",
+      "slug": "rezora-io",
       "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/byteask",
+      "url": "https://www.ycombinator.com/companies/rezora-io",
       "changes": [
+        {
+          "field": "small_logo_thumb_url",
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/28f85e2fbd991f8396599925f9f3bdcdddde5aaf.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/22b8fb8db1fec9cd1b1b6da222946a31fcfe5373.png"
+        },
         {
           "field": "tags",
           "before": [
-            "Developer Tools",
-            "Enterprise Software",
-            "AI"
+            "SaaS",
+            "AI",
+            "AI Assistant"
           ],
           "after": [
-            "Developer Tools",
-            "Open Source",
-            "Enterprise Software",
-            "AI"
+            "Home Services",
+            "AI",
+            "Conversational AI",
+            "AI Assistant"
           ]
         }
       ]

@@ -1,72 +1,71 @@
-# YC Company Changes for 2026-11-10
+# YC Company Changes for 2026-11-11
 
-- Previous total: 6388
-- Current total: 6389
-- Added: 1
-- Removed: 0
-- Updated: 11
+- Previous total: 6389
+- Current total: 6387
+- Added: 0
+- Removed: 2
+- Updated: 12
 
 
-## Added Companies
+## Removed Companies
 
-- [Ample Computer](https://www.ycombinator.com/companies/ample-computer) (Fall 2026) — Everything your agent needs to ship a web app
+- Cardinal Square (Fall 2026)
+- Bindwell (Winter 2025)
 
 ## Updated Companies
 
-### [Zerocater](https://www.ycombinator.com/companies/zerocater)
+### [Bystreet](https://www.ycombinator.com/companies/bystreet)
 
-- `stage`: Growth → Early
+- `one_liner`: Connect with hoteliers around the world. → Connect with hotel owners around the world.
 
-### [Flirtey (SkyDrop)](https://www.ycombinator.com/companies/flirtey)
+### [Exla](https://www.ycombinator.com/companies/exla)
 
-- `all_locations`: Blountville, TN, USA → 
-- `regions`: United States of America,America / Canada → Unspecified
-- `stage`: Growth → Early
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/94cd00784e37842fc455ee2fd7b22d487b0693cf.png → https://bookface-images.s3.amazonaws.com/small_logos/74b03d66013c57fb583f1bf25c91cf444cd932c2.png
 
-### [Solugen](https://www.ycombinator.com/companies/solugen)
+### [Flick](https://www.ycombinator.com/companies/flick)
 
-- `stage`: Growth → Early
+- `all_locations`: Santa Barbara, CA, USA → Santa Barbara, CA, USA; Remote
+- `team_size`: 2 → 5
+- `regions`: United States of America,America / Canada,Remote,Partly Remote → United States of America,America / Canada,Remote,Fully Remote
 
-### [Deel](https://www.ycombinator.com/companies/deel)
+### [Palette](https://www.ycombinator.com/companies/palette-2)
 
-- `team_size`: 5000 → 7000
-- `stage`: Growth → Early
+- `one_liner`: The Media Engine of the AI Era → Generative models for the creative and physical worlds
+- `tags`: Generative AI,Video,AI → Generative AI,Video,Manufacturing,AI
 
-### [Alpaca](https://www.ycombinator.com/companies/alpaca)
+### [Collar](https://www.ycombinator.com/companies/collar)
 
-- `stage`: Growth → Early
+- `one_liner`: AI-Native Investor Relations → AI-Native Investor Relations For Public Companies
 
-### [Atmo](https://www.ycombinator.com/companies/atmo)
+### [Rhem Labs](https://www.ycombinator.com/companies/rhem-labs)
 
-- `status`: Active → Acquired
-- `stage`: Growth → Early
+- `one_liner`: Home care technology for aging parents and their families → 
 
-### [Goodshelf](https://www.ycombinator.com/companies/goodshelf)
+### [Nodus Compute](https://www.ycombinator.com/companies/nodus-compute)
 
-- `name`: Wildcard → Goodshelf
-- `slug`: wildcard → goodshelf
-- `former_names`:  → Wildcard
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/f6dd000652c5e77966ee483897c0ffed9dac2d80.png → https://bookface-images.s3.amazonaws.com/small_logos/199e9c30db41323c06b0606bc6de1260ab946d37.png
-- `website`: https://wild-card.ai → https://goodshelf.com
-- `one_liner`: AEO/GEO for E-Commerce and Retail → The online retailer for AI shopping agents
-- `industry`: B2B → Consumer
-- `subindustry`: B2B -> Engineering, Product and Design → Consumer -> Home and Personal
-- `tags`: Generative AI,E-commerce,Marketing,Retail Tech,AI → Marketplace,E-commerce,Retail Tech,Retail,AI
-- `isHiring`: true → false
-- `industries`: B2B,Engineering, Product and Design → Consumer,Home and Personal
+- `one_liner`: Intelligent Cloud for AI workloads → More AI from your GPUs
 
-### [Wafer](https://www.ycombinator.com/companies/wafer)
+### [Hopper](https://www.ycombinator.com/companies/hopper)
 
-- `stage`: Growth → Early
+- `one_liner`: Fast, open-source inference for voice → The Inference cloud for voice 
 
-### [Velvet](https://www.ycombinator.com/companies/velvet)
+### [Plek AI](https://www.ycombinator.com/companies/plek-ai)
 
+- `name`: Plek → Plek AI
+- `slug`: plek → plek-ai
+- `former_names`: Plek AI → Plek AI,Plek
+
+### [Verno](https://www.ycombinator.com/companies/verno)
+
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/44049e90156e0d9c30c0c4aebd27d6d82a285255.png → https://bookface-images.s3.amazonaws.com/small_logos/74ef12c285d4addcc60a88f490fbbb178260035f.png
+- `one_liner`: AI that helps engineers draft, edit and check documents → AI engineering industrials like chip fabs, refineries and power plants
 - `team_size`: 3 → 4
 
-### [Stacktrace](https://www.ycombinator.com/companies/stacktrace)
+### [Latent](https://www.ycombinator.com/companies/trylatent)
 
-- `one_liner`: See and control what your agents actually do → Give agents autonomy without losing control
+- `one_liner`: Catch wrong LLM answers before your customers do → Stop AI agent mistakes by reading the model’s mind
 
-### [ByteAsk](https://www.ycombinator.com/companies/byteask)
+### [Rezora IO](https://www.ycombinator.com/companies/rezora-io)
 
-- `tags`: Developer Tools,Enterprise Software,AI → Developer Tools,Open Source,Enterprise Software,AI
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/28f85e2fbd991f8396599925f9f3bdcdddde5aaf.png → https://bookface-images.s3.amazonaws.com/small_logos/22b8fb8db1fec9cd1b1b6da222946a31fcfe5373.png
+- `tags`: SaaS,AI,AI Assistant → Home Services,AI,Conversational AI,AI Assistant

@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-10-18T03:16:31.442Z",
+  "updatedAt": "2026-11-11T04:55:02.035Z",
   "items": [
     {
       "guid": "eli-bendersky::https://eli.thegreenplace.net/2026/notes-on-the-fourier-transform/",
@@ -119,7 +119,15 @@
       "summary": "One of the most wonderful aspects of math is how deep we can get by\nstudying seemingly trivial questions. Consider the roots of unity, where\n\"unity\" simply means the number 1.\nBasics: roots of unity for real numbers\nStudying the roots of unity usually begins in middle school: what is the\nsquare…",
       "author": "Eli Bendersky",
       "publishedAt": "2026-10-18T01:18:00.000Z"
+    },
+    {
+      "guid": "eli-bendersky::https://eli.thegreenplace.net/2026/monads-in-lean/",
+      "title": "Monads in Lean",
+      "link": "https://eli.thegreenplace.net/2026/monads-in-lean/",
+      "summary": "This post demonstrates how to use monads in the Lean programming language\n(Lean 4, to be specific). If you're not familiar with Lean, this part of the\nlanguage is very similar to other functional programming languages, like\nHaskell or OCaml.\nMotivating example - evaluating expressions\nSuppose we…",
+      "author": "Eli Bendersky",
+      "publishedAt": "2026-11-11T03:25:00.000Z"
     }
   ],
-  "totalIndexed": 14
+  "totalIndexed": 15
 }
