@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-11-11T23:54:16.147Z",
+  "updatedAt": "2026-11-12T14:55:08.417Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -3417,7 +3417,15 @@
       "summary": "Lately, the PostgreSQL’s bug-report mailing list has been receiving a large number of AI-generated bug reports. Often, these come in flurries of 10-15 bugs, each from the same email address.\nThese bug reports are of, shall we say, highly variable quality.\nJust looking through a few of the recent ……",
       "author": null,
       "publishedAt": "2026-11-11T17:37:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9BD",
+      "title": "Devrim GÜNDÜZ: PostgreSQL November 2026 minor releases: update the server and extensions together",
+      "link": "https://postgr.es/p/9BD",
+      "summary": "PostgreSQL 18.7, 17.12, 16.16, 15.20 and 14.25 are out today. If you use the PGDG RPM repositories (yum.postgresql.org or zypp.postgresql.org), please update PostgreSQL and all of your extensions in the same transaction this time. Do not update the server today and the extensions next month, and do…",
+      "author": null,
+      "publishedAt": "2026-11-12T12:58:00.000Z"
     }
   ],
-  "totalIndexed": 426
+  "totalIndexed": 427
 }

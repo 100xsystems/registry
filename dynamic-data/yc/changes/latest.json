@@ -1,30 +1,28 @@
 {
   "date": "2026-11-12",
-  "fetchedAt": "2026-11-12T05:57:15.228Z",
-  "previousCount": 6389,
-  "currentCount": 6391,
+  "fetchedAt": "2026-11-12T14:55:26.575Z",
+  "previousCount": 6391,
+  "currentCount": 6392,
   "added": [
     {
-      "id": 36807,
-      "name": "Index Law",
-      "slug": "index-law",
+      "id": 34901,
+      "name": "Outworld Labs",
+      "slug": "outworld-labs",
       "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/99054101faacf0b3423d66ef387cb3cbb6f0339e.png",
-      "website": "https://indexlaw.com",
-      "all_locations": "San Francisco, CA, USA; Remote",
-      "long_description": "Index Law is building Mike-1, a superhuman AI lawyer*! Mike is an AI legal agent that gives every business the capabilities of a world-class legal team. \r\n\r\nUnlike traditional legal AI tools that help lawyers work faster, Mike gets legal work done directly for your business. It understands your business, reviews and negotiates contracts, handles corporate matters, and brings in vetted human lawyers when specialist expertise is needed.\r\n\r\nYour documents, agreements, signatures, and legal history live in one workspace. Mike remembers your business and becomes more useful with every matter.\r\n\r\nWe're starting with contracts and corporate work for startups and growing businesses. Early customers have turned around contracts in under an hour and received quotes up to 80% below traditional law firm alternatives.\r\n\r\nOur ambition is to make legal services work like software: instantly accessible, deeply personalized, and capable of handling increasingly complex work.\r\n\r\nTry Mike: https://usemike.com\r\n\r\n*Note: Mike-1 is an AI legal agent, not a licensed or practicing lawyer. Qualified human lawyers provide legal advice and representation where required.",
-      "one_liner": "Your company's AI lawyer",
-      "team_size": 5,
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/e97ce26caf41d900b85740f8c55310298325be3f.png",
+      "website": "https://outworldlabs.com",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "Outworld Labs is building a simulation platform for training and evaluating robot foundation models. The platform is built on a brand new physics engine designed from the ground up for dexterous manipulation. It enables researchers to easily create realistic environments, reconstruct and augment real-world data, and improve their models through large-scale simulation without the cost of physical robots and real-world data collection.",
+      "one_liner": "Robotics simulation indistinguishable from reality",
+      "team_size": 0,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
       "industry": "B2B",
       "subindustry": "B2B",
-      "launched_at": 1794454827,
+      "launched_at": 1794474124,
       "tags": [
-        "Legal",
-        "LegalTech",
-        "AI"
+        "Robotics"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -37,50 +35,6 @@
       ],
       "regions": [
         "United States of America",
-        "America / Canada",
-        "Remote",
-        "Fully Remote"
-      ],
-      "stage": "Early",
-      "app_video_public": false,
-      "demo_day_video_public": false,
-      "app_answers": null,
-      "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/index-law"
-    },
-    {
-      "id": 37733,
-      "name": "Nines",
-      "slug": "nines",
-      "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/658b6cc2519f771f07c3a2cd54b6805628ebadc8.png",
-      "website": "https://ninesrobotics.ai/",
-      "all_locations": "San Francisco, CA, USA",
-      "long_description": "Nines builds autonomous robots, and the models that run them, for data centers.\r\n\r\nThe AI buildout is the biggest construction project of our lifetime, and the physical work inside it is still done by hand. Every GPU rack needs thousands of fiber connections matched, inserted, and verified before a hall goes live. After that, every building needs people on site around the clock to swap drives, transceivers, and fans.\r\n\r\nWith our robots operators bring capacity online faster, with fewer errors and less downtime.",
-      "one_liner": "Robot pit crew for AI data centers",
-      "team_size": 2,
-      "highlight_black": false,
-      "highlight_latinx": false,
-      "highlight_women": false,
-      "industry": "Industrials",
-      "subindustry": "Industrials -> Manufacturing and Robotics",
-      "launched_at": 1794452505,
-      "tags": [
-        "Robotics",
-        "AI"
-      ],
-      "tags_highlighted": [],
-      "top_company": false,
-      "isHiring": false,
-      "nonprofit": false,
-      "batch": "Fall 2026",
-      "status": "Active",
-      "industries": [
-        "Industrials",
-        "Manufacturing and Robotics"
-      ],
-      "regions": [
-        "United States of America",
         "America / Canada"
       ],
       "stage": "Early",
@@ -88,39 +42,50 @@
       "demo_day_video_public": false,
       "app_answers": null,
       "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/nines"
+      "url": "https://www.ycombinator.com/companies/outworld-labs"
     }
   ],
   "removed": [],
   "updated": [
     {
-      "id": 25394,
-      "name": "InferEdge",
-      "slug": "inferedge",
-      "batch": "Winter 2022",
-      "url": "https://www.ycombinator.com/companies/inferedge",
+      "id": 999,
+      "name": "Focal Systems",
+      "slug": "focal-systems",
+      "batch": "Winter 2016",
+      "url": "https://www.ycombinator.com/companies/focal-systems",
       "changes": [
         {
-          "field": "one_liner",
-          "before": "Agentic AI for buy-side firms",
-          "after": "AI solutions for investment firms under a forward deployed model"
-        },
+          "field": "stage",
+          "before": "Early",
+          "after": "Growth"
+        }
+      ]
+    },
+    {
+      "id": 12597,
+      "name": "Lucid Bots",
+      "slug": "lucid-bots",
+      "batch": "Summer 2019",
+      "url": "https://www.ycombinator.com/companies/lucid-bots",
+      "changes": [
         {
-          "field": "tags",
-          "before": [
-            "Fintech",
-            "B2B",
-            "Enterprise Software",
-            "Investments",
-            "AI"
-          ],
-          "after": [
-            "Fintech",
-            "Finance",
-            "B2B",
-            "Enterprise Software",
-            "AI"
-          ]
+          "field": "stage",
+          "before": "Early",
+          "after": "Growth"
+        }
+      ]
+    },
+    {
+      "id": 24198,
+      "name": "SalaryBox",
+      "slug": "salarybox",
+      "batch": "Summer 2021",
+      "url": "https://www.ycombinator.com/companies/salarybox",
+      "changes": [
+        {
+          "field": "isHiring",
+          "before": true,
+          "after": false
         }
       ]
     },
@@ -133,141 +98,144 @@
       "changes": [
         {
           "field": "stage",
-          "before": "Growth",
-          "after": "Early"
+          "before": "Early",
+          "after": "Growth"
         }
       ]
     },
     {
-      "id": 28882,
-      "name": "Repaint",
-      "slug": "repaint",
-      "batch": "Summer 2023",
-      "url": "https://www.ycombinator.com/companies/repaint",
+      "id": 30077,
+      "name": "AutoComputer",
+      "slug": "autocomputer",
+      "batch": "Fall 2024",
+      "url": "https://www.ycombinator.com/companies/autocomputer",
       "changes": [
         {
-          "field": "one_liner",
-          "before": "Build a website by chatting with AI",
-          "after": "Redesign your website by chatting with AI"
+          "field": "small_logo_thumb_url",
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/5a60f5ba14460a149ec6587f93611a37f06bcb11.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/22437c4b2babed8d2f89a2761165b5fa935cd154.png"
         },
         {
-          "field": "tags",
+          "field": "one_liner",
+          "before": "Forward Deployed Research Services",
+          "after": "Forward Deployed Research"
+        }
+      ]
+    },
+    {
+      "id": 30215,
+      "name": "Contrario",
+      "slug": "contrario",
+      "batch": "Winter 2025",
+      "url": "https://www.ycombinator.com/companies/contrario",
+      "changes": [
+        {
+          "field": "isHiring",
+          "before": false,
+          "after": true
+        }
+      ]
+    },
+    {
+      "id": 30367,
+      "name": "QFEX",
+      "slug": "qfex",
+      "batch": "Spring 2025",
+      "url": "https://www.ycombinator.com/companies/qfex",
+      "changes": [
+        {
+          "field": "all_locations",
+          "before": "London, England, United Kingdom",
+          "after": "New York City, NY, USA"
+        },
+        {
+          "field": "regions",
           "before": [
-            "SaaS",
-            "Chatbot",
-            "Design",
-            "Web Development",
-            "AI"
+            "United Kingdom",
+            "Europe"
           ],
           "after": [
-            "SaaS",
-            "Chatbot",
-            "E-commerce",
-            "Web Development",
-            "AI"
+            "United States of America",
+            "America / Canada"
           ]
         }
       ]
     },
     {
-      "id": 30226,
-      "name": "Elip AI",
-      "slug": "elip-ai",
-      "batch": "Winter 2025",
-      "url": "https://www.ycombinator.com/companies/elip-ai",
+      "id": 31119,
+      "name": "ZeroSettle",
+      "slug": "zerosettle",
+      "batch": "Winter 2026",
+      "url": "https://www.ycombinator.com/companies/zerosettle",
       "changes": [
         {
-          "field": "website",
-          "before": "https://www.tryelip.ai/",
-          "after": "https://tryelip.ai"
+          "field": "small_logo_thumb_url",
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/452371c9b837fb899ab50db5096bb04a576b19fb.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/3edf2f636807274706fc2fd91f437e7a27d781b7.png"
         },
         {
           "field": "one_liner",
-          "before": "Your agent books the table. Elip finds the people worth sitting with.",
-          "after": "AI agent for careers and hiring: the few that fit, with the reason."
+          "before": "Drop-in Direct Billing SDK for In-App Purchases",
+          "after": "iMessage API for businesses and AI agents"
+        },
+        {
+          "field": "industry",
+          "before": "Fintech",
+          "after": "B2B"
         },
         {
           "field": "subindustry",
-          "before": "B2B",
-          "after": "B2B -> Recruiting and Talent"
+          "before": "Fintech -> Payments",
+          "after": "B2B -> Infrastructure"
+        },
+        {
+          "field": "tags",
+          "before": [],
+          "after": [
+            "Messaging",
+            "Infrastructure",
+            "AI",
+            "AI Assistant"
+          ]
         },
         {
           "field": "industries",
           "before": [
-            "B2B"
+            "Fintech",
+            "Payments"
           ],
           "after": [
             "B2B",
-            "Recruiting and Talent"
+            "Infrastructure"
           ]
         }
       ]
     },
     {
-      "id": 31461,
-      "name": "Collar",
-      "slug": "collar",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/collar",
-      "changes": [
-        {
-          "field": "tags",
-          "before": [
-            "Generative AI",
-            "Finance",
-            "Enterprise",
-            "Operations",
-            "AI"
-          ],
-          "after": [
-            "Generative AI",
-            "SaaS",
-            "B2B",
-            "Enterprise",
-            "AI"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 31488,
-      "name": "Foaster",
-      "slug": "foaster",
+      "id": 31455,
+      "name": "tday.com",
+      "slug": "tdaycom",
       "batch": "Spring 2026",
-      "url": "https://www.ycombinator.com/companies/foaster",
+      "url": "https://www.ycombinator.com/companies/tdaycom",
       "changes": [
         {
-          "field": "one_liner",
-          "before": "The AI-native McKinsey",
-          "after": "AI infrastructure for consulting teams to run engagements with agents"
+          "field": "small_logo_thumb_url",
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/e529b62be0f05fefb8d967abe1c768c14f7b964e.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/11806ffd959de6c988f1bc27082910cba4d0c602.png"
         }
       ]
     },
     {
-      "id": 32517,
-      "name": "Standard Machines",
-      "slug": "standard-machines",
-      "batch": "Summer 2026",
-      "url": "https://www.ycombinator.com/companies/standard-machines",
+      "id": 35223,
+      "name": "OpenLake Technologies",
+      "slug": "openlake-technologies",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/openlake-technologies",
       "changes": [
         {
           "field": "one_liner",
-          "before": "Teaching AI to Design Chips",
-          "after": "Automating Chip Design"
-        }
-      ]
-    },
-    {
-      "id": 32583,
-      "name": "Graphify Labs",
-      "slug": "graphify-labs",
-      "batch": "Summer 2026",
-      "url": "https://www.ycombinator.com/companies/graphify-labs",
-      "changes": [
-        {
-          "field": "one_liner",
-          "before": "On-device Knowledge Graph engine for Enterprise Software",
-          "after": "Shared Understanding of Codebase for Agents and Developers "
+          "before": "Models which improve the more you use them",
+          "after": "OpenLake lets companies deploy models that improve in real time"
         }
       ]
     },
@@ -279,83 +247,48 @@
       "url": "https://www.ycombinator.com/companies/invertix",
       "changes": [
         {
-          "field": "one_liner",
-          "before": "AI that operates power plants",
-          "after": "AI agents that operate energy plants and datacenters"
-        }
-      ]
-    },
-    {
-      "id": 36084,
-      "name": "Covera",
-      "slug": "covera",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/covera",
-      "changes": [
-        {
-          "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/e711e58f600a9ea3c53a45d934c825989e9b5b57.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/fa6a735c63f6b5c136048e850ba92d1f3182c2bd.png"
+          "field": "all_locations",
+          "before": "Munich, BY, Germany",
+          "after": "San Francisco, CA, USA"
         },
         {
-          "field": "one_liner",
-          "before": "AI-native OS for insurance brokers",
-          "after": "Covera gets insurance brokers to quote first and win more business."
-        }
-      ]
-    },
-    {
-      "id": 36279,
-      "name": "Native",
-      "slug": "native",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/native",
-      "changes": [
-        {
-          "field": "one_liner",
-          "before": "Artificial Intuition for marketing",
-          "after": "Instinct for marketing"
-        }
-      ]
-    },
-    {
-      "id": 39579,
-      "name": "GatherHQ",
-      "slug": "gatherhq",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/gatherhq",
-      "changes": [
-        {
-          "field": "one_liner",
-          "before": "An API for how people think.",
-          "after": "An API for how buyers think"
-        }
-      ]
-    },
-    {
-      "id": 42459,
-      "name": "Vibe Robotics",
-      "slug": "vibe-robotics",
-      "batch": "Winter 2027",
-      "url": "https://www.ycombinator.com/companies/vibe-robotics",
-      "changes": [
-        {
-          "field": "launched_at",
-          "before": 1794287446,
-          "after": 1794438346
-        },
-        {
-          "field": "tags",
+          "field": "regions",
           "before": [
-            "Hard Tech",
-            "Robotic Process Automation",
-            "AI"
+            "Germany",
+            "Europe"
           ],
           "after": [
-            "Hard Tech",
-            "Robotics",
-            "AI"
+            "United States of America",
+            "America / Canada"
           ]
+        }
+      ]
+    },
+    {
+      "id": 36644,
+      "name": "Vouch",
+      "slug": "vouchwealth",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/vouchwealth",
+      "changes": [
+        {
+          "field": "one_liner",
+          "before": "The AI wealth manager for every Indian",
+          "after": "Personal wealth manager for 100M+ Indian professionals"
+        }
+      ]
+    },
+    {
+      "id": 36840,
+      "name": "Axonnic",
+      "slug": "axonnic",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/axonnic",
+      "changes": [
+        {
+          "field": "one_liner",
+          "before": "Bringing human dexterity to every robot",
+          "after": "Creating human skill at robot scale"
         }
       ]
     }
