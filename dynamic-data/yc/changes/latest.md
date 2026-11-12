@@ -1,74 +1,50 @@
 # YC Company Changes for 2026-11-12
 
-- Previous total: 6391
+- Previous total: 6392
 - Current total: 6392
-- Added: 1
+- Added: 0
 - Removed: 0
-- Updated: 13
+- Updated: 6
 
-
-## Added Companies
-
-- [Outworld Labs](https://www.ycombinator.com/companies/outworld-labs) (Fall 2026) — Robotics simulation indistinguishable from reality
 
 ## Updated Companies
 
-### [Focal Systems](https://www.ycombinator.com/companies/focal-systems)
-
-- `stage`: Early → Growth
-
-### [Lucid Bots](https://www.ycombinator.com/companies/lucid-bots)
-
-- `stage`: Early → Growth
-
-### [SalaryBox](https://www.ycombinator.com/companies/salarybox)
+### [Mednet](https://www.ycombinator.com/companies/mednet)
 
 - `isHiring`: true → false
 
-### [Resend](https://www.ycombinator.com/companies/resend)
+### [Coinrule](https://www.ycombinator.com/companies/coinrule)
 
-- `stage`: Early → Growth
+- `one_liner`: Coinrule Automates Your Crypto and Stock Investments → Multi-Asset Agentic AI Investing
 
-### [AutoComputer](https://www.ycombinator.com/companies/autocomputer)
+### [Clickpad](https://www.ycombinator.com/companies/clickpad)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/5a60f5ba14460a149ec6587f93611a37f06bcb11.png → https://bookface-images.s3.amazonaws.com/small_logos/22437c4b2babed8d2f89a2761165b5fa935cd154.png
-- `one_liner`: Forward Deployed Research Services → Forward Deployed Research
+- `name`: WeReno → Clickpad
+- `slug`: wereno → clickpad
+- `former_names`: WeReno,Inc.,VIDCALL,Inc,WeReno,WeReno (Vidcall,Inc.),WeReno,Scope3D (fka WeReno),Scope3D,Built OS,Bu → WeReno,Inc.,VIDCALL,Inc,WeReno,WeReno (Vidcall,Inc.),WeReno,Scope3D (fka WeReno),Scope3D,Built OS,Bu
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/1a5783f7465c728ac490615e277946dd2250f5f0.png → https://bookface-images.s3.amazonaws.com/small_logos/6db093f318226e38eaba4f40dc8ed8affc2c1f3e.png
+- `website`: https://wereno.com → https://clickpad.com
+- `one_liner`: AI-powered renovation and capital-project management → The AI employee for contractors. No software to learn. Just text.
 
-### [Contrario](https://www.ycombinator.com/companies/contrario)
+### [Dukesell](https://www.ycombinator.com/companies/dukesell)
 
-- `isHiring`: false → true
+- `name`: Tendo → Dukesell
+- `slug`: tendo → dukesell
+- `former_names`:  → Tendo
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/b82dfe518f1d7e3fc76d3783bf673d3db4ffa36f.png → https://bookface-images.s3.amazonaws.com/small_logos/08fa581a5bb46ee9db1b99c742bf5f56fb26a7a4.png
+- `website`: https://tendo.app/ → https://dukesell.com
+- `all_locations`: Accra, Greater Accra Region, Ghana → San Francisco, CA, USA
+- `one_liner`: Enabling Africans to sell online with zero capital → Duke makes every ecommerce merchant agent-ready
+- `industry`: Consumer → B2B
+- `subindustry`: Consumer -> Social → B2B -> Retail
+- `tags`: Fintech,Marketplace,Logistics,Social,E-commerce → Marketplace,Social,E-commerce,AI,AI Assistant
+- `industries`: Consumer,Social → B2B,Retail
+- `regions`: Ghana,Africa → United States of America,America / Canada
 
-### [QFEX](https://www.ycombinator.com/companies/qfex)
+### [Cyclon](https://www.ycombinator.com/companies/cyclon)
 
-- `all_locations`: London, England, United Kingdom → New York City, NY, USA
-- `regions`: United Kingdom,Europe → United States of America,America / Canada
+- `tags`: Hardware,Consumer,AI → Hardware,Consumer,Telecommunications,AI,AI Assistant
 
-### [ZeroSettle](https://www.ycombinator.com/companies/zerosettle)
+### [GatherHQ](https://www.ycombinator.com/companies/gatherhq)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/452371c9b837fb899ab50db5096bb04a576b19fb.png → https://bookface-images.s3.amazonaws.com/small_logos/3edf2f636807274706fc2fd91f437e7a27d781b7.png
-- `one_liner`: Drop-in Direct Billing SDK for In-App Purchases → iMessage API for businesses and AI agents
-- `industry`: Fintech → B2B
-- `subindustry`: Fintech -> Payments → B2B -> Infrastructure
-- `tags`:  → Messaging,Infrastructure,AI,AI Assistant
-- `industries`: Fintech,Payments → B2B,Infrastructure
-
-### [tday.com](https://www.ycombinator.com/companies/tdaycom)
-
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/e529b62be0f05fefb8d967abe1c768c14f7b964e.png → https://bookface-images.s3.amazonaws.com/small_logos/11806ffd959de6c988f1bc27082910cba4d0c602.png
-
-### [OpenLake Technologies](https://www.ycombinator.com/companies/openlake-technologies)
-
-- `one_liner`: Models which improve the more you use them → OpenLake lets companies deploy models that improve in real time
-
-### [Invertix](https://www.ycombinator.com/companies/invertix)
-
-- `all_locations`: Munich, BY, Germany → San Francisco, CA, USA
-- `regions`: Germany,Europe → United States of America,America / Canada
-
-### [Vouch](https://www.ycombinator.com/companies/vouchwealth)
-
-- `one_liner`: The AI wealth manager for every Indian → Personal wealth manager for 100M+ Indian professionals
-
-### [Axonnic](https://www.ycombinator.com/companies/axonnic)
-
-- `one_liner`: Bringing human dexterity to every robot → Creating human skill at robot scale
+- `one_liner`: An API for how buyers think → An API for how people think

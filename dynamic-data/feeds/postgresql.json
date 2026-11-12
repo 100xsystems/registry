@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-11-12T14:55:08.417Z",
+  "updatedAt": "2026-11-12T19:35:37.375Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -3425,7 +3425,23 @@
       "summary": "PostgreSQL 18.7, 17.12, 16.16, 15.20 and 14.25 are out today. If you use the PGDG RPM repositories (yum.postgresql.org or zypp.postgresql.org), please update PostgreSQL and all of your extensions in the same transaction this time. Do not update the server today and the extensions next month, and do…",
       "author": null,
       "publishedAt": "2026-11-12T12:58:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9BH",
+      "title": "Jeremy Schneider: Postgres 18.7 minor breaks ABI compatibility again",
+      "link": "https://postgr.es/p/9BH",
+      "summary": "Postgres API and ABI stability has been a topic of discussion for a long time. To understand why this matters so much, start with Dave Stokes recent blog post [Is PostgreSQL Really Winning Part 2: The Evidence Beyond the Rankings]. It’s fundamentally about “a slow core with a fast edge is a pretty…",
+      "author": null,
+      "publishedAt": "2026-11-12T19:12:24.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9BF",
+      "title": "Jimmy Angelakos: Community Over Code Glasgow 2026 and a ColdFront lightning talk",
+      "link": "https://postgr.es/p/9BF",
+      "summary": "Last month, the Apache Software Foundation's Community Over Code came to Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿, taking place from October 11th to 14th at the Hilton Glasgow. Even though I've been in the open source world for 25+ years, this was my first Community Over Code (!), and I loved it: great talks, an…",
+      "author": null,
+      "publishedAt": "2026-11-12T16:22:00.000Z"
     }
   ],
-  "totalIndexed": 427
+  "totalIndexed": 429
 }

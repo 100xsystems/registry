@@ -8,7 +8,7 @@
     "ai",
     "research"
   ],
-  "updatedAt": "2026-11-05T19:32:46.202Z",
+  "updatedAt": "2026-11-12T19:35:37.042Z",
   "items": [
     {
       "guid": "environment-free",
@@ -489,7 +489,15 @@
       "summary": "Maximum inner product search (MIPS) sits at the core of recommendation systems, search, and retrieval-augmented generation (RAG). Given a query vector, MIPS systems search within a database of millions of candidate key vectors for the one that best matches the query. The original data point…",
       "author": null,
       "publishedAt": "2026-11-05T00:00:00.000Z"
+    },
+    {
+      "guid": "theoretical-limits-alignment",
+      "title": "Theoretical Limits of Language Model Alignment",
+      "link": "https://machinelearning.apple.com/research/theoretical-limits-alignment",
+      "summary": "Language model (LM) alignment improves model outputs to reflect human preferences while preserving the capabilities of the base model. The most common alignment approaches are (i) reinforcement learning, which maximizes the expected reward under a KL-divergence constraint, and (ii) best-of-NNN…",
+      "author": null,
+      "publishedAt": "2026-11-12T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 60
+  "totalIndexed": 61
 }
