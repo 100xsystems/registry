@@ -8,7 +8,7 @@
     "architecture",
     "aws"
   ],
-  "updatedAt": "2026-11-10T06:08:19.375Z",
+  "updatedAt": "2026-11-12T05:57:09.113Z",
   "items": [
     {
       "guid": "79195fa586925a9b62c134acc83bb06b7b67a778",
@@ -457,7 +457,15 @@
       "summary": "DeepL runs a multi-Region hybrid network across multiple AWS Regions and AWS Direct Connect locations. See how DeepL drains a single Direct Connect link for planned maintenance without packet loss or cross-Region rerouting, using AWS Cloud WAN and an on-premises AS_PATH prepend so every other…",
       "author": "Guzman Freigedo",
       "publishedAt": "2026-11-09T20:15:09.000Z"
+    },
+    {
+      "guid": "8b9fad4748a4d59131110e00f9e8ed7881e76f6d",
+      "title": "How Zillow runs 100 million daily notifications on AWS Step Functions",
+      "link": "https://aws.amazon.com/blogs/architecture/how-zillow-runs-100-million-daily-notifications-on-aws-step-functions/",
+      "summary": "Zillow sends more than 100 million personalized notifications a day, each as a short-lived AWS Step Functions Express workflow. See how the Comms Experience team replaced more than 10 campaign generators with one configuration-driven orchestration platform and a library of reusable content modules.",
+      "author": "Nishita Kheur",
+      "publishedAt": "2026-11-11T23:25:00.000Z"
     }
   ],
-  "totalIndexed": 56
+  "totalIndexed": 57
 }

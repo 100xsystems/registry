@@ -1,96 +1,74 @@
-# YC Company Changes for 2026-11-11
+# YC Company Changes for 2026-11-12
 
-- Previous total: 6387
-- Current total: 6389
-- Added: 3
-- Removed: 1
-- Updated: 17
+- Previous total: 6389
+- Current total: 6391
+- Added: 2
+- Removed: 0
+- Updated: 13
 
 
 ## Added Companies
 
-- [Mnemonic Labs](https://www.ycombinator.com/companies/mnemonic-labs) (Fall 2026) — DeepMind for Financial Markets
-- [GatherHQ](https://www.ycombinator.com/companies/gatherhq) (Fall 2026) — An API for how people think.
-- [Vibe Robotics](https://www.ycombinator.com/companies/vibe-robotics) (Winter 2027) — Robotics workforce for hotels
-
-## Removed Companies
-
-- InfraOptimal (Fall 2026)
+- [Index Law](https://www.ycombinator.com/companies/index-law) (Fall 2026) — Your company's AI lawyer
+- [Nines](https://www.ycombinator.com/companies/nines) (Fall 2026) — Robot pit crew for AI data centers
 
 ## Updated Companies
 
-### [Flirtey (SkyDrop)](https://www.ycombinator.com/companies/flirtey)
+### [InferEdge](https://www.ycombinator.com/companies/inferedge)
 
-- `one_liner`: Flirtey is the world’s first commercial drone delivery service and… → Flirtey is the world’s first commercial drone delivery service
+- `one_liner`: Agentic AI for buy-side firms → AI solutions for investment firms under a forward deployed model
+- `tags`: Fintech,B2B,Enterprise Software,Investments,AI → Fintech,Finance,B2B,Enterprise Software,AI
 
-### [Focal Systems](https://www.ycombinator.com/companies/focal-systems)
+### [Resend](https://www.ycombinator.com/companies/resend)
 
 - `stage`: Growth → Early
 
-### [Lucid Bots](https://www.ycombinator.com/companies/lucid-bots)
+### [Repaint](https://www.ycombinator.com/companies/repaint)
 
-- `one_liner`: We build robots for dull, dirty, and dangerous jobs. → Drones that clean and paint up to 8x faster
-- `team_size`: 26 → 77
-- `stage`: Growth → Early
+- `one_liner`: Build a website by chatting with AI → Redesign your website by chatting with AI
+- `tags`: SaaS,Chatbot,Design,Web Development,AI → SaaS,Chatbot,E-commerce,Web Development,AI
 
-### [Gauss](https://www.ycombinator.com/companies/gauss)
+### [Elip AI](https://www.ycombinator.com/companies/elip-ai)
 
-- `isHiring`: true → false
+- `website`: https://www.tryelip.ai/ → https://tryelip.ai
+- `one_liner`: Your agent books the table. Elip finds the people worth sitting with. → AI agent for careers and hiring: the few that fit, with the reason.
+- `subindustry`: B2B → B2B -> Recruiting and Talent
+- `industries`: B2B → B2B,Recruiting and Talent
 
-### [Paragon AI](https://www.ycombinator.com/companies/paragon-ai)
+### [Collar](https://www.ycombinator.com/companies/collar)
 
-- `isHiring`: true → false
+- `tags`: Generative AI,Finance,Enterprise,Operations,AI → Generative AI,SaaS,B2B,Enterprise,AI
 
-### [Langdock](https://www.ycombinator.com/companies/langdock)
+### [Foaster](https://www.ycombinator.com/companies/foaster)
 
-- `one_liner`: The all-in-one AI platform for companies. → The Platform for AI Adoption
-- `isHiring`: true → false
+- `one_liner`: The AI-native McKinsey → AI infrastructure for consulting teams to run engagements with agents
 
-### [Voicepanel](https://www.ycombinator.com/companies/voicepanel)
+### [Standard Machines](https://www.ycombinator.com/companies/standard-machines)
 
-- `one_liner`: Evals for products → Customer research for the AI era
+- `one_liner`: Teaching AI to Design Chips → Automating Chip Design
 
-### [Treblo](https://www.ycombinator.com/companies/treblo)
+### [Graphify Labs](https://www.ycombinator.com/companies/graphify-labs)
 
-- `isHiring`: true → false
+- `one_liner`: On-device Knowledge Graph engine for Enterprise Software → Shared Understanding of Codebase for Agents and Developers 
 
-### [Overlap](https://www.ycombinator.com/companies/overlap)
+### [Invertix](https://www.ycombinator.com/companies/invertix)
 
-- `team_size`: 6 → 9
-- `industry`: Consumer → B2B
-- `subindustry`: Consumer -> Content → B2B -> Marketing
-- `industries`: Consumer,Content → B2B,Marketing
+- `one_liner`: AI that operates power plants → AI agents that operate energy plants and datacenters
 
-### [HealthSpark](https://www.ycombinator.com/companies/healthspark)
+### [Covera](https://www.ycombinator.com/companies/covera)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/72c0ee087888b0137460914a67cc143ad8b5d98b.png → https://bookface-images.s3.amazonaws.com/small_logos/90097135134e9365770374955dede6959ed21702.png
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/e711e58f600a9ea3c53a45d934c825989e9b5b57.png → https://bookface-images.s3.amazonaws.com/small_logos/fa6a735c63f6b5c136048e850ba92d1f3182c2bd.png
+- `one_liner`: AI-native OS for insurance brokers → Covera gets insurance brokers to quote first and win more business.
 
-### [Bidflow](https://www.ycombinator.com/companies/bidflow)
+### [Native](https://www.ycombinator.com/companies/native)
 
-- `one_liner`: AI Takeoffs for Electrical → Revolutionizing the Construction Industry
-- `tags`: SaaS,Computer Vision,Construction,Infrastructure → Construction,Supply Chain,Infrastructure
+- `one_liner`: Artificial Intuition for marketing → Instinct for marketing
 
-### [Lilac](https://www.ycombinator.com/companies/lilac)
+### [GatherHQ](https://www.ycombinator.com/companies/gatherhq)
 
-- `one_liner`: We sell GPUs. → Lilac helps neoclouds operate quality GPUs at scale.
+- `one_liner`: An API for how people think. → An API for how buyers think
 
-### [Tepali](https://www.ycombinator.com/companies/tepali)
+### [Vibe Robotics](https://www.ycombinator.com/companies/vibe-robotics)
 
-- `one_liner`: AI EMR for medspas & wellness clinics → AI EMR for medical aesthetics & wellness
-
-### [Libra Robotics](https://www.ycombinator.com/companies/libra-robotics)
-
-- `batch`: Summer 2026 → Fall 2026
-
-### [Denta](https://www.ycombinator.com/companies/denta)
-
-- `team_size`: 1 → 3
-
-### [Aviern](https://www.ycombinator.com/companies/aviern)
-
-- `team_size`: 4 → 5
-- `regions`: United States of America,America / Canada,Remote,Partly Remote → United States of America,America / Canada
-
-### [Orca Aerospace](https://www.ycombinator.com/companies/orca-aerospace)
-
-- `one_liner`: AI spacecraft operators that lives onboard the vehicle → AI spacecraft operators that live onboard the vehicle
+- `launched_at`: 1794287446 → 1794438346
+- `tags`: Hard Tech,Robotic Process Automation,AI → Hard Tech,Robotics,AI

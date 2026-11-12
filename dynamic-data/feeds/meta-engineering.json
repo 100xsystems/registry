@@ -9,7 +9,7 @@
     "performance",
     "distributed-systems"
   ],
-  "updatedAt": "2026-11-10T06:08:19.334Z",
+  "updatedAt": "2026-11-12T05:57:09.050Z",
   "items": [
     {
       "guid": "https://engineering.fb.com/?p=24251",
@@ -23874,7 +23874,15 @@
       "summary": "We built a vendor-neutral accelerator plugin architecture in lldb-server for debugging applications that span CPUs and GPUs. It separates shared debugger infrastructure from hardware-specific device control. The design represents the CPU and GPU as separate debugger processes while presenting them…",
       "author": null,
       "publishedAt": "2026-11-09T17:00:12.000Z"
+    },
+    {
+      "guid": "https://engineering.fb.com/?p=25010",
+      "title": "Intelligent Delivery: Making Every Unit of Compute Serve Better Ads",
+      "link": "https://engineering.fb.com/2026/11/11/ml-applications/intelligent-delivery-serve-better-ads/",
+      "summary": "Ads ranking models are growing toward LLM scale faster than the hardware to run them can keep up. An extra unit of compute has more impact on some ad requests, models, and chips than on others. The challenge is deciding where to allocate it to get the best outcome for the entire system. We built…",
+      "author": null,
+      "publishedAt": "2026-11-11T17:00:38.000Z"
     }
   ],
-  "totalIndexed": 2983
+  "totalIndexed": 2984
 }
