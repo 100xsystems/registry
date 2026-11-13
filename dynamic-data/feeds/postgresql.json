@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-11-13T14:20:11.418Z",
+  "updatedAt": "2026-11-13T19:15:03.874Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -3465,7 +3465,23 @@
       "summary": "PostgreSQL’s November minor releases patch 52 CVEs and 140+ bugs across all supported branches and retire PostgreSQL 14. Notes on what continuous AI code auditing is doing to 30-year-old C codebases, the post-upgrade steps you can’t skip, same-day Pigsty 4.6 packages, and Simplified Chinese…",
       "author": null,
       "publishedAt": "2026-11-13T00:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9BN",
+      "title": "Jeremy Schneider: Postgres 18.7 Debian and Redhat Packagers Protect You",
+      "link": "https://postgr.es/p/9BN",
+      "summary": "Just a short & quick follow-up to [yesterdays blog] before I run out the door.\nI hadn’t been paying attention, and yesterday’s postgres release had a few surprises for me. I’m catching up now.\nFirst: read [Devrim’s blog] and [Lukas’ 5-minutes-of-postgres] for the TLDR.\nSecond: I had this in…",
+      "author": null,
+      "publishedAt": "2026-11-13T16:28:19.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9BM",
+      "title": "Andrew Dunstan: Announcing Release 22 of the PostgreSQL Buildfarm client",
+      "link": "https://postgr.es/p/9BM",
+      "summary": "New features\nPGXSExtension module — a single config-driven module for testing\npgxs_extensions hash in the\n.pm file. The existing BlackholeFDW, FileTextArrayFDW\nNew branches-to-build tags UNRELEASED and HEAD_PLUS_UNRELEASED,\nCheckIndent can now run on any branch that loads it, not just HEAD.\nlocales…",
+      "author": null,
+      "publishedAt": "2026-11-13T15:46:55.000Z"
     }
   ],
-  "totalIndexed": 432
+  "totalIndexed": 434
 }

@@ -9,7 +9,7 @@
     "edge-computing",
     "nextjs"
   ],
-  "updatedAt": "2026-11-12T23:01:53.025Z",
+  "updatedAt": "2026-11-13T19:15:12.966Z",
   "items": [
     {
       "guid": "vercel-blog::https://vercel.com/changelog/ai-gateway-now-supports-streaming-transcription",
@@ -5338,7 +5338,31 @@
       "summary": "is now available on AI Gateway.Gemini 4 Hydrogen from Google\nGemini 4 Hydrogen succeeds Gemini 3.8 Flash, improving agentic coding, knowledge work, and tool use while staying in the same latency class. It handles longer engineering tasks and produces better-researched documents, spreadsheets, and…",
       "author": "Aayush Kapoor",
       "publishedAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/vercel-sandbox-starts-up-to-four-times-faster",
+      "title": "Vercel Sandbox starts up to 4x faster",
+      "link": "https://vercel.com/changelog/vercel-sandbox-starts-up-to-four-times-faster",
+      "summary": "now initializes up to 4x faster outside the Washington, D.C. () region when reused image data is served from a regional cache.Vercel Sandboxiad1\nInitialization now reads cached image data close to where the sandbox runs, avoiding round trips to origin image storage in  on cache hits. Regional…",
+      "author": "Andy Waller",
+      "publishedAt": "2026-11-13T00:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/build-cache-size-limit-on-vercel-increased-to-five-gb",
+      "title": "Build cache size limit on Vercel increased to 5 GB",
+      "link": "https://vercel.com/changelog/build-cache-size-limit-on-vercel-increased-to-five-gb",
+      "summary": "The  size limit on all  has been increased to 5 GB. This allows projects to save more installed dependencies and framework files for reuse between deployments, which can reduce install and build times.build cacheVercel build machines\nBuild machines are the compute environments that install…",
+      "author": "Mehul Kar",
+      "publishedAt": "2026-11-13T00:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/parallel-decisions-now-available-on-ai-gateway-for-free",
+      "title": "Parallel Decisions now available on AI Gateway for free",
+      "link": "https://vercel.com/changelog/parallel-decisions-now-available-on-ai-gateway-for-free",
+      "summary": "from Parallel is now available on  and is free through November 23, 2026.Parallel Decisions FastAI Gateway\nIt searches the live web to answer typed questions about companies, products, policies, and other changing information, returning probabilities and cited evidence for your application to act…",
+      "author": "Jerilyn Zheng",
+      "publishedAt": "2026-11-13T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 666
+  "totalIndexed": 669
 }

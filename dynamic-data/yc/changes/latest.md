@@ -1,72 +1,55 @@
 # YC Company Changes for 2026-11-13
 
-- Previous total: 6394
+- Previous total: 6396
 - Current total: 6396
-- Added: 2
+- Added: 0
 - Removed: 0
-- Updated: 13
+- Updated: 10
 
-
-## Added Companies
-
-- [Osmaura](https://www.ycombinator.com/companies/osmaura) (Summer 2026) — AI-native client acquisition & care for corporate law firms
-- [Dualizer](https://www.ycombinator.com/companies/dualizer) (Fall 2026) — AI-powered physical simulation to design/optimize chemical processes
 
 ## Updated Companies
 
-### [Groww](https://www.ycombinator.com/companies/groww)
+### [Care Weather](https://www.ycombinator.com/companies/care-weather)
 
-- `stage`: Early → Growth
+- `tags`: Hard Tech,Space Exploration,Satellites,Weather,Agriculture → Hard Tech,Space Exploration,Satellites,Weather,Manufacturing
 
-### [Alphawatch AI](https://www.ycombinator.com/companies/alphawatch-ai)
+### [OlaClick](https://www.ycombinator.com/companies/olaclick)
 
-- `one_liner`: Relationship Coverage for Deal Teams → Data Layer for Modern Builders
-- `team_size`: 8 → 3
+- `tags`: SaaS,B2B,Food Tech → SaaS,B2B,Food Tech,AI
 
-### [Berry](https://www.ycombinator.com/companies/berry)
+### [AlgoViral](https://www.ycombinator.com/companies/algoviral)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/59005c33d3a0d40259f58fdc4a12bc21a5d29d73.png → https://bookface-images.s3.amazonaws.com/small_logos/f230e383bd7e7babd0cfa290f743073b9bf2f69a.png
+- `team_size`: 5 → 4
 
-### [Toma](https://www.ycombinator.com/companies/toma)
+### [Firezone](https://www.ycombinator.com/companies/firezone)
 
-- `stage`: Early → Growth
+- `team_size`: 3 → 0
 
-### [Nox Metals](https://www.ycombinator.com/companies/nox-metals)
-
-- `website`: https://noxmetals.co/ → https://noxmetals.com
-- `team_size`: 52 → 64
-
-### [Clicks Health](https://www.ycombinator.com/companies/clicks-health)
-
-- `website`: https://www.goclicks.ai/ → https://clickshealth.com/
-
-### [Haladir](https://www.ycombinator.com/companies/haladir)
-
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/fbdfd8ca109134ec5c439489df0066a7a6b87573.png → https://bookface-images.s3.amazonaws.com/small_logos/38aa20f2fb8e3040a96df19280190f24d83c124e.png
-
-### [Corvera](https://www.ycombinator.com/companies/corvera)
+### [Harbera](https://www.ycombinator.com/companies/harbera)
 
 - `isHiring`: true → false
 
-### [Traverse](https://www.ycombinator.com/companies/traverse)
+### [OneStop](https://www.ycombinator.com/companies/onestop)
 
-- `one_liner`: Custom models and inference, built and run for enterprises → On a mission to keep the future in human hands.
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/f9e554a3ff6dc01974ba5721cbfdc8ce21a2a2da.png → https://bookface-images.s3.amazonaws.com/small_logos/61442a42543f111e02cb1ffebe442a2885b633ab.png
+- `website`: https://www.askonestop.com → https://www.onestop.so
+- `one_liner`: The local internet for NYC. → The local social network: what's going on a few blocks from you.
+- `subindustry`: Consumer → Consumer -> Social
+- `tags`: AI → 
+- `industries`: Consumer → Consumer,Social
 
-### [Arden](https://www.ycombinator.com/companies/arden)
+### [Neomatter](https://www.ycombinator.com/companies/neomatter)
 
-- `one_liner`: AI-native internal audit firm → AI operating system for factories
-- `team_size`: 2 → 3
-- `subindustry`: B2B -> Finance and Accounting → B2B -> Supply Chain and Logistics
-- `industries`: B2B,Finance and Accounting → B2B,Supply Chain and Logistics
+- `one_liner`: AI that works for in-house legal teams → AI harness that does all corporate legal work
 
-### [OpenCrawl](https://www.ycombinator.com/companies/opencrawl)
+### [Aviern](https://www.ycombinator.com/companies/aviern)
 
-- `one_liner`: Shared context for your agents. → Multiplayer for your coding agents.
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/906b7c01faee6d9632f1f941bfe737812ec7d0b9.png → https://bookface-images.s3.amazonaws.com/small_logos/302621a8b92887e1cdfce4c15b8a8d39e2dcdddf.png
 
-### [Latent](https://www.ycombinator.com/companies/trylatent)
+### [antimattr](https://www.ycombinator.com/companies/antimattr)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/21bc57f59a4d430a3377808350ec1df0915386dd.png → https://bookface-images.s3.amazonaws.com/small_logos/29af59683c6352485b064baa197eec3355186fcd.png
+- `website`: https://www.antimattr.one/project-mnemosyne?utm_source=bookface&utm_medium=social&utm_campaign=bookf → https://www.antimattr.one/project-mnemosyne
 
-### [Composal](https://www.ycombinator.com/companies/composal)
+### [The Agentic Data Co.](https://www.ycombinator.com/companies/the-agentic-data-co)
 
-- `one_liner`: Swarms of agents acting like users to find bugs before release → Always-on agents that keep working after engineers log off
+- `one_liner`: Training Data For Speech Models. → Training data for speech models

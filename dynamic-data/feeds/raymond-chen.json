@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-11-12T23:01:53.950Z",
+  "updatedAt": "2026-11-13T19:15:13.698Z",
   "items": [
     {
       "guid": "https://devblogs.microsoft.com/oldnewthing/?p=112560",
@@ -551,7 +551,15 @@
       "summary": "The co_await operator takes only one parameter, but it can be a big parameter.\nThe post How can I pass more than one parameter to <CODE>co_await</CODE>? appeared first on The Old New Thing.",
       "author": "Raymond Chen",
       "publishedAt": "2026-11-12T15:00:00.000Z"
+    },
+    {
+      "guid": "https://devblogs.microsoft.com/oldnewthing/?p=112856",
+      "title": "How can I make it easier to use the helper class that lets me pass more than one parameter to co_await?",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20261113-00/?p=112856/",
+      "summary": "Remove the need to have to type out the name of the helper.\nThe post How can I make it easier to use the helper class that lets me pass more than one parameter to <CODE>co_await</CODE>? appeared first on The Old New Thing.",
+      "author": "Raymond Chen",
+      "publishedAt": "2026-11-13T15:00:00.000Z"
     }
   ],
-  "totalIndexed": 68
+  "totalIndexed": 69
 }
