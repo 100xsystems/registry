@@ -1,55 +1,77 @@
 # YC Company Changes for 2026-11-13
 
 - Previous total: 6396
-- Current total: 6396
-- Added: 0
+- Current total: 6397
+- Added: 1
 - Removed: 0
-- Updated: 10
+- Updated: 13
 
+
+## Added Companies
+
+- [Repovive](https://www.ycombinator.com/companies/repovive) (Fall 2026) — Scaling AI formal verification for chips and critical software
 
 ## Updated Companies
 
-### [Care Weather](https://www.ycombinator.com/companies/care-weather)
-
-- `tags`: Hard Tech,Space Exploration,Satellites,Weather,Agriculture → Hard Tech,Space Exploration,Satellites,Weather,Manufacturing
-
-### [OlaClick](https://www.ycombinator.com/companies/olaclick)
-
-- `tags`: SaaS,B2B,Food Tech → SaaS,B2B,Food Tech,AI
-
-### [AlgoViral](https://www.ycombinator.com/companies/algoviral)
-
-- `team_size`: 5 → 4
-
-### [Firezone](https://www.ycombinator.com/companies/firezone)
-
-- `team_size`: 3 → 0
-
-### [Harbera](https://www.ycombinator.com/companies/harbera)
+### [Akiflow](https://www.ycombinator.com/companies/akiflow)
 
 - `isHiring`: true → false
 
-### [OneStop](https://www.ycombinator.com/companies/onestop)
+### [Turion Space](https://www.ycombinator.com/companies/turion-space)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/f9e554a3ff6dc01974ba5721cbfdc8ce21a2a2da.png → https://bookface-images.s3.amazonaws.com/small_logos/61442a42543f111e02cb1ffebe442a2885b633ab.png
-- `website`: https://www.askonestop.com → https://www.onestop.so
-- `one_liner`: The local internet for NYC. → The local social network: what's going on a few blocks from you.
-- `subindustry`: Consumer → Consumer -> Social
-- `tags`: AI → 
-- `industries`: Consumer → Consumer,Social
+- `stage`: Growth → Early
 
-### [Neomatter](https://www.ycombinator.com/companies/neomatter)
+### [Cifrato](https://www.ycombinator.com/companies/cifrato)
 
-- `one_liner`: AI that works for in-house legal teams → AI harness that does all corporate legal work
+- `isHiring`: true → false
 
-### [Aviern](https://www.ycombinator.com/companies/aviern)
+### [PgDog](https://www.ycombinator.com/companies/pgdog)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/906b7c01faee6d9632f1f941bfe737812ec7d0b9.png → https://bookface-images.s3.amazonaws.com/small_logos/302621a8b92887e1cdfce4c15b8a8d39e2dcdddf.png
+- `all_locations`: San Francisco, CA, USA; Remote → San Francisco, CA, USA
+- `team_size`: 3 → 4
+- `regions`: United States of America,America / Canada,Remote,Fully Remote → United States of America,America / Canada,Remote,Partly Remote
 
-### [antimattr](https://www.ycombinator.com/companies/antimattr)
+### [Clicks Health](https://www.ycombinator.com/companies/clicks-health)
 
-- `website`: https://www.antimattr.one/project-mnemosyne?utm_source=bookface&utm_medium=social&utm_campaign=bookf → https://www.antimattr.one/project-mnemosyne
+- `all_locations`: ZH, Switzerland → San Francisco, CA, USA
+- `team_size`: 8 → 11
+- `regions`: Switzerland,Europe → United States of America,America / Canada
 
-### [The Agentic Data Co.](https://www.ycombinator.com/companies/the-agentic-data-co)
+### [Haladir](https://www.ycombinator.com/companies/haladir)
 
-- `one_liner`: Training Data For Speech Models. → Training data for speech models
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/38aa20f2fb8e3040a96df19280190f24d83c124e.png → https://bookface-images.s3.amazonaws.com/small_logos/8fd9b0c5942ea44ee3ac2c2d8bb900901501cd22.png
+
+### [Andustry](https://www.ycombinator.com/companies/andustry)
+
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/9cad618041deb29b222958392d35d6e8a7e0d845.png → https://bookface-images.s3.amazonaws.com/small_logos/9778771a5d790c8f95eaa5d5c9133478794b49da.png
+- `tags`: Trading → 
+
+### [Duet Machines](https://www.ycombinator.com/companies/duet-machines)
+
+- `name`: Dialogus → Duet Machines
+- `slug`: dialogus → duet-machines
+- `former_names`: Zyra,Dialogus,Dialogus Labs → Zyra,Dialogus,Dialogus Labs,Dialogus
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/c7df204d91879e8e730b8993b754b3d35b87106e.png → https://bookface-images.s3.amazonaws.com/small_logos/a49fc44e43023960f464a3781081400ac6041082.png
+- `website`: https://www.dialoguslabs.com/ → https://duetmachines.com
+- `one_liner`: voice AI agents that learn how your company actually works → Specialized models that replace your frontier API
+- `tags`: B2B,Customer Support → Machine Learning,Reinforcement Learning,B2B,Infrastructure,AI
+
+### [Lantern AI](https://www.ycombinator.com/companies/lantern-ai)
+
+- `one_liner`: Turn Your Taste Into Hires → Agentic Recruiting Platform for Enterprise 
+
+### [Perceptual Labs](https://www.ycombinator.com/companies/perceptual-labs)
+
+- `one_liner`: Building the next generation of visual intelligence → Building intelligence that can understand and rewrite itself
+
+### [Asim](https://www.ycombinator.com/companies/asim-group)
+
+- `tags`: Deep Learning,Robotic Process Automation,Robotics → Deep Learning,Hard Tech,Hardware,Robotic Process Automation,Robotics
+
+### [Mnemonic Labs](https://www.ycombinator.com/companies/mnemonic-labs)
+
+- `one_liner`: DeepMind for Financial Markets → OpenAI for Financial Markets
+
+### [GatherHQ](https://www.ycombinator.com/companies/gatherhq)
+
+- `one_liner`: Applied AI for Enterprise GTM → Applied AI for Enterprise GTM (3X founders, 10X growth, backed by ANT)
