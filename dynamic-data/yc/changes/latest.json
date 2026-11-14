@@ -1,152 +1,22 @@
 {
   "date": "2026-11-14",
-  "fetchedAt": "2026-11-14T05:10:29.879Z",
+  "fetchedAt": "2026-11-14T13:16:42.478Z",
   "previousCount": 6397,
   "currentCount": 6397,
   "added": [],
   "removed": [],
   "updated": [
     {
-      "id": 13579,
-      "name": "Tasker AI",
-      "slug": "tasker-ai",
-      "batch": "Winter 2020",
-      "url": "https://www.ycombinator.com/companies/tasker-ai",
+      "id": 24865,
+      "name": "Turion Space",
+      "slug": "turion-space",
+      "batch": "Summer 2021",
+      "url": "https://www.ycombinator.com/companies/turion-space",
       "changes": [
         {
-          "field": "team_size",
-          "before": 1,
-          "after": 0
-        }
-      ]
-    },
-    {
-      "id": 22674,
-      "name": "arnata",
-      "slug": "arnata",
-      "batch": "Winter 2021",
-      "url": "https://www.ycombinator.com/companies/arnata",
-      "changes": [
-        {
-          "field": "isHiring",
-          "before": true,
-          "after": false
-        }
-      ]
-    },
-    {
-      "id": 26671,
-      "name": "Ciro",
-      "slug": "ciro",
-      "batch": "Summer 2022",
-      "url": "https://www.ycombinator.com/companies/ciro",
-      "changes": [
-        {
-          "field": "isHiring",
-          "before": true,
-          "after": false
-        }
-      ]
-    },
-    {
-      "id": 26863,
-      "name": "Provision",
-      "slug": "provision",
-      "batch": "Summer 2022",
-      "url": "https://www.ycombinator.com/companies/provision",
-      "changes": [
-        {
-          "field": "team_size",
-          "before": 15,
-          "after": 19
-        },
-        {
-          "field": "tags",
-          "before": [
-            "Documents",
-            "Machine Learning",
-            "Construction",
-            "Productivity",
-            "NLP"
-          ],
-          "after": [
-            "Documents",
-            "Machine Learning",
-            "Construction",
-            "AI",
-            "AI Assistant"
-          ]
-        },
-        {
-          "field": "isHiring",
-          "before": true,
-          "after": false
-        }
-      ]
-    },
-    {
-      "id": 27700,
-      "name": "Latent",
-      "slug": "latent",
-      "batch": "Winter 2023",
-      "url": "https://www.ycombinator.com/companies/latent",
-      "changes": [
-        {
-          "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/d464e72e759603ce78169d56b1ef679252bf2dae.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/a01f0ee674f9fb3edf3d5425d7db87cea3bf5bd0.png"
-        },
-        {
-          "field": "one_liner",
-          "before": "Medical language models to automate healthcare operations",
-          "after": "Clinical AI that gets life-changing medicine to the people who need it"
-        },
-        {
-          "field": "team_size",
-          "before": 50,
-          "after": 140
-        }
-      ]
-    },
-    {
-      "id": 30173,
-      "name": "Aviro",
-      "slug": "aviro",
-      "batch": "Spring 2025",
-      "url": "https://www.ycombinator.com/companies/aviro",
-      "changes": [
-        {
-          "field": "one_liner",
-          "before": "Environments for Long Horizon Work",
-          "after": "RL Environments for Long Horizon Work"
-        }
-      ]
-    },
-    {
-      "id": 30226,
-      "name": "Elip AI",
-      "slug": "elip-ai",
-      "batch": "Winter 2025",
-      "url": "https://www.ycombinator.com/companies/elip-ai",
-      "changes": [
-        {
-          "field": "one_liner",
-          "before": "AI agent for careers and hiring: the few that fit, with the reason.",
-          "after": "Jobs a friend would send you, and a shortlist a friend would write."
-        }
-      ]
-    },
-    {
-      "id": 31088,
-      "name": "RunAnywhere",
-      "slug": "runanywhere",
-      "batch": "Winter 2026",
-      "url": "https://www.ycombinator.com/companies/runanywhere",
-      "changes": [
-        {
-          "field": "one_liner",
-          "before": "Fastest inference anywhere: open models on-prem, hosted or on-device",
-          "after": "Inference research at the frontier. Faster, cheaper frontier models…"
+          "field": "stage",
+          "before": "Early",
+          "after": "Growth"
         }
       ]
     },
@@ -158,159 +28,51 @@
       "url": "https://www.ycombinator.com/companies/agi-deployment-company",
       "changes": [
         {
-          "field": "name",
-          "before": "AGI Deploy Co",
-          "after": "AGI Deployment Company"
-        },
-        {
-          "field": "slug",
-          "before": "agi-deploy-co",
-          "after": "agi-deployment-company"
-        },
-        {
-          "field": "former_names",
-          "before": [
-            "Cybe",
-            "Mount"
-          ],
-          "after": [
-            "Cybe",
-            "Mount",
-            "AGI Deploy Co"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 31461,
-      "name": "Collar",
-      "slug": "collar",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/collar",
-      "changes": [
-        {
-          "field": "one_liner",
-          "before": "AI-Native Investor Relations For Public Companies",
-          "after": "Helping Enterprises Fundraise Faster"
-        },
-        {
           "field": "team_size",
-          "before": 4,
+          "before": 2,
           "after": 3
         }
       ]
     },
     {
-      "id": 35126,
-      "name": "Armorer Labs",
-      "slug": "armorer-labs",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/armorer-labs",
+      "id": 31455,
+      "name": "tday.com",
+      "slug": "tdaycom",
+      "batch": "Spring 2026",
+      "url": "https://www.ycombinator.com/companies/tdaycom",
       "changes": [
         {
-          "field": "one_liner",
-          "before": "Continuous security verification for AI systems in regulated…",
-          "after": "Continuous security verification for AI in regulated industries"
+          "field": "small_logo_thumb_url",
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/11806ffd959de6c988f1bc27082910cba4d0c602.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/a530f53bd95d36e9c178a7bd6bccc7cb0b0c4508.png"
         }
       ]
     },
     {
-      "id": 35266,
-      "name": "TrueMile",
-      "slug": "truemile",
+      "id": 36510,
+      "name": "Preload",
+      "slug": "preload",
       "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/truemile",
+      "url": "https://www.ycombinator.com/companies/preload",
       "changes": [
         {
           "field": "one_liner",
-          "before": "AI-native trucking company",
-          "after": "The AI-native trucking company"
+          "before": "Sensorimotor context for physical AI",
+          "after": "Multisensory systems (EMG+tactile+video) for training physical AI"
         }
       ]
     },
     {
-      "id": 35421,
-      "name": "Ordo Labs",
-      "slug": "ordo-labs",
+      "id": 36543,
+      "name": "Dualizer",
+      "slug": "dualizer",
       "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/ordo-labs",
+      "url": "https://www.ycombinator.com/companies/dualizer",
       "changes": [
         {
-          "field": "one_liner",
-          "before": "The AI-native OS for regulated labs",
-          "after": "Regulated lab software, rebuilt around AI agents"
-        }
-      ]
-    },
-    {
-      "id": 35883,
-      "name": "Halmos Labs",
-      "slug": "halmos-labs",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/halmos-labs",
-      "changes": [
-        {
-          "field": "one_liner",
-          "before": "Rebuilding the drug discovery pipeline around agents",
-          "after": "Rebuilding drug development for automation"
-        },
-        {
-          "field": "tags",
-          "before": [
-            "AI-powered Drug Discovery",
-            "Swarm AI",
-            "Biotech"
-          ],
-          "after": [
-            "AI-powered Drug Discovery",
-            "Auto Commerce",
-            "Swarm AI",
-            "Biotech",
-            "Automation"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 37137,
-      "name": "Clean",
-      "slug": "clean",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/clean",
-      "changes": [
-        {
-          "field": "website",
-          "before": "http://www.tryclean.ai",
-          "after": "https://www.tryclean.ai/"
-        },
-        {
-          "field": "one_liner",
-          "before": "We predict when a company is about to buy.",
-          "after": "Revenue intelligence for agents and sales teams."
-        },
-        {
-          "field": "tags",
-          "before": [
-            "Deep Learning",
-            "SaaS"
-          ],
-          "after": [
-            "SaaS"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 38029,
-      "name": "Proto",
-      "slug": "proto",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/proto",
-      "changes": [
-        {
-          "field": "one_liner",
-          "before": "A design tool with the accuracy of Cursor & creative freedom of Figma",
-          "after": "The product designer's coding agent"
+          "field": "isHiring",
+          "before": false,
+          "after": true
         }
       ]
     }
