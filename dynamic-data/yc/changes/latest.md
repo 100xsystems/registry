@@ -1,77 +1,84 @@
-# YC Company Changes for 2026-11-13
+# YC Company Changes for 2026-11-14
 
-- Previous total: 6396
+- Previous total: 6397
 - Current total: 6397
-- Added: 1
+- Added: 0
 - Removed: 0
-- Updated: 13
+- Updated: 16
 
-
-## Added Companies
-
-- [Repovive](https://www.ycombinator.com/companies/repovive) (Fall 2026) — Scaling AI formal verification for chips and critical software
 
 ## Updated Companies
 
-### [Akiflow](https://www.ycombinator.com/companies/akiflow)
+### [Tasker AI](https://www.ycombinator.com/companies/tasker-ai)
+
+- `team_size`: 1 → 0
+
+### [arnata](https://www.ycombinator.com/companies/arnata)
 
 - `isHiring`: true → false
 
-### [Turion Space](https://www.ycombinator.com/companies/turion-space)
-
-- `stage`: Growth → Early
-
-### [Cifrato](https://www.ycombinator.com/companies/cifrato)
+### [Ciro](https://www.ycombinator.com/companies/ciro)
 
 - `isHiring`: true → false
 
-### [PgDog](https://www.ycombinator.com/companies/pgdog)
+### [Provision](https://www.ycombinator.com/companies/provision)
 
-- `all_locations`: San Francisco, CA, USA; Remote → San Francisco, CA, USA
-- `team_size`: 3 → 4
-- `regions`: United States of America,America / Canada,Remote,Fully Remote → United States of America,America / Canada,Remote,Partly Remote
+- `team_size`: 15 → 19
+- `tags`: Documents,Machine Learning,Construction,Productivity,NLP → Documents,Machine Learning,Construction,AI,AI Assistant
+- `isHiring`: true → false
 
-### [Clicks Health](https://www.ycombinator.com/companies/clicks-health)
+### [Latent](https://www.ycombinator.com/companies/latent)
 
-- `all_locations`: ZH, Switzerland → San Francisco, CA, USA
-- `team_size`: 8 → 11
-- `regions`: Switzerland,Europe → United States of America,America / Canada
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/d464e72e759603ce78169d56b1ef679252bf2dae.png → https://bookface-images.s3.amazonaws.com/small_logos/a01f0ee674f9fb3edf3d5425d7db87cea3bf5bd0.png
+- `one_liner`: Medical language models to automate healthcare operations → Clinical AI that gets life-changing medicine to the people who need it
+- `team_size`: 50 → 140
 
-### [Haladir](https://www.ycombinator.com/companies/haladir)
+### [Aviro](https://www.ycombinator.com/companies/aviro)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/38aa20f2fb8e3040a96df19280190f24d83c124e.png → https://bookface-images.s3.amazonaws.com/small_logos/8fd9b0c5942ea44ee3ac2c2d8bb900901501cd22.png
+- `one_liner`: Environments for Long Horizon Work → RL Environments for Long Horizon Work
 
-### [Andustry](https://www.ycombinator.com/companies/andustry)
+### [Elip AI](https://www.ycombinator.com/companies/elip-ai)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/9cad618041deb29b222958392d35d6e8a7e0d845.png → https://bookface-images.s3.amazonaws.com/small_logos/9778771a5d790c8f95eaa5d5c9133478794b49da.png
-- `tags`: Trading → 
+- `one_liner`: AI agent for careers and hiring: the few that fit, with the reason. → Jobs a friend would send you, and a shortlist a friend would write.
 
-### [Duet Machines](https://www.ycombinator.com/companies/duet-machines)
+### [RunAnywhere](https://www.ycombinator.com/companies/runanywhere)
 
-- `name`: Dialogus → Duet Machines
-- `slug`: dialogus → duet-machines
-- `former_names`: Zyra,Dialogus,Dialogus Labs → Zyra,Dialogus,Dialogus Labs,Dialogus
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/c7df204d91879e8e730b8993b754b3d35b87106e.png → https://bookface-images.s3.amazonaws.com/small_logos/a49fc44e43023960f464a3781081400ac6041082.png
-- `website`: https://www.dialoguslabs.com/ → https://duetmachines.com
-- `one_liner`: voice AI agents that learn how your company actually works → Specialized models that replace your frontier API
-- `tags`: B2B,Customer Support → Machine Learning,Reinforcement Learning,B2B,Infrastructure,AI
+- `one_liner`: Fastest inference anywhere: open models on-prem, hosted or on-device → Inference research at the frontier. Faster, cheaper frontier models…
 
-### [Lantern AI](https://www.ycombinator.com/companies/lantern-ai)
+### [AGI Deployment Company](https://www.ycombinator.com/companies/agi-deployment-company)
 
-- `one_liner`: Turn Your Taste Into Hires → Agentic Recruiting Platform for Enterprise 
+- `name`: AGI Deploy Co → AGI Deployment Company
+- `slug`: agi-deploy-co → agi-deployment-company
+- `former_names`: Cybe,Mount → Cybe,Mount,AGI Deploy Co
 
-### [Perceptual Labs](https://www.ycombinator.com/companies/perceptual-labs)
+### [Collar](https://www.ycombinator.com/companies/collar)
 
-- `one_liner`: Building the next generation of visual intelligence → Building intelligence that can understand and rewrite itself
+- `one_liner`: AI-Native Investor Relations For Public Companies → Helping Enterprises Fundraise Faster
+- `team_size`: 4 → 3
 
-### [Asim](https://www.ycombinator.com/companies/asim-group)
+### [Armorer Labs](https://www.ycombinator.com/companies/armorer-labs)
 
-- `tags`: Deep Learning,Robotic Process Automation,Robotics → Deep Learning,Hard Tech,Hardware,Robotic Process Automation,Robotics
+- `one_liner`: Continuous security verification for AI systems in regulated… → Continuous security verification for AI in regulated industries
 
-### [Mnemonic Labs](https://www.ycombinator.com/companies/mnemonic-labs)
+### [TrueMile](https://www.ycombinator.com/companies/truemile)
 
-- `one_liner`: DeepMind for Financial Markets → OpenAI for Financial Markets
+- `one_liner`: AI-native trucking company → The AI-native trucking company
 
-### [GatherHQ](https://www.ycombinator.com/companies/gatherhq)
+### [Ordo Labs](https://www.ycombinator.com/companies/ordo-labs)
 
-- `one_liner`: Applied AI for Enterprise GTM → Applied AI for Enterprise GTM (3X founders, 10X growth, backed by ANT)
+- `one_liner`: The AI-native OS for regulated labs → Regulated lab software, rebuilt around AI agents
+
+### [Halmos Labs](https://www.ycombinator.com/companies/halmos-labs)
+
+- `one_liner`: Rebuilding the drug discovery pipeline around agents → Rebuilding drug development for automation
+- `tags`: AI-powered Drug Discovery,Swarm AI,Biotech → AI-powered Drug Discovery,Auto Commerce,Swarm AI,Biotech,Automation
+
+### [Clean](https://www.ycombinator.com/companies/clean)
+
+- `website`: http://www.tryclean.ai → https://www.tryclean.ai/
+- `one_liner`: We predict when a company is about to buy. → Revenue intelligence for agents and sales teams.
+- `tags`: Deep Learning,SaaS → SaaS
+
+### [Proto](https://www.ycombinator.com/companies/proto)
+
+- `one_liner`: A design tool with the accuracy of Cursor & creative freedom of Figma → The product designer's coding agent
