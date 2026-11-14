@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-11-13T19:15:03.874Z",
+  "updatedAt": "2026-11-14T17:41:39.908Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -3481,7 +3481,15 @@
       "summary": "New features\nPGXSExtension module — a single config-driven module for testing\npgxs_extensions hash in the\n.pm file. The existing BlackholeFDW, FileTextArrayFDW\nNew branches-to-build tags UNRELEASED and HEAD_PLUS_UNRELEASED,\nCheckIndent can now run on any branch that loads it, not just HEAD.\nlocales…",
       "author": null,
       "publishedAt": "2026-11-13T15:46:55.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9BP",
+      "title": "Jianghua yang: Pricing plans in PostgreSQL's currency: pg_orca's PG-aligned cost model",
+      "link": "https://postgr.es/p/9BP",
+      "summary": "How pg_orca replaced ORCA's Greenplum-calibrated cost model with a port of PostgreSQL's costsize.c: where it plugs in, how it bridges ORCA's total-only costs and rebinds to PostgreSQL's startup costs and loop counts, and how a regression harness keeps both planners within 2%.",
+      "author": null,
+      "publishedAt": "2026-11-14T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 434
+  "totalIndexed": 435
 }

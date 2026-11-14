@@ -8,7 +8,7 @@
     "architecture",
     "aws"
   ],
-  "updatedAt": "2026-11-12T23:01:53.010Z",
+  "updatedAt": "2026-11-14T17:41:49.276Z",
   "items": [
     {
       "guid": "79195fa586925a9b62c134acc83bb06b7b67a778",
@@ -489,7 +489,15 @@
       "summary": "This post lays out a five-layer reference architecture for governed, observable enterprise AI agents on AWS: an API gateway, a five-phase agent runtime, a knowledge and state tier, platform services, and a cross-cutting trust and control framework. Each layer maps to managed AWS services, with the…",
       "author": "Rushabh Lokhande",
       "publishedAt": "2026-11-12T19:31:28.000Z"
+    },
+    {
+      "guid": "5e029ed77164f9513582842352dda8bb456d5710",
+      "title": "How Thermo Fisher Scientific built AI-powered patient matching on AWS",
+      "link": "https://aws.amazon.com/blogs/architecture/how-thermo-fisher-scientific-built-ai-powered-patient-matching-on-aws/",
+      "summary": "Learn how Thermo Fisher Scientific built an AI-powered patient-matching platform on AWS, modernizing its clinical trial recruitment data foundation and using AWS Countdown Premium to de-risk the production launch.",
+      "author": "Kaushal Patel",
+      "publishedAt": "2026-11-13T20:26:58.000Z"
     }
   ],
-  "totalIndexed": 60
+  "totalIndexed": 61
 }
