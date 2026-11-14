@@ -1,73 +1,149 @@
 {
   "date": "2026-11-14",
-  "fetchedAt": "2026-11-14T17:41:52.770Z",
+  "fetchedAt": "2026-11-14T21:51:36.791Z",
   "previousCount": 6397,
   "currentCount": 6397,
   "added": [],
   "removed": [],
   "updated": [
     {
-      "id": 31367,
-      "name": "Standard Gaussian",
-      "slug": "standard-gaussian",
-      "batch": "Spring 2026",
-      "url": "https://www.ycombinator.com/companies/standard-gaussian",
+      "id": 30796,
+      "name": "Sapien",
+      "slug": "outrove",
+      "batch": "Summer 2025",
+      "url": "https://www.ycombinator.com/companies/outrove",
       "changes": [
         {
-          "field": "name",
-          "before": "Andustry",
-          "after": "Standard Gaussian"
+          "field": "all_locations",
+          "before": "Cairo, Cairo Governorate, Egypt",
+          "after": "San Francisco, CA, USA"
         },
         {
-          "field": "slug",
-          "before": "andustry",
-          "after": "standard-gaussian"
-        },
-        {
-          "field": "former_names",
+          "field": "regions",
           "before": [
-            "Andustry",
-            "Standard Gaussian"
+            "Egypt",
+            "Middle East and North Africa"
           ],
           "after": [
-            "Andustry",
-            "Standard Gaussian",
-            "Andustry"
+            "United States of America",
+            "America / Canada"
           ]
+        }
+      ]
+    },
+    {
+      "id": 31375,
+      "name": "Hub Labs",
+      "slug": "hub-labs",
+      "batch": "Spring 2026",
+      "url": "https://www.ycombinator.com/companies/hub-labs",
+      "changes": [
+        {
+          "field": "small_logo_thumb_url",
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/4807c17f08dbbfbdd8f51297746a838ba6db58c1.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/5920a6de1493f3a7f90eb7e7b496a7d5c6e307f4.png"
         },
         {
           "field": "website",
-          "before": "http://andustry.com/",
-          "after": "http://standardgaussian.com/"
-        },
-        {
-          "field": "one_liner",
-          "before": "",
-          "after": "World models for finance"
-        },
+          "before": "https://hublabs.com",
+          "after": "https://hub.xyz"
+        }
+      ]
+    },
+    {
+      "id": 31381,
+      "name": "GovGuard",
+      "slug": "govguard",
+      "batch": "Spring 2026",
+      "url": "https://www.ycombinator.com/companies/govguard",
+      "changes": [
         {
           "field": "team_size",
-          "before": 2,
+          "before": 0,
           "after": 3
         }
       ]
     },
     {
-      "id": 37600,
-      "name": "Redoubt Insurance",
-      "slug": "redoubt-insurance",
+      "id": 35396,
+      "name": "Oasive",
+      "slug": "oasive",
       "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/redoubt-insurance",
+      "url": "https://www.ycombinator.com/companies/oasive",
       "changes": [
         {
           "field": "one_liner",
-          "before": "Commercial insurance for small businesses",
-          "after": "Autonomous commercial insurance"
+          "before": "Credit research for municipal bond analysts",
+          "after": "AI credit research for municipal bond investors"
+        }
+      ]
+    },
+    {
+      "id": 37599,
+      "name": "BioDelivera",
+      "slug": "biodelivera",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/biodelivera",
+      "changes": [
+        {
+          "field": "subindustry",
+          "before": "Healthcare -> Drug Discovery and Delivery",
+          "after": "Healthcare -> Therapeutics"
         },
         {
-          "field": "team_size",
-          "before": 0,
-          "after": 1
+          "field": "tags",
+          "before": [
+            "Gene Therapy",
+            "Cell Therapy",
+            "Drug Delivery"
+          ],
+          "after": [
+            "Gene Therapy",
+            "Drug Delivery",
+            "Therapeutics",
+            "AI",
+            "Biotechnology"
+          ]
+        },
+        {
+          "field": "industries",
+          "before": [
+            "Healthcare",
+            "Drug Discovery and Delivery"
+          ],
+          "after": [
+            "Healthcare",
+            "Therapeutics"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 37896,
+      "name": "Aucert",
+      "slug": "aucert",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/aucert",
+      "changes": [
+        {
+          "field": "one_liner",
+          "before": "A team of expert AI agents that test mobile apps on their own.",
+          "after": "Expert AI agents that explore, understand, and verify mobile apps."
+        },
+        {
+          "field": "tags",
+          "before": [
+            "Developer Tools",
+            "B2B",
+            "AI"
+          ],
+          "after": [
+            "Developer Tools",
+            "SaaS",
+            "B2B",
+            "Automation",
+            "AI"
+          ]
         }
       ]
     }

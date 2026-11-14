@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-11-14T17:41:39.908Z",
+  "updatedAt": "2026-11-14T21:51:21.049Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -3489,7 +3489,15 @@
       "summary": "How pg_orca replaced ORCA's Greenplum-calibrated cost model with a port of PostgreSQL's costsize.c: where it plugs in, how it bridges ORCA's total-only costs and rebinds to PostgreSQL's startup costs and loop counts, and how a regression harness keeps both planners within 2%.",
       "author": null,
       "publishedAt": "2026-11-14T00:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9BQ",
+      "title": "Dinesh Kumar: How to Reduce PostgreSQL Memory Usage and Cut Your Cloud Bill in Half",
+      "link": "https://postgr.es/p/9BQ",
+      "summary": "How to reduce PostgreSQL memory usage and your cloud bill: one pooler setting took a customer from 93% memory to 50%, and from $630 to $320 a month.",
+      "author": null,
+      "publishedAt": "2026-11-14T18:45:15.000Z"
     }
   ],
-  "totalIndexed": 435
+  "totalIndexed": 436
 }
