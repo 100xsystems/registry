@@ -1,57 +1,48 @@
 # YC Company Changes for 2026-11-15
 
-- Previous total: 6397
+- Previous total: 6396
 - Current total: 6396
 - Added: 0
-- Removed: 1
-- Updated: 10
+- Removed: 0
+- Updated: 9
 
-
-## Removed Companies
-
-- Biomes (Fall 2026)
 
 ## Updated Companies
 
-### [SnapBite](https://www.ycombinator.com/companies/snapbite)
+### [Directed Edge](https://www.ycombinator.com/companies/directed-edge)
 
-- `website`: http://getcycle.com → https://cyborg6.com
+- `all_locations`: San Francisco, CA, USA → Berlin, Berlin, Germany; San Francisco, CA, USA
+- `regions`: United States of America,America / Canada → Germany,United States of America,Europe,America / Canada
 
-### [Kastle](https://www.ycombinator.com/companies/kastle)
+### [teaBOT](https://www.ycombinator.com/companies/teabot)
 
-- `one_liner`: AI employee for consumer lending → AI FTE for regulated finance
-- `team_size`: 15 → 17
-- `stage`: Growth → Early
+- `regions`: Canada,United States of America,America / Canada,America / Canada,Remote,Partly Remote → Canada,United States of America,America / Canada,Remote,Partly Remote
 
-### [Vulcan Technologies](https://www.ycombinator.com/companies/vulcan-technologies)
+### [FrontPage](https://www.ycombinator.com/companies/frontpage)
 
-- `stage`: Early → Growth
+- `isHiring`: false → true
 
-### [Human Archive](https://www.ycombinator.com/companies/human-archive)
+### [JustAI](https://www.ycombinator.com/companies/justai)
 
-- `one_liner`: Physical AI data lab → Infrastructure for Training, Evaluating, and Deploying Physical AI
+- `team_size`: 4 → 15
 
-### [Foreman](https://www.ycombinator.com/companies/foreman)
+### [Orca Client](https://www.ycombinator.com/companies/orca-client)
 
-- `team_size`: 2 → 6
+- `all_locations`: San Francisco, CA, USA → New York City, NY, USA
 
-### [Evident Machines](https://www.ycombinator.com/companies/evident-machines)
+### [FinalDose](https://www.ycombinator.com/companies/finaldose)
 
-- `one_liner`: Benchmarks and RL environments for electrical engineering → Real-world benchmarks and RL environments for electrical engineering
+- `all_locations`: Oxford, England, United Kingdom → London, England, United Kingdom
 
-### [Hue](https://www.ycombinator.com/companies/hue)
+### [Veeza AI](https://www.ycombinator.com/companies/veeza-ai)
 
-- `one_liner`: Test agents in realistic worlds built from production usage → Realistic worlds for agent evaluation
+- `all_locations`:  → San Francisco, CA, USA
+- `regions`: Unspecified → United States of America,America / Canada
 
-### [Mirrors](https://www.ycombinator.com/companies/mirrors)
+### [Agent 37](https://www.ycombinator.com/companies/agent-37)
 
-- `one_liner`: Fix recurring AI agent mistakes with real-time guidance → Control what your AI agents are told, and when
-- `tags`: AIOps,Developer Tools,SaaS,B2B,AI → Developer Tools,SaaS,B2B,Infrastructure,AI
+- `all_locations`: New York City, NY, USA → San Francisco, CA, USA
 
-### [Graphide](https://www.ycombinator.com/companies/graphide)
+### [Rystic](https://www.ycombinator.com/companies/rystic)
 
-- `tags`: Generative AI,DevOps,AI → AIOps,Developer Tools,B2B,DevOps,Infrastructure
-
-### [Render](https://www.ycombinator.com/companies/render)
-
-- `tags`: B2B,Marketing → B2B,Marketing,Advertising,AI
+- `one_liner`: Train models and test agents in high-fidelity simulated environments → Test agents and code changes in high-fidelity simulated environments
