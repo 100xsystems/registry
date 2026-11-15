@@ -1,48 +1,51 @@
 # YC Company Changes for 2026-11-15
 
 - Previous total: 6396
-- Current total: 6396
-- Added: 0
+- Current total: 6398
+- Added: 2
 - Removed: 0
-- Updated: 9
+- Updated: 7
 
+
+## Added Companies
+
+- [Central Blue](https://www.ycombinator.com/companies/central-blue) (Fall 2026) — The power grid for space: we build power-beaming satellites.
+- [Asterline](https://www.ycombinator.com/companies/asterline) (Winter 2027) — Quantitative trading of prediction markets
 
 ## Updated Companies
 
-### [Directed Edge](https://www.ycombinator.com/companies/directed-edge)
+### [Freebuff](https://www.ycombinator.com/companies/freebuff)
 
-- `all_locations`: San Francisco, CA, USA → Berlin, Berlin, Germany; San Francisco, CA, USA
-- `regions`: United States of America,America / Canada → Germany,United States of America,Europe,America / Canada
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/7e79d88ee27d8bcba8981ffbb6cfd8dfaee476e3.png → https://bookface-images.s3.amazonaws.com/small_logos/75a10846675d9542c49737fd455547758618fbb4.png
+- `team_size`: 4 → 12
 
-### [teaBOT](https://www.ycombinator.com/companies/teabot)
+### [Vaya](https://www.ycombinator.com/companies/vaya)
 
-- `regions`: Canada,United States of America,America / Canada,America / Canada,Remote,Partly Remote → Canada,United States of America,America / Canada,Remote,Partly Remote
+- `one_liner`: Discover your next vacation for less. → Rank, Log, & Share Places
+- `subindustry`: Consumer -> Travel, Leisure and Tourism → Consumer -> Food and Beverage
+- `tags`: Consumer,Travel → Consumer,Social Media,Food
+- `industries`: Consumer,Travel, Leisure and Tourism → Consumer,Food and Beverage
 
-### [FrontPage](https://www.ycombinator.com/companies/frontpage)
+### [Expanse](https://www.ycombinator.com/companies/expanse)
 
-- `isHiring`: false → true
+- `one_liner`: Unlock wasted GPU capacity. → Twice the work from the GPUs you already own
+- `tags`: Deep Learning,B2B,Infrastructure,ML → B2B,Cloud Computing
 
-### [JustAI](https://www.ycombinator.com/companies/justai)
+### [RightNow](https://www.ycombinator.com/companies/rightnow)
 
-- `team_size`: 4 → 15
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/59b2e02a314037738d9f32192f83e8bd442be246.png → https://bookface-images.s3.amazonaws.com/small_logos/ff9ff8e9954b9ef735ba6d947c3a427df77bd519.png
+- `website`: https://runinfra.ai/ → https://www.rightnowai.co
+- `one_liner`: Co-designing the fastest intelligence → The kernel lab behind instant AI
+- `tags`: Developer Tools,Generative AI,Machine Learning,Infrastructure,AI → Generative AI,Machine Learning,Infrastructure,AI
 
-### [Orca Client](https://www.ycombinator.com/companies/orca-client)
+### [Vestris](https://www.ycombinator.com/companies/vestris)
 
-- `all_locations`: San Francisco, CA, USA → New York City, NY, USA
+- `one_liner`: AI native platform for real estate closings → The FICO score for homes
 
-### [FinalDose](https://www.ycombinator.com/companies/finaldose)
+### [Mirrors](https://www.ycombinator.com/companies/mirrors)
 
-- `all_locations`: Oxford, England, United Kingdom → London, England, United Kingdom
+- `one_liner`: Control what your AI agents are told, and when → The guidance system for production AI agents
 
-### [Veeza AI](https://www.ycombinator.com/companies/veeza-ai)
+### [Fleety](https://www.ycombinator.com/companies/fleety)
 
-- `all_locations`:  → San Francisco, CA, USA
-- `regions`: Unspecified → United States of America,America / Canada
-
-### [Agent 37](https://www.ycombinator.com/companies/agent-37)
-
-- `all_locations`: New York City, NY, USA → San Francisco, CA, USA
-
-### [Rystic](https://www.ycombinator.com/companies/rystic)
-
-- `one_liner`: Train models and test agents in high-fidelity simulated environments → Test agents and code changes in high-fidelity simulated environments
+- `one_liner`: Fleety is an AI dispatcher for plumbing and HVAC companies. → Operating system for trades, starting with dispatch.

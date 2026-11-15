@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-11-15T18:30:46.847Z",
-  "count": 6396,
+  "fetchedAt": "2026-11-15T22:20:42.376Z",
+  "count": 6398,
   "companies": [
     {
       "id": 42985,
@@ -45,6 +45,48 @@
       "app_answers": null,
       "question_answers": false,
       "url": "https://www.ycombinator.com/companies/render"
+    },
+    {
+      "id": 42980,
+      "name": "Asterline",
+      "slug": "asterline",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/8bb5c8006bb267072326386987df5ec025fd190a.png",
+      "website": "https://asterlinetrading.com",
+      "all_locations": "New York City, NY, USA",
+      "long_description": "Asterline is a quantitative trading firm that builds automated systems to exploit pricing inefficiencies in prediction markets. We grew an initial $2,500 into $50,000 in our first month of trading and built proprietary backtesting infrastructure to rapidly discover, validate, and deploy new strategies at scale.",
+      "one_liner": "Quantitative trading of prediction markets",
+      "team_size": 1,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "Fintech",
+      "subindustry": "Fintech -> Asset Management",
+      "launched_at": 1794771497,
+      "tags": [
+        "Finance",
+        "Trading"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Winter 2027",
+      "status": "Active",
+      "industries": [
+        "Fintech",
+        "Asset Management"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/asterline"
     },
     {
       "id": 42459,
@@ -5204,7 +5246,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/bfa5e505d77a3f64c4f5ed8941cc14f8318a3a34.png",
       "website": "https://rystic.ai",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Staging environments and test sandboxes don't scale for development with AI.\r\n\r\nRystic is building the verification layer for software written by AI. Test every change in a simulation that exercises the behavior end-to-end, and ship with confidence.\r\n\r\nWe gives every change a deterministic simulated environment: local, stateful simulators of APIs like Slack, Stripe, GitHub, and PostHog. Control everything about your dependencies, from the clock to injected faults, and use it for integration tests or agent evals.",
+      "long_description": "Staging environments and test sandboxes don't scale for development with AI.\r\n\r\nRystic is building the verification layer for software written by AI. We give every change a deterministic simulated environment, populated with local, stateful simulators of APIs like Slack, Stripe, GitHub, and PostHog. Control everything about your dependencies, from the clock to injected faults, and use our harness for integration tests or agent evals.\r\n\r\nWith simulation testing, every change is evaluated quickly in its own private world, where you can measure its impact on other systems. We're building the next step forward in software testing, one that scales with your agents instead of holds them back.",
       "one_liner": "Test agents and code changes in high-fidelity simulated environments",
       "team_size": 2,
       "highlight_black": false,
@@ -5478,7 +5520,7 @@
       "website": "https://usefleety.com",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "A typical customer handles 100+ jobs a day, with their best technician generating $500,000 more revenue than the average. Fleety listens to every call and automatically routes each job to the technician most likely to generate the most revenue.",
-      "one_liner": "Fleety is an AI dispatcher for plumbing and HVAC companies.",
+      "one_liner": "Operating system for trades, starting with dispatch.",
       "team_size": 4,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -7013,8 +7055,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/e98a564b21ba044528e16126406d35b7464044b7.png",
       "website": "https://www.mirrors.dev",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Mirrors gives developers the infrastructure to control what production AI agents are told, and when.\r\n\r\nAgents keep breaking rules they’ve already been given. The rule was there, but it was buried in a long prompt, or sitting in a skill the agent never opened. Teams can write the rule. They can’t control whether the agent sees it when it matters.\r\n\r\nWith Mirrors, they can. A developer writes a rule once and defines where it applies. Mirrors delivers it at that step of the run, shows which sessions it reached, and measures whether it helped. It also surfaces the mistakes an agent keeps making, so teams know which rule to write next. Mirrors works with any framework and any model.\r\n\r\nEvery team running agents builds this by hand today. We’re building it once, because as agents take on more of a company’s work, what they’re told becomes how the company runs.",
-      "one_liner": "Control what your AI agents are told, and when",
+      "long_description": "Mirrors gives developers the infrastructure to control what production AI agents are told, and when.\r\n\r\nAgents keep breaking rules they’ve already been given. The rule was there, but it was buried in a long prompt, or sitting in a skill the agent never opened. Teams can write the rule. They can’t control whether the agent sees it when it matters.\r\n\r\nWith Mirrors, they can. A developer writes a rule once and defines where it applies. Mirrors delivers it at that step of the run, shows which sessions it reached, and measures whether it helped. It also surfaces the mistakes an agent keeps making, so teams know which rule to write next. Mirrors works with any agent framework and any model.\r\n\r\nEvery team running agents builds this by hand today. We’re building it once, because as agents take on more of a company’s work, what they’re told becomes how the company runs.",
+      "one_liner": "The guidance system for production AI agents",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -7756,6 +7798,49 @@
       "app_answers": null,
       "question_answers": false,
       "url": "https://www.ycombinator.com/companies/ample-computer"
+    },
+    {
+      "id": 35059,
+      "name": "Central Blue",
+      "slug": "central-blue",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/f3677cc5165f14459d957f9c303ce436693b0f18.png",
+      "website": "https://www.centralblue.ai/",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "Spacecraft today have to generate all their own power, which caps what can be built and operated in orbit. Central Blue is building the power grid for space: satellites that collect sunlight and beam power by laser to receiver panels on other spacecraft.\r\n\r\nOur first power-beaming prototype is nearly complete in Seattle, with a laser-powered propulsion demonstration planned with Wave Motion Launch Technologies. Our CORE software will let the power satellites detect faults and recover on their own, keeping the grid running around the clock.",
+      "one_liner": "The power grid for space: we build power-beaming satellites.",
+      "team_size": 2,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "Industrials",
+      "subindustry": "Industrials -> Aviation and Space",
+      "launched_at": 1794778898,
+      "tags": [
+        "Space Exploration",
+        "Aerospace",
+        "Defense"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Fall 2026",
+      "status": "Active",
+      "industries": [
+        "Industrials",
+        "Aviation and Space"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/central-blue"
     },
     {
       "id": 35058,
@@ -13149,8 +13234,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/e17d90c0a32a27bdb75bac6bb8a2ca4e0ad1646d.png",
       "website": "https://vestris.ai/",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Vestris automates title processing end-to-end, from contract to close, so title shops can close more deals with fewer processors. Title insurance has famously high margins, but slow, manual processing is a constant pain — especially in today's bleeding housing market.",
-      "one_liner": "AI native platform for real estate closings",
+      "long_description": "With the government pushing to make title insurance optional on refinances, lenders are starting to take on title risk. Vestris gives every property a risk assessment, like a credit score for homes, so lenders know what they're lending against and homeowners know where their property stands.",
+      "one_liner": "The FICO score for homes",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -18425,11 +18510,11 @@
       "name": "RightNow",
       "slug": "rightnow",
       "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/59b2e02a314037738d9f32192f83e8bd442be246.png",
-      "website": "https://runinfra.ai/",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/ff9ff8e9954b9ef735ba6d947c3a427df77bd519.png",
+      "website": "https://www.rightnowai.co",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "RightNow AI is a research lab for GPU kernel optimization. Our platform RunInfra serves top open-source models optimized for AI agents at a fraction of the cost of closed-source APIs\r\n\r\nRightNow AI lab: https://rightnowai.co\r\nRunInfra platform: https://runinfra.ai.",
-      "one_liner": "Co-designing the fastest intelligence",
+      "long_description": "RightNow is a GPU kernel lab. Top frontier labs use our optimization tools to get more out of their GPUs, and now we put the same stack behind an API so anyone can own their AI. Run the best open models at full speed per token, or with reserved capacity, dedicated deployments and batch at half price. For enterprises, we optimize your own models down to the kernel",
+      "one_liner": "The kernel lab behind instant AI",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -18438,7 +18523,6 @@
       "subindustry": "B2B -> Infrastructure",
       "launched_at": 1779474756,
       "tags": [
-        "Developer Tools",
         "Generative AI",
         "Machine Learning",
         "Infrastructure",
@@ -20410,8 +20494,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/af6cfe1f95da6fb2bfc1789fb605ed70b77da3b4.png",
       "website": "https://expanse.sh",
       "all_locations": "London, England, United Kingdom",
-      "long_description": "Expanse unlocks wasted GPU capacity. We recover idle compute through three capabilities: resource prediction (right-sizing job submissions before they reach the scheduler), optimisation suggestions (code and config changes researchers can apply themselves), and failure prediction (catching jobs that will fail before they consume hours of GPU time).\r\n\r\nWe’re four engineers. We ran HPC and GPU training workloads at the largest quant funds and national supercomputing centres. We faced this problem first hand and the only fix was to over-provision and burn millions. Ismaeel built the first multimodal HPC resource predictor as research at EPCC (Edinburgh’s Parallel Computing Centre), which beat every published baseline. This is the tool we wish we had.",
-      "one_liner": "Unlock wasted GPU capacity.",
+      "long_description": "Expanse delivers compute certainty. Its software predicts exactly what every AI workload needs before it runs, so organisations can do more with the GPU infrastructure they already own, privately and on their own hardware.\r\n\r\nEvery AI breakthrough begins with a compute decision, and today that decision is a guess. Ask for too little and the job dies hours in. Ask for too much and the hardware sits reserved and idle while other work waits. Expanse replaces the guess with evidence, before a single GPU is committed.\r\n\r\nWe're four engineers who ran and managed GPU clusters at some of the world's largest quantitative hedge funds, following earlier research at national supercomputing scale. This was the tool we always wanted, so we built it.",
+      "one_liner": "Twice the work from the GPUs you already own",
       "team_size": 4,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -20420,10 +20504,8 @@
       "subindustry": "B2B -> Infrastructure",
       "launched_at": 1777849866,
       "tags": [
-        "Deep Learning",
         "B2B",
-        "Infrastructure",
-        "ML"
+        "Cloud Computing"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -22069,7 +22151,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/35110e6bdfbfbf5706627685cbb370e170ff4a03.png",
       "website": "https://usecollarai.com",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "Collar is helping enterprises fundraise faster.\r\n\r\nTraction: \r\n$1.4M deals pending compliance in 2 months, half is Fortune 1000.\r\n30 partners including Fortune 500, NYSE and NASDAQ-listed companies.\r\n67% week over week growth in enterprise bookings.\r\n\r\nOur proprietary agentic AI harness performs two-thirds of an investor relations team’s work, solving a $16B global market.\r\n\r\nFounders: Kazel and Jamie are both repeat founders with buy-side finance experience. \r\nKazel invented a new method of hacking with Softbank research funding at 17 before being recruited into Singapore’s Intelligence Service. \r\nJamie was Chief of Staff at Openspace, a billion-dollar multi-asset manager.\r\n\r\nThey previously worked together as the youngest Singapore defence contractors.",
+      "long_description": "Collar is helping enterprises fundraise faster.\r\n\r\nTraction: \r\n$1.4M deals pending compliance in 2 months, half is Fortune 1000.\r\n30 partners including Fortune 500, NYSE and NASDAQ-listed companies.\r\n4X month over month revenue growth\r\n\r\nOur proprietary agentic AI harness performs two-thirds of an investor relations team’s work from investor targeting to , solving a $16B global market.\r\n\r\nFounders: Kazel and Jamie are both repeat founders with buy-side finance experience. \r\nKazel invented a new method of hacking with Softbank research funding at 17 before being recruited into Singapore’s Intelligence Service. \r\nJamie was Chief of Staff at Openspace, a billion-dollar multi-asset manager.\r\n\r\nThey previously worked together as the youngest Singapore defence contractors.",
       "one_liner": "Helping Enterprises Fundraise Faster",
       "team_size": 3,
       "highlight_black": false,
@@ -37481,7 +37563,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/641db1cdc907f274cb944fd6796edc486aa6d653.png",
       "website": "https://www.icarus.one/",
       "all_locations": "Los Angeles, CA, USA",
-      "long_description": "Icarus is building the modern-day U2 spy plane: autonomous, solar-powered, low-cost. Flying at 60,000 ft, they deliver persistent intelligence and communications for the military at a fraction of the cost of existing systems. The stratosphere is the forgotten frontier.",
+      "long_description": "Icarus is building the modern-day U2 spy plane: autonomous, solar-powered, low-cost. Flying at 60,000 ft, our birds deliver persistent intelligence and communications for the military at a fraction of the cost of existing systems. The stratosphere is the forgotten frontier.",
       "one_liner": "Stratospheric birds for defense",
       "team_size": 50,
       "highlight_black": false,
@@ -64326,17 +64408,18 @@
       "website": "https://flyvaya.com",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "",
-      "one_liner": "Discover your next vacation for less.",
+      "one_liner": "Rank, Log, & Share Places",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
       "industry": "Consumer",
-      "subindustry": "Consumer -> Travel, Leisure and Tourism",
+      "subindustry": "Consumer -> Food and Beverage",
       "launched_at": 1730227120,
       "tags": [
         "Consumer",
-        "Travel"
+        "Social Media",
+        "Food"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -64346,7 +64429,7 @@
       "status": "Active",
       "industries": [
         "Consumer",
-        "Travel, Leisure and Tourism"
+        "Food and Beverage"
       ],
       "regions": [
         "United States of America",
@@ -65967,12 +66050,12 @@
         "Manicode",
         "Codebuff"
       ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/7e79d88ee27d8bcba8981ffbb6cfd8dfaee476e3.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/75a10846675d9542c49737fd455547758618fbb4.png",
       "website": "https://freebuff.com",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "We're making consumer agent products completely free, using the best open source models, and funded by ads.\r\n\r\nOur first product is a coding agent CLI called Freebuff. Install it with \"npm i -g freebuff\". We're also working on a free Lovable competitor.",
       "one_liner": "The free coding agent",
-      "team_size": 4,
+      "team_size": 12,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
