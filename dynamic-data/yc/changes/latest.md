@@ -1,45 +1,57 @@
 # YC Company Changes for 2026-11-15
 
 - Previous total: 6397
-- Current total: 6397
-- Added: 1
+- Current total: 6396
+- Added: 0
 - Removed: 1
-- Updated: 6
+- Updated: 10
 
-
-## Added Companies
-
-- [Biomes](https://www.ycombinator.com/companies/biomes) (Fall 2026) — Deploying AI
 
 ## Removed Companies
 
-- Invo (Winter 2025)
+- Biomes (Fall 2026)
 
 ## Updated Companies
 
-### [Supadock](https://www.ycombinator.com/companies/supadock)
+### [SnapBite](https://www.ycombinator.com/companies/snapbite)
 
-- `one_liner`: Multi-agent AI for physical logistics operations → Making logistics facilities run themselves
+- `website`: http://getcycle.com → https://cyborg6.com
 
-### [Spinach AI](https://www.ycombinator.com/companies/spinach-ai)
+### [Kastle](https://www.ycombinator.com/companies/kastle)
 
-- `one_liner`: The System of Action for Conversation Data → The System of Record for Conversation Data
-- `team_size`: 5 → 6
+- `one_liner`: AI employee for consumer lending → AI FTE for regulated finance
+- `team_size`: 15 → 17
+- `stage`: Growth → Early
 
-### [Laurence](https://www.ycombinator.com/companies/laurence)
+### [Vulcan Technologies](https://www.ycombinator.com/companies/vulcan-technologies)
 
-- `team_size`: 2 → 12
-- `tags`:  → E-commerce,Marketing,Advertising,Market Research
+- `stage`: Early → Growth
 
-### [Litmus](https://www.ycombinator.com/companies/litmus-hiring)
+### [Human Archive](https://www.ycombinator.com/companies/human-archive)
 
-- `isHiring`: false → true
-- `regions`: United States of America,America / Canada → United States of America,America / Canada,Remote,Partly Remote
+- `one_liner`: Physical AI data lab → Infrastructure for Training, Evaluating, and Deploying Physical AI
 
-### [Repovive](https://www.ycombinator.com/companies/repovive)
+### [Foreman](https://www.ycombinator.com/companies/foreman)
 
-- `team_size`: 4 → 5
+- `team_size`: 2 → 6
 
-### [Dreamscale Labs](https://www.ycombinator.com/companies/dreamscale-labs)
+### [Evident Machines](https://www.ycombinator.com/companies/evident-machines)
 
-- `one_liner`: Real-time cloud inference for robotics. → Cloud inference and training infrastructure for robotics.
+- `one_liner`: Benchmarks and RL environments for electrical engineering → Real-world benchmarks and RL environments for electrical engineering
+
+### [Hue](https://www.ycombinator.com/companies/hue)
+
+- `one_liner`: Test agents in realistic worlds built from production usage → Realistic worlds for agent evaluation
+
+### [Mirrors](https://www.ycombinator.com/companies/mirrors)
+
+- `one_liner`: Fix recurring AI agent mistakes with real-time guidance → Control what your AI agents are told, and when
+- `tags`: AIOps,Developer Tools,SaaS,B2B,AI → Developer Tools,SaaS,B2B,Infrastructure,AI
+
+### [Graphide](https://www.ycombinator.com/companies/graphide)
+
+- `tags`: Generative AI,DevOps,AI → AIOps,Developer Tools,B2B,DevOps,Infrastructure
+
+### [Render](https://www.ycombinator.com/companies/render)
+
+- `tags`: B2B,Marketing → B2B,Marketing,Advertising,AI
