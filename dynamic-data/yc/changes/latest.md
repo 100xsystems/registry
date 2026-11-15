@@ -1,39 +1,45 @@
-# YC Company Changes for 2026-11-14
+# YC Company Changes for 2026-11-15
 
 - Previous total: 6397
 - Current total: 6397
-- Added: 0
-- Removed: 0
+- Added: 1
+- Removed: 1
 - Updated: 6
 
 
+## Added Companies
+
+- [Biomes](https://www.ycombinator.com/companies/biomes) (Fall 2026) — Deploying AI
+
+## Removed Companies
+
+- Invo (Winter 2025)
+
 ## Updated Companies
 
-### [Sapien](https://www.ycombinator.com/companies/outrove)
+### [Supadock](https://www.ycombinator.com/companies/supadock)
 
-- `all_locations`: Cairo, Cairo Governorate, Egypt → San Francisco, CA, USA
-- `regions`: Egypt,Middle East and North Africa → United States of America,America / Canada
+- `one_liner`: Multi-agent AI for physical logistics operations → Making logistics facilities run themselves
 
-### [Hub Labs](https://www.ycombinator.com/companies/hub-labs)
+### [Spinach AI](https://www.ycombinator.com/companies/spinach-ai)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/4807c17f08dbbfbdd8f51297746a838ba6db58c1.png → https://bookface-images.s3.amazonaws.com/small_logos/5920a6de1493f3a7f90eb7e7b496a7d5c6e307f4.png
-- `website`: https://hublabs.com → https://hub.xyz
+- `one_liner`: The System of Action for Conversation Data → The System of Record for Conversation Data
+- `team_size`: 5 → 6
 
-### [GovGuard](https://www.ycombinator.com/companies/govguard)
+### [Laurence](https://www.ycombinator.com/companies/laurence)
 
-- `team_size`: 0 → 3
+- `team_size`: 2 → 12
+- `tags`:  → E-commerce,Marketing,Advertising,Market Research
 
-### [Oasive](https://www.ycombinator.com/companies/oasive)
+### [Litmus](https://www.ycombinator.com/companies/litmus-hiring)
 
-- `one_liner`: Credit research for municipal bond analysts → AI credit research for municipal bond investors
+- `isHiring`: false → true
+- `regions`: United States of America,America / Canada → United States of America,America / Canada,Remote,Partly Remote
 
-### [BioDelivera](https://www.ycombinator.com/companies/biodelivera)
+### [Repovive](https://www.ycombinator.com/companies/repovive)
 
-- `subindustry`: Healthcare -> Drug Discovery and Delivery → Healthcare -> Therapeutics
-- `tags`: Gene Therapy,Cell Therapy,Drug Delivery → Gene Therapy,Drug Delivery,Therapeutics,AI,Biotechnology
-- `industries`: Healthcare,Drug Discovery and Delivery → Healthcare,Therapeutics
+- `team_size`: 4 → 5
 
-### [Aucert](https://www.ycombinator.com/companies/aucert)
+### [Dreamscale Labs](https://www.ycombinator.com/companies/dreamscale-labs)
 
-- `one_liner`: A team of expert AI agents that test mobile apps on their own. → Expert AI agents that explore, understand, and verify mobile apps.
-- `tags`: Developer Tools,B2B,AI → Developer Tools,SaaS,B2B,Automation,AI
+- `one_liner`: Real-time cloud inference for robotics. → Cloud inference and training infrastructure for robotics.
