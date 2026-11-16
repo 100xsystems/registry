@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-11-14T21:51:21.049Z",
+  "updatedAt": "2026-11-16T04:59:54.512Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -3497,7 +3497,15 @@
       "summary": "How to reduce PostgreSQL memory usage and your cloud bill: one pooler setting took a customer from 93% memory to 50%, and from $630 to $320 a month.",
       "author": null,
       "publishedAt": "2026-11-14T18:45:15.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9C2",
+      "title": "Chris van Eijk: invalid input syntax for type json in PostgreSQL, measured",
+      "link": "https://postgr.es/p/9C2",
+      "summary": "What raises 'invalid input syntax for type json' (22P02), measured on PostgreSQL 16 to 18: JS arrays, Python lists, NUL escapes, bad rows and a safe ALTER.",
+      "author": null,
+      "publishedAt": "2026-11-15T22:30:11.000Z"
     }
   ],
-  "totalIndexed": 436
+  "totalIndexed": 437
 }

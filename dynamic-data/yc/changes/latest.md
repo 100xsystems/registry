@@ -1,51 +1,72 @@
-# YC Company Changes for 2026-11-15
+# YC Company Changes for 2026-11-16
 
-- Previous total: 6396
-- Current total: 6398
-- Added: 2
+- Previous total: 6398
+- Current total: 6399
+- Added: 1
 - Removed: 0
-- Updated: 7
+- Updated: 12
 
 
 ## Added Companies
 
-- [Central Blue](https://www.ycombinator.com/companies/central-blue) (Fall 2026) — The power grid for space: we build power-beaming satellites.
-- [Asterline](https://www.ycombinator.com/companies/asterline) (Winter 2027) — Quantitative trading of prediction markets
+- [Contour](https://www.ycombinator.com/companies/contourholdings) (Fall 2026) — AI-native permitting and compliance for America’s buildout
 
 ## Updated Companies
 
-### [Freebuff](https://www.ycombinator.com/companies/freebuff)
+### [Banner](https://www.ycombinator.com/companies/banner)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/7e79d88ee27d8bcba8981ffbb6cfd8dfaee476e3.png → https://bookface-images.s3.amazonaws.com/small_logos/75a10846675d9542c49737fd455547758618fbb4.png
-- `team_size`: 4 → 12
+- `team_size`: 35 → 50
 
-### [Vaya](https://www.ycombinator.com/companies/vaya)
+### [Formal](https://www.ycombinator.com/companies/formal)
 
-- `one_liner`: Discover your next vacation for less. → Rank, Log, & Share Places
-- `subindustry`: Consumer -> Travel, Leisure and Tourism → Consumer -> Food and Beverage
-- `tags`: Consumer,Travel → Consumer,Social Media,Food
-- `industries`: Consumer,Travel, Leisure and Tourism → Consumer,Food and Beverage
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/66941efea1bbb96c0037b8eb01cd10d72092895c.png → https://bookface-images.s3.amazonaws.com/small_logos/69c999179438f094b0ae55f2ce7d8f2d9ed597b9.png
+- `website`: https://joinformal.com → https://formal.ai
+- `all_locations`: San Francisco, CA, USA; New York, NY, USA; Remote → San Francisco, CA, USA; New York, NY, USA
+- `one_liner`: Take control of your data in real-time. → Least privilege for agents and humans
+- `team_size`: 10 → 25
+- `subindustry`: B2B → B2B -> Security
+- `tags`: Cybersecurity → Cybersecurity,AI
+- `industries`: B2B → B2B,Security
+- `regions`: United States of America,America / Canada,Remote,Fully Remote → United States of America,America / Canada,Remote,Partly Remote
+- `stage`: Growth → Early
 
-### [Expanse](https://www.ycombinator.com/companies/expanse)
+### [10x](https://www.ycombinator.com/companies/10x)
 
-- `one_liner`: Unlock wasted GPU capacity. → Twice the work from the GPUs you already own
-- `tags`: Deep Learning,B2B,Infrastructure,ML → B2B,Cloud Computing
+- `team_size`: 3 → 4
 
-### [RightNow](https://www.ycombinator.com/companies/rightnow)
+### [Specific Labs](https://www.ycombinator.com/companies/specific-labs)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/59b2e02a314037738d9f32192f83e8bd442be246.png → https://bookface-images.s3.amazonaws.com/small_logos/ff9ff8e9954b9ef735ba6d947c3a427df77bd519.png
-- `website`: https://runinfra.ai/ → https://www.rightnowai.co
-- `one_liner`: Co-designing the fastest intelligence → The kernel lab behind instant AI
-- `tags`: Developer Tools,Generative AI,Machine Learning,Infrastructure,AI → Generative AI,Machine Learning,Infrastructure,AI
+- `isHiring`: false → true
 
-### [Vestris](https://www.ycombinator.com/companies/vestris)
+### [Laurence](https://www.ycombinator.com/companies/laurence)
 
-- `one_liner`: AI native platform for real estate closings → The FICO score for homes
+- `one_liner`: Agents that run your Amazon ads → The frontier operating system for marketers
 
-### [Mirrors](https://www.ycombinator.com/companies/mirrors)
+### [Cova](https://www.ycombinator.com/companies/cova)
 
-- `one_liner`: Control what your AI agents are told, and when → The guidance system for production AI agents
+- `all_locations`: San Francisco, CA, USA → New York City, NY, USA
 
-### [Fleety](https://www.ycombinator.com/companies/fleety)
+### [isoquant](https://www.ycombinator.com/companies/isoquant)
 
-- `one_liner`: Fleety is an AI dispatcher for plumbing and HVAC companies. → Operating system for trades, starting with dispatch.
+- `one_liner`: Self-optimizing inference cloud for faster, cheaper AI → Self-optimizing inference cloud for 4x faster open models
+- `tags`: AI → AIOps,Cloud Computing,AI
+
+### [Agent 37](https://www.ycombinator.com/companies/agent-37)
+
+- `one_liner`: Cloud Sandbox for Agents → Cheapest sandbox for AI agents
+
+### [Inflection Space Systems](https://www.ycombinator.com/companies/inflection-space-systems)
+
+- `tags`: Satellites,Manufacturing,Defense → Hard Tech,Hardware,Satellites,Manufacturing,Defense
+
+### [Forward](https://www.ycombinator.com/companies/useforward)
+
+- `one_liner`: The private credit network for leading debt advisors → Origination infrastructure for private credit.
+
+### [ORO AI](https://www.ycombinator.com/companies/oro-ai)
+
+- `one_liner`: RL environments & simulations for autonomous businesses. → RL environments & simulations to run autonomous businesses.
+
+### [Hemlock](https://www.ycombinator.com/companies/hemlock)
+
+- `tags`: Hard Tech,Hardware → Hard Tech,Hardware,Robotics
