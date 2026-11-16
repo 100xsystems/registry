@@ -1,67 +1,167 @@
 {
   "date": "2026-11-16",
-  "fetchedAt": "2026-11-16T05:00:11.135Z",
-  "previousCount": 6398,
+  "fetchedAt": "2026-11-16T15:22:01.667Z",
+  "previousCount": 6399,
   "currentCount": 6399,
-  "added": [
-    {
-      "id": 37665,
-      "name": "Contour",
-      "slug": "contourholdings",
-      "former_names": [
-        "Bricks"
-      ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/ae0831175e2bfda4e79ecd1dfe31db6e94502492.png",
-      "website": "https://contourholdings.ai/",
-      "all_locations": "San Francisco, CA, USA",
-      "long_description": "Contour acquires environmental consulting firms and runs them on Cortex, our AI platform. Its agents produce the reports, studies and permit applications. Customers get work turned around faster and our firms scale capacity without adding headcount.\r\n",
-      "one_liner": "AI-native permitting and compliance for America’s buildout",
-      "team_size": 4,
-      "highlight_black": false,
-      "highlight_latinx": false,
-      "highlight_women": false,
-      "industry": "Industrials",
-      "subindustry": "Industrials -> Energy",
-      "launched_at": 1794785642,
-      "tags": [
-        "Energy",
-        "AI"
-      ],
-      "tags_highlighted": [],
-      "top_company": false,
-      "isHiring": false,
-      "nonprofit": false,
-      "batch": "Fall 2026",
-      "status": "Active",
-      "industries": [
-        "Industrials",
-        "Energy"
-      ],
-      "regions": [
-        "United States of America",
-        "America / Canada"
-      ],
-      "stage": "Early",
-      "app_video_public": false,
-      "demo_day_video_public": false,
-      "app_answers": null,
-      "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/contourholdings"
-    }
-  ],
+  "added": [],
   "removed": [],
   "updated": [
     {
-      "id": 12639,
-      "name": "Banner",
-      "slug": "banner",
-      "batch": "Summer 2019",
-      "url": "https://www.ycombinator.com/companies/banner",
+      "id": 408,
+      "name": "SnapBite",
+      "slug": "snapbite",
+      "batch": "Summer 2012",
+      "url": "https://www.ycombinator.com/companies/snapbite",
       "changes": [
         {
-          "field": "team_size",
-          "before": 35,
-          "after": 50
+          "field": "website",
+          "before": "https://cyborg6.com",
+          "after": ""
+        }
+      ]
+    },
+    {
+      "id": 685,
+      "name": "ListRunner",
+      "slug": "listrunner",
+      "batch": "Summer 2014",
+      "url": "https://www.ycombinator.com/companies/listrunner",
+      "changes": [
+        {
+          "field": "website",
+          "before": "http://listrunnerapp.com",
+          "after": ""
+        }
+      ]
+    },
+    {
+      "id": 705,
+      "name": "ShipBob",
+      "slug": "shipbob",
+      "batch": "Summer 2014",
+      "url": "https://www.ycombinator.com/companies/shipbob",
+      "changes": [
+        {
+          "field": "isHiring",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 828,
+      "name": "Rescue Forensics",
+      "slug": "rescue-forensics",
+      "batch": "Winter 2015",
+      "url": "https://www.ycombinator.com/companies/rescue-forensics",
+      "changes": [
+        {
+          "field": "website",
+          "before": "http://rescueforensics.com",
+          "after": ""
+        }
+      ]
+    },
+    {
+      "id": 1039,
+      "name": "Interstate Analytics",
+      "slug": "interstate-analytics",
+      "batch": "Winter 2016",
+      "url": "https://www.ycombinator.com/companies/interstate-analytics",
+      "changes": [
+        {
+          "field": "website",
+          "before": "http://interstateanalytics.com",
+          "after": ""
+        }
+      ]
+    },
+    {
+      "id": 1738,
+      "name": "Necto",
+      "slug": "necto",
+      "batch": "Winter 2018",
+      "url": "https://www.ycombinator.com/companies/necto",
+      "changes": [
+        {
+          "field": "website",
+          "before": "http://joinnecto.com",
+          "after": ""
+        }
+      ]
+    },
+    {
+      "id": 1753,
+      "name": "SRTX",
+      "slug": "srtx",
+      "batch": "Winter 2018",
+      "url": "https://www.ycombinator.com/companies/srtx",
+      "changes": [
+        {
+          "field": "website",
+          "before": "https://www.srtxlabs.com/",
+          "after": ""
+        },
+        {
+          "field": "stage",
+          "before": "Growth",
+          "after": "Early"
+        }
+      ]
+    },
+    {
+      "id": 1885,
+      "name": "Penta Medical",
+      "slug": "penta-medical",
+      "batch": "Summer 2018",
+      "url": "https://www.ycombinator.com/companies/penta-medical",
+      "changes": [
+        {
+          "field": "website",
+          "before": "http://pentavo.com",
+          "after": ""
+        }
+      ]
+    },
+    {
+      "id": 1912,
+      "name": "Inokyo",
+      "slug": "inokyo",
+      "batch": "Summer 2018",
+      "url": "https://www.ycombinator.com/companies/inokyo",
+      "changes": [
+        {
+          "field": "website",
+          "before": "https://www.inokyo.com",
+          "after": ""
+        }
+      ]
+    },
+    {
+      "id": 11928,
+      "name": "ZeroStorefront",
+      "slug": "zerostorefront",
+      "batch": "Winter 2019",
+      "url": "https://www.ycombinator.com/companies/zerostorefront",
+      "changes": [
+        {
+          "field": "website",
+          "before": "http://www.zerostorefront.com",
+          "after": ""
+        }
+      ]
+    },
+    {
+      "id": 13610,
+      "name": "Belvo",
+      "slug": "belvo",
+      "batch": "Winter 2020",
+      "url": "https://www.ycombinator.com/companies/belvo",
+      "changes": [
+        {
+          "field": "small_logo_thumb_url",
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/8a630e8e8c65d44c6d85d84dfe4c115d9c8671c2.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/43777b7df740384966eda037d59ada8280630743.png"
         }
       ]
     },
@@ -73,97 +173,102 @@
       "url": "https://www.ycombinator.com/companies/formal",
       "changes": [
         {
-          "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/66941efea1bbb96c0037b8eb01cd10d72092895c.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/69c999179438f094b0ae55f2ce7d8f2d9ed597b9.png"
-        },
-        {
-          "field": "website",
-          "before": "https://joinformal.com",
-          "after": "https://formal.ai"
-        },
-        {
-          "field": "all_locations",
-          "before": "San Francisco, CA, USA; New York, NY, USA; Remote",
-          "after": "San Francisco, CA, USA; New York, NY, USA"
-        },
-        {
-          "field": "one_liner",
-          "before": "Take control of your data in real-time.",
-          "after": "Least privilege for agents and humans"
-        },
-        {
-          "field": "team_size",
-          "before": 10,
-          "after": 25
-        },
-        {
-          "field": "subindustry",
-          "before": "B2B",
-          "after": "B2B -> Security"
-        },
-        {
-          "field": "tags",
-          "before": [
-            "Cybersecurity"
-          ],
-          "after": [
-            "Cybersecurity",
-            "AI"
-          ]
-        },
-        {
-          "field": "industries",
-          "before": [
-            "B2B"
-          ],
-          "after": [
-            "B2B",
-            "Security"
-          ]
-        },
-        {
-          "field": "regions",
-          "before": [
-            "United States of America",
-            "America / Canada",
-            "Remote",
-            "Fully Remote"
-          ],
-          "after": [
-            "United States of America",
-            "America / Canada",
-            "Remote",
-            "Partly Remote"
-          ]
-        },
-        {
           "field": "stage",
-          "before": "Growth",
-          "after": "Early"
+          "before": "Early",
+          "after": "Growth"
         }
       ]
     },
     {
-      "id": 30250,
-      "name": "10x",
-      "slug": "10x",
-      "batch": "Winter 2025",
-      "url": "https://www.ycombinator.com/companies/10x",
+      "id": 22784,
+      "name": "Huddlefire",
+      "slug": "huddlefire",
+      "batch": "Winter 2021",
+      "url": "https://www.ycombinator.com/companies/huddlefire",
       "changes": [
         {
-          "field": "team_size",
-          "before": 3,
-          "after": 4
+          "field": "website",
+          "before": "https://www.huddlefire.com",
+          "after": ""
         }
       ]
     },
     {
-      "id": 31009,
-      "name": "Specific Labs",
-      "slug": "specific-labs",
-      "batch": "Fall 2025",
-      "url": "https://www.ycombinator.com/companies/specific-labs",
+      "id": 24562,
+      "name": "Noloco",
+      "slug": "noloco",
+      "batch": "Summer 2021",
+      "url": "https://www.ycombinator.com/companies/noloco",
+      "changes": [
+        {
+          "field": "isHiring",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 26780,
+      "name": "Stellar",
+      "slug": "stellar",
+      "batch": "Summer 2022",
+      "url": "https://www.ycombinator.com/companies/stellar",
+      "changes": [
+        {
+          "field": "website",
+          "before": "http://www.stellarapp.io",
+          "after": ""
+        }
+      ]
+    },
+    {
+      "id": 27262,
+      "name": "Pivo Technology Inc",
+      "slug": "pivo-technology-inc",
+      "batch": "Summer 2022",
+      "url": "https://www.ycombinator.com/companies/pivo-technology-inc",
+      "changes": [
+        {
+          "field": "website",
+          "before": "http://www.pivo.africa",
+          "after": ""
+        }
+      ]
+    },
+    {
+      "id": 28743,
+      "name": "Leafpress",
+      "slug": "leafpress",
+      "batch": "Summer 2023",
+      "url": "https://www.ycombinator.com/companies/leafpress",
+      "changes": [
+        {
+          "field": "website",
+          "before": "https://www.trycardinal.ai/",
+          "after": ""
+        }
+      ]
+    },
+    {
+      "id": 29715,
+      "name": "Kastle",
+      "slug": "kastle",
+      "batch": "Summer 2024",
+      "url": "https://www.ycombinator.com/companies/kastle",
+      "changes": [
+        {
+          "field": "stage",
+          "before": "Early",
+          "after": "Growth"
+        }
+      ]
+    },
+    {
+      "id": 29850,
+      "name": "SureBright",
+      "slug": "surebright",
+      "batch": "Summer 2024",
+      "url": "https://www.ycombinator.com/companies/surebright",
       "changes": [
         {
           "field": "isHiring",
@@ -173,142 +278,95 @@
       ]
     },
     {
-      "id": 31173,
-      "name": "Laurence",
-      "slug": "laurence",
-      "batch": "Winter 2026",
-      "url": "https://www.ycombinator.com/companies/laurence",
+      "id": 30328,
+      "name": "Dalus",
+      "slug": "dalus",
+      "batch": "Winter 2025",
+      "url": "https://www.ycombinator.com/companies/dalus",
       "changes": [
         {
-          "field": "one_liner",
-          "before": "Agents that run your Amazon ads",
-          "after": "The frontier operating system for marketers"
+          "field": "small_logo_thumb_url",
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/7076b7fa11f6e99d25bfd27695c8c6125132b882.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/fc7f939e3bac1411a9abe9f8d4235569d05d4441.png"
         }
       ]
     },
     {
-      "id": 31268,
-      "name": "Cova",
-      "slug": "cova",
+      "id": 30636,
+      "name": "EffiGov",
+      "slug": "effigov",
+      "batch": "Summer 2025",
+      "url": "https://www.ycombinator.com/companies/effigov",
+      "changes": [
+        {
+          "field": "one_liner",
+          "before": "The AI OS for Cities",
+          "after": "AI Phone Agents for Local Government"
+        }
+      ]
+    },
+    {
+      "id": 32913,
+      "name": "Pacific",
+      "slug": "pacific",
       "batch": "Summer 2026",
-      "url": "https://www.ycombinator.com/companies/cova",
+      "url": "https://www.ycombinator.com/companies/pacific",
       "changes": [
         {
-          "field": "all_locations",
-          "before": "San Francisco, CA, USA",
-          "after": "New York City, NY, USA"
+          "field": "website",
+          "before": "https://pacific.space",
+          "after": "https://pacificmachines.com"
         }
       ]
     },
     {
-      "id": 33250,
-      "name": "isoquant",
-      "slug": "isoquant",
+      "id": 35260,
+      "name": "OpenCrawl",
+      "slug": "opencrawl",
       "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/isoquant",
+      "url": "https://www.ycombinator.com/companies/opencrawl",
       "changes": [
-        {
-          "field": "one_liner",
-          "before": "Self-optimizing inference cloud for faster, cheaper AI",
-          "after": "Self-optimizing inference cloud for 4x faster open models"
-        },
         {
           "field": "tags",
           "before": [
+            "Data Engineering",
+            "Search",
             "AI"
           ],
           "after": [
-            "AIOps",
-            "Cloud Computing",
+            "Developer Tools",
+            "Collaboration",
+            "Open Source",
             "AI"
           ]
         }
       ]
     },
     {
-      "id": 34893,
-      "name": "Agent 37",
-      "slug": "agent-37",
+      "id": 35291,
+      "name": "Elimentary",
+      "slug": "elimentary",
       "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/agent-37",
+      "url": "https://www.ycombinator.com/companies/elimentary",
       "changes": [
         {
           "field": "one_liner",
-          "before": "Cloud Sandbox for Agents",
-          "after": "Cheapest sandbox for AI agents"
+          "before": "Agents that run middle/back-office operations for Private Capital",
+          "after": "AI Agents that run back-office operations for private credit funds"
         }
       ]
     },
     {
-      "id": 35025,
-      "name": "Inflection Space Systems",
-      "slug": "inflection-space-systems",
+      "id": 37104,
+      "name": "Axiomat",
+      "slug": "axiomat",
       "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/inflection-space-systems",
-      "changes": [
-        {
-          "field": "tags",
-          "before": [
-            "Satellites",
-            "Manufacturing",
-            "Defense"
-          ],
-          "after": [
-            "Hard Tech",
-            "Hardware",
-            "Satellites",
-            "Manufacturing",
-            "Defense"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 35094,
-      "name": "Forward",
-      "slug": "useforward",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/useforward",
+      "url": "https://www.ycombinator.com/companies/axiomat",
       "changes": [
         {
           "field": "one_liner",
-          "before": "The private credit network for leading debt advisors",
-          "after": "Origination infrastructure for private credit."
-        }
-      ]
-    },
-    {
-      "id": 35521,
-      "name": "ORO AI",
-      "slug": "oro-ai",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/oro-ai",
-      "changes": [
-        {
-          "field": "one_liner",
-          "before": "RL environments & simulations for autonomous businesses.",
-          "after": "RL environments & simulations to run autonomous businesses."
-        }
-      ]
-    },
-    {
-      "id": 35522,
-      "name": "Hemlock",
-      "slug": "hemlock",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/hemlock",
-      "changes": [
-        {
-          "field": "tags",
-          "before": [
-            "Hard Tech",
-            "Hardware"
-          ],
-          "after": [
-            "Hard Tech",
-            "Hardware",
-            "Robotics"
-          ]
+          "before": "We make AI that never hallucinates.",
+          "after": "AI that never hallucinates."
         }
       ]
     }

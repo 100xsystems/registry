@@ -1,72 +1,111 @@
 # YC Company Changes for 2026-11-16
 
-- Previous total: 6398
+- Previous total: 6399
 - Current total: 6399
-- Added: 1
+- Added: 0
 - Removed: 0
-- Updated: 12
+- Updated: 25
 
-
-## Added Companies
-
-- [Contour](https://www.ycombinator.com/companies/contourholdings) (Fall 2026) — AI-native permitting and compliance for America’s buildout
 
 ## Updated Companies
 
-### [Banner](https://www.ycombinator.com/companies/banner)
+### [SnapBite](https://www.ycombinator.com/companies/snapbite)
 
-- `team_size`: 35 → 50
+- `website`: https://cyborg6.com → 
+
+### [ListRunner](https://www.ycombinator.com/companies/listrunner)
+
+- `website`: http://listrunnerapp.com → 
+
+### [ShipBob](https://www.ycombinator.com/companies/shipbob)
+
+- `isHiring`: true → false
+
+### [Rescue Forensics](https://www.ycombinator.com/companies/rescue-forensics)
+
+- `website`: http://rescueforensics.com → 
+
+### [Interstate Analytics](https://www.ycombinator.com/companies/interstate-analytics)
+
+- `website`: http://interstateanalytics.com → 
+
+### [Necto](https://www.ycombinator.com/companies/necto)
+
+- `website`: http://joinnecto.com → 
+
+### [SRTX](https://www.ycombinator.com/companies/srtx)
+
+- `website`: https://www.srtxlabs.com/ → 
+- `stage`: Growth → Early
+
+### [Penta Medical](https://www.ycombinator.com/companies/penta-medical)
+
+- `website`: http://pentavo.com → 
+
+### [Inokyo](https://www.ycombinator.com/companies/inokyo)
+
+- `website`: https://www.inokyo.com → 
+
+### [ZeroStorefront](https://www.ycombinator.com/companies/zerostorefront)
+
+- `website`: http://www.zerostorefront.com → 
+
+### [Belvo](https://www.ycombinator.com/companies/belvo)
+
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/8a630e8e8c65d44c6d85d84dfe4c115d9c8671c2.png → https://bookface-images.s3.amazonaws.com/small_logos/43777b7df740384966eda037d59ada8280630743.png
 
 ### [Formal](https://www.ycombinator.com/companies/formal)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/66941efea1bbb96c0037b8eb01cd10d72092895c.png → https://bookface-images.s3.amazonaws.com/small_logos/69c999179438f094b0ae55f2ce7d8f2d9ed597b9.png
-- `website`: https://joinformal.com → https://formal.ai
-- `all_locations`: San Francisco, CA, USA; New York, NY, USA; Remote → San Francisco, CA, USA; New York, NY, USA
-- `one_liner`: Take control of your data in real-time. → Least privilege for agents and humans
-- `team_size`: 10 → 25
-- `subindustry`: B2B → B2B -> Security
-- `tags`: Cybersecurity → Cybersecurity,AI
-- `industries`: B2B → B2B,Security
-- `regions`: United States of America,America / Canada,Remote,Fully Remote → United States of America,America / Canada,Remote,Partly Remote
-- `stage`: Growth → Early
+- `stage`: Early → Growth
 
-### [10x](https://www.ycombinator.com/companies/10x)
+### [Huddlefire](https://www.ycombinator.com/companies/huddlefire)
 
-- `team_size`: 3 → 4
+- `website`: https://www.huddlefire.com → 
 
-### [Specific Labs](https://www.ycombinator.com/companies/specific-labs)
+### [Noloco](https://www.ycombinator.com/companies/noloco)
+
+- `isHiring`: true → false
+
+### [Stellar](https://www.ycombinator.com/companies/stellar)
+
+- `website`: http://www.stellarapp.io → 
+
+### [Pivo Technology Inc](https://www.ycombinator.com/companies/pivo-technology-inc)
+
+- `website`: http://www.pivo.africa → 
+
+### [Leafpress](https://www.ycombinator.com/companies/leafpress)
+
+- `website`: https://www.trycardinal.ai/ → 
+
+### [Kastle](https://www.ycombinator.com/companies/kastle)
+
+- `stage`: Early → Growth
+
+### [SureBright](https://www.ycombinator.com/companies/surebright)
 
 - `isHiring`: false → true
 
-### [Laurence](https://www.ycombinator.com/companies/laurence)
+### [Dalus](https://www.ycombinator.com/companies/dalus)
 
-- `one_liner`: Agents that run your Amazon ads → The frontier operating system for marketers
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/7076b7fa11f6e99d25bfd27695c8c6125132b882.png → https://bookface-images.s3.amazonaws.com/small_logos/fc7f939e3bac1411a9abe9f8d4235569d05d4441.png
 
-### [Cova](https://www.ycombinator.com/companies/cova)
+### [EffiGov](https://www.ycombinator.com/companies/effigov)
 
-- `all_locations`: San Francisco, CA, USA → New York City, NY, USA
+- `one_liner`: The AI OS for Cities → AI Phone Agents for Local Government
 
-### [isoquant](https://www.ycombinator.com/companies/isoquant)
+### [Pacific](https://www.ycombinator.com/companies/pacific)
 
-- `one_liner`: Self-optimizing inference cloud for faster, cheaper AI → Self-optimizing inference cloud for 4x faster open models
-- `tags`: AI → AIOps,Cloud Computing,AI
+- `website`: https://pacific.space → https://pacificmachines.com
 
-### [Agent 37](https://www.ycombinator.com/companies/agent-37)
+### [OpenCrawl](https://www.ycombinator.com/companies/opencrawl)
 
-- `one_liner`: Cloud Sandbox for Agents → Cheapest sandbox for AI agents
+- `tags`: Data Engineering,Search,AI → Developer Tools,Collaboration,Open Source,AI
 
-### [Inflection Space Systems](https://www.ycombinator.com/companies/inflection-space-systems)
+### [Elimentary](https://www.ycombinator.com/companies/elimentary)
 
-- `tags`: Satellites,Manufacturing,Defense → Hard Tech,Hardware,Satellites,Manufacturing,Defense
+- `one_liner`: Agents that run middle/back-office operations for Private Capital → AI Agents that run back-office operations for private credit funds
 
-### [Forward](https://www.ycombinator.com/companies/useforward)
+### [Axiomat](https://www.ycombinator.com/companies/axiomat)
 
-- `one_liner`: The private credit network for leading debt advisors → Origination infrastructure for private credit.
-
-### [ORO AI](https://www.ycombinator.com/companies/oro-ai)
-
-- `one_liner`: RL environments & simulations for autonomous businesses. → RL environments & simulations to run autonomous businesses.
-
-### [Hemlock](https://www.ycombinator.com/companies/hemlock)
-
-- `tags`: Hard Tech,Hardware → Hard Tech,Hardware,Robotics
+- `one_liner`: We make AI that never hallucinates. → AI that never hallucinates.

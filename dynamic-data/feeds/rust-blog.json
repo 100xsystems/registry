@@ -8,7 +8,7 @@
     "compiler",
     "performance"
   ],
-  "updatedAt": "2026-11-12T19:35:37.192Z",
+  "updatedAt": "2026-11-16T15:21:45.566Z",
   "items": [
     {
       "guid": "rust-blog::https://blog.rust-lang.org/2026/07/16/Rust-1.97.1/",
@@ -6081,7 +6081,15 @@
       "summary": "The Rust team is happy to announce a new version of Rust, 1.100.0. Rust is a programming language empowering everyone to build reliable and efficient software.\nIf you have a previous version of Rust installed via rustup, you can get 1.100.0 with:\n$ rustup update stable\nIf you don't have it already,…",
       "author": "The Rust Release Team",
       "publishedAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "guid": "rust-blog::https://blog.rust-lang.org/2026/11/16/enabling-parallel-frontend-on-nightly/",
+      "title": "Enabling the parallel frontend on nightly",
+      "link": "https://blog.rust-lang.org/2026/11/16/enabling-parallel-frontend-on-nightly/",
+      "summary": "TL;DR: We are enabling the parallel frontend of the Rust compiler on nightly by default,\nto find remaining issues in preparation for its stabilization.\n\nContext\nThe Rust compiler has been using multiple threads to compile code in its \"backend\" part (using LLVM) for a long time. However, its…",
+      "author": "Jakub Beránek",
+      "publishedAt": "2026-11-16T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 759
+  "totalIndexed": 760
 }
