@@ -1,106 +1,82 @@
 {
   "date": "2026-11-16",
-  "fetchedAt": "2026-11-16T15:22:01.667Z",
+  "fetchedAt": "2026-11-16T21:40:37.781Z",
   "previousCount": 6399,
   "currentCount": 6399,
   "added": [],
   "removed": [],
   "updated": [
     {
-      "id": 408,
-      "name": "SnapBite",
-      "slug": "snapbite",
-      "batch": "Summer 2012",
-      "url": "https://www.ycombinator.com/companies/snapbite",
+      "id": 25721,
+      "name": "Dukesell",
+      "slug": "dukesell",
+      "batch": "Winter 2022",
+      "url": "https://www.ycombinator.com/companies/dukesell",
       "changes": [
         {
-          "field": "website",
-          "before": "https://cyborg6.com",
-          "after": ""
+          "field": "all_locations",
+          "before": "San Francisco, CA, USA",
+          "after": "San Francisco, CA, USA; Remote"
+        },
+        {
+          "field": "regions",
+          "before": [
+            "United States of America",
+            "America / Canada"
+          ],
+          "after": [
+            "United States of America",
+            "America / Canada",
+            "Remote",
+            "Fully Remote"
+          ]
         }
       ]
     },
     {
-      "id": 685,
-      "name": "ListRunner",
-      "slug": "listrunner",
-      "batch": "Summer 2014",
-      "url": "https://www.ycombinator.com/companies/listrunner",
+      "id": 26108,
+      "name": "GoSats",
+      "slug": "gosats",
+      "batch": "Winter 2022",
+      "url": "https://www.ycombinator.com/companies/gosats",
       "changes": [
         {
-          "field": "website",
-          "before": "http://listrunnerapp.com",
-          "after": ""
-        }
-      ]
-    },
-    {
-      "id": 705,
-      "name": "ShipBob",
-      "slug": "shipbob",
-      "batch": "Summer 2014",
-      "url": "https://www.ycombinator.com/companies/shipbob",
-      "changes": [
+          "field": "all_locations",
+          "before": "Dubai, Dubai, United Arab Emirates; Bengaluru, KA, India",
+          "after": "Bengaluru, KA, India"
+        },
         {
-          "field": "isHiring",
-          "before": true,
-          "after": false
-        }
-      ]
-    },
-    {
-      "id": 828,
-      "name": "Rescue Forensics",
-      "slug": "rescue-forensics",
-      "batch": "Winter 2015",
-      "url": "https://www.ycombinator.com/companies/rescue-forensics",
-      "changes": [
+          "field": "team_size",
+          "before": 8,
+          "after": 26
+        },
         {
-          "field": "website",
-          "before": "http://rescueforensics.com",
-          "after": ""
-        }
-      ]
-    },
-    {
-      "id": 1039,
-      "name": "Interstate Analytics",
-      "slug": "interstate-analytics",
-      "batch": "Winter 2016",
-      "url": "https://www.ycombinator.com/companies/interstate-analytics",
-      "changes": [
+          "field": "tags",
+          "before": [
+            "E-commerce",
+            "India"
+          ],
+          "after": [
+            "Fintech",
+            "India",
+            "Investing",
+            "Consumer Finance"
+          ]
+        },
         {
-          "field": "website",
-          "before": "http://interstateanalytics.com",
-          "after": ""
-        }
-      ]
-    },
-    {
-      "id": 1738,
-      "name": "Necto",
-      "slug": "necto",
-      "batch": "Winter 2018",
-      "url": "https://www.ycombinator.com/companies/necto",
-      "changes": [
-        {
-          "field": "website",
-          "before": "http://joinnecto.com",
-          "after": ""
-        }
-      ]
-    },
-    {
-      "id": 1753,
-      "name": "SRTX",
-      "slug": "srtx",
-      "batch": "Winter 2018",
-      "url": "https://www.ycombinator.com/companies/srtx",
-      "changes": [
-        {
-          "field": "website",
-          "before": "https://www.srtxlabs.com/",
-          "after": ""
+          "field": "regions",
+          "before": [
+            "United Arab Emirates",
+            "India",
+            "Middle East and North Africa",
+            "South Asia",
+            "Remote",
+            "Partly Remote"
+          ],
+          "after": [
+            "India",
+            "South Asia"
+          ]
         },
         {
           "field": "stage",
@@ -110,165 +86,44 @@
       ]
     },
     {
-      "id": 1885,
-      "name": "Penta Medical",
-      "slug": "penta-medical",
-      "batch": "Summer 2018",
-      "url": "https://www.ycombinator.com/companies/penta-medical",
-      "changes": [
-        {
-          "field": "website",
-          "before": "http://pentavo.com",
-          "after": ""
-        }
-      ]
-    },
-    {
-      "id": 1912,
-      "name": "Inokyo",
-      "slug": "inokyo",
-      "batch": "Summer 2018",
-      "url": "https://www.ycombinator.com/companies/inokyo",
-      "changes": [
-        {
-          "field": "website",
-          "before": "https://www.inokyo.com",
-          "after": ""
-        }
-      ]
-    },
-    {
-      "id": 11928,
-      "name": "ZeroStorefront",
-      "slug": "zerostorefront",
-      "batch": "Winter 2019",
-      "url": "https://www.ycombinator.com/companies/zerostorefront",
-      "changes": [
-        {
-          "field": "website",
-          "before": "http://www.zerostorefront.com",
-          "after": ""
-        }
-      ]
-    },
-    {
-      "id": 13610,
-      "name": "Belvo",
-      "slug": "belvo",
-      "batch": "Winter 2020",
-      "url": "https://www.ycombinator.com/companies/belvo",
-      "changes": [
-        {
-          "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/8a630e8e8c65d44c6d85d84dfe4c115d9c8671c2.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/43777b7df740384966eda037d59ada8280630743.png"
-        }
-      ]
-    },
-    {
-      "id": 22079,
-      "name": "Formal",
-      "slug": "formal",
-      "batch": "Summer 2020",
-      "url": "https://www.ycombinator.com/companies/formal",
+      "id": 26525,
+      "name": "Clinikally",
+      "slug": "clinikally",
+      "batch": "Summer 2022",
+      "url": "https://www.ycombinator.com/companies/clinikally",
       "changes": [
         {
           "field": "stage",
-          "before": "Early",
-          "after": "Growth"
+          "before": "Growth",
+          "after": "Early"
         }
       ]
     },
     {
-      "id": 22784,
-      "name": "Huddlefire",
-      "slug": "huddlefire",
-      "batch": "Winter 2021",
-      "url": "https://www.ycombinator.com/companies/huddlefire",
-      "changes": [
-        {
-          "field": "website",
-          "before": "https://www.huddlefire.com",
-          "after": ""
-        }
-      ]
-    },
-    {
-      "id": 24562,
-      "name": "Noloco",
-      "slug": "noloco",
-      "batch": "Summer 2021",
-      "url": "https://www.ycombinator.com/companies/noloco",
+      "id": 26705,
+      "name": "Stackup",
+      "slug": "stackup",
+      "batch": "Summer 2022",
+      "url": "https://www.ycombinator.com/companies/stackup",
       "changes": [
         {
           "field": "isHiring",
           "before": true,
           "after": false
-        }
-      ]
-    },
-    {
-      "id": 26780,
-      "name": "Stellar",
-      "slug": "stellar",
-      "batch": "Summer 2022",
-      "url": "https://www.ycombinator.com/companies/stellar",
-      "changes": [
+        },
         {
-          "field": "website",
-          "before": "http://www.stellarapp.io",
-          "after": ""
+          "field": "status",
+          "before": "Active",
+          "after": "Inactive"
         }
       ]
     },
     {
-      "id": 27262,
-      "name": "Pivo Technology Inc",
-      "slug": "pivo-technology-inc",
-      "batch": "Summer 2022",
-      "url": "https://www.ycombinator.com/companies/pivo-technology-inc",
-      "changes": [
-        {
-          "field": "website",
-          "before": "http://www.pivo.africa",
-          "after": ""
-        }
-      ]
-    },
-    {
-      "id": 28743,
-      "name": "Leafpress",
-      "slug": "leafpress",
+      "id": 28867,
+      "name": "Shasta Health",
+      "slug": "shasta-health",
       "batch": "Summer 2023",
-      "url": "https://www.ycombinator.com/companies/leafpress",
-      "changes": [
-        {
-          "field": "website",
-          "before": "https://www.trycardinal.ai/",
-          "after": ""
-        }
-      ]
-    },
-    {
-      "id": 29715,
-      "name": "Kastle",
-      "slug": "kastle",
-      "batch": "Summer 2024",
-      "url": "https://www.ycombinator.com/companies/kastle",
-      "changes": [
-        {
-          "field": "stage",
-          "before": "Early",
-          "after": "Growth"
-        }
-      ]
-    },
-    {
-      "id": 29850,
-      "name": "SureBright",
-      "slug": "surebright",
-      "batch": "Summer 2024",
-      "url": "https://www.ycombinator.com/companies/surebright",
+      "url": "https://www.ycombinator.com/companies/shasta-health",
       "changes": [
         {
           "field": "isHiring",
@@ -278,95 +133,213 @@
       ]
     },
     {
-      "id": 30328,
-      "name": "Dalus",
-      "slug": "dalus",
-      "batch": "Winter 2025",
-      "url": "https://www.ycombinator.com/companies/dalus",
+      "id": 28899,
+      "name": "Maintouch",
+      "slug": "maintouch",
+      "batch": "Summer 2023",
+      "url": "https://www.ycombinator.com/companies/maintouch",
+      "changes": [
+        {
+          "field": "isHiring",
+          "before": false,
+          "after": true
+        }
+      ]
+    },
+    {
+      "id": 29724,
+      "name": "Ontra Mobility",
+      "slug": "ontra-mobility",
+      "batch": "Summer 2024",
+      "url": "https://www.ycombinator.com/companies/ontra-mobility",
       "changes": [
         {
           "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/7076b7fa11f6e99d25bfd27695c8c6125132b882.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/fc7f939e3bac1411a9abe9f8d4235569d05d4441.png"
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/232f7609d7e1de5c6a2ce76251083a8161f16672.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/89bc28c355649ce54aa36fd562b2b0748e9750e1.png"
+        },
+        {
+          "field": "one_liner",
+          "before": "Platform for cities to optimize transit ",
+          "after": "AI-powered transit planning software"
         }
       ]
     },
     {
-      "id": 30636,
-      "name": "EffiGov",
-      "slug": "effigov",
-      "batch": "Summer 2025",
-      "url": "https://www.ycombinator.com/companies/effigov",
+      "id": 29789,
+      "name": "Paasa",
+      "slug": "paasa",
+      "batch": "Summer 2024",
+      "url": "https://www.ycombinator.com/companies/paasa",
+      "changes": [
+        {
+          "field": "isHiring",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 30031,
+      "name": "Getcho",
+      "slug": "getcho",
+      "batch": "Fall 2024",
+      "url": "https://www.ycombinator.com/companies/getcho",
       "changes": [
         {
           "field": "one_liner",
-          "before": "The AI OS for Cities",
-          "after": "AI Phone Agents for Local Government"
+          "before": "The reliability platform for last-mile delivery",
+          "after": "Same day delivery and shipping for stores, brands and 3PLs"
         }
       ]
     },
     {
-      "id": 32913,
-      "name": "Pacific",
-      "slug": "pacific",
+      "id": 30465,
+      "name": "Photonium",
+      "slug": "photonium",
+      "batch": "Spring 2025",
+      "url": "https://www.ycombinator.com/companies/photonium",
+      "changes": [
+        {
+          "field": "team_size",
+          "before": 5,
+          "after": 6
+        }
+      ]
+    },
+    {
+      "id": 31154,
+      "name": "Orthogonal",
+      "slug": "orthogonal",
+      "batch": "Winter 2026",
+      "url": "https://www.ycombinator.com/companies/orthogonal",
+      "changes": [
+        {
+          "field": "one_liner",
+          "before": "Agentic Payments for APIs",
+          "after": "The Data Marketplace for Agents"
+        },
+        {
+          "field": "team_size",
+          "before": 2,
+          "after": 3
+        }
+      ]
+    },
+    {
+      "id": 31415,
+      "name": "Synphony",
+      "slug": "synphony",
+      "batch": "Spring 2026",
+      "url": "https://www.ycombinator.com/companies/synphony",
+      "changes": [
+        {
+          "field": "one_liner",
+          "before": "robots & software for farms",
+          "after": "robots & software for physical industries."
+        },
+        {
+          "field": "team_size",
+          "before": 10,
+          "after": 15
+        }
+      ]
+    },
+    {
+      "id": 32134,
+      "name": "Parasma",
+      "slug": "parasma",
       "batch": "Summer 2026",
-      "url": "https://www.ycombinator.com/companies/pacific",
+      "url": "https://www.ycombinator.com/companies/parasma",
       "changes": [
         {
-          "field": "website",
-          "before": "https://pacific.space",
-          "after": "https://pacificmachines.com"
+          "field": "small_logo_thumb_url",
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/65a63b540239ee3a5538326d626bcceee19f52d9.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/246150eb4329f0a40dd08d4ce5a8c88570fe6132.png"
         }
       ]
     },
     {
-      "id": 35260,
-      "name": "OpenCrawl",
-      "slug": "opencrawl",
+      "id": 34597,
+      "name": "Sentient OS",
+      "slug": "sentient-os",
       "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/opencrawl",
-      "changes": [
-        {
-          "field": "tags",
-          "before": [
-            "Data Engineering",
-            "Search",
-            "AI"
-          ],
-          "after": [
-            "Developer Tools",
-            "Collaboration",
-            "Open Source",
-            "AI"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 35291,
-      "name": "Elimentary",
-      "slug": "elimentary",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/elimentary",
+      "url": "https://www.ycombinator.com/companies/sentient-os",
       "changes": [
         {
           "field": "one_liner",
-          "before": "Agents that run middle/back-office operations for Private Capital",
-          "after": "AI Agents that run back-office operations for private credit funds"
+          "before": "On-device AI that knows your entire life and does your work overnight.",
+          "after": "The personal agent with zero inference cost."
         }
       ]
     },
     {
-      "id": 37104,
-      "name": "Axiomat",
-      "slug": "axiomat",
+      "id": 35094,
+      "name": "Forward",
+      "slug": "useforward",
       "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/axiomat",
+      "url": "https://www.ycombinator.com/companies/useforward",
       "changes": [
         {
           "field": "one_liner",
-          "before": "We make AI that never hallucinates.",
-          "after": "AI that never hallucinates."
+          "before": "Origination infrastructure for private credit.",
+          "after": "AI-native brokerage for private credit."
+        }
+      ]
+    },
+    {
+      "id": 35266,
+      "name": "TrueMile",
+      "slug": "truemile",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/truemile",
+      "changes": [
+        {
+          "field": "one_liner",
+          "before": "The AI-native trucking company",
+          "after": "The trucking company run by AI agents."
+        }
+      ]
+    },
+    {
+      "id": 36577,
+      "name": "OpEra",
+      "slug": "opera",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/opera",
+      "changes": [
+        {
+          "field": "one_liner",
+          "before": "The AI decision engine for factories, warehouses and fleets",
+          "after": "AI optimization for logistics and supply chain operations"
+        }
+      ]
+    },
+    {
+      "id": 38358,
+      "name": "Plyxl",
+      "slug": "plyxl",
+      "batch": "Winter 2027",
+      "url": "https://www.ycombinator.com/companies/plyxl",
+      "changes": [
+        {
+          "field": "small_logo_thumb_url",
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/f11b86229c223b308077ff5287d39738a4aad756.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/1d468d354f426da820fcb703f4377d877510140e.png"
+        }
+      ]
+    },
+    {
+      "id": 39579,
+      "name": "GatherHQ",
+      "slug": "gatherhq",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/gatherhq",
+      "changes": [
+        {
+          "field": "one_liner",
+          "before": "Applied AI for Enterprise GTM (3X founders, 10X growth, backed by ANT)",
+          "after": "Applied AI for Enterprise GTM (3x founders, 10x growth backed by ANT)"
         }
       ]
     }

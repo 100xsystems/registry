@@ -8,7 +8,7 @@
     "monitoring",
     "infrastructure"
   ],
-  "updatedAt": "2026-11-13T19:15:12.852Z",
+  "updatedAt": "2026-11-16T21:40:30.737Z",
   "items": [
     {
       "guid": "https://www.datadoghq.com/blog/engineering/jfr-cpu-time-profiling/",
@@ -29873,7 +29873,23 @@
       "summary": "Learn how to connect security signals to users, investigate linked account risks, and prioritize threats with Entity Risks in Datadog Cloud SIEM.",
       "author": null,
       "publishedAt": "2026-11-13T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.datadoghq.com/blog/check-ec2-workloads-imdsv2-readiness/",
+      "title": "How to check if your EC2 workloads are ready for IMDSv2",
+      "link": "https://www.datadoghq.com/blog/check-ec2-workloads-imdsv2-readiness/",
+      "summary": "Learn how you can use Datadog to find EC2 workloads that still use IMDSv1, identify the callers, and test IMDSv2 enforcement before you migrate your fleet.",
+      "author": null,
+      "publishedAt": "2026-11-16T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.datadoghq.com/blog/auto-processing-log-pipelines/",
+      "title": "Get useful logs from any source with Datadog Auto-Processing",
+      "link": "https://www.datadoghq.com/blog/auto-processing-log-pipelines/",
+      "summary": "Use Auto-Processing to structure logs with custom formats and keep them structured without manually building pipelines or updating parsing rules.",
+      "author": null,
+      "publishedAt": "2026-11-16T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 3733
+  "totalIndexed": 3735
 }

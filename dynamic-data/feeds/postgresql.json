@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-11-16T04:59:54.512Z",
+  "updatedAt": "2026-11-16T21:40:22.561Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -3505,7 +3505,15 @@
       "summary": "What raises 'invalid input syntax for type json' (22P02), measured on PostgreSQL 16 to 18: JS arrays, Python lists, NUL escapes, bad rows and a safe ALTER.",
       "author": null,
       "publishedAt": "2026-11-15T22:30:11.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9C7",
+      "title": "David E. Wheeler: Build, Test and Release Extensions with the New PGXN GitHub Actions",
+      "link": "https://postgr.es/p/9C7",
+      "summary": "I’ve made three new GitHub actions in the past few months to replace the\nvenerable Docker-based pgxn/pgxn-tools, which has become bloated and\nrequires more work to maintain than I’d like. The new actions require much\nless maintenance, support all GitHub runner OSes and architectures, and run\nmore…",
+      "author": null,
+      "publishedAt": "2026-11-16T20:14:17.000Z"
     }
   ],
-  "totalIndexed": 437
+  "totalIndexed": 438
 }

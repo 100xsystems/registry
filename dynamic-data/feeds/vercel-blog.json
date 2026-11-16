@@ -9,7 +9,7 @@
     "edge-computing",
     "nextjs"
   ],
-  "updatedAt": "2026-11-16T05:00:03.383Z",
+  "updatedAt": "2026-11-16T21:40:30.854Z",
   "items": [
     {
       "guid": "vercel-blog::https://vercel.com/changelog/ai-gateway-now-supports-streaming-transcription",
@@ -5386,7 +5386,39 @@
       "summary": "is now available on AI Gateway. It is the first model in the Qwen4 series: a reasoning model with native vision and a 1M-token context window, built for coding, professional work, and long-running agent tasks.Qwen4-Max from Alibaba\nQwen4-Max is better at working with professional tools. It can…",
       "author": "Jerilyn Zheng",
       "publishedAt": "2026-11-15T20:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/hy4-flash-now-available-on-ai-gateway-for-50-off",
+      "title": "Hy4 Flash now available on AI Gateway for 50% off",
+      "link": "https://vercel.com/changelog/hy4-flash-now-available-on-ai-gateway-for-50-off",
+      "summary": "is now available on AI Gateway with an introductory 50% discount on input, cached input, and output tokens through November 29, 2026.Hy4 Flash from Tencent\nHy4 Flash is the new lower-cost model in the Hy4 family. It keeps the full Hy4 feature set at roughly a tenth of the price per token: reasoning…",
+      "author": "Zachary Chen",
+      "publishedAt": "2026-11-16T17:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/ai-gateway-now-supports-private-inference",
+      "title": "AI Gateway now supports Private Inference",
+      "link": "https://vercel.com/changelog/ai-gateway-now-supports-private-inference",
+      "summary": "You can now connect your own model endpoints to  with .AI GatewayPrivate Inference\nFine-tuned, self-hosted, and prerelease models that used to need separate keys, client code, and logs can now run through the same authentication, , and observability as catalog models, so every model your team uses…",
+      "author": "Sam Chitgopekar",
+      "publishedAt": "2026-11-16T07:47:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/blog/agent-evals",
+      "title": "Agents are users, so your software needs evals",
+      "link": "https://vercel.com/blog/agent-evals",
+      "summary": "Agents are now users of software, doing work on people's behalf. Whether you're building the agent or the software it uses (API, CLI, MCP server, SDK), evals give you a way to measure how well that work gets done.\nAgents probably missed your launch video and billboard on Highway 101, but they still…",
+      "author": "George Fahmy",
+      "publishedAt": "2026-11-16T05:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/set-budgets-for-projects-and-products-in-spend-management",
+      "title": "Set budgets for projects and products in Spend Management",
+      "link": "https://vercel.com/changelog/set-budgets-for-projects-and-products-in-spend-management",
+      "summary": "now supports budgets for individual projects and products, alongside existing team budgets. Spend Management\nOnly team and project budgets support automatic pausing of production deployments.\nOpen the new  to manage budgets, view spend for the current billing cycle, and see which thresholds have…",
+      "author": "Bryan Mishkin",
+      "publishedAt": "2026-11-16T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 672
+  "totalIndexed": 676
 }

@@ -8,7 +8,7 @@
     "debugging",
     "performance"
   ],
-  "updatedAt": "2026-11-16T15:21:45.812Z",
+  "updatedAt": "2026-11-16T21:40:22.721Z",
   "items": [
     {
       "guid": "https://blog.sentry.io/godot-dotnet-ga/",
@@ -489,7 +489,15 @@
       "summary": "Sentry's .NET SDK 7.0 adds .NET 11 support, UseSentry() for worker services, Quartz.NET cron monitors, and breaking changes to check before you upgrade.",
       "author": null,
       "publishedAt": "2026-11-16T09:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.sentry.io/sentry-conventions/",
+      "title": "Naming is hard, semantics are hard(er): Inside Sentry Conventions",
+      "link": "https://blog.sentry.io/sentry-conventions/",
+      "summary": "How Sentry Conventions keep attribute names and their meaning aligned across our SDKs, our ingestion pipeline, and the Sentry product.",
+      "author": null,
+      "publishedAt": "2026-11-16T11:00:00.000Z"
     }
   ],
-  "totalIndexed": 60
+  "totalIndexed": 61
 }
