@@ -1,104 +1,93 @@
 # YC Company Changes for 2026-11-17
 
-- Previous total: 6399
+- Previous total: 6398
 - Current total: 6398
 - Added: 0
-- Removed: 1
-- Updated: 17
+- Removed: 0
+- Updated: 18
 
-
-## Removed Companies
-
-- Veltha (Fall 2026)
 
 ## Updated Companies
 
-### [Hatch](https://www.ycombinator.com/companies/hatch)
+### [Noora Health](https://www.ycombinator.com/companies/noora-health)
 
-- `one_liner`: The AI CSR Platform → Acquired by Yelp Inc. - The AI CSR Platform
+- `isHiring`: true → false
 
-### [PlusIdentity](https://www.ycombinator.com/companies/plusidentity)
+### [SRTX](https://www.ycombinator.com/companies/srtx)
 
-- `name`: RGI Labs → PlusIdentity
-- `slug`: rgi-labs → plusidentity
-- `former_names`: Superpass,PlusIdentity,Vansec,Aldermate,VitalStrata,Robust General Intelligence → Superpass,PlusIdentity,Vansec,Aldermate,VitalStrata,Robust General Intelligence,RGI Labs
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/470c089d5fdf6f7b0bfaf2a2daa45b2ad5a4af33.png → https://bookface-images.s3.amazonaws.com/small_logos/a41d70cadc12821da00066e996901d285eb5ab36.png
-- `website`: https://www.rgilabs.com → https://www.plusidentity.com
-- `all_locations`: New York City, NY, USA; Remote → New York City, NY, USA
-- `one_liner`: Robust & recursively self-improving general intelligence → Password manager for startups
-- `subindustry`: B2B -> Engineering, Product and Design → B2B -> Security
-- `tags`: AI → Security,Cybersecurity
-- `industries`: B2B,Engineering, Product and Design → B2B,Security
-- `regions`: United States of America,America / Canada,Remote,Fully Remote → United States of America,America / Canada
+- `stage`: Early → Growth
+
+### [Vena Medical](https://www.ycombinator.com/companies/vena-medical)
+
+- `stage`: Early → Growth
+
+### [Authologic](https://www.ycombinator.com/companies/authologic)
+
+- `isHiring`: true → false
+
+### [PaletteHQ](https://www.ycombinator.com/companies/palettehq)
+
+- `isHiring`: true → false
+
+### [Affogato AI](https://www.ycombinator.com/companies/affogato-ai)
+
+- `one_liner`: Affogato AI — Your Agent for instant TikToks, Reels, and ads. → AI studio for videos, ads and avatars, in your browser or your agent
+- `team_size`: 15 → 5
+- `tags`: Generative AI,AI → Generative AI,AI,Conversational AI,AI Assistant
 
 ### [Exa](https://www.ycombinator.com/companies/exa)
 
-- `stage`: Growth → Early
+- `stage`: Early → Growth
 
-### [Fluently](https://www.ycombinator.com/companies/fluently)
+### [GoSats](https://www.ycombinator.com/companies/gosats)
 
-- `one_liner`: Speaking coach for non-native English professionals → AI language tutor for speaking practice with instant feedback
+- `stage`: Early → Growth
 
-### [CreativeMode](https://www.ycombinator.com/companies/creativemode)
+### [Clinikally](https://www.ycombinator.com/companies/clinikally)
 
-- `isHiring`: true → false
+- `stage`: Early → Growth
 
-### [Digipals](https://www.ycombinator.com/companies/digipals)
+### [Affinity](https://www.ycombinator.com/companies/affinity)
 
-- `one_liner`: The future of Social in the age of AI → AI to enhance human creativity
-- `subindustry`: Consumer -> Social → Consumer -> Content
-- `tags`: Consumer,Social Media,Social,Social Network,AI → Consumer,Entertainment,Gaming,Media,AI
-- `industries`: Consumer,Social → Consumer,Content
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/883b7bc8ea92895dbca7a59f5ad014c489f3729a.png → https://bookface-images.s3.amazonaws.com/small_logos/9f9f37fe0b1cbbcb65dbd97ca7f2b6c1e5135543.png
+- `one_liner`: A compliance training platform built for regulated industries. → The AI-powered internal compliance platform for regulated companies
 
-### [Light Anchor](https://www.ycombinator.com/companies/light-anchor)
+### [Model ML](https://www.ycombinator.com/companies/model-ml)
 
-- `one_liner`: AI-native P&G → Building the AI-native P&G
-- `tags`: E-commerce,AI → Consumer,E-commerce,Consumer Products,AI
-- `batch`: Spring 2026 → Fall 2026
+- `stage`: Early → Growth
+
+### [Bravi](https://www.ycombinator.com/companies/bravi)
+
+- `isHiring`: false → true
 
 ### [tday.com](https://www.ycombinator.com/companies/tdaycom)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/a530f53bd95d36e9c178a7bd6bccc7cb0b0c4508.png → https://bookface-images.s3.amazonaws.com/small_logos/7d87b84072242716429212624073df4a51fa2aae.png
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/7d87b84072242716429212624073df4a51fa2aae.png → https://bookface-images.s3.amazonaws.com/small_logos/e991737a0da388ef9f57789b22ba8b64f04be312.png
 
-### [Mochi](https://www.ycombinator.com/companies/mochi)
+### [River](https://www.ycombinator.com/companies/rivereditor)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/49a6b24fc91b9bae1c825be608651c20ecb90c31.png → https://bookface-images.s3.amazonaws.com/small_logos/5a4ff579d9f8641bf83c3972b8109496f901b4ac.png
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/47198fc0e393650eaf6b3a2b120ff40b912a2645.png → https://bookface-images.s3.amazonaws.com/small_logos/b1a294df641dc0398b7c047c8b9434fa731ea2a3.png
+- `one_liner`: The AI computer. → AI that works everywhere you do.
+- `team_size`: 2 → 1
 
-### [Letter](https://www.ycombinator.com/companies/letter-dev)
+### [ORO AI](https://www.ycombinator.com/companies/oro-ai)
 
-- `one_liner`: The world's first coding agent, IDE & infra for growth engineering. → The coding agent and IDE for the agentic internet
-
-### [Ample Computer](https://www.ycombinator.com/companies/ample-computer)
-
-- `one_liner`: Everything your agent needs to ship a web app → The one-stop cloud for agents to ship complex web apps
-
-### [0.security](https://www.ycombinator.com/companies/0security)
-
-- `one_liner`: The autonomous cybersecurity team → Open-source AI security agents for enterprise
-
-### [Native](https://www.ycombinator.com/companies/native)
-
-- `one_liner`: Instinct for marketing → A proactive marketing assistant for businesses
-
-### [Shire Intelligence](https://www.ycombinator.com/companies/shire-intelligence)
-
-- `one_liner`: Shire uses CCTV to run restaurants in real time. → Real-time restaurant intelligence
-- `industry`: Consumer → B2B
-- `subindustry`: Consumer -> Food and Beverage → B2B
-- `industries`: Consumer,Food and Beverage → B2B
+- `one_liner`: RL environments & simulations to run autonomous businesses. → Teaching AI the judgment to run businesses
 
 ### [Vyra](https://www.ycombinator.com/companies/vyra)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/7ad073b0df3558383dd73b1125d5e326d63c3e12.png → https://bookface-images.s3.amazonaws.com/small_logos/a2c22def8dbde1bd39b39d00f877d63c3b40e504.png
-- `one_liner`: Personal video editing agent for shortform content → Personal content agent for creators and businesses
-- `tags`: Video,Automation,SMB → Video,Marketing,Automation,SMB,AI
-- `isHiring`: true → false
+- `one_liner`: Personal content agent for creators and businesses → Personal content agent for solopreneurs and businesses
 
-### [Odin Robotics](https://www.ycombinator.com/companies/odin-robotics)
+### [FlashDrive](https://www.ycombinator.com/companies/flashdrive)
 
-- `tags`: Robotics,Manufacturing,Industrial → Robotics,B2B,Manufacturing,Automation,Industrial
+- `name`: Wondersearch → FlashDrive
+- `slug`: wondersearch → flashdrive
+- `former_names`: Polygres,Evokoa / Polygres → Polygres,Evokoa / Polygres,Wondersearch
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/1dfdffe31c74cb7df1b408193b1e4360c19f0815.png → https://bookface-images.s3.amazonaws.com/small_logos/e4b1526f0ce9816796dbacd939133d13844d1067.png
+- `website`: https://wondersearch.com → https://flashdrive.space
+- `one_liner`: Instant semantic search over your data without embeddings. → A shared drive for your team and all your AI agents.
+- `tags`: Developer Tools,Infrastructure,AI → Developer Tools,Cloud Computing,Infrastructure,AI,Databases
 
-### [Versine](https://www.ycombinator.com/companies/versine)
+### [GatherHQ](https://www.ycombinator.com/companies/gatherhq)
 
-- `website`: https://versine.com/ → https://versine.com?utm_source=ycombinator
-- `one_liner`: Let your agents send and receive money. We're Venmo for agents. → The agent-first consumer bank.
+- `one_liner`: Applied AI for Enterprise GTM (3x founders, 10x growth backed by ANT) → Applied AI for Enterprise GTM (3x founders, 10x growth, backed by ANT)

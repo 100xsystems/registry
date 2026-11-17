@@ -1,162 +1,109 @@
 {
   "date": "2026-11-17",
-  "fetchedAt": "2026-11-17T06:48:49.732Z",
-  "previousCount": 6399,
+  "fetchedAt": "2026-11-17T15:45:29.681Z",
+  "previousCount": 6398,
   "currentCount": 6398,
   "added": [],
-  "removed": [
-    {
-      "id": 32352,
-      "name": "Veltha",
-      "slug": "veltha",
-      "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/086027e8af9fab6d08a460f136457d84dbf6f354.png",
-      "website": "https://veltha.ai/",
-      "all_locations": "San Francisco, CA, USA",
-      "long_description": "Veltha is the AI native TPA starting with workers comp. We handle claim for insurance providers end to end.\r\n\r\nLearn more at https://veltha.ai",
-      "one_liner": "AI native TPA starting with workers comp",
-      "team_size": 2,
-      "highlight_black": false,
-      "highlight_latinx": false,
-      "highlight_women": false,
-      "industry": "Fintech",
-      "subindustry": "Fintech -> Insurance",
-      "launched_at": 1786650265,
-      "tags": [
-        "Fintech",
-        "Insurance"
-      ],
-      "tags_highlighted": [],
-      "top_company": false,
-      "isHiring": false,
-      "nonprofit": false,
-      "batch": "Fall 2026",
-      "status": "Active",
-      "industries": [
-        "Fintech",
-        "Insurance"
-      ],
-      "regions": [
-        "United States of America",
-        "America / Canada"
-      ],
-      "stage": "Early",
-      "app_video_public": false,
-      "demo_day_video_public": false,
-      "app_answers": null,
-      "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/veltha"
-    }
-  ],
+  "removed": [],
   "updated": [
     {
-      "id": 11975,
-      "name": "Hatch",
-      "slug": "hatch",
-      "batch": "Winter 2019",
-      "url": "https://www.ycombinator.com/companies/hatch",
+      "id": 585,
+      "name": "Noora Health",
+      "slug": "noora-health",
+      "batch": "Winter 2014",
+      "url": "https://www.ycombinator.com/companies/noora-health",
       "changes": [
         {
-          "field": "one_liner",
-          "before": "The AI CSR Platform",
-          "after": "Acquired by Yelp Inc. - The AI CSR Platform"
+          "field": "isHiring",
+          "before": true,
+          "after": false
         }
       ]
     },
     {
-      "id": 24130,
-      "name": "PlusIdentity",
-      "slug": "plusidentity",
-      "batch": "Summer 2021",
-      "url": "https://www.ycombinator.com/companies/plusidentity",
+      "id": 1753,
+      "name": "SRTX",
+      "slug": "srtx",
+      "batch": "Winter 2018",
+      "url": "https://www.ycombinator.com/companies/srtx",
       "changes": [
         {
-          "field": "name",
-          "before": "RGI Labs",
-          "after": "PlusIdentity"
-        },
+          "field": "stage",
+          "before": "Early",
+          "after": "Growth"
+        }
+      ]
+    },
+    {
+      "id": 1866,
+      "name": "Vena Medical",
+      "slug": "vena-medical",
+      "batch": "Winter 2018",
+      "url": "https://www.ycombinator.com/companies/vena-medical",
+      "changes": [
         {
-          "field": "slug",
-          "before": "rgi-labs",
-          "after": "plusidentity"
-        },
+          "field": "stage",
+          "before": "Early",
+          "after": "Growth"
+        }
+      ]
+    },
+    {
+      "id": 23531,
+      "name": "Authologic",
+      "slug": "authologic",
+      "batch": "Winter 2021",
+      "url": "https://www.ycombinator.com/companies/authologic",
+      "changes": [
         {
-          "field": "former_names",
-          "before": [
-            "Superpass",
-            "PlusIdentity",
-            "Vansec",
-            "Aldermate",
-            "VitalStrata",
-            "Robust General Intelligence"
-          ],
-          "after": [
-            "Superpass",
-            "PlusIdentity",
-            "Vansec",
-            "Aldermate",
-            "VitalStrata",
-            "Robust General Intelligence",
-            "RGI Labs"
-          ]
-        },
+          "field": "isHiring",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 23780,
+      "name": "PaletteHQ",
+      "slug": "palettehq",
+      "batch": "Summer 2021",
+      "url": "https://www.ycombinator.com/companies/palettehq",
+      "changes": [
         {
-          "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/470c089d5fdf6f7b0bfaf2a2daa45b2ad5a4af33.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/a41d70cadc12821da00066e996901d285eb5ab36.png"
-        },
-        {
-          "field": "website",
-          "before": "https://www.rgilabs.com",
-          "after": "https://www.plusidentity.com"
-        },
-        {
-          "field": "all_locations",
-          "before": "New York City, NY, USA; Remote",
-          "after": "New York City, NY, USA"
-        },
+          "field": "isHiring",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 24040,
+      "name": "Affogato AI",
+      "slug": "affogato-ai",
+      "batch": "Summer 2021",
+      "url": "https://www.ycombinator.com/companies/affogato-ai",
+      "changes": [
         {
           "field": "one_liner",
-          "before": "Robust & recursively self-improving general intelligence",
-          "after": "Password manager for startups"
+          "before": "Affogato AI — Your Agent for instant TikToks, Reels, and ads.",
+          "after": "AI studio for videos, ads and avatars, in your browser or your agent"
         },
         {
-          "field": "subindustry",
-          "before": "B2B -> Engineering, Product and Design",
-          "after": "B2B -> Security"
+          "field": "team_size",
+          "before": 15,
+          "after": 5
         },
         {
           "field": "tags",
           "before": [
+            "Generative AI",
             "AI"
           ],
           "after": [
-            "Security",
-            "Cybersecurity"
-          ]
-        },
-        {
-          "field": "industries",
-          "before": [
-            "B2B",
-            "Engineering, Product and Design"
-          ],
-          "after": [
-            "B2B",
-            "Security"
-          ]
-        },
-        {
-          "field": "regions",
-          "before": [
-            "United States of America",
-            "America / Canada",
-            "Remote",
-            "Fully Remote"
-          ],
-          "after": [
-            "United States of America",
-            "America / Canada"
+            "Generative AI",
+            "AI",
+            "Conversational AI",
+            "AI Assistant"
           ]
         }
       ]
@@ -170,115 +117,83 @@
       "changes": [
         {
           "field": "stage",
-          "before": "Growth",
-          "after": "Early"
+          "before": "Early",
+          "after": "Growth"
         }
       ]
     },
     {
-      "id": 29452,
-      "name": "Fluently",
-      "slug": "fluently",
-      "batch": "Winter 2024",
-      "url": "https://www.ycombinator.com/companies/fluently",
+      "id": 26108,
+      "name": "GoSats",
+      "slug": "gosats",
+      "batch": "Winter 2022",
+      "url": "https://www.ycombinator.com/companies/gosats",
       "changes": [
         {
-          "field": "one_liner",
-          "before": "Speaking coach for non-native English professionals",
-          "after": "AI language tutor for speaking practice with instant feedback"
+          "field": "stage",
+          "before": "Early",
+          "after": "Growth"
         }
       ]
     },
     {
-      "id": 29716,
-      "name": "CreativeMode",
-      "slug": "creativemode",
-      "batch": "Summer 2024",
-      "url": "https://www.ycombinator.com/companies/creativemode",
+      "id": 26525,
+      "name": "Clinikally",
+      "slug": "clinikally",
+      "batch": "Summer 2022",
+      "url": "https://www.ycombinator.com/companies/clinikally",
+      "changes": [
+        {
+          "field": "stage",
+          "before": "Early",
+          "after": "Growth"
+        }
+      ]
+    },
+    {
+      "id": 29106,
+      "name": "Affinity",
+      "slug": "affinity",
+      "batch": "Summer 2023",
+      "url": "https://www.ycombinator.com/companies/affinity",
+      "changes": [
+        {
+          "field": "small_logo_thumb_url",
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/883b7bc8ea92895dbca7a59f5ad014c489f3729a.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/9f9f37fe0b1cbbcb65dbd97ca7f2b6c1e5135543.png"
+        },
+        {
+          "field": "one_liner",
+          "before": "A compliance training platform built for regulated industries.",
+          "after": "The AI-powered internal compliance platform for regulated companies"
+        }
+      ]
+    },
+    {
+      "id": 29410,
+      "name": "Model ML",
+      "slug": "model-ml",
+      "batch": "Winter 2024",
+      "url": "https://www.ycombinator.com/companies/model-ml",
+      "changes": [
+        {
+          "field": "stage",
+          "before": "Early",
+          "after": "Growth"
+        }
+      ]
+    },
+    {
+      "id": 30917,
+      "name": "Bravi",
+      "slug": "bravi",
+      "batch": "Fall 2025",
+      "url": "https://www.ycombinator.com/companies/bravi",
       "changes": [
         {
           "field": "isHiring",
-          "before": true,
-          "after": false
-        }
-      ]
-    },
-    {
-      "id": 30816,
-      "name": "Digipals",
-      "slug": "digipals",
-      "batch": "Fall 2025",
-      "url": "https://www.ycombinator.com/companies/digipals",
-      "changes": [
-        {
-          "field": "one_liner",
-          "before": "The future of Social in the age of AI",
-          "after": "AI to enhance human creativity"
-        },
-        {
-          "field": "subindustry",
-          "before": "Consumer -> Social",
-          "after": "Consumer -> Content"
-        },
-        {
-          "field": "tags",
-          "before": [
-            "Consumer",
-            "Social Media",
-            "Social",
-            "Social Network",
-            "AI"
-          ],
-          "after": [
-            "Consumer",
-            "Entertainment",
-            "Gaming",
-            "Media",
-            "AI"
-          ]
-        },
-        {
-          "field": "industries",
-          "before": [
-            "Consumer",
-            "Social"
-          ],
-          "after": [
-            "Consumer",
-            "Content"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 31376,
-      "name": "Light Anchor",
-      "slug": "light-anchor",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/light-anchor",
-      "changes": [
-        {
-          "field": "one_liner",
-          "before": "AI-native P&G",
-          "after": "Building the AI-native P&G"
-        },
-        {
-          "field": "tags",
-          "before": [
-            "E-commerce",
-            "AI"
-          ],
-          "after": [
-            "Consumer",
-            "E-commerce",
-            "Consumer Products",
-            "AI"
-          ]
-        },
-        {
-          "field": "batch",
-          "before": "Spring 2026",
-          "after": "Fall 2026"
+          "before": false,
+          "after": true
         }
       ]
     },
@@ -291,112 +206,46 @@
       "changes": [
         {
           "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/a530f53bd95d36e9c178a7bd6bccc7cb0b0c4508.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/7d87b84072242716429212624073df4a51fa2aae.png"
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/7d87b84072242716429212624073df4a51fa2aae.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/e991737a0da388ef9f57789b22ba8b64f04be312.png"
         }
       ]
     },
     {
-      "id": 32205,
-      "name": "Mochi",
-      "slug": "mochi",
-      "batch": "Summer 2026",
-      "url": "https://www.ycombinator.com/companies/mochi",
+      "id": 35263,
+      "name": "River",
+      "slug": "rivereditor",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/rivereditor",
       "changes": [
         {
           "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/49a6b24fc91b9bae1c825be608651c20ecb90c31.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/5a4ff579d9f8641bf83c3972b8109496f901b4ac.png"
-        }
-      ]
-    },
-    {
-      "id": 34899,
-      "name": "Letter",
-      "slug": "letter-dev",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/letter-dev",
-      "changes": [
-        {
-          "field": "one_liner",
-          "before": "The world's first coding agent, IDE & infra for growth engineering.",
-          "after": "The coding agent and IDE for the agentic internet"
-        }
-      ]
-    },
-    {
-      "id": 35091,
-      "name": "Ample Computer",
-      "slug": "ample-computer",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/ample-computer",
-      "changes": [
-        {
-          "field": "one_liner",
-          "before": "Everything your agent needs to ship a web app",
-          "after": "The one-stop cloud for agents to ship complex web apps"
-        }
-      ]
-    },
-    {
-      "id": 35553,
-      "name": "0.security",
-      "slug": "0security",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/0security",
-      "changes": [
-        {
-          "field": "one_liner",
-          "before": "The autonomous cybersecurity team",
-          "after": "Open-source AI security agents for enterprise"
-        }
-      ]
-    },
-    {
-      "id": 36279,
-      "name": "Native",
-      "slug": "native",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/native",
-      "changes": [
-        {
-          "field": "one_liner",
-          "before": "Instinct for marketing",
-          "after": "A proactive marketing assistant for businesses"
-        }
-      ]
-    },
-    {
-      "id": 36345,
-      "name": "Shire Intelligence",
-      "slug": "shire-intelligence",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/shire-intelligence",
-      "changes": [
-        {
-          "field": "one_liner",
-          "before": "Shire uses CCTV to run restaurants in real time.",
-          "after": "Real-time restaurant intelligence"
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/47198fc0e393650eaf6b3a2b120ff40b912a2645.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/b1a294df641dc0398b7c047c8b9434fa731ea2a3.png"
         },
         {
-          "field": "industry",
-          "before": "Consumer",
-          "after": "B2B"
+          "field": "one_liner",
+          "before": "The AI computer.",
+          "after": "AI that works everywhere you do."
         },
         {
-          "field": "subindustry",
-          "before": "Consumer -> Food and Beverage",
-          "after": "B2B"
-        },
+          "field": "team_size",
+          "before": 2,
+          "after": 1
+        }
+      ]
+    },
+    {
+      "id": 35521,
+      "name": "ORO AI",
+      "slug": "oro-ai",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/oro-ai",
+      "changes": [
         {
-          "field": "industries",
-          "before": [
-            "Consumer",
-            "Food and Beverage"
-          ],
-          "after": [
-            "B2B"
-          ]
+          "field": "one_liner",
+          "before": "RL environments & simulations to run autonomous businesses.",
+          "after": "Teaching AI the judgment to run businesses"
         }
       ]
     },
@@ -408,77 +257,84 @@
       "url": "https://www.ycombinator.com/companies/vyra",
       "changes": [
         {
-          "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/7ad073b0df3558383dd73b1125d5e326d63c3e12.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/a2c22def8dbde1bd39b39d00f877d63c3b40e504.png"
-        },
-        {
           "field": "one_liner",
-          "before": "Personal video editing agent for shortform content",
-          "after": "Personal content agent for creators and businesses"
-        },
-        {
-          "field": "tags",
-          "before": [
-            "Video",
-            "Automation",
-            "SMB"
-          ],
-          "after": [
-            "Video",
-            "Marketing",
-            "Automation",
-            "SMB",
-            "AI"
-          ]
-        },
-        {
-          "field": "isHiring",
-          "before": true,
-          "after": false
+          "before": "Personal content agent for creators and businesses",
+          "after": "Personal content agent for solopreneurs and businesses"
         }
       ]
     },
     {
-      "id": 36444,
-      "name": "Odin Robotics",
-      "slug": "odin-robotics",
+      "id": 38226,
+      "name": "FlashDrive",
+      "slug": "flashdrive",
       "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/odin-robotics",
+      "url": "https://www.ycombinator.com/companies/flashdrive",
       "changes": [
         {
-          "field": "tags",
+          "field": "name",
+          "before": "Wondersearch",
+          "after": "FlashDrive"
+        },
+        {
+          "field": "slug",
+          "before": "wondersearch",
+          "after": "flashdrive"
+        },
+        {
+          "field": "former_names",
           "before": [
-            "Robotics",
-            "Manufacturing",
-            "Industrial"
+            "Polygres",
+            "Evokoa / Polygres"
           ],
           "after": [
-            "Robotics",
-            "B2B",
-            "Manufacturing",
-            "Automation",
-            "Industrial"
+            "Polygres",
+            "Evokoa / Polygres",
+            "Wondersearch"
           ]
-        }
-      ]
-    },
-    {
-      "id": 36873,
-      "name": "Versine",
-      "slug": "versine",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/versine",
-      "changes": [
+        },
+        {
+          "field": "small_logo_thumb_url",
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/1dfdffe31c74cb7df1b408193b1e4360c19f0815.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/e4b1526f0ce9816796dbacd939133d13844d1067.png"
+        },
         {
           "field": "website",
-          "before": "https://versine.com/",
-          "after": "https://versine.com?utm_source=ycombinator"
+          "before": "https://wondersearch.com",
+          "after": "https://flashdrive.space"
         },
         {
           "field": "one_liner",
-          "before": "Let your agents send and receive money. We're Venmo for agents.",
-          "after": "The agent-first consumer bank."
+          "before": "Instant semantic search over your data without embeddings.",
+          "after": "A shared drive for your team and all your AI agents."
+        },
+        {
+          "field": "tags",
+          "before": [
+            "Developer Tools",
+            "Infrastructure",
+            "AI"
+          ],
+          "after": [
+            "Developer Tools",
+            "Cloud Computing",
+            "Infrastructure",
+            "AI",
+            "Databases"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 39579,
+      "name": "GatherHQ",
+      "slug": "gatherhq",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/gatherhq",
+      "changes": [
+        {
+          "field": "one_liner",
+          "before": "Applied AI for Enterprise GTM (3x founders, 10x growth backed by ANT)",
+          "after": "Applied AI for Enterprise GTM (3x founders, 10x growth, backed by ANT)"
         }
       ]
     }

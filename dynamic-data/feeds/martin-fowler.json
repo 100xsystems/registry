@@ -9,7 +9,7 @@
     "refactoring",
     "design"
   ],
-  "updatedAt": "2026-11-12T14:55:08.070Z",
+  "updatedAt": "2026-11-17T15:45:18.212Z",
   "items": [
     {
       "guid": "martin-fowler::https://martinfowler.com/fragments/2026-07-21.html",
@@ -570,7 +570,15 @@
       "summary": "When we use LLMs in a specialized domain, such as the operations of any\n  reasonably-large organization, there is a lot of specialized vocabulary. Such\n  words and specialized meanings will be foreign to an LLM because they aren't\n  in its training set, making it harder for the LLM to be effective…",
       "author": "Martin Fowler",
       "publishedAt": "2026-11-12T14:15:00.000Z"
+    },
+    {
+      "guid": "martin-fowler::https://martinfowler.com/articles/deterministic-simulation-testing.html",
+      "title": "Deterministic Simulation Testing",
+      "link": "https://martinfowler.com/articles/deterministic-simulation-testing.html",
+      "summary": "Distributed systems are hard to test because partial failures overlap\n     with live traffic and the same fault can produce different execution traces\n     on different runs. Unmesh Joshi describes how\n     deterministic simulation testing addresses this by replacing real clocks,\n     networks, and…",
+      "author": "Martin Fowler",
+      "publishedAt": "2026-11-17T14:33:00.000Z"
     }
   ],
-  "totalIndexed": 70
+  "totalIndexed": 71
 }

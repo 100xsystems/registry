@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-11-17T06:48:31.875Z",
+  "updatedAt": "2026-11-17T15:45:18.298Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -3537,7 +3537,23 @@
       "summary": "Ollama is popular because it makes running large language models (LLMs) locally simple, private, and inexpensive. DBeaver 26.2.5, also free & open-source, recently added support for Ollama. And both pair well with PostgreSQL.\nWhy Ollama Is Popular?\n\nRuns AI Locally — Execute models such as Llama,…",
       "author": null,
       "publishedAt": "2026-11-17T01:30:17.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9Ce",
+      "title": "Dimitri Fontaine: Distributed primary keys",
+      "link": "https://postgr.es/p/9Ce",
+      "summary": "On a single Postgres server, primary keys stay unique because only one sequence\nhands out the numbers: a bigint identity column asks it for the next one, and\nno two rows ever get the same. Now put writers in several regions, each of them\naccepting inserts while the links between them are slow or…",
+      "author": null,
+      "publishedAt": "2026-11-17T15:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9Cd",
+      "title": "Aleksei Aleinikov: PostgreSQL in Docker for Production: Volumes, Shared Memory, Pooling & Backups",
+      "link": "https://postgr.es/p/9Cd",
+      "summary": "Running PostgreSQL in Docker takes ten seconds to start in development — and about ten minutes to lose data in production if you copy a default compose.yaml snippet from a tutorial.\nMost outages with containerized Postgres are not caused by Docker itself. They happen because Docker’s defaults (64…",
+      "author": null,
+      "publishedAt": "2026-11-17T06:30:00.000Z"
     }
   ],
-  "totalIndexed": 441
+  "totalIndexed": 443
 }
