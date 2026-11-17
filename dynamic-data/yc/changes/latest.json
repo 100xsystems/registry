@@ -1,194 +1,78 @@
 {
   "date": "2026-11-17",
-  "fetchedAt": "2026-11-17T15:45:29.681Z",
+  "fetchedAt": "2026-11-17T20:30:19.965Z",
   "previousCount": 6398,
-  "currentCount": 6398,
-  "added": [],
+  "currentCount": 6399,
+  "added": [
+    {
+      "id": 31365,
+      "name": "Incandor",
+      "slug": "incandor",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/897d4bcd4f8d8953ac74712b5cc1711e4eb40c78.png",
+      "website": "https://www.incandor.com",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "As AI agents become increasingly autonomous, they're gaining access to the most sensitive systems inside the enterprise. Yet today's security tools were built to control who has access, not understand what they're actually doing with it.\r\n\r\nFounded by Stanford engineers, Incandor has raised an $8 million seed round led by Andreessen Horowitz (a16z), with backing from security leaders at Datadog and Plaid, the co-founder of Okta, and three Oscar winners.",
+      "one_liner": "Incandor is building the next generation of security for a world run…",
+      "team_size": 3,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "B2B",
+      "subindustry": "B2B",
+      "launched_at": 1778822795,
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": true,
+      "nonprofit": false,
+      "batch": "Spring 2026",
+      "status": "Active",
+      "industries": [
+        "B2B"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/incandor"
+    }
+  ],
   "removed": [],
   "updated": [
     {
-      "id": 585,
-      "name": "Noora Health",
-      "slug": "noora-health",
-      "batch": "Winter 2014",
-      "url": "https://www.ycombinator.com/companies/noora-health",
+      "id": 813,
+      "name": "Industrial Microbes",
+      "slug": "industrial-microbes",
+      "batch": "Winter 2015",
+      "url": "https://www.ycombinator.com/companies/industrial-microbes",
       "changes": [
         {
-          "field": "isHiring",
-          "before": true,
-          "after": false
-        }
-      ]
-    },
-    {
-      "id": 1753,
-      "name": "SRTX",
-      "slug": "srtx",
-      "batch": "Winter 2018",
-      "url": "https://www.ycombinator.com/companies/srtx",
-      "changes": [
-        {
-          "field": "stage",
-          "before": "Early",
-          "after": "Growth"
-        }
-      ]
-    },
-    {
-      "id": 1866,
-      "name": "Vena Medical",
-      "slug": "vena-medical",
-      "batch": "Winter 2018",
-      "url": "https://www.ycombinator.com/companies/vena-medical",
-      "changes": [
-        {
-          "field": "stage",
-          "before": "Early",
-          "after": "Growth"
-        }
-      ]
-    },
-    {
-      "id": 23531,
-      "name": "Authologic",
-      "slug": "authologic",
-      "batch": "Winter 2021",
-      "url": "https://www.ycombinator.com/companies/authologic",
-      "changes": [
-        {
-          "field": "isHiring",
-          "before": true,
-          "after": false
-        }
-      ]
-    },
-    {
-      "id": 23780,
-      "name": "PaletteHQ",
-      "slug": "palettehq",
-      "batch": "Summer 2021",
-      "url": "https://www.ycombinator.com/companies/palettehq",
-      "changes": [
-        {
-          "field": "isHiring",
-          "before": true,
-          "after": false
-        }
-      ]
-    },
-    {
-      "id": 24040,
-      "name": "Affogato AI",
-      "slug": "affogato-ai",
-      "batch": "Summer 2021",
-      "url": "https://www.ycombinator.com/companies/affogato-ai",
-      "changes": [
-        {
-          "field": "one_liner",
-          "before": "Affogato AI — Your Agent for instant TikToks, Reels, and ads.",
-          "after": "AI studio for videos, ads and avatars, in your browser or your agent"
+          "field": "all_locations",
+          "before": "San Francisco, CA, USA; Alameda, CA, USA",
+          "after": "Emeryville, CA, USA; Alameda, CA, USA"
         },
         {
           "field": "team_size",
-          "before": 15,
-          "after": 5
-        },
-        {
-          "field": "tags",
-          "before": [
-            "Generative AI",
-            "AI"
-          ],
-          "after": [
-            "Generative AI",
-            "AI",
-            "Conversational AI",
-            "AI Assistant"
-          ]
+          "before": 12,
+          "after": 8
         }
       ]
     },
     {
-      "id": 24893,
-      "name": "Exa",
-      "slug": "exa",
-      "batch": "Summer 2021",
-      "url": "https://www.ycombinator.com/companies/exa",
-      "changes": [
-        {
-          "field": "stage",
-          "before": "Early",
-          "after": "Growth"
-        }
-      ]
-    },
-    {
-      "id": 26108,
-      "name": "GoSats",
-      "slug": "gosats",
-      "batch": "Winter 2022",
-      "url": "https://www.ycombinator.com/companies/gosats",
-      "changes": [
-        {
-          "field": "stage",
-          "before": "Early",
-          "after": "Growth"
-        }
-      ]
-    },
-    {
-      "id": 26525,
-      "name": "Clinikally",
-      "slug": "clinikally",
-      "batch": "Summer 2022",
-      "url": "https://www.ycombinator.com/companies/clinikally",
-      "changes": [
-        {
-          "field": "stage",
-          "before": "Early",
-          "after": "Growth"
-        }
-      ]
-    },
-    {
-      "id": 29106,
-      "name": "Affinity",
-      "slug": "affinity",
-      "batch": "Summer 2023",
-      "url": "https://www.ycombinator.com/companies/affinity",
-      "changes": [
-        {
-          "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/883b7bc8ea92895dbca7a59f5ad014c489f3729a.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/9f9f37fe0b1cbbcb65dbd97ca7f2b6c1e5135543.png"
-        },
-        {
-          "field": "one_liner",
-          "before": "A compliance training platform built for regulated industries.",
-          "after": "The AI-powered internal compliance platform for regulated companies"
-        }
-      ]
-    },
-    {
-      "id": 29410,
-      "name": "Model ML",
-      "slug": "model-ml",
-      "batch": "Winter 2024",
-      "url": "https://www.ycombinator.com/companies/model-ml",
-      "changes": [
-        {
-          "field": "stage",
-          "before": "Early",
-          "after": "Growth"
-        }
-      ]
-    },
-    {
-      "id": 30917,
-      "name": "Bravi",
-      "slug": "bravi",
-      "batch": "Fall 2025",
-      "url": "https://www.ycombinator.com/companies/bravi",
+      "id": 1810,
+      "name": "Treasury Prime",
+      "slug": "treasury-prime",
+      "batch": "Winter 2018",
+      "url": "https://www.ycombinator.com/companies/treasury-prime",
       "changes": [
         {
           "field": "isHiring",
@@ -198,143 +82,222 @@
       ]
     },
     {
-      "id": 31455,
-      "name": "tday.com",
-      "slug": "tdaycom",
-      "batch": "Spring 2026",
-      "url": "https://www.ycombinator.com/companies/tdaycom",
+      "id": 12074,
+      "name": "Caribou",
+      "slug": "caribou",
+      "batch": "Winter 2019",
+      "url": "https://www.ycombinator.com/companies/caribou",
       "changes": [
         {
-          "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/7d87b84072242716429212624073df4a51fa2aae.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/e991737a0da388ef9f57789b22ba8b64f04be312.png"
-        }
-      ]
-    },
-    {
-      "id": 35263,
-      "name": "River",
-      "slug": "rivereditor",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/rivereditor",
-      "changes": [
-        {
-          "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/47198fc0e393650eaf6b3a2b120ff40b912a2645.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/b1a294df641dc0398b7c047c8b9434fa731ea2a3.png"
+          "field": "all_locations",
+          "before": "Lisbon, Lisbon, Portugal",
+          "after": "London, England, United Kingdom"
         },
         {
           "field": "one_liner",
-          "before": "The AI computer.",
-          "after": "AI that works everywhere you do."
+          "before": "The autonomous tax firm",
+          "after": "Transfer pricing software with the experts built in"
         },
         {
-          "field": "team_size",
-          "before": 2,
-          "after": 1
+          "field": "isHiring",
+          "before": true,
+          "after": false
+        },
+        {
+          "field": "regions",
+          "before": [
+            "Portugal",
+            "Europe"
+          ],
+          "after": [
+            "United Kingdom",
+            "Europe"
+          ]
         }
       ]
     },
     {
-      "id": 35521,
-      "name": "ORO AI",
-      "slug": "oro-ai",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/oro-ai",
+      "id": 27094,
+      "name": "nsave",
+      "slug": "nsave",
+      "batch": "Summer 2022",
+      "url": "https://www.ycombinator.com/companies/nsave",
+      "changes": [
+        {
+          "field": "isHiring",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 29365,
+      "name": "Ellipsis",
+      "slug": "ellipsis",
+      "batch": "Winter 2024",
+      "url": "https://www.ycombinator.com/companies/ellipsis",
       "changes": [
         {
           "field": "one_liner",
-          "before": "RL environments & simulations to run autonomous businesses.",
-          "after": "Teaching AI the judgment to run businesses"
+          "before": "Managed Agent platform ",
+          "after": "Model Agnostic Managed Agent Platform"
         }
       ]
     },
     {
-      "id": 36411,
-      "name": "Vyra",
-      "slug": "vyra",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/vyra",
+      "id": 30354,
+      "name": "Artifact",
+      "slug": "artifact-2",
+      "batch": "Winter 2025",
+      "url": "https://www.ycombinator.com/companies/artifact-2",
       "changes": [
         {
           "field": "one_liner",
-          "before": "Personal content agent for creators and businesses",
-          "after": "Personal content agent for solopreneurs and businesses"
+          "before": "An Collaborative, AI-native IDE for Hardware Engineers",
+          "after": "A Collaborative, AI-native IDE for Hardware Engineers"
         }
       ]
     },
     {
-      "id": 38226,
-      "name": "FlashDrive",
-      "slug": "flashdrive",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/flashdrive",
+      "id": 30498,
+      "name": "Alkali",
+      "slug": "alkali",
+      "batch": "Spring 2025",
+      "url": "https://www.ycombinator.com/companies/alkali",
+      "changes": [
+        {
+          "field": "isHiring",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 30518,
+      "name": "Keiki",
+      "slug": "keiki",
+      "batch": "Spring 2025",
+      "url": "https://www.ycombinator.com/companies/keiki",
       "changes": [
         {
           "field": "name",
-          "before": "Wondersearch",
-          "after": "FlashDrive"
+          "before": "Orchid",
+          "after": "Keiki"
         },
         {
           "field": "slug",
-          "before": "wondersearch",
-          "after": "flashdrive"
+          "before": "orchid-ai",
+          "after": "keiki"
         },
         {
           "field": "former_names",
           "before": [
-            "Polygres",
-            "Evokoa / Polygres"
+            "Mail0",
+            "Zero"
           ],
           "after": [
-            "Polygres",
-            "Evokoa / Polygres",
-            "Wondersearch"
+            "Mail0",
+            "Zero",
+            "Orchid"
           ]
         },
         {
           "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/1dfdffe31c74cb7df1b408193b1e4360c19f0815.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/e4b1526f0ce9816796dbacd939133d13844d1067.png"
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/4a9494b7b3b62fcb0adb7a5568c37003e022974d.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/ac2da0254df2d98106d26c8e994c4ace21f7cbc8.png"
         },
         {
           "field": "website",
-          "before": "https://wondersearch.com",
-          "after": "https://flashdrive.space"
+          "before": "https://orchid.ai",
+          "after": "https://onkeiki.com"
         },
         {
           "field": "one_liner",
-          "before": "Instant semantic search over your data without embeddings.",
-          "after": "A shared drive for your team and all your AI agents."
+          "before": "A personal EA in your iMessage",
+          "after": "Put your products on iMessage"
+        },
+        {
+          "field": "subindustry",
+          "before": "B2B -> Productivity",
+          "after": "B2B -> Infrastructure"
         },
         {
           "field": "tags",
           "before": [
-            "Developer Tools",
-            "Infrastructure",
-            "AI"
+            "AI",
+            "AI Assistant"
           ],
           "after": [
-            "Developer Tools",
-            "Cloud Computing",
             "Infrastructure",
-            "AI",
-            "Databases"
+            "AI"
+          ]
+        },
+        {
+          "field": "industries",
+          "before": [
+            "B2B",
+            "Productivity"
+          ],
+          "after": [
+            "B2B",
+            "Infrastructure"
           ]
         }
       ]
     },
     {
-      "id": 39579,
-      "name": "GatherHQ",
-      "slug": "gatherhq",
+      "id": 30847,
+      "name": "Brickwise",
+      "slug": "brickwise",
+      "batch": "Fall 2025",
+      "url": "https://www.ycombinator.com/companies/brickwise",
+      "changes": [
+        {
+          "field": "isHiring",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 32551,
+      "name": "Bloomy",
+      "slug": "bloomy",
+      "batch": "Summer 2026",
+      "url": "https://www.ycombinator.com/companies/bloomy",
+      "changes": [
+        {
+          "field": "isHiring",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 35291,
+      "name": "Elimentary",
+      "slug": "elimentary",
       "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/gatherhq",
+      "url": "https://www.ycombinator.com/companies/elimentary",
       "changes": [
         {
           "field": "one_liner",
-          "before": "Applied AI for Enterprise GTM (3x founders, 10x growth backed by ANT)",
-          "after": "Applied AI for Enterprise GTM (3x founders, 10x growth, backed by ANT)"
+          "before": "AI Agents that run back-office operations for private credit funds",
+          "after": "AI agents that run middle and back office for private credit funds"
+        }
+      ]
+    },
+    {
+      "id": 36777,
+      "name": "Sona8",
+      "slug": "sona8",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/sona8",
+      "changes": [
+        {
+          "field": "one_liner",
+          "before": "Voice agents survey employees to map, improve & automate workflows",
+          "after": "AI context layer: interviews employees to map and automate workflows"
         }
       ]
     }

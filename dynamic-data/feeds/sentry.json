@@ -8,7 +8,7 @@
     "debugging",
     "performance"
   ],
-  "updatedAt": "2026-11-16T21:40:22.721Z",
+  "updatedAt": "2026-11-17T20:30:00.491Z",
   "items": [
     {
       "guid": "https://blog.sentry.io/godot-dotnet-ga/",
@@ -497,7 +497,15 @@
       "summary": "How Sentry Conventions keep attribute names and their meaning aligned across our SDKs, our ingestion pipeline, and the Sentry product.",
       "author": null,
       "publishedAt": "2026-11-16T11:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.sentry.io/sentry-native-sdk-1-0/",
+      "title": "Sentry’s Native SDK gets its own crash backend (and more)",
+      "link": "https://blog.sentry.io/sentry-native-sdk-1-0/",
+      "summary": "Sentry’s Native SDK 1.0 makes its own crash backend the default, brings out-of-process crash handling to Xbox and Android, and speeds up scope data.",
+      "author": null,
+      "publishedAt": "2026-11-17T09:00:00.000Z"
     }
   ],
-  "totalIndexed": 61
+  "totalIndexed": 62
 }

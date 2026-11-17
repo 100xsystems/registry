@@ -8,16 +8,8 @@
     "monitoring",
     "data-visualization"
   ],
-  "updatedAt": "2026-11-13T19:15:03.505Z",
+  "updatedAt": "2026-11-17T20:29:59.817Z",
   "items": [
-    {
-      "guid": "grafana-labs::https://grafana.com/grafana/dashboards/20541-dashboard-proxmox/",
-      "title": "20541 Dashboard Proxmox",
-      "link": "https://grafana.com/grafana/dashboards/20541-dashboard-proxmox/",
-      "summary": null,
-      "author": null,
-      "publishedAt": "2001-01-31T18:30:00.000Z"
-    },
     {
       "guid": "grafana-labs::https://grafana.com/grafana/dashboards/23762-157-card-01/",
       "title": "23762 157 Card 01",
@@ -80009,7 +80001,15 @@
       "summary": "When an application slows down or memory usage keeps climbing, knowing which code is responsible can help you find a fix faster. Continuous profiling gives you that visibility, so you can see where your application spends resources such as CPU time and memory.\nWe’ve made updates to Pyroscope, our…",
       "author": "Tiffany Jernigan",
       "publishedAt": "2026-11-13T17:14:29.000Z"
+    },
+    {
+      "guid": "https://grafana.com/blog/find-the-log-line-that-matters-faster-with-full-text-search-in-grafana-cloud-logs/",
+      "title": "Find the log line that matters faster with full-text search in Grafana Cloud Logs",
+      "link": "https://grafana.com/blog/find-the-log-line-that-matters-faster-with-full-text-search-in-grafana-cloud-logs/",
+      "summary": "A support ticket comes in with one clue: a transaction ID. The answer is somewhere in your logs, but you don't know which service logged it, which pod handled it, or which day it happened. So you write the query you always write, {service=\"payments\"} |= \"txn-123456\", widen the time range to the…",
+      "author": "Jason Nochlin",
+      "publishedAt": "2026-11-17T16:53:32.000Z"
     }
   ],
-  "totalIndexed": 21942
+  "totalIndexed": 21943
 }

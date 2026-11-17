@@ -9,7 +9,7 @@
     "vpn",
     "wireguard"
   ],
-  "updatedAt": "2026-11-10T19:22:08.036Z",
+  "updatedAt": "2026-11-17T20:29:59.791Z",
   "items": [
     {
       "guid": "https://tailscale.com/blog/welcome-mike-shaver",
@@ -9850,7 +9850,15 @@
       "summary": "Aperture keeps your team’s agent skills in one place, ready for both users and agents.",
       "author": "Remy Guercio, Ondrej Bilek",
       "publishedAt": "2026-11-10T15:00:00.000Z"
+    },
+    {
+      "guid": "https://tailscale.com/blog/netmap-caching",
+      "title": "Netmap caching: keeping Tailscale up on iffy connections",
+      "link": "https://tailscale.com/blog/netmap-caching",
+      "summary": "Tailscale can now start from a saved copy of your tailnet map, speeding everybody's startup times and mitigating some rough connections.",
+      "author": "Claus Lensbøl",
+      "publishedAt": "2026-11-17T16:45:00.000Z"
     }
   ],
-  "totalIndexed": 1230
+  "totalIndexed": 1231
 }

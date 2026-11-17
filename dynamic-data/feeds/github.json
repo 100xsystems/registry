@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-11-05T23:06:07.532Z",
+  "updatedAt": "2026-11-17T20:30:03.128Z",
   "items": [
     {
       "guid": "github::https://github.blog/engineering/the-cost-of-saying-yes-has-changed/",
@@ -191,7 +191,15 @@
       "summary": "Last week at GitHub Universe, we announced our new Git storage architecture, capable of handling thousands of writes per second with reads that scale on demand. Through internal testing, we’ve demonstrated the ability to support 5,000 concurrent agents working on a repository, sending 7,200 pushes…",
       "author": "Karthik Raman",
       "publishedAt": "2026-11-05T20:23:21.000Z"
+    },
+    {
+      "guid": "github::https://github.blog/engineering/engineering-principles/building-the-agent-host-protocol-for-sessions-that-continue-across-devices/",
+      "title": "Building the Agent Host Protocol for sessions that continue across devices",
+      "link": "https://github.blog/engineering/engineering-principles/building-the-agent-host-protocol-for-sessions-that-continue-across-devices/",
+      "summary": "Models are now good enough to work for hours or even days on their own. You don’t have to watch over every thing they do, but you still need to be able to check in, no matter where you are. An agent can’t live only inside one application. The work should continue even If you close a window or…",
+      "author": "Connor Peet",
+      "publishedAt": "2026-11-17T18:20:40.000Z"
     }
   ],
-  "totalIndexed": 23
+  "totalIndexed": 24
 }
