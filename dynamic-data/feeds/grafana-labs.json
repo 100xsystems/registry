@@ -8,16 +8,8 @@
     "monitoring",
     "data-visualization"
   ],
-  "updatedAt": "2026-11-17T20:29:59.817Z",
+  "updatedAt": "2026-11-18T20:00:37.673Z",
   "items": [
-    {
-      "guid": "grafana-labs::https://grafana.com/grafana/dashboards/23762-157-card-01/",
-      "title": "23762 157 Card 01",
-      "link": "https://grafana.com/grafana/dashboards/23762-157-card-01/",
-      "summary": null,
-      "author": null,
-      "publishedAt": "2001-01-31T18:30:00.000Z"
-    },
     {
       "guid": "grafana-labs::https://grafana.com/grafana/dashboards/23899-183-card-01/",
       "title": "23899 183 Card 01",
@@ -80009,7 +80001,15 @@
       "summary": "A support ticket comes in with one clue: a transaction ID. The answer is somewhere in your logs, but you don't know which service logged it, which pod handled it, or which day it happened. So you write the query you always write, {service=\"payments\"} |= \"txn-123456\", widen the time range to the…",
       "author": "Jason Nochlin",
       "publishedAt": "2026-11-17T16:53:32.000Z"
+    },
+    {
+      "guid": "https://grafana.com/blog/observabilitycon-on-the-road-new-sessions-coming-to-you-in-2027/",
+      "title": "ObservabilityCON on the Road: New sessions coming to you in 2027",
+      "link": "https://grafana.com/blog/observabilitycon-on-the-road-new-sessions-coming-to-you-in-2027/",
+      "summary": "If you couldn't make it to San Francisco for ObservabilityCON 2026, don’t worry. We’re bringing the highlights of ObservabilityCON to five more international destinations in 2027. \nIt’s your chance to take a deeper dive into new Grafana Cloud capabilities designed to reshape cloud economics, bring…",
+      "author": "Grafana Labs Team",
+      "publishedAt": "2026-11-18T17:48:45.000Z"
     }
   ],
-  "totalIndexed": 21943
+  "totalIndexed": 21944
 }

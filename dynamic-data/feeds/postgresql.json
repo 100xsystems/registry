@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-11-18T15:25:54.536Z",
+  "updatedAt": "2026-11-18T20:00:38.022Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -3577,7 +3577,15 @@
       "summary": "Postgres 18: a CTE ran 23x the TPS of a temp table per transaction. With 5000 idle sessions, temp-table DDL got 127 and 249 of a 500 TPS target in two runs.",
       "author": null,
       "publishedAt": "2026-11-18T07:00:26.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9Cv",
+      "title": "salaheddine el hssani: Checking a compiler against a second implementation",
+      "link": "https://postgr.es/p/9Cv",
+      "summary": "A test says what its author expected. When the author also wrote the code, both come from the same reading of\nthe problem, and a mistake in that reading is in both. They agree, the test passes, and the bug ships. Below is\none way out of that loop for code whose answers can be computed another way:…",
+      "author": null,
+      "publishedAt": "2026-11-18T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 446
+  "totalIndexed": 447
 }

@@ -8,7 +8,7 @@
     "debugging",
     "performance"
   ],
-  "updatedAt": "2026-11-17T20:30:00.491Z",
+  "updatedAt": "2026-11-18T20:00:38.533Z",
   "items": [
     {
       "guid": "https://blog.sentry.io/godot-dotnet-ga/",
@@ -505,7 +505,15 @@
       "summary": "Sentry’s Native SDK 1.0 makes its own crash backend the default, brings out-of-process crash handling to Xbox and Android, and speeds up scope data.",
       "author": null,
       "publishedAt": "2026-11-17T09:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.sentry.io/sentry-bref-php-aws-lambda/",
+      "title": "Keeping it Bref: Sentry now supports PHP on AWS Lambda",
+      "link": "https://blog.sentry.io/sentry-bref-php-aws-lambda/",
+      "summary": "The new Sentry integration for Bref reports AWS Lambda timeouts, event handler failures, cold starts and AWS SDK calls in PHP applications.",
+      "author": null,
+      "publishedAt": "2026-11-18T09:00:00.000Z"
     }
   ],
-  "totalIndexed": 62
+  "totalIndexed": 63
 }

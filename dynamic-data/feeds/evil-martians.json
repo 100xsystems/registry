@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-11-11T23:54:17.713Z",
+  "updatedAt": "2026-11-18T20:00:40.161Z",
   "items": [
     {
       "guid": "evil-martians::https://evilmartians.com/chronicles/which-ai-actually-reads-your-site-two-months-of-llm-traffic-measured",
@@ -335,7 +335,15 @@
       "summary": "Authors: Aibek Izhanov, Backend Engineer, and Travis Turner, Tech Editor\nTopics: AI, Rails, Case Study, Ruby, LLMs\n\nHow Evil Martians moved Uscreen’s MCP server into its Rails app as a remote, multi-tenant service: Doorkeeper OAuth, tenant-scoped tools, and dry-run previews for destructive…",
       "author": "Aibek Izhanov",
       "publishedAt": "2026-11-11T00:00:00.000Z"
+    },
+    {
+      "guid": "evil-martians::https://evilmartians.com/chronicles/we-stopped-a-railway-migration-3-weeks-out-how-to-know-to-stop-or-go",
+      "title": "We stopped a Railway migration 3 weeks out. How to know to stop or go?",
+      "link": "https://evilmartians.com/chronicles/we-stopped-a-railway-migration-3-weeks-out-how-to-know-to-stop-or-go",
+      "summary": "Authors: Ilya Cherepanov, Site Reliability Engineer, Kirill Kuznetsov, Head of SRE, Kirill Yakovenko, Account Manager, and Travis Turner, Tech Editor\nTopics: Infrastructure, Platform engineering, Railway, PostgreSQL\n\nWe took a production Rails app to three weeks before a Railway cutover, then…",
+      "author": "Ilya Cherepanov",
+      "publishedAt": "2026-11-18T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 41
+  "totalIndexed": 42
 }
