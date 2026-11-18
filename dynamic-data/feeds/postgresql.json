@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-11-18T20:00:38.022Z",
+  "updatedAt": "2026-11-18T23:44:40.381Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -3585,7 +3585,15 @@
       "summary": "A test says what its author expected. When the author also wrote the code, both come from the same reading of\nthe problem, and a mistake in that reading is in both. They agree, the test passes, and the bug ships. Below is\none way out of that loop for code whose answers can be computed another way:…",
       "author": null,
       "publishedAt": "2026-11-18T00:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9CO",
+      "title": "Andrew Dunstan: New Security Infrastructure for PostgreSQL",
+      "link": "https://postgr.es/p/9CO",
+      "summary": "Since June 2026, PostgreSQL security fixes have had a home of their own: a private git repository holding every pending fix as a stack of patches, and a private buildfarm that builds and tests that stack across every supported branch, continuously, before anything goes public.\nThe problem\nSecurity…",
+      "author": null,
+      "publishedAt": "2026-11-18T20:36:15.000Z"
     }
   ],
-  "totalIndexed": 447
+  "totalIndexed": 448
 }

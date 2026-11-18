@@ -8,7 +8,7 @@
     "observability",
     "security"
   ],
-  "updatedAt": "2026-11-18T15:25:54.885Z",
+  "updatedAt": "2026-11-18T23:44:40.628Z",
   "items": [
     {
       "guid": "https://www.elastic.co/blog/cursor",
@@ -977,7 +977,15 @@
       "summary": "Elastic announces the availability of Elastic Cloud Serverless in the Microsoft Azure region of Toronto, bringing serverless Azure regions to 13 worldwide. Elastic meets customers where their data is — all around the globe.",
       "author": "Lucy Wang,Brian Bergholm",
       "publishedAt": "2026-11-18T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.elastic.co/blog/java4shell-remote-code-execution-rce-vulnerability",
+      "title": "Java4Shell Remote Code Execution (RCE) Vulnerability - CVE-2026-114938",
+      "link": "https://www.elastic.co/blog/java4shell-remote-code-execution-rce-vulnerability",
+      "summary": "Elastic is aware of a remote code execution vulnerability (CVE-2026-114938, also known as Java4Shell) affecting OpenJDK and Oracle Java SE that was disclosed on November 17, 2026.",
+      "author": "Product Security Team",
+      "publishedAt": "2026-11-18T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 121
+  "totalIndexed": 122
 }
