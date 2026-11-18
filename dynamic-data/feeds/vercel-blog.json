@@ -9,7 +9,7 @@
     "edge-computing",
     "nextjs"
   ],
-  "updatedAt": "2026-11-16T21:40:30.854Z",
+  "updatedAt": "2026-11-18T00:18:31.959Z",
   "items": [
     {
       "guid": "vercel-blog::https://vercel.com/changelog/ai-gateway-now-supports-streaming-transcription",
@@ -5418,7 +5418,39 @@
       "summary": "now supports budgets for individual projects and products, alongside existing team budgets. Spend Management\nOnly team and project budgets support automatic pausing of production deployments.\nOpen the new  to manage budgets, view spend for the current billing cycle, and see which thresholds have…",
       "author": "Bryan Mishkin",
       "publishedAt": "2026-11-16T00:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/standard-build-billing-new-teams",
+      "title": "Standard builds move to usage-based billing for new teams",
+      "link": "https://vercel.com/changelog/standard-build-billing-new-teams",
+      "summary": "Starting today, new Pro and Enterprise teams no longer include a Standard build slot. This brings Standard builds under the same usage-based billing model as other build machines. \nOn Pro, Standard builds cost $0.014 per build minute, and your monthly usage credit applies to build usage. Enterprise…",
+      "author": "Mehul Kar",
+      "publishedAt": "2026-11-17T20:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/vercel-blob-now-supports-ttls-for-automatic-deletion",
+      "title": "Vercel Blob now supports TTLs for automatic deletion",
+      "link": "https://vercel.com/changelog/vercel-blob-now-supports-ttls-for-automatic-deletion",
+      "summary": "Vercel Blob can now delete blobs automatically. Pass  when you write a blob and it is deleted that many days after upload, from 1 to 730 days. The TTL counts from the blob's upload date.ttlDays\nUse TTLs for blobs you would otherwise delete yourself, such as session transcripts, exports, and…",
+      "author": "Agustin Falco",
+      "publishedAt": "2026-11-17T18:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/native-lint-and-typecheck-deployment-checks-are-being-deprecated",
+      "title": "Native lint and typecheck Deployment Checks are being deprecated",
+      "link": "https://vercel.com/changelog/native-lint-and-typecheck-deployment-checks-are-being-deprecated",
+      "summary": "Native lint and typecheck  are being deprecated. Use  or your own CI workflows to continue running these tasks.Deployment ChecksVercel CI\nThese checks run your repository’s lint and typecheck tasks on Vercel in parallel with deployment builds. New checks can no longer be added. Existing checks…",
+      "author": "Cody Wong",
+      "publishedAt": "2026-11-17T13:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/pull-request-only-preset-now-available-for-preview-builds",
+      "title": "Pull-request-only preset now available for preview builds",
+      "link": "https://vercel.com/changelog/pull-request-only-preset-now-available-for-preview-builds",
+      "summary": "A new Ignored Build Step preset lets you skip preview builds for branches without an open pull request. Production deployments and previews for branches with open pull requests continue to build.\nOn GitHub and GitLab projects, skipped preview deployments are canceled before consuming any Build CPU…",
+      "author": "Mehul Kar",
+      "publishedAt": "2026-11-17T02:37:03.997Z"
     }
   ],
-  "totalIndexed": 676
+  "totalIndexed": 680
 }

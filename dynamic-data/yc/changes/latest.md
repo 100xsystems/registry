@@ -1,74 +1,119 @@
-# YC Company Changes for 2026-11-17
+# YC Company Changes for 2026-11-18
 
-- Previous total: 6398
+- Previous total: 6399
 - Current total: 6399
-- Added: 1
+- Added: 0
 - Removed: 0
-- Updated: 12
+- Updated: 22
 
-
-## Added Companies
-
-- [Incandor](https://www.ycombinator.com/companies/incandor) (Spring 2026) — Incandor is building the next generation of security for a world run…
 
 ## Updated Companies
 
-### [Industrial Microbes](https://www.ycombinator.com/companies/industrial-microbes)
+### [AssemblyAI](https://www.ycombinator.com/companies/assemblyai)
 
-- `all_locations`: San Francisco, CA, USA; Alameda, CA, USA → Emeryville, CA, USA; Alameda, CA, USA
-- `team_size`: 12 → 8
+- `stage`: Growth → Early
 
-### [Treasury Prime](https://www.ycombinator.com/companies/treasury-prime)
+### [Trainy](https://www.ycombinator.com/companies/trainy)
 
 - `isHiring`: false → true
 
-### [Caribou](https://www.ycombinator.com/companies/caribou)
+### [Healthtech 1](https://www.ycombinator.com/companies/healthtech-1)
 
-- `all_locations`: Lisbon, Lisbon, Portugal → London, England, United Kingdom
-- `one_liner`: The autonomous tax firm → Transfer pricing software with the experts built in
-- `isHiring`: true → false
-- `regions`: Portugal,Europe → United Kingdom,Europe
+- `team_size`: 40 → 50
 
-### [nsave](https://www.ycombinator.com/companies/nsave)
+### [Mercura](https://www.ycombinator.com/companies/mercura)
 
-- `isHiring`: true → false
+- `team_size`: 20 → 25
 
-### [Ellipsis](https://www.ycombinator.com/companies/ellipsis)
+### [Postlet](https://www.ycombinator.com/companies/postlet)
 
-- `one_liner`: Managed Agent platform  → Model Agnostic Managed Agent Platform
+- `name`: stratify → Postlet
+- `slug`: stratify → postlet
+- `former_names`: Swarm AI,Stratify AI → Swarm AI,Stratify AI,stratify
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/a1a50cfaa4d20f355d56916b604b0530b1c260eb.png → https://bookface-images.s3.amazonaws.com/small_logos/5f9de6e65bbaee513fccad055ea5c7e4a9389ea9.png
+- `website`: https://www.trystratify.com → https://postlet.ai
+- `one_liner`: AI agents that help you understand your customers' needs → Agents that own business outcomes
+- `tags`: B2B,Design,Consumer Products,AI,Conversational AI → B2B,Marketing,Enterprise,AI
 
-### [Artifact](https://www.ycombinator.com/companies/artifact-2)
+### [Hypercubic](https://www.ycombinator.com/companies/hypercubic)
 
-- `one_liner`: An Collaborative, AI-native IDE for Hardware Engineers → A Collaborative, AI-native IDE for Hardware Engineers
+- `team_size`: 3 → 7
 
-### [Alkali](https://www.ycombinator.com/companies/alkali)
+### [Metorial](https://www.ycombinator.com/companies/metorial)
 
-- `isHiring`: true → false
+- `one_liner`: Agentic infrastructure to power AI-native companies. → Open-source MCP gateway for AI enablement: MCP servers and Skills for…
+- `tags`:  → B2B,API,Infrastructure,AI
 
-### [Keiki](https://www.ycombinator.com/companies/keiki)
+### [The Token Company](https://www.ycombinator.com/companies/the-token-company)
 
-- `name`: Orchid → Keiki
-- `slug`: orchid-ai → keiki
-- `former_names`: Mail0,Zero → Mail0,Zero,Orchid
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/4a9494b7b3b62fcb0adb7a5568c37003e022974d.png → https://bookface-images.s3.amazonaws.com/small_logos/ac2da0254df2d98106d26c8e994c4ace21f7cbc8.png
-- `website`: https://orchid.ai → https://onkeiki.com
-- `one_liner`: A personal EA in your iMessage → Put your products on iMessage
-- `subindustry`: B2B -> Productivity → B2B -> Infrastructure
-- `tags`: AI,AI Assistant → Infrastructure,AI
-- `industries`: B2B,Productivity → B2B,Infrastructure
+- `team_size`: 2 → 3
 
-### [Brickwise](https://www.ycombinator.com/companies/brickwise)
+### [Incandor](https://www.ycombinator.com/companies/incandor)
 
 - `isHiring`: true → false
 
-### [Bloomy](https://www.ycombinator.com/companies/bloomy)
+### [KelAI](https://www.ycombinator.com/companies/kelai)
 
-- `isHiring`: true → false
+- `website`: https://kelaitech.com/ → https://kelai.ai
+- `one_liner`: The AI Quant: Autonomous Alpha Engine for Funds and Traders. → AI For Quantitative Finance
 
-### [Elimentary](https://www.ycombinator.com/companies/elimentary)
+### [Harbor](https://www.ycombinator.com/companies/runharbor)
 
-- `one_liner`: AI Agents that run back-office operations for private credit funds → AI agents that run middle and back office for private credit funds
+- `isHiring`: false → true
+
+### [Astraea](https://www.ycombinator.com/companies/astraea)
+
+- `team_size`: 6 → 5
+
+### [Eightsend (formerly CentralComs)](https://www.ycombinator.com/companies/eightsend)
+
+- `name`: CentralComs → Eightsend (formerly CentralComs)
+- `slug`: centralcoms → eightsend
+- `former_names`:  → CentralComs,Eightsend (formerly Centralcoms)
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/5f6099883faaacd376e6491fdd0920b4de8a2c3c.png → https://bookface-images.s3.amazonaws.com/small_logos/c6439e752c1132b8bfce3df362f07120240a3fad.png
+- `website`: https://centralcoms.com → https://eightsend.com/
+- `one_liner`: AI agent platform for home services companies. → AI marketers that run paid ads for DTC brands so you can sell more…
+- `industry`: Real Estate and Construction → B2B
+- `subindustry`: Real Estate and Construction -> Construction → B2B -> Marketing
+- `tags`: Home Services → E-commerce,Marketing,Advertising
+- `industries`: Real Estate and Construction,Construction → B2B,Marketing
+
+### [Roma](https://www.ycombinator.com/companies/roma)
+
+- `one_liner`: Roma is the to-do list that does itself → The task list for your team of AI agents
+- `industry`: Consumer → B2B
+- `subindustry`: Consumer → B2B -> Productivity
+- `industries`: Consumer → B2B,Productivity
+
+### [TrueMile](https://www.ycombinator.com/companies/truemile)
+
+- `team_size`: 2 → 3
+
+### [ByteAsk](https://www.ycombinator.com/companies/byteask)
+
+- `team_size`: 2 → 3
+
+### [Orca Aerospace](https://www.ycombinator.com/companies/orca-aerospace)
+
+- `one_liner`: AI spacecraft operators that live onboard the vehicle → AI satellite operators that live onboard the vehicle
+
+### [Shire Intelligence](https://www.ycombinator.com/companies/shire-intelligence)
+
+- `team_size`: 4 → 5
+
+### [Synara](https://www.ycombinator.com/companies/synara)
+
+- `team_size`: 2 → 5
 
 ### [Sona8](https://www.ycombinator.com/companies/sona8)
 
-- `one_liner`: Voice agents survey employees to map, improve & automate workflows → AI context layer: interviews employees to map and automate workflows
+- `team_size`: 5 → 3
+
+### [Verdun](https://www.ycombinator.com/companies/verdun)
+
+- `team_size`: 6 → 11
+
+### [Caveman](https://www.ycombinator.com/companies/caveman)
+
+- `one_liner`: Caveman cuts what AI agents cost without making them dumber. → Infrastructure to make AI agents cheaper to run.
+- `team_size`: 1 → 3

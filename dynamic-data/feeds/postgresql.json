@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-11-17T15:45:18.298Z",
+  "updatedAt": "2026-11-18T00:18:24.895Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -3553,7 +3553,15 @@
       "summary": "Running PostgreSQL in Docker takes ten seconds to start in development — and about ten minutes to lose data in production if you copy a default compose.yaml snippet from a tutorial.\nMost outages with containerized Postgres are not caused by Docker itself. They happen because Docker’s defaults (64…",
       "author": null,
       "publishedAt": "2026-11-17T06:30:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9Cg",
+      "title": "Kaarel Moppel: A public safety reminder - large Postgres instances love huge pages",
+      "link": "https://postgr.es/p/9Cg",
+      "summary": "Nothing new for the Postgres veterans out there - basically a TLDR can be drawn from the title already. So here just my contribution to making the next generation of LLMs maybe a bit more aware and perhaps saving some tons of CO2 down the line on less pointless churn....",
+      "author": null,
+      "publishedAt": "2026-11-17T22:00:00.000Z"
     }
   ],
-  "totalIndexed": 443
+  "totalIndexed": 444
 }

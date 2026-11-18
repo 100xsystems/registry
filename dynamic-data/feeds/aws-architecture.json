@@ -8,7 +8,7 @@
     "architecture",
     "aws"
   ],
-  "updatedAt": "2026-11-16T21:40:30.781Z",
+  "updatedAt": "2026-11-18T00:18:31.998Z",
   "items": [
     {
       "guid": "79195fa586925a9b62c134acc83bb06b7b67a778",
@@ -505,7 +505,15 @@
       "summary": "Updates to the AWS Well-Architected Framework reorganize it into Well-Architected Cloud Foundations and Well-Architected Cloud Workloads, add new best practices, and bring the general availability of the AWS Well-Architected Agent for analyzing workloads and guiding remediation.",
       "author": "Haleh Najafzadeh",
       "publishedAt": "2026-11-16T20:03:26.000Z"
+    },
+    {
+      "guid": "e77041d35c2d4e0a098579fbff45e4d333272095",
+      "title": "How Rakbank built centralized observability at scale with Amazon OpenSearch Service",
+      "link": "https://aws.amazon.com/blogs/architecture/how-rakbank-built-centralized-observability-at-scale-with-amazon-opensearch-service/",
+      "summary": "Rakbank re-platformed logging for its retail digital banking workloads on a cross-account, Multi-AZ Amazon OpenSearch Service design that ingests ~150 GB/day through Fluent Bit, using hot/UltraWarm/cold tiering and Amazon S3 archival for 7-year compliance retention and ~55% cost savings over an…",
+      "author": "Georges Hamieh",
+      "publishedAt": "2026-11-17T16:03:22.000Z"
     }
   ],
-  "totalIndexed": 62
+  "totalIndexed": 63
 }

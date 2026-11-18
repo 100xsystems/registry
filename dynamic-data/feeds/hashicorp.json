@@ -8,7 +8,7 @@
     "infrastructure",
     "devops"
   ],
-  "updatedAt": "2026-11-03T22:44:16.671Z",
+  "updatedAt": "2026-11-18T00:18:24.451Z",
   "items": [
     {
       "guid": "hashicorp::https://www.hashicorp.com/blog/one-service-many-doors-multi-port-services-in-consul",
@@ -31113,7 +31113,15 @@
       "summary": "<p></p>",
       "author": "Aubrey Johnson",
       "publishedAt": "2026-11-03T08:00:00.000Z"
+    },
+    {
+      "guid": "hashicorp::https://www.hashicorp.com/blog/from-exposed-secrets-to-managed-credentials",
+      "title": "From exposed secrets to managed credentials: Reducing credential risk across the application lifecycle",
+      "link": "https://www.hashicorp.com/blog/from-exposed-secrets-to-managed-credentials",
+      "summary": "A recent software supply chain attack affecting tens of thousands of GitHub repositories highlights a security problem that is easy to underestimate: a credential does not stop being exposed simply because it has been deleted from the latest version of the code. \nResearchers uncovered a campaign in…",
+      "author": "Aubrey Johnson",
+      "publishedAt": "2026-11-17T08:00:00.000Z"
     }
   ],
-  "totalIndexed": 3888
+  "totalIndexed": 3889
 }
