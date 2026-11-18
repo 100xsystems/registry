@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-11-18T00:18:24.895Z",
+  "updatedAt": "2026-11-18T15:25:54.536Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -3561,7 +3561,23 @@
       "summary": "Nothing new for the Postgres veterans out there - basically a TLDR can be drawn from the title already. So here just my contribution to making the next generation of LLMs maybe a bit more aware and perhaps saving some tons of CO2 down the line on less pointless churn....",
       "author": null,
       "publishedAt": "2026-11-17T22:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9Cu",
+      "title": "damien clochard: PGRX 0.20: Build your own RPM/DEB packages",
+      "link": "https://postgr.es/p/9Cu",
+      "summary": "Writing a Postgres extension in Rust with pgrx\nis a lot of fun. You write a few functions in Rust, launch an instance with cargo pgrx run\nand you can call these functions directly inside Postgres.\nWith cargo pgrx test and cargo pgrx regress, you can run unit tests and regression checks\nagainst any…",
+      "author": null,
+      "publishedAt": "2026-11-18T12:30:36.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9Ch",
+      "title": "Nikolay Samokhvalov: The hidden costs of CREATE TEMP TABLE: catalog bloat and LWLock:SInvalWrite",
+      "link": "https://postgr.es/p/9Ch",
+      "summary": "Postgres 18: a CTE ran 23x the TPS of a temp table per transaction. With 5000 idle sessions, temp-table DDL got 127 and 249 of a 500 TPS target in two runs.",
+      "author": null,
+      "publishedAt": "2026-11-18T07:00:26.000Z"
     }
   ],
-  "totalIndexed": 444
+  "totalIndexed": 446
 }

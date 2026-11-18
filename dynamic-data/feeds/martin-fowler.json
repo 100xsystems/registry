@@ -9,7 +9,7 @@
     "refactoring",
     "design"
   ],
-  "updatedAt": "2026-11-17T15:45:18.212Z",
+  "updatedAt": "2026-11-18T15:25:54.328Z",
   "items": [
     {
       "guid": "martin-fowler::https://martinfowler.com/fragments/2026-07-21.html",
@@ -578,7 +578,15 @@
       "summary": "Distributed systems are hard to test because partial failures overlap\n     with live traffic and the same fault can produce different execution traces\n     on different runs. Unmesh Joshi describes how\n     deterministic simulation testing addresses this by replacing real clocks,\n     networks, and…",
       "author": "Martin Fowler",
       "publishedAt": "2026-11-17T14:33:00.000Z"
+    },
+    {
+      "guid": "martin-fowler::https://martinfowler.com/articles/data-contracts.html",
+      "title": "Data Contracts",
+      "link": "https://martinfowler.com/articles/data-contracts.html",
+      "summary": "Data contracts are a way to describe the contents and guarantees of\n     datasets. Simon Harrer and Arif Wider\n     describe in detail what they are and how to use them. They apply practices\n     from API design to data by treating them as data-providing services - such\n     as data products -…",
+      "author": "Martin Fowler",
+      "publishedAt": "2026-11-18T14:02:00.000Z"
     }
   ],
-  "totalIndexed": 71
+  "totalIndexed": 72
 }

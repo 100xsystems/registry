@@ -2,64 +2,88 @@
 
 - Previous total: 6399
 - Current total: 6399
-- Added: 1
-- Removed: 1
-- Updated: 11
+- Added: 0
+- Removed: 0
+- Updated: 17
 
-
-## Added Companies
-
-- [Everest](https://www.ycombinator.com/companies/everest) (Fall 2025) — 
-
-## Removed Companies
-
-- Operon (Summer 2026)
 
 ## Updated Companies
 
-### [Haystack](https://www.ycombinator.com/companies/haystack)
+### [Mino Games](https://www.ycombinator.com/companies/mino-games)
+
+- `regions`: United States of America,Canada,America / Canada → United States of America,Canada,America / Canada,America / Canada
+
+### [AssemblyAI](https://www.ycombinator.com/companies/assemblyai)
+
+- `stage`: Early → Growth
+
+### [NewsCatcher](https://www.ycombinator.com/companies/newscatcher)
 
 - `isHiring`: true → false
 
-### [erad](https://www.ycombinator.com/companies/erad)
+### [Skyhook](https://www.ycombinator.com/companies/skyhook)
 
-- `isHiring`: true → false
+- `all_locations`: Tel Aviv-Yafo, Tel Aviv District, Israel → San Francisco, CA, USA
+- `one_liner`: PaaS-like experience with the power of Kubernetes, on your cloud → Radar: the missing Kubernetes interface for humans and agents
+- `team_size`: 7 → 5
+- `regions`: Israel,Middle East and North Africa,Remote,Partly Remote → United States of America,America / Canada,Remote,Partly Remote
 
 ### [SyntheticFi](https://www.ycombinator.com/companies/syntheticfi)
 
-- `isHiring`: true → false
+- `isHiring`: false → true
 
-### [Clearly AI](https://www.ycombinator.com/companies/clearly-ai)
+### [Vendra](https://www.ycombinator.com/companies/vendra)
 
-- `isHiring`: true → false
+- `stage`: Early → Growth
 
-### [Revyl](https://www.ycombinator.com/companies/revyl)
+### [Netter](https://www.ycombinator.com/companies/netter)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/1eca61dd3b32e7b0f7174161cd567ec823504e49.png → https://bookface-images.s3.amazonaws.com/small_logos/458ba81a61b61cbeb935df37692dec157089e786.png
-- `one_liner`: The Mobile Development Platform → Verification infrastructure for cloud agents
+- `one_liner`: AI agents for data science (enterprise) → AI-powered data platform for business teams
+- `team_size`: 4 → 6
+- `isHiring`: false → true
 
-### [Cardinal](https://www.ycombinator.com/companies/trycardinal-ai)
+### [Grade](https://www.ycombinator.com/companies/grade)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/d43ea540df5b52aa22859c18efe346d103078bc1.png → https://bookface-images.s3.amazonaws.com/small_logos/7adbe5d6f0f24ea69169384d2e4f7be160242d78.png
+- `one_liner`: API for performance-based payroll → The AI agent for affiliate and creator programs.
+- `tags`: Fintech,Payments,Payroll,AI → Fintech,Payments,Marketing,AI
 
-### [Verno](https://www.ycombinator.com/companies/verno)
+### [Collar](https://www.ycombinator.com/companies/collar)
 
-- `one_liner`: AI engineering industrials like chip fabs, refineries and power plants → AI that executes engineering for chip fabs, energy, and power plants
+- `tags`: Generative AI,SaaS,B2B,Enterprise,AI → Fintech,Generative AI,SaaS,B2B,AI
 
-### [Caveman](https://www.ycombinator.com/companies/caveman)
+### [Foaster](https://www.ycombinator.com/companies/foaster)
 
-- `one_liner`: Infrastructure to make AI agents cheaper to run. → Infrastructure for efficient AI 
+- `all_locations`: San Francisco, CA, USA → New York City, NY, USA
 
-### [Rezora IO](https://www.ycombinator.com/companies/rezora-io)
+### [YouArt](https://www.ycombinator.com/companies/youart)
 
-- `subindustry`: B2B → B2B -> Operations
-- `tags`: Home Services,AI,Conversational AI,AI Assistant → Customer Service,Home Services,AI,Conversational AI,AI Assistant
-- `industries`: B2B → B2B,Operations
+- `one_liner`: Patreon for AI Originals → Codex for creative team
+- `industry`: Consumer → B2B
+- `subindustry`: Consumer -> Content → B2B -> Marketing
+- `industries`: Consumer,Content → B2B,Marketing
 
-### [Lark](https://www.ycombinator.com/companies/lark-2)
+### [Speko](https://www.ycombinator.com/companies/speko)
 
-- `tags`: B2B,Supply Chain,AI → Warehouse Management Tech,B2B,Supply Chain,AI
+- `website`: https://speko.ai/?utm_source=ycombinator&utm_medium=profile → https://speko.com/?utm_source=ycombinator&utm_medium=profile
 
-### [Contour](https://www.ycombinator.com/companies/contourholdings)
+### [Agnost AI](https://www.ycombinator.com/companies/agnost-ai)
 
-- `one_liner`: AI-native environmental permitting & compliance for America’s buildout → AI-native permitting for Americas buildout
+- `one_liner`: We find where AI agents fail, then train better models to run them. → We find where AI agents fail, then train better models to run them
+
+### [ByteAsk](https://www.ycombinator.com/companies/byteask)
+
+- `one_liner`: The AI coding agent for C and C++ → The AI coding agent for C, C++ and CUDA
+- `team_size`: 3 → 2
+
+### [Halmos Labs](https://www.ycombinator.com/companies/halmos-labs)
+
+- `one_liner`: Rebuilding drug development for automation → The execution layer for autonomous drug development
+
+### [Resin Technologies](https://www.ycombinator.com/companies/resin-technologies)
+
+- `website`: https://resineda.com/ → https://resintechnologies.com/
+- `one_liner`: Resin helps engineers design electronics faster and more reliably → Resin is an AI-enabled electronics firm
+
+### [Dualizer](https://www.ycombinator.com/companies/dualizer)
+
+- `one_liner`: AI-powered physical simulation to design/optimize chemical processes → Agentic physics simulation that debottleneck manufacturing

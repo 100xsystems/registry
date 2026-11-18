@@ -9,7 +9,7 @@
     "performance",
     "edge-computing"
   ],
-  "updatedAt": "2026-11-17T20:29:59.772Z",
+  "updatedAt": "2026-11-18T15:25:54.221Z",
   "items": [
     {
       "guid": "01KY2432VQPD5FTF2RARXXYQGH",
@@ -62482,7 +62482,15 @@
       "summary": "Quad9's forced withdrawal from France highlights the dangers of mandating DNS-level blocking. We explore why forcing public resolvers to act as content filters is technically flawed and threatens the open Internet.",
       "author": "Patrick Nemeroff",
       "publishedAt": "2026-11-17T20:24:27.000Z"
+    },
+    {
+      "guid": "01M7QERD06VJ8ESJENBCYJESX5",
+      "title": "How Cloudflare WAF helps protect against Java4Shell (CVE-2026-114938)",
+      "link": "https://blog.cloudflare.com/java4shell-waf-protection/",
+      "summary": "Java4Shell is a critical memory-corruption flaw in OpenJDK's Base64 decoder that can lead to remote code execution. Cloudflare has released six WAF managed rules for paid plans that logs matching requests by default. Patch your Java runtimes now.",
+      "author": "Denzil Correa",
+      "publishedAt": "2026-11-18T14:52:10.000Z"
     }
   ],
-  "totalIndexed": 7809
+  "totalIndexed": 7810
 }

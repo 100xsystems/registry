@@ -1,101 +1,54 @@
 {
   "date": "2026-11-18",
-  "fetchedAt": "2026-11-18T06:07:21.075Z",
+  "fetchedAt": "2026-11-18T15:26:11.217Z",
   "previousCount": 6399,
   "currentCount": 6399,
-  "added": [
-    {
-      "id": 30940,
-      "name": "Everest",
-      "slug": "everest",
-      "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/f72f7790d8bf3b1bd1e22c33c744503ff17f84d0.png",
-      "website": "https://everestmanagedai.com/",
-      "all_locations": "San Francisco, CA, USA",
-      "long_description": "",
-      "one_liner": "",
-      "team_size": 0,
-      "highlight_black": false,
-      "highlight_latinx": false,
-      "highlight_women": false,
-      "industry": "B2B",
-      "subindustry": "B2B",
-      "launched_at": 1756073155,
-      "tags": [
-        "B2B"
-      ],
-      "tags_highlighted": [],
-      "top_company": false,
-      "isHiring": false,
-      "nonprofit": false,
-      "batch": "Fall 2025",
-      "status": "Active",
-      "industries": [
-        "B2B"
-      ],
-      "regions": [
-        "United States of America",
-        "America / Canada"
-      ],
-      "stage": "Early",
-      "app_video_public": false,
-      "demo_day_video_public": false,
-      "app_answers": null,
-      "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/everest"
-    }
-  ],
-  "removed": [
-    {
-      "id": 33013,
-      "name": "Operon",
-      "slug": "operon",
-      "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/aaeb7f2ff7aa5b0b7e64888230be2a7e46342f66.png",
-      "website": "https://operonsolutions.com/en",
-      "all_locations": "San Francisco, CA, USA",
-      "long_description": "Operon is the data intelligence layer for heavy industry. We ingest the messy documents a plant runs on (P&IDs, schematics, datasheets, scans) and turn them into one structured, queryable model of the facility.\r\n\r\nOn top of it, engineers query their plant in natural language and build agentic workflows for safety, compliance, and design. \r\n\r\n",
-      "one_liner": "Agentic data layer for manufacturing & process industries. ",
-      "team_size": 0,
-      "highlight_black": false,
-      "highlight_latinx": false,
-      "highlight_women": false,
-      "industry": "Industrials",
-      "subindustry": "Industrials",
-      "launched_at": 1782593141,
-      "tags": [
-        "Computer Vision",
-        "Manufacturing",
-        "Infrastructure"
-      ],
-      "tags_highlighted": [],
-      "top_company": false,
-      "isHiring": true,
-      "nonprofit": false,
-      "batch": "Summer 2026",
-      "status": "Active",
-      "industries": [
-        "Industrials"
-      ],
-      "regions": [
-        "United States of America",
-        "America / Canada"
-      ],
-      "stage": "Early",
-      "app_video_public": false,
-      "demo_day_video_public": false,
-      "app_answers": null,
-      "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/operon"
-    }
-  ],
+  "added": [],
+  "removed": [],
   "updated": [
     {
-      "id": 23259,
-      "name": "Haystack",
-      "slug": "haystack",
-      "batch": "Winter 2021",
-      "url": "https://www.ycombinator.com/companies/haystack",
+      "id": 164,
+      "name": "Mino Games",
+      "slug": "mino-games",
+      "batch": "Winter 2011",
+      "url": "https://www.ycombinator.com/companies/mino-games",
+      "changes": [
+        {
+          "field": "regions",
+          "before": [
+            "United States of America",
+            "Canada",
+            "America / Canada"
+          ],
+          "after": [
+            "United States of America",
+            "Canada",
+            "America / Canada",
+            "America / Canada"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1687,
+      "name": "AssemblyAI",
+      "slug": "assemblyai",
+      "batch": "Summer 2017",
+      "url": "https://www.ycombinator.com/companies/assemblyai",
+      "changes": [
+        {
+          "field": "stage",
+          "before": "Early",
+          "after": "Growth"
+        }
+      ]
+    },
+    {
+      "id": 26860,
+      "name": "NewsCatcher",
+      "slug": "newscatcher",
+      "batch": "Summer 2022",
+      "url": "https://www.ycombinator.com/companies/newscatcher",
       "changes": [
         {
           "field": "isHiring",
@@ -105,16 +58,41 @@
       ]
     },
     {
-      "id": 26716,
-      "name": "erad",
-      "slug": "erad",
-      "batch": "Summer 2022",
-      "url": "https://www.ycombinator.com/companies/erad",
+      "id": 28192,
+      "name": "Skyhook",
+      "slug": "skyhook",
+      "batch": "Winter 2023",
+      "url": "https://www.ycombinator.com/companies/skyhook",
       "changes": [
         {
-          "field": "isHiring",
-          "before": true,
-          "after": false
+          "field": "all_locations",
+          "before": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+          "after": "San Francisco, CA, USA"
+        },
+        {
+          "field": "one_liner",
+          "before": "PaaS-like experience with the power of Kubernetes, on your cloud",
+          "after": "Radar: the missing Kubernetes interface for humans and agents"
+        },
+        {
+          "field": "team_size",
+          "before": 7,
+          "after": 5
+        },
+        {
+          "field": "regions",
+          "before": [
+            "Israel",
+            "Middle East and North Africa",
+            "Remote",
+            "Partly Remote"
+          ],
+          "after": [
+            "United States of America",
+            "America / Canada",
+            "Remote",
+            "Partly Remote"
+          ]
         }
       ]
     },
@@ -127,160 +105,244 @@
       "changes": [
         {
           "field": "isHiring",
-          "before": true,
-          "after": false
+          "before": false,
+          "after": true
         }
       ]
     },
     {
-      "id": 29729,
-      "name": "Clearly AI",
-      "slug": "clearly-ai",
+      "id": 29814,
+      "name": "Vendra",
+      "slug": "vendra",
       "batch": "Summer 2024",
-      "url": "https://www.ycombinator.com/companies/clearly-ai",
+      "url": "https://www.ycombinator.com/companies/vendra",
       "changes": [
         {
-          "field": "isHiring",
-          "before": true,
-          "after": false
+          "field": "stage",
+          "before": "Early",
+          "after": "Growth"
         }
       ]
     },
     {
-      "id": 30041,
-      "name": "Revyl",
-      "slug": "revyl",
-      "batch": "Fall 2024",
-      "url": "https://www.ycombinator.com/companies/revyl",
+      "id": 31221,
+      "name": "Netter",
+      "slug": "netter",
+      "batch": "Spring 2026",
+      "url": "https://www.ycombinator.com/companies/netter",
       "changes": [
         {
-          "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/1eca61dd3b32e7b0f7174161cd567ec823504e49.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/458ba81a61b61cbeb935df37692dec157089e786.png"
+          "field": "one_liner",
+          "before": "AI agents for data science (enterprise)",
+          "after": "AI-powered data platform for business teams"
         },
         {
-          "field": "one_liner",
-          "before": "The Mobile Development Platform",
-          "after": "Verification infrastructure for cloud agents"
+          "field": "team_size",
+          "before": 4,
+          "after": 6
+        },
+        {
+          "field": "isHiring",
+          "before": false,
+          "after": true
         }
       ]
     },
     {
-      "id": 31311,
-      "name": "Cardinal",
-      "slug": "trycardinal-ai",
+      "id": 31255,
+      "name": "Grade",
+      "slug": "grade",
       "batch": "Winter 2026",
-      "url": "https://www.ycombinator.com/companies/trycardinal-ai",
-      "changes": [
-        {
-          "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/d43ea540df5b52aa22859c18efe346d103078bc1.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/7adbe5d6f0f24ea69169384d2e4f7be160242d78.png"
-        }
-      ]
-    },
-    {
-      "id": 35949,
-      "name": "Verno",
-      "slug": "verno",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/verno",
+      "url": "https://www.ycombinator.com/companies/grade",
       "changes": [
         {
           "field": "one_liner",
-          "before": "AI engineering industrials like chip fabs, refineries and power plants",
-          "after": "AI that executes engineering for chip fabs, energy, and power plants"
-        }
-      ]
-    },
-    {
-      "id": 37038,
-      "name": "Caveman",
-      "slug": "caveman",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/caveman",
-      "changes": [
-        {
-          "field": "one_liner",
-          "before": "Infrastructure to make AI agents cheaper to run.",
-          "after": "Infrastructure for efficient AI "
-        }
-      ]
-    },
-    {
-      "id": 37171,
-      "name": "Rezora IO",
-      "slug": "rezora-io",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/rezora-io",
-      "changes": [
-        {
-          "field": "subindustry",
-          "before": "B2B",
-          "after": "B2B -> Operations"
+          "before": "API for performance-based payroll",
+          "after": "The AI agent for affiliate and creator programs."
         },
         {
           "field": "tags",
           "before": [
-            "Home Services",
-            "AI",
-            "Conversational AI",
-            "AI Assistant"
+            "Fintech",
+            "Payments",
+            "Payroll",
+            "AI"
           ],
           "after": [
-            "Customer Service",
-            "Home Services",
-            "AI",
-            "Conversational AI",
-            "AI Assistant"
+            "Fintech",
+            "Payments",
+            "Marketing",
+            "AI"
           ]
+        }
+      ]
+    },
+    {
+      "id": 31461,
+      "name": "Collar",
+      "slug": "collar",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/collar",
+      "changes": [
+        {
+          "field": "tags",
+          "before": [
+            "Generative AI",
+            "SaaS",
+            "B2B",
+            "Enterprise",
+            "AI"
+          ],
+          "after": [
+            "Fintech",
+            "Generative AI",
+            "SaaS",
+            "B2B",
+            "AI"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 31488,
+      "name": "Foaster",
+      "slug": "foaster",
+      "batch": "Spring 2026",
+      "url": "https://www.ycombinator.com/companies/foaster",
+      "changes": [
+        {
+          "field": "all_locations",
+          "before": "San Francisco, CA, USA",
+          "after": "New York City, NY, USA"
+        }
+      ]
+    },
+    {
+      "id": 31517,
+      "name": "YouArt",
+      "slug": "youart",
+      "batch": "Spring 2026",
+      "url": "https://www.ycombinator.com/companies/youart",
+      "changes": [
+        {
+          "field": "one_liner",
+          "before": "Patreon for AI Originals",
+          "after": "Codex for creative team"
+        },
+        {
+          "field": "industry",
+          "before": "Consumer",
+          "after": "B2B"
+        },
+        {
+          "field": "subindustry",
+          "before": "Consumer -> Content",
+          "after": "B2B -> Marketing"
         },
         {
           "field": "industries",
           "before": [
-            "B2B"
+            "Consumer",
+            "Content"
           ],
           "after": [
             "B2B",
-            "Operations"
+            "Marketing"
           ]
         }
       ]
     },
     {
-      "id": 37601,
-      "name": "Lark",
-      "slug": "lark-2",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/lark-2",
+      "id": 32169,
+      "name": "Speko",
+      "slug": "speko",
+      "batch": "Summer 2026",
+      "url": "https://www.ycombinator.com/companies/speko",
       "changes": [
         {
-          "field": "tags",
-          "before": [
-            "B2B",
-            "Supply Chain",
-            "AI"
-          ],
-          "after": [
-            "Warehouse Management Tech",
-            "B2B",
-            "Supply Chain",
-            "AI"
-          ]
+          "field": "website",
+          "before": "https://speko.ai/?utm_source=ycombinator&utm_medium=profile",
+          "after": "https://speko.com/?utm_source=ycombinator&utm_medium=profile"
         }
       ]
     },
     {
-      "id": 37665,
-      "name": "Contour",
-      "slug": "contourholdings",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/contourholdings",
+      "id": 33019,
+      "name": "Agnost AI",
+      "slug": "agnost-ai",
+      "batch": "Summer 2026",
+      "url": "https://www.ycombinator.com/companies/agnost-ai",
       "changes": [
         {
           "field": "one_liner",
-          "before": "AI-native environmental permitting & compliance for America’s buildout",
-          "after": "AI-native permitting for Americas buildout"
+          "before": "We find where AI agents fail, then train better models to run them.",
+          "after": "We find where AI agents fail, then train better models to run them"
+        }
+      ]
+    },
+    {
+      "id": 35289,
+      "name": "ByteAsk",
+      "slug": "byteask",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/byteask",
+      "changes": [
+        {
+          "field": "one_liner",
+          "before": "The AI coding agent for C and C++",
+          "after": "The AI coding agent for C, C++ and CUDA"
+        },
+        {
+          "field": "team_size",
+          "before": 3,
+          "after": 2
+        }
+      ]
+    },
+    {
+      "id": 35883,
+      "name": "Halmos Labs",
+      "slug": "halmos-labs",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/halmos-labs",
+      "changes": [
+        {
+          "field": "one_liner",
+          "before": "Rebuilding drug development for automation",
+          "after": "The execution layer for autonomous drug development"
+        }
+      ]
+    },
+    {
+      "id": 35950,
+      "name": "Resin Technologies",
+      "slug": "resin-technologies",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/resin-technologies",
+      "changes": [
+        {
+          "field": "website",
+          "before": "https://resineda.com/",
+          "after": "https://resintechnologies.com/"
+        },
+        {
+          "field": "one_liner",
+          "before": "Resin helps engineers design electronics faster and more reliably",
+          "after": "Resin is an AI-enabled electronics firm"
+        }
+      ]
+    },
+    {
+      "id": 36543,
+      "name": "Dualizer",
+      "slug": "dualizer",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/dualizer",
+      "changes": [
+        {
+          "field": "one_liner",
+          "before": "AI-powered physical simulation to design/optimize chemical processes",
+          "after": "Agentic physics simulation that debottleneck manufacturing"
         }
       ]
     }
