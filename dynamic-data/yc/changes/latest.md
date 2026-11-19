@@ -2,60 +2,72 @@
 
 - Previous total: 6402
 - Current total: 6402
-- Added: 0
-- Removed: 0
-- Updated: 11
+- Added: 1
+- Removed: 1
+- Updated: 13
 
+
+## Added Companies
+
+- [Operon](https://www.ycombinator.com/companies/operon) (Winter 2027) — Agentic data layer for manufacturing & process industries. 
+
+## Removed Companies
+
+- neoncoral (Spring 2025)
 
 ## Updated Companies
 
-### [Senso](https://www.ycombinator.com/companies/senso)
+### [True Link](https://www.ycombinator.com/companies/true-link)
+
+- `stage`: Early → Growth
+
+### [Zenflow](https://www.ycombinator.com/companies/zenflow)
+
+- `stage`: Early → Growth
+
+### [Taiv](https://www.ycombinator.com/companies/taiv)
+
+- `stage`: Early → Growth
+
+### [Turing Labs Inc.](https://www.ycombinator.com/companies/turing-labs-inc)
+
+- `one_liner`: AI for R&D of consumer brands like P&G to develop better products → AI platform built for CPGs like Kraft and Unilever to optimize…
+- `team_size`: 5 → 13
+
+### [Zitara Technologies, Inc.](https://www.ycombinator.com/companies/zitara-technologies-inc)
+
+- `stage`: Early → Growth
+
+### [Syncly](https://www.ycombinator.com/companies/syncly)
 
 - `isHiring`: true → false
-- `status`: Active → Acquired
-
-### [Junction Bioscience](https://www.ycombinator.com/companies/junction-bioscience)
-
-- `one_liner`: AI Hypothesis Engine for Molecular Discovery → Industrializing structural biology: from months to minutes
-- `subindustry`: Healthcare -> Therapeutics → Healthcare -> Drug Discovery and Delivery
-- `industries`: Healthcare,Therapeutics → Healthcare,Drug Discovery and Delivery
-
-### [CrowdVolt](https://www.ycombinator.com/companies/crowdvolt)
-
-- `isHiring`: false → true
 
 ### [Conductor](https://www.ycombinator.com/companies/conductor)
 
-- `status`: Active → Acquired
-- `stage`: Growth → Early
+- `stage`: Early → Growth
 
-### [Wayline](https://www.ycombinator.com/companies/wayline)
+### [Design Arena](https://www.ycombinator.com/companies/design-arena)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/aa83a2cdabf22eb6acd4e5c54d4969ec37a0a549.png → https://bookface-images.s3.amazonaws.com/small_logos/90137cddea2189f3d0dd5c75165b0f486ad04ac0.png
-- `one_liner`: AI voice for property managers → AI operating system for multifamily leasing, maintenance, and…
-- `team_size`: 5 → 4
+- `stage`: Early → Growth
 
-### [TensorTest](https://www.ycombinator.com/companies/tensortest)
+### [Degla Inc](https://www.ycombinator.com/companies/degla-inc)
 
-- `website`: https://www.tensortest.com → https://tensortest.com
-- `one_liner`: Evals, RL environments and training data for creative tasks → AI training data, evals, and RL environments
+- `one_liner`: The fully autonomous intelligence layer in the sky. → Your intent. Onboard autonomous execution.
 
-### [AbInitio Bio](https://www.ycombinator.com/companies/abinitio-bio)
+### [tday.com](https://www.ycombinator.com/companies/tdaycom)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/a7b4f70c5d14e24fb5773ec42e56d354595bd134.png → https://bookface-images.s3.amazonaws.com/small_logos/a11693d089967ad864b03ccbd2babe536b2c4df8.png
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/e991737a0da388ef9f57789b22ba8b64f04be312.png → https://bookface-images.s3.amazonaws.com/small_logos/a145822bf641ed1c6676fee5617d73460ae37314.png
 
-### [Verdant](https://www.ycombinator.com/companies/verdant)
+### [Alkera AI](https://www.ycombinator.com/companies/alkera-ai)
 
-- `all_locations`: San Francisco, CA, USA → New York City, NY, USA
+- `one_liner`: Reliable and safe data engineering and data science agents → AI platform for enterprise data teams
+- `team_size`: 3 → 2
 
-### [Hemlock](https://www.ycombinator.com/companies/hemlock)
+### [Graphide](https://www.ycombinator.com/companies/graphide)
 
-- `one_liner`: Force + contact dynamics collected at scale for training physical AI. → Force data collected at scale for training physical AI.
+- `one_liner`: 10-20× faster CI runners + 24/7 agent cutting bloated CI bills 70+% → 10x faster and 70% cheaper than GH, with an agent managing your tests.
 
-### [Halmos Labs](https://www.ycombinator.com/companies/halmos-labs)
+### [Proto](https://www.ycombinator.com/companies/proto)
 
-- `one_liner`: The execution layer for autonomous drug development → One API to any physical experiment
-
-### [DeepMark](https://www.ycombinator.com/companies/deepmark)
-
-- `one_liner`: A live watermark inside AI voice that survives phone calls → Caller ID for Voice AI
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/866ee3646a792a9ad235a6201c3aae8380279ba8.png → https://bookface-images.s3.amazonaws.com/small_logos/7ab21c0364dd5d5ea58163ef389852dbc94c903f.png
+- `one_liner`: The product designer's coding agent → The coding agent for product design

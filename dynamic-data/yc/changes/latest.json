@@ -1,71 +1,186 @@
 {
   "date": "2026-11-19",
-  "fetchedAt": "2026-11-19T06:08:35.673Z",
+  "fetchedAt": "2026-11-19T15:31:17.578Z",
   "previousCount": 6402,
   "currentCount": 6402,
-  "added": [],
-  "removed": [],
+  "added": [
+    {
+      "id": 33013,
+      "name": "Operon",
+      "slug": "operon",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/aaeb7f2ff7aa5b0b7e64888230be2a7e46342f66.png",
+      "website": "https://operonsolutions.com/en",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "Operon is the data intelligence layer for heavy industry. We ingest the messy documents a plant runs on (P&IDs, schematics, datasheets, scans) and turn them into one structured, queryable model of the facility.\r\n\r\nOn top of it, engineers query their plant in natural language and build agentic workflows for safety, compliance, and design. \r\n\r\n",
+      "one_liner": "Agentic data layer for manufacturing & process industries. ",
+      "team_size": 0,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "Industrials",
+      "subindustry": "Industrials",
+      "launched_at": 1782593141,
+      "tags": [
+        "Computer Vision",
+        "Manufacturing",
+        "Infrastructure"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": true,
+      "nonprofit": false,
+      "batch": "Winter 2027",
+      "status": "Active",
+      "industries": [
+        "Industrials"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/operon"
+    }
+  ],
+  "removed": [
+    {
+      "id": 30423,
+      "name": "neoncoral",
+      "slug": "neoncoral",
+      "former_names": [
+        "Not incorporated"
+      ],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/36f438e6b8799c126e63ad2bfeefaf55ae7bf179.png",
+      "website": "http://neoncoral.inc",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "",
+      "one_liner": "",
+      "team_size": 1,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "Consumer",
+      "subindustry": "Consumer",
+      "launched_at": 1748371593,
+      "tags": [
+        "Consumer",
+        "Social Media",
+        "Social",
+        "AI"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Spring 2025",
+      "status": "Active",
+      "industries": [
+        "Consumer"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/neoncoral"
+    }
+  ],
   "updated": [
     {
-      "id": 29471,
-      "name": "Senso",
-      "slug": "senso",
-      "batch": "Winter 2024",
-      "url": "https://www.ycombinator.com/companies/senso",
+      "id": 563,
+      "name": "True Link",
+      "slug": "true-link",
+      "batch": "Summer 2013",
+      "url": "https://www.ycombinator.com/companies/true-link",
+      "changes": [
+        {
+          "field": "stage",
+          "before": "Early",
+          "after": "Growth"
+        }
+      ]
+    },
+    {
+      "id": 834,
+      "name": "Zenflow",
+      "slug": "zenflow",
+      "batch": "Winter 2015",
+      "url": "https://www.ycombinator.com/companies/zenflow",
+      "changes": [
+        {
+          "field": "stage",
+          "before": "Early",
+          "after": "Growth"
+        }
+      ]
+    },
+    {
+      "id": 13109,
+      "name": "Taiv",
+      "slug": "taiv",
+      "batch": "Winter 2020",
+      "url": "https://www.ycombinator.com/companies/taiv",
+      "changes": [
+        {
+          "field": "stage",
+          "before": "Early",
+          "after": "Growth"
+        }
+      ]
+    },
+    {
+      "id": 13218,
+      "name": "Turing Labs Inc.",
+      "slug": "turing-labs-inc",
+      "batch": "Winter 2020",
+      "url": "https://www.ycombinator.com/companies/turing-labs-inc",
+      "changes": [
+        {
+          "field": "one_liner",
+          "before": "AI for R&D of consumer brands like P&G to develop better products",
+          "after": "AI platform built for CPGs like Kraft and Unilever to optimize…"
+        },
+        {
+          "field": "team_size",
+          "before": 5,
+          "after": 13
+        }
+      ]
+    },
+    {
+      "id": 21788,
+      "name": "Zitara Technologies, Inc.",
+      "slug": "zitara-technologies-inc",
+      "batch": "Summer 2020",
+      "url": "https://www.ycombinator.com/companies/zitara-technologies-inc",
+      "changes": [
+        {
+          "field": "stage",
+          "before": "Early",
+          "after": "Growth"
+        }
+      ]
+    },
+    {
+      "id": 27685,
+      "name": "Syncly",
+      "slug": "syncly",
+      "batch": "Winter 2023",
+      "url": "https://www.ycombinator.com/companies/syncly",
       "changes": [
         {
           "field": "isHiring",
           "before": true,
           "after": false
-        },
-        {
-          "field": "status",
-          "before": "Active",
-          "after": "Acquired"
-        }
-      ]
-    },
-    {
-      "id": 29476,
-      "name": "Junction Bioscience",
-      "slug": "junction-bioscience",
-      "batch": "Winter 2024",
-      "url": "https://www.ycombinator.com/companies/junction-bioscience",
-      "changes": [
-        {
-          "field": "one_liner",
-          "before": "AI Hypothesis Engine for Molecular Discovery",
-          "after": "Industrializing structural biology: from months to minutes"
-        },
-        {
-          "field": "subindustry",
-          "before": "Healthcare -> Therapeutics",
-          "after": "Healthcare -> Drug Discovery and Delivery"
-        },
-        {
-          "field": "industries",
-          "before": [
-            "Healthcare",
-            "Therapeutics"
-          ],
-          "after": [
-            "Healthcare",
-            "Drug Discovery and Delivery"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 29508,
-      "name": "CrowdVolt",
-      "slug": "crowdvolt",
-      "batch": "Winter 2024",
-      "url": "https://www.ycombinator.com/companies/crowdvolt",
-      "changes": [
-        {
-          "field": "isHiring",
-          "before": false,
-          "after": true
         }
       ]
     },
@@ -77,127 +192,103 @@
       "url": "https://www.ycombinator.com/companies/conductor",
       "changes": [
         {
-          "field": "status",
-          "before": "Active",
-          "after": "Acquired"
-        },
-        {
           "field": "stage",
-          "before": "Growth",
-          "after": "Early"
+          "before": "Early",
+          "after": "Growth"
         }
       ]
     },
     {
-      "id": 30364,
-      "name": "Wayline",
-      "slug": "wayline",
+      "id": 30637,
+      "name": "Design Arena",
+      "slug": "design-arena",
       "batch": "Summer 2025",
-      "url": "https://www.ycombinator.com/companies/wayline",
+      "url": "https://www.ycombinator.com/companies/design-arena",
+      "changes": [
+        {
+          "field": "stage",
+          "before": "Early",
+          "after": "Growth"
+        }
+      ]
+    },
+    {
+      "id": 31452,
+      "name": "Degla Inc",
+      "slug": "degla-inc",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/degla-inc",
+      "changes": [
+        {
+          "field": "one_liner",
+          "before": "The fully autonomous intelligence layer in the sky.",
+          "after": "Your intent. Onboard autonomous execution."
+        }
+      ]
+    },
+    {
+      "id": 31455,
+      "name": "tday.com",
+      "slug": "tdaycom",
+      "batch": "Spring 2026",
+      "url": "https://www.ycombinator.com/companies/tdaycom",
       "changes": [
         {
           "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/aa83a2cdabf22eb6acd4e5c54d4969ec37a0a549.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/90137cddea2189f3d0dd5c75165b0f486ad04ac0.png"
-        },
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/e991737a0da388ef9f57789b22ba8b64f04be312.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/a145822bf641ed1c6676fee5617d73460ae37314.png"
+        }
+      ]
+    },
+    {
+      "id": 32262,
+      "name": "Alkera AI",
+      "slug": "alkera-ai",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/alkera-ai",
+      "changes": [
         {
           "field": "one_liner",
-          "before": "AI voice for property managers",
-          "after": "AI operating system for multifamily leasing, maintenance, and…"
+          "before": "Reliable and safe data engineering and data science agents",
+          "after": "AI platform for enterprise data teams"
         },
         {
           "field": "team_size",
-          "before": 5,
-          "after": 4
+          "before": 3,
+          "after": 2
         }
       ]
     },
     {
-      "id": 31276,
-      "name": "TensorTest",
-      "slug": "tensortest",
-      "batch": "Winter 2026",
-      "url": "https://www.ycombinator.com/companies/tensortest",
+      "id": 36513,
+      "name": "Graphide",
+      "slug": "graphide",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/graphide",
       "changes": [
         {
-          "field": "website",
-          "before": "https://www.tensortest.com",
-          "after": "https://tensortest.com"
-        },
-        {
           "field": "one_liner",
-          "before": "Evals, RL environments and training data for creative tasks",
-          "after": "AI training data, evals, and RL environments"
+          "before": "10-20× faster CI runners + 24/7 agent cutting bloated CI bills 70+%",
+          "after": "10x faster and 70% cheaper than GH, with an agent managing your tests."
         }
       ]
     },
     {
-      "id": 31484,
-      "name": "AbInitio Bio",
-      "slug": "abinitio-bio",
-      "batch": "Spring 2026",
-      "url": "https://www.ycombinator.com/companies/abinitio-bio",
+      "id": 38029,
+      "name": "Proto",
+      "slug": "proto",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/proto",
       "changes": [
         {
           "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/a7b4f70c5d14e24fb5773ec42e56d354595bd134.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/a11693d089967ad864b03ccbd2babe536b2c4df8.png"
-        }
-      ]
-    },
-    {
-      "id": 32189,
-      "name": "Verdant",
-      "slug": "verdant",
-      "batch": "Summer 2026",
-      "url": "https://www.ycombinator.com/companies/verdant",
-      "changes": [
-        {
-          "field": "all_locations",
-          "before": "San Francisco, CA, USA",
-          "after": "New York City, NY, USA"
-        }
-      ]
-    },
-    {
-      "id": 35522,
-      "name": "Hemlock",
-      "slug": "hemlock",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/hemlock",
-      "changes": [
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/866ee3646a792a9ad235a6201c3aae8380279ba8.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/7ab21c0364dd5d5ea58163ef389852dbc94c903f.png"
+        },
         {
           "field": "one_liner",
-          "before": "Force + contact dynamics collected at scale for training physical AI.",
-          "after": "Force data collected at scale for training physical AI."
-        }
-      ]
-    },
-    {
-      "id": 35883,
-      "name": "Halmos Labs",
-      "slug": "halmos-labs",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/halmos-labs",
-      "changes": [
-        {
-          "field": "one_liner",
-          "before": "The execution layer for autonomous drug development",
-          "after": "One API to any physical experiment"
-        }
-      ]
-    },
-    {
-      "id": 38127,
-      "name": "DeepMark",
-      "slug": "deepmark",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/deepmark",
-      "changes": [
-        {
-          "field": "one_liner",
-          "before": "A live watermark inside AI voice that survives phone calls",
-          "after": "Caller ID for Voice AI"
+          "before": "The product designer's coding agent",
+          "after": "The coding agent for product design"
         }
       ]
     }

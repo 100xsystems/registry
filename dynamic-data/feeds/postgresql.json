@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-11-18T23:44:40.381Z",
+  "updatedAt": "2026-11-19T15:31:04.799Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -3593,7 +3593,31 @@
       "summary": "Since June 2026, PostgreSQL security fixes have had a home of their own: a private git repository holding every pending fix as a stack of patches, and a private buildfarm that builds and tests that stack across every supported branch, continuously, before anything goes public.\nThe problem\nSecurity…",
       "author": null,
       "publishedAt": "2026-11-18T20:36:15.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9CR",
+      "title": "David Wheeler: pg_clickhouse 0.11.1: Now with pgvector, UPDATE, DELETE pushdown",
+      "link": "https://postgr.es/p/9CR",
+      "summary": "Don't let the minor version increment fool you: pg_clickhouse v0.11.1, released last week, delivers a slew of improvements and bug fixes, including UPDATE, DELETE, TRUNCATE, and pgvector search pushdown.\npgvector type mapping\nLet's start with the latter: pgvector type mapping. Given this ClickHouse…",
+      "author": null,
+      "publishedAt": "2026-11-19T11:52:49.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9CQ",
+      "title": "Radim Marek: Your biggest tenant runs someone else's plan",
+      "link": "https://postgr.es/p/9CQ",
+      "summary": "This one started with RegreSQL. Since The tests passed. The plan didn't. I've been loading production statistics into empty databases to see how much the plans alone can tell about a real workload. One paginated endpoint in a multi-tenant app wouldn't line up. Its plan was cheap, a cost of a few…",
+      "author": null,
+      "publishedAt": "2026-11-19T11:30:46.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9CP",
+      "title": "Cornelia Biacsics: Contributions for week 45",
+      "link": "https://postgr.es/p/9CP",
+      "summary": "The following speakers delivered sessions about PostgreSQL at PASS Data Community Summit, which happened from 9-11 November 2026:\nGrant Fritchey\nPat Wright\nDavid Wagoner\nIshan Sinha\nAdam Machanic\nRick Lowe\nVanshika Nigam\nAmit Arora\nOn 10 November, the San Francisco Bay Area PostgreSQL Meetup Group…",
+      "author": null,
+      "publishedAt": "2026-11-19T11:27:11.000Z"
     }
   ],
-  "totalIndexed": 448
+  "totalIndexed": 451
 }

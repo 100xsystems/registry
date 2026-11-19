@@ -8,7 +8,7 @@
     "vector-databases",
     "infrastructure"
   ],
-  "updatedAt": "2026-11-18T00:18:32.288Z",
+  "updatedAt": "2026-11-19T15:31:10.998Z",
   "items": [
     {
       "guid": "https://www.pinecone.io/blog/behind-the-benchmarking-pipeline/",
@@ -4969,7 +4969,15 @@
       "summary": "With vector-to-document index conversion, Pinecone converts a legacy vector index to a new document index in one job while the legacy vector index keeps serving traffic.",
       "author": null,
       "publishedAt": "2026-11-17T16:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/pg-pinecone-railway/",
+      "title": "pg_pinecone now deploys on Railway in one click",
+      "link": "https://www.pinecone.io/blog/pg-pinecone-railway/",
+      "summary": "The Railway template for pg_pinecone deploys Postgres with Pinecone's vector search built in. Its index uses less memory than pgvector, so it costs less to run.",
+      "author": null,
+      "publishedAt": "2026-11-18T16:00:00.000Z"
     }
   ],
-  "totalIndexed": 620
+  "totalIndexed": 621
 }

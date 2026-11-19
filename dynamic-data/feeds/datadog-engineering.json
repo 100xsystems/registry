@@ -8,7 +8,7 @@
     "monitoring",
     "infrastructure"
   ],
-  "updatedAt": "2026-11-17T15:45:25.916Z",
+  "updatedAt": "2026-11-19T15:31:10.515Z",
   "items": [
     {
       "guid": "https://www.datadoghq.com/blog/engineering/jfr-cpu-time-profiling/",
@@ -29905,7 +29905,23 @@
       "summary": "At Microsoft Ignite 2026, Datadog is announcing expanded Azure monitoring with 55 new integrations for AI workloads, cost management, and issue investigation.",
       "author": null,
       "publishedAt": "2026-11-17T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.datadoghq.com/blog/engineering/semantic-translation-otel/",
+      "title": "How Datadog resolves evolving OpenTelemetry semantics at query time",
+      "link": "https://www.datadoghq.com/blog/engineering/semantic-translation-otel/",
+      "summary": "OpenTelemetry conventions evolve, but queries still need to work across old, current, and Datadog-native telemetry. Learn how Datadog uses a knowledge graph and query-time translation to resolve conditional semantic equivalences and validate them against real data.",
+      "author": null,
+      "publishedAt": "2026-11-19T00:00:00.000Z"
+    },
+    {
+      "guid": "https://www.datadoghq.com/blog/flex-logs-bring-your-own-bucket/",
+      "title": "Retain more logs for longer with Flex Logs BYOBucket",
+      "link": "https://www.datadoghq.com/blog/flex-logs-bring-your-own-bucket/",
+      "summary": "Store Flex Logs in your cloud bucket with unlimited retention to control storage costs and keep logs searchable in Datadog for investigations and audits.",
+      "author": null,
+      "publishedAt": "2026-11-19T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 3737
+  "totalIndexed": 3739
 }

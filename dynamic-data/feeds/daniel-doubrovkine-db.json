@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-11-15T18:30:30.369Z",
+  "updatedAt": "2026-11-19T15:31:04.957Z",
   "items": [
     {
       "guid": "daniel-doubrovkine-db::https://code.dblock.org/2026/05/05/coding-with-ai-agents-is-now-a-baseline-expectation-for-managers.html",
@@ -223,7 +223,15 @@
       "summary": "I organize a weekly figure-drawing session at Enoch’s Arts & Coffee in Manhattan. It runs every Monday at 6:30pm and costs $20. It’s regularly attended and we were even written up in W42ST. Like any small event, it comes with the usual collection of emails, date juggling, private contact details,…",
       "author": "Daniel Doubrovkine",
       "publishedAt": "2026-11-15T00:00:00.000Z"
+    },
+    {
+      "guid": "daniel-doubrovkine-db::https://code.dblock.org/2026/11/19/automatic-rspec-sharding-on-github-actions.html",
+      "title": "Automatic RSpec Sharding on GitHub Actions",
+      "link": "https://code.dblock.org/2026/11/19/automatic-rspec-sharding-on-github-actions.html",
+      "summary": "Running RSpec on eight workers got Posebook, a custom Rails CMS, from more than six minutes of RSpec time to about one using parallel_tests-ci that I built to adjust shards automatically as tests get faster or slower, without repeating the GitHub Actions boilerplate for splitting files, running…",
+      "author": "Daniel Doubrovkine",
+      "publishedAt": "2026-11-19T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 27
+  "totalIndexed": 28
 }

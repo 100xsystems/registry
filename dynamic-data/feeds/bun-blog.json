@@ -8,7 +8,7 @@
     "performance",
     "runtime"
   ],
-  "updatedAt": "2026-10-22T11:30:02.444Z",
+  "updatedAt": "2026-11-19T15:31:04.195Z",
   "items": [
     {
       "guid": "https://bun.com/blog/bun-in-rust",
@@ -449,7 +449,15 @@
       "summary": "Fixes 271 issues, addressing 544 👍. bun fmt, a Prettier-compatible formatter built into Bun that is 3x to 6x faster than oxfmt, bun check is 1.4x to 7.8x faster on large projects, bun install migrates Yarn Berry lockfiles, retries with exponential backoff and closes 133 issues, up to 3.2x faster…",
       "author": null,
       "publishedAt": "2026-10-22T00:58:24.000Z"
+    },
+    {
+      "guid": "https://bun.com/blog/bun-v1.4.5",
+      "title": "Bun v1.4.5",
+      "link": "https://bun.com/blog/bun-v1.4.5",
+      "summary": "This is a security release. It updates lsquic, c-ares, SQLite, llhttp and BoringSSL.",
+      "author": null,
+      "publishedAt": "2026-11-19T07:10:25.000Z"
     }
   ],
-  "totalIndexed": 55
+  "totalIndexed": 56
 }
