@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-11-19T15:31:04.799Z",
+  "updatedAt": "2026-11-19T19:59:22.432Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -3617,7 +3617,23 @@
       "summary": "The following speakers delivered sessions about PostgreSQL at PASS Data Community Summit, which happened from 9-11 November 2026:\nGrant Fritchey\nPat Wright\nDavid Wagoner\nIshan Sinha\nAdam Machanic\nRick Lowe\nVanshika Nigam\nAmit Arora\nOn 10 November, the San Francisco Bay Area PostgreSQL Meetup Group…",
       "author": null,
       "publishedAt": "2026-11-19T11:27:11.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9CT",
+      "title": "Ahsan Hadi: PostgreSQL 19 is Here: Worth the Wait",
+      "link": "https://postgr.es/p/9CT",
+      "summary": "PostgreSQL 19 was released today. pgEdge packages for it are available the same day across all of our supported deployments - including Spock, where PG 19 support is already available. I have been testing the release candidates for a few weeks, so here is what I think matters most to DBAs and…",
+      "author": null,
+      "publishedAt": "2026-11-19T17:37:36.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9CS",
+      "title": "Dave Stokes: Using dbvr with PostgreSQL: From First Datasource to Production Queries",
+      "link": "https://postgr.es/p/9CS",
+      "summary": "What dbvr is, and why use it with PostgreSQL\ndbvr lets you define PostgreSQL connections and run SQL from the command line, with no graphical interface. That makes it a fit for servers, containers, and pipelines where a desktop database tool cannot run.\nDBeaver Corporation announced dbvr on March…",
+      "author": null,
+      "publishedAt": "2026-11-19T15:55:58.000Z"
     }
   ],
-  "totalIndexed": 451
+  "totalIndexed": 453
 }

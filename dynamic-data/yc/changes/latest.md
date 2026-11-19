@@ -1,73 +1,84 @@
 # YC Company Changes for 2026-11-19
 
 - Previous total: 6402
-- Current total: 6402
+- Current total: 6403
 - Added: 1
-- Removed: 1
-- Updated: 13
+- Removed: 0
+- Updated: 16
 
 
 ## Added Companies
 
-- [Operon](https://www.ycombinator.com/companies/operon) (Winter 2027) — Agentic data layer for manufacturing & process industries. 
-
-## Removed Companies
-
-- neoncoral (Spring 2025)
+- [FluxCap](https://www.ycombinator.com/companies/fluxcap) (Spring 2026) — FluxCap is Deep Legal Tech built to think like a lawyer
 
 ## Updated Companies
 
-### [True Link](https://www.ycombinator.com/companies/true-link)
+### [Solum Health](https://www.ycombinator.com/companies/solum-health)
 
-- `stage`: Early → Growth
+- `team_size`: 3 → 6
 
-### [Zenflow](https://www.ycombinator.com/companies/zenflow)
+### [Magic Patterns](https://www.ycombinator.com/companies/magic-patterns)
 
-- `stage`: Early → Growth
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/102836faf8c777a7201bce15ad9d99bab17c4a16.png → https://bookface-images.s3.amazonaws.com/small_logos/acb118bb1671c85fc3de907db16b87195eb84a83.png
+- `one_liner`: The AI-native workspace to design your product. → The design layer of your software facotry. 
 
-### [Taiv](https://www.ycombinator.com/companies/taiv)
+### [AutoPallet Robotics](https://www.ycombinator.com/companies/autopallet-robotics)
 
-- `stage`: Early → Growth
+- `team_size`: 6 → 8
 
-### [Turing Labs Inc.](https://www.ycombinator.com/companies/turing-labs-inc)
+### [Zeit AI](https://www.ycombinator.com/companies/zeit-ai)
 
-- `one_liner`: AI for R&D of consumer brands like P&G to develop better products → AI platform built for CPGs like Kraft and Unilever to optimize…
-- `team_size`: 5 → 13
+- `team_size`: 12 → 17
 
-### [Zitara Technologies, Inc.](https://www.ycombinator.com/companies/zitara-technologies-inc)
+### [Flai](https://www.ycombinator.com/companies/flai)
 
-- `stage`: Early → Growth
+- `team_size`: 40 → 10
+- `stage`: Growth → Early
 
-### [Syncly](https://www.ycombinator.com/companies/syncly)
+### [Wideframe](https://www.ycombinator.com/companies/wideframe)
 
-- `isHiring`: true → false
+- `one_liner`: AI coworker for video editors to ship more video faster → We help video teams deliver better edits, faster.
+- `team_size`: 2 → 4
+- `tags`:  → B2B,Video,AI
+- `isHiring`: false → true
+- `regions`: United States of America,America / Canada → United States of America,America / Canada,Remote,Partly Remote
 
-### [Conductor](https://www.ycombinator.com/companies/conductor)
+### [Tenet Industries](https://www.ycombinator.com/companies/tenet-industries)
 
-- `stage`: Early → Growth
+- `isHiring`: false → true
 
-### [Design Arena](https://www.ycombinator.com/companies/design-arena)
+### [ClaimKit](https://www.ycombinator.com/companies/claimkit)
 
-- `stage`: Early → Growth
+- `team_size`: 4 → 2
 
-### [Degla Inc](https://www.ycombinator.com/companies/degla-inc)
+### [AICE](https://www.ycombinator.com/companies/aice)
 
-- `one_liner`: The fully autonomous intelligence layer in the sky. → Your intent. Onboard autonomous execution.
+- `team_size`: 2 → 5
 
-### [tday.com](https://www.ycombinator.com/companies/tdaycom)
+### [Nxtcure Labs](https://www.ycombinator.com/companies/nxtcure-labs)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/e991737a0da388ef9f57789b22ba8b64f04be312.png → https://bookface-images.s3.amazonaws.com/small_logos/a145822bf641ed1c6676fee5617d73460ae37314.png
+- `team_size`: 0 → 4
 
-### [Alkera AI](https://www.ycombinator.com/companies/alkera-ai)
+### [Speko](https://www.ycombinator.com/companies/speko)
 
-- `one_liner`: Reliable and safe data engineering and data science agents → AI platform for enterprise data teams
-- `team_size`: 3 → 2
+- `one_liner`: OpenRouter for Voice AI: one API, every call on the best speech model → AI Phone Agents for Business Calls
 
-### [Graphide](https://www.ycombinator.com/companies/graphide)
+### [Forward](https://www.ycombinator.com/companies/useforward)
 
-- `one_liner`: 10-20× faster CI runners + 24/7 agent cutting bloated CI bills 70+% → 10x faster and 70% cheaper than GH, with an agent managing your tests.
+- `team_size`: 7 → 4
 
-### [Proto](https://www.ycombinator.com/companies/proto)
+### [Elimentary](https://www.ycombinator.com/companies/elimentary)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/866ee3646a792a9ad235a6201c3aae8380279ba8.png → https://bookface-images.s3.amazonaws.com/small_logos/7ab21c0364dd5d5ea58163ef389852dbc94c903f.png
-- `one_liner`: The product designer's coding agent → The coding agent for product design
+- `team_size`: 5 → 3
+
+### [Ordo Labs](https://www.ycombinator.com/companies/ordo-labs)
+
+- `team_size`: 4 → 3
+
+### [Hemlock](https://www.ycombinator.com/companies/hemlock)
+
+- `one_liner`: Force data collected at scale for training physical AI. → Force data collected at scale for training physical AI models
+
+### [Godpack](https://www.ycombinator.com/companies/godpack)
+
+- `website`: https://godpack.gg/ → http://godpack.com/
