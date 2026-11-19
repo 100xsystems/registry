@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-11-11T04:55:13.209Z",
+  "updatedAt": "2026-11-19T06:08:29.777Z",
   "items": [
     {
       "guid": "lea-verou::https://lea.verou.me/2009/02/check-if-a-css-property-is-supported/",
@@ -431,7 +431,15 @@
       "summary": "I had the great honor of being elected to the TAG by the W3C membership in 2020 and again in 2022, serving two terms from 2021 to 2025.\nAfter a two-year break, this year I’m running to return, thanks to Google, Microsoft, and OpenJS Foundation pooling resources to make it possible. 💙\nThe W3C…",
       "author": null,
       "publishedAt": "2026-11-11T00:00:00.000Z"
+    },
+    {
+      "guid": "lea-verou::https://lea.verou.me/blog/2026/nudeps/",
+      "title": "Nudeps: bundler-like imports, none of the baggage",
+      "link": "https://lea.verou.me/blog/2026/nudeps/",
+      "summary": "The goal is light-build, not no-build\nYou npm install a package (e.g. vue), you write import { createApp } from \"vue\", and it works — as long as there is a bundler in between.\nWithout one, the browser has no idea what \"vue\" is: it only understands URLs, and node_modules/ was never meant to be…",
+      "author": null,
+      "publishedAt": "2026-11-19T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 53
+  "totalIndexed": 54
 }

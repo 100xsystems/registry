@@ -1,88 +1,61 @@
-# YC Company Changes for 2026-11-18
+# YC Company Changes for 2026-11-19
 
-- Previous total: 6400
+- Previous total: 6402
 - Current total: 6402
-- Added: 2
+- Added: 0
 - Removed: 0
-- Updated: 17
+- Updated: 11
 
-
-## Added Companies
-
-- [Avout](https://www.ycombinator.com/companies/avout) (Fall 2026) — Avout - new finance company for the American frontier
-- [HIRO Industries](https://www.ycombinator.com/companies/hiro-industries) (Winter 2027) — We’re building an American robotics platform, starting with Origin,…
 
 ## Updated Companies
 
-### [Zenflow](https://www.ycombinator.com/companies/zenflow)
-
-- `stage`: Growth → Early
-
-### [Pillar](https://www.ycombinator.com/companies/pillar)
-
-- `one_liner`: A white-label care enablement platform → Integrating health coaching into everyday care
-
-### [SyntheticFi](https://www.ycombinator.com/companies/syntheticfi)
-
-- `one_liner`: The cheapest way to borrow money → Financing platform for anyone with a brokerage account
-
-### [Junction Bioscience](https://www.ycombinator.com/companies/junction-bioscience)
-
-- `tags`:  → AI-powered Drug Discovery,Hard Tech,B2B,Biotech,Drug discovery
-
-### [HumanLayer](https://www.ycombinator.com/companies/humanlayer)
+### [Senso](https://www.ycombinator.com/companies/senso)
 
 - `isHiring`: true → false
 - `status`: Active → Acquired
 
-### [GRU Space](https://www.ycombinator.com/companies/gru-space)
+### [Junction Bioscience](https://www.ycombinator.com/companies/junction-bioscience)
 
-- `team_size`: 5 → 0
+- `one_liner`: AI Hypothesis Engine for Molecular Discovery → Industrializing structural biology: from months to minutes
+- `subindustry`: Healthcare -> Therapeutics → Healthcare -> Drug Discovery and Delivery
+- `industries`: Healthcare,Therapeutics → Healthcare,Drug Discovery and Delivery
 
-### [Monarcha](https://www.ycombinator.com/companies/monarcha)
+### [CrowdVolt](https://www.ycombinator.com/companies/crowdvolt)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/1ca14064cb81ecebe2c5dd03339d7a44f1e9320f.png → https://bookface-images.s3.amazonaws.com/small_logos/ea1e425c52a9026abd48335f2ffaf6dceeb4d842.png
+- `isHiring`: false → true
 
-### [Evie](https://www.ycombinator.com/companies/evie)
+### [Conductor](https://www.ycombinator.com/companies/conductor)
 
-- `name`: Bron → Evie
-- `slug`: bron → evie
-- `former_names`: PlayVision AI,PlayVision,PlayVision AI,PlayVision → PlayVision AI,PlayVision,PlayVision AI,PlayVision,Bron
+- `status`: Active → Acquired
+- `stage`: Growth → Early
 
-### [Ashr](https://www.ycombinator.com/companies/ashr)
+### [Wayline](https://www.ycombinator.com/companies/wayline)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/36b682fdfb87515f8ca423d8a006eaac7229e134.png → https://bookface-images.s3.amazonaws.com/small_logos/e144b14cd2a6f702d4b46db4f2dd21e7e0337d9d.png
-- `one_liner`: Enterprise post-training, monitoring, and continual learning platform → Ashr is the Coding Agent for Machine Learning
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/aa83a2cdabf22eb6acd4e5c54d4969ec37a0a549.png → https://bookface-images.s3.amazonaws.com/small_logos/90137cddea2189f3d0dd5c75165b0f486ad04ac0.png
+- `one_liner`: AI voice for property managers → AI operating system for multifamily leasing, maintenance, and…
+- `team_size`: 5 → 4
 
-### [Klarify](https://www.ycombinator.com/companies/klarify)
+### [TensorTest](https://www.ycombinator.com/companies/tensortest)
 
-- `all_locations`: Toronto, ON, Canada → San Francisco, CA, USA
-- `regions`: Canada,America / Canada,Remote,Partly Remote → United States of America,America / Canada,Remote,Partly Remote
+- `website`: https://www.tensortest.com → https://tensortest.com
+- `one_liner`: Evals, RL environments and training data for creative tasks → AI training data, evals, and RL environments
 
-### [Orikata Bio PBC](https://www.ycombinator.com/companies/orikata-bio-pbc)
+### [AbInitio Bio](https://www.ycombinator.com/companies/abinitio-bio)
 
-- `batch`: Fall 2026 → Summer 2026
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/a7b4f70c5d14e24fb5773ec42e56d354595bd134.png → https://bookface-images.s3.amazonaws.com/small_logos/a11693d089967ad864b03ccbd2babe536b2c4df8.png
 
-### [Synapse Semiconductor](https://www.ycombinator.com/companies/synapse-semiconductor)
+### [Verdant](https://www.ycombinator.com/companies/verdant)
 
-- `isHiring`: true → false
+- `all_locations`: San Francisco, CA, USA → New York City, NY, USA
 
-### [DeepReach Inc.](https://www.ycombinator.com/companies/deepreach-inc)
+### [Hemlock](https://www.ycombinator.com/companies/hemlock)
 
-- `isHiring`: true → false
+- `one_liner`: Force + contact dynamics collected at scale for training physical AI. → Force data collected at scale for training physical AI.
 
-### [0.security](https://www.ycombinator.com/companies/0security)
+### [Halmos Labs](https://www.ycombinator.com/companies/halmos-labs)
 
-- `one_liner`: Open-source AI security agents for enterprise → Sovereign AI security agents for enterprise
+- `one_liner`: The execution layer for autonomous drug development → One API to any physical experiment
 
-### [Primordiant](https://www.ycombinator.com/companies/primordiant)
+### [DeepMark](https://www.ycombinator.com/companies/deepmark)
 
-- `one_liner`: Embodied Scientific Intelligence → Autonomous labs run by AI and robot scientists, available as an API.
-
-### [Sutrix](https://www.ycombinator.com/companies/sutrix)
-
-- `one_liner`: Deployed AI to turn EHR data into study-ready datasets  → Helping healthcare providers monetize their clinical data
-
-### [Contour](https://www.ycombinator.com/companies/contourholdings)
-
-- `one_liner`: AI-native permitting for Americas buildout → AI-native permitting for Data Centers
+- `one_liner`: A live watermark inside AI voice that survives phone calls → Caller ID for Voice AI
