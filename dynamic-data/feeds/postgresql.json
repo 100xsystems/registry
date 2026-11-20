@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-11-19T19:59:22.432Z",
+  "updatedAt": "2026-11-20T00:05:26.697Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -3633,7 +3633,15 @@
       "summary": "What dbvr is, and why use it with PostgreSQL\ndbvr lets you define PostgreSQL connections and run SQL from the command line, with no graphical interface. That makes it a fit for servers, containers, and pipelines where a desktop database tool cannot run.\nDBeaver Corporation announced dbvr on March…",
       "author": null,
       "publishedAt": "2026-11-19T15:55:58.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9CU",
+      "title": "Álvaro Herrera: Squeezing tables with Postgres 19",
+      "link": "https://postgr.es/p/9CU",
+      "summary": "Working with the Postgres development community is such a rewarding experience.\nIn January 2024, Pavel Stehule asked in the hackers mailing list: why is there no VACUUM FULL CONCURRENTLY?\n\nI happen to know that Pavel works as a consultant with some very large, very high velocity databases. He knows…",
+      "author": null,
+      "publishedAt": "2026-11-19T10:27:29.000Z"
     }
   ],
-  "totalIndexed": 453
+  "totalIndexed": 454
 }

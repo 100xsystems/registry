@@ -1,84 +1,117 @@
-# YC Company Changes for 2026-11-19
+# YC Company Changes for 2026-11-20
 
-- Previous total: 6402
-- Current total: 6403
+- Previous total: 6403
+- Current total: 6404
 - Added: 1
 - Removed: 0
-- Updated: 16
+- Updated: 25
 
 
 ## Added Companies
 
-- [FluxCap](https://www.ycombinator.com/companies/fluxcap) (Spring 2026) — FluxCap is Deep Legal Tech built to think like a lawyer
+- [Foreshadow Industries](https://www.ycombinator.com/companies/foreshadow-industries) (Fall 2026) — Defense robotics built on AI models that reason over space and time
 
 ## Updated Companies
 
-### [Solum Health](https://www.ycombinator.com/companies/solum-health)
+### [Fivestars](https://www.ycombinator.com/companies/fivestars)
 
-- `team_size`: 3 → 6
-
-### [Magic Patterns](https://www.ycombinator.com/companies/magic-patterns)
-
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/102836faf8c777a7201bce15ad9d99bab17c4a16.png → https://bookface-images.s3.amazonaws.com/small_logos/acb118bb1671c85fc3de907db16b87195eb84a83.png
-- `one_liner`: The AI-native workspace to design your product. → The design layer of your software facotry. 
-
-### [AutoPallet Robotics](https://www.ycombinator.com/companies/autopallet-robotics)
-
-- `team_size`: 6 → 8
-
-### [Zeit AI](https://www.ycombinator.com/companies/zeit-ai)
-
-- `team_size`: 12 → 17
-
-### [Flai](https://www.ycombinator.com/companies/flai)
-
-- `team_size`: 40 → 10
+- `team_size`: 201 → 450
 - `stage`: Growth → Early
 
-### [Wideframe](https://www.ycombinator.com/companies/wideframe)
+### [Guesty](https://www.ycombinator.com/companies/guesty)
 
-- `one_liner`: AI coworker for video editors to ship more video faster → We help video teams deliver better edits, faster.
-- `team_size`: 2 → 4
-- `tags`:  → B2B,Video,AI
-- `isHiring`: false → true
-- `regions`: United States of America,America / Canada → United States of America,America / Canada,Remote,Partly Remote
+- `team_size`: 700 → 800
+- `stage`: Growth → Early
 
-### [Tenet Industries](https://www.ycombinator.com/companies/tenet-industries)
+### [Jeeves](https://www.ycombinator.com/companies/jeeves)
 
-- `isHiring`: false → true
+- `stage`: Growth → Early
 
-### [ClaimKit](https://www.ycombinator.com/companies/claimkit)
+### [Sei AI](https://www.ycombinator.com/companies/sei-ai)
 
-- `team_size`: 4 → 2
+- `team_size`: 0 → 8
 
-### [AICE](https://www.ycombinator.com/companies/aice)
+### [Massdriver](https://www.ycombinator.com/companies/massdriver)
+
+- `one_liner`: Internal developer platform for Terraform, OpenTofu and Helm → Platform orchestrator for governed infrastructure change
+
+### [Terraferma](https://www.ycombinator.com/companies/terraferma)
+
+- `one_liner`: TSMC for protein manufacturing. → We make proteins.
+
+### [Campfire](https://www.ycombinator.com/companies/campfire-2)
+
+- `team_size`: 105 → 190
+- `stage`: Growth → Early
+
+### [Cognitio Labs](https://www.ycombinator.com/companies/cognitio-labs)
+
+- `one_liner`: AI back office for food product quality teams → AI back office for food product quality and manufacturing teams
+
+### [Open](https://www.ycombinator.com/companies/open)
+
+- `team_size`: 21 → 22
+
+### [Leeroo](https://www.ycombinator.com/companies/leeroo)
+
+- `team_size`: 3 → 2
+
+### [FINNY AI](https://www.ycombinator.com/companies/finny-ai)
+
+- `stage`: Growth → Early
+
+### [Haystack](https://www.ycombinator.com/companies/haystackeditor)
+
+- `team_size`: 2 → 1
+
+### [Helium](https://www.ycombinator.com/companies/helium)
+
+- `team_size`: 9 → 2
+
+### [AutoComputer](https://www.ycombinator.com/companies/autocomputer)
+
+- `status`: Active → Acquired
+
+### [Parsewise](https://www.ycombinator.com/companies/parsewise)
+
+- `team_size`: 6 → 5
+
+### [Juno](https://www.ycombinator.com/companies/juno-chat)
+
+- `team_size`: 5 → 4
+
+### [Taiga](https://www.ycombinator.com/companies/taiga)
 
 - `team_size`: 2 → 5
 
-### [Nxtcure Labs](https://www.ycombinator.com/companies/nxtcure-labs)
+### [Voquill](https://www.ycombinator.com/companies/voquill)
 
-- `team_size`: 0 → 4
+- `team_size`: 3 → 5
 
-### [Speko](https://www.ycombinator.com/companies/speko)
+### [Collar](https://www.ycombinator.com/companies/collar)
 
-- `one_liner`: OpenRouter for Voice AI: one API, every call on the best speech model → AI Phone Agents for Business Calls
+- `team_size`: 3 → 4
 
-### [Forward](https://www.ycombinator.com/companies/useforward)
+### [CharacterQuilt](https://www.ycombinator.com/companies/characterquilt)
 
-- `team_size`: 7 → 4
+- `team_size`: 4 → 10
 
-### [Elimentary](https://www.ycombinator.com/companies/elimentary)
+### [AgentPhone](https://www.ycombinator.com/companies/agentphone)
 
-- `team_size`: 5 → 3
+- `team_size`: 0 → 2
 
-### [Ordo Labs](https://www.ycombinator.com/companies/ordo-labs)
+### [Pluto](https://www.ycombinator.com/companies/talentpluto)
 
-- `team_size`: 4 → 3
+- `one_liner`: LinkedIn for agents → Professional agent for your career
 
-### [Hemlock](https://www.ycombinator.com/companies/hemlock)
+### [Ooak Data](https://www.ycombinator.com/companies/ooak-data)
 
-- `one_liner`: Force data collected at scale for training physical AI. → Force data collected at scale for training physical AI models
+- `team_size`: 5 → 27
 
-### [Godpack](https://www.ycombinator.com/companies/godpack)
+### [Orca Aerospace](https://www.ycombinator.com/companies/orca-aerospace)
 
-- `website`: https://godpack.gg/ → http://godpack.com/
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/f7ebe05e649f753cd83be5287773c4dfc7942622.png → https://bookface-images.s3.amazonaws.com/small_logos/7da125e4f04ce76091dd6f12173dbf4599c0b17a.png
+
+### [Ignition Benefits](https://www.ycombinator.com/companies/ignition-benefits)
+
+- `team_size`: 12 → 3
