@@ -8,7 +8,7 @@
     "vector-databases",
     "infrastructure"
   ],
-  "updatedAt": "2026-11-19T15:31:10.998Z",
+  "updatedAt": "2026-11-20T05:55:30.033Z",
   "items": [
     {
       "guid": "https://www.pinecone.io/blog/behind-the-benchmarking-pipeline/",
@@ -4977,7 +4977,15 @@
       "summary": "The Railway template for pg_pinecone deploys Postgres with Pinecone's vector search built in. Its index uses less memory than pgvector, so it costs less to run.",
       "author": null,
       "publishedAt": "2026-11-18T16:00:00.000Z"
+    },
+    {
+      "guid": "https://www.pinecone.io/blog/cost-usage-export/",
+      "title": "Pinecone now exports cost and usage data in FOCUS format",
+      "link": "https://www.pinecone.io/blog/cost-usage-export/",
+      "summary": "The Cost and Usage Export API provides Pinecone cost and usage data in FOCUS, so finance teams can see spend by project and index in their FinOps reports.",
+      "author": null,
+      "publishedAt": "2026-11-19T16:00:00.000Z"
     }
   ],
-  "totalIndexed": 621
+  "totalIndexed": 622
 }

@@ -8,7 +8,7 @@
     "architecture",
     "aws"
   ],
-  "updatedAt": "2026-11-19T15:31:10.603Z",
+  "updatedAt": "2026-11-20T05:55:29.734Z",
   "items": [
     {
       "guid": "79195fa586925a9b62c134acc83bb06b7b67a778",
@@ -545,7 +545,23 @@
       "summary": "Infoblox Threat Defense is now available in preview in Amazon Route 53 Resolver DNS Firewall, providing partner-managed DNS threat intelligence. Learn how to add an Infoblox managed rule to a rule group, test it in alert mode, monitor matches, and move to blocking.",
       "author": "Rajendra Kulkarni",
       "publishedAt": "2026-11-18T18:35:14.000Z"
+    },
+    {
+      "guid": "608b9718cd78d7bad53e16258b6eececc17f4117",
+      "title": "AI coding agents on Amazon EC2 Mac: How Cognition scales Devin for macOS",
+      "link": "https://aws.amazon.com/blogs/architecture/ai-coding-agents-on-amazon-ec2-mac-how-cognition-scales-devin-for-macos/",
+      "summary": "Cognition gave its AI software engineer, Devin, a cloud Mac. Each Devin session gets a fresh macOS VM on Amazon EC2 Mac bare metal hosts, so Devin can build, run, and test iOS and macOS apps. Learn how Cognition built it with disk snapshots, a user-space network gateway, prepared guest images, and…",
+      "author": "Adam Hesch",
+      "publishedAt": "2026-11-20T01:10:14.000Z"
+    },
+    {
+      "guid": "34e3f58957d140cb0a7cc78f747bf021cb8e3acc",
+      "title": "How Country Road Group built a pattern-driven integration solution on AWS",
+      "link": "https://aws.amazon.com/blogs/architecture/how-country-road-group-built-a-pattern-driven-integration-solution-on-aws/",
+      "summary": "Country Road Group replaced Microsoft BizTalk with a pattern-driven, serverless integration platform on AWS. Learn how its Strategic Integration Platform works across four processing lanes, and get the open-source Enterprise Integration Patterns CDK library to apply the same approach to your own…",
+      "author": "Aman Sharma",
+      "publishedAt": "2026-11-19T23:07:30.000Z"
     }
   ],
-  "totalIndexed": 67
+  "totalIndexed": 69
 }

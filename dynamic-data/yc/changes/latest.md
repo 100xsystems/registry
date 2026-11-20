@@ -1,117 +1,96 @@
 # YC Company Changes for 2026-11-20
 
-- Previous total: 6403
-- Current total: 6404
-- Added: 1
+- Previous total: 6404
+- Current total: 6406
+- Added: 2
 - Removed: 0
-- Updated: 25
+- Updated: 17
 
 
 ## Added Companies
 
-- [Foreshadow Industries](https://www.ycombinator.com/companies/foreshadow-industries) (Fall 2026) — Defense robotics built on AI models that reason over space and time
+- [Biomes](https://www.ycombinator.com/companies/biomes) (Fall 2026) — Deploying AI
+- [Rook Space](https://www.ycombinator.com/companies/rook-space) (Winter 2027) — Unlocking fast laser downlink for satellites
 
 ## Updated Companies
 
-### [Fivestars](https://www.ycombinator.com/companies/fivestars)
+### [Weave](https://www.ycombinator.com/companies/weave)
 
-- `team_size`: 201 → 450
+- `status`: Public → Acquired
 - `stage`: Growth → Early
 
-### [Guesty](https://www.ycombinator.com/companies/guesty)
+### [1stCollab](https://www.ycombinator.com/companies/1stcollab)
 
-- `team_size`: 700 → 800
-- `stage`: Growth → Early
+- `isHiring`: true → false
 
-### [Jeeves](https://www.ycombinator.com/companies/jeeves)
+### [Dartboard](https://www.ycombinator.com/companies/dartboard)
 
-- `stage`: Growth → Early
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/e6b5a6279db8d201fef41a88a35c1d4c0828744e.png → https://bookface-images.s3.amazonaws.com/small_logos/e921c00cb83b7e552043f9ef0c51da579791cd57.png
+- `one_liner`: AI-native remote operations center for hardware fleets → AI transformation for industrial and service businesses
+- `tags`: Hardware,Robotics,Energy,AI,Industrial → Manufacturing,Energy,AI,Industrial
 
-### [Sei AI](https://www.ycombinator.com/companies/sei-ai)
+### [Tire Swing](https://www.ycombinator.com/companies/tire-swing)
 
-- `team_size`: 0 → 8
+- `one_liner`: The AI Affordable Housing Platform → Autonomous leasing and eligibility starting with affordable housing
 
-### [Massdriver](https://www.ycombinator.com/companies/massdriver)
+### [traceroot](https://www.ycombinator.com/companies/traceroot)
 
-- `one_liner`: Internal developer platform for Terraform, OpenTofu and Helm → Platform orchestrator for governed infrastructure change
+- `name`: TraceRoot.AI → traceroot
+- `slug`: traceroot-ai → traceroot
+- `former_names`: TraceRoot.ai → TraceRoot.ai,TraceRoot.AI,traceroot.ai
 
-### [Terraferma](https://www.ycombinator.com/companies/terraferma)
+### [AirCaps AI](https://www.ycombinator.com/companies/aircaps-ai)
 
-- `one_liner`: TSMC for protein manufacturing. → We make proteins.
+- `isHiring`: true → false
 
-### [Campfire](https://www.ycombinator.com/companies/campfire-2)
+### [Opalite Health](https://www.ycombinator.com/companies/opalite-health)
 
-- `team_size`: 105 → 190
-- `stage`: Growth → Early
+- `isHiring`: true → false
 
-### [Cognitio Labs](https://www.ycombinator.com/companies/cognitio-labs)
+### [Cova](https://www.ycombinator.com/companies/cova)
 
-- `one_liner`: AI back office for food product quality teams → AI back office for food product quality and manufacturing teams
+- `isHiring`: false → true
 
-### [Open](https://www.ycombinator.com/companies/open)
+### [Capveon](https://www.ycombinator.com/companies/capveon)
 
-- `team_size`: 21 → 22
+- `one_liner`: Turning infrastructure demand into action  → AI to find, understand, and win government contracts
 
-### [Leeroo](https://www.ycombinator.com/companies/leeroo)
+### [Mirrors](https://www.ycombinator.com/companies/mirrors)
 
-- `team_size`: 3 → 2
+- `one_liner`: The guidance system for production AI agents → Give AI agents situation specific context
 
-### [FINNY AI](https://www.ycombinator.com/companies/finny-ai)
+### [River](https://www.ycombinator.com/companies/rivereditor)
 
-- `stage`: Growth → Early
+- `subindustry`: B2B -> Productivity → B2B
+- `tags`: Productivity,AI → Computer Vision,Productivity,AI
+- `industries`: B2B,Productivity → B2B
 
-### [Haystack](https://www.ycombinator.com/companies/haystackeditor)
+### [Antropi Robotics](https://www.ycombinator.com/companies/antropi-robotics)
 
-- `team_size`: 2 → 1
+- `one_liner`: Autonomous CNC factories for faster hardware → Autonomous factories that turn designs into metal parts, in days
 
-### [Helium](https://www.ycombinator.com/companies/helium)
+### [Fleety](https://www.ycombinator.com/companies/fleety)
 
-- `team_size`: 9 → 2
+- `team_size`: 4 → 3
 
-### [AutoComputer](https://www.ycombinator.com/companies/autocomputer)
+### [Latent](https://www.ycombinator.com/companies/trylatent)
 
-- `status`: Active → Acquired
+- `one_liner`: Stop AI agent mistakes by reading the model’s mind → Automated post-training for LLMs
+- `team_size`: 1 → 2
+- `subindustry`: B2B -> Security → B2B
+- `industries`: B2B,Security → B2B
 
-### [Parsewise](https://www.ycombinator.com/companies/parsewise)
+### [Graphide](https://www.ycombinator.com/companies/graphide)
 
-- `team_size`: 6 → 5
+- `one_liner`: 10x faster and 70% cheaper than GH, with an agent managing your tests. → CI runner with agents that manage your tests. 10x faster and 70%…
 
-### [Juno](https://www.ycombinator.com/companies/juno-chat)
+### [Sutrix](https://www.ycombinator.com/companies/sutrix)
 
-- `team_size`: 5 → 4
+- `one_liner`: Helping healthcare providers monetize their clinical data → Transforming how healthcare providers monetize clinical data.
 
-### [Taiga](https://www.ycombinator.com/companies/taiga)
+### [Mantle Machines](https://www.ycombinator.com/companies/mantle-machines)
 
-- `team_size`: 2 → 5
-
-### [Voquill](https://www.ycombinator.com/companies/voquill)
-
-- `team_size`: 3 → 5
-
-### [Collar](https://www.ycombinator.com/companies/collar)
-
-- `team_size`: 3 → 4
-
-### [CharacterQuilt](https://www.ycombinator.com/companies/characterquilt)
-
-- `team_size`: 4 → 10
-
-### [AgentPhone](https://www.ycombinator.com/companies/agentphone)
-
-- `team_size`: 0 → 2
-
-### [Pluto](https://www.ycombinator.com/companies/talentpluto)
-
-- `one_liner`: LinkedIn for agents → Professional agent for your career
-
-### [Ooak Data](https://www.ycombinator.com/companies/ooak-data)
-
-- `team_size`: 5 → 27
-
-### [Orca Aerospace](https://www.ycombinator.com/companies/orca-aerospace)
-
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/f7ebe05e649f753cd83be5287773c4dfc7942622.png → https://bookface-images.s3.amazonaws.com/small_logos/7da125e4f04ce76091dd6f12173dbf4599c0b17a.png
-
-### [Ignition Benefits](https://www.ycombinator.com/companies/ignition-benefits)
-
-- `team_size`: 12 → 3
+- `name`: Mantle → Mantle Machines
+- `slug`: mantle-2 → mantle-machines
+- `former_names`: Kyvore → Kyvore,Mantle
+- `website`:  → https://www.mantlemachines.com/

@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-11-03T22:44:27.676Z",
+  "updatedAt": "2026-11-20T05:55:30.011Z",
   "items": [
     {
       "guid": "https://www.tigerdata.com/blog/whats-new-in-tiger-cloud",
@@ -215,7 +215,15 @@
       "summary": "A new foundation for industrial history: TimescaleDB performance, enterprise-grade reliability, and integrated operations across sites, on infrastructure you control.",
       "author": "Mike Freedman",
       "publishedAt": "2026-11-03T22:29:38.000Z"
+    },
+    {
+      "guid": "https://www.tigerdata.com/blog/tiger-lake-ga",
+      "title": "Tiger Lake is generally available: Keep your operational data in sync with your lakehouse",
+      "link": "https://www.tigerdata.com/blog/tiger-lake-ga",
+      "summary": "Tiger Lake is generally available. Continuously sync Postgres tables and TimescaleDB hypertables to Apache Iceberg, without managing a replication pipeline.",
+      "author": "Naveen Sukumar",
+      "publishedAt": "2026-11-19T07:30:00.000Z"
     }
   ],
-  "totalIndexed": 26
+  "totalIndexed": 27
 }
