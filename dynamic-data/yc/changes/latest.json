@@ -1,167 +1,45 @@
 {
   "date": "2026-11-20",
-  "fetchedAt": "2026-11-20T15:10:08.861Z",
+  "fetchedAt": "2026-11-20T19:39:01.732Z",
   "previousCount": 6406,
   "currentCount": 6406,
   "added": [],
   "removed": [],
   "updated": [
     {
-      "id": 158,
-      "name": "Fivestars",
-      "slug": "fivestars",
-      "batch": "Winter 2011",
-      "url": "https://www.ycombinator.com/companies/fivestars",
+      "id": 24,
+      "name": "Gusto",
+      "slug": "gusto",
+      "batch": "Winter 2012",
+      "url": "https://www.ycombinator.com/companies/gusto",
       "changes": [
         {
           "field": "stage",
-          "before": "Early",
-          "after": "Growth"
+          "before": "Growth",
+          "after": "Early"
         }
       ]
     },
     {
-      "id": 626,
-      "name": "Guesty",
-      "slug": "guesty",
-      "batch": "Winter 2014",
-      "url": "https://www.ycombinator.com/companies/guesty",
-      "changes": [
-        {
-          "field": "stage",
-          "before": "Early",
-          "after": "Growth"
-        }
-      ]
-    },
-    {
-      "id": 630,
-      "name": "Weave",
-      "slug": "weave",
-      "batch": "Winter 2014",
-      "url": "https://www.ycombinator.com/companies/weave",
-      "changes": [
-        {
-          "field": "stage",
-          "before": "Early",
-          "after": "Growth"
-        }
-      ]
-    },
-    {
-      "id": 21768,
-      "name": "Jeeves",
-      "slug": "jeeves",
-      "batch": "Summer 2020",
-      "url": "https://www.ycombinator.com/companies/jeeves",
-      "changes": [
-        {
-          "field": "stage",
-          "before": "Early",
-          "after": "Growth"
-        }
-      ]
-    },
-    {
-      "id": 28845,
-      "name": "Campfire",
-      "slug": "campfire-2",
-      "batch": "Summer 2023",
-      "url": "https://www.ycombinator.com/companies/campfire-2",
-      "changes": [
-        {
-          "field": "stage",
-          "before": "Early",
-          "after": "Growth"
-        }
-      ]
-    },
-    {
-      "id": 29735,
-      "name": "FINNY AI",
-      "slug": "finny-ai",
-      "batch": "Summer 2024",
-      "url": "https://www.ycombinator.com/companies/finny-ai",
-      "changes": [
-        {
-          "field": "stage",
-          "before": "Early",
-          "after": "Growth"
-        }
-      ]
-    },
-    {
-      "id": 30290,
-      "name": "Tire Swing",
-      "slug": "tire-swing",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/tire-swing",
-      "changes": [
-        {
-          "field": "subindustry",
-          "before": "B2B -> Legal",
-          "after": "B2B"
-        },
-        {
-          "field": "industries",
-          "before": [
-            "B2B",
-            "Legal"
-          ],
-          "after": [
-            "B2B"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 30690,
-      "name": "Flai",
-      "slug": "flai",
+      "id": 30640,
+      "name": "Monarcha",
+      "slug": "monarcha",
       "batch": "Summer 2025",
-      "url": "https://www.ycombinator.com/companies/flai",
+      "url": "https://www.ycombinator.com/companies/monarcha",
       "changes": [
         {
-          "field": "stage",
-          "before": "Early",
-          "after": "Growth"
+          "field": "small_logo_thumb_url",
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/ea1e425c52a9026abd48335f2ffaf6dceeb4d842.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/38fd308146451e43151aa665382eac217d1f3ccf.png"
         }
       ]
     },
     {
-      "id": 30818,
-      "name": "Nox Metals",
-      "slug": "nox-metals",
-      "batch": "Summer 2025",
-      "url": "https://www.ycombinator.com/companies/nox-metals",
-      "changes": [
-        {
-          "field": "stage",
-          "before": "Early",
-          "after": "Growth"
-        }
-      ]
-    },
-    {
-      "id": 30889,
-      "name": "Alder",
-      "slug": "alder",
-      "batch": "Fall 2025",
-      "url": "https://www.ycombinator.com/companies/alder",
-      "changes": [
-        {
-          "field": "one_liner",
-          "before": "AI employees for finance, starting with accounts receivable. ",
-          "after": "AI employees for finance and accounting"
-        }
-      ]
-    },
-    {
-      "id": 31008,
-      "name": "Moss",
-      "slug": "moss",
-      "batch": "Fall 2025",
-      "url": "https://www.ycombinator.com/companies/moss",
+      "id": 31167,
+      "name": "Stilta",
+      "slug": "stilta",
+      "batch": "Winter 2026",
+      "url": "https://www.ycombinator.com/companies/stilta",
       "changes": [
         {
           "field": "isHiring",
@@ -171,92 +49,58 @@
       ]
     },
     {
-      "id": 31359,
-      "name": "Twolabs",
-      "slug": "twolabs",
+      "id": 31326,
+      "name": "Klarify",
+      "slug": "klarify",
       "batch": "Spring 2026",
-      "url": "https://www.ycombinator.com/companies/twolabs",
+      "url": "https://www.ycombinator.com/companies/klarify",
       "changes": [
         {
-          "field": "one_liner",
-          "before": "RL environments for underexplored domains.",
-          "after": "RL environments for industrial domains."
+          "field": "isHiring",
+          "before": false,
+          "after": true
         }
       ]
     },
     {
-      "id": 31455,
-      "name": "tday.com",
-      "slug": "tdaycom",
-      "batch": "Spring 2026",
-      "url": "https://www.ycombinator.com/companies/tdaycom",
+      "id": 35396,
+      "name": "Oasive",
+      "slug": "oasive",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/oasive",
       "changes": [
         {
-          "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/a145822bf641ed1c6676fee5617d73460ae37314.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/ac6fc73f21af31774380b7d239f6d1a6a2aff66f.png"
+          "field": "one_liner",
+          "before": "AI credit research for municipal bond investors",
+          "after": "Credit research for bond investors"
         }
       ]
     },
     {
-      "id": 33344,
-      "name": "Dawn Industries",
-      "slug": "dawn-industries",
-      "batch": "Summer 2026",
-      "url": "https://www.ycombinator.com/companies/dawn-industries",
+      "id": 36972,
+      "name": "Composal",
+      "slug": "composal",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/composal",
       "changes": [
-        {
-          "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/be237324cf82c0125a34763f99ffb0cf35ca384d.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/a2e3f76b70d601aec51f0abbc92cea8accd845e0.png"
-        },
-        {
-          "field": "one_liner",
-          "before": "Automatic Diagnosis & Fix for Industrial Automation Cells",
-          "after": "Making Robots Easy to Deploy in Factories Today"
-        },
         {
           "field": "team_size",
-          "before": 2,
-          "after": 3
+          "before": 3,
+          "after": 2
         }
       ]
     },
     {
-      "id": 35058,
-      "name": "Capveon",
-      "slug": "capveon",
+      "id": 38754,
+      "name": "Aikido Technologies",
+      "slug": "aikido-technologies",
       "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/capveon",
-      "changes": [
-        {
-          "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/55acb7275a696cdf957737bce96b338f2da2d45f.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/095610089ce25c95f1548bef19684fa04ff1113a.png"
-        },
-        {
-          "field": "one_liner",
-          "before": "AI to find, understand, and win government contracts",
-          "after": "AI to find, understand, and win government work."
-        },
-        {
-          "field": "team_size",
-          "before": 2,
-          "after": 3
-        }
-      ]
-    },
-    {
-      "id": 35258,
-      "name": "Mirrors",
-      "slug": "mirrors",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/mirrors",
+      "url": "https://www.ycombinator.com/companies/aikido-technologies",
       "changes": [
         {
           "field": "one_liner",
-          "before": "Give AI agents situation specific context",
-          "after": "Situation specific context for AI agents"
+          "before": "Clean marine AI datacenters",
+          "after": "Offshore datacenters, powered by the wind"
         }
       ]
     }

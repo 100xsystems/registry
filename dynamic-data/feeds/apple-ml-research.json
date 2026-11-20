@@ -8,7 +8,7 @@
     "ai",
     "research"
   ],
-  "updatedAt": "2026-11-12T19:35:37.042Z",
+  "updatedAt": "2026-11-20T19:38:44.610Z",
   "items": [
     {
       "guid": "environment-free",
@@ -497,7 +497,15 @@
       "summary": "Language model (LM) alignment improves model outputs to reflect human preferences while preserving the capabilities of the base model. The most common alignment approaches are (i) reinforcement learning, which maximizes the expected reward under a KL-divergence constraint, and (ii) best-of-NNN…",
       "author": null,
       "publishedAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "guid": "depth-pro-2-monocular",
+      "title": "Depth Pro 2: Sharp and Temporally Consistent Metric Monocular Depth",
+      "link": "https://machinelearning.apple.com/research/depth-pro-2-monocular",
+      "summary": "We present Depth Pro 2, an approach to estimating dense metric depth for images and video at full resolution. By analyzing prior methods for monocular depth estimation, we find that they commonly trade off temporal consistency and boundary sharpness: multi-frame methods favor consistency,…",
+      "author": null,
+      "publishedAt": "2026-11-20T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 61
+  "totalIndexed": 62
 }

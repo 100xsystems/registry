@@ -8,7 +8,7 @@
     "architecture",
     "aws"
   ],
-  "updatedAt": "2026-11-20T05:55:29.734Z",
+  "updatedAt": "2026-11-20T19:38:53.282Z",
   "items": [
     {
       "guid": "79195fa586925a9b62c134acc83bb06b7b67a778",
@@ -561,7 +561,15 @@
       "summary": "Country Road Group replaced Microsoft BizTalk with a pattern-driven, serverless integration platform on AWS. Learn how its Strategic Integration Platform works across four processing lanes, and get the open-source Enterprise Integration Patterns CDK library to apply the same approach to your own…",
       "author": "Aman Sharma",
       "publishedAt": "2026-11-19T23:07:30.000Z"
+    },
+    {
+      "guid": "5b03aa6a8c737324eeee9c9c1c0fa27b1753a9d9",
+      "title": "How Bee implemented Zero Operator Access for personal AI on AWS",
+      "link": "https://aws.amazon.com/blogs/architecture/how-bee-implemented-zero-operator-access-for-personal-ai-on-aws/",
+      "summary": "Bee, an Amazon company, built a personal AI wearable with no mechanism for operators (Bee engineers, other Amazon employees, or AWS infrastructure operators) to access customer data. Learn how Bee uses Amazon EC2 instance attestation and the AWS Nitro System to achieve Zero Operator Access (ZOA).",
+      "author": "Gopinath Jagadesan",
+      "publishedAt": "2026-11-20T18:49:05.000Z"
     }
   ],
-  "totalIndexed": 69
+  "totalIndexed": 70
 }

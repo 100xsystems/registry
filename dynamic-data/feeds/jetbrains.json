@@ -8,7 +8,7 @@
     "ide",
     "programming-languages"
   ],
-  "updatedAt": "2026-11-20T15:10:03.975Z",
+  "updatedAt": "2026-11-20T19:38:53.386Z",
   "items": [
     {
       "guid": "https://blog.jetbrains.com/?post_type=rscpp&p=725420",
@@ -1417,7 +1417,23 @@
       "summary": "On November 17, 2026, a critical vulnerability in Java was publicly disclosed: CVE-2026-114938, also known as Java4Shell. It affects Java runtimes used by many applications, including YouTrack Server. We have released YouTrack Server updates that include a fixed Java runtime. YouTrack Cloud is not…",
       "author": "Elena Pishkova",
       "publishedAt": "2026-11-20T13:24:50.000Z"
+    },
+    {
+      "guid": "https://blog.jetbrains.com/?post_type=teamcity&p=759662",
+      "title": "Java4Shell (CVE-2026-114938): What It Means for TeamCity",
+      "link": "https://blog.jetbrains.com/teamcity/2026/11/java4shell-cve-2026-114938-what-it-means-for-teamcity/",
+      "summary": "Summary On November 17, 2026, CVE-2026-114938, a memory-corruption vulnerability in the hardware-accelerated Base64 decoder of several Java runtimes, was publicly disclosed. This vulnerability allows malicious Base64 input to corrupt JVM process memory, potentially causing a crash or remote code…",
+      "author": "Andrey Koltsov",
+      "publishedAt": "2026-11-20T16:58:43.000Z"
+    },
+    {
+      "guid": "https://blog.jetbrains.com/?post_type=platform&p=759371",
+      "title": "Vulkan Rendering Is Now The Default on Linux Wayland",
+      "link": "https://blog.jetbrains.com/platform/2026/11/vulkan-rendering-is-now-the-default-on-linux-wayland/",
+      "summary": "JetBrains IDEs are adopting a new rendering path on Linux. As you may remember, our IDEs started running in native Wayland mode in Linux Wayland sessions with 2026.1. Starting from 2026.3, the Vulkan rendering pipeline is enabled by default in this setup. Nothing changes for X11, XWayland, or other…",
+      "author": "Ekaterina Valeeva",
+      "publishedAt": "2026-11-20T16:05:48.000Z"
     }
   ],
-  "totalIndexed": 176
+  "totalIndexed": 178
 }
