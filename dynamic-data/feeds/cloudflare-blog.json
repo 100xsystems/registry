@@ -9,7 +9,7 @@
     "performance",
     "edge-computing"
   ],
-  "updatedAt": "2026-11-20T05:55:26.728Z",
+  "updatedAt": "2026-11-20T23:31:40.713Z",
   "items": [
     {
       "guid": "01KY2432VQPD5FTF2RARXXYQGH",
@@ -62514,7 +62514,23 @@
       "summary": "Five memory corruption bugs in nginx, called nginx2root, can let an unauthenticated attacker run code on a server. Here’s how they work, and why origins behind Cloudflare's proxy are shielded from the most serious of these bugs.",
       "author": "Dan Jones",
       "publishedAt": "2026-11-20T01:58:29.000Z"
+    },
+    {
+      "guid": "01M7X91JJQ5CWGQ65DZBAHW4Q9",
+      "title": "How Cloudflare WAF protects against ruby2shell (CVE-2026-132825)",
+      "link": "https://blog.cloudflare.com/ruby2shell-waf-protection/",
+      "summary": "ruby2shell lets attackers corrupt memory in default Rails and Sinatra apps without logging in. Cloudflare WAF blocks it for every customer, including Free plans. Upgrade Ruby now, and use the WAF to cover the gap.",
+      "author": "Daniele Molteni",
+      "publishedAt": "2026-11-20T20:24:38.000Z"
+    },
+    {
+      "guid": "01M7X76K1JK00SF9K4YN83WANQ",
+      "title": "How Cloudflare WAF helps protect against phpAfterShell and other critical PHP flaws",
+      "link": "https://blog.cloudflare.com/phpaftershell-waf-protection/",
+      "summary": "phpAfterShell is a critical flaw in PHP's default session handler that can lead to code execution. Cloudflare WAF blocks it for all customers, including Free plans, and adds new rules for other PHP flaws fixed in the same release.",
+      "author": "Daniele Molteni",
+      "publishedAt": "2026-11-20T20:00:45.000Z"
     }
   ],
-  "totalIndexed": 7813
+  "totalIndexed": 7815
 }

@@ -4,35 +4,61 @@
 - Current total: 6406
 - Added: 0
 - Removed: 0
-- Updated: 7
+- Updated: 12
 
 
 ## Updated Companies
 
-### [Gusto](https://www.ycombinator.com/companies/gusto)
+### [Superside](https://www.ycombinator.com/companies/superside)
 
-- `stage`: Growth → Early
+- `all_locations`: Oslo, Oslo, Norway; Remote → Remote
+- `one_liner`: AI-First Creative Partner for Enterprise Teams → AI-native creative agency
+- `team_size`: 850 → 750
+- `regions`: Norway,Europe,Remote,Fully Remote → Remote,Fully Remote
 
-### [Monarcha](https://www.ycombinator.com/companies/monarcha)
+### [Sytex](https://www.ycombinator.com/companies/sytex)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/ea1e425c52a9026abd48335f2ffaf6dceeb4d842.png → https://bookface-images.s3.amazonaws.com/small_logos/38fd308146451e43151aa665382eac217d1f3ccf.png
+- `tags`: SaaS,B2B → SaaS,B2B,Energy
 
-### [Stilta](https://www.ycombinator.com/companies/stilta)
+### [Polished](https://www.ycombinator.com/companies/polished)
 
-- `isHiring`: true → false
+- `status`: Active → Inactive
 
-### [Klarify](https://www.ycombinator.com/companies/klarify)
+### [Rebulk](https://www.ycombinator.com/companies/rebulk)
 
 - `isHiring`: false → true
 
-### [Oasive](https://www.ycombinator.com/companies/oasive)
+### [Captain](https://www.ycombinator.com/companies/captain)
 
-- `one_liner`: AI credit research for municipal bond investors → Credit research for bond investors
+- `one_liner`: Self-tuning search for products and files → Agent Infra for File Search
 
-### [Composal](https://www.ycombinator.com/companies/composal)
+### [Ornadyne](https://www.ycombinator.com/companies/ornadyne)
 
-- `team_size`: 3 → 2
+- `team_size`: 4 → 2
 
-### [Aikido Technologies](https://www.ycombinator.com/companies/aikido-technologies)
+### [Speko](https://www.ycombinator.com/companies/speko)
 
-- `one_liner`: Clean marine AI datacenters → Offshore datacenters, powered by the wind
+- `website`: https://speko.com/?utm_source=ycombinator&utm_medium=profile → https://speko.com
+
+### [Rasyn](https://www.ycombinator.com/companies/rasyn)
+
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/ffda7ce34aee49cfec95fa8aef9ed1a70e4c3e28.png → https://bookface-images.s3.amazonaws.com/small_logos/0a818ba06487377552c1a79dfedb78753836ef2d.png
+
+### [HillStar](https://www.ycombinator.com/companies/hillstar)
+
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/5b2a3199ea6bce97161125f2d12ceedf9cc1ecd2.png → https://bookface-images.s3.amazonaws.com/small_logos/86638f711e7120765749c6eed494d61cbab74bfc.png
+- `one_liner`: Agents to help utilities make better buying decisions. → AI that helps utilities buy power.
+- `tags`: GovTech,Big Data,AI → Energy,AI
+
+### [horizontal.](https://www.ycombinator.com/companies/horizontal)
+
+- `all_locations`: San Francisco, CA, USA → BY, Germany
+- `regions`: United States of America,America / Canada → Germany,Europe
+
+### [Mirrors](https://www.ycombinator.com/companies/mirrors)
+
+- `one_liner`: Situation specific context for AI agents → Give AI agents situation-specific context
+
+### [Super Powers Mobility (SPM)](https://www.ycombinator.com/companies/super-powers-mobility-spm)
+
+- `one_liner`: The highest performance modular battery packs for mobility/vehicles → Defense compliant modular battery packs power systems and vehicles
