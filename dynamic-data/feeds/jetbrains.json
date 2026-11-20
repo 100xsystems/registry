@@ -8,7 +8,7 @@
     "ide",
     "programming-languages"
   ],
-  "updatedAt": "2026-11-20T05:55:29.722Z",
+  "updatedAt": "2026-11-20T15:10:03.975Z",
   "items": [
     {
       "guid": "https://blog.jetbrains.com/?post_type=rscpp&p=725420",
@@ -1401,7 +1401,23 @@
       "summary": "JetBrains Plugin Developer Conf 2026 took place on November 10, bringing together JetBrains experts and plugin developers for a day of technical talks, practical examples, and discussions about the latest in plugin development. This year’s program explored how AI and agents are influencing plugin…",
       "author": "Elena Kerpeleva",
       "publishedAt": "2026-11-19T14:52:45.000Z"
+    },
+    {
+      "guid": "https://blog.jetbrains.com/?post_type=go&p=759391",
+      "title": "JetBrains Air in GoLand: Build, Review, and Profile Go Code With Agents",
+      "link": "https://blog.jetbrains.com/go/2026/11/20/jetbrains-air-in-goland/",
+      "summary": "If you’ve ever built backend services in Go, chances are you’ve also written a webhook handler or two. They’re small and rarely get much attention – that is, until something breaks. A third-party provider sends a signed request, and then you check the signature, store the event, and reply. Sounds…",
+      "author": "Dominika Stankiewicz",
+      "publishedAt": "2026-11-20T14:13:09.000Z"
+    },
+    {
+      "guid": "https://blog.jetbrains.com/?post_type=youtrack&p=759105",
+      "title": "Security Update for YouTrack Server: Java Vulnerability CVE-2026-114938 (Java4Shell)",
+      "link": "https://blog.jetbrains.com/youtrack/2026/11/security-update-for-youtrack-server-java-vulnerability-cve-2026-114938-java4shell/",
+      "summary": "On November 17, 2026, a critical vulnerability in Java was publicly disclosed: CVE-2026-114938, also known as Java4Shell. It affects Java runtimes used by many applications, including YouTrack Server. We have released YouTrack Server updates that include a fixed Java runtime. YouTrack Cloud is not…",
+      "author": "Elena Pishkova",
+      "publishedAt": "2026-11-20T13:24:50.000Z"
     }
   ],
-  "totalIndexed": 174
+  "totalIndexed": 176
 }

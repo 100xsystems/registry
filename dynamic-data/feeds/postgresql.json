@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-11-20T00:05:26.697Z",
+  "updatedAt": "2026-11-20T15:09:53.601Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -3641,7 +3641,31 @@
       "summary": "Working with the Postgres development community is such a rewarding experience.\nIn January 2024, Pavel Stehule asked in the hackers mailing list: why is there no VACUUM FULL CONCURRENTLY?\n\nI happen to know that Pavel works as a consultant with some very large, very high velocity databases. He knows…",
       "author": null,
       "publishedAt": "2026-11-19T10:27:29.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9D9",
+      "title": "Jimmy Angelakos: postgres.scot November 2026: a live Radar demo and Call for Presentations for December meetup",
+      "link": "https://postgr.es/p/9D9",
+      "summary": "Yesterday, Thursday, November 19th, was a cold night in Edinburgh, but the wonderful Law School in the University of Edinburgh's Old College was warm and cosy for our November meetup.\nWe were a speaker short, though. Alastair Turner of Percona was on his way to Edinburgh when his train turned back,…",
+      "author": null,
+      "publishedAt": "2026-11-20T13:08:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9Da",
+      "title": "Aleksei Aleinikov: PostgreSQL 19 vs 18: Native REPACK, pg_plan_advice, Graph Myth & Production Upgrade Guide",
+      "link": "https://postgr.es/p/9Da",
+      "summary": "If PostgreSQL 18 was the storage-speed release that brought Asynchronous I/O (io_uring and worker threads) to Postgres, PostgreSQL 19 is the operational release DBAs and backend teams have been asking for since 2018.\nInstead of forcing teams to bolt on external extensions for basic online…",
+      "author": null,
+      "publishedAt": "2026-11-20T09:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9D8",
+      "title": "Zsolt Parragi: What's left in Postgres 19",
+      "link": "https://postgr.es/p/9D8",
+      "summary": "Yesterday, PostgreSQL 19 was finally released after multiple delays.\nEveryone already knows about the many reverts that happened, but what actually remains? Is it still an interesting release?\nThis blog post doesn’t aim to be a complete list:\nthe release notes are there for that.\nIt is only a short…",
+      "author": null,
+      "publishedAt": "2026-11-20T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 454
+  "totalIndexed": 457
 }

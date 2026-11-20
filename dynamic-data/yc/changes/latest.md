@@ -1,96 +1,79 @@
 # YC Company Changes for 2026-11-20
 
-- Previous total: 6404
+- Previous total: 6406
 - Current total: 6406
-- Added: 2
+- Added: 0
 - Removed: 0
-- Updated: 17
+- Updated: 16
 
-
-## Added Companies
-
-- [Biomes](https://www.ycombinator.com/companies/biomes) (Fall 2026) — Deploying AI
-- [Rook Space](https://www.ycombinator.com/companies/rook-space) (Winter 2027) — Unlocking fast laser downlink for satellites
 
 ## Updated Companies
 
+### [Fivestars](https://www.ycombinator.com/companies/fivestars)
+
+- `stage`: Early → Growth
+
+### [Guesty](https://www.ycombinator.com/companies/guesty)
+
+- `stage`: Early → Growth
+
 ### [Weave](https://www.ycombinator.com/companies/weave)
 
-- `status`: Public → Acquired
-- `stage`: Growth → Early
+- `stage`: Early → Growth
 
-### [1stCollab](https://www.ycombinator.com/companies/1stcollab)
+### [Jeeves](https://www.ycombinator.com/companies/jeeves)
 
-- `isHiring`: true → false
+- `stage`: Early → Growth
 
-### [Dartboard](https://www.ycombinator.com/companies/dartboard)
+### [Campfire](https://www.ycombinator.com/companies/campfire-2)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/e6b5a6279db8d201fef41a88a35c1d4c0828744e.png → https://bookface-images.s3.amazonaws.com/small_logos/e921c00cb83b7e552043f9ef0c51da579791cd57.png
-- `one_liner`: AI-native remote operations center for hardware fleets → AI transformation for industrial and service businesses
-- `tags`: Hardware,Robotics,Energy,AI,Industrial → Manufacturing,Energy,AI,Industrial
+- `stage`: Early → Growth
+
+### [FINNY AI](https://www.ycombinator.com/companies/finny-ai)
+
+- `stage`: Early → Growth
 
 ### [Tire Swing](https://www.ycombinator.com/companies/tire-swing)
 
-- `one_liner`: The AI Affordable Housing Platform → Autonomous leasing and eligibility starting with affordable housing
+- `subindustry`: B2B -> Legal → B2B
+- `industries`: B2B,Legal → B2B
 
-### [traceroot](https://www.ycombinator.com/companies/traceroot)
+### [Flai](https://www.ycombinator.com/companies/flai)
 
-- `name`: TraceRoot.AI → traceroot
-- `slug`: traceroot-ai → traceroot
-- `former_names`: TraceRoot.ai → TraceRoot.ai,TraceRoot.AI,traceroot.ai
+- `stage`: Early → Growth
 
-### [AirCaps AI](https://www.ycombinator.com/companies/aircaps-ai)
+### [Nox Metals](https://www.ycombinator.com/companies/nox-metals)
+
+- `stage`: Early → Growth
+
+### [Alder](https://www.ycombinator.com/companies/alder)
+
+- `one_liner`: AI employees for finance, starting with accounts receivable.  → AI employees for finance and accounting
+
+### [Moss](https://www.ycombinator.com/companies/moss)
 
 - `isHiring`: true → false
 
-### [Opalite Health](https://www.ycombinator.com/companies/opalite-health)
+### [Twolabs](https://www.ycombinator.com/companies/twolabs)
 
-- `isHiring`: true → false
+- `one_liner`: RL environments for underexplored domains. → RL environments for industrial domains.
 
-### [Cova](https://www.ycombinator.com/companies/cova)
+### [tday.com](https://www.ycombinator.com/companies/tdaycom)
 
-- `isHiring`: false → true
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/a145822bf641ed1c6676fee5617d73460ae37314.png → https://bookface-images.s3.amazonaws.com/small_logos/ac6fc73f21af31774380b7d239f6d1a6a2aff66f.png
+
+### [Dawn Industries](https://www.ycombinator.com/companies/dawn-industries)
+
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/be237324cf82c0125a34763f99ffb0cf35ca384d.png → https://bookface-images.s3.amazonaws.com/small_logos/a2e3f76b70d601aec51f0abbc92cea8accd845e0.png
+- `one_liner`: Automatic Diagnosis & Fix for Industrial Automation Cells → Making Robots Easy to Deploy in Factories Today
+- `team_size`: 2 → 3
 
 ### [Capveon](https://www.ycombinator.com/companies/capveon)
 
-- `one_liner`: Turning infrastructure demand into action  → AI to find, understand, and win government contracts
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/55acb7275a696cdf957737bce96b338f2da2d45f.png → https://bookface-images.s3.amazonaws.com/small_logos/095610089ce25c95f1548bef19684fa04ff1113a.png
+- `one_liner`: AI to find, understand, and win government contracts → AI to find, understand, and win government work.
+- `team_size`: 2 → 3
 
 ### [Mirrors](https://www.ycombinator.com/companies/mirrors)
 
-- `one_liner`: The guidance system for production AI agents → Give AI agents situation specific context
-
-### [River](https://www.ycombinator.com/companies/rivereditor)
-
-- `subindustry`: B2B -> Productivity → B2B
-- `tags`: Productivity,AI → Computer Vision,Productivity,AI
-- `industries`: B2B,Productivity → B2B
-
-### [Antropi Robotics](https://www.ycombinator.com/companies/antropi-robotics)
-
-- `one_liner`: Autonomous CNC factories for faster hardware → Autonomous factories that turn designs into metal parts, in days
-
-### [Fleety](https://www.ycombinator.com/companies/fleety)
-
-- `team_size`: 4 → 3
-
-### [Latent](https://www.ycombinator.com/companies/trylatent)
-
-- `one_liner`: Stop AI agent mistakes by reading the model’s mind → Automated post-training for LLMs
-- `team_size`: 1 → 2
-- `subindustry`: B2B -> Security → B2B
-- `industries`: B2B,Security → B2B
-
-### [Graphide](https://www.ycombinator.com/companies/graphide)
-
-- `one_liner`: 10x faster and 70% cheaper than GH, with an agent managing your tests. → CI runner with agents that manage your tests. 10x faster and 70%…
-
-### [Sutrix](https://www.ycombinator.com/companies/sutrix)
-
-- `one_liner`: Helping healthcare providers monetize their clinical data → Transforming how healthcare providers monetize clinical data.
-
-### [Mantle Machines](https://www.ycombinator.com/companies/mantle-machines)
-
-- `name`: Mantle → Mantle Machines
-- `slug`: mantle-2 → mantle-machines
-- `former_names`: Kyvore → Kyvore,Mantle
-- `website`:  → https://www.mantlemachines.com/
+- `one_liner`: Give AI agents situation specific context → Situation specific context for AI agents
