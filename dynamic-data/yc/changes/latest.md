@@ -1,51 +1,48 @@
 # YC Company Changes for 2026-11-21
 
 - Previous total: 6406
-- Current total: 6406
-- Added: 0
+- Current total: 6407
+- Added: 1
 - Removed: 0
-- Updated: 10
+- Updated: 8
 
+
+## Added Companies
+
+- [Opsis](https://www.ycombinator.com/companies/opsis) (Winter 2027) — Autocomplete everywhere that knows your work
 
 ## Updated Companies
 
+### [Gusto](https://www.ycombinator.com/companies/gusto)
+
+- `stage`: Early → Growth
+
 ### [Stripe](https://www.ycombinator.com/companies/stripe)
 
-- `stage`: Growth → Early
+- `stage`: Early → Growth
 
-### [Hive](https://www.ycombinator.com/companies/hive)
+### [Atomic Industries](https://www.ycombinator.com/companies/atomic-industries)
 
-- `isHiring`: true → false
+- `stage`: Early → Growth
 
-### [Bystreet](https://www.ycombinator.com/companies/bystreet)
+### [Spark](https://www.ycombinator.com/companies/spark)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/17421a7106c2aa1e760abcb7892a8de8d04a9e7a.png → https://bookface-images.s3.amazonaws.com/small_logos/9723a0c8fde3142adacaa4d7586341acafc34422.png
-- `one_liner`: Connect with hotel owners around the world. → Global intelligence on property owners and decision-makers.
+- `tags`: Energy Storage,Solar Power,Climate,Energy,AI → Energy Storage,B2B,Climate,Energy,AI
 
-### [Travo](https://www.ycombinator.com/companies/travo)
+### [tday.com](https://www.ycombinator.com/companies/tdaycom)
 
-- `one_liner`: . → AI-native commercial real estate brokerage
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/ac6fc73f21af31774380b7d239f6d1a6a2aff66f.png → https://bookface-images.s3.amazonaws.com/small_logos/85798362f9c91ba42628f6a28d4011b747a9c69d.png
 
-### [Karumi](https://www.ycombinator.com/companies/karumi)
+### [Kara](https://www.ycombinator.com/companies/kara)
 
-- `team_size`: 6 → 16
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/164dc834616a28cf5df07c4ef025f55efa9a28d4.png → https://bookface-images.s3.amazonaws.com/small_logos/9e736405eb263e8da9d3fec9ce06520617ab2317.png
 
-### [isoquant](https://www.ycombinator.com/companies/isoquant)
+### [Ordo Labs](https://www.ycombinator.com/companies/ordo-labs)
 
-- `one_liner`: Self-optimizing inference cloud for 4x faster open models → Recursively self-improving inference cloud for 4x faster AI models
+- `one_liner`: Regulated lab software, rebuilt around AI agents → The first AI workforce for regulated labs
 
-### [OpenLake Technologies](https://www.ycombinator.com/companies/openlake-technologies)
+### [Composal](https://www.ycombinator.com/companies/composal)
 
-- `tags`: Generative AI,SaaS,Big Data,Infrastructure → Generative AI,SaaS,Enterprise,Big Data,Infrastructure
-
-### [horizontal.](https://www.ycombinator.com/companies/horizontal)
-
-- `isHiring`: false → true
-
-### [Streamline Systems](https://www.ycombinator.com/companies/streamline-systems)
-
-- `isHiring`: false → true
-
-### [Frontrunner](https://www.ycombinator.com/companies/frontrunner)
-
-- `one_liner`: Engineer your GTM → Infra + agents for GTM
+- `all_locations`: London, England, United Kingdom → San Francisco, CA, USA
+- `one_liner`: Always-on agents that keep working after engineers log off → Always-on agents that don't need to be prompted
+- `regions`: United Kingdom,Europe → United States of America,America / Canada
