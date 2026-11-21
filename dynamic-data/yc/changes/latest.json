@@ -1,191 +1,108 @@
 {
   "date": "2026-11-21",
-  "fetchedAt": "2026-11-21T14:27:45.026Z",
-  "previousCount": 6406,
+  "fetchedAt": "2026-11-21T18:44:37.639Z",
+  "previousCount": 6407,
   "currentCount": 6407,
-  "added": [
-    {
-      "id": 43144,
-      "name": "Opsis",
-      "slug": "opsis",
-      "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/68d1e3671ef21f82881eeb96c48d1c56a455a01c.png",
-      "website": "https://opsis.app",
-      "all_locations": "Melbourne, VIC, Australia",
-      "long_description": "",
-      "one_liner": "Autocomplete everywhere that knows your work",
-      "team_size": 2,
-      "highlight_black": false,
-      "highlight_latinx": false,
-      "highlight_women": false,
-      "industry": "Consumer",
-      "subindustry": "Consumer",
-      "launched_at": 1795246077,
-      "tags": [
-        "Productivity",
-        "Consumer Products",
-        "AI Assistant"
-      ],
-      "tags_highlighted": [],
-      "top_company": false,
-      "isHiring": false,
-      "nonprofit": false,
-      "batch": "Winter 2027",
-      "status": "Active",
-      "industries": [
-        "Consumer"
-      ],
-      "regions": [
-        "Australia",
-        "Oceania"
-      ],
-      "stage": "Early",
-      "app_video_public": false,
-      "demo_day_video_public": false,
-      "app_answers": null,
-      "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/opsis"
-    }
-  ],
+  "added": [],
   "removed": [],
   "updated": [
     {
-      "id": 24,
-      "name": "Gusto",
-      "slug": "gusto",
-      "batch": "Winter 2012",
-      "url": "https://www.ycombinator.com/companies/gusto",
+      "id": 29646,
+      "name": "Corgi",
+      "slug": "corgi",
+      "batch": "Summer 2024",
+      "url": "https://www.ycombinator.com/companies/corgi",
       "changes": [
         {
+          "field": "team_size",
+          "before": 250,
+          "after": 450
+        },
+        {
           "field": "stage",
-          "before": "Early",
-          "after": "Growth"
+          "before": "Growth",
+          "after": "Early"
         }
       ]
     },
     {
-      "id": 240,
-      "name": "Stripe",
-      "slug": "stripe",
-      "batch": "Summer 2009",
-      "url": "https://www.ycombinator.com/companies/stripe",
+      "id": 29950,
+      "name": "Pipeshift",
+      "slug": "pipeshift",
+      "batch": "Summer 2024",
+      "url": "https://www.ycombinator.com/companies/pipeshift",
       "changes": [
         {
-          "field": "stage",
-          "before": "Early",
-          "after": "Growth"
+          "field": "one_liner",
+          "before": "Inference for real-time agents",
+          "after": "Inference for Interactive Agents"
         }
       ]
     },
     {
-      "id": 22627,
-      "name": "Atomic Industries",
-      "slug": "atomic-industries",
-      "batch": "Winter 2021",
-      "url": "https://www.ycombinator.com/companies/atomic-industries",
+      "id": 30226,
+      "name": "Elip AI",
+      "slug": "elip-ai",
+      "batch": "Winter 2025",
+      "url": "https://www.ycombinator.com/companies/elip-ai",
       "changes": [
         {
-          "field": "stage",
-          "before": "Early",
-          "after": "Growth"
+          "field": "one_liner",
+          "before": "Jobs a friend would send you, and a shortlist a friend would write.",
+          "after": "Good matches have reasons."
+        },
+        {
+          "field": "isHiring",
+          "before": false,
+          "after": true
         }
       ]
     },
     {
-      "id": 29438,
-      "name": "Spark",
-      "slug": "spark",
-      "batch": "Winter 2024",
-      "url": "https://www.ycombinator.com/companies/spark",
+      "id": 30880,
+      "name": "Nessie",
+      "slug": "nessie",
+      "batch": "Fall 2025",
+      "url": "https://www.ycombinator.com/companies/nessie",
       "changes": [
         {
           "field": "tags",
-          "before": [
-            "Energy Storage",
-            "Solar Power",
-            "Climate",
-            "Energy",
-            "AI"
-          ],
+          "before": [],
           "after": [
-            "Energy Storage",
-            "B2B",
-            "Climate",
-            "Energy",
+            "Developer Tools",
+            "SaaS",
+            "Big Data",
+            "Enterprise Software",
             "AI"
           ]
         }
       ]
     },
     {
-      "id": 31455,
-      "name": "tday.com",
-      "slug": "tdaycom",
-      "batch": "Spring 2026",
-      "url": "https://www.ycombinator.com/companies/tdaycom",
-      "changes": [
-        {
-          "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/ac6fc73f21af31774380b7d239f6d1a6a2aff66f.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/85798362f9c91ba42628f6a28d4011b747a9c69d.png"
-        }
-      ]
-    },
-    {
-      "id": 32137,
-      "name": "Kara",
-      "slug": "kara",
-      "batch": "Summer 2026",
-      "url": "https://www.ycombinator.com/companies/kara",
-      "changes": [
-        {
-          "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/164dc834616a28cf5df07c4ef025f55efa9a28d4.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/9e736405eb263e8da9d3fec9ce06520617ab2317.png"
-        }
-      ]
-    },
-    {
-      "id": 35421,
-      "name": "Ordo Labs",
-      "slug": "ordo-labs",
+      "id": 35157,
+      "name": "Nitroduck",
+      "slug": "nitroduck",
       "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/ordo-labs",
+      "url": "https://www.ycombinator.com/companies/nitroduck",
       "changes": [
         {
           "field": "one_liner",
-          "before": "Regulated lab software, rebuilt around AI agents",
-          "after": "The first AI workforce for regulated labs"
+          "before": "Monsanto for yummy crops, but without pesticides",
+          "after": "Nitroduck designs new colors, flavors and disease resistance into…"
         }
       ]
     },
     {
-      "id": 36972,
-      "name": "Composal",
-      "slug": "composal",
+      "id": 35322,
+      "name": "Helios Intelligence",
+      "slug": "helios-intelligence",
       "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/composal",
+      "url": "https://www.ycombinator.com/companies/helios-intelligence",
       "changes": [
         {
-          "field": "all_locations",
-          "before": "London, England, United Kingdom",
-          "after": "San Francisco, CA, USA"
-        },
-        {
-          "field": "one_liner",
-          "before": "Always-on agents that keep working after engineers log off",
-          "after": "Always-on agents that don't need to be prompted"
-        },
-        {
-          "field": "regions",
-          "before": [
-            "United Kingdom",
-            "Europe"
-          ],
-          "after": [
-            "United States of America",
-            "America / Canada"
-          ]
+          "field": "website",
+          "before": "https://www.heliosinc.ai/",
+          "after": "https://www.myhelios.com/"
         }
       ]
     }
