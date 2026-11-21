@@ -9,7 +9,7 @@
     "edge-computing",
     "nextjs"
   ],
-  "updatedAt": "2026-11-20T19:38:53.320Z",
+  "updatedAt": "2026-11-21T05:50:03.448Z",
   "items": [
     {
       "guid": "vercel-blog::https://vercel.com/changelog/ai-gateway-now-supports-streaming-transcription",
@@ -5458,7 +5458,15 @@
       "summary": "Vercel has completed its ISO/IEC 42001:2023 certification, meeting the international standard for AI management systems.\nThis certification gives our customers confidence to ship fast with agents on Vercel, demonstrating how Vercel designs, builds, operates, and governs our AI products.\nOur AI…",
       "author": "Kacee Taylor",
       "publishedAt": "2026-11-20T05:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/vercel-functions-now-support-request-bodies-up-to-20mib",
+      "title": "Vercel Functions now support request bodies up to 20MiB",
+      "link": "https://vercel.com/changelog/vercel-functions-now-support-request-bodies-up-to-20mib",
+      "summary": "now accept inbound request bodies up to 20MiB, up from 4.5MB, in Public Beta.Vercel Functions\nTo turn this on, set the  environment variable. The opt-in applies to the whole project in the environment where you set it, so you can test the larger limit on preview before enabling it in production. It…",
+      "author": "Gal Schlezinger",
+      "publishedAt": "2026-11-20T13:00:00.000Z"
     }
   ],
-  "totalIndexed": 681
+  "totalIndexed": 682
 }

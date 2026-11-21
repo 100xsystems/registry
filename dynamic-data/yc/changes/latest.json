@@ -1,180 +1,121 @@
 {
-  "date": "2026-11-20",
-  "fetchedAt": "2026-11-20T23:31:56.464Z",
+  "date": "2026-11-21",
+  "fetchedAt": "2026-11-21T05:50:10.376Z",
   "previousCount": 6406,
   "currentCount": 6406,
   "added": [],
   "removed": [],
   "updated": [
     {
-      "id": 1034,
-      "name": "Superside",
-      "slug": "superside",
-      "batch": "Winter 2016",
-      "url": "https://www.ycombinator.com/companies/superside",
+      "id": 240,
+      "name": "Stripe",
+      "slug": "stripe",
+      "batch": "Summer 2009",
+      "url": "https://www.ycombinator.com/companies/stripe",
       "changes": [
         {
-          "field": "all_locations",
-          "before": "Oslo, Oslo, Norway; Remote",
-          "after": "Remote"
-        },
-        {
-          "field": "one_liner",
-          "before": "AI-First Creative Partner for Enterprise Teams",
-          "after": "AI-native creative agency"
-        },
-        {
-          "field": "team_size",
-          "before": 850,
-          "after": 750
-        },
-        {
-          "field": "regions",
-          "before": [
-            "Norway",
-            "Europe",
-            "Remote",
-            "Fully Remote"
-          ],
-          "after": [
-            "Remote",
-            "Fully Remote"
-          ]
+          "field": "stage",
+          "before": "Growth",
+          "after": "Early"
         }
       ]
     },
     {
-      "id": 26869,
-      "name": "Sytex",
-      "slug": "sytex",
-      "batch": "Summer 2022",
-      "url": "https://www.ycombinator.com/companies/sytex",
-      "changes": [
-        {
-          "field": "tags",
-          "before": [
-            "SaaS",
-            "B2B"
-          ],
-          "after": [
-            "SaaS",
-            "B2B",
-            "Energy"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 29332,
-      "name": "Polished",
-      "slug": "polished",
-      "batch": "Winter 2024",
-      "url": "https://www.ycombinator.com/companies/polished",
-      "changes": [
-        {
-          "field": "status",
-          "before": "Active",
-          "after": "Inactive"
-        }
-      ]
-    },
-    {
-      "id": 30763,
-      "name": "Rebulk",
-      "slug": "rebulk",
-      "batch": "Summer 2025",
-      "url": "https://www.ycombinator.com/companies/rebulk",
+      "id": 714,
+      "name": "Hive",
+      "slug": "hive",
+      "batch": "Summer 2014",
+      "url": "https://www.ycombinator.com/companies/hive",
       "changes": [
         {
           "field": "isHiring",
-          "before": false,
-          "after": true
+          "before": true,
+          "after": false
         }
       ]
     },
     {
-      "id": 30913,
-      "name": "Captain",
-      "slug": "captain",
+      "id": 30279,
+      "name": "Bystreet",
+      "slug": "bystreet",
+      "batch": "Winter 2025",
+      "url": "https://www.ycombinator.com/companies/bystreet",
+      "changes": [
+        {
+          "field": "small_logo_thumb_url",
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/17421a7106c2aa1e760abcb7892a8de8d04a9e7a.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/9723a0c8fde3142adacaa4d7586341acafc34422.png"
+        },
+        {
+          "field": "one_liner",
+          "before": "Connect with hotel owners around the world.",
+          "after": "Global intelligence on property owners and decision-makers."
+        }
+      ]
+    },
+    {
+      "id": 30905,
+      "name": "Travo",
+      "slug": "travo",
       "batch": "Winter 2026",
-      "url": "https://www.ycombinator.com/companies/captain",
+      "url": "https://www.ycombinator.com/companies/travo",
       "changes": [
         {
           "field": "one_liner",
-          "before": "Self-tuning search for products and files",
-          "after": "Agent Infra for File Search"
+          "before": ".",
+          "after": "AI-native commercial real estate brokerage"
         }
       ]
     },
     {
-      "id": 31486,
-      "name": "Ornadyne",
-      "slug": "ornadyne",
-      "batch": "Spring 2026",
-      "url": "https://www.ycombinator.com/companies/ornadyne",
+      "id": 30966,
+      "name": "Karumi",
+      "slug": "karumi",
+      "batch": "Fall 2025",
+      "url": "https://www.ycombinator.com/companies/karumi",
       "changes": [
         {
           "field": "team_size",
-          "before": 4,
-          "after": 2
+          "before": 6,
+          "after": 16
         }
       ]
     },
     {
-      "id": 32169,
-      "name": "Speko",
-      "slug": "speko",
-      "batch": "Summer 2026",
-      "url": "https://www.ycombinator.com/companies/speko",
-      "changes": [
-        {
-          "field": "website",
-          "before": "https://speko.com/?utm_source=ycombinator&utm_medium=profile",
-          "after": "https://speko.com"
-        }
-      ]
-    },
-    {
-      "id": 32261,
-      "name": "Rasyn",
-      "slug": "rasyn",
-      "batch": "Summer 2026",
-      "url": "https://www.ycombinator.com/companies/rasyn",
-      "changes": [
-        {
-          "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/ffda7ce34aee49cfec95fa8aef9ed1a70e4c3e28.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/0a818ba06487377552c1a79dfedb78753836ef2d.png"
-        }
-      ]
-    },
-    {
-      "id": 33318,
-      "name": "HillStar",
-      "slug": "hillstar",
+      "id": 33250,
+      "name": "isoquant",
+      "slug": "isoquant",
       "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/hillstar",
+      "url": "https://www.ycombinator.com/companies/isoquant",
       "changes": [
-        {
-          "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/5b2a3199ea6bce97161125f2d12ceedf9cc1ecd2.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/86638f711e7120765749c6eed494d61cbab74bfc.png"
-        },
         {
           "field": "one_liner",
-          "before": "Agents to help utilities make better buying decisions.",
-          "after": "AI that helps utilities buy power."
-        },
+          "before": "Self-optimizing inference cloud for 4x faster open models",
+          "after": "Recursively self-improving inference cloud for 4x faster AI models"
+        }
+      ]
+    },
+    {
+      "id": 35223,
+      "name": "OpenLake Technologies",
+      "slug": "openlake-technologies",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/openlake-technologies",
+      "changes": [
         {
           "field": "tags",
           "before": [
-            "GovTech",
+            "Generative AI",
+            "SaaS",
             "Big Data",
-            "AI"
+            "Infrastructure"
           ],
           "after": [
-            "Energy",
-            "AI"
+            "Generative AI",
+            "SaaS",
+            "Enterprise",
+            "Big Data",
+            "Infrastructure"
           ]
         }
       ]
@@ -187,48 +128,37 @@
       "url": "https://www.ycombinator.com/companies/horizontal",
       "changes": [
         {
-          "field": "all_locations",
-          "before": "San Francisco, CA, USA",
-          "after": "BY, Germany"
-        },
-        {
-          "field": "regions",
-          "before": [
-            "United States of America",
-            "America / Canada"
-          ],
-          "after": [
-            "Germany",
-            "Europe"
-          ]
+          "field": "isHiring",
+          "before": false,
+          "after": true
         }
       ]
     },
     {
-      "id": 35258,
-      "name": "Mirrors",
-      "slug": "mirrors",
+      "id": 35487,
+      "name": "Streamline Systems",
+      "slug": "streamline-systems",
       "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/mirrors",
+      "url": "https://www.ycombinator.com/companies/streamline-systems",
       "changes": [
         {
-          "field": "one_liner",
-          "before": "Situation specific context for AI agents",
-          "after": "Give AI agents situation-specific context"
+          "field": "isHiring",
+          "before": false,
+          "after": true
         }
       ]
     },
     {
-      "id": 38094,
-      "name": "Super Powers Mobility (SPM)",
-      "slug": "super-powers-mobility-spm",
+      "id": 37273,
+      "name": "Frontrunner",
+      "slug": "frontrunner",
       "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/super-powers-mobility-spm",
+      "url": "https://www.ycombinator.com/companies/frontrunner",
       "changes": [
         {
           "field": "one_liner",
-          "before": "The highest performance modular battery packs for mobility/vehicles",
-          "after": "Defense compliant modular battery packs power systems and vehicles"
+          "before": "Engineer your GTM",
+          "after": "Infra + agents for GTM"
         }
       ]
     }

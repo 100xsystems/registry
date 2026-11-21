@@ -1,64 +1,51 @@
-# YC Company Changes for 2026-11-20
+# YC Company Changes for 2026-11-21
 
 - Previous total: 6406
 - Current total: 6406
 - Added: 0
 - Removed: 0
-- Updated: 12
+- Updated: 10
 
 
 ## Updated Companies
 
-### [Superside](https://www.ycombinator.com/companies/superside)
+### [Stripe](https://www.ycombinator.com/companies/stripe)
 
-- `all_locations`: Oslo, Oslo, Norway; Remote → Remote
-- `one_liner`: AI-First Creative Partner for Enterprise Teams → AI-native creative agency
-- `team_size`: 850 → 750
-- `regions`: Norway,Europe,Remote,Fully Remote → Remote,Fully Remote
+- `stage`: Growth → Early
 
-### [Sytex](https://www.ycombinator.com/companies/sytex)
+### [Hive](https://www.ycombinator.com/companies/hive)
 
-- `tags`: SaaS,B2B → SaaS,B2B,Energy
+- `isHiring`: true → false
 
-### [Polished](https://www.ycombinator.com/companies/polished)
+### [Bystreet](https://www.ycombinator.com/companies/bystreet)
 
-- `status`: Active → Inactive
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/17421a7106c2aa1e760abcb7892a8de8d04a9e7a.png → https://bookface-images.s3.amazonaws.com/small_logos/9723a0c8fde3142adacaa4d7586341acafc34422.png
+- `one_liner`: Connect with hotel owners around the world. → Global intelligence on property owners and decision-makers.
 
-### [Rebulk](https://www.ycombinator.com/companies/rebulk)
+### [Travo](https://www.ycombinator.com/companies/travo)
 
-- `isHiring`: false → true
+- `one_liner`: . → AI-native commercial real estate brokerage
 
-### [Captain](https://www.ycombinator.com/companies/captain)
+### [Karumi](https://www.ycombinator.com/companies/karumi)
 
-- `one_liner`: Self-tuning search for products and files → Agent Infra for File Search
+- `team_size`: 6 → 16
 
-### [Ornadyne](https://www.ycombinator.com/companies/ornadyne)
+### [isoquant](https://www.ycombinator.com/companies/isoquant)
 
-- `team_size`: 4 → 2
+- `one_liner`: Self-optimizing inference cloud for 4x faster open models → Recursively self-improving inference cloud for 4x faster AI models
 
-### [Speko](https://www.ycombinator.com/companies/speko)
+### [OpenLake Technologies](https://www.ycombinator.com/companies/openlake-technologies)
 
-- `website`: https://speko.com/?utm_source=ycombinator&utm_medium=profile → https://speko.com
-
-### [Rasyn](https://www.ycombinator.com/companies/rasyn)
-
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/ffda7ce34aee49cfec95fa8aef9ed1a70e4c3e28.png → https://bookface-images.s3.amazonaws.com/small_logos/0a818ba06487377552c1a79dfedb78753836ef2d.png
-
-### [HillStar](https://www.ycombinator.com/companies/hillstar)
-
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/5b2a3199ea6bce97161125f2d12ceedf9cc1ecd2.png → https://bookface-images.s3.amazonaws.com/small_logos/86638f711e7120765749c6eed494d61cbab74bfc.png
-- `one_liner`: Agents to help utilities make better buying decisions. → AI that helps utilities buy power.
-- `tags`: GovTech,Big Data,AI → Energy,AI
+- `tags`: Generative AI,SaaS,Big Data,Infrastructure → Generative AI,SaaS,Enterprise,Big Data,Infrastructure
 
 ### [horizontal.](https://www.ycombinator.com/companies/horizontal)
 
-- `all_locations`: San Francisco, CA, USA → BY, Germany
-- `regions`: United States of America,America / Canada → Germany,Europe
+- `isHiring`: false → true
 
-### [Mirrors](https://www.ycombinator.com/companies/mirrors)
+### [Streamline Systems](https://www.ycombinator.com/companies/streamline-systems)
 
-- `one_liner`: Situation specific context for AI agents → Give AI agents situation-specific context
+- `isHiring`: false → true
 
-### [Super Powers Mobility (SPM)](https://www.ycombinator.com/companies/super-powers-mobility-spm)
+### [Frontrunner](https://www.ycombinator.com/companies/frontrunner)
 
-- `one_liner`: The highest performance modular battery packs for mobility/vehicles → Defense compliant modular battery packs power systems and vehicles
+- `one_liner`: Engineer your GTM → Infra + agents for GTM
