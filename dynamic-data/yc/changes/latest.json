@@ -1,11 +1,34 @@
 {
   "date": "2026-11-22",
-  "fetchedAt": "2026-11-22T14:22:42.390Z",
+  "fetchedAt": "2026-11-22T19:05:38.890Z",
   "previousCount": 6407,
   "currentCount": 6407,
   "added": [],
   "removed": [],
   "updated": [
+    {
+      "id": 164,
+      "name": "Mino Games",
+      "slug": "mino-games",
+      "batch": "Winter 2011",
+      "url": "https://www.ycombinator.com/companies/mino-games",
+      "changes": [
+        {
+          "field": "regions",
+          "before": [
+            "United States of America",
+            "Canada",
+            "America / Canada",
+            "America / Canada"
+          ],
+          "after": [
+            "United States of America",
+            "Canada",
+            "America / Canada"
+          ]
+        }
+      ]
+    },
     {
       "id": 26880,
       "name": "Airhart Aeronautics",
@@ -15,105 +38,25 @@
       "changes": [
         {
           "field": "stage",
-          "before": "Early",
-          "after": "Growth"
+          "before": "Growth",
+          "after": "Early"
         }
       ]
     },
     {
-      "id": 28037,
-      "name": "Diffuse Bio",
-      "slug": "diffuse-bio",
-      "batch": "Winter 2023",
-      "url": "https://www.ycombinator.com/companies/diffuse-bio",
+      "id": 31023,
+      "name": "Standard Physics",
+      "slug": "standard-physics",
+      "batch": "Winter 2026",
+      "url": "https://www.ycombinator.com/companies/standard-physics",
       "changes": [
         {
-          "field": "stage",
-          "before": "Early",
-          "after": "Growth"
-        }
-      ]
-    },
-    {
-      "id": 28776,
-      "name": "Ora AI",
-      "slug": "ora-ai",
-      "batch": "Summer 2023",
-      "url": "https://www.ycombinator.com/companies/ora-ai",
-      "changes": [
-        {
-          "field": "one_liner",
-          "before": "The AI Platform for Healthcare Education",
-          "after": "Precision Education for Healthcare"
-        }
-      ]
-    },
-    {
-      "id": 29417,
-      "name": "Brainbase Labs",
-      "slug": "brainbase-labs",
-      "batch": "Winter 2024",
-      "url": "https://www.ycombinator.com/companies/brainbase-labs",
-      "changes": [
-        {
-          "field": "team_size",
-          "before": 4,
-          "after": 6
-        },
-        {
-          "field": "regions",
-          "before": [
-            "United States of America",
-            "America / Canada"
-          ],
+          "field": "tags",
+          "before": [],
           "after": [
-            "United States of America",
-            "America / Canada",
-            "Remote",
-            "Partly Remote"
+            "Reinforcement Learning",
+            "Manufacturing"
           ]
-        }
-      ]
-    },
-    {
-      "id": 29646,
-      "name": "Corgi",
-      "slug": "corgi",
-      "batch": "Summer 2024",
-      "url": "https://www.ycombinator.com/companies/corgi",
-      "changes": [
-        {
-          "field": "stage",
-          "before": "Early",
-          "after": "Growth"
-        }
-      ]
-    },
-    {
-      "id": 31455,
-      "name": "tday.com",
-      "slug": "tdaycom",
-      "batch": "Spring 2026",
-      "url": "https://www.ycombinator.com/companies/tdaycom",
-      "changes": [
-        {
-          "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/85798362f9c91ba42628f6a28d4011b747a9c69d.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/cf0ab54011ff6085db65df6f056d30faef43fd5f.png"
-        }
-      ]
-    },
-    {
-      "id": 31461,
-      "name": "Collar",
-      "slug": "collar",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/collar",
-      "changes": [
-        {
-          "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/e0d7cba39c34a79507cb7c89d4524ddfa9de7ccf.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/bcc2083dd748d9e5e2bb9f15d6cfe10a5fbe93b3.png"
         }
       ]
     },
@@ -126,105 +69,30 @@
       "changes": [
         {
           "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/b1348d79301216902dfdfa731a133bfa809b1447.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/eb32d60ea4c36f3aa1c2bcee107868ffa450011b.png"
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/eb32d60ea4c36f3aa1c2bcee107868ffa450011b.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/b1348d79301216902dfdfa731a133bfa809b1447.png"
         },
         {
           "field": "one_liner",
-          "before": "The AI Workforce for Biopharma",
-          "after": "Earned Intelligence. Data, RL environments and custom models"
+          "before": "Earned Intelligence. Data, RL environments and custom models",
+          "after": "The AI Workforce for Biopharma"
         },
         {
           "field": "tags",
           "before": [
-            "SaaS",
-            "B2B",
-            "Biotech",
-            "Automation",
-            "AI"
-          ],
-          "after": [
             "Machine Learning",
             "Reinforcement Learning",
             "Robotics",
             "B2B",
             "AI"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 33838,
-      "name": "Simantic",
-      "slug": "simantic",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/simantic",
-      "changes": [
-        {
-          "field": "all_locations",
-          "before": "Waterloo, ON, Canada",
-          "after": "San Francisco, CA, USA"
-        },
-        {
-          "field": "regions",
-          "before": [
-            "Canada",
-            "America / Canada"
           ],
           "after": [
-            "United States of America",
-            "America / Canada"
+            "SaaS",
+            "B2B",
+            "Biotech",
+            "Automation",
+            "AI"
           ]
-        }
-      ]
-    },
-    {
-      "id": 34365,
-      "name": "Runtime",
-      "slug": "runtime-si",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/runtime-si",
-      "changes": [
-        {
-          "field": "name",
-          "before": "Runtime.si",
-          "after": "Runtime"
-        },
-        {
-          "field": "slug",
-          "before": "runtimesi",
-          "after": "runtime-si"
-        },
-        {
-          "field": "former_names",
-          "before": [
-            "Lambda Robotics",
-            "Runtime"
-          ],
-          "after": [
-            "Lambda Robotics",
-            "Runtime",
-            "Runtime.si"
-          ]
-        },
-        {
-          "field": "one_liner",
-          "before": "Robots that think in simulation",
-          "after": "Fast, Reliable Agentic Robotics"
-        }
-      ]
-    },
-    {
-      "id": 37600,
-      "name": "Redoubt Insurance",
-      "slug": "redoubt-insurance",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/redoubt-insurance",
-      "changes": [
-        {
-          "field": "all_locations",
-          "before": "Salt Lake City, UT, USA",
-          "after": "San Francisco, CA, USA"
         }
       ]
     }
