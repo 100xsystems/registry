@@ -1,82 +1,105 @@
 {
   "date": "2026-11-22",
-  "fetchedAt": "2026-11-22T05:22:15.247Z",
+  "fetchedAt": "2026-11-22T14:22:42.390Z",
   "previousCount": 6407,
   "currentCount": 6407,
   "added": [],
   "removed": [],
   "updated": [
     {
-      "id": 23279,
-      "name": "Chatwoot",
-      "slug": "chatwoot",
-      "batch": "Winter 2021",
-      "url": "https://www.ycombinator.com/companies/chatwoot",
+      "id": 26880,
+      "name": "Airhart Aeronautics",
+      "slug": "airhart-aeronautics",
+      "batch": "Summer 2022",
+      "url": "https://www.ycombinator.com/companies/airhart-aeronautics",
       "changes": [
         {
-          "field": "team_size",
-          "before": 12,
-          "after": 14
+          "field": "stage",
+          "before": "Early",
+          "after": "Growth"
         }
       ]
     },
     {
-      "id": 31096,
-      "name": "shortkit",
-      "slug": "shortkit",
-      "batch": "Winter 2026",
-      "url": "https://www.ycombinator.com/companies/shortkit",
+      "id": 28037,
+      "name": "Diffuse Bio",
+      "slug": "diffuse-bio",
+      "batch": "Winter 2023",
+      "url": "https://www.ycombinator.com/companies/diffuse-bio",
       "changes": [
         {
-          "field": "all_locations",
-          "before": "",
-          "after": "Remote"
-        },
+          "field": "stage",
+          "before": "Early",
+          "after": "Growth"
+        }
+      ]
+    },
+    {
+      "id": 28776,
+      "name": "Ora AI",
+      "slug": "ora-ai",
+      "batch": "Summer 2023",
+      "url": "https://www.ycombinator.com/companies/ora-ai",
+      "changes": [
+        {
+          "field": "one_liner",
+          "before": "The AI Platform for Healthcare Education",
+          "after": "Precision Education for Healthcare"
+        }
+      ]
+    },
+    {
+      "id": 29417,
+      "name": "Brainbase Labs",
+      "slug": "brainbase-labs",
+      "batch": "Winter 2024",
+      "url": "https://www.ycombinator.com/companies/brainbase-labs",
+      "changes": [
         {
           "field": "team_size",
-          "before": 2,
-          "after": 3
+          "before": 4,
+          "after": 6
         },
         {
           "field": "regions",
           "before": [
-            "Unspecified"
+            "United States of America",
+            "America / Canada"
           ],
           "after": [
+            "United States of America",
+            "America / Canada",
             "Remote",
-            "Fully Remote"
+            "Partly Remote"
           ]
         }
       ]
     },
     {
-      "id": 31378,
-      "name": "GodHands",
-      "slug": "godhands",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/godhands",
+      "id": 29646,
+      "name": "Corgi",
+      "slug": "corgi",
+      "batch": "Summer 2024",
+      "url": "https://www.ycombinator.com/companies/corgi",
       "changes": [
         {
-          "field": "one_liner",
-          "before": "Turn how your team works into playbooks and agents.",
-          "after": "Fraud, risk and compliance agents that learn by watching analysts "
-        },
+          "field": "stage",
+          "before": "Early",
+          "after": "Growth"
+        }
+      ]
+    },
+    {
+      "id": 31455,
+      "name": "tday.com",
+      "slug": "tdaycom",
+      "batch": "Spring 2026",
+      "url": "https://www.ycombinator.com/companies/tdaycom",
+      "changes": [
         {
-          "field": "tags",
-          "before": [
-            "B2B",
-            "Enterprise",
-            "Automation",
-            "Operations",
-            "AI"
-          ],
-          "after": [
-            "B2B",
-            "Enterprise",
-            "Automation",
-            "Fraud Detection",
-            "Operations"
-          ]
+          "field": "small_logo_thumb_url",
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/85798362f9c91ba42628f6a28d4011b747a9c69d.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/cf0ab54011ff6085db65df6f056d30faef43fd5f.png"
         }
       ]
     },
@@ -89,83 +112,119 @@
       "changes": [
         {
           "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/35110e6bdfbfbf5706627685cbb370e170ff4a03.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/e0d7cba39c34a79507cb7c89d4524ddfa9de7ccf.png"
-        },
-        {
-          "field": "one_liner",
-          "before": "Helping Enterprises Fundraise Faster",
-          "after": "AI-Native Investor Relations"
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/e0d7cba39c34a79507cb7c89d4524ddfa9de7ccf.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/bcc2083dd748d9e5e2bb9f15d6cfe10a5fbe93b3.png"
         }
       ]
     },
     {
-      "id": 32815,
-      "name": "TryNearby",
-      "slug": "trynearby",
-      "batch": "Summer 2026",
-      "url": "https://www.ycombinator.com/companies/trynearby",
+      "id": 31549,
+      "name": "Enjamb Labs",
+      "slug": "enjamb-labs",
+      "batch": "Spring 2026",
+      "url": "https://www.ycombinator.com/companies/enjamb-labs",
       "changes": [
         {
           "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/043d0df2ce658d03b7ad1d70bb0deaa3f2282ea5.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/cc68193d31189843096714388c0df38b8effd893.png"
-        }
-      ]
-    },
-    {
-      "id": 35191,
-      "name": "Munito AI",
-      "slug": "munito-ai",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/munito-ai",
-      "changes": [
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/b1348d79301216902dfdfa731a133bfa809b1447.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/eb32d60ea4c36f3aa1c2bcee107868ffa450011b.png"
+        },
         {
           "field": "one_liner",
-          "before": "Open-model inference provider for Europe, private by default.",
-          "after": "Open-model AI cloud for Europe, private by default."
+          "before": "The AI Workforce for Biopharma",
+          "after": "Earned Intelligence. Data, RL environments and custom models"
+        },
+        {
+          "field": "tags",
+          "before": [
+            "SaaS",
+            "B2B",
+            "Biotech",
+            "Automation",
+            "AI"
+          ],
+          "after": [
+            "Machine Learning",
+            "Reinforcement Learning",
+            "Robotics",
+            "B2B",
+            "AI"
+          ]
         }
       ]
     },
     {
-      "id": 35421,
-      "name": "Ordo Labs",
-      "slug": "ordo-labs",
+      "id": 33838,
+      "name": "Simantic",
+      "slug": "simantic",
       "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/ordo-labs",
+      "url": "https://www.ycombinator.com/companies/simantic",
       "changes": [
+        {
+          "field": "all_locations",
+          "before": "Waterloo, ON, Canada",
+          "after": "San Francisco, CA, USA"
+        },
+        {
+          "field": "regions",
+          "before": [
+            "Canada",
+            "America / Canada"
+          ],
+          "after": [
+            "United States of America",
+            "America / Canada"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 34365,
+      "name": "Runtime",
+      "slug": "runtime-si",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/runtime-si",
+      "changes": [
+        {
+          "field": "name",
+          "before": "Runtime.si",
+          "after": "Runtime"
+        },
+        {
+          "field": "slug",
+          "before": "runtimesi",
+          "after": "runtime-si"
+        },
+        {
+          "field": "former_names",
+          "before": [
+            "Lambda Robotics",
+            "Runtime"
+          ],
+          "after": [
+            "Lambda Robotics",
+            "Runtime",
+            "Runtime.si"
+          ]
+        },
         {
           "field": "one_liner",
-          "before": "The first AI workforce for regulated labs",
-          "after": "Regulated lab software, rebuilt around AI agents"
+          "before": "Robots that think in simulation",
+          "after": "Fast, Reliable Agentic Robotics"
         }
       ]
     },
     {
-      "id": 38226,
-      "name": "FlashDrive",
-      "slug": "flashdrive",
+      "id": 37600,
+      "name": "Redoubt Insurance",
+      "slug": "redoubt-insurance",
       "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/flashdrive",
+      "url": "https://www.ycombinator.com/companies/redoubt-insurance",
       "changes": [
         {
-          "field": "website",
-          "before": "https://flashdrive.space",
-          "after": "https://flashdrive.ai"
-        }
-      ]
-    },
-    {
-      "id": 40140,
-      "name": "Tesser",
-      "slug": "tesser",
-      "batch": "Winter 2027",
-      "url": "https://www.ycombinator.com/companies/tesser",
-      "changes": [
-        {
-          "field": "one_liner",
-          "before": "Seamless cloud dev environments",
-          "after": "Disposable cloud VMs for development workloads"
+          "field": "all_locations",
+          "before": "Salt Lake City, UT, USA",
+          "after": "San Francisco, CA, USA"
         }
       ]
     }

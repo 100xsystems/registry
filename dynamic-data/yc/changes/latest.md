@@ -4,47 +4,58 @@
 - Current total: 6407
 - Added: 0
 - Removed: 0
-- Updated: 9
+- Updated: 11
 
 
 ## Updated Companies
 
-### [Chatwoot](https://www.ycombinator.com/companies/chatwoot)
+### [Airhart Aeronautics](https://www.ycombinator.com/companies/airhart-aeronautics)
 
-- `team_size`: 12 → 14
+- `stage`: Early → Growth
 
-### [shortkit](https://www.ycombinator.com/companies/shortkit)
+### [Diffuse Bio](https://www.ycombinator.com/companies/diffuse-bio)
 
-- `all_locations`:  → Remote
-- `team_size`: 2 → 3
-- `regions`: Unspecified → Remote,Fully Remote
+- `stage`: Early → Growth
 
-### [GodHands](https://www.ycombinator.com/companies/godhands)
+### [Ora AI](https://www.ycombinator.com/companies/ora-ai)
 
-- `one_liner`: Turn how your team works into playbooks and agents. → Fraud, risk and compliance agents that learn by watching analysts 
-- `tags`: B2B,Enterprise,Automation,Operations,AI → B2B,Enterprise,Automation,Fraud Detection,Operations
+- `one_liner`: The AI Platform for Healthcare Education → Precision Education for Healthcare
+
+### [Brainbase Labs](https://www.ycombinator.com/companies/brainbase-labs)
+
+- `team_size`: 4 → 6
+- `regions`: United States of America,America / Canada → United States of America,America / Canada,Remote,Partly Remote
+
+### [Corgi](https://www.ycombinator.com/companies/corgi)
+
+- `stage`: Early → Growth
+
+### [tday.com](https://www.ycombinator.com/companies/tdaycom)
+
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/85798362f9c91ba42628f6a28d4011b747a9c69d.png → https://bookface-images.s3.amazonaws.com/small_logos/cf0ab54011ff6085db65df6f056d30faef43fd5f.png
 
 ### [Collar](https://www.ycombinator.com/companies/collar)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/35110e6bdfbfbf5706627685cbb370e170ff4a03.png → https://bookface-images.s3.amazonaws.com/small_logos/e0d7cba39c34a79507cb7c89d4524ddfa9de7ccf.png
-- `one_liner`: Helping Enterprises Fundraise Faster → AI-Native Investor Relations
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/e0d7cba39c34a79507cb7c89d4524ddfa9de7ccf.png → https://bookface-images.s3.amazonaws.com/small_logos/bcc2083dd748d9e5e2bb9f15d6cfe10a5fbe93b3.png
 
-### [TryNearby](https://www.ycombinator.com/companies/trynearby)
+### [Enjamb Labs](https://www.ycombinator.com/companies/enjamb-labs)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/043d0df2ce658d03b7ad1d70bb0deaa3f2282ea5.png → https://bookface-images.s3.amazonaws.com/small_logos/cc68193d31189843096714388c0df38b8effd893.png
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/b1348d79301216902dfdfa731a133bfa809b1447.png → https://bookface-images.s3.amazonaws.com/small_logos/eb32d60ea4c36f3aa1c2bcee107868ffa450011b.png
+- `one_liner`: The AI Workforce for Biopharma → Earned Intelligence. Data, RL environments and custom models
+- `tags`: SaaS,B2B,Biotech,Automation,AI → Machine Learning,Reinforcement Learning,Robotics,B2B,AI
 
-### [Munito AI](https://www.ycombinator.com/companies/munito-ai)
+### [Simantic](https://www.ycombinator.com/companies/simantic)
 
-- `one_liner`: Open-model inference provider for Europe, private by default. → Open-model AI cloud for Europe, private by default.
+- `all_locations`: Waterloo, ON, Canada → San Francisco, CA, USA
+- `regions`: Canada,America / Canada → United States of America,America / Canada
 
-### [Ordo Labs](https://www.ycombinator.com/companies/ordo-labs)
+### [Runtime](https://www.ycombinator.com/companies/runtime-si)
 
-- `one_liner`: The first AI workforce for regulated labs → Regulated lab software, rebuilt around AI agents
+- `name`: Runtime.si → Runtime
+- `slug`: runtimesi → runtime-si
+- `former_names`: Lambda Robotics,Runtime → Lambda Robotics,Runtime,Runtime.si
+- `one_liner`: Robots that think in simulation → Fast, Reliable Agentic Robotics
 
-### [FlashDrive](https://www.ycombinator.com/companies/flashdrive)
+### [Redoubt Insurance](https://www.ycombinator.com/companies/redoubt-insurance)
 
-- `website`: https://flashdrive.space → https://flashdrive.ai
-
-### [Tesser](https://www.ycombinator.com/companies/tesser)
-
-- `one_liner`: Seamless cloud dev environments → Disposable cloud VMs for development workloads
+- `all_locations`: Salt Lake City, UT, USA → San Francisco, CA, USA
