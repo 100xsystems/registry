@@ -1,52 +1,50 @@
-# YC Company Changes for 2026-11-21
+# YC Company Changes for 2026-11-22
 
 - Previous total: 6407
 - Current total: 6407
 - Added: 0
 - Removed: 0
-- Updated: 8
+- Updated: 9
 
 
 ## Updated Companies
 
-### [DigiBuild Resilience](https://www.ycombinator.com/companies/digibuild-resilience)
+### [Chatwoot](https://www.ycombinator.com/companies/chatwoot)
 
-- `name`: DigiBuild → DigiBuild Resilience
-- `slug`: digibuild → digibuild-resilience
-- `former_names`: DigiBuild Software Inc.,DigiBuild Software → DigiBuild Software Inc.,DigiBuild Software,DigiBuild
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/619bfcc11ede71a157f8463466ae0bd8ddd6cc7e.png → https://bookface-images.s3.amazonaws.com/small_logos/fd340226433c62b25161ca1850caaa89e15335a0.png
-- `one_liner`: We buy & track building materials for construction companies. → Physical AI solutions that Protect What We Build.
-- `team_size`: 15 → 4
-- `tags`: SaaS,Supply Chain,AI,ML → Supply Chain,Data Science,Advanced Materials,AI,Industrial
+- `team_size`: 12 → 14
 
-### [jo](https://www.ycombinator.com/companies/jo)
+### [shortkit](https://www.ycombinator.com/companies/shortkit)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/c9c7f687c3a57d8f3b931f1e760657237991cb95.png → https://bookface-images.s3.amazonaws.com/small_logos/fa9a04078a39902132c5bb6ab92fe04db3ba57ec.png
-- `one_liner`: The personal AI agent that keeps up with your work and life. → A personal agent for daily life
-- `team_size`: 2 → 1
+- `all_locations`:  → Remote
+- `team_size`: 2 → 3
+- `regions`: Unspecified → Remote,Fully Remote
 
-### [Brainbase Labs](https://www.ycombinator.com/companies/brainbase-labs)
+### [GodHands](https://www.ycombinator.com/companies/godhands)
 
-- `one_liner`: The AI Labor Company → Internal agent infrastructure for enterprise
+- `one_liner`: Turn how your team works into playbooks and agents. → Fraud, risk and compliance agents that learn by watching analysts 
+- `tags`: B2B,Enterprise,Automation,Operations,AI → B2B,Enterprise,Automation,Fraud Detection,Operations
 
-### [Nessie](https://www.ycombinator.com/companies/nessie)
+### [Collar](https://www.ycombinator.com/companies/collar)
 
-- `one_liner`: The shared context layer for recursive companies. → Shared context across ChatGPT, Claude, Codex, Cursor and more
-- `tags`: Developer Tools,SaaS,Big Data,Enterprise Software,AI → Developer Tools,SaaS,Enterprise Software,AI
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/35110e6bdfbfbf5706627685cbb370e170ff4a03.png → https://bookface-images.s3.amazonaws.com/small_logos/e0d7cba39c34a79507cb7c89d4524ddfa9de7ccf.png
+- `one_liner`: Helping Enterprises Fundraise Faster → AI-Native Investor Relations
 
-### [9 Mothers](https://www.ycombinator.com/companies/9-mothers-corporation)
+### [TryNearby](https://www.ycombinator.com/companies/trynearby)
 
-- `team_size`: 19 → 35
-- `tags`:  → Robotics,Drones,GovTech,Defense,AI
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/043d0df2ce658d03b7ad1d70bb0deaa3f2282ea5.png → https://bookface-images.s3.amazonaws.com/small_logos/cc68193d31189843096714388c0df38b8effd893.png
 
-### [Nxtcure Labs](https://www.ycombinator.com/companies/nxtcure-labs)
+### [Munito AI](https://www.ycombinator.com/companies/munito-ai)
 
-- `one_liner`: Engineering the future of Cancer Drug Discovery → AI CRO with Digital Twins 
+- `one_liner`: Open-model inference provider for Europe, private by default. → Open-model AI cloud for Europe, private by default.
 
-### [Petrichor](https://www.ycombinator.com/companies/petrichor)
+### [Ordo Labs](https://www.ycombinator.com/companies/ordo-labs)
 
-- `team_size`: 3 → 2
+- `one_liner`: The first AI workforce for regulated labs → Regulated lab software, rebuilt around AI agents
 
-### [Odin Robotics](https://www.ycombinator.com/companies/odin-robotics)
+### [FlashDrive](https://www.ycombinator.com/companies/flashdrive)
 
-- `one_liner`: Robot arms that do repetitive manual work in existing factories. → We deploy robots that adapt to high-mix factories.
+- `website`: https://flashdrive.space → https://flashdrive.ai
+
+### [Tesser](https://www.ycombinator.com/companies/tesser)
+
+- `one_liner`: Seamless cloud dev environments → Disposable cloud VMs for development workloads

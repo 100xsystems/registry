@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-11-21T14:27:27.546Z",
+  "updatedAt": "2026-11-22T05:22:01.491Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -3673,7 +3673,23 @@
       "summary": "The retrieval was perfect. That was the problem.\nPicture an internal assistant that answers employee questions from a shared document store. Someone asks a reasonable question about bonus timelines. The vector search does exactly what it was built to do and finds the most semantically similar…",
       "author": null,
       "publishedAt": "2026-11-21T12:59:52.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9Dd",
+      "title": "Dan Langille: Galène: fixing double-encoded port files",
+      "link": "https://postgr.es/p/9Dd",
+      "summary": "If you looked at the Makefile for www/galene on FreshPorts, you would have seen COMMENT= The GalÃ¨ne videoconference server. The port itself says Galène. This post explains how that happened, the fix I just pushed, how I will test it on dev, and how I plan to repair the text that is already wrong.…",
+      "author": null,
+      "publishedAt": "2026-11-22T01:07:41.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9Dc",
+      "title": "uzair aslam: PostgreSQL Connection Pooling on Vercel with Next.js",
+      "link": "https://postgr.es/p/9Dc",
+      "summary": "Configure PostgreSQL connection pooling on Vercel with Next.js. Size pg pools, release clients, handle transactions, and reproduce queued requests locally.\nYour Next.js endpoint works locally, then starts timing out after a deployment or traffic spike. PostgreSQL reports too many connections, or…",
+      "author": null,
+      "publishedAt": "2026-11-21T23:36:01.000Z"
     }
   ],
-  "totalIndexed": 458
+  "totalIndexed": 460
 }
