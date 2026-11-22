@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-11-22T19:05:21.560Z",
+  "updatedAt": "2026-11-22T23:01:56.216Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -3697,7 +3697,15 @@
       "summary": "Prairie Postgres turned two in October, but since I was overseas then, we moved our celebration (and a cake!) to November.\nWe are very thankful to Sami Imseih for presenting his Become a PG_STAT_* talk (which I missed at PG DATA 2026); it was exceptionally informative and now includes the most…",
       "author": null,
       "publishedAt": "2026-11-22T18:22:16.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9Dg",
+      "title": "Mats Kindahl: Building a Table Access Method, Part 9: UNLOGGED tables and surviving a restart",
+      "link": "https://postgr.es/p/9Dg",
+      "summary": "Everything that pg_memtable stores lives in shared memory, and a restart of the server destroys it, but the handle is left in the catalog. Since nothing special is done to inform Postgres that tables that use the memtable table access method (MemTables) do not survive a restart, it will treat the…",
+      "author": null,
+      "publishedAt": "2026-11-22T19:25:18.000Z"
     }
   ],
-  "totalIndexed": 461
+  "totalIndexed": 462
 }

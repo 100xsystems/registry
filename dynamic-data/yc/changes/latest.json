@@ -1,41 +1,58 @@
 {
   "date": "2026-11-22",
-  "fetchedAt": "2026-11-22T19:05:38.890Z",
+  "fetchedAt": "2026-11-22T23:02:12.404Z",
   "previousCount": 6407,
   "currentCount": 6407,
   "added": [],
   "removed": [],
   "updated": [
     {
-      "id": 164,
-      "name": "Mino Games",
-      "slug": "mino-games",
-      "batch": "Winter 2011",
-      "url": "https://www.ycombinator.com/companies/mino-games",
+      "id": 21790,
+      "name": "Dripos",
+      "slug": "dripos",
+      "batch": "Summer 2020",
+      "url": "https://www.ycombinator.com/companies/dripos",
       "changes": [
         {
-          "field": "regions",
-          "before": [
-            "United States of America",
-            "Canada",
-            "America / Canada",
-            "America / Canada"
-          ],
-          "after": [
-            "United States of America",
-            "Canada",
-            "America / Canada"
-          ]
+          "field": "isHiring",
+          "before": false,
+          "after": true
         }
       ]
     },
     {
-      "id": 26880,
-      "name": "Airhart Aeronautics",
-      "slug": "airhart-aeronautics",
+      "id": 27052,
+      "name": "Quindar",
+      "slug": "quindar",
       "batch": "Summer 2022",
-      "url": "https://www.ycombinator.com/companies/airhart-aeronautics",
+      "url": "https://www.ycombinator.com/companies/quindar",
       "changes": [
+        {
+          "field": "one_liner",
+          "before": "Datadog for Space",
+          "after": "Infrastructure for Space"
+        },
+        {
+          "field": "team_size",
+          "before": 57,
+          "after": 91
+        },
+        {
+          "field": "tags",
+          "before": [
+            "SaaS",
+            "Space Exploration",
+            "Satellites",
+            "Aerospace"
+          ],
+          "after": [
+            "SaaS",
+            "Space Exploration",
+            "Satellites",
+            "Aerospace",
+            "Defense"
+          ]
+        },
         {
           "field": "stage",
           "before": "Growth",
@@ -44,55 +61,49 @@
       ]
     },
     {
-      "id": 31023,
-      "name": "Standard Physics",
-      "slug": "standard-physics",
-      "batch": "Winter 2026",
-      "url": "https://www.ycombinator.com/companies/standard-physics",
+      "id": 29253,
+      "name": "Andon Labs",
+      "slug": "andon-labs",
+      "batch": "Winter 2024",
+      "url": "https://www.ycombinator.com/companies/andon-labs",
       "changes": [
         {
-          "field": "tags",
-          "before": [],
-          "after": [
-            "Reinforcement Learning",
-            "Manufacturing"
-          ]
+          "field": "isHiring",
+          "before": false,
+          "after": true
         }
       ]
     },
     {
-      "id": 31549,
-      "name": "Enjamb Labs",
-      "slug": "enjamb-labs",
-      "batch": "Spring 2026",
-      "url": "https://www.ycombinator.com/companies/enjamb-labs",
+      "id": 32583,
+      "name": "Graphify Labs",
+      "slug": "graphify-labs",
+      "batch": "Summer 2026",
+      "url": "https://www.ycombinator.com/companies/graphify-labs",
       "changes": [
         {
-          "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/eb32d60ea4c36f3aa1c2bcee107868ffa450011b.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/b1348d79301216902dfdfa731a133bfa809b1447.png"
+          "field": "website",
+          "before": "https://www.graphify.com/",
+          "after": "https://graphify.com/"
         },
         {
           "field": "one_liner",
-          "before": "Earned Intelligence. Data, RL environments and custom models",
-          "after": "The AI Workforce for Biopharma"
-        },
+          "before": "Shared Understanding of Codebase for Agents and Developers ",
+          "after": "Shared Context of Codebase for Agents and Developers "
+        }
+      ]
+    },
+    {
+      "id": 35983,
+      "name": "Telamont",
+      "slug": "telamont",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/telamont",
+      "changes": [
         {
-          "field": "tags",
-          "before": [
-            "Machine Learning",
-            "Reinforcement Learning",
-            "Robotics",
-            "B2B",
-            "AI"
-          ],
-          "after": [
-            "SaaS",
-            "B2B",
-            "Biotech",
-            "Automation",
-            "AI"
-          ]
+          "field": "one_liner",
+          "before": "Sentry for errors in construction documents",
+          "after": "AI that catches errors in construction documents"
         }
       ]
     }
