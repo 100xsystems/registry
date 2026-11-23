@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-11-23T17:47:19.447Z",
+  "updatedAt": "2026-11-23T23:25:49.231Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -3721,7 +3721,15 @@
       "summary": "In October, I was in the audience at PGConf.EU for “The Monday We Learned Who Maintains Our Backups”, by David Steele and Jan Wieremjewicz. I was happy to hear how pgBackRest was born, straight from the person who wrote it.\n\nOne slide listed the project’s founding major contributors: David, Cynthia…",
       "author": null,
       "publishedAt": "2026-11-23T09:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9Dn",
+      "title": "Chris van Eijk: could not resize shared memory segment: Postgres in Docker",
+      "link": "https://postgr.es/p/9Dn",
+      "summary": "PostgreSQL could not resize shared memory segment: No space left on device is /dev/shm, not disk. Measured in Docker on 16 to 18; why 256 MB fell short.",
+      "author": null,
+      "publishedAt": "2026-11-23T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 464
+  "totalIndexed": 465
 }

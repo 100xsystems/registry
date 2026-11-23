@@ -4,88 +4,97 @@
 - Current total: 6407
 - Added: 0
 - Removed: 0
-- Updated: 20
+- Updated: 18
 
 
 ## Updated Companies
 
-### [SolidStage](https://www.ycombinator.com/companies/solidstage)
+### [Rethoric](https://www.ycombinator.com/companies/rethoric)
 
-- `website`: http://solidstage.com → 
+- `status`: Active → Inactive
 
-### [Anywhere.FM](https://www.ycombinator.com/companies/anywhere-fm)
+### [Argon AI, Inc.](https://www.ycombinator.com/companies/argon-ai-inc)
 
-- `website`: http://anywhere.fm → 
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/422284c71061c1b13b2dea760955ab9a3fa6d01a.png → https://bookface-images.s3.amazonaws.com/small_logos/136919ac18ebcc09ed9e1f93757b2c8fa8222594.png
 
-### [Amulyte](https://www.ycombinator.com/companies/amulyte)
+### [AgentJam](https://www.ycombinator.com/companies/agentjam)
 
-- `website`: http://amulyte.com → 
+- `name`: Stamp → AgentJam
+- `slug`: stamp → agentjam
+- `former_names`:  → Stamp
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/ec77fe8f30c765884c0359fdaafcf0412168dd15.png → https://bookface-images.s3.amazonaws.com/small_logos/eb123db0025f08e8253b49c51c1be59ebe00bbec.png
+- `website`: https://www.stampmail.ai/ → https://agentjam.com/
+- `one_liner`: The AI Secretary for Email and Calendar. → The Internet of AI Agents
+- `industry`: B2B → Consumer
+- `subindustry`: B2B -> Productivity → Consumer
+- `industries`: B2B,Productivity → Consumer
 
-### [zPREDICTA](https://www.ycombinator.com/companies/zpredicta)
+### [Bystreet](https://www.ycombinator.com/companies/bystreet)
 
-- `website`: http://zpredicta.com → 
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/9723a0c8fde3142adacaa4d7586341acafc34422.png → https://bookface-images.s3.amazonaws.com/small_logos/54f6f3bf2eb19881e5f68429e7b1bace34f5e7f0.png
 
-### [Openland](https://www.ycombinator.com/companies/openland)
+### [Wardstone](https://www.ycombinator.com/companies/wardstone)
 
-- `website`: https://openland.com → 
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/12a498451818daa71ba01c88400ac7f241e33a03.png → https://bookface-images.s3.amazonaws.com/small_logos/ea6aac5b26a4e344cdb7446825c84f75bce11187.png
+- `tags`: Hard Tech,Satellites,Rocketry,Aerospace,Defense → Hard Tech,Rocketry,Aerospace,Defense
 
-### [yBANQ](https://www.ycombinator.com/companies/ybanq)
-
-- `website`: https://ybanq.com → 
-
-### [Awari](https://www.ycombinator.com/companies/awari)
-
-- `website`: https://awari.com/ → 
-
-### [Hypercontext](https://www.ycombinator.com/companies/hypercontext)
-
-- `website`: https://hypercontext.com → 
-
-### [Material Depot](https://www.ycombinator.com/companies/material-depot)
-
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/a662852a35aa588b121563de0be00dcfacd66749.png → https://bookface-images.s3.amazonaws.com/small_logos/b93b630f5e3f2ded42f770efeaa47026d9085c15.png
-- `website`: https://materialdepot.in/ → https://materialdepot.com
-
-### [Quindar](https://www.ycombinator.com/companies/quindar)
-
-- `stage`: Early → Growth
-
-### [Junction Bioscience](https://www.ycombinator.com/companies/junction-bioscience)
-
-- `one_liner`: Industrializing structural biology: from months to minutes → Industrializing structural biology
-
-### [Lilac Labs](https://www.ycombinator.com/companies/lilac-labs)
-
-- `website`: https://www.drive-thru.ai/ → 
-
-### [Dexter](https://www.ycombinator.com/companies/dexter)
-
-- `isHiring`: true → false
-
-### [ProcIndex](https://www.ycombinator.com/companies/procindex)
-
-- `team_size`: 4 → 5
-
-### [tday.com](https://www.ycombinator.com/companies/tdaycom)
-
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/cf0ab54011ff6085db65df6f056d30faef43fd5f.png → https://bookface-images.s3.amazonaws.com/small_logos/28748aad0c8ba0aed432ef309d8dd322adb412a3.png
-
-### [Evident Machines](https://www.ycombinator.com/companies/evident-machines)
-
-- `tags`: Hardware,Machine Learning,Robotics,Electronics,AI → Hardware,Machine Learning,Reinforcement Learning,Electronics,AI
-
-### [Asakana](https://www.ycombinator.com/companies/asakana)
-
-- `one_liner`: Automating away manual admin for food distributors: texts to ERP → Back-office automation for food distributors, no behavior change
-
-### [Vouch](https://www.ycombinator.com/companies/vouchwealth)
+### [OpenSpec](https://www.ycombinator.com/companies/openspec)
 
 - `isHiring`: false → true
 
-### [Composal](https://www.ycombinator.com/companies/composal)
+### [Grade](https://www.ycombinator.com/companies/grade)
 
-- `one_liner`: Always-on agents that don't need to be prompted → Always-on agents that don't wait to be prompted
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/97bee8995323297bfa4540365e98ff74a62aa5fd.png → https://bookface-images.s3.amazonaws.com/small_logos/9c4664428c3dccae4a32ebf9d12aab6f7983b56d.png
 
-### [Godpack](https://www.ycombinator.com/companies/godpack)
+### [ValCtrl](https://www.ycombinator.com/companies/valctrl)
 
-- `website`: http://godpack.com/ → http://godpack.gg/
+- `one_liner`: ValCtrl is building the only intelligent prediction market → A proprietary trading startup.
+
+### [Egoist Machines](https://www.ycombinator.com/companies/egoist-machines)
+
+- `website`: https://ego.ist/ → https://ink.ego.ist/
+- `all_locations`: San Francisco, CA, USA → London, England, United Kingdom
+- `one_liner`: Your personal context, securely portable across every AI app. → Own your AI context. Ink, our first app, makes drafts sound like you
+- `team_size`: 2 → 3
+- `industry`: Consumer → B2B
+- `subindustry`: Consumer → B2B -> Productivity
+- `tags`: Hardware,Personalization,Privacy,Consumer Products,AI Assistant → Generative AI,Consumer,Productivity,SEO,AI Assistant
+- `industries`: Consumer → B2B,Productivity
+- `regions`: United States of America,America / Canada → United Kingdom,Europe,Remote,Partly Remote
+
+### [Shielded](https://www.ycombinator.com/companies/shielded)
+
+- `website`: https://www.shieldedglobal.com/ → https://www.shielded.com/
+
+### [Computable](https://www.ycombinator.com/companies/computable)
+
+- `one_liner`: Derivatives Exchange for Compute → the matching engine for compute
+
+### [Metalcraft](https://www.ycombinator.com/companies/metalcraft)
+
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/5f7933f1917a47bf844572cf253da02eeececc9f.png → https://bookface-images.s3.amazonaws.com/small_logos/1a5a329743b45106a09eea00a639b43463c0b988.png
+- `one_liner`: Advancing biological models → Teaching frontier models experimental science
+
+### [Boat](https://www.ycombinator.com/companies/boat)
+
+- `one_liner`: The best cloud VMs for billions of agents → Most powerful & affordable cloud VMs for agents
+
+### [Capveon](https://www.ycombinator.com/companies/capveon)
+
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/095610089ce25c95f1548bef19684fa04ff1113a.png → https://bookface-images.s3.amazonaws.com/small_logos/03fe372b15da0d930beaf756c1de73cae7ca4232.png
+
+### [Mirrors](https://www.ycombinator.com/companies/mirrors)
+
+- `one_liner`: Give AI agents situation-specific context → Real-time steering for production AI agents
+
+### [ByteAsk](https://www.ycombinator.com/companies/byteask)
+
+- `one_liner`: The AI coding agent for C, C++ and CUDA → Software factory for C, C++ and CUDA
+
+### [Particularity](https://www.ycombinator.com/companies/particularity)
+
+- `one_liner`: Building the tech stack for government regulators → The intelligence layer and system of record for government agencies
+
+### [Canos](https://www.ycombinator.com/companies/canos)
+
+- `team_size`: 0 → 2

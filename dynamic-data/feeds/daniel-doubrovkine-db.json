@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-11-22T19:05:22.857Z",
+  "updatedAt": "2026-11-23T23:25:49.156Z",
   "items": [
     {
       "guid": "daniel-doubrovkine-db::https://code.dblock.org/2026/05/05/coding-with-ai-agents-is-now-a-baseline-expectation-for-managers.html",
@@ -239,7 +239,15 @@
       "summary": "I use both GitHub Copilot CLI with tokens paid for by Microsoft where I work, and Claude Code using my own subscription. I run Claude on a personal laptop and Copilot at work and use both almost every day, occasionally on the same projects, sometimes at the same time. Both read personal…",
       "author": "Daniel Doubrovkine",
       "publishedAt": "2026-11-22T00:00:00.000Z"
+    },
+    {
+      "guid": "daniel-doubrovkine-db::https://code.dblock.org/2026/11/23/the-link-is-not-dead-its-behind-cloudflare.html",
+      "title": "The Link Is Not Dead, It's Behind Cloudflare",
+      "link": "https://code.dblock.org/2026/11/23/the-link-is-not-dead-its-behind-cloudflare.html",
+      "summary": "Most of my Jekyll blogs, including this one, used html-proofer from a rake check task that I ran by hand, which means I never ran it. I swapped that for a faster ruby-link-checker, and ran it in CI, piling broken links into a GitHub issue that I never looked at. Finally, I made…",
+      "author": "Daniel Doubrovkine",
+      "publishedAt": "2026-11-23T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 29
+  "totalIndexed": 30
 }

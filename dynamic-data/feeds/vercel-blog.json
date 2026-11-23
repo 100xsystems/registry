@@ -9,7 +9,7 @@
     "edge-computing",
     "nextjs"
   ],
-  "updatedAt": "2026-11-23T17:47:24.629Z",
+  "updatedAt": "2026-11-23T23:25:54.953Z",
   "items": [
     {
       "guid": "vercel-blog::https://vercel.com/changelog/ai-gateway-now-supports-streaming-transcription",
@@ -5498,7 +5498,23 @@
       "summary": "sends your  requests only to providers headquartered in countries you choose, so you can meet compliance and procurement rules about where your AI vendors are located.Provider headquartersAI Gateway\nYou can configure provider headquarters to be an allowlist of the countries to use, or a denylist of…",
       "author": "Rohan Taneja",
       "publishedAt": "2026-11-23T00:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/ai-gateway-now-supports-extraction-models",
+      "title": "AI Gateway now supports extraction models",
+      "link": "https://vercel.com/changelog/ai-gateway-now-supports-extraction-models",
+      "summary": "are now on AI Gateway. They find specific details in the content you provide, such as an invoice number or contact names, and return them as separate fields your code can use.Extraction models\n is the first available extraction model. It extracts text values or lists of text values from text,…",
+      "author": "Bruce Liu",
+      "publishedAt": "2026-11-23T05:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/vercel-drives-adds-cli-commands-and-standalone-sdks",
+      "title": "Vercel Drives adds CLI commands and standalone SDKs",
+      "link": "https://vercel.com/changelog/vercel-drives-adds-cli-commands-and-standalone-sdks",
+      "summary": "You can now create, list, fork, and delete  with the new  commands or standalone SDKs for TypeScript () and Python (). Drives also have a  at  and Drive-specific permissions, so managing them no longer requires Sandbox APIs or permissions.Vercel DrivesREST APIvercel…",
+      "author": "Tom Lienard",
+      "publishedAt": "2026-11-23T05:00:00.000Z"
     }
   ],
-  "totalIndexed": 686
+  "totalIndexed": 688
 }
