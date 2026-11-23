@@ -8,7 +8,7 @@
     "ide",
     "programming-languages"
   ],
-  "updatedAt": "2026-11-20T19:38:53.386Z",
+  "updatedAt": "2026-11-23T17:47:24.658Z",
   "items": [
     {
       "guid": "https://blog.jetbrains.com/?post_type=rscpp&p=725420",
@@ -1433,7 +1433,31 @@
       "summary": "JetBrains IDEs are adopting a new rendering path on Linux. As you may remember, our IDEs started running in native Wayland mode in Linux Wayland sessions with 2026.1. Starting from 2026.3, the Vulkan rendering pipeline is enabled by default in this setup. Nothing changes for X11, XWayland, or other…",
       "author": "Ekaterina Valeeva",
       "publishedAt": "2026-11-20T16:05:48.000Z"
+    },
+    {
+      "guid": "https://blog.jetbrains.com/?post_type=kotlin&p=759663",
+      "title": "Kotlin Benchmark 2.0: How AI Coding Agents Handle Harder Tasks and Closed-Source Code",
+      "link": "https://blog.jetbrains.com/kotlin/2026/11/kotlin-benchmark-2-0-how-ai-coding-agents-handle-harder-tasks-and-closed-source-code/",
+      "summary": "In July, we released the Kotlin Benchmark – a collection of 105 real repository-level tasks for evaluating AI coding agents’ work with Kotlin. Since then, we’ve updated it to be more representative of what Kotlin teams do, with more reliable results and more data to help you choose an agent-model…",
+      "author": "Alyona Chernyaeva",
+      "publishedAt": "2026-11-23T14:13:29.000Z"
+    },
+    {
+      "guid": "https://blog.jetbrains.com/?post_type=pycharm&p=755664",
+      "title": "Creating Polars Expression Plugins in PyCharm: A Step-by-Step Guide for Rust Beginners",
+      "link": "https://blog.jetbrains.com/pycharm/2026/11/creating-polars-expression-plugins-in-pycharm-a-step-by-step-guide-for-rust-beginners/",
+      "summary": "Polars is a favorite among data scientists. It’s a high-performance, columnar DataFrame library written in Rust and powered by Apache Arrow.  Unlike traditional single-threaded tools, Polars uses full multicore CPU parallelism, efficient memory allocation, and lazy execution with query…",
+      "author": "Cheuk Ting Ho",
+      "publishedAt": "2026-11-23T12:42:50.000Z"
+    },
+    {
+      "guid": "https://blog.jetbrains.com/?post_type=teamcity&p=759298",
+      "title": "Best GitHub Actions Alternatives in 2026: What 838 Organizations Actually Use",
+      "link": "https://blog.jetbrains.com/teamcity/2026/11/github-actions-alternatives/",
+      "summary": "GitHub Actions is the default CI/CD tool for much of the industry, because it’s built into GitHub. But 2026 gave teams reasons to look around. On July 9, hosted runner jobs were delayed or failing for more than nine hours. In May, the Megalodon campaign pushed malicious workflows to more than 5,500…",
+      "author": "Olga Bedrina",
+      "publishedAt": "2026-11-23T07:56:19.000Z"
     }
   ],
-  "totalIndexed": 178
+  "totalIndexed": 181
 }

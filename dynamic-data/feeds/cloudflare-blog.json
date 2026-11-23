@@ -9,7 +9,7 @@
     "performance",
     "edge-computing"
   ],
-  "updatedAt": "2026-11-20T23:31:40.713Z",
+  "updatedAt": "2026-11-23T17:47:18.584Z",
   "items": [
     {
       "guid": "01KY2432VQPD5FTF2RARXXYQGH",
@@ -62530,7 +62530,15 @@
       "summary": "phpAfterShell is a critical flaw in PHP's default session handler that can lead to code execution. Cloudflare WAF blocks it for all customers, including Free plans, and adds new rules for other PHP flaws fixed in the same release.",
       "author": "Daniele Molteni",
       "publishedAt": "2026-11-20T20:00:45.000Z"
+    },
+    {
+      "guid": "01M7XNSFEMYQNMHGRYWVF2TQ82",
+      "title": "Probing DNS at Cloudflare",
+      "link": "https://blog.cloudflare.com/probing-dns-at-cloudflare/",
+      "summary": "At Cloudflare we’ve built tools to enable teams to extend our internal testing framework and build test tooling for networking protocols. This is the story of how this was used for DNS.",
+      "author": "Doug Aaser",
+      "publishedAt": "2026-11-23T14:00:00.000Z"
     }
   ],
-  "totalIndexed": 7815
+  "totalIndexed": 7816
 }

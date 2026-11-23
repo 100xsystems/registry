@@ -9,7 +9,7 @@
     "edge-computing",
     "nextjs"
   ],
-  "updatedAt": "2026-11-21T05:50:03.448Z",
+  "updatedAt": "2026-11-23T17:47:24.629Z",
   "items": [
     {
       "guid": "vercel-blog::https://vercel.com/changelog/ai-gateway-now-supports-streaming-transcription",
@@ -5466,7 +5466,39 @@
       "summary": "now accept inbound request bodies up to 20MiB, up from 4.5MB, in Public Beta.Vercel Functions\nTo turn this on, set the  environment variable. The opt-in applies to the whole project in the environment where you set it, so you can test the larger limit on preview before enabling it in production. It…",
       "author": "Gal Schlezinger",
       "publishedAt": "2026-11-20T13:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/ai-gateway-now-runs-canary-zdr-audits",
+      "title": "AI Gateway now runs canary ZDR audits",
+      "link": "https://vercel.com/changelog/ai-gateway-now-runs-canary-zdr-audits",
+      "summary": "now runs canary audits against inference providers to detect when prompt content is read outside the inference path.AI Gateway\nContractual Zero Data Retention (ZDR) agreements and point-in-time security audits establish how a provider should handle your data, but production infrastructure changes…",
+      "author": "Walter Korman",
+      "publishedAt": "2026-11-23T06:19:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/blog/introducing-audited-zdr-on-ai-gateway",
+      "title": "Introducing Audited ZDR on AI Gateway",
+      "link": "https://vercel.com/blog/introducing-audited-zdr-on-ai-gateway",
+      "summary": "AI is now used in every part of a business, and as a result, companies send source code, customer records, and regulated data through inference providers. \nThe assurance that no data is retained after processing is still publicly unverified. Payment platforms, cloud infrastructure, and most other…",
+      "author": "Harpreet Arora",
+      "publishedAt": "2026-11-23T05:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/catch-missing-feature-flags-before-they-reach-production",
+      "title": "Catch missing feature flags before they reach production",
+      "link": "https://vercel.com/changelog/catch-missing-feature-flags-before-they-reach-production",
+      "summary": "can now block a deployment from reaching production if you’ve declared a flag in code but haven’t created it in your project. Without that definition, your app can silently fall back to the flag’s default value, even if that turns on a feature you meant to keep off.Vercel Flags\nThe   runs when a…",
+      "author": "Andy Schneider",
+      "publishedAt": "2026-11-23T05:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/choose-ai-gateway-providers-by-headquarters-country",
+      "title": "Choose AI Gateway providers by headquarters country",
+      "link": "https://vercel.com/changelog/choose-ai-gateway-providers-by-headquarters-country",
+      "summary": "sends your  requests only to providers headquartered in countries you choose, so you can meet compliance and procurement rules about where your AI vendors are located.Provider headquartersAI Gateway\nYou can configure provider headquarters to be an allowlist of the countries to use, or a denylist of…",
+      "author": "Rohan Taneja",
+      "publishedAt": "2026-11-23T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 682
+  "totalIndexed": 686
 }

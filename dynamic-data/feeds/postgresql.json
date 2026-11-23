@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-11-23T05:59:01.202Z",
+  "updatedAt": "2026-11-23T17:47:19.447Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -3713,7 +3713,15 @@
       "summary": "Across 949 live Postgres 18.7 runs (10 models), 13 of 408 scored primary changes caused harm. Replaying them through AAA would have blocked 12 of 13 while approving 377 of 378 safe or unclassified changes.",
       "author": null,
       "publishedAt": "2026-11-23T01:00:27.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9Dj",
+      "title": "Stefan Fercot: When did I start contributing to pgBackRest, exactly?",
+      "link": "https://postgr.es/p/9Dj",
+      "summary": "In October, I was in the audience at PGConf.EU for “The Monday We Learned Who Maintains Our Backups”, by David Steele and Jan Wieremjewicz. I was happy to hear how pgBackRest was born, straight from the person who wrote it.\n\nOne slide listed the project’s founding major contributors: David, Cynthia…",
+      "author": null,
+      "publishedAt": "2026-11-23T09:00:00.000Z"
     }
   ],
-  "totalIndexed": 463
+  "totalIndexed": 464
 }

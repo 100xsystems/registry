@@ -4,59 +4,88 @@
 - Current total: 6407
 - Added: 0
 - Removed: 0
-- Updated: 11
+- Updated: 20
 
 
 ## Updated Companies
 
-### [Aspire](https://www.ycombinator.com/companies/aspire)
+### [SolidStage](https://www.ycombinator.com/companies/solidstage)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/753f62b42ec2f778dd6395d3ae91802c52ab6b5a.png → https://bookface-images.s3.amazonaws.com/small_logos/3ce307331846e9d196d15be91dfb2cbdf06e17c4.png
+- `website`: http://solidstage.com → 
 
-### [Healia](https://www.ycombinator.com/companies/healia)
+### [Anywhere.FM](https://www.ycombinator.com/companies/anywhere-fm)
 
-- `team_size`: 15 → 50
-- `regions`: United States of America,America / Canada,Remote,Partly Remote → United States of America,America / Canada
+- `website`: http://anywhere.fm → 
 
-### [10x Dental](https://www.ycombinator.com/companies/10x-dental)
+### [Amulyte](https://www.ycombinator.com/companies/amulyte)
 
-- `name`: 10x → 10x Dental
-- `slug`: 10x → 10x-dental
-- `former_names`: GradeWIz,Gradewiz,GradeWiz,GradeWIz,GradeWiz → GradeWIz,Gradewiz,GradeWiz,GradeWIz,GradeWiz,10x
+- `website`: http://amulyte.com → 
 
-### [HillStar](https://www.ycombinator.com/companies/hillstar)
+### [zPREDICTA](https://www.ycombinator.com/companies/zpredicta)
 
-- `one_liner`: AI that helps utilities buy power. → HillStar helps utilities buy power.
-- `industry`: B2B → Industrials
-- `subindustry`: B2B → Industrials -> Energy
-- `industries`: B2B → Industrials,Energy
+- `website`: http://zpredicta.com → 
 
-### [Topos](https://www.ycombinator.com/companies/topos)
+### [Openland](https://www.ycombinator.com/companies/openland)
 
-- `industry`: Industrials → B2B
-- `subindustry`: Industrials → B2B
-- `industries`: Industrials → B2B
+- `website`: https://openland.com → 
 
-### [TrueMile](https://www.ycombinator.com/companies/truemile)
+### [yBANQ](https://www.ycombinator.com/companies/ybanq)
 
-- `one_liner`: The trucking company run by AI agents. → AI-native trucking company
+- `website`: https://ybanq.com → 
 
-### [EveryApp](https://www.ycombinator.com/companies/everyapp)
+### [Awari](https://www.ycombinator.com/companies/awari)
 
-- `one_liner`: Making every SaaS open source → Every app you need to run a business. 100% open source.
+- `website`: https://awari.com/ → 
 
-### [Elithia](https://www.ycombinator.com/companies/elithia)
+### [Hypercontext](https://www.ycombinator.com/companies/hypercontext)
 
-- `one_liner`: Agents for the medical review behind every claim → AI-native medical opinions
+- `website`: https://hypercontext.com → 
 
-### [BioDelivera](https://www.ycombinator.com/companies/biodelivera)
+### [Material Depot](https://www.ycombinator.com/companies/material-depot)
 
-- `website`: https://biodelivera.com/ → https://biodelivera.ai/
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/a662852a35aa588b121563de0be00dcfacd66749.png → https://bookface-images.s3.amazonaws.com/small_logos/b93b630f5e3f2ded42f770efeaa47026d9085c15.png
+- `website`: https://materialdepot.in/ → https://materialdepot.com
 
-### [Lark](https://www.ycombinator.com/companies/lark-2)
+### [Quindar](https://www.ycombinator.com/companies/quindar)
 
-- `one_liner`: AI agents that automate workflows for distributors → AI native operating system for distributors 
+- `stage`: Early → Growth
+
+### [Junction Bioscience](https://www.ycombinator.com/companies/junction-bioscience)
+
+- `one_liner`: Industrializing structural biology: from months to minutes → Industrializing structural biology
+
+### [Lilac Labs](https://www.ycombinator.com/companies/lilac-labs)
+
+- `website`: https://www.drive-thru.ai/ → 
+
+### [Dexter](https://www.ycombinator.com/companies/dexter)
+
+- `isHiring`: true → false
+
+### [ProcIndex](https://www.ycombinator.com/companies/procindex)
+
+- `team_size`: 4 → 5
+
+### [tday.com](https://www.ycombinator.com/companies/tdaycom)
+
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/cf0ab54011ff6085db65df6f056d30faef43fd5f.png → https://bookface-images.s3.amazonaws.com/small_logos/28748aad0c8ba0aed432ef309d8dd322adb412a3.png
+
+### [Evident Machines](https://www.ycombinator.com/companies/evident-machines)
+
+- `tags`: Hardware,Machine Learning,Robotics,Electronics,AI → Hardware,Machine Learning,Reinforcement Learning,Electronics,AI
+
+### [Asakana](https://www.ycombinator.com/companies/asakana)
+
+- `one_liner`: Automating away manual admin for food distributors: texts to ERP → Back-office automation for food distributors, no behavior change
+
+### [Vouch](https://www.ycombinator.com/companies/vouchwealth)
+
+- `isHiring`: false → true
+
+### [Composal](https://www.ycombinator.com/companies/composal)
+
+- `one_liner`: Always-on agents that don't need to be prompted → Always-on agents that don't wait to be prompted
 
 ### [Godpack](https://www.ycombinator.com/companies/godpack)
 
-- `team_size`: 5 → 3
+- `website`: http://godpack.com/ → http://godpack.gg/
