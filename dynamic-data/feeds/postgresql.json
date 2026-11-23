@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-11-22T23:01:56.216Z",
+  "updatedAt": "2026-11-23T05:59:01.202Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -3705,7 +3705,15 @@
       "summary": "Everything that pg_memtable stores lives in shared memory, and a restart of the server destroys it, but the handle is left in the catalog. Since nothing special is done to inform Postgres that tables that use the memtable table access method (MemTables) do not survive a restart, it will treat the…",
       "author": null,
       "publishedAt": "2026-11-22T19:25:18.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9Dh",
+      "title": "Nikolay Samokhvalov: PGAIBench and AAA: can AI safely change production Postgres?",
+      "link": "https://postgr.es/p/9Dh",
+      "summary": "Across 949 live Postgres 18.7 runs (10 models), 13 of 408 scored primary changes caused harm. Replaying them through AAA would have blocked 12 of 13 while approving 377 of 378 safe or unclassified changes.",
+      "author": null,
+      "publishedAt": "2026-11-23T01:00:27.000Z"
     }
   ],
-  "totalIndexed": 462
+  "totalIndexed": 463
 }

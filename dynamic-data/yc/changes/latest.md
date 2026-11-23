@@ -1,34 +1,62 @@
-# YC Company Changes for 2026-11-22
+# YC Company Changes for 2026-11-23
 
 - Previous total: 6407
 - Current total: 6407
 - Added: 0
 - Removed: 0
-- Updated: 5
+- Updated: 11
 
 
 ## Updated Companies
 
-### [Dripos](https://www.ycombinator.com/companies/dripos)
+### [Aspire](https://www.ycombinator.com/companies/aspire)
 
-- `isHiring`: false → true
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/753f62b42ec2f778dd6395d3ae91802c52ab6b5a.png → https://bookface-images.s3.amazonaws.com/small_logos/3ce307331846e9d196d15be91dfb2cbdf06e17c4.png
 
-### [Quindar](https://www.ycombinator.com/companies/quindar)
+### [Healia](https://www.ycombinator.com/companies/healia)
 
-- `one_liner`: Datadog for Space → Infrastructure for Space
-- `team_size`: 57 → 91
-- `tags`: SaaS,Space Exploration,Satellites,Aerospace → SaaS,Space Exploration,Satellites,Aerospace,Defense
-- `stage`: Growth → Early
+- `team_size`: 15 → 50
+- `regions`: United States of America,America / Canada,Remote,Partly Remote → United States of America,America / Canada
 
-### [Andon Labs](https://www.ycombinator.com/companies/andon-labs)
+### [10x Dental](https://www.ycombinator.com/companies/10x-dental)
 
-- `isHiring`: false → true
+- `name`: 10x → 10x Dental
+- `slug`: 10x → 10x-dental
+- `former_names`: GradeWIz,Gradewiz,GradeWiz,GradeWIz,GradeWiz → GradeWIz,Gradewiz,GradeWiz,GradeWIz,GradeWiz,10x
 
-### [Graphify Labs](https://www.ycombinator.com/companies/graphify-labs)
+### [HillStar](https://www.ycombinator.com/companies/hillstar)
 
-- `website`: https://www.graphify.com/ → https://graphify.com/
-- `one_liner`: Shared Understanding of Codebase for Agents and Developers  → Shared Context of Codebase for Agents and Developers 
+- `one_liner`: AI that helps utilities buy power. → HillStar helps utilities buy power.
+- `industry`: B2B → Industrials
+- `subindustry`: B2B → Industrials -> Energy
+- `industries`: B2B → Industrials,Energy
 
-### [Telamont](https://www.ycombinator.com/companies/telamont)
+### [Topos](https://www.ycombinator.com/companies/topos)
 
-- `one_liner`: Sentry for errors in construction documents → AI that catches errors in construction documents
+- `industry`: Industrials → B2B
+- `subindustry`: Industrials → B2B
+- `industries`: Industrials → B2B
+
+### [TrueMile](https://www.ycombinator.com/companies/truemile)
+
+- `one_liner`: The trucking company run by AI agents. → AI-native trucking company
+
+### [EveryApp](https://www.ycombinator.com/companies/everyapp)
+
+- `one_liner`: Making every SaaS open source → Every app you need to run a business. 100% open source.
+
+### [Elithia](https://www.ycombinator.com/companies/elithia)
+
+- `one_liner`: Agents for the medical review behind every claim → AI-native medical opinions
+
+### [BioDelivera](https://www.ycombinator.com/companies/biodelivera)
+
+- `website`: https://biodelivera.com/ → https://biodelivera.ai/
+
+### [Lark](https://www.ycombinator.com/companies/lark-2)
+
+- `one_liner`: AI agents that automate workflows for distributors → AI native operating system for distributors 
+
+### [Godpack](https://www.ycombinator.com/companies/godpack)
+
+- `team_size`: 5 → 3

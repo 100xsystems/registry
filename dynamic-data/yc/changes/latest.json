@@ -1,109 +1,232 @@
 {
-  "date": "2026-11-22",
-  "fetchedAt": "2026-11-22T23:02:12.404Z",
+  "date": "2026-11-23",
+  "fetchedAt": "2026-11-23T05:59:16.375Z",
   "previousCount": 6407,
   "currentCount": 6407,
   "added": [],
   "removed": [],
   "updated": [
     {
-      "id": 21790,
-      "name": "Dripos",
-      "slug": "dripos",
-      "batch": "Summer 2020",
-      "url": "https://www.ycombinator.com/companies/dripos",
+      "id": 1834,
+      "name": "Aspire",
+      "slug": "aspire",
+      "batch": "Winter 2018",
+      "url": "https://www.ycombinator.com/companies/aspire",
       "changes": [
         {
-          "field": "isHiring",
-          "before": false,
-          "after": true
+          "field": "small_logo_thumb_url",
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/753f62b42ec2f778dd6395d3ae91802c52ab6b5a.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/3ce307331846e9d196d15be91dfb2cbdf06e17c4.png"
         }
       ]
     },
     {
-      "id": 27052,
-      "name": "Quindar",
-      "slug": "quindar",
-      "batch": "Summer 2022",
-      "url": "https://www.ycombinator.com/companies/quindar",
+      "id": 29483,
+      "name": "Healia",
+      "slug": "healia",
+      "batch": "Winter 2024",
+      "url": "https://www.ycombinator.com/companies/healia",
+      "changes": [
+        {
+          "field": "team_size",
+          "before": 15,
+          "after": 50
+        },
+        {
+          "field": "regions",
+          "before": [
+            "United States of America",
+            "America / Canada",
+            "Remote",
+            "Partly Remote"
+          ],
+          "after": [
+            "United States of America",
+            "America / Canada"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 30250,
+      "name": "10x Dental",
+      "slug": "10x-dental",
+      "batch": "Winter 2025",
+      "url": "https://www.ycombinator.com/companies/10x-dental",
+      "changes": [
+        {
+          "field": "name",
+          "before": "10x",
+          "after": "10x Dental"
+        },
+        {
+          "field": "slug",
+          "before": "10x",
+          "after": "10x-dental"
+        },
+        {
+          "field": "former_names",
+          "before": [
+            "GradeWIz",
+            "Gradewiz",
+            "GradeWiz",
+            "GradeWIz",
+            "GradeWiz"
+          ],
+          "after": [
+            "GradeWIz",
+            "Gradewiz",
+            "GradeWiz",
+            "GradeWIz",
+            "GradeWiz",
+            "10x"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 33318,
+      "name": "HillStar",
+      "slug": "hillstar",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/hillstar",
       "changes": [
         {
           "field": "one_liner",
-          "before": "Datadog for Space",
-          "after": "Infrastructure for Space"
+          "before": "AI that helps utilities buy power.",
+          "after": "HillStar helps utilities buy power."
         },
         {
-          "field": "team_size",
-          "before": 57,
-          "after": 91
+          "field": "industry",
+          "before": "B2B",
+          "after": "Industrials"
         },
         {
-          "field": "tags",
+          "field": "subindustry",
+          "before": "B2B",
+          "after": "Industrials -> Energy"
+        },
+        {
+          "field": "industries",
           "before": [
-            "SaaS",
-            "Space Exploration",
-            "Satellites",
-            "Aerospace"
+            "B2B"
           ],
           "after": [
-            "SaaS",
-            "Space Exploration",
-            "Satellites",
-            "Aerospace",
-            "Defense"
+            "Industrials",
+            "Energy"
           ]
-        },
-        {
-          "field": "stage",
-          "before": "Growth",
-          "after": "Early"
         }
       ]
     },
     {
-      "id": 29253,
-      "name": "Andon Labs",
-      "slug": "andon-labs",
-      "batch": "Winter 2024",
-      "url": "https://www.ycombinator.com/companies/andon-labs",
+      "id": 34861,
+      "name": "Topos",
+      "slug": "topos",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/topos",
       "changes": [
         {
-          "field": "isHiring",
-          "before": false,
-          "after": true
+          "field": "industry",
+          "before": "Industrials",
+          "after": "B2B"
+        },
+        {
+          "field": "subindustry",
+          "before": "Industrials",
+          "after": "B2B"
+        },
+        {
+          "field": "industries",
+          "before": [
+            "Industrials"
+          ],
+          "after": [
+            "B2B"
+          ]
         }
       ]
     },
     {
-      "id": 32583,
-      "name": "Graphify Labs",
-      "slug": "graphify-labs",
-      "batch": "Summer 2026",
-      "url": "https://www.ycombinator.com/companies/graphify-labs",
+      "id": 35266,
+      "name": "TrueMile",
+      "slug": "truemile",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/truemile",
+      "changes": [
+        {
+          "field": "one_liner",
+          "before": "The trucking company run by AI agents.",
+          "after": "AI-native trucking company"
+        }
+      ]
+    },
+    {
+      "id": 36088,
+      "name": "EveryApp",
+      "slug": "everyapp",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/everyapp",
+      "changes": [
+        {
+          "field": "one_liner",
+          "before": "Making every SaaS open source",
+          "after": "Every app you need to run a business. 100% open source."
+        }
+      ]
+    },
+    {
+      "id": 37237,
+      "name": "Elithia",
+      "slug": "elithia",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/elithia",
+      "changes": [
+        {
+          "field": "one_liner",
+          "before": "Agents for the medical review behind every claim",
+          "after": "AI-native medical opinions"
+        }
+      ]
+    },
+    {
+      "id": 37599,
+      "name": "BioDelivera",
+      "slug": "biodelivera",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/biodelivera",
       "changes": [
         {
           "field": "website",
-          "before": "https://www.graphify.com/",
-          "after": "https://graphify.com/"
-        },
-        {
-          "field": "one_liner",
-          "before": "Shared Understanding of Codebase for Agents and Developers ",
-          "after": "Shared Context of Codebase for Agents and Developers "
+          "before": "https://biodelivera.com/",
+          "after": "https://biodelivera.ai/"
         }
       ]
     },
     {
-      "id": 35983,
-      "name": "Telamont",
-      "slug": "telamont",
+      "id": 37601,
+      "name": "Lark",
+      "slug": "lark-2",
       "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/telamont",
+      "url": "https://www.ycombinator.com/companies/lark-2",
       "changes": [
         {
           "field": "one_liner",
-          "before": "Sentry for errors in construction documents",
-          "after": "AI that catches errors in construction documents"
+          "before": "AI agents that automate workflows for distributors",
+          "after": "AI native operating system for distributors "
+        }
+      ]
+    },
+    {
+      "id": 39117,
+      "name": "Godpack",
+      "slug": "godpack",
+      "batch": "Winter 2027",
+      "url": "https://www.ycombinator.com/companies/godpack",
+      "changes": [
+        {
+          "field": "team_size",
+          "before": 5,
+          "after": 3
         }
       ]
     }
