@@ -4,46 +4,57 @@
 - Current total: 6408
 - Added: 0
 - Removed: 0
-- Updated: 9
+- Updated: 12
 
 
 ## Updated Companies
 
-### [Talkable](https://www.ycombinator.com/companies/talkable)
+### [Okteto](https://www.ycombinator.com/companies/okteto)
 
-- `isHiring`: false → true
+- `one_liner`: Cloud Development Environments with one click → Ephemeral environments on Kubernetes
+- `team_size`: 30 → 0
+- `stage`: Growth → Early
 
-### [Paasa](https://www.ycombinator.com/companies/paasa)
+### [Inspectify](https://www.ycombinator.com/companies/inspectify)
 
-- `one_liner`: Invest in Global Equities from India → Invest in Global Stocks, ETFs, and Strategies from India
-- `team_size`: 9 → 14
-- `subindustry`: Fintech -> Asset Management → Fintech
-- `industries`: Fintech,Asset Management → Fintech
+- `stage`: Growth → Early
 
-### [telli](https://www.ycombinator.com/companies/telli)
+### [Chariot](https://www.ycombinator.com/companies/chariot-2)
 
-- `team_size`: 25 → 45
+- `stage`: Growth → Early
 
-### [Vybe](https://www.ycombinator.com/companies/vybe)
+### [Lio (formerly askLio)](https://www.ycombinator.com/companies/lio)
 
-- `team_size`: 8 → 10
+- `stage`: Growth → Early
 
-### [Unsiloed AI](https://www.ycombinator.com/companies/unsiloed-ai)
+### [Cognitio Labs](https://www.ycombinator.com/companies/cognitio-labs)
 
-- `team_size`: 2 → 7
+- `team_size`: 3 → 5
 
-### [Selfin](https://www.ycombinator.com/companies/selfin)
+### [Diode Computers, Inc.](https://www.ycombinator.com/companies/diode-computers-inc)
 
-- `team_size`: 2 → 1
+- `stage`: Growth → Early
 
-### [Didit](https://www.ycombinator.com/companies/didit)
-
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/202e6cd94d0ec2c8de835c56ce6b880f99f033d5.png → https://bookface-images.s3.amazonaws.com/small_logos/c3f50a228cdf3568c8631e4feca3095106e0e9cc.png
-
-### [Sitefire](https://www.ycombinator.com/companies/sitefire)
+### [HealthKey](https://www.ycombinator.com/companies/healthkey)
 
 - `isHiring`: true → false
 
-### [Raven](https://www.ycombinator.com/companies/ravenphone)
+### [Design Arena](https://www.ycombinator.com/companies/design-arena)
 
-- `one_liner`: A new phone rebuilt around agents: more done, less time on screen. → AI phone rebuilt around agents
+- `stage`: Growth → Early
+
+### [tday.com](https://www.ycombinator.com/companies/tdaycom)
+
+- `one_liner`: AI that turns your product into on-brand marketing content → AI-recorded Screen Studio style editable demos
+
+### [AbInitio Bio](https://www.ycombinator.com/companies/abinitio-bio)
+
+- `team_size`: 2 → 3
+
+### [Definite](https://www.ycombinator.com/companies/definite)
+
+- `team_size`: 3 → 4
+
+### [Proto](https://www.ycombinator.com/companies/proto)
+
+- `team_size`: 2 → 3

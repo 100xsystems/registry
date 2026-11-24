@@ -8,7 +8,7 @@
     "ide",
     "programming-languages"
   ],
-  "updatedAt": "2026-11-23T17:47:24.658Z",
+  "updatedAt": "2026-11-24T21:57:12.646Z",
   "items": [
     {
       "guid": "https://blog.jetbrains.com/?post_type=rscpp&p=725420",
@@ -1457,7 +1457,15 @@
       "summary": "GitHub Actions is the default CI/CD tool for much of the industry, because it’s built into GitHub. But 2026 gave teams reasons to look around. On July 9, hosted runner jobs were delayed or failing for more than nine hours. In May, the Megalodon campaign pushed malicious workflows to more than 5,500…",
       "author": "Olga Bedrina",
       "publishedAt": "2026-11-23T07:56:19.000Z"
+    },
+    {
+      "guid": "https://blog.jetbrains.com/?post_type=security&p=760207",
+      "title": "Java4Shell Vulnerability: Update Your JetBrains IDEs, ReSharper, .NET Tools, Toolbox App, and Gateway Now",
+      "link": "https://blog.jetbrains.com/security/2026/11/java4shell-vulnerability/",
+      "summary": "Summary Details On November 17, 2026, Oracle and the OpenJDK project released fixes for CVE-2026-114938, a memory corruption vulnerability in the Base64 decoder of the HotSpot JVM. The issue was reported by Calif and is known as Java4Shell.  To decode Base64 faster, HotSpot uses an intrinsic…",
+      "author": "Yuriy Artamonov",
+      "publishedAt": "2026-11-24T17:03:53.000Z"
     }
   ],
-  "totalIndexed": 181
+  "totalIndexed": 182
 }
