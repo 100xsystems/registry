@@ -8,7 +8,7 @@
     "debugging",
     "performance"
   ],
-  "updatedAt": "2026-11-18T20:00:38.533Z",
+  "updatedAt": "2026-11-24T17:19:19.920Z",
   "items": [
     {
       "guid": "https://blog.sentry.io/godot-dotnet-ga/",
@@ -513,7 +513,15 @@
       "summary": "The new Sentry integration for Bref reports AWS Lambda timeouts, event handler failures, cold starts and AWS SDK calls in PHP applications.",
       "author": null,
       "publishedAt": "2026-11-18T09:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.sentry.io/expo-router-react-native-sdk/",
+      "title": "More ways to debug Expo apps with the React Native SDK",
+      "link": "https://blog.sentry.io/expo-router-react-native-sdk/",
+      "summary": "The Sentry React Native SDK now auto-instruments Expo Router: navigation traces, deep link correlation, route error capture, and native fetch tracking.",
+      "author": null,
+      "publishedAt": "2026-11-24T09:00:00.000Z"
     }
   ],
-  "totalIndexed": 63
+  "totalIndexed": 64
 }

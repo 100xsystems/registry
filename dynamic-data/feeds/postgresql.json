@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-11-24T08:39:35.589Z",
+  "updatedAt": "2026-11-24T17:19:20.172Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -3745,7 +3745,31 @@
       "summary": "On 3rd of July 2025, Fujii Masao committed patch: Support multi-line headers in COPY FROM command.   The COPY FROM command now accepts a non-negative integer for the HEADER option, allowing multiple header lines to be skipped. This is useful when the input contains multi-line headers that should be…",
       "author": null,
       "publishedAt": "2026-11-24T07:47:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9Dr",
+      "title": "Jobin Augustine: Pre-Calculating HugePages for PostgreSQL",
+      "link": "https://postgr.es/p/9Dr",
+      "summary": "Pre-Calculating HugePages for PostgreSQL\nHuge pages (HugeTLB) are one of the most important PostgreSQL tuning steps, and they must be right before the server starts. They matter mainly for stability and reliability, more than for speed. Recently I also came across reports of up to 30% performance…",
+      "author": null,
+      "publishedAt": "2026-11-24T09:42:35.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9Dt",
+      "title": "Aleksei Aleinikov: PostgreSQL VACUUM & Bloat: Dead Tuples, HOT Updates & Compaction",
+      "link": "https://postgr.es/p/9Dt",
+      "summary": "Every PostgreSQL team eventually runs a massive DELETE to free up disk space, watches df -h stay completely flat, and wonders if the command even worked. Worse, queries against the smaller table often get slower instead of faster.\nThis is Part 2 of Postgres in Production (following Part 1 on…",
+      "author": null,
+      "publishedAt": "2026-11-24T08:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9Du",
+      "title": "Zsolt Parragi: The numbers of Postgres 19",
+      "link": "https://postgr.es/p/9Du",
+      "summary": "After talking about the reverts and then the remaining features of PostgreSQL 19, I want to talk about another important aspect:\nthe statistics of the development cycle.\nThis blog post is also somewhat of an announcement: hackorum.dev now has a new, extensive statistics page.\nMost of the data here…",
+      "author": null,
+      "publishedAt": "2026-11-24T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 467
+  "totalIndexed": 470
 }

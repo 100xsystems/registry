@@ -1,48 +1,135 @@
 {
   "date": "2026-11-24",
-  "fetchedAt": "2026-11-24T08:39:49.694Z",
+  "fetchedAt": "2026-11-24T17:19:32.504Z",
   "previousCount": 6408,
   "currentCount": 6408,
   "added": [],
   "removed": [],
   "updated": [
     {
-      "id": 24481,
-      "name": "Whaly",
-      "slug": "whaly",
-      "batch": "Summer 2021",
-      "url": "https://www.ycombinator.com/companies/whaly",
+      "id": 138,
+      "name": "Talkable",
+      "slug": "talkable",
+      "batch": "Winter 2011",
+      "url": "https://www.ycombinator.com/companies/talkable",
       "changes": [
         {
-          "field": "team_size",
-          "before": 3,
-          "after": 15
+          "field": "isHiring",
+          "before": false,
+          "after": true
         }
       ]
     },
     {
-      "id": 28816,
-      "name": "Contour",
-      "slug": "contour",
-      "batch": "Summer 2023",
-      "url": "https://www.ycombinator.com/companies/contour",
+      "id": 29789,
+      "name": "Paasa",
+      "slug": "paasa",
+      "batch": "Summer 2024",
+      "url": "https://www.ycombinator.com/companies/paasa",
       "changes": [
         {
-          "field": "former_names",
-          "before": [],
+          "field": "one_liner",
+          "before": "Invest in Global Equities from India",
+          "after": "Invest in Global Stocks, ETFs, and Strategies from India"
+        },
+        {
+          "field": "team_size",
+          "before": 9,
+          "after": 14
+        },
+        {
+          "field": "subindustry",
+          "before": "Fintech -> Asset Management",
+          "after": "Fintech"
+        },
+        {
+          "field": "industries",
+          "before": [
+            "Fintech",
+            "Asset Management"
+          ],
           "after": [
-            "Contour",
-            "Contour AI"
+            "Fintech"
           ]
         }
       ]
     },
     {
-      "id": 29253,
-      "name": "Andon Labs",
-      "slug": "andon-labs",
-      "batch": "Winter 2024",
-      "url": "https://www.ycombinator.com/companies/andon-labs",
+      "id": 30021,
+      "name": "telli",
+      "slug": "telli",
+      "batch": "Fall 2024",
+      "url": "https://www.ycombinator.com/companies/telli",
+      "changes": [
+        {
+          "field": "team_size",
+          "before": 25,
+          "after": 45
+        }
+      ]
+    },
+    {
+      "id": 30404,
+      "name": "Vybe",
+      "slug": "vybe",
+      "batch": "Spring 2025",
+      "url": "https://www.ycombinator.com/companies/vybe",
+      "changes": [
+        {
+          "field": "team_size",
+          "before": 8,
+          "after": 10
+        }
+      ]
+    },
+    {
+      "id": 30894,
+      "name": "Unsiloed AI",
+      "slug": "unsiloed-ai",
+      "batch": "Fall 2025",
+      "url": "https://www.ycombinator.com/companies/unsiloed-ai",
+      "changes": [
+        {
+          "field": "team_size",
+          "before": 2,
+          "after": 7
+        }
+      ]
+    },
+    {
+      "id": 30922,
+      "name": "Selfin",
+      "slug": "selfin",
+      "batch": "Fall 2025",
+      "url": "https://www.ycombinator.com/companies/selfin",
+      "changes": [
+        {
+          "field": "team_size",
+          "before": 2,
+          "after": 1
+        }
+      ]
+    },
+    {
+      "id": 31080,
+      "name": "Didit",
+      "slug": "didit",
+      "batch": "Winter 2026",
+      "url": "https://www.ycombinator.com/companies/didit",
+      "changes": [
+        {
+          "field": "small_logo_thumb_url",
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/202e6cd94d0ec2c8de835c56ce6b880f99f033d5.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/c3f50a228cdf3568c8631e4feca3095106e0e9cc.png"
+        }
+      ]
+    },
+    {
+      "id": 31203,
+      "name": "Sitefire",
+      "slug": "sitefire",
+      "batch": "Winter 2026",
+      "url": "https://www.ycombinator.com/companies/sitefire",
       "changes": [
         {
           "field": "isHiring",
@@ -52,44 +139,16 @@
       ]
     },
     {
-      "id": 31455,
-      "name": "tday.com",
-      "slug": "tdaycom",
-      "batch": "Spring 2026",
-      "url": "https://www.ycombinator.com/companies/tdaycom",
-      "changes": [
-        {
-          "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/28748aad0c8ba0aed432ef309d8dd322adb412a3.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/5794019006cfb6578d95d075fcb79d63cf1aee8e.png"
-        }
-      ]
-    },
-    {
-      "id": 36114,
-      "name": "Particularity",
-      "slug": "particularity",
+      "id": 35356,
+      "name": "Raven",
+      "slug": "ravenphone",
       "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/particularity",
+      "url": "https://www.ycombinator.com/companies/ravenphone",
       "changes": [
         {
           "field": "one_liner",
-          "before": "The intelligence layer and system of record for government agencies",
-          "after": "The intelligence layer and system of action for government agencies"
-        }
-      ]
-    },
-    {
-      "id": 39117,
-      "name": "Godpack",
-      "slug": "godpack",
-      "batch": "Winter 2027",
-      "url": "https://www.ycombinator.com/companies/godpack",
-      "changes": [
-        {
-          "field": "website",
-          "before": "http://godpack.gg/",
-          "after": "http://godpack.com"
+          "before": "A new phone rebuilt around agents: more done, less time on screen.",
+          "after": "AI phone rebuilt around agents"
         }
       ]
     }

@@ -4,31 +4,46 @@
 - Current total: 6408
 - Added: 0
 - Removed: 0
-- Updated: 6
+- Updated: 9
 
 
 ## Updated Companies
 
-### [Whaly](https://www.ycombinator.com/companies/whaly)
+### [Talkable](https://www.ycombinator.com/companies/talkable)
 
-- `team_size`: 3 → 15
+- `isHiring`: false → true
 
-### [Contour](https://www.ycombinator.com/companies/contour)
+### [Paasa](https://www.ycombinator.com/companies/paasa)
 
-- `former_names`:  → Contour,Contour AI
+- `one_liner`: Invest in Global Equities from India → Invest in Global Stocks, ETFs, and Strategies from India
+- `team_size`: 9 → 14
+- `subindustry`: Fintech -> Asset Management → Fintech
+- `industries`: Fintech,Asset Management → Fintech
 
-### [Andon Labs](https://www.ycombinator.com/companies/andon-labs)
+### [telli](https://www.ycombinator.com/companies/telli)
+
+- `team_size`: 25 → 45
+
+### [Vybe](https://www.ycombinator.com/companies/vybe)
+
+- `team_size`: 8 → 10
+
+### [Unsiloed AI](https://www.ycombinator.com/companies/unsiloed-ai)
+
+- `team_size`: 2 → 7
+
+### [Selfin](https://www.ycombinator.com/companies/selfin)
+
+- `team_size`: 2 → 1
+
+### [Didit](https://www.ycombinator.com/companies/didit)
+
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/202e6cd94d0ec2c8de835c56ce6b880f99f033d5.png → https://bookface-images.s3.amazonaws.com/small_logos/c3f50a228cdf3568c8631e4feca3095106e0e9cc.png
+
+### [Sitefire](https://www.ycombinator.com/companies/sitefire)
 
 - `isHiring`: true → false
 
-### [tday.com](https://www.ycombinator.com/companies/tdaycom)
+### [Raven](https://www.ycombinator.com/companies/ravenphone)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/28748aad0c8ba0aed432ef309d8dd322adb412a3.png → https://bookface-images.s3.amazonaws.com/small_logos/5794019006cfb6578d95d075fcb79d63cf1aee8e.png
-
-### [Particularity](https://www.ycombinator.com/companies/particularity)
-
-- `one_liner`: The intelligence layer and system of record for government agencies → The intelligence layer and system of action for government agencies
-
-### [Godpack](https://www.ycombinator.com/companies/godpack)
-
-- `website`: http://godpack.gg/ → http://godpack.com
+- `one_liner`: A new phone rebuilt around agents: more done, less time on screen. → AI phone rebuilt around agents
