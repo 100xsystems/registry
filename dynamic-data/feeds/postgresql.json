@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-11-23T23:25:49.231Z",
+  "updatedAt": "2026-11-24T03:40:23.910Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -3729,7 +3729,15 @@
       "summary": "PostgreSQL could not resize shared memory segment: No space left on device is /dev/shm, not disk. Measured in Docker on 16 to 18; why 256 MB fell short.",
       "author": null,
       "publishedAt": "2026-11-23T00:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9Do",
+      "title": "Mayur B.: PostgreSQL 19: When the Planner Needs Adult Supervision",
+      "link": "https://postgr.es/p/9Do",
+      "summary": "A few years ago, I wrote about an innocent-looking microservices pattern that could make PostgreSQL performance unexpectedly dramatic. Not because the SQL changed. Not because someone dropped an index. The data changed, the statistics told an outdated story, and the planner made a perfectly…",
+      "author": null,
+      "publishedAt": "2026-11-23T18:09:49.000Z"
     }
   ],
-  "totalIndexed": 465
+  "totalIndexed": 466
 }
