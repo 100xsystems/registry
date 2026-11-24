@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-11-24T03:40:23.910Z",
+  "updatedAt": "2026-11-24T08:39:35.589Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -3737,7 +3737,15 @@
       "summary": "A few years ago, I wrote about an innocent-looking microservices pattern that could make PostgreSQL performance unexpectedly dramatic. Not because the SQL changed. Not because someone dropped an index. The data changed, the statistics told an outdated story, and the planner made a perfectly…",
       "author": null,
       "publishedAt": "2026-11-23T18:09:49.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9Dp",
+      "title": "Hubert 'depesz' Lubaczewski: Missed in PostgreSQL 19 : Support multi-line headers in COPY FROM command.",
+      "link": "https://postgr.es/p/9Dp",
+      "summary": "On 3rd of July 2025, Fujii Masao committed patch: Support multi-line headers in COPY FROM command.   The COPY FROM command now accepts a non-negative integer for the HEADER option, allowing multiple header lines to be skipped. This is useful when the input contains multi-line headers that should be…",
+      "author": null,
+      "publishedAt": "2026-11-24T07:47:00.000Z"
     }
   ],
-  "totalIndexed": 466
+  "totalIndexed": 467
 }
