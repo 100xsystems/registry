@@ -8,7 +8,7 @@
     "ide",
     "programming-languages"
   ],
-  "updatedAt": "2026-11-24T21:57:12.646Z",
+  "updatedAt": "2026-11-25T16:59:12.905Z",
   "items": [
     {
       "guid": "https://blog.jetbrains.com/?post_type=rscpp&p=725420",
@@ -1465,7 +1465,71 @@
       "summary": "Summary Details On November 17, 2026, Oracle and the OpenJDK project released fixes for CVE-2026-114938, a memory corruption vulnerability in the Base64 decoder of the HotSpot JVM. The issue was reported by Calif and is known as Java4Shell.  To decode Base64 faster, HotSpot uses an intrinsic…",
       "author": "Yuriy Artamonov",
       "publishedAt": "2026-11-24T17:03:53.000Z"
+    },
+    {
+      "guid": "https://blog.jetbrains.com/?post_type=education&p=758973",
+      "title": "JetBrains Academy – November Digest",
+      "link": "https://blog.jetbrains.com/education/2026/11/25/jetbrains-academy-november-2026/",
+      "summary": "This month, we’ve got new courses and hands-on tutorials, exciting opportunities to broaden your skills, and events worth adding to your calendar.",
+      "author": "Maxim Dokuchaev",
+      "publishedAt": "2026-11-25T15:18:42.000Z"
+    },
+    {
+      "guid": "https://blog.jetbrains.com/?post_type=go&p=760577",
+      "title": "GoLand Intelligence Now Available in Cursor and VS Code",
+      "link": "https://blog.jetbrains.com/go/2026/11/25/go-by-goland-public-preview/",
+      "summary": "What if you could use GoLand’s language intelligence outside the IDE, across multiple development environments? Today, we’re taking the first step toward making this possible by releasing a public preview of the Go by GoLand LSP – an extension for VS Code-based editors, including Cursor. This will…",
+      "author": "Sergey Larionov",
+      "publishedAt": "2026-11-25T12:20:14.000Z"
+    },
+    {
+      "guid": "https://blog.jetbrains.com/?post_type=qodana&p=760429",
+      "title": "Qodana 2026.3 Release: What’s New",
+      "link": "https://blog.jetbrains.com/qodana/2026/11/qodana-2026-3-release/",
+      "summary": "Qodana 2026.3 release brings Dart and Flutter projects into Qodana, so you can review code analysis findings together with your team. Baseline matching is now more accurate: In targeted validation across four scenarios, average precision rose from 45% to 90%. Qodana is better at recognizing an…",
+      "author": "Efim Samoylov",
+      "publishedAt": "2026-11-25T12:02:33.000Z"
+    },
+    {
+      "guid": "https://blog.jetbrains.com/?post_type=youtrack&p=750190",
+      "title": "YouTrack Adds More Ways to Use AI on Your Terms",
+      "link": "https://blog.jetbrains.com/youtrack/2026/11/youtrack-adds-more-ways-to-use-ai-on-your-terms/",
+      "summary": "YouTrack 2026.3 introduces Ask YouTrack, a new built-in agentic AI chat, where you can ask questions in natural language and take action on tasks, tickets, and articles. You can connect your preferred AI models, and administrators can monitor token usage by user. While this release expands what you…",
+      "author": "Elena Pishkova",
+      "publishedAt": "2026-11-25T11:56:27.000Z"
+    },
+    {
+      "guid": "https://blog.jetbrains.com/?post_type=ai&p=758354",
+      "title": "Mellum2.1 Instruct Is Out, Bringing Faster Answers for Coding Agents",
+      "link": "https://blog.jetbrains.com/ai/2026/11/mellum2-1-instruct-is-out-bringing-faster-answers-for-coding-agents/",
+      "summary": "The faster sibling of Mellum2.1 Thinking, built for sub-agents, tool loops, and chat. In October, we released Mellum2.1 Thinking, an open 12B mixture-of-experts model with 2.5B active parameters, trained to work as a coding agent. Today, we are releasing its sibling, Mellum2.1 Instruct. It is built…",
+      "author": "Gleb Ingman",
+      "publishedAt": "2026-11-25T11:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.jetbrains.com/?post_type=life-at-jetbrains&p=760627",
+      "title": "What Does JetBrains Do? The Essential Guide to Our Business",
+      "link": "https://blog.jetbrains.com/life-at-jetbrains/2026/11/what-does-jetbrains-do/",
+      "summary": "JetBrains builds tools developers use to write, check, and ship software, including tools that work with AI agents. You don’t need to be a coder to work here, but the specialists we hire are experienced in their fields, curious about technology, and ready to embrace AI. This guide explains what…",
+      "author": "Margaux Careje",
+      "publishedAt": "2026-11-25T09:46:07.000Z"
+    },
+    {
+      "guid": "https://blog.jetbrains.com/?post_type=teamcity&p=760622",
+      "title": "[Livestream] 5 Things to Try in TeamCity 2026.3",
+      "link": "https://blog.jetbrains.com/teamcity/2026/11/livestream-dec3-2026/",
+      "summary": "TeamCity 2026.3 is almost here! Join us on December 3 for a live walkthrough of the new release and recent updates to AI, Pipelines, and GitHub integration. Register for the livestream During this one-hour session, Nikita Koshcheev and Artem Rokhin from the TeamCity team will show five things you…",
+      "author": "Olga Bedrina",
+      "publishedAt": "2026-11-25T09:20:58.000Z"
+    },
+    {
+      "guid": "https://blog.jetbrains.com/?post_type=blog&p=760188",
+      "title": "Black Friday Deal: Save 40% on New JetBrains Subscriptions and Upgrades",
+      "link": "https://blog.jetbrains.com/blog/2026/11/25/black-friday-2026/",
+      "summary": "As a treat on Black Friday, you can get 40% off a new annual individual JetBrains IDE or ReSharper subscription, or an upgrade to an annual individual All Products Pack or dotUltimate one. A lot about development has changed, and your JetBrains IDE has changed with it. We recently introduced Air in…",
+      "author": "Anatolii Simakov",
+      "publishedAt": "2026-11-25T08:36:58.000Z"
     }
   ],
-  "totalIndexed": 182
+  "totalIndexed": 190
 }

@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-11-24T17:19:28.738Z",
+  "updatedAt": "2026-11-25T16:59:12.291Z",
   "items": [
     {
       "guid": "https://thedailywtf.com/articles/classic-wtf-my-many-girlfriends",
@@ -671,7 +671,15 @@
       "summary": "At this point, each and every one of us knows more about Jensen Huang's sex life than I think any of us wanted to know. The actual scandal is the way he violated export controls to the tune of $12b in chips, but the scandal everyone is talking about is that he was \"honey-trapped\". A Chinese spy…",
       "author": "Remy Porter",
       "publishedAt": "2026-11-24T06:30:00.000Z"
+    },
+    {
+      "guid": "https://thedailywtf.com/articles/referenceerror-hell-is-not-defined",
+      "title": "CodeSOD: ReferenceError: HELL is not defined",
+      "link": "https://thedailywtf.com/articles/referenceerror-hell-is-not-defined",
+      "summary": "David came across some Java code. This particular block needed to, based on an integer masquerading as an enumerated type, return an amount of time to sleep. It has strong opinions about what should happen when you send it an invalid value:\nprivate static int getTime(int mode) {\n    return switch…",
+      "author": "Remy Porter",
+      "publishedAt": "2026-11-25T06:30:00.000Z"
     }
   ],
-  "totalIndexed": 83
+  "totalIndexed": 84
 }

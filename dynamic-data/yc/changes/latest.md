@@ -1,119 +1,84 @@
 # YC Company Changes for 2026-11-25
 
 - Previous total: 6408
-- Current total: 6408
-- Added: 0
+- Current total: 6409
+- Added: 1
 - Removed: 0
-- Updated: 24
+- Updated: 16
 
+
+## Added Companies
+
+- [Ergodex AI](https://www.ycombinator.com/companies/ergodex-ai) (Fall 2026) — Full-stack AI-native Agentic chip design 
 
 ## Updated Companies
 
-### [X-Zell](https://www.ycombinator.com/companies/x-zell)
-
-- `website`: http://www.x-zell.com → https://x-zell.com
-- `one_liner`: Early, pain-free cancer detection.  → Same-day cancer diagnosis from minimally invasive samples
-- `team_size`: 19 → 11
-
-### [NALA](https://www.ycombinator.com/companies/nala)
-
-- `all_locations`: New York City, NY, USA → London, England, United Kingdom
-- `regions`: United States of America,America / Canada,Remote,Partly Remote → United Kingdom,Europe,Remote,Partly Remote
-
-### [Letterdrop](https://www.ycombinator.com/companies/letterdrop)
-
-- `all_locations`: San Francisco, CA, USA → New York City, NY, USA
-
-### [Rejoy Health](https://www.ycombinator.com/companies/rejoy-health)
-
-- `all_locations`: San Francisco, CA, USA; Remote → London, England, United Kingdom; Remote
-- `regions`: United States of America,America / Canada,Remote,Fully Remote → United Kingdom,Europe,Remote,Fully Remote
-
-### [hoop.dev](https://www.ycombinator.com/companies/hoop-dev)
-
-- `all_locations`: São Paulo, SP, Brazil; Remote → Rio de Janeiro, RJ, Brazil; Remote
-
-### [WarpBuild](https://www.ycombinator.com/companies/warpbuild)
-
-- `isHiring`: false → true
-
-### [Reforged Labs](https://www.ycombinator.com/companies/reforged-labs)
-
-- `all_locations`: Ho Chi Minh City, Vietnam → Boston, MA, USA
-- `regions`: Vietnam,Southeast Asia,Remote,Partly Remote → United States of America,America / Canada,Remote,Partly Remote
-
-### [Float Health](https://www.ycombinator.com/companies/float-health)
-
-- `all_locations`: Carlsbad, CA, USA → San Diego, CA, USA
-
-### [Airhart Aeronautics](https://www.ycombinator.com/companies/airhart-aeronautics)
+### [Okteto](https://www.ycombinator.com/companies/okteto)
 
 - `stage`: Early → Growth
 
-### [GloGlo](https://www.ycombinator.com/companies/gloglo)
+### [Vorticity](https://www.ycombinator.com/companies/vorticity)
 
-- `one_liner`: Curing and preventing type 1 diabetes → Solving autoimmune diseases with AI, starting with type 1 diabetes.
-- `industry`: Consumer → Healthcare
-- `subindustry`: Consumer → Healthcare -> Therapeutics
-- `tags`: AI-powered Drug Discovery,Consumer Health Services,Biotech,E-commerce,AI → AI-powered Drug Discovery,Biotech,Therapeutics,AI
-- `industries`: Consumer → Healthcare,Therapeutics
+- `isHiring`: true → false
 
-### [Operand](https://www.ycombinator.com/companies/operand)
+### [Taktile](https://www.ycombinator.com/companies/taktile)
 
-- `all_locations`: San Francisco, CA, USA → New York City, NY, USA
+- `one_liner`: Transform your decision-making with reliable AI agents in weeks, not… → Taktile is the Agentic Decision Platform for banking and insurance.
 
-### [HealthKey](https://www.ycombinator.com/companies/healthkey)
+### [Inspectify](https://www.ycombinator.com/companies/inspectify)
 
-- `isHiring`: false → true
+- `stage`: Early → Growth
 
-### [Mecha Health](https://www.ycombinator.com/companies/mecha-health)
+### [Waterplan](https://www.ycombinator.com/companies/waterplan)
 
-- `all_locations`: San Francisco, CA, USA → Dallas, TX, USA
+- `stage`: Early → Growth
 
-### [Sureform](https://www.ycombinator.com/companies/sureform)
+### [Chariot](https://www.ycombinator.com/companies/chariot-2)
 
-- `all_locations`: San Francisco, CA, USA → New York City, NY, USA
+- `stage`: Early → Growth
 
-### [Flywheel AI](https://www.ycombinator.com/companies/flywheel-ai)
+### [Palomma](https://www.ycombinator.com/companies/palomma)
 
-- `all_locations`: San Francisco, CA, USA → Singapore, Singapore
-- `regions`: United States of America,America / Canada → Singapore,Southeast Asia
+- `stage`: Early → Growth
 
-### [stagewise](https://www.ycombinator.com/companies/stagewise)
+### [Lio (formerly askLio)](https://www.ycombinator.com/companies/lio)
 
-- `all_locations`:  → Bielefeld, NRW, Germany
-- `regions`: Unspecified → Germany,Europe
+- `stage`: Early → Growth
 
-### [Fastshot](https://www.ycombinator.com/companies/fastshot)
+### [Diode Computers, Inc.](https://www.ycombinator.com/companies/diode-computers-inc)
 
-- `all_locations`: Thessaloniki, Greece → San Francisco, CA, USA
-- `regions`: Greece,Europe → United States of America,America / Canada
+- `stage`: Early → Growth
 
-### [Fuchsia](https://www.ycombinator.com/companies/fuchsia)
+### [Design Arena](https://www.ycombinator.com/companies/design-arena)
 
-- `all_locations`: San Francisco, CA, USA → New Haven, CT, USA
+- `stage`: Early → Growth
 
-### [Surtr Defense Systems](https://www.ycombinator.com/companies/surtr-defense-systems)
+### [Didit](https://www.ycombinator.com/companies/didit)
 
-- `all_locations`: San Francisco, CA, USA → Los Angeles, CA, USA
+- `one_liner`: Infrastructure for identity and fraud. → We verify who is behind every account and stop fraud, through one API.
+- `tags`:  → SaaS,Identity,Cybersecurity,Fraud Prevention,AI
 
-### [Sherpa](https://www.ycombinator.com/companies/sherpa)
+### [Twolabs](https://www.ycombinator.com/companies/twolabs)
 
-- `isHiring`: false → true
+- `one_liner`: RL environments for industrial domains. → RL environments for physical engineering work.
+- `tags`: Robotics,AI → Robotics,AI,Industrial
 
-### [Pango](https://www.ycombinator.com/companies/pango)
+### [Elyra](https://www.ycombinator.com/companies/elyra)
 
-- `all_locations`: New York City, NY, USA → Stockholm, Stockholm County, Sweden
-- `regions`: United States of America,America / Canada,Remote,Partly Remote → Sweden,Europe,Remote,Partly Remote
+- `team_size`: 5 → 8
 
-### [Verdant](https://www.ycombinator.com/companies/verdant)
+### [tday.com](https://www.ycombinator.com/companies/tdaycom)
+
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/5794019006cfb6578d95d075fcb79d63cf1aee8e.png → https://bookface-images.s3.amazonaws.com/small_logos/85a92c541f01d7059df3fe28c61f328474eafa10.png
+
+### [Agnost AI](https://www.ycombinator.com/companies/agnost-ai)
 
 - `isHiring`: false → true
 
-### [Audora](https://www.ycombinator.com/companies/audora)
+### [OneCLI](https://www.ycombinator.com/companies/onecli)
 
-- `one_liner`: Audiobooks where every character has their own voice. → Audora is the next version of Audible - a place where stories are…
-
-### [Super Powers Mobility (SPM)](https://www.ycombinator.com/companies/super-powers-mobility-spm)
-
-- `one_liner`: Defense compliant modular battery packs power systems and vehicles → Defense compliant modular battery packs and power systems
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/0405005492b7122ac5f4784e260fc64d7bd99053.png → https://bookface-images.s3.amazonaws.com/small_logos/e27780d9b15ce1d3fa816c41252545bb371d4ede.png
+- `one_liner`: AI teammates for your business-critical work. → The vault for AI agents.
+- `subindustry`: B2B -> Productivity → B2B -> Infrastructure
+- `tags`: AIOps,B2B,Workflow Automation,Open Source,AI → B2B,Security,Open Source,Infrastructure,AI
+- `industries`: B2B,Productivity → B2B,Infrastructure

@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-11-25T07:13:43.857Z",
+  "updatedAt": "2026-11-25T16:59:05.656Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -3777,7 +3777,47 @@
       "summary": "Last month, PgBouncer participated in\nthe Fall 2026 CNCF Security\nSlam.  This is a report\nof what we did, what we learned, and what we plan for the future.\nIntroduction\nFirst, let’s introduce the participants.  PgBouncer is a connection\npooler for PostgreSQL.  The CNCF is the Cloud\nNative Computing…",
       "author": null,
       "publishedAt": "2026-11-25T05:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9DH",
+      "title": "Umair Shahid: Where 39% of the WAL Came From",
+      "link": "https://postgr.es/p/9DH",
+      "summary": "A fast-growing AI-native SaaS team we worked with alongside Supabase was writing 1.8 TB of WAL a day. That number alone made the database look like the ceiling. When we broke it down, about 39% of that WAL was full-page-image overhead. It didn’t come from the application, the platform or the…",
+      "author": null,
+      "publishedAt": "2026-11-25T16:32:33.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9DG",
+      "title": "DARIA NIKOLAENKO: PostgreSQL DDL/DML Migration Checklist for the Anxious",
+      "link": "https://postgr.es/p/9DG",
+      "summary": "Every now and then, a PostgreSQL database needs changes: adding a column, creating an index, updating data, or modifying constraints. Changes like these are called migrations. They can finish in seconds and go unnoticed, or lead to blocking, replication lag, unexpected load, or even downtime.\nOf…",
+      "author": null,
+      "publishedAt": "2026-11-25T15:27:08.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9DF",
+      "title": "Ismaël Mejía: PostgreSQL 19 is now supported in pglayers",
+      "link": "https://postgr.es/p/9DF",
+      "summary": "PostgreSQL 19 support is now available in pglayers, with 62 extension layers, ready-to-use Full and Azure profile images, and builds for both amd64 and arm64.\nThe images use the official postgres:19 GA image. If you want PostgreSQL 19 with pgvector, PostGIS, pg_cron, pg_textsearch, or pg_lake, you…",
+      "author": null,
+      "publishedAt": "2026-11-25T12:42:05.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9DD",
+      "title": "Hollis Varden: Hash joins, planner statistics and index upkeep on PostgreSQL 18",
+      "link": "https://postgr.es/p/9DD",
+      "summary": "A second sitting of small measurements this week, mostly about what the planner believes and what indexes cost to keep. One result went the opposite way from what I expected.\nSetup\nPostgreSQL 18.6, built from source, default settings (work_mem 4MB, shared_buffers 128MB, maintenance_work_mem 64MB, 2…",
+      "author": null,
+      "publishedAt": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9DC",
+      "title": "Hollis Varden: Eleven small measurements on PostgreSQL 18: joins, casts, TOAST and types",
+      "link": "https://postgr.es/p/9DC",
+      "summary": "Another sitting of small measurements. Two of them changed how I write queries. The rest mostly confirmed things I had only read.\nSetup\nPostgreSQL 18.6, built from source, default settings (work_mem 4MB, shared_buffers 128MB, 2 parallel workers per gather). The database collation is C. MacBook Air…",
+      "author": null,
+      "publishedAt": "2026-11-25T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 471
+  "totalIndexed": 476
 }

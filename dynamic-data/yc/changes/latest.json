@@ -1,184 +1,63 @@
 {
   "date": "2026-11-25",
-  "fetchedAt": "2026-11-25T07:13:59.095Z",
+  "fetchedAt": "2026-11-25T16:59:16.579Z",
   "previousCount": 6408,
-  "currentCount": 6408,
-  "added": [],
+  "currentCount": 6409,
+  "added": [
+    {
+      "id": 31431,
+      "name": "Ergodex AI",
+      "slug": "ergodex-ai",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/b3c3fc64440954c1c05cd9050d0d1cfd66dcf6bb.png",
+      "website": "https://ergodex.ai",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "Ergodex is a full-stack AI-native chip design company. We build environments that turn chip design tasks with measurable objectives into an implement → verify → score → optimize loop. Unlike traditional EDA, Ergodex can optimize not just the chip and the flow scripts, but also EDA algorithms used to design it. Our environments ship with FrontierEDA tools built for fast AI-driven iteration. We can achieve 100x faster Design Verification, and 50% faster convergence on PPA optimization. ",
+      "one_liner": "Full-stack AI-native Agentic chip design ",
+      "team_size": 12,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "B2B",
+      "subindustry": "B2B -> Engineering, Product and Design",
+      "launched_at": 1795620669,
+      "tags": [
+        "Edge Computing Semiconductors",
+        "Hardware",
+        "Semiconductors"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Fall 2026",
+      "status": "Active",
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada",
+        "Remote",
+        "Partly Remote"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/ergodex-ai"
+    }
+  ],
   "removed": [],
   "updated": [
     {
-      "id": 840,
-      "name": "X-Zell",
-      "slug": "x-zell",
-      "batch": "Winter 2015",
-      "url": "https://www.ycombinator.com/companies/x-zell",
-      "changes": [
-        {
-          "field": "website",
-          "before": "http://www.x-zell.com",
-          "after": "https://x-zell.com"
-        },
-        {
-          "field": "one_liner",
-          "before": "Early, pain-free cancer detection. ",
-          "after": "Same-day cancer diagnosis from minimally invasive samples"
-        },
-        {
-          "field": "team_size",
-          "before": 19,
-          "after": 11
-        }
-      ]
-    },
-    {
-      "id": 12236,
-      "name": "NALA",
-      "slug": "nala",
+      "id": 12032,
+      "name": "Okteto",
+      "slug": "okteto",
       "batch": "Winter 2019",
-      "url": "https://www.ycombinator.com/companies/nala",
-      "changes": [
-        {
-          "field": "all_locations",
-          "before": "New York City, NY, USA",
-          "after": "London, England, United Kingdom"
-        },
-        {
-          "field": "regions",
-          "before": [
-            "United States of America",
-            "America / Canada",
-            "Remote",
-            "Partly Remote"
-          ],
-          "after": [
-            "United Kingdom",
-            "Europe",
-            "Remote",
-            "Partly Remote"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 13104,
-      "name": "Letterdrop",
-      "slug": "letterdrop",
-      "batch": "Winter 2020",
-      "url": "https://www.ycombinator.com/companies/letterdrop",
-      "changes": [
-        {
-          "field": "all_locations",
-          "before": "San Francisco, CA, USA",
-          "after": "New York City, NY, USA"
-        }
-      ]
-    },
-    {
-      "id": 23317,
-      "name": "Rejoy Health",
-      "slug": "rejoy-health",
-      "batch": "Winter 2021",
-      "url": "https://www.ycombinator.com/companies/rejoy-health",
-      "changes": [
-        {
-          "field": "all_locations",
-          "before": "San Francisco, CA, USA; Remote",
-          "after": "London, England, United Kingdom; Remote"
-        },
-        {
-          "field": "regions",
-          "before": [
-            "United States of America",
-            "America / Canada",
-            "Remote",
-            "Fully Remote"
-          ],
-          "after": [
-            "United Kingdom",
-            "Europe",
-            "Remote",
-            "Fully Remote"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 23460,
-      "name": "hoop.dev",
-      "slug": "hoop-dev",
-      "batch": "Winter 2021",
-      "url": "https://www.ycombinator.com/companies/hoop-dev",
-      "changes": [
-        {
-          "field": "all_locations",
-          "before": "São Paulo, SP, Brazil; Remote",
-          "after": "Rio de Janeiro, RJ, Brazil; Remote"
-        }
-      ]
-    },
-    {
-      "id": 24344,
-      "name": "WarpBuild",
-      "slug": "warpbuild",
-      "batch": "Summer 2021",
-      "url": "https://www.ycombinator.com/companies/warpbuild",
-      "changes": [
-        {
-          "field": "isHiring",
-          "before": false,
-          "after": true
-        }
-      ]
-    },
-    {
-      "id": 25603,
-      "name": "Reforged Labs",
-      "slug": "reforged-labs",
-      "batch": "Winter 2022",
-      "url": "https://www.ycombinator.com/companies/reforged-labs",
-      "changes": [
-        {
-          "field": "all_locations",
-          "before": "Ho Chi Minh City, Vietnam",
-          "after": "Boston, MA, USA"
-        },
-        {
-          "field": "regions",
-          "before": [
-            "Vietnam",
-            "Southeast Asia",
-            "Remote",
-            "Partly Remote"
-          ],
-          "after": [
-            "United States of America",
-            "America / Canada",
-            "Remote",
-            "Partly Remote"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 25974,
-      "name": "Float Health",
-      "slug": "float-health",
-      "batch": "Winter 2022",
-      "url": "https://www.ycombinator.com/companies/float-health",
-      "changes": [
-        {
-          "field": "all_locations",
-          "before": "Carlsbad, CA, USA",
-          "after": "San Diego, CA, USA"
-        }
-      ]
-    },
-    {
-      "id": 26880,
-      "name": "Airhart Aeronautics",
-      "slug": "airhart-aeronautics",
-      "batch": "Summer 2022",
-      "url": "https://www.ycombinator.com/companies/airhart-aeronautics",
+      "url": "https://www.ycombinator.com/companies/okteto",
       "changes": [
         {
           "field": "stage",
@@ -188,295 +67,273 @@
       ]
     },
     {
-      "id": 29341,
-      "name": "GloGlo",
-      "slug": "gloglo",
-      "batch": "Winter 2024",
-      "url": "https://www.ycombinator.com/companies/gloglo",
+      "id": 12867,
+      "name": "Vorticity",
+      "slug": "vorticity",
+      "batch": "Summer 2019",
+      "url": "https://www.ycombinator.com/companies/vorticity",
+      "changes": [
+        {
+          "field": "isHiring",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 22124,
+      "name": "Taktile",
+      "slug": "taktile",
+      "batch": "Summer 2020",
+      "url": "https://www.ycombinator.com/companies/taktile",
       "changes": [
         {
           "field": "one_liner",
-          "before": "Curing and preventing type 1 diabetes",
-          "after": "Solving autoimmune diseases with AI, starting with type 1 diabetes."
+          "before": "Transform your decision-making with reliable AI agents in weeks, not…",
+          "after": "Taktile is the Agentic Decision Platform for banking and insurance."
+        }
+      ]
+    },
+    {
+      "id": 22257,
+      "name": "Inspectify",
+      "slug": "inspectify",
+      "batch": "Summer 2020",
+      "url": "https://www.ycombinator.com/companies/inspectify",
+      "changes": [
+        {
+          "field": "stage",
+          "before": "Early",
+          "after": "Growth"
+        }
+      ]
+    },
+    {
+      "id": 24590,
+      "name": "Waterplan",
+      "slug": "waterplan",
+      "batch": "Summer 2021",
+      "url": "https://www.ycombinator.com/companies/waterplan",
+      "changes": [
+        {
+          "field": "stage",
+          "before": "Early",
+          "after": "Growth"
+        }
+      ]
+    },
+    {
+      "id": 26707,
+      "name": "Chariot",
+      "slug": "chariot-2",
+      "batch": "Summer 2022",
+      "url": "https://www.ycombinator.com/companies/chariot-2",
+      "changes": [
+        {
+          "field": "stage",
+          "before": "Early",
+          "after": "Growth"
+        }
+      ]
+    },
+    {
+      "id": 27714,
+      "name": "Palomma",
+      "slug": "palomma",
+      "batch": "Winter 2023",
+      "url": "https://www.ycombinator.com/companies/palomma",
+      "changes": [
+        {
+          "field": "stage",
+          "before": "Early",
+          "after": "Growth"
+        }
+      ]
+    },
+    {
+      "id": 28824,
+      "name": "Lio (formerly askLio)",
+      "slug": "lio",
+      "batch": "Summer 2023",
+      "url": "https://www.ycombinator.com/companies/lio",
+      "changes": [
+        {
+          "field": "stage",
+          "before": "Early",
+          "after": "Growth"
+        }
+      ]
+    },
+    {
+      "id": 29851,
+      "name": "Diode Computers, Inc.",
+      "slug": "diode-computers-inc",
+      "batch": "Summer 2024",
+      "url": "https://www.ycombinator.com/companies/diode-computers-inc",
+      "changes": [
+        {
+          "field": "stage",
+          "before": "Early",
+          "after": "Growth"
+        }
+      ]
+    },
+    {
+      "id": 30637,
+      "name": "Design Arena",
+      "slug": "design-arena",
+      "batch": "Summer 2025",
+      "url": "https://www.ycombinator.com/companies/design-arena",
+      "changes": [
+        {
+          "field": "stage",
+          "before": "Early",
+          "after": "Growth"
+        }
+      ]
+    },
+    {
+      "id": 31080,
+      "name": "Didit",
+      "slug": "didit",
+      "batch": "Winter 2026",
+      "url": "https://www.ycombinator.com/companies/didit",
+      "changes": [
+        {
+          "field": "one_liner",
+          "before": "Infrastructure for identity and fraud.",
+          "after": "We verify who is behind every account and stop fraud, through one API."
         },
         {
-          "field": "industry",
-          "before": "Consumer",
-          "after": "Healthcare"
-        },
+          "field": "tags",
+          "before": [],
+          "after": [
+            "SaaS",
+            "Identity",
+            "Cybersecurity",
+            "Fraud Prevention",
+            "AI"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 31359,
+      "name": "Twolabs",
+      "slug": "twolabs",
+      "batch": "Spring 2026",
+      "url": "https://www.ycombinator.com/companies/twolabs",
+      "changes": [
         {
-          "field": "subindustry",
-          "before": "Consumer",
-          "after": "Healthcare -> Therapeutics"
+          "field": "one_liner",
+          "before": "RL environments for industrial domains.",
+          "after": "RL environments for physical engineering work."
         },
         {
           "field": "tags",
           "before": [
-            "AI-powered Drug Discovery",
-            "Consumer Health Services",
-            "Biotech",
-            "E-commerce",
+            "Robotics",
             "AI"
           ],
           "after": [
-            "AI-powered Drug Discovery",
-            "Biotech",
-            "Therapeutics",
+            "Robotics",
+            "AI",
+            "Industrial"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 31388,
+      "name": "Elyra",
+      "slug": "elyra",
+      "batch": "Spring 2026",
+      "url": "https://www.ycombinator.com/companies/elyra",
+      "changes": [
+        {
+          "field": "team_size",
+          "before": 5,
+          "after": 8
+        }
+      ]
+    },
+    {
+      "id": 31455,
+      "name": "tday.com",
+      "slug": "tdaycom",
+      "batch": "Spring 2026",
+      "url": "https://www.ycombinator.com/companies/tdaycom",
+      "changes": [
+        {
+          "field": "small_logo_thumb_url",
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/5794019006cfb6578d95d075fcb79d63cf1aee8e.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/85a92c541f01d7059df3fe28c61f328474eafa10.png"
+        }
+      ]
+    },
+    {
+      "id": 33019,
+      "name": "Agnost AI",
+      "slug": "agnost-ai",
+      "batch": "Summer 2026",
+      "url": "https://www.ycombinator.com/companies/agnost-ai",
+      "changes": [
+        {
+          "field": "isHiring",
+          "before": false,
+          "after": true
+        }
+      ]
+    },
+    {
+      "id": 33320,
+      "name": "OneCLI",
+      "slug": "onecli",
+      "batch": "Summer 2026",
+      "url": "https://www.ycombinator.com/companies/onecli",
+      "changes": [
+        {
+          "field": "small_logo_thumb_url",
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/0405005492b7122ac5f4784e260fc64d7bd99053.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/e27780d9b15ce1d3fa816c41252545bb371d4ede.png"
+        },
+        {
+          "field": "one_liner",
+          "before": "AI teammates for your business-critical work.",
+          "after": "The vault for AI agents."
+        },
+        {
+          "field": "subindustry",
+          "before": "B2B -> Productivity",
+          "after": "B2B -> Infrastructure"
+        },
+        {
+          "field": "tags",
+          "before": [
+            "AIOps",
+            "B2B",
+            "Workflow Automation",
+            "Open Source",
+            "AI"
+          ],
+          "after": [
+            "B2B",
+            "Security",
+            "Open Source",
+            "Infrastructure",
             "AI"
           ]
         },
         {
           "field": "industries",
           "before": [
-            "Consumer"
+            "B2B",
+            "Productivity"
           ],
           "after": [
-            "Healthcare",
-            "Therapeutics"
+            "B2B",
+            "Infrastructure"
           ]
-        }
-      ]
-    },
-    {
-      "id": 30248,
-      "name": "Operand",
-      "slug": "operand",
-      "batch": "Winter 2025",
-      "url": "https://www.ycombinator.com/companies/operand",
-      "changes": [
-        {
-          "field": "all_locations",
-          "before": "San Francisco, CA, USA",
-          "after": "New York City, NY, USA"
-        }
-      ]
-    },
-    {
-      "id": 30249,
-      "name": "HealthKey",
-      "slug": "healthkey",
-      "batch": "Winter 2025",
-      "url": "https://www.ycombinator.com/companies/healthkey",
-      "changes": [
-        {
-          "field": "isHiring",
-          "before": false,
-          "after": true
-        }
-      ]
-    },
-    {
-      "id": 30251,
-      "name": "Mecha Health",
-      "slug": "mecha-health",
-      "batch": "Winter 2025",
-      "url": "https://www.ycombinator.com/companies/mecha-health",
-      "changes": [
-        {
-          "field": "all_locations",
-          "before": "San Francisco, CA, USA",
-          "after": "Dallas, TX, USA"
-        }
-      ]
-    },
-    {
-      "id": 30561,
-      "name": "Sureform",
-      "slug": "sureform",
-      "batch": "Spring 2025",
-      "url": "https://www.ycombinator.com/companies/sureform",
-      "changes": [
-        {
-          "field": "all_locations",
-          "before": "San Francisco, CA, USA",
-          "after": "New York City, NY, USA"
-        }
-      ]
-    },
-    {
-      "id": 30771,
-      "name": "Flywheel AI",
-      "slug": "flywheel-ai",
-      "batch": "Summer 2025",
-      "url": "https://www.ycombinator.com/companies/flywheel-ai",
-      "changes": [
-        {
-          "field": "all_locations",
-          "before": "San Francisco, CA, USA",
-          "after": "Singapore, Singapore"
-        },
-        {
-          "field": "regions",
-          "before": [
-            "United States of America",
-            "America / Canada"
-          ],
-          "after": [
-            "Singapore",
-            "Southeast Asia"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 30772,
-      "name": "stagewise",
-      "slug": "stagewise",
-      "batch": "Summer 2025",
-      "url": "https://www.ycombinator.com/companies/stagewise",
-      "changes": [
-        {
-          "field": "all_locations",
-          "before": "",
-          "after": "Bielefeld, NRW, Germany"
-        },
-        {
-          "field": "regions",
-          "before": [
-            "Unspecified"
-          ],
-          "after": [
-            "Germany",
-            "Europe"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 31001,
-      "name": "Fastshot",
-      "slug": "fastshot",
-      "batch": "Fall 2025",
-      "url": "https://www.ycombinator.com/companies/fastshot",
-      "changes": [
-        {
-          "field": "all_locations",
-          "before": "Thessaloniki, Greece",
-          "after": "San Francisco, CA, USA"
-        },
-        {
-          "field": "regions",
-          "before": [
-            "Greece",
-            "Europe"
-          ],
-          "after": [
-            "United States of America",
-            "America / Canada"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 31102,
-      "name": "Fuchsia",
-      "slug": "fuchsia",
-      "batch": "Spring 2026",
-      "url": "https://www.ycombinator.com/companies/fuchsia",
-      "changes": [
-        {
-          "field": "all_locations",
-          "before": "San Francisco, CA, USA",
-          "after": "New Haven, CT, USA"
-        }
-      ]
-    },
-    {
-      "id": 31325,
-      "name": "Surtr Defense Systems",
-      "slug": "surtr-defense-systems",
-      "batch": "Spring 2026",
-      "url": "https://www.ycombinator.com/companies/surtr-defense-systems",
-      "changes": [
-        {
-          "field": "all_locations",
-          "before": "San Francisco, CA, USA",
-          "after": "Los Angeles, CA, USA"
-        }
-      ]
-    },
-    {
-      "id": 31407,
-      "name": "Sherpa",
-      "slug": "sherpa",
-      "batch": "Spring 2026",
-      "url": "https://www.ycombinator.com/companies/sherpa",
-      "changes": [
-        {
-          "field": "isHiring",
-          "before": false,
-          "after": true
-        }
-      ]
-    },
-    {
-      "id": 31989,
-      "name": "Pango",
-      "slug": "pango",
-      "batch": "Summer 2026",
-      "url": "https://www.ycombinator.com/companies/pango",
-      "changes": [
-        {
-          "field": "all_locations",
-          "before": "New York City, NY, USA",
-          "after": "Stockholm, Stockholm County, Sweden"
-        },
-        {
-          "field": "regions",
-          "before": [
-            "United States of America",
-            "America / Canada",
-            "Remote",
-            "Partly Remote"
-          ],
-          "after": [
-            "Sweden",
-            "Europe",
-            "Remote",
-            "Partly Remote"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 32189,
-      "name": "Verdant",
-      "slug": "verdant",
-      "batch": "Summer 2026",
-      "url": "https://www.ycombinator.com/companies/verdant",
-      "changes": [
-        {
-          "field": "isHiring",
-          "before": false,
-          "after": true
-        }
-      ]
-    },
-    {
-      "id": 32550,
-      "name": "Audora",
-      "slug": "audora",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/audora",
-      "changes": [
-        {
-          "field": "one_liner",
-          "before": "Audiobooks where every character has their own voice.",
-          "after": "Audora is the next version of Audible - a place where stories are…"
-        }
-      ]
-    },
-    {
-      "id": 38094,
-      "name": "Super Powers Mobility (SPM)",
-      "slug": "super-powers-mobility-spm",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/super-powers-mobility-spm",
-      "changes": [
-        {
-          "field": "one_liner",
-          "before": "Defense compliant modular battery packs power systems and vehicles",
-          "after": "Defense compliant modular battery packs and power systems"
         }
       ]
     }

@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-11-25T07:13:59.097Z",
-  "count": 6408,
+  "fetchedAt": "2026-11-25T16:59:16.580Z",
+  "count": 6409,
   "companies": [
     {
       "id": 43506,
@@ -10670,23 +10670,23 @@
       "name": "OneCLI",
       "slug": "onecli",
       "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/0405005492b7122ac5f4784e260fc64d7bd99053.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/e27780d9b15ce1d3fa816c41252545bb371d4ede.png",
       "website": "https://onecli.sh",
       "all_locations": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-      "long_description": "OneCLI (YC S26) is an open-source platform for delegating business-critical work to AI agents, from Salesforce updates to data analysis and engineering investigations.\r\n\r\nAgents work across your company’s apps, prepare changes, and pause for approval when your rules require it. Your team controls what they can access and change, while credentials stay out of the agents’ reach and every call is logged.\r\n\r\nhttps://www.onecli.sh",
-      "one_liner": "AI teammates for your business-critical work.",
+      "long_description": "OneCLI is the vault for AI agents. Sandboxed agents get the access their job needs, and never see a secret.\r\n\r\nAgents like OpenClaw, Hermes and NanoClaw run in sandboxes such as E2B, Daytona and Docker, but they still need to reach GitHub, Jira, Slack and production APIs. Handing them raw keys is the risk. With OneCLI, keys stay in the vault and are added at the gateway on the way out, so a leaked sandbox leaks nothing.\r\n\r\nSet a policy per agent, connect 100+ tools without handing out a token, and log every call. \r\nOpen source and SOC 2 Type II: self-host in one container or use the cloud.\r\n\r\nhttps://onecli.sh\r\nhttps://onecli.sh/docs",
+      "one_liner": "The vault for AI agents.",
       "team_size": 0,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
       "industry": "B2B",
-      "subindustry": "B2B -> Productivity",
+      "subindustry": "B2B -> Infrastructure",
       "launched_at": 1783888956,
       "tags": [
-        "AIOps",
         "B2B",
-        "Workflow Automation",
+        "Security",
         "Open Source",
+        "Infrastructure",
         "AI"
       ],
       "tags_highlighted": [],
@@ -10697,7 +10697,7 @@
       "status": "Active",
       "industries": [
         "B2B",
-        "Productivity"
+        "Infrastructure"
       ],
       "regions": [
         "Israel",
@@ -12603,7 +12603,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": false,
+      "isHiring": true,
       "nonprofit": false,
       "batch": "Summer 2026",
       "status": "Active",
@@ -22799,7 +22799,7 @@
         "markup.one",
         "tday"
       ],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/5794019006cfb6578d95d075fcb79d63cf1aee8e.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/85a92c541f01d7059df3fe28c61f328474eafa10.png",
       "website": "https://tday.com",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Most features ship without a demo video. A good one takes hours to script, record, retake, voice and edit. Ask for a demo in one line from Claude Code, Cursor or Codex. Your coding agent records your real app on your machine, localhost included, and tday adds the voice, cursor, zooms, captions and your brand. Edit any narration line, then use it in your launch, docs or changelog. Web, desktop, terminal, iPhone and Android apps. Your code never leaves your machine. Free for 5 saved demos.",
@@ -23722,6 +23722,51 @@
       "app_answers": null,
       "question_answers": false,
       "url": "https://www.ycombinator.com/companies/keyframe-labs"
+    },
+    {
+      "id": 31431,
+      "name": "Ergodex AI",
+      "slug": "ergodex-ai",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/b3c3fc64440954c1c05cd9050d0d1cfd66dcf6bb.png",
+      "website": "https://ergodex.ai",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "Ergodex is a full-stack AI-native chip design company. We build environments that turn chip design tasks with measurable objectives into an implement → verify → score → optimize loop. Unlike traditional EDA, Ergodex can optimize not just the chip and the flow scripts, but also EDA algorithms used to design it. Our environments ship with FrontierEDA tools built for fast AI-driven iteration. We can achieve 100x faster Design Verification, and 50% faster convergence on PPA optimization. ",
+      "one_liner": "Full-stack AI-native Agentic chip design ",
+      "team_size": 12,
+      "highlight_black": false,
+      "highlight_latinx": false,
+      "highlight_women": false,
+      "industry": "B2B",
+      "subindustry": "B2B -> Engineering, Product and Design",
+      "launched_at": 1795620669,
+      "tags": [
+        "Edge Computing Semiconductors",
+        "Hardware",
+        "Semiconductors"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Fall 2026",
+      "status": "Active",
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada",
+        "Remote",
+        "Partly Remote"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/ergodex-ai"
     },
     {
       "id": 31430,
@@ -25223,7 +25268,7 @@
       "all_locations": "Stockholm, Stockholm County, Sweden",
       "long_description": "Elyra is an AI reservation system for restaurants. Instead of missing 40% of incoming phone calls and taking days to reply to emails, leaving over $100,000 in bookings on the table every year, restaurants get AI agents that answer every call and email instantly, 24/7, connected to a reservation system that optimizes table placements in real time so empty seats get filled with the right guests.\r\n\r\nFelix and Alan met in primary school in Stockholm and have been building things together ever since.\r\n\r\nWe launched with a single restaurant and within weeks they hit record occupancy, bookings they used to miss were suddenly being captured automatically, and empty Tuesday nights started filling up. Today we power top restaurants groups. \r\n\r\nThere are over 1 million restaurants in the US and Europe alone. The average restaurant loses $100K+ a year to missed calls and slow email replies. At our current pricing, that's a $10B+ market opportunity, and we're the only system that handles the call, the email, and the table allocation in one place.",
       "one_liner": "AI Reservation System for Restaurants ",
-      "team_size": 5,
+      "team_size": 8,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
@@ -26246,7 +26291,7 @@
       "website": "https://twolabs.ai",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "We build verifiable reinforcement-learning environments, evaluations, and proprietary training datasets to improve frontier AI in engineering, manufacturing, and robotics.\r\n\r\nWe focus on complex, industrial domains where high-quality training data is scarce and existing models fall short.\r\n\r\nOur long-term goal is to develop self-improving training infrastructure that can autonomously generate increasingly challenging tasks, evaluate performance, and continuously advance model capabilities toward recursive self-improvement.",
-      "one_liner": "RL environments for industrial domains.",
+      "one_liner": "RL environments for physical engineering work.",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -26256,7 +26301,8 @@
       "launched_at": 1779755220,
       "tags": [
         "Robotics",
-        "AI"
+        "AI",
+        "Industrial"
       ],
       "tags_highlighted": [],
       "top_company": false,
@@ -29044,7 +29090,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/30eef975f26ed420159ac335c08eb8b950705ee2.png",
       "website": "https://silahq.com",
       "all_locations": "",
-      "long_description": "Sila is an agent messenger where your team creates and messages AI Contacts that work 24/7 towards your goals. They build intelligent apps and automations, becoming the AI infrastructure your company grows on. No coding required. Our mission is to bring superintelligence to every company in the world.",
+      "long_description": "Sila is an agent messenger where your team creates and messages AI Contacts that work 24/7 across your company achieving real business outcomes and becoming the AI infrastructure your company grows on. No coding required. Our mission is to bring superintelligence to every company in the world.\r\n\r\n",
       "one_liner": "Agentic Messenger",
       "team_size": 2,
       "highlight_black": false,
@@ -35372,8 +35418,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c3f50a228cdf3568c8631e4feca3095106e0e9cc.png",
       "website": "https://didit.me/",
       "all_locations": "CT, Spain",
-      "long_description": "One API for KYC, KYB, AML, authentication, biometrics, and fraud — powered by 1,000+ data sources, 200+ signals, and in-house AI models. Global coverage. Integrate in minutes, pay as you go. Start free at business.didit.me.",
-      "one_liner": "Infrastructure for identity and fraud.",
+      "long_description": "Didit is infrastructure for identity and fraud. \r\n\r\nCompanies use one API, or our MCP server, to find out who is really behind each account: identity verification (KYC), Business verification (KYB), AML screening, authentication & user management, and fraud monitoring. \r\n\r\nDidit connects to the government databases and company registries and runs the document, liveness and fraud checks behind it, so teams replace a stack of vendors with one integration. \r\n\r\nPrices are public and every account starts free. Global coverage. Integrate in minutes, pay as you go. Start free at business.didit.me and join +4000 customers using Didit.",
+      "one_liner": "We verify who is behind every account and stop fraud, through one API.",
       "team_size": 20,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -35381,7 +35427,13 @@
       "industry": "B2B",
       "subindustry": "B2B -> Infrastructure",
       "launched_at": 1764601102,
-      "tags": [],
+      "tags": [
+        "SaaS",
+        "Identity",
+        "Cybersecurity",
+        "Fraud Prevention",
+        "AI"
+      ],
       "tags_highlighted": [],
       "top_company": false,
       "isHiring": false,
@@ -49192,7 +49244,7 @@
         "United States of America",
         "America / Canada"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -70216,7 +70268,7 @@
         "United States of America",
         "America / Canada"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -99438,7 +99490,7 @@
         "Germany",
         "Europe"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -111913,7 +111965,7 @@
         "Remote",
         "Partly Remote"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -123372,7 +123424,7 @@
         "United States of America",
         "America / Canada"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -148098,7 +148150,7 @@
         "Remote",
         "Fully Remote"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -178071,7 +178123,7 @@
         "Remote",
         "Partly Remote"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -179275,8 +179327,8 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/fda6209e5ce1deac3dd962c779d7c375cd750a5a.png",
       "website": "http://www.taktile.com",
       "all_locations": "Berlin, Berlin, Germany",
-      "long_description": "Taktile empowers financial institutions to quickly unlock AI-driven efficiencies across the customer lifecycle, reducing manual work while optimizing decisions and enabling seamless end-user experiences.\r\n\r\nBuilt for highly regulated environments, our agentic decision platform combines the speed of AI automation with the oversight of human judgement—so you can safely approve customers, catch more fraud, and stay compliant.\r\n\r\nWe power AI transformation from offices in NYC, London, Berlin, and Iasi, and have raised $80M in capital from top investors including Index Ventures, Tiger Global, Balderton Capital and Y Combinator.\r\n\r\nJoin over 200 leading financial institutions who rely on Taktile to enable faster, more intelligent decisions from onboarding to credit, AML, compliance, and fraud.",
-      "one_liner": "Transform your decision-making with reliable AI agents in weeks, not…",
+      "long_description": "Taktile is the Agentic Decision Platform for banking and insurance. Our platform combines data, rules, AI agents, and human expertise to enable banks and insurers to constantly improve business and consumer underwriting, customer onboarding, and claims management. Over 200 banks and insurers use Taktile to onboard more qualified customers, lend to the right businesses, and settle claims faster. Our team of forward-deployed engineers enables risk, operations, and technical teams to implement, test, and refine every decision while staying in control.\r\n\r\nTaktile is backed by leading investors including Goldman Sachs, Index Ventures, Tiger Global, Balderton Capital, and Y Combinator.",
+      "one_liner": "Taktile is the Agentic Decision Platform for banking and insurance.",
       "team_size": 150,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -197293,7 +197345,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": true,
+      "isHiring": false,
       "nonprofit": false,
       "batch": "Summer 2019",
       "status": "Active",
@@ -210131,7 +210183,7 @@
         "Remote",
         "Fully Remote"
       ],
-      "stage": "Early",
+      "stage": "Growth",
       "app_video_public": false,
       "demo_day_video_public": false,
       "app_answers": null,
@@ -252602,7 +252654,7 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/3fafbc0fbed91c91e5664f3b665740b3a037febe.png",
       "website": "https://x-zell.com",
       "all_locations": "Bangkok, Thailand; Düsseldorf, NRW, Germany",
-      "long_description": "Most cancer cases are not difficult to diagnose, only slow. A cytology sample such as pleural fluid or a fine-needle aspirate usually needs a panel of immunostains, which today in most cases means a cell block and several days of serial staining.\r\n\r\nX-ZELL replaces that with Cryoimmunostaining™: direct-to-slide fixation, then seven markers and a nuclear counterstain on one slide, read on a digital microscope, from sample to screen in under four hours. The platform (Cryofixator™, Cryostainer™, Hybrid Microscope and Cryophore™ panels) is CE-marked, with the instruments and antibody panels under the EU IVDR, and is in routine use at pathology laboratories in Germany.\r\n\r\nX-ZELL is headquartered in Singapore. Its reagents are developed and manufactured in Bangkok, Thailand, under ISO 13485, next to its own ISO 15189-accredited laboratory. The company was founded in 2014 by Sebastian Bhakdi (MD).\r\n\r\nX-ZELL started with the liquid biopsy: finding rare cells in blood and identifying them by multiplex staining. Because a liquid biopsy is cell-based, it is cytology. So the company brought the same staining into routine cytology first, where it helps patients today, and is building the liquid biopsy on that same platform.",
+      "long_description": "The majority of cancer cases are not difficult to diagnose, only slow. Delivering the diagnosis on the same day unclogs health systems around the globe. X-ZELL's patented, CE-marked multiplex cytology platform stains seven cancer markers and a nuclear counterstain on one slide in under four hours, replacing several days of serial staining. The platform is in routine use at pathology laboratories in Germany. X-ZELL is headquartered in Singapore and its manufacturing and R&D hub is in Bangkok, Thailand. The company holds ISO 13485 medical device certification and ISO 15189 clinical laboratory accreditation.\r\n\r\nX-ZELL started with the liquid biopsy: finding rare cells in blood and identifying them by multiplex staining. Because a liquid biopsy is cell-based, it is cytology. So the company brought the same staining into routine cytology first, where it helps patients today, and is building the liquid biopsy on that same platform.",
       "one_liner": "Same-day cancer diagnosis from minimally invasive samples",
       "team_size": 11,
       "highlight_black": false,
