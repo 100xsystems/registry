@@ -9,7 +9,7 @@
     "edge-computing",
     "nextjs"
   ],
-  "updatedAt": "2026-11-24T17:19:27.738Z",
+  "updatedAt": "2026-11-25T01:47:25.141Z",
   "items": [
     {
       "guid": "vercel-blog::https://vercel.com/changelog/ai-gateway-now-supports-streaming-transcription",
@@ -5522,7 +5522,55 @@
       "summary": "is now available on AI Gateway. The small multimodal reasoning model is built for agentic coding, tool use, and knowledge work, with text and image inputs and text output.Inkling 2 Mini from Thinking Machines\nInkling 2 Mini has 26.4 billion total parameters and 3.4 billion active per token. The…",
       "author": "Jerilyn Zheng",
       "publishedAt": "2026-11-24T00:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/standard-builds-for-existing-pro-teams-have-moved-to-usage-based-billing",
+      "title": "Standard builds for existing Pro teams have moved to usage-based billing",
+      "link": "https://vercel.com/changelog/standard-builds-for-existing-pro-teams-have-moved-to-usage-based-billing",
+      "summary": "Existing Pro teams will no longer include a Standard build slot. This brings Standard builds under the same usage-based billing model as other build machines. \nStandard builds cost $0.014 per build minute, and your monthly usage credit applies to build usage. Billing applies to all projects on the…",
+      "author": "Mehul Kar",
+      "publishedAt": "2026-11-25T08:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/all-sandbox-runtimes-now-use-vercel-managed-images",
+      "title": "All Sandbox runtimes now use Vercel Managed Images",
+      "link": "https://vercel.com/changelog/all-sandbox-runtimes-now-use-vercel-managed-images",
+      "summary": "All  runtimes now use Vercel Managed Images (VMIs).Vercel Sandbox\nLegacy runtimes, such as , now use the open-source images in the , distributed through Vercel Container Registry (VCR). Sandboxes created with these now come with 64 GB of storage and use the same infrastructure as sandboxes powered…",
+      "author": "Andy Waller",
+      "publishedAt": "2026-11-24T18:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/aws-privatelink-endpoints-are-now-available-on-secure-compute",
+      "title": "AWS PrivateLink endpoints are now available on Secure Compute",
+      "link": "https://vercel.com/changelog/aws-privatelink-endpoints-are-now-available-on-secure-compute",
+      "summary": "Enterprise teams using  can now create and manage  endpoints directly from the Vercel dashboard.Secure ComputeAWS PrivateLink\nEndpoints on Secure Compute live in your team's dedicated VPC and use the network's AWS region. They belong to the network and are shared by its connected project…",
+      "author": "Miroslav Simulcik",
+      "publishedAt": "2026-11-24T09:54:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/flags-sdk-now-works-on-vercel-without-flags-secret",
+      "title": "Flags SDK now works on Vercel without FLAGS_SECRET",
+      "link": "https://vercel.com/changelog/flags-sdk-now-works-on-vercel-without-flags-secret",
+      "summary": "With , projects on Vercel can use  and precompute without . That cuts out a setup step for new projects and removes the need to keep a shared secret in sync across microfrontends. flags@4.5.0Flags ExplorerFLAGS_SECRET\nVercel signs Flags Explorer discovery requests and overrides, and the SDK…",
+      "author": "Luis Meyer",
+      "publishedAt": "2026-11-24T05:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/agents-can-now-manage-ai-gateway-through-vercel-mcp",
+      "title": "Agents can now manage AI Gateway through Vercel MCP",
+      "link": "https://vercel.com/changelog/agents-can-now-manage-ai-gateway-through-vercel-mcp",
+      "summary": "Your agent can now manage  through . Ask it in plain language to:AI GatewayVercel MCP\nTo create a virtual model, for example, ask your agent:\nYour apps and coding agents using AI Gateway can then use  as the model ID. You can change its model or settings later without updating those clients or…",
+      "author": "Melkey Moksyakov",
+      "publishedAt": "2026-11-24T05:00:00.000Z"
+    },
+    {
+      "guid": "vercel-blog::https://vercel.com/changelog/delete-run-data-workflow-sdk",
+      "title": "Delete a run's data on demand in Workflow SDK",
+      "link": "https://vercel.com/changelog/delete-run-data-workflow-sdk",
+      "summary": "The  now lets you delete a finished run's stored data on demand. This feature gives you the ability to quickly meet compliance and security requirements when sensitive data needs to be purged from run payloads.Workflow SDK\nDeleting a run's data deletes any inputs, outputs, hook payloads, and error…",
+      "author": "Peter Wielander",
+      "publishedAt": "2026-11-24T05:00:00.000Z"
     }
   ],
-  "totalIndexed": 689
+  "totalIndexed": 695
 }

@@ -1,60 +1,48 @@
-# YC Company Changes for 2026-11-24
+# YC Company Changes for 2026-11-25
 
 - Previous total: 6408
 - Current total: 6408
 - Added: 0
 - Removed: 0
-- Updated: 12
+- Updated: 8
 
 
 ## Updated Companies
 
-### [Okteto](https://www.ycombinator.com/companies/okteto)
+### [Inito](https://www.ycombinator.com/companies/inito)
 
-- `one_liner`: Cloud Development Environments with one click → Ephemeral environments on Kubernetes
-- `team_size`: 30 → 0
-- `stage`: Growth → Early
+- `all_locations`: Bengaluru, KA, India → Dubai, Dubai, United Arab Emirates; Bengaluru, KA, India
+- `regions`: India,South Asia,Remote,Partly Remote → United Arab Emirates,India,Middle East and North Africa,South Asia,Remote,Partly Remote
 
-### [Inspectify](https://www.ycombinator.com/companies/inspectify)
-
-- `stage`: Growth → Early
-
-### [Chariot](https://www.ycombinator.com/companies/chariot-2)
+### [Palomma](https://www.ycombinator.com/companies/palomma)
 
 - `stage`: Growth → Early
 
-### [Lio (formerly askLio)](https://www.ycombinator.com/companies/lio)
+### [Coval](https://www.ycombinator.com/companies/coval)
 
-- `stage`: Growth → Early
+- `team_size`: 10 → 25
 
-### [Cognitio Labs](https://www.ycombinator.com/companies/cognitio-labs)
+### [10x Science](https://www.ycombinator.com/companies/10x-science)
 
-- `team_size`: 3 → 5
+- `tags`: SaaS,B2B,Biotech,AI → SaaS,B2B,Biotech,Healthcare,AI
 
-### [Diode Computers, Inc.](https://www.ycombinator.com/companies/diode-computers-inc)
+### [Synphony](https://www.ycombinator.com/companies/synphony)
 
-- `stage`: Growth → Early
+- `one_liner`: robots & software for physical industries. → Train and deploy robots for any task in any embodiment, quickly.
 
-### [HealthKey](https://www.ycombinator.com/companies/healthkey)
+### [elbic (formerly KugelAudio)](https://www.ycombinator.com/companies/elbic)
 
-- `isHiring`: true → false
+- `name`: KugelAudio → elbic (formerly KugelAudio)
+- `slug`: kugelaudio → elbic
+- `former_names`:  → KugelAudio
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/44c1f17a88c6716d09288318cb5f9de77b9bdbbb.png → https://bookface-images.s3.amazonaws.com/small_logos/8e95119db487e10dcb6ed64e8458581394c46d9a.png
+- `website`: https://kugelaudio.com/en → https://elbic.com/
+- `one_liner`: Kugel is an on-prem Voice AI model supporting 30+ languages  → elbic is an on-prem Voice AI model supporting 30+ languages 
 
-### [Design Arena](https://www.ycombinator.com/companies/design-arena)
+### [Resin Technologies](https://www.ycombinator.com/companies/resin-technologies)
 
-- `stage`: Growth → Early
+- `tags`: Hardware,Electronics,AI → Hard Tech,Hardware,B2B,Electronics,AI
 
-### [tday.com](https://www.ycombinator.com/companies/tdaycom)
+### [SPITA Labs](https://www.ycombinator.com/companies/spita-labs)
 
-- `one_liner`: AI that turns your product into on-brand marketing content → AI-recorded Screen Studio style editable demos
-
-### [AbInitio Bio](https://www.ycombinator.com/companies/abinitio-bio)
-
-- `team_size`: 2 → 3
-
-### [Definite](https://www.ycombinator.com/companies/definite)
-
-- `team_size`: 3 → 4
-
-### [Proto](https://www.ycombinator.com/companies/proto)
-
-- `team_size`: 2 → 3
+- `one_liner`: Reconfigurable electronics for robotics teams → Networking for power and data in robots and servers

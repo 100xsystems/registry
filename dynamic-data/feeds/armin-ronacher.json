@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-11-09T21:57:57.915Z",
+  "updatedAt": "2026-11-25T01:47:25.238Z",
   "items": [
     {
       "guid": "armin-ronacher::https://lucumr.pocoo.org/2026/7/13/the-tower-keeps-rising/",
@@ -127,7 +127,15 @@
       "summary": "For our last movie night we watched Princess\nMononoke.  I remembered loving\nthat movie when I was younger, but watching it as an adult made me once again\nrealize how Miyazaki has a way of expressing diverging sides without picking\none.  The film shows people, animals and spirits with legitimate and…",
       "author": "Armin Ronacher",
       "publishedAt": "2026-11-09T00:00:00.000Z"
+    },
+    {
+      "guid": "armin-ronacher::https://lucumr.pocoo.org/2026/11/25/poisoning/",
+      "title": "Abolish Lock Poisoning",
+      "link": "https://lucumr.pocoo.org/2026/11/25/poisoning/",
+      "summary": "Rust has a curious feature that I don’t think the language would land today,\nif it was not there for a long time: mutex poisoning.  When some Rust code\npanics while holding a std::sync::Mutex, the mutex is poisoned.  That means\nthat any further call to lock() returns a PoisonError.  The motivation…",
+      "author": "Armin Ronacher",
+      "publishedAt": "2026-11-25T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 15
+  "totalIndexed": 16
 }
