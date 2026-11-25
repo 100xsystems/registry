@@ -8,7 +8,7 @@
     "debugging",
     "performance"
   ],
-  "updatedAt": "2026-11-24T17:19:19.920Z",
+  "updatedAt": "2026-11-25T21:06:19.502Z",
   "items": [
     {
       "guid": "https://blog.sentry.io/godot-dotnet-ga/",
@@ -521,7 +521,15 @@
       "summary": "The Sentry React Native SDK now auto-instruments Expo Router: navigation traces, deep link correlation, route error capture, and native fetch tracking.",
       "author": null,
       "publishedAt": "2026-11-24T09:00:00.000Z"
+    },
+    {
+      "guid": "https://blog.sentry.io/quadratic-webhook-autoscaler-ceiling/",
+      "title": "How one quadratic webhook handler pinned our autoscaler at its ceiling",
+      "link": "https://blog.sentry.io/quadratic-webhook-autoscaler-ceiling/",
+      "summary": "Our Control RPC autoscaler sat at 256 pods for hours. Three GitLab integration bugs had turned one webhook into millions of RPC calls.",
+      "author": null,
+      "publishedAt": "2026-11-25T09:00:00.000Z"
     }
   ],
-  "totalIndexed": 64
+  "totalIndexed": 65
 }
