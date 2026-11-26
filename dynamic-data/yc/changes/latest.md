@@ -9,30 +9,31 @@
 
 ## Updated Companies
 
-### [Embrace](https://www.ycombinator.com/companies/embrace)
+### [Lume](https://www.ycombinator.com/companies/lume)
 
-- `stage`: Growth → Early
+- `one_liner`:  → Banking platform purpose-built for healthcare professionals.
+- `tags`: Healthcare → Fintech,Healthcare
 
-### [Toma](https://www.ycombinator.com/companies/toma)
+### [ProhostAI](https://www.ycombinator.com/companies/prohostai)
 
-- `stage`: Early → Growth
+- `isHiring`: true → false
 
-### [Nox Metals](https://www.ycombinator.com/companies/nox-metals)
+### [Glen](https://www.ycombinator.com/companies/glen)
 
-- `team_size`: 64 → 73
+- `team_size`: 1 → 4
 
-### [tday.com](https://www.ycombinator.com/companies/tdaycom)
+### [Stacktrace](https://www.ycombinator.com/companies/stacktrace)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/85a92c541f01d7059df3fe28c61f328474eafa10.png → https://bookface-images.s3.amazonaws.com/small_logos/793984033ae859bfae87f28aee6b98684bc0ce39.png
+- `one_liner`: Give agents autonomy without losing control → Control layer for AI agents
 
-### [Axelrod](https://www.ycombinator.com/companies/axelrod)
+### [Rhem Labs](https://www.ycombinator.com/companies/rhem-labs)
 
-- `team_size`: 2 → 3
+- `one_liner`:  → Robots that care for humans
 
-### [Dreamscale Labs](https://www.ycombinator.com/companies/dreamscale-labs)
+### [Talos](https://www.ycombinator.com/companies/talos-us)
 
-- `one_liner`: Cloud inference and training infrastructure for robotics. → Cloud inference for robotics
+- `one_liner`: Predictive maintenance for power infrastructure. → Predictive maintenance for critical grid infrastructure.
 
-### [Axiomat](https://www.ycombinator.com/companies/axiomat)
+### [Hemlock](https://www.ycombinator.com/companies/hemlock)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/73e5297e01ab55a8cd3d54127a27671c6d5e6934.png → https://bookface-images.s3.amazonaws.com/small_logos/055d5eb77fe15a90ba20297eccc4c483c285165a.png
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/9593981f6acf78f7e8d4417ca9346aed3d279da4.png → https://bookface-images.s3.amazonaws.com/small_logos/99e342259dedba4c5ce9914f48ea662dd73b32f1.png

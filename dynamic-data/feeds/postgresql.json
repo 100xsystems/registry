@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-11-26T16:40:09.472Z",
+  "updatedAt": "2026-11-26T20:57:59.878Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -3833,7 +3833,15 @@
       "summary": "PGConf.Asia 2026 happened from 17-18 November 2026, organized by \nGrant Zhou\nJoanne Huang\nBruce Momjian\nHari Kiran\nJulyanto Sutandang\nGavin Lyu\nTatsuro Yamada\nIoseph Kim\nMark Wong\nAshish Mehra\nGuohua Bai\nHenry Law\nSpeakers: \nAgnafan Fortin\nAjit Gadge\nAmelia Khoirurrahma\nAtsushi MITANI\nAvinash…",
       "author": null,
       "publishedAt": "2026-11-26T12:12:13.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9DL",
+      "title": "Jan Kristof Nidzwetzki: Barriers, Volatile, and Atomics: How PostgreSQL Orders Memory Accesses",
+      "link": "https://postgr.es/p/9DL",
+      "summary": "In the PostgreSQL source code, you will find memory and compiler barriers in various places like pg_memory_barrier(), pg_write_barrier(), pg_read_barrier(), or pg_compiler_barrier(). These macros are needed to ensure that the compiler and CPU do not reorder memory accesses in a way that would break…",
+      "author": null,
+      "publishedAt": "2026-11-26T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 478
+  "totalIndexed": 479
 }

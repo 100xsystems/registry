@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-11-06T18:55:53.125Z",
+  "updatedAt": "2026-11-26T20:58:01.727Z",
   "items": [
     {
       "guid": "gleb-bahmutov::https://glebbahmutov.com/blog/when-it-reloads/",
@@ -295,7 +295,15 @@
       "summary": "In my previous blog post Branded Types I have shown a useful technique for representing time durations as \"branded types\" which removes the confusion between seconds and milliseconds.\n\n\n1\n2\n3\n4\n\n// value is in seconds\nconst duration = 1\n// oops, I thought the duration was in milliseconds…",
       "author": null,
       "publishedAt": "2026-11-06T05:00:00.000Z"
+    },
+    {
+      "guid": "gleb-bahmutov::https://glebbahmutov.com/blog/freeze-network-calls/",
+      "title": "Freeze And Resume Network Calls In Cypress",
+      "link": "https://glebbahmutov.com/blog/freeze-network-calls/",
+      "summary": "Often our tests need to confirm that while the application is loading its data, the web page shows specific information. For example, while the app is using GET /fruit network call to fetch the name of the fruit, the page shows \"loading...\" text. We can slow down the network call using cy.intercept…",
+      "author": null,
+      "publishedAt": "2026-11-26T05:00:00.000Z"
     }
   ],
-  "totalIndexed": 36
+  "totalIndexed": 37
 }
