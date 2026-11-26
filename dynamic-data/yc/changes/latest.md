@@ -1,34 +1,27 @@
-# YC Company Changes for 2026-11-25
+# YC Company Changes for 2026-11-26
 
 - Previous total: 6409
 - Current total: 6409
 - Added: 0
 - Removed: 0
-- Updated: 6
+- Updated: 4
 
 
 ## Updated Companies
 
-### [Decipher AI](https://www.ycombinator.com/companies/decipher-ai)
+### [Assemble](https://www.ycombinator.com/companies/assemble)
 
-- `status`: Active → Inactive
+- `one_liner`: Autonomous IT Delivery → Self-Improving Business Systems
 
-### [BiteSight](https://www.ycombinator.com/companies/bitesight)
+### [Inflection Space Systems](https://www.ycombinator.com/companies/inflection-space-systems)
 
-- `status`: Active → Inactive
+- `one_liner`: Hyperscaling space manufacturing → Mass Manufacturing Satellites
 
-### [ProcIndex](https://www.ycombinator.com/companies/procindex)
+### [Kanopy](https://www.ycombinator.com/companies/kanopy)
 
-- `one_liner`: AI-powered accounting automation for construction and manufacturing → AI accounting team for construction and manufacturing, in any ERP
+- `team_size`: 2 → 3
 
-### [Corelayer](https://www.ycombinator.com/companies/corelayer)
+### [Asterline](https://www.ycombinator.com/companies/asterline)
 
-- `isHiring`: false → true
-
-### [Ontora](https://www.ycombinator.com/companies/ontora)
-
-- `one_liner`: AI agents that interviews every employee to hand context to AI tools.  → AI agents that speak to every employee to hand undocumented knowledge…
-
-### [HillStar](https://www.ycombinator.com/companies/hillstar)
-
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/86638f711e7120765749c6eed494d61cbab74bfc.png → https://bookface-images.s3.amazonaws.com/small_logos/fc161aff0343dabb814fdae973487ff3050d64e6.png
+- `team_size`: 1 → 2
+- `tags`: Finance,Trading → Fintech,Finance,Trading
