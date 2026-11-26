@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-11-24T08:39:36.179Z",
+  "updatedAt": "2026-11-26T16:40:09.738Z",
   "items": [
     {
       "guid": "amit-merchant::https://www.amitmerchant.com/webmcp-in-chrome-101/",
@@ -199,7 +199,15 @@
       "summary": "If you look at the browsers we use every day, there seems to be quite a bit of choice. We have Chrome, Edge, Brave, Firefox, Safari, and several others.\nBut there’s something interesting about this list. Different browsers don’t necessarily mean different browser engines.\nFor instance, Chrome,…",
       "author": "Amit Merchant",
       "publishedAt": "2026-11-24T00:00:00.000Z"
+    },
+    {
+      "guid": "amit-merchant::https://www.amitmerchant.com/what-phps-session-handler-teaches-us-about-atomicity/",
+      "title": "What PHP’s Session Handler Teaches Us About Atomicity",
+      "link": "https://www.amitmerchant.com/what-phps-session-handler-teaches-us-about-atomicity/",
+      "summary": "There is a comforting line of reasoning that goes like this: if a process locks a file before updating it, another process cannot interfere, so the update is safe.\nThat reasoning is only partly true.\nA lock can answer who gets to write. It cannot answer what the file looks like if the writer stops…",
+      "author": "Amit Merchant",
+      "publishedAt": "2026-11-26T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 24
+  "totalIndexed": 25
 }

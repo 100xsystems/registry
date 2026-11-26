@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-11-25T16:59:12.291Z",
+  "updatedAt": "2026-11-26T16:40:20.643Z",
   "items": [
     {
       "guid": "https://thedailywtf.com/articles/classic-wtf-my-many-girlfriends",
@@ -679,7 +679,15 @@
       "summary": "David came across some Java code. This particular block needed to, based on an integer masquerading as an enumerated type, return an amount of time to sleep. It has strong opinions about what should happen when you send it an invalid value:\nprivate static int getTime(int mode) {\n    return switch…",
       "author": "Remy Porter",
       "publishedAt": "2026-11-25T06:30:00.000Z"
+    },
+    {
+      "guid": "https://thedailywtf.com/articles/classic-wtf-the-quine-programmer",
+      "title": "Classic WTF: The Quine Programmer",
+      "link": "https://thedailywtf.com/articles/classic-wtf-the-quine-programmer",
+      "summary": "It's a holiday in the US, where we give thanks. Specifically, we give thanks that we're not working with the person responsible for this. Original --Remy\nThe Quine – i.e., a program that produces its own source code as output – lives in the esoteric realm of computing and computer science. It’s…",
+      "author": "Alex Papadimoulis",
+      "publishedAt": "2026-11-26T06:30:00.000Z"
     }
   ],
-  "totalIndexed": 84
+  "totalIndexed": 85
 }

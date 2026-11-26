@@ -1,72 +1,22 @@
 {
   "date": "2026-11-26",
-  "fetchedAt": "2026-11-26T07:01:55.687Z",
+  "fetchedAt": "2026-11-26T16:40:24.511Z",
   "previousCount": 6409,
   "currentCount": 6409,
   "added": [],
   "removed": [],
   "updated": [
     {
-      "id": 840,
-      "name": "X-Zell",
-      "slug": "x-zell",
-      "batch": "Winter 2015",
-      "url": "https://www.ycombinator.com/companies/x-zell",
+      "id": 12618,
+      "name": "Embrace",
+      "slug": "embrace",
+      "batch": "Summer 2019",
+      "url": "https://www.ycombinator.com/companies/embrace",
       "changes": [
         {
-          "field": "all_locations",
-          "before": "Bangkok, Thailand; Düsseldorf, NRW, Germany",
-          "after": "Singapore, Singapore; Bangkok, Thailand; Düsseldorf, NRW, Germany"
-        },
-        {
-          "field": "regions",
-          "before": [
-            "Thailand",
-            "Germany",
-            "Southeast Asia",
-            "Europe",
-            "Remote",
-            "Partly Remote"
-          ],
-          "after": [
-            "Singapore",
-            "Thailand",
-            "Germany",
-            "Southeast Asia",
-            "Europe",
-            "Remote",
-            "Partly Remote"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 22196,
-      "name": "MedPiper Technologies, Inc",
-      "slug": "medpiper-technologies-inc",
-      "batch": "Summer 2020",
-      "url": "https://www.ycombinator.com/companies/medpiper-technologies-inc",
-      "changes": [
-        {
-          "field": "one_liner",
-          "before": "Instant cash payouts for delayed flights",
-          "after": "Insurance and risk infrastructure for businesses"
-        },
-        {
-          "field": "tags",
-          "before": [
-            "Fintech",
-            "Travel",
-            "Insurance",
-            "Consumer Finance"
-          ],
-          "after": [
-            "Fintech",
-            "B2B",
-            "Insurance",
-            "Infrastructure",
-            "AI"
-          ]
+          "field": "stage",
+          "before": "Growth",
+          "after": "Early"
         }
       ]
     },
@@ -78,141 +28,79 @@
       "url": "https://www.ycombinator.com/companies/toma",
       "changes": [
         {
-          "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/487d262a82be5ca0a686f315a9b5fa293f2006b9.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/ba6be36f089e2ddcf98b71661bd4f770addb9d56.png"
-        },
-        {
-          "field": "one_liner",
-          "before": "AI Applied Research",
-          "after": "AI for Automotive"
-        },
+          "field": "stage",
+          "before": "Early",
+          "after": "Growth"
+        }
+      ]
+    },
+    {
+      "id": 30818,
+      "name": "Nox Metals",
+      "slug": "nox-metals",
+      "batch": "Summer 2025",
+      "url": "https://www.ycombinator.com/companies/nox-metals",
+      "changes": [
         {
           "field": "team_size",
-          "before": 20,
-          "after": 25
-        },
-        {
-          "field": "tags",
-          "before": [
-            "Marketplace",
-            "B2B",
-            "Productivity",
-            "HR Tech",
-            "AI"
-          ],
-          "after": [
-            "B2B",
-            "Customer Support",
-            "AI",
-            "Automotive",
-            "Conversational AI"
-          ]
-        },
-        {
-          "field": "stage",
-          "before": "Growth",
-          "after": "Early"
+          "before": 64,
+          "after": 73
         }
       ]
     },
     {
-      "id": 31274,
-      "name": "Khotan (formerly Pollinate)",
-      "slug": "khotan",
-      "batch": "Winter 2026",
-      "url": "https://www.ycombinator.com/companies/khotan",
+      "id": 31455,
+      "name": "tday.com",
+      "slug": "tdaycom",
+      "batch": "Spring 2026",
+      "url": "https://www.ycombinator.com/companies/tdaycom",
       "changes": [
         {
-          "field": "all_locations",
-          "before": "Brisbane, QLD, Australia",
-          "after": "San Francisco, CA, USA"
-        },
-        {
-          "field": "regions",
-          "before": [
-            "Australia",
-            "Oceania"
-          ],
-          "after": [
-            "United States of America",
-            "America / Canada"
-          ]
+          "field": "small_logo_thumb_url",
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/85a92c541f01d7059df3fe28c61f328474eafa10.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/793984033ae859bfae87f28aee6b98684bc0ce39.png"
         }
       ]
     },
     {
-      "id": 32286,
-      "name": "Definite",
-      "slug": "definite",
-      "batch": "Winter 2027",
-      "url": "https://www.ycombinator.com/companies/definite",
+      "id": 33045,
+      "name": "Axelrod",
+      "slug": "axelrod",
+      "batch": "Summer 2026",
+      "url": "https://www.ycombinator.com/companies/axelrod",
       "changes": [
         {
-          "field": "batch",
-          "before": "Fall 2026",
-          "after": "Winter 2027"
+          "field": "team_size",
+          "before": 2,
+          "after": 3
         }
       ]
     },
     {
-      "id": 32550,
-      "name": "Audora",
-      "slug": "audora",
+      "id": 35850,
+      "name": "Dreamscale Labs",
+      "slug": "dreamscale-labs",
       "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/audora",
+      "url": "https://www.ycombinator.com/companies/dreamscale-labs",
       "changes": [
         {
           "field": "one_liner",
-          "before": "Audora is the next version of Audible - a place where stories are…",
-          "after": "Audora is Audible 2.0, where stories are immersive & fun to listen to"
+          "before": "Cloud inference and training infrastructure for robotics.",
+          "after": "Cloud inference for robotics"
         }
       ]
     },
     {
-      "id": 35455,
-      "name": "Deploy",
-      "slug": "deploy",
+      "id": 37104,
+      "name": "Axiomat",
+      "slug": "axiomat",
       "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/deploy",
+      "url": "https://www.ycombinator.com/companies/axiomat",
       "changes": [
         {
-          "field": "tags",
-          "before": [
-            "Robotics"
-          ],
-          "after": [
-            "Robotic Process Automation",
-            "Robotics",
-            "B2B",
-            "AI",
-            "Industrial"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 35883,
-      "name": "Halmos Labs",
-      "slug": "halmos-labs",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/halmos-labs",
-      "changes": [
-        {
-          "field": "tags",
-          "before": [
-            "AI-powered Drug Discovery",
-            "Auto Commerce",
-            "Swarm AI",
-            "Biotech",
-            "Automation"
-          ],
-          "after": [
-            "AI-powered Drug Discovery",
-            "Auto Commerce",
-            "Biotech",
-            "Automation"
-          ]
+          "field": "small_logo_thumb_url",
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/73e5297e01ab55a8cd3d54127a27671c6d5e6934.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/055d5eb77fe15a90ba20297eccc4c483c285165a.png"
         }
       ]
     }

@@ -4,46 +4,35 @@
 - Current total: 6409
 - Added: 0
 - Removed: 0
-- Updated: 8
+- Updated: 7
 
 
 ## Updated Companies
 
-### [X-Zell](https://www.ycombinator.com/companies/x-zell)
+### [Embrace](https://www.ycombinator.com/companies/embrace)
 
-- `all_locations`: Bangkok, Thailand; Düsseldorf, NRW, Germany → Singapore, Singapore; Bangkok, Thailand; Düsseldorf, NRW, Germany
-- `regions`: Thailand,Germany,Southeast Asia,Europe,Remote,Partly Remote → Singapore,Thailand,Germany,Southeast Asia,Europe,Remote,Partly Remote
-
-### [MedPiper Technologies, Inc](https://www.ycombinator.com/companies/medpiper-technologies-inc)
-
-- `one_liner`: Instant cash payouts for delayed flights → Insurance and risk infrastructure for businesses
-- `tags`: Fintech,Travel,Insurance,Consumer Finance → Fintech,B2B,Insurance,Infrastructure,AI
+- `stage`: Growth → Early
 
 ### [Toma](https://www.ycombinator.com/companies/toma)
 
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/487d262a82be5ca0a686f315a9b5fa293f2006b9.png → https://bookface-images.s3.amazonaws.com/small_logos/ba6be36f089e2ddcf98b71661bd4f770addb9d56.png
-- `one_liner`: AI Applied Research → AI for Automotive
-- `team_size`: 20 → 25
-- `tags`: Marketplace,B2B,Productivity,HR Tech,AI → B2B,Customer Support,AI,Automotive,Conversational AI
-- `stage`: Growth → Early
+- `stage`: Early → Growth
 
-### [Khotan (formerly Pollinate)](https://www.ycombinator.com/companies/khotan)
+### [Nox Metals](https://www.ycombinator.com/companies/nox-metals)
 
-- `all_locations`: Brisbane, QLD, Australia → San Francisco, CA, USA
-- `regions`: Australia,Oceania → United States of America,America / Canada
+- `team_size`: 64 → 73
 
-### [Definite](https://www.ycombinator.com/companies/definite)
+### [tday.com](https://www.ycombinator.com/companies/tdaycom)
 
-- `batch`: Fall 2026 → Winter 2027
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/85a92c541f01d7059df3fe28c61f328474eafa10.png → https://bookface-images.s3.amazonaws.com/small_logos/793984033ae859bfae87f28aee6b98684bc0ce39.png
 
-### [Audora](https://www.ycombinator.com/companies/audora)
+### [Axelrod](https://www.ycombinator.com/companies/axelrod)
 
-- `one_liner`: Audora is the next version of Audible - a place where stories are… → Audora is Audible 2.0, where stories are immersive & fun to listen to
+- `team_size`: 2 → 3
 
-### [Deploy](https://www.ycombinator.com/companies/deploy)
+### [Dreamscale Labs](https://www.ycombinator.com/companies/dreamscale-labs)
 
-- `tags`: Robotics → Robotic Process Automation,Robotics,B2B,AI,Industrial
+- `one_liner`: Cloud inference and training infrastructure for robotics. → Cloud inference for robotics
 
-### [Halmos Labs](https://www.ycombinator.com/companies/halmos-labs)
+### [Axiomat](https://www.ycombinator.com/companies/axiomat)
 
-- `tags`: AI-powered Drug Discovery,Auto Commerce,Swarm AI,Biotech,Automation → AI-powered Drug Discovery,Auto Commerce,Biotech,Automation
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/73e5297e01ab55a8cd3d54127a27671c6d5e6934.png → https://bookface-images.s3.amazonaws.com/small_logos/055d5eb77fe15a90ba20297eccc4c483c285165a.png
