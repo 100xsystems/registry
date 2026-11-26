@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-11-24T17:19:28.424Z",
+  "updatedAt": "2026-11-26T07:01:51.886Z",
   "items": [
     {
       "guid": "https://devblogs.microsoft.com/oldnewthing/?p=112560",
@@ -607,7 +607,15 @@
       "summary": "Nothing, unless it's the last apartment.\nThe post When happens to entries in the CoreApplication Properties when the source apartment shuts down? appeared first on The Old New Thing.",
       "author": "Raymond Chen",
       "publishedAt": "2026-11-24T15:00:00.000Z"
+    },
+    {
+      "guid": "https://devblogs.microsoft.com/oldnewthing/?p=112895",
+      "title": "Why did it seem that the entries in the CoreApplication Properties expired when the source application shut down?",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20261125-00/?p=112895/",
+      "summary": "It's not the Properties. It's the object that you put in the Properties.\nThe post Why did it seem that the entries in the CoreApplication Properties expired when the source application shut down? appeared first on The Old New Thing.",
+      "author": "Raymond Chen",
+      "publishedAt": "2026-11-25T15:00:00.000Z"
     }
   ],
-  "totalIndexed": 75
+  "totalIndexed": 76
 }

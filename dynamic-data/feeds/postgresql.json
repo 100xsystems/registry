@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-11-25T16:59:05.656Z",
+  "updatedAt": "2026-11-26T07:01:40.932Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -3817,7 +3817,15 @@
       "summary": "Another sitting of small measurements. Two of them changed how I write queries. The rest mostly confirmed things I had only read.\nSetup\nPostgreSQL 18.6, built from source, default settings (work_mem 4MB, shared_buffers 128MB, 2 parallel workers per gather). The database collation is C. MacBook Air…",
       "author": null,
       "publishedAt": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9DI",
+      "title": "Christophe Pettus: All Your GUCs in a Row: search_path",
+      "link": "https://postgr.es/p/9DI",
+      "summary": "PL/pgSQL functions inherit their caller's search_path, but autovacuum, pg_restore, and logical replication see an empty one—a silent recipe for index…\n\n(I consult on PostgreSQL through PGX Inc..)",
+      "author": null,
+      "publishedAt": "2026-11-26T02:00:00.000Z"
     }
   ],
-  "totalIndexed": 476
+  "totalIndexed": 477
 }

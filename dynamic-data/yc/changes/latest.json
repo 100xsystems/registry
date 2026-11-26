@@ -1,75 +1,217 @@
 {
   "date": "2026-11-26",
-  "fetchedAt": "2026-11-26T01:23:18.472Z",
+  "fetchedAt": "2026-11-26T07:01:55.687Z",
   "previousCount": 6409,
   "currentCount": 6409,
   "added": [],
   "removed": [],
   "updated": [
     {
-      "id": 31184,
-      "name": "Assemble",
-      "slug": "assemble",
-      "batch": "Summer 2026",
-      "url": "https://www.ycombinator.com/companies/assemble",
+      "id": 840,
+      "name": "X-Zell",
+      "slug": "x-zell",
+      "batch": "Winter 2015",
+      "url": "https://www.ycombinator.com/companies/x-zell",
+      "changes": [
+        {
+          "field": "all_locations",
+          "before": "Bangkok, Thailand; Düsseldorf, NRW, Germany",
+          "after": "Singapore, Singapore; Bangkok, Thailand; Düsseldorf, NRW, Germany"
+        },
+        {
+          "field": "regions",
+          "before": [
+            "Thailand",
+            "Germany",
+            "Southeast Asia",
+            "Europe",
+            "Remote",
+            "Partly Remote"
+          ],
+          "after": [
+            "Singapore",
+            "Thailand",
+            "Germany",
+            "Southeast Asia",
+            "Europe",
+            "Remote",
+            "Partly Remote"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 22196,
+      "name": "MedPiper Technologies, Inc",
+      "slug": "medpiper-technologies-inc",
+      "batch": "Summer 2020",
+      "url": "https://www.ycombinator.com/companies/medpiper-technologies-inc",
       "changes": [
         {
           "field": "one_liner",
-          "before": "Autonomous IT Delivery",
-          "after": "Self-Improving Business Systems"
-        }
-      ]
-    },
-    {
-      "id": 35025,
-      "name": "Inflection Space Systems",
-      "slug": "inflection-space-systems",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/inflection-space-systems",
-      "changes": [
-        {
-          "field": "one_liner",
-          "before": "Hyperscaling space manufacturing",
-          "after": "Mass Manufacturing Satellites"
-        }
-      ]
-    },
-    {
-      "id": 36514,
-      "name": "Kanopy",
-      "slug": "kanopy",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/kanopy",
-      "changes": [
-        {
-          "field": "team_size",
-          "before": 2,
-          "after": 3
-        }
-      ]
-    },
-    {
-      "id": 42980,
-      "name": "Asterline",
-      "slug": "asterline",
-      "batch": "Winter 2027",
-      "url": "https://www.ycombinator.com/companies/asterline",
-      "changes": [
-        {
-          "field": "team_size",
-          "before": 1,
-          "after": 2
+          "before": "Instant cash payouts for delayed flights",
+          "after": "Insurance and risk infrastructure for businesses"
         },
         {
           "field": "tags",
           "before": [
-            "Finance",
-            "Trading"
+            "Fintech",
+            "Travel",
+            "Insurance",
+            "Consumer Finance"
           ],
           "after": [
             "Fintech",
-            "Finance",
-            "Trading"
+            "B2B",
+            "Insurance",
+            "Infrastructure",
+            "AI"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 29377,
+      "name": "Toma",
+      "slug": "toma",
+      "batch": "Winter 2024",
+      "url": "https://www.ycombinator.com/companies/toma",
+      "changes": [
+        {
+          "field": "small_logo_thumb_url",
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/487d262a82be5ca0a686f315a9b5fa293f2006b9.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/ba6be36f089e2ddcf98b71661bd4f770addb9d56.png"
+        },
+        {
+          "field": "one_liner",
+          "before": "AI Applied Research",
+          "after": "AI for Automotive"
+        },
+        {
+          "field": "team_size",
+          "before": 20,
+          "after": 25
+        },
+        {
+          "field": "tags",
+          "before": [
+            "Marketplace",
+            "B2B",
+            "Productivity",
+            "HR Tech",
+            "AI"
+          ],
+          "after": [
+            "B2B",
+            "Customer Support",
+            "AI",
+            "Automotive",
+            "Conversational AI"
+          ]
+        },
+        {
+          "field": "stage",
+          "before": "Growth",
+          "after": "Early"
+        }
+      ]
+    },
+    {
+      "id": 31274,
+      "name": "Khotan (formerly Pollinate)",
+      "slug": "khotan",
+      "batch": "Winter 2026",
+      "url": "https://www.ycombinator.com/companies/khotan",
+      "changes": [
+        {
+          "field": "all_locations",
+          "before": "Brisbane, QLD, Australia",
+          "after": "San Francisco, CA, USA"
+        },
+        {
+          "field": "regions",
+          "before": [
+            "Australia",
+            "Oceania"
+          ],
+          "after": [
+            "United States of America",
+            "America / Canada"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 32286,
+      "name": "Definite",
+      "slug": "definite",
+      "batch": "Winter 2027",
+      "url": "https://www.ycombinator.com/companies/definite",
+      "changes": [
+        {
+          "field": "batch",
+          "before": "Fall 2026",
+          "after": "Winter 2027"
+        }
+      ]
+    },
+    {
+      "id": 32550,
+      "name": "Audora",
+      "slug": "audora",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/audora",
+      "changes": [
+        {
+          "field": "one_liner",
+          "before": "Audora is the next version of Audible - a place where stories are…",
+          "after": "Audora is Audible 2.0, where stories are immersive & fun to listen to"
+        }
+      ]
+    },
+    {
+      "id": 35455,
+      "name": "Deploy",
+      "slug": "deploy",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/deploy",
+      "changes": [
+        {
+          "field": "tags",
+          "before": [
+            "Robotics"
+          ],
+          "after": [
+            "Robotic Process Automation",
+            "Robotics",
+            "B2B",
+            "AI",
+            "Industrial"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 35883,
+      "name": "Halmos Labs",
+      "slug": "halmos-labs",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/halmos-labs",
+      "changes": [
+        {
+          "field": "tags",
+          "before": [
+            "AI-powered Drug Discovery",
+            "Auto Commerce",
+            "Swarm AI",
+            "Biotech",
+            "Automation"
+          ],
+          "after": [
+            "AI-powered Drug Discovery",
+            "Auto Commerce",
+            "Biotech",
+            "Automation"
           ]
         }
       ]
