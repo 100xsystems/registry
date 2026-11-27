@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-27T01:21:06.984Z",
+  "fetchedAt": "2026-11-27T06:57:51.591Z",
   "count": 6409,
   "companies": [
     {
@@ -3142,7 +3142,7 @@
       ],
       "tags_highlighted": [],
       "top_company": false,
-      "isHiring": false,
+      "isHiring": true,
       "nonprofit": false,
       "batch": "Fall 2026",
       "status": "Active",
@@ -4477,6 +4477,7 @@
       "subindustry": "B2B",
       "launched_at": 1791243197,
       "tags": [
+        "Infrastructure",
         "AI"
       ],
       "tags_highlighted": [],
@@ -28397,18 +28398,19 @@
     },
     {
       "id": 31274,
-      "name": "Khotan (formerly Pollinate)",
+      "name": "Khotan",
       "slug": "khotan",
       "former_names": [
         "Polinate",
         "Pollinate",
-        "Khotan"
+        "Khotan",
+        "Khotan (formerly Pollinate)"
       ],
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/b23ce152528185e61986e56941165e5686edcb24.png",
       "website": "https://www.khotan.com/",
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Khotan is the platform for forward-deployed engineers to rebuild operations as software and maintain them. It combines your context with the infrastructure harnesses need to deploy, share, and maintain each application.\r\n\r\nAcross procurement, supply chain, finance, and operations, we’ve rebuilt the systems businesses cannot afford to get wrong.\r\n\r\nLearn more at khotan.com",
-      "one_liner": "FDE as a platform for rebuilding critical operations in software.",
+      "one_liner": "System integration as a platform",
       "team_size": 2,
       "highlight_black": false,
       "highlight_latinx": false,
@@ -33934,16 +33936,19 @@
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/74c9b33dec39ae88db50c30496502959820c2018.png",
       "website": "https://21st.dev",
       "all_locations": "San Francisco, CA, USA",
-      "long_description": "21st.dev is the largest React component registry for AI applications, used by 2M developers \r\nWe provide the building blocks to create agent-powered apps: UI components, agent templates.",
-      "one_liner": "UI building blocks for the agentic internet",
-      "team_size": 3,
+      "long_description": "21st.dev is the largest React component registry for AI applications, used by 5M developers \r\nWe provide the building blocks to create agent-powered apps: UI components",
+      "one_liner": "Inspiration layer for software.",
+      "team_size": 4,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,
       "industry": "B2B",
       "subindustry": "B2B -> Engineering, Product and Design",
       "launched_at": 1765422527,
-      "tags": [],
+      "tags": [
+        "Design Tools",
+        "AI"
+      ],
       "tags_highlighted": [],
       "top_company": false,
       "isHiring": false,
@@ -33956,9 +33961,7 @@
       ],
       "regions": [
         "United States of America",
-        "America / Canada",
-        "Remote",
-        "Partly Remote"
+        "America / Canada"
       ],
       "stage": "Early",
       "app_video_public": false,
@@ -39782,7 +39785,7 @@
       "all_locations": "San Francisco, CA, USA",
       "long_description": "Compyle is a less autonomous coding agent that asks before it acts. We're like Cursor or Claude Code - but you won't need to rewrite your codebase every time you use it for more than a small task.\r\n\r\nWe built Compyle because we were frustrated with the direction other coding agents are headed. They're all racing to be more autonomous, running for hours without human input.\r\n\r\nThis doesn't work for real production code. When agents run autonomously, they make countless small decisions that pile up in your codebase. Engineers lose ownership - they don't know what was implemented, can't effectively debug or maintain it, and struggle to build on top of it. The code becomes a black box, and they're forced to throw it away.\r\n\r\nCompyle keeps engineers in the driver's seat.",
       "one_liner": "The coding agent that actually collaborates with you",
-      "team_size": 2,
+      "team_size": 3,
       "highlight_black": false,
       "highlight_latinx": false,
       "highlight_women": false,

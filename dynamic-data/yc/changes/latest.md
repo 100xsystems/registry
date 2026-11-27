@@ -9,23 +9,27 @@
 
 ## Updated Companies
 
-### [Dill](https://www.ycombinator.com/companies/dill)
+### [Compyle](https://www.ycombinator.com/companies/compyle)
 
-- `one_liner`: Dill helps construction suppliers automate accounts receivable,… → Dill is the leading credit-to-cash platform for construction…
+- `team_size`: 2 → 3
 
-### [Loombotic](https://www.ycombinator.com/companies/loombotic)
+### [21st](https://www.ycombinator.com/companies/21st)
 
-- `all_locations`: Toronto, ON, Canada → Austin, TX, USA
-- `regions`: Canada,America / Canada → United States of America,America / Canada
+- `one_liner`: UI building blocks for the agentic internet → Inspiration layer for software.
+- `team_size`: 3 → 4
+- `tags`:  → Design Tools,AI
+- `regions`: United States of America,America / Canada,Remote,Partly Remote → United States of America,America / Canada
 
-### [Agentcard](https://www.ycombinator.com/companies/agentcard)
+### [Khotan](https://www.ycombinator.com/companies/khotan)
+
+- `name`: Khotan (formerly Pollinate) → Khotan
+- `former_names`: Polinate,Pollinate,Khotan → Polinate,Pollinate,Khotan,Khotan (formerly Pollinate)
+- `one_liner`: FDE as a platform for rebuilding critical operations in software. → System integration as a platform
+
+### [Latent](https://www.ycombinator.com/companies/trylatent)
+
+- `tags`: AI → Infrastructure,AI
+
+### [Verdun](https://www.ycombinator.com/companies/verdun)
 
 - `isHiring`: false → true
-
-### [Oasive](https://www.ycombinator.com/companies/oasive)
-
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/bc57ec29fb0414ace78c3d3c1e5d7acfef9c0c5c.png → https://bookface-images.s3.amazonaws.com/small_logos/ac114979edbb200c6b7991471252c4bce1a9194c.png
-
-### [Render](https://www.ycombinator.com/companies/render)
-
-- `team_size`: 1 → 3

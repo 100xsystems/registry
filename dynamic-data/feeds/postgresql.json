@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-11-27T01:20:57.882Z",
+  "updatedAt": "2026-11-27T06:57:34.464Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -3857,7 +3857,23 @@
       "summary": "One of the production databases I snapshot with dryrun has a 172 GB table that autovacuum analyzes about three times a day. dryrun keeps the planner statistics from every snapshot, so I could line up what pg_stats said about one of its columns over six days in November:\n736, 899, 948, 520, 659,…",
       "author": null,
       "publishedAt": "2026-11-26T21:00:43.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9Er",
+      "title": "Ashutosh Bapat: A morning well spent nurturing the Talk Solicitation Program",
+      "link": "https://postgr.es/p/9Er",
+      "summary": "A morning well spent nurturing the Talk Solicitation Program\nA morning well spent nurturing the Talk Solicitation Program\nAt PGConf.dev, we have started the Talk Solicitation Program (TSP) with a simple idea. As conference attendees, we all have talks we wish someone would give. Why not make those…",
+      "author": null,
+      "publishedAt": "2026-11-27T05:38:41.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9D_",
+      "title": "Christophe Pettus: All Your GUCs in a Row: segment_size",
+      "link": "https://postgr.es/p/9D_",
+      "summary": "PostgreSQL divides large tables into 1GB segment files, but the server has no authoritative record of how many segments exist.\n\n(I consult on PostgreSQL through PGX Inc..)",
+      "author": null,
+      "publishedAt": "2026-11-27T02:00:00.000Z"
     }
   ],
-  "totalIndexed": 481
+  "totalIndexed": 483
 }
