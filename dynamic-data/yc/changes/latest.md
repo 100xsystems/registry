@@ -1,39 +1,31 @@
-# YC Company Changes for 2026-11-26
+# YC Company Changes for 2026-11-27
 
 - Previous total: 6409
 - Current total: 6409
 - Added: 0
 - Removed: 0
-- Updated: 7
+- Updated: 5
 
 
 ## Updated Companies
 
-### [Lume](https://www.ycombinator.com/companies/lume)
+### [Dill](https://www.ycombinator.com/companies/dill)
 
-- `one_liner`:  → Banking platform purpose-built for healthcare professionals.
-- `tags`: Healthcare → Fintech,Healthcare
+- `one_liner`: Dill helps construction suppliers automate accounts receivable,… → Dill is the leading credit-to-cash platform for construction…
 
-### [ProhostAI](https://www.ycombinator.com/companies/prohostai)
+### [Loombotic](https://www.ycombinator.com/companies/loombotic)
 
-- `isHiring`: true → false
+- `all_locations`: Toronto, ON, Canada → Austin, TX, USA
+- `regions`: Canada,America / Canada → United States of America,America / Canada
 
-### [Glen](https://www.ycombinator.com/companies/glen)
+### [Agentcard](https://www.ycombinator.com/companies/agentcard)
 
-- `team_size`: 1 → 4
+- `isHiring`: false → true
 
-### [Stacktrace](https://www.ycombinator.com/companies/stacktrace)
+### [Oasive](https://www.ycombinator.com/companies/oasive)
 
-- `one_liner`: Give agents autonomy without losing control → Control layer for AI agents
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/bc57ec29fb0414ace78c3d3c1e5d7acfef9c0c5c.png → https://bookface-images.s3.amazonaws.com/small_logos/ac114979edbb200c6b7991471252c4bce1a9194c.png
 
-### [Rhem Labs](https://www.ycombinator.com/companies/rhem-labs)
+### [Render](https://www.ycombinator.com/companies/render)
 
-- `one_liner`:  → Robots that care for humans
-
-### [Talos](https://www.ycombinator.com/companies/talos-us)
-
-- `one_liner`: Predictive maintenance for power infrastructure. → Predictive maintenance for critical grid infrastructure.
-
-### [Hemlock](https://www.ycombinator.com/companies/hemlock)
-
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/9593981f6acf78f7e8d4417ca9346aed3d279da4.png → https://bookface-images.s3.amazonaws.com/small_logos/99e342259dedba4c5ce9914f48ea662dd73b32f1.png
+- `team_size`: 1 → 3

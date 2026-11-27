@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-11-26T20:57:59.878Z",
+  "updatedAt": "2026-11-27T01:20:57.882Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -3841,7 +3841,23 @@
       "summary": "In the PostgreSQL source code, you will find memory and compiler barriers in various places like pg_memory_barrier(), pg_write_barrier(), pg_read_barrier(), or pg_compiler_barrier(). These macros are needed to ensure that the compiler and CPU do not reorder memory accesses in a way that would break…",
       "author": null,
       "publishedAt": "2026-11-26T00:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9D-",
+      "title": "Dan Langille: Galène, part 2: tests passed, old data repaired",
+      "link": "https://postgr.es/p/9D-",
+      "summary": "In GalÃ¨ne: fixing double-encoded port files I described how FreshPorts had been storing UTF-8 port files double-encoded, so that www/galene's Makefile showed GalÃ¨ne instead of Galène. That post covered the fix, how I planned to test it, and how I plan to repair the text that is already wrong.…",
+      "author": null,
+      "publishedAt": "2026-11-27T00:02:22.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9DN",
+      "title": "Radim Marek: ANALYZE on a mostly-NULL column",
+      "link": "https://postgr.es/p/9DN",
+      "summary": "One of the production databases I snapshot with dryrun has a 172 GB table that autovacuum analyzes about three times a day. dryrun keeps the planner statistics from every snapshot, so I could line up what pg_stats said about one of its columns over six days in November:\n736, 899, 948, 520, 659,…",
+      "author": null,
+      "publishedAt": "2026-11-26T21:00:43.000Z"
     }
   ],
-  "totalIndexed": 479
+  "totalIndexed": 481
 }
