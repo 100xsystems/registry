@@ -1,34 +1,27 @@
 # YC Company Changes for 2026-11-27
 
 - Previous total: 6409
-- Current total: 6409
+- Current total: 6408
 - Added: 0
-- Removed: 0
-- Updated: 6
+- Removed: 1
+- Updated: 3
 
+
+## Removed Companies
+
+- Incandor (Spring 2026)
 
 ## Updated Companies
 
-### [Embrace](https://www.ycombinator.com/companies/embrace)
+### [Theseus Robotics](https://www.ycombinator.com/companies/theseus-robotics)
 
-- `stage`: Early → Growth
+- `all_locations`: ZH, Switzerland → San Francisco, CA, USA
+- `regions`: Switzerland,Europe → United States of America,America / Canada
 
-### [Atomic](https://www.ycombinator.com/companies/atomic)
+### [Contour](https://www.ycombinator.com/companies/contourholdings)
 
-- `team_size`: 25 → 70
+- `one_liner`: AI-native permitting for Data Centers → AI-native permitting for America's Infrastructure
 
-### [Provision](https://www.ycombinator.com/companies/provision)
+### [GatherHQ](https://www.ycombinator.com/companies/gatherhq)
 
-- `isHiring`: false → true
-
-### [GodHands](https://www.ycombinator.com/companies/godhands)
-
-- `one_liner`: Fraud, risk and compliance agents that learn by watching analysts  → Agents that automate operations by watching employees 
-
-### [tday.com](https://www.ycombinator.com/companies/tdaycom)
-
-- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/793984033ae859bfae87f28aee6b98684bc0ce39.png → https://bookface-images.s3.amazonaws.com/small_logos/33e0000312a01c1b5744e49712c9463c89932ac4.png
-
-### [CONUS](https://www.ycombinator.com/companies/conus)
-
-- `isHiring`: true → false
+- `one_liner`: Applied AI for Enterprise GTM (3x founders, 10x growth, backed by ANT) → Applied AI for Enterprise GTM (3x founders, 3x exits)
