@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-11-26T16:40:09.738Z",
+  "updatedAt": "2026-11-27T16:25:21.478Z",
   "items": [
     {
       "guid": "amit-merchant::https://www.amitmerchant.com/webmcp-in-chrome-101/",
@@ -207,7 +207,15 @@
       "summary": "There is a comforting line of reasoning that goes like this: if a process locks a file before updating it, another process cannot interfere, so the update is safe.\nThat reasoning is only partly true.\nA lock can answer who gets to write. It cannot answer what the file looks like if the writer stops…",
       "author": "Amit Merchant",
       "publishedAt": "2026-11-26T00:00:00.000Z"
+    },
+    {
+      "guid": "amit-merchant::https://www.amitmerchant.com/taking-request-cancellation-beyond-the-browser/",
+      "title": "Taking Request Cancellation Beyond the Browser",
+      "link": "https://www.amitmerchant.com/taking-request-cancellation-beyond-the-browser/",
+      "summary": "Imagine opening a dashboard that generates a fairly detailed analytics report. You click a button, the application starts fetching data from a couple of APIs, and then you realise you don’t need the report anymore. So, you close the tab and move on.\nFrom your (user’s) perspective, the operation is…",
+      "author": "Amit Merchant",
+      "publishedAt": "2026-11-27T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 25
+  "totalIndexed": 26
 }

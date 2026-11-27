@@ -1,128 +1,92 @@
 {
   "date": "2026-11-27",
-  "fetchedAt": "2026-11-27T06:57:51.590Z",
+  "fetchedAt": "2026-11-27T16:25:36.099Z",
   "previousCount": 6409,
   "currentCount": 6409,
   "added": [],
   "removed": [],
   "updated": [
     {
-      "id": 30921,
-      "name": "Compyle",
-      "slug": "compyle",
-      "batch": "Fall 2025",
-      "url": "https://www.ycombinator.com/companies/compyle",
+      "id": 12618,
+      "name": "Embrace",
+      "slug": "embrace",
+      "batch": "Summer 2019",
+      "url": "https://www.ycombinator.com/companies/embrace",
+      "changes": [
+        {
+          "field": "stage",
+          "before": "Early",
+          "after": "Growth"
+        }
+      ]
+    },
+    {
+      "id": 21915,
+      "name": "Atomic",
+      "slug": "atomic",
+      "batch": "Summer 2020",
+      "url": "https://www.ycombinator.com/companies/atomic",
       "changes": [
         {
           "field": "team_size",
-          "before": 2,
-          "after": 3
+          "before": 25,
+          "after": 70
         }
       ]
     },
     {
-      "id": 31123,
-      "name": "21st",
-      "slug": "21st",
-      "batch": "Winter 2026",
-      "url": "https://www.ycombinator.com/companies/21st",
-      "changes": [
-        {
-          "field": "one_liner",
-          "before": "UI building blocks for the agentic internet",
-          "after": "Inspiration layer for software."
-        },
-        {
-          "field": "team_size",
-          "before": 3,
-          "after": 4
-        },
-        {
-          "field": "tags",
-          "before": [],
-          "after": [
-            "Design Tools",
-            "AI"
-          ]
-        },
-        {
-          "field": "regions",
-          "before": [
-            "United States of America",
-            "America / Canada",
-            "Remote",
-            "Partly Remote"
-          ],
-          "after": [
-            "United States of America",
-            "America / Canada"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 31274,
-      "name": "Khotan",
-      "slug": "khotan",
-      "batch": "Winter 2026",
-      "url": "https://www.ycombinator.com/companies/khotan",
-      "changes": [
-        {
-          "field": "name",
-          "before": "Khotan (formerly Pollinate)",
-          "after": "Khotan"
-        },
-        {
-          "field": "former_names",
-          "before": [
-            "Polinate",
-            "Pollinate",
-            "Khotan"
-          ],
-          "after": [
-            "Polinate",
-            "Pollinate",
-            "Khotan",
-            "Khotan (formerly Pollinate)"
-          ]
-        },
-        {
-          "field": "one_liner",
-          "before": "FDE as a platform for rebuilding critical operations in software.",
-          "after": "System integration as a platform"
-        }
-      ]
-    },
-    {
-      "id": 36347,
-      "name": "Latent",
-      "slug": "trylatent",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/trylatent",
-      "changes": [
-        {
-          "field": "tags",
-          "before": [
-            "AI"
-          ],
-          "after": [
-            "Infrastructure",
-            "AI"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 37005,
-      "name": "Verdun",
-      "slug": "verdun",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/verdun",
+      "id": 26863,
+      "name": "Provision",
+      "slug": "provision",
+      "batch": "Summer 2022",
+      "url": "https://www.ycombinator.com/companies/provision",
       "changes": [
         {
           "field": "isHiring",
           "before": false,
           "after": true
+        }
+      ]
+    },
+    {
+      "id": 31378,
+      "name": "GodHands",
+      "slug": "godhands",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/godhands",
+      "changes": [
+        {
+          "field": "one_liner",
+          "before": "Fraud, risk and compliance agents that learn by watching analysts ",
+          "after": "Agents that automate operations by watching employees "
+        }
+      ]
+    },
+    {
+      "id": 31455,
+      "name": "tday.com",
+      "slug": "tdaycom",
+      "batch": "Spring 2026",
+      "url": "https://www.ycombinator.com/companies/tdaycom",
+      "changes": [
+        {
+          "field": "small_logo_thumb_url",
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/793984033ae859bfae87f28aee6b98684bc0ce39.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/33e0000312a01c1b5744e49712c9463c89932ac4.png"
+        }
+      ]
+    },
+    {
+      "id": 31584,
+      "name": "CONUS",
+      "slug": "conus",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/conus",
+      "changes": [
+        {
+          "field": "isHiring",
+          "before": true,
+          "after": false
         }
       ]
     }

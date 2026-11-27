@@ -4,32 +4,31 @@
 - Current total: 6409
 - Added: 0
 - Removed: 0
-- Updated: 5
+- Updated: 6
 
 
 ## Updated Companies
 
-### [Compyle](https://www.ycombinator.com/companies/compyle)
+### [Embrace](https://www.ycombinator.com/companies/embrace)
 
-- `team_size`: 2 → 3
+- `stage`: Early → Growth
 
-### [21st](https://www.ycombinator.com/companies/21st)
+### [Atomic](https://www.ycombinator.com/companies/atomic)
 
-- `one_liner`: UI building blocks for the agentic internet → Inspiration layer for software.
-- `team_size`: 3 → 4
-- `tags`:  → Design Tools,AI
-- `regions`: United States of America,America / Canada,Remote,Partly Remote → United States of America,America / Canada
+- `team_size`: 25 → 70
 
-### [Khotan](https://www.ycombinator.com/companies/khotan)
-
-- `name`: Khotan (formerly Pollinate) → Khotan
-- `former_names`: Polinate,Pollinate,Khotan → Polinate,Pollinate,Khotan,Khotan (formerly Pollinate)
-- `one_liner`: FDE as a platform for rebuilding critical operations in software. → System integration as a platform
-
-### [Latent](https://www.ycombinator.com/companies/trylatent)
-
-- `tags`: AI → Infrastructure,AI
-
-### [Verdun](https://www.ycombinator.com/companies/verdun)
+### [Provision](https://www.ycombinator.com/companies/provision)
 
 - `isHiring`: false → true
+
+### [GodHands](https://www.ycombinator.com/companies/godhands)
+
+- `one_liner`: Fraud, risk and compliance agents that learn by watching analysts  → Agents that automate operations by watching employees 
+
+### [tday.com](https://www.ycombinator.com/companies/tdaycom)
+
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/793984033ae859bfae87f28aee6b98684bc0ce39.png → https://bookface-images.s3.amazonaws.com/small_logos/33e0000312a01c1b5744e49712c9463c89932ac4.png
+
+### [CONUS](https://www.ycombinator.com/companies/conus)
+
+- `isHiring`: true → false

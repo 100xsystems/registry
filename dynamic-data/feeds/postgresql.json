@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-11-27T06:57:34.464Z",
+  "updatedAt": "2026-11-27T16:25:21.146Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -3873,7 +3873,15 @@
       "summary": "PostgreSQL divides large tables into 1GB segment files, but the server has no authoritative record of how many segments exist.\n\n(I consult on PostgreSQL through PGX Inc..)",
       "author": null,
       "publishedAt": "2026-11-27T02:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9Ez",
+      "title": "Jianghua yang: One tree, two major versions: adapting pg_orca to PostgreSQL 19",
+      "link": "https://postgr.es/p/9Ez",
+      "summary": "How pg_orca added PostgreSQL 19.0 support in 13 #if guards across 6 files — without forking a branch — plus native SQL:2003 IGNORE NULLS support and the real optimizer bugs uncovered by PG 19's regression suite.",
+      "author": null,
+      "publishedAt": "2026-11-27T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 483
+  "totalIndexed": 484
 }

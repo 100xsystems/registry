@@ -6,7 +6,7 @@
   "tags": [
     "engineering"
   ],
-  "updatedAt": "2026-11-23T23:25:49.156Z",
+  "updatedAt": "2026-11-27T16:25:21.860Z",
   "items": [
     {
       "guid": "daniel-doubrovkine-db::https://code.dblock.org/2026/05/05/coding-with-ai-agents-is-now-a-baseline-expectation-for-managers.html",
@@ -247,7 +247,15 @@
       "summary": "Most of my Jekyll blogs, including this one, used html-proofer from a rake check task that I ran by hand, which means I never ran it. I swapped that for a faster ruby-link-checker, and ran it in CI, piling broken links into a GitHub issue that I never looked at. Finally, I made…",
       "author": "Daniel Doubrovkine",
       "publishedAt": "2026-11-23T00:00:00.000Z"
+    },
+    {
+      "guid": "daniel-doubrovkine-db::https://code.dblock.org/2026/11/27/naming-claude-code-sessions-after-their-project.html",
+      "title": "Naming Claude Code Sessions After Their Project",
+      "link": "https://code.dblock.org/2026/11/27/naming-claude-code-sessions-after-their-project.html",
+      "summary": "I run a lot of Claude Code sessions in parallel, and the agent view (claude agents) is where I spend my day. By default, Claude Code titles each session with a short summary of its first prompt, written by Haiku. That’s fine until you have three sessions called something like “improve test sharding…",
+      "author": "Daniel Doubrovkine",
+      "publishedAt": "2026-11-27T00:00:00.000Z"
     }
   ],
-  "totalIndexed": 30
+  "totalIndexed": 31
 }
