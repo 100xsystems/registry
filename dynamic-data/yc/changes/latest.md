@@ -4,52 +4,31 @@
 - Current total: 6408
 - Added: 0
 - Removed: 0
-- Updated: 10
+- Updated: 6
 
 
 ## Updated Companies
 
 ### [SkydropX](https://www.ycombinator.com/companies/skydropx)
 
-- `stage`: Growth → Early
+- `stage`: Early → Growth
 
-### [Carrot Labs](https://www.ycombinator.com/companies/carrot-labs)
+### [Lab0](https://www.ycombinator.com/companies/lab0)
 
-- `one_liner`: AI Cost Management: Track and attribute AI spend across every provider → Cost optimization for AI products and coding agents
+- `one_liner`: AI FDEs to make your B2B SaaS Go Live in Days, not Months → Agent harness for ERP implementations
 
-### [isoquant](https://www.ycombinator.com/companies/isoquant)
+### [tday.com](https://www.ycombinator.com/companies/tdaycom)
 
-- `one_liner`: Recursively self-improving inference cloud for 4x faster AI models → Recursive self-improvement for 100x more efficient AI inference
-- `tags`: AIOps,Cloud Computing,AI → AIOps,Developer Tools,Cloud Computing,AI
+- `small_logo_thumb_url`: https://bookface-images.s3.amazonaws.com/small_logos/33e0000312a01c1b5744e49712c9463c89932ac4.png → https://bookface-images.s3.amazonaws.com/small_logos/735cfe5f722d1d60f5e7b418440e30eae3a15f2b.png
 
-### [Viraj Aero](https://www.ycombinator.com/companies/viraj-aero)
-
-- `one_liner`: Next generation gas turbines for data centers & aviation → Gas turbines for data-centers
-
-### [Open Actuation](https://www.ycombinator.com/companies/open-actuation)
-
-- `one_liner`: Quick-turn, purpose-built motors & actuators for all → Purpose-built, quick-turn robot actuators and drone motors
-
-### [Quivly AI](https://www.ycombinator.com/companies/quivly-ai)
-
-- `one_liner`: AI agents that run onboarding, adoption, and renewals → AI agents that grow revenue from existing customers
-
-### [Avout](https://www.ycombinator.com/companies/avout)
-
-- `all_locations`: San Francisco, CA, USA → New York City, NY, USA
-- `one_liner`: Financing for robots and the physical AI buildout → Financing the physical buildout of the American frontier
-- `subindustry`: Fintech -> Credit and Lending → Fintech
-- `tags`: Fintech,Finance,Lending,Neobank → Fintech,Hard Tech,Hardware,Data Science,Lending
-- `industries`: Fintech,Credit and Lending → Fintech
-
-### [Axonnic](https://www.ycombinator.com/companies/axonnic)
-
-- `one_liner`: Creating human skill at robot scale → Human-AI symbiosis 
-
-### [Ascenix](https://www.ycombinator.com/companies/ascenix)
-
-- `one_liner`: Custom software for senior care facilities. → Agents to autonomously run senior homes
-
-### [Render](https://www.ycombinator.com/companies/render)
+### [Context.dev](https://www.ycombinator.com/companies/contextdev)
 
 - `isHiring`: false → true
+
+### [Agent 37](https://www.ycombinator.com/companies/agent-37)
+
+- `one_liner`: Cheapest sandbox for AI agents → Cheapest cloud computers for AI agents
+
+### [Perit.AI](https://www.ycombinator.com/companies/peritai)
+
+- `one_liner`: Expert-collected voice, egocentric and RL training data for frontier… → Expert-collected voice and RL training data for frontier AI labs
