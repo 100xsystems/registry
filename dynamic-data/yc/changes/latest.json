@@ -1,103 +1,74 @@
 {
-  "date": "2026-11-27",
-  "fetchedAt": "2026-11-27T20:43:43.069Z",
-  "previousCount": 6409,
+  "date": "2026-11-28",
+  "fetchedAt": "2026-11-28T00:55:31.879Z",
+  "previousCount": 6408,
   "currentCount": 6408,
   "added": [],
-  "removed": [
-    {
-      "id": 31365,
-      "name": "Incandor",
-      "slug": "incandor",
-      "former_names": [],
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/897d4bcd4f8d8953ac74712b5cc1711e4eb40c78.png",
-      "website": "https://www.incandor.com",
-      "all_locations": "San Francisco, CA, USA",
-      "long_description": "As AI agents become increasingly autonomous, they're gaining access to the most sensitive systems inside the enterprise. Yet today's security tools were built to control who has access, not understand what they're actually doing with it.",
-      "one_liner": "Incandor is building the next generation of security for a world run…",
-      "team_size": 3,
-      "highlight_black": false,
-      "highlight_latinx": false,
-      "highlight_women": false,
-      "industry": "B2B",
-      "subindustry": "B2B",
-      "launched_at": 1778822795,
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "tags_highlighted": [],
-      "top_company": false,
-      "isHiring": false,
-      "nonprofit": false,
-      "batch": "Spring 2026",
-      "status": "Active",
-      "industries": [
-        "B2B"
-      ],
-      "regions": [
-        "United States of America",
-        "America / Canada"
-      ],
-      "stage": "Early",
-      "app_video_public": false,
-      "demo_day_video_public": false,
-      "app_answers": null,
-      "question_answers": false,
-      "url": "https://www.ycombinator.com/companies/incandor"
-    }
-  ],
+  "removed": [],
   "updated": [
     {
-      "id": 37401,
-      "name": "Theseus Robotics",
-      "slug": "theseus-robotics",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/theseus-robotics",
+      "id": 29807,
+      "name": "Dataleap",
+      "slug": "dataleap",
+      "batch": "Summer 2024",
+      "url": "https://www.ycombinator.com/companies/dataleap",
       "changes": [
         {
-          "field": "all_locations",
-          "before": "ZH, Switzerland",
-          "after": "San Francisco, CA, USA"
+          "field": "small_logo_thumb_url",
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/faee29cbea32c379ce896ec9fb7d1788061afc21.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/dfab21abb5c1401c71d98a78052c17a7d96fad05.png"
         },
         {
-          "field": "regions",
+          "field": "one_liner",
+          "before": "AI Employees for the Enterprise",
+          "after": "Build agentic systems that run your business"
+        },
+        {
+          "field": "team_size",
+          "before": 6,
+          "after": 7
+        },
+        {
+          "field": "tags",
           "before": [
-            "Switzerland",
-            "Europe"
+            "Generative AI",
+            "Enterprise Software",
+            "AI"
           ],
           "after": [
-            "United States of America",
-            "America / Canada"
+            "Generative AI",
+            "Workflow Automation",
+            "Enterprise Software",
+            "AI"
           ]
         }
       ]
     },
     {
-      "id": 37665,
-      "name": "Contour",
-      "slug": "contourholdings",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/contourholdings",
+      "id": 30975,
+      "name": "MadeThis",
+      "slug": "madethis",
+      "batch": "Fall 2025",
+      "url": "https://www.ycombinator.com/companies/madethis",
       "changes": [
         {
-          "field": "one_liner",
-          "before": "AI-native permitting for Data Centers",
-          "after": "AI-native permitting for America's Infrastructure"
+          "field": "team_size",
+          "before": 3,
+          "after": 6
         }
       ]
     },
     {
-      "id": 39579,
-      "name": "GatherHQ",
-      "slug": "gatherhq",
-      "batch": "Fall 2026",
-      "url": "https://www.ycombinator.com/companies/gatherhq",
+      "id": 31088,
+      "name": "RunAnywhere",
+      "slug": "runanywhere",
+      "batch": "Winter 2026",
+      "url": "https://www.ycombinator.com/companies/runanywhere",
       "changes": [
         {
-          "field": "one_liner",
-          "before": "Applied AI for Enterprise GTM (3x founders, 10x growth, backed by ANT)",
-          "after": "Applied AI for Enterprise GTM (3x founders, 3x exits)"
+          "field": "isHiring",
+          "before": true,
+          "after": false
         }
       ]
     }
