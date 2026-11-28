@@ -8,7 +8,7 @@
     "sql",
     "open-source"
   ],
-  "updatedAt": "2026-11-27T16:25:21.146Z",
+  "updatedAt": "2026-11-28T06:31:39.863Z",
   "items": [
     {
       "guid": "https://postgr.es/p/9qj",
@@ -3881,7 +3881,15 @@
       "summary": "How pg_orca added PostgreSQL 19.0 support in 13 #if guards across 6 files — without forking a branch — plus native SQL:2003 IGNORE NULLS support and the real optimizer bugs uncovered by PG 19's regression suite.",
       "author": null,
       "publishedAt": "2026-11-27T00:00:00.000Z"
+    },
+    {
+      "guid": "https://postgr.es/p/9EA",
+      "title": "Christophe Pettus: All Your GUCs in a Row: send_abort_for_crash and send_abort_for_kill",
+      "link": "https://postgr.es/p/9EA",
+      "summary": "PostgreSQL 16 added two parameters that intentionally make crashes worse—by writing core files from every dying process instead of just one.\n\n(I consult on PostgreSQL through PGX Inc..)",
+      "author": null,
+      "publishedAt": "2026-11-28T02:00:00.000Z"
     }
   ],
-  "totalIndexed": 484
+  "totalIndexed": 485
 }

@@ -1,74 +1,198 @@
 {
   "date": "2026-11-28",
-  "fetchedAt": "2026-11-28T00:55:31.879Z",
+  "fetchedAt": "2026-11-28T06:31:54.963Z",
   "previousCount": 6408,
   "currentCount": 6408,
   "added": [],
   "removed": [],
   "updated": [
     {
-      "id": 29807,
-      "name": "Dataleap",
-      "slug": "dataleap",
-      "batch": "Summer 2024",
-      "url": "https://www.ycombinator.com/companies/dataleap",
+      "id": 2004,
+      "name": "SkydropX",
+      "slug": "skydropx",
+      "batch": "Summer 2018",
+      "url": "https://www.ycombinator.com/companies/skydropx",
       "changes": [
         {
-          "field": "small_logo_thumb_url",
-          "before": "https://bookface-images.s3.amazonaws.com/small_logos/faee29cbea32c379ce896ec9fb7d1788061afc21.png",
-          "after": "https://bookface-images.s3.amazonaws.com/small_logos/dfab21abb5c1401c71d98a78052c17a7d96fad05.png"
-        },
+          "field": "stage",
+          "before": "Growth",
+          "after": "Early"
+        }
+      ]
+    },
+    {
+      "id": 31295,
+      "name": "Carrot Labs",
+      "slug": "carrot-labs",
+      "batch": "Winter 2026",
+      "url": "https://www.ycombinator.com/companies/carrot-labs",
+      "changes": [
         {
           "field": "one_liner",
-          "before": "AI Employees for the Enterprise",
-          "after": "Build agentic systems that run your business"
-        },
+          "before": "AI Cost Management: Track and attribute AI spend across every provider",
+          "after": "Cost optimization for AI products and coding agents"
+        }
+      ]
+    },
+    {
+      "id": 33250,
+      "name": "isoquant",
+      "slug": "isoquant",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/isoquant",
+      "changes": [
         {
-          "field": "team_size",
-          "before": 6,
-          "after": 7
+          "field": "one_liner",
+          "before": "Recursively self-improving inference cloud for 4x faster AI models",
+          "after": "Recursive self-improvement for 100x more efficient AI inference"
         },
         {
           "field": "tags",
           "before": [
-            "Generative AI",
-            "Enterprise Software",
+            "AIOps",
+            "Cloud Computing",
             "AI"
           ],
           "after": [
-            "Generative AI",
-            "Workflow Automation",
-            "Enterprise Software",
+            "AIOps",
+            "Developer Tools",
+            "Cloud Computing",
             "AI"
           ]
         }
       ]
     },
     {
-      "id": 30975,
-      "name": "MadeThis",
-      "slug": "madethis",
-      "batch": "Fall 2025",
-      "url": "https://www.ycombinator.com/companies/madethis",
+      "id": 34904,
+      "name": "Viraj Aero",
+      "slug": "viraj-aero",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/viraj-aero",
       "changes": [
         {
-          "field": "team_size",
-          "before": 3,
-          "after": 6
+          "field": "one_liner",
+          "before": "Next generation gas turbines for data centers & aviation",
+          "after": "Gas turbines for data-centers"
         }
       ]
     },
     {
-      "id": 31088,
-      "name": "RunAnywhere",
-      "slug": "runanywhere",
-      "batch": "Winter 2026",
-      "url": "https://www.ycombinator.com/companies/runanywhere",
+      "id": 35389,
+      "name": "Open Actuation",
+      "slug": "open-actuation",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/open-actuation",
+      "changes": [
+        {
+          "field": "one_liner",
+          "before": "Quick-turn, purpose-built motors & actuators for all",
+          "after": "Purpose-built, quick-turn robot actuators and drone motors"
+        }
+      ]
+    },
+    {
+      "id": 35397,
+      "name": "Quivly AI",
+      "slug": "quivly-ai",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/quivly-ai",
+      "changes": [
+        {
+          "field": "one_liner",
+          "before": "AI agents that run onboarding, adoption, and renewals",
+          "after": "AI agents that grow revenue from existing customers"
+        }
+      ]
+    },
+    {
+      "id": 35951,
+      "name": "Avout",
+      "slug": "avout",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/avout",
+      "changes": [
+        {
+          "field": "all_locations",
+          "before": "San Francisco, CA, USA",
+          "after": "New York City, NY, USA"
+        },
+        {
+          "field": "one_liner",
+          "before": "Financing for robots and the physical AI buildout",
+          "after": "Financing the physical buildout of the American frontier"
+        },
+        {
+          "field": "subindustry",
+          "before": "Fintech -> Credit and Lending",
+          "after": "Fintech"
+        },
+        {
+          "field": "tags",
+          "before": [
+            "Fintech",
+            "Finance",
+            "Lending",
+            "Neobank"
+          ],
+          "after": [
+            "Fintech",
+            "Hard Tech",
+            "Hardware",
+            "Data Science",
+            "Lending"
+          ]
+        },
+        {
+          "field": "industries",
+          "before": [
+            "Fintech",
+            "Credit and Lending"
+          ],
+          "after": [
+            "Fintech"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 36840,
+      "name": "Axonnic",
+      "slug": "axonnic",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/axonnic",
+      "changes": [
+        {
+          "field": "one_liner",
+          "before": "Creating human skill at robot scale",
+          "after": "Human-AI symbiosis "
+        }
+      ]
+    },
+    {
+      "id": 37434,
+      "name": "Ascenix",
+      "slug": "ascenix",
+      "batch": "Fall 2026",
+      "url": "https://www.ycombinator.com/companies/ascenix",
+      "changes": [
+        {
+          "field": "one_liner",
+          "before": "Custom software for senior care facilities.",
+          "after": "Agents to autonomously run senior homes"
+        }
+      ]
+    },
+    {
+      "id": 42985,
+      "name": "Render",
+      "slug": "render",
+      "batch": "Winter 2027",
+      "url": "https://www.ycombinator.com/companies/render",
       "changes": [
         {
           "field": "isHiring",
-          "before": true,
-          "after": false
+          "before": false,
+          "after": true
         }
       ]
     }
